@@ -643,86 +643,60 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes X-67, the Slot Taken by XQ-67A A364 2025-12-12
 
 `x_planes_x67_slot_taken_by_xq67.markdown`, A364, editorial date 2025-12-12, series `x_planes`
-index 68 of 72, categories `aerospace history engineering`. **DRAFTING AND EQUATION-DENSITY PASSES
-COMPLETE. The two remaining passes are primary references and the publication review.** **NOT
-PUBLISHED**, and publication of the series has never been authorised.
+index 68 of 72, categories `aerospace history engineering`. **DRAFTING, EQUATION-DENSITY AND
+PRIMARY-REFERENCE PASSES COMPLETE. The remaining pass is the publication review.** **NOT PUBLISHED**,
+and publication of the series has never been authorised.
 
-**4,573 lines, 30,926 words, 68 display equations, 185 inline expressions, an 85-entry symbol table
-and 1,164 reference definitions**, in 9 H2 and 48 H3 sections with 18 tables, citing 1,081 research
-records across 15 clusters from a pool of 9,505. After drafting it stood at 4,020 lines, 26 display
-equations and a 50-entry symbol table.
+**5,158 lines, 35,511 words, 68 display equations, 185 inline expressions, an 85-entry symbol table
+and 1,315 reference definitions**, in 9 H2 and 53 H3 sections with 20 tables, citing 1,228 research
+records across 15 clusters from a pool of 14,384, with **159 report primaries at 12.1 percent**, a
+median year of 2011, a range from 1900 to 2026, 426 records from 2015 onward at 36.4 percent and 214
+before 2000. After drafting it stood at 4,020 lines, 26 equations and 1,164 definitions.
 
-**THE KEYSTONE IS THAT THE REGISTER'S ENTRY FOR THIS DESIGNATION IS AN ANALOGY.** The compiler
-writes that just like the X-58 the slot was skipped after the allocation of the XQ-67A, and that is
-the whole of the public reasoning. The X-58's entry carries reasoning, a confidence grading and the
-claim that the slot is empty; the X-67's carries none of the three. **So the article supplies the
-evidence the register asserts without**, by testing whether a borrowed number equals its claimed
-source series' next number and no other series', which **fires twice in six and names the research
-series both times**.
+**THE KEYSTONE IS THAT THE REGISTER'S ENTRY FOR THIS DESIGNATION IS AN ANALOGY**, reading that just
+like the X-58 the slot was skipped after the allocation of the XQ-67A, where the X-58's entry carries
+reasoning, a confidence grading and the claim that the slot is empty. **So the article supplies the
+evidence the register asserts without**, by a test that fires twice in six and names the research
+series both times.
 
-**THE EQUATION PASS FOUND THE RULE CHANGE, AND THE RELATION IS WHAT FOUND IT.** Differencing the
-instruction's own claim that a design number is an ordinal, and then measuring the advance of the
-running maximum rather than the increment, produced the research series' five gaps and its one fill.
-**The X-49A filled a gap the X-50A had passed, 464 days later.** The joint instruction of 9 September
-1994 required the next available consecutive design number, and a passed number is available; the
-2020 instruction requires the last approved design number and refuses requests in reverse or skipped
-sequences. **So the X-67 is the first number in the research series to be skipped under a rule that
-makes skipping permanent**, and the X-58's slot was recoverable for two years while nobody wanted it.
+**THE PRIMARY PASS READ THE DOCUMENTS A SENTENCE THE ARTICLE ALREADY QUOTED HAD NAMED.** The founding
+regulation of 18 September 1962 defines the design number as **the sequence number of each new
+design** and gives **three worked examples of what forces a new one**, all of them the airframe's
+shape or propulsion and none of them mission equipment. **A genus holds those three constant and swaps
+exactly what the 1962 test ignores**, so the system that wrote the definition would have refused a
+species a number of its own. The founding document also defines both of this designation's letters,
+shows that the Q was then a modified mission symbol so the designation could not have been written in
+1962, and states that **the requester named the mission while the agency chose the number.**
 
-**AND THE RESEARCH SERIES IS THE BEST-BEHAVED SEQUENCE IN THE REGISTER, AT 72.7 PERCENT OF POINTER
-ADVANCES EQUAL TO ONE** against 51.5 for missiles, 44.8 for unmanned and 50.4 register-wide. **The
-X-67 was lost from the one numbering sequence that mostly does follow the rule.**
+**THE EQUATION PASS'S CAVEAT IS RESOLVED.** The 2005 edition still says the office will assign the
+next available consecutive design number and never uses the word skip, **so the change falls between
+2005 and 2020 and is two changes**, the quantity and the duty. **The X-67 is the first number in the
+research series to be skipped under a rule that makes skipping permanent.**
 
-**THE SECOND BORROWING FALLS ON THE FAR SIDE OF A LINE THE FIRST DID NOT.** The XQ-58A's description
-is official Department wording and the XQ-67A's carries the mark saying it is not. **The government
-will officially record which engine is in the aeroplane that consumed the X-67 and will not
-officially record what it is for.**
+**A CORRECTION.** The article attributed the public list's cancellation to the compiler and to
+secondary coverage. **It is in the 2020 instruction itself, twice in the text and once in its summary
+of changes**, naming `data.af.mil` as where the public may obtain the latest version. **And the list's
+own Change 1 of 2018 cancels nothing**, reassigning an office of primary responsibility.
 
-**THE AEROPLANE WAS BUILT TO DENY THE PREMISE THE NUMBER RESTS ON.** The Off-Board Sensing Station
-existed to prove a shared genus carrying replaceable species, and **by the instruction's own
-criterion a species belongs on a series letter**, since the only concrete test it offers is whether
-the change alters the logistics support of the vehicle. The keystone's formal statement is now two
-failures rather than one: **the purpose map is a function and is not injective, and the maker map is
-not a function at all.**
+**AND THE RESEARCH SERIES IS THE BEST-BEHAVED SEQUENCE IN THE REGISTER**, at 72.7 percent of pointer
+advances equal to one against 50.4 register-wide, **so the X-67 was lost from the one numbering
+sequence that mostly does follow the rule.**
 
-**THE ARITHMETIC'S LIMITS NOW BOUND THE PROGRAMME'S CLAIM.** The sharing slope tends to minus one, so
-**no family however large saves more unit cost than the fraction it shares**, which at three fifths is
-60.00 percent against 13.63 actually reached at three species. **A thirty percent saving needs about
-nineteen species on one chassis** and the programme named two. Against that, the capability
-shortfall's gradient is 7.218 times larger at a three-year freeze than at fifteen, **so the value
-would lie in the cadence and not the parts**, with every input unpublished.
+**THE AIMED SWEEP WORKED WHERE THE REPORT LITERATURE EXISTS AND NOWHERE ELSE.** Fifty-three questions
+in the reports server's own vocabulary took the pool from 9,505 to 14,384 and bought 49 report
+primaries, commonality rising 1.8 to 6.3 percent and flexibility 2.9 to 17.5. **Product families, the
+largest cluster at 366 records, went from 0 report primaries to 1**, because product family design is
+a manufacturing and management literature.
 
-**THE INSTITUTIONAL FINDING IS LARGER THAN THE DESIGNATION.** The printed list was cancelled in 2018
-and **the hostname its cancellation notice named as successor returns no answer from the
-authoritative nameservers for its own zone**, with a sibling in the same zone resolving normally. And
-**the quantity the 1994 instruction named is not derivable from the only public source**, since the
-lowest-never-allocated number evaluates to 1 over a register that opens in 1998.
+**VERIFICATION.** `verify_numbers.py` **347 checks**, passing, importing neither the measurement nor
+the derivation modules, parsing the register again with a different parser, and **measuring the third
+sweep against a frozen baseline rather than claiming a gain.** `_verify.py` 0 errors and 0 warnings
+across 304 posts. `_lib/render.py` no findings across 538 pages. `mathrot.py` 68 source display blocks
+against 68 rendered. `symcheck.py` passing across 85 symbols. `stylecheck.py` zero findings. **Twenty
+hand-written addresses, fifteen fetched, four registry-confirmed and one returning neither.**
 
-**MEASURED NEGATIVE RESULTS.** The reports server holds 745 records across 62 questions and the sweep
-retrieved all 745, **which is complete coverage and a statement about the server rather than the
-sweep**. The report-primary share is 9.5 percent, the lowest this series has recorded. **And the
-programme's own vocabulary is unsearchable**, `common chassis aircraft` returning one record about a
-different vehicle and `OBSS` returning ten about the Space Shuttle's inspection boom.
-
-**DEFECTS FOUND ACROSS THE TWO PASSES, AND MOST WERE THE INSTRUMENT.** A remembered identifier
-written in the belief it was correct and resolving to nothing. A gate refusing the article's own
-foundational source. A frozen occurrence count returning zero for a phrase carrying a newline. A
-display counter seeing only one-line blocks. An officiality parser reading one of three markup levels
-and reporting a confident wrong count twice. A novelty overclaim caught by grepping the corpus after
-the first commit. An increment measure counting a B-model as a new design number and conflating
-skipping with out-of-order allocation. A limit check at ten to the ninth that was not large enough at
-an exponent of 0.2345. A tolerance that failed on a correctly rounded figure. **And `symcheck.py`
-treating `\mathcal` as structural, so every script letter was invisible and the five new script sets
-this pass added would have been validated by nothing.**
-
-**VERIFICATION.** `verify_numbers.py` **322 checks**, passing, importing neither the measurement nor
-the derivation modules, **parsing the register again with a different parser, re-evaluating every
-gradient by a central difference, every limit at ten to the fortieth, and the inversion by a round
-trip.** `_verify.py` 0 errors and 0 warnings across 304 posts. `_lib/render.py` no findings across 538
-pages. `mathrot.py` 68 source display blocks against 68 rendered. `symcheck.py` passing across 85
-declared symbols. `stylecheck.py` zero findings. **Fifteen hand-written addresses, eleven fetched,
-four registry-confirmed and one returning neither**, that one being the Department's own cancelled
-list which the article records as not read.
+**STILL NAMED AND UNREAD.** DoD Directive 4505.6 of 1962 and DoD Directive 4120.15 of 1985, both named
+in documents this pass read, and the Broad Agency Announcement of September 2020.
 
 **Publication was not requested and the article is not published.**
 

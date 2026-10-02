@@ -154,10 +154,18 @@ A \;=\; A_{\mathrm{out}} \,\sqcup\, A_{\mathrm{in}}
 $$
 
 **The register opens on 19 August 1998, so a designation allocated before that date is absent from it
-for a reason that has nothing to do with being skipped.** **five of the fifteen absences fall in that category**, being
-38, 39, 41, 42 and 43, and this series has already written three of them as real allocations that
-predate the window. **ten fall inside the window**, being 52, 58, 67, 69, 70, 71, 72, 73, 74 and 75, and
-for those the absence is informative because their neighbours are in the same document.
+for a reason that has nothing to do with being skipped.** **five of the
+fifteen absences fall in that category**, being 38, 39, 41, 42 and 43. **ten fall
+inside the window**, being 52, 58, 67, 69, 70, 71, 72, 73, 74 and 75, and for those the absence is informative because
+their neighbours are in the same document.
+
+**That division was an inference in a draft of this article and it is now a documented fact, because the
+government published its own list and the list carries them.** DoD 4120.15-L of 12 May 2004 lists the
+X-41A as an experimental manoeuvring reentry vehicle, the X-42A as an experimental expendable vehicle and
+the X-43A to Microcraft as a hypersonic experimental research aircraft, each with a sponsor and an
+engine entry \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]. **So three of the five
+absences outside the window are allocations the Department itself printed**, and their absence from a
+register that opens in August 1998 dates them rather than casting any doubt on them.
 
 **The share is worth stating because it is larger than a reader would guess, and it is the ratio of the
 two counts above.** Writing the set of absent numbers as $A$ and the span's endpoints as $d_{\min}$ and
@@ -638,12 +646,41 @@ skipping permanent.** That is a dated claim from primary text and it is the shar
 article can make about why the slot is empty. **The X-58's slot was recoverable for the first two years
 of its existence and nobody wanted it. The X-67's never was.**
 
-**Two caveats, and both are limits on what was read rather than on the argument.** This article can read
-two editions, the joint instruction of 1994 and the Department instruction of 2020, **and whether an
-edition between them changed the language earlier is not established here.** And the 1994 instruction's
-sentence is about what the coordinating office **will assign** rather than about what a requester may
-**ask for**, so reading it as permitting a fill is an inference from a procedural duty. **The X-49A is
-the evidence that the inference is right**, because the fill happened.
+### The Caveat the Drafting Pass Carried Is Now Resolved, and the Answer Narrows the Claim
+
+**A draft of this section said that whether an edition between 1994 and 2020 changed the language earlier
+was not established here.** It is established now. **Four editions of the rule have been read for this
+pass and they divide into two pairs.**
+
+| Edition | Who chooses the number | The quantity named | A skipped number |
+|---|---|---|---|
+| 18 September 1962 | the assignment agency | the next consecutive design number | not mentioned |
+| 9 September 1994 | the assignment agency | the next available consecutive design number | not mentioned |
+| 14 April 2005 | the assignment agency, which assigns and reserves | the next available consecutive design number | not mentioned |
+| 3 November 2020 | the requester, who researches and asks | the last approved design number | requests refused |
+
+**The 2005 edition settles it.** Air Force Instruction `16-401(I)` of 14 April 2005 states that the
+coordinating office **will assign and reserve the next available consecutive design number within each
+basic mission for new vehicles**, which is the 1994 wording with one verb added
+\[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]. **The word skip appears nowhere in it**, and
+neither does any eligibility criterion refusing a request in a skipped sequence.
+
+**So the change falls between 2005 and 2020 and it is two changes rather than one.** The quantity moved
+from the next available number to one above the last approved number. **And the duty moved from the
+agency to the requester.** The X-49A of 2003 and the X-58's skip of 2018 both fall under the old pair,
+and the X-67's skip of 2025 falls under the new one.
+
+**The 2005 edition also carries the design-number example in a form the 2020 edition changed by one
+word.** It reads that the design number 16 in F-16A is **the sixteenth MDS requested** for an aircraft
+with a fighter mission under the current reporting system, implemented September 1962
+\[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]. **The 2020 edition says approved rather than
+requested** \[[DAFI 16-401][ref_dafi_16_401_2020]]. A requested ordinal and an approved ordinal are
+different counts whenever a request is refused, **and this series has written about a refusal.**
+
+**One caveat survives and it is a narrow one.** The 1994 and 2005 sentences are about what the
+coordinating office **will assign** rather than about what a requester may **ask for**, so reading them
+as permitting a fill is an inference from a procedural duty. **The X-49A is the evidence that the
+inference is right**, because the fill happened, and nothing in either edition forbade it.
 
 ### Three Readings of the X-68A, and the Record Chooses None
 
@@ -759,11 +796,33 @@ what to ask for**, and only one of them is a published instruction while only th
 
 ### The Official Source the Procedure Requires Does Not Resolve
 
-**The procedure's research step depends on a source and the source was retired.** The printed list, DoD
-4120.15-L, had its last public edition in August 2018 carrying Change 1, and the compiler records that
-the Department announced that year that the list would be retired in favour of other online sources
-which have not been implemented \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **Secondary accounts of
-the cancellation state that the successor database was to be hosted at the address `data.af.mil`.**
+**The procedure's research step depends on a source, and the instruction that states the procedure is
+the same instruction that cancelled the source.** A draft of this section attributed the cancellation to
+the register's compiler and to secondary coverage. **That was an under-citation of the article's own best
+document**, because the instruction says it twice in its own text and once in its summary of changes.
+
+> Major changes include the new site for the most recent MDS database on data.af.mil and the cancellation
+> of DoD 4120.15-L, Model Designation of Military Aerospace Vehicles as the publically accessible MDS
+> database.
+
+> DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, will no longer be maintained as the
+> primary source of approved MDS designators and popular names. However, other Federal Agencies and the
+> public may obtain the latest version from data.af.mil.
+
+**The instruction also names where a Department component should look instead**, which is a page on the
+Defense Technical Information Center's DoDTechipedia site, and says that other Federal Agencies and the
+public may view or obtain an electronic tabular list by visiting the same address
+\[[DAFI 16-401][ref_dafi_16_401_2020]].
+
+**And the list's own Change 1 does not cancel anything, which is worth saying because the article had
+been told that it did.** DoD 4120.15-L of 12 May 2004 incorporating Change 1 of 31 August 2018 was read
+for this pass from a public web archive snapshot, the Department's own portal having refused every
+client. **Its summary of changes reassigns the office of primary responsibility to the Under Secretary of
+Defense for Acquisition and Sustainment and says nothing else**, and the words retire, cancel and
+`data.af.mil` appear nowhere in it \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]].
+
+**So the cancellation is a 2020 act of the Air Force instruction and not a 2018 act of the Department
+list**, and the article now cites the instrument rather than a description of it.
 
 **That address does not exist.** A query for the name against the authoritative nameservers for the
 `af.mil` zone returns no answer and a statement of authority, which is how a nameserver says that the
@@ -787,11 +846,19 @@ instruction does not state.** **Every public claim
 about why the X-67 is empty passes through that reconstruction**, and this article's own measurements do
 too.
 
-**The primary document itself was not read and that is recorded rather than glossed.** The address for
-DoD 4120.15-L on the Department's issuance portal returned HTTP 403 to two independent clients on
-2 October 2026 \[[DoD 4120.15-L][ref_dod_412015l_2018]]. **The cancellation statement is therefore known
-to this article from the compiler's front matter and from secondary coverage, and not from the document
-that made it.** A named and unread document is a task for the next pass.
+**The Department's own portal still refuses the document and the article says so, having obtained it
+elsewhere.** The address for DoD 4120.15-L on the issuance portal returns HTTP 403 to every client this
+article has tried \[[DoD 4120.15-L at the Department's portal][ref_dod_412015l_2018]]. **The document
+was read from a public web archive snapshot instead**, and the October 1998 edition's front matter from
+the compiler's scan of it \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]
+\[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
+
+**And the 1998 edition shows what the public access used to be, which is the measure the present state
+should be read against.** Its foreword states that the list is approved for public release with
+distribution unlimited, and gives three routes to a copy, being a Department web address, the Defense
+Technical Information Center for registered users, and the National Technical Information Service for
+other Federal agencies and the public \[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
+**Three published routes in 1998, and in 2020 one address that does not resolve.**
 
 ## What the Anomaly Reveals About the Designation System
 
@@ -852,9 +919,99 @@ representing major modifications that significantly alter the aerospace vehicle'
 change the logistics support of the vehicle** \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
 **So the system's model of identity is a two-level hierarchy and the word major is undefined at both
-levels.** A major design change earns a new number. A major modification earns a new letter. **Nothing in
-the instruction says how to tell one from the other**, and the only concrete test offered anywhere is the
-series letter's clause about changing the logistics support of the vehicle.
+levels in the instruction now in force.** A major design change earns a new number. A major modification
+earns a new letter. **The instruction of 2020 does not say how to tell one from the other.**
+
+### The Founding Document Did Say, and the Test It Gave Has Been Deleted
+
+**The sentence this article quoted two sections ago names three documents, and a primary-reference pass
+that leaves them unread has stopped one step short.** The instruction states that the designator format
+was established by the Department on 18 September 1962 with the publishing of Air Force Regulation
+66-11, Army Regulation 700-26 and Bureau of Naval Weapons Instruction 13100.7
+\[[DAFI 16-401][ref_dafi_16_401_2020]]. **Those are one document issued three times over**, a scan of it
+is public, and it has been read in full for this pass
+\[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
+
+**It defines the design number in four words the later editions dropped.**
+
+> Design Number. The sequence number of each new design of the same basic mission or type aircraft.
+
+**The founding definition does not say that a design number identifies major design changes. It says the
+design number is a sequence number**, which is the claim the increment test above was built to check and
+which the register now fails in nearly three quarters of its steps.
+
+**And where the modern instruction offers no test for what counts as a new design, the founding document
+offers three worked examples.**
+
+> New design numbers will be assigned when an existing aircraft or airship is redesigned to an extent
+> that it no longer reflects the original configuration or capability. Examples of changes requiring
+> design redesignation on aircraft are as follows: (1) Changing the number of engines of a specific
+> aircraft. (2) Changing the wing or control surface design of a specific aircraft from a straight wing
+> to a swept or delta wing design. (3) Changing the empennage of a specific design from straight to
+> swept surfaces or relocating the empennage.
+
+**All three are changes to the airframe's shape or its propulsion. Not one of them is a change of mission
+equipment.** The 1962 test is a test about the aeroplane and not about what the aeroplane is for.
+
+**That matters to this article's keystone more than anything else in the founding document.** A genus
+carrying several species shares the airframe and swaps the mission kit. **Under the 1962 test that is not
+a new design at all**, because the engine count, the wing and the empennage are the things held constant.
+**The system that would have refused a new design number to a species is the system that wrote the
+definition the current instruction still paraphrases.**
+
+**The series letter's criterion, by contrast, has survived almost word for word.** The founding document
+defines it as a letter denoting differences affecting methods of employment, differences affecting the
+relation of the vehicle to its ground environment, and major modifications resulting in significant
+changes to the logistic support \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
+**The logistic-support clause this article leans on is therefore sixty-three years old and not a recent
+form of words**, and the 2004 list and the 2005 and 2020 instructions all carry it
+\[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]
+\[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]] \[[DAFI 16-401][ref_dafi_16_401_2020]].
+
+**So the two levels have aged in opposite directions.** The lower level kept its criterion and the upper
+level lost its examples. **The system can still say what a modification is and can no longer say what a
+design is.**
+
+### And the Founding Document Defines Both of the Letters This Designation Carries
+
+**The X in XQ-67A is a status prefix and the X in X-67 would have been a basic mission, and the 1962
+document defines both on facing pages.**
+
+> X Experimental. Aircraft in a developmental, experimental stage where basic mission and design number
+> have been designated but not established as a standard vehicle for service use.
+
+> X Research. Aircraft designed for testing configurations of a radical nature. These aircraft are not
+> normally intended for use as tactical aircraft.
+
+**The first is the status prefix and the second is the basic mission and type symbol**, and the
+borrowing this article is about takes a number from the series the second letter governs and attaches it
+to a designation carrying the first \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
+
+**The other letter has moved, and the move is what made the designation possible.** In 1962 the Q is a
+**modified mission** symbol, defined as a drone, meaning an aircraft capable of being controlled from a
+point outside the aircraft. **A modified mission symbol cannot carry a design-number series of its own**,
+because it sits to the left of a basic mission letter rather than replacing it. **In the register today
+the Q is a basic mission symbol with its own numbering**, which is why there is an unmanned series for a
+number to be out of sequence in. **The designation XQ-67A could not have been written in 1962**, and not
+because the aeroplane did not exist.
+
+### The Agency Used to Choose the Number, and Now the Requester Does
+
+**This is the structural change the whole article has been circling and the founding document states the
+original arrangement plainly.**
+
+> The requesting service will indicate the desired mission or type symbols. The assignment agency will
+> assign the applicable design number and/or the applicable series letter.
+
+**In 1962 the requester named the mission and the agency chose the number.** The instruction in force
+today tells the requester to research the next-in-series designator from the last approved design number
+and to request it \[[DAFI 16-401][ref_dafi_16_401_2020]]. **The responsibility for choosing a design
+number has moved from the office that keeps the sequence to the office that wants the number.**
+
+**That is the precondition for everything the next section measures.** A number chosen by the keeper of
+the sequence is the next one by construction and carries no information. **A number chosen by the
+requester can be chosen for what it says**, and the unmanned series now carries nine numbers that are not
+the next one.
 
 ### The Instruction's Claim Has a Testable Consequence and the Register Fails It
 
@@ -1255,6 +1412,17 @@ number 88 in the missile series holds ten series letters across seven leading fi
 tolerates very large change under one number
 \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **Yet the first species on this genus received a design
 number of its own, taken from a different series.**
+
+**And the system has shown in the same decade that it can extend itself, which is what makes the absence
+of any mechanism for a shared chassis a choice rather than an oversight.** The 2020 instruction's own
+summary of changes records one addition to the designator alphabet, **a status prefix `e` meaning
+digitally developed, defined as aircraft that are engineered in a virtual environment**
+\[[DAFI 16-401][ref_dafi_16_401_2020]]. It is the only lowercase symbol in the scheme.
+
+**So in the same issue that cancelled the public list, the system added a letter for how an aeroplane was
+engineered and added nothing for whether it shares a chassis with another aeroplane.** The genus and
+species approach was already a laboratory programme with contracts when that instruction was signed.
+**The system encoded the design environment and left design sharing unencoded.**
 
 **The prediction is explicit and the record has not yet tested it.** If an off-board weapon station is
 built on the same genus, the instruction's criterion and the register's practice both suggest it should be
@@ -1771,7 +1939,7 @@ product families, component commonality and modular architecture. **That literat
 engineering and management science, which is why the sweep's two registries returned numbers that differ
 by an order of magnitude.**
 
-**The sweep admitted 1,153 records from a pool of 9,505 and assigned them across
+**The sweep admitted 1,310 records from a pool of 14,384 and assigned them across
 fifteen clusters, of which fifteen are non-empty.** A record may belong to more than
 one cluster, so the assignments exceed the record count and the mean is the quantity that says by how
 much.
@@ -1780,32 +1948,32 @@ $$
 \bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
 $$
 
-**That is 1.0624 clusters per record across 1,225 assignments.** A
+**That is 1.0550 clusters per record across 1,382 assignments.** A
 mean barely above one says the clusters are nearly disjoint, **which is a property of the gate rather
 than of the field**, since each cluster admits on compound nouns the others do not use.
 
 | Cluster | Records | What it holds |
 |---|---:|---|
-| `commonality` | 168 | component commonality, part sharing, commonality indices and metrics |
-| `product_family` | 357 | product families, product platforms, platform-based design, mass customisation |
-| `modularity` | 141 | modular architecture, module boundaries, design structure matrices, the theory of modularity |
-| `open_arch` | 45 | the modular open systems approach, open mission systems, integrated modular avionics |
-| `variety_cost` | 62 | the cost of variety, economies of scope, learning curves, development-cost estimation |
-| `flexibility` | 34 | real options in design, design flexibility, technology refresh and obsolescence |
+| `commonality` | 237 | component commonality, part sharing, commonality indices and metrics |
+| `product_family` | 366 | product families, product platforms, platform-based design, mass customisation |
+| `modularity` | 179 | modular architecture, module boundaries, design structure matrices, the theory of modularity |
+| `open_arch` | 50 | the modular open systems approach, open mission systems, integrated modular avionics |
+| `variety_cost` | 70 | the cost of variety, economies of scope, learning curves, development-cost estimation |
+| `flexibility` | 40 | real options in design, design flexibility, technology refresh and obsolescence |
 | `acp` | 84 | autonomous collaborative platforms, collaborative combat aircraft, crewed and uncrewed teaming |
 | `attritable` | 4 | attritability and affordable mass, which the X-58 article surveyed in full |
-| `autonomy` | 14 | autonomy architecture, reference autonomy, tactical datalinks, trust in automation |
-| `designation` | 97 | designation and nomenclature systems, part numbering, configuration identification |
-| `identifier` | 91 | identifier allocation, namespaces, persistent identifiers, versioning and compatibility |
+| `autonomy` | 15 | autonomy architecture, reference autonomy, tactical datalinks, trust in automation |
+| `designation` | 101 | designation and nomenclature systems, part numbering, configuration identification |
+| `identifier` | 98 | identifier allocation, namespaces, persistent identifiers, versioning and compatibility |
 | `taxonomy` | 54 | classification of artefacts, numerical taxonomy, engineering ontologies, identity criteria |
 | `uav_design` | 21 | conceptual design and sizing of unmanned aircraft |
-| `demonstrator` | 26 | flight demonstrators, rapid prototyping, prototype competitions, readiness levels |
-| `digital_eng` | 27 | digital engineering, model-based systems engineering, virtual prototyping |
+| `demonstrator` | 35 | flight demonstrators, rapid prototyping, prototype competitions, readiness levels |
+| `digital_eng` | 28 | digital engineering, model-based systems engineering, virtual prototyping |
 
 **The shape of that table is the article's subject restated.** The three largest clusters are
-product_family at 357, commonality at 168 and modularity at
-141, which together are the engineering literature of when a thing is a new thing. **The
-designation and identifier clusters, at 97 and 91, are the literature of
+product_family at 366, commonality at 237 and modularity at
+179, which together are the engineering literature of when a thing is a new thing. **The
+designation and identifier clusters, at 101 and 98, are the literature of
 how such things are named and numbered.** The taxonomy cluster at 54 is the literature of
 classifying artefacts at all.
 
@@ -1835,7 +2003,7 @@ right before any aeroplane had a design number.
 
 **There is no literature on the X-67 and the article states that rather than implying coverage.** The
 sweep returned no record whose subject is this designation, because a designation that was never
-allocated produces nothing. **The 1,153 records map the field the question sits in and not the
+allocated produces nothing. **The 1,310 records map the field the question sits in and not the
 question**, and the only sources that speak to the X-67 directly are the register, the compilation of
 missing designations and the instruction.
 
@@ -1856,24 +2024,28 @@ instruction. Everything about the aeroplane comes from two press releases and th
 
 ### The Pool
 
-**The sweep asked 62 questions of the reports server, fifteen clusters' worth of
+**The first sweep asked 62 questions of the reports server, fifteen clusters' worth of
 questions of the defence registry and the bibliographic index, and it recorded what each server said it
-held.** The reports server reported 745 matching records across the
-62 questions and returned 745, which is 100.0 percent. **That is the
-first sweep in this series to retrieve everything the reports server holds for its questions**, and the
-reason is not thoroughness. The reason is that it holds very little.
+held.** A third sweep followed in the primary-reference pass and the subsection after next measures what
+it bought. The reports server reported 745 matching records across the
+62 questions and returned 745, which is 100.0 percent. **That is
+complete coverage of what the first sweep asked for**, and the reason is not thoroughness. The reason is
+that the server holds very little under those questions. **The third sweep, which asks in the server's
+own vocabulary, retrieves 1,795 of 2,966 and walks out on
+two questions**, so complete coverage was a property of the phrasing and not of the
+article's reach.
 
 | Source | Distinct records |
 |---|---:|
-| The reports server | 668 |
-| The defence registry | 2,886 |
-| The bibliographic index | 5,951 |
-| Pool after de-duplication | 9,505 |
+| The reports server | 2,069 |
+| The defence registry | 5,228 |
+| The bibliographic index | 7,087 |
+| Pool after de-duplication, both sweeps | 14,384 |
 
 **25 of the 62 reports-server questions returned nothing at all and
-zero hit the retrieval bound.** The homonym store then refused 527 records on
-patterns written by earlier articles, and the subject gate then kept 1,153 of the
-8,978 that reached it and refused 7,825.
+zero hit the retrieval bound.** The homonym store then refused 799 records on
+patterns written by earlier articles, and the subject gate then kept 1,310 of the
+13,585 that reached it and refused 12,275.
 
 **Those four counts are not independent and the identity that ties them is checked rather than
 assumed.**
@@ -1892,8 +2064,67 @@ $$
 \varkappa \;=\; \frac{\sum_q R_q}{\sum_q N_q}
 $$
 
-**Summing what the reports server returned against what it said it held gives 100.0 percent**,
-with $R_q$ the records retrieved for a question and $N_q$ the total that question reported.
+**Summing what the reports server returned against what it said it held gives
+100.0 percent for the first sweep's questions**, with $R_q$ the records retrieved for a
+question and $N_q$ the total that question reported. **For the third sweep's questions the same ratio is
+60.5 percent**, because those questions reach a literature large enough to walk out of.
+
+### The Aimed Sweep, and What It Bought
+
+**The aim was a measurement before it was a sweep.** Running the per-cluster primary share before writing
+a single question returned the three largest clusters carrying almost nothing from the report literature,
+being product families at 0 primaries in 1,153 gated records, modularity at one and
+commonality at three. **Those three are the article's core**, so a sweep that did not reach them had not
+served the article.
+
+**And the homonym probe had already said why the first sweep missed them.** The reports server holds
+421 records for `commonality` and they are space station commonality, lunar and Martian
+hardware commonality and Mars habitat commonality. **The first sweep asked for commonality in
+aeronautical words and the server's commonality literature is spacecraft.** That is not a different
+subject. **How much two vehicles can share is this article's keystone question whatever the vehicles
+are**, and a government engineering literature that spent two decades on it is a better primary base
+than a journal index.
+
+**So the third sweep asked 53 questions of the reports server in the server's own words**,
+together with fifteen clusters' worth of the defence registry and the bibliographic index. The
+server reported 2,966 records and returned 1,795, with
+two questions hitting the retrieval bound and eight returning nothing.
+
+| Cluster | Records before | Primaries before | Share before | Records after | Primaries after | Share after |
+|---|---:|---:|---:|---:|---:|---:|
+| `commonality` | 168 | 3 | 1.8 | 237 | 15 | 6.3 |
+| `product_family` | 357 | 0 | 0.0 | 366 | 1 | 0.3 |
+| `modularity` | 141 | 1 | 0.7 | 179 | 5 | 2.8 |
+| `open_arch` | 45 | 10 | 22.2 | 50 | 15 | 30.0 |
+| `variety_cost` | 62 | 3 | 4.8 | 70 | 11 | 15.7 |
+| `flexibility` | 34 | 1 | 2.9 | 40 | 7 | 17.5 |
+| `acp` | 84 | 0 | 0.0 | 84 | 0 | 0.0 |
+| `attritable` | 4 | 0 | 0.0 | 4 | 0 | 0.0 |
+| `autonomy` | 14 | 11 | 78.6 | 15 | 12 | 80.0 |
+| `designation` | 97 | 42 | 43.3 | 101 | 43 | 42.6 |
+| `identifier` | 91 | 0 | 0.0 | 98 | 1 | 1.0 |
+| `taxonomy` | 54 | 0 | 0.0 | 54 | 0 | 0.0 |
+| `uav_design` | 21 | 2 | 9.5 | 21 | 2 | 9.5 |
+| `demonstrator` | 26 | 21 | 80.8 | 35 | 30 | 85.7 |
+| `digital_eng` | 27 | 16 | 59.3 | 28 | 17 | 60.7 |
+
+**The pool went from 9,505 to 14,384, the gated corpus from 1,153 to 1,310, and
+the report primaries from 110 to 159**, which is 49 bought and a share
+moving from 9.5 to 12.1 percent. **The largest single gain is
+`commonality` at 12 primaries**, from 1.8 to 6.3 percent.
+
+**And the honest result is in the row the sweep was aimed at hardest.** Product families, the largest
+cluster at 366 records, went from 0 report primaries to
+1. **Questions asked in the server's own words about families of vehicles, derivative
+designs, growth versions and common airframes bought one record.** Product family design is a
+manufacturing and management literature, **and no amount of rephrasing moves it into a reports server
+that does not hold it.**
+
+**four clusters gained no primaries at all**, being `acp`, `attritable`, `taxonomy` and `uav_design`. Two of those are
+deliberate, since attritability belongs to the
+[X-58][related_post_a355_x58_slot_taken_by_xq58] article and the taxonomy cluster exists because the
+programme borrowed a biological metaphor rather than because a report literature discusses it. **The
+other two are measured absences and the article reports them as such.**
 
 ### The Reports Server Holds Almost None of This
 
@@ -1901,7 +2132,7 @@ with $R_q$ the records retrieved for a question and $N_q$ the total that questio
 the numbers say so plainly.** The whole of the reports server's holding across
 62 questions about shared airframe cores, commonality, modular architecture, platform economics
 and collaborative unmanned aircraft is 745 records. **The bibliographic index returned
-5,951.**
+7,087.**
 
 **The report-primary share is therefore the lowest this series has recorded, and the definition is the
 one the series has used throughout.**
@@ -1910,11 +2141,11 @@ $$
 \varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
 $$
 
-Of the 1,153 gated records, 110 come from the reports server or the defence registry,
-so $\varpi$ is **9.5 percent**, split 21 from the reports server and
-89 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
+Of the 1,310 gated records, 159 come from the reports server or the defence registry,
+so $\varpi$ is **12.1 percent**, split 49 from the reports server and
+110 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
 percent on the same definition, and those four figures are quoted from those articles rather than
-recomputed here.** This one reports 9.5.
+recomputed here.** This one reports 12.1.
 
 **That is a finding about the subject and it is also a target for the next pass.** Commonality and product
 family design are a manufacturing and management literature, and a research agency that builds aeroplanes
@@ -1923,7 +2154,7 @@ programme documents exist in the report literature under names the sweep did not
 Attritable Aircraft Technologies initiative and the Low-Cost Attritable Strike Demonstrator being two
 such names, together with the Broad Agency Announcement the trade coverage dates to September 2020.
 
-**The reference base as a whole is 1,164 definitions and it partitions four ways.**
+**The reference base as a whole is 1,315 definitions and it partitions four ways.**
 
 $$
 \lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
@@ -1932,17 +2163,17 @@ $$
 + \lvert \mathcal{B}_{\mathrm{res}} \rvert
 $$
 
-**twelve are hand-written primary sources, four are hand-written theory sources,
-67 are the prior articles of this series, and 1,081 are harvested research
+**sixteen are hand-written primary sources, four are hand-written theory sources,
+67 are the prior articles of this series, and 1,228 are harvested research
 records.** **Of the harvested records
-1,043 came from the bibliographic index**, which is the proportion the subject dictates rather
+1,151 came from the bibliographic index**, which is the proportion the subject dictates rather
 than a choice.
 
 **The period profile is reported beside the fraction because the two move independently.** Of the
-1,081 research definitions, 1,027 carry a year and 54 do not. **The
+1,228 research definitions, 1,170 carry a year and 58 do not. **The
 median year is 2011, the range runs from 1900 to 2026,
-384 records are from 2015 onward at 37.4 percent, and
-160 predate 2000.**
+426 records are from 2015 onward at 36.4 percent, and
+214 predate 2000.**
 
 ### The Programme's Own Words Are Unsearchable
 
@@ -2028,7 +2259,7 @@ supports.
 ### The Addresses, Swept
 
 **Every hand-written address in the article was fetched and what each returned is recorded.** There are
-fifteen of them. **ten returned a document, four were refused by a
+twenty of them. **fifteen returned a document, four were refused by a
 publisher that declines automated clients and were instead confirmed against the bibliographic index by
 author and title, and one returned neither.** The one that returned neither is the
 Department's own cancelled list, and the article says in its own definition that it was not read.
@@ -2090,6 +2321,29 @@ the article has added one, for claims that are measurements of a document rather
   of the same basic mission, refuses requests in reverse or skipped sequences, and reserves to the
   allocating office the authority to skip a design number at discretion**
   \[[DAFI 16-401][ref_dafi_16_401_2020]].
+- **The founding document of 18 September 1962 defines the design number as the sequence number of each
+  new design of the same basic mission, gives three worked examples of changes requiring a new design
+  number, and states that the requesting service names the mission while the assignment agency assigns
+  the number** \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
+- **That document also defines the X as both a status prefix meaning experimental and a basic mission
+  symbol meaning research, and defines the Q as a modified mission symbol meaning drone** rather than as
+  a basic mission \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
+- **It publishes the next research design number as 22A**, in a list of four current research aircraft
+  \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
+- **The editions of 1994 and 2005 both direct the coordinating office to assign the next available
+  consecutive design number, and neither contains the word skip**
+  \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]
+  \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]].
+- **The 2020 instruction cancels DoD 4120.15-L as the publicly accessible database, names `data.af.mil`
+  as where the public may obtain the latest version, and adds a status prefix `e` for aircraft engineered
+  in a virtual environment** \[[DAFI 16-401][ref_dafi_16_401_2020]].
+- **Change 1 of 31 August 2018 to DoD 4120.15-L reassigns the office of primary responsibility and does
+  nothing else**, the words retire, cancel and the successor address appearing nowhere in it
+  \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]].
+- **The October 1998 edition is approved for public release with distribution unlimited and gives three
+  routes to a copy** \[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
+- **The 2004 edition lists the X-41A, the X-42A and the X-43A as approved designators**
+  \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]].
 - **The instruction defines the design number as identifying major design changes within the same basic
   mission, and the series letter as identifying major modifications that significantly alter systems or
   components or change the logistics support of the vehicle** \[[DAFI 16-401][ref_dafi_16_401_2020]].
@@ -2170,6 +2424,11 @@ parses it the same way.
 - **That the laboratory's account of deciding at the end of 2021 is most likely an error for the end of
   2022 or a reference to the award itself** is an inference from a twelve-month base period, and the
   record contains nothing that chooses.
+- **That a species on a shared chassis would not have earned a new design number under the 1962 test** is
+  an inference from three worked examples, all of which concern the airframe's shape or its propulsion
+  and none of which concerns mission equipment. **The examples are facts and the application is not.**
+- **That the 1994 and 2005 wording permitted the X-49A's fill** is an inference from a procedural duty on
+  the assigning office rather than from a stated permission to a requester.
 
 ### What the Record Does Not Settle
 
@@ -2183,6 +2442,12 @@ parses it the same way.
   is not. The register's behaviour is consistent with its being so. **No publication states the practice.**
 - **Whether the successor designation database exists and is maintained.** The address does not resolve
   publicly and a Department network may resolve it. **This article cannot see inside.**
+- **Whether an edition between 2005 and 2020 introduced the refusal of skipped sequences before the
+  2020 issue did.** Four editions have been read and the change falls somewhere in that fifteen-year
+  gap. **Narrowing it further would need an edition this article has not found.**
+- **What the Department directives behind the instructions say.** DoD Directive 4505.6 of 6 July 1962,
+  which the founding regulation implements, and DoD Directive 4120.15 of 2 May 1985, which the lists are
+  reissued under, are **named in documents this article has read and have not themselves been read.**
 - **What the Off-Board Sensing Station cost to develop, or what any part of the genus cost.** The award
   record gives contract amounts and the releases give none, and no document separates the chassis from
   the species.
@@ -2267,6 +2532,15 @@ belongs on a series letter**, because the only concrete test the instruction off
 whether the change alters the logistics support of the vehicle, and a common chassis is built so that it
 does not.
 
+**And the founding document is harder on the point than the instruction now in force.** On 18 September
+1962 the Department defined the design number as **the sequence number of each new design** and gave
+three worked examples of what forces one, being a change in the number of engines, a change of the wing
+from straight to swept or delta, and a change or relocation of the empennage
+\[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]]. **All three are
+the airframe and none is the mission equipment.** A genus holds exactly those three constant and swaps
+exactly what the 1962 test ignores. **The system that wrote the definition would have refused a species a
+number of its own, and the system that inherited the definition without the examples gave one.**
+
 **The register shows the same thing from the other side and shows it twice.** six pairs of
 design numbers carry identical official descriptions, and in five of them the
 contractor is the only field that differs, so the number does not index the stated purpose. **Yet
@@ -2284,13 +2558,22 @@ genus concept is worth what the laboratory claims, the value is in the cadence a
 commonality**, and every input to both calculations is unpublished.
 
 **One institutional fact closes the case and it is larger than the designation.** The request procedure
-requires the requester to research the last approved design number in an official source. **The official
-published list was cancelled in 2018, the successor hostname its cancellation notice named does not
-resolve, and the public source a requester or a historian is left with is one private compiler's
-reconstruction obtained under the Freedom of Information Act** \[[DOD 4120.15-L Addendum][ref_mds_addendum]].
-**That reconstruction applies a next-number convention the instruction does not state**, since it reports
-the next research number as 69 while the instruction's own definition read literally gives
-77.
+requires the requester to research the last approved design number in an official source. **The same
+instruction that states that procedure cancels the publicly accessible list and directs the public to
+`data.af.mil` for the latest version** \[[DAFI 16-401][ref_dafi_16_401_2020]], **and that hostname
+returns no answer from the authoritative nameservers for its own zone.** So the public source a requester
+or a historian is left with is one private compiler's reconstruction obtained under the Freedom of
+Information Act \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **That reconstruction applies a
+next-number convention the instruction does not state**, since it reports the next research number as 69
+while the instruction's own definition read literally gives 77.
+
+**Measured against what the system used to publish, that is a long fall.** The founding regulation
+required the assignment agency to publish, not less frequently than every six months, an unclassified
+listing of assigned designations carrying the complete designation, the responsible service and a short
+description. **The October 1998 list was approved for public release with
+distribution unlimited and gave three routes to a copy.** The 2020 instruction gives one address, and it
+does not exist \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]]
+\[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]] \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
 **So every public claim about the X-67, including every claim in this article, passes through a document
 the Department did not publish.** The designation is empty, the emptiness is irreversible, the mechanism
@@ -2302,22 +2585,30 @@ rebuilt because the official one was withdrawn.**
 ### Reference
 
 - [AFRL Chooses General Atomics Drone for Off-Board Sensing Station Program, The Defense Post, 6 February 2023, read in full, and SECONDARY, being the source of the February 2023 selection date the laboratory's own release contradicts][ref_dp_obss_2023]
+- [Air Force Instruction 16-401(I), Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 14 April 2005, read in part, and the edition that settles whether the allocation rule changed before 2020][ref_afi_16_401_2005]
 - [Air Force Joint Instruction 16-401 and NAVAIRINST 8800.3A, Designating and Naming Defense Military Aerospace Vehicles, 9 September 1994, implementing DoD Directive 4120.15 of 2 May 1985, read in full, and the edition in force when the X-49A filled a gap the X-50A had passed][ref_afji_16_401_1994]
+- [Air Force Regulation 66-11, Army Regulation 700-26 and Bureau of Naval Weapons Instruction 13100.7, Designating, Redesignating, and Naming Military Aircraft, 18 September 1962, implementing DoD Directive 4505.6 of 6 July 1962 and superseding AR 705-42 of 21 March 1957 and BUWEPSINST 13100.1A of 17 May 1961, signed by LeMay, Decker and Stroop, scanned by Andreas Parsch, READ IN FULL as nineteen page images because the scan carries no text layer][ref_afr_66_11_1962]
 - [Castrejon, AFRL's XQ-67A Makes 1st Successful Flight, Air Force Research Laboratory, 29 February 2024, distributed through the Defense Visual Information Distribution Service, read in full][ref_afrl_firstflight]
 - [Current Designations of U.S. Military Aircraft, compiled by Andreas Parsch, read in part][ref_dsnet_aircraft]
 - [Department of the Air Force Instruction 16-401, Designating and Naming Defense Military Aerospace Vehicles, 3 November 2020, sections 4 and 5 and Attachment 2 read directly][ref_dafi_16_401_2020]
 - [DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998 Until November 2025, compiled by Andreas Parsch from data obtained under the Freedom of Information Act, read in full as 532 parsed rows and 122 end notes][ref_mds_addendum]
-- [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, the last public edition carrying Change 1 of 31 August 2018, NOT READ, the address returning HTTP 403 to two independent clients on 2 October 2026][ref_dod_412015l_2018]
+- [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, 12 May 2004 incorporating Change 1 of 31 August 2018, read in part from a public web archive snapshot after the Department's own portal returned HTTP 403, and the edition whose Change 1 the article had been told cancelled the public list][ref_dod_412015l_2004]
+- [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, October 1998, reissued under DoD Directive 4120.15 of 2 May 1985 and cancelling the March 1996 edition, signed by Schneiter, scanned by Andreas Parsch, FRONT MATTER READ as page images because the scan carries no text layer][ref_dod_412015l_1998]
+- [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, the last public edition carrying Change 1 of 31 August 2018, at the Department's own portal, which returns HTTP 403 to every client this article has tried. The document itself was read from a web archive snapshot and is cited separately][ref_dod_412015l_2018]
 - [General Atomics Aeronautical Systems, GA-ASI Makes First Flight of XQ-67A OBSS, 29 February 2024, public affairs number AFRL-2024-0708, read in full][ref_gaasi_firstflight]
 - [General Atomics Aeronautical Systems, XQ-67A Demonstrates Autonomy and Datalink Interoperability During High Desert Flight Test, 16 July 2025, read in full][ref_gaasi_autonomy_2025]
 - [Missing USAF and DOD Aircraft Designations, compiled by Andreas Parsch, the X series and Q series sections and every next-number statement read directly][ref_missing_mds]
 - [Tirpak, Kratos, General Atomics Get Contracts for Off-Board Sensing Station Unmanned Fighter Escort, Air and Space Forces Magazine, 29 October 2021, read in full, and SECONDARY, being the source of the reported contract values the award record contradicts][ref_asf_obss_2021]
 - [USAspending.gov, the federal award reporting system, queried for the Off-Board Sensing Station and Low Cost Attritable Aircraft Platform Sharing programmes][ref_usaspending]
 
+[ref_afi_16_401_2005]: https://www.designation-systems.net/usmilav/afi16-401(i).pdf
 [ref_afji_16_401_1994]: https://irp.fas.org/doddir/usaf/16-401.htm
+[ref_afr_66_11_1962]: https://www.designation-systems.net/usmilav/original-docs/dod1962.pdf
 [ref_afrl_firstflight]: https://www.dvidshub.net/news/465637/afrls-xq-67a-makes-1st-successful-flight
 [ref_asf_obss_2021]: https://www.airandspaceforces.com/kratos-general-atomics-contracts-unmanned-fighter-escort/
 [ref_dafi_16_401_2020]: https://www.designation-systems.net/usmilav/afi16-401.pdf
+[ref_dod_412015l_1998]: https://www.designation-systems.net/usmilav/original-docs/4120.15-L(1998).pdf
+[ref_dod_412015l_2004]: https://web.archive.org/web/2019id_/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
 [ref_dod_412015l_2018]: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
 [ref_dp_obss_2023]: https://thedefensepost.com/2023/02/06/general-atomics-drone/
 [ref_dsnet_aircraft]: https://www.designation-systems.net/usmilav/aircraft.html
@@ -2333,6 +2624,8 @@ rebuilt because the official one was withdrawn.**
 - [A Product Family Design 2008][research_a_product_2008]
 - [Abdelsalam et al 2014][research_abdelsalam_rasmy_2014]
 - [Abdullah et al 2012][research_abdullah_kamaruddin_2012]
+- [Aboudoulaye and Kaya 2020][research_aboudoulaye_kaya_2020]
+- [Aboudoulaye and Kaya 2020][research_aboudoulaye_kaya_2020_b]
 - [Abu-Matar and Gomaa 2011][research_abumatar_gomaa_2011]
 - [Achatz 2011][research_achatz_2011]
 - [ade et al 2017][research_ade_ayi_2017]
@@ -2340,8 +2633,12 @@ rebuilt because the official one was withdrawn.**
 - [Advances in Product Family 2014][research_advances_in_2014]
 - [Agarwal 2026][research_agarwal_2026]
 - [Aghassibake et al 2023][research_aghassibake_castello_2023]
+- [Agrawal and Cohen 2001][research_agrawal_cohen_2001]
+- [Aiers et al 1933][research_aiers_drane_1933]
 - [Aircraft Cost Considerations 2010][research_aircraft_cost_2010]
 - [Ajibode et al 2025][research_ajibode_bangash_2025]
+- [Akkermans and van der Horst 2002][research_akkermans_vanderhorst_2002]
+- [Akoto Chama and Bertram 2018][research_akotochama_bertram_2018]
 - [Akundi et al 2005][research_akundi_simpson_2005]
 - [Albawaneh et al 2025][research_albawaneh_murthy_2025]
 - [Alexandru 2020][research_alexandru_2020]
@@ -2357,28 +2654,36 @@ rebuilt because the official one was withdrawn.**
 - [Alizon et al 2008][research_alizon_marion_2008]
 - [Alizon et al 2009][research_alizon_shooter_2009]
 - [Allada and Lan 2002][research_allada_lan_2002]
+- [Allen 1933][research_allen_1933]
 - [Allison et al 2006][research_allison_roth_2006]
 - [Allon et al 2010][research_allon_mieghem_2010]
 - [Alsawalqah et al 2013][research_alsawalqah_kang_2013]
 - [Altman 2008][research_altman_2008]
+- [Amalia et al 2018][research_amalia_dachyar_2018]
 - [America et al 2000][research_america_obbink_2000]
+- [American engineering standards committee 1925][research_american_engineering_1925]
 - [Ananno et al 2026][research_ananno_jonsson_2026]
 - [Andersen][research_andersen]
 - [Anderson 2013][research_anderson_2013]
+- [Anderson and Tushman 1990][research_anderson_tushman_1990]
 - [Andrews et al 2020][research_andrews_rusnock_2020]
 - [Andrews et al 2020][research_andrews_rusnock_2020_b]
 - [Aoki and Staeblein 2018][research_aoki_staeblein_2018]
+- [Appendix 1 Standard nomenclature 2019][research_appendix_1_2019]
 - [Arakawa et al 2004][research_arakawa_kono_2004]
 - [Arellano et al 2015][research_arellano_pringle_2015]
 - [Arthur 2008][research_arthur_2008]
 - [Asaga and Nishigaki 2022][research_asaga_nishigaki_2022]
 - [Asan and Polat 2008][research_asan_polat_2008]
+- [Asher and Maggelet 1980][research_asher_maggelet_1980]
+- [Asher and Shafer 1985][research_asher_shafer_1985]
 - [Assef and Geiger 2023][research_assef_geiger_2023]
 - [Athanasiadou et al 2026][research_athanasiadou_franzini_2026]
 - [Attia et al 2016][research_attia_megahed_2016]
 - [Aurich et al][research_aurich_fuchs]
 - [Austin, Robert E. and Rising, Jerry J. 2000][research_austinroberte_risingjerryj_2000]
 - [Austin, Robert E. et al 2000][research_austinroberte_ishmaelstephend_2000]
+- [Ayton et al 1933][research_ayton_hartley_1933]
 - [B. D'Agostino and Russell 2014][research_bdagostino_russell_2014]
 - [Badiru 2021][research_badiru_2021]
 - [Bagchi and Gutierrez 1992][research_bagchi_gutierrez_1992]
@@ -2386,11 +2691,13 @@ rebuilt because the official one was withdrawn.**
 - [Bailey 2008][research_bailey_2008]
 - [Bajpai et al 2025][research_bajpai_boyinine_2025]
 - [Baker 1985][research_baker_1985]
+- [Baker et al 1986][research_baker_magazine_1986]
 - [Baldwin and Clark, Design Rules, Volume 1, The Power of Modularity, MIT Press, 2000, the chapters on what modularity is and on splitting and substitution known from the registry record and from the index entries returned by the sweep][research_baldwin_clark_2000]
 - [Baldwin and Clark, The Value of Modularity, Splitting and Substitution, chapter in Design Rules Volume 1, The Power of Modularity, MIT Press, 2000, registry record only, and the title the first version of this article's subject gate REFUSED][research_baldwin_clark_splitting]
 - [Baldwin and Clark, What Is Modularity?, chapter in Design Rules Volume 1, The Power of Modularity, MIT Press, 2000, registry record only][research_baldwin_clark_modularity]
 - [Banas et al 2020][research_banas_mehling_2020]
 - [Bangert and Frances 2017][research_bangert_frances_2017]
+- [Bao et al 2025][research_bao_wei_2025]
 - [Bao et al 2026][research_bao_li_2026]
 - [Barber et al 1978][research_barber_marhefka_1978]
 - [Barkstrom 2003][research_barkstrom_2003]
@@ -2401,9 +2708,12 @@ rebuilt because the official one was withdrawn.**
 - [Bedford 1933][research_bedford_1933]
 - [Bellini et al 2014][research_bellini_bergamin_2014]
 - [Bellur and V. 2006][research_bellur_v_2006]
+- [Beltramo, M. N. and Anderson, J. L. 1977][research_beltramomn_andersonjl_1977]
+- [Beltramo, M. N. et al 1979][research_beltramomn_morrisma_1979]
 - [Benkoczi et al 2018][research_benkoczi_gaur_2018]
 - [Berber and Yahyapour 2017][research_berber_yahyapour_2017]
 - [Berenbach][research_berenbach]
+- [Berkowitz and Rowlands 2005][research_berkowitz_rowlands_2005]
 - [Bernstein et al 2011][research_bernstein_kok_2011]
 - [Bhokardankar and Wadodkar 2019][research_bhokardankar_wadodkar_2019]
 - [Bibi][research_bibi]
@@ -2423,12 +2733,17 @@ rebuilt because the official one was withdrawn.**
 - [Bo Bo][research_bobo]
 - [Boas et al 2012][research_boas_cameron_2012]
 - [Bollapragada and Akella 1993][research_bollapragada_akella_1993]
+- [Bonanne, Kevin H. 2011][research_bonannekevinh_2011]
 - [Bonev et al 2015][research_bonev_hvam_2015]
 - [Bonilla-Ortiz and Verma 2020][research_bonillaortiz_verma_2020]
 - [Borjesson and Hölttä-Otto 2012][research_borjesson_holttaotto_2012]
+- [Borjesson and Sellgren 2013][research_borjesson_sellgren_2013]
 - [Bortolini et al 2023][research_bortolini_calabrese_2023]
 - [Borysov 2020][research_borysov_2020]
+- [Bosworth, John T. and Cox, Timothy H. 1989][research_bosworthjohnt_coxtimothyh_1989]
+- [Boudouh and Grunder 2015][research_boudouh_grunder_2015]
 - [Boudreau 2007][research_boudreau_2007]
+- [Bouslog, S. et al 1998][research_bouslogs_mammanoj_1998]
 - [Bowman 2006][research_bowman_2006]
 - [Boyce et al 2013][research_boyce_sherman_2013]
 - [Boysen and Scholl 2009][research_boysen_scholl_2009]
@@ -2468,12 +2783,15 @@ rebuilt because the official one was withdrawn.**
 - [Change Control vs. Change 1986][research_change_control_1986]
 - [Change Control vs. Change 1987][research_change_control_1987]
 - [Change management, configuration management 2018][research_change_management_2018]
+- [Chantzaras 2024][research_chantzaras_2024]
 - [Chao and Ishii 2004][research_chao_ishii_2004]
+- [Chatras and Giard 2016][research_chatras_giard_2016]
 - [Chatzimichali and Tourassis 2008][research_chatzimichali_tourassis_2008]
 - [Chen and Barnes 2013][research_chen_barnes_2013]
 - [Chen and Fan 2012][research_chen_fan_2012]
 - [Chen and Fan 2012][research_chen_fan_2012_b]
 - [Chen and Wang 2008][research_chen_wang_2008]
+- [Chen Chun-Hsien et al 2013][research_chenchunhsien_huangyuexiang_2013]
 - [Chen et al 2009][research_chen_jiao_2009]
 - [Chen et al 2012][research_chen_hoyle_2012]
 - [Chen et al 2019][research_chen_liu_2019]
@@ -2481,6 +2799,7 @@ rebuilt because the official one was withdrawn.**
 - [Cheng and Zhu 2013][research_cheng_zhu_2013]
 - [Cheng et al 2015][research_cheng_lan_2015]
 - [Cheng et al 2019][research_cheng_wan_2019]
+- [Cheung 2002][research_cheung_2002]
 - [Chitsaz and Efatmaneshnik 2023][research_chitsaz_efatmaneshnik_2023]
 - [Chiu et al 2020][research_chiu_you_2020]
 - [Choi et al 2026][research_choi_li_2026]
@@ -2494,11 +2813,14 @@ rebuilt because the official one was withdrawn.**
 - [Chowdhury et al 2013][research_chowdhury_messac_2013]
 - [Chyma 2010][research_chyma_2010]
 - [Clark and Baldwin 2002][research_clark_baldwin_2002]
+- [Clements and Weiderman 1998][research_clements_weiderman_1998]
 - [Cody and Tiedje 1996][research_cody_tiedje_1996]
 - [Cody and Tiedje 1997][research_cody_tiedje_1997]
 - [Coleman et al 2015][research_coleman_lopez_2015]
 - [Collier 1981][research_collier_1981]
 - [Collier 1982][research_collier_1982]
+- [Collier 1984][research_collier_1984]
+- [Collins, John T. et al 1991][research_collinsjohnt_feingoldharvey_1991]
 - [Colombi et al 2017][research_colombi_bentz_2017]
 - [Colston 1998][research_colston_1998]
 - [Commonality PART, Component, etc][research_commonality_part]
@@ -2513,6 +2835,9 @@ rebuilt because the official one was withdrawn.**
 - [Configuration Management and Software 2004][research_configuration_management_2004]
 - [Configuration Management Identification 2007][research_configuration_management_2007]
 - [Configuration-Management][research_configuration_management]
+- [Cook and Coates 2016][research_cook_coates_2016]
+- [Cooke et al 1933][research_cooke_lemaistre_1933]
+- [Cooke et al 1933][research_cooke_salmon_1933]
 - [Corbett and Rosen 2004][research_corbett_rosen_2004]
 - [Corliss et al 1974][research_corliss_sneath_1974]
 - [Correa et al 2017][research_correa_toombs_2017]
@@ -2520,6 +2845,9 @@ rebuilt because the official one was withdrawn.**
 - [Cosenzo 2010][research_cosenzo_2010]
 - [Cost-Estimating Relationships for Aircraft 1972][research_cost_estimating_relationships_1972]
 - [Courtney Winski et al][research_courtneywinski_michaelbozeman]
+- [Cox 2008][research_cox_2008]
+- [Creighton, Tom et al 1987][research_creightontom_haddadrafael_1987]
+- [Crompton et al 1900][research_crompton_blackburn_1900]
 - [Cronie and Thompson 1980][research_cronie_thompson_1980]
 - [Cui and Weston 2010][research_cui_weston_2010]
 - [Cummings et al 2018][research_cummings_liersch_2018]
@@ -2547,6 +2875,7 @@ rebuilt because the official one was withdrawn.**
 - [Das et al 2017][research_das_doelling_2017]
 - [Dashofy and van der Hoek 2002][research_dashofy_vanderhoek_2002]
 - [Davidson 2004][research_davidson_2004]
+- [Davis, Hubert P. et al 1986][research_davishubertp_johnsonroberte_1986]
 - [de Lange 2002][research_delange_2002]
 - [De Lit and Delchambre 2003][research_delit_delchambre_2003]
 - [De Lit and Delchambre 2003][research_delit_delchambre_2003_b]
@@ -2562,6 +2891,7 @@ rebuilt because the official one was withdrawn.**
 - [Department Of Defense Washington Dc 1998][research_departmentofdefensewashingtondc_1998]
 - [Desai et al 2001][research_desai_kekre_2001]
 - [Design of Product Platform 2008][research_design_of_2008]
+- [Diamond 1951][research_diamond_1951]
 - [Digital Object Identifier DOI® 2009][research_digital_object_2009]
 - [Digital Object Identifier DOI® 2011][research_digital_object_2011]
 - [Digital Object Identifier DOI® 2017][research_digital_object_2017]
@@ -2571,6 +2901,7 @@ rebuilt because the official one was withdrawn.**
 - [DIN 31646 2013-01, Information und][research_din_31646]
 - [Ding et al 2026][research_ding_ru_2026]
 - [Dinnus and Pohl 2005][research_dinnus_pohl_2005]
+- [Discussion on "The standardisation 1923][research_discussion_on_1923]
 - [DiVito, Ben L. 1998][research_divitobenl_1998]
 - [Dolan and Lewis 2008][research_dolan_lewis_2008]
 - [Dolan and Smolensky 1989][research_dolan_smolensky_1989]
@@ -2605,11 +2936,16 @@ rebuilt because the official one was withdrawn.**
 - [Ertas and Gulbulak 2021][research_ertas_gulbulak_2021]
 - [Essers][research_essers]
 - [Ettlie and Penner-Hahn 1994][research_ettlie_pennerhahn_1994]
+- [Eugene Choi et al][research_eugenechoi_aaronbrimmer]
 - [Evaluating Product Family Development 2009][research_evaluating_product_2009]
 - [Ewing 2022][research_ewing_2022]
+- [Eynan and Fouque 2005][research_eynan_fouque_2005]
 - [Eynan and Rosenblatt 1996][research_eynan_rosenblatt_1996]
+- [Eynan and Rosenblatt 2007][research_eynan_rosenblatt_2007]
 - [Ezzat et al 2019][research_ezzat_medini_2019]
+- [Fabry 1980][research_fabry_1980]
 - [Fan et al 2010][research_fan_zhao_2010]
+- [Fan et al 2024][research_fan_han_2024]
 - [Farach 2022][research_farach_2022]
 - [Farooq et al 2013][research_farooq_araujo_2013]
 - [Farr et al 2024][research_farr_wigginton_2024]
@@ -2619,11 +2955,14 @@ rebuilt because the official one was withdrawn.**
 - [Farrell and Simpson 2009][research_farrell_simpson_2009]
 - [Fay et al 2026][research_fay_salmen_2026]
 - [Feiler and Downey 1990][research_feiler_downey_1990]
+- [Felice, R. 1985][research_felicer_1985]
 - [Fellini et al 2006][research_fellini_kokkolaras_2006]
 - [Fellini et al 2006][research_fellini_kokkolaras_2006_b]
 - [Fiala 1983][research_fiala_1983]
+- [Fields et al 2012][research_fields_gardner_2012]
 - [Finch 1999][research_finch_1999]
 - [Firms and Trade Economies 2025][research_firms_and_2025]
+- [Fischetti, T. L. 1974][research_fischettitl_1974]
 - [Fisher et al 1999][research_fisher_ramdas_1999]
 - [Flaherty et al 2006][research_flaherty_shively_2006]
 - [Flores et al 2025][research_flores_stahlbuhk_2025]
@@ -2632,6 +2971,7 @@ rebuilt because the official one was withdrawn.**
 - [Ford and Dillard 2008][research_ford_dillard_2008]
 - [Ford and Dillard 2009][research_ford_dillard_2009]
 - [Ford et al 2012][research_ford_colburn_2012]
+- [Franke and Hobbs 1993][research_franke_hobbs_1993]
 - [Friedrich and Schulte 2025][research_friedrich_schulte_2025]
 - [Fry 2008][research_fry_2008]
 - [Fu Li et al 2008][research_fuli_yumeixiang_2008]
@@ -2641,6 +2981,7 @@ rebuilt because the official one was withdrawn.**
 - [Fujita et al 1999][research_fujita_sakaguchi_1999]
 - [G. Wahdan et al 2016][research_gwahdan_skassem_2016]
 - [Gambaryan 2021][research_gambaryan_2021]
+- [Gansler et al 2010][research_gansler_lucyshyn_2010]
 - [Gao and Zhang 2020][research_gao_zhang_2020]
 - [Gao et al 2009][research_gao_xiao_2009]
 - [Garcia et al 1994][research_garcia_gocke_1994]
@@ -2654,19 +2995,24 @@ rebuilt because the official one was withdrawn.**
 - [Gedell and Johannesson 2012][research_gedell_johannesson_2012]
 - [Generic product model of 2025][research_generic_product_2025]
 - [Gerchak and Henig 1986][research_gerchak_henig_1986]
+- [Gerchak and Henig 1989][research_gerchak_henig_1989]
 - [Gerchak et al 1988][research_gerchak_magazine_1988]
 - [Gershenson et al 2003][research_gershenson_prasad_2003]
 - [Gershenson, Prasad and Zhang, Product modularity, measures and design methods, Journal of Engineering Design, 2004, registry record only, surfaced by the REFUSED sample rather than by the kept one][research_product_modularity_measures]
+- [Gilbert 1933][research_gilbert_1933]
 - [Gilmartin 1983][research_gilmartin_1983]
 - [Golovachev 2026][research_golovachev_2026]
+- [Gong et al 2017][research_gong_liu_2017]
 - [Gonzalez-Zugasti and Otto 2000][research_gonzalezzugasti_otto_2000]
 - [Gordnier et al][research_gordnier_visbal]
 - [Goswami and Allada 2007][research_goswami_allada_2007]
 - [Gould 1974][research_gould_1974]
 - [Gozzi and Schulte 2026][research_gozzi_schulte_2026]
 - [Gravina da Rocha et al 2019][research_gravinadarocha_elghoz_2019]
+- [Gray, D. W. 1979][research_graydw_1979]
 - [Greve and Krause 2018][research_greve_krause_2018]
 - [Greve et al 2019][research_greve_rennpferdt_2019]
+- [Groocock et al 1933][research_groocock_wright_1933]
 - [Gruber 1992][research_gruber_1992]
 - [Gruber 1994][research_gruber_1994]
 - [Gualberto][research_gualberto]
@@ -2698,17 +3044,23 @@ rebuilt because the official one was withdrawn.**
 - [Hardisty et al 2021][research_hardisty_addink_2021_g]
 - [Hardisty et al 2021][research_hardisty_addink_2021_h]
 - [Hardisty et al 2021][research_hardisty_addink_2021_i]
+- [Harland and Uddin 2014][research_harland_uddin_2014]
 - [Harofteh and Saljooghi 2023][research_harofteh_saljooghi_2023]
+- [Hartel et al 1977][research_hartel_witt_1977]
 - [Harvey 1986][research_harvey_1986]
 - [Haspert and Beauregard 1998][research_haspert_beauregard_1998]
 - [Hata et al][research_hata_kato]
+- [He et al 2019][research_he_khorrami_2019]
 - [He et al 2021][research_he_li_2021]
+- [He et al 2022][research_he_khorrami_2022]
 - [He et al 2024][research_he_song_2024]
+- [Heberlig, J. C. and Palaoro, H. R. 1971][research_heberligjc_palaorohr_1971]
 - [Heese and Swaminathan 2006][research_heese_swaminathan_2006]
 - [Heikal et al 2019][research_heikal_elkharbotly_2019]
 - [Heilemann and Hollatz 2020][research_heilemann_hollatz_2020]
 - [Helmer et al 2010][research_helmer_yassine_2010]
 - [Helo 2006][research_helo_2006]
+- [Henderson and Clark 1990][research_henderson_clark_1990]
 - [Henderson and Higer 2007][research_henderson_higer_2007]
 - [Hendrickson et al 2008][research_hendrickson_subramanian_2008]
 - [Heradio-Gil et al 2011][research_heradiogil_fernandezamoros_2011]
@@ -2718,13 +3070,18 @@ rebuilt because the official one was withdrawn.**
 - [Hewlett 2016][research_hewlett_2016]
 - [Hewlett 2017][research_hewlett_2017]
 - [Hicks and Burch 1977][research_hicks_burch_1977]
+- [Hidayat and Fadilla 2025][research_hidayat_fadilla_2025]
+- [Hidayat et al 2017][research_hidayat_simatupang_2017]
+- [Hill 1973][research_hill_1973]
 - [Hillier 1999][research_hillier_1999]
+- [Hillier 1999][research_hillier_1999_b]
 - [Hillier 2000][research_hillier_2000]
 - [Ho, Nhut et al 2017][research_honhut_johnsonwalter_2017]
 - [Hoek et al 1995][research_hoek_heimbigner_1995]
 - [Hoek et al 1998][research_hoek_carzaniga_1998]
 - [Hoek et al 1998][research_hoek_heimbigner_1998]
 - [Hoek et al 1998][research_hoek_heimbigner_1998_b]
+- [Hoffert 1988][research_hoffert_1988]
 - [Hoffman 2010][research_hoffman_2010]
 - [Hogan et al 2020][research_hogan_elshaw_2020]
 - [Hogan et al 2022][research_hogan_elshaw_2022]
@@ -2750,7 +3107,11 @@ rebuilt because the official one was withdrawn.**
 - [Hu et al 2008][research_hu_zhu_2008]
 - [Huang and Wang 2025][research_huang_wang_2025]
 - [Huang et al 2008][research_huang_li_2008]
+- [Huang et al 2010][research_huang_chen_2010]
+- [Huang et al 2012][research_huang_chen_2012]
 - [Huang et al 2012][research_huang_dai_2012]
+- [Huang et al 2018][research_huang_lo_2018]
+- [Huang et al 2025][research_huang_yang_2025]
 - [Hubac 1983][research_hubac_1983]
 - [Hume and Rosen 2012][research_hume_rosen_2012]
 - [Hwang and Han 2025][research_hwang_han_2025]
@@ -2758,19 +3119,24 @@ rebuilt because the official one was withdrawn.**
 - [Hölttä-Otto et al 2008][research_holttaotto_tang_2008]
 - [Hölttä-Otto et al 2012][research_holttaotto_chiriac_2012]
 - [Identifying Real Options to 2009][research_identifying_real_2009]
+- [Illuminating Engineering Nomenclature and 1922][research_illuminating_engineering_1922]
 - [Iman 2025][research_iman_2025]
 - [IMF Participation in the 2013][research_imf_participation_2013]
 - [Information and documentation. Digital][research_information_and]
 - [Information technology -- Procedures][research_information_technology]
+- [Insulation commonality assessment phase 1973][research_insulation_commonality_1973]
 - [Introduction to Design Structure 2012][research_introduction_to_2012]
 - [Islam et al 2022][research_islam_theocharides_2022]
 - [Ismail 2013][research_ismail_2013]
 - [Izui et al 2009][research_izui_nishiwaki_2009]
 - [İşci and Günel 2021][research_isci_gunel_2021]
 - [Jacobs 2024][research_jacobs_2024]
+- [Jacobson, David 2004][research_jacobsondavid_2004]
+- [Jacobson, David 2004][research_jacobsondavid_2004_b]
 - [Jakovljevic 2006][research_jakovljevic_2006]
 - [James 1964][research_james_1964]
 - [Janowitz 1996][research_janowitz_1996]
+- [Jans et al 2008][research_jans_degraeve_2008]
 - [Jaring and Bosch 2004][research_jaring_bosch_2004]
 - [Jelenić 2024][research_jelenic_2024]
 - [Jennings et al 2025][research_jennings_jung_2025]
@@ -2806,13 +3172,18 @@ rebuilt because the official one was withdrawn.**
 - [Jung and Simpson 2018][research_jung_simpson_2018]
 - [Jung et al 2017][research_jung_simpson_2017]
 - [Jung et al 2025][research_jung_choi_2025]
+- [Jönsson and Silver 1991][research_jonsson_silver_1991]
 - [Kamrani 2013][research_kamrani_2013]
 - [Kane][research_kane]
+- [Kannan and Nolte 1998][research_kannan_nolte_1998]
 - [Karabetsky 2018][research_karabetsky_2018]
 - [Karagoz et al 2021][research_karagoz_bagdatli_2021]
+- [Karimi and Werner 2014][research_karimi_werner_2014]
+- [Kariya et al 2007][research_kariya_izui_2007]
 - [Kashkoush and ElMaraghy 2017][research_kashkoush_elmaraghy_2017]
 - [Keller 2008][research_keller_2008]
 - [Kennickell 2016][research_kennickell_2016]
+- [Khadke and Gershenson 2008][research_khadke_gershenson_2008]
 - [Khajavirad and Michalek 2007][research_khajavirad_michalek_2007]
 - [Khajavirad and Michalek 2007][research_khajavirad_michalek_2007_b]
 - [Khajavirad and Michalek 2008][research_khajavirad_michalek_2008_b]
@@ -2838,12 +3209,16 @@ rebuilt because the official one was withdrawn.**
 - [Kim et al 2010][research_kim_lee_2010]
 - [Kim et al 2013][research_kim_chhajed_2013]
 - [Kim et al 2016][research_kim_kwon_2016]
+- [Kim et al 2019][research_kim_park_2019]
 - [Kim et al 2020][research_kim_saidani_2020]
 - [Kim et al 2021][research_kim_saidani_2021]
+- [Kim et al 2025][research_kim_choi_2025]
 - [Kim et al 2025][research_kim_lee_2025]
 - [Kima and Chhajed 2001][research_kima_chhajed_2001]
 - [Kimita et al 2021][research_kimita_matschewsky_2021]
+- [Kline and Bachman 2006][research_kline_bachman_2006]
 - [Knauber and Thiel 2002][research_knauber_thiel_2002]
+- [Kneece et al 2014][research_kneece_rr_2014]
 - [Kohn 2022][research_kohn_2022]
 - [Kokkolaras et al 2006][research_kokkolaras_fellini_2006]
 - [Kong et al 2024][research_kong_ge_2024]
@@ -2866,7 +3241,9 @@ rebuilt because the official one was withdrawn.**
 - [Krueger 2008][research_krueger_2008]
 - [Krueger 2011][research_krueger_2011]
 - [Krueger 2015][research_krueger_2015]
+- [Kruse and Gries 2011][research_kruse_gries_2011]
 - [Krystallis et al 2026][research_krystallis_sandoval_2026]
+- [Ku, Sang-wuk 2014][research_kusangwuk_2014]
 - [Kuang and Jiang 2009][research_kuang_jiang_2009]
 - [Kulenkampff et al 2023][research_kulenkampff_duraku_2023]
 - [Kumar et al 2004][research_kumar_allada_2004]
@@ -2884,6 +3261,7 @@ rebuilt because the official one was withdrawn.**
 - [Lam et al 2020][research_lam_dietrich_2020]
 - [Lamine et al 2005][research_lamine_jilani_2005]
 - [Lancaster 1998][research_lancaster_1998]
+- [Lane 1990][research_lane_1990]
 - [Lange and Imsdahl 2013][research_lange_imsdahl_2013]
 - [Larsson and Åslund 2001][research_larsson_aslund_2001]
 - [Laura R Humphrey and Cesar A Muñoz][research_laurarhumphrey_cesaramunoz]
@@ -2892,6 +3270,7 @@ rebuilt because the official one was withdrawn.**
 - [Learning Curves Production Breaks/Lost 2015][research_learning_curves_2015]
 - [Learning Curves Production Breaks/Lost 2026][research_learning_curves_2026]
 - [Lee 1970][research_lee_1970]
+- [Lee 2012][research_lee_2012]
 - [Lee and Jeong 2025][research_lee_jeong_2025]
 - [Lee and Kang 2025][research_lee_kang_2025]
 - [Lee and Lee 2026][research_lee_lee_2026]
@@ -2914,10 +3293,12 @@ rebuilt because the official one was withdrawn.**
 - [Li and Wu 2011][research_li_wu_2011]
 - [Li et al 2023][research_li_wu_2023]
 - [Li Qian and Zhenyu Kong 2008][research_liqian_zhenyukong_2008]
+- [Liang et al 2026][research_liang_he_2026]
 - [Lim][research_lim]
 - [Lim et al 2010][research_lim_loh_2010]
 - [Lima 1983][research_lima_1983]
 - [Lin 2004][research_lin_2004]
+- [Lin et al 2007][research_lin_tanyavutti_2007]
 - [Liu 2012][research_liu_2012]
 - [Liu 2016][research_liu_2016]
 - [Liu and Hsiao 2005][research_liu_hsiao_2005]
@@ -2925,6 +3306,7 @@ rebuilt because the official one was withdrawn.**
 - [Lu et al 2008][research_lu_petersen_2008]
 - [Lundberg 1956][research_lundberg_1956]
 - [Luo et al 2013][research_luo_tang_2013]
+- [Luo et al 2015][research_luo_zhang_2015]
 - [Lyke et al 2019][research_lyke_peters_2019]
 - [Lyons et al 2012][research_lyons_everington_2012]
 - [Lyons et al 2021][research_lyons_miller_2021]
@@ -2936,12 +3318,15 @@ rebuilt because the official one was withdrawn.**
 - [Maccari 2002][research_maccari_2002]
 - [MacDuffie et al 1996][research_macduffie_sethuraman_1996]
 - [MacKay 1996][research_mackay_1996]
+- [Maddux 1999][research_maddux_1999]
 - [Maier et al 2024][research_maier_kiam_2024]
 - [Maini et al 2026][research_maini_gallant_2026]
 - [Majd and Pindyck 1987][research_majd_pindyck_1987]
+- [Majerus et al 1999][research_majerus_smith_1999]
 - [Maldonado et al 2017][research_maldonado_sarker_2017]
 - [Malhotra et al 2024][research_malhotra_ratnoo_2024]
 - [Mall et al 2018][research_mall_ullah_2018]
+- [Mandelbaum et al 2008][research_mandelbaum_kneece_2008]
 - [Mannion and Savolainen 2014][research_mannion_savolainen_2014]
 - [Marchese 1963][research_marchese_1963]
 - [Marion et al 2007][research_marion_thevenot_2007]
@@ -2953,6 +3338,7 @@ rebuilt because the official one was withdrawn.**
 - [Martinis 1990][research_martinis_1990]
 - [Masmoudi et al 2017][research_masmoudi_leclaire_2017]
 - [Massart et al 1974][research_massart_lenders_1974]
+- [Mathew DeMinico et al][research_mathewdeminico_jamespmastandrea]
 - [Mathur and Jain 2011][research_mathur_jain_2011]
 - [Matinlassi][research_matinlassi]
 - [Matos et al 2007][research_matos_duarte_2007]
@@ -2986,6 +3372,7 @@ rebuilt because the official one was withdrawn.**
 - [Modrak et al 2014][research_modrak_marton_2014]
 - [Modular Architecture][research_modular_architecture]
 - [Mohagheghi and Conradi 2004][research_mohagheghi_conradi_2004]
+- [Mohebbi and Choobineh 2005][research_mohebbi_choobineh_2005]
 - [Mohr 2002][research_mohr_2002]
 - [Monetti et al 2025][research_monetti_lundstrom_2025]
 - [Monetti et al 2026][research_monetti_lundstrom_2026]
@@ -3002,6 +3389,9 @@ rebuilt because the official one was withdrawn.**
 - [Motzet, Guenter et al 2006][research_motzetguenter_gwaltneydavida_2006]
 - [Mukhtar and Agarwal 2009][research_mukhtar_agarwal_2009]
 - [Multiple-View Requirements Models for 2009][research_multiple_view_requirements_2009]
+- [Multivariable Modular Design of][research_multivariable_modular]
+- [Murmann and Frenken 2005][research_murmann_frenken_2005]
+- [Murmann and Frenken 2006][research_murmann_frenken_2006]
 - [Myrodia et al 2021][research_myrodia_hvam_2021]
 - [Müller et al 2023][research_muller_segor_2023]
 - [M�ller and Peroni 1968][research_mller_peroni_1968]
@@ -3016,11 +3406,13 @@ rebuilt because the official one was withdrawn.**
 - [Nayak et al 2002][research_nayak_chen_2002]
 - [Nelson et al 1999][research_nelson_parkinson_1999]
 - [Nelson et al 2000][research_nelson_parkinson_2000]
+- [Nelson, George C. 2017][research_nelsongeorgec_2017]
 - [Nemet 2006][research_nemet_2006]
 - [Neubauer et al 2022][research_neubauer_baker_2022]
 - [Neubauer et al 2023][research_neubauer_baker_2023]
 - [Neufeld and Chung 2005][research_neufeld_chung_2005]
 - [Newcomb et al 2003][research_newcomb_rosen_2003]
+- [Nicol and Hooper 1999][research_nicol_hooper_1999]
 - [Nidamarthi and Karandikar 2006][research_nidamarthi_karandikar_2006]
 - [Niemelä 2005][research_niemela_2005]
 - [Nihat Ersoy 2011][research_nihatersoy_2011]
@@ -3050,6 +3442,7 @@ rebuilt because the official one was withdrawn.**
 - [Oh et al 2026][research_oh_hong_2026]
 - [Ohvanainen and Hietikko 2012][research_ohvanainen_hietikko_2012]
 - [Okpoti et al 2019][research_okpoti_jeong_2019]
+- [Olive-Alvarez 2023][research_olivealvarez_2023]
 - [Ong et al 2006][research_ong_xu_2006]
 - [Opdebeeck et al 2021][research_opdebeeck_zerouali_2021]
 - [Optimization Techniques for Multi-Core 2025][research_optimization_techniques_2025]
@@ -3057,6 +3450,7 @@ rebuilt because the official one was withdrawn.**
 - [Origins of Real Options 2009][research_origins_of_2009]
 - [Orr 1982][research_orr_1982]
 - [Ortiz 1992][research_ortiz_1992]
+- [Ostrosi Egon et al 2014][research_ostrosiegon_stjepandicacutejosip_2014]
 - [Otto et al 2013][research_otto_holttaotto_2013]
 - [Otto et al 2016][research_otto_holttaotto_2016]
 - [Overview of GBOM Formation 2016][research_overview_of_2016]
@@ -3068,10 +3462,12 @@ rebuilt because the official one was withdrawn.**
 - [Pandey et al 2011][research_pandey_thurston_2011]
 - [Pandit and Siddique 2004][research_pandit_siddique_2004]
 - [Panter et al 2025][research_panter_hindman_2025]
+- [Park 2021][research_park_2021]
 - [Park and Shin 2007][research_park_shin_2007]
 - [Park and Simpson 2006][research_park_simpson_2006]
 - [Park et al 2008][research_park_shin_2008]
 - [Park et al 2022][research_park_yoo_2022]
+- [Parrish and Jr 1978][research_parrish_jr_1978]
 - [Particle Swarm Optimization-Based Hazardous 2026][research_particle_swarm_2026]
 - [Pasche and Sköld 2012][research_pasche_skold_2012]
 - [Paskin 1999][research_paskin_1999]
@@ -3081,6 +3477,7 @@ rebuilt because the official one was withdrawn.**
 - [Pedersen and Slepniov 2016][research_pedersen_slepniov_2016]
 - [Peer Review Report For 2018][research_peer_review_2018]
 - [Pektaş and Pultar 2006][research_pektas_pultar_2006]
+- [Peng Chew et al 2006][research_pengchew_lee_2006]
 - [Pentz 2017][research_pentz_2017]
 - [Pericon 2024][research_pericon_2024]
 - [Peters et al 2022][research_peters_mcdonald_2022]
@@ -3089,6 +3486,7 @@ rebuilt because the official one was withdrawn.**
 - [PID Service an 2015][research_pid_service_2015]
 - [Pierce and Littlefield-Lawwill 2008][research_pierce_littlefieldlawwill_2008]
 - [Piligian et al 1968][research_piligian_bashaw_1968]
+- [Pillai 1956][research_pillai_1956]
 - [Pilowsky et al 1969][research_pilowsky_levine_1969]
 - [Pinckney et al 2023][research_pinckney_cassano_2023]
 - [Pindyck and Majd 1996][research_pindyck_majd_1996]
@@ -3099,6 +3497,7 @@ rebuilt because the official one was withdrawn.**
 - [Pirmoradi and Wang 2011][research_pirmoradi_wang_2011]
 - [Pirmoradi et al 2013][research_pirmoradi_wang_2013]
 - [Pisch et al 2024][research_pisch_cai_2024]
+- [Plant 2017][research_plant_2017]
 - [Pletsch 2021][research_pletsch_2021]
 - [Plonsky and Herber 2026][research_plonsky_herber_2026]
 - [Pohl and Reuys 2002][research_pohl_reuys_2002]
@@ -3108,10 +3507,14 @@ rebuilt because the official one was withdrawn.**
 - [Product Development by Using 2015][research_product_development_2015]
 - [Product Platform and Product 2006][research_product_platform_2006]
 - [Programme Management. Configuration Management][research_programme_management]
+- [Pudge 1933][research_pudge_1933]
 - [Qi and Xie 2026][research_qi_xie_2026]
 - [Qian 2011][research_qian_2011]
 - [Qian 2011][research_qian_2011_b]
+- [Qiao et al 2017][research_qiao_efatmaneshnik_2017]
+- [Qiao et al 2018][research_qiao_efatmaneshnik_2018]
 - [Qiu 2010][research_qiu_2010]
+- [Qiu et al 2018][research_qiu_fu_2018]
 - [Quantick 2001][research_quantick_2001]
 - [Quesne 1969][research_quesne_1969]
 - [Raemaekers et al 2017][research_raemaekers_vandeursen_2017]
@@ -3119,11 +3522,13 @@ rebuilt because the official one was withdrawn.**
 - [Rai et al][research_rai_sahin]
 - [Rao et al 2014][research_rao_chen_2014]
 - [Rasch and Robert A. 2011][research_rasch_roberta_2011]
+- [Ratcliffe 1965][research_ratcliffe_1965]
 - [Raudberget et al 2014][research_raudberget_michaelis_2014]
 - [Real Options Design for 2009][research_real_options_2009_b]
 - [Real Options in Engineering 2009][research_real_options_2009]
 - [Real Options in Engineering 2009][research_real_options_2009_d]
 - [Real Options in Manufacturing 2009][research_real_options_2009_c]
+- [Regan 2001][research_regan_2001]
 - [Registry Nomenclature Information System 2020][research_registry_nomenclature_2020]
 - [Reichenbach 2003][research_reichenbach_2003]
 - [Reichenfeld, Curtis J. and Jones, Paul G. 1999][research_reichenfeldcurtisj_jonespaulg_1999]
@@ -3131,15 +3536,19 @@ rebuilt because the official one was withdrawn.**
 - [Rendon 2006][research_rendon_2006]
 - [Rendon 2007][research_rendon_2007]
 - [Rendon 2008][research_rendon_2008]
+- [Rennenkampf and Rhyne 2004][research_rennenkampf_rhyne_2004]
 - [Reynerson][research_reynerson]
 - [Reynerson 1999][research_reynerson_1999]
 - [Riaz et al 2017][research_riaz_guenov_2017]
 - [Ribeiro et al 2007][research_ribeiro_dosea_2007]
 - [Ridder 2024][research_ridder_2024]
+- [Rieker and Haraburda][research_rieker_haraburda]
+- [Rieker, Lorra L. and Haraburda, Francis M. 1989][research_riekerlorral_haraburdafrancism_1989]
 - [Rispail and Léger 1998][research_rispail_leger_1998]
 - [Robert][research_robert]
 - [Roberts et al 2023][research_roberts_simmons_2023]
 - [Roger Jiao et al 2007][research_rogerjiao_simpson_2007]
+- [Roh et al 2025][research_roh_etzenbach_2025]
 - [Rojas Arciniegas and Kim 2010][research_rojasarciniegas_kim_2010]
 - [Rojas Arciniegas and Kim 2011][research_rojasarciniegas_kim_2011]
 - [Rojas Arciniegas and Kim 2012][research_rojasarciniegas_kim_2012]
@@ -3163,6 +3572,8 @@ rebuilt because the official one was withdrawn.**
 - [Rzepa 2023][research_rzepa_2023_b]
 - [Sadraey 2010][research_sadraey_2010]
 - [Salih 2013][research_salih_2013]
+- [Salthouse 2017][research_salthouse_2017]
+- [Samarasinghe et al 2019][research_samarasinghe_gunawardena_2019]
 - [Sanaei et al 2015][research_sanaei_otto_2015]
 - [Sathe and Pant 2010][research_sathe_pant_2010]
 - [Sauser et al 2009][research_sauser_ramirezmarquez_2009]
@@ -3188,6 +3599,7 @@ rebuilt because the official one was withdrawn.**
 - [Shamsuzzoha et al 2020][research_shamsuzzoha_helo_2020]
 - [Shamsuzzoha et al 2023][research_shamsuzzoha_blomqvist_2023]
 - [Shao et al 2012][research_shao_hao_2012]
+- [Sharan 2019][research_sharan_2019]
 - [Sharma 2026][research_sharma_2026]
 - [Shatnawi et al 2017][research_shatnawi_seriai_2017]
 - [Shaver et al 2016][research_shaver_rose_2016]
@@ -3200,6 +3612,7 @@ rebuilt because the official one was withdrawn.**
 - [Shooter and Cohen 2010][research_shooter_cohen_2010]
 - [Shoval et al 2016][research_shoval_qiao_2016]
 - [Shu 2023][research_shu_2023]
+- [Siddapureddy 2011][research_siddapureddy_2011]
 - [Siddique 2006][research_siddique_2006]
 - [Siddique and Adupala 2005][research_siddique_adupala_2005]
 - [Siddique and Adupala 2008][research_siddique_adupala_2008]
@@ -3222,7 +3635,12 @@ rebuilt because the official one was withdrawn.**
 - [Sitcharangsie et al 2021][research_sitcharangsie_wong_2021]
 - [Siu][research_siu]
 - [Sligh et al 2002][research_sligh_wong_2002]
+- [Smit and Pistorius 1998][research_smit_pistorius_1998]
+- [Smith 1933][research_smith_1933]
+- [Smith 2004][research_smith_2004]
+- [Smith 2006][research_smith_2006]
 - [Smith and Wandelt 1991][research_smith_wandelt_1991]
+- [Smith, J. F. et al 2003][research_smithjf_plummerc_2003]
 - [Smunt 1999][research_smunt_1999]
 - [Smunt 2011][research_smunt_2011]
 - [Snape 1977][research_snape_1977]
@@ -3241,14 +3659,18 @@ rebuilt because the official one was withdrawn.**
 - [Stahl et al 1984][research_stahl_arena_1984]
 - [Standardisation as applied to 1933][research_standardisation_as_1933]
 - [Staples and Hill][research_staples_hill]
+- [Sterk, Steve and McAtee, Aaron 2015][research_sterksteve_mcateeaaron_2015]
 - [Stettner 2000][research_stettner_2000]
 - [Steuer and Whitcomb 2003][research_steuer_whitcomb_2003]
 - [Stewart and Yan][research_stewart_yan]
 - [Stojanovski and Selva 2017][research_stojanovski_selva_2017]
 - [Strenzke et al 2011][research_strenzke_uhrmann_2011]
+- [Study of the commonality 1975][research_study_of_1975]
 - [Su et al 2010][research_su_lin_2010]
+- [Subramanian et al 2013][research_subramanian_ferguson_2013]
 - [Sullivan et al 2001][research_sullivan_griswold_2001]
 - [Sun and Lau 2019][research_sun_lau_2019]
+- [Sun et al 2016][research_sun_an_2016]
 - [Sundgren 1999][research_sundgren_1999]
 - [Swamidass 2000][research_swamidass_2000]
 - [Swamidass 2000][research_swamidass_2000_b]
@@ -3271,6 +3693,7 @@ rebuilt because the official one was withdrawn.**
 - [Tang et al 2017][research_tang_yin_2017_d]
 - [Tanida et al 1991][research_tanida_nishimura_1991]
 - [Tate 1998][research_tate_1998]
+- [Taylor 2009][research_taylor_2009]
 - [Teacher et al 2023][research_teacher_velu_2023]
 - [Teng et al 2014][research_teng_lou_2014]
 - [The Modular Operators 2000][research_the_modular_2000]
@@ -3285,9 +3708,11 @@ rebuilt because the official one was withdrawn.**
 - [Thevenot et al 2005][research_thevenot_nanda_2005]
 - [Thevenot et al 2007][research_thevenot_alizon_2007]
 - [Thiel and Hein 2002][research_thiel_hein_2002]
+- [Thomas, Lawrence D. 1992][research_thomaslawrenced_1992]
 - [Thompson and Tong 2018][research_thompson_tong_2018]
 - [Thonemann and Brandeau 2000][research_thonemann_brandeau_2000]
 - [Tichy 2001][research_tichy_2001]
+- [Tirone et al 2019][research_tirone_bertoli_2019]
 - [Tokunaga and Fujimura 2013][research_tokunaga_fujimura_2013]
 - [Tomayko 1986][research_tomayko_1986]
 - [Tomayko 1990][research_tomayko_1990]
@@ -3300,12 +3725,15 @@ rebuilt because the official one was withdrawn.**
 - [Tsubone et al 1994][research_tsubone_matsuura_1994]
 - [Tucker 2013][research_tucker_2013]
 - [Turner, Susan G. 2003][research_turnersusang_2003]
+- [Uddin et al 2018][research_uddin_harland_2018]
 - [Ulrich 1994][research_ulrich_1994]
 - [Umorin 2002][research_umorin_2002]
+- [Underwood 2011][research_underwood_2011]
 - [Universal product family design 2012][research_universal_product_2012]
 - [Unmanned Aerial Vehicle Design 2024][research_unmanned_aerial_2024]
 - [Use Modular Architecture][research_use_modular]
 - [Using the Learning Curve 2010][research_using_the_2010]
+- [Uusitalo 2014][research_uusitalo_2014]
 - [Uybarreta et al 2025][research_uybarreta_grant_2025]
 - [Van den Broeke et al 2017][research_vandenbroeke_boute_2017]
 - [Van Dyke et al 1990][research_vandyke_thomas_1990]
@@ -3326,9 +3754,11 @@ rebuilt because the official one was withdrawn.**
 - [Wallmark][research_wallmark]
 - [Wallnau 1992][research_wallnau_1992]
 - [Wan 2014][research_wan_2014]
+- [Wan-Chuan Chan and Arıkan 2020][research_wanchuanchan_arikan_2020]
 - [Wang][research_wang]
 - [Wang][research_wang_b]
 - [Wang and Tseng 2011][research_wang_tseng_2011]
+- [Wang et al 2008][research_wang_zhang_2008]
 - [Wang et al 2011][research_wang_hou_2011]
 - [Wang et al 2011][research_wang_zhu_2011]
 - [Wang et al 2012][research_wang_yannou_2012]
@@ -3339,6 +3769,7 @@ rebuilt because the official one was withdrawn.**
 - [Watza and Cooper 2023][research_watza_cooper_2023]
 - [Wazed et al 2008][research_wazed_ahmed_2008]
 - [Wazed et al 2010][research_wazed_ahmed_2010]
+- [Wazed et al 2011][research_wazed_ahmed_2011]
 - [Wearne 1992][research_wearne_1992]
 - [Weckbach and Langlois 1976][research_weckbach_langlois_1976]
 - [Wee and Dada 2010][research_wee_dada_2010]
@@ -3366,6 +3797,7 @@ rebuilt because the official one was withdrawn.**
 - [Wright et al 2022][research_wright_lakhmani_2022]
 - [Wright et al 2024][research_wright_lakhmani_2024]
 - [Wu 2023][research_wu_2023]
+- [Wu and Li 2011][research_wu_li_2011]
 - [Wuwer et al 2025][research_wuwer_kunzel_2025]
 - [Xia et al 2015][research_xia_gao_2015]
 - [Xiao 2012][research_xiao_2012]
@@ -3377,11 +3809,14 @@ rebuilt because the official one was withdrawn.**
 - [Yang et al 2004][research_yang_beiter_2004]
 - [Yang et al 2005][research_yang_beiter_2005]
 - [Yang et al 2013][research_yang_wang_2013]
+- [Yang et al 2014][research_yang_yao_2014]
+- [Yang et al 2016][research_yang_chen_2016]
 - [Yang et al 2024][research_yang_guo_2024]
 - [Yao et al 2017][research_yao_moon_2017]
 - [Yao et al 2023][research_yao_wu_2023]
 - [Ye and Gershenson 2008][research_ye_gershenson_2008]
 - [Ye and Gershenson 2009][research_ye_gershenson_2009]
+- [Yeager, Dorian P. 1987][research_yeagerdorianp_1987]
 - [Yee Soon Lim 2007][research_yeesoonlim_2007]
 - [Yen and Smith 2009][research_yen_smith_2009]
 - [Yong Lin 2006][research_yonglin_2006]
@@ -3396,6 +3831,7 @@ rebuilt because the official one was withdrawn.**
 - [Zacharias and Yassine 2007][research_zacharias_yassine_2007]
 - [Zamani and Beigzadeh 2023][research_zamani_beigzadeh_2023]
 - [Zelm and Doumeingts 2013][research_zelm_doumeingts_2013]
+- [Zeng et al 2025][research_zeng_rao_2025]
 - [Zha and Lu 2002][research_zha_lu_2002]
 - [Zhang 2012][research_zhang_2012]
 - [Zhang 2014][research_zhang_2014]
@@ -3404,6 +3840,7 @@ rebuilt because the official one was withdrawn.**
 - [Zhang et al 2007][research_zhang_rogerjiao_2007]
 - [Zhang et al 2015][research_zhang_wei_2015]
 - [Zhang et al 2019][research_zhang_yang_2019]
+- [Zhang et al 2022][research_zhang_liu_2022]
 - [Zhao 2010][research_zhao_2010]
 - [Zhao et al 2022][research_zhao_zhang_2022]
 - [Zheng et al 2021][research_zheng_chen_2021]
@@ -3414,11 +3851,14 @@ rebuilt because the official one was withdrawn.**
 - [Ziedorn 2020][research_ziedorn_2020]
 - [Zimmerman et al 2018][research_zimmerman_ofori_2018]
 - [Zischka and Finnegan 2023][research_zischka_finnegan_2023]
+- [Zou et al 2026][research_zou_wu_2026]
 
 [research_a_framework_2021]: https://doi.org/10.25236/fsst.2021.030414
 [research_a_product_2008]: https://doi.org/10.1142/9789812832634_0008
 [research_abdelsalam_rasmy_2014]: https://doi.org/10.7763/ijmo.2014.v4.346
 [research_abdullah_kamaruddin_2012]: https://doi.org/10.11113/jt.v42.734
+[research_aboudoulaye_kaya_2020]: https://doi.org/10.17306/j.afs.0827
+[research_aboudoulaye_kaya_2020_b]: https://doi.org/10.17306/j.afs.2020.0827
 [research_abumatar_gomaa_2011]: https://doi.org/10.1109/splc.2011.26
 [research_achatz_2011]: https://doi.org/10.1109/splc.2011.40
 [research_ade_ayi_2017]: https://doi.org/10.14445/22312803/ijctt-v54p110
@@ -3426,8 +3866,12 @@ rebuilt because the official one was withdrawn.**
 [research_advances_in_2014]: https://doi.org/10.1007/978-1-4614-7937-6
 [research_agarwal_2026]: https://doi.org/10.2139/ssrn.7280759
 [research_aghassibake_castello_2023]: https://doi.org/10.3233/isu-230218
+[research_agrawal_cohen_2001]: https://doi.org/10.1002/nav.1026
+[research_aiers_drane_1933]: https://doi.org/10.1049/jipe.1933.0064
 [research_aircraft_cost_2010]: https://doi.org/10.1017/cbo9780511844652.018
 [research_ajibode_bangash_2025]: https://doi.org/10.1007/s10664-025-10631-3
+[research_akkermans_vanderhorst_2002]: https://doi.org/10.1016/s0925-5273(01)00201-8
+[research_akotochama_bertram_2018]: https://doi.org/10.1007/s13272-018-0332-1
 [research_akundi_simpson_2005]: https://doi.org/10.1115/detc2005-84905
 [research_albawaneh_murthy_2025]: https://doi.org/10.1109/vrw66409.2025.00216
 [research_alexandru_2020]: https://doi.org/10.5772/intechopen.92801
@@ -3443,40 +3887,50 @@ rebuilt because the official one was withdrawn.**
 [research_alizon_shooter_2007]: https://doi.org/10.1016/j.destud.2007.01.002
 [research_alizon_shooter_2009]: https://doi.org/10.1007/s00163-009-0066-5
 [research_allada_lan_2002]: https://doi.org/10.1115/detc2002/dfm-34190
+[research_allen_1933]: https://doi.org/10.1049/jipe.1933.0053
 [research_allison_roth_2006]: https://doi.org/10.2514/6.2006-6950
 [research_allon_mieghem_2010]: https://doi.org/10.4135/9781473970175
 [research_alsawalqah_kang_2013]: https://doi.org/10.1145/2499777.2500723
 [research_altman_2008]: https://doi.org/10.21236/ada494088
+[research_amalia_dachyar_2018]: https://doi.org/10.1051/matecconf/201824803011
 [research_america_obbink_2000]: https://doi.org/10.1007/978-1-4615-4339-8_9
+[research_american_engineering_1925]: https://doi.org/10.1109/jaiee.1925.6536253
 [research_ananno_jonsson_2026]: https://doi.org/10.2139/ssrn.6877701
 [research_andersen]: https://doi.org/10.54337/aau478557927
 [research_anderson_2013]: https://doi.org/10.1007/978-1-4614-7937-6_23
+[research_anderson_tushman_1990]: https://doi.org/10.2307/2393511
 [research_andrews_rusnock_2020]: https://doi.org/10.1109/wsc48552.2020.9383859
 [research_andrews_rusnock_2020_b]: https://doi.org/10.1109/smc42975.2020.9283167
 [research_aoki_staeblein_2018]: https://doi.org/10.1016/j.technovation.2017.10.008
+[research_appendix_1_2019]: https://doi.org/10.1515/9783110640281-013
 [research_arakawa_kono_2004]: https://doi.org/10.1299/jsmedsd.2004.14.286
 [research_arellano_pringle_2015]: https://doi.org/10.21236/ad1009069
 [research_arthur_2008]: https://doi.org/10.4050/vfs-f64-000110
 [research_asaga_nishigaki_2022]: https://doi.org/10.1299/jsmedsd.2022.32.2209
 [research_asan_polat_2008]: https://doi.org/10.1016/s0749-6826(07)10002-0
+[research_asher_maggelet_1980]: https://doi.org/10.21236/ada094693
+[research_asher_shafer_1985]: https://doi.org/10.21236/ada153657
 [research_assef_geiger_2023]: https://doi.org/10.22594/dau.22-892.30.01
 [research_athanasiadou_franzini_2026]: https://doi.org/10.3390/automation7040105
 [research_attia_megahed_2016]: https://doi.org/10.1016/j.ifacol.2016.07.587
 [research_aurich_fuchs]: https://doi.org/10.1007/1-4020-4617-0_21
 [research_austinroberte_ishmaelstephend_2000]: https://ntrs.nasa.gov/citations/20000033991
 [research_austinroberte_risingjerryj_2000]: https://ntrs.nasa.gov/citations/20000033992
+[research_ayton_hartley_1933]: https://doi.org/10.1049/jipe.1933.0050
 [research_badiru_2021]: https://doi.org/10.1201/9781003111979-5
 [research_bagchi_gutierrez_1992]: https://doi.org/10.1002/1520-6750(199210)39:6<815::aid-nav3220390607>3.0.co;2-s
 [research_bai_kong_2016]: https://doi.org/10.17660/actahortic.2016.1127.63
 [research_bailey_2008]: https://doi.org/10.4050/vfs-f64-000358
 [research_bajpai_boyinine_2025]: https://doi.org/10.2514/6.2025-1547
 [research_baker_1985]: https://doi.org/10.1016/0272-6963(85)90031-2
+[research_baker_magazine_1986]: https://doi.org/10.1287/mnsc.32.8.982
 [research_baldwin_clark_2000]: https://doi.org/10.7551/mitpress/2366.001.0001
 [research_baldwin_clark_modularity]: https://doi.org/10.7551/mitpress/2366.003.0005
 [research_baldwin_clark_splitting]: https://doi.org/10.7551/mitpress/2366.003.0014
 [research_banas_mehling_2020]: https://doi.org/10.4050/f-0076-2020-16314
 [research_bangert_frances_2017]: https://doi.org/10.1109/jcdl.2017.7991610
 [research_bao_li_2026]: https://doi.org/10.2139/ssrn.6178607
+[research_bao_wei_2025]: https://doi.org/10.2139/ssrn.5164667
 [research_barber_marhefka_1978]: https://doi.org/10.2514/6.1978-1467
 [research_barkstrom_2003]: https://doi.org/10.1007/3-540-39195-9_9
 [research_barriers_to_2009]: https://doi.org/10.1201/9781420071702-11
@@ -3487,9 +3941,12 @@ rebuilt because the official one was withdrawn.**
 [research_bedford_1933]: https://doi.org/10.1049/jipe.1933.0054
 [research_bellini_bergamin_2014]: https://doi.org/10.1504/ijkl.2014.069536
 [research_bellur_v_2006]: https://doi.org/10.1109/apsec.2006.16
+[research_beltramomn_andersonjl_1977]: https://ntrs.nasa.gov/citations/19780033967
+[research_beltramomn_morrisma_1979]: https://ntrs.nasa.gov/citations/19800036467
 [research_benkoczi_gaur_2018]: https://doi.org/10.1145/3196398.3196409
 [research_berber_yahyapour_2017]: https://doi.org/10.1109/nas.2017.8026839
 [research_berenbach]: https://doi.org/10.1109/spline.2006.1691597
+[research_berkowitz_rowlands_2005]: https://doi.org/10.21236/ada524830
 [research_bernstein_kok_2011]: https://doi.org/10.1287/msom.1100.0317
 [research_bhokardankar_wadodkar_2019]: https://doi.org/10.52482/ayurlog.v7i4.392
 [research_bibi]: https://doi.org/10.1007/978-3-7643-8140-0_214
@@ -3510,13 +3967,18 @@ rebuilt because the official one was withdrawn.**
 [research_bobo]: https://doi.org/10.58837/chula.the.2026.29
 [research_bockle_2005]: https://doi.org/10.1007/3-540-28901-1_1
 [research_bollapragada_akella_1993]: https://doi.org/10.1007/978-3-642-78063-9_25
+[research_bonannekevinh_2011]: https://ntrs.nasa.gov/citations/20150006562
 [research_bonev_hvam_2015]: https://doi.org/10.1016/j.compind.2015.07.006
 [research_bonillaortiz_verma_2020]: https://doi.org/10.1109/sss47320.2020.9197726
 [research_borger_schulte_2000]: https://doi.org/10.1007/978-3-642-57199-2_7
 [research_borjesson_holttaotto_2012]: https://doi.org/10.1115/detc2012-70076
+[research_borjesson_sellgren_2013]: https://doi.org/10.1115/detc2013-12041
 [research_bortolini_calabrese_2023]: https://doi.org/10.1007/s00170-023-11347-8
 [research_borysov_2020]: https://doi.org/10.32838/2663-6069/2020.2-1/27
+[research_bosworthjohnt_coxtimothyh_1989]: https://ntrs.nasa.gov/citations/19890065158
+[research_boudouh_grunder_2015]: https://doi.org/10.4028/www.scientific.net/amm.760.39
 [research_boudreau_2007]: https://doi.org/10.1109/sysose.2007.4304229
+[research_bouslogs_mammanoj_1998]: https://ntrs.nasa.gov/citations/19980200836
 [research_bowman_2006]: https://doi.org/10.1007/0-387-29197-0_2
 [research_boyce_sherman_2013]: https://doi.org/10.21236/ada584788
 [research_boysen_scholl_2009]: https://doi.org/10.1007/bf03343530
@@ -3554,7 +4016,9 @@ rebuilt because the official one was withdrawn.**
 [research_change_control_2008]: https://doi.org/10.1002/9780470261033.ch9
 [research_change_control_2023]: https://doi.org/10.1002/9781394207190.ch9
 [research_change_management_2018]: https://doi.org/10.1049/pbhe012e_ch19
+[research_chantzaras_2024]: https://doi.org/10.34156/978-3-7910-6138-2_5
 [research_chao_ishii_2004]: https://doi.org/10.1115/imece2004-59190
+[research_chatras_giard_2016]: https://doi.org/10.1080/00207543.2016.1159352
 [research_chatzimichali_tourassis_2008]: https://doi.org/10.1109/ieem.2008.4737890
 [research_chen_barnes_2013]: https://doi.org/10.21236/ada583900
 [research_chen_fan_2012]: https://doi.org/10.1109/coase.2012.6386510
@@ -3564,9 +4028,11 @@ rebuilt because the official one was withdrawn.**
 [research_chen_liu_2019]: https://doi.org/10.1109/access.2019.2903476
 [research_chen_luh_2023]: https://doi.org/10.21203/rs.3.rs-2713552/v1
 [research_chen_wang_2008]: https://doi.org/10.1007/s10845-008-0131-3
+[research_chenchunhsien_huangyuexiang_2013]: https://doi.org/10.3233/978-1-61499-302-5-91
 [research_cheng_lan_2015]: https://doi.org/10.1504/ijpd.2015.068962
 [research_cheng_wan_2019]: https://doi.org/10.1007/978-981-13-3402-3_29
 [research_cheng_zhu_2013]: https://doi.org/10.4028/www.scientific.net/amm.475-476.1402
+[research_cheung_2002]: https://doi.org/10.1080/09537280110099637
 [research_chitsaz_efatmaneshnik_2023]: https://doi.org/10.1109/syscon53073.2023.10131105
 [research_chiu_you_2020]: https://doi.org/10.3390/math8091570
 [research_choi_li_2026]: https://doi.org/10.2514/6.2026-2884
@@ -3580,11 +4046,14 @@ rebuilt because the official one was withdrawn.**
 [research_chowdhury_siddique_2009]: https://doi.org/10.1115/detc2009-87304
 [research_chyma_2010]: https://doi.org/10.21236/ada544317
 [research_clark_baldwin_2002]: https://doi.org/10.2139/ssrn.312404
+[research_clements_weiderman_1998]: https://doi.org/10.21236/ada346343
 [research_cody_tiedje_1996]: https://doi.org/10.1557/proc-426-539
 [research_cody_tiedje_1997]: https://doi.org/10.1063/1.53464
 [research_coleman_lopez_2015]: https://doi.org/10.21236/ad1008892
 [research_collier_1981]: https://doi.org/10.1111/j.1540-5915.1981.tb00063.x
 [research_collier_1982]: https://doi.org/10.1287/mnsc.28.11.1296
+[research_collier_1984]: https://doi.org/10.1287/mnsc.30.6.773
+[research_collinsjohnt_feingoldharvey_1991]: https://ntrs.nasa.gov/citations/19910067825
 [research_colombi_bentz_2017]: https://doi.org/10.1109/syscon.2017.7934767
 [research_colston_1998]: https://doi.org/10.21236/ada363072
 [research_commonality_part]: https://doi.org/10.1007/springerreference_6488
@@ -3599,6 +4068,9 @@ rebuilt because the official one was withdrawn.**
 [research_configuration_management]: https://doi.org/10.1007/3-540-28542-3_13
 [research_configuration_management_2004]: https://doi.org/10.1201/9780203496114.ch12
 [research_configuration_management_2007]: https://doi.org/10.1201/9781420013290.ch5
+[research_cook_coates_2016]: https://doi.org/10.1080/09544828.2016.1146236
+[research_cooke_lemaistre_1933]: https://doi.org/10.1049/jipe.1933.0048
+[research_cooke_salmon_1933]: https://doi.org/10.1049/jipe.1933.0047
 [research_corbett_rosen_2004]: https://doi.org/10.1017/s089006040404003x
 [research_corliss_sneath_1974]: https://doi.org/10.2307/3225339
 [research_correa_toombs_2017]: https://doi.org/10.1016/j.jmsy.2017.04.013
@@ -3606,6 +4078,9 @@ rebuilt because the official one was withdrawn.**
 [research_cosenzo_2010]: https://doi.org/10.1037/e578862012-016
 [research_cost_estimating_relationships_1972]: https://doi.org/10.7249/r0761
 [research_courtneywinski_michaelbozeman]: https://ntrs.nasa.gov/citations/20230005327
+[research_cox_2008]: https://doi.org/10.17487/rfc5138
+[research_creightontom_haddadrafael_1987]: https://ntrs.nasa.gov/citations/19880010837
+[research_crompton_blackburn_1900]: https://doi.org/10.1049/jiee-1.1900.0069
 [research_cronie_thompson_1980]: https://doi.org/10.2514/6.1980-1839
 [research_cui_weston_2010]: https://doi.org/10.1080/09511920903225276
 [research_cummings_liersch_2018]: https://doi.org/10.2514/1.c033808
@@ -3631,6 +4106,7 @@ rebuilt because the official one was withdrawn.**
 [research_das_doelling_2017]: https://doi.org/10.1115/imece2017-72076
 [research_dashofy_vanderhoek_2002]: https://doi.org/10.1007/3-540-47833-7_29
 [research_davidson_2004]: https://doi.org/10.2514/6.2004-6557
+[research_davishubertp_johnsonroberte_1986]: https://ntrs.nasa.gov/citations/19870008371
 [research_decan_mens_2021]: https://doi.org/10.1109/tse.2019.2918315
 [research_delange_2002]: https://doi.org/10.1007/3-540-47833-7_18
 [research_delil_2002]: https://doi.org/10.1063/1.1449702
@@ -3646,6 +4122,7 @@ rebuilt because the official one was withdrawn.**
 [research_design_of_2008]: https://doi.org/10.1142/9789812832634_0004
 [research_deweck_2006]: https://doi.org/10.1007/0-387-29197-0_12
 [research_deweck_suh_2003]: https://doi.org/10.1115/detc2003/dac-48721
+[research_diamond_1951]: https://doi.org/10.1049/jipe.1951.0013
 [research_digital_object]: https://doi.org/10.1036/1097-8542.195250
 [research_digital_object_2009]: https://doi.org/10.1081/e-elis3-120044418
 [research_digital_object_2011]: https://doi.org/10.1201/b11499-52
@@ -3655,6 +4132,7 @@ rebuilt because the official one was withdrawn.**
 [research_din_31646]: https://doi.org/10.31030/1920006
 [research_ding_ru_2026]: https://doi.org/10.1109/tvt.2026.3661749
 [research_dinnus_pohl_2005]: https://doi.org/10.1007/3-540-28901-1_21
+[research_discussion_on_1923]: https://doi.org/10.1049/jiee-1.1923.0056
 [research_divitobenl_1998]: https://ntrs.nasa.gov/citations/19980237199
 [research_dolan_lewis_2008]: https://doi.org/10.1080/09544820802126511
 [research_dolan_smolensky_1989]: https://doi.org/10.1080/09540098908915629
@@ -3691,10 +4169,15 @@ rebuilt because the official one was withdrawn.**
 [research_ertas_gulbulak_2021]: https://doi.org/10.22545/2021b/m5
 [research_essers]: https://doi.org/10.3990/1.9789036540674
 [research_ettlie_pennerhahn_1994]: https://doi.org/10.1016/1047-8310(94)90012-4
+[research_eugenechoi_aaronbrimmer]: https://ntrs.nasa.gov/citations/20250008897
 [research_evaluating_product_2009]: https://doi.org/10.1201/9781420068429-7
 [research_ewing_2022]: https://doi.org/10.1117/12.2608578
+[research_eynan_fouque_2005]: https://doi.org/10.1504/ijsom.2005.006320
 [research_eynan_rosenblatt_1996]: https://doi.org/10.1080/07408179608966255
+[research_eynan_rosenblatt_2007]: https://doi.org/10.1002/nav.20233
 [research_ezzat_medini_2019]: https://doi.org/10.1016/j.promfg.2018.12.024
+[research_fabry_1980]: https://doi.org/10.21236/ada094691
+[research_fan_han_2024]: https://doi.org/10.3390/systems12120566
 [research_fan_zhao_2010]: https://doi.org/10.4028/www.scientific.net/amm.37-38.693
 [research_farach_2022]: https://doi.org/10.32614/cran.package.npi
 [research_farooq_araujo_2013]: https://doi.org/10.3139/9783446437937.003
@@ -3705,11 +4188,14 @@ rebuilt because the official one was withdrawn.**
 [research_farrell_simpson_2009]: https://doi.org/10.1080/00207540802620753
 [research_fay_salmen_2026]: https://doi.org/10.1007/s00403-026-04903-1
 [research_feiler_downey_1990]: https://doi.org/10.21236/ada235510
+[research_felicer_1985]: https://ntrs.nasa.gov/citations/19860026679
 [research_fellini_kokkolaras_2006]: https://doi.org/10.1007/0-387-29197-0_9
 [research_fellini_kokkolaras_2006_b]: https://doi.org/10.1080/09544820500287797
 [research_fiala_1983]: https://doi.org/10.1007/978-3-642-69024-2_11
+[research_fields_gardner_2012]: https://doi.org/10.21236/ada562768
 [research_finch_1999]: https://doi.org/10.1115/detc99/dtm-8763
 [research_firms_and_2025]: https://doi.org/10.1017/9781009397698.009
+[research_fischettitl_1974]: https://ntrs.nasa.gov/citations/19750041962
 [research_fisher_ramdas_1999]: https://doi.org/10.1287/mnsc.45.3.297
 [research_flaherty_shively_2006]: https://doi.org/10.4050/vfs-f62-137
 [research_flores_stahlbuhk_2025]: https://doi.org/10.1109/icc52391.2025.11162082
@@ -3718,6 +4204,7 @@ rebuilt because the official one was withdrawn.**
 [research_ford_colburn_2012]: https://doi.org/10.21236/ada562705
 [research_ford_dillard_2008]: https://doi.org/10.21236/ada493929
 [research_ford_dillard_2009]: https://doi.org/10.21236/ada510390
+[research_franke_hobbs_1993]: https://doi.org/10.21236/ada265051
 [research_friedrich_schulte_2025]: https://doi.org/10.1109/ichms65439.2025.11154178
 [research_fry_2008]: https://doi.org/10.21236/ada494062
 [research_fujinaga_tokutake_2007]: https://doi.org/10.2514/6.2007-6501
@@ -3726,6 +4213,7 @@ rebuilt because the official one was withdrawn.**
 [research_fujita_sakaguchi_1999]: https://doi.org/10.1115/detc99/dfm-8923
 [research_fuli_yumeixiang_2008]: https://doi.org/10.1109/ccdc.2008.4598037
 [research_gambaryan_2021]: https://doi.org/10.52853/18291171-2021.14.3-151
+[research_gansler_lucyshyn_2010]: https://doi.org/10.21236/ada623330
 [research_gao_xiao_2009]: https://doi.org/10.1007/s00163-008-0061-2
 [research_gao_zhang_2020]: https://doi.org/10.1109/icid52250.2020.00068
 [research_garcia_gocke_1994]: https://doi.org/10.21236/ada279287
@@ -3739,18 +4227,23 @@ rebuilt because the official one was withdrawn.**
 [research_gedell_johannesson_2012]: https://doi.org/10.1177/1063293x12469216
 [research_generic_product_2025]: https://doi.org/10.35199/dfx2025.10
 [research_gerchak_henig_1986]: https://doi.org/10.1016/0167-6377(86)90089-1
+[research_gerchak_henig_1989]: https://doi.org/10.1002/1520-6750(198902)36:1<61::aid-nav3220360105>3.0.co;2-p
 [research_gerchak_magazine_1988]: https://doi.org/10.1287/mnsc.34.6.753
 [research_gershenson_prasad_2003]: https://doi.org/10.1080/0954482031000091068
+[research_gilbert_1933]: https://doi.org/10.1049/jipe.1933.0056
 [research_gilmartin_1983]: https://doi.org/10.1007/978-3-642-69024-2_57
 [research_golovachev_2026]: https://doi.org/10.18535/ijecs/v15i03.5486
+[research_gong_liu_2017]: https://doi.org/10.1016/j.procir.2017.04.026
 [research_gonzalezzugasti_otto_2000]: https://doi.org/10.1115/detc2000/dac-14238
 [research_gordnier_visbal]: https://doi.org/10.1109/dodugc.2005.34
 [research_goswami_allada_2007]: https://doi.org/10.1115/detc2007-35800
 [research_gould_1974]: https://doi.org/10.1126/science.183.4126.739
 [research_gozzi_schulte_2026]: https://doi.org/10.1109/cogsima68896.2026.11481238
 [research_gravinadarocha_elghoz_2019]: https://doi.org/10.1108/ecam-02-2019-0096
+[research_graydw_1979]: https://ntrs.nasa.gov/citations/19790058370
 [research_greve_krause_2018]: https://doi.org/10.21278/idc.2018.0249
 [research_greve_rennpferdt_2019]: https://doi.org/10.1115/imece2019-10497
+[research_groocock_wright_1933]: https://doi.org/10.1049/jipe.1933.0051
 [research_gruber_1992]: https://doi.org/10.1080/00036849200000056
 [research_gruber_1994]: https://doi.org/10.1080/00036849400000100
 [research_gualberto]: https://doi.org/10.11606/d.3.2012.tde-04062013-143901
@@ -3783,17 +4276,23 @@ rebuilt because the official one was withdrawn.**
 [research_hardisty_addink_2021_g]: https://doi.org/10.3897/rio.7.e67379.suppl2
 [research_hardisty_addink_2021_h]: https://doi.org/10.3897/rio.7.e67379.suppl4
 [research_hardisty_addink_2021_i]: https://doi.org/10.3897/rio.7.e67379.suppl1
+[research_harland_uddin_2014]: https://doi.org/10.1504/ijpd.2014.064881
 [research_harofteh_saljooghi_2023]: https://doi.org/10.1007/s44196-023-00340-4
+[research_hartel_witt_1977]: https://doi.org/10.21236/ada042768
 [research_harvey_1986]: https://doi.org/10.21236/ada178770
 [research_haspert_beauregard_1998]: https://doi.org/10.21236/ada358469
 [research_hata_kato]: https://doi.org/10.1109/.2001.992323
+[research_he_khorrami_2019]: https://doi.org/10.3386/w26494
+[research_he_khorrami_2022]: https://doi.org/10.1093/rfs/hhac004
 [research_he_li_2021]: https://doi.org/10.1016/j.aei.2021.101302
 [research_he_song_2024]: https://doi.org/10.1080/09544828.2024.2365117
+[research_heberligjc_palaorohr_1971]: https://ntrs.nasa.gov/citations/19710054024
 [research_heese_swaminathan_2006]: https://doi.org/10.1287/msom.1060.0103
 [research_heikal_elkharbotly_2019]: https://doi.org/10.1088/1757-899x/610/1/012082
 [research_heilemann_hollatz_2020]: https://doi.org/10.2514/6.2020-1111
 [research_helmer_yassine_2010]: https://doi.org/10.1080/09544820802563226
 [research_helo_2006]: https://doi.org/10.1108/02635570610688896
+[research_henderson_clark_1990]: https://doi.org/10.2307/2393549
 [research_henderson_higer_2007]: https://doi.org/10.21236/ada475897
 [research_hendrickson_subramanian_2008]: https://doi.org/10.1145/1370062.1370073
 [research_heradiogil_fernandezamoros_2011]: https://doi.org/10.1049/iet-sen.2010.0022
@@ -3803,12 +4302,17 @@ rebuilt because the official one was withdrawn.**
 [research_hewlett_2016]: https://doi.org/10.59350/0vm23-k4320
 [research_hewlett_2017]: https://doi.org/10.59350/rsjrx-1x106
 [research_hicks_burch_1977]: https://doi.org/10.1093/forestscience/23.3.290
+[research_hidayat_fadilla_2025]: https://doi.org/10.1007/978-981-96-5690-5_21
+[research_hidayat_simatupang_2017]: https://doi.org/10.1109/ieem.2017.8290119
+[research_hill_1973]: https://doi.org/10.1049/tpe.1973.0044
 [research_hillier_1999]: https://doi.org/10.1002/(sici)1520-6750(199909)46:6<737::aid-nav9>3.0.co;2-m
+[research_hillier_1999_b]: https://doi.org/10.1080/002075499190464
 [research_hillier_2000]: https://doi.org/10.1080/07408170008967433
 [research_hoek_carzaniga_1998]: https://doi.org/10.21236/ada454726
 [research_hoek_heimbigner_1995]: https://doi.org/10.21236/ada454619
 [research_hoek_heimbigner_1998]: https://doi.org/10.21236/ada453899
 [research_hoek_heimbigner_1998_b]: https://doi.org/10.21236/ada452470
+[research_hoffert_1988]: https://doi.org/10.21236/ada338958
 [research_hoffman_2010]: https://doi.org/10.17487/rfc6014
 [research_hogan_elshaw_2020]: https://doi.org/10.3390/forecast2040023
 [research_hogan_elshaw_2022]: https://doi.org/10.1201/9781003220978-8
@@ -3835,27 +4339,36 @@ rebuilt because the official one was withdrawn.**
 [research_housley_2021]: https://doi.org/10.17487/rfc9158
 [research_how_configuration_2004]: https://doi.org/10.1201/9780203496114-8
 [research_hu_zhu_2008]: https://doi.org/10.1016/j.cirp.2008.03.138
+[research_huang_chen_2010]: https://doi.org/10.1007/978-0-85729-024-3_13
+[research_huang_chen_2012]: https://doi.org/10.1016/j.ergon.2012.05.003
 [research_huang_dai_2012]: https://doi.org/10.4028/www.scientific.net/amm.201-202.798
 [research_huang_li_2008]: https://doi.org/10.1080/09544820701642063
+[research_huang_lo_2018]: https://doi.org/10.1007/s12351-018-0441-y
 [research_huang_wang_2025]: https://doi.org/10.1145/3777730.3777800
+[research_huang_yang_2025]: https://doi.org/10.2139/ssrn.5133030
 [research_hubac_1983]: https://doi.org/10.1007/978-3-642-69024-2_39
 [research_hume_rosen_2012]: https://doi.org/10.1115/detc2012-71198
 [research_hwang_han_2025]: https://doi.org/10.31818/jknst.2025.12.8.4.956
 [research_hwang_mazzuchi_2022]: https://doi.org/10.1117/12.2623360
 [research_identifying_real_2009]: https://doi.org/10.1201/9781420071702-12
+[research_illuminating_engineering_1922]: https://doi.org/10.1126/science.56.1442.186
 [research_iman_2025]: https://doi.org/10.62891/904655e8
 [research_imf_participation_2013]: https://doi.org/10.5089/9781498341363.007
 [research_information_and]: https://doi.org/10.3403/30177056
 [research_information_technology]: https://doi.org/10.3403/00305898u
+[research_insulation_commonality_1973]: https://ntrs.nasa.gov/citations/19740002685
 [research_introduction_to_2012]: https://doi.org/10.7551/mitpress/8896.003.0003
 [research_isci_gunel_2021]: https://doi.org/10.1007/s40435-021-00803-6
 [research_islam_theocharides_2022]: https://doi.org/10.3897/biss.6.91168
 [research_ismail_2013]: https://doi.org/10.2174/2210289201304010009
 [research_izui_nishiwaki_2009]: https://doi.org/10.1080/00207540902791868
 [research_jacobs_2024]: https://doi.org/10.4050/sm-2024-helmot-5263
+[research_jacobsondavid_2004]: https://ntrs.nasa.gov/citations/20040041355
+[research_jacobsondavid_2004_b]: https://ntrs.nasa.gov/citations/20040041357
 [research_jakovljevic_2006]: https://doi.org/10.1109/dasc.2006.313749
 [research_james_1964]: https://doi.org/10.1111/j.1558-5646.1964.tb01630.x
 [research_janowitz_1996]: https://doi.org/10.1007/bf01246107
+[research_jans_degraeve_2008]: https://doi.org/10.1016/j.ejor.2007.01.008
 [research_jaring_bosch_2004]: https://doi.org/10.1007/978-3-540-24667-1_7
 [research_jelenic_2024]: https://doi.org/10.31490/9788024847856-1
 [research_jennings_jung_2025]: https://doi.org/10.1115/1.4069198
@@ -3883,6 +4396,7 @@ rebuilt because the official one was withdrawn.**
 [research_joint_1996_1995]: https://doi.org/10.1006/jmps.1995.1040
 [research_jones_2018]: https://doi.org/10.4324/9781315160092-3
 [research_jones_kovarik_2021]: https://doi.org/10.1016/j.engfracmech.2021.107916
+[research_jonsson_silver_1991]: https://doi.org/10.1007/978-3-642-76401-1_19
 [research_jose_tollenaere_2005]: https://doi.org/10.1007/s10845-005-7030-7
 [research_jucevic_1978]: https://doi.org/10.21236/ada076542
 [research_jung_choi_2025]: https://doi.org/10.56165/kosc.2025.4.2.029
@@ -3893,12 +4407,16 @@ rebuilt because the official one was withdrawn.**
 [research_jung_simpson_2018]: https://doi.org/10.1115/detc2018-85627
 [research_kamrani_2013]: https://doi.org/10.1201/b14953-8
 [research_kane]: https://doi.org/10.1109/arms.1988.196418
+[research_kannan_nolte_1998]: https://doi.org/10.1007/3-540-68530-8_19
 [research_karabetsky_2018]: https://doi.org/10.18372/1990-5548.56.12938
 [research_karagoz_bagdatli_2021]: https://doi.org/10.2514/6.2021-0092
+[research_karimi_werner_2014]: https://doi.org/10.21236/ada613939
+[research_kariya_izui_2007]: https://doi.org/10.1115/detc2007-35687
 [research_kashkoush_elmaraghy_2017]: https://doi.org/10.1080/09544828.2017.1307949
 [research_kassi_leisti_2008]: https://doi.org/10.5755/j02.mech.15174
 [research_keller_2008]: https://doi.org/10.1145/3260623
 [research_kennickell_2016]: https://doi.org/10.17016/feds.2016.103
+[research_khadke_gershenson_2008]: https://doi.org/10.1504/ijpd.2008.020400
 [research_khajavirad_michalek_2007]: https://doi.org/10.1115/detc2007-35605
 [research_khajavirad_michalek_2007_b]: https://doi.org/10.1115/detc2007-35611
 [research_khajavirad_michalek_2008]: https://doi.org/10.1007/s00158-008-0321-9
@@ -3912,6 +4430,7 @@ rebuilt because the official one was withdrawn.**
 [research_kim_2026]: https://doi.org/10.46322/krinsq.11.1.7
 [research_kim_chhajed_2000]: https://doi.org/10.1016/s0377-2217(99)00271-4
 [research_kim_chhajed_2013]: https://doi.org/10.1287/mksc.2013.0774
+[research_kim_choi_2025]: https://doi.org/10.1115/1.4068100
 [research_kim_kim_2020]: https://doi.org/10.1115/1.4047092
 [research_kim_kim_2026]: https://doi.org/10.32604/cmc.2026.078931
 [research_kim_kwon_2016]: https://doi.org/10.1115/detc2016-59145
@@ -3924,12 +4443,15 @@ rebuilt because the official one was withdrawn.**
 [research_kim_moon_2017_b]: https://doi.org/10.1016/j.jclepro.2016.12.073
 [research_kim_oh_2017]: https://doi.org/10.1109/icuas.2017.7991455
 [research_kim_park_2004]: https://doi.org/10.1007/978-3-540-24571-1_25
+[research_kim_park_2019]: https://doi.org/10.3390/su11247105
 [research_kim_saidani_2020]: https://doi.org/10.1115/detc2020-22488
 [research_kim_saidani_2021]: https://doi.org/10.1115/1.0002055v
 [research_kim_wong_2003]: https://doi.org/10.1080/0965254032000159063
 [research_kima_chhajed_2001]: https://doi.org/10.1111/1540-5885.1840219
 [research_kimita_matschewsky_2021]: https://doi.org/10.1115/1.0001745v
+[research_kline_bachman_2006]: https://doi.org/10.2514/6.2006-7233
 [research_knauber_thiel_2002]: https://doi.org/10.1007/3-540-47833-7_2
+[research_kneece_rr_2014]: https://doi.org/10.21236/ada606290
 [research_kogel_2008]: https://doi.org/10.1145/1370152.1370158
 [research_kohn_2022]: https://doi.org/10.4050/sm-2022-helmot-5285
 [research_kokkolaras_fellini_2006]: https://doi.org/10.1007/0-387-29197-0_11
@@ -3954,12 +4476,14 @@ rebuilt because the official one was withdrawn.**
 [research_krueger_2008]: https://doi.org/10.1109/splc.2008.66
 [research_krueger_2011]: https://doi.org/10.1109/splc.2011.56
 [research_krueger_2015]: https://doi.org/10.1145/2791060.2791109
+[research_kruse_gries_2011]: https://doi.org/10.1533/9780857092533.1.42
 [research_krystallis_sandoval_2026]: https://doi.org/10.1109/tem.2026.3722274
 [research_kuang_jiang_2009]: https://doi.org/10.1080/09544820802132410
 [research_kulenkampff_duraku_2023]: https://doi.org/10.7759/cureus.48660
 [research_kumar_allada_2004]: https://doi.org/10.1115/detc2004-57195
 [research_kun_dong_2006]: https://doi.org/10.1109/caidcd.2006.329488
 [research_kunzel_wuwer_2025]: https://doi.org/10.1109/smc58881.2025.11343617
+[research_kusangwuk_2014]: https://doi.org/10.17961/jdmr.17.2.201405.17
 [research_kuthe_jelali_2025]: https://doi.org/10.2139/ssrn.5869430
 [research_kuthe_jelali_2026]: https://doi.org/10.5220/0014999800004094
 [research_kwak_kim_2013]: https://doi.org/10.1007/978-1-4614-7937-6_28
@@ -3969,6 +4493,7 @@ rebuilt because the official one was withdrawn.**
 [research_lam_dietrich_2020]: https://doi.org/10.1145/3426428.3426922
 [research_lamine_jilani_2005]: https://doi.org/10.1007/11554844_13
 [research_lancaster_1998]: https://doi.org/10.1007/978-1-4615-5579-7_1
+[research_lane_1990]: https://doi.org/10.21236/ada237049
 [research_lange_imsdahl_2013]: https://doi.org/10.1007/978-1-4614-7937-6_4
 [research_larsson_aslund_2001]: https://doi.org/10.1007/978-3-642-56905-0_18
 [research_laurarhumphrey_cesaramunoz]: https://ntrs.nasa.gov/citations/20240006543
@@ -3976,6 +4501,7 @@ rebuilt because the official one was withdrawn.**
 [research_learning_curves_2015]: https://doi.org/10.1002/9781118802342.ch12
 [research_learning_curves_2026]: https://doi.org/10.1002/9781394298075.ch12
 [research_lee_1970]: https://doi.org/10.1016/s0031-4056(23)00419-5
+[research_lee_2012]: https://doi.org/10.5465/ambpp.2012.216
 [research_lee_jeong_2025]: https://doi.org/10.37944/jams.v8i2.284
 [research_lee_kang_2025]: https://doi.org/10.5139/jksas.2025.53.3.329
 [research_lee_kim_2025]: https://doi.org/10.1109/dasc66011.2025.11257249
@@ -3998,10 +4524,12 @@ rebuilt because the official one was withdrawn.**
 [research_li_weiss_2011]: https://doi.org/10.1109/splc.2011.43
 [research_li_wu_2011]: https://doi.org/10.1109/icdma.2011.57
 [research_li_wu_2023]: https://doi.org/10.1109/ase56229.2023.00140
+[research_liang_he_2026]: https://doi.org/10.1016/j.jer.2025.04.007
 [research_lim]: https://doi.org/10.32657/10356/5268
 [research_lim_loh_2010]: https://doi.org/10.1115/detc2010-28390
 [research_lima_1983]: https://doi.org/10.1007/978-3-642-69024-2_67
 [research_lin_2004]: https://doi.org/10.3901/jme.2004.01.114
+[research_lin_tanyavutti_2007]: https://doi.org/10.1109/picmet.2007.4349326
 [research_liqian_zhenyukong_2008]: https://doi.org/10.1109/coase.2008.4626535
 [research_liu_2012]: https://doi.org/10.3901/jme.2012.11.086
 [research_liu_2016]: https://doi.org/10.5465/ambpp.2016.13170abstract
@@ -4010,6 +4538,7 @@ rebuilt because the official one was withdrawn.**
 [research_lu_petersen_2008]: https://doi.org/10.1080/00207540701484921
 [research_lundberg_1956]: https://doi.org/10.4271/560066
 [research_luo_tang_2013]: https://doi.org/10.1007/978-1-4614-7937-6_14
+[research_luo_zhang_2015]: https://doi.org/10.1109/dcabes.2015.13
 [research_lyke_peters_2019]: https://doi.org/10.1117/12.2519920
 [research_lyons_everington_2012]: https://doi.org/10.1002/9781118607077.ch2
 [research_lyons_miller_2021]: https://doi.org/10.1177/1071181321651026
@@ -4021,12 +4550,15 @@ rebuilt because the official one was withdrawn.**
 [research_maccari_2002]: https://doi.org/10.1145/581413.581414
 [research_macduffie_sethuraman_1996]: https://doi.org/10.1287/mnsc.42.3.350
 [research_mackay_1996]: https://doi.org/10.1007/bfb0023099
+[research_maddux_1999]: https://doi.org/10.21236/ada374459
 [research_maier_kiam_2024]: https://doi.org/10.1109/smc54092.2024.10831141
 [research_maini_gallant_2026]: https://doi.org/10.3390/cancers18193090
 [research_majd_pindyck_1987]: https://doi.org/10.3386/w2423
+[research_majerus_smith_1999]: https://doi.org/10.1115/detc99/dac-8574
 [research_maldonado_sarker_2017]: https://doi.org/10.2514/6.2017-0224
 [research_malhotra_ratnoo_2024]: https://doi.org/10.2514/6.2024-2751
 [research_mall_ullah_2018]: https://doi.org/10.12688/f1000research.14258.1
+[research_mandelbaum_kneece_2008]: https://doi.org/10.21236/ada488056
 [research_mannion_savolainen_2014]: https://doi.org/10.1145/2648511.2648559
 [research_marchese_1963]: https://doi.org/10.21236/ad0442887
 [research_marion_meyer_2014]: https://doi.org/10.1111/jpim.12240
@@ -4038,6 +4570,7 @@ rebuilt because the official one was withdrawn.**
 [research_martinis_1990]: https://doi.org/10.1145/101114.101119
 [research_masmoudi_leclaire_2017]: https://doi.org/10.1016/j.ifacol.2017.08.2427
 [research_massart_lenders_1974]: https://doi.org/10.1093/chromsci/12.11.617
+[research_mathewdeminico_jamespmastandrea]: https://ntrs.nasa.gov/citations/20220004762
 [research_mathur_jain_2011]: https://doi.org/10.15373/2249555x/june2013/99
 [research_matinlassi]: https://doi.org/10.1109/wicsa.2004.1310713
 [research_matos_duarte_2007]: https://doi.org/10.1109/acom.2007.11
@@ -4072,6 +4605,7 @@ rebuilt because the official one was withdrawn.**
 [research_modrak_soltysova_2021]: https://doi.org/10.1088/1757-899x/1174/1/012002
 [research_modular_architecture]: https://doi.org/10.1007/springerreference_6931
 [research_mohagheghi_conradi_2004]: https://doi.org/10.1007/978-3-540-24667-1_32
+[research_mohebbi_choobineh_2005]: https://doi.org/10.1016/j.omega.2004.07.011
 [research_mohr_2002]: https://doi.org/10.1007/978-3-322-99300-7_4
 [research_monetti_lundstrom_2025]: https://doi.org/10.1080/21693277.2025.2566066
 [research_monetti_lundstrom_2026]: https://doi.org/10.1080/09544828.2026.2680613
@@ -4089,6 +4623,9 @@ rebuilt because the official one was withdrawn.**
 [research_mukhtar_agarwal_2009]: https://doi.org/10.2139/ssrn.1491475
 [research_muller_segor_2023]: https://doi.org/10.1117/12.2663145
 [research_multiple_view_requirements_2009]: https://doi.org/10.1201/9781420068429-16
+[research_multivariable_modular]: https://doi.org/10.1021/jacs.6b07901.s001
+[research_murmann_frenken_2005]: https://doi.org/10.2139/ssrn.737063
+[research_murmann_frenken_2006]: https://doi.org/10.1016/j.respol.2006.04.011
 [research_myrodia_hvam_2021]: https://doi.org/10.1016/j.jmsy.2021.04.017
 [research_nace_koopman_2001]: https://doi.org/10.1007/978-0-387-35409-5_13
 [research_nagarur_azeem_1999]: https://doi.org/10.1016/s0925-5273(98)00198-4
@@ -4101,11 +4638,13 @@ rebuilt because the official one was withdrawn.**
 [research_nayak_chen_2002]: https://doi.org/10.1080/03052150210910
 [research_nelson_parkinson_1999]: https://doi.org/10.1115/detc99/dac-8676
 [research_nelson_parkinson_2000]: https://doi.org/10.1115/1.1355775
+[research_nelsongeorgec_2017]: https://ntrs.nasa.gov/citations/20180007272
 [research_nemet_2006]: https://doi.org/10.1016/j.enpol.2005.06.020
 [research_neubauer_baker_2022]: https://doi.org/10.21236/ad1189513
 [research_neubauer_baker_2023]: https://doi.org/10.21236/ad1197383
 [research_neufeld_chung_2005]: https://doi.org/10.2514/6.2005-7051
 [research_newcomb_rosen_2003]: https://doi.org/10.1109/ecodim.2003.1322671
+[research_nicol_hooper_1999]: https://doi.org/10.1080/02673039983000
 [research_nidamarthi_karandikar_2006]: https://doi.org/10.1007/0-387-29197-0_20
 [research_niemela_2005]: https://doi.org/10.1007/11554844_21
 [research_nihatersoy_2011]: https://doi.org/10.5897/ijps11.1168
@@ -4135,6 +4674,7 @@ rebuilt because the official one was withdrawn.**
 [research_oh_lim_2022]: https://doi.org/10.1177/1063293x221137831
 [research_ohvanainen_hietikko_2012]: https://doi.org/10.3926/jiem.438
 [research_okpoti_jeong_2019]: https://doi.org/10.1016/j.cie.2019.06.039
+[research_olivealvarez_2023]: https://doi.org/10.4000/hispanismes.18603
 [research_ong_xu_2006]: https://doi.org/10.1016/s0007-8506(07)60389-8
 [research_opdebeeck_zerouali_2021]: https://doi.org/10.1016/j.jss.2021.111059
 [research_optimization_techniques_2025]: https://doi.org/10.37285/bsp.sacad2025.74
@@ -4142,6 +4682,7 @@ rebuilt because the official one was withdrawn.**
 [research_origins_of_2009]: https://doi.org/10.1201/9781420071702-7
 [research_orr_1982]: https://doi.org/10.1039/ap9821900368
 [research_ortiz_1992]: https://doi.org/10.21236/ada265469
+[research_ostrosiegon_stjepandicacutejosip_2014]: https://doi.org/10.3233/978-1-61499-440-4-414
 [research_otto_holttaotto_2013]: https://doi.org/10.1115/detc2013-12523
 [research_otto_holttaotto_2016]: https://doi.org/10.1115/1.4033654
 [research_overview_of_2016]: https://doi.org/10.21090/ijaerd.030383
@@ -4153,10 +4694,12 @@ rebuilt because the official one was withdrawn.**
 [research_pandey_thurston_2011]: https://doi.org/10.1115/detc2011-48616
 [research_pandit_siddique_2004]: https://doi.org/10.1115/imece2004-61315
 [research_panter_hindman_2025]: https://doi.org/10.1007/s10664-025-10678-2
+[research_park_2021]: https://doi.org/10.1504/ijism.2021.118564
 [research_park_shin_2007]: https://doi.org/10.1115/detc2007-34622
 [research_park_shin_2008]: https://doi.org/10.1080/09544820802043583
 [research_park_simpson_2006]: https://doi.org/10.1007/0-387-29197-0_14
 [research_park_yoo_2022]: https://doi.org/10.9766/kimst.2022.25.4.401
+[research_parrish_jr_1978]: https://doi.org/10.21236/ada093689
 [research_particle_swarm_2026]: https://doi.org/10.18178/ijmerr.15.1.38-49
 [research_pasche_skold_2012]: https://doi.org/10.1504/ijatm.2012.046006
 [research_paskin_1999]: https://doi.org/10.1108/02641619910255829
@@ -4166,6 +4709,7 @@ rebuilt because the official one was withdrawn.**
 [research_pedersen_slepniov_2016]: https://doi.org/10.1108/ijopm-08-2013-0365
 [research_peer_review_2018]: https://doi.org/10.5256/f1000research.15518.r34227
 [research_pektas_pultar_2006]: https://doi.org/10.1016/j.destud.2005.07.004
+[research_pengchew_lee_2006]: https://doi.org/10.1080/07408170500436724
 [research_pentz_2017]: https://doi.org/10.64000/g720f-z9z14
 [research_pericon_2024]: https://doi.org/10.52202/075106-0011
 [research_peters_mcdonald_2022]: https://doi.org/10.4271/2024-01-3968
@@ -4174,6 +4718,7 @@ rebuilt because the official one was withdrawn.**
 [research_pid_service_2015]: https://doi.org/10.36334/modsim.2015.c8.golodoniuc
 [research_pierce_littlefieldlawwill_2008]: https://doi.org/10.1109/systems.2008.4519034
 [research_piligian_bashaw_1968]: https://doi.org/10.21236/ad0666652
+[research_pillai_1956]: https://doi.org/10.1177/0019466219560201
 [research_pilowsky_levine_1969]: https://doi.org/10.1192/bjp.115.525.937
 [research_pinckney_cassano_2023]: https://doi.org/10.1109/msr59073.2023.00073
 [research_pindyck_majd_1996]: https://doi.org/10.3886/icpsr01027.v1
@@ -4184,6 +4729,7 @@ rebuilt because the official one was withdrawn.**
 [research_pirmoradi_wang_2011]: https://doi.org/10.1115/detc2011-47959
 [research_pirmoradi_wang_2013]: https://doi.org/10.1007/978-1-4614-7937-6_1
 [research_pisch_cai_2024]: https://doi.org/10.1145/3674805.3686697
+[research_plant_2017]: https://doi.org/10.4043/27832-ms
 [research_pletsch_2021]: https://doi.org/10.5771/0947-3971-2021-4-dossier-93-13
 [research_plonsky_herber_2026]: https://doi.org/10.1002/sys.70070
 [research_pohl_reuys_2002]: https://doi.org/10.1007/3-540-47833-7_4
@@ -4194,10 +4740,14 @@ rebuilt because the official one was withdrawn.**
 [research_product_modularity_measures]: https://doi.org/10.1080/0954482032000101731
 [research_product_platform_2006]: https://doi.org/10.1007/0-387-29197-0
 [research_programme_management]: https://doi.org/10.3403/30322449
+[research_pudge_1933]: https://doi.org/10.1049/jipe.1933.0055
 [research_qi_xie_2026]: https://doi.org/10.1109/isaes70982.2026.11669833
 [research_qian_2011]: https://doi.org/10.2139/ssrn.1819622
 [research_qian_2011_b]: https://doi.org/10.1504/ijsoi.2011.045572
+[research_qiao_efatmaneshnik_2017]: https://doi.org/10.1080/09544828.2017.1325858
+[research_qiao_efatmaneshnik_2018]: https://doi.org/10.1007/978-3-030-02886-2_5
 [research_qiu_2010]: https://doi.org/10.3901/jme.2010.07.136
+[research_qiu_fu_2018]: https://doi.org/10.2991/csece-18.2018.87
 [research_quantick_2001]: https://doi.org/10.21236/ada393005
 [research_quesne_1969]: https://doi.org/10.2307/2412604
 [research_raemaekers_vandeursen_2017]: https://doi.org/10.1016/j.jss.2016.04.008
@@ -4205,11 +4755,13 @@ rebuilt because the official one was withdrawn.**
 [research_rai_sahin]: https://doi.org/10.18260/1-2--2577
 [research_rao_chen_2014]: https://doi.org/10.3724/sp.j.1146.2013.00188
 [research_rasch_roberta_2011]: https://doi.org/10.21236/ada543196
+[research_ratcliffe_1965]: https://doi.org/10.1049/tpe.1965.0068
 [research_raudberget_michaelis_2014]: https://doi.org/10.1109/ieem.2014.7058668
 [research_real_options_2009]: https://doi.org/10.1201/9781420071702-14
 [research_real_options_2009_b]: https://doi.org/10.1201/9781420071702-16
 [research_real_options_2009_c]: https://doi.org/10.1201/9781420071702-8
 [research_real_options_2009_d]: https://doi.org/10.1201/9781420071702
+[research_regan_2001]: https://doi.org/10.21236/ada399913
 [research_registry_nomenclature_2020]: https://doi.org/10.32388/angtcq
 [research_reichenbach_2003]: https://doi.org/10.2514/6.2003-1883
 [research_reichenfeldcurtisj_jonespaulg_1999]: https://ntrs.nasa.gov/citations/20000019589
@@ -4217,15 +4769,19 @@ rebuilt because the official one was withdrawn.**
 [research_rendon_2006]: https://doi.org/10.21236/ada445102
 [research_rendon_2007]: https://doi.org/10.1109/sysose.2007.4304231
 [research_rendon_2008]: https://doi.org/10.21236/ada494230
+[research_rennenkampf_rhyne_2004]: https://doi.org/10.21236/ada424388
 [research_reynerson]: https://doi.org/10.1109/aero.2000.878426
 [research_reynerson_1999]: https://doi.org/10.2514/6.1999-4473
 [research_riaz_guenov_2017]: https://doi.org/10.2514/1.c033747
 [research_ribeiro_dosea_2007]: https://doi.org/10.5753/sbes.2007.21305
 [research_ridder_2024]: https://doi.org/10.35199/dsm2024.03
+[research_rieker_haraburda]: https://doi.org/10.1109/iecec.1989.74473
+[research_riekerlorral_haraburdafrancism_1989]: https://ntrs.nasa.gov/citations/19890015068
 [research_rispail_leger_1998]: https://doi.org/10.1590/s0074-02761998000600016
 [research_robert]: https://doi.org/10.70675/95d53fc6z19dfz48e8z9742z0b3b84d5d9a5
 [research_roberts_simmons_2023]: https://doi.org/10.4271/2024-01-4119
 [research_rogerjiao_simpson_2007]: https://doi.org/10.1007/s10845-007-0003-2
+[research_roh_etzenbach_2025]: https://doi.org/10.1109/syscon64521.2025.11014856
 [research_rojasarciniegas_kim_2010]: https://doi.org/10.1115/detc2010-28515
 [research_rojasarciniegas_kim_2011]: https://doi.org/10.1080/0305215x.2010.486032
 [research_rojasarciniegas_kim_2012]: https://doi.org/10.1080/0305215x.2011.561842
@@ -4249,6 +4805,8 @@ rebuilt because the official one was withdrawn.**
 [research_rzepa_2023_b]: https://doi.org/10.59350/rbz4s-dng05
 [research_sadraey_2010]: https://doi.org/10.2514/6.2010-9302
 [research_salih_2013]: https://doi.org/10.1533/9780857098726
+[research_salthouse_2017]: https://doi.org/10.1177/1073191117721742
+[research_samarasinghe_gunawardena_2019]: https://doi.org/10.1016/j.autcon.2019.03.021
 [research_sanaei_otto_2015]: https://doi.org/10.1115/detc2015-46403
 [research_sathe_pant_2010]: https://doi.org/10.2514/6.2010-9306
 [research_sauser_ramirezmarquez_2009]: https://doi.org/10.21236/ada530242
@@ -4274,6 +4832,7 @@ rebuilt because the official one was withdrawn.**
 [research_shamsuzzoha_helo_2012]: https://doi.org/10.1108/03055721211227200
 [research_shamsuzzoha_helo_2020]: https://doi.org/10.1504/ijise.2020.110243
 [research_shao_hao_2012]: https://doi.org/10.4028/www.scientific.net/amr.472-475.2612
+[research_sharan_2019]: https://doi.org/10.1007/978-1-4842-5407-3_2
 [research_sharma_2026]: https://doi.org/10.46607/iamj0913102025
 [research_shatnawi_seriai_2017]: https://doi.org/10.1016/j.jss.2016.07.039
 [research_shaver_rose_2016]: https://doi.org/10.1117/12.2229364
@@ -4286,6 +4845,7 @@ rebuilt because the official one was withdrawn.**
 [research_shooter_cohen_2010]: https://doi.org/10.1115/detc2010-28808
 [research_shoval_qiao_2016]: https://doi.org/10.1016/j.procir.2016.03.037
 [research_shu_2023]: https://doi.org/10.4236/oalib.1110761
+[research_siddapureddy_2011]: https://doi.org/10.21236/ada554779
 [research_siddique_2006]: https://doi.org/10.1007/0-387-29197-0_15
 [research_siddique_adupala_2005]: https://doi.org/10.1115/detc2005-85340
 [research_siddique_adupala_2008]: https://doi.org/10.1115/detc2008-49380
@@ -4308,7 +4868,12 @@ rebuilt because the official one was withdrawn.**
 [research_sitcharangsie_wong_2021]: https://doi.org/10.1080/0951192x.2021.1963479
 [research_siu]: https://doi.org/10.14711/thesis-b921513
 [research_sligh_wong_2002]: https://doi.org/10.21236/ada467036
+[research_smit_pistorius_1998]: https://doi.org/10.1016/s0040-1625(98)00006-7
+[research_smith_1933]: https://doi.org/10.1049/jipe.1933.0057
+[research_smith_2004]: https://doi.org/10.21236/ada443149
+[research_smith_2006]: https://doi.org/10.1061/40830(188)60
 [research_smith_wandelt_1991]: https://doi.org/10.21236/ada267845
+[research_smithjf_plummerc_2003]: https://ntrs.nasa.gov/citations/20060030287
 [research_smunt_1999]: https://doi.org/10.1080/002075499189826
 [research_smunt_2011]: https://doi.org/10.1201/b10957-8
 [research_snape_1977]: https://doi.org/10.1111/j.1475-4932.1977.tb01623.x
@@ -4327,13 +4892,17 @@ rebuilt because the official one was withdrawn.**
 [research_stahl_arena_1984]: https://doi.org/10.21236/ada151575
 [research_standardisation_as_1933]: https://doi.org/10.1049/jipe.1933.0045
 [research_staples_hill]: https://doi.org/10.1109/apsec.2004.50
+[research_sterksteve_mcateeaaron_2015]: https://ntrs.nasa.gov/citations/20150018064
 [research_stettner_2000]: https://doi.org/10.2514/6.2000-4701
 [research_steuer_whitcomb_2003]: https://doi.org/10.1002/j.2334-5837.2003.tb02609.x
 [research_stewart_yan]: https://doi.org/10.1007/978-1-84800-239-5_3
 [research_stojanovski_selva_2017]: https://doi.org/10.1109/aero.2017.7943665
 [research_strenzke_uhrmann_2011]: https://doi.org/10.2514/6.2011-6237
+[research_study_of_1975]: https://ntrs.nasa.gov/citations/19760007886
 [research_su_lin_2010]: https://doi.org/10.1007/s10845-010-0485-1
+[research_subramanian_ferguson_2013]: https://doi.org/10.1111/j.1937-5956.2012.01350.x
 [research_sullivan_griswold_2001]: https://doi.org/10.1145/503271.503224
+[research_sun_an_2016]: https://doi.org/10.2991/cimns-16.2016.68
 [research_sun_lau_2019]: https://doi.org/10.1108/jmtm-09-2018-0319
 [research_sundgren_1999]: https://doi.org/10.1111/1540-5885.1610040
 [research_swamidass_2000]: https://doi.org/10.1007/1-4020-0612-8_152
@@ -4357,6 +4926,7 @@ rebuilt because the official one was withdrawn.**
 [research_tang_zhang_2009]: https://doi.org/10.1016/j.rcim.2008.04.005
 [research_tanida_nishimura_1991]: https://doi.org/10.1364/optcomp.1991.pdp1
 [research_tate_1998]: https://doi.org/10.21236/ada385381
+[research_taylor_2009]: https://doi.org/10.2514/6.2009-6724
 [research_teacher_velu_2023]: https://doi.org/10.1007/978-981-99-7100-8_8
 [research_teng_lou_2014]: https://doi.org/10.1016/j.ijpe.2013.10.012
 [research_the_modular_2000]: https://doi.org/10.7551/mitpress/2366.003.0007
@@ -4371,9 +4941,11 @@ rebuilt because the official one was withdrawn.**
 [research_thevenot_simpson_2007_b]: https://doi.org/10.1080/09544820601020014
 [research_thevenot_simpson_2009]: https://doi.org/10.1115/1.3086789
 [research_thiel_hein_2002]: https://doi.org/10.1007/3-540-45652-x_9
+[research_thomaslawrenced_1992]: https://ntrs.nasa.gov/citations/19930048131
 [research_thompson_tong_2018]: https://doi.org/10.1145/3184558.3191636
 [research_thonemann_brandeau_2000]: https://doi.org/10.1287/opre.48.1.1.12445
 [research_tichy_2001]: https://doi.org/10.1007/978-3-642-56614-1_5
+[research_tirone_bertoli_2019]: https://doi.org/10.1136/ejhpharm-2019-eahpconf.109
 [research_tokunaga_fujimura_2013]: https://doi.org/10.3139/9783446437937.009
 [research_tomayko_1986]: https://doi.org/10.21236/ada235511
 [research_tomayko_1990]: https://doi.org/10.21236/ada235702
@@ -4386,12 +4958,15 @@ rebuilt because the official one was withdrawn.**
 [research_tsubone_matsuura_1994]: https://doi.org/10.1080/00207549408957079
 [research_tucker_2013]: https://doi.org/10.1007/978-1-4614-7937-6_6
 [research_turnersusang_2003]: https://ntrs.nasa.gov/citations/20030111778
+[research_uddin_harland_2018]: https://doi.org/10.1504/ijpd.2018.095921
 [research_ulrich_1994]: https://doi.org/10.1007/978-94-011-1390-8_12
 [research_umorin_2002]: https://doi.org/10.1023/a:1015620011281
+[research_underwood_2011]: https://doi.org/10.21236/ada546421
 [research_universal_product_2012]: https://doi.org/10.1201/b12525-9
 [research_unmanned_aerial_2024]: https://doi.org/10.1007/978-3-031-45321-2
 [research_use_modular]: https://doi.org/10.1007/978-1-4302-0974-4_7
 [research_using_the_2010]: https://doi.org/10.1002/9780470643815.ch9
+[research_uusitalo_2014]: https://doi.org/10.1007/978-3-319-06829-9_2
 [research_uybarreta_grant_2025]: https://doi.org/10.2514/6.2025-3610
 [research_vance_1984]: https://doi.org/10.21236/ada166209
 [research_vancefdippoldiii_2022]: https://ntrs.nasa.gov/citations/20220010443
@@ -4412,6 +4987,7 @@ rebuilt because the official one was withdrawn.**
 [research_wallmark]: https://doi.org/10.14711/thesis-b922674
 [research_wallnau_1992]: https://doi.org/10.21236/ada253323
 [research_wan_2014]: https://doi.org/10.1108/jopp-14-04-2014-b002
+[research_wanchuanchan_arikan_2020]: https://doi.org/10.1080/00207543.2020.1767311
 [research_wang]: https://doi.org/10.70675/89b80945z4d28z4e18zb08fz2084df435261
 [research_wang_b]: https://doi.org/10.14711/thesis-b612491
 [research_wang_bian_2023]: https://doi.org/10.3390/buildings13092330
@@ -4421,10 +4997,12 @@ rebuilt because the official one was withdrawn.**
 [research_wang_li_2025]: https://doi.org/10.3390/buildings15193585
 [research_wang_tseng_2011]: https://doi.org/10.1504/ijplm.2011.043186
 [research_wang_yannou_2012]: https://doi.org/10.1007/s00366-012-0262-1
+[research_wang_zhang_2008]: https://doi.org/10.1109/icicta.2008.419
 [research_wang_zhu_2011]: https://doi.org/10.1016/j.jmsy.2011.03.002
 [research_watza_cooper_2023]: https://doi.org/10.4271/2024-01-4037
 [research_wazed_ahmed_2008]: https://doi.org/10.3923/jas.2009.69.78
 [research_wazed_ahmed_2010]: https://doi.org/10.1504/ejie.2010.031076
+[research_wazed_ahmed_2011]: https://doi.org/10.4028/www.scientific.net/amm.110-116.258
 [research_wearne_1992]: https://doi.org/10.1049/em:19920057
 [research_weckbach_langlois_1976]: https://doi.org/10.4315/0022-2747-39.4.246
 [research_wee_dada_2010]: https://doi.org/10.1080/07408170903544322
@@ -4452,6 +5030,7 @@ rebuilt because the official one was withdrawn.**
 [research_wright_lakhmani_2022]: https://doi.org/10.21236/ad1169345
 [research_wright_lakhmani_2024]: https://doi.org/10.21236/ad1224556
 [research_wu_2023]: https://doi.org/10.1109/iaecst60924.2023.10503343
+[research_wu_li_2011]: https://doi.org/10.4028/www.scientific.net/amr.267.230
 [research_wuwer_kunzel_2025]: https://doi.org/10.1109/smc58881.2025.11342504
 [research_xia_gao_2015]: https://doi.org/10.1142/s0217984915502152
 [research_xiao_2012]: https://doi.org/10.3901/jme.2012.11.094
@@ -4462,12 +5041,15 @@ rebuilt because the official one was withdrawn.**
 [research_yan_feng_2011]: https://doi.org/10.4028/www.scientific.net/amm.128-129.1468
 [research_yang_beiter_2004]: https://doi.org/10.1115/imece2004-62171
 [research_yang_beiter_2005]: https://doi.org/10.1115/imece2005-82886
+[research_yang_chen_2016]: https://doi.org/10.1155/2016/5083213
 [research_yang_guo_2024]: https://doi.org/10.1016/j.cose.2024.104052
 [research_yang_wang_2013]: https://doi.org/10.2514/6.2013-4422
+[research_yang_yao_2014]: https://doi.org/10.1109/tem.2013.2267779
 [research_yao_moon_2017]: https://doi.org/10.1504/ijmr.2017.083654
 [research_yao_wu_2023]: https://doi.org/10.3390/app132111831
 [research_ye_gershenson_2008]: https://doi.org/10.1080/09544820802471123
 [research_ye_gershenson_2009]: https://doi.org/10.1504/ijmassc.2009.023382
+[research_yeagerdorianp_1987]: https://ntrs.nasa.gov/citations/19880007031
 [research_yeesoonlim_2007]: https://doi.org/10.1109/ieem.2007.4419341
 [research_yen_smith_2009]: https://doi.org/10.1115/detc2009-87122
 [research_yongjie_yongqi_2021]: https://doi.org/10.1109/icmae52228.2021.9522472
@@ -4482,10 +5064,12 @@ rebuilt because the official one was withdrawn.**
 [research_zacharias_yassine_2007]: https://doi.org/10.1007/s10845-007-0069-x
 [research_zamani_beigzadeh_2023]: https://doi.org/10.21203/rs.3.rs-3153170/v1
 [research_zelm_doumeingts_2013]: https://doi.org/10.1002/9781118846995.ch11
+[research_zeng_rao_2025]: https://doi.org/10.3390/buildings15040647
 [research_zha_lu_2002]: https://doi.org/10.1115/detc2002/dac-34098
 [research_zhang_2012]: https://doi.org/10.3901/jme.2012.11.104
 [research_zhang_2014]: https://doi.org/10.4028/www.scientific.net/amm.644-650.5730
 [research_zhang_cheng_2005]: https://doi.org/10.1115/detc2005-85443
+[research_zhang_liu_2022]: https://doi.org/10.1145/3551349.3556956
 [research_zhang_rogerjiao_2007]: https://doi.org/10.1080/09544820600752781
 [research_zhang_tseng_2007]: https://doi.org/10.1109/tem.2006.889072
 [research_zhang_wei_2015]: https://doi.org/10.1142/s0217595915500372
@@ -4500,6 +5084,7 @@ rebuilt because the official one was withdrawn.**
 [research_ziedorn_2020]: https://doi.org/10.65527/5q66r-9cx05
 [research_zimmerman_ofori_2018]: https://doi.org/10.1177/1548512917751281
 [research_zischka_finnegan_2023]: https://doi.org/10.1109/dasc58513.2023.10311118
+[research_zou_wu_2026]: https://doi.org/10.2139/ssrn.7372038
 
 ### Related Post
 

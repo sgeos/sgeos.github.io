@@ -5,6 +5,140 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A364 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, not pushed, NOT
+published.** **Reference definitions 1,164 to 1,315**, research records 1,081 to 1,228, report
+primaries **110 to 159** and the share **9.5 to 12.1 percent**, lines 4,573 to 5,158, words 30,926 to
+35,511, now 9 H2 and 53 H3 sections with 20 tables. Display equations held at 68.
+
+**THE PASS'S LARGEST YIELD CAME FROM READING THE DOCUMENTS A SENTENCE THE ARTICLE ALREADY QUOTED HAD
+NAMED.** The 2020 instruction states that the designator format was established on 18 September 1962 by
+Air Force Regulation 66-11, Army Regulation 700-26 and Bureau of Naval Weapons Instruction 13100.7. **The
+article quoted that sentence and had read none of the three.** They are one document issued three times
+over, the register's compiler hosts a scan of it, and **it was read in full as nineteen page images
+because the scan carries no text layer.**
+
+**IT DEFINES THE DESIGN NUMBER IN WORDS EVERY LATER EDITION DROPPED.** `Design Number. The sequence
+number of each new design of the same basic mission or type aircraft.` **The founding definition does not
+say the number identifies major design changes. It says the number IS a sequence number**, which is
+exactly the claim the equation pass's increment test was built to check and which the register fails in
+nearly three quarters of its steps.
+
+**AND WHERE THE MODERN INSTRUCTION OFFERS NO TEST FOR WHAT COUNTS AS A NEW DESIGN, THE 1962 DOCUMENT
+OFFERS THREE WORKED EXAMPLES**, being a change in the number of engines, a change of the wing from
+straight to swept or delta, and a change or relocation of the empennage. **All three are the airframe's
+shape or its propulsion and not one is mission equipment.** A genus holds exactly those three constant
+and swaps exactly what the 1962 test ignores. **The system that wrote the definition would have refused a
+species a design number, and the system that inherited the definition without the examples gave one.**
+The series letter's logistic-support criterion, by contrast, survives almost word for word from 1962
+through the 2004 list and the 2005 and 2020 instructions, **so the keystone's only concrete test is
+sixty-three years old rather than a recent form of words.**
+
+**THE FOUNDING DOCUMENT ALSO DEFINES BOTH OF THE LETTERS THIS DESIGNATION CARRIES, ON FACING PAGES.** X
+as a status prefix meaning experimental and X as a basic mission and type symbol meaning research. **And
+it defines Q as a MODIFIED MISSION symbol meaning drone, not as a basic mission**, so a modified mission
+symbol could not carry a design-number series of its own. **The designation XQ-67A could not have been
+written in 1962**, and not because the aeroplane did not exist.
+
+**AND IT STATES THE ARRANGEMENT THE WHOLE ARTICLE HAS BEEN CIRCLING.** `The requesting service will
+indicate the desired mission or type symbols. The assignment agency will assign the applicable design
+number.` **In 1962 the requester named the mission and the agency chose the number.** The 2020
+instruction tells the requester to research the next-in-series from the last approved design number and
+request it. **The responsibility for choosing a design number moved from the office that keeps the
+sequence to the office that wants the number**, which is the precondition for a number carrying
+information at all.
+
+**THE CAVEAT THE EQUATION PASS CARRIED IS RESOLVED AND THE ANSWER NARROWS THE CLAIM.** Four editions have
+now been read. **The 2005 edition, Air Force Instruction 16-401(I) of 14 April 2005, still says the
+coordinating office will assign and reserve the next available consecutive design number, and the word
+skip appears nowhere in it.** So the change falls between 2005 and 2020 and it is two changes, the
+quantity moving from the next available number to one above the last approved, and the duty moving from
+the agency to the requester. **The X-49A of 2003 and the X-58's skip of 2018 fall under the old pair and
+the X-67's skip of 2025 under the new one.** The 2005 edition also calls the 16 in F-16A **the sixteenth
+MDS requested** where the 2020 edition says **approved**, and a requested ordinal and an approved ordinal
+differ whenever a request is refused.
+
+**A CORRECTION, AND IT IS AN UNDER-CITATION OF THE ARTICLE'S OWN BEST DOCUMENT.** The article attributed
+the cancellation of the public list to the register's compiler and to secondary coverage. **It is in DAFI
+16-401 itself, twice in the text and once in its summary of changes**, which names the cancellation of
+DoD 4120.15-L as the publicly accessible database and directs other Federal agencies and the public to
+`data.af.mil` for the latest version. **And Change 1 of 31 August 2018 to the list, read for this pass
+from a public web archive after the Department's portal refused every client, cancels nothing**; it
+reassigns the office of primary responsibility and the words retire, cancel and the successor address
+appear nowhere in it. **So the cancellation is a 2020 act of the Air Force instruction and not a 2018 act
+of the Department list.**
+
+**THE INSTITUTIONAL FINDING NOW HAS A BEFORE-PICTURE.** The founding regulation required the assignment
+agency to publish an unclassified listing of assigned designations not less frequently than every six
+months. **The October 1998 edition is approved for public release with distribution unlimited and gives
+three routes to a copy.** The 2020 instruction gives one address and it does not resolve.
+
+**AND AN INFERENCE BECAME A DOCUMENTED FACT.** The article divided the research series' absences into
+those inside the register's window and those outside it, and said this series had written three of the
+outside ones as real allocations. **The 2004 list carries the X-41A, the X-42A and the X-43A as approved
+designators with sponsors and engine entries**, so the division is now the government's own record rather
+than an inference from neighbouring articles.
+
+**ONE MORE COUNTERPOINT FOR THE KEYSTONE, FROM THE SAME INSTRUCTION.** The 2020 issue's summary of
+changes records one addition to the designator alphabet, **a status prefix `e` meaning digitally
+developed, defined as aircraft engineered in a virtual environment**, and it is the only lowercase symbol
+in the scheme. **In the same issue that cancelled the public list the system added a letter for how an
+aeroplane was engineered and added nothing for whether it shares a chassis with another aeroplane.**
+
+**THE AIMED THIRD SWEEP WAS AIMED AT A MEASUREMENT AND ITS RESULT IS MEASURED BOTH WAYS.** Running the
+per-cluster primary share first returned the three largest clusters carrying almost nothing, being
+product families at 0 primaries, modularity at 1 and commonality at 3. **The homonym probe had already
+said why**, since the reports server holds 421 records for `commonality` and they are space station,
+lunar and Martian hardware commonality. **The first sweep asked in aeronautical words and the server's
+commonality literature is spacecraft.** Fifty-three questions in the server's own vocabulary, plus
+fifteen clusters' worth of the two registries, took the pool from 9,505 to 14,384 and **bought 49 report
+primaries, commonality going from 1.8 to 6.3 percent, variety and cost from 4.8 to 15.7 and flexibility
+from 2.9 to 17.5.**
+
+**AND THE HONEST RESULT IS IN THE ROW IT WAS AIMED AT HARDEST.** Product families, the largest cluster at
+366 records, went from **0 report primaries to 1.** Questions about families of vehicles, derivative
+designs, growth versions and common airframes bought one record. **Product family design is a
+manufacturing and management literature and no rephrasing moves it into a server that does not hold it.**
+Four clusters gained nothing at all, two of them deliberately.
+
+**THE FIRST SWEEP'S COMPLETE COVERAGE TURNED OUT TO BE A PROPERTY OF ITS PHRASING.** It retrieved 745 of
+745. **The third sweep retrieved 1,795 of 2,966 and walked out on two questions**, because those
+questions reach a literature large enough to walk out of, and the article now says so rather than
+claiming reach.
+
+**TWO INSTRUMENTS WERE NARROWED RATHER THAN SATISFIED.** `stylecheck.py` flagged the parentheses in
+`AFI 16-401(I)`, which is the document's official name and cannot be removed without misnaming it. **A
+parenthetical is the author interrupting, and an interruption is preceded by a space while a name suffix
+is not**, so the check now requires whitespace before the parenthesis. It also now excludes inline code
+spans, on the ground it already applies to tables and reference definitions, **because an identifier in a
+code span is apparatus and not the author's punctuation.**
+
+**AND A DUPLICATE KEY IN A DICT LITERAL WAS FIXED BEFORE IT COULD BITE.** Merging the second sweep into
+the gate runner left `source` assigned twice in one literal, where the later silently won. **It happened
+to be correct and it is the kind of defect that survives until somebody reorders the lines**, so the
+source is now normalised once and the sweep number recorded separately.
+
+**VERIFICATION.** `verify_numbers.py` **347 checks**, passing, up from 322, **with the third sweep's
+before-and-after measured against a frozen baseline rather than claimed**, including assertions that the
+merge lost no record, that the product-family cluster's honest negative is still negative, and that the
+third sweep did NOT achieve complete coverage. `_verify.py` 0 errors and 0 warnings across 304 posts.
+`_lib/render.py` no findings across 538 pages. `mathrot.py` 68 source display blocks against 68 rendered
+with zero emphasis tags. `symcheck.py` passing across 85 declared symbols. `stylecheck.py` zero findings.
+**Twenty hand-written addresses, fifteen fetched, four registry-confirmed and one returning neither**,
+that one being the Department's own portal for a document this pass obtained from a web archive instead.
+
+**THE PERIOD PROFILE, BESIDE THE FRACTION.** Of 1,228 research definitions, 1,170 carry a year, the
+median is 2011, the range runs 1900 to 2026, **426 records are from 2015 onward at 36.4 percent and 214
+predate 2000.**
+
+**WHAT REMAINS NAMED AND UNREAD.** DoD Directive 4505.6 of 6 July 1962, which the founding regulation
+implements, and DoD Directive 4120.15 of 2 May 1985, under which the lists are reissued. **Both are named
+in documents this pass read and neither has been read.** The Broad Agency Announcement of September 2020
+also remains unread.
+
+**THE WORKING TREE STILL CARRIES EIGHT DRAFTS THIS LINE DID NOT TOUCH**, re-dated to 2126, uncommitted,
+and excluded from this commit, as is the untracked `sa.html`.
+
+**Date**: 2026-10-02
 **Task**: **A364 EQUATION-DENSITY REVIEW, the second of four passes. Committed, not pushed, NOT
 published.** **Display equations 26 to 68**, lines 4,020 to 4,573, words 26,616 to 30,926, inline
 expressions 124 to 185, the symbol table 50 entries to 85, references held at 1,164, in 9 H2 and 48 H3
