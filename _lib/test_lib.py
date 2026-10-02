@@ -1565,6 +1565,35 @@ def t_progress_reports_a_stale_count_and_a_contradiction_separately():
                                   survey.words_to_int), clean
 
 
+def t_progress_newest_report_narrows_an_append_at_top_channel():
+    """A channel that accumulates must be read at its newest report and no further.
+
+    **THIS TEST EXISTS BECAUSE THE CALLER PASSED `REVERSE_PROMPT.md` WHOLE.** That file is
+    append-at-top in practice while its own header says it is overwritten, so the first
+    pass to add a second report stating a drafted count produced a contradiction against a
+    file behaving exactly as designed.
+    """
+    text = (
+        "# Reverse Prompt\n\n"
+        "**Date**: 2026-10-02\n**Task**: sixty-eight of seventy-two drafted.\n\n"
+        "**Date**: 2026-10-01\n**Task**: sixty-seven of seventy-two drafted.\n"
+    )
+    newest = progress.newest_report(text)
+    assert "sixty-eight" in newest
+    assert "sixty-seven" not in newest
+    # the heading above the first report is not part of any report
+    assert "Reverse Prompt" not in newest
+    # whole text back when the convention is absent, so nothing is silently truncated
+    assert progress.newest_report("no marker here") == "no marker here"
+    # and the narrowing is what removes the contradiction
+    files = [("a.markdown", "---\nseries: s\nseries_index: 1\n---\n"),
+             ("b.markdown", "---\nseries: s\nseries_index: 2\n---\n")]
+    whole = progress.check(files, "s", [("c", text)], survey.words_to_int)
+    assert [c for c, _ in whole] == ["progress-contradiction"], whole
+    narrowed = progress.check(files, "s", [("c", newest)], survey.words_to_int)
+    assert [c for c, _ in narrowed] == ["progress-stale"], narrowed
+
+
 def t_progress_claim_pattern_survives_the_history_it_must_not_read():
     r"""Shapes that are not a count, measured against the file that contains them.
 

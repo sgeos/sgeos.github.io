@@ -654,7 +654,12 @@ def main():
         if body is not None:
             channels.append(("TASKLOG.md Current Task", body))
     if os.path.exists(reverse):
-        channels.append(("REVERSE_PROMPT.md", open(reverse, encoding="utf-8").read()))
+        # **THIS CHANNEL IS APPEND-AT-TOP AND ONLY ITS NEWEST REPORT IS A CURRENT CLAIM.**
+        # It was passed whole while TASKLOG.md was narrowed to its Current Task block, so
+        # the first pass to add a second report stating a count produced a
+        # `progress-contradiction` against a file behaving as designed.
+        channels.append(("REVERSE_PROMPT.md newest report",
+                         progress.newest_report(open(reverse, encoding="utf-8").read())))
     for series in sorted({m.group(1) for _, t in draft_files
                           for m in [re.search(r"^series:\s*(\S+)\s*$",
                                               progress.FM.match(t).group(1), re.M)

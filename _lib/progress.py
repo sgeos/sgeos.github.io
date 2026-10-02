@@ -139,6 +139,32 @@ def section(text, heading):
     return m.group(1) if m else None
 
 
+def newest_report(text, marker="**Date**: "):
+    """The topmost report of an APPEND-AT-TOP channel, up to the next report's marker.
+
+    **`REVERSE_PROMPT.md` ACCUMULATES AND ITS OWN HEADER SAYS IT IS OVERWRITTEN.** That
+    header has now misled two readers. A362's drafting pass believed it, wrote 150 lines
+    over 1,305 and destroyed every prior report from both lines, which `HANDOFF.md`
+    records. **And this module believed it too**, because the caller passed the whole file
+    while narrowing TASKLOG.md to its Current Task block. So on 2026-10-02, the moment a
+    second report stating a count was added above the first, `progress-contradiction`
+    fired on a file that was behaving exactly as designed.
+
+    THE JUSTIFICATION IS THE ONE ALREADY WRITTEN FOR `section`. A channel that accumulates
+    carries claims that were correct on the day they were written, and scanning all of
+    them reports every one as contradicting today's measurement. The part the process
+    requires to be current is the newest report, so that is the part this returns.
+
+    Returns the whole text when no marker is present, because a channel that does not use
+    this convention must not be silently truncated to nothing.
+    """
+    i = (text or "").find(marker)
+    if i < 0:
+        return text
+    j = (text or "").find(marker, i + len(marker))
+    return text[i:] if j < 0 else text[i:j]
+
+
 def stated_counts(text, words_to_int):
     """Every drafted-count claim in `text`, as a list of `(int, matched text)`.
 

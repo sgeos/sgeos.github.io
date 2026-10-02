@@ -636,6 +636,108 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes X-67, the Slot Taken by XQ-67A A364 2025-12-12
+
+`x_planes_x67_slot_taken_by_xq67.markdown`, A364, editorial date 2025-12-12, series `x_planes`
+index 68 of 72, categories `aerospace history engineering`. **DRAFTED. The three remaining passes
+are equation density, primary references and the publication review.** **NOT PUBLISHED**, and
+publication of the series has never been authorised.
+
+**4,020 lines, 26,616 words, 26 display equations, 124 inline expressions, a 50-entry symbol table
+and 1,163 reference definitions**, in 9 H2 and 42 H3 sections with 16 tables, citing 1,081 research
+records across 15 clusters from a pool of 9,505. **This is the shortest of the four designation
+anomalies and that is deliberate**, the genre document being explicit that padding an anomaly
+article with sections it does not need is worse than leaving it short.
+
+**THE KEYSTONE IS THAT THE REGISTER'S ENTRY FOR THIS DESIGNATION IS AN ANALOGY.** The compiler
+writes that just like the X-58 the slot was skipped after the allocation of the XQ-67A, and that is
+the whole of the public reasoning. The X-58's entry carries reasoning, a confidence grading and the
+claim that the slot is empty; the X-67's carries none of the three. **So the article had to supply
+the evidence the register asserts without.**
+
+**THE TEST THAT SUPPLIES IT.** A borrowed number should equal its claimed source series' next
+number at the moment of the borrowing and should equal no other series' next number. Run against
+every out-of-sequence unmanned design number with a full date, **the test fires twice in six, on the
+numbers 58 and 67, and names the research series both times, matching no series on the other four**.
+A null model drawing uniformly from two-digit numbers above the unmanned ceiling puts the tail
+probability at 0.03159, about one chance in 31.7, which the article reports as weak on its own and
+decisive in combination.
+
+**AND THE INSTRUCTION SHOWS THAT THE QUESTION OF WHO SKIPPED IT IS MALFORMED.** The governing
+publication defines the next designator to request from the last approved design number of the same
+basic mission and refuses requests in reverse or skipped sequences. **Nobody had to decide to skip
+the X-67. Somebody had to ask for the X-68**, which happened 763 days after the borrowing, and from
+that approval the number became unrequestable. **The X-58 article concluded that the absence was
+permitted and unexplained; this one adds that it is irreversible by rule and names the moment.**
+
+**THE SECOND CASE FALLS ON THE FAR SIDE OF A LINE THE FIRST DID NOT.** The XQ-58A's description is
+official Department wording and the XQ-67A's carries the mark saying it is not. **The government
+will officially record which engine is in the aeroplane that consumed the X-67 and will not
+officially record what it is for.**
+
+**THE AEROPLANE WAS BUILT TO DENY THE PREMISE THE NUMBER RESTS ON.** A design number marks a major
+design change within a basic mission, which presumes an aeroplane has one design identity. The
+Off-Board Sensing Station existed to prove a shared genus carrying replaceable species, and the
+laboratory said so in those words. **By the instruction's own criterion a species belongs on a
+series letter**, since the only concrete test it offers for that level is whether the change alters
+the logistics support of the vehicle, and a common chassis is built so that it does not.
+
+**AND THE REGISTER SHOWS THE SAME THING FROM BOTH SIDES.** Six pairs of design numbers carry
+identical official descriptions, and in five of the six the contractor is the only differing field,
+so the number does not index the stated purpose. Yet 27 design numbers survive a change of leading
+firm, one across seven firms and ten series letters, so it does not index the designer either.
+
+**THE ARITHMETIC SAYS THE VALUE WOULD BE IN THE CADENCE AND NOT THE PARTS.** At three species and an
+eighty-five percent learning curve a three-fifths shared fraction buys 13.63 percent of unit cost,
+and a sharing penalty rising as the square of the shared fraction has an interior optimum only above
+15.47 percent, beyond which full commonality can be worse than none. **Shortening a design freeze
+from fifteen years to three takes the capability shortfall from 80.87 to 37.82 percent.** Every input
+to both calculations is unpublished and the article says so.
+
+**THE INSTITUTIONAL FINDING IS LARGER THAN THE DESIGNATION.** The request procedure requires research
+into the last approved design number in an official source. **The printed list was cancelled in 2018
+and the hostname its cancellation notice named as successor returns no answer from the authoritative
+nameservers for its own zone**, checked on 2 October 2026 with a sibling in the same zone resolving
+normally. So the public source is one private compiler's reconstruction, applying a next-number
+convention the instruction does not state.
+
+**MEASURED NEGATIVE RESULTS, BOTH REPORTED RATHER THAN HIDDEN.** The reports server holds 745 records
+across 62 questions and the sweep retrieved all 745, **which is complete coverage and a statement
+about the server rather than the sweep**. The report-primary share is 9.5 percent, the lowest this
+series has recorded against 30.6, 45.0, 39.5 and 28.3 in the preceding four articles, because
+commonality and product family design are a manufacturing and management literature. **And the
+programme's own vocabulary is unsearchable**, `common chassis aircraft` returning one record about a
+different vehicle, `attritable aircraft` returning none, and `OBSS` returning ten results about the
+Space Shuttle's inspection boom.
+
+**DEFECTS FOUND IN THIS PASS.** A remembered digital object identifier was written into the
+reference file in the belief that it was correct and **resolves to nothing**, the real one having
+been in the harvest all along. The subject gate **refused the article's own foundational source**,
+Baldwin and Clark's chapter on the value of modularity, because its title carries no engineering
+noun. A frozen occurrence count **returned zero for a phrase plainly in the article**, because the
+body is hard-wrapped and the phrase carries a newline. An inherited display-equation counter saw
+only one-line blocks. An officiality parser **read one of the register's three markup levels and
+reported a confident wrong count, twice, at a different level each time.**
+
+**VERIFICATION.** `verify_numbers.py` **256 checks**, passing, importing neither the measurement
+module nor the derivation module and parsing the register again with a different parser. `_verify.py`
+0 errors and no new warnings. `_lib/render.py` no findings across 550 pages. `mathrot.py` matching 26
+source display blocks against 26 rendered brackets with zero emphasis tags. `symcheck.py` passing
+across 50 declared symbols. `stylecheck.py` zero findings. **Fifteen hand-written addresses, eleven
+fetched, four confirmed against the bibliographic index after a publisher refused the client, and one
+returning neither**, that one being the Department's own cancelled list which the article records as
+not read.
+
+**A NOVELTY OVERCLAIM WAS CAUGHT AFTER THE FIRST COMMIT AND CORRECTED IN PLACE.** The article had
+said that neither of the two instruction sentences it quotes had been cited by any earlier article in
+this series. **Grepping every draft and post refutes half of it**, the X-58 article having cited the
+research step in its non-standard-aircraft branch. **The eligibility criterion refusing requests in
+skipped sequences is the one that is new, and it is also the one the irreversibility argument rests
+on**, so the correction narrows the claim without weakening the argument and the article records it.
+
+**Publication was not requested and the article is not published.**
+
+
 ## X-Planes Boeing X-66 A363 2025-12-11
 
 `x_planes_boeing_x66.markdown`, A363, editorial date 2025-12-11, series `x_planes` index 67,

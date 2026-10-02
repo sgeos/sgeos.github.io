@@ -5,6 +5,158 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A364, X-Planes: X-67, the Slot Taken by XQ-67A, DRAFTED.** Committed, not pushed, and
+**NOT PUBLISHED**, publication of the series never having been authorised. **Sixty-eight of
+seventy-two drafted, four remain.** The three remaining passes on this article are equation density,
+primary references and the publication review.
+
+**STATE 4,020 lines, 26,616 words, 26 display equations, 124 inline expressions, a 50-entry symbol
+table and 1,163 reference definitions**, in 9 H2 and 42 H3 sections with 16 tables, citing 1,081
+research records across 15 clusters from a pool of 9,505 distinct records. **This is the shortest of
+the four designation anomalies and that is deliberate**, the genre document being explicit that
+padding an anomaly article is worse than leaving it short.
+
+**THE KEYSTONE IS THAT THE REGISTER'S ENTRY FOR THIS DESIGNATION IS AN ANALOGY.** The compiler writes
+that just like the X-58 the slot was skipped after the allocation of the XQ-67A, and that is the whole
+of the public reasoning. **The X-58's entry carries reasoning, a confidence grading and the claim that
+the slot is empty. The X-67's carries none of the three.** His treatment of the rest of the family
+shows he is not being careless, since he writes `unclear` for the XRQ-72A and `probably` for the
+XRQ-73A. **He is citing a precedent rather than withholding an argument**, and the X-67 is the point
+at which a precedent becomes a rule.
+
+**SO THE ARTICLE HAD TO SUPPLY THE EVIDENCE THE REGISTER ASSERTS WITHOUT, AND THERE IS A TEST.** A
+borrowed number should equal its claimed source series' next number at the moment of the borrowing and
+should equal no other series' next number. **Run against every out-of-sequence unmanned design number
+carrying a full date, the test fires twice in six, on 58 and 67, naming the research series both times
+and matching nothing on the other four.** A null model drawing uniformly from two-digit numbers above
+the unmanned ceiling gives a tail probability of 0.03159, about one in 31.7, **which the article
+reports as weak alone and decisive in combination with three other facts.**
+
+**AND THE INSTRUCTION SHOWS THE QUESTION OF WHO SKIPPED IT IS MALFORMED.** Two sentences neither the
+X-58 article nor any other in this series had cited. The request procedure defines the next designator
+from **the last approved design number** of the same basic mission, and the eligibility criteria state
+that **requests are not accepted for designators in reverse or skipped sequences**. **Nobody had to
+decide to skip the X-67. Somebody had to ask for the X-68**, 763 days later, and from that approval
+the number was unrequestable for ever. **The X-58 article concluded the absence was permitted and
+unexplained. This one adds that it is irreversible by rule and names the moment it became so.**
+
+**THREE READINGS OF THE X-68A AND THE RECORD CHOOSES NONE.** That the design-number pool is shared
+across basic missions in practice, which the instruction's own definition denies. That the allocating
+office exercised its unconditioned discretion to skip. That the pointer was read off a list sorted by
+design number within a vehicle type, which places the XQ-67A among the sixty-sevens. **All three
+predict an X-68A, no X-67 row and no public document**, so the article states that the slot is
+unrequestable, states when, and declines to say who.
+
+**AND THE COMPILER'S OWN NEXT-NUMBER FIGURE CANNOT SETTLE IT, BECAUSE IT PRESUPPOSES THE ANSWER.** He
+publishes the next available research number as 69 while the register carries an X-76A, so his
+convention is one above the highest number **he judges** to have been allocated in sequence. **He
+applies it consistently across the research, unmanned and fighter series, which is the test of whether
+it is a convention or an error**, and it is not the convention the instruction states. Read literally
+the instruction gives 77.
+
+**THE SECOND CASE FALLS ON THE FAR SIDE OF A LINE THE FIRST DID NOT, AND THIS IS THE DEEPEST
+DIFFERENCE.** The XQ-58A's description is official Department wording and the XQ-67A's carries the
+mark saying it is not. **So in 2017 the government said what the aeroplane taking the number was for
+and in 2023 it did not.** What survives the mark is the date, the designation, the contractor and the
+engine. **The government will officially record which engine is in the aeroplane that consumed the
+X-67 and will not officially record what it is for.**
+
+**THE AEROPLANE WAS BUILT TO DENY THE PREMISE THE NUMBER RESTS ON, AND THAT IS WHY IT IS IN THE
+ARTICLE AT ALL.** A design number marks a major design change within a basic mission, presuming one
+design identity. The Off-Board Sensing Station existed to prove a common chassis carrying replaceable
+species, which the laboratory called a genus and species approach in those words. **By the
+instruction's own criterion a species belongs on a series letter**, the only concrete test it offers
+for that level being whether the change alters the logistics support of the vehicle, **and a common
+chassis is built so that it does not.**
+
+**THE REGISTER SHOWS THE SAME THING FROM BOTH SIDES AND BOTH MEASUREMENTS ARE NEW.** Six pairs of
+design numbers in the whole register carry identical official descriptions, and in five of the six the
+contractor is the only differing field, so the number does not index the stated purpose. **Yet 27
+design numbers survive a change of leading firm, one of them across seven firms and ten series
+letters, so it does not index the designer either.** What it indexes is a request, and the instruction
+never defines what a request is for.
+
+**THE ARITHMETIC IS NEW TO THIS SERIES AND SAYS THE VALUE WOULD LIE IN THE CADENCE RATHER THAN THE
+PARTS.** At three species and an eighty-five percent learning curve a three-fifths shared fraction
+buys 13.63 percent of unit cost. **A sharing penalty linear in the shared fraction has no interior
+optimum at all, which is the model telling the reader about its own linearity**, and a penalty rising
+as the square has one only above three times the square of the sharing slope, 15.47 percent at three
+species. **At a thirty percent penalty the optimum shared fraction is 44.63 percent, saving 4.76
+percent, while full commonality is 0.48 percent worse than sharing nothing.** By contrast shortening
+a design freeze from fifteen years to three takes the capability shortfall from 80.87 to 37.82
+percent. **Every input to both calculations is unpublished and the article inverts the break-even
+rather than asserting a saving it cannot measure.**
+
+**THE AWARD RECORD CONTRADICTS THE REPORTED CONTRACT VALUES IN BOTH DIRECTIONS AT ONCE.** Trade
+coverage reported matching 17,700,000 dollar contracts with a 49,000,000 dollar ceiling. **The award
+record shows one at 67,986,112 dollar, 38.75 percent above that ceiling, and the other at 16,003,302
+dollar, 9.59 percent short of its base.** One contract grew past the maximum its own option defined
+and the other stopped before its minimum. **And the laboratory's own account of deciding at the end of
+2021 disagrees with contemporary reporting placing the selection in February 2023**, by about a year,
+which the article names and does not resolve.
+
+**THE INSTITUTIONAL FINDING IS LARGER THAN THE DESIGNATION.** The request procedure requires research
+into the last approved design number in an official source. **The printed list was cancelled in 2018,
+and the hostname its cancellation notice named as successor returns no answer from the authoritative
+nameservers for its own zone**, checked on 2 October 2026 with a sibling in the same zone resolving
+normally. **The article states the narrow version**, which is that the official source is not reachable
+publicly at the address its own cancellation notice named, since a Department network may resolve
+internally. **So every public claim about the X-67, including every claim in this article, passes
+through one private compiler's reconstruction obtained under the Freedom of Information Act.**
+
+**AN OPEN DECISION IS RESOLVED AND THE RECORDED FIGURE WAS RIGHT.** The research series' officiality
+split recomputes as 21 official, 7 with an unofficial description, 2 entirely unofficial rows and 1
+partly, which agrees with the recorded twenty-one, nine and one **provided wholly unofficial merges
+two different claims.** A row-level mark says the allocation itself is absent from officially released
+data; a cell-level mark says the allocation is official and its stated purpose is the compiler's.
+**The recorded figure is correct and the category is too coarse for this article, because the XQ-67A
+is in the second group and that distinction is the whole comparison.**
+
+**TWO MEASURED NEGATIVE RESULTS, BOTH REPORTED RATHER THAN HIDDEN.** The reports server holds 745
+records across 62 questions and the sweep retrieved all 745, **which is the first complete coverage in
+this series and a statement about the server rather than the sweep.** The report-primary share is 9.5
+percent, the lowest recorded, against 30.6, 45.0, 39.5 and 28.3 in the preceding four articles,
+because commonality and product family design are a manufacturing and management literature. **And the
+programme's own vocabulary is unsearchable**, `common chassis aircraft` returning one record about a
+different vehicle, `attritable aircraft` returning none, `genus` and `species` returning forty
+biological and chemical results in forty, and `OBSS` returning ten about the Space Shuttle's Orbiter
+Boom Sensor System.
+
+**FIVE DEFECTS FOUND, AND FOUR OF THE FIVE WERE THE INSTRUMENT RATHER THAN THE SUBJECT.** A remembered
+digital object identifier was written into the reference file **in the belief that it was correct** and
+resolves to nothing, the real one having been in the harvest throughout, which is A363's placeholder
+defect in a worse form because no rule about placeholders catches it. The subject gate **refused the
+article's own foundational source** because its title carries no engineering noun. A frozen occurrence
+count **returned zero for a phrase plainly in the article**, the body being hard-wrapped so the phrase
+carries a newline. An inherited display-equation counter saw only one-line blocks and reported zero
+against twenty-six. **And an officiality parser read one of the register's three markup levels and
+reported a confident wrong count twice, at a different level each time.**
+
+**VERIFICATION.** `verify_numbers.py` **256 checks**, passing, importing neither the measurement module
+nor the derivation module and **parsing the register again with a different parser**, with the null
+model's tail probability checked a second time by simulation and the commonality optimum found by a
+golden-section search that does not know the first-order condition. `_verify.py` 0 errors and no new
+warnings. `_lib/render.py` no findings across 550 pages. `mathrot.py` matching 26 source display
+blocks against 26 rendered brackets with zero emphasis tags in any expression. `symcheck.py` passing
+across 50 declared symbols after four collisions were resolved. `stylecheck.py` zero findings.
+`emrisk.py` and `astrisk.py` both confirm the article adds nothing to the corpus-wide corrupted-maths
+count. **Fifteen hand-written addresses, eleven fetched, four confirmed against the bibliographic
+index after a publisher refused the client, and one returning neither**, that one being the
+Department's own cancelled list which the article records as not read.
+
+**A NOVELTY OVERCLAIM WAS CAUGHT AFTER THE FIRST COMMIT AND CORRECTED IN PLACE.** The article had
+said that neither of the two instruction sentences it quotes had been cited by any earlier article in
+this series. **Grepping every draft and post refutes half of it**, the X-58 article having cited the
+research step in its non-standard-aircraft branch. **The eligibility criterion refusing requests in
+skipped sequences is the one that is new, and it is also the one the irreversibility argument rests
+on**, so the correction narrows the claim without weakening the argument and the article records it.
+
+**TWO ITEMS REMAIN FOR THE PILOT AND BOTH ARE OLDER THAN THIS ARTICLE.** The corrupted mathematics in
+published posts, re-measured by A363 in the rendered pages as 133 spans across 37 pages. And the
+publication decision on A376, which is line two of the handoff. **The A358 and A359 officiality
+correction is resolved above.**
+
+**Date**: 2026-10-02
 **Task**: **A376, pathological word usage pass. The enumerated tic class is CLEAN against 259 peers
 and one discovered formula was over the limit and is now under it.** See the A376 section below.
 **A376 remains NOT PUBLISHED and awaits the pilot's decision.** The previous report follows.
