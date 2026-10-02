@@ -1731,6 +1731,55 @@ below it rather than overwriting, which is a choice and not a convention.
 
 ---
 
+## A376, Primary-Reference Pass
+
+**References 86 to 202, lines 3,201 to 4,357, display equations 80 to 88, prose about 22,400
+words.** Not published. One pass remains.
+
+**THE PRIMARY SHARE WAS THE ASK AND IT ROSE.** Government documents went from 6 to 30 and datasets
+from 12 to 20, so primary sources are now **25.0 percent of the external total against 10.5
+percent in A375**. The substitutions are the substance of the pass. Alliance commitments are
+quoted from the Washington Declaration, the Camp David statement and the Wilmington Declaration
+rather than from descriptions of them, and reading them establishes that the Quad document
+contains no mutual defence commitment and no extended deterrence language at all. Legislative
+figures come from the public laws rather than the aggregates in circulation, which is how the
+advanced manufacturing credit turned out to have moved from 25 to 35 percent in 2025. Taiwanese
+energy dependence comes from the Taiwanese ministry at 94.62 percent.
+
+**A SCAN DROVE THE PASS RATHER THAN A READ-THROUGH.** Counting citations against word count per
+section returned 27 sections carrying none, three of them among the longest in the article.
+
+**A 163-WORD STUB BECAME A SECTION.** `What the alternative instruments say` had asserted that the
+instruments disagree while citing nothing at all. It now reports five with their own published
+definitions and caveats, and carries the critique literature, including Carroll and Kenkel's
+finding that the capability ratio **barely outperforms random guessing** at predicting dispute
+outcomes, which is the sharpest objection to this article's own instrument and belongs in it.
+
+**FORTY-FIVE EXISTING ANCHORS WERE NAMED IN PROSE WITHOUT LINKS.** The agreements, disagreements
+and epistemic roll-call named authors the article had already defined references for. That was a
+correctness defect before it was a density one.
+
+**A PRIMARY DOCUMENT SUPPLIED THE ONE HISTORICAL CASE THE BYSTANDER ARGUMENT HAD LACKED.** Two
+Foreign Relations documents record American officials in 1953 worrying about Japanese dependence
+on Korean War special procurement, including the fear of "a drastic decline in United States
+special procurement following a Korean armistice". That is a bystander gaining materially from a
+war it did not join, recorded by the belligerent that was paying for it, as it happened, and it
+falls in the same case this article's base rate assigns the largest stalemate effect to. Both
+quotations were confirmed against the Department's own published text rather than taken from a
+subagent's report.
+
+**WHAT WAS DELIBERATELY NOT ADDED.** Several works the sweeps surfaced were left out because no
+claim in the article needed them, and a reference that supports nothing is padding. Where a
+quotation comes from a publisher-deposited abstract rather than an article body, the Epistemic
+State says so by name.
+
+**VERIFICATION.** `_verify.py` 0 errors across 303 posts, 245 checks across three harnesses with
+none failing, build clean, rendered audit no findings across 468 pages, source-to-rendered display
+count agreeing at 88, delimiters balanced with no blank-line defects and inline delimiters paired,
+zero contractions and zero dashes in prose, zero bullet-list-only anchors, and all 200 reference
+URLs swept returning 124 direct resolutions, 73 publisher refusals each confirmed registered by
+DOI content negotiation, and 3 empty-202 responses from a publisher that answers that way.
+
 ## A376, Equation-Density Pass
 
 **Display equations 39 to 80, lines 2,896 to 3,201, inline expressions 9 to 12, references held at

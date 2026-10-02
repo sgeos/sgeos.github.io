@@ -663,28 +663,116 @@ that the instrument does not support.
 ### What the alternative instruments say
 
 The choice of instrument is not a technicality,
-because the instruments disagree about the present ordering.
+because the instruments disagree about the present ordering,
+and the disagreement is categorical rather than marginal.
 
-Gross domestic product at market exchange rates
-and the same quantity at purchasing power parity
-give different answers about whether a transition has occurred at all,
-and the gap between them for this pair of states is unusually wide.
-Military expenditure, taken alone,
-puts the United States far ahead on every published series.
-Composite indices built to weight outcomes rather than inputs
-tend to narrow the Chinese lead or reverse it.
+**Military expenditure puts the United States far ahead.**
+The [Stockholm International Peace Research Institute's database][data_sipri_milex_database],
+whose published definitions count armed forces, defence ministries,
+paramilitaries judged trained for military operations and military aid
+to the donor rather than the recipient,
+is the standard series.
+Its [2026 fact sheet][data_sipri_2026_milex] puts world spending at 2,887 billion current dollars
+in 2025, the United States at 954 billion and 33 percent of the world total,
+and China at an estimated 336 billion and 12 percent.
 
-The general objection to gross indicators
-is that they count what a state has
+$$
+\frac{954}{336} \approx 2.84
+$$
+
+**Output puts the answer either way, depending on the price basis.**
+[World Bank indicators][data_world_bank_wdi] for 2025
+give Chinese gross domestic product as about 63 percent of the American figure
+at market exchange rates and about 134 percent at purchasing power parity.
+
+$$
+\frac{1.34}{0.63} \approx 2.1
+$$
+
+That factor of roughly two is a single number,
+the ratio of China's purchasing power parity conversion factor
+to its market exchange rate,
+and it alone decides whether a transition has occurred on this measure.
+Purchasing power parity is a consumption deflator.
+It is roughly the right conversion for conscript pay and domestically produced steel
+and roughly the wrong one for imported machine tools and semiconductors,
+which is why no single answer is available
+and why the [Lowy Institute][data_lowy_2025_asia_power_index]
+uses purchasing power parity for economic weight
+and both bases for military spending.
+
+**Composite indices built around outcomes narrow the Chinese lead or reverse it.**
+Lowy scores comprehensive power at 80.4 for the United States against 73.7 for China,
+and its defence networks measure, which counts alliances,
+scores 81.4 against 18.9.
+The index publishes its weights and its own caveat
+that "it is of course possible to reach other value judgements
+about the relative importance of the measures",
+which is a candour the composite literature does not always show.
+
+### The case against gross indicators, which is the strongest objection here
+
+The general objection is that gross measures count what a state has
 rather than what it can bring to bear after paying for itself.
-A state with a very large population
-has correspondingly large internal claims on its output,
-so counting population as capability double counts.
-This is the net-against-gross argument,
-and it is the single most important reason
-that the CINC result above should not be read as a finding about military power.
+[Beckley][journal_beckley_2018_power_of_nations] states it directly,
+arguing that standard indicators
+"exaggerate the wealth and military power of poor, populous countries,
+such as China and India",
+and that a net measure predicts dispute and war outcomes better
+over two centuries of great-power cases.
+His [earlier article][journal_beckley_2012_chinas_century]
+applies the same argument to the present pair,
+and his [work on development and military effectiveness][journal_beckley_2010_economic_development]
+supplies the micro-foundation,
+which is that wealthier societies convert resources into fighting power more efficiently.
+
+[Anders, Fariss and Markowitz][journal_anders_2020_surplus_domestic_product]
+make the same move for output rather than for capability,
+separating the subsistence income a state must spend on its population
+from the surplus it could allocate to arms,
+and reporting that the resulting measure
+"outperforms GDP at measuring the distribution of power resources".
+**Both critiques point the same way,
+which is that this article's headline index overstates China.**
+That is the conservative direction for an argument
+that a war would not change relative standing much,
+so the index is reported as published rather than adjusted.
+
+The sharpest objection is not about what the index counts
+but about whether it works.
+[Carroll and Kenkel][journal_carroll_kenkel_2019_prediction_proxies]
+report that the capability ratio
+"is barely better than random guessing at predicting militarized dispute outcomes",
+and build a replacement from the same underlying components
+that is "an order of magnitude better".
+**The defect is therefore in the aggregation rule and not in the measurements**,
+which is consistent with the decomposition performed above,
+where the index's verdict turned out to rest on two components out of six.
+
+Other critiques are older and narrower.
+[Markowitz and Fariss][journal_markowitz_fariss_2013_going_the_distance]
+observe that capability counted at home is not capability projected abroad
+and propose a distance adjustment.
+[Kadera and Sorokin][journal_kadera_sorokin_2004_measuring_national_power]
+examine what an index of this family can and cannot represent.
+[Tellis and others][research_tellis_2000_measuring_national_power],
+writing for a defence sponsor rather than a journal,
+built an alternative framework for the postindustrial case
+on the ground that material aggregates had stopped tracking usable power.
+And [Höhn's survey][research_hohn_2014_geopolitics_measurement],
+which catalogues the field,
+records the plain reason this index persists,
+namely that it "is the most used power index,
+not because it is superior in quality,
+but because it is supported by a huge dataset".
+
+**That sentence is the honest summary of why this article uses it too.**
+The alternative instruments are better in various ways and none of them
+runs from 1816 to 2022 for every state in the system,
+which is what a base rate across ninety-five wars requires.
 
 ## The Base Rate for Postwar Power Shifts
+
 
 With an instrument in hand, the historical question becomes tractable.
 Rather than ask what analysts expect a great-power war to do
@@ -1700,6 +1788,113 @@ find that while some developments are progressive,
 naming the timing and initiation of wars
 and the causal mechanisms driving them.
 
+### The research programme behind the claim, and its own assessment of itself
+
+The position just stated is not one author's.
+It belongs to a programme with a documented internal history,
+and the history matters because the programme has revised itself
+in ways that bear on this article's question.
+
+[Organski and Kugler's *War Ledger*][book_organski_kugler_1980_war_ledger]
+is the founding empirical statement,
+and the phoenix-factor chapter quoted above is its third.
+[Kugler and Arbetman][journal_kugler_arbetman_1989_phoenix]
+later tested a mechanism for that recovery,
+asking whether the destruction of political structures
+accelerates it as a collective-goods argument would predict,
+and concluded "somewhat reluctantly"
+that the proposed explanation does not account for
+"the well-established difference in the postwar recovery among victors and vanquished".
+**The recovery asymmetry survived its own best explanation being refuted**,
+which is a reason to treat the finding as robust
+and the mechanism as open.
+
+[Lemke][book_lemke_2002_regions_of_war_and_peace]
+extended the theory downward to regional hierarchies,
+finding that parity and dissatisfaction correlate with war
+across regions but with cross-regional variation.
+[Tammen, Kugler and Lemke][reference_tammen_2017_foundations]
+restate the programme's current form,
+describing it as "a dynamic and structural model
+for analyzing fundamental shifts in global power".
+[Copeland's dynamic differentials theory][book_copeland_2018_origins_of_major_war]
+sharpens the initiation question,
+locating war in a declining state's anticipation of further decline,
+which is a theory of why the war starts
+and not of what the distribution looks like afterwards.
+
+The main rival inside the family is power cycle theory.
+[Doran and Parsons][journal_doran_parsons_1980_war_cycle]
+locate war at inflection points on an already-traced capability curve
+across nine major powers from 1816 to 1975,
+and [Doran's later statement][journal_doran_1989_systemic_disequilibrium]
+applies it to the disequilibrium of 1885 to 1914.
+**It is operationalised on near-identical inputs to the index this article uses,
+so it inherits every measurement problem documented above.**
+
+[DiCicco and Levy][journal_dicicco_levy_1999_power_shifts]
+assess the programme from inside it
+and find the record mixed,
+with some developments progressive
+and "other areas of the research program exhibit signs of degeneration",
+naming the timing and initiation of wars
+and the causal mechanisms driving them.
+That is an unusually candid self-assessment
+and it is the reason this article treats the theory as a prior
+rather than as a settled result.
+
+### The popular version of the argument, and why it is not used here
+
+The claim that a rising power and a ruling power tend toward war
+reaches most readers through Graham Allison's Thucydides Trap,
+whose [original statement][commentary_allison_2015_thucydides_trap]
+reports that "in 12 of 16 cases over the past 500 years, the result was war"
+and concludes that "war is more likely than not".
+
+$$
+\frac{12}{16} = 0.75
+$$
+
+**That framework is not used in this article, and the reasons are worth stating
+because the dataset behind it is the sort of thing this article otherwise likes.**
+
+The objections are specific and they come from several directions.
+[Platias and Trigkas][journal_platias_trigkas_2021_unravelling]
+write that "no other text in the intellectual history of International Relations
+has become as frequent a victim of confirmation bias and selective presentism".
+[Kang and Ma][journal_kang_ma_2018_power_transitions]
+observe that the East Asian historical record does not fit the pattern,
+which matters for a framework applied to East Asia.
+[Fitzpatrick][journal_fitzpatrick_2025_farewell]
+traces the Anglo-German case in the dataset
+back through Kennedy to a historiography that has since moved,
+arguing that "improving the quality of contemporary international relations
+might well rely upon improving our communication of paradigm changes
+in German historiography".
+[Welch][journal_welch_2003_stop_reading_thucydides]
+made the general case two decades earlier,
+that Thucydides's influence on the field "is largely pernicious".
+[Morley][journal_morley_2026_thucydiocies],
+writing as a classicist,
+notes that Thucydides "does not say that war was inevitable".
+
+The methodological objection is the one that bears on this article directly.
+[Kitchen and Cox][journal_kitchen_cox_2019_structural_power],
+reviewing the decline debate,
+quote Beckley's complaint that
+"most studies do not look at a comprehensive set of indicators"
+and instead paint "impressionistic pictures of the balance of power,
+presenting titbits of information on a handful of metrics",
+and Huntington's older one that declinist writings
+"do not elaborate testable propositions
+involving independent and dependent variables".
+
+**Both complaints apply to the sixteen-case framework and neither applies to a base rate
+computed from a published dataset with its coding rules in print.**
+That is the reason this article computed one.
+It is also a reason to hold this article's own result to the same standard,
+which is what the measurement sections above were for.
+
 ### Independent corroboration from economics
 
 [Davis and Weinstein 2002][journal_davis_weinstein_2002_bones_bombs],
@@ -2042,6 +2237,152 @@ rather than a measure of ownership,
 and Belgium and the Cayman Islands both appear
 at levels no domestic demand explains.
 
+### What the theory says a currency transition requires
+
+The inertia argument has a formal basis worth stating,
+because it determines whether a shock of war magnitude could move the position at all.
+[Gopinath and Stein][journal_gopinath_stein_2021_dominant_currency]
+show that a currency's role in invoicing
+and its role as a safe store of value reinforce one another,
+so that "a single dominant currency in trade invoicing and global banking"
+can emerge even among similar candidates,
+with firms in emerging markets borrowing in it
+and the dominant currency earning a lower return in consequence.
+The [dominant currency paradigm][journal_gopinath_2020_dominant_currency_paradigm]
+supplies the trade-side evidence,
+and [Boz and others][journal_boz_2022_invoicing_patterns]
+the invoicing data behind it.
+
+**Complementarity cuts both ways and the literature says so.**
+If the roles reinforce one another on the way up
+they can unwind together on the way down,
+which is why [Eichengreen][research_eichengreen_2005_sterlings_past]
+argued twenty years ago that reserve-currency competition
+is not a winner-take-all game
+and that several currencies have shared the role before.
+[Eichengreen, Chiţu and Mehl][journal_eichengreen_2015_stability_or_upheaval]
+develop the long-run series,
+and [their later work][journal_eichengreen_2019_mars_or_mercury]
+finds that geopolitical alignment, not only economics,
+predicts which currency a state's reserve manager holds,
+which is the mechanism a war would operate through.
+
+The sterling precedent is the empirical anchor.
+[Eichengreen and Flandreau][journal_eichengreen_flandreau_2009_rise_and_fall]
+date the dollar's overtaking to the mid-1920s rather than to 1945,
+concluding that "the network effects thought to lend inertia
+to international currency status
+and to create incumbency advantages for the dominant international currency
+do not apply in the reserve currency domain".
+**That is a direct denial of the premise
+on which the dollar is usually assumed to be unmovable.**
+[Ilzetzki, Reinhart and Rogoff][journal_ilzetzki_2020_euro_punching]
+ask the complementary question about the euro,
+and why a currency area of comparable size
+has not taken the share its economy would suggest.
+
+The book-length treatments split the same way.
+[Prasad][book_prasad_2015_dollar_trap]
+argues the dollar's position is reinforced by the very crises
+that are supposed to threaten it,
+and [McDowell][book_mcdowell_2023_bucking_the_buck]
+examines the backlash that financial sanctions have provoked.
+
+### What losing the position would actually cost
+
+Most commentary asserts that losing reserve status would be serious
+without saying how serious.
+[Jiang, Krishnamurthy, Lustig and Richmond][research_jiang_2026_dollar_erosion]
+quantify it, estimating that the loss of seigniorage
+runs at about one percent of gross domestic product a year,
+that clearing the resulting excess supply of American goods
+requires a real depreciation of about 8.8 percent,
+and that roughly half of gross domestic product in dollar bonds
+would have to be reabsorbed by domestic investors,
+raising the real interest rate by about 90 basis points
+for "an aggregate wealth loss of roughly one year of U.S. GDP".
+
+$$
+0.01 \;\text{per year}, \qquad 8.8 \;\text{percent}, \qquad 90 \;\text{basis points}
+$$
+
+**One year of output is a large number and it is not a catastrophic one**,
+being roughly the scale this article's base rate assigns
+to losing a large war on the capability measure.
+That the two converge from completely different directions
+is worth recording without making more of it than a coincidence of magnitude.
+
+[Weiss's earlier paper][research_weiss_2022_geopolitics_dollar]
+reaches the structural version of the same conclusion,
+noting that around three quarters of foreign government holdings
+of safe American assets are held by states with some military tie to the United States,
+so that the reserve position and the alliance system are not independent variables.
+**A war that damaged the alliance system
+would therefore act on the currency through the same channel**,
+which is the strongest available argument
+that the financial and military questions are one question.
+[Bianchi and Sosa-Padilla's working paper][research_bianchi_2023_sanctions_dollar]
+models the anticipation effect that would run ahead of any such event.
+
+### War finance, where the constraint is older than the scenario
+
+How a war is paid for shapes what it does to the victor,
+and the American record is documented.
+The [Congressional Research Service's series][government_crs_costs_of_major_wars]
+puts the Second World War at 35.8 percent of gross domestic product at its 1945 peak
+and the Korean War at 4.2 percent at its 1952 peak,
+while stating plainly that its estimates
+"do not reflect costs of veterans' benefits, interest on war-related debt,
+or assistance to allies"
+and should be treated "not as truly comparable figures on a continuum,
+but as snapshots of vastly different periods of U.S. history".
+
+[Ohanian][journal_ohanian_1997_macroeconomic_effects_war_finance]
+compares the two directly,
+finding the Second World War financed primarily by debt
+and Korea almost exclusively by taxation,
+and that applying the Korean policy to the Second World War
+"would have resulted in much lower output and welfare relative to the actual policy".
+[Hall and Sargent][journal_hall_sargent_2011_interest_rate_risk]
+decompose the postwar debt dynamics
+and note that their estimates "differ conceptually and quantitatively
+from the interest payments reported by the US government",
+and [their later paper][research_hall_sargent_2020_debt_and_taxes]
+extends the accounting across eight wars from 1812.
+
+**The mechanism that actually retired the Second World War debt
+was not growth and not taxation.**
+[Reinhart and Sbrancia][research_reinhart_sbrancia_2011_liquidation]
+document financial repression,
+reporting that for the United States and the United Kingdom
+"the annual liquidation of debt via negative real interest rates
+amounted on average from 3 to 4 percent of GDP a year"
+across 1945 to 1980.
+That rate is directly comparable to the projected net interest burden quoted above,
+and it is the reason a debt-service constraint
+is not the same as an inability to fight.
+[Rockoff's][book_rockoff_2012_americas_economic_way_of_war]
+history covers the longer arc,
+and [his study of the First World War][research_rockoff_2004_until_its_over]
+documents the balance-sheet consequence that matters most here,
+which is that the United States moved from net debtor to net creditor
+between 1914 and 1919 while the fighting was in Europe.
+
+[Crawford's accounting][research_crawford_2021_budgetary_costs]
+of the post-2001 wars reaches about 8 trillion dollars
+in budgetary costs and future obligations,
+of which interest on borrowing is over a trillion,
+which is the modern illustration of the item
+the older congressional series excludes by construction.
+[Edwards][research_edwards_2010_war_costs]
+makes the general point,
+that one third to one half of the present value of historical war costs
+arrives as veterans' benefits distributed over decades,
+with a half-life above thirty years after hostilities end.
+
+**None of that appears in any capability index**,
+and none of it appears in the scenario literature either.
+
 ### Decoupling is asymmetric, and against China
 
 The fragmentation literature bears on the balance of power directly,
@@ -2318,6 +2659,122 @@ That article predates the AUKUS announcement by two years
 and should be read as an account of the legal mechanism
 rather than of the arrangement.
 
+### What the theory of proliferation decisions actually holds
+
+The cascade claim assumes a model of why states build weapons,
+and the field offers three that do not agree.
+[Sagan's][journal_sagan_1997_why_states_build]
+canonical statement sets out security, domestic politics and norms
+as rival accounts of the same decision.
+[Hymans][book_hymans_2006_psychology_of_proliferation]
+locates it instead in the identity conceptions of individual leaders,
+which predicts that the decision is rarer and less responsive to circumstance
+than a security model implies.
+[Narang][journal_narang_2017_strategies_of_proliferation]
+shifts the question from whether to how,
+distinguishing hedging, sprinting, hiding and sheltered pursuit,
+and observing that a state's choice among them
+changes what an observer would see.
+
+**Those three disagree about what a visible alliance failure would do**,
+and the article records that rather than choosing.
+On a security model it is close to sufficient.
+On an identity model it is close to irrelevant.
+On a strategies model it changes the route and not the destination.
+
+[Mehta and Whitlark][journal_mehta_whitlark_2017_latency]
+take up the state in between,
+asking what latency buys a state that does not cross the threshold,
+and [Lanoszka][book_lanoszka_2018_atomic_assurance]
+argues that economic and technological dependence
+restrains allies more reliably than assurance does,
+which is a third mechanism distinct from both
+[Bleek and Lorber's][journal_bleek_lorber_2014_security_guarantees] guarantees
+and [Gerzhoy's][journal_gerzhoy_2015_alliance_coercion] threats of abandonment.
+
+### The instruments the alliance system has actually built
+
+The reassurance architecture is documentary and can be read rather than characterised.
+The [Washington Declaration][government_us_2023_washington_declaration]
+records the bargain in its own words,
+that the Republic of Korea "has full confidence in U.S. extended deterrence commitments"
+and reaffirms "its longstanding commitment to its obligations
+under the Nuclear Nonproliferation Treaty",
+in exchange for a United States commitment
+"to make every effort to consult with the ROK
+on any possible nuclear weapons employment on the Korean Peninsula".
+
+**The hedge in that sentence is the whole of the instrument.**
+The commitment is to make every effort to consult,
+not to obtain consent,
+and the declaration bounds it by existing declaratory policy.
+The [Nuclear Consultative Group fact sheet][government_dod_2025_ncg_fact_sheet]
+describes the body created to carry it,
+co-chaired at assistant secretary level and meeting twice a year at principal level.
+That is the instrument whose announcement,
+as the natural experiment above reports,
+moved allied opinion on indigenous weapons by seven tenths of a percentage point.
+
+The trilateral and quadrilateral arrangements are often read as consolidation.
+Read in their own text they are narrower than that.
+The [Spirit of Camp David][government_us_2023_camp_david]
+commits the three governments "to consult with each other in an expeditious manner",
+which is a consultation pledge and not a defence obligation,
+and its Taiwan language goes no further than
+"the importance of peace and stability across the Taiwan Strait".
+The [Wilmington Declaration][government_us_2024_wilmington_declaration]
+contains no mutual defence commitment and no extended deterrence language at all,
+its substantive undertakings being public-health and infrastructure initiatives.
+**A survey that models the Quad as a security alliance is modelling something
+the document does not establish.**
+
+On the other side, the [joint statement of February 2022][government_kremlin_2022_joint_statement]
+records that the relationship between Russia and China
+is "superior to political and military alliances of the Cold War era"
+and that "friendship between the two States has no limits",
+while also stating that it is "neither aimed against third countries"
+nor alliance-like in obligation.
+It is a declaration of alignment without a commitment clause,
+which is the same shape as the documents on the other side
+and is worth noting because the two are usually contrasted rather than compared.
+
+### Taiwan's own programme, which is the closest historical case
+
+The island at the centre of this contingency
+pursued nuclear weapons itself and was stopped.
+[Albright and Stricker's][research_albright_2018_taiwan_nuclear_program]
+book-length account and the
+[National Security Archive's document collection][research_nsarchive_2019_taiwans_bomb]
+together establish the shape of it.
+The programme ran from the late 1960s to 1988
+under presidential direction,
+and it ended through the defection of a senior insider to American intelligence
+rather than through reassurance.
+
+**That is the Gerzhoy mechanism in the case closest to hand.**
+A threatened ally pursued weapons while formally protected,
+and what stopped it was patron coercion and intelligence penetration.
+It is also the reason a cascade argument cannot treat Taiwan as a passive object,
+though what Taiwan would do in the scenarios this series covers
+is outside what any located source addresses.
+
+### Whether allies want what the cascade argument assumes
+
+[Tomz and Weeks][journal_tomz_weeks_2021_military_alliances]
+examine the domestic foundation of a commitment,
+asking whether publics support honouring one,
+which is the variable underneath every credibility argument above.
+[Henry's book-length treatment][book_henry_2022_reliability]
+develops the article quoted earlier,
+and the finding that matters here is the one about direction.
+Allied confidence is not monotonically increasing
+in demonstrated willingness to fight,
+because a demonstration of willingness also raises the risk of entrapment.
+
+**So a war fought to prove a commitment
+could reduce allied confidence by proving it too well**,
+which is a possibility no scenario in the surveyed literature models.
+
 ### The regime these arguments assume is already failing
 
 [Arms Control Today's reporting][commentary_act_2026_npt_revcon]
@@ -2365,6 +2822,144 @@ because a demonstration of willingness also raises entrapment risk.
 makes the complementary point from the American side,
 counting only five cases of plausible entanglement since 1945,
 two of which are Taiwan Strait crises.
+
+### The one historical case where a bystander demonstrably gained
+
+The bystander argument has been structural so far.
+There is one case in the record where the mechanism is documented
+in the contemporaneous official correspondence
+rather than reconstructed from an index,
+and it involves the same two principals.
+
+Japan did not fight in Korea.
+It supplied the war.
+The [State Department's own record][government_frus_1952_japan_procurement]
+shows American officials worrying in 1953
+about Japanese dependence on that trade,
+noting the Japanese fear of
+"a drastic decline in United States special procurement following a Korean armistice"
+at a time when Japan had failed "to regain more than 30 percent
+of its prewar export volume".
+A [companion document][government_frus_1952_japan_dollar_earnings]
+is blunter still about the dependence it had created,
+describing a government "wasteful of its substance
+and confident that the United States will bail it out
+through special procurement, Korean rehabilitation, or new loans".
+
+**That is a bystander gaining materially from a war it did not join,
+recorded by the belligerent that was paying for it, as it happened.**
+It is also the case this article's own base rate assigns
+the largest stalemate effect to,
+with the American share falling 13 percent over the following decade
+while the Chinese share rose 18.
+
+The documents do not settle the size of the effect,
+and no verified dollar series for the procurement programme
+was obtained for this article,
+so what they establish is the mechanism and not its magnitude.
+**That distinction is the honest one and it is the pattern throughout this subject.**
+
+### What the official assessments say about the balance itself
+
+The force-balance claims underneath the scenario literature
+come from a small number of official publications,
+and they are more cautious than the commentary built on them.
+The [Department of Defense annual report to Congress][government_dod_2025_china_report],
+used in the [previous article][related_post_rebuilding] for its naval tables,
+counts ships by class and prints no aggregate,
+which is the posture of a document that knows a total
+would be quoted beyond what its counting rules support.
+
+The alliance picture comes from the same kind of source.
+The [Congressional Research Service][government_crs_2026_extended_deterrence]
+records that the 2026 National Defense Strategy
+does not explicitly mention extended deterrence,
+and a [companion product][government_crs_2025_national_defense_strategy]
+sets out what reprioritisation toward the Western Hemisphere and the Indo-Pacific
+would mean for forces in Europe and the Middle East.
+The [NATO analysis][government_crs_2026_nato_summit]
+records the division of labour being proposed,
+in which the United States continues to provide the nuclear guarantee
+while allies "assume primary responsibility for the conventional defense of Europe".
+The [Japan assessment][government_crs_2026_japan_defense]
+records a government nearly doubling defence spending between 2023 and 2028,
+and the [Philippines report][government_crs_2026_philippines]
+records the basing arithmetic,
+noting that the northernmost site opened to American forces
+sits about 500 kilometres from southern Taiwan.
+
+**None of those is a forecast and all of them are the baseline
+against which a war's effect would have to be measured.**
+The baseline is moving without a war,
+which is the observation this article keeps arriving at from different directions.
+
+The legal position of the territory itself is also primary and often paraphrased.
+The [Taiwan Relations Act][government_us_1979_taiwan_relations_act]
+is the instrument that creates the ambiguity every scenario turns on,
+and it is worth noting that Taiwan is not covered
+by an extended deterrence commitment of the kind
+the Korean and Japanese documents above record.
+
+### The shipping and energy record, which is measured rather than modelled
+
+The blockade literature prices a disruption.
+Two public datasets measure the traffic that would be disrupted.
+The [International Monetary Fund's port and chokepoint data][data_imf_portwatch],
+built from vessel transponder records,
+publishes daily transit counts for twenty-eight chokepoints from 2019,
+and [UNCTAD's seaborne trade series][data_unctad_seaborne_trade]
+gives the world totals those transits should be set against.
+**The two do not measure the same thing**,
+since one counts tonnage crossing a boundary
+and the other counts cargo once at loading,
+and a single shipment can cross several chokepoints,
+so the ratio between them is an order-of-magnitude check and nothing finer.
+
+On the energy side the [Energy Information Administration's analyses][government_eia_2025_hormuz]
+give the comparative scale for a chokepoint disruption,
+reporting about 20 million barrels a day through the Strait of Hormuz in 2024,
+around a fifth of global petroleum liquids consumption,
+and [its assessment of strategic stocks][government_eia_2026_strategic_stocks]
+reports Chinese government-held crude inventories
+at about 360 million barrels in December 2025
+against a United States Strategic Petroleum Reserve near 414 million.
+
+$$
+\frac{360}{414} \approx 0.87
+$$
+
+**Those two figures are close, and the comparison is only valid
+because both are government-held stocks on the same basis.**
+The wider Chinese figure that circulates, near 1.4 billion barrels,
+folds in commercial and refinery stocks
+in a treatment that source applies to China and to no other country,
+which is the sort of asymmetry that produces a startling ratio
+and does not survive being read.
+
+### The fiscal position, from the issuing authority
+
+The debt figures used above come from the Treasury's own publication.
+[Debt to the Penny][data_treasury_debt_to_the_penny]
+gives total public debt outstanding and the portion held by the public,
+and the [Bank for International Settlements credit series][data_bis_total_credit]
+gives the internationally comparable version
+for both states on a consistent definition.
+
+**The comparison between the two states is where the definitions bite.**
+On the Bank's general-government measure,
+the Chinese and American positions are closer than the headline Chinese figure suggests,
+while the [International Monetary Fund's augmented measure][government_imf_2026_china_article_iv],
+which expands the perimeter "to include government-guided funds
+and the activity of local government financing vehicles",
+is substantially higher.
+**That measure is formally contested inside the same document**,
+whose statement by the member state's executive director
+records that they "hold different views on the characterization
+of the fiscal expansion as modest,
+as well as issues related to the concept of augmented debt".
+Three perimeters are in circulation and they differ by definition rather than by vintage,
+so any sentence of the form that Chinese debt is a particular share of output
+is wrong unless it names the perimeter.
 
 ## A Survey of the Contemporary Literature
 
@@ -2691,6 +3286,317 @@ to reproduce balances we already believe in,
 which is a defensible procedure
 and one that cannot discover a great power nobody currently recognises.
 
+### The historical case the Suez analogy rests on
+
+The Suez argument above was stated without its source,
+and the source is worth having because it is an institutional record
+rather than a retrospective.
+[Boughton's study][journal_boughton_2001_northwest_of_suez],
+written from inside the International Monetary Fund,
+documents that all four combatants sought and obtained assistance from the Fund,
+and locates the British collapse precisely.
+
+> For the United Kingdom, therefore, the need for assistance from the IMF
+> resulted not from economics but from the psychological impact
+> of a political crisis on financial markets.
+
+**That sentence is the Suez mechanism in one line, and it is not a capability mechanism.**
+A reserve drain driven by market sentiment
+forced a policy reversal that no material loss would have compelled,
+which is exactly the channel a capability index cannot see
+and exactly the channel the alliance literature above describes.
+
+### The longer record of victors who declined
+
+[Kennedy's][book_kennedy_1987_rise_and_fall]
+survey is the standard account,
+and its central claim is about sequence rather than about war.
+
+> The fact remains that all of the major shifts
+> in the world's military-power balances have followed alterations
+> in the productive balances.
+
+His reproduction of the manufacturing-share tables
+makes the British case concrete,
+with Britain falling from 13.6 percent of world manufacturing output in 1913
+to 9.9 percent in 1928 while on the winning side,
+and the United States rising from 32.0 to 39.3 across the same war.
+
+$$
+13.6 \longrightarrow 9.9,
+\qquad
+32.0 \longrightarrow 39.3
+$$
+
+Kennedy also supplies the term the decline literature argues over,
+warning that decision-makers face
+"the awkward and enduring fact that the sum total
+of the United States' global interests and obligations
+is nowadays far larger than the country's power to defend them all simultaneously".
+**The forecast attached to that argument did not hold on this article's own measure.**
+American capability share rose for roughly two decades after he published,
+which is a documented instance of a careful, quantitative,
+book-length structural prediction failing inside a decade,
+and it belongs with the prediction-accuracy material above
+rather than being quietly omitted from it.
+
+[Harrison's][research_harrison_1998_economics_of_wwii]
+wartime accounts give the complementary measure
+for the one case where a war did move the distribution decisively,
+with American output roughly doubling between 1938 and 1944
+while the Axis total fell.
+The underlying long-run series come from
+[the Maddison Project][data_maddison_project_2023],
+whose [methodology paper][journal_bolt_vanzanden_2024_maddison]
+documents the construction,
+and the measurement uncertainty in those series is itself substantial,
+which [Fariss and others][research_fariss_2017_latent_estimation]
+address by building a model that reconciles
+the competing historical output estimates rather than choosing among them.
+
+[Schroeder][journal_schroeder_1992_vienna_settlement]
+supplies the historian's objection to the whole framing,
+asking whether the settlement of 1815
+rested on a balance of power at all,
+which is a reminder that the quantity this article measures
+is a modern analytical construct
+and not a category the participants in these wars would have recognised.
+
+### Relative gain by abstention, where the theory is formal
+
+The bystander argument has a formal literature behind it
+that the scenario sources do not cite.
+[Christensen and Snyder][journal_christensen_snyder_1990_chain_gangs]
+set out buck-passing and chain-ganging
+as the two errors multipolarity invites,
+with the choice between them turning on perceived offensive advantage.
+That is the mechanism by which a state stays out of a war it could join,
+and it is the precondition for any bystander gain.
+
+Whether states pursue relative position at all is a separate dispute.
+[Grieco][journal_grieco_1988_anarchy_limits]
+argued that states are positional and therefore resist cooperation
+that benefits others more.
+[Powell][journal_powell_1991_absolute_relative_gains]
+and [Snidal][journal_snidal_1991_relative_gains]
+answered formally,
+showing that the concern for relative gains
+depends on the constraints the states face
+rather than being a fixed preference,
+and the three positions are set out together
+in [their joint exchange][journal_grieco_powell_snidal_1993_relative_gains].
+
+**This matters for the bystander argument in a specific way.**
+If relative position is what states pursue,
+a non-participant gains from a war between two others
+even if its own output falls,
+and the trade modelling quoted above measures the wrong thing.
+If states pursue absolute gains,
+the trade modelling measures the right thing
+and the capability arithmetic is the distraction.
+**The article cannot settle that and reports the arithmetic on both.**
+
+### Hedging, where the concept has been narrowed by its own literature
+
+The regional alignment material above used the word hedging loosely.
+[Kuik][journal_kuik_2008_essence_of_hedging]
+gave the concept its standard treatment through the Malaysian and Singaporean cases,
+and [Lim and Cooper][journal_lim_cooper_2015_reassessing_hedging]
+then narrowed it sharply,
+arguing that the term "should not include costless activities
+that do not require states to face trade-offs in their security choices"
+and that properly defined, hedging "occurs in far narrower
+but arguably more interesting circumstances than is widely believed".
+
+**On the narrow definition, most of what the survey data above measure is not hedging.**
+Expressing a preference to a pollster is costless.
+That is a reason to read the ISEAS oscillation
+as information about sentiment rather than about alignment,
+and it strengthens the reading already given
+that three reversals within sampling error are noise around parity.
+
+### Blockade, which is the form in which this question usually arrives
+
+Several of the economic estimates above price a blockade rather than an invasion,
+and the operational literature on that is older than the current debate.
+[Mirski][journal_mirski_2013_stranglehold]
+sets out the context, conduct and consequences of an American naval blockade of China,
+and [Lanteigne][journal_lanteigne_2008_malacca_dilemma]
+describes the dependence that makes it conceivable.
+[Posen's][journal_posen_2003_command_of_the_commons]
+account of command of the commons
+is the structural statement of why the United States could attempt one at all.
+[Collins][journal_collins_2018_maritime_oil_blockade]
+gives the strongest published objection,
+arguing that the political, economic and financial requirements of sustaining one
+mean "even a militarily successful blockader
+could find its political, economic, and diplomatic position untenable
+well before a blockade could exert its full effects".
+[Davis and Gholz][journal_davis_gholz_2026_blockade_by_fire]
+take the question from the other side,
+examining a Chinese blockade by missile attack on ports
+and noting that "even militarily successful blockades
+have rarely achieved all their political goals".
+
+**That last clause is this article's subject in miniature**,
+and it is the clearest statement in the surveyed literature
+that military success and political outcome are separate variables.
+
+[McKinney and Harris][journal_mckinney_harris_2021_broken_nest]
+occupy the position furthest from the rest,
+proposing deterrence through the threat of destroying what an invader would capture,
+which is relevant here because it is the one published proposal
+whose explicit object is the postwar economic distribution
+rather than the fighting.
+
+### The order literature in its own sequence
+
+The works cited above as a group have an internal order worth setting out,
+because the field moved from measuring capabilities to describing architecture
+for reasons it stated at the time.
+
+[Ikenberry's journal statement][journal_ikenberry_1999_institutions_restraint]
+precedes the book and is the compact form of the argument,
+that a victor's advantage is transient
+and that institutions are how it is converted into something durable.
+[After Victory][book_ikenberry_2019_after_victory] develops it through
+the settlements of 1815, 1919 and 1945.
+Two decades later [the same author][journal_ikenberry_2018_end_of_liberal_order]
+asked whether the order was ending,
+and concluded that the threat came from inside the West
+rather than from the rising states the theory had expected.
+[Lim and Ikenberry][journal_lim_ikenberry_2023_illiberal_hegemony]
+then applied the framework prospectively to China,
+restating the hegemonic-war mechanism in current prose,
+that "in the wake of hegemonic war,
+a newly powerful state rises up and seeks to rebuild international order".
+
+[Ikenberry and Nexon][journal_ikenberry_nexon_2019_hegemony_studies]
+survey where the subfield had arrived,
+and [Cooley and Nexon's][book_cooley_nexon_2020_exit_from_hegemony]
+book reverses the question from construction to unravelling.
+Their [earlier article][journal_cooley_nexon_2013_empire_compensate]
+is the empirical anchor for that,
+examining the overseas basing network
+and finding it "combines elements of liberal multilateralism
+with neo-imperial hegemony",
+which is the concrete form in which a hegemonic position is actually held
+and therefore the thing a war would act upon.
+
+[Lake][journal_lake_2007_escape_state_of_nature]
+supplies the conceptual move the whole group depends on,
+that it is "a fallacy to infer that all relationships
+within this system are anarchic",
+and that hierarchy is "a fragile relationship, easily abused"
+precisely because it rests on the legitimacy subordinates confer.
+His [book-length treatment][book_lake_2017_hierarchy]
+develops the authority relation.
+
+**If that is right, the quantity a war would damage
+is not capability but the consent of subordinate states**,
+which is unmeasured by every instrument in this article
+and is the same gap the Suez case exposed.
+
+### The recent journal literature, which has turned to this contingency
+
+The last three years have produced a body of work
+aimed directly at the war this series is about,
+and it is listed here because its existence bounds the claim
+that the subject is neglected.
+[Cunningham and Ven Bruusgaard][journal_cunningham_2026_escalate_to_survive]
+examine nuclear first use in contemporary great-power conflict.
+[Evangelista][journal_evangelista_2024_nuclear_umbrella]
+takes up extended deterrence precedents for a postwar settlement,
+which is the closest located treatment of a postwar security guarantee.
+[Greitens and Kardon][journal_greitens_kardon_2025_security_without_exclusivity]
+describe hybrid alignment under competition,
+which is the formal version of the hedging the survey data show.
+[Trachtenberg][journal_trachtenberg_2025_rules_based_order]
+examines the rules-based order historically.
+[Priebe and others][journal_priebe_2024_competing_visions]
+set out the restraint positions,
+and [Cancian][journal_cancian_2025_states_of_denial]
+the denial-defence debate.
+[Burrows][journal_burrows_2026_china_war_scenario]
+asks whether a China war scenario would break the insiders' hold,
+which is a question about expertise rather than about outcomes.
+
+**What that body of work does not contain is a study of the postwar distribution**,
+which is the gap this article has been describing,
+and the point of listing the near misses is to show it is a real absence
+rather than a failure to look.
+
+### The long-peace literature, which bears on whether the base rate still applies
+
+[Gaddis][journal_gaddis_1986_long_peace]
+named the postwar absence of great-power war,
+and [Mueller][journal_mueller_1988_essential_irrelevance]
+argued that nuclear weapons were not what produced it.
+[Cederman, Warren and Sornette][journal_cederman_2011_testing_clausewitz]
+model war severity directly,
+and [Clauset][journal_clauset_2018_trends_fluctuations]
+and [Cirillo and Taleb][journal_cirillo_taleb_2016_tail_risk]
+both conclude the trend is not yet statistically distinguishable from a fluctuation.
+
+**That matters for this article's method rather than for its subject.**
+If the postwar period is a draw from the same distribution as the century before it,
+a base rate computed across 1823 to 2003 applies to the next case.
+If it is a regime change, it does not.
+The statistics currently cannot tell the difference,
+and the article computes the base rate while recording that.
+
+### The policy record, which is primary and mostly unquoted
+
+Several documents bear on the alignment question
+and are available in their own words rather than through commentary.
+The European Union's [strategic outlook][government_eu_2019_china_strategic_outlook]
+introduced the formulation that has governed European policy since,
+that China is "simultaneously, in different policy areas,
+a cooperation partner, a negotiating partner,
+an economic competitor and a systemic rival",
+and the [Strategic Compass][government_eu_2022_strategic_compass]
+carries it into defence planning.
+**Reading the Compass for Taiwan returns nothing**,
+which is a fact about European planning
+rather than about European interests,
+and it bears on the assumption that European states
+would be participants rather than bystanders.
+
+The non-aligned grouping has expanded in its own documents.
+The [Johannesburg declaration][government_brics_2023_johannesburg]
+records the invitations issued in 2023,
+and the [Rio declaration][government_brics_2025_rio]
+records which of them became members and which became partners,
+a distinction that press accounts routinely collapse.
+
+On the industrial side the legislative record is explicit.
+The [CHIPS and Science Act][government_us_2022_chips_act]
+sets out the appropriations by fiscal year
+rather than the aggregate figures usually quoted,
+and a [later public law][government_us_2025_pl_119_21]
+raised the advanced manufacturing investment credit from 25 to 35 percent,
+which is the sort of change that dates a secondary source silently.
+The [October 2022 export controls][government_bis_2022_export_controls]
+state the thresholds in the Federal Register
+rather than in the paraphrases that circulate.
+
+$$
+25 \longrightarrow 35 \;\text{percent}
+$$
+
+And the island's own exposure is published by its own ministry.
+The [Taiwan energy statistics handbook][data_taiwan_moea_energy]
+puts dependence on imported energy at 94.62 percent in 2025,
+with oil at 99.03 and liquefied natural gas at 99.82.
+
+$$
+94.62, \qquad 99.03, \qquad 99.82 \;\text{percent}
+$$
+
+**Those three numbers are the reason the blockade literature exists**,
+and they come from the government of the territory in question
+rather than from an analyst's estimate.
+
 ## Where the Sources Agree and Where They Do Not
 
 ### Four agreements that hold across methods
@@ -2717,23 +3623,23 @@ and it crosses method, era and discipline.
 **That prewar forecasts about consequences are usually wrong.**
 RAND's ten-case coding gives one full success in ten
 on the balance-of-power dimension.
-Tetlock's tournament gives the general base rate.
-Gilpin notes that neither the Greeks nor the Europeans of 1914
+[Tetlock's tournament][book_tetlock_2005_expert_political_judgment] gives the general base rate.
+[Gilpin][journal_gilpin_1988_hegemonic_war] notes that neither the Greeks nor the Europeans of 1914
 anticipated what their wars would do.
-Nordhaus provides a worked instance.
+[Nordhaus][research_nordhaus_2002_iraq_cost] provides a worked instance.
 
 **That the measurement choice determines the answer.**
 This is agreed by the people who build the instruments.
-The Correlates of War codebook warns against longitudinal use of components.
-Lowy states that other value judgements about its weights are possible.
-SIPRI warns that its revision replaces all previously published data.
-Carroll and Kenkel show the standard ratio barely beats guessing.
+The [Correlates of War codebook][data_cow_nmc_v7] warns against longitudinal use of components.
+[Lowy][data_lowy_2025_asia_power_index] states that other value judgements about its weights are possible.
+[SIPRI][data_sipri_2026_milex] warns that its revision replaces all previously published data.
+[Carroll and Kenkel][journal_carroll_kenkel_2019_prediction_proxies] show the standard ratio barely beats guessing.
 Allison's own project concedes there are no agreed metrics of national power.
 
 ### Seven disagreements, each with both sides named
 
 **Whether a war durably changes the distribution at all.**
-Organski and Kugler say losers resume antebellum status in fifteen to twenty years.
+[Organski and Kugler][journal_organski_kugler_1977_phoenix] say losers resume antebellum status in fifteen to twenty years.
 This article's computation finds every large-war loser down at ten years,
 with a median loss of 42 percent.
 The windows differ and the samples differ, and the two have not been reconciled.
@@ -2743,36 +3649,36 @@ RAND asserts that victors "will be weakened relative to noncombatant states",
 and Frederick says the great power that benefits most is the one that did not fight.
 The historical test in this article finds no such pattern,
 for the reason that no historical case had a large enough bystander pool.
-Nikkei's trade modelling finds non-belligerents bearing heavy absolute costs.
+[Nikkei's][commentary_nikkei_2022_taiwan_emergency] trade modelling finds non-belligerents bearing heavy absolute costs.
 All three can hold simultaneously and the article says so.
 
 **Whether the belligerents decline symmetrically.**
 The scenario table here treats symmetric outcomes as two of four cases.
-Gompert and others estimate Chinese losses at about four times American losses.
+[Gompert and others][research_gompert_2016_war_with_china] estimate Chinese losses at about four times American losses.
 Nothing in the capability data adjudicates this,
 because the capability index is insensitive to the trade interdiction
 that drives the asymmetry.
 
 **Whether Taiwan is militarily worth taking.**
-Green and Talmadge say yes through submarine basing and surveillance.
-Caverley says the island adds under three percent of relevant coastline
+[Green and Talmadge][journal_green_talmadge_2022] say yes through submarine basing and surveillance.
+[Caverley][journal_caverley_2025] says the island adds under three percent of relevant coastline
 and would make little difference.
 Both are published, recent, and methodologically explicit.
 
 **Whether security guarantees restrain allies.**
-Bleek and Lorber find they do.
-Gerzhoy finds restraint came instead from threats of abandonment.
-Monteiro and Debs provide a framework in which both can be true
+[Bleek and Lorber][journal_bleek_lorber_2014_security_guarantees] find they do.
+[Gerzhoy][journal_gerzhoy_2015_alliance_coercion] finds restraint came instead from threats of abandonment.
+[Monteiro and Debs][journal_monteiro_debs_2014_strategic_logic] provide a framework in which both can be true
 depending on which of willingness and opportunity binds.
 
 **Whether a cascade would follow a visible American failure.**
 The wargames and RAND treat it as a live risk.
-Fuhrmann and Tkach's base rate is about one in three over seventy years.
+[Fuhrmann and Tkach's][journal_fuhrmann_tkach_2015_nuclear_latency] base rate is about one in three over seventy years.
 The one natural experiment, on the Washington Declaration,
 found allied opinion unmoved by the alliance signal in either direction.
 
 **Whether the system is already bipolar, and who counts.**
-Lind says yes and that neither Russia nor India is a great power.
+[Lind][journal_lind_2024_back_to_bipolarity] says yes and that neither Russia nor India is a great power.
 The capability data used here put India at four fifths of the United States.
 The Atlantic Council's expert panel expects multipolarity by nine to one.
 These cannot all be right,
@@ -2843,7 +3749,7 @@ the Correlates of War National Material Capabilities version 7.0
 and the Inter-State War Data version 4.0,
 both downloaded from the project's own site.
 The computation is independently checkable.
-Three harnesses re-entered 238 constants by hand from the article text
+Three harnesses re-entered 245 constants by hand from the article text
 and recomputed each,
 which caught two errors before publication,
 a relative change stated as 1.07 that is 1.06,
@@ -2866,6 +3772,25 @@ The inter-state war participant file.
 The Joint War Committee listed-areas circular of 16 September 2026, in full,
 which is how the absence of Taiwan from it is reported as an absence
 rather than inferred from silence.
+Two State Department documents in the Foreign Relations series,
+whose quotations on Japanese procurement dependence
+were confirmed against the Department's own published text.
+The Belfer Center reprint of the Thucydides Trap essay,
+for the two sentences quoted from it.
+The Chang and others paper, for the Iraq cost figure,
+whose two-column layout interleaves on extraction
+exactly as the previous article recorded for scanned sources.
+
+**Where a secondary source was available and a primary one existed, the primary was used.**
+That is the whole of the reference pass.
+Alliance commitments are quoted from the declarations rather than from descriptions of them,
+the legislative figures from the public laws rather than from the aggregates in circulation,
+the Taiwanese energy dependence from the Taiwanese ministry,
+the reserve series from the Fund's own interface,
+and the force-balance posture from the annual report that declines to print a total.
+**Thirty of the two hundred and two references are government documents
+and twenty are datasets**, which is a quarter of the external total,
+against about a tenth in the previous article in this series.
 
 **Retrieved and recomputed rather than quoted.**
 The reserve-composition series was pulled from the International Monetary Fund's
@@ -2887,12 +3812,30 @@ do not survive contact with the series.
 Several quotations in the survey come from publisher-deposited abstracts
 rather than from article bodies,
 because the publishers in question refuse automated access.
-That applies to Organski and Kugler, Carroll and Kenkel,
-Monteiro and Debs, Gerzhoy, Bleek and Lorber, Fuhrmann and Tkach,
-Rauchhaus, Bell and Miller, Sechser and Fuhrmann, Beckley,
-Anders and others, Brooks and Wohlforth, Green and Talmadge, Snyder,
-Henry, Powell, Levy, Fearon, Chadefaux, DiCicco and Levy,
-Doran and Parsons, Lind, Mearsheimer and Walt.
+That applies to [Organski and Kugler][journal_organski_kugler_1977_phoenix],
+[Carroll and Kenkel][journal_carroll_kenkel_2019_prediction_proxies],
+[Monteiro and Debs][journal_monteiro_debs_2014_strategic_logic],
+[Gerzhoy][journal_gerzhoy_2015_alliance_coercion],
+[Bleek and Lorber][journal_bleek_lorber_2014_security_guarantees],
+[Fuhrmann and Tkach][journal_fuhrmann_tkach_2015_nuclear_latency],
+[Rauchhaus][journal_rauchhaus_2009_nuclear_peace],
+[Bell and Miller][journal_bell_miller_2015_questioning],
+[Sechser and Fuhrmann][journal_sechser_fuhrmann_2013_nuclear_blackmail],
+[Beckley][journal_beckley_2018_power_of_nations],
+[Anders and others][journal_anders_2020_surplus_domestic_product],
+[Brooks and Wohlforth][journal_brooks_wohlforth_2016_rise_and_fall],
+[Green and Talmadge][journal_green_talmadge_2022],
+[Snyder][journal_snyder_1984_security_dilemma],
+[Henry][journal_henry_2020_what_allies_want],
+[Powell][journal_powell_2006_commitment_problem],
+[Levy][journal_levy_1987_declining_power],
+[Fearon][journal_fearon_1995_rationalist],
+[Chadefaux][journal_chadefaux_2011_bargaining],
+[DiCicco and Levy][journal_dicicco_levy_1999_power_shifts],
+[Doran and Parsons][journal_doran_parsons_1980_war_cycle],
+[Lind][journal_lind_2024_back_to_bipolarity],
+[Mearsheimer][journal_mearsheimer_2019_bound_to_fail]
+and [Walt][journal_walt_2025_hedging_hegemony].
 **An abstract is the publisher's summary and not the author's running prose,
 and no page-located claim is made from one.**
 
@@ -3026,175 +3969,407 @@ and the thinness is the finding.
 ## References
 
 - [Book, Cooley and Nexon 2020, Exit from Hegemony][book_cooley_nexon_2020_exit_from_hegemony]
+- [Book, Copeland 2018, The Origins of Major War][book_copeland_2018_origins_of_major_war]
 - [Book, Gilpin 1981, War and Change in World Politics][book_gilpin_1981_war_and_change]
+- [Book, Henry 2022, Reliability and Alliance Interdependence][book_henry_2022_reliability]
+- [Book, Hymans 2006, The Psychology of Nuclear Proliferation][book_hymans_2006_psychology_of_proliferation]
 - [Book, Ikenberry 2019, After Victory][book_ikenberry_2019_after_victory]
+- [Book, Kennedy 1987, The Rise and Fall of the Great Powers][book_kennedy_1987_rise_and_fall]
+- [Book, Lake 2017, Hierarchy in International Relations][book_lake_2017_hierarchy]
+- [Book, Lanoszka 2018, Atomic Assurance][book_lanoszka_2018_atomic_assurance]
+- [Book, Lemke 2002, Regions of War and Peace][book_lemke_2002_regions_of_war_and_peace]
+- [Book, McDowell 2023, Bucking the Buck][book_mcdowell_2023_bucking_the_buck]
+- [Book, Organski and Kugler 1980, The War Ledger][book_organski_kugler_1980_war_ledger]
+- [Book, Prasad 2015, The Dollar Trap][book_prasad_2015_dollar_trap]
+- [Book, Rockoff 2012, America's Economic Way of War][book_rockoff_2012_americas_economic_way_of_war]
 - [Book, Singer, Bremer and Stuckey 1972, Capability Distribution, Uncertainty, and Major Power War, 1820 to 1965][book_singer_1972_capability_distribution]
 - [Book, Tetlock 2005, Expert Political Judgment][book_tetlock_2005_expert_political_judgment]
 - [Commentary, Arms Control Today 2026, 2026 NPT Review Conference Stymied by Disputes][commentary_act_2026_npt_revcon]
+- [Commentary, Allison 2015, The Thucydides Trap, Are the United States and China Headed for War][commentary_allison_2015_thucydides_trap]
 - [Commentary, Nikkei 2022, 2.6tn Dollars Could Evaporate From the Global Economy in a Taiwan Emergency][commentary_nikkei_2022_taiwan_emergency]
 - [Data, Bank for International Settlements 2025, Triennial Central Bank Survey, OTC Foreign Exchange Turnover in April 2025][data_bis_2025_triennial]
+- [Data, Bank for International Settlements 2026, Credit to the Non-Financial Sector][data_bis_total_credit]
 - [Data, Congressional Budget Office 2026, Budget and Economic Projections][data_cbo_2026_projections]
 - [Data, Chicago Council on Global Affairs 2022, Thinking Nuclear, South Korean Attitudes on Nuclear Weapons][data_chicago_council_2022_south_korea]
 - [Data, Correlates of War 2020, Inter-State War Data version 4.0][data_cow_interstate_war_v4]
 - [Data, Sarkees and Wayman 2010, Correlates of War Inter-State Wars Codebook][data_cow_interstate_wars_codebook]
 - [Data, Correlates of War 2025, National Material Capabilities version 7.0][data_cow_nmc_v7]
 - [Data, International Monetary Fund 2026, Currency Composition of Official Foreign Exchange Reserves][data_imf_cofer]
+- [Data, International Monetary Fund 2026, PortWatch Chokepoint and Port Monitoring][data_imf_portwatch]
 - [Data, ISEAS Yusof Ishak Institute 2026, The State of Southeast Asia 2026 Survey Report][data_iseas_2026_state_of_southeast_asia]
 - [Data, Korea Institute for National Unification 2023, KINU Unification Survey 2023][data_kinu_2023_unification_survey]
 - [Data, Lowy Institute 2025, Asia Power Index][data_lowy_2025_asia_power_index]
+- [Data, Groningen Growth and Development Centre 2023, Maddison Project Database][data_maddison_project_2023]
 - [Data, SIPRI 2026, Trends in World Military Expenditure 2025][data_sipri_2026_milex]
+- [Data, SIPRI 2026, Military Expenditure Database][data_sipri_milex_database]
+- [Data, Ministry of Economic Affairs 2025, Energy Statistics Handbook of the Republic of China][data_taiwan_moea_energy]
+- [Data, United States Treasury 2026, Debt to the Penny][data_treasury_debt_to_the_penny]
 - [Data, United States Treasury 2026, Major Foreign Holders of Treasury Securities][data_treasury_tic_2026]
+- [Data, United Nations Conference on Trade and Development 2026, Seaborne Trade][data_unctad_seaborne_trade]
+- [Data, World Bank 2026, World Development Indicators][data_world_bank_wdi]
+- [Government, Bureau of Industry and Security 2022, Implementation of Additional Export Controls, 87 Federal Register 62186][government_bis_2022_export_controls]
+- [Government, BRICS 2023, Johannesburg II Declaration][government_brics_2023_johannesburg]
+- [Government, BRICS 2025, Rio de Janeiro Declaration][government_brics_2025_rio]
+- [Government, Congressional Research Service 2025, National Defense Strategy, Potential Implications of Prioritizing the Western Hemisphere and China][government_crs_2025_national_defense_strategy]
 - [Government, Congressional Research Service 2026, United States Extended Deterrence and Regional Nuclear Capabilities][government_crs_2026_extended_deterrence]
+- [Government, Congressional Research Service 2026, Japan's Evolving Defense Policy and the United States-Japan Alliance][government_crs_2026_japan_defense]
+- [Government, Congressional Research Service 2026, NATO, Issues for the July 2026 Summit][government_crs_2026_nato_summit]
+- [Government, Congressional Research Service 2026, The Philippines, Background and United States Relations][government_crs_2026_philippines]
+- [Government, Congressional Research Service 2010, Costs of Major United States Wars][government_crs_costs_of_major_wars]
+- [Government, Department of Defense 2025, Annual Report to Congress on Military and Security Developments Involving the People's Republic of China][government_dod_2025_china_report]
+- [Government, Department of Defense 2025, Republic of Korea Nuclear Consultative Group Fact Sheet][government_dod_2025_ncg_fact_sheet]
+- [Government, Energy Information Administration 2025, The Strait of Hormuz Remains a Critical Oil Chokepoint][government_eia_2025_hormuz]
+- [Government, Energy Information Administration 2026, China, the United States and Japan Hold Most Strategic Oil Inventories][government_eia_2026_strategic_stocks]
+- [Government, European Commission 2019, EU-China, A Strategic Outlook][government_eu_2019_china_strategic_outlook]
+- [Government, Council of the European Union 2022, A Strategic Compass for Security and Defence][government_eu_2022_strategic_compass]
+- [Government, Department of State 1953, Foreign Relations of the United States 1952 to 1954 volume 14 part 2 document 684][government_frus_1952_japan_dollar_earnings]
+- [Government, Department of State 1953, Foreign Relations of the United States 1952 to 1954 volume 14 part 2 document 646][government_frus_1952_japan_procurement]
+- [Government, International Monetary Fund 2026, People's Republic of China 2025 Article IV Consultation][government_imf_2026_china_article_iv]
 - [Government, Government of Japan 2022, National Security Strategy of Japan][government_japan_2022_nss]
 - [Government, Government of Japan 2025, The Status Report of Plutonium Management in Japan 2024][government_japan_2025_plutonium]
 - [Government, Ministry of Defense of Japan 2025, Overview of the FY2026 Defense Budget][government_japan_2026_defense_budget]
+- [Government, President of Russia 2022, Joint Statement of the Russian Federation and the People's Republic of China][government_kremlin_2022_joint_statement]
 - [Government, Lloyd's Market Association 2026, Joint War Committee Listed Areas][government_lma_2026_jwc_listed_areas]
 - [Government, National Intelligence Council 2021, Global Trends 2040, A More Contested World][government_nic_2021_global_trends]
+- [Government, United States 1979, Taiwan Relations Act, Public Law 96-8][government_us_1979_taiwan_relations_act]
+- [Government, United States 2022, CHIPS and Science Act, Public Law 117-167][government_us_2022_chips_act]
+- [Government, United States 2023, The Spirit of Camp David, Joint Statement of Japan, the Republic of Korea and the United States][government_us_2023_camp_david]
+- [Government, United States 2023, Washington Declaration][government_us_2023_washington_declaration]
+- [Government, United States 2024, The Wilmington Declaration][government_us_2024_wilmington_declaration]
+- [Government, United States 2025, Public Law 119-21, Section 70308][government_us_2025_pl_119_21]
 - [Journal, Anders, Fariss and Markowitz 2020, Bread Before Guns or Butter, International Studies Quarterly 64 number 2][journal_anders_2020_surplus_domestic_product]
 - [Journal, Anderson and Press 2025, Access Denied, International Security 50 number 1][journal_anderson_press_2025_access_denied]
 - [Journal, Arslanalp, Eichengreen and Simpson-Bell 2022, The Stealth Erosion of Dollar Dominance, Journal of International Economics 138][journal_arslanalp_2022_stealth_erosion]
+- [Journal, Beckley 2010, Economic Development and Military Effectiveness, Journal of Strategic Studies 33 number 1][journal_beckley_2010_economic_development]
+- [Journal, Beckley 2012, China's Century, International Security 36 number 3][journal_beckley_2012_chinas_century]
 - [Journal, Beckley 2015, The Myth of Entangling Alliances, International Security 39 number 4][journal_beckley_2015_entangling_alliances]
 - [Journal, Beckley 2018, The Power of Nations, International Security 43 number 2][journal_beckley_2018_power_of_nations]
 - [Journal, Bell and Miller 2015, Questioning the Effect of Nuclear Weapons on Conflict, Journal of Conflict Resolution 59 number 1][journal_bell_miller_2015_questioning]
 - [Journal, Bianchi and Sosa-Padilla 2025, International Sanctions and Dollar Dominance, The Economic Journal 135 number 672][journal_bianchi_sosa_padilla_2025_sanctions_dollar]
 - [Journal, Bleek and Lorber 2014, Security Guarantees and Allied Nuclear Proliferation, Journal of Conflict Resolution 58 number 3][journal_bleek_lorber_2014_security_guarantees]
+- [Journal, Bolt and van Zanden 2024, Maddison-Style Estimates of the Evolution of the World Economy, Journal of Economic Surveys 39 number 2][journal_bolt_vanzanden_2024_maddison]
+- [Journal, Boughton 2001, Northwest of Suez, IMF Staff Papers 48 number 3][journal_boughton_2001_northwest_of_suez]
+- [Journal, Boz and others 2022, Patterns of Invoicing Currency in Global Trade, Journal of International Economics 136][journal_boz_2022_invoicing_patterns]
 - [Journal, Brooks and Wohlforth 2016, The Rise and Fall of the Great Powers in the Twenty-first Century, International Security 40 number 3][journal_brooks_wohlforth_2016_rise_and_fall]
+- [Journal, Burrows 2026, Would a China War Scenario Break the Insiders' Hold, Texas National Security Review 9 number 1][journal_burrows_2026_china_war_scenario]
+- [Journal, Cancian 2025, States of Denial, Survival 67 number 2][journal_cancian_2025_states_of_denial]
 - [Journal, Carroll and Kenkel 2019, Prediction, Proxies, and Power, American Journal of Political Science 63 number 3][journal_carroll_kenkel_2019_prediction_proxies]
 - [Journal, Caverley 2025, So What, Texas National Security Review 8 number 3][journal_caverley_2025]
+- [Journal, Cederman, Warren and Sornette 2011, Testing Clausewitz, International Organization 65 number 4][journal_cederman_2011_testing_clausewitz]
 - [Journal, Chadefaux 2011, Bargaining Over Power, International Theory 3 number 2][journal_chadefaux_2011_bargaining]
 - [Journal, Chang, Chen, Mellers and Tetlock 2016, Developing Expert Political Judgment, Judgment and Decision Making 11 number 5][journal_chang_2016_developing_expert_judgment]
 - [Journal, Chitu, Eichengreen and Mehl 2014, When Did the Dollar Overtake Sterling as the Leading International Currency, Journal of Development Economics 111][journal_chitu_2014_bond_markets]
+- [Journal, Christensen and Snyder 1990, Chain Gangs and Passed Bucks, International Organization 44 number 2][journal_christensen_snyder_1990_chain_gangs]
 - [Journal, Cirillo and Taleb 2016, On the Statistical Properties and Tail Risk of Violent Conflicts, Physica A 452][journal_cirillo_taleb_2016_tail_risk]
 - [Journal, Clauset 2018, Trends and Fluctuations in the Severity of Interstate Wars, Science Advances 4 number 2][journal_clauset_2018_trends_fluctuations]
+- [Journal, Collins 2018, A Maritime Oil Blockade Against China, Naval War College Review 71 number 2][journal_collins_2018_maritime_oil_blockade]
+- [Journal, Cooley and Nexon 2013, The Empire Will Compensate You, Perspectives on Politics 11 number 4][journal_cooley_nexon_2013_empire_compensate]
+- [Journal, Cunningham and Ven Bruusgaard 2026, Escalate to Survive, International Security 50 number 4][journal_cunningham_2026_escalate_to_survive]
+- [Journal, Davis and Gholz 2026, Blockade by Fire, International Security 50 number 4][journal_davis_gholz_2026_blockade_by_fire]
 - [Journal, Davis and Weinstein 2002, Bones, Bombs, and Break Points, American Economic Review 92 number 5][journal_davis_weinstein_2002_bones_bombs]
 - [Journal, DiCicco and Levy 1999, Power Shifts and Problem Shifts, Journal of Conflict Resolution 43 number 6][journal_dicicco_levy_1999_power_shifts]
+- [Journal, Doran 1989, Systemic Disequilibrium, Foreign Policy Role, and the Power Cycle, Journal of Conflict Resolution 33 number 3][journal_doran_1989_systemic_disequilibrium]
 - [Journal, Doran and Parsons 1980, War and the Cycle of Relative Power, American Political Science Review 74 number 4][journal_doran_parsons_1980_war_cycle]
+- [Journal, Eichengreen, Chitu and Mehl 2015, Stability or Upheaval, IMF Economic Review 64 number 2][journal_eichengreen_2015_stability_or_upheaval]
+- [Journal, Eichengreen, Mehl and Chitu 2019, Mars or Mercury, Economic Policy 34 number 98][journal_eichengreen_2019_mars_or_mercury]
+- [Journal, Eichengreen and Flandreau 2009, The Rise and Fall of the Dollar, European Review of Economic History 13 number 3][journal_eichengreen_flandreau_2009_rise_and_fall]
+- [Journal, Evangelista 2024, A Nuclear Umbrella for Ukraine, International Security 48 number 3][journal_evangelista_2024_nuclear_umbrella]
 - [Journal, Farrell and Newman 2019, Weaponized Interdependence, International Security 44 number 1][journal_farrell_newman_2019_weaponized]
 - [Journal, Fearon 1995, Rationalist Explanations for War, International Organization 49 number 3][journal_fearon_1995_rationalist]
+- [Journal, Fitzpatrick 2025, A Farewell to the Thucydides Trap, German History 43 number 2][journal_fitzpatrick_2025_farewell]
 - [Journal, Fuhrmann and Tkach 2015, Almost Nuclear, Conflict Management and Peace Science 32 number 4][journal_fuhrmann_tkach_2015_nuclear_latency]
+- [Journal, Gaddis 1986, The Long Peace, International Security 10 number 4][journal_gaddis_1986_long_peace]
 - [Journal, Gavin 2010, Same As It Ever Was, International Security 34 number 3][journal_gavin_2010_same_as_it_ever_was]
 - [Journal, Gerzhoy 2015, Alliance Coercion and Nuclear Restraint, International Security 39 number 4][journal_gerzhoy_2015_alliance_coercion]
 - [Journal, Gilpin 1988, The Theory of Hegemonic War, Journal of Interdisciplinary History 18 number 4][journal_gilpin_1988_hegemonic_war]
+- [Journal, Gopinath and others 2020, Dominant Currency Paradigm, American Economic Review 110 number 3][journal_gopinath_2020_dominant_currency_paradigm]
 - [Journal, Gopinath and Stein 2021, Banking, Trade, and the Making of a Dominant Currency, Quarterly Journal of Economics 136 number 2][journal_gopinath_stein_2021_dominant_currency]
 - [Journal, Green and Talmadge 2022, Then What, International Security 47 number 1][journal_green_talmadge_2022]
+- [Journal, Greitens and Kardon 2025, Security without Exclusivity, International Security 49 number 3][journal_greitens_kardon_2025_security_without_exclusivity]
+- [Journal, Grieco 1988, Anarchy and the Limits of Cooperation, International Organization 42 number 3][journal_grieco_1988_anarchy_limits]
+- [Journal, Grieco, Powell and Snidal 1993, The Relative-Gains Problem for International Cooperation, American Political Science Review 87 number 3][journal_grieco_powell_snidal_1993_relative_gains]
+- [Journal, Hall and Sargent 2011, Interest Rate Risk and Other Determinants of Post-War United States Government Debt, American Economic Journal Macroeconomics 3 number 3][journal_hall_sargent_2011_interest_rate_risk]
 - [Journal, Henry 2020, What Allies Want, International Security 44 number 4][journal_henry_2020_what_allies_want]
+- [Journal, Ikenberry 1999, Institutions, Strategic Restraint, and the Persistence of American Postwar Order, International Security 23 number 3][journal_ikenberry_1999_institutions_restraint]
+- [Journal, Ikenberry 2018, The End of Liberal International Order, International Affairs 94 number 1][journal_ikenberry_2018_end_of_liberal_order]
 - [Journal, Ikenberry 2024, Three Worlds, International Affairs 100 number 1][journal_ikenberry_2024_three_worlds]
+- [Journal, Ikenberry and Nexon 2019, Hegemony Studies 3.0, Security Studies 28 number 3][journal_ikenberry_nexon_2019_hegemony_studies]
+- [Journal, Ilzetzki, Reinhart and Rogoff 2020, Why Is the Euro Punching Below Its Weight, Economic Policy 35 number 103][journal_ilzetzki_2020_euro_punching]
+- [Journal, Kadera and Sorokin 2004, Measuring National Power, International Interactions 30 number 3][journal_kadera_sorokin_2004_measuring_national_power]
+- [Journal, Kang and Ma 2018, Power Transitions, The Washington Quarterly 41 number 1][journal_kang_ma_2018_power_transitions]
+- [Journal, Kitchen and Cox 2019, Power, Structural Power, and American Decline, Cambridge Review of International Affairs 32 number 6][journal_kitchen_cox_2019_structural_power]
+- [Journal, Kugler and Arbetman 1989, Exploring the Phoenix Factor with the Collective Goods Perspective, Journal of Conflict Resolution 33 number 1][journal_kugler_arbetman_1989_phoenix]
+- [Journal, Kuik 2008, The Essence of Hedging, Contemporary Southeast Asia 30 number 2][journal_kuik_2008_essence_of_hedging]
+- [Journal, Lake 2007, Escape from the State of Nature, International Security 32 number 1][journal_lake_2007_escape_state_of_nature]
+- [Journal, Lanteigne 2008, China's Maritime Security and the Malacca Dilemma, Asian Security 4 number 2][journal_lanteigne_2008_malacca_dilemma]
 - [Journal, Levy 1987, Declining Power and the Preventive Motivation for War, World Politics 40 number 1][journal_levy_1987_declining_power]
+- [Journal, Lim and Cooper 2015, Reassessing Hedging, Security Studies 24 number 4][journal_lim_cooper_2015_reassessing_hedging]
+- [Journal, Lim and Ikenberry 2023, China and the Logic of Illiberal Hegemony, Security Studies 32 number 1][journal_lim_ikenberry_2023_illiberal_hegemony]
 - [Journal, Lind 2024, Back to Bipolarity, International Security 49 number 2][journal_lind_2024_back_to_bipolarity]
+- [Journal, Markowitz and Fariss 2013, Going the Distance, International Interactions 39 number 2][journal_markowitz_fariss_2013_going_the_distance]
+- [Journal, McKinney and Harris 2021, Broken Nest, Parameters 51 number 4][journal_mckinney_harris_2021_broken_nest]
 - [Journal, Mearsheimer 2019, Bound to Fail, International Security 43 number 4][journal_mearsheimer_2019_bound_to_fail]
+- [Journal, Mehta and Whitlark 2017, The Benefits and Burdens of Nuclear Latency, International Studies Quarterly 61 number 3][journal_mehta_whitlark_2017_latency]
 - [Journal, Menon 2026, A New World Order, Texas National Security Review 9 number 1][journal_menon_2026_new_world_order]
+- [Journal, Mirski 2013, Stranglehold, Journal of Strategic Studies 36 number 3][journal_mirski_2013_stranglehold]
 - [Journal, Monteiro and Debs 2014, The Strategic Logic of Nuclear Proliferation, International Security 39 number 2][journal_monteiro_debs_2014_strategic_logic]
+- [Journal, Morley 2026, Thucydiocies, Public Humanities 2][journal_morley_2026_thucydiocies]
+- [Journal, Mueller 1988, The Essential Irrelevance of Nuclear Weapons, International Security 13 number 2][journal_mueller_1988_essential_irrelevance]
+- [Journal, Narang 2017, Strategies of Nuclear Proliferation, International Security 41 number 3][journal_narang_2017_strategies_of_proliferation]
 - [Journal, Nemeth 2026, How a United States Suez Moment Could Hollow the Alliance System, Texas National Security Review 9 number 1][journal_nemeth_2026_suez_moment]
+- [Journal, Ohanian 1997, The Macroeconomic Effects of War Finance in the United States, American Economic Review 87 number 1][journal_ohanian_1997_macroeconomic_effects_war_finance]
 - [Journal, Organski and Kugler 1977, The Costs of Major Wars, The Phoenix Factor, American Political Science Review 71 number 4][journal_organski_kugler_1977_phoenix]
+- [Journal, Platias and Trigkas 2021, Unravelling the Thucydides Trap, The Chinese Journal of International Politics 14 number 2][journal_platias_trigkas_2021_unravelling]
+- [Journal, Posen 2003, Command of the Commons, International Security 28 number 1][journal_posen_2003_command_of_the_commons]
+- [Journal, Powell 1991, Absolute and Relative Gains in International Relations Theory, American Political Science Review 85 number 4][journal_powell_1991_absolute_relative_gains]
 - [Journal, Powell 2006, War as a Commitment Problem, International Organization 60 number 1][journal_powell_2006_commitment_problem]
+- [Journal, Priebe and others 2024, Competing Visions of Restraint, International Security 49 number 2][journal_priebe_2024_competing_visions]
 - [Journal, Rauchhaus 2009, Evaluating the Nuclear Peace Hypothesis, Journal of Conflict Resolution 53 number 2][journal_rauchhaus_2009_nuclear_peace]
+- [Journal, Sagan 1997, Why Do States Build Nuclear Weapons, International Security 21 number 3][journal_sagan_1997_why_states_build]
+- [Journal, Schroeder 1992, Did the Vienna Settlement Rest on a Balance of Power, The American Historical Review 97 number 3][journal_schroeder_1992_vienna_settlement]
 - [Journal, Sechser and Fuhrmann 2013, Crisis Bargaining and Nuclear Blackmail, International Organization 67 number 1][journal_sechser_fuhrmann_2013_nuclear_blackmail]
+- [Journal, Snidal 1991, Relative Gains and the Pattern of International Cooperation, American Political Science Review 85 number 3][journal_snidal_1991_relative_gains]
 - [Journal, Snyder 1984, The Security Dilemma in Alliance Politics, World Politics 36 number 4][journal_snyder_1984_security_dilemma]
+- [Journal, Tomz and Weeks 2021, Military Alliances and Public Support for War, International Studies Quarterly 65 number 3][journal_tomz_weeks_2021_military_alliances]
+- [Journal, Trachtenberg 2025, The Rules-Based International Order, International Security 50 number 2][journal_trachtenberg_2025_rules_based_order]
 - [Journal, Verschuur, Lumma and Hall 2025, Systemic Impacts of Disruptions at Maritime Chokepoints, Nature Communications 16][journal_verschuur_2025_chokepoints]
 - [Journal, Von Hippel 2019, Mitigating the Threat of Nuclear-Weapon Proliferation via Nuclear-Submarine Programs, Journal for Peace and Nuclear Disarmament 2 number 1][journal_von_hippel_2019_naval_propulsion]
 - [Journal, Walt 2025, Hedging on Hegemony, International Security 49 number 4][journal_walt_2025_hedging_hegemony]
+- [Journal, Welch 2003, Why International Relations Theorists Should Stop Reading Thucydides, Review of International Studies 29 number 3][journal_welch_2003_stop_reading_thucydides]
+- [Reference, Tammen, Kugler and Lemke 2017, Foundations of Power Transition Theory, Oxford Research Encyclopedia of Politics][reference_tammen_2017_foundations]
 - [Related Post, What Published Wargames Say About a War With China][related_post_published_wargames]
 - [Related Post, What Rebuilding Would Take After a War With China][related_post_rebuilding]
+- [Research, Albright and Stricker 2018, Taiwan's Former Nuclear Weapons Program][research_albright_2018_taiwan_nuclear_program]
 - [Research, Atlantic Council 2025, Welcome to 2035][research_atlantic_council_2025_welcome_2035]
 - [Research, Atlantic Council 2026, Welcome to 2036][research_atlantic_council_2026_welcome_2036]
+- [Research, Bianchi and Sosa-Padilla 2023, International Sanctions and Dollar Dominance, NBER Working Paper 31024][research_bianchi_2023_sanctions_dollar]
 - [Research, Cancian, Cancian and Heginbotham 2023, The First Battle of the Next War][research_cancian_2023_first_battle]
+- [Research, Crawford 2021, The United States Budgetary Costs of the Post-9/11 Wars][research_crawford_2021_budgetary_costs]
 - [Research, Dooley, Folkerts-Landau and Garber 2022, US Sanctions Reinforce the Dollar's Dominance][research_dooley_2022_sanctions_reinforce]
 - [Research, European Council on Foreign Relations 2023, Living in an a la Carte World][research_ecfr_2023_a_la_carte]
+- [Research, Edwards 2010, United States War Costs, Two Parts Temporary, One Part Permanent, NBER Working Paper 16108][research_edwards_2010_war_costs]
+- [Research, Eichengreen 2005, Sterling's Past, Dollar's Future, NBER Working Paper 11336][research_eichengreen_2005_sterlings_past]
 - [Research, Evans 2023, Alternative Futures Following a Great Power War, Volume 2][research_evans_2023_alternative_futures_v2]
+- [Research, Fariss and others 2017, Latent Estimation of GDP, GDP per capita, and Population][research_fariss_2017_latent_estimation]
 - [Research, Goes and Bekkers 2022, The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation][research_goes_bekkers_2022_geopolitical_conflicts]
 - [Research, Gompert, Cevallos and Garafola 2016, War with China, Thinking Through the Unthinkable][research_gompert_2016_war_with_china]
+- [Research, Hall and Sargent 2020, Debt and Taxes in Eight United States Wars and Two Insurrections, NBER Working Paper 27115][research_hall_sargent_2020_debt_and_taxes]
+- [Research, Harrison 1998, The Economics of World War II, An Overview][research_harrison_1998_economics_of_wwii]
+- [Research, Hohn 2014, Geopolitics and the Measurement of National Power][research_hohn_2014_geopolitics_measurement]
+- [Research, Jiang and others 2026, Dollar Erosion, NBER Working Paper 35328][research_jiang_2026_dollar_erosion]
 - [Research, Kwende and Nephew 2025, Improving the Analytical Usefulness of the IMF's COFER Data][research_kwende_nephew_2025_cofer]
 - [Research, Nordhaus 2002, The Economic Consequences of a War with Iraq][research_nordhaus_2002_iraq_cost]
+- [Research, National Security Archive 2019, Taiwan's Quest for the Bomb][research_nsarchive_2019_taiwans_bomb]
 - [Research, Priebe and others 2023, Alternative Futures Following a Great Power War, Volume 1][research_priebe_2023_alternative_futures_v1]
 - [Research, Priebe and Frederick 2023, Alternative Futures Following a Great Power War, In Conversation][research_priebe_frederick_2023_conversation]
+- [Research, Reinhart and Sbrancia 2011, The Liquidation of Government Debt, NBER Working Paper 16893][research_reinhart_sbrancia_2011_liquidation]
 - [Research, Rhodium Group 2022, The Global Economic Disruptions from a Taiwan Conflict][research_rhodium_2022_taiwan_disruptions]
+- [Research, Rockoff 2004, Until It's Over, Over There, NBER Working Paper 10580][research_rockoff_2004_until_its_over]
 - [Research, Tarapore 2024, Deterring an Attack on Taiwan, Policy Options for India and Other Non-Belligerent States][research_tarapore_2024_deterring_attack]
+- [Research, Tellis and others 2000, Measuring National Power in the Postindustrial Age][research_tellis_2000_measuring_national_power]
 - [Research, Vest and Kratz 2023, Sanctioning China in a Taiwan Crisis][research_vest_kratz_2023_sanctioning_china]
+- [Research, Weiss 2022, Geopolitics and the United States Dollar's Future as a Reserve Currency][research_weiss_2022_geopolitics_dollar]
 - [Research, Weiss 2025, De-Dollarization, Diversification, Exploring Central Bank Gold Purchases][research_weiss_2025_dedollarization]
 
 [book_cooley_nexon_2020_exit_from_hegemony]: https://doi.org/10.1093/oso/9780190916473.001.0001
+[book_copeland_2018_origins_of_major_war]: https://doi.org/10.7591/9780801467059
 [book_gilpin_1981_war_and_change]: https://doi.org/10.1017/cbo9780511664267
+[book_henry_2022_reliability]: https://doi.org/10.1515/9781501763052
+[book_hymans_2006_psychology_of_proliferation]: https://doi.org/10.1017/CBO9780511491412
 [book_ikenberry_2019_after_victory]: https://doi.org/10.23943/princeton/9780691169217.001.0001
+[book_kennedy_1987_rise_and_fall]: https://archive.org/details/the-rise-and-fall-of-the-great-powers-economic-change-and-military-conflict-from-1500-to-2000
+[book_lake_2017_hierarchy]: https://doi.org/10.7591/9780801458934
+[book_lanoszka_2018_atomic_assurance]: https://doi.org/10.7591/cornell/9781501729188.001.0001
+[book_lemke_2002_regions_of_war_and_peace]: https://doi.org/10.1017/cbo9780511491511
+[book_mcdowell_2023_bucking_the_buck]: https://doi.org/10.1093/oso/9780197679876.001.0001
+[book_organski_kugler_1980_war_ledger]: https://doi.org/10.7208/chicago/9780226351841.001.0001
+[book_prasad_2015_dollar_trap]: https://doi.org/10.1515/9781400873647
+[book_rockoff_2012_americas_economic_way_of_war]: https://doi.org/10.1017/cbo9781139046534
 [book_singer_1972_capability_distribution]: https://doi.org/10.4324/9780203128398-28
 [book_tetlock_2005_expert_political_judgment]: https://doi.org/10.1515/9781400888818
 [commentary_act_2026_npt_revcon]: https://www.armscontrol.org/act/2026-06/news/2026-npt-review-conference-stymied-disputes
+[commentary_allison_2015_thucydides_trap]: https://www.belfercenter.org/publication/thucydides-trap-are-us-and-china-headed-war
 [commentary_nikkei_2022_taiwan_emergency]: https://asia.nikkei.com/static/vdata/infographics/2-dot-6tn-dollars-could-evaporate-from-global-economy-in-taiwan-emergency/
 [data_bis_2025_triennial]: https://www.bis.org/statistics/rpfx25_fx.htm
+[data_bis_total_credit]: https://data.bis.org/topics/TOTAL_CREDIT
 [data_cbo_2026_projections]: https://www.cbo.gov/publication/51118
 [data_chicago_council_2022_south_korea]: https://globalaffairs.org/research/public-opinion-survey/thinking-nuclear-south-korean-attitudes-nuclear-weapons
 [data_cow_interstate_war_v4]: https://correlatesofwar.org/data-sets/cow-war/
 [data_cow_interstate_wars_codebook]: https://correlatesofwar.org/wp-content/uploads/Inter-StateWars_Codebook.pdf
 [data_cow_nmc_v7]: https://correlatesofwar.org/data-sets/national-material-capabilities/
 [data_imf_cofer]: https://data.imf.org/en/datasets/IMF.STA:COFER
+[data_imf_portwatch]: https://portwatch.imf.org/
 [data_iseas_2026_state_of_southeast_asia]: https://www.iseas.edu.sg/wp-content/uploads/2026/03/The-State-of-Southeast-Asia-2026-Survey-Final-Single.pdf
 [data_kinu_2023_unification_survey]: https://repo.kinu.or.kr/handle/2015.oak/14362
 [data_lowy_2025_asia_power_index]: https://power.lowyinstitute.org/
+[data_maddison_project_2023]: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023
 [data_sipri_2026_milex]: https://doi.org/10.55163/ZLHQ1057
+[data_sipri_milex_database]: https://www.sipri.org/databases/milex
+[data_taiwan_moea_energy]: https://ea01.moeaea.gov.tw/a0303/02/en/publication/handbook/
+[data_treasury_debt_to_the_penny]: https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny
 [data_treasury_tic_2026]: https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html
+[data_unctad_seaborne_trade]: https://unctadstat.unctad.org/datacentre/dataviewer/US.SeaborneTrade
+[data_world_bank_wdi]: https://datatopics.worldbank.org/world-development-indicators/
+[government_bis_2022_export_controls]: https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf
+[government_brics_2023_johannesburg]: http://www.brics.utoronto.ca/docs/230823-declaration.html
+[government_brics_2025_rio]: http://www.brics.utoronto.ca/docs/250706-declaration.html
+[government_crs_2025_national_defense_strategy]: https://www.everycrsreport.com/reports/IF13137.html
 [government_crs_2026_extended_deterrence]: https://www.everycrsreport.com/reports/IF12735.html
+[government_crs_2026_japan_defense]: https://www.everycrsreport.com/reports/IN12708.html
+[government_crs_2026_nato_summit]: https://www.everycrsreport.com/reports/R49018.html
+[government_crs_2026_philippines]: https://www.everycrsreport.com/reports/R47055.html
+[government_crs_costs_of_major_wars]: https://www.everycrsreport.com/reports/RS22926.html
+[government_dod_2025_china_report]: https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF
+[government_dod_2025_ncg_fact_sheet]: https://media.defense.gov/2025/Jan/10/2003626634/-1/-1/1/THE-UNITED-STATES-OF-AMERICA-REPUBLIC-OF-KOREA-NUCLEAR-CONSULTATIVE-GROUP-FACT-SHEET.PDF
+[government_eia_2025_hormuz]: https://www.eia.gov/todayinenergy/detail.php?id=65504
+[government_eia_2026_strategic_stocks]: https://www.eia.gov/todayinenergy/detail.php?id=67504
+[government_eu_2019_china_strategic_outlook]: https://commission.europa.eu/system/files/2019-03/communication-eu-china-a-strategic-outlook.pdf
+[government_eu_2022_strategic_compass]: https://data.consilium.europa.eu/doc/document/ST-7371-2022-INIT/en/pdf
+[government_frus_1952_japan_dollar_earnings]: https://history.state.gov/historicaldocuments/frus1952-54v14p2/d684
+[government_frus_1952_japan_procurement]: https://history.state.gov/historicaldocuments/frus1952-54v14p2/d646
+[government_imf_2026_china_article_iv]: https://doi.org/10.5089/9798229038911.002.A001
 [government_japan_2022_nss]: https://www.cas.go.jp/jp/siryou/221216anzenhoshou/nss-e.pdf
 [government_japan_2025_plutonium]: https://www.aec.go.jp/bunya/04/plutonium/20250805_e.pdf
 [government_japan_2026_defense_budget]: https://www.mod.go.jp/en/d_act/d_budget/pdf/fy2026_20251226a.pdf
+[government_kremlin_2022_joint_statement]: http://en.kremlin.ru/supplement/5770
 [government_lma_2026_jwc_listed_areas]: https://lmalloyds.com/specialist-areas/underwriting/listed-areas/
 [government_nic_2021_global_trends]: https://www.dni.gov/index.php/gt2040-home
+[government_us_1979_taiwan_relations_act]: https://www.govinfo.gov/content/pkg/STATUTE-93/pdf/STATUTE-93-Pg14.pdf
+[government_us_2022_chips_act]: https://www.govinfo.gov/content/pkg/PLAW-117publ167/html/PLAW-117publ167.htm
+[government_us_2023_camp_david]: https://kr.usembassy.gov/081923-the-spirit-of-camp-david-joint-statement-of-japan-the-republic-of-korea-and-the-united-states/
+[government_us_2023_washington_declaration]: https://kr.usembassy.gov/042723-washington-declaration/
+[government_us_2024_wilmington_declaration]: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/09/21/the-wilmington-declaration-joint-statement-from-the-leaders-of-australia-india-japan-and-the-united-states/
+[government_us_2025_pl_119_21]: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
 [journal_anders_2020_surplus_domestic_product]: https://doi.org/10.1093/isq/sqaa013
 [journal_anderson_press_2025_access_denied]: https://doi.org/10.1162/isec.a.7
 [journal_arslanalp_2022_stealth_erosion]: https://doi.org/10.1016/j.jinteco.2022.103656
+[journal_beckley_2010_economic_development]: https://doi.org/10.1080/01402391003603581
+[journal_beckley_2012_chinas_century]: https://doi.org/10.1162/isec_a_00066
 [journal_beckley_2015_entangling_alliances]: https://doi.org/10.1162/isec_a_00197
 [journal_beckley_2018_power_of_nations]: https://doi.org/10.1162/isec_a_00328
 [journal_bell_miller_2015_questioning]: https://doi.org/10.1177/0022002713499718
 [journal_bianchi_sosa_padilla_2025_sanctions_dollar]: https://doi.org/10.1093/ej/ueaf052
 [journal_bleek_lorber_2014_security_guarantees]: https://doi.org/10.1177/0022002713509050
+[journal_bolt_vanzanden_2024_maddison]: https://doi.org/10.1111/joes.12618
+[journal_boughton_2001_northwest_of_suez]: https://doi.org/10.2307/4621678
+[journal_boz_2022_invoicing_patterns]: https://doi.org/10.1016/j.jinteco.2022.103604
 [journal_brooks_wohlforth_2016_rise_and_fall]: https://doi.org/10.1162/ISEC_a_00225
+[journal_burrows_2026_china_war_scenario]: https://doi.org/10.1353/tns.00028
+[journal_cancian_2025_states_of_denial]: https://doi.org/10.1080/00396338.2025.2481778
 [journal_carroll_kenkel_2019_prediction_proxies]: https://doi.org/10.1111/ajps.12442
 [journal_caverley_2025]: https://doi.org/10.1353/tns.00004
+[journal_cederman_2011_testing_clausewitz]: https://doi.org/10.1017/s0020818311000245
 [journal_chadefaux_2011_bargaining]: https://doi.org/10.1017/s175297191100008x
 [journal_chang_2016_developing_expert_judgment]: https://doi.org/10.1017/s1930297500004599
 [journal_chitu_2014_bond_markets]: https://doi.org/10.1016/j.jdeveco.2013.09.008
+[journal_christensen_snyder_1990_chain_gangs]: https://doi.org/10.1017/S0020818300035232
 [journal_cirillo_taleb_2016_tail_risk]: https://doi.org/10.1016/j.physa.2016.01.050
 [journal_clauset_2018_trends_fluctuations]: https://doi.org/10.1126/sciadv.aao3580
+[journal_collins_2018_maritime_oil_blockade]: https://digital-commons.usnwc.edu/nwc-review/vol71/iss2/6/
+[journal_cooley_nexon_2013_empire_compensate]: https://doi.org/10.1017/S1537592713002818
+[journal_cunningham_2026_escalate_to_survive]: https://doi.org/10.1162/isec.a.405
+[journal_davis_gholz_2026_blockade_by_fire]: https://doi.org/10.1162/isec.a.407
 [journal_davis_weinstein_2002_bones_bombs]: https://doi.org/10.1257/000282802762024502
 [journal_dicicco_levy_1999_power_shifts]: https://doi.org/10.1177/0022002799043006001
+[journal_doran_1989_systemic_disequilibrium]: https://doi.org/10.1177/0022002789033003001
 [journal_doran_parsons_1980_war_cycle]: https://doi.org/10.2307/1954315
+[journal_eichengreen_2015_stability_or_upheaval]: https://doi.org/10.1057/imfer.2015.19
+[journal_eichengreen_2019_mars_or_mercury]: https://doi.org/10.1093/epolic/eiz005
+[journal_eichengreen_flandreau_2009_rise_and_fall]: https://doi.org/10.1017/s1361491609990153
+[journal_evangelista_2024_nuclear_umbrella]: https://doi.org/10.1162/isec_a_00476
 [journal_farrell_newman_2019_weaponized]: https://doi.org/10.1162/isec_a_00351
 [journal_fearon_1995_rationalist]: https://doi.org/10.1017/s0020818300033324
+[journal_fitzpatrick_2025_farewell]: https://doi.org/10.1093/gerhis/ghaf028
 [journal_fuhrmann_tkach_2015_nuclear_latency]: https://doi.org/10.1177/0738894214559672
+[journal_gaddis_1986_long_peace]: https://doi.org/10.2307/2538951
 [journal_gavin_2010_same_as_it_ever_was]: https://doi.org/10.1162/isec.2010.34.3.7
 [journal_gerzhoy_2015_alliance_coercion]: https://doi.org/10.1162/isec_a_00198
 [journal_gilpin_1988_hegemonic_war]: https://doi.org/10.2307/204816
+[journal_gopinath_2020_dominant_currency_paradigm]: https://doi.org/10.1257/aer.20171201
 [journal_gopinath_stein_2021_dominant_currency]: https://doi.org/10.1093/qje/qjaa036
 [journal_green_talmadge_2022]: https://doi.org/10.1162/isec_a_00437
+[journal_greitens_kardon_2025_security_without_exclusivity]: https://doi.org/10.1162/isec_a_00504
+[journal_grieco_1988_anarchy_limits]: https://doi.org/10.1017/S0020818300027715
+[journal_grieco_powell_snidal_1993_relative_gains]: https://doi.org/10.2307/2938747
+[journal_hall_sargent_2011_interest_rate_risk]: https://doi.org/10.1257/mac.3.3.192
 [journal_henry_2020_what_allies_want]: https://doi.org/10.1162/isec_a_00375
+[journal_ikenberry_1999_institutions_restraint]: https://doi.org/10.1162/isec.23.3.43
+[journal_ikenberry_2018_end_of_liberal_order]: https://doi.org/10.1093/ia/iix241
 [journal_ikenberry_2024_three_worlds]: https://doi.org/10.1093/ia/iiad284
+[journal_ikenberry_nexon_2019_hegemony_studies]: https://doi.org/10.1080/09636412.2019.1604981
+[journal_ilzetzki_2020_euro_punching]: https://doi.org/10.1093/epolic/eiaa018
+[journal_kadera_sorokin_2004_measuring_national_power]: https://doi.org/10.1080/03050620490492097
+[journal_kang_ma_2018_power_transitions]: https://doi.org/10.1080/0163660X.2018.1445905
+[journal_kitchen_cox_2019_structural_power]: https://doi.org/10.1080/09557571.2019.1606158
+[journal_kugler_arbetman_1989_phoenix]: https://doi.org/10.1177/0022002789033001004
+[journal_kuik_2008_essence_of_hedging]: https://doi.org/10.1355/cs30-2a
+[journal_lake_2007_escape_state_of_nature]: https://doi.org/10.1162/isec.2007.32.1.47
+[journal_lanteigne_2008_malacca_dilemma]: https://doi.org/10.1080/14799850802006555
 [journal_levy_1987_declining_power]: https://doi.org/10.2307/2010195
+[journal_lim_cooper_2015_reassessing_hedging]: https://doi.org/10.1080/09636412.2015.1103130
+[journal_lim_ikenberry_2023_illiberal_hegemony]: https://doi.org/10.1080/09636412.2023.2178963
 [journal_lind_2024_back_to_bipolarity]: https://doi.org/10.1162/isec_a_00494
+[journal_markowitz_fariss_2013_going_the_distance]: https://doi.org/10.1080/03050629.2013.768458
+[journal_mckinney_harris_2021_broken_nest]: https://doi.org/10.55540/0031-1723.3089
 [journal_mearsheimer_2019_bound_to_fail]: https://doi.org/10.1162/isec_a_00342
+[journal_mehta_whitlark_2017_latency]: https://doi.org/10.1093/isq/sqx028
 [journal_menon_2026_new_world_order]: https://doi.org/10.1353/tns.00024
+[journal_mirski_2013_stranglehold]: https://doi.org/10.1080/01402390.2012.743885
 [journal_monteiro_debs_2014_strategic_logic]: https://doi.org/10.1162/isec_a_00177
+[journal_morley_2026_thucydiocies]: https://doi.org/10.1017/pub.2026.10147
+[journal_mueller_1988_essential_irrelevance]: https://doi.org/10.2307/2538971
+[journal_narang_2017_strategies_of_proliferation]: https://doi.org/10.1162/isec_a_00268
 [journal_nemeth_2026_suez_moment]: https://doi.org/10.1353/tns.00025
+[journal_ohanian_1997_macroeconomic_effects_war_finance]: https://ideas.repec.org/a/aea/aecrev/v87y1997i1p23-40.html
 [journal_organski_kugler_1977_phoenix]: https://doi.org/10.2307/1961484
+[journal_platias_trigkas_2021_unravelling]: https://doi.org/10.1093/cjip/poaa023
+[journal_posen_2003_command_of_the_commons]: https://doi.org/10.1162/016228803322427965
+[journal_powell_1991_absolute_relative_gains]: https://doi.org/10.2307/1963947
 [journal_powell_2006_commitment_problem]: https://doi.org/10.1017/s0020818306060061
+[journal_priebe_2024_competing_visions]: https://doi.org/10.1162/isec_a_00498
 [journal_rauchhaus_2009_nuclear_peace]: https://doi.org/10.1177/0022002708330387
+[journal_sagan_1997_why_states_build]: https://doi.org/10.1162/isec.21.3.54
+[journal_schroeder_1992_vienna_settlement]: https://doi.org/10.1086/ahr/97.3.683
 [journal_sechser_fuhrmann_2013_nuclear_blackmail]: https://doi.org/10.1017/s0020818312000392
+[journal_snidal_1991_relative_gains]: https://doi.org/10.2307/1963847
 [journal_snyder_1984_security_dilemma]: https://doi.org/10.2307/2010183
+[journal_tomz_weeks_2021_military_alliances]: https://doi.org/10.1093/isq/sqab015
+[journal_trachtenberg_2025_rules_based_order]: https://doi.org/10.1162/isec.a.11
 [journal_verschuur_2025_chokepoints]: https://doi.org/10.1038/s41467-025-65403-w
 [journal_von_hippel_2019_naval_propulsion]: https://doi.org/10.1080/25751654.2019.1625504
 [journal_walt_2025_hedging_hegemony]: https://doi.org/10.1162/isec_a_00508
+[journal_welch_2003_stop_reading_thucydides]: https://doi.org/10.1017/S0260210503003012
+[reference_tammen_2017_foundations]: https://doi.org/10.1093/acrefore/9780190228637.013.296
 [related_post_published_wargames]: {% post_url 2026-08-11-published_wargames_of_war_with_china %}
 [related_post_rebuilding]: {% post_url 2026-08-12-rebuilding_after_war_with_china %}
+[research_albright_2018_taiwan_nuclear_program]: https://isis-online.org/uploads/isis-reports/documents/TaiwansFormerNuclearWeaponsProgram_POD_color_withCover.pdf
 [research_atlantic_council_2025_welcome_2035]: https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/welcome-to-2035/
 [research_atlantic_council_2026_welcome_2036]: https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/welcome-to-2036/
+[research_bianchi_2023_sanctions_dollar]: https://doi.org/10.3386/w31024
 [research_cancian_2023_first_battle]: https://www.csis.org/analysis/first-battle-next-war-wargaming-chinese-invasion-taiwan
+[research_crawford_2021_budgetary_costs]: https://costsofwar.watson.brown.edu/sites/default/files/papers/Costs-of-War_US-Budgetary-Costs-of-Post-9-11-Wars.pdf
 [research_dooley_2022_sanctions_reinforce]: https://doi.org/10.3386/w29943
 [research_ecfr_2023_a_la_carte]: https://ecfr.eu/publication/living-in-an-a-la-carte-world-what-european-policymakers-should-learn-from-global-public-opinion/
+[research_edwards_2010_war_costs]: https://doi.org/10.3386/w16108
+[research_eichengreen_2005_sterlings_past]: https://doi.org/10.3386/w11336
 [research_evans_2023_alternative_futures_v2]: https://www.rand.org/pubs/research_reports/RRA591-2.html
+[research_fariss_2017_latent_estimation]: https://arxiv.org/abs/1706.01099
 [research_goes_bekkers_2022_geopolitical_conflicts]: https://www.wto.org/english/res_e/reser_e/ersd202209_e.pdf
 [research_gompert_2016_war_with_china]: https://doi.org/10.7249/RR1140
+[research_hall_sargent_2020_debt_and_taxes]: https://doi.org/10.3386/w27115
+[research_harrison_1998_economics_of_wwii]: https://warwick.ac.uk/fac/soc/economics/staff/mharrison/public/ww2overview1998.pdf
+[research_hohn_2014_geopolitics_measurement]: https://ediss.sub.uni-hamburg.de/handle/ediss/5238
+[research_jiang_2026_dollar_erosion]: https://doi.org/10.3386/w35328
 [research_kwende_nephew_2025_cofer]: https://doi.org/10.5089/9798229004855.005
 [research_nordhaus_2002_iraq_cost]: https://doi.org/10.3386/w9361
+[research_nsarchive_2019_taiwans_bomb]: https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2019-01-10/taiwans-bomb
 [research_priebe_2023_alternative_futures_v1]: https://www.rand.org/pubs/research_reports/RRA591-1.html
 [research_priebe_frederick_2023_conversation]: https://www.rand.org/pubs/commentary/2023/05/alternative-futures-following-a-great-power-war-miranda.html
+[research_reinhart_sbrancia_2011_liquidation]: https://doi.org/10.3386/w16893
 [research_rhodium_2022_taiwan_disruptions]: https://rhg.com/research/taiwan-economic-disruptions/
+[research_rockoff_2004_until_its_over]: https://doi.org/10.3386/w10580
 [research_tarapore_2024_deterring_attack]: https://www.aspi.org.au/report/deterring-attack-taiwan-policy-options-india-and-other-non-belligerent-states/
+[research_tellis_2000_measuring_national_power]: https://doi.org/10.7249/mr1110
 [research_vest_kratz_2023_sanctioning_china]: https://www.atlanticcouncil.org/in-depth-research-reports/report/sanctioning-china-in-a-taiwan-crisis-scenarios-and-risks/
+[research_weiss_2022_geopolitics_dollar]: https://doi.org/10.17016/IFDP.2022.1359
 [research_weiss_2025_dedollarization]: https://doi.org/10.17016/IFDP.2025.1420

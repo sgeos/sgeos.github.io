@@ -23,11 +23,26 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 article of the `war_with_china` series, categories `geopolitics military war-gaming`,
 series index 3.
 
-**3,201 lines, 80 display equations, 12 inline expressions, 86 reference definitions, roughly
-16,800 words of author prose after the equation-density pass**, up from 2,896 lines and 39
-equations after drafting.
-**DRAFTING AND EQUATION-DENSITY PASSES COMPLETE. NOT PUBLISHED.** Two of the four passes remain,
-namely primary references and publication review.
+**4,357 lines, 88 display equations, 202 reference definitions, roughly 22,400 words of author
+prose after the primary-reference pass**, up from 3,201 lines, 80 equations and 86 references
+after the equation pass, and from 2,896 lines and 39 equations after drafting.
+**THREE OF FOUR PASSES COMPLETE. NOT PUBLISHED.** Only the publication review remains.
+
+**The reference pass took the article from 86 to 202 references and raised the primary share.**
+Government documents went from 6 to 30 and datasets from 12 to 20, so primary sources are now
+25.0 percent of the external total against 10.5 percent in A375. Alliance commitments are quoted
+from the declarations themselves, the legislative figures from the public laws rather than the
+aggregates in circulation, Taiwanese energy dependence from the Taiwanese ministry, and the
+force-balance posture from the annual report that declines to print a total.
+
+**A 163-word stub became a section.** What the alternative instruments say had carried no
+citations at all while asserting that the instruments disagree; it now reports five of them with
+their own definitions and caveats, and carries the critique literature that says the index this
+article uses barely outperforms guessing.
+
+**The pass also linked what was already there.** Forty-five author mentions in the agreements,
+disagreements and epistemic roll-call were named in prose without links to references the article
+had already defined.
 
 **The equation pass roughly doubled the display count, from 39 to 80**, which puts the article
 above both companions at comparable length, A374 carrying 63 and A375 carrying 75. The additions
@@ -71,13 +86,15 @@ recorded United States urban population by 44 percent in a single year.
 dollar share falling more slowly after the 2022 reserve freeze than before it and the renminbi
 peaking one quarter before that freeze.
 
-**Verification at the equation pass.** `_verify.py` 0 errors across 303 posts, **238 numeric
-checks across three harnesses** with none failing, production build clean, rendered audit no
-findings across 468 pages, zero contractions and zero dashes in prose, all 86 references cited in
-the body and alphabetically ordered, and every reference URL resolving or returning the documented
-publisher refusal. **The source-to-rendered display count agrees at 80**, verified in a scratch
-build carrying the real configuration and this draft alone, with the published A375 in the same
-build reporting 75 as a control on the method.
+**Verification at the primary-reference pass.** `_verify.py` 0 errors across 303 posts, **245
+numeric checks across three harnesses** with none failing, production build clean, rendered audit
+no findings across 468 pages, zero contractions and zero dashes in prose, display delimiters
+balanced with no blank-line defects, inline delimiters paired, and all 202 references cited in the
+body and alphabetically ordered with **zero bullet-list-only anchors**. **The source-to-rendered
+display count agrees at 88**, verified in a scratch build carrying the real configuration and this
+draft alone. **All 200 reference URLs were swept**, returning 124 direct resolutions, 73 publisher
+refusals whose DOIs were each confirmed registered by content negotiation, and 3 empty-202
+responses from a publisher that answers that way.
 
 ## What Rebuilding Would Take After a War With China A375 2026-08-12 PUBLISHED
 
