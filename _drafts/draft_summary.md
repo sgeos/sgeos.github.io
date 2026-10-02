@@ -23,10 +23,23 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 article of the `war_with_china` series, categories `geopolitics military war-gaming`,
 series index 3.
 
-**4,443 lines, 89 display equations, 202 reference definitions, roughly 23,100 words of author
-prose after the publication review**, up from 2,896 lines, 39 equations and 86 references after
-drafting.
-**ALL FOUR PASSES COMPLETE. NOT PUBLISHED.** Ready for the pilot's publication decision.
+**4,440 lines, 89 display equations, 202 reference definitions, 21,118 words of author prose
+once quoted material is excluded**, up from 2,896 lines, 39 equations and 86 references after
+drafting, and down two lines from the 4,442 on the remote. **This file previously recorded
+4,443, which was off by one before this pass and is corrected here.**
+**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS. NOT PUBLISHED.** Ready for the
+pilot's publication decision.
+
+**THE PATHOLOGICAL USAGE PASS FOUND THE ENUMERATED TIC CLASS CLEAN AND ONE DISCOVERED FORMULA
+OVER THE LIMIT.** Against 259 published peers, zero of the seventy watched tic words reach the
+corpus maximum, and `specific`, the word that caused the original problem, stands at 3 uses and
+0.13 per thousand against a natural rate near 1.7. What the enumerated checks could not see was
+`which is a`, a trailing appositive at **1.37 times the highest rate in any article the author has
+written**, carried by `which is a reason to` five times and `which is a defensible X` four times.
+A second family, `worth noting` and `worth stating` and their relatives, stood at 1.02 times the
+maximum with its head member used by **no peer ever**. Both are now under the maximum at 18 and 2
+uses. Two replacements hung an independent clause off a relative clause and were repaired, and one
+dropped a causal relation the original asserted and was restored.
 
 **THE PUBLICATION REVIEW REFUTED A CLAIM THE ARTICLE HAD MADE IN THREE PASSES.** The article
 asserted that a great-power war in which the belligerents hold a minority of world capability

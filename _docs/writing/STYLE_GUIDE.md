@@ -73,7 +73,41 @@ python3 _lib/diction.py collocate specific _posts/<file>.markdown   # evidence f
 python3 _lib/diction.py outliers  _drafts/<file>.markdown           # words above the peer maximum
 python3 _lib/diction.py tics      _drafts/<file>.markdown           # the enumerated tic class
 python3 _lib/diction.py report    _drafts/<file>.markdown           # multi-word constructions
+python3 _lib/diction.py formulas  _drafts/<file>.markdown           # DISCOVERED phrase formulas
 ```
+
+**Pass the published corpus as the peer set, not the series.** The first bullet of this section
+forbids calibrating density against recent siblings, and a peer set of two siblings written in the
+same stretch cannot see a tic all three share. `_posts/*.markdown` gives a few hundred peers in the
+author's voice across many subjects.
+
+**A quotation is other people's words and dilutes every rate.** `prose` strips reference link text
+on exactly that ground and keeps block quotations, which are not the author's either. In A376, which
+carries 124 block quotations, **7.0 percent of what `prose` attributed to the author was quoted
+material**, and the bias runs one way, because a larger denominator lowers every rate and a lowered
+rate hides a tic. `diction.author_prose` removes block quotations and long inline fragments and
+`diction.quoted_share` reports how much was removed. **Apply it to the peers as well as to the
+article**, since correcting one side only is the opposite error. `prose` itself is deliberately
+unchanged, because every rate `_verify.py` has reported and every exemption reason recorded against
+one was measured with quotations included.
+
+**An enumerated list cannot find a formula nobody enumerated.** `tics` tests 70 known words and
+`report` tests 22 known constructions, so a sentence shape peculiar to one article is invisible to
+both. `formulas` scores every repeated word sequence against the highest rate any peer reaches. It
+found `which is a` at **1.37 times the corpus maximum** in A376, a trailing appositive that no
+enumerated check watches. Two cautions, both of which produced phantom findings before they were
+fixed or documented: numerals are dropped by tokenisation, so `at 30 percent in` and `at 4 percent
+in` collapse into one sequence present nowhere, and an earlier draft dropped single-letter words and
+reported `which is reason to` for `which is a reason to`. **Grep any finding before acting on it.**
+
+### Rewriting a tic can install a new one
+
+The rule above says to rotate among several forms rather than substitute one fixed formula for
+another. In the A376 pass that rule was broken while obeying it. Nine `which is a reason to` and
+`which is a defensible X` appositives were rewritten, and four of the replacements reached for
+`should therefore be`, turning a construction used once in the article into one used four times.
+**Re-run the measurement after editing and diff the introduced phrases against the original**, which
+is the only way the substitution is caught. Checking the target construction alone reports success.
 
 **Direction depends on part of speech and getting it backwards inverts the answer.** A noun forms its
 compound with the word BEFORE it, so `configuration` is judged by `capability configuration`. An

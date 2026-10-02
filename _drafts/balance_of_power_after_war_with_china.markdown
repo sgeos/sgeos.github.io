@@ -106,7 +106,7 @@ is the Composite Index of National Capability,
 or CINC,
 introduced by [Singer, Bremer and Stuckey in 1972][book_singer_1972_capability_distribution]
 and maintained since by the Correlates of War project.
-It is worth stating precisely what it does,
+Precisely what it does needs setting out,
 because the answer to this article's question
 changes sign depending on which instrument is chosen,
 and that dependence is rarely shown.
@@ -228,7 +228,7 @@ $$
 $$
 
 The equality is exact rather than approximate,
-and the reason is worth stating because it governs
+and the reason governs
 which quantities in this article deserve confidence.
 Every one of those three conventions
 divides both states by the same denominator,
@@ -304,7 +304,7 @@ That is not a hidden flaw.
 It is the stated construction,
 and it means the index answers the question
 of which state could out-produce the other in a long industrial war,
-which is a defensible thing to want to know
+which a reader may legitimately want to know
 and is not the same as which state is more powerful today.
 The gross-against-net distinction
 is the standing objection to indices of this family,
@@ -338,7 +338,6 @@ It then states the consequence in the same paragraph.
 So the behaviour is deliberate and disclosed.
 A state missing one or more components
 is averaged over the components it has,
-which is a defensible choice,
 and the sums therefore depart from one.
 Expressed as a formula,
 with $A_{i,t}$ the set of components actually recorded,
@@ -420,8 +419,7 @@ means disproportionately the non-European states.
 of precisely those states whose underlying measurement is worst,
 and by a mechanism invisible unless the component columns are inspected.**
 
-One small discrepancy is worth recording
-because it bears on how current the documentation is.
+One small discrepancy bears on how current the documentation is.
 The codebook states that
 "83.29% of the state-year observations in the set have data on all six components;
 13.76% have data on five; 2.71% have data on four;
@@ -440,7 +438,7 @@ $$
 The differences are small and in no way change the picture,
 but they indicate the passage was carried forward from an earlier version
 rather than regenerated,
-which is a reason to verify the documentation's numbers
+so the documentation's numbers should be verified
 against the file a reader actually has.
 
 ### Three breaks in the series, all of them documented
@@ -731,8 +729,8 @@ $$
 The extreme readings differ by a factor of more than five.
 **The instrument producing the most dramatic Chinese lead
 is the one this article uses**,
-which is a reason to distrust the levels it reports
-and the reason every comparison in this article is built
+and its levels deserve distrust.
+That is why every comparison in this article is built
 on ratios and on direction rather than on levels.
 The index publishes its weights and its own caveat
 that "it is of course possible to reach other value judgements
@@ -1067,8 +1065,8 @@ Its share fell on both codings,
 by thirty percent and thirty-three percent.
 Russia is coded a winner of the First World War
 despite exiting it in 1918,
-which is a coding convention of the dataset rather than a judgement
-and is a reason to treat that one row cautiously.
+which is a coding convention of the dataset rather than a judgement.
+That one row therefore calls for caution.
 
 ### What the base rate does and does not license
 
@@ -1414,8 +1412,7 @@ in which borders moved.
 ## Applying the Base Rate to This Case
 
 The base rate and the present standing can be combined,
-and the result is worth stating plainly
-because it is not the result the scenario literature implies.
+and the result is not the one the scenario literature implies.
 
 ### The arithmetic
 
@@ -1520,8 +1517,8 @@ And the index remains an industrial-age instrument.
 Every number in the table is a share of steel, energy, population and troops.
 A reader who holds that those quantities no longer constitute power
 should read the table as a statement about the instrument
-rather than about the world,
-which is a defensible reading and is the reason
+rather than about the world.
+That reading is available, and it is the reason
 the following sections turn to the literature
 rather than extending the arithmetic.
 
@@ -1822,7 +1819,7 @@ through the whole of the 1950s and 1960s,
 and the 1956 decline is smaller than that of 1955, 1958 or 1959.
 British military spending rose in 1956 and British steel output rose in 1956 and 1957.
 So if Suez is the right analogy,
-then the quantity this article has been measuring is the wrong quantity,
+then the quantity measured here is the wrong quantity,
 and the article says so rather than defending its instrument.
 
 ## The Theory Says the War Is Not the Cause
@@ -1935,7 +1932,7 @@ and concluded "somewhat reluctantly"
 that the proposed explanation does not account for
 "the well-established difference in the postwar recovery among victors and vanquished".
 **The recovery asymmetry survived its own best explanation being refuted**,
-which is a reason to treat the finding as robust
+so the finding stands as robust
 and the mechanism as open.
 
 [Lemke][book_lemke_2002_regions_of_war_and_peace]
@@ -1984,7 +1981,7 @@ $$
 \frac{12}{16} = 0.75
 $$
 
-**That framework is not used in this article, and the reasons are worth stating
+**That framework is not used in this article, and the reasons are given here
 because the dataset behind it is the sort of thing this article otherwise likes.**
 
 The objections are specific and they come from several directions.
@@ -2060,8 +2057,8 @@ because attention has gone to power transitions and great-power wars.
 **That move is the right one and it is also an admission.**
 The distribution of capabilities is not where the action is,
 on the field's own account,
-which is a reason to hold the arithmetic in this article lightly
-and a reason the arithmetic is worth doing,
+and the arithmetic in this article should therefore be held lightly
+and should still be done,
 since the alternative is an order literature with no quantitative anchor at all.
 
 ## The Objection From the Economic Modelling
@@ -2368,8 +2365,8 @@ at levels no domestic demand explains.
 
 ### What the theory says a currency transition requires
 
-The inertia argument has a formal basis worth stating,
-because it determines whether a shock of war magnitude could move the position at all.
+The inertia argument has a formal basis,
+and it determines whether a shock of war magnitude could move the position at all.
 [Gopinath and Stein][journal_gopinath_stein_2021_dominant_currency]
 show that a currency's role in invoicing
 and its role as a safe store of value reinforce one another,
@@ -2661,7 +2658,7 @@ that has the opportunity and lacks the willingness,
 and a visible failure of protection converts one into the other.**
 This is the strongest theoretical warrant in the literature
 for the mechanism the wargames assert,
-and it is worth noting that it comes from a formal argument
+and it comes from a formal argument
 rather than from a scenario.
 
 What restrains allies is itself disputed.
@@ -2889,8 +2886,8 @@ and that "friendship between the two States has no limits",
 while also stating that it is "neither aimed against third countries"
 nor alliance-like in obligation.
 It is a declaration of alignment without a commitment clause,
-which is the same shape as the documents on the other side
-and is worth noting because the two are usually contrasted rather than compared.
+which is the same shape as the documents on the other side,
+even though the two are usually contrasted rather than compared.
 
 ### Taiwan's own programme, which is the closest historical case
 
@@ -3092,7 +3089,7 @@ which is the observation this article keeps arriving at from different direction
 The legal position of the territory itself is also primary and often paraphrased.
 The [Taiwan Relations Act][government_us_1979_taiwan_relations_act]
 is the instrument that creates the ambiguity every scenario turns on,
-and it is worth noting that Taiwan is not covered
+and Taiwan is not covered
 by an extended deterrence commitment of the kind
 the Korean and Japanese documents above record.
 
@@ -3297,8 +3294,9 @@ was itself low, and by more than its own upper bound.**
 
 ### The order literature, which changed the object of study
 
-The works cited above as a group have an internal order worth setting out,
-because the field moved from measuring capabilities to describing architecture
+The works cited above as a group have an internal order,
+and it is set out here because the field moved
+from measuring capabilities to describing architecture
 for reasons it stated at the time.
 
 [Ikenberry's journal statement][journal_ikenberry_1999_institutions_restraint]
@@ -3347,7 +3345,7 @@ The current positions in that literature divide on what follows.
 [Mearsheimer][journal_mearsheimer_2019_bound_to_fail]
 argues the liberal international order was "bound to fail"
 and that multipolarity will produce "two bounded orders".
-[Ikenberry][book_ikenberry_2019_after_victory] sets out the victor's three choices,
+[Ikenberry][book_ikenberry_2019_after_victory] names the victor's three choices,
 and [elsewhere][journal_ikenberry_2024_three_worlds]
 describes a drift toward a global West, East and South.
 [Cooley and Nexon][book_cooley_nexon_2020_exit_from_hegemony]
@@ -3373,16 +3371,16 @@ which puts India at about four fifths of the American capability share
 and has it passing the United States
 in one of the four scenario rows.
 The tension is not resolvable here
-and it is exactly the measurement dependence this article has been documenting.
+and it is exactly the measurement dependence documented above.
 Lind's method validates metrics by their ability
 to reproduce balances we already believe in,
-which is a defensible procedure
-and one that cannot discover a great power nobody currently recognises.
+which is sound as far as it goes
+and cannot discover a great power nobody currently recognises.
 
 ### The historical case the Suez analogy rests on
 
 The Suez argument above was stated without its source,
-and the source is worth having because it is an institutional record
+and the source is an institutional record
 rather than a retrospective.
 [Boughton's study][journal_boughton_2001_northwest_of_suez],
 written from inside the International Monetary Fund,
@@ -3494,7 +3492,7 @@ and the capability arithmetic is the distraction.
 Several of the economic estimates above price a blockade rather than an invasion,
 and the operational literature on that is older than the current debate.
 [Mirski][journal_mirski_2013_stranglehold]
-sets out the context, conduct and consequences of an American naval blockade of China,
+works through the context, conduct and consequences of an American naval blockade of China,
 and [Lanteigne][journal_lanteigne_2008_malacca_dilemma]
 describes the dependence that makes it conceivable.
 [Posen's][journal_posen_2003_command_of_the_commons]
@@ -3548,7 +3546,7 @@ asks whether a China war scenario would break the insiders' hold,
 which is a question about expertise rather than about outcomes.
 
 **What that body of work does not contain is a study of the postwar distribution**,
-which is the gap this article has been describing,
+which is the gap described above,
 and the point of listing the near misses is to show it is a real absence
 rather than a failure to look.
 
@@ -3610,7 +3608,7 @@ a distinction that press accounts routinely collapse.
 
 On the industrial side the legislative record is explicit.
 The [CHIPS and Science Act][government_us_2022_chips_act]
-sets out the appropriations by fiscal year
+lists the appropriations by fiscal year
 rather than the aggregate figures usually quoted,
 and a [later public law][government_us_2025_pl_119_21]
 raised the advanced manufacturing investment credit from 25 to 35 percent,

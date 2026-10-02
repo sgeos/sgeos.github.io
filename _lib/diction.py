@@ -326,6 +326,109 @@ delve realm landscape tapestry testament pivotal
 """.split()
 
 
+# ===========================================================================================
+# QUOTED MATERIAL IS NOT THE AUTHOR'S PROSE EITHER.
+#
+# `prose` strips reference link text on the stated ground that a bibliography is other
+# people's words. A block quotation and a long inline quoted fragment are other people's
+# words by the identical argument, and `prose` keeps both. In A376, which carries 124 block
+# quotations, 7.0 percent of what `prose` attributes to the author is quoted material.
+#
+# THE BIAS RUNS ONE WAY. Quoted words enlarge the denominator and therefore DILUTE every
+# rate, which pushes comparisons toward false negatives, and a false negative is the outcome
+# that hides a tic. A quoted word also cannot be edited, so counting it against the author
+# would be unactionable even if the arithmetic were right.
+#
+# WHY THIS IS A SEPARATE FUNCTION RATHER THAN A CHANGE TO `prose`. Every rate `_verify.py`
+# reports, and every exemption reason recorded against one, was measured with quotations
+# included. Redefining `prose` would silently move every number in the corpus and invalidate
+# the recorded reasons. Callers that want the stricter denominator ask for it, and when both
+# sides of a comparison use it the dilution cancels.
+# ===========================================================================================
+
+_QUOTED_INLINE = re.compile(r'"[^"\n]{8,}"')
+
+
+def author_prose(text):
+    """`prose` with block quotations and long inline quoted fragments removed.
+
+    The 8-character floor on an inline fragment keeps short quoted terms of art, which an
+    author chooses and is responsible for, while removing quoted sentences, which the author
+    did not write. A comparison must apply this to the peers as well as to the article.
+    """
+    p = prose(text)
+    p = "\n".join(ln for ln in p.split("\n") if not ln.lstrip().startswith(">"))
+    return _QUOTED_INLINE.sub(" ", p)
+
+
+def quoted_share(text):
+    """(author words, quoted words, quoted fraction) under `author_prose`.
+
+    Reported so that a clean result can state how much dilution it survived, rather than
+    leaving a reader to assume the denominator was the author's.
+    """
+    total = len(words(prose(text)))
+    own = len(re.findall(r"[A-Za-z][A-Za-z'-]+", author_prose(text)))
+    return own, total - own, (total - own) / total if total else 0.0
+
+
+def phrase_outliers(text, peer_texts, sizes=(3, 4), min_count=4, strict=True):
+    """Repeated word sequences used more heavily than in ANY peer. DISCOVERED, not enumerated.
+
+    `compare` tests the 22 hand-listed constructions in `PHRASES`, so a formula nobody
+    thought to enumerate cannot be found by it. This lifts the `word_outliers` test to
+    phrases: every sequence the article repeats is scored against the highest rate any peer
+    reaches, and a peer that never uses the sequence contributes a zero.
+
+    SUBJECT MATTER DOMINATES THE OUTPUT, exactly as it does for single words. A phrase naming
+    what the article measures will exceed every peer because no peer measured it. The result
+    is a reading list and the caller supplies the judgement.
+
+    LIMITATION, STATED BECAUSE IT PRODUCED TWO PHANTOM FINDINGS. Tokenisation drops numerals,
+    so `at 30 percent in` and `at 4 percent in` both reduce to `at percent in` and appear as
+    one repeated phrase that occurs nowhere in the text. Single-letter words are retained, an
+    earlier draft of this check dropped them, and `which is a reason to` then surfaced as the
+    non-existent `which is reason to`. Verify any finding against the article before acting.
+
+    Returns rows of (ratio_to_peer_max, phrase, count, rate, peer_max), worst first, with a
+    ratio of None where no peer ever used the phrase.
+    """
+    extract = author_prose if strict else prose
+
+    def grams(t):
+        ws = re.findall(r"[A-Za-z][A-Za-z'-]*", extract(t).lower())
+        c = collections.Counter()
+        for s in sizes:
+            for i in range(len(ws) - s):
+                c[" ".join(ws[i:i + s])] += 1
+        return c, len(ws)
+
+    mine, n = grams(text)
+    if not n:
+        return [], 0
+    cand = {g: k for g, k in mine.items() if k >= min_count}
+    peer_max = collections.defaultdict(float)
+    peers = 0
+    for pt in peer_texts:
+        pc, pn = grams(pt)
+        if pn < 400:
+            continue
+        peers += 1
+        for g in cand:
+            k = pc.get(g, 0)
+            if k:
+                r = 1000.0 * k / pn
+                if r > peer_max[g]:
+                    peer_max[g] = r
+    rows = []
+    for g, k in cand.items():
+        rate = 1000.0 * k / n
+        mx = peer_max.get(g, 0.0)
+        rows.append((rate / mx if mx else None, g, k, rate, mx))
+    rows.sort(key=lambda r: (-1e9 if r[0] is None else -r[0]))
+    return rows, peers
+
+
 def word_rates(text, vocabulary=None):
     """Occurrences per thousand author prose words, for each word in a vocabulary."""
     ws = words(prose(text))
@@ -450,11 +553,37 @@ def _main(argv):
               "collocations before acting:")
         print("    python3 _lib/diction.py collocate <word> <path>")
         return 0
+    if len(argv) >= 3 and argv[1] == "formulas":
+        path = argv[2]
+        peer_glob = argv[3] if len(argv) > 3 else os.path.join(
+            os.path.dirname(os.path.abspath(path)) or ".", "*.markdown")
+        text = open(path, encoding="utf-8").read()
+        peers = [open(q, encoding="utf-8").read()
+                 for q in _glob.glob(peer_glob)
+                 if os.path.abspath(q) != os.path.abspath(path)]
+        rows, peer_n = phrase_outliers(text, peers)
+        own, quoted, share = quoted_share(text)
+        print(f"{os.path.basename(path)}: {own:,} author words against {peer_n} peers, "
+              f"{quoted:,} quoted words excluded = {share * 100:.1f} percent")
+        print("  repeated word sequences above the peer maximum. SUBJECT MATTER DOMINATES "
+              "THIS LIST and numerals are dropped by tokenisation, so verify in the article")
+        print(f"  {'phrase':44s}{'n':>4}{'rate':>7}{'peermax':>9}{'x max':>8}")
+        over = 0
+        for ratio, g, k, rate, mx in rows:
+            if ratio is not None and ratio <= 1.0:
+                continue
+            over += 1
+            rr = "never" if ratio is None else f"{ratio:.2f}"
+            print(f"  {g:44s}{k:4d}{rate:7.2f}{mx:9.2f}{rr:>8}")
+        print(f"  {over} sequence(s) above the peer maximum")
+        return 0
     print("usage:\n"
           "  python3 _lib/diction.py collocate <word> <path>...     evidence for one word\n"
           "  python3 _lib/diction.py report <path> [peer-glob]      constructions vs peers\n"
           "  python3 _lib/diction.py outliers <path> [peer-glob]    words above the peer max\n"
-          "  python3 _lib/diction.py tics <path> [peer-glob]        the enumerated tic class")
+          "  python3 _lib/diction.py tics <path> [peer-glob]        the enumerated tic class\n"
+          "  python3 _lib/diction.py formulas <path> [peer-glob]    DISCOVERED phrase formulas,\n"
+          "                                                         quotations excluded")
     return 2
 
 

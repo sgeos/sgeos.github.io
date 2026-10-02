@@ -2729,6 +2729,66 @@ def t_a360_ntrs_search_paginates_with_bracketed_parameters():
         f"a server repeating one page must terminate the walk, got {len(out2)} records")
 
 
+
+def t_author_prose_excludes_quoted_material():
+    """A BLOCK QUOTATION IS OTHER PEOPLE'S WORDS, LIKE A BIBLIOGRAPHY ENTRY.
+
+    `prose` strips reference link text because a bibliography is not the author's prose, and
+    keeps block quotations, which are not either. Counting them dilutes every rate, and
+    dilution hides a tic rather than inventing one.
+    """
+    import diction
+    text = ("---\nlayout: post\n---\n"
+            "The author wrote this line.\n"
+            "> A quoted sentence carrying the word widget widget widget.\n"
+            'The author also wrote "a quoted fragment with widget in it" here.\n')
+    loose = diction.prose(text).lower()
+    strict = diction.author_prose(text).lower()
+    assert "quoted sentence" in loose, "prose should keep quotations, unchanged behaviour"
+    assert "quoted sentence" not in strict, strict
+    assert "quoted fragment" not in strict, strict
+    assert "the author wrote this line" in strict, strict
+    assert strict.count("widget") == 0, strict
+
+
+def t_quoted_share_reports_the_dilution():
+    """A clean rate means little without saying how much quoted material it survived."""
+    import diction
+    body = " ".join(["alpha beta gamma delta"] * 50)
+    text = "---\nlayout: post\n---\n" + body + "\n> " + " ".join(["quoted"] * 50) + "\n"
+    own, quoted, share = diction.quoted_share(text)
+    assert quoted == 50, quoted
+    assert own == 200, own
+    assert 0.19 < share < 0.21, share
+
+
+def t_phrase_outliers_keeps_single_letter_words():
+    """DROPPING SINGLE-LETTER WORDS INVENTS PHRASES THAT ARE NOT IN THE TEXT.
+
+    An earlier draft of this check tokenised with a two-character minimum, so `which is a
+    reason to` was reported as `which is reason to`, a sequence appearing nowhere. A finding
+    that cannot be grepped cannot be acted on.
+    """
+    import diction
+    body = " ".join(["filler words here to make length"] * 80)
+    text = body + " ".join([" which is a reason to doubt"] * 5)
+    rows, _peers = diction.phrase_outliers(text, [body], sizes=(4,), min_count=4)
+    found = [g for _r, g, _k, _rate, _mx in rows]
+    assert "which is a reason" in found, found
+    assert "which is reason to" not in found, found
+
+
+def t_phrase_outliers_scores_against_a_silent_peer():
+    """The `word_outliers` zero-peer rule has to hold for phrases too."""
+    import diction
+    body = " ".join(["alpha beta gamma delta"] * 100)
+    text = body + " ".join([" the widget is ready"] * 4)
+    rows, peer_n = diction.phrase_outliers(text, [body] * 2, sizes=(3,), min_count=4)
+    assert peer_n == 2, peer_n
+    hit = [r for r in rows if r[1] == "the widget is"]
+    assert hit and hit[0][0] is None, rows[:3]
+
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

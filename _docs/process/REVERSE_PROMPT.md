@@ -4,6 +4,11 @@
 
 ## Last Updated
 
+**Date**: 2026-10-02
+**Task**: **A376, pathological word usage pass. The enumerated tic class is CLEAN against 259 peers
+and one discovered formula was over the limit and is now under it.** See the A376 section below.
+**A376 remains NOT PUBLISHED and awaits the pilot's decision.** The previous report follows.
+
 **Date**: 2026-10-01
 **Task**: **A363, X-Planes: Boeing X-66, ALL FOUR PASSES COMPLETE.** Committed and **PUSHED** on the
 pilot's instruction. **NOT PUBLISHED**, and publication of the series has never been authorised.
@@ -72,6 +77,66 @@ source-side pairs and the asterisk cause was outside the existing instrument's m
 The older reports follow, newest first. **Nothing below this block was rewritten.**
 
 ---
+
+## A376, Pathological Word Usage Pass
+
+**Lines 4,442 to 4,440, author prose 21,118 words once quoted material is excluded.** Display
+equations held at 89, references at 202. **NOT PUBLISHED.**
+
+**THE ENUMERATED TIC CLASS IS CLEAN AND THAT IS THE MAIN RESULT.** Against **259 published peers**,
+**zero of the seventy watched tic words reach the corpus maximum**. `specific`, the word that caused
+the original corpus-wide problem, stands at **3 uses and 0.13 per thousand against a natural rate
+near 1.7**, so the article is below ordinary usage rather than above it. The seventeen words that do
+exceed every peer are all subject nouns, and each was checked by collocation rather than asserted
+clean. `great` is 71 percent `great power`, `share` carries six distinct content modifiers, `median`
+four. Those are the documented term-of-art signature.
+
+**WHAT THE ENUMERATED CHECKS COULD NOT SEE WAS A SENTENCE SHAPE.** `tics` tests seventy known words
+and `report` tests twenty-two known constructions, so a formula peculiar to one article is invisible
+to both. Scoring every repeated sequence against the peer maximum found **`which is a` at 1.37 times
+the highest rate in any article this author has written**, carried by `which is a reason to` five
+times and `which is a defensible X` four times. A second family, `worth noting` and `worth stating`
+and their relatives, stood at **1.02 times the maximum with its head member used by no peer ever**.
+**Both are now under the maximum**, at 18 and 2 uses, across 29 edits.
+
+**A QUOTATION IS OTHER PEOPLE'S WORDS AND THE INSTRUMENT WAS COUNTING THEM AS MINE.** `prose` strips
+reference link text on exactly that ground and keeps block quotations. With 124 of them, **7.0
+percent of what the instrument attributed to the author was quoted material**, and the bias runs one
+way, because a larger denominator lowers every rate and a lowered rate hides a tic. Every figure
+above was recomputed with quotations stripped from **both** sides, since correcting only the article
+is the opposite error. **The clean verdict survived the correction**, moving `rather` from 0.86 to
+0.94 of the maximum without crossing it.
+
+**I BROKE THE ANTI-SUBSTITUTION RULE WHILE OBEYING IT.** Four of the replacements reached for `should
+therefore be`, turning a construction used once into one used four times. Only diffing the introduced
+phrases against the original caught it, and two were varied back. **Checking the target construction
+alone reports success**, which is why the rule now says to re-measure what the edit introduced.
+
+**TWO EDITS WERE GRAMMATICALLY WRONG AND ONE DROPPED A CLAIM.** Two replacements hung an independent
+clause off a relative clause, which the originals did not do, and were repaired. One conjoined two
+facts where the original asserted a causal relation between them, and the relation was restored.
+**All three were found by reading the passages, not by any check**, which is the standing limit on
+this kind of pass.
+
+**TWO MEASUREMENTS WENT INTO THE LIBRARY RATHER THAN A SCRATCH DIRECTORY.** `diction.py` records that
+its predecessor was lost after being copied into four article directories, so `author_prose`,
+`quoted_share` and `phrase_outliers` are now in `_lib/diction.py` with a `formulas` CLI mode and
+**four new tests, 124 of 124 passing**. **`prose` is deliberately unchanged**, because every rate
+`_verify.py` has reported and every exemption reason recorded against one was measured with
+quotations included. **`_verify.py` output and `tics` output were diffed before and after and are
+byte-identical**, so the other line sees no change.
+
+**NOT ACTED ON, WITH REASONS.** `sets out the` sits at 1.93 times the maximum on **2 uses** against a
+peer maximum of 0.05 per thousand, which is small-number noise. `which is not` at 1.13 on 4 uses, all
+four substantively different. `this article` at 84 uses is heavy self-reference but 0.83 of the
+maximum, and `rather than` at 98 is the article's core contrast device at 0.93. **Acting on those
+would be churn, and an unactioned measurement is only acceptable with a reason recorded.**
+
+**VERIFICATION.** `_verify.py` 0 errors and the same 2 known `progress-stale` warnings. Scratch
+production build with A376 staged as a post, **469 pages, `_lib/render.py` no findings**. **89 source
+display blocks against 89 rendered brackets.** Inline dollar parity even at 24. No unresolved
+reference pair, no unrendered Liquid, no raw delimiter. No em-dash, en-dash, semicolon, parenthesis
+or contraction in any added line.
 
 ## A363, Publication Review
 
