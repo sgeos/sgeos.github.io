@@ -644,8 +644,7 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_x69_through_x75_leapfrogged_block.markdown`, A366, editorial date 2025-12-14, series
 `x_planes` index 70 of 72, categories `aerospace history engineering`, designation-anomaly class
-under the reduced order. **DRAFTING, EQUATION-DENSITY AND PRIMARY-REFERENCE PASSES COMPLETE, three of four. Committed,
-not pushed. NOT PUBLISHED**, and publication of the series has never been authorised.
+under the reduced order. **ALL FOUR PASSES COMPLETE. Committed and pushed. NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **4,402 lines, 26,207 words of which about 13,900 lie outside the citation runs and reference lists,
 14 display equations, 38 inline expressions, a 17-entry symbol table and 1,935 reference definitions**,
@@ -683,7 +682,9 @@ reference pass should audit it.
 
 **THE PRIMARY-REFERENCE PASS.** References **1,935 to 1,974**, reference primaries **16 to 24**, research works **1,850 to 1,881** of which 13 are hand-chosen primaries verified by title, report-server citations **41 to 59** and their share **2.22 to 3.14 percent**, lines 4,566 to 4,662, display equations 40 to 42, the pool 11,384 to 15,522. NASA's SP-2003-4531 gives the X-50A precedent a second primary with a contractor requester and a 2003 prediction that came true. The founding years rest on the Declaration, Public Law 114-196, the National Security Act of 1947 and the Army's quotation of the 1775 resolution. Thirteen research primaries were verified by title, and three sentences were cut back to their abstracts. `verify366.py` 716 checks.
 
-**REMAINING.** Publication review.
+**THE PUBLICATION REVIEW.** **Final state 4,669 lines, 29,682 words, 42 display equations, 105 inline expressions, a 33-entry symbol table and 1,974 reference definitions**, being 24 primaries, 1,881 research works of which 13 are hand-chosen primaries and 59 are report-server records at 3.14 percent, and 69 related posts, in 11 H2 and 42 H3 sections with 9 tables, from a pool of 15,522. **THE REVIEW CHECKED THE OPENING AGAINST THE ARTICLE'S OWN ANALYSIS, BY NAME, AND IT FAILED A THIRD TIME RUNNING.** It called the first reading the only one consistent with the allocation rate, and the reserved-block reading needs no allocations, so it is consistent too. **Also caught**: 'invisible to anyone outside the Department' when the contractor knew; two false cluster superlatives, designation not the smallest engineering cluster and serial inference not the smallest; the Kydland and Prescott sentence placing all three founding-year numbers in an anniversary run-up the F-47A does not fit; a claim that the series' earlier anomaly gaps were all public for years, false for the X-67's; 'DARPA chose it' for the X-50 against the article's own finding of two requesters; 'assembled in a day' for two days; 'the eleven months before the semiquincentennial' for a window closing eight and a half months before it; a stale reports-server count of 26 of 161 that ignored the aimed sweep; a dangling 'It' left by the drafting pass's own rewrite; a promise that the already-run reference pass would audit further; and an F-35 overclaim. **The F-47 emails' release date was examined** and the file's metadata gives 17 June 2025, inside the dateline, stated as such. Eleven self-references were removed or varied, 'article' having been the only content-independent word above five per thousand, and the 1994 sentence now stands as a block quotation so its acronyms are the source's. `verify366.py` 745 checks.
+
+**REMAINING.** Nothing, pending a publication decision.
 
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 

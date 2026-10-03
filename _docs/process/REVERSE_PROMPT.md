@@ -5,6 +5,31 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A366 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED, NOT
+published.** Seventy of seventy-two drafted. **Final state 4,669 lines, 29,682 words, 42 display equations, 105 inline expressions, a 33-entry symbol table and 1,974 reference definitions**, being 24 primaries, 1,881 research works of which 13 are hand-chosen primaries and 59 are report-server records at 3.14 percent, and 69 related posts, in 11 H2 and 42 H3 sections with 9 tables, from a pool of 15,522.
+
+**THE OPENING FAILED THE CHECK AGAINST THE ARTICLE'S OWN ANALYSIS FOR THE THIRD ARTICLE RUNNING.** It said the first reading was the only one consistent with the allocation rate. The reserved-block reading needs no allocations, so it is consistent too. **The rule to check the opening by name against the analysis has now caught a real defect in A364, A365 and A366.**
+
+**OTHER DEFECTS FIXED.**
+
+- Two false superlatives about cluster sizes.
+- A sentence placing all three founding-year numbers in an anniversary run-up, which the F-47A does not fit.
+- A claim that the series' earlier anomaly gaps were all public for years. That is false for the X-67's, and A364 does not record it.
+- 'DARPA chose it' for the X-50, which contradicts the article's own finding of two requesters.
+- Two timing errors, 'in a day' and 'the eleven months before the semiquincentennial.'
+- A stale reports-server count of 26 of 161 that ignored the aimed sweep.
+- A dangling pronoun and a stale promise of a further audit.
+- An F-35 overclaim.
+
+Eleven self-references were cut or varied, because 'article' was the only content-independent word above five per thousand. The F-47 file's metadata date, 17 June 2025, falls inside the dateline and is stated as such.
+
+**VERIFICATION.** `verify366.py` runs 745 checks, and every withdrawn wording is asserted absent with its replacement present. `_verify.py` reports 0 errors and 0 warnings across 304 posts. The stub build and render audit are clean, all 42 display blocks are matched, and the style and symbol checks are clean. All 23 reports-server addresses return 200, and a random sample of 80 identifiers all resolve.
+
+**PUSHED, NOT PUBLISHED.** Two articles remain, **A367, the X-76A to Bell Textron for SPRINT**, and A368, the closing synthesis. **A367 inherits this article's register reading, the engine cell, and the dating of the row's publication.** The pilot decision on whether A364's and A365's Epistemic State sections should record that the register rows they rely on were not public at their dates is still open.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A366 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT
 published.** Seventy of seventy-two drafted. References **1,935 to 1,974**, reference primaries **16 to 24**, research works **1,850 to 1,881** of which 13 are hand-chosen primaries verified by title, report-server citations **41 to 59** and their share **2.22 to 3.14 percent**, lines 4,566 to 4,662, display equations 40 to 42, the pool 11,384 to 15,522.
 
