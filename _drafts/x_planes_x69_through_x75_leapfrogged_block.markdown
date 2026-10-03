@@ -32,6 +32,12 @@ This is the seventieth article in the [X-Planes series][related_post_a297_framin
 
 ### Where the Seven Numbers Do and Do Not Appear
 
+**The block is a set of consecutive design numbers and the gap is a span of days, and both are worth writing down because the rest of the article tests claims about them.** Let $t\_{68}$ and $t\_{76}$ be the allocation dates of the X-68A and the X-76A.
+
+$$
+\mathcal{B} \;=\; \{\,69, 70, \dots, 75\,\}, \qquad \lvert \mathcal{B} \rvert \;=\; 75 - 69 + 1 \;=\; 7, \qquad t_{76} - t_{68} \;=\; 61\ \text{days}
+$$
+
 **No row in the research series carries any of the numbers 69 through 75, and that is a measurement over every well-formed row rather than a search for a string.** The register holds 532 well-formed designation rows, 31 of them in the research series, and the research design numbers present run 37, 40, 44 through 51, 53 through 57, 59 through 66, 68 and 76 \[[DOD 4120.15-L Addendum][ref_mds_addendum]].
 
 **The same seven numbers do appear elsewhere in the register, and where they appear matters for exactly one of the readings.**
@@ -69,7 +75,13 @@ $$
 \sum_k s_k \;=\; 4 \cdot 1 \;+\; 1 \cdot 7 \;=\; 11
 $$
 
-**Before the X-76A the largest advance in the register's research series was two.** Every earlier gap was one number wide and every one has an article in this series explaining it. **The X-76A's single step passed more numbers than the four earlier gaps together**, and of the eleven numbers the pointer has ever passed in this window exactly one, the 49, has come back.
+**Before the X-76A the largest advance in the register's research series was two.** Every earlier gap was one number wide and every one has an article in this series explaining it. **The X-76A's single step passed more numbers than the four earlier gaps together.** Writing $K$ for the step that allocated the X-76A,
+
+$$
+\sum_{k < K} s_k \;=\; 4 \;<\; s_K \;=\; 7 ,
+$$
+
+and of the eleven numbers the pointer has ever passed in this window exactly one, the 49, has come back.
 
 ### On This Article's Date the Register Did Not Show It
 
@@ -84,7 +96,13 @@ $$
 
 \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]] \[[DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]] \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]]
 
-**So both rows first became public between 15 January and 1 February 2026**, about seven weeks after this article's date. **The allocations happened inside the dateline and their publication did not.** The compiler's list of missing designations tells the same story from the other side. Its version stamped 23 March 2025, still the version served in November 2025, said that the X-67 slot would almost certainly be skipped and that the next available research number was X-68 \[[Missing USAF and DOD Aircraft Designations, as archived on 12 November 2025][ref_missing_mds_wb_2025_11]].
+**So both rows first became public between 15 January and 1 February 2026**, between seven and nine weeks after this article's date. Writing $t\_{\mathrm{pub}}$ for the date a row first appears in an archived copy and $t\_{\mathrm{d}}$ for the dateline, the captures bracket the lags as
+
+$$
+32 \;\le\; t_{\mathrm{pub}} - t_{\mathrm{d}} \;\le\; 49, \qquad 87 \;\le\; t_{\mathrm{pub}} - t_{76} \;\le\; 104, \qquad 148 \;\le\; t_{\mathrm{pub}} - t_{68} \;\le\; 165
+$$
+
+in days, so the X-68A row stayed out of public view for at least 148 days, nearly five months, and the X-76A row for at least 87, nearly three. **The allocations happened inside the dateline and their publication did not.** The compiler's list of missing designations tells the same story from the other side. Its version stamped 23 March 2025, still the version served in November 2025, said that the X-67 slot would almost certainly be skipped and that the next available research number was X-68 \[[Missing USAF and DOD Aircraft Designations, as archived on 12 November 2025][ref_missing_mds_wb_2025_11]].
 
 **This article therefore describes an anomaly that had occurred and had not yet been seen.** That is unusual for this series, whose anomaly articles have so far concerned gaps that were public for years before anyone wrote about them. **Every finding here is stated from the record as it now stands, and the Epistemic State section separates what existed at the dateline from what was knowable at it.**
 
@@ -98,7 +116,13 @@ $$
 
 \[[Missing USAF and DOD Aircraft Designations, as archived on 12 February 2026][ref_missing_mds_wb_2026_02]]
 
-**That is two of this article's three readings, named by the person best placed to name them.** A genuine out-of-sequence allocation leaves the numbers 69 through 75 available, as the X-49 was available after the X-50A. A skip of the range makes them unavailable and moves the next number to 77.
+**That is two of this article's three readings, named by the person best placed to name them.** A genuine out-of-sequence allocation leaves the numbers 69 through 75 available, as the X-49 was available after the X-50A. A skip of the range makes them unavailable and moves the next number to 77. **The two readings are two definitions of the next number, and writing them down shows that they differ only in which allocations count.** Let $\mathcal{A}$ be the set of research design numbers allocated and $\mathcal{C} \subset \mathcal{A}$ the subset judged to be chosen out of sequence, which after October 2025 is the single number 76.
+
+$$
+\nu^{\mathrm{hi}} \;=\; 1 + \max \mathcal{A} \;=\; 77, \qquad \nu^{\mathrm{c}} \;=\; 1 + \max\bigl(\mathcal{A} \setminus \mathcal{C}\bigr) \;=\; 69
+$$
+
+**The first is the instruction's last approved design number read literally. The second is the compiler's convention**, which the [X-67][related_post_a364_x67_slot_taken_by_xq67] article found applied across three series. The block's status is exactly the difference between them.
 
 **By 17 May 2026 the qualification was gone and the stamp still read 3 January 2026** \[[Missing USAF and DOD Aircraft Designations, as archived on 17 May 2026][ref_missing_mds_wb_2026_05]]. The page as served on 2 October 2026 matches that later version, giving X-69 as the next number with no qualification \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **The removal falls after DARPA's announcement of 9 March 2026**, which is consistent with the compiler having read the agency's explanation as settling the matter in favour of a genuine out-of-sequence allocation. **That is an inference about his reasoning and the page does not state it.**
 
@@ -112,7 +136,11 @@ $$
 
 **The third reading is the one the register's own structure most invites, because the register does contain allocations it cannot fully show.** Sixteen of its rows are marked as absent from officially released data altogether, and all sixteen carry a partial date or none \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **Two of them are research rows, the X-37B and the X-56B**, and both carry a series letter of B, which means each records a later model of a design number already public rather than a hidden new number.
 
-**The reading has a forced timing, and the timing is what makes it testable.** Under the 2020 instruction's procedure the next number is derived from the last approved one. If the seven numbers had been approved before 20 August 2025, the X-68A would have been a request below the pointer, which the instruction refuses. **So unreleased allocations of 69 through 75 must all fall in the 61 days between the X-68A and the X-76A.**
+**The reading has a forced timing, and the timing is what makes it testable.** Under the 2020 instruction's procedure the next number is derived from the last approved one. If the seven numbers had been approved before 20 August 2025, the X-68A would have been a request below the pointer, which the instruction refuses. **So unreleased allocations of 69 through 75 must all fall in the 61 days between the X-68A and the X-76A.** Writing $t\_n$ for the allocation date of number $n$ and $h(t)$ for the highest research number allocated before $t$, an allocation of any $n$ in the block before $t\_{68}$ would give $h(t\_{68}) \ge 69 > 68$, so
+
+$$
+n \in \mathcal{B} \ \text{allocated in sequence} \;\Longrightarrow\; t_{68} \;<\; t_n \;<\; t_{76} .
+$$
 
 **The series' own allocation rate puts a number on how likely that is.** The register's 23 new research allocations span 1999-07-07 to 2025-10-20, which is $T$ equal to 26.289 years, so the rate of new allocations after the first is
 
@@ -132,13 +160,37 @@ $$
 \Pr\bigl[\,N \ge 7\,\bigr] \;=\; 1 - \sum_{i=0}^{6} e^{-\hat{\lambda}\tau}\,\frac{(\hat{\lambda}\tau)^{i}}{i!} \;=\; 1.83 \times 10^{-10} .
 $$
 
-**Doubling the rate to allow for allocations that never reach any public record raises it only to $2.07 \times 10^{-8}$.** The busiest 61-day window the series has ever had held two new allocations, and seven numbers at the series' rate are
+**The tail is dominated by its first term, which is what makes its behaviour under a larger rate easy to state.** Writing $\mu$ for $\hat{\lambda}\tau$,
+
+$$
+\Pr\bigl[\,N \ge 7\,\bigr] \;\approx\; e^{-\mu}\,\frac{\mu^{7}}{7!} \;=\; 1.797 \times 10^{-10}, \qquad \frac{\Pr[N \ge 7]}{e^{-\mu}\mu^{7}/7!} \;=\; 1.018 ,
+$$
+
+so for a small mean the tail grows as the seventh power of any factor $c$ applied to the rate.
+
+$$
+\Pr\bigl[\,N \ge 7 \;\big|\; c\mu\,\bigr] \;\approx\; c^{7}\, e^{-(c-1)\mu}\, \Pr\bigl[\,N \ge 7 \;\big|\; \mu\,\bigr]
+$$
+
+**Doubling the rate to allow for allocations that never reach any public record raises it only to $2.07 \times 10^{-8}$**, against $2^{7} \times 1.83 \times 10^{-10} = 2.34 \times 10^{-8}$ from the power law alone, the difference being the exponential factor. The busiest 61-day window the series has ever had held two new allocations, and seven numbers at the series' rate are
 
 $$
 \frac{7}{\hat{\lambda}} \;=\; 8.36\ \text{years}
 $$
 
-of research allocation. **The Poisson model is a convenience and not a claim that allocations are memoryless**, since programmes cluster around budget cycles and the X-63A and X-64A were allocated on the same day. A clustering factor large enough to rescue the reading would have to be about eight orders of magnitude, which no plausible correlation supplies. **The third reading is therefore rejected on rate alone, before any statement by the sponsor is read.**
+of research allocation. **The Poisson model is a convenience and not a claim that allocations are memoryless**, since programmes cluster around budget cycles and the X-63A and X-64A were allocated on the same day. **The question is how much clustering would rescue the reading, and it has a definite answer.** Solving for the rate multiplier at which the tail reaches a conventional 0.05,
+
+$$
+\Pr\bigl[\,N \ge 7 \;\big|\; c^{\star}\mu\,\bigr] \;=\; 0.05 \quad\Longrightarrow\quad c^{\star} \;=\; 23.51, \qquad c^{\star}\hat{\lambda} \;=\; 19.67\ \text{yr}^{-1} .
+$$
+
+**The research series would have to have been allocating at about twenty new numbers a year through that autumn**, against a long-run rate under one and a busiest-ever window of two, and the tail itself is
+
+$$
+\log_{10}\!\frac{0.05}{1.83 \times 10^{-10}} \;=\; 8.44
+$$
+
+orders of magnitude below that threshold at the observed rate. No plausible correlation between programmes supplies a factor of twenty-three. **The third reading is therefore rejected on rate alone, before any statement by the sponsor is read.**
 
 ### One Block Held in Reserve
 
@@ -176,7 +228,13 @@ $$
 
 **The contractor's release of the same day says that Bell is honored to receive the X-76 designation**, and frames it as honoring the founding of the United States in 1776 \[[Bell, 9 March 2026][ref_bell_x76]]. **A deliberate nod is a chosen number, and a chosen number is not one that arrived in sequence after seven unseen allocations.** The statement does not say who chose it, and the verb receive in the contractor's release places the choice somewhere other than with the contractor. **The statement settles the reading and leaves the agent open**, which is the same outcome the [X-67][related_post_a364_x67_slot_taken_by_xq67] article reached by a different route.
 
-**Both statements postdate this article by 85 days**, and the article uses them because the series writes its surveys from current knowledge while saying so. Without them, the rate argument above still rejects the third reading and the instruction still provides a mechanism only for the first.
+**Both statements postdate this article**, by
+
+$$
+t_{\mathrm{DARPA}} - t_{\mathrm{d}} \;=\; 85\ \text{days},
+$$
+
+**The article uses them because the series writes its surveys from current knowledge while saying so.** Without them, the rate argument above still rejects the third reading and the instruction still provides a mechanism only for the first.
 
 ## Why, So Far As the Record Says
 
@@ -204,7 +262,13 @@ $$
 \delta t \;=\; t_{\text{public}} - t_{\text{allocated}}
 $$
 
-**The Army's statement for the tiltrotor that won its long-range assault competition is the plainest of the three.** The release of 27 May 2025 by the Army's Program Executive Office for Aviation says that the 75 commemorates the Army's founding year, 1775, and names the prototype as the YMV-75A \[[Army, 27 May 2025][ref_army_mv75]]. An Army public affairs officer had told The War Zone on 15 May 2025 that the number 75 is a homage to 1775, the birth year of the United States Army \[[The War Zone, 14 May 2025, updated 15 May 2025][ref_twz_mv75]]. **The vertical-takeoff series' highest number before it was 25**, from the XV-25A of March 2024, so the 75 passed 49 numbers.
+**The Army's statement for the tiltrotor that won its long-range assault competition is the plainest of the three.** The release of 27 May 2025 by the Army's Program Executive Office for Aviation says that the 75 commemorates the Army's founding year, 1775, and names the prototype as the YMV-75A \[[Army, 27 May 2025][ref_army_mv75]]. An Army public affairs officer had told The War Zone on 15 May 2025 that the number 75 is a homage to 1775, the birth year of the United States Army \[[The War Zone, 14 May 2025, updated 15 May 2025][ref_twz_mv75]]. **The vertical-takeoff series' highest number before it was 25**, from the XV-25A of March 2024, so the 75 passed
+
+$$
+s \;=\; 75 - 25 - 1 \;=\; 49
+$$
+
+numbers, seven times as many as the X-76A passed.
 
 **The Air Force's statement for the F-47 gives three meanings and the record shows they were assembled in a day.** It reads that the number honors the legacy of the P-47, pays tribute to the founding year of the Air Force, and recognizes the 47th President's pivotal support for the programme \[[Air Force public affairs correspondence on the F-47, released under the Freedom of Information Act][ref_f47_foia]]. **The F-47 is the only one of the three whose public announcement preceded its allocation**, by 33 days, so the number was spoken by the President before the register recorded it \[[Air Force Reserve Command, 21 March 2025][ref_afrc_f47]] \[[DOD 4120.15-L Addendum][ref_mds_addendum]].
 
@@ -234,6 +298,10 @@ $$
 | Rule then in force | the next available consecutive number | the last approved number, skipped sequences refused |
 | What happened to the passed numbers | the 49 was issued 464 days later | not yet known |
 
+$$
+s_{50} \;=\; 50 - 48 - 1 \;=\; 1, \qquad s_{76} \;=\; 76 - 68 - 1 \;=\; 7, \qquad t_{49} - t_{50} \;=\; 464\ \text{days}, \qquad 2025 - 2002 \;=\; 23\ \text{years}
+$$
+
 **Under the 1994 rule the passed number stayed available and was used. Under the 2020 rule a passed number is in a skipped sequence and requests for it are not accepted.** Read literally, the X-76A has made 69 through 75 unrequestable. **Read by the X-50A's precedent, they are waiting.**
 
 ## What the Anomaly Reveals About the Designation System
@@ -256,7 +324,31 @@ $$
 | a refused request, later filled | 1 | RQ-12A |
 | skipped with no reason given | 1 | RQ-14A |
 
-**Two features of the table matter.** The largest class is the one with no reason, so a third of the register's departures from sequence are unexplained even to the person who compiled them. **And the founding-year class has three members, all allocated between 25 November 2024 and 20 October 2025**, with none before. **No member of the class predates November 2024**, and all three fall in the eleven months before the semiquincentennial, the 250th anniversary of 1776. **The class is new, and it arrived as a cluster.**
+$$
+8 + 3 + 3 + 2 + 2 + 2 + 1 + 1 + 1 + 1 + 1 \;=\; 25 \;=\; 24 + 1
+$$
+
+**The column sums to one more than the number of notes**, the extra assignment being the ES-14A, whose note gives both a confusion and a superstition as reasons.
+
+**Two features of the table matter.** The largest class is the one with no reason, so
+
+$$
+\frac{8}{24} \;=\; \frac{1}{3}
+$$
+
+of the register's departures from sequence are unexplained even to the person who compiled them. **And the founding-year class has three members, all allocated between 25 November 2024 and 20 October 2025**, with none before. **No member of the class predates November 2024**, and all three fall in the eleven months before the semiquincentennial, the 250th anniversary of 1776. **The class is new, and it arrived as a cluster.** The tightness of the cluster can be given a scale. If $J$ members were placed independently and uniformly over a window of $W$ days, the probability that all of them fall within some span of $w$ days is the distribution of their range $R$,
+
+$$
+\Pr\bigl[\,R \le w\,\bigr] \;=\; J\,x^{J-1} \;-\; (J-1)\,x^{J}, \qquad x \;=\; \frac{w}{W} .
+$$
+
+**With the three members spanning $w$ equal to 329 days, and the register's window from 19 August 1998 to the end of November 2025 being $W$ equal to 9,965 days**, $x$ is 0.03302 and
+
+$$
+\Pr\bigl[\,R \le 329\ \text{days}\,\bigr] \;=\; 3\,(0.03302)^{2} - 2\,(0.03302)^{3} \;=\; 0.00320 .
+$$
+
+**That is a scale and not a test.** The uniform null is the hypothesis that founding-year numbers arrive with no occasion, which nobody holds, and the window was drawn after the cluster was seen. What it says is that three such numbers falling together by accident would be about a one-in-three-hundred event, so the clustering is the occasion's signature rather than chance.
 
 ### The 2020 Rule Describes Less Than a Third of the Allocations Made Under It
 
@@ -273,9 +365,21 @@ $$
 f \;=\; \frac{6}{23} \;=\; 0.261
 $$
 
-**Of the 23 events that had a predecessor, six follow the rule as written, a fraction of about a quarter.** **The count depends on one row and the article states both values.** The register gives the RQ-170 without a series letter, and the compiler notes that its official form may be RQ-170A. If that row is set aside, the unmanned series' highest number before September 2023 is 72, the XRQ-73A becomes one above it, and seven of the 23 events follow the rule, a fraction of 0.304. **That is the compiler's own follow-on reading of the 73 seen from the instruction's side**, and either way the rule as written describes less than a third of the allocations made under it. The thirteen below the highest number are mostly in series whose maximum is an outlier, such as the unmanned series with its 170 and the missile series with its 260, and they are what any working allocator must produce if it ignores outliers. **That is the compiler's convention and not the instruction's text**, as the [X-67][related_post_a364_x67_slot_taken_by_xq67] article established.
+**Of the 23 events that had a predecessor, six follow the rule as written, a fraction of about a quarter.** **The count depends on one row and the article states both values.** The register gives the RQ-170 without a series letter, and the compiler notes that its official form may be RQ-170A. If that row is set aside, the unmanned series' highest number before September 2023 is 72, the XRQ-73A becomes one above it, and seven of the 23 events follow the rule.
 
-**The research series was the exception until 2025.** Its first four events under the rule, from the X-62A through the X-66A, all took the next number. **Its next two, the X-68A and the X-76A, both skipped.** So the series that best followed the rule stopped following it in the same year that the founding-year class appeared.
+$$
+f' \;=\; \frac{7}{23} \;=\; 0.304
+$$
+
+**That is the compiler's own follow-on reading of the 73 seen from the instruction's side**, and either way the rule as written describes less than a third of the allocations made under it. The thirteen below the highest number are mostly in series whose maximum is an outlier, such as the unmanned series with its 170 and the missile series with its 260, and they are what any working allocator must produce if it ignores outliers. **That is the compiler's convention and not the instruction's text**, as the [X-67][related_post_a364_x67_slot_taken_by_xq67] article established.
+
+**The research series was the exception until 2025.** Its first four events under the rule, from the X-62A through the X-66A, all took the next number. **Its next two, the X-68A and the X-76A, both skipped.** Writing $f\_X$ for the research series' own fraction,
+
+$$
+f_X^{\,\text{2021 to 2023}} \;=\; \frac{4}{4} \;=\; 1, \qquad f_X^{\,\text{2025}} \;=\; \frac{0}{2} \;=\; 0 .
+$$
+
+So the series that best followed the rule stopped following it in the same year that the founding-year class appeared.
 
 ### The Design Number Is No Longer an Ordinal
 
@@ -291,7 +395,11 @@ $$
 o(76) \;=\; 76 - 12 \;=\; 64, \qquad \frac{76}{64} - 1 \;=\; 0.1875 .
 $$
 
-**The X-76A is at most the sixty-fourth research design number allocated, and its number overstates its place by 18.75 percent.** The bound is an upper one because it assumes that every number below 76 not on the compiler's list was allocated. The [X-23][related_post_a320_martin_marietta_x23] is on the list because the compiler finds no allocation for it, and this series treated that aircraft at full length while recording the disagreement. **Before 2025 the overstatement was five numbers in 68. The X-76A added seven in a single allocation.**
+**The X-76A is at most the sixty-fourth research design number allocated, and its number overstates its place by 18.75 percent.** The bound is an upper one because it assumes that every number below 76 not on the compiler's list was allocated. The [X-23][related_post_a320_martin_marietta_x23] is on the list because the compiler finds no allocation for it, and this series treated that aircraft at full length while recording the disagreement. **Before 2025 the overstatement was five numbers in 68. The X-76A added seven in a single allocation.** The share of printed numbers below the pointer that stand for no aircraft more than doubled.
+
+$$
+o(68) \;=\; 68 - 5 \;=\; 63, \qquad \frac{5}{68} \;=\; 0.0735 \;\;\longrightarrow\;\; \frac{12}{76} \;=\; 0.158
+$$
 
 ### A Year Can Be Spent Only Once, and Only Upward
 
@@ -307,11 +415,29 @@ $$
 99 - 76 \;=\; 23
 $$
 
-values. **The X-76A therefore used the last two-digit number in the research series that can stand for 1776, and it also passed 69 through 75**, which closed the years ending in those digits for as long as the 2020 rule is read literally. **The rule that refuses skipped sequences turns each chosen number into a one-way door.** Under the 1994 rule the X-50A's choice cost nothing permanent, because the 49 came back.
+values, a fraction
+
+$$
+\frac{99 - 76}{100} \;=\; 0.23
+$$
+
+of the years in any century. **The X-76A therefore used the last two-digit number in the research series that can stand for 1776, and it also passed 69 through 75**, which closed the years ending in those digits for as long as the 2020 rule is read literally. **The rule that refuses skipped sequences turns each chosen number into a one-way door.** Under the 1994 rule the X-50A's choice cost nothing permanent, because the 49 came back.
 
 ### What an Observer Counting From the Top Would Infer
 
-**Inferring how many items exist from the highest serial number seen is a classical estimation problem**, known from its wartime use as the German tank problem, and its whole method rests on numbers being issued in sequence without choice. **A chosen number breaks that assumption at its root.** An observer who read the X-76A as the seventy-sixth research aircraft, as the instruction's ordinal language invites, would overcount by twelve. **The register's design numbers have become, in part, a channel for messages**, and a channel for messages is a poor counter. The [X-67][related_post_a364_x67_slot_taken_by_xq67] article measured the same drift in the unmanned series in bits, and this article adds a mechanism that explains why it is spreading.
+**Inferring how many items exist from the highest serial number seen is a classical estimation problem**, known from its wartime use as the German tank problem, and its whole method rests on numbers being issued in sequence without choice. **A chosen number breaks that assumption at its root.** An observer who read the X-76A as the seventy-sixth research aircraft, as the instruction's ordinal language invites, would overcount by
+
+$$
+76 - o(76) \;=\; 12 .
+$$
+
+**The classical estimator makes the same error in a sharper form.** For $\kappa$ distinct serial numbers seen with largest $m$, the minimum-variance unbiased estimate of the total issued is
+
+$$
+\hat{M} \;=\; m\Bigl(1 + \frac{1}{\kappa}\Bigr) - 1 .
+$$
+
+**Even an observer who had seen all 64 research numbers ever allocated**, which is the most favourable case, would estimate 76.19 with $m$ equal to 76, overcounting by more than twelve. The estimator is right about a sequence issued without choice and wrong about this one by exactly the numbers the choice passed. **The register's design numbers have become, in part, a channel for messages**, and a channel for messages is a poor counter. The [X-67][related_post_a364_x67_slot_taken_by_xq67] article measured the same drift in the unmanned series in bits, and this article adds a mechanism that explains why it is spreading.
 
 ### The Next Research Number Is a Test
 
@@ -321,35 +447,67 @@ values. **The X-76A therefore used the last two-digit number in the research ser
 - **If it is the X-77A**, the 2020 text governs as written, and the seven numbers are permanently lost.
 - **If it is neither**, the series has another chosen number, which would make the founding-year class a practice rather than an episode.
 
-**The evidence points in two directions and the article reports both.** The unmanned series since 2020 has continued its contiguous run, with the RQ-29A and YRQ-30A taking the numbers after 28 although the series' maximum is 170, which favours the compiler's convention. **But the research series' own last test went the other way.** On a reading that keeps passed numbers available within a basic mission, the X-68A should have been the X-67A, and it was not, so the research series has already once treated a number as spent without allocating it in the series. **No public record as of 2 October 2026 shows either an X-69 or an X-77**, which is an absence of evidence across about a year of allocations and not evidence that none has been made.
+**The evidence points in two directions and the article reports both.** The unmanned series since 2020 has continued its contiguous run, with the RQ-29A and YRQ-30A taking the numbers after 28 although the series' maximum is 170, which favours the compiler's convention. In the two definitions written down earlier, applied to the unmanned series,
+
+$$
+n_{\text{RQ-29A}} \;=\; 29 \;=\; \nu^{\mathrm{c}}, \qquad n_{\text{YRQ-30A}} \;=\; 30 \;=\; \nu^{\mathrm{c}}, \qquad \nu^{\mathrm{hi}} \;=\; 171 ,
+$$
+
+so the unmanned series has followed $\nu^{\mathrm{c}}$ and not $\nu^{\mathrm{hi}}$ twice since the rule took effect. **But the research series' own last test went the other way.** On a reading that keeps passed numbers available within a basic mission, the X-68A should have been the X-67A, and it was not, so the research series has already once treated a number as spent without allocating it in the series. **No public record as of 2 October 2026 shows either an X-69 or an X-77**, which is an absence of evidence across about a year of allocations and not evidence that none has been made.
 
 ## Symbols
 
 | Symbol | Meaning | Unit |
 |---|---|---|
+| $\mathcal{B}$ | the block of research numbers 69 through 75 | none |
+| $t\_{68}$, $t\_{76}$, $t\_n$, $t\_{49}$, $t\_{50}$, $t\_{\mathrm{pub}}$, $t\_{\mathrm{d}}$, $t\_{\mathrm{DARPA}}$ | a date, being respectively the allocation of the X-68A, of the X-76A, of design number $n$, of the X-49A and of the X-50A, the first appearance of a row in an archived copy of the register, this article's editorial date of 14 December 2025, and DARPA's announcement of 9 March 2026 | date |
 | $n\_k$ | design number of the $k$-th new research allocation in date order | none |
-| $h\_k$, $h\_t$ | highest research design number allocated up to allocation $k$, or before time $t$ | none |
+| $h\_k$, $h\_t$, $h(t)$ | highest research design number allocated up to allocation $k$, or before time $t$ | none |
 | $\Delta\_k$ | advance of that highest number at allocation $k$ | none |
-| $s\_k$ | numbers passed at allocation $k$ | none |
-| $K$ | number of new research allocations in the register | none |
-| $T$ | span of those allocations in years | years |
-| $\hat{\lambda}$ | estimated rate of new research allocations per year | per year |
+| $s\_k$, $s$, $s\_{50}$, $s\_{76}$ | numbers passed at allocation $k$, by a single allocation, or by the X-50A and the X-76A | none |
+| $K$ | number of new research allocations in the register, and the step that allocated the X-76A | none |
+| $\mathcal{A}$ | set of research design numbers allocated | none |
+| $\mathcal{C}$ | subset of $\mathcal{A}$ judged chosen out of sequence | none |
+| $\nu^{\mathrm{hi}}$, $\nu^{\mathrm{c}}$ | the next number, as one above the highest allocated, and as one above the highest allocated in sequence | none |
+| $T$ | span of the research allocations | years |
+| $\hat{\lambda}$ | estimated rate of new research allocations | per year |
 | $\tau$ | the window between the X-68A and the X-76A | days |
+| $\mu$ | expected allocations in that window, $\hat{\lambda}\tau$ | none |
 | $N$ | number of allocations in that window under the Poisson model | none |
 | $i$ | summation index | none |
-| $n$ | a design number | none |
+| $c$, $c^{\star}$ | a multiplier on the rate, and the multiplier at which the tail reaches 0.05 | none |
+| $n$, $n\_{\text{RQ-29A}}$ | a design number, generally or of a named allocation | none |
 | $h$ | highest approved design number in a basic mission at the time of a request | none |
 | $y$ | a calendar year | year |
 | $\delta t$ | public announcement date minus allocation date | days |
-| $f$ | fraction of allocation events since November 2020 that follow the rule as written | none |
+| $J$ | number of founding-year allocations | none |
+| $R$ | range of their allocation dates | days |
+| $w$, $W$ | observed span of the founding-year class, and the register's window | days |
+| $x$ | ratio $w / W$ | none |
+| $f$, $f'$ | fraction of allocation events since November 2020 that follow the rule as written, with and without the RQ-170 row | none |
+| $f\_X$ | the same fraction within the research series alone | none |
 | $G$ | set of research design numbers never allocated | none |
 | $o(n)$ | ordinal position of design number $n$ among those actually allocated | none |
+| $\kappa$ | number of distinct serial numbers an observer has seen | none |
+| $m$ | largest serial number an observer has seen | none |
+| $\hat{M}$ | estimate of the total number issued | none |
+| $\bar{q}$ | mean number of clusters a gated record belongs to | none |
 
 ## The Contemporary Literature
 
 **There is no literature on the X-69 through X-75, and the article says so first.** A block of numbers that was never allocated produces no technical papers, and the sweep found none. **What the sweep maps is the set of fields this question sits in.** They are the engineering literature of designation and identifier allocation, the behavioural literature of why particular numbers are chosen, the statistical literature of inferring unseen counts from numbered items, the humanities and social science literature of commemoration and commemorative naming, and the public administration literature on discretion within rules.
 
-**The sweep admitted 2,050 records from a pool of 11,384 and cites 1,850 distinct works after removing 200 repeat registrations.** Of the admitted records, 225 were carried over from the [X-67][related_post_a364_x67_slot_taken_by_xq67] article's designation, identifier and taxonomy clusters rather than harvested again. A work admitted to several clusters is cited once, under the first of them in the order below.
+**The sweep admitted 2,050 records from a pool of 11,384 and cites 1,850 distinct works after removing 200 repeat registrations.** Of the admitted records, 225 were carried over from the [X-67][related_post_a364_x67_slot_taken_by_xq67] article's designation, identifier and taxonomy clusters rather than harvested again. A work admitted to several clusters is cited once, under the first of them in the order below. **The bookkeeping is a set of identities rather than assertions**, each checked by the verifier.
+
+$$
+11{,}384 \;=\; 11{,}223 + 161, \qquad 2{,}050 \;=\; 1{,}825 + 225, \qquad 1{,}850 \;=\; 2{,}050 - 200
+$$
+
+$$
+\frac{2{,}050}{11{,}384} \;=\; 0.180, \qquad \bar{q} \;=\; \frac{2{,}146}{2{,}050} \;=\; 1.047
+$$
+
+**The gate admitted 18.0 percent of the pool, and a record sits in 1.047 clusters on average**, so the clusters are nearly disjoint, which is a property of the narrow phrases each admits on.
 
 | Cluster | Works cited | What it holds |
 |---|---:|---|
@@ -367,7 +525,13 @@ values. **The X-76A therefore used the last two-digit number in the research ser
 | Discretion within rules | 229 | `discretion` |
 | **All clusters** | **1,850** | |
 
-**The shape of that table is the argument restated.** The commemoration clusters together, which are anniversaries, memory, commemorative naming and military heritage, are the largest group, because the X-76's number is an act of commemoration and those fields have studied such acts for a century. **The literature that would predict the X-76 is not aeronautical.** The literature of commemorative naming, much of which calls itself critical toponymy, studies who renames streets and squares, when they do it and what the names are made to say. **Of the 243 titles the gate admitted to that cluster, 73 name commemoration or memory, 39 name renaming, and 27 name a regime, a revolution, independence or colonialism.** That is a measurement of titles and not a reading of findings, and it says that the field's own vocabulary is the vocabulary of the founding-year class. **The aerospace community marked the last such anniversary as well**, the reports server holding a bicentennial survey of two hundred years of flight in America among its 8 admitted records.
+**The shape of that table is the argument restated.** The commemoration clusters together, which are anniversaries, memory, commemorative naming and military heritage, are the largest group, because the X-76's number is an act of commemoration and those fields have studied such acts for a century. **The literature that would predict the X-76 is not aeronautical.** The literature of commemorative naming, much of which calls itself critical toponymy, studies who renames streets and squares, when they do it and what the names are made to say. **Of the 243 titles the gate admitted to that cluster, 73 name commemoration or memory, 39 name renaming, and 27 name a regime, a revolution, independence or colonialism.** As shares of the cluster,
+
+$$
+\frac{73}{243} \;=\; 0.300, \qquad \frac{39}{243} \;=\; 0.160, \qquad \frac{27}{243} \;=\; 0.111 .
+$$
+
+That is a measurement of titles and not a reading of findings, and it says that the field's own vocabulary is the vocabulary of the founding-year class. **The aerospace community marked the last such anniversary as well**, the reports server holding a bicentennial survey of two hundred years of flight in America among its 8 admitted records.
 
 ### Designation, nomenclature and configuration identification
 

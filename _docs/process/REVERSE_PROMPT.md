@@ -5,6 +5,27 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A366 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT
+published.** Seventy of seventy-two drafted. Display equations **14 to 40**, lines 4,402 to 4,566, inline expressions 38 to 105, the symbol table 17 entries to 33, references held at 1,935, sections and tables unchanged at 11 H2, 42 H3 and 9 tables.
+
+**The scan listed 61 prose lines with a figure and no nearby display, and about two dozen were results.** Each is now displayed, computed in `eqpass366.py` and re-derived in `verify366.py` by a different route.
+
+**ONE DRAFTING-PASS SENTENCE WAS WRONG IN KIND AND IS REPLACED.** It said a clustering factor of about eight orders of magnitude would be needed to rescue the unreleased-allocations reading. Eight orders is the ratio of the tail to a 0.05 threshold, not a clustering factor. **The clustering factor is 23.51**, a rate of 19.67 new research numbers a year through that autumn, and the article now states both quantities by name.
+
+**TWO ADDITIONS ARE LABELLED AS SCALES AND NOT TESTS.**
+
+- The founding-year range probability of 0.00320 assumes a uniform null that nobody holds, over a window drawn after the cluster was seen.
+- The serial-number estimator is applied to show how a chosen number misleads, not to estimate anything.
+
+**A DEFECT THE PASS INTRODUCED AND CAUGHT.** Two new display blocks were followed directly by text and rendered as prose, so the page showed 38 of 40. `mathrot.py` reported the mismatch. The blank lines were added and a verifier check now forbids the pattern.
+
+**VERIFICATION.** `verify366.py` runs 679 checks and the floor on display equations is now 40. `_verify.py` reports 0 errors and 0 warnings across 304 posts. The stub build is clean, `_lib/render.py` reports no findings, all 40 display blocks are matched, and `symcheck.py` and `stylecheck.py` are clean.
+
+**NOTHING PUSHED.** **Next prompt: the primary-reference review of A366.** The pilot decision from the drafting pass is still open, namely whether A364's and A365's Epistemic State sections should record that the register rows they rely on were not public at their dates.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A366 DRAFTED, *X-Planes: X-69 through X-75, the Leapfrogged Block*, the first of four
 passes. Committed, NOT pushed, NOT published.** Seventy of seventy-two drafted. Editorial date
 2025-12-14, series index 70, designation-anomaly class under the reduced order. **4,402 lines, 14

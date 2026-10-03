@@ -644,8 +644,8 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_x69_through_x75_leapfrogged_block.markdown`, A366, editorial date 2025-12-14, series
 `x_planes` index 70 of 72, categories `aerospace history engineering`, designation-anomaly class
-under the reduced order. **DRAFTING PASS COMPLETE, the first of four. Committed, not pushed. NOT
-PUBLISHED**, and publication of the series has never been authorised.
+under the reduced order. **DRAFTING AND EQUATION-DENSITY PASSES COMPLETE, two of four. Committed, not
+pushed. NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **4,402 lines, 26,207 words of which about 13,900 lie outside the citation runs and reference lists,
 14 display equations, 38 inline expressions, a 17-entry symbol table and 1,935 reference definitions**,
@@ -679,7 +679,9 @@ findings. **Two `.mil` primaries return 403 to the address sweep and were read e
 with browser headers**, copies saved. **Residual noise remains in the swept pool** and the
 reference pass should audit it.
 
-**REMAINING.** Equation density, primary references and publication review.
+**THE EQUATION PASS.** Display equations **14 to 40**, lines 4,402 to 4,566, inline expressions 38 to 105, the symbol table 17 entries to 33, references held at 1,935, sections and tables unchanged at 11 H2, 42 H3 and 9 tables. The largest additions are the rate multiplier of 23.51 that seven unreleased allocations would require, replacing a sentence that had called a probability ratio a clustering factor, the founding-year range probability of 0.00320 against a uniform null stated as a scale, the two next-number definitions giving 77 and 69, and the serial-number estimator overcounting by more than twelve. Two inserted display blocks rendered as prose until a missing blank line was fixed, and the verifier now forbids it. `verify366.py` 679 checks.
+
+**REMAINING.** Primary references and publication review.
 
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 
