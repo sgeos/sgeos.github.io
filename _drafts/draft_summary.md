@@ -22,12 +22,14 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
 essay, categories `lifestyle fragrance war-gaming`, no series.
 
-**PRIMARY-REFERENCE PASS COMPLETE, the third of four. NOT published.** 2,204 lines,
-45 display equations, 195 inline expressions, 11 tables and 87 reference definitions,
-being 37 research works, 17 encyclopedic references, 11 guidance pages, 9 primary documents,
-5 history sources, 3 books, 3 commentary pieces and 2 data sources. The equation pass ended at
-2,104 lines and 74 references. Thirteen primaries were added in the reference pass, and how each
-was read is recorded in the article's Epistemic State. The drafting pass ended at 1,807 lines,
+**ALL FOUR PASSES COMPLETE. NOT published.** 7,747 lines, 45 display equations,
+196 inline expressions, 11 tables and 2,612 reference definitions, of which 2,525 are survey
+works added in the publication review. **The pilot added a standing requirement that every
+article in this line serve as a comprehensive survey and review of the contemporary literature,
+with no length or reference limit.** The survey admitted 2,541 works from 15,061 Crossref
+records into sixteen clusters, median year 2014, and its scripts are in gitignored `tmp/a377/`,
+namely `harvest377.py`, `cluster377.py`, `select377.py`, `abstracts377.py` and `survey377.py`.
+The primary pass ended at 2,204 lines and 87 references. The drafting pass ended at 1,807 lines,
 17 displays and 73 references. The new equations are the bottle and sustainment counts, the blend
 odour value, radius and area scaling, detection life and the marginal life of a spray, wind
 scaling, **the dose-free room-regime number**, car accumulation, the Stevens ratio, the overload

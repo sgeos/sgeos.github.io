@@ -5,6 +5,44 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A377 PUBLICATION REVIEW, the fourth and last of four passes. Committed, NOT published.** **Push status is a pilot decision, recorded below.** No X-Planes file was touched.
+
+**THE NEW REQUIREMENT AND HOW IT WAS MET.** The pilot asked that the article serve as a comprehensive survey and review of the contemporary literature, with no length or reference limit.
+- **Harvest.** 115 Crossref queries returned 15,061 distinct records.
+- **Gate.** The title gate is written for this subject, with keep and refuse guard titles that it passes hyphenated and unhyphenated. It was tuned against seeded random samples of both kept and dropped records, seeds 20261003, 7741 and 31415, each read.
+  - **Too permissive** at first. It admitted plant furocoumarin chemistry, mouse and gerbil chemosignals, fly and fish olfaction, car-park carbon monoxide, antenna near-field transforms, outdoor terpene–ozone chemistry, microbial skatole, questionnaire translations and retail coupon listings.
+  - **Too narrow** at first. It dropped bare perfume titles, flavour-and-fragrance analysis and two-zone exposure models.
+- **Excluded by design, and the article says so.** Coronavirus smell loss, environmental odour nuisance, electronic noses and food flavour.
+- **Result.** 2,541 works in sixteen clusters, median year 2014, 47.7 percent from 2015, 518 before 2000, and 100 dated 2026, which postdate the editorial date. **All 2,541 are cited in cluster rows.**
+- **Read for the prose.** 77 selected works had their abstracts fetched. 59 are discussed, of which five are named by title only.
+
+**WHAT THE SURVEY CHANGED IN THE ARTICLE.**
+- **Adaptation timing.** Pierce and Simons 2018 and Hintschich 2024 show significant adaptation at five and ten minutes, which brackets the assumed time constant.
+- **The wearer's own nose.** **Beekman 2022 measured perfume degrading its wearer's threshold and discrimination**, which is direct evidence for the article's central restraint.
+- **Differences between wearers.** Hadjiefstathiou 2025 attaches between-wearer evaporation differences to skin, not sex, so H3 stands with a qualification.
+- **Exposure models.** The two-zone near-field and far-field model is standard in occupational hygiene and cosmetic spray exposure.
+- **Thermal plume.** It carries floor-level material up at up to four times the ambient concentration.
+- **Spray inhalation.** Pump sprays release about 0.5 percent respirable droplets.
+- **Three gaps, stated in the conclusion.** No study measures detection by others as a function of spray count, compares body application points, or tests the advice on distance, rubbing or moisturising.
+
+**OTHER REVIEW FIXES.**
+- **Acronyms.** ASPCA and NIOSH were used before being spelled out, and EDEN and QRA were never expanded.
+- **Chanel's advice.** Its advice to apply to garment linings was added; the advice was confirmed through its search listing because the page returns 403.
+- **Diction.** The formula "could not be retrieved", at 2.5 times the corpus maximum, was rotated, and one garbled sentence was rewritten.
+- **Display text.** 25 duplicated display texts in the survey were disambiguated.
+
+**VERIFICATION.**
+- **Survey statistics.** Every stated survey statistic recomputes through `_lib/survey.py`, and all 16 rows pass the row-count gate.
+- **Link text.** Survey link text matches the registry display everywhere.
+- **Identifiers.** 250 of 250 seeded-sample DOIs resolve, and all 35 hand-cited DOIs resolve.
+- **Non-DOI URLs.** These return 200, apart from documented bot responses from Chanel, NIOSH, the Met (429), the CDC secondary page (307 loop) and EUR-Lex (202).
+- **Rendering.** 45 of 45 displays render, the render audit is clean, `_verify.py` reports 0 errors and 0 warnings, and `verify377.py` reports 0 failures. The page weighs about 915 KB.
+
+**PUSH, A PILOT DECISION.** **The X-Planes line committed `3d55f0b` on top of A377's third pass, marked NOT pushed, with some proofs still running.** It changes `_verify.py`, which CI runs. Pushing master pushes it, so A377 was not pushed without the pilot deciding.
+
+---
+
+**Date**: 2026-10-03
 **Task**: **SERIES REPAIR on the pilot's instruction to address every repair that can be completed without input. Committed, NOT pushed, NOT published.**
 
 **REPAIRED, EACH CHECKED AGAINST A SOURCE OR A GATE.**
