@@ -22,14 +22,24 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
 essay, categories `lifestyle fragrance war-gaming`, no series.
 
-**ALL FOUR PASSES COMPLETE. NOT published.** 7,747 lines, 45 display equations,
+**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS. NOT published.** 7,747 lines, 45 display equations,
 196 inline expressions, 11 tables and 2,612 reference definitions, of which 2,525 are survey
 works added in the publication review. **The pilot added a standing requirement that every
 article in this line serve as a comprehensive survey and review of the contemporary literature,
 with no length or reference limit.** The survey admitted 2,541 works from 15,061 Crossref
 records into sixteen clusters, median year 2014, and its scripts are in gitignored `tmp/a377/`,
 namely `harvest377.py`, `cluster377.py`, `select377.py`, `abstracts377.py` and `survey377.py`.
-The primary pass ended at 2,204 lines and 87 references. The drafting pass ended at 1,807 lines,
+The primary pass ended at 2,204 lines and 87 references.
+
+**THE PATHOLOGICAL USAGE PASS FOUND THE ENUMERATED TIC CLASS CLEAN AND THREE DISCOVERED
+FORMULAS OVER THE LIMIT.** Against 260 published peers, zero of the seventy watched words reach
+the corpus maximum, and `specific` stands at 7 uses and 0.45 per thousand against a peer maximum
+of 15.07. What the enumerated checks could not see was `and found` opening eighteen sentences,
+`this article` at 37 uses and `rather than` at 42, each now rotated. **`course of action` is
+exempt and unedited** at 7.52 times the peer maximum, being the register's own term of art by
+both signatures in the style guide. **The pass installed one phrase while removing another**,
+`of the room`, which the required before-and-after diff caught and which is now reworded.
+A safeguard stopped the pass twice without losing work, logged in `WORK_DURABILITY.md`. The drafting pass ended at 1,807 lines,
 17 displays and 73 references. The new equations are the bottle and sustainment counts, the blend
 odour value, radius and area scaling, detection life and the marginal life of a spray, wind
 scaling, **the dose-free room-regime number**, car accumulation, the Stevens ratio, the overload

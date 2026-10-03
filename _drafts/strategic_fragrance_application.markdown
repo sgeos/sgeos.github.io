@@ -138,7 +138,7 @@ recorded on a cuneiform tablet from Assur of about 1200 BC.
 Egyptian practice used fragrant oils and unguents applied by hand,
 held in jars of the kind the [Metropolitan Museum of Art][history_met_ointment_jar] preserves,
 and the incense [kyphi][ref_kyphi],
-which was burned to scent spaces rather than applied to people.
+which was burned to scent spaces and not applied to people.
 Plutarch describes kyphi in [*On Isis and Osiris*][book_plutarch_isis_osiris]
 as a compound of sixteen ingredients,
 honey, wine, raisins and resins among them,
@@ -146,7 +146,7 @@ mixed by perfumers while the sacred writings were read aloud to them,
 and Rimmel's [*Book of Perfumes*][book_rimmel_1865_book_of_perfumes] of 1865
 repeats the account that at Heliopolis it was burned at sunset,
 after resin at sunrise and myrrh at midday.
-That is the earliest dosing schedule in this article,
+That is the earliest dosing schedule on record here,
 three applications a day at fixed times,
 and it was applied to a room.
 The conical headpieces shown in Egyptian tomb paintings
@@ -169,7 +169,7 @@ which is the composition its name still implies.
 Eugène Rimmel, the London perfumer,
 advertised himself in 1862 as the patentee of a
 [perfume vaporiser for balls, soirées and theatres][history_bodleian_rimmel],
-a device for scenting rooms rather than people,
+a device for scenting rooms, not people,
 and he also sold [perfumed valentines][history_vam_rimmel_valentine],
 an early instance of fragrance applied to paper.
 The personal atomizer came from medicine.
@@ -189,7 +189,7 @@ Modern fine-fragrance pumps are manufactured to nominal doses,
 and [Aptar's VP4 pump][primary_aptar_vp4],
 a widely used fragrance pump,
 is offered at 70, 100 and 140 microlitres per actuation.
-The planning value of 0.10 mL used in this article is the middle of that range.
+The planning value of 0.10 mL used here is the middle of that range.
 It also fixes the number of actuations a bottle holds.
 Writing $V_b$ for the bottle volume and $N_{\mathrm{day}}$ for the daily spray count,
 the bottle holds $N_b$ actuations and lasts $T_b$ days.
@@ -542,7 +542,7 @@ Doubling the dose buys forty-one percent more radius.
 The absolute radius at application is 1.68 m for three sprays indoors
 and 1.94 m for four,
 but those numbers inherit the calibration of $C_{50}$
-and are illustrative rather than predictive.
+and are illustrative and not predictive.
 
 The same expression yields a half-life for the radius.
 Because the radius decays as $e^{-t/2\tau}$,
@@ -868,14 +868,14 @@ The independent observer serves as the plan's red cell,
 a receiver who did not participate in the application
 and whose report is therefore not contaminated by it.
 A red cell can be a household member asked at the door,
-and it is the cheapest instrument in this article.
+and it is the cheapest instrument in the plan.
 
 A secondary effect compounds the first.
 The wearer adapts not only during the day
 but across days to a fragrance worn daily.
 [Dalton and Wysocki][research_dalton_wysocki_1996_long_term]
 exposed subjects continuously to one of two odorants in their own homes for two weeks
-and found odorant-specific rises in detection threshold and falls in perceived intensity,
+and observed odorant-specific rises in detection threshold and falls in perceived intensity,
 with reduced sensitivity still evident in most subjects up to two weeks after the exposure ended.
 A signature fragrance is therefore perceived more weakly by its wearer each month
 while it is perceived identically by everyone else.
@@ -1272,7 +1272,7 @@ the washing term is $0.693 / 2 = 0.35$ per hour
 against an emission term of 0.33 per hour,
 so $\tau_{\mathrm{eff}} = 1 / 0.68 = 1.5$ h.
 **Handwashing halves the working life of a wrist application**
-and sends the removed half down a drain rather than toward a receiver.
+and sends the removed half down a drain instead of toward a receiver.
 The wrist is also the point most likely to transfer fragrance to food, paper and other people's hands,
 and the point most often raised to the wearer's own nose,
 which is the self-exposure pathway at its most direct.
@@ -1345,7 +1345,7 @@ Three further rules complete the plans.
 ### Whether the conventional points survive
 
 The conventional neck points survive,
-for proximity rather than pulse.
+for proximity, not pulse.
 The conventional chest point survives and is promoted to the first point.
 The conventional nape point survives and is promoted to the second.
 The conventional wrist points do not survive as skin points,
@@ -1473,7 +1473,7 @@ $$
 Matching one spray-equivalent with a two percent body mist takes $0.15 / 0.02 = 7.5$ sprays,
 so a body mist used to the same end state takes about eight sprays,
 and the instruction on such products to spray liberally
-is consistent with the dose model rather than a marketing excess.
+is consistent with the dose model and is not a marketing excess.
 
 **Aftershave** is applied to freshly shaved skin,
 which the safety section excludes as a point for fine fragrance.
@@ -1531,7 +1531,7 @@ since the fabric surface is cooler,
 and in the transport model it lacks the thermal plume that carries scent upward from the body.
 It therefore holds fragrance longer and projects it less.
 
-The conventional prohibitions are about materials rather than effect.
+The conventional prohibitions are about materials, not effect.
 Luxury leather houses advise against direct contact between perfume and their leather goods,
 and silk and pale fabrics stain.
 The standard workaround is to scent an intermediate,
@@ -1570,7 +1570,7 @@ $$
 A reed diffuser emitting 20 mg per hour of aromatic material
 into a 40 m³ living room at half an air change per hour
 holds $20{,}000 / (0.5 \times 40) = 1{,}000$ µg/m³,
-thirty-three times the median detection threshold used in this article
+thirty-three times the median detection threshold used throughout
 and above its planning value for too strong.
 The emission figure is an assumption for illustration,
 and the conclusion it supports is relative.
@@ -1600,7 +1600,7 @@ for whom the restraint on diffusers is the operative one.
 A car is a room with a volume of about 3 m³.
 By the far-field equation, the wearer's own morning application
 reaches room-regime concentrations in a closed car within minutes,
-and any room product added to it is applied to the smallest volume in this article.
+and any room product added to it is applied to the smallest volume considered here.
 
 ## Safety
 
@@ -1666,13 +1666,13 @@ and both errors run in the safe direction.
 The spray distance in conventional advice is usually justified by even coverage,
 and the better reason is the inverse square of the distance.
 
-The operational consequence for this article is narrow and firm.
+The operational consequence for the application plan is narrow and firm.
 **Sensitisation is cumulative and largely irreversible,
 so the application plan minimises the dose placed on skin
 whenever skin is not required by the end state.**
 A wearer who has reacted to a fragrance stops wearing it on skin,
 and the clothing and hair points in the placement section
-are the fallback rather than a workaround.
+are the fallback and not a workaround.
 Broken, irritated or freshly shaved skin is excluded as an application point,
 because a compromised barrier increases both irritation and the likelihood of sensitisation.
 
@@ -1822,7 +1822,7 @@ and of later [military small-business research topics][primary_navy_sbir_malodor
 These products share with fragrance an aerosol platform, a plume and a receiver.
 They differ in that the receiver's consent is absent by design,
 which places them outside every restraint this article operates under,
-and in that the end state is incapacitation or dispersal rather than detection.
+and in that the end state is incapacitation or dispersal instead of detection.
 Collateral and overkill have their ordinary meanings in that literature as well.
 **A full analysis of offensive applications is out of scope**,
 and nothing in the adjudication above transfers to them.
@@ -1875,7 +1875,7 @@ and olfactory research is dominated by insect and rodent neuroscience.
 Four bodies of work were excluded deliberately rather than by accident,
 and a reader should know that they exist.
 These are the literature on smell loss after coronavirus infection,
-which is large and concerns the receiver's illness rather than the application,
+which is large and concerns the receiver's illness and not the application,
 environmental odour nuisance from farms and treatment works,
 electronic noses,
 and food flavour.
@@ -1912,7 +1912,7 @@ and the prose says so where it does.
 ### What the literature establishes, and where it is moving
 
 **The engineering literature has moved from modelling evaporation to measuring it on people.**
-The perfume engineering programme that supplied this article's odour-value framework
+The perfume engineering programme that supplied the odour-value framework used above
 continues in the review by [Rodrigues et al 2021][research_rodrigues_2021_perfume_engineering].
 Its newer empirical arm measures release from real skin.
 [Hadjiefstathiou et al 2025, An innovative device for in vivo][research_hadjiefstathiou_terescenco_2025_b] built a device that samples the air above a perfume
@@ -1929,7 +1929,7 @@ does not recover all of a base note deposited on a blotter,
 and measured residual retention of 8 to 12 percent after eight hours
 in the presence of a longevity technology.
 [Berthier et al 2023][research_berthier_girard_2023] measured the evaporation kinetics of individual materials in a model perfume
-and found a class of fixatives slowing the evaporation of materials
+and showed a class of fixatives slowing the evaporation of materials
 with volatilities below 5,000 µg/L in both fine fragrance and eau de toilette.
 These studies support the lumped emission model's direction and expose its simplification,
 because they show that a perfume is a set of pools with very different time constants,
@@ -1944,7 +1944,7 @@ as the route to longevity.
 [Dallay et al 2023][research_dallay_malhiac_2023] reviews how fragrance partitions in skin-care emulsions
 and borrows from the food literature on aroma release from emulsions.
 **None of this literature addresses spray count or placement**,
-and the absence is the reason this article had to model them.
+and the absence is the reason they had to be modelled here.
 
 **The emission literature has found that fragrance matters to air quality out of proportion to its mass.**
 [Hurley et al 2021][research_hurley_smiley_2021] characterised eleven commercial fragrance mixtures
@@ -1960,10 +1960,10 @@ and the share that does not evaporate within hours is a modelled quantity rather
 
 **The indoor-air literature confirms the ventilation term of the far-field model in field measurements.**
 [Cheng et al 2023][research_cheng_chen_2023] sampled volatile organic compounds from reed diffusers in bathrooms
-and found significantly higher concentrations at lower air change rates.
+and recorded significantly higher concentrations at lower air change rates.
 [Lee et al 2024, Effect of spraying air freshener][research_lee_lee_2024] sprayed air fresheners in vehicle cabins for under a minute
 and measured total volatile organic compounds peaking at 364.3 µg/m³ at the front seat,
-the same order of magnitude as this article's car calculation,
+the same order of magnitude as the car calculation above,
 though for a different product and a larger dose.
 [Kim et al 2024][research_kim_lee_2024] found that electrically warming scented candles
 raised indoor monoterpene levels by factors of 16 to 30 on average,
@@ -1977,7 +1977,7 @@ which is known here only by its title.
 Threshold testing with standardised pens is now routine and the cluster is dominated by it.
 [Ren et al 2025][research_ren_hu_2025] reviews the variability of odour detection thresholds
 and their influence on building-material odour assessment,
-which is the problem this article's log-normal threshold distribution represents,
+which is the problem the log-normal threshold distribution above represents,
 and is cited by title alone, its abstract being unavailable.
 [Fuseda et al 2025][research_fuseda_saito_2025] showed that a modified six-point intensity scale
 yields ratings on an absolute rather than a relative perceptual scale.
@@ -1997,7 +1997,7 @@ more so after two hours,
 and more so in older participants.
 At the scale of weeks,
 [Mignot et al 2020][research_mignot_nahrath_2020] exposed participants to an odour at home for two weeks
-and found raised thresholds that recovered fully within a week of the exposure ending,
+and reported raised thresholds that recovered fully within a week of the exposure ending,
 with no difference between younger and older adults.
 That recovery is faster than the two weeks reported by Dalton and Wysocki,
 and the difference between the two studies is a disagreement in the literature
@@ -2019,7 +2019,7 @@ and this result shows the degradation extending to odours other than the fragran
 [Gillmeister et al 2025, Investigating plasticity of the o][research_gillmeister_pieniak_2025] screened 335 people for specific anosmia
 to androstenone, benzyl salicylate, bacdanol or maltol,
 trained 77 of them for two months,
-and found sensitivity to the odours they had been unable to smell improved,
+after which sensitivity to the odours they had been unable to smell improved,
 but that nine of ten participants followed up after 19 months had lost the gain for androstenone.
 [Gillmeister et al 2025, Olfactory training in specific an][research_gillmeister_nagai_2025] examined the same training in relation to variants of the receptor gene OR7D4.
 Benzyl salicylate and bacdanol are perfumery materials,
@@ -2060,7 +2060,7 @@ and the caution the safety section attaches to Steinemann's figure applies to ea
 
 **The social literature is dominated by ambient scent and chemosignals, and its strongest recent result is again on the wearer's side.**
 [Dai et al 2026][research_dai_wang_2026] paired strangers to share happy events
-and found that sharers wearing a pleasant fragrance reported more positive emotion and a stronger sense of belonging,
+and sharers wearing a pleasant fragrance reported more positive emotion and a stronger sense of belonging,
 with corresponding differences in cortical functional connectivity.
 Together with Roberts and colleagues,
 this places a measurable part of the social effect of fragrance in the person wearing it.
@@ -2068,8 +2068,8 @@ this places a measurable part of the social effect of fragrance in the person we
 that agreed with electroencephalographic measures,
 and [Feng et al 2025][research_feng_zhou_2025] studied floral, fruity and forest scents
 against physiological markers of fatigue in office workers.
-The office studies are the ambient-scent literature's version of this article's room regime,
-in which the scent is deliberately a property of the room and every occupant is its receiver.
+The office studies are the ambient-scent literature's version of the room regime above,
+in which the scent is deliberately a property of the space and every occupant is its receiver.
 
 **The airflow literature confirms the thermal plume's role and supplies the exposure models this article used.**
 [Zong et al 2022][research_zong_liu_2022] reviews the human thermal plume
@@ -2079,7 +2079,7 @@ which supports the article's treatment of low application points as feeding a ri
 [Sun et al 2021][research_sun_li_2021] notes that in calm indoor air most inhaled air
 comes from the boundary layer through which the plume flows,
 and [Gena et al 2020][research_gena_voelker_2020] measured the plume of a heated manikin by schlieren velocimetry.
-The two-zone near-field and far-field model this article built from first principles
+The two-zone near-field and far-field model built from first principles above
 is standard in occupational hygiene,
 where [Abattan et al 2021][research_abattan_lavoue_2021] reviewed 446 predicted-to-measured concentration ratios across 21 studies,
 and in cosmetic safety,
@@ -2089,11 +2089,11 @@ where [Steiling et al 2025][research_steiling_vandecasteele_2025] recommends one
 [Berrada-Gomez et al 2023][research_berradagomez_bui_2023] measured the droplet size distributions of 78 cosmetic sprays
 and showed that pump sprays released on average 0.5 percent of particles in the respirable range,
 against 15.25 percent for propellant sprays.
-For a fine-fragrance pump the inhalation route is therefore the vapour rather than the droplet.
+For a fine-fragrance pump the inhalation route is therefore the vapour, not the droplet.
 [Lee et al 2024, Emission characteristics of volat][research_lee_oh_2024] measured volatile organic compounds at one and three metres
-from 47 consumer sprays and found aromatic deodorants the highest emitters,
+from 47 consumer sprays with aromatic deodorants the highest emitters,
 and [Dai et al 2025][research_dai_quan_2025] measured particle emissions from sprays applied to the face and neck
-and found them strongly dependent on nozzle design.
+which proved strongly dependent on nozzle design.
 
 **The animal literature is small, practical and consistent with the article's zero-dose answer.**
 [Bates 2018][research_bates_2018] warns that a few drops of pure tea tree oil applied to a pet's skin
@@ -2109,7 +2109,7 @@ but more often required decontamination,
 and [Wilder et al 2022][research_wilder_mangipane_2022] found bear spray effective against polar bears in 18 of 19 incidents,
 with wind affecting performance in one.
 **The last two results are the irritant literature's versions of this article's dose curve and wind term**,
-which is a structural observation and not a transfer of anything in this article to that domain.
+which is a structural observation and not a transfer of anything here to that domain.
 
 **The historical literature is reaching the earliest perfumers through their texts.**
 [Song 2025][research_song_2025] studies the Middle Assyrian perfume recipes from the Temple of Aššur,
@@ -2135,7 +2135,7 @@ is named here for its title, no abstract having been obtainable.
   Part of a fragrance does not evaporate within a working day from a blotter or in a model,
   which lowers the effective deposited mass and moves every count in the adjudication slightly upward.
 - **The far-field and near-field models are the standard exposure models of two neighbouring disciplines**,
-  which this article reached independently and which supports their use.
+  which the transport section reached independently and which supports their use.
 
 **Three gaps remain.**
 No study located in the survey measures detection by other people as a function of spray count.
@@ -2340,10 +2340,11 @@ the registered bear spray label,
 and the Access Board's recommendations.
 Read in abstract are
 Dalton and Wysocki on long-term adaptation,
-Zaynoun and colleagues on bergamot phototoxicity,
-Api and colleagues on QRA2,
-Kimber and colleagues on dose per unit area,
-and Doty and colleagues on age.
+Zaynoun on bergamot phototoxicity,
+Api on QRA2,
+Kimber on dose per unit area,
+and Doty on age,
+each of those four being the first author of a paper with several.
 Three are cited for no more than their titles state,
 because only their bibliographic records could be retrieved.
 These are Clapeyron in translation and Clausius, for the origin of the vapour-pressure relation,
@@ -2360,7 +2361,7 @@ The 59 works its prose discusses were read in abstract,
 five of them could be named only for their titles,
 and the four excluded literatures named in its method are excluded by design.
 Its year statistics are computed from bibliographic records,
-which can carry the year of an online version rather than of print.
+which can carry the year of an online version in place of the print year.
 
 **Modelled.**
 Every number in the adjudication tables is the output of a deterministic model
@@ -2437,7 +2438,7 @@ A reader with a measured detection threshold for a blend
 should replace the calibrated value,
 which would move the open-plan and outdoor counts and nothing structural.
 A reader who believes the collateral constraint is too strict
-is disputing the end state rather than the analysis,
+is disputing the end state, not the analysis,
 and the analysis supports that dispute being had explicitly.
 
 ## Out of Scope
@@ -2467,7 +2468,7 @@ and the analysis supports that dispute being had explicitly.
   environmental odour nuisance,
   electronic noses
   and food flavour are excluded from the survey by design.
-  Each is large, and each bears on a receiver or an instrument rather than on an application.
+  Each is large, and each bears on a receiver or an instrument and not on an application.
 - **Storage and degradation.**
   Fragrance degrades with heat and light,
   and the effect on the emission model of a degraded product is not modelled.

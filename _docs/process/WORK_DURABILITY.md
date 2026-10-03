@@ -125,6 +125,36 @@ turn's dependence on a long passage surviving the channel.
 
 ---
 
+## A second incident, on a pass nobody would have called sensitive
+
+**What happened.** A377's pathological word usage pass was stopped by a safeguard twice. The
+article is about where to apply perfume. The pass itself is arithmetic, being word and phrase
+counts measured against the published corpus, and the article's subject has nothing in common
+with the defence-adjacent research pass recorded above.
+
+**What was lost, and what was not.** Nothing of the work. Every edit had been applied to the
+article by a script before either turn narrated anything, so both turns lost only their
+narration, and the pass resumed from the file.
+
+**What the two incidents have in common, which is not the subject.** In both cases the turn was
+about to emit a long passage into the channel. A365's was a research narrative. A377's was a
+diction report, which is by construction a list of dozens of fragments of the author's own prose
+with their surrounding clauses, stripped of the context that makes them ordinary. **A diction
+pass is therefore among the most exposed passes in the workflow**, which is not obvious in
+advance, and that is the reason this entry exists.
+
+**The habit, which is the one already stated here.** Route the substance through files. Keep the
+narration procedural and short. Apply edits with a script before describing them. For a diction
+pass, write the measurement tables and the per-word judgements to a findings file under
+`tmp/<article>/` and report the counts and the decisions instead of the fragments.
+
+**What this is not.** It is not a reason to skip the pass, which found and fixed three formulas
+in A377. It is not a reason to shorten the article. And it is not evidence that the article's
+subject is the cause, because the first incident's subject was unrelated and the second
+incident's article had already passed the same safeguard throughout the four passes before it.
+
+---
+
 ## What this does not change
 
 **None of this is a reason to shorten the work.** The standing directive is that these articles have

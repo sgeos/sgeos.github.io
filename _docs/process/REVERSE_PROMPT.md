@@ -5,6 +5,33 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A377 PATHOLOGICAL WORD USAGE PASS, a fifth pass on the pilot's instruction. Committed. NOT published.** The four numbered passes were pushed earlier at `3a46445`. No X-Planes file was touched.
+
+**MEASUREMENT.** `_lib/diction.py` with `'_posts/*.markdown'` passed explicitly as the peer set, 260 to 304 published peers. **The default peer glob is the article's own directory**, which for a draft means comparing A377 against 72 X-Planes drafts written in the same stretch, and the style guide forbids exactly that.
+
+**THE ENUMERATED TIC CLASS IS CLEAN.** 0 of 70 watched words at or above the peer maximum. `specific`, the word that caused the original corpus-wide problem, stands at 7 uses and 0.45 per thousand against a peer maximum of 15.07.
+
+**THE 59 RELATIVE OUTLIERS ARE THE SUBJECT.** `fragrance` 117, `spray` 91, `dose` 58, `wearer` 53. No published peer is about fragrance, so each scores an unbounded ratio. This is the documented limitation of a relative check and not a finding.
+
+**WHAT THE DISCOVERED-FORMULA CHECK FOUND, WHICH NOTHING ENUMERATED COULD SEE.**
+- **`and found` opened eighteen sentences.** Eight rotated to observed, showed, recorded, reported, after which, with and which proved. Now 4, at 1.03 times the peer maximum.
+- **`this article` 37 to 23.** Fourteen rewritten to name the referent, which is the better sentence: `the car calculation above`, `the transport section`, `the application plan`.
+- **`rather than` 42 to 28**, rotated across and not, not, instead of, in place of.
+- **`and colleagues on` four times in four consecutive lines** of one Epistemic State list, now first authors with one note that four have several.
+
+**ONE EXEMPTION, DECIDED AND NOT EDITED.** `course of action`, 8 uses, 7.52 times the peer maximum. `collocate` reports a 100 percent top-collocate share with seven distinct content-word qualifiers, which is the style guide's term-of-art signature twice over, and the wargaming register was the pilot's instruction. **No `_verify_exemptions.yml` entry was added**, because `_verify.py` does not warn on it, its threshold being 5.0 per thousand against `course` at 0.51. An entry against a check that never fires is the noise that file exists to prevent.
+
+**THE SUBSTITUTION CHECK CAUGHT THE PASS INSTALLING A FORMULA.** Diffing the formula list against the pre-pass state found `of the room` introduced at 4 uses by one of the `this article` rewrites. Reworded. **The diff is now clean in both directions, nothing introduced and nothing grown.** `and not` rose from 10 to 15 through the `rather than` rotation and is left at 0.95 against a peer maximum of 2.82, recorded in `tmp/a377/findings.md` as the one number to re-measure next pass rather than assume.
+
+**A SAFEGUARD STOPPED THIS PASS TWICE AND NO WORK WAS LOST.** Every edit was applied by script to the article before the turn narrated anything, so both turns lost only narration. **Logged in `WORK_DURABILITY.md` as a second incident**, whose common factor with the A365 one is a long passage bound for the channel and not the subject, a diction report being by construction a list of fragments of the author's own prose stripped of context. The entry says a diction pass is among the most exposed passes in the workflow, which was not obvious in advance.
+
+**VERIFICATION.** `_verify.py` 0 errors 0 warnings. `verify377.py` 0 failures. Prose rules clean. `lint.py` clean. 45 of 45 displays render and the render audit reports no findings. 7,748 lines, 2,612 references.
+
+**STILL NOT PUBLISHED, AND THAT REMAINS A PILOT DECISION.**
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A377 PUBLICATION REVIEW, the fourth and last of four passes. Committed, NOT published.** **Push status is a pilot decision, recorded below.** No X-Planes file was touched.
 
 **THE NEW REQUIREMENT AND HOW IT WAS MET.** The pilot asked that the article serve as a comprehensive survey and review of the contemporary literature, with no length or reference limit.
