@@ -4,6 +4,35 @@
 
 ## Last Updated
 
+**Date**: 2026-10-03
+**Task**: **A367 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT
+published.** Seventy-one of seventy-two drafted. References **3,724 to 3,736**, reference primaries **54 to 66**, hand-chosen research primaries **12 to 16**, lines 8,250 to 8,282, H3 sections 53 to 54, display equations held at 40.
+
+**THE LARGEST YIELD IS THE COMPETITOR'S OWN DOCUMENTS.** Aurora's releases of May and October 2024 say its Phase 1B fan-in-wing demonstrator carried "off-the-shelf turbofan and turboshaft engines". **So both finalists answered the solicitation's existing-engine rule with two kinds of engine.** That is the strongest evidence that the separate-engine choice belongs to the rule rather than to Bell, which the draft could only infer. The October release also dates the schedule slip: flight testing was still planned for 2027 in October 2024 and for 2028 by July 2025.
+
+**WHAT NOW RESTS ON A PRIMARY THAT DID NOT BEFORE.**
+
+- **The T700 lineage of the CT7.** It now rests on the New Zealand regulator's 2020 acceptance report and General Electric's 2004 release.
+- **The CT7-8's American approval, 29 September 2000.** It comes from the same report and General Electric's 2000 release.
+- **The PW308C's primary certificate, Transport Canada's E-31.** The 2007 New Zealand report also gives its application, the Falcon 2000EX, and its rating, 7,002 lb. **The European sheet's 31.15 kN is 7,003 lb, so two regulators agree to within a pound.**
+- **The single exhaust and the absent cockpit glazing.** These are now read from DARPA's own artist's concept, marked as a picture and as postdating.
+- **The per-mission design-number rule.** It is quoted from the 2020 instruction.
+- **The three flight standards the solicitation names.** They are identified by catalogue entry and not read, and the prose says so.
+- **The third award notice**, previously missing.
+- **Four report primaries.** These are Felker's hover and download work and the SR-7A helical tip Mach study.
+
+**THE ASSUMED XV-15 HOVER TIP SPEED IS NOW CHECKED AGAINST A MEASUREMENT.** It is Mach 0.69 at sea level, inside the 0.60 to 0.73 over which the full-scale XV-15 rotor hover test measured performance and found very little effect of tip Mach number.
+
+**A GAP REPORTED RATHER THAN FILLED.** The 1985 test's tabulated figure of merit did not survive text extraction. So the 0.75 remains a named assumption, and the prose says that no value is quoted from the reports.
+
+**NOT FOUND.** No issue of the CT7 data sheet dated before this article's date is archived, so issue 10, four days after the date, remains the source of the base-model ratings. The New Zealand report of 2020 corroborates the family's power range from inside the date. DARPA's 2023 and 2024 news releases are rendered by script in their archived copies and could not be read.
+
+**VERIFICATION.** `verify367.py` runs 547 checks, and all 66 quotations are found verbatim in 88 saved sources. All 66 primary reference addresses return 200; that does not verify a citation, but it excludes a dead one. `_verify.py` reports 0 errors and 0 warnings. The stub build is clean, the render audit has no findings, all 40 displays match, the style check has zero findings and `symcheck.py` passes.
+
+**NOTHING PUSHED.** **Next prompt: the publication review of A367**, which also pushes. The pilot decision on A364's and A365's Epistemic State sections is still open.
+
+---
+
 **Date**: 2026-10-02
 **Task**: **A367 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT
 published.** Seventy-one of seventy-two drafted. Display equations **18 to 40**, lines 8,109 to 8,250, inline expressions 60 to 95, the symbol table 41 entries to 51, references held at 3,724, sections unchanged at 16 H2 and 53 H3.

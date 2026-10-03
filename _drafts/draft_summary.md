@@ -644,7 +644,7 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_bell_textron_x76_sprint.markdown`, A367, editorial date 2025-12-15, series `x_planes`
 index 71 of 72, categories `aerospace history engineering`, full order and documentation-poor.
-**FIRST TWO PASSES COMPLETE, drafting and equation density. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
+**FIRST THREE PASSES COMPLETE, drafting, equation density and primary references. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **8,109 lines, 52,274 words of which about 14,100 lie outside the citation runs and reference lists,
 18 display equations, 60 inline expressions, a 41-entry symbol table and 3,724 reference definitions**,
@@ -678,7 +678,9 @@ in 17 seconds, `_lib/render.py` no findings across 540 pages, 18 display blocks 
 
 **THE EQUATION PASS.** Display equations **18 to 40**, lines 8,109 to 8,250, inline expressions 60 to 95, the symbol table 41 to 51 entries, references held at 3,724. The best new result is that the hover wake's dynamic pressure equals the rotor's thrust per unit disk area, $q\_w = (1+d)\,w$, independent of density. Also added are a cruise ceiling for an assumed lift-to-drag ratio, the jet's static thrust at 0.47 to 0.88 of weight, the advance ratio of 1.85 at the objective against the XV-15's 0.75, and the gearbox reduction across disk loading. **The money identity showed that the recorded Phase 1A obligations exceed the solicitation's Phase 1A figure by 194,105 dollars, so the Bell bound is restated as resting on a premise the first sub-phase did not meet.** `verify367.py` 517 checks, with thirteen symbolic displays asserted after a mutation test showed they were unchecked.
 
-**REMAINING.** The primary-reference review and the publication review.
+**THE PRIMARY-REFERENCE PASS.** References **3,724 to 3,736**, reference primaries **54 to 66**, hand-chosen research primaries **12 to 16**, lines 8,250 to 8,282. **Aurora's own 2024 releases show its competing Phase 1B design also carried off-the-shelf turbofan and turboshaft engines**, so both finalists answered the existing-engine rule the same way, and they date the schedule slip between October 2024 and July 2025. The New Zealand type acceptance reports, inside the date, put the PW308C's primary certificate with Transport Canada and its rating at 7,002 lb, agreeing with the European sheet to within a pound, and record the CT7-8's American approval on 29 September 2000. The XV-15 hover tip Mach number of 0.69 is checked against the 1985 full-scale rotor test's measured range. `verify367.py` 547 checks, all 66 quotations found in saved sources, and all 66 primary addresses returning 200.
+
+**REMAINING.** The publication review.
 
 ## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14
 
