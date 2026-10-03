@@ -644,7 +644,7 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_bell_textron_x76_sprint.markdown`, A367, editorial date 2025-12-15, series `x_planes`
 index 71 of 72, categories `aerospace history engineering`, full order and documentation-poor.
-**FIRST THREE PASSES COMPLETE, drafting, equation density and primary references. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
+**ALL FOUR PASSES COMPLETE. Committed and pushed. NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **8,109 lines, 52,274 words of which about 14,100 lie outside the citation runs and reference lists,
 18 display equations, 60 inline expressions, a 41-entry symbol table and 3,724 reference definitions**,
@@ -680,7 +680,9 @@ in 17 seconds, `_lib/render.py` no findings across 540 pages, 18 display blocks 
 
 **THE PRIMARY-REFERENCE PASS.** References **3,724 to 3,736**, reference primaries **54 to 66**, hand-chosen research primaries **12 to 16**, lines 8,250 to 8,282. **Aurora's own 2024 releases show its competing Phase 1B design also carried off-the-shelf turbofan and turboshaft engines**, so both finalists answered the existing-engine rule the same way, and they date the schedule slip between October 2024 and July 2025. The New Zealand type acceptance reports, inside the date, put the PW308C's primary certificate with Transport Canada and its rating at 7,002 lb, agreeing with the European sheet to within a pound, and record the CT7-8's American approval on 29 September 2000. The XV-15 hover tip Mach number of 0.69 is checked against the 1985 full-scale rotor test's measured range. `verify367.py` 547 checks, all 66 quotations found in saved sources, and all 66 primary addresses returning 200.
 
-**REMAINING.** The publication review.
+**THE PUBLICATION REVIEW.** **Final state 8,298 lines, 55,686 words, 40 display equations, 95 inline expressions, a 51-entry symbol table and 3,737 reference definitions**, being 66 primaries, 3,601 research works of which 17 are hand-chosen primaries, and 70 related posts, in 16 H2 and 55 H3 sections with 6 tables. **A literature synthesis was added from fetched abstracts.** It records the divided stopped-rotor revival, the whirl-flutter rig results that measure what the X-76 avoids, the convertible engine's silence since 1996, the 1980s hover data under runway independence, and the survey's silence on any in-flight stop-fold conversion. Nine overclaims and scope defects were fixed, and the conclusion now carries the competitor's identical engine choice. **The opening held.** `verify367.py` 569 checks, with every withdrawn wording asserted absent.
+
+**REMAINING.** Nothing, pending a publication decision.
 
 ## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14
 

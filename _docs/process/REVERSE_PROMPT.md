@@ -5,6 +5,40 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A367 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED, NOT
+published.** Seventy-one of seventy-two drafted. **Final state 8,298 lines, 55,686 words, 40 display equations, 95 inline expressions, a 51-entry symbol table and 3,737 reference definitions**, being 66 primaries, 3,601 research works of which 17 are hand-chosen primaries with abstracts and 616 of the 3,584 swept works are report-server records at 17.2 percent, and 70 related posts, in 16 H2 and 55 H3 sections with 6 tables, from a pool of 12,957.
+
+**THE LITERATURE SECTION MAPPED THE FIELD BUT DID NOT REVIEW IT, AND THE STANDING DIRECTIVE ASKS FOR A REVIEW.** A new subsection, "What the Literature Establishes, and Where It Is Moving", is written from abstracts fetched for this pass. It makes four points and records one silence.
+
+- **The stopped-rotor revival is divided.** Brown and Ahuja keep the rotor as a cruise lifting surface, while the X-76 removes it.
+- **Whirl flutter is the most active experimental subject in the survey.** The Maryland rig is flutter-free to 200 kt but loses chord damping above 175. ATTILA found torsion trending to negative damping. Splitting one tip rotor into two more than doubled the instability speed. **That literature is the measure of what the X-76 avoids.**
+- **The convertible engine has had no new literature in the pool since 1996**, and both finalists used separate engines.
+- **The hover data underpinning runway independence are from the 1980s.**
+- **No work in the survey reports a stop-fold conversion in flight.**
+
+Works without retrievable abstracts are cited for their titles, and the prose says so. Brown and Ahuja's forum paper was added as the seventeenth hand primary, because it is the record that carries the abstract.
+
+**OTHER DEFECTS FIXED.**
+
+- "Nothing else in common" with Bell's design, said of Aurora's, which shares the uncrewed concept, the speed goal and the engine types.
+- "The first folding tiltrotor demonstrator to be built", when at the date it was funded to manufacture and not built.
+- "The most authoritative technical fact … at any date."
+- "States it the same way in every document", when the budget books phrase it differently.
+- Two negative-existence claims that were not scoped to the documents read.
+- "Largest by far" for a cluster 34 percent larger than the next.
+- Dittmar and Hall's helical-tip-Mach work, described as more than its abstract supports.
+- An unexpanded ATTILA.
+- **The conclusion now carries the competitor's identical engine choice**, the primary pass's main finding, which it previously omitted.
+
+**THE OPENING WAS CHECKED AGAINST THE ANALYSIS AGAIN AND HELD**, having been corrected at the end of the drafting pass, which is the first article in four where the publication check found nothing in the opening.
+
+**VERIFICATION.** `verify367.py` runs 569 checks with 0 failures, and every withdrawn wording is asserted absent. All 75 quotations are found verbatim in 109 saved sources. `_verify.py` reports 0 errors and 0 warnings across 304 posts. The stub build is clean, `_lib/render.py` has no findings and all 40 displays match. The style check has zero findings. The scan's single prose semicolon is the debugging tag and its single parenthetical is the register row quoted verbatim, both as in earlier articles. All 66 primary addresses returned 200 in the previous pass.
+
+**PUSHED, NOT PUBLISHED.** One article remains, **A368, the closing synthesis**. The pilot decision on A364's and A365's Epistemic State sections is still open.
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A367 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT
 published.** Seventy-one of seventy-two drafted. References **3,724 to 3,736**, reference primaries **54 to 66**, hand-chosen research primaries **12 to 16**, lines 8,250 to 8,282, H3 sections 53 to 54, display equations held at 40.
 
