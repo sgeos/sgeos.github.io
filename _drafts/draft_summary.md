@@ -22,10 +22,19 @@ Stubs and largely incomplete drafts are assessed for topicality and publication 
 `strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
 essay, categories `lifestyle fragrance war-gaming`, no series.
 
-**DRAFTING PASS COMPLETE, the first of four. NOT published.** 1,807 lines, about 10,200 words of
-author prose, 17 display equations, 119 inline expressions, 11 tables and 73 reference definitions,
-being 30 research works, 16 encyclopedic references, 11 guidance pages, 6 primary documents,
-5 history sources, 3 commentary pieces and 2 data sources.
+**EQUATION-DENSITY PASS COMPLETE, the second of four. NOT published.** 2,104 lines,
+45 display equations, 195 inline expressions, 11 tables and 74 reference definitions,
+being 31 research works, 16 encyclopedic references, 11 guidance pages, 6 primary documents,
+5 history sources, 3 commentary pieces and 2 data sources. The drafting pass ended at 1,807 lines,
+17 displays and 73 references. The new equations are the bottle and sustainment counts, the blend
+odour value, radius and area scaling, detection life and the marginal life of a spray, wind
+scaling, **the dose-free room-regime number**, car accumulation, the Stevens ratio, the overload
+probability, the wearer exposure ratio, the adaptation half-time, the reapplication spiral, the
+collateral and overkill measures, the feasible-set definition, the expected collateral headcount,
+**the distance-only selectivity bound**, superposition for sequels, front-loading, the stepped
+handwashing decay, the receiver-sex threshold ratio, carrier trade-offs, the body-mist count,
+the room approach to steady state, the temperature effect on the time constant, and areal dose
+against spray distance.
 
 The pilot's brief asks for two things and declares only one. The article must answer the strategic
 application question thoroughly, and it must be funny by taking itself far too seriously **without

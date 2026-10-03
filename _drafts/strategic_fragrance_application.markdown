@@ -171,9 +171,21 @@ and [Aptar's VP4 pump][primary_aptar_vp4],
 a widely used fragrance pump,
 is offered at 70, 100 and 140 microlitres per actuation.
 The planning value of 0.10 mL used in this article is the middle of that range.
-It also gives the number of actuations in a 100 mL bottle
-as somewhere between 714 and 1,429 depending on the pump,
+It also fixes the number of actuations a bottle holds.
+Writing $V_b$ for the bottle volume and $N_{\mathrm{day}}$ for the daily spray count,
+the bottle holds $N_b$ actuations and lasts $T_b$ days.
+
+$$
+N_b = \frac{V_b}{v_s},
+\qquad
+T_b = \frac{V_b}{v_s \, N_{\mathrm{day}}}
+$$
+
+A 100 mL bottle holds between $100 / 0.14 = 714$ and $100 / 0.07 = 1{,}429$ actuations depending on the pump,
 and 1,000 at the planning value.
+At three sprays a day it lasts 333 days,
+and at four it lasts 250,
+so the choice between the two scenarios is also a choice about when the next bottle is bought.
 
 ## The Hypothesis
 
@@ -239,9 +251,24 @@ The calibrated threshold deserves a sentence of defence.
 Individual fragrance materials are detected at very low concentrations,
 linalool at 3.2 ng/L, which is 3.2 µg/m³,
 according to [Elsharif, Banerjee and Buettner][research_elsharif_2015_linalool].
-A blend is diluted in its own carrier of weaker materials,
-so if its most potent constituents make up a few percent of its aromatic mass,
-the blend's threshold expressed in total aromatic mass is of order tens of µg/m³.
+A blend is diluted in its own carrier of weaker materials.
+Perfume engineering expresses each component's contribution as an odour value,
+its vapour concentration $C_k$ divided by its detection threshold $\mathrm{ODT}_k$,
+and a component is perceptible when its odour value exceeds one.
+If the most potent component makes up a mass fraction $x_k$ of the aromatic material,
+the total aromatic concentration at which it reaches threshold follows directly.
+
+$$
+\mathrm{OV}_k = \frac{C_k}{\mathrm{ODT}_k} = \frac{x_k \, C}{\mathrm{ODT}_k},
+\qquad
+C_{50} \approx \frac{\mathrm{ODT}_k}{x_k}
+$$
+
+With linalool at 3.2 µg/m³ making up a tenth of the aromatic mass,
+the blend reaches threshold at $3.2 / 0.1 = 32$ µg/m³ of total aromatic material.
+The approximation ignores the vapour-phase enrichment of volatile components
+and the interaction of components below their individual thresholds,
+so it supports the order of magnitude and nothing finer.
 The value of 30 µg/m³ was then chosen so that three sprays of eau de parfum
 are detectable at a little under two metres indoors when fresh,
 which matches the projection the trade literature commonly describes.
@@ -406,7 +433,14 @@ Across the three enthalpies the factor runs from 1.32 to 1.43,
 and for a more typical two-kelvin difference between wrist and trunk it is about 1.15.
 **Warmer skin emits faster and is exhausted sooner.**
 It does not emit more in total,
-because the mass is fixed at application.
+because the mass is fixed at application,
+so the time constant scales inversely with the emission factor.
+
+$$
+\frac{\tau(T_2)}{\tau(T_1)} = \frac{q(T_1)}{q(T_2)}
+$$
+
+The three-hour planning constant on the trunk becomes about $3 \times 1.35 = 4.1$ h on the coolest distal skin.
 Since the detection radius at application scales as the square root of the emission rate,
 the entire temperature advantage of trunk over extremity
 is worth $\sqrt{1.35} = 1.16$ in starting radius,
@@ -455,7 +489,15 @@ $$
 
 **This is the central result on dose,
 and it does not depend on the calibrated threshold in the way the absolute numbers do.**
-The detection radius grows with the square root of the spray count.
+The detection radius grows with the square root of the spray count,
+and the area $\mathcal{A}$ within which the median receiver detects the fragrance grows linearly with it.
+
+$$
+\frac{r^{*}_{N_2}}{r^{*}_{N_1}} = \sqrt{\frac{N_2}{N_1}},
+\qquad
+\mathcal{A} = \pi \, r^{*2} \propto N
+$$
+
 Going from three sprays to four multiplies the radius by $\sqrt{4/3} = 1.155$
 and the detected area by $4/3$.
 Doubling the dose buys forty-one percent more radius.
@@ -476,14 +518,48 @@ $$
 No spray count changes how quickly the projected footprint shrinks.
 Dose sets the starting radius and nothing else.
 
+### The detection life at a fixed distance
+
+The complementary question is how long a receiver at a fixed distance $r$ continues to detect.
+Setting $C(r, t) = C_{50}$ and solving for $t$ gives the detection life $t_{\mathrm{det}}$,
+which exists only if the fragrance is detectable at that distance at all.
+
+$$
+t_{\mathrm{det}}(r) = \tau \ln \frac{q_0}{\pi \, u \, a^2 \, r^2 \, C_{50}},
+\qquad
+q_0 = \frac{m_0}{\tau}
+$$
+
+For three sprays at one metre indoors,
+$t_{\mathrm{det}} = 3 \ln (84.6 / 30) = 3.11$ h,
+and for four sprays it is 3.97 h.
+Because $q_0$ is proportional to $N$,
+the life added by one more spray depends only on the count already applied.
+
+$$
+\Delta t_{\mathrm{det}} = \tau \ln \frac{N + 1}{N}
+$$
+
+The second spray adds $3 \ln 2 = 2.08$ h, about 125 minutes.
+The fourth adds $3 \ln (4/3) = 0.86$ h, about 52 minutes.
+**Each spray buys less time than the one before it,
+and the fourth buys under an hour.**
+
 ### Wind
 
 Outdoors the air speed past the wearer rises by about an order of magnitude.
 Because the concentration is inversely proportional to $u$,
 the detection radius scales as $u^{-1/2}$.
-A breeze of 1.0 m/s shrinks the three-spray radius from 1.68 m to 0.53 m,
-and recovering the indoor radius outdoors requires ten times the dose,
-which is thirty sprays.
+A breeze of 1.0 m/s shrinks the three-spray radius from 1.68 m to 0.53 m.
+Holding the radius fixed while the air speed changes from $u_1$ to $u_2$
+requires the spray count to change in proportion.
+
+$$
+\frac{N_2}{N_1} = \frac{u_2}{u_1} \quad \text{at fixed } r^{*}
+$$
+
+Recovering the indoor three-spray radius in a 1.0 m/s breeze
+therefore requires $3 \times 1.0 / 0.1 = 30$ sprays.
 **No conventional spray count projects outdoors in moving air the way it does indoors**,
 and this is the one regime where the four-push scenario is underpowered rather than overpowered.
 
@@ -537,6 +613,47 @@ so the near field governs and the wearer remains the source.
 The difference between the two offices is a factor of thirty-three in $\lambda V$,
 and it decides the scenario before spray count is considered.
 
+### The room-regime number
+
+The decision between the two regimes can be made before anyone sprays anything.
+Once $t \gg 1/\lambda$, the room solution approaches a fixed multiple of the current emission rate.
+
+$$
+C_{\mathrm{room}}(t) \;\to\; \frac{q(t)}{V \left( \lambda - 1/\tau \right)}
+$$
+
+Dividing by the near-field concentration at the intended receiver's distance $r_i$
+cancels the emission rate entirely
+and leaves a dimensionless room-regime number $\Pi$,
+with $\lambda$ and $1/\tau$ expressed per second.
+
+$$
+\Pi = \frac{C_{\mathrm{room}}}{C(r_i)} = \frac{\pi \, u \, a^2 \, r_i^2}{V \left( \lambda - 1/\tau \right)}
+$$
+
+**When $\Pi$ exceeds one, the room is the source, and no spray count changes that,
+because $\Pi$ does not contain the dose.**
+For the shared office,
+$\Pi = (\pi \times 0.1 \times 0.09 \times 1) / (30 \times 1.85 \times 10^{-4}) = 5.09$,
+and the model's ratio of room to plume concentration at one metre
+is 4.74 at four hours and 5.06 at eight, converging on it.
+For the open-plan office $\Pi = 0.12$,
+and for dinner at half a metre in the restaurant $\Pi = 0.048$.
+The number is the formal version of the first thing to check,
+and it is computed from the room and the conversation distance alone.
+
+A closed car is the limiting case.
+For times short compared with $1/\lambda$, ventilation has not yet acted
+and the room concentration is the emitted mass divided by the volume.
+
+$$
+C_{\mathrm{room}}(t) \approx \frac{q_0 \, t}{V} \quad \text{for } t \ll 1/\lambda, \; t \ll \tau
+$$
+
+Five minutes after three fresh sprays in a 3 m³ cabin,
+$C_{\mathrm{room}} \approx 2.39 \times 300 / 3 = 239$ µg/m³,
+eight times the median threshold, everywhere in the car.
+
 ## Perception
 
 ### Intensity grows slowly with concentration
@@ -553,6 +670,13 @@ The constant $k$ sets the scale and drops out of every ratio used here.
 
 $$
 \psi = k \, C^{\,n}
+$$
+
+At a fixed distance the concentration is proportional to the spray count,
+so two counts compare through the exponent alone.
+
+$$
+\frac{\psi_{N_2}}{\psi_{N_1}} = \left( \frac{N_2}{N_1} \right)^{n}
 $$
 
 With $n = 0.5$ the fourth spray raises perceived intensity at a fixed distance
@@ -586,8 +710,13 @@ $$
 P_{\mathrm{det}}(C) = \Phi\!\left( \frac{\ln C - \ln C_{50}}{\sigma} \right)
 $$
 
-The same form with $C_{\mathrm{over}}$ in place of $C_{50}$
+The same form with the median overload concentration $C_{\mathrm{over}}$ in place of $C_{50}$
 gives the probability $P_{\mathrm{over}}$ that a receiver finds the fragrance too strong.
+
+$$
+P_{\mathrm{over}}(C) = \Phi\!\left( \frac{\ln C - \ln C_{\mathrm{over}}}{\sigma} \right)
+$$
+
 With $\sigma = 1.2$, one standard deviation of threshold is a factor of $e^{1.2} = 3.3$ in concentration,
 so a receiver at the sixteenth percentile of sensitivity
 needs 3.3 times the concentration the median receiver needs.
@@ -620,8 +749,15 @@ and notes that the effect can be very long-lasting.
 The review does not supply the time constants used below,
 which are planning values chosen to be conservative about how fast adaptation sets in.
 The wearer is the receiver with the highest exposure by an order of magnitude.
+Because the near-field concentration falls as the inverse square of distance,
+the ratio of the wearer's exposure at $r_w$ to a receiver's at $r_i$ is independent of everything else.
+
+$$
+\frac{C(r_w)}{C(r_i)} = \left( \frac{r_i}{r_w} \right)^{2}
+$$
+
 At 0.2 m from a neck application the near-field equation gives 2,100 µg/m³ at application,
-twenty-five times what a receiver at one metre experiences.
+$(1/0.2)^2 = 25$ times, or twenty-five times what a receiver at one metre experiences.
 Model the wearer's perceived intensity relative to its initial value
 as an adaptation factor $A(t)$ that decays from one toward a floor $\beta$
 with a time constant $\tau_a$.
@@ -631,9 +767,13 @@ A(t) = \beta + (1 - \beta)\, e^{-t/\tau_a}
 $$
 
 With an assumed floor of $\beta = 0.3$ and an assumed $\tau_a = 5$ min,
-the wearer perceives half the initial intensity when
-$e^{-t/\tau_a} = (0.5 - 0.3)/(1 - 0.3)$,
-which is at $t = 5 \ln 3.5 = 6.3$ min.
+the wearer perceives half the initial intensity at the adaptation half-time $t_{1/2}^{(a)}$.
+
+$$
+t_{1/2}^{(a)} = \tau_a \ln \frac{1 - \beta}{0.5 - \beta}
+$$
+
+That is $t = 5 \ln 3.5 = 6.3$ min.
 At that moment the emission rate is still
 $e^{-6.3/180} = 0.966$ of its initial value.
 
@@ -649,6 +789,16 @@ adapt to the new level,
 and reapply again.
 Each cycle adds dose that every other receiver perceives at full sensitivity,
 because no other receiver has spent the morning at 0.2 m from the source.
+If the wearer reapplies the original dose every adaptation half-time $\Delta_r$,
+the emission rate at time $t$ is the sum over every application so far,
+with $k = \lfloor t / \Delta_r \rfloor$ reapplications.
+
+$$
+q_{\mathrm{spiral}}(t) = \frac{m_0}{\tau} \sum_{j=0}^{k} e^{-(t - j \Delta_r)/\tau}
+$$
+
+With $\Delta_r = 6.3$ min, nine reapplications fall within the first hour,
+and at $t = 1$ h the emission rate is 11.8 times what the single application alone would produce.
 The process has no internal stopping condition.
 It ends at the bottle, at the schedule, or at a remark from a colleague,
 and the remark is the only one of the three that carries information about the end state.
@@ -710,13 +860,72 @@ D = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
 P_{\mathrm{det}}\!\big( C(r_i, t) + C_{\mathrm{room}}(t) \big) \, dt
 $$
 
-$K$ and $O$ follow by replacing $r_i$ with the unintended receiver's distance $r_u$,
-or $C_{50}$ with $C_{\mathrm{over}}$.
+$K$ and $O$ follow by replacing the intended receiver's distance $r_i$
+with the unintended receiver's distance $r_u$,
+or the detection probability with the overload probability.
+
+$$
+K = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
+P_{\mathrm{det}}\!\big( C(r_u, t) + C_{\mathrm{room}}(t) \big) \, dt,
+\qquad
+O = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
+P_{\mathrm{over}}\!\big( C(r_i, t) + C_{\mathrm{room}}(t) \big) \, dt
+$$
+
 A course of action is **feasible** when $D \geq 0.5$, $K \leq 0.2$ and $O \leq 0.1$.
-The recommended course of action in each scenario
+The recommended course of action $N^{\star}$ in each scenario
 is the smallest feasible spray count,
 because any spray beyond it buys detection the end state does not require
 at a cost in collateral and product.
+
+$$
+N^{\star} = \min \left\{ N \in \{0, 1, \ldots, 6\} \;:\; D(N) \geq 0.5,\; K(N) \leq 0.2,\; O(N) \leq 0.1 \right\}
+$$
+
+The collateral measure is a probability per unintended receiver,
+and a room usually holds more than one.
+With $n_u$ unintended receivers at comparable distance,
+the expected number who detect the fragrance over the window is their sum.
+
+$$
+\mathbb{E}[n_K] = \sum_{j=1}^{n_u} K_j \approx n_u \, K
+$$
+
+Eight colleagues within 2.5 m in the open-plan office,
+at the collateral of 0.15 that the split four-push produces below,
+give $8 \times 0.15 = 1.2$ colleagues detecting the wearer on an average day.
+The constraint of 0.2 per receiver is therefore not a promise that nobody notices.
+It is a promise that about one person in five does.
+
+### A bound on what distance alone can separate
+
+In the near field, intended and unintended receivers differ only in distance,
+and the inverse-square law fixes how far apart their concentrations can be.
+On the log-normal threshold scale that gap is a fixed number of standard deviations,
+independent of dose.
+
+$$
+\Delta z = \frac{\ln C(r_i) - \ln C(r_u)}{\sigma} = \frac{2 \ln (r_u / r_i)}{\sigma}
+$$
+
+Holding the unintended receiver at the collateral limit $K_{\max}$
+then caps the detection the intended receiver can reach at any instant,
+whatever the spray count,
+where $\Phi^{-1}$ is the inverse of the standard normal distribution function.
+
+$$
+D_{\max} = \Phi\!\left( \Phi^{-1}(K_{\max}) + \Delta z \right)
+$$
+
+For the offices, with $r_i = 1.0$ m and $r_u = 2.5$ m,
+$\Delta z = 2 \ln 2.5 / 1.2 = 1.53$
+and $D_{\max} = \Phi(-0.84 + 1.53) = 0.75$.
+For dinner, with $r_i = 0.5$ m and $r_u = 2.0$ m,
+$\Delta z = 2.31$ and $D_{\max} = 0.93$.
+**No spray count can make a fragrance more selective than the geometry of the encounter allows.**
+The bound holds for the near field alone,
+and a room term only lowers it,
+which is why the shared office falls so far short of it.
 
 ### Results for the reference eau de parfum
 
@@ -804,6 +1013,13 @@ A sequel is an application planned in advance for a later phase,
 here at 4.5 h, which is about the middle of the working day.
 Concentrations from the two applications add,
 since both the plume and the room equations are linear in the source.
+For applications of mass $m_j$ at times $t_j$,
+the emission rate is the superposition of their individual decays,
+where $\mathbb{1}$ is one once an application has been made and zero before.
+
+$$
+q(t) = \sum_{j} \frac{m_j}{\tau} \, e^{-(t - t_j)/\tau} \, \mathbb{1}[t \geq t_j]
+$$
 
 | Morning sprays | Midday sprays | Total | $D$ | $K$ | $O$ | Feasible |
 |---|---|---|---|---|---|---|
@@ -820,8 +1036,15 @@ achieve what five sprays applied at once achieve, with one spray fewer.**
 The reason is visible in the decay model.
 A spray applied at seven in the morning spends most of its mass before the afternoon,
 and a spray applied at noon spends its mass when the end state still needs it.
-Holding the morning emission rate at hour eight with a single application
-would require $e^{7.5/3} = 12$ times the dose,
+Holding at the end of the window, $t_1$, the emission rate that a dose $m_{\mathrm{req}}$
+delivers at its start, $t_0$, requires a single application to be larger by the decay between them.
+
+$$
+m_0 \geq m_{\mathrm{req}} \, e^{(t_1 - t_0)/\tau}
+$$
+
+For the working day, from 0.5 h to 8 h,
+that factor is $e^{7.5/3} = 12$,
 almost all of which would be emitted in the morning as collateral.
 **The four-push scenario, executed as a single application, is the wrong plan.
 Executed as a sequel, it is the smallest adequate plan for the full working day.**
@@ -967,6 +1190,13 @@ and each corresponds to a term in the models above.
 Attrition deserves an equation, because it is the property on which the wrist fails.
 Suppose each handwash removes a fraction $w$ of the dose remaining on the wrist,
 and the wearer washes every $\Delta t$ hours.
+The mass remaining on the wrist then decays continuously by emission
+and in steps by washing.
+
+$$
+m(t) = m_0 \, e^{-t/\tau} \, (1 - w)^{\lfloor t / \Delta t \rfloor}
+$$
+
 Averaged over the day, washing adds a loss rate to the emission rate,
 and the effective time constant $\tau_{\mathrm{eff}}$ is as follows.
 
@@ -1092,9 +1322,16 @@ with effect sizes between 0.08 and 0.30 that the authors describe as weak,
 and a threshold effect of 0.16.
 [Doty and Cameron's review][research_doty_cameron_2009_sex_differences]
 reaches a consistent conclusion.
-Read as a shift in the log threshold of 0.16 standard deviations,
-and taking this article's threshold spread of 1.2 natural log units as the standard deviation,
-an effect of that size moves the median threshold by a factor of about $e^{0.16 \times 1.2} = 1.2$.
+Read as a shift in the log threshold of $g$ standard deviations,
+and taking this article's threshold spread $\sigma$ as the standard deviation,
+an effect of size $g$ scales the median threshold of the more sensitive group.
+
+$$
+\frac{C_{50}^{\mathrm{women}}}{C_{50}^{\mathrm{men}}} \approx e^{-g \sigma}
+$$
+
+With $g = 0.16$ and $\sigma = 1.2$, the ratio is $e^{-0.19} = 0.83$,
+so a female receiver's median threshold is lower by a factor of about 1.2.
 That is a fifth of a spray per spray,
 below the resolution of the pump,
 and it does not change any adjudicated count.
@@ -1134,8 +1371,17 @@ An oil or wax carrier lowers the vapour pressure of the aromatic material dissol
 which in the emission model raises $\tau$.
 Because the detection radius scales as $\tau^{-1/2}$ at application,
 and its half-life scales as $\tau$,
-a carrier that triples the time constant
-shrinks the starting radius by $\sqrt{3}$ and triples the time over which it decays.
+a carrier that changes the time constant from $\tau_1$ to $\tau_2$ trades one against the other.
+
+$$
+\frac{r^{*}_2(0)}{r^{*}_1(0)} = \sqrt{\frac{\tau_1}{\tau_2}},
+\qquad
+\frac{t_{1/2,2}^{(r)}}{t_{1/2,1}^{(r)}} = \frac{\tau_2}{\tau_1}
+$$
+
+A carrier that triples the time constant
+shrinks the starting radius by $\sqrt{3}$, to 58 percent,
+and triples the time over which it decays.
 Attar is distilled into an oil base,
 traditionally sandalwood oil and now often liquid paraffin,
 with Kannauj in India as its historic centre.
@@ -1145,7 +1391,15 @@ At about two percent aromatic content,
 a body mist delivers 0.13 spray-equivalents per actuation,
 so the conventional three-push of a body mist is 0.4 spray-equivalents,
 below the one-spray dose the adjudication found adequate for dinner.
-A body mist used to the same end state takes about eight sprays,
+The count of a product at fraction $c$ that matches a required spray-equivalent dose
+inverts the spray-equivalent definition.
+
+$$
+N = N_{\mathrm{eq}} \, \frac{c_{\mathrm{ref}}}{c}
+$$
+
+Matching one spray-equivalent with a two percent body mist takes $0.15 / 0.02 = 7.5$ sprays,
+so a body mist used to the same end state takes about eight sprays,
 and the instruction on such products to spray liberally
 is consistent with the dose model rather than a marketing excess.
 
@@ -1248,6 +1502,16 @@ thirty-three times the median detection threshold used in this article
 and above its planning value for too strong.
 The emission figure is an assumption for illustration,
 and the conclusion it supports is relative.
+The approach to that steady state from a fresh start is governed by the ventilation alone.
+
+$$
+C_{\mathrm{room}}(t) = C_{\mathrm{room}}^{\infty} \left( 1 - e^{-\lambda t} \right)
+$$
+
+At half an air change per hour the room reaches 95 percent of its steady state after
+$3 / \lambda = 6$ h,
+so a diffuser placed in the morning has not yet shown its full effect by the afternoon,
+and a household that judges it by the first hour will overprovision it.
 **The steady state is inversely proportional to ventilation,
 so a room fragrance product tuned for a draughty room is overpowering in a sealed one**,
 and closing a window doubles the concentration as surely as doubling the product does.
@@ -1295,6 +1559,34 @@ The industry's own instrument is the set of
 [standards maintained by the International Fragrance Association][primary_ifra_52nd_amendment],
 or IFRA,
 which prohibit, restrict or specify the purity of individual materials.
+
+### Spray distance and dose per unit area
+
+The induction of skin sensitisation depends principally on the dose per unit area of skin
+rather than on the total dose,
+as [Kimber, Dearman and Basketter][research_kimber_2008_dose_per_area] review,
+except when the exposed area falls below a critical size.
+Spray distance therefore matters for safety in a way it does not for projection.
+An atomizer delivers a roughly conical spray of half-angle $\theta$,
+so at a distance $d$ the footprint has radius $d \tan \theta$
+and one actuation spreads its deposited mass over that footprint at a mean areal dose $\mu$.
+
+$$
+\mu = \frac{v_s \, \rho \, c \, \eta}{\pi \, d^2 \tan^2 \theta}
+$$
+
+With an assumed half-angle of 20 degrees,
+one actuation of eau de parfum at 10 cm covers 41.6 cm²
+at a mean of $8{,}610 / 41.6 = 207$ µg/cm² of aromatic material.
+At 15 cm it covers 93.6 cm² at 92 µg/cm²,
+and at 20 cm 166.5 cm² at 52 µg/cm².
+**Doubling the spray distance quarters the areal dose.**
+The calculation holds the deposition efficiency fixed,
+which overstates the dose at the greater distances,
+since more of the spray drifts away from the target,
+and both errors run in the safe direction.
+The spray distance in conventional advice is usually justified by even coverage,
+and the better reason is the inverse square of the distance.
 
 The operational consequence for this article is narrow and firm.
 **Sensitisation is cumulative and largely irreversible,
@@ -1550,7 +1842,10 @@ the time constant of three hours,
 the adaptation floor and time constant,
 the handwashing removal fraction and interval,
 the overkill threshold at thirty times the detection threshold,
-and the reed diffuser emission rate
+the reed diffuser emission rate,
+the atomizer's spray half-angle of 20 degrees,
+the linalool fraction of a tenth used to defend the calibrated threshold,
+and the eight colleagues in the collateral headcount
 are planning values with no direct source.
 The adaptation values in particular are not supplied by the adaptation literature cited,
 which describes the effect without the time constants used here.
@@ -1712,6 +2007,7 @@ and the second opinion is free.
 - [Research, Doty and others 1984, Smell Identification Ability, Changes with Age][research_doty_1984_age]
 - [Research, Elsharif, Banerjee and Buettner 2015, Structure-Odor Relationships of Linalool, Linalyl Acetate and Their Corresponding Oxygenated Derivatives][research_elsharif_2015_linalool]
 - [Research, Keller and others 2007, Genetic Variation in a Human Odorant Receptor Alters Odour Perception][research_keller_2007_or7d4]
+- [Research, Kimber, Dearman and Basketter 2008, Dose Metrics in the Acquisition of Skin Sensitization, Thresholds and Importance of Dose per Unit Area][research_kimber_2008_dose_per_area]
 - [Research, Lenochová and others 2012, Psychology of Fragrance Use][research_lenochova_2012_perfume_blend]
 - [Research, Mata, Gomes and Rodrigues 2005, Engineering Perfumes][research_mata_2005_engineering_perfumes]
 - [Research, McGann 2017, Poor Human Olfaction Is a 19th-Century Myth][research_mcgann_2017_human_olfaction]
@@ -1786,6 +2082,7 @@ and the second opinion is free.
 [research_doty_cameron_2009_sex_differences]: https://doi.org/10.1016/j.physbeh.2009.02.032
 [research_elsharif_2015_linalool]: https://doi.org/10.3389/fchem.2015.00057
 [research_keller_2007_or7d4]: https://doi.org/10.1038/nature06162
+[research_kimber_2008_dose_per_area]: https://doi.org/10.1016/j.yrtph.2008.01.010
 [research_lenochova_2012_perfume_blend]: https://doi.org/10.1371/journal.pone.0033810
 [research_mata_2005_engineering_perfumes]: https://doi.org/10.1002/aic.10530
 [research_mcgann_2017_human_olfaction]: https://doi.org/10.1126/science.aam7263

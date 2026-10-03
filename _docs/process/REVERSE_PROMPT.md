@@ -5,6 +5,30 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A377 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT published.** No X-Planes file was touched.
+
+**FINAL STATE.**
+- **Mathematics.** Display equations **17 to 45** and inline expressions 119 to 195. Every new display has its symbols defined before it and a worked example after it.
+- **Size.** Lines 1,807 to 2,104 and H3 sections 39 to 43.
+- **References.** 73 to 74. Kimber, Dearman and Basketter 2008 was added to support the claim that dose per unit area drives sensitisation, which was checked against the abstract.
+
+**BEST NEW RESULTS.**
+- **The room-regime number contains no dose.** Its value is pi u a squared r squared divided by V times the quantity lambda minus one over tau. Above one the room is the source, and no spray count changes that. It is 5.09 for the shared office, which the model's room-to-plume ratio approaches as 4.74 at four hours and 5.06 at eight, 0.12 for open plan and 0.048 at dinner. This makes the doctrine's "check the room before the wearer" rule exact.
+- **Distance alone bounds selectivity.** With collateral held at 0.2, intended detection cannot exceed 0.75 in the offices or 0.93 at dinner at any dose.
+- **Each spray buys less time than the last.** The added detection life is tau times the log of N plus one over N, about 125 minutes for the second spray and 52 for the fourth.
+- **Doubling the spray distance quarters the areal dose**, which gives the conventional distance advice a sensitisation rationale it does not usually state.
+
+**WHAT VERIFICATION CAUGHT.**
+- **One display equation rendered as inline math** because no blank line followed its closing delimiter. **`_verify.py`, which has a display-demotion check, and `_lib/render.py` both passed it.** A comparison of source displays against rendered `\[` blocks found it, and all 45 now render. **This is a gap in the corpus tooling worth a pilot decision.**
+- **"is as follows" reached the corpus maximum** after three new introductions used it. Those three were reworded, and the phrase now appears five times.
+
+**VERIFICATION.**
+- `tmp/a377/verify377.py` now also checks every new worked number, with 0 failures.
+- `_verify.py` reports 0 errors and 0 warnings, and the scratch production build renders clean.
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A377 DRAFTED, *Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios*, the first of four passes. Committed, NOT pushed, NOT published.** This is a second line, independent of the X-Planes line, and it touched no X-Planes file.
 
 **FINAL STATE OF THE DRAFTING PASS.**
