@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Android Development on FreeBSD"
-date: 2026-08-20 00:01:00 +0000
+date: 2126-08-20 00:01:00 +0000
 categories: android freebsd rust
 ---
 

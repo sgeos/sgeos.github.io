@@ -3,7 +3,7 @@ layout: post
 mathjax: false
 comments: true
 title: "Getting Started with Claude Code Over SSH"
-date: 2026-08-16 00:01:00 +0000
+date: 2126-08-16 00:01:00 +0000
 categories: ai ai-tools ssh development
 ---
 
@@ -788,5 +788,5 @@ for integrated remote development.
 [ref_ssh_config]: https://man.openbsd.org/ssh_config
 [ref_ssh_keygen]: https://man.openbsd.org/ssh-keygen
 [related_post_claude_code]: {% post_url 2026-01-31-claude_code_getting_started %}
-[related_post_claude_code_freebsd]: {% post_url 2026-08-14-claude_code_getting_started_on_freebsd %}
-[related_post_claude_code_openbsd]: {% post_url 2026-08-15-claude_code_getting_started_on_openbsd %}
+[related_post_claude_code_freebsd]: {% post_url 2126-08-14-claude_code_getting_started_on_freebsd %}
+[related_post_claude_code_openbsd]: {% post_url 2126-08-15-claude_code_getting_started_on_openbsd %}
