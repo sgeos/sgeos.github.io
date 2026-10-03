@@ -14,11 +14,11 @@ series_index: 61
 
 **The register calls it an aircraft. The Air Force calls it a rocket twelve times.**
 
-The X-60A entry in the register of American military aerospace designations opens with the words *This aircraft is an autonomous hypersonic vehicle* [[DOD 4120.15-L Addendum][ref_mds_addendum]]. Twenty-seven days after that allocation the Air Force published the release announcing the designation, and its second sentence is this.
+The X-60A entry in the register of American military aerospace designations opens with the words *This aircraft is an autonomous hypersonic vehicle* \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. Twenty-seven days after that allocation the Air Force published the release announcing the designation, and its second sentence is this.
 
 > It is an air-dropped liquid rocket, specifically designed for hypersonic flight research to mature technologies including scramjet propulsion, high temperature materials and autonomous control.
 
-That is from the announcement of 4 October 2018 [[Air Force][ref_af_designation]]. Across the 3 Air Force releases about this vehicle, totalling 1,032 words, the word rocket appears 12 times and the word aircraft appears 1 time. **That single occurrence refers to the aeroplane the rocket hangs underneath.**
+That is from the announcement of 4 October 2018 \[[Air Force][ref_af_designation]\]. Across the 3 Air Force releases about this vehicle, totalling 1,032 words, the word rocket appears 12 times and the word aircraft appears 1 time. **That single occurrence refers to the aeroplane the rocket hangs underneath.**
 
 This is the sixty-first article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], the [X-56][related_post_a353_lockheed_martin_x56], the [X-57][related_post_a354_esaero_x57_maxwell], the [X-58][related_post_a355_x58_slot_taken_by_xq58], and the [X-59][related_post_a356_x59_quesst].
 
@@ -64,23 +64,23 @@ The Air Force Research Laboratory, which ran the programme and is abbreviated AF
 
 > AFRL's motivation for the X-60A program is to increase the frequency of flight testing while lowering the cost of maturing hypersonic technologies in relevant flight conditions. While hypersonic ground test facilities are vital in technology development, we must also test those technologies with actual hypersonic flight conditions.
 
-That is from the critical design review release of 7 March 2019 [[Hellman, AFRL][ref_afrl_cdr]]. **The keystone is therefore not a speed and not an altitude. It is a rate and a price**, and the physical quantity underneath both is seconds of usable test condition delivered per dollar.
+That is from the critical design review release of 7 March 2019 \[[Hellman, AFRL][ref_afrl_cdr]\]. **The keystone is therefore not a speed and not an altitude. It is a rate and a price**, and the physical quantity underneath both is seconds of usable test condition delivered per dollar.
 
 The Air Force's own metaphor for the vehicle is exact rather than decorative.
 
 > The X-60A is like a flying wind tunnel to capture data that complements our current ground test capability.
 
-That is Colonel Colin Tucker, then military deputy in the office of the deputy assistant secretary for science, technology and engineering, quoted in the designation announcement [[Air Force, 4 October 2018][ref_af_designation]]. **A wind tunnel is a machine for producing a flow condition on demand, and its figure of merit is condition-seconds per run and dollars per run.** The comparison commits the programme to being judged on exactly those two numbers, and this article computes both.
+That is Colonel Colin Tucker, then military deputy in the office of the deputy assistant secretary for science, technology and engineering, quoted in the designation announcement \[[Air Force, 4 October 2018][ref_af_designation]\]. **A wind tunnel is a machine for producing a flow condition on demand, and its figure of merit is condition-seconds per run and dollars per run.** The comparison commits the programme to being judged on exactly those two numbers, and this article computes both.
 
 ### Why the Corridor Is the Subject and the Vehicle Is Not
 
-The contract that paid for the X-60A is titled *Flight Testing of an Air Launch Testbed for Endoatmospheric Hypersonic Trajectories* [[USAspending, FA865017C2414][ref_usaspending_c2414]]. **The operative word is endoatmospheric.** A sounding rocket that goes up and comes down passes through hypersonic Mach numbers on both legs and spends almost all of its flight where there is no air worth speaking of. This vehicle was built to stay in the air, at speed, on purpose.
+The contract that paid for the X-60A is titled *Flight Testing of an Air Launch Testbed for Endoatmospheric Hypersonic Trajectories* \[[USAspending, FA865017C2414][ref_usaspending_c2414]\]. **The operative word is endoatmospheric.** A sounding rocket that goes up and comes down passes through hypersonic Mach numbers on both legs and spends almost all of its flight where there is no air worth speaking of. This vehicle was built to stay in the air, at speed, on purpose.
 
 Staying in the air at speed is the whole difficulty, and it is a statement about $q$ rather than about $M$. **The rest of this article treats the corridor as the subject and the airframe as a delivery mechanism for it**, which is the same move the [X-54][related_post_a351_gulfstream_x54] and the [X-59][related_post_a356_x59_quesst] required when their subject turned out to be a pressure signature rather than an aeroplane.
 
 ## Programme Origin
 
-**Generation Orbit Launch Services appears exactly once in the register's 526 rows** [[DOD 4120.15-L Addendum][ref_mds_addendum]]. The company was an Atlanta subsidiary of SpaceWorks Enterprises, and the federal small-business database records it as having **five employees** [[SBIR portfolio][ref_sbir_gols]]. Against those five employees the same database records **38,353,364 dollars in total small-business awards across 3 Phase I and 2 Phase II instruments**, of which 38,003,573 dollars is Phase II money.
+**Generation Orbit Launch Services appears exactly once in the register's 526 rows** \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The company was an Atlanta subsidiary of SpaceWorks Enterprises, and the federal small-business database records it as having **five employees** \[[SBIR portfolio][ref_sbir_gols]\]. Against those five employees the same database records **38,353,364 dollars in total small-business awards across 3 Phase I and 2 Phase II instruments**, of which 38,003,573 dollars is Phase II money.
 
 The sequence is legible in the federal contract record and nowhere else in that detail.
 
@@ -90,7 +90,7 @@ The sequence is legible in the federal contract record and nowhere else in that 
 | FA865015C2542 | 23 July 2015 | 3,703,204 | Air Launch Testbed for Endoatmospheric Hypersonic Trajectories |
 | FA865017C2414 | 27 March 2017 | 30,921,064.62 | Flight Testing of an Air Launch Testbed for Endoatmospheric Hypersonic Trajectories |
 
-Those figures are total obligations rather than announced ceilings, and the two do not agree. The small-business database records the 2017 award as 34,530,060 dollars while the contract record shows 30,921,064.62 dollars actually obligated across 30 modifications [[SBIR portfolio][ref_sbir_gols]] [[USAspending, FA865017C2414][ref_usaspending_c2414]]. **An announced value is a ceiling and an obligation is money, and this article uses the second wherever it can.**
+Those figures are total obligations rather than announced ceilings, and the two do not agree. The small-business database records the 2017 award as 34,530,060 dollars while the contract record shows 30,921,064.62 dollars actually obligated across 30 modifications \[[SBIR portfolio][ref_sbir_gols]\] \[[USAspending, FA865017C2414][ref_usaspending_c2414]\]. **An announced value is a ceiling and an obligation is money, and this article uses the second wherever it can.**
 
 ### The First Small-Business Programme to Hold an X Number
 
@@ -98,17 +98,17 @@ The Air Force made a specific claim about the designation on the day it announce
 
 > This is the first Air Force Small Business Innovative Research program to receive an experimental "X" designation.
 
-That is the closing sentence of the designation release [[Air Force, 4 October 2018][ref_af_designation]]. **It is a claim about the designation system rather than about the vehicle**, and it is worth pausing on, because the X series was created for exactly the opposite kind of undertaking. The [X-1][related_post_a298_bell_x1] was a joint service and agency programme with a national research laboratory behind it. The [X-15][related_post_a312_north_american_x15] consumed a decade and three airframes. **A Small Business Innovation Research contract is a procurement instrument with a statutory ceiling designed to buy feasibility studies from firms of a few dozen people.**
+That is the closing sentence of the designation release \[[Air Force, 4 October 2018][ref_af_designation]\]. **It is a claim about the designation system rather than about the vehicle**, and it is worth pausing on, because the X series was created for exactly the opposite kind of undertaking. The [X-1][related_post_a298_bell_x1] was a joint service and agency programme with a national research laboratory behind it. The [X-15][related_post_a312_north_american_x15] consumed a decade and three airframes. **A Small Business Innovation Research contract is a procurement instrument with a statutory ceiling designed to buy feasibility studies from firms of a few dozen people.**
 
 Two things follow. The first is that the X series had become reachable by a route that did not exist when it was created. The second is that reaching it did not confer any of the things the earlier X programmes had, which were a flight test organisation, a range, a carrier fleet and an institutional appetite for failure. **The X-60A had a number, a contract and five employees.**
 
 ### The Competition Was Two Bidders
 
-The contract record shows the extent of competition on the 2017 award as a small-business set-aside with **two offers received** [[USAspending, FA865017C2414][ref_usaspending_c2414]]. That is not a criticism of the award. It is a measurement of how many organisations were prepared to sell hypersonic flight condition by the second in 2017, and the answer is two.
+The contract record shows the extent of competition on the 2017 award as a small-business set-aside with **two offers received** \[[USAspending, FA865017C2414][ref_usaspending_c2414]\]. That is not a criticism of the award. It is a measurement of how many organisations were prepared to sell hypersonic flight condition by the second in 2017, and the answer is two.
 
 ## Sizing From First Principles
 
-The public record gives two performance figures for the X-60A. The designation release says the vehicle provides access to high dynamic pressure conditions **between Mach 5 and Mach 8** [[Air Force, 4 October 2018][ref_af_designation]]. The only specification table that exists gives a ceiling of **more than 21,300 metres**, which is 69,882 feet and is quoted in the source as seventy thousand [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]].
+The public record gives two performance figures for the X-60A. The designation release says the vehicle provides access to high dynamic pressure conditions **between Mach 5 and Mach 8** \[[Air Force, 4 October 2018][ref_af_designation]\]. The only specification table that exists gives a ceiling of **more than 21,300 metres**, which is 69,882 feet and is quoted in the source as seventy thousand \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\].
 
 **Those look like two independent specifications. They are not.** Fixing a Mach number and an altitude fixes a dynamic pressure and leaves nothing free, and the relation that does the fixing is three lines long.
 
@@ -287,11 +287,11 @@ q \;=\; \tfrac{1}{2} \times 1.4 \times 4,512.9\ \text{Pa} \times 5^2
   \;=\; 78,976\ \text{Pa} \;=\; 1,649\ \text{lbf/ft}^2
 $$
 
-**1,649 pounds per square foot is squarely inside the band that air-breathing hypersonic propulsion is tested in**, which the textbook literature places at roughly one to two thousand [[Heiser and Pratt][book_heiser_pratt]] [[Anderson][book_anderson_hypersonic]]. The two numbers the Air Force published are not a speed and a ceiling. **They are a scramjet test condition, written in the only units a press release can use.**
+**1,649 pounds per square foot is squarely inside the band that air-breathing hypersonic propulsion is tested in**, which the textbook literature places at roughly one to two thousand \[[Heiser and Pratt][book_heiser_pratt]\] \[[Anderson][book_anderson_hypersonic]\]. The two numbers the Air Force published are not a speed and a ceiling. **They are a scramjet test condition, written in the only units a press release can use.**
 
 ### The Atmosphere the Corridor Is Drawn In
 
-Everything above needs a pressure as a function of altitude, and this article uses the 1976 standard atmosphere throughout [[U.S. Standard Atmosphere, 1976][ref_us_standard_atmosphere]]. The model is hydrostatic.
+Everything above needs a pressure as a function of altitude, and this article uses the 1976 standard atmosphere throughout \[[U.S. Standard Atmosphere, 1976][ref_us_standard_atmosphere]\]. The model is hydrostatic.
 
 $$
 \frac{dp}{dh} = -\, g \rho = -\, \frac{g p}{R T}
@@ -405,7 +405,7 @@ $$
 
 With a Prandtl number of 0.71 the recovery factor is 0.843 laminar and 0.892 turbulent, so the turbulent recovery temperature at Mach 6 is 1,639 kelvin against a stagnation value of 1,811. **The correction is 9.5 percent and it runs the safe way**, which is why stagnation temperature is the figure a specification quotes and recovery temperature is the figure a designer sizes to.
 
-**The third column is why ground facilities are hard.** To reproduce Mach 8 at 1,500 pounds per square foot a blowdown tunnel needs a reservoir at 9,762.9 times the test-section static pressure and at 3,099 kelvin, and it needs to hold both for long enough to take data. Facilities that reach the enthalpy do so for milliseconds, and facilities that run for minutes do not reach the enthalpy [[Bertin][book_bertin]] [[Anderson][book_anderson_hypersonic]].
+**The third column is why ground facilities are hard.** To reproduce Mach 8 at 1,500 pounds per square foot a blowdown tunnel needs a reservoir at 9,762.9 times the test-section static pressure and at 3,099 kelvin, and it needs to hold both for long enough to take data. Facilities that reach the enthalpy do so for milliseconds, and facilities that run for minutes do not reach the enthalpy \[[Bertin][book_bertin]\] \[[Anderson][book_anderson_hypersonic]\].
 
 The Reynolds number in the fourth column uses Sutherland's law for viscosity.
 
@@ -425,7 +425,7 @@ $$
 
 **Unit Reynolds number is a quantity ground facilities are known to have difficulty matching alongside the others**, and it is the one that decides where the boundary layer goes turbulent, which decides the heating, which decides the thermal protection mass. A tunnel matching Mach number and stagnation enthalpy at the wrong Reynolds number produces a laminar answer to a turbulent question.
 
-The heating a test article actually receives at a stagnation point scales with the square root of density and the cube of velocity, which is the Sutton-Graves form used throughout entry work [[Atmospheric entry][ref_sutton_graves]] [[Vinh, Busemann and Culp][book_vinh]].
+The heating a test article actually receives at a stagnation point scales with the square root of density and the cube of velocity, which is the Sutton-Graves form used throughout entry work \[[Atmospheric entry][ref_sutton_graves]\] \[[Vinh, Busemann and Culp][book_vinh]\].
 
 $$
 \dot{Q} \;=\; k_s \sqrt{\frac{\rho}{R_n}} \; V^3
@@ -437,7 +437,7 @@ $$
 
 ### The Engine, Which Is the Only Part That Is Not a Structure
 
-The X-60A's propulsion is the **Hadley**, a liquid oxygen and kerosene engine from Ursa Major Technologies, and the Air Force named it in all three of its releases. Its maker describes it as an **oxygen-rich staged combustion cycle** engine of 5,000 pounds of thrust, first qualified in 2021 [[Ursa Major][ref_ursa_hadley_variants]] [[Staged combustion cycle][ref_staged_combustion]]. **That cycle is unusual in an American engine of any size**, and the article says no more than that, because the stronger claim available in secondary reporting is not in any document read for this article.
+The X-60A's propulsion is the **Hadley**, a liquid oxygen and kerosene engine from Ursa Major Technologies, and the Air Force named it in all three of its releases. Its maker describes it as an **oxygen-rich staged combustion cycle** engine of 5,000 pounds of thrust, first qualified in 2021 \[[Ursa Major][ref_ursa_hadley_variants]\] \[[Staged combustion cycle][ref_staged_combustion]\]. **That cycle is unusual in an American engine of any size**, and the article says no more than that, because the stronger claim available in secondary reporting is not in any document read for this article.
 
 Thrust for any rocket engine is momentum flux plus a pressure term at the exit plane.
 
@@ -487,9 +487,9 @@ $$
 F(z) \;=\; F_v - p(z) \, A_e, \qquad F_v = F(0) + p_b(0) \, A_e
 $$
 
-**The correction cannot be computed, and it is important to say why rather than to guess it.** Ursa Major lists three qualified Hadley variants, being a 5,000 pound sea-level engine, a 6,500 pound vacuum engine and a hypersonic version developed with Stratolaunch [[Ursa Major][ref_ursa_hadley_variants]]. **Those are three different nozzles and not one engine at three altitudes**, so the 1,500 pound difference between the first two does not give $A_e$ for the first. It follows only that the X-60A's thrust above twelve kilometres exceeds 5,000 pounds by an unpublished margin, and therefore that **every performance figure in this article computed from 5,000 pounds is a floor rather than an estimate.**
+**The correction cannot be computed, and it is important to say why rather than to guess it.** Ursa Major lists three qualified Hadley variants, being a 5,000 pound sea-level engine, a 6,500 pound vacuum engine and a hypersonic version developed with Stratolaunch \[[Ursa Major][ref_ursa_hadley_variants]\]. **Those are three different nozzles and not one engine at three altitudes**, so the 1,500 pound difference between the first two does not give $A_e$ for the first. It follows only that the X-60A's thrust above twelve kilometres exceeds 5,000 pounds by an unpublished margin, and therefore that **every performance figure in this article computed from 5,000 pounds is a floor rather than an estimate.**
 
-The thrust-to-weight ratio at release follows from the published gross mass of 1,360 kilograms [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]].
+The thrust-to-weight ratio at release follows from the published gross mass of 1,360 kilograms \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\].
 
 $$
 \frac{F}{W} \;=\; \frac{22,241\ \text{N}}{13,337\ \text{N}}
@@ -502,7 +502,7 @@ $$
 
 The classical estimate comes first, because it is checkable by hand and because the integration that replaces it should be seen to agree with it in order of magnitude.
 
-Release is at high subsonic speed in a climb [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]]. Taking twelve kilometres and Mach 0.8, the release speed is 236.1 metres per second against a corridor speed of 1,479.5 metres per second, a kinematic difference of 1,243.5 metres per second. **Potential energy is velocity too**, and the climb of 9,300 metres is worth 427.1 metres per second on its own, so the two are added through the energy rather than side by side.
+Release is at high subsonic speed in a climb \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\]. Taking twelve kilometres and Mach 0.8, the release speed is 236.1 metres per second against a corridor speed of 1,479.5 metres per second, a kinematic difference of 1,243.5 metres per second. **Potential energy is velocity too**, and the climb of 9,300 metres is worth 427.1 metres per second on its own, so the two are added through the energy rather than side by side.
 
 $$
 \Delta V_k \;=\; \sqrt{ V^2 + 2 g_0 \, \Delta z } \; - \; V_0
@@ -550,11 +550,11 @@ $$
 
 **A burn of 75 seconds is long for a vehicle this size and that is the design.** A sounding rocket booster of comparable mass burns for ten to twenty seconds and then coasts. This one burns for over a minute, because the product is time at condition and a coast is time spent decelerating.
 
-**The comparison is with a real instrument and not a figure of speech.** The agency that flies sounding rockets publishes a handbook for the people who put payloads on them, and the vehicles in it are solid motors that burn briefly and hard and then leave the payload on a ballistic arc [[NASA Sounding Rockets User Handbook][ref_nasa_sounding_rockets_handbook]]. **The X-60A inverts that.** It is the same size of vehicle, launched into the same band of altitudes, built to do the opposite thing with the time.
+**The comparison is with a real instrument and not a figure of speech.** The agency that flies sounding rockets publishes a handbook for the people who put payloads on them, and the vehicles in it are solid motors that burn briefly and hard and then leave the payload on a ballistic arc \[[NASA Sounding Rockets User Handbook][ref_nasa_sounding_rockets_handbook]\]. **The X-60A inverts that.** It is the same size of vehicle, launched into the same band of altitudes, built to do the opposite thing with the time.
 
 ### The Diameter the Record Does Not Publish
 
-The only specification table available gives length, span, mass and speed and leaves the diameter as a question mark [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]]. **It can be recovered, because the propellant has to fit.**
+The only specification table available gives length, span, mass and speed and leaves the diameter as a question mark \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\]. **It can be recovered, because the propellant has to fit.**
 
 Liquid oxygen and kerosene burn near a mixture ratio of 2.3 to 1, which splits the propellant mass.
 
@@ -679,32 +679,32 @@ What can be established from documents is a short list.
 
 | Date | Event | Source |
 |---|---|---|
-| June 2014 | SBIR Phase I awarded | [[USAspending][ref_usaspending_m2503]] |
-| July 2015 | Phase II awarded | [[USAspending][ref_usaspending_c2542]] |
-| by December 2017 | three captive-carry flights of full-scale inert vehicles completed | [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]] |
-| 27 March 2017 | flight-test contract signed | [[USAspending][ref_usaspending_c2414]] |
-| 7 September 2018 | designation X-60A allocated | [[DOD 4120.15-L Addendum][ref_mds_addendum]] |
-| 4 October 2018 | designation announced | [[Air Force][ref_af_designation]] |
-| 7 March 2019 | critical design review complete, first flight in about a year | [[AFRL][ref_afrl_cdr]] |
-| 14 January 2020 | integrated propulsion hot fire at Cecil Spaceport | [[AFRL][ref_afrl_propulsion]] |
-| February 2020 | first flight deferred from March to later that year, no reason given | [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]] |
+| June 2014 | SBIR Phase I awarded | \[[USAspending][ref_usaspending_m2503]\] |
+| July 2015 | Phase II awarded | \[[USAspending][ref_usaspending_c2542]\] |
+| by December 2017 | three captive-carry flights of full-scale inert vehicles completed | \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\] |
+| 27 March 2017 | flight-test contract signed | \[[USAspending][ref_usaspending_c2414]\] |
+| 7 September 2018 | designation X-60A allocated | \[[DOD 4120.15-L Addendum][ref_mds_addendum]\] |
+| 4 October 2018 | designation announced | \[[Air Force][ref_af_designation]\] |
+| 7 March 2019 | critical design review complete, first flight in about a year | \[[AFRL][ref_afrl_cdr]\] |
+| 14 January 2020 | integrated propulsion hot fire at Cecil Spaceport | \[[AFRL][ref_afrl_propulsion]\] |
+| February 2020 | first flight deferred from March to later that year, no reason given | \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\] |
 | after February 2020 | nothing | |
 
-**The programme reached the last milestone before flight and stopped there.** The propulsion release of 15 January 2020 describes cold-flow and hot-fire testing with flight-like hardware and flight-like procedures, covering full-duration burns, engine gimballing for thrust vector control and system throttling [[AFRL][ref_afrl_propulsion]]. That is the complete set of things a liquid rocket stage has to demonstrate on the ground.
+**The programme reached the last milestone before flight and stopped there.** The propulsion release of 15 January 2020 describes cold-flow and hot-fire testing with flight-like hardware and flight-like procedures, covering full-duration burns, engine gimballing for thrust vector control and system throttling \[[AFRL][ref_afrl_propulsion]\]. That is the complete set of things a liquid rocket stage has to demonstrate on the ground.
 
 The programme manager's words in that release are worth recording, because they are the last thing anyone said publicly about a first flight.
 
 > This test series was a critical step in reducing risk and gathering necessary system integration data in preparation for our upcoming flight tests. When we go to flight later this year, we hope to demonstrate the capability of the X-60A to provide affordable access to hypersonic flight conditions, which will position AFRL to deliver an innovative test capability for the Air Force and other DoD organizations.
 
-**Four weeks later the flight moved and nothing further was published.** The specialist registry that tracks these vehicles records the position plainly, that after February 2020 no further news items appear and that no solid information about a first flight, further delays or a cancellation is available [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]].
+**Four weeks later the flight moved and nothing further was published.** The specialist registry that tracks these vehicles records the position plainly, that after February 2020 no further news items appear and that no solid information about a first flight, further delays or a cancellation is available \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\].
 
 ### The Contract Did Not Stop When the Publicity Did
 
 **The federal contract record continues for three more years and it is a different account of the same programme.**
 
-Contract FA865017C2414 ran from 2017-03-27 to 2023-02-28, a period of performance of 2,164 days, and carried 30 modifications [[USAspending][ref_usaspending_c2414]].
+Contract FA865017C2414 ran from 2017-03-27 to 2023-02-28, a period of performance of 2,164 days, and carried 30 modifications \[[USAspending][ref_usaspending_c2414]\].
 
-**Two federal records describe that contract and they give different end dates.** The small-business award record, which carries the contract number in its dashed form together with the solicitation topic AF141-081 and the solicitation year 2014, gives an award end date of **31 August 2022** [[SBIR award 167092][ref_sbir_award_167092]]. The contract record gives 2023-02-28.
+**Two federal records describe that contract and they give different end dates.** The small-business award record, which carries the contract number in its dashed form together with the solicitation topic AF141-081 and the solicitation year 2014, gives an award end date of **31 August 2022** \[[SBIR award 167092][ref_sbir_award_167092]\]. The contract record gives 2023-02-28.
 
 **The modification history reconciles them exactly and it is worth following, because a six-month discrepancy between two government databases usually means one of them is wrong.** Neither is. **3 modifications fall after the award record's end date**, and the first of them, dated 9 November 2022, is a no-cost time extension. **That is precisely the instrument that moves an end date without moving any money.** One record states the award as awarded and the other states it as extended.
 
@@ -771,11 +771,11 @@ $$
   \;=\; 13.9\ \text{percent}
 $$
 
-The register's phrase for what the vehicle does is *at cruise flight conditions* [[DOD 4120.15-L Addendum][ref_mds_addendum]], and a cruise is a steady state. The next section asks whether one exists.
+The register's phrase for what the vehicle does is *at cruise flight conditions* \[[DOD 4120.15-L Addendum][ref_mds_addendum]\], and a cruise is a steady state. The next section asks whether one exists.
 
 ## Can the Condition Be Held
 
-The register says the X-60A tests **at cruise flight conditions** [[DOD 4120.15-L Addendum][ref_mds_addendum]]. **A cruise is a steady state, so the claim has an exact answer.**
+The register says the X-60A tests **at cruise flight conditions** \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **A cruise is a steady state, so the claim has an exact answer.**
 
 At constant speed the thrust must balance the drag plus the component of weight along the flight path.
 
@@ -820,9 +820,9 @@ $$
 \;\propto\; \dot{m}^2 \;\propto\; \phi^2
 $$
 
-**A throttle ratio therefore costs the square of itself in injector stiffness.** At twenty percent thrust the drop is 4 percent of its rated value, at ten percent it is 1, and at five percent it is 0.25. An engine throttled far enough becomes unstable before it becomes quiet, which is why deep throttling is an engine programme rather than a control setting [[Sutton and Biblarz][book_sutton_biblarz]] [[Huzel and Huang][book_huzel_huang]]. The engines that reached ten to twenty percent were designed for that one requirement and are famous for it.
+**A throttle ratio therefore costs the square of itself in injector stiffness.** At twenty percent thrust the drop is 4 percent of its rated value, at ten percent it is 1, and at five percent it is 0.25. An engine throttled far enough becomes unstable before it becomes quiet, which is why deep throttling is an engine programme rather than a control setting \[[Sutton and Biblarz][book_sutton_biblarz]\] \[[Huzel and Huang][book_huzel_huang]\]. The engines that reached ten to twenty percent were designed for that one requirement and are famous for it.
 
-**This is why the Hadley has an active throttle, and it is the strongest available evidence that the register's word was chosen deliberately.** An engine intended to accelerate a vehicle to a Mach number does not need to throttle at all. An engine intended to hold a vehicle at a condition needs to throttle very deeply indeed, and the propulsion release records that the ground campaign covered **system throttling** alongside full-duration burns and gimballing [[AFRL][ref_afrl_propulsion]].
+**This is why the Hadley has an active throttle, and it is the strongest available evidence that the register's word was chosen deliberately.** An engine intended to accelerate a vehicle to a Mach number does not need to throttle at all. An engine intended to hold a vehicle at a condition needs to throttle very deeply indeed, and the propulsion release records that the ground campaign covered **system throttling** alongside full-duration burns and gimballing \[[AFRL][ref_afrl_propulsion]\].
 
 **Whether the Hadley reaches the depth the table demands is not published**, and this article does not know. What it can say is that the top row of the table is out of reach of any engine and the bottom row is at the edge of the art, and that the register's phrase therefore describes an ambition at the boundary of the possible rather than a routine mode of operation.
 
@@ -846,7 +846,7 @@ The X-60A's designation is **X-60A**, which is an aircraft designator. This sect
 
 ### There Are Two Designation Systems and the X Means Different Things in Them
 
-Department of the Air Force Instruction 16-401 governs the designation of American military aerospace vehicles [[DAFI 16-401][ref_dafi_16_401_2020]]. It defines the standardised symbol set as applying to vehicles categorised as **aircraft, guided missiles, rockets, probes, boosters, and satellites**, and it then splits that list into two designator systems with different grammars.
+Department of the Air Force Instruction 16-401 governs the designation of American military aerospace vehicles \[[DAFI 16-401][ref_dafi_16_401_2020]\]. It defines the standardised symbol set as applying to vehicles categorised as **aircraft, guided missiles, rockets, probes, boosters, and satellites**, and it then splits that list into two designator systems with different grammars.
 
 **The designator itself is what the instruction calls a Mission Design Series, abbreviated MDS**, and the two grammars differ in which symbols they require.
 
@@ -870,7 +870,7 @@ The entry reads in full as follows.
 
 > *GOLauncher 1*; This aircraft is an autonomous hypersonic vehicle that is capable of flight testing experimental hypersonic technologies at cruise flight conditions.
 
-**The register says nothing about the X-60A being a rocket.** Its entry contains 0 occurrences of the word across 164 characters, while calling the subject an aircraft 1 time and a vehicle 1 time in the same sentence [[DOD 4120.15-L Addendum][ref_mds_addendum]].
+**The register says nothing about the X-60A being a rocket.** Its entry contains 0 occurrences of the word across 164 characters, while calling the subject an aircraft 1 time and a vehicle 1 time in the same sentence \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 **That is not a limitation of the register's vocabulary.** 3 of the 30 X rows name a rocket, being the X-40B, X-63A and X-64A. The X-63A and X-64A entries, allocated 20 April 2022, both carry `1 rocket engine` in the engines cell and both describe a **demonstrator rocket** in their mission statement. **The register found the word about three and a half years after this allocation and about a designation that is unambiguously the same kind of thing.**
 
@@ -880,7 +880,7 @@ The X-60A's engines cell is empty. **That means nothing on its own and this seri
 
 **Where the designation system asks what to call the vehicle, federal law asks a question that can be computed.**
 
-The Commercial Space Launch Act defines a launch vehicle as a vehicle built to operate in or place a payload in outer space, **or a suborbital rocket**, and it defines the second of those precisely [[51 U.S.C. 50902][ref_usc_50902]].
+The Commercial Space Launch Act defines a launch vehicle as a vehicle built to operate in or place a payload in outer space, **or a suborbital rocket**, and it defines the second of those precisely \[[51 U.S.C. 50902][ref_usc_50902]\].
 
 > "suborbital rocket" means a vehicle, rocket-propelled in whole or in part, intended for flight on a suborbital trajectory, and the thrust of which is greater than its lift for the majority of the rocket-powered portion of its ascent.
 
@@ -901,7 +901,7 @@ $$
 
 ### The Definition Has a Second Half and It Is Also Computable
 
-**The thrust-against-lift clause is not the whole test.** A suborbital rocket must also be *intended for flight on a suborbital trajectory*, and the statute defines that term too [[51 U.S.C. 50902][ref_usc_50902]].
+**The thrust-against-lift clause is not the whole test.** A suborbital rocket must also be *intended for flight on a suborbital trajectory*, and the statute defines that term too \[[51 U.S.C. 50902][ref_usc_50902]\].
 
 > "suborbital trajectory" means the intentional flight path of a launch vehicle, reentry vehicle, or any portion thereof, whose vacuum instantaneous impact point does not leave the surface of the Earth.
 
@@ -946,19 +946,19 @@ $$
 
 > A key part of the X-60A program is that the U.S. Federal Aviation Administration-licensed Cecil Spaceport provides a diversification in hypersonic flight testing to traditional Department of Defense flight test ranges.
 
-That is from the critical design review release [[AFRL][ref_afrl_cdr]], and the designation release adds that the vehicle would use **new space commercial development, licensing, and operations practices** [[Air Force][ref_af_designation]]. **Licensing is named explicitly, and the licence in question is an FAA launch licence and not an airworthiness certificate.**
+That is from the critical design review release \[[AFRL][ref_afrl_cdr]\], and the designation release adds that the vehicle would use **new space commercial development, licensing, and operations practices** \[[Air Force][ref_af_designation]\]. **Licensing is named explicitly, and the licence in question is an FAA launch licence and not an airworthiness certificate.**
 
-**The regulations carry the statute's definitions forward.** 14 CFR 401.7 defines a launch vehicle and a suborbital rocket in the same terms the statute uses [[14 CFR 401.7][ref_cfr_401_7]] [[14 CFR Part 401][ref_cfr_401]], and the licensing requirements themselves were consolidated into Part 450 by a final rule published on 10 December 2020 [[85 FR 79566][ref_fr_part450]] [[14 CFR Part 450][ref_cfr_450]]. **That rule postdates the X-60A's planned first flight by nine months**, so a vehicle flying in March 2020 would have been licensed under the predecessor parts and one flying in 2023 under Part 450. The programme spanned the change.
+**The regulations carry the statute's definitions forward.** 14 CFR 401.7 defines a launch vehicle and a suborbital rocket in the same terms the statute uses \[[14 CFR 401.7][ref_cfr_401_7]\] \[[14 CFR Part 401][ref_cfr_401]\], and the licensing requirements themselves were consolidated into Part 450 by a final rule published on 10 December 2020 \[[85 FR 79566][ref_fr_part450]\] \[[14 CFR Part 450][ref_cfr_450]\]. **That rule postdates the X-60A's planned first flight by nine months**, so a vehicle flying in March 2020 would have been licensed under the predecessor parts and one flying in 2023 under Part 450. The programme spanned the change.
 
-**But the statute contains an exemption that may swallow the case.** The chapter does not apply to *a launch, reentry, operation of a launch vehicle or reentry vehicle, operation of a launch site or reentry site, or other space activity the Government carries out for the Government* [[51 U.S.C. 50919][ref_usc_50919]]. Whether the Air Force Research Laboratory buying flights from a contractor, flown from a commercially licensed spaceport, is the Government carrying out an activity for the Government is a question this article cannot resolve and has found no document resolving.
+**But the statute contains an exemption that may swallow the case.** The chapter does not apply to *a launch, reentry, operation of a launch vehicle or reentry vehicle, operation of a launch site or reentry site, or other space activity the Government carries out for the Government* \[[51 U.S.C. 50919][ref_usc_50919]\]. Whether the Air Force Research Laboratory buying flights from a contractor, flown from a commercially licensed spaceport, is the Government carrying out an activity for the Government is a question this article cannot resolve and has found no document resolving.
 
-**What can be said is that the vehicle sat exactly on the seam.** It held an aircraft designation, satisfied the statutory definition of a suborbital rocket, and was to fly from a site licensed under a regime whose applicability to it was arguable. **The specialist registry resolved the same question by filing the X-60A in the *Directory of U.S. Military Rockets and Missiles* rather than among the aircraft** [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]], which is a third answer from a fourth authority.
+**What can be said is that the vehicle sat exactly on the seam.** It held an aircraft designation, satisfied the statutory definition of a suborbital rocket, and was to fly from a site licensed under a regime whose applicability to it was arguable. **The specialist registry resolved the same question by filing the X-60A in the *Directory of U.S. Military Rockets and Missiles* rather than among the aircraft** \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\], which is a third answer from a fourth authority.
 
 ### The Crewing Symbol That Was Not Used
 
 One more symbol is missing and it is worth a paragraph because the previous article in this series was about the same gap from the other side.
 
-The aircraft designator system has a **vehicle type** column, required on a non-standard aircraft designator, in which **Q means Unmanned Aircraft** [[DAFI 16-401][ref_dafi_16_401_2020]]. The register's own statement calls the X-60A **autonomous**. It carries no Q.
+The aircraft designator system has a **vehicle type** column, required on a non-standard aircraft designator, in which **Q means Unmanned Aircraft** \[[DAFI 16-401][ref_dafi_16_401_2020]\]. The register's own statement calls the X-60A **autonomous**. It carries no Q.
 
 **Nor does any other X row.** 12 of the 30 X rows describe an uncrewed vehicle in their mission statement, being the X-45A, X-45B, X-45C, X-46A, X-47A, X-48A, X-48B, X-48C, X-56A, X-60A, X-65A and X-76A, and **0 of the 30 carry the Q symbol**. Meanwhile 65 rows elsewhere in the register do carry it, including the [XQ-58A][related_post_a355_x58_slot_taken_by_xq58] allocated 424 days before this one.
 
@@ -970,13 +970,13 @@ The aircraft designator system has a **vehicle type** column, required on a non-
 
 Three things did change, and each is documented.
 
-**The designation route changed.** The Air Force's claim that this was the first of its small-business programmes to hold an X number is a claim about eligibility [[Air Force][ref_af_designation]]. Whatever happened to the vehicle, the precedent stands, and the X-63A and X-64A allocated in 2022 to ABL Space Systems and to a three-company team are the same shape of award to the same size of firm [[DOD 4120.15-L Addendum][ref_mds_addendum]].
+**The designation route changed.** The Air Force's claim that this was the first of its small-business programmes to hold an X number is a claim about eligibility \[[Air Force][ref_af_designation]\]. Whatever happened to the vehicle, the precedent stands, and the X-63A and X-64A allocated in 2022 to ABL Space Systems and to a three-company team are the same shape of award to the same size of firm \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-**The engine changed hands and flew.** The Hadley was first qualified in 2021, a year after the X-60A's planned first flight [[Ursa Major][ref_ursa_hadley_variants]]. Its hypersonic variant was developed with Stratolaunch, and **the engine made its first flight on 9 March 2024 powering the Talon-A1 testbed** [[Ursa Major][ref_ursa_hadley_first_flight]] [[Stratolaunch Talon-A][ref_talon_a]]. **That vehicle had described itself in the same conference series and almost the same words**, as an air-launched hypersonic testbed, in a paper given three years after the X-60A's own [[Stratolaunch Air-Launched Hypersonic Testbed, AIAA 2018-5257][research_stratolaunch_2018]] [[GOLauncher 1 Hypersonic Testbed, AIAA 2015-3688][research_golauncher1_2015]]. That is 1,469 days after the X-60A was to have flown, or **4.02 years**, on somebody else's airframe and without an X number.
+**The engine changed hands and flew.** The Hadley was first qualified in 2021, a year after the X-60A's planned first flight \[[Ursa Major][ref_ursa_hadley_variants]\]. Its hypersonic variant was developed with Stratolaunch, and **the engine made its first flight on 9 March 2024 powering the Talon-A1 testbed** \[[Ursa Major][ref_ursa_hadley_first_flight]\] \[[Stratolaunch Talon-A][ref_talon_a]\]. **That vehicle had described itself in the same conference series and almost the same words**, as an air-launched hypersonic testbed, in a paper given three years after the X-60A's own \[[Stratolaunch Air-Launched Hypersonic Testbed, AIAA 2018-5257][research_stratolaunch_2018]\] \[[GOLauncher 1 Hypersonic Testbed, AIAA 2015-3688][research_golauncher1_2015]\]. That is 1,469 days after the X-60A was to have flown, or **4.02 years**, on somebody else's airframe and without an X number.
 
-**And a general reference work on the X series ends at this vehicle.** The specialist registry lists as the first of its own sources a 2021 volume titled *X-Planes from the X-1 to the X-60* [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]]. **The title is a fact about a publication date and not a judgement about the series**, since the X-61 had been allocated two years earlier, and the book is named here through the registry that cites it because the library index returns nothing for it on title and author.
+**And a general reference work on the X series ends at this vehicle.** The specialist registry lists as the first of its own sources a 2021 volume titled *X-Planes from the X-1 to the X-60* \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\]. **The title is a fact about a publication date and not a judgement about the series**, since the X-61 had been allocated two years earlier, and the book is named here through the registry that cites it because the library index returns nothing for it on title and author.
 
-**And the requirement did not go away.** The parent company's own site lists both the X-60A and an X-60C among past projects, and the X-60C is described as a high-speed flight testbed for larger and more complex payloads [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]]. **No X-60C appears anywhere in the register**, which has exactly 1 row whose designation begins X-60 [[DOD 4120.15-L Addendum][ref_mds_addendum]]. A successor that carries the number without the paperwork is the mirror image of a predecessor that carried the paperwork without the flight.
+**And the requirement did not go away.** The parent company's own site lists both the X-60A and an X-60C among past projects, and the X-60C is described as a high-speed flight testbed for larger and more complex payloads \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\]. **No X-60C appears anywhere in the register**, which has exactly 1 row whose designation begins X-60 \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. A successor that carries the number without the paperwork is the mirror image of a predecessor that carried the paperwork without the flight.
 
 ## Where the Framing Breaks Down
 
@@ -1240,9 +1240,9 @@ $$
 
 ## Epistemic State
 
-**Historical fact, from primary documents.** The designation X-60A was allocated on 07-Sep-18 to Generation Orbit Launch Services with the Air Force as sponsor [[DOD 4120.15-L Addendum][ref_mds_addendum]]. The Air Force announced it on 4 October 2018, describing an air-dropped liquid rocket powered by the Hadley engine and providing access to conditions between Mach 5 and Mach 8, and stating that this was the first Air Force Small Business Innovation Research programme to receive an X designation [[Air Force][ref_af_designation]]. Critical design review completed and was announced on 7 March 2019 with first flight expected in about a year from Cecil Spaceport [[AFRL][ref_afrl_cdr]]. Integrated propulsion verification testing including cold flow and hot fire completed and was announced on 15 January 2020 [[AFRL][ref_afrl_propulsion]]. Contract FA865017C2414 ran from 2017-03-27 to 2023-02-28 and obligated 30,921,064.62 dollars across 30 modifications [[USAspending][ref_usaspending_c2414]]. The Hadley engine first flew on 9 March 2024 on Stratolaunch's Talon-A1 [[Ursa Major][ref_ursa_hadley_first_flight]].
+**Historical fact, from primary documents.** The designation X-60A was allocated on 07-Sep-18 to Generation Orbit Launch Services with the Air Force as sponsor \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The Air Force announced it on 4 October 2018, describing an air-dropped liquid rocket powered by the Hadley engine and providing access to conditions between Mach 5 and Mach 8, and stating that this was the first Air Force Small Business Innovation Research programme to receive an X designation \[[Air Force][ref_af_designation]\]. Critical design review completed and was announced on 7 March 2019 with first flight expected in about a year from Cecil Spaceport \[[AFRL][ref_afrl_cdr]\]. Integrated propulsion verification testing including cold flow and hot fire completed and was announced on 15 January 2020 \[[AFRL][ref_afrl_propulsion]\]. Contract FA865017C2414 ran from 2017-03-27 to 2023-02-28 and obligated 30,921,064.62 dollars across 30 modifications \[[USAspending][ref_usaspending_c2414]\]. The Hadley engine first flew on 9 March 2024 on Stratolaunch's Talon-A1 \[[Ursa Major][ref_ursa_hadley_first_flight]\].
 
-**Historical fact, from a secondary source that names its own limits.** Three captive-carry flights of full-scale inert vehicles were complete by December 2017, and in February 2020 the Air Force Research Laboratory deferred the first flight from March to later that year without stating a reason [[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]]. That source also records that no further news items about the X-60A appear after February 2020.
+**Historical fact, from a secondary source that names its own limits.** Three captive-carry flights of full-scale inert vehicles were complete by December 2017, and in February 2020 the Air Force Research Laboratory deferred the first flight from March to later that year without stating a reason \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\]. That source also records that no further news items about the X-60A appear after February 2020.
 
 **Engineering analysis, computed here and reproducible from the published inputs.** Dynamic pressure is $\tfrac{1}{2}\gamma p M^2$ with temperature cancelled, so Mach 5 at 21,300 metres is 1,649 pounds per square foot. At the corridor altitude the scale height is 6,378 metres and dynamic pressure changes 14.51 percent per kilometre at fixed Mach. Stagnation temperature at Mach 8 on the 1,500 pound per square foot line is 3,099 kelvin with a stagnation pressure ratio of 9,762.9. The thrust-to-weight ratio at release on the rated sea-level thrust is 1.668.
 
@@ -1371,64 +1371,64 @@ The physics underneath the programme is a single relation. **Dynamic pressure is
 
 ### Related Post
 
-- [related_post_a297_framing][related_post_a297_framing]
-- [related_post_a298_bell_x1][related_post_a298_bell_x1]
-- [related_post_a299_bell_x2][related_post_a299_bell_x2]
-- [related_post_a300_douglas_x3][related_post_a300_douglas_x3]
-- [related_post_a301_northrop_x4][related_post_a301_northrop_x4]
-- [related_post_a302_bell_x5][related_post_a302_bell_x5]
-- [related_post_a303_convair_x6][related_post_a303_convair_x6]
-- [related_post_a304_lockheed_x7][related_post_a304_lockheed_x7]
-- [related_post_a305_aerojet_x8][related_post_a305_aerojet_x8]
-- [related_post_a306_bell_x9][related_post_a306_bell_x9]
-- [related_post_a307_north_american_x10][related_post_a307_north_american_x10]
-- [related_post_a308_convair_x11][related_post_a308_convair_x11]
-- [related_post_a309_convair_x12][related_post_a309_convair_x12]
-- [related_post_a310_ryan_x13][related_post_a310_ryan_x13]
-- [related_post_a311_bell_x14][related_post_a311_bell_x14]
-- [related_post_a312_north_american_x15][related_post_a312_north_american_x15]
-- [related_post_a313_bell_x16][related_post_a313_bell_x16]
-- [related_post_a314_lockheed_x17][related_post_a314_lockheed_x17]
-- [related_post_a315_hiller_x18][related_post_a315_hiller_x18]
-- [related_post_a316_curtiss_wright_x19][related_post_a316_curtiss_wright_x19]
-- [related_post_a317_boeing_x20][related_post_a317_boeing_x20]
-- [related_post_a318_northrop_x21][related_post_a318_northrop_x21]
-- [related_post_a319_bell_x22][related_post_a319_bell_x22]
-- [related_post_a320_martin_marietta_x23][related_post_a320_martin_marietta_x23]
-- [related_post_a321_martin_marietta_x24][related_post_a321_martin_marietta_x24]
-- [related_post_a322_bensen_x25][related_post_a322_bensen_x25]
-- [related_post_a323_schweizer_x26][related_post_a323_schweizer_x26]
-- [related_post_a324_lockheed_x27][related_post_a324_lockheed_x27]
-- [related_post_a325_osprey_x28][related_post_a325_osprey_x28]
-- [related_post_a326_grumman_x29][related_post_a326_grumman_x29]
-- [related_post_a327_rockwell_x30][related_post_a327_rockwell_x30]
-- [related_post_a328_rockwell_mbb_x31][related_post_a328_rockwell_mbb_x31]
-- [related_post_a329_boeing_x32][related_post_a329_boeing_x32]
-- [related_post_a330_lockheed_martin_x33][related_post_a330_lockheed_martin_x33]
-- [related_post_a331_orbital_sciences_x34][related_post_a331_orbital_sciences_x34]
-- [related_post_a332_lockheed_martin_x35][related_post_a332_lockheed_martin_x35]
-- [related_post_a333_mcdonnell_douglas_x36][related_post_a333_mcdonnell_douglas_x36]
-- [related_post_a334_boeing_x37][related_post_a334_boeing_x37]
-- [related_post_a335_scaled_composites_x38][related_post_a335_scaled_composites_x38]
-- [related_post_a336_x39_reserved_never_assigned][related_post_a336_x39_reserved_never_assigned]
-- [related_post_a337_boeing_x40][related_post_a337_boeing_x40]
-- [related_post_a338_x41_common_aero_vehicle][related_post_a338_x41_common_aero_vehicle]
-- [related_post_a339_orbital_sciences_x42][related_post_a339_orbital_sciences_x42]
-- [related_post_a340_micro_craft_x43][related_post_a340_micro_craft_x43]
-- [related_post_a341_x44_two_aircraft][related_post_a341_x44_two_aircraft]
-- [related_post_a342_boeing_x45][related_post_a342_boeing_x45]
-- [related_post_a343_boeing_x46][related_post_a343_boeing_x46]
-- [related_post_a344_northrop_grumman_x47][related_post_a344_northrop_grumman_x47]
-- [related_post_a345_boeing_x48][related_post_a345_boeing_x48]
-- [related_post_a346_piasecki_x49][related_post_a346_piasecki_x49]
-- [related_post_a347_boeing_x50][related_post_a347_boeing_x50]
-- [related_post_a348_boeing_x51][related_post_a348_boeing_x51]
-- [related_post_a349_x52_designation_refused][related_post_a349_x52_designation_refused]
-- [related_post_a350_boeing_x53][related_post_a350_boeing_x53]
-- [related_post_a351_gulfstream_x54][related_post_a351_gulfstream_x54]
-- [related_post_a352_lockheed_martin_x55][related_post_a352_lockheed_martin_x55]
-- [related_post_a353_lockheed_martin_x56][related_post_a353_lockheed_martin_x56]
-- [related_post_a354_esaero_x57_maxwell][related_post_a354_esaero_x57_maxwell]
+- [X-Planes: Framing and the Research Aircraft Model][related_post_a297_framing]
+- [X-Planes: Bell X-1][related_post_a298_bell_x1]
+- [X-Planes: Bell X-2][related_post_a299_bell_x2]
+- [X-Planes: Douglas X-3 Stiletto][related_post_a300_douglas_x3]
+- [X-Planes: Northrop X-4 Bantam][related_post_a301_northrop_x4]
+- [X-Planes: Bell X-5][related_post_a302_bell_x5]
+- [X-Planes: Convair X-6][related_post_a303_convair_x6]
+- [X-Planes: Lockheed X-7][related_post_a304_lockheed_x7]
+- [X-Planes: Aerojet X-8 Aerobee][related_post_a305_aerojet_x8]
+- [X-Planes: Bell X-9 Shrike][related_post_a306_bell_x9]
+- [X-Planes: North American X-10][related_post_a307_north_american_x10]
+- [X-Planes: Convair X-11][related_post_a308_convair_x11]
+- [X-Planes: Convair X-12][related_post_a309_convair_x12]
+- [X-Planes: Ryan X-13 Vertijet][related_post_a310_ryan_x13]
+- [X-Planes: Bell X-14][related_post_a311_bell_x14]
+- [X-Planes: North American X-15][related_post_a312_north_american_x15]
+- [X-Planes: Bell X-16][related_post_a313_bell_x16]
+- [X-Planes: Lockheed X-17][related_post_a314_lockheed_x17]
+- [X-Planes: Hiller X-18][related_post_a315_hiller_x18]
+- [X-Planes: Curtiss-Wright X-19][related_post_a316_curtiss_wright_x19]
+- [X-Planes: Boeing X-20 Dyna-Soar][related_post_a317_boeing_x20]
+- [X-Planes: Northrop X-21][related_post_a318_northrop_x21]
+- [X-Planes: Bell X-22][related_post_a319_bell_x22]
+- [X-Planes: Martin Marietta X-23 PRIME and a Contested Assignment][related_post_a320_martin_marietta_x23]
+- [X-Planes: Martin Marietta X-24][related_post_a321_martin_marietta_x24]
+- [X-Planes: Bensen X-25][related_post_a322_bensen_x25]
+- [X-Planes: Schweizer X-26 Frigate][related_post_a323_schweizer_x26]
+- [X-Planes: Lockheed X-27][related_post_a324_lockheed_x27]
+- [X-Planes: Osprey X-28 Sea Skimmer][related_post_a325_osprey_x28]
+- [X-Planes: Grumman X-29][related_post_a326_grumman_x29]
+- [X-Planes: Rockwell X-30 and the National Aero-Space Plane][related_post_a327_rockwell_x30]
+- [X-Planes: Rockwell-MBB X-31][related_post_a328_rockwell_mbb_x31]
+- [X-Planes: Boeing X-32][related_post_a329_boeing_x32]
+- [X-Planes: Lockheed Martin X-33][related_post_a330_lockheed_martin_x33]
+- [X-Planes: Orbital Sciences X-34][related_post_a331_orbital_sciences_x34]
+- [X-Planes: Lockheed Martin X-35][related_post_a332_lockheed_martin_x35]
+- [X-Planes: McDonnell Douglas X-36][related_post_a333_mcdonnell_douglas_x36]
+- [X-Planes: Boeing X-37][related_post_a334_boeing_x37]
+- [X-Planes: Scaled Composites X-38][related_post_a335_scaled_composites_x38]
+- [X-Planes: X-39, Reserved but Never Assigned][related_post_a336_x39_reserved_never_assigned]
+- [X-Planes: Boeing X-40][related_post_a337_boeing_x40]
+- [X-Planes: X-41 Common Aero Vehicle][related_post_a338_x41_common_aero_vehicle]
+- [X-Planes: Orbital Sciences X-42][related_post_a339_orbital_sciences_x42]
+- [X-Planes: Micro-Craft X-43 Hyper-X][related_post_a340_micro_craft_x43]
+- [X-Planes: X-44, One Designation and Two Aircraft][related_post_a341_x44_two_aircraft]
+- [X-Planes: Boeing X-45][related_post_a342_boeing_x45]
+- [X-Planes: Boeing X-46][related_post_a343_boeing_x46]
+- [X-Planes: Northrop Grumman X-47][related_post_a344_northrop_grumman_x47]
+- [X-Planes: Boeing X-48][related_post_a345_boeing_x48]
+- [X-Planes: Piasecki X-49 SpeedHawk][related_post_a346_piasecki_x49]
+- [X-Planes: Boeing X-50 Dragonfly][related_post_a347_boeing_x50]
+- [X-Planes: Boeing X-51 Waverider][related_post_a348_boeing_x51]
+- [X-Planes: X-52, the Designation Refused][related_post_a349_x52_designation_refused]
+- [X-Planes: Boeing X-53 Active Aeroelastic Wing][related_post_a350_boeing_x53]
+- [X-Planes: Gulfstream X-54][related_post_a351_gulfstream_x54]
+- [X-Planes: Lockheed Martin X-55 ACCA][related_post_a352_lockheed_martin_x55]
+- [X-Planes: Lockheed Martin X-56][related_post_a353_lockheed_martin_x56]
+- [X-Planes: ESAero X-57 Maxwell][related_post_a354_esaero_x57_maxwell]
 - [X-Planes: X-58, the Slot Taken by XQ-58][related_post_a355_x58_slot_taken_by_xq58]
 - [X-Planes: Lockheed Martin X-59 Quesst][related_post_a356_x59_quesst]
 

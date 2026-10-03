@@ -3628,7 +3628,7 @@ general case.
 - [The development requirement and design considerations for...][research_shi_tan_2018]
 - [Review Transfer of Technology and Local Content and Offsets...][research_taufikbudicahyana_achmadwardana_2023]
 - [Effect of Aerodynamic Configuration Parameters on...][research_pan_huang_2019]
-- [Failures in Ukrainian Arms Procurement 2014–2023 2023][research_bukkvoll_2024]
+- [Failures in Ukrainian Arms Procurement 2014-2023][research_bukkvoll_2024]
 - [Open and closed loop gust loads analyses for a flying wing...][research_voss_2019]
 - [Key Aspects of India’s Arms Export Policy amid...][research_likhachev_2024]
 - [Dynamic Stability Analysis of Aircraft Flight in Deep Stall][research_cunis_condomines_2020]
@@ -4272,10 +4272,10 @@ broke, namely an aircraft that existed and flew.
 
 ### Books
 
-- [Administration, National Aeronautics and Space, Jenkins, Dennis R...][book_jenkins]
 - [Ascher H. Shapiro 1953, The dynamics and thermodynamics of compressible...][book_shapiro]
 - [Brian L. Stevens 2015, Aircraft Control and Simulation][book_stevens_lewis]
 - [Daniel P. Raymer 1989, Aircraft Design][book_raymer]
+- [Dennis R. Jenkins 2000, Hypersonics Before the Shuttle][book_jenkins]
 - [Dietrich Küchemann 2012, The aerodynamic design of aircraft][book_kuchemann]
 - [E. L. Goldsmith 1993, Practical intake aerodynamic design][book_seddon_goldsmith]
 - [Gordon C. Oates 1984, Aerothermodynamics of gas turbine and rocket...][book_oates]
@@ -5192,7 +5192,7 @@ broke, namely an aircraft that existed and flew.
 - [Fleeter et al 1974][research_fleeter_mcclure_1974]
 - [Fleeter et al 1975][research_fleeter_mcclure_1975]
 - [Flow Field Study of Mixed Compression Supersonic Air Intake with Cowl Ventilation 2020][research_flow_field_2020]
-- [Flow structure and parameter evaluation of conical convergent–divergent nozzle supersonic jet flows 2023][research_flow_structure_2023]
+- [Flow structure and parameter evaluation of conical convergent-divergent nozzle supersonic jet flows 2023][research_flow_structure_2023]
 - [Formentini et al 2022][research_formentini_bouissiere_2022]
 - [Forward 1970][research_forward_1970]
 - [Foster, G. V. and Robinson, R. B. 1961][research_fostergv_robinsonrb_1961]

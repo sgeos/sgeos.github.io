@@ -37,7 +37,7 @@ be trusted to land itself.**
 The [Space Maneuver Vehicle][ref_smv_global] concept of the middle 1990s asked for a small reusable
 spacecraft that would be launched by an expendable booster or by the Shuttle, remain on orbit for up to a
 year, and then **return under fully automatic control to a horizontal landing on a designated runway**
-[[Boeing X-37 and X-40][ref_x37_x40]]. Every part of that is hard. Only the last part could be rehearsed
+\[[Boeing X-37 and X-40][ref_x37_x40]\]. Every part of that is hard. Only the last part could be rehearsed
 cheaply, because the last part happens inside the atmosphere at speeds an ordinary aircraft reaches.
 
 **Autonomous unpowered landing had been done exactly once and by somebody else.** The Soviet
@@ -47,18 +47,18 @@ full landing, because a crew was aboard and took manual control. **So the United
 Space Maneuver Vehicle programme with no domestic flight experience of the thing the vehicle was for.**
 
 **The design work had nonetheless been done, and thoroughly.** Terminal control and automatic landing of
-unpowered shuttle vehicles was studied from 1970 [[Osder and others 1970][research_osder_1970]], the
-automatic flare and decrab problem was worked in detail [[Cockayne and others 1971][research_cockayne_1971]],
-a full navigation, guidance and control concept was flight-tested [[Edwards 1975][research_edwards_1975]],
+unpowered shuttle vehicles was studied from 1970 \[[Osder and others 1970][research_osder_1970]\], the
+automatic flare and decrab problem was worked in detail \[[Cockayne and others 1971][research_cockayne_1971]\],
+a full navigation, guidance and control concept was flight-tested \[[Edwards 1975][research_edwards_1975]\],
 and the resulting shuttle automatic landing system was documented
-[[Tsikalas and Dyer 1982][research_tsikalas_1982_b]]. **What was missing was not theory but a vehicle willing to land
+\[[Tsikalas and Dyer 1982][research_tsikalas_1982_b]\]. **What was missing was not theory but a vehicle willing to land
 itself**, and the X-40A was cheap enough to be that vehicle.
 
 **The precedent for the method is also American and also well documented.** The Shuttle Orbiter Approach
 and Landing Test programme of 1977 carried an orbiter aloft on a carrier aircraft and released it to glide
-to a runway [[Fullerton 1975][research_fullerton_1975]] [[Oglesby 1975][research_oglesby_1975]], and its
-final evaluation report [[Approach and Landing Test final evaluation 1978][research_alt_final_1978]] and
-subsequent analyses [[Ashkenas and others 1982][research_ashkenas_1982]] are the model for what a
+to a runway \[[Fullerton 1975][research_fullerton_1975]\] \[[Oglesby 1975][research_oglesby_1975]\], and its
+final evaluation report \[[Approach and Landing Test final evaluation 1978][research_alt_final_1978]\] and
+subsequent analyses \[[Ashkenas and others 1982][research_ashkenas_1982]\] are the model for what a
 drop-and-glide campaign is expected to produce. **The X-40A ran the same play at a twentieth of the
 weight and without a crew.**
 
@@ -79,33 +79,33 @@ it.**
 
 In October 1996 Boeing received a contract from the Air Force Research Laboratory's Military Space Plane
 Technology office to build a technology demonstrator and test vehicle for the Space Maneuver Vehicle
-[[Boeing X-37 and X-40][ref_x37_x40]]. The first article under that programme was the
+\[[Boeing X-37 and X-40][ref_x37_x40]\]. The first article under that programme was the
 **Integrated Technology Test Bed**, an unpowered vehicle at about ninety percent of the size of the
 operational concept.
 
 **The X-40A designation was allocated in 1997 to the full Space Maneuver Vehicle and was soon reassigned
-to the test bed instead** [[Boeing X-37 and X-40][ref_x37_x40]]. The operational vehicle was never built.
+to the test bed instead** \[[Boeing X-37 and X-40][ref_x37_x40]\]. The operational vehicle was never built.
 **The number therefore ended up on the only article the programme produced**, which is a different fate
 from the one immediately preceding it in this series, where
 [a number was reserved and never assigned at all][related_post_a336_x39_reserved_never_assigned].
 
 **Boeing built it at Phantom Works in Seal Beach, California, and the cost is the most striking figure in
 the programme.** Fabrication and construction came to approximately one million dollars
-[[X-40 Space Maneuver Vehicle][ref_smv_global]]. **That is not a research aircraft budget.** It is the
+\[[X-40 Space Maneuver Vehicle][ref_smv_global]\]. **That is not a research aircraft budget.** It is the
 cost of a light business aircraft, for a vehicle that carried a full autonomous guidance, navigation and
 control system and landed itself eight times.
 
 **The sponsoring arrangement spanned two laboratories and two states.** The Air Force Research Laboratory
 at Kirtland Air Force Base in New Mexico led, with the Air Vehicles Directorate at Wright-Patterson Air
-Force Base in Ohio collaborating [[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]].
+Force Base in Ohio collaborating \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 The programme manager at Boeing Phantom Works, John Fuller, described the first flight's purpose in one
 sentence, being **to validate low-speed handling qualities and demonstrate autonomous approach and
-landing capability** [[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]].
+landing capability** \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 
 **The operational concept it served explains the vehicle's proportions.** The
 Space Maneuver Vehicle was to turn around in seventy-two hours or less between missions, remain on
 station for up to a year, and carry satellite deployment, surveillance and logistics payloads with
-aircraft-like operability [[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]].
+aircraft-like operability \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 **A vehicle designed for aircraft-like turnaround is designed around its ground handling**, and a runway
 landing is the ground handling.
 
@@ -116,7 +116,7 @@ landing is the ground handling.
 **A scale model that flies is governed by two dimensionless numbers and it cannot match both.** The
 practice has a long institutional history and a canonical account of it, which records the role of
 dynamically scaled free-flight models across decades of aerospace programmes and states the scaling
-requirements this section derives [[Chambers 2010][research_chambers_2010]].
+requirements this section derives \[[Chambers 2010][research_chambers_2010]\].
 
 Let $L$ denote a characteristic length of the vehicle, $V$ its speed, $g$ the acceleration due to gravity,
 $\rho$ the air density and $\mu$ the dynamic viscosity of air. The Froude number compares inertial force
@@ -198,15 +198,15 @@ $$\mu_{m} = \mu_{f}$$
 
 **Four different scale figures circulate for the same vehicle and they are not all about the same
 comparison.** Boeing's own press release calls the X-40A a ninety percent scale vehicle
-[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]]. The space agency
-calls it an eighty percent subscale version of the X-37 [[X-40A Space Maneuvering Vehicle][ref_nasa_x40]].
+\[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\]. The space agency
+calls it an eighty percent subscale version of the X-37 \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\].
 A contemporaneous report of the second free flight calls it eighty-five percent
-[[X-40A second free flight successful][ref_sciencedaily_x40]]. A reference encyclopaedia hedges at eighty
-to ninety percent [[Boeing X-40][ref_x40]].
+\[[X-40A second free flight successful][ref_sciencedaily_x40]\]. A reference encyclopaedia hedges at eighty
+to ninety percent \[[Boeing X-40][ref_x40]\].
 
 **The published dimensions settle it.** The X-40A is 22 feet long with a 12 foot span
-[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]], and the X-37B is
-29 feet 3 inches long with a span of 14 feet 11 inches [[Boeing X-37][ref_x37]].
+\[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\], and the X-37B is
+29 feet 3 inches long with a span of 14 feet 11 inches \[[Boeing X-37][ref_x37]\].
 
 $$\lambda_{\text{length}} = \frac{6.71}{8.92} = 0.752$$
 
@@ -218,12 +218,12 @@ since the sources state the scale-up in the other direction.
 $$\frac{1}{\lambda} = \frac{1}{0.778} = 1.285$$
 
 against the "about 120 percent" that the sources give for the X-37 relative to the X-40A
-[[Boeing X-37][ref_x37]]. **The agreement is adequate at eight points and the ninety percent figure is
+\[[Boeing X-37][ref_x37]\]. **The agreement is adequate at eight points and the ninety percent figure is
 not**, since it would require a reciprocal of 111 percent.
 
 **The ninety percent figure is correct about a vehicle that was never built.** The test bed was ninety
 percent of the **Space Maneuver Vehicle**, the operational concept
-[[Boeing X-37 and X-40][ref_x37_x40]], and the X-37 that everybody now compares it to was a later and
+\[[Boeing X-37 and X-40][ref_x37_x40]\], and the X-37 that everybody now compares it to was a later and
 larger vehicle. **A ratio quoted without its denominator has caused a twelve point disagreement in the
 literature about the best documented parameter of the aircraft.**
 
@@ -235,7 +235,7 @@ weight of
 $$W_{m} = W_{f} \lambda^{3} = 11{,}000 \times 0.778^{3} = 5{,}186 \ \text{lb}$$
 
 against a published X-40A weight of about **2,600 lb**
-[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]].
+\[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 **The vehicle was 50 percent of its dynamically similar mass.**
 
 Read the other way, the mass ratio implies a scale ratio of its own, and it is nowhere near the geometric
@@ -276,7 +276,7 @@ published masses.
 
 **The reason is not an oversight and it could not have been fixed.** The X-40A carried no propulsion, no
 thermal protection system, no payload and no orbital subsystems
-[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]]. **Those absent systems are exactly the mass the
+\[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\]. **Those absent systems are exactly the mass the
 full-scale vehicle would carry**, and ballasting a one million dollar test article up to 5,186 lb to
 preserve a similarity nobody intended to exploit would have been a strange use of the money.
 
@@ -290,7 +290,7 @@ $$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.778^{3/2} = 0.686$$
 **A boundary layer at 69 percent of full-scale Reynolds number is a mild extrapolation**, far milder than
 the one or two orders of magnitude that a conventional dynamically scaled drop model accepts.
 **The comparison is available in a single well-documented case.** A contemporaneous programme flew a
-22 percent dynamically scaled drop model of the F/A-18E/F [[Croom and others 2000][research_croom_2000]],
+22 percent dynamically scaled drop model of the F/A-18E/F \[[Croom and others 2000][research_croom_2000]\],
 and at that ratio the Reynolds number falls to $0.22^{3/2}$, or about a tenth of full scale.
 **The X-40A sat at 69 percent where a conventional drop model sits near 10**, which is the quantitative
 statement that it was barely a subscale article at all.
@@ -328,7 +328,7 @@ one parameter the sources argue about.**
 
 **The 2001 flights are documented well enough to recover the flight path angle, which no source states.**
 The vehicle was released at 15,050 feet and reached 428 feet per second on a descent lasting about 75
-seconds [[X-40A second free flight successful][ref_sciencedaily_x40]].
+seconds \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
 
 Mean sink rate is the released altitude divided by the duration.
 
@@ -358,19 +358,19 @@ $$\left(\frac{L}{D}\right)_{\text{eff}} = \cot 28.0^{\circ} = 1.88$$
 **An effective ratio of 1.88 is a steep energy-management descent and not a best-glide profile**, and the
 comparison rests on measurement rather than on impression. A survey of flight-determined subsonic lift and
 drag for seven lifting-body and wing-body reentry configurations puts the achievable maximum for this
-class in the range of roughly 3 to 4 [[Saltzman and others 1999][research_saltzman_1999]], with later
-assessments refining the blunt-based cases [[Saltzman and others 2002][research_saltzman_2002]]
-[[Saltzman and others 2007][research_saltzman_2007]]. **The X-40A was therefore flown at about half its
+class in the range of roughly 3 to 4 \[[Saltzman and others 1999][research_saltzman_1999]\], with later
+assessments refining the blunt-based cases \[[Saltzman and others 2002][research_saltzman_2002]\]
+\[[Saltzman and others 2007][research_saltzman_2007]\]. **The X-40A was therefore flown at about half its
 attainable ratio**, which is what a vehicle does when it is managing energy toward a fixed point rather
 than trying to stay airborne.
 
 **The difficulty of that regime is the oldest result in this article's literature.** Approach and landing
 at lift to drag ratios of 3 to 4 was investigated in flight in 1959 using a delta-wing aeroplane
-[[Matranga 1959][research_matranga_1959a]], and the companion study extended the range down to 2
-[[Matranga and Menard 1959][research_matranga_1959b]]. Later work flew the problem on a transport
-[[Kock 1972][research_kock_1972]], and the effect of the ratio on pilot rating was quantified for a
-lifting-body landing task [[Jackson and others 1991][research_jackson_1991]]
-[[Jackson and others 1993][research_jackson_1993]]. **Forty years of work established that this regime is
+\[[Matranga 1959][research_matranga_1959a]\], and the companion study extended the range down to 2
+\[[Matranga and Menard 1959][research_matranga_1959b]\]. Later work flew the problem on a transport
+\[[Kock 1972][research_kock_1972]\], and the effect of the ratio on pilot rating was quantified for a
+lifting-body landing task \[[Jackson and others 1991][research_jackson_1991]\]
+\[[Jackson and others 1993][research_jackson_1993]\]. **Forty years of work established that this regime is
 flyable and unforgiving**, which is the context in which an autonomous attempt at it should be read.
 
 **Ground range in a steady glide is the height multiplied by the lift to drag ratio**, which is the same
@@ -407,12 +407,12 @@ $$t_{f} = \frac{t_{m}}{\sqrt{\lambda}} = \frac{75}{\sqrt{0.778}} = 85.0 \ \text{
 that the speeds and the trajectory are not, because it uses only the length ratio and not the mass.
 
 **The 1998 flight was steeper still.** It was released at about 9,000 feet some 2.5 miles from the end of
-the runway [[Boeing X-37 and X-40][ref_x37_x40]], which is a straight-line ratio of
+the runway \[[Boeing X-37 and X-40][ref_x37_x40]\], which is a straight-line ratio of
 
 $$\frac{13{,}200}{9{,}000} = 1.47$$
 
 and the figure falls to 1.32 if the release altitude of 10,000 feet quoted elsewhere is used
-[[Boeing X-40][ref_x40]]. **Both are below the 1.88 of the 2001 flights**, and the article does not
+\[[Boeing X-40][ref_x40]\]. **Both are below the 1.88 of the 2001 flights**, and the article does not
 resolve which release altitude is correct.
 
 ### The Reference Area Is Not Published and Can Be Bounded
@@ -448,16 +448,16 @@ of attack a low-speed lifting body approach would suggest.
 ### Aerodynamics and Shape
 
 **The shape was inherited forward rather than derived.** The X-40A airframe was scaled up by about 120
-percent to become the X-37 [[Boeing X-37][ref_x37]], which makes this the rare case in the series where
+percent to become the X-37 \[[Boeing X-37][ref_x37]\], which makes this the rare case in the series where
 the subscale article came first and set the outer mould line of its successor. **The X-38 borrowed the
 X-24A shape backwards in time**, and this programme ran the borrowing in the other direction.
 
 The configuration is a [lifting body][ref_lifting_body] with a blended upper surface, small
 low-aspect-ratio wings and a V-tail. **The class had been flown and characterised for three decades before
-the X-40A**, through the manned lifting body programme [[Thompson 1966][research_thompson_1966]]
-[[Gentry 1966][research_gentry_1966]] [[Layton 1969][research_layton_1969]], its status reviews
-[[McTigue 1970][research_mctigue_1970]] and its stability and control derivatives
-[[Kempel 1970][research_kempel_1970]]. **The X-40A therefore inherited a well-understood shape class**,
+the X-40A**, through the manned lifting body programme \[[Thompson 1966][research_thompson_1966]\]
+\[[Gentry 1966][research_gentry_1966]\] \[[Layton 1969][research_layton_1969]\], its status reviews
+\[[McTigue 1970][research_mctigue_1970]\] and its stability and control derivatives
+\[[Kempel 1970][research_kempel_1970]\]. **The X-40A therefore inherited a well-understood shape class**,
 which is part of why a one million dollar article could be flown with confidence on its first attempt. **The aspect ratio is the property that explains the flight data.**
 With a span of 12 feet and an estimated planform of 100 square feet,
 
@@ -480,9 +480,9 @@ induced drag, so its glide ratio is poor for reasons that have nothing to do wit
 
 **This is the system the vehicle existed to test and the only one whose results transfer.** The 2001
 flight series was described by the space agency as an in-flight evaluation of guidance, navigation and
-control software for autonomous flight controls [[X-40A Space Maneuvering Vehicle][ref_nasa_x40]], and
+control software for autonomous flight controls \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\], and
 the vehicle was fitted with navigation systems before the series began
-[[Boeing X-37 and X-40][ref_x37_x40]].
+\[[Boeing X-37 and X-40][ref_x37_x40]\].
 
 **The scaling result from the sizing section has a direct consequence here and it is favourable.** Under
 Froude similarity angular rates scale as the inverse square root of the length ratio, so at
@@ -535,7 +535,7 @@ $$a = \frac{\dot{h}^{2}}{2s}$$
 
 **The touchdown sink rate for this class is measured rather than guessed at.** A statistical analysis of
 landing contact conditions across three lifting-body research vehicles supplies the distribution a gear
-designer would work from [[Larson and others 1972][research_larson_1972]], and the value used here sits
+designer would work from \[[Larson and others 1972][research_larson_1972]\], and the value used here sits
 inside it. **A representative touchdown sink of 3 feet per second into a 6 inch stroke gives**
 
 $$a = \frac{3^{2}}{2(0.5)} = 9 \ \text{ft/s}^{2}$$
@@ -563,9 +563,9 @@ useful about that.
 
 **Two different helicopters carried it and the change is informative.** The 1998 flight used a
 [UH-60 Black Hawk][ref_uh60] releasing from a cradle at about 9,000 feet
-[[Boeing X-37 and X-40][ref_x37_x40]]. The 2001 series used an Army
+\[[Boeing X-37 and X-40][ref_x37_x40]\]. The 2001 series used an Army
 [CH-47D Chinook][ref_ch47] from the Aviation Technical Test Center at Fort Rucker, Alabama, lifting to
-15,050 feet [[X-40A second free flight successful][ref_sciencedaily_x40]].
+15,050 feet \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
 
 **The heavier helicopter bought altitude, and altitude is the test article's entire energy budget.** For
 an unpowered vehicle the available specific energy at release is
@@ -593,7 +593,7 @@ A paper given to the twentieth Digital Avionics Conference in October 2001 repor
 **Space Integrated Global Positioning System and Inertial Navigation System** during the X-40A approach
 and landing campaign, describing it as an off-the-shelf navigation-grade unit enhanced for space and
 reentry environments and testing it against differential satellite navigation
-[[Childers and others 2001][research_childers_2001]]. **Its two stated objectives name the programme's
+\[[Childers and others 2001][research_childers_2001]\]. **Its two stated objectives name the programme's
 real purpose exactly**, being to demonstrate performance sufficient to meet the X-37 requirement for
 automatic autonomous approach and landing, and **to reduce the risk of integrating that specific unit into
 that specific vehicle.**
@@ -609,36 +609,36 @@ an autonomous landing.**
 
 **The first flight was on 11 August 1998 at Holloman Air Force Base in New Mexico.** It was released from
 a cradle beneath a UH-60 at about 9,000 feet, some 2.5 miles from the end of Runway 04, and flew to an
-automatic landing on the designated runway [[Boeing X-37 and X-40][ref_x37_x40]].
+automatic landing on the designated runway \[[Boeing X-37 and X-40][ref_x37_x40]\].
 **Boeing described the objective as validating low-speed handling qualities and demonstrating autonomous
-approach and landing** [[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]].
+approach and landing** \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 That single flight was the whole of the 1998 campaign.
 
 **The vehicle was then loaned to the space agency and flew seven more times in 2001** at Dryden Flight
 Research Center at Edwards Air Force Base in California
-[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]]. The series ran between 4 April and 19 May 2001
-[[Boeing X-37 and X-40][ref_x37_x40]], with the vehicle lifted to 15,000 feet beneath a CH-47D and
+\[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\]. The series ran between 4 April and 19 May 2001
+\[[Boeing X-37 and X-40][ref_x37_x40]\], with the vehicle lifted to 15,000 feet beneath a CH-47D and
 released for an autonomously controlled descent of about 75 seconds onto the main runway.
 
 **The second free flight is the best documented and supplies every number used in the sizing section
 above.** On 12 April 2001 the vehicle was released at 15,050 feet at 8:45 in the morning Pacific time and
 was on the ground two minutes later, having reached 428 feet per second, and the flight exercised complex
 vehicle manoeuvres rather than the straight-in approach flown first
-[[X-40A second free flight successful][ref_sciencedaily_x40]].
+\[[X-40A second free flight successful][ref_sciencedaily_x40]\].
 
 **Landing accuracy on the first Dryden flight was within 7 feet of the runway centreline**, with the
-vehicle stopping in a little over 7,000 feet [[Boeing X-40][ref_x40]].
+vehicle stopping in a little over 7,000 feet \[[Boeing X-40][ref_x40]\].
 **Seven feet is the result that justifies the programme**, because centreline tracking is precisely the
 quantity an autonomous landing system is trusted or not trusted on.
 
 **The record contains two date conflicts and this article does not resolve either.** One account places
 the first Dryden free flight on 14 March 2001 with a straight-in approach
-[[X-40A second free flight successful][ref_sciencedaily_x40]], while others give 4 April as the start of
-the series [[Boeing X-37 and X-40][ref_x37_x40]]. The release altitude of the 1998 flight is given as
+\[[X-40A second free flight successful][ref_sciencedaily_x40]\], while others give 4 April as the start of
+the series \[[Boeing X-37 and X-40][ref_x37_x40]\]. The release altitude of the 1998 flight is given as
 9,000 feet in one place and about 10,000 feet in another.
 
 **The vehicle was retired in May 2001 and is preserved at the National Museum of the United States Air
-Force** [[Boeing X-40][ref_x40]].
+Force** \[[Boeing X-40][ref_x40]\].
 
 ## What the Data Changed
 
@@ -647,19 +647,19 @@ anybody expected at the time.**
 
 **The airframe became the X-37.** Scaling the X-40A outer mould line up by about 120 percent produced the
 vehicle that flew the Approach and Landing Test Vehicle flights in 2006 and then flew to orbit
-[[Boeing X-37][ref_x37]]. **A one million dollar test article set the external geometry of a spacecraft
+\[[Boeing X-37][ref_x37]\]. **A one million dollar test article set the external geometry of a spacecraft
 that has since flown for years at a time**, which is a return on investment the series has no other
 example of.
 
 **The successor programme documented its own approach and landing plan in detail**, describing the flight
-test approach for the X-37 Approach and Landing Test Vehicle [[Taylor 2004][research_taylor_2004]],
+test approach for the X-37 Approach and Landing Test Vehicle \[[Taylor 2004][research_taylor_2004]\],
 its dynamics and stability and control characteristics
-[[Chaudhary and others 2001][research_chaudhary_2001]], and, afterwards, the lessons the project drew
-[[Turner 2005][research_turner_2005]].
+\[[Chaudhary and others 2001][research_chaudhary_2001]\], and, afterwards, the lessons the project drew
+\[[Turner 2005][research_turner_2005]\].
 
 **The autonomous landing capability was demonstrated and then demonstrated again the hard way.** The
 X-37A Approach and Landing Test Vehicle overran the runway and sustained minor damage on its first free
-glide flight on 7 April 2006 [[Boeing X-37][ref_x37]]. **That is the clearest evidence available that the
+glide flight on 7 April 2006 \[[Boeing X-37][ref_x37]\]. **That is the clearest evidence available that the
 X-40A results did not transfer quantitatively**, since the same programme lineage, flying a vehicle
 120 percent the size with the descendant of the same software, failed to stop on the runway.
 
@@ -692,7 +692,7 @@ X-40A was never that each flight proved much but that flights were affordable en
 
 **The Space Maneuver Vehicle itself was never built.** The operational concept the X-40A was ninety
 percent of does not exist, and the designation it briefly held moved to the test article
-[[Boeing X-37 and X-40][ref_x37_x40]]. **The programme's surviving descendant is a space agency and then
+\[[Boeing X-37 and X-40][ref_x37_x40]\]. **The programme's surviving descendant is a space agency and then
 Air Force orbital vehicle rather than the rapid-turnaround military spaceplane that justified it.**
 
 ## Where the Framing Breaks Down
@@ -817,7 +817,7 @@ flight data cannot support.
 - [Lin, 2025, Analysis of the Aerodynamic Characteristics of Glider Lift-to-Drag Ratio and Its Wing Shape][research_lin_2025]
 - [Ma, 2025, Analysis of the Aerodynamic Characteristics of the Lift-to-Drag Ratio of a Glider and Its Wing Shape][research_ma_2025]
 
-### Guidance, Navigation and Control
+### Guidance, Navigation and Control in the Literature
 
 **The X-40A was a flying testbed for software, so this is the cluster its results belong to.** Integrated satellite and inertial navigation, filtering, and terminal guidance are the components whose integration the flights exercised, and the literature is largely about making them agree with one another.
 
@@ -1157,7 +1157,7 @@ said it was not.** A paper to the twentieth Digital Avionics Conference names th
 Positioning System and Inertial Navigation System, reports its testing during the X-40A approach and
 landing campaign against differential satellite navigation, and states its objectives as demonstrating
 performance sufficient for the X-37 requirement and reducing the risk of integrating that unit into that
-vehicle [[Childers and others 2001][research_childers_2001]]. **The claim of absence was wrong and was
+vehicle \[[Childers and others 2001][research_childers_2001]\]. **The claim of absence was wrong and was
 made without searching the technical reports server**, which is the error this pass exists to catch.
 **The wider instrumentation suite beyond the navigation system remains undescribed**, and the achieved
 navigation accuracies are in the full report rather than in its abstract, so they are not quoted here.

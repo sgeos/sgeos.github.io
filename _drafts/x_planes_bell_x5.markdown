@@ -551,7 +551,7 @@ Derivative extraction from the flight records used the methods of the period, wi
 
 Two aircraft were built and about two hundred flights were made, to Mach 0.9 and 40,000 feet.
 
-The first aircraft proved mechanically unreliable and made only ten flights. Walter Williams, who ran the NACA unit at Muroc, is quoted in the secondary literature calling it a lemon. The second aircraft was delivered during the resulting pause, proved far more reliable, and made twenty contractor flights. Both were turned over to the Air Force and the NACA in February 1950 by one account and 1952 by the chronology of the flights themselves, which is one of several dating inconsistencies in the secondary record. Air Force pilots including [Chuck Yeager][ref_yeager] flew a short evaluation series, and the NACA programme followed with [Scott Crossfield][ref_crossfield] among the pilots.
+The contractor programme on the first aircraft ended in October 1951, and the aircraft was then grounded for the installation of a NACA instrument package. In December 1951 Air Force pilots flew a brief evaluation of six flights, which were logged as joint Air Force and NACA flights because data were taken. The NACA High-Speed Flight Station then operated the first aircraft from 1952 to late 1955, 133 flights in all by the NACA count, with the NACA pilots Walker, [Crossfield][ref_crossfield], Butchart, McKay and Armstrong among those its flight chronology names, and retired it after a landing gear door separated in flight. The second aircraft was operated only by Bell and the Air Force [Hallion 1984 On the Frontier Flight Research at Dryden, 1946-1981][research_hallion_1984].
 
 The aircraft demonstrated what it was built to demonstrate. Sweep could be changed in flight, the trim consequence was absorbable, and the low-speed benefit was real. [Finch and Briggs 1953][research_finch_1953] report the stability and control investigation, [Finch and Walker 1953][research_finch_1953_2] the static longitudinal stability boundaries at 59 degrees, [Childs 1953][research_childs_1953] the sideslip behaviour, [Bellman 1953][research_bellman_1953] the lift and drag, and [Videan 1955][research_videan_1955] the dynamic lateral and longitudinal stability, with the load measurements of [Rogers and Dunn 1952][research_rogers_1952], [Reed 1955][research_reed_1955], and [Banner et al 1955][research_banner_1955] alongside. That is a dense and complete primary record for an aircraft that flew two hundred times, and it is denser than the [X-4][related_post_a301_northrop_x4]'s. The buffet behaviour of swept wing-fuselage-tail combinations at high subsonic speed, which bounds the useful envelope at every sweep setting, is characterized in [Sutton 1959][research_sutton_1959], and the gust-alleviation study performed on the X-5 model has a direct companion on a 35 degree swept wing in [Croom and Huffman 1957][research_croom_1957_2].
 
@@ -796,7 +796,6 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 - [Wikipedia Article on Aeroelasticity][ref_aeroelasticity]
 - [Wikipedia Article on Aircraft Nuclear Propulsion][ref_anp]
 - [Wikipedia Article on Bell Aircraft][ref_bell_aircraft]
-- [Wikipedia Article on Chuck Yeager][ref_yeager]
 - [Wikipedia Article on Directional Stability][ref_directional_stability]
 - [Wikipedia Article on Duralumin][ref_duralumin]
 - [Wikipedia Article on Dutch Roll][ref_dutch_roll]
@@ -997,6 +996,7 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 - [Guo et al 2020 Unsteady Flow Simulation of a Variable-Sweep Morphing Aircraft Coupled with Dynamic Deformation][research_guo_unsteady_2020]
 - [Gurley and Ruhlin 1962 Transonic flutter investigation of models of a proposed variable-sweep wing][research_gurley_1962]
 - [Hale 1976 Best-range flight conditions for cruise-climb flight of a jet aircraft][research_hale_1976]
+- [Hallion 1984 On the Frontier Flight Research at Dryden, 1946-1981][research_hallion_1984]
 - [Hamer et al 1961 Application of Monte Carlo Technique for Determining Maneuvering Loads from Statistical Information on Airplane Motions][research_hamer_1961]
 - [Hammond and Henderson 1961 Low-speed Investigation of High-lift and Lateral Control Devices on a Semispan Variable-sweep Wing Having an Outboard Pivot Location][research_hammond_1961]
 - [Hammond and Polhamus 1965 Subsonic aerodynamic characteristics of an airplane configuration utilizing a variable- sweep wing having a free-floating apex][research_hammond_1965]
@@ -1352,7 +1352,6 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 [ref_wing_twist]: https://en.wikipedia.org/wiki/Wing_twist
 [ref_xb70]: https://en.wikipedia.org/wiki/North_American_XB-70_Valkyrie
 [ref_yaw_damper]: https://en.wikipedia.org/wiki/Yaw_damper
-[ref_yeager]: https://en.wikipedia.org/wiki/Chuck_Yeager
 [ref_yield_strength]: https://en.wikipedia.org/wiki/Yield_(engineering)
 [related_post_a106_two_stage_delta_wing]: {% post_url 2026-03-12-two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications %}
 [related_post_a118_propulsion_sizing]: {% post_url 2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs %}
@@ -1485,6 +1484,7 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 [research_guo_unsteady_2020]: https://doi.org/10.1142/s0217979220400731
 [research_gurley_1962]: https://ntrs.nasa.gov/citations/19660025705
 [research_hale_1976]: https://ntrs.nasa.gov/citations/19770003437
+[research_hallion_1984]: https://ntrs.nasa.gov/citations/19850009625
 [research_hamer_1961]: https://ntrs.nasa.gov/citations/20040027944
 [research_hammond_1961]: https://ntrs.nasa.gov/citations/19650014317
 [research_hammond_1965]: https://ntrs.nasa.gov/citations/19660025706

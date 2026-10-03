@@ -31,7 +31,7 @@ import collections
 import re
 import statistics
 
-ROW = re.compile(r"^\*\*([\d,]+) records\.\*\*(.*)$", re.M)
+ROW = re.compile(r"^\*\*([\d,]+) (?:records|works?)\.\*\*(.*)$", re.M)
 HEADING = re.compile(r"^### (.+)$")
 CITE = re.compile(r"\]\[([a-z][a-z0-9_]*)\]")
 

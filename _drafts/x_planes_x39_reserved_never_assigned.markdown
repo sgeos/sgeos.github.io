@@ -58,7 +58,7 @@ subject rather than one of the literature that surrounds its series.
 The designations themselves belong to the
 [tri-service system adopted in 1962][ref_tri_service], which remains the framework under which every number
 in this series was issued
-[[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]].
+\[[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]\].
 
 ## What the Record Says Happened
 
@@ -67,7 +67,7 @@ of missing United States Air Force and Department of Defense designations record
 **X-39 was reserved on 23 April 1997 for the Future Aircraft Technology Enhancements programme of the Air
 Force Research Laboratory**, and that
 **no formal written request to allocate X-39 to that programme was ever put forward, so the designation
-remained officially unassigned** [[Missing USAF and DOD Aircraft Designations][ref_missing_mds]].
+remained officially unassigned** \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
 **Future Aircraft Technology Enhancements, abbreviated FATE, was a technology programme rather than an
 aircraft programme**, and it was a subset of the national Fixed Wing Vehicle effort. It was sponsored by
@@ -77,34 +77,34 @@ the next generation of combat aircraft, and the candidate technologies named in 
 include affordable low-observable structures, the [active aeroelastic wing][ref_active_aeroelastic_wing],
 robust composite sandwich structures, advanced compact inlets, photonic vehicle management systems,
 self-adaptive flight controls, and electric flight control actuation
-[[X-39, Federation of American Scientists][ref_fas_x39]].
+\[[X-39, Federation of American Scientists][ref_fas_x39]\].
 
 **The programme was organised in three phases and only the first was ever executed.** Phase I of FATE I was
 to identify which technologies required flight validation. Phase II of FATE I was to produce preliminary
 vehicle design concepts, a demonstrator system, and demonstration plans. FATE II was to build and flight
-test the demonstrator [[Lockheed Martin FATE briefing][ref_lockheed_fate]]. **The X-39 designation belongs to
+test the demonstrator \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\]. **The X-39 designation belongs to
 that third phase**, since a research designation is for a vehicle and the vehicle was FATE II's product.
 
 **Two contractors executed Phase I in the second half of 1997.** Lockheed Martin performed its study from
 June through October 1997 under contract F33615-97-C-3804
-[[Lockheed Martin FATE briefing][ref_lockheed_fate]].
+\[[Lockheed Martin FATE briefing][ref_lockheed_fate]\].
 [Boeing Phantom Works][ref_phantom_works] performed a parallel study from 22 May to 30 October 1997,
 reported by Jem Cupstid in November 1997 as **Future Aircraft Technology Enhancements, Block I**, technical
 report AFRL-VA-WP-TR-1999-3061, held by the [Defense Technical Information Center][ref_dtic] under accession
-number ADA367849 [[Cupstid 1997][research_cupstid_1997]]. That report states that the study identified
+number ADA367849 \[[Cupstid 1997][research_cupstid_1997]\]. That report states that the study identified
 technologies with the highest potential against the Fixed Wing Vehicle goals, identified the subset that
 needed flight test on a new vehicle, **suggested a modular vehicle that could flight validate them**, and
 prepared a rough-order-of-magnitude cost estimate for a follow-on programme to build and fly it.
 
 **The Lockheed Martin briefing survives in full at fifty-eight slides** and is the most detailed public
-account of what Phase I concluded [[Lockheed Martin FATE briefing, full deck][ref_fate_deck]].
+account of what Phase I concluded \[[Lockheed Martin FATE briefing, full deck][ref_fate_deck]\].
 A ranking exercise selected **five technologies as those requiring flight demonstration**, being the compact
 inlet, the conformal fluidic nozzle, tailless technologies, the continuous aerodynamic control surface and
-the lambda wing [[FATE, five technologies selected][ref_fate_five]].
+the lambda wing \[[FATE, five technologies selected][ref_fate_five]\].
 **The concluding slide is the one that matters for the designation.** It reports that the five selected
 technologies achieve three of the six Fixed Wing Vehicle goals, that further technologies would be needed
 to meet the cost goals, and that **integrating them into an existing vehicle would require substantial
-modification** [[FATE, conclusions and recommendations][ref_fate_conclusions]].
+modification** \[[FATE, conclusions and recommendations][ref_fate_conclusions]\].
 
 **That last finding is the technical case for a new airframe, and therefore for a new design number.** A
 technology that can be demonstrated on an existing aircraft needs no designation of its own.
@@ -123,9 +123,9 @@ FATE, and the reason reported in the trade press was that it would duplicate wor
 development making increased use of demonstrator aircraft that already existed, among them the
 [X-36][related_post_a333_mcdonnell_douglas_x36], and **Phase I of FATE I was used as a starting point for the
 Uninhabited Combat Air Vehicle Advanced Technology Demonstration, which replaced the FATE activity
-altogether** [[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]].
+altogether** \[[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]\].
 That successor programme did receive a research designation, and it was the X-45 rather than the X-39
-[[Boeing X-45][ref_x45]].
+\[[Boeing X-45][ref_x45]\].
 
 **So the vehicle the number was held for was never designed, let alone built.** There is no airframe, no
 wind-tunnel campaign, no contractor mock-up, and no cancelled production order.
@@ -143,13 +143,13 @@ designator and transmits the request onward for processing and approval, and tha
 **approval rests with the office designated as the Department of Defense executive agent**. The same
 paragraph closes with four words that settle the matter, being
 **do not use Mission Design Series designators before approval**
-[[Air Force Joint Instruction 16-401][ref_afi_16_401]].
+\[[Air Force Joint Instruction 16-401][ref_afi_16_401]\].
 
 **The instruction implements Department-level policy and does not stand alone.** The naming and designating
 authority is established at Department of Defense level
-[[DoD Instruction 4120.15][ref_dodi_412015]], and the approved designators themselves were published in a
+\[[DoD Instruction 4120.15][ref_dodi_412015]\], and the approved designators themselves were published in a
 single Department-wide list, **DoD 4120.15-L, whose stated purpose is to list approved designators and
-popular names** [[DoD 4120.15-L][ref_dod_412015l]].
+popular names** \[[DoD 4120.15-L][ref_dod_412015l]\].
 
 **That list can be checked, and checking it is better than asserting from it.** The edition of 12 May 2004,
 the last publicly released one, carries an appendix of approved aircraft designators running to well over a
@@ -174,7 +174,7 @@ reservation into a designation had no occasion to be written.
 kind rather than degree.** The [X-23][related_post_a320_martin_marietta_x23] was requested and the request
 was disapproved in 1965 on the ground that the system covered manned aircraft only. The X-52 was requested in
 2006 and refused because of possible confusion with the B-52 series, and the X-53 designation was assigned
-instead [[Missing USAF and DOD Aircraft Designations][ref_missing_mds]].
+instead \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 **Those are decisions, and a decision leaves a record and a reason.** The X-39 was never refused by anybody.
 **It was never asked for**, and an omission leaves neither a record nor a reason, which is why the entry for
 it in every source consists of a date, a programme name, and a negative.
@@ -189,19 +189,19 @@ office reserving a design number in advance of a request.** Parsch's account of 
 practice supplies the missing step, and describes it as an informal one, in which somebody from the programme
 office contacts the Department of Defense control point for discussion, and if a designation is tentatively
 established then **the Mission Design Series is regarded as reserved**
-[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]].
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
 **The consequence of stopping there is stated plainly in the same source**, which records that if the
 informal step is never followed by the written request, **the result is a reserved designation that is never
 officially requested, let alone assigned**, and that this has happened for the design numbers A-11, C-30 and
 C-36, V-17, V-19 and V-21, **and X-39**, effectively producing gaps in the lists of allocated designations
-[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]].
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
 **So the X-39 was removed from circulation by an act the written procedure does not provide for.** The
 instruction's own use of the word is different and worth separating carefully. The joint instruction as
 reissued on 14 April 2005 says at paragraph 5 that the assigning authority
 **will assign and reserve the next available consecutive design number within each basic mission for new
-vehicles** [[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]].
+vehicles** \[[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]\].
 **That reservation is performed by the assigning authority as part of handling a written request.** The
 reservation that consumed the X-39 was performed before any written request existed, by the party that would
 have submitted one. **The two acts share a word and nothing else.**
@@ -209,7 +209,7 @@ have submitted one. **The two acts share a word and nothing else.**
 **The instruction has been reissued since, and the changes answer three questions this article would
 otherwise have to leave open.** The current joint instruction is dated 3 November 2020 and carries the
 Army and Navy numbers alongside the Air Force one
-[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]].
+\[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\].
 
 **Reserving a design number in advance of a request is still not a procedure.** The word appears in the
 current text for the approving authority's own retained powers and for the Reserve components, and nowhere
@@ -218,19 +218,19 @@ act remains undescribed.**
 
 **Skipping a number, by contrast, is now explicitly authorised.** The current instruction states at
 attachment 2 that **the approving authority reserves the authority to skip design number at discretion**
-[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]]. What was an accident of correspondence in
+\[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. What was an accident of correspondence in
 1997 is now a stated discretionary power, which is a change in the character of the gaps rather than in
 their number.
 
 **And a release mechanism now exists, which is exactly what 1997 lacked.** The current instruction carries
 a section on the retirement and reactivation of a designator, with eligibility conditions for each
-[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]]. **A number can now be given up and taken back
+\[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. **A number can now be given up and taken back
 by written procedure.** Whether that would have saved the X-39 is not knowable, since retirement applies to
 designators that were assigned and the X-39 never was, **which is the same gap in a newer document**.
 
 **One further change bears on the check made above.** The current instruction records the cancellation of
 DoD 4120.15-L as the publicly accessible database of designators, replaced by a listing on a Department web
-service [[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]]. **The 2004 edition examined here is
+service \[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. **The 2004 edition examined here is
 therefore the last public snapshot of the approved list**, which is why the absence of the X-39 from it was
 worth checking directly.
 
@@ -238,7 +238,7 @@ worth checking directly.
 
 **The asymmetry is explicit in the text and it runs the wrong way.** The same joint instruction states at
 paragraph 16 that **manufacturers or military services may reserve a set of names for future models for
-their exclusive use** [[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]].
+their exclusive use** \[[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]\].
 **There is no corresponding sentence anywhere for design numbers.**
 
 **A popular name is a marketing asset and a design number is a structural index.** The instruction
@@ -307,12 +307,12 @@ than creation.** A reservation that leads nowhere does not have to be permanent.
 **A number can be recovered, and the condition is precise.** Parsch records that if a reservation is
 explicitly cancelled by the original requester **before the next number is allocated**, the number can
 effectively be reused, and gives the C-16 designation as a case where exactly that happened
-[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]].
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
 **Nobody cancelled the X-39 reservation, and the window in which cancelling it would have helped was short.**
 The [X-40A][ref_x40] designation was allocated in 1997, initially to the Space Maneuver Vehicle and soon
 reassigned to the Integrated Technology Test Bed, the ninety percent scale unpowered vehicle that carried it
-into flight [[Boeing X-37 and X-40][ref_x37_x40]].
+into flight \[[Boeing X-37 and X-40][ref_x37_x40]\].
 **The FATE demonstrator was not cut until after the Phase I studies concluded on 30 October 1997.**
 So the next number was allocated in the same year the X-39 was reserved,
 while the demonstrator that justified the reservation was still a live proposal.
@@ -352,7 +352,7 @@ fails the condition regardless of when the passage occurred.
 use for nearly thirty years without ever being approved.** The Federation of American Scientists published a
 page headed X-39 under a military aircraft heading, which correctly reports that the designator is apparently
 unassigned while nonetheless presenting it as an entry alongside aircraft that exist
-[[X-39, Federation of American Scientists][ref_fas_x39]].
+\[[X-39, Federation of American Scientists][ref_fas_x39]\].
 **The number is more widely published than many designations that were properly approved and applied to
 hardware.**
 
@@ -371,16 +371,16 @@ aircraft behind it at all.**
 than from burning fuel. **Those engines ran.** The Smithsonian National Air and Space Museum records that
 General Electric **successfully operated its X-39 engines on a ground test stand in 1956**, and that the
 [Convair X-6][related_post_a303_convair_x6] was to have carried four of them beneath its belly under the
-reactor [[Bernier 2025][research_bernier_2025]]. They were operated against three successive reactors, the
+reactor \[[Bernier 2025][research_bernier_2025]\]. They were operated against three successive reactors, the
 Heat Transfer Reactor Experiments numbered one, two and three, under the
 [Aircraft Nuclear Propulsion][ref_anp] programme established by the Air Force and the Atomic Energy
-Commission in 1951 [[General Electric J47][ref_j47]].
+Commission in 1951 \[[General Electric J47][ref_j47]\].
 **The X-6 is the sixth article in this series**, and it is the aircraft that would have flown them had the
 programme survived.
 
 **The two sources disagree on what counted as one engine and the disagreement is left standing.** The
 museum account has the X-6 carrying four X-39 engines, while the encyclopaedia describes the X-39 as
-consisting of two modified J47 units [[General Electric J47][ref_j47]]. **Both can be true if the
+consisting of two modified J47 units \[[General Electric J47][ref_j47]\]. **Both can be true if the
 designation names a unit of two**, but no source consulted here says so, so no count is asserted.
 
 **Two registers therefore contain the same string and disagree completely about what it denotes.** In the
@@ -391,7 +391,7 @@ coincidence, since aircraft and engines are numbered under separate sequences by
 **The encyclopaedia records the collision rather than resolving it.** There is no article for the aircraft
 designation at all. What exists is a disambiguation page listing two senses, the nuclear turbojet and the
 reserved aircraft number, with the latter pointing back to the technology programme rather than to any
-vehicle [[X39][ref_x39_wikipedia]].
+vehicle \[[X39][ref_x39_wikipedia]\].
 **A designation that was never assigned has been reduced to one line on a page whose purpose is to warn
 readers that the term is ambiguous**, which is a fair summary of its entire standing.
 
@@ -793,7 +793,7 @@ both sources support plainly.
 
 **One source conflict is recorded rather than resolved.** The encyclopaedia article on FATE describes the
 programme as run by the Air Force Research Laboratory and the Defense Advanced Research Projects Agency
-jointly [[Future Aircraft Technology Enhancements][ref_fate_wikipedia]], while the contemporaneous sources
+jointly \[[Future Aircraft Technology Enhancements][ref_fate_wikipedia]\], while the contemporaneous sources
 here describe FATE as an Air Force programme whose demonstrator was cut precisely because it would have
 duplicated a separate agency project. **The second reading is better supported and the conflict is left
 standing rather than silently resolved.**

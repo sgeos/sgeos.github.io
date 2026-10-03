@@ -1214,7 +1214,7 @@ awareness, and the degradation of manual flying skill under automation, in [Bart
 2015][research_barton_2015], [Blumenthal 2015][research_blumenthal_2015], [Bottasso and Montinari
 2015][research_bottasso_montinari_2015], [Supplemental Material for Self-Affirmation Breaks the Link Between the Behavioral Inhibition System and the Threat-Potentiated Startle Response 2015][research_supplemental_material_2015], [Ye et al 2015][research_ye_2015], [Aslaksen et al
 2016][research_aslaksen_2016], [Polechoński et al 2016][research_polechonski_2016], [Toufexis et al
-2016][research_toufexis_2016], [Beyond the ERPs — Startle Response is Better Outlined by Whole Brain and Spectral EEG Features 2017][research_beyond_the_2017], [Landman et al
+2016][research_toufexis_2016], [Beyond the ERPs, Startle Response is Better Outlined by Whole Brain and Spectral EEG Features 2017][research_beyond_the_2017], [Landman et al
 2017][research_landman_2017], [Lee et al 2017, L1 Adaptive Control Within a][research_lee_2017], [Lombaerts
 et al 2017][research_lombaerts_2017], [Xue et al 2017][research_xue_2017], [Zheng et al
 2018][research_zheng_2018], [Ryffel et al 2019][research_ryffel_2019], [Yildiz et al
@@ -2340,7 +2340,7 @@ Otis, Arthur 1945][research_pope_francis_1945], [Stone 1945][research_stone_1945
 1946][research_forsythe_a_c_r_1946], [Holley and Irving B. 1946][research_holley_irving_b_1946], [Jones
 1946][research_jones_1946], [Kellogg 1946][research_kellogg_1946], [Naval Proving Ground Dahlgren Va
 1946][research_naval_proving_ground_dahlgren_va_1946], [Saari and Wallner
-1946][research_saari_wallner_1946], [United States Flight over the North Geographical Pole, 1946 1946][research_united_states_1946], [Wallner
+1946][research_saari_wallner_1946], [United States Flight over the North Geographical Pole, 1946][research_united_states_1946], [Wallner
 and Sorin 1946][research_wallner_sorin_1946], [Woodfield 1946][research_woodfield_1946], [Cornell
 Aeronautical Lab Inc Buffalo Ny 1947][research_cornell_aeronautical_lab_inc_buffalo_ny_1947], [Heidenreich
 1947][research_heidenreich_1947], [Seacord and Teitelbaum 1947][research_seacord_teitelbaum_1947], [Sibert
@@ -3374,7 +3374,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Bevilaqua 2021][research_bevilaqua_2021]
 - [Beyers 1983][research_beyers_1983]
 - [Beyers 1988][research_beyers_1988]
-- [Beyond the ERPs — Startle Response is Better Outlined by Whole Brain and Spectral EEG Features 2017][research_beyond_the_2017]
+- [Beyond the ERPs, Startle Response is Better Outlined by Whole Brain and Spectral EEG Features 2017][research_beyond_the_2017]
 - [Bhandari et al 2026][research_bhandari_2026]
 - [Bhardwaj et al 2026][research_bhardwaj_2026]
 - [Bhat et al 2026][research_bhat_2026]
@@ -6196,7 +6196,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Ulvr et al 2026][research_ulvr_2026]
 - [Underwood 1942, Aerodynamic Characteristics for][research_underwood_1942]
 - [Underwood 1942, Notes on the effects of][research_underwood_1942_2]
-- [United States Flight over the North Geographical Pole, 1946 1946][research_united_states_1946]
+- [United States Flight over the North Geographical Pole, 1946][research_united_states_1946]
 - [United States Navy airship flight in the Arctic, 1958 1960][research_united_states_1960]
 - [United States Pole-to-Pole flight, 1965 1966][research_united_states_1966]
 - [Unmanned and Uncontrolled The 2015][research_unmanned_and_2015]

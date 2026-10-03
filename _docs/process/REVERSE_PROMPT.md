@@ -5,6 +5,38 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **SERIES REPAIR on the pilot's instruction to address every repair that can be completed without input. Committed, NOT pushed, NOT published.**
+
+**REPAIRED, EACH CHECKED AGAINST A SOURCE OR A GATE.**
+- **A302, X-5.** The paragraph of X-4 history is replaced with the X-5's record from Hallion's NASA history of Dryden, read in full: the contractor programme ended in October 1951, the Air Force flew a six-flight evaluation in December 1951, and the NACA flew 133 flights from 1952 to late 1955, while the second aircraft was flown only by Bell and the Air Force. The unsupported Yeager mention and its now-uncited definition were removed, and Hallion 1984 was added as a research reference.
+- **A346, X-49.** The allocation is redated from 2004 to the register's 23 May 2003 in all three places. The 2004 transfer to the Army is kept as a separate event, and the register is added as a cited primary.
+- **A350.** The duplicated `## The Contemporary Literature` heading is removed.
+- **A324.** `book_jenkins` now reads "Dennis R. Jenkins 2000, Hypersonics Before the Shuttle", verified against the Open Library work.
+- **Related-post lists.** A356 and A357, 116 entries showing raw anchor slugs, and A365 through A368, 278 entries showing `a297 framing`-style labels, now carry article titles from each target's front matter. The A367 and A368 assemblers build them that way.
+- **A367's literature filter.** The `S + r"?"` construction, which demanded a separator where it meant an optional one, is fixed. The filter admits 172 more records, 76 of them propfan and turboprop work, which took the propeller cluster from 146 to 222. It now removes 16 quadrotor titles, and two newly exposed homonyms, Toray T700 carbon fibre and planar VTOL, became refusal cases.
+  - **A367's report-server names** are trimmed to surnames.
+  - **A367 now has 8,588 lines and 3,882 definitions.** Its survey figures are regenerated, the Source Base records the repair with its figures, and `verify367.py` runs 578 checks with all mutations caught.
+- **A352 through A355.** Their literature rows now open with a bold count, 56 rows, and A352's and A355's tables were checked against their runs and agree.
+- **The corpus row rule widened.** `_verify.py` and `_lib/survey.py` accepted only `records`, so the `works` rows of A365 through A368, and now A352 through A355, were never gated. A planted wrong count passed before the change and is caught after it. `test_lib.py` passes 125 of 125.
+- **A335 and A337.** Each had a duplicated subsection heading, a systems subsection repeated in the literature, and the literature copies are renamed "... in the Literature".
+- **Citation link text, series-wide.** 14 repeated trailing years such as "Pole, 1946 1946" and 38 en and em dashes in link text were fixed, link text being prose under the house rules.
+- **A368.** Its error section now reports the A302 and A346 errors as repaired. The ledger quotations those repairs moved were relocated by verbatim search, none edited, and `verify368.py` asserts the repairs are in place.
+- **Citation format: 17 of 22 drafts escaped**, 68,317 citations changed from `[[text][anchor]]` to `\[[text][anchor]\]`, each draft's HTML rendered with the site's kramdown options before and after and proved byte-identical, the slowest proof taking 41 minutes. The five largest, A340 through A344, stay unescaped until their comparisons, still running after up to two hours, finish. All 35 changed drafts were built fully together in 46 seconds and the rendered audit has no findings.
+
+**NEEDS THE PILOT, WITH THE OBVIOUS OPTIONS.**
+- **A297's errors**, the backwards definition of injectivity, monotonicity placed at the X-76, and a predicted third cluster. Option one: leave A297 as it is, so that A368 corrects it and A368's comparison stays true. Option two: correct A297 with a pointer to A368, which then means rewording A368's comparison as a record of what A297 first said.
+- **A364 and A365 Epistemic State.** Option one: add a dated statement that their register rows were not public until January 2026. Option two: leave them, since A366 and A368 state it.
+- **33 articles have no `## Comparison With Ground Prediction` section**, which became a series convention partway through. Option one: leave them and exempt the early articles in the checker. Option two: write the section for each, which is new content. Option three: add a short section to each saying what flight returned against prediction, where the article already says it.
+- **Six articles break the expected section order**, A351 through A354 with the Source Base early and A336 and A359 differently. Option one: move each Source Base to sit before Epistemic State. Option two: leave them, since A336's reduced order is deliberate.
+- **The older literature surveys have off-topic records**, titles such as "soil-machine system" and "Even-Even Nuclei" in A323 through A336. Option one: rebuild each gate and regenerate its survey prose. Option two: remove the off-topic records and their counts by hand. Option three: leave them and state it.
+- **The Open Library links are unresolved.** 192 of 567 returned 200 before the server refused connections, which looks like rate limiting. Option one: recheck slowly later. Option two: accept them as they are.
+- **The handoff** carries stale text, the X-49's 2004 date and the late-series ordering claim, and needs a rewrite and restamp, which the pilot's handoff prompt governs.
+
+**VERIFICATION.** `_verify.py` reports 0 errors and 0 warnings across 304 posts. `verify367.py` runs 578 checks and `verify368.py` 1,827, all passing. The A367 stub build is clean, `_lib/render.py` has no findings, and all 40 of A367's displays match.
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A377 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT published.** No X-Planes file was touched.
 
 **FINAL STATE.**

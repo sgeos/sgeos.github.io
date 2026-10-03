@@ -1116,7 +1116,7 @@ directly on the entry profile a lifeboat should fly.
 - [Aerodynamics and Aerothermodynamics of undulated re-entry...][research_kaushikh_arunvinthan_2018]
 - [Particle Simulation of Plasma Drag Force Generation in the...][research_kawashima_bak_2018]
 
-### Thermal Protection
+### Thermal Protection in the Literature
 
 - [Approximate Trajectories for Thermal Protection System Flight...][research_tancredi_grassi_2007]
 - [Testing Lunar Return Thermal Protection Systems using...][research_chengeorge_dejongchristian_2007]
