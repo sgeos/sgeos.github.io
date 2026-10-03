@@ -5,6 +5,28 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A366 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT
+published.** Seventy of seventy-two drafted. References **1,935 to 1,974**, reference primaries **16 to 24**, research works **1,850 to 1,881** of which 13 are hand-chosen primaries verified by title, report-server citations **41 to 59** and their share **2.22 to 3.14 percent**, lines 4,566 to 4,662, display equations 40 to 42, the pool 11,384 to 15,522.
+
+**THE LARGEST YIELD.** NASA's *American X-Vehicles* inventory, SP-2003-4531, was found by the aimed sweep. It gives the X-50A precedent a second primary. It reports DARPA's 50/50 reasoning and quotes Boeing's programme manager saying that Boeing got the number out of sequence by special request. **It also predicted in early 2003 that the X-49 would be issued with the next request, and it was.** So the earlier chosen number has two different requesters in three accounts, which is the same open question of agency the X-76 has.
+
+**WHAT ELSE NOW RESTS ON A PRIMARY.**
+
+- Each founding year: the Declaration transcript, Public Law 114-196, the National Security Act of 1947, and the Army's own quotation of the 14 June 1775 resolution.
+- The 1994 instruction's next-available sentence, quoted from its text.
+- DARPA's XRQ-73 announcement. **It calls an unmanned designation an X-plane**, and the article now says so.
+
+**A CORRECTION OF METHOD.** My first wording attributed arguments to three papers I had read only by title. I fetched the registry abstracts and rewrote each sentence to follow its abstract. I also dropped a superlative that I could not support, and the Numerical Commemoration study is cited for its title alone, which the prose states.
+
+**THE AIMED SWEEP WAS MEASURED.** Forty questions in the designation system's own vocabulary added 4,138 records to the pool, and the gate admitted 30. Report-server citations went from 41 to 59, which is 2.22 to 3.14 percent. That is small, and it is the honest result for a subject that is not engineering. Two new homonyms became refusal cases. **Two defence-registry PDFs refuse every client**, an edition of the instruction catalogued in 1997 and the Navy's 2012 report on naming vessels, so both stay as swept records. **Two newly cited pages now return 403 to the address sweep.** The IARPA and Army pages were read earlier with browser headers, and saved copies are under `tmp/a366/prim/`.
+
+**VERIFICATION.** `verify366.py` runs 716 checks, and every new quotation is read back from its saved copy. `_verify.py` reports 0 errors and 0 warnings. The stub build is clean, the render audit has no findings, all 42 display blocks are matched, and the style and symbol checks are clean.
+
+**NOTHING PUSHED.** **Next prompt: the publication review of A366.** It also pushes. The pilot decision on A364's and A365's Epistemic State sections is still open.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A366 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT
 published.** Seventy of seventy-two drafted. Display equations **14 to 40**, lines 4,402 to 4,566, inline expressions 38 to 105, the symbol table 17 entries to 33, references held at 1,935, sections and tables unchanged at 11 H2, 42 H3 and 9 tables.
 

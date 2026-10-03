@@ -644,8 +644,8 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_x69_through_x75_leapfrogged_block.markdown`, A366, editorial date 2025-12-14, series
 `x_planes` index 70 of 72, categories `aerospace history engineering`, designation-anomaly class
-under the reduced order. **DRAFTING AND EQUATION-DENSITY PASSES COMPLETE, two of four. Committed, not
-pushed. NOT PUBLISHED**, and publication of the series has never been authorised.
+under the reduced order. **DRAFTING, EQUATION-DENSITY AND PRIMARY-REFERENCE PASSES COMPLETE, three of four. Committed,
+not pushed. NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **4,402 lines, 26,207 words of which about 13,900 lie outside the citation runs and reference lists,
 14 display equations, 38 inline expressions, a 17-entry symbol table and 1,935 reference definitions**,
@@ -681,7 +681,9 @@ reference pass should audit it.
 
 **THE EQUATION PASS.** Display equations **14 to 40**, lines 4,402 to 4,566, inline expressions 38 to 105, the symbol table 17 entries to 33, references held at 1,935, sections and tables unchanged at 11 H2, 42 H3 and 9 tables. The largest additions are the rate multiplier of 23.51 that seven unreleased allocations would require, replacing a sentence that had called a probability ratio a clustering factor, the founding-year range probability of 0.00320 against a uniform null stated as a scale, the two next-number definitions giving 77 and 69, and the serial-number estimator overcounting by more than twelve. Two inserted display blocks rendered as prose until a missing blank line was fixed, and the verifier now forbids it. `verify366.py` 679 checks.
 
-**REMAINING.** Primary references and publication review.
+**THE PRIMARY-REFERENCE PASS.** References **1,935 to 1,974**, reference primaries **16 to 24**, research works **1,850 to 1,881** of which 13 are hand-chosen primaries verified by title, report-server citations **41 to 59** and their share **2.22 to 3.14 percent**, lines 4,566 to 4,662, display equations 40 to 42, the pool 11,384 to 15,522. NASA's SP-2003-4531 gives the X-50A precedent a second primary with a contractor requester and a 2003 prediction that came true. The founding years rest on the Declaration, Public Law 114-196, the National Security Act of 1947 and the Army's quotation of the 1775 resolution. Thirteen research primaries were verified by title, and three sentences were cut back to their abstracts. `verify366.py` 716 checks.
+
+**REMAINING.** Publication review.
 
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 
