@@ -17,12 +17,14 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios A377 2025-10-05
+## Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios A377 2025-10-05 PUBLISHED
 
-`strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
+`_posts/2025-10-05-strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
 essay, categories `lifestyle fragrance war-gaming`, no series.
 
-**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS. NOT published.** 7,747 lines, 45 display equations,
+**ALL FOUR PASSES COMPLETE, PLUS A PATHOLOGICAL WORD USAGE PASS. PUBLISHED 2026-10-03 on the
+pilot's instruction** as `_posts/2025-10-05-strategic_fragrance_application.markdown`, which takes
+the corpus to 305 posts. 7,748 lines, 45 display equations,
 196 inline expressions, 11 tables and 2,612 reference definitions, of which 2,525 are survey
 works added in the publication review. **The pilot added a standing requirement that every
 article in this line serve as a comprehensive survey and review of the contemporary literature,

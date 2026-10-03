@@ -5,6 +5,55 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A377 PUBLISHED on the pilot's instruction, committed and PUSHED. The article is LIVE.**
+
+**PUBLICATION.**
+- **Path.** `_drafts/strategic_fragrance_application.markdown` moved by `git mv` to `_posts/2025-10-05-strategic_fragrance_application.markdown`. `_publish.sh` was not used, since it fails under BSD sed on this platform.
+- **Address.** `/lifestyle/fragrance/war-gaming/2025/10/05/strategic_fragrance_application.html`.
+- **The corpus is now 305 posts.**
+- **The two-commit pattern was satisfied across the five passes.** The draft state in `_drafts/` was committed five times before the move, so this commit is the publication half.
+- **Back-dated by a year**, so `future: false` does not apply and the post rendered on the first build rather than waiting for its date.
+- **No `redirects/` entry is owed**, the URL being new rather than moved.
+- **`lifestyle` and `fragrance` are new categories for the corpus.** Neither is shadowed. `sgeos/lifestyle`, `sgeos/fragrance` and `sgeos/war-gaming` all return 404 from the GitHub API, so no project pages take the path prefix. **Changing any category now moves the URL and owes a redirect.**
+
+**THE OTHER LINE'S IN-FLIGHT WORK WAS ALREADY PUSHED.** `3d55f0b`, the X-Planes series repair, went up with the earlier A377 push on the pilot's decision to push master as it stood, and `git merge-base --is-ancestor` confirms it is on `origin/master`. The working tree was clean and nothing was unpushed when this publication began, so there was nothing further to push for that line.
+
+**FINAL PUBLISHED STATE.** 7,748 lines, 45 display equations, 196 inline expressions, a 11-table apparatus and 2,612 reference definitions, of which 2,525 are the survey corpus. Verdict: the conventional three-spray and four-spray doctrines are **partially supported**.
+
+**VERIFICATION BEFORE THE PUSH.** `./_check.sh` passed in full, being `_verify.py` at 0 errors and 0 warnings over 305 posts, a production build, and the rendered audit with no findings over 471 pages.
+
+**RELEASE ANNOUNCEMENT, for the pilot to review before posting.**
+
+```
+New Blog Post: Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios
+
+Conventional advice tells you to put three or four sprays of fragrance on your pulse points, and
+almost never says what that is meant to achieve, for whom, at what distance, or for how long. This
+article treats the question as a planning problem, models how a dose becomes a concentration at
+somebody else's nose, and adjudicates six ordinary scenarios against stated limits on detection,
+collateral and overkill.
+
+Key takeaways:
+- The detection radius grows only as the square root of the spray count, so the fourth spray buys
+  about fifteen percent more perceived intensity and under an hour of extra life.
+- In a small shared office no spray count works at all, because past about twenty minutes the room
+  rather than the wearer becomes the source, and everyone in it is a receiver.
+- The wearer is the one receiver whose perception the application itself has degraded, so any plan
+  that leaves reapplication to the wearer's judgement ends in overapplication.
+
+You can read the full article here:
+https://sgeos.github.io/lifestyle/fragrance/war-gaming/2025/10/05/strategic_fragrance_application.html
+
+Let me know your thoughts. I would love to hear about where you have seen a plan fail because its
+success measure was read off the least reliable instrument available!
+
+hashtag#DecisionAnalysis hashtag#Modeling hashtag#AppliedScience hashtag#IndoorAirQuality
+hashtag#Olfaction hashtag#Wargaming hashtag#TechnicalWriting
+```
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A377 PATHOLOGICAL WORD USAGE PASS, a fifth pass on the pilot's instruction. Committed. NOT published.** The four numbered passes were pushed earlier at `3a46445`. No X-Planes file was touched.
 
 **MEASUREMENT.** `_lib/diction.py` with `'_posts/*.markdown'` passed explicitly as the peer set, 260 to 304 published peers. **The default peer glob is the article's own directory**, which for a draft means comparing A377 against 72 X-Planes drafts written in the same stretch, and the style guide forbids exactly that.
