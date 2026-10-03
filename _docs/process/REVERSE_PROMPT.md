@@ -5,6 +5,51 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **SERIES REPAIR SWEEP on the pilot's instruction.** Every open repair was examined, one
+was found to need no further input and its execution is FULLY REHEARSED AND MEASURED, one that
+looked executable turned out to carry an editorial fork, and the rest were already marked as the
+pilot's. **Nothing in the live tree or the published corpus was changed.** One commit, this
+channels update.
+
+**THE MATHEMATICS REPAIR IS READY AND REHEARSED END TO END, AWAITING ONE WORD.** The fixer
+escapes, inside inline mathematics spans only, the underscore shape kramdown opens emphasis on
+and every bare asterisk, both rules measured by A362 and A363. Rehearsed in an isolated twin
+build pair under `tmp/mathrepair/`:
+
+- **61 source files edited, 313 inline spans**, 127 files without `mathjax: true` skipped
+  untouched. Display blocks untouched by construction.
+- **133 corrupted rendered spans across 37 pages fall to 0 across 0**, measured by
+  `mathcorpus.py` over the built twin, and the sweep also disarms every latent single-asterisk
+  and underscore case in the same pass, which is the difference between 313 edits and 133 breaks.
+- **38 pages differ between the fixed and unfixed twins and every one differs only inside its
+  inline mathematics**, proven by blanking the spans and comparing the remainder byte for byte.
+- The rendered audit over the fixed twin reports no findings.
+
+**THE TWIN COMPARISON CAUGHT REAL COLLATERAL DAMAGE BEFORE IT COULD SHIP.** The fixer's first
+version walked into a 2016 article's shell listing, where `${DB_NAME}.* TO '${DB_USER}'` reads
+as an inline span to a naive dollar regex, and escaped the glob star inside a published GRANT
+command. **Two pages differed outside mathematics and that is how it was caught.** The fixer now
+gates on the front matter and masks fenced and inline code, and the rerun shows zero pages
+differing outside mathematics. `tmp/mathrepair/fixmath.py` records the failure in its own
+comments.
+
+**THE A358 AND A359 OFFICIALITY REPAIR TURNS OUT TO CARRY AN EDITORIAL FORK AND STAYS YOURS.**
+The facts are settled and re-verified today from the register: the research series is 21 fully
+official, 7 cell-marked, 2 row-marked and 1 span-marked of 31, A358's split accounts for 30 of
+31, A359's places the span row where its markup denies. **But A360 narrates both errors in its
+own prose as the justification for its three-state recomputation**, so repairing the two
+originals falsifies A360's paragraph about them. That coupling is why the repair survived six
+articles, and the choice between an errata convention and an in-place repair with A360 rewritten
+is an editorial policy decision. A358's register-wide sentence, 539 rows, 86 and 17, was also
+re-verified today and is exactly right, so no repair touches it under any option.
+
+**EVERYTHING ELSE OPEN NEEDS THE PILOT AND THE OPTIONS ARE IN TODAY'S REPLY**: the eight drafts
+re-dated to 2126, `sa.html`, the A376 attribution in pushed history, the push of what is now
+nine commits, and the A366 subject.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A365 ADDENDUM ON THE PILOT'S INSTRUCTION, citing the two walled documents by their
 nominal addresses. Committed, not pushed, not published.** All four passes remain complete and
 this is a fifth, small commit on the same article.

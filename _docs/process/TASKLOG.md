@@ -10,7 +10,10 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has ALL FOUR
-PASSES COMPLETE, committed and not pushed.** **Sixty-nine of seventy-two drafted. None published,
+PASSES COMPLETE, committed and not pushed.** **The corpus mathematics repair is REHEARSED AND
+READY under `tmp/mathrepair/`, 133 rendered spans to 0, proven collateral-free by a twin-build
+comparison, awaiting the pilot's word. The A358/A359 officiality repair is blocked on an
+editorial fork, since A360 narrates both errors as its own justification.** **Sixty-nine of seventy-two drafted. None published,
 and publication has never been authorised. Three articles remain.** The next new article is
 **A366, editorial date 2025-12-14, series index 70.** **Its subject is for the pilot's prompt and
 is not obvious from the register**, which carries no research row between the X-68A of
