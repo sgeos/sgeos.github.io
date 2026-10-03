@@ -5,6 +5,30 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A368 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT published.** Display equations **18 to 45**, inline expressions 87 to 103, the symbol table 32 to 40 entries, lines 11,220 to 11,340, references held at 5,323. `eqscan.py` listed the prose lines carrying figures with no display nearby, and every figure that a relation produced now has its relation shown. All values come from `eqpass368.py`, which reads only counts and dates already in the ledger, the register and the draft.
+
+**BEST NEW RESULT: AN IDENTITY OVER THE POINTER WALK THAT GIVES THE SKIPPED NUMBERS A SECOND ROUTE.** The positive parts of the advances telescope to the span of the walk, 76 minus 44, which is 32. The numbers passed over, 11, less the one backfill, the X-49, give 10 numbers permanently skipped in the register era. That equals the direct count of numbers from 44 to 76 with no research row: the 52, 58, 67 and 69 through 75. **The two routes could have disagreed and do not.**
+
+**OTHER ADDITIONS.**
+- **Crew.** The difference in crewed share is 0.462. The odds ratio is 7.46 with a Woolf interval of 2.28 to 24.4, and among aircraft it is 34.0, with an interval of 3.72 to 310 that is wide because the X-10 alone fills the early uncrewed cell.
+- **Fisher's test.** The two-sided summation rule and the Bonferroni product are displayed: 7 times 0.00109 is 0.0077.
+- **Clustering.** The P1 dispersion is now displayed, together with the closed-form chi-square tail for even degrees of freedom, which the verifier uses as its second route.
+- **Sponsors.** A worked 1950s entropy of 1.12 bits is shown, with an evenness measure that makes the 1950s the least even decade, 0.704 against 0.937 for the 2000s.
+- **Shares with Wilson intervals.** Measurement is 0.385, between 0.276 and 0.506, which is the sense of "about two fifths". Ended unflown is 15 of 65. Designated after flight is 5 of 20. Mixed among comparisons that reached flight data is 20 of 27, with an interval excluding one half.
+- **Totality.** The unassigned set is decomposed 1 plus 1 plus 2 plus 7, and the share is 0.842 if the X-23 is counted as unassigned.
+- **Kendall pair accounting.** 250 plus 1 plus 2 equals 253.
+- **Register lag.** The lag is bounded at 148 to 165 days for the X-68A and 87 to 104 days for the X-76A, so the register published each row three to five months after allocation.
+- **Other values.** The founding-year span is 329 days, the drone out-of-sequence share 9 of 69, the officiality sum and official share 21 of 31, the flown shares 47 of 76 and 47 of 65, the power inputs, and the first article's X-1 information of 4.32 bits.
+
+**VERIFICATION.**
+- **`verify368.py` runs 1,750 checks with 0 failures.** Each new display is recomputed by a second route: the walk identity by telescoping and by direct gap count, the 1950s entropy by recounting sponsor classes from the ledger, Woolf by direct formula, Wilson by the quadratic's roots, and the lags from the archive dates. Five further planted mutations of new displays were all caught.
+- **The other gates are clean.** Style has 0 findings and the symbol check passes, after two designation subscripts were moved inside text. `_verify.py` reports 0 errors and 0 warnings. The stub build is clean, `_lib/render.py` has no findings, all 45 displays match, and no inline span carries an emphasis tag.
+
+**NOT PUSHED.** The defects reported in the drafting pass in A302, A346 and A367 still await the pilot, as does the A364 and A365 Epistemic State decision.
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A368 DRAFTED, *X-Planes: Synthesis and What the Designation Became*, the first of four passes. Committed, NOT pushed, NOT published.** **Seventy-two of seventy-two drafted**, so every article in the series now exists. `_drafts/x_planes_synthesis_what_designation_became.markdown`, editorial date 2025-12-16, series index 72. **11,220 lines, 64,324 words of which about 12,000 are prose outside the citation runs and reference lists, 18 display equations, 87 inline expressions, a 32-entry symbol table and 5,323 reference definitions**, being 11 primaries, 5,241 research works of which 46 are hand-chosen primaries read for their abstracts and 1,580 of the 5,195 swept works are report-server records at 30.4 percent, and 71 related posts, in 21 H2 and 33 H3 sections with 12 tables, from a pool of 17,869 with 5,657 admitted to 12 clusters.
 
 **THE METHOD IS NEW TO THE SERIES. THE SEVENTY EARLIER ARTICLES WERE READ AS DATA.** Ten parallel extractors each read seven articles and wrote one record per article: contractor, sponsors, designation date, first and last flight, outcome, crew, vehicle kind, keystone and its class, the ground-comparison verdict and the reason a vehicle never flew. **Every stated value carries a line number and a verbatim quotation, and all 764 quotations were checked by script against the drafts, with none failing.** Twenty-one further coding decisions carry their own checked quotations. `calc368.py` counts over the ledger and the register. `verify368.py` recomputes everything by second routes: Fisher by exact integers, chi-square by the even-degrees closed form, Kendall by inversions over a different register parser, and Wilson by the quadratic's roots. **It runs 1,714 checks with 0 failures, and 15 planted mutations were all caught**, the last two only after the verifier was changed to check every occurrence of a repeated figure.
