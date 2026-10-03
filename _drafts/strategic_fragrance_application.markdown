@@ -135,6 +135,16 @@ Egyptian practice used fragrant oils and unguents applied by hand,
 held in jars of the kind the [Metropolitan Museum of Art][history_met_ointment_jar] preserves,
 and the incense [kyphi][ref_kyphi],
 which was burned to scent spaces rather than applied to people.
+Plutarch describes kyphi in [*On Isis and Osiris*][book_plutarch_isis_osiris]
+as a compound of sixteen ingredients,
+honey, wine, raisins and resins among them,
+mixed by perfumers while the sacred writings were read aloud to them,
+and Rimmel's [*Book of Perfumes*][book_rimmel_1865_book_of_perfumes] of 1865
+repeats the account that at Heliopolis it was burned at sunset,
+after resin at sunrise and myrrh at midday.
+That is the earliest dosing schedule in this article,
+three applications a day at fixed times,
+and it was applied to a room.
 The conical headpieces shown in Egyptian tomb paintings
 were long read as cones of scented fat that melted onto the wearer.
 The two such cones recovered from Amarna and examined by
@@ -149,6 +159,9 @@ and with it a dosing regime set by the finger and the stopper rather than by the
 the dilute citrus water whose name became the generic term for a light fragrance,
 dates to the Farina business founded in Cologne in July 1709,
 and it was splashed and dabbed.
+Rimmel described it in 1865 as invented in the previous century by an apothecary of that city
+and extracted principally from the flowers, leaves and rind of the bitter orange and other citrus,
+which is the composition its name still implies.
 Eugène Rimmel, the London perfumer,
 advertised himself in 1862 as the patentee of a
 [perfume vaporiser for balls, soirées and theatres][history_bodleian_rimmel],
@@ -157,6 +170,8 @@ and he also sold [perfumed valentines][history_vam_rimmel_valentine],
 an early instance of fragrance applied to paper.
 The personal atomizer came from medicine.
 Allen DeVilbiss, a physician in Toledo, Ohio, built atomizers for the nose and throat,
+and was granted a [United States patent for an atomizer][primary_devilbiss_1900_patent],
+number 648,656, filed in 1899 and issued in 1900,
 and his son Thomas turned the company toward perfume atomizers,
 which became its best-selling product
 according to the [University of Toledo's account][history_utoledo_devilbiss].
@@ -275,7 +290,8 @@ which matches the projection the trade literature commonly describes.
 It is the weakest number in the article,
 and the sensitivity analysis varies it by a factor of three in each direction.
 
-The scenario distances follow Edward Hall's [proxemic zones][ref_proxemics],
+The scenario distances follow the [proxemic zones][ref_proxemics]
+that Edward Hall set out in [*The Hidden Dimension*][book_hall_1966_hidden_dimension],
 in which intimate distance extends to about 0.46 m,
 personal distance to 1.2 m
 and social distance to 3.7 m.
@@ -308,6 +324,9 @@ $$
 m_0 = N \, v_s \, \rho \, c \, \eta
 $$
 
+The planning density of 0.82 g/mL sits above the density of
+[ethanol][ref_ethanol], 0.789 g/mL at 20 °C,
+on the assumption that the dissolved aromatic material is denser than the solvent.
 For an eau de parfum at fifteen percent,
 one actuation of 0.10 mL at 0.82 g/mL carries
 $0.10 \times 0.82 \times 0.15 = 0.0123$ g,
@@ -396,7 +415,11 @@ The adjudication results that depend on this simplification are flagged where th
 
 Evaporation from skin is governed by the vapour pressure of each compound,
 which rises steeply with temperature.
-The [Clausius and Clapeyron relation][ref_clausius_clapeyron] gives the ratio of vapour pressures,
+The [Clausius and Clapeyron relation][ref_clausius_clapeyron],
+which descends from Clapeyron's 1834 analysis of the motive power of heat,
+cited here in its [1843 German translation][research_clapeyron_1843_motive_power],
+and was given its thermodynamic form by [Clausius in 1850][research_clausius_1850_motive_power],
+gives the ratio of vapour pressures,
 and therefore approximately of emission rates,
 at two absolute temperatures $T_1$ and $T_2$
 for a compound with molar enthalpy of vaporisation $\Delta H_{\mathrm{vap}}$,
@@ -698,6 +721,9 @@ And it fails entirely for some compounds in some people.
 [Sato-Akuhara and colleagues][research_sato_akuhara_2023_musk]
 cite specific anosmia to the musk exaltolide in 7.2 to 9 percent of people of European descent
 and to muscone in 6 percent,
+a phenomenon first reported for musk by
+[Whissell-Buechy and Amoore][research_whissell_buechy_amoore_1973_musk]
+as odour-blindness with simple recessive inheritance,
 and [Keller and colleagues][research_keller_2007_or7d4]
 tied variation in one odorant receptor gene to differences in how androstenone is perceived.
 A musk-heavy fragrance therefore has receivers for whom no dose is detectable,
@@ -816,8 +842,12 @@ and it is the cheapest instrument in this article.
 
 A secondary effect compounds the first.
 The wearer adapts not only during the day
-but across days to a fragrance worn daily,
-so a signature fragrance is perceived more weakly by its wearer each month
+but across days to a fragrance worn daily.
+[Dalton and Wysocki][research_dalton_wysocki_1996_long_term]
+exposed subjects continuously to one of two odorants in their own homes for two weeks
+and found odorant-specific rises in detection threshold and falls in perceived intensity,
+with reduced sensitivity still evident in most subjects up to two weeks after the exposure ended.
+A signature fragrance is therefore perceived more weakly by its wearer each month
 while it is perceived identically by everyone else.
 The sensible response is to hold the dose fixed by count
 and to ignore the impression that the fragrance has grown weaker,
@@ -1559,6 +1589,10 @@ The industry's own instrument is the set of
 [standards maintained by the International Fragrance Association][primary_ifra_52nd_amendment],
 or IFRA,
 which prohibit, restrict or specify the purity of individual materials.
+For materials that cause sensitisation, the limits are derived by quantitative risk assessment,
+revised as QRA2 by [Api and colleagues][research_api_2020_qra2]
+to account for aggregate exposure from several products used together,
+which is the regulatory form of the observation that layering adds dose the spray count does not record.
 
 ### Spray distance and dose per unit area
 
@@ -1603,6 +1637,15 @@ because a compromised barrier increases both irritation and the likelihood of se
 Bergamot oil contains furocoumarins, principally bergapten,
 which under ultraviolet light cause a phototoxic reaction and lasting pigmentation
 known as [berloque dermatitis][ref_berloque_dermatitis].
+In open photopatch tests of bergamot oil and bergapten,
+[Zaynoun, Johnson and Frain-Bell][research_zaynoun_1977_bergamot]
+found the phototoxic reaction affected by the vehicle,
+the concentration of ethanol in it,
+the skin site,
+the interval between application and irradiation,
+the hydration of the skin
+and its pigmentation,
+which means that an ethanol-based fragrance on a sun-exposed point is close to the tested condition.
 IFRA restricts furocoumarin content in leave-on products for this reason,
 as its [furocoumarin update][primary_ifra_furocoumarins] describes,
 so a compliant modern product presents a low risk.
@@ -1658,6 +1701,11 @@ asking employees to be as fragrance-free as possible,
 though the text survives only as
 [quoted by a secondary source][commentary_cdc_policy_secondary]
 and no current copy on the agency's own site was located.
+The United States Access Board,
+the federal agency responsible for accessibility guidelines,
+recommends in its [indoor environmental quality guidance][primary_access_board_ieq]
+that a fragrance-free policy include restrictions on perfume, cologne
+and other scented personal care products used by employees, visitors and other occupants.
 In the United States the [Job Accommodation Network][guidance_jan_fragrance]
 lists fragrance sensitivity among conditions for which employers make accommodations
 such as relocation or reduced exposure.
@@ -1705,6 +1753,9 @@ The [Wikipedia article on pepper spray][ref_pepper_spray] summarises the same po
 **Bear spray** is a related product registered in the United States
 by the Environmental Protection Agency, or EPA, as a pesticide,
 and [interagency guidance][guidance_igbc_bear_spray] advises carrying only EPA-registered products.
+A [registered label][primary_epa_bear_spray_label]
+states its active ingredient as capsaicin and related capsaicinoids at 2.0 percent,
+the measure that the oleoresin percentage obscures.
 In the United Kingdom such sprays fall within
 [section 5 of the Firearms Act 1968][primary_uk_firearms_act_s5],
 in its paragraph on noxious substances,
@@ -1813,6 +1864,29 @@ the Metropolitan Museum and VCA pages,
 and several retail claims
 were confirmed only from search results and not from the pages themselves,
 and they are worded accordingly.
+
+**Primary sources and how each was read.**
+Where a secondary source carried a claim and a primary one could be retrieved, the primary was added.
+Read in full or in the relevant passage are
+Rimmel's *Book of Perfumes*, for the eau de Cologne and kyphi passages,
+Plutarch's account of kyphi,
+the DeVilbiss patent record,
+the registered bear spray label,
+and the Access Board's recommendations.
+Read in abstract are
+Dalton and Wysocki on long-term adaptation,
+Zaynoun and colleagues on bergamot phototoxicity,
+Api and colleagues on QRA2,
+Kimber and colleagues on dose per unit area,
+and Doty and colleagues on age.
+Three are cited for no more than their titles state,
+because only their bibliographic records could be retrieved.
+These are Clapeyron in translation and Clausius, for the origin of the vapour-pressure relation,
+and Whissell-Buechy and Amoore, for the report of musk odour-blindness as a simple recessive trait.
+No retrievable primary was found for the Gaussian plume,
+whose standard workbook could not be obtained,
+for Tapputi, whose tablet is known here through an encyclopedic summary,
+or for the text of the 2009 CDC policy.
 
 **Modelled.**
 Every number in the adjudication tables is the output of a deterministic model
@@ -1953,6 +2027,9 @@ and the second opinion is free.
 
 ## References
 
+- [Book, Hall 1966, The Hidden Dimension][book_hall_1966_hidden_dimension]
+- [Book, Plutarch, On Isis and Osiris, Section 80, Babbitt Translation][book_plutarch_isis_osiris]
+- [Book, Rimmel 1865, The Book of Perfumes][book_rimmel_1865_book_of_perfumes]
 - [Commentary, American Chemical Society 2002, The Smell of Fear, Researchers Seek Universal Malodorant][commentary_acs_2002_malodorant]
 - [Commentary, Frolova 2013, Do Not Crush the Molecules, Testing a Perfume Myth][commentary_bois_de_jasmin_rubbing]
 - [Commentary, Invisible Disabilities Association, CDC Indoor Environmental Quality Policy on Fragrance][commentary_cdc_policy_secondary]
@@ -1976,9 +2053,12 @@ and the second opinion is free.
 - [History, Victoria and Albert Museum, Rimmel Perfumed Sachet Valentine][history_vam_rimmel_valentine]
 - [Primary, Aptar, VP4 Fragrance Pump][primary_aptar_vp4]
 - [Primary, Commission Regulation 2023/1545 of the European Union on Labelling of Fragrance Allergens][primary_eu_2023_1545]
+- [Primary, De Vilbiss 1900, Atomizer, United States Patent 648,656][primary_devilbiss_1900_patent]
+- [Primary, EPA Registered Label, Counter Assault Bear Deterrent, Registration 55541-2][primary_epa_bear_spray_label]
 - [Primary, Firearms Act 1968, Section 5][primary_uk_firearms_act_s5]
 - [Primary, IFRA 2025, Furocoumarins Update][primary_ifra_furocoumarins]
 - [Primary, IFRA 2026, End of Consultation Letter for the 52nd Amendment to the IFRA Standards][primary_ifra_52nd_amendment]
+- [Primary, United States Access Board, Indoor Environmental Quality, General Recommendations][primary_access_board_ieq]
 - [Primary, United States Navy Small Business Innovation Research Topic N113-174][primary_navy_sbir_malodorant]
 - [Reference, Aftershave][ref_aftershave]
 - [Reference, Air Freshener][ref_air_freshener]
@@ -1987,6 +2067,7 @@ and the second opinion is free.
 - [Reference, Bakhoor][ref_bakhoor]
 - [Reference, Berloque Dermatitis][ref_berloque_dermatitis]
 - [Reference, Clausius and Clapeyron Relation][ref_clausius_clapeyron]
+- [Reference, Ethanol][ref_ethanol]
 - [Reference, Kyphi][ref_kyphi]
 - [Reference, Note in Perfumery][ref_note_perfumery]
 - [Reference, Pepper Spray][ref_pepper_spray]
@@ -1996,12 +2077,16 @@ and the second opinion is free.
 - [Reference, Solid Perfume][ref_solid_perfume]
 - [Reference, Stevens's Power Law][ref_stevens_power_law]
 - [Reference, Tapputi][ref_tapputi]
+- [Research, Api and others 2020, Updating Exposure Assessment for Skin Sensitization Quantitative Risk Assessment for Fragrance Materials][research_api_2020_qra2]
 - [Research, Baron 1983, Sweet Smell of Success, The Impact of Pleasant Artificial Scents on Evaluations of Job Applicants][research_baron_1983_sweet_smell]
 - [Research, Baron 1986, Self-Presentation in Job Interviews, When There Can Be Too Much of a Good Thing][research_baron_1986_too_much]
 - [Research, Bronaugh and others 1990, In Vivo Percutaneous Absorption of Fragrance Ingredients in Rhesus Monkeys and Humans][research_bronaugh_1990_absorption]
+- [Research, Clapeyron 1843, Ueber die bewegende Kraft der Wärme][research_clapeyron_1843_motive_power]
+- [Research, Clausius 1850, Ueber die bewegende Kraft der Wärme und die Gesetze, welche sich daraus für die Wärmelehre selbst ableiten lassen][research_clausius_1850_motive_power]
 - [Research, Court and Greenblatt 2000, Molecular Genetic Basis for Deficient Acetaminophen Glucuronidation by Cats, UGT1A6 Is a Pseudogene][research_court_greenblatt_2000_cat_ugt1a6]
 - [Research, Craven and Settles 2006, A Computational and Experimental Investigation of the Human Thermal Plume][research_craven_settles_2006_thermal_plume]
 - [Research, Dalton 2000, Psychophysical and Behavioral Characteristics of Olfactory Adaptation][research_dalton_2000_adaptation]
+- [Research, Dalton and Wysocki 1996, The Nature and Duration of Adaptation Following Long-Term Odor Exposure][research_dalton_wysocki_1996_long_term]
 - [Research, Diepgen and others 2015, Prevalence of Fragrance Contact Allergy in the General Population of Five European Countries][research_diepgen_2015_eden]
 - [Research, Doty and Cameron 2009, Sex Differences and Reproductive Hormone Influences on Human Odor Perception][research_doty_cameron_2009_sex_differences]
 - [Research, Doty and others 1984, Smell Identification Ability, Changes with Age][research_doty_1984_age]
@@ -2026,8 +2111,13 @@ and the second opinion is free.
 - [Research, Stevens 1957, On the Psychophysical Law][research_stevens_1957_psychophysical_law]
 - [Research, Stevens and others 2019, From Representation to Reality, Ancient Egyptian Wax Head Cones from Amarna][research_stevens_2019_head_cones]
 - [Research, Webb 1992, Temperatures of Skin, Subcutaneous Tissue, Muscle and Core in Resting Men][research_webb_1992_skin_temperature]
+- [Research, Whissell-Buechy and Amoore 1973, Odour-Blindness to Musk, Simple Recessive Inheritance][research_whissell_buechy_amoore_1973_musk]
 - [Research, Wyatt 2015, The Search for Human Pheromones, The Lost Decades][research_wyatt_2015_pheromones]
+- [Research, Zaynoun, Johnson and Frain-Bell 1977, A Study of Oil of Bergamot and Its Importance as a Phototoxic Agent, Part II][research_zaynoun_1977_bergamot]
 
+[book_hall_1966_hidden_dimension]: https://archive.org/details/hiddendimension00hall
+[book_plutarch_isis_osiris]: https://cts.perseids.org/read/greekLit/tlg0007/tlg089/perseus-eng3/80
+[book_rimmel_1865_book_of_perfumes]: https://archive.org/details/cu31924055004281
 [commentary_acs_2002_malodorant]: https://www.sciencedaily.com/releases/2002/01/020107074622.htm
 [commentary_bois_de_jasmin_rubbing]: https://boisdejasmin.com/2013/11/dont-crush-molecules-perfume-myth-testing-fragrance.html
 [commentary_cdc_policy_secondary]: https://invisibledisabilities.org/environmental-illness/cdc-fragrance-free-policy
@@ -2049,7 +2139,10 @@ and the second opinion is free.
 [history_met_ointment_jar]: https://www.metmuseum.org/art/collection/search/543971
 [history_utoledo_devilbiss]: https://www.utoledo.edu/library/virtualexhibitions/wtx/excase11-ch4.html
 [history_vam_rimmel_valentine]: https://collections.vam.ac.uk/item/O1025277/greeting-card-rimmel/
+[primary_access_board_ieq]: https://www.access-board.gov/research/building/indoor-environmental-quality/general-recommendations/
 [primary_aptar_vp4]: https://www.aptar.com/products/beauty/vp4/
+[primary_devilbiss_1900_patent]: https://patents.google.com/patent/US648656A/en
+[primary_epa_bear_spray_label]: https://www3.epa.gov/pesticides/chem_search/ppls/055541-00002-20220916.pdf
 [primary_eu_2023_1545]: https://eur-lex.europa.eu/eli/reg/2023/1545/oj
 [primary_ifra_52nd_amendment]: https://ifrafragrance.org/latest-updates/ifra-news/ifra-publishes-end-of-consultation-letter-for-the-52nd-amendment-to-the-ifra-standards
 [primary_ifra_furocoumarins]: https://ifrafragrance.org/latest-updates/furocoumarins-update
@@ -2062,6 +2155,7 @@ and the second opinion is free.
 [ref_bakhoor]: https://en.wikipedia.org/wiki/Bakhoor
 [ref_berloque_dermatitis]: https://en.wikipedia.org/wiki/Berloque_dermatitis
 [ref_clausius_clapeyron]: https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation
+[ref_ethanol]: https://en.wikipedia.org/wiki/Ethanol
 [ref_kyphi]: https://en.wikipedia.org/wiki/Kyphi
 [ref_note_perfumery]: https://en.wikipedia.org/wiki/Note_(perfumery)
 [ref_pepper_spray]: https://en.wikipedia.org/wiki/Pepper_spray
@@ -2071,12 +2165,16 @@ and the second opinion is free.
 [ref_solid_perfume]: https://en.wikipedia.org/wiki/Solid_perfume
 [ref_stevens_power_law]: https://en.wikipedia.org/wiki/Stevens%27s_power_law
 [ref_tapputi]: https://en.wikipedia.org/wiki/Tapputi
+[research_api_2020_qra2]: https://doi.org/10.1016/j.yrtph.2020.104805
 [research_baron_1983_sweet_smell]: https://doi.org/10.1037/0021-9010.68.4.709
 [research_baron_1986_too_much]: https://doi.org/10.1111/j.1559-1816.1986.tb02275.x
 [research_bronaugh_1990_absorption]: https://doi.org/10.1016/0278-6915(90)90111-Y
+[research_clapeyron_1843_motive_power]: https://doi.org/10.1002/andp.18431350708
+[research_clausius_1850_motive_power]: https://doi.org/10.1002/andp.18501550306
 [research_court_greenblatt_2000_cat_ugt1a6]: https://doi.org/10.1097/00008571-200006000-00009
 [research_craven_settles_2006_thermal_plume]: https://doi.org/10.1115/1.2353274
 [research_dalton_2000_adaptation]: https://doi.org/10.1093/chemse/25.4.487
+[research_dalton_wysocki_1996_long_term]: https://doi.org/10.3758/BF03213109
 [research_diepgen_2015_eden]: https://doi.org/10.1111/bjd.14151
 [research_doty_1984_age]: https://doi.org/10.1126/science.6505700
 [research_doty_cameron_2009_sex_differences]: https://doi.org/10.1016/j.physbeh.2009.02.032
@@ -2101,4 +2199,6 @@ and the second opinion is free.
 [research_stevens_1957_psychophysical_law]: https://doi.org/10.1037/h0046162
 [research_stevens_2019_head_cones]: https://doi.org/10.15184/aqy.2019.175
 [research_webb_1992_skin_temperature]: https://doi.org/10.1007/BF00625070
+[research_whissell_buechy_amoore_1973_musk]: https://doi.org/10.1038/242271a0
 [research_wyatt_2015_pheromones]: https://doi.org/10.1098/rspb.2014.2994
+[research_zaynoun_1977_bergamot]: https://doi.org/10.1111/j.1600-0536.1977.tb03667.x

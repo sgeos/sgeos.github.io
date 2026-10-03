@@ -5,6 +5,39 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A377 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT published.** No X-Planes file was touched.
+
+**FINAL STATE.**
+- **References.** 74 to 87, being 37 research works, 9 primary documents, 3 books, 17 encyclopedic references, 11 guidance pages, 5 history sources, 3 commentary pieces and 2 data sources.
+- **Size.** Lines 2,104 to 2,204. Display equations hold at 45.
+
+**ADDED, AND HOW EACH WAS READ.**
+- **Read in full or in the relevant passage.**
+  - Rimmel's *Book of Perfumes* (1865), from the Cornell scan on the Internet Archive, for eau de Cologne as citrus water and for kyphi at sunset.
+  - Plutarch on kyphi's sixteen ingredients.
+  - The 1900 DeVilbiss atomizer patent record.
+  - An EPA-registered bear spray label, Counter Assault 55541-2, at 2.0 percent capsaicinoids.
+  - The Access Board's fragrance-free recommendation, which partly answers the CDC policy surviving only secondhand.
+- **Read in abstract.**
+  - **Dalton and Wysocki 1996.** Two weeks of home exposure raised thresholds that stayed raised for up to two weeks. This turns the article's claim of across-days adaptation from assertion into measurement.
+  - **Zaynoun 1977.** Phototoxicity depends on the ethanol vehicle and the skin site.
+  - **Api 2020.** The QRA2 aggregate-exposure revision.
+- **Cited for their titles alone.** Clapeyron in its 1843 translation, Clausius 1850, and Whissell-Buechy and Amoore 1973. The article claims nothing beyond what those titles state.
+- **Hall 1966** is now the source for the proxemic zones, and Wikipedia's ethanol article for the density.
+
+**NOT FOUND.** No retrievable primary for the Gaussian plume, since Turner's workbook could not be obtained, for Tapputi, or for the CDC 2009 policy text. The article says so.
+
+**VERIFICATION.**
+- Every new URL returns 200, except three Wiley DOIs that return 403 to the fetcher and are confirmed in Crossref.
+- `_verify.py` reports 0 errors and 0 warnings.
+- `verify377.py` reports 0 failures.
+- The scratch production build and render audit are clean.
+
+**THE NEXT PASS IS THE PUBLICATION REVIEW.**
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A377 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT published.** No X-Planes file was touched.
 
 **FINAL STATE.**
