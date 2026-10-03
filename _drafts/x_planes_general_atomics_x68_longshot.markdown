@@ -323,9 +323,12 @@ its contracts** and the two records are not substitutes for one another.
 **HR001120S0037 is named by four awards and this article has not read it.** The federal
 opportunity portal serves a single-page application whose content is not in the delivered document,
 the public web archive holds no snapshot of the announcement, and the sponsoring agency's own site
-returns a not-found response for it. **It is recorded as named and unread, not cited**, which
-is the practice the [X-67][related_post_a364_x67_slot_taken_by_xq67] article adopted when a
-Department portal refused a document to every client.
+returns a not-found response for it. **Its address in the portal is nonetheless real and is cited
+as an address** \[[Solicitation HR001120S0037][ref_baa_sam]\], so that a reader with a session can
+reach what this article could not, **and no claim here rests on the announcement's content.** The
+distinction between citing a reading and citing an address is the practice the
+[X-67][related_post_a364_x67_slot_taken_by_xq67] article adopted when a Department portal refused a
+document to every client.
 
 ### Two Names Appear as Programme Manager
 
@@ -1242,6 +1245,16 @@ $$
 each of them exactly.** Those are the quantities a release clearance needs first and the pit is
 the correct instrument for all three.
 
+**The test belongs to a prescribed catalogue and the catalogue's governing document is named
+here even though it could not be read.** The Department's handbook for aircraft and stores
+compatibility, MIL-HDBK-1763 of 15 June 1998, superseding a military standard of the same number,
+prescribes the ground and flight test procedures of this discipline. It is distributed through
+the Department's standards repository, whose public search page is cited as the address
+\[[ASSIST Quick Search][ref_assist_qs]\], **and whose document record could not be read without
+a session, so no claim here rests on the handbook's content.** That the pit drop is standard
+practice is established independently, by the discipline's own literature in the clusters below,
+which includes the modelling of ejection accelerations from exactly such tests.
+
 **But the clamp changes the physics, and it changes it by the keystone parameter.** In flight the
 launcher recoils, the same impulse divides by the reduced mass rather than the store's mass, and
 the ratio of the two separation speeds is the amplification's own denominator,
@@ -1615,9 +1628,13 @@ kilograms low and the missile's launch weight 1.2 kilograms low. **This article 
 both documents by their pound figures and converts at the definition of the pound**, and the
 verifier asserts both discrepancies so that neither can silently become this article's own.
 
-**And one document was named by four awards and not read.** The broad agency announcement
-HR001120S0037 could not be retrieved from the federal opportunity portal, the public web archive
-or the sponsoring agency's own site. **It is recorded as unread and not cited.**
+**And two documents are cited as addresses rather than as readings, which are different things
+and are kept apart.** The broad agency announcement HR001120S0037, named by four awards, could
+not be retrieved from the federal opportunity portal, the public web archive or the sponsoring
+agency's own site, and the discipline's governing compatibility handbook sits behind the standards
+repository's login. **Each is cited by its nominal address, the portal page and the repository's
+public search page, neither is counted among the 20 sources read directly, and no claim
+in this article rests on either document's content.**
 
 ## Epistemic State
 
@@ -1649,7 +1666,10 @@ encyclopedia's heavy-variant figure by the stated choice. **The engine's thrust 
 encyclopedia's figure and nothing stronger**, and every result standing on it, the
 thrust-to-weight table, the climb gradients and the mass sweep's brackets, inherits that
 weakness.
-The ratios and closed forms do not, since they are arithmetic whatever the inputs.
+The ratios and closed forms do not, since they are arithmetic whatever the inputs. **Two
+reference definitions are addresses and not readings**, the solicitation's portal page and the
+standards repository's search page for the compatibility handbook, each marked as such where
+cited, and neither document's content informs any claim here.
 
 **Inference, labelled as such.**
 
@@ -1792,6 +1812,7 @@ to carry a weapon it is barely larger than.
 - [AIM-120 AMRAAM][ref_amraam]
 - [AIM-120 fact sheet][ref_amraam_fs]
 - [Air and Space Forces on the X-68A][ref_asf_x68a]
+- [ASSIST Quick Search][ref_assist_qs]
 - [DARPA LongShot programme][ref_darpa_longshot]
 - [DARPA on the X-68A][ref_darpa_longshot_news]
 - [DARPA PB2021 justification][ref_darpa_pb2021]
@@ -1804,6 +1825,7 @@ to carry a weapon it is barely larger than.
 - [DOD 4120.15-L Addendum][ref_mds_addendum]
 - [F-15E fact sheet][ref_f15e]
 - [General Atomics on the X-68A][ref_gaasi_x68a]
+- [Solicitation HR001120S0037][ref_baa_sam]
 - [Taurus KEPD 350][ref_taurus]
 - [Taurus Systems KEPD 350E datasheet][ref_taurus_ds]
 - [The War Zone on the X-68A][ref_twz_x68a]
@@ -1813,7 +1835,9 @@ to carry a weapon it is barely larger than.
 [ref_amraam]: https://en.wikipedia.org/wiki/AIM-120_AMRAAM
 [ref_amraam_fs]: http://web.archive.org/web/20251204145746/https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104576/aim-120-amraam/
 [ref_asf_x68a]: https://www.airandspaceforces.com/darpas-new-x-plane-meet-the-x-68a-longshot-drone/
+[ref_assist_qs]: https://quicksearch.dla.mil/qsSearch.aspx
 [ref_atm76]: https://ntrs.nasa.gov/citations/19770009539
+[ref_baa_sam]: https://sam.gov/opp/HR001120S0037/view
 [ref_darpa_longshot]: https://www.darpa.mil/research/programs/longshot
 [ref_darpa_longshot_news]: https://www.darpa.mil/news/2026/long-shot-success
 [ref_darpa_pb2021]: https://comptroller.war.gov/Portals/45/Documents/defbudget/fy2021/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2021.pdf

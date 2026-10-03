@@ -646,8 +646,9 @@ and the Bloomberg model is not public. The article labels all three as such.
 index 69 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed,
 not pushed.** **NOT PUBLISHED**, and publication of the series has never been authorised.
 
-**2,893 lines, 21,933 words, 42 display equations, 133 inline expressions, a 78-entry symbol table and
-546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458 distinct works across 11
+**2,917 lines, 22,194 words, 42 display equations, 133 inline expressions, a 78-entry symbol table
+and 548 reference definitions, two of them nominal addresses for walled documents, cited as
+addresses on the pilot's instruction and excluded from the read-directly count**, in 16 H2 and 77 H3 sections, citing 458 distinct works across 11
 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median year 2009 and a range
 from 1935 to 2026, plus 20 primaries read directly.
 

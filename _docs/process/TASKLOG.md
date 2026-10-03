@@ -17,8 +17,8 @@ is not obvious from the register**, which carries no research row between the X-
 20 August 2025 and the X-76A of 20 October 2025, so the designations 69 through 75 are absent
 from the released record and A366 is likely an absence article rather than an aircraft one.
 
-**A365 FINAL STATE 2,893 lines, 21,933 words, 42 display equations, 133 inline expressions, a
-78-entry symbol table and 546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458
+**A365 FINAL STATE 2,917 lines, 22,194 words, 42 display equations, 133 inline expressions, a
+78-entry symbol table and 548 reference definitions, two of them named addresses**, in 16 H2 and 77 H3 sections, citing 458
 distinct works across 11 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent,
 median year 2009 and a range from 1935 to 2026, plus 20 primaries read directly. **Four passes in
 four commits.** **Its keystone is

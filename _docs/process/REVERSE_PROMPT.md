@@ -5,6 +5,41 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A365 ADDENDUM ON THE PILOT'S INSTRUCTION, citing the two walled documents by their
+nominal addresses. Committed, not pushed, not published.** All four passes remain complete and
+this is a fifth, small commit on the same article.
+
+**THE INSTRUCTION WAS TO LINK THE NOMINAL ADDRESS WHERE ONE EXISTS AND THE LOGIN PAGE WHERE ONE
+DOES NOT, AND BOTH CASES OCCURRED.** The solicitation HR001120S0037 has a real portal address that
+serves an application shell to a client without a session, and it is now cited by that address.
+The compatibility handbook's own record number inside the standards repository is not
+discoverable without a session and was not guessed, so it is cited by the repository's public
+search page, with the handbook named in full in the prose, by designation, date and supersession,
+so a reader with access can find it in one step.
+
+**THE DISTINCTION BETWEEN A READING AND AN ADDRESS IS KEPT STRUCTURAL.** The two definitions live
+in their own named group in the reference tooling, excluded from the read-directly count the
+source base states, which stays at 20. The prose at each citation says no claim rests on either
+document's content, the source base says it again with the mechanism, and the epistemic state
+records both. The handbook's naming also bought the article a sentence it lacked, that the pit
+drop belongs to a prescribed test catalogue, with the standard-practice claim still resting on
+the swept literature rather than on the unread handbook.
+
+**No other reference was identified as nominally good and excluded for verification alone.** The
+two DTIC reports surfaced during the pass are known only by search-result titles, which is an
+identity too thin to cite even as an address, and the unfunded-priorities letter has no public
+address at all.
+
+**Gate: everything.** `_verify.py` 0 errors and 0 warnings across 304 posts, `verify365.py` 120
+checks with 0 disagreeing, stub build clean, rendered audit no findings, 42 display blocks
+matching, style scan clean, and both address URLs confirmed live at commit time, 47,709 and
+32,888 bytes.
+
+**Eight commits now await a push instruction.**
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A365 PUBLICATION REVIEW, the fourth and last of four passes. Committed, NOT PUSHED and
 NOT PUBLISHED**, publication of the series never having been authorised. **Sixty-nine of
 seventy-two drafted, three remain.** Five A365-line commits now await a push instruction,
