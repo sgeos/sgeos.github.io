@@ -5,6 +5,48 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A368 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED on the pilot's instruction, NOT published.** **All seventy-two X-Planes articles now have all four passes complete.**
+
+**FINAL STATE.**
+- **Size.** 11,394 lines and 67,108 words, of which about 14,400 are prose outside the citation runs.
+- **Mathematics.** 45 display equations, 103 inline expressions and a 40-entry symbol table.
+- **References.** 5,348 reference definitions: 36 primaries, 5,241 research works and 71 related posts. Of the research works, 46 are hand-chosen primaries read for their abstracts, and 1,580 of the 5,195 swept works are report-server records, 30.4 percent.
+- **Structure.** 21 H2 and 33 H3 sections with 12 tables.
+- **Survey pool.** 17,869 records, of which 5,657 were admitted to 12 clusters.
+
+**THE LITERATURE REVIEW NOW DISCUSSES EVERY CLUSTER BY CONTENT, AS THE STANDING DIRECTIVE ASKS.** Four paragraphs were added, each written from abstracts fetched for this pass.
+- **Vertical flight.** A 2026 study calls the tiltrotor conversion one of the most complex and hazardous aspects of tiltrotor operation. The whirl-flutter testbed is still producing validation data. A swept-tip proprotor tested to 200 knots found analysis predicting stability trends but not torsion. These are the limits the X-76 stops its rotor to avoid. NASA's newest vertical-flight research aircraft is presented as RAVEN rather than as an X number.
+- **Institutions.** NASA's 2021 sustainable-aviation overview describes the most substantial change since jet engines and swept wings converged, which is the programme behind the X-66. The National Research Council assessments are cited for their titles.
+- **Engineering history.** Loftin's configuration history and Henderson and Huff's history of jet-noise research are discussed as the literature's nearest longitudinal views.
+- **The report literature.** Dryden's 2007 bibliography of nearly 2,900 reports from 1946 to 2006 is now part of the review.
+
+The Dryden histories by Hallion and Wallace are now discussed from their abstracts instead of their titles.
+
+**FIXES.**
+- **A self-contradiction.** "No skip was an accident of bookkeeping" contradicted the article's own point that the 58 and 67 followed from the rule.
+- **Two claims rescoped.** "The founding-year number's first descendant" was unverifiable, and "no work in the survey treats the designation sequence" overstated a check that was made on titles only.
+- **Gate-bug wording.** The gate-bug sentence overstated what the defect had excluded.
+- **Acronyms.** NASA was used before it was spelled out, and MANTA was not expanded.
+- **Vantage point.** The Epistemic State now says the survey's 2026 works postdate the article's date.
+
+`verify368.py` asserts every one of these, together with every new abstract claim.
+
+**VERIFICATION.**
+- **`verify368.py` runs 1,821 checks with 0 failures**, and all planted mutations across the four passes were caught.
+- `_verify.py` reports 0 errors and 0 warnings, and the series checker, the style check and the symbol check are all clean.
+- The stub build is clean, `_lib/render.py` has no findings, all 45 displays match, and no inline span carries an emphasis tag.
+
+**PUSHED, NOT PUBLISHED.** The pilot decisions still open are:
+- the misplaced X-4 paragraph in A302;
+- the X-49 date in A346;
+- the separator bug in A367's gate, which affects 203 admission decisions, and its untrimmed author names;
+- the Epistemic State sections of A364 and A365.
+
+**The series is complete in draft. Publication has never been authorised.**
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A368 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT published.**
 - **Counts.** Reference primaries rose from **11 to 36** and definitions from 5,323 to 5,348; research works hold at 5,241, of which 46 are hand primaries. Lines went from 11,340 to 11,390, and display equations hold at 45.
 - **Sources read.** Every new primary was read from a saved copy or verified by title through Crossref.
