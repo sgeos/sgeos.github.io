@@ -644,7 +644,7 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_synthesis_what_designation_became.markdown`, A368, editorial date 2025-12-16, series `x_planes`
 index 72 of 72, categories `aerospace history engineering`, the series closer and the counterpart of A297, with no aircraft.
-**DRAFTING AND EQUATION PASSES COMPLETE, two of four. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised. **The equation pass took display equations from 18 to 45, inline expressions from 87 to 103 and the symbol table from 32 to 40 entries, lines 11,220 to 11,340**, and its best result is a telescoping identity over the pointer walk that recovers the register era's ten skipped numbers by a second route.
+**DRAFTING, EQUATION AND PRIMARY PASSES COMPLETE, three of four. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised. **The equation pass took display equations from 18 to 45, inline expressions from 87 to 103 and the symbol table from 32 to 40 entries, lines 11,220 to 11,340**, and its best result is a telescoping identity over the pointer walk that recovers the register era's ten skipped numbers by a second route. **The primary pass took reference primaries from 11 to 36 and definitions to 5,348, lines 11,390**, its largest yield being the allocation procedure's own statement that a request suggests a designation and may ask for a number the requester likes.
 
 **11,220 lines, 64,324 words of which about 12,000 are prose outside the citation runs and reference lists, 18 display equations,
 87 inline expressions, a 32-entry symbol table and 5,323 reference definitions**, being 11 primaries, 5,241 research works of which

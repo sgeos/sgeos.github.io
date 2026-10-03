@@ -5,6 +5,44 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A368 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, NOT pushed, NOT published.**
+- **Counts.** Reference primaries rose from **11 to 36** and definitions from 5,323 to 5,348; research works hold at 5,241, of which 46 are hand primaries. Lines went from 11,340 to 11,390, and display equations hold at 45.
+- **Sources read.** Every new primary was read from a saved copy or verified by title through Crossref.
+- **Verifier.** It now asserts each new primary statement verbatim in its saved source. `verify368.py` runs **1,799 checks with 0 failures**.
+
+**LARGEST YIELD: THE ALLOCATION PROCEDURE ITSELF EXPLAINS A CHOSEN NUMBER.** The register compiler's account of the allocation steps states three things:
+- a written request must include a suggestion for the new designation;
+- a number can be requested "when the requester particularly likes" it;
+- the control point's recommendation "may or may not be identical to the one proposed", with the final decision at Air Force headquarters.
+
+**A chosen number is therefore a suggestion the deciding office accepted**, and the article now says so, citing the procedure rather than inferring it.
+
+**SECOND YIELD: AN INDEPENDENT CHECK ON THE CREW CODING.** The compiler's appendix of unmanned military X-planes lists 19 research numbers. **The ledger codes 17 of them uncrewed, none crewed, and leaves only the X-41 and X-51 unstated**, and it codes all four NASA-only uncrewed vehicles uncrewed. Reading the two unstated vehicles as the appendix does would strengthen the crewed-share result.
+
+**THIRD: THE X-50 REQUESTER IS RECONCILED.** The compiler's directory entry says the 50 was assigned "at the request of Boeing and DARPA" for a "50/50 mix of helicopter and fixed-wing aircraft". The register's note names DARPA and Boeing's programme manager named Boeing, so all three accounts are now stated together.
+
+**ADDED.**
+- **Register and procedure.** The missing-designations page, for the X-39, X-52, X-58 and X-67 in the compiler's words, and the allocation-procedure page.
+- **The 1951 fold.** The compiler's X-9 and X-10 pages, giving the RTV-A redesignations of 1951.
+- **The register lag.** The 15 January 2026 register capture, which is the lag's lower bound. I checked that the saved capture has neither row and the 1 February capture both.
+- **Flight dates and award record.** NASA's X-53 fact sheet, dating the last flights to March 2005, and the federal award record for the X-62 figures.
+- **Programme documents.** The Air Force Research Laboratory's ARISE fact sheet.
+- **Founding-year numbers.** The F-47 public affairs correspondence and Bell's X-76 release. The F-47 is now stated with its three official meanings rather than as a founding-year number alone.
+- **Legislation and editions.** The National Aeronautics and Space Act of 1958 for the dissemination clause, the 1998 edition of the official list, and the compiler's unmanned appendix.
+- **Statistical-method originals.** Eleven original method papers, each verified by title: Kendall 1938, Wilson 1927, Fisher 1922, 1935 and 1950, Cochran 1954, Woolf 1955, Shannon 1948, Pielou 1966, Dunn 1961, and Fleiss, Tytun and Ury 1980.
+- **Dryden histories.** The flight research centre's histories, already in the swept survey, are now discussed in the review and cited for their titles.
+
+**ADDRESSES.** All 36 primary addresses were requested. 29 return 200. Two `.mil` pages return 403, as is usual for that domain. Five publisher DOIs return 403 or 202, and each of those was verified by title through Crossref.
+
+**VERIFICATION.**
+- `_verify.py` reports 0 errors and 0 warnings, and the series checker, the style check and the symbol check are all clean.
+- The stub build is clean, `_lib/render.py` has no findings, and all 45 displays match.
+
+**NOT PUSHED.** The decisions on A302, A346, A367 and the A364/A365 Epistemic State sections are still the pilot's.
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A368 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT published.** Display equations **18 to 45**, inline expressions 87 to 103, the symbol table 32 to 40 entries, lines 11,220 to 11,340, references held at 5,323. `eqscan.py` listed the prose lines carrying figures with no display nearby, and every figure that a relation produced now has its relation shown. All values come from `eqpass368.py`, which reads only counts and dates already in the ledger, the register and the draft.
 
 **BEST NEW RESULT: AN IDENTITY OVER THE POINTER WALK THAT GIVES THE SKIPPED NUMBERS A SECOND ROUTE.** The positive parts of the advances telescope to the span of the walk, 76 minus 44, which is 32. The numbers passed over, 11, less the one backfill, the X-49, give 10 numbers permanently skipped in the register era. That equals the direct count of numbers from 44 to 76 with no research row: the 52, 58, 67 and 69 through 75. **The two routes could have disagreed and do not.**

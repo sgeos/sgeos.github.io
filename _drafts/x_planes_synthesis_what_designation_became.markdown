@@ -135,7 +135,7 @@ $$(n, p) \in R \ \wedge \ (n', p) \in R \ \Rightarrow \ n = n'$$
 
 ### Totality
 
-The numbers with no programme are the X-39, which was reserved and never requested \[[X-39][related_post_a336_x39_reserved_never_assigned]\], the X-52, which was requested and refused \[[X-52][related_post_a349_x52_designation_refused]\], the X-58 and X-67, whose slots went to unmanned vehicles \[[X-58][related_post_a355_x58_slot_taken_by_xq58]\] \[[X-67][related_post_a364_x67_slot_taken_by_xq67]\], and the seven numbers from X-69 to X-75 \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. **That is eleven, as the first article said**, counting the X-23 as assigned because a vehicle flew under it, although the record holds no allocation request for it, so the share of the range that went to a programme is
+The numbers with no programme are the X-39, which was reserved and never requested \[[X-39][related_post_a336_x39_reserved_never_assigned]\], the X-52, which was requested and refused \[[X-52][related_post_a349_x52_designation_refused]\], the X-58 and X-67, whose slots went to unmanned vehicles \[[X-58][related_post_a355_x58_slot_taken_by_xq58]\] \[[X-67][related_post_a364_x67_slot_taken_by_xq67]\], and the seven numbers from X-69 to X-75 \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. The register compiler's page of missing designations states the first four in its own words, that the X-39 was reserved on 23 April 1997 and never formally requested, that the X-52A was disapproved because of possible confusion with the B-52 series, and that the X-58 and X-67 slots were skipped after the XQ-58A and XQ-67A were allocated \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **That is eleven, as the first article said**, counting the X-23 as assigned because a vehicle flew under it, although the record holds no allocation request for it, so the share of the range that went to a programme is
 
 $$\eta = \frac{\left| \{ n \in D : \exists p, \ (n, p) \in R \} \right|}{|D|} = \frac{65}{76} = 0.855$$
 
@@ -172,7 +172,7 @@ The Atlas pair is the same airframe in two stages of development \[[X-12][relate
 
 $$n < n' \ \Rightarrow \ t(n) \le t(n')$$
 
-and the register lets it be tested directly for the numbers whose first allocation it records. **Twenty-three research design numbers enter the test**, being those whose first row in the register is the A model, which excludes the X-37 and X-40 because the register's rows for them are later series. The agreement between the order of the numbers and the order of their dates is measured by Kendall's rank correlation,
+and the register lets it be tested directly for the numbers whose first allocation it records. **Twenty-three research design numbers enter the test**, being those whose first row in the register is the A model, which excludes the X-37 and X-40 because the register's rows for them are later series. The agreement between the order of the numbers and the order of their dates is measured by Kendall's rank correlation \[[Kendall, A New Measure of Rank Correlation, 1938][ref_kendall_1938]\],
 
 $$\tau = \frac{C - Q}{\binom{m}{2}}$$
 
@@ -202,7 +202,7 @@ over the register's 22 research advances, which is the figure the X-67 article m
 
 | Number | Advance | Cause recorded in the series |
 |---|---|---|
-| X-50A | 2 | the number 50 was requested because the aircraft would be a fifty-fifty marriage of helicopter and aeroplane \[[X-49][related_post_a346_piasecki_x49]\] |
+| X-50A | 2 | the number 50 was requested because the aircraft would be a fifty-fifty marriage of helicopter and aeroplane \[[Parsch, Boeing X-50 Dragonfly][ref_parsch_x50]\] \[[X-49][related_post_a346_piasecki_x49]\] |
 | X-49A | -1 | the number passed over for the X-50 was assigned to the next request \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\] |
 | X-53A | 2 | X-52 was refused for possible confusion with the B-52 \[[X-53][related_post_a350_boeing_x53]\] |
 | X-59A | 2 | the number 58 had gone to the XQ-58A \[[X-58][related_post_a355_x58_slot_taken_by_xq58]\] |
@@ -219,7 +219,7 @@ $$\sum\_{k=1}^{K} \max(a\_k - 1, 0) - B = 11 - 1 = 10$$
 
 **which equals the count of design numbers between 44 and 76 with no research row in the register**, the 52, the 58, the 67 and the seven from 69 to 75, counted directly. The two routes could have disagreed, and they do not.
 
-**Two of the five skips are numerology, one is a refusal on grounds of confusability, and two are numbers taken by the unmanned series.** No skip in the register era is unexplained, and no skip was an accident of bookkeeping. **The first chosen number in the research series is the X-50 of 2002, not the X-76 of 2025**, as the X-69 through X-75 article recorded, which found the number asked for because of its meaning by DARPA in the compiler's and NASA's accounts and by Boeing in its own \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. **What this article adds is that the only monotonicity failure in the register is that choice's direct consequence.** The X-76 is the second instance of a practice the series had already met, and what is new about it is that the choice was announced.
+**Two of the five skips are numerology, one is a refusal on grounds of confusability, and two are numbers taken by the unmanned series.** No skip in the register era is unexplained, and no skip was an accident of bookkeeping. **The first chosen number in the research series is the X-50 of 2002, not the X-76 of 2025**, as the X-69 through X-75 article recorded, which found the number asked for because of its meaning by DARPA in the register's note, by Boeing in its programme manager's account to NASA, and by both together in the compiler's directory entry for the aircraft, which calls the concept a 50/50 mix of helicopter and fixed-wing aircraft \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\] \[[Parsch, Boeing X-50 Dragonfly][ref_parsch_x50]\] \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **What this article adds is that the only monotonicity failure in the register is that choice's direct consequence.** The X-76 is the second instance of a practice the series had already met, and what is new about it is that the choice was announced.
 
 ## When the Numbers Came
 
@@ -231,7 +231,7 @@ and it is 1 in expectation when counts arise from a Poisson process, which is a 
 
 $$\chi^2 = (J - 1)\,\mathcal{D}$$
 
-**follows a chi-square distribution with $J - 1$ degrees of freedom**, which turns the index into a test.
+**follows a chi-square distribution with $J - 1$ degrees of freedom**, which turns the index into a test \[[Fisher, The Significance of Deviations from Expectation in a Poisson Series, 1950][ref_fisher_1950]\] \[[Cochran, Some Methods for Strengthening the Common Chi-Square Tests, 1954][ref_cochran_1954]\].
 
 | Decade | Entries under P2 | Entries under P1 |
 |---|---|---|
@@ -263,7 +263,7 @@ and at $x = 25.4$ it gives 0.00131 again. **The first article's claim holds unde
 
 ## Who Paid
 
-The first article described a tripartite arrangement in which a military service supplied the requirement and the money, a contractor the airframe, and the National Advisory Committee for Aeronautics, NACA, or its successor the National Aeronautics and Space Administration, NASA, the research programme \[[X-Planes framing][related_post_a297_framing]\]. The ledger records each article's named sponsors, which were sorted into classes. **The diversity of sponsorship in each decade is measured by the Shannon entropy of the sponsor mentions**,
+The first article described a tripartite arrangement in which a military service supplied the requirement and the money, a contractor the airframe, and the National Advisory Committee for Aeronautics, NACA, or its successor the National Aeronautics and Space Administration, NASA, the research programme \[[X-Planes framing][related_post_a297_framing]\]. The ledger records each article's named sponsors, which were sorted into classes. **The diversity of sponsorship in each decade is measured by the Shannon entropy of the sponsor mentions** \[[Shannon, A Mathematical Theory of Communication, 1948][ref_shannon_1948]\],
 
 $$H = - \sum\_{i} q\_i \log\_2 q\_i$$
 
@@ -285,7 +285,7 @@ where $q\_i$ is the share of the decade's sponsor mentions falling in class $i$.
 
 $$H\_{1950s} = - \left( \tfrac{14}{21} \log\_2 \tfrac{14}{21} + \tfrac{6}{21} \log\_2 \tfrac{6}{21} + \tfrac{1}{21} \log\_2 \tfrac{1}{21} \right) = 1.12 \ \text{bits}$$
 
-**Entropy grows with the number of classes as well as with their balance**, so the balance alone is measured by the evenness, the entropy divided by its maximum for the classes present,
+**Entropy grows with the number of classes as well as with their balance**, so the balance alone is measured by the evenness, the entropy divided by its maximum for the classes present, as Pielou defined it for biological collections \[[Pielou, The Measurement of Diversity in Different Types of Biological Collections, 1966][ref_pielou_1966]\],
 
 $$J = \frac{H}{\log\_2 r}$$
 
@@ -299,11 +299,11 @@ with $r$ the number of classes named. **The 1950s are also the least even decade
 |---|---|
 | 19 crewed, 8 uncrewed | 7 crewed, 22 uncrewed |
 
-The crewed share before 1990 is $\hat{\pi} = 19/27 = 70.4$ percent and from 1990 it is $7/29 = 24.1$ percent. Each proportion carries a 95 percent interval by the method of Wilson, which behaves well at small samples and near zero or one,
+The crewed share before 1990 is $\hat{\pi} = 19/27 = 70.4$ percent and from 1990 it is $7/29 = 24.1$ percent. Each proportion carries a 95 percent interval by the method of Wilson, which behaves well at small samples and near zero or one \[[Wilson, Probable Inference, the Law of Succession, and Statistical Inference, 1927][ref_wilson_1927]\],
 
 $$\frac{\hat{\pi} + \dfrac{z^2}{2N} \pm z \sqrt{\dfrac{\hat{\pi}(1 - \hat{\pi})}{N} + \dfrac{z^2}{4N^2}}}{1 + \dfrac{z^2}{N}}$$
 
-with $z = 1.96$ and $N$ the sample size. **The intervals are 51.5 to 84.1 percent and 12.2 to 42.1 percent, and they do not overlap.** The exact test asks how probable a table this lopsided would be if the crewed share had not changed. Holding the row and column totals of the two-by-two table fixed, the probability of exactly $a$ crewed vehicles in the early group is hypergeometric,
+with $z = 1.96$ and $N$ the sample size. **The intervals are 51.5 to 84.1 percent and 12.2 to 42.1 percent, and they do not overlap.** The exact test, which Fisher set out for the two-by-two table \[[Fisher, The Logic of Inductive Inference, 1935][ref_fisher_1935]\], asks how probable a table this lopsided would be if the crewed share had not changed. Holding the row and column totals of the two-by-two table fixed, which is the conditioning Fisher's earlier treatment of contingency tables made standard \[[Fisher, On the Interpretation of Chi-Square from Contingency Tables, 1922][ref_fisher_1922]\], the probability of exactly $a$ crewed vehicles in the early group is hypergeometric,
 
 $$\Pr(a) = \frac{\dbinom{a + b}{a} \dbinom{c + d}{c}}{\dbinom{N}{a + c}}$$
 
@@ -319,7 +319,7 @@ and the odds ratio, the odds of a crewed vehicle before 1990 divided by the odds
 
 $$\psi = \frac{a d}{b c} = \frac{19 \times 22}{8 \times 7} = 7.46$$
 
-with a 95 percent interval by Woolf's method on the logarithmic scale,
+with a 95 percent interval by Woolf's method on the logarithmic scale \[[Woolf, On Estimating the Relation Between Blood Group and Disease, 1955][ref_woolf_1955]\],
 
 $$\exp\left( \ln \psi \pm 1.96 \sqrt{\tfrac{1}{a} + \tfrac{1}{b} + \tfrac{1}{c} + \tfrac{1}{d}} \right) = 2.28 \ \text{to} \ 24.4$$
 
@@ -331,7 +331,7 @@ $$\psi\_{\text{aircraft}} = \frac{17 \times 14}{1 \times 7} = 34.0$$
 
 with a Woolf interval of 3.72 to 310, **wide because a single uncrewed aircraft before 1990, the X-10, is the whole of the early uncrewed cell.**
 
-**Eight vehicles have no design crew in their articles**, and the result was retested with each of them assigned against the finding, an early one counted uncrewed and a late one crewed. **Fisher's probability then rises to 0.044 for all vehicles and 0.00618 for aircraft**, so the conclusion does not depend on the readings the articles left open. The register's own descriptions agree from a different direction. The X-60 article counted 12 of the 30 research rows then in the register describing an uncrewed vehicle, and none carrying the Q symbol that marks a drone \[[X-60][related_post_a357_generation_orbit_x60]\]. **A research vehicle takes X and a number whether or not anyone is aboard**, which is the X-60 article's phrasing and is the answer to the question of what the prefix became in its first sense.
+**Eight vehicles have no design crew in their articles**, and the result was retested with each of them assigned against the finding, an early one counted uncrewed and a late one crewed. **Fisher's probability then rises to 0.044 for all vehicles and 0.00618 for aircraft**, so the conclusion does not depend on the readings the articles left open. **An independent compilation agrees wherever both say anything.** The register compiler's directory groups every unmanned military vehicle given an X designation after 1963 in one appendix, which lists 19 research numbers and notes the NASA-only X-33, X-34, X-38 and X-43 as outside its scope \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_dusrm_app4]\]. **The ledger codes 17 of the 19 uncrewed, none crewed, and leaves the X-41 and X-51 unstated**, and it codes all four NASA-only vehicles uncrewed. Reading the two unstated vehicles as the appendix does would add two uncrewed vehicles after 1990 and strengthen the result. The register's own descriptions agree from a third direction. The X-60 article counted 12 of the 30 research rows then in the register describing an uncrewed vehicle, and none carrying the Q symbol that marks a drone \[[X-60][related_post_a357_generation_orbit_x60]\]. **A research vehicle takes X and a number whether or not anyone is aboard**, which is the X-60 article's phrasing and is the answer to the question of what the prefix became in its first sense.
 
 ## What the Aeroplanes Were For
 
@@ -350,7 +350,7 @@ with a Woolf interval of 3.72 to 310, **wide because a single uncrewed aircraft 
 
 $$\hat{\pi}\_{\text{measure}} = \frac{25}{65} = 0.385, \qquad \text{95 percent interval } 0.276 \text{ to } 0.506$$
 
-which is the sense in which this article says the model describes about two fifths of the vehicles. Before 1990 the measurement share is 14 of 29, 48.3 percent with a Wilson interval of 31.4 to 65.6 percent, and from 1990 it is 11 of 35, 31.4 percent with an interval of 18.6 to 48.0 percent. **The fall is in the predicted direction and Fisher's test gives 0.204**, so a difference of this size would arise by chance about one time in five. The first article's prediction is therefore **not confirmed and not refuted**. It is unestablished at the size of the series, and the size of the shortfall can be stated. For two shares $\hat{\pi}\_1$ and $\hat{\pi}\_2$ with mean $\bar{\pi}$, the number of vehicles needed in each period for a two-sided test at the 5 percent level to detect the difference four times in five is
+which is the sense in which this article says the model describes about two fifths of the vehicles. Before 1990 the measurement share is 14 of 29, 48.3 percent with a Wilson interval of 31.4 to 65.6 percent, and from 1990 it is 11 of 35, 31.4 percent with an interval of 18.6 to 48.0 percent. **The fall is in the predicted direction and Fisher's test gives 0.204**, so a difference of this size would arise by chance about one time in five. The first article's prediction is therefore **not confirmed and not refuted**. It is unestablished at the size of the series, and the size of the shortfall can be stated. For two shares $\hat{\pi}\_1$ and $\hat{\pi}\_2$ with mean $\bar{\pi}$, the number of vehicles needed in each period for a two-sided test at the 5 percent level to detect the difference four times in five is, by the normal approximation for two independent proportions \[[Fleiss, Tytun and Ury, A Simple Approximation for Calculating Sample Sizes for Comparing Independent Proportions, 1980][ref_fleiss_1980]\],
 
 $$N^{*} = \frac{\left( z\_{0.975} \sqrt{2 \bar{\pi} (1 - \bar{\pi})} + z\_{0.80} \sqrt{\hat{\pi}\_1 (1 - \hat{\pi}\_1) + \hat{\pi}\_2 (1 - \hat{\pi}\_2)} \right)^2}{\left( \hat{\pi}\_1 - \hat{\pi}\_2 \right)^2}$$
 
@@ -404,11 +404,11 @@ spanning almost two orders of magnitude.
 |---|---|---|---|
 | X-9 | April 1949 | 1951 | about two years |
 | X-28A | 12 August 1970 | 27 July 1971 | 349 days |
-| X-53A | November 2002 | 16 August 2006 | more than a year after the last flight |
+| X-53A | late 2002 | 16 August 2006 | more than a year after the last flight in March 2005 |
 | X-55A | 2 June 2009 | 19 October 2009 | 139 days |
 | X-62A | 1 April 1992 | 14 June 2021 | 10,666 days, or 29.2 years |
 
-**The earliest is the X-9, a subscale development article for a guided missile designated retrospectively in 1951** when the research-and-test-vehicle series it belonged to was folded into the X series \[[X-9][related_post_a306_bell_x9]\] \[[X-10][related_post_a307_north_american_x10]\]. The X-7 belongs to the same fold. It predates its designation by five years, although its first launch and its designation fall in the same year \[[X-7][related_post_a304_lockheed_x7]\]. The X-28A is a homebuilt aeroplane the Navy watched fly, bought, and designated, so **the X designation was applied to a purchase, and the research it marked was an evaluation of something already built** \[[X-28][related_post_a325_osprey_x28]\]. **A designation given after flight therefore spans the whole series, from 1951 to 2021**, and the register has recorded outcomes as well as authorising attempts from its first decade.
+NASA's fact sheet for the X-53's programme dates its first research flights to late 2002 and its second phase's last to March 2005 \[[NASA, Active Aeroelastic Wing Flight Research, FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. **The earliest is the X-9, a subscale development article for a guided missile designated retrospectively in 1951** when the research-and-test-vehicle series it belonged to was folded into the X series \[[X-9][related_post_a306_bell_x9]\] \[[X-10][related_post_a307_north_american_x10]\]. The compiler's directory gives both redesignations, the RTV-A-4 becoming the X-9 in 1951 with its flight tests continuing to January 1953, and the RTV-A-5, ordered in 1950, becoming the X-10 in 1951 two years before its first flight \[[Parsch, Bell RTV-A-4/X-9 Shrike][ref_parsch_x9]\] \[[Parsch, North American RTV-A-5/X-10][ref_parsch_x10]\]. The X-7 belongs to the same fold. It predates its designation by five years, although its first launch and its designation fall in the same year \[[X-7][related_post_a304_lockheed_x7]\]. The X-28A is a homebuilt aeroplane the Navy watched fly, bought, and designated, so **the X designation was applied to a purchase, and the research it marked was an evaluation of something already built** \[[X-28][related_post_a325_osprey_x28]\]. **A designation given after flight therefore spans the whole series, from 1951 to 2021**, and the register has recorded outcomes as well as authorising attempts from its first decade.
 
 ## How Answerable the Question Was
 
@@ -444,7 +444,7 @@ on one number \[[X-Planes framing][related_post_a297_framing]\]. **The relation'
 
 ## The Pool Shared With the Drones
 
-**The first article asked why the parallel unmanned series consumed numbers from the same pool, and the series found an answer in the rule itself.** The joint rule of 2020 defines the next designator from the last approved design number in the basic mission series and refuses requests in reverse or skipped sequences, and the X-67 article showed what that does to a number borrowed by another series \[[X-67][related_post_a364_x67_slot_taken_by_xq67]\]. A design number borrowed for an unmanned vehicle should equal its source series' next number at the moment of the borrowing and no other series', and across six out-of-sequence unmanned numbers tested against twenty basic missions, **the test fires twice and names the research series both times**, for the XQ-58A and the XQ-67A. **Nobody had to decide to skip the X-67, and somebody had to ask for the X-68.**
+**The first article asked why the parallel unmanned series consumed numbers from the same pool, and the series found an answer in the rule itself.** The joint rule of 2020 \[[Department of the Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\] defines the next designator from the last approved design number in the basic mission series and refuses requests in reverse or skipped sequences, a written request being sent by the programme office to a single Air Force control point, which recommends a designation for decision at Air Force headquarters \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\], and the X-67 article showed what that does to a number borrowed by another series \[[X-67][related_post_a364_x67_slot_taken_by_xq67]\]. A design number borrowed for an unmanned vehicle should equal its source series' next number at the moment of the borrowing and no other series', and across six out-of-sequence unmanned numbers tested against twenty basic missions, **the test fires twice and names the research series both times**, for the XQ-58A and the XQ-67A. **Nobody had to decide to skip the X-67, and somebody had to ask for the X-68.**
 
 The register's notes make the source explicit. **The compiler's note on the XQ-58A says the out-of-sequence number 58 of the Kratos Valkyrie was taken from the X series and that there is no X-58**, and the note on the XQ-67A says its number was taken from the X series \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. Recomputed here from the saved register, **nine of the design numbers among its 69 Q rows are out of the Q sequence, and the compiler's notes give a source for five of them**,
 
@@ -460,9 +460,9 @@ The reason the pool is shared is therefore not that the X and Q series are one s
 
 $$t(\text{X-76A}) - t(\text{YMV-75A}) = 329 \ \text{days}$$
 
-from first to last. The Army's designation announcement \[[Army MV-75 announcement][ref_army_mv75]\], the Air Force's contract announcement for the F-47 \[[Air Force F-47 announcement][ref_afrc_f47]\] and DARPA's X-76 announcement \[[DARPA X-76 announcement][ref_darpa_x76]\] are the public record of the three. The X-69 through X-75 article measured how improbable the X-76's seven unreleased predecessors would be under the series' own allocation rate, a Poisson tail of 1.83e-10, and found that the 2020 rule provides no instrument for reserving a block.
+from first to last. The Army's designation announcement says the 75 commemorates the Army's founding year, 1775 \[[Army MV-75 announcement][ref_army_mv75]\]. The Air Force's contract announcement for the F-47 \[[Air Force F-47 announcement][ref_afrc_f47]\] was followed by a statement giving the 47 three meanings, the P-47, the founding year of the Air Force and the 47th President, so the founding year is one meaning among three, and released public affairs correspondence names General Allvin as the officer who made the decision \[[Air Force public affairs correspondence on the F-47][ref_f47_foia]\] \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. DARPA's X-76 announcement \[[DARPA X-76 announcement][ref_darpa_x76]\] and Bell's release of the same day reporting the official designation \[[Bell X-76 release][ref_bell_x76]\] complete the public record of the three. The X-69 through X-75 article measured how improbable the X-76's seven unreleased predecessors would be under the series' own allocation rate, a Poisson tail of 1.83e-10, and found that the 2020 rule provides no instrument for reserving a block.
 
-**The section on skips above shows that the practice is older than the class.** The X-50 of 2002 was chosen for a numerical pun, the fifty-fifty marriage of helicopter and aeroplane, and the register's own note on the X-50A records that DARPA explicitly requested the number, while Boeing's account gives the request as its own \[[DOD 4120.15-L Addendum][ref_mds_addendum]\] \[[X-49][related_post_a346_piasecki_x49]\]. What changed between 2002 and 2025 is the publicity. The X-50's reason is recorded in a compiler's note and a contractor's account, while the X-76's was the headline of the announcement. **A number that is announced as a message is a number whose purpose includes being read by the public**, and that is a different object from a sequence index read by a records office.
+**The section on skips above shows that the practice is older than the class.** The X-50 of 2002 was chosen for a numerical pun, the fifty-fifty marriage of helicopter and aeroplane, and the register's own note on the X-50A records that DARPA explicitly requested the number, while Boeing's account gives the request as its own \[[DOD 4120.15-L Addendum][ref_mds_addendum]\] \[[X-49][related_post_a346_piasecki_x49]\]. **The allocation procedure has always left room for a chosen number.** The compiler's account of it states that a written request must include a suggestion for the new designation, that a number can be requested when the requester particularly likes it, and that the control point's recommendation may or may not be the designation the requester proposed \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. A chosen number is therefore a suggestion the deciding office accepted, and the 2020 rule's discretion to skip is what lets it accept one out of sequence. What changed between 2002 and 2025 is the publicity. The X-50's reason is recorded in a compiler's note and a contractor's account, while the X-76's was the headline of the announcement. **A number that is announced as a message is a number whose purpose includes being read by the public**, and that is a different object from a sequence index read by a records office.
 
 ## The Register Stopped Being the Government's Voice
 
@@ -474,13 +474,13 @@ $$21 + 7 + 2 + 1 = 31, \qquad \frac{21}{31} = 0.677$$
 
 so about two thirds of the register's research rows carry the government's own wording throughout. **For the rows the register dates in full, the series therefore divides at the X-60**, the government's own description of what each aeroplane was for being available up to it and withheld after it. Two rows with partial dates are unofficial in the stronger sense of being absent from released data altogether, the X-37B of 2006 among them. What is withheld after the X-60 is a single sentence, since the date, designation, contractor, engine and sponsor remain official.
 
-**And the register itself lags the allocations by months.** The X-68A and X-76A rows did not appear in the public register until between 15 January and 1 February 2026, by archived copies \[[DOD 4120.15-L Addendum, December 2025][ref_mds_addendum_wb_2025_12]\] \[[DOD 4120.15-L Addendum, February 2026][ref_mds_addendum_wb_2026_02]\], which the X-69 through X-75 article established. Writing $\Lambda$ for the interval from allocation to first public appearance, the two captures bound it,
+**And the register itself lags the allocations by months.** The X-68A and X-76A rows did not appear in the public register until between 15 January and 1 February 2026, by archived copies, the capture of 15 January 2026 showing neither row and that of 1 February 2026 showing both \[[DOD 4120.15-L Addendum, December 2025][ref_mds_addendum_wb_2025_12]\] \[[DOD 4120.15-L Addendum, January 2026][ref_mds_addendum_wb_2026_01]\] \[[DOD 4120.15-L Addendum, February 2026][ref_mds_addendum_wb_2026_02]\], which the X-69 through X-75 article established. Writing $\Lambda$ for the interval from allocation to first public appearance, the two captures bound it,
 
 $$148 < \Lambda\_{\text{X-68A}} \le 165, \qquad 87 < \Lambda\_{\text{X-76A}} \le 104 \ \text{days}$$
 
 **so the register published each row three to five months after the number existed.** **The newest research numbers were invisible in the public register on the dates of the articles that describe them**, and the series' account of what was knowable when has to use the date a row first appeared, not the date of the allocation.
 
-**The federal award record, which records what the government paid for these aeroplanes, has three times shown no use for the number.** The X-62 article found that the government allocated the X-62A in June 2021 and then spent 29,085,924.37 dollars on the aeroplane across 73 transactions without once writing the number down \[[X-62][related_post_a359_lockheed_martin_x62_vista]\]. The X-63 article found a vehicle bought with an instrument designed to leave no trace in the procurement record \[[X-63][related_post_a360_abl_space_systems_x63]\], and the X-76 article found Bell's own instrument absent from the award record \[[X-76][related_post_a367_bell_textron_x76_sprint]\]. **A designation is a claim about a vehicle's purpose made by one part of a government to another**, and the parts that buy the fuel have no use for it.
+**The federal award record, which records what the government paid for these aeroplanes, has three times shown no use for the number.** The X-62 article found that the government allocated the X-62A in June 2021 and then spent 29,085,924.37 dollars on the aeroplane across 73 transactions without once writing the number down \[[X-62][related_post_a359_lockheed_martin_x62_vista]\] \[[USAspending][ref_usaspending]\]. The X-63 article found a vehicle bought with an instrument designed to leave no trace in the procurement record \[[X-63][related_post_a360_abl_space_systems_x63]\], for a programme the Air Force Research Laboratory's own fact sheet describes as its most ambitious technology demonstrator yet in its modular rocket portfolio \[[Air Force Research Laboratory, ARISE fact sheet][ref_arise_factsheet]\], and the X-76 article found Bell's own instrument absent from the award record \[[X-76][related_post_a367_bell_textron_x76_sprint]\]. **A designation is a claim about a vehicle's purpose made by one part of a government to another**, and the parts that buy the fuel have no use for it.
 
 ## What the Record Measures
 
@@ -520,7 +520,7 @@ The first article also asked whether the instrument model still describes what a
 
 **The entry year of an early number is a proxy.** Most articles before the X-37 do not date their designation. The two datings used here disagree by up to twenty-nine years for one number, the X-62, whose aeroplane first flew in 1992 and whose number came in 2021, and the results are reported under both. The decade boundaries are arbitrary too, and a clustering result that survived only one choice of boundary would be weak. **This one survives both datings, and a finer or coarser bin was not tried**, which is stated rather than claimed.
 
-**The tests are several, and each is reported at its own probability.** Seven probabilities are reported, four for the crewed share, one for the purpose share and two for the clustering. **The Bonferroni correction for seven tests multiplies the crewed result's probability by seven and errs on the side of caution**,
+**The tests are several, and each is reported at its own probability.** Seven probabilities are reported, four for the crewed share, one for the purpose share and two for the clustering. **The Bonferroni correction for seven tests multiplies the crewed result's probability by seven and errs on the side of caution** \[[Dunn, Multiple Comparisons Among Means, 1961][ref_dunn_1961]\],
 
 $$7 \times 0.00109 = 0.0077 < 0.01$$
 
@@ -534,7 +534,7 @@ $$7 \times 0.00109 = 0.0077 < 0.01$$
 
 ### What the Literature Establishes, and Where It Is Moving
 
-**The literature written about X-planes as a class is mostly history, and the history stops early.** The standard institutional accounts describe the arrangement in which the research aircraft were built, the National Advisory Committee for Aeronautics as an institution in which technology and institution shaped each other \[[Roland 1984][research_roland_1984]\], the Langley laboratory's organisation and its cooperation with industry and the military \[[Hansen 1986][research_hansen_1986]\], and the laboratory's partnership with the Department of Defense through the 1990s \[[Chambers 2000][research_chambers_2000]\]. **The flight-research histories trace the method from Cayley through the X-15** \[[Gorn 2001][research_gorn_2001]\], and the X-15 itself has a history that its author called a first step toward the history it lacked \[[Jenkins 2000][research_jenkins_2000]\] \[[Jenkins 2007][research_jenkins_2007]\]. The one inventory of the whole designation range in the pool stops at the X-50 and makes this series' clustering claim and its purpose claim in its own words, describing almost thirty designations from the late 1940s to the late 1970s, a gap, a resurgence in the late 1990s, and criticism of prototypes in the series that it answers with the X-11, X-12 and X-27 \[[Jenkins et al 2003][research_jenkins_landis_2003]\]. A later book carries the range to the X-60, and no abstract for it was retrievable, so it is cited for its title \[[Gorn and De Chiara 2021][research_gorn_dechiara_2021]\].
+**The literature written about X-planes as a class is mostly history, and the history stops early.** The standard institutional accounts describe the arrangement in which the research aircraft were built, the National Advisory Committee for Aeronautics as an institution in which technology and institution shaped each other \[[Roland 1984][research_roland_1984]\], the Langley laboratory's organisation and its cooperation with industry and the military \[[Hansen 1986][research_hansen_1986]\], and the laboratory's partnership with the Department of Defense through the 1990s \[[Chambers 2000][research_chambers_2000]\]. **The flight-research histories trace the method from Cayley through the X-15** \[[Gorn 2001][research_gorn_2001]\], the flight research centre where most of the series flew has histories of its own from 1946 \[[Hallion 1984][research_hallion_1984]\] \[[Wallace 1996][research_wallace_1996]\] and an annotated bibliography of its technical publications from 1946 to 2006 \[[Fisher 2007][research_fisher_2007]\], and the NACA research airplanes have a selected history of their contributions \[[Hallion and Peebles 2014][research_hallion_peebles_2014]\], these four cited for their titles, and the X-15 itself has a history that its author called a first step toward the history it lacked \[[Jenkins 2000][research_jenkins_2000]\] \[[Jenkins 2007][research_jenkins_2007]\]. The one inventory of the whole designation range in the pool stops at the X-50 and makes this series' clustering claim and its purpose claim in its own words, describing almost thirty designations from the late 1940s to the late 1970s, a gap, a resurgence in the late 1990s, and criticism of prototypes in the series that it answers with the X-11, X-12 and X-27 \[[Jenkins et al 2003][research_jenkins_landis_2003]\]. A later book carries the range to the X-60, and no abstract for it was retrievable, so it is cited for its title \[[Gorn and De Chiara 2021][research_gorn_dechiara_2021]\].
 
 **The newest class-level literature is NASA managing the X-plane as a product, and the works of that kind in the survey date from 2016 onward.** NASA's cost engineers built an X-plane database and parametric cost model whose variables include whether the aircraft is manned or unmanned, and closed by asking for accurate and traceable cost data from historical X-plane records \[[Sterk et al 2016][research_sterk_ogluin_2016]\]. A later study used historical cost and schedule data to estimate how far programmes exceed their reserves \[[Sterk et al 2018][research_sterk_alexander_2018]\], and a conceptual design process aimed at a large X-plane flying within three years of contract award for under 100 million dollars \[[Welstead et al 2017][research_welstead_frederic_2017]\]. **NASA's Office of the Chief Engineer evaluated the agency's project and risk processes for piloted X-planes and found none fully appropriate for governing experimental aircraft** \[[Hirshorn and Kemmerly 2018][research_hirshorn_kemmerly_2018]\], and a workshop of more than sixty engineers, researchers and others in May 2019 gathered fifty years of X-plane practice into lessons on organisation, life cycle, flight and risk \[[Hirshorn et al 2024][research_hirshorn_smith_2024]\]. **The choice between a crewed and an uncrewed mid-sized X-plane appears in this literature as a subjective analysis of risk and complexity** \[[Lechniak 2017][research_lechniak_2017]\], which is the series' crewed-share finding seen from inside the agency making the choice.
 
@@ -548,7 +548,7 @@ $$7 \times 0.00109 = 0.0077 < 0.01$$
 
 **One silence is measured, and it is this series' subject.** The gate's designation and nomenclature cluster admitted 8 records from a pool of 17,869. Most are tables titled Designations of Aircraft in an annual military reference work, and the one analytical work is a history of military naming in another country, which finds naming policy always susceptible to the political climate \[[Cowling 2012][research_cowling_2012]\]. **No work in the survey treats the United States research designation sequence as an object of study**, and none counts its crewed share, its skips or its ordering. The first article predicted that silence, and the survey has now measured it at the scale of its pool. Outside the survey it is broken chiefly by the specialist register this series used throughout \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-**And the technical-report literature has a history of its own that explains part of the series' source gradient.** The reports server was built in the 1990s to meet the 1958 act's requirement of the widest practicable dissemination of NASA's results \[[Nelson et al 1995][research_nelson_gottlich_1995]\], and its later fate was the subject of a 2014 paper cited here for its title \[[Takahashi 2014][research_takahashi_2014]\]. **A source base that thins after 2000 is partly a change in what is published as a report**, which is the first article's point that later programmes generate press releases, fact sheets and conference papers rather than technical reports.
+**And the technical-report literature has a history of its own that explains part of the series' source gradient.** The National Aeronautics and Space Act of 1958 directs the agency to provide for the widest practicable and appropriate dissemination of information concerning its activities and the results thereof \[[National Aeronautics and Space Act of 1958][ref_space_act_1958]\], and the reports server was built in the 1990s to meet that requirement \[[Nelson et al 1995][research_nelson_gottlich_1995]\], and its later fate was the subject of a 2014 paper cited here for its title \[[Takahashi 2014][research_takahashi_2014]\]. **A source base that thins after 2000 is partly a change in what is published as a report**, which is the first article's point that later programmes generate press releases, fact sheets and conference papers rather than technical reports.
 
 ### Research aircraft and their history
 
@@ -624,7 +624,7 @@ $$7 \times 0.00109 = 0.0077 < 0.01$$
 
 ## The Source Base
 
-**This article's primary sources are the seventy articles that precede it.** Each was read by an extractor for a fixed set of facts, and each fact was tied to a quotation that a script then found verbatim in the article, 764 quotations in all with none failing. The coding decisions made on top of the ledger, 21 of them, carry quotations checked the same way. **The register of allocations was read from a saved copy and parsed into 532 rows**, with its officiality markup read at all three levels and its notes read for the sources of out-of-sequence numbers \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The 2004 edition of the official list was read for whether it dates its research rows, which it does not \[[DOD 4120.15-L, 2004][ref_dod_412015l_2004]\]. The four editions of the numbering rule, of 1962, 1994, 2005 and 2020, were read by earlier articles and are cited here through them and directly \[[Air Force Regulation 66-11, 1962][ref_afr_66_11_1962]\] \[[Air Force Joint Instruction 16-401, 1994][ref_afji_16_401_1994]\] \[[Air Force Instruction 16-401, 2005][ref_afi_16_401_2005]\] \[[Department of the Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\].
+**This article's primary sources are the seventy articles that precede it.** Each was read by an extractor for a fixed set of facts, and each fact was tied to a quotation that a script then found verbatim in the article, 764 quotations in all with none failing. The coding decisions made on top of the ledger, 21 of them, carry quotations checked the same way. **The register of allocations was read from a saved copy and parsed into 532 rows**, with its officiality markup read at all three levels and its notes read for the sources of out-of-sequence numbers \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The register lists designators allocated after 19 August 1998, the date of the official list of that year \[[DOD 4120.15-L, 1998][ref_dod_412015l_1998]\], and the 2004 edition of the official list was read for whether it dates its research rows, which it does not \[[DOD 4120.15-L, 2004][ref_dod_412015l_2004]\]. The compiler's appendix of unmanned military X vehicles was read as a second source on crew \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_dusrm_app4]\], and his page of missing designations and his account of the allocation process as primaries on the anomalies and the procedure \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\] \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. **Eleven original papers of the statistical methods the article uses were read for their definitions**, Kendall, Wilson, Fisher on the exact test, on contingency tables and on the Poisson dispersion test, Cochran, Woolf, Shannon, Pielou, Dunn and Fleiss with his colleagues. The four editions of the numbering rule, of 1962, 1994, 2005 and 2020, were read by earlier articles and are cited here through them and directly \[[Air Force Regulation 66-11, 1962][ref_afr_66_11_1962]\] \[[Air Force Joint Instruction 16-401, 1994][ref_afji_16_401_1994]\] \[[Air Force Instruction 16-401, 2005][ref_afi_16_401_2005]\] \[[Department of the Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\].
 
 **The survey was harvested by 86 queries to the bibliographic index and 30 to the reports server**, giving a pool of 17,869 records of which 5,657 passed the gate into 12 clusters. The gate carries 23 keep cases and 39 refusal cases, each rerun with its spaces replaced by hyphens, and **the refusal cases were taken from what the queries returned**, alloy and refrigerant designation systems, zoological and chemical nomenclature, rapid prototyping of medical implants, a submarine research model that shares an agency's name, gene names that share an acronym, and geological maps of a flight test base. **Reading admitted samples found a defect in the gate itself**, a pattern meant to make a separator optional that instead made it lazy, so that unhyphenated words such as spaceplane and reentry were never matched. It was found because a keep case was written unhyphenated, and it was fixed before the counts above were taken.
 
@@ -686,15 +686,40 @@ This article does not revisit any aircraft's engineering, which the seventy arti
 
 - [Air Force Instruction 16-401, Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 14 April 2005][ref_afi_16_401_2005]
 - [Air Force Joint Instruction 16-401, Designating and Naming Defense Military Aerospace Vehicles, 9 September 1994][ref_afji_16_401_1994]
+- [Air Force public affairs correspondence on the F-47, March 2025, released under the Freedom of Information Act][ref_f47_foia]
 - [Air Force Regulation 66-11, Army Regulation 700-26 and Bureau of Naval Weapons Instruction 13100.7, Designating, Redesignating, and Naming Military Aircraft, 18 September 1962][ref_afr_66_11_1962]
+- [Air Force Research Laboratory, ARISE and Fly, World's First Modular Aerospike Rocket Engine Flight Demonstration, fact sheet][ref_arise_factsheet]
 - [Air Force Reserve Command, Air Force Awards Contract for Next Generation Air Dominance Platform, F-47, 21 March 2025][ref_afrc_f47]
+- [Bell, Bell Completes Critical Design Review on DARPA SPRINT X-Plane Program, Receives Official X-Plane Designation, 9 March 2026][ref_bell_x76]
+- [Cochran, Some Methods for Strengthening the Common Chi-Square Tests, Biometrics 10, 1954][ref_cochran_1954]
 - [DARPA, Announcing DARPA's Newest X-Plane, X-76, 9 March 2026][ref_darpa_x76]
 - [Department of the Air Force Instruction 16-401, Designating and Naming Defense Military Aerospace Vehicles, 3 November 2020][ref_dafi_16_401_2020]
 - [DOD 4120.15-L Addendum][ref_mds_addendum]
 - [DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]
 - [DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]
+- [DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, 12 May 2004 incorporating Change 1 of 31 August 2018, as archived][ref_dod_412015l_2004]
+- [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, 19 August 1998][ref_dod_412015l_1998]
+- [Dunn, Multiple Comparisons Among Means, Journal of the American Statistical Association 56, 1961][ref_dunn_1961]
+- [Fisher, On the Interpretation of Chi-Square from Contingency Tables, and the Calculation of P, Journal of the Royal Statistical Society 85, 1922][ref_fisher_1922]
+- [Fisher, The Logic of Inductive Inference, Journal of the Royal Statistical Society 98, 1935][ref_fisher_1935]
+- [Fisher, The Significance of Deviations from Expectation in a Poisson Series, Biometrics 6, 1950][ref_fisher_1950]
+- [Fleiss, Tytun and Ury, A Simple Approximation for Calculating Sample Sizes for Comparing Independent Proportions, Biometrics 36, 1980][ref_fleiss_1980]
+- [Kendall, A New Measure of Rank Correlation, Biometrika 30, 1938][ref_kendall_1938]
+- [NASA Dryden Flight Research Center, Active Aeroelastic Wing Flight Research, fact sheet FS-2005-03-061 DFRC][ref_aaw_factsheet]
+- [National Aeronautics and Space Act of 1958, Public Law 85-568, as unamended, NASA History Office copy][ref_space_act_1958]
+- [Parsch, Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]
+- [Parsch, Bell RTV-A-4/X-9 Shrike, Directory of U.S. Military Rockets and Missiles, Appendix 1][ref_parsch_x9]
+- [Parsch, Boeing X-50 Dragonfly, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_x50]
+- [Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4, Undesignated Vehicles, including the unmanned military X-planes][ref_dusrm_app4]
+- [Parsch, Missing USAF and DOD Aircraft Designations][ref_missing_mds]
+- [Parsch, North American RTV-A-5/X-10, Directory of U.S. Military Rockets and Missiles, Appendix 1][ref_parsch_x10]
+- [Pielou, The Measurement of Diversity in Different Types of Biological Collections, Journal of Theoretical Biology 13, 1966][ref_pielou_1966]
 - [Program Executive Office Aviation, Army designates MV-75 as mission design series for Future Long Range Assault Aircraft, 27 May 2025][ref_army_mv75]
+- [Shannon, A Mathematical Theory of Communication, Bell System Technical Journal 27, 1948][ref_shannon_1948]
+- [USAspending, the federal award record][ref_usaspending]
+- [Wilson, Probable Inference, the Law of Succession, and Statistical Inference, Journal of the American Statistical Association 22, 1927][ref_wilson_1927]
+- [Woolf, On Estimating the Relation Between Blood Group and Disease, Annals of Human Genetics 19, 1955][ref_woolf_1955]
 
 ### Research
 
@@ -6014,17 +6039,42 @@ This article does not revisit any aircraft's engineering, which the seventy arti
 - [a366 x69 through x75 leapfrogged block][related_post_a366_x69_through_x75_leapfrogged_block]
 - [a367 bell textron x76 sprint][related_post_a367_bell_textron_x76_sprint]
 
+[ref_aaw_factsheet]: https://www.nasa.gov/wp-content/uploads/2021/09/120314main_fs-061-dfrc.pdf
 [ref_afi_16_401_2005]: https://www.designation-systems.net/usmilav/afi16-401(i).pdf
 [ref_afji_16_401_1994]: https://irp.fas.org/doddir/usaf/16-401.htm
 [ref_afr_66_11_1962]: https://www.designation-systems.net/usmilav/original-docs/dod1962.pdf
 [ref_afrc_f47]: https://www.afrc.af.mil/News/Article/4131345/air-force-awards-contract-for-next-generation-air-dominance-ngad-platform-f-47/
+[ref_arise_factsheet]: https://afresearchlab.com/wp-content/uploads/2022/03/AFRL_ARISE-TRSA_FS_0922.pdf
 [ref_army_mv75]: https://www.army.mil/article/285828/army_designates_mv_75_as_mission_design_series_for_future_long_range_assault_aircraft
+[ref_bell_x76]: https://news.bellflight.com/en-US/263055-bell-completes-critical-design-review-on-darpa-sprint-x-plane-program-receives-official-x-plane-designation/
+[ref_cochran_1954]: https://doi.org/10.2307/3001616
 [ref_dafi_16_401_2020]: https://www.designation-systems.net/usmilav/afi16-401.pdf
 [ref_darpa_x76]: https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter
+[ref_dod_412015l_1998]: https://www.designation-systems.net/usmilav/original-docs/4120.15-L(1998).pdf
 [ref_dod_412015l_2004]: https://web.archive.org/web/2019id_/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
+[ref_dunn_1961]: https://doi.org/10.1080/01621459.1961.10482090
+[ref_dusrm_app4]: https://www.designation-systems.net/dusrm/app4/index.html
+[ref_f47_foia]: https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/roA.vNtW5Y0A/v0
+[ref_fisher_1922]: https://doi.org/10.2307/2340521
+[ref_fisher_1935]: https://doi.org/10.2307/2342435
+[ref_fisher_1950]: https://doi.org/10.2307/3001420
+[ref_fleiss_1980]: https://doi.org/10.2307/2529990
+[ref_kendall_1938]: https://doi.org/10.1093/biomet/30.1-2.81
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_addendum_wb_2025_12]: http://web.archive.org/web/20251210111623/https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2026_01]: http://web.archive.org/web/20260115211518/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_addendum_wb_2026_02]: http://web.archive.org/web/20260201194217/https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_allocation]: https://www.designation-systems.net/usmilav/mdsallocation.html
+[ref_missing_mds]: https://www.designation-systems.net/usmilav/missing-mds.html
+[ref_parsch_x10]: https://www.designation-systems.net/dusrm/app1/x-10.html
+[ref_parsch_x50]: https://www.designation-systems.net/dusrm/app4/x-50.html
+[ref_parsch_x9]: https://designation-systems.net/dusrm/app1/x-9.html
+[ref_pielou_1966]: https://doi.org/10.1016/0022-5193(66)90013-0
+[ref_shannon_1948]: https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+[ref_space_act_1958]: https://www.nasa.gov/history/national-aeronautics-and-space-act-of-1958-unamended/
+[ref_usaspending]: https://www.usaspending.gov/
+[ref_wilson_1927]: https://doi.org/10.1080/01621459.1927.10502953
+[ref_woolf_1955]: https://doi.org/10.1111/j.1469-1809.1955.tb01348.x
 [related_post_a297_framing]: {% post_url 2025-10-06-x_planes_framing %}
 [related_post_a298_bell_x1]: {% post_url 2025-10-07-x_planes_bell_x1 %}
 [related_post_a299_bell_x2]: {% post_url 2025-10-08-x_planes_bell_x2 %}
