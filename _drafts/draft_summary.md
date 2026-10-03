@@ -643,14 +643,25 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 
 `x_planes_general_atomics_x68_longshot.markdown`, A365, editorial date 2025-12-13, series `x_planes`
-index 69 of 72, categories `aerospace history engineering`. **TWO OF FOUR PASSES COMPLETE, the draft
-and the equation-density review. Committed, not pushed.** Primary-reference and publication passes
-remain. **NOT PUBLISHED**, and publication of the series has never been authorised.
+index 69 of 72, categories `aerospace history engineering`. **THREE OF FOUR PASSES COMPLETE, the
+draft, the equation-density review and the primary-reference review. Committed, not pushed.** The
+publication pass remains. **NOT PUBLISHED**, and publication of the series has never been authorised.
 
-**2,814 lines, 21,052 words, 42 display equations, 132 inline expressions, a 78-entry symbol table and
-543 reference definitions**, in 16 H2 and 77 H3 sections, citing 458 distinct works across 11
+**2,879 lines, 21,772 words, 42 display equations, 133 inline expressions, a 78-entry symbol table and
+546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458 distinct works across 11
 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median year 2009 and a range
-from 1935 to 2026, plus 17 primaries read directly. **The twelve-section research-aircraft order plus
+from 1935 to 2026, plus 20 primaries read directly.
+
+**THE PRIMARY PASS MOVED THE LOAD-BEARING ANCHORS.** The launch aircraft's weights are the service
+fact sheet's, the cruise missile's mass and the word turbofan the manufacturer's own datasheet, the
+atmosphere the 1976 standard's adopted tables read as page images, and the carried missile's
+dimensions the service's sheet retrieved on a delayed retry through archive rate limits. **Both
+service fact sheets misconvert their own pound figures**, 291 kilograms low on the aircraft and 1.2
+on the missile, so the article quotes both by their pounds and the verifier asserts both
+discrepancies. **The address sweep caught an invented register URL**, a plausible path written from
+memory where the real one is `412015-L(addendum).html`, the second enforcement of the corpus rule
+that a remembered identifier is a fabricated identifier. The engine's thrust remains
+encyclopedia-sourced, appears in neither manufacturer document, and is recorded as the weakest link. **The twelve-section research-aircraft order plus
 the three series sections, in order, with the required sections present.**
 
 **THE EQUATION PASS ADDED 18 DISPLAYS, ALL CLASSICAL MECHANICS.** The best is the pit-test fidelity

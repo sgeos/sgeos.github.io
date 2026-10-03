@@ -9,20 +9,24 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has TWO of four
-passes complete.** **Sixty-nine of seventy-two drafted. None published, and publication has never
+**Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has THREE of
+four passes complete.** **Sixty-nine of seventy-two drafted. None published, and publication has never
 been authorised. Three articles remain.** The next new article after A365's remaining passes is
 **A366**.
 
-**A365 SECOND-PASS STATE 2,814 lines, 21,052 words, 42 display equations, 132 inline expressions, a
-78-entry symbol table and 543 reference definitions**, in 16 H2 and 77 H3 sections, citing 458
+**A365 THIRD-PASS STATE 2,879 lines, 21,772 words, 42 display equations, 133 inline expressions, a
+78-entry symbol table and 546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458
 distinct works across 11 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent,
-median year 2009 and a range from 1935 to 2026, plus 17 primaries read directly. **Its keystone is
+median year 2009 and a range from 1935 to 2026, plus 20 primaries read directly. **Its keystone is
 the store mass fraction, which the budget books name as the programme's own binding unknown in four
 books inside the editorial date and a fifth outside it.** The equation pass added 18 display
 equations in classical mechanics register, the best being the pit-test fidelity ratio 1/(1-mu) and
-the altitude climb-gradient collapse that closes the mass sweep from above. Primary-reference and
-publication passes remain.
+the altitude climb-gradient collapse that closes the mass sweep from above. The primary pass moved
+the launch aircraft onto the service's fact sheet, the cruise missile's mass and engine type onto
+the manufacturer's datasheet, the atmosphere onto the 1976 standard read as page images, and the
+carried missile's dimensions onto the service's sheet, found both sheets misconvert their own pound
+figures, and caught an invented register URL through the address sweep. The engine's thrust remains
+encyclopedia-sourced and the epistemic state says so. The publication pass remains.
 
 **A364 FINAL STATE 5,214 lines, 36,167 words, 68 display equations, 185 inline expressions, an 85-entry
 symbol table and 1,315 reference definitions**, in 9 H2 and 54 H3 sections with 20 tables, citing 1,228

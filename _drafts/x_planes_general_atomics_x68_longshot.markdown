@@ -75,11 +75,26 @@ $$
 $$
 
 **At a fighter's mass fraction every consequence below is negligible and at this vehicle's it is
-not.** An F-15E at the midpoint between its empty mass and its maximum take-off mass, which is
-26,218 kilograms, releasing one missile of 161.5 kilograms, gives a $\mu$ of
-0.616 percent \[[F-15E Strike Eagle][ref_f15e]\] \[[AIM-120 AMRAAM][ref_amraam]\]. A
-vehicle of 1,800 kilograms releasing two of them gives 17.94 percent. **The ratio
-between those two figures is 29.**
+not.** An F-15E at the midpoint between the weight and the maximum take-off weight its service
+fact sheet states, which is 26,875 kilograms, releasing one missile of 161.5
+kilograms, gives a $\mu$ of 0.601 percent \[[F-15E fact sheet][ref_f15e]\]
+\[[AIM-120 AMRAAM][ref_amraam]\]. A vehicle of 1,800 kilograms releasing two of them gives
+17.94 percent. **The ratio between those two figures is 30.**
+
+**The fact sheet's figures are 37,500 and 81,000 pounds, converted here at the exact definition of
+the pound, because the sheet's own metric conversion of its take-off weight is wrong.** It prints
+36,450 kilograms where 81,000 pounds is 36,741.0, a difference of
+291 kilograms, and a document that converts its own headline figure incorrectly is
+quoted here by its pounds. The sheet is read from a public archive snapshot because the service's
+site refuses every client, and it is current as of April 2019.
+
+**The missile's mass is variant-dependent and the choice is stated.** The service's fact sheet for
+the missile gives a launch weight of 335 pounds \[[AIM-120 fact sheet][ref_amraam_fs]\], and its
+metric conversion is also wrong, printing 150.75 kilograms where 335 pounds is 151.95. The current
+heavy variant is given as 161.5 kilograms \[[AIM-120 AMRAAM][ref_amraam]\], and **this
+article models with the heavier figure** because a programme flying in 2026 carries current
+missiles. Every mass fraction here scales linearly in that choice, so a reader preferring the
+baseline figure may reduce each by a tenth, and no conclusion moves.
 
 **And that factor is a statement about the two launchers alone, because the missile's own mass
 cancels out of it.** Dividing the two definitions gives an identity worth displaying, since it says
@@ -91,11 +106,11 @@ $$
 \;=\; n\, \frac{m_{0,f}}{m_{0,v}}
 $$
 
-**Two missiles and a launcher mass ratio of about fifteen give 29.1**, which is the
+**Two missiles and a launcher mass ratio of about fifteen give 29.9**, which is the
 same number arrived at by cancellation rather than by substitution. Any missile carried by both
 aircraft produces the same factor.
 
-**That factor of 29 is the whole research question.** It is the reason a problem that no
+**That factor of 30 is the whole research question.** It is the reason a problem that no
 fighter programme has ever had to treat as a problem becomes the thing a demonstrator is built to
 retire.
 
@@ -121,7 +136,7 @@ fighter's operating point and at 1.485 times at this vehicle's.** The fighter li
 where the relation is effectively linear. This vehicle lives where every further kilogram of store
 costs half again its proportional share.
 
-**At the operating points themselves the divergence reads as follows.** A fighter's $\mu$ of 0.616 percent amplifies to a figure that rounds to the
+**At the operating points themselves the divergence reads as follows.** A fighter's $\mu$ of 0.601 percent amplifies to a figure that rounds to the
 same value. This vehicle's 17.94 percent amplifies to something materially larger, and a
 vehicle at half its own release mass would see its centre of gravity move by the whole store arm.
 
@@ -560,7 +575,7 @@ a_z \;=\; \frac{L - m_1 g_0}{m_1}
 $$
 
 **The amplification factor appears a third time, now as a load factor step.** The fighter of the
-comparison rises at 0.0062 of a gravity, which its occupants would not notice. This vehicle
+comparison rises at 0.0060 of a gravity, which its occupants would not notice. This vehicle
 rises at 0.219 of a gravity, or 2.14 metres per second squared, **which is a
 manoeuvre, uncommanded, at the exact moment the centre of gravity is also moving.**
 
@@ -692,7 +707,7 @@ $$
 **At an ejection velocity of 7 metres a second** the vehicle takes 1.53 metres a
 second if both stores leave together, or 0.69 for one of the pair at its own fraction of
 8.97 percent. The same ejector on the F-15E of the comparison above gives
-0.043 metres a second. **The amplification factor appears again, and this time it
+0.042 metres a second. **The amplification factor appears again, and this time it
 multiplies a velocity the cartridge was sized to produce for the store's benefit and not the
 launcher's.**
 
@@ -718,7 +733,7 @@ $$
 $$
 
 **The launcher absorbs exactly its store's mass fraction of every cartridge it fires.** A fighter
-takes 0.62 percent of each shot and this vehicle takes 9.0 percent,
+takes 0.60 percent of each shot and this vehicle takes 9.0 percent,
 about 390 joules per release delivered into its own structure, **which is a
 repeating structural load whose size was set by the keystone parameter and not by any choice the
 ejector's designer made.**
@@ -808,6 +823,19 @@ $$
 **which evaluates to 296.5 metres per second.** Those are the two numbers the rest of this
 article has been using, now derived from four constants of the standard atmosphere rather than
 asserted, and the verifier recomputes both from the constants.
+
+**The constants are the defining document's own, read from the document.** The 1976 standard
+adopts $g_0$ of 9.80665 metres per second squared exactly, a sea-level pressure of 101,325
+pascals, a sea-level temperature of 288.15 kelvin and a heat-capacity ratio of 1.4
+in its table of adopted constants, and its table of defined gradients gives the first atmospheric
+layer a gradient of minus 6.5 kelvin per kilometre
+\[[US Standard Atmosphere 1976][ref_atm76]\]. The scan is image-only and the two defining pages
+were read as page images, which is the practice the
+[X-67][related_post_a364_x67_slot_taken_by_xq67] article established for a founding document whose
+text extraction returns noise. **One nuance carries over from that reading.** The defining
+relations take geopotential height as their argument, the figure of 10,668 metres is treated
+here as geopotential, and the geometric difference at this altitude is under two parts in ten
+thousand, which is smaller than anything it could affect.
 
 ### A Missile's Reach Is Logarithmic and That Is the Whole Argument
 
@@ -968,7 +996,11 @@ documents, the letter `J` denotes a turbojet and the letter `F` a turbofan.
 
 **The same engine is identified elsewhere as the powerplant of the Taurus KEPD 350 cruise missile**,
 whose own published designation is P8300-15, which is described as a **turbofan** of 6,672
-newtons, or 1,500 pound force \[[Taurus KEPD 350][ref_taurus]\].
+newtons, or 1,500 pound force \[[Taurus KEPD 350][ref_taurus]\]. **The missile's
+manufacturer uses the word itself**, its datasheet describing a high-thrust turbofan engine and
+stating the 1,400 kilogram mass this article's thrust-to-weight anchor rests on
+\[[Taurus Systems KEPD 350E datasheet][ref_taurus_ds]\]. **The thrust figure appears in neither
+manufacturer document and rests on the encyclopedia alone**, which the epistemic state records.
 
 **So the register calls it a turbojet and the engine's manufacturer designation calls it a
 turbofan.** The [X-65][related_post_a362_aurora_x65_crane] article met the mirror image of this
@@ -1018,8 +1050,9 @@ that coincidence.** This article claims none either.
 **No mass, span, area or dimension of this aircraft is published**, so the engine is the one anchor
 available and it is used for all it is worth and no further.
 
-The engine was built for an airframe of 1,400 kilograms, which gives that airframe a
-thrust to weight ratio of 0.486.
+The engine was built for an airframe whose manufacturer states 1,400 kilograms
+\[[Taurus Systems KEPD 350E datasheet][ref_taurus_ds]\], which with the encyclopedia's thrust
+figure gives that airframe a thrust to weight ratio of 0.486.
 
 $$
 \frac{T}{W} \;=\; \frac{T}{m\, g_0}
@@ -1070,8 +1103,9 @@ design and the design reason is the premise above.**
 ### Structure, Which Is Dominated by the Bay Rather Than by Flight Loads
 
 **A vehicle carrying a store at a large mass fraction is a structure wrapped around a cavity.** The
-missile the programme names is 3.65 metres long and 178 millimetres in diameter
-\[[AIM-120 AMRAAM][ref_amraam]\]. **A vehicle that carries it internally cannot be shorter than that
+missile the programme names is 3.65 metres long and 178 millimetres in
+diameter, which are the service fact sheet's 143.9 inches and 7 inches
+\[[AIM-120 fact sheet][ref_amraam_fs]\]. **A vehicle that carries it internally cannot be shorter than that
 plus its own nose, tail and ejector stroke**, which sets a minimum length independently of any
 aerodynamic consideration.
 
@@ -1450,7 +1484,7 @@ claims more loosely than the programme-level ones.
 **Two sweeps retrieved 4,711 records and the audited subject gate admitted
 471**, which is 10.0 percent. After deduplication on normalised title and
 year that is 458 distinct works, cited across 11 clusters alongside
-17 primary sources read directly.
+19 primary sources read directly.
 
 **72 of the 458 are research reports rather than journal or conference
 papers, which is 15.7 percent.** That share is lower than several recent articles in this
@@ -1547,7 +1581,7 @@ the latter.
 
 ### What This Article Read in Full
 
-**17 sources were read directly rather than swept.** The designation register and its
+**19 sources were read directly rather than swept.** The designation register and its
 front matter. All seven budget justification books, for the programme entry, the funding
 columns, the plans lists and the programme element migration sentences. The sponsoring agency's
 programme page and its announcement. The contractor's announcement. The federal award record, for
@@ -1555,11 +1589,26 @@ five awards and their contract data. Two defence journalism accounts. And the re
 pages for the cruise missile that shares this aircraft's engine, the missile the programme says it
 will carry, and the aircraft that will launch it.
 
-**Three of those last four are not primary sources and the article should say so plainly.** The
-engine's thrust, the missile's mass and the host aircraft's masses are taken from an encyclopedia
-and not from a manufacturer's or a service's document. **They are load-bearing**, since the
-keystone comparison uses the missile's mass and the engine anchors the whole mass sweep, and
-replacing them with primary sources is the first thing a later pass should do.
+**The primary-reference pass moved two load-bearing anchors onto primary documents and could not
+move the third.** The launch aircraft's weights now come from the service's own fact sheet, read
+from a public archive snapshot because the service's site refuses every client, and quoted by its
+pound figures because the sheet's own metric conversion of its take-off weight is 291 kilograms
+low. The cruise missile's mass and the word turbofan now come from the manufacturer's own
+datasheet. The atmosphere subsection's constants now carry the 1976 standard's own tables, read as
+page images from an image-only scan. The missile's dimensions and its baseline
+launch weight now carry the service's fact sheet, retrieved from the archive on a delayed retry
+after both public archives rate-limited this article's address for most of the pass. **The
+engine's thrust figure remains encyclopedia-sourced because neither manufacturer document states
+it, and the modelling mass for the missile remains the encyclopedia's heavy-variant figure by a
+stated choice**, the service sheet giving the baseline variant. The thrust is the weakest link in
+the chain, anchoring as it does the thrust-to-weight table, the climb gradients and the mass
+sweep's brackets.
+
+**And a small finding about the fact sheets themselves.** Both of the service's sheets convert
+their own pound figures to kilograms incorrectly, the aircraft's take-off weight printed 291
+kilograms low and the missile's launch weight 1.2 kilograms low. **This article therefore quotes
+both documents by their pound figures and converts at the definition of the pound**, and the
+verifier asserts both discrepancies so that neither can silently become this article's own.
 
 **And one document was named by four awards and not read.** The broad agency announcement
 HR001120S0037 could not be retrieved from the federal opportunity portal, the public web archive
@@ -1586,6 +1635,16 @@ closed-form consequence of mass, geometry and the two propulsion relations. **No
 measured from this aircraft**, because no mass, dimension or aerodynamic coefficient of this
 aircraft is published. The ballistic decay model is calibrated against the published reach of the
 missile family the programme names, which is the only external check available to it.
+
+**Where each load-bearing anchor now rests.** The launch aircraft's weights are the service fact
+sheet's pound figures exactly converted. The cruise missile's mass and its engine's type are the
+manufacturer's datasheet. The atmosphere constants are the 1976 standard's adopted tables. The carried missile's
+dimensions and baseline weight are the service's fact sheet, with the modelling mass the
+encyclopedia's heavy-variant figure by the stated choice. **The engine's thrust is an
+encyclopedia's figure and nothing stronger**, and every result standing on it, the
+thrust-to-weight table, the climb gradients and the mass sweep's brackets, inherits that
+weakness.
+The ratios and closed forms do not, since they are arithmetic whatever the inputs.
 
 **Inference, labelled as such.**
 
@@ -1684,8 +1743,8 @@ warhead. The same distance costs an air-breathing carrier a fuel fraction near 0
 that is why the programme exists.
 
 **The research question is a mass ratio.** A fighter releasing one of these missiles sheds about
-0.616 percent of itself. A vehicle of this class releasing two sheds something near
-17.94 percent, a factor of about 29. **Everything follows from that one
+0.601 percent of itself. A vehicle of this class releasing two sheds something near
+17.94 percent, a factor of about 30. **Everything follows from that one
 number**, amplified by the factor that grows faster than it does. The centre of gravity moves, the
 static margin can be spent in a single event, the trim demand lands hardest where control power is
 scarcest, the inertia changes by two corrections rather than one, an asymmetric release loads the
@@ -1717,6 +1776,7 @@ to carry a weapon it is barely larger than.
 ### Reference
 
 - [AIM-120 AMRAAM][ref_amraam]
+- [AIM-120 fact sheet][ref_amraam_fs]
 - [Air and Space Forces on the X-68A][ref_asf_x68a]
 - [DARPA LongShot programme][ref_darpa_longshot]
 - [DARPA on the X-68A][ref_darpa_longshot_news]
@@ -1728,14 +1788,18 @@ to carry a weapon it is barely larger than.
 - [DARPA PB2026 justification][ref_darpa_pb2026]
 - [DARPA PB2027 justification][ref_darpa_pb2027]
 - [DOD 4120.15-L Addendum][ref_mds_addendum]
-- [F-15E Strike Eagle][ref_f15e]
+- [F-15E fact sheet][ref_f15e]
 - [General Atomics on the X-68A][ref_gaasi_x68a]
 - [Taurus KEPD 350][ref_taurus]
+- [Taurus Systems KEPD 350E datasheet][ref_taurus_ds]
 - [The War Zone on the X-68A][ref_twz_x68a]
+- [US Standard Atmosphere 1976][ref_atm76]
 - [USAspending federal award record][ref_usaspending]
 
 [ref_amraam]: https://en.wikipedia.org/wiki/AIM-120_AMRAAM
+[ref_amraam_fs]: http://web.archive.org/web/20251204145746/https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104576/aim-120-amraam/
 [ref_asf_x68a]: https://www.airandspaceforces.com/darpas-new-x-plane-meet-the-x-68a-longshot-drone/
+[ref_atm76]: https://ntrs.nasa.gov/citations/19770009539
 [ref_darpa_longshot]: https://www.darpa.mil/research/programs/longshot
 [ref_darpa_longshot_news]: https://www.darpa.mil/news/2026/long-shot-success
 [ref_darpa_pb2021]: https://comptroller.war.gov/Portals/45/Documents/defbudget/fy2021/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2021.pdf
@@ -1745,10 +1809,11 @@ to carry a weapon it is barely larger than.
 [ref_darpa_pb2025]: https://comptroller.war.gov/Portals/45/Documents/defbudget/fy2025/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2025.pdf
 [ref_darpa_pb2026]: https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2026/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2026.pdf
 [ref_darpa_pb2027]: https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2027.pdf
-[ref_f15e]: https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15E_Strike_Eagle
+[ref_f15e]: http://web.archive.org/web/20251201192054/https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/
 [ref_gaasi_x68a]: https://www.ga-asi.com/air-force-awards-darpa-ga-asi-longshot-new-designation-x-68a
-[ref_mds_addendum]: https://www.designation-systems.net/usmilav/mds-addendum.html
+[ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_taurus]: https://en.wikipedia.org/wiki/Taurus_KEPD_350
+[ref_taurus_ds]: https://taurus-systems.de/wp-content/uploads/2016/10/TAURUS_KEPD_350E-EN-Aug2014.pdf
 [ref_twz_x68a]: https://www.twz.com/news-features/x-68a-longshot-air-to-air-missile-carrying-drone-moves-closer-to-f-15-launch
 [ref_usaspending]: https://www.usaspending.gov/
 

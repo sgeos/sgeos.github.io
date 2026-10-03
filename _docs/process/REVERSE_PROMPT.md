@@ -5,6 +5,73 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A365 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, not pushed. NOT
+PUBLISHED**, and publication of the series has never been authorised. **Sixty-nine of seventy-two
+drafted, three remain.** The publication pass remains.
+
+**17 primaries to 20, and the pass was about which documents carry the load rather than about the
+count.** 2,879 lines and 21,772 words, references 543 to 546, the swept 458 untouched.
+
+**THREE LOAD-BEARING ANCHORS MOVED ONTO PRIMARY DOCUMENTS.**
+
+- **The launch aircraft's weights are now the service fact sheet's**, current as of April 2019,
+  read from a public archive snapshot because the service's site refuses every client. The
+  comparison's midpoint moved 2.5 percent and the factor between the two mass fractions moved from
+  29 to 30, every downstream figure recomputed through the slots.
+- **The cruise missile's mass and the word turbofan are now the manufacturer's own datasheet**,
+  which strengthens the engine-designation contradiction because the register says turbojet and
+  the engine's maker says turbofan in its own document.
+- **The atmosphere subsection's constants now carry the 1976 standard itself**, an image-only scan
+  whose two defining pages were read as page images per A364's practice. The adopted-constants
+  table and the layer-gradient table give exactly the four constants the article uses, and one
+  nuance came back from the reading: the defining relations take geopotential height, which the
+  article now says, the difference at this altitude being under two parts in ten thousand.
+- **The carried missile's dimensions and baseline weight now carry the service's sheet**, retrieved
+  on a delayed background retry after both public archives rate-limited this address for most of
+  the pass. The modelling mass stays the heavy-variant encyclopedia figure BY A STATED CHOICE,
+  since a programme flying in 2026 carries current missiles, and the sensitivity is stated: every
+  mass fraction is linear in it and no conclusion moves.
+
+**A SMALL FINDING ABOUT THE FACT SHEETS THEMSELVES.** Both of the service's sheets convert their
+own pound figures to kilograms incorrectly, the aircraft's take-off weight printed 291 kilograms
+low and the missile's launch weight 1.2 kilograms low. The article therefore quotes both documents
+by their pounds, converts at the definition of the pound, and the verifier asserts both
+discrepancies so neither can silently become the article's own.
+
+**THE ADDRESS SWEEP CAUGHT AN INVENTED URL, WHICH IS THE PASS'S METHOD FINDING.** The first pass
+wrote the register's address as `mds-addendum.html` from memory, a plausible path that returns
+404. The register lives at `412015-L(addendum).html`, confirmed from the site's own index and from
+A364's definition. **A remembered identifier is a fabricated identifier**, the corpus rule A364
+earned with an invented DOI, enforced here a second time by the same instrument. Every one of the
+20 primary URLs now resolves with substantive content.
+
+**WHAT THE PASS COULD NOT GET, STATED RATHER THAN HIDDEN.** The engine's thrust figure appears in
+neither manufacturer document and remains encyclopedia-sourced, and it is the weakest link in the
+chain, anchoring the thrust-to-weight table, the climb gradients and the mass sweep's brackets.
+The discipline's governing test-procedure handbook is officially distributed through a
+login-walled repository and was not readable through any route tried, so it is not cited. The
+broad agency announcement remains named and unread, the archive's index confirming no snapshot of
+it exists. Two documents the press derives from, an unfunded-priorities letter and the
+solicitation, are now both recorded as unretrievable primaries. The thin literature clusters were
+probed once more through the aeronautics reports server and stayed thin, so the honest negatives
+stand.
+
+**Gate: `_verify.py` 0 errors and 0 warnings across 304 posts.** `verify365.py` 115 to 120 checks,
+0 disagreeing, the new ones asserting both fact-sheet conversion discrepancies and both stated
+dimensions against their inch originals. Stub build clean, rendered audit no findings across 539
+pages, 42 display blocks matching in both delimiters, style scan clean in every category. The
+fighter-side constants in the verifier moved to the fact sheet's pound figures independently of
+the calculation module's copies, so the two routes stay separate.
+
+**FOR THE PUBLICATION PASS.** The dateline paragraph in the epistemic state should gain the
+archive-snapshot dates for the two fact sheets, both of which postdate the editorial date. The
+conclusion's factor of 29 became 30 through the slots and reads correctly, and the identity
+sentence's spelled-out fifteen held, but **spelled-out numbers near slot-driven figures are where
+a stale word hides**, and the publication pass should sweep for them.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A365 EQUATION-DENSITY REVIEW, the second of four passes. Committed, not pushed. NOT
 PUBLISHED**, and publication of the series has never been authorised. **Sixty-nine of seventy-two
 drafted, three remain.** Primary-reference and publication passes remain.
