@@ -5,6 +5,13 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **SERIES REPAIR, CITATION FORMAT COMPLETED. Committed, NOT pushed.** The five largest drafts, A340 through A344, held back from the repair commit pending proof, are now escaped, 55,515 citations. Each draft's HTML was rendered with the site's kramdown options before and after and is byte-identical, the slowest proof, A341, taking 4 hours 14 minutes because the unescaped original is the slow form. **All 22 drafts are now proved and escaped, 123,832 citations in all, and no X-Planes draft carries the unescaped form.** The five drafts then built fully together in 36 seconds and the rendered audit has no findings. `_verify.py` reports 0 errors and 0 warnings, the A368 ledger holds all 764 quotations, and `verify368.py` passes 1,827 checks.
+
+Of three background watcher shells, one was stuck on a condition that matched its own command and one duplicated another, and both were stopped. A redundant sequential render of the X-46 was stopped as well. **The items needing the pilot are unchanged from the repair report below.**
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A377 PUBLISHED on the pilot's instruction, committed and PUSHED. The article is LIVE.**
 
 **PUBLICATION.**
