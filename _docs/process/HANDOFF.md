@@ -131,12 +131,14 @@ predicts belligerent fortune at minus 0.225 across seventy-six wars, the prospec
 ninety-sixth percentile of concentration, and ten of the twelve wars in its band ended with the
 belligerents smaller.
 
-**THE EIGHT RE-DATED DRAFTS IN THE WORKING TREE ARE PROBABLY THIS LINE'S AFTERMATH AND ARE NOT
-EXPLAINED ANYWHERE.** A375's publication record notes that `android_development_on_freebsd.markdown`
-collided with the 2026-08-12 slot and would have to be re-dated before it published. **Eight drafts have
-since been moved from 2026-08-14 through 21 to 2126 and left uncommitted.** Line one did not do it, has
-not touched them, and records the fact rather than guessing at the intent. **A resuming agent should ask
-the pilot before committing or reverting them.**
+**THE EIGHT RE-DATED DRAFTS ARE COMMITTED AND THIS PARAGRAPH WAS CORRECTED ON 2026-10-02 DURING A366.**
+It previously said they were uncommitted and that a resuming agent should ask the pilot, which
+contradicted this file's own Validity and Open Items sections. A375's publication record notes that
+`android_development_on_freebsd.markdown` collided with the 2026-08-12 slot and would have to be
+re-dated before it published. **Eight drafts were moved from 2026-08-14 through 21 to 2126 by the second
+line, and on the pilot's decision of 2026-10-02 they were committed exactly as they stood, as
+`ee17f86`.** The intent behind the re-dating is still recorded rather than interpreted. **Nothing about
+them is open.**
 
 ### The A376 verification apparatus lives in a gitignored path and will not survive a clean checkout
 

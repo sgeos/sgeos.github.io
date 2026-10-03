@@ -640,11 +640,52 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14
+
+`x_planes_x69_through_x75_leapfrogged_block.markdown`, A366, editorial date 2025-12-14, series
+`x_planes` index 70 of 72, categories `aerospace history engineering`, designation-anomaly class
+under the reduced order. **DRAFTING PASS COMPLETE, the first of four. Committed, not pushed. NOT
+PUBLISHED**, and publication of the series has never been authorised.
+
+**4,402 lines, 26,207 words of which about 13,900 lie outside the citation runs and reference lists,
+14 display equations, 38 inline expressions, a 17-entry symbol table and 1,935 reference definitions**,
+being 16 primaries read directly, 1,850 research works and 69 related posts, in 11 H2 and 42 H3
+sections with 9 tables. The survey cites 1,850 distinct works across 12 clusters from a pool of 11,384,
+of which 8 are reports-server records, median year 2016 and range 1855 to 2026.
+
+**THE BLOCK IS SEVEN SKIPS MADE AT ONCE SO THAT ONE NUMBER COULD BE CHOSEN.** The pointer advanced
+eight at the X-76A against a previous maximum of two. Seven unreleased allocations in the 61-day gap
+carry a Poisson tail of 1.83e-10 at the series' own rate, the 2020 instruction has no mechanism for
+reserving a block, and its two clauses leave the skip to the allocating office's unconditioned
+discretion. DARPA's statement of 9 March 2026 calls the 76 a deliberate nod to 1776.
+
+**THE REGISTER DID NOT SHOW THE ANOMALY ON ITS OWN DATE.** Archived copies show the X-68A and X-76A
+rows first appearing between 15 January and 1 February 2026. **A364 and A365 state register facts
+that were not public at their own dates either, and that is recorded for the pilot rather than
+repaired here.** The compiler wrote a sentence naming the X-77 reading and removed it after DARPA's
+statement under a last-updated stamp that did not change.
+
+**THE X-76A IS THE THIRD FOUNDING-YEAR NUMBER IN 329 DAYS**, after the YMV-75A for 1775 and the F-47A
+for 1947, and released Air Force public affairs emails name General Allvin as the F-47's decider, the
+only named chooser of a design number the article found. **The 2020 rule describes 6 of 23 allocation
+events since it took effect, or 7 with the RQ-170 row set aside**, found because two parsers disagreed.
+
+**VERIFICATION.** `verify366.py` 632 checks, importing no measurement module, the register re-parsed
+with an HTML parser, every quotation read back from its saved source, and the Poisson tail recomputed
+from the upper sum and bounded by its first term. `_verify.py` 0 errors and 0 warnings across 304
+posts. Stub build clean in 15 seconds, `_lib/render.py` no findings across 539 pages, 14 display
+blocks matched, zero emphasis spans in mathematics, `symcheck.py` passing and `stylecheck.py` zero
+findings. **Two `.mil` primaries return 403 to the address sweep and were read earlier in the session
+with browser headers**, copies saved. **Residual noise remains in the swept pool** and the
+reference pass should audit it.
+
+**REMAINING.** Equation density, primary references and publication review.
+
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 
 `x_planes_general_atomics_x68_longshot.markdown`, A365, editorial date 2025-12-13, series `x_planes`
-index 69 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed,
-not pushed.** **NOT PUBLISHED**, and publication of the series has never been authorised.
+index 69 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE, PLUS AN
+ADDENDUM. Committed and pushed**, which this entry previously recorded as not pushed and was corrected during A366. **NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **2,917 lines, 22,194 words, 42 display equations, 133 inline expressions, a 78-entry symbol table
 and 548 reference definitions, two of them nominal addresses for walled documents, cited as

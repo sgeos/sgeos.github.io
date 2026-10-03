@@ -5,6 +5,75 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A366 DRAFTED, *X-Planes: X-69 through X-75, the Leapfrogged Block*, the first of four
+passes. Committed, NOT pushed, NOT published.** Seventy of seventy-two drafted. Editorial date
+2025-12-14, series index 70, designation-anomaly class under the reduced order. **4,402 lines, 14
+display equations, 38 inline expressions, a 17-entry symbol table and 1,935 reference definitions**,
+being 16 primaries read directly, 1,850 research works across 12 clusters from a pool of 11,384, and
+69 related posts.
+
+**THE BLOCK IS SEVEN SKIPS MADE AT ONCE SO THAT ONE NUMBER COULD BE CHOSEN.** The handoff framed three
+readings, and the record separates them. Seven unreleased allocations would all have to fall in the 61
+days between the X-68A and the X-76A, and at the series' own rate that has a Poisson tail of 1.83e-10.
+A reserved block has no instrument in the 2020 instruction. The instruction refuses requests in skipped
+sequences and gives the allocating office an unconditioned discretion to skip, so the X-76A is that
+discretion exercised or a request the text says is not accepted. **DARPA's statement of 9 March 2026
+calls the 76 a deliberate nod to 1776**, and the article uses it while saying it postdates the
+dateline by 85 days.
+
+**THE HANDOFF'S PREMISE WAS PARTLY WRONG AND THE ARTICLE SAYS WHERE.** It said no allocation in the
+register carries any of the seven numbers. **No research row does, but the XRQ-72A, XRQ-73A and
+YMV-75A carry 72, 73 and 75 in other basic missions**, and the YMV-75A turned out to be the key to the
+whole article.
+
+**FOUR FINDINGS THE EARLIER ANOMALY ARTICLES DID NOT HAVE.**
+
+- **The public register did not show the X-68A or the X-76A until between 15 January and 1 February
+  2026**, by archived copies. **A364 and A365 therefore also state register facts that were not public
+  at their own dates.** Neither article records this. **I did not change them, and it is the pilot's
+  call whether their Epistemic State sections should say so.**
+- The compiler wrote a sentence naming the X-77 reading and removed it after DARPA's statement, under a
+  last-updated stamp that never changed, so his pages must be dated by archive capture.
+- **The X-76A is the third founding-year design number in 329 days**, after the YMV-75A for the Army's
+  1775 and the F-47A for the Air Force's 1947. Air Force public affairs emails released under the
+  Freedom of Information Act name General Allvin as the F-47's decider, in consultation with the
+  Secretary of Defense. This is the only named chooser of a design number the article found.
+- **The 2020 rule describes 6 of the 23 allocation events made since it took effect, or 7 if the
+  RQ-170 row is set aside.** Two parsers disagreed, and that disagreement is how the sensitivity was
+  found.
+
+**THE ARTICLE ENDS ON A TEST THAT CAN BE CHECKED LATER.** If the next research designation is the X-69A,
+the X-49 precedent governs in practice. If it is the X-77A, the 2020 text governs as written. No X-69
+or X-77 is public as of 2 October 2026.
+
+**VERIFICATION.** `verify366.py` runs 632 checks and imports no measurement module. It re-parses the
+register with an HTML parser, reads every quotation back from its saved source, and recomputes the
+Poisson tail from the upper sum. `_verify.py` reports 0 errors and 0 warnings across 304 posts. The
+stub build took 15 seconds. `_lib/render.py` reports no findings across 539 pages. There are 14
+display blocks, matched source to rendered, and zero emphasis spans in mathematics. `symcheck.py` and
+`stylecheck.py` are clean. **Two `.mil` primaries return 403 to the address sweep.** Both were read
+earlier in the session with browser headers, and copies are saved under `tmp/a366/`.
+
+**INHERITED INSTRUMENTS THAT WERE STALE.** `count.py` was pointed at the X-66 draft, and `rendercheck.py`
+expects script-tag mathematics this site no longer emits. Both were retargeted or read around, and
+neither affects a stated figure.
+
+**CORRECTIONS MADE ON THE PILOT'S INSTRUCTION, in the same commit:**
+
+- The `HANDOFF.md` paragraph that still called the eight re-dated drafts uncommitted.
+- The TASKLOG note that still called A376 unpublished, its Part 1 of 2 wording and its `progress-stale`
+  wording.
+- Two more stale statements found while correcting: the TASKLOG status and the draft summary both still
+  called A365 not fully pushed.
+- **TASKLOG had no history row for any of A365's five commits or the repair day's six.** The row count
+  never changed across those commits, so the rows were never written rather than destroyed. Two rows
+  were reconstructed from the commit log and are labelled as reconstructed.
+
+**NOTHING PUSHED**, per the rhythm for pass one. **Next prompt: the equation-density review of A366.**
+
+---
+
+**Date**: 2026-10-02
 **Task**: **ALL SEVEN PILOT DECISIONS EXECUTED.** The mathematics repair is applied and
 committed, 133 rendered spans to 0 across 61 published posts, byte-identical to the rehearsal
 and re-verified by a fresh production build. The A358/A359 officiality repair is done in place,
