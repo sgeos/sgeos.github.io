@@ -5,6 +5,71 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A365 PUBLICATION REVIEW, the fourth and last of four passes. Committed, NOT PUSHED and
+NOT PUBLISHED**, publication of the series never having been authorised. **Sixty-nine of
+seventy-two drafted, three remain.** Five A365-line commits now await a push instruction,
+alongside the handoff and durability commits, seven unpushed in all.
+
+**FINAL STATE 2,893 lines, 21,933 words, 42 display equations, 133 inline expressions, a 78-entry
+symbol table and 546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458 distinct
+works across 11 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median
+year 2009 and a range from 1935 to 2026, plus 20 primaries read directly.
+
+**THE PASS'S BEST CATCH IS THE OPENING SENTENCE, WHICH THE ARTICLE'S OWN OFFICIALITY ANALYSIS
+REFUTED.** The draft opened by saying the Department has released exactly one word about this
+aeroplane. By the register's own marking scheme the row's unmarked cells are official data, so the
+Department has released the date, the maker, the engine and the sponsor as well as the name.
+**A364's publication review caught an opening its own table refuted, and this is the same defect
+in the same position.** The opening now says every official word is an item of bookkeeping and
+that what the aircraft is for has no official word but the name, which is the sharp claim that
+survives the article's own evidence, and the conclusion and the section title were corrected with
+it.
+
+**FOUR MORE DEFECTS, EACH CAUGHT BY A SCAN.** The source base said the first sweep asked seven
+dozen questions where it asked thirty-nine, a sentence that contradicted its own neighbour, and
+the whole passage is now slot-driven from the sweep's cover record. A sentence said the sponsor
+holds a twentieth of the register's research rows where five of thirty-one is a sixth. The
+identity printed 29.9 beside a ratio printed 30 while calling them the same number, false as
+printed, and both now print at the same precision. And a sentence-initial slot rendered lowercase.
+
+**TWO INSTRUMENT CORRECTIONS.** The dateline scan's label carried A362's editorial date through
+two passes while its filter was right, an inherited instrument modelling the previous article
+until every constant is retargeted. And the primary count the prose states had gone stale at 19
+when the reference set grew to 20, because the emitter ran before the regeneration, which is the
+pipeline-ordering defect the recompute rule exists to prevent, now re-run in order.
+
+**ONE CORRECTION TO MY OWN PREVIOUS REPORT.** It said the two fact-sheet snapshots postdate the
+editorial date. They do not. The snapshots are of 1 and 4 December 2025, both inside the date, so
+the pages cited are the pages as they stood at the time, and the epistemic state now says exactly
+that. The award record is the opposite case, read in October 2026 with amounts reflecting
+modifications through May 2026, and the epistemic state now carries that too.
+
+**THE EPISTEMIC STATE ALSO GAINED** the UCAV expansion at first occurrence, the scoping of the
+name's official standing to the article's date, and the narrowing of the engine-cell claim to the
+only independent published statement, since the press items derive from the register.
+
+**AND ONE THING THE REGISTER SAYS ABOUT A366 THAT THE TASKLOG NOW RECORDS.** The register carries
+no research row between the X-68A of 20 August 2025 and the X-76A of 20 October 2025, so
+designations 69 through 75 are absent from the released record and the next article is likely an
+absence article. **I nearly wrote a contractor's name into the TASKLOG for A366 from nothing**,
+caught it against the register before committing, and the subject determination belongs to the
+pilot's prompt.
+
+**Gate: `_verify.py` 0 errors and 0 warnings across 304 posts.** `verify365.py` 120 checks, 0
+disagreeing. Stub build clean in fifteen seconds, rendered audit no findings across 539 pages, 42
+display blocks matching in both delimiters, every symbol resolving, style scan clean in every
+category with the four semicolons the register quotation and the debug tag, structure scan showing
+the required sections present and in order. The spelled-number sweep ran over every sentence
+mixing a spelled number with a digit, fifty-four of them, and the identity-precision defect above
+is what it caught.
+
+**AWAITING THE PILOT.** A push instruction for the seven unpushed commits. The A366 subject
+prompt. And the two standing items, the corrupted mathematics in published posts and the A358 and
+A359 officiality repair, both unchanged.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A365 PRIMARY-REFERENCE REVIEW, the third of four passes. Committed, not pushed. NOT
 PUBLISHED**, and publication of the series has never been authorised. **Sixty-nine of seventy-two
 drafted, three remain.** The publication pass remains.

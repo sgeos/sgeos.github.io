@@ -9,15 +9,19 @@ Current task state and verification log. This file is the shared source of truth
 
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
-**Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has THREE of
-four passes complete.** **Sixty-nine of seventy-two drafted. None published, and publication has never
-been authorised. Three articles remain.** The next new article after A365's remaining passes is
-**A366**.
+**Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has ALL FOUR
+PASSES COMPLETE, committed and not pushed.** **Sixty-nine of seventy-two drafted. None published,
+and publication has never been authorised. Three articles remain.** The next new article is
+**A366, editorial date 2025-12-14, series index 70.** **Its subject is for the pilot's prompt and
+is not obvious from the register**, which carries no research row between the X-68A of
+20 August 2025 and the X-76A of 20 October 2025, so the designations 69 through 75 are absent
+from the released record and A366 is likely an absence article rather than an aircraft one.
 
-**A365 THIRD-PASS STATE 2,879 lines, 21,772 words, 42 display equations, 133 inline expressions, a
+**A365 FINAL STATE 2,893 lines, 21,933 words, 42 display equations, 133 inline expressions, a
 78-entry symbol table and 546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458
 distinct works across 11 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent,
-median year 2009 and a range from 1935 to 2026, plus 20 primaries read directly. **Its keystone is
+median year 2009 and a range from 1935 to 2026, plus 20 primaries read directly. **Four passes in
+four commits.** **Its keystone is
 the store mass fraction, which the budget books name as the programme's own binding unknown in four
 books inside the editorial date and a fifth outside it.** The equation pass added 18 display
 equations in classical mechanics register, the best being the pit-test fidelity ratio 1/(1-mu) and

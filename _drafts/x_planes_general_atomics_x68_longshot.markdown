@@ -14,8 +14,8 @@ series_index: 69
 
 This is the sixty-ninth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], the [X-56][related_post_a353_lockheed_martin_x56], the [X-57][related_post_a354_esaero_x57_maxwell], the [X-58][related_post_a355_x58_slot_taken_by_xq58], the [X-59][related_post_a356_x59_quesst], the [X-60][related_post_a357_generation_orbit_x60], the [X-61][related_post_a358_dynetics_x61_gremlins], the [X-62][related_post_a359_lockheed_martin_x62_vista], the [X-63][related_post_a360_abl_space_systems_x63], the [X-64][related_post_a361_invocon_x64], the [X-65][related_post_a362_aurora_x65_crane], the [X-66][related_post_a363_boeing_x66], and the [X-67][related_post_a364_x67_slot_taken_by_xq67].
 
-**The Department of Defense has released exactly one word about this aeroplane, and that word is its
-name.**
+**Every official word about this aeroplane is an item of bookkeeping, a date, a maker, an engine,
+a sponsor, and one name. What the aircraft is for has no official word at all.**
 
 The X-68A was allocated on 20 August 2025 to General Atomics, with an engine cell reading
 `1 Williams WJ38-15`, a sponsor cell reading DARPA, and a description that the register itself
@@ -23,10 +23,12 @@ marks as only partly official \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 > Longshot; Experimental air-launched UCAV for air-to-air engagements.
 
-**The name is official wording and the sentence after it is the compiler's.** That distinction is
-visible in the register's own markup and it is the subject of the second section below. It makes this
-row unusual in a way that matters, because it means the mission statement a reader would naturally
-take as the government's description of the aircraft is not one.
+**The name is official wording and the sentence after it is the compiler's**, whose UCAV
+abbreviates unmanned combat air vehicle. That distinction is
+visible in the register's own markup and it is the subject of the second section below. The row's
+other cells carry no mark and are official data by the register's own scheme, **so what the
+Department has released is the allocation's bookkeeping and the name, and the mission statement a
+reader would naturally take as the government's description of the aircraft is not one.**
 
 The programme behind the designation is LongShot, a Defense Advanced Research Projects Agency effort
 to fly an unmanned air vehicle that is itself launched from an aeroplane and that carries and fires
@@ -106,7 +108,7 @@ $$
 \;=\; n\, \frac{m_{0,f}}{m_{0,v}}
 $$
 
-**Two missiles and a launcher mass ratio of about fifteen give 29.9**, which is the
+**Two missiles and a launcher mass ratio of about fifteen give 30**, which is the
 same number arrived at by cancellation rather than by substitution. Any missile carried by both
 aircraft produces the same factor.
 
@@ -148,7 +150,7 @@ dimensions, which is the practice the [X-64][related_post_a361_invocon_x64] and
 32.3 percent down to 10.8 percent for a pair of missiles, and the
 brackets are justified in the propulsion section from the one published anchor this aircraft has.
 
-## The Register Row, and the One Word in It That Is Official
+## The Register Row, and the One Official Word in Its Description
 
 **The register marks its own reliability, and this row is marked in a way no other research row is.**
 
@@ -226,8 +228,9 @@ population the previous article used.
 The register prints the name as `Longshot`. **The sponsoring agency and the contractor both write it
 LongShot**, with an internal capital, in their own announcements
 \[[DARPA LongShot programme][ref_darpa_longshot]\] \[[General Atomics on the X-68A][ref_gaasi_x68a]\].
-The difference is trivial and it is recorded because the register is the only document that gives the
-name official standing, and the form it gives official standing to is the one nobody else uses.
+The difference is trivial and it is recorded because the register is the only document inside this
+article's date that gives the name official standing, and the form it gives official standing to is
+the one nobody else uses.
 
 ## Programme Origin, Which the Award Record Tells Better Than the Press Does
 
@@ -252,7 +255,8 @@ covers the early work and the demonstration phase alike.
 **DARPA appears in the sponsor cell of 8 well-formed rows in the register
 and 5 of them are research allocations**, being the X-50A, the X-61A, the X-65A, the X-68A, the X-76A.
 **4 of those five are among the last eight research allocations by date**, so an
-agency holding a twentieth of the register's research rows overall holds half of its recent ones.
+agency sponsoring five of the register's 31 research rows overall, which is about a sixth,
+holds half of the recent ones.
 The designation series' present tempo is substantially this one sponsor's, which is context for the
 register-wide statements the [X-67][related_post_a364_x67_slot_taken_by_xq67] article made about
 allocation cadence.
@@ -990,8 +994,8 @@ a proportional saving would be.
 
 ### The Engine, and the Designation That Contradicts Itself
 
-**The register's engine cell is the only published statement of this aircraft's propulsion and it
-does not agree with itself.** The cell reads `1 Williams WJ38-15`. In the designation system the register
+**The register's engine cell is the only independent published statement of this aircraft's
+propulsion and it does not agree with itself.** The cell reads `1 Williams WJ38-15`. In the designation system the register
 documents, the letter `J` denotes a turbojet and the letter `F` a turbofan.
 
 **The same engine is identified elsewhere as the powerplant of the Taurus KEPD 350 cruise missile**,
@@ -1484,7 +1488,7 @@ claims more loosely than the programme-level ones.
 **Two sweeps retrieved 4,711 records and the audited subject gate admitted
 471**, which is 10.0 percent. After deduplication on normalised title and
 year that is 458 distinct works, cited across 11 clusters alongside
-19 primary sources read directly.
+20 primary sources read directly.
 
 **72 of the 458 are research reports rather than journal or conference
 papers, which is 15.7 percent.** That share is lower than several recent articles in this
@@ -1497,9 +1501,10 @@ adding contemporary work lowers the fraction while leaving the count unchanged.
 
 ### The Reports Server Is the Wrong Server for This Subject
 
-**The first sweep asked the aeronautics reports server seven dozen questions and it reported
-fifty-one records in total.** Twelve of the thirty-nine questions returned anything at all. The
-largest single answer was ten records.
+**The first sweep asked the aeronautics reports server 39 questions and the
+server reported 51 records in total.** 12 of the
+39 questions returned anything at all, and the largest single answer was
+10 records.
 
 **That is not a sweep failing, it is a subject living somewhere else.** Store separation is a
 weapons integration discipline, and weapons integration is a defence activity and not a civil
@@ -1556,7 +1561,7 @@ centrally, to every pattern and not written into each.
 
 ### What the Aimed Second Sweep Bought, Including Where It Bought Nothing
 
-**four clusters came back from the first sweep thin enough to target, and the second sweep
+**Four clusters came back from the first sweep thin enough to target, and the second sweep
 asked each in its own literature's vocabulary and not in this article's.** The result was
 measured afterwards against a recorded before-state and not declared.
 
@@ -1581,7 +1586,7 @@ the latter.
 
 ### What This Article Read in Full
 
-**19 sources were read directly rather than swept.** The designation register and its
+**20 sources were read directly rather than swept.** The designation register and its
 front matter. All seven budget justification books, for the programme entry, the funding
 columns, the plans lists and the programme element migration sentences. The sponsoring agency's
 programme page and its announcement. The contractor's announcement. The federal award record, for
@@ -1692,8 +1697,17 @@ The following are outside the date and are used anyway, each marked where it app
 - The statement that parachute recovery is intended for test and training and not combat.
 - Both defence journalism accounts \[[The War Zone on the X-68A][ref_twz_x68a]\]
   \[[Air and Space Forces on the X-68A][ref_asf_x68a]\].
+- **The federal award record, which was read in October 2026.** The amounts stated are the
+  record's current totals and reflect contract modifications through May 2026, so the Phase 3
+  figure in particular is larger than any figure that could have been stated at this article's
+  date.
 - The literature sweep, which was run from current indexes and includes records dated to
   2026.
+
+**And two sources sit inside the date by their content and outside it by their reading.** The two
+service fact sheets were read from archive snapshots taken on 1 and 4 December 2025, both inside
+this article's date, so the pages cited are the pages as they stood at the time. The readings
+themselves, like every reading here, happened later.
 
 ## Out of Scope
 
@@ -1726,9 +1740,9 @@ series.
 
 ## Conclusion
 
-**The X-68A is an aeroplane about which the Department of Defense has officially released one
-word.** The register that names it marks its mission sentence as the compiler's, and it is the only
-research allocation in that register marked that way. The budget justification books describe the
+**The X-68A is an aeroplane whose every official word is bookkeeping, and whose purpose has no
+official word but its name.** The register that names it marks its mission sentence as the
+compiler's, and it is the only research allocation in that register marked that way. The budget justification books describe the
 programme at length and describe a programme and not an aircraft. **No public Department
 document read for this article says what the X-68A is.**
 

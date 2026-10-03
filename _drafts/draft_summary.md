@@ -643,14 +643,23 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 
 `x_planes_general_atomics_x68_longshot.markdown`, A365, editorial date 2025-12-13, series `x_planes`
-index 69 of 72, categories `aerospace history engineering`. **THREE OF FOUR PASSES COMPLETE, the
-draft, the equation-density review and the primary-reference review. Committed, not pushed.** The
-publication pass remains. **NOT PUBLISHED**, and publication of the series has never been authorised.
+index 69 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed,
+not pushed.** **NOT PUBLISHED**, and publication of the series has never been authorised.
 
-**2,879 lines, 21,772 words, 42 display equations, 133 inline expressions, a 78-entry symbol table and
+**2,893 lines, 21,933 words, 42 display equations, 133 inline expressions, a 78-entry symbol table and
 546 reference definitions**, in 16 H2 and 77 H3 sections, citing 458 distinct works across 11
 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median year 2009 and a range
 from 1935 to 2026, plus 20 primaries read directly.
+
+**THE PUBLICATION PASS CAUGHT THE OPENING SENTENCE, REFUTED BY THE ARTICLE'S OWN OFFICIALITY
+ANALYSIS**, the same defect class and position A364's review caught. The row's unmarked cells are
+official by the register's own scheme, so the claim of exactly one released word overclaimed, and
+the opening now says every official word is bookkeeping and the aircraft's purpose has no official
+word but the name. Also caught, seven dozen questions where the sweep asked thirty-nine, a
+twentieth where five of thirty-one is a sixth, an identity printed 29.9 beside a ratio printed 30
+while calling them the same number, a sentence-initial lowercase slot, a dateline instrument
+labelled with A362's date through two passes, and a stated primary count stale at 19 against 20
+definitions because the emitter ran before the reference regeneration.
 
 **THE PRIMARY PASS MOVED THE LOAD-BEARING ANCHORS.** The launch aircraft's weights are the service
 fact sheet's, the cruise missile's mass and the word turbofan the manufacturer's own datasheet, the
