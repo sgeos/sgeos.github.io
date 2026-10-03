@@ -11,25 +11,27 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `e7a8e85`
-- **Written**: 2026-10-02, at the end of the day, by the X-Planes line, which is the only line running.
+- **Parent commit** (the repository state this handoff describes): `574022c`
+- **Written**: 2026-10-03, by the X-Planes line, which is the only line running.
 - **Tree at write**: **CLEAN.** `git status --porcelain` returned nothing before this file was edited,
-  and `origin/master` equalled `HEAD` at `e7a8e85`, the A366 publication review having pushed.
+  and `origin/master` equalled `HEAD` at `574022c`, the A367 publication review having pushed, carrying
+  with it the previous handoff `63d4b87` and A367's three earlier commits.
 - **THIS HANDOFF'S OWN COMMIT IS NOT PUSHED.** The pilot asked for the handoff to be updated and
   restamped and did not ask for a push, so a resuming agent should expect **exactly one unpushed
   commit, this file's**, and nothing else. **More than one unpushed commit is a divergence worth
   reporting before acting.** Push it only on the pilot's instruction.
-- **A366 IS COMPLETE, ALL FOUR PASSES, AND PUSHED.** Commits `b6882a6` drafted, `2adccd6` equation
-  density, `083525b` primary references, `e7a8e85` publication review. **Seventy of seventy-two drafted
-  and 70 `x_planes` drafts are on disk, which agrees.** Two remain. **Nothing in the series is
-  published and publication has never been authorised.** The next prompt is **A367, slotted in the
-  roster as *X-Planes: Bell Textron X-76 SPRINT***, editorial date 2025-12-15, series index 71.
+- **A367 IS COMPLETE, ALL FOUR PASSES, AND PUSHED.** Commits `6fa8e6c` drafted, `942e822` equation
+  density, `df10328` primary references, `574022c` publication review. **Seventy-one of seventy-two
+  drafted and 71 `x_planes` drafts are on disk, which agrees.** One remains. **Nothing in the series is
+  published and publication has never been authorised.** The deploy of `574022c` succeeded, the site
+  root returned 200 and A367's address returned 404, as a draft should. The next prompt is **A368,
+  slotted in the roster as *X-Planes: Synthesis and What the Designation Became***, editorial date
+  2025-12-16, series index 72, **the last article of the series.**
 - **LINE TWO IS FINISHED AND PUBLISHED. THERE IS ONE LINE.** A376 was published on 2026-10-02 as
   `4d4938e`. Its section below is kept for its apparatus notes and method rules.
 - **THE CORPUS BASELINE IS 0 ERRORS AND 0 WARNINGS ACROSS 304 POSTS.** **Two warnings now means
-  something is wrong**, since the `progress-stale` pair that was the steady state ended when A376
-  published. A `progress-stale` warning reading 70 against 71 drafts on disk is the expected
-  transient while A367 is being drafted and before its channels are updated.
+  something is wrong.** A `progress-stale` warning reading 71 against 72 drafts on disk is the expected
+  transient while A368 is being drafted and before its channels are updated.
 - **ONE PILOT DECISION IS OPEN**, recorded under Open Items: whether A364's and A365's Epistemic State
   sections should record that the register rows they rely on were not public at their own dates.
 
@@ -209,8 +211,8 @@ dump the heading list and read it**, and check for repeated headings programmati
 
 ## Where the Series Stands
 
-**Seventy of seventy-two drafted, A297 through A366, indices 1 through 70 contiguous. Two remain**,
-ending at editorial date 2025-12-16. **Nothing in the series is published and publication has never
+**Seventy-one of seventy-two drafted, A297 through A367, indices 1 through 71 contiguous. One remains**,
+A368 at editorial date 2025-12-16. **Nothing in the series is published and publication has never
 been authorised.**
 
 **A363, Boeing X-66**, editorial date 2025-12-11, index 67. Four passes, pushed. 10,795 lines, 59,564
@@ -307,10 +309,33 @@ programme manager claiming the request and a 2003 prediction that the passed X-4
 which it was. **The article ends on a test: the next research designation is the X-69A if the X-49
 precedent governs and the X-77A if the 2020 text governs.**
 
-**THE TWO THAT REMAIN ARE A367 AND A368**, editorial dates 2025-12-15 and 2025-12-16, series indices 71
-and 72. **A367, slotted as *X-Planes: Bell Textron X-76 SPRINT***, is a full-aircraft article if the
-genre test is applied honestly, since a vehicle is being built, and **a documentation-poor one**, since
-it has not flown. A368 is the closing synthesis.
+**A367, Bell Textron X-76 SPRINT**, editorial date 2025-12-15, index 71. **Four passes in four commits,
+pushed**, `6fa8e6c`, `942e822`, `df10328` and `574022c`. **8,298 lines, 55,686 words, 40 display
+equations, 95 inline expressions, a 51-entry symbol table and 3,737 reference definitions**, being 66
+primaries, 3,601 research works of which 17 are hand-chosen primaries read for their abstracts and 616
+of the 3,584 swept works are report-server records at 17.2 percent, and 70 related posts, in 16 H2 and
+55 H3 sections with 6 tables, from a pool of 12,957 with 3,847 admitted to 11 clusters.
+
+**WHAT A367 FOUND, IN ONE PARAGRAPH.** **The X-76 carries two kinds of engine so that no one machine has
+to both lift it and push it fast**, and the certificated ratings of the register's engines bound it
+without its mass. Under a lapse of density times a swept factor, **the PW308C's thrust fixes the largest
+equivalent drag area at 400 knots at 0.60 to 0.84 square metres, the density cancelling so the ceiling
+is the same at every altitude**. The two CT7-8s would hover about 30,800 lb at the XV-15's disk loading,
+twice the solicitation's top weight, and the bare engines are 16.3 percent of 15,000 lb, so the aircraft
+is, as an inference, heavy or at a high disk loading. **The hover wake's dynamic pressure equals the
+rotor's thrust per unit disk area, independent of density**, so the stowable rotor's downwash cost is
+exact. The programme is documented from government primaries: the solicitation HR001123S0031 with its
+slides and answers, three of four Phase 1A award records with thirteen offers each and Bell's absent,
+four budget books, and two engine data sheets, the PW308C's approving multiple-engine installation
+only. **The concept was shown at full scale in 1972 and shelved for want of a convertible engine**,
+which the 1988 literature preferred to separate engines, and **both SPRINT finalists chose separate
+turbofans and turboshafts**, by Aurora's own releases, so the existing-engine rule and not the
+configuration drove the choice. Textron's mirror misdates two Bell releases by a year, Phase 2 is dated
+three ways, the recorded Phase 1A obligations exceed the solicitation's Phase 1A figure, and the
+schedule slipped at least eight months between October 2024 and July 2025. **The literature is
+silent on any stop-fold conversion in flight, which is the X-76's keystone.**
+
+**ONE REMAINS, A368, THE CLOSING SYNTHESIS**, editorial date 2025-12-16, series index 72.
 
 **Next available article number: A377.**
 
@@ -330,78 +355,84 @@ officiality repair `442fc41`, the eight 2126-dated drafts `ee17f86`, `sa.html` d
 attribution left in pushed history.
 
 **WHAT A RESUMING AGENT SHOULD EXPECT**: a clean tree, exactly one unpushed commit being this file's,
-0 errors and 0 warnings across 304 posts, and the next prompt being A367. **Anything else is a
+0 errors and 0 warnings across 304 posts, and the next prompt being A368. **Anything else is a
 divergence worth reporting before acting.**
 
-## Resume prompt for the X-Planes line, and the next prompt is A367
+## Resume prompt for the X-Planes line, and the next prompt is A368
 
-**A366 IS COMPLETE AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and do not
-start A367 unprompted.**
+**A367 IS COMPLETE AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and do not
+start A368 unprompted.**
 
-**The next article is A367, slotted in the roster as *X-Planes: Bell Textron X-76 SPRINT*.** Editorial
-date **2025-12-15**, series index **71**, slug following the series pattern, for example
-`x_planes_bell_textron_x76_sprint`. **Check the roster title with the pilot's prompt**, since the pilot
-has retitled slots before.
+**The next article is A368, slotted in the roster as *X-Planes: Synthesis and What the Designation
+Became*.** Editorial date **2025-12-16**, series index **72**, the last article of the series, slug
+following the series pattern, for example `x_planes_synthesis_what_designation_became`. **Check the
+roster title with the pilot's prompt**, since the pilot has retitled slots before.
 
-**THE GENRE TEST DECIDES THE ORDER AND IT IS NOT AN ANOMALY ARTICLE.** A vehicle exists, being built
-after a critical design review, so the reduced order does not apply. **It has not flown and will not
-inside the dateline**, flight test being planned for early 2028, so it is **documentation-poor**, the
-full order with short sections and an explicit statement of what is unknown. The keystone is SPRINT's
-stated aim, **runway independence at jet cruise speed**, 400 to 450 knots with hover from unprepared
-surfaces, by a stop-fold tiltrotor whose rotors stop and fold in flight.
+**THE GENRE IS NEW AND THE GENRE TEST DOES NOT APPLY.** There is no aircraft and no anomaly number. It
+is the series' closer, the counterpart of A297's framing article, and its subject is the designation
+system across all seventy-one articles. **Read A297 first**, `_drafts/x_planes_framing.markdown`, for the
+research aircraft model and the questions the series opened with, and **answer them by name.** The
+closer should not be a list of summaries. It is an argument about what an X designation has meant,
+from a sequence number assigned to a crewed research aeroplane in 1946 to a number chosen to spell a
+founding year in 2025.
 
-**WHAT A366 HANDS A367, ALL VERIFIED ON 2026-10-02.**
+**WHAT THE SERIES HANDS A368, ALL RECORDED IN THIS FILE AND THE DRAFTS.**
 
-- **The register row**: 20-Oct-25, X-76A, Bell Textron, engines `2 GE CT7-8, PW308C+`, DARPA,
-  description cell-marked, so the engines are official and the purpose sentence is the compiler's.
-  **Two turboshafts and a separate turbofan is the propulsion of a stop-fold**, which A366 stated in
-  one sentence and left to A367. **The `+` after PW308C is unexplained** and A367 should ask what it
-  means rather than guess.
-- **The dating**: the row was not public until between 15 January and 1 February 2026, **so at
-  A367's dateline of 2025-12-15 the designation itself was not public.** DARPA's announcement, the
-  critical design review and the 1776 statement are all 9 March 2026. **Almost everything A367 can say
-  about the aeroplane postdates it**, and the Epistemic State must carry that list prominently.
-- **The compiler's note was an inference before DARPA spoke**, reading until February 2026 that it
-  was very likely but not fully confirmed that the X-76A was SPRINT.
-- **The programme chronology from the releases**: Phase 1A November 2023, Bell and Aurora downselected
-  for Phase 1B in May 2024, Phase 2 from May 2025 with Bell's award in June or July 2025, critical
-  design review completed by 9 March 2026, flight test planned for early 2028, the programme joint
-  with United States Special Operations Command. **Each date needs its own primary in A367**; the
-  Bell release of 9 July 2025 is listed in Bell's newsroom and was not read.
-- **Bell's own designation history**: the contractor framed the X-76 as following its X-1, XV-3 and
-  XV-15. **The XV-3 and XV-15 are vertical-takeoff series numbers, not research numbers**, which the
-  per-mission rule makes a different sequence, and A367 should say so if it uses the framing.
-- **The CT7 is the commercial T700**, a turboshaft family with a large public literature, and the
-  PW308 is a business-jet turbofan. **Both are anchors for a sizing section** if their published
-  ratings can be found in primaries rather than encyclopedias.
+- **The nine anomaly cases and their findings**, under *The Nine Anomaly Cases* below, with A366's two
+  additions, that design numbers have started to carry messages and that the register lags its
+  allocations by months, and A358's finding that the register stops being an official primary source
+  for descriptions after the X-60A.
+- **The per-mission numbering rule and its editions**, read in A364 and A366: the 1962 founding
+  document, the 1994 joint instruction, the 2005 and 2020 instructions, and the 2020 clause reserving a
+  discretion to skip. The 2020 instruction is saved as `tmp/a367/prim/dafi2020.txt`.
+- **The register as the measurement instrument.** `tmp/a366/meas.py`, `register.py` and `meas366.py`,
+  copied to `tmp/a367/`, parse it two ways. The pointer walk, the share of advances equal to one, the
+  allocation rate and the founding-year class are A364's and A366's measurements and should be
+  recomputed rather than quoted.
+- **The arc from crewed rocket aircraft to uncrewed demonstrators.** A365 and A367 are both uncrewed
+  DARPA demonstrators and A367's description is the compiler's word unmanned. **Count it from the
+  register and the series**, crewed against uncrewed by decade, rather than asserting it.
+- **The contractor heritage claim A367 corrected.** Bell's research designations are eight, the X-1,
+  X-2, X-5, X-9, X-14, X-16, X-22 and X-76, and the XV-3 and XV-15 are a different sequence. The closer's
+  account of which firms built X-planes should count the same way.
 
-**SAVED UNDER `tmp/a366/`, WHICH IS GITIGNORED**: `darpa_x76.txt`, `bell_x76.txt`, `twz_x76.txt`,
-`aviationist_x76.txt`, `afa_x76.txt` and their `.html`, the full register `addendum.html`, the
-archive snapshots under `wb/`, and the primaries under `prim/`. **Lift what A367 needs before the
-directory goes.**
+**THE GENRE WILL TEMPT THE DRAFT TO OVERCLAIM, AND THE OPENING CHECK IS THE GUARD.** A synthesis invites
+sentences about every article at once, and every such sentence is a claim about seventy-one documents.
+**Run the opening check against the analysis at the end of the drafting pass**, as A366 directed and A367
+showed works, and scope every generalisation to the articles it counts.
 
-### What A366 Established That A367 Inherits as Practice
+**THE SERIES LINE.** `tmp/a367/series_line.py` generates the opening line from `related.json`. For
+A368 add A367's anchor, `related_post_a367_bell_textron_x76_sprint` with the post_url of
+`2025-12-15-x_planes_bell_textron_x76_sprint`, set the expected count to 70 prior aircraft articles and
+the ordinal to seventy-second, and keep the special-label map, which already covers the X-69 through
+X-75 block.
 
-- **CHECK THE OPENING AGAINST THE ARTICLE'S OWN ANALYSIS, BY NAME. IT FAILED IN A364, A365 AND A366.**
-  A366's opening claimed the first reading was the only one consistent with the allocation rate, and
-  the reserved-block reading needs no allocations. **Three in a row is a pattern of the drafting
-  pass, not bad luck.** Run the check at the end of the drafting pass as well as at publication.
-- **DATE A REGISTER ROW BY ITS FIRST ARCHIVED APPEARANCE, NOT BY ITS ALLOCATION DATE.** The register's
-  allocation date and the date the public could see the row differ by three to five months for the
-  last two research rows. **A dateline argument that uses the allocation date overclaims what was
-  knowable.**
-- **A LAST-UPDATED STAMP IS NOT A DATE.** The compiler's page changed its text under an unchanged
-  stamp. **Date every version by archive capture.**
-- **A SECOND PARSER FINDS WHAT A SECOND READING DOES NOT.** Two parsers disagreed on 2020-rule
-  conformance by one event, and the disagreement was the RQ-170 row, which became a stated
-  sensitivity. **Reconcile parser disagreements to a row before choosing either number.**
-- **A CONTENT CLAIM ABOUT A PAPER NEEDS THE PAPER OR ITS ABSTRACT.** The reference pass first wrote
-  arguments for papers read only by title. Abstracts were fetched and three sentences cut back to
-  them, and one study is cited for its title alone, saying so.
-- **A DISPLAY BLOCK FOLLOWED DIRECTLY BY TEXT IS NOT A DISPLAY.** The equation pass rendered 38 of 40
-  until blank lines were added. `verify366.py` now checks it and A367's verifier should copy the check.
-- **A PROBABILITY RATIO IS NOT A CLUSTERING FACTOR.** The draft called eight orders of magnitude a
-  clustering factor. The equation pass solved for the actual rate multiplier, 23.51, and named both.
+**SAVED UNDER `tmp/a367/`, WHICH IS GITIGNORED**: the solicitation, slides and answers under `prim/`,
+the award records `awards367*.json`, the engine data sheets and New Zealand reports, the XV-15 history
+`prim/xv15_hist.txt`, the patents `patents367.json`, the abstracts `prim_research.json` and
+`lit_abstracts367.json`, the register `addendum.html` and its archived copies under `wb/`. The DARPA
+budget books are under `tmp/a365/bb/`. **Lift what A368 needs before the directories go.**
+
+### What A367 Established That A368 Inherits as Practice
+
+- **RUN THE OPENING CHECK AT THE END OF THE DRAFTING PASS. IT WORKED.** A367's opening failed the check
+  in five places at drafting, was corrected before commit, and held at publication, the first article
+  in four where the publication check found nothing in the opening.
+- **THE COMPETITOR'S DOCUMENTS ARE PRIMARIES ABOUT THE WINNER'S CHOICES.** Aurora's releases turned an
+  inference about Bell's engines into evidence about the rule. **When a choice is attributed to a rule,
+  look for the other bidder.**
+- **A MONEY IDENTITY CAN REFUTE A PREMISE.** Displaying the Phase 1A sum showed it already exceeded the
+  solicitation's Phase 1A figure, which undid the premise of a bound the draft had stated. **Write the
+  arithmetic out and read it.**
+- **A SYMBOLIC DISPLAY HAS NOTHING TO RECOMPUTE AND WAS UNCHECKED.** A mutation test found it. Assert
+  identities verbatim and test them algebraically.
+- **A MUTATION THAT DOES NOT APPLY TESTS NOTHING.** A `sed` mutation silently failed and reported the
+  verifier blind. Apply mutations in Python and assert the target exists first.
+- **A LITERATURE SECTION THAT MAPS IS NOT A REVIEW.** The directive asks for a review, and A367's
+  publication review added a synthesis from fetched abstracts. **Write the synthesis in the drafting
+  pass**, scoped to what the abstracts say.
+- **A DOLLAR SIGN IN PROSE IS MATHEMATICS.** "$15M" would have rendered as an equation and was caught
+  only as a stray symbol. Write amounts in words.
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -443,6 +474,27 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A367, and the theme is that the other party's documents decide your inference
+
+- **A RULE'S EFFECT IS BEST SHOWN BY TWO PARTIES OBEYING IT.** The existing-engine rule was an inference
+  from one aircraft until the competitor's releases showed the same answer in a different configuration.
+- **A SECONDARY RECORD CAN CARRY A PRIMARY'S ERROR, AND THE MIRROR IS THE PLACE TO LOOK.** Textron's
+  investor-relations copies misdate two Bell releases by exactly a year while Bell's newsroom is right.
+  **Read the issuer's own copy and compare.**
+- **A REGULATOR'S ACCEPTANCE REPORT IS A PRIMARY INSIDE THE DATE WHEN THE CURRENT DATA SHEET IS NOT.** The
+  European CT7 sheet postdates the article by four days, and the New Zealand reports of 2007 and 2020
+  corroborated both engines from inside the date, the PW308C's rating agreeing to within a pound.
+- **A TABLE THE TEXT EXTRACTOR CANNOT READ IS NOT A SOURCE FOR A NUMBER.** The 1985 XV-15 hover test's
+  figure of merit sits in an appendix whose extraction failed, so the value stayed an assumption.
+- **A REGISTER CONVENTION IS MEASURED, NOT REMEMBERED.** The first draft said combination pluses are
+  always spaced, and the RIM-156B row says otherwise. **Every claim about the register's syntax is a
+  query over its rows.**
+- **AN ASSUMED TIP SPEED CAN BE CHECKED AGAINST A MEASURED RANGE.** The XV-15's hover tip Mach of 0.69
+  falls inside the 0.60 to 0.73 the full-scale test measured, which is the only independent check of
+  an input A367 found.
+- **THE TURBOFAN COUNT WAS A READING STATED AS A FACT IN THREE PLACES.** Search the whole draft for a
+  reading once it is identified as one, not only the sentence where it was noticed.
 
 ### Earned in A366, and the theme is that the date a fact existed is not the date it could be known
 
@@ -3674,6 +3726,23 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+### Added in A367, and the pattern is that every quotation is found in a saved source
+
+- `verify367.py`, 569 checks, importing no measurement module. It re-parses the register with an HTML
+  parser, recomputes hover weights by bisection, the drag ceiling by thrust over dynamic pressure at four
+  altitudes, the cruise ceiling and atmosphere by integrating the hydrostatic equation, and money from the
+  award transactions. **Every double-quoted span of twelve characters or more must appear verbatim in a
+  saved source**, 75 of them against 109 sources. Thirteen symbolic displays are asserted verbatim and
+  withdrawn wordings asserted absent. `A367_DRAFT` points it at a mutated copy.
+- `calc367.py` and `eqpass367.py`, every figure computed in one place, with the assumptions named in
+  `ASSUME`.
+- `harvest367.py`, `cluster367.py` with 32 keep and 42 refusal cases each also hyphenated, `refs367.py`
+  with overlap and empty counts, `abstracts367.py` and `lit_abstracts367.py` for abstracts, and
+  `patents367.py` for patent abstracts.
+- `awards367.py`, the USAspending sweep by programme name, phrase and recipient, with transactions.
+- `assemble367.py`, one sorted definition block, since `_verify.py` sorts a contiguous run as a whole.
+- `handoff367.py`, this file's rewrite, boundaries on the original string and the heading list compared.
+
 ### Added in A366, and the pattern is that every figure has a second route
 
 **Under `tmp/a366/`, gitignored.**
@@ -4743,6 +4812,13 @@ followed at A355, A364 and A366, and X-30 and X-54 are written although neither 
 founding-year numbers in 329 days, the YMV-75A, F-47A and X-76A, with none before November 2024. **And the
 register itself lags the allocations by months**, so the closer's account of what was knowable when must
 use first archived appearance rather than allocation date.
+
+**A367 ADDS THREE THINGS THE CLOSER SHOULD CARRY.** **The newest research aircraft is defined by a
+solicitation's envelope and a register's engine cell**, and nothing about its mass or drag was public
+at its date, which is the documentation pattern of the series' last years. **Both finalists of a
+competed X-plane programme carried the same propulsion answer**, so the rule shaped the aeroplane.
+**And the contractor's heritage claim counts convertiplane numbers as X-planes**, which the per-mission
+rule does not, a confusion of sequences the closer should state once and correctly.
 
 **A358 ADDS THE FINDING THE CLOSER MOST NEEDS, AND IT IS ABOUT THE REGISTER RATHER THAN ABOUT ANY
 AEROPLANE.** The register stops being a primary source partway through this series. Its compiler's own
