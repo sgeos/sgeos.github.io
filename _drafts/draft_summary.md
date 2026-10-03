@@ -17,6 +17,35 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios A377 2025-10-05
+
+`strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
+essay, categories `lifestyle fragrance war-gaming`, no series.
+
+**DRAFTING PASS COMPLETE, the first of four. NOT published.** 1,807 lines, about 10,200 words of
+author prose, 17 display equations, 119 inline expressions, 11 tables and 73 reference definitions,
+being 30 research works, 16 encyclopedic references, 11 guidance pages, 6 primary documents,
+5 history sources, 3 commentary pieces and 2 data sources.
+
+The pilot's brief asks for two things and declares only one. The article must answer the strategic
+application question thoroughly, and it must be funny by taking itself far too seriously **without
+ever declaring the humor goal**. Nothing in the title, categories, opening or conclusion may wink.
+The register is wargaming without military analogies, with `area denial`, `collateral` and
+`overkill` explicitly allowed by the pilot. The question is generalised across wearer sex,
+application target and application platform, with human spray application as the main line.
+Offensive applications such as pepper spray are bounded briefly and declared out of scope.
+
+**Verdict as drafted, partially supported.** H1 dose partially, H2 placement partially, H3 wearer
+supported. The adjudication model is in gitignored `tmp/a377/` together with `verify377.py`, which
+recomputes every worked number and every adjudication cell. **The calibrated detection threshold is
+the weakest number in the article** and the Epistemic State says so.
+
+**Open for later passes.** Several sources were confirmed only from search snippets and are worded
+accordingly: the Chanel advice, the Metropolitan Museum and VCA pages, the DeVilbiss dates and
+the Craven and Settles velocity figure. The conventional placement tables are a composite, because
+most of the editorial press refused the fetcher. The adaptation time constants are assumptions,
+not values from Dalton 2000.
+
 ## Whether a War With China Would Change the Global Balance of Power A376 2026-08-13
 
 `balance_of_power_after_war_with_china.markdown`, A376, editorial date 2026-08-13, third and last

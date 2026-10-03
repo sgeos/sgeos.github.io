@@ -5,6 +5,36 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A377 DRAFTED, *Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios*, the first of four passes. Committed, NOT pushed, NOT published.** This is a second line, independent of the X-Planes line, and it touched no X-Planes file.
+
+**FINAL STATE OF THE DRAFTING PASS.**
+- **File.** `_drafts/strategic_fragrance_application.markdown`, editorial date 2025-10-05, categories `lifestyle fragrance war-gaming`, standalone.
+- **Size.** 1,807 lines, about 10,200 words of author prose, 21 H2 and 39 H3 sections, 11 tables.
+- **Mathematics.** 17 display equations and 119 inline expressions, each display preceded by its symbol definitions and followed by a worked example.
+- **References.** 73 definitions. All 28 DOIs were checked against Crossref, which corrected three titles the research agent had supplied.
+
+**THE ADJUDICATION.** The hypothesis that the conventional three-spray and four-spray doctrines are sound is **partially supported**.
+- **Dose.** The smallest adequate eau de parfum dose is one spray for dinner and the interview, none in a small shared office, five as a single application in an open-plan office, and six outdoors. **Four sprays split three and one match the single five.**
+- **Placement.** The conventional points survive on geometry rather than pulse. The sternum and nape are the best points, and the wrist is the weakest.
+- **Wearer.** Every men-versus-women difference with a physical basis resolves to clothing or hair.
+
+**WHAT VERIFICATION CAUGHT.**
+- **The main adjudication table was missing from the assembled draft.** A substitution ran its generator from the wrong directory and inserted an empty string. The recomputation harness found it by failing on every table cell, and it was repaired before commit.
+- **A research agent attributed a 1979 cosmetic-chemistry paper to Berglund.** It is by Moskowitz, Chandler, Moldawer and Laterra, and the claimed exponent range was not on the page. Both were corrected from the page itself.
+
+**VERIFICATION.**
+- `tmp/a377/verify377.py` recomputes every worked number and table cell, with 0 failures.
+- `_verify.py` reports 0 errors and 0 warnings across 304 posts and the drafts. **That run used the working-tree `_verify.py`, which carries uncommitted modifications that are not mine.**
+- A production build in a scratch copy with A377 placed as a post succeeds, and `_lib/render.py` reports no findings over 471 pages.
+- **Not done.** Full-text reading of sources marked snippet-only, and a URL sweep.
+
+**PILOT DECISIONS.**
+- **Categories.** `lifestyle fragrance war-gaming` is still the placeholder the pilot accepted. `lifestyle` and `fragrance` are new categories. The category `humor` exists in the corpus and was deliberately not used.
+- **Uncommitted work not mine.** `_lib/survey.py`, `_verify.py` and 27 X-Planes drafts carry uncommitted modifications that predate this session's edits, presumably the X-Planes line's. **They were left untouched and are not in this commit.**
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A368 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED on the pilot's instruction, NOT published.** **All seventy-two X-Planes articles now have all four passes complete.**
 
 **FINAL STATE.**
