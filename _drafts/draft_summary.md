@@ -640,6 +640,27 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes Synthesis and What the Designation Became A368 2025-12-16
+
+`x_planes_synthesis_what_designation_became.markdown`, A368, editorial date 2025-12-16, series `x_planes`
+index 72 of 72, categories `aerospace history engineering`, the series closer and the counterpart of A297, with no aircraft.
+**DRAFTED, the first of four passes. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
+
+**11,220 lines, 64,324 words of which about 12,000 are prose outside the citation runs and reference lists, 18 display equations,
+87 inline expressions, a 32-entry symbol table and 5,323 reference definitions**, being 11 primaries, 5,241 research works of which
+46 are hand-chosen primaries read for their abstracts, and 71 related posts, in 21 H2 and 33 H3 sections with 12 tables. The survey
+cites 5,195 swept works across 12 clusters from a pool of 17,869, 1,580 of them report-server records at 30.4 percent, median year
+1999, range 1918 to 2026.
+
+**The keystone is what an X number asserts**, measured by reading the seventy earlier articles as data, 764 quotations verified.
+**Findings.** The crewed share fell across 1990, from 19 of 27 to 7 of 29, Fisher 0.00109, and among aircraft from 17 of 18 to 7 of 21. The
+measurement share's fall from 48.3 to 31.4 percent is not established. **Kendall's tau over the register is 0.984 with one inversion,
+the X-49 after the X-50**, and every register-era skip has a recorded cause, two of them numerology. The dispersion by decade is 2.90
+to 3.18, and the first article's third cluster is absent. Five of 20 flown vehicles were designated after first flight, from the X-9 of
+1951. **A297 is corrected on injectivity and monotonicity in this article rather than edited.** Defects found in A302, A346 and A367
+are reported to the pilot. **Publication order dependency**: A368 cites A297 through A367 by `post_url`, so it publishes last or with
+them.
+
 ## X-Planes Bell Textron X-76 SPRINT A367 2025-12-15
 
 `x_planes_bell_textron_x76_sprint.markdown`, A367, editorial date 2025-12-15, series `x_planes`

@@ -5,6 +5,50 @@
 ## Last Updated
 
 **Date**: 2026-10-03
+**Task**: **A368 DRAFTED, *X-Planes: Synthesis and What the Designation Became*, the first of four passes. Committed, NOT pushed, NOT published.** **Seventy-two of seventy-two drafted**, so every article in the series now exists. `_drafts/x_planes_synthesis_what_designation_became.markdown`, editorial date 2025-12-16, series index 72. **11,220 lines, 64,324 words of which about 12,000 are prose outside the citation runs and reference lists, 18 display equations, 87 inline expressions, a 32-entry symbol table and 5,323 reference definitions**, being 11 primaries, 5,241 research works of which 46 are hand-chosen primaries read for their abstracts and 1,580 of the 5,195 swept works are report-server records at 30.4 percent, and 71 related posts, in 21 H2 and 33 H3 sections with 12 tables, from a pool of 17,869 with 5,657 admitted to 12 clusters.
+
+**THE METHOD IS NEW TO THE SERIES. THE SEVENTY EARLIER ARTICLES WERE READ AS DATA.** Ten parallel extractors each read seven articles and wrote one record per article: contractor, sponsors, designation date, first and last flight, outcome, crew, vehicle kind, keystone and its class, the ground-comparison verdict and the reason a vehicle never flew. **Every stated value carries a line number and a verbatim quotation, and all 764 quotations were checked by script against the drafts, with none failing.** Twenty-one further coding decisions carry their own checked quotations. `calc368.py` counts over the ledger and the register. `verify368.py` recomputes everything by second routes: Fisher by exact integers, chi-square by the even-degrees closed form, Kendall by inversions over a different register parser, and Wilson by the quadratic's roots. **It runs 1,714 checks with 0 failures, and 15 planted mutations were all caught**, the last two only after the verifier was changed to check every occurrence of a repeated figure.
+
+**FINDINGS.**
+- **Crew.** The crewed share of vehicles fell from 19 of 27 before 1990 to 7 of 29 after (Fisher 0.00109). Among aircraft alone it fell from 17 of 18 to 7 of 21 (0.00016). With the eight unstated crews assigned against the finding, the probabilities are 0.044 and 0.0062.
+- **Purpose.** The measurement share fell from 48.3 to 31.4 percent, with Fisher at 0.204, so **the first article's prediction of rising non-informational purpose is not established**. About 131 vehicles per period would be needed.
+- **Order.** Over the register-dated numbers Kendall's tau is 0.984, with **one inversion, the X-49 after the X-50**.
+- **Skips.** Every skip in the register era has a recorded cause. Two are numerology (50 and 76), one a refusal (53) and two were taken by the drone series (59 and 68). The share of advances equal to one is 16 of 22.
+- **Clustering.** The index of dispersion by decade is 2.90 to 3.18 (p 0.0013 to 0.0031). **There is no third cluster in the 2010s and 2020s**, which the first article predicted.
+- **Designated after flight.** Five of the 20 flown vehicles with both dates were designated after their first flight, the earliest the X-9 of 1951.
+- **Ground comparison.** No article records flight contradicting ground prediction outright, and 20 of 47 are mixed.
+- **Founding-year numbers.** The register note for the YFQ-48A says its number follows the F-47.
+
+**THE FIRST ARTICLE IS CORRECTED IN PLACE IN THIS ONE, NOT EDITED.**
+- **Injectivity.** A297 defines injectivity backwards. The X-44 is a failure of the assignment to be a function, and injectivity fails at four pairs: X-11 and X-12, X-32 and X-35, X-46 and X-47, X-63 and X-64.
+- **Monotonicity.** A297's claim that monotonicity fails at the X-76 is wrong. The X-76 is a skip.
+- **The third cluster** it predicted is absent.
+
+**THE OPENING CHECK RAN AT THE END OF DRAFTING AND FOUND NINE OVERCLAIMS, ALL CORRECTED AND ASSERTED ABSENT.** Among them:
+- "became a choice of symbol", when two of 76 numbers were chosen.
+- "record outcomes as often as they authorise attempts", from 5 of 20.
+- "the government stopped describing its research aircraft in public", when only the register's official descriptions stopped.
+- "usually bought by a laboratory", which was never measured.
+- "in every period".
+- Two sentences citing the internal handoff notes.
+
+**FOUR THINGS FOUND IN PUSHED ARTICLES, REPORTED AND NOT REPAIRED.**
+- **A302 contains a misplaced X-4 paragraph.** Its line 554 gives the X-4's first-airframe ten flights, the "lemon" remark, the second airframe's twenty contractor flights and the February 1950 handover, while A302 dates the X-5's first flights to 1951 and A301 carries the same X-4 details.
+- **A346 dates the filling of the X-49 vacancy to 2004**, while the register dates the X-49A to 23 May 2003.
+- **A367's gate had an optional-separator bug.** `S + r"?"` makes a lazy one-or-more, not an optional separator, so unhyphenated compounds such as `propfan` were never matched. Run on A367's own pool, the intended gate changes 203 of 12,957 admission decisions. No other article's gate contains the construction.
+- **A367's report-server names are untrimmed.** Its surname parser kept full names for newer records of the form First Last, so its link texts read `Benjamin M Simmons 2026`. A368's parser trims them, including a suffix after a comma.
+
+**ONE MEASUREMENT WAS ABANDONED AND THE ARTICLE SAYS SO.** A title count of report-server records per designation, meant to test the thinning after 2000, failed for three reasons. X-ray sources such as Cyg X-1 swamp the X-1, the server tokenises `X-43` and `X-43A` differently, and the X-24 returned zero title matches in its first 100. No number from it appears in the article.
+
+**VERIFICATION.**
+- `_verify.py` reports 0 errors and the 2 expected `progress-stale` warnings, which this update clears. The series checker, the style check and the symbol check are all clean.
+- The stub build took 16 seconds, `_lib/render.py` has no findings, all 18 displays match, and no inline span carries an emphasis tag.
+
+**NOT PUSHED.** The pilot decision on A364's and A365's Epistemic State sections is still open. **The four defects above need the pilot's decision before anyone edits those articles.**
+
+---
+
+**Date**: 2026-10-03
 **Task**: **A367 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED, NOT
 published.** Seventy-one of seventy-two drafted. **Final state 8,298 lines, 55,686 words, 40 display equations, 95 inline expressions, a 51-entry symbol table and 3,737 reference definitions**, being 66 primaries, 3,601 research works of which 17 are hand-chosen primaries with abstracts and 616 of the 3,584 swept works are report-server records at 17.2 percent, and 70 related posts, in 16 H2 and 55 H3 sections with 6 tables, from a pool of 12,957.
 
