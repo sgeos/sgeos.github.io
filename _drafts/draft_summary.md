@@ -643,15 +643,29 @@ and the Bloomberg model is not public. The article labels all three as such.
 ## X-Planes General Atomics X-68 LongShot A365 2025-12-13
 
 `x_planes_general_atomics_x68_longshot.markdown`, A365, editorial date 2025-12-13, series `x_planes`
-index 69 of 72, categories `aerospace history engineering`. **FIRST PASS COMPLETE, the draft.
-Committed, not pushed.** Equation, primary-reference and publication passes remain. **NOT
-PUBLISHED**, and publication of the series has never been authorised.
+index 69 of 72, categories `aerospace history engineering`. **TWO OF FOUR PASSES COMPLETE, the draft
+and the equation-density review. Committed, not pushed.** Primary-reference and publication passes
+remain. **NOT PUBLISHED**, and publication of the series has never been authorised.
 
-**2,504 lines, 18,566 words, 24 display equations, 90 inline expressions, a 53-entry symbol table and
-543 reference definitions**, in 16 H2 and 74 H3 sections, citing 458 distinct works across 11
+**2,814 lines, 21,052 words, 42 display equations, 132 inline expressions, a 78-entry symbol table and
+543 reference definitions**, in 16 H2 and 77 H3 sections, citing 458 distinct works across 11
 clusters from a pool of 4,711, with 72 report primaries at 15.7 percent, median year 2009 and a range
 from 1935 to 2026, plus 17 primaries read directly. **The twelve-section research-aircraft order plus
 the three series sections, in order, with the required sections present.**
+
+**THE EQUATION PASS ADDED 18 DISPLAYS, ALL CLASSICAL MECHANICS.** The best is the pit-test fidelity
+ratio, which no source states and momentum conservation requires. The one keystone-adjacent test in
+the programme's own plans is a pit drop from a clamped vehicle, and the clamp divides the cartridge
+impulse by the store's mass where flight divides it by the reduced mass, so **the standard ground
+test underreads the flight separation rate by exactly 1/(1-mu)**, which is 0.6 percent for a fighter
+and a tenth to a fifth for this vehicle. The second best closes the mass sweep from above by the
+climb gradient under density-lapsed thrust, which goes **negative at 3,000 kilograms** at cruise
+altitude. Also added, the standard atmosphere from four constants confirming the two asserted values,
+the factor of 29 as an identity in the launcher masses alone, the heave of alpha g at release, the
+launcher's energy share of each cartridge proven equal to mu, the asymmetric-release bank transient
+worked to tens of degrees in half a second, the Breguet derivation, the marginal exchange of 4,901
+against 1,371 metres per kilogram, and the folding-panel hinge relations with the uncancelled-torque
+observation for a lagging panel.
 
 **THE KEYSTONE IS A STORE MASS FRACTION AND THE GOVERNMENT NAMED IT.** Four budget justification
 books inside the editorial date, and a fifth outside it, carry the sentence that the programme will

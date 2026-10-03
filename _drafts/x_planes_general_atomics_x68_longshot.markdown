@@ -81,6 +81,20 @@ not.** An F-15E at the midpoint between its empty mass and its maximum take-off 
 vehicle of 1,800 kilograms releasing two of them gives 17.94 percent. **The ratio
 between those two figures is 29.**
 
+**And that factor is a statement about the two launchers alone, because the missile's own mass
+cancels out of it.** Dividing the two definitions gives an identity worth displaying, since it says
+the factor is not a property of the missile at all.
+
+$$
+\frac{\mu_v}{\mu_f}
+\;=\; \frac{n\, m_s / m_{0,v}}{m_s / m_{0,f}}
+\;=\; n\, \frac{m_{0,f}}{m_{0,v}}
+$$
+
+**Two missiles and a launcher mass ratio of about fifteen give 29.1**, which is the
+same number arrived at by cancellation rather than by substitution. Any missile carried by both
+aircraft produces the same factor.
+
 **That factor of 29 is the whole research question.** It is the reason a problem that no
 fighter programme has ever had to treat as a problem becomes the thing a demonstrator is built to
 retire.
@@ -96,7 +110,18 @@ $$
 $$
 
 **At small $\mu$ the amplification is indistinguishable from $\mu$ itself and at large $\mu$ it
-diverges.** A fighter's $\mu$ of 0.616 percent amplifies to a figure that rounds to the
+diverges, and the rate of divergence is itself worth one line.** Differentiating gives
+
+$$
+\frac{d\alpha}{d\mu} \;=\; \frac{1}{(1-\mu)^2}
+$$
+
+**so the amplification grows at 1.012 times the mass fraction's own rate at the
+fighter's operating point and at 1.485 times at this vehicle's.** The fighter lives
+where the relation is effectively linear. This vehicle lives where every further kilogram of store
+costs half again its proportional share.
+
+**At the operating points themselves the divergence reads as follows.** A fighter's $\mu$ of 0.616 percent amplifies to a figure that rounds to the
 same value. This vehicle's 17.94 percent amplifies to something materially larger, and a
 vehicle at half its own release mass would see its centre of gravity move by the whole store arm.
 
@@ -206,6 +231,16 @@ practice of reading the record rather than the coverage is adopted here for the 
 **The total is 148,305,710.65 dollars.** Every instrument is cost plus fixed fee. The four awarded
 by the sponsoring agency all cite solicitation HR001120S0037, so one broad agency announcement
 covers the early work and the demonstration phase alike.
+
+### The Sponsor Holds Five Research Rows and Four Are Recent
+
+**DARPA appears in the sponsor cell of 8 well-formed rows in the register
+and 5 of them are research allocations**, being the X-50A, the X-61A, the X-65A, the X-68A, the X-76A.
+**4 of those five are among the last eight research allocations by date**, so an
+agency holding a twentieth of the register's research rows overall holds half of its recent ones.
+The designation series' present tempo is substantially this one sponsor's, which is context for the
+register-wide statements the [X-67][related_post_a364_x67_slot_taken_by_xq67] article made about
+allocation cadence.
 
 ### The Support Contract Comes First and It Is a Navy Instrument
 
@@ -455,6 +490,31 @@ programme's. This article made that error and corrected it.
 | $E_f$ | Missile kinetic energy at arrival | J |
 | $V_f$ | Missile speed at arrival, the terminal requirement | m s⁻¹ |
 | $t$ | Time of flight | s |
+| $a_z$ | Net vertical acceleration after release | m s⁻² |
+| $m_r$ | Reduced mass of the store and launcher pair | kg |
+| $E_c$ | Energy delivered by one ejector cartridge | J |
+| $E_c^{(1)}$ | The launcher's share of the cartridge energy | J |
+| $I_x$ | Roll moment of inertia | kg m² |
+| $k_x$ | Roll radius of gyration | m |
+| $p$ | Roll rate | rad s⁻¹ |
+| $\phi$ | Bank angle | rad |
+| $l$ | Vehicle length | m |
+| $J$ | Ejector cartridge impulse | N s |
+| $v_{rel}$ | Relative separation velocity of store and launcher | m s⁻¹ |
+| $F_a$ | Aerodynamic force on the separating store | N |
+| $\gamma$ | Flight-path angle | rad |
+| $P_s$ | Specific excess power | m s⁻¹ |
+| $I_h$ | Hinge-axis inertia of one folding panel | kg m² |
+| $M_h$ | Hinge drive torque | N m |
+| $M_a$ | Aerodynamic moment on the deploying panel | N m |
+| $\theta_h$ | Panel fold angle | rad |
+| $t_d$ | Deployment time | s |
+| $h$ | Altitude | m |
+| $T_a$ | Air temperature | K |
+| $p_a$ | Static pressure | Pa |
+| $\Gamma$ | Tropospheric lapse rate | K m⁻¹ |
+| $R$ | Specific gas constant of air | J kg⁻¹ K⁻¹ |
+| $\kappa$ | Ratio of specific heats | dimensionless |
 | $s$ | Distance flown along the flight path | m |
 
 ### What Leaves, and What the Remainder Must Absorb
@@ -485,6 +545,36 @@ $$
 the centre of gravity moves the centre of gravity forward. **The magnitude is the part that is not
 obvious**, because it is the amplified fraction rather than the fraction, and the amplification is
 what distinguishes this vehicle from the aeroplane that carries it.
+
+### The First Thing That Happens Is Vertical, and It Happens Before Anything Rotates
+
+**The vehicle trimmed its lift against a weight that is suddenly smaller, so the first consequence
+of a release is translational.** At the instant the store leaves, the lift is unchanged and the
+weight has stepped down, and Newton's second law for the remaining vehicle gives the net upward
+acceleration directly.
+
+$$
+a_z \;=\; \frac{L - m_1 g_0}{m_1}
+\;=\; g_0\,\frac{m_0 - m_1}{m_1}
+\;=\; \alpha\, g_0
+$$
+
+**The amplification factor appears a third time, now as a load factor step.** The fighter of the
+comparison rises at 0.0062 of a gravity, which its occupants would not notice. This vehicle
+rises at 0.219 of a gravity, or 2.14 metres per second squared, **which is a
+manoeuvre, uncommanded, at the exact moment the centre of gravity is also moving.**
+
+**Restoring level flight means shedding lift in proportion to the mass that left.** At constant
+speed and dynamic pressure the required lift coefficient steps down by the mass ratio,
+
+$$
+C_{L,1} \;=\; (1 - \mu)\, C_{L,0}
+$$
+
+**a 17.94 percent reduction, commanded through the same control surfaces that are
+simultaneously retrimming the pitching moment.** The two demands arrive together and are coupled
+through the same actuators, which is one more sentence of content in the government's phrase
+stability and control challenges.
 
 ### The Static Margin Can Be Spent in One Event
 
@@ -572,6 +662,24 @@ not a redistribution, and it scales inversely with dynamic pressure. **A single 
 under load factor is therefore the binding case for lateral control**, and it is exactly the case a
 vehicle firing one missile and keeping another would fly.
 
+**Before the control responds at all, the moment produces a roll transient whose arithmetic is
+rigid-body rotation and nothing else.** The angular acceleration and the open-loop bank growth are
+
+$$
+\dot p \;=\; \frac{M_x}{I_x},
+\qquad
+\phi(t) \;=\; \tfrac12\, \dot p\, t^2
+$$
+
+**and no roll inertia for this vehicle is published, so $I_x$ is estimated as $m_1 k_x^2$ with the
+radius of gyration swept and the estimate labelled as one.** At $k_x$ of 0.4 metres and a
+lateral arm of 0.3 metres the kept missile's moment is 475 newton metres, the open
+loop acceleration is 1.8 radians per second squared, **and the bank angle half a second
+after release is about 13 degrees**, the sweep across the stated brackets running from
+6 to 31 degrees. **Half a second is a generous allowance for a control
+system to notice, and a vehicle that banks tens of degrees in it has a requirement on control
+bandwidth that came from carrying its stores side by side.**
+
 ### The Ejector Pushes Back
 
 **A store is not dropped, it is pushed, and momentum is conserved.** An ejector that imparts velocity
@@ -582,9 +690,38 @@ $$
 $$
 
 **At an ejection velocity of 7 metres a second** the vehicle takes 1.53 metres a
-second. The same ejector on the F-15E of the comparison above gives 0.043 metres a
-second. **The amplification factor appears again, and this time it multiplies a velocity the
-cartridge was sized to produce for the store's benefit and not the launcher's.**
+second if both stores leave together, or 0.69 for one of the pair at its own fraction of
+8.97 percent. The same ejector on the F-15E of the comparison above gives
+0.043 metres a second. **The amplification factor appears again, and this time it
+multiplies a velocity the cartridge was sized to produce for the store's benefit and not the
+launcher's.**
+
+**Treated properly the ejection is a two-body problem, and the two-body problem has a mass of its
+own.** The cartridge's impulse $J$ acts equally and oppositely on store and launcher, so the
+relative separation velocity is the impulse over the reduced mass,
+
+$$
+v_{rel} \;=\; \frac{J}{m_r},
+\qquad
+m_r \;=\; \frac{m_s\, m_1}{m_0} \;=\; \mu\,(1-\mu)\, m_0
+$$
+
+**which for one missile here is 147 kilograms against the missile's own 161.5.**
+The energy the cartridge must deliver is $J^2 / 2 m_r$, about 4.3 kilojoules for an
+impulse of 1,130 newton seconds, **and the launcher's share of that energy follows from momentum
+conservation alone.**
+
+$$
+\frac{E_c^{(1)}}{E_c}
+\;=\; \frac{\alpha}{1 + \alpha}
+\;=\; \mu
+$$
+
+**The launcher absorbs exactly its store's mass fraction of every cartridge it fires.** A fighter
+takes 0.62 percent of each shot and this vehicle takes 9.0 percent,
+about 390 joules per release delivered into its own structure, **which is a
+repeating structural load whose size was set by the keystone parameter and not by any choice the
+ejector's designer made.**
 
 **And the ejector acts off the centre of gravity, so it also produces rotation.** A force $F_e$ at an
 arm $d_s$ for a stroke time $\tau$ delivers an angular impulse.
@@ -597,6 +734,22 @@ $$
 above, which is why the second correction matters. **An ejector sized to clear the store cleanly is
 not sized to leave the launcher undisturbed**, and for a vehicle of this mass fraction those are
 different requirements and not the same one.
+
+**A worked example, with every assumption stated, shows the size of the effect.** The pitch inertia
+of a slender body of uniform density is estimated as
+
+$$
+I_y \;\approx\; \tfrac{1}{12}\, m_1\, l^2
+$$
+
+**which at 6 metres of length gives 4,916 kilogram square metres, and the
+estimate is an assumption and not a datum.** The cartridge impulse above delivered over
+50 milliseconds is a force of 22.6 kilonewtons, and acting at the admissible
+arm of 0.3 metres it leaves a residual pitch rate of about 4.0 degrees per
+second, or 7.9 at twice the arm. **A tip-off rate of a few degrees per second is
+modest and it is not zero, and it arrives at the same instant as the heave, the trim change and the
+static margin step above.** The release is all four at once, which is what the word transient is
+carrying in the budget books' sentence.
 
 ## The Premise, Which Is a Cost and Not a Benefit
 
@@ -626,6 +779,35 @@ $$
 14.9.** Neither figure is published for this aircraft or for the missile it carries, so
 both are swept, and the sweep does not change the order of magnitude. **A kilogram of fuel burned in
 the engine delivers something near fifteen times the impulse of a kilogram of solid propellant.**
+
+### The Atmosphere Every Number Below Is Computed In
+
+**Two constants run through everything that follows and neither was derived until now.** Every
+coast, cruise and climb figure in this article is computed at 10,668 metres, which is
+35,000 feet, and the air there is described by three classical relations and a gas property.
+The temperature falls linearly through the troposphere, the pressure follows from hydrostatic
+balance combined with the ideal gas law, and the density is the state equation applied to the two.
+
+$$
+T_a(h) \;=\; T_{a,0} - \Gamma h,
+\qquad
+p_a(h) \;=\; p_{a,0}\left(\frac{T_a}{T_{a,0}}\right)^{g_0 / (\Gamma R)},
+\qquad
+\rho \;=\; \frac{p_a}{R\, T_a}
+$$
+
+**With a lapse rate of 6.5 kelvin per kilometre and a sea-level temperature of
+288.15 kelvin, the exponent evaluates to 5.256**, and the altitude gives a temperature
+of 218.8 kelvin, a pressure of 23,842 pascals, and a density of 0.3796 kilograms per
+cubic metre. The sound speed follows from the gas alone,
+
+$$
+a \;=\; \sqrt{\kappa\, R\, T_a}
+$$
+
+**which evaluates to 296.5 metres per second.** Those are the two numbers the rest of this
+article has been using, now derived from four constants of the standard atmosphere rather than
+asserted, and the verifier recomputes both from the constants.
 
 ### A Missile's Reach Is Logarithmic and That Is the Whole Argument
 
@@ -683,8 +865,20 @@ two-fifths propellant must become three-quarters propellant, which leaves no mas
 seeker or a structure. **The missile cannot be made to fly twice as far. It is not a matter of
 expense.**
 
-**The carrier buys the same distance on the Breguet relation, where range is linear in the logarithm
-of the mass ratio rather than the other way about.**
+**The carrier buys the same distance on the Breguet relation, and the relation is worth deriving
+in one line because the derivation is where the asymmetry comes from.** In steady level flight the
+thrust equals the drag, the drag is the weight over the lift-to-drag ratio, and the fuel flow is
+the thrust over the specific impulse, so each increment of distance costs fuel in proportion to
+the mass it is carrying,
+
+$$
+dR \;=\; V\, dt
+\;=\; -\,V\, I_{sp}\, \frac{L}{D}\, \frac{dm}{m}
+$$
+
+**and the logarithm appears on integration rather than by assumption.** The missile's logarithm
+sits in the exponent of its reach and the carrier's sits inside its range, which is the entire
+difference between the two vehicles stated grammatically.
 
 $$
 R_c \;=\; V\, I_{sp}\, \frac{L}{D}\, \ln\!\frac{1}{1-\zeta}
@@ -694,6 +888,22 @@ $$
 
 **Flying 112 kilometres costs the carrier a fuel fraction of 0.013.**
 Against the missile's 0.746 that is a factor of about 59.
+
+**The same comparison can be made at the margin, where it needs no fuel fraction at all.**
+Differentiating each range with respect to the propellant that buys it gives the exchange rate of
+distance for mass on each side,
+
+$$
+\frac{dR_c}{dm_f} \;=\; \frac{V\, I_{sp}\, (L/D)}{m},
+\qquad
+\frac{dR_m}{dm_p} \;=\; \frac{\ell}{V_b}\,\frac{I_{sp,r}\, g_0}{m_s}
+$$
+
+**and the next kilogram of fuel buys the carrier 4,901 metres while the next kilogram of
+solid propellant buys the missile 1,371**, a ratio of 3.6 at the midpoint of
+every sweep. The marginal ratio is smaller than the integral comparison suggests because the
+missile's first kilograms of propellant are cheap and its last are ruinous, **which is exactly
+what a logarithm in the exponent means.**
 
 **That ratio, and not any statement about extra reach, is the programme.** The two vehicles are not
 competing to fly the same distance at different efficiencies. **One of them can fly the distance and
@@ -816,10 +1026,41 @@ $$
 $$
 
 **Across the swept mass range the ratio runs from 0.680 at 1,000 kilograms to
-0.227 at 3,000 kilograms.** A vehicle that must accelerate away from its launch aircraft,
-cruise, and manoeuvre after releasing its stores is unlikely to be content with the lowest of those,
-which is the argument for the sweep's brackets rather than a wider range. **The brackets are an
-inference and are labelled as one in the epistemic state.**
+0.227 at 3,000 kilograms.**
+
+**What a thrust-to-weight ratio buys is a climb gradient, and the point-mass relation turns the
+table above into performance.** In a steady climb the thrust carries the drag plus the weight
+component along the flight path,
+
+$$
+\sin\gamma \;=\; \frac{T}{W} - \frac{1}{L/D},
+\qquad
+P_s \;=\; V \sin\gamma
+$$
+
+**where the second expression is the specific excess power at constant speed.** At sea level the
+sweep gives gradients from 22.7 degrees at 1,400 kilograms through
+16.1 at 1,800 to 7.3 at 3,000, at a lift-to-drag ratio of ten.
+
+**But the vehicle does not fly at sea level, and a turbojet's thrust falls roughly with the
+density.** Taking the simplest lapse,
+
+$$
+T(h) \;\approx\; T_0\, \frac{\rho}{\rho_0}
+$$
+
+**the density ratio at cruise altitude is 0.31, and the climb table collapses.** At
+1,400 kilograms the gradient falls to 2.9 degrees, at 1,800 to
+1.0 degrees with 4.3 metres per second of specific excess power, **and at
+3,000 kilograms the gradient is negative**, the thrust at altitude falling short of the
+drag, so a vehicle of that mass could not hold this altitude at this lift-to-drag ratio at all.
+
+**That negative sign is the most useful number the engine anchor produces, because it closes the
+mass sweep from above by classical mechanics alone.** The sweep's upper bracket is not a judgement
+about what seems reasonable. It is the mass beyond which the one published engine cannot sustain
+the flight condition every published description of the programme requires. **The brackets remain
+an inference and are labelled as one in the epistemic state, and the upper one now has a mechanism
+where it previously had a plausibility argument.**
 
 **And the engine's provenance constrains the speed.** A cruise missile powerplant sized for high
 subsonic flight does not make a supersonic aeroplane, which is consistent with the budget books'
@@ -856,6 +1097,25 @@ station or internally in a bay must fit a volume sized for a store.
 from the launch aircraft and deployment of the surfaces the vehicle has neither the launch aircraft's
 support nor its own aerodynamic controls. The deployment is therefore a timed event in a transient,
 and its reliability is a flight-safety matter and not a performance one.
+
+**The deployment itself is a hinge problem and its governing relations are two lines.** A panel of
+hinge-axis inertia $I_h$ driven through a sweep angle $\Delta\theta_h$ by a torque $M_h$ obeys the
+rigid-body rotation equation, and from rest under constant torque the deployment time follows,
+
+$$
+I_h\, \ddot\theta_h \;=\; M_h - M_{a}(\theta_h),
+\qquad
+t_d \;=\; \sqrt{\frac{2\, I_h\, \Delta\theta_h}{M_h}}
+$$
+
+**where $M_a$ is the aerodynamic moment resisting or assisting the panel, which depends on the
+attitude the vehicle happens to hold during the fall.** No inertia, torque or sweep angle for this
+vehicle is published, so the relations are shown without a worked number, **and one consequence
+needs no numbers at all.** The torque that drives each panel reacts on the fuselage, two panels
+deploying symmetrically cancel in roll by Newton's third law, **and a single panel that lags or
+jams delivers its whole hinge torque as an uncancelled rolling moment to a vehicle that has, at
+that moment, no aerodynamic control to oppose it.** The reliability requirement on the deployment
+mechanism is therefore a symmetry requirement and not only a completion one.
 
 ### Recovery, Which Exists for the Test Programme and Not for the Mission
 
@@ -931,6 +1191,50 @@ mass.** PB2026 plans this for FY2025.
 measures the separation trajectory of a representative mass from a representative vehicle while the
 vehicle is held still. The programme's own sentence specifies an operational environment, and a pit
 is not one.
+
+**What the pit measures is worth writing down, because it is clean classical mechanics and because
+the arithmetic contains a bias specific to this vehicle.** With the launcher clamped, the store
+leaves at the cartridge impulse over its own mass and then falls, so the separation distance is
+
+$$
+s(t) \;=\; \frac{J}{m_s}\, t \;+\; \tfrac12\, g_0\, t^2
+$$
+
+**and the pit therefore measures the impulse, the tip-off rate and the mechanism's repeatability,
+each of them exactly.** Those are the quantities a release clearance needs first and the pit is
+the correct instrument for all three.
+
+**But the clamp changes the physics, and it changes it by the keystone parameter.** In flight the
+launcher recoils, the same impulse divides by the reduced mass rather than the store's mass, and
+the ratio of the two separation speeds is the amplification's own denominator,
+
+$$
+\frac{v_{rel}^{\mathrm{flight}}}{v_{rel}^{\mathrm{pit}}}
+\;=\; \frac{m_s}{m_r}
+\;=\; \frac{1}{1-\mu}
+$$
+
+**A cartridge that gives the simulant 7 metres a second in the pit separates the same
+store at 7.69 in flight.** For a fighter the correction is 0.6 percent
+and the pit is a faithful simulator, which is why the technique is standard. For this vehicle it is 9.9 percent for one
+missile of the pair and 21.9 percent for both, so **the ground test underreads the
+flight separation rate by a tenth to a fifth for the same cartridge, as a matter of momentum
+conservation rather than of aerodynamics.** The standard ground test's fidelity degrades with the
+very parameter the programme exists to study, and nothing in the open record read for this article
+states whether the test's analysis carries the correction, because nothing in the open record
+describes the analysis at all.
+
+**What the pit cannot measure even in principle is the aerodynamic increment.** In flight the
+store leaves into the vehicle's flow field, and the aerodynamic force $F_a$ on it integrates into
+a trajectory deviation that grows exactly as the gravity term does,
+
+$$
+\Delta s(t) \;=\; \tfrac12\, \frac{F_a}{m_s}\, t^2
+$$
+
+**so a store trajectory cannot be separated into a mechanism part and an aerodynamic part by
+timing alone.** That is why the discipline's wind tunnel and captive-trajectory literature exists,
+and the cluster below carrying it is this article's largest.
 
 ### What This Does and Does Not Establish
 

@@ -5,6 +5,73 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A365 EQUATION-DENSITY REVIEW, the second of four passes. Committed, not pushed. NOT
+PUBLISHED**, and publication of the series has never been authorised. **Sixty-nine of seventy-two
+drafted, three remain.** Primary-reference and publication passes remain.
+
+**24 display equations to 42 across 18 additions, 90 inline expressions to 132, the symbol table 53
+to 78 entries**, 2,504 to 2,814 lines and 18,566 to 21,052 words, references held at 543 and
+measured before and after. **Every addition is classical mechanics in classical mechanics
+vocabulary**, on the pilot's instruction, which the subject accepted without strain because the
+subject is two-body momentum, hydrostatics and rigid-body rotation wearing military nouns.
+
+**THE BEST ADDITION IS THE PIT-TEST FIDELITY RATIO, WHICH NO SOURCE STATES AND MOMENTUM
+CONSERVATION REQUIRES.** The one keystone-adjacent test in the budget books' plans is a pit drop of
+a mass simulant from a clamped vehicle. Clamped, the cartridge impulse divides by the store's mass.
+In flight the launcher recoils and the same impulse divides by the reduced mass, so flight
+separation is faster than the pit's by exactly 1/(1-mu). **For a fighter that correction is 0.6
+percent and the technique is faithful, which is why it is standard. For this vehicle it is 9.9
+percent for one missile and 21.9 for the pair.** The standard ground test's fidelity degrades with
+the very parameter the programme exists to study, and the open record does not say whether the
+analysis carries the correction because it does not describe the analysis.
+
+**THE SECOND BEST CLOSES THE MASS SWEEP FROM ABOVE BY CLASSICAL MECHANICS ALONE.** The climb
+gradient is T/W minus 1/(L/D), a turbojet's thrust lapses roughly with density, and the density
+ratio at cruise altitude is 0.31. At 1,400 kilograms the sea-level gradient of 22.7 degrees falls
+to 2.9 at altitude. At 1,800 it falls to 1.0. **At 3,000 kilograms it is negative, so the upper
+bracket of the mass sweep is no longer a plausibility argument but the mass beyond which the one
+published engine cannot hold the flight condition every description of the programme requires.**
+
+**THE REST, BRIEFLY.** The standard atmosphere derived from four constants, confirming the two
+values the first pass asserted to within rounding. The factor of 29 shown to be an identity in the
+two launcher masses alone, the missile cancelling. The amplification's derivative. The heave at
+unchanged lift, alpha g, a 0.22 g uncommanded manoeuvre at the instant of release against a
+fighter's 0.006. The retrim lift step. The ejection as a two-body problem with the reduced mass
+explicit, and the launcher's share of every cartridge's energy proven equal to mu itself, 390
+joules per shot into this vehicle's structure against half a percent into a fighter's. The
+asymmetric-release roll transient worked to numbers, tens of degrees of bank in the half second
+before any control responds, inertia estimate labelled. The ejector tip-off worked example,
+assumptions stated. The Breguet relation derived in one line so the logarithm's position is earned
+and not asserted. The marginal exchange, 4,901 metres per kilogram air-breathing against 1,371
+rocket at the midpoint. The hinge equation and deployment time for the folding surfaces, with the
+Newton's-third-law observation that a lagging panel delivers its whole hinge torque as uncancelled
+roll to a vehicle that has no aerodynamic control at that moment. The pit-drop kinematics, and the
+aerodynamic deviation term that grows as t squared exactly as gravity does, which is why timing
+alone cannot separate mechanism from aerodynamics and why the store-separation literature exists.
+
+**ONE INSTRUMENT CORRECTION.** `symcheck.py` flagged word superscripts in the fidelity ratio as
+undeclared symbols, and the right fix was in the article rather than the checker, since a text
+label inside mathematics belongs in upright type. The checker also learned that a second derivative
+dot is a decoration, which is its own blind spot and not the page's.
+
+**Gate: `_verify.py` 0 errors and 0 warnings across 304 posts.** `verify365.py` grew from 71 to 114
+checks with 0 disagreeing, the new ones taking different routes from the displayed forms: the
+atmosphere from its defining constants, the energy partition by explicit kinetic-energy
+bookkeeping, both derivatives by central difference, the deployment closed form against a numerical
+integration, and the heave from a written-out force balance. Stub build clean, rendered audit no
+findings across 539 pages, 42 source display blocks matching 42 rendered in both delimiters, 133
+inline spans and none carrying an emphasis tag, every symbol resolving against the 78-entry table.
+Style scan zero findings in every category with the four semicolons remaining the register
+quotation and the debug tag.
+
+**FOR THE PRIMARY-REFERENCE PASS.** The three encyclopedia anchors stand as before and the equation
+pass leaned on them harder, since the engine thrust now drives the climb table and the missile mass
+drives the two-body results. Replacing them is now more valuable, not less. The atmosphere
+subsection's constants are textbook values and could carry a standard-atmosphere citation.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A365 FIRST PASS, the draft of *X-Planes: General Atomics X-68 LongShot*. Committed, not
 pushed. NOT PUBLISHED**, and publication of the series has never been authorised. **Sixty-nine of
 seventy-two drafted, three remain.** Equation, primary-reference and publication passes remain.
