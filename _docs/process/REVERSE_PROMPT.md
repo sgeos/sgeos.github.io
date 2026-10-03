@@ -5,6 +5,21 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **ALL SEVEN PILOT DECISIONS EXECUTED.** The mathematics repair is applied and
+committed, 133 rendered spans to 0 across 61 published posts, byte-identical to the rehearsal
+and re-verified by a fresh production build. The A358/A359 officiality repair is done in place,
+both drafts now stating the three-way split of 21, 9 and 1, with A358's chronology scoped to
+fully dated rows and A360's two error-narrating passages rewritten to make the same argument
+impersonally, every repaired figure recomputed from the register before the edit and asserted
+after it. The eight drafts the second line re-dated to 2126 are committed exactly as they stand.
+`sa.html` is deleted. The A376 attribution stands, by decision. **A366 is slotted as *X-Planes:
+X-69 through X-75, the Leapfrogged Block***, editorial date 2025-12-14, series index 70, seven
+designations absent from the released record at once against the single skips of A355 and A364.
+**The handoff follows this commit and the push follows the handoff, on the pilot's instruction.**
+
+---
+
+**Date**: 2026-10-02
 **Task**: **SERIES REPAIR SWEEP on the pilot's instruction.** Every open repair was examined, one
 was found to need no further input and its execution is FULLY REHEARSED AND MEASURED, one that
 looked executable turned out to carry an editorial fork, and the rest were already marked as the

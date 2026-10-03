@@ -10,15 +10,16 @@ Current task state and verification log. This file is the shared source of truth
 **Name**: X-Planes series drafting, seventy-two articles A297 through A368 back-dated one per day from 2025-10-06 to 2025-12-16.
 
 **Status**: **A297 through A364 have ALL FOUR PASSES COMPLETE and are PUSHED. A365 has ALL FOUR
-PASSES COMPLETE, committed and not pushed.** **The corpus mathematics repair is REHEARSED AND
-READY under `tmp/mathrepair/`, 133 rendered spans to 0, proven collateral-free by a twin-build
-comparison, awaiting the pilot's word. The A358/A359 officiality repair is blocked on an
-editorial fork, since A360 narrates both errors as its own justification.** **Sixty-nine of seventy-two drafted. None published,
+PASSES COMPLETE, committed and not pushed.** **The corpus mathematics repair is APPLIED AND COMMITTED,
+133 rendered spans to 0 across 61 published posts. The A358/A359 officiality repair is DONE IN
+PLACE with A360's two narrative passages rewritten impersonally, on the pilot's decision. The
+eight re-dated drafts are committed as they stand, `sa.html` is deleted, and the A376
+attribution stands by the pilot's decision.** **Sixty-nine of seventy-two drafted. None published,
 and publication has never been authorised. Three articles remain.** The next new article is
-**A366, editorial date 2025-12-14, series index 70.** **Its subject is for the pilot's prompt and
-is not obvious from the register**, which carries no research row between the X-68A of
-20 August 2025 and the X-76A of 20 October 2025, so the designations 69 through 75 are absent
-from the released record and A366 is likely an absence article rather than an aircraft one.
+**A366, *X-Planes: X-69 through X-75, the Leapfrogged Block*, slotted by the pilot on
+2026-10-02.** Editorial date 2025-12-14, series index 70. The register carries no research row
+between the X-68A of 20 August 2025 and the X-76A of 20 October 2025, so seven designations are
+absent from the released record at once, against the single skipped numbers of A355 and A364.
 
 **A365 FINAL STATE 2,917 lines, 22,194 words, 42 display equations, 133 inline expressions, a
 78-entry symbol table and 548 reference definitions, two of them named addresses**, in 16 H2 and 77 H3 sections, citing 458
