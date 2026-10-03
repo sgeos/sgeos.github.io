@@ -1110,13 +1110,14 @@ and **this pair is the only duplicate among the 31 rows beginning with X**. **Th
 appears in that register's X rows exactly twice and both times are here**, and **`1 rocket engine`
 appears in exactly two of 539 rows**, also these.
 
-**A CORRECTION TO THIS SERIES' OWN ARITHMETIC, AND IT IS OUTSTANDING.** The officiality markup has
-three states and the last two articles each summarised it in two numbers. Recomputed from the saved
-page and confirmed by an independent re-parse of the markup, the split is **436, 86 and 17 across
-the register and 21, 9 and 1 across the 31 X rows**. A358's register-wide figures are exactly
-right, and its X-row pair of 21 and 9 accounts for 30 of 31 rows. **A359 closed that sum by raising
-the official count to 22**, which puts the partly marked row on the side its markup denies. **A360
-states the three-way split correctly and neither earlier article has been edited.**
+**A CORRECTION TO THIS SERIES' OWN ARITHMETIC, RESOLVED ON 2026-10-02 BY IN-PLACE REPAIR.** The
+officiality markup has three states and the drafts of A358 and A359 each summarised it in two
+numbers, one losing the partly marked row and the other placing it on the side its markup denies.
+On the pilot's decision both now state the three-way split, **436, 86 and 17 across the register
+and 21, 9 and 1 across the 31 X rows**, recomputed from the saved page and confirmed by an
+independent re-parse at the time of the repair, and **A360's two passages narrating the sister
+drafts' errors were rewritten to make the same argument impersonally**, preserving its
+recomputation, its table and its conclusion.
 
 **THE KEYSTONE IS AN IDENTITY THAT REMOVES THE VEHICLE.** The incremental vacuum thrust bought by
 an increment of exit area is exactly the exit pressure acting on that increment, which follows in
