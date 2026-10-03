@@ -5,6 +5,33 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A367 DRAFTED, X-Planes: Bell Textron X-76 SPRINT, the first of four passes. Committed, NOT
+pushed, NOT published.** Seventy-one of seventy-two drafted. `_drafts/x_planes_bell_textron_x76_sprint.markdown`, editorial date 2025-12-15, series index 71, full order and documentation-poor. **8,109 lines, 52,274 words of which about 14,100 lie outside the citation runs and reference lists, 18 display equations, 60 inline expressions, a 41-entry symbol table and 3,724 reference definitions**, being 54 primaries, 3,600 research works of which 12 are hand-chosen primaries with abstracts and 624 are report-server records, 620 of them among the 3,588 swept works at 17.3 percent, and 70 related posts, in 16 H2 and 53 H3 sections with 6 tables, from a pool of 12,957.
+
+**THE KEYSTONE IS THAT THE TURBOFAN IS A DRAG BUDGET.** With thrust lapsing as density times a swept factor, the largest equivalent drag area the PW308C can push is $2F\_0\varphi/(\rho\_0V^2)$, the density cancelling, so it is 0.60 to 0.84 square metres at 400 knots at every altitude in the solicitation's band. The two CT7-8s, 3,758 kW at take-off, would hover about 30,800 lb at the XV-15's disk loading, twice the solicitation's heaviest guidance, and the bare engines are 16.3 percent of 15,000 lb. **Both point, as inferences, to an aircraft at or above the top of its guidance or at a high disk loading.** At the XV-15's airplane-mode tip speed a proprotor reaches a helical tip Mach number of 1.00 at 450 knots and 25,000 ft.
+
+**THE PRIMARY BASE IS UNUSUALLY DEEP FOR AN UNFLOWN AIRCRAFT.**
+
+- **The solicitation itself**, HR001123S0031, its proposers' day slides and its questions and answers, all from the federal contracting portal. They give the demonstrator guidance, 8,000 to 15,000 lb, at least 400 knots between 15,000 and 30,000 ft, existing engines with no core changes, crew left to the proposer, no disk loading limit, and a 42-month goal to first flight.
+- **Three of four Phase 1A contracts in the award record, each with thirteen offers.** Bell's instrument is absent, consistent with an other transaction, which the solicitation allowed. The record bounds Bell's Phase 1 at 31,347,488 dollars if the 75 million held.
+- **Four budget books**, with the same year restated three ways, a scaled demonstrator becoming a demonstrator, and a ground station in the plans.
+- **The two engine data sheets.** **The PW308C is approved for multiple-engine installation only**, so a single installation lies outside its civil certificate's assumption.
+- **The 1972 full-scale folding rotor test**, set aside for lack of a convertible engine, and McArdle's 1988 finding that a convertible engine beats separate lift and cruise engines. **The X-76 takes the separate-engine path the earlier literature judged heavier**, and the solicitation's existing-engine rule is the stated reason, as an inference.
+- **A 2008 DARPA stop-fold tilt rotor study** to the Bell Boeing Joint Project Office, and fourteen Bell patents, each cited for its abstract.
+
+**NEW FINDINGS.** Phase 2 is dated May, June and July 2025 by three sources. **Textron's investor-relations mirror misdates two Bell releases by exactly a year**, while Bell's newsroom is correct. **The register's trailing plus** has four readings: a model-name suffix, as in the Air Force's own "Tri 60-5+"; the enhanced PW308C of 2011; the solicitation's no-core-change upgrade; and truncation. The register's combination syntax makes truncation least likely. The schedule has slipped at least eight months against the solicitation's goal.
+
+**THE OPENING FAILED THE CHECK AGAINST THE ANALYSIS AGAIN, AND THIS TIME AT THE END OF THE DRAFTING PASS, AS A366 DIRECTED.** It stated three engines and a single turbofan as fact, where the article takes the turbofan count as a reading. It called the drag ceiling altitude-independent without its lapse assumption. It said four budget books lay inside the date, when three do, and it said Bell's patents describe "the mechanism". All five places were corrected before commit.
+
+**METHOD.** `verify367.py` runs 323 checks and imports no measurement module. It re-parses the register with an HTML parser, recomputes the hover envelope by bisection, the drag ceiling by thrust over dynamic pressure at four altitudes, and the atmosphere by integrating the hydrostatic equation. **It finds all 52 quotations verbatim in saved sources**, and it caught three injected defects, a stale number, a misquotation and a missing blank line after a display. **Two quotations were paraphrased because the source has a typographical slip or parentheses.** Separately, my own "$15M" in prose would have rendered as mathematics, and the symbol check caught it as a stray `i`.
+
+**GATES.** `_verify.py` reports 0 errors. The only warnings are the expected `progress-stale` pair, which this update clears. The stub build runs in 17 seconds, `_lib/render.py` finds nothing across 540 pages, all 18 display blocks match, the style check has zero findings and `symcheck.py` passes.
+
+**NOTHING PUSHED.** **Next prompt: the equation-density review of A367.** The pilot decision on A364's and A365's Epistemic State sections is still open.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A366 PUBLICATION REVIEW, the fourth and last of four passes. Committed and PUSHED, NOT
 published.** Seventy of seventy-two drafted. **Final state 4,669 lines, 29,682 words, 42 display equations, 105 inline expressions, a 33-entry symbol table and 1,974 reference definitions**, being 24 primaries, 1,881 research works of which 13 are hand-chosen primaries and 59 are report-server records at 3.14 percent, and 69 related posts, in 11 H2 and 42 H3 sections with 9 tables, from a pool of 15,522.
 

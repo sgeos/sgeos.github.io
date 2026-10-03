@@ -640,6 +640,44 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
+## X-Planes Bell Textron X-76 SPRINT A367 2025-12-15
+
+`x_planes_bell_textron_x76_sprint.markdown`, A367, editorial date 2025-12-15, series `x_planes`
+index 71 of 72, categories `aerospace history engineering`, full order and documentation-poor.
+**DRAFTED, the first of four passes. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
+
+**8,109 lines, 52,274 words of which about 14,100 lie outside the citation runs and reference lists,
+18 display equations, 60 inline expressions, a 41-entry symbol table and 3,724 reference definitions**,
+being 54 primaries, 3,600 research works of which 12 are hand-chosen primaries with abstracts, and 70
+related posts, in 16 H2 and 53 H3 sections with 6 tables. The survey cites 3,588 swept works across 11
+clusters from a pool of 12,957, of which 620 are reports-server records at 17.3 percent, median year
+2009 and range 1928 to 2027.
+
+**THE TURBOFAN IS A DRAG BUDGET.** Under a lapse of density times a swept factor, the PW308C's
+certificated thrust fixes the largest equivalent drag area at 400 knots at 0.60 to 0.84 square metres,
+the density cancelling so the ceiling is the same at every altitude in the solicitation's band. The
+two CT7-8s would hover about 30,800 lb at the XV-15's disk loading, and the bare engines are 16.3
+percent of 15,000 lb, so the aircraft is, as an inference, at or above the top of its weight guidance
+or at a high disk loading.
+
+**THE PROGRAMME IS DOCUMENTED FROM GOVERNMENT PRIMARIES.** The solicitation, its slides and answers,
+three of four Phase 1A contracts with thirteen offers each, four budget books and two engine data
+sheets, with Bell's own instrument absent from the award record. **The PW308C is approved for
+multiple-engine installation only.** Textron's mirror misdates two Bell releases by a year. Phase 2
+is dated three ways. The schedule has slipped at least eight months against the 42-month goal.
+
+**THE CONCEPT IS 1972'S, WITHOUT 1972'S MISSING ENGINE.** A full-scale folding rotor was stopped and
+started more than forty times in 1972 and shelved for want of a convertible engine. The 1988
+literature judged a convertible engine better than separate lift and cruise engines, and the X-76
+takes the separate engines under the solicitation's existing-engine rule.
+
+**VERIFICATION.** `verify367.py` 323 checks, importing no measurement module, every quotation found
+verbatim in a saved source, and three injected defects caught. `_verify.py` 0 errors. Stub build clean
+in 17 seconds, `_lib/render.py` no findings across 540 pages, 18 display blocks matched,
+`symcheck.py` passing and `stylecheck.py` zero findings.
+
+**REMAINING.** The equation-density review, the primary-reference review and the publication review.
+
 ## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14
 
 `x_planes_x69_through_x75_leapfrogged_block.markdown`, A366, editorial date 2025-12-14, series
