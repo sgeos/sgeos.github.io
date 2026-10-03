@@ -47,7 +47,7 @@ The novelty of Apollo guidance was the closed-loop autonomous operation of the g
 
 $$\ddot{\mathbf{r}}_{\text{cmd}}(t) = \mathbf{c}_0 + \mathbf{c}_1 (t_{\text{go}} - t) + \mathbf{c}_2 (t_{\text{go}} - t)^2 + \mathbf{c}_3 (t_{\text{go}} - t)^3$$
 
-with vector coefficients $\mathbf{c}_i$ determined by boundary conditions on final position, velocity, and acceleration at the desired landing point. The polynomial form enabled closed-form solution recomputation at each guidance cycle rather than iterative optimization, which fit within the AGC computational budget. This closed-loop autonomous operation was the requirement that drove the AGC design.
+with vector coefficients $\mathbf{c}\_i$ determined by boundary conditions on final position, velocity, and acceleration at the desired landing point. The polynomial form enabled closed-form solution recomputation at each guidance cycle rather than iterative optimization, which fit within the AGC computational budget. This closed-loop autonomous operation was the requirement that drove the AGC design.
 
 ## AGC Hardware
 

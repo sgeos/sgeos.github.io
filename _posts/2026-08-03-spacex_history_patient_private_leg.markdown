@@ -143,13 +143,13 @@ The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargain
 
 $$\sigma^{\text{founder}}_n = \sigma\!\left( u^{\text{founder}}_n, \; u^{\text{investor}}_n \right) \qquad \text{with} \qquad \frac{d u^{\text{founder}}_n}{d n} > 0 \quad \text{and} \quad \frac{d u^{\text{investor}}_n}{d n} \approx 0$$
 
-with $\sigma^{\text{founder}}_n$ the founder's negotiated share at round $n$ and $u$ the disagreement payoffs. The investor's outside option is approximately flat because the sector offered no comparable alternative position, which is a consequence of the concentration the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents, not of any negotiating skill.
+with $\sigma^{\text{founder}}\_n$ the founder's negotiated share at round $n$ and $u$ the disagreement payoffs. The investor's outside option is approximately flat because the sector offered no comparable alternative position, which is a consequence of the concentration the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents, not of any negotiating skill.
 
 The real-options tradition traces from [Myers 1977][research_myers_1977], [Black and Scholes 1973][research_black_scholes_1973], [Merton 1973][research_merton_1973], [McDonald and Siegel 1986][research_mcdonald_siegel_1986], [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994], [Dixit and Pindyck 1994][book_dixit_pindyck_1994], [Trigeorgis 1996][book_trigeorgis_1996], and [Copeland and Antikarov 2001][book_copeland_antikarov_2001]. The framing treats each round as an option exercise and supplies the account of the investor's decision at each stage. The staged valuation admits the compact recursion
 
 $$W_n = \max \left\{ 0, \; \mathbb{E}\left[ W_{n+1} \mid \mathcal{F}_n \right] - k_n \right\}$$
 
-with $W_n$ the value of the participation right at stage $n$, $k_n$ the capital the stage requires, and $\mathcal{F}_n$ the information available at the decision. The framing's contribution to this article is that it identifies the abandonment option as valuable to the investor and costly to the venture, so that the instrument maximizing the investor's option value is not the instrument maximizing the probability the mission is completed.
+with $W_n$ the value of the participation right at stage $n$, $k_n$ the capital the stage requires, and $\mathcal{F}\_n$ the information available at the decision. The framing's contribution to this article is that it identifies the abandonment option as valuable to the investor and costly to the venture, so that the instrument maximizing the investor's option value is not the instrument maximizing the probability the mission is completed.
 
 The financial-sociology tradition traces from [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera through [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, [Preda 2009][book_preda_2009] Framing Finance, and [Krippner 2011][book_krippner_2011] Capitalizing on Crisis. The framing treats the horizon norms as institutionally constructed and not natural, and it provides the most direct support for the article's claim that patience is manufactured, not possessed, because it establishes that the short horizon the arrangement circumvents is itself an artifact of practices and not a property of capital. The claim admits the compact contrast
 
@@ -339,7 +339,7 @@ The clearing condition the mechanism must satisfy at each occasion may be writte
 
 $$\sum_{i \in \mathcal{S}_t} q_i \; \leq \; \sum_{j \in \mathcal{B}_t} d_j \big( P_t \big)$$
 
-with $\mathcal{S}_t$ the set of holders seeking to sell at the occasion, $\mathcal{B}_t$ the set of incoming buyers, and $d_j$ the demand each buyer brings at the price the firm sets. The issuer sets $P_t$ rather than discovering it, which means the issuer selects the point at which the inequality binds. The control over the clearing price is the feature the market-microstructure objection in the Alternative Analytical Frameworks section identifies as the principal challenge to the quantitative material, and the article accepts the objection.
+with $\mathcal{S}\_t$ the set of holders seeking to sell at the occasion, $\mathcal{B}\_t$ the set of incoming buyers, and $d_j$ the demand each buyer brings at the price the firm sets. The issuer sets $P_t$ rather than discovering it, which means the issuer selects the point at which the inequality binds. The control over the clearing price is the feature the market-microstructure objection in the Alternative Analytical Frameworks section identifies as the principal challenge to the quantitative material, and the article accepts the objection.
 
 The resolution can be stated as
 

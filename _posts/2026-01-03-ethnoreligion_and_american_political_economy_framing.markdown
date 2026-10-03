@@ -293,7 +293,7 @@ The adaptation axis characterizes response to novel conditions and pressures the
 
 $$\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)$$
 
-where $S_i$ is the substrate state, $S_i^{*}(t)$ is the environment-dependent target response, $\tau_i$ is the substrate's adaptation time constant, and $\xi_i(t)$ is exogenous perturbation. High-adaptation substrates (post-1965 Asian and African substrates rapidly forming denominational and educational institutions) exhibit short $\tau_i$, while low-adaptation substrates exhibit long $\tau_i$ associated with substrate rigidity or environmental hostility.
+where $S_i$ is the substrate state, $S_i^{\*}(t)$ is the environment-dependent target response, $\tau_i$ is the substrate's adaptation time constant, and $\xi_i(t)$ is exogenous perturbation. High-adaptation substrates (post-1965 Asian and African substrates rapidly forming denominational and educational institutions) exhibit short $\tau_i$, while low-adaptation substrates exhibit long $\tau_i$ associated with substrate rigidity or environmental hostility.
 
 ## Historiographical Gap and Recent Scholarship
 

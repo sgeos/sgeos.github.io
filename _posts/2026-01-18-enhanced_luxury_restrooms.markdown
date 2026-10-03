@@ -211,7 +211,7 @@ The intelligibility of a concealed sound against a background is quantified by t
 
 $$\text{AI} = \sum_k W_k \, \frac{\big[\, \text{SNR}_k + 12 \,\big]_0^{30}}{30}$$
 
-with $W_k$ the importance weight of frequency band $k$, $\text{SNR}_k = L_{s,k} - L_{n,k}$ the signal-to-noise ratio in the band, and the bracket denoting truncation to the interval from zero to thirty decibels. A concealed sound is intelligible as the index approaches one and private as it approaches zero. A masking device raises the effective background in each band, and the combined level of the ambient noise and the added masker is the energy sum
+with $W_k$ the importance weight of frequency band $k$, $\text{SNR}\_k = L_{s,k} - L_{n,k}$ the signal-to-noise ratio in the band, and the bracket denoting truncation to the interval from zero to thirty decibels. A concealed sound is intelligible as the index approaches one and private as it approaches zero. A masking device raises the effective background in each band, and the combined level of the ambient noise and the added masker is the energy sum
 
 $$L_{n,k}^{\text{tot}} = 10 \log_{10}\!\Big( 10^{L_{n,k}/10} + 10^{L_{m,k}/10} \Big)$$
 

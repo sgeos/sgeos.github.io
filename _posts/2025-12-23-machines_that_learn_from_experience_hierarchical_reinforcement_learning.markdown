@@ -129,7 +129,7 @@ with
 
 $$U^*(s', o) = (1 - \beta_o(s')) Q^*(s', o) + \beta_o(s') V^*(s'), \quad V^*(s') = \max_{o'} Q^*(s', o')$$
 
-The recursive structure enables value iteration and other dynamic programming methods to compute $Q^*$ and thereby the optimal policy over options.
+The recursive structure enables value iteration and other dynamic programming methods to compute $Q^\*$ and thereby the optimal policy over options.
 
 The option advantage function
 

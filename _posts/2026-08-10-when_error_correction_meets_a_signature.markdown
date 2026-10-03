@@ -118,14 +118,14 @@ sections rely on is restated there in words and numbers. **The algebra is here b
 that the awkward result is a property of the code itself rather than a defect of this implementation**,
 and that is a claim measurement alone cannot make.
 
-Work over the binary field $\mathbb{F}_2$, where addition is exclusive-or, written $\oplus$.
+Work over the binary field $\mathbb{F}\_2$, where addition is exclusive-or, written $\oplus$.
 
-A codeword is a data word $d \in \mathbb{F}_2^{64}$ together with $r = 8$ check bits, so the code has
+A codeword is a data word $d \in \mathbb{F}\_2^{64}$ together with $r = 8$ check bits, so the code has
 length
 
 $$n = k + r = 64 + 8 = 72$$
 
-and is written $(72, 64)$. The **parity-check matrix** $H \in \mathbb{F}_2^{8 \times 72}$ has one column
+and is written $(72, 64)$. The **parity-check matrix** $H \in \mathbb{F}\_2^{8 \times 72}$ has one column
 $h_i$ per bit position. The **syndrome** is the short summary the checker computes from a word it has
 just read, and **its whole usefulness is that it depends only on what went wrong and not on what the data
 was**. For a received word $c$ it is
@@ -151,7 +151,7 @@ Every column of $H$ is **distinct** and of **odd weight**. Distinctness is what 
 located, because the syndrome equals the column of the flipped bit. Odd weight is what makes the syndrome
 self-classifying without a separate overall parity bit.
 
-The number of odd-weight vectors in $\mathbb{F}_2^{r}$ is exactly half of them,
+The number of odd-weight vectors in $\mathbb{F}\_2^{r}$ is exactly half of them,
 
 $$\bigl|\{x \in \mathbb{F}_2^{r} : \mathrm{wt}(x) \text{ odd}\}\bigr| = 2^{r-1}$$
 

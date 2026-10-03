@@ -133,7 +133,7 @@ chlorine-free oxidizers discussed later.
 Hydroxyl-terminated polybutadiene, abbreviated HTPB, is a liquid prepolymer
 that cures into a solid elastomer through reaction with a diisocyanate or
 polyisocyanate curing agent. The polymer backbone consists of repeating
-butadiene units, chemical formula $(C_4H_6)_n$, terminated by hydroxyl
+butadiene units, chemical formula $(C_4H_6)\_n$, terminated by hydroxyl
 groups at both ends. The typical molecular weight of the uncured prepolymer
 is approximately $2500$ to $3000$ grams per mole. The cured elastomer
 provides the mechanical binder that holds the oxidizer and metal
@@ -375,7 +375,7 @@ composite ceiling.
 
 ### Ammonium Dinitramide
 
-Ammonium dinitramide, chemical formula $NH_4 N(NO_2)_2$ and molecular
+Ammonium dinitramide, chemical formula $NH_4 N(NO_2)\_2$ and molecular
 weight $124.06$ grams per mole, abbreviated ADN, is a crystalline
 oxidizer that produces exhaust containing water, nitrogen, and oxygen but
 no chlorine. It was developed in the nineteen seventies at the Zelinsky

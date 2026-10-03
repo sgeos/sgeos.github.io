@@ -27,11 +27,11 @@ $$\Phi = \prod_{k=1}^{10} \phi_k$$
 
 with closure requiring every factor to equal one. The product form is the notation the series has used throughout and it carries an assumption the series did not examine until late, which is that the factors are informative independently of one another. This article argues that they are not, and that the consequences are substantial in both directions.
 
-The conjunction admits a set-theoretic statement that makes the comparison problem explicit. Let $\mathcal{V}$ denote the set of contemporary ventures and $\mathcal{C}_k$ the subset satisfying condition $k$. The claim concerns
+The conjunction admits a set-theoretic statement that makes the comparison problem explicit. Let $\mathcal{V}$ denote the set of contemporary ventures and $\mathcal{C}\_k$ the subset satisfying condition $k$. The claim concerns
 
 $$\left| \bigcap_{k=1}^{10} \mathcal{C}_k \right| = 1$$
 
-with the intersection over all ten conditions containing exactly one element. The form makes visible what a component article could obscure, which is that eleven articles established ten separate statements about the individual $\mathcal{C}_k$ and none of them establishes anything about the intersection directly.
+with the intersection over all ten conditions containing exactly one element. The form makes visible what a component article could obscure, which is that eleven articles established ten separate statements about the individual $\mathcal{C}\_k$ and none of them establishes anything about the intersection directly.
 
 The identification problem for a synthesis is more severe than for any component article. Each component article could at least point to contemporaneous cases varying along its own dimension. A claim about the conjunction has a comparison set of one, and the article states plainly that no quantitative claim about the conjunction is identifiable from a single observation. The available inference admits the compact contrast
 

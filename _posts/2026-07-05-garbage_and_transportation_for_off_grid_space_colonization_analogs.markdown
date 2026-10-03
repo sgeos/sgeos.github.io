@@ -150,7 +150,7 @@ The aggregate cargo throughput
 across the transportation system
 follows from the per-route mass flow rates
 and the number of active routes.
-Let $\dot{m}_{cargo,j}$ denote
+Let $\dot{m}\_{cargo,j}$ denote
 the cargo throughput on route $j$
 in kilograms per day.
 The total throughput is

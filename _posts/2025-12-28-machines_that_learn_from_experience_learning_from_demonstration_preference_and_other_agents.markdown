@@ -103,7 +103,7 @@ Dynamic Movement Primitives (DMP) of [Ijspeert Nakanishi Hoffmann Pastor Schaal 
 
 Inverse reinforcement learning (IRL) treats the problem of recovering a reward function from expert demonstrations. The account provides a distinct account from behavior cloning in that the learned reward can be re-used across environments and permits substantial policy improvement over the demonstrator.
 
-The Ng and Russell 2000 linear-programming formulation established the identifiability problem. Given expert trajectories generated under an unknown reward $R^*$, multiple reward functions can explain the same behavior, so IRL is fundamentally under-specified without additional assumptions. Modern IRL frameworks impose regularizers or prior distributions to select among the ambiguous solutions.
+The Ng and Russell 2000 linear-programming formulation established the identifiability problem. Given expert trajectories generated under an unknown reward $R^\*$, multiple reward functions can explain the same behavior, so IRL is fundamentally under-specified without additional assumptions. Modern IRL frameworks impose regularizers or prior distributions to select among the ambiguous solutions.
 
 Apprenticeship learning of Abbeel and Ng 2004 assumes a linear reward $R(s) = w \cdot \phi(s)$ over a known feature vector $\phi(s)$ and iteratively identifies weights $w$ such that the learner's feature expectations match the expert's,
 
@@ -167,11 +167,11 @@ The adversarial imitation family provides substantially better sample efficiency
 
 Preference-based reinforcement learning treats the setting in which the learner receives ranked comparisons of trajectories or outcomes rather than scalar reward labels. The treatment provides an alternative supervision channel that is often easier to elicit from human judges than numerical reward specifications.
 
-The general framework maintains a preference dataset $\mathcal{D}_{\text{pref}} = \{(\tau_i, \tau_i', y_i)\}$ and learns a reward model $\hat{R}_\phi$ by minimizing the Bradley-Terry preference likelihood
+The general framework maintains a preference dataset $\mathcal{D}\_{\text{pref}} = \{(\tau_i, \tau_i', y_i)\}$ and learns a reward model $\hat{R}\_\phi$ by minimizing the Bradley-Terry preference likelihood
 
 $$L_{\text{reward}}(\phi) = -\mathbb{E}_{(\tau, \tau', y) \sim \mathcal{D}_{\text{pref}}}\!\left[y \log \sigma(\hat{R}_\phi(\tau) - \hat{R}_\phi(\tau')) + (1 - y) \log \sigma(\hat{R}_\phi(\tau') - \hat{R}_\phi(\tau))\right]$$
 
-where $\hat{R}_\phi(\tau) = \sum_t \hat{r}_\phi(s_t, a_t)$ is the trajectory-level reward under the learned reward model. The learned reward is subsequently used in standard reinforcement learning.
+where $\hat{R}\_\phi(\tau) = \sum_t \hat{r}\_\phi(s_t, a_t)$ is the trajectory-level reward under the learned reward model. The learned reward is subsequently used in standard reinforcement learning.
 
 Christiano et al 2017 Deep Reinforcement Learning from Human Preferences demonstrated the practical viability of the treatment by training Atari and MuJoCo policies from a modest budget of human preference queries. This account combined the reward model with active preference elicitation, requesting new comparisons on trajectory pairs where the learned reward is uncertain.
 
@@ -207,7 +207,7 @@ The DPO derivation begins from the KL-constrained reward maximization
 
 $$\max_\pi \, \mathbb{E}_{x, y \sim \pi}[R(x, y)] - \beta \, D_{\text{KL}}(\pi \, \| \, \pi_{\text{ref}})$$
 
-whose closed-form optimal policy is $\pi^*(y \mid x) \propto \pi_{\text{ref}}(y \mid x) \exp(R(x, y) / \beta)$. Rearranging for $R$ gives $R(x, y) = \beta \log(\pi^*(y \mid x) / \pi_{\text{ref}}(y \mid x)) + \beta \log Z(x)$ where the partition function $Z$ cancels in preference comparisons, yielding the DPO objective as maximum-likelihood on the implicit reward.
+whose closed-form optimal policy is $\pi^\*(y \mid x) \propto \pi_{\text{ref}}(y \mid x) \exp(R(x, y) / \beta)$. Rearranging for $R$ gives $R(x, y) = \beta \log(\pi^\*(y \mid x) / \pi_{\text{ref}}(y \mid x)) + \beta \log Z(x)$ where the partition function $Z$ cancels in preference comparisons, yielding the DPO objective as maximum-likelihood on the implicit reward.
 
 DPO has become widely adopted for language model post-training, providing considerable simplifications over the RLHF pipeline of Christiano et al 2017 and its Ouyang et al 2022 language-model instantiation. This account avoids the reward-model training stage, the reinforcement learning stage, and the associated hyperparameter tuning, at typically comparable performance.
 
@@ -231,7 +231,7 @@ The language-model alignment application of preference-based learning has consid
 
 ## Reward Modeling: Architecture, Uncertainty, and Overoptimization
 
-The reward model is a central component of the RLHF pipeline and supports distinctive design and training considerations that have received significant recent attention. The general reward model $\hat{R}_\phi(x, y)$ maps input-output pairs to scalar quality estimates through neural network parameterization, typically instantiated as a value head on a pretrained language model backbone.
+The reward model is a central component of the RLHF pipeline and supports distinctive design and training considerations that have received significant recent attention. The general reward model $\hat{R}\_\phi(x, y)$ maps input-output pairs to scalar quality estimates through neural network parameterization, typically instantiated as a value head on a pretrained language model backbone.
 
 Scaling laws for reward modeling of [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] documented systematic empirical relationships between reward model size, preference dataset size, and downstream policy performance. The model identified reward overoptimization as a failure mode that emerges when the policy exploits reward-model imperfections rather than optimizing the underlying preference,
 
@@ -243,7 +243,7 @@ Ensemble-based reward uncertainty of [Coste Bogomolov Grefenstette Hilton 2024][
 
 $$\hat{R}_{\text{LCB}}(y) = \bar{R}(y) - \beta \, \hat{\sigma}(y)$$
 
-with $\bar{R}$ the ensemble mean and $\hat{\sigma}$ the ensemble standard deviation. Policies optimizing $\hat{R}_{\text{LCB}}$ instead of $\hat{R}$ exhibit substantially reduced overoptimization at the cost of somewhat lower peak performance.
+with $\bar{R}$ the ensemble mean and $\hat{\sigma}$ the ensemble standard deviation. Policies optimizing $\hat{R}\_{\text{LCB}}$ instead of $\hat{R}$ exhibit substantially reduced overoptimization at the cost of somewhat lower peak performance.
 
 Reward model calibration of [Coste Bogomolov Grefenstette Hilton 2024][research_coste_et_al_2024_ensembles] documented that reward models trained with standard Bradley-Terry likelihood often produce miscalibrated confidence estimates, and proposed temperature scaling corrections that improve downstream policy performance.
 
@@ -295,7 +295,7 @@ Interactive learning extends this formulation to settings in which the learner q
 
 The COACH framework of [MacGlashan Ho Loftin Peng Wang Roberts Taylor Littman 2017][research_macglashan_et_al_2017_coach] introduced convergent actor-critic by humans, providing an algorithm that learns from real-time human evaluative feedback. The mechanism treats human feedback as a policy-improvement signal rather than as a reward specification.
 
-TAMER of [Knox and Stone 2009][research_knox_stone_2009_tamer] introduced training an agent manually via evaluative reinforcement, providing the earlier framework in which human evaluative signals shape the agent's policy without appearing in the reward function directly. The TAMER framework trains a human-reward model $\hat{H}_\phi(s, a)$ to predict future human evaluations and derives the policy through
+TAMER of [Knox and Stone 2009][research_knox_stone_2009_tamer] introduced training an agent manually via evaluative reinforcement, providing the earlier framework in which human evaluative signals shape the agent's policy without appearing in the reward function directly. The TAMER framework trains a human-reward model $\hat{H}\_\phi(s, a)$ to predict future human evaluations and derives the policy through
 
 $$\pi_{\text{TAMER}}(s) = \arg\max_a \, \hat{H}_\phi(s, a)$$
 
@@ -471,7 +471,7 @@ Inverse Reward Design of [Hadfield-Menell Milli Abbeel Russell Dragan 2017][rese
 
 $$p(R^* \mid \tilde{R}, \mathcal{M}) \propto p(\tilde{R} \mid R^*, \mathcal{M}) \, p(R^*)$$
 
-over the true reward $R^*$ given the specified proxy reward $\tilde{R}$ and the training environment $\mathcal{M}$, providing an AI system that reasons about the specifier's uncertainty when the specified reward proves misaligned with the true task.
+over the true reward $R^\*$ given the specified proxy reward $\tilde{R}$ and the training environment $\mathcal{M}$, providing an AI system that reasons about the specifier's uncertainty when the specified reward proves misaligned with the true task.
 
 Assistance Games with Learned Human Models of [Fern Natarajan Judah Tadepalli 2014][research_fern_et_al_2014_assistance] provided the earlier framework in which the AI system maintains an explicit model of the human principal's goals and actions, updating the model through observed principal behavior.
 

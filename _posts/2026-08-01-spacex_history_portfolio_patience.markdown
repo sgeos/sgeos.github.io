@@ -77,7 +77,7 @@ The portfolio-patience property is treated as an economic property of a firm's l
 
 The property has two components that the name joins and that are analytically separable. The portfolio component concerns the composition of the line set at an instant. The patience component concerns the willingness to sustain a line across the interval before it returns anything. A venture can hold a diversified portfolio without patience, in which case it terminates each line at the first adverse signal and holds a portfolio of short-lived undertakings. A venture can exhibit patience without a portfolio, in which case it is the single-bet configuration the negation cases illustrate. The condition requires both.
 
-The patience component permits formalization through the horizon over which the venture evaluates a line. Let $\tau_\ell$ denote the interval the venture will sustain the line $\ell$ before requiring a positive return, and let $\tau^{\ast}_\ell$ denote the interval the line in fact requires. The patience condition is
+The patience component permits formalization through the horizon over which the venture evaluates a line. Let $\tau_\ell$ denote the interval the venture will sustain the line $\ell$ before requiring a positive return, and let $\tau^{\ast}\_\ell$ denote the interval the line in fact requires. The patience condition is
 
 $$\tau_\ell \geq \tau^{\ast}_\ell \qquad \forall \ell \in \mathcal{L}$$
 
@@ -157,7 +157,7 @@ The corporate-strategy tradition traces from [Chandler 1962][book_chandler_1962]
 
 $$\Sigma(t) = \sum_{k \in K} \left[ \bar{u}_k - u_k(t) \right]^{+}$$
 
-with $\bar{u}_k$ the capacity of the capability $k$ and $u_k(t)$ its utilization, and with a positive slack constituting the resource from which a new line can be generated at a marginal, not a full cost. The expression is the formal statement of why the lines were generated and not acquired, and it is the quantity that distinguishes this growth path from an acquisitive one.
+with $\bar{u}\_k$ the capacity of the capability $k$ and $u_k(t)$ its utilization, and with a positive slack constituting the resource from which a new line can be generated at a marginal, not a full cost. The expression is the formal statement of why the lines were generated and not acquired, and it is the quantity that distinguishes this growth path from an acquisitive one.
 
 The platform and ecosystem tradition traces from [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997] The Power of Product Platforms, [Sanderson and Uzumeri 1997][book_sanderson_uzumeri_1997] Managing Product Families, [Robertson and Ulrich 1998][research_robertson_ulrich_1998], [Baldwin and Clark 2000][book_baldwin_clark_2000] Design Rules, [Cusumano and Gawer 2002][book_cusumano_gawer_2002] Platform Leadership, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, [Adner 2012][book_adner_2012] The Wide Lens, [Adner 2021][book_adner_2021] Winning the Right Game, [Adner and Kapoor 2010][research_adner_kapoor_2010], and [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018]. The framing treats the shared capability base as a platform from which the lines derive. The platform leverage permits the concise form
 
@@ -207,7 +207,7 @@ The offsetting consideration is that the correlation structure differs by risk c
 
 $$\rho_{\ell m} = \sum_{c \in \mathcal{C}} \omega_c \, \rho^{(c)}_{\ell m}$$
 
-with the total correlation a weighted sum across risk categories $c$, and with $\rho^{(\text{vehicle})}_{\ell m} \approx 1$ while $\rho^{(\text{demand})}_{\ell m}$ is substantially below unity across the pairs. The portfolio is therefore correctly described as diversified with respect to demand-side risk and undiversified with respect to supply-side risk. The correct summary statistic is accordingly a vector, not a scalar
+with the total correlation a weighted sum across risk categories $c$, and with $\rho^{(\text{vehicle})}\_{\ell m} \approx 1$ while $\rho^{(\text{demand})}\_{\ell m}$ is substantially below unity across the pairs. The portfolio is therefore correctly described as diversified with respect to demand-side risk and undiversified with respect to supply-side risk. The correct summary statistic is accordingly a vector, not a scalar
 
 $$\boldsymbol{L}^{\text{effective}} = \left( L^{\text{eff}}_{\text{vehicle}}, \; L^{\text{eff}}_{\text{demand}}, \; L^{\text{eff}}_{\text{regulatory}}, \; L^{\text{eff}}_{\text{key-person}} \right)$$
 

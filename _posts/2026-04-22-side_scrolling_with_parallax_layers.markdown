@@ -233,9 +233,9 @@ $$
 \frac{d \mathbf{p}_{\text{screen}}^{(l)}}{dt} = -z\, \sigma_l\, \mathbf{v}_c,
 $$
 
-where $\mathbf{v}_c = d\mathbf{c}/dt$
+where $\mathbf{v}\_c = d\mathbf{c}/dt$
 is the camera velocity in world units per second.
-A play-layer object moves at $-z \mathbf{v}_c$,
+A play-layer object moves at $-z \mathbf{v}\_c$,
 the full screen-space camera shift.
 A background object at $\sigma_l = 1/2$
 moves at half the rate.
@@ -274,7 +274,7 @@ allows the scroll factor
 to take a different value
 along the vertical axis
 than along the horizontal axis.
-Writing $\boldsymbol{\sigma}_l = (\sigma_l^x,\ \sigma_l^y)$
+Writing $\boldsymbol{\sigma}\_l = (\sigma_l^x,\ \sigma_l^y)$
 for the per-axis scroll-factor vector,
 and writing $\odot$
 for the component-wise product,
@@ -320,7 +320,7 @@ $$
 \{ (\mathbf{p}_{\text{world}}^{(l)},\ l) : l \in \{0, 1, \dots, L - 1\} \},
 $$
 
-with $\mathbf{p}_{\text{world}}^{(l)}$
+with $\mathbf{p}\_{\text{world}}^{(l)}$
 given by the per-layer inverse map above.
 The inverse map is layer-restricted
 in the sense
@@ -419,7 +419,7 @@ Layer 2 is a far sky layer
 with scroll factor $\sigma_2 = 1/4$.
 
 Consider a tree on the play layer
-at world position $\mathbf{p}_{\text{world}}^{(0)} = (1050, 200)$.
+at world position $\mathbf{p}\_{\text{world}}^{(0)} = (1050, 200)$.
 The forward map gives the tree's screen position as
 
 $$
@@ -427,7 +427,7 @@ $$
 $$
 
 Consider a hill on layer 1
-at world position $\mathbf{p}_{\text{world}}^{(1)} = (550, 100)$.
+at world position $\mathbf{p}\_{\text{world}}^{(1)} = (550, 100)$.
 The forward map gives the hill's screen position as
 
 $$
@@ -445,7 +445,7 @@ because the layer-1 forward map
 scales the camera by $1/2$.
 
 Consider a star on layer 2
-at world position $\mathbf{p}_{\text{world}}^{(2)} = (300, 50)$.
+at world position $\mathbf{p}\_{\text{world}}^{(2)} = (300, 50)$.
 The forward map gives the star's screen position as
 
 $$

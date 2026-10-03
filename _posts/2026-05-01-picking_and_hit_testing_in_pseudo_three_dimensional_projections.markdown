@@ -138,8 +138,8 @@ that the article describes.
 ## The Inverse Map Framework
 
 The forward map of a projection mode
-takes a world coordinate $\mathbf{p}_{\text{world}}$
-to a screen coordinate $\mathbf{p}_{\text{screen}}$.
+takes a world coordinate $\mathbf{p}\_{\text{world}}$
+to a screen coordinate $\mathbf{p}\_{\text{screen}}$.
 The inverse map
 takes a screen coordinate
 to a world coordinate or to a candidate set
@@ -225,7 +225,7 @@ $$
 \text{pick} = \arg\min_{i : \text{hit}(i)} \text{depth}_i,
 $$
 
-where $\text{depth}_i$
+where $\text{depth}\_i$
 is the depth from camera of sprite $i$.
 The closest sprite that the click hits
 is returned.
@@ -355,7 +355,7 @@ The determinant of the forward map's two-by-two matrix
 gives the screen-space area
 that a unit world-space rectangle covers
 under the projection.
-For a forward map $\mathbf{p}_{\text{screen}} = A \mathbf{p}_{\text{world}} + \mathbf{o}$,
+For a forward map $\mathbf{p}\_{\text{screen}} = A \mathbf{p}\_{\text{world}} + \mathbf{o}$,
 the screen-space area $A_{\text{screen}}$
 covered by a world-space rectangle of area $A_{\text{world}}$
 is
@@ -444,9 +444,9 @@ The forward map for a sprite
 at screen anchor position $\mathbf{c}$
 with scaling factor $s$
 and orientation angle $\theta$
-maps a sprite-local pixel $\mathbf{p}_{\text{local}}$
+maps a sprite-local pixel $\mathbf{p}\_{\text{local}}$
 to a screen pixel
-$\mathbf{p}_{\text{screen}} = \mathbf{c} + s R(\theta) \mathbf{p}_{\text{local}}$.
+$\mathbf{p}\_{\text{screen}} = \mathbf{c} + s R(\theta) \mathbf{p}\_{\text{local}}$.
 
 The inverse map
 recovers the sprite-local position
@@ -473,7 +473,7 @@ $$
 \text{hit, opaque} \iff \alpha(\mathbf{p}_{\text{local}}) > \alpha_{\text{threshold}},
 $$
 
-where $\alpha(\mathbf{p}_{\text{local}})$
+where $\alpha(\mathbf{p}\_{\text{local}})$
 is the sprite's alpha at the rounded local pixel coordinates
 and $\alpha_{\text{threshold}}$
 is the engine's transparency threshold.
@@ -599,7 +599,7 @@ The sprite's current scale factor is $s = 2$.
 The sprite's current orientation is $\theta = \pi/6$
 matching 30 degrees counterclockwise rotation.
 
-The Super Scope reports a hit at screen pixel $\mathbf{p}_{\text{screen}} = (200, 150)$.
+The Super Scope reports a hit at screen pixel $\mathbf{p}\_{\text{screen}} = (200, 150)$.
 The cartridge software
 computes the sprite-local hit position
 through the inverse forward map.
@@ -976,7 +976,7 @@ treats the numerical stability of the inverse
 through the condition number $\kappa(A)$,
 gives the area-scaling interpretation of the determinant $\lvert \det(A) \rvert$,
 treats the canonical sprite-scale-and-rotate hit test
-$\mathbf{p}_{\text{local}} = (1/s) R(-\theta) (\mathbf{p}_{\text{screen}} - \mathbf{c})$
+$\mathbf{p}\_{\text{local}} = (1/s) R(-\theta) (\mathbf{p}\_{\text{screen}} - \mathbf{c})$
 that Battle Clash and Metal Combat used
 for the Super Scope light-gun gameplay,
 and discusses light-gun picking

@@ -207,7 +207,7 @@ that emulates the classic pre-rendered-tile visual style.
 
 The world coordinate
 is a three-dimensional position
-$\mathbf{p}_{\text{world}} = (w_x, w_y, w_z)$,
+$\mathbf{p}\_{\text{world}} = (w_x, w_y, w_z)$,
 with the $y$-down convention
 of the previous articles.
 The two horizontal world axes
@@ -220,7 +220,7 @@ matching the screen-down convention
 of the earlier articles.
 The screen coordinate
 is a two-dimensional pixel position
-$\mathbf{p}_{\text{screen}} = (s_x, s_y)$.
+$\mathbf{p}\_{\text{screen}} = (s_x, s_y)$.
 The camera position
 is a three-dimensional world coordinate
 $\mathbf{c} = (c_x, c_y, c_z)$.

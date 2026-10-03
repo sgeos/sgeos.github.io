@@ -849,7 +849,7 @@ $$
 \dot{q}_s = k \sqrt{\frac{\rho}{r_n}} \, v^3
 $$
 
-The variable $\dot{q}_s$ is the convective heat flux
+The variable $\dot{q}\_s$ is the convective heat flux
 at the stagnation point.
 The constant $k$ depends on the atmospheric composition.
 For Earth's atmosphere, $k \approx 1.74 \times 10^{-4}$

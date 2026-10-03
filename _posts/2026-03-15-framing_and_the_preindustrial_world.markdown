@@ -63,13 +63,13 @@ $$
 
 which places the long-run limit on preindustrial productivity gains.
 
-The dynamic that enforces the equilibrium is a population response to real wages. Let $w$ denote the real wage available to laborers and $w^*$ the subsistence wage below which mortality exceeds fertility. The population equation of motion in Malthusian regimes takes the form
+The dynamic that enforces the equilibrium is a population response to real wages. Let $w$ denote the real wage available to laborers and $w^\*$ the subsistence wage below which mortality exceeds fertility. The population equation of motion in Malthusian regimes takes the form
 
 $$
 \frac{dN}{dt} = k \cdot (w - w^*) \cdot N
 $$
 
-with $k > 0$ producing the negative feedback that keeps $w$ in a neighborhood of $w^*$ across centuries. Sustained productivity gains push $w$ above $w^*$ briefly, triggering population growth, until the additional population brings $w$ back to $w^*$. The equilibrium is unstable to positive productivity shocks only over the transient period before the demographic response completes. The gain accrues as more people at the same standard of living, not as higher living standards for the same number of people. Gregory Clark's [Farewell to Alms][book_clark_farewell_to_alms] documents the mechanism at high resolution for preindustrial England and finds it consistent with historical wage and demographic series.
+with $k > 0$ producing the negative feedback that keeps $w$ in a neighborhood of $w^\*$ across centuries. Sustained productivity gains push $w$ above $w^\*$ briefly, triggering population growth, until the additional population brings $w$ back to $w^\*$. The equilibrium is unstable to positive productivity shocks only over the transient period before the demographic response completes. The gain accrues as more people at the same standard of living, not as higher living standards for the same number of people. Gregory Clark's [Farewell to Alms][book_clark_farewell_to_alms] documents the mechanism at high resolution for preindustrial England and finds it consistent with historical wage and demographic series.
 
 The Malthusian trap is the reason that preindustrial dynasties and empires that appear wealthy by absolute measures were poor by per-capita measures. Song China, at its economic peak in the twelfth century, likely had per-capita output within a factor of two of subsistence, according to the historical-national-accounting reconstruction by [Broadberry, Guan, and Li spanning 980 to 1850][research_broadberry_china_europe]. The absolute output was large because the population was large. The per-capita output was small because the productivity ceiling was low. Comparative wage series for later Qing China, established by [Allen, Bassino, Ma, Moll-Murata, and van Zanden across the 1738 to 1925 window][research_allen_china_wages], confirm the pattern for the succeeding centuries. Roman-era estimates in the [Scheidel and Friesen empire-wide reconstruction][research_scheidel_friesen_roman] suggest similar per-capita numbers for the classical Mediterranean. The pattern held across every organic economy for which quantitative estimates exist. The [formal empirical test of Malthusian dynamics by Ashraf and Galor][research_ashraf_galor_malthusian] using preindustrial data across seventy-nine countries and centuries of population and technology series confirms the equilibrium mechanism the equations above sketch. Gregory Clark's [detailed reconstruction of English working-class conditions from 1209 to 2004][research_clark_working_class] provides the single most careful preindustrial wage series and shows the Malthusian pattern operating in the most-studied historical case.
 
@@ -181,7 +181,7 @@ $$
 
 which produces enormous divergences even from modest growth-rate gaps sustained over multiple generations. A leader growing per capita at two percent per year and a follower growing at one percent per year diverge by a factor of $e^{0.01 \cdot 100} \approx 2.7$ over a century. The compounding property is what turns modest early differences in industrial adoption into structural gaps that persist across generations.
 
-The aggregate consequence is the phenomenon that Kenneth Pomeranz named the Great Divergence. Let $\bar{Y}_{\text{world,pc}}(t)$ denote the population-weighted mean of world per-capita output at time $t$, and let $Y_{\text{leader,pc}}(t)$ denote the per-capita output of the leading industrial economy. The divergence ratio is
+The aggregate consequence is the phenomenon that Kenneth Pomeranz named the Great Divergence. Let $\bar{Y}\_{\text{world,pc}}(t)$ denote the population-weighted mean of world per-capita output at time $t$, and let $Y_{\text{leader,pc}}(t)$ denote the per-capita output of the leading industrial economy. The divergence ratio is
 
 $$
 D(t) = \frac{Y_{\text{leader,pc}}(t)}{\bar{Y}_{\text{world,pc}}(t)}

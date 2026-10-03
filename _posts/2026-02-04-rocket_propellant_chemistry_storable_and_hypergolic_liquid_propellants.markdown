@@ -143,7 +143,7 @@ propulsion because of its wide liquid temperature range, comparable
 specific impulse to hydrazine, and better hypergolic ignition delay
 with nitrogen tetroxide than unsymmetrical dimethylhydrazine offers.
 
-Unsymmetrical dimethylhydrazine, chemical formula $(CH_3)_2 N NH_2$ or
+Unsymmetrical dimethylhydrazine, chemical formula $(CH_3)\_2 N NH_2$ or
 $C_2 H_8 N_2$ and molecular weight $60.10$ grams per mole, is the
 disubstituted hydrazine derivative in which both amine hydrogens on one
 nitrogen are replaced by methyl groups. Its freezing point is $-57$
@@ -386,7 +386,7 @@ monopropellants have flown at spacecraft scale.
 ### LMP-103S
 
 LMP-103S is a solution of approximately $63$ percent ammonium
-dinitramide, chemical formula $NH_4 N(NO_2)_2$ discussed in [the article
+dinitramide, chemical formula $NH_4 N(NO_2)\_2$ discussed in [the article
 on solid propellants][related_post_a218], with approximately $18$ percent
 methanol, approximately $6$ percent ammonia, and the balance water.
 Ammonium dinitramide serves as the storable liquid oxidizer, methanol

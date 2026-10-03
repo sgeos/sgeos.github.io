@@ -21,7 +21,7 @@ The evolutionary adaptation problem is specified by a population of candidate so
 
 $$\mathcal{P}_t = \{x_1^{(t)}, x_2^{(t)}, \ldots, x_N^{(t)}\}, \quad x_i^{(t)} \in \mathcal{X}$$
 
-and iteratively updates the population through a triple of operations. Selection maps the current population to a distribution $s(\mathcal{P}_t)$ that favors high-fitness individuals. Variation operators apply mutation $m : \mathcal{X} \to \mathcal{X}$ and recombination $r : \mathcal{X} \times \mathcal{X} \to \mathcal{X}$ to selected parents to produce offspring. Replacement combines offspring and prior population into the next generation $\mathcal{P}_{t+1}$. The general evolutionary update rule takes the form
+and iteratively updates the population through a triple of operations. Selection maps the current population to a distribution $s(\mathcal{P}\_t)$ that favors high-fitness individuals. Variation operators apply mutation $m : \mathcal{X} \to \mathcal{X}$ and recombination $r : \mathcal{X} \times \mathcal{X} \to \mathcal{X}$ to selected parents to produce offspring. Replacement combines offspring and prior population into the next generation $\mathcal{P}\_{t+1}$. The general evolutionary update rule takes the form
 
 $$\mathcal{P}_{t+1} = \text{replace}\!\left(\mathcal{P}_t, \, \{m(r(s(\mathcal{P}_t), s(\mathcal{P}_t))) \, : \, i = 1, \ldots, \lambda\}\right)$$
 
@@ -225,7 +225,7 @@ The general multi-objective problem seeks the Pareto set
 
 $$\mathcal{P}^* = \{x \in \mathcal{X} \, : \, \nexists y \in \mathcal{X} \text{ such that } y \succ_{\text{Pareto}} x\}$$
 
-with $\succ_{\text{Pareto}}$ the Pareto-dominance relation. The image of $\mathcal{P}^*$ in objective space forms the Pareto front, and multi-objective evolutionary algorithms approximate this front through population-based search.
+with $\succ_{\text{Pareto}}$ the Pareto-dominance relation. The image of $\mathcal{P}^\*$ in objective space forms the Pareto front, and multi-objective evolutionary algorithms approximate this front through population-based search.
 
 NSGA-II of [Deb Pratap Agarwal Meyarivan 2002][research_deb_et_al_2002_nsga2] introduced the modern non-dominated sorting genetic algorithm through fast non-dominated sorting combined with crowding-distance-based diversity preservation. This account partitions the population into non-domination levels
 
@@ -501,7 +501,7 @@ The Baldwin Effect of [Baldwin 1896][research_baldwin_1896] proposed the mechani
 
 $$F_{\text{Baldwin}}(g) = \mathbb{E}_{\pi \sim \text{Learn}_T(g)}\!\left[F(\pi)\right]$$
 
-with $\text{Learn}_T(g)$ the distribution of phenotypes reachable from $g$ through $T$ steps of lifetime learning. When lifetime learning can reach the fitness optimum from many nearby genotypes, the effective evolutionary fitness landscape is smoother than the direct genotype-to-fitness map.
+with $\text{Learn}\_T(g)$ the distribution of phenotypes reachable from $g$ through $T$ steps of lifetime learning. When lifetime learning can reach the fitness optimum from many nearby genotypes, the effective evolutionary fitness landscape is smoother than the direct genotype-to-fitness map.
 
 Evolutionary developmental biology (evo-devo) of [Carroll 2005][book_carroll_2005] identified the molecular mechanisms through which conserved developmental genes produce diverse morphological outcomes, providing empirical evidence for the compositional and modular structure of biological evolution. The framework provides testable predictions about the structural conditions that support cumulative evolution.
 

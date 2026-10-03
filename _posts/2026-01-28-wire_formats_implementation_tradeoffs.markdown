@@ -79,7 +79,7 @@ The permissive position is the robustness principle in its classical form, which
 
 The two positions produce opposite failure modes. Permissive readers stay compatible and can act on messages they only partly understand. Strict readers refuse to act on incomplete understanding and require coordinated upgrades.
 
-Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reader schema. Write $\operatorname{dec}_R$ for the reader's decode function and $\operatorname{enc}_W$ for the writer's encode function, and let $\preceq$ order schema versions. Backward compatibility is the requirement
+Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reader schema. Write $\operatorname{dec}\_R$ for the reader's decode function and $\operatorname{enc}\_W$ for the writer's encode function, and let $\preceq$ order schema versions. Backward compatibility is the requirement
 
 $$\operatorname{dec}_R\left( \operatorname{enc}_W(v) \right) = v \quad \text{for all } W \preceq R$$
 

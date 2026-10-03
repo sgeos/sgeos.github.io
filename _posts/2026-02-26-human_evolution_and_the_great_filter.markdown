@@ -856,7 +856,7 @@ $$N = R_* \cdot f_p \cdot n_e \cdot f_l \cdot f_i \cdot f_c \cdot L$$
 
 where $N$ is the number
 of detectable civilizations in the galaxy,
-$R_*$ is the average rate of star formation
+$R_\*$ is the average rate of star formation
 per year in the galaxy,
 $f_p$ is the fraction of stars
 with planetary systems,
@@ -875,13 +875,13 @@ remain detectable.
 
 Modern astronomical observations
 have constrained the first three factors.
-$R_*$ is approximately 1.5-3 stars per year.
+$R_\*$ is approximately 1.5-3 stars per year.
 $f_p$ is close to 1,
 as most stars have planetary systems.
 $n_e$ is estimated at 0.1-0.4
 habitable-zone rocky planets per star
 based on Kepler mission data.
-The product $R_* \cdot f_p \cdot n_e$
+The product $R_\* \cdot f_p \cdot n_e$
 is not small.
 The Milky Way contains
 an estimated 300 million

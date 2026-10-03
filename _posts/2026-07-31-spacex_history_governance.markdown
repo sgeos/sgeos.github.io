@@ -43,7 +43,7 @@ $$\frac{\partial v^{\text{founder}}}{\partial \delta_n} \approx 0 \qquad \text{w
 
 with the voting share substantially insensitive to the dilution that the cash-flow share absorbs. The decoupling is the whole of the technical content of the dual-class instrument, and the remainder of the analytical question concerns what the decoupling is used for.
 
-The capital-capture event that the condition is designed to prevent permits definition as a change in the mission objective attributable to the preferences of the capital providers. Let $M(t)$ denote the mission objective and let $\mathcal{F}_t$ denote the information available at time $t$. The capture indicator has the concise form
+The capital-capture event that the condition is designed to prevent permits definition as a change in the mission objective attributable to the preferences of the capital providers. Let $M(t)$ denote the mission objective and let $\mathcal{F}\_t$ denote the information available at time $t$. The capture indicator has the concise form
 
 $$\kappa(t) = \mathbb{1}\!\left[ M(t) \neq M(t^-) \; \wedge \; \Delta M \in \arg\max_{M'} \sum_{i \neq \text{founder}} e_i \cdot U_i(M') \right]$$
 

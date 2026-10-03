@@ -140,10 +140,10 @@ is the simplest possible.
 
 The world coordinate
 is a two-dimensional position
-$\mathbf{p}_{\text{world}} = (w_x, w_y)$.
+$\mathbf{p}\_{\text{world}} = (w_x, w_y)$.
 The screen coordinate
 is a two-dimensional pixel position
-$\mathbf{p}_{\text{screen}} = (s_x, s_y)$.
+$\mathbf{p}\_{\text{screen}} = (s_x, s_y)$.
 The camera position
 is a world coordinate
 $\mathbf{c} = (c_x, c_y)$
@@ -336,7 +336,7 @@ The tile size is $s_{\text{tile}} = 32$ world units.
 
 The forward map
 for a tree
-at world position $\mathbf{p}_{\text{world}} = (600, 350)$
+at world position $\mathbf{p}\_{\text{world}} = (600, 350)$
 proceeds as follows.
 The camera-relative world position is
 $(600 - 500, 350 - 400) = (100, -50)$.
@@ -432,7 +432,7 @@ $$
 \mathbf{c} = \mathrm{clamp}\left( \mathbf{c}_{\text{target}},\ \mathbf{m}_{\min} + \tfrac{\mathbf{v}}{2},\ \mathbf{m}_{\max} - \tfrac{\mathbf{v}}{2} \right),
 $$
 
-where $\mathbf{m}_{\min}$ and $\mathbf{m}_{\max}$
+where $\mathbf{m}\_{\min}$ and $\mathbf{m}\_{\max}$
 are the world-space corners of the map
 and $\mathbf{v} = (W/z,\ H/z)$
 is the viewport size in world units.

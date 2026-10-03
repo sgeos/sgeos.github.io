@@ -89,7 +89,7 @@ with the $f$ function determined by the intellectual-property regime, the comple
 
 $$CA_i = \sum_{a \in \text{assets}} \omega_a \cdot \phi^{\text{internal}}_{i,a}$$
 
-with $\phi^{\text{internal}}_{i,a}$ the fraction of complementary asset $a$ that firm $i$ holds internally rather than through unaffiliated firms and $\omega_a$ the weight reflecting the criticality of asset $a$ to the commercialization. The [Teece 1986][research_teece_1986] insight is that the innovating firm often fails to capture the value the innovation creates when the complementary assets required for commercialization are held by unaffiliated firms and the intellectual-property regime does not adequately protect the innovation. The SpaceX case exhibits the vertical-integration configuration that retains the complementary assets required for the satellite-broadband commercialization, distinguishing the case from the Xerox PARC and Bell Labs counter-example cases.
+with $\phi^{\text{internal}}\_{i,a}$ the fraction of complementary asset $a$ that firm $i$ holds internally rather than through unaffiliated firms and $\omega_a$ the weight reflecting the criticality of asset $a$ to the commercialization. The [Teece 1986][research_teece_1986] insight is that the innovating firm often fails to capture the value the innovation creates when the complementary assets required for commercialization are held by unaffiliated firms and the intellectual-property regime does not adequately protect the innovation. The SpaceX case exhibits the vertical-integration configuration that retains the complementary assets required for the satellite-broadband commercialization, distinguishing the case from the Xerox PARC and Bell Labs counter-example cases.
 
 The launch-service pricing markup allows the Lerner-index characterization
 
@@ -105,7 +105,7 @@ The industrial-organization tradition traces from [Bain 1968][book_bain_1968] In
 
 $$VCP_i = \sum_{s \in \text{stages}} \omega_s \cdot \phi^{\text{internal}}_{i,s}$$
 
-with $\phi^{\text{internal}}_{i,s}$ the fraction of value-chain stage $s$ that firm $i$ conducts internally and $\omega_s$ the stage-weight indicating the value-contribution of the stage.
+with $\phi^{\text{internal}}\_{i,s}$ the fraction of value-chain stage $s$ that firm $i$ conducts internally and $\omega_s$ the stage-weight indicating the value-contribution of the stage.
 
 The resource-based-view tradition traces from [Penrose 1959][book_penrose_1959] The Theory of the Growth of the Firm through [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm, [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, [Peteraf 1993][research_peteraf_1993] The Cornerstones of Competitive Advantage, [Teece Pisano Shuen 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, and [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000] Dynamic Capabilities What Are They. The framing treats the value-capture property through the firm-capability accumulation that produces the sustained competitive advantage supporting the value capture. The resource-heterogeneity index may be written
 
@@ -125,7 +125,7 @@ The vertical-integration tradition traces from [Coase 1937][research_coase_1937]
 
 $$C^{\text{internal}}(q) + T^{\text{governance}}_{\text{internal}} = C^{\text{market}}(q) + T^{\text{transaction}}_{\text{market}}$$
 
-with $T^{\text{governance}}_{\text{internal}}$ the internal-governance cost and $T^{\text{transaction}}_{\text{market}}$ the market-transaction cost. The make decision is favored when the asset-specificity, frequency, and uncertainty conditions elevate the market-transaction cost above the internal-governance cost. The SpaceX vertical-integration into Starlink represents the make decision that internalizes the satellite-manufacturing and satellite-broadband capabilities within the firm boundary.
+with $T^{\text{governance}}\_{\text{internal}}$ the internal-governance cost and $T^{\text{transaction}}\_{\text{market}}$ the market-transaction cost. The make decision is favored when the asset-specificity, frequency, and uncertainty conditions elevate the market-transaction cost above the internal-governance cost. The SpaceX vertical-integration into Starlink represents the make decision that internalizes the satellite-manufacturing and satellite-broadband capabilities within the firm boundary.
 
 The two-sided-market tradition traces from [Rochet and Tirole 2003][research_rochet_tirole_2003] Platform Competition in Two-Sided Markets through [Rysman 2009][research_rysman_2009] The Economics of Two-Sided Markets. The framing treats the Starlink configuration as a two-sided platform coordinating the satellite-manufacturing and satellite-broadband service segments with the end-customer subscription segment. The two-sided pricing structure can be written as
 
@@ -151,7 +151,7 @@ The ecosystem-strategy tradition traces from [Adner 2012][book_adner_2012] The W
 
 $$V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)$$
 
-with $\phi^{\text{appropriation}}_i$ the fraction of the ecosystem value the firm captures.
+with $\phi^{\text{appropriation}}\_i$ the fraction of the ecosystem value the firm captures.
 
 The financial-sociology tradition traces from [Fligstein 2001][book_fligstein_2001] The Architecture of Markets through [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera, [Ho 2009][book_ho_2009] Liquidated, and [Zaloom 2006][book_zaloom_2006] Out of the Pits. The framing treats the SpaceX-Starlink capital-formation configuration through the financial-market institutional arrangement that shapes the accessible capital-raising terms, the acceptable dilution trajectories, and the role of the vertical-integration in supporting the private-market capital-raising strategy. The 2015 Google-Fidelity Starlink-motivated round illustrates the coupling between the vertical-integration decision and the financial-market capital-raising strategy.
 
@@ -253,7 +253,7 @@ The pre-operational Starlink capital investment across the 2015 through 2019 dev
 
 $$K^{\text{cum,pre-op}}(T) = K^{\text{initial}} + \int_0^T c^{\text{burn}}_{\text{Starlink}}(\tau) \, d\tau$$
 
-with $c^{\text{burn}}_{\text{Starlink}}(\tau)$ the Starlink-burn rate ranging from approximately 100 million dollars per year in the initial 2015-2017 period to approximately 400 million dollars per year in the 2018-2019 pre-launch scale-up period. The capital investment was substantially funded through the SpaceX launch-service revenue and the Google and Fidelity 2015 Starlink-motivated one-billion-dollar Series G investment round that the [Patient-Private Capital-Formation Leg article A290][related_post_a281_spacex_framing] treats at greater depth.
+with $c^{\text{burn}}\_{\text{Starlink}}(\tau)$ the Starlink-burn rate ranging from approximately 100 million dollars per year in the initial 2015-2017 period to approximately 400 million dollars per year in the 2018-2019 pre-launch scale-up period. The capital investment was substantially funded through the SpaceX launch-service revenue and the Google and Fidelity 2015 Starlink-motivated one-billion-dollar Series G investment round that the [Patient-Private Capital-Formation Leg article A290][related_post_a281_spacex_framing] treats at greater depth.
 
 ## Starlink Operational Deployment 2019-2026
 
@@ -599,7 +599,7 @@ with $\phi_k$ the closure indicator for sub-property $k$ and the conjunction req
 
 $$\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5$$
 
-with the candidate's value-capture closure occurring when $\boldsymbol{\phi}_j = \mathbf{1}$. Under order-of-magnitude estimates $p_k \approx 0.25$ across the five sub-properties and independence, the joint-closure probability is approximately
+with the candidate's value-capture closure occurring when $\boldsymbol{\phi}\_j = \mathbf{1}$. Under order-of-magnitude estimates $p_k \approx 0.25$ across the five sub-properties and independence, the joint-closure probability is approximately
 
 $$P^{\text{VC closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001$$
 

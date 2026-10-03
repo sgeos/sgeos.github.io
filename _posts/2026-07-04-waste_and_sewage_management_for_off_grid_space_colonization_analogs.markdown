@@ -157,7 +157,7 @@ follows from the per-crew per-day rate
 and the crew complement.
 Let $N_{crew}$ denote
 the crew complement
-and let $\dot{m}_{waste,i}$ denote
+and let $\dot{m}\_{waste,i}$ denote
 the per-crew per-day production rate
 of waste stream $i$
 in kilograms per crew per day.
@@ -173,23 +173,23 @@ under a spaceflight-equivalent consumption profile
 includes
 approximately
 one and a half to two kilograms of urine
-at $\dot{m}_{urine} \approx 1.8$ kg per crew per day,
+at $\dot{m}\_{urine} \approx 1.8$ kg per crew per day,
 approximately
 one hundred to two hundred grams of faeces by wet mass
-at $\dot{m}_{faeces} \approx 0.15$ kg per crew per day,
+at $\dot{m}\_{faeces} \approx 0.15$ kg per crew per day,
 approximately
 zero point four to one kilogram
 of food packaging
 and miscellaneous solid trash
-at $\dot{m}_{trash} \approx 0.7$ kg per crew per day,
+at $\dot{m}\_{trash} \approx 0.7$ kg per crew per day,
 approximately
 one kilogram of carbon dioxide
 through respiration
-at $\dot{m}_{CO_2} \approx 1.0$ kg per crew per day,
+at $\dot{m}\_{CO_2} \approx 1.0$ kg per crew per day,
 and approximately
 one and a half to two and a half kilograms
 of sweat and respired water vapour
-at $\dot{m}_{H_2O,vapour} \approx 2.0$ kg per crew per day.
+at $\dot{m}\_{H_2O,vapour} \approx 2.0$ kg per crew per day.
 The integrated total
 runs approximately
 five to six kilograms per crew per day
@@ -752,7 +752,7 @@ The total lithium hydroxide mass
 required across a mission
 of duration $T_{mission}$
 for $N_{crew}$ crew
-under per-crew carbon dioxide production $\dot{m}_{CO_2}$
+under per-crew carbon dioxide production $\dot{m}\_{CO_2}$
 and utilisation efficiency $\eta_{LiOH}$
 is
 

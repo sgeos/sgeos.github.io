@@ -202,7 +202,7 @@ $$
 F(\mathbf{p}_{\text{world}}) = F_{i(\mathbf{p}_{\text{world}})}(\mathbf{p}_{\text{world}}),
 $$
 
-where $i(\mathbf{p}_{\text{world}})$
+where $i(\mathbf{p}\_{\text{world}})$
 identifies the region
 that the world point falls into.
 The function $i$
@@ -318,7 +318,7 @@ $$
 \mathbf{p}_{\text{world}}^{\text{eff}} = \mathbf{p}_{\text{world}} \bmod \mathbf{W}_{\text{world}},
 $$
 
-where $\mathbf{W}_{\text{world}} = (W_{\text{world}, x}, W_{\text{world}, z})$
+where $\mathbf{W}\_{\text{world}} = (W_{\text{world}, x}, W_{\text{world}, z})$
 is the world dimensions
 along the two wrapping axes.
 The forward map applies to the effective position,
@@ -358,7 +358,7 @@ that the player associates with the game.
 
 The inverse map of a piecewise projection
 is itself piecewise.
-Given a screen pixel $\mathbf{p}_{\text{screen}}$,
+Given a screen pixel $\mathbf{p}\_{\text{screen}}$,
 the engine identifies which region
 or game state
 the click refers to
@@ -368,7 +368,7 @@ $$
 F^{-1}(\mathbf{p}_{\text{screen}}) = F_{i(\mathbf{p}_{\text{screen}})}^{-1}(\mathbf{p}_{\text{screen}}).
 $$
 
-The function $i(\mathbf{p}_{\text{screen}})$
+The function $i(\mathbf{p}\_{\text{screen}})$
 that identifies the region from the screen pixel
 is the dual of the world-region partition function.
 For the Mother hybrid,
@@ -402,7 +402,7 @@ $$
 F^{-1}_{\text{torus}}(\mathbf{p}_{\text{screen}}) = \{\mathbf{p}_{\text{world}}^{\text{base}} + (k_x \, W_{\text{world}, x},\ k_z \, W_{\text{world}, z}) : k_x, k_z \in \mathbb{Z}\},
 $$
 
-where $\mathbf{p}_{\text{world}}^{\text{base}}$
+where $\mathbf{p}\_{\text{world}}^{\text{base}}$
 is the base inverse before wrap consideration
 and $(k_x, k_z)$
 runs over integer shift indices
@@ -430,7 +430,7 @@ The screen-centre offset is $\mathbf{o} = (128, 112)$.
 The camera position is $\mathbf{c} = (5, 5)$ world tiles.
 The ground vertical world coordinate is $w_y^{\text{ground}} = 0$.
 
-A ground tile at world position $\mathbf{p}_{\text{world}} = (5, 0, 5)$
+A ground tile at world position $\mathbf{p}\_{\text{world}} = (5, 0, 5)$
 projects through the top-down forward map to
 
 $$
@@ -439,7 +439,7 @@ $$
 
 The tile renders at the screen centre.
 
-A building anchored at world position $\mathbf{p}_{\text{world}} = (5, 0, 6)$
+A building anchored at world position $\mathbf{p}\_{\text{world}} = (5, 0, 6)$
 with height $h_{\text{building}} = 3$ world tiles
 has its base at the screen position
 
@@ -844,7 +844,7 @@ within a single game
 to produce a visual identity
 that no single mode achieves alone.
 The piecewise forward map
-$F(\mathbf{p}_{\text{world}}) = F_{i(\mathbf{p}_{\text{world}})}(\mathbf{p}_{\text{world}})$
+$F(\mathbf{p}\_{\text{world}}) = F_{i(\mathbf{p}\_{\text{world}})}(\mathbf{p}\_{\text{world}})$
 applies different projection modes
 to different regions of the world
 or different game states.

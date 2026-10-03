@@ -97,13 +97,13 @@ for $\gamma < 1$ where the inverse exists because $\gamma \mathbf{P}^{\pi}$ has 
 
 $$Q^{\pi}(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \sum_{a'} \pi(a' \mid s') Q^{\pi}(s', a') \right]$$
 
-The Bellman optimality equations characterize the optimal value functions $V^*$ and $Q^*$,
+The Bellman optimality equations characterize the optimal value functions $V^\*$ and $Q^\*$,
 
 $$V^*(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^*(s') \right]$$
 
 $$Q^*(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \max_{a'} Q^*(s', a') \right]$$
 
-An optimal policy $\pi^*$ is any policy achieving $V^{\pi^*} = V^*$ at every state, equivalently any policy that at each state selects an action in $\arg\max_a Q^*(s, a)$. Existence of optimal deterministic policies is guaranteed for finite MDPs under standard conditions.
+An optimal policy $\pi^\*$ is any policy achieving $V^{\pi^\*} = V^\*$ at every state, equivalently any policy that at each state selects an action in $\arg\max_a Q^\*(s, a)$. Existence of optimal deterministic policies is guaranteed for finite MDPs under standard conditions.
 
 ## Optimality, Contraction, and Fixed Points
 
@@ -119,7 +119,7 @@ Both operators are $\gamma$-contractions on $\mathbb{R}^{\lvert \mathcal{S} \rve
 
 $$\| T^{\pi} V - T^{\pi} V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}, \quad \| T^* V - T^* V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}$$
 
-By the Banach fixed-point theorem, each operator has a unique fixed point that value iteration converges to at a geometric rate governed by $\gamma$. The fixed point of $T^{\pi}$ is $V^{\pi}$ and the fixed point of $T^*$ is $V^*$. The corresponding contraction property for the $Q$-value operators is analogous.
+By the Banach fixed-point theorem, each operator has a unique fixed point that value iteration converges to at a geometric rate governed by $\gamma$. The fixed point of $T^{\pi}$ is $V^{\pi}$ and the fixed point of $T^\*$ is $V^\*$. The corresponding contraction property for the $Q$-value operators is analogous.
 
 The greedy policy with respect to a value function $V$ is the deterministic policy
 
@@ -129,13 +129,13 @@ The policy improvement theorem states that if $\pi$ and $\pi'$ are two policies 
 
 ## Dynamic Programming Methods
 
-When the MDP model $(P, R)$ is known, dynamic programming provides exact algorithms for computing $V^{\pi}$ and $V^*$.
+When the MDP model $(P, R)$ is known, dynamic programming provides exact algorithms for computing $V^{\pi}$ and $V^\*$.
 
 Value iteration applies the Bellman optimality operator directly,
 
 $$V_{k+1}(s) = (T^* V_k)(s)$$
 
-converging to $V^*$ from any initial $V_0$ at a rate
+converging to $V^\*$ from any initial $V_0$ at a rate
 
 $$\| V_k - V^* \|_{\infty} \leq \gamma^k \| V_0 - V^* \|_{\infty}$$
 
@@ -145,7 +145,7 @@ Policy iteration alternates policy evaluation, which solves the linear system $V
 
 $$\pi_{k+1}(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi_k}(s') \right]$$
 
-Policy iteration converges to $\pi^*$ in a finite number of iterations for finite MDPs, since each iteration strictly improves the policy or terminates. In practice policy iteration converges in a small number of iterations independent of state-space size for well-posed problems.
+Policy iteration converges to $\pi^\*$ in a finite number of iterations for finite MDPs, since each iteration strictly improves the policy or terminates. In practice policy iteration converges in a small number of iterations independent of state-space size for well-posed problems.
 
 Modified policy iteration interpolates between value and policy iteration by performing a limited number of Bellman expectation operator applications before each policy improvement step, trading exactness of policy evaluation for reduced per-iteration cost. Asynchronous dynamic programming permits the Bellman operator to be applied to states in arbitrary order and possibly with stale value estimates, provided every state is visited infinitely often. Gauss-Seidel value iteration uses the most recent updated values within each sweep, typically converging faster in practice than the synchronous Jacobi-style update.
 
@@ -161,7 +161,7 @@ Monte Carlo methods estimate value functions from sample episodes rather than fr
 
 $$\hat{V}^{\pi}_{\text{FV}}(s) = \frac{1}{|\text{Ep}(s)|} \sum_{i \in \text{Ep}(s)} G^{(i)}_{t^{(i)}_s}$$
 
-where $\text{Ep}(s)$ is the set of episodes containing state $s$ and $t^{(i)}_s$ is the time of first visit. The every-visit variant
+where $\text{Ep}(s)$ is the set of episodes containing state $s$ and $t^{(i)}\_s$ is the time of first visit. The every-visit variant
 
 $$\hat{V}^{\pi}_{\text{EV}}(s) = \frac{1}{N(s)} \sum_{i} \sum_{t : s_t^{(i)} = s} G^{(i)}_{t}$$
 
@@ -221,7 +221,7 @@ Q-learning is the canonical off-policy TD control algorithm. The one-step Q-lear
 
 $$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]$$
 
-The target uses the maximum $Q$ over next actions rather than the action actually selected, making the update off-policy. Q-learning learns about the greedy policy regardless of which policy generated the data. [Watkins and Dayan 1992][research_watkins_dayan_1992] proved that Q-learning converges to $Q^*$ almost surely under standard conditions on the step-size and the visitation of state-action pairs.
+The target uses the maximum $Q$ over next actions rather than the action actually selected, making the update off-policy. Q-learning learns about the greedy policy regardless of which policy generated the data. [Watkins and Dayan 1992][research_watkins_dayan_1992] proved that Q-learning converges to $Q^\*$ almost surely under standard conditions on the step-size and the visitation of state-action pairs.
 
 SARSA is the on-policy analogue, using the actually-selected next action in the target,
 
@@ -255,7 +255,7 @@ The $\epsilon$-greedy strategy selects a uniform random action with probability 
 
 $$\pi(a \mid s) = \begin{cases} 1 - \epsilon + \epsilon / |\mathcal{A}| & \text{if } a = \arg\max_{a'} Q(s, a') \\ \epsilon / |\mathcal{A}| & \text{otherwise} \end{cases}$$
 
-Under decaying schedules $\epsilon_t \to 0$ with $\sum \epsilon_t = \infty$, $\epsilon$-greedy Q-learning converges to $Q^*$ in the tabular case and provides a widely-used baseline for control experiments.
+Under decaying schedules $\epsilon_t \to 0$ with $\sum \epsilon_t = \infty$, $\epsilon$-greedy Q-learning converges to $Q^\*$ in the tabular case and provides a widely-used baseline for control experiments.
 
 Boltzmann exploration, also called softmax exploration, weights actions by the exponential of their $Q$-values with temperature parameter $\tau$,
 
@@ -429,7 +429,7 @@ with the deterministic differential equation
 
 $$\dot{w}(t) = \bar{h}(w(t)) = \mathbb{E}[h(w, \xi)]$$
 
-so that under standard conditions the iterates track the ODE trajectory. When the ODE has a globally asymptotically stable equilibrium $w^*$, the stochastic iterates converge to $w^*$ almost surely.
+so that under standard conditions the iterates track the ODE trajectory. When the ODE has a globally asymptotically stable equilibrium $w^\*$, the stochastic iterates converge to $w^\*$ almost surely.
 
 For the tabular case, convergence of TD(0), Q-learning, SARSA, and eligibility-trace variants is established under mild conditions on step sizes and infinite visitation of all state-action pairs. The convergence rates are typically $\mathcal{O}(1/\sqrt{t})$ in the stochastic setting and $\mathcal{O}(\gamma^k)$ in the exact deterministic setting.
 
@@ -479,7 +479,7 @@ which is the fundamental sample-complexity obstacle to off-policy learning at lo
 
 $$\hat{V}^{\pi}_{\text{DR}}(s) = \hat{V}^{\pi}_{\text{model}}(s) + \mathbb{E}_\mu\!\left[\rho\!\left(G - \hat{V}^{\pi}_{\text{model}}(s)\right)\right]$$
 
-where $\hat{V}^{\pi}_{\text{model}}$ is a model-based value estimate and the importance-sampling term serves as a correction that is unbiased whenever either the model or the importance-sampling estimate is correct.
+where $\hat{V}^{\pi}\_{\text{model}}$ is a model-based value estimate and the importance-sampling term serves as a correction that is unbiased whenever either the model or the importance-sampling estimate is correct.
 
 Off-policy learning is central to sample-efficient reinforcement learning because it permits reuse of past experience and enables learning from human demonstrations, expert data, or exploratory data collected under different policies. Article eight treats offline reinforcement learning as its principal topic.
 
@@ -491,7 +491,7 @@ The most direct model-based approach is certainty equivalence. Fit the maximum-l
 
 $$\hat{P}(s' \mid s, a) = \frac{N(s, a, s')}{N(s, a)}, \quad \hat{R}(s, a) = \frac{\sum_i r_i \mathbb{1}\{s_i = s, a_i = a\}}{N(s, a)}$$
 
-and solve for $\hat{\pi}^*$ using value or policy iteration on $\hat{P}$ and $\hat{R}$. The strategy is optimal in the limit of infinite data and provides finite-sample guarantees under suitable conditions.
+and solve for $\hat{\pi}^\*$ using value or policy iteration on $\hat{P}$ and $\hat{R}$. The strategy is optimal in the limit of infinite data and provides finite-sample guarantees under suitable conditions.
 
 The Dyna architecture of [Sutton 1990][research_sutton_1990] interleaves real environment interaction with simulated interaction from the learned model. After each real transition $(s, a, r, s')$, the algorithm updates $Q$ from the real transition, updates the model $\hat{P}, \hat{R}$ from the transition, and performs $n$ simulated Q-updates by sampling states from the model. The mechanism reuses each real transition multiple times through the model and dramatically improves sample efficiency in tabular problems.
 

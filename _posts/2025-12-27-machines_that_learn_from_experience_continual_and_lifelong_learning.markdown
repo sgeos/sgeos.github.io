@@ -25,11 +25,11 @@ that arrive over time and produce a stream of training data
 
 $$\mathcal{D}_1, \mathcal{D}_2, \ldots, \mathcal{D}_k, \ldots$$
 
-The learner has access to only the current task's data at any given time and must update a shared model $f_\theta$ so that the resulting parameters $\theta_k$ perform well on all tasks $\mathcal{T}_1, \ldots, \mathcal{T}_k$ observed so far. The formal objective aggregates performance across the task sequence,
+The learner has access to only the current task's data at any given time and must update a shared model $f_\theta$ so that the resulting parameters $\theta_k$ perform well on all tasks $\mathcal{T}\_1, \ldots, \mathcal{T}\_k$ observed so far. The formal objective aggregates performance across the task sequence,
 
 $$\theta^* = \arg\min_\theta \sum_{i=1}^{k} L_{\mathcal{T}_i}(\theta)$$
 
-but the training procedure has access only to the current task's loss $L_{\mathcal{T}_k}(\theta)$ at time $k$, subject to bounded memory and compute.
+but the training procedure has access only to the current task's loss $L_{\mathcal{T}\_k}(\theta)$ at time $k$, subject to bounded memory and compute.
 
 Three canonical continual learning scenarios have emerged in the empirical literature following [van de Ven and Tolias 2019][research_van_de_ven_tolias_2019]. Task-incremental learning provides the task identity at both training and test time, permitting task-output heads and simplifying the retention problem. Domain-incremental learning changes the input distribution across tasks while retaining a fixed output structure, requiring adaptation without explicit task labels. Class-incremental learning progressively expands the output space and is generally regarded as the hardest scenario, since the model must simultaneously accommodate new classes and preserve old class representations without confusion.
 
@@ -37,7 +37,7 @@ The task-agnostic setting removes task boundaries entirely. The learner encounte
 
 Continual learning contrasts with several related but distinct paradigms. Multi-task learning assumes simultaneous access to all tasks and jointly optimizes across them. Transfer learning treats the sequential transfer of a source-task model to a single target task without concern for retention of source-task performance. Meta-learning as treated in article nine optimizes for fast adaptation to a task drawn from a fixed distribution rather than accumulation across an open-ended sequence. Continual learning shares elements of all three paradigms while making distinct algorithmic and evaluation demands.
 
-The primary evaluation metrics include average accuracy across all seen tasks, backward transfer measuring the effect of learning task $\mathcal{T}_k$ on prior tasks $\mathcal{T}_{i < k}$, forward transfer measuring the effect of prior tasks on the learning of new tasks, and forgetting measured as the difference between peak and final accuracy on each task. Let $a_{k,i}$ denote the test accuracy on task $\mathcal{T}_i$ after the learner has been trained through task $\mathcal{T}_k$. The [Lopez-Paz and Ranzato 2017][research_lopez_paz_ranzato_2017_gem] formal definitions specify
+The primary evaluation metrics include average accuracy across all seen tasks, backward transfer measuring the effect of learning task $\mathcal{T}\_k$ on prior tasks $\mathcal{T}\_{i < k}$, forward transfer measuring the effect of prior tasks on the learning of new tasks, and forgetting measured as the difference between peak and final accuracy on each task. Let $a_{k,i}$ denote the test accuracy on task $\mathcal{T}\_i$ after the learner has been trained through task $\mathcal{T}\_k$. The [Lopez-Paz and Ranzato 2017][research_lopez_paz_ranzato_2017_gem] formal definitions specify
 
 $$\bar{A}_k = \frac{1}{k} \sum_{i=1}^{k} a_{k,i}$$
 
@@ -49,7 +49,7 @@ for backward transfer, and
 
 $$\text{FWT}_k = \frac{1}{k-1} \sum_{i=2}^{k} (a_{i-1, i} - \tilde{a}_i)$$
 
-for forward transfer where $\tilde{a}_i$ is the accuracy of an untrained reference model on task $\mathcal{T}_i$. The forgetting measure of [Chaudhry Dokania Ajanthan Torr 2018][research_chaudhry_et_al_2018_riemannian_walk] captures the peak-to-final drop,
+for forward transfer where $\tilde{a}\_i$ is the accuracy of an untrained reference model on task $\mathcal{T}\_i$. The forgetting measure of [Chaudhry Dokania Ajanthan Torr 2018][research_chaudhry_et_al_2018_riemannian_walk] captures the peak-to-final drop,
 
 $$F_k = \frac{1}{k-1} \sum_{i=1}^{k-1} \left(\max_{t \in \{i, \ldots, k-1\}} a_{t, i} - a_{k, i}\right)$$
 
@@ -75,7 +75,7 @@ The mid 2020s produced significant diversification including task-free continual
 
 ## Catastrophic Forgetting
 
-Catastrophic forgetting is the tendency of a neural network trained sequentially to lose performance on previously-learned tasks when trained on a new task. Formally, if $\theta_k$ minimizes $L_{\mathcal{T}_k}$ from initialization $\theta_{k-1}$ through gradient descent, then in the absence of countermeasures
+Catastrophic forgetting is the tendency of a neural network trained sequentially to lose performance on previously-learned tasks when trained on a new task. Formally, if $\theta_k$ minimizes $L_{\mathcal{T}\_k}$ from initialization $\theta_{k-1}$ through gradient descent, then in the absence of countermeasures
 
 $$L_{\mathcal{T}_i}(\theta_k) \gg L_{\mathcal{T}_i}(\theta_{i}) \quad \text{for } i < k$$
 
@@ -105,13 +105,13 @@ Regularization-based methods add penalty terms to the training loss that discour
 
 $$L_{\text{reg}}(\theta) = L_{\mathcal{T}_k}(\theta) + \sum_{i=1}^{k-1} \lambda_i \, R_i(\theta, \theta_i^*)$$
 
-where $R_i$ measures the change of $\theta$ from the prior-task solution $\theta_i^*$ weighted by importance, and $\lambda_i$ controls the strength of the penalty.
+where $R_i$ measures the change of $\theta$ from the prior-task solution $\theta_i^\*$ weighted by importance, and $\lambda_i$ controls the strength of the penalty.
 
 Elastic Weight Consolidation of Kirkpatrick et al 2017 uses the Fisher information matrix diagonal as the parameter importance measure,
 
 $$R_{\text{EWC}}(\theta, \theta_i^*) = \sum_j F_{i,j} (\theta_j - \theta_{i,j}^*)^2$$
 
-where $F_{i,j}$ is the diagonal Fisher information for parameter $j$ evaluated at $\theta_i^*$,
+where $F_{i,j}$ is the diagonal Fisher information for parameter $j$ evaluated at $\theta_i^\*$,
 
 $$F_{i,j} = \mathbb{E}_{(x, y) \sim \mathcal{D}_i}\!\left[\left(\frac{\partial \log p_\theta(y \mid x)}{\partial \theta_j}\right)^2\right]$$
 
@@ -121,7 +121,7 @@ Synaptic Intelligence of Zenke Poole Ganguli 2017 computes an online path-integr
 
 $$\omega_{i,j} = \int_0^{T_i} g_{i,j}(t) \, \dot{\theta}_{j}(t) \, dt$$
 
-where $g_{i,j}(t)$ is the gradient of the loss with respect to $\theta_j$ during task $i$ training and $\dot{\theta}_j$ is its update velocity. The mechanism attributes importance based on the total contribution of each parameter to loss reduction during training, and the online formulation avoids the need for separate importance-estimation passes.
+where $g_{i,j}(t)$ is the gradient of the loss with respect to $\theta_j$ during task $i$ training and $\dot{\theta}\_j$ is its update velocity. The mechanism attributes importance based on the total contribution of each parameter to loss reduction during training, and the online formulation avoids the need for separate importance-estimation passes.
 
 Memory-Aware Synapses of Aljundi et al 2018 uses unsupervised importance estimation based on the gradient magnitude of the network output with respect to the parameters,
 
@@ -129,11 +129,11 @@ $$\Omega_{i,j} = \mathbb{E}_{x \sim \mathcal{D}_i}\!\left[\left|\frac{\partial \
 
 providing a task-label-free importance measure applicable to unsupervised or self-supervised settings.
 
-Learning without Forgetting (LwF) of [Li and Hoiem 2017][research_li_hoiem_2017_lwf] takes a distillation-based approach. Before training on task $\mathcal{T}_k$, the model computes predictions on the new task's data under the pre-update parameters, then trains the updated parameters to reproduce these predictions on the new task's inputs alongside the new task's labels,
+Learning without Forgetting (LwF) of [Li and Hoiem 2017][research_li_hoiem_2017_lwf] takes a distillation-based approach. Before training on task $\mathcal{T}\_k$, the model computes predictions on the new task's data under the pre-update parameters, then trains the updated parameters to reproduce these predictions on the new task's inputs alongside the new task's labels,
 
 $$L_{\text{LwF}}(\theta) = L_{\mathcal{T}_k}(\theta) + \lambda \, D_{\text{KL}}(f_{\theta_{k-1}}(x) \, \| \, f_\theta(x))$$
 
-where the KL divergence is evaluated on inputs from $\mathcal{D}_k$. The mechanism preserves prior-task behavior indirectly through output-space regularization rather than parameter-space regularization.
+where the KL divergence is evaluated on inputs from $\mathcal{D}\_k$. The mechanism preserves prior-task behavior indirectly through output-space regularization rather than parameter-space regularization.
 
 Variational Continual Learning (VCL) of [Nguyen Li Bui Turner 2018][research_nguyen_et_al_2018_vcl] provides a Bayesian framework in which the prior for task $k$ is the posterior from task $k-1$,
 
@@ -169,7 +169,7 @@ Gradient Episodic Memory (GEM) of Lopez-Paz and Ranzato 2017 constrains the curr
 
 $$g_k \cdot g_i \geq 0 \quad \text{for } i = 1, \ldots, k-1$$
 
-where $g_i = \nabla_\theta L_{\mathcal{M}_i}(\theta)$ is the gradient on the memory for task $i$. When the constraint is violated, GEM projects the current-task gradient onto the constraint set through a quadratic program. The mechanism guarantees no forgetting on memory exemplars but at computational cost that scales with the number of prior tasks.
+where $g_i = \nabla_\theta L_{\mathcal{M}\_i}(\theta)$ is the gradient on the memory for task $i$. When the constraint is violated, GEM projects the current-task gradient onto the constraint set through a quadratic program. The mechanism guarantees no forgetting on memory exemplars but at computational cost that scales with the number of prior tasks.
 
 Averaged GEM (A-GEM) of Chaudhry et al 2019 approximates GEM by averaging over all prior-task memories rather than constraining each separately,
 
@@ -195,13 +195,13 @@ Meta Experience Replay (MER) of [Riemer Cases Ajemian Liu Rish Tu Tesauro 2019][
 
 $$\theta \leftarrow \theta + \gamma \, (\text{SGD}_s(\theta) - \theta)$$
 
-where $\text{SGD}_s$ denotes $s$ inner steps on a mixed batch of current-task and memory samples, meta-optimizing for prior-task gradient alignment.
+where $\text{SGD}\_s$ denotes $s$ inner steps on a mixed batch of current-task and memory samples, meta-optimizing for prior-task gradient alignment.
 
 iCaRL of Rebuffi et al 2017 combines exemplar replay with a nearest-mean-of-exemplars classifier and knowledge distillation, providing one of the strongest class-incremental learning methods. The mechanism selects representative exemplars via herding that greedily minimizes the distance between class prototype and buffered mean,
 
 $$\mathcal{P}_c = \arg\min_{\{x_i\}_{i=1}^m} \left\|\mu_c - \frac{1}{m} \sum_{i=1}^{m} \varphi_\theta(x_i)\right\|$$
 
-where $\mu_c = \mathbb{E}_{x \sim \mathcal{D}_c}[\varphi_\theta(x)]$ is the class-$c$ feature mean and $\varphi_\theta$ is the feature extractor. The classification decision for a query $x^*$ selects the class whose stored-exemplar mean is nearest in feature space.
+where $\mu_c = \mathbb{E}\_{x \sim \mathcal{D}\_c}[\varphi_\theta(x)]$ is the class-$c$ feature mean and $\varphi_\theta$ is the feature extractor. The classification decision for a query $x^\*$ selects the class whose stored-exemplar mean is nearest in feature space.
 
 GDumb of [Prabhu Torr Dokania 2020][research_prabhu_torr_dokania_2020_gdumb] provided a critical baseline that greedily fills a memory buffer with balanced class samples from the stream and trains from scratch on the buffer at test time. GDumb often matches or exceeds specialized continual learning methods on class-incremental benchmarks, exposing evaluation-protocol issues in the field and motivating stronger baseline comparisons.
 
@@ -217,7 +217,7 @@ Progressive Networks of Rusu et al 2016 add a new column of parameters for each 
 
 $$h^{(k)}_l = \sigma\!\left(W^{(k)}_l h^{(k)}_{l-1} + \sum_{j<k} U^{(k, j)}_l h^{(j)}_{l-1}\right)$$
 
-where $W^{(k)}_l$ are task-$k$ parameters at layer $l$ and $U^{(k, j)}_l$ are lateral connections from prior column $j$ to the current column. The frozen prior columns guarantee zero forgetting, and the lateral connections permit forward transfer from prior tasks. The parameter cost grows linearly with the number of tasks.
+where $W^{(k)}\_l$ are task-$k$ parameters at layer $l$ and $U^{(k, j)}\_l$ are lateral connections from prior column $j$ to the current column. The frozen prior columns guarantee zero forgetting, and the lateral connections permit forward transfer from prior tasks. The parameter cost grows linearly with the number of tasks.
 
 PackNet of Mallya and Lazebnik 2018 uses iterative pruning to identify a task-parameter subset within a fixed-capacity network. After training on task $k$, a subset of parameters is pruned and their masks are stored, freezing them for task $k$'s use, so that the effective task-$k$ parameters are
 
@@ -229,7 +229,7 @@ Hard Attention to the Task (HAT) of Serra et al 2018 uses learned per-task atten
 
 $$a_l^{(k)} = \sigma(s \cdot e_l^{(k)}), \quad h_l = a_l^{(k)} \odot \tilde{h}_l$$
 
-where $e_l^{(k)}$ are task-gate embeddings at layer $l$, $s$ is an annealing temperature that pushes $a_l^{(k)}$ toward binary values over training, and $\tilde{h}_l$ is the pre-gated activation. The mask is used to bound parameter updates so that inputs previously important for prior tasks are preserved.
+where $e_l^{(k)}$ are task-gate embeddings at layer $l$, $s$ is an annealing temperature that pushes $a_l^{(k)}$ toward binary values over training, and $\tilde{h}\_l$ is the pre-gated activation. The mask is used to bound parameter updates so that inputs previously important for prior tasks are preserved.
 
 Piggyback of [Mallya Davis Lazebnik 2018][research_mallya_davis_lazebnik_2018_piggyback] and Supermasks in Superposition of [Wortsman Ramanujan Raghu Yamins Ilharco Ha Chen Cornebise Farhadi 2020][research_wortsman_et_al_2020_supsup] extended the mask-based framework with binary masks per task learned over a fixed random backbone, providing dramatic parameter efficiency for large task sequences. Superposition of Many Models into One of [Cheung Terekhov Chen Agrawal Olshausen 2019][research_cheung_et_al_2019_superposition] introduced a parameter-space rotation framework in which distinct task models are stored in superposition within a shared parameter block, retrieved through task-rotations. Continual Learning with Hypernetworks of [von Oswald Henning Sacramento Grewe 2020][research_von_oswald_et_al_2020_hnet] introduced task-conditional hypernetworks that generate task-network weights from a small task-embedding vector, providing an architecture-based framework with greatly lower memory overhead than progressive networks.
 
@@ -321,7 +321,7 @@ Online Aware Meta-Learning (OML) of [Javed and White 2019][research_javed_white_
 
 $$\phi^* = \arg\min_\phi \mathbb{E}_{\tau \sim p(\tau)}\!\left[\sum_{t=1}^{T} L\!\left(\text{SGD}_t\!\left(W_0; \varphi_\phi(\mathcal{D}_{\tau, 1:t})\right)\right)\right]$$
 
-where $\text{SGD}_t$ denotes $t$ gradient steps on the sequence-so-far and $W_0$ is the linear-head initialization, forcing the representation to support catastrophic-forgetting-resistant sequential learning at the head.
+where $\text{SGD}\_t$ denotes $t$ gradient steps on the sequence-so-far and $W_0$ is the linear-head initialization, forcing the representation to support catastrophic-forgetting-resistant sequential learning at the head.
 
 A Neuromodulated Meta-Learning Algorithm (ANML) of [Beaulieu Frati Miconi Lehman Stanley Clune Cheney 2020][research_beaulieu_et_al_2020_anml] extended the account with a neuromodulatory gating network that modulates plasticity per parameter based on the current task,
 
@@ -431,7 +431,7 @@ The loss-landscape geometry account of [Mirzadeh Farajtabar Pascanu Ghasemzadeh 
 
 $$\lambda_{\max}(H_i(\theta_i^*)) = \max_{\|v\| = 1} v^\top \nabla_\theta^2 L_{\mathcal{T}_i}(\theta_i^*) \, v$$
 
-correlates with the observed forgetting when subsequently training on task $\mathcal{T}_{i+1}$. Flat minima with small $\lambda_{\max}$ produce less catastrophic forgetting than sharp minima with large $\lambda_{\max}$, motivating optimization strategies that seek flat regions.
+correlates with the observed forgetting when subsequently training on task $\mathcal{T}\_{i+1}$. Flat minima with small $\lambda_{\max}$ produce less catastrophic forgetting than sharp minima with large $\lambda_{\max}$, motivating optimization strategies that seek flat regions.
 
 Understanding the Role of Training Regimes in Continual Learning of [Mirzadeh Farajtabar Görür Pascanu Ghasemzadeh 2020][research_mirzadeh_et_al_2020_understanding] provided experimental evidence that training regimes affecting minimum flatness (learning rate, batch size, epoch count) affect continual learning performance in a and predictable pattern.
 

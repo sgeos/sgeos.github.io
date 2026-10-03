@@ -151,7 +151,7 @@ of a jumping object
 is now three-dimensional.
 The horizontal position
 remains the two-dimensional world point
-$\mathbf{p}_{\text{world}} = (w_x, w_y)$
+$\mathbf{p}\_{\text{world}} = (w_x, w_y)$
 from the floor case.
 The height above the ground
 is a non-negative scalar $h$
@@ -478,7 +478,7 @@ The camera is centred on the player at world position
 $\mathbf{c} = (500, 400)$.
 The screen offset is $\mathbf{o} = (400, 300)$.
 The player executes a jump
-from world position $\mathbf{p}_{\text{world}} = (520, 410)$
+from world position $\mathbf{p}\_{\text{world}} = (520, 410)$
 with launch velocity $v_0 = 60$ world units per second
 and gravity $g = 200$ world units per second squared.
 

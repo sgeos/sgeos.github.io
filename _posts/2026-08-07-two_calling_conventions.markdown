@@ -111,7 +111,7 @@ where $K_\Sigma$ are the divergent stream chunks and $K_\Upsilon$ the terminatin
 K_\Sigma \rvert = 24$ and $\lvert K_\Upsilon \rvert = 1$ for the present corpus.
 
 An execution of a chunk is driven by an initial argument $a \in W$ and a sequence of resume values $\vec{r}
-= (r_1, r_2, \ldots)$. It produces an **observable trace**, a sequence over the alphabet $\{\mathsf{Y}(v),
+= (r_1, r_2, \ldots)$. It produces an \*\*observable trace\*\*, a sequence over the alphabet $\{\mathsf{Y}(v),
 \mathsf{F}(w)\}$ in which $\mathsf{Y}$ marks a suspension carrying $v$ and $\mathsf{F}$ a completion
 carrying $w$. For a terminating chunk with $n$ suspensions the trace is finite and ends in a completion,
 

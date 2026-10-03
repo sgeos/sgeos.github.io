@@ -25,7 +25,7 @@ with the algorithm $\mathcal{A}$ fixed by human design. Meta-learning parameteri
 
 $$\phi^* = \arg\max_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]$$
 
-where $\mathcal{L}_{\mathcal{T}}$ is a task-loss and $\mathcal{D}_{\mathcal{T}}$ is the training data for task $\mathcal{T}$. The optimized meta-algorithm $\mathcal{A}_{\phi^*}$ produces hypotheses that adapt rapidly to new tasks drawn from $p(\mathcal{T})$.
+where $\mathcal{L}\_{\mathcal{T}}$ is a task-loss and $\mathcal{D}\_{\mathcal{T}}$ is the training data for task $\mathcal{T}$. The optimized meta-algorithm $\mathcal{A}\_{\phi^\*}$ produces hypotheses that adapt rapidly to new tasks drawn from $p(\mathcal{T})$.
 
 The reinforcement learning specialization treats each task as a Markov decision process $\mathcal{M} = (\mathcal{S}, \mathcal{A}, P_{\mathcal{T}}, R_{\mathcal{T}}, \gamma)$ with task-transition and reward. The learning algorithm produces a policy from experience,
 
@@ -35,7 +35,7 @@ where $\tau_{1:H}$ is a sequence of transitions collected during the inner-loop 
 
 $$\tau_{1:H} \sim \pi_{\mathcal{A}_\phi(\emptyset)}, \pi_{\mathcal{A}_\phi(\tau_{1:1})}, \ldots, \pi_{\mathcal{A}_\phi(\tau_{1:H-1})}$$
 
-with progressive re-adaptation as data accumulates, followed by evaluation of the final adapted policy $\pi_{\mathcal{A}_\phi(\tau_{1:H})}$ over an evaluation horizon under task $\mathcal{T}$.
+with progressive re-adaptation as data accumulates, followed by evaluation of the final adapted policy $\pi_{\mathcal{A}\_\phi(\tau_{1:H})}$ over an evaluation horizon under task $\mathcal{T}$.
 
 Two distinct settings shape the meta-learning literature. The multi-task setting provides simultaneous access to many tasks during meta-training, with the objective of producing an algorithm that generalizes to unseen tasks from the same distribution. The continual setting provides sequential exposure to tasks, with the objective of producing an algorithm that improves over the sequence without forgetting earlier tasks. Both settings admit algorithmic and theoretical treatments.
 
@@ -67,7 +67,7 @@ The meta-training objective is
 
 $$J_{\text{meta}}(\phi) = \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi_{\mathcal{A}_\phi(\tau_{1:H})})\right]$$
 
-where $\pi_{\mathcal{A}_\phi(\tau_{1:H})}$ is the policy produced by the meta-algorithm after $H$ steps of adaptation, and $J_{\mathcal{T}}$ is the expected return under task $\mathcal{T}$,
+where $\pi_{\mathcal{A}\_\phi(\tau_{1:H})}$ is the policy produced by the meta-algorithm after $H$ steps of adaptation, and $J_{\mathcal{T}}$ is the expected return under task $\mathcal{T}$,
 
 $$J_{\mathcal{T}}(\pi) = \mathbb{E}_\pi\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0\right]$$
 
@@ -109,7 +109,7 @@ Formally, MAML optimizes meta-parameters $\theta$ that satisfy
 
 $$\theta^* = \arg\min_\theta \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta))\right]$$
 
-where $\alpha$ is the inner-loop step size and $\mathcal{L}_{\mathcal{T}}$ is the task-loss. The inner-loop adaptation from meta-parameters to task-parameters is
+where $\alpha$ is the inner-loop step size and $\mathcal{L}\_{\mathcal{T}}$ is the task-loss. The inner-loop adaptation from meta-parameters to task-parameters is
 
 $$\theta'_{\mathcal{T}} = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta)$$
 
@@ -117,13 +117,13 @@ and the multi-step extension performs $k$ successive gradient updates
 
 $$\theta_i = \theta_{i-1} - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta_{i-1}), \quad i = 1, \ldots, k$$
 
-starting from $\theta_0 = \theta$. The mechanism requires that a small number of gradient steps from $\theta^*$ on the task-loss produces near-optimal task-parameters.
+starting from $\theta_0 = \theta$. The mechanism requires that a small number of gradient steps from $\theta^\*$ on the task-loss produces near-optimal task-parameters.
 
 Computing the meta-gradient requires differentiating through the inner-loop gradient update, which produces second-order gradients. The meta-gradient at $\theta$ is
 
 $$\nabla_\theta J_{\text{MAML}} = \mathbb{E}_{\mathcal{T}}\!\left[(I - \alpha \nabla_\theta^2 \mathcal{L}_{\mathcal{T}}(\theta)) \nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]$$
 
-where the second-order term $\nabla_\theta^2 \mathcal{L}_{\mathcal{T}}(\theta)$ is the Hessian of the inner-loop loss. Full second-order MAML is computationally expensive but provides the theoretical basis for the approach.
+where the second-order term $\nabla_\theta^2 \mathcal{L}\_{\mathcal{T}}(\theta)$ is the Hessian of the inner-loop loss. Full second-order MAML is computationally expensive but provides the theoretical basis for the approach.
 
 First-order MAML approximations drop the second-order terms in exchange for computational efficiency, using
 
@@ -133,7 +133,7 @@ producing a gradient approximation that has empirically proved to be sufficient 
 
 $$\theta \leftarrow \theta + \beta (\text{SGD}_k^{\mathcal{T}}(\theta) - \theta)$$
 
-where $\text{SGD}_k^{\mathcal{T}}(\theta)$ is the parameters obtained after $k$ steps of stochastic gradient descent on task $\mathcal{T}$. Reptile achieves comparable performance to MAML with significantly simpler implementation.
+where $\text{SGD}\_k^{\mathcal{T}}(\theta)$ is the parameters obtained after $k$ steps of stochastic gradient descent on task $\mathcal{T}$. Reptile achieves comparable performance to MAML with significantly simpler implementation.
 
 The policy-gradient specialization of MAML for reinforcement learning uses the REINFORCE gradient in the inner loop,
 
@@ -157,7 +157,7 @@ $$L_{\text{contrastive}}(x_i, x_j, y_{ij}) = y_{ij} \, \|f_\theta(x_i) - f_\thet
 
 with $y_{ij} = 1$ if the pair is same-class and $y_{ij} = 0$ otherwise, and $m$ a margin hyperparameter.
 
-Matching Networks of [Vinyals Blundell Lillicrap Kavukcuoglu Wierstra 2016][research_vinyals_et_al_2016_matching] extended the treatment to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}_{i=1}^N$ and a query $x^*$, the predicted label is
+Matching Networks of [Vinyals Blundell Lillicrap Kavukcuoglu Wierstra 2016][research_vinyals_et_al_2016_matching] extended the treatment to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}\_{i=1}^N$ and a query $x^\*$, the predicted label is
 
 $$\hat{y}^* = \sum_{i=1}^{N} a(x^*, x_i) \, y_i, \quad a(x^*, x_i) = \frac{\exp(\text{cosine}(f(x^*), g(x_i)))}{\sum_j \exp(\text{cosine}(f(x^*), g(x_j)))}$$
 
@@ -187,7 +187,7 @@ PEARL of Rakelly Zhou Quillen Finn Levine 2019 provides the canonical modern ins
 
 $$q_\phi(z \mid \mathcal{C}) = \mathcal{N}(z ; \mu_\phi(\mathcal{C}), \Sigma_\phi(\mathcal{C}))$$
 
-where $\mathcal{C} = \{(s_i, a_i, r_i, s'_i)\}_{i=1}^N$ is a set of transitions from the target task. The context is aggregated in a permutation-invariant manner via a product-of-Gaussians factorization over per-transition encodings,
+where $\mathcal{C} = \{(s_i, a_i, r_i, s'\_i)\}\_{i=1}^N$ is a set of transitions from the target task. The context is aggregated in a permutation-invariant manner via a product-of-Gaussians factorization over per-transition encodings,
 
 $$\mu_\phi(\mathcal{C}) = \frac{\sum_i \mu_\phi(c_i) / \sigma^2_\phi(c_i)}{\sum_i 1 / \sigma^2_\phi(c_i)}, \quad \sigma^{-2}_\phi(\mathcal{C}) = \sum_i \sigma^{-2}_\phi(c_i)$$
 
@@ -375,7 +375,7 @@ where the trajectory represents the entire learning-algorithm trace over the lif
 
 $$L_{\text{AD}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}_{\text{learn}}}\!\left[\sum_t \log \pi_\theta(a_t \mid \tau_{1:t-1})\right]$$
 
-where $\mathcal{D}_{\text{learn}}$ is a dataset of learning-algorithm traces across a distribution of tasks. At test time the transformer predicts $a_t$ conditional on $\tau_{1:t-1}$ and produces increasingly-competent actions as more trajectory context is provided. The mechanism is remarkably general. Any learning algorithm can be distilled into an in-context transformer by generating training traces from the algorithm.
+where $\mathcal{D}\_{\text{learn}}$ is a dataset of learning-algorithm traces across a distribution of tasks. At test time the transformer predicts $a_t$ conditional on $\tau_{1:t-1}$ and produces increasingly-competent actions as more trajectory context is provided. The mechanism is remarkably general. Any learning algorithm can be distilled into an in-context transformer by generating training traces from the algorithm.
 
 Adaptive Agent of Bauer et al 2023 combined meta-reinforcement learning with foundation-model-scale training on the XLand environment, achieving rapid adaptation across a vast distribution of tasks. The agent demonstrates task-inference-like behavior at test time without explicit task representation, using its transformer sequence model to condition on trajectory context.
 

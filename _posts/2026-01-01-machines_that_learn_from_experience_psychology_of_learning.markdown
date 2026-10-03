@@ -243,7 +243,7 @@ The Nosofsky Generalized Context Model computes the classification decision as
 
 $$P(C_k \mid x^*) = \frac{\sum_{i \in C_k} \eta(x^*, x_i)}{\sum_{j} \eta(x^*, x_j)}$$
 
-with $\eta(x^*, x_i) = \exp(-c \, d(x^*, x_i))$ the exemplar-similarity function and $d(x^*, x_i)$ a weighted-Minkowski distance metric. The framework provides quantitative fits to empirical categorization data and has been appreciably influential in subsequent categorization research.
+with $\eta(x^\*, x_i) = \exp(-c \, d(x^\*, x_i))$ the exemplar-similarity function and $d(x^\*, x_i)$ a weighted-Minkowski distance metric. The framework provides quantitative fits to empirical categorization data and has been appreciably influential in subsequent categorization research.
 
 Rule-based models of categorization propose that categorization is performed through the application of learned or hypothesized rules rather than through similarity-based comparison. The correspondence between rule-based and similarity-based categorization has been extensively studied, and modern accounts increasingly recognize that both mechanisms operate in different circumstances.
 
@@ -433,7 +433,7 @@ Causal reasoning as Bayesian inference of [Gopnik Glymour Sobel Schulz Kushnir D
 
 $$p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)$$
 
-with $G$ a candidate causal graph and $\text{Pa}_G(x_i)$ the parents of variable $x_i$ under graph $G$. The treatment provides quantitative fits to human causal-reasoning behavior across many domains.
+with $G$ a candidate causal graph and $\text{Pa}\_G(x_i)$ the parents of variable $x_i$ under graph $G$. The treatment provides quantitative fits to human causal-reasoning behavior across many domains.
 
 The correspondence between Bayesian cognitive science and modern machine learning has been substantially developed. The frameworks including Bayesian deep learning, probabilistic programming, and variational inference provide the computational infrastructure through which Bayesian cognitive models can be scaled to complex domains.
 
@@ -507,7 +507,7 @@ Interoceptive predictive processing of [Seth 2013][research_seth_2013] extended 
 
 $$\text{emotion}(t) = f_{\text{cat}}\!\left(\text{PE}_{\text{interoceptive}}(t), \, \text{context}(t)\right)$$
 
-with $\text{PE}_{\text{interoceptive}}$ the interoceptive prediction error and $f_{\text{cat}}$ the categorical inference process that produces the emotional category from the interoceptive state and context. This account has greatly influenced modern affective science and provides the bridge between predictive processing and emotion research.
+with $\text{PE}\_{\text{interoceptive}}$ the interoceptive prediction error and $f_{\text{cat}}$ the categorical inference process that produces the emotional category from the interoceptive state and context. This account has greatly influenced modern affective science and provides the bridge between predictive processing and emotion research.
 
 Active inference treatments of goal-directed behavior treated in article fourteen provide the unified account of the psychological distinction between habitual and goal-directed behavior through the mechanism of expected-free-energy minimization. The framework provides the computational alternative to the model-free/model-based reinforcement learning distinction.
 

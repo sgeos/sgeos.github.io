@@ -857,7 +857,7 @@ $$
 
 which is
 a stream processor
-$C_{\text{Keleusma}} \colon A^{\omega}_{\text{source}} \to B^{\omega}_{\text{bytecode}}$
+$C_{\text{Keleusma}} \colon A^{\omega}\_{\text{source}} \to B^{\omega}\_{\text{bytecode}}$
 in
 the sense of article A193.
 The emit stage

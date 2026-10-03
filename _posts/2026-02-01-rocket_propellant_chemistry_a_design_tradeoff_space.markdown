@@ -307,7 +307,7 @@ and by the mass of the nozzle at large expansion ratios.
 
 Specific impulse decomposes into two more fundamental parameters,
 characteristic velocity and thrust coefficient. The characteristic
-velocity, denoted $c^*$, characterizes the combustion process
+velocity, denoted $c^\*$, characterizes the combustion process
 independent of the nozzle. The thrust coefficient, denoted $C_F$,
 characterizes the nozzle expansion process independent of the
 combustion.
@@ -323,7 +323,7 @@ C_F = \sqrt{ \frac{2 \gamma^2}{\gamma - 1}
     + \frac{(p_e - p_0)}{p_c} \frac{A_e}{A_t}
 $$
 
-The relationship $I_{sp} \, g_0 = c^* \, C_F$ decomposes specific impulse
+The relationship $I_{sp} \, g_0 = c^\* \, C_F$ decomposes specific impulse
 into a combustion contribution and a nozzle contribution. This
 decomposition matters for engine development because the two contributions
 can be measured separately. The characteristic velocity is measured with a

@@ -778,7 +778,7 @@ Evaluating with the measured length distribution gives
 $$\rho^{\text{unit}}_{0} = 6.152 \times 10^{-2}, \qquad \Phi = \frac{0.3387}{0.06152} = 5.51$$
 
 so the blocking instructions are clustered, and by a factor of roughly five and a half, which is moderate.
-Repeating the calculation at $\lvert S' \rvert = 46$ gives $\rho^{\text{unit}}_{0} = 3.275 \times 10^{-1}$ and $\Phi =
+Repeating the calculation at $\lvert S' \rvert = 46$ gives $\rho^{\text{unit}}\_{0} = 3.275 \times 10^{-1}$ and $\Phi =
 2.66$, a weaker clustering, which is again the expected direction, since as fewer instructions block, those
 that remain have less opportunity to concentrate. Unimplemented instructions concentrate in units that use
 them repeatedly, which is the expected consequence of a data-segment-heavy workload, and the concentration
@@ -958,7 +958,7 @@ link.
 
 The corpus is drawn from one project's own examples, standard library and self-hosted compiler stages, and
 is therefore not a sample of the programs the generator will eventually serve. Writing
-$\mathcal{D}_{\text{corpus}}$ for the empirical distribution over units and $\mathcal{D}_{\text{target}}$
+$\mathcal{D}\_{\text{corpus}}$ for the empirical distribution over units and $\mathcal{D}\_{\text{target}}$
 for the eventual target population, every quantity reported above estimates
 
 $$\mathbb{E}_{c \sim \mathcal{D}_{\text{corpus}}}\bigl[ \cdot \bigr] \qquad \text{rather than} \qquad \mathbb{E}_{c \sim \mathcal{D}_{\text{target}}}\bigl[ \cdot \bigr]$$

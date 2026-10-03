@@ -89,7 +89,7 @@ $$\hat{A}_\psi(a \mid s, s') \approx \Pr(a_t = a \mid s_t = s, s_{t+1} = s')$$
 
 Inverse dynamics are useful for representation learning (article four's ICM used them), for planning through backchaining from desired states, and for imitation learning from state-only demonstrations.
 
-Latent dynamics models operate in a learned latent space rather than the raw observation space. An encoder $\phi_\theta : \mathcal{O} \to \mathcal{Z}$ maps observations to latent states, and a latent transition model $\hat{P}_\zeta(z' \mid z, a)$ predicts the next latent given the current. The latent formulation supports learning on high-dimensional observations where direct next-state prediction is infeasible.
+Latent dynamics models operate in a learned latent space rather than the raw observation space. An encoder $\phi_\theta : \mathcal{O} \to \mathcal{Z}$ maps observations to latent states, and a latent transition model $\hat{P}\_\zeta(z' \mid z, a)$ predicts the next latent given the current. The latent formulation supports learning on high-dimensional observations where direct next-state prediction is infeasible.
 
 Value-equivalent models train the model to produce accurate value predictions rather than accurate observation predictions,
 
@@ -257,7 +257,7 @@ by rolling out the RSSM forward from a real state $z_0$ with actions sampled fro
 
 $$V^\lambda_t = (1 - \lambda) \sum_{n=1}^{H-t-1} \lambda^{n-1} V^{(n)}_t + \lambda^{H-t-1} V^{(H-t)}_t$$
 
-with $n$-step return $V^{(n)}_t = \sum_{k=0}^{n-1} \gamma^k \hat{r}_{t+k+1} + \gamma^n V(\hat{z}_{t+n})$, and the actor is trained on these imagined trajectories using analytic gradients through the model,
+with $n$-step return $V^{(n)}\_t = \sum_{k=0}^{n-1} \gamma^k \hat{r}\_{t+k+1} + \gamma^n V(\hat{z}\_{t+n})$, and the actor is trained on these imagined trajectories using analytic gradients through the model,
 
 $$\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \gamma^H V(z_H) + \eta \nabla_\theta H(\pi_\theta)$$
 

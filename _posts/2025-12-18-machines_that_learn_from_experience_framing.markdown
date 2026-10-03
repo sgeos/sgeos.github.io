@@ -81,7 +81,7 @@ Alongside these algorithmic developments, the neuroscience of reward learning un
 
 ## Learning From Experience Versus Batch Learning
 
-Supervised batch learning, which dominates contemporary machine learning practice, poses a fundamentally different problem. In batch supervised learning, a training set $\{(x_i, y_i)\}_{i=1}^n$ is drawn independently and identically distributed from a fixed distribution $\mathcal{D}$,
+Supervised batch learning, which dominates contemporary machine learning practice, poses a fundamentally different problem. In batch supervised learning, a training set $\{(x_i, y_i)\}\_{i=1}^n$ is drawn independently and identically distributed from a fixed distribution $\mathcal{D}$,
 
 $$(x_i, y_i) \stackrel{\text{iid}}{\sim} \mathcal{D}, \quad i = 1, \ldots, n$$
 
@@ -89,7 +89,7 @@ and the objective is to fit a function $f : \mathcal{X} \to \mathcal{Y}$ that mi
 
 $$\hat{R}(f) = \frac{1}{n} \sum_{i=1}^n L(f(x_i), y_i)$$
 
-as a proxy for the true risk $R(f) = \mathbb{E}_{(x,y) \sim \mathcal{D}}[L(f(x), y)]$. The learner does not choose which $x_i$ to observe, the data distribution does not change over training, the objective decomposes into per-sample losses, and the assumptions of statistical learning theory permit generalization bounds under standard capacity control.
+as a proxy for the true risk $R(f) = \mathbb{E}\_{(x,y) \sim \mathcal{D}}[L(f(x), y)]$. The learner does not choose which $x_i$ to observe, the data distribution does not change over training, the objective decomposes into per-sample losses, and the assumptions of statistical learning theory permit generalization bounds under standard capacity control.
 
 Experiential learning violates each of these conditions.
 
@@ -163,7 +163,7 @@ and the Bellman optimality equation gives
 
 $$V^*(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^*(s') \right]$$
 
-An optimal policy $\pi^*$ is any policy achieving $V^{\pi^*} = V^*$ at every state. Existence of optimal deterministic policies is guaranteed for finite MDPs under standard conditions [Puterman 1994][book_puterman_1994]. The corresponding Bellman optimality equation for the action value function is
+An optimal policy $\pi^\*$ is any policy achieving $V^{\pi^\*} = V^\*$ at every state. Existence of optimal deterministic policies is guaranteed for finite MDPs under standard conditions [Puterman 1994][book_puterman_1994]. The corresponding Bellman optimality equation for the action value function is
 
 $$Q^*(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \max_{a'} Q^*(s', a') \right]$$
 
@@ -199,7 +199,7 @@ $$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} 
 
 which differ in whether the target uses the actual next action (SARSA, on-policy) or the maximizing next action (Q-learning, off-policy).
 
-The policy gradient theorem gives the gradient of the expected return $J(\theta) = \mathbb{E}_{\pi_\theta}[G_0]$ under a parameterized policy $\pi_\theta$,
+The policy gradient theorem gives the gradient of the expected return $J(\theta) = \mathbb{E}\_{\pi_\theta}[G_0]$ under a parameterized policy $\pi_\theta$,
 
 $$\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} \left[ \sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) \, Q^{\pi_\theta}(s_t, a_t) \right]$$
 
@@ -213,11 +213,11 @@ The classical planning algorithms proceed by iterating the Bellman operator. Val
 
 $$V_{k+1}(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V_k(s') \right]$$
 
-converging to $V^*$ from any initial $V_0$ at a geometric rate governed by $\gamma$. Policy iteration alternates policy evaluation, which solves the Bellman expectation equation for the current policy, and policy improvement, which sets
+converging to $V^\*$ from any initial $V_0$ at a geometric rate governed by $\gamma$. Policy iteration alternates policy evaluation, which solves the Bellman expectation equation for the current policy, and policy improvement, which sets
 
 $$\pi_{k+1}(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi_k}(s') \right]$$
 
-and converges to $\pi^*$ in a finite number of iterations for finite MDPs. When the environment model is unavailable, Monte Carlo estimation replaces the expectation with sample averages from full episodes,
+and converges to $\pi^\*$ in a finite number of iterations for finite MDPs. When the environment model is unavailable, Monte Carlo estimation replaces the expectation with sample averages from full episodes,
 
 $$V(s) \leftarrow V(s) + \alpha \left[ G_t - V(s) \right]$$
 
@@ -259,7 +259,7 @@ for $K$-armed problems over horizon $T$ under optimistic algorithms such as uppe
 
 $$a_t = \arg\max_a \left[ \hat{Q}_t(a) + c \sqrt{\frac{\ln t}{N_t(a)}} \right]$$
 
-where $\hat{Q}_t(a)$ is the empirical mean reward for arm $a$ and $N_t(a)$ is the count of prior pulls of arm $a$. Thompson sampling instead maintains a posterior over parameters $\theta$ and samples
+where $\hat{Q}\_t(a)$ is the empirical mean reward for arm $a$ and $N_t(a)$ is the count of prior pulls of arm $a$. Thompson sampling instead maintains a posterior over parameters $\theta$ and samples
 
 $$\tilde{\theta}_t \sim p(\theta \mid \mathcal{D}_t), \quad a_t = \arg\max_a Q(a; \tilde{\theta}_t)$$
 

@@ -159,7 +159,7 @@ of the earlier entries.
 
 The world coordinate
 is a three-dimensional position
-$\mathbf{p}_{\text{world}} = (w_x, w_y, w_z)$,
+$\mathbf{p}\_{\text{world}} = (w_x, w_y, w_z)$,
 where $w_x$ is the lateral position,
 $w_y$ is the vertical position
 in the gravity-aligned screen-down convention
@@ -167,7 +167,7 @@ of the previous articles,
 and $w_z$ is the depth into the screen.
 The screen coordinate
 is a two-dimensional pixel position
-$\mathbf{p}_{\text{screen}} = (s_x, s_y)$.
+$\mathbf{p}\_{\text{screen}} = (s_x, s_y)$.
 The camera position
 is a three-dimensional world coordinate
 $\mathbf{c} = (c_x, c_y, c_z)$.
@@ -479,7 +479,7 @@ in the bottom portion of the screen.
 The screen-centre offset is $\mathbf{o} = (192, 112)$.
 
 A player character on the ground
-at world position $\mathbf{p}_{\text{world}} = (500, 200, 0)$
+at world position $\mathbf{p}\_{\text{world}} = (500, 200, 0)$
 projects to
 
 $$
@@ -495,7 +495,7 @@ near the bottom of the screen
 where the camera's ground level renders.
 
 An enemy at the back of the playfield
-at world position $\mathbf{p}_{\text{world}} = (500, 200, 80)$
+at world position $\mathbf{p}\_{\text{world}} = (500, 200, 80)$
 projects to
 
 $$
@@ -512,7 +512,7 @@ matching the depth-mixing slope $\beta = 1/2$
 applied to the 80-unit depth offset.
 
 An enemy in front of the player
-at world position $\mathbf{p}_{\text{world}} = (500, 200, -40)$
+at world position $\mathbf{p}\_{\text{world}} = (500, 200, -40)$
 projects to
 
 $$
@@ -536,7 +536,7 @@ They project to three distinct screen rows
 separated by depth.
 
 Now consider a jumping player
-at world position $\mathbf{p}_{\text{world}} = (500, 200 - 25, 0) = (500, 175, 0)$,
+at world position $\mathbf{p}\_{\text{world}} = (500, 200 - 25, 0) = (500, 175, 0)$,
 a height of $h = 25$ above the ground at the camera's depth.
 The forward map gives
 

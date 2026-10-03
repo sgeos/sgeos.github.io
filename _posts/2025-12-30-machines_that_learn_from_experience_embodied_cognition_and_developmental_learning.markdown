@@ -93,7 +93,7 @@ This formulation predicts that perceptual experience emerges from the mastery of
 
 $$\text{Mastery}(M) = -\mathbb{E}_{a, o}\!\left[\|C_M(a, o) - \hat{C}_M(a, o; \theta)\|^2\right]$$
 
-with $\hat{C}_M(\cdot; \theta)$ the agent's learned model of the modality-contingencies. Empirical support includes studies of sensory substitution in which subjects trained with a tactile-to-visual sensory substitution device report perceptual experiences consistent with the sensorimotor contingencies of the substituting modality. Sensory substitution of [Bach-y-Rita 1969][research_bach_y_rita_1969] pioneered the empirical framework through the tactile-visual substitution device that enabled congenitally-blind subjects to acquire visual-like perception through tactile stimulation of the back. The [Kohler 1962][research_kohler_1962] inverted-vision experiments provided the complementary empirical framework by documenting the adaptation to systematically-distorted visual input over extended wearing of inverting goggles.
+with $\hat{C}\_M(\cdot; \theta)$ the agent's learned model of the modality-contingencies. Empirical support includes studies of sensory substitution in which subjects trained with a tactile-to-visual sensory substitution device report perceptual experiences consistent with the sensorimotor contingencies of the substituting modality. Sensory substitution of [Bach-y-Rita 1969][research_bach_y_rita_1969] pioneered the empirical framework through the tactile-visual substitution device that enabled congenitally-blind subjects to acquire visual-like perception through tactile stimulation of the back. The [Kohler 1962][research_kohler_1962] inverted-vision experiments provided the complementary empirical framework by documenting the adaptation to systematically-distorted visual input over extended wearing of inverting goggles.
 
 The [Noë 2004][book_noe_2004] Action in Perception provided the systematic philosophical treatment of sensorimotor contingency theory and connected it to the broader phenomenological tradition. The treatment identifies the ways in which perception is constituted by embodied know-how rather than by passive representation.
 
@@ -125,7 +125,7 @@ Intrinsically Motivated Goal Exploration Processes (IMGEP) of [Forestier Portela
 
 $$g \sim p_{\text{goal}}(\cdot \mid \mathcal{A}_t), \quad \tau \sim \pi_\theta(\cdot \mid g), \quad \mathcal{A}_{t+1} = \mathcal{A}_t \cup \{(g, b(\tau))\}$$
 
-where $\mathcal{A}_t$ is the goal-outcome archive and $b(\tau)$ is the behavioral descriptor of the executed trajectory. The model provides an approach that connects developmental robotics to the quality-diversity treatments of article twelve.
+where $\mathcal{A}\_t$ is the goal-outcome archive and $b(\tau)$ is the behavioral descriptor of the executed trajectory. The model provides an approach that connects developmental robotics to the quality-diversity treatments of article twelve.
 
 The Oudeyer 2018 developmental robotics survey provided the modern consolidation of the field and identified the research directions that connect developmental robotics to modern machine learning practice. This formulation treats developmental robotics as a application of the general principles that unify meta-learning, curriculum learning, intrinsic motivation, and self-supervised learning. The [Asada MacDorman Ishiguro Kuniyoshi 2001][research_asada_et_al_2001_cognitive_dev] cognitive developmental robotics framework provided one of the earlier systematic treatments of the field, and the subsequent [Asada Hosoda Kuniyoshi Ishiguro Inui Yoshikawa Ogino Yoshida 2009][research_asada_et_al_2009] survey consolidated the modern research program.
 
@@ -521,7 +521,7 @@ Embodied Question Answering of [Das Datta Gkioxari Lee Parikh Batra 2018][resear
 
 $$\pi^*(q) = \arg\max_\pi \, \mathbb{E}_{\tau \sim \pi(\cdot \mid q)}\!\left[\log p(a^* \mid q, \tau)\right] - \lambda \, |\tau|$$
 
-with $q$ the question, $\tau$ the exploration trajectory, $a^*$ the correct answer, and $\lvert \tau \rvert$ a length penalty. The framework connects embodied AI to language understanding through the requirement of grounding linguistic queries in embodied experience.
+with $q$ the question, $\tau$ the exploration trajectory, $a^\*$ the correct answer, and $\lvert \tau \rvert$ a length penalty. The framework connects embodied AI to language understanding through the requirement of grounding linguistic queries in embodied experience.
 
 RT-1 and RT-2 of Brohan et al treated in articles nine and eleven provide the modern foundation-model-scale embodied learning systems that transfer capabilities from vision-language pretraining to real-robot control. The account provides the bridge between the modern foundation model literature and embodied artificial intelligence.
 

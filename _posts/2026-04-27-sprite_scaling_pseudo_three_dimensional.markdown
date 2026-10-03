@@ -211,11 +211,11 @@ $$
 with $u$ and $v$ ranging over the sprite's pixel extent.
 
 The sprite has a world position
-$\mathbf{p}_{\text{world}}^{\text{sprite}} = (w_x, w_y, w_z)$
+$\mathbf{p}\_{\text{world}}^{\text{sprite}} = (w_x, w_y, w_z)$
 in the $y$-down convention
 of the previous articles.
 The camera is at world position
-$\mathbf{c}_{\text{camera}} = (c_x, c_y, c_z)$
+$\mathbf{c}\_{\text{camera}} = (c_x, c_y, c_z)$
 and looks forward along the world $w_z$ axis.
 The depth from the camera to the sprite is
 
@@ -428,14 +428,14 @@ and 224 pixels tall.
 The focal length is $f = 100$ pixels.
 The horizon sits at $s_y^{\text{horizon}} = 112$,
 the screen vertical centre.
-The camera position is $\mathbf{c}_{\text{camera}} = (0, 0, 0)$,
+The camera position is $\mathbf{c}\_{\text{camera}} = (0, 0, 0)$,
 looking forward along the world $w_z$ axis.
 
 A sprite is a 64-by-32-pixel enemy mecha
 at sprite-local pixel extent
 $\lvert u \rvert \le 32$, $\lvert v \rvert \le 16$.
 The mecha's world position is
-$\mathbf{p}_{\text{world}}^{\text{sprite}} = (15, 0, 50)$,
+$\mathbf{p}\_{\text{world}}^{\text{sprite}} = (15, 0, 50)$,
 15 units to the right of the camera
 on the horizon line
 at depth 50 units.
@@ -459,7 +459,7 @@ $\cos(\pi/6) = \sqrt{3}/2 \approx 0.866$,
 $\sin(\pi/6) = 1/2$.
 
 The sprite's top-right corner
-at sprite-local position $\mathbf{p}_{\text{local}} = (32, -16)$
+at sprite-local position $\mathbf{p}\_{\text{local}} = (32, -16)$
 maps to screen position
 
 $$

@@ -121,7 +121,7 @@ The graph-embedding distance for anomaly detection takes the form
 
 $$d_{\text{embed}}(v_i, C_{\text{authentic}}) = \min_{v_j \in C_{\text{authentic}}} \| \mathbf{h}_i - \mathbf{h}_j \|_2$$
 
-with $\mathbf{h}_i$ the learned embedding of node $v_i$ and $C_{\text{authentic}}$ the labeled authentic-node set. Nodes with anomalously large $d_{\text{embed}}$ trigger anomaly classification.
+with $\mathbf{h}\_i$ the learned embedding of node $v_i$ and $C_{\text{authentic}}$ the labeled authentic-node set. Nodes with anomalously large $d_{\text{embed}}$ trigger anomaly classification.
 
 Spectral-analysis anomaly detection identifies structural anomalies via the eigenvalue distribution of the graph Laplacian $L = D - A$, with anomaly triggering when the observed spectrum diverges from the null-model spectrum. The anomaly statistic based on the largest eigenvalue satisfies
 
@@ -187,7 +187,7 @@ The optimal-human-review-triage threshold is captured by the classification-scor
 
 $$\tau^* = \arg\max_\tau [\Pi(\tau) - C_{\text{review}}(\tau)]$$
 
-with $\Pi(\tau)$ the classification-accuracy benefit as a function of the human-review threshold and $C_{\text{review}}(\tau)$ the human-review labor cost. Platforms with high per-instance error cost (defamation, high-stake commercial reviews) exhibit lower $\tau^*$ (more human review) than platforms with low per-instance error cost.
+with $\Pi(\tau)$ the classification-accuracy benefit as a function of the human-review threshold and $C_{\text{review}}(\tau)$ the human-review labor cost. Platforms with high per-instance error cost (defamation, high-stake commercial reviews) exhibit lower $\tau^\*$ (more human review) than platforms with low per-instance error cost.
 
 The human-review inter-annotator agreement reduces to the Cohen kappa statistic
 
@@ -247,7 +247,7 @@ with $v$ the verification-stringency parameter. The optimal verification stringe
 
 $$U_{\text{verified}}(t) = \bar{U} / (1 + e^{-\alpha (t - t_v^*)})$$
 
-with $t_v^*$ the inflection point at which verification passes the majority adoption threshold. The empirical adoption curves from major platform verified-badge programs exhibit considerable variance around the logistic form depending on the verification-friction and the perceived-benefit alignment.
+with $t_v^\*$ the inflection point at which verification passes the majority adoption threshold. The empirical adoption curves from major platform verified-badge programs exhibit considerable variance around the logistic form depending on the verification-friction and the perceived-benefit alignment.
 
 ### Content-Authentication and Provenance
 
@@ -539,7 +539,7 @@ with the pooling-equilibrium prevalence depending on the equilibrium-manipulatio
 
 $$p_{\text{manip}}^{\text{AI-accel}}(t) = p_0 + (p_{\text{pooling}} - p_0) \cdot \frac{1}{1 + e^{-\kappa (t - t^*)}}$$
 
-with $t^*$ the inflection point at which generative-AI capability crosses the detection-difficulty threshold and $\kappa$ the transition rate. The scenario would considerably degrade the consumer welfare from platform-mediated reputation systems and would potentially trigger consumer migration to alternative reputation-infrastructure (organic-establishment communities, cryptographic-attestation systems).
+with $t^\*$ the inflection point at which generative-AI capability crosses the detection-difficulty threshold and $\kappa$ the transition rate. The scenario would considerably degrade the consumer welfare from platform-mediated reputation systems and would potentially trigger consumer migration to alternative reputation-infrastructure (organic-establishment communities, cryptographic-attestation systems).
 
 ### Alternative Scenario: Regulatory Response
 
@@ -618,7 +618,7 @@ with the largest-magnitude sensitivities identifying the highest-leverage contin
 
 $$c_i^* : \frac{\partial^2 p_{\text{manip}}}{\partial c_i^2}\bigg|_{c_i = c_i^*} = 0$$
 
-with $c_i^*$ the critical value of contingency parameter $c_i$ at which the trajectory bifurcates.
+with $c_i^\*$ the critical value of contingency parameter $c_i$ at which the trajectory bifurcates.
 
 ## Series Methodology and Limitations
 

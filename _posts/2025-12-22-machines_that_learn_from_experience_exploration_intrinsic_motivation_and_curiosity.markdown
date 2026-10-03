@@ -33,7 +33,7 @@ $$\text{SC}(\epsilon, \delta) = \left| \left\{t : V^*(s_t) - V^{\pi_t}(s_t) > \e
 
 which is bounded with probability at least $1 - \delta$ by an algorithm-polynomial in the problem parameters.
 
-An exploration strategy is a rule that governs how the agent selects actions in the presence of uncertainty about $V^*$ and the underlying transition kernel $P$ and reward function $R$. The naive $\epsilon$-greedy strategy of article three suffices for asymptotic convergence to the optimal policy in tabular finite MDPs, but its sample complexity scales poorly with state and action space size and requires long training even in modestly-sized problems.
+An exploration strategy is a rule that governs how the agent selects actions in the presence of uncertainty about $V^\*$ and the underlying transition kernel $P$ and reward function $R$. The naive $\epsilon$-greedy strategy of article three suffices for asymptotic convergence to the optimal policy in tabular finite MDPs, but its sample complexity scales poorly with state and action space size and requires long training even in modestly-sized problems.
 
 The three classical categories of exploration strategy are undirected exploration through random action selection (including $\epsilon$-greedy and Boltzmann), optimistic exploration that inflates uncertain value estimates, and posterior sampling that maintains a Bayesian belief over environments and follows the optimal policy for a sampled environment. Article three treated the classical instances, this article treats their extensions to high-dimensional and structured environments where the classical methods fail or scale poorly.
 
@@ -77,7 +77,7 @@ $$\mathcal{M}_t = \left\{(P', R') : \| P'(\cdot \mid s, a) - \hat{P}_t(\cdot \mi
 
 and following the policy optimal for the most-optimistic MDP in the confidence set. Both approaches achieve regret bounds of order $\tilde{\mathcal{O}}(D \sqrt{\lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for MDP diameter $D$.
 
-Optimism-based methods extend to function approximation but require additional care. The key challenge is characterizing uncertainty over $V^*$ or $Q^*$ when the value function is parameterized by a neural network rather than tabulated. Bootstrapped DQN of [Osband Blundell Pritzel and Van Roy 2016][research_osband_blundell_pritzel_van_roy_2016_exploration] maintains an ensemble of $K$ Q-networks trained on bootstrap samples of the replay buffer and uses their disagreement as an implicit optimism signal. At each episode, the agent randomly selects one head of the ensemble and follows it greedily, producing an approximate posterior-sampling behavior.
+Optimism-based methods extend to function approximation but require additional care. The key challenge is characterizing uncertainty over $V^\*$ or $Q^\*$ when the value function is parameterized by a neural network rather than tabulated. Bootstrapped DQN of [Osband Blundell Pritzel and Van Roy 2016][research_osband_blundell_pritzel_van_roy_2016_exploration] maintains an ensemble of $K$ Q-networks trained on bootstrap samples of the replay buffer and uses their disagreement as an implicit optimism signal. At each episode, the agent randomly selects one head of the ensemble and follows it greedily, producing an approximate posterior-sampling behavior.
 
 The disagreement measure
 
@@ -109,7 +109,7 @@ Posterior sampling for reinforcement learning (PSRL) of [Osband and Van Roy 2013
 
 $$p(\theta \mid \mathcal{D}_t) \propto p(\mathcal{D}_t \mid \theta) \, p(\theta)$$
 
-sampled from prior $p(\theta)$ conditioned on trajectory data $\mathcal{D}_t$. At the start of each episode the agent draws $\tilde{\theta} \sim p(\theta \mid \mathcal{D}_t)$, computes the optimal policy $\pi_{\tilde{\theta}}^*$ for the sampled environment, and follows it for the episode. The mechanism trades exploration for exploitation through the posterior variance rather than through explicit optimism.
+sampled from prior $p(\theta)$ conditioned on trajectory data $\mathcal{D}\_t$. At the start of each episode the agent draws $\tilde{\theta} \sim p(\theta \mid \mathcal{D}\_t)$, computes the optimal policy $\pi_{\tilde{\theta}}^\*$ for the sampled environment, and follows it for the episode. The mechanism trades exploration for exploitation through the posterior variance rather than through explicit optimism.
 
 The Bayesian regret of PSRL for finite-horizon episodic MDPs is
 
@@ -137,7 +137,7 @@ Practical instantiations of reward-free exploration include the RF-Express and R
 
 The count-based exploration bonus of the form $\beta / \sqrt{N(s, a)}$ works well in tabular MDPs but faces an immediate problem in high-dimensional or continuous state spaces where visit counts are always zero for previously-unseen states. The pseudocount framework of [Bellemare et al 2016][research_bellemare_et_al_2016_exploration] extended count-based methods to arbitrary state spaces by deriving effective visit counts from a density model.
 
-Let $\rho(s)$ be a density estimator over states that assigns a probability $\rho_n(s)$ after $n$ observations and $\rho'_n(s)$ after observing state $s$ once more. The pseudocount
+Let $\rho(s)$ be a density estimator over states that assigns a probability $\rho_n(s)$ after $n$ observations and $\rho'\_n(s)$ after observing state $s$ once more. The pseudocount
 
 $$\hat{N}(s) = \frac{\rho_n(s)(1 - \rho'_n(s))}{\rho'_n(s) - \rho_n(s)}$$
 
@@ -177,7 +177,7 @@ The choice of density model shapes the exploration inductive bias significantly.
 
 The prediction-error curiosity family uses the error of a learned forward or inverse model as an intrinsic reward, motivated by the intuition that surprising outcomes signal opportunities to learn. Earlier work in this direction includes [Stadie Levine and Abbeel 2015][research_stadie_levine_abbeel_2015] surprise-based intrinsic reward for Atari and [Houthooft Chen Duan Schulman De Turck Abbeel 2016][research_houthooft_et_al_2016] Variational Information Maximizing Exploration (VIME) that uses variational information gain on Bayesian neural network models as the intrinsic reward. The Intrinsic Curiosity Module (ICM) of [Pathak Agrawal Efros Darrell 2017][research_pathak_et_al_2017] provides the canonical modern implementation and set the template for subsequent prediction-error methods.
 
-ICM learns an inverse dynamics model $\hat{a}_t = f_{\text{inv}}(\phi(s_t), \phi(s_{t+1}))$ that predicts the action from consecutive state encodings, trained by the inverse-dynamics loss
+ICM learns an inverse dynamics model $\hat{a}\_t = f_{\text{inv}}(\phi(s_t), \phi(s_{t+1}))$ that predicts the action from consecutive state encodings, trained by the inverse-dynamics loss
 
 $$L_{\text{inv}}(\phi, f_{\text{inv}}) = \mathbb{E}\!\left[\ell(f_{\text{inv}}(\phi(s_t), \phi(s_{t+1})), a_t)\right]$$
 
@@ -211,7 +211,7 @@ Random Network Distillation (RND) of [Burda Edwards Storkey Klimov 2018][researc
 
 $$r^{\text{RND}}_t = \| \hat{f}_\theta(s_t) - f_{\bar{\theta}}(s_t) \|^2$$
 
-where $f_{\bar{\theta}}$ is the fixed random target network and $\hat{f}_\theta$ is the predictor trained by the regression loss
+where $f_{\bar{\theta}}$ is the fixed random target network and $\hat{f}\_\theta$ is the predictor trained by the regression loss
 
 $$L_{\text{RND}}(\theta) = \mathbb{E}_{s \sim \mathcal{D}}\!\left[\| \hat{f}_\theta(s) - f_{\bar{\theta}}(s) \|^2\right]$$
 

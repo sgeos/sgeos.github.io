@@ -380,7 +380,7 @@ Summing that inequality along the most expensive path gives the conclusion,
 
 $$T_{\mathrm{nat}}(P) \;=\; \sum_{\iota \in \pi^{*}} \; \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \sum_{\iota \in \pi^{*}} c(\iota) \;=\; \kappa \, T_{\mathrm{vm}}(P),$$
 
-with $\pi^{*}$ the worst path. **The constant that emerges is the one the transfer claim needed**, so
+with $\pi^{\*}$ the worst path. **The constant that emerges is the one the transfer claim needed**, so
 $\alpha$ and $\kappa$ are the same number arrived at from two directions, and the article uses $\alpha$
 for the claim and $\kappa$ for the per-instruction premise that would establish it.
 
@@ -499,7 +499,7 @@ a bound on cycles per instruction,
 
 $$T_{\mathrm{nat}}(f) \;\le\; \mathrm{CPI}_{\max} \cdot S(f),$$
 
-and $\mathrm{CPI}_{\max}$ is exactly what cache misses, branch misprediction and memory stalls make
+and $\mathrm{CPI}\_{\max}$ is exactly what cache misses, branch misprediction and memory stalls make
 unbounded without a target model. **That is the assumption the timing-analysis literature exists to
 refuse.** Instruction count ignores latency, cache behaviour, branch prediction and superscalar issue. A monotone relationship between bound and
 instruction count is weak evidence for a monotone relationship between bound and time, and no evidence at all

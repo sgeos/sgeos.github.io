@@ -25,7 +25,7 @@ The deep reinforcement learning field has largely accepted this arrangement. Emp
 
 The neural function-approximation universe adopted by deep reinforcement learning consists of the standard architectural families of deep learning, including convolutional neural networks for pixel input, multi-layer perceptrons for low-dimensional continuous state, recurrent networks for partial observability and long-range temporal dependencies, and increasingly transformers for both state processing and sequence modeling of trajectories. The [Goodfellow Bengio and Courville 2016][book_goodfellow_bengio_courville_2016] textbook and the [LeCun Bengio and Hinton 2015][research_lecun_bengio_hinton_2015] review together provide the standard references for the deep learning background that deep reinforcement learning presumes.
 
-In deep Q-learning, the action-value function is represented as $Q_\theta(s, a) = f_\theta(s)_a$ for discrete actions, with the network $f_\theta : \mathcal{S} \to \mathbb{R}^{\lvert \mathcal{A} \rvert}$ mapping states to a vector of one $Q$-value per action. For continuous action spaces the parameterization becomes $Q_\theta(s, a) = g_\theta(s, a)$ where both state and action are network inputs. Policy networks parameterize $\pi_\theta(a \mid s) = h_\theta(s, a)$ for discrete actions via softmax outputs or, for continuous actions, as a Gaussian $\pi_\theta(a \mid s) = \mathcal{N}(\mu_\theta(s), \Sigma_\theta(s))$ with state-conditional mean and covariance.
+In deep Q-learning, the action-value function is represented as $Q_\theta(s, a) = f_\theta(s)\_a$ for discrete actions, with the network $f_\theta : \mathcal{S} \to \mathbb{R}^{\lvert \mathcal{A} \rvert}$ mapping states to a vector of one $Q$-value per action. For continuous action spaces the parameterization becomes $Q_\theta(s, a) = g_\theta(s, a)$ where both state and action are network inputs. Policy networks parameterize $\pi_\theta(a \mid s) = h_\theta(s, a)$ for discrete actions via softmax outputs or, for continuous actions, as a Gaussian $\pi_\theta(a \mid s) = \mathcal{N}(\mu_\theta(s), \Sigma_\theta(s))$ with state-conditional mean and covariance.
 
 ## Deep Q-Networks
 
@@ -81,7 +81,7 @@ Distributional reinforcement learning treated in article three admits a natural 
 
 $$L(\theta) = \mathbb{E}_{(s, a, r, s')}\!\left[D_{\text{KL}}\!\left(\Phi \mathcal{T} Z_{\theta^{-}}(s', a^*) \,\|\, Z_\theta(s, a)\right)\right]$$
 
-where $\Phi$ is the projection operator, $\mathcal{T}$ the distributional Bellman operator, and $a^* = \arg\max_{a'} \mathbb{E}[Z_\theta(s', a')]$.
+where $\Phi$ is the projection operator, $\mathcal{T}$ the distributional Bellman operator, and $a^\* = \arg\max_{a'} \mathbb{E}[Z_\theta(s', a')]$.
 
 Quantile Regression DQN of [Dabney Rowland Bellemare and Munos 2018][research_dabney_rowland_bellemare_munos_2018] represents the return distribution by its quantiles rather than a fixed categorical support. For $N$ quantiles at fixed levels $\tau_i = (2i - 1) / 2N$, the network outputs quantile values $\{Z^i_\theta(s, a)\}$ and the quantile regression loss is
 
@@ -137,7 +137,7 @@ Proximal Policy Optimization of [Schulman Wolski Dhariwal Radford Klimov 2017][r
 
 $$L^{\text{CLIP}}(\theta) = \mathbb{E}_t\!\left[\min\!\left(r_t(\theta) \hat{A}_t, \; \text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t\right)\right]$$
 
-where $\hat{A}_t$ is a generalized advantage estimate from article three. The clipping operator caps the effective step size in the direction of the advantage without requiring an explicit KL constraint or expensive second-order optimization. PPO uses first-order optimization (Adam) with multiple epochs of minibatch updates over the collected trajectory batch and has become the default policy-gradient algorithm across the field.
+where $\hat{A}\_t$ is a generalized advantage estimate from article three. The clipping operator caps the effective step size in the direction of the advantage without requiring an explicit KL constraint or expensive second-order optimization. PPO uses first-order optimization (Adam) with multiple epochs of minibatch updates over the collected trajectory batch and has become the default policy-gradient algorithm across the field.
 
 The complete PPO objective adds a value-function regression term and an entropy bonus,
 
@@ -211,7 +211,7 @@ Decision Transformer of [Chen et al 2021][research_chen_et_al_2021] treats reinf
 
 $$P(\tau) = \prod_t P(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})$$
 
-where $\hat{R}_t = \sum_{k=t}^{T} r_k$ is the return-to-go from time $t$. Training uses standard supervised learning loss on trajectory data without value bootstrapping or off-policy corrections. The target return-to-go conditioning provides a form of policy specification at inference time. The agent generates actions consistent with achieving the specified return. Decision Transformer performs competitively with model-free offline RL methods and simplifies the algorithmic apparatus considerably.
+where $\hat{R}\_t = \sum_{k=t}^{T} r_k$ is the return-to-go from time $t$. Training uses standard supervised learning loss on trajectory data without value bootstrapping or off-policy corrections. The target return-to-go conditioning provides a form of policy specification at inference time. The agent generates actions consistent with achieving the specified return. Decision Transformer performs competitively with model-free offline RL methods and simplifies the algorithmic apparatus considerably.
 
 Trajectory Transformer of [Janner Li and Levine 2021][research_janner_li_levine_2021] similarly models the full trajectory distribution over discretized state-action-reward tokens and uses beam search over token sequences for planning. The formulation unifies model-based planning and model-free policy learning through the shared transformer sequence model.
 

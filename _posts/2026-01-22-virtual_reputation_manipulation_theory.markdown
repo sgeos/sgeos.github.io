@@ -147,7 +147,7 @@ The formal structure of the attention economy substrate can be characterized as 
 
 $$A_{\text{total}} = N \cdot \bar{a}$$
 
-with $N$ the active user count and $\bar{a}$ the average attention allocation per user. The allocation of $A_{\text{total}}$ across content, sellers, or reputational entities $i \in \{1, 2, \ldots, K\}$ produces the attention distribution $\{a_i\}_{i=1}^K$ satisfying $\sum_i a_i = A_{\text{total}}$. The empirical distribution of attention across content on major platforms is highly skewed, with the [Zipf 1949][book_zipf_1949] Human Behavior and the Principle of Least Effort framework and the [Pareto 1897][research_pareto_1897] Cours d'Economie Politique framework each providing power-law characterizations. The observed rank-size distribution typically satisfies
+with $N$ the active user count and $\bar{a}$ the average attention allocation per user. The allocation of $A_{\text{total}}$ across content, sellers, or reputational entities $i \in \{1, 2, \ldots, K\}$ produces the attention distribution $\{a_i\}\_{i=1}^K$ satisfying $\sum_i a_i = A_{\text{total}}$. The empirical distribution of attention across content on major platforms is highly skewed, with the [Zipf 1949][book_zipf_1949] Human Behavior and the Principle of Least Effort framework and the [Pareto 1897][research_pareto_1897] Cours d'Economie Politique framework each providing power-law characterizations. The observed rank-size distribution typically satisfies
 
 $$a_{(r)} \sim r^{-\alpha}, \quad \alpha \in [0.5, 2]$$
 
@@ -159,7 +159,7 @@ with the lower bound reached under uniform allocation and the upper bound reache
 
 $$H_{\text{attention}} = -\sum_{i=1}^{K} \frac{a_i}{A_{\text{total}}} \log \frac{a_i}{A_{\text{total}}} \in [0, \log K]$$
 
-with high entropy indicating dispersed attention and low entropy indicating concentrated attention. Major platforms typically exhibit $\text{HHI}_{\text{attention}}$ well above $1/K$ and $H_{\text{attention}}$ well below $\log K$, reflecting the power-law concentration the empirical evidence documents.
+with high entropy indicating dispersed attention and low entropy indicating concentrated attention. Major platforms typically exhibit $\text{HHI}\_{\text{attention}}$ well above $1/K$ and $H_{\text{attention}}$ well below $\log K$, reflecting the power-law concentration the empirical evidence documents.
 
 The platform mediates the attention allocation through algorithmic ranking. The ranking function
 
@@ -203,7 +203,7 @@ The Nash equilibrium of the symmetric-actor manipulation game is characterized b
 
 $$m_i^* = \arg\max_{m_i} \pi_i(m_i, m_{-i}^*), \quad \forall i$$
 
-with the vector $\mathbf{m}^* = (m_1^*, m_2^*, \ldots)$ satisfying the mutual best-response condition. The equilibrium manipulation intensity is generically positive when the reputation return $v$ is high, the marginal cost of manipulation $c'$ is low, the reputation function $R_i$ is highly sensitive to own manipulation, and the detection intensity $D$ is low. Empirical variation in equilibrium manipulation prevalence across platforms and categories can be interpreted as variation in these four parameters.
+with the vector $\mathbf{m}^\* = (m_1^\*, m_2^\*, \ldots)$ satisfying the mutual best-response condition. The equilibrium manipulation intensity is generically positive when the reputation return $v$ is high, the marginal cost of manipulation $c'$ is low, the reputation function $R_i$ is highly sensitive to own manipulation, and the detection intensity $D$ is low. Empirical variation in equilibrium manipulation prevalence across platforms and categories can be interpreted as variation in these four parameters.
 
 The prisoner's dilemma structure of the manipulation game permits a compact characterization. In the two-actor symmetric case with binary manipulation choices $m_i \in \{0, 1\}$, the payoff matrix
 
@@ -218,7 +218,7 @@ with $\pi_H > \pi_C > \pi_D > \pi_L$ produces a dominant strategy equilibrium of
 
 $$M^* = \sum_{i=1}^{N} m_i^* \to N \cdot \bar{m}^*$$
 
-as $N$ grows, with $\bar{m}^*$ the per-actor equilibrium intensity determined by the first-order condition. The elasticity of equilibrium manipulation with respect to detection intensity satisfies
+as $N$ grows, with $\bar{m}^\*$ the per-actor equilibrium intensity determined by the first-order condition. The elasticity of equilibrium manipulation with respect to detection intensity satisfies
 
 $$\varepsilon_{m,D} = \frac{\partial \ln \bar{m}^*}{\partial \ln D} < 0$$
 
@@ -242,7 +242,7 @@ $$\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial 
 
 with the left side the expected total cost and the right side the expected reputation gain. The condition binds tightly in high-detection high-penalty regimes and loosens in the opposite regime.
 
-The system reaches a joint equilibrium when the producer's manipulation intensity, the platform's detection intensity, and the consumer's rational expectation are mutually consistent. The joint equilibrium allows multiple stable points depending on the parameter configuration. The high-manipulation equilibrium features high $m^*$, low $D^*$, low consumer trust, and low reputation signal informativeness. The low-manipulation equilibrium features low $m^*$, high $D^*$, high consumer trust, and high reputation signal informativeness. The equilibrium selection depends on historical path dependence, platform design choices, and the exogenous parameters. The equilibrium multiplicity is characteristic of reputation systems and is documented in [Cabral 2012][research_cabral_2012] Reputation on the Internet and related work.
+The system reaches a joint equilibrium when the producer's manipulation intensity, the platform's detection intensity, and the consumer's rational expectation are mutually consistent. The joint equilibrium allows multiple stable points depending on the parameter configuration. The high-manipulation equilibrium features high $m^\*$, low $D^\*$, low consumer trust, and low reputation signal informativeness. The low-manipulation equilibrium features low $m^\*$, high $D^\*$, high consumer trust, and high reputation signal informativeness. The equilibrium selection depends on historical path dependence, platform design choices, and the exogenous parameters. The equilibrium multiplicity is characteristic of reputation systems and is documented in [Cabral 2012][research_cabral_2012] Reputation on the Internet and related work.
 
 The signal-to-noise ratio of the reputation signal under the manipulation equilibrium is
 
@@ -282,7 +282,7 @@ The fifth partial resolution is the enforcement-shadow account. Producers who op
 
 $$\Pi_{\text{external}}(m) = \sum_{k \in \text{channels}} \Pr(\text{detect}_k \mid m) \cdot L_k$$
 
-with $\Pr(\text{detect}_k \mid m)$ the channel-$k$ detection probability and $L_k$ the channel-$k$ penalty. The enforcement-shadow account explains why certain regulated segments of the reputation market (professional services with liability exposure, publicly traded firms subject to securities disclosure, medical providers subject to malpractice liability) maintain higher signal informativeness than unregulated segments.
+with $\Pr(\text{detect}\_k \mid m)$ the channel-$k$ detection probability and $L_k$ the channel-$k$ penalty. The enforcement-shadow account explains why certain regulated segments of the reputation market (professional services with liability exposure, publicly traded firms subject to securities disclosure, medical providers subject to malpractice liability) maintain higher signal informativeness than unregulated segments.
 
 The organic-establishment puzzle allows partial quantitative formalization through the mixing weights of the manipulation-equilibrium and separating-equilibrium subpopulations. Let $\phi$ denote the fraction of producers in the separating-equilibrium subpopulation and $1 - \phi$ denote the fraction in the manipulation-equilibrium subpopulation. The consumer's posterior about a randomly encountered producer's type is a mixture
 
@@ -294,7 +294,7 @@ The dynamics of $\phi$ over time can be characterized by a replicator equation i
 
 $$\dot{\phi} = \phi (1 - \phi) [\pi_{\text{sep}} - \pi_{\text{manip}}]$$
 
-with $\pi_{\text{sep}}$ and $\pi_{\text{manip}}$ the expected payoffs to the two strategies. The interior fixed points of the replicator dynamics satisfy $\pi_{\text{sep}} = \pi_{\text{manip}}$, and the boundary fixed points at $\phi = 0$ and $\phi = 1$ are stable when the interior payoff comparison points away from the boundary. The local stability of an interior fixed point $\phi^*$ satisfies
+with $\pi_{\text{sep}}$ and $\pi_{\text{manip}}$ the expected payoffs to the two strategies. The interior fixed points of the replicator dynamics satisfy $\pi_{\text{sep}} = \pi_{\text{manip}}$, and the boundary fixed points at $\phi = 0$ and $\phi = 1$ are stable when the interior payoff comparison points away from the boundary. The local stability of an interior fixed point $\phi^\*$ satisfies
 
 $$\left.\frac{d\dot{\phi}}{d\phi}\right|_{\phi = \phi^*} < 0 \iff \phi^* \text{ is asymptotically stable}$$
 
@@ -354,7 +354,7 @@ The adaptation axis characterizes response to platform-architecture change, dete
 
 $$\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)$$
 
-where $S_i$ is the actor's technique-and-infrastructure state, $S_i^{*}(t)$ is the environment-dependent optimal response, $\tau_i$ is the actor's adaptation time constant, and $\xi_i(t)$ is exogenous perturbation. High-adaptation actors (professional manipulation-service firms with dedicated engineering teams) exhibit short $\tau_i$, and low-adaptation actors (individual self-promoters relying on manual technique) exhibit long $\tau_i$.
+where $S_i$ is the actor's technique-and-infrastructure state, $S_i^{\*}(t)$ is the environment-dependent optimal response, $\tau_i$ is the actor's adaptation time constant, and $\xi_i(t)$ is exogenous perturbation. High-adaptation actors (professional manipulation-service firms with dedicated engineering teams) exhibit short $\tau_i$, and low-adaptation actors (individual self-promoters relying on manual technique) exhibit long $\tau_i$.
 
 The six axes are not independent. The account supports a cross-axis coupling matrix
 

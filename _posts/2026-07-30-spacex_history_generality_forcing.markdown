@@ -31,7 +31,7 @@ The generality-forcing coverage-ratio may be written
 
 $$\gamma_i = \frac{|A^{\text{covered}}_i|}{|A^{\text{potential}}_i|}$$
 
-with $A^{\text{covered}}_i$ the set of adjacent applications the capability configuration covers and $A^{\text{potential}}_i$ the set of potential adjacent applications the capability arrangement could cover. The SpaceX case exhibits substantial $\gamma_i$ values approaching unity across the commercial launch-service, cargo, crew, national-security, geostationary-transfer, low-Earth-orbit-constellation, and lunar-lander application segments.
+with $A^{\text{covered}}\_i$ the set of adjacent applications the capability configuration covers and $A^{\text{potential}}\_i$ the set of potential adjacent applications the capability arrangement could cover. The SpaceX case exhibits substantial $\gamma_i$ values approaching unity across the commercial launch-service, cargo, crew, national-security, geostationary-transfer, low-Earth-orbit-constellation, and lunar-lander application segments.
 
 The cross-application capability-substrate identity takes the compact form
 
@@ -43,7 +43,7 @@ The generality-forcing decomposition across the SpaceX portfolio takes the form
 
 $$V^{\text{generality-forcing}}_i = \sum_{a \in A} V^{\text{application}}(a) \cdot \phi^{\text{capability-fit}}_i(a)$$
 
-with $\phi^{\text{capability-fit}}_i(a)$ the capability-fit fraction for the application $a$ under the firm $i$ configuration.
+with $\phi^{\text{capability-fit}}\_i(a)$ the capability-fit fraction for the application $a$ under the firm $i$ configuration.
 
 The identification problem for the generality-forcing contribution to the SpaceX trajectory is the question of separating the generality-forcing effect from the confounding effects of the other six forcing-function conditions and the three capital-formation legs. The counterfactual differential can be written as
 
@@ -89,7 +89,7 @@ The generality-forcing yield may be written
 
 $$Y^{\text{generality}}_i = \frac{\sum_{a \in A^{\text{covered}}} V^{\text{application}}(a)}{V^{\text{primary-mission}}}$$
 
-with $Y^{\text{generality}}_i$ exceeding unity indicating that the adjacent-application-yield substantially exceeds the primary-mission-yield. The SpaceX case exhibits substantial $Y^{\text{generality}}$ reflecting the commercial-launch, Starlink, and defense application yields that substantially exceed the direct Mars-mission yield to date.
+with $Y^{\text{generality}}\_i$ exceeding unity indicating that the adjacent-application-yield substantially exceeds the primary-mission-yield. The SpaceX case exhibits substantial $Y^{\text{generality}}$ reflecting the commercial-launch, Starlink, and defense application yields that substantially exceed the direct Mars-mission yield to date.
 
 The requirement-satisfaction indicator admits the compact form
 

@@ -159,7 +159,7 @@ $$N = R_* \cdot f_p \cdot n_e \cdot f_l \cdot f_i \cdot f_c \cdot L$$
 Each variable captures one factor
 in the chain of conditions
 required for a detectable civilization to exist.
-$R_*$ is the average rate of star formation
+$R_\*$ is the average rate of star formation
 in the galaxy in stars per year.
 $f_p$ is the fraction of those stars
 that form planetary systems.
@@ -179,7 +179,7 @@ of such a technological civilization in years.
 Drake and his colleagues
 assigned estimates to each parameter
 based on the best available knowledge in 1961.
-They used $R_* = 1$ star per year
+They used $R_\* = 1$ star per year
 as a conservative average
 over the lifetime of the galaxy.
 They estimated $f_p$ between 0.2 and 0.5,
@@ -214,7 +214,7 @@ the astrophysical parameters of the Drake Equation.
 The biological and sociological parameters
 remain deeply uncertain.
 
-The modern estimate for $R_*$
+The modern estimate for $R_\*$
 is between 1.5 and 3 stars per year,
 based on infrared surveys from the Herschel Space Observatory
 and gamma-ray measurements.
@@ -1948,12 +1948,12 @@ or the Blandford-Znajek mechanism.
 The maximum rotational energy
 extractable from a Kerr black hole
 with mass $M_{\text{BH}}$
-and dimensionless spin parameter $a_*$ is
+and dimensionless spin parameter $a_\*$ is
 
 $$E_{\text{rot}} = \left(1 - \sqrt{\frac{1 + \sqrt{1 - a_*^2}}{2}}\right) M_{\text{BH}} c^2$$
 
 For a maximally spinning black hole
-with $a_* = 1$, this reduces to
+with $a_\* = 1$, this reduces to
 
 $$E_{\text{rot,max}} = \left(1 - \frac{1}{\sqrt{2}}\right) M_{\text{BH}} c^2 \approx 0.293 \, M_{\text{BH}} c^2$$
 

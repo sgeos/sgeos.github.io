@@ -113,7 +113,7 @@ The empirical prevalence of individual review fabrication varies by platform and
 
 $$\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot \bar{r}_{\text{fake}} / (N_i + n_i^{\text{fake}})$$
 
-with $\Delta r_i^{\text{obs}}$ the observed rating change, $\Delta r_i^{\text{authentic}}$ the authentic rating change, $n_i^{\text{fake}}$ the injected fake-review count, $\bar{r}_{\text{fake}}$ the average fake-review rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-review effectiveness depends on the ratio $n_i^{\text{fake}} / N_i$, which is highest for new or low-review-volume businesses and lowest for established high-review-volume businesses.
+with $\Delta r_i^{\text{obs}}$ the observed rating change, $\Delta r_i^{\text{authentic}}$ the authentic rating change, $n_i^{\text{fake}}$ the injected fake-review count, $\bar{r}\_{\text{fake}}$ the average fake-review rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-review effectiveness depends on the ratio $n_i^{\text{fake}} / N_i$, which is highest for new or low-review-volume businesses and lowest for established high-review-volume businesses.
 
 The detection signatures for individual fabrication include stylometric anomalies (deceptive text tends to over-use first-person pronouns, super-positive adjectives, and quality claims), temporal anomalies (concentrated review bursts inconsistent with the natural arrival rate), reviewer-history anomalies (reviewers with no prior activity or with review histories concentrated on the target business), and IP and device fingerprint anomalies (reviews originating from IP ranges or devices associated with the business owner or with review-service operators). The classifier-based detection takes the form the standard classification-performance metrics
 
@@ -153,7 +153,7 @@ The text-similarity detection statistic for coordinated review campaigns reduces
 
 $$\text{sim}_n(r_i, r_j) = \frac{|N_n(r_i) \cap N_n(r_j)|}{|N_n(r_i) \cup N_n(r_j)|}$$
 
-with $N_n(r)$ the set of $n$-grams appearing in review $r$. Detection thresholds typically set $\text{sim}_n > 0.5$ for $n = 4$ as the coordination trigger. The reviewer-graph community-detection statistic can be characterized as the modularity function
+with $N_n(r)$ the set of $n$-grams appearing in review $r$. Detection thresholds typically set $\text{sim}\_n > 0.5$ for $n = 4$ as the coordination trigger. The reviewer-graph community-detection statistic can be characterized as the modularity function
 
 $$Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)$$
 
@@ -177,7 +177,7 @@ when the identity is used for review deposition rather than for higher-fidelity 
 
 $$s_{ij}^{\text{behav}} = \frac{\langle \mathbf{f}_i, \mathbf{f}_j\rangle}{\|\mathbf{f}_i\| \cdot \|\mathbf{f}_j\|}$$
 
-with $\mathbf{f}_i$ the behavioral-feature vector for account $i$ combining posting-time distribution, session-length distribution, device-fingerprint hash, and IP-address entropy. Sockpuppet-account pairs exhibit anomalously high $s_{ij}^{\text{behav}}$, and the account-linkage detection identifies suspicious pairs above a chosen threshold. The corresponding posterior for sockpuppet-linkage given the similarity is
+with $\mathbf{f}\_i$ the behavioral-feature vector for account $i$ combining posting-time distribution, session-length distribution, device-fingerprint hash, and IP-address entropy. Sockpuppet-account pairs exhibit anomalously high $s_{ij}^{\text{behav}}$, and the account-linkage detection identifies suspicious pairs above a chosen threshold. The corresponding posterior for sockpuppet-linkage given the similarity is
 
 $$\Pr(\text{sockpuppet}_{ij} \mid s_{ij}^{\text{behav}}) = \frac{p(s_{ij} \mid \text{link}) \pi_{\text{link}}}{p(s_{ij} \mid \text{link}) \pi_{\text{link}} + p(s_{ij} \mid \neg \text{link})(1 - \pi_{\text{link}})}$$
 
@@ -243,7 +243,7 @@ The detection signatures for purchased followers include the individual bot-acco
 
 $$\rho_i^{\text{follow-engage}} = \frac{\bar{e}_i}{F_i}$$
 
-with $\bar{e}_i$ the mean per-post engagement and $F_i$ the follower count. Accounts with purchased followers exhibit anomalously low $\rho^{\text{follow-engage}}$ compared to authentic-follower baselines in the same account category. The organic-follower-growth rate follows a logistic trajectory characterized by
+with $\bar{e}\_i$ the mean per-post engagement and $F_i$ the follower count. Accounts with purchased followers exhibit anomalously low $\rho^{\text{follow-engage}}$ compared to authentic-follower baselines in the same account category. The organic-follower-growth rate follows a logistic trajectory characterized by
 
 $$\frac{dF_i}{dt} = r \, F_i \left(1 - \frac{F_i}{K}\right)$$
 
@@ -299,7 +299,7 @@ The [Gyongyi Garcia-Molina 2005][research_gyongyi_garciamolina_2005] Web Spam Ta
 
 $$\frac{\partial \text{PR}(p)}{\partial |B_p|} = \frac{d}{|B_p| + 1} \cdot \bar{\text{PR}}_{B_p}$$
 
-with $\bar{\text{PR}}_{B_p}$ the average PageRank of the inbound-link set. The ranking-position shift produced by a rank increase depends on the density of the local rank-neighborhood and follows approximately
+with $\bar{\text{PR}}\_{B_p}$ the average PageRank of the inbound-link set. The ranking-position shift produced by a rank increase depends on the density of the local rank-neighborhood and follows approximately
 
 $$\Delta \text{rank} \approx -\frac{\partial N_{<\rho}}{\partial \rho} \cdot \Delta \rho$$
 
@@ -319,7 +319,7 @@ App-store optimization (ASO) gaming targets the ranking algorithms on the [Apple
 
 $$z_{\text{download}}(t) = \frac{D(t) - \bar{D}_{\text{category}}(t)}{\sigma_{D,\text{category}}(t)}$$
 
-with $D(t)$ the app's download rate at time $t$ and $\bar{D}_{\text{category}}$, $\sigma_{D,\text{category}}$ the category-baseline moments. Manipulation-driven download bursts produce $z_{\text{download}}$ above the anomaly threshold typically set at $z > 3$. The [Ali et al 2017][research_ali_et_al_2017] Same Same but Different Search Advertising and Users' Attention treatment surveys the ranking-algorithm-adjacent research. The [D'Ambrosio et al 2018][research_dambrosio_et_al_2018] treatment analyzes the app-review manipulation ecosystem.
+with $D(t)$ the app's download rate at time $t$ and $\bar{D}\_{\text{category}}$, $\sigma_{D,\text{category}}$ the category-baseline moments. Manipulation-driven download bursts produce $z_{\text{download}}$ above the anomaly threshold typically set at $z > 3$. The [Ali et al 2017][research_ali_et_al_2017] Same Same but Different Search Advertising and Users' Attention treatment surveys the ranking-algorithm-adjacent research. The [D'Ambrosio et al 2018][research_dambrosio_et_al_2018] treatment analyzes the app-review manipulation ecosystem.
 
 ## Coordinated Inauthentic Behavior at Network Scale
 
@@ -509,7 +509,7 @@ $$\mathbf{a}_k^{\text{struct}} = (D_k, B_k, N_k)$$
 
 with $N_k$ the operator population size. Individual operations exhibit $D_k = 1$, $B_k = 1$, $N_k = 1$. Commercial marketplace operations exhibit $D_k \approx 3$-$4$, $B_k \approx 10$-$100$, $N_k \approx 10^3$-$10^5$. State-sponsored operations exhibit $D_k \approx 5$-$7$, $B_k \approx 10$-$30$, $N_k \approx 10^3$-$10^6$.
 
-The model axis characterization identifies the technical and rhetorical content each technique class carries. The technical model includes the fabrication method, the account-provenance method, the coordination method, and the evasion method. The rhetorical model includes the persuasion framing, the credibility framing, and the narrative framing. The model-axis position of each technique takes the form the position vector $\mathbf{c}_k$ over the technique-space basis introduced in the framing article, with pairwise technique distance $d_{\text{model}}(j, k) = \sum_m \lvert c_m^j - c_m^k \rvert$.
+The model axis characterization identifies the technical and rhetorical content each technique class carries. The technical model includes the fabrication method, the account-provenance method, the coordination method, and the evasion method. The rhetorical model includes the persuasion framing, the credibility framing, and the narrative framing. The model-axis position of each technique takes the form the position vector $\mathbf{c}\_k$ over the technique-space basis introduced in the framing article, with pairwise technique distance $d_{\text{model}}(j, k) = \sum_m \lvert c_m^j - c_m^k \rvert$.
 
 The interaction axis characterization for self-promotion techniques uniformly involves the actor's relationship with platforms (ranging from compliant to adversarial), with targets (typically target-unaware self-promotion), with competitors (typically independent operation, sometimes industry-wide reputation collusion), with audiences (typically audience-unaware manipulation, sometimes audience-complicit as in engagement pods), and with enforcement authorities (below-detection-threshold operation through detection-and-remediation cycle through legal-proceedings engagement). The interaction axis is operationalized as the weighted signed graph over actors, targets, platforms, and enforcers.
 
@@ -517,7 +517,7 @@ The adaptation axis characterization varies appreciably across techniques by ada
 
 $$\frac{dS_k}{dt} = -\frac{1}{\tau_k}(S_k - S_k^{*}(t)) + \xi_k(t)$$
 
-with $S_k$ the technique-and-infrastructure state and $S_k^{*}(t)$ the environment-dependent optimal response. Commercial and state-sponsored operations achieve $\tau_k$ in the range of days to weeks; individual operations exhibit $\tau_k$ in the range of months to years.
+with $S_k$ the technique-and-infrastructure state and $S_k^{\*}(t)$ the environment-dependent optimal response. Commercial and state-sponsored operations achieve $\tau_k$ in the range of days to weeks; individual operations exhibit $\tau_k$ in the range of months to years.
 
 The cross-axis coupling matrix to the self-promotion technique inventory identifies the principal empirical dependencies among axis values. Empirically salient couplings include the structure-signal coupling $\partial a^{\text{signal}} / \partial a^{\text{struct}} > 0$ (larger organizational structure supports higher signal volume), the model-adaptation coupling $\partial a^{\text{adapt}} / \partial a^{\text{model}} > 0$ (more sophisticated technical model supports faster adaptation), and the interaction-signal coupling $\partial a^{\text{signal}} / \partial a^{\text{interact}} \lessgtr 0$ (compliant platform relationship constrains signal volume, adversarial relationship enables higher signal at higher detection risk). The self-promotion cross-axis coupling matrix
 
@@ -579,7 +579,7 @@ Individual and coordinated review fabrication prevalence on consumer-review plat
 
 $$\hat{p}^{\text{comp}} = \sum_c w_c \hat{p}_c, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}$$
 
-with $w_c$ the volume-weighted category weight and $\hat{p}_c$ the category-specific prevalence estimate, subject to sampling variance
+with $w_c$ the volume-weighted category weight and $\hat{p}\_c$ the category-specific prevalence estimate, subject to sampling variance
 
 $$\text{Var}(\hat{p}^{\text{comp}}) = \sum_c w_c^2 \cdot \text{Var}(\hat{p}_c)$$
 

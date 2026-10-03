@@ -89,7 +89,7 @@ The anchor-underwriting break-even condition that the fixed-cost capability requ
 
 $$R^{\text{anchor}}_i > F^{\text{capability}}_i + c^{\text{marginal}}_i \cdot q^{\text{anchor}}_i$$
 
-with $F^{\text{capability}}_i$ the fixed-cost capability investment, $c^{\text{marginal}}_i$ the per-mission marginal cost, and $q^{\text{anchor}}_i$ the anchor mission count. Under the condition, the venture can bid on marginal-cost commercial missions at prices exceeding marginal cost while capturing positive contribution to fixed-cost recovery from each additional commercial mission.
+with $F^{\text{capability}}\_i$ the fixed-cost capability investment, $c^{\text{marginal}}\_i$ the per-mission marginal cost, and $q^{\text{anchor}}\_i$ the anchor mission count. Under the condition, the venture can bid on marginal-cost commercial missions at prices exceeding marginal cost while capturing positive contribution to fixed-cost recovery from each additional commercial mission.
 
 The reliability transmission from the anchor's requirements to the commercial customer base allows the standard-transfer identity
 
@@ -143,7 +143,7 @@ The transaction-cost-economics tradition traces from [Coase 1937][research_coase
 
 $$k^{\text{specificity}}_i = 1 - \frac{V^{\text{alternative-use}}_i}{V^{\text{best-use}}_i}$$
 
-with $k^{\text{specificity}}_i \in [0, 1]$ measuring the fraction of the asset value that is lost under alternative use rather than the best use. The SpaceX-NASA relationship exhibits substantial asset-specificity through the Falcon 9 vehicle and Dragon spacecraft configurations that were substantially designed against the NASA ISS-servicing mission requirements, creating hold-up vulnerability that the fixed-price milestone-payment mechanism and the multi-provider redundancy requirement partially mitigate.
+with $k^{\text{specificity}}\_i \in [0, 1]$ measuring the fraction of the asset value that is lost under alternative use rather than the best use. The SpaceX-NASA relationship exhibits substantial asset-specificity through the Falcon 9 vehicle and Dragon spacecraft configurations that were substantially designed against the NASA ISS-servicing mission requirements, creating hold-up vulnerability that the fixed-price milestone-payment mechanism and the multi-provider redundancy requirement partially mitigate.
 
 The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships through [Hodge and Greve 2007][research_hodge_greve_2007] Public-Private Partnerships An International Performance Review, [Yescombe 2007][book_yescombe_2007] Public-Private Partnerships Principles of Policy and Finance, [Osborne 2000][book_osborne_2000] Public-Private Partnerships Theory and Practice in International Perspective, [Bovaird 2004][research_bovaird_2004] Public-Private Partnerships From Contested Concepts to Prevalent Practice Assessing the Effectiveness of Public-Private Partnerships. The framing treats the anchor-demand property through the public-private-partnership structure that the COTS program instantiated as an alternative to the traditional cost-plus procurement mechanism. The shared-risk shared-reward identity that the PPP framework formalizes admits the compact form
 
@@ -167,7 +167,7 @@ The ecosystem-strategy framing traces from [Adner 2012][book_adner_2012] The Wid
 
 $$V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)$$
 
-with $\phi^{\text{appropriation}}_i$ the fraction of the ecosystem value the firm captures under the anchor-demand configuration.
+with $\phi^{\text{appropriation}}\_i$ the fraction of the ecosystem value the firm captures under the anchor-demand configuration.
 
 The financial-sociology framing traces from [Fligstein 2001][book_fligstein_2001] The Architecture of Markets through [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera, [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, and [Preda 2009][book_preda_2009] Framing Finance. The framing treats the anchor-demand property through the financial-market institutional configuration that shapes the accessible capital-raising terms and the role of the anchor-demand backlog in supporting the private-market capital-raising trajectory. The framing draws attention to the role of the CRS-1 backlog in permitting the Series D private-market capital round of approximately 46 million dollars in August 2009 at substantially higher valuation than would have been possible absent the anchor-demand backlog.
 
@@ -585,7 +585,7 @@ with $\phi_k$ the closure indicator for sub-property $k$ and the conjunction req
 
 $$\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5$$
 
-with the candidate's anchor-demand closure occurring when $\boldsymbol{\phi}_j = \mathbf{1}$. Under order-of-magnitude estimates $p_k \approx 0.25$ across the five sub-properties and independence, the joint-closure probability is approximately
+with the candidate's anchor-demand closure occurring when $\boldsymbol{\phi}\_j = \mathbf{1}$. Under order-of-magnitude estimates $p_k \approx 0.25$ across the five sub-properties and independence, the joint-closure probability is approximately
 
 $$P^{\text{AD closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001$$
 

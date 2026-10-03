@@ -21,11 +21,11 @@ The classical stochastic multi-armed bandit problem specifies a set of $K$ arms 
 
 $$\mathbb{E}\left[\sum_{t=1}^T X_t\right]$$
 
-or equivalently to minimize the regret, defined as the expected shortfall relative to always playing the optimal arm $a^* = \arg\max_a \mu_a$ with mean reward $\mu^* = \max_a \mu_a$,
+or equivalently to minimize the regret, defined as the expected shortfall relative to always playing the optimal arm $a^\* = \arg\max_a \mu_a$ with mean reward $\mu^\* = \max_a \mu_a$,
 
 $$R_T = T \mu^* - \mathbb{E}\left[\sum_{t=1}^T X_t\right] = \mathbb{E}\left[\sum_{t=1}^T (\mu^* - \mu_{A_t})\right]$$
 
-Writing $\Delta_a = \mu^* - \mu_a$ for the suboptimality gap of arm $a$ and $N_a(T) = \sum_{t=1}^T \mathbb{1}\{A_t = a\}$ for the number of times arm $a$ has been played by round $T$, regret decomposes as
+Writing $\Delta_a = \mu^\* - \mu_a$ for the suboptimality gap of arm $a$ and $N_a(T) = \sum_{t=1}^T \mathbb{1}\{A_t = a\}$ for the number of times arm $a$ has been played by round $T$, regret decomposes as
 
 $$R_T = \sum_{a=1}^K \Delta_a \, \mathbb{E}[N_a(T)]$$
 
@@ -35,7 +35,7 @@ A complementary objective is the simple regret at some fixed final round $T$, co
 
 $$r_T = \mu^* - \mu_{\hat{a}_T}$$
 
-where $\hat{a}_T$ is the arm the learner recommends after $T$ rounds of interaction. Cumulative regret and simple regret can trade off against one another, since strategies that explore aggressively to identify the best arm may forego reward during exploration.
+where $\hat{a}\_T$ is the arm the learner recommends after $T$ rounds of interaction. Cumulative regret and simple regret can trade off against one another, since strategies that explore aggressively to identify the best arm may forego reward during exploration.
 
 The Bernoulli bandit specializes the reward model to $X_t \in \{0, 1\}$ with $\nu_a = \text{Bernoulli}(\mu_a)$, useful both as a running example and as the canonical setting for early theoretical results. The Gaussian bandit specializes to $\nu_a = \mathcal{N}(\mu_a, \sigma^2)$ and provides the standard subgaussian analytical setting.
 
@@ -73,7 +73,7 @@ Three notions of regret are worth distinguishing. The pseudo-regret
 
 $$\bar{R}_T = T \mu^* - \sum_{t=1}^T \mu_{A_t}$$
 
-compares against the true optimal mean and is what most stochastic bandit algorithms directly bound. The expected regret $R_T = \mathbb{E}[\bar{R}_T]$ takes expectation over the randomness of arm selection and reward realization. The Bayesian regret
+compares against the true optimal mean and is what most stochastic bandit algorithms directly bound. The expected regret $R_T = \mathbb{E}[\bar{R}\_T]$ takes expectation over the randomness of arm selection and reward realization. The Bayesian regret
 
 $$R_T^{\text{Bayes}} = \mathbb{E}_{\theta \sim \pi}[R_T(\theta)]$$
 
@@ -95,7 +95,7 @@ The [Lai and Robbins 1985][research_lai_robbins_1985] lower bound establishes a 
 
 $$\text{KL}(P \, \| \, Q) = \int p(x) \log \frac{p(x)}{q(x)} \, dx$$
 
-and is zero if and only if $P = Q$ almost everywhere. Let $\text{KL}(\nu_a \, \| \, \nu^*)$ denote this divergence between the reward distributions of a suboptimal arm and the optimal arm. Any consistent algorithm on a parametric family of distributions satisfies asymptotically
+and is zero if and only if $P = Q$ almost everywhere. Let $\text{KL}(\nu_a \, \| \, \nu^\*)$ denote this divergence between the reward distributions of a suboptimal arm and the optimal arm. Any consistent algorithm on a parametric family of distributions satisfies asymptotically
 
 $$\liminf_{T \to \infty} \frac{R_T}{\log T} \geq \sum_{a: \Delta_a > 0} \frac{\Delta_a}{\text{KL}(\nu_a \, \| \, \nu^*)}$$
 
@@ -153,13 +153,13 @@ in the linear stochastic setting, replacing the arm count $K$ in the bound with 
 
 Thompson sampling implements optimism in the face of uncertainty through Bayesian posterior sampling rather than confidence-bound construction. The algorithm maintains a posterior distribution over arm parameters and at each round samples from the posterior, then plays the arm that maximizes expected reward under the sample. For Bernoulli bandits with a Beta prior, the algorithm proceeds as follows.
 
-Maintain for each arm $a$ counts of successes $\alpha_a$ and failures $\beta_a$, initialized at $\alpha_a = \beta_a = 1$ for a uniform prior. At each round $t$, sample $\tilde{\mu}_a \sim \text{Beta}(\alpha_a, \beta_a)$ for each arm and play $A_t = \arg\max_a \tilde{\mu}_a$. Upon receiving reward $X_t \in \{0, 1\}$, update $\alpha_{A_t} \leftarrow \alpha_{A_t} + X_t$ and $\beta_{A_t} \leftarrow \beta_{A_t} + (1 - X_t)$.
+Maintain for each arm $a$ counts of successes $\alpha_a$ and failures $\beta_a$, initialized at $\alpha_a = \beta_a = 1$ for a uniform prior. At each round $t$, sample $\tilde{\mu}\_a \sim \text{Beta}(\alpha_a, \beta_a)$ for each arm and play $A_t = \arg\max_a \tilde{\mu}\_a$. Upon receiving reward $X_t \in \{0, 1\}$, update $\alpha_{A_t} \leftarrow \alpha_{A_t} + X_t$ and $\beta_{A_t} \leftarrow \beta_{A_t} + (1 - X_t)$.
 
 The Bayesian analysis of Thompson sampling due to [Russo and Van Roy 2014][research_russo_van_roy_2014] gives the Bayesian regret bound
 
 $$R_T^{\text{Bayes}} \leq \sqrt{\frac{1}{2} T H(A^*)}$$
 
-where $H(A^*)$ is the entropy of the prior over the optimal arm. The frequentist regret analysis of [Agrawal and Goyal 2012][research_agrawal_goyal_2012] shows Thompson sampling achieves $\mathcal{O}(\log T)$ instance-dependent regret with the Lai-Robbins constant asymptotically. [Kaufmann Korda and Munos 2012][research_kaufmann_korda_munos_2012] independently established non-asymptotic finite-time bounds for Thompson sampling on Bernoulli bandits that match the Lai-Robbins constant.
+where $H(A^\*)$ is the entropy of the prior over the optimal arm. The frequentist regret analysis of [Agrawal and Goyal 2012][research_agrawal_goyal_2012] shows Thompson sampling achieves $\mathcal{O}(\log T)$ instance-dependent regret with the Lai-Robbins constant asymptotically. [Kaufmann Korda and Munos 2012][research_kaufmann_korda_munos_2012] independently established non-asymptotic finite-time bounds for Thompson sampling on Bernoulli bandits that match the Lai-Robbins constant.
 
 The empirical success of Thompson sampling documented by [Chapelle and Li 2011][research_chapelle_li_2011] extends to structured settings including linear, Gaussian process, and neural network bandits. For linear Thompson sampling, [Agrawal and Goyal 2013][research_agrawal_goyal_2013] established the frequentist regret bound
 
@@ -171,7 +171,7 @@ matching the LinUCB scaling in $T$ but with a worse polynomial dependence on dim
 
 The adversarial bandit setting drops the stochastic assumption. An adversary selects reward sequences without stochastic structure, potentially with knowledge of the learner's algorithm but not its randomization. The setting is the natural model for problems in which stochastic reward assumptions are implausible, such as online advertising against strategic advertisers or repeated games against sophisticated opponents.
 
-The EXP3 algorithm of [Auer Cesa-Bianchi Freund and Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002] maintains exponentially-weighted probabilities over arms. Let $\eta$ be the learning rate and $\hat{X}_t(a)$ the importance-weighted reward estimate
+The EXP3 algorithm of [Auer Cesa-Bianchi Freund and Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002] maintains exponentially-weighted probabilities over arms. Let $\eta$ be the learning rate and $\hat{X}\_t(a)$ the importance-weighted reward estimate
 
 $$\hat{X}_t(a) = \frac{X_t \, \mathbb{1}\{A_t = a\}}{p_t(a)}$$
 
@@ -307,7 +307,7 @@ with confidence parameter $\delta$, ensuring correct identification with probabi
 
 $$\mathbb{E}[\tau_\delta] \geq T^*(\mu) \log(1/\delta)$$
 
-where $T^*(\mu)$ is a complex information-theoretic quantity involving a maxmin over allocation vectors and the KL divergences among reward distributions.
+where $T^\*(\mu)$ is a complex information-theoretic quantity involving a maxmin over allocation vectors and the KL divergences among reward distributions.
 
 Pure exploration extends beyond best-arm identification to top-$k$ identification, threshold bandits, and Pareto-front identification in multi-objective settings. The connection to bayesian optimization and to active learning is direct.
 
@@ -319,7 +319,7 @@ The abrupt-change setting assumes that arm rewards change at discrete change-poi
 
 $$A_t = \arg\max_a \left[ \hat{\mu}_a^{\tau}(t) + \sqrt{\frac{\xi \log \min(t, \tau)}{N_a^{\tau}(t)}} \right]$$
 
-where $\hat{\mu}_a^{\tau}(t)$ is the empirical mean over the sliding window and $N_a^{\tau}(t)$ the count of pulls within it. Sliding-window variants achieve regret bounds of $\mathcal{O}(\sqrt{S T \log T})$ where $S$ is the number of change-points.
+where $\hat{\mu}\_a^{\tau}(t)$ is the empirical mean over the sliding window and $N_a^{\tau}(t)$ the count of pulls within it. Sliding-window variants achieve regret bounds of $\mathcal{O}(\sqrt{S T \log T})$ where $S$ is the number of change-points.
 
 The smoothly-varying setting assumes that arm rewards evolve continuously, possibly with a bounded rate of change. Discounted UCB variants apply a discount factor $\gamma \in (0, 1)$ to older samples,
 

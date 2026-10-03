@@ -232,9 +232,9 @@ $$
 \mathbf{p}_{\text{screen}} = A\, \mathbf{p}_{\text{world}} + \mathbf{t},
 $$
 
-where $\mathbf{p}_{\text{world}}$
+where $\mathbf{p}\_{\text{world}}$
 is the position of the object in the game world,
-$\mathbf{p}_{\text{screen}}$
+$\mathbf{p}\_{\text{screen}}$
 is the position of its image on the screen,
 $A$ is a matrix
 that encodes rotation,
@@ -399,7 +399,7 @@ $$
 
 parameterised by a depth scalar $s$
 along a direction $\mathbf{d}$
-through a known reference point $\mathbf{p}_0$.
+through a known reference point $\mathbf{p}\_0$.
 
 In the projection-with-ambiguity cases
 where the depth coordinate is decoupled

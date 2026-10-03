@@ -125,13 +125,13 @@ The modularity index can be written as
 
 $$M_i = \frac{\sum_{s \in \text{subsystems}} \omega_s \cdot \phi^{\text{reuse}}_{s}}{\sum_{s \in \text{subsystems}} \omega_s}$$
 
-with $\phi^{\text{reuse}}_{s}$ the fraction of the subsystem $s$ that is reused across multiple rungs and $\omega_s$ the weight indicating the subsystem's contribution to the overall vehicle configuration. The SpaceX case exhibits high $M_i$ values reflecting the Merlin engine reuse across the Falcon 1, Falcon 9, and Falcon Heavy vehicles, the Dragon 1 to Dragon 2 subsystem reuse, and the structural and avionics reuse across the vehicle family.
+with $\phi^{\text{reuse}}\_{s}$ the fraction of the subsystem $s$ that is reused across multiple rungs and $\omega_s$ the weight indicating the subsystem's contribution to the overall vehicle configuration. The SpaceX case exhibits high $M_i$ values reflecting the Merlin engine reuse across the Falcon 1, Falcon 9, and Falcon Heavy vehicles, the Dragon 1 to Dragon 2 subsystem reuse, and the structural and avionics reuse across the vehicle family.
 
 The subsystem-interface-count has the form
 
 $$N^{\text{interfaces}}_i = \binom{n^{\text{subsystems}}}{2} \cdot \phi^{\text{connected}}_{i}$$
 
-with $\phi^{\text{connected}}_{i}$ the fraction of subsystem-pairs that share the direct interface. The SpaceX case exhibits substantial subsystem-interface-count reduction relative to the analog aerospace-industry baseline reflecting the integrated-architecture configuration.
+with $\phi^{\text{connected}}\_{i}$ the fraction of subsystem-pairs that share the direct interface. The SpaceX case exhibits substantial subsystem-interface-count reduction relative to the analog aerospace-industry baseline reflecting the integrated-architecture configuration.
 
 The staged-investment option value may be written
 
@@ -175,7 +175,7 @@ The systems-architecture tradition traces from [Simon 1962][research_simon_1962]
 
 $$MA_i = \frac{\sum_{s} c^{\text{internal}}_{s}}{\sum_{s,t} c^{\text{internal}}_{s} + c^{\text{external}}_{s,t}}$$
 
-with $c^{\text{internal}}_{s}$ the intra-subsystem coupling and $c^{\text{external}}_{s,t}$ the inter-subsystem coupling that jointly determine the modular-architecture strength.
+with $c^{\text{internal}}\_{s}$ the intra-subsystem coupling and $c^{\text{external}}\_{s,t}$ the inter-subsystem coupling that jointly determine the modular-architecture strength.
 
 The Simon nearly-decomposable hierarchical-system decomposition may be written
 
@@ -309,7 +309,7 @@ The block-progression capability index may be written
 
 $$K^{\text{block}}_n = K^{\text{block}}_{n-1} \cdot (1 + \Delta^{\text{improvement}}_n)$$
 
-with the block-by-block capability improvement $\Delta^{\text{improvement}}_n$ approximately 0.15 across the v1.0 to v1.1 to Full Thrust to Block 5 progression.
+with the block-by-block capability improvement $\Delta^{\text{improvement}}\_n$ approximately 0.15 across the v1.0 to v1.1 to Full Thrust to Block 5 progression.
 
 The Falcon 9 rung-value analysis takes the compact statement of the approximately 400 million dollar development investment through the 2010 first flight against the approximately 5 billion dollars in cumulative launch-service revenue across the 2010 through drafting-date operational period. The rung-value ratio of approximately 12.5 substantially exceeds unity, reflecting the commercial-viability of the Falcon 9 rung as an independently justifiable configuration. The commercial-viability assessment draws on the [Wall Street Journal][ref_wsj] and the [Bloomberg][ref_bloomberg] business coverage, and the NASA COTS Phase 1 and COTS Phase 2 procurement records in the [NASA COTS Final Report 2014][ref_nasa_cots_final_report_2014].
 
@@ -639,13 +639,13 @@ The actor-network-theory framing treats the SpaceX decomposability configuration
 
 $$ANS_i = \sum_{a \in \text{actors}} \omega_a \cdot \phi^{\text{alignment}}_{i,a}$$
 
-with $\phi^{\text{alignment}}_{i,a}$ the actor-network-alignment fraction for actor $a$ in firm $i$.
+with $\phi^{\text{alignment}}\_{i,a}$ the actor-network-alignment fraction for actor $a$ in firm $i$.
 
 The ecosystem-strategy framing treats the SpaceX decomposability configuration through the ecosystem-level orchestration in [Adner 2012][book_adner_2012] The Wide Lens, [Adner 2017][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Adner and Kapoor 2010][research_adner_kapoor_2010] Value Creation in Innovation Ecosystems, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the SpaceX vehicle-family decomposition as the ecosystem-level orchestration configuration in which the SpaceX firm coordinates the launch-service, spacecraft, propulsion, and operations segments to jointly support the decomposability outcome. The ecosystem-orchestration index has the form
 
 $$EO_i = \sum_{s \in \text{segments}} \omega_s \cdot \phi^{\text{coordinated}}_{i,s}$$
 
-with $\phi^{\text{coordinated}}_{i,s}$ the segment-coordination strength.
+with $\phi^{\text{coordinated}}\_{i,s}$ the segment-coordination strength.
 
 The political-economy framing treats the SpaceX decomposability configuration through the critical political-economy treatment in [Foster and McChesney 2011][book_foster_mcchesney_2011] The Endless Crisis, [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, and [Zuboff 2019][book_zuboff_2019] The Age of Surveillance Capitalism. The framing treats the SpaceX vehicle-family decomposition through the state-market interpenetration and the privatization-of-space-infrastructure dynamics that the decomposability configuration enables.
 

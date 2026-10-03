@@ -317,13 +317,13 @@ Xie Cheng Jiang Mineiro and Agarwal 2021, [Rashidinejad Zhu Jiao and Russell 202
 
 $$V^* - V^{\hat{\pi}} \leq \tilde{\mathcal{O}}\!\left(\sqrt{\frac{C^* H^3}{N}}\right)$$
 
-where $C^*$ is a concentrability coefficient measuring the coverage of the optimal policy's state-action distribution by the offline data distribution and $N$ is the dataset size. The bound depends on $C^*$ rather than the state-action space size, providing meaningful guarantees for problems with large state spaces provided the coverage is favorable.
+where $C^\*$ is a concentrability coefficient measuring the coverage of the optimal policy's state-action distribution by the offline data distribution and $N$ is the dataset size. The bound depends on $C^\*$ rather than the state-action space size, providing meaningful guarantees for problems with large state spaces provided the coverage is favorable.
 
 The concentrability coefficient can be characterized as
 
 $$C^* = \max_{s, a} \frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}$$
 
-where $d^{\pi^*}$ is the state-action distribution of the optimal policy and $d^\mu$ is that of the behavior policy. When $C^*$ is bounded, the offline dataset provides sufficient coverage to identify a near-optimal policy without further exploration.
+where $d^{\pi^\*}$ is the state-action distribution of the optimal policy and $d^\mu$ is that of the behavior policy. When $C^\*$ is bounded, the offline dataset provides sufficient coverage to identify a near-optimal policy without further exploration.
 
 Weaker single-policy concentrability replaces the maximum over states and actions with an average,
 
@@ -373,11 +373,11 @@ The quality of the reward signal in the offline dataset also matters. Sparse-rew
 
 Preference-based offline reinforcement learning combines offline data with human preference comparisons rather than scalar reward labels, extending the offline framework to domains where reward specification is difficult or unavailable. The treatment connects offline reinforcement learning to the RLHF apparatus of article four and to the preference-based reinforcement learning of article eleven. Deep Reinforcement Learning from Human Preferences of [Christiano Leike Brown Martic Legg Amodei 2017][research_christiano_et_al_2017_rlhf] provided the foundational modern framework, and InstructGPT of [Ouyang Wu Jiang Almeida Wainwright Mishkin Zhang Agarwal Slama Ray Schulman et al 2022][research_ouyang_et_al_2022_instructgpt] scaled the model to language model instruction following.
 
-The general setting provides a dataset of trajectory pairs $(\tau_i, \tau'_i)$ with human preferences $y_i \in \{0, 1\}$ indicating whether $\tau_i$ or $\tau'_i$ was preferred. A reward model is learned by minimizing the Bradley-Terry log-likelihood
+The general setting provides a dataset of trajectory pairs $(\tau_i, \tau'\_i)$ with human preferences $y_i \in \{0, 1\}$ indicating whether $\tau_i$ or $\tau'\_i$ was preferred. A reward model is learned by minimizing the Bradley-Terry log-likelihood
 
 $$L_{\text{reward}}(\phi) = -\mathbb{E}_{(\tau, \tau', y)}\!\left[y \log \sigma(\hat{R}_\phi(\tau) - \hat{R}_\phi(\tau')) + (1 - y) \log \sigma(\hat{R}_\phi(\tau') - \hat{R}_\phi(\tau))\right]$$
 
-where $\hat{R}_\phi(\tau) = \sum_t \hat{r}_\phi(s_t, a_t)$ is the trajectory-level reward under the learned reward model. The learned reward is then used to label the offline dataset and enable standard offline reinforcement learning.
+where $\hat{R}\_\phi(\tau) = \sum_t \hat{r}\_\phi(s_t, a_t)$ is the trajectory-level reward under the learned reward model. The learned reward is then used to label the offline dataset and enable standard offline reinforcement learning.
 
 Preference Transformer (PT) of [Kim et al 2023][research_kim_et_al_2023_pt] extended this formulation with a transformer-based reward model that captures long-range dependencies in preference judgments. The mechanism provides marked improvements on tasks where preference structure varies across trajectories.
 

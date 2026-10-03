@@ -164,10 +164,10 @@ while preserving the side-scrolling forward-map structure.
 
 The world coordinate
 is a two-dimensional position
-$\mathbf{p}_{\text{world}} = (w_x, w_y)$.
+$\mathbf{p}\_{\text{world}} = (w_x, w_y)$.
 The screen coordinate
 is a two-dimensional pixel position
-$\mathbf{p}_{\text{screen}} = (s_x, s_y)$.
+$\mathbf{p}\_{\text{screen}} = (s_x, s_y)$.
 The camera position
 is a world coordinate
 $\mathbf{c} = (c_x, c_y)$
@@ -406,7 +406,7 @@ follows the player position
 with a fixed right-bias of $-32$,
 so $c_x = w_{x,\text{player}} - 32$.
 
-The player stands at world position $\mathbf{p}_{\text{world}} = (300, 200)$
+The player stands at world position $\mathbf{p}\_{\text{world}} = (300, 200)$
 with $w_y = 200$ matching the ground.
 The camera position is therefore $\mathbf{c} = (268, 120)$.
 The forward map gives the player's screen position as
@@ -510,7 +510,7 @@ $$
 \mathbf{c}_{n+1} = \mathbf{c}_n + \alpha\, (\mathbf{c}_{\text{target}} - \mathbf{c}_n),
 $$
 
-where $\mathbf{c}_{\text{target}} = \mathbf{p}_{\text{player}}$
+where $\mathbf{c}\_{\text{target}} = \mathbf{p}\_{\text{player}}$
 and $\alpha \in (0, 1]$ is the interpolation factor.
 Celeste and other modern platformers
 use a smooth two-axis camera
@@ -590,7 +590,7 @@ $$
 \mathbf{c} = \mathrm{clamp}\left( \mathbf{c}_{\text{target}},\ \mathbf{m}_{\min} + \tfrac{\mathbf{v}}{2},\ \mathbf{m}_{\max} - \tfrac{\mathbf{v}}{2} \right),
 $$
 
-where $\mathbf{m}_{\min}$ and $\mathbf{m}_{\max}$
+where $\mathbf{m}\_{\min}$ and $\mathbf{m}\_{\max}$
 are the world-space corners of the level
 and $\mathbf{v} = (W/z,\ H/z)$
 is the viewport size in world units.

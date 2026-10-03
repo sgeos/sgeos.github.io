@@ -229,7 +229,7 @@ along the world $w_z$ axis
 with a yaw rotation angle $\theta$
 that the player or the engine can update.
 The screen coordinate is a two-dimensional pixel position
-$\mathbf{p}_{\text{screen}} = (s_x, s_y)$
+$\mathbf{p}\_{\text{screen}} = (s_x, s_y)$
 with $W$ and $H$ the screen width and height in pixels.
 The focal length $f$
 is a positive scalar in pixels
@@ -363,7 +363,7 @@ from world ground position to screen pixel
 inverts the backward map
 through the perspective relationship
 that the backward map encodes.
-Writing $(\tilde{w}_x, \tilde{w}_z)$
+Writing $(\tilde{w}\_x, \tilde{w}\_z)$
 for the camera-frame ground coordinates,
 
 $$
@@ -383,7 +383,7 @@ s_y = s_y^{\text{horizon}} + \frac{f\, h}{\tilde{w}_z}.
 $$
 
 The forward map
-contains a division by $\tilde{w}_z$
+contains a division by $\tilde{w}\_z$
 that the affine framework of the previous articles
 does not include.
 The division
@@ -563,7 +563,7 @@ to the $-w_x$ axis.
 The forward map verifies the round trip.
 A world point at $(0, w_y^{\text{ground}}, 76.8)$
 with $\theta = 0$
-gives $\tilde{w}_x = 0$, $\tilde{w}_z = 76.8$,
+gives $\tilde{w}\_x = 0$, $\tilde{w}\_z = 76.8$,
 and the forward map yields
 
 $$

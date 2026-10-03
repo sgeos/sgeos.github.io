@@ -69,7 +69,7 @@ with $x_i$ inputs, $w_i$ weights, $\theta$ a threshold, and $\sigma$ a nonlinear
 
 $$\Delta w_i = \eta \, (y^* - y) \, x_i$$
 
-with $y^*$ the target and $\eta$ a learning rate. The model provided the first empirical demonstration that learning could occur in an artificial network through the interaction of pattern presentation and error-driven weight adjustment.
+with $y^\*$ the target and $\eta$ a learning rate. The model provided the first empirical demonstration that learning could occur in an artificial network through the interaction of pattern presentation and error-driven weight adjustment.
 
 The [Minsky and Papert 1969][book_minsky_papert_1969] Perceptrons systematic analysis identified the computational limitations of single-layer perceptrons including the inability to represent linearly-inseparable functions such as XOR. This formulation markedly slowed subsequent perceptron research and motivated the eventual development of multi-layer networks that could overcome the limitations. The [Widrow and Hoff 1960][research_widrow_hoff_1960] Adaptive Switching Circuits framework introduced the delta rule (also known as the LMS or Widrow-Hoff rule) for continuous-output linear neurons, providing the direct precursor to the gradient descent methods that dominate modern deep learning.
 
@@ -167,7 +167,7 @@ The [Sussillo and Barak 2013][research_sussillo_barak_2013] Opening the Black Bo
 
 $$h_{t+1} = f(W_h h_t + W_x x_t + b), \quad y_t = g(W_y h_t)$$
 
-with $h_t$ the hidden state, $x_t$ the input, $y_t$ the output, and fixed points $h^*$ satisfying $h^* = f(W_h h^* + W_x x^* + b)$. This account has substantially shaped subsequent computational neuroscience research by providing the analytical tools for understanding trained network computation through the classification of fixed points by the eigenvalues of the linearized dynamics at each fixed point.
+with $h_t$ the hidden state, $x_t$ the input, $y_t$ the output, and fixed points $h^\*$ satisfying $h^\* = f(W_h h^\* + W_x x^\* + b)$. This account has substantially shaped subsequent computational neuroscience research by providing the analytical tools for understanding trained network computation through the classification of fixed points by the eigenvalues of the linearized dynamics at each fixed point.
 
 Task-trained RNNs as models of prefrontal cortex have been extensively developed through [Song Yang Wang 2016][research_song_yang_wang_2016] and the extensive subsequent literature. The [Yang Joglekar Song Newsome Wang 2019][research_yang_et_al_2019] Task Representations in Neural Networks Trained to Perform Many Cognitive Tasks framework documented that a single RNN trained on many cognitive tasks develops task-representations that correspond to those observed in the biological prefrontal cortex.
 
@@ -195,7 +195,7 @@ The manifold hypothesis states that the effective dimensionality of neural popul
 
 $$\mathbf{r}(t) \approx \mu + \sum_{k=1}^{d} \alpha_k(t) \, \mathbf{v}_k$$
 
-with $\mu$ the mean activity, $\mathbf{v}_k$ basis vectors defining the manifold, and $\alpha_k(t)$ the time-varying manifold coordinates that capture the task-relevant dynamics.
+with $\mu$ the mean activity, $\mathbf{v}\_k$ basis vectors defining the manifold, and $\alpha_k(t)$ the time-varying manifold coordinates that capture the task-relevant dynamics.
 
 Manifold capacity of [Chung Lee Sompolinsky 2018][research_chung_lee_sompolinsky_2018] extended the treatment to the theoretical characterization of the representational capacity of neural manifolds. The framework provides the theoretical bridge between geometric properties of neural manifolds and the classification and generalization capabilities they support.
 
@@ -273,7 +273,7 @@ The [Hafting Fyhn Molden Moser Moser 2005][research_hafting_et_al_2005_grid] Mic
 
 $$g_k(\mathbf{x}) = \sum_{i=1}^{3} \cos\!\left(\mathbf{k}_i \cdot (\mathbf{x} - \mathbf{x}_0^{(k)})\right)$$
 
-with $\mathbf{k}_i$ three wavevectors at $60^\circ$ rotational offset that produce the triangular grid pattern, $\mathbf{x}$ the current position, and $\mathbf{x}_0^{(k)}$ the grid phase offset for cell $k$. The model revolutionized spatial neuroscience by identifying the representational structure that supports mammalian spatial cognition.
+with $\mathbf{k}\_i$ three wavevectors at $60^\circ$ rotational offset that produce the triangular grid pattern, $\mathbf{x}$ the current position, and $\mathbf{x}\_0^{(k)}$ the grid phase offset for cell $k$. The model revolutionized spatial neuroscience by identifying the representational structure that supports mammalian spatial cognition.
 
 The [Banino Barry Uria Blundell et al 2018][research_banino_et_al_2018_grid] Vector-Based Navigation Using Grid-Like Representations framework demonstrated that recurrent networks trained on navigation tasks spontaneously develop grid-cell-like representations that support the patterns of vector-based navigation observed in biological systems. This formulation provided one of the strongest existence proofs for the NeuroAI research program by demonstrating that biological neural representations emerge from task-optimization in artificial systems.
 
@@ -359,7 +359,7 @@ The [Caucheteux and King 2022][research_caucheteux_king_2022] Brains and Algorit
 
 $$\hat{y}_{\text{brain}}(t) = \sum_j \beta_j \, f_{\text{LM}}(x_{1:t})_j$$
 
-with $\hat{y}_{\text{brain}}$ the predicted brain response, $f_{\text{LM}}(x_{1:t})$ the language model's internal representation given input tokens $x_{1:t}$, and $\beta_j$ the encoding-model coefficients fit through ridge regression on paired language-brain data.
+with $\hat{y}\_{\text{brain}}$ the predicted brain response, $f_{\text{LM}}(x_{1:t})$ the language model's internal representation given input tokens $x_{1:t}$, and $\beta_j$ the encoding-model coefficients fit through ridge regression on paired language-brain data.
 
 The [Goldstein Zada Buchnik Schain Price et al 2022][research_goldstein_et_al_2022] Shared Computational Principles framework provided the empirical evidence for shared computational principles between language models and biological language processing through the analysis of intracranial recordings from patients listening to naturalistic language.
 

@@ -182,7 +182,7 @@ of the previous articles.
 
 The world coordinate of a vertex
 is a three-dimensional position
-$\mathbf{p}_{\text{world}} = (w_x, w_y, w_z)$
+$\mathbf{p}\_{\text{world}} = (w_x, w_y, w_z)$
 in the $y$-down convention of the previous articles.
 The homogeneous augmentation
 adds a fourth component
@@ -266,7 +266,7 @@ for projection-mode comparisons.
 
 The clip-space coordinate
 is a four-component vector
-$\tilde{\mathbf{p}}_{\text{clip}} = (x_c, y_c, z_c, w_c)$.
+$\tilde{\mathbf{p}}\_{\text{clip}} = (x_c, y_c, z_c, w_c)$.
 The perspective division
 converts the clip-space coordinate
 into a three-component normalised-device coordinate
@@ -562,7 +562,7 @@ through hardware-accelerated per-pixel depth storage.
 ## A Worked Example
 
 Consider a single world vertex at world position
-$\mathbf{p}_{\text{world}} = (10, 5, 50)$
+$\mathbf{p}\_{\text{world}} = (10, 5, 50)$
 in the $y$-down convention.
 The screen is 800 pixels wide
 and 600 pixels tall
