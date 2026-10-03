@@ -11,36 +11,27 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `e4b60c3`
-- **Written**: 2026-10-02, late in the day, by the X-Planes line, which is the only line running.
-- **Tree at write**: **CLEAN, for the first time in weeks.** The eight drafts the second line
-  re-dated to 2126 are committed exactly as they stood, on the pilot's instruction, as `ee17f86`.
-  `sa.html` is deleted, also on instruction. `git status --porcelain` returns nothing.
-- **FOURTEEN COMMITS WERE UNPUSHED AT WRITE AND THE PUSH FOLLOWS THIS FILE'S COMMIT**, on the
-  pilot's instruction of 2026-10-02 to push all work after drafting this handoff. After the push,
-  `origin/master` equals `HEAD` and the unpushed count is zero. **A resuming agent finding unpushed
-  commits should treat the push as not having happened and say so rather than pushing.**
-- **LINE TWO IS FINISHED AND PUBLISHED. THERE IS ONE LINE NOW.** A376 was published on 2026-10-02 as
-  commit `4d4938e`, completing the `war_with_china` series at three articles. **Its resume section
-  below has been retitled and corrected rather than deleted**, because its apparatus notes and its
-  method rules still apply to the corpus.
-- **Line one, X-Planes, is mine and is at an article boundary.** A297 through A365 have all four
-  passes complete. **Sixty-nine of seventy-two drafted and 69 `x_planes` drafts are on disk, which
-  agrees.** Three remain. **Nothing in the series is published and publication has never been
-  authorised.** Its next prompt is **A366, slotted by the pilot as *X-Planes: X-69 through X-75,
-  the Leapfrogged Block***.
-- **THE DAY'S REPAIRS ARE ALL EXECUTED, on the pilot's seven decisions of 2026-10-02.** The
-  corpus mathematics repair is applied as `ea593f0`, 133 corrupted rendered spans to 0 across 61
-  published posts, rehearsed first in a twin-build pair under `tmp/mathrepair/` that proved every
-  differing page differs only inside its inline mathematics. The A358/A359 officiality repair is
-  in place as `442fc41`, both drafts stating the three-way split of 21, 9 and 1, with **A360's two
-  passages narrating the sister drafts' errors rewritten to make the argument impersonally**,
-  which was the editorial fork that kept this open for six articles. The A376 attribution stands
-  in pushed history by decision and is closed.
-- **THE CORPUS BASELINE IS NOW 0 ERRORS AND 0 WARNINGS ACROSS 304 POSTS.** The two `progress-stale`
-  warnings that were the steady state for weeks **resolved themselves when A376 published**, because
-  the check could not represent two concurrent series and there is now only one. **Do not expect two
-  warnings any more. Two warnings now means something is wrong.**
+- **Parent commit** (the repository state this handoff describes): `e7a8e85`
+- **Written**: 2026-10-02, at the end of the day, by the X-Planes line, which is the only line running.
+- **Tree at write**: **CLEAN.** `git status --porcelain` returned nothing before this file was edited,
+  and `origin/master` equalled `HEAD` at `e7a8e85`, the A366 publication review having pushed.
+- **THIS HANDOFF'S OWN COMMIT IS NOT PUSHED.** The pilot asked for the handoff to be updated and
+  restamped and did not ask for a push, so a resuming agent should expect **exactly one unpushed
+  commit, this file's**, and nothing else. **More than one unpushed commit is a divergence worth
+  reporting before acting.** Push it only on the pilot's instruction.
+- **A366 IS COMPLETE, ALL FOUR PASSES, AND PUSHED.** Commits `b6882a6` drafted, `2adccd6` equation
+  density, `083525b` primary references, `e7a8e85` publication review. **Seventy of seventy-two drafted
+  and 70 `x_planes` drafts are on disk, which agrees.** Two remain. **Nothing in the series is
+  published and publication has never been authorised.** The next prompt is **A367, slotted in the
+  roster as *X-Planes: Bell Textron X-76 SPRINT***, editorial date 2025-12-15, series index 71.
+- **LINE TWO IS FINISHED AND PUBLISHED. THERE IS ONE LINE.** A376 was published on 2026-10-02 as
+  `4d4938e`. Its section below is kept for its apparatus notes and method rules.
+- **THE CORPUS BASELINE IS 0 ERRORS AND 0 WARNINGS ACROSS 304 POSTS.** **Two warnings now means
+  something is wrong**, since the `progress-stale` pair that was the steady state ended when A376
+  published. A `progress-stale` warning reading 70 against 71 drafts on disk is the expected
+  transient while A367 is being drafted and before its channels are updated.
+- **ONE PILOT DECISION IS OPEN**, recorded under Open Items: whether A364's and A365's Epistemic State
+  sections should record that the register rows they rely on were not public at their own dates.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
 day and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -218,9 +209,9 @@ dump the heading list and read it**, and check for repeated headings programmati
 
 ## Where the Series Stands
 
-**Sixty-nine of seventy-two drafted, A297 through A365, indices 1 through 69 contiguous. Three
-remain**, ending at editorial date 2025-12-16. **Nothing in the series is published and publication has never been
-authorised.**
+**Seventy of seventy-two drafted, A297 through A366, indices 1 through 70 contiguous. Two remain**,
+ending at editorial date 2025-12-16. **Nothing in the series is published and publication has never
+been authorised.**
 
 **A363, Boeing X-66**, editorial date 2025-12-11, index 67. Four passes, pushed. 10,795 lines, 59,564
 words, 83 display equations, 4,537 reference definitions, 28.3 percent primaries. Keystone: **the span of
@@ -290,106 +281,127 @@ release, which is a different test. And **every official word about the aeroplan
 register's markup putting only the name outside the unofficial span, the only research row marked at
 that level.
 
-**THE THREE THAT REMAIN ARE A366 THROUGH A368**, editorial dates 2025-12-14 to 2025-12-16, series
-indices 70 to 72. **A366, slotted by the pilot as *X-Planes: X-69 through X-75, the Leapfrogged
-Block***. A367, the X-76A to Bell Textron for SPRINT. A368, the closing synthesis. **Two of the three
-are anomaly or synthesis articles and the genre document's reduced order governs them.**
+**A366, X-69 through X-75, the Leapfrogged Block**, editorial date 2025-12-14, index 70. **Four passes in
+four commits, pushed**, `b6882a6`, `2adccd6`, `083525b` and `e7a8e85`. **4,669 lines, 29,682 words, 42
+display equations, 105 inline expressions, a 33-entry symbol table and 1,974 reference definitions**,
+being 24 primaries, 1,881 research works of which 13 are hand-chosen primaries verified by title and 59
+are report-server records at 3.14 percent, and 69 related posts, in 11 H2 and 42 H3 sections with 9
+tables, from a pool of 15,522.
+
+**WHAT A366 FOUND, IN ONE PARAGRAPH.** **The block is seven skips made at once so that one number could
+be chosen.** Seven unreleased allocations would all have to fall in the 61 days between the X-68A and
+the X-76A, a Poisson tail of 1.83e-10 at the series' own rate, needing a rate 23.51 times the observed
+one to reach 0.05. A reserved block has no instrument in the 2020 instruction. The instruction refuses
+requests in skipped sequences and gives the allocating office an unconditioned discretion to skip, and
+**DARPA's statement of 9 March 2026, postdating the article, calls the 76 a deliberate nod to the
+revolutionary spirit of 1776.** **The public register did not show the X-68A or the X-76A until between
+15 January and 1 February 2026**, by archived copies, so the anomaly was invisible in the public record
+at its own date, **and so was A364's X-67 gap at A364's date, which A364 does not record.** The
+compiler wrote a sentence naming the X-77 reading and removed it after DARPA's statement under a
+last-updated stamp that never changed. **The X-76A is the third founding-year design number in 329
+days**, after the YMV-75A for 1775 and the F-47A for 1947, and released Air Force public affairs emails
+name General Allvin as the F-47's decider, the only named chooser of a design number found. **The 2020
+rule describes 6 of 23 allocation events since it took effect, or 7 with the RQ-170 row set aside.**
+NASA's 2003 X-vehicle inventory gives the X-50A precedent a second primary, with the contractor's
+programme manager claiming the request and a 2003 prediction that the passed X-49 would be issued,
+which it was. **The article ends on a test: the next research designation is the X-69A if the X-49
+precedent governs and the X-77A if the 2020 text governs.**
+
+**THE TWO THAT REMAIN ARE A367 AND A368**, editorial dates 2025-12-15 and 2025-12-16, series indices 71
+and 72. **A367, slotted as *X-Planes: Bell Textron X-76 SPRINT***, is a full-aircraft article if the
+genre test is applied honestly, since a vehicle is being built, and **a documentation-poor one**, since
+it has not flown. A368 is the closing synthesis.
 
 **Next available article number: A377.**
 
 ## Open Items
 
-**THE LIST IS EMPTY FOR THE FIRST TIME IN THE SERIES' RECORD, the pilot having decided all seven
-standing items on 2026-10-02.** The decisions and their executions, so a resuming agent does not reopen
-any of them: **the mathematics repair applied** (`ea593f0`, 133 rendered spans to 0 across 61 posts,
-twin-build rehearsed, collateral-free by byte comparison outside mathematics); **the A358/A359
-officiality repair in place** (`442fc41`, three-way split stated in both, chronology scoped to fully
-dated rows, A360's two error-narrating passages rewritten impersonally); **the eight 2126-dated drafts
-committed as they stand** (`ee17f86`, the other line's change, recorded not interpreted); **`sa.html`
-deleted**; **the A376 attribution left in pushed history by decision, closed**; **everything pushed**;
-and **A366 slotted**.
+**ONE ITEM, AND IT IS THE PILOT'S.** **A364 and A365 state register facts that were not public at their
+own editorial dates**, the X-68A and X-76A rows first appearing in archived copies of the register
+between 15 January and 1 February 2026, and the X-67 gap being visible only through the X-68A row.
+**Neither article's Epistemic State records this.** A366 records it for itself and states it about
+A364. **The decision is whether to add a dated postdating statement to each**, which is a two-paragraph
+edit per article with the archive captures already cited in A366 as
+`ref_mds_addendum_wb_2025_12`, `ref_mds_addendum_wb_2026_01` and `ref_mds_addendum_wb_2026_02`.
+**Do not make the edit without the decision.**
 
-**THE `progress-stale` ITEM REMAINS RESOLVED** as before: it fired for weeks because
-`_lib/progress.py` cannot represent two concurrent series, and it ended when A376 published. The
-related `progress-contradiction` defect was fixed in A364's drafting pass and
-`progress.newest_report` now narrows the append-at-top channel, with one test.
+**Everything decided on 2026-10-02 stays closed**: the mathematics repair `ea593f0`, the A358/A359
+officiality repair `442fc41`, the eight 2126-dated drafts `ee17f86`, `sa.html` deleted, the A376
+attribution left in pushed history.
 
-**WHAT A RESUMING AGENT SHOULD EXPECT**: a clean tree, `origin/master` equal to `HEAD`, 0 errors and
-0 warnings across 304 posts, and the next prompt being A366. **Anything else is a divergence worth
-reporting before acting.**
+**WHAT A RESUMING AGENT SHOULD EXPECT**: a clean tree, exactly one unpushed commit being this file's,
+0 errors and 0 warnings across 304 posts, and the next prompt being A367. **Anything else is a
+divergence worth reporting before acting.**
 
-## Resume prompt for the X-Planes line, and the next prompt is A366
+## Resume prompt for the X-Planes line, and the next prompt is A367
 
-**A365 IS COMPLETE AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and do not
-start A366 unprompted.**
+**A366 IS COMPLETE AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and do not
+start A367 unprompted.**
 
-**The next article is A366, slotted by the pilot on 2026-10-02 as *X-Planes: X-69 through X-75, the
-Leapfrogged Block*.** Editorial date **2025-12-14**, series index **70**.
+**The next article is A367, slotted in the roster as *X-Planes: Bell Textron X-76 SPRINT*.** Editorial
+date **2025-12-15**, series index **71**, slug following the series pattern, for example
+`x_planes_bell_textron_x76_sprint`. **Check the roster title with the pilot's prompt**, since the pilot
+has retitled slots before.
 
-**THIS IS AN ANOMALY ARTICLE AND THE REDUCED ORDER GOVERNS IT, AND IT IS THE LARGEST ANOMALY THE
-SERIES HAS MET.** The register's research series runs to the X-68A on 20 August 2025 and resumes at
-the X-76A on 20 October 2025, **61 days later, with the seven numbers 69 through 75 absent from the
-released record at once**. A355's X-58 and A364's X-67 were single numbers each consumed by a named
-unmanned allocation. **No allocation in the register carries any of these seven**, which is a
-different shape of absence, and the first question is whether it is seven skips, one reserved block,
-or seven allocations not yet in officially released data, **three readings the register itself cannot
-distinguish from a gap alone**.
+**THE GENRE TEST DECIDES THE ORDER AND IT IS NOT AN ANOMALY ARTICLE.** A vehicle exists, being built
+after a critical design review, so the reduced order does not apply. **It has not flown and will not
+inside the dateline**, flight test being planned for early 2028, so it is **documentation-poor**, the
+full order with short sections and an explicit statement of what is unknown. The keystone is SPRINT's
+stated aim, **runway independence at jet cruise speed**, 400 to 450 knots with hover from unprepared
+surfaces, by a stop-fold tiltrotor whose rotors stop and fold in flight.
 
-**WHAT THE REGISTER GIVES A366 TO WORK WITH, verified against the saved page on 2026-10-02.**
+**WHAT A366 HANDS A367, ALL VERIFIED ON 2026-10-02.**
 
-- **The X-76A row**: 20-Oct-25, Bell Textron, `2 GE CT7-8, PW308C+`, DARPA, an unmanned demonstrator
-  for the SPRINT programme, cell-marked, **and it carries a compiler's note, `[Note X-76A]`.** A364's
-  whole keystone came out of a compiler's note. **Read the note before anything else.**
-- **A364's instruction arithmetic becomes the engine of the puzzle.** The 2020 instruction defines
-  the next designator from the last approved design number and refuses requests in skipped sequences.
-  After the X-68A the pointer stood at 68 and the next number due was 69, **so the X-76A is either a
-  requested number the instruction's own text would refuse, or evidence of seven approvals the public
-  register cannot show, or evidence the rule is not applied as written**. A364 established the rule's
-  text and its 2005-to-2020 change; A366 inherits that reading and must not re-derive it.
-- **The ceiling-match test from A364 is reusable in reverse.** For the X-58 and X-67 the borrowed
-  number equalled the research series' next number at the moment of borrowing. **Whether any
-  allocation anywhere in the register, in any series, accounts for the seven numbers is a measurable
-  question**, and `tmp/a365/meas.py` plus `calc2.py`'s high-water walk answer it mechanically.
-- **The officiality apparatus matters again**: 16 register rows are absent from officially released
-  data altogether, all with partial dates, and **whether seven research allocations could sit in that
-  state unlisted is exactly the third reading**. A365's span-mark measurement and A364's four-state
-  partition are the tools, over `meas.all_rows()`, the wide population, never `register.rows()`.
-- **The dateline is 2025-12-14**, so the X-76A allocation and everything above sits inside it. The
-  compiler's documents postdating the dateline go to the Epistemic State per the convention.
+- **The register row**: 20-Oct-25, X-76A, Bell Textron, engines `2 GE CT7-8, PW308C+`, DARPA,
+  description cell-marked, so the engines are official and the purpose sentence is the compiler's.
+  **Two turboshafts and a separate turbofan is the propulsion of a stop-fold**, which A366 stated in
+  one sentence and left to A367. **The `+` after PW308C is unexplained** and A367 should ask what it
+  means rather than guess.
+- **The dating**: the row was not public until between 15 January and 1 February 2026, **so at
+  A367's dateline of 2025-12-15 the designation itself was not public.** DARPA's announcement, the
+  critical design review and the 1776 statement are all 9 March 2026. **Almost everything A367 can say
+  about the aeroplane postdates it**, and the Epistemic State must carry that list prominently.
+- **The compiler's note was an inference before DARPA spoke**, reading until February 2026 that it
+  was very likely but not fully confirmed that the X-76A was SPRINT.
+- **The programme chronology from the releases**: Phase 1A November 2023, Bell and Aurora downselected
+  for Phase 1B in May 2024, Phase 2 from May 2025 with Bell's award in June or July 2025, critical
+  design review completed by 9 March 2026, flight test planned for early 2028, the programme joint
+  with United States Special Operations Command. **Each date needs its own primary in A367**; the
+  Bell release of 9 July 2025 is listed in Bell's newsroom and was not read.
+- **Bell's own designation history**: the contractor framed the X-76 as following its X-1, XV-3 and
+  XV-15. **The XV-3 and XV-15 are vertical-takeoff series numbers, not research numbers**, which the
+  per-mission rule makes a different sequence, and A367 should say so if it uses the framing.
+- **The CT7 is the commercial T700**, a turboshaft family with a large public literature, and the
+  PW308 is a business-jet turbofan. **Both are anchors for a sizing section** if their published
+  ratings can be found in primaries rather than encyclopedias.
 
-**THE GENRE DECISION IS ALREADY MADE BY THE GENRE DOCUMENT.** No vehicle exists and no data was
-produced, so the reduced anomaly order applies, and **the document's own warning applies doubly: an
-anomaly article is complete when it has said what happened, what the record says, and what the
-anomaly reveals about the system. Padding it is worse than leaving it short.** The standing directive
-grants comprehensiveness as a permission, and seven numbers carry more record than one, but **the
-subject is one block, not seven aircraft.**
+**SAVED UNDER `tmp/a366/`, WHICH IS GITIGNORED**: `darpa_x76.txt`, `bell_x76.txt`, `twz_x76.txt`,
+`aviationist_x76.txt`, `afa_x76.txt` and their `.html`, the full register `addendum.html`, the
+archive snapshots under `wb/`, and the primaries under `prim/`. **Lift what A367 needs before the
+directory goes.**
 
-**AND THE SERIES SECTIONS STILL APPLY**: the source base, the contemporary literature where one
-exists, and the three series conventions. The identifier-allocation literature swept for A364 is the
-nearest cluster and `tmp/a364/` still holds its gated pool.
+### What A366 Established That A367 Inherits as Practice
 
-### What A365 Established That A366 Inherits as Practice
-
-- **THE KEEP SAMPLE MUST COME FROM THE REFUSED PILE.** A365's gate passed a clean two-sided audit
-  while refusing the subject's core literature, because its keep cases were copied from the probe's
-  own output. **A keep sample drawn from what a gate admits cannot measure what it refuses.**
-- **TWO INSTRUMENTS' POPULATIONS MUST NEVER MIX.** A365 "corrected" three of the handoff's register
-  counts and the handoff was right every time, the error being `register.rows()` against
-  `meas.all_rows()`. **Every register figure in A366 uses the wide population.**
-- **A REMEMBERED IDENTIFIER IS A FABRICATED IDENTIFIER, SECOND ENFORCEMENT.** A365 wrote the
-  register's URL from memory as a plausible path that 404s. The address sweep caught it, as it
-  caught A364's invented DOI.
-- **QUOTE A PRIMARY BY ITS ORIGINAL UNITS AND CONVERT AT THE DEFINITION.** Both service fact sheets
-  A365 read misconvert their own pound figures, 291 kilograms low on one and 1.2 on the other.
-- **AN INHERITED INSTRUMENT MODELS THE PREVIOUS ARTICLE UNTIL EVERY CONSTANT IS RETARGETED.** The
-  dateline scan's label carried A362's date through two passes while its filter was right.
-- **THE EMITTER RUNS AFTER THE REFERENCE REGENERATION**, or the stated primary count goes stale
-  against the definitions, which it did, 19 against 20, caught by the publication pass.
-- **CHECK THE OPENING SENTENCE AGAINST THE ARTICLE'S OWN ANALYSIS, BY NAME, IN THE PUBLICATION
-  PASS.** A364's opening was refuted by its own table and A365's by its own officiality analysis,
-  the same defect in the same position two articles running.
-- **`tmp/a365/` CARRIES THE INSTRUMENT SET AND IT IS GITIGNORED, SO LIFT WHAT YOU WANT BEFORE IT
-  GOES.** The per-file list is under `Verification Toolchain` below.
+- **CHECK THE OPENING AGAINST THE ARTICLE'S OWN ANALYSIS, BY NAME. IT FAILED IN A364, A365 AND A366.**
+  A366's opening claimed the first reading was the only one consistent with the allocation rate, and
+  the reserved-block reading needs no allocations. **Three in a row is a pattern of the drafting
+  pass, not bad luck.** Run the check at the end of the drafting pass as well as at publication.
+- **DATE A REGISTER ROW BY ITS FIRST ARCHIVED APPEARANCE, NOT BY ITS ALLOCATION DATE.** The register's
+  allocation date and the date the public could see the row differ by three to five months for the
+  last two research rows. **A dateline argument that uses the allocation date overclaims what was
+  knowable.**
+- **A LAST-UPDATED STAMP IS NOT A DATE.** The compiler's page changed its text under an unchanged
+  stamp. **Date every version by archive capture.**
+- **A SECOND PARSER FINDS WHAT A SECOND READING DOES NOT.** Two parsers disagreed on 2020-rule
+  conformance by one event, and the disagreement was the RQ-170 row, which became a stated
+  sensitivity. **Reconcile parser disagreements to a row before choosing either number.**
+- **A CONTENT CLAIM ABOUT A PAPER NEEDS THE PAPER OR ITS ABSTRACT.** The reference pass first wrote
+  arguments for papers read only by title. Abstracts were fetched and three sentences cut back to
+  them, and one study is cited for its title alone, saying so.
+- **A DISPLAY BLOCK FOLLOWED DIRECTLY BY TEXT IS NOT A DISPLAY.** The equation pass rendered 38 of 40
+  until blank lines were added. `verify366.py` now checks it and A367's verifier should copy the check.
+- **A PROBABILITY RATIO IS NOT A CLUSTERING FACTOR.** The draft called eight orders of magnitude a
+  clustering factor. The equation pass solved for the actual rate multiplier, 23.51, and named both.
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -431,6 +443,33 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A366, and the theme is that the date a fact existed is not the date it could be known
+
+- **A REGISTER ROW HAS TWO DATES AND A DATELINE ARGUMENT NEEDS THE SECOND.** The allocation date is the
+  government's and the publication date is the compiler's. **A366 found the X-68A and X-76A rows public
+  only between 15 January and 1 February 2026**, three to five months after allocation, by bracketing
+  archive captures. The `wb/` snapshot pattern in `tmp/a366/` is the instrument.
+- **A SOURCE CAN CHANGE UNDER AN UNCHANGED STAMP.** The compiler's page added and removed a sentence
+  while its last-updated date stayed 3 January 2026. **Date by capture time and say so.**
+- **THE OPENING FAILED AGAINST THE ARTICLE'S OWN ANALYSIS FOR THE THIRD ARTICLE RUNNING.** The rule
+  earned in A365 caught it again at publication. **Move the check earlier, to the end of the drafting
+  pass**, since the defect is evidently produced there.
+- **THE HANDOFF'S PREMISE CAN BE PARTLY WRONG AND THE DRAFT MUST SAY WHERE.** It said no allocation in
+  the register carries any of the seven numbers. **No research row does, but three rows in other
+  missions do**, and the YMV-75A turned out to be the key to the article. **Measure the premise before
+  writing on it.**
+- **AN ATTRIBUTION READ ONLY BY TITLE IS A FABRICATED ARGUMENT.** Three sentences in the reference pass
+  said what papers argue from their titles alone. **Fetch the abstract or cite the title as a title.**
+- **THE AIMED SWEEP IS MEASURED AGAINST A FROZEN BEFORE-FIGURE, AND THE BEFORE-FIGURE IS RECOMPUTED
+  FROM THE PRIOR COMMIT.** `before_prim.md` is `git show HEAD:` of the draft before the pass, which
+  makes the before-and-after an audit rather than a memory.
+- **AN INHERITED INSTRUMENT POINTED AT THE WRONG ARTICLE REPORTS PLAUSIBLE NUMBERS.** `count.py` was
+  still pointed at the X-66 and printed its counts. **Retarget every constant and check one output
+  against a hand count.** `rendercheck.py` also expects script-tag mathematics the site no longer emits;
+  `mathrot.py` is the authority for the display count.
+- **AN ESCAPE IN A PYTHON EDIT SCRIPT IS A SECOND MARKUP LANGUAGE.** Use raw strings for every LaTeX
+  fragment, since `\;` passed through only by luck and `\b` would not have.
 
 ### Earned in A365, and the theme is that the sample that cannot fail is the one that fails you
 
@@ -3635,6 +3674,29 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+### Added in A366, and the pattern is that every figure has a second route
+
+**Under `tmp/a366/`, gitignored.**
+
+- `meas366.py`, the register over `meas.all_rows()` only: rows carrying 69 to 75, the pointer walk,
+  the rate and Poisson tail, the officiality counts and the commemorative lags. `rule2020.py`, every new
+  design number since 3 November 2020 against both next-number definitions, with same-day blocks.
+- `eqpass366.py`, every equation-pass value, with `verify366.py` re-deriving each by a different route:
+  Newton against bisection for the rescue multiplier, direct integration against the closed form for
+  the range probability, the upper sum against the complement for the tail.
+- `verify366.py`, **745 checks importing no measurement module**, the register re-parsed with an HTML
+  parser, every quotation read back from its saved copy, withdrawn wordings asserted absent and
+  replacements present, the display floor at 42, and **the blank-line check around display blocks**.
+- `harvest366.py`, `sweep2_366.py` and `cluster366.py`, the two sweeps and the gate with 24 keep and
+  33 refusal cases each hyphenated; `resolve366.py`, years for admitted reports-server records only
+  with a success-rate floor; `refs366.py` with the hand-chosen primaries verified by title in
+  `prim_research.json`; `assemble366.py`, slots filled and every definition required cited.
+- `wb/`, the archived register and missing-designations snapshots that date the rows' publication,
+  fetched as `id_` captures with `--compressed`, **because the uncompressed fetch returned a 51 KB
+  page that is not the register**.
+- `prim/`, the primaries read in the reference pass, including NASA SP-2003-4531 as text.
+- `handoff366.py`, this file's rewrite, boundaries on the original string and the heading list compared.
+
 ### Added in A365, and the pattern is one instrument per claim class
 
 **Under `tmp/a365/`, gitignored, with `tmp/mathrepair/` beside it for the corpus repair.**
@@ -4674,9 +4736,13 @@ reproduced here so it survives a clean checkout.
 Short articles by design, and the evidence for the closing article. The designation system is not a
 counter.
 
-**X-23, X-27, X-39, X-41, X-42, X-44 AND X-52 ARE NOW WRITTEN, and X-30 and X-54 are written although
-neither is one of the nine. X-58, X-67 and the leapfrogged X-69 to X-75 block remain ahead**, at A355,
-A364 and A366 respectively.
+**ALL NINE ANOMALY CASES ARE NOW WRITTEN**, the X-58, X-67 and leapfrogged X-69 to X-75 block having
+followed at A355, A364 and A366, and X-30 and X-54 are written although neither is one of the nine.
+
+**A366 ADDS TWO THINGS THE CLOSER SHOULD CARRY.** **Design numbers have started to carry messages**, three
+founding-year numbers in 329 days, the YMV-75A, F-47A and X-76A, with none before November 2024. **And the
+register itself lags the allocations by months**, so the closer's account of what was knowable when must
+use first archived appearance rather than allocation date.
 
 **A358 ADDS THE FINDING THE CLOSER MOST NEEDS, AND IT IS ABOUT THE REGISTER RATHER THAN ABOUT ANY
 AEROPLANE.** The register stops being a primary source partway through this series. Its compiler's own
@@ -4776,7 +4842,7 @@ the article should say which class it is and why.**
   The system acted on possibility and declined to act on evidence.
 - **X-58**, skipped, with the slot consumed by the Kratos XQ-58 Valkyrie.
 - **X-67**, skipped, with the slot consumed by the General Atomics XQ-67A.
-- **X-69 to X-75**, unassigned and leapfrogged.
+- **X-69 to X-75**, unassigned and leapfrogged, **written at A366**: seven skips made at once for a number chosen to spell 1776.
 
 **THE FIRST FINDING FOR THE CLOSER, NOW COMPLETE.** X-25, X-26, X-27 and X-28 are **four consecutive
 designations that did not go to a purpose-built research aeroplane**. Three were aircraft that already
