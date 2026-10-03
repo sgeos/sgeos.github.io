@@ -5,6 +5,38 @@
 ## Last Updated
 
 **Date**: 2026-10-02
+**Task**: **A367 EQUATION-DENSITY REVIEW, the second of four passes. Committed, NOT pushed, NOT
+published.** Seventy-one of seventy-two drafted. Display equations **18 to 40**, lines 8,109 to 8,250, inline expressions 60 to 95, the symbol table 41 entries to 51, references held at 3,724, sections unchanged at 16 H2 and 53 H3.
+
+**A scan drove the pass.** `eqscan.py` listed 77 prose lines carrying a figure with no display within six lines. Most were dates, counts and citation runs. Twenty-two were results, and each is now displayed, computed in `eqpass367.py`, and re-derived in `verify367.py` by a different route.
+
+**THE BEST NEW RESULT IS THAT THE HOVER WAKE'S DYNAMIC PRESSURE EQUALS THE ROTOR'S THRUST PER UNIT DISK AREA**, $q\_w = (1+d)\,w$, with the density cancelling. So the downwash load on the ground and on people is fixed by disk loading alone, at any altitude and on any day: 695 Pa at the XV-15's loading and 3,160 Pa at 60 psf. **That makes the stop-fold trade of rotor size for cruise speed exact in its downwash cost.**
+
+**OTHER ADDITIONS.**
+
+- **A cruise ceiling for an assumed lift-to-drag ratio.** At 15,000 lb, a ratio of 6 confines the aircraft to about 16,700 ft and a ratio of 10 reaches about 31,200 ft.
+- **The jet's static thrust is 0.47 to 0.88 of the weight**, so even a vectored jet could not hover the aircraft.
+- **The jet's cruise thrust power is 0.79 of the turboshafts' continuous power.**
+- **The advance ratio at the objective is 1.85, against the XV-15's 0.75 at 300 knots.**
+- **The gearbox reduction falls from about 40 to 19 as disk loading rises from 13.2 to 60 psf.**
+- **A turbofan-count generalisation of the drag ceiling.**
+- **Programme interval, money and budget identities**, and the survey's admission share and mean cluster count.
+
+**ONE FINDING CHANGED THE PROSE.** The money identity showed that the three recorded Phase 1A obligations, 15,194,105 dollars, already exceed the solicitation's Phase 1A figure by 194,105 dollars before Bell is counted. **So the planning figure was not a cap, and the bound on Bell's Phase 1 value, which assumed the 75 million was a ceiling, is now stated as resting on a premise the first sub-phase did not meet.**
+
+**METHOD.**
+
+- **A mutation test exposed a blind spot**, and it is closed. A display that is a pure symbolic identity has no number to recompute, so it was unchecked. `verify367.py` now asserts thirteen symbolic displays verbatim, and it tests the wake identity algebraically on 50 random inputs.
+- **My first mutation was a `sed` that did not apply**, so its "not caught" result was meaningless. Mutations are now applied in Python, which asserts that the target exists.
+- **A nested `\text{}` inside `\mathrm{}`** would have defeated the symbol checker's label stripping, so it was simplified.
+
+**GATES.** `verify367.py` runs 517 checks with 0 failures, and all 52 quotations are found in saved sources. `_verify.py` reports 0 errors and 0 warnings across 304 posts. The stub build is clean, `_lib/render.py` has no findings, all 40 display blocks match, the style check has zero findings and `symcheck.py` passes.
+
+**NOTHING PUSHED.** **Next prompt: the primary-reference review of A367.** The pilot decision on A364's and A365's Epistemic State sections is still open.
+
+---
+
+**Date**: 2026-10-02
 **Task**: **A367 DRAFTED, X-Planes: Bell Textron X-76 SPRINT, the first of four passes. Committed, NOT
 pushed, NOT published.** Seventy-one of seventy-two drafted. `_drafts/x_planes_bell_textron_x76_sprint.markdown`, editorial date 2025-12-15, series index 71, full order and documentation-poor. **8,109 lines, 52,274 words of which about 14,100 lie outside the citation runs and reference lists, 18 display equations, 60 inline expressions, a 41-entry symbol table and 3,724 reference definitions**, being 54 primaries, 3,600 research works of which 12 are hand-chosen primaries with abstracts and 624 are report-server records, 620 of them among the 3,588 swept works at 17.3 percent, and 70 related posts, in 16 H2 and 53 H3 sections with 6 tables, from a pool of 12,957.
 

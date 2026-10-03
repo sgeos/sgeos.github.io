@@ -68,7 +68,13 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 
 ### The Row Was Not Public at This Article's Date
 
-**Three archived copies of the register bracket the row's first public appearance.** The copy of 10 December 2025 does not contain it \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\], nor does the copy of 15 January 2026, and the copy of 1 February 2026 does. **So the row became public between 31 and 48 days after this article's date**, and 87 to 104 days after the allocation it records. The compiler's note on the row, read in the current copy, quotes DARPA's statement that the out-of-sequence number is "a deliberate nod to the revolutionary spirit of 1776", which is 84 days after this article's date. **This article uses the row as a fact about the aeroplane and dates every use of it.** The [X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block] article measured this lag and treats the number's meaning, and nothing here revisits either.
+**Three archived copies of the register bracket the row's first public appearance.** The copy of 10 December 2025 does not contain it \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\], nor does the copy of 15 January 2026, and the copy of 1 February 2026 does. **So the row became public between 31 and 48 days after this article's date**, and 87 to 104 days after the allocation it records. Writing $t\_{\mathrm{a}}$ for the allocation, $t\_{\mathrm{d}}$ for this article's date, $t\_{\mathrm{pub}}$ for the row's first public appearance and $t\_{\mathrm{DARPA}}$ for the announcement,
+
+$$
+t_{\mathrm{pub}} - t_{\mathrm{d}} \in [\,31,\ 48\,]\ \text{days}, \qquad t_{\mathrm{pub}} - t_{\mathrm{a}} \in [\,87,\ 104\,]\ \text{days}, \qquad t_{\mathrm{DARPA}} - t_{\mathrm{d}} = 84\ \text{days}.
+$$
+
+The compiler's note on the row, read in the current copy, quotes DARPA's statement that the out-of-sequence number is "a deliberate nod to the revolutionary spirit of 1776", which is 84 days after this article's date. **This article uses the row as a fact about the aeroplane and dates every use of it.** The [X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block] article measured this lag and treats the number's meaning, and nothing here revisits either.
 
 ## Programme Origin, From the Solicitation to the Critical Design Review
 
@@ -93,7 +99,13 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 | Design life | 500 hours, with DARPA's demonstration expected to use 200 or fewer |
 | Landing | 12 feet per second sink rate with no damage |
 
-**Three further rules shaped the configuration as much as any number.** The X-plane had to use existing engines, and the government would not supply them. **There was no disk loading, downwash or surface hardness limit**, the proposer being asked instead to explain how the design meets the goal of runway independence. **And the goal was first flight of the demonstrator no more than 42 months from contract award** \[[SPRINT broad agency announcement][ref_sprint_baa]\]. The solicitation budgeted Phase 1A at the order of 15 million dollars, with 75 million dollars available for Phase 1 in total, and it allowed either a procurement contract or an other transaction. **The answers DARPA posted on 30 March 2023 sharpen four of these rules** \[[SPRINT questions and answers][ref_sprint_qa]\]. The Phase 1 money was 15 million dollars for Phase 1A and 60 million for Phase 1B, "a total split among performers". Engine modifications were allowed, but "modifications that include the engine core are not allowed". A proposer could switch instruments between phases, an other transaction for Phase 1 and a regulation-based contract for Phase 2 being given as the example. **And "the SPRINT X-Plane is not intended to transition to an operational system"**, which the budget books, describing a demonstrator that transitions for further risk reduction flight testing, do not contradict, since that transition is of the test aircraft and not to production.
+**Three further rules shaped the configuration as much as any number.** The X-plane had to use existing engines, and the government would not supply them. **There was no disk loading, downwash or surface hardness limit**, the proposer being asked instead to explain how the design meets the goal of runway independence. **And the goal was first flight of the demonstrator no more than 42 months from contract award** \[[SPRINT broad agency announcement][ref_sprint_baa]\]. The solicitation budgeted Phase 1A at the order of 15 million dollars, with 75 million dollars available for Phase 1 in total, and it allowed either a procurement contract or an other transaction. **The answers DARPA posted on 30 March 2023 sharpen four of these rules** \[[SPRINT questions and answers][ref_sprint_qa]\]. The Phase 1 money was 15 million dollars for Phase 1A and 60 million for Phase 1B, "a total split among performers", which is the solicitation's 75 million,
+
+$$
+15 + 60 = 75\ \text{million dollars}.
+$$
+
+Engine modifications were allowed, but "modifications that include the engine core are not allowed". A proposer could switch instruments between phases, an other transaction for Phase 1 and a regulation-based contract for Phase 2 being given as the example. **And "the SPRINT X-Plane is not intended to transition to an operational system"**, which the budget books, describing a demonstrator that transitions for further risk reduction flight testing, do not contradict, since that transition is of the test aircraft and not to production.
 
 ### Thirteen Offers and Four Awards, Three of Them in the Contract Record
 
@@ -113,9 +125,26 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 
 ### Phase 1B, and the Money the Record Allows Bell
 
-**Aurora's contract carries both phases, and its modifications date the Phase 1B decision.** The obligations before 24 May 2024 total 4,843,311 dollars, and modification P00006 on 24 May 2024 obligates 12,974,331 dollars, after which a further 15,484,076 dollars follow through February 2025 \[[Award HR001124C0325 to Aurora Flight Sciences][ref_award_aurora]\]. **That date agrees with DARPA's statement that Aurora and Bell were awarded Phase 1B in May 2024** and with Bell's release of 28 May 2024 \[[Bell awarded funding for SPRINT Phase 1B][ref_bell_phase1b]\].
+**Aurora's contract carries both phases, and its modifications date the Phase 1B decision.** The obligations before 24 May 2024 total 4,843,311 dollars, and modification P00006 on 24 May 2024 obligates 12,974,331 dollars, after which a further 15,484,076 dollars follow through February 2025 \[[Award HR001124C0325 to Aurora Flight Sciences][ref_award_aurora]\]. **That date agrees with DARPA's statement that Aurora and Bell were awarded Phase 1B in May 2024** and with Bell's release of 28 May 2024 \[[Bell awarded funding for SPRINT Phase 1B][ref_bell_phase1b]\]. The contract's total decomposes exactly into the three periods,
 
-**The three recorded Phase 1A obligations sum to 15,194,105 dollars**, Aurora's pre-option figure with Piasecki's and Northrop Grumman's totals, which matches the solicitation's figure of about fifteen million for Phase 1A before Bell's share is counted. **The three recorded contracts together total 43,652,512 dollars.** If the solicitation's 75 million dollars for Phase 1 held, Bell's Phase 1 instrument could not have exceeded 31,347,488 dollars. **That bound rests on an assumption the record cannot test**, that the solicitation's planning figure was a ceiling, and it is stated as a bound and not as an estimate.
+$$
+4{,}843{,}311 + 12{,}974{,}331 + 15{,}484{,}076 = 33{,}301{,}718\ \text{dollars}.
+$$
+
+
+**The three recorded Phase 1A obligations sum to 15,194,105 dollars**, Aurora's pre-option figure with Piasecki's and Northrop Grumman's totals,
+
+$$
+4{,}843{,}311 + 4{,}944{,}700 + 5{,}406{,}094 = 15{,}194{,}105 = 15{,}000{,}000 + 194{,}105\ \text{dollars},
+$$
+
+**which already exceeds the solicitation's Phase 1A figure by 194,105 dollars before Bell's share is counted.** So the planning figure for Phase 1A was not a cap on what was obligated, and a figure that was not a cap for one sub-phase is weak evidence of a cap for the phase. **The three recorded contracts together total 43,652,512 dollars**, and if the solicitation's 75 million dollars for Phase 1 had held as a ceiling,
+
+$$
+B_{\mathrm{Bell}} \le 75{,}000{,}000 - (33{,}301{,}718 + 4{,}944{,}700 + 5{,}406{,}094) = 31{,}347{,}488\ \text{dollars}.
+$$
+
+**Bell's Phase 1 instrument could then not have exceeded 31,347,488 dollars, but the Phase 1A overrun shows that the premise of that bound did not hold for the first sub-phase**, so it is stated as the bound the planning figure implies and not as an estimate of what Bell received.
 
 **Aurora's contract has one more feature that this article records without interpreting.** Its last modification, on 27 August 2025, carries the description `DARPA RESEARCH PROJECT` in place of the programme's name, and its period of performance ends on 21 October 2025, which is the day after the X-76A allocation.
 
@@ -131,7 +160,19 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 
 ### The Schedule Has Moved by at Least Eight Months
 
-**The solicitation's goal of first flight within 42 months of contract award puts first flight by 1 May 2027 for an award on 1 November 2023.** The slides' notional schedule draws first flight in fiscal year 2027 for each notional performer \[[SPRINT proposers day slides][ref_sprint_overview]\]. **The programme now plans flight testing in 2028.** Inside this article's date, a DARPA spokesperson told Breaking Defense in July 2025 that the agency expected a completed demonstrator in 2027 and flight testing in 2028 \[[Breaking Defense on the Phase 2 selection][ref_bd_phase2]\], and DARPA's March 2026 announcement, outside it, says early 2028. **Taking early 2028 as 1 January 2028, the slip is at least eight months, and first flight would come at least 50 months after the Phase 1 award.** That is a statement about a goal and a plan, both of which are documents, and not about any engineering difficulty, which no document read here describes.
+**The solicitation's goal of first flight within 42 months of contract award puts first flight by 1 May 2027 for an award on 1 November 2023.** The slides' notional schedule draws first flight in fiscal year 2027 for each notional performer \[[SPRINT proposers day slides][ref_sprint_overview]\]. **The programme now plans flight testing in 2028.** Inside this article's date, a DARPA spokesperson told Breaking Defense in July 2025 that the agency expected a completed demonstrator in 2027 and flight testing in 2028 \[[Breaking Defense on the Phase 2 selection][ref_bd_phase2]\], and DARPA's March 2026 announcement, outside it, says early 2028. **Taking early 2028 as 1 January 2028, the slip is at least eight months, and first flight would come at least 50 months after the Phase 1 award.** Counting calendar months from the award,
+
+$$
+t_{\mathrm{ff}}^{\mathrm{goal}} = t_{\mathrm{award}} + 42\ \text{months} = 1\ \text{May}\ 2027, \qquad t_{\mathrm{ff}}^{\mathrm{plan}} - t_{\mathrm{ff}}^{\mathrm{goal}} \ge 8\ \text{months}, \qquad t_{\mathrm{ff}}^{\mathrm{plan}} - t_{\mathrm{award}} \ge 50\ \text{months},
+$$
+
+and the 42-month goal is 1,277 days. **The programme's other intervals set the pace against which that slip is measured**, 236 days from the solicitation's posting to the first award, and 719 days from that award to the designation's allocation,
+
+$$
+t_{\mathrm{award}} - t_{\mathrm{BAA}} = 236\ \text{days}, \qquad t_{\mathrm{a}} - t_{\mathrm{award}} = 719\ \text{days}.
+$$
+
+That is a statement about a goal and a plan, both of which are documents, and not about any engineering difficulty, which no document read here describes.
 
 ## What Four Budget Books Said
 
@@ -148,7 +189,13 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 | 2026, June 2025 | 13.024 | 41.998 | 55.200 | |
 | 2027, April 2026, outside the date | | 47.000 | 47.524 | 62.113 |
 
-**Fiscal year 2024 was requested at 22.663 million and executed at 13.024 million**, a shortfall of 9.639 million in the programme's first year. **Fiscal year 2025 grew from a request of 36.866 million to an actual of 47.000 million in the latest book**, about 27.5 percent more. **Fiscal year 2026 was requested at 55.200 million and the latest book carries 47.524 million**, about 13.9 percent less, though that figure is the current-year column of the latest book rather than an execution. **The latest figures for fiscal years 2024 through 2027 sum to 169.661 million dollars.** None of these figures is a contract value, and none of them can be reconciled with the award record's 43.65 million without Bell's missing instrument.
+**Fiscal year 2024 was requested at 22.663 million and executed at 13.024 million**, a shortfall of 9.639 million in the programme's first year. **Fiscal year 2025 grew from a request of 36.866 million to an actual of 47.000 million in the latest book**, about 27.5 percent more. **Fiscal year 2026 was requested at 55.200 million and the latest book carries 47.524 million**, about 13.9 percent less, though that figure is the current-year column of the latest book rather than an execution. **The latest figures for fiscal years 2024 through 2027 sum to 169.661 million dollars.** In millions,
+
+$$
+22.663 - 13.024 = 9.639, \qquad \frac{47.000}{36.866} - 1 = 0.275, \qquad 1 - \frac{47.524}{55.200} = 0.139, \qquad 13.024 + 47.000 + 47.524 + 62.113 = 169.661.
+$$
+
+None of these figures is a contract value, and none of them can be reconciled with the award record's 43.65 million without Bell's missing instrument.
 
 ### A Scaled Demonstrator Became a Demonstrator
 
@@ -215,6 +262,16 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 | $V\_s$ | wing stall speed | m/s |
 | $S$ | wing reference area | m² |
 | $C\_L$ | lift coefficient, with $C\_{L}^{\max}$ its maximum, assumed 1.6 | none |
+| $E$ | lift-to-drag ratio, $L / D$ | none |
+| $q\_w$ | dynamic pressure of the fully developed hover wake | Pa |
+| $\kappa$ | proprotor tip speed as a fraction of the XV-15's airplane-mode tip speed | none |
+| $\lambda$ | proprotor advance ratio in axial flight, $V / V\_t$ | none |
+| $N\_e$, $N\_r$ | turboshaft output speed and proprotor speed | rev/min |
+| $\mathcal{G}$ | speed reduction from turboshaft output to proprotor, $N\_e / N\_r$ | none |
+| $n\_F$ | number of turbofans fitted | none |
+| $t$ | a date, with $t\_{\mathrm{a}}$ the allocation, $t\_{\mathrm{d}}$ this article's date, $t\_{\mathrm{pub}}$ the row's first public appearance, $t\_{\mathrm{DARPA}}$ the announcement, $t\_{\mathrm{BAA}}$ the solicitation, $t\_{\mathrm{award}}$ the first Phase 1A award and $t\_{\mathrm{ff}}$ first flight, goal or plan | date |
+| $B\_{\mathrm{Bell}}$ | the value of Bell's Phase 1 instrument | dollars |
+| $\bar{c}$ | mean number of literature clusters per admitted record | none |
 
 ### The Atmosphere
 
@@ -234,7 +291,13 @@ an 11.3 percent increase in induced power, before any loss of engine power with 
 
 ### The Installed Power and What It Hovers
 
-**The certificated CT7-8 delivers 1,879 kilowatts, 2,520 shaft horsepower, at its five-minute take-off rating and 1,523 kilowatts at maximum continuous, with a dry mass of 243.6 kilograms** \[[Type-certificate data sheet for the CT7 series][ref_easa_ct7]\]. The register names the model as `CT7-8` without a suffix. **The same data sheet lists the suffixed CT7-8 models from 1,845 to 2,009 kilowatts at take-off**, so if the register's name stands for the family rather than the base model, the installed power lies between about 2 percent below and 7 percent above the base figure. Two engines give
+**The certificated CT7-8 delivers 1,879 kilowatts, 2,520 shaft horsepower, at its five-minute take-off rating and 1,523 kilowatts at maximum continuous, with a dry mass of 243.6 kilograms** \[[Type-certificate data sheet for the CT7 series][ref_easa_ct7]\]. The register names the model as `CT7-8` without a suffix. **The same data sheet lists the suffixed CT7-8 models from 1,845 to 2,009 kilowatts at take-off**, so if the register's name stands for the family rather than the base model, the installed power lies between about 2 percent below and 7 percent above the base figure,
+
+$$
+\frac{1845}{1879} = 0.982, \qquad \frac{2009}{1879} = 1.069.
+$$
+
+Two engines give
 
 $$
 P = 2 \times 1879\ \text{kW} = 3758\ \text{kW}
@@ -277,7 +340,25 @@ $$
 r = \sqrt{\frac{W}{2 \pi w}}.
 $$
 
-**Two CT7-8s hover 15,000 pounds at sea level at any disk loading up to about 55.6 pounds per square foot**, about 44.9 on the solicitation's hot day before engine lapse, which corresponds to rotors of about 4.0 metres diameter each. **At the XV-15's disk loading they would hover about 30,800 pounds at sea level**, twice the solicitation's heaviest figure. **So the turboshafts are not the constraint on the X-76's weight at any conventional tiltrotor disk loading.** Either the aircraft is heavier than the solicitation's guidance, which the guidance explicitly permits, or it hovers with a large power margin, or it hovers at a disk loading well above a conventional tiltrotor's, and the engines alone cannot say which. **Two observations favour the third.** Folded blades must lie along their nacelles, and Bell's patent on a stowed-blade clamp describes a blade "foldable to a stowed position extending substantially parallel to the pylon" \[[US 2021/0078695][ref_pat_us20210078695]\], so blade length is bounded by nacelle length. And the solicitation set no disk loading limit. **Both are inferences about the X-76, not facts about it.**
+**Two CT7-8s hover 15,000 pounds at sea level at any disk loading up to about 55.6 pounds per square foot**, which corresponds to rotors of about 4.0 metres diameter each. Since the limit is proportional to density, on the solicitation's hot day before engine lapse it falls to
+
+$$
+w_{\max}^{\mathrm{hot}} = \sigma_{\mathrm{hot}}\, w_{\max} = 0.8076 \times 55.6\ \text{psf} = 44.9\ \text{psf}.
+$$
+
+**At the XV-15's disk loading they would hover about 30,800 pounds at sea level**, twice the solicitation's heaviest figure,
+
+$$
+\frac{W_{\max}(w = 13.2\ \text{psf})}{15{,}000\ \text{lb}} = \frac{30{,}775}{15{,}000} = 2.05.
+$$
+
+**Every hot-day weight in the table is the same fraction of its sea-level neighbour**, because the heaviest hover weight scales as the square root of density at fixed power and disk loading,
+
+$$
+\frac{W_{\max}(\rho_{\mathrm{hot}})}{W_{\max}(\rho_0)} = \sqrt{\frac{\rho_{\mathrm{hot}}}{\rho_0}} = \sqrt{0.8076} = 0.899,
+$$
+
+which is the hot day's 10 percent penalty on hover weight before any engine lapse. **So the turboshafts are not the constraint on the X-76's weight at any conventional tiltrotor disk loading.** Either the aircraft is heavier than the solicitation's guidance, which the guidance explicitly permits, or it hovers with a large power margin, or it hovers at a disk loading well above a conventional tiltrotor's, and the engines alone cannot say which. **Two observations favour the third.** Folded blades must lie along their nacelles, and Bell's patent on a stowed-blade clamp describes a blade "foldable to a stowed position extending substantially parallel to the pylon" \[[US 2021/0078695][ref_pat_us20210078695]\], so blade length is bounded by nacelle length. And the solicitation set no disk loading limit. **Both are inferences about the X-76, not facts about it.**
 
 ### Disk Loading Is the Price of Runway Independence
 
@@ -287,7 +368,13 @@ $$
 v_h = \sqrt{\frac{(1 + d)\, w}{2 \rho}},
 $$
 
-and the fully developed wake below an ideal rotor moves at twice that. At sea level, the XV-15's disk loading gives 16.8 metres per second at the disk and 33.7 in the wake. **A disk loading of 20 gives 20.7 and 41.5, and a disk loading of 60 gives 35.9 and 71.8.** The wake speed rises with the square root of disk loading, so **a stop-fold aircraft that shortens its blades to stow them buys cruise speed with downwash**, which is exactly the quantity runway independence is about. The literature on outwash and its effect on people standing near a hovering aircraft is cited in the survey below, and one of its studies is titled for that question \[[Calvert and Wenren 2019][research_calvert_wenren_2019_2]\], which this article cites for its title only.
+and the fully developed wake below an ideal rotor moves at twice that. At sea level, the XV-15's disk loading gives 16.8 metres per second at the disk and 33.7 in the wake. **A disk loading of 20 gives 20.7 and 41.5, and a disk loading of 60 gives 35.9 and 71.8.** The wake speed rises with the square root of disk loading. **What the ground and a person standing on it feel is the wake's dynamic pressure, and that has a cleaner form**, since squaring twice the induced velocity cancels the density,
+
+$$
+q_w = \tfrac{1}{2} \rho \left( 2 v_h \right)^2 = \tfrac{1}{2} \rho \cdot \frac{4 (1 + d)\, w}{2 \rho} = (1 + d)\, w.
+$$
+
+**The fully developed wake's dynamic pressure equals the rotor's thrust per unit disk area, at any altitude and on any day.** At the XV-15's disk loading it is 695 pascals, 14.5 pounds per square foot, at a disk loading of 20 it is 1,053 pascals, and at 60 it is 3,160 pascals, 66 pounds per square foot. So **a stop-fold aircraft that shortens its blades to stow them buys cruise speed with downwash in exact proportion**, which is the quantity runway independence is about. The literature on outwash and its effect on people standing near a hovering aircraft is cited in the survey below, and one of its studies is titled for that question \[[Calvert and Wenren 2019][research_calvert_wenren_2019_2]\], which this article cites for its title only.
 
 ### The Jet Is a Drag Budget
 
@@ -313,7 +400,13 @@ $$
 \left( \frac{L}{D} \right)_{\mathrm{req}} = \frac{W}{F} = \frac{W}{F_0\, \sigma\, \varphi}.
 $$
 
-At 15,000 pounds and the middle of the lapse range, the required ratio is 5.68 at 15,000 feet, 6.70 at 20,000, 7.97 at 25,000 and 9.55 at 30,000. At 8,000 pounds it is 3.03 at 15,000 feet and 5.09 at 30,000. **The requirement rises with altitude because thrust falls with density while weight does not**, so the bottom of the solicitation's altitude band is where the turbofan most easily meets the speed requirement, and **a heavy X-76 would most plausibly demonstrate 400 knots near 15,000 feet.** That is an inference from a model.
+At 15,000 pounds and the middle of the lapse range, the required ratio is 5.68 at 15,000 feet, 6.70 at 20,000, 7.97 at 25,000 and 9.55 at 30,000. At 8,000 pounds it is 3.03 at 15,000 feet and 5.09 at 30,000. **The requirement rises with altitude because thrust falls with density while weight does not**, so the bottom of the solicitation's altitude band is where the turbofan most easily meets the speed requirement, and **a heavy X-76 would most plausibly demonstrate 400 knots near 15,000 feet.** That is an inference from a model. **Turned around, the same relation gives the highest altitude at which a given lift-to-drag ratio still allows 400 knots**, since level flight needs the density ratio to be at least
+
+$$
+\sigma_{\min} = \frac{W}{F_0\, \varphi\, E},
+$$
+
+which at 15,000 pounds and the middle of the lapse range is 0.595 for $E = 6$, 0.447 for $E = 8$ and 0.357 for $E = 10$, standard-atmosphere altitudes of about 16,700, 25,100 and 31,200 feet. **A lift-to-drag ratio near 6 in the folded cruise configuration would confine a 15,000 pound X-76 to the bottom of the solicitation's band**, and the band's top needs a ratio near 10.
 
 **The turbofan's thrust power is comparable to the turboshafts' shaft power.** At 400 knots and 15,000 feet, at the middle of the lapse range,
 
@@ -321,7 +414,13 @@ $$
 P_F = F V = 31.13\ \text{kN} \times 0.6292 \times 0.6 \times 205.8\ \text{m/s} = 2.42\ \text{MW},
 $$
 
-against 3.05 megawatts of maximum continuous shaft power from the two CT7-8s. **So the aircraft carries two power sources of the same order and uses one at a time**, which is the cost of having two propulsion systems, and it is why Bell's patents describe drive systems that let an otherwise idle lift engine contribute thrust in cruise through a pylon-mounted ducted fan \[[US 11,325,719][ref_pat_us11325719]\], or that couple and decouple rotors and thrust fans through clutches in one gearbox \[[US 11,577,831][ref_pat_us11577831]\]. **Whether the X-76 does either is not public.**
+against 3.05 megawatts of maximum continuous shaft power from the two CT7-8s,
+
+$$
+\frac{P_F}{P_{\mathrm{mcp}}} = \frac{2.42\ \text{MW}}{3.05\ \text{MW}} = 0.79.
+$$
+
+**So the aircraft carries two power sources of the same order and uses one at a time**, which is the cost of having two propulsion systems, and it is why Bell's patents describe drive systems that let an otherwise idle lift engine contribute thrust in cruise through a pylon-mounted ducted fan \[[US 11,325,719][ref_pat_us11325719]\], or that couple and decouple rotors and thrust fans through clutches in one gearbox \[[US 11,577,831][ref_pat_us11577831]\]. **Whether the X-76 does either is not public.**
 
 ### The Proprotor's Speed Limit, and Why the Rotor Must Stop
 
@@ -345,7 +444,13 @@ $$
 V_{\mathrm{wall}} = M_{h,\max}\, a,
 $$
 
-which is 532 knots at 15,000 feet and 512 knots at 25,000. **The objective of 450 knots is therefore not beyond the compressibility wall**, but it is in the region where a proprotor must be slowed so far that its advance ratio is high and its thrust per unit of tip speed is poor. That, with whirl flutter, is the case for stopping the rotor rather than slowing it. **Bell's paper states the conclusion and not this arithmetic**, that the stop-fold configuration can "make the rotor disappear" in cruise \[[Schank et al 2025][research_schank_xin_2025]\].
+which is 532 knots at 15,000 feet and 512 knots at 25,000. **The objective of 450 knots is therefore not beyond the compressibility wall**, but it is in the region where a proprotor must be slowed so far that its advance ratio is high and its thrust per unit of tip speed is poor. **The two quantities make that concrete.** The tip speed allowed as a fraction of the XV-15's, and the advance ratio that results, are
+
+$$
+\kappa = \frac{a \sqrt{M_{h,\max}^2 - M^2}}{V_t^{\mathrm{XV15}}}, \qquad \lambda = \frac{V}{\kappa\, V_t^{\mathrm{XV15}}},
+$$
+
+which give $\kappa = 0.877$ and $\lambda = 1.14$ at 400 knots and 15,000 feet, and $\kappa = 0.607$ and $\lambda = 1.85$ at 450 knots and 25,000 feet. **The XV-15 at its own 300 knots ran at an advance ratio of 0.75**, so the X-76's objective asks a proprotor for two and a half times the advance ratio of the aircraft that proved the configuration. That, with whirl flutter, is the case for stopping the rotor rather than slowing it. **Bell's paper states the conclusion and not this arithmetic**, that the stop-fold configuration can "make the rotor disappear" in cruise \[[Schank et al 2025][research_schank_xin_2025]\].
 
 ### The Conversion Must Happen Where the Wing Can Fly
 
@@ -359,13 +464,31 @@ which at sea level, taking a maximum lift coefficient of 1.6, is 105 knots at a 
 
 ### The Engines Alone Are a Sixth of the Heaviest Aeroplane
 
-**On the one-turbofan reading, the three engines' dry masses sum to 1,110.7 kilograms, 2,449 pounds**, 487.2 kilograms of turboshaft and 623.5 of turbofan. As a fraction of gross mass,
+**On the one-turbofan reading, the three engines' dry masses sum to 1,110.7 kilograms, 2,449 pounds**, 487.2 kilograms of turboshaft and 623.5 of turbofan,
+
+$$
+m_e = 2 \times 243.6 + 623.5 = 1110.7\ \text{kg}.
+$$
+
+As a fraction of gross mass,
 
 $$
 \mu_e = \frac{m_e}{m_0} = \frac{1110.7\ \text{kg}}{6803.9\ \text{kg}} = 0.163 \quad \text{at 15,000 lb}, \qquad \frac{1110.7\ \text{kg}}{3628.7\ \text{kg}} = 0.306 \quad \text{at 8,000 lb}.
 $$
 
-**Bare engines at 16 percent of gross mass, before transmissions, shafts, the fold mechanism, inlets and nacelles, put the X-76 at the heavy end of the solicitation's range or above it.** At the light end the bare engines alone would be almost a third of the aircraft. **This is the second line of evidence, after the hover power margin, that the demonstrator is heavier than 15,000 pounds or close to it**, and both are inferences from certificated engine data and not statements about the aircraft. The turboshafts' specific power is 7.7 kilowatts per kilogram and the turbofan's static thrust-to-weight ratio is 5.1, so **the turbofan is the heavier of the two systems for the job it does**, carrying the aircraft only in the one flight phase that a proprotor cannot reach.
+**Bare engines at 16 percent of gross mass, before transmissions, shafts, the fold mechanism, inlets and nacelles, put the X-76 at the heavy end of the solicitation's range or above it.** At the light end the bare engines alone would be almost a third of the aircraft. **This is the second line of evidence, after the hover power margin, that the demonstrator is heavier than 15,000 pounds or close to it**, and both are inferences from certificated engine data and not statements about the aircraft. The turboshafts' specific power and the turbofan's static thrust-to-weight ratio are
+
+$$
+\frac{1879\ \text{kW}}{243.6\ \text{kg}} = 7.7\ \text{kW/kg}, \qquad \frac{31.15\ \text{kN}}{623.5\ \text{kg} \times g} = 5.1,
+$$
+
+so **the turbofan is the heavier of the two systems for the job it does**, carrying the aircraft only in the one flight phase that a proprotor cannot reach. **And the turbofan alone could not lift the aircraft.** Its static thrust is a fraction of the weight at both ends of the solicitation's range,
+
+$$
+\frac{F_0}{W} = \frac{31.15\ \text{kN}}{66.72\ \text{kN}} = 0.47 \quad \text{at 15,000 lb}, \qquad \frac{31.15\ \text{kN}}{35.59\ \text{kN}} = 0.88 \quad \text{at 8,000 lb},
+$$
+
+so even a jet vectored downward could not hover the X-76, which is why the hover must be the rotors' and why the conversion is a hand-over between two systems rather than a change of attitude of one.
 
 ## The Concept's History, Which Is Older Than the Programme
 
@@ -403,7 +526,13 @@ $$
 
 ### The Turboshafts
 
-**The CT7-8 was certificated by the European Union Aviation Safety Agency on 20 January 2003**, with its basis in the Federal Aviation Administration's type certificate E8NE, and the data sheet gives its output shaft speed as 21,945 revolutions per minute at its principal ratings \[[Type-certificate data sheet for the CT7 series][ref_easa_ct7]\]. **The data sheet read is issue 10, dated 19 December 2025, four days after this article's date**, and the base model's ratings and mass quoted here are those of that issue. **A turboshaft of this family is a natural choice for the solicitation's existing-engine rule**, being the commercial counterpart of the T700 engines that power most of the register's helicopters. **Whether the X-76's two turboshafts run in cruise, idle, or shut down is not public**, and the answer matters for fuel, for restart reliability before the rotors are unfolded, and for the thermal management system the budget book names.
+**The CT7-8 was certificated by the European Union Aviation Safety Agency on 20 January 2003**, with its basis in the Federal Aviation Administration's type certificate E8NE, and the data sheet gives its output shaft speed as 21,945 revolutions per minute at its principal ratings \[[Type-certificate data sheet for the CT7 series][ref_easa_ct7]\]. **That speed fixes the size of the reduction the drive system must make**, since a proprotor of radius $r$ turning at tip speed $V\_t$ runs at
+
+$$
+N_r = \frac{60\, V_t}{2 \pi r}, \qquad \mathcal{G} = \frac{N_e}{N_r} = \frac{2 \pi r\, N_e}{60\, V_t}.
+$$
+
+At the XV-15's own rotor speeds the reduction would be 37.3 in hover and 42.4 in airplane mode. **For a 15,000 pound X-76 at the XV-15's hover tip speed of 235 metres per second**, the rotor radii of the hover table give a proprotor speed of 547 revolutions per minute and a reduction of 40.1 at the XV-15's disk loading, 674 and 32.6 at a disk loading of 20, and 1,167 and 18.8 at a disk loading of 60. **A small stowable rotor needs a smaller reduction, which is a weight saving in the gearbox partly offsetting the weight of the fold**, and like every statement here about the X-76's rotor it depends on a disk loading that is not public. **The data sheet read is issue 10, dated 19 December 2025, four days after this article's date**, and the base model's ratings and mass quoted here are those of that issue. **A turboshaft of this family is a natural choice for the solicitation's existing-engine rule**, being the commercial counterpart of the T700 engines that power most of the register's helicopters. **Whether the X-76's two turboshafts run in cruise, idle, or shut down is not public**, and the answer matters for fuel, for restart reliability before the rotors are unfolded, and for the thermal management system the budget book names.
 
 ### The Turbofan, and a Certificate That Requires Two of It
 
@@ -457,7 +586,13 @@ $$
 
 **The proprotor's speed limit is taken from compressibility alone.** Whirl flutter, which the historical record names as the reason the first stop-fold tests stopped the rotor, is cited and not computed, and for a particular aircraft it may bind at a lower speed than the helical tip Mach number does. **The 0.85 limit is an assumption.**
 
-**The register's engine cell is the only official configuration fact**, its plus sign is unexplained, and the turbofan count of one is a reading. **If the X-76 carries two turbofans, the drag budget doubles and the certificate point disappears**, and nothing in any document read here excludes that.
+**The register's engine cell is the only official configuration fact**, its plus sign is unexplained, and the turbofan count of one is a reading. With $n\_F$ turbofans the drag ceiling is
+
+$$
+f_{\max} = \frac{2\, n_F\, F_0\, \varphi}{\rho_0 V^2},
+$$
+
+**so if the X-76 carries two turbofans, the drag budget doubles and the certificate point disappears**, and nothing in any document read here excludes that.
 
 **And the patents describe embodiments of a company's work, not the X-76.** They are cited for what Bell has filed and for the problems those filings address, and no sentence here claims that any patented mechanism is fitted to the aircraft.
 
@@ -465,7 +600,13 @@ $$
 
 **There is almost no literature on the X-76 itself, and the one paper on its direct ancestor is the contractor's.** Bell's 2025 paper on the stop-fold sled test is the only technical publication in the sweep about the programme's own hardware \[[Schank et al 2025][research_schank_xin_2025]\]. **What the sweep maps is the large literature the X-76 sits in**, being the stopped and folding rotor, the tiltrotor and its aeroelastic and compressibility limits, high-speed vertical lift as a class, hover physics and the downwash at the surface, conversion between modes, the propulsion families and the convertible engine, rotorcraft conceptual design, the missions the solicitation names, and the practice of research aircraft and their flight test.
 
-**The sweep asked 86 questions of the bibliographic index and 30 of the National Aeronautics and Space Administration's reports server, and the pool was 12,957 records**, 11,585 from the index and 1,372 from the server. **The gate admitted 3,847 of them, and the article cites 3,588 distinct swept works and 12 research primaries chosen by hand, 3,600 in all.** Removing 246 repeat registrations leaves 3,601 distinct admitted works, of which 13 are the hand-chosen primaries' own records, White's 1968 forum paper and its 1969 journal version both standing for one primary. A work admitted to several clusters is cited once, under the first of them in the order below. **The bookkeeping is a set of identities, each recomputed by the verifier.**
+**The sweep asked 86 questions of the bibliographic index and 30 of the National Aeronautics and Space Administration's reports server, and the pool was 12,957 records**, 11,585 from the index and 1,372 from the server. **The gate admitted 3,847 of them, and the article cites 3,588 distinct swept works and 12 research primaries chosen by hand, 3,600 in all.** Removing 246 repeat registrations leaves 3,601 distinct admitted works, of which 13 are the hand-chosen primaries' own records, White's 1968 forum paper and its 1969 journal version both standing for one primary. A work admitted to several clusters is cited once, under the first of them in the order below. **The bookkeeping is a set of identities, each recomputed by the verifier**, and the gate's selectivity and the clusters' overlap are two ratios,
+
+$$
+\frac{3{,}847}{12{,}957} = 0.297, \qquad \bar{c} = \frac{4{,}594}{3{,}847} = 1.194,
+$$
+
+so the gate admitted 29.7 percent of the pool, and an admitted record sits in 1.194 clusters on average.
 
 $$
 12{,}957 = 11{,}585 + 1{,}372, \qquad 3{,}601 = 3{,}847 - 246, \qquad 3{,}600 = (3{,}601 - 13) + 12

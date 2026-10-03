@@ -644,7 +644,7 @@ and the Bloomberg model is not public. The article labels all three as such.
 
 `x_planes_bell_textron_x76_sprint.markdown`, A367, editorial date 2025-12-15, series `x_planes`
 index 71 of 72, categories `aerospace history engineering`, full order and documentation-poor.
-**DRAFTED, the first of four passes. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
+**FIRST TWO PASSES COMPLETE, drafting and equation density. Committed, NOT pushed, NOT PUBLISHED**, and publication of the series has never been authorised.
 
 **8,109 lines, 52,274 words of which about 14,100 lie outside the citation runs and reference lists,
 18 display equations, 60 inline expressions, a 41-entry symbol table and 3,724 reference definitions**,
@@ -676,7 +676,9 @@ verbatim in a saved source, and three injected defects caught. `_verify.py` 0 er
 in 17 seconds, `_lib/render.py` no findings across 540 pages, 18 display blocks matched,
 `symcheck.py` passing and `stylecheck.py` zero findings.
 
-**REMAINING.** The equation-density review, the primary-reference review and the publication review.
+**THE EQUATION PASS.** Display equations **18 to 40**, lines 8,109 to 8,250, inline expressions 60 to 95, the symbol table 41 to 51 entries, references held at 3,724. The best new result is that the hover wake's dynamic pressure equals the rotor's thrust per unit disk area, $q\_w = (1+d)\,w$, independent of density. Also added are a cruise ceiling for an assumed lift-to-drag ratio, the jet's static thrust at 0.47 to 0.88 of weight, the advance ratio of 1.85 at the objective against the XV-15's 0.75, and the gearbox reduction across disk loading. **The money identity showed that the recorded Phase 1A obligations exceed the solicitation's Phase 1A figure by 194,105 dollars, so the Bell bound is restated as resting on a premise the first sub-phase did not meet.** `verify367.py` 517 checks, with thirteen symbolic displays asserted after a mutation test showed they were unchecked.
+
+**REMAINING.** The primary-reference review and the publication review.
 
 ## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14
 
