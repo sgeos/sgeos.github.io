@@ -8313,6 +8313,42 @@ Part two back-references part one, which is legal because 2026-01-27 precedes 20
 makes no forward reference. Both dates have passed, so batch publication resolves the internal
 cross-reference immediately.
 
+## X-Planes Pilot Decisions Executed 2026-10-07
+
+**DONE AND COMMITTED, NOT PUSHED, NOT PUBLISHED.**
+- **Decision 1, `95dae6e`.** A297 now writes the assignment as a relation and asks four questions. The X-44 and X-42 fail the function condition. Injectivity fails at four pairs: X-11 and X-12, X-32 and X-35, X-46 and X-47, X-63 and X-64. Monotonicity fails once, the X-49A of 23 May 2003 after the X-50A of 13 February 2002, and the X-76 is a skip. There are two clusters. A368 no longer corrects A297. Its comparison table has ten rows, seven confirmed, and its errors section lists the two repaired aircraft-article errors.
+- **Decision 2, `e59f20f`.** A364's and A365's Epistemic State each carry a dated note. It says the X-68A and X-76A rows first appeared in the public register between 15 January and 1 February 2026, and cites the three archived captures. A364's note adds that the X-67 skip is visible only through the X-68A row. A365's two sentences saying the row was readable at its date are corrected.
+- **Decisions 3 and 4, `da1b458`.** **70 of 70 per-designation articles now carry every canonical section once, in canonical order**, with The Contemporary Literature before Where the Framing Breaks Down.
+  - **43 articles changed**, A321 to A323 and A328 to A367.
+  - **A Comparison With Ground Prediction section was written for each of the 33 lacking one.**
+  - **Other missing sections were mapped first.** Where an article held the content under a topical heading, the heading was renamed or grouped under the canonical one. New prose was written only where content was absent, from each article's own facts and anchors.
+  - **No existing prose line changed except these.** Position references that moves made false, now naming the section. The reduced-order sentences in A336, A349 and A364. A334's landing count, now seven, since OTV-8 is in orbit by the article's own table. A reworded duplicate in A353. A364's and A365's source counts, made stale by decision 2's three archive references.
+  - **A368's ledger was relocated by verbatim search.** Three class quotations were re-quoted from the new sentences with dated notes, giving 763 quotations, 0 failed. `verify368.py` passes 1,845 checks.
+  - **Article verifiers.** A359's, A363's and A364's verifiers were updated for the changes. The A349 and A350 verifiers' citation pattern predated the 3 October escape repair and is fixed.
+- **Gates.** `_verify.py` 0 errors and 0 warnings. A build of all 44 changed drafts is clean, and the rendered audit has no findings.
+
+**DECISION 6, OPEN LIBRARY. The recheck is complete and needs the pilot.**
+- **All 567 works return 200 from the JSON record.** The HTML page now serves a `verify_human` challenge with status 200, so the check reads `/works/<key>.json` and compares the registry title and author with the citation.
+- **48 definitions resolve to the wrong work. None is in the X-Planes series.** All are in PUBLISHED posts of the March 2026 economic-history series and the July 2026 computing and aerospace series. Examples: Etkin, Dynamics of Flight, resolves to The Silver Chair, and Hodges on Turing to a book on Ernst Cassirer.
+- **Candidate keys were searched and none applied.** 29 candidates were found and 14 are unresolved, in `tmp/repair/ol_candidates.json`. The title and author rule is too weak for one-word titles, since Cameron's France and the Economic Development of Europe matched Summer in France. **Each candidate needs a human reading before a published post is edited.**
+
+**DECISION 5, THE SURVEY FILTERS. Measured and stopped at the planned checkpoint.**
+- **Scope.** There are 286,913 research references across the series, titled from the harvest caches, all but 748.
+- **Two screens.** The union of the A367 and A368 refusal patterns flags 4,443. Absence of any aerospace or engineering vocabulary flags 15,616.
+- **Neither screen is a verdict.** A sample of the refusal hits is about half clear homonyms, such as atrial flutter in the X-56 survey and a Venus plasma paper in the X-37 survey, and half on topic. The vocabulary screen flags the anomaly articles' deliberate cross-disciplinary clusters, such as look-alike drug names for the X-52, at 64 to 74 percent.
+- **A rebuild therefore means a per-article reading of what each gate admitted.**
+- **Worse, two surveys carry another article's prose, confirmed.** A344, the X-47, has literature cluster prose describing the X-45 and X-46. A354, the X-57, has gate and literature prose describing the X-56's flutter survey and a histogram it does not contain. **Survey prose may be contaminated elsewhere**, so the rebuild should regenerate prose from each article's own data and not only filter records.
+- **Generators are out of step with their drafts** for at least A353 to A357, through the 3 October label repair and today's restructure. **A rebuild must splice into drafts, not reassemble wholesale.**
+
+**EXISTING DEFECTS THE SECTION AGENTS FOUND, NOT EDITED, for the pilot.** The full list is in `tmp/fix6/QUEUE.md`. Examples:
+- A337 states 4,655 records reaching the list out of 4,557 admitted.
+- A341 says "four orders of magnitude" for a factor of a thousand.
+- A365 has "fiveth" twice.
+- Stale "survey below" references in A339, A340 and A351.
+- A358's symbol table gives a count in dollars.
+- A362 contradicts itself on the Reynolds range.
+- A334 says "three runways", which the article does not support.
+
 ## X-Planes Series Repair 2026-10-03
 
 Repairs made on the pilot's instruction to address every series repair that needs no decision. Each article named below changed, none of them in its argument.
