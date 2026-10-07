@@ -20,13 +20,13 @@ This is the seventy-second and last article in the [X-Planes series][related_pos
 
 **The purpose of the aeroplanes moved less clearly than their crews did.** The share of vehicles the extractors classified as built to measure a quantity falls from 48.3 percent before 1990 to 31.4 percent after it, which is the direction the first article predicted, **and the difference is not established at this sample size**, Fisher's test giving 0.204. That is the most important negative result here. The instrument model, the series' organising claim, did not stop describing the designation in any way the record can detect. **What changed demonstrably was who was aboard, who paid, and, twice, how the number was chosen.**
 
-The article is a synthesis and has no aircraft. Its subject is the designation system across the whole series, and its sources are the seventy earlier articles, the register of allocations those articles used, the four editions of the numbering rule, and a survey of 5,241 works on research aircraft as a class and the institutions and methods around them. **It is written to answer the questions the first article asked, by name**, and it states where the first article was wrong.
+The article is a synthesis and has no aircraft. Its subject is the designation system across the whole series, and its sources are the seventy earlier articles, the register of allocations those articles used, the four editions of the numbering rule, and a survey of 5,241 works on research aircraft as a class and the institutions and methods around them. **It is written to answer the questions the first article asked, by name**, and it states where the record does not bear the first article out.
 
 ## The Questions the First Article Asked
 
 The framing article closed by naming what this one would return to \[[X-Planes framing][related_post_a297_framing]\]. **It asked four questions in its roadmap.** What the designation became, why the clusters fall where they do, why the parallel unmanned series consumed numbers from the same pool, and whether the instrument model still describes what an X designation means. Earlier in the same article it made four further claims that it left to be tested.
 
-- **That the assignment of numbers to programmes is not total, not injective and not monotone**, and that each failure records an institutional fact. Its examples were eleven unassigned numbers, the X-44 as a failure of injectivity, and the X-76 as a failure of monotonicity.
+- **That the assignment of numbers to programmes is not total, not a function, not injective and not monotone**, and that each failure records an institutional fact. Its examples were eleven unassigned numbers, the X-44 as a failure of injectivity, and the X-76 as a failure of monotonicity.
 - **That allocations cluster in time**, with an index of dispersion by decade well above one, a claim it made without computing the index.
 - **That roughly two fifths of the designations support a full engineering treatment**, the rest being cancelled, classified or administrative.
 - **That the proportion of programmes with a purpose other than returning information appears to rise over the period covered.**
@@ -115,11 +115,11 @@ The first, called P2 here, takes the register's date of first allocation where t
 
 ## The Assignment Is Not a Function, and Where It Is One It Is Not Injective
 
-The first article wrote the designation system as a partial function from numbers to programmes and asked whether it is total, injective and monotone \[[X-Planes framing][related_post_a297_framing]\]. **Its answer to the second question rested on a definition that was the wrong way round**, and the correction is worth making exactly because it changes what the anomalies mean.
+The first article wrote the designation system as a relation between numbers and programmes and asked whether it is total, whether it is a function, whether it is injective and whether it is monotone \[[X-Planes framing][related_post_a297_framing]\]. **It answered no to all four and named its cases**, and the series can now measure each failure. The second and third questions are worth keeping apart, as the first article kept them, because the difference changes what the anomalies mean.
 
 ### Writing the Assignment as a Relation
 
-The assignment is safest written as a relation between the set of design numbers $D$ and the set of programmes $P$, with no assumption that it is a function,
+The assignment is safest written, as the first article wrote it, as a relation between the set of design numbers $D$ and the set of programmes $P$, with no assumption that it is a function,
 
 $$R \subseteq D \times P, \qquad D = \{1, 2, \dots, 76\}$$
 
@@ -131,7 +131,7 @@ and it is injective only if no programme holds two numbers, which is the convers
 
 $$(n, p) \in R \ \wedge \ (n', p) \in R \ \Rightarrow \ n = n'$$
 
-**The first article defined injectivity as "does every number correspond to at most one programme"**, which is the first of these two conditions and not the second. Its example, the X-44 used for two aircraft, is a failure of the assignment to be a function at all. The distinction is not pedantry. A number with two vehicles is a record-keeping collision, and a programme with two numbers is the system counting something other than programmes.
+**The first article kept these two conditions apart**, and the distinction is not pedantry. A number with two vehicles is a record-keeping collision, and a programme with two numbers is the system counting something other than programmes.
 
 ### Totality
 
@@ -151,11 +151,11 @@ so the first article's figure is right to within one number. Read in turn, the X
 
 ### The Assignment Fails to Be a Function Twice
 
-**The X-44 names two aircraft**, the tailless F-22 derivative called MANTA, for Multi-Axis No-Tail Aircraft, which was never built, and an unmanned flying wing that flew and stayed classified for years \[[X-44][related_post_a341_x44_two_aircraft]\]. **The X-42 names two vehicles four years apart**, the Upper Stage Flight Experiment to which the number was allocated and a winged reusable booster to which industry applied it informally \[[X-42][related_post_a339_orbital_sciences_x42]\]. These are the two numbers for which the ledger records a quotation saying that one number was applied to two vehicles. The X-23 is a contested case of a different kind, a number generally attributed to a vehicle for which the record shows no allocation request \[[X-23][related_post_a320_martin_marietta_x23]\], and the X-41 is a number whose authoritative survey doubts it applied to the vehicle usually paired with it \[[X-41][related_post_a338_x41_common_aero_vehicle]\].
+**The X-44 names two aircraft**, the tailless F-22 derivative called MANTA, for Multi-Axis No-Tail Aircraft, which was never built, and an unmanned flying wing that flew and stayed classified for years \[[X-44][related_post_a341_x44_two_aircraft]\]. **The X-42 names two vehicles four years apart**, the Upper Stage Flight Experiment to which the number was allocated and a winged reusable booster to which industry applied it informally \[[X-42][related_post_a339_orbital_sciences_x42]\]. These are the first article's two cases, and they are the two numbers for which the ledger records a quotation saying that one number was applied to two vehicles. The X-23 is a contested case of a different kind, a number generally attributed to a vehicle for which the record shows no allocation request \[[X-23][related_post_a320_martin_marietta_x23]\], and the X-41 is a number whose authoritative survey doubts it applied to the vehicle usually paired with it \[[X-41][related_post_a338_x41_common_aero_vehicle]\].
 
 ### The Assignment Fails to Be Injective Four Times
 
-**Four programmes each hold two numbers**, and in every case the ledger has the earlier article's sentence saying so.
+**Four programmes each hold two numbers**, the four pairs the first article named, and in every case the ledger has the earlier article's sentence saying so.
 
 | Programme | Numbers | What distinguishes the two |
 |---|---|---|
@@ -168,7 +168,7 @@ The Atlas pair is the same airframe in two stages of development \[[X-12][relate
 
 ### Monotonicity
 
-**The first article said monotonicity fails at the X-76, and it does not.** The X-76A was allocated on 20 October 2025, after the X-68A of 20 August 2025 and after every lower number in the register \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. What the X-76 breaks is consecutiveness, the expectation that each new number is one more than the last. **Monotonicity asks only that a higher number never be allocated before a lower one**, which is the condition
+**The first article placed the one monotonicity failure at the X-49 and the X-50, and set the X-76 apart as a skip.** The X-76A was allocated on 20 October 2025, after the X-68A of 20 August 2025 and after every lower number in the register \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. What the X-76 breaks is consecutiveness, the expectation that each new number is one more than the last. **Monotonicity asks only that a higher number never be allocated before a lower one**, which is the condition
 
 $$n < n' \ \Rightarrow \ t(n) \le t(n')$$
 
@@ -186,7 +186,7 @@ $$C + Q + T = \binom{m}{2}, \qquad 250 + 1 + 2 = 253$$
 
 where $T$ counts the pairs allocated on the same day.
 
-**The single discordant pair is the X-49 and the X-50.** The X-50A was allocated on 13 February 2002 and the X-49A on 23 May 2003. The two tied pairs are the X-46A and X-47A, allocated together on 14 May 2001, and the X-63A and X-64A, allocated together on 20 April 2022, which are two of the non-injective pairs above.
+**The single discordant pair is the X-49 and the X-50, the first article's case.** The X-50A was allocated on 13 February 2002 and the X-49A on 23 May 2003. The two tied pairs are the X-46A and X-47A, allocated together on 14 May 2001, and the X-63A and X-64A, allocated together on 20 April 2022, which are two of the non-injective pairs above.
 
 ### Every Skip Has a Recorded Cause
 
@@ -259,7 +259,7 @@ $$\Pr\left(\chi^2\_{8} > x\right) = e^{-x/2} \sum\_{i=0}^{3} \frac{(x/2)^i}{i!}$
 
 and at $x = 25.4$ it gives 0.00131 again. **The first article's claim holds under both datings.** The allocations cluster, and a constant-rate process would produce counts this uneven less than one time in three hundred.
 
-**The first article placed three clusters and one gap, and the counts show two clusters and the gap.** It put clusters in the late 1940s and 1950s, the late 1990s, and the 2010s and 2020s, with a pronounced gap through the 1970s and early 1980s. **The third cluster is not in the counts**, the 2010s and 2020s holding 5 and 7 numbers under P2 against a mean of 7.11. The late 1940s and the 1950s hold the rocket research aircraft and the Air Force's missile and propulsion testbeds. The 1970s and 1980s together hold four numbers under P2. **The 1990s and 2000s hold the second dense period**, and the ledger shows what it was made of. Under P2 the 1990s hold the X-31, X-33, X-34, X-36, X-38, X-40, X-41, X-42 and X-44, six of them reusable-launch, entry or hypersonic vehicles, and the 2000s hold the Joint Strike Fighter pair, dated by first flight because their articles give no designation date, the X-37 and X-43, the unmanned combat air vehicle demonstrators from the X-45 to the X-47, and the numbers from the X-48 to the X-55. NASA's own inventory of 2003 describes the same shape in words, almost thirty designations from the late 1940s to the late 1970s, then largely nothing, then a resurgence in the mid to late 1990s \[[Jenkins et al 2003][research_jenkins_landis_2003]\]. **The second correction is that the clusters are better described as institutional than as budgetary**, since the second one coincides with new sponsors entering the series, which is the next section's subject.
+**The first article placed two clusters and one gap, and the counts show both clusters and the gap.** It put clusters in the late 1940s and 1950s and in the late 1990s and 2000s, with a pronounced gap through the 1970s and early 1980s. **The counts hold no third dense period**, the 2010s and 2020s holding 5 and 7 numbers under P2 against a mean of 7.11. The late 1940s and the 1950s hold the rocket research aircraft and the Air Force's missile and propulsion testbeds. The 1970s and 1980s together hold four numbers under P2. **The 1990s and 2000s hold the second dense period**, and the ledger shows what it was made of. Under P2 the 1990s hold the X-31, X-33, X-34, X-36, X-38, X-40, X-41, X-42 and X-44, six of them reusable-launch, entry or hypersonic vehicles, and the 2000s hold the Joint Strike Fighter pair, dated by first flight because their articles give no designation date, the X-37 and X-43, the unmanned combat air vehicle demonstrators from the X-45 to the X-47, and the numbers from the X-48 to the X-55. NASA's own inventory of 2003 describes the same shape in words, almost thirty designations from the late 1940s to the late 1970s, then largely nothing, then a resurgence in the mid to late 1990s \[[Jenkins et al 2003][research_jenkins_landis_2003]\]. **Where the counts qualify the first article is in the cause**, since the clusters are better described as institutional than as budgetary, and the second one coincides with new sponsors entering the series, which is the next section's subject.
 
 ## Who Paid
 
@@ -495,10 +495,11 @@ $$148 < \Lambda\_{\text{X-68A}} \le 165, \qquad 87 < \Lambda\_{\text{X-76A}} \le
 | The first article's claim | What the series measured | Verdict |
 |---|---|---|
 | eleven numbers in the range have no programme | eleven, of four different kinds | confirmed |
-| the X-44 is a failure of injectivity | the X-44 is a failure of the assignment to be a function, and injectivity fails at four pairs | corrected |
-| monotonicity fails at the X-76 | the X-76 is a skip, and the one monotonicity failure is the X-49 after the X-50 | refuted, with the real case found |
+| the assignment is not a function, at the X-44 and the X-42 | both numbers are recorded as naming two vehicles | confirmed |
+| injectivity fails at four pairs | the same four pairs, three of them distinguished by contractor alone | confirmed |
+| monotonicity fails once, the X-49 after the X-50, and the X-76 is a skip | that pair is the one discordant pair of 253, Kendall's $\tau$ of 0.984 | confirmed |
 | allocations cluster, with an index of dispersion well above one | 2.90 to 3.18, with $p$ of 0.00131 to 0.00313 | confirmed |
-| clusters in the late 1940s and 1950s, the late 1990s, and the 2010s and 2020s, with a gap in the 1970s and early 1980s | the first two clusters and the gap, and no third cluster | partly confirmed |
+| clusters in the late 1940s and 1950s and the late 1990s and 2000s, with a gap in the 1970s and early 1980s | both clusters and the gap | confirmed |
 | the clusters track procurement and budget cycles | they coincide with new sponsors entering, which is institutional rather than budgetary | partly confirmed |
 | roughly two fifths of the designations support a full treatment | 47 of 76 numbers went to something that flew, about three fifths | the share of real flight vehicles is larger than predicted |
 | the prefix drifted from crewed research aircraft to unmanned demonstrators | crewed share from 70.4 to 24.1 percent, $p$ of 0.00109 | confirmed and measured |
@@ -508,7 +509,7 @@ The two-fifths row needs a note. **The first article's two fifths was a predicti
 
 $$\frac{47}{76} = 0.618, \qquad \frac{47}{65} = 0.723$$
 
-of all numbers and of the numbers that went to a vehicle. **Of the nine rows, three are confirmed, two partly confirmed, one corrected, one refuted and one not established, and the remaining row finds more real flight vehicles than predicted.** The refutation and the correction are the first article's formal claims, which is where a framing article is most exposed, since it wrote down a definition before it had the data. **The confirmation that matters most is the crewed share**, because it is the one the first article called its principal historical finding and asked to be counted.
+of all numbers and of the numbers that went to a vehicle. **Of the ten rows, seven are confirmed, one partly confirmed and one not established, and the remaining row finds more real flight vehicles than predicted.** The four formal claims all hold, which is where a framing article is most exposed, since it wrote down its definitions before it had the data. The qualifications fall on the cause of the clustering and on purpose. **The confirmation that matters most is the crewed share**, because it is the one the first article called its principal historical finding and asked to be counted.
 
 The first article also asked whether the instrument model still describes what an X designation means. **The answer the ledger supports is that it describes about two fifths of the vehicles across the series**, 25 of 65 classified as built to measure, and that the other three fifths were never the model's subject. What changed, as far as the record can tell, is not the share of instruments. **It is that the instrument now usually flies without a pilot, is paid for by a wider spread of agencies and laboratories, and is no longer described in the register in the government's own words.**
 
@@ -662,9 +663,8 @@ That the clusters are institutional rather than budgetary is an inference from t
 
 ### Errors in the Series That This Article Found
 
-**Reading seventy articles as data found three errors in them.** Two were in articles about single aircraft and were repaired in those articles on 3 October 2026, when this article was written. The third is the first article's, and it is stated here and left in place, because this article's comparison of the first article's predictions with the record depends on what the first article said.
+**Reading seventy articles as data found two errors in them.** Both were in articles about single aircraft, and both were repaired in those articles on 3 October 2026, when this article was written.
 
-- **The first article's definition of injectivity is the definition of a function**, and its claim that monotonicity fails at the X-76 is wrong. The X-76 is a skip, and the only monotonicity failure in the register is the X-49 after the X-50.
 - **The X-49 article dated the filling of the vacancy at 49 to 2004**, which is the year the programme moved from the Navy to the Army, while the register dates the X-49A's allocation to 23 May 2003. **The article now gives the register's date** \[[X-49][related_post_a346_piasecki_x49]\] \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 - **The X-5 article contained a paragraph whose details belonged to the X-4**, a first aircraft that made only ten flights and was called a lemon, a second that made twenty contractor flights, and a handover in February 1950, while the same article dated the X-5's first flights to June and December 1951. The details match those the X-4 article gives for its own aircraft \[[X-4][related_post_a301_northrop_x4]\]. **The paragraph has been replaced with the X-5's record from the NASA history of its flight research centre**, which gives the contractor programme ending in October 1951, a six-flight Air Force evaluation in December 1951 and 133 flights by the NACA from 1952 to late 1955 \[[X-5][related_post_a302_bell_x5]\] \[[Hallion 1984][research_hallion_1984]\].
 

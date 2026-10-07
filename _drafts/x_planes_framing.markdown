@@ -731,11 +731,11 @@ which decays as $1/n$. Information from flight test exhibits diminishing returns
 
 The series treats the designation sequence itself as an object worth analysis, because its irregularities carry information about the institutions that produced it.
 
-Let $D = \{1, 2, \dots, 76\}$ denote the index set of designations in scope and let $P$ denote the set of programmes. The assignment is a partial function
+Let $D = \{1, 2, \dots, 76\}$ denote the index set of designations in scope and let $P$ denote the set of programmes. The assignment is safest written as a relation, with no assumption that it is a function,
 
-$$\delta : D \rightharpoonup P$$
+$$R \subseteq D \times P$$
 
-and three questions follow immediately. Is $\delta$ total, meaning is every number assigned. Is $\delta$ injective, meaning does every number correspond to at most one programme. Is $\delta$ monotone in time, meaning does a higher number imply a later assignment. The answer to all three is no, and each failure is a finding.
+where $(n, p) \in R$ means that design number $n$ was applied to programme $p$. Four questions follow immediately. Is $R$ total, meaning is every number assigned. Is $R$ a function, meaning does every number correspond to at most one programme. Is $R$ injective, meaning does every programme hold at most one number. Is $R$ monotone in time, meaning does a higher number imply a later assignment. The answer to all four is no, and each failure is a finding.
 
 Totality fails for eleven numbers. The X-39 was reserved on 23 April 1997 for the [Future Aircraft Technology Enhancements][ref_fate_program] programme but no written allocation request followed, so it remained officially unassigned. The X-52 was requested in 2006 and refused because of possible confusion with the B-52. The X-58 and the X-67 were passed over because the corresponding slots were consumed by the parallel unmanned [Kratos XQ-58 Valkyrie][ref_kratos_xq58] and [General Atomics XQ-67A][ref_ga_xq67a], which draw from the same numeric pool. The seven numbers from X-69 through X-75 were leapfrogged entirely. Writing $U$ for the unassigned set, the assignment density is
 
@@ -743,9 +743,11 @@ $$\eta = \frac{|D| - |U|}{|D|} = \frac{76 - 11}{76} = 0.855$$
 
 so roughly one designation in seven in the nominal range corresponds to nothing.
 
-Injectivity fails at the X-44, which was applied both to the tailless delta derivative of the F-22 known as the [Lockheed Martin X-44 MANTA][ref_lm_x44] and to a separate unmanned programme. It is contested at the X-23, which is generally attributed to the Martin Marietta SV-5D PRIME while United States Air Force nomenclature records reportedly show that X-23A was never formally assigned. The series states that conflict rather than resolving it. The [X-41 Common Aero Vehicle][ref_x41_cav] of the Falcon Project run by the Defense Advanced Research Projects Agency, or [DARPA][ref_darpa_falcon], is a third kind of gap, being assigned to a vehicle whose specifications have never been released.
+The relation fails to be a function at the X-44, which was applied both to the tailless delta derivative of the F-22 known as the [Lockheed Martin X-44 MANTA][ref_lm_x44] and to a separate unmanned programme, and at the X-42, which the two sources that mention it describe as two different vehicles. A number with two vehicles is a record-keeping collision. The assignment is contested at the X-23, which is generally attributed to the Martin Marietta SV-5D PRIME while United States Air Force nomenclature records reportedly show that X-23A was never formally assigned. The series states that conflict rather than resolving it. The [X-41 Common Aero Vehicle][ref_x41_cav] of the Falcon Project run by the Defense Advanced Research Projects Agency, or [DARPA][ref_darpa_falcon], is a third kind of gap, being assigned to a vehicle whose specifications have never been released.
 
-Monotonicity fails at the X-76. [DARPA][ref_darpa] announced the Bell Textron X-76 SPRINT in 2026 with the number chosen as a deliberate reference to 1776 for the country's two hundred and fiftieth anniversary, as stated in the [agency announcement][ref_darpa_x76], while the next unused sequential number at the time was X-69. This matters methodologically and not merely as trivia. A reference work stating that the next available design number is X-69 is describing the next unused sequential slot, not an upper bound on assigned numbers, and reading it as a ceiling excludes a real aircraft. When a roster looks like a sequence, it is worth verifying that it is one.
+Injectivity fails at four pairs, each a single programme holding two numbers. The X-11 and X-12 were both [Atlas][ref_sm65_atlas] development vehicles. The X-32 and X-35 were the [Boeing][ref_boeing_x32] and [Lockheed Martin][ref_lm_x35] demonstrators of the Joint Strike Fighter concept demonstration. The X-46 and X-47 were the [Boeing][ref_boeing_x46] and [Northrop Grumman][ref_ng_x47b] demonstrators for the Navy unmanned combat air vehicle. The X-63 and X-64 were allocated on the same day in 2022 to the Aerospike Rocket Integration and Suborbital Experiment, as the register of allocations records in the [Department of Defense 4120.15-L Addendum][ref_mds_addendum]. A programme with two numbers is the system counting something other than programmes, and the individual articles say what.
+
+Monotonicity fails once in the register. The X-50A was allocated on 13 February 2002 and the X-49A on 23 May 2003, according to the same [register][ref_mds_addendum], so the higher number came first. Why it did is a question for the X-49 and X-50 articles. The X-76 breaks something different, which is consecutiveness, the expectation that each new number is one more than the last. [DARPA][ref_darpa] announced the Bell Textron X-76 of its Speed and Runway Independent Technologies programme, or SPRINT, in 2026 with the number chosen as a deliberate reference to 1776 for the country's two hundred and fiftieth anniversary, as stated in the [agency announcement][ref_darpa_x76], while the next unused sequential number at the time was X-69. The X-76 came after every lower number and so kept the order, and it passed over seven numbers to do so. This matters methodologically and not merely as trivia. A reference work stating that the next available design number is X-69 is describing the next unused sequential slot, not an upper bound on assigned numbers, and reading it as a ceiling excludes a real aircraft. When a roster looks like a sequence, it is worth verifying that it is one.
 
 The assignment rate over the eighty years from the X-1 in 1946 to the X-76 in 2026 is
 
@@ -755,7 +757,7 @@ If assignments arrived as a Poisson process the counts per interval would satisf
 
 $$\mathcal{D} = \frac{s^2}{\bar{x}}$$
 
-would be near unity. Counting assignments by decade gives a value well above one, and the assignments are therefore not close to Poisson. They cluster tightly around the late 1940s and 1950s, again around the late 1990s, and again in the 2010s and 2020s, with a pronounced gap through the 1970s and early 1980s. Those clusters track procurement decision points, defence budget cycles, and the founding of new sponsoring organizations rather than any internal logic of aeronautical research, and the closing article of the series takes up that correlation directly.
+would be near unity. Counting assignments by decade gives a value well above one, and the assignments are therefore not close to Poisson. They cluster tightly around the late 1940s and 1950s and again around the late 1990s and 2000s, with a pronounced gap through the 1970s and early 1980s. Those clusters track procurement decision points, defence budget cycles, and the founding of new sponsoring organizations rather than any internal logic of aeronautical research, and the closing article of the series takes up that correlation directly.
 
 ## The Institutional Arrangement
 
@@ -903,7 +905,7 @@ The closing article returns to the questions raised here. What the designation b
 
 A research aircraft is a machine built to measure one thing that cannot be measured any other way, and the argument of this series is that everything else about such an aircraft follows from that one thing. The similarity gap establishes that ground facilities leave a residue. The keystone principle establishes that the residue dominates the design. The sizing relations establish how it propagates into wing area, skin material, propellant fraction, control authority, and instrumentation. The information economics establish why the programmes exist when they exist and why they cluster where they cluster.
 
-The designation system carries its own evidence. It is not total, not injective, and not monotone, and each of those failures records an institutional fact. A number reserved and never formalized records a programme that lost its sponsor. A number refused records a nomenclature authority exercising judgement. A number consumed by a parallel unmanned series records the moment the uncrewed vehicles became numerous enough to compete for the same pool. A number chosen for an anniversary records an agency doing something other than counting.
+The designation system carries its own evidence. It is not total, not a function, not injective, and not monotone, and each of those failures records an institutional fact. A number reserved and never formalized records a programme that lost its sponsor. A number refused records a nomenclature authority exercising judgement. A number consumed by a parallel unmanned series records the moment the uncrewed vehicles became numerous enough to compete for the same pool. A number chosen for an anniversary records an agency doing something other than counting.
 
 Seventy-one articles follow. The next one takes the aircraft that started it, the Bell X-1, and asks what the transonic drag rise actually was and what it cost to find out.
 
@@ -1025,6 +1027,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 
 - [DARPA Announcement of the X-76 SPRINT][ref_darpa_x76]
 - [DARPA Official Site][ref_darpa_official]
+- [DOD 4120.15-L Addendum][ref_mds_addendum]
 - [NASA Armstrong Flight Research Center][ref_nasa_armstrong]
 - [NASA History Office][ref_nasa_history]
 - [NASA Technical Reports Server][ref_ntrs]
@@ -1551,6 +1554,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [ref_martin_x24a]: https://en.wikipedia.org/wiki/Martin_Marietta_X-24A
 [ref_martin_x24b]: https://en.wikipedia.org/wiki/Martin_Marietta_X-24B
 [ref_mcdonnell_x36]: https://en.wikipedia.org/wiki/McDonnell_Douglas_X-36
+[ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_measurement_uncertainty]: https://en.wikipedia.org/wiki/Measurement_uncertainty
 [ref_na_x10]: https://en.wikipedia.org/wiki/North_American_X-10
 [ref_na_x15]: https://en.wikipedia.org/wiki/North_American_X-15
