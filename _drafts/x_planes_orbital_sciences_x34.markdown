@@ -1639,97 +1639,6 @@ scrapyard before 2020.
 The programme appears in [the agency's own history of the X-vehicles][ref_xvehicles] as a vehicle that was
 built and did not fly.
 
-## Where the Framing Breaks Down
-
-### Cost Is Not an Engineering Quantity and This Article Treats It as One
-
-**The whole analysis above prices simplifications in seconds, kilograms and newtons, and then sets the result beside dollars.**
-Those are not commensurable. A gas generator that costs 17.86 seconds of specific impulse is a fact. Whether
-that trade was worth making depends on a price nobody published for a chamber nobody built in quantity.
-
-**The honest position is that this article can compute what simplification cost in physics and cannot compute what it saved in money**,
-and every conclusion about the trade is therefore one-sided.
-
-### The Cost Comparison Has a Denominator Problem
-
-**Dividing programme cost by vehicle mass is a crude instrument and the numbers move a great deal with the choice.**
-Dividing by the number of airframes built gives a different answer. Dividing by flights achieved gives
-infinity for both.
-**The mass denominator was chosen because both programmes published a mass, and no denominator would have made the comparison rigorous.**
-
-### The Review Might Simply Have Been Right
-
-**This article has treated the 305 percent growth as the price of restoring what low-cost planning removed. There is a less flattering reading and it deserves stating.**
-The original estimate may have been wrong on its own terms rather than deliberately thin, and a programme
-that underestimates by a factor of four has a competence problem rather than a philosophy.
-
-**The record does not distinguish these**, and the two readings differ in what they imply. Under the first,
-low-cost demonstration is a coherent strategy that must budget for eventual rigour. Under the second, the
-X-34 is simply a badly estimated project and there is no general lesson at all.
-
-### The Comparison With the X-33 Flatters the X-34
-
-**The two vehicles were not trying to do the same thing and the per-pound comparison quietly assumes they were.**
-The X-33 was attempting a mass fraction nobody had achieved with technologies nobody had built. The X-34 was
-attempting a flight profile within reach of existing practice.
-**A programme attempting something harder should cost more, and some of the ratio is that rather than efficiency.**
-
-- [Advanced Avionics Architecture and Technology Review...][research_navalairsystemscommandarlingtonva_1993]
-- [Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]
-- [Defense Transportation's EDI Program A Security Risk...][research_frohman_ledder_1993]
-- [Orbiter lessons learned A guide to future vehicle development][research_greenbergharrystan_1993]
-- [Installation Restoration Program IRP Remedial...][research_tetratechincredmondwa_1995]
-- [Development of Military IRIS System for the Hazard...][research_harvey_bauer_1997]
-- [LDAP A Data Acquisition Program Written Using LabVIEW][research_spencer_1997]
-- [Lessons Learned in Predicting Launch Vehicle Vibroacoustic...][research_tanner_1997]
-- [The Evolved Expendable Launch Vehicle EELV Acquisition and...][research_greaves_1997]
-- [Particle impact risk assessment for ablative thermal...][research_naughton_venkatapathy_1998]
-- [Acquisition for the 21st Century The F-22 Development Program][research_perry_1999]
-- [Altitude Decompression Sickness Risk Assessment Computer...][research_pilmanis_petropoulos_1999]
-- [Cost and budget estimation for DoD ATE test program set...][research_robinson_smith_1999]
-- [Reengineering the Acquisition Process A Quantitative Example...][research_graham_hoffman_1999]
-- [Summary of Results from the Risk Management Program for the...][research_shishkorobert_matijevicjacobr_2000]
-- [Overview of U.S. nuclear launch safety approval process...][research_reinhartle_2001]
-- [Summary of DOD Acquisition Program Audit Coverage][research_defensescienceboardwashingtondc_2001]
-- [2003 IDA Cost Research Symposium Cost of Evolutionary...][research_balut_davis_2003]
-- [Estimating Models of Program Management][research_womer_camm_2003]
-- [Independent Review of the Failure Modes of F-1 Engine and...][research_raypaul_2003]
-- [Army strategic Software Improvement Program ASSIP Survey of...][research_kasunic_2004]
-- [Development of a Physiologically-Based Pharmacokinetic Model...][research_covington_clewell_2004]
-- [Effective Technology Insertion The Key to Evolutionary...][research_guinivan_2004]
-- [Joint Program Management Handbook][research_defenseacquisitionunivftbelvoirva_2004]
-- [Solar Sail Propulsion Technology Readiness Level Database][research_adamscharlesl_2004]
-- [Performance-Based Service Acquisition PBSA Study and Graduate...][research_kennedy_mcclure_2005]
-- [U.S. Army Acquisition - The Program Office Perspective][research_keeler_2005]
-- [A Transactions Cost Economics Approach to Defense Acquisition...][research_franck_dillard_2006]
-- [REIMR - A Process for Utilizing Liquid Rocket...][research_ballardrichardo_2006]
-- [Acquisition of the Surface-Launched Advanced Medium Range...][research_washingtonunivseattledeptofstatistics_2007]
-- [The X-43A Flight Research Program Lessons Learned on the Road...][research_peeblescurtis_2007]
-- [Department Of Defense Washington Dc 2009][research_departmentofdefensewashingtondc_2009]
-- [Dynamic Cost Risk Assessment for Controlling the Cost of...][research_kujawski_angelis_2009]
-- [An Application of Cost-Effectiveness Analysis in a Major...][research_greer_2010]
-- [Core Logistics Capability Policy Applied to USAF Combat...][research_drown_graham_2010]
-- [The 2009 DOD Cost Research Workshop Acquisition Reform][research_roark_cuda_2010]
-- [The Effect of the Nunn-McCurdy Amendment on Unit-Cost-Growth...][research_gansler_lucyshyn_2010]
-- [When More is Better -- Design Principles for Prediction...][research_aggarwal_valerdi_2010]
-- [Acquisition Program Transition Workshops An Element of the...][research_stewart_bull_2011]
-- [Developing Program Management Leadership for Acquisition...][research_mccown_2011]
-- [Joint Acquisition Program Management A Requirement for Joint...][research_davis_2011]
-- [NASA Applications and Lessons Learned in Reliability...][research_safiefayssalm_fullerraymondp_2011]
-- [References for Capability Assessment, Acquisition Planning...][research_hinkle_tulkoff_2011]
-- [Space Shuttle Ascent Flight Design Process Evolution and...][research_pickabreta_glennchristopherb_2011]
-- [Modeling Space Launch Process Delays to Improve Space Vehicle...][research_baldus_yoshimoto_2013]
-- [Next Generation Leadership Improving Acquisition Program...][research_sobel_2013]
-- [Finding of No Significant Impact and Tiered Environmental...][research_ciurej_2014]
-- [Air Force Space Command Space Missile Sys Ctr 2014][research_airforcespacecommandspacemissilesysctr_2014]
-- [Study of the Light Utility Helicopter LUH Acquisition Program...][research_rubinstein_2014]
-
-- [A Monte Carlo Calculation of Neutron Heating in a Nuclear...][research_streetman_graves_1963]
-- [Design optimization for cost and quality The robust design...][research_unalresit_1990]
-- [Review of Cost-Constrained Minimum Runs Algorithm for...][research_hardy_1997]
-- [Use of Probabilistic Engineering Methods in the Detailed...][research_fayssalsafie_weldondanny_2008]
-- [Sensitivity Analysis of Launch Vehicle Debris Risk Model][research_geeken_lawrencescottl_2010]
-
 ## The Contemporary Literature
 
 **The subjects this article computes are all active, and two of them are more active now than they were then, for reasons the programme would have found ironic.**
@@ -5516,6 +5425,97 @@ measure of what it contributed but of how long it survived.
 - [Thin Film Isotope Nuclear Engine Rocket TFINER Preliminary...][research_casel_bickford_2026]
 - [Vehicle Controllability Analysis at the Initial Flight Phase][research_lytovchenko_2026]
 
+## Where the Framing Breaks Down
+
+### Cost Is Not an Engineering Quantity and This Article Treats It as One
+
+**The whole analysis above prices simplifications in seconds, kilograms and newtons, and then sets the result beside dollars.**
+Those are not commensurable. A gas generator that costs 17.86 seconds of specific impulse is a fact. Whether
+that trade was worth making depends on a price nobody published for a chamber nobody built in quantity.
+
+**The honest position is that this article can compute what simplification cost in physics and cannot compute what it saved in money**,
+and every conclusion about the trade is therefore one-sided.
+
+### The Cost Comparison Has a Denominator Problem
+
+**Dividing programme cost by vehicle mass is a crude instrument and the numbers move a great deal with the choice.**
+Dividing by the number of airframes built gives a different answer. Dividing by flights achieved gives
+infinity for both.
+**The mass denominator was chosen because both programmes published a mass, and no denominator would have made the comparison rigorous.**
+
+### The Review Might Simply Have Been Right
+
+**This article has treated the 305 percent growth as the price of restoring what low-cost planning removed. There is a less flattering reading and it deserves stating.**
+The original estimate may have been wrong on its own terms rather than deliberately thin, and a programme
+that underestimates by a factor of four has a competence problem rather than a philosophy.
+
+**The record does not distinguish these**, and the two readings differ in what they imply. Under the first,
+low-cost demonstration is a coherent strategy that must budget for eventual rigour. Under the second, the
+X-34 is simply a badly estimated project and there is no general lesson at all.
+
+### The Comparison With the X-33 Flatters the X-34
+
+**The two vehicles were not trying to do the same thing and the per-pound comparison quietly assumes they were.**
+The X-33 was attempting a mass fraction nobody had achieved with technologies nobody had built. The X-34 was
+attempting a flight profile within reach of existing practice.
+**A programme attempting something harder should cost more, and some of the ratio is that rather than efficiency.**
+
+- [Advanced Avionics Architecture and Technology Review...][research_navalairsystemscommandarlingtonva_1993]
+- [Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]
+- [Defense Transportation's EDI Program A Security Risk...][research_frohman_ledder_1993]
+- [Orbiter lessons learned A guide to future vehicle development][research_greenbergharrystan_1993]
+- [Installation Restoration Program IRP Remedial...][research_tetratechincredmondwa_1995]
+- [Development of Military IRIS System for the Hazard...][research_harvey_bauer_1997]
+- [LDAP A Data Acquisition Program Written Using LabVIEW][research_spencer_1997]
+- [Lessons Learned in Predicting Launch Vehicle Vibroacoustic...][research_tanner_1997]
+- [The Evolved Expendable Launch Vehicle EELV Acquisition and...][research_greaves_1997]
+- [Particle impact risk assessment for ablative thermal...][research_naughton_venkatapathy_1998]
+- [Acquisition for the 21st Century The F-22 Development Program][research_perry_1999]
+- [Altitude Decompression Sickness Risk Assessment Computer...][research_pilmanis_petropoulos_1999]
+- [Cost and budget estimation for DoD ATE test program set...][research_robinson_smith_1999]
+- [Reengineering the Acquisition Process A Quantitative Example...][research_graham_hoffman_1999]
+- [Summary of Results from the Risk Management Program for the...][research_shishkorobert_matijevicjacobr_2000]
+- [Overview of U.S. nuclear launch safety approval process...][research_reinhartle_2001]
+- [Summary of DOD Acquisition Program Audit Coverage][research_defensescienceboardwashingtondc_2001]
+- [2003 IDA Cost Research Symposium Cost of Evolutionary...][research_balut_davis_2003]
+- [Estimating Models of Program Management][research_womer_camm_2003]
+- [Independent Review of the Failure Modes of F-1 Engine and...][research_raypaul_2003]
+- [Army strategic Software Improvement Program ASSIP Survey of...][research_kasunic_2004]
+- [Development of a Physiologically-Based Pharmacokinetic Model...][research_covington_clewell_2004]
+- [Effective Technology Insertion The Key to Evolutionary...][research_guinivan_2004]
+- [Joint Program Management Handbook][research_defenseacquisitionunivftbelvoirva_2004]
+- [Solar Sail Propulsion Technology Readiness Level Database][research_adamscharlesl_2004]
+- [Performance-Based Service Acquisition PBSA Study and Graduate...][research_kennedy_mcclure_2005]
+- [U.S. Army Acquisition - The Program Office Perspective][research_keeler_2005]
+- [A Transactions Cost Economics Approach to Defense Acquisition...][research_franck_dillard_2006]
+- [REIMR - A Process for Utilizing Liquid Rocket...][research_ballardrichardo_2006]
+- [Acquisition of the Surface-Launched Advanced Medium Range...][research_washingtonunivseattledeptofstatistics_2007]
+- [The X-43A Flight Research Program Lessons Learned on the Road...][research_peeblescurtis_2007]
+- [Department Of Defense Washington Dc 2009][research_departmentofdefensewashingtondc_2009]
+- [Dynamic Cost Risk Assessment for Controlling the Cost of...][research_kujawski_angelis_2009]
+- [An Application of Cost-Effectiveness Analysis in a Major...][research_greer_2010]
+- [Core Logistics Capability Policy Applied to USAF Combat...][research_drown_graham_2010]
+- [The 2009 DOD Cost Research Workshop Acquisition Reform][research_roark_cuda_2010]
+- [The Effect of the Nunn-McCurdy Amendment on Unit-Cost-Growth...][research_gansler_lucyshyn_2010]
+- [When More is Better -- Design Principles for Prediction...][research_aggarwal_valerdi_2010]
+- [Acquisition Program Transition Workshops An Element of the...][research_stewart_bull_2011]
+- [Developing Program Management Leadership for Acquisition...][research_mccown_2011]
+- [Joint Acquisition Program Management A Requirement for Joint...][research_davis_2011]
+- [NASA Applications and Lessons Learned in Reliability...][research_safiefayssalm_fullerraymondp_2011]
+- [References for Capability Assessment, Acquisition Planning...][research_hinkle_tulkoff_2011]
+- [Space Shuttle Ascent Flight Design Process Evolution and...][research_pickabreta_glennchristopherb_2011]
+- [Modeling Space Launch Process Delays to Improve Space Vehicle...][research_baldus_yoshimoto_2013]
+- [Next Generation Leadership Improving Acquisition Program...][research_sobel_2013]
+- [Finding of No Significant Impact and Tiered Environmental...][research_ciurej_2014]
+- [Air Force Space Command Space Missile Sys Ctr 2014][research_airforcespacecommandspacemissilesysctr_2014]
+- [Study of the Light Utility Helicopter LUH Acquisition Program...][research_rubinstein_2014]
+
+- [A Monte Carlo Calculation of Neutron Heating in a Nuclear...][research_streetman_graves_1963]
+- [Design optimization for cost and quality The robust design...][research_unalresit_1990]
+- [Review of Cost-Constrained Minimum Runs Algorithm for...][research_hardy_1997]
+- [Use of Probabilistic Engineering Methods in the Detailed...][research_fayssalsafie_weldondanny_2008]
+- [Sensitivity Analysis of Launch Vehicle Debris Risk Model][research_geeken_lawrencescottl_2010]
+
 ## The Source Base
 
 **This article rests on 2,227 references published through 2001, when the programme was cancelled, and 3,698 published from 2015 onward.**
@@ -5598,7 +5598,7 @@ number that would decide whether the ablative choice was economically right.
 
 **Every record harvested for this article is cited, and the ones the argument did not reach individually are listed here by subject rather than discarded.**
 A source retrieved and never used is work done and thrown away. These are the period records, meaning
-everything published before 2015, and the contemporary half is listed in the section above.
+everything published before 2015, and the contemporary half is listed in the section headed The Contemporary Literature.
 
 #### The Engine and Its Ablative Chamber
 
@@ -7281,7 +7281,6 @@ smaller one.
 
 **This series has now met a designation marking an absence of demand in the [X-27][related_post_a324_lockheed_x27], an absence of knowledge in the [X-30][related_post_a327_rockwell_x30], an answer nobody wanted in the [X-33][related_post_a330_lockheed_martin_x33], and here a vehicle that was finished, was never asked a question it could fail, and was scrapped.**
 Of the four it is the only one that was ready.
-
 ## References
 
 ### Books

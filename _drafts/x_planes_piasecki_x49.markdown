@@ -18,16 +18,6 @@ This is the fiftieth article in the [X-Planes series][related_post_a297_framing]
 
 **This article is about why that comparison is not the indictment it looks like**, and about the physical limit that neither aeroplane could get past.
 
-## The Designation Was Skipped, and Then Reused
-
-**The X-49 number was passed over on purpose.** As of early 2002 the designator had been skipped because the Defense Advanced Research Projects Agency asked for X-50 for the Dragonfly canard rotor wing demonstrator, **on the reasoning that the Dragonfly would be the first true fifty-fifty marriage of helicopter and high-speed aeroplane** \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\].
-
-**A designation was therefore chosen for its numerology and a number was left vacant to achieve it.** The vacancy was filled on 23 May 2003, when the register records the X-49A allocated to Sikorsky and Piasecki with the Navy as sponsor \[[DOD 4120.15-L Addendum][ref_mds_addendum]\], and in 2004 Piasecki's vectored thrust ducted propeller programme transitioned from the Navy to the Army carrying the number nobody had wanted.
-
-**The aeroplane that took the round number is the subject of the next article in this series** \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. **It crashed twice and never demonstrated conversion.** That is not an argument that the numbering was wrong, and it is a fact worth holding while reading either article.
-
-**One consequence is bibliographic and it affects this article directly.** The specialist designation directory that has supplied a specification table for every aeroplane in this series carries no page for the X-49, jumping from the X-48 to the X-50. **This is the first article in fifty with no entry in that source**, and the specifications below are assembled from the manufacturer, the sponsor and the general press instead.
-
 ## The Research Question
 
 **A helicopter is slow for a reason that has nothing to do with power.** The X-49A had 3,800 installed shaft horsepower and could not use it. What stops a helicopter is that its rotor is asymmetric in forward flight, and the asymmetry gets worse in two different ways at once.
@@ -40,9 +30,23 @@ In October 2000 the Naval Air Systems Command awarded Piasecki a demonstration c
 
 **The technology was thirty-eight years old when the contract was signed.** The ducted propeller descends directly from the ring tail of the Piasecki 16H-1 Pathfinder, first flown on 21 February 1962, and from the 16H-1A Pathfinder II of 15 November 1965, which logged more than 150 hours under a joint Army and Navy programme \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\] \[[16H-1 Pathfinder, Piasecki Aircraft Corporation][ref_piasecki_16h1]\] \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\]. **The configuration class is older still** \[[Compound helicopter][ref_compound_wikipedia]\], and the 16H-1A's success fed directly into the Lockheed Cheyenne, which was cancelled for reasons unconnected with compounding \[[Lockheed AH-56 Cheyenne][ref_cheyenne_wikipedia]\].
 
-## What Limits a Helicopter's Speed
+## The Designation Was Skipped, and Then Reused
 
-### The Rotor Is Asymmetric and Gets Worse Both Ways
+**The X-49 number was passed over on purpose.** As of early 2002 the designator had been skipped because the Defense Advanced Research Projects Agency asked for X-50 for the Dragonfly canard rotor wing demonstrator, **on the reasoning that the Dragonfly would be the first true fifty-fifty marriage of helicopter and high-speed aeroplane** \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\].
+
+**A designation was therefore chosen for its numerology and a number was left vacant to achieve it.** The vacancy was filled on 23 May 2003, when the register records the X-49A allocated to Sikorsky and Piasecki with the Navy as sponsor \[[DOD 4120.15-L Addendum][ref_mds_addendum]\], and in 2004 Piasecki's vectored thrust ducted propeller programme transitioned from the Navy to the Army carrying the number nobody had wanted.
+
+**The aeroplane that took the round number is the subject of the next article in this series** \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. **It crashed twice and never demonstrated conversion.** That is not an argument that the numbering was wrong, and it is a fact worth holding while reading either article.
+
+**One consequence is bibliographic and it affects this article directly.** The specialist designation directory that has supplied a specification table for every aeroplane in this series carries no page for the X-49, jumping from the X-48 to the X-50. **This is the first article in fifty with no entry in that source**, and the specifications below are assembled from the manufacturer, the sponsor and the general press instead.
+
+## Sizing From First Principles
+
+**The X-49A was not sized from a clean sheet, so this section sizes what it was given.** The rotor, the gearbox and the airframe were the Seahawk's, and the wing came from a business jet. The subsection headed What Limits a Helicopter's Speed derives the tip speed, the blade loading, the advance ratios and the wing area that a given share of the weight requires. The subsection headed What the Modification Cost sets the added weight against useful load, prices the hover download per square foot of wing, and finds the transmission rather than the engines to be the binding constraint.
+
+### What Limits a Helicopter's Speed
+
+#### The Rotor Is Asymmetric and Gets Worse Both Ways
 
 **A rotor blade advancing into the flight direction sees its own rotational speed plus the aeroplane's. A blade retreating sees the difference.** With tip speed $\Omega R$ and flight speed $V$, the two tips see
 
@@ -70,7 +74,7 @@ $$\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu
 
 **The advancing blade meanwhile approaches the speed of sound**, and drag divergence arrives whether or not the retreating blade is in trouble.
 
-### The X-49A's Numbers
+#### The X-49A's Numbers
 
 The Seahawk rotor is 53.8 feet in diameter and turns at 258 revolutions per minute \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], giving
 
@@ -99,7 +103,7 @@ The advance ratios follow directly.
 | programme target | 200 kt | 0.464 | 389 ft/s | 0.953 |
 | never-exceed | 220 kt | 0.511 | 355 ft/s | **0.984** |
 
-### What the Wing Actually Has to Carry
+#### What the Wing Actually Has to Carry
 
 **Offloading is a dynamic pressure argument and it is why compounding works at speed and not at all in the hover.** A wing carrying a fraction $f$ of the weight needs
 
@@ -122,7 +126,7 @@ $$\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sig
 
 **and that is the entire mechanism.** Halving the rotor's share halves the lift coefficient the retreating blade must find, which is worth exactly the 3.20 factor computed above and no more.
 
-### The Result That Decides the Article
+#### The Result That Decides the Article
 
 **A conventional helicopter runs out of rotor somewhere near an advance ratio of 0.35 to 0.40, and the X-49A demonstrated 0.441.** That is the compounding working, and it is a real achievement.
 
@@ -138,9 +142,9 @@ $$N = 225\ \text{rpm}, \qquad \text{a reduction of } 12.8\ \text{percent}$$
 
 **Phase one was flown inside the existing Seahawk envelope**, which is a decision about what the airframe and its rotor system were cleared for rather than about aerodynamics. **The rotor turned at Seahawk speed, and at Seahawk speed the advancing tip runs out before the retreating one does.**
 
-## What the Modification Cost
+### What the Modification Cost
 
-### Weight
+#### Weight
 
 **The conversion added about 1,600 pounds** \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. Against the Seahawk's empty weight that is
 
@@ -154,7 +158,7 @@ $$\frac{1600}{8236} = 19.4\ \text{percent}$$
 
 **Nearly a fifth of everything the aeroplane could otherwise have carried** by any conceptual-design standard \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\]. On a naval helicopter whose useful load is the mission, that comes out of payload, fuel or both, and 19.4 percent is the number an operator would be shown.
 
-### The Wing Sits in the Downwash
+#### The Wing Sits in the Downwash
 
 **A wing under a rotor is a lift-producing device in hover only in the wrong direction.** At maximum gross weight the disc loading is
 
@@ -176,7 +180,7 @@ $$T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\tex
 
 **No source consulted publishes the X-49A's wing area**, the wing having been taken from an Aerostar FJ-100 business jet, so the result is given per square foot and the reader may multiply. **Every ten square feet of wing costs roughly 120 to 145 pounds of hover lift**, which is why the flaperons matter and why compound helicopters droop or slot their wings in the hover.
 
-### The Constraint Was the Transmission, Not the Engines
+#### The Constraint Was the Transmission, Not the Engines
 
 **Two T700 turboshafts deliver 3,800 shaft horsepower and the Seahawk main gearbox is rated at 3,400** \[[General Electric T700][ref_t700_wikipedia]\] \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. **Four hundred horsepower, 10.5 percent of what the engines make, cannot reach the rotor.**
 
@@ -194,7 +198,7 @@ $$\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12$$
 
 **Phase two was never funded and the aeroplane never flew in that configuration.**
 
-## The Aircraft
+## Dependent Systems, The Aircraft
 
 | | X-49A SpeedHawk | 16H-1A Pathfinder II |
 |---|---|---|
@@ -255,6 +259,18 @@ $$\frac{190}{1.47} = 129.3\ \text{kt}$$
 
 **which is a cruise speed at a cruise power setting and not a maximum.** The claim is therefore about what the aeroplane does at a given throttle rather than about top speed, and read that way it is unremarkable arithmetic rather than a marketing number.
 
+## Comparison With Ground Prediction
+
+**The programme reported one comparison against prediction directly, and it is the hover.** Hover performance was on average within 3.7 percent of prediction, a result the section headed The Flight Test Record lists among the programme's own claims. The article reports that figure and not the prediction behind it, so it stands as reported rather than examined.
+
+**The speed objective was set on the ground and flight fell short of it.** The programme target was 200 knots and the X-49A demonstrated 190, which is 10 knots, the difference between those two figures, below its own objective. The section headed What the Data Changed attributes the shortfall to a first phase flown inside the existing Seahawk envelope with the drag clean-up and the third engine unbuilt, and the section headed Epistemic State records that attribution as inference rather than analysis.
+
+**The 47 percent speed claim is a comparison against a baseline aircraft and not against a prediction.** Its implied baseline of 129.3 knots sits beside the 130 knot baseline cruise in the advance ratio table, which the section headed Where the Framing Breaks Down calls corroboration rather than confirmation.
+
+**The predictions this article makes for itself have no flight counterpart in the public record.** The advance ratios and advancing tip Mach numbers are derived from the Seahawk rotor at its published speed, and whether the rotor speed was reduced at all in flight is listed under the section headed Epistemic State as unsettled. The download of 11.6 to 14.4 pounds per square foot of wing is an upper bracket resting on an assumed drag coefficient and an unpublished wing area. The static thrust augmentation of 1.26 that momentum theory gives the duct has no published measurement for this duct, static or in forward flight.
+
+**The one primary flight document in the record concerns the predecessor and was not read.** The 16H-1A flight test research programme of 1968 is named and its text could not be retrieved \[[Meyers, Tompkins and Goldberg, 16H-1A flight test research program][research_16h1a_flight_test]\], so the 1965 speed in this article's opening comparison rests on the manufacturer's account rather than on measured data.
+
 ## What the Data Changed
 
 ### The 1965 Aircraft Was Faster and the Reason Is Not Aerodynamic
@@ -284,24 +300,6 @@ $$M_{\text{adv}} = \frac{\Omega R + V}{a}$$
 At 200 knots on the Seahawk rotor speed that is Mach 0.953. **A drag clean-up buys thrust and a third engine buys power, and neither of them buys Mach number.** The only remaining variable is rotor speed, and slowing a rotor on a production helicopter changes its dynamics, its autorotation entry and its clearance.
 
 **That is the argument for the configurations that came later.** Sikorsky's X2 and the coaxial advancing-blade designs slow their rotors deliberately and put the lift on the advancing sides of two rotors \[[Sikorsky X2][ref_x2_wikipedia]\], which is a different answer to the same asymmetry.
-
-## Where the Framing Breaks Down
-
-**The wing area is not published and the download is therefore not a number.** It is given per square foot, and a reader who knows the FJ-100 wing can finish the calculation.
-
-**The drag coefficient of 1.2 to 1.5 is assumed and not measured.** A wing in a rotor downwash with drooped flaperons can do materially better than a flat plate, and the programme had every reason to try. **The download figure is an upper bracket rather than an estimate.**
-
-**The sources disagree about the engines.** The Seahawk is fitted with T700-GE-401C turboshafts and at least one account of the X-49A gives the Army's T700-GE-701C. **The aeroplane began as a Navy programme and finished as an Army one**, so both may be right at different dates, and the article uses the gearbox rating of 3,400 shaft horsepower because that is the number that actually binds.
-
-**The 1965 speed is quoted differently by the manufacturer and by general reference.** Piasecki says 225 miles per hour maximum and 207 cruising. A general encyclopaedia says 230 miles per hour maximum and 175 cruising. **The comparison in this article uses the manufacturer's lower maximum**, which is the conservative choice for the point being made.
-
-**A primary document that would settle it exists and was not read.** The 16H-1A flight test research programme of 1968 is named and its identifier resolves, and the repository holding it refuses automated retrieval \[[Meyers, Tompkins and Goldberg, 16H-1A flight test research program][research_16h1a_flight_test]\]. **The opening comparison of this article therefore rests on a manufacturer's account of its own aeroplane**, which is the weakest kind of source for the strongest claim made here. **A reader with library access can close that gap and this article cannot.**
-
-**The advance ratio limit of 0.35 to 0.40 for a conventional helicopter is a rule of thumb and not a measured boundary for this rotor.** It depends on blade loading, twist, aerofoil section and how much roughness the pilot will accept. **No source consulted publishes the SH-60F's own stall boundary**, so the claim that 0.441 is past the conventional limit rests on the general figure rather than on this aircraft's data.
-
-**The 47 percent speed claim is reported and not independently verified.** Its implied baseline of 129.3 knots is consistent with a cruise power setting, which is corroboration rather than confirmation.
-
-**Nothing here measures the duct.** The vectored thrust ducted propeller's efficiency, its download in hover, its yaw authority against a conventional tail rotor and its weight relative to one are the quantities that would decide whether the configuration is worth having, **and none of them is in the public record for this aeroplane.**
 
 ## The Contemporary Literature
 
@@ -381,7 +379,7 @@ At 200 knots on the Seahawk rotor speed that is Mach 0.953. **A drag clean-up bu
 
 ### High-speed rotorcraft configurations compared
 
-**The alternatives that were not chosen.** Tiltrotors, coaxial advancing-blade designs, stopped rotors and canard rotor wings. **The X-50 Dragonfly is in this cluster and took this article's designation number**, which is the anomaly the opening section describes.
+**The alternatives that were not chosen.** Tiltrotors, coaxial advancing-blade designs, stopped rotors and canard rotor wings. **The X-50 Dragonfly is in this cluster and took this article's designation number**, which is the anomaly the section headed The Designation Was Skipped, and Then Reused describes.
 
 **156 records.** \[[Acree et al 2001][research_acree_peyran_2001]\] \[[Aggarwal et al 2018][research_aggarwal_ramanujam_2018]\] \[[Ansari et al 2017][research_ansari_prach_2017]\] \[[Bachelder et al 2023][research_bachelder_berger_2023]\] \[[Baldwin 2007][research_baldwin_2007]\] \[[Barbely and Komerath 2016][research_barbely_komerath_2016]\] \[[Barkai and Rand 1998][research_barkai_rand_1998]\] \[[Barla et al 2006][research_barla_berton_2006]\] \[[Bass et al 1993][research_bass_thompson_1993]\] \[[Berger et al 2022][research_berger_blanken_2022_b]\] \[[Biggi et al 2024][research_biggi_abdelnour_2024]\] \[[Booth et al 2001][research_booth_mccluer_2001]\] \[[Braude et al 2005][research_braude_hutton_2005]\] \[[Burley et al 2000][research_burley_brooks_2000]\] \[[Cameron and Padfield 2007][research_cameron_padfield_2007]\] \[[Cameron and Sirohi 2016][research_cameron_sirohi_2016]\] \[[Cameron et al 2017][research_cameron_feil_2017]\] \[[Cameron et al 2019][research_cameron_sirohi_2019_b]\] \[[Cao et al 2016][research_cao_chen_2016]\] \[[Cao et al 2024][research_cao_li_2024]\] \[[Carico and Garcia-Otero 1995][research_carico_garciaotero_1995]\] \[[Cassinelli et al 2023][research_cassinelli_nour_2023]\] \[[Cheon et al 2026][research_cheon_kee_2026]\] \[[Choi et al 2025][research_choi_park_2025]\] \[[Clark 1985][research_clark_1985]\] \[[Colli et al 2026][research_colli_go_2026]\] \[[Conner et al 2002][research_conner_edwards_2002]\] \[[Corso et al 2000][research_corso_popelka_2000]\] \[[Dadkhah and Mettler 2014][research_dadkhah_mettler_2014]\] \[[Dall'Aglio et al 2022][research_dallaglio_donini_2022]\] \[[Deng and Mi 2019][research_deng_mi_2019]\] \[[Denton et al 2025][research_denton_benedict_2025]\] \[[Dreier 2007][research_dreier_2007]\] \[[Dreier 2017][research_dreier_2017]\] \[[Dreier 2026][research_dreier_2026]\] \[[Eberhard and Salbashian 2013][research_eberhard_salbashian_2013]\] \[[Escobar et al 2018][research_escobar_chopra_2018]\] \[[Floros et al 2006][research_floros_hwang_2006]\] \[[Gallagher and McKinley 2011][research_gallagher_mckinley_2011]\] \[[Gao et al 2019][research_gao_he_2019]\] \[[Gervais and Schmitz 2004][research_gervais_schmitz_2004]\] \[[Gul and Datta 2024][research_gul_datta_2024]\] \[[Gul and Yeo 2025][research_gul_yeo_2025]\] \[[Gupta and Baeder 2002][research_gupta_baeder_2002]\] \[[Hathaway and Gandhi 2003][research_hathaway_gandhi_2003]\] \[[Hathaway and Gandhi 2007][research_hathaway_gandhi_2007]\] \[[Helicopter and Tiltrotor Flight 2018][research_helicopter_and_2018]\] \[[Henry Jia et al 2020][research_henryjia_lee_2020]\] \[[Herrmann et al 2018][research_herrmann_celi_2018]\] \[[Herrmann et al 2019][research_herrmann_celi_2019]\] \[[Horn et al 2001][research_horn_calise_2001]\] \[[Hosseini et al 2025][research_hosseini_bridges_2025]\] \[[Howard 2012][research_howard_2012]\] \[[Jeaong et al 2023][research_jeaong_suk_2023]\] \[[Jia and Lee 2020][research_jia_lee_2020]\] \[[Jia and Lee 2021][research_jia_lee_2021]\] \[[Jia et al 2021][research_jia_moore_2021]\] \[[Jia et al 2021][research_jia_moore_2021_b]\] \[[Juhasz et al 2022][research_juhasz_celi_2022]\] \[[Jun et al 2026][research_jun_saetti_2026]\] \[[Jusko et al 2022][research_jusko_jones_2022]\] \[[Kang et al 2025][research_kang_myong_2025]\] \[[Kim and Brown 2010][research_kim_brown_2010]\] \[[Kim et al 2009][research_kim_duraisamy_2009]\] \[[Kim et al 2009][research_kim_kenyon_2009]\] \[[Kimball 1987][research_kimball_1987]\] \[[Klimchenko et al 2017][research_klimchenko_sridharan_2017]\] \[[Konar et al 2020][research_konar_turkmen_2020]\] \[[Kottapalli 2000][research_kottapalli_2000]\] \[[Kwon et al 2020][research_kwon_park_2020]\] \[[Lee and Baeder 2004][research_lee_baeder_2004]\] \[[Lei et al 2013][research_lei_bai_2013]\] \[[Li et al 2023][research_li_zhou_2023]\] \[[Lim et al 2026][research_lim_lee_2026]\] \[[Liu 1962][research_liu_1962]\] \[[Liu et al 2026][research_liu_li_2026]\] \[[Loechelt et al 2010][research_loechelt_linke_2010]\] \[[Lyle et al 1999][research_lyle_burley_1999]\] \[[Lynn 1993][research_lynn_1993]\] \[[Magee and Taylor 1971][research_magee_taylor_1971]\] \[[Marr and Roderick 1975][research_marr_roderick_1975]\] \[[Masarati et al 2008][research_masarati_piatak_2008]\] \[[McKay et al 2020][research_mckay_gandhi_2020]\] \[[McVeigh et al 1990][research_mcveigh_grauer_1990]\] \[[Mengmeng Lv et al 2025][research_mengmenglv_jiananchen_2025]\] \[[Mindt et al 2026][research_mindt_gradkowski_2026]\] \[[Mueller et al 2006][research_mueller_gourinat_2006]\] \[[NASA/HAA Advanced Rotorcraft Technology 1980][research_nasa_haa_advanced_1980]\] \[[Nixon 1993][research_nixon_1993]\] \[[Nixon et al 2000][research_nixon_piatak_2000]\] \[[Okan et al 1999][research_okan_tekinalp_1999]\] \[[Pan et al 2018][research_pan_chi_2018]\] \[[Park et al 2025][research_park_cho_2025]\] \[[Passe et al 2015][research_passe_sridharan_2015]\] \[[Patil and Datta 2025][research_patil_datta_2025]\] \[[Patil et al 2023][research_patil_datta_2023]\] \[[Peters et al 2014][research_peters_nowak_2014]\] \[[Polak et al 2000][research_polak_rehm_2000]\] \[[Popelka et al 1997][research_popelka_lindsay_1997]\] \[[Potsdam and Silva 2004][research_potsdam_silva_2004]\] \[[Qiu et al 2023][research_qiu_li_2023]\] \[[Robuck, Mark et al 2013][research_robuckmark_wilkersonjoseph_2013]\] \[[Rollet 2001][research_rollet_2001]\] \[[Rotor Performance Optimization of 2008][research_rotor_performance_2008]\] \[[Saetti 2025][research_saetti_2025]\] \[[Saetti and Bugday 2023][research_saetti_bugday_2023]\] \[[Saetti and Buğday 2024][research_saetti_bugday_2024]\] \[[Saetti et al 2026][research_saetti_kreienkamp_2026]\] \[[Schillings et al 1990][research_schillings_roberts_1990]\] \[[Schmaus and Chopra 2016][research_schmaus_chopra_2016]\] \[[Sharma et al 2026][research_sharma_rezgui_2026]\] \[[Shen et al 2016][research_shen_singleton_2016]\] \[[Sheng and Narramore 2009][research_sheng_narramore_2009]\] \[[Simmons et al 2026][research_simmons_kreshock_2026]\] \[[Singh et al 2015][research_singh_kang_2015]\] \[[Smith et al 2023][research_smith_hebbar_2023]\] \[[Snyder, Christopher A. and Acree, Cecil W., Jr. 2012][research_snyderchristophera_acreececilwjr_2012]\] \[[Soemarwoto et al 2022][research_soemarwoto_habing_2022]\] \[[Srinivas et al 1998][research_srinivas_chopra_1998_b]\] \[[Sun et al 2024][research_sun_zhou_2024]\] \[[Sun et al 2025][research_sun_du_2025]\] \[[Sutherland et al 2024][research_sutherland_tsai_2024]\] \[[Swanson and Stroub 1992][research_swanson_stroub_1992]\] \[[Tadghighi et al 1999][research_tadghighi_rajagopalan_1999]\] \[[Tengfei Guo et al 2011][research_tengfeiguo_honglunwang_2011]\] \[[Therapeutic Hypothermia During Neonatal 2014][research_therapeutic_hypothermia_2014]\] \[[Tho and Smith 2011][research_tho_smith_2011]\] \[[Thomason 1983][research_thomason_1983]\] \[[Tiltrotor Aircraft Modelling and 2018][research_tiltrotor_aircraft_2018]\] \[[Tran and Lim 2022][research_tran_lim_2022]\] \[[Tran and Yeo 2023][research_tran_yeo_2023]\] \[[Tsai et al 2024][research_tsai_sutherland_2024]\] \[[Uehara et al 2019][research_uehara_johnson_2019]\] \[[Voskuijl and Walker 2007][research_voskuijl_walker_2007]\] \[[Walsh et al 2016][research_walsh_jacobellis_2016]\] \[[Wang et al 2018][research_wang_zheng_2018]\] \[[Wang et al 2020][research_wang_yuan_2020]\] \[[Welch 2010][research_welch_2010]\] \[[Welch 2011][research_welch_2011]\] \[[Wilson and Prazenica 2020][research_wilson_prazenica_2020]\] \[[Wu et al 2022][research_wu_zhang_2022]\] \[[Yang et al 2023][research_yang_xu_2023]\] \[[Yeo and Saberi 2021][research_yeo_saberi_2021]\] \[[Yeo et al 2010][research_yeo_sinsay_2010]\] \[[Yeo et al 2018][research_yeo_bosworth_2018]\] \[[Yomchinda et al 2009][research_yomchinda_horn_2009]\] \[[Yoon, Seokkwan et al 2016][research_yoonseokkwan_leehenryc_2016]\] \[[Yuan et al 2024][research_yuan_bian_2024]\] \[[Yuk et al 2024][research_yuk_kim_2024]\] \[[Yuk et al 2025][research_yuk_yu_2025]\] \[[Zala and Greenwood 2026][research_zala_greenwood_2026]\] \[[Zhang 2004][research_zhang_2004]\] \[[Zhang et al 2025][research_zhang_li_2025]\] \[[Zheng and Qiu 2026][research_zheng_qiu_2026]\] \[[Zheng et al 2026][research_zheng_qiu_2026_b]\] \[[Zhu et al 2018][research_zhu_zhao_2018]\]
 
@@ -421,6 +419,24 @@ At 200 knots on the Seahawk rotor speed that is Mach 0.953. **A drag clean-up bu
 
 **40 records.** \[[A .R. Yass 2011][research_aryass_2011]\] \[[Aponso et al 2005][research_aponso_lee_2005]\] \[[Aponso et al 2007][research_aponso_lee_2007]\] \[[Autorotation and Autosizing][research_autorotation_and]\] \[[Autorotation of passive microfliers 2023][research_autorotation_of_2023]\] \[[Bohr and Markvorsen 2016][research_bohr_markvorsen_2016]\] \[[Boirun and Benoit 1972][research_boirun_benoit_1972]\] \[[Buss and Nicholson 1971][research_buss_nicholson_1971]\] \[[Bustamante and Stone 1969][research_bustamante_stone_1969]\] \[[Chi et al 2019][research_chi_yan_2019]\] \[[Courty-Audren][research_courtyaudren]\] \[[Dalamagkidis et al 2009][research_dalamagkidis_valavanis_2009]\] \[[Dosaev 2018][research_dosaev_2018]\] \[[Fukatsu 1931][research_fukatsu_1931]\] \[[Houston 2002][research_houston_2002]\] \[[Jingze 2011][research_jingze_2011]\] \[[Kim and Sheen 2014][research_kim_sheen_2014]\] \[[Lee et al 1986][research_lee_brysonjr_1986]\] \[[Lee et al 2008][research_lee_bang_2008]\] \[[Ligai et al 2017][research_ligai_nedelko_2017]\] \[[Mark and Lamarche 2009][research_mark_lamarche_2009]\] \[[Mark et al 2011][research_mark_nutting_2011]\] \[[Mark et al 2013][research_mark_nutting_2013]\] \[[Mikhailov and Nedel'ko 2012][research_mikhailov_nedelko_2012]\] \[[Newman et al 2013][research_newman_mcmahon_2013]\] \[[Nutting et al 2014][research_nutting_olsson_2014]\] \[[Oshima et al 1983][research_oshima_izutsu_1983]\] \[[Richter 2020][research_richter_2020]\] \[[Roger and Aubert 1999][research_roger_aubert_1999]\] \[[Rostami and Fernandes 2015][research_rostami_fernandes_2015]\] \[[Saetti and Rogers 2022][research_saetti_rogers_2022]\] \[[Sanders 1973][research_sanders_1973]\] \[[Spathopoulos 2004][research_spathopoulos_2004]\] \[[Steinhäuser et al 2008][research_steinhauser_richter_2008]\] \[[Taamallah 2012][research_taamallah_2012]\] \[[Watts et al 1971][research_watts_condon_1971]\] \[[Wei 2021][research_wei_2021]\] \[[Wei et al 2024][research_wei_chen_2024]\] \[[Wen et al 2022][research_wen_song_2022]\] \[[Yomchinda et al 2011][research_yomchinda_horn_2011]\]
 
+
+## Where the Framing Breaks Down
+
+**The wing area is not published and the download is therefore not a number.** It is given per square foot, and a reader who knows the FJ-100 wing can finish the calculation.
+
+**The drag coefficient of 1.2 to 1.5 is assumed and not measured.** A wing in a rotor downwash with drooped flaperons can do materially better than a flat plate, and the programme had every reason to try. **The download figure is an upper bracket rather than an estimate.**
+
+**The sources disagree about the engines.** The Seahawk is fitted with T700-GE-401C turboshafts and at least one account of the X-49A gives the Army's T700-GE-701C. **The aeroplane began as a Navy programme and finished as an Army one**, so both may be right at different dates, and the article uses the gearbox rating of 3,400 shaft horsepower because that is the number that actually binds.
+
+**The 1965 speed is quoted differently by the manufacturer and by general reference.** Piasecki says 225 miles per hour maximum and 207 cruising. A general encyclopaedia says 230 miles per hour maximum and 175 cruising. **The comparison in this article uses the manufacturer's lower maximum**, which is the conservative choice for the point being made.
+
+**A primary document that would settle it exists and was not read.** The 16H-1A flight test research programme of 1968 is named and its identifier resolves, and the repository holding it refuses automated retrieval \[[Meyers, Tompkins and Goldberg, 16H-1A flight test research program][research_16h1a_flight_test]\]. **The opening comparison of this article therefore rests on a manufacturer's account of its own aeroplane**, which is the weakest kind of source for the strongest claim made here. **A reader with library access can close that gap and this article cannot.**
+
+**The advance ratio limit of 0.35 to 0.40 for a conventional helicopter is a rule of thumb and not a measured boundary for this rotor.** It depends on blade loading, twist, aerofoil section and how much roughness the pilot will accept. **No source consulted publishes the SH-60F's own stall boundary**, so the claim that 0.441 is past the conventional limit rests on the general figure rather than on this aircraft's data.
+
+**The 47 percent speed claim is reported and not independently verified.** Its implied baseline of 129.3 knots is consistent with a cruise power setting, which is corroboration rather than confirmation.
+
+**Nothing here measures the duct.** The vectored thrust ducted propeller's efficiency, its download in hover, its yaw authority against a conventional tail rotor and its weight relative to one are the quantities that would decide whether the configuration is worth having, **and none of them is in the public record for this aeroplane.**
 
 ## The Source Base
 

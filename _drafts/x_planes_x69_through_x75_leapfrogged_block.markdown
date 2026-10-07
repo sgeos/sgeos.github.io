@@ -22,7 +22,13 @@ This is the seventieth article in the [X-Planes series][related_post_a297_framin
 
 **The article also finds three things the earlier anomaly articles did not.** On this article's own date the public register did not yet show the X-68A or the X-76A at all, so the anomaly was invisible in the public record when it happened. The X-76A is the third design number in eleven months chosen to match the last two digits of a founding year, after the YMV-75A for the Army's 1775 and the F-47A for the Air Force's 1947, so it belongs to a class rather than standing alone. **And the 2020 instruction's rule for the next number describes only six or seven of the twenty-three allocation events made since it took effect**, so the question of which number comes after the X-76A is a question about practice rather than about text.
 
-## What the Record Says Happened
+## The Research Question
+
+**The question this article exists to settle is why seven consecutive research design numbers were passed in a single allocation.** The register records the X-68A on 20 August 2025 and the X-76A on 20 October 2025 and no research row between them \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **The question is about a number and not about an aeroplane**, so it names no quantity that flight could measure. It has three candidate answers, which are seven skips made at once, one block held in reserve, and seven allocations not yet released, and the record is asked to choose between them.
+
+**A second question follows from the first and the record does not yet settle it.** If the numbers 69 through 75 were skipped, the governing instruction either leaves them available, as the X-49 stayed available after the X-50A, or makes them unrequestable as a skipped sequence \[[DAFI 16-401][ref_dafi_16_401_2020]]. The section headed The Next Research Number Is a Test states what each outcome would show.
+
+## Programme Origin, What the Record Says Happened
 
 ### The Register Row
 
@@ -315,7 +321,33 @@ $$
 
 **Under the 1994 rule the passed number stayed available and was used. Under the 2020 rule a passed number is in a skipped sequence and requests for it are not accepted.** Read literally, the X-76A has made 69 through 75 unrequestable. **Read by the X-50A's precedent, they are waiting.**
 
-## What the Anomaly Reveals About the Designation System
+## Sizing From First Principles
+
+**There is no vehicle to size.** No research row carries any of the numbers 69 through 75, and no programme is named as having taken them \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **The aircraft whose number passed them is the X-76A, and this article leaves that aircraft to the next article in the series.** The only physical evidence read here is the X-76A row's engine cell, two General Electric CT7-8 engines and a Pratt and Whitney PW308C, and the section headed The Register Row reads it only as evidence of an aircraft that hovers on rotors and cruises on jet thrust.
+
+**The quantities this article derives from first principles describe the numbering rather than an airframe.** They are the allocation rate and its Poisson tail, the ordinal bound for the X-76A and the count of two-digit numbers left above the research pointer, which the section headed Epistemic State lists as engineering analysis derived here, together with the pointer walk, which it lists as measured from the documents.
+
+## Dependent Systems
+
+**The block has no systems because it has no aircraft.** The systems this article depends on are administrative. They are the register that records allocations, the instruction that governs them, and the allocating office that holds the authority to skip a design number at its discretion \[[DAFI 16-401][ref_dafi_16_401_2020]]. **How those three behaved is the subject of the sections headed Three Readings, and What Each Predicts and What the Data Changed.** The X-76A's own propulsion and airframe are excluded, as the section headed Out of Scope records.
+
+## The Flight Test Record
+
+**Nothing numbered 69 through 75 has flown, because nothing numbered 69 through 75 exists in the research series.** No research row carries any of the seven numbers, and no public record as of 2 October 2026 shows an X-69 \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **Whatever flight record the X-76A accumulates belongs to the next article in this series and not to this one.**
+
+**The record that does exist is a record of publication rather than of flight.** The X-68A and X-76A rows first appear in an archived copy of the register between 15 January and 1 February 2026, and the sponsor's statement of the reason followed on 9 March 2026 \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]] \[[DARPA, 9 March 2026][ref_darpa_x76]]. That sequence is what this article has in place of a flight log.
+
+## Comparison With Ground Prediction
+
+**No vehicle flew, so flight returned nothing to compare with any ground prediction.** What the record does hold are predictions made on paper about the numbering, and each can be set beside what followed.
+
+**NASA's 2003 inventory predicted that the passed X-49 would be assigned when the next research designator was requested**, and it was, on 23 May 2003 \[[Jenkins, Dennis R. et al 2003][research_jenkinsdennisr_landistony_2003]]. **The compiler's page stamped 23 March 2025 gave the next available research number as X-68**, and the X-68A was allocated on 20 August 2025 \[[Missing USAF and DOD Aircraft Designations, as archived on 12 November 2025][ref_missing_mds_wb_2025_11]]. Neither prediction anticipated a single allocation passing seven numbers.
+
+**The 2020 instruction's rule predicts that each new design number is one above the last approved number**, and six of the 23 allocation events with a predecessor since November 2020 follow it, or seven if one unmanned row whose official form is uncertain is set aside \[[DAFI 16-401][ref_dafi_16_401_2020]]. The section headed The 2020 Rule Describes Less Than a Third of the Allocations Made Under It argues that count. **The compiler's page stamped 3 January 2026 gave X-69 as the next research number with a qualification that it might be X-77**, and no public record as of 2 October 2026 shows either \[[Missing USAF and DOD Aircraft Designations, as archived on 12 February 2026][ref_missing_mds_wb_2026_02]].
+
+**The one prediction this article makes is the one in the section headed The Next Research Number Is a Test**, and it has nothing to be compared with until the next research designation is issued.
+
+## What the Data Changed, What the Anomaly Reveals About the Designation System
 
 ### Why Out-of-Sequence Numbers Are Chosen, as the Register Records It
 
@@ -623,6 +655,14 @@ That is a measurement of titles and not a reading of findings, and it says that 
 ### What the Survey Does Not Reach
 
 **No study of commemorative design numbers in any military designation system was found.** The nearest work is the commemorative naming of military bases, ships and camps in the heritage cluster, which concerns names rather than numbers, including the Navy's report to Congress on its policies and practices for naming vessels \[[Department Of The Navy Washington Dc 2012][research_departmentofthenavywashingtondc_2012]] and a study of commemoration practices in special operations organisations \[[Bineham 2013][research_bineham_2013]]. **The nearest by title is a study called Numerical Commemoration**, about collective remembrance in Israel \[[Zerubavel 2014][research_zerubavel_2014]]. Its title names the phenomenon studied here, and it has not been read for this survey, so it is cited for no more than its title says. **The NASA reports server contributed 26 admitted records from 1,806 in the pool, which is the expected result for a subject that is not engineering.**
+
+## Where the Framing Breaks Down
+
+**The series frames each article around an aircraft, and this article has none.** The sections on sizing, dependent systems and the flight test record therefore say little, and what carries the article is an argument about a register, an instruction and a handful of statements.
+
+**The article's own models break down in places it names.** The Poisson model of the allocation rate is a convenience and not a claim that allocations are memoryless, and the article answers that limit by stating how much clustering would rescue the third reading rather than by assuming none. The uniform null for the founding-year cluster is a scale and not a test, because the window was drawn after the cluster was seen. The ordinal bound for the X-76A is an upper bound only, since the [X-23][related_post_a320_martin_marietta_x23] is on the compiler's list of numbers never allocated while this series treated that aircraft at full length. The classification of out-of-sequence reasons is this article's reading of the compiler's notes and not the compiler's own.
+
+**Two limits concern the readings themselves.** The reserve reading is unsupported rather than refuted, because an unrecorded reservation leaves no record. **And the evidence that decides between the readings postdates the article's own date of 14 December 2025**, so the answer given here was not available on that date. The section headed Epistemic State lists each statement that postdates it.
 
 ## The Source Base
 

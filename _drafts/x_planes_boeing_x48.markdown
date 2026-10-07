@@ -38,7 +38,7 @@ The second was the X-48A. In 2000 NASA and Boeing began a 35-foot-span remotely 
 
 The third and fourth are the aeroplanes that flew. Boeing Phantom Works took the lead on the X-48B in 2006 with NASA and the Air Force Research Laboratory \[[Boeing Phantom Works to lead research on X-48B blended wing body concept][ref_boeing_x48b_release]\] \[[X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]\]. Two X-48B airframes were built by Cranfield Aerospace in the United Kingdom to Boeing's specifications \[[Cranfield Aerospace Solutions][ref_cranfield_aerospace]\] \[[Boeing X-48][ref_x48_wikipedia]\]. Ship 1 went to the Langley Full-Scale Tunnel for 250 hours of testing in May 2006, and Ship 2 became the flight vehicle \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. Ship 2 was later rebuilt as the X-48C.
 
-## The Scaling Decision, Which Is the Whole Article
+## Sizing From First Principles, the Scaling Decision Which Is the Whole Article
 
 ### The Geometry Closes Exactly
 
@@ -326,7 +326,9 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 **One detail matters more than the rest.** When a pilot attempted to counter the roll-off with lateral stick, the input **slightly delayed the roll-off and then produced a more abrupt wing drop**.
 
-## What the Data Changed
+## Comparison With Ground Prediction
+
+**The flight programme was flown against a body of prediction, and the record shows where the two met and where they did not.** Before flight there were the design paper's account of how the configuration should stall, the simulation, and a ground-test campaign of free-flight, rotary, forced-oscillation and high-Reynolds tunnel tests. **Where the comparison closed, the programme says so.** Its phase summary reports the aeroplane closely matching simulation for up-and-away flight and landing \[[Vicroy, X-48B blended wing body ground to flight correlation update][research_vicroy_correlation]\], and the sustained pitch bobble appeared just below the predicted stall angle of attack \[[Taylor and Vicroy, X-48B flight-test progress overview][research_taylor_x48b_progress]\], both as the section headed The Flight Test Record sets out. The subsections below take the design intent for the stall, the instrument that answered the Reynolds question, and the comparisons that were poor or never made.
 
 ### The Flight Result and the Design Intent Disagree
 
@@ -360,6 +362,10 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 **The programme also names what it could not compare.** Transonic behaviour, held only in the National Transonic Facility and 16T data, and post-departure modes such as the falling leaf, the spin and the tumble, held only in large-angle, rotary and free spin and tumble data. **Neither has a flight comparison at all**, which is a more precise statement of the article's concern than the article's own was.
 
+## What the Data Changed
+
+**What the comparisons changed is the reading of the result rather than the result itself.** The flights and their recoveries stand as reported. What moves is how far each finding can be carried from a 20.4-foot aeroplane to a 240-foot one, and that is settled by which dimensionless group governs it, as the section headed Sizing From First Principles derived.
+
 ### What Transfers and What Does Not
 
 **The division is clean and it follows from which group is matched.**
@@ -377,32 +383,6 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 **The X-48 validated a control system and a recovery technique for a configuration, on an aeroplane whose departure boundary is its own rather than the full-scale vehicle's.** That is a smaller claim than the flight vehicle is usually credited with and a more defensible one, and **the programme as a whole claims more than the flight vehicle does, correctly**, because it ran the tunnels that the aeroplane could not be.
 
 **The thing that was genuinely unknown in 2000 was whether a control system could keep a large tailless transport inside its envelope and recover it from the edge.** The flight vehicle answered that, and answered it at a scale where the recovery had to work three and a half times faster than it will on the aeroplane. **That is the durable result, and it does not need the departure boundary to be true.**
-
-## Where the Framing Breaks Down
-
-**The reference vehicle's weight is derived and never quoted.** The figure of 854,875 pounds comes from inverting the cube of the scale ratio on the model's own weight. If the model was not weight-scaled with the precision assumed, the number moves and the comparison against Liebeck moves with it.
-
-**The relative density factor is now quantified rather than assumed away, and it moves the answer.** Taking the model's condition at the field elevation of Rogers Dry Lake raises the implied full-scale weight from 854,875 pounds to 914,885, and taking it at the ceiling raises it to 1,157,634. **The record does not state the altitude at which the weight scaling was set**, so 854,875 pounds is reported as a lower bound and every comparison drawn from it inherits that status.
-
-**The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds,
-
-$$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}$$
-
-**That does not match Liebeck's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
-
-**The wing area is not stated by any primary source consulted, and one section now depends on it.** The figure of 100.5 square feet comes from a secondary compilation. It enters only through the reference chord $c = S/b$ used to put the Reynolds numbers on an absolute footing, and **the ratio of 40.35 does not depend on it at all**, because the chord cancels between model and full scale. **A reader who distrusts the area should discard the two absolute Reynolds figures and keep everything else**, which is why the ratio and not the absolute value carries the argument.
-
-**The X-48C's moment-arm loss is a sensitivity and not a measurement.** No source consulted publishes the sweep of the outer trailing edge, the spanwise station of the C model's twin tails, or the vertical surface areas of either aeroplane. **The inboard station of 2.5 feet and the tail arm of order ten feet are assumptions**, chosen to be plausible rather than derived, and the tabulated shifts move with them. **What does not move is the sign**, since the geometry admits no reading in which moving a surface inboard on an aft-swept planform lengthens its arm. **The engine-count half of the same argument is exact**, resting only on published thrusts and weights.
-
-**The claim that departure onset does not transfer from the flight vehicle is an argument from the scaling relations and not a measurement.** No source consulted states a full-scale departure angle of attack, so there is nothing to compare the model's limiting angle against. **A quantified Reynolds correction is not attempted**, because it depends on the configuration's separation behaviour, which is the unknown in question.
-
-**The claim is about the flight vehicle and must not be read as a claim about the programme.** The programme ran high-Reynolds tunnel tests precisely to cover the gap and reports its free-flight method as correlating well with the observed flight limits. **Nothing here says the departure boundary was left to the model**, because it was not.
-
-**The correlation update is a conference presentation rather than a technical report**, so its findings arrive as summary lines without the data behind them. **The stall angles of 24 and 14 degrees, the phrase about departure limiter assaults and the pitching-moment finding are quoted from slides**, and a reader wanting the supporting curves will not find them there.
-
-**The X-48C's engine thrust is stated differently by two sources**, 89 pounds in the fact sheet and 75 in the 2010 presentation. **Every engine-out figure for the C model moves with that choice**, from 2.378 down to 2.004 against the full-scale trijet. **The direction of the conclusion does not move** and the size of it does.
-
-**The full-scale thrust comparison uses Liebeck's second-generation design and not the reference vehicle.** The 0.2245 thrust-to-weight figure belongs to an 823,000-pound, 800-passenger commercial design. **If the military reference vehicle is thrustier, the model's 1.374 excess shrinks**, and the engine-out conservatism shrinks with it.
 
 ## The Contemporary Literature
 
@@ -529,6 +509,32 @@ $$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \f
 
 **75 records.** \[[A Properties of Standard 2006][research_a_properties_2006]\] \[[A Standard Atmosphere 2022][research_a_standard_2022]\] \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\] \[[Anderson and Francis 1964][research_anderson_francis_1964]\] \[[Appendix A Standard Atmosphere 2021][research_appendix_a_2021]\] \[[Appendix A. The Standard 2011][research_appendix_a_2011_b]\] \[[Appendix B Properties of 2003][research_appendix_b_2003]\] \[[Appendix E Standard Atmosphere 1979][research_appendix_e_1979]\] \[[Appendix E Standard atmosphere 2004][research_appendix_e_2004]\] \[[Atmosphere standard atmosphere 2006][research_atmosphere_standard_2006]\] \[[B-34. U. S. Standard 1963][research_b_34_u_1963]\] \[[Chen 2000][research_chen_2000]\] \[[Chen 2001][research_chen_2001]\] \[[Chen 2002][research_chen_2002]\] \[[Chong-Yi 2001][research_chongyi_2001]\] \[[Definition of the standard 1954][research_definition_of_1954]\] \[[Dennis P. Dykstra 1980][research_dennispdykstra_1980]\] \[[Essenhigh 2006][research_essenhigh_2006]\] \[[Everett et al 1972][research_everett_cashwell_1972]\] \[[Felderman et al 1996][research_felderman_macdermott_1996]\] \[[Gooch 2011][research_gooch_2011]\] \[[Gooch 2011][research_gooch_2011_b]\] \[[Herbert][research_herbert]\] \[[ICAO Standard Atmosphere 2021][research_icao_standard_2021]\] \[[International Standard Atmosphere 2010][research_international_standard_2010]\] \[[Kang et al 2023][research_kang_zhao_2023]\] \[[Kang et al 2023][research_kang_meng_2023]\] \[[Kaushik 2018][research_kaushik_2018]\] \[[King-Hele 1964][research_kinghele_1964]\] \[[Krueger and Minzner 1976][research_krueger_minzner_1976]\] \[[Kurzke and Halliwell 2018][research_kurzke_halliwell_2018]\] \[[Kurzke et al 2025][research_kurzke_halliwell_2025]\] \[[Lee and Aldredge 2015][research_lee_aldredge_2015]\] \[[Meng et al 2021][research_meng_liu_2021]\] \[[Minimum Performance Standard for][research_minimum_performance]\] \[[Minimum Performance Standard for][research_minimum_performance_b]\] \[[Minzner, R. A. et al 1976][research_minznerra_reberca_1976]\] \[[Other publications Reference/standard atmosphere 1987][research_other_publications_1987]\] \[[Paper, board and pulps][research_paper_board]\] \[[Peters and Jr 1977][research_peters_jr_1977]\] \[[Pressures and Temperatures for 2000][research_pressures_and_2000]\] \[[Price and Blanchard 1981][research_price_blanchard_1981]\] \[[Properties of the U.S 2014][research_properties_of_2014]\] \[[Properties of the U.S 2024][research_properties_of_2024]\] \[[Report No. 538, altitude-pressure 1935][research_report_no_1935]\] \[[Space environment natural and][research_space_environment]\] \[[Srivastava 1967][research_srivastava_1967]\] \[[Standard Atmosphere][research_standard_atmosphere]\] \[[Standard Atmosphere 1997][research_standard_atmosphere_1997]\] \[[Standard Atmosphere 2005][research_standard_atmosphere_2005]\] \[[Standard atmosphere 2007][research_standard_atmosphere_2007]\] \[[standard atmosphere 2014][research_standard_atmosphere_2014]\] \[[Standard Atmosphere 2023][research_standard_atmosphere_2023]\] \[[Standard Atmosphere 2024][research_standard_atmosphere_2024]\] \[[Standard atmosphere chart 1927][research_standard_atmosphere_1927]\] \[[Standard atmosphere chart supersedes 1927][research_standard_atmosphere_1927_b]\] \[[Standard Atmosphere Data 1992][research_standard_atmosphere_1992]\] \[[standard atmosphere for preconditioning 2021][research_standard_atmosphere_2021]\] \[[standard atmosphere for testing 2021][research_standard_atmosphere_2021_b]\] \[[Standard Atmospheric Profilesa aSource 2002][research_standard_atmospheric_2002]\] \[[The 1976 standard atmosphere and its relationship to earlier standards][research_1976_atmosphere_lineage]\] \[[The Flight Environment Standard 2021][research_the_flight_2021]\] \[[The International Civil Aviation 1957][research_the_international_1957]\] \[[The International Standard Atmosphere 2017][research_the_international_2017]\] \[[The international standard atmosphere 2026][research_the_international_2026]\] \[[The Standard Atmosphere 1920][research_the_standard_1920]\] \[[The Standard Atmosphere 1964][research_the_standard_1964]\] \[[The Standard Atmosphere 1976][research_the_standard_1976]\] \[[U. S. Standard Atmosphere 1963][research_u_s_1963]\] \[[U.S. Committee on Extension 1962][research_u_s_committee_1962]\] \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\] \[[US Standard Atmosphere Model 2014][research_us_standard_2014]\] \[[Vaughan 2003][research_vaughan_2003]\] \[[Yaroshevsky 2010][research_yaroshevsky_2010]\] \[[Zuppardo 1993][research_zuppardo_1993]\]
 
+
+## Where the Framing Breaks Down
+
+**The reference vehicle's weight is derived and never quoted.** The figure of 854,875 pounds comes from inverting the cube of the scale ratio on the model's own weight. If the model was not weight-scaled with the precision assumed, the number moves and the comparison against Liebeck moves with it.
+
+**The relative density factor is now quantified rather than assumed away, and it moves the answer.** Taking the model's condition at the field elevation of Rogers Dry Lake raises the implied full-scale weight from 854,875 pounds to 914,885, and taking it at the ceiling raises it to 1,157,634. **The record does not state the altitude at which the weight scaling was set**, so 854,875 pounds is reported as a lower bound and every comparison drawn from it inherits that status.
+
+**The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds,
+
+$$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}$$
+
+**That does not match Liebeck's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
+
+**The wing area is not stated by any primary source consulted, and one section now depends on it.** The figure of 100.5 square feet comes from a secondary compilation. It enters only through the reference chord $c = S/b$ used to put the Reynolds numbers on an absolute footing, and **the ratio of 40.35 does not depend on it at all**, because the chord cancels between model and full scale. **A reader who distrusts the area should discard the two absolute Reynolds figures and keep everything else**, which is why the ratio and not the absolute value carries the argument.
+
+**The X-48C's moment-arm loss is a sensitivity and not a measurement.** No source consulted publishes the sweep of the outer trailing edge, the spanwise station of the C model's twin tails, or the vertical surface areas of either aeroplane. **The inboard station of 2.5 feet and the tail arm of order ten feet are assumptions**, chosen to be plausible rather than derived, and the tabulated shifts move with them. **What does not move is the sign**, since the geometry admits no reading in which moving a surface inboard on an aft-swept planform lengthens its arm. **The engine-count half of the same argument is exact**, resting only on published thrusts and weights.
+
+**The claim that departure onset does not transfer from the flight vehicle is an argument from the scaling relations and not a measurement.** No source consulted states a full-scale departure angle of attack, so there is nothing to compare the model's limiting angle against. **A quantified Reynolds correction is not attempted**, because it depends on the configuration's separation behaviour, which is the unknown in question.
+
+**The claim is about the flight vehicle and must not be read as a claim about the programme.** The programme ran high-Reynolds tunnel tests precisely to cover the gap and reports its free-flight method as correlating well with the observed flight limits. **Nothing here says the departure boundary was left to the model**, because it was not.
+
+**The correlation update is a conference presentation rather than a technical report**, so its findings arrive as summary lines without the data behind them. **The stall angles of 24 and 14 degrees, the phrase about departure limiter assaults and the pitching-moment finding are quoted from slides**, and a reader wanting the supporting curves will not find them there.
+
+**The X-48C's engine thrust is stated differently by two sources**, 89 pounds in the fact sheet and 75 in the 2010 presentation. **Every engine-out figure for the C model moves with that choice**, from 2.378 down to 2.004 against the full-scale trijet. **The direction of the conclusion does not move** and the size of it does.
+
+**The full-scale thrust comparison uses Liebeck's second-generation design and not the reference vehicle.** The 0.2245 thrust-to-weight figure belongs to an 823,000-pound, 800-passenger commercial design. **If the military reference vehicle is thrustier, the model's 1.374 excess shrinks**, and the engine-out conservatism shrinks with it.
 
 ## The Source Base
 

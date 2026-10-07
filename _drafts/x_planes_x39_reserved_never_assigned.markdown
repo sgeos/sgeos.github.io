@@ -49,18 +49,32 @@ have released the number for somebody else.
 aviation.** The numbering is not a record of aircraft. It is a record of correspondence about aircraft, and
 the two come apart in a way that the X-39 makes unusually legible.
 
-This article takes the reduced section order that this series reserves for a designation anomaly, because
-there is no vehicle here to dimension and no keystone question to derive.
-**Padding a short article with sections it does not need would misrepresent the record as richer than it is**,
-so the sizing and dependent-systems sections are absent rather than written thin. What the reduced order
-does not excuse is a survey, and this article carries one of the literature that bears on its actual
+This article carries every section of the series order, although there is no vehicle here to dimension
+and no keystone question to derive.
+**Padding a short article would misrepresent the record as richer than it is**,
+so the sections on sizing, dependent systems and flight say that they are empty and why, and stop there. What
+the absence of a vehicle does not excuse is a survey, and this article carries one of the literature that bears on its actual
 subject rather than one of the literature that surrounds its series.
 The designations themselves belong to the
 [tri-service system adopted in 1962][ref_tri_service], which remains the framework under which every number
 in this series was issued
 \[[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]\].
 
-## What the Record Says Happened
+## The Research Question
+
+**The X-39 had no research question of its own, because there was never a vehicle to carry one.** The
+number was held for a demonstrator that the Future Aircraft Technology Enhancements programme expected to
+need, and that demonstrator was never designed. What the record supports is a question the programme asked
+before any vehicle existed, which was whether its candidate technologies needed flight validation on a new
+airframe at all \[[Cupstid 1997][research_cupstid_1997]\].
+
+**The question this article can actually settle is a different one, and it concerns the register.** It is
+what a gap in a numbered series of experimental aircraft means when no aircraft, no refusal and no secret
+stands behind it. The sections that follow answer that question from the governing instructions and the
+designation surveys, and they leave the aviation question where the programme itself left it, unanswered
+by flight.
+
+## Programme Origin, What the Record Says Happened
 
 **The reservation is dated precisely and the source is explicit about its status.** Andreas Parsch's survey
 of missing United States Air Force and Department of Defense designations records that
@@ -179,7 +193,66 @@ instead \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 **It was never asked for**, and an omission leaves neither a record nor a reason, which is why the entry for
 it in every source consists of a date, a programme name, and a negative.
 
-## What the Anomaly Reveals About the Designation System
+## Sizing From First Principles
+
+**There was no vehicle to size, and this section records that rather than inventing one.** Sizing in this
+series derives a vehicle's dimensions from the quantity it existed to measure. The FATE demonstrator never
+reached the Phase II work that was to produce preliminary vehicle design concepts, so no mass, wing area,
+thrust or envelope was ever stated for it \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\].
+
+**What the record does say about the intended vehicle is qualitative.** Boeing suggested a modular vehicle
+that could flight validate the selected technologies \[[Cupstid 1997][research_cupstid_1997]\], and Lockheed
+Martin reported that integrating them into an existing vehicle would require substantial modification
+\[[FATE, conclusions and recommendations][ref_fate_conclusions]\]. Neither statement carries a dimension.
+
+**The only quantity in this article with a binding constraint is the design number itself.** That
+constraint is stated exactly in the section headed What the Data Changed, and it is administrative rather
+than physical.
+
+## Dependent Systems
+
+**No dependent systems exist, since nothing was built for them to depend on.** The record names the
+technologies a demonstrator would have carried, and Phase I ranked five of them as requiring flight
+demonstration, being the compact inlet, the conformal fluidic nozzle, tailless technologies, the continuous
+aerodynamic control surface and the lambda wing \[[FATE, five technologies selected][ref_fate_five]\].
+**Those are candidate payloads for a vehicle, not systems of one**, and no source describes how any of
+them would have been integrated, powered or controlled on a specific airframe.
+
+**The nuclear turbojet that shares the string is not a dependent system of this designation.** It belongs
+to a separate engine series and to a different aircraft, the [X-6][related_post_a303_convair_x6], and the
+article treats it only to show that the same string names unrelated hardware.
+
+## The Flight Test Record
+
+**The flight test record of the X-39 is empty.** No vehicle was assigned the designation, so no vehicle
+flew under it. The Fixed Wing Vehicle demonstrator was cut before Phase II, and the work it was to perform
+passed to the Uninhabited Combat Air Vehicle Advanced Technology Demonstration and to demonstrator aircraft
+that already existed \[[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]\].
+Whatever those programmes flew, they flew under their own designations.
+
+**The engines that carried the same string did not fly either.** The record places them on a ground test
+stand in 1956, intended for the X-6, which would have flown them had its programme survived
+\[[Bernier 2025][research_bernier_2025]\].
+
+## Comparison With Ground Prediction
+
+**The ground predictions are all from the Phase I studies, and flight returned nothing against which to
+test them.** Lockheed Martin's ranking concluded that the five selected technologies would achieve three of
+the six Fixed Wing Vehicle goals, that further technologies would be needed to meet the cost goals, and that
+an existing vehicle would need substantial modification to carry them
+\[[FATE, conclusions and recommendations][ref_fate_conclusions]\]. Boeing prepared a rough-order-of-magnitude
+cost estimate for a follow-on programme to build and fly a demonstrator
+\[[Cupstid 1997][research_cupstid_1997]\].
+
+**None of those claims met a flight test under this designation.** The demonstrator was cut, so neither the
+goal attainment nor the cost estimate was ever checked against a flown vehicle. **This article cannot
+report agreement or disagreement, only that the comparison was never made.**
+
+**The one prediction the record does resolve is administrative.** The reservation of 23 April 1997 assumed
+that a vehicle would follow and would need a number. The vehicle did not follow, and the consequences of
+that failed assumption for the register are the subject of the section headed What the Data Changed.
+
+## What the Data Changed, What the Anomaly Reveals About the Designation System
 
 ### The Reservation Had No Standing in the Instruction
 
@@ -662,6 +735,28 @@ was never sent to undo the first.**
 - [1997, Appendix A Aircraft Nomenclature][research_appendix_a_1997]
 - [1997, Nomenclature and standardization systems for small cells and batteries][research_nomenclature_and_1997]
 
+## Where the Framing Breaks Down
+
+**The series framing assumes that a number names a vehicle, and here that assumption fails completely.**
+Every other article in the series begins from an aircraft and asks what it was built to measure. The X-39
+offers no aircraft, so the framing's research question, sizing and flight record are all empty, and the
+sections carrying those titles in this article say so rather than filling them.
+
+**The framing also invites the wrong reading of the gap.** A register of experimental aircraft suggests
+that a missing number hides an aircraft. The record shows instead a reservation that was never followed by
+a request and never cancelled \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], so the gap
+belongs to the history of correspondence and not to the history of flight.
+
+**The article's own replacement framing has a weak joint, and it is named rather than hidden.** The
+permanence argument depends on a rule that a release stops helping once the sequence has passed the
+number, and that rule is drawn from Parsch's description of practice rather than from any regulation
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. The section headed
+Epistemic State labels it as assumed.
+
+**The designation string itself does not stay inside one register.** The same X-39 names a nuclear
+turbojet that ran on a ground stand \[[General Electric J47][ref_j47]\], so any framing that treats a
+designation as a unique name for one thing breaks at this number.
+
 ## The Source Base
 
 **The sixteen sources that carry the argument and the 2,452 that map the field are different things,
@@ -798,7 +893,7 @@ here describe FATE as an Air Force programme whose demonstrator was cut precisel
 duplicated a separate agency project. **The second reading is better supported and the conflict is left
 standing rather than silently resolved.**
 
-### On What This Article Deliberately Omits
+## Out of Scope, On What This Article Deliberately Omits
 
 **An earlier version of this article omitted the contemporary-literature survey, and that decision was
 half right.** Its reasoning was that a harvested survey of the aerospace literature would measure nothing

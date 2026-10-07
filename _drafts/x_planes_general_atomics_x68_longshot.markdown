@@ -1304,7 +1304,43 @@ explanation is the ordinary one, that a demonstration retires risk in the order 
 retired, and that firing a missile off a vehicle requires first proving the vehicle flies. **The
 observation is recorded because a reader of any single book would not see it.**
 
-## What the Data Would Change, and What the Programme Has Already Changed
+## Comparison With Ground Prediction
+
+**There is no flight result to set beside any ground prediction, because at this article's date
+nothing had flown.** A comparison of prediction with flight needs both halves, and here only the
+first half exists. What the record does hold is a set of ground predictions of three kinds, and
+each is gathered here with the place where it is argued.
+
+**The first kind is the planned ground test of the keystone.** PB2022 and PB2023 both planned a
+missile separation test for FY2022 \[[DARPA PB2022 justification][ref_darpa_pb2022]\]
+\[[DARPA PB2023 justification][ref_darpa_pb2023]\], and PB2026 planned pit drop testing of a missile
+mass simulant from a ground test vehicle for FY2025
+\[[DARPA PB2026 justification][ref_darpa_pb2026]\]. No result of either test is stated in any
+document read for this article. The section headed The Flight Test Record sets out what each would
+measure and what a pit cannot measure even in principle.
+
+**The second kind is a prediction about the ground test itself, and it is this article's own.**
+Momentum conservation says that a pit, which holds the launcher still, separates the store more
+slowly than flight will for the same cartridge. A cartridge that gives the simulant 7 metres a
+second in the pit separates the same store at 7.69 in flight, and for this vehicle the
+correction is 9.9 percent for one missile of the pair and 21.9 percent for both. **That is a
+prediction of how a ground measurement will compare with a flight measurement, made before either
+exists**, and the flight half of it is the half the record cannot yet supply.
+
+**The third kind is the closed-form sizing.** The centre-of-gravity shift, the static margin step,
+the heave, the trim demand, the two inertia corrections, the roll transient of an asymmetric
+release and the ejector's recoil are each derived in the section headed Sizing From First
+Principles, and each is computable before the vehicle flies. **None of them is yet a prediction
+about this aircraft in particular**, because no mass, dimension or aerodynamic coefficient of it is
+published, so a flight result could test the relations only once those inputs were known as well.
+
+**One ground milestone is reported only after this article's date.** The announcement of
+17 February 2026 reports a full-scale wind tunnel milestone among others
+\[[DARPA on the X-68A][ref_darpa_longshot_news]\], and this article reports no result from it.
+**The comparison this section exists to make is therefore the first thing a flight test campaign
+would supply, and at this article's date it supplies nothing.**
+
+## What the Data Changed, Which Here Is What the Data Would Change and What the Programme Has Already Changed
 
 **No flight data exists, so this section is about what the programme has already settled without
 flying and what remains open.**
@@ -1362,67 +1398,6 @@ designation in a mission series, which places it among demonstrators and not amo
 weapons. **Its register neighbours include a vehicle whose own programme became a programme of
 record and several that did not**, and the designation itself carries no information about which
 outcome is intended.
-
-## Where the Framing Breaks Down
-
-**Treating this aircraft through a store mass fraction is the right frame and it misleads in at
-least six ways, each of which is named here and not left for a reader to find.**
-
-### The Keystone Parameter Cannot Be Evaluated
-
-**$\mu$ is unpublished because the vehicle's mass is unpublished**, so every figure in this article
-that depends on it is a sweep rather than a measurement. The sweep's brackets are argued from the
-engine's provenance and that argument is an inference. **A reader who takes
-17.94 percent as this aircraft's store mass fraction is taking the middle of a sweep as
-a fact**, and this article's only defence against that is to keep saying so.
-
-### A Static Margin Band Is a Judgement and the Bound Inherits It
-
-The admissible store arm was derived from a requirement that the static margin stay inside a band.
-**The band is not derived from anything here.** A vehicle with a full-authority digital control
-system and a deliberately relaxed static margin may tolerate a far larger excursion than a
-conventionally stable aeroplane, and some combat aircraft are flown statically unstable on purpose.
-**The bound is therefore conditional on a stability philosophy this article does not know.**
-
-### The Release Is Treated as Instantaneous and It Is Not
-
-**Every relation above compares a before state with an after state.** A real release has a duration,
-during which the store is partly supported, partly free, and aerodynamically interfering with the
-vehicle it is leaving. **The transient is where the difficulty actually lives** and it is exactly the
-part that closed-form mass arithmetic cannot reach. This article's mathematics describes the endpoints
-of the event the programme exists to study.
-
-### The Plume Is Not Treated At All
-
-**If the missile's motor ignites within a few body lengths of the vehicle, the vehicle is in a rocket
-exhaust.** Pressure, temperature and particulates on a structure sized for cruise are a design
-driver, and nothing in this article addresses them. Whether the missile is ejected and coasts clear
-before ignition, or fires while attached, is not established by any document read here, and the two
-cases are not close to each other in difficulty.
-
-### The Drag Model Behind the Reach Numbers Is One Coefficient
-
-**The coast derivation assumes a constant drag coefficient and a constant density.** A real missile
-flies through a changing atmosphere at a changing Mach number with a drag coefficient that varies
-considerably across the transonic region, and it manoeuvres, which costs further energy. **The
-calibration against published reach figures is the reason to trust the comparison** between the
-carrier and the missile, and it is not a reason to trust any single reach figure as a prediction.
-
-### The Comparison Flatters the Carrier by Ignoring What It Costs to Carry
-
-**The carrier must itself be carried.** A launch aircraft giving up a station or a bay volume to a
-vehicle of this size gives up the stores it would otherwise have carried there, and the reach gain
-should properly be computed per unit of launch-aircraft capacity rather than per missile. **This
-article does not compute that**, because the vehicle's volume and the exchange ratio against
-conventional stores are both unpublished. **The omission is in the optimistic direction and is the
-most important of the six.**
-
-### And the Mission Statement the Frame Rests On Is Not Official
-
-**The register's mission sentence is the compiler's**, as the second section established. The budget
-books describe a programme and not an aeroplane. **So the frame is built on an official programme
-objective and an unofficial aircraft description**, and a reader should hold the aircraft-level
-claims more loosely than the programme-level ones.
 
 ## The Contemporary Literature
 
@@ -1494,6 +1469,67 @@ claims more loosely than the programme-level ones.
 
 **4 records.** \[[Artificial Intelligence Techniques for][research_artificial_intelligence]\] \[[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025]\] \[[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025_2]\] \[[Flight Test Programme 1970][research_flight_test_1970]\]
 
+## Where the Framing Breaks Down
+
+**Treating this aircraft through a store mass fraction is the right frame and it misleads in at
+least six ways, each of which is named here and not left for a reader to find.**
+
+### The Keystone Parameter Cannot Be Evaluated
+
+**$\mu$ is unpublished because the vehicle's mass is unpublished**, so every figure in this article
+that depends on it is a sweep rather than a measurement. The sweep's brackets are argued from the
+engine's provenance and that argument is an inference. **A reader who takes
+17.94 percent as this aircraft's store mass fraction is taking the middle of a sweep as
+a fact**, and this article's only defence against that is to keep saying so.
+
+### A Static Margin Band Is a Judgement and the Bound Inherits It
+
+The admissible store arm was derived from a requirement that the static margin stay inside a band.
+**The band is not derived from anything here.** A vehicle with a full-authority digital control
+system and a deliberately relaxed static margin may tolerate a far larger excursion than a
+conventionally stable aeroplane, and some combat aircraft are flown statically unstable on purpose.
+**The bound is therefore conditional on a stability philosophy this article does not know.**
+
+### The Release Is Treated as Instantaneous and It Is Not
+
+**Every relation above compares a before state with an after state.** A real release has a duration,
+during which the store is partly supported, partly free, and aerodynamically interfering with the
+vehicle it is leaving. **The transient is where the difficulty actually lives** and it is exactly the
+part that closed-form mass arithmetic cannot reach. This article's mathematics describes the endpoints
+of the event the programme exists to study.
+
+### The Plume Is Not Treated At All
+
+**If the missile's motor ignites within a few body lengths of the vehicle, the vehicle is in a rocket
+exhaust.** Pressure, temperature and particulates on a structure sized for cruise are a design
+driver, and nothing in this article addresses them. Whether the missile is ejected and coasts clear
+before ignition, or fires while attached, is not established by any document read here, and the two
+cases are not close to each other in difficulty.
+
+### The Drag Model Behind the Reach Numbers Is One Coefficient
+
+**The coast derivation assumes a constant drag coefficient and a constant density.** A real missile
+flies through a changing atmosphere at a changing Mach number with a drag coefficient that varies
+considerably across the transonic region, and it manoeuvres, which costs further energy. **The
+calibration against published reach figures is the reason to trust the comparison** between the
+carrier and the missile, and it is not a reason to trust any single reach figure as a prediction.
+
+### The Comparison Flatters the Carrier by Ignoring What It Costs to Carry
+
+**The carrier must itself be carried.** A launch aircraft giving up a station or a bay volume to a
+vehicle of this size gives up the stores it would otherwise have carried there, and the reach gain
+should properly be computed per unit of launch-aircraft capacity rather than per missile. **This
+article does not compute that**, because the vehicle's volume and the exchange ratio against
+conventional stores are both unpublished. **The omission is in the optimistic direction and is the
+most important of the six.**
+
+### And the Mission Statement the Frame Rests On Is Not Official
+
+**The register's mission sentence is the compiler's**, as the second section established. The budget
+books describe a programme and not an aeroplane. **So the frame is built on an official programme
+objective and an unofficial aircraft description**, and a reader should hold the aircraft-level
+claims more loosely than the programme-level ones.
+
 ## The Source Base
 
 ### The Pool, and What the Gate Did to It
@@ -1501,7 +1537,7 @@ claims more loosely than the programme-level ones.
 **Two sweeps retrieved 4,711 records and the audited subject gate admitted
 471**, which is 10.0 percent. After deduplication on normalised title and
 year that is 458 distinct works, cited across 11 clusters alongside
-20 primary sources read directly.
+23 primary sources read directly.
 
 **72 of the 458 are research reports rather than journal or conference
 papers, which is 15.7 percent.** That share is lower than several recent articles in this
@@ -1599,13 +1635,14 @@ the latter.
 
 ### What This Article Read in Full
 
-**20 sources were read directly rather than swept.** The designation register and its
+**23 sources were read directly rather than swept.** The designation register and its
 front matter. All seven budget justification books, for the programme entry, the funding
 columns, the plans lists and the programme element migration sentences. The sponsoring agency's
 programme page and its announcement. The contractor's announcement. The federal award record, for
 five awards and their contract data. Two defence journalism accounts. And the reference
 pages for the cruise missile that shares this aircraft's engine, the missile the programme says it
-will carry, and the aircraft that will launch it.
+will carry, and the aircraft that will launch it. And the register's page as archived on three dates,
+for the note under Statements in This Article That Postdate Its Own Date.
 
 **The primary-reference pass moved two load-bearing anchors onto primary documents and could not
 move the third.** The launch aircraft's weights now come from the service's own fact sheet, read
@@ -1633,7 +1670,7 @@ and are kept apart.** The broad agency announcement HR001120S0037, named by four
 not be retrieved from the federal opportunity portal, the public web archive or the sponsoring
 agency's own site, and the discipline's governing compatibility handbook sits behind the standards
 repository's login. **Each is cited by its nominal address, the portal page and the repository's
-public search page, neither is counted among the 20 sources read directly, and no claim
+public search page, neither is counted among the 23 sources read directly, and no claim
 in this article rests on either document's content.**
 
 ## Epistemic State

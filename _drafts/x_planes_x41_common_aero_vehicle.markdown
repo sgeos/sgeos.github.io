@@ -371,6 +371,45 @@ temperature near 1,930 degrees Celsius, which are the two headline figures the p
 **There was no third flight.** The agency judged that substantial data had been collected and that another
 attempt was unlikely to be worth its cost \[[Hypersonic Technology Vehicle 2][ref_htv2]\].
 
+## Comparison With Ground Prediction
+
+**The ground predictions the record preserves are few, and flight met the aerodynamic ones and missed the
+thermal ones.** What is public is the flight plan itself, a glide of **7,700 kilometres** lasting
+**thirty minutes** at Mach 20, together with a design surface temperature of **1,930 degrees Celsius**
+\[[Hypersonic Technology Vehicle 2][ref_htv2]\]. No wind tunnel data, contractor estimate or specification
+for the Common Aero Vehicle has been released, so there is nothing earlier than that plan to set against
+flight.
+
+**Speed and temperature arrived as planned.** The vehicle reached Mach 20 and a surface temperature near
+1,930 degrees Celsius, which are the two headline figures the programme produced
+\[[Hypersonic Technology Vehicle 2][ref_htv2]\]. On those two quantities prediction and flight agree as far
+as the published record resolves them.
+
+**Duration did not.** Both flights ended at about nine minutes against a planned thirty
+\[[Hypersonic Technology Vehicle 2][ref_htv2]\], so nine minutes over thirty gives each flight 30 percent of
+its planned glide. The record gives no distance flown on either attempt, so the range half of the plan
+cannot be compared at all.
+
+**The skin is where ground prediction and flight parted.** Some wearing of the skin had been expected, but
+larger portions than anticipated peeled away, and the shocks raised where it lifted were reported as far
+beyond what the vehicle was designed to take
+\[[Engineering review board concludes review of the second test flight][ref_erb]\]. The same board found the
+aerodynamic design validated and concluded that thermal modelling and ground testing alone could not
+predict Mach 20 atmospheric flight
+\[[Engineering review board concludes review of the second test flight][ref_erb]\]. The section headed What
+the Data Changed argues what that finding means.
+
+**The comparison rests on the second flight alone.** The first flight's loss is described only as a violent
+roll followed by commanded termination \[[Hypersonic Technology Vehicle 2][ref_htv2]\], and no review
+board conclusion for it is quoted in this article, so its departure from prediction cannot be located.
+
+**The model in the section headed Sizing From First Principles is a check on the plan, not a ground
+prediction of the flight.** At the estimated lift to drag ratio of 2.6 it recovers 88 percent of the planned
+distance and 29.3 minutes against a planned thirty. Those figures were computed for this article from
+published numbers and agree with what the programme intended rather than with what flight returned. Its
+corridor calculation places the difficulty at the leading edge, which is consistent with the board's
+finding, but it is a bound derived here and not a prediction the programme is recorded as having made.
+
 ## What the Data Changed
 
 **The failure report is the programme's most valuable output and it confirms the sizing section
@@ -405,26 +444,6 @@ requirements two decades earlier \[[Stone and others 1979][research_stone_1979]\
 critical technologies repeated it \[[Critical technologies for hypersonic vehicle development 2005][research_critical_tech_2005]\].
 **The board did not discover that ground test runs out. It confirmed it with two vehicles.** **The corridor derived above is where ground
 facilities run out**, and the programme paid two vehicles to establish it.
-
-## Where the Framing Breaks Down
-
-**Deriving a classified vehicle from its mission is a method with three specific weaknesses, and this
-article exhibits all of them.**
-
-**First, the requirement may not be the requirement.** The 9,000 nautical mile figure is attached in the
-public record to a hypersonic weapons system carrying several of these vehicles rather than to the glider
-alone \[[DARPA Falcon Project][ref_falcon]\]. **If the glider was only ever meant to fly a fraction of that
-range, the entire chain above is answering the wrong question**, and the article cannot exclude it.
-
-**Second, equilibrium glide is an idealisation and real trajectories are not equilibrium glides.** A real
-vehicle skips, phugoids and banks, and a banked turn spends lift on turning rather than on range.
-**Every deviation from the idealisation reduces range for a given ratio**, so the required ratios in the
-table are lower bounds and the argument is if anything understated.
-
-**Third, the two quantities the corridor calculation needs are exactly the two the record withholds.** The
-effective $S C_{L}$ and the leading-edge radius are swept rather than known, and **a reader who prefers
-different values will get different temperatures.** The table is offered so that the sweep is visible
-rather than hidden inside a single number.
 
 ## The Contemporary Literature
 
@@ -685,6 +704,26 @@ rather than hidden inside a single number.
 - [Pollack, 2009, Evaluating Conventional Prompt Global Strike][research_pollack_2009]
 - [Spinardi, 2008, Ballistic missile defence and the politics of testing the case of the US ground-based midcourse defence][research_spinardi_2008]
 - [Chen and others, 2008, Terminal and Boost Phase Intercept of Ballistic Missile Defense][research_chen_speyer_2008]
+
+## Where the Framing Breaks Down
+
+**Deriving a classified vehicle from its mission is a method with three specific weaknesses, and this
+article exhibits all of them.**
+
+**First, the requirement may not be the requirement.** The 9,000 nautical mile figure is attached in the
+public record to a hypersonic weapons system carrying several of these vehicles rather than to the glider
+alone \[[DARPA Falcon Project][ref_falcon]\]. **If the glider was only ever meant to fly a fraction of that
+range, the entire chain above is answering the wrong question**, and the article cannot exclude it.
+
+**Second, equilibrium glide is an idealisation and real trajectories are not equilibrium glides.** A real
+vehicle skips, phugoids and banks, and a banked turn spends lift on turning rather than on range.
+**Every deviation from the idealisation reduces range for a given ratio**, so the required ratios in the
+table are lower bounds and the argument is if anything understated.
+
+**Third, the two quantities the corridor calculation needs are exactly the two the record withholds.** The
+effective $S C_{L}$ and the leading-edge radius are swept rather than known, and **a reader who prefers
+different values will get different temperatures.** The table is offered so that the sweep is visible
+rather than hidden inside a single number.
 
 ## The Source Base
 

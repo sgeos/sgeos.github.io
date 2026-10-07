@@ -22,7 +22,19 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **What makes the case worth an article is that the aeroplane which took the number is arguably the most X-plane-like thing in the register, and it took the number by following a rule the X-planes break.** That claim is measurable, the register is the instrument, and the sections below take the measurement rather than asserting it.
 
-## What the Record Says Happened
+## The Research Question
+
+**The X-58 had no research question, because there was never an X-58 to ask one.** No vehicle was proposed under the number, no allocation letter for it is public, and the register mentions it only to say that it does not exist \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **The question this article asks is therefore about a document rather than an aeroplane**, namely why the number 58 was spent outside the X series while it was still the next one due.
+
+**The aeroplane that took the number had a question of its own, and it was about money rather than about aerodynamics.** The Low Cost Attritable Aircraft Technology portfolio set out to break the escalating cost trajectory of tactically relevant aircraft, and the XQ-58A Valkyrie was its demonstrator \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\]. **Whether an aeroplane can be built cheaply enough to be lost and still be worth flying is the question that vehicle existed to settle**, and the section headed Attritability Is an Expected Value, Not an Attitude states it as an expected value.
+
+**The two questions are kept apart throughout.** Every flight, figure and finding about the XQ-58A in this article belongs to that vehicle and to its Q designation. **None of it belongs to the X-58, which has no airframe, no flight and no data.**
+
+## Programme Origin
+
+**The origin of this article's subject is administrative, and it has two parts.** The first is how the number 58 left the X series, which the register, the specialist registry and the governing instruction together fix in date and leave open in motive. **The second is how the aeroplane that took the number came to exist**, which is a programme with a contract, a contractor and a first flight. **The number is treated first and the aeroplane last, because the number is the anomaly and the aeroplane is only where it went.**
+
+### What the Record Says Happened
 
 **There is no allocation letter in public and there is no stated reason.** What exists is a register of allocations and a specialist registry's reading of it, and the two together fix the event within a fortnight and leave the motive open.
 
@@ -30,7 +42,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **The register's contractor cell names a company that had been a subsidiary for five years.** Composite Engineering Incorporated was acquired in 2012 and became the unmanned systems division of Kratos Defense and Security Solutions, and the same register names the same firm as the builder of the BQM-167 target drone \[[Kratos Defense and Security Solutions][ref_kratos]\] \[[Kratos BQM-167 Skeeter][ref_bqm167]\]. **A register records the name that was on the request, not the name on the building.**
 
-### The Evidence for Where the Number Came From Is Three Dates
+#### The Evidence for Where the Number Came From Is Three Dates
 
 **The registry's argument is chronological and it can be checked against the register itself.** The three allocations in question are these.
 
@@ -44,7 +56,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **The X series has three gaps in its modern contiguous run and this is one of them.** Counting the numbers the register carries between 44 and 68, exactly three are missing, and they are 52, 58 and 67. **The [X-52][related_post_a349_x52_designation_refused] was refused. The X-58 and the X-67 were taken by unmanned aircraft.** Two of the three gaps in twenty-five consecutive numbers were made by the same mechanism six years apart.
 
-## The Registry States the Same Fact Four Times, at Four Different Confidences
+### The Registry States the Same Fact Four Times, at Four Different Confidences
 
 **One author, one website, one event, four statements, and the confidence is not the same in any two of them.** This is worth setting out because it is the difference between a record and a reading, and because an article that quotes only the most confident of the four would be quoting a selection.
 
@@ -59,7 +71,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **And the registry generalises the mechanism rather than treating this as a one-off.** Under the Q series it records that the next available design number is 31, that the series has accumulated a number of out-of-sequence designations, and that in many of these the design number was apparently taken from the unmanned aircraft's primary mission series. **The two examples it gives are this aeroplane and the FQ-48** \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-## What the Letters Mean, and Why the Number Is Wrong Under Either Reading
+### What the Letters Mean, and Why the Number Is Wrong Under Either Reading
 
 **The governing instruction is a public document and it settles more of this than the commentary does.** Department of the Air Force Instruction 16-401, dated 3 November 2020, defines the designation and the process by which one is requested and approved \[[DAFI 16-401][ref_dafi_16_401_2020]\]. Its predecessors go back to 1962 and the earlier issues are also public \[[AFI 16-401][ref_afi_16_401]\].
 
@@ -74,7 +86,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **The first parse is the one the sibling designations force.** The register carries XRQ-72A and XRQ-73A, and in those the order of positions leaves no room for argument, because a basic mission symbol must sit immediately left of the vehicle type. **In XRQ the letter beside Q is R, so X can only be the status prefix.** The same is true of XMQ-17A, XMQ-19A and XRQ-22A \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Five members of the family read one way and this one is ambiguous.**
 
-### The Instruction Requires a Mission Symbol at Its Highest Tier
+#### The Instruction Requires a Mission Symbol at Its Highest Tier
 
 **Under the status prefix parse the designation is missing a required element.** The instruction states that the vehicle type symbol is required for all non-standard aircraft and that a basic mission or modified mission symbol must accompany it, and marks the requirement T-0 \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **A T-0 requirement is one whose waiver authority sits outside the publishing organisation**, which is the strongest tier the instruction uses \[[AFI 16-401][ref_afi_16_401]\].
 
@@ -82,7 +94,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **Under the status prefix parse, therefore, XQ-58A carries a vehicle type and states no mission.** The registry notes the same class of defect elsewhere, observing that YV-22A does not conform for exactly this reason \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\]. **This article does not assert that the Air Force intended the status prefix parse. It observes that one of the two available parses makes the designation non-conforming and that nothing in the record chooses between them.**
 
-### The Design Number Is Scoped by One Letter and the Instruction Says Which
+#### The Design Number Is Scoped by One Letter and the Instruction Says Which
 
 **The instruction is explicit that each series has its own sequence.** Each vehicle type and basic mission symbol forms a separate series of design numbers, and the numbers in each series are to be assigned in strict numerical sequence **without reference to existing numbers in other series** \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\] \[[DAFI 16-401][ref_dafi_16_401_2020]\].
 
@@ -90,7 +102,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **The register shows how far away from that number the allocation landed.** The highest in-sequence Q number the register carries with a date on or before July 2017 is 27, so the number 58 sits 31 above it. **The registry's own published figure for the next available Q number is 31**, and that number is cited rather than derived here, because the addendum is a supplement and not a complete list and a naive scan of it reports a free number that is not free \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-### And Then the Instruction Reserves the Right to Break Its Own Rule
+#### And Then the Instruction Reserves the Right to Break Its Own Rule
 
 **One sub-paragraph after the sentence requiring consecutive numbering, the instruction grants the allocating office unlimited discretion to skip.** The words are that the office reserves the authority to skip design number at discretion \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **No criterion is given, no reason is required to be recorded, and no appeal is described.**
 
@@ -100,17 +112,17 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **The system has form for skipping in both directions, which is what makes the absence of a criterion matter.** The registry records that numbers have several times been skipped in one series because they were in use in another, giving C-34 skipped to avoid confusion with T-34, and separately records that numbers have been carried across series boundaries, the production form of the X-35 having been designated F-35 when the next free F number was 24 \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\]. **The same system avoids a number for resembling another and copies a number for resembling another, and publishes no rule for either.**
 
-## Every Obvious Explanation Fails Against the Register Itself
+### Every Obvious Explanation Fails Against the Register Itself
 
 **The natural guess is that the Valkyrie could not be an X-plane because it is unmanned, and the register refutes that guess without any help.**
 
-### Half of the X Series Is Unmanned
+#### Half of the X Series Is Unmanned
 
 **Of the 30 X designation rows the register carries, 15 describe an aeroplane with nobody in it.** That is 50 percent, which is to say exactly half. The mission statements say unmanned, remotely piloted, autonomous or self-piloted in so many words \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 **They are not marginal entries.** They include the X-45 and the X-47, which are armed unmanned combat air vehicles built to demonstrate the suppression of enemy air defences and carrier operation \[[Boeing X-45][ref_x45]\] \[[Northrop Grumman X-47B][ref_x47b]\], the [X-56][related_post_a353_lockheed_martin_x56], which is remotely piloted, the X-61 Gremlins, which is a small unmanned aircraft launched and recovered in flight \[[Dynetics X-61 Gremlins][ref_x61]\], and the X-68A Longshot, whose register entry describes an experimental air-launched unmanned combat air vehicle for air-to-air engagements. **The registry states the position plainly, that unmanned X-planes are quite common nowadays** \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\].
 
-### Not One of Them Carries the Symbol the Instruction Requires
+#### Not One of Them Carries the Symbol the Instruction Requires
 
 **This is the measurement that turns the article around.** The instruction requires the vehicle type symbol for non-standard aircraft, and Q is the vehicle type symbol for an unmanned aerial vehicle \[[DAFI 16-401][ref_dafi_16_401_2020]\] \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\]. **The number of those 15 rows that carry the Q symbol is zero.**
 
@@ -120,7 +132,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **This article does not claim that anybody reasoned that way in 2017.** It claims that the register is consistent with it and inconsistent with the simpler explanations, and that the consistency is checkable by anybody who counts the rows.
 
-### The Mission Is Not the Difference Either
+#### The Mission Is Not the Difference Either
 
 **A second guess is that an X-plane researches and the Valkyrie fights.** The register does not support that division. The X-45A's mission statement is to demonstrate technical feasibility for an unmanned combat air vehicle to prosecute suppression of enemy air defences, and suppression of enemy air defences is precisely the role for which the Marine Corps intends the production Valkyrie \[[DOD 4120.15-L Addendum][ref_mds_addendum]\] \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Suppression of Enemy Air Defenses][ref_sead]\]. **The same mission appears on both sides of the letter.**
 
@@ -128,7 +140,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **A fourth guess is the empty engines cell, and this series has already paid to learn that the cell means nothing.** The XQ-58A row has no engine listed, and so do 88 of the register's 526 rows, among them the X-59A and the X-60A, which plainly have engines \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **The [X-57][related_post_a354_esaero_x57_maxwell] recorded that measurement in full so that this article would not repeat it**, and it does not.
 
-## The Family of Borrowed Numbers
+### The Family of Borrowed Numbers
 
 **The Valkyrie is the first of a set and the set is now large enough to look at.** Every Q designation in the register whose number lies inside the range the X series occupies is listed below, with the registry's own account of where the number came from.
 
@@ -146,7 +158,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **And the registry has already written the obituary of a whole series on this ground.** Of the fighters it records that the last sequentially assigned number was 23, that F-35 took its number from the X series, that a designation apparently exists for an undisclosed aircraft, and that there is, to all intents and purposes, no longer a sequence of F designations \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **The X-58 is what the beginning of that process looks like from inside.**
 
-## What the Skip Actually Cost
+### What the Skip Actually Cost
 
 **A skipped number sounds like a loss and the register can be asked how large a loss.** The X rows span from 1,999 to 2,025, which is 26 years, and the numbers run from 40 to 76 \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The rate at which the series consumes numbers is therefore the following.
 
@@ -164,7 +176,7 @@ $$
 
 **The scarcity argument is therefore not available to either side.** Nobody was short of numbers, so the skip cost nothing material, and by the same token nothing material was gained by taking one from a neighbour. **Whatever the reason was, it was not arithmetic.**
 
-## The Aeroplane That Took the Number
+### The Aeroplane That Took the Number
 
 **The Valkyrie exists because the Air Force Research Laboratory set out to break a cost curve rather than to advance a technology.** The programme was the Low Cost Attritable Aircraft Technology portfolio, and its stated goal is to break the escalating cost trajectory of tactically relevant aircraft \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\]. **That is a goal about money, expressed as a goal about aeroplanes.**
 
@@ -173,6 +185,12 @@ $$
 **Two and a half years from contract award to first flight is the number the laboratory chose to publish about itself.** Its own fact sheet states it twice \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\].
 
 **The comparison with the article immediately before this one is not flattering to the X series.** The [X-57][related_post_a354_esaero_x57_maxwell] was allocated its number in May 2016, fourteen months before the Valkyrie was allocated its own, ran until 2023, delivered an airframe, tested it on the ground, and closed out without ever leaving the runway. **The aeroplane that took the X series' number flew in two and a half years. The aeroplane that kept the number before it never flew at all.**
+
+## Sizing From First Principles
+
+**There was no X-58 to size.** No vehicle was ever designed against the number, so no mass, thrust or geometry exists for it, and the record says nothing about an intended aeroplane because none was intended.
+
+**What can be sized is the XQ-58A, and this article sizes it from its published figures rather than from any design document.** The mass budget, the two published speeds and the design life that attritability implies are each worked from the specification the registry and the encyclopaedic account publish \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\]. **These are reconstructions of a Q-series aeroplane and not of the X-58**, and the registry's own specification note warns that its figures may be inaccurate \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\].
 
 ### What It Is, in Numbers
 
@@ -247,15 +265,7 @@ $$
 
 **At 476 knots at the ceiling the dynamic pressure is 7.1 kilopascals. At 566 knots at sea level it is 51.9**, which is 7.3 times as much. **The structure is sized by the second and the mission is flown at the first**, and the register's mention of flight down to fifty feet means the second is not hypothetical \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\].
 
-### The Record of What It Has Done
-
-**The flight record is the reason the designation question is interesting rather than pedantic.** The vehicle opened its internal bay and released a small air-launched vehicle in March 2021, has acted as a datalink relay between an F-35 and an F-22, was flown by an autonomy package developed under the Skyborg programme in 2023, flew in formation with an F-15E at Eglin in August 2023, and is the airframe on which the Air Force has developed its Collaborative Combat Aircraft concept \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\] \[[Skyborg][ref_skyborg]\] \[[Collaborative Combat Aircraft][ref_cca]\] \[[Anduril Altius][ref_altius]\] \[[Eglin Air Force Base][ref_eglin]\].
-
-**The Marine Corps and the Navy each bought two, and the Marine Corps intends a production electronic attack variant designated MQ-58B** \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\]. **Note the letter.** The production form drops the experimental status prefix and takes a modified mission symbol, which is what the instruction prescribes and what the X series cannot do, because a research designation has nowhere to go when the aeroplane stops being research.
-
-**That is a structural observation and it may be the real reason.** An aeroplane designated in the X series and then wanted in service has to change series to be procured, which is what happened to the X-35 when it became the F-35 \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\]. **An aeroplane designated XQ-58A becomes MQ-58B without changing series at all.** The number survives the transition. **A programme that expected to be procured had a reason to prefer a Q designation, and the record does not say whether anybody thought of it.**
-
-## Attritability Is an Expected Value, Not an Attitude
+### Attritability Is an Expected Value, Not an Attitude
 
 **The word the laboratory uses has a definition and the definition is quantitative.** An attritable aircraft is one designed to be used for several missions but built at a cost that permits it to be a combat loss \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\]. **Several missions and a permissible loss are two numbers, and the design problem is the relation between them.**
 
@@ -295,7 +305,7 @@ $$
 
 **The exquisite aeroplane fails this test by construction.** A structure qualified for thousands of hours, inspected on a schedule that assumes it will survive to need inspecting, and maintained to keep it airworthy for decades, is paying for a life the threat will not let it spend. **The laboratory's fact sheet makes exactly this argument about inspection and maintenance burden**, in prose rather than in symbols \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\].
 
-### The Cost Per Sortie, Which Is the Number the Argument Turns On
+#### The Cost Per Sortie, Which Is the Number the Argument Turns On
 
 **Amortising the airframe over the sorties it is expected to deliver gives the figure a comparison can use.**
 
@@ -315,7 +325,7 @@ $$
 
 **That result explains the whole design philosophy in one line.** Survivability is bought with money, and the amount it is worth is proportional to the price of the thing being made survivable. **Making the aeroplane cheap does not merely reduce the loss when it happens. It reduces the value of preventing the loss**, and therefore the amount worth spending on stealth, redundancy, warning receivers and everything else that makes an exquisite aeroplane exquisite.
 
-### The Comparison That Needs No Prices
+#### The Comparison That Needs No Prices
 
 **The draft of this article left the cost-imposing inequality standing because no citable interceptor price was found. The comparison against an aeroplane that is not meant to be lost has no such difficulty**, because the absolute figures cancel.
 
@@ -334,7 +344,7 @@ $$
 
 **The table is the argument for attritable aircraft, stated without a single price.** **A cost ratio of forty buys the right to lose four sorties in ten and still be ahead** of an aeroplane that hardly ever fails to come home. **A cost ratio of ten against an opponent that is nearly invulnerable does not**, since the attritable aeroplane must then survive 99 percent of its sorties, which is very nearly what the expensive one manages.
 
-### The First Row Is the One the Service Has Told Congress
+#### The First Row Is the One the Service Has Told Congress
 
 **The top row is not a round number chosen to fill a table.** A congressional research product prepared for members and committees records that the Air Force has stated a collaborative combat aircraft would cost roughly one third the price of a crewed fighter \[[U.S. Air Force Collaborative Combat Aircraft, CRS IF12740, 15 August 2024][ref_crs_cca_2024]\] \[[U.S. Air Force Collaborative Combat Aircraft, CRS In Focus IF12740][ref_crs_cca]\]. **That is a cost ratio of three, and it is the only official cost statement this article has found for the class the Valkyrie seeded.**
 
@@ -348,7 +358,7 @@ $$
 
 **So the case does not rest on the aeroplane being cheap. It rests on the ratio being large and on the environment being hostile enough that the expensive aeroplane's survival is not near one.** **In a permissive sky the arithmetic favours the exquisite aeroplane**, which is what the laboratory's own fact sheet says in words when it observes that the most sophisticated unmanned aircraft are limited to permissive environments \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\].
 
-### What a Cost Per Sortie Buys, in Airframes
+#### What a Cost Per Sortie Buys, in Airframes
 
 **A campaign needs sorties and a programme buys airframes, and the expected-sorties relation converts one into the other.**
 
@@ -386,7 +396,7 @@ $$
 
 **This is why the two published unit costs differ by a factor of two, and it is also why neither is a property of the aeroplane.** A cost that depends on a production rate that depends on a procurement decision is not a design parameter. **The number two million dollars is a forecast conditional on somebody ordering a hundred aeroplanes a year, and the record does not show that anybody has.**
 
-### The Cost-Imposing Claim, Left as a Condition
+#### The Cost-Imposing Claim, Left as a Condition
 
 **The fact sheet states an intent to force a cost-imposing effect on future adversaries** \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\]. **That is an exchange-ratio claim and it has an exact form.** If the defender expends $n_i$ interceptors of cost $C_i$ to remove one attacking aeroplane, the exchange favours the attacker when the following holds.
 
@@ -400,7 +410,7 @@ $$
 \frac{C_a}{\bar{s}\,N_w} \;+\; C_w \;<\; C_m
 $$
 
-### Why Survivability Is Expensive, Which Is the Other Half of the Same Trade
+#### Why Survivability Is Expensive, Which Is the Other Half of the Same Trade
 
 **The derivative above says what survivability is worth. The radar range equation says what it costs.** Detection range against a given radar varies as the fourth root of the radar cross-section, because the returned power falls as the fourth power of range \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\].
 
@@ -418,7 +428,15 @@ $$
 
 **Both inequalities are left as conditions and neither is evaluated here, because this article has no citable figure for the cost of a modern surface-to-air interceptor or for the number expended per engagement.** **An inequality with one side unquantified is a statement about structure and not a result**, and calling it a result would be the defect the preceding three articles in this series each had to repair in their conclusions.
 
-## Leaving the Ground Without a Runway
+## Dependent Systems
+
+**The X-58 has no dependent systems because it has no vehicle.** The systems this section treats belong to the XQ-58A.
+
+**That aeroplane depends on three systems that a runway-based aeroplane would not need in the same form.** It is launched from a trailer by solid propellant rocket boosters, recovered by parachute, and propelled by an engine whose class the sources dispute \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\]. **None of the three is documented in detail anywhere consulted**, so the booster impulse, the canopy size and staging, and the engine's cruise thrust are derived as bounds and consistency checks rather than reported.
+
+**The range and the ceiling are treated here because both turn on the engine**, the first through its specific fuel consumption and the second through the lapse of its thrust with altitude.
+
+### Leaving the Ground Without a Runway
 
 **Runway independence is the second stated requirement and the register's own mission statement does not mention it.** The vehicle is launched from a trailer using solid propellant rocket boosters and recovered by parachute, and the laboratory's fact sheet names runway independence as offering maximum operational flexibility \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\].
 
@@ -461,7 +479,7 @@ $$
 
 **At a lift-off speed of 50 m per second that is 25.5 m**, which is a trailer rather than an installation.
 
-## Coming Back Without One
+### Coming Back Without One
 
 **Recovery by parachute has to dispose of almost all of the energy the aeroplane has.** The terminal velocity under a canopy of area $S_p$ and drag coefficient $C_{D_p}$ is the standard result \[[Knacke, Parachute recovery systems design manual][book_knacke]\].
 
@@ -485,7 +503,7 @@ $$
 
 **A canopy of fifteen metres across for an aeroplane whose wings span eight is the price of not needing a runway at the other end.** The area scales as the inverse square of the touchdown speed, so every metre per second of impact the airframe can tolerate is bought back several times over in canopy.
 
-### The Canopy That Lands It Cannot Be Opened at the Speed It Arrives
+#### The Canopy That Lands It Cannot Be Opened at the Speed It Arrives
 
 **Everything above is the steady descent, which is the easy part.** The sizing case is the opening, and writing it down shows that the two cannot be the same canopy.
 
@@ -517,7 +535,7 @@ $$
 
 **The registry's account says the vehicle is recovered by parachute and says no more than that.** **The staging is not documented anywhere consulted, and this section derives that there must be some rather than reporting what it is.**
 
-### Where It Comes Down Is Not Where It Was Released
+#### Where It Comes Down Is Not Where It Was Released
 
 **A slow descent is a long descent, and a long descent drifts.**
 
@@ -535,7 +553,7 @@ $$
 
 **The kinetic energy at cruise is 81.6 MJ and the kinetic energy at an eight metre per second touchdown is 0.036 MJ.** **The recovery sequence disposes of more than 99.9 percent of the aeroplane's energy before the parachute is asked to do anything at all**, and the parachute handles what is left. That work is done by the airframe decelerating aerodynamically, which is to say by the same drag the cruise section is trying to minimise.
 
-## Range, and a Disagreement the Arithmetic Can Settle
+### Range, and a Disagreement the Arithmetic Can Settle
 
 **Two sources disagree about the engine and the disagreement matters.** The registry states one turbojet of 8.9 kN, and the encyclopaedic account states a Williams FJ33 turbofan of 2,000 lbf \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\] \[[Williams FJ33][ref_williams_fj33]\]. **The thrust figures agree and the engine class does not.** The laboratory's fact sheet describes turbine inlet integration without naming the engine \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\].
 
@@ -561,7 +579,7 @@ $$
 
 **A lift-to-drag ratio near ten and a half is unremarkable for a small swept jet with an internal bay. A ratio near fourteen is not.** **The arithmetic therefore favours the turbofan**, and it does so more strongly than the table shows, because the calculation charges the whole fuel load to cruise and allows nothing for climb, descent or reserve. **Allowing for those raises every figure in the right-hand column and pushes the turbojet case further out of reach.**
 
-### What the Engine Actually Has to Do, and What That Costs
+#### What the Engine Actually Has to Do, and What That Costs
 
 **The lift-to-drag ratio the range demands can be turned round to say what the engine is doing in cruise.**
 
@@ -579,7 +597,7 @@ $$
 
 **That gives 168.7 kilograms an hour and an endurance of 6.18 hours with every kilogram of fuel spent in cruise.** Multiplying by the cruise speed returns 5,451 kilometres against the published 5,556. **The two agree to within two percent, and the residual is the rounding in the lift-to-drag ratio and the use of a mid-cruise weight in place of the integral.** **A closure this tight is what makes the earlier argument about the engine class worth anything**, since a model that could not reproduce its own input would be no evidence about anything.
 
-### And It Partly Closes the Cost Boundary the Draft Left Open
+#### And It Partly Closes the Cost Boundary the Draft Left Open
 
 **The cost-per-sortie relation carries an operating term this article could not fill in.** Fuel is the one component of it that the numbers above determine.
 
@@ -591,7 +609,7 @@ $$
 
 **One assumption in that calculation deserves to be stated separately, because the answer moves a long way with it.** The fuel load depends on whether the payload is aboard. With both stations filled the fuel is 1,043.3 kg and the required ratio is 10.43. With the internal station only it is 1,315.4 kg and 7.64. **Clean, with no payload at all, the fuel is 1,587.6 kg and the required ratio falls to 5.76, which any aeroplane of this shape would meet easily.** **No source states which loading the 3,000 nautical mile figure assumes**, and the range of answers spans a factor of nearly two.
 
-## The Ceiling, as a Second Opinion
+### The Ceiling, as a Second Opinion
 
 **A published ceiling is an independent constraint on the same aeroplane and it can be used as a check.** At the ceiling the available thrust equals the drag, and thrust falls with density \[[Mattingly, Heiser and Pratt, Aircraft engine design][book_mattingly]\].
 
@@ -615,19 +633,37 @@ $$
 
 **The linear lapse is the pessimistic law and is shown first for that reason.** A real installed turbofan at high subsonic Mach loses thrust more slowly than density, which is why the smaller exponents are also given rather than a single figure being asserted.
 
-## An X-Plane Is Too Precious to Lose and This One Is Not
+## The Flight Test Record
 
-**The two halves of this article meet here.** The X series exists to fly aeroplanes that answer questions, and an aeroplane that answers questions is protected, because losing it ends the answering. **The Valkyrie exists to be lost, and its whole design follows from that.**
+**The X-58 has no flight test record, because nothing was ever built under that number.** The register carries no X-58 row \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-**The series has just supplied the contrast, and it did not have to be looked for.** The [X-56][related_post_a353_lockheed_martin_x56] was built to flutter deliberately, which is as close as an X-plane comes to being expendable. One of the two airframes was destroyed on takeoff. **The programme then flew the remaining aeroplane with a caution that stopped the envelope short of the second flutter mechanism it had been built to exhibit**, because there was one aeroplane left and losing it would have ended the work. **A research aeroplane's value is concentrated in the airframe, so the airframe governs the risk that may be taken with it.**
+**The flight record that exists belongs to the XQ-58A, and it is set out here under that vehicle's name.** The aeroplane first flew on 5 March 2019 at Yuma Proving Ground, two and a half years after its contract was awarded \[[XQ-58A Valkyrie demonstrator completes inaugural flight][ref_first_flight]\] \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\]. **What this article records is a sequence of events rather than of measurements**, and it reports no flight-measured performance figure for the vehicle.
 
-**Attritability moves the value out of the airframe.** The expected-sorties relation above is the formal statement of that move. **Once the cost per sortie is low enough, the operator stops optimising for the survival of any particular aeroplane and starts optimising for the delivery of effect**, and the two optimisations give different answers about almost every decision, from how much redundancy to fit to whether to fly at all on a given night.
+### The Record of What It Has Done
 
-**So the aeroplane that took the X series' number inverts the premise on which the X series decides what to do.** That is a sharper distinction than manned against unmanned, or research against combat, and unlike those two it is not refuted by the register.
+**The flight record is the reason the designation question is interesting rather than pedantic.** The vehicle opened its internal bay and released a small air-launched vehicle in March 2021, has acted as a datalink relay between an F-35 and an F-22, was flown by an autonomy package developed under the Skyborg programme in 2023, flew in formation with an F-15E at Eglin in August 2023, and is the airframe on which the Air Force has developed its Collaborative Combat Aircraft concept \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\] \[[Skyborg][ref_skyborg]\] \[[Collaborative Combat Aircraft][ref_cca]\] \[[Anduril Altius][ref_altius]\] \[[Eglin Air Force Base][ref_eglin]\].
 
-**It also explains the register's silence.** The mission statement for the XQ-58A says unmanned, transonic, long-range, low-cost, limited life and strike \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Two of those six words are about money and lifetime rather than about flight, and no X row in the register carries a word of that kind.** The register has columns for the date, the designation, the contractor, the engines, the sponsor and the mission. **It has no column for what the aeroplane is worth, and worth is the variable this aeroplane was designed around.**
+**The Marine Corps and the Navy each bought two, and the Marine Corps intends a production electronic attack variant designated MQ-58B** \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\]. **Note the letter.** The production form drops the experimental status prefix and takes a modified mission symbol, which is what the instruction prescribes and what the X series cannot do, because a research designation has nowhere to go when the aeroplane stops being research.
 
-**The claim that the Valkyrie behaves more like an X-plane than the X-planes do is defensible on the record and is not asserted here as established.** It flew in two and a half years, it was built to answer a question about cost rather than about aerodynamics, it carried an autonomy package nobody had flown before, and it did all of that under a designation that says it is a drone. **What the record does not contain is anybody at the allocating office saying any of this**, and the sections above are careful to keep the two apart.
+**That is a structural observation and it may be the real reason.** An aeroplane designated in the X series and then wanted in service has to change series to be procured, which is what happened to the X-35 when it became the F-35 \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\]. **An aeroplane designated XQ-58A becomes MQ-58B without changing series at all.** The number survives the transition. **A programme that expected to be procured had a reason to prefer a Q designation, and the record does not say whether anybody thought of it.**
+
+## Comparison With Ground Prediction
+
+**For the X-58 there is nothing to compare.** No prediction was made for a vehicle that was never proposed, and nothing flew, so flight returned nothing to set beside one.
+
+**For the XQ-58A the comparison cannot be made from the public record as this article reports it, and the article says so rather than supplying one.** The figures it works with are published specifications, and it reports no flight-measured value of range, ceiling, speed, mass or lift-to-drag ratio against which to test them. **The checks it does make compare one published figure with another**, which tests the internal consistency of a specification and not the behaviour of an aeroplane in flight.
+
+**Those consistency checks are the nearest thing the article has to this section's subject, and they are argued where they arise.** The section headed Range, and a Disagreement the Arithmetic Can Settle finds that the published range requires a lift-to-drag ratio of 10.43 at a consumption of 0.80 per hour and 13.69 at 1.05 per hour, and that its cruise model returns 5,451 kilometres against a published 5,556. The section headed The Ceiling, as a Second Opinion finds that the quoted ceiling requires between 7.65 and 12.53. **The two agree within the width of their assumptions.** The section headed The Two Published Speeds Do Not Refer to the Same Altitude finds that the 566 knot maximum agrees with Mach 0.85 at sea level and not at the ceiling.
+
+**Whether the aeroplane met its specification in flight is therefore not established here.** The registry's own specification note warns that its figures may be inaccurate \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\], and this article cites no flight result that confirms or corrects them.
+
+## What the Data Changed
+
+**No flight data exist for the X-58, so no flight changed anything about it.** What changed the account of the X-58 was the register, read row by row.
+
+**The register's counts changed the explanation.** The guess that the Valkyrie could not be an X-plane because it is unmanned fails against 15 unmanned rows among 30 X designations, and the mission and armament guesses fail against the X-45A and the X-68A \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The section headed Every Obvious Explanation Fails Against the Register Itself sets out each. **The same register corrected this article's own first draft**, whose conclusion called the X-58 the first place in the X series where a number became the right one, a claim that the X-50A and the XRQ-72A refute.
+
+**For the XQ-58A the article records consequences rather than measurements.** The vehicle became the airframe on which the Air Force has developed its Collaborative Combat Aircraft concept, and the Marine Corps intends a production variant designated MQ-58B \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Collaborative Combat Aircraft][ref_cca]\]. **What those flights showed, in numbers, is not reported here**, so the article cannot say which result moved which decision.
 
 ## Symbols
 
@@ -767,7 +803,7 @@ $$
 
 ### Attritability, which is a design variable and not an attitude
 
-**This is the keystone cluster and it is the smallest in the survey**, which is a finding rather than a defect and is treated as one in the section below. The cluster holds 20 records.
+**This is the keystone cluster and it is the smallest in the survey**, which is a finding rather than a defect and is treated as one in the section headed The Source Base. The cluster holds 20 records.
 
 **20 works.** \[[Boyd et al 2026][research_boyd_gibson_2026]\] \[[Colombi et al 2017][research_colombi_bentz_2017]\] \[[Cybenko and Hallman 2021][research_cybenko_hallman_2021]\] \[[Davidović et al 2025][research_davidovic_milos_2025]\] \[[Dengler, R. P. and Macioce, L. E. 1976][research_denglerrp_maciocele_1976]\] \[[Dengler, R. P. and Macioce, L. E. 1976][research_denglerrp_maciocele_1976_b]\] \[[Fiedler et al 2024][research_fiedler_loung_2024]\] \[[Hawkins 1989][research_hawkins_1989]\] \[[Hecht Gnacek et al 2025][research_hechtgnacek_mcmanamon_2025]\] \[[Huben and Metsker 1978][research_huben_metsker_1978]\] \[[Jeong and Oh 2026][research_jeong_oh_2026]\] \[[Jones et al 2021][research_jones_kovarik_2021]\] \[[Kahn and Edwards 2015][research_kahn_edwards_2015]\] \[[Lilley et al 1991][research_lilley_pengelly_1991]\] \[[Ma et al 2021][research_ma_docimo_2021]\] \[[Miller 1975][research_miller_1975]\] \[[Miller 2024][research_miller_2024]\] \[[Munro and Krus 2002][research_munro_krus_2002]\] \[[Pagan et al 2018][research_pagan_huynh_2018]\] \[[Ritterman and Ralph 1975][research_ritterman_ralph_1975]\]
 
@@ -842,6 +878,20 @@ $$
 **What no cluster claimed.** The cluster holds 34 records.
 
 **34 works.** \[[Arık and Bilgiç 2022][research_arik_bilgic_2022]\] \[[Bernstein 2000][research_bernstein_2000]\] \[[Bertola et al 2015][research_bertola_cox_2015]\] \[[Bertola et al 2016][research_bertola_cox_2016]\] \[[Bodson 2001][research_bodson_2001]\] \[[Bryant 1989][research_bryant_1989]\] \[[Chelner 2002][research_chelner_2002]\] \[[Chelner 2003][research_chelner_2003]\] \[[Chester 2002][research_chester_2002]\] \[[Curran et al 2008][research_curran_gilmour_2008]\] \[[Factors that influence Manufacturing][research_factors_that]\] \[[Harlalka et al 2016][research_harlalka_naiju_2016]\] \[[Houseman et al 2008][research_houseman_roy_2008]\] \[[Johnson, D. L. et al 1991][research_johnsondl_blockerrhonda_1991]\] \[[Kuhn et al 1981][research_kuhn_bruce_1981]\] \[[Lovelace 1998][research_lovelace_1998]\] \[[Merz et al 1970][research_merz_burnes_1970]\] \[[O'Reilly 1999][research_oreilly_1999]\] \[[Ratnasingam 2022][research_ratnasingam_2022]\] \[[Richardson and Tommasini 1967][research_richardson_tommasini_1967]\] \[[Sasso 1989][research_sasso_1989]\] \[[Schober and Franklin 1968][research_schober_franklin_1968]\] \[[Seidel 1965][research_seidel_1965]\] \[[Shimpi and Sawarkar 2026][research_shimpi_sawarkar_2026]\] \[[Shklovskii and Kurt 1961][research_shklovskii_kurt_1961]\] \[[Singer 1956][research_singer_1956]\] \[[Spaight and Selfors 1967][research_spaight_selfors_1967]\] \[[Thokala et al 2012][research_thokala_scanlan_2012]\] \[[Tilley et al][research_tilley_conway]\] \[[Turns and Kraige][research_turns_kraige]\] \[[Tutt et al 2022][research_tutt_janda_2022]\] \[[Upper Atmosphere Re-Entry Study 1961][research_upper_atmosphere_1961]\] \[[Wei and Nie 2005][research_wei_nie_2005]\] \[[Zhou et al 2026][research_zhou_zhou_2026]\]
+
+## Where the Framing Breaks Down, An X-Plane Is Too Precious to Lose and This One Is Not
+
+**The two halves of this article meet here.** The X series exists to fly aeroplanes that answer questions, and an aeroplane that answers questions is protected, because losing it ends the answering. **The Valkyrie exists to be lost, and its whole design follows from that.**
+
+**The series has just supplied the contrast, and it did not have to be looked for.** The [X-56][related_post_a353_lockheed_martin_x56] was built to flutter deliberately, which is as close as an X-plane comes to being expendable. One of the two airframes was destroyed on takeoff. **The programme then flew the remaining aeroplane with a caution that stopped the envelope short of the second flutter mechanism it had been built to exhibit**, because there was one aeroplane left and losing it would have ended the work. **A research aeroplane's value is concentrated in the airframe, so the airframe governs the risk that may be taken with it.**
+
+**Attritability moves the value out of the airframe.** The expected-sorties relation above is the formal statement of that move. **Once the cost per sortie is low enough, the operator stops optimising for the survival of any particular aeroplane and starts optimising for the delivery of effect**, and the two optimisations give different answers about almost every decision, from how much redundancy to fit to whether to fly at all on a given night.
+
+**So the aeroplane that took the X series' number inverts the premise on which the X series decides what to do.** That is a sharper distinction than manned against unmanned, or research against combat, and unlike those two it is not refuted by the register.
+
+**It also explains the register's silence.** The mission statement for the XQ-58A says unmanned, transonic, long-range, low-cost, limited life and strike \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Two of those six words are about money and lifetime rather than about flight, and no X row in the register carries a word of that kind.** The register has columns for the date, the designation, the contractor, the engines, the sponsor and the mission. **It has no column for what the aeroplane is worth, and worth is the variable this aeroplane was designed around.**
+
+**The claim that the Valkyrie behaves more like an X-plane than the X-planes do is defensible on the record and is not asserted here as established.** It flew in two and a half years, it was built to answer a question about cost rather than about aerodynamics, it carried an autonomy package nobody had flown before, and it did all of that under a designation that says it is a drone. **What the record does not contain is anybody at the allocating office saying any of this**, and the sections above are careful to keep the two apart.
 
 ## The Source Base
 

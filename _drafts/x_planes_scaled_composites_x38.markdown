@@ -857,6 +857,38 @@ requirement disappeared, and with it the only reason to build a seven-seat vehic
 - [Probabilistic risk assessment in nuclear power plant...][research_wall_1980]
 - [Probabilistic risk assessment of HTGRs][research_fleming_houghton_1981]
 
+## Comparison With Ground Prediction
+
+**The record holds one true comparison between a ground prediction and the flown system, and it is a disagreement.**
+A vehicle-level load model, worked through in the section headed Sizing From First Principles, says that a
+canopy of 696.8 square metres could have been inflated in a single step inside three g at a deployment speed
+near twenty-seven metres per second. The flown system used five [reefed][ref_reefing] stages. The section
+headed Where the Framing Breaks Down explains why the conclusion drawn from that disagreement is an inference
+from a failure, and why its margin is only twenty percent in deployment speed. No published inflation
+analysis for this canopy was found against which to set the flown loads.
+
+**The aerodynamic prediction was inherited rather than made.** The [X-24A][ref_x24a] shape had flown
+twenty-eight times between 1969 and 1971, and the programme took its aerodynamic database instead of running
+the wind-tunnel campaign that a new lifting body would have needed. The drop tests therefore flew a shape
+whose behaviour was already known from flight. The article reports no comparison between the drop-test
+aerodynamics and that database, and the record assembled here does not supply one.
+
+**The parafoil figures in this article are predictions with no published flight value beside them.** The
+sink rate of 5.56 metres per second, the airspeed of 17.58 metres per second and the energy ratio of 26.2
+rest on a lift coefficient of 0.80 and a glide ratio of 3, which are typical values and are not published
+for this canopy. The table in the section headed The Flight Test Record that sets each drop-test mass beside
+a sink rate is computed from the same relation and is not a measured result.
+**What flight established is the condition of the test and not the value of the coefficients.** The heaviest
+drop test came within a factor of 1.021 of the orbital vehicle's computed sink rate, so the landing system
+flew at very nearly its design condition.
+
+**The entry predictions have no flight counterpart at all.** The deorbit increment of 132.8 metres per
+second, the ballistic peak of 3.87 g and the relieved peak of 3.02 g at a lift-to-drag ratio of 0.8 are
+calculations. No X-38 reached orbit, and the orbital vehicle V-201 was 90 percent complete when the programme
+was cancelled on 29 April 2002. **For the half of the problem the vehicle was built to solve, flight returned
+nothing to compare**, which the section headed Epistemic State records as the question the record does not
+settle.
+
 ## What the Data Changed
 
 ### What the Programme Settled
@@ -882,59 +914,6 @@ station and lands on a runway, which is the answer the X-38 declined to give.
 **No crewed vehicle has since landed under a parafoil.** Every crewed vehicle flying today returns under
 round canopies to water or to ground, or lands horizontally on a runway.
 **The X-38's specific answer, the gliding canopy for a crewed return, has no descendants.**
-
-## Where the Framing Breaks Down
-
-### The Parafoil Numbers Rest on Two Assumed Coefficients
-
-**The lift coefficient of 0.80 and the glide ratio of 3 are typical and are not published for this canopy.**
-The sizing section computes the sensitivity instead of asserting robustness, and the sink rate moves from
-5.56 to 6.42 metres per second at a coefficient of 0.60 and to 4.97 at 1.00.
-**The energy ratio moves only as the first power**, between 19.7 and 32.8 across the same range, so the
-conclusion survives and the individual sink rates should not be quoted to three figures.
-
-### The Runway Comparison Uses a Speed the X-38 Never Had
-
-**Ninety metres per second is a lifting body's touchdown speed and it is taken from the X-24 family rather than from the X-38**,
-which never landed horizontally and had no landing gear. The comparison is therefore between this vehicle
-under its canopy and the vehicle it would have had to be if it landed on a runway.
-**That is the correct comparison for the argument and it is not a measurement of two things that both existed.**
-
-### The Landing Opportunity Table Is an Order of Magnitude and Nothing Finer
-
-**The site counts are illustrative.** Nobody has enumerated the world's flat unobstructed areas, the
-reachability model treats sites as uniformly distributed over the covered band, and real site selection
-involves weather, overflight permission, recovery logistics and terrain.
-**What survives is the direction and the scale, which is a factor of thousands and not a factor of two.**
-
-### The Reefing Conclusion Is an Inference From a Failure, and Its Margin Is Narrow
-
-**The article concludes that the canopy's own structure sets the stage count, and it concludes that because a vehicle-level load model fails to explain the flown system.**
-That is an argument from the absence of an alternative and not a measurement of canopy loads, and a
-published inflation analysis for this canopy would settle it. **None was found.**
-
-**The margin is also narrower than the three g figure suggests.** The full canopy reaches three g at 32.28
-metres per second, which is only **1.20 times** the assumed deployment speed, and it reaches two g at 26.36,
-which is **below** it.
-**A deployment twenty percent faster than assumed, or a limit set at two g rather than three, would put the steady load back into contention**,
-and the deployment speed itself is taken from a loosely reported figure.
-
-### The Scaling Comparison Puts Two Unlike Machines Side by Side
-
-The X-24A was a piloted rocket research aircraft and the X-38 was an uncrewed lifeboat carrying seven.
-**Measuring an exponent between them is legitimate as a description and misleading as an explanation**, and
-the article says which it means.
-
-**The exponent is also sensitive to figures that are easy to get wrong.** It rests on two published numbers
-for a vehicle retired in 1971, and moving the X-24A length by half a metre or its mass by three hundred
-kilograms moves the exponent by several tenths. **What is robust is the sign**, that mass grew faster than
-the cube of length, and that is the only thing the argument uses.
-
-### Nothing Here Is Validated Against an Orbital Flight
-
-**No X-38 ever flew in space.** Every entry number in this article is a calculation with no flight data
-behind it, and the vehicle that would have produced that data sits in storage.
-**An article about a vehicle that never flew its mission cannot verify the half of its argument that concerns the mission.**
 
 ## The Contemporary Literature
 
@@ -1269,6 +1248,59 @@ directly on the entry profile a lifeboat should fly.
 - [Orthostatic intolerance in spaceflight a systematic review...][research_kim_kim_2026]
 - [Postural Orthostatic Tachycardia Syndrome and Chronic...][research_klaas_fischer_2026]
 - [Prevalence and symptom characteristics of Postural...][research_lukacova_mitro_2026]
+
+## Where the Framing Breaks Down
+
+### The Parafoil Numbers Rest on Two Assumed Coefficients
+
+**The lift coefficient of 0.80 and the glide ratio of 3 are typical and are not published for this canopy.**
+The sizing section computes the sensitivity instead of asserting robustness, and the sink rate moves from
+5.56 to 6.42 metres per second at a coefficient of 0.60 and to 4.97 at 1.00.
+**The energy ratio moves only as the first power**, between 19.7 and 32.8 across the same range, so the
+conclusion survives and the individual sink rates should not be quoted to three figures.
+
+### The Runway Comparison Uses a Speed the X-38 Never Had
+
+**Ninety metres per second is a lifting body's touchdown speed and it is taken from the X-24 family rather than from the X-38**,
+which never landed horizontally and had no landing gear. The comparison is therefore between this vehicle
+under its canopy and the vehicle it would have had to be if it landed on a runway.
+**That is the correct comparison for the argument and it is not a measurement of two things that both existed.**
+
+### The Landing Opportunity Table Is an Order of Magnitude and Nothing Finer
+
+**The site counts are illustrative.** Nobody has enumerated the world's flat unobstructed areas, the
+reachability model treats sites as uniformly distributed over the covered band, and real site selection
+involves weather, overflight permission, recovery logistics and terrain.
+**What survives is the direction and the scale, which is a factor of thousands and not a factor of two.**
+
+### The Reefing Conclusion Is an Inference From a Failure, and Its Margin Is Narrow
+
+**The article concludes that the canopy's own structure sets the stage count, and it concludes that because a vehicle-level load model fails to explain the flown system.**
+That is an argument from the absence of an alternative and not a measurement of canopy loads, and a
+published inflation analysis for this canopy would settle it. **None was found.**
+
+**The margin is also narrower than the three g figure suggests.** The full canopy reaches three g at 32.28
+metres per second, which is only **1.20 times** the assumed deployment speed, and it reaches two g at 26.36,
+which is **below** it.
+**A deployment twenty percent faster than assumed, or a limit set at two g rather than three, would put the steady load back into contention**,
+and the deployment speed itself is taken from a loosely reported figure.
+
+### The Scaling Comparison Puts Two Unlike Machines Side by Side
+
+The X-24A was a piloted rocket research aircraft and the X-38 was an uncrewed lifeboat carrying seven.
+**Measuring an exponent between them is legitimate as a description and misleading as an explanation**, and
+the article says which it means.
+
+**The exponent is also sensitive to figures that are easy to get wrong.** It rests on two published numbers
+for a vehicle retired in 1971, and moving the X-24A length by half a metre or its mass by three hundred
+kilograms moves the exponent by several tenths. **What is robust is the sign**, that mass grew faster than
+the cube of length, and that is the only thing the argument uses.
+
+### Nothing Here Is Validated Against an Orbital Flight
+
+**No X-38 ever flew in space.** Every entry number in this article is a calculation with no flight data
+behind it, and the vehicle that would have produced that data sits in storage.
+**An article about a vehicle that never flew its mission cannot verify the half of its argument that concerns the mission.**
 
 ## The Source Base
 

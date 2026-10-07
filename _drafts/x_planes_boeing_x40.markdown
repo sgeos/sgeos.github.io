@@ -640,6 +640,52 @@ the series \[[Boeing X-37 and X-40][ref_x37_x40]\]. The release altitude of the 
 **The vehicle was retired in May 2001 and is preserved at the National Museum of the United States Air
 Force** \[[Boeing X-40][ref_x40]\].
 
+## Comparison With Ground Prediction
+
+**The record holds no published ground prediction for the X-40A itself, so a direct comparison cannot be
+made.** None of the article's sources reports a wind tunnel campaign, a simulation of the trajectory or a
+contractor estimate of the descent that the flights could be checked against. What the article can set
+beside the flight record is the expectation the programme stated, the analytical relations derived in the
+section headed Sizing From First Principles, and the measured behaviour of the vehicle class the shape
+came from.
+
+**The stated expectation was met in full.** The programme manager gave the purpose of the first flight as
+validating low-speed handling qualities and demonstrating autonomous approach and landing
+\[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\]. Flight returned
+eight free flights, each ending in an autonomous landing, and a landing within 7 feet of the runway
+centreline on the first Dryden flight \[[Boeing X-40][ref_x40]\]. **That is the confirmation of an
+objective and not a comparison of numbers**, because no predicted dispersion is published to set the
+7 feet against.
+
+**The navigation unit was the one component tested in flight against an independent reference.** The
+Space Integrated Global Positioning System and Inertial Navigation System was evaluated during the
+approach and landing campaign against differential satellite navigation
+\[[Childers and others 2001][research_childers_2001]\]. Its achieved accuracies are in the full report
+rather than in its abstract, as the section headed Epistemic State records, so the article cannot state
+how closely flight matched what was required.
+
+**The glide can be compared with its class, and it fell well short of the class maximum.** Flight-determined
+subsonic lift and drag for seven lifting-body and wing-body configurations put the attainable maximum ratio
+in the range of roughly 3 to 4 \[[Saltzman and others 1999][research_saltzman_1999]\], and the 2001 flight
+figures give an effective ratio of 1.88. The section headed Sizing From First Principles argues that the
+gap reflects energy management toward a fixed point rather than an aerodynamic deficit. **The comparison is
+against other vehicles' flight data and not against a prediction for this one**, which limits what it can
+show.
+
+**The analytical predictions run the other way, from the flight article toward the full-scale vehicle.**
+The similarity relations predict that a dynamically similar model at a length ratio of 0.778 would weigh
+5,186 lb, and the vehicle weighed about 2,600 lb. The angular rate relation predicts a model responding
+about 13 percent faster than the full-scale vehicle, and the inertia shortfall roughly doubled the response
+to a given control moment, as the section headed Dependent Systems argues. **Those are predictions about
+what the flights could transfer, and the X-37A overrun of 2006 is the nearest thing in the record to a test
+of them**, which the section headed What the Data Changed discusses and the section headed Epistemic State
+marks as an inference.
+
+**The reference area was never predicted in public and flight recovers it only in part.** The steady glide
+fixes the product of planform area and lift coefficient at 13.42 square feet, and the split between them,
+a planform near 100 square feet and a lift coefficient of 0.134, is the article's own estimate and not a
+measurement.
+
 ## What the Data Changed
 
 **The programme's output was a validated software stack and a shape, and the shape mattered more than
@@ -694,28 +740,6 @@ X-40A was never that each flight proved much but that flights were affordable en
 percent of does not exist, and the designation it briefly held moved to the test article
 \[[Boeing X-37 and X-40][ref_x37_x40]\]. **The programme's surviving descendant is a space agency and then
 Air Force orbital vehicle rather than the rapid-turnaround military spaceplane that justified it.**
-
-## Where the Framing Breaks Down
-
-**Treating the X-40A through the similarity keystone is correct about the physics and misleading about
-the programme, in three specific ways.**
-
-**First, the programme never claimed dynamic similarity and the framing risks knocking down an argument
-nobody made.** Boeing described the vehicle as a technology demonstrator and the space agency described
-the flights as software evaluation. **Neither promised that the trajectory would scale**, and the mass
-result above is a finding about what the vehicle could have delivered rather than about a broken promise.
-
-**Second, similarity analysis assumes the objective is prediction, and here it was rehearsal.** A great
-deal of what an autonomous landing programme must retire is not physics at all, being the integration of
-navigation sensors, the handling of dropouts, the release transient, the interaction with range safety,
-and the question of whether the whole apparatus works on a real morning in real air. **None of that scales
-because none of it is a similarity problem**, and all of it is genuinely retired by flying.
-
-**Third, the keystone flatters the flight data by treating a 75 second glide as representative.** The
-X-37's return from orbit passes through hypersonic, supersonic and transonic flight and a thermal
-environment the X-40A never approached. **The X-40A tested the last four nautical miles of a mission that
-begins in orbit**, and calling that risk reduction for the mission is a claim about proportion that the
-flight data cannot support.
 
 ## The Contemporary Literature
 
@@ -1008,6 +1032,28 @@ flight data cannot support.
 - [Yang and others, 2016, The influence of the elastic vibration of the carrier to the aerodynamics of the external store in air-launch-to-orbit process][research_yang_ye_2016]
 - [Sohier and others, 2015, Analysis and optimization of an air-launch-to-orbit separation][research_sohier_pietlahanier_2015]
 - [Romero and Bledsoe, 2015, CPAS Preflight Drop Test Analysis Process][research_romero_bledsoe_2015]
+
+## Where the Framing Breaks Down
+
+**Treating the X-40A through the similarity keystone is correct about the physics and misleading about
+the programme, in three specific ways.**
+
+**First, the programme never claimed dynamic similarity and the framing risks knocking down an argument
+nobody made.** Boeing described the vehicle as a technology demonstrator and the space agency described
+the flights as software evaluation. **Neither promised that the trajectory would scale**, and the mass
+result above is a finding about what the vehicle could have delivered rather than about a broken promise.
+
+**Second, similarity analysis assumes the objective is prediction, and here it was rehearsal.** A great
+deal of what an autonomous landing programme must retire is not physics at all, being the integration of
+navigation sensors, the handling of dropouts, the release transient, the interaction with range safety,
+and the question of whether the whole apparatus works on a real morning in real air. **None of that scales
+because none of it is a similarity problem**, and all of it is genuinely retired by flying.
+
+**Third, the keystone flatters the flight data by treating a 75 second glide as representative.** The
+X-37's return from orbit passes through hypersonic, supersonic and transonic flight and a thermal
+environment the X-40A never approached. **The X-40A tested the last four nautical miles of a mission that
+begins in orbit**, and calling that risk reduction for the mission is a claim about proportion that the
+flight data cannot support.
 
 ## The Source Base
 

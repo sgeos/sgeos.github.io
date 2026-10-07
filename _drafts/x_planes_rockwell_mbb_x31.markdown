@@ -3480,78 +3480,6 @@ anything that does not sound, feel or smell right.
 arithmetic in this article supports that reading. The information needed to detect the failure was
 displayed, spoken aloud, and independently available on a second instrument.
 
-## Where the Framing Breaks Down
-
-**Treating this aircraft through its keystone misleads in five places, and the first is the sharpest.**
-
-### The Exchange Ratio Is Not a Property of the Aircraft
-
-**The whole apparatus of this article treats the exchange ratio as a measurement, and it is better understood as a joint measurement of an aircraft, a pilot, a tactic, an adversary and a set of rules.**
-The programme's own data proves it. The same aircraft in the same simulator with the same starting condition
-returned 1.2 in one campaign and 0.47 in the next, and the programme attributed the difference to which
-initial move the pilots chose.
-
-**A number that moves by a factor of two and a half when the pilots change their minds is not a property of the airframe.**
-
-### The Adversary Chooses the Engagement
-
-**The F-15C and F-16C result is the boundary of the entire keystone.** An advantage that exists inside a
-slow, close fight is realisable only if the opponent enters one. Against aircraft with enough excess thrust
-to sit above the fight and re-enter at their chosen moment, the X-31's advantage was largely unavailable.
-
-**This is an old lesson and the NASA history says so**, drawing the parallel with the [Fokker Dr I][ref_dr1]
-of 1917, an aircraft capable of post-stall pointing that pilots of faster conventional fighters learned to
-defeat by extending and attacking in slashing passes, denying it the ability to choose the time and place of
-the fight.
-
-### The Demonstrator Was Underpowered
-
-**The X-31 fought the F/A-18 from a position of disadvantage in conventional performance**, and the NASA
-history says so directly, attributing an exchange ratio of 0.37 without post-stall technology to the basic
-mediocrity of an underpowered design against a more powerful opponent with a better dogfighting wing.
-
-**That cuts both ways and the second direction is the more interesting.** An aircraft that loses almost
-three fights in four conventionally and wins nearly two in one with post-stall technology has demonstrated a
-large effect. But it has demonstrated it on an airframe whose conventional performance nobody would accept,
-and the programme's own conclusion is that post-stall technology must be an integrated element of a design
-rather than a bolt-on.
-
-### The Angle of Attack Limit Is Not the Whole Capability
-
-The article has treated the usable angle of attack as the figure of merit, because it is what sets the
-aim-off angle. **The programme's own conclusions put velocity-vector roll rate alongside it**, and describe
-the main advantages as apparent directional nose-pointing rate, which is actually yaw rate or
-velocity-vector roll capability at high angle of attack, together with very high nose authority in pitch.
-
-**Pointing where you cannot get to quickly is worth less than the static aim-off angle suggests**, and a
-full treatment would need the rate as well as the angle. The rate is not published in a form this article
-could use.
-
-### The Simulation and Flight Numbers Are Not the Same Experiment
-
-**The exchange ratios analysed at length in this article are simulation results**, from Pinball I and
-Pinball II. The flight programme reported 407 engagements of which 325 were scored, and its conclusions are
-stated qualitatively. **The temptation to read the simulator's 1.83 as a flight result should be resisted**,
-and the widely quoted figures of thirty to one and of nearly ten to one over 103 dogfights come from yet
-other accountings whose provenance this article has not been able to trace to a primary source.
-
-**That inconsistency is itself the finding.** A programme whose keystone was a measured rate produced at
-least four different headline rates that circulate independently, and the arithmetic above shows why that is
-easy. The pooled value depends on the mix of starting conditions, and nobody quoting a single number says
-which mix produced it.
-
-**The condition under which pooling reverses a conclusion can be written down.** A set of per-condition
-ratios supports a claim of advantage on average while the pooled figure denies it whenever
-
-$$\frac{1}{N} \sum_i E_i > 1 \qquad \text{and} \qquad \sum_i w_i E_i < 1$$
-
-which is possible for any set that contains at least one ratio below parity, because the weights are free.
-For the published set the two sides are 6.43 and 1.83, so both inequalities are satisfied with room to spare
-in the first and by a margin of 0.83 in the second.
-**The margin is what the knife-edge calculation above measures**, and it is smaller than the uncertainty in
-the weights. The general form of that hazard is known in statistics as
-[the reversal that can occur when groups are pooled][ref_simpson].
-
 ## The Contemporary Literature
 
 **The X-31 flew before three of the fields that now own its questions existed.** This section surveys the
@@ -11062,6 +10990,78 @@ above, where it uses the X-31 as a validation case rather than studying the aero
 - [CFD Analysis of the Flow Around the X-31 Aircraft at High...][research_boelens_2009]
 - [CFD analysis of the flow around the X-31 aircraft at high...][research_boelens_2012]
 
+## Where the Framing Breaks Down
+
+**Treating this aircraft through its keystone misleads in five places, and the first is the sharpest.**
+
+### The Exchange Ratio Is Not a Property of the Aircraft
+
+**The whole apparatus of this article treats the exchange ratio as a measurement, and it is better understood as a joint measurement of an aircraft, a pilot, a tactic, an adversary and a set of rules.**
+The programme's own data proves it. The same aircraft in the same simulator with the same starting condition
+returned 1.2 in one campaign and 0.47 in the next, and the programme attributed the difference to which
+initial move the pilots chose.
+
+**A number that moves by a factor of two and a half when the pilots change their minds is not a property of the airframe.**
+
+### The Adversary Chooses the Engagement
+
+**The F-15C and F-16C result is the boundary of the entire keystone.** An advantage that exists inside a
+slow, close fight is realisable only if the opponent enters one. Against aircraft with enough excess thrust
+to sit above the fight and re-enter at their chosen moment, the X-31's advantage was largely unavailable.
+
+**This is an old lesson and the NASA history says so**, drawing the parallel with the [Fokker Dr I][ref_dr1]
+of 1917, an aircraft capable of post-stall pointing that pilots of faster conventional fighters learned to
+defeat by extending and attacking in slashing passes, denying it the ability to choose the time and place of
+the fight.
+
+### The Demonstrator Was Underpowered
+
+**The X-31 fought the F/A-18 from a position of disadvantage in conventional performance**, and the NASA
+history says so directly, attributing an exchange ratio of 0.37 without post-stall technology to the basic
+mediocrity of an underpowered design against a more powerful opponent with a better dogfighting wing.
+
+**That cuts both ways and the second direction is the more interesting.** An aircraft that loses almost
+three fights in four conventionally and wins nearly two in one with post-stall technology has demonstrated a
+large effect. But it has demonstrated it on an airframe whose conventional performance nobody would accept,
+and the programme's own conclusion is that post-stall technology must be an integrated element of a design
+rather than a bolt-on.
+
+### The Angle of Attack Limit Is Not the Whole Capability
+
+The article has treated the usable angle of attack as the figure of merit, because it is what sets the
+aim-off angle. **The programme's own conclusions put velocity-vector roll rate alongside it**, and describe
+the main advantages as apparent directional nose-pointing rate, which is actually yaw rate or
+velocity-vector roll capability at high angle of attack, together with very high nose authority in pitch.
+
+**Pointing where you cannot get to quickly is worth less than the static aim-off angle suggests**, and a
+full treatment would need the rate as well as the angle. The rate is not published in a form this article
+could use.
+
+### The Simulation and Flight Numbers Are Not the Same Experiment
+
+**The exchange ratios analysed at length in this article are simulation results**, from Pinball I and
+Pinball II. The flight programme reported 407 engagements of which 325 were scored, and its conclusions are
+stated qualitatively. **The temptation to read the simulator's 1.83 as a flight result should be resisted**,
+and the widely quoted figures of thirty to one and of nearly ten to one over 103 dogfights come from yet
+other accountings whose provenance this article has not been able to trace to a primary source.
+
+**That inconsistency is itself the finding.** A programme whose keystone was a measured rate produced at
+least four different headline rates that circulate independently, and the arithmetic above shows why that is
+easy. The pooled value depends on the mix of starting conditions, and nobody quoting a single number says
+which mix produced it.
+
+**The condition under which pooling reverses a conclusion can be written down.** A set of per-condition
+ratios supports a claim of advantage on average while the pooled figure denies it whenever
+
+$$\frac{1}{N} \sum_i E_i > 1 \qquad \text{and} \qquad \sum_i w_i E_i < 1$$
+
+which is possible for any set that contains at least one ratio below parity, because the weights are free.
+For the published set the two sides are 6.43 and 1.83, so both inequalities are satisfied with room to spare
+in the first and by a margin of 0.83 in the second.
+**The margin is what the knife-edge calculation above measures**, and it is smaller than the uncertainty in
+the weights. The general form of that hazard is known in statistics as
+[the reversal that can occur when groups are pooled][ref_simpson].
+
 ## The Source Base
 
 **The reference set behind this article holds 2,887 records published through 1999 and 6,067 published from 2015 onward**,
@@ -11343,7 +11343,6 @@ were being fed the same wrong number. The information needed to catch it was dis
 display, spoken aloud over the intercom, available on a standby instrument near the pilot's knee, and
 computable in one line from the lift equation.
 **None of those was a redundancy the design had asked for, and any one of them would have been enough.**
-
 ## References
 
 ### Books

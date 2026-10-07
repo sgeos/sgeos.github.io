@@ -73,14 +73,35 @@ programme called a genus carrying species
 consumed this one was built to prove that the answer is modular.** That collision is this article's
 subject, and it is the reason an anomaly with four sentences of record has an argument in it.
 
-**This is a designation anomaly and it takes the reduced order the genre document prescribes.** No X-67
+**This is a designation anomaly and it carries every section of the series order.** No X-67
 vehicle was ever built, so there is no keystone to identify and no system to dimension, and the sections
-below are what happened, why so far as the record says, and what the case reveals about the system,
-followed by the epistemic statement and the references. **The aeroplane that took the number is treated
+on sizing, dependent systems and flight say so and stop. The substance is what happened, why so far as
+the record says, and what the case reveals about the system. **The aeroplane that took the number is treated
 as evidence about the number and not as the subject**, which is a boundary this series has had to draw
 before and has crossed before.
 
-## What the Record Says Happened
+## The Research Question
+
+**The X-67 is a number and a number has no research question, so this section has to separate two things
+the title of the article joins.** No vehicle was ever designated X-67, and the register carries no
+research-series row with the design number 67 \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **Nothing was
+built to answer a question under that number, and the record attributes no question to it.**
+
+**The aeroplane that took the number did have a question, and the laboratory stated it.** The XQ-67A
+existed to show that several aircraft can be raised as species on one shared genus chassis, and the
+laboratory's capability lead is quoted saying that it proves that approach
+\[[AFRL first flight release][ref_afrl_firstflight]]. **The same release says the object was the method
+rather than the aeroplane**, in the sentence describing the purpose of the programme as the journey of
+rapid, low-cost production as much as the destination of a relevant combat aircraft. That question belongs
+to the XQ-67A and not to the X-67.
+
+**The question this article asks is therefore about the number, and the opening states it.** Whether a
+second borrowing from the research series was an accident, what permitted the skip and when it became
+irreversible, and what a design number indexes at all are the questions taken up in the sections headed
+Why the Slot Is Empty, So Far As the Record Says and What the Data Changed. **The aeroplane's question
+enters only because its answer bears on the last of them.**
+
+## Programme Origin, What the Record Says Happened
 
 **The public record of the X-67 consists of one absence and four sentences.** The absence is in the
 allocation register and the sentences are in two compilations by the same author, so the whole of what
@@ -883,7 +904,112 @@ Technical Information Center for registered users, and the National Technical In
 other Federal agencies and the public \[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
 **Three published routes in 1998, and in 2020 one address that does not resolve.**
 
-## What the Anomaly Reveals About the Designation System
+## Sizing From First Principles
+
+**No X-67 vehicle was ever built, so there is no vehicle to size, and the opening says so in its own
+terms.** The design number 67 was consumed by an allocation in the unmanned series, and nothing in the
+research series was ever drawn, specified or dimensioned under it
+\[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **This section therefore records what the record supports
+about the vehicle that took the number and stops.**
+
+**The record sizes the XQ-67A barely at all.** The register's only physical entry for it is an engine
+cell reading 1 Williams FJ44-4A, which is one of the official fields on a row whose description is not
+official wording \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **No span, weight, thrust, endurance or
+speed appears in the register or in the releases**, which is why the section headed Out of Scope declines
+to assemble a specification from trade coverage.
+
+**What the record says about the vehicles intended is comparative rather than dimensional.** The
+laboratory describes the sensing station as slower while carrying sensors, with longer endurance, and the
+weapon station as faster and more manoeuvrable, with less endurance and better range, and it describes
+the programme's aim as establishing how much of the two could be made common
+\[[AFRL first flight release][ref_afrl_firstflight]]. **That is a sizing question stated and not
+answered**, and no document in the record answers it.
+
+**Two derivations in this article stand in for sizing, and neither sizes an aeroplane.** The first sizes
+the designation field, which holds 23,976 distinct number-and-series codes per basic mission, and it is
+set out under the heading A Designation Is a Code and the Instruction Gives Its Fields. **The second sizes
+the economics of a shared chassis**, in the part-count, unit-cost, penalty, break-even and refresh
+relations within the section headed What the Data Changed, and every parameter it uses is assumed because
+the shared fraction, the sharing penalty and the development costs are not public.
+
+## Dependent Systems
+
+**A designation that was never allocated depends on nothing, so the systems this section can describe
+belong to the aeroplane that took the number.** The X-67 has no airframe, engine or avionics to list.
+**The XQ-67A has a few, and the record names them without dimensioning any of them.**
+
+**The propulsion entry is the only one the register makes official.** The XQ-67A's row records
+1 Williams FJ44-4A in an unmarked cell, while its stated purpose carries the mark saying the words are the
+compiler's \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **The airframe is described only as a common
+core chassis**, which the laboratory calls a genus and to which mission kits such as an off-board sensing
+station or an off-board weapon station would be added
+\[[AFRL first flight release][ref_afrl_firstflight]] \[[GA-ASI first flight release][ref_gaasi_firstflight]].
+
+**The mission systems appear only through the July 2025 flight test.** The contractor reported
+integrating government reference autonomy with active tactical datalink communications, and test points
+validating autonomy, mission computing, networking, power and thermal management and datalinks
+\[[GA-ASI autonomy release][ref_gaasi_autonomy_2025]]. **The releases as this article quotes them name
+no sensor, computer or datalink by type**, and the section headed Out of Scope sets the autonomy stack aside as a literature this
+article surveys and does not analyse.
+
+**The designation itself also has dependent systems, and they are documentary.** The request procedure
+depends on an official source for the last approved design number, the instruction that states the
+procedure cancelled the public list, and the successor address it named does not resolve publicly
+\[[DAFI 16-401][ref_dafi_16_401_2020]]. That chain is argued under the heading The Official Source the
+Procedure Requires Does Not Resolve.
+
+## The Flight Test Record
+
+**Nothing has flown as the X-67, and nothing can, because the number is unrequestable under the
+instruction in force.** The register carries no research-series row with the design number 67, and the
+section headed Why the Slot Is Empty, So Far As the Record Says sets out why the number cannot now be
+issued \[[DOD 4120.15-L Addendum][ref_mds_addendum]] \[[DAFI 16-401][ref_dafi_16_401_2020]]. **The flight
+test record of the X-67 is empty and will remain so.**
+
+**The aeroplane that took the number has a short public record, being two reported flight tests in three
+releases.** The XQ-67A first flew on 2024-02-28 at the General Atomics Gray Butte Flight Operations
+Facility near Palmdale, California, completed several test points and recovered safely on the first of a
+series of flight tests \[[AFRL first flight release][ref_afrl_firstflight]]
+\[[GA-ASI first flight release][ref_gaasi_firstflight]]. In July 2025 it flew with government reference
+autonomy and an active tactical datalink \[[GA-ASI autonomy release][ref_gaasi_autonomy_2025]].
+
+**No flight data are public.** The releases report that test points were completed and validated and give
+no measured value for any of them, and the passage headed The Aeroplane That Took the Number, in the
+Record's Own Words quotes them where they bear on the argument. **The record does not say how many flights
+have been made in total**, only that the first was the first of a series.
+
+## Comparison With Ground Prediction
+
+**For the X-67 there is nothing to compare, because no vehicle carried the number and nothing flew under
+it.** No wind tunnel test, analysis or specification was ever produced for an X-67, so flight returned
+nothing to set against a prediction. **The comparisons the record does support are of other kinds, and
+this section gathers them.**
+
+**The aeroplane's claim is public and its flight data are not.** At first flight the laboratory stated
+that the XQ-67A proves the genus approach and the contractor stated that it had validated the genus and
+species concept \[[AFRL first flight release][ref_afrl_firstflight]]
+\[[GA-ASI first flight release][ref_gaasi_firstflight]]. **No predicted figure and no measured figure is
+published for any flight quantity**, so the validation is reported and not shown. The commonality
+arithmetic in the section headed What the Data Changed is a model run on assumed parameters and not a
+prediction this aeroplane could have tested.
+
+**The designation procedure is the one place where the record gives both a ground expectation and an
+outturn.** Under both computable definitions of the next number, the research series' next design number
+on 2025-08-20 was 67, and the government approved the X-68A
+\[[DOD 4120.15-L Addendum][ref_mds_addendum]] \[[DAFI 16-401][ref_dafi_16_401_2020]]. **The procedure,
+read literally, would have produced an X-67A and the record returned an X-68A**, and the passages headed
+Three Definitions of the Next Number, Written Down and Three Readings of the X-68A, and the Record Chooses
+None argue what that discrepancy can and cannot mean.
+
+**A further pair sets a ground estimate against an outturn, though the estimate is of cost rather than of
+flight.** Trade coverage at award reported matching contracts of 17,700,000.00 dollar each, and the award
+record shows one contract at 3.8410 times that base and the other at 90.41 percent of it
+\[[Kratos, General Atomics Get Contracts for Off-Board Sensing Station][ref_asf_obss_2021]]
+\[[USAspending][ref_usaspending]]. **That comparison is argued under the heading What the Award Record Adds
+That the Releases Do Not**, and it says that a competition was resolved rather than completed and nothing
+about how the aeroplane flew.
+
+## What the Data Changed, What the Anomaly Reveals About the Designation System
 
 **A skipped number is only interesting if the number was carrying information, so the question this
 section asks is what a design number indexes.** The instruction gives an answer, the register
@@ -2051,6 +2177,35 @@ programme's name or the designation. **This is the same negative result the
 laboratory demonstrator whose purpose is a production method does not generate a research literature
 under its own name.**
 
+## Where the Framing Breaks Down
+
+**The title says the slot was taken by the XQ-67A, and the record supports a narrower statement than
+that.** Taken implies an act upon the X-67, and the article's own finding is that nobody had to decide to
+skip it. **The number 67 went to an unmanned allocation on 2023-07-19, and the X-67 became unrequestable
+only when the X-68A was approved on 2025-08-20** \[[DOD 4120.15-L Addendum][ref_mds_addendum]]
+\[[DAFI 16-401][ref_dafi_16_401_2020]]. The vehicle consumed a number, and a later request closed a slot.
+
+**The derivation from the research series is an inference and not a documented fact.** The compiler
+asserts it with the phrase just like the X-58 and gives no reasoning
+\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. The test in the passage headed The
+Borrowing Claim Is Testable and It Passes supports it, with a tail probability of 0.03159 that the article
+calls a weak signal on its own. **No document states that anybody chose 67 for that reason.**
+
+**The analogy with the X-58 breaks at the officiality line.** The XQ-58A's description is official
+Department wording and the XQ-67A's is not, so the phrase just like the X-58 joins a case the government
+described to one it did not. That boundary is drawn under the heading The Second Case Falls on the Far
+Side of a Line the First Did Not.
+
+**The framing of the skip as visible at the article's date also breaks, and the dated note in the section
+headed Epistemic State records how.** The X-68A row reached the public register only after this article's
+date, so a reader of the register at that date would have seen 67 as the next number rather than as a
+passed one.
+
+**And the aeroplane crosses the boundary the opening draws.** The opening treats the XQ-67A as evidence
+about the number and not as the subject, yet the part-count, unit-cost, sharing-penalty, break-even and
+refresh derivations are about the aeroplane's method. **Every input to them is assumed**, and the article
+states that their yield is the shape of an argument rather than a measurement.
+
 ## The Source Base
 
 **This article rests on a narrower base than any other in the series and the section exists to say how
@@ -2190,7 +2345,7 @@ programme documents exist in the report literature under names the sweep did not
 Attritable Aircraft Technologies initiative and the Low-Cost Attritable Strike Demonstrator being two
 such names, together with the Broad Agency Announcement the trade coverage dates to September 2020.
 
-**The reference base as a whole is 1,315 definitions and it partitions four ways.**
+**The reference base as a whole is 1,318 definitions and it partitions four ways.**
 
 $$
 \lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
@@ -2199,7 +2354,7 @@ $$
 + \lvert \mathcal{B}_{\mathrm{res}} \rvert
 $$
 
-**sixteen are hand-written primary sources, four are hand-written theory sources,
+**nineteen are hand-written primary sources, four are hand-written theory sources,
 67 are the prior articles of this series, and 1,228 are harvested research
 records.** **Of the harvested records
 1,151 came from the bibliographic index**, which is the proportion the subject dictates rather
@@ -2296,7 +2451,7 @@ supports.
 ### The Addresses, Swept
 
 **Every hand-written address in the article was fetched and what each returned is recorded.** There are
-twenty of them. **fifteen returned a document, four were refused by a
+23 of them. **eighteen returned a document, four were refused by a
 publisher that declines automated clients and were instead confirmed against the bibliographic index by
 author and title, and one returned neither.** The one that returned neither is the
 Department's own cancelled list, and the article says in its own definition that it was not read.

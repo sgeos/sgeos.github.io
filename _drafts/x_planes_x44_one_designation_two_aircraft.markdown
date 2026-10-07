@@ -554,6 +554,22 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 
 **Nothing.** No airframe was built. The programme ended with funding, not with a flight or a failure.
 
+## Comparison With Ground Prediction
+
+**Of the three flight records in this article, only one can be set beside a prediction, and most of what it can be set beside was written after the flight.** No ground prediction for either vehicle called X-44 has been released, and the MANTA never flew, so the comparison this section exists to make has to be assembled from the X-31 record and from the arithmetic in the section headed Sizing From First Principles, which postdates the flight it is compared with.
+
+**For the MANTA the ground record is a list of claims and the flight record is empty.** The proposal advertised reduced mechanical complexity, greater internal fuel volume and greater agility \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. No airframe was built and nothing flew, so flight returned nothing to set beside those claims, and the section headed The Flight Test Record records that absence under its own subheading.
+
+**The one measurement the MANTA's hardware rests on is a wind tunnel result with no flight counterpart on this aircraft.** Capone and Bare found that the force and moment increments from vectoring remain essentially constant over the whole angle of attack range at every Mach number tested from 0.20 to 2.47, with very little cross-coupling between pitch and yaw \[[Capone and Bare 1987][research_caponefrancisj_bareeann_1987]\]. **Sidewall yaw flaps of that kind were never flown on a MANTA**, because there was no MANTA, and the flight evidence the article cites on vectoring hardware establishes only that such hardware survives being flown \[[Anna and Kidman 1994][research_annapauld_kidmandavids_1994]\].
+
+**For the X-31 the comparison is between simulation and flight, and the report states its outcome as a conclusion rather than as a table.** Flight test and supporting simulation together demonstrated that the quasi-tailless approach represents the reduced stability of a tailless configuration and that thrust vectoring could stabilise it \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **This article reports no numerical prediction made before those flights and no figure for how closely the simulation matched them**, and it does not supply one.
+
+**The article's own derivations meet the X-31 record in two places and in only two.** The first is coverage. The subsection headed The Ratio Has a Minimum and It Is Not Where Intuition Puts It places the flown point at Mach 1.2 a factor of 1.135 above the worst supersonic condition, and the section headed Where the Framing Breaks Down moves that factor to 1.078 when jet velocity is allowed to vary. **That is a statement about what the flown point covers and not a prediction the flight tested.** The second is sensing. The subsection headed The Divergence Is Too Fast for a Person derives a loop that must close inside sixty to ninety milliseconds supersonically, and the X-31 report's lessons concern sensor-related issues, which the subsection headed Sensing, Which the Flight Experiment Named as the Hard Part takes up. **Agreement there is agreement in kind and not in number**, since the article quotes no latency figure from the report.
+
+**The article's strongest prediction has no flight to be compared with.** The subsection headed The Throttle Is What Binds, and It Binds Hard finds that restoring the demonstrated margin on a crosswind approach needs 38.4 percent throttle against the 7.2 percent the glide slope needs. The quasi-tailless mode was flown subsonically in precision approaches, but no crosswind approach was flown on vectoring alone, so **the throttle result is a prediction that no flight has tested.**
+
+**For the X-44A there is no ground prediction in the public record and no released flight data.** The only figure the article derives for it, a wing loading about twice the DarkStar's at a matched ceiling, rests on an assumed DarkStar wing area and is set beside the programme's stated purpose rather than beside a flight \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. The aircraft flew in 2001 and nothing it measured has been released, so **what flight returned for the X-44A cannot be compared with anything, including this article's estimate.**
+
 ## What the Data Changed
 
 **The three lines diverge sharply here and the divergence is instructive.**
@@ -563,33 +579,6 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 **The X-44A's line is visible in hardware.** It sits between the DarkStar and the Polecat, and the configuration family it belongs to, being a small tailless flying wing with a low-observable planform, is the family the Polecat and the RQ-170 belong to rather than the family the DarkStar belonged to \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. **The published assessment is that it belongs with the mid-2000s designs rather than the 1990s ones despite being built in 1999**, which is a claim that a demonstrator can be ahead of its own programme.
 
 **The MANTA changed nothing that can be demonstrated.** Recent commentary has argued that its configuration anticipates sixth-generation fighter shaping. **That commentary is speculation about a classified programme by writers with no access to it**, and this article declines to launder it into a lineage. What can be said is narrower and firmer. **The tailless supersonic fighter did not enter service in the two decades after the MANTA was cancelled**, and the arithmetic above offers one reason why that is unsurprising, which is that the concept as the MANTA stated it fails at the runway rather than in the air.
-
-## Where the Framing Breaks Down
-
-**Five places, and the first of them was the largest until the equation pass closed it.**
-
-**The ratio treats jet velocity as constant across the envelope and it is not. That assumption has now been relaxed and the answer moves in the article's favour.** Carrying the jet velocity relation through the ratio gives
-
-$$\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3} V_{j}(M)}{M^{2}}$$
-
-and at an overall engine pressure ratio of eight the jet velocity rises by **25.7 percent** from the approach to Mach 2.25, which is far from constant.
-
-| | minimising Mach | demonstrated point above the worst case |
-|---|---|---|
-| constant jet velocity | 1.674 | 1.135 |
-| varying jet velocity | 1.550 | 1.078 |
-
-**The minimum moves forward and gets shallower, so the demonstrated point stands 7.8 percent above the worst supersonic condition rather than 13.5.** The conclusion the article drew from the pessimistic assumption survives the correction and improves, which is a stronger statement than the original. **The result is also robust to the one engine parameter it introduces.** Across overall pressure ratios from four to twenty the minimising Mach moves only from 1.502 to 1.589 and the penalty from 5.9 to 9.5 percent.
-
-**What the correction does change is the top of the envelope.** Under the constant assumption Mach 2.0 and Mach 2.25 were harder than the demonstrated point. With the jet velocity varying they are easier, at 1.006 and 1.103 times, so the high supersonic end stops being a concern at all. **The minimum's existence never depended on the assumption, because it comes from the mass flow term, and only its location and depth did.**
-
-**A second approximation remains unquantified and runs the other way.** The relation above assumes the afterburner is lit, and a dry-thrust case has a lower total temperature and a lower jet velocity, which would make those conditions less favourable than any table here. **This article does not compute the dry case and says so rather than implying the envelope has been covered.**
-
-**The engine-out identity assumes the vectoring is available on the live engine at full deflection.** A nozzle that has failed for the same reason the engine has failed provides nothing, and a common-cause failure of an engine and its nozzle is a case a fin covers and a nozzle does not. **This is a reliability argument and not an aerodynamic one and this article does not make it quantitatively.**
-
-**Treating the two vehicles in one article is a decision about the designation and not about engineering.** They share a contractor, a decade and a number. They share no requirement, no size class, no speed range and no mission. **A reader interested in either aeroplane is being handed a good deal of material about a different one**, and the justification is that the collision itself is the subject.
-
-**The crosswind case assumes the aeroplane must land in a crosswind on a runway.** A vehicle that lands into wind on a long runway at a test range faces a much weaker requirement than an operational fighter does, and the MANTA as an X-plane would have been the former. **The impossibility derived above is a statement about the operational aeroplane the MANTA was a step toward, not necessarily about the demonstrator itself**, and the distinction is real even though every published description of the MANTA frames it as a step toward a fighter.
 
 ## The Contemporary Literature
 
@@ -739,6 +728,33 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 **Both of those figures moved when the primary pass landed and they moved in opposite directions, which is worth stating because only one of them looks like a change.** The count of records from 2015 or later rose from 3,779 to 4,450 while its share fell from 38.9 percent to 34.1, because 1,529 report primaries and then 1,981 supplementary records were added and the report primaries are overwhelmingly old. **The share fell while the coverage grew.** The median moved back three years from 2009 to 2006 for the same reason. **Reporting only the fraction would have made a deliberate improvement read as a regression**, which is why both numbers appear here and in the Source Base.
 
 **One thousand and seventy records predate 1970 and they are not decoration.** The configuration has a documented history running from the 1920s and it is longer than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\]. The tailless and all-wing stability literature of the 1940s and 1950s asked the same question with slide rules and free-flight models, and the answer it reached, that the configuration is controllable and the controls have to be unusually powerful and unusually fast, is the answer the 1994 flight experiment reached again with a digital flight control system. **A field that rediscovers its own conclusion fifty years later is telling the reader something about which part of the problem was ever really open.**
+
+## Where the Framing Breaks Down
+
+**Five places, and the first of them was the largest until the equation pass closed it.**
+
+**The ratio treats jet velocity as constant across the envelope and it is not. That assumption has now been relaxed and the answer moves in the article's favour.** Carrying the jet velocity relation through the ratio gives
+
+$$\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3} V_{j}(M)}{M^{2}}$$
+
+and at an overall engine pressure ratio of eight the jet velocity rises by **25.7 percent** from the approach to Mach 2.25, which is far from constant.
+
+| | minimising Mach | demonstrated point above the worst case |
+|---|---|---|
+| constant jet velocity | 1.674 | 1.135 |
+| varying jet velocity | 1.550 | 1.078 |
+
+**The minimum moves forward and gets shallower, so the demonstrated point stands 7.8 percent above the worst supersonic condition rather than 13.5.** The conclusion the article drew from the pessimistic assumption survives the correction and improves, which is a stronger statement than the original. **The result is also robust to the one engine parameter it introduces.** Across overall pressure ratios from four to twenty the minimising Mach moves only from 1.502 to 1.589 and the penalty from 5.9 to 9.5 percent.
+
+**What the correction does change is the top of the envelope.** Under the constant assumption Mach 2.0 and Mach 2.25 were harder than the demonstrated point. With the jet velocity varying they are easier, at 1.006 and 1.103 times, so the high supersonic end stops being a concern at all. **The minimum's existence never depended on the assumption, because it comes from the mass flow term, and only its location and depth did.**
+
+**A second approximation remains unquantified and runs the other way.** The relation above assumes the afterburner is lit, and a dry-thrust case has a lower total temperature and a lower jet velocity, which would make those conditions less favourable than any table here. **This article does not compute the dry case and says so rather than implying the envelope has been covered.**
+
+**The engine-out identity assumes the vectoring is available on the live engine at full deflection.** A nozzle that has failed for the same reason the engine has failed provides nothing, and a common-cause failure of an engine and its nozzle is a case a fin covers and a nozzle does not. **This is a reliability argument and not an aerodynamic one and this article does not make it quantitatively.**
+
+**Treating the two vehicles in one article is a decision about the designation and not about engineering.** They share a contractor, a decade and a number. They share no requirement, no size class, no speed range and no mission. **A reader interested in either aeroplane is being handed a good deal of material about a different one**, and the justification is that the collision itself is the subject.
+
+**The crosswind case assumes the aeroplane must land in a crosswind on a runway.** A vehicle that lands into wind on a long runway at a test range faces a much weaker requirement than an operational fighter does, and the MANTA as an X-plane would have been the former. **The impossibility derived above is a statement about the operational aeroplane the MANTA was a step toward, not necessarily about the demonstrator itself**, and the distinction is real even though every published description of the MANTA frames it as a step toward a fighter.
 
 ## The Source Base
 

@@ -1078,53 +1078,6 @@ two questions were not the same question.
 - [Managing Uncertainty Risk Management in Acquisition][research_laughman_2010]
 - [Life-Cycle Cost Analysis for Small Unmanned Aircraft Systems...][research_erdman_mitchum_2013]
 
-## Where the Framing Breaks Down
-
-**Treating this aircraft through its keystone misleads in five places.**
-
-### The Square-Root Law Is Not the Whole Trade
-
-**A lift fan costs weight, volume and complexity, and this article has priced none of them.** The fan, its
-shaft, its clutch and its gearbox occupy the space immediately behind the cockpit in all three variants,
-including the two that never use them, and every pound of that hardware is carried on every sortie by every
-aircraft in the fleet.
-
-**A direct-lift system's whole appeal is that it adds almost nothing.** The engine is already there and the
-valve and the nozzles are comparatively light.
-**The correct comparison is not thrust against thrust but thrust against the weight and volume spent to obtain it**,
-and this article has computed only one side of it.
-
-### The Bring-Back Number Uses an Assumed Lift
-
-**The X-32B's STOVL lift is not published and the article assumes the engine's military rating as an upper bound.**
-Every allowance figure inherits that assumption. The sensitivity table shows that the conclusion holds
-across the plausible range and that no value inside it produces a comfortable allowance, but a published
-figure could move the numbers and the article would have to follow.
-
-### A Fly-Off Is Not the Only Evidence
-
-**The decision was not made by watching two aeroplanes fly.** It rested on proposals, cost estimates,
-manufacturing plans, supportability analyses and technical data packages, of which the flight demonstrations
-were one input.
-**Treating the competition as a race is a simplification that this article has adopted for the sake of a clean argument**,
-and the acquisition literature is explicit that source selection weighs many factors of which demonstrated
-performance is one.
-
-### The Wing Change Cuts Both Ways
-
-**The article treats Boeing's mid-competition wing change as damaging to its evidentiary position, and it can be read the opposite way.**
-A company that identifies a configuration problem and fixes it before proposing has done exactly what a
-risk-reduction phase is for.
-**The customer could reasonably have credited the correction rather than penalising the mismatch**, and the
-public record does not say which reading the source selection took.
-
-### The Aircraft Was Not Bad
-
-**It flew 144 times, went supersonic, refuelled in the air, hovered and landed vertically.** The pilots who
-flew it have consistently said it handled well.
-**An aeroplane that does everything asked of it and loses is not a failure of engineering**, and an article
-organised around why it lost risks implying that it should not have been built.
-
 ## The Contemporary Literature
 
 **The X-32 flew before three of the fields that now own its questions existed**, and one of those fields
@@ -7017,6 +6970,53 @@ subject.
 - [Enhanced gas-lift system operation using LPV nonlinear model...][research_naspolini_morato_2024]
 - [Lift System Design of Air Cushion Vehicle][research_zhang_fan_2024]
 
+## Where the Framing Breaks Down
+
+**Treating this aircraft through its keystone misleads in five places.**
+
+### The Square-Root Law Is Not the Whole Trade
+
+**A lift fan costs weight, volume and complexity, and this article has priced none of them.** The fan, its
+shaft, its clutch and its gearbox occupy the space immediately behind the cockpit in all three variants,
+including the two that never use them, and every pound of that hardware is carried on every sortie by every
+aircraft in the fleet.
+
+**A direct-lift system's whole appeal is that it adds almost nothing.** The engine is already there and the
+valve and the nozzles are comparatively light.
+**The correct comparison is not thrust against thrust but thrust against the weight and volume spent to obtain it**,
+and this article has computed only one side of it.
+
+### The Bring-Back Number Uses an Assumed Lift
+
+**The X-32B's STOVL lift is not published and the article assumes the engine's military rating as an upper bound.**
+Every allowance figure inherits that assumption. The sensitivity table shows that the conclusion holds
+across the plausible range and that no value inside it produces a comfortable allowance, but a published
+figure could move the numbers and the article would have to follow.
+
+### A Fly-Off Is Not the Only Evidence
+
+**The decision was not made by watching two aeroplanes fly.** It rested on proposals, cost estimates,
+manufacturing plans, supportability analyses and technical data packages, of which the flight demonstrations
+were one input.
+**Treating the competition as a race is a simplification that this article has adopted for the sake of a clean argument**,
+and the acquisition literature is explicit that source selection weighs many factors of which demonstrated
+performance is one.
+
+### The Wing Change Cuts Both Ways
+
+**The article treats Boeing's mid-competition wing change as damaging to its evidentiary position, and it can be read the opposite way.**
+A company that identifies a configuration problem and fixes it before proposing has done exactly what a
+risk-reduction phase is for.
+**The customer could reasonably have credited the correction rather than penalising the mismatch**, and the
+public record does not say which reading the source selection took.
+
+### The Aircraft Was Not Bad
+
+**It flew 144 times, went supersonic, refuelled in the air, hovered and landed vertically.** The pilots who
+flew it have consistently said it handled well.
+**An aeroplane that does everything asked of it and loses is not a failure of engineering**, and an article
+organised around why it lost risks implying that it should not have been built.
+
 ## The Source Base
 
 **The reference set holds 1,975 records published through 2002 and 3,428 published from 2015 onward**, drawn
@@ -7254,7 +7254,6 @@ thousand four hundred harvested records, the winner appears in twenty-nine title
 loser in one, written by its engine supplier, after the result was announced.
 **An aeroplane that flew one hundred and forty-four times, went supersonic, refuelled in the air and landed vertically left almost no public technical trace**,
 and that silence is the last thing the competition decided.
-
 ## References
 
 ### Books

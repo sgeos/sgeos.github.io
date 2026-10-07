@@ -829,7 +829,21 @@ Through fiscal year 2025 CRANE was funded in programme element 0603286E, Advance
 
 **That is not a contradiction and reading it as one would be unfair.** A justification book's plan text for the current fiscal year restates the plan on which that year's appropriation was enacted, which was settled long before the book was printed. **The plans column is a record of what was agreed, not a report of what is happening.** The right conclusion is narrower and more useful. **A budget justification is an excellent source for what a programme was authorised to do and a poor source for what it did**, and this article uses it only for the first.
 
-## What the Data Would Change, and What It Has Already Changed
+## Comparison With Ground Prediction
+
+**Nothing has flown, so flight has returned nothing to set beside any ground prediction, and this section records what was predicted so that the comparison can be made when it does.** On this article's dateline the aircraft has not been rolled out and its fuselage is not finished, and DARPA expects ground testing in late 2026 or early 2027 and first flight in late 2027 \[[two-year flight delay][ref_defensenews_delay]\]. **Even the ground testing that would precede flight lies in the future.**
+
+**The first prediction the record makes is a schedule, and it is the only one that events have already answered.** Rollout was scheduled for early 2025 and first flight for the summer of the same year \[[DARPA moves forward on the X-65][ref_darpa_news]\]. Both dates passed, and the section headed The Flight Test Record, Which Is Empty puts the slip at 30 months. The section headed What Seven Budget Books Said, Year by Year follows the same promises through the justification books, where flight testing was a fiscal year 2025 plan in two consecutive books.
+
+**The aerodynamic predictions are this article's own, and every one of them is conditional.** The section headed Sizing From First Principles predicts that a bleed-fed momentum coefficient is exactly independent of altitude and falls with Mach number across this aircraft's envelope. The section headed The Authority Ratio, and Where a Jet Loses to a Hinge predicts that at an amplification of 30 against a surface worth 0.05 in lift coefficient, flow control delivers 5.15 times the hinge's authority at Mach 0.2 and 56.7 percent of it at Mach 0.7, with the crossover at Mach 0.485. **None of those figures is a contractor estimate or a published wind tunnel result for this aircraft.** The amplification is swept rather than predicted, and the section headed Where the Framing Breaks Down names it as the weakest link.
+
+**One of those predictions is framed so that two data points can test it.** Flying the same effector command at two altitudes at the same Mach number and comparing the control moments distinguishes the two possible sources of air, because engine bleed predicts a ratio near unity and a compressor held at constant shaft power predicts a moment that grows with altitude. **The record does not say which source the aircraft uses, so the prediction cannot yet be matched to the design, let alone to a flight.**
+
+**The ground evidence the programme rests on is tunnel evidence, and the strongest of it was taken at a higher Reynolds number than this aircraft flies at.** Seifert and Pack demonstrated separation control at chord Reynolds numbers as high as forty million, and named the lack of sufficient control authority at high speeds as a problem still to be overcome \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. This article computes that the X-65A would fly at 11.44 million at Mach 0.7 and thirty thousand feet. **Whether the tunnel result survives the transition to a flying aeroplane is the question the section headed The Research Question states, and no flight has yet been made to answer it.**
+
+**The comparison the aircraft is built to make is internal rather than against a ground prediction.** DARPA's description has the conventional surfaces serve as a baseline, with successive tests locking them down and using the effectors instead \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The section headed The Measurement Design argues that this difference, taken within one airframe, is what lets the programme return a number at all, and estimates that a second-order effector model of 315 terms needs about eleven flights. **At this article's date none of those flights has been flown, and this section can hold only the predictions.**
+
+## What the Data Changed, What It Would Change and What It Has Already Changed
 
 **An aircraft that has not flown has changed nothing by flying, and this article says so rather than crediting it with its intentions.** What CRANE has produced so far is a design, a set of tools and a contract structure, and the budget line states the intended product explicitly. Technologies, design tools and models developed under the programme are to be made available to all the services and to the civilian aerospace sector \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\]. **The deliverable is named as tools and models, not only as an aeroplane.**
 
@@ -838,86 +852,6 @@ Through fiscal year 2025 CRANE was funded in programme element 0603286E, Advance
 **The first is the contracting arrangement.** A DARPA technology demonstrator in which the contractor becomes a co-investor to complete the article is not the usual shape, and the agency's own account of why is that the new structure gets costs back to an affordable rate for the government, with the contractor taking over the platform for future test and development once the hard technical challenge is demonstrated \[[two-year flight delay][ref_defensenews_delay]\]. **The aircraft is to outlive the programme as a test asset**, which the programme manager said at the outset was a design goal and which the modular wing sets exist to serve \[[DARPA moves forward on the X-65][ref_darpa_news]\].
 
 **The second is that the aircraft became the reason to hold the designation.** The X-65A designation was allocated in April 2023, between the Phase 2 award and the Phase 3 award, and the register carries it while the aircraft does not exist. **This series has now met several designations allocated to vehicles that never flew and one allocated to a vehicle that was never built.** The X-65A is a different case again. **It is allocated to a vehicle that is being built, slowly, with a first flight four and a half years after its designation.**
-
-## Where the Framing Breaks Down
-
-### The Century-Old Paradigm Is Younger Than It Sounds for One Axis
-
-DARPA's release opens by observing that in December 1903 the Wright brothers flew the world's first fully controllable aircraft using wing warping, that virtually every aircraft since has used a system of movable external control surfaces, and that the X-65 breaks this century-old design paradigm \[[DARPA moves forward on the X-65][ref_darpa_news]\].
-
-**The framing is half right and the half that is wrong is interesting rather than pedantic.** The 1903 aircraft was essentially a larger version of the 1902 glider, whose key control refinement was a movable vertical tail, and it carried a forward-mounted horizontal surface for climb and descent \[[1903 Wright Flyer][ref_nasm_flyer]\]. **So the Flyer used movable external surfaces for pitch and for yaw from the first flight.** For roll it did not. **It twisted the wing.**
-
-**Wing warping is not a movable control surface. It is a morphing wing**, and the mechanism DARPA credits the Wrights with is the one axis where the original solution was not the paradigm being broken. Ailerons came later. **The paradigm is therefore 124 years old for two axes and rather younger for the third**, and the X-65's twin vertical tails carry conventional rudders among their fourteen surfaces, so the aircraft does not break the paradigm on the axis the framing invokes.
-
-### The Amplification Curve Is Doing a Great Deal of Work
-
-**This article's central arithmetic rests on a quantity it does not derive.** The amplification is treated as a parameter swept from ten to a hundred, drawn from the ranges the separation-control literature reports, and no attempt is made to predict it for this aircraft's geometry.
-
-**That is honest and it is also the weakest link.** The amplification depends on the pressure gradient, the boundary-layer state, the Reynolds number, the effector geometry, its position relative to the separation line and the excitation frequency. **None of those is public for the X-65A and several are precisely what the aircraft exists to measure.** So the authority ratios in this article are conditional statements of the form that if the amplification is thirty then the deficit at Mach 0.7 is 43.3 percent, and they are not predictions.
-
-### Reynolds Number Is Not the Problem, and the Equation Pass Said It Was
-
-**The equation-density pass computed this aircraft's Reynolds number, compared it with the experiments whose thresholds this article had borrowed, found a gap of one to nearly three orders of magnitude, and concluded that the thresholds were the part most likely to be wrong at flight scale. The primary-reference pass found the report that settles it and the conclusion was too strong.**
-
-The Reynolds number on a chord is the ratio of inertial to viscous forces. Let $\mathrm{Re}$ be that number, dimensionless, and $\mu$ the dynamic viscosity in pascal second, which for air follows Sutherland's law with constants $C_1$ in kilogram per metre second per root kelvin and $S_\mu$ in kelvin.
-
-$$ \mathrm{Re} = \frac{\rho V \bar{c}}{\mu}, \qquad \mu\left( T \right) = \frac{C_1 \, T^{3/2}}{T + S_\mu} $$
-
-with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns 1.7894 times ten to the minus five pascal second at sea level**, against the published 1.789 times ten to the minus five. **At Mach 0.7 and thirty thousand feet on a chord of 1.750 metre the X-65A flies at 11.44 million.**
-
-**Active separation control by oscillatory excitation was demonstrated above that Reynolds number in the year 2000, and this article did not know it.** Seifert and Pack tested the method at chord Reynolds numbers as high as forty million and state in their summary that it was proved successful in delaying boundary layer separation and reattaching separated flows at chord Reynolds numbers of order ten million \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. **Their baseline flow was made fully turbulent deliberately, to remove transition as a variable, and they report that the Reynolds number has a very weak effect on the model pressure distributions and spectra regardless of Mach number or sweep.**
-
-| Study | Reynolds number | The X-65A in flight over it |
-|---|---|---|
-| Munday and Taira 2018 | 2.30 times ten to the 4 | 497.6 |
-| Feero et al. 2015 | 1.00 times ten to the 5 | 114.4 |
-| Seifert et al. 1996, low | 1.50 times ten to the 5 | 76.3 |
-| Jones and Englar 2003 | 5.00 times ten to the 5 | 22.9 |
-| Seifert et al. 1996, high | 6.00 times ten to the 5 | 19.1 |
-
-**The X-65A flies at 0.715 times that experiment's sixteen million and 0.286 times the forty million it quotes.** It is inside the demonstrated range, not beyond it. **So the honest statement is the narrow one.** The specific threshold values the equation pass borrowed do come from experiments at a hundred thousand and twenty-three thousand, and transferring a threshold is a different matter from transferring a phenomenon. **But the phenomenon is not in doubt at this aircraft's Reynolds number and the article should not have implied it was.**
-
-### What the Flight-Reynolds Primary Actually Reports, Which Is Better News
-
-**The same report quotes the oscillatory momentum coefficients it used, and its nomenclature defines the coefficient as the jet momentum over chord times dynamic pressure, which is this article's definition exactly.**
-
-| Case the report quotes | Oscillatory momentum coefficient | This article's figure over it | Concentration still needed |
-|---|---|---|---|
-| lowest quoted, Mach 0.25 | 0.03 percent | 3.150 | none |
-| slot at 64 percent chord, Reynolds 16 million | 0.09 percent | 1.050 | none |
-| reduced frequency 1.0 | 0.12 percent | 0.788 | 1.27 |
-| wall pressures, Reynolds 16 million, Mach 0.25 | 0.13 percent | 0.727 | 1.38 |
-| reduced frequency 0.5 | 0.32 percent | 0.295 | 3.39 |
-
-**The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches two of the five quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values**, which is a primary-sourced error bar and not an assumption of this article.
-
-**And at that report's own Mach number of 0.25 the bleed budget delivers 0.5579 percent, which is 1.74 times its highest quoted value.** So the air budget is not marginal at the condition where the method was demonstrated. **It is marginal only where this aircraft wants to fly**, and the factor between the two is 5.903, which is the Mach dependence derived above and nothing else.
-
-### And the Primary Names This Article's Keystone as the Open Problem
-
-**The report's own proposals for future work include overcoming the lack of sufficient control authority, especially at high speeds** \[[Seifert and Pack 2000][research_seifert_pack_2000]\].
-
-**That is the finding this article derived, named as unsolved twenty-five years before the X-65A was due to fly.** The authority ratio falls as the square of the Mach number because the engine delivers a roughly fixed momentum while the aerodynamic forces to be overcome grow with the square of the speed. **A primary that tested the method at this aircraft's Reynolds number, at a third of its Mach number, and concluded that high-speed control authority was the thing still to be found, is the strongest available independent support for the conclusion.**
-
-**It is also a caution about novelty.** This article derived the Mach dependence and its exact minimum, and did not derive the observation that high-speed authority is the binding constraint. **That observation is in the literature and this article found it only in the pass that went looking for primaries.**
-
-### The Bleed Penalty Is Asserted Rather Than Derived
-
-**Taking air from a compressor costs thrust and this article does not compute how much.** The mass-flow accounting is exact, being 8 percent of a core flow of 10.0 kilogram per second, which is a small fraction of total engine flow at a bypass ratio of 3.3. **The thrust consequence is not exact**, because it depends on the turbine work no longer available to drive the fan, on the cycle's rematching, and on the control schedule the engine's digital controller applies.
-
-**A defensible lower bound is that the thrust loss is at least the lost mass flow's share, and the true figure is larger.** This article declines to put a number on it. **The single-stage centrifugal architecture makes the answer worse than a multi-stage axial's would be**, because the bled air has had the whole compression done to it, and that much follows from the architecture the NASA report describes \[[FJ44 turbofan engine test][ref_fj44_test]\].
-
-### Suction Is in the Official Definition and Not in This Analysis
-
-**The budget justification defines active flow control as control mechanisms which alter the aerodynamic flow field through ejection or suction of fluid via an orifice on a lifting body** \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\]. **The phrase includes suction and this article's whole momentum accounting assumes blowing.**
-
-A suction device removes low-momentum air rather than adding high-momentum air, and its figure of merit is a flow coefficient rather than a momentum coefficient. **The identity that makes the amplification exact does not hold for it**, because there is no jet momentum in the denominator. **Nothing published says which the X-65A uses**, and a system that uses both would need both accountings. This article's analysis applies to the blowing case and says so.
-
-### One Vehicle Still Cannot Do Everything
-
-**The differencing argument above is strong and it has a limit.** Locking a conventional surface and commanding an effector instead changes the aircraft's aerodynamics in ways beyond the intended substitution. **A locked surface is still a surface, sitting in a position, with its gaps and its hinge line**, and it is not absent. An aircraft designed without conventional surfaces would have a different shape, lower weight and no gaps.
-
-**So the X-65A measures the authority of flow control on an airframe built to accommodate both systems**, which is not the same as the authority of flow control on an airframe built for flow control alone. **The programme's own framing acknowledges this by calling the conventional surfaces training wheels**, and the honest reading is that the aircraft measures a lower bound on what a purpose-built vehicle would achieve and an upper bound on the weight saving.
 
 ## The Contemporary Literature
 
@@ -1012,6 +946,86 @@ The survey behind this article holds **3,709 records** after gating and de-dupli
 ### The medium, admitted by the shared atmosphere family alone
 
 **One record.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\]
+
+## Where the Framing Breaks Down
+
+### The Century-Old Paradigm Is Younger Than It Sounds for One Axis
+
+DARPA's release opens by observing that in December 1903 the Wright brothers flew the world's first fully controllable aircraft using wing warping, that virtually every aircraft since has used a system of movable external control surfaces, and that the X-65 breaks this century-old design paradigm \[[DARPA moves forward on the X-65][ref_darpa_news]\].
+
+**The framing is half right and the half that is wrong is interesting rather than pedantic.** The 1903 aircraft was essentially a larger version of the 1902 glider, whose key control refinement was a movable vertical tail, and it carried a forward-mounted horizontal surface for climb and descent \[[1903 Wright Flyer][ref_nasm_flyer]\]. **So the Flyer used movable external surfaces for pitch and for yaw from the first flight.** For roll it did not. **It twisted the wing.**
+
+**Wing warping is not a movable control surface. It is a morphing wing**, and the mechanism DARPA credits the Wrights with is the one axis where the original solution was not the paradigm being broken. Ailerons came later. **The paradigm is therefore 124 years old for two axes and rather younger for the third**, and the X-65's twin vertical tails carry conventional rudders among their fourteen surfaces, so the aircraft does not break the paradigm on the axis the framing invokes.
+
+### The Amplification Curve Is Doing a Great Deal of Work
+
+**This article's central arithmetic rests on a quantity it does not derive.** The amplification is treated as a parameter swept from ten to a hundred, drawn from the ranges the separation-control literature reports, and no attempt is made to predict it for this aircraft's geometry.
+
+**That is honest and it is also the weakest link.** The amplification depends on the pressure gradient, the boundary-layer state, the Reynolds number, the effector geometry, its position relative to the separation line and the excitation frequency. **None of those is public for the X-65A and several are precisely what the aircraft exists to measure.** So the authority ratios in this article are conditional statements of the form that if the amplification is thirty then the deficit at Mach 0.7 is 43.3 percent, and they are not predictions.
+
+### Reynolds Number Is Not the Problem, and the Equation Pass Said It Was
+
+**The equation-density pass computed this aircraft's Reynolds number, compared it with the experiments whose thresholds this article had borrowed, found a gap of one to nearly three orders of magnitude, and concluded that the thresholds were the part most likely to be wrong at flight scale. The primary-reference pass found the report that settles it and the conclusion was too strong.**
+
+The Reynolds number on a chord is the ratio of inertial to viscous forces. Let $\mathrm{Re}$ be that number, dimensionless, and $\mu$ the dynamic viscosity in pascal second, which for air follows Sutherland's law with constants $C_1$ in kilogram per metre second per root kelvin and $S_\mu$ in kelvin.
+
+$$ \mathrm{Re} = \frac{\rho V \bar{c}}{\mu}, \qquad \mu\left( T \right) = \frac{C_1 \, T^{3/2}}{T + S_\mu} $$
+
+with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns 1.7894 times ten to the minus five pascal second at sea level**, against the published 1.789 times ten to the minus five. **At Mach 0.7 and thirty thousand feet on a chord of 1.750 metre the X-65A flies at 11.44 million.**
+
+**Active separation control by oscillatory excitation was demonstrated above that Reynolds number in the year 2000, and this article did not know it.** Seifert and Pack tested the method at chord Reynolds numbers as high as forty million and state in their summary that it was proved successful in delaying boundary layer separation and reattaching separated flows at chord Reynolds numbers of order ten million \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. **Their baseline flow was made fully turbulent deliberately, to remove transition as a variable, and they report that the Reynolds number has a very weak effect on the model pressure distributions and spectra regardless of Mach number or sweep.**
+
+| Study | Reynolds number | The X-65A in flight over it |
+|---|---|---|
+| Munday and Taira 2018 | 2.30 times ten to the 4 | 497.6 |
+| Feero et al. 2015 | 1.00 times ten to the 5 | 114.4 |
+| Seifert et al. 1996, low | 1.50 times ten to the 5 | 76.3 |
+| Jones and Englar 2003 | 5.00 times ten to the 5 | 22.9 |
+| Seifert et al. 1996, high | 6.00 times ten to the 5 | 19.1 |
+
+**The X-65A flies at 0.715 times that experiment's sixteen million and 0.286 times the forty million it quotes.** It is inside the demonstrated range, not beyond it. **So the honest statement is the narrow one.** The specific threshold values the equation pass borrowed do come from experiments at a hundred thousand and twenty-three thousand, and transferring a threshold is a different matter from transferring a phenomenon. **But the phenomenon is not in doubt at this aircraft's Reynolds number and the article should not have implied it was.**
+
+### What the Flight-Reynolds Primary Actually Reports, Which Is Better News
+
+**The same report quotes the oscillatory momentum coefficients it used, and its nomenclature defines the coefficient as the jet momentum over chord times dynamic pressure, which is this article's definition exactly.**
+
+| Case the report quotes | Oscillatory momentum coefficient | This article's figure over it | Concentration still needed |
+|---|---|---|---|
+| lowest quoted, Mach 0.25 | 0.03 percent | 3.150 | none |
+| slot at 64 percent chord, Reynolds 16 million | 0.09 percent | 1.050 | none |
+| reduced frequency 1.0 | 0.12 percent | 0.788 | 1.27 |
+| wall pressures, Reynolds 16 million, Mach 0.25 | 0.13 percent | 0.727 | 1.38 |
+| reduced frequency 0.5 | 0.32 percent | 0.295 | 3.39 |
+
+**The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches two of the five quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values**, which is a primary-sourced error bar and not an assumption of this article.
+
+**And at that report's own Mach number of 0.25 the bleed budget delivers 0.5579 percent, which is 1.74 times its highest quoted value.** So the air budget is not marginal at the condition where the method was demonstrated. **It is marginal only where this aircraft wants to fly**, and the factor between the two is 5.903, which is the Mach dependence derived above and nothing else.
+
+### And the Primary Names This Article's Keystone as the Open Problem
+
+**The report's own proposals for future work include overcoming the lack of sufficient control authority, especially at high speeds** \[[Seifert and Pack 2000][research_seifert_pack_2000]\].
+
+**That is the finding this article derived, named as unsolved twenty-five years before the X-65A was due to fly.** The authority ratio falls as the square of the Mach number because the engine delivers a roughly fixed momentum while the aerodynamic forces to be overcome grow with the square of the speed. **A primary that tested the method at this aircraft's Reynolds number, at a third of its Mach number, and concluded that high-speed control authority was the thing still to be found, is the strongest available independent support for the conclusion.**
+
+**It is also a caution about novelty.** This article derived the Mach dependence and its exact minimum, and did not derive the observation that high-speed authority is the binding constraint. **That observation is in the literature and this article found it only in the pass that went looking for primaries.**
+
+### The Bleed Penalty Is Asserted Rather Than Derived
+
+**Taking air from a compressor costs thrust and this article does not compute how much.** The mass-flow accounting is exact, being 8 percent of a core flow of 10.0 kilogram per second, which is a small fraction of total engine flow at a bypass ratio of 3.3. **The thrust consequence is not exact**, because it depends on the turbine work no longer available to drive the fan, on the cycle's rematching, and on the control schedule the engine's digital controller applies.
+
+**A defensible lower bound is that the thrust loss is at least the lost mass flow's share, and the true figure is larger.** This article declines to put a number on it. **The single-stage centrifugal architecture makes the answer worse than a multi-stage axial's would be**, because the bled air has had the whole compression done to it, and that much follows from the architecture the NASA report describes \[[FJ44 turbofan engine test][ref_fj44_test]\].
+
+### Suction Is in the Official Definition and Not in This Analysis
+
+**The budget justification defines active flow control as control mechanisms which alter the aerodynamic flow field through ejection or suction of fluid via an orifice on a lifting body** \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\]. **The phrase includes suction and this article's whole momentum accounting assumes blowing.**
+
+A suction device removes low-momentum air rather than adding high-momentum air, and its figure of merit is a flow coefficient rather than a momentum coefficient. **The identity that makes the amplification exact does not hold for it**, because there is no jet momentum in the denominator. **Nothing published says which the X-65A uses**, and a system that uses both would need both accountings. This article's analysis applies to the blowing case and says so.
+
+### One Vehicle Still Cannot Do Everything
+
+**The differencing argument above is strong and it has a limit.** Locking a conventional surface and commanding an effector instead changes the aircraft's aerodynamics in ways beyond the intended substitution. **A locked surface is still a surface, sitting in a position, with its gaps and its hinge line**, and it is not absent. An aircraft designed without conventional surfaces would have a different shape, lower weight and no gaps.
+
+**So the X-65A measures the authority of flow control on an airframe built to accommodate both systems**, which is not the same as the authority of flow control on an airframe built for flow control alone. **The programme's own framing acknowledges this by calling the conventional surfaces training wheels**, and the honest reading is that the aircraft measures a lower bound on what a purpose-built vehicle would achieve and an upper bound on the weight saving.
 
 ## The Source Base
 

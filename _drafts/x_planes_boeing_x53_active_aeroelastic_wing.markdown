@@ -389,6 +389,24 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 **Roll rates at 15,000 feet were highest at Mach 0.85 and Mach 1.2 and lowest at Mach 0.95**, which is the same transonic dip a conventional F/A-18 shows, and which belongs to the shock rather than to the structure \[[Shock location dominated transonic flight loads on the active aeroelastic wing][research_aaw_shock_loads]\].
 
+## Comparison With Ground Prediction
+
+**The X-53 had less to set against a ground prediction than most aeroplanes in this series, because the model its second phase flew on was made from its own first phase.** The wind-tunnel programme that preceded it ran from 1984 to 1993 on a dynamically scaled model, and the flight programme existed to find out what a full-scale aeroplane would do instead \[[The active flexible wing aeroservoelastic wind-tunnel test program][research_afw_wind_tunnel]\]. Phase I gathered data for flight-derived aerodynamic and loads models, and the Phase II control laws were designed on those models \[[Active aeroelastic wing aerodynamic model development and validation for a modified F/A-18A][research_aaw_aero_model]\]. **What can be compared is therefore what the programme expected before a flight against what that flight returned**, and the sections headed The Flight Test Record and What the Data Changed argue each case in full.
+
+**The expectation that named the aeroplane was not met.** The third of the programme's four requirements was a wing that exhibits trailing-edge roll control reversal, and it was effectively deleted after early flight tests showed it could not be met \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]. Phase I found the aileron roll control moments approaching zero and staying there without changing sign. The report attributes this to substantial control surface flexibility, and the article records that as the report's hypothesis rather than as a finding.
+
+**There was no predicted reversal dynamic pressure for the flight to confirm or refute.** The report's illustration of the four regions is captioned as a typical fighter and not as the X-53, so it fixes no reversal value for this aeroplane, and the article claims none. The flight returned an absence of reversal against no stated number.
+
+**The planned envelope was larger than the flown one.** The programme planned 18 test points, and the two at the highest dynamic pressure, Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet, proved to be outside the aeroplane's performance envelope. The report suggests that the research instrumentation added the drag that put them out of reach, and the section headed The Flight Test Record computes how far short the aeroplane fell.
+
+**Predicted response matched flight well supersonically and less well subsonically.** Comparison of the Phase II flight data with predicted response showed excellent agreement supersonically and only fair agreement subsonically, with larger differences \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]. **The prediction rested on an extrapolation**, since some Phase I excitation manoeuvres were too small and the Phase II control laws commanded as much as five times larger outboard leading-edge flap motion than the manoeuvres that had measured its control power.
+
+**One designed benefit was absent in flight.** The new control laws failed to show load reduction at a subsonic region II test point at elevated normal acceleration when compared against the production system, and the report traces the failure to the trailing-edge surfaces being driven inconsistently with manoeuvre load control strategies without saying why the design produced that.
+
+**The roll requirements were written before flight, and flight met them at two of three test points.** The control designs met the level 1 time-to-bank goal at the subsonic region I and supersonic region II test points and fell short of the level 2 requirement at the subsonic region III test point. The measured roll-mode time constants of 0.18, 0.10 and 0.60 seconds all sat inside the level 1 limit of 1.0 seconds, and two of them fell below the 0.3 second guideline the programme had written against roll ratchet.
+
+**The weight saving remains a ground estimate with no flight counterpart.** The figure of 10 to 20 percent is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. The X-53 did not have such a wing, and nothing in its flight test weighed one.
+
 ## What the Data Changed
 
 **The concept was demonstrated at full scale and the demonstration is the result.** A fighter with its wing stiffening deliberately removed rolled acceptably using its wing surfaces alone, at transonic and supersonic conditions, on control laws designed from flight-derived models.
@@ -400,14 +418,6 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 **One designed benefit did not appear.** The new control laws **failed to show load reduction at a subsonic region II test point at elevated normal acceleration** when compared against the production system, and examination showed the trailing-edge surfaces being driven in a manner inconsistent with manoeuvre load control strategies.
 
 **And the models the control laws were designed on had been extrapolated.** The report records in hindsight that some of the Phase I excitation manoeuvres were too small, that significant extrapolation of the leading-edge flap control power was required, and that Phase II research control laws used **as much as five times larger outboard leading-edge flap motion** than the manoeuvres that had measured it.
-
-## Where the Framing Breaks Down
-
-**Calling this an aeroelasticity experiment understates how much of it was a control law experiment.** The programme dropped flutter suppression, dropped external stores, and could not reach reversal, and what remained was the design and flight clearance of eighteen point designs on an aeroplane whose aerodynamic model came from its own earlier flights.
-
-**Calling the result a success without qualification overstates it.** Roll performance within 15 to 20 percent of production, achieved without the stabilator, is a real demonstration. Missing the level 2 requirement in region III is a real shortfall, and region III is the interesting region.
-
-**And the weight saving was never weighed.** The 10 to 20 percent figure is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\]. **The X-53 did not have such a wing.** It had a production wing with its stiffening removed and a research instrumentation fit added on top, which is the opposite transaction. **The record does not give the mass of that fit** and this article does not estimate one.
 
 ## The Contemporary Literature
 
@@ -499,6 +509,13 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 **23 records.** \[[Beldica and Hilton 1999][research_beldica_hilton_1999]\] \[[Bihrle and Barnhart 1982][research_bihrle_barnhart_1982]\] \[[Bihrle et al 1980][research_bihrle_jr_1980]\] \[[Calculation of the lateral control of swept and unswept flexible wings of arbitrary stiffness][research_lateral_control_flexible]\] \[[Clark 2026][research_clark_2026]\] \[[DeLaurier 2024][research_delaurier_2024]\] \[[Goland 1952][research_goland_1952]\] \[[Grosser 1965][research_grosser_1965]\] \[[Horton 1943][research_horton_1943]\] \[[Hunn 1953][research_hunn_1953]\] \[[hussain and Khan 2019][research_hussain_khan_2019]\] \[[Kim and Song 2013][research_kim_song_2013]\] \[[Mukherjee and Shaw 2004][research_mukherjee_shaw_2004]\] \[[Mukherjee and Shaw 2007][research_mukherjee_shaw_2007]\] \[[Pearson, Henry A and Aiken, William S, Jr 1944][research_pearsonhenrya_aikenwilliamsjr_1944]\] \[[Platanitis and Strganac 2005][research_platanitis_strganac_2005]\] \[[Rolling effectiveness and aileron reversal of rectangular wings at supersonic speeds][research_supersonic_aileron_reversal]\] \[[Rose and Jinu 2014][research_rose_jinu_2014]\] \[[Sandahl, Carl A 1948][research_sandahlcarla_1948]\] \[[Silva][research_silva_b]\] \[[Song and Kim 2009][research_song_kim_2009]\] \[[Thomson 1946][research_thomson_1946]\] \[[Yoon et al 2012][research_yoon_chung_2012]\]
 
+## Where the Framing Breaks Down
+
+**Calling this an aeroelasticity experiment understates how much of it was a control law experiment.** The programme dropped flutter suppression, dropped external stores, and could not reach reversal, and what remained was the design and flight clearance of eighteen point designs on an aeroplane whose aerodynamic model came from its own earlier flights.
+
+**Calling the result a success without qualification overstates it.** Roll performance within 15 to 20 percent of production, achieved without the stabilator, is a real demonstration. Missing the level 2 requirement in region III is a real shortfall, and region III is the interesting region.
+
+**And the weight saving was never weighed.** The 10 to 20 percent figure is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\]. **The X-53 did not have such a wing.** It had a production wing with its stiffening removed and a research instrumentation fit added on top, which is the opposite transaction. **The record does not give the mass of that fit** and this article does not estimate one.
 
 ## The Source Base
 

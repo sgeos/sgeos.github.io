@@ -48,7 +48,11 @@ The sections below establish four things. **The condition for exact model follow
 
 **The economics and the paperwork are treated as records in their own right** rather than as background, because the contract record for this aeroplane answers a question that neither of the previous two articles could ask. The X-60A's money and the X-61A's money paid for a development programme with a beginning and an end. **This money pays to keep one aeroplane flying**, in calendar-year increments, for a decade, and it therefore measures what an instrument of this kind costs to own.
 
-## The Name Does Not Spell Its Own Acronym
+## Programme Origin
+
+**The aeroplane and its number have two different origins, twenty-nine years apart, and this section takes them in turn.** The aeroplane is a Block 30 F-16D modified to carry a second flight control system, and it first flew on 1 April 1992 \[[General Dynamics X-62 VISTA][ref_x62_wikipedia]\]. The number was allocated on 14 June 2021 \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The four parts of this section read the name the government gives the aeroplane, the engine its register row names against the engine its block number implies, the status letter it carried before the X, and the interval between its first flight and its designation.
+
+### The Name Does Not Spell Its Own Acronym
 
 **VISTA has been expanded 7 different ways in the federal award record for this one aeroplane**, across 55 occurrences. That is a count of the government's own descriptions of its own contracts.
 
@@ -72,7 +76,7 @@ The sections below establish four things. **The condition for exact model follow
 
 **The federal award record, which has not adopted the correction, is the largest body of text this article searched in which the older expansion still stands.** Whether the change of wording was a considered decision or an ordinary drift in a marketing department is not something the public record settles, and this article does not claim it was deliberate. **What is measured is that the two names differ, that the difference is exactly the word the acronym never contained, and that the money still uses the old one.**
 
-## A Block Number That Means One Engine and a Cell That Names Another
+### A Block Number That Means One Engine and a Cell That Names Another
 
 **The one part of this register row that is not about simulation is the engines cell, and it contradicts the aeroplane's own block number.**
 
@@ -88,7 +92,7 @@ The row reads `1 Pratt & Whitney F100` \[[DOD 4120.15-L Addendum][ref_mds_addend
 
 **That last detail is the first sign of what this article is about.** A landing gear was changed not to improve the aeroplane but to widen the set of other aeroplanes it can pretend to be. **The modification is in the simulation's envelope rather than in the aircraft's.**
 
-### The Letter It Carried Before the X
+#### The Letter It Carried Before the X
 
 **Before 2021 the aeroplane was an NF-16D, and the N is a status prefix with a precise meaning.** It denotes special test, permanent, and it is applied when the modifications are so drastic that returning the aircraft to its original configuration, or converting it to a standard operational one, is beyond practicable or economic limits \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\] \[[Designations of U.S. Military Aircraft, including the modified mission and status prefix letters][ref_mds_aircraft]\].
 
@@ -98,7 +102,90 @@ The row reads `1 Pratt & Whitney F100` \[[DOD 4120.15-L Addendum][ref_mds_addend
 
 **And the X did not replace a claim about the aeroplane. It replaced a claim about its owner's intentions.** The school that operates it said at the time that the redesignation reflected the research done on the aircraft over nearly thirty years and acknowledged the upgrade programme then under way \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\]. **A redesignation that reflects the past is a different object from one that authorises a future**, and this series has met the second kind repeatedly and the first kind once.
 
-## What the Variable Stability System Actually Commands
+### The Aeroplane Is Twenty-Nine Years Older Than Its Number
+
+**The X-62A first flew on 1 April 1992 and was designated on 14 June 2021**, which is 10,666 days, or 29.2 years \[[General Dynamics X-62 VISTA][ref_x62_wikipedia]\] \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. By the date of this article it has been flying for 33.7 years and has carried an X number for 4.48 of them.
+
+$$
+F = \frac{T_n - T_d}{T_n - T_0}
+$$
+
+**That fraction is 13.3 percent.** Seven-eighths of this aeroplane's flying life happened before it was an X-plane, and it is still flying, so the fraction is still falling relative to what it would have been had the number come first.
+
+**This series has now met five distinct orderings between a designation and the aeroplane it names**, and they are worth setting beside one another because the register's own chronology conceals all of them.
+
+| Ordering | Case |
+|---|---|
+| The number comes first and the aeroplane follows | the [X-1][related_post_a298_bell_x1] and most of the early series |
+| The number comes after the aeroplane has stopped flying | the [X-53][related_post_a350_boeing_x53] |
+| The number is allocated and no aeroplane is ever built | the [X-54][related_post_a351_gulfstream_x54] |
+| The number follows the first flight by months | the [X-55][related_post_a352_lockheed_martin_x55] |
+| The number follows the first flight by three decades and the aeroplane is still flying | the X-62A |
+
+**The fifth is the only one in which the designation describes a change of purpose rather than an event in the aeroplane's life.** Nothing happened to the metal in June 2021 that had not happened many times before. **What changed was the identity of the thing the machine was built to deceive**, and the register records that change in the one row of 539 that uses the word `redesignated`.
+
+## What It Costs to Keep an Instrument Flying
+
+**The previous two articles read a contract record that paid for a development programme. This one reads a contract record that pays rent on an aeroplane, and that is a different object.**
+
+The X-60A's money outlived its publicity by three years and ended by paying to ship equipment. The X-61A's money stopped forty-seven days after the flight that mattered while the period of performance ran on for another four years. **Neither of those shapes appears here.** This record runs in calendar-year increments to two contractors for more than a decade, and it therefore answers a question the other two could not, which is what an in-flight simulator costs to own.
+
+**73 transactions across 18 awards total 29,085,924.37 dollars**, from 21 February 2014 to 30 September 2025, a span of 11.6 years \[[USAspending][ref_usaspending]\].
+
+**Every total in this section is a reassembly and not a restatement**, which is a distinction worth one line of notation because the whole reliability of the section rests on it.
+
+$$
+\sum_k v_k = V
+$$
+
+**The registry publishes the left side and the right side independently.** The transactions are filed one at a time by the contracting office as money moves and the award total is a separate field. **Agreement between them is therefore evidence for both, and disagreement would be a defect in one**, which is a stronger position than quoting either alone. **17 of the 18 agree to the cent.** The one that does not is excluded because part of it falls past this article's date.
+
+| Calendar year | Obligated | Share of the total |
+|---|---|---|
+| 2014 | 514,070.00 dollars | 1.8 percent |
+| 2015 | 653,933.00 dollars | 2.2 percent |
+| 2016 | 56,620.01 dollars | 0.2 percent |
+| 2018 | 3,946,393.66 dollars | 13.6 percent |
+| 2019 | 10,000.00 dollars | 0.0 percent |
+| 2020 | 1,843,037.33 dollars | 6.3 percent |
+| 2021 | 6,020,876.27 dollars | 20.7 percent |
+| 2022 | 6,183,543.77 dollars | 21.3 percent |
+| 2023 | 3,816,669.74 dollars | 13.1 percent |
+| 2024 | 840,780.59 dollars | 2.9 percent |
+| 2025 | 5,200,000.00 dollars | 17.9 percent |
+| **All years** | **29,085,924.37 dollars** | **100.0 percent** |
+
+**Two contractors hold all of it.** Calspan takes 23,611,921.77 dollars, which is 81.2 percent, and Lockheed Martin takes 5,474,002.60 dollars, which is 18.8 percent. **The split follows the division of labour the press releases describe**, with the simulation system belonging to the laboratory and the airframe and the autonomy interface to the prime contractor \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\].
+
+### The Redesignation Is Visible in the Money
+
+**Obligations run at 1,390,629.73 dollars a year before 14 June 2021 and 4,404,494.90 dollars a year after it, a ratio of 3.17.**
+
+**The average over the whole record is 2,506,165.10 dollars a year, and quoting that alone would conceal the thing worth reporting.** It is the figure a reader would compute first and it is 1.76 times smaller than the rate the aeroplane has actually been running at since the redesignation.
+
+**That is a comparison of averages over unequal periods and it should be read as one.** The earlier period includes two years with almost no obligations at all and one, 2018, with nearly four million. **The step is real and the smoothness is not**, and an aeroplane bought a calendar year at a time shows a lumpy record.
+
+**The first obligation after the redesignation came 31 days later**, being 1,350,000.00 dollars for the third phase of the simulation system upgrade \[[Contract FA930421F5020, VISTA Simulation System upgrade Phase III, Department of the Air Force to Calspan][ref_usa_vss3]\]. **The redesignation and the upgrade are the same event seen from two records.**
+
+**And the largest single obligation in the whole record is the most recent one.** 5,200,000.00 dollars were obligated on 30 September 2025, which is 17.9 percent of everything and falls 68 days before this article's date. **It is dated the last day of a fiscal year**, which is where a great deal of federal money moves and which this article notes without inferring anything from it.
+
+**The record also carries 22 modifications obligating nothing and 5 deobligating a total of 68,585.40 dollars.** A zero-dollar modification is an administrative action against an open award and is a different object from spending, which is a distinction the previous article established and this record confirms.
+
+**6 transactions fall after this article's date and are excluded at the source rather than in the prose**, carrying 782,854.00 dollars between them. **One of those is the only place in the entire record where the designation X-62A appears**, which is why the exclusion is not a formality. An article that filtered in the sentence rather than in the data would have reported the opposite of this record's most interesting property.
+
+### The Register's Unofficial Sentence Is Corroborated by a Different Government Record
+
+**The compiler marks the X-62A's description as not official Department of Defense wording, and the description says the upgrade was for the Skyborg programme** \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **That is a reconstruction from open sources and the compiler says so.**
+
+**The contract record confirms it independently.** 108 days after the redesignation, the Air Force obligated 799,956.00 dollars to Lockheed Martin under a line whose description names **HAVE Autonomous Air Combat Operations Phase Two Skyborg** \[[Contract FA930421F5034, HAVE Autonomous Air Combat Operations Phase II Skyborg, Department of the Air Force to Lockheed Martin][ref_usa_haveaaco]\]. The word appears 73 transactions into a record that never once uses the designation.
+
+**This is worth stating carefully because it is an epistemic result and not a factual one.** The previous article could establish that the register had stopped being a primary source and could not do anything about it. **This one can, for one sentence, because the accounting system and the designation register are independent records maintained for unrelated purposes** and they agree. **That does not make the sentence official. It makes it corroborated**, which is a weaker claim and a more useful one.
+
+## Sizing From First Principles
+
+**There is no airframe to size here, because the airframe is a production F-16D and the section headed The Research Question sets it aside.** What can be sized from first principles is the instrument, being the number of independent controls a variable-stability system needs in order to reproduce another aeroplane exactly. This section takes the published list of what the second flight control system commands, derives from the model-following condition that the number required is three per axis, finds that the list supplies three per axis, and then shows that the geometry of the two lifting controls decides how well conditioned those three are.
+
+### What the Variable Stability System Actually Commands
 
 **The whole of this article's mathematics turns on one list, and the list is published.**
 
@@ -120,11 +207,11 @@ $$
 
 **That difference is not a matter of degree. The next section shows that it is the difference between a problem that has an exact solution and one that does not**, and the number 3 is not a coincidence.
 
-## Model Following, Which Is the Mathematics of Pretending
+### Model Following, Which Is the Mathematics of Pretending
 
 **The programme's own name for what this aeroplane does is the Model Following Algorithm**, and the prime contractor lists it as a deliverable alongside the simulation system and the autonomy interface \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\] \[[Caraway, Harris and Cotting, VISTA X-62A Model Following Algorithm Overview, AIAA SciTech 2023][ref_scitech_mfa]\]. **The phrase is a term of art with a definition, a solvability condition and a computable failure, and all three are older than the aeroplane.**
 
-### The Statement
+#### The Statement
 
 Two linear systems are in play. The first is the host aeroplane, whose state is what the air and the metal actually do. The second is the model, which exists only inside a computer and which the host is required to imitate \[[Stevens, Lewis and Johnson, Aircraft Control and Simulation][book_stevens_lewis]\] \[[McRuer, Ashkenas and Graham, Aircraft Dynamics and Automatic Control][book_mcruer_dynamics]\].
 
@@ -152,7 +239,7 @@ $$
 
 **Notice what has happened. The unknowns are gains, the equations are linear in them, and the question is no longer about aeroplanes at all.** It is the question of whether two matrix equations have a solution, and that question has a standard answer.
 
-### The Condition Is a Subspace Containment
+#### The Condition Is a Subspace Containment
 
 A linear equation of the form $ B X = Y $ has an exact solution if and only if every column of $ Y $ lies in the column space of $ B $. The projector onto the complement of that column space is built from the Moore-Penrose pseudoinverse \[[Moore-Penrose inverse][ref_pseudoinverse]\] \[[Projection, the linear algebraic operation][ref_projection]\].
 
@@ -180,7 +267,7 @@ $$
 
 **Read the first condition in words.** The simulation demands a change of dynamics, being the difference between the model's dynamics matrix and the host's. **Every column of that difference must be producible by some combination of the host's controls.** The host's aerodynamics, its inertia, its speed and its altitude appear nowhere except through $ B $, and the model's realism appears nowhere except through $ A_m $. **The condition is about reach and not about power.**
 
-### What It Costs When the Condition Fails
+#### What It Costs When the Condition Fails
 
 **The instrument was built on this literature and the literature knew it.** Calspan's other variable-stability aeroplane, the Total In-Flight Simulator, published its model-following system and the flight verification of it within five years of the memorandum \[[Pruner and Reynolds, The Total In-Flight Simulator Design and Capabilities, AIAA Simulation and Support Conference, 1968][ref_tifs_1968]\] \[[Motyka, Rynaski and Reynolds, Theory and Flight Verification of the TIFS Model-Following System, Journal of Aircraft, 1972][ref_tifs_1972]\]. **The mathematics and the aeroplanes that use it are the same generation**, and the X-62A is a late member of that line rather than its first. **This article does not know how many machines stand between the two**, because counting them would mean settling what makes an aeroplane a variable-stability aeroplane rather than merely a research one, and no source consulted draws that line.
 
@@ -206,7 +293,7 @@ $$
 
 **The first term of the error equation is a stable homogeneous response and a designer can make it as fast as the hardware allows.** The second term is not. **It is driven by the model's own state**, which means that the harder the simulated aeroplane is manoeuvring, the larger the error, and no choice of $ K_x $ removes it because $ E $ does not contain $ K_x $. **A model-following error of this kind cannot be tuned away. It can only be designed away, by changing $ B $, which means by changing which surfaces the system is allowed to move.**
 
-### The Counting Bound, Which Is the Design in One Line
+#### The Counting Bound, Which Is the Design in One Line
 
 The projector's rank is fixed by the rank of the control effectiveness matrix.
 
@@ -229,7 +316,7 @@ $$
 
 **This is why the second flight control system commands the throttle.** A throttle is not a flight control on any fighter. It is here because the speed equation is one of the three and no aerodynamic surface on an F-16 can change the axial force independently of the normal force and the pitching moment. **The engine is not propulsion in this argument. It is the third column of a matrix.**
 
-### The Bound Is Sufficient and Not Necessary, and Saying So Costs Nothing
+#### The Bound Is Sufficient and Not Necessary, and Saying So Costs Nothing
 
 **The counting above matches every state, and a simulation does not have to.** What the pilot is given is an output rather than a state, being an attitude, a rate, a load factor and whatever the instruments show, and matching an output is a weaker demand than matching everything behind it \[[Stevens, Lewis and Johnson, Aircraft Control and Simulation][book_stevens_lewis]\].
 
@@ -241,7 +328,7 @@ $$
 
 **So three controls per axis is sufficient and it is not necessary**, and this article claims only the sufficiency. **What the weaker condition buys is a warning rather than a licence.** An output-matched simulation is exact in what the pilot is shown and free to be wrong in everything else, and the states it is free to be wrong in are still driving the aeroplane. **The mismatch does not disappear. It moves somewhere the pilot is not looking.**
 
-### One Control Short, and Which Half of the Aeroplane Goes Wrong
+#### One Control Short, and Which Half of the Aeroplane Goes Wrong
 
 **A rank deficiency of one sounds like a small defect and it is not, because the deficient direction is not distributed evenly over the aeroplane.**
 
@@ -302,7 +389,7 @@ $$
 
 **A symmetric trailing-edge flap is the missing column.** It makes lift with comparatively little moment, and adding it to the matrix takes the unreachable subspace from one dimension to none. **The variable stability system commands the trailing-edge flaps for exactly this reason**, and the reason is visible in the arithmetic before any document says so.
 
-## The Determinant Is a Distance
+### The Determinant Is a Distance
 
 **Two lifting controls only count as two if they act at different places, and the determinant says so in a form that has no aerodynamics in it.**
 
@@ -344,7 +431,7 @@ $$
 
 **The separation is a property of the airframe and nothing in the simulation software can change it.** A variable-stability aeroplane whose lifting controls happened to sit close together would be a poor instrument no matter how good its computers were, and the arithmetic says by how much.
 
-### The Column That Makes the Projector Vanish Is the Column That Runs Out First
+#### The Column That Makes the Projector Vanish Is the Column That Runs Out First
 
 **Solving the worked example for its gains rather than for its residual gives a result the rank argument does not predict.**
 
@@ -361,13 +448,17 @@ The simulation of the previous section demands **0.82 degrees of symmetric tail 
 
 **The bound of the previous relation is loose here and that is worth saying.** It gives 53.4 against a realised gain norm of 2.76, a factor of 19.4, because the worst-case direction the bound assumes is not the direction this particular simulation demands. **A bound that is loose by a factor of nineteen is a bound and not an estimate**, and the realised value is the one the table above uses.
 
-## The Frequency at Which the Simulation Runs Out of Authority Is Published
+## Dependent Systems
+
+**The controls counted in the section headed Sizing From First Principles act through hardware the simulation did not choose, and that hardware is where the vehicle returns to the argument.** The second flight control system drives production surfaces through production actuators, whose deflection limits, rate limits and lags were published in 1979 \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\]. This section reads those limits as frequencies, takes the actuator lag as a floor under the delay of every simulated aeroplane, shows that the same rate limits make the instrument subject to the oscillation it is used to study, and ends with the human being and the rating scale through which every result is reported.
+
+### The Frequency at Which the Simulation Runs Out of Authority Is Published
 
 **NASA released the numbers that bound this aeroplane's simulation in 1979, twelve years before it flew as a simulator, in a report that never names the type in its title.**
 
 Technical Paper 1538 studies the stall and post-stall behaviour of a fighter with relaxed longitudinal static stability, and says in its appendix on aerodynamic data that the data came from low-speed wind-tunnel tests of subscale models of the F-16 \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\]. Its Table 1 gives the mass, the inertias, the wing geometry and the surface deflection limits. **Its Appendix A gives the actuator lag and the rate limit of every surface but the speedbrake**, and those two numbers are what decide how fast a simulation can be. The speedbrake carries a deflection limit in Table 1 and no actuator anywhere, which is consistent with its not being a flight control.
 
-### A Rate Limit Is a Frequency in Disguise
+#### A Rate Limit Is a Frequency in Disguise
 
 A surface commanded to oscillate must move fastest as it passes through zero, and the peak rate is the product of the amplitude and the frequency \[[Slew rate][ref_slew_rate]\].
 
@@ -413,7 +504,7 @@ $$
 
 **This article does not know why.** The limits were set for a fighter and not for a simulator, twenty years before the simulator existed, and the second flight control system inherited them. **What can be said is that the inheritance is uneven and that the unevenness falls on the axis that matters most**, because pitch is where a variable-stability aeroplane does most of its work and the pitch surface is the slowest of the four.
 
-### The Leading-Edge Flap Is the Cheapest Column Nobody Bought
+#### The Leading-Edge Flap Is the Cheapest Column Nobody Bought
 
 **The leading-edge flap has a corner frequency of exactly 1 radian per second**, being twenty-five degrees of travel at twenty-five degrees per second, and its actuator lag is 2.75 times longer than every other surface's \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\]. **It is also a direct lift device, which makes it, on paper, a fourth column for the longitudinal control matrix.**
 
@@ -447,7 +538,7 @@ $$
 
 **This article does not claim that the coincidence was deliberate or that anyone has noticed it.** The schedule was designed for an aeroplane and the actuator was sized for a surface, and a near-cancellation between two poles chosen twenty years apart is as likely to be an accident as a design. **What can be said is that the surface the simulation might have wanted is already carrying a command it cannot execute**, which is a third reason on top of the two the previous paragraphs give, and the public record does not say which of the three governed.
 
-## The Actuator Puts a Floor Under Every Aeroplane This One Can Be
+### The Actuator Puts a Floor Under Every Aeroplane This One Can Be
 
 **The most important consequence of the published numbers is not a limit on authority. It is a limit on quickness, and it is one-sided.**
 
@@ -489,7 +580,7 @@ $$
 
 **The frame rate is an assumption and the article flags it as one.** The actuator number is published and the conclusion does not depend on the assumed part, because a floor of forty-nine and a half milliseconds is already a floor. **What the assumption buys is an order of magnitude for the computational share, and the order of magnitude is that it is comparable to the hardware rather than negligible beside it.**
 
-## The Instrument Shares the Failure Mode of the Thing It Studies
+### The Instrument Shares the Failure Mode of the Thing It Studies
 
 **A rate-limited actuator is the standard mechanism of one class of pilot-induced oscillation, and this aeroplane's actuators are rate limited.**
 
@@ -530,7 +621,7 @@ $$
 
 **The published limits say where the separation matters.** Below 2.4 radians per second at full stabilator travel, and proportionately higher at smaller amplitudes, the host's rate limits are not active and the simulation is whatever the linear analysis says it is. **Above them the host is contributing a nonlinearity of its own**, and a result obtained there is a result about a particular F-16 with a particular set of hydraulic actuators.
 
-### What the Delay Floor Costs the Pilot
+#### What the Delay Floor Costs the Pilot
 
 **Manual control theory's central result is that a trained operator adapts until the open loop looks like an integrator near the frequency at which the loop gain passes unity** \[[McRuer and Krendel, Mathematical Models of Human Pilot Behavior][book_mcruer_pilot]\] \[[McRuer, Ashkenas and Graham, Aircraft Dynamics and Automatic Control][book_mcruer_dynamics]\].
 
@@ -561,7 +652,7 @@ $$
 
 **That is 21.08 radians per second for the floor and 31.73 for the actuator alone.** Both are far above where a human pilot works, **so the ceiling is not the binding constraint and this article does not claim it is.** What binds is the tax, which is paid at every crossover frequency and which the simulation cannot refund.
 
-### The Relation This Article Wanted and Would Not Use
+#### The Relation This Article Wanted and Would Not Use
 
 **The field has its own way of turning a delay into a handling-qualities level and this article does not use it.**
 
@@ -573,7 +664,7 @@ The bandwidth criterion pairs a frequency at which the pitch attitude response h
 
 **The cost of that refusal is stated rather than hidden.** A reader who wants the delay floor expressed as a handling-qualities level will not find it here. **What is here instead is the phase it consumes at a stated crossover**, which is a weaker claim, which is derived, and which does not depend on a document this article has not opened.
 
-## The Answer Comes Back on an Ordinal Scale
+### The Answer Comes Back on an Ordinal Scale
 
 **Whatever this aeroplane measures, it reports through a human being, and the reporting scale has a property that bounds what can be done with the answer.**
 
@@ -605,64 +696,13 @@ $$
 
 **This is the one limit in the article that is not a limit on the aeroplane at all.** The model-following condition is exact, the residual is computable, the rate limits are published, the delay floor is arithmetic. **And the quantity all of that machinery exists to deliver is a number a human being picks out of ten boxes.** The instrument is far more precise than its own readout, which is an unusual place for an engineering system to be and worth stating plainly rather than leaving implied.
 
-## What It Costs to Keep an Instrument Flying
+## The Flight Test Record
 
-**The previous two articles read a contract record that paid for a development programme. This one reads a contract record that pays rent on an aeroplane, and that is a different object.**
+**The aeroplane has a flight record of more than thirty years and this article holds almost none of its data.** It first flew on 1 April 1992 \[[General Dynamics X-62 VISTA][ref_x62_wikipedia]\]. Behind its General Electric engine with an axisymmetric vectoring exhaust nozzle it completed 95 test flights of thrust-vectoring work before that programme ended in 1994 \[[X-62 Variable-Stability In-Flight Test Aircraft, Air and Space Forces Magazine weapons and platforms entry][ref_afa_x62]\]. A Pratt and Whitney vectoring installation followed, that programme was cancelled, and the aeroplane returned to its operators with a standard F100-PW-229 in June 1997 \[[F-16 VISTA, MATV and NF-16D, Variable-stability In-flight Simulator Test Aircraft, F-16.net][ref_f16net_vista]\]. The school that operates it describes its purpose as giving students the opportunity to practise testing aircraft with dangerously poor flying qualities, with a safety pilot in the back seat \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\].
 
-The X-60A's money outlived its publicity by three years and ended by paying to ship equipment. The X-61A's money stopped forty-seven days after the flight that mattered while the period of performance ran on for another four years. **Neither of those shapes appears here.** This record runs in calendar-year increments to two contractors for more than a decade, and it therefore answers a question the other two could not, which is what an in-flight simulator costs to own.
+**The flights since the redesignation are documented as claims and not as data.** The part of this section headed The Autonomy the Number Was For reports the seventeen hours of flight under an artificial intelligence agent in December 2022, the twenty-one flights the trade press counts and the engagements against crewed fighters in 2023, and it reports all of them as claims by interested parties. The programme's own papers on ground and flight testing the simulation system and on flight testing the autonomy exist \[[Haus, Ground and Flight Testing the New VISTA Simulation System, AIAA SciTech 2023][ref_scitech_vss_test]\] \[[Cotting, Stephens, Cole, Gray, Hartwig and Caraway, X-62 VISTA Simulation and Autonomy Flight Testing, AIAA SciTech 2023][ref_scitech_flight_testing]\], and the section headed The Source Base records that this article cites them for their existence, their authorship and their subject without having read them. **No sortie log, flight count beyond those quoted or measured response from any campaign is reported here**, and the record this article holds is silent on what those flights measured.
 
-**73 transactions across 18 awards total 29,085,924.37 dollars**, from 21 February 2014 to 30 September 2025, a span of 11.6 years \[[USAspending][ref_usaspending]\].
-
-**Every total in this section is a reassembly and not a restatement**, which is a distinction worth one line of notation because the whole reliability of the section rests on it.
-
-$$
-\sum_k v_k = V
-$$
-
-**The registry publishes the left side and the right side independently.** The transactions are filed one at a time by the contracting office as money moves and the award total is a separate field. **Agreement between them is therefore evidence for both, and disagreement would be a defect in one**, which is a stronger position than quoting either alone. **17 of the 18 agree to the cent.** The one that does not is excluded because part of it falls past this article's date.
-
-| Calendar year | Obligated | Share of the total |
-|---|---|---|
-| 2014 | 514,070.00 dollars | 1.8 percent |
-| 2015 | 653,933.00 dollars | 2.2 percent |
-| 2016 | 56,620.01 dollars | 0.2 percent |
-| 2018 | 3,946,393.66 dollars | 13.6 percent |
-| 2019 | 10,000.00 dollars | 0.0 percent |
-| 2020 | 1,843,037.33 dollars | 6.3 percent |
-| 2021 | 6,020,876.27 dollars | 20.7 percent |
-| 2022 | 6,183,543.77 dollars | 21.3 percent |
-| 2023 | 3,816,669.74 dollars | 13.1 percent |
-| 2024 | 840,780.59 dollars | 2.9 percent |
-| 2025 | 5,200,000.00 dollars | 17.9 percent |
-| **All years** | **29,085,924.37 dollars** | **100.0 percent** |
-
-**Two contractors hold all of it.** Calspan takes 23,611,921.77 dollars, which is 81.2 percent, and Lockheed Martin takes 5,474,002.60 dollars, which is 18.8 percent. **The split follows the division of labour the press releases describe**, with the simulation system belonging to the laboratory and the airframe and the autonomy interface to the prime contractor \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\].
-
-### The Redesignation Is Visible in the Money
-
-**Obligations run at 1,390,629.73 dollars a year before 14 June 2021 and 4,404,494.90 dollars a year after it, a ratio of 3.17.**
-
-**The average over the whole record is 2,506,165.10 dollars a year, and quoting that alone would conceal the thing worth reporting.** It is the figure a reader would compute first and it is 1.76 times smaller than the rate the aeroplane has actually been running at since the redesignation.
-
-**That is a comparison of averages over unequal periods and it should be read as one.** The earlier period includes two years with almost no obligations at all and one, 2018, with nearly four million. **The step is real and the smoothness is not**, and an aeroplane bought a calendar year at a time shows a lumpy record.
-
-**The first obligation after the redesignation came 31 days later**, being 1,350,000.00 dollars for the third phase of the simulation system upgrade \[[Contract FA930421F5020, VISTA Simulation System upgrade Phase III, Department of the Air Force to Calspan][ref_usa_vss3]\]. **The redesignation and the upgrade are the same event seen from two records.**
-
-**And the largest single obligation in the whole record is the most recent one.** 5,200,000.00 dollars were obligated on 30 September 2025, which is 17.9 percent of everything and falls 68 days before this article's date. **It is dated the last day of a fiscal year**, which is where a great deal of federal money moves and which this article notes without inferring anything from it.
-
-**The record also carries 22 modifications obligating nothing and 5 deobligating a total of 68,585.40 dollars.** A zero-dollar modification is an administrative action against an open award and is a different object from spending, which is a distinction the previous article established and this record confirms.
-
-**6 transactions fall after this article's date and are excluded at the source rather than in the prose**, carrying 782,854.00 dollars between them. **One of those is the only place in the entire record where the designation X-62A appears**, which is why the exclusion is not a formality. An article that filtered in the sentence rather than in the data would have reported the opposite of this record's most interesting property.
-
-### The Register's Unofficial Sentence Is Corroborated by a Different Government Record
-
-**The compiler marks the X-62A's description as not official Department of Defense wording, and the description says the upgrade was for the Skyborg programme** \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **That is a reconstruction from open sources and the compiler says so.**
-
-**The contract record confirms it independently.** 108 days after the redesignation, the Air Force obligated 799,956.00 dollars to Lockheed Martin under a line whose description names **HAVE Autonomous Air Combat Operations Phase Two Skyborg** \[[Contract FA930421F5034, HAVE Autonomous Air Combat Operations Phase II Skyborg, Department of the Air Force to Lockheed Martin][ref_usa_haveaaco]\]. The word appears 73 transactions into a record that never once uses the designation.
-
-**This is worth stating carefully because it is an epistemic result and not a factual one.** The previous article could establish that the register had stopped being a primary source and could not do anything about it. **This one can, for one sentence, because the accounting system and the designation register are independent records maintained for unrelated purposes** and they agree. **That does not make the sentence official. It makes it corroborated**, which is a weaker claim and a more useful one.
-
-## The Autonomy the Number Was For
+### The Autonomy the Number Was For
 
 **The programme the redesignation served has a stated challenge problem and it is not flying.** The agency describes its Air Combat Evolution effort as seeking to increase trust in combat autonomy by using human-machine collaborative dogfighting as its challenge problem, and says that in parallel it will implement methods to measure, calibrate, increase and predict human trust in that autonomy \[[ACE, Air Combat Evolution, Defense Advanced Research Projects Agency programme page][ref_darpa_ace]\].
 
@@ -672,9 +712,9 @@ $$
 
 **All of these are claims by interested parties and this article reports them as such.** The agency, the prime contractor and the school all have reasons to describe the result as a first. **Nothing in this survey's 9,012 records contradicts any of them**, which is a statement about what was searched rather than about what is true.
 
-### The Same Three Controls, and Why the Autonomy Fits
+#### The Same Three Controls, and Why the Autonomy Fits
 
-**What makes this aeroplane useful for autonomy work is the property established four sections ago**, and it is not obvious from the press releases.
+**What makes this aeroplane useful for autonomy work is the property established in the section headed Model Following, Which Is the Mathematics of Pretending**, and it is not obvious from the press releases.
 
 An autonomous agent developed for an uncrewed aircraft is written against that aircraft's dynamics. **To fly it on a host, the host must present the agent with the dynamics it expects**, which is model following with the model supplied by whichever vehicle the agent was built for. **The upgrade programme added a system for autonomous control of the simulation on top of the existing simulation system**, together with the model-following algorithm itself \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\] \[[Cotting, Stephens, Cole, Barricklow and Gray, X-62 VISTA Capabilities and Architecture, AIAA SciTech 2023][ref_scitech_capabilities]\] \[[Cotting, Stephens, Cole, Gray, Hartwig and Caraway, X-62 VISTA Simulation and Autonomy Flight Testing, AIAA SciTech 2023][ref_scitech_flight_testing]\].
 
@@ -690,27 +730,29 @@ $$
 
 **This is the clearest answer the article has to why the aeroplane received an X number in 2021 and not in 1992.** The machine did not change. **The thing being deceived did.** For twenty-nine years it fooled pilots, which is a task with a well-developed literature and a well-understood instrument. **Since 2021 it has been fooling software**, and the question of whether a piece of software can tell that it is not flying the aeroplane it thinks it is flying does not yet have a literature at all.
 
-## The Aeroplane Is Twenty-Nine Years Older Than Its Number
+## Comparison With Ground Prediction
 
-**The X-62A first flew on 1 April 1992 and was designated on 14 June 2021**, which is 10,666 days, or 29.2 years \[[General Dynamics X-62 VISTA][ref_x62_wikipedia]\] \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. By the date of this article it has been flying for 33.7 years and has carried an X number for 4.48 of them.
+**Every number this article computes is a ground prediction, and none of them has a flight value beside it.** The section headed The Flight Test Record establishes that this article holds no measured response from any of the aeroplane's flights, so the comparison this section exists to make can be set up and cannot be completed.
 
-$$
-F = \frac{T_n - T_d}{T_n - T_0}
-$$
+**The published limits are themselves ground data.** The deflection limits, rate limits and actuator lags come from Technical Paper 1538, whose aerodynamic data came from low-speed wind-tunnel tests of subscale models of the F-16 \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\], and they describe a production F-16 as modelled in 1979. The section headed Epistemic State records that no source consulted states the current values for this aeroplane, so even the inputs to the predictions are untested against the airframe that flies.
 
-**That fraction is 13.3 percent.** Seven-eighths of this aeroplane's flying life happened before it was an X-plane, and it is still flying, so the fraction is still falling relative to what it would have been had the number come first.
+**This article's own predictions are four.** The section headed Sizing From First Principles predicts that three independent controls per axis suffice for exact model following, and that in a representative short-period simulation the symmetric flap reaches its limit at a far lower angle of attack than the tail. The section headed Dependent Systems predicts that the symmetric tail is rate limited above 2.4 radians per second at full travel, and that the host adds a published floor of actuator delay to every aeroplane it simulates. **None of the four was compared with flight**, and the flap figure rests on representative matrices rather than on the aeroplane's own.
 
-**This series has now met five distinct orderings between a designation and the aeroplane it names**, and they are worth setting beside one another because the register's own chronology conceals all of them.
+**The programme made ground predictions of its own and published them, and whatever comparison they contain lies in papers this article has not read.** Piloted ground simulation of the modified aeroplane was published in 1995 and 1996 \[[McKeehen, Genesis Simulation of a Modified VISTA and F-16, AIAA Flight Simulation Technologies Conference, 1995][ref_vista_genesis_1995]\] \[[McKeehen, Cord and Nguyen, Modified VISTA and F-16 Piloted Simulation Study, AIAA Flight Simulation Technologies Conference, 1996][ref_vista_piloted_1996]\], and a paper on ground and flight testing the new simulation system was published in 2023 \[[Haus, Ground and Flight Testing the New VISTA Simulation System, AIAA SciTech 2023][ref_scitech_vss_test]\]. What those papers set side by side is not represented here.
 
-| Ordering | Case |
-|---|---|
-| The number comes first and the aeroplane follows | the [X-1][related_post_a298_bell_x1] and most of the early series |
-| The number comes after the aeroplane has stopped flying | the [X-53][related_post_a350_boeing_x53] |
-| The number is allocated and no aeroplane is ever built | the [X-54][related_post_a351_gulfstream_x54] |
-| The number follows the first flight by months | the [X-55][related_post_a352_lockheed_martin_x55] |
-| The number follows the first flight by three decades and the aeroplane is still flying | the X-62A |
+**The nearest comparison the article does report is on a different aeroplane.** The model-following system of Calspan's Total In-Flight Simulator was published together with its flight verification within five years of the 1967 memorandum \[[Motyka, Rynaski and Reynolds, Theory and Flight Verification of the TIFS Model-Following System, Journal of Aircraft, 1972][ref_tifs_1972]\]. That places the mathematics this article uses inside a tradition that tested it in the air. It does not test any figure computed here for the X-62A.
 
-**The fifth is the only one in which the designation describes a change of purpose rather than an event in the aeroplane's life.** Nothing happened to the metal in June 2021 that had not happened many times before. **What changed was the identity of the thing the machine was built to deceive**, and the register records that change in the one row of 539 that uses the word `redesignated`.
+**The autonomy flights carry an implied comparison and the record states only its outcome.** An agent written against one vehicle's dynamics is a product of the ground, and flying it on the host tests whether the host presents the dynamics the agent expects. The sources report that the agent flew the aeroplane for more than seventeen hours in December 2022 \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\], and nothing this article has read reports how closely the flown response matched the model.
+
+## What the Data Changed
+
+**This article can report no finding that the aeroplane's flight data changed, because it holds none of that data.** What it can report is what changed around the aeroplane, and each change is documented in a record other than a flight log.
+
+**The designation changed, and its operator tied the change to the research.** The school said at the time that the redesignation reflected the research done on the aircraft over nearly thirty years \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\]. That is the one statement in the record that connects the number to what the aeroplane had measured, and it is a statement about an accumulation of research rather than about any single result.
+
+**The money changed.** Obligations ran at about three times their earlier annual rate after 14 June 2021, as the section headed What It Costs to Keep an Instrument Flying states, and the first obligation after the redesignation paid for the third phase of the simulation system upgrade \[[Contract FA930421F5020, VISTA Simulation System upgrade Phase III, Department of the Air Force to Calspan][ref_usa_vss3]\]. The section headed What It Costs to Keep an Instrument Flying sets out that record.
+
+**The subject changed.** The section headed The Flight Test Record carries the argument that since 2021 the thing being deceived has been software rather than pilots, and the prime contractor's expansion of the acronym now names the simulation rather than the stability as the variable quantity \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\]. **Whether either change was driven by what earlier flights had shown is not something the record this article holds settles.**
 
 ## Notation
 
@@ -805,76 +847,6 @@ $$
 | $ V $ | the total obligation an award registry states separately from its transactions | dollars |
 | $ k $ | index over the transactions of one award | dimensionless |
 
-## Epistemic State
-
-### What Is Assumed
-
-**The short-period frequency against which the published rate limits are located.** 4 radians per second is a representative value for a fighter and not a measurement of any aeroplane this machine simulates. **The conclusion that the symmetric tail's full-deflection corner frequency is the lowest of the four does not depend on it**, because that is a ratio of two published numbers. **The conclusion that the tail is rate limited at the short period does depend on it**, and would fail for a model whose short period sat below 2.4 radians per second.
-
-**The frame rate of the digital implementation.** Sixty hertz is assumed and is not known. It enters only the computational share of the delay floor. **The actuator's contribution of 49.5 milliseconds is published and is a floor on its own.**
-
-**The separation between the two lifting controls' centres of pressure.** 0.6 chords is inferred from the published overall length and mean aerodynamic chord and from where a trailing-edge flap and a horizontal tail sit on an aeroplane of this layout. **The identity that the determinant is proportional to that separation does not depend on the value.** The condition numbers in the table beside it do, and are offered as a sensitivity rather than as a measurement.
-
-**The host and model matrices in the worked residual.** These are representative short-period pairs. **The published F-16 aerodynamic data is tabular and graphical**, so this article has not computed the aeroplane's own control effectiveness matrix and does not claim to have done so. **What the worked example demonstrates is the asymmetry between the two rows**, which follows from a tail making moment and a flap making lift and would survive any plausible choice of numbers. **The deflection figures that follow from those matrices inherit the same status**, so the finding that the flap saturates before the tail is a statement about the shape of the problem and not a measurement of this aeroplane.
-
-**The crossover frequency of the pilot and vehicle loop.** Three and six radians per second bracket the range the crossover model reports for compensatory tracking. **The phase the delay costs is proportional to that frequency**, so the percentages of margin consumed scale directly with an assumed quantity, and they are stated as a range for that reason. **The delay itself is published.**
-
-**That an equivalent time delay is the right summary of the host's contribution.** The article checks the approximation rather than asserting it, finding the lag and a pure delay agreeing in phase to better than a seventh of a degree at four radians per second. **Above about eight radians per second the approximation begins to matter**, and the article makes no claim there.
-
-**That the list of surfaces the second flight control system commands is correct.** **This is the load-bearing input of the whole article and it is the weakest-sourced thing in it.** The counting bound, the rank deficits, the worked residual and the finding about which surface saturates all rest on a six-item list, and that list comes from two secondary web references which agree with one another \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\] \[[F-16 VISTA, MATV and NF-16D, Variable-stability In-flight Simulator Test Aircraft, F-16.net][ref_f16net_vista]\]. **Two independent secondary sources agreeing is better than one and is not a primary.** The programme's own architecture paper almost certainly states it \[[Cotting, Stephens, Cole, Barricklow and Gray, X-62 VISTA Capabilities and Architecture, AIAA SciTech 2023][ref_scitech_capabilities]\], and this article has not read it and will not paraphrase it. **If that list is wrong in any one entry, the axis it belongs to loses a column and the projector stops vanishing**, which is the single correction that would do the most damage to what follows.
-
-**That the register's engines cell and the block convention are both correct.** The resolution offered is that the aeroplane was re-engined, which two independent sources state. **The inlet, which is the part of an engine change a block number actually encodes, is not addressed by any source this article found.**
-
-### What Is Computed
-
-**The model-following conditions and the projector.** The condition for exact model following, the gains when it holds, the residual when it does not, the error dynamics that residual drives, the steady error those dynamics settle to, and the rank bound that turns all of it into a count of control surfaces. **These are algebra and carry no empirical content beyond the linearity of the two systems.** The weaker condition for matching an output rather than a state is algebra of the same kind, and it is included because it shows the counting bound to be sufficient rather than necessary.
-
-**The two short periods as modes.** The natural frequency and damping of the host and the divergent root and time to double of the model, from the trace and determinant of each matrix.
-
-**The deflections the worked simulation demands**, from the gains that solve the matching condition, together with the angle of attack at which each surface reaches its published limit and the bound the smallest singular value places on the whole gain matrix.
-
-**The describing-function gain of a rate limiter in deep saturation**, from the triangular output such an element produces and the known fundamental of a triangular wave. **The phase is not computed and is not quoted**, for the reason the section gives.
-
-**The phase margin a delay consumes at a given crossover**, from the crossover model's own integrator, and the frequency at which it consumes all of it.
-
-**The leading-edge flap schedule and the actuator in series**, from the transfer functions the report prints, including the product of the schedule's pole and the actuator's time constant.
-
-**The invariance of the median and the non-invariance of the mean** under a strictly increasing relabelling, which is the formal content of the claim that a mean rating is a category error.
-
-**The rank deficits by axis**, from the published list of surfaces the second flight control system commands and the standard decomposition of aircraft dynamics into three dynamic states per axis.
-
-**The worked residual**, including the row-wise fractions of 83.3 percent and 0.05 percent and their ratio of 1,677.
-
-**The determinant identity and the condition numbers**, from geometry alone.
-
-**Every corner frequency in the limits table**, from the deflection and rate limits published in NASA Technical Paper 1538, together with the usable fractions at the assumed short-period frequency.
-
-**The actuator corner frequency, its phase contribution and the equivalent delay**, from the published lag.
-
-**Every figure in the contract analysis**, summed from the transaction record rather than read from a stated total, with 17 of 18 awards agreeing to the cent with the total the registry states separately.
-
-**Every figure about the register**, recomputed from the parsed table, including the count of rows containing the word `redesignated` and the ranking of this row's description length.
-
-### What the Record Does Not Settle
-
-**Why the leading-edge flap is not commanded by the second flight control system.** The article now offers three reasons, being the surface's slow actuator, its low full-deflection corner frequency, and the fact that it is already carrying a scheduled command whose lead its own actuator very nearly cancels. **No source consulted states which of the three governed, or whether the question was ever asked.**
-
-**Whether the near-coincidence of the flap schedule's pole and the flap actuator's corner is deliberate.** They differ by 1.42 percent. **A schedule designed for an aeroplane and an actuator sized for a surface may arrive at the same corner frequency by accident**, and this article reports the coincidence and claims nothing about its cause.
-
-**The phase a rate-limited actuator contributes.** An ideal rate limiter contributes none. A rate-limited servo contributes up to a great deal, and how much depends on the loop around the limiter. **This article has the limit and the lag and does not have the loop.**
-
-**Whether the change in how the acronym is expanded was deliberate.** The award record uses the older form and the prime contractor uses the newer one. **That the newer form spells the acronym exactly and the older one does not is arithmetic. That anyone noticed is conjecture.**
-
-**What inlet the aircraft carries.** See above.
-
-**The frame rate, the computational latency and the actual model-following architecture.** The programme has published on all three, in a session of eight papers this article recovered by walking the conference's own numbering rather than by asking about the aeroplane \[[Cotting, Stephens, Cole, Barricklow and Gray, X-62 VISTA Capabilities and Architecture, AIAA SciTech 2023][ref_scitech_capabilities]\] \[[Caraway, Harris and Cotting, VISTA X-62A Model Following Algorithm Overview, AIAA SciTech 2023][ref_scitech_mfa]\] \[[Harris and Caraway, Model Following Control Allocation For The X-62A, AIAA SciTech 2023][ref_scitech_allocation]\], and **this article cites all eight for their existence, their authorship and their subject, which is what the registry establishes.** It does not quote their contents and does not represent their findings. **The registry also records a correction to one of them** \[[Correction to X-62 VISTA Simulation and Autonomy Flight Testing, AIAA SciTech 2023][ref_scitech_flight_testing_correction]\], which is a fact about the record rather than about the aeroplane and which this article reports without knowing what was corrected.
-
-**The phase-delay parameter of the bandwidth criterion.** It is the field's own way of expressing what the delay floor costs, and the article declines to use it because deriving it from a recalled definition gave half what the usual summary of the subject states. **A factor of two on the one quantity the criterion would have supplied is not a rounding**, and the specification that settles it has not been read.
-
-**How widely pilot ratings are averaged in practice.** The scale's definition forbids it. **Measuring how often the field does it anyway would require a reading of the literature this survey has not performed.**
-
-**Whether the aeroplane's own actuators have been changed since 1979.** The rate limits used here are those of a production F-16 as NASA modelled it. **An aeroplane that has been modified as often as this one may well no longer match them**, and no source consulted states the current values. **Every frequency in this article's rate-limit argument inherits that uncertainty**, and the direction of the error is not known.
-
 ## The Contemporary Literature
 
 The survey behind this article holds **8,596 records** after gating and deduplication, drawn from 4 sweeps that retrieved 35,837 records of which 30,647 were distinct. **1,199 of them, 13.9 percent, are report primaries**, meaning items served by the National Aeronautics and Space Administration's technical reports server or registered under the Defense Technical Information Center's prefix. 8,112 records carry a usable year, running from 1927 to 2027 with a median of 2006. **6,895 of those, 85.0 percent, predate or share the year in which the aeroplane was redesignated.**
@@ -940,6 +912,18 @@ The survey behind this article holds **8,596 records** after gating and deduplic
 ### Other aerospace and engineering literature
 
 **5 records.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962_b]\] \[[Airframe and Atmosphere Modeling 1998][research_airframe_and_1998]\] \[[Cook 1999][research_cook_1999]\] \[[Cook 1999][research_cook_1999_b]\] \[[Appendix B Properties of 2003][research_appendix_b_2003]\]
+
+## Where the Framing Breaks Down
+
+**The framing of this article is that the vehicle drops out of the argument, and it does not drop out entirely.** The section headed The Research Question sets the airframe aside on the ground that the condition for exact model following is about the host's controls and not about its performance. That holds for the algebra. It fails in four places, and the article says so at each of them.
+
+**The hardware returns through the actuators.** The rate limits and the actuator lag belong to the host, so the instrument simulates the model plus itself, and the equivalence a vanishing projector licenses holds exactly only in the algebra. The section headed Dependent Systems measures by how much, and the section headed The Flight Test Record states the same limit for the autonomy work.
+
+**The numbers are not the aeroplane's.** The worked residual and the deflection figures rest on representative short-period matrices, because the published F-16 aerodynamic data is tabular and graphical \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\], and the rate limits are those of a production F-16 as modelled in 1979. What survives is a statement about the shape of the problem, which the section headed Epistemic State distinguishes from a measurement of this aeroplane.
+
+**The count rests on a list the article has not seen in a primary source.** Three controls per axis depends on a six-item list of commanded surfaces taken from two secondary web references \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\] \[[F-16 VISTA, MATV and NF-16D, Variable-stability In-flight Simulator Test Aircraft, F-16.net][ref_f16net_vista]\], and a single wrong entry would take a column from its axis and stop the projector vanishing.
+
+**The readout is less precise than the instrument.** The section headed Dependent Systems ends on the Cooper-Harper scale, which is ordinal, so however exact the simulation, the result returns as a number a human being picks out of ten boxes. **The framing can measure the instrument and cannot measure the judgement the instrument exists to inform.**
 
 ## The Source Base
 
@@ -1093,6 +1077,88 @@ The shared rejection store holds **141 curated patterns across 31 tagged familie
 **That is a stated limit rather than a preference, and the registry was checked before it was stated.** Crossref carries an abstract for a great many works and an abstract is published metadata that may legitimately be read and quoted. **It carries none for any of the eight**, nor for the aeroplane's two founding papers of 1984 and 1988. The publisher deposits the title, the authors, the venue and the year and nothing else, so the registry route stops exactly where the article stops.
 
 **Every hand-written identifier is resolved through the registry and compared against the year its label claims**, and a deliberately fabricated identifier is resolved alongside them and required to return nothing. A check that cannot distinguish a real identifier from an invented one is measuring the network.
+
+## Epistemic State
+
+### What Is Assumed
+
+**The short-period frequency against which the published rate limits are located.** 4 radians per second is a representative value for a fighter and not a measurement of any aeroplane this machine simulates. **The conclusion that the symmetric tail's full-deflection corner frequency is the lowest of the four does not depend on it**, because that is a ratio of two published numbers. **The conclusion that the tail is rate limited at the short period does depend on it**, and would fail for a model whose short period sat below 2.4 radians per second.
+
+**The frame rate of the digital implementation.** Sixty hertz is assumed and is not known. It enters only the computational share of the delay floor. **The actuator's contribution of 49.5 milliseconds is published and is a floor on its own.**
+
+**The separation between the two lifting controls' centres of pressure.** 0.6 chords is inferred from the published overall length and mean aerodynamic chord and from where a trailing-edge flap and a horizontal tail sit on an aeroplane of this layout. **The identity that the determinant is proportional to that separation does not depend on the value.** The condition numbers in the table beside it do, and are offered as a sensitivity rather than as a measurement.
+
+**The host and model matrices in the worked residual.** These are representative short-period pairs. **The published F-16 aerodynamic data is tabular and graphical**, so this article has not computed the aeroplane's own control effectiveness matrix and does not claim to have done so. **What the worked example demonstrates is the asymmetry between the two rows**, which follows from a tail making moment and a flap making lift and would survive any plausible choice of numbers. **The deflection figures that follow from those matrices inherit the same status**, so the finding that the flap saturates before the tail is a statement about the shape of the problem and not a measurement of this aeroplane.
+
+**The crossover frequency of the pilot and vehicle loop.** Three and six radians per second bracket the range the crossover model reports for compensatory tracking. **The phase the delay costs is proportional to that frequency**, so the percentages of margin consumed scale directly with an assumed quantity, and they are stated as a range for that reason. **The delay itself is published.**
+
+**That an equivalent time delay is the right summary of the host's contribution.** The article checks the approximation rather than asserting it, finding the lag and a pure delay agreeing in phase to better than a seventh of a degree at four radians per second. **Above about eight radians per second the approximation begins to matter**, and the article makes no claim there.
+
+**That the list of surfaces the second flight control system commands is correct.** **This is the load-bearing input of the whole article and it is the weakest-sourced thing in it.** The counting bound, the rank deficits, the worked residual and the finding about which surface saturates all rest on a six-item list, and that list comes from two secondary web references which agree with one another \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\] \[[F-16 VISTA, MATV and NF-16D, Variable-stability In-flight Simulator Test Aircraft, F-16.net][ref_f16net_vista]\]. **Two independent secondary sources agreeing is better than one and is not a primary.** The programme's own architecture paper almost certainly states it \[[Cotting, Stephens, Cole, Barricklow and Gray, X-62 VISTA Capabilities and Architecture, AIAA SciTech 2023][ref_scitech_capabilities]\], and this article has not read it and will not paraphrase it. **If that list is wrong in any one entry, the axis it belongs to loses a column and the projector stops vanishing**, which is the single correction that would do the most damage to what follows.
+
+**That the register's engines cell and the block convention are both correct.** The resolution offered is that the aeroplane was re-engined, which two independent sources state. **The inlet, which is the part of an engine change a block number actually encodes, is not addressed by any source this article found.**
+
+### What Is Computed
+
+**The model-following conditions and the projector.** The condition for exact model following, the gains when it holds, the residual when it does not, the error dynamics that residual drives, the steady error those dynamics settle to, and the rank bound that turns all of it into a count of control surfaces. **These are algebra and carry no empirical content beyond the linearity of the two systems.** The weaker condition for matching an output rather than a state is algebra of the same kind, and it is included because it shows the counting bound to be sufficient rather than necessary.
+
+**The two short periods as modes.** The natural frequency and damping of the host and the divergent root and time to double of the model, from the trace and determinant of each matrix.
+
+**The deflections the worked simulation demands**, from the gains that solve the matching condition, together with the angle of attack at which each surface reaches its published limit and the bound the smallest singular value places on the whole gain matrix.
+
+**The describing-function gain of a rate limiter in deep saturation**, from the triangular output such an element produces and the known fundamental of a triangular wave. **The phase is not computed and is not quoted**, for the reason the section gives.
+
+**The phase margin a delay consumes at a given crossover**, from the crossover model's own integrator, and the frequency at which it consumes all of it.
+
+**The leading-edge flap schedule and the actuator in series**, from the transfer functions the report prints, including the product of the schedule's pole and the actuator's time constant.
+
+**The invariance of the median and the non-invariance of the mean** under a strictly increasing relabelling, which is the formal content of the claim that a mean rating is a category error.
+
+**The rank deficits by axis**, from the published list of surfaces the second flight control system commands and the standard decomposition of aircraft dynamics into three dynamic states per axis.
+
+**The worked residual**, including the row-wise fractions of 83.3 percent and 0.05 percent and their ratio of 1,677.
+
+**The determinant identity and the condition numbers**, from geometry alone.
+
+**Every corner frequency in the limits table**, from the deflection and rate limits published in NASA Technical Paper 1538, together with the usable fractions at the assumed short-period frequency.
+
+**The actuator corner frequency, its phase contribution and the equivalent delay**, from the published lag.
+
+**Every figure in the contract analysis**, summed from the transaction record rather than read from a stated total, with 17 of 18 awards agreeing to the cent with the total the registry states separately.
+
+**Every figure about the register**, recomputed from the parsed table, including the count of rows containing the word `redesignated` and the ranking of this row's description length.
+
+### What the Record Does Not Settle
+
+**Why the leading-edge flap is not commanded by the second flight control system.** The article now offers three reasons, being the surface's slow actuator, its low full-deflection corner frequency, and the fact that it is already carrying a scheduled command whose lead its own actuator very nearly cancels. **No source consulted states which of the three governed, or whether the question was ever asked.**
+
+**Whether the near-coincidence of the flap schedule's pole and the flap actuator's corner is deliberate.** They differ by 1.42 percent. **A schedule designed for an aeroplane and an actuator sized for a surface may arrive at the same corner frequency by accident**, and this article reports the coincidence and claims nothing about its cause.
+
+**The phase a rate-limited actuator contributes.** An ideal rate limiter contributes none. A rate-limited servo contributes up to a great deal, and how much depends on the loop around the limiter. **This article has the limit and the lag and does not have the loop.**
+
+**Whether the change in how the acronym is expanded was deliberate.** The award record uses the older form and the prime contractor uses the newer one. **That the newer form spells the acronym exactly and the older one does not is arithmetic. That anyone noticed is conjecture.**
+
+**What inlet the aircraft carries.** See above.
+
+**The frame rate, the computational latency and the actual model-following architecture.** The programme has published on all three, in a session of eight papers this article recovered by walking the conference's own numbering rather than by asking about the aeroplane \[[Cotting, Stephens, Cole, Barricklow and Gray, X-62 VISTA Capabilities and Architecture, AIAA SciTech 2023][ref_scitech_capabilities]\] \[[Caraway, Harris and Cotting, VISTA X-62A Model Following Algorithm Overview, AIAA SciTech 2023][ref_scitech_mfa]\] \[[Harris and Caraway, Model Following Control Allocation For The X-62A, AIAA SciTech 2023][ref_scitech_allocation]\], and **this article cites all eight for their existence, their authorship and their subject, which is what the registry establishes.** It does not quote their contents and does not represent their findings. **The registry also records a correction to one of them** \[[Correction to X-62 VISTA Simulation and Autonomy Flight Testing, AIAA SciTech 2023][ref_scitech_flight_testing_correction]\], which is a fact about the record rather than about the aeroplane and which this article reports without knowing what was corrected.
+
+**The phase-delay parameter of the bandwidth criterion.** It is the field's own way of expressing what the delay floor costs, and the article declines to use it because deriving it from a recalled definition gave half what the usual summary of the subject states. **A factor of two on the one quantity the criterion would have supplied is not a rounding**, and the specification that settles it has not been read.
+
+**How widely pilot ratings are averaged in practice.** The scale's definition forbids it. **Measuring how often the field does it anyway would require a reading of the literature this survey has not performed.**
+
+**Whether the aeroplane's own actuators have been changed since 1979.** The rate limits used here are those of a production F-16 as NASA modelled it. **An aeroplane that has been modified as often as this one may well no longer match them**, and no source consulted states the current values. **Every frequency in this article's rate-limit argument inherits that uncertainty**, and the direction of the error is not known.
+
+## Out of Scope
+
+**The aeroplane's performance is out of scope.** Its span, wing area, engine and performance are those of an F-16D and are tabulated in the ordinary reference works \[[General Dynamics F-16 Fighting Falcon][ref_f16]\], and the section headed The Research Question gives the reason this article does not reproduce them.
+
+**The airframe's earlier research programmes are out of scope as programmes.** The thrust-vectoring work of the early nineteen nineties appears only as the history that explains the engines cell, and the high angle of attack literature that work belongs to is listed in the section headed The Contemporary Literature without being argued.
+
+**The contents of the programme's own technical papers are out of scope**, because this article has not read them, and it cites them for their existence, their authorship and their subject only.
+
+**Two quantities the field would expect are out of scope by decision.** The bandwidth criterion and its phase-delay parameter are not used, for the reason the subsection headed The Relation This Article Wanted and Would Not Use gives, and the phase a rate-limited servo contributes is not quoted, because the article has the actuator's limit and lag and not its loop.
+
+**The conduct and outcome of the autonomy engagements are out of scope** beyond what the agency, the prime contractor and the trade press state, and the article reports those statements as claims. **So is the inlet the aeroplane now carries**, which no source this article found addresses.
 
 ## Conclusion
 

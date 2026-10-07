@@ -1105,29 +1105,6 @@ Tragarz 1971][research_nicolaides_tragarz_1971], [Kenner 1972][research_kenner_1
 wing][ref_rogallo_wing], which NASA studied through the 1960s as a recovery device for spacecraft and which
 was under active investigation at the same moment the X-25 was flying.
 
-## Where the Framing Breaks Down
-
-**The X-25 is not a research aircraft in the sense the rest of this series uses.** It is a civil production
-design, sold as plans to amateur builders, bought off the shelf and given a designation. Nothing was
-developed. No aerodynamic unknown was resolved. Treating it through a keystone derivation implies a design
-process that did not take place, and this article's derivations describe **the concept** rather than an
-engineering effort that anyone actually performed on this airframe.
-
-**The keystone was never in doubt.** Autorotation was understood in the 1920s. The X-25 did not test whether
-a rotor autorotates, and an article that dimensions the rotor as though it were being designed misrepresents
-what the money bought.
-
-**The designation is the anomaly, not the aircraft.** The X-series was created for aircraft built to answer
-questions that could not be answered on the ground. The X-25 is a catalogue item with a serial number
-applied to it. That is a genuine finding about how the designation system drifted, and it belongs with the
-other evidence the closing article of this series will assemble.
-
-**Finally, the comparison this article rests on may be unfair in one direction.** A parachute is compared
-against a rotor at equal weight, but the parachute is also the reserve. The rotor does not replace the
-parachute in the sequence, it follows it, so the crewman carries both and the mass comparison should
-arguably be against the marginal mass of the rotor rather than against the canopy that is carried
-regardless. **On that accounting the rotor is worse than this article makes it look**, not better.
-
 ## The Contemporary Literature
 
 **The Discretionary Descent Vehicle asked a good question and got the wrong answer, and the right answer arrived in a different material.**
@@ -2311,6 +2288,29 @@ in 1968.
 flown to determine piloting technique and training requirements. Half a century of gyroplane accident data
 says the same thing at greater length. **The hard problem was never the rotor.**
 
+## Where the Framing Breaks Down
+
+**The X-25 is not a research aircraft in the sense the rest of this series uses.** It is a civil production
+design, sold as plans to amateur builders, bought off the shelf and given a designation. Nothing was
+developed. No aerodynamic unknown was resolved. Treating it through a keystone derivation implies a design
+process that did not take place, and this article's derivations describe **the concept** rather than an
+engineering effort that anyone actually performed on this airframe.
+
+**The keystone was never in doubt.** Autorotation was understood in the 1920s. The X-25 did not test whether
+a rotor autorotates, and an article that dimensions the rotor as though it were being designed misrepresents
+what the money bought.
+
+**The designation is the anomaly, not the aircraft.** The X-series was created for aircraft built to answer
+questions that could not be answered on the ground. The X-25 is a catalogue item with a serial number
+applied to it. That is a genuine finding about how the designation system drifted, and it belongs with the
+other evidence the closing article of this series will assemble.
+
+**Finally, the comparison this article rests on may be unfair in one direction.** A parachute is compared
+against a rotor at equal weight, but the parachute is also the reserve. The rotor does not replace the
+parachute in the sequence, it follows it, so the crewman carries both and the mass comparison should
+arguably be against the marginal mass of the rotor rather than against the canopy that is carried
+regardless. **On that accounting the rotor is worse than this article makes it look**, not better.
+
 ## The Source Base
 
 **The record for the aircraft itself is the thinnest in the series so far, and the record for the physics around it is not.**
@@ -3154,7 +3154,6 @@ pilot from the loop as well.
 **The rotor's physics did not die. It went into wind energy, where the windmill brake state is the design condition rather than an emergency.**
 
 The next article in this series takes up the Schweizer X-26 Frigate.
-
 ## References
 
 ### Books

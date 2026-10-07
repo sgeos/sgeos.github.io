@@ -2093,79 +2093,6 @@ health management work and the rapid-turnaround ground operations concepts have 
 rate, and the flight rate that would justify them has not existed.
 **A technology whose value depends on a market that does not appear is not a failed technology. It is an unexercised one.**
 
-## Where the Framing Breaks Down
-
-### The Single Point of Failure Is a Story, Not an Explanation
-
-**The most common account of the X-33 is that a tank failed and a programme died, and this article has spent considerable effort arguing against that reading while relying on the same tank.**
-The distinction is worth stating carefully.
-
-**The tank did not fail because it was a tank. It failed because of a chain.** The vehicle must land
-horizontally, so it is a lifting body, so its cross-section is not circular, so the tank must be conformal,
-so it must be lobed, so its walls carry bending, so they are sandwiches, so they have cores, and the core is
-the thing that killed it. **Change any link and the failure mode changes.**
-
-**But the chain is an explanation of the mechanism and not of the cancellation**, and conflating the two is
-the trap. The arithmetic in the previous section says the programme had a mass problem that the tank failure
-did not create and that fixing the tank would not have solved.
-
-### The Counterfactual That Does Not Work
-
-**Suppose the tank had not failed.** The composite tanks would have flown, the vehicle would have made some
-number of suborbital flights, and the programme would have declared its technologies demonstrated.
-**And VentureStar's hydrogen tanks would still have been 41 percent of its structural allowance**, because
-that number comes from the tank's mass, which was known.
-
-**So the failure did not decide anything that the mass had not already decided.** What the failure did was
-make the decision unavoidable and public.
-**A programme can carry an unfavourable number for years. It cannot carry a photograph of a tank in pieces.**
-
-### Where This Article's Own Framing Is Weakest
-
-**The keystone chosen here is the mass fraction and the tank, and a reader could reasonably choose differently.**
-A programme-management reading, in which the cooperative agreement structure and the absence of realistic
-cost and risk planning are the subject, is defensible and is
-[the reading the Government Accountability Office took when it examined the two cancelled programmes together][ref_gao_x33x34].
-**That reading explains the cancellation better than this one does and explains the engineering worse.**
-
-**A second weakness is the treatment of the aerospike.** This article says the engine worked and moves on. A
-propulsion-centred treatment would ask what altitude compensation is worth over a real trajectory rather
-than at two points, and would have to confront the base-flow behaviour of a truncated plug, which is the
-part of the architecture that is genuinely hard and which this article does not attempt.
-
-**A third is that the tank efficiency figure carries the whole verdict.** It rests on a reported tank mass
-of 4,600 pounds and a reported capacity of 29,000 gallons. If either is wrong the verdict moves
-proportionally. The consistency check below is the only defence available and it is a weak one.
-
-### The Numbers That Hold Each Other Up
-
-**Three figures published separately, and never on the same page, can be checked against one another.** The
-tank capacity, the propellant load and the engine mixture ratio imply a fill fraction. The hydrogen load
-implied by 210,000 pounds of propellant at a mixture ratio of 5.5 is 14,655 kilograms, which occupies 206.85
-cubic metres, against a total tank capacity of 219.55, so
-
-$$\frac{206.85}{219.55} = 0.942$$
-
-**The implied fill is 94.2 percent**, which is what a cryogenic tank actually carries once ullage is allowed
-for.
-
-**Had the fill come out above unity, or below three quarters, one of the three published numbers would have been wrong.**
-It did not, so the tank mass figure that carries the verdict sits inside a set of numbers that are mutually
-consistent. **That is corroboration and not proof, and it is stated as the former.**
-
-- [A Monte Carlo Calculation of Neutron Heating in a Nuclear...][research_streetman_graves_1963]
-- [Sensitivity Analysis of Civil Defense Systems and Components...][research_neblett_willis_1965]
-- [Demonstration of Improved Monte Carlo Simulation Techniques...][research_mcgrath_irving_1973]
-- [Reliability analysis of continuous fiber composite laminates][research_thomasdavidj_wetherholdrobertc_1990]
-- [Reliability analysis of continuous fiber composite laminates][research_thomasdavidj_wetherholdrobertc_1991]
-- [A Probabilistic Method to Establish the Reliability of...][research_heller_thangjitham_1992]
-- [Reliability analysis of composite structures][research_kanhanpin_1992]
-- [Composite Laminate Stiffnesses and Their Sensitivities][research_geier_zimmermann_1994]
-- [Response of composite plates with random material properties...][research_navaneetharaj_iyengar_1998]
-- [Application of Catastrophe Theory to Imperfection-sensitivity...][research_kurutz_gaspar_2000]
-- [Temperature field sensitivity analysis of multistage...][research_couto_mantelli_2000]
-- [Probabilistic Sensitivity Analysis for Launch Vehicles with...][research_mcgheedavids_peckjeffa_2012]
-
 ## The Contemporary Literature
 
 **The X-33's central problem did not go away when the programme did, and the modern literature on it is larger and more capable than the literature the programme had.**
@@ -7575,6 +7502,79 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Variational mixed state and sizing optimization of primal...][research_alduncin_2026]
 - [Zonal vs. Nodal Pricing An Analysis of Different Pricing...][research_dobos_bichler_2026]
 
+## Where the Framing Breaks Down
+
+### The Single Point of Failure Is a Story, Not an Explanation
+
+**The most common account of the X-33 is that a tank failed and a programme died, and this article has spent considerable effort arguing against that reading while relying on the same tank.**
+The distinction is worth stating carefully.
+
+**The tank did not fail because it was a tank. It failed because of a chain.** The vehicle must land
+horizontally, so it is a lifting body, so its cross-section is not circular, so the tank must be conformal,
+so it must be lobed, so its walls carry bending, so they are sandwiches, so they have cores, and the core is
+the thing that killed it. **Change any link and the failure mode changes.**
+
+**But the chain is an explanation of the mechanism and not of the cancellation**, and conflating the two is
+the trap. The arithmetic in the section headed What the Data Changed says the programme had a mass problem that the tank failure
+did not create and that fixing the tank would not have solved.
+
+### The Counterfactual That Does Not Work
+
+**Suppose the tank had not failed.** The composite tanks would have flown, the vehicle would have made some
+number of suborbital flights, and the programme would have declared its technologies demonstrated.
+**And VentureStar's hydrogen tanks would still have been 41 percent of its structural allowance**, because
+that number comes from the tank's mass, which was known.
+
+**So the failure did not decide anything that the mass had not already decided.** What the failure did was
+make the decision unavoidable and public.
+**A programme can carry an unfavourable number for years. It cannot carry a photograph of a tank in pieces.**
+
+### Where This Article's Own Framing Is Weakest
+
+**The keystone chosen here is the mass fraction and the tank, and a reader could reasonably choose differently.**
+A programme-management reading, in which the cooperative agreement structure and the absence of realistic
+cost and risk planning are the subject, is defensible and is
+[the reading the Government Accountability Office took when it examined the two cancelled programmes together][ref_gao_x33x34].
+**That reading explains the cancellation better than this one does and explains the engineering worse.**
+
+**A second weakness is the treatment of the aerospike.** This article says the engine worked and moves on. A
+propulsion-centred treatment would ask what altitude compensation is worth over a real trajectory rather
+than at two points, and would have to confront the base-flow behaviour of a truncated plug, which is the
+part of the architecture that is genuinely hard and which this article does not attempt.
+
+**A third is that the tank efficiency figure carries the whole verdict.** It rests on a reported tank mass
+of 4,600 pounds and a reported capacity of 29,000 gallons. If either is wrong the verdict moves
+proportionally. The consistency check below is the only defence available and it is a weak one.
+
+### The Numbers That Hold Each Other Up
+
+**Three figures published separately, and never on the same page, can be checked against one another.** The
+tank capacity, the propellant load and the engine mixture ratio imply a fill fraction. The hydrogen load
+implied by 210,000 pounds of propellant at a mixture ratio of 5.5 is 14,655 kilograms, which occupies 206.85
+cubic metres, against a total tank capacity of 219.55, so
+
+$$\frac{206.85}{219.55} = 0.942$$
+
+**The implied fill is 94.2 percent**, which is what a cryogenic tank actually carries once ullage is allowed
+for.
+
+**Had the fill come out above unity, or below three quarters, one of the three published numbers would have been wrong.**
+It did not, so the tank mass figure that carries the verdict sits inside a set of numbers that are mutually
+consistent. **That is corroboration and not proof, and it is stated as the former.**
+
+- [A Monte Carlo Calculation of Neutron Heating in a Nuclear...][research_streetman_graves_1963]
+- [Sensitivity Analysis of Civil Defense Systems and Components...][research_neblett_willis_1965]
+- [Demonstration of Improved Monte Carlo Simulation Techniques...][research_mcgrath_irving_1973]
+- [Reliability analysis of continuous fiber composite laminates][research_thomasdavidj_wetherholdrobertc_1990]
+- [Reliability analysis of continuous fiber composite laminates][research_thomasdavidj_wetherholdrobertc_1991]
+- [A Probabilistic Method to Establish the Reliability of...][research_heller_thangjitham_1992]
+- [Reliability analysis of composite structures][research_kanhanpin_1992]
+- [Composite Laminate Stiffnesses and Their Sensitivities][research_geier_zimmermann_1994]
+- [Response of composite plates with random material properties...][research_navaneetharaj_iyengar_1998]
+- [Application of Catastrophe Theory to Imperfection-sensitivity...][research_kurutz_gaspar_2000]
+- [Temperature field sensitivity analysis of multistage...][research_couto_mantelli_2000]
+- [Probabilistic Sensitivity Analysis for Launch Vehicles with...][research_mcgheedavids_peckjeffa_2012]
+
 ## The Source Base
 
 **This article rests on 4,018 references published through 2001, when the programme was cancelled, and 5,407 published from 2015 onward, out of the full set listed below.**
@@ -7667,7 +7667,7 @@ A harvested source that is never cited is work done and thrown away, and the sec
 curated front of each subject while the body of it sits below.
 
 **These are the period records, meaning everything published before 2015.** The contemporary half is listed
-in the section above.
+in the section headed The Contemporary Literature.
 
 #### The Tank and Its Materials
 
@@ -11862,7 +11862,6 @@ which is a statement about experimental design rather than about either aeroplan
 This series has now met a designation marking an absence of demand in the
 [X-27][related_post_a324_lockheed_x27], an absence of knowledge in the
 [X-30][related_post_a327_rockwell_x30], and, here, **the presence of an answer nobody wanted.**
-
 ## References
 
 ### Books

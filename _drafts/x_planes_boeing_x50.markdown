@@ -18,14 +18,6 @@ This is the fifty-first article in the [X-Planes series][related_post_a297_frami
 
 **This article argues that the two are not independent.** The design choices that make a rotor safe to stop in flight are the same choices that made this aeroplane difficult to hover, and the connection runs through the size of the surfaces that had to carry the weight while the rotor was unloaded.
 
-## The Designation Is a Claim About the Concept
-
-**The number was chosen rather than assigned in sequence.** The specialist designation directory records that the X-50A received a round number deliberately, on the reasoning that a canard rotor wing is a fifty-fifty mixture of helicopter and aeroplane \[[Boeing X-50, Directory of U.S. Military Rockets and Missiles][ref_x50_designation]\]. Boeing had named the vehicle Dragonfly in 1998 and the designation followed in 2002.
-
-**This is the second consecutive article in which the numbering carries an argument.** The [X-49][related_post_a346_piasecki_x49] was skipped in 2002 and filled in 2004, and the reason the number was available at all is that it had been reserved for something that had not yet been assigned. The X-50 took the round number because somebody thought the concept deserved it.
-
-**A designation is a claim made before the evidence arrives, and this one was falsified.** A fifty-fifty mixture of two flight regimes is a description of an aspiration. The aeroplane demonstrated the helicopter half badly and the aeroplane half not at all.
-
 ## The Research Question
 
 **Can a rotor be stopped in flight and used as a wing, and can it be started again.**
@@ -52,9 +44,21 @@ $$
 
 **The second predecessor is the one usually named.** The Sikorsky S-72 Rotor Systems Research Aircraft was modified from 1983 to carry an X-wing circulation control rotor, was rolled out in 1986, never flew in that configuration and was cancelled in 1988 \[[Sikorsky S-72][ref_s72_wikipedia]\] \[[Sikorsky X-Wing, Igor I. Sikorsky Historical Archives][ref_sikorsky_xwing]\] \[[X-wing potential for Navy applications][research_xwing_navy]\]. **The X-50A was flying eighteen years after that programme was abandoned and roughly forty after the first one**, and it ended the same way, which is to say without a conversion.
 
-## What Happens to a Rotor That Stops
+## The Designation Is a Claim About the Concept
 
-### The Advance Ratio Has No Upper Bound
+**The number was chosen rather than assigned in sequence.** The specialist designation directory records that the X-50A received a round number deliberately, on the reasoning that a canard rotor wing is a fifty-fifty mixture of helicopter and aeroplane \[[Boeing X-50, Directory of U.S. Military Rockets and Missiles][ref_x50_designation]\]. Boeing had named the vehicle Dragonfly in 1998 and the designation followed in 2002.
+
+**This is the second consecutive article in which the numbering carries an argument.** The [X-49][related_post_a346_piasecki_x49] was skipped in 2002 and filled in 2004, and the reason the number was available at all is that it had been reserved for something that had not yet been assigned. The X-50 took the round number because somebody thought the concept deserved it.
+
+**A designation is a claim made before the evidence arrives, and this one was falsified.** A fifty-fifty mixture of two flight regimes is a description of an aspiration. The aeroplane demonstrated the helicopter half badly and the aeroplane half not at all.
+
+## Sizing From First Principles
+
+**This aeroplane is sized by the conversion rather than by any single flight condition.** The argument starts from three published figures, being the gross weight of 1,460 pounds, the twelve foot rotor and the 130 knot conversion condition \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\] \[[Pandya and Aftosmis, Computation of external aerodynamics for a canard rotor/wing aircraft][research_pandya_aftosmis]\]. From them it derives the advance ratio a stopping rotor must pass through, the lift it loses on the way, and the lifting area that has to replace it. **The rotor tip speed and the stations of the surfaces are not published**, so every result that depends on them is given as a range.
+
+### What Happens to a Rotor That Stops
+
+#### The Advance Ratio Has No Upper Bound
 
 The advance ratio relates flight speed to rotor tip speed and it is the variable the previous article in this series was about.
 
@@ -112,7 +116,7 @@ $$
 
 **giving between 0.644 and 0.824 at conversion entry**, falling as the rotor slows, which is the one thing that gets easier on the way down.
 
-### Lift Falls With the Square of Rotor Speed
+#### Lift Falls With the Square of Rotor Speed
 
 Rotor thrust in hover follows from the thrust coefficient, in the standard form used throughout the rotorcraft literature \[[Leishman, Principles of helicopter aerodynamics][book_leishman]\] \[[Johnson, Helicopter theory][book_johnson_helicopter_theory]\] \[[Seddon, Basic helicopter aerodynamics][book_seddon]\].
 
@@ -149,7 +153,7 @@ $$
 
 A rotor that is slowing to a stop is therefore losing its lift on a square law, and it loses it fastest at the end. There is no rotor speed at which the surface stops being a rotor and starts being a wing. There is a continuous handover, and the handover has to be completed before the rotor speed reaches the value at which the rotor cannot carry the aircraft.
 
-### Unloading Is the Only Way Through
+#### Unloading Is the Only Way Through
 
 **The X-wing programme established what happens if the handover is not completed.** The 2001 computational study opens by recording that analysis and testing of the X-wing found high transient aerodynamic loads during conversion, and that the canard rotor wing design addresses this by generating positive lift on both the canard and the horizontal tail so that the main rotor can be completely unloaded throughout the conversion manoeuvre \[[Pandya and Aftosmis, Computation of external aerodynamics for a canard rotor/wing aircraft][research_pandya_aftosmis]\].
 
@@ -165,9 +169,9 @@ $$
 
 **The price is that the weight has to go somewhere, and it goes onto the canard and the horizontal tail.** Everything that follows in this article is a consequence of that sentence.
 
-## The Surfaces That Carry the Weight Instead
+### The Surfaces That Carry the Weight Instead
 
-### How Large They Have to Be
+#### How Large They Have to Be
 
 At the conversion condition the canard and tail carry the entire aircraft. The dynamic pressure at 130 knots at sea level is
 
@@ -183,7 +187,7 @@ $$
 
 **At a lift coefficient of 1.2, which a flapped canard and a full-flying tail can reach, the required area is 21.3 square feet. At 0.8 it is 31.9 square feet.** The published gross weight of 1,460 pounds is Boeing's own figure at first flight \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\].
 
-### Where They Have to Sit
+#### Where They Have to Sit
 
 **The rotor is twelve feet in diameter and the disc area is 113.1 square feet.** The required lifting area is therefore between 18.8 and 28.2 percent of the rotor disc, and those surfaces are mounted fore and aft on a fuselage 17.7 feet long, which is 1.475 times the rotor diameter.
 
@@ -195,7 +199,7 @@ $$
 
 **Two lifting surfaces, each spanning between two thirds and three quarters of the rotor diameter, sit directly underneath the rotor.** On a conventional helicopter the horizontal stabiliser spans a small fraction of the rotor diameter and exists to trim the aircraft rather than to carry it. Here both surfaces exist to carry the whole aircraft, and that requirement sets their size.
 
-### The Result That Decides the Article
+#### The Result That Decides the Article
 
 **The rotor is small because it has to be a wing, and the wings are large because they have to be a rotor substitute.** These two facts are the same design decision seen from opposite ends, and together they produce a disc loading no helicopter of this weight would otherwise have.
 
@@ -245,7 +249,7 @@ $$
 
 **The download is not the point, though it is large.** The point is what happens to that force as the aircraft begins to move forward.
 
-### The Wake Does Not Leave Both Surfaces at Once
+#### The Wake Does Not Leave Both Surfaces at Once
 
 **In hover the wake goes straight down and both surfaces are in it.** The canard is ahead of the centre of gravity and the tail behind it, so the two downloads produce opposing pitching moments that partly cancel.
 
@@ -309,9 +313,41 @@ $$
 
 **This is a known effect on conventional helicopters and it is why many of them carry a programmable stabilator** \[[Prouty, Helicopter performance, stability and control][book_prouty]\] \[[Padfield, Helicopter flight dynamics][book_padfield]\]. On the X-50A the surface concerned spans two thirds of the rotor diameter and is sized to carry the entire aircraft, so the effect is not a trim nuisance. It is a large moment produced by a large surface, and it appears in exactly the speed range between hover and conversion entry.
 
-## Driving a Rotor From Its Tips
+## Dependent Systems
 
-### What Reaction Drive Deletes
+**The canard rotor wing depends on three systems that a conventional helicopter does not need in this form.** They are an airframe that carries both a small rotor and two large lifting surfaces, a reaction drive that turns the rotor through its tips without a shaft, and a blade section that must work as an aerofoil with the flow arriving from either edge. **Each of them is described here together with what it costs the configuration**, since each was chosen because the rotor has to stop.
+
+### The Aircraft
+
+**The X-50A was unmanned, 17.7 feet long, 6.5 feet high and weighed 1,460 pounds.** It carried a two-bladed teetering rotor twelve feet in diameter, an 8.9 foot canard and an 8.1 foot horizontal tail, and was powered by a single Williams F112 turbofan \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\] \[[Dragonfly canard rotor wing unmanned aerial vehicle, Federation of American Scientists][ref_fas_crw]\]. Maximum speed was quoted as 380 knots and cruise as 150 knots, with conversion planned near 120 to 130 knots.
+
+**The speed range is the configuration's central difficulty stated as arithmetic.** The lift a wing must produce is fixed and the dynamic pressure available is not, so the required product of area and lift coefficient scales inversely with the square of speed.
+
+$$
+S \, C_L = \frac{W}{q} = \frac{2W}{\rho V^2}
+$$
+
+**At 150 knots that product is 19.17 square feet and at 380 knots it is 2.99**, a ratio of
+
+$$
+\frac{(S C_L)_{\text{cruise}}}{(S C_L)_{\text{max}}} = \left( \frac{V_{\text{max}}}{V_{\text{cruise}}} \right)^{\!2} = \left( \frac{380}{150} \right)^{\!2} = 6.42
+$$
+
+**and the maximum speed itself is only**
+
+$$
+M = \frac{V}{a} = \frac{641.4}{1116.4} = 0.574
+$$
+
+**at sea level, so compressibility is not what sizes this wing.** The wing is sized by the requirement to be a rotor, and every fixed-wing condition it meets afterwards finds it enormously oversized. **That is not a criticism of the design. It is the definition of the configuration.**
+
+**The sources disagree about the weight and the disagreement is small but real.** Boeing states 1,460 pounds. The general encyclopaedia states an empty weight of 1,265 pounds and a gross weight of 1,422 pounds \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. The spread between the two gross figures is 38 pounds, or 2.7 percent, and it moves the computed disc loading from 12.9 to 12.6 pounds per square foot. **No conclusion in this article turns on the difference**, and the larger figure is used throughout because it is the manufacturer's own.
+
+**Nothing published gives a weight breakdown**, against a design literature in which one is the starting point \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\]. The encyclopaedia's pair implies an empty weight fraction of 89.0 percent, which for an unmanned demonstrator carrying no payload is plausible and is not independently confirmed.
+
+### Driving a Rotor From Its Tips
+
+#### What Reaction Drive Deletes
 
 **The X-50A had no gearbox, no driveshaft and no tail rotor.** During rotary-wing flight the exhaust of the Williams F112 turbofan was diverted through the rotor hub, out along the blades and through nozzles at the tips \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\] \[[Williams F112][ref_f112_wikipedia]\]. As the canard and tail took up the load the exhaust was progressively diverted to a nozzle at the rear.
 
@@ -331,7 +367,7 @@ $$
 
 **A tip-driven rotor applies no torque to the airframe**, because the force turning it acts at the blade tips rather than through a shaft. That deletes the anti-torque requirement entirely, and with it the tail rotor, its driveshaft, its gearbox and the power they consume. On a machine that also has to stop its rotor in flight this is more than a weight saving. **A stopped shaft-driven rotor would still have a transmission attached to it, and the torque path would have to be broken and remade.**
 
-### What It Charges Instead
+#### What It Charges Instead
 
 **The efficiency of a jet doing work on a body moving at speed** $V$ **is the Froude efficiency.**
 
@@ -359,7 +395,7 @@ $$
 
 **The engine is a cruise missile engine in the 600 to 730 pound thrust class.** Against a gross weight of 1,460 pounds the raw thrust-to-weight ratio is between 0.41 and 0.50, so the aeroplane cannot hover on direct jet thrust. **The rotor is what makes vertical flight possible at all**, converting that thrust into between 2.0 and 2.4 times as much lift, and the article's disc-loading arithmetic is the measure of how hard it has to work to do so.
 
-## The Section That Has to Work in Both Directions
+### The Section That Has to Work in Both Directions
 
 **When the rotor stops, one blade points left and the other points right.** The flow arrives at both from the front. On one of them it arrives over what was the trailing edge.
 
@@ -389,34 +425,6 @@ $$
 
 **The elliptical section is a better reverse-flow aerofoil than a conventional symmetric one**, which is the reason it was chosen, and it is a worse aerofoil than either in the regimes where those are used. The stopped-rotor literature has been circling this compromise since the 1960s \[[Biggers and Watts, Horizontal stoppable rotor conversion][research_horizontal_stoppable]\] \[[Ballard, McCloud and Forsyth, An investigation of a stoppable helicopter rotor with circulation control][research_stoppable_circulation]\] \[[Lance, Sung and Stroub, Low-speed wind-tunnel test of an unpowered high-speed stoppable rotor concept in fixed-wing mode][research_stoppable_fixed_wing_mode]\].
 
-## The Aircraft
-
-**The X-50A was unmanned, 17.7 feet long, 6.5 feet high and weighed 1,460 pounds.** It carried a two-bladed teetering rotor twelve feet in diameter, an 8.9 foot canard and an 8.1 foot horizontal tail, and was powered by a single Williams F112 turbofan \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\] \[[Dragonfly canard rotor wing unmanned aerial vehicle, Federation of American Scientists][ref_fas_crw]\]. Maximum speed was quoted as 380 knots and cruise as 150 knots, with conversion planned near 120 to 130 knots.
-
-**The speed range is the configuration's central difficulty stated as arithmetic.** The lift a wing must produce is fixed and the dynamic pressure available is not, so the required product of area and lift coefficient scales inversely with the square of speed.
-
-$$
-S \, C_L = \frac{W}{q} = \frac{2W}{\rho V^2}
-$$
-
-**At 150 knots that product is 19.17 square feet and at 380 knots it is 2.99**, a ratio of
-
-$$
-\frac{(S C_L)_{\text{cruise}}}{(S C_L)_{\text{max}}} = \left( \frac{V_{\text{max}}}{V_{\text{cruise}}} \right)^{\!2} = \left( \frac{380}{150} \right)^{\!2} = 6.42
-$$
-
-**and the maximum speed itself is only**
-
-$$
-M = \frac{V}{a} = \frac{641.4}{1116.4} = 0.574
-$$
-
-**at sea level, so compressibility is not what sizes this wing.** The wing is sized by the requirement to be a rotor, and every fixed-wing condition it meets afterwards finds it enormously oversized. **That is not a criticism of the design. It is the definition of the configuration.**
-
-**The sources disagree about the weight and the disagreement is small but real.** Boeing states 1,460 pounds. The general encyclopaedia states an empty weight of 1,265 pounds and a gross weight of 1,422 pounds \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. The spread between the two gross figures is 38 pounds, or 2.7 percent, and it moves the computed disc loading from 12.9 to 12.6 pounds per square foot. **No conclusion in this article turns on the difference**, and the larger figure is used throughout because it is the manufacturer's own.
-
-**Nothing published gives a weight breakdown**, against a design literature in which one is the starting point \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\]. The encyclopaedia's pair implies an empty weight fraction of 89.0 percent, which for an unmanned demonstrator carrying no payload is plausible and is not independently confirmed.
-
 ## The Flight Test Record
 
 **The first airframe hovered for about eighty seconds in December 2003** at the United States Army Proving Ground at Yuma, Arizona \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\] \[[Yuma Proving Ground][ref_yuma]\]. **The general encyclopaedia dates the first flight to 24 November 2003 and the designation directory to 4 December 2003**, while the manufacturer's own announcement is dated 4 December and describes a flight that had already occurred. The article does not resolve this and records it as unresolved.
@@ -429,7 +437,7 @@ $$
 
 **Nine flights across two airframes. No conversion was attempted on any of them.**
 
-## What the Analysis Said and What the Aircraft Did
+## Comparison With Ground Prediction, What the Analysis Said and What the Aircraft Did
 
 ### The Computation Named the Mechanism
 
@@ -459,25 +467,17 @@ $$
 
 **The paper also states that its force and moment values could not be published, being proprietary, so its figures carry no numbers on the vertical axis.** The only public computational assessment of this aeroplane's conversion loads is therefore unavailable in magnitude to anybody outside the programme.
 
-## Where the Framing Breaks Down
+## What the Data Changed
 
-**The chain of reasoning in this article is a chain of plausible inferences and not a demonstrated causal account, and five links are weaker than the others.**
+**The flight data changed where the programme's danger was understood to lie, and they changed nothing about the question the programme was funded to answer.** Nine flights across two airframes produced no conversion, so the record holds no measurement of a rotor stopping or starting in flight \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\].
 
-**First, the article claims the wake-skew pitch-up mechanism without direct evidence that it was the mechanism.** The accident finding is a nose-up pitching moment from airspeed and rotor wake exceeding control authority. That the specific route was the tail remaining in the wake as the canard left it is the standard explanation for that signature on rotorcraft, and it is consistent with the geometry, and it is not stated in any source consulted about this aeroplane. **It is an inference from configuration and it is offered as one.**
+**The first loss was a finding about the helicopter half of the aeroplane.** The first airframe was destroyed on its third flight, on 23 March 2004, and the recorded cause was cross coupling of the rotor controls. Nothing in that cause concerns the conversion.
 
-**Quantifying it does not make it evidence.** The equation-density review computed the clearing speeds, the skew angles and the equivalent centre of gravity shift, and none of that establishes that this is what happened to either airframe. **An arithmetically detailed inference is still an inference**, and the numbers show only that the proposed mechanism is of the right size to matter rather than that it operated.
+**The second loss overturned the margin judgement that the analysis had made, though not at the condition where it was made.** The 2001 computation concluded that the moments were well within the authority of the control surfaces at 130 knots \[[Pandya and Aftosmis, Computation of external aerodynamics for a canard rotor/wing aircraft][research_pandya_aftosmis]\]. The investigation of the loss on 12 April 2006 concluded that the aircraft had insufficient low-speed control authority against a nose-up pitching moment of extreme sensitivity, produced by airspeed and rotor wake. **Flight therefore did not test the clearance at conversion speed. It showed that the margin in the regime between hover and conversion entry was inadequate**, which is the regime the section headed Comparison With Ground Prediction argues the analysis effort had passed over.
 
-**Second, the surface areas are derived and not published.** The canard and tail areas are computed from the requirement to carry the aircraft at the published conversion speed, under an assumed lift coefficient range. If the real surfaces are substantially larger, because they were sized by a stall margin rather than by cruise lift, then the download and moment arguments strengthen. If they are smaller, the arguments weaken. **The spans are published and the areas are not, and the spans alone carry the geometric part of the argument.**
+**The data do not confirm the mechanism this article proposes for that pitching moment.** The accident finding names airspeed and rotor wake. The route through the tail remaining in the wake after the canard has left it is an inference from the configuration, and the section headed Where the Framing Breaks Down records it as one.
 
-**Third, four quantities this aeroplane needs are unpublished and every result depending on them is a range.** The rotor tip speed governs the advance ratio at conversion entry, the hover and advancing tip Mach numbers and the reaction drive efficiency. The tip-jet exhaust velocity governs that efficiency with it, and the range is wide enough that the conclusion there is qualitative rather than quantitative. The rotor chord governs the aspect ratio and the lift-curve slope of the stopped rotor as a wing. The longitudinal stations of the canard and tail, and their height below the rotor, govern the wake clearing speeds.
-
-**The last of those four is the one the keystone rests on, and it is also the one whose weakness matters least.** The ratio between the two clearing speeds is independent of both the induced velocity and the surface height, so the claim that the tail stays in the wake to roughly seven times the canard's clearing speed survives any plausible error in the estimate. **The absolute speeds do not, and the article gives them as a range for that reason.**
-
-**Fourth, the connection between the 2001 paper and the 2006 accident is a connection of mechanism and not of flight condition.** This is stated at length in the preceding section because it is the single place where this article would most easily overclaim.
-
-**Fifth, the claim that the Hughes rotor/wing appears in no secondary account of the X-50 is a claim about a search and not about the world.** It rests on the sources consulted for this article, which are the manufacturer's announcements, the specialist designation directory, the Federation of American Scientists, the general press and the general encyclopaedia. **A history of the programme that this article did not find may well make the connection**, and the safe form of the claim is that the ancestry is absent from the accounts most readily available and present in the contractor reports.
-
-**A sixth item is smaller and should be recorded anyway.** The one Mach number published for this aeroplane's conversion condition, being 0.1986 at 130 knots, corresponds to a speed of sound of about 1,105 feet per second rather than the sea level value of 1,116.4 \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]\] \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\]. Recomputing 130 knots against the sea level speed of sound gives Mach 0.1965. **The two figures in the source are mutually consistent only at an altitude of roughly two thousand feet**, which is unremarkable for Yuma and is noted so that a reader recomputing the number is not confused by the discrepancy.
+**The last change the record shows is the termination.** The Defense Advanced Research Projects Agency withdrew funding in September 2006 \[[DARPA pulls plug on X-50 stopped-rotor concept, FlightGlobal][ref_flightglobal_cancel]\], so no redesign answering the low-speed finding was ever flown. **The question stated in the section headed The Research Question leaves this programme exactly as it entered it**, and the record supports no statement about whether the conversion would have worked.
 
 ## The Contemporary Literature
 
@@ -618,6 +618,26 @@ $$
 
 **34 records.** \[[Army Materiel Command Alexandria Va 1974][research_armymaterielcommandalexandriava_1974_b]\] \[[Brown et al 1969][research_brown_cox_1969]\] \[[Chen 2019][research_chen_2019]\] \[[Childress 1958][research_childress_1958]\] \[[de Angelis et al 2025][research_deangelis_costantini_2025]\] \[[Gallian 1980][research_gallian_1980]\] \[[Gern 2013][research_gern_2013]\] \[[Hallberg and Kaminer 1999][research_hallberg_kaminer_1999]\] \[[Hayase 1974][research_hayase_1974]\] \[[Hayase 1974][research_hayase_1974_b]\] \[[Hoffrichter 1978][research_hoffrichter_1978]\] \[[Kalra et al 2012][research_kalra_amiraux_2012]\] \[[Khurana et al 2019][research_khurana_russell_2019]\] \[[Larsson et al 2014][research_larsson_lundbladh_2014]\] \[[Lee et al 2018][research_lee_liou_2018]\] \[[Lefebvre and Zha 2014][research_lefebvre_zha_2014_b]\] \[[Loftus 2004][research_loftus_2004]\] \[[Logan 1989][research_logan_1989]\] \[[Maciolek and Wallischeck 1977][research_maciolek_wallischeck_1977]\] \[[Manon 1981][research_manon_1981]\] \[[Marschner et al 1977][research_marschner_young_1977]\] \[[May and Widdison 1971][research_may_widdison_1971]\] \[[May and Widdison 1971][research_may_widdison_1971_b]\] \[[Meier and Olson 1988][research_meier_olson_1988]\] \[[Mikjaniec][research_mikjaniec]\] \[[Orrick 2024][research_orrick_2024]\] \[[Palaia et al 2025][research_palaia_salem_2025]\] \[[Patterson et al 1968][research_patterson_fisch_1968]\] \[[Prudente and Cavalieri 2007][research_prudente_cavalieri_2007]\] \[[Sartorius 2011][research_sartorius_2011]\] \[[Schwinn et al 2020][research_schwinn_weiand_2020]\] \[[Selleck 1978][research_selleck_1978]\] \[[Tepylo et al 2023][research_tepylo_budinger_2023]\] \[[Welch and Warren 1971][research_welch_warren_1971]\]
 
+
+## Where the Framing Breaks Down
+
+**The chain of reasoning in this article is a chain of plausible inferences and not a demonstrated causal account, and five links are weaker than the others.**
+
+**First, the article claims the wake-skew pitch-up mechanism without direct evidence that it was the mechanism.** The accident finding is a nose-up pitching moment from airspeed and rotor wake exceeding control authority. That the specific route was the tail remaining in the wake as the canard left it is the standard explanation for that signature on rotorcraft, and it is consistent with the geometry, and it is not stated in any source consulted about this aeroplane. **It is an inference from configuration and it is offered as one.**
+
+**Quantifying it does not make it evidence.** The equation-density review computed the clearing speeds, the skew angles and the equivalent centre of gravity shift, and none of that establishes that this is what happened to either airframe. **An arithmetically detailed inference is still an inference**, and the numbers show only that the proposed mechanism is of the right size to matter rather than that it operated.
+
+**Second, the surface areas are derived and not published.** The canard and tail areas are computed from the requirement to carry the aircraft at the published conversion speed, under an assumed lift coefficient range. If the real surfaces are substantially larger, because they were sized by a stall margin rather than by cruise lift, then the download and moment arguments strengthen. If they are smaller, the arguments weaken. **The spans are published and the areas are not, and the spans alone carry the geometric part of the argument.**
+
+**Third, four quantities this aeroplane needs are unpublished and every result depending on them is a range.** The rotor tip speed governs the advance ratio at conversion entry, the hover and advancing tip Mach numbers and the reaction drive efficiency. The tip-jet exhaust velocity governs that efficiency with it, and the range is wide enough that the conclusion there is qualitative rather than quantitative. The rotor chord governs the aspect ratio and the lift-curve slope of the stopped rotor as a wing. The longitudinal stations of the canard and tail, and their height below the rotor, govern the wake clearing speeds.
+
+**The last of those four is the one the keystone rests on, and it is also the one whose weakness matters least.** The ratio between the two clearing speeds is independent of both the induced velocity and the surface height, so the claim that the tail stays in the wake to roughly seven times the canard's clearing speed survives any plausible error in the estimate. **The absolute speeds do not, and the article gives them as a range for that reason.**
+
+**Fourth, the connection between the 2001 paper and the 2006 accident is a connection of mechanism and not of flight condition.** This is stated at length in the section headed Comparison With Ground Prediction because it is the single place where this article would most easily overclaim.
+
+**Fifth, the claim that the Hughes rotor/wing appears in no secondary account of the X-50 is a claim about a search and not about the world.** It rests on the sources consulted for this article, which are the manufacturer's announcements, the specialist designation directory, the Federation of American Scientists, the general press and the general encyclopaedia. **A history of the programme that this article did not find may well make the connection**, and the safe form of the claim is that the ancestry is absent from the accounts most readily available and present in the contractor reports.
+
+**A sixth item is smaller and should be recorded anyway.** The one Mach number published for this aeroplane's conversion condition, being 0.1986 at 130 knots, corresponds to a speed of sound of about 1,105 feet per second rather than the sea level value of 1,116.4 \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]\] \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\]. Recomputing 130 knots against the sea level speed of sound gives Mach 0.1965. **The two figures in the source are mutually consistent only at an altitude of roughly two thousand feet**, which is unremarkable for Yuma and is noted so that a reader recomputing the number is not confused by the discrepancy.
 
 ## The Source Base
 

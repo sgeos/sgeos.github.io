@@ -588,6 +588,62 @@ and somewhere between Mach 7 and Mach 9.6 they crossed.
 it is the observation that the thrust-drag margin closes, and the second reading is the one the
 programme existed to produce.
 
+## Comparison With Ground Prediction
+
+**Every flight of this programme was a test of a prediction made on the ground, and the three flights
+returned three different verdicts.** The section headed The Research Question explains why the
+comparison was the purpose of the vehicle rather than a by-product of it. Ground facilities and
+computation could each supply a large term with an uncertainty band, and only flight could say whether
+the small difference between those terms had the sign the design assumed. This section sets the ground
+predictions the article reports beside what each flight returned, and points to where each comparison
+is argued.
+
+**The ground prediction for the engine was very large and it was made in several independent
+facilities.** Langley built an aerodynamic database across its tunnel complex covering separation, the
+powered condition and the descent\[[McClinton and Holland 1998][research_mcclinton_1998]\]\[[Holland and Woods 2000][research_holland_2000]\],
+the engine flowpath was run in the 8-foot High Temperature Tunnel and in shock
+tunnels\[[Huebner and Rock 2000][research_huebner_2000]\]\[[Bakos and Tsai 2001][research_bakos_2001]\], and the
+flight engine itself was ground tested before each
+mission\[[Huebner and Rock 2001][research_huebner_2001]\]. The section headed Dependent Systems
+describes that campaign.
+
+**On the engine, flight agreed with the ground.** The programme's own retrospectives report that engine
+thrust was close to its design value on both powered flights\[[Voland and Huebner 2005][research_voland_2005]\],
+and the Mach 7 scramjet design paper traces the flowpath from design through ground test to
+flight\[[Ferlemann and others 2005][research_ferlemann_2005]\]. At Mach 7 the vehicle accelerated under
+power, and at Mach 9.6 it held approximately constant velocity\[[Marshall and Bahm 2005][research_marshall_2005]\].
+**That agreement is the calibration the programme was built to obtain**, and the section headed What
+the Data Changed treats its consequences.
+
+**The agreement is qualitative in this article and should be read that way.** The flights established
+the sign of the net axial force at each condition, and the programme's own force accounting
+established its magnitude. This article does not reconstruct the measured net thrust, so it cannot set
+a predicted value beside a measured one to any stated precision. The section headed Where the Framing
+Breaks Down argues that limitation, and the section headed Epistemic State records it.
+
+**On the launch vehicle, flight disagreed with the ground, and the disagreement destroyed the first
+mission.** The roll axis gain margin was predicted before flight at 8 decibels against a requirement
+of 6. Flight returned a diverging roll oscillation at 2.5 hertz that reached structural overload of the
+starboard elevon two seconds after it began\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
+**The ground models had overestimated the margin**, and correcting them brought the prediction to under
+2 decibels while still predicting a stable vehicle. The loss reproduced only when every modelling
+inaccuracy was combined with its uncertainty. Among the inaccuracies were an error incorporating wind
+tunnel data into the mathematical model and unmodelled outer mould line changes associated with the
+thermal protection system. The section headed The Flight Test Record argues the arithmetic of that
+margin in full.
+
+**Stage separation was predicted by analysis and confirmed by flight.** The programme studied the
+separation of two non-axisymmetric bodies at high dynamic pressure at
+length\[[Tartabini and Bose 2003][research_tartabini_2003]\], and on the second flight the separation
+worked.
+
+**Two of this article's own ground figures have no flight counterpart in the article.** The leading
+edge heating rates in the section headed Dependent Systems are correlation estimates from the Sutton and
+Graves relation, and the article reports no measured leading edge temperatures to compare them with.
+The dynamic pressures in the section headed Sizing From First Principles are computed from the standard
+atmosphere rather than measured on the days of the flights. **Both are consistency checks and neither
+is a comparison with flight.**
+
 ## What the Data Changed
 
 **The tools were calibrated, which was the stated objective, and that is a real result even though it
@@ -615,60 +671,6 @@ system with a long flight record, and the heritage models were part of what fail
 valid for the trajectories that record covered and this trajectory was not one of them. **Inherited
 confidence is confidence in a domain, and the domain travels with the model whether or not anyone
 writes it down.**
-
-## Where the Framing Breaks Down
-
-**Treating this vehicle through thrust-drag closure is right and it hides three things.**
-
-**First, the closure was demonstrated and not measured to useful precision.** Knowing that net thrust
-was positive at Mach 7 is a different and much weaker statement than knowing its value to within some
-percentage. The article's keystone frames a binary question because that is the question the flight
-answered, but the calibration value of the data comes from the detailed pressure and force
-reconstruction, which is a quantitative exercise the keystone does not describe.
-
-**Second, the keystone says nothing about the ten seconds.** A scramjet that produces net thrust for
-eleven seconds on hydrogen has not demonstrated a propulsion system, because the thermal problem in a
-real vehicle is a steady-state problem and this vehicle never approached steady state. **The structure
-was absorbing heat throughout, not rejecting it.**
-
-**Third, the framing makes the first flight look like a distraction, and it was not.** An article
-organised around scramjet performance naturally treats a booster control failure as an interruption.
-**The board's finding about margin and uncertainty is a more transferable result than the engine data**
-and it applies to any vehicle whose stability is computed rather than measured, which is all of them.
-
-**The designation itself is unremarkable for once.** Every source used in this article calls the
-vehicle X-43A without qualification, and no source found during the research raised a question about
-the pairing. After three consecutive articles on contested designations that is worth noting in a
-sentence and then leaving alone. **The absence of a dispute is not the same as positive evidence that
-none exists**, and this article did not locate a nomenclature reference for the X-43 to check against,
-which is recorded in the Epistemic State.
-
-**A fifth concerns scale, and it is the one with an equation attached.** The article treats a twelve
-foot vehicle as evidence about hypersonic air-breathing propulsion generally, and the quantity that
-refuses to scale is the Reynolds number,
-
-$$\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}$$
-
-At the two flight conditions the dynamic viscosity is $1.47 \times 10^{-5}$ and
-$1.51 \times 10^{-5}$ pascal seconds, giving a length Reynolds number of
-$1.11 \times 10^{7}$ at 95,000 feet and $7.58 \times 10^{6}$ at 110,000.
-
-**Reynolds number is proportional to length at a fixed flight condition**, so a vehicle five times
-longer sits at $5.5 \times 10^{7}$ and one ten times longer at $1.11 \times 10^{8}$, an order of
-magnitude above the flight article. **Boundary layer transition location does not scale with it**, and
-transition sets skin friction, heating and the state of the flow entering the inlet. **Transition
-prediction at flight conditions still rests on engineering correlations rather than on
-theory**\[[Campbell and others 2010][research_campbell_2010]\], and the aerothermal difficulties of
-hypersonic flight were catalogued before this vehicle was
-conceived\[[Holden 1986][research_holden_1986]\]. **The flight data
-calibrate the tools at one Reynolds number and the tools are then used at another**, which is a
-weakness the programme understood and could not remove.
-
-**A fourth caution concerns what "first" means here.** A joint Russian and American programme flew a
-scramjet on a Mach 6.5 flight test in the 1990s\[[Roudakov and Semenov 1998][research_roudakov_1998]\],
-and various rocket-boosted scramjet experiments preceded this one. **The X-43A claim is narrower than
-the popular one**, being the first free-flight demonstration of an airframe-integrated scramjet
-producing thrust in excess of vehicle drag, and each qualifier in that sentence is doing work.
 
 ## The Contemporary Literature
 
@@ -814,6 +816,60 @@ producing thrust in excess of vehicle drag, and each qualifier in that sentence 
 **The two clusters with the least recent work are the ones about flying and about why.** Launch, separation and flight test operations carries the lowest post-2015 share in the table at 27 percent, and programmes, missions and access to space carries the highest pre-2000 share at 52 percent while being the smallest cluster outright. **The field kept working on the engine and stopped working on the aeroplane.**
 
 **That is the same pattern the preceding article in this series found**, where the upper stage cluster was the smallest and the oldest while the propulsion clusters were the largest and youngest. **Two consecutive articles, on unrelated vehicles, reached it from opposite directions.** A survey that shows a live propulsion literature attached to a dead mission literature is describing a field that has become an end in itself, and this article does not have the evidence to say whether that is a failure or a normal phase.
+
+## Where the Framing Breaks Down
+
+**Treating this vehicle through thrust-drag closure is right and it hides three things.**
+
+**First, the closure was demonstrated and not measured to useful precision.** Knowing that net thrust
+was positive at Mach 7 is a different and much weaker statement than knowing its value to within some
+percentage. The article's keystone frames a binary question because that is the question the flight
+answered, but the calibration value of the data comes from the detailed pressure and force
+reconstruction, which is a quantitative exercise the keystone does not describe.
+
+**Second, the keystone says nothing about the ten seconds.** A scramjet that produces net thrust for
+eleven seconds on hydrogen has not demonstrated a propulsion system, because the thermal problem in a
+real vehicle is a steady-state problem and this vehicle never approached steady state. **The structure
+was absorbing heat throughout, not rejecting it.**
+
+**Third, the framing makes the first flight look like a distraction, and it was not.** An article
+organised around scramjet performance naturally treats a booster control failure as an interruption.
+**The board's finding about margin and uncertainty is a more transferable result than the engine data**
+and it applies to any vehicle whose stability is computed rather than measured, which is all of them.
+
+**The designation itself is unremarkable for once.** Every source used in this article calls the
+vehicle X-43A without qualification, and no source found during the research raised a question about
+the pairing. After three consecutive articles on contested designations that is worth noting in a
+sentence and then leaving alone. **The absence of a dispute is not the same as positive evidence that
+none exists**, and this article did not locate a nomenclature reference for the X-43 to check against,
+which is recorded in the Epistemic State.
+
+**A fifth concerns scale, and it is the one with an equation attached.** The article treats a twelve
+foot vehicle as evidence about hypersonic air-breathing propulsion generally, and the quantity that
+refuses to scale is the Reynolds number,
+
+$$\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}$$
+
+At the two flight conditions the dynamic viscosity is $1.47 \times 10^{-5}$ and
+$1.51 \times 10^{-5}$ pascal seconds, giving a length Reynolds number of
+$1.11 \times 10^{7}$ at 95,000 feet and $7.58 \times 10^{6}$ at 110,000.
+
+**Reynolds number is proportional to length at a fixed flight condition**, so a vehicle five times
+longer sits at $5.5 \times 10^{7}$ and one ten times longer at $1.11 \times 10^{8}$, an order of
+magnitude above the flight article. **Boundary layer transition location does not scale with it**, and
+transition sets skin friction, heating and the state of the flow entering the inlet. **Transition
+prediction at flight conditions still rests on engineering correlations rather than on
+theory**\[[Campbell and others 2010][research_campbell_2010]\], and the aerothermal difficulties of
+hypersonic flight were catalogued before this vehicle was
+conceived\[[Holden 1986][research_holden_1986]\]. **The flight data
+calibrate the tools at one Reynolds number and the tools are then used at another**, which is a
+weakness the programme understood and could not remove.
+
+**A fourth caution concerns what "first" means here.** A joint Russian and American programme flew a
+scramjet on a Mach 6.5 flight test in the 1990s\[[Roudakov and Semenov 1998][research_roudakov_1998]\],
+and various rocket-boosted scramjet experiments preceded this one. **The X-43A claim is narrower than
+the popular one**, being the first free-flight demonstration of an airframe-integrated scramjet
+producing thrust in excess of vehicle drag, and each qualifier in that sentence is doing work.
 
 ## The Source Base
 

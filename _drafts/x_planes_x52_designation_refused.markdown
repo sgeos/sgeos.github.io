@@ -22,7 +22,13 @@ This is the fifty-third article in the [X-Planes series][related_post_a297_frami
 
 **The record does not say through which sense.** It says possible confusion, and it says it in one clause. Whether the worry was a radio, a maintenance card or a line in a budget is not stated anywhere this article could find, and the sections below argue for the radio from the neighbouring cases rather than from this one.
 
-## What the Record Says Happened
+## The Research Question
+
+**The designation X-52 had no research question of its own, because it never named a vehicle.** The number was requested for a programme to test active aeroelastic wing technology, and that programme's question belonged to the aircraft that received X-53A instead \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **That question is the subject of the next article in this series and is not pursued here.**
+
+**The question this article asks is administrative rather than aeronautical.** It asks under what rule a design number that the sequence named could be refused for resembling another number already in use, and what that refusal shows about the designation system. The record supplies the reason in one clause, and the article sets out to find the rule behind it.
+
+## Programme Origin, What the Record Says Happened
 
 **The request was for X-52A and the answer was X-53A.** The specialist registry that maintains the record of United States military aerospace vehicle designations states the case in two sentences and they are the only two sentences of primary description that exist in public \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The designation X-52A was requested in 2006 for a programme to test active aeroelastic wing technology. It was disapproved because of possible confusion with the B-52 series, and X-53A was allocated instead.
 
@@ -151,7 +157,33 @@ $$\underbrace{2020 - 2006}_{14 \ \text{years after the refusal}}
 
 **The structure of the two cases is identical.** In each, two designations differ only in the mission symbol and agree in the design number. In 2002 that identity was treated as desirable continuity worth breaking the sequence rule to obtain. In 2006 it was treated as a hazard worth breaking the sequence rule to avoid. **The instruction in force was the same document in both years and it authorised neither.**
 
-## What the Anomaly Reveals About the Designation System
+## Sizing From First Principles
+
+**There was no vehicle to size.** The X-52 was a number that was requested and refused, and no airframe, engine or mass was ever attached to it. The aircraft the number was requested for was a modified F/A-18A that had already flown and finished its flight research before the request was made \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\], and its engineering belongs to the next article in this series.
+
+**The only quantity this article sizes is the designation space itself.** The section headed The Rule That Refused It Is Not in the Instruction derives it from the instruction's own limits, being 999 design numbers and twenty-four permitted series symbols, and records that fifty-one of the design numbers had been consumed in the X series when the request was made. **Scarcity of numbers did not drive the refusal**, and that section says so.
+
+## Dependent Systems
+
+**A designation depends on paperwork rather than hardware, and the record names the offices this one passed through.** The request went from the programme office to the Department of Defence Control Point, which is the Air Force Asset Identification Branch at Wright-Patterson, and from there to the Directorate of Programs, Program Integration Division at the Pentagon, where the decision was made \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. The governing document was the joint instruction in its 14 April 2005 issue \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\], and the outcome is recorded by the specialist registry \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
+
+**The aircraft the number was meant for depended on three partners**, being the space agency's flight research centre at Edwards, the Air Force Research Laboratory and Boeing Phantom Works \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Air Force Research Laboratory][ref_afrl]\]. **Its systems belong to the article on the X-53 and are not described in this one.**
+
+## The Flight Test Record
+
+**Nothing flew as the X-52.** The number was refused, so no flight was ever made under it \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
+
+**The aircraft for which it was requested had already completed its flying.** The programme began in 1996, the modified aircraft first flew in November 2002, and the flight research concluded in March 2005, more than a year before the designation X-53 was issued on 16 August 2006 \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\] \[[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]\]. **The flight record of that aircraft is the subject of the next article, and this article states only that it existed and that it preceded the number.**
+
+## Comparison With Ground Prediction
+
+**There is no flight result to set beside a ground prediction, because nothing flew under this designation.** The record reports no wind tunnel work, analysis or simulation attached to the X-52, and the aeronautical predictions made for the Active Aeroelastic Wing belong to the article on the X-53.
+
+**The only prediction in this record is the one the refusal itself made.** The deciding office anticipated possible confusion with the B-52 series \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], and because the number was refused, that forecast was never exposed to an outcome. **No confusion between an X-52 and a B-52 could occur, so none was observed, and the record can neither confirm nor refute the forecast.**
+
+**The nearest the record comes to a forecast set against an outcome runs the other way.** The 1953 requests to redesignate two drones were made because confusion with unmodified aircraft was already occurring, and they were refused, which the section headed What the Data Changed sets beside the X-52 decision. The section headed Measuring the Judgement That Was Not Recorded supplies the kind of measure a stated forecast would have needed, and records that no measure or threshold accompanied the decision.
+
+## What the Data Changed, What the Anomaly Reveals About the Designation System
 
 ### The Refusal Belongs to a Documented Family
 
@@ -310,7 +342,7 @@ the end of it.**
 
 ### What Was Lost Was Nothing, and That Is the Point
 
-**Compare the two anomalies this series has now examined in the reduced order.**
+**Compare the two anomalies without a vehicle that this series has now examined.**
 
 **The [X-39][related_post_a336_x39_reserved_never_assigned] produced a permanent hole.** The number was reserved and the allocation request was never submitted, and the reservation was never cancelled either, so the number could not be reused before the next one was allocated. **Two documents were missing and the gap became unrecoverable before anybody discovered it was unnecessary** \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
@@ -514,6 +546,14 @@ designation in 2006 and recorded a phrase.**
 **13 records.** \[[Bergeron, H. P. 1983][research_bergeronhp_1983]\] \[[Chan, Jeffrey W. and Simpson, Carol A. 1990][research_chanjeffreyw_simpsoncarola_1990]\] \[[Connell, Linda J. and Reynard, William D. 1993][research_connelllindaj_reynardwilliamd_1993]\] \[[Corrie and Corrie 1997][research_corrie_corrie_1997]\] \[[Cui and Liu 2019][research_cui_liu_2019]\] \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\] \[[K 2025][research_k_2025]\] \[[NASA aviation safety reporting 1978][research_nasa_aviation_1978]\] \[[NASA aviation safety reporting 1980][research_nasa_aviation_1980]\] \[[Stanford and Homan 1990][research_stanford_homan_1990]\] \[[Strattan 1978][research_strattan_1978]\] \[[Twist model development and results from the active aeroelastic wing F/A-18 aircraft][research_aaw_twist_model]\] \[[Vicory 1968][research_vicory_1968]\]
 
 
+## Where the Framing Breaks Down
+
+**The series framing assumes an aeroplane, and this article has none.** Every canonical section that asks about sizing, systems, flight or flight data returns the same answer here, which is that the number never named a vehicle. **The framing is kept so that the X-52 sits in its place in the sequence, and the sections it imposes are short because the record is.**
+
+**The framing of a decision with a recorded reason also breaks down.** The registry gives the reason as possible confusion with the B-52 series, but no document giving the reasoning has been seen, and whether that phrase quotes the decision or paraphrases it cannot be determined \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The F-19 case shows that confusion can be stated as a reason when it is not the reason, so the stated ground is evidence of what was written and not necessarily of what was weighed.
+
+**The argument for a spoken channel is borrowed rather than found.** The opening states that the radio is argued from the neighbouring cases and not from this one, and the C-16 note is the only entry in the family that names a radio. **The section headed Epistemic State separates what the record establishes from what this article infers**, and the inference that the refusal lacked written authority rests on an absence in a document, which is weaker evidence than a presence.
+
 ## The Source Base
 
 **The twenty-seven curated sources that carry the argument and the 2,213 that map the field are different things, and this article keeps them apart on purpose.**
@@ -530,7 +570,7 @@ designation in 2006 and recorded a phrase.**
 
 ### The Report-Primary Fraction Is Near the Bottom of the Series and the Reason Is the Subject
 
-**The report-primary fraction is 2.0 percent, being 44 records of 2,213, which is the second-lowest of the fifty-three articles this series has drafted.** **The lowest is the [X-39][related_post_a336_x39_reserved_never_assigned], the other anomaly written in the reduced order, at 0.0 percent of 2,454 records, and that is not a coincidence.**
+**The report-primary fraction is 2.0 percent, being 44 records of 2,213, which is the second-lowest of the fifty-three articles this series has drafted.** **The lowest is the [X-39][related_post_a336_x39_reserved_never_assigned], the other anomaly without a vehicle, at 0.0 percent of 2,454 records, and that is not a coincidence.**
 
 **The measure means less here than it does anywhere else in this series and the article will not dress it up.** It counts identifiers issued by the space agency's report server and the defence technical information centre, which is the right instrument when the subject is an aeroplane and the wrong one when the subject is a refusal. **The primary documents this article actually argues from are the three issues of the governing instruction, the registry that records the decision, the drug regulator's naming guidance and the civil call sign study**, and not one of them carries an identifier the measure can see.
 

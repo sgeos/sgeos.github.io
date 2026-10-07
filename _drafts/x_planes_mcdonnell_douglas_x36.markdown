@@ -1064,43 +1064,6 @@ question it answered was not the binding one. A production fighter's tail is a c
 control, weight and the cost of certifying an aircraft that cannot be flown without its computers.
 **The X-36 addressed exactly one of those four.**
 
-## Where the Framing Breaks Down
-
-### A Scale Model Is Not a Small Aeroplane, and the Article Leans on That Hard
-
-**The scaling argument in this article is a statement about idealised similitude, and real models depart from it.**
-Matching the mass ratio exactly requires matching the inertia ratio too, which means placing the mass
-correctly in three axes and not merely getting the total right. Whether the X-36 did so is not in the public
-record.
-**If its inertias were not scaled, the doubling times computed above are wrong by whatever factor the inertia is wrong by**,
-and the article's own bracket across radius of gyration is an admission of that rather than a resolution of
-it.
-
-### The Latency Argument Has No Measurement Behind It
-
-**The structure of the latency argument is sound and its magnitude is unknown.** The amplification factor of
-1.8898 is exact and follows from the scale factor alone. **The thing being amplified is not published.** If
-the link delay was very small then the handicap was small, and the article's claim reduces to a statement
-about a multiplier rather than about a difficulty.
-
-**The claim is therefore made in that weaker form**, and the article does not assert that the pilots found
-it hard, because no workload or handling-qualities rating from these flights is public.
-
-### The Instability May Have Been Milder Than Assumed
-
-The directional derivative used above is assumed rather than measured, at a value typical of a tailless
-configuration. **A less unstable aircraft would double more slowly and the whole argument would soften.**
-The bracket across radius of gyration does not cover this, because a different derivative scales the growth
-rate rather than the inertia, and the article flags it as the assumption its sharpest number is most exposed
-to.
-
-### The Comparison With the Previous Article Is Neat and Should Be Distrusted for It
-
-**Two consecutive demonstrators, one flown easier than the real thing and one flown harder, is a pleasing symmetry.**
-It is also the kind of pattern that appears when one goes looking for it.
-**The X-35 comparison rests on weights and an ordering, which are published. The X-36 comparison rests on a scaling law, which is exact, applied to a latency that is not published.**
-Those are not equally solid and the article does not present them as though they were.
-
 ## The Contemporary Literature
 
 The standing directive for this series asks each article to survey the current literature as well as study
@@ -4899,6 +4862,43 @@ compensation techniques are far better than anything available in 1997.
 - [Transforming a Technology Demonstration into a Rapid Reusable...][research_brown_hoover_2026]
 - [XB-1 Supersonic Demonstrator Development and Flight Testing...][research_veletas_2026]
 
+## Where the Framing Breaks Down
+
+### A Scale Model Is Not a Small Aeroplane, and the Article Leans on That Hard
+
+**The scaling argument in this article is a statement about idealised similitude, and real models depart from it.**
+Matching the mass ratio exactly requires matching the inertia ratio too, which means placing the mass
+correctly in three axes and not merely getting the total right. Whether the X-36 did so is not in the public
+record.
+**If its inertias were not scaled, the doubling times computed above are wrong by whatever factor the inertia is wrong by**,
+and the article's own bracket across radius of gyration is an admission of that rather than a resolution of
+it.
+
+### The Latency Argument Has No Measurement Behind It
+
+**The structure of the latency argument is sound and its magnitude is unknown.** The amplification factor of
+1.8898 is exact and follows from the scale factor alone. **The thing being amplified is not published.** If
+the link delay was very small then the handicap was small, and the article's claim reduces to a statement
+about a multiplier rather than about a difficulty.
+
+**The claim is therefore made in that weaker form**, and the article does not assert that the pilots found
+it hard, because no workload or handling-qualities rating from these flights is public.
+
+### The Instability May Have Been Milder Than Assumed
+
+The directional derivative used above is assumed rather than measured, at a value typical of a tailless
+configuration. **A less unstable aircraft would double more slowly and the whole argument would soften.**
+The bracket across radius of gyration does not cover this, because a different derivative scales the growth
+rate rather than the inertia, and the article flags it as the assumption its sharpest number is most exposed
+to.
+
+### The Comparison With the Previous Article Is Neat and Should Be Distrusted for It
+
+**Two consecutive demonstrators, one flown easier than the real thing and one flown harder, is a pleasing symmetry.**
+It is also the kind of pattern that appears when one goes looking for it.
+**The X-35 comparison rests on weights and an ordering, which are published. The X-36 comparison rests on a scaling law, which is exact, applied to a latency that is not published.**
+Those are not equally solid and the article does not present them as though they were.
+
 ## The Source Base
 
 ### Both Halves, Counted and Not Only Divided
@@ -7578,7 +7578,6 @@ The X-36's divergence doubled in well under a second, nearly twice as fast as it
 would have, and a pilot on the ground held it there through a delay that counted for nearly twice its
 measured length.
 **That is a better result than the programme claimed for itself, and the reason nobody said so is that the factor is hidden inside the scale.**
-
 ## References
 
 ### Books

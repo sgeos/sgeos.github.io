@@ -858,6 +858,63 @@ again\[[USFE X-42][ref_x42_parsch]\].
 **What can be said positively is narrower**, which is that the published record ends with a destroyed
 first article, a leaking second article, and a schedule that was never reported as having been met.
 
+## Comparison With Ground Prediction
+
+**The stage never flew, so flight returned nothing to set beside any ground prediction.** No flight is
+recorded, and the section headed The Flight Test Record states that absence as an argument from
+silence. What the record does allow is a narrower comparison, between what the programme specified or
+predicted before testing and what the ground tests at the Stennis Space Center and at Chandler
+returned. Those comparisons are argued in the sections headed Dependent Systems and The Flight Test
+Record, and this section gathers them.
+
+**The erosion allowance was met on the ground.** The programme set an allowable throat erosion rate of
+0.001 inches per second for the 200 second design burn\[[Ross and others 2000][research_ross_2000]\].
+The 31 second test measured 0.0009 inches per second directly at a mixture ratio of 5.85, and the
+chamber pressure history of the 140 second test implies 0.00050 at a mixture ratio of 4.9. **Both sit
+below the allowance.** The analysis in the section headed Dependent Systems shows that the cavitating
+venturis hold thrust within about one percent across a full burn at the allowable rate, which is the
+ground for the paper's statement that the thrust requirement of 10,000 pounds within ten percent was
+achievable.
+
+**The autoignition requirement was met as designed.** The contraction ratio of at least seven was
+chosen so that the fuel would ignite on contact with the decomposition products, and the engine needed
+no ignition system and demonstrated multiple restarts in the first development series.
+
+**The design burn itself was never demonstrated.** The run tanks of the test cell limited any single
+run to about 150 seconds at nominal flow, so no test reached the 200 second design burn, and
+performance over the final fifty seconds of that burn remains a prediction rather than a measurement.
+
+**One ground result was not foreseen in the published record.** A low frequency catalyst bed
+instability appeared as the peroxide flow fell to about one third of the design rate, and the published
+account describes a dynamic model of the bed and chamber correlated against the test data and a chamber
+modification that removed the instability\[[Johnson and others 2000][research_johnson_2000]\]. **The
+record does not say that any analysis predicted the instability before it appeared.**
+
+**The injector trade returned a result that no single design satisfied.** The Gamma derivative injector
+reached a vacuum specific impulse of 298 seconds against the ring injector's 275 and produced the worst
+throat heating of the designs tested, so the measured outcome forced a choice between the two objectives
+rather than confirming either design.
+
+**The published operating point closes against the ideal relations, with one small discrepancy.** The
+published thrust, flowrate and specific impulse disagree by one percent, and the geometry favours a
+specific impulse of 277.8 seconds over the published 275. The measured thrust coefficient of 1.808 sits
+just below the ideal values of 1.884 and 1.835, which is where a real nozzle belongs. **These are checks
+of the source against standard relations rather than comparisons of a pre-test prediction with a
+measurement**, and they are reported in the section headed Dependent Systems on that basis.
+
+**The structure passed its ground prediction and then failed a different test.** The integral structure
+was hydrostatically proof tested at 150 percent of maximum expected operating pressure in April
+2003\[[Guerrero and others 2004][research_guerrero_2004]\], and a tank later failed during a helium
+pressurisation test and destroyed the engine\[[USFE X-42][ref_x42_parsch]\]. The membrane relation in
+the section headed Sizing From First Principles predicts the mass of a tank and not its failure mode,
+and the section headed Where the Framing Breaks Down argues why it cannot explain this outcome. **The
+cause of the failure was never disclosed**, so no prediction can be set against it.
+
+**The quantity a flight would have settled was never measured.** The velocity increment the stage could
+deliver appears in the section headed Sizing From First Principles only as a family spanning roughly
+2,340 to 3,580 metres per second, because the inert mass was never published, and no flight returned a
+number against which to test it.
+
 ## What the Data Changed
 
 **The vehicle influenced nothing and the technologies influenced a great deal, and separating those two
@@ -888,36 +945,6 @@ pressurisation, followed by leakage in the replacement, is a materials and manuf
 exactly the component the programme existed to prove. **The stage was destroyed by the technology it
 was built to demonstrate**, and that is a more informative outcome than a launch failure would have
 been, because it locates the difficulty precisely.
-
-## Where the Framing Breaks Down
-
-**The keystone in this article is a mass relation, and there are three places where reading the vehicle
-through it misleads.**
-
-**First, the relation says nothing about cost, and cost was the stated objective.** The programme called
-itself low cost propulsion and the word appears in the title of its founding paper. A pressure-fed
-stage is chosen because turbomachinery is expensive to develop, not because the mass relation favours
-it, and by the mass relation alone a pump-fed stage wins comfortably. **The article derives why the
-pressure-fed choice was survivable and not why it was made**, and those are different questions.
-
-**Second, the relation treats the tank as a membrane and the failure was not a membrane failure.** A
-vessel that passes a hydrostatic proof at 150 percent and then fails during a helium pressurisation is
-telling you about liners, joints, bosses, permeation, or the difference between a liquid and a gas as
-the pressurising medium. **None of those appear anywhere in the keystone**, which is precisely why the
-keystone cannot explain the outcome of the programme.
-
-**Third, treating the vehicle as a technology demonstrator understates how much of it was ordinary.**
-The cold gas attitude control, the linear shaped charge separation, the gimballed engine and the helium
-pressurisation are all conventional, and the novelty was concentrated in the tank and the propellant.
-**An article organised around the keystone naturally over-reports the novel parts**, and a reader
-should carry away that this was a mostly conventional stage with two unusual choices rather than a
-wholly experimental vehicle.
-
-**A fourth caution concerns the designation itself.** This article is filed under X-42 because the
-designation was allocated to this vehicle, but the analysis would be unchanged if the allocation were
-shown tomorrow to have been intended for something else. **The engineering does not depend on the
-number**, and a reader interested in the vehicle should treat the designation as a filing convenience
-rather than as a fact about the hardware.
 
 ## The Contemporary Literature
 
@@ -1069,6 +1096,36 @@ rather than as a fact about the hardware.
 **The upper stage cluster is the mirror image and it is the bleakest number in the table.** It carries the largest pre-2000 share of any core cluster at 39 percent and is the smallest core cluster in absolute terms. **The pop-up insertion mission was posed, worked on, and then abandoned without being solved**, and the modern entries under this heading serve commercial rideshare rather than the military responsive-insertion mission that justified this vehicle.
 
 **The two clusters covering the technologies that actually killed the programme are the youngest.** Ablative materials stand at 54 percent post-2015 and composite pressure vessels close behind. **The tank failed because that problem was open, and the date profile says it is open still.** A reader looking for the part of this vehicle that has a future should look there rather than at the stage.
+
+## Where the Framing Breaks Down
+
+**The keystone in this article is a mass relation, and there are three places where reading the vehicle
+through it misleads.**
+
+**First, the relation says nothing about cost, and cost was the stated objective.** The programme called
+itself low cost propulsion and the word appears in the title of its founding paper. A pressure-fed
+stage is chosen because turbomachinery is expensive to develop, not because the mass relation favours
+it, and by the mass relation alone a pump-fed stage wins comfortably. **The article derives why the
+pressure-fed choice was survivable and not why it was made**, and those are different questions.
+
+**Second, the relation treats the tank as a membrane and the failure was not a membrane failure.** A
+vessel that passes a hydrostatic proof at 150 percent and then fails during a helium pressurisation is
+telling you about liners, joints, bosses, permeation, or the difference between a liquid and a gas as
+the pressurising medium. **None of those appear anywhere in the keystone**, which is precisely why the
+keystone cannot explain the outcome of the programme.
+
+**Third, treating the vehicle as a technology demonstrator understates how much of it was ordinary.**
+The cold gas attitude control, the linear shaped charge separation, the gimballed engine and the helium
+pressurisation are all conventional, and the novelty was concentrated in the tank and the propellant.
+**An article organised around the keystone naturally over-reports the novel parts**, and a reader
+should carry away that this was a mostly conventional stage with two unusual choices rather than a
+wholly experimental vehicle.
+
+**A fourth caution concerns the designation itself.** This article is filed under X-42 because the
+designation was allocated to this vehicle, but the analysis would be unchanged if the allocation were
+shown tomorrow to have been intended for something else. **The engineering does not depend on the
+number**, and a reader interested in the vehicle should treat the designation as a filing convenience
+rather than as a fact about the hardware.
 
 ## The Source Base
 

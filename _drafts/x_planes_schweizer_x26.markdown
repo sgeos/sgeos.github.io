@@ -1166,33 +1166,6 @@ Once the propeller was slowed, the limit moved to the exhaust, then to the airfr
 transmission. **That is the signature of a design that has run out of dominant terms**, and it is why the
 line stopped at the YO-3A rather than continuing indefinitely.
 
-## Where the Framing Breaks Down
-
-**Treating this as one aircraft is a convenience of the designation system and not a fact.** The X-26A and
-the X-26B share an airframe and share nothing else. They had different customers, different services,
-different missions and different decades of relevance.
-**An article organised around the shared lift-to-drag ratio is making an argument, and the reader should know it is an argument.**
-
-**The unifying claim is real but it is not a claim about intent.** Nobody at the Naval Test Pilot School
-chose the SGS 2-32 because its aspect ratio implied a low power requirement, and nobody at Lockheed chose it
-because its wing produced instructive adverse yaw.
-**Each programme chose it for its own reason and the common cause is visible only in retrospect.** The
-article derives the connection and does not assert that anyone at the time saw it.
-
-**Neither aircraft was developed and neither answered an aerodynamic unknown**, which is the same finding
-the previous article made about the [X-25][related_post_a322_bensen_x25].
-**Two consecutive designations went to off-the-shelf civil aircraft bought for their existing properties.**
-That is evidence about the designation system, and it belongs with the rest of it in the closing article of
-this series. The vehicle-by-vehicle record for the series generally is [Jenkins, Landis and Miller on the
-American X-vehicles][book_jenkins_landis_miller_2003].
-
-**Finally, the three lost airframes are unexplained here.** Three of four X-26As were destroyed and
-replaced. A docile sailplane operated by an organisation of professional test pilots should not have that
-record, and this article does not know why it does.
-**It is stated as an open question and not smoothed over**, because the obvious inference, that an aircraft
-used to demonstrate departures will occasionally depart, is exactly the kind of plausible reasoning that
-should not be presented as fact.
-
 ## The Contemporary Literature
 
 **Both halves of this designation have living descendants, and there is a pattern in what happened to them.**
@@ -2250,6 +2223,33 @@ whether flying a sailplane actually teaches adverse yaw better than a simulator 
 **The X-26A's central claim remains untested sixty years on**, which is a curious position for an argument
 that has meanwhile been written into regulation.
 
+## Where the Framing Breaks Down
+
+**Treating this as one aircraft is a convenience of the designation system and not a fact.** The X-26A and
+the X-26B share an airframe and share nothing else. They had different customers, different services,
+different missions and different decades of relevance.
+**An article organised around the shared lift-to-drag ratio is making an argument, and the reader should know it is an argument.**
+
+**The unifying claim is real but it is not a claim about intent.** Nobody at the Naval Test Pilot School
+chose the SGS 2-32 because its aspect ratio implied a low power requirement, and nobody at Lockheed chose it
+because its wing produced instructive adverse yaw.
+**Each programme chose it for its own reason and the common cause is visible only in retrospect.** The
+article derives the connection and does not assert that anyone at the time saw it.
+
+**Neither aircraft was developed and neither answered an aerodynamic unknown**, which is the same finding
+the previous article made about the [X-25][related_post_a322_bensen_x25].
+**Two consecutive designations went to off-the-shelf civil aircraft bought for their existing properties.**
+That is evidence about the designation system, and it belongs with the rest of it in the closing article of
+this series. The vehicle-by-vehicle record for the series generally is [Jenkins, Landis and Miller on the
+American X-vehicles][book_jenkins_landis_miller_2003].
+
+**Finally, the three lost airframes are unexplained here.** Three of four X-26As were destroyed and
+replaced. A docile sailplane operated by an organisation of professional test pilots should not have that
+record, and this article does not know why it does.
+**It is stated as an open question and not smoothed over**, because the obvious inference, that an aircraft
+used to demonstrate departures will occasionally depart, is exactly the kind of plausible reasoning that
+should not be presented as fact.
+
 ## The Source Base
 
 **The aircraft has almost no technical literature and this is the second consecutive article for which that is true.**
@@ -2954,7 +2954,6 @@ had already optimised for entirely unrelated reasons, which is the second consec
 found that, and is evidence about the designation system rather than about aeroplanes.
 
 The next article in this series takes up the Lockheed X-27.
-
 ## References
 
 ### Books

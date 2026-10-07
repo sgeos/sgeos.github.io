@@ -20,7 +20,13 @@ This is the fifty-fifth article in the [X-Planes series][related_post_a297_frami
 
 **Both halves of that sentence are load-bearing and the second is deliberately in the present tense.** No airframe exists, no flight test report was written, and the aeroplane produced no literature of its own. The prohibition it was designated to help lift was ordered repealed by the President of the United States on 6 June 2025, with a deadline that falls four days after the date on this article \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. **The technical basis for that repeal is not the one the X-54 was designed around, and it is older than the prohibition itself.**
 
-## The Registry Entry Is the Primary Document
+## The Research Question
+
+**The X-54 existed to settle one question, and its registry entry states it.** Could an aeroplane shaped all the way to the tail generate a shaped sonic boom signature that survives to the ground, so that the people beneath it could be asked about it and a regulatory change process could use what they said? When the number was allocated the near field had been measured and the ground had not.
+
+**The question was never put to an X-54 in flight**, because no airframe was built. The entry that poses the question and the physics that makes it a question at all are set out under the headings The Registry Entry Is the Primary Document and Why a Sonic Boom Is Loud, and Why That Might Be a Choice.
+
+### The Registry Entry Is the Primary Document
 
 **On 5 May 2008 the joint designation registry recorded the following against X-54A** \[[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\].
 
@@ -34,7 +40,7 @@ This is the fifty-fifth article in the [X-Planes series][related_post_a297_frami
 
 The data in this addendum was obtained from official Department of Defense sources under the Freedom of Information Act, because the department stopped publishing the list itself for six years after 1998 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\] \[[DOD 4120.15-L, Model Designation of Military Aerospace Vehicles][ref_dod_412015l]\].
 
-## Why a Sonic Boom Is Loud, and Why That Might Be a Choice
+### Why a Sonic Boom Is Loud, and Why That Might Be a Choice
 
 **An aeroplane in supersonic flight does not make a noise. It makes a shape, and the shape becomes a noise on the way down.**
 
@@ -74,7 +80,13 @@ $$I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max}
 
 **Which suggests the question this whole subject rests on.** If the N-wave forms because strong shocks overtake weak ones, could an aeroplane be shaped so that the overtaking never finishes?
 
-## The Mathematics of Choosing a Shape
+## Programme Origin
+
+**The X-54 did not begin with its designation in 2008, and its record runs back through three lines of earlier work.** The first is the minimisation theory, which was complete and validated in a wind tunnel by 1979. The second is flight evidence, being the Shaped Sonic Boom Demonstration of 2003 and the Quiet Spike flights of 2006 and 2007, together with the Gulfstream studies, patent and papers from 2003 onward \[[A Summary of Recent Supersonic Vehicle Studies at Gulfstream Aerospace][research_wolz_gulfstream_studies]\]. The third is the prohibition of 1973 that the registry entry names as its purpose \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
+
+**The record reviewed here shows how the case for the aeroplane was argued, and it does not contain the decision that turned the case into an allocation.** The subsections gathered under this heading follow those three lines in turn.
+
+### The Mathematics of Choosing a Shape
 
 **The answer is yes in principle and the theory is older than the prohibition.**
 
@@ -126,26 +138,7 @@ $$D \;=\; -\frac{q}{2\pi}\int_{0}^{l}\!\!\int_{0}^{l} A_e''(x_{1})\,A_e''(x_{2})
 
 **By 1979 the theory was complete, validated in a tunnel, and reduced to design charts** \[[Status of sonic boom methodology and understanding][research_boom_methodology_status]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\]. **The X-54 was designated twenty-nine years later.**
 
-## The Medium, Because Every Number Here Is Taken From It
-
-**Every altitude, Mach number and dynamic pressure in this article is computed in the standard atmosphere, and the relations are worth putting on the page rather than assuming.**
-
-Below the tropopause the temperature falls linearly and hydrostatic equilibrium in a perfect gas fixes the pressure \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\],
-
-$$T(z) \;=\; T_{0} - Lz, \qquad
-p(z) \;=\; p_{0}\left(\frac{T(z)}{T_{0}}\right)^{g/LR},$$
-
-with $L = 0.0065$ kelvin per metre giving an exponent of 5.2559. Above it the temperature is constant to a first approximation and the pressure falls exponentially with a scale height of 6,341.6 metres \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere_1976]\],
-
-$$p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].$$
-
-**The dynamic pressure follows from the pressure and the Mach number alone**, which is the form worth carrying because a flight test report states both \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]\],
-
-$$q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.$$
-
-**That relation is also a check on the record and the record passes it.** The Quiet Spike report gives a design dynamic pressure of 685 pounds per square foot and a design Mach number of 1.8 at 45,000 feet. **Inverting the relation at that altitude gives Mach 1.782**, which agrees with the stated figure to within the rounding of the inputs.
-
-## What Had Already Been Proved by 2008
+### What Had Already Been Proved by 2008
 
 **One thing had been proved and it had been proved convincingly.**
 
@@ -155,7 +148,7 @@ On 27 August 2003 a Northrop Grumman F-5E with a reshaped nose glove flew supers
 
 **What it did not establish is that a useful aeroplane can be built that way.** The F-5E was modified in the nose only, its shaping applied to the forward portion of the signature, and it was not a design anybody would fly passengers in. **The demonstration proved the physics and left the engineering open.**
 
-## What Had Not Been Proved, and the Programme Said So in Advance
+### What Had Not Been Proved, and the Programme Said So in Advance
 
 **Gulfstream had been arguing for this aeroplane in public since 2003 and the argument is on the record.** The company published a summary of its supersonic vehicle studies that year \[[A Summary of Recent Supersonic Vehicle Studies at Gulfstream Aerospace][research_wolz_gulfstream_studies]\], a shaping method that does not assume an axisymmetric body \[[Sonic Boom Reduction Through the Use of Non-Axisymmetric Configuration Shaping][research_howe_nonaxisymmetric]\], and a case for the small supersonic civil aircraft as a class \[[Case for Small Supersonic Civil Aircraft][research_henne_small_ssc]\]. **The extendable spike was patented in March 2004** \[[US Patent 6,698,684 B1, Supersonic Aircraft with Spike for Controlling and Reducing Sonic Boom][ref_quiet_spike_patent]\], and the minimisation argument for it was published the following year \[[Improved Sonic Boom Minimization with Extendable Nose Spike][research_howe_extendable_spike]\] \[[Morphing Concept for Quiet Supersonic Jet Boom Mitigation][research_simmons_morphing]\].
 
@@ -181,7 +174,46 @@ The Quiet Spike was a telescoping composite nose boom, extending from 14.15 feet
 
 **The registry entry then asks for exactly the thing the Quiet Spike report says cannot be got any other way.** `Capable of generating relevant ground sonic boom signatures.`
 
-## The Arithmetic the Report Set Out and Did Not Perform
+### The Rule
+
+**The prohibition the X-54 was designated to help lift is one sentence long and it dates from 1973** \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
+
+It forbids a civil aircraft from exceeding Mach 1 over the United States, except under a special flight authorisation issued case by case \[[14 CFR 91.818, Special Flight Authorizations for Supersonic Aircraft][ref_cfr_91818]\]. **It is not a noise limit.** It is a speed limit, adopted because the agency judged that the monitoring and control technology of the time could not support anything more discriminating.
+
+**That distinction is the whole of the regulatory problem.** A speed limit cannot be met by a quiet aeroplane, because the aeroplane's quietness is not a fact the rule can see. **Any aeroplane that wants to fly supersonic over land needs the rule replaced and not satisfied**, and replacing it requires evidence about people rather than evidence about aeroplanes.
+
+**The rule outlived the aeroplanes it was written for.** Concorde never operated supersonically over the United States, and the American supersonic transport was cancelled in 1971, two years before the prohibition took effect \[[Concorde][ref_concorde]\] \[[Boeing 2707][ref_boeing_2707]\].
+
+**On 6 June 2025 the President ordered it repealed** \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. The order directs the Federal Aviation Administration to take the necessary steps to repeal the prohibition within 180 days and to establish an interim noise-based certification standard in its place \[[Supersonic Flight, Federal Aviation Administration][ref_faa_supersonic]\].
+
+**That deadline expires on 3 December 2025**, which is four days after the date on this article. **The prohibition had stood for 52.2 years when the order came**, and the order itself came 17.1 years after an aeroplane was designated to gather evidence for exactly this outcome.
+
+## Sizing From First Principles
+
+**There was no X-54 to size.** No airframe was built, and the registry records only the contractor, the sponsor and two Rolls-Royce Tay 651 engines \[[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The cruise Mach number, altitude and perceived-level target attributed to the intended aeroplane come from the secondary record, and they are set out under the heading Dependent Systems, What the X-54 Would Have Been.
+
+**What can be sized from first principles is the boom.** The subsections gathered under this heading compute the atmosphere the article works in, the distance over which a shaped nose signature is consumed by the aeroplane behind it, what the atmosphere does to a signature on the way down, the units a boom is measured in, and the cutoff Mach number below which no boom reaches the ground. **Every one of those numbers is computed in this article rather than taken from a source**, as the section headed Epistemic State records.
+
+### The Medium, Because Every Number Here Is Taken From It
+
+**Every altitude, Mach number and dynamic pressure in this article is computed in the standard atmosphere, and the relations are worth putting on the page rather than assuming.**
+
+Below the tropopause the temperature falls linearly and hydrostatic equilibrium in a perfect gas fixes the pressure \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\],
+
+$$T(z) \;=\; T_{0} - Lz, \qquad
+p(z) \;=\; p_{0}\left(\frac{T(z)}{T_{0}}\right)^{g/LR},$$
+
+with $L = 0.0065$ kelvin per metre giving an exponent of 5.2559. Above it the temperature is constant to a first approximation and the pressure falls exponentially with a scale height of 6,341.6 metres \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere_1976]\],
+
+$$p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].$$
+
+**The dynamic pressure follows from the pressure and the Mach number alone**, which is the form worth carrying because a flight test report states both \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]\],
+
+$$q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.$$
+
+**That relation is also a check on the record and the record passes it.** The Quiet Spike report gives a design dynamic pressure of 685 pounds per square foot and a design Mach number of 1.8 at 45,000 feet. **Inverting the relation at that altitude gives Mach 1.782**, which agrees with the stated figure to within the rounding of the inputs.
+
+### The Arithmetic the Report Set Out and Did Not Perform
 
 **`A short distance below the flight path` is a quantity, and weak-shock theory gives it.**
 
@@ -215,7 +247,7 @@ $$r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.$$
 
 **The assumed shock-strength difference is an assumption and this article will not pretend otherwise.** The record does not publish the near-field overpressures of the F-15B with the spike fitted in a form this calculation can consume directly. **On this plane-wave estimate the conclusion looks independent of the assumption**, since the coalescence completes in the first tenth of the journey across the whole range. **The next subsection shows that appearance to be an artefact of the plane-wave assumption.**
 
-### The Spreading Correction, Which Changes the Answer at One End
+#### The Spreading Correction, Which Changes the Answer at One End
 
 **The estimate above is a plane-wave result and a real boom spreads.** Both shocks weaken with distance, roughly as $r^{-1/2}$ before the wave has aged, so the closing rate falls as they travel and the coalescence takes longer than the plane-wave figure.
 
@@ -243,7 +275,7 @@ where $\mathcal{L}$ is exactly the plane-wave answer above and $r_{0}$ is the di
 
 **The finding stands where it matters and it is not universal**, and the table is the honest form of it.
 
-## Whether the Shape Survives the Trip
+### Whether the Shape Survives the Trip
 
 **Even for an aeroplane shaped all the way to the tail, the ground signature is not the design signature.**
 
@@ -271,7 +303,7 @@ The propagation codes that carry this work are the space agency's own, and they 
 
 **Manoeuvring makes it worse in a specific and well-studied way.** An accelerating or turning aeroplane focuses its rays, and where they cross, the ground receives a superboom several times the level of the steady-flight carpet \[[Superboom Caustic Analysis and Measurement Program (SCAMP) Final Report][research_scamp_superboom]\]. **A regulation written around steady cruise has to say something about the corners.**
 
-## What the Boom Is Measured In
+### What the Boom Is Measured In
 
 **A pressure is not a loudness, and the rule is about loudness.**
 
@@ -313,21 +345,7 @@ $$\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{t_{\mathrm{ref}}}\int \frac{p^{
 
 **Three years after the X-54 was designated to supply the stimulus, the stimulus was being faked with a dive.**
 
-## The Rule
-
-**The prohibition the X-54 was designated to help lift is one sentence long and it dates from 1973** \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
-
-It forbids a civil aircraft from exceeding Mach 1 over the United States, except under a special flight authorisation issued case by case \[[14 CFR 91.818, Special Flight Authorizations for Supersonic Aircraft][ref_cfr_91818]\]. **It is not a noise limit.** It is a speed limit, adopted because the agency judged that the monitoring and control technology of the time could not support anything more discriminating.
-
-**That distinction is the whole of the regulatory problem.** A speed limit cannot be met by a quiet aeroplane, because the aeroplane's quietness is not a fact the rule can see. **Any aeroplane that wants to fly supersonic over land needs the rule replaced and not satisfied**, and replacing it requires evidence about people rather than evidence about aeroplanes.
-
-**The rule outlived the aeroplanes it was written for.** Concorde never operated supersonically over the United States, and the American supersonic transport was cancelled in 1971, two years before the prohibition took effect \[[Concorde][ref_concorde]\] \[[Boeing 2707][ref_boeing_2707]\].
-
-**On 6 June 2025 the President ordered it repealed** \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. The order directs the Federal Aviation Administration to take the necessary steps to repeal the prohibition within 180 days and to establish an interim noise-based certification standard in its place \[[Supersonic Flight, Federal Aviation Administration][ref_faa_supersonic]\].
-
-**That deadline expires on 3 December 2025**, which is four days after the date on this article. **The prohibition had stood for 52.2 years when the order came**, and the order itself came 17.1 years after an aeroplane was designated to gather evidence for exactly this outcome.
-
-## The Alternative That Never Needed the Aeroplane
+### The Alternative That Never Needed the Aeroplane
 
 **There is a second way to fly supersonic without booming anybody, and it has nothing to do with shaping.**
 
@@ -367,7 +385,7 @@ $$M\cos\phi \;\ge\; M_{\mathrm{co}}
 
 **Mach cutoff needs no low-boom aeroplane, no shaped signature and no new airframe.** It needs a temperature profile and a willingness to fly slowly. **It is the cheaper answer to the same question, and it is the one that was available.**
 
-## What the X-54 Would Have Been
+## Dependent Systems, What the X-54 Would Have Been
 
 **The registry gives the engines and almost nothing else** \[[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\].
 
@@ -377,7 +395,17 @@ At 50,000 feet and Mach 1.4 exactly, which is the floor of that range, the true 
 
 **Why it was not built is not in the record this article can reach.** A trade press account holds that the agency regarded the designation as a placeholder and was not actively working with the manufacturer on the aircraft \[[Gulfstream X-54][ref_x54_wikipedia]\]. **That is a secondary claim from a single reported source and it is repeated here as one.** No primary document reviewed for this article states a cancellation, a funding decision or a programme termination, and the honest position is that the number was allocated and nothing followed it.
 
-## What Followed Instead
+## The Flight Test Record, Which Is Empty for the X-54
+
+**The X-54 never flew, and there is no flight test record of it to report.** No airframe exists and no flight test report was written. The flights that bear on its question were flown by other aeroplanes, and the article reports them as evidence about the question rather than about the X-54.
+
+**The Shaped Sonic Boom Demonstration supplied the only shaped ground signature measured before the designation.** A modified F-5E flew supersonic over Edwards Air Force Base on 27 August 2003, and the signature measured on the ground kept its flat top \[[Origins and Overview of the Shaped Sonic Boom Demonstration Program][research_ssbd_origins]\].
+
+**The Quiet Spike supplied near-field data and no ground data.** It flew thirty-two flights on a NASA F-15B between August 2006 and February 2007, reached Mach 1.8, and was probed in the near field by a second aeroplane at Mach 1.4, and its report states that a ground measurement was not attempted \[[Flight Testing of the Gulfstream Quiet Spike on a NASA F-15B][research_quiet_spike_flight_test]\]. The community response pilot of 2011 used a fighter in a dive rather than a shaped aeroplane, as the subsection headed What the Boom Is Measured In records.
+
+**The flight the X-54 was designated to make was eventually made by the X-59**, and the subsection headed What Followed Instead records it.
+
+### What Followed Instead
 
 **The ground signature demonstration eventually happened, and it happened under a different number and a different contractor.** The X-59 was designated in 2018 to Lockheed Martin for the low-boom flight demonstration mission, described in its own registry entry as a research aircraft that will create a shaped sonic boom signature \[[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[Lockheed Martin X-59 Quesst][ref_x59]\] \[[An Overview of NASA's Low Boom Flight Demonstration][research_lbfd_overview]\] \[[An Overview of NASA Sonic Boom Flight Research, What NASA is Doing to Fix the Sound Barrier][research_boom_flight_research_overview]\].
 
@@ -389,67 +417,35 @@ The later programme's design target is stated in perceived level rather than pre
 
 **So the X-54's mission was not abandoned. It was reassigned.** Ten years passed between the two allocations, five and a half more before the replacement aeroplane was rolled out, and another twenty-one months before it flew. **It first flew one month before the date on this article, and seventeen years after the number that was supposed to do its job was allocated to somebody else.**
 
-## The Source Base
+## Comparison With Ground Prediction
 
-**The eighty-four curated sources that carry the argument and the 3,143 that map the field are different things, and this article keeps them apart on purpose.**
+**For the X-54 itself there is nothing to compare, because nothing flew.** The only prediction attached to the intended aeroplane is the secondary record's ground signature under 75 perceived-level decibels \[[Gulfstream X-54][ref_x54_wikipedia]\], and no flight ever returned a measurement against it.
 
-**The evidentiary base is unusually documentary for an article about an aeroplane.** Eighty-four curated references, seven books and twenty-seven reference sources carry every claim made here, and the ones that matter most are a designation registry, an executive order and a flight test report that states in plain words why the experiment it describes could not produce the result its successor was designated to produce. **Those are not commentary on the evidence. They are the evidence.**
+**The programmes the X-54 descended from do supply comparisons, and the article argues each where it arises.** The 1979 tunnel investigation found that a body designed by the minimisation method behaved as the method said it would \[[Wind-tunnel investigation of the validity of a sonic-boom-minimization concept][research_mack_darden_tunnel]\], which the subsection headed The Mathematics of Choosing a Shape sets out. The Shaped Sonic Boom Demonstration measured on the ground the flat-topped signature that four decades of wind-tunnel work at the agency's Virginia laboratory had predicted \[[Airborne Shaped Sonic Boom Demonstration Pressure Measurements with Computational Fluid Dynamics Comparisons][research_ssbd_pressure_cfd]\], under the heading What Had Already Been Proved by 2008.
 
-**The survey base was harvested and none of it is cited in support of any claim about the X-54.** 9,521 records were retrieved across three sweeps, 3,273 passed the subject gate, and 3,143 reach the reference list after duplicate registrations were removed. **There is nothing in it about the aeroplane, because the aeroplane was never built and produced no literature at all.**
+**The Quiet Spike's stability prediction is the clearest case of flight overturning a ground estimate.** The spike was predicted to cost the host aeroplane three to five percent of its stability subsonically and between three and twenty-four percent supersonically in the lateral-directional axis. Flight found the aeroplane more stable than a standard F-15 by Mach 1.8, and the limit was set instead by pitch damping, which fell away sharply above Mach 1.7 \[[Quiet Spike Prototype Flight Test Results][research_quiet_spike_prototype_results]\]. The subsection headed What Had Not Been Proved, and the Programme Said So in Advance argues it. The design dynamic pressure of 685 pounds per square foot is consistent with the stated Mach 1.8 at 45,000 feet, which the subsection headed The Medium, Because Every Number Here Is Taken From It checks.
 
-### The Pool
+**The coalescence estimate is a ground prediction that no flight has tested.** The Quiet Spike report predicted that the host aeroplane's shocks would overtake the spike's shocklets within a short distance, and it attempted no ground measurement. The arithmetic under the heading The Arithmetic the Report Set Out and Did Not Perform supports that prediction for strength differences of 0.02 and above and not at 0.01, and no flight datum in this article confirms or refutes either result.
 
-**Three sweeps, and the two supplementary ones are reported separately because each returned a measurement rather than padding.** The main harvest retrieved 4,497 records from the scholarly registry, 133 from the space agency's report server and 778 from the defence registry, for 5,408. A sweep aimed at three thin conclusions retrieved 2,881 more, of which 2,009 were not already held. **A third sweep aimed squarely at the report registries retrieved 1,232**, being 70 from the space agency and 1,162 from the defence registry, of which 769 were fresh and 66 passed the gate. **9,521 records in total.**
+**The comparison the X-54 was designated to make belongs to the X-59**, a predicted shaped ground signature beside a measured one from an aeroplane shaped all the way to the tail. At this article's date that aeroplane had made its first flight one month earlier, and the article reports no such comparison.
 
-**Every sweep is gated with one instrument and they are re-gated together whenever the store changes.** A pattern added to the store is global, so re-gating only the sweep that motivated it would leave the corpus as the union of two instruments.
+## What the Data Changed
 
-**3,273 passed the subject gate and 3,143 survived deduplication into the reference list, across eleven clusters.**
+**Seven things changed while this article was being written and every one came from measurement rather than reading. Three of them changed a conclusion this article had already drawn.**
 
-### The Sweep Store Predicted Wrong, and It Was Wrong in a Way Worth Recording
+**The first is the coalescence distance.** The draft reproduced the flight test report's statement that the aeroplane's own shocks would overtake the spike's shocklets within a short distance, and treated that as the finding. **It is not the finding. It is the input to one.** Weak-shock theory turns `a short distance` into a number. **A source that has done the measuring has not necessarily done the arithmetic**, which is the lesson the previous article in this series paid for in a table of actuator forces.
 
-**The shared sweep store predicted wrong here, and the prediction is worth stating because it was written down before the measurement.** The harvest script says the subject is aeronautical and the store is aeronautical, so no family should need switching off. **Thirteen did.**
+**The second is that the first version of that arithmetic divided by the wrong distance.** A boom does not travel straight down. The ray leaves normal to the Mach cone and makes the Mach angle with the vertical, so the path from 45,000 feet at Mach 1.4 is 19,598 metres and not 13,716. **Every percentage in the first version was too large by 42.9 percent**, and the error was in the direction that flattered the argument.
 
-**Measured with one instrument on both settings, which is the only kind of comparison that means anything.** Fully armed, the store dropped 607 records and the gate then kept 3,146. With thirteen tagged families switched off, it dropped 198 and the gate kept 3,273. **So 409 records returned to the pool and 127 of them reached the corpus.**
+**The third is that the conclusion is narrower than the draft claimed.** The plane-wave estimate made the finding look independent of the assumed shock strength, and adding geometric spreading shows that it is not. **At the weakest strength in the range the coalescence never completes**, reaching 40.18 kilometres against 19,598 metres of ray path. It completes at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **The finding stands for the aeroplane the report was written about and is not a general truth about spikes**, and the draft did not say so because the draft had not done the correction.
 
-**Among the records the armed store deleted were `Underwater measurements of a sonic boom`, `Meteorologically Induced Variability of Sonic Boom of a Supersonic Aircraft`, `Standard Atmospheric Profiles` citing the 1976 standard atmosphere, and the whole community-noise exposure-response literature.** Every one of those patterns was earned honestly by an earlier sweep whose subject was an aeroplane. **The store is about aeroplanes and this article is about a noise**, and community-noise research is a single methodological field in which railways, roads and wind turbines are cases beside aircraft rather than contaminants of it.
+**The fourth is that the sweep store was wrong here and the harvest script had predicted it would be right.** The prediction was written into the script before the harvest and is still there, which is the only reason the refutation is legible. **An aeronautical store failed an aeronautical subject** because the subject is a noise and the store had only ever met community-noise research as contamination.
 
-**Eleven tag families were added to the store by this article**, taking it from six to seventeen, and twenty-two patterns are switched off by name out of the 132 the store holds. **`ramjet` is deliberately left armed**, because its recorded incident is that ramjet engine literature contaminates aerodynamic sweeps and that reasoning holds here. **The residual cost of the families left armed is 33 records**, and it is reported rather than filtered away.
+**The fifth is that the technique which changed the rule was flown before the rule existed.** The article had it as a modern alternative, measured by the space agency in 2012. **Signatures at cutoff Mach number were in fact measured in flight and published in 1971** \[[Measurements of sonic boom signatures from flights at cutoff Mach number][research_maglieri_cutoff]\], which is two years before the prohibition took effect. **That was found by reading a bibliography rather than by sweeping**, and it changes the shape of the story from a new technique overtaking an old aeroplane to an old technique outlasting one.
 
-**A second pattern covered a family that had already been tagged, and it stayed armed.** The wind-turbine community-noise literature was still being deleted after the wind-energy tag was applied, because two separate entries in the store match that family and only one of them carried the tag. **That is precisely the failure the tag mechanism was built to prevent**, met from a direction the mechanism does not cover, since a tag switches off **one pattern** while a contaminant family can be spread across several. **It was found by measuring the residual and not by reading the store.**
+**The sixth is a finding that was about to be published and was false.** On the main sweep alone, the mechanism that actually changed the rule measured 17 records against a pool of 2,693, and the shaping mechanism that did not change the rule measured 295. **That contrast was going to be reported.** A supplementary sweep aimed at it returned 87, and the contrast evaporated. **The first pool was not asked about Mach cutoff, and a pool that was not asked returns an absence indistinguishable from one that was.**
 
-### Primary Documents
-
-**The report-primary fraction is 12.1 percent, being 380 records of 3,143.** It counts identifiers issued by the space agency's report server and the defence technical information centre.
-
-**The largest gain came from reading the programmes' own bibliographies rather than from sweeping.** The Quiet Spike flight test report, the shaped-boom demonstration paper and the cutoff investigation each name the documents they were built on, and this article had been using their accounts of those documents without pointing at any of them. **The curated set went from forty-two to eighty-four**, and the additions are the Gulfstream design chain from 2003 to 2009, the classical minimisation and propagation literature from 1956 to 1979, the human-response experiments the loudness procedure was calibrated against, and the standard atmosphere the article computes in.
-
-**The measure sees most of this article's primary documents and misses the four that decide it.** A designation registry, an executive order, a part of the code of federal regulations and a patent carry no identifier the measure can read, and those four are what the argument turns on. **The count of named primary documents is reported beside the fraction rather than instead of it**, and the measure is not adjusted to flatter the number.
-
-### The Age of the Literature Is Itself a Finding
-
-**The literature of this subject has a shape, and the shape is the funding history.** 2,967 of the 3,143 research records carry a year, and their median is 2008.
-
-**Publication ran at 31.8 records a year through the 1970s, fell to 19.2 through the 1980s, and has grown every decade since to 101.0 in the 2020s.** The trough is 60.4 percent of the peak that preceded it, and the present rate is 5.3 times the trough. **The American supersonic transport was cancelled in 1971 and the prohibition took effect in 1973**, and the decade that follows those two dates is the only one in this corpus in which the subject shrank.
-
-**The corpus is split almost evenly between the recent and the old.** 36.8 percent of the dated records were published in 2015 or later and 38.4 percent before 2000, which is a field with a long memory and an active present rather than either alone.
-
-**The report primaries are a generation older than the survey and that is the most useful number in this section.** Their median year is 1982 against 2008 for the corpus, a gap of 26 years. **The agency did this work in the 1960s and 1970s and published it as reports**, and the contemporary literature is journal and conference work that cites those reports rather than replacing them. A report-primary fraction of 12.1 percent in a corpus whose median is 2008 is therefore reporting something about when the subject was funded rather than about how this article was researched.
-
-### The Regulatory Shelf Is the Thinnest in a Survey About a Regulation
-
-**Forty-six records of 3,143, or 1.5 percent, are about the rule.** That is the smallest cluster in the survey and it is the most useful number in this section. **The aeroplane's registry entry names a regulatory change process as its purpose, and the regulatory literature is the thinnest shelf in a survey of its subject**, while 531 records, or 16.9 percent, are about what the noise does to the people who hear it. **The evidence a rulemaking actually consumes is human-response evidence**, and this article's aeroplane was designated to produce the stimulus for it.
-
-### Conclusions Probed Against the Pool
-
-**Ten conclusions were probed against the pool, both in the author's words and in the field's, and the two columns are reported separately because they are different moves.**
-
-**The one that mattered most was thin and the sweep opened it.** The claim that a boom can be kept off the ground entirely, rather than made quiet, stood at 24 records on the plain wording and 17 on the field's within the main sweep of 2,693. **A supplementary harvest took it to 87.** So the rewording did almost nothing and the sweep did the work, and reporting only the endpoints would have credited the vocabulary with the harvest's result.
-
-**That matters because it nearly became a finding.** On the first measurement this article was going to report that the mechanism which actually changed the rule is less studied than the mechanism that did not. **It is not, and the first pool was simply not asked.**
-
-**One probe was mis-instrumented and reading the output found it.** The indoor response probe was written with a field wording **narrower** than the plain one, so it reported a shelf that shrank on restatement. **A rephrasing that loses records is a worse instrument and not a smaller field**, and the second column is now required to be a superset of the first.
-
-**Two conclusions remain thin and the article says so.** The first is that a shaped nose on an otherwise ordinary aeroplane cannot deliver a shaped ground signature, which stands at 41 records. **It rests on a primary document rather than on the survey**, being the flight test report of the programme that decided not to attempt it, and on an arithmetic that report did not perform. The second is that the rule is the deliverable and the aeroplane the evidence for it, at 57 records. **A342 measured span of control at eleven and left it, A347 measured where analysis effort goes at 65 and left it, and A348 left a claim at 34.** What is forbidden is not knowing.
+**The seventh is that the article was leaning on documents it had read and not cited.** The Quiet Spike flight test report, the shaped-boom demonstration paper and the cutoff investigation each carry a bibliography naming the work they were built on, and this article had been using their accounts of those documents rather than the documents. **Reading the three bibliographies doubled the curated set**, and what it added was the Gulfstream design chain from 2003 to 2009, the classical minimisation and propagation literature from 1956 to 1979, and the human-response experiments the loudness procedure was calibrated against.
 
 ## The Contemporary Literature
 
@@ -534,23 +530,77 @@ The later programme's design target is stated in perceived level rather than pre
 
 **46 records.** \[[Abeyratne 2001][research_abeyratne_2001]\] \[[Albert et al 2017][research_albert_bousquet_2017]\] \[[Baeva et al 2023][research_baeva_pochkin_2023]\] \[[Bentley 2024][research_bentley_2024]\] \[[Berton, Jeffrey J. et al 2017][research_bertonjeffreyj_jonesscottm_2017]\] \[[Bolt Beranek And Newman Inc Los Angeles Ca 1965][research_boltberanekandnewmaninclosangelesca_1965]\] \[[Brentner et al 2013][research_brentner_snider_2013]\] \[[Callaway and Peart 1976][research_callaway_peart_1976]\] \[[Carlsson 1999][research_carlsson_1999]\] \[[Connor et al 2024][research_connor_holsclaw_2024]\] \[[Electroacoustics. Instruments for measurement][research_electroacoustics_instruments]\] \[[Fidell and Mestre 2020][research_fidell_mestre_2020]\] \[[Fish and Haight 1976][research_fish_haight_1976]\] \[[Galloway 1971][research_galloway_1971_b]\] \[[Gangadhara 2026][research_gangadhara_2026]\] \[[Gardner 1978][research_gardner_1978]\] \[[Hardesty et al 1996][research_hardesty_janakiram_1996]\] \[[Harris 1978][research_harris_1978]\] \[[Heller 1984][research_heller_1984]\] \[[Herbert][research_herbert]\] \[[ICAO Standard Atmosphere 2021][research_icao_standard_2021]\] \[[J.Torija 2018][research_jtorija_2018]\] \[[Jin et al 2022][research_jin_sun_2022]\] \[[Jurin and Pavlovic 2005][research_jurin_pavlovic_2005]\] \[[Khorrami and Fares 2019][research_khorrami_fares_2019]\] \[[Kutahya 2026][research_kutahya_2026]\] \[[Lappas and Pergamalis 2019][research_lappas_pergamalis_2019]\] \[[Larsen et al 2012][research_larsen_sweeney_2012]\] \[[McPike 1976][research_mcpike_1976]\] \[[Metzger and Foley 1970][research_metzger_foley_1970]\] \[[Milde 1978][research_milde_1978]\] \[[Noeding et al 2023][research_noeding_bertsch_2023]\] \[[Nöding and Bertsch 2021][research_noding_bertsch_2021]\] \[[Paullin 1973][research_paullin_1973]\] \[[Rolf 2000][research_rolf_2000]\] \[[Rötger et al 2023][research_rotger_eyers_2023]\] \[[Scata Jr. et al 2024][research_scatajr_scholten_2024]\] \[[Scheeper 2024][research_scheeper_2024]\] \[[Smith 1982][research_smith_1982]\] \[[Specification for electro-acoustical measuring][research_specification_for]\] \[[Sutherland 1980][research_sutherland_1980]\] \[[Truxal 2016][research_truxal_2016]\] \[[Tsay 2022][research_tsay_2022]\] \[[Von Glahn and Groesbeck 1981][research_vonglahn_groesbeck_1981]\] \[[Yun,Jong-Seol 2010][research_yunjongseol_2010]\] \[[Zhang et al 2024][research_zhang_li_2024]\]
 
-## What the Data Changed
+## Where the Framing Breaks Down
 
-**Seven things changed while this article was being written and every one came from measurement rather than reading. Three of them changed a conclusion this article had already drawn.**
+**This series reads an X-designation as a promise that something will be flown, and the X-54 breaks that reading in three places.**
 
-**The first is the coalescence distance.** The draft reproduced the flight test report's statement that the aeroplane's own shocks would overtake the spike's shocklets within a short distance, and treated that as the finding. **It is not the finding. It is the input to one.** Weak-shock theory turns `a short distance` into a number. **A source that has done the measuring has not necessarily done the arithmetic**, which is the lesson the previous article in this series paid for in a table of actuator forces.
+**The first is that the aeroplane was never built.** Its question was posed by a registry entry and answered, in so far as it has been answered, by a different aeroplane under a different number a decade later. **Why the X-54 was not built is not in the record this article can reach**, so the framing has no decision to examine.
 
-**The second is that the first version of that arithmetic divided by the wrong distance.** A boom does not travel straight down. The ray leaves normal to the Mach cone and makes the Mach angle with the vertical, so the path from 45,000 feet at Mach 1.4 is 19,598 metres and not 13,716. **Every percentage in the first version was too large by 42.9 percent**, and the error was in the direction that flattered the argument.
+**The second is that its question was regulatory, and the regulation moved without it.** The prohibition was ordered repealed by Executive Order 14304 on 6 June 2025 \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\], and the article argues that the technical basis for that repeal is Mach cutoff rather than shaping. Signatures at cutoff Mach number were measured in flight and published in 1971 \[[Measurements of sonic boom signatures from flights at cutoff Mach number][research_maglieri_cutoff]\]. The subsection headed The Alternative That Never Needed the Aeroplane sets out the argument. **An aeroplane justified by a rulemaking was overtaken by an older technique that needed no airframe.** Even the evidence a rulemaking consumes is human-response evidence, and the aeroplane would have supplied the stimulus for it rather than the evidence itself, as the subsection headed The Regulatory Shelf Is the Thinnest in a Survey About a Regulation records.
 
-**The third is that the conclusion is narrower than the draft claimed.** The plane-wave estimate made the finding look independent of the assumed shock strength, and adding geometric spreading shows that it is not. **At the weakest strength in the range the coalescence never completes**, reaching 40.18 kilometres against 19,598 metres of ray path. It completes at 0.02 and above, which is where an aeroplane the size of an F-15 sits. **The finding stands for the aeroplane the report was written about and is not a general truth about spikes**, and the draft did not say so because the draft had not done the correction.
+**The third is that the case for the aeroplane is narrower than the report that originated it.** The Quiet Spike report says the aeroplane's own shocks would overtake the spike's within a short distance. With geometric spreading the coalescence does not complete at a strength difference of 0.01, so the case holds for a host the size of an F-15 and is not a general truth about spikes. The subsection headed The Arithmetic the Report Set Out and Did Not Perform carries the calculation.
 
-**The fourth is that the sweep store was wrong here and the harvest script had predicted it would be right.** The prediction was written into the script before the harvest and is still there, which is the only reason the refutation is legible. **An aeronautical store failed an aeronautical subject** because the subject is a noise and the store had only ever met community-noise research as contamination.
+## The Source Base
 
-**The fifth is that the technique which changed the rule was flown before the rule existed.** The article had it as a modern alternative, measured by the space agency in 2012. **Signatures at cutoff Mach number were in fact measured in flight and published in 1971** \[[Measurements of sonic boom signatures from flights at cutoff Mach number][research_maglieri_cutoff]\], which is two years before the prohibition took effect. **That was found by reading a bibliography rather than by sweeping**, and it changes the shape of the story from a new technique overtaking an old aeroplane to an old technique outlasting one.
+**The eighty-four curated sources that carry the argument and the 3,143 that map the field are different things, and this article keeps them apart on purpose.**
 
-**The sixth is a finding that was about to be published and was false.** On the main sweep alone, the mechanism that actually changed the rule measured 17 records against a pool of 2,693, and the shaping mechanism that did not change the rule measured 295. **That contrast was going to be reported.** A supplementary sweep aimed at it returned 87, and the contrast evaporated. **The first pool was not asked about Mach cutoff, and a pool that was not asked returns an absence indistinguishable from one that was.**
+**The evidentiary base is unusually documentary for an article about an aeroplane.** Eighty-four curated references, seven books and twenty-seven reference sources carry every claim made here, and the ones that matter most are a designation registry, an executive order and a flight test report that states in plain words why the experiment it describes could not produce the result its successor was designated to produce. **Those are not commentary on the evidence. They are the evidence.**
 
-**The seventh is that the article was leaning on documents it had read and not cited.** The Quiet Spike flight test report, the shaped-boom demonstration paper and the cutoff investigation each carry a bibliography naming the work they were built on, and this article had been using their accounts of those documents rather than the documents. **Reading the three bibliographies doubled the curated set**, and what it added was the Gulfstream design chain from 2003 to 2009, the classical minimisation and propagation literature from 1956 to 1979, and the human-response experiments the loudness procedure was calibrated against.
+**The survey base was harvested and none of it is cited in support of any claim about the X-54.** 9,521 records were retrieved across three sweeps, 3,273 passed the subject gate, and 3,143 reach the reference list after duplicate registrations were removed. **There is nothing in it about the aeroplane, because the aeroplane was never built and produced no literature at all.**
+
+### The Pool
+
+**Three sweeps, and the two supplementary ones are reported separately because each returned a measurement rather than padding.** The main harvest retrieved 4,497 records from the scholarly registry, 133 from the space agency's report server and 778 from the defence registry, for 5,408. A sweep aimed at three thin conclusions retrieved 2,881 more, of which 2,009 were not already held. **A third sweep aimed squarely at the report registries retrieved 1,232**, being 70 from the space agency and 1,162 from the defence registry, of which 769 were fresh and 66 passed the gate. **9,521 records in total.**
+
+**Every sweep is gated with one instrument and they are re-gated together whenever the store changes.** A pattern added to the store is global, so re-gating only the sweep that motivated it would leave the corpus as the union of two instruments.
+
+**3,273 passed the subject gate and 3,143 survived deduplication into the reference list, across eleven clusters.**
+
+### The Sweep Store Predicted Wrong, and It Was Wrong in a Way Worth Recording
+
+**The shared sweep store predicted wrong here, and the prediction is worth stating because it was written down before the measurement.** The harvest script says the subject is aeronautical and the store is aeronautical, so no family should need switching off. **Thirteen did.**
+
+**Measured with one instrument on both settings, which is the only kind of comparison that means anything.** Fully armed, the store dropped 607 records and the gate then kept 3,146. With thirteen tagged families switched off, it dropped 198 and the gate kept 3,273. **So 409 records returned to the pool and 127 of them reached the corpus.**
+
+**Among the records the armed store deleted were `Underwater measurements of a sonic boom`, `Meteorologically Induced Variability of Sonic Boom of a Supersonic Aircraft`, `Standard Atmospheric Profiles` citing the 1976 standard atmosphere, and the whole community-noise exposure-response literature.** Every one of those patterns was earned honestly by an earlier sweep whose subject was an aeroplane. **The store is about aeroplanes and this article is about a noise**, and community-noise research is a single methodological field in which railways, roads and wind turbines are cases beside aircraft rather than contaminants of it.
+
+**Eleven tag families were added to the store by this article**, taking it from six to seventeen, and twenty-two patterns are switched off by name out of the 132 the store holds. **`ramjet` is deliberately left armed**, because its recorded incident is that ramjet engine literature contaminates aerodynamic sweeps and that reasoning holds here. **The residual cost of the families left armed is 33 records**, and it is reported rather than filtered away.
+
+**A second pattern covered a family that had already been tagged, and it stayed armed.** The wind-turbine community-noise literature was still being deleted after the wind-energy tag was applied, because two separate entries in the store match that family and only one of them carried the tag. **That is precisely the failure the tag mechanism was built to prevent**, met from a direction the mechanism does not cover, since a tag switches off **one pattern** while a contaminant family can be spread across several. **It was found by measuring the residual and not by reading the store.**
+
+### Primary Documents
+
+**The report-primary fraction is 12.1 percent, being 380 records of 3,143.** It counts identifiers issued by the space agency's report server and the defence technical information centre.
+
+**The largest gain came from reading the programmes' own bibliographies rather than from sweeping.** The Quiet Spike flight test report, the shaped-boom demonstration paper and the cutoff investigation each name the documents they were built on, and this article had been using their accounts of those documents without pointing at any of them. **The curated set went from forty-two to eighty-four**, and the additions are the Gulfstream design chain from 2003 to 2009, the classical minimisation and propagation literature from 1956 to 1979, the human-response experiments the loudness procedure was calibrated against, and the standard atmosphere the article computes in.
+
+**The measure sees most of this article's primary documents and misses the four that decide it.** A designation registry, an executive order, a part of the code of federal regulations and a patent carry no identifier the measure can read, and those four are what the argument turns on. **The count of named primary documents is reported beside the fraction rather than instead of it**, and the measure is not adjusted to flatter the number.
+
+### The Age of the Literature Is Itself a Finding
+
+**The literature of this subject has a shape, and the shape is the funding history.** 2,967 of the 3,143 research records carry a year, and their median is 2008.
+
+**Publication ran at 31.8 records a year through the 1970s, fell to 19.2 through the 1980s, and has grown every decade since to 101.0 in the 2020s.** The trough is 60.4 percent of the peak that preceded it, and the present rate is 5.3 times the trough. **The American supersonic transport was cancelled in 1971 and the prohibition took effect in 1973**, and the decade that follows those two dates is the only one in this corpus in which the subject shrank.
+
+**The corpus is split almost evenly between the recent and the old.** 36.8 percent of the dated records were published in 2015 or later and 38.4 percent before 2000, which is a field with a long memory and an active present rather than either alone.
+
+**The report primaries are a generation older than the survey and that is the most useful number in this section.** Their median year is 1982 against 2008 for the corpus, a gap of 26 years. **The agency did this work in the 1960s and 1970s and published it as reports**, and the contemporary literature is journal and conference work that cites those reports rather than replacing them. A report-primary fraction of 12.1 percent in a corpus whose median is 2008 is therefore reporting something about when the subject was funded rather than about how this article was researched.
+
+### The Regulatory Shelf Is the Thinnest in a Survey About a Regulation
+
+**Forty-six records of 3,143, or 1.5 percent, are about the rule.** That is the smallest cluster in the survey and it is the most useful number in this section. **The aeroplane's registry entry names a regulatory change process as its purpose, and the regulatory literature is the thinnest shelf in a survey of its subject**, while 531 records, or 16.9 percent, are about what the noise does to the people who hear it. **The evidence a rulemaking actually consumes is human-response evidence**, and this article's aeroplane was designated to produce the stimulus for it.
+
+### Conclusions Probed Against the Pool
+
+**Ten conclusions were probed against the pool, both in the author's words and in the field's, and the two columns are reported separately because they are different moves.**
+
+**The one that mattered most was thin and the sweep opened it.** The claim that a boom can be kept off the ground entirely, rather than made quiet, stood at 24 records on the plain wording and 17 on the field's within the main sweep of 2,693. **A supplementary harvest took it to 87.** So the rewording did almost nothing and the sweep did the work, and reporting only the endpoints would have credited the vocabulary with the harvest's result.
+
+**That matters because it nearly became a finding.** On the first measurement this article was going to report that the mechanism which actually changed the rule is less studied than the mechanism that did not. **It is not, and the first pool was simply not asked.**
+
+**One probe was mis-instrumented and reading the output found it.** The indoor response probe was written with a field wording **narrower** than the plain one, so it reported a shelf that shrank on restatement. **A rephrasing that loses records is a worse instrument and not a smaller field**, and the second column is now required to be a superset of the first.
+
+**Two conclusions remain thin and the article says so.** The first is that a shaped nose on an otherwise ordinary aeroplane cannot deliver a shaped ground signature, which stands at 41 records. **It rests on a primary document rather than on the survey**, being the flight test report of the programme that decided not to attempt it, and on an arithmetic that report did not perform. The second is that the rule is the deliverable and the aeroplane the evidence for it, at 57 records. **A342 measured span of control at eleven and left it, A347 measured where analysis effort goes at 65 and left it, and A348 left a claim at 34.** What is forbidden is not knowing.
 
 ## Epistemic State
 

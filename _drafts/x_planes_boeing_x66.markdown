@@ -1317,7 +1317,23 @@ What was actually accomplished is nonetheless substantial and is not flight test
 
 **The roster this series maintains still carries 2028 as the X-66A's first-flight year**, which the agreement's Milestone 24 gives as **September 2028**. That is the date a reader will find in secondary sources and it is the date the primary instrument gives. **Neither has been revised in public and both are now known to be wrong**, which is a useful reminder that a designation register and a signed schedule are records of intent and not of fact.
 
-## What the Data Would Have Changed, and What the Programme Changed Anyway
+## Comparison With Ground Prediction
+
+**No X-66A flew, so flight returned nothing against which any ground prediction can be set.** The record holds a long series of predictions made by wind tunnel, by analysis and by contractor estimate, and every one of them still stands where the ground left it. This section gathers them and points to where each is argued.
+
+**The flutter prediction is the one the ground record itself contradicts.** Phase II tested an aeroelastic model in the Transonic Dynamics Tunnel and concluded that flutter speed and mechanism were analytically predictable and that the weight increment for flutter margin was small \[[SUGAR Phase IV final report][ref_cr_phase4]\]. Phase IV found no weight increase for flutter with the doublet-lattice method, and then found that correction factors from steady computational-fluid-dynamics solutions turned margins near forty percent at Mach 0.92 and 26,000 feet into several negative margins, the worst at minus 7.5 percent. **Two ground predictions of the same structure disagree about the sign, and no flight exists to say which is right.** The section headed Dependent Systems argues this in full.
+
+**The interference prediction is a wind-tunnel result with no flight counterpart.** Phase III reduced the interference between the wing and the strut to approximately one percent of total airplane drag at the design Mach number, using Navier-Stokes methods and a series of transonic wind-tunnel tests \[[SUGAR Phase IV final report][ref_cr_phase4]\]. That figure was never measured on an aeroplane in flight.
+
+**The buffet and low-speed predictions are ones the report itself declines to trust.** It states that buffet boundaries are derived from cantilever aircraft and are unvalidated for this configuration, that its low-speed data was gathered at very low Reynolds number, and that the ice-effects and in-ground-effect objectives were deferred to a later test entry. These are the questions a flight test was most needed to answer, and the section headed What the Data Changed sets them out as the things flight would have settled.
+
+**The performance predictions are contractor estimates compared only against other estimates.** The Phase IV report computed the truss-braced wing's own benefit as 7.2 percent in fuel burn per seat on a 900 nautical mile mission and 9.0 percent on a 3,500 nautical mile mission. The fair comparison by the NASA Ames team found 1.65 percent at the economic mission for a wing carrying its own fuel and 5.71 percent with body tanks allowed \[[Recine and others 2025][ref_recine_2025]\]. **That is a disagreement between two ground predictions, and it is the closest thing to a test of the headline number that the record contains.** No flight measured fuel burn on either mission.
+
+**This article's own predictions are also unchecked by flight.** The prediction that the Phase IV thinning and sweeping cost 28.7 percent in bending material lacks even a ground counterpart, because the Phase III structural weight is not published in the volume read here. The optimality conditions, the value of the fold and the drag-divergence margins are derived from published ground data and test nothing that flew.
+
+**The schedule was a prediction too.** The agreement's Milestone 24 placed first flight in September 2028 \[[Funded Space Act Agreement][ref_fsaa]\], and the section headed The Flight Test Record records that no aircraft exists to meet it. **The comparison this section exists to make is therefore empty, and its honest content is the list of predictions that a flight would have tested.**
+
+## What the Data Changed, or What It Would Have Changed and What the Programme Changed Anyway
 
 **The flight test would have settled four things and three of them are named in the primary record as open.**
 
@@ -1470,6 +1486,36 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 **And the thing it kept is the thing this article's analysis says was carrying the value.** The fold is worth 36.0 percent of lift-to-drag ratio and the remaining aerodynamic optimum is worth 0.9481 percent, so the truss's structural contribution is not where the fuel is. **The thin wing, which raises the drag-divergence Mach number and permits less sweep and therefore more laminar flow, is applicable to aeroplanes with and without truss braces**, which is what Boeing said when it redirected the effort and what the airport-operations memorandum had said about the physics a month earlier. **On this article's reading, the redirection kept the part of the concept that generalises and dropped the part that was specific to it.**
 
+## The Contemporary Literature
+
+**This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
+
+**The sweep behind this article admitted 4,744 records from a pool of 18,863, and assigned them across seventeen clusters, of which seventeen are non-empty.** The clusters are the shape of the field as this sweep found it.
+
+| Cluster | Records | What it holds |
+|---|---|---|
+| braced_wing | 309 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
+| aspect_ratio | 713 | the span and induced-drag trade, span loading, span efficiency |
+| alt_config | 522 | the joined wing, the box wing, the tandem wing, the blended wing body |
+| wing_weight | 105 | weight estimation, bending material, structural sizing and optimisation |
+| thin_transonic | 318 | thickness, sweep, drag divergence, supercritical sections |
+| aeroelastic | 1,195 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
+| gust_loads | 397 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
+| span_constraint | 38 | folding wingtips, airport compatibility, span limits |
+| laminar | 327 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
+| high_lift | 244 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
+| prop_integration | 246 | nacelle and wing interference, high bypass ratio, geared turbofans |
+| fuel_burn | 152 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
+| demonstrator | 159 | flight demonstrators, testbed aircraft, technology readiness |
+| ground_test | 292 | static and full-scale test, ground vibration, loads calibration, strain sensing |
+| mdo | 259 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
+| emissions | 236 | aviation emissions, net-zero targets, noise, contrails |
+| named | 41 | the programme and configuration designations themselves |
+
+**The largest cluster is aeroelasticity at 1,195 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 38 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-seven records against 1,195 for the thing that is not binding is a ratio worth sitting with.
+
+**The weight cluster is also thin at 105 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,195 papers on flutter and 105 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
+
 ## Where the Framing Breaks Down
 
 **This article has treated the X-66A through one keystone, being the aspect-ratio trade and the infrastructural constraint that truncates it. Five things that framing gets wrong are worth naming.**
@@ -1512,36 +1558,6 @@ manoeuvre this article describes is already certificated on a wide-body**, which
 reason to think the gate box is negotiable for an aeroplane worth negotiating for.
 
 **What the coincidence of margins does establish is weaker and still useful.** It establishes that **for this class of aeroplane, at this moment, the designers treated the boundary as fixed and designed to within inches of it twice**. That is a fact about the design process and about the economics of gate compatibility for a high-volume narrowbody, and it is not a claim about aerodynamics at all.
-
-## The Contemporary Literature
-
-**This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
-
-**The sweep behind this article admitted 4,744 records from a pool of 18,863, and assigned them across seventeen clusters, of which seventeen are non-empty.** The clusters are the shape of the field as this sweep found it.
-
-| Cluster | Records | What it holds |
-|---|---|---|
-| braced_wing | 309 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
-| aspect_ratio | 713 | the span and induced-drag trade, span loading, span efficiency |
-| alt_config | 522 | the joined wing, the box wing, the tandem wing, the blended wing body |
-| wing_weight | 105 | weight estimation, bending material, structural sizing and optimisation |
-| thin_transonic | 318 | thickness, sweep, drag divergence, supercritical sections |
-| aeroelastic | 1,195 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
-| gust_loads | 397 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
-| span_constraint | 38 | folding wingtips, airport compatibility, span limits |
-| laminar | 327 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
-| high_lift | 244 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
-| prop_integration | 246 | nacelle and wing interference, high bypass ratio, geared turbofans |
-| fuel_burn | 152 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
-| demonstrator | 159 | flight demonstrators, testbed aircraft, technology readiness |
-| ground_test | 292 | static and full-scale test, ground vibration, loads calibration, strain sensing |
-| mdo | 259 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
-| emissions | 236 | aviation emissions, net-zero targets, noise, contrails |
-| named | 41 | the programme and configuration designations themselves |
-
-**The largest cluster is aeroelasticity at 1,195 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 38 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-seven records against 1,195 for the thing that is not binding is a ratio worth sitting with.
-
-**The weight cluster is also thin at 105 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,195 papers on flutter and 105 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
 
 ## The Source Base
 

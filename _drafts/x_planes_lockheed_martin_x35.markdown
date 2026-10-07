@@ -1781,61 +1781,6 @@ nothing in the 2001 campaign predicted it or could have.
 **A demonstrator that weighs 34,000 pounds tells you very little about an aeroplane that will weigh far more**,
 and the architecture's thrust margin is precisely the quantity that weight growth attacks.
 
-## Where the Framing Breaks Down
-
-### The Deflationary Reading Can Be Pushed Too Far
-
-**The argument above is capable of proving too much.** If one insists that a demonstration teaching the
-engineers nothing new is theatre, then almost every public demonstration in aviation history is theatre,
-which is a sign the criterion is wrong rather than a discovery about aviation.
-
-**A demonstration has a second, legitimate function, which is to establish that separately verified capabilities compose.**
-Engineers frequently find that they do not. Doing the three in sequence tests the aircraft's ability to do
-them in sequence, including the fuel state, the thermal state, the pilot's workload and the systems'
-behaviour after a long, busy sortie.
-**None of those is captured by the arithmetic in this article, and all of them are real.**
-
-### Mach 1.05 Is the Worst Place on the Drag Curve, Not the Easiest
-
-**The claim that the supersonic leg was cheap deserves its strongest counter-argument stated properly.**
-Transonic drag rises steeply and peaks a little above Mach one, so Mach 1.05 is close to the most expensive
-point on the whole drag curve rather than a comfortable cruise. An aircraft that reaches Mach 1.05 in level
-flight has demonstrated that it can push through the peak, which is a stiffer test than reaching a higher
-Mach number would be once past it.
-
-**That counter-argument is correct on drag and does not disturb the thermal conclusion**, which is separate
-and which the arithmetic settles. It also does not disturb the ordering conclusion.
-**A conclusion that survives its own best counter-argument is worth more than one that needed the argument suppressed.**
-
-### The Assumed Inputs and What They Carry
-
-Several results here rest on quantities nobody published, and which conclusions would move if the
-assumptions moved should be set out explicitly.
-
-| Assumed quantity | Used for | Does the conclusion depend on it? |
-|---|---|---|
-| Core mass flow of 270 lb/s, from the open literature | Comparing against the inverted 320.2 | No. The inversion is the result; the comparison is a check |
-| Fan polar moment of inertia, 25 to 50 kg·m² | Clutch energy magnitude | No. The halving identity is exact and the time constant is under a fifth of a second across the bracket |
-| Stage loading coefficient of 0.40 | Estimating fan speed | Weakly. Every threshold in the counter-rotation table is an ordinary fan speed regardless |
-| Roll-post arm, 2.5 to 4.0 m | Counter-rotation threshold | No. The conclusion is stated across the whole bracket |
-| Zero-lift drag 0.025, rolling friction 0.03 | Ground roll | Slightly. The gap between 315 and 500 feet is far larger than these move it |
-| Transonic drag coefficient 0.035 | Dash thrust margin | No. The margin is 2.389 and would survive a doubling |
-| Sortie fuel burn of 3,500 lb | Landing weight margin | Yes, and the assumption-free statement is given beside it, being a weight limit of 41,900 pounds |
-| Fan to nozzle separation of 7.5 m | Moment arms and the centre-of-gravity band | Only for the arms in metres. **The station as a fraction, 0.4737, needs no separation at all** |
-| Thrust split authority of 10 percent | The pitching-moment threshold | Weakly. It sets the threshold height, and the finding is that the threshold is near a metre rather than far from it |
-| Radius of gyration at 0.20 to 0.25 of span | Roll control power | No. The bracket is reported and the residual after a single-rotation reaction is derisory across all of it |
-| Oswald efficiency of 0.75, zero-lift drag 0.018, wave drag 0.017 | The dash drag build-up | No. Induced drag is 0.0027 of a total 0.0377, so the build-up is insensitive to it |
-| Thrust lapse exponent of 0.7 | Thrust available at altitude | No. The sensitivity is tabulated and the margin survives 0.6 to 1.0 |
-| Clutch plate mass of 20 kg | The plate temperature rise | No. It scales the rise linearly and the conclusion is that the bound is absurd, not that the rise is a particular number |
-
-### A Demonstration Is Not Only an Experiment
-
-**The framing this whole series uses treats a research aircraft as an instrument for answering a question, and the X-35 does not fit that framing cleanly.**
-It was a competitor as much as an instrument. Its purpose included persuading a customer, and a machine
-built partly to persuade is not well described by asking only what it measured.
-**The framing does not break down so much as become incomplete**, and the incompleteness is exactly the
-space in which Mission X sits.
-
 ## The Contemporary Literature
 
 The standing directive for this series asks each article to serve as a survey of the current literature as
@@ -6365,6 +6310,61 @@ the balance of the contemporary pool, by cluster.
 - [CFD simulation of the Impact of Eagle Bioinspired Wing Slots...][research_momodu_beg_2026]
 - [Design and Experimental Validation of Real-Time Drag...][research_forte_nguyen_2026]
 
+## Where the Framing Breaks Down
+
+### The Deflationary Reading Can Be Pushed Too Far
+
+**The argument above is capable of proving too much.** If one insists that a demonstration teaching the
+engineers nothing new is theatre, then almost every public demonstration in aviation history is theatre,
+which is a sign the criterion is wrong rather than a discovery about aviation.
+
+**A demonstration has a second, legitimate function, which is to establish that separately verified capabilities compose.**
+Engineers frequently find that they do not. Doing the three in sequence tests the aircraft's ability to do
+them in sequence, including the fuel state, the thermal state, the pilot's workload and the systems'
+behaviour after a long, busy sortie.
+**None of those is captured by the arithmetic in this article, and all of them are real.**
+
+### Mach 1.05 Is the Worst Place on the Drag Curve, Not the Easiest
+
+**The claim that the supersonic leg was cheap deserves its strongest counter-argument stated properly.**
+Transonic drag rises steeply and peaks a little above Mach one, so Mach 1.05 is close to the most expensive
+point on the whole drag curve rather than a comfortable cruise. An aircraft that reaches Mach 1.05 in level
+flight has demonstrated that it can push through the peak, which is a stiffer test than reaching a higher
+Mach number would be once past it.
+
+**That counter-argument is correct on drag and does not disturb the thermal conclusion**, which is separate
+and which the arithmetic settles. It also does not disturb the ordering conclusion.
+**A conclusion that survives its own best counter-argument is worth more than one that needed the argument suppressed.**
+
+### The Assumed Inputs and What They Carry
+
+Several results here rest on quantities nobody published, and which conclusions would move if the
+assumptions moved should be set out explicitly.
+
+| Assumed quantity | Used for | Does the conclusion depend on it? |
+|---|---|---|
+| Core mass flow of 270 lb/s, from the open literature | Comparing against the inverted 320.2 | No. The inversion is the result; the comparison is a check |
+| Fan polar moment of inertia, 25 to 50 kg·m² | Clutch energy magnitude | No. The halving identity is exact and the time constant is under a fifth of a second across the bracket |
+| Stage loading coefficient of 0.40 | Estimating fan speed | Weakly. Every threshold in the counter-rotation table is an ordinary fan speed regardless |
+| Roll-post arm, 2.5 to 4.0 m | Counter-rotation threshold | No. The conclusion is stated across the whole bracket |
+| Zero-lift drag 0.025, rolling friction 0.03 | Ground roll | Slightly. The gap between 315 and 500 feet is far larger than these move it |
+| Transonic drag coefficient 0.035 | Dash thrust margin | No. The margin is 2.389 and would survive a doubling |
+| Sortie fuel burn of 3,500 lb | Landing weight margin | Yes, and the assumption-free statement is given beside it, being a weight limit of 41,900 pounds |
+| Fan to nozzle separation of 7.5 m | Moment arms and the centre-of-gravity band | Only for the arms in metres. **The station as a fraction, 0.4737, needs no separation at all** |
+| Thrust split authority of 10 percent | The pitching-moment threshold | Weakly. It sets the threshold height, and the finding is that the threshold is near a metre rather than far from it |
+| Radius of gyration at 0.20 to 0.25 of span | Roll control power | No. The bracket is reported and the residual after a single-rotation reaction is derisory across all of it |
+| Oswald efficiency of 0.75, zero-lift drag 0.018, wave drag 0.017 | The dash drag build-up | No. Induced drag is 0.0027 of a total 0.0377, so the build-up is insensitive to it |
+| Thrust lapse exponent of 0.7 | Thrust available at altitude | No. The sensitivity is tabulated and the margin survives 0.6 to 1.0 |
+| Clutch plate mass of 20 kg | The plate temperature rise | No. It scales the rise linearly and the conclusion is that the bound is absurd, not that the rise is a particular number |
+
+### A Demonstration Is Not Only an Experiment
+
+**The framing this whole series uses treats a research aircraft as an instrument for answering a question, and the X-35 does not fit that framing cleanly.**
+It was a competitor as much as an instrument. Its purpose included persuading a customer, and a machine
+built partly to persuade is not well described by asking only what it measured.
+**The framing does not break down so much as become incomplete**, and the incompleteness is exactly the
+space in which Mission X sits.
+
 ## The Source Base
 
 ### Both Halves, Counted and Not Only Divided
@@ -10118,7 +10118,6 @@ architectural property legible in one flight to people who would never read a te
 honestly, because the property was real and the rival did not have it.
 **What it was not is the experiment.** The experiment was the clutch engaging in flight on 9 July, and
 nobody remembers the date.
-
 ## References
 
 ### Books

@@ -90,7 +90,7 @@ The likeliest reading is that the register records the date the allocation was m
 
 **And the pandemic is priced.** Two modifications on 9 March 2021 obligate 5,852,178.74 dollars and state in their own description that the cost growth is due to COVID-19, the coronavirus pandemic, which is **11.18 percent of the Phase 3 contract**. The contractor's August 2020 release had said the second flight test was delayed by the pandemic \[[Dynetics][ref_prn_second_flight]\]. **The contract says what that delay cost.**
 
-## What the Vehicle Has To Be, Which Is Not a Cruise Missile
+## Sizing From First Principles, What the Vehicle Has To Be and Why It Is Not a Cruise Missile
 
 The register's engine cell is not blue. It says `1 F107-WR-105`, and that is official Department of Defense data \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **The F107 is the Williams turbofan that powers the AGM-86 air-launched cruise missile and the BGM-109 Tomahawk** \[[Williams F107][ref_f107]\] \[[Designations of U.S. Military Aero Engines][ref_engines_designations]\], so the one thing the government has said about this vehicle's propulsion places it in a family that has been in production since the nineteen seventies.
 
@@ -827,26 +827,6 @@ Three quantitative things follow from the record.
 
 **A fourth thing follows from the contract rather than from the flying.** The money stopped 47 days after the recovery and the period of performance ran on for another 1,463 days without it. **A programme that stops paying and stays open has decided something**, even if no document records the decision, and the previous article in this series found a programme that did the reverse.
 
-## Where the Framing Breaks Down
-
-**The framing of this article is that the capture is the programme and the vehicle is not, and there are three places where that is too tidy.**
-
-**The vehicle is not free.** Treating the airframe as a solved cruise missile ignores that it had to fold into a C-130's cargo compartment, deploy its wings after release, start a cold engine at altitude, and survive a parachute landing. **The width of 0.57 metres against a span of 3.47 is a folding requirement and it constrains the wing that the recovery requires to be large.**
-
-$$
-b_p = \frac{b_v - w}{2}
-$$
-
-Each panel is 1.45 metres, which is 0.345 of the body it must lie along, and the deployed span is 6.09 body widths. **Those two requirements pull opposite ways and the article has not priced the conflict**, because the chord is not published and the panel's own stowed thickness is not either.
-
-**The economics rest on a number nobody measured.** Every statement above about cost per sortie takes the twenty-use life as given, and the programme demonstrated 9 percent of it. **If the practical life were five rather than twenty the whole architecture still pays on the arithmetic here, which is why the conclusion is robust, but the specific figures are not.**
-
-**And the C-130 is treated as free, which it is not.** A recovery sortie costs a transport aircraft, its crew and its fuel, and that cost is divided by however many vehicles come home on it. **The programme demonstrated one.** At one vehicle per sortie the recovery aircraft's share is the dominant term in the cost identity and this article cannot evaluate it, because no participant has published what a recovery sortie costs.
-
-**One further thing is absent rather than wrong.** The article has said nothing about what the vehicles were for. The payloads named in the public descriptions are electro-optical sensors, infrared imagers, electronic warfare systems and weapons, and the operational concept is a volley launched from outside the defended area. **That is the reason the programme was funded and it is almost entirely absent from the arithmetic above**, because none of it bears on whether the catch can be made.
-
-**And two of this article's own instruments have limits worth naming.** The loop analysis reaches a result that depends on an architectural choice the record does not report, so the article computes both branches and claims neither, which is weaker than it would like to be. **And the survey behind the keystone is a conference literature rather than an agency-report one**, at 24.1 percent from one aeronautical society and 18.1 percent from one engineering institute against 11.2 percent from the two agency report servers combined. **A reader who expected the report literature to carry this subject would be disappointed, and the reason is where the work was published rather than how hard it was looked for.**
-
 ## The Contemporary Literature
 
 The survey behind this article holds **7,128 records** after gating and deduplication, drawn from 4 sweeps that retrieved 43,205 records of which 34,657 were distinct. **1,155 of them, 16.2 percent, are report primaries**, meaning items served by the National Aeronautics and Space Administration's technical reports server or registered under the Defense Technical Information Center's prefix. 6,768 records carry a usable year, running from 1826 to 2026 with a median of 2011. **5,427 of those, 80.2 percent, predate or share the year of the programme's last flight test series.**
@@ -916,6 +896,26 @@ The survey behind this article holds **7,128 records** after gating and deduplic
 ### Other aerospace and engineering literature
 
 **29 records.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\] \[[U.S. Standard Atmosphere, 1962][research_u_s_standard_1962]\] \[[Anderson and Francis 1964][research_anderson_francis_1964]\] \[[Minzner, R. A. et al 1976][research_minznerra_reberca_1976]\] \[[U.S. Standard Atmosphere, 1976][research_u_s_standard_1976]\] \[[Essenwanger 1998][research_essenwanger_1998]\] \[[Cook 1999][research_cook_1999]\] \[[Cook 1999][research_cook_1999_b]\] \[[Chen 2000][research_chen_2000]\] \[[Chen 2001][research_chen_2001]\] \[[Chen 2002][research_chen_2002]\] \[[Justus, C. G. et al 2004][research_justuscg_duvallaletal_2004]\] \[[Galperin et al 2005][research_galperin_sukoriansky_2005]\] \[[Giraldo 2007][research_giraldo_2007]\] \[[Giraldo 2008][research_giraldo_2008]\] \[[Giraldo 2010][research_giraldo_2010]\] \[[Honnert et al 2011][research_honnert_masson_2011]\] \[[Agrimson and Flaten 2012][research_agrimson_flaten_2012]\] \[[Brown 2012][research_brown_2012_d]\] \[[Giraldo 2012][research_giraldo_2012]\] \[[Giraldo 2013][research_giraldo_2013]\] \[[Brian et al 2017][research_brian_dansie_2017]\] \[[White, Patrick 2017][research_whitepatrick_2017]\] \[[White, Patrick 2017][research_whitepatrick_2017_b]\] \[[Andrews 2019][research_andrews_2019]\] \[[Hocking et al 2026][research_hocking_watanabe_2026]\] \[[Atmospheric Structure with Altitude][research_atmospheric_structure]\] \[[Definition of Commonly Used][research_definition_of]\] \[[Minimum Performance Standard for][research_minimum_performance]\]
+
+## Where the Framing Breaks Down
+
+**The framing of this article is that the capture is the programme and the vehicle is not, and there are three places where that is too tidy.**
+
+**The vehicle is not free.** Treating the airframe as a solved cruise missile ignores that it had to fold into a C-130's cargo compartment, deploy its wings after release, start a cold engine at altitude, and survive a parachute landing. **The width of 0.57 metres against a span of 3.47 is a folding requirement and it constrains the wing that the recovery requires to be large.**
+
+$$
+b_p = \frac{b_v - w}{2}
+$$
+
+Each panel is 1.45 metres, which is 0.345 of the body it must lie along, and the deployed span is 6.09 body widths. **Those two requirements pull opposite ways and the article has not priced the conflict**, because the chord is not published and the panel's own stowed thickness is not either.
+
+**The economics rest on a number nobody measured.** Every statement above about cost per sortie takes the twenty-use life as given, and the programme demonstrated 9 percent of it. **If the practical life were five rather than twenty the whole architecture still pays on the arithmetic here, which is why the conclusion is robust, but the specific figures are not.**
+
+**And the C-130 is treated as free, which it is not.** A recovery sortie costs a transport aircraft, its crew and its fuel, and that cost is divided by however many vehicles come home on it. **The programme demonstrated one.** At one vehicle per sortie the recovery aircraft's share is the dominant term in the cost identity and this article cannot evaluate it, because no participant has published what a recovery sortie costs.
+
+**One further thing is absent rather than wrong.** The article has said nothing about what the vehicles were for. The payloads named in the public descriptions are electro-optical sensors, infrared imagers, electronic warfare systems and weapons, and the operational concept is a volley launched from outside the defended area. **That is the reason the programme was funded and it is almost entirely absent from the arithmetic above**, because none of it bears on whether the catch can be made.
+
+**And two of this article's own instruments have limits worth naming.** The loop analysis reaches a result that depends on an architectural choice the record does not report, so the article computes both branches and claims neither, which is weaker than it would like to be. **And the survey behind the keystone is a conference literature rather than an agency-report one**, at 24.1 percent from one aeronautical society and 18.1 percent from one engineering institute against 11.2 percent from the two agency report servers combined. **A reader who expected the report literature to carry this subject would be disappointed, and the reason is where the work was published rather than how hard it was looked for.**
 
 ## The Source Base
 

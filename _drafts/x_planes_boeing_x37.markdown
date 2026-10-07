@@ -1266,6 +1266,58 @@ international obligation rather than a discretionary act.
 - [Limiting Future Collision Risk to Spacecraft An Assessment of...][research_limiting_future_2011]
 - [Small Orbital Debris Mitigation Mission Architecture][research_wiegmannbrucem_2011]
 
+## Comparison With Ground Prediction
+
+**No prediction the programme made on the ground can be set beside a flight measurement, because neither half is public.**
+The section headed The Source Base records that the programme's own literature stops in 2005 and that not
+one record in the base describes a flown mission. The record holds no mass breakdown, no power budget, no
+propellant load, no thermal design and no flight data of any kind from any of the eight missions. The
+comparison this series makes elsewhere, between a wind tunnel or analytical prediction and what flight
+returned, cannot be made for this vehicle in that form.
+
+**What the space agency phase set out to demonstrate is public, and so is the bare outcome.** The agency
+wanted a testbed for the thermal protection, the avionics and the autonomous landing that a successor to the
+Space Shuttle would need. The section headed What the Data Changed records that TUFROC has survived repeated
+entries and that the vehicle lands itself on a runway with no crew and no remote pilot, and each of the seven
+completed missions in the table under The Flight Test Record ended in a landing. None of the temperatures,
+loads or trajectories behind those outcomes has been released.
+**The outcome can be stated and its margin against the prediction cannot.**
+
+**The only predictions this article can test against the flight record are its own**, made from published
+dimensions and the public orbit. Three of them meet an observed quantity, and each is argued in full where
+it first appears.
+
+The first is the drag budget. The section headed Sizing From First Principles computed that a 908.88 day
+mission costs between 23 and 151 kilograms of propellant between 300 and 400 kilometres, and that below about
+250 kilometres a mission of that length is not affordable at all. The missions were tracked in orbits between
+roughly 300 and 400 kilometres.
+**The observed altitude and the observed duration are consistent with the computed budget**, which is
+agreement between an analysis and a public orbit rather than between a programme prediction and programme
+data. It rests on an assumed drag area and an assumed propellant load, as the section headed Where the
+Framing Breaks Down states.
+
+The second is the aerobraking campaign. A fixed-period estimate found that no perigee above the entry
+interface could remove 2,469 metres per second in the roughly 150 days between the October 2024 announcement
+and the landing on 7 March 2025. The walk-down that updates the orbit after every pass found that a perigee
+near 100 kilometres reaches a 1,000 kilometre apogee in 81.2 days.
+**The announced manoeuvre and the landing that followed are what the corrected calculation permits and the crude one forbids.**
+The comparison stops there, because the perigee flown, the number of passes and the fraction of the apogee
+reduction that was aerodynamic are not public.
+
+The third is the crossrange. The constant-bank integration returns 755 nautical miles at a lift-to-drag ratio
+of 1.1, which is 0.686 of the 1,100 nautical mile requirement set for the Space Shuttle orbiter. That is a
+comparison with another vehicle's specification and not with any X-37B flight, and it is reported as a lower
+bound for that reason. No crossrange flown by the X-37B has been published.
+
+**The development flights supply outcomes without predictions.** The X-40 was dropped from a helicopter at
+Holloman Air Force Base in 1998 and at Dryden in 2001, and the glides of the X-37A Approach and Landing Test
+Vehicle began on 7 April 2006, its first free flight ending with a runway excursion after a landing gear
+problem. The record states none of the predictions those flights were testing.
+
+**The comparison this section can make is between public arithmetic and a public orbit, and it holds wherever it can be checked.**
+The comparison the series exists to make, between what the designers expected and what their vehicle
+measured, lies behind the compartment for every mission flown.
+
 ## What the Data Changed
 
 ### What the Programme Settled
@@ -1275,7 +1327,7 @@ Two airframes have flown eight missions between them. The first vehicle flew the
 which is a demonstrated reuse of an orbital spaceplane by an operator other than the Shuttle programme, at a
 scale where the refurbishment cost is not ruinous.
 
-**That autonomous runway landing from orbit is a solved problem.** Eight entries, eight landings, across
+**That autonomous runway landing from orbit is a solved problem.** Seven entries, seven landings, across
 three runways, with no crew and no remote pilot. Buran demonstrated it once in 1988 and the capability then
 lapsed. **The X-37B made it routine**, and routine is a stronger claim than demonstrated.
 
@@ -1303,61 +1355,6 @@ outside the compartment.
 
 **That is the cost of classification and it is a real cost rather than a rhetorical one.** Every designer of
 a reusable entry vehicle since 2010 has had to rediscover, or fail to discover, things this programme knows.
-
-## Where the Framing Breaks Down
-
-### The Load Is Bounded and Not Known
-
-**Everything in the power and thermal sections is an upper bound.** The article computes what the array
-could generate and what the radiator could reject, and both are ceilings. The actual load could be a tenth
-of either, and no public data distinguishes the cases.
-**A bracket between 540 and 1,623 watts is a wide bracket** and the article should not be read as having
-measured a kilowatt.
-
-### The Drag Area Is Assumed
-
-The ballistic coefficient of 500 kilograms per square metre rests on an assumed drag area of 8 square metres
-and an assumed on-orbit mass of 4,000 kilograms. **Neither is published.** The second table in the drag
-section shows the effect of nearly doubling the area, which roughly doubles every velocity increment, and
-the qualitative conclusion survives that. **The altitude floor does not survive it unchanged**, and a reader
-should treat 254.4 kilometres as an order rather than a number.
-
-### The Propellant Load Is a Guess and It Propagates Widely
-
-**The 500 kilogram propellant assumption appears in the altitude floor, in the aerobraking leverage ratio and in the plane change comparison**,
-and no input in the article is less defensible. It was chosen as a round tenth of launch mass.
-**Every ratio that divides by 310.6 metres per second should be read as scaling inversely with whatever the true load is.**
-The aerobraking conclusion is robust to it, because a factor of 7.95 would survive a doubling of the
-propellant load and still be decisive. The altitude floor is not robust to it.
-
-### The Aerobraking Reconstruction Is Not a Reconstruction
-
-The article computes what aerobraking could have done for a vehicle of this ballistic coefficient at various
-perigees.
-**It does not know what perigee was flown, how many passes were made, or what fraction of the apogee reduction was aerodynamic.**
-The 100 kilometre figure is where the calendar closes, not where the vehicle went.
-
-### The Solar Cycle Observation Is an Observation and Not a Finding About Intent
-
-**A launch date is set by range availability, payload readiness, vehicle availability and policy**, and this
-article has no evidence that the drag environment entered the decision. The arithmetic showing that the
-record was set in the quietest atmosphere available is sound.
-**Any inference from it about why the mission was flown when it was is not.**
-
-### The Comparison With the Two Preceding Articles Is Neat and Should Be Distrusted for It
-
-Three consecutive articles have found a demonstration tilted in a computable direction, in two directions.
-**A pattern found three times in a series written by one author using one method is evidence about the method as much as about the aircraft.**
-It is recorded here so that the closing article can test it against the vehicles that have not yet been
-examined, rather than treated as established.
-
-### The Article Assumes the Vehicle Is What It Appears to Be
-
-**Every calculation here treats the X-37B as a five-tonne winged vehicle with a small array, a hypergolic propulsion system and a payload bay of published dimensions.**
-If any of those is wrong, and a classified programme is entitled to have published a misleading
-specification, then the calculations are internally consistent and externally worthless.
-**There is no way to test that from outside**, and the article states it rather than assuming its way past
-it.
 
 ## The Contemporary Literature
 
@@ -2205,6 +2202,61 @@ which applies here to completed ones.
 - [Spin, orbit, drag, and phase equilibria control of Uranus'...][research_hofmeister_criss_2026]
 - [Sustainability of commercial space operations and the...][research_breda_markova_2026]
 - [Trajectory design for a Titan-Enceladus plume sampling...][research_mateas_sanchez_2026]
+
+## Where the Framing Breaks Down
+
+### The Load Is Bounded and Not Known
+
+**Everything in the power and thermal sections is an upper bound.** The article computes what the array
+could generate and what the radiator could reject, and both are ceilings. The actual load could be a tenth
+of either, and no public data distinguishes the cases.
+**A bracket between 540 and 1,623 watts is a wide bracket** and the article should not be read as having
+measured a kilowatt.
+
+### The Drag Area Is Assumed
+
+The ballistic coefficient of 500 kilograms per square metre rests on an assumed drag area of 8 square metres
+and an assumed on-orbit mass of 4,000 kilograms. **Neither is published.** The second table in the drag
+section shows the effect of nearly doubling the area, which roughly doubles every velocity increment, and
+the qualitative conclusion survives that. **The altitude floor does not survive it unchanged**, and a reader
+should treat 254.4 kilometres as an order rather than a number.
+
+### The Propellant Load Is a Guess and It Propagates Widely
+
+**The 500 kilogram propellant assumption appears in the altitude floor, in the aerobraking leverage ratio and in the plane change comparison**,
+and no input in the article is less defensible. It was chosen as a round tenth of launch mass.
+**Every ratio that divides by 310.6 metres per second should be read as scaling inversely with whatever the true load is.**
+The aerobraking conclusion is robust to it, because a factor of 7.95 would survive a doubling of the
+propellant load and still be decisive. The altitude floor is not robust to it.
+
+### The Aerobraking Reconstruction Is Not a Reconstruction
+
+The article computes what aerobraking could have done for a vehicle of this ballistic coefficient at various
+perigees.
+**It does not know what perigee was flown, how many passes were made, or what fraction of the apogee reduction was aerodynamic.**
+The 100 kilometre figure is where the calendar closes, not where the vehicle went.
+
+### The Solar Cycle Observation Is an Observation and Not a Finding About Intent
+
+**A launch date is set by range availability, payload readiness, vehicle availability and policy**, and this
+article has no evidence that the drag environment entered the decision. The arithmetic showing that the
+record was set in the quietest atmosphere available is sound.
+**Any inference from it about why the mission was flown when it was is not.**
+
+### The Comparison With the Two Preceding Articles Is Neat and Should Be Distrusted for It
+
+Three consecutive articles have found a demonstration tilted in a computable direction, in two directions.
+**A pattern found three times in a series written by one author using one method is evidence about the method as much as about the aircraft.**
+It is recorded here so that the closing article can test it against the vehicles that have not yet been
+examined, rather than treated as established.
+
+### The Article Assumes the Vehicle Is What It Appears to Be
+
+**Every calculation here treats the X-37B as a five-tonne winged vehicle with a small array, a hypergolic propulsion system and a payload bay of published dimensions.**
+If any of those is wrong, and a classified programme is entitled to have published a misleading
+specification, then the calculations are internally consistent and externally worthless.
+**There is no way to test that from outside**, and the article states it rather than assuming its way past
+it.
 
 ## The Source Base
 

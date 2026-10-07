@@ -324,6 +324,20 @@ $$FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}$$
 
 **The competitor's record is the closest thing available and it is very short.** The X-47A Pegasus flew once, on 23 February 2003, and the announcement of that flight is framed as a demonstration of autonomous control \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\]. **One flight by the other contractor is not evidence about this aeroplane**, and it is recorded here only to establish that the naval competition had reached hardware on one side and not on the other when it was stopped.
 
+## Comparison With Ground Prediction
+
+**There is no comparison to make, because nothing flew.** The section headed The Flight Test Record states that no X-46A airframe was built \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], so flight returned no figure of any kind, and a table setting prediction beside measurement would have an empty column for every row.
+
+**What existed on the ground was a requirement, and a requirement is a prediction of capability rather than of performance.** The open record gives a payload of four thousand pounds, an operational radius of six hundred and fifty nautical miles, a loiter of up to twelve hours, and carrier takeoff and recovery \[[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]\] \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **The only further prediction is this article's own**, being the gross mass of 32,539 pounds and the demanded empty-weight fraction of 0.3485 derived in the section headed Sizing From First Principles. No Boeing estimate of either was published, so the contractor's ground prediction cannot even be set beside the article's.
+
+**The figures that circulate as a specification are not results either.** The section headed What the Record Does Not Contain shows that the payload and radius in secondary compilations are the UCAV-N requirement numbers exactly. **Setting them beside the requirement would compare the requirement with itself.**
+
+**The nearest thing to a comparison sets the requirement beside the aeroplane Boeing did build, and that is a comparison with a published dimension rather than with flight.** The article makes two. The X-45C's internal payload of 2,040 kilograms, which is 4,497 pounds, carries the four thousand pound requirement with a margin of 0.124, as the section headed What the Data Changed reports. The span derived from a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 is 48.68 feet against the X-45C's 48.89, which the section headed Sizing From First Principles treats as a consistency check with three free parameters and not as a derivation.
+
+**The competitor's single flight does not fill the gap.** The X-47A flew once, on 23 February 2003 \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\], and one flight by the other contractor is not evidence about this aeroplane.
+
+**The empty column is the finding.** Whether Boeing's design met the requirement is listed under Epistemic State as a question the record does not settle, and no flight exists that could have settled it.
+
 ## What the Data Changed
 
 **There is no data, so the question becomes what the programme changed without producing any.**
@@ -337,28 +351,6 @@ $$\frac{4{,}497}{4{,}000} - 1 = 0.124$$
 **The competition it was part of eventually delivered.** The Navy restarted a demonstrator effort in 2006 and selected the X-47B in 2007 \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], and carrier launch and recovery of an unmanned combat aircraft was demonstrated by that vehicle. **The question the X-46A was asked was answered, seven years later, by the aeroplane that beat it.**
 
 **What the programme did not change is anything about how aircraft are designed**, and an article that claimed otherwise would be inflating a study contract into an influence.
-
-## Where the Framing Breaks Down
-
-**Five places.**
-
-**Sizing a requirement is not the same as describing an aeroplane, and the article's central number is an inference.** The empty-weight fraction of 0.3485 is what the requirement demands under the stated assumptions. **It is not a measurement of anything**, no Boeing document is known to state it, and if the twelve-hour and six-hundred-and-fifty-mile figures are not simultaneous then the number describes a mission nobody intended to fly.
-
-**The inherited payload fraction is the weakest load-bearing assumption, and the survey can be measured on the point.** It rests on two aircraft, and the previous article was careful to say that their agreement is a fact about a held mission fraction rather than about geometry. **The publication review probed the survey for that subject and found three records using the phrase and ten on the broadest reading**, so the constant every mass figure here depends on is supported by a pair of measurements and not by a literature. **A naval variant might not hold it**, because carrier equipment is charged to empty weight and a designer under that pressure may well trade payload fraction rather than accept a larger aeroplane.
-
-**The comparison aircraft are all manned and all older.** The A-6E entered service in 1970, the S-3A in 1974 and the F/A-18E in 1999, and structural materials moved considerably across that span. **A modern composite airframe should do better than any row in the table**, so the nine-point gap overstates the difficulty by an unknown amount. The comparison establishes that the requirement is demanding, not by how much.
-
-**The Breguet relations assume a constant lift to drag ratio and a constant specific fuel consumption over each segment**, and neither is constant. The relations used above are the closed-form solution of the fuel-flow equation \[[Anderson, Aircraft performance and design][book_anderson_performance]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\],
-
-$$\frac{dW}{dt} = - c \, T = - c \, \frac{W}{L/D}$$
-
-under exactly that assumption, and a real analysis would integrate
-
-$$E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW$$
-
-with the ratio and the consumption varying along the path. Over a twelve-hour loiter the aircraft becomes much lighter and its best lift to drag ratio moves. **The error is in the direction of pessimism**, since an aircraft flown at its optimum as it lightens does better than one flown at a fixed condition, so the demanded empty fraction is if anything a little less severe than stated.
-
-**The carrier span agreement is the weakest attractive result in the article.** Three free parameters were chosen and one combination reproduced the built span to within half a percent. **A calculation with three free parameters can be made to hit almost any target**, and it is reported as a consistency check for that reason and should be read as nothing more.
 
 ## The Contemporary Literature
 
@@ -499,6 +491,28 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 
 **23 records.** \[[Box et al 2016][research_box_snow_2016]\] \[[Box et al 2018][research_box_snow_2018]\] \[[Carney 2008][research_carney_2008]\] \[[Diepstraten][research_diepstraten]\] \[[Girard 1990][research_girard_1990]\] \[[Gray 2015][research_gray_2015]\] \[[Havir and Durbin 2004][research_havir_durbin_2004]\] \[[Henriksen 2007][research_henriksen_2007]\] \[[Hunn 2005][research_hunn_2005]\] \[[Hutmacher 2011][research_hutmacher_2011]\] \[[Jain et al 2011][research_jain_templin_2011]\] \[[Osterman 2010][research_osterman_2010]\] \[[Pugh et al 2020][research_pugh_hampton_2020]\] \[[Reichstein et al 2022][research_reichstein_schopferer_2022]\] \[[Specification for Design of][research_specification_for_f]\] \[[Spura et al 2005][research_spura_accettullo_2005]\] \[[Van Dyke et al 1990][research_vandyke_thomas_1990]\] \[[Vidal et al 2014][research_vidal_valera_2014]\] \[[Wang et al 2017][research_wang_deutsch_2017]\] \[[Yuan et al 2026][research_yuan_xue_2026]\] \[[Zhang et al 2024][research_zhang_dou_2024]\] \[[Zolanvari et al 2018][research_zolanvari_teixeira_2018]\] \[[Çuhadar and Dursun 2016][research_cuhadar_dursun_2016]\]
 
+
+## Where the Framing Breaks Down
+
+**Five places.**
+
+**Sizing a requirement is not the same as describing an aeroplane, and the article's central number is an inference.** The empty-weight fraction of 0.3485 is what the requirement demands under the stated assumptions. **It is not a measurement of anything**, no Boeing document is known to state it, and if the twelve-hour and six-hundred-and-fifty-mile figures are not simultaneous then the number describes a mission nobody intended to fly.
+
+**The inherited payload fraction is the weakest load-bearing assumption, and the survey can be measured on the point.** It rests on two aircraft, and the previous article was careful to say that their agreement is a fact about a held mission fraction rather than about geometry. **The publication review probed the survey for that subject and found three records using the phrase and ten on the broadest reading**, so the constant every mass figure here depends on is supported by a pair of measurements and not by a literature. **A naval variant might not hold it**, because carrier equipment is charged to empty weight and a designer under that pressure may well trade payload fraction rather than accept a larger aeroplane.
+
+**The comparison aircraft are all manned and all older.** The A-6E entered service in 1970, the S-3A in 1974 and the F/A-18E in 1999, and structural materials moved considerably across that span. **A modern composite airframe should do better than any row in the table**, so the nine-point gap overstates the difficulty by an unknown amount. The comparison establishes that the requirement is demanding, not by how much.
+
+**The Breguet relations assume a constant lift to drag ratio and a constant specific fuel consumption over each segment**, and neither is constant. The relations used above are the closed-form solution of the fuel-flow equation \[[Anderson, Aircraft performance and design][book_anderson_performance]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\],
+
+$$\frac{dW}{dt} = - c \, T = - c \, \frac{W}{L/D}$$
+
+under exactly that assumption, and a real analysis would integrate
+
+$$E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW$$
+
+with the ratio and the consumption varying along the path. Over a twelve-hour loiter the aircraft becomes much lighter and its best lift to drag ratio moves. **The error is in the direction of pessimism**, since an aircraft flown at its optimum as it lightens does better than one flown at a fixed condition, so the demanded empty fraction is if anything a little less severe than stated.
+
+**The carrier span agreement is the weakest attractive result in the article.** Three free parameters were chosen and one combination reproduced the built span to within half a percent. **A calculation with three free parameters can be made to hit almost any target**, and it is reported as a consistency check for that reason and should be read as nothing more.
 
 ## The Source Base
 

@@ -234,6 +234,29 @@ $$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
 
 **The third approach on 10 July 2013 is the most informative entry and it is not in the table.** After two arrested landings the aeroplane was launched again, and an onboard subsystem failure caused it to abort the approach automatically \[[X-47B makes first arrested landing aboard an aircraft carrier][ref_first_trap]\]. **An automatic wave-off on a detected fault is the behaviour a deck requires**, and a demonstration that produced two traps and one correct refusal is a better result than three traps would have been.
 
+## Comparison With Ground Prediction
+
+**The ground prediction this article can set beside the aeroplane is not the manufacturer's.** No test report, no navigation performance analysis and no weight statement for either aircraft has been located in the open literature, so whatever was predicted for the X-47B by wind tunnel, simulation or contractor estimate cannot be compared here with what it returned in flight. The section headed The Source Base records that search.
+
+**What can be compared is a prediction made on paper before this aeroplane was measured.** The previous article sized a carrier-based unmanned combat aircraft with no airframe to measure \[[previous article][related_post_a343_boeing_x46]\], and the X-47B is the airframe that answers it. Four of its numbers meet a published figure for this aircraft.
+
+| quantity | predicted on paper | X-47B as published | outcome |
+|---|---|---|---|
+| payload fraction | 0.12293 | 0.10737 | lower, in the predicted direction |
+| gross mass | 32,539 lb | 41,888 lb | 1.287 times the prediction |
+| wing loading | 68.7 to 142.4 lb/ft² | 43.9 lb/ft² | below every predicted value |
+| thrust to weight ratio | 0.30 to 0.40 | 0.382 | inside the band |
+
+**The scoring is argued in the section headed What the Data Changed**, and only its shape is gathered here. The payload fraction was the assumption the previous article named as its weakest, and it failed in the direction that article foresaw and by more than it foresaw. The approach speed constraint failed differently, because the aeroplane satisfies it with a wide margin and so it did not set the wing. The thrust to weight ratio is the one quantitative prediction the record confirms.
+
+**The comparison is between a requirement and one aeroplane**, and the section headed Where the Framing Breaks Down states what that limits. The two published gross masses also differ by about six percent, which is smaller than the differences being scored.
+
+**The deck's own prediction has no flight figure to meet.** The section headed Sizing From First Principles computes from the geometry of the deck that choosing between adjacent wires is a matter of two to three and a half feet of height. **Flight returned the wires caught and not the accuracy achieved.** On 10 July 2013 the aeroplane caught the three-wire and then the two-wire \[[X-47B makes first arrested landing aboard an aircraft carrier][ref_first_trap]\], which records two recoveries and does not record how close to the intended point either one touched down. No figure for the navigation accuracy achieved is traceable to a programme document.
+
+**The arrestment is a comparison the record leaves half made.** The reported engagement from about 145 knots in less than 350 feet is a flight figure, and the section headed Sizing From First Principles reads it two ways. The ground side of the comparison, a design arresting load for this airframe, is not published, so the hook loads of 339 and 496 kilonewtons this article computes stand against nothing the manufacturer stated.
+
+**The X-47A's single flight is the earliest flight evidence on the question the programme existed to settle.** It carried a shipboard relative Global Positioning System and ended on a pre-designated spot on a runway in February 2003 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and ten years later the X-47B used a relative scheme of the same kind at sea. **Neither flight's achieved precision is in the open record**, so the comparison both invite, between what relative navigation was expected to deliver and what it delivered, cannot be made here.
+
 ## What the Data Changed
 
 **The previous article sized this requirement without an aeroplane, so its predictions can now be scored.**
@@ -273,24 +296,6 @@ with the temperature and the constants taken from the standard atmosphere \[[U.S
 **A third prediction held.** The thrust to weight ratio of 0.382 falls inside the 0.30 to 0.40 band that article assumed.
 
 **What the programme changed outside this series is that carrier aviation stopped being a thing only people could do.** The demonstrations of 2013 to 2015 established launch, recovery, deck operations alongside manned aircraft and autonomous refuelling, which together are the whole cycle.
-
-## Where the Framing Breaks Down
-
-**Five places.**
-
-**The precision this article computes is the deck's requirement and not the aeroplane's performance.** The geometry says a wire is worth two to three and a half feet of height. **It does not say what the X-47B achieved**, and the figures that circulate for that are not traceable to a programme document, so no claim about achieved accuracy is made here.
-
-**The arrestment reading is settled by argument and not by the record.** A stopping distance aboard a ship must be a deck distance, and the aeroplane's own wing loading makes 145 knots an implausible stalling speed and an ordinary approach speed, so the slower engagement is the better reading. **Both rows are still printed** because the wind over the deck on the day is not recorded, and because an argument that fixes a reading is weaker evidence than a document that states one.
-
-**Scoring the previous article's predictions is comparing a requirement to one aeroplane.** The X-47B is a single design by a single manufacturer that won a competition, and a payload fraction measured from it is one observation. **The previous article's constant came from two aircraft and this adds a third from a different company**, which is better evidence and still not a population.
-
-**The gross mass figures disagree between sources by six percent.** The specialist directory gives 19,000 kilograms and other compilations give 44,501 pounds, which is 20,185 kilograms, and the directory warns that its own figures may be inaccurate,
-
-$$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
-
-**Every mass fraction in this article moves by about six percent between those readings**, and the conclusions do not turn on which is right because the differences being argued about are larger than that.
-
-**Treating the X-47A as a proof of concept understates what its single flight was for.** It carried the relative navigation system that the whole subject turns on, and it is described as landing on a designated spot. **One flight is one flight**, and an article that made more of it would be building on a sentence.
 
 ## The Contemporary Literature
 
@@ -438,6 +443,24 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 **12 records.** \[[Army War Coll Carlisle Barracks Pa 1982][research_armywarcollcarlislebarrackspa_1982]\] \[[Gaver and Jacobs 1998][research_gaver_jacobs_1998]\] \[[Heilenday 2000][research_heilenday_2000]\] \[[Horrigan 1990][research_horrigan_1990]\] \[[Howlett 2021][research_howlett_2021_b]\] \[[Muda et al 2024][research_muda_fananadila_2024]\] \[[Mustopa 2022][research_mustopa_2022]\] \[[Stegall 2001][research_stegall_2001]\] \[[Suminsby 2002][research_suminsby_2002]\] \[[Sutton 2005][research_sutton_2005]\] \[[Sutton 2006][research_sutton_2006]\] \[[Yar and Acar 2021][research_yar_acar_2021]\]
 
+
+## Where the Framing Breaks Down
+
+**Five places.**
+
+**The precision this article computes is the deck's requirement and not the aeroplane's performance.** The geometry says a wire is worth two to three and a half feet of height. **It does not say what the X-47B achieved**, and the figures that circulate for that are not traceable to a programme document, so no claim about achieved accuracy is made here.
+
+**The arrestment reading is settled by argument and not by the record.** A stopping distance aboard a ship must be a deck distance, and the aeroplane's own wing loading makes 145 knots an implausible stalling speed and an ordinary approach speed, so the slower engagement is the better reading. **Both rows are still printed** because the wind over the deck on the day is not recorded, and because an argument that fixes a reading is weaker evidence than a document that states one.
+
+**Scoring the previous article's predictions is comparing a requirement to one aeroplane.** The X-47B is a single design by a single manufacturer that won a competition, and a payload fraction measured from it is one observation. **The previous article's constant came from two aircraft and this adds a third from a different company**, which is better evidence and still not a population.
+
+**The gross mass figures disagree between sources by six percent.** The specialist directory gives 19,000 kilograms and other compilations give 44,501 pounds, which is 20,185 kilograms, and the directory warns that its own figures may be inaccurate,
+
+$$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
+
+**Every mass fraction in this article moves by about six percent between those readings**, and the conclusions do not turn on which is right because the differences being argued about are larger than that.
+
+**Treating the X-47A as a proof of concept understates what its single flight was for.** It carried the relative navigation system that the whole subject turns on, and it is described as landing on a designated spot. **One flight is one flight**, and an article that made more of it would be building on a sentence.
 
 ## The Source Base
 
