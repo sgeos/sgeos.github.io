@@ -4,6 +4,23 @@
 
 ## Last Updated
 
+**Date**: 2026-10-07
+**Task**: **HANDOFF REWRITTEN AND RESTAMPED at parent `6a74fc9`, with the pilot's six repair decisions slotted for execution after compaction. Nothing executed. Committed, NOT pushed.**
+
+**THE PILOT'S DECISIONS, ALL SLOTTED, WITH EXECUTION PLANS IN `HANDOFF.md`.**
+1. **Correct A297's three errors** (the backwards injectivity definition, monotonicity at the X-76, the third cluster) **and rewrite A368 as if A297 had always been right.**
+2. **Add a small dated note to A364's and A365's Epistemic State** that their register rows were not public until January 2026.
+3. **Write a `Comparison With Ground Prediction` section for each of the 33 articles lacking one**, A334 through A367 except A358.
+4. **Give every article all canonical sections in the same order.** Measured: 43 of 70 per-designation articles need work, A321 through A323 and A328 through A367. Three interpretations are recorded for the pilot to confirm: article-specific sections stay, the opener and closer are exempt, and literature comes before framing.
+5. **Rebuild each affected article's filter and regenerate its survey**, measuring the off-topic scope first.
+6. **Recheck the 567 Open Library links slowly.**
+
+**Correction to the previous report.** It said the ground-prediction section became a convention partway through the series. **It is the reverse**: A298 through A333 have it and A334 onward mostly do not.
+
+**A third line published A377 in this tree, so the next available article number is A378.** `3d55f0b` reached the remote in that line's push. `6a74fc9` and this commit are unpushed. `_verify.py` reports 0 errors and 0 warnings across 305 posts.
+
+---
+
 **Date**: 2026-10-03
 **Task**: **SERIES REPAIR, CITATION FORMAT COMPLETED. Committed, NOT pushed.** The five largest drafts, A340 through A344, held back from the repair commit pending proof, are now escaped, 55,515 citations. Each draft's HTML was rendered with the site's kramdown options before and after and is byte-identical, the slowest proof, A341, taking 4 hours 14 minutes because the unescaped original is the slow form. **All 22 drafts are now proved and escaped, 123,832 citations in all, and no X-Planes draft carries the unescaped form.** The five drafts then built fully together in 36 seconds and the rendered audit has no findings. `_verify.py` reports 0 errors and 0 warnings, the A368 ledger holds all 764 quotations, and `verify368.py` passes 1,827 checks.
 

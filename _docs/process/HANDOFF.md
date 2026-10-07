@@ -11,29 +11,30 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `574022c`
-- **Written**: 2026-10-03, by the X-Planes line, which is the only line running.
-- **Tree at write**: **CLEAN.** `git status --porcelain` returned nothing before this file was edited,
-  and `origin/master` equalled `HEAD` at `574022c`, the A367 publication review having pushed, carrying
-  with it the previous handoff `63d4b87` and A367's three earlier commits.
-- **THIS HANDOFF'S OWN COMMIT IS NOT PUSHED.** The pilot asked for the handoff to be updated and
-  restamped and did not ask for a push, so a resuming agent should expect **exactly one unpushed
-  commit, this file's**, and nothing else. **More than one unpushed commit is a divergence worth
-  reporting before acting.** Push it only on the pilot's instruction.
-- **A367 IS COMPLETE, ALL FOUR PASSES, AND PUSHED.** Commits `6fa8e6c` drafted, `942e822` equation
-  density, `df10328` primary references, `574022c` publication review. **Seventy-one of seventy-two
-  drafted and 71 `x_planes` drafts are on disk, which agrees.** One remains. **Nothing in the series is
-  published and publication has never been authorised.** The deploy of `574022c` succeeded, the site
-  root returned 200 and A367's address returned 404, as a draft should. The next prompt is **A368,
-  slotted in the roster as *X-Planes: Synthesis and What the Designation Became***, editorial date
-  2025-12-16, series index 72, **the last article of the series.**
-- **LINE TWO IS FINISHED AND PUBLISHED. THERE IS ONE LINE.** A376 was published on 2026-10-02 as
-  `4d4938e`. Its section below is kept for its apparatus notes and method rules.
-- **THE CORPUS BASELINE IS 0 ERRORS AND 0 WARNINGS ACROSS 304 POSTS.** **Two warnings now means
-  something is wrong.** A `progress-stale` warning reading 71 against 72 drafts on disk is the expected
-  transient while A368 is being drafted and before its channels are updated.
-- **ONE PILOT DECISION IS OPEN**, recorded under Open Items: whether A364's and A365's Epistemic State
-  sections should record that the register rows they rely on were not public at their own dates.
+- **Parent commit** (the repository state this handoff describes): `6a74fc9`
+- **Written**: 2026-10-07, by the X-Planes line.
+- **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
+  not be committed by it. `git status --porcelain` showed only that line.
+- **PUSH STATE.** The last fetch that succeeded showed `origin/master` at `e5fed4c`, the third line's A377
+  publication. **`3d55f0b`, this line's series repair, reached the remote inside that push**, because the
+  tree is shared, which is the A360 precedent and harmless since drafts do not build. **`6a74fc9`, the last
+  five citation-format conversions, is not pushed, and this file's commit will not be either.** A
+  resuming agent should therefore expect **exactly two unpushed commits, `6a74fc9` and this file's.** More
+  than two is a divergence worth reporting. A fetch from this session failed at the sandbox proxy with an
+  authentication refusal, so the remote state is as of the last successful fetch. Push only on the
+  pilot's instruction.
+- **THE X-PLANES SERIES IS COMPLETE IN DRAFT. ALL SEVENTY-TWO ARTICLES, A297 THROUGH A368, HAVE ALL FOUR
+  PASSES.** A368's commits are `4a308c8` drafted, `c345038` equation density, `b0d1c09` primary references
+  and `898fef2` publication review, which pushed. **Nothing in the series is published and publication has
+  never been authorised.**
+- **THE SERIES REPAIR IS DONE FOR EVERYTHING THAT NEEDED NO DECISION**, as `3d55f0b` and `6a74fc9`. It is
+  summarised under Where the Series Stands below and recorded in full in `REVERSE_PROMPT.md` and in the
+  draft summary section `X-Planes Series Repair 2026-10-03`.
+- **THE PILOT HAS DECIDED SIX FURTHER REPAIRS AND THEY ARE SLOTTED, NOT STARTED.** See Open Items and the
+  resume prompt. **The pilot's words were to slot them for execution and move forward after compaction.**
+- **THE CORPUS BASELINE IS 0 ERRORS AND 0 WARNINGS ACROSS 305 POSTS.** The count rose from 304 when the
+  third line published A377.
+- **A THIRD LINE IS ACTIVE IN THIS TREE.** See the section after this one.
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
 day and 147 commits took new identifiers. Anything older than that will not resolve.
@@ -78,6 +79,16 @@ with `git checkout`. **Compute every boundary on the original string, assemble t
 and compare the full heading list before and after.** That is cheap and it is the only thing that catches
 it. **This revision was written that way and its heading comparison is in the commit message.**
 
+
+## A Third Line Published A377 in This Tree
+
+**A separate session drafted and published A377, *Strategic Fragrance Application Under the Three-Spray and
+Four-Spray Scenarios*, a standalone essay, on 2026-10-03**, as commits from `8487bb7` through `e5fed4c`,
+interleaved with this line's repair commit. **Its state is in its own reports in `REVERSE_PROMPT.md` and
+`TASKLOG.md`, and this file does not describe it.** It took A377, so **the next available article number
+is A378.** Its commits touched only its own draft and the three shared channels, and this line's
+commits touched none of its files, which was checked with `git show --stat` on every commit of both
+lines. **The shared-tree warning in the next section applies to it exactly.**
 
 ## THE OTHER LINE COMMITTED THIS LINE'S STAGED WORK INTO ITS OWN COMMIT
 
@@ -211,9 +222,9 @@ dump the heading list and read it**, and check for repeated headings programmati
 
 ## Where the Series Stands
 
-**Seventy-one of seventy-two drafted, A297 through A367, indices 1 through 71 contiguous. One remains**,
-A368 at editorial date 2025-12-16. **Nothing in the series is published and publication has never
-been authorised.**
+**Seventy-two of seventy-two drafted, A297 through A368, indices 1 through 72 contiguous, all four passes
+on every one. The series is complete in draft.** **Nothing in the series is published and publication has
+never been authorised.**
 
 **A363, Boeing X-66**, editorial date 2025-12-11, index 67. Four passes, pushed. 10,795 lines, 59,564
 words, 83 display equations, 4,537 reference definitions, 28.3 percent primaries. Keystone: **the span of
@@ -335,104 +346,207 @@ three ways, the recorded Phase 1A obligations exceed the solicitation's Phase 1A
 schedule slipped at least eight months between October 2024 and July 2025. **The literature is
 silent on any stop-fold conversion in flight, which is the X-76's keystone.**
 
-**ONE REMAINS, A368, THE CLOSING SYNTHESIS**, editorial date 2025-12-16, series index 72.
+**A368, Synthesis and What the Designation Became**, editorial date 2025-12-16, index 72. **Four passes in
+four commits, pushed**, `4a308c8`, `c345038`, `b0d1c09` and `898fef2`. **11,394 lines, 67,108 words of which
+about 14,400 are prose outside the citation runs, 45 display equations, 103 inline expressions, a 40-entry
+symbol table and 5,348 reference definitions**, being 36 primaries, 5,241 research works of which 46 are
+hand-chosen primaries read for their abstracts, and 71 related posts, in 21 H2 and 33 H3 sections with 12
+tables, from a pool of 17,869 with 5,657 admitted to 12 clusters.
 
-**Next available article number: A377.**
+**WHAT A368 FOUND, IN ONE PARAGRAPH.** **The seventy earlier articles were read as data**: ten extractors
+wrote one record per article, every stated fact carrying a line number and a verbatim quotation, and all
+764 quotations were verified by script against the drafts. Counted over that ledger, **the crewed share
+of X vehicles fell from 19 of 27 before 1990 to 7 of 29 after**, Fisher 0.00109, and among aircraft from
+17 of 18 to 7 of 21, the result surviving the most adverse assignment of the eight unstated crews. **The
+share built to measure fell from 48.3 to 31.4 percent and that is not established**, Fisher 0.204, the
+series being about a quarter of the size the question needs. **Over the register, Kendall's tau between
+number and date is 0.984 with one inversion, the X-49 after the X-50**, and every register-era skip has a
+recorded cause, two numerological, one a refusal and two taken by drones, **the first chosen number being
+the X-50 of 2002.** A telescoping identity over the pointer walk recovers the register era's ten skipped
+numbers by a second route that agrees. **Allocations cluster**, the index of dispersion by decade 2.90 to
+3.18, with no third cluster in the 2010s and 2020s. **Five of 20 flown vehicles were designated after first
+flight, from the X-9 of 1951.** The register's allocation procedure itself states that a request suggests
+a designation and may ask for a number the requester likes. No title in a survey of 5,241 works names
+the designation sequence as its subject.
 
-## Open Items
+**THE SERIES REPAIR OF 2026-10-03, DONE WITHOUT A DECISION.**
+- **A302.** A paragraph of X-4 history was replaced from Hallion's NASA history of Dryden.
+- **A346.** The X-49 allocation was redated to 23 May 2003.
+- **A350 and A324.** A duplicated heading was removed, and a malformed book label fixed.
+- **Related-post lists.** 394 labels in A356, A357 and A365 through A368 are now titles.
+- **A367.** Its gate separator bug was fixed: +172 and -16 records, with the propeller cluster going from 146 to 222. Its surnames were trimmed, its survey regenerated, and the repair recorded in its Source Base.
+- **A352 through A355.** Their rows are now gateable, and **`_verify.py` reads `works` rows as well as `records`**, which A365 through A368 always used and the gate never read.
+- **A335 and A337.** Duplicated subsection headings were renamed.
+- **Link text.** 38 dashes and 14 repeated years were removed.
+- **Citation format.** **All 22 unescaped drafts were escaped, 123,832 citations, each proved byte-identical in rendered HTML before and after.** The slowest proof was A341's, at 4 hours 14 minutes, and the five largest drafts now build together in 36 seconds.
 
-**ONE ITEM, AND IT IS THE PILOT'S.** **A364 and A365 state register facts that were not public at their
-own editorial dates**, the X-68A and X-76A rows first appearing in archived copies of the register
-between 15 January and 1 February 2026, and the X-67 gap being visible only through the X-68A row.
-**Neither article's Epistemic State records this.** A366 records it for itself and states it about
-A364. **The decision is whether to add a dated postdating statement to each**, which is a two-paragraph
-edit per article with the archive captures already cited in A366 as
-`ref_mds_addendum_wb_2025_12`, `ref_mds_addendum_wb_2026_01` and `ref_mds_addendum_wb_2026_02`.
-**Do not make the edit without the decision.**
+**Next available article number: A378**, the third line having taken A377.
 
-**Everything decided on 2026-10-02 stays closed**: the mathematics repair `ea593f0`, the A358/A359
-officiality repair `442fc41`, the eight 2126-dated drafts `ee17f86`, `sa.html` deleted, the A376
-attribution left in pushed history.
+## Open Items, Which Are the Pilot's Six Decisions, Slotted
 
-**WHAT A RESUMING AGENT SHOULD EXPECT**: a clean tree, exactly one unpushed commit being this file's,
-0 errors and 0 warnings across 304 posts, and the next prompt being A368. **Anything else is a
-divergence worth reporting before acting.**
+**THE PILOT DECIDED ALL SIX ON 2026-10-07 AND SAID TO SLOT THEM FOR EXECUTION AFTER COMPACTION.** Nothing
+below is started. The pilot's words are quoted for each, then the execution plan, which is this line's
+reading and should be stated to the pilot when work begins.
 
-## Resume prompt for the X-Planes line, and the next prompt is A368
+1. **A297's three errors. "Correct errors in A297. Correct downstream A368 as if A297 had been written
+   correctly to begin with."** The errors are these.
+   - **Injectivity.** A297 defines it as "does every number correspond to at most one programme", which is the definition of a function. It therefore calls the X-44 an injectivity failure.
+   - **Monotonicity.** A297 says it fails at the X-76, which is a skip.
+   - **A third cluster.** A297 predicts one in the 2010s and 2020s, and the counts show none.
+2. **A364 and A365. "Make sure there is a small note."** Each Epistemic State needs a short dated note. The X-68A and X-76A register rows first appeared publicly between 15 January and 1 February 2026, after both articles' dates. The X-67 gap was visible only through the X-68A row.
+3. **"Write a new section for each."** This is a `## Comparison With Ground Prediction` section for the 33 articles that lack one: A334 through A367, except A358.
+4. **"Articles should have all sections and all sections in the same order."** This is the canonical section set in the canonical order, for every per-designation article.
+5. **"Rebuild each article's filter and regenerate its survey."** This applies to every article whose survey admitted off-topic records. The ones seen so far include A323 through A336, for example a soil-machine similitude study, an even-even nuclei paper, an ethanol pool fire and a paper on college students.
+6. **"Recheck slowly."** These are the Open Library book links.
+7. **The handoff rewrite and restamp** is this file, and it is done.
 
-**A367 IS COMPLETE AND THE LINE IS AT AN ARTICLE BOUNDARY. Wait for the pilot's prompt and do not
-start A368 unprompted.**
+**Also still open from before, and not decided:** the bandwidth criterion's phase-delay factor of two
+(MIL-STD-1797 unread), the caps and shouted-title spans on published compiler posts, the eight 2126
+drafts' intent, and A369's factor-of-thirty claim awaiting another repository. None is in the X-Planes
+scope of the six decisions.
 
-**The next article is A368, slotted in the roster as *X-Planes: Synthesis and What the Designation
-Became*.** Editorial date **2025-12-16**, series index **72**, the last article of the series, slug
-following the series pattern, for example `x_planes_synthesis_what_designation_became`. **Check the
-roster title with the pilot's prompt**, since the pilot has retitled slots before.
+## Resume Prompt: Execute the Pilot's Six Decisions
 
-**THE GENRE IS NEW AND THE GENRE TEST DOES NOT APPLY.** There is no aircraft and no anomaly number. It
-is the series' closer, the counterpart of A297's framing article, and its subject is the designation
-system across all seventy-one articles. **Read A297 first**, `_drafts/x_planes_framing.markdown`, for the
-research aircraft model and the questions the series opened with, and **answer them by name.** The
-closer should not be a list of summaries. It is an argument about what an X designation has meant,
-from a sequence number assigned to a crewed research aeroplane in 1946 to a number chosen to spell a
-founding year in 2025.
+**Validate this file, re-read the three channels, then tell the pilot the interpretations below in a few
+lines and begin unless corrected.** Run the gates after each decision, not only at the end. **Commit once
+per decision**, since each is a separate unit the pilot will want to review, unless the pilot prefers one
+commit. Push only on instruction.
 
-**WHAT THE SERIES HANDS A368, ALL RECORDED IN THIS FILE AND THE DRAFTS.**
+**RECOMMENDED ORDER: 1, 2, 6 in the background, 5, then 3 and 4 together, then A368 last.** Decision 5
+changes survey counts and prose that 3 and 4 then move, and every structural change shifts the line
+numbers A368's ledger quotes, so A368 is re-verified last.
 
-- **The nine anomaly cases and their findings**, under *The Nine Anomaly Cases* below, with A366's two
-  additions, that design numbers have started to carry messages and that the register lags its
-  allocations by months, and A358's finding that the register stops being an official primary source
-  for descriptions after the X-60A.
-- **The per-mission numbering rule and its editions**, read in A364 and A366: the 1962 founding
-  document, the 1994 joint instruction, the 2005 and 2020 instructions, and the 2020 clause reserving a
-  discretion to skip. The 2020 instruction is saved as `tmp/a367/prim/dafi2020.txt`.
-- **The register as the measurement instrument.** `tmp/a366/meas.py`, `register.py` and `meas366.py`,
-  copied to `tmp/a367/`, parse it two ways. The pointer walk, the share of advances equal to one, the
-  allocation rate and the founding-year class are A364's and A366's measurements and should be
-  recomputed rather than quoted.
-- **The arc from crewed rocket aircraft to uncrewed demonstrators.** A365 and A367 are both uncrewed
-  DARPA demonstrators and A367's description is the compiler's word unmanned. **Count it from the
-  register and the series**, crewed against uncrewed by decade, rather than asserting it.
-- **The contractor heritage claim A367 corrected.** Bell's research designations are eight, the X-1,
-  X-2, X-5, X-9, X-14, X-16, X-22 and X-76, and the XV-3 and XV-15 are a different sequence. The closer's
-  account of which firms built X-planes should count the same way.
+### Decision 1, A297 and A368
 
-**THE GENRE WILL TEMPT THE DRAFT TO OVERCLAIM, AND THE OPENING CHECK IS THE GUARD.** A synthesis invites
-sentences about every article at once, and every such sentence is a claim about seventy-one documents.
-**Run the opening check against the analysis at the end of the drafting pass**, as A366 directed and A367
-showed works, and scope every generalisation to the articles it counts.
+- **A297, the framing draft.** Rewrite the designation-system section so that it does three things.
+  - **It separates the two conditions.** "Is a function" means no number names two programmes, and "is injective" means no programme holds two numbers.
+  - **It gives the right examples.** The X-44 and X-42 fail the function condition. **Injectivity fails at four pairs**: X-11 and X-12 for Atlas, X-32 and X-35 for the Joint Strike Fighter, X-46 and X-47 for the Navy unmanned combat air vehicle, and X-63 and X-64 for ARISE.
+  - **It places the X-76 correctly.** The X-76 is a skip and breaks **consecutiveness**, not monotonicity. **Monotonicity fails once in the register, the X-49A of 23 May 2003 after the X-50A of 13 February 2002**, because the 50 was requested for its meaning.
+- **A297's clustering sentence.** Change it to two dense periods, the late 1940s and 1950s and the late 1990s and 2000s, with a gap through the 1970s and early 1980s. Remove the third cluster.
+- **A297's predictions stay as they are.** These are the two fifths with a full treatment and the rising non-informational purpose. They are predictions that A368 tests, not errors. Check A297's Conclusion and Epistemic State for the same claims. The Conclusion says "not total, not injective, and not monotone", which stays true, so only its examples need checking.
+- **A368, as if A297 had always been right.**
+  - **Remove the corrective framing.**
+    - **The definitional correction.** Drop the paragraph beginning "The first article defined injectivity as" and the "corrected" row.
+    - **The monotonicity row.** Drop the "refuted" row and the sentence "The first article said monotonicity fails at the X-76, and it does not".
+    - **The cluster correction.** Drop the "three clusters and one gap" correction.
+  - **Replace each with confirmation in A368's own analysis.** The relation section becomes an exposition of A297's three properties with the measured cases.
+  - **Recompute the comparison table and its tally.** Five or six rows will now be confirmed.
+  - **Reword the claims in the opening and in the questions section.** The questions bullet that lists A297's examples must quote A297's corrected wording.
+  - **Remove the A297 bullet** from "Errors in the Series That This Article Found", which then lists two repaired errors.
+  - **Update `verify368.py`.** It currently asserts A297 contains `Monotonicity fails at the X-76` and the backwards definition, and asserts `absent("Monotonicity fails at the X-76")` in A368. It must instead assert A297's corrected text.
+- **Rerun the A368 chain**, all under `tmp/a368/`:
+  - `calc368.py`, `eqpass368.py`, `assemble368.py`, `verify368.py` and `ledgercheck.py`;
+  - the stub build `site_build.sh`;
+  - `_lib/render.py` and `mathrot.py`.
 
-**THE SERIES LINE.** `tmp/a367/series_line.py` generates the opening line from `related.json`. For
-A368 add A367's anchor, `related_post_a367_bell_textron_x76_sprint` with the post_url of
-`2025-12-15-x_planes_bell_textron_x76_sprint`, set the expected count to 70 prior aircraft articles and
-the ordinal to seventy-second, and keep the special-label map, which already covers the X-69 through
-X-75 block.
+### Decision 2, A364 and A365 notes
 
-**SAVED UNDER `tmp/a367/`, WHICH IS GITIGNORED**: the solicitation, slides and answers under `prim/`,
-the award records `awards367*.json`, the engine data sheets and New Zealand reports, the XV-15 history
-`prim/xv15_hist.txt`, the patents `patents367.json`, the abstracts `prim_research.json` and
-`lit_abstracts367.json`, the register `addendum.html` and its archived copies under `wb/`. The DARPA
-budget books are under `tmp/a365/bb/`. **Lift what A368 needs before the directories go.**
+**Add two or three sentences to each Epistemic State.** They should state the dates and cite the three
+archived register captures:
+- `ref_mds_addendum_wb_2025_12`, of 10 December 2025, which shows neither row;
+- `ref_mds_addendum_wb_2026_01`, of 15 January 2026, which shows neither row;
+- `ref_mds_addendum_wb_2026_02`, of 1 February 2026, which shows both.
 
-### What A367 Established That A368 Inherits as Practice
+The URLs are in A366's definitions, and the captures are saved under `tmp/a368/wb/`. A364 and A365 may
+lack those anchors, so add the definitions in sorted position and the Reference list entries.
+**A364's note must say that the X-67 gap was visible only through the X-68A row**, so it too was not
+public at A364's date.
 
-- **RUN THE OPENING CHECK AT THE END OF THE DRAFTING PASS. IT WORKED.** A367's opening failed the check
-  in five places at drafting, was corrected before commit, and held at publication, the first article
-  in four where the publication check found nothing in the opening.
-- **THE COMPETITOR'S DOCUMENTS ARE PRIMARIES ABOUT THE WINNER'S CHOICES.** Aurora's releases turned an
-  inference about Bell's engines into evidence about the rule. **When a choice is attributed to a rule,
-  look for the other bidder.**
-- **A MONEY IDENTITY CAN REFUTE A PREMISE.** Displaying the Phase 1A sum showed it already exceeded the
-  solicitation's Phase 1A figure, which undid the premise of a bound the draft had stated. **Write the
-  arithmetic out and read it.**
-- **A SYMBOLIC DISPLAY HAS NOTHING TO RECOMPUTE AND WAS UNCHECKED.** A mutation test found it. Assert
-  identities verbatim and test them algebraically.
-- **A MUTATION THAT DOES NOT APPLY TESTS NOTHING.** A `sed` mutation silently failed and reported the
-  verifier blind. Apply mutations in Python and assert the target exists first.
-- **A LITERATURE SECTION THAT MAPS IS NOT A REVIEW.** The directive asks for a review, and A367's
-  publication review added a synthesis from fetched abstracts. **Write the synthesis in the drafting
-  pass**, scoped to what the abstracts say.
-- **A DOLLAR SIGN IN PROSE IS MATHEMATICS.** "$15M" would have rendered as an equation and was caught
-  only as a stray symbol. Write amounts in words.
+### Decision 6, Open Library, in the background
+
+**The links.** There are 567 unique `openlibrary.org/works/` URLs across the X-Planes drafts and the
+published posts, listed in `tmp/repair/ol_urls.txt`.
+
+**What the first run showed.** Every URL returns 303 to its slugged page. With redirects followed, 192
+returned 200, and then **every request failed in under 0.1 seconds with connection refused**. That is a
+rate limit, not dead links.
+
+**The recheck.**
+- **One request every five seconds**, with redirects followed. That is about 50 minutes.
+- **Retry each failure three times**, spaced minutes apart.
+- **Stop at the first sign of refusal** and resume later.
+- **Repair only links that fail persistently**, using the A342 to A346 book-repair method: a replacement key is confirmed on title AND author before it is written. Never change a key during a transient fault.
+
+### Decision 5, rebuild the survey filters
+
+**First, measure.** For every X-Planes article, run today's refusal patterns over its research
+references. Use the union of the REFUSE lists in `tmp/a368/cluster368.py` and `tmp/a367/cluster367.py`,
+both with the optional-separator fix, plus a homonym screen. That gives off-topic counts per article and
+the scope. Report it to the pilot before rebuilding.
+
+**Then rebuild each affected article's gate.**
+- **Pipelines.** Each older article's pipeline is under `tmp/aNNN/`, which is gitignored: `harvest*.py`, `gen_refs.py` or `add_refs.py`, `assemble.py` and `verify*.py`. A323 and earlier use `gen_refs.py` and `verify_numbers.py`.
+- **Apply the fixes to each old gate.** These are the separator fix (never `S + r"?"`), real-title refusal cases taken from the pool, and keep cases.
+- **Regenerate the references.** Use the `normkey` dedupe from `refs368.py` and the reports-server surname rule.
+- **Then regenerate every survey statement.**
+- **The trap is the hand-written survey prose.** A342's interpretive paragraph went stale in all six statistics past a verifier that checked strings. **Recompute every number in each article's survey paragraph from the new reference data, never match it.**
+- **`_lib/survey.py` and `_verify.py` gate the rows**, now reading both `records` and `works`, but not the interpretive prose.
+- **Record the rebuild in each article's Source Base**, as A367's repair paragraph does.
+
+### Decisions 3 and 4 together, sections
+
+**The canonical order, by the practice of the early articles**, which matches the structure document's
+twelve sections with the three series sections placed where A298, A312 and A326 place them:
+
+`The Research Question`, `Programme Origin`, `Sizing From First Principles`, `Dependent Systems`,
+`The Flight Test Record`, `Comparison With Ground Prediction`, `What the Data Changed`,
+`The Contemporary Literature`, `Where the Framing Breaks Down`, `The Source Base`, `Epistemic State`,
+`Out of Scope`, `Conclusion`, then `References`.
+
+**MEASURED ON 2026-10-07 UNDER THAT ORDER.**
+- Only 9 of the 70 per-designation articles conform. **43 need work, exactly A321 through A323 and A328 through A367.** Rerun the measurement before starting.
+- **The missing-section counts** are:
+  - Comparison With Ground Prediction, 33;
+  - Sizing From First Principles, 18;
+  - The Flight Test Record, 18;
+  - Programme Origin, 17;
+  - Dependent Systems, 16;
+  - What the Data Changed, 13;
+  - Where the Framing Breaks Down, 11;
+  - The Research Question, 10;
+  - Out of Scope, 2.
+- **There are also 266 article-specific H2 sections**, such as `What the X-15 Was Worth`.
+
+**THREE INTERPRETATIONS TO STATE TO THE PILOT AND USE UNLESS CORRECTED.**
+- **(a) Article-specific sections stay**, placed between the canonical sections where their content belongs. "All sections in the same order" governs the canonical set, not the extras.
+- **(b) A297, the opener, and A368, the closer, are separate genres and are exempt.** If the pilot wants them included, A368 needs the canonical sections too.
+- **(c) Literature comes before Framing**, as in the early articles. Some later articles put Framing first, and the structure document does not fix this. **The pilot may prefer the other order.**
+
+**WHAT A MISSING SECTION GETS.**
+- **New prose written from the article's existing content and sources.**
+- **Anomaly and number-only articles** get sections that say what the record supports. A `Comparison With Ground Prediction` for the X-39 says there was no vehicle and so nothing flew. **That is still a section, not a stub.**
+- **Where an article has the content under another heading, rename or move it** rather than duplicating.
+- **Many documentation-poor articles name their sections differently**, for example `The Aircraft` for Dependent Systems. Map those first, so the new prose covers only what is genuinely absent.
+
+**WHAT MOVES BREAK.**
+- **References by position.** A336 says "the Source Base section above". Grep each moved section's article for `above`, `below`, `earlier`, `following` and `previous`.
+- **Moved quotations in A368's ledger.** Relocate them with the verbatim-search script, as done for A346 and A350, and never edit a quotation's words. A quotation whose citation markup changed gets its markup updated and a note, as A347's was.
+- **Line-number assumptions in each article's own verifier.** Run them.
+
+**`tmp/errata/check_any.py` already enforces the three series sections and the tail order.** Update its
+`tail_req` and `EXTRAS` to the canonical set when this is done, and fix its known noise: it reads
+three-line display fences and LaTeX spacing as defects, and its orphan check misreads.
+
+### Last, A368
+
+A368 counts over the ledger and states the structure of the earlier articles in places. **Rerun
+`ledgercheck.py` after decisions 3 and 4 and relocate moved quotations.** If decision 5 changed a fact A368
+cites, such as a survey count, update A368, and rerun the full A368 chain.
+
+### What A368 and the Repair Day Established as Practice
+
+- **AN EXTRACTOR LEDGER WITH VERBATIM QUOTATIONS IS A RELIABLE WAY TO READ A SERIES AS DATA.** Every
+  stated fact carried a line and a quotation, a script verified all 764, and the classifications were
+  kept separate from the quotations and reported as readings.
+- **THE OPENING CHECK FOUND NINE OVERCLAIMS AT THE END OF DRAFTING AND THE PUBLICATION REVIEW FOUND SEVEN
+  MORE.** A synthesis invites sentences about every article at once, and each is a claim about seventy
+  documents.
+- **A MECHANICAL CHANGE TO FINISHED ARTICLES IS PROVED, NOT ARGUED.** The citation escape was applied only
+  after each draft's rendered HTML was byte-identical before and after, and the five largest were held
+  back until their proofs finished rather than applied on the strength of seventeen.
+- **A REPAIR CAN INVALIDATE ITS OWN REPORTER.** Fixing A302 and A346 broke A368's ledger quotations and
+  made A368's error section stale, and only the verifier noticed. After any repair, rerun the verifiers of
+  every article that quotes or reports the repaired one.
 
 ## The Established Rhythm, Which Is the Most Important Thing Here
 
@@ -474,6 +588,43 @@ band.
 ---
 
 ## Method Rules Earned the Hard Way
+
+### Earned in A368 and the series repair, and the theme is that a gate is only as good as the words it reads
+
+- **`S + r"?"` IS NOT AN OPTIONAL SEPARATOR.** Appending `?` to a one-or-more class makes it lazy, so
+  every `x" + S + r"?y` pattern demanded a separator and never matched the closed compound. **A367's
+  gate missed `propfan` and `tiltwing` for that reason, 203 admission decisions across its pool.** A
+  guard case written unhyphenated found it in A368's gate. **Every keep case is now written both ways,
+  and the optional separator is its own class, `SO = r"[\s\-/]*"`.** No other article's gate had the
+  construction, which was checked.
+- **A CORPUS GATE THAT READS ONE WORD IS BLIND TO A SYNONYM.** `_verify.py` matched only `**N records.**`,
+  so A365 through A368's `**N works.**` rows were never gated, and **a deliberately wrong count passed.**
+  The rule now reads both. **A gate's coverage is a claim to test with a planted error, not to assume.**
+- **A LABEL BUILT FROM AN ANCHOR IS A DEFECT WAITING FOR A READER.** A356 and A357 showed raw anchor slugs,
+  and A365 through A368's assemblers showed `a297 framing`. **Labels come from the target's front-matter
+  title, by `tmp/repair/reltitles.py`.**
+- **THE REPORTS SERVER RETURNS `First Last` FOR NEWER RECORDS.** A367's link texts read `Benjamin M
+  Simmons 2026`. **A reports-server name with no comma keeps its last token, and `X, Jr.` keeps the last
+  token before the comma.** A curated author field is exempt: A367's hand primary `Report CR-114464`.
+- **DEDUPE ON A KEY WITH PUNCTUATION AND ENTITIES REMOVED.** One paper registered twice, in two venues or
+  as preprint and paper, survived because `SB&gt;1` and `SB&#62;1` folded differently. `normkey` in
+  `refs368.py` decodes entities twice, reads `&` as `and` and keeps letters and digits.
+- **A TITLE COUNT BY DESIGNATION ON THE REPORTS SERVER MEASURES ITS TOKENISER.**
+  - **X-ray sources.** `Cyg X-1` swamps the X-1.
+  - **Tokens.** `X-43` and `X-43A` are different tokens, returning 45 and 57 records.
+  - **The title parameter** ranks X-ray sources first.
+  - **No title matches.** The X-24 returned none in its first 100.
+
+  **The measurement was abandoned and the article says so.** It needs hand curation.
+- **A WATCHER WHOSE CONDITION MATCHES ITS OWN COMMAND LINE NEVER EXITS.** `until ! pgrep -f "until grep
+  -q" ...` found itself. **And two watchers for one event are one too many.** Both were found when the
+  pilot asked whether the background shells were productive.
+- **A REGEX COPIED INTO AN F-STRING THROUGH A HEREDOC CAN GAIN A BACKSLASH.** `r'post_url (\\S+) '`
+  matched a literal backslash. **Read back any generated regex before running it.**
+- **THE DIRECTION OF A CONVENTION IS MEASURED, NOT REMEMBERED.** This line told the pilot that the
+  ground-prediction section became a convention partway through the series. **It was the reverse**:
+  the early articles have it and A334 onward mostly do not. The measurement corrected the report before
+  the decision was taken on it.
 
 ### Earned in A367, and the theme is that the other party's documents decide your inference
 
@@ -3726,6 +3877,30 @@ FOUR ARTICLES.** After every equation pass, scan for lines that open with `$$` a
 
 ## Verification Toolchain
 
+### Added in A368 and the series repair, all in gitignored paths
+
+**`tmp/a368/`.**
+- **The ledger.** `ledger/A298.json` through `A367.json`, the extractor records. `ledger/PROMPT.md` is the extractor brief, and `prose/` holds the numbered prose extracts.
+- **`ledgercheck.py`** verifies every quotation against the drafts.
+- **The calculations.** `calc368.py` counts over the ledger and the register and holds the coding table `RECODE`. `eqpass368.py` holds the equation-pass values.
+- **The harvest and gate.** `harvest368.py`, then `cluster368.py`, the gate with 23 keep and 39 refusal cases, then `refs368.py`, which carries `normkey` and the surname rule.
+- **`abstracts368.py`** with `abstracts368.json`, and `prim_research.json`, which is hand-built.
+- **`assemble368.py` and `verify368.py`.** The verifier runs 1,827 checks. It recomputes by second routes and supports `A368_DRAFT` for mutation tests.
+- **`methods_check.json`** holds the Crossref-verified statistical-method originals.
+- **Saved sources.** `prim/` holds the Space Act, the compiler's missing-designations page, allocation procedure, the X-9, X-10 and X-50 pages and appendix 4, the AAW and ARISE fact sheets, and the F-47 correspondence. `wb/` holds the register captures.
+
+**`tmp/repair/`.**
+- **The escape transform and its proof.** `escape_cites.py` is the transform. `render_compare.rb` renders a draft before and after with the site's kramdown options. `compare_one.sh` and `compare_all.sh` run it, the logs are `compare_par.log` and `compare_all.log`, and `cmp/` holds the before and after copies.
+- **`reltitles.py`**, the related-post title builder, which `assemble367.py` and `assemble368.py` import.
+- **`touched_build.sh`** builds every changed draft fully, with the others stubbed. It took 46 seconds for 35 drafts.
+- **`hallion1984_saved.txt`**, the A302 source, which `verify368.py` reads.
+- **`ol_urls.txt` and `ol_status_L.txt`**, for decision 6.
+- **`channels_repair.py` and `handoff_rewrite.py`.**
+
+**`tmp/a367/` gained the repaired gate and builder.** `cluster367.py.prerepair`, `refs367.json.prerepair` and
+`gated367.json.prerepair` are the before-state that `verify367.py`'s repair checks read. **Do not delete
+them while A367's verifier is in use.**
+
 ### Added in A367, and the pattern is that every quotation is found in a saved source
 
 - `verify367.py`, 569 checks, importing no measurement module. It re-parses the register with an HTML
@@ -4420,20 +4595,9 @@ leaving the other's section intact. A360 followed it and updated the other sessi
 verifier warnings in place rather than deleting it. **That is a convention by accident and the pilot
 may want to make it one on purpose.**
 
-### PARTLY RESOLVED on 2026-09-30. A360 and A361 are one programme
+### RESOLVED. A360 and A361 are one programme
 
-**THE DIVISION WAS MADE AND A360 EXECUTED IT.** A360 took the programme, the aerospike and the
-altitude-compensation mathematics. **A361 has the contractor, the instrumentation, the recovery gear
-and the question of what it means for one programme to hold two numbers**, and A360's Out of Scope
-section says so explicitly so that a reader is not surprised.
-
-**WHAT REMAINS OPEN IS WHETHER A361 CAN BE BUILT THE WAY THIS SERIES BUILDS ARTICLES.** `Invocon`
-returns **nothing at all** from the bibliographic index, `Troy7` returns nothing, and `KT Engineering`
-is flooded by a journal with those initials. **Three contractors and no indexed publications between
-them.** A361 therefore has no literature of its own to survey under its subject's name, and will have
-to be built from the instrumentation and measurement literature plus the award record, where the
-recipient name does return decades of contracts. **Raise this before drafting rather than discovering
-it in the first sweep.**
+**A361 was drafted and completed all four passes**, built from the instrumentation literature and the award record as this item proposed.
 
 ### NEW on 2026-09-14. The bandwidth criterion's phase-delay parameter is unresolved
 
@@ -4444,21 +4608,9 @@ handbook, **has not been read and is not in the corpus.** Any later article that
 delay as a handling-qualities level must read it first.
 
 
-### NEW on 2026-09-13. Two published-chain drafts show anchor slugs where titles belong
+### RESOLVED on 2026-10-03. Anchor slugs where titles belong
 
-**A356 AND A357 EACH SHIP FIFTY-EIGHT REFERENCE-LIST ENTRIES WHOSE VISIBLE LINK TEXT IS A RAW ANCHOR
-SLUG**, reading `related_post_a297_framing` where the article title belongs. **Verified still live on
-2026-09-13**, and confined to exactly those two files.
-
-**The cause is a scraper and it is worth understanding because the shape recurs.** Each article read
-its predecessor's bullet list to recover the labels. **A355 shipped no Related Post section at all**,
-so A356's scraper matched nothing and fell back to the anchor, and A357 then read A356's slugs and
-round-tripped them. **A fallback that cannot fail is not a fallback.**
-
-**A358 broke the chain** by building its labels from the roster embedded in this file and asserting
-that every anchor resolves to a title, so the defect does not propagate further. **The two affected
-drafts are not touched**, because that is a change to finished articles and the standing rule is that
-the agent works on the article in hand.
+**A356 and A357's 116 labels, and 278 in A365 through A368, now carry titles** from each target's front matter, by `tmp/repair/reltitles.py`.
 
 ### NEW on 2026-09-13. `check_any.py` now fails corpus-wide and is not the gate
 
@@ -4470,42 +4622,13 @@ punctuation. **A357 trips it 164 times and A358 113 times, entirely on those two
 A358 which were then cited. **The instrument needs repair and the articles do not**, and until it is
 repaired the real gate is `_verify.py`, a production build and `_lib/render.py`, in that order.
 
-### The citation format, which is the largest of these and is repository-wide
+### RESOLVED on 2026-10-03 for the X-Planes series. The citation format
 
-**EVERY ARTICLE IN THIS SERIES THAT CITES IN BULK WRITES `[[text][anchor]]` AND PAYS FOR IT.** A357
-measured the cost at 226.02 seconds against 0.70 for the escaped form `\[[text][anchor]\]`, on
-identical content with identical rendered output. **Several sibling drafts carry thousands of these**,
-one of them with 4,544 citations on a single line, and each is paying the same backtracking cost in
-every build.
+**All 22 unescaped X-Planes drafts were escaped, 123,832 citations, each proved byte-identical in rendered HTML before and after.** The two-line A350 heading and A324 label repairs recorded at the end of this item's old text are also done. **Other series in the repository were not touched.**
 
-**A357 fixed only itself and A358 followed it**, escaping the outer brackets everywhere including
-hand-written prose, and its rendered page carries zero escaped-bracket artefacts. **So two articles now
-use the escaped form and the rest of the series does not.** The change is mechanical, the rendered
-appearance is unchanged, and the corpus survey-row check reads `][anchor]` either way so it keeps
-working. **It is a change to finished drafts rather than to the article in hand**, so it is recorded
-here for the pilot rather than done.
+### RESOLVED on 2026-10-03. Four articles were outside the survey-row check
 
-**Three repairs need the pilot rather than the agent. All three were verified still live on
-2026-09-13**, the duplicated heading at lines 412 and 414 of the X-53 draft and the malformed
-`book_jenkins` label at line 4275 of the X-27 draft. `x_planes_boeing_x53_active_aeroelastic_wing.markdown` still carries its duplicated
-heading at lines 412 and 414, and A324 still carries its malformed book label. **The agent has not
-raised either again during A352 through A356 because neither is inside the article in hand**, which is
-the standing rule and the reason they persist.
-
-### NEW on 2026-09-10. Four articles are outside a corpus check that reads their format
-
-**`_verify.py` gates a survey cluster row against its own citation count by matching a line that
-begins with the record count in bold and carries the citations on the same line.** Thirteen articles of
-this series used exactly that format, being A339 through A351, and A356 uses it again.
-
-**A352, A353 and A354 state no per-cluster count at all, and A355 states it inside a sentence with the
-citations on the line below, which the rule cannot read.** Nothing is ungated, because each article's
-own verifier recomputes the same agreement from its own reference data. **But roughly fifty rows sit
-outside a corpus-wide check that would read them if they were reshaped.**
-
-**It is not repaired**, because all four are complete on their four passes and editing a finished
-article during another article's work mixes two units. **That is the standing rule and it is why this
-is a pilot decision rather than an agent action.**
+**A352 through A355's 56 rows carry `**N works.**` counts, and `_verify.py` and `_lib/survey.py` now read `works` as well as `records`.** A planted wrong count was caught after the change and passed before it.
 
 ### RESOLVED on 2026-09-04. The book identifiers in A342 through A346 were repaired
 
@@ -4536,35 +4659,17 @@ and that is now demonstrated rather than predicted.
 better interface exists, which this agent has not established. **The workaround is to read the
 programme's own index where one exists**, which A354 did for sixty-one documents no query assembled.
 
-### A350 ships a duplicated heading, found while writing A352 and not repaired
+### RESOLVED on 2026-10-03. A350's duplicated heading
 
-**`x_planes_boeing_x53_active_aeroelastic_wing.markdown` carries `## The Contemporary Literature`
-twice, at lines 412 and 414.** It was found while comparing section structures for A352.
+Removed.
 
-**It is not repaired**, because A350 is complete on all four passes and editing a finished article
-during another article's work mixes two units. **A351's assembler asserts its own heading appears
-exactly once and A352's asserts the same**, so the class cannot recur in a new article. The repair is
-a two-line deletion whenever the pilot wants it.
+### RESOLVED on 2026-10-03. A324's book label
 
-### A324 carries a malformed book label over a correct key, and it is the one live repair
+**`book_jenkins` reads `Dennis R. Jenkins 2000, Hypersonics Before the Shuttle`**, verified against the Open Library work, whose own author record is the malformed string.
 
-**`book_jenkins` reads `Administration, National Aeronautics and Space, Jenkins, Dennis R...`**, which
-is the repository's author field copied verbatim with its ellipsis, so the article's own label
-swallowed the title. **The identifier is right and the rendered citation is not.**
+### SLOTTED AS THE PILOT'S DECISION 6. Open Library links
 
-**It is the single remaining item in the 299 of 300**, and it is outside A342 through A346, in an
-article that has completed all four passes. **The agent reported it rather than editing it**, because
-the agent will not touch articles outside the one in hand absent instruction.
-
-### A substantial fraction of OpenLibrary work pages return Internal Error to a reader
-
-**Four of the 22 book URLs in the five repaired drafts failed on two consecutive serial requests**, and
-the condition also hits keys A347 shipped and the pilot has already approved, namely Schlichting at
-`OL11833044W` and Bramwell at `OL16987916W`.
-
-**No key was changed to chase this.** Selecting an identifier against a transient server fault is the
-error the whole book repair was spent avoiding. **If it persists it is a reader-facing problem for the
-whole series rather than for any one article**, and it wants its own decision.
+**The pilot chose a slow recheck.** The plan and the first run's result are in the resume prompt above.
 
 ### The stub build, whose cost is now known and falling
 
@@ -4658,18 +4763,16 @@ recur for some later designation and the handling is already settled.
 
 **A346 is the first article in fifty with no page in the specialist designation directory**, whose
 index runs straight from X-48 to X-50. **That is a fact about the source and not a defect in the
-article**, and it is consistent with the designation having been skipped in 2002 and filled in 2004.
+article**, and it is consistent with the designation having been skipped in 2002 and filled on 23 May 2003, the date the register gives and A346 now states.
 
 **Nothing needs deciding unless the pilot wants a substitute source named** for the articles ahead
 that may share the gap. The agent will continue assembling specifications from the manufacturer, the
 sponsor and the general press, and saying so in the Source Base, absent instruction.
 
-### Still open from before, unchanged
+### Still open from before
 
-**The gate re-harvest of the escaped clusters in A323, A326, A328, A329 and A330.** Rare off-topic
-citations survive in the earlier articles. They were deliberately not stripped, because every survey
-states its own record counts in prose and removing citations desynchronises them. **The repair belongs
-at the gate as a rebuild and is a separate unit of work that has not been done.**
+**The gate re-harvest of the older articles is SLOTTED AS THE PILOT'S DECISION 5**, rebuild every affected
+gate and regenerate its survey. See the resume prompt.
 
 **A369's factor-of-roughly-thirty claim awaits the Keleusma decision register**, which is in another
 repository.
@@ -4819,6 +4922,10 @@ at its date, which is the documentation pattern of the series' last years. **Bot
 competed X-plane programme carried the same propulsion answer**, so the rule shaped the aeroplane.
 **And the contractor's heritage claim counts convertiplane numbers as X-planes**, which the per-mission
 rule does not, a confusion of sequences the closer should state once and correctly.
+
+**A368, THE CLOSER, IS WRITTEN AND CORRECTED TWO THINGS RECORDED IN THIS SECTION.**
+- **The ordering pattern is older than this section says.** The paragraphs below present a designation given after flight as a pattern of the late series: the X-53, the X-55 and the X-62. **The ledger found five of 20 flown vehicles designated after first flight, the earliest the X-9 of 1951**, which was redesignated from the RTV-A series. The X-28A followed in 1971. **The register has recorded outcomes as well as authorised attempts since its first decade, not "at least as often".**
+- **The first chosen number in the research series is the X-50 of 2002, not the X-76 of 2025.** The X-49A's allocation after the X-50A is the register's only monotonicity failure.
 
 **A358 ADDS THE FINDING THE CLOSER MOST NEEDS, AND IT IS ABOUT THE REGISTER RATHER THAN ABOUT ANY
 AEROPLANE.** The register stops being a primary source partway through this series. Its compiler's own
