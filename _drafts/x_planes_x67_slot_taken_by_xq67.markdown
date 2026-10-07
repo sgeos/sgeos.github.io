@@ -2354,6 +2354,8 @@ may have resolved on 2025-12-12 and may resolve later. **The article's claim is 
 checked and not about the whole interval**, and it is the only claim here that could change without any
 document changing.
 
+**A note on the register, added on 7 October 2026.** The X-68A and X-76A rows first appeared in the public register between 15 January and 1 February 2026, after this article's date. The register's page as archived on 10 December 2025 \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries both new rows. **In the register, the passed number at 67 is visible only through the X-68A row**, so a reader of the register at this article's date would have seen the X-67 as the next number rather than as a passed one. The skip is therefore a fact that the register made public after this article's date, and the statement above that no event in the subject is dated after the dateline holds for the allocations and not for their publication.
+
 ### Historical Fact, From Primary Documents
 
 - **The designation XQ-67A was allocated on 2023-07-19 to General Atomics, with
@@ -2648,6 +2650,9 @@ rebuilt because the official one was withdrawn.**
 - [Current Designations of U.S. Military Aircraft, compiled by Andreas Parsch, read in part][ref_dsnet_aircraft]
 - [Department of the Air Force Instruction 16-401, Designating and Naming Defense Military Aerospace Vehicles, 3 November 2020, sections 4 and 5 and Attachment 2 read directly][ref_dafi_16_401_2020]
 - [DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998 Until November 2025, compiled by Andreas Parsch from data obtained under the Freedom of Information Act, read in full as 532 parsed rows and 122 end notes][ref_mds_addendum]
+- [DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]
+- [DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]
+- [DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, 12 May 2004 incorporating Change 1 of 31 August 2018, read in part from a public web archive snapshot after the Department's own portal returned HTTP 403, and the edition whose Change 1 the article had been told cancelled the public list][ref_dod_412015l_2004]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, October 1998, reissued under DoD Directive 4120.15 of 2 May 1985 and cancelling the March 1996 edition, signed by Schneiter, scanned by Andreas Parsch, FRONT MATTER READ as page images because the scan carries no text layer][ref_dod_412015l_1998]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, the last public edition carrying Change 1 of 31 August 2018, at the Department's own portal, which returns HTTP 403 to every client this article has tried. The document itself was read from a web archive snapshot and is cited separately][ref_dod_412015l_2018]
@@ -2671,6 +2676,9 @@ rebuilt because the official one was withdrawn.**
 [ref_gaasi_autonomy_2025]: https://www.ga-asi.com/xq-67a-demonstrates-autonomy-and-datalink-interoperability-during-high-desert-flight-test
 [ref_gaasi_firstflight]: https://www.ga-asi.com/ga-asi-makes-first-flight-of-xq-67a-obss
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2025_12]: http://web.archive.org/web/20251210111623/https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2026_01]: http://web.archive.org/web/20260115211518/https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2026_02]: http://web.archive.org/web/20260201194217/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_missing_mds]: https://www.designation-systems.net/usmilav/missing-mds.html
 [ref_usaspending]: https://www.usaspending.gov/
 

@@ -228,8 +228,8 @@ population the previous article used.
 The register prints the name as `Longshot`. **The sponsoring agency and the contractor both write it
 LongShot**, with an internal capital, in their own announcements
 \[[DARPA LongShot programme][ref_darpa_longshot]\] \[[General Atomics on the X-68A][ref_gaasi_x68a]\].
-The difference is trivial and it is recorded because the register is the only document inside this
-article's date that gives the name official standing, and the form it gives official standing to is
+The difference is trivial and it is recorded because the register is the only document that gives the
+name official standing, and the form it gives official standing to is
 the one nobody else uses.
 
 ## Programme Origin, Which the Award Record Tells Better Than the Press Does
@@ -1700,8 +1700,9 @@ date.
 
 **The designation was allocated 115 days before this article's date and
 announced 66 days after it**, on 17 February 2026. So at its own date
-the designation existed in the register, which is how this article knows it, and had not been
-publicly announced.
+the designation had been allocated and had not been publicly announced.
+
+**A note on the register, added on 7 October 2026.** The register row this article reads was not public at this article's date either. The register's page as archived on 10 December 2025 \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries the X-68A row, so the row first appeared between 15 January and 1 February 2026, 148 to 165 days after the allocation it records. **Every reading of the row in this article is therefore a reading of a page later than the article's date**, like the announcement.
 
 The following are outside the date and are used anyway, each marked where it appears.
 
@@ -1721,6 +1722,7 @@ The following are outside the date and are used anyway, each marked where it app
   record's current totals and reflect contract modifications through May 2026, so the Phase 3
   figure in particular is larger than any figure that could have been stated at this article's
   date.
+- The register row itself, as the note above says.
 - The literature sweep, which was run from current indexes and includes records dated to
   2026.
 
@@ -1823,6 +1825,9 @@ to carry a weapon it is barely larger than.
 - [DARPA PB2026 justification][ref_darpa_pb2026]
 - [DARPA PB2027 justification][ref_darpa_pb2027]
 - [DOD 4120.15-L Addendum][ref_mds_addendum]
+- [DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]
+- [DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]
+- [DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]
 - [F-15E fact sheet][ref_f15e]
 - [General Atomics on the X-68A][ref_gaasi_x68a]
 - [Solicitation HR001120S0037][ref_baa_sam]
@@ -1850,6 +1855,9 @@ to carry a weapon it is barely larger than.
 [ref_f15e]: http://web.archive.org/web/20251201192054/https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/
 [ref_gaasi_x68a]: https://www.ga-asi.com/air-force-awards-darpa-ga-asi-longshot-new-designation-x-68a
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2025_12]: http://web.archive.org/web/20251210111623/https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2026_01]: http://web.archive.org/web/20260115211518/https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_wb_2026_02]: http://web.archive.org/web/20260201194217/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_taurus]: https://en.wikipedia.org/wiki/Taurus_KEPD_350
 [ref_taurus_ds]: https://taurus-systems.de/wp-content/uploads/2016/10/TAURUS_KEPD_350E-EN-Aug2014.pdf
 [ref_twz_x68a]: https://www.twz.com/news-features/x-68a-longshot-air-to-air-missile-carrying-drone-moves-closer-to-f-15-launch
