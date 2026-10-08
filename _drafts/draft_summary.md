@@ -8313,6 +8313,54 @@ Part two back-references part one, which is legal because 2026-01-27 precedes 20
 makes no forward reference. Both dates have passed, so batch publication resolves the internal
 cross-reference immediately.
 
+## X-Planes Survey Rebuild and Defect Repair 2026-10-07
+
+
+**DECISION 6, `c6112fa`.** All 48 wrong Open Library links in 18 published posts now point to the cited work. Each expected title and author surname was written out by hand from the citing sentence (`tmp/repair/ol_resolve.py`), and every new key was confirmed against its work record. Rolfe and Staples resolves to a 1986 work that lists Staples alone, and Zeihan's work title drops its leading article.
+
+**DECISION 5, the survey filters, `15dbdbb`.**
+- **15,469 off-topic records were removed from 62 articles**, taking the series from 286,913 research references to 271,444.
+- **Ten early articles dropped nothing**, A297 to A301, A303, A306 and A310 to A312.
+- **How each record was judged.** One agent per article read every screen candidate and a seeded sample of 300 unflagged records, and often every title. Each homonym found became a pattern that was swept through the whole survey. The drops, patterns and sample results are in `tmp/fix5/<ART>/`, and per-article results are in `tmp/fix5/PROGRESS.md`.
+- **The tool spliced into the drafts and never reassembled them** (`tmp/fix5/survey_tool.py`). Each record was removed from its definition, its list lines and its citation runs. Cluster rows, tables and totals were recounted, and `tmp/fix5/check5.py` checks every article.
+- **Generated citation lists inside sentences in A318 to A323** were spliced by ruling, since removing one listed work changes no claim. **Hand-chosen prose citations of off-topic works** in A302 to A317 were removed in a separate pass. Where a sentence made a false claim about the work it cited, that clause was removed, and each case is quoted in `tmp/fix5/PROGRESS.md`.
+- **Every present-state survey number was recomputed, never matched**, from each article's own counting rule, reproduced first against the committed draft. Statements narrating a past pass were left as history. Each article's Source Base gained a paragraph dated 7 October 2026 recording the rebuild.
+- **Contaminated prose rewritten from each article's own facts.** A344 had X-45 and X-46 text. A343 had X-45A text. A354 had X-56 flutter text, including a histogram that did not exist.
+- **A365's 72 research links** had been written as the bare DTIC or NTRS host page. They now point to their DOIs or NTRS citations, recovered by rerunning the generator's own assignment.
+
+**EXISTING DEFECTS FIXED**, each logged in `tmp/fix5/flagfix_log.jsonl`:
+- A341: three orders of magnitude, six defects, twelve percent, and a named section.
+- A339: four occasions, and two position references.
+- A340, A351, A352, A357 and A364: position references.
+- A360: a clause pointing to a pairwise test that does not exist, removed.
+- A365: "fiveth" twice, and three lower-case sentence starts.
+- A335, A342, A344 and A308: acronyms expanded.
+- A363: capitals emphasis.
+- A358: a count given in dollars.
+- A362: the Reynolds range reconciled.
+- A338: 2.6 was estimated, not measured, and a citation escaped.
+- A337: the 13 percent attributed to scale.
+- A350: three sweeps.
+- A353: the gate named at its first use.
+- A334: two landing sites, not three runways.
+- A351: the shrinking-decade claim qualified.
+- A361: grammar.
+
+**GATES.**
+- `_verify.py` reports 0 errors and 0 warnings.
+- A build of all 72 changed drafts is clean, and the rendered audit has no findings.
+- The A368 ledger has 70 records and 0 failed quotes. 219 quotations were relocated, and two were re-quoted with repair notes after A335's and A365's lines were corrected.
+- `calc368.py` runs and `verify368.py` passes 1,845 checks.
+- check5 prints RESULT PASS for all 72 articles.
+- **Article verifiers.** Several dateline checks now skip only lines that name the 3 or 7 October 2026 repair date. A352's verifier was stripping the wrong citation form, and that is fixed.
+
+**NOT FIXED, NEEDS THE PILOT OR A SOURCE.**
+- A318 line 447 states 28.4 percent period against 34.9 percent contemporary, and no rule reproduces it.
+- Several hand-written counts cannot be recomputed: A326's 365 and 108, A327's 268, A332's 175, 680 and forty-three, A346's 131, and A330's 1,692.
+- A313 keeps two doubtful airborne-sensor works.
+- `tmp/a365/refs365.py` still writes bare host URLs when a record has no DOI.
+- The prose-citation agent started `verify_urls` by mistake. It sends network requests only and writes nothing to the drafts.
+
 ## X-Planes Pilot Decisions Executed 2026-10-07
 
 **DONE AND COMMITTED, NOT PUSHED, NOT PUBLISHED.**
