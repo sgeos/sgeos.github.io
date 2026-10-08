@@ -163,10 +163,10 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 - [Miller and Thorpe 1995][research_miller_thorpe_1995]
 - [Rushby 1999][research_rushby_1999]
 
-[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL15095551W/Dynamics_of_flight
-[book_kelly_pilot_maker]: https://openlibrary.org/works/OL1900097W/The_pilot_maker
+[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL2926749W/Dynamics_of_flight
+[book_kelly_pilot_maker]: https://openlibrary.org/works/OL6600846W/The_pilot_maker
 [book_kopetz_real_time_systems]: https://link.springer.com/book/10.1007/978-1-4419-8237-7
-[book_rolfe_staples_flight_simulation]: https://openlibrary.org/works/OL15127495W/Flight_simulation
+[book_rolfe_staples_flight_simulation]: https://openlibrary.org/works/OL19183737W/Flight_simulation
 
 [ref_arinc_653]: https://www.aviation-ia.com/products/653p1-5-avionics-application-software-standard-interface-part-1-required-services
 [ref_link_trainer_nasm]: https://en.wikipedia.org/wiki/Link_Trainer

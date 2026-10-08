@@ -281,7 +281,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 - [Wright 1936][research_wright_1936]
 
 [book_boehm_software_engineering_economics]: https://www.pearson.com/en-us/subject-catalog/p/software-engineering-economics/P200000003444
-[book_bowen_radar_days]: https://openlibrary.org/works/OL2723583W/Radar_days
+[book_bowen_radar_days]: https://openlibrary.org/works/OL5027554W/Radar_days
 [book_brooks_mythical_man_month]: https://www.pearson.com/en-us/subject-catalog/p/mythical-man-month-the-essays-on-software-engineering-anniversary-edition/P200000009261
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_grier_when_computers_were_human]: https://press.princeton.edu/books/paperback/9780691133829/when-computers-were-human
@@ -289,7 +289,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 [book_liu_realtime_systems]: https://www.pearson.com/en-us/subject-catalog/p/real-time-systems/P200000003296
 [book_mindell_digital_apollo]: https://mitpress.mit.edu/9780262516105/digital-apollo/
 [book_redmond_smith_sage]: https://mitpress.mit.edu/9780262182010/from-whirlwind-to-mitre/
-[book_skolnik_radar]: https://openlibrary.org/works/OL15142108W/Introduction_to_radar_systems
+[book_skolnik_radar]: https://openlibrary.org/works/OL221640W/Introduction_to_radar_systems
 [book_small_analog_computing]: https://www.press.jhu.edu/books/title/2210/analogue-alternative
 [book_tomayko_shuttle_software]: https://ntrs.nasa.gov/citations/19880069935
 
@@ -330,7 +330,7 @@ The next article in the series covers pre-war computing origins and ballistics w
 [research_liu_layland_1973]: https://dl.acm.org/doi/10.1145/321738.321743
 [research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
 [research_moore_shannon_1956]: https://www.sciencedirect.com/science/article/pii/0016003256905598
-[research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
+[research_moulton_1926]: https://openlibrary.org/works/OL2588607W/New_methods_in_exterior_ballistics
 [research_nagy_farmer_bui_trancik_2013]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669
 [research_parnas_1972]: https://dl.acm.org/doi/10.1145/361598.361623
 [research_roberts_wessler_1970]: https://dl.acm.org/doi/10.1145/1476936.1477020

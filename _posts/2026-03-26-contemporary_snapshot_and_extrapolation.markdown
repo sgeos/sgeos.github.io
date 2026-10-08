@@ -146,11 +146,11 @@ Any comparative political-economy framework claiming universal applicability acr
 - [Related Post, India and the Late Arrivals][related_post_india_and_late_arrivals]
 - [Related Post, The Non-Industrializers and Edge Cases][related_post_non_industrializers]
 
-[book_kotkin_neo_feudalism]: https://openlibrary.org/works/OL21430170W/The_coming_of_neo-feudalism
-[book_perez_technological_revolutions]: https://openlibrary.org/works/OL15960036W/Technological_revolutions_and_financial_capital
-[book_sachs_common_wealth]: https://openlibrary.org/works/OL18349488W/Common_wealth
+[book_kotkin_neo_feudalism]: https://openlibrary.org/works/OL24756488W/The_coming_of_neo-feudalism
+[book_perez_technological_revolutions]: https://openlibrary.org/works/OL224128W/Technological_revolutions_and_financial_capital
+[book_sachs_common_wealth]: https://openlibrary.org/works/OL3816926W/Common_wealth
 [book_smil_energy_transitions]: https://openlibrary.org/works/OL16311895W/Energy_transitions
-[book_zeihan_end_of_the_world]: https://openlibrary.org/works/OL27822086W/The_End_of_the_World_Is_Just_the_Beginning
+[book_zeihan_end_of_the_world]: https://openlibrary.org/works/OL26510694W/The_End_of_the_World_Is_Just_the_Beginning
 [related_post_american_ascent]: {% post_url 2026-03-18-american_ascent %}
 [related_post_china_rise]: {% post_url 2026-03-23-china_rise %}
 [related_post_east_asian_tigers]: {% post_url 2026-03-22-east_asian_tigers %}

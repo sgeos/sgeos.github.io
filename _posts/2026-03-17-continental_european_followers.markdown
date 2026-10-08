@@ -185,7 +185,7 @@ The contemporary continental European positioning reflects the mechanisms of the
 - [Squicciarini, Mara P. and Voigtländer, Nico, Human capital and industrialization, Evidence from the Age of Enlightenment, Quarterly Journal of Economics 130, 2015][research_squicciarini_voigtlander_human_capital]
 
 [book_broadberry_productivity_race]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-history/productivity-race-british-manufacturing-international-perspective-18501990
-[book_cameron_france]: https://openlibrary.org/works/OL2004073W/France_and_the_economic_development_of_Europe_1800-1914
+[book_cameron_france]: https://openlibrary.org/works/OL3293636W/France_and_the_economic_development_of_Europe_1800-1914
 [book_findlay_orourke_power_and_plenty]: https://press.princeton.edu/books/paperback/9780691143279/power-and-plenty
 [book_gerschenkron_backwardness]: https://www.hup.harvard.edu/books/9780674226005
 [book_kindleberger_france_britain]: https://www.hup.harvard.edu/books/9780674230101

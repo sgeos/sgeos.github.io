@@ -174,11 +174,11 @@ The next article in the series treats the transition from wartime to peacetime c
 
 [book_copeland_colossus]: https://global.oup.com/academic/product/colossus-9780199578146
 [book_copeland_essential_turing]: https://global.oup.com/academic/product/the-essential-turing-9780198250807
-[book_feynman_los_alamos]: https://openlibrary.org/works/OL262456W/Surely_You're_Joking_Mr._Feynman!
-[book_hodges_turing_enigma]: https://openlibrary.org/works/OL2681594W/Alan_Turing
-[book_kahn_codebreakers]: https://openlibrary.org/works/OL2735373W/The_codebreakers
+[book_feynman_los_alamos]: https://openlibrary.org/works/OL514629W/Surely_You're_Joking_Mr._Feynman!
+[book_hodges_turing_enigma]: https://openlibrary.org/works/OL61215W/Alan_Turing
+[book_kahn_codebreakers]: https://openlibrary.org/works/OL2543107W/The_codebreakers
 [book_rhodes_making_atomic_bomb]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
-[book_welchman_hut_six_story]: https://openlibrary.org/works/OL5099089W/The_hut_six_story
+[book_welchman_hut_six_story]: https://openlibrary.org/works/OL2112420W/The_hut_six_story
 
 [ref_flowers_colossus]: https://www.tnmoc.org/colossus
 [ref_polish_cryptanalysis]: https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/wwii/enigma_cryptologic_mathematician.pdf
@@ -192,7 +192,7 @@ The next article in the series treats the transition from wartime to peacetime c
 [research_charney_fjortoft_vonneumann_1950]: https://onlinelibrary.wiley.com/doi/10.1111/j.2153-3490.1950.tb00336.x
 [research_flowers_1983]: https://ieeexplore.ieee.org/document/4640571
 [research_good_michie_timms_1945]: https://www.alanturing.net/turing_archive/archive/index/tunnyreportindex.html
-[research_hopper_1946]: https://openlibrary.org/works/OL15108014W/A_manual_of_operation_for_the_automatic_sequence_controlled_calculator
+[research_hopper_1946]: https://openlibrary.org/works/OL192052W/A_manual_of_operation_for_the_automatic_sequence_controlled_calculator
 [research_metropolis_1987]: https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-88-9067
 [research_metropolis_nelson_1982]: https://ieeexplore.ieee.org/document/4640726
 [research_randell_1980]: https://ieeexplore.ieee.org/document/4640474

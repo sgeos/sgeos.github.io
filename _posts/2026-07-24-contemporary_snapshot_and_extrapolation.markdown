@@ -191,14 +191,14 @@ This concludes the twelve-article series on aerospace, programming languages, an
 - [Sevilla et al. 2022][research_sevilla_2022]
 - [Shor 1994][research_shor_1994]
 
-[book_kotkin_neo_feudalism]: https://openlibrary.org/works/OL21290580W/The_coming_of_neo-feudalism
-[book_miller_chip_war]: https://openlibrary.org/works/OL29337620W/Chip_War
-[book_perez_technological_revolutions]: https://openlibrary.org/works/OL2761094W/Technological_Revolutions_and_Financial_Capital
+[book_kotkin_neo_feudalism]: https://openlibrary.org/works/OL24756488W/The_coming_of_neo-feudalism
+[book_miller_chip_war]: https://openlibrary.org/works/OL27846746W/Chip_War
+[book_perez_technological_revolutions]: https://openlibrary.org/works/OL224128W/Technological_Revolutions_and_Financial_Capital
 [book_sachs_ages_of_globalization]: http://cup.columbia.edu/book/the-ages-of-globalization/9780231193740
-[book_sanger_perfect_weapon]: https://openlibrary.org/works/OL21290627W/The_perfect_weapon
-[book_scharre_four_battlegrounds]: https://openlibrary.org/works/OL29337663W/Four_Battlegrounds
-[book_smil_how_the_world_really_works]: https://openlibrary.org/works/OL27332893W/How_the_World_Really_Works
-[book_zeihan_end_of_the_world]: https://openlibrary.org/works/OL26996636W/The_End_of_the_World_Is_Just_the_Beginning
+[book_sanger_perfect_weapon]: https://openlibrary.org/works/OL19742786W/The_perfect_weapon
+[book_scharre_four_battlegrounds]: https://openlibrary.org/works/OL28350150W/Four_Battlegrounds
+[book_smil_how_the_world_really_works]: https://openlibrary.org/works/OL25283119W/How_the_World_Really_Works
+[book_zeihan_end_of_the_world]: https://openlibrary.org/works/OL26510694W/The_End_of_the_World_Is_Just_the_Beginning
 
 [ref_nist_pqc]: https://csrc.nist.gov/projects/post-quantum-cryptography
 [ref_tsmc]: https://www.tsmc.com/english

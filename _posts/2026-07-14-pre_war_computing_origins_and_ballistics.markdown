@@ -185,8 +185,8 @@ The next article in the series treats the wartime computing efforts that ran in 
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_goldstine_computer_from_pascal_to_von_neumann]: https://press.princeton.edu/books/paperback/9780691023670/the-computer-from-pascal-to-von-neumann
 [book_grier_when_computers_were_human]: https://press.princeton.edu/books/paperback/9780691133829/when-computers-were-human
-[book_mccartney_eniac]: https://openlibrary.org/works/OL2724030W/ENIAC
-[book_mccoy_modern_exterior_ballistics]: https://openlibrary.org/works/OL10298553W/Modern_exterior_ballistics
+[book_mccartney_eniac]: https://openlibrary.org/works/OL3949725W/ENIAC
+[book_mccoy_modern_exterior_ballistics]: https://openlibrary.org/works/OL5096454W/Modern_exterior_ballistics
 [book_mindell_between_human_and_machine]: https://www.press.jhu.edu/books/title/2129/between-human-and-machine
 [book_owens_bush_analyzer]: https://www.jstor.org/stable/25690567
 [book_randell_origins_of_digital_computers]: https://link.springer.com/book/9781475705669
@@ -206,7 +206,7 @@ The next article in the series treats the wartime computing efforts that ran in 
 [research_hartree_1935]: https://www.nature.com/articles/135940a0
 [research_mauchly_1942]: https://en.wikipedia.org/wiki/John_Mauchly
 [research_metropolis_nelson_1982]: https://ieeexplore.ieee.org/document/4640726
-[research_moulton_1926]: https://openlibrary.org/works/OL15194913W/New_methods_in_exterior_ballistics
+[research_moulton_1926]: https://openlibrary.org/works/OL2588607W/New_methods_in_exterior_ballistics
 [research_rojas_1997]: https://ieeexplore.ieee.org/document/586074
 [research_stibitz_1940]: https://ieeexplore.ieee.org/document/5222693
 [research_thomson_1876]: https://royalsocietypublishing.org/doi/10.1098/rspl.1876.0038

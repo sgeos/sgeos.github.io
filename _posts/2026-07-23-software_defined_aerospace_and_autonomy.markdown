@@ -157,9 +157,9 @@ The next article in the series takes the contemporary snapshot as of 2026, appli
 - [LaValle 1998][research_lavalle_1998]
 - [Mitola 1995][research_mitola_1995]
 
-[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL15095551W/Dynamics_of_flight
-[book_newcome_unmanned_aviation]: https://openlibrary.org/works/OL5844562W/Unmanned_aviation
-[book_spitzer_digital_avionics_handbook]: https://openlibrary.org/works/OL8081940W/Digital_avionics_handbook
+[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL2926749W/Dynamics_of_flight
+[book_newcome_unmanned_aviation]: https://openlibrary.org/works/OL8874084W/Unmanned_aviation
+[book_spitzer_digital_avionics_handbook]: https://openlibrary.org/works/OL17480793W/Digital_avionics_handbook
 
 [ref_airbus_a320_fbw]: https://en.wikipedia.org/wiki/Airbus_A320_family
 [ref_ansi_jaus_autonomy]: https://en.wikipedia.org/wiki/JAUS

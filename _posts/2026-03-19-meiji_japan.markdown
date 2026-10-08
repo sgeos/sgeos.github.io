@@ -167,9 +167,9 @@ The sixth article of the series treats Soviet forced industrialization, the soci
 - [Kohli, Atul, Where do high growth political economies come from, The Japanese lineage of Korea's developmental state, World Development 22, 1994][research_kohli_korea]
 - [Squicciarini, Mara P. and Voigtländer, Nico, Human capital and industrialization, Evidence from the Age of Enlightenment, Quarterly Journal of Economics 130, 2015][research_squicciarini_voigtlander_human_capital]
 
-[book_beasley_meiji_restoration]: https://openlibrary.org/works/OL5085847W/The_Meiji_Restoration
+[book_beasley_meiji_restoration]: https://openlibrary.org/works/OL19362935W/The_Meiji_Restoration
 [book_jansen_modern_japan]: https://www.hup.harvard.edu/books/9780674009912
-[book_ohkawa_rosovsky_japanese_growth]: https://openlibrary.org/works/OL3958729W/Japanese_economic_growth
+[book_ohkawa_rosovsky_japanese_growth]: https://openlibrary.org/works/OL3025275W/Japanese_economic_growth
 [related_post_american_ascent]: {% post_url 2026-03-18-american_ascent %}
 [related_post_continental_followers]: {% post_url 2026-03-17-continental_european_followers %}
 [related_post_first_mover_britain]: {% post_url 2026-03-16-first_mover_britain %}

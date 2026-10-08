@@ -167,9 +167,9 @@ The next article in the series treats the Advanced Research Projects Agency Netw
 - [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965]
 - [Klumpp 1971][research_klumpp_1971]
 
-[book_eyles_sunburst_luminary]: https://openlibrary.org/works/OL20105728W/Sunburst_and_Luminary
-[book_hall_journey_to_moon]: https://openlibrary.org/works/OL5798344W/Journey_to_the_Moon
-[book_mackenzie_inventing_accuracy]: https://openlibrary.org/works/OL2664824W/Inventing_accuracy
+[book_eyles_sunburst_luminary]: https://openlibrary.org/works/OL20599917W/Sunburst_and_Luminary
+[book_hall_journey_to_moon]: https://openlibrary.org/works/OL3341324W/Journey_to_the_Moon
+[book_mackenzie_inventing_accuracy]: https://openlibrary.org/works/OL8530023W/Inventing_accuracy
 [book_mindell_digital_apollo]: https://mitpress.mit.edu/9780262516105/digital-apollo/
 [book_obrien_apollo_guidance_computer]: https://link.springer.com/book/10.1007/978-1-4419-0877-3
 

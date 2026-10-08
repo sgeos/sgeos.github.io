@@ -225,7 +225,7 @@ The subsequent ten articles of the series treat later industrialization waves. E
 - [Sussman, Nathan and Yafeh, Yishay, Institutional reforms, financial development and sovereign debt, Britain 1690-1790, Journal of Economic History 66, 2006][research_sussman_yafeh_reforms]
 - [Wright, Gavin, Slavery and Anglo-American Capitalism Revisited, Economic History Review 73, 2020][research_wright_slavery]
 
-[book_beckert_empire_of_cotton]: https://openlibrary.org/works/OL17091841W/Empire_of_Cotton
+[book_beckert_empire_of_cotton]: https://openlibrary.org/works/OL17125568W/Empire_of_Cotton
 [book_cain_hopkins_british_imperialism]: https://www.taylorfrancis.com/books/mono/10.4324/9781315843834/british-imperialism-1688-2000-peter-cain-tony-hopkins
 [book_chang_ladder]: https://anthempress.com/kicking-away-the-ladder-pb
 [book_findlay_orourke_power_and_plenty]: https://press.princeton.edu/books/paperback/9780691143279/power-and-plenty

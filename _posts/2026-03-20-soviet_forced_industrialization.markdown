@@ -168,7 +168,7 @@ The seventh article of the series treats postwar Japan and West Germany, the two
 [book_allen_farm_to_factory]: https://press.princeton.edu/books/paperback/9780691144313/farm-to-factory
 [book_davies_wheatcroft_hunger]: https://link.springer.com/book/10.1057/9780230273979
 [book_harrison_accounting_for_war]: https://www.cambridge.org/us/universitypress/subjects/history/twentieth-century-european-history/accounting-war-soviet-production-employment-and-defence-burden-1940-1945
-[book_nove_ussr_economic_history]: https://openlibrary.org/works/OL2624030W/An_economic_history_of_the_U.S.S.R
+[book_nove_ussr_economic_history]: https://openlibrary.org/works/OL1870791W/An_economic_history_of_the_U.S.S.R
 [related_post_american_ascent]: {% post_url 2026-03-18-american_ascent %}
 [related_post_continental_followers]: {% post_url 2026-03-17-continental_european_followers %}
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}

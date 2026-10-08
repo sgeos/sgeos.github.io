@@ -157,7 +157,7 @@ The tenth article of the series treats India and other late arrivals whose post-
 
 [book_huang_capitalism_chinese_characteristics]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-development-and-growth/capitalism-chinese-characteristics-entrepreneurship-and-state
 [book_lin_demystifying_chinese_economy]: https://www.cambridge.org/us/universitypress/subjects/economics/economic-development-and-growth/demystifying-chinese-economy
-[book_naughton_chinese_economy]: https://openlibrary.org/works/OL2688049W/The_Chinese_economy
+[book_naughton_chinese_economy]: https://openlibrary.org/works/OL3506451W/The_Chinese_economy
 [related_post_american_ascent]: {% post_url 2026-03-18-american_ascent %}
 [related_post_east_asian_tigers]: {% post_url 2026-03-22-east_asian_tigers %}
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}

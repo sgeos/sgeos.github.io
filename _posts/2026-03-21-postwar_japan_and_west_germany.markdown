@@ -168,7 +168,7 @@ The 2020s pressure on the American security-commitment framework that both Germa
 - [Hoshi, Takeo and Kashyap, Anil K., Japan's financial crisis and economic stagnation, Journal of Economic Perspectives 18, 2004][research_hoshi_kashyap_banking]
 
 [book_hall_soskice_varieties]: https://global.oup.com/academic/product/varieties-of-capitalism-9780199247752
-[book_johnson_miti]: https://openlibrary.org/works/OL5426551W/MITI_and_the_Japanese_miracle
+[book_johnson_miti]: https://openlibrary.org/works/OL50671W/MITI_and_the_Japanese_miracle
 [related_post_continental_followers]: {% post_url 2026-03-17-continental_european_followers %}
 [related_post_industrialization_framing]: {% post_url 2026-03-15-framing_and_the_preindustrial_world %}
 [related_post_meiji_japan]: {% post_url 2026-03-19-meiji_japan %}

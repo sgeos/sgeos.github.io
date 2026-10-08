@@ -151,8 +151,8 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 - [Roberts and Wessler 1970][research_roberts_wessler_1970]
 
 [book_abbate_inventing_internet]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
-[book_hafner_lyon_wizards]: https://openlibrary.org/works/OL2735391W/Where_wizards_stay_up_late
-[book_hiltzik_dealers_lightning]: https://openlibrary.org/works/OL5732022W/Dealers_of_lightning
+[book_hafner_lyon_wizards]: https://openlibrary.org/works/OL3270089W/Where_wizards_stay_up_late
+[book_hiltzik_dealers_lightning]: https://openlibrary.org/works/OL1987733W/Dealers_of_lightning
 [book_norberg_oneill_transforming]: https://www.press.jhu.edu/books/title/1720/transforming-computer-technology
 
 [ref_arpa_darpa_history]: https://www.darpa.mil/about-us/timeline

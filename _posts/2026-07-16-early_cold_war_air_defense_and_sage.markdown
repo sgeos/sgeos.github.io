@@ -162,12 +162,12 @@ The next article in the series treats aerospace simulation and real-time systems
 - [Papian 1953][research_papian_1953]
 - [Valley 1985][research_valley_1985]
 
-[book_baum_system_builders]: https://openlibrary.org/works/OL15079476W/The_system_builders
+[book_baum_system_builders]: https://openlibrary.org/works/OL6439943W/The_system_builders
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_edwards_closed_world]: https://mitpress.mit.edu/9780262550284/the-closed-world/
-[book_pugh_memories_industry]: https://openlibrary.org/works/OL5836466W/Memories_that_shaped_an_industry
+[book_pugh_memories_industry]: https://openlibrary.org/works/OL3487774W/Memories_that_shaped_an_industry
 [book_redmond_smith_sage]: https://mitpress.mit.edu/9780262182010/from-whirlwind-to-mitre/
-[book_redmond_smith_whirlwind]: https://openlibrary.org/works/OL2724103W/Project_Whirlwind
+[book_redmond_smith_whirlwind]: https://openlibrary.org/works/OL6327439W/Project_Whirlwind
 
 [ref_lincoln_laboratory]: https://www.ll.mit.edu/about/history
 [ref_mitre_history]: https://www.mitre.org/who-we-are/our-history

@@ -143,11 +143,11 @@ The next article in the series treats software-defined aerospace and autonomy, i
 - [Noyce and Hoff 1981][research_noyce_hoff_1981]
 - [Saxenian 1994][research_saxenian_1994]
 
-[book_berlin_man_behind_microchip]: https://openlibrary.org/works/OL5749937W/The_man_behind_the_microchip
-[book_gillmor_terman]: https://openlibrary.org/works/OL16303105W/Fred_Terman_at_Stanford
-[book_lecuyer_making_silicon_valley]: https://openlibrary.org/works/OL8081856W/Making_Silicon_Valley
+[book_berlin_man_behind_microchip]: https://openlibrary.org/works/OL8004582W/The_man_behind_the_microchip
+[book_gillmor_terman]: https://openlibrary.org/works/OL6608381W/Fred_Terman_at_Stanford
+[book_lecuyer_making_silicon_valley]: https://openlibrary.org/works/OL9239268W/Making_Silicon_Valley
 [book_leslie_cold_war_and_american_science]: http://cup.columbia.edu/book/the-cold-war-and-american-science/9780231079587
-[book_riordan_hoddeson_crystal_fire]: https://openlibrary.org/works/OL15070358W/Crystal_fire
+[book_riordan_hoddeson_crystal_fire]: https://openlibrary.org/works/OL21540795W/Crystal_fire
 
 [ref_chm]: https://www.computerhistory.org/
 [ref_nasa_ames]: https://www.nasa.gov/ames/

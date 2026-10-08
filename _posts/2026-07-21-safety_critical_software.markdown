@@ -148,7 +148,7 @@ The next article in the series treats Silicon Valley from its defense-contractin
 - [McCabe 1976][research_mccabe_1976]
 
 [book_leveson_engineering_safer_world]: https://mitpress.mit.edu/9780262533690/engineering-a-safer-world/
-[book_leveson_safeware]: https://openlibrary.org/works/OL2664837W/Safeware
+[book_leveson_safeware]: https://openlibrary.org/works/OL3484831W/Safeware
 
 [ref_astree]: https://www.absint.com/astree/index.htm
 [ref_misra_c]: https://misra.org.uk/
