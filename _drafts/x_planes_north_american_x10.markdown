@@ -862,7 +862,7 @@ The article computes a radio horizon of 482 kilometres against a navigation leg 
 
 ### Supersonic Cruise, Which Never Returned
 
-Aerodynamic shape design for supersonic cruise appears in [Azabi et al 2019][research_azabi_2019] and [Wang et al 2020, Local aerodynamic optimisation and][research_wang_2020_2], periodic cruise guidance for hypersonic vehicles is [Gao et al 2020][research_gao_2020], integrated guidance and control for morphing hypersonic missiles is [Bao et al 2019][research_bao_2019], and ascent trajectory design is [Zhai and Yang 2020][research_zhai_yang_2020]. The airbreathing intercontinental weapon did not return, but the airbreathing hypersonic weapon is being attempted again, and the exposure-time argument that killed the Navaho applies to it in modified form.
+Aerodynamic shape design for supersonic cruise appears in [Azabi et al 2019][research_azabi_2019], periodic cruise guidance for hypersonic vehicles is [Gao et al 2020][research_gao_2020], integrated guidance and control for morphing hypersonic missiles is [Bao et al 2019][research_bao_2019], and ascent trajectory design is [Zhai and Yang 2020][research_zhai_yang_2020]. The airbreathing intercontinental weapon did not return, but the airbreathing hypersonic weapon is being attempted again, and the exposure-time argument that killed the Navaho applies to it in modified form.
 
 ## Where the Framing Breaks Down
 
@@ -915,6 +915,8 @@ The accessible primary record for this vehicle is the thinnest of any article in
 **Three documents in the accessible record concern the actual hardware.** They are [Pfyl 1952][research_pfyl_1952] on the 0.07-scale tunnel model, [Bond and Swanson 1953][research_bond_swanson_1953] on the 0.12-scale free-flight model, and [Church and Taylor 1959][research_church_taylor_1959] on a 0.05-scale model of the XSM-64A missile and booster, which is the weapon rather than the testbed. Everything else in this article's reference base is topical rather than vehicle-specific, drawn from the very large period literature on inertial navigation, canard aerodynamics, supersonic inlets, automatic landing, and flight test.
 
 That distribution is what makes the article possible at all. The vehicle-specific record would support perhaps four hundred words. The topical record supports the analysis performed here, because the physics that governed the X-10 was being published in the open literature by the same laboratories at the same time, even when the vehicle itself was not.
+
+**The research works were re-read on 7 October 2026, and the re-reading refused none of them.** Every one of the 335 research works in the references is cited by name in a sentence of this article, and a reading of every title, the 19 that the screens flagged, a sample of 300 of the rest and the remaining 16, found one off topic, a study of drag reduction on a sedan, which puts the contamination near 0.3 percent. **That study was then removed by hand**, together with the words of the sentence in The Contemporary Literature that cited it, so the total stands at 334. The nearest calls were the identifiability and experiment-design works drawn from pharmacometrics, power systems and reactor modelling, which were kept because the sentence citing them uses them for the method and not for the application.
 
 ## Epistemic State
 
@@ -1320,7 +1322,6 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 - [Wan et al 2025][research_wan_2025]
 - [Wang and Qi 2024][research_wang_qi_2024]
 - [Wang et al 2020][research_wang_2020]
-- [Wang et al 2020, Local aerodynamic optimisation and][research_wang_2020_2]
 - [Wang et al 2020, Parameterized Design and Dynamic A][research_wang_2020_3]
 - [Wang et al 2024][research_wang_2024]
 - [Wang et al 2025, IANet][research_wang_2025_4]
@@ -1656,7 +1657,6 @@ Three of the series' vehicles have now been things other than aircraft, and the 
 [research_walker_1961]: https://doi.org/10.1049/jiee-3.1961.0061
 [research_wan_2025]: https://doi.org/10.1016/j.geog.2024.11.001
 [research_wang_2020]: https://doi.org/10.1017/s0373463319000511
-[research_wang_2020_2]: https://doi.org/10.1504/ijvd.2020.114798
 [research_wang_2020_3]: https://doi.org/10.3390/sym12091572
 [research_wang_2024]: https://doi.org/10.1186/s43020-024-00140-x
 [research_wang_2025_4]: https://doi.org/10.1109/jiot.2025.3603219

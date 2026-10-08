@@ -623,7 +623,7 @@ The X-19 was destroyed by a gearbox. The gearbox existed because two engines had
 
 ### Redundancy Replaced Mechanical Interconnection
 
-Removing the cross-shaft removes what the cross-shaft was for. The X-19 needed mechanical interconnection because an engine failure would otherwise be an unrecoverable rolling moment. With enough independent motors the same failure is a control-allocation problem, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Kang et al 2024][research_kang_2024], [Mabboux et al 2024][research_mabboux_2024], [Ren et al 2024][research_ren_2024], [Zhao et al 2024, Active Fault-Tolerant Strategy for][research_zhao_2024_3], [Atmaca et al 2025][research_atmaca_2025], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Keir and Mulla 2025][research_keir_mulla_2025], [Ruggia 2025][research_ruggia_2025], [Choi and Suk 2026][research_choi_suk_2026], [Han and Pei 2026][research_han_pei_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026].
+Removing the cross-shaft removes what the cross-shaft was for. The X-19 needed mechanical interconnection because an engine failure would otherwise be an unrecoverable rolling moment. With enough independent motors the same failure is a control-allocation problem, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Kang et al 2024][research_kang_2024], [Mabboux et al 2024][research_mabboux_2024], [Zhao et al 2024, Active Fault-Tolerant Strategy for][research_zhao_2024_3], [Atmaca et al 2025][research_atmaca_2025], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Ruggia 2025][research_ruggia_2025], [Choi and Suk 2026][research_choi_suk_2026], [Han and Pei 2026][research_han_pei_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026].
 
 **The engine-out case stopped being a mechanical problem and became a software one**, which is a change in the kind of engineering required rather than in its difficulty. The one engine inoperative case is still studied, still hard, and no longer solved with a shaft.
 
@@ -706,6 +706,8 @@ The coverage audit that preceded this pass found **both kinds of gap at once, in
 **The contemporary sweep found the keystone's modern literature to be small, and that is a result rather than a gap.** Transition corridors return hundreds of recent papers and propeller normal force returns a handful. A quantity that is settled stops generating publications, so the thinness is evidence that Curtiss-Wright's aerodynamic claim is no longer contested.
 
 **One topic remains genuinely thin and is reported rather than padded.** Aircraft moments of inertia and radii of gyration returned five records after a targeted search, because mass-properties reports are working documents that archives rarely index. The three inertias in this article therefore rest on radii of gyration assumed as fractions of length and span, and that assumption is named in the Epistemic State rather than supported by citation.
+
+**The survey was re-read on 7 October 2026, and the rebuilt filter found two records that do not belong to it.** One is a biomechanics essay on redundancy and one concerns a road vehicle with a motor fault, and both reached the section on redundancy through that word. The filter removed neither, because both are cited in a sentence of this article rather than in a list, and that sentence was left for a hand edit. **Both were then removed by hand** from that sentence, which keeps its other sources, so the total falls from 399 to 397. A reading of 300 unflagged records found none off topic, which puts the contamination the screens miss near zero, and the two removed records were 0.5 percent of the base.
 
 ## Epistemic State
 
@@ -1017,7 +1019,6 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Kang et al 2026][research_kang_2026]
 - [KATZ et al 1980][research_katz_1980]
 - [Katzoff 1940][research_katzoff_1940]
-- [Keir and Mulla 2025][research_keir_mulla_2025]
 - [Keith and Selberg 1984][research_keith_selberg_1984]
 - [Kelley 1962][research_kelley_1962]
 - [Kidd and Bull 1963][research_kidd_bull_1963]
@@ -1137,7 +1138,6 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Rangwalla and Wilson 1987][research_rangwalla_wilson_1987]
 - [Reader 1980][research_reader_1980]
 - [Reeder 1958][research_reeder_1958]
-- [Ren et al 2024][research_ren_2024]
 - [Renselaer 1975][research_renselaer_1975]
 - [Ribner 1943][research_ribner_1943]
 - [Ribner 1943, Formulas for propellers in yaw and][research_ribner_1943_2]
@@ -1417,7 +1417,6 @@ The contemporary literature adds a final observation that changes the verdict on
 [research_kang_2026]: https://doi.org/10.4050/jahs.71.042006
 [research_katz_1980]: https://doi.org/10.2514/6.1980-1872
 [research_katzoff_1940]: https://ntrs.nasa.gov/citations/19930091767
-[research_keir_mulla_2025]: https://doi.org/10.1123/mc.2024-0127
 [research_keith_selberg_1984]: https://ntrs.nasa.gov/citations/19840035377
 [research_kelley_1962]: https://ntrs.nasa.gov/citations/19630000326
 [research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
@@ -1537,7 +1536,6 @@ The contemporary literature adds a final observation that changes the verdict on
 [research_rangwalla_wilson_1987]: https://ntrs.nasa.gov/citations/19870063073
 [research_reader_1980]: https://doi.org/10.21236/ada080953
 [research_reeder_1958]: https://doi.org/10.4050/jahs.3.4
-[research_ren_2024]: https://doi.org/10.1016/j.mechatronics.2024.103266
 [research_renselaer_1975]: https://ntrs.nasa.gov/citations/19750034271
 [research_ribner_1943]: https://ntrs.nasa.gov/citations/19930093307
 [research_ribner_1943_2]: https://ntrs.nasa.gov/citations/19930093304

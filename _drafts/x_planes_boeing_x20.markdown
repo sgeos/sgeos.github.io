@@ -243,7 +243,7 @@ $$T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \
 
 **The emissivity in that expression is doing real work and is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 250 degrees hotter, and the measurement of emissivity on refractory metals and oxides at these temperatures was an active subject, not a settled one, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [WANG et al 2011][research_wang_2011].
 
-**Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. The radiatively cooled structure was studied as a class and not only as a Dyna-Soar component, in [Montsinger and Camilli 1944][research_montsinger_camilli_1944], [Montsinger and Camilli 1944, Thermal Protection or Transformers][research_montsinger_camilli_1944_2], [Serlin 1957][research_serlin_1957], [Jenness 1958][research_jenness_1958], [HOVEY 1965][research_hovey_1965], [STRAUSS 1967][research_strauss_1967], [RIVERS 1968][research_rivers_1968], [BAUER and KUMMER 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating, not the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the coating literature of 1960 to 1965 is correspondingly dense, in [Mcdonnell Aircraft Corp St Louis Mo 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Weaver 1983][research_weaver_1983], [Mahan 1984][research_mahan_1984], [Santiago-Aviles 1988][research_santiago_aviles_1988], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
+**Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. The radiatively cooled structure was studied as a class and not only as a Dyna-Soar component, in [Jenness 1958][research_jenness_1958], [HOVEY 1965][research_hovey_1965], [STRAUSS 1967][research_strauss_1967], [RIVERS 1968][research_rivers_1968], [BAUER and KUMMER 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating, not the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the coating literature of 1960 to 1965 is correspondingly dense, in [Mcdonnell Aircraft Corp St Louis Mo 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
 
 The hot-structure experiments of the period are in [Pride et al 1960][research_pride_1960], [Baird 1964][research_baird_1964], [Brunner 1966][research_brunner_1966], [Brunner et al 1966, Study of thermal protection requir][research_brunner_1966_2], [Avery 1981][research_avery_1981], [Ko and Fields 1987][research_ko_fields_1987], [Blosser 1988][research_blosser_1988], [Goldstein 1992][research_goldstein_1992], [Carroll et al 1995][research_carroll_1995], [Blosser 1996][research_blosser_1996] and the materials work in [Maxwell 1952][research_maxwell_1952], [Mathauser et al 1960][research_mathauser_1960], [Peters and Rasnick 1961][research_peters_rasnick_1961], [Pride et al 1962][research_pride_1962], [Gangler 1963][research_gangler_1963], [Bliton and Rausch 1963][research_bliton_rausch_1963], [Bowers 1963][research_bowers_1963], [Bowers and Esch 1963][research_bowers_esch_1963], [Leeds 1963][research_leeds_1963], [HUGILL and GAIENNIE 1963][research_hugill_gaiennie_1963].
 
@@ -287,7 +287,7 @@ $$\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \
 
 **The problem is not strength but accommodation.** Every shingle must be free to slide against its frame while remaining gas-tight.
 
-The thermal stress problem in a hot structure was recognised early and worked continuously, in [GOLDBERG 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958, Closure to “Discussion of ‘Transie][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], [Pastine 1966][research_pastine_1966], [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
+The thermal stress problem in a hot structure was recognised early and worked continuously, in [GOLDBERG 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958, Closure to “Discussion of ‘Transie][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
 
 ### Why Not Ablation, Which Is Where This Article Changed Its Mind
 
@@ -417,7 +417,7 @@ It is not one now, in [Aprovitola et al 2019][research_aprovitola_2019], [Sun an
 
 The X-20's nose and leading edges needed coated molybdenum, graphite and zirconia, and the coating rather than the metal was the pacing item, because an uncoated refractory metal oxidises catastrophically at the temperatures that make it worth using.
 
-**That problem was solved by changing materials rather than by improving coatings**, in [Backman et al 2024][research_backman_2024], [Förster et al 2024][research_forster_2024], [Kaliyamoorthy et al 2024][research_kaliyamoorthy_2024], [Prokvolit et al 2024][research_prokvolit_2024], [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024], [Dubey et al 2025][research_dubey_2025], [Long et al 2025][research_long_2025], [Luo et al 2025][research_luo_2025], [Shi et al 2025][research_shi_2025], [Tian et al 2025][research_tian_2025], [Kavoosi et al 2026][research_kavoosi_2026], [Lakshmi et al 2026][research_lakshmi_2026], [Lee et al 2026][research_lee_2026], [Lin et al 2026][research_lin_2026], [Lin et al 2026, Oxidation fronts and oxide scale g][research_lin_2026_2], [Zhang and Han 2026][research_zhang_han_2026].
+**That problem was solved by changing materials rather than by improving coatings**, in [Backman et al 2024][research_backman_2024], [Förster et al 2024][research_forster_2024], [Prokvolit et al 2024][research_prokvolit_2024], [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024], [Dubey et al 2025][research_dubey_2025], [Long et al 2025][research_long_2025], [Luo et al 2025][research_luo_2025], [Shi et al 2025][research_shi_2025], [Tian et al 2025][research_tian_2025], [Kavoosi et al 2026][research_kavoosi_2026], [Lakshmi et al 2026][research_lakshmi_2026], [Lee et al 2026][research_lee_2026], [Lin et al 2026][research_lin_2026], [Lin et al 2026, Oxidation fronts and oxide scale g][research_lin_2026_2], [Zhang and Han 2026][research_zhang_han_2026].
 
 Zirconium and hafnium diborides, carbon-carbon composites and silicide coatings occupy the temperature range the X-20 needed, and they are ceramics that oxidise into protective scales rather than metals that need protecting. **The X-20's most intractable materials problem was not overcome so much as sidestepped.**
 
@@ -429,13 +429,13 @@ This article checks its own keystone with impact theory, which is a 1687 idea ap
 
 ### Thermal Stress Is Still the Structural Problem
 
-The 5.09 inches of growth this article computes for a René 41 airframe, and the 0.270 inch mismatch against a molybdenum shingle, are the same class of problem modern hot structures still have, in [Martin and Reese 2019][research_martin_reese_2019], [LI et al 2020][research_li_2020], [Li and Wang 2020][research_li_wang_2020], [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021], [SEBATA and USHIJIMA 2021][research_sebata_ushijima_2021], [SEBATA and USHIJIMA 2022][research_sebata_ushijima_2022], [Wang et al 2023, Dynamic and Thermal Buckling Behav][research_wang_2023_4], [Hua et al 2024][research_hua_2024], [Thawait et al 2024][research_thawait_2024], [Liu et al 2025, Coupled fluid-thermal-structural a][research_liu_2025_3], [Anand and Kumar 2026][research_anand_kumar_2026].
+The 5.09 inches of growth this article computes for a René 41 airframe, and the 0.270 inch mismatch against a molybdenum shingle, are the same class of problem modern hot structures still have, in [Martin and Reese 2019][research_martin_reese_2019], [LI et al 2020][research_li_2020], [Li and Wang 2020][research_li_wang_2020], [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021], [SEBATA and USHIJIMA 2021][research_sebata_ushijima_2021], [SEBATA and USHIJIMA 2022][research_sebata_ushijima_2022], [Wang et al 2023, Dynamic and Thermal Buckling Behav][research_wang_2023_4], [Thawait et al 2024][research_thawait_2024].
 
 **Coupled fluid, thermal and structural analysis is now a named discipline**, which is what happens when three fields that used to be checked in sequence turn out to need solving together. The X-20 met that coupling and had to handle it by allowing everything to slide.
 
 ### Reuse Is Where the X-20's Reasoning Is Vindicated and Its Economics Are Not
 
-The article concludes that the hot structure was chosen for reuse rather than compelled by mass. **The modern literature is more sceptical about what reuse is worth than the X-20's advocates were**, in [Mahmoudi and Parviziomran 2020][research_mahmoudi_parviziomran_2020], [Vanga and Venkateswaran 2020][research_vanga_venkateswaran_2020], [Bhattacharyya et al 2025][research_bhattacharyya_2025].
+The article concludes that the hot structure was chosen for reuse rather than compelled by mass.
 
 **Inspection is the hidden cost.** A structure that has been to 2,800 degrees must be shown to be fit to go again, and the Shuttle's experience was that this is expensive in a way nobody costed in 1960. That is not an argument against the X-20's engineering. It is an argument that the engineering was answering a question about mass when the binding question turned out to be about labour.
 
@@ -492,6 +492,8 @@ The coverage audit that preceded this pass produced the clearest instance in thi
 **A process defect was found in this pass and is worth recording.** Four references rejected by reading during the draft pass reappeared in this one, because each pass rebuilds its rejection list from scratch rather than carrying forward decisions already made. Among them was a study of the thermal protection capacity of aviator's textiles, meaning clothing rather than vehicle structure. **The exclusion rule that should have caught it used a word boundary, and the word boundary is what let the plural through**, which is the opposite failure from the substring matching this series has documented three times. The rejection list is now written to a file so that later passes inherit it.
 
 **One topic stays genuinely narrow and is reported rather than padded.** Terminal energy management for an unpowered orbital vehicle has four usable period references, because the subject did not exist until a vehicle was actually going to fly it.
+
+**The survey was re-read on 7 October 2026, and the rebuilt filter found fourteen records that do not belong to it.** Two concern the thermal protection of electrical transformers and one the protection of a chemical from ionising radiation. Three are microelectronics papers on refractory metal silicides, and one is solid state physics on thermal expansion. Two concern the tempering of glass, one a solar collector, and one the wear of an aluminium composite. Two treat reuse as logistics, in packaging supply chains and in fleet sizing, and one is a review of privacy in wireless health monitoring. The filter removed none, because every one is cited in a sentence of this article rather than in a list, and those sentences were left for a hand edit. **All fourteen were then removed by hand**, eleven from lists of citations that keep their other sources, six of them from the passage in Sizing From First Principles that selects the two materials, and three with the one sentence on the worth of reuse that rested on them alone, so the total falls from 352 to 338. A reading of 300 unflagged records found 10 off topic, which puts the contamination the screens miss near 3.3 percent, and the fourteen removed records were 4.0 percent of the base.
 
 ## Epistemic State
 
@@ -629,7 +631,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 
 - [Ai et al 2022][research_ai_2022]
 - [Alexander and Stanley 1999][research_alexander_stanley_1999]
-- [Anand and Kumar 2026][research_anand_kumar_2026]
 - [Anderson and D. 1991][research_anderson_d_1991]
 - [Anderson and Jr 1988][research_anderson_jr_1988]
 - [Appar and Kumar 2025][research_appar_kumar_2025]
@@ -649,7 +650,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Bell 1965][research_bell_1965]
 - [Benson et al 1993][research_benson_1993]
 - [Bernot and Robinson 1958][research_bernot_robinson_1958]
-- [Bhattacharyya et al 2025][research_bhattacharyya_2025]
 - [Bliton and Rausch 1963][research_bliton_rausch_1963]
 - [Blosser 1988][research_blosser_1988]
 - [Blosser 1996][research_blosser_1996]
@@ -756,7 +756,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [HOUGH 1982, Ballistic entry motion using a gen][research_hough_1982_2]
 - [Houser and Runciman 1971][research_houser_runciman_1971]
 - [HOVEY 1965][research_hovey_1965]
-- [Hua et al 2024][research_hua_2024]
 - [Huang et al 2024][research_huang_2024]
 - [Hudson and Stephens 2006][research_hudson_stephens_2006]
 - [Hughes 1956][research_hughes_1956]
@@ -772,7 +771,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Johnson et al 1982][research_johnson_1982]
 - [Johnson et al 1998][research_johnson_1998]
 - [Joshi et al 2023, Analytical Sensitivity based Guida][research_joshi_2023_2]
-- [Kaliyamoorthy et al 2024][research_kaliyamoorthy_2024]
 - [Kaplow et al 1964][research_kaplow_1964]
 - [Kaufman and G. 1963][research_kaufman_g_1963]
 - [Kaufman and G. 1964][research_kaufman_g_1964]
@@ -810,7 +808,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Liu and Bao 2023][research_liu_bao_2023]
 - [Liu et al 2002][research_liu_2002]
 - [Xudong Liu et al 2016][research_liu_2016]
-- [Liu et al 2025, Coupled fluid-thermal-structural a][research_liu_2025_3]
 - [Liu et al 2025, Entry Guidance for Hypersonic Glid][research_liu_2025_2]
 - [Lofland 1980][research_lofland_1980]
 - [Long et al 2025][research_long_2025]
@@ -824,8 +821,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [M et al 2026][research_m_2026]
 - [Ma et al 2021][research_ma_2021]
 - [MacLeod 2026][research_macleod_2026]
-- [Mahan 1984][research_mahan_1984]
-- [Mahmoudi and Parviziomran 2020][research_mahmoudi_parviziomran_2020]
 - [Malone and Walech 1995][research_malone_walech_1995]
 - [Maloney 2011][research_maloney_2011]
 - [Manley et al 2000][research_manley_2000]
@@ -846,8 +841,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Miller 1990][research_miller_1990]
 - [Miller et al 1983][research_miller_1983]
 - [Mcdonnell Aircraft Corp St Louis Mo 1963][research_mo_1963]
-- [Montsinger and Camilli 1944][research_montsinger_camilli_1944]
-- [Montsinger and Camilli 1944, Thermal Protection or Transformers][research_montsinger_camilli_1944_2]
 - [Morgado et al 2022][research_morgado_2022]
 - [Morio et al 2009][research_morio_2009]
 - [MORTH 1972][research_morth_1972]
@@ -867,7 +860,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2]
 - [Pai 1966][research_pai_1966]
 - [Pan et al 2020][research_pan_2020]
-- [Pastine 1966][research_pastine_1966]
 - [Patel and Subbarao 2024][research_patel_subbarao_2024]
 - [Patel and Subbarao 2025][research_patel_subbarao_2025]
 - [Paulson and Shanks 1959][research_paulson_shanks_1959]
@@ -897,7 +889,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Rosner and Cibrian 1974][research_rosner_cibrian_1974]
 - [Rotelli 1960][research_rotelli_1960]
 - [Sabapathy 2026][research_sabapathy_2026]
-- [Santiago-Aviles 1988][research_santiago_aviles_1988]
 - [Scallion 1999][research_scallion_1999]
 - [Scherberg and Rubin 1953][research_scherberg_rubin_1953]
 - [Schweppe 1964][research_schweppe_1964]
@@ -905,7 +896,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [SEBATA and USHIJIMA 2021][research_sebata_ushijima_2021]
 - [SEBATA and USHIJIMA 2022][research_sebata_ushijima_2022]
 - [Seiff and Wilkins 1961][research_seiff_wilkins_1961]
-- [Serlin 1957][research_serlin_1957]
 - [Sharma et al 2024][research_sharma_2024]
 - [Sherman 1978][research_sherman_1978]
 - [Shi et al 2025][research_shi_2025]
@@ -943,7 +933,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Turchi and Persis 2026][research_turchi_persis_2026]
 - [Turns and Hildebrand 1964][research_turns_hildebrand_1964]
 - [VANDREY 1957][research_vandrey_1957]
-- [Vanga and Venkateswaran 2020][research_vanga_venkateswaran_2020]
 - [Vanmol and Anderson 1992][research_vanmol_anderson_1992]
 - [Verhoff et al 1990][research_verhoff_1990]
 - [Vertogradskii 1969][research_vertogradskii_1969]
@@ -957,7 +946,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Wang et al 2026, Analytical nonlinear time-optimal][research_wang_2026_3]
 - [Wang et al 2026, Current status and prospects of gu][research_wang_2026_2]
 - [Warmbrod 1963][research_warmbrod_1963]
-- [Weaver 1983][research_weaver_1983]
 - [Webb et al 2026][research_webb_2026]
 - [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994]
 - [Wheeler and Brainard 1980][research_wheeler_brainard_1980]
@@ -982,7 +970,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 
 [research_ai_2022]: https://doi.org/10.1016/j.compstruct.2022.116073
 [research_alexander_stanley_1999]: https://ntrs.nasa.gov/citations/19990116055
-[research_anand_kumar_2026]: https://doi.org/10.1115/1.4072318
 [research_anderson_d_1991]: https://doi.org/10.21236/ada233584
 [research_anderson_jr_1988]: https://doi.org/10.21236/ada194265
 [research_appar_kumar_2025]: https://doi.org/10.1016/j.compfluid.2025.106637
@@ -1002,7 +989,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_bell_1965]: https://doi.org/10.21236/ad0631590
 [research_benson_1993]: https://ntrs.nasa.gov/citations/19930069750
 [research_bernot_robinson_1958]: https://ntrs.nasa.gov/citations/19710074595
-[research_bhattacharyya_2025]: https://doi.org/10.1016/j.procs.2025.04.638
 [research_bliton_rausch_1963]: https://ntrs.nasa.gov/citations/19640017101
 [research_blosser_1988]: https://ntrs.nasa.gov/citations/19880013054
 [research_blosser_1996]: https://ntrs.nasa.gov/citations/19970005361
@@ -1109,7 +1095,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_hough_1982_2]: https://doi.org/10.2514/6.1982-1480
 [research_houser_runciman_1971]: https://ntrs.nasa.gov/citations/19720005230
 [research_hovey_1965]: https://doi.org/10.2514/3.28175
-[research_hua_2024]: https://doi.org/10.1016/j.applthermaleng.2023.122260
 [research_huang_2024]: https://doi.org/10.1088/1742-6596/2764/1/012068
 [research_hudson_stephens_2006]: https://ntrs.nasa.gov/citations/20060056099
 [research_hughes_1956]: https://doi.org/10.2172/4346693
@@ -1125,7 +1110,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_johnson_1998]: https://ntrs.nasa.gov/citations/19980107885
 [research_johnson_rubesin_1949]: https://doi.org/10.1115/1.4017109
 [research_joshi_2023_2]: https://doi.org/10.61653/joast.v59i3.2007.709
-[research_kaliyamoorthy_2024]: https://doi.org/10.1590/1517-7076-rmat-2024-0651
 [research_kaplow_1964]: https://doi.org/10.21236/ad0602695
 [research_kaufman_g_1963]: https://doi.org/10.21236/ad0431280
 [research_kaufman_g_1964]: https://doi.org/10.21236/ad0609559
@@ -1163,7 +1147,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_liu_2002]: https://doi.org/10.21236/ada403577
 [research_liu_2016]: https://doi.org/10.1109/cgncc.2016.7828785
 [research_liu_2025_2]: https://doi.org/10.3390/aerospace12060539
-[research_liu_2025_3]: https://doi.org/10.1016/j.icheatmasstransfer.2024.108528
 [research_liu_bao_2023]: https://doi.org/10.1063/5.0133708
 [research_lofland_1980]: https://ntrs.nasa.gov/citations/19800015008
 [research_long_2025]: https://doi.org/10.1016/j.surfcoat.2025.132563
@@ -1177,8 +1160,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_m_2026]: https://doi.org/10.1016/j.rineng.2026.110799
 [research_ma_2021]: https://doi.org/10.2139/ssrn.3983112
 [research_macleod_2026]: https://doi.org/10.59332/jbis-079-01-0017
-[research_mahan_1984]: https://doi.org/10.21236/ada146495
-[research_mahmoudi_parviziomran_2020]: https://doi.org/10.1016/j.ijpe.2020.107730
 [research_malone_walech_1995]: https://ntrs.nasa.gov/citations/19950024110
 [research_maloney_2011]: https://ntrs.nasa.gov/citations/20110012275
 [research_manley_2000]: https://ntrs.nasa.gov/citations/20000040788
@@ -1199,8 +1180,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_miller_1983]: https://ntrs.nasa.gov/citations/19840036161
 [research_miller_1990]: https://ntrs.nasa.gov/citations/19910006099
 [research_mo_1963]: https://doi.org/10.21236/ad0417153
-[research_montsinger_camilli_1944]: https://doi.org/10.1109/ee.1944.6440234
-[research_montsinger_camilli_1944_2]: https://doi.org/10.1109/t-aiee.1944.5058915
 [research_morgado_2022]: https://doi.org/10.2514/1.j061071
 [research_morio_2009]: https://doi.org/10.1016/j.conengprac.2008.10.018
 [research_morth_1972]: https://doi.org/10.2514/6.1972-833
@@ -1220,7 +1199,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_olds_cowart_2001_2]: https://ntrs.nasa.gov/citations/20020022190
 [research_pai_1966]: https://doi.org/10.1007/978-3-7091-5730-5_11
 [research_pan_2020]: https://doi.org/10.1016/j.actaastro.2019.07.039
-[research_pastine_1966]: https://doi.org/10.1103/physrev.148.748
 [research_patel_subbarao_2024]: https://doi.org/10.2514/1.g007549
 [research_patel_subbarao_2025]: https://doi.org/10.2514/1.g008436
 [research_paulson_shanks_1959]: https://ntrs.nasa.gov/citations/19980237090
@@ -1250,7 +1228,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_rosner_cibrian_1974]: https://ntrs.nasa.gov/citations/19740053212
 [research_rotelli_1960]: https://ntrs.nasa.gov/citations/19720063136
 [research_sabapathy_2026]: https://doi.org/10.4271/01-19-01-0003
-[research_santiago_aviles_1988]: https://doi.org/10.21236/ada203428
 [research_scallion_1999]: https://ntrs.nasa.gov/citations/19990117251
 [research_scherberg_rubin_1953]: https://doi.org/10.21236/ad0012619
 [research_schweppe_1964]: https://doi.org/10.21236/ad0609524
@@ -1258,7 +1235,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_sebata_ushijima_2021]: https://doi.org/10.1299/jsmemm.2021.os0106
 [research_sebata_ushijima_2022]: https://doi.org/10.1299/transjsme.21-00273
 [research_seiff_wilkins_1961]: https://ntrs.nasa.gov/citations/19980227307
-[research_serlin_1957]: https://doi.org/10.1126/science.126.3267.261-a
 [research_sharma_2024]: https://doi.org/10.1063/5.0191101
 [research_sherman_1978]: https://doi.org/10.21236/ada056390
 [research_shi_2025]: https://doi.org/10.1016/j.matlet.2025.138660
@@ -1296,7 +1272,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_turchi_persis_2026]: https://doi.org/10.1007/s12567-026-00711-5
 [research_turns_hildebrand_1964]: https://doi.org/10.21236/ad0436260
 [research_vandrey_1957]: https://doi.org/10.2514/8.12849
-[research_vanga_venkateswaran_2020]: https://doi.org/10.1016/j.ejor.2020.02.004
 [research_vanmol_anderson_1992]: https://ntrs.nasa.gov/citations/19920012972
 [research_verhoff_1990]: https://doi.org/10.1007/978-3-662-02643-4_12
 [research_vertogradskii_1969]: https://doi.org/10.1007/bf00979969
@@ -1310,7 +1285,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_wang_2026_3]: https://doi.org/10.1016/j.asr.2026.04.001
 [research_wang_luo_2022]: https://doi.org/10.3390/app122110734
 [research_warmbrod_1963]: https://ntrs.nasa.gov/citations/19630005471
-[research_weaver_1983]: https://doi.org/10.21236/ada135340
 [research_webb_2026]: https://doi.org/10.1016/j.ast.2026.112231
 [research_weiss_srinivasan_1994]: https://doi.org/10.21236/ada329833
 [research_wheeler_brainard_1980]: https://ntrs.nasa.gov/citations/19800041104

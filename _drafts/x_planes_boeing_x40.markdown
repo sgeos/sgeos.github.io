@@ -743,18 +743,15 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 ## The Contemporary Literature
 
-**The survey below holds 4,655 records** across 9 clusters, retrieved from the scholarly registry. **None of them is cited as evidence for any claim about the X-40A** and none was read. They map the fields the vehicle sits in, and the forty curated sources remain the only ones the argument rests on.
+**The survey below holds 4,228 records** across 9 clusters, retrieved from the scholarly registry. **None of them is cited as evidence for any claim about the X-40A** and none was read. They map the fields the vehicle sits in, and the forty curated sources remain the only ones the argument rests on.
 
 ### Dynamic Similarity and Subscale Free Flight
 
 **This is the article's keystone and it has a literature of its own.** Dynamically scaled free-flight models, Froude similitude, and the correlation of wind tunnel data with flight are a continuous research thread from the earliest drop models onward. **The recurring finding is the one this article reaches independently**, that matching the Froude number and the Reynolds number simultaneously is impossible and that the choice of which to abandon decides what the test can prove.
 
-**The harvest returned 761 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 516 records here, and the 13 most recent are listed. The remainder appear in the references.**
 
-- [Zhang and others, 2026, A distortion similitude method for scaled experiments of flexible marine risers undergoing CF VIV][research_zhang_xue_2026]
 - [Meckelnborg and Hölling, 2026, A High Reynolds number wind tunnel set-up for research on static and oscillating cylinder][research_meckelnborg_holling_2026]
-- [Firouzjah and Ghasemi, 2026, A similarity-based predictive scheduling method for dynamic electric vehicle charging load management][research_firouzjah_ghasemi_2026]
-- [Matsuda and others, 2026, An investigation of Reynolds Number effects on the steady and unsteady aerodynamic forces on a 1 10 scale bridge deck section model][research_matsuda_tokushige_2026]
 - [Betin, 2026, Assessment of the Functional Capabilities of Free-Flying Dynamically Similar Aircraft Models][research_betin_2026]
 - [Jarosław and others, 2026, Comparative Wing Stiffness Analysis of a Dynamically Scaled Model and a Reference Aircraft Taking into Account Diverse Manufacturing Technologies][research_jaroslaw_robert_2026]
 - [Kunwar and others, 2026, Control Law Development, Flight Testing, and System Identification of a Distributed Electric Propulsion Subscale Aircraft][research_kunwar_putra_2026]
@@ -762,26 +759,17 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Keller and others, 2026, Development and Testing of a Subscale eVTOL Flight Vehicle for Stability, Control and Disturbance Response Characteristics][research_keller_mckillipjr_2026]
 - [Comer and others, 2026, Development of a Simulation to Flight Workflow for Subscale Flight Testing of Experimental Control Laws][research_comer_atkinson_2026]
 - [Gopal and others, 2026, Development of High Unit-Reynolds Number Supersonic Wind Tunnel Facility at the University of Texas at Arlington][research_gopal_somaroutu_2026]
-- [Sani and others, 2026, Efficient DEM calibration of AM powders using a rotating drum through Froude number scaling][research_sani_quist_2026]
-- [Li and others, 2026, Flexural elasticity-gravity-hydrodynamics similitude law for underwater shaking table model tests in the elastic stage][research_li_wang_2026]
 - [Comer and others, 2026, Flight Testing a Trajectory Control System on a Subscale Transitioning VTOL Aircraft][research_comer_chakraborty_2026]
 - [Ward and others, 2026, Flight-Test Results of a Subscale Integrated High Lift Propulsor Testbed][research_ward_collins_2026]
-- [Miklavčič and others, 2026, Froude number scaling unifies impact trajectories into cohesionless granular media across gravitational conditions][research_miklavcic_tokar_2026]
-- [Kolkman, 2026, Froude scale modelling for dynamically loaded saturated fine sand][research_kolkman_2026]
-- [Wen and others, 2026, Froude scaling of rotating intrusion drag in microgravity regolith][research_wen_roy_2026]
-- [Figueiredo, 2026, Grain Refinement During Severe Plastic Deformation and Similitude of Subgrain Formation A Molecular Dynamics Study][research_figueiredo_2026]
 - [Ghate and others, 2026, Large Eddy Simulations of High-Lift Common Research Model in the NTF Wind Tunnel at Flight Scale Reynolds Numbers][research_ghate_angel_2026]
 - [Ghanchi and Gururajan, 2026, Lessons Learned from the Design, Development, and Subscale Flight Testing of a Hybrid-VTOL UAS][research_ghanchi_gururajan_2026]
-- [Quan and others, 2026, Numerical investigation of Reynolds number effects on scaled wind turbine rotors][research_quan_su_2026]
 - [Zhang and others, 2026, Reynolds number effects on two parallel circular cylinders at various angles of attack][research_zhang_hua_2026]
-- [Fuchs and Konior, 2026, Segregation in circulating turbulent fluidized beds with a broad particle size distribution A Froude number-based model approach][research_fuchs_konior_2026]
-- [Wang and others, 2026, Similitude-scaled criterion for investigating the snow and ice accumulation in the bogie regions of high-speed train][research_wang_hu_2026]
 
 ### Autonomous and Automatic Landing
 
 **The capability the X-40A existed to demonstrate is now ordinary and was not then.** The literature runs from autoland certification for transport aircraft through precision landing for uncrewed vehicles, and its persistent concern is verification, meaning how a system that must work every time is shown to work at all.
 
-**The harvest returned 839 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 826 records here, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [GUO and others, 2026, A Review of Autonomous Landing and Rovering Navigation and Guidance Control in Deep Space][research_guo_huang_2026]
 - [Zhou, 2026, An Automatic Landing Adaptive Control Method with Parameter Optimization][research_zhou_2026]
@@ -813,11 +801,9 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **A vehicle with a lift to drag ratio near two arrives steeply and has one attempt.** This cluster covers lifting-body aerodynamics, unpowered approach technique, terminal area energy management and the flare, which together describe the four nautical miles the X-40A actually flew.
 
-**The harvest returned 413 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 325 records here, and the 21 most recent are listed. The remainder appear in the references.**
 
-- [Pinto and others, 2026, A mixed-integer linear programming approach for optimising residential energy management with multiple sustainable energy resources][research_pinto_osorio_2026]
 - [Miao and others, 2026, A trajectory optimization method of hypersonic gliding vehicle based on differential flatness][research_miao_wang_2026]
-- [Wang and others, 2026, Addressing hybrid uncertainties in energy management A synergistic Planner-Learner approach][research_wang_cui_2026]
 - [Chu, 2026, Aerodynamic characteristic analysis of the lift-drag ratio and wing shape of a glider][research_chu_2026]
 - [Li, 2026, Aerodynamic Characteristics Analysis of the Lift-to-Drag Ratio of Gliders and Their Wing Shape][research_li_2026]
 - [Mahrous and others, 2026, Aerodynamic Characterization and Validation of a Gliding Aerial Vehicle][research_mahrous_khalil_2026]
@@ -827,7 +813,6 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Fang and others, 2026, Improved African Vulture Optimization Algorithm for Trajectory Optimization in Autonomous Aircraft Terminal Area Energy Management Phase][research_fang_chen_2026]
 - [Lu and others, 2026, Investigation of cavitation flow characteristics and vortex structures on a new lifting-body model][research_lu_du_2026]
 - [Berthelot and others, 2026, Material Selection and Structural Analysis of an Undergraduate-Designed Unpowered Hypersonic Glide Vehicle][research_berthelot_craft_2026]
-- [Song and others, 2026, Mechanisms of carrier-gas flow rate effects on particle dynamics and deposition quality in laser-directed energy deposition governed by the lift-to-drag ratio][research_song_lin_2026]
 - [Wang and others, 2026, Physics-Informed Hybrid Predictor-Corrector Guidance for Real-Time Terminal Area Energy Management][research_wang_ding_2026]
 - [Hu and others, 2026, Re-Entry Gliding Vehicle Trajectory Prediction Based on Maneuver Detection][research_hu_pang_2026]
 - [Xu and Jiang, 2026, Research on Gliding Vehicle Algorithms with Terminal Velocity and Angle Constraints][research_xu_jiang_2026]
@@ -835,7 +820,6 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Song and others, 2026, Surrogate-Assisted Optimization of Hypersonic Gliding Vehicle for Range Extension in Re-entry Flight][research_song_shi_2026]
 - [Feng and others, 2025, A Modeling Approach for the Balanced Gliding Trajectory of a Hypersonic Vehicle with Pneumatic Iteration][research_feng_bai_2025]
 - [Kwon and Yee, 2025, A Novel Arrow Airfoil with High Lift-to-Drag Ratio for Mars Rotorcraft Application][research_kwon_yee_2025]
-- [Taghavi and others, 2025, A resilience-oriented approach to integrated energy management systems Addressing energy conversion unit unavailability and cost efficiency][research_taghavi_niknam_2025]
 - [Liu and Liang, 2025, A systematic multiple-model estimator for tracking hypersonic gliding vehicle][research_liu_liang_2025]
 - [Deng and others, 2025, Aerodynamic configuration parametrization and optimization of high-speed gliding vehicle][research_deng_xu_2025]
 - [Lin, 2025, Analysis of the Aerodynamic Characteristics of Glider Lift-to-Drag Ratio and Its Wing Shape][research_lin_2025]
@@ -845,7 +829,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The X-40A was a flying testbed for software, so this is the cluster its results belong to.** Integrated satellite and inertial navigation, filtering, and terminal guidance are the components whose integration the flights exercised, and the literature is largely about making them agree with one another.
 
-**The harvest returned 588 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 554 records here, and the 24 most recent are listed. The remainder appear in the references.**
 
 - [Chhetri and others, 2026, A Survey of Medical Drones from Flight Dynamics, Guidance, Navigation, and Control Perspectives][research_chhetri_jetawatthana_2026]
 - [OGNERU and RAILEANU, 2026, Computer Vision Based Guidance, Navigation and Control for Autonomous Aerial Vehicles A Systematic Survey][research_ogneru_raileanu_2026]
@@ -870,7 +854,6 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Chen and others, 2025, High-Precision Inertial Navigation with Ellipsoidal Harmonic Gravity Model][research_chen_huang_2025]
 - [Luo and others, 2025, Inertial-Geomagnetic Integrated Navigation Method Based on Kalman Filter and Adaptive Search Area][research_luo_liu_2025]
 - [Niu and others, 2025, KF-GINS an open-sourced software for GNSS/INS integrated navigation][research_niu_wang_2025]
-- [Yeoh and others, 2025, Navigation in a Search Pointer Robot for Victim Detection in Volcanic Eruption Using Hybrid GPS-Inertial Navigation System][research_yeoh_sumaryo_2025]
 - [Arcate and Liu, 2025, Poster Implementing GPS-Based Autonomous Navigation in ROS2 Using an Inertial Sense Device][research_arcate_liu_2025]
 
 ### Reusable Spaceplanes and Orbital Return Vehicles
@@ -909,7 +892,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **This cluster covers everything the X-40A did not test.** Entry guidance, hypersonic aerodynamics and thermal protection are the parts of the mission that begin in orbit, and the vehicle carried no thermal protection system at all. **The cluster is here to mark the boundary of what the flights addressed**, not because the flights addressed it.
 
-**The harvest returned 746 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 745 records here, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Luo and others, 2026, A review on the thermal protection technologies of reusable hypersonic vehicles][research_luo_tang_2026]
 - [Paciorri and others, 2026, Aerothermal Analysis on Effectiveness of Thermal Protection System on VEGA-C Launch Vehicle][research_paciorri_assonitis_2026]
@@ -941,7 +924,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The landing does not end at touchdown and the X-37A's 2006 overrun is why this cluster matters.** Gear loads, braking, rollout distance and runway excursion are the terminal problem, and they are governed by the mass the X-40A did not carry.
 
-**The harvest returned 389 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 358 records here, and the 24 most recent are listed. The remainder appear in the references.**
 
 - [Titov and Serebryansky, 2026, Approach to the main landing gear linkage design for the requirement of ultimate loads on links during emergency landing][research_titov_serebryansky_2026]
 - [Lei and Liu, 2026, Design of a Dual-Redundant Electric Landing Gear Retraction/Extension Controller Based on DSP and EPLD][research_lei_liu_2026]
@@ -961,7 +944,6 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Luong and others, 2025, 6DOF Aircraft Landing Gear System with Magnetorheological Damper in Various Taxing and Touchdown Scenarios][research_luong_le_2025]
 - [Chu and others, 2025, A Mantis-Inspired Multi-Quadrupole Adaptive Landing Gear Design and Performance Study][research_chu_lv_2025]
 - [Zhu and Wang, 2025, A Method for Predicting Landing Distance Based on the Actual Landing Performance of an Aircraft][research_zhu_wang_2025]
-- [Magelli and others, 2025, Adapting a scaled twin-disc device for tread braking investigations based on an ad-hoc thermal similitude model][research_magelli_pagano_2025]
 - [Liu and others, 2025, Adaptive aircraft anti-skid braking control for runway disturbance compensation][research_liu_sun_2025]
 - [Gong and others, 2025, Aircraft Tire-Runway Friction on Wet and Grooved Pavement Surfaces Models and Experiments][research_gong_chen_2025]
 - [Ramirez and others, 2025, Continuum Twisted Tower Origami Landing Gear for Drones Design, Modelling and Experiments][research_ramirez_dux_2025]
@@ -973,7 +955,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **Whether a demonstrator is worth building is a question with its own literature.** Risk reduction, flight test planning and the economics of demonstration programmes are the frame in which a one million dollar test article that flew eight times should be judged.
 
-**The harvest returned 223 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 214 records here, and the 24 most recent are listed. The remainder appear in the references.**
 
 - [2026, Design validation and verification for non-intrusive flight test instrumentation NIFTI using Model-Based Systems Engineering MBSE][research_design_validation_2026]
 - [Voss and others, 2026, Flight Test Instrumentation for Loads and Aeroelastic Analyses of a High Altitude, Long Endurance, Solar Electric Aircraft][research_voss_tang_2026]
@@ -987,7 +969,6 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Ju and others, 2024, A Sample Average Approximation Approach for Stochastic Optimization of Flight Test Planning with Sorties Uncertainty][research_ju_jiang_2024]
 - [Monteil, 2024, A1.4 - H175 De-icing Flight Test Campaign - Focus on Flight Test Instrumentation][research_monteil_2024]
 - [Pérez Rus and Le Gal, 2024, B3.2 - Flight Test Instrumentation System Tailoring MBSE Methodologies for Prototype Aerial Systems Development][research_perezrus_legal_2024]
-- [Ryder and Battle, 2024, Choice of needleless connector technology as a risk reduction strategy for catheter related bloodstream infection, mortality, and cost A secondary data analysis][research_ryder_battle_2024]
 - [June and others, 2024, Comparison of Inlet Broadband Acoustic Liner Predictions to Quiet Technology Demonstrator 3 Flight Data][research_june_nesbitt_2024]
 - [White and others, 2024, Development of a low cost and low weight small UAS flight test instrumentation system][research_white_fonnegra_2024]
 - [Jia and Wang, 2024, Flight Test Requirements Evaluation Techniques Based on Evidence Network][research_jia_wang_2024]
@@ -1005,7 +986,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The smallest cluster covers the manoeuvre that began every X-40A flight.** Release from a carrier vehicle is a transient with its own dynamics, and it is the one part of the flight profile that has no counterpart in the operational mission.
 
-**The harvest returned 67 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**The harvest returned 61 records here, and the 22 most recent are listed. The remainder appear in the references.**
 
 - [Jia and others, 2026, Mission planning for UAV swarm air-launched by single carrier aircraft under multiple constraints][research_jia_qi_2026]
 - [Yu and others, 2025, Results of Dual Capsule Drop Test with Improved Flight Stability][research_yu_baek_2025]
@@ -1014,10 +995,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 - [Zhang and others, 2024, Parameterized Modelling of Stage Separation of Launch Vehicles with Modelica][research_zhang_cai_2024]
 - [Dutta and others, 2024, Results from the Helicopter Drop Test of the DAVINCI Descent Sphere][research_dutta_guechaahumada_2024]
 - [Lu and others, 2024, Study of Recoverable Liquid Launch Vehicle Stage Separation Based on Equivalent Model of Large-Amplitude Liquid Slosh][research_lu_yue_2024]
-- [Kaka and Jain, 2024, Vehicle Drop Test Correlation for Two-Wheeler Motorcycle Using Multibody Simulation][research_kaka_jain_2024]
-- [Naufal and others, 2023, A review of drop test and quasi-static method test of lithium-ion battery for electric vehicle][research_naufal_ubaidillah_2023]
 - [Kumar and others, 2023, Cfd Simulation of Wind Tunnel Test of Stage Separation For a Typical Launch Vehicle][research_kumar_rjustus_2023]
-- [Chen and others, 2022, Identification of Physical Parameters of Railway Vehicles Based on Drop Test][research_chen_zhou_2022]
 - [Tamer, 2021, Aeroelastic Response of Aircraft Wings to External Store Separation Using Flexible Multibody Dynamics][research_tamer_2021]
 - [Zhu and others, 2021, Assessment of Crash-Resistant Helicopter Fuel Tank with Composite Compartment Simulation for Drop Test][research_zhu_wang_2021]
 - [Yang and others, 2021, Longitudinal aerodynamic modeling and verification for air-launch-to-orbit system during stage separation][research_yang_ye_2021]
@@ -1057,7 +1035,7 @@ flight data cannot support.
 
 ## The Source Base
 
-**Forty curated sources carry the argument and 4,655 harvested records map the field, and the article
+**Forty curated sources carry the argument and 4,228 harvested records map the field, and the article
 keeps them apart.**
 
 **Twelve of the forty are reference works and contemporaneous accounts.** The manufacturer's own press
@@ -1091,7 +1069,7 @@ and the harvested record was restored under its own anchor with the primary give
 merge that assumes it is will repoint a citation without erroring.
 
 **The harvested set was never read.** 22,230 records were retrieved and 4,557
-passed the subject gate, of which 4,655 reach the reference list after 61
+passed the subject gate, of which 4,496 reached the reference list after 61
 duplicate registrations were removed. **Not one is cited in support of a claim about the X-40A.**
 
 **The gate was audited by reading random samples of both sides, which is the return protocol rather than
@@ -1132,6 +1110,29 @@ and every count in the survey is now derived rather than edited.
 a non-capturing group, so an alternation cannot escape its lookahead and turn a conjunction into a
 disjunction of bare words. **That defect made the previous article's gate simultaneously too permissive
 and too narrow**, and it was invisible in every statistic.
+
+**The filter was rebuilt on 7 October 2026, after the counts first published with this article, and it
+refused 427 records that the earlier audits had left in place.** Each shared a word with the vehicle's
+subject and nothing else. The largest families were 84 civil, geotechnical, hydraulic and coastal
+similitude studies of piles, dams, bridges and surf zones, 67 records on ships, offshore structures and
+underwater vehicles and gliders, 54 papers on the energy management of buildings, microgrids and electric
+cars, 43 wind turbine studies, 42 on railway and road vehicles, and 23 studies of rats running down a
+runway for reward, which is the family the first audit believed it had excluded. Smaller families covered
+insect, animal and human locomotion and a catheter infection study, moment of inertia in the interacting
+boson model of atomic nuclei, electrical machines and power networks, granular media and powders,
+geophysics and astrophysics, rollout algorithms, ski jumpers, a court case against a company named
+Autoland and a fashion runway. **The survey fell from 4,655 records to 4,228.** Dynamic Similarity and
+Subscale Free Flight changed most, from 761 records to 516, followed by Lifting Bodies and the Unpowered
+Approach, from 413 to 325, and Guidance, Navigation and Control, from 588 to 554. **A reading of 300
+records that neither automated screen had flagged found 21 off topic, which put the contamination the
+screens missed near 7 percent before the sweep.** Each of those 21 led to a pattern swept over every title
+and all are now removed, but the residual after the sweep was not measured by a fresh sample and is not
+claimed to be zero.
+
+**The rebuild also corrected a count that could not have been true.** The pipeline sentence above once
+said that 4,655 of the 4,557 records passing the gate reached the reference list. The harvest files show
+that the first pass reached 4,496 after deduplication, and the later total of 4,655 arose from the
+supplementary merge and its removals, which the files do not reproduce to the record.
 
 ## Epistemic State
 
@@ -1230,8 +1231,8 @@ trajectory never scaled**, and no quantitative aerodynamic result from those eig
 the vehicle it was built to inform.
 
 **What it bought instead was eight rehearsals.** An autonomous guidance, navigation and control system was
-exercised in real air, against a plant that its own mass deficit made about 13 percent quicker to respond
-than the full-scale vehicle would be, and it landed the aircraft every time, once within 7 feet of the
+exercised in real air, against a plant that its smaller scale made about 13 percent quicker to respond, and its mass deficit
+quicker again, than the full-scale vehicle would be, and it landed the aircraft every time, once within 7 feet of the
 centreline. **The subscale test was harder than the full-scale case in the one dimension that mattered**,
 which is the strongest argument the programme has.
 
@@ -1313,7 +1314,6 @@ The next article returns to a vehicle designed to be shot down.
 - [1960, Automatic landing system lands two planes a minute][research_automatic_landing_1960]
 - [1960, Flight tests to determine the coefficients of friction between an aircraft tyre and various wet runway surfaces. Part I][research_flight_tests_1960]
 - [1961, Visual glide slope indicator system installed at La Guardia airport][research_visual_glide_1961]
-- [1962, Bellinger V Autoland Pty Ltd][research_bellinger_v_1962]
 - [1962, Damping An Inertial Navigation System][research_damping_an_1962]
 - [1962, Multiple Inertial System Operation In Long Term Navigation][research_multiple_inertial_1962]
 - [1962, Space vehicles televised on reentry][research_space_vehicles_1962]
@@ -1329,17 +1329,13 @@ The next article returns to a vehicle designed to be shot down.
 - [1964, Statistical Filtering of Space Navigation Measurements][research_statistical_filtering_1964]
 - [1964, Stellar Techniques for Midcourse Navigation Guidance][research_stellar_techniques_1964]
 - [1967, Similitude and Models][research_similitude_and_1967]
-- [1968, 56. Scale model and full-scale vehicle testing in cohesive clay soils][research_56_scale_1968]
-- [1969, Theoretical and experimental investigation on the similitude applicable to scale model study of the mechanical behaviour of granular materials][research_theoretical_and_1969]
 - [1970, Flight Test Programme][research_flight_test_1970]
 - [1971, Inertially augmented approach and landing systems][research_inertially_augmented_1971]
 - [1971, The Advance Towards Category Three Automatic Landings][research_the_advance_1971]
-- [1972, 120. Similitude studies of soil dynamics in a puddled field][research_120_similitude_1972]
 - [1972, Development of STOLAND, a versatile navigation, guidance and control system][research_development_of_1972]
 - [1972, Re-entry Thermal Analysis of Variable Thickness Spherical Vehicles][research_re_entry_thermal_1972]
 - [1972, Structural design aspects of reusable surface insulation thermal protection systems][research_structural_design_1972]
 - [1972, Thermal performance evaluation of REI panel steps and gaps for Space Shuttle thermal protection system][research_thermal_performance_1972]
-- [1973, 82. Similttude study of soil-machine system-II. Similitude of model blades in sandy loam][research_82_similttude_1973]
 - [1975, Comparison of Aircraft Noise Measured in Flight Test and in a NASA Ames Wind Tunnel][research_comparison_of_1975]
 - [1975, Vibration of a Reentry Vehicle][research_vibration_of_1975]
 - [1977, Reentry vehicle nosetip material screening tests - Series M][research_reentry_vehicle_1977]
@@ -1353,7 +1349,6 @@ The next article returns to a vehicle designed to be shot down.
 - [1981, The Effect of Surface Roughness Character on Turbulent Re-entry Heating][research_the_effect_1981]
 - [1981, Thermal Protection System for the Galileo Mission Atmospheric Entry Probe][research_thermal_protection_1981]
 - [1981, Wind-Tunnel Study of Ascent Heating of Multiple Re-entry Vehicle Configurations][research_wind_tunnel_study_1981]
-- [1982, New Color Terminal Option for Litton Energy Management System][research_new_color_1982]
 - [1982, The effect of additional runway lights and autopilot failure on the landing performance of a medium size transport aircraft][research_the_effect_1982]
 - [1983, Analysis for Calculating the Lift-to-Drag Ratio for Flying Plates Having Square or Circular Shapes][research_analysis_for_1983]
 - [1983, Preliminary Design of the Thermal Protection System for Solar Probe][research_preliminary_design_1983]
@@ -1364,17 +1359,13 @@ The next article returns to a vehicle designed to be shot down.
 - [1987, Redesigned aircraft landing gear to be analysed for stresses][research_redesigned_aircraft_1987]
 - [1990, ORBITEC Orbital Technology Demonstration Program][research_orbitec_orbital_1990]
 - [1991, A Feasibility Study on a Sub-sea Metrology System Using Inertial Navigation Technology][research_a_feasibility_1991]
-- [1991, Froude scale modelling for dynamically loaded saturated fine sand][research_froude_scale_1991]
 - [1992, Marshall Selected to Convert L1011 Tristar to Become Carrier of Air-Launched Space Booster][research_marshall_selected_1992]
 - [1992, Similitude Relationships and Scaling Factors][research_similitude_relationships_1992]
-- [1994, 043 Fuzzy logic guidance and obstacle avoidance algorithms for autonomous vehicle control][research_043_fuzzy_1994]
-- [1994, 083 Ultrasonic navigation and guidance for autonomous vehicles in dynamic and unstructured environment][research_083_ultrasonic_1994]
 - [1994, 180 Fault Tolerant navigation system for aircraft landing][research_180_fault_1994]
 - [1994, 219 Attitude control system of the autonomous spacecraft "Mars", development, groung validation and verification, flight control operation][research_219_attitude_1994]
 - [1994, Aerodynamic Optimization for Hypersonic Flight at Very High Altitudes][research_aerodynamic_optimization_1994]
 - [1994, Further development and flight test of an autonomous precision landing system using a parafoil][research_further_development_1994]
 - [1994, Slender Lifting Body Axial Force Prediction in Hypersonic Rarefied Flow][research_slender_lifting_1994]
-- [1995, 95/04351 Cutting energy costs in business. A total quality management approach to improving energy management][research_95_04351_cutting_1995]
 - [1995, Gliding and Unpowered Flights][research_gliding_and_1995]
 - [1996, Aircraft Automatic Approach and Landing Using GPS][research_aircraft_automatic_1996]
 - [1997, Estimation and reduction of aerodynamic noise by motor-cycle scale model testing Fujita Susumu, Gotou Kazuhiro, Hayashi Tsuneo Yamaha Motor Co., Ltd][research_estimation_and_1997]
@@ -1384,7 +1375,6 @@ The next article returns to a vehicle designed to be shot down.
 - [1998, Control and Guidance System Modeling][research_control_and_1998]
 - [1998, Dimensional Analysis and Dynamic Scaling][research_dimensional_analysis_1998]
 - [1998, Space launch vehicles configured as gliders][research_space_launch_1998]
-- [1999, Book Review US Clean Coal Technology Demonstration Programme Programme Update 1998][research_book_review_1999]
 - [1999, Discussion Questions for Integrated Navigation and Guidance Systems][research_discussion_questions_1999]
 - [1999, Inertial Navigation Sensors and Systems][research_inertial_navigation_1999]
 - [1999, Integrated vision/inertial navigation system design using nonlinear filtering][research_integrated_vision_inertial_1999]
@@ -1404,10 +1394,8 @@ The next article returns to a vehicle designed to be shot down.
 - [2002, Spaceplane Low-cost Potential][research_spaceplane_low_cost_2002]
 - [2002, The Spaceplane Space Age][research_the_spaceplane_2002]
 - [2002, Titan II Operational Flight Test and Evaluation Programs History][research_titan_ii_2002]
-- [2003, An Equivalent Multi-Phase Similitude Law for Pseudodynamic Test on Small-scale RC Models][research_an_equivalent_2003]
 - [2003, Scaling laws for turbulent wall-bounded shear flows at very large Reynolds numbers][research_scaling_laws_2003]
 - [2004, Advanced Hypersonic Spaceplane Multi-Role Architecture using Turbine Based Combined Cycle][research_advanced_hypersonic_2004]
-- [2004, An Equivalent Multi-Phase Similitude Law for Pseudodynamic Test on Small-scale RC Models Verification Tests][research_an_equivalent_2004]
 - [2004, Appendix B Inertial navigation system error budgets][research_appendix_b_2004]
 - [2004, Appendix D Comparison of GPS and GLONASS satellite navigation systems][research_appendix_d_2004]
 - [2004, Basic principles of strapdown inertial navigation systems][research_basic_principles_2004]
@@ -1435,10 +1423,8 @@ The next article returns to a vehicle designed to be shot down.
 - [2008, Three-Dimensional Location Tracking System for Automatic Landing of an Unmanned Helicopter][research_three_dimensional_location_2008]
 - [2009, Dimensional Analysis and Dynamic Similitude][research_dimensional_analysis_2009]
 - [2009, Robust Airspeed Estimation of an Unpowered Gliding Vehicle by Using Multiple Model Kalman Filters][research_robust_airspeed_2009]
-- [2009, UUVS special issue on navigation, guidance and control of unmanned underwater vehicle][research_uuvs_special_2009]
 - [2010, A Typical Avionics Integration Flight Test Program][research_a_typical_2010]
 - [2010, Application to Missile Guidance Proportional Navigation][research_application_to_2010]
-- [2010, Autonomous guidance and navigation based on the COLREGs rules and regulations of collision avoidance][research_autonomous_guidance_2010]
 - [2010, US Air Force spaceplane returns to Earth][research_us_air_2010]
 - [2011, 3 Inertiale Navigation][research_3_inertiale_2011]
 - [2011, Design of Guidance Laws Implementing Parallel Navigation. Frequency-Domain Approach][research_design_of_2011]
@@ -1466,7 +1452,6 @@ The next article returns to a vehicle designed to be shot down.
 - [2015, India to launch prototype of reusable launch vehicle][research_india_to_2015]
 - [2015, Spaceplane trip][research_spaceplane_trip_2015]
 - [2016, Effect of Ground Proximity on Aerodynamic Forces and Moments of Reusable Launch Vehicle at Subsonic Speed][research_effect_of_ground_2016]
-- [2016, Estimation of vehicle yaw moment of inertia in dynamic road test using Wheel Force Sensor][research_estimation_of_2016]
 - [2016, Flight Test Data Analysis of Hybrid Vertical Take-off and Landing Unmanned Aerial Vehicle][research_flight_test_2016]
 - [2016, Numerical Optimization on Approach and Landing for Reusable Launch Vehicle][research_numerical_optimization_2016]
 - [2016, Orbital Maneuvers and Control][research_orbital_maneuvers_2016]
@@ -1476,15 +1461,12 @@ The next article returns to a vehicle designed to be shot down.
 - [2017, The Traditional Glide Path][research_the_traditional_2017]
 - [2018, A Study on High Precision MEMS-IMU/GPS/Magnetometer/Barometer Integrated Navigation System][research_a_study_2018]
 - [2018, Inertial Navigation][research_inertial_navigation_2018]
-- [2018, Investigation of Reynolds Number Scale Effects on Propeller Tip Vortex Cavitation and Propeller-Induced Hull Pressure Fluctuations][research_investigation_of_2018]
 - [2018, ISRO Releases the Special Issue on 'Reusable Launch Vehicle-Technology Demonstrator'][research_isro_releases_the_2018]
 - [2018, Performance and Technological Feasibility of Aerospace Plane Horizontal Launch and Landing with Ekranoplane Assistance][research_performance_and_2018]
 - [2019, Anatomy of a No-Equipment-Failed NEF ICNS System Malfunction The Case of Singapore Airlines Sq-327 Runway Excursion][research_anatomy_of_2019]
 - [2019, Dimensional Analysis and Dynamic Similarity][research_dimensional_analysis_2019]
-- [2019, Hydraulic Scaling and Similitude from Model to Prototype][research_hydraulic_scaling_2019]
 - [2019, Radar Altimeter Aiding of GNSS for Precision Approach and Landing of RPA][research_radar_altimeter_2019]
 - [2020, "LaGuardia Airport Design Build for Extending Runway Decks for Safety Area Improvements, Queens, NY"][research_laguardia_airport_2020]
-- [2020, AUV navigation, guidance, and control for geoseismic data acquisition][research_auv_navigation_2020]
 - [2020, Ecodemonstrator Flight Test Program Takes Off][research_ecodemonstrator_flight_2020]
 - [2020, The algorithm of the color signal recognition at landing an unmanned aerial vehicle on an aircraft carrier in autonomous mode][research_the_algorithm_2020]
 - [2021, A Manageable Glide-path][research_a_manageable_2021]
@@ -1517,10 +1499,7 @@ The next article returns to a vehicle designed to be shot down.
 - [A and BT, 2015, Design and Analysis Aircraft Nose and Nose Landing Gear][research_a_bt_2015]
 - [A Typical Avionics Integration Flight Test Program][research_a_typical]
 - [A. Jacob da Motta, 2020, 2.6 How conventional Flight Test Instrumentation Concepts can Contribute to the innovative eVTOL Aerospace Development][research_ajacobdamotta_2020]
-- [A. K. Srivastava and others, 1978, Similitude Modeling Applied to ROPS Testing][research_aksrivastava_gerehkugler_1978]
-- [A. R. Yass and others, 2022, Contribution of lift-to-drag ratio on power coefficient of HAWT blade for different cross-sections][research_aryass_majeedrasheed_2022]
 - [Abdolkarimi and Mosavi, 2020, A low-cost integrated MEMS-based INS/GPS vehicle navigation system with challenging conditions based on an optimized IT2FNN in occluded environments][research_abdolkarimi_mosavi_2020]
-- [Abdulkareem and others, 2021, Numerical Investigation of the Effect of Changing the Thickness of Airfoils used in Wind Turbines on the Lift to Drag Ratio][research_abdulkareem_khudheyer_2021]
 - [Abe and others, 2001, Reentry environment advanced diagnostics READ flight-experiment on USERS reentry vehicle][research_abe_fujita_2001]
 - [ABE and others, 2005, Minimum Acceleration Guidance Law for Spaceplane in Ascent Phase via Exact Linearization][research_abe_shimada_2005]
 - [ABE and others, 2018, Estimation of tire friction on snowy runway at airplane landing][research_abe_kasamura_2018]
@@ -1531,30 +1510,22 @@ The next article returns to a vehicle designed to be shot down.
 - [Abu-Jbara and others, 2015, A robust vision-based runway detection and tracking algorithm for automatic UAV landing][research_abujbara_alheadary_2015]
 - [Abujoub and others, 2018, Unmanned Aerial Vehicle Landing on Maritime Vessels using Signal Prediction of the Ship Motion][research_abujoub_mcphee_2018]
 - [Acarbay and Kiyak, 2022, Fuzzy Bayesian based bow-tie risk assessment of runway overrun a method for airline flight operations][research_acarbay_kiyak_2022]
-- [Acarer, 2020, Peak lift-to-drag ratio enhancement of the DU12W262 airfoil by passive flow control and its impact on horizontal and vertical axis wind turbines][research_acarer_2020]
 - [Achambath and others, 2019, Surface Properties on Thermal Protection System Microstructure during Hypersonic Ablation][research_achambath_ramjatan_2019]
 - [Achambath and Schwartzentruber, 2018, Molecular Simulation of Boundary Layer Flow over Thermal Protection System Microstructure][research_achambath_schwartzentruber_2018]
 - [Acikmese and Ploen, 2005, A Powered Descent Guidance Algorithm for Mars Pinpoint Landing][research_acikmese_ploen_2005]
 - [Acikmese and Ploen, 2007, Convex Programming Approach to Powered Descent Guidance for Mars Landing][research_acikmese_ploen_2007]
 - [Acquatella and Reiner, 2014, Modelica Stage Separation Dynamics Modeling for End-to-End Launch Vehicle Trajectory Simulations][research_acquatella_reiner_2014]
 - [Adachi, 1997, Effects of surface roughness on the universal Strouhal number over the wide Reynolds number range][research_adachi_1997]
-- [Adaikalam and others, 2025, Enhancing residential energy management COA-HDNN approach for optimized demand side management][research_adaikalam_kumar_2025]
-- [Adam and others, 2014, The Strouhal-Froude number scaling for wildland fire spread][research_adam_english_2014]
 - [Adams and others, 1973, Hypersonic Lifting Body Windward Surface Flow-Field Analysis for High Angles of Incidence][research_adams_johnc_1973]
 - [Adhikari and others, 2024, Reentry aerothermodynamics of a deorbiting cubesat with dragsail][research_adhikari_black_2024]
-- [Adiwilaga and others, 2017, Design of a modular, compact, long endurance autonomous underwater vehicle with gliding capabilities for research purpose operations][research_adiwilaga_taufikurrahman_2017]
-- [Adnan, 2021, A Novel Coordinated Droop Control strategy for Energy Management of a Multi-terminal Low-voltage DC-Nanogrid][research_adnan_2021]
 - [Adrian and Balachandar, 2001, Vortex Packets in Turbulent Boundary Layers with Application to High Reynolds Number Effects, Isolated and Patterned Roughness, Near Wall Modeling and Strategies for Drag Reduction][research_adrian_balachandar_2001]
 - [AFTATAH and ZEBBARA, 2024, Robust ConvNet-Kalman Filter Integration for Mitigating GPS Jamming and Spoofing Attacks Basing on Inertial Navigation System Data][research_aftatah_zebbara_2024]
-- [Agaiby and others, 1996, On Large-Scale Model Testing of Laterally Loaded Drilled Shafts in Sand][research_agaiby_kulhawy_1996]
 - [Agez and Wuilbercq, 2025, Maximisation of lift-to-drag ratio for VLEO platforms using free-form deformation techniques][research_agez_wuilbercq_2025]
 - [Agustin and others, 1999, Robust Failure Detection for Reentry Vehicle Attitude Control Systems][research_agustin_mangoubi_1999]
 - [Ahlefeldt and Quest, 2014, Real-Flight Reynolds Number Microphone-Array Measurements on a Scaled Model in ETW][research_ahlefeldt_quest_2014]
 - [Ahlefeldt, 2017, Microphone Array Measurement in European Transonic Wind Tunnel at Flight Reynolds Numbers][research_ahlefeldt_2017]
-- [Ahmadi and Ahmadi, 2025, Data-Driven Energy Consumption Prediction A Comprehensive Approach to Smart Energy Management][research_ahmadi_ahmadi_2025]
 - [Ahmed and others, 1998, Performance of Plain Concrete Runway Pavement][research_ahmed_rahman_1998]
 - [Ahmed and others, 2017, Development of Automatic Take Off and Smooth Landing Control System for Quadrotor UAV][research_ahmed_hazry_2017]
-- [Ahmed and others, 2025, An isomorphic Froude scaling approach to bulbous-bottomed buoys in wave energy converters for smart floating cities][research_ahmed_azam_2025]
 - [Ahmed, 2021, Segregated FLS Processing Cores for V/STOL Autonomous Landing Guidance Assistant System Using FPGA][research_ahmed_2021]
 - [Ai and others, 2022, Structural efficiency of a stitched integrated thermal protection system with thermal protection/insulation and load-bearing capacity][research_ai_wang_2022]
 - [Ai and others, 2023, Deep Reinforcement Learning-Based Unmanned Aerial Vehicle Mobile Crowdsensing with Landing Constraints][research_ai_hu_2023]
@@ -1569,7 +1540,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Al Fatih and others, 2021, An Optimization Study of Strake Implementation on a Spaceplane][research_alfatih_shimoyama_2021]
 - [AL-Bakri and Kluever, 2017, Automatic Approach and Landing Trajectory Planner for Unpowered Reusable Launch Vehicle][research_albakri_kluever_2017]
 - [Al-Bakri and others, 2020, Approach and Landing Guidance for an Unpowered Gliding Vehicle][research_albakri_albakri_2020]
-- [Al-Massoum and others, 1998, A Similitude Model for Testing Greenhouse Evaporative Cooling Pads Under the Hot-arid Conditions of the U.a.E][research_almassoum_haffar_1998]
 - [Al-Sharman and others, 2018, Auto Takeoff and Precision Terminal-Phase Landing Using an Experimental Optical Flow Model for Global Positioning System/Inertial Navigation System Enhancement][research_alsharman_aljarrah_2018]
 - [Albach and Fewel, 1965, Challenges in Landing Gear Design for V/STOL Service XC-142A][research_albach_fewel_1965]
 - [Alber, 2012, Estimating the Orbiter reentry trajectory and the associated peak heating rates][research_alber_2012]
@@ -1593,10 +1563,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Allen and Lin, 2007, Guidance and Control of an Autonomous Soaring Vehicle with Flight Test Results][research_allen_lin_2007]
 - [Allen and others, 1994, Reusable launch vehicle design flexibility][research_allen_sauvageau_1994]
 - [Allen and others, 2015, SUGAR Truss Braced Wing Full Scale Aeroelastic Analysis and Dynamically Scaled Wind Tunnel Model Development][research_allen_sexton_2015]
-- [Allen and Sandberg, 2020, An Owner's Approach to Energy Management System Design][research_allen_sandberg_2020]
-- [Allen and Sandberg, 2020, Disney's Approach to Energy Management System Design][research_allen_sandberg_2020_b]
 - [Allison, 2017, Building a Viable Spaceport Economy through the Eyes of a Reentry Vehicle Operator][research_allison_2017]
-- [Allori and others, 2013, Wind tunnel tests on macro-porous structural elements A scaling procedure][research_allori_bartoli_2013]
 - [Almeida, 2021, Model Predictive Control and Constrained Dynamic Compensation for a Hypersonic Flight Vehicle][research_almeida_2021]
 - [Almosnino, 2016, Assessment of an Inviscid Euler-Adjoint Solver for Prediction of Aerodynamic Characteristics of the NASA HL-20 Lifting Body][research_almosnino_2016]
 - [Alpert, 2001, A new approach to fixed-order H-infinity synthesis - Application to autoland design][research_alpert_2001]
@@ -1604,7 +1571,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Altmann, 2013, Influence of Wind on Terminal Approach and Landing Accuracy][research_altmann_2013]
 - [Alvord and others, 2024, Reusable Launch Vehicle Utilization of Predictive Maintenance to Address Risk Reduction Assessment][research_alvord_arias_2024]
 - [Aly and Bitsuamlak, 2013, Aerodynamics of ground-mounted solar panels Test model scale effects][research_aly_bitsuamlak_2013]
-- [Aly and DiLeo, 2025, Advancing Bridge Aerodynamics Open-Jet Testing, Reynolds Number Effects, and Sustainable Mitigation Through Green Energy Integration][research_aly_dileo_2025]
 - [Amato and others, 2026, HyperCODA Validation for Hypersonic Flight Flow Simulations of a Reentry Vehicle][research_amato_giannino_2026]
 - [Ambrosio and others, 2026, Helicopter flight test campaign instrumentation layout, sensor placement strategy, and in-flight acceleration measurements for vibration-related investigations][research_ambrosio_camargo_2026]
 - [Amelin, 2022, Landing, navigation and surveillance radiotechnical system for unmanned aircraft][research_amelin_2022]
@@ -1616,7 +1582,6 @@ The next article returns to a vehicle designed to be shot down.
 - [An Li and others, 2010, Improved precision of strapdown inertial navigation system brought by dual-axis continuous rotation of inertial measurement unit][research_anli_guobinchang_2010]
 - [An Su-yang and others, 2016, ACO-DD An improved framework for UAV autonomous landing recognition based on Multiple Instance Learning][research_ansuyang_zhangfeijuan_2016]
 - [Anand and others, 2020, Vision Based Automatic Landing of Unmanned Aerial Vehicle][research_anand_barman_2020]
-- [Ananta and Farizal, 2023, Implementation of Energy Management Strategy in Terminal 2 Soekarno Hatta International Airport - Jakarta][research_ananta_farizal_2023]
 - [Anderson and Kinzel, 2023, Numerical Evaluation of Entry System Trajectory Control via Active Porosity Control of Transpiration Cooled Thermal Protection System][research_anderson_kinzel_2023]
 - [ANDERSON and others, 1967, A simple guidance scheme for lifting body reentry vehicles][research_anderson_schultz_1967]
 - [ANDERSON and others, 1983, AV-8B system identification results from full scale development flight test program][research_anderson_vincent_1983]
@@ -1630,11 +1595,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Annaloro and others, 2020, Aerothermodynamics modelling of complex shapes in the DEBRISK atmospheric reentry tool Methodology and validation][research_annaloro_galera_2020]
 - [Anoshin and others, 2012, Control of a Trajectory of a Space Vehicle with Small Lift-to-drag Ratio at Descent in an Atmosphere][research_anoshin_bobylev_2012]
 - [Antonia and Zhou, 1998, Reynolds Number Dependence of Transverse Scaling Exponents in Grid Turbulence][research_antonia_zhou_1998]
-- [Antunes and Heemels, 2014, Rollout Event-Triggered Control Beyond Periodic Control Performance][research_antunes_heemels_2014]
 - [Anyoji and others, 2010, Low Reynolds Number Airfoil Testing in a Mars Wind Tunnel][research_anyoji_nose_2010]
 - [Aoki and Ishigami, 2022, Autonomous tracking and landing of an unmanned aerial vehicle on a ground vehicle in rough terrain][research_aoki_ishigami_2022]
-- [Aplak and Sogut, 2013, Game theory approach in decisional process of energy management for industrial sector][research_aplak_sogut_2013]
-- [Appleman and Nau, 2003, Technology Demonstration of Nontoxic Chemical Stripper for Steel Cost and Performance Report][research_appleman_nau_2003]
 - [Aprovitola and others, 2019, Parametric Integral Soft Objects-based Procedure for Thermal Protection System Modeling of Reusable Launch Vehicle][research_aprovitola_iuspa_2019]
 - [Aprovitola and others, 2019, Thermal Protection System Design of a Reusable Launch Vehicle Using Integral Soft Objects][research_aprovitola_iuspa_2019_b]
 - [Aradag and others, 2007, Aerodynamic Analysis of a Vertically Landing Lifting Body][research_aradag_seidel_2007]
@@ -1653,7 +1615,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Arshad and others, 2021, Stability Analysis for a Concept Design of Vertical Take-off and Landing VTOL Unmanned Aerial Vehicle UAV][research_arshad_kallungal_2021]
 - [Aruna and Devi, 2012, A computational study on reduction of aerodynamic heating and drag over a blunt body in hypersonic turbulent flow using counter flow jet][research_aruna_devi_2012]
 - [Ashford, 1993, A strategy for developing a safe spaceplane soon][research_ashford_1993]
-- [Ashida, 1969, Effects of Consecutive Shifts of Magnitude of Reward on Runway Performance][research_ashida_1969]
 - [Ashikhmina and Prosuntsov, 2021, Re-entry trajectory design for reusable spaceplane of tourist class][research_ashikhmina_prosuntsov_2021]
 - [Ashkenas and others, 1982, Analyses of Shuttle Orbiter approach and landing][research_ashkenas_1982]
 - [Ashok Gandhi and others, 2020, Time Domain Aero Control Structure Interaction Studies of Indian Reusable Launch Vehicle][research_ashokgandhi_jayan_2020]
@@ -1678,9 +1639,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Azarov and Chernovolov, 2018, Development of Recommendations on Structural Material Selection in Aeroelastic Phenomena Modelling Aircraft Dynamically Similar Models in Wind Tunnels][research_azarov_chernovolov_2018]
 - [Azimov, 2013, Enhanced Apollo-Class Real-Time Targeting and Guidance for Powered Descent and Precision Landing][research_azimov_2013]
 - [Azinheira and others, 2000, Guidance Control Strategies for an Autonomous Unmanned Airship][research_azinheira_depaiva_2000]
-- [B Mitchell and others, 2020, VXTe Deepwater Tree Development Cost and Risk Reduction Through New and Advanced Technology][research_bmitchell_knorwood_2020]
-- [B, 2011, Physical Insights Into Dynamic Similarity in Animal Locomotion. II. Observation of Continues Similarity States][research_b_2011]
-- [B. P. Verma and R. L. Schafer, 1971, Compensated Model Theory in the Similitude of a Soil-Chisel System][research_bpvermaandrlschafer_1971]
 - [Baca and others, 2017, Autonomous landing on a moving car with unmanned aerial vehicle][research_baca_stepan_2017]
 - [Badarudin Mohamad Badry and others, 2013, Numerical analysis of the effect of vortex control mechanism on longitudinal aerodynamics of lifting body][research_badarudinmohamadbadry_lee_2013]
 - [Badikov and others, 2026, Study on the Dependency of Launch Costs of Fully Reusable Launch Vehicles on the Number of Their Reuses][research_badikov_volkova_2026]
@@ -1690,8 +1648,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Bailet and others, 2022, Nonintrusive Instrument for Thermal Protection System to Measure Recession and Swelling][research_bailet_denis_2022]
 - [Baillif and others, 1995, Cryogenic insulation selection and its effects on thermal protection system sizing for reusable launch vehicles][research_baillif_bodepudi_1995]
 - [Baimukhametov and White, 2026, Developing Best Practice Guidance on the Interpretation of Runway Friction Survey Results for Runway Skid Resistance Management][research_baimukhametov_white_2026]
-- [Bairral and Souza Brito, 2024, Dynamics of Triangle Similarity Exploring Similitude Ratios through Interactive Sliding Controls][research_bairral_souzabrito_2024]
-- [Baker and Brockie, 1991, Wind tunnel tests to obtain train aerodynamic drag coefficients Reynolds number and ground simulation effects][research_baker_brockie_1991]
 - [BAKER and KRAMER, 1979, Reentry vehicle nosetip design for minimum total heat transfer][research_baker_kramer_1979]
 - [Baker and Kramer, 1982, Reentry Vehicle Nosetip Design for Minimum Total Heat Transfer][research_baker_kramer_1982]
 - [Bakulin and others, 2016, Space vehicle landing dynamics at failure of landing gear][research_bakulin_borzykh_2016]
@@ -1702,7 +1658,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Balas, 2003, Flight Control Law Design An Industry Perspective][research_balas_2003]
 - [Balch, 1979, Correlation of Full Scale Wind Tunnel Test Data with Model Rotor Test Data and Theory for a Modern Helicopter Main Rotor][research_balch_1979]
 - [Baldini and others, 2020, Learning Pose Estimation for UAV Autonomous Navigation and Landing Using Visual-Inertial Sensor Data][research_baldini_anandkumar_2020]
-- [Baldwin, 2013, "Is Anybody Walkin'?" The Black Body on the Runway as a Performance of the Politics of Desire][research_baldwin_2013]
 - [Balepin and others, 2001, Combined Engine for Reusable Launch Vehicle KLIN Cycle][research_balepin_czysz_2001]
 - [Balint and others, 2010, Numerical analysis of the oscillation susceptibility along the path of longitudinal flight equilibria of a reentry vehicle][research_balint_kaslik_2010]
 - [Ball and others, 1997, Military spaceplane mobile operations test bed][research_ball_oittinen_1997]
@@ -1723,13 +1678,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Barnes and others, 2007, Nose Landing Gear Door Re-design][research_barnes_mcmichael_2007]
 - [Barnhart and others, 2007, Advancing Exploration Risk Reduction and Workforce Motivation Through Dynamic Flight Testing][research_barnhart_sullivan_2007]
 - [BARRON, 2024, 21 Years of Acoustic Scale Model Testing][research_barron_2024]
-- [Barsim and others, 2019, Froude scaling modeling in an Atrium Fire equipped with natural and transient forced ventilation][research_barsim_bassily_2019]
 - [BARTHELEMY, 1989, The National Aero-Space Plane program][research_barthelemy_1989]
 - [Bartlett and others, 2004, The Joint Rolls-Royce/Boeing Quiet Technology Demonstrator Programme][research_bartlett_humphreys_2004]
 - [Baselga and others, 2009, Inertial Navigation System Data Filtering Prior to GPS/INS Integration][research_baselga_garciaasenjo_2009]
 - [Bashir and others, 2017, Computational and Analytical Investigation of Aerodynamic Derivatives of Similitude Delta Wing Model at Hypersonic Speeds][research_bashir_khan_2017]
 - [Basirico and others, 2011, Testing of Full Speed No Load Operating Conditions in a Subscale Steam Turbine Test Vehicle][research_basirico_zhou_2011]
-- [Bastankhah and others, 2022, Wind tunnel research, dynamics, and scaling for wind energy][research_bastankhah_hamilton_2022]
 - [Basturk and others, 2015, Pitch Control Design for Tandem Lifting Body Catamaran by Aft Lifting Body Actuation][research_basturk_rosenthal_2015]
 - [Batill, 1982, A Study of Analytic Modeling Techniques for Landing Gear Dynamics][research_batill_1982]
 - [Batterbee and others, 2007, Magnetorheological landing gear 1. A design methodology][research_batterbee_sims_2007]
@@ -1739,14 +1692,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Baumgartner, 1997, Venturestar™ single stage to orbit reusable launch vehicle program overview][research_baumgartner_1997]
 - [Baxevani and others, 2022, Resilient Ground Vehicle Autonomous Navigation in GPS-Denied Environments][research_baxevani_yadav_2022]
 - [Bayer, 1998, Perspectives of international cooperation in the spaceplane sector][research_bayer_1998]
-- [Beber and others, 2018, LEAP GWU 2017 Investigating different methods for verifying the relative density of a centrifuge model][research_beber_madabhushi_2018]
 - [Beck and others, 2014, Development of the Mars Science Laboratory Heatshield Thermal Protection System][research_beck_driver_2014]
 - [Bednarcyk and others, 2023, Effect of Damage Progression on the Thermal Conductivity of 3D Woven Composite Thermal Protection System Materials][research_bednarcyk_gustafson_2023]
-- [Bedoya and Rincon, 2002, Wing Geometry and Dynamic Similarity in Insect Flight][research_bedoya_rincon_2002]
 - [Bedrov and others, 1966, Certain Nonlinear Laws in the Control of a Winged Glide Vehicle in Transition from a Circular Orbit to a Takeoff and Landing Strip][research_bedrov_vadichin_1966]
 - [Bekar and others, 2025, Validation of an AI-Assisted Terrain-Aided Navigation Algorithm Using Real-World Flight Test Instrumentation Data][research_bekar_tanyeri_2025]
 - [Belabbas and others, 2010, GBAS based autoland system A bottom up approach for GAST-D requirements][research_belabbas_dautermann_2010]
-- [Belikov and others, 2017, Automatic probe landing in Atomic Force Microscopy resonance modes][research_belikov_alexander_2017]
 - [Ben-Dov and Beatus, 2022, Model-Based Tracking of Fruit Flies in Free Flight][research_bendov_beatus_2022]
 - [BENBOW, 1971, Principles of performance monitoring, with application to automatic landing][research_benbow_1971]
 - [Benedetto and others, 2014, Improving safety of runway overrun through the correct numerical evaluation of rutting in Cleared and Graded Areas][research_benedetto_damico_2014]
@@ -1760,7 +1710,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Beresford and Asteraki, 1961, The problem of improving the British Instrument Landing System localizer for automatic landing][research_beresford_asteraki_1961]
 - [Beresh, 2022, Ground Testing of Unsteady Aerodynamic Environments in Hypersonic Flight][research_beresh_2022]
 - [Berg, 1966, Snap 10A Flight Test Instrumentation Performance][research_berg_1966]
-- [Bergdahl and others, 2016, Dynamically Scaled Model Experiment of a Mooring Cable][research_bergdahl_palm_2016]
 - [Berger and others, 2012, Longitudinal Control Law Design and Handling Qualities Optimization for a Business Jet Flight Control System][research_berger_tischler_2012]
 - [Bergeron and others, 2011, Accuglide Precision Airdrop Guidance and Control via Glide Slope Control][research_bergeron_tavan_2011]
 - [Berkes, 1992, Technology developments within the predesign phase of the Hermes spaceplane programme][research_berkes_1992]
@@ -1771,7 +1720,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Berry and others, 2002, Wind Tunnel Measurements of Shuttle Orbiter Global Heating With Comparison to Flight][research_berry_merski_2002]
 - [Berry, 1999, Landing Gear Design in the Conceptual Design Phase][research_berry_1999]
 - [Berry, 2000, Sizing the landing gear in the conceptual design phase][research_berry_2000]
-- [Bertazzi, 2011, Minimum and Worst-Case Performance Ratios of Rollout Algorithms][research_bertazzi_2011]
 - [BERTELRUD and others, 1992, Plans for in-flight measurement of hypersonic crossflow transition on the Pegasus launch vehicle][research_bertelrud_kolodziej_1992]
 - [Berthelot and others, 2026, Material Selection and Structural Analysis of an Undergraduate-Designed Unpowered Hypersonic Glide Vehicle][research_berthelot_craft_2026]
 - [Bertrand-Noël and others, 2022, Flight safety concepts for the subscale airlaunch demonstrator EOLE][research_bertrandnoel_bignaletcazalet_2022]
@@ -1792,7 +1740,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Biannic and Roos, 2018, Robust Autoland Design by Multi-Model ℋ∞ Synthesis with a Focus on the Flare Phase][research_biannic_roos_2018]
 - [Bickford and others, 1997, Real-time sensor validation for autonomous flight control][research_bickford_bickmore_1997]
 - [Bieniawski and others, 2014, Summary of Flight Testing and Results for the Formation Flight for Aerodynamic Benefit Program][research_bieniawski_rosenzweig_2014]
-- [Biesel, 1954, The Similitude of Scale Models for the Study of Seiches in Harbours][research_biesel_1954]
 - [Bikonis and Demkowicz, 2013, Integration of Inertial Sensors and GPS System Data for the Personal Navigation in Urban Area][research_bikonis_demkowicz_2013]
 - [Bin and Hongxin, 2006, Adaptive Control Based on Characteristic Model for a Hypersonic Flight Vehicle][research_bin_hongxin_2006]
 - [BINNS and others, 1996, Domain-specific Software Architectures for Guidance, Navigation and Control][research_binns_englehart_1996]
@@ -1800,20 +1747,14 @@ The next article returns to a vehicle designed to be shot down.
 - [Birkeland and Meuser, 1999, Thinking through reusable launch vehicle licensing][research_birkeland_meuser_1999]
 - [Bischoff and others, 1974, Automatic Control of Adverse Yaw in the Landing Environment using Optimal Control Theory][research_bischoff_duffy_1974]
 - [Bishop and others, 2016, An Inertial Dual-State State Estimator for Precision Planetary Landing with Hazard Detection and Avoidance][research_bishop_crain_2016]
-- [Bishop, 2002, Decentralized Guidance, Navigation, and Control for Platoons of Cooperating UUVs][research_bishop_2002]
-- [Bixel and others, 1996, Sprung/Unsprung Mass Properties Determination without Vehicle Disassembly][research_bixel_heydinger_1996]
 - [Bizzarri and Hendrick, 2003, Study and Development of an Air Distillation Subscale Unit for In-Flight Oxygen Collection][research_bizzarri_hendrick_2003]
-- [Black and Cronn, 1975, Hydrograph responses to watershed model size and similitude relations][research_black_cronn_1975]
-- [Black and others, 1973, Runway Performance as a Function of Magnitude of Runway Reward and Intertrial Reinforcement][research_black_house_1973]
 - [BLACK, 1968, High-speed store separation - Correlation between wind-tunnel and flight-test data][research_black_1968]
 - [Blackmore and others, 2010, Minimum-Landing-Error Powered-Descent Guidance for Mars Landing Using Convex Optimization][research_blackmore_acikmese_2010]
 - [BLACKSTOCK, 1970, A ferry package for transporting reusable spacecraft and launch vehicles][research_blackstock_1970]
 - [Blades and Redgrave, 2000, Captive carry flutter analysis for the X-34 reusable launch vehicle][research_blades_redgrave_2000]
-- [Blaylock and others, 2015, Numerical Simulations of Subscale Wind Turbine Rotor Inboard Airfoils at Low Reynolds Number][research_blaylock_maniaci_2015]
 - [BLEIMEYER, 1981, Fiber optics in flight test instrumentation applications][research_bleimeyer_1981]
 - [Blevins and others, 2022, Flight Test Validation of Real-Time UAS Mission Planning Autonomy and Optimal Path Planning for Flight Line Surveys][research_blevins_mckinnis_2022]
 - [Bliamis and others, 2018, Hypersonic vehicle control concept using an active shock bump technique][research_bliamis_panagiotou_2018]
-- [Blizard and Stockar, 2023, A dynamically similar lab-scale district heating network via dimensional analysis][research_blizard_stockar_2023]
 - [BLODGETT and others, 1986, A novel reentry vehicle instrument - The photodiode][research_blodgett_conrad_1986]
 - [Blom, 2017, RPAS automatic take-off and landing operations using computer vision][research_blom_2017]
 - [Blonigan and others, 2025, Operator Inference-Based Model Order Reduction of Thermal Protection System Finite Element Simulations][research_blonigan_tencer_2025]
@@ -1840,10 +1781,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Borzykh and others, 2013, Analysis of landing process dynamics for different reentry vehicle landing device support schemes][research_borzykh_voronin_2013]
 - [Boschetti and others, 2004, Experimental Aerodynamic Study of UAV Wind Tunnel Model for Low Reynolds Number][research_boschetti_cardenas_2004]
 - [Boskovic and Redding, 2009, An Autonomous Carrier Landing System for Unmannned Aerial Vehicles][research_boskovic_redding_2009]
-- [Bourahla and Blakeborough, 2015, Similitude Distortion Compensation for a Small Scale Model of a Knee Braced Steel Frame][research_bourahla_blakeborough_2015]
-- [Bourhis and others, 2022, Experimental Investigation of the Effects of the Reynolds Number on the Performance and Near Wake of a Wind Turbine][research_bourhis_pereira_2022]
-- [Bourhis and others, 2023, Experimental investigation of the effects of the Reynolds number on the performance and near wake of a wind turbine][research_bourhis_pereira_2023]
-- [Bourhis and others, 2023, Wind Tunnel Experimental Study of the Effects of Blade Number on the Performance and Starting Behavior of a Low Tip-Speed Ratio and Micro-Scale Wind Turbine at Fixed Blade Geometry][research_bourhis_zhang_2023]
 - [Bourisli and Hamadeh, 2020, Optimizing NACA Airfoil Thickness Function Parameters for Maximum Lift-to-Drag Ratio][research_bourisli_hamadeh_2020]
 - [Bourisli and others, 2025, Morphing and control of airfoils for optimum lift-to-drag ratio using shape-memory alloy with particle swarm optimization of PARSEC parameters][research_bourisli_ibrahim_2025]
 - [BOUSLOG and others, 1993, Two-layer convective heating prediction procedures and sensitivitiesfor blunt body reentry vehicles][research_bouslog_an_1993]
@@ -1904,7 +1841,6 @@ The next article returns to a vehicle designed to be shot down.
 - [BUCKLEY and MORFEY, 1984, Scaling laws for jet mixing noise in simulated flight and the prediction scheme associated][research_buckley_morfey_1984]
 - [BUELL and OLEINIK, 1998, The AN/ASN-128B An Integrated Doppler/GPS Navigation System for Helicopters][research_buell_oleinik_1998]
 - [Bufalino, 1995, Managing the introduction of CAIS to F/A-18E/F flight test operations common airborne instrumentation system][research_bufalino_1995]
-- [Buffin-Bélanger and Roy, 2004, On the Use of the Reynolds Number to Scale the Effects of Obstacles on a Depth-Limited Flow in a Gravel-Bed River][research_buffinbelanger_roy_2004]
 - [BUFFO, 1990, Technical comparison of seven nations' spaceplane programs][research_buffo_1990]
 - [Bukov and Bykov, 2017, A predictive algorithm for runway overrun protection][research_bukov_bykov_2017]
 - [BULL and FOSTER, 1974, Jet transport energy management for minimum fuel consumption and noise impact in the terminal area][research_bull_foster_1974]
@@ -1913,13 +1849,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Burchett, 2004, Fuzzy Logic Trajectory Design and Guidance for Terminal Area Energy Management][research_burchett_2004]
 - [Burgess, 1970, The Concorde Flight Test Programme][research_burgess_1970]
 - [Burkhardt and others, 1999, Impact of mission constraints on optimal flight trajectories for the lifting body X-38][research_burkhardt_graesslin_1999]
-- [Burnham, 1971, Asymptotic Lift-to-Drag Ratios for Magnetic Suspension Systems][research_burnham_1971]
 - [BURNS, 1970, Free-flight wind tunnel test of hypersonic decelerators][research_burns_1970]
 - [BURNS, 1992, Kinetic kill vehicle flight test program][research_burnsiii_1992]
 - [BURT and HAIGH, 1968, Free flight wind tunnel test of a sphere and cable deployed from a conical model with intact recovery of all components][research_burt_haigh_1968]
 - [Bushnell, 2006, SCALING Wind Tunnel to Flight][research_bushnell_2006]
 - [Busnardo and others, 2011, LIDAR-Aided Inertial Navigation with Extended Kalman Filtering for Pinpoint Landing over Rough Terrain][research_busnardo_aitken_2011]
-- [Butler and Verrall, 2001, Precision Hybrid Inertial/Acoustic Navigation System for a Long-Range Autonomous Underwater Vehicle][research_butler_verrall_2001]
 - [Butt and others, 2010, Robust adaptive Dynamic Surface Control of a hypersonic flight vehicle][research_butt_yan_2010]
 - [Butt and others, 2011, Adaptive dynamic surface control of a hypersonic flight vehicle with improved tracking][research_butt_yan_2011]
 - [Butt and others, 2011, Adaptive Dynamic Surface Control of a Hypersonic Flight Vehicle with Magnitude, Rate and Bandwidth Constraints][research_butt_yan_2011_b]
@@ -1936,7 +1870,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Cai and others, 2013, Controller Design Based on Linear Matrix Inequalities for Hypersonic Reentry Vehicle Driven by Reaction Control System][research_cai_jianmei_2013]
 - [Cai and others, 2013, Flight control system design for hypersonic reentry vehicle based on LFT-LPV method][research_cai_song_2013]
 - [Cai and others, 2014, Control system design for hypersonic reentry vehicle driven by aerosurfaces and reaction control system][research_cai_song_2014]
-- [Cai and others, 2017, An energy management approach for the mechanical manufacturing industry through developing a multi-objective energy benchmark][research_cai_liu_2017]
 - [Cai and others, 2024, Flight Test Design and Nonlinear Model Identification for Landing Gear Aerodynamics][research_cai_lei_2024]
 - [Cai and others, 2024, Research and Flight Test on the Terminal Guidance Control Technology for Cruising Unmanned Aerial Vehicles][research_cai_yang_2024]
 - [Cai and others, 2025, GPS-Aided Stereo Inertial Navigation Localization Algorithm for Outdoor Scenarios][research_cai_gao_2025]
@@ -1952,17 +1885,14 @@ The next article returns to a vehicle designed to be shot down.
 - [Campi and others, 2019, Innovative Design of Drone Landing Gear Used as a Receiving Coil in Wireless Charging Application][research_campi_cruciani_2019]
 - [Camponogara and others, 2019, Measurement and Characterization of Power Lines of Aircraft Flight Test Instrumentation][research_camponogara_oliveira_2019]
 - [Campos, 1989, On a pitch control law for a constant glide slope through windshears][research_campos_1989]
-- [Canet and others, 2018, Gravo-aeroelastic scaling of very large wind turbines to wind tunnel size][research_canet_bortolotti_2018]
 - [CANNIFF, 1969, Flight test report of experiments in inertial navigation system updating][research_canniff_1969]
 - [Cao and others, 2012, Vision-based guidance, navigation and control for Unmanned Aerial Vehicle landing][research_cao_ding_2012]
-- [Cao and others, 2018, Drifting and Gliding Design of a Multimodal Underwater Vehicle][research_cao_li_2018]
 - [Cao and others, 2024, Numerical Analysis on the Characteristics of the Exhaust Plume During the Re-Entry Phase of Vertical Landing Reusable Launch Vehicle Under Different Altitude][research_cao_zhou_2024]
 - [Cao and Zhang, 2015, Aerodynamic configuration optimization for hypersonic gliding vehicle based on improved hybrid multi-objective PSO algorithm][research_cao_zhang_2015]
 - [Caogen and others, 2008, A study on metallic thermal protection system panel for Reusable Launch Vehicle][research_caogen_hongjun_2008]
 - [Capderou, 2012, Satellites pour la navigation GPS][research_capderou_2012]
 - [Cappello and others, 2016, Aircraft dynamics model augmentation for RPAS navigation and guidance][research_cappello_sabatini_2016]
 - [Carloni and Bousson, 2016, A Nonlinear Control Method for Autonomous Navigation Guidance][research_carloni_bousson_2016]
-- [Carlson and others, 1965, The effects of dl-amphetamine and reserpine on runway performance][research_carlson_doyle_1965]
 - [Carman and others, 1980, Store Separation Testing Techniques at the Arnold Engineering Development Center. Volume 2. Description of Captive Trajectory Store Separation Testing in the Aerodynamic Wind Tunnel 4T][research_carman_jb_1980]
 - [Carnes and others, 2015, A Fully Parameterizable Implementation of Autonomous Take-off and Landing for a Fixed Wing UAV][research_carnes_bakker_2015]
 - [Carpenter and others, 2019, Modeling Hypervelocity Impact of Reinforced Carbon-Carbon Composite Thermal Protection System][research_carpenter_chocron_2019]
@@ -1984,7 +1914,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Cetin and Kutay, 2016, Automatic landing flare control design by model-following control and flight test on X-Plane flight simulator][research_cetin_kutay_2016]
 - [Cetin and others, 2010, Fuzzy Logic Based Approach to Design of Autonomous Landing System for Unmanned Aerial Vehicles][research_cetin_kurnaz_2010]
 - [Cetinkaya and Ozkol, 2017, Evaluation of critical parameters in the design of a trainer aircraft landing gear][research_cetinkaya_ozkol_2017]
-- [Ceyhan, 2012, Towards 20MW Wind Turbine High Reynolds Number Effects on Rotor Design][research_ceyhan_2012]
 - [Chae and others, 2019, Combined Effects of Thermal Non-equilibrium and Chemical Reactions on Hypersonic Air Flows Around An Orbital Reentry Vehicle][research_chae_mankodi_2019]
 - [Chai and Mason, 1996, Landing gear integration in aircraft conceptual design][research_chai_mason_1996]
 - [Chai and others, 2017, Violation Learning Differential Evolution-Based hp-Adaptive Pseudospectral Method for Trajectory Optimization of Space Maneuver Vehicle][research_chai_savvaris_2017]
@@ -2011,7 +1940,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Chang, 2016, Fuzzy Logic-Based Models of Transport Aircraft in Avoidance of Runway Excursion][research_chang_2016]
 - [Changsheng and others, 2006, Optimal Guidance Law Design for Reentry Vehicle Using Virtual Displacement Concept][research_changsheng_wuxing_2006]
 - [CHANNON and BARRY, 1967, Status of Reentry Vehicle Heatshields][research_channon_barry_1967]
-- [Chanson and Gualtieri, 2008, Similitude and scale effects of air entrainment in hydraulic jumps][research_chanson_gualtieri_2008]
 - [CHAPTER, 1986, Orbital maneuvering vehicle thermal design and analysis techniques][research_chapter_1986]
 - [Charette and others, 1998, Russian aluminum-lithium alloys for advanced reusable spacecraft][research_charette_leonard_1998]
 - [Chase and Chase, 1997, Comments on upper stage applications for a military space plane][research_chase_chase_1997]
@@ -2036,7 +1964,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Chen and others, 2011, Study on tightly-coupled GPS/SINS integrated navigation system by using software GPS receiver][research_chen_yu_2011]
 - [Chen and others, 2013, Research on touchdown performance of soft-landing system with flexible body][research_chen_nie_2013]
 - [Chen and others, 2016, Adaptive backstepping control for reentry attitude of near space hypersonic vehicle with input saturation][research_chen_zhu_2016]
-- [CHEN and others, 2017, Wind Tunnel Test Study for the Influence of Reynolds Number on the Aerodynamic Performance of High-speed Trains][research_chen_yao_2017]
 - [Chen and others, 2018, Extended state observer-based back-stepping control for hypersonic reentry vehicle with input constraints][research_chen_ma_2018]
 - [Chen and others, 2018, Reusable launch vehicle model uncertainties impact analysis][research_chen_mu_2018]
 - [Chen and others, 2020, Concept of Steady Glide Reentry Trajectory and Stability of Its Regular Perturbation Solutions][research_chen_zhou_2020_e]
@@ -2046,12 +1973,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Chen and others, 2020, Trajectory Damping Control Technique for Hypersonic Glide Reentry][research_chen_zhou_2020_d]
 - [Chen and others, 2021, Framework of airfoil max lift-to-drag ratio prediction using hybrid feature mining and Gaussian process regression][research_chen_dong_2021]
 - [Chen and others, 2021, GINav a MATLAB-based software for the data processing and analysis of a GNSS/INS integrated navigation system][research_chen_chang_2021]
-- [Chen and others, 2022, Identification of Physical Parameters of Railway Vehicles Based on Drop Test][research_chen_zhou_2022]
 - [Chen and others, 2022, Knowledge Graph of Civil Aircraft Approach and Landing Flight Safety Research Based on Citespace Sustainability Analysis][research_chen_man_2022]
-- [Chen and others, 2023, Integrated velocity optimization and energy management for FCHEV An eco-driving approach based on deep reinforcement learning][research_chen_peng_2023]
 - [Chen and others, 2023, Order Reduction Control Design for Carrier-Based Aircraft Automatic Carrier Landing System][research_chen_han_2023]
-- [Chen and others, 2023, Special-shape similitude law of a soil-pile-structure model for centrifuge shaking table tests][research_chen_lv_2023]
-- [Chen and others, 2025, Dynamic similarity study of the truncated model test for submerged floating tunnels under wave actions][research_chen_zhang_2025]
 - [Chen and others, 2025, Effect of Thermal Protection System on Aerodynamics and Pressure of Reusable Launch Vehicle][research_chen_yang_2025]
 - [Chen and others, 2025, High-Precision Inertial Navigation with Ellipsoidal Harmonic Gravity Model][research_chen_huang_2025]
 - [Chen and others, 2025, Optimal Guidance for Reusable Launch Vehicle in Reentry Phase Based on Adaptive Dynamic Programming with Experience Replay][research_chen_zhu_2025]
@@ -2060,7 +1983,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Chen and Wang, 2023, Cooperative Navigation Method for Small Body Landing of Multiple Landers][research_chen_wang_2023]
 - [Chen and Xu, 2011, Approach Guidance with Double-Line-of-Sight Measuring Navigation Constraint for Autonomous Rendezvous][research_chen_xu_2011]
 - [Chen and Xue, 2023, Design optimisation and experimental verification of a UAV's landing gear buffer][research_chen_xue_2023]
-- [Chen and Ye, 2026, Study on Applicability Limits of Froude Scaling for Predicting Temperature Fields in Tunnel Fires][research_chen_ye_2026]
 - [Chen Liu and others, 2016, Finite-time adaptive terminal sliding mode controller design for reusable launch vehicle in reentry phase][research_chenliu_chaoyangdong_2016]
 - [Chen Songyue and others, 2018, Implementation and Performance of a GPS/INS Integrated Navigation Using MEMS Inertial Sensors][research_chensongyue_wangliang_2018]
 - [Chen, 2018, Formal Verification of Helicopter Automatic Landing Control Algorithm in Theorem Prover Coq][research_chen_2018]
@@ -2074,13 +1996,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Cheng and others, 2014, Seamless outdoor/indoor navigation with WIFI/GPS aided low cost Inertial Navigation System][research_cheng_yang_2014]
 - [Cheng and others, 2014, Thermal Shock Resistance of Ultra-High-Temperature Ceramic Thermal Protection System][research_cheng_li_2014]
 - [Cheng and others, 2016, Improved nonsingular terminal sliding mode attitude tracking control for reentry vehicle][research_cheng_sheng_2016]
-- [Cheng and others, 2017, A comprehensive high Reynolds number effects simulation method for wind pressures on cooling tower models][research_cheng_zhao_2017]
 - [Cheng and others, 2021, Recovery trajectory planning for the reusable launch vehicle][research_cheng_jing_2021]
 - [Cheng and others, 2023, Parameters Designing of the Sliding Mode Control for the Reusable Launch Vehicle Based on Deep Reinforcement Learning and Evolution Strategy][research_cheng_hu_2023]
 - [Cheng and others, 2023, Trajectory Tracking of Maneuvering Reentry Vehicle Using Nonlinear Estimate Model][research_cheng_li_2023]
 - [Cheng and others, 2026, Lightweight, Robust, and Superhydrophobic Multiscale Biomimetic Polymer Composites for Reusable Aerospace Thermal Protection][research_cheng_wang_2026]
 - [Cheng and Shyur, 2025, Automatic Causal Analysis and Reporting of Hard Landing Events][research_cheng_shyur_2025]
-- [Cheng and Zhu, 2008, Hydrodynamics and scale-up of liquid-solid circulating fluidized beds Similitude method vs. CFD][research_cheng_zhu_2008]
 - [Chernenko and Burnashev, 2022, Synthesis and analysis of the laws of automatic landing control of an unmanned aircraft on a landing gear][research_chernenko_burnashev_2022]
 - [Chernodarov and others, 2019, An Integrated Inertial-Odometric Navigation System with Satellite Calibration][research_chernodarov_patrikeev_2019]
 - [Chernodarov and others, 2021, Inertial Navigation and Geophysical Invariants][research_chernodarov_patrikeev_2021]
@@ -2109,7 +2029,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Choo and others, 2018, A Survey on Recovery Technology for Reusable Space Launch Vehicle][research_choo_mun_2018]
 - [Choong and Lim, 2026, Service Performance of Runway Pavements with Trapezoidal Grooves in Changi Airport][research_choong_lim_2026]
 - [Choudhary and others, 2023, Proportional Navigation-Based Guidance for an Autonomous Interdiction Mission Against a Stationary Target][research_choudhary_a_2023]
-- [Choudhary and others, 2023, Similitude Characteristics Between Small-Scale Model and Full-Scale Piles Under Dynamic Excitations][research_choudhary_biswas_2023]
 - [Chowdhary and Johnson, 2008, Theory and Flight Test Validation of Long Term Learning Adaptive Flight Controller][research_chowdhary_johnson_2008]
 - [Chowdhury and Keshmiri, 2022, Design and Flight Test Validation of an AI-Based Longitudinal Flight Controller for Fixed-wing UASs][research_chowdhury_keshmiri_2022]
 - [Chowdhury and others, 2026, Autonomous Control for Reusable Rocket Landing Deriving a Robust Guidance through Deep Reinforcement Learning in a Custom 3D Simulation Environment][research_chowdhury_joshi_2026]
@@ -2125,8 +2044,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Chudej, 1994, Optimization of the stage separation and the flight path of a future launch vehicle][research_chudej_1994]
 - [Chun and others, 1985, Reef Runway Wave Protective Structure, Honolulu International Airport, Oahu, Hawaii, Stability Performance Evaluation][research_chun_noda_1985]
 - [Chung and others, 2025, Ignition Point Reachability for Aerodynamically-Controlled Reusable Launch Vehicles][research_chung_echigo_2025]
-- [Chvojan and others, 2007, Determination of Vertical Characteristics of Rail Vehicle Suspensions by Drop Test on the Track][research_chvojan_mayer_2007]
-- [Cilluffo and Black, 1970, Runway performance maintained by multiple rewards per trial][research_cilluffo_black_1970]
 - [Cirioli and Krishnan, 1987, Personal Thermal Control System PTCS for Aircrew Thermal Protection][research_cirioli_krishnan_1987]
 - [Clancy, 2001, Model-based System-level Health Management for Reusable Launch Vehicles][research_clancy_2001]
 - [CLAPP, 1965, A small "state-of-the-art" maneuverable lifting reentry vehicle][research_clapp_1965]
@@ -2153,7 +2070,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Comer and others, 2026, Development of a Simulation to Flight Workflow for Subscale Flight Testing of Experimental Control Laws][research_comer_atkinson_2026]
 - [Comer and others, 2026, Flight Testing a Trajectory Control System on a Subscale Transitioning VTOL Aircraft][research_comer_chakraborty_2026]
 - [Condomines, 2018, Inertial Navigation Models][research_condomines_2018]
-- [Contini and others, 2009, Effects of Reynolds number on stack plume trajectories simulated with small scale models in a wind tunnel][research_contini_cesari_2009]
 - [Contreras and Hajiyev, 2019, Robust Kalman filter-based fault-tolerant integrated Baro-Inertial-GPS altimeter][research_contreras_hajiyev_2019]
 - [COOK, 1981, KC-10, flight test program management - The contractor's viewpoint][research_cook_1981]
 - [Cook, 1995, The Reusable Launch Vehicle technology program][research_cook_1995]
@@ -2172,7 +2088,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Coutinho and others, 2016, Reduced scale models based on similitude theory A review up to 2015][research_coutinho_baptista_2016]
 - [Coutu and others, 2011, Lift-to-drag ratio and laminar flow control of a morphing laminar wing in a wind tunnel][research_coutu_brailovski_2011]
 - [Cowart and Olds, 2000, TCAT - A tool for automated thermal protection system design][research_cowart_olds_2000]
-- [Cowen and others, 1997, Underwater Docking of Autonomous Undersea Vehicles Using Optical Terminal Guidance][research_cowen_briest_1997]
 - [Cowling, 2011, Orbiter Trajectory Analysis for a Two-Stage Reusable Launch Vehicle][research_cowling_2011]
 - [Cox and others, 2012, Subscale Flight Testing for Aircraft Loss of Control Accomplishments and Future Directions][research_cox_cunningham_2012]
 - [COX, 1978, Integration of GPS with Inertial Navigation Systems][research_cox_1978]
@@ -2198,31 +2113,23 @@ The next article returns to a vehicle designed to be shot down.
 - [Cui and others, 2025, Prescribed-Time Cooperative Integrated Guidance and Control for Reentry Vehicle Based on Hybrid Control Strategy][research_cui_zhen_2025]
 - [Cui and others, 2026, Low-Order Integrated Guidance and Control Scheme for Reentry Vehicle Based on Dual-Loop Controller][research_cui_li_2026]
 - [Culler and others, 2007, Aerothermal Modeling and Dynamic Analysis of a Hypersonic Vehicle][research_culler_williams_2007]
-- [CULLIGAN and BARRY, 1998, Similitude Requirements for Modelling Napl Movement with a Geotechnical Centrifuge][research_culligan_barry_1998]
 - [Cummings, 2003, From Biplanes to Reusable Launch Vehicles 75 Years of Aircraft Design at Cal Poly][research_cummings_2003]
-- [Cunningham and Lemieux, 2022, Study of Low Reynolds Number Effects on Small Wind Turbine Performance][research_cunningham_lemieux_2022]
 - [Cunningham and others, 2008, Practical Application of a Subscale Transport Aircraft for Flight Research in Control Upset and Failure Conditions][research_cunningham_foster_2008]
 - [Currey, 1969, Computer-aided design of the Galaxie landing gear][research_currey_1969]
 - [Curtin, 2026, Improvements of the Thermal Protection System from Apollo to Modern Spacecraft][research_curtin_2026]
 - [Curtis, 2005, An Input-to-State Stabilizing Control Lyapunov Function for Autonomous Guidance and Control][research_curtis_2005]
 - [Curtis, 2010, Orbital Maneuvers][research_curtis_2010]
 - [Cusick and Kontis, 2019, Creation of Design and Analysis Tools for Large Design Space Reusable Launch Vehicle Shape Optimization][research_cusick_kontis_2019]
-- [Custer and others, 2010, The cost-effectiveness of pathogen reduction technology as assessed using a multiple risk reduction model][research_custer_agapova_2010]
 - [Cvrlje, 1999, Unsteady separation of a two-stage hypersonic vehicle][research_cvrlje_1999]
 - [Czysz and Murthy, 1996, SSTO launcher demonstrator for flight test][research_czysz_murthy_1996]
 - [D'Andrea and others, 2022, Electromagnetic design of a fault tolerant electromechanical actuator for landing gear][research_dandrea_didomenico_2022]
 - [D'Angelo and others, 1999, Optimization methodology for the climb trajectory of a SSTO lifting-body reusable launcher][research_dangelo_minisci_1999]
 - [D'Souza and D'Souza, 1997, An optimal guidance law for planetary landing][research_dsouza_dsouza_1997]
 - [D'Souza and others, 2022, Pterodactyl Effects of 3D Thermal Analysis on the Thermal Protection System Design of a Flap Control System][research_dsouza_mcguire_2022]
-- [D'Spain and Chadwell, 2005, DURIP Side Scan Sonar and Inertial Navigation System for AUV-Based Ocean Bottom/Sub-Bottom Mapping for Object Search/Identification][research_dspain_chadwell_2005]
-- [D'Spain and Chadwell, 2009, DURIP Side Scan Sonar and Inertial Navigation System for AUV-Based Ocean Bottom/Sub-Bottom Mapping for Object Search/Identification][research_dspain_chadwell_2009]
-- [D'Spain, 2009, Flying Wing Autonomous Underwater Glider for Basic Research in Ocean Acoustics, Signal/Array Processing, Underwater Autonomous Vehicle Technology, Oceanography, Geophysics, and Marine Biological Studies][research_dspain_2009]
 - [da Costa and Sachs, 2002, Mission Analysis for a Reentry Vehicle with Controls Degradation][research_dacosta_sachs_2002]
 - [da Costa and Sachs, 2003, Simulation and Optimization of Emergency Scenarios due to Body Flap Degradations for a Reentry Vehicle][research_dacosta_sachs_2003]
 - [Da Costa, 2003, Hazard and Mission Analysis of Body Flap Degradations for a Reentry Vehicle][research_dacosta_2003]
 - [Dabas and others, 2025, Multi-Objective Optimization of Reentry Vehicle Design Aerodynamics, Heat Transfer, and Structural Durability][research_dabas_sheikh_2025]
-- [Dabin and others, 2002, Wind turbines operating in cold climates - Reynolds number and turbulence effects on performances][research_dabin_leclerc_2002]
-- [Dachowski, 1968, Effects of Reward Magnitude and Duration on Runway Performance][research_dachowski_1968]
 - [Dai and others, 2010, Application of Robust Kalman Filtering to Integrated Navigation Based on Inertial Navigation System and Dead Reckoning][research_dai_li_2010]
 - [Dai and others, 2017, Adaptive control for lateral motion of reusable launch vehicle using retrospective cost estimator][research_dai_liu_2017]
 - [Dai and others, 2018, An Optimal Tightly-coupled Stellar/inertial Integrated Navigation Method for Daytime Application][research_dai_tan_2018]
@@ -2254,12 +2161,10 @@ The next article returns to a vehicle designed to be shot down.
 - [DAUGHETEE, 1974, Drop testing naval aircraft and the VSD landing gear dynamic test facility][research_daughetee_1974]
 - [Daum and Mollmann, 2017, NASA Capsule Parachute Assembly System Subscale Drop Test Campaign][research_daum_mollmann_2017]
 - [Davey and others, 2021, A Finite Similitude Approach to Scaled Impact Mechanics][research_davey_sadeghi_2021]
-- [Davey and others, 2021, A first order finite similitude approach to scaled aseismic structures][research_davey_darvizeh_2021]
 - [Davidson and others, 2009, Uninterrupted portable car navigation system using GPS, map and inertial sensors data][research_davidson_vazquez_2009]
 - [Davis and others, 2003, NASA's New Orbital Space Plane][research_davis_engler_2003]
 - [DAVIS, 1968, A high Reynolds number wind tunnel and its operating concept][research_davis_1968]
 - [DAVIS, 1969, Thermal protection system optimization][research_davis_1969]
-- [Davis, 1974, Runway Performance as a Function of Pellet Habituation][research_davis_1974]
 - [DAVIS, 1989, A technology demonstrator vehicle for advanced launch systems][research_davis_1989]
 - [Davis, 2002, The Space Maneuver Vehicle Enhancing Space's Utility to the Warfighter][research_davis_2002]
 - [DAYMAN, 1971, Comparisons between sting-supported and free- flight tests in the JPLHypersonic Wind Tunnel on a modified Saturn-Apollo launch configuration][research_daymanjr_1971]
@@ -2278,13 +2183,10 @@ The next article returns to a vehicle designed to be shot down.
 - [De Ridder and Mooij, 2011, Terminal area trajectory planning using the energy-tube concept for reusable launch vehicles][research_deridder_mooij_2011]
 - [De Vita and others, 2015, Assessment of Hypersonic Flights Operation Scenarios Analysis of Launch and Reentry Trajectories, and Derived Top Level Vehicle System and Support Infrastructure Concepts and Requirements][research_devita_viola_2015]
 - [De Wagter and Meulenbeld, 2019, Modeling the unstable DelftaCopter vertical take-off and landing tailsitter unmanned air vehicle in hover and forward flight from flight test data][research_dewagter_meulenbeld_2019]
-- [Deavenport and Gilchrest, 2015, Time-Dependent Modeling of Underwater Explosions by Convolving Similitude Source with Bandlimited Impulse from the CASS/GRAB Model][research_deavenport_gilchrest_2015]
 - [DeBra and others, 1981, Gravity Gradiometer Survey and Real Time Techniques for Improving Inertial Navigation System Accuracy][research_debra_breakwell_1981]
 - [Dec and Braun, 2006, An Approximate Ablative Thermal Protection System Sizing Tool for Entry System Design][research_dec_braun_2006]
 - [Dec and Braun, 2013, Three-Dimensional Finite Element Ablative Thermal Response and Design of Thermal Protection Systems][research_dec_braun_2013]
 - [DEFENSE SCIENCE BOARD WASHINGTON DC, 1992, Report of the Defense Science Board Task Force on National Aero-Space Plane NASP Program][research_defensescienceboardwashingtondc_1992]
-- [DeGroat and others, An Engineered System of Care Body Mass Index and Body Mass Distribution Index Changes with Scaled Activity Plan][research_degroat_duane]
-- [Delannoy and Petriu, Modeling moment of inertia for virtual interactive environments][research_delannoy_petriu]
 - [Delaune and others, 2010, Guidance and Control system design for Lunar Descent and Landing][research_delaune_derosa_2010]
 - [Delaune and others, 2016, Visual-inertial navigation for pinpoint planetary landing using scale-based landmark matching][research_delaune_lebesnerais_2016]
 - [Delprete and others, 2023, Model-Based Design of Aircraft Landing Gear System][research_delprete_dagna_2023]
@@ -2293,25 +2195,19 @@ The next article returns to a vehicle designed to be shot down.
 - [Demidovich, 2017, Flight test of ADS-B technology for winged reusable launch vehicle re-entry][research_demidovich_2017]
 - [Demir and Seyfullah Babaarslan, 2021, A Software Verification Approach That Complies with DO-178B Certification Rules on UAV's Flight Control Computer][research_demir_seyfullahbabaarslan_2021]
 - [DEMO, 1986, The NDS 2000 Flight Test Instrumentation System in the F-20 Tigershark][research_demo_1986]
-- [Demonte Gonzalez and others, 2024, Nonlinear Model Predictive Control of Heaving Wave Energy Converter with Nonlinear Froude-Krylov Forces][research_demontegonzalez_anderlini_2024]
 - [Deng and Duan, 2016, Control parameter design for automatic carrier landing system via pigeon-inspired optimization][research_deng_duan_2016]
 - [Deng and others, 2025, Aerodynamic configuration parametrization and optimization of high-speed gliding vehicle][research_deng_xu_2025]
 - [Deniz and others, 2018, Integrated Path Planning and Control for Impaired Aircraft Approach and Landing][research_deniz_balakrishnan_2018]
 - [Depaola and others, 2018, UAV Navigation with Computer Vision Flight Testing a Novel Visual Odometry Technique][research_depaola_chimento_2018]
 - [Der Kiureghian, 2001, Risk assessment of satellite launch with reusable launch vehicle][research_derkiureghian_2001]
-- [Deschamps and others, 2001, The relative density-to-shear velocity scaling in the uppermost mantle][research_deschamps_snieder_2001]
 - [Devesa and others, 2004, Ground-Effect Identification and Autoland System Validation from Flight Data][research_devesa_jourdan_2004]
-- [Devi and Matharu, 2021, Properties of superdeformed bands in A 100 mass region within the variable moment of inertia model][research_devi_matharu_2021]
-- [Devlin and Miller, 2024, High Reynolds Number Wind Turbine Testing in the Compressed Air Wind Tunnel][research_devlin_miller_2024]
 - [Dey and others, 2018, Time-Varying Non-Singular Terminal Sliding Mode Attitude Control of Reusable Launch Vehicle][research_dey_giri_2018]
 - [Deyst, 1968, Optimal control of a reentry vehicle in the presence of measurement uncertainties][research_deyst_1968]
 - [Dhananjay and Ghose, 2014, Accurate Time-to-Go Estimation for Proportional Navigation Guidance][research_dhananjay_ghose_2014]
 - [Dhanasekaran and others, 2011, Numerical Simulation and Testing of Water Impact of Structural Attachment Elements of a Reusable Thermal Protection System][research_dhanasekaran_balamurali_2011]
 - [Di Campli Bayard de Volo and Di Pietro, 2018, A Gliding Vehicle for ISS Crew Rescue - Mission Operational Concept][research_dicamplibayarddevolo_dipietro_2018]
 - [Di Leo and others, 2018, Cable-Driven Four-Bar Link Robotic Landing Gear Mechanism Rapid Design and Survivability Testing][research_dileo_leon_2018]
-- [Di Lollo, 1964, Runway performance in relation to runway-goal-box similarity and changes in incentive amount][research_dilollo_1964]
 - [Di Mauro and others, 2018, Survey on Guidance Navigation and Control Requirements for Spacecraft Formation-Flying Missions][research_dimauro_lawn_2018]
-- [Dickson and others, 2010, A linear systems analysis of the yaw dynamics of a dynamically scaled insect model][research_dickson_polidoro_2010]
 - [Dieffenbach, 1995, Autonomous precision approach and landing system APALS][research_dieffenbach_1995]
 - [Diehl and others, 2020, The Role of Reynolds Number Effect and Tip Leakage in Compressor Geometry Scaling at Low Turbulent Reynolds Numbers][research_diehl_schreiber_2020]
 - [DIEROFF and SCHAENZER, 1990, Automatic landing with GPS - Design of the flight guidance and flight control system][research_dieroff_schaenzer_1990]
@@ -2322,7 +2218,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Din and others, 2020, Design of a Reinforcement Learning based Controller for Gliding Control of an Experimental Design Vehicle][research_din_janujua_2020]
 - [Din and others, 2020, Withdrawal Design of a Reinforcement Learning based Controller for Gliding Control of an Experimental Design Vehicle][research_din_janujua_2020_b]
 - [Ding and others, 2016, Multi-objective optimization of reentry trajectory for Hypersonic Gliding Vehicle][research_ding_guo_2016]
-- [Ding and others, 2022, Identification of PMSM Moment of Inertia based on Model Reference Adaptive Algorithm][research_ding_zhang_2022]
 - [Ding and others, 2023, Anti-Disturbance Continuous Fixed-Time Controller Design for Air-breathing Hypersonic Vehicle][research_ding_li_2023]
 - [Ding, 2015, Design of Automatic Carrier Landing System Based on Dynamic Inverse and PID Control][research_ding_2015]
 - [DIRLING and EITMAN, 1984, Lightweight carbon-carbon thermal protection system for STARPROBE][research_dirlingjr_eitman_1984]
@@ -2343,7 +2238,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Donahue and Farrell, 1979, Cost/Benefit Analysis of Reentry Vehicle Hardness Testing Using the Fast Methodology. Volume II. Methods][research_donahue_farrell_1979]
 - [Donahue and others, 2008, Low Recurring Cost, Partially Reusable Heavy Lift Launch Vehicle][research_donahue_weldon_2008]
 - [Donahue, 1997, Lunar Landing Craft for the Reusable Launch Vehicle and Shuttle Vehicles][research_donahue_1997]
-- [Donelan and Kram, 1997, The Effect of Reduced Gravity on the Kinematics of Human Walking A Test of the Dynamic Similarity Hypothesis for Locomotion][research_donelan_kram_1997]
 - [DONELSON and others, 1989, UHB demonstrator flight test program - Phase 2][research_donelson_lewerenz_1989]
 - [Dong and others, 2017, Integrated Finite-Time Disturbance Observer and Controller Design for Reusable Launch Vehicle in Reentry Phase][research_dong_zong_2017]
 - [Dong and others, 2023, Adaptive nonsingular fixed-time control for hypersonic flight vehicle considering angle of attack constraints][research_dong_li_2023]
@@ -2373,7 +2267,6 @@ The next article returns to a vehicle designed to be shot down.
 - [DRAPER, 1981, Origins of inertial navigation][research_draper_1981]
 - [Driver and others, 2014, Arcjet Testing in Shear Environment for Mars Science Laboratory Thermal Protection System][research_driver_carballo_2014]
 - [Droege, 1947, Instrumentation for Flight Testing of Thermal Anti-Icing Systems][research_droege_1947]
-- [Du and others, 2012, Dynamic analysis of landing autonomous underwater vehicle][research_du_jiang_2012]
 - [DU and others, 2016, Attitude control of reentry vehicle with a pitch-control single moving mass][research_du_jing_2016]
 - [Du and others, 2025, Study on Control Method of Angle of Attack in Subscale Flight Testing][research_du_zhang_2025]
 - [Du and Zhang, 2020, Flight Control Law Design and Analysis for Mars Airplane in Crosswind][research_du_zhang_2020]
@@ -2401,10 +2294,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Dynnikov, 2020, The Evaluation of the Flight Incident Probability at the Aircraft Automatic Landing][research_dynnikov_2020]
 - [EBNER and MARK, 1977, Redundant integrated flight control/navigation inertial sensor complex][research_ebner_mark_1977]
 - [Ebner and Mark, 1978, Redundant Integrated Flight-Control/Navigation Inertial Sensor Complex][research_ebner_mark_1978]
-- [Eboibi and others, 2024, Solidity effects and azimuth angles on flow field aerodynamics and performance of vertical axis wind turbines at low Reynolds number][research_eboibi_eboibi_2024]
 - [Eck and Geering, 2003, Filter Comparison for Integrated Navigation Systems for Unmanned Aerial Vehicles][research_eck_geering_2003]
 - [Eckmann and others, 1997, Upper stage options for reusable launch vehicle "pop-up" missions][research_eckmann_cotta_1997]
-- [Eddie C. Burt and others, 1974, Similitude of a Model Traction Device Part II Prediction of Wheel Sinkage][research_eddiecburt_robertlschafer_1974]
 - [Edwards and others, 1975, Flight performance of a navigation, guidance, and control system concept for automatic approach and landing of space shuttle orbiter][research_edwards_1975]
 - [Edwards and others, 2010, Rocketback Trajectory Figures of Merit for a Reusable Booster Technology Flight Demonstrator][research_edwards_mavris_2010]
 - [EDWARDS, 1969, Precursor plasma formation for blunt reentry vehicles][research_edwards_1969]
@@ -2415,16 +2306,12 @@ The next article returns to a vehicle designed to be shot down.
 - [EIGENMANN and others, 1984, Axisymmetric approach and landing thrust reverser concepts In-groundeffects wind tunnel test results][research_eigenmann_kitzmiller_1984]
 - [Eitner and others, 2013, Autoland Controller Design Procedure based on Total System Error Concept for a Small UAV Aircraft][research_eitner_braun_2013]
 - [Eklund, 2004, Quicksat A Two Stage to Orbit Reusable Launch Vehicle Utilizing Air Breathing Propulsion for Responsive Space Access][research_eklund_2004]
-- [El Gamah and others, 2025, A Downscaling Approach for Electric Vehicle Dynamics An Application of Similitude Laws][research_elgamah_elganaouimourlan_2025]
-- [El Naggar and others, 2025, Novel Methodological Approach to Developing Scaled-Down Concrete Material for Structural Applications Experimental Validation Using Froude Scaling][research_elnaggar_soliman_2025]
 - [El-Diasty and Pagiatakis, 2008, Calibration and Stochastic Modelling of Inertial Navigation Sensor Erros][research_eldiasty_pagiatakis_2008]
 - [El-Mowafy, 2005, Using Multiple Reference Station GPS Networks for Aircraft Precision Approach and Airport Surface Navigation][research_elmowafy_2005]
 - [El-Rabbany, 2006, An Autonomous GPS Carrier-Phased-Based System for Precision Navigation][research_elrabbany_2006]
 - [ELDRED, 1953, Landing Gear Design as Applied to Modern Aircraft][research_eldred_1953]
 - [Eldridge-Allegra and others, 2023, Computational Study of Transonic Buffet's Sensitivity to Reynolds Number and Wind Tunnel Wall Effects][research_eldridgeallegra_xu_2023]
-- [Elgammi and others, 2021, Development of a new aerofoil profile with a high lift-to-drag ratio for wind turbines using a low fidelity accurate optimization flow solver][research_elgammi_aokaly_2021]
 - [ELIAS, 1974, A new guidance strategy for unpowered Space Shuttle orbiter flight][research_elias_1974]
-- [Elie and others, 2013, Simulation of Horizontal-Axis Tidal Turbine Wakes Using a Coupled Approach With Rankine-Froude Actuator Disk Model and a Weakly-Compressible Finite Volume Solver][research_elie_oger_2013]
 - [Elkaim and others, 2014, Principles of Guidance, Navigation, and Control of UAVs][research_elkaim_lie_2014]
 - [Ellery and others, 2006, A low-cost approach to the exploration of Mars through a robotic technology demonstrator mission][research_ellery_richter_2006]
 - [Elliot and others, 2006, Tactile Guidance for Land Navigation][research_elliot_redden_2006]
@@ -2432,7 +2319,6 @@ The next article returns to a vehicle designed to be shot down.
 - [ELLMS and HUDDLE, 1976, The Application of Inertial Navigation Systems to Precision Land Survey][research_ellms_huddle_1976]
 - [Elvin, 1996, Lockheed Martin approach to a Reusable Launch Vehicle RLV][research_elvin_1996]
 - [Ely and others, 2010, Altair Navigation during Trans-lunar Cruise, Lunar Orbit, Descent and Landing][research_ely_heyne_2010]
-- [ELÍAS-ZÚÑIGA and others, 2024, Exploring Insects Free Flight Enhancing the Dipteran Flight Model to Include Fractal Effects][research_eliaszuniga_martinezromero_2024]
 - [EMA, 1992, An experimental study of pilots' control characteristics for flight of an STOL aircraft in backside of drag curve at approach and landing][research_ema_1992]
 - [Emery and Bardot, 2006, The Design of a Thermal Protection System Using Global Sensitivity][research_emery_bardot_2006]
 - [Engel and Putnam, 2025, Optimal Range Capabilities for Low-Lift-to-Drag Ratio Mars Entry Vehicles][research_engel_putnam_2025]
@@ -2440,27 +2326,21 @@ The next article returns to a vehicle designed to be shot down.
 - [Enriquez, 2025, Rapid Aerodynamic Load Predictions on an Orbital Reentry Vehicle Through All Mach Number Regimes][research_enriquez_2025]
 - [Epp and others, 2015, Developing Autonomous Precision Landing and Hazard Avoidance Technology from Concepts through Terrestrially Flight-Tested Prototypes][research_epp_robertson_2015]
 - [Erasmus and others, 2014, Design of a motor glider landing gear strut The role of failure analysis in structural integrity][research_erasmus_hattingh_2014]
-- [Erdem and others, 2022, Aerodynamic Optimization of a Reduced Scale Model of a Ground Vehicle with a Shape Morphing Technique][research_erdem_eulalie_2022]
 - [Erer and others, 2024, Computational Impact-Time Guidance with Biased Proportional Navigation][research_erer_tekin_2024]
 - [ERNST and LEIDINGER, 1988, First approach of an evaporator development for space plane ascent and reentry heat rejection][research_ernst_leidinger_1988]
 - [ERWIN, 1990, Personnel launch system PLS lifting body and low lift-to-drag L/D][research_erwin_1990]
 - [Esposito and Orlando, 2024, A velocity based simple adaptive autoland system][research_esposito_orlando_2024]
 - [Estupinan and Prazenica, 2026, Autonomous Soft Landing of Unmanned Aerial Vehicles UAVs on Unmanned Surface Vessels USVs Using Model Predictive Control MPC][research_estupinan_prazenica_2026]
-- [Ettema and others, 2006, Similitude of Large-Scale Turbulence in Experiments on Local Scour at Cylinders][research_ettema_kirkil_2006]
 - [EVANGELISTA and others, 1987, Design and wind tunnel test of a high performance low Reynolds number airfoil][research_evangelista_pfenninger_1987]
 - [Evangelisti and Pfifer, 2024, Finite-Horizon Robustness Analysis of an Automatic Landing System Under Probabilistic Uncertainty][research_evangelisti_pfifer_2024]
 - [Eymar and Deneu, 2002, Reusable Launch Vehicles from a European Point of View][research_eymar_deneu_2002]
 - [Fahaz Firoz and others, 2023, Design and Analysis of Landing Gear using Composite Material][research_fahazfiroz_rupikaraj_2023]
-- [Fahmy, 2020, Energy Management Techniques for WSNs 1 Duty-Cycling Approach][research_fahmy_2020]
-- [Fahmy, 2020, Energy Management Techniques for WSNs 2 Data-Driven Approach][research_fahmy_2020_b]
-- [Fahmy, 2020, Energy Management Techniques for WSNs 3 Mobility-Based Approach][research_fahmy_2020_c]
 - [Fahrenthold and Park, 2005, Simulation of Foam-Impact Effects on the Space Shuttle Thermal Protection System][research_fahrenthold_park_2005]
 - [Fahy and others, 2021, Experimental and Computational Fluid Dynamics Study of Hayabusa Reentry Peak Heating][research_fahy_buttsworth_2021]
 - [Fain and others, 2026, VORTEX, an Operational Spaceplane and Hypersonic Vehicle Program][research_fain_lambert_2026]
 - [Fairuz Izzuddin Romli and others, 2023, Optimization of a Blended-Wing-Body Unmanned Aerial Vehicle Design for Maximum Aerodynamic Lift-to-Drag Ratio][research_fairuzizzuddinromli_muhammadaimanmohammadsabri_2023]
 - [Faisal and James, 2025, Guidance and Control System for an Unmanned Combat Aerial Vehicle as a Wingman][research_faisal_james_2025]
 - [Fallon and others, 1999, Landing system design summary of the K-1 Reusable Launch Vehicle][research_fallonii_taylor_1999]
-- [Falope and others, 2024, Integrated Energy Management System Approach for Off-Grid Residential Home][research_falope_lao_2024]
 - [Fan and Cadot, 2023, Reynolds number effect on the bistable dynamic of a blunt-base bluff body][research_fan_cadot_2023]
 - [Fan and others, 2022, Error Characteristic Analysis of Tri-axis Rotating Optical Gyro Inertial Navigation System Based on Inertial Frame][research_fan_tian_2022]
 - [Fan and others, 2025, A Non-contact Attitude and Position Measurement System Developed for Wind Tunnel Free Flight Test][research_fan_nie_2025]
@@ -2476,16 +2356,13 @@ The next article returns to a vehicle designed to be shot down.
 - [Fathurrahman and Jenie, 2022, Automatic Landing System Design and Simulation of a Fixed-Wing UAV][research_fathurrahman_jenie_2022]
 - [FAULDERS and others, 1967, Aerodynamic requirements for flare and landing of low-L/D glide vehicles][research_faulders_lekawa_1967]
 - [FAULDERS and others, 1968, Aerodynamic requirements for flare and landing of low-L/D glide vehicles][research_faulders_lekawa_1968]
-- [Fawkes, 1987, The seven S approach to energy management][research_fawkes_1987]
 - [Faúndez, 2018, Aerodynamic test with self-propelled scale model][research_faundez_2018]
 - [Fearnside, 1959, Instrumental and Automatic Control for Approach and Landing][research_fearnside_1959]
 - [Federici and others, 2026, Reinforcement-Learning-Enhanced Model Predictive Control with Application to Autonomous Planetary Landing][research_federici_benedikter_2026]
 - [Fedotov and Perepelkina, 2019, Improvement in Accuracy of Strapdown Inertial Navigation System due to Controlled Precessional Motion][research_fedotov_perepelkina_2019]
 - [Fegely and others, 2016, Flight Dynamics and Control Modeling with System Identification Validation of the Sikorsky X2 Technology Demonstrator][research_fegely_tischler_2016]
 - [Fehrs and Helm, 2025, Transonic High Reynolds Number Transition Model Validation Based on ETW Cryogenic Wind Tunnel Data][research_fehrs_helm_2025]
-- [Fei and others, 2025, Down-scaled modeling of wind turbine gearbox transmission system considering dynamic response similitude and identical structure strength][research_fei_tan_2025]
 - [FELDMAN, 1967, Apollo guidance, navigation and control system gyro reliability][research_feldman_1967]
-- [Feldmann and Levermann, 2016, Similitude of ice dynamics against scaling of geometry and physical parameters][research_feldmann_levermann_2016]
 - [Feng and others, 2009, Vision aided inertial navigation for autonomous pinpoint planetary landing][research_feng_cui_2009]
 - [Feng and others, 2019, A novel guaranteed tracking performance control for reentry vehicle with actuator constraints and uncertainties][research_feng_guo_2019]
 - [Feng and others, 2022, Event-Triggered Neural Adaptive Control for a Switched Model of Hypersonic Flight Vehicle][research_feng_wang_2022]
@@ -2498,18 +2375,15 @@ The next article returns to a vehicle designed to be shot down.
 - [Ferrandon, 1998, International Market for a Reusable Launch Vehicle][research_ferrandon_1998]
 - [Ferreira Santos, 2022, Reentry of Ionized Space Debris by Atmospheric Layers with Variable Density][research_ferreirasantos_2022]
 - [Ferreres and Puyou, 2006, Flight Control Law Design for a Flexible Aircraft Limits of Performance][research_ferreres_puyou_2006]
-- [Feth and others, 1990, Discrimination of FM glide direction and slope][research_feth_neill_1990]
 - [Feuchter and Grobman, 1997, Reusable orbital transfer vehicle spacelift concepts study results][research_feuchter_grobman_1997]
 - [Feustel-Büechl, 1988, The European Spaceplane Hermes and Future Transportation Systems][research_feustelbuechl_1988]
 - [Fiddes and others, 1985, Investigations into the effects of scale and compressibility on lift and drag in the RAE 5m pressurised low-speed wind tunnel][research_fiddes_kirby_1985]
 - [Field and Rossitto, 1999, Approach and landing longitudinal flying qualities for large transports based on in-flight results][research_field_rossitto_1999]
-- [Figueiredo, 2026, Grain Refinement During Severe Plastic Deformation and Similitude of Subgrain Formation A Molecular Dynamics Study][research_figueiredo_2026]
 - [Filatyev and others, 2014, Advanced aviation technology for reusable launch vehicle improvement][research_filatyev_buzuluk_2014]
 - [Filatyev, 2000, "Paradoxes" of optimal solutions in problems of space vehicle injection and reentry][research_filatyev_2000]
 - [Filyashkin and Yatskivsky, 2013, Prediction of inertial navigation system error dynamics in INS/GPS system][research_filyashkin_yatskivsky_2013]
 - [Finke, 1990, Calculation of Reentry-Vehicle Temperature History][research_finke_1990]
 - [Finson and others, 1980, Rough Wall Reentry Heating Analysis. Effect of Surface Roughness Character on Turbulent Boundary Layer Heating][research_finson_clarke_1980]
-- [Firouzjah and Ghasemi, 2026, A similarity-based predictive scheduling method for dynamic electric vehicle charging load management][research_firouzjah_ghasemi_2026]
 - [Fisher and others, 2018, Free-Flight Testing of Hypersonic Edney Shock Interactions][research_fisher_quinn_2018]
 - [Fitzgerald, 1974, On reentry vehicle tracking in various coordinate systems][research_fitzgerald_1974]
 - [Fitzsimmons, 1996, Cost analysis of a DC-X reusable launch vehicle - Is it affordable?][research_fitzsimmons_1996]
@@ -2522,7 +2396,6 @@ The next article returns to a vehicle designed to be shot down.
 - [FORTENBAUGH, 1972, Practical integration of direct lift control into an automatic carrier landing system][research_fortenbaugh_1972]
 - [Foster and others, 2020, Recent NASA Wind Tunnel Free-Flight Testing Of A Multirotor Unmanned Aircraft System][research_foster_miller_2020]
 - [FOSTER, 1972, Microwave landing system effect on the flight guidance and control system][research_foster_1972]
-- [Fowler and others, 2017, 1 52 Scale Testing of the First US Commercial Scale Floating Wind Turbine, VolturnUS Testing Overview and the Evolution of Scale Model Testing Methods][research_fowler_goupee_2017]
 - [Fowler, 1990, Inertial Navigation System Simulator Program Top-Level Design][research_fowler_1990]
 - [Foye and Ulloa, 2017, Interaction of Performance and Construction Risk While Testing Runway Subgrade Using Non-Destructive Methods][research_foye_ulloa_2017]
 - [Fralish, 1998, Methodology Investigation. RAH-66 Comanche Aircraft Survivability Equipment ASE Virtual Proving Ground VPG Risk Reduction][research_fralish_1998]
@@ -2537,13 +2410,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Franze and Basov, 2026, Fokker-Planck Simulations of a High-Lift Reentry Vehicle][research_franze_basov_2026]
 - [Franzini and others, 2018, Visibility Augmented Proportional Navigation Guidance][research_franzini_tardioli_2018]
 - [Frapard, 2003, Inertial and Blended INS/GPS Navigation Solutions For Atmospheric Reentry][research_frapard_2003]
-- [Fraser and Payne, 2018, Bond Tents Reshaping the Equity Glide Slope at the End of Wealth Accumulation][research_fraser_payne_2018]
-- [Fratantoni, 2001, Adaptive Oceanographic Sampling in a Coastal Environment Using Autonomous Gliding Vehicles][research_fratantoni_2001_b]
-- [Fratantoni, 2001, Autonomous Oceanographic Sampling Using Environmentally-Powered Gliding Vehicles][research_fratantoni_2001]
-- [Fratantoni, 2002, Adaptive Oceanographic Sampling in a Coastal Environment Using Autonomous Gliding Vehicles][research_fratantoni_2002_b]
-- [Fratantoni, 2002, Development of Oceanographic Sampling Networks Using Autonomous Gliding Vehicles][research_fratantoni_2002]
-- [Fratantoni, 2003, Adaptive Oceanographic Sampling in a Coastal Environment Using Autonomous Gliding Vehicles][research_fratantoni_2003_b]
-- [Fratantoni, 2003, Development of Oceanographic Sampling Networks Using Autonomous Gliding Vehicles][research_fratantoni_2003]
 - [Fravolini and others, 2004, Learning-Based Sensor Validation Scheme Within Flight Control Laws][research_fravolini_campa_2004]
 - [Fravolini and others, 2015, A Design, Analysis and Verification Framework for Adaptive Flight Control][research_fravolini_yucelen_2015]
 - [Frayssinet, 2019, Roll torque modeling of a hypersonic reentry vehicle Numerical analysis of cross-hatching phenomenon][research_frayssinet_2019]
@@ -2554,7 +2420,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Frenkel and Shaferman, 2026, Optimal 3D Soft Landing Guidance With Approach Angle Path Constraints][research_frenkel_shaferman_2026]
 - [Fresconi and others, 2014, Theory, Guidance, and Flight Control for High Maneuverability Projectiles][research_fresconi_celmins_2014]
 - [Fresconi, 2011, Guidance and Control of a Fin-Stabilized Projectile Based on Flight Dynamics with Reduced Sensor and Actuator Requirements][research_fresconi_2011]
-- [Freudenreich and others, 2004, Reynolds Number and Roughness Effects on Thick Airfoils for Wind Turbines][research_freudenreich_kaiser_2004]
 - [Friia and others, 2023, Technology Maturation of Active Precision Navigation for Lunar Landing][research_friia_mahajan_2023]
 - [FRINELL, 1983, Closing the loop with a flight test customer - Management and follow-up techniques for vendor or customer flight testing][research_frinell_1983]
 - [FRISBY, 1960, Design, Fabrication, and Test of High-flotation Tires and Related Valving Mechanism for Rough Terrain Landing Gear][research_frisby_1960]
@@ -2567,7 +2432,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Fu and others, 2023, Optimal Design of Adaptive Landing Gear Based on TRIZ Theory][research_fu_hang_2023]
 - [Fu and others, 2025, Vision-Based UAV Precision Landing via Invariant Extended Kalman Filtering][research_fu_dang_2025]
 - [Fuchs and Jackson, 2011, Vertical Drop Testing and Analysis of the WASP Helicopter Skid Gear][research_fuchs_jackson_2011]
-- [Fuchs and Konior, 2026, Segregation in circulating turbulent fluidized beds with a broad particle size distribution A Froude number-based model approach][research_fuchs_konior_2026]
 - [Fuchs and others, 2018, Concept Study of a Reusable Suborbital Launch Vehicle][research_fuchs_haskell_2018]
 - [Fuhrmann, 2003, A Blended Lifting Body Aerodynamic Design for the Orbital Space Plane][research_fuhrmann_2003]
 - [Fuhry, 1999, Adaptive atmospheric reentry guidance for the Kistler K-1 orbital vehicle][research_fuhry_1999]
@@ -2578,7 +2442,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Furnham and others, 2006, Sex Differences in Self-Estimates on Two Validated IQ Test Subscale Scores][research_furnham_crawshaw_2006]
 - [Furnish and Anders, 1971, Analytical Simulation of Landing Gear Dynamics for Aircraft Design and Analysis][research_furnish_anders_1971]
 - [Fusaro and others, 2016, Conceptual design of a crewed reusable space transportation system aimed at parabolic flights stakeholder analysis, mission concept selection, and spacecraft architecture definition][research_fusaro_viola_2016]
-- [Fuwa and Takimoto, 2014, Development of surface vehicle with single motor by gliding locomotion][research_fuwa_takimoto_2014]
 - [Förder and Steiner, 2020, 2.1 Robust and Flexible Flight Test Instrumentation for Wireless and Wired Measurements][research_forder_steiner_2020]
 - [Gabarrou and others, 2010, Structured flight control law design using non-smooth optimization][research_gabarrou_alazard_2010]
 - [Gage and Vander Kam, 2003, A Data Model for Evaluating Reusable Launch Vehicle Concepts][research_gage_vanderkam_2003]
@@ -2616,9 +2479,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Garcia, 2008, Safe Automatic Flight Back and Landing of Aircraft Flight Reconfiguration Function FRF][research_garcia_2008]
 - [Garcia-Pardo and others, 2001, Towards Vision-Based Safe Landing for an Autonomous Helicopter][research_garciapardo_sukhatme_2001]
 - [Garcia-Quinchia and others, 2009, A System-On-Chip SOC platform to integrated Inertial Navigation Systems and GPS][research_garciaquinchia_yiguo_2009]
-- [García-Fernández and others, 2018, A new approach for lighting energy management][research_garciafernandez_fernandezbalbuena_2018]
 - [Gardinier and Taylor, 1999, Design and testing of the K-1 Reusable Launch Vehicle landing system airbags][research_gardinier_taylor_1999]
-- [Gardner and others, 2017, Morpho-sedimentary characteristics of proximal gravel braided river deposits in a Froude-scaled physical model][research_gardner_ashmore_2017]
 - [Garg and Dodiyal, 2009, Reducing RF blackout during re-entry of the reusable launch vehicle][research_garg_dodiyal_2009]
 - [Gaskell, 2005, Small Body Simulations For Navigation Approach and Landing][research_gaskell_2005]
 - [Gaverina and others, 2026, Instrumentation of reusable launch vehicle by ONERA enhancing SHM system reliability in extreme environments][research_gaverina_eiras_2026]
@@ -2675,7 +2536,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Goldstein and others, 1978, Opacified Silica Reusable Surface Insulation RSI for Thermal Protection of the Space Shuttle Orbiter][research_goldstein_leiser_1978]
 - [Goldyn and others, 2025, Preliminary Design of Expendable and Reusable Mixed-Staged Launch Vehicles][research_goldyn_marwege_2025]
 - [Golomazov and Ivankov, 2018, Software Package for the Development of Thermal Protection Systems for Spacecraft Descent into the Atmospheres of Planets][research_golomazov_ivankov_2018]
-- [Golse and Kneib, 2002, Pseudo elliptical lensing mass model Application to the NFW mass distribution][research_golse_kneib_2002]
 - [GONG and others, 1984, Thermal response of Space Shuttle wing during reentry heating][research_gong_ko_1984]
 - [Gong and others, 2015, A Modified Nonlinear Two-Filter Smoothing for High-Precision Airborne Integrated GPS and Inertial Navigation][research_gong_zhang_2015]
 - [Gong and others, 2015, Comparison Study of RBCC Powered Suborbital Reusable Launch Vehicle Concepts][research_gong_bing_2015]
@@ -2683,7 +2543,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Gong and others, 2022, Performance Analysis on the Small-Scale Reusable Launch Vehicle][research_gong_wang_2022]
 - [Gong and others, 2025, Aircraft Tire-Runway Friction on Wet and Grooved Pavement Surfaces Models and Experiments][research_gong_chen_2025]
 - [Gonzales and others, 2021, Validation of Sub-millimeter Resolution Pressure Measurement on Free Flight Model Mach 1.5][research_gonzales_kurihara_2021]
-- [Goodchild, 1995, An unmanned underwater vehicle navigation and guidance system][research_goodchild_1995]
 - [GOODYEAR AEROSPACE CORP AKRON OH, 1961, Aerodynamic Analysis of a 1/20-Scale Powered Wind Tunnel Model of an Airship with Two Wake Propeller Configurations and Comparison with Conventional and Fin-Mounted Powerplant Configurations][research_goodyearaerospacecorpakronoh_1961]
 - [GOODYER and KILGORE, 1972, The high Reynolds number cryogenic wind tunnel][research_goodyer_kilgore_1972]
 - [Gopal and others, 2026, Development of High Unit-Reynolds Number Supersonic Wind Tunnel Facility at the University of Texas at Arlington][research_gopal_somaroutu_2026]
@@ -2696,8 +2555,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Goz and Theodoulis, 2025, Robust Multi-Objective H∞ Control of GHAME Hypersonic Vehicle in Subsonic Flight][research_goz_theodoulis_2025]
 - [GRABOWSKY and others, 1981, Reentry vehicle instrumentation survey][research_grabowsky_eldridge_1981]
 - [GRACE, 1964, A method of evaluation of certain maintenance policies and ground support facilities for manned reusable spacecraft][research_grace_1964]
-- [Gragg and Black, 1967, Runway performance following shifts in drive and reward magnitude][research_gragg_black_1967]
-- [Grandy, 1980, Analysis of the Subscale Structure of Test Batteries a Confirmatory Study of the Interrelationships of Cgp and N.J. Basic Skills Subscores][research_grandy_1980]
 - [GRANTHAM and WILLIAMS, 1987, Comparison of in-flight and ground-based simulator derived flying qualities and pilot performance for approach and landing tasks][research_grantham_williams_1987]
 - [Grantz, 2011, X-37B Orbital Test Vehicle and Derivatives][research_grantz_2011]
 - [Graovac, 2007, One Approach to the Fusion of Inertial Navigation and Dynamic Vision][research_graovac_2007]
@@ -2705,23 +2562,18 @@ The next article returns to a vehicle designed to be shot down.
 - [Graves and Masciarelli, 2002, An Analytical Assessment of Aerocapture Guidance and Navigation Flight Demonstration for Applicability to Other Planets][research_graves_masciarelli_2002]
 - [Gray, 2016, Switch-Induced Simulated PIO Relay Feedback as a Flight Test Technique for Pilot-in-the-Loop Stability][research_gray_2016]
 - [Green and Fernandez, 1994, F117A composite rudder aeroelastic stability flight test program][research_green_fernandez_1994]
-- [Gregg and others, 2011, Design Considerations, Performance Enhancing Techniques, and Wind Tunnel Testing for Small-Scale, Low Reynolds Number Wind Turbines][research_gregg_burdett_2011]
 - [Gregory and others, 2011, Flight Test of L1 Adaptive Control Law Offset Landings and Large Flight Envelope Modeling Work][research_gregory_xargay_2011]
 - [Greiser and others, 2011, Automatic Landing Detection of Helicopters Equipped with Landing Skid][research_greiser_lantzsch_2011]
 - [Grenestedt and Spletzer, 2010, Towards perpetual flight of a gliding unmanned aerial vehicle in the jet stream][research_grenestedt_spletzer_2010]
 - [Grenoble and others, 2018, Fabrication of a Composite Tow-Steered Structure for Air-Launch Vehicle Applications][research_grenoble_nguyen_2018]
 - [Grewal and others, 1976, Riccati Controlled Terminal Landing of Unpowered Lifting Vehicles][research_grewal_schneider_1976]
-- [Griffin and others, 2005, Economics of Lightbar and Auto-Guidance GPS Navigation Technologies][research_griffin_lambert_2005]
 - [Griffin and Takahashi, 2022, Aero-Spaceplane Mission Performance Estimations Incorporating Atmospheric Control Limits][research_griffin_takahashi_2022]
 - [Griffiths and Miller, 1986, Integrated Communication, Navigation, and Identification Avionics Resource Allocation][research_griffiths_miller_1986]
 - [Grigoli, 2024, Concept for a Compact and Fast Spaceplane Delivery System][research_grigoli_2024]
-- [Grimsley and McDonald, 1964, Effect of Varied Magnitude of Reward on Runway Performance][research_grimsley_mcdonald_1964]
 - [GRODSKY and MANDOUR, 1967, A simulation study of landing of a typical medium L/D entry vehicle][research_grodsky_mandour_1967]
 - [GROENER and others, 1980, Ground and flight test investigations of reentry vehicle heatshield roll torque][research_groener_stetson_1980]
-- [Gromke, 2018, Wind tunnel model of the forest and its Reynolds number sensitivity][research_gromke_2018]
 - [Grossi and others, 2026, Numerical Investigation of Thermal Loads During Supersonic Retropropulsion of a Reusable Launch Vehicle][research_grossi_fabiani_2026]
 - [Große and Schröder, 2009, High Reynolds number turbulent wind tunnel boundary layer wall-shear stress sensor][research_grosse_schroder_2009]
-- [Grubbs and Bergum, 1974, Nonreward incentive and runway performance][research_grubbs_bergum_1974]
 - [Grumondz and others, 2012, Synthesizing the control system of a small gliding unmanned aerial vehicle with high-aspect ratio wing][research_grumondz_polishchuk_2012]
 - [Gryte and others, 2017, Robust Navigation of UAV using Inertial Sensors Aided by UWB and RTK GPS][research_gryte_hansen_2017]
 - [Grzymisch and others, 2013, A Spherical Coordinate Parametrization for an In-Orbit Bearings-Only Navigation Filter][research_grzymisch_fichter_2013]
@@ -2732,7 +2584,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Guan and others, 2019, Micro-Inertial-Aided High-Precision Positioning Method for Small-Diameter PIG Navigation][research_guan_xu_2019]
 - [Guerrero and others, 2022, 4.3 Fiber Optic Sensing the challenges of miniaturization, ruggedization and integration to enhance flight test instrumentation capabilities][research_guerrero_pelluault_2022]
 - [Guida, 2023, Landing gear shock absorbers guidelines][research_guida_2023]
-- [Gulavani and others, 2019, External Aerodynamic Drag Coefficient Prediction of Full Scale Passenger Car Based on Scale Model Assessment][research_gulavani_chalipat_2019]
 - [Gulli and Maddalena, 2014, Characterization of Complex Porous Structures for Reusable Thermal Protection Systems Effective-Permeability Measurements][research_gulli_maddalena_2014]
 - [Gulli and Maddalena, 2015, Design of the Experimental Campaign on Variable Transpiration Cooling for Reusable Thermal Protection Systems][research_gulli_maddalena_2015_b]
 - [Gulli and others, 2014, Integrated Analysis of Reusable Thermal Protection Systems Based on Variable-Transpiration Cooling][research_gulli_maddalena_2014_b]
@@ -2742,7 +2593,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Gunderson and Hardy, 1965, Piloted Guidance and Control of the Saturn V Launch Vehicle][research_gunderson_hardy_1965]
 - [Gunderson and Hardy, 1966, Piloted Guidance and Control of the Saturn V Launch Vehicle][research_gunderson_hardy_1966]
 - [Guo and Fang, 2022, Study on heat reduction and lift-to-drag ratio increase of two-dimensional wedge-shaped waverider blunt leading edges and high pressure capture wing 1 combined configuration][research_guo_fang_2022]
-- [Guo and others, 2015, Study on Drop Test of Electric Vehicle Battery][research_guo_li_2015]
 - [Guo and others, 2016, Unconventional roll axis response-type Nonlinear Dynamic Inversion flight control law design][research_guo_yue_2016]
 - [Guo and others, 2017, Initial virtual flight test for a dynamically similar aircraft model with control augmentation system][research_guo_zhu_2017]
 - [Guo and others, 2017, Predictor-corrector guidance for reentry hypersonic vehicle based on feedback linearization][research_guo_qi_2017]
@@ -2756,7 +2606,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Guo and others, 2025, Pressure and humidity effects on water adsorption and thermal conductivity of nanoporous aerogels in spacecraft thermal protection system][research_guo_yang_2025]
 - [GUO and others, 2026, A Review of Autonomous Landing and Rovering Navigation and Guidance Control in Deep Space][research_guo_huang_2026]
 - [Guo Jianguo and others, 2016, Robust attitude predictive control design for reentry vehicle][research_guojianguo_fengzhenxin_2016]
-- [Guo, 2006, Guidance and control of a biomimetic-autonomous underwater vehicle][research_guo_2006]
 - [Guorong Zhao and others, 2006, Design of Automatic Carrier Landing Control System using Block Diagonal Controller][research_guorongzhao_jixinli_2006]
 - [Gupta and others, 2018, Development of Large-Sized Titanium Alloy Ti6Al4V and Nickel-Based Superalloy Inconel-718 Forgings for Reusable Launch Vehicle-Technology Demonstrator Flight][research_gupta_anilkumar_2018]
 - [Gupta and others, 2025, Structural Evaluation and Design Optimization of Oleo-pneumatic Landing Gear Through Finite Element Analysis][research_gupta_sai_2025]
@@ -2787,7 +2636,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Hallberg and others, 2008, Store Separation Trajectory Simulation for the High Speed Anti-Radiation Demonstrator HSAD from the F-4 Aircraft][research_hallberg_cenko_2008]
 - [Hallion and others, 1995, The Hypersonic Revolution. Volume 2. From Scramjet to the National Aero-Space Plane][research_hallion_becker_1995]
 - [Hamburg and others, 2011, Computational Investigation of AR and Lambda Effects on Wings Operating in the Transitional Low Reynolds Number Flight Regime][research_hamburg_napolillo_2011]
-- [Hamby, 1997, Operational Protection of Information Technology Assets. A Commander's Guide to Risk Reduction][research_hamby_1997]
 - [Hameed and Bindu, 2019, A Novel Flare Maneuver Guidance for Approach and Landing Phase of a Reusable Launch Vehicle][research_hameed_bindu_2019]
 - [Hamel and others, 2025, Performance Assessment of Crater-Based Navigation for Autonomous Moon Landing][research_hamel_garant_2025]
 - [Hamel and others, 2025, Performance Assessment of Crater-Based Navigation for Autonomous Moon Landing][research_hamel_garant_2025_b]
@@ -2795,7 +2643,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Hammouche and others, 2016, A Fuzzy Controller for GPS/INS/Odm Integrated Navigation System][research_hammouche_sakhi_2016]
 - [Han and Han, 2024, Effect of surface ablation on aerodynamic heating over a blunt cone in hypersonic airflow][research_han_han_2024]
 - [Han and others, 2015, Experimental Study on the Forward Flight of the Hawkmoth Using the Dynamically Scaled-Up Robotic Model][research_han_han_2015]
-- [Han and others, 2020, An Investigation into the Effects of the Reynolds Number on High-Speed Trains Using a Low Temperature Wind Tunnel Test Facility][research_han_chen_2020]
 - [Han and others, 2022, Analysis of the Key Precursor Indicator Parameters of Runway Excursion Incidents Based on Density Clustering Algorithm][research_han_jiao_2022]
 - [Han and others, 2025, Sliding Mode Based Line-of-Sight Tracking for Hypersonic Gliding Vehicle][research_han_wang_2025]
 - [Han and Shuping, 2015, Approach and landing guidance based on sliding mode control and input-to-state stability][research_han_shuping_2015]
@@ -2822,7 +2669,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Harigae and Tanabe, 1990, The Theoretical and Experimental Validation of the Gps-ins-star Hybrid Navigation System Concept][research_harigae_tanabe_1990]
 - [Harl, 2008, Reentry Terminal Guidance Through Sliding Mode Control][research_harl_2008]
 - [Harris and Stanford, 2019, F-35 Flight Control Law Design, Development, and Verification][research_harris_stanford_2019]
-- [Harris, 1977, Cranking model calculation of the moment of inertia using the method of Dalgarno and Lewis][research_harris_1977]
 - [Harris, 2018, F-35 Flight Control Law Design, Development and Verification][research_harris_2018]
 - [HARRISON and LOCKMAN, 1968, Heat-transfer telemetry from free-flight models in wind tunnels. II][research_harrison_lockman_1968]
 - [HARRISON and MARKO, 1968, Heat-transfer telemetry from free-flight models in wind tunnels. I][research_harrison_marko_1968]
@@ -2845,12 +2691,10 @@ The next article returns to a vehicle designed to be shot down.
 - [He and others, 2023, Carrier-Based Fighter Precision Landing Based on Dynamic Inversion and Direct Lift Control][research_he_zhang_2023]
 - [He and others, 2025, A novel real-time integrated navigation system based on the S-Transformer and A-SRCKF during GPS outages][research_he_zhang_2025]
 - [He and others, 2025, Analysis of Aerodynamic Heating Modes in Thermochemical Nonequilibrium Flow for Hypersonic Reentry][research_he_zhao_2025]
-- [Healey, 2005, Guidance and Control, for Small AUVs Using DGPS and Doppler Aided Inertial Underwater Navigation][research_healey_2005]
 - [Hebbar and Pashilkar, 2017, Pilot performance evaluation of simulated flight approach and landing manoeuvres using quantitative assessment tools][research_hebbar_pashilkar_2017]
 - [Hecker and others, 2019, Optical Aircraft Positioning for Monitoring of the Integrated Navigation System during Landing Approach][research_hecker_bestmann_2019]
 - [HEDLUND and others, 1990, The new high Reynolds number Mach 8 capability in the NSWC Hypervelocity Wind Tunnel 9][research_hedlund_higgins_1990]
 - [HEDLUND and RAGSDALE, 1985, Improvements in low Reynolds number testing in the NSWC hypervelocity wind tunnel No. 9][research_hedlund_ragsdale_1985]
-- [Heinemann and others, 2025, Model-Based Vehicle Roll Moment of Inertia Estimation][research_heinemann_henning_2025]
 - [Heisler and others, 2017, Full scale thermal simulator development for the solar probe plus thermal protection system][research_heisler_abel_2017]
 - [Helers and Kraemer, 1977, Shuttle orbiter guidance system for the terminal flight phase][research_helers_kraemer_1977]
 - [Hellings, 1973, Application of Extended Kalman Filtering to a Dynamic Laboratory Calibration of an Inertial Navigation System][research_hellings_1973]
@@ -2858,7 +2702,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Hellman and others, 2011, Advancing Reusable Booster System RBS Technologies and Capabilities with a Space Tourist Suborbital Vehicle][research_hellman_remillard_2011]
 - [Hellman and others, 2011, Initial Assessment of the Operational Reusable Booster System RBS Rocketback][research_hellman_wallace_2011]
 - [Hellman and Tejtel, 2008, Final Approach and Landing for a Winged Reusable Booster][research_hellman_tejtel_2008]
-- [Hellmann, 2013, Zugabe Markenkultur im Autoland][research_hellmann_2013]
 - [Hemann and others, 2016, Long-range GPS-denied aerial inertial navigation with LIDAR localization][research_hemann_singh_2016]
 - [HEMSCH, 1988, Similarity for high angle-of-attack subsonic/transonic slender-body aerodynamics][research_hemsch_1988]
 - [Hemsch, 1989, Similarity for high-angle-of-attack subsonic/transonic slender-body aerodynamics][research_hemsch_1989]
@@ -2887,7 +2730,6 @@ The next article returns to a vehicle designed to be shot down.
 - [HILORME and Nakashydze, 2022, Technical and Economic Substantiation for Selection of the Method of Electro-thermal Protection of Solar Panels in the Spacecraft Power Plants][research_hilorme_nakashydze_2022]
 - [HILTZ and others, 1968, Thermal protection systems for a Mars-entry vehicle][research_hiltz_florence_1968]
 - [HINCHEY, 1968, Some basic guidelines for establishing structural design parameters for the landing gear of stable, soft landing spacecraft][research_hinchey_1968]
-- [Hinostroza and Lekkas, 2024, Temporal mission planning for autonomous ships Design and integration with guidance, navigation and control][research_hinostroza_lekkas_2024]
 - [Hintz, 2015, Orbital Maneuvers][research_hintz_2015]
 - [Hintz, 2022, Orbital Maneuvers][research_hintz_2022]
 - [Hirai and others, 2021, Effects of the semi-local Reynolds number in scaling turbulent statistics for wall heated/cooled supersonic turbulent boundary layers][research_hirai_pecnik_2021]
@@ -2902,7 +2744,6 @@ The next article returns to a vehicle designed to be shot down.
 - [HOFFMAN and others, 1970, A landing approach guidance scheme for unpowered lifting vehicles][research_hoffman_zvara_1970]
 - [Hofmann-Wellenhof and others, 2003, Inertial navigation][research_hofmannwellenhof_legat_2003]
 - [Hofsäß and others, 2023, Counter Optimization-Based Validation of Flight Control System Monitoring][research_hofsass_braun_2023]
-- [Hojjat and Ghasemi, 2024, A Chance-Constrained Programming CCP Approach to Solve the Energy Management Problem in Microgrids Considering Uncertainties of Renewable Energy Resources][research_hojjat_ghasemi_2024]
 - [HOLBERG and GRABOWSKY, 1981, Pave Mover Flight Test Program][research_holberg_grabowsky_1981]
 - [Holdo, 1993, Reynolds number effects on lattice structures forming part of a wind tunnel model][research_holdo_1993]
 - [HOLLEY and BRYSON, 1975, Wind modeling and lateral control for automatic landing][research_holley_brysonjr_1975]
@@ -2953,10 +2794,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Hu and others, 2026, Re-Entry Gliding Vehicle Trajectory Prediction Based on Maneuver Detection][research_hu_pang_2026]
 - [Hu and Wang, 2019, A New Method Based on Dual-State Chi-Square Fault-Tolerant to Inertial/Acoustic Range Integrated Navigation System with Single Transponder][research_hu_wang_2019]
 - [Hu Wei-jun and Zhou Jun, 2009, A new method of Terminal Energy Management for Suborbital Launch Vehicle][research_huweijun_zhoujun_2009]
-- [Hua and others, 2017, Similitude criterion derivation and pipe physical property test and suitable analysis for water hammner scale model of long distance district heating pipeline][research_hua_zhang_2017]
 - [hua and yan, 2018, A Method of Improving the Precision of Geocentric Vector Aided by Inertial Navigation Information][research_hua_yan_2018]
 - [Huan and others, 2015, Autonomous landing for unmanned seaplanes based on active disturbance rejection control][research_huan_guoliang_2015]
-- [Huang and Bucchi, 2023, Froude-Krylov force estimation and waypoint tracking control of an underactuated model boat][research_huang_bucchi_2023]
 - [Huang and Dai, 2023, Thermal Control Investigations on Separation Zone of Ceramic Thermal Protection System][research_huang_dai_2023]
 - [Huang and Fan, 2022, Coupled Fluid-Thermal Investigation on Active Thermal Protection System by Opposing Jet][research_huang_fan_2022]
 - [Huang and Jia, 2018, Optimal Design of Aircraft Landing Gear Mechanism Actuating Force][research_huang_jia_2018]
@@ -2969,7 +2808,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Huang and others, 2020, Wind tunnel investigation of autorotation of plate The effects of geometry, Reynolds number and rotation direction][research_huang_lin_2020]
 - [Huang and others, 2022, Constraint navigation filter for space vehicle autonomous positioning with deficient GNSS measurements][research_huang_yang_2022]
 - [Huang and others, 2023, A Fast Prediction Method for the Target Reachable Zone of Boosting Gliding Vehicle Based on Database][research_huang_deng_2023]
-- [Huang and others, 2024, Effects of the Reynolds number on train aerodynamics considering air compressibility a wind tunnel study][research_huang_li_2024]
 - [Huang and others, 2024, Guidance algorithm for reusable launch vehicle considering change in target][research_huang_dai_2024]
 - [Huang and others, 2024, Multitask-constrained reentry trajectory planning for hypersonic gliding vehicle][research_huang_yu_2024]
 - [Huang and others, 2024, Real-Time Data-Driven Inverse Heat Conduction Method for a Reentry Flight Vehicle Based on the Random Forest Algorithm][research_huang_gong_2024]
@@ -2992,7 +2830,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Hui and Yang, 2013, Design for Wind Tunnel Testing of Scaled Model by CFD Method][research_hui_yang_2013]
 - [Huili and others, 2023, Landing Performance Analysis and Multi-Parameter Optimization of Oil-Gas Separation Shock Strut of Landing Gear][research_huili_xiying_2023]
 - [HULL and others, 1981, Reentry vehicle trim resulting from ablation coupled with motion][research_hull_french_1981]
-- [Humaid and others, 2021, Relationship of Speed, Reaction and Concentration to the Achievement of Precision Landing of Gliding Athletes DKI Jakarta][research_humaid_apriyanto_2021]
 - [Humes, 1978, Hypervelocity impact tests on Space Shuttle Orbiter RCC thermal protection material][research_humes_1978]
 - [Hummer and others, 2018, AFLCMC Engineering Directorate CFD Support for USAF Flight Test Programs][research_hummer_jurkovich_2018]
 - [Humphrey and Humphrey, 1997, Inertial navigation system for a micro unmanned air vehicle][research_humphrey_humphrey_1997]
@@ -3002,7 +2839,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Hunt, 1989, Hypersonic Airbreathing Vehicle Design Focus on Aero-Space Plane][research_hunt_1989]
 - [HUNTER and WILSON, 1976, Autoland testing in the low visibility landing environment][research_hunter_wilson_1976]
 - [Hunter, 1973, Properties of Air-derived and Ground-derived Aircraft Landing Guidance Concepts][research_hunter_1973]
-- [Huo and others, 2017, An energy management approach for electric vehicle fast charging station][research_huo_bouffard_2017]
 - [Hutter and Jöhnk, 2004, Similitude and Model Experiments][research_hutter_johnk_2004]
 - [Hutter and Wang, 2016, Dimensional Analysis, Similitude and Physical Experiments at Laboratory Scale][research_hutter_wang_2016]
 - [Huynh and Kriz, 2009, Final Environmental Assessment for Hypersonic Technology Vehicle 2 Flight Tests][research_huynh_kriz_2009]
@@ -3014,15 +2850,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Hyslop and others, 2022, Free-Flight Aerodynamic Testing of a 7 Degree Half-Angle Cone][research_hyslop_mcgilvray_2022]
 - [Hyun, 2005, Design of Navigation System Including Landmarks Image Processing for Approach and Landing][research_hyun_2005]
 - [I. Harasani, 2015, A Survey of Subscale Aircraft Primary Flight Control Actuator Dynamic Response Characteristics][research_iharasani_2015]
-- [Iai, 1989, Similitude for Shaking Table Tests on Soil-Structure-Fluid Model in 1g Gravitational Field][research_iai_1989]
-- [Ibrahim and others, 2023, Energy Management of Multi-Area Islanded Hybrid Microgrids A Stochastic Approach][research_ibrahim_hasanien_2023]
 - [Ide and Landman, 2025, Flight test validation of multi-rotor flight time prediction software using experimental design techniques][research_ide_landman_2025]
 - [Iden, 1959, Glide-Slope Antenna Arrays for Use under Adverse Siting Conditions][research_iden_1959]
 - [Iizuka, 2024, Millimeter-wave-based Drone Automatic Landing-guidance System for Advanced Maritime Operations][research_iizuka_2024]
 - [Il'yinskii and Potashev, 2003, A Model Problem of the Design and Aerodynamical Calculation of the Gliding Wing Airfoil of a Wing-in-Ground Vehicle][research_ilyinskii_potashev_2003]
 - [Iliev and Nachev, 2022, Automatic Landing of Unmanned Aerial Vehicles via Wireless Positioning System with Pseudo-Conical Scanning][research_iliev_nachev_2022]
-- [Imran and others, 2016, Froude scaling limitations in modeling of turbidity currents][research_imran_khan_2016]
-- [INAOKA, 1993, Power-law Mass Distribution in a Flow-catching Mass Growth Model][research_inaoka_1993]
 - [INATANI and others, 1992, Atmospheric reentry flight test of winged space vehicle][research_inatani_akiba_1992]
 - [Indig and others, 2017, Optimal Guidance with Additional Thrust Controller For Various Flight Tasks][research_indig_benasher_2017]
 - [Inger, 2003, Low Reynolds Number Effects of Hypersonic Blunt Body Shock Standoff][research_inger_2003]
@@ -3034,13 +2866,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Ishida and others, 2014, S1910203 The Aerodynamic Characteristics Evaluation of Capsule Model in Free Flight Testing][research_ishida_nagai_2014]
 - [Ishida and others, 2015, Aerodynamic Evaluation of a Capsule Shaped Projectile during Free Flight Testing with Ballistic Range][research_ishida_nagai_2015]
 - [Ishiguro and others, 2023, Earwig-inspired foldable origami wing for micro air vehicle gliding][research_ishiguro_kawasetsu_2023]
-- [ISHIHARA and others, 2014, Complement of FSI dynamically scaled experiment using computation and its application to insect flight analysis][research_ishihara_horie_2014]
 - [Ishikawa and Ogasawara, 2001, Overview of development activities of spaceplane components using NUSK-CMC CMC with continuous Si-Ti-C-O fiber][research_ishikawa_ogasawara_2001]
 - [Ishimoto and others, 1996, Flight control system of Hypersonic Flight Experiment vehicle][research_ishimoto_takizawa_1996]
 - [Ishimoto and others, 2005, Flight demonstrator concept for key technologies enabling future reusable launch vehicles][research_ishimoto_fujii_2005]
 - [Ishimoto, 1995, Guidance algorithm for suborbital flight experiment of unmanned lifting entry vehicle][research_ishimoto_1995]
 - [Ishioka and others, 2019, Optimal Landing Guidance for a Fixed-Wing UAV Based on Dynamic Window Approach][research_ishioka_uchiyama_2019]
-- [Iskander, 2010, Similitude between Model and Full Scale Piles][research_iskander_2010]
 - [Ismail and others, 2015, Phase compensation and anti-windup design for neural-aided sliding mode fault-tolerant autoland controller][research_ismail_pashilkar_2015]
 - [ITO and NOMOTO, 1990, Subjects in aerodynamic design and hypersonics of HOPE spaceplane][research_ito_nomoto_1990]
 - [ITO and others, 1990, Concept and technology development for HOPE spaceplane][research_ito_akimoto_1990]
@@ -3054,7 +2884,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Iwakawa and others, 2015, Free Flight Measurement of Aircraft Model using Aero Ballistic Range][research_iwakawa_furukawa_2015]
 - [Izraelevitz and others, 2022, Subscale Prototype and Hangar Test Flight of a Venus Variable-Altitude Aerobot][research_izraelevitz_pauken_2022]
 - [Izzo and others, 2011, Constant-Optic-Flow Lunar Landing Optimality and Guidance][research_izzo_weiss_2011]
-- [J. S. Panwar and others, 1973, Similitude Prediction of Model Tool Forces in Artificial Soils][research_jspanwar_gnclark_1973]
 - [J.M. Urnes and others, 1981, H-Dot Automatic Carrier Landing System for Approach Control in Turbulence][research_jmurnes_moomaw_1981]
 - [Jacklin, 2008, Closing the Certification Gaps in Adaptive Flight Control Software][research_jacklin_2008]
 - [JACKSON and COYLE, 1983, Assurance of the X-29 Advanced Technology Demonstrator Flight Control Software][research_jackson_coyle_1983]
@@ -3115,7 +2944,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Jiang and others, 2017, Development of hypersonic wind tunnel free-flight test in CAAA][research_jiang_song_2017]
 - [Jiang and others, 2018, A Preview Control Scheme for Carrier-Based Aircraft Automatic Landing][research_jiang_zhen_2018]
 - [Jiang and others, 2018, Sensor Composite Faults Estimation and Control for Hypersonic Flight Vehicle][research_jiang_chen_2018]
-- [Jiang and others, 2024, The similitude of indoor airflow in natural ventilation for a reduced-scale model Investigation of nonisothermal flow fields by RANS simulation][research_jiang_kobayashi_2024]
 - [Jiang and others, 2026, Experimental Study on the Reusable Performance of a Thermal Protection Structure][research_jiang_xie_2026]
 - [Jiang and Wang, 2023, An integrated analytical model for friction characteristics of aircraft tire on wet runway pavement][research_jiang_wang_2023]
 - [Jiang and Yang, 2014, Guidance Law Design for Terminal Area Energy Management of Reusable Launch Vehicle by Energy-to-Range Ratio][research_jiang_yang_2014]
@@ -3128,7 +2956,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Jiaxing and others, 2025, Autonomous Navigation Method for Planetary Landing Based on Observability Degree of Sequential Image][research_jiaxing_dayi_2025]
 - [Jiayuan and others, 2018, A Comparison of Flight Control Strategies for Hypersonic Reentry Vehicles with Lateral-Directional Coupling Dynamics][research_jiayuan_peng_2018]
 - [Jie Liang, 2020, Monte Carlo Simulation of Spacecraft Reentry Aerothermodynamics and Analysis for Ablating Disintegration][research_jieliangzhihuilixuguoliweiboshi_2020]
-- [Jiménez and others, 2017, A Parallel Approach to Intelligent Data Analysis for Efficient EneRgy Management in Distributed Facilities PIoNEER][research_jimenez_capeltunon_2017]
 - [Jin and others, 2017, Relative Motion Modeling and Control for a Quadrotor Landing on an Unmanned Vessel][research_jin_zhu_2017]
 - [Jin and others, 2025, A Precision Evaluation Method for Initial Alignment Algorithm of Rotating Inertial Navigation System][research_jin_huang_2025]
 - [Jindong and Zhiqiang, 2011, Key Technology Research on the Reproduction of Flight Level Path in Approach and Landing Phase][research_jindong_zhiqiang_2011]
@@ -3136,9 +2963,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Jits and others, 2005, Closed-Loop Trajectory Simulation for Thermal Protection System Design for Neptune Aerocapture][research_jits_wright_2005]
 - [Jo and Ahn, 2021, Optimal staging of reusable launch vehicles considering velocity losses][research_jo_ahn_2021]
 - [Jo and Ahn, 2022, Optimal staging of reusable launch vehicles for minimum life cycle cost][research_jo_ahn_2022]
-- [Jo/rgensen, 1979, Note on the Harris cranking model calculation of the moment of inertia using the method of Dalgarno and Lewis][research_jorgensen_1979]
 - [Jobmann and Thielecke, 2024, Model-Based Loads Observer Approach for Landing Gear Remaining Useful Life Prediction][research_jobmann_thielecke_2024]
-- [Jochem and others, 2025, Energy-efficiency roundtables and networks a group-based energy management approach][research_jochem_eberle_2025]
 - [Joel P and R, 2014, Design and Stress Analysis of Nose Landing Gear Barrel NLGB of a typical naval trainer aircraft][research_joelp_r_2014]
 - [JOHANNESEN and others, 1985, Effect of maximum lift to drag ratio on optimal aeroassisted plane change][research_johannesen_vinh_1985]
 - [Johannsen and others, 1976, Human Performance and Workload in Simulated Landing-Approaches with Autopilot-Failures][research_johannsen_pfendler_1976]
@@ -3150,7 +2975,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Johnson and others, 2008, In Flight Validation of Adaptive Flight Control Methods][research_johnson_calise_2008]
 - [Johnson and others, 2018, Mid-Lift-to-Drag Ratio Rigid Vehicle Control System Design and Simulation for Human Mars Entry][research_johnson_cerimele_2018]
 - [Johnson and others, 2020, Mid Lift-to-Drag Rigid Vehicle 6-DoF Performance for Human Mars Entry, Descent, and Landing A Fractional Polynomial Powered Descent Guidance Approach][research_johnson_lu_2020]
-- [Johnson and others, 2022, Rapid, risk-based levee design framework for greater risk reduction at lower cost than standards-based design][research_johnson_wang_2022]
 - [JOHNSON, 1962, Phase II Tethered Tests and Low-speed Free Flight Tests of Gem III][research_johnson_1962]
 - [Johnson, 1967, A Thermal Protection System for Liquid Hydrogen Fuel Tankage in Hypersonic Vehicles][research_johnson_1967]
 - [Johnston and Candler, 2023, Hypersonic Boundary Layer Transition of the BoLT-2 Flowfield at Flight Conditions, BOLT II Flight Test][research_johnston_candler_2023]
@@ -3196,7 +3020,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Kahn and Edwards, 2019, Navigation, Guidance, and Control of a Micro Unmanned Aerial Glider][research_kahn_edwards_2019]
 - [Kai and Ohtake, 1996, Thermal Protection System evaluation of the HYFLEX vehicle][research_kai_ohtake_1996]
 - [Kai and others, 2018, Design and Experimental Validation of a New Guidance and Flight Control System for Scale-Model Airplanes][research_kai_anglade_2018]
-- [Kaka and Jain, 2024, Vehicle Drop Test Correlation for Two-Wheeler Motorcycle Using Multibody Simulation][research_kaka_jain_2024]
 - [Kalden, 2007, Multidisciplinary Design and Trajectory Optimization of the Reusable Launch Vehicle Concept Hopper][research_kalden_2007]
 - [Kalikhman and others, 2018, Integrated approach to the development of digital regulators for inertial sensory elements of modern strapdown inertial navigation systems and of corresponding control software][research_kalikhman_kalikhman_2018]
 - [Kalmár-Nagy and Bak, 2019, An intriguing analogy of Kolmogorov's scaling law in a hierarchical mass-spring-damper model][research_kalmarnagy_bak_2019]
@@ -3212,8 +3035,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Karasopoulos and others, 1998, Space maneuver vehicle development by the Mini-Spaceplane Technology Program][research_karasopoulos_cervisi_1998]
 - [Kare, 2003, Vehicle And System Concepts For Laser Orbital Maneuvering And Interplanetary Propulsion][research_kare_2003]
 - [Karel, 1967, Near Term Reusable Rocket Launch Vehicle Concepts][research_karel_1967]
-- [Kargarmoakhar and Mooneghi, 2017, Experimental and Analytical Investigation of the Reynolds Number Effect on Wind Forces for Multi-Girder Bridges][research_kargarmoakhar_mooneghi_2017]
-- [Kargarmoakhar and others, 2015, Reynolds number effects on twin box girder long span bridge aerodynamics][research_kargarmoakhar_chowdhury_2015]
 - [Kargin and others, 2018, The Take-off an Unpowered Glider by Winch or Car][research_kargin_haser_2018]
 - [KARIYA and others, 2020, An Experimental Study on Nonlinear Guaranteed Cost Control Approach to Automatic Flight and Landing of a Small Flying-Wing Unmanned Aerial Vehicle][research_kariya_tanaka_2020]
 - [Karl and others, 2020, Post-test analysis of the LAPCAT-II subscale scramjet][research_karl_martinezschramm_2020]
@@ -3226,7 +3047,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Kashkovsky and others, 2014, Modeling of reentry space vehicle aerodynamics with control thruster plume free-stream interaction][research_kashkovsky_vashchenkov_2014]
 - [Kashkovsky and others, 2019, Aerothermodynamics of the Federation crew module at high-altitude reentry][research_kashkovsky_vashchenkov_2019]
 - [Kashkovsky, 2014, DSMC investigations of reentry vehicle aerothermodynamics on GPU][research_kashkovsky_2014]
-- [Kasuda, 2011, United States Air Force Counterinsurgency Operations Capabilities, the Ground Dimension...Are We on the Right Glide Slope][research_kasuda_2011]
 - [KATO, 1991, Special issue spaceplane project of Japan.Flight dynamics of a spaceplane][research_kato_1991]
 - [Katz and Roglin, 2000, Tailoring Lift/Drag Ratio for a Lifting-Body Airplane Configuration][research_katz_roglin_2000]
 - [Kaushik and Anemaat, 2012, Methods to Scale Subsonic Wind Tunnel Data to Full-Scale][research_kaushik_anemaat_2012]
@@ -3240,9 +3060,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Kawato and others, 2003, Aerodynamic Design of a Lifting-Body Type Reentry Vehicle][research_kawato_watanabe_2003]
 - [Kaynak, 2010, Fuzzy Logic Based Autonomous Landing System for Unmanned Aerial Vehicles][research_kaynak_2010]
 - [Kayton, 1968, The Near Field of the Instrument Landing System Glide Slope][research_kayton_1968]
-- [Kazolea and others, 2025, An efficient second order ImEx scheme for the shallow water model in low Froude regime][research_kazolea_lteif_2025]
 - [Ke and others, 2014, Automatic landing on carrier method of unmanned air vehicle][research_ke_zhengzhong_2014]
-- [Keane and others, 2001, Dynamic similarity a processing perspective on similarity][research_keane_smyth_2001]
 - [Keidel and others, 2019, Flight Control Optimization and Wind Tunnel Validation of a Morphing Flying Wing][research_keidel_fasel_2019]
 - [Keke and others, 2014, An autonomous carrier landing system design and simulation for unmanned aerial vehicle][research_keke_qing_2014]
 - [Keller and others, 2026, Development and Testing of a Subscale eVTOL Flight Vehicle for Stability, Control and Disturbance Response Characteristics][research_keller_mckillipjr_2026]
@@ -3254,7 +3072,6 @@ The next article returns to a vehicle designed to be shot down.
 - [KELLY, 1977, Guidance Accuracy Consideration for the Microwave Landing System][research_kelly_1977]
 - [Kelly, 1994, A 3D State Space Formulation of a Navigation Kalman Filter for Autonomous Vehicles][research_kelly_1994]
 - [Kempel and Painter, 1994, Development and flight testing of the HL-10 lifting body][research_kempel_painter_1994]
-- [Kenan and Azeloğlu, 2020, Design of scaled down model of a tower crane mast by using similitude theory][research_kenan_azeloglu_2020]
 - [Kendall and others, 2022, Autonomous Risk Mitigation in Unmanned Approach and Landing Operations][research_kendall_idris_2022]
 - [Kendoul and others, 2009, An adaptive vision-based autopilot for mini flying machines guidance, navigation and control][research_kendoul_nonami_2009]
 - [Kendoul and others, 2009, Guidance and nonlinear control system for autonomous flight of minirotorcraft unmanned aerial vehicles][research_kendoul_yu_2009]
@@ -3293,14 +3110,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Kim and Choi, 2026, Durability Assessment of Tile-Type Reusable Thermal Protection Materials][research_kim_choi_2026]
 - [KIM and LANGLEY, 2003, On Ultrahigh-Precision GPS Positioning and Navigation][research_kim_langley_2003]
 - [Kim and others, 2006, GPS/INS/Seeker Integrated Navigation System for the Case of GPS Blockage][research_kim_lee_2006]
-- [Kim and others, 2009, Equivalent multi-phase similitude law for pseudodynamic test on small scale reinforced concrete models][research_kim_lee_2009]
 - [Kim and others, 2009, Vision Processing for Precision Autonomous Landing Approach of an Unmanned Helicopter][research_kim_kim_2009]
 - [Kim and others, 2012, Adaptive Integrated Guidance and Control Design for Automatic Landing of a Fixed Wing Unmanned Aerial Vehicle][research_kim_kim_2012]
 - [Kim and others, 2014, Crashworthy Landing Gear Design Using a Composite Tube by Extra Energy Absorber][research_kim_kim_2014]
 - [Kim and others, 2015, Design and Testing of a Crashworthy Landing Gear][research_kim_shin_2015]
 - [Kim and others, 2017, Lidar-guided autonomous landing of an aerial vehicle on a ground vehicle][research_kim_woo_2017]
 - [Kim and others, 2018, Design and Analysis of a Magnetorheological Damper for Airplane Landing Gear][research_kim_han_2018]
-- [Kim and others, 2019, Flow over a ski jumper in flight Prediction of the aerodynamic force and flight posture with higher lift-to-drag ratio][research_kim_lee_2019]
 - [Kim and others, 2020, Effects of residual Si on the ablation properties of biomorphic C/SiC composites for reusable thermal protection systems][research_kim_kim_2020]
 - [Kim and others, 2021, Analysis of Propellant Weight under Re-Entry Conditions for a Reusable Launch Vehicle Using Retropropulsion][research_kim_lee_2021]
 - [Kim and others, 2021, Prediction and Validation of Landing Stability of a Lunar Lander by a Classification Map Based on Touchdown Landing Dynamics' Simulation Considering Soft Ground][research_kim_jeong_2021]
@@ -3313,10 +3128,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Kimmel and others, 2011, Ground Test and Computation of Boundary Layer Transition on the Hypersonic International Flight Research and Experimentation HIFiRE -5 Vehicle][research_kimmel_adamczak_2011]
 - [KIMURA and others, 2022, Investigation of Mach number and Reynolds number effects on flow around a near-critical geometry prism at Reynolds number O 10 3 using a low-density wind tunnel][research_kimura_nagata_2022]
 - [Kineyko, 1982, Advanced Flight Control Actuation System AFCAS - E/P . Fabrication and Design Verification Testing of a Dual Mode Electro/Pneumatic Actuator for the T-2C Aircraft][research_kineyko_1982]
-- [Kintsch, 1962, Runway performance as function of drive strength and magnitude of reinforcement][research_kintsch_1962]
 - [KIRKPATRICK, 1989, Meteoroid and orbital debris shielding on the Orbital Maneuvering Vehicle][research_kirkpatrick_1989]
 - [Kish and others, 2017, Wing Bug A portable, low-cost flight test instrumentation system][research_kish_rhoney_2017]
-- [Klein, 1980, Relation of variable moment of inertia VMI concept with the interacting Boson model][research_klein_1980]
 - [Kleinert and Schleith, 2010, Inertial aided monocular SLAM for GPS-denied navigation][research_kleinert_schleith_2010]
 - [Klevatt and Gaubatz, 1998, Developing the military spaceplane-from concept to hardware][research_klevatt_gaubatz_1998]
 - [Klewicki, 2010, Reynolds Number Dependence, Scaling, and Dynamics of Turbulent Boundary Layers][research_klewicki_2010]
@@ -3338,14 +3151,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Knab and others, 1995, CVCV-model validation by means of radiative heating calculations Coupled Vibration-Chemistry-Vibration for hypervelocity flow around reentry vehicles][research_knab_gogel_1995]
 - [Knapp and others, 2017, Kalman Filter Estimation of Rotor-State Flapping An Optimization-based Approach with UH-60 Flight Test Data][research_knapp_ivler_2017]
 - [Knapp, 1999, Mission optimization for a reusable launch vehicle system][research_knapp_1999]
-- [Knappett and others, 2018, Variability of small scale model reinforced concrete and implications for geotechnical centrifuge testing][research_knappett_brown_2018]
 - [Kobald and others, 2017, Sounding Rocket "HEROS" - A Low-Cost Hybrid Rocket Technology Demonstrator][research_kobald_fischer_2017]
 - [Kobald and others, 2018, Hybrid Experimental Rocket Stuttgart A Low-Cost Technology Demonstrator][research_kobald_fischer_2018]
 - [Kobayakawa and Maeda, 1978, An Experiment on the Gust Response of a Transport Airplane by Free-Flight Model][research_kobayakawa_maeda_1978]
 - [Kobayashi and Maita, 1995, Japanese Spaceplane Program overview][research_kobayashi_maita_1995]
 - [Kobayashi and others, 2001, Optimization of airbreathing propulsion system for the TSTO spaceplane][research_kobayashi_sato_2001]
 - [Kobayashi and Tanatsugu, 2001, Optimization method on TSTO spaceplane system powered by airbreather][research_kobayashi_tanatsugu_2001]
-- [Kober and others, 2016, Vehicle Reference Lane Calculation for Autonomous Vehicle Guidance Control][research_kober_huber_2016]
 - [Kocamer and others, 2022, Static Analysis and Design of Fixed-Wing Tactical Unmanned Aerial Vehicle TUAV Retractable Main Landing Gear][research_kocamer_uzun_2022]
 - [Koch and others, 2025, Uncertainty quantification data model for the probabilistic design of the thermal protection system of a reusable launch vehicle stage][research_koch_wilken_2025]
 - [Kock and others, 1972, Low-lift-to-drag-ratio approach and landing studies using a CV-990 airplane][research_kock_1972]
@@ -3360,7 +3171,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Kokan and Olds, 2002, Mission Capture Rate versus Turaround Time and Fleet Size for the Military Spaceplane][research_kokan_olds_2002]
 - [Kolesnikov, 2005, NDI-Based Flight Control Law Design][research_kolesnikov_2005]
 - [Kolevatov and others, 2019, Shockproof Precision Strapdown Inertial Navigation System Development for Terrestrial Applications][research_kolevatov_ulyanovskaya_2019]
-- [Kolkman, 2026, Froude scale modelling for dynamically loaded saturated fine sand][research_kolkman_2026]
 - [Kolodziej and Rasky, 2003, Estimates of the Orbiter RSI Thermal Protection System Thermal Reliability][research_kolodziej_rasky_2003]
 - [Komar and Christenson, 1996, Reusable launch vehicle engine systems operations analysis][research_komar_christenson_1996]
 - [KOMATSU and OHYAGI, 2001, B10 Concept Study of Membrane Tank for Reusable Launch Vehicle][research_komatsu_ohyagi_2001]
@@ -3396,8 +3206,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Kreienkamp and Luessenheide, 1985, Similarity of Personalities of Flight Instructors and Student-Pilots Effect on Flight Training Time][research_kreienkamp_luessenheide_1985]
 - [Krempasky, 1996, Terminal area navigation using a relative GPS correction vector scheme][research_krempasky_1996]
 - [Kreutz, 1971, Airborne Flight Test Data Acquisition and Automatic Data Processing System for Helicopter Test and Development Programs][research_kreutz_1971]
-- [Kriebel and others, 1986, Undistorted Froude Model for Surf Zone Sediment Transport][research_kriebel_dally_1986]
-- [Kriebel and others, 1987, Undistorted Froude Model for Surf Zone Sediment Transport][research_kriebel_dally_1987]
 - [KRIEGSMAN and TAO, 1974, Shuttle navigation system for entry and landing mission phases][research_kriegsman_tao_1974]
 - [Krishnamoorthy and Clarke, 2016, Computationally Efficient Assessments of the Effects of Radiative Transfer, Turbulence Radiation Interactions, and Finite Rate Chemistry in the Mach 20 Reentry F Flight Vehicle][research_krishnamoorthy_clarke_2016]
 - [Krishnan and others, 2017, Numerical investigation of structural design of torsion links in a landing gear retraction mechanism][research_krishnan_thejus_2017]
@@ -3407,7 +3215,6 @@ The next article returns to a vehicle designed to be shot down.
 - [KRUMENACKER and PELLICANO, 1992, Flight simulation and data analysis during a high angle of attack vortex flow control flight test program][research_krumenacker_pellicano_1992]
 - [KRYVORUKA and ASHURST, 1973, Reentry vehicle finned roll rate control - Aerodynamic and flight dynamic analysis][research_kryvoruka_ashurst_1973]
 - [KRÜGER and others, 1997, Aircraft Landing Gear Dynamics Simulation and Control][research_kruger_besselink_1997]
-- [Kubo and others, 2026, Study on Reynolds Number effect of a cable-stayed bridge girder][research_kubo_nogami_2026]
 - [Kubo and Suzuki, 2007, Transitional Flight Control of Tail-Sitter Vertical Takeoff and Landing Mini Unmanned Aerial Vehicle][research_kubo_suzuki_2007]
 - [Kubo and Suzuki, 2008, Tail-Sitter Vertical Takeoff and Landing Unmanned Aerial Vehicle Transitional Flight Analysis][research_kubo_suzuki_2008]
 - [Kubota and others, 2003, An autonomous navigation and guidance system for MUSES-C asteroid landing][research_kubota_hashimoto_2003]
@@ -3441,12 +3248,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Kunwar and others, 2026, Control Law Development, Flight Testing, and System Identification of a Distributed Electric Propulsion Subscale Aircraft][research_kunwar_putra_2026]
 - [KUPPUSWAMY and KIRAN, 1981, Planning a helicopter flight test program][research_kuppuswamy_kiran_1981]
 - [Kurdel and others, 2024, Evaluation of the Success of Simulation of the Unmanned Aerial Vehicle Precision Landing Provided by a Newly Designed System for Precision Landing in a Mountainous Area][research_kurdel_gecejova_2024]
-- [Kurelek and others, 2023, Performance of the porous disk wind turbine model at a high Reynolds number Solidity distribution and length scales effects][research_kurelek_pique_2023]
 - [Kurniawan and others, 2022, Analisis Peran Glide Path dalam Instrument Landing System Ils untuk Proses Pendaratan Pesawat][research_kurniawan_stefanie_2022]
 - [Kurowski and others, 2015, Guidance, Navigation and Control of Unmanned Surface Vehicles][research_kurowski_haghani_2015]
 - [Kutluay and others, 2009, An Application of Equation Error Method to Aerodynamic Model Identification and Parameter Estimation of a Gliding Flight Vehicle][research_kutluay_mahmutyazicioglu_2009]
 - [Kuzin and others, 2009, Reusable Launch Vehicle Systems Khrunichev Space Center's Feasibility Studies][research_kuzin_lozin_2009]
-- [Kuzmynchuk and others, 2023, Sustainable Electrical Energy Management in the Energy Saving System Based on Analytical and Logistic Approach][research_kuzmynchuk_kutsenko_2023]
 - [Kwon and Park, 2013, An Overview of Flight Test Planning and Test Results for the Development of Korean Utility Helicopter][research_kwon_park_2013]
 - [Kwon and Yee, 2025, A Novel Arrow Airfoil with High Lift-to-Drag Ratio for Mars Rotorcraft Application][research_kwon_yee_2025]
 - [Kügler and others, 2018, Automatic Take-off and Landing on the Maiden Flight of a Novel Fixed-Wing UAV][research_kugler_heller_2018]
@@ -3466,7 +3271,6 @@ The next article returns to a vehicle designed to be shot down.
 - [LAMY, 1983, Air Force Flight Test Instrumentation System][research_lamy_1983]
 - [Lan and others, 2020, 3D Profile Reconstruction and Guidance for the Terminal Area Energy Management Phase of an Unpowered RLV with Aerosurface Failure][research_lan_xu_2020]
 - [Lan and others, 2021, CACLA-Based Trajectory Tracking Guidance for RLV in Terminal Area Energy Management Phase][research_lan_tan_2021]
-- [Lan Li and others, 2007, Stabilizing function of the λ-model with the tiny moment of inertia in a single joint limb system][research_lanli_zhukuanyi_2007]
 - [LANCASTER, 1977, Semi-buoyant lifting body hybrid characteristics for advanced Naval missions][research_lancaster_1977]
 - [Landherr and Klein, 1987, Inertial Navigation System Simulator Behavioral Specification][research_landherr_klein_1987]
 - [Landherr and Klein, 1989, Inertial Navigation System Simulator Behavioral Specification. Revision][research_landherr_klein_1989]
@@ -3474,7 +3278,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Landman and others, 2022, Wind Tunnel Test Techniques for Low-Reynolds Number Propeller Performance Enhancement][research_landman_burnette_2022]
 - [Langberg and others, 2022, Landing Gear Design, Fabrication, and Testing for the Ingenuity Mars Helicopter][research_langberg_tyler_2022]
 - [Langelaan and Grande, 2013, Safe Autonomous Flare and Landing during Autorotation through Wind Shear][research_langelaan_grande_2013]
-- [Langer and others, 1997, An Integrated System for Autonomous Off-Road Navigation][research_langer_rosenblatt_1997]
 - [Langston and others, 2021, Matrix Microcracking Effect on the Structural Response of a Thermal Protection System][research_langston_peterson_2021]
 - [Langston, 1967, Space Vehicle Navigation, Guidance, and Control][research_langston_1967]
 - [Lapygin and Yakunina, 2009, The shapes of bodies with maximum lift-to-drag ratio in supersonic flow][research_lapygin_yakunina_2009]
@@ -3484,13 +3287,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Larsen, 2005, Development of Guide to Commercial Space Transportation Reusable Launch Vehicle operations and Mainenance][research_larsen_2005]
 - [Larson, 1972, Statistical analysis of landing contact conditions for three lifting body research vehicles][research_larson_1972]
 - [Laub and White, 2006, Arcjet Screening of Candidate Ablative Thermal Protection Materials for Mars Science Laboratory][research_laub_white_2006]
-- [Laudahn and others, 2018, Similitude of Scaled and Full Scale Linkages][research_laudahn_sviberg_2018]
 - [Lauer, 2006, The XP Spaceplane A Near Term Multi-purpose Suborbital RLV][research_lauer_2006]
 - [Lauer, 2007, The XP spaceplane A near term multi-purpose suborbital RLV][research_lauer_2007]
 - [LAUMANN, 1966, Free-flight multi-body test techniques][research_laumann_1966]
 - [Launius, 2013, Defining the Shuttle The Spaceplane Tradition][research_launius_2013]
 - [Launius, 2013, The Strange Career of the American Spaceplane The Long History of Wings and Wheels in Human Space Operations][research_launius_2013_b]
-- [Lauterbach and others, 2012, Microphone array wind tunnel measurements of Reynolds number effects in high-speed train aeroacoustics][research_lauterbach_ehrenfried_2012]
 - [LAVENDER, 1965, On Touchdown Dynamics Analysis for Lunar Landing][research_lavender_1965]
 - [Lavergne and others, 2005, Nonlinear Robust Autoland][research_lavergne_villaume_2005]
 - [LAW and MCWHORTER, 1992, Shuttle autoland status summary][research_law_mcwhorter_1992]
@@ -3509,16 +3310,13 @@ The next article returns to a vehicle designed to be shot down.
 - [Lechevin and Rabbath, 2012, Robust Discrete-Time Proportional-Derivative Navigation Guidance][research_lechevin_rabbath_2012]
 - [Lee and Cho, 2021, Inverse Optimality of Pure Proportional Navigation Guidance for Stationary Targets][research_lee_cho_2021]
 - [Lee and Han, 2012, Experimental study on the flight dynamics of a bioinspired ornithopter free flight testing and wind tunnel testing][research_lee_han_2012]
-- [Lee and Lee, 2020, Low Reynolds number effects on aerodynamic loads of a small scale wind turbine][research_lee_lee_2020]
 - [Lee and Mesbahi, 2017, Constrained Autonomous Precision Landing via Dual Quaternions and Model Predictive Control][research_lee_mesbahi_2017]
 - [Lee and others, 1998, Flight dynamics and stability and control characteristics of the X-33 technology demonstrator vehicle][research_lee_chang_1998]
 - [Lee and others, 2003, In-flight health monitoring of a subscale wing using a fiber Bragg grating sensor system][research_lee_ryu_2003]
 - [Lee and others, 2008, Experimental Analysis of GPS/Pseudolite/INS Integration for Aircraft Precision Approach and Landing][research_lee_soon_2008]
 - [Lee and others, 2011, Development and Flight Test of Unmanned Autonomous Rotor Navigation System Based on Virtual Instrumentation Platform][research_lee_park_2011]
-- [Lee and others, 2012, Optimization of ski jumper's posture considering lift-to-drag ratio and stability][research_lee_park_2012]
 - [Lee and others, 2019, UAV Flight and Landing Guidance System for Emergency Situations †][research_lee_chung_2019]
 - [Lee and others, 2020, A Vision-Based Control Method for Autonomous Landing of Vertical Flight Aircraft On a Moving Platform Without Using GPS][research_lee_benedict_2020]
-- [Lee and others, 2020, Six-Sigma Approach to Energy Management Planning][research_lee_yuvamitra_2020]
 - [Lee and others, 2021, Autonomous Landing of Micro Unmanned Aerial Vehicles with Landing-Assistive Platform and Robust Spherical Object Detection][research_lee_park_2021]
 - [Lee and others, 2022, Aircraft Braking Performance Classification Through Braking Rollout Clustering][research_lee_payan_2022]
 - [Lee and others, 2023, Multi-DOF Virtual Flight Testing and Free Flight Wind Tunnel Test System Development for Investigation of Aircraft Flight Characteristics][research_lee_cho_2023]
@@ -3564,9 +3362,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Li and others, 2007, Vision-aided inertial navigation for pinpoint planetary landing][research_li_cui_2007]
 - [Li and others, 2008, A design on moving-mass actuated reentry vehicle with predictive guidance law][research_li_jing_2008]
 - [Li and others, 2008, Erratum to "Autonomous navigation and guidance for landing on asteroids" Aerospace Science and Technology 10 2006 239-247][research_li_cui_2008]
-- [Li and others, 2010, Dynamic Time Warping Distance Method for Similarity Test of Multipoint Ground Motion Field][research_li_chen_2010]
 - [Li and others, 2010, Trajectory Optimization and Reentry Tracking Research for Lifting Reentry Vehicle][research_li_shen_2010]
-- [Li and others, 2011, Similitude Derivation of Stabilizing Model Pile in Centrifugal Model Test][research_li_zheng_2011]
 - [Li and others, 2012, CAT III Autoland Control Laws Design Based on Multi-Objective Optimization][research_li_yang_2012]
 - [LI and others, 2012, Footprint Problem with Angle of Attack Optimization for High Lifting Reentry Vehicle][research_li_zhang_2012]
 - [Li and others, 2013, The strength experimental design and data analysis of the nose landing gear][research_li_cui_2013]
@@ -3575,13 +3371,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Li and others, 2016, An Enhanced GPS/INS Integrated Navigation System with GPS Observation Expansion][research_li_wang_2016]
 - [Li and others, 2016, Rolling Guidance Law for single moving-mass reentry vehicle considering the influence of gravity][research_li_chao_2016]
 - [Li and others, 2017, Analysis of longitudinal dynamic characteristics for air-breathing hypersonic flight vehicle][research_li_wu_2017]
-- [Li and others, 2017, Experimental study of Reynolds number effects on performance of thick CAS wind turbine airfoils][research_li_yang_2017]
 - [Li and others, 2017, Optimal Inerter-Based Shock-Strut Configurations for Landing-Gear Touchdown Performance][research_li_jiang_2017]
 - [Li and others, 2018, Compound Guidance Law for Single Moving Mass Controlled Reentry Vehicle][research_li_chao_2018]
 - [LI and others, 2018, Effects of the lift-to-drag ratio on climbing characteristics of reusable launch vehicles][research_li_xiao_2018]
 - [LI and others, 2018, Grey Prediction PID Control for Single Moving-mass Controlled Reentry Vehicle][research_li_chao_2018_b]
-- [Li and others, 2019, Geotechnical magnetic-similitude-gravity model testing method][research_li_zhou_2019]
-- [Li and others, 2019, Scaling Method of the Rotating Blade of a Wind Turbine for a Rime Ice Wind Tunnel Test][research_li_sun_2019]
 - [Li and others, 2019, Time-coordinated reentry guidance law for reusable launch vehicle][research_li_peng_2019]
 - [Li and others, 2020, A Novel Hybrid Fusion Algorithm for Low-Cost GPS/INS Integrated Navigation System During GPS Outages][research_li_jia_2020]
 - [Li and others, 2021, Fault detection approach applied to inertial navigation system/air data system integrated navigation system with time-offset][research_li_cheng_2021]
@@ -3590,10 +3383,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Li and others, 2022, Energy management method for an unpowered landing][research_li_shi_2022]
 - [Li and others, 2022, Flight-Propulsion Integration Dynamic Analysis and Adaptive Control of the Hypersonic Vehicle at Wide-Range Mach Numbers][research_li_li_2022]
 - [Li and others, 2022, Segmented guidance law for single moving mass controlled reentry vehicle with multiple constraints][research_li_chao_2022]
-- [Li and others, 2022, Similitude scaled method for three-dimensional train collision][research_li_gao_2022]
 - [Li and others, 2022, Single-frequency cycle slip detection and repair based on Doppler residuals with inertial aiding for ground-based navigation systems][research_li_guo_2022]
 - [Li and others, 2022, Structural similitude for a scaled rotor system considering stiffness characteristics of bolted joints][research_li_luo_2022]
-- [Li and others, 2022, Univariate analysis of scaling effects on the aerodynamics of vertical axis wind turbines based on high-resolution numerical simulations The Reynolds number effects][research_li_xu_2022]
 - [Li and others, 2023, A Runway Overrun Risk Assessment Model for Civil Aircraft Based on Quick Access Recorder Data][research_li_zhang_2023]
 - [Li and others, 2023, Adaptive output feedback attitude control for reusable launch vehicle with input constraints and actuator faults][research_li_zhao_2023]
 - [Li and others, 2023, Development and Future Direction of Unmanned System Based on Inertial Integrated Navigation][research_li_zeng_2023]
@@ -3617,7 +3408,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Li and others, 2025, Strain Monitoring of Reusable Launch Vehicle Four-Legged Landing System Using Fiber Bragg Grating Sensors][research_li_wang_2025]
 - [Li and others, 2025, Study of Axial Compression Bearing Capacity of Stainless Steel Tanks in Reusable Launch Vehicle][research_li_li_2025]
 - [Li and others, 2026, A novel adaptive coating for collaborative thermal protection of reusable spacecraft in different environments][research_li_du_2026]
-- [Li and others, 2026, Flexural elasticity-gravity-hydrodynamics similitude law for underwater shaking table model tests in the elastic stage][research_li_wang_2026]
 - [Li and others, 2026, Reusable Launch Vehicle Landing Online Guidance and Control Based on ESO-MPC and Convex Optimization][research_li_ji_2026]
 - [Li and Wu, 2024, Design and calculation of ventilation system for civil aircraft landing gear compartment][research_li_wu_2024]
 - [Li and Zhang, 2021, Computational Study on Radiative Aerothermodynamics of a Reentry Space Vehicle][research_li_zhang_2021_b]
@@ -3653,15 +3443,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Lin and Cui, 2022, Research on A Low Computational Cost Vision-aided Inertial Navigation Method for Precision Landing on Asteroid][research_lin_cui_2022]
 - [Lin and others, 2020, Control System Design of A Vertical Take-off and Landing Unmanned Aerial Vehicle][research_lin_qi_2020]
 - [Lin and others, 2020, UAS Based Methodology for Measuring Glide Slope Angles of Airport Precision Approach Path Indicators PAPI][research_lin_meghdadhasheminasab_2020]
-- [Lin and others, 2021, Investigation of the Reynolds number independence of cavity flow in 2D street canyons by wind tunnel experiments and numerical simulations][research_lin_hang_2021]
-- [Lin and others, 2022, Investigation on Dynamic Performance of Wind Turbines Using Different Scaling Methods in Wind Tunnel Tests][research_lin_xiao_2022]
-- [Lin and others, 2023, Investigation on dynamic performance of wind turbines using different scaling methods in wind tunnel tests][research_lin_xiao_2023]
 - [Lin and others, 2026, Dynamic guidance control for UAV landing on autonomous surface vessel][research_lin_tseng_2026]
 - [Lin, 2025, Analysis of the Aerodynamic Characteristics of Glider Lift-to-Drag Ratio and Its Wing Shape][research_lin_2025]
 - [Lin-lin and others, 2015, Single moving-mass asymmetrical reentry vehicle guidance law design][research_linlin_jianqiao_2015]
 - [LINA and WHITTEN, 1968, Influence of glide-slope angle on the accuracy of performing approaches in a simulator][research_lina_whitten_1968]
 - [Lindberg and others, 1997, X-34 - A prelude to a military space plane][research_lindberg_schade_1997]
-- [Ling and others, 2016, Research on Dynamic Similarity Model Test of Damage Detection for Transmission Tower][research_ling_yingtao_2016]
 - [Ling, 2017, Mid-L/D Lifting Body Entry Demise Analysis][research_ling_2017]
 - [Lippitt and others, 1983, Development of Passive Diver Thermal Protection System][research_lippitt_jr_1983]
 - [Liseitsev, 2025, Landing Gear Design][research_liseitsev_2025]
@@ -3681,7 +3467,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Liu and others, 2012, Study on the New Measurement Technology for Evaluating the Cracking Performance of an Airport Runway under Construction Based on Airport Pavement Operational Safety][research_liu_luo_2012]
 - [Liu and others, 2013, Simulation and Analysis of Aerodynamic Characteristics of High-Altitude Long-Distance Gliding UUV Unmanned Underwater Vehicle][research_liu_pan_2013]
 - [Liu and others, 2014, Novel approach for designing a hypersonic gliding-cruising dual waverider vehicle][research_liu_ding_2014]
-- [LIU and others, 2014, Reynolds Number Effect on Bridge Wind Engineering][research_liu_ma_2014]
 - [Liu and others, 2015, GPS free navigation inspired by insects through monocular camera and inertial sensors][research_liu_liu_2015]
 - [Liu and others, 2015, Observer-based finite-time sliding mode control for reentry vehicle][research_liu_ren_2015]
 - [Liu and others, 2016, Partial integrated guidance and control for hypersonic vehicle in initial reentry phase][research_liu_wang_2016]
@@ -3690,25 +3475,18 @@ The next article returns to a vehicle designed to be shot down.
 - [Liu and others, 2017, In-flight Lateral Control Departure Parameter Estimation for Reusable Launch Vehicle Using Retrospective Cost Adaptive Control][research_liu_dai_2017]
 - [Liu and others, 2018, Control variable parameterisation with penalty approach for hypersonic vehicle reentry optimisation][research_liu_liu_2018]
 - [Liu and others, 2019, A Similarity Comparison Method of Flight Test Points][research_liu_xiao_2019]
-- [Liu and others, 2019, Autonomous Landing of an Unmanned Underwater Vehicle using Hybrid Visual Servoing Control with Image Moments and Quaternions][research_liu_gao_2019]
-- [Liu and others, 2019, Reynolds Number Effects on Wind-Induced Responses of a 243-m-High Solar Tower in Elastic Wind Tunnel Tests][research_liu_li_2019]
 - [Liu and others, 2020, A new visual/inertial integrated navigation algorithm based on sliding-window factor graph optimisation][research_liu_wang_2020]
 - [Liu and others, 2020, Reentry Attitude Tracking Control for Hypersonic Vehicle with Reaction Control Systems Via Improved Model Predictive Control Approach][research_liu_hou_2020]
-- [Liu and others, 2020, Single-loop model prediction control of PMSM with moment of inertia identification][research_liu_kang_2020]
 - [Liu and others, 2021, Image-Based Visual Servoing Control for Automatic Carrier Landing][research_liu_zheng_2021]
 - [LIU and others, 2021, Phase plane design based fast altitude tracking control for hypersonic flight vehicle with angle of attack constraint][research_liu_dong_2021]
 - [Liu and others, 2022, Adaptive control arc length-based time grid refinement control parameterisation method for unmanned hypersonic vehicle reentry trajectory optimisation][research_liu_liu_2022]
-- [Liu and others, 2022, Three-dimensional reynolds number effects and wind load models for cylindrical storage tanks with low aspect ratios][research_liu_sun_2022]
 - [Liu and others, 2023, A Correction Method for the Effects of Reynolds Number, Roughness, and Tip Clearance on Geometric Scaling of Axial Compressors][research_liu_gong_2023]
 - [Liu and others, 2023, A Three-Dimensional Online Trajectory Planning Method for Terminal Area of Reusable Launch Vehicle][research_liu_yan_2023]
 - [Liu and others, 2023, A Tight Coupling Algorithm for Strapdown Inertial Navigation System SINS /Global Positioning System GPS Adaptive Integrated Navigation Based on Variational Bayesian][research_liu_di_2023]
 - [Liu and others, 2023, Actuator Fault Detection for Hypersonic Flight Vehicle Model A Sliding Mode Observer Approach][research_liu_hu_2023]
 - [Liu and others, 2023, Biased Proportional Navigation Guidance for Autonomous Landing of Unmanned Seaplane Considering Look Angle Constraint][research_liu_wang_2023_b]
-- [Liu and others, 2023, Coordinated energy management for integrated energy system incorporating multiple flexibility measures of supply and demand sides A deep reinforcement learning approach][research_liu_li_2023]
-- [Liu and others, 2023, Effects of Reynolds number on wind effects toward a super-tall building with curved cross-section][research_liu_fu_2023]
 - [Liu and others, 2023, Landing Impact Load Analysis and Validation of a Civil Aircraft Nose Landing Gear][research_liu_wang_2023]
 - [Liu and others, 2023, Map Aided Visual-Inertial Integrated Navigation for Long Range UAVs][research_liu_he_2023]
-- [Liu and others, 2024, A true double-body method based on porous media model for simulation and froude scaling verification of an aquaculture vessel resistance][research_liu_chen_2024]
 - [Liu and others, 2024, Adaptive Fuzzy Fault-Tolerant Attitude Control for a Hypersonic Gliding Vehicle A Policy-Iteration Approach][research_liu_hu_2024]
 - [Liu and others, 2024, Composite adaptive neural control for automatic carrier landing system with input saturation and output constraints][research_liu_zhang_2024_b]
 - [Liu and others, 2024, Fixed-time command-filtered adaptive neural control for automatic carrier landing][research_liu_zhang_2024_c]
@@ -3720,18 +3498,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Liu and others, 2025, High-Precision Re-entry Attitude Control for Reusable Spacecraft Based on Dual Disturbance Observers][research_liu_liu_2025_c]
 - [Liu and others, 2025, Predefined-Time Control with Disturbance Observer for Horizontal Take-off and Landing Reusable Launch Vehicle][research_liu_kuang_2025]
 - [Liu and others, 2025, Research on cross-domain bolt looseness detection of cylindrical shell structures based on a distorted similitude model][research_liu_wang_2025]
-- [Liu and others, 2025, Similitude-based construction of scaled crane boom models via finite element analysis][research_liu_liu_2025_d]
-- [Liu and Wassgren, 2016, Modifications to Johanson's roll compaction model for improved relative density predictions][research_liu_wassgren_2016]
-- [Liu and Xia, 2011, Research on Computing Method of Similarity Scale of Dynamic Model Test Concerning Fluid-Structure Coupling for Water-Conveyance Tunnel][research_liu_xia_2011]
 - [Liu Zhi and Wang Yong, 2012, Intelligent landing of Unmanned Aerial Vehicle using hierarchical fuzzy control][research_liuzhi_wangyong_2012]
 - [Liu, 2012, Interactive Flight Control System Development and Validation with Real-Time Simulation][research_liu_2012]
 - [Liu, 2017, Optimal guidance law of reentry vehicle with terminal interception and impact angle constraints][research_liu_2017]
 - [Liu, 2025, Research on Sequence Planning Decision Model of Flight Test Mission for Civil Aircraft][research_liu_2025_b]
 - [Liu, 2025, Thermal-Mechanical Coupling Analysis of Thermal Protection System Based on Finite Element Model][research_liu_2025]
 - [LIVINGSTON, 1965, Wind Tunnel Tests of a Full-scale Rotor at High Speeds][research_livingston_1965]
-- [Llorente and others, 2014, Wind Tunnel Tests of Wind Turbine Airfoils at High Reynolds Numbers][research_llorente_gorostidi_2014]
-- [Loebis and others, 2006, Navigation, guidance and control of the Hammerhead autonomous underwater vehicle][research_loebis_naeem_2006]
-- [Loebis and others, 2006, Soft computing techniques in the design of a navigation, guidance and control system for an autonomous underwater vehicle][research_loebis_naeem_2006_b]
 - [Logsdon and Williamson, 1997, The reusable launch vehicle program][research_logsdon_williamson_1997]
 - [Longani, 2000, Design of experiments for thermal protection system process optimization][research_longani_2000]
 - [Looye and Joos, 2002, Design of Autoland Controller Functions with Multi-Objective Optimization][research_looye_joos_2002]
@@ -3744,7 +3516,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Loureiro and others, 2019, Emergency Landing Spot Detection for Unmanned Aerial Vehicle][research_loureiro_soares_2019]
 - [Lovtsov and Karpov, 2011, Dynamic planning of navigation determinations of airspace and missile objects in an automated flight test control system][research_lovtsov_karpov_2011]
 - [Lu and Lei, 2010, Design and reliability prediction of a distributed landing gear control system][research_lu_lei_2010]
-- [Lu and Ma, 2009, Dynamic Characteristic Analysis of a Subscale Linear Permanent Magnet Vehicle][research_lu_ma_2009]
 - [Lu and others, 2005, Material Characterization of Shuttle Thermal Protection System for Impact Analyses][research_lu_antoun_2005]
 - [Lu and others, 2010, Multidisciplinary Design Optimization of a Lunar Lander's Soft-Landing Gear][research_lu_wang_2010]
 - [Lu and others, 2015, STAMP-based safety control approach for flight testing of a low-cost unmanned subscale blended-wing-body demonstrator][research_lu_zhang_2015]
@@ -3766,7 +3537,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Lucas, 1978, Wind Tunnel Results from a Nozzle Afterbody Test of A 0.1-Scale Fighter Aircraft in the Mach Number Regime of 0.6 to 1.6][research_lucas_1978]
 - [Lugo and others, 2014, Statistical Entry, Descent, and Landing Flight Reconstruction with Flush Air Data System Observations using Inertial Navigation and Monte Carlo Techniques][research_lugo_tolson_2014]
 - [Lugo and others, 2022, Integrated Precision Landing Performance Results for a Human-Scale Mars Landing System][research_lugo_dwyercianciolo_2022]
-- [Lukpanov, 2024, Selection of Equivalent Material for Soil Testing Using Piles on a Scale Model Testing Apparatus][research_lukpanov_2024]
 - [Lund, 2004, Unmanned Powered Parafoil Tests for Guidance, Navigation, and Control Development][research_lund_2004]
 - [Lungu and Lungu, 2015, Automatic Control of Aircraft in Lateral-Directional Plane During Landing][research_lungu_lungu_2015]
 - [Lungu and Lungu, 2015, Design of Automatic Landing Systems Using the H-inf Control and the Dynamic Inversion][research_lungu_lungu_2015_b]
@@ -3793,7 +3563,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Lyons, 1977, Cadmium telluride detector development and use in reentry vehicle applications][research_lyons_1977]
 - [Lévesque and de Lafontaine, 2006, Optimal Guidance Using Density-Proportional Flightpath Angle Profile for Precision Landing on Mars][research_levesque_delafontaine_2006]
 - [Löbl and others, 2018, Cooperative Docking Guidance and Control with Application to Autonomous Aerial Refueling][research_lobl_weiss_2018]
-- [M. Ribeiro and others, 2020, Model-Based Approach for Cornering Stiffness and Yaw Moment of Inertia Estimation of a Scaled Electric Vehicle][research_mribeiro_rfioravanti_2020]
 - [Ma and others, 2005, Chemical nonequilibrium effects on flow field for reusable launch vehicles][research_ma_zhao_2005]
 - [Ma and others, 2013, Analysis of UAV Main Landing Gear Loads during Wheel Spin-Up Process][research_ma_sun_2013]
 - [Ma and others, 2013, Design and Simulation Study of a Certain Landing Gear Loading Simulation System][research_ma_wu_2013]
@@ -3809,13 +3578,11 @@ The next article returns to a vehicle designed to be shot down.
 - [MacAllister, 1955, The Drag of a 1/6 Scale Model of the 3000-lb Bomb M118 from a Mach Number of 0.7 to 1.2 as Obtained from Free Flight Firings][research_macallister_1955]
 - [Machin and Daum, 2026, Application of Ground Vehicle Testing to Reentry Vehicle Parachute Systems][research_machin_daum_2026]
 - [Machnik and others, 2022, 4.2 Tailoring Flight Test Instrumentation with Additive Manufacturing][research_machnik_decker_2022]
-- [Macháček and others, 2020, Scaling of wind turbine aerodynamics wind tunnel experiments][research_machacek_pospisil_2020]
 - [Mackay and others, 2016, Landing Zone Determination for Autonomous Rotorcraft in Surveillance Applications][research_mackay_ellingson_2016]
 - [MACKINNON and MADDEN, 1971, Performance limitation of a simplified radio- inertial lateral control system for automatic landing][research_mackinnon_madden_1971]
 - [MACKlNNON and MADDEN, 1972, Performance Limits of a Radio-Inertial Lateral Control System for Automatic Landing][research_macklnnon_madden_1972]
 - [MacLeod, 2026, The Prospects for Microwave Actuated Airbreathing Hypersonic Spaceplane Engines][research_macleod_2026]
 - [MACMILLAN, 1981, Navstar Global Positioning System flight test program overview][research_macmillan_1981]
-- [MacNeill and Barkdoll, 2025, Bio-Inspired Highest Lift-to-Drag-Ratio Fin Shape and Angle for Maximum Surfboard Stability Flow Around Fish Fins][research_macneill_barkdoll_2025]
 - [Macy and others, 1989, Improved Steel for Landing Gear Design][research_macy_shea_1989]
 - [MADDEN and DESAI, 1973, Nonlinear trajectory following in the terminal area - Guidance, control and flight mechanics concepts using the microwave landing system][research_madden_desai_1973]
 - [MADDEN, 1958, Separation and Free Flight Tests of 250-Lb Mk 81 and 500-Lb Mk 82 Low Drag G.P. Bombs with Nose Fuze Plug Released from A3D-1 Aircraft][research_madden_1958]
@@ -3824,7 +3591,6 @@ The next article returns to a vehicle designed to be shot down.
 - [MAEDA and others, 2014, 3C22 Simulation and Experimental Validation on Touchdown Dynamics of Lunar-Planetary Lander with Controllable Landing Gear The 12th International Conference on Motion and Vibration Control][research_maeda_otsuki_2014]
 - [Maeda and others, 2016, Experimental Validation of Semi-Active Landing Gear for Touchdown with Attitude Disturbance][research_maeda_otsuki_2016]
 - [Maemori and others, 2003, Optimization of a Semi-Active Shock Absorber for Aircraft Landing Gear][research_maemori_tanigawa_2003]
-- [Magelli and others, 2025, Adapting a scaled twin-disc device for tread braking investigations based on an ad-hoc thermal similitude model][research_magelli_pagano_2025]
 - [Magoon and others, 2009, Long Term Performance of the Reef Runway at Honolulu International Airport][research_magoon_treadwell_2009]
 - [Mahmood and others, 2022, Trajectory Optimization of a Subsonic Unpowered Gliding Vehicle Using Control Vector Parameterization][research_mahmood_rehman_2022]
 - [Mahmood and ur Rehman, 2023, Optimal Standoff Distance of Subsonic Unpowered Gliding Vehicle][research_mahmood_urrehman_2023]
@@ -3843,7 +3609,6 @@ The next article returns to a vehicle designed to be shot down.
 - [MAKIZONO and others, 2015, 420 Aerodynamic Characteristics and Flow Field of High Lift-to-drag Ratio Airfoils in Low Reynolds Number][research_makizono_sasaki_2015]
 - [Malloy and Chang, 1998, Flight Control Law Design Using Dynamic Inversion for Linear Parameter Varying Systems][research_malloy_chang_1998]
 - [Mammarella and others, 2011, Advanced Optical Terrain Absolute Navigation for Pinpoint Lunar Landing][research_mammarella_rodrigalvarez_2011]
-- [MANABE, 1989, High-speed contact performance of a catenary-pantograph system. An experimental study using a dynamically scaled model][research_manabe_1989]
 - [Mandal and Gu, 2016, Online Pilot Model Parameter Estimation Using Sub-Scale Aircraft Flight Data][research_mandal_gu_2016]
 - [Manfred and Ryno, 2008, Tightly coupled GPS/IRS navigation for ADS-B][research_manfred_ryno_2008]
 - [Mani, 2007, Integration of vision and inertial navigation system for landing of an unmanned aerial vehicle][research_mani_2007]
@@ -3853,8 +3618,6 @@ The next article returns to a vehicle designed to be shot down.
 - [MANNING and GLEASON, 1992, Flight test results using a low order equivalent systems technique to estimate flying qualities][research_manning_gleason_1992]
 - [MANNING and others, 1992, The Enhanced Flight Screener operational demonstration flight test program][research_manning_baum_1992]
 - [Manokaran and others, 2009, Wing Planform Design Optimization for Reusable Launch Vehicle][research_manokaran_vidya_2009]
-- [Mansharamani and others, 2009, DCPE Rollout Scaling Performance Engineering Training and Certification across a Very Large Enterprise][research_mansharamani_bag_2009]
-- [Mao and others, 2006, Assessment of vehicle roof crush test protocols using FE models inverted drop tests versus updated FMVSS No. 216][research_mao_chirwa_2006]
 - [Mao and others, 2018, Reentry attitude control for a reusable launch vehicle with aeroservoelastic model using type-2 adaptive fuzzy sliding mode control][research_mao_dou_2018]
 - [Mao and others, 2019, An Engineering Correction Method of Static Aeroelasticity and Reynolds Number Effect on Wind Tunnel Pressure Distribution][research_mao_xue_2019]
 - [Marantos and others, 2017, Vision-based Autonomous Landing Control for Unmanned Helicopters][research_marantos_karras_2017]
@@ -3887,7 +3650,6 @@ The next article returns to a vehicle designed to be shot down.
 - [MASAKI and YAKURA, 1968, Transitional boundary layer considerations for the heating analyses of lifting reentry vehicles][research_masaki_yakura_1968]
 - [Masilamani and others, 2018, Integrated Electrohydraulic Control Actuation System with Centralized Power Plant for the Reusable Launch Vehicle Technology Demonstrator][research_masilamani_kumar_2018]
 - [Mason and others, 2021, Design of a Manufacturing Demonstration Unit for a Composite Lunar Landing Gear Strut][research_mason_zahn_2021]
-- [Mastin and Jaillet, 2014, Average-Case Performance of Rollout Algorithms for Knapsack Problems][research_mastin_jaillet_2014]
 - [MASTROMATTEO and others, 2023, Durability of Surface Mounted PZT and FBG Guided Wave Sensors Under Reusable Launch Vehicle Representative Thermal Cycling][research_mastromatteo_gaverina_2023]
 - [Mastromatteo and others, 2026, Evaluation of a PZT/FBG guided wave system under cryogenic environment for reusable launch vehicle][research_mastromatteo_gaverina_2026]
 - [Mathavaraj and others, 2010, Robust Control of a Reusable Launch Vehicle in Reentry Phase Using Model Following Neuro-Adaptive Design][research_mathavaraj_halbe_2010]
@@ -3896,12 +3658,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Matranga and Armstrong, 1959, Approach and Landing Investigation at Lift-Drag Ratios of 2 to 4 Utilizing a Straight-Wing Fighter Airplane][research_matranga_1959b]
 - [Matranga and Menard, 1959, Approach and Landing Investigation at Lift-drag Ratios of 3 to 4 Utilizing a Delta-wing Interceptor Airplane][research_matranga_1959a]
 - [Matsuda and others, 2013, Numerical Study of Thermochemical Nonequilibrium Flow Around Reentry Capsule and Estimation of Aerodynamic Heating][research_matsuda_kihara_2013]
-- [Matsuda and others, 2026, An investigation of Reynolds Number effects on the steady and unsteady aerodynamic forces on a 1 10 scale bridge deck section model][research_matsuda_tokushige_2026]
 - [Matsumoto and others, 2015, IMU-DM Integrated Navigation and Terminal Reentry Guidance for Accurate Guided Reentry Flight][research_matsumoto_kondoh_2015]
 - [MATSUMOTO, 1994, Reynolds Number Effect on Stationary Aerodynamic Forces of 2-D elliptical cross section][research_matsumoto_1994]
 - [Matsunaga and others, 2017, Aerodynamic Heating Prediction of an Inflatable Reentry Vehicle in a Hypersonic Wind Tunnel][research_matsunaga_takahashi_2017]
-- [Matusiak and others, 2015, Energy management using the business model approach][research_matusiak_piotrowski_2015]
-- [Matveev and Sung, 2022, Hydrodynamics of Semi-Submersible Hull Model at Variable Submergences and Froude Numbers][research_matveev_sung_2022]
 - [Matveev, 2017, Strapdown inertial navigation system of a rotating carrier][research_matveev_2017]
 - [Maughmer and others, 2021, Low-Turbulence Wind Tunnel Results for a Low-Reynolds Number Airfoil][research_maughmer_axten_2021]
 - [Maurya and others, 2021, Wind Tunnel Test on a Slowed Mach-Scaled Hingeless Rotor with Lift Compounding][research_maurya_wang_2021]
@@ -3917,7 +3676,6 @@ The next article returns to a vehicle designed to be shot down.
 - [McCabe and DeMars, 2018, Robust, Terrain-Aided Landing Navigation Through Decentralized Fusion and Random Finite Sets][research_mccabe_demars_2018]
 - [McCabe and others, 2017, Comparison of Factorization-based Filtering for Landing Navigation][research_mccabe_brown_2017]
 - [McCafferty and others, 2014, Investigation of an Autonomous Landing Sensor for Unmanned Aerial Systems][research_mccafferty_woodward_2014]
-- [McClimans and Gjerp, 1978, Numerical Study of Distortion in a Froude Model][research_mcclimans_gjerp_1978]
 - [McClinton and others, 1998, Wind tunnel testing, flight scaling and flight validation with Hyper-X][research_mcclinton_voland_1998]
 - [McClure and Sirbaugh, 1991, Computation of Inlet Reference Plane Flow-Field for a Subscale Free-Jet Forebody/Inlet Model and Comparison to Experimental Data][research_mcclure_sirbaugh_1991]
 - [McClure, 1998, Decision criteria for a reusable launch vehicle investment decision][research_mcclure_1998]
@@ -3935,8 +3693,6 @@ The next article returns to a vehicle designed to be shot down.
 - [MCNALLY and others, 1992, Flight Test Evaluation of Precision-Code Differential GPS for Terminal Approach and Landing][research_mcnally_warner_1992]
 - [McNally and others, 2015, Concurrent Validity of New Subscale Scores for the Booklet Category Test][research_mcnally_dsurney_2015]
 - [McQuellin and Buttsworth, 2024, Free-Flight of a Propelled Axisymmetric Vehicle in a Hypersonic Ground-Test Facility][research_mcquellin_buttsworth_2024]
-- [McTavish and others, 2012, An Experimental Assessment of Blockage and Reynolds Number Effects on Wind Turbine Wake Development][research_mctavish_feszty_2012]
-- [McTavish and others, 2013, Evaluating Reynolds number effects in small-scale wind turbine experiments][research_mctavish_feszty_2013]
 - [McTigue and Layton, 1969, Lifting Body Flight Tests and Analysis][research_mctigue_layton_1969]
 - [McTigue and Ryan, 1968, Lifting-body Research Vehicles in a Low-speed Flight Test Program][research_mctigue_ryan_1968]
 - [Mead, 1998, The Lightcraft Technology Demonstrator LTD Program][research_mead_1998]
@@ -3997,10 +3753,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Mikhailov and Nedel'ko, 2012, Contemporary approach to the design-systematic and experimental provision of autorotation landing safety for a helicopter with skid type landing gear][research_mikhailov_nedelko_2012_b]
 - [Mikhailov and Nedel'ko, 2012, To an issue of rating the external loads on a helicopter with skid landing gear for landing loading condition][research_mikhailov_nedelko_2012]
 - [Miki and Fujii, 2018, Prediction of Jet Interaction Heating on a Reentry Capsule][research_miki_fujii_2018]
-- [Miklavčič and others, 2026, Froude number scaling unifies impact trajectories into cohesionless granular media across gravitational conditions][research_miklavcic_tokar_2026]
 - [Mikrin and others, 2020, Propellant Consumption-Optimized Lunar Landing Using Signals from Circumlunar Satellite Navigation][research_mikrin_orlovskii_2020]
 - [Mikula and others, 2000, X-37 Flight Demonstrator system safety program and challenges][research_mikula_holthaus_2000]
-- [Milani and others, 2021, The importance of equation η = μn 2 in dimensional analysis and scaled vehicle experiments in vehicle dynamics][research_milani_marzbani_2021]
 - [Miller and others, 2023, Arcjet Evaluation of Thermocouple Performance in Flexible Thermal Protection System Materials][research_miller_kazemba_2023_b]
 - [Miller and others, 2023, Electrical Shorting of Thermocouples in Flexible Thermal Protection System Materials][research_miller_kazemba_2023]
 - [MILLER, 1979, Decoupled longitudinal controls for shear penetration in the terminal area environment during approach and landing engine jet transport][research_millerjr_1979]
@@ -4011,14 +3765,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Minami and Tsukamoto, 2006, A Subscale Flight Experiment for the Approach and Landing of a Lifting Body Re-entry Vehicle][research_minami_tsukamoto_2006]
 - [Minghui and others, 2017, Research on integrated navigation of strap-down inertial navigation system and star sensor][research_minghui_qiuying_2017]
 - [Minisci and Vasile, 2013, Robust Design of a Reentry Unmanned Space Vehicle by Multifidelity Evolution Control][research_minisci_vasile_2013]
-- [Minixhofer and others, 2025, Scaling Laws for Synthetic Speech for Model Training][research_minixhofer_klejch_2025]
 - [Minnema and others, 2019, Using Bond Graphs for Modelling,Identification and Control of a Fixed Wing UAV for Subscale Flight Testing][research_minnema_mayersoares_2019]
 - [Minwen and Dayi, 2014, Guidance law for low-lift skip reentry subject to control saturation based on nonlinear predictive control][research_minwen_dayi_2014]
 - [Miotto and LePome, 2003, Design of a Model Predictive Control Flight Control System for a Reusable Launch Vehicle][research_miotto_lepome_2003]
 - [Miotto and Paduano, 1995, Application of real structured singular values to flight control law validation issues][research_miotto_paduano_1995]
 - [Miotto and Paduano, 1996, Application of real structured singular values to flight control law validation][research_miotto_paduano_1996]
-- [Mishra and Mantri, 1987, Moment of inertia in the interacting boson model][research_mishra_mantri_1987]
-- [Mishra and Mantri, 1988, Variable moment of inertia in the interacting boson model][research_mishra_mantri_1988]
 - [Mishra and others, 2022, Wind tunnel study is turbulent intensity a good candidate to help in bypassing low Reynolds number effects on 2d blade sections?][research_mishra_neunaber_2022]
 - [Misra and Bai, 2019, Output-Feedback Stochastic Model Predictive Control for Glideslope Tracking During Aircraft Carrier Landing][research_misra_bai_2019]
 - [Misra and others, 2022, Effectiveness of a Flight Simulation Training Visual Aid for Normal and Crosswind Approach and Landing][research_misra_fraticellirivera_2022]
@@ -4037,18 +3788,13 @@ The next article returns to a vehicle designed to be shot down.
 - [Mohaghegh, 2025, DNN-Based Surrogate Modelling-Based Aircraft Performance Take Off and Landing Distance][research_mohaghegh_2025]
 - [Mohamed and Mamatas, 2012, Fundamentals of GNSS-Aided Inertial Navigation][research_mohamed_mamatas_2012]
 - [Mohamed and others, 2022, Modeling, Simulation and Attitude Control of An Aerial Gliding Vehicle][research_mohamed_safwat_2022]
-- [Mohammadi and others, 2020, Review of Laboratory Scale Models of Karst Aquifers Approaches, Similitude, and Requirements][research_mohammadi_illman_2020]
 - [Mohammadkarimi and Nobahari, 2018, A Model Aided Inertial Navigation System for Automatic Landing of Unmanned Aerial Vehicles][research_mohammadkarimi_nobahari_2018]
 - [Mohan and others, 2025, LIDAR based site assessment for rendezvous, docking and landing applications of autonomous space vehicle][research_mohan_s_2025]
 - [Moiseev and Poluboyarinov, 2011, Multicriteria choice of a carrier aircraft and main design parameters of an air launcher decoy][research_moiseev_poluboyarinov_2011]
-- [Mokin and others, 2020, Model Ing of the Crane Electric Drive Control System Opertation Modes, Taking into Account Time Changes at the Moment of Inertia of the Rotating Masses Eng][research_mokin_mokin_2020]
 - [Mokrane and others, 2022, Guidance, Navigation and Control for Autonomous Quadrotor Flight in an Agricultural Field The Case of Vineyards][research_mokrane_benallegue_2022]
 - [MOKRY, 1974, Integral equation method for calculation of subsonic flow past airfoils in a ventilated wind tunnel - Comparison with NAE high Reynolds number measurements][research_mokry_1974]
 - [Molchanova and others, 2016, Effect of surface catalycity on high-altitude aerothermodynamics of reentry vehicles][research_molchanova_kashkovsky_2016]
 - [Molina and others, 1996, Pre-flight aerothermodynamic analysis of the Atmospheric Reentry Demonstrator][research_molina_simeonides_1996]
-- [Molnar and others, 2007, Guidance, navigation and control system for the Tethra unmanned underwater vehicle][research_molnar_omerdic_2007]
-- [Monaco and others, 2018, Doppler Velocity Log Placement Effects on Autonomous Underwater Vehicle Navigation Accuracy][research_monaco_brennan_2018]
-- [Monjurul Hasan and Trianni, 2020, Energy Management Sustainable Approach Towards Industry 4.0][research_monjurulhasan_trianni_2020]
 - [Monteil, 2024, A1.4 - H175 De-icing Flight Test Campaign - Focus on Flight Test Instrumentation][research_monteil_2024]
 - [Montella and others, 2024, Experimental Analysis of a Space Re-Entry Vehicle at Landing Conditions][research_montella_vio_2024]
 - [Montenbruck and others, 2012, Precision spacecraft navigation using a low-cost GPS receiver][research_montenbruck_swatschina_2012]
@@ -4098,7 +3844,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Mu and Zhang, 2014, Control Allocation Design of Reaction Control System for Reusable Launch Vehicle][research_mu_zhang_2014]
 - [Mu and Zhao, 2019, A GNSS/INS-integrated system for an arbitrarily mounted land vehicle navigation device][research_mu_zhao_2019]
 - [Mueller and others, 2012, Probe capture for quantitative flow visualization in large scale wind tunnels][research_mueller_landolt_2012]
-- [Muhammad Arif Budiyanto and others, 2021, Lift-to-Drag Ratio of the Application of Hydrofoil With Variation Mounted Position on High-Speed Patrol Vessel][research_muhammadarifbudiyanto_naufalyudhaprawira_2021]
 - [Muhammad Hadi Widanto and others, 2025, Design Drop Weight Impact Testing for Landing Gear UAV LSU LAPAN Surveillance UAV Series][research_muhammadhadiwidanto_rizkifitriansyah_2025]
 - [MUHLSTEIN and others, 1974, Experimental evaluation of an injector system for powering a high Reynolds number transonic wind tunnel][research_muhlsteinjr_petroff_1974]
 - [MUKHOPADHYAY, 1969, Effect of trajectory, guidance, and environmental parameters and uncertainties on the design optimization of a planetary landing vehicle][research_mukhopadhyay_1969]
@@ -4107,11 +3852,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Mullenix and Povitsky, 2016, Hypersonic Ablation of Graphite Thermal Protection Systems with Surface Defects][research_mullenix_povitsky_2016]
 - [Mumm and Holzapfel, 2017, Vertical speed command performance improvement of a load factor command based autopilot for automatic landing by shaping the desired command during flare][research_mumm_holzapfel_2017]
 - [Munguía, 2014, A GPS-aided inertial navigation system in direct configuration][research_munguia_2014]
-- [Munsamy and Telukdarie, 2020, Healthcare Energy Management A Digital Approach][research_munsamy_telukdarie_2020]
 - [MUNUSAMY and others, 2022, Guidance of Terminal Area Energy Management Trajectories for Re-entry Vehicles][research_munusamy_stephen_2022]
 - [Munzing and Catris, 2015, 2D Ice Shape Scaling for Helicopter Blade Profiles in Icing Wind Tunnel][research_munzing_catris_2015]
 - [Muradyan and others, 2010, GPS/INS navigation precision and its effect on airborne radio occultation retrieval accuracy][research_muradyan_haase_2010]
-- [Murakami and Iida, 2002, Scaling laws for hydrodynamically similar implosions with heat conduction][research_murakami_iida_2002]
 - [Murakami and others, 2008, Flight Test Verification of the Guidance and Navigation Systems Design for an Unmanned Scaled Supersonic Experimental Airplane NEXST-1][research_murakami_kwak_2008]
 - [Murali and others, 2024, Flight Validation of a Global Singularity-Free Aerodynamic Model for Flight Control of Tail Sitters][research_murali_moreno_2024]
 - [Murch and others, 2009, Software Considerations for Subscale Flight Testing of Experimental Control Laws][research_murch_cox_2009]
@@ -4119,7 +3862,6 @@ The next article returns to a vehicle designed to be shot down.
 - [MURPHY, 1956, The Measurement of Non-linear Forces and Moments by Means of Free Flight Tests][research_murphy_1956]
 - [Murray-Smith, 1995, Case Study II An Aircraft Automatic Landing System][research_murraysmith_1995]
 - [Musal and others, 1964, Millimeter Radar Instrumentation for Studying Plasma Effects Associated with Hypersonic Flight][research_musal_hm_1964]
-- [Mustafa and others, 2016, Form- and grain-roughness components of Shields-parameter similitude for an HSR model][research_mustafa_cox_2016]
 - [Mwenegoha and others, 2019, Model-Based Autonomous Navigation with Moment of Inertia Estimation for Unmanned Aerial Vehicles][research_mwenegoha_moore_2019]
 - [Möhlenbrink, 1989, Realtime Surveying in Close Range Area with Inertial Navigation Systems and Optical Target Tracking Techniques][research_mohlenbrink_1989]
 - [Nabi and Najafi, 2024, Optimization of a Hybrid Thermal Protection System for Space Vehicles][research_nabi_najafi_2024]
@@ -4128,8 +3870,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Nagai, 2013, Characteristics of Low-Reynolds Number Airfoils in a Mars Wind Tunnel][research_nagai_2013]
 - [Nagarani and others, 2020, Unmanned Aerial vehicle's runway landing system with efficient target detection by using morphological fusion for military surveillance system][research_nagarani_venkatakrishnan_2020]
 - [Nagarjuna and Suresh, 2015, Design of effective landing mechanism for fully autonomous Unmanned Aerial Vehicle][research_nagarjuna_suresh_2015]
-- [Nagata and others, 2012, A multi-agent approach to smart grid energy management][research_nagata_ueda_2012]
-- [Nagayoshi and others, 2021, Full-scale model test on deformation of reinforced steep slopes][research_nagayoshi_tayama_2021]
 - [Najam, 2014, Basic PARTS of the Suborbital Reusable Launch Vehicle Research Market "Game"][research_najam_2014]
 - [Najson and Mease, 2005, A Computationally Non-Expensive Guidance Algorithm for Fuel Efficient Soft Landing][research_najson_mease_2005]
 - [NAKA and HASHIMOTO, 2015, WeB-4-4 Aerodynamic Characteristics of Flexible Wing for Micro Air Vehicle in Gliding and Flapping Flight][research_naka_hashimoto_2015]
@@ -4139,10 +3879,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Nance, 2013, Preliminary Study of Turbulence for a Lobed Body in Hypersonic Flight][research_nance_2013]
 - [Nanda and others, 2025, Modelling and optimisation of structural parameters of main landing gear during touchdown and taxing][research_nanda_gopalakrishna_2025]
 - [Narvesen and Selekwa, 2014, Reduction of GPS Noise for Precision Control of Robot Navigation in Confined Areas][research_narvesen_selekwa_2014]
-- [Nasri and others, 2014, Manipulation of a Stand-alone renewable energy system based on Energy Management approach][research_nasri_benslama_2014]
 - [NASTASI and others, 1983, Carrier landing simulation results of precision flight path controllers in manual and automatic approach][research_nastasi_martorella_1983]
 - [Nathan, 2007, Modeling of Ablation of Carbon-Carbon Composite Thermal Protection System][research_nathan_2007]
-- [Naufal and others, 2023, A review of drop test and quasi-static method test of lithium-ion battery for electric vehicle][research_naufal_ubaidillah_2023]
 - [Nazar and others, 2020, Control Effectiveness of Wing with Elevon of a Typical Reusable Launch Vehicle][research_nazar_gandhi_2020]
 - [Nazir and others, 2018, Vision Based Autonomous Runway Identification and Position Estimation for UAV Landing][research_nazir_aziz_2018]
 - [Neal, 1970, Correlation of Small-Scale and Full-Scale Wind Tunnel Data with Flight Test Data on the Lear Jet Model 23][research_neal_1970]
@@ -4157,7 +3895,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Neriya Hegade and others, 2020, Design and study of mini wind tunnel for microsystems fluid interaction under low Reynolds number flows][research_neriyahegade_natalia_2020]
 - [Neumaier and others, 2022, Automated Piping in an Airbus A320 Landing Gear Bay Using Graph-Based Design Languages][research_neumaier_kranemann_2022]
 - [Neumannn and others, 2016, 3.1 - An Adaptable Constraints-based Metadata Description Language MDL System for Flight Test Instrumentation Configuration][research_neumannn_moore_2016]
-- [Neunaber and others, 2022, Wind tunnel study on natural instability of the normal force on a full-scale wind turbine blade section at Reynolds number 4.7 · 10 6][research_neunaber_danbon_2022]
 - [Neusypin and others, 2023, Investigation into the nonlinear Kalman filter to correct the INS/GNSS integrated navigation system][research_neusypin_kupriyanov_2023]
 - [Newman and Bailey, 1987, Improvement of Head-Up Display Standards. Volume 5. Head Up Display ILS Instrument Landing System Accuracy Flight Tests][research_newman_bailey_1987]
 - [NEWMAN and others, 1992, On the aerodynamics/dynamics of store separation from hypersonic aircraft][research_newman_fulcher_1992]
@@ -4167,8 +3904,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Nguyen and Jacklin, 2010, Stability, Convergence, and Verification and Validation Challenges of Neural Net Adaptive Flight Control][research_nguyen_jacklin_2010]
 - [Nguyen and others, 2018, Post-Mission Autonomous Return and Precision Landing of UAV][research_nguyen_cao_2018]
 - [Nguyen and others, 2020, Effect of an In-flight Vertical Accelerometer Calibration on Landing Accuracy After Baro-inertial System Failure][research_nguyen_kostiukov_2020]
-- [Nguyen and others, 2025, Shake Table Model Design of Container Crane Using Similitude Law][research_nguyen_duong_2025]
-- [Nguyễn and Trovão, 2022, Optimal Energy Management of Electric Vehicles Supplied by Battery and Supercapacitors A Multi-Objective Approach][research_nguyen_trovao_2022]
 - [Nho and Agarwal, 1998, Automatic landing system design using fuzzy logic][research_nho_agarwal_1998]
 - [Nho and Agarwal, 2000, Automatic Landing System Design Using Fuzzy Logic][research_nho_agarwal_2000]
 - [Ni and others, 2012, Analysis of Reynolds number scaling for viscous vortex reconnection][research_ni_hussain_2012]
@@ -4180,7 +3915,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Nielson and others, 1986, GPS Aided Inertial Navigation][research_nielson_swearingen_1986]
 - [NIEMELA, 1982, The Integrated Inertial Navigation System AN/ASN-132][research_niemela_1982]
 - [Niewald and Parker, 1999, Flight test techniques employed to successfully verify F/A-18E in-flight lift and drag][research_niewald_parker_1999]
-- [Nik Hashim, 2013, Sequential-Simultaneous International Rollout Strategies and Product Performance A Framework for Analysis][research_nikhashim_2013]
 - [Nill and Reinhardt, 1970, Ähnlichkeitsgesetze und Modellwerkstoffe für die spannungsoptische Uhntersuchung von Wärmespannungsproblemen / Similarity laws and model materials for photoelastic investigations of thermal stresses / Lois de similitude et materiaux de modele pour recherche photoelastique de problemes de contraintes thermiques][research_nill_reinhardt_1970]
 - [NING and others, 2007, Integrated Entry Guidance for Reusable Launch Vehicle][research_ning_zhang_2007]
 - [Ninomiya and others, 2005, Evaluation of Guidance and Control System of High Speed Flight Demonstrator Phase II][research_ninomiya_suzuki_2005]
@@ -4192,13 +3926,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Niu and others, 2025, KF-GINS an open-sourced software for GNSS/INS integrated navigation][research_niu_wang_2025]
 - [Nizin and others, 2016, Power system design concepts of a reusable launch vehicle-technology demonstrator RLV-TD][research_nizin_antony_2016]
 - [Nobahari and Mohammadkarimi, 2017, Accuracy Analysis of an Integrated Inertial Navigation System in Slow Maneuvers][research_nobahari_mohammadkarimi_2017]
-- [NODA and others, 2025, Inexpensive Educational Material of 1 DOF Gliding Locomotion Vehicle][research_noda_yanagida_2025]
 - [Nogar, 2020, Autonomous Landing of a UAV on a Moving Ground Vehicle in a GPS Denied Environment][research_nogar_2020]
 - [Noh and others, 2024, A Review on Maintenance Repair, Refurbish, and Overhaul for Reusable Launch Vehicle Management Process Toward Its Development][research_noh_sharif_2024]
 - [Nomura and others, 2022, Developments of Free-Flight Testing Facility for Aerodynamic Assessment of Martian Entry Capsule][research_nomura_itabashi_2022]
 - [Nonami and others, 2010, Autonomous Indoor Flight and Precise Automated-Landing Using Infrared and Ultrasonic Sensors][research_nonami_kendoul_2010]
 - [Nonami and others, 2010, Guidance and Navigation Systems for Small Aerial Robots][research_nonami_kendoul_2010_b]
-- [Nordin and others, 2009, Parallel Guided Dynamic Programming Approach for DNA Sequence Similarity Search][research_nordin_yazid_2009]
 - [NORDLUND, 1985, Space Shuttle Main Engine nozzle thermal protection system][research_nordlund_1985]
 - [Norris, 2004, The Australian Ska New Technology Demonstrator Program][research_norris_2004]
 - [Norris, 2005, The Australian SKA New Technology Demonstrator Program][research_norris_2005]
@@ -4213,7 +3945,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Nurse and others, 1978, A New Baseline for the Inertial Navigation Strapdown Simulator Program. Volume 4. Program Listings][research_nurse_prohaska_1978]
 - [Nutt and Martindale, 1976, Heat-Transfer Tests of a 0.0175-Scale Model of the Space Shuttle at Mach Numbers 2.5, 3.5, 4.5, and 5.5][research_nutt_martindale_1976]
 - [O`Callaghan, 2016, Slippery When Wet The Case for More Conservative Wet Runway Braking Coefficient Models][research_ocallaghan_2016]
-- [Obeid and others, 2024, Effects of Reynolds Number, Mudflap Configuration and Loading Shape on the Wake of an Earthmoving Dump Truck A Wind Tunnel Study][research_obeid_durangarcia_2024]
 - [Obermann and Williamson, 1998, Implications of previous space commercialization experiences for the reusable launch vehicle][research_obermann_williamson_1998]
 - [Obermann and Williamson, 2003, Implications of previous space commercialization experiences for the reusable launch vehicle][research_obermann_williamson_2003]
 - [Obermark, 2004, Verification of Simulation Results Using Scale Model Flight Test Trajectories][research_obermark_2004]
@@ -4226,12 +3957,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Ohashi and others, 2019, Parametric Study for Optimization of Blowing and Suction Locations for Improving Lift-to-Drag Ratio on a Clark-Y Airfoil][research_ohashi_morita_2019]
 - [OHASHI and others, 2020, Parametric study toward optimization of blowing and suction locations for improving lift-to-drag ratio on a Clark-Y airfoil][research_ohashi_morita_2020]
 - [Ohashi and others, 2021, Adjoint-Based Sensitivity Analysis for Airfoil Flow Control Aiming at Lift-to-Drag Ratio Improvement][research_ohashi_fukagata_2021]
-- [Ohba and others, 2004, Local Dynamic Similarity Model of Cross-Ventilation Part 2 - Application of Local Dynamic Similarity Model][research_ohba_kurabuchi_2004]
 - [Ohe and others, 2014, Study on Hybrid Rocket with Multi-Section Swirl Injection Method toward Flight Experiments of Subscale Space Plane][research_ohe_oyama_2014]
 - [OHKAMI and others, 1991, Space activities in the 21st century - Expectation for spaceplane][research_ohkami_yamanaka_1991]
 - [Ohno and others, 1998, Robust Flight Control Law Design for Automatic Landing Flight Experiment][research_ohno_yamaguchi_1998]
 - [Ohno and others, 1999, Robust flight control law design for an automatic landing flight experiment][research_ohno_yamaguchi_1999]
-- [Ohtsu and others, 2009, Similitude and scale effects of air entrainment in hydraulic jumps][research_ohtsu_yasuda_2009]
 - [OHYA and KATO, 1985, Optimum reentry trajectory calculations for winged vehicle][research_ohya_kato_1985]
 - [Okada, 1994, Flight Path Control for the Approach and Landing of the Quiet STOL Experimental Aircraft ASKA][research_okada_1994]
 - [Okafor and others, 2018, Assessment of runway excursion causal factors and mitigation strategies][research_okafor_jemitola_2018]
@@ -4242,7 +3971,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Olds and Bellini, 1998, Argus, a highly reusable SSTO rocket-based combined cycle launch vehicle with Maglifter launch assist][research_olds_bellini_1998]
 - [Olds and others, 1999, Hyperion - An SSTO vision vehicle concept utilizing rocket-based combined cycle propulsion][research_olds_bradford_1999]
 - [Olds, 1998, Simulated Inertial GPS Navigation Laboratory SIGNaL][research_olds_1998]
-- [Oleinikova and others, 2019, Energy Management Modelling Under Real-time Approach][research_oleinikova_mutule_2019]
 - [Olejnik and others, 2019, The concept and methodical assumptions for the development of dynamically scaled aircraft model passenger aircraft][research_olejnik_kachel_2019]
 - [Olejnik and others, 2020, Conception of developing the dynamically similar downscaled medium-range passenger airplane model for in-flight testing][research_olejnik_kachel_2020]
 - [Olivares-Mendez and others, 2013, Autonomous Landing of an Unmanned Aerial Vehicle using Image-Based Fuzzy Control][research_olivaresmendez_mondragon_2013]
@@ -4251,11 +3979,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Olynick and Henline, 1996, Navier-Stokes heating calculations for benchmark thermal protection system sizing][research_olynick_henline_1996]
 - [Olynick, 1996, Importance of 3-D grid resolution and structure for calculating reentry heating environments][research_olynick_1996]
 - [Olynick, 1998, Trajectory-Based Thermal Protection System Sizing for an X-33 Winged Vehicle Concept][research_olynick_1998]
-- [Omar and El-Shatshat, 2025, Energy Management of Net-Zero Multi-energy Microgrids An Interior-Point Safe Deep Reinforcement Learning Approach][research_omar_elshatshat_2025]
 - [Oren and Kocyigit, 2016, Landing sequencing modelling with fuzzy logic Opportunistic approach for unmanned aerial systems][research_oren_kocyigit_2016]
 - [Ortloff, 1968, Low Density Transitional Regime Drag Coefficients for Slender Cold Wall Conical Vehicles in Hypersonic Flow][research_ortloff_1968]
 - [Osder, 1970, Terminal control and automatic landing of unpowered space shuttle vehicles][research_osder_1970]
-- [OTOKODANI and others, 2020, Identification Method of Moment of Inertia for Dynamic Modelling of Differential Planetary Gear Train][research_otokodani_hamada_2020]
 - [Otsu and others, 1998, Radiative heating analysis around the MUSES-C reentry capsule at a superorbital speed][research_otsu_suzuki_1998]
 - [Otsu and others, 2001, Effect of models for transport properties on the hypersonic reentry heating environment][research_otsu_kanai_2001]
 - [Otsu and others, 2004, Reentry Heating Mitigation by Utilizing the Hall Effect][research_otsu_matsushita_2004]
@@ -4272,7 +3998,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Ouellette and others, 2014, Flight Testing of a Subscale Aeroservoelastic Aircraft][research_ouellette_patil_2014]
 - [Ouyang and Wu, 2021, Inertial Navigation by the Trident Quaternion][research_ouyang_wu_2021]
 - [Owens and others, 2006, Development of a Low-Cost Sub-Scale Aircraft for Flight Research The FASER Project][research_owens_cox_2006]
-- [Owens, 2002, United States Air Force Company Grade Officer PME and Leader Development Establishing a Glide Path for Future Success][research_owens_2002]
 - [Owens, 2020, Orbital Maneuvering Vehicle for Smallsat Deployment and Development of Versatile Simulation Model for Rapid Mission Analyses][research_owens_2020]
 - [Oza and others, 2015, Effect of Cavity Flow on Landing Gear Aerodynamic Loads][research_oza_hu_2015]
 - [P V and Thomas, 2017, Orbit Injection Error Mitigation by Time-Differenced GPS Carrier Phase Observables-Aided Inertial Navigation][research_pv_thomas_2017]
@@ -4284,15 +4009,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Packard and others, 2009, Development of Analysis Tools for Certification of Flight Control Laws][research_packard_seiler_2009]
 - [Padhi and Chawla, 2016, Partially Integrated Guidance and Control of Unmanned Aerial Vehicles for Reactive Obstacle Avoidance][research_padhi_chawla_2016]
 - [Padmanabhan and Dowell, 2015, Landing Gear Design/Maintenance Analysis for Nonlinear Shimmy][research_padmanabhan_dowell_2015]
-- [Pai and others, 2021, Adaptive model predictive stabilization of an electric cargo bike using a cargo load moment of inertia estimator][research_pai_neuberger_2021]
-- [Pajchrowski, 2014, The direct drive with variable moment of inertia in the structure of the reference model][research_pajchrowski_2014]
 - [Palaninathan and Bindu, 2005, Modeling of Mechanical Ablation in Thermal Protection Systems][research_palaninathan_bindu_2005]
 - [Paletta and others, 2013, An Automatic Procedure for the Landing Gear Conceptual Design of a Light Unmanned Aircraft][research_paletta_belardo_2013]
 - [Paletta and others, 2015, Landing Gear Concept and Dynamic Landing Loads of the Unmanned Space Re-entry Vehicle USV3][research_paletta_dmytriv_2015]
 - [PALLISTER and others, 1992, Comparison of recent results from different wind tunnel facilities along with comparisons of measured flight results and wind tunnel based predictions][research_pallister_parker_1992]
 - [Palmer and others, 1997, High-Fidelity Thermal Protection System Sizing of Reusable Launch Vehicle][research_palmer_henline_1997]
 - [Palmer and others, 2009, Computational Assessment of Thermal Protection System Damage Experienced During STS-118][research_palmer_pulsonetti_2009]
-- [Palmer, 1989, Precise Navigation, Guidance and Control Services within the Agricultural Community][research_palmer_1989]
 - [Palomino, 2022, 2.4 From Automotive to Flight Test Instrumentation Wiring Reduction Using New Ethernet Standard][research_palomino_2022]
 - [Palumbo and others, 2012, Concept Study of an Atmospheric Reentry Using a Winged Unmanned Space Vehicle][research_palumbo_morani_2012]
 - [Pan and Liu, 2014, Research of Trajectory Planning of a High-Altitude Long-Range Gliding Unmanned Underwater Vehicle][research_pan_liu_2014]
@@ -4304,12 +4026,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Paquita and others, 2024, Runway End Safety Area Overrun and Undershot Safety Risk Analysis][research_paquita_persadanta_2024]
 - [Paraforos and others, 2015, Fused inertial measurement unit and real time kinematic-global navigation satellite system data assessment based on robotic total station information for in-field dynamic positioning][research_paraforos_griepentrog_2015]
 - [Paranjape, 2023, Guidance and Control for Steady Deep Stall Landing of Aircraft with Wing Articulation and Lifting Surfaces in Propeller Flow][research_paranjape_2023]
-- [Parisot and Vila, 2014, Numerical scheme for multilayer shallow-water model in the low-Froude number regime][research_parisot_vila_2014]
-- [Park and others, 2011, Optimization of Ski Jumper's Posture Considering Lift-to-Drag Ratio and Aerodynamic Stability in Pitch][research_park_lee_2011]
 - [Park and others, 2012, Designing similarity measurement with distance measure and application on laterally directional mode flight test][research_park_lee_2012]
 - [Park and others, 2015, A vision based landing spot searching for unmanned aerial vehicle using satellite image][research_park_kim_2015]
 - [Park and others, 2019, Robust Crater Triangle Matching Algorithm for Planetary Landing Navigation][research_park_jung_2019]
-- [Park and others, 2025, A new similitude law for testing scaled RC structures][research_park_lee_2025]
 - [Park and others, 2025, Simulation and Flight Test of a UAM Scaled Model Using a CNN-based Modular Precision Landing System][research_park_yang_2025]
 - [Park and Park, 2017, Reentry trajectory and survivability estimation of small space debris with catalytic recombination][research_park_park_2017]
 - [Park and Rokhsaz, 2003, Effects of a Winglet Rudder on Lift-to-Drag Ratio and Wake Vortex Frequency][research_park_rokhsaz_2003]
@@ -4375,10 +4094,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Pinchin and others, 2012, The use of high sensitivity GPS for initialisation of a foot mounted inertial navigation system][research_pinchin_hide_2012]
 - [PINES and HUESCHEN, 1978, Guidance and navigation for automatic landing, rollout, and turnoff using MLS and magnetic cable sensors][research_pines_hueschen_1978]
 - [Pingyuan and Tianlai, 2007, Data Fusion Algorithm for INS/GPS/Odometer Integrated Navigation System][research_pingyuan_tianlai_2007]
-- [Pinto and others, 2026, A mixed-integer linear programming approach for optimising residential energy management with multiple sustainable energy resources][research_pinto_osorio_2026]
 - [Pipenberg and others, 2019, Design and Fabrication of the Mars Helicopter Rotor, Airframe, and Landing Gear Systems][research_pipenberg_keennon_2019]
-- [Piqué and others, 2025, Understanding the effects of rotation on the wake of a wind turbine at high Reynolds number][research_pique_miller_2025]
-- [Pires and others, 2016, Analysis of high Reynolds numbers effects on a wind turbine airfoil using 2D wind tunnel test data][research_pires_munduate_2016]
 - [Pirooz and others, 2021, Robust force and displacement control of an active landing gear for vibration reduction at touchdown and during taxiing][research_pirooz_mirmahdi_2021]
 - [Pittman and Dillon, 1977, Vortex lattice prediction of subsonic aerodynamics of hypersonic vehicle concepts][research_pittman_dillon_1977]
 - [PITTS and KOURTIDES, 1989, Ceramic insulation/multifoil composite for thermal protection of reentry spacecraft][research_pitts_kourtides_1989]
@@ -4414,14 +4130,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Prahl, 1968, A Resumé of the F-111 Flight Test Programme][research_prahl_1968]
 - [Prakash and Zhong, 2008, Numerical Simulation of Planetary Reentry Aeroheating Over Blunt Bodies with Non-equilibrium Reacting Flow][research_prakash_zhong_2008]
 - [Prakash and Zhong, 2009, Numerical Simulation of Planetary Reentry Aeroheating Over Blunt Bodies with Non-Equilibrium Reacting Flow and Surface Reactions][research_prakash_zhong_2009]
-- [Prakash, 1973, A Correction to the Governor Model Moment of Inertia][research_prakash_1973]
 - [Prasad and others, 2018, Model Predictive Path Integral Approach for Trajectory Guidance of Rotorcraft Shipboard Landing][research_prasad_comandur_2018]
 - [PRASAD, 2022, Computational Fluid Dynamics analysis on the Reusable Launch Vehicle][research_prasad_2022]
 - [Pravitra and Johnson, 2024, Development and Flight Testing of Guidance, Navigation, Control, and Operator Interface for Shipboard Helicopter Operations][research_pravitra_johnson_2024]
 - [Predachenko and Lemko, 2017, Lift-to-drag ratio losses due to longitudinal trimming in joined wing configuration at cruise flight mode][research_predachenko_lemko_2017]
 - [Predachenko and Lemko, 2019, The Elevator Parameters Study of Joined Wing Configuration in Term of Lift-to-drag Ratio Losses Due to Trimming][research_predachenko_lemko_2019]
 - [PREISSER and CHESTNUTT, 1983, Flight effects on fan noise with static and wind tunnel comparisons][research_preisser_chestnutt_1983]
-- [Premoli and others, 2015, Ballast flight under high-speed trains Wind tunnel full-scale experimental tests][research_premoli_rocchi_2015]
 - [Price, 1970, Adaptive Control and Guidance for Tactical Missiles. Volume 2 Parts 3 and 4. Adaptive Control Applications and Guidance][research_price_1970]
 - [Pritchard, 1969, Base drag effects on maximum lift-to-drag ratio airfoils at moderate supersonic speeds][research_pritchard_1969]
 - [Pritchard, 2001, Overview of Landing Gear Dynamics][research_pritchard_2001]
@@ -4457,22 +4171,17 @@ The next article returns to a vehicle designed to be shot down.
 - [Qiu and others, 2019, Numerical Simulation of the Effect on External Store Separation in Helicopter Flow Field][research_qiu_sang_2019]
 - [Qiuying and others, 2018, Integrated navigation method using marine inertial navigation system and star sensor based on model predictive filtering][research_qiuying_minghui_2018]
 - [Qu and others, 2023, Adaptive Fixed-Time Attitude Tracking Control in Reentry Phase for Reusable Launch Vehicle][research_qu_zhang_2023]
-- [Quan and others, 2026, Numerical investigation of Reynolds number effects on scaled wind turbine rotors][research_quan_su_2026]
 - [QUAST and others, 1990, Natural laminar flow - A wind tunnel test campaign and comparison with flight test data][research_quast_henke_1990]
 - [R and others, 2022, Design and Analysis of Medium Utility Aircraft Landing Gear][research_r_sridhar_2022]
 - [R and others, 2025, Thermal Protection System Architecture and Developmental Challenges for Human Space Flight Mission - A Perspective][research_r_ss_2025]
 - [RABINSKIY and TUSHAVINA, 2019, Investigation of the Influence of Thermal and Climate Effects on the Performance of Tiled Thermal Protection of Spacecraft][research_rabinskiy_tushavina_2019]
 - [Radforth, 1987, Military Flight Checking of Navigation and Landing Aids][research_radforth_1987]
-- [Radha and others, 2023, Energy Management based on K-Nearest Neighbour Approach in Residential Application][research_radha_priya_2023]
 - [Radhakrishnan and others, 2023, 6D trajectory, guidance and control development for air-breathing phase of reusable launch vehicle][research_radhakrishnan_hari_2023]
 - [Radhakrishnan and others, 2024, Adaptive integrated guidance and control for air-breathing phase of reusable launch vehicle][research_radhakrishnan_hari_2024]
 - [Rafatnia and others, 2019, Fuzzy-adaptive constrained data fusion algorithm for indirect centralized integrated SINS/GNSS navigation system][research_rafatnia_nourmohammadi_2019]
 - [Ragheb and others, 2013, Stall/Spin Mitigation Flight Testing with a Subscale Aerobatic Aircraft][research_ragheb_dantsker_2013]
-- [Raichlen, 2008, The effects of gravity on human walking a new test of the dynamic similarity hypothesis using a predictive model][research_raichlen_2008]
 - [Raja, 2011, Vision based landing for unmanned aerial vehicle][research_raja_2011]
-- [Rajagopalan and Cheng, 1996, A predictor-corrector guidance control scheme for AGV navigation][research_rajagopalan_cheng_1996]
 - [RAJAGOPALAN, 1989, Three dimensional analysis of a rotor in forward flight][research_rajagopalan_1989]
-- [Rajagopalan, 2015, A multi-objective optimization approach for efficient energy management in smart grids][research_rajagopalan_2015]
 - [Rajawana and Smithmaitrie, 2020, Mathematical Modeling and Validation of the Aerial Robot Control System with the Pixhawk Flight Controller][research_rajawana_smithmaitrie_2020]
 - [Rajesh Yadav and others, 2016, Aerothermodynamics of a Blunt Airfoil with a Flow-Through Duct for Hypersonic Flight][research_rajeshyadav_mohammadfaisal_2016]
 - [Raju Kulkarni and others, 2019, Assessment of Sub-scale Designs for Scaled Flight Testing][research_rajukulkarni_varriale_2019]
@@ -4515,7 +4224,6 @@ The next article returns to a vehicle designed to be shot down.
 - [REN and others, 2011, Fault Detection Method Based on Varying-Length Scanning Model and Its Application to the Integrated GPS/INS Navigation System][research_ren_cai_2011]
 - [Ren and others, 2017, Discrete reconfigurable back-stepping attitude control of reentry hypersonic flight vehicle][research_ren_fu_2017]
 - [Ren and others, 2018, Design and Analysis of Terrain-adaptive Bionic Landing Gear System][research_ren_wang_2018]
-- [Ren and others, 2020, Coordinative similitude method considering overturning effect for scale model testing of structures with rubber bearings][research_ren_lu_2020]
 - [Ren and others, 2020, Design of an Ultra-Tightly Coupled Integrated INS/GPS Navigation System Based on UPF][research_ren_zi_2020]
 - [Ren and others, 2023, Helicopter Bionic Landing Gear Design and Verification Technology Based on Multi-link Structure][research_ren_wang_2023]
 - [Ren and others, 2025, Computational Fluid Dynamics Investigation of Aerodynamic Characteristics of Landing Phase of Reusable Launch Vehicle][research_ren_wang_2025]
@@ -4523,7 +4231,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Rey, 2000, Deriving an acceptable level of reusable launch vehicle flightworthiness][research_rey_2000]
 - [Reyhanoglu and Alvarado, 2013, Estimation of debris dispersion due to a space vehicle breakup during reentry][research_reyhanoglu_alvarado_2013]
 - [Reynerson, 2006, Reentry Envelope Determination Part II Structural Failure Due To Atmospheric Heating][research_reynerson_2006]
-- [Reynierse and others, 1969, Gerbil runway performance under hunger motivation][research_reynierse_scavio_1969]
 - [Rezaeepazhand and Yazdi, 2011, Similitude requirements and scaling laws for flutter prediction of angle-ply composite plates][research_rezaeepazhand_yazdi_2011]
 - [Rezaifard and Abbasi, 2017, Inertial navigation system calibration using GPS based on extended Kalman filter][research_rezaifard_abbasi_2017]
 - [RIBARICH, 1967, Surveyor spacecraft landing accuracy][research_ribarich_1967]
@@ -4553,11 +4260,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Rivera and others, 2025, Performance Wind Tunnel Testing of an X2 Technology® Mach-Scaled Powered Model][research_rivera_hein_2025]
 - [RIVERS, 1968, Transient conduction method of evaluating thermal protection materials][research_rivers_1968]
 - [Rizvi and others, 2013, Numerical Performance Study of Small Size Lifting-Body Reentry Vehicle][research_rizvi_he_2013]
-- [Roach and others, 1996, Evaluation of Thermal Protection of Fabrics and Uniform Systems from Simulated Nuclear Pulse Irradiation][research_roach_caldarella_1996]
 - [Robaglia and others, 2018, Autonomous Landing of an Unmanned Aerial Vehicle on a Moving Ship][research_robaglia_libine_2018]
 - [Robert W Kempel and others, 1970, Stability and control derivatives of the lifting body vehicles][research_kempel_1970]
 - [Roberts and Bhanu, 1992, Inertial navigation sensor integrated motion analysis for autonomous vehicle navigation][research_roberts_bhanu_1992]
-- [Roberts and Sutton, 2006, Editorial navigation, guidance and control of unmanned marine vehicles][research_roberts_sutton_2006]
 - [ROBERTS, 1988, F-15E flight test program overview - March 1988][research_roberts_1988]
 - [ROBERTS, 1990, KC-135R low altitude air refueling flight test program][research_roberts_1990]
 - [Roberts, 2024, Development of advanced materials for thermal protection systems in spacecraft][research_roberts_2024]
@@ -4584,15 +4289,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Romere and others, 1979, Orbiter Approach and Landing Tests- Correlation of Flight and Predicted Performance Data][research_romere_eichblatt_1979]
 - [Romero and Bledsoe, 2015, CPAS Preflight Drop Test Analysis Process][research_romero_bledsoe_2015]
 - [Rona and Soueid, 2010, Boundary Layer Trips for Low Reynolds Number Wind Tunnel Tests][research_rona_soueid_2010]
-- [Rong and others, 2025, Investigation on Similitude Materials with Controlled Strength and Permeability for Physical Model Tests][research_rong_wang_2025]
 - [ROONEY and others, 1977, Correlation full scale wind tunnel and flight measured aerodynamic drag][research_rooney_craig_1977]
 - [Rooney, 2003, Reusable Launch Vehicle Ground Operational Challenges][research_rooney_2003]
-- [Rosen and Ison, 1965, Runway performance following changes in sucrose rewards][research_rosen_ison_1965]
 - [Rosenthal, 1982, NGT Sub-Scale Flight Demonstrator A Cost-Effective Approach to Aircraft Development][research_rosenthal_1982]
 - [Roshanian and Talebi, 2008, Monte Carlo simulation of stage separation dynamics of a multistage launch vehicle][research_roshanian_talebi_2008]
 - [Roshini and Subba Reddy, 2023, Guidance of Flight Path in TMA During Landing - A Design Study][research_roshini_subbareddy_2023]
-- [Rosman and others, 2010, Currents and turbulence within a kelp forest Macrocystis pyrifera Insights from a dynamically scaled laboratory model][research_rosman_monismith_2010]
-- [Rosman and others, 2013, Interaction of waves and currents with kelp forests Macrocystis pyrifera Insights from a dynamically scaled laboratory model][research_rosman_denny_2013]
 - [Rosner and others, 2018, A system for automatic detection of potential landing sites for horizontally landing unmanned aerial vehicles][research_rosner_peszor_2018]
 - [Rossman and Braun, 2017, Thermogravimetric Analysis of Carbon Felt Insulation for Flexible Thermal Protection System Thermal Response Modeling][research_rossman_braun_2017]
 - [Rougeux and others, 2009, Verification and Validation of a Numerical Analysis for a Reentry Space Shuttle Vehicle][research_rougeux_malomolina_2009]
@@ -4607,11 +4308,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Ruping and others, 2021, Research on the Integration of Control Performance and Safety of Automatic Carrier Landing System][research_ruping_xin_2021]
 - [Ruppe, 1985, Reusable launch vehicles][research_ruppe_1985]
 - [RUSBARSKY, 1990, F-15 STOL and Maneuver Technology Demonstrator flight test progress report][research_rusbarsky_1990]
-- [RUSINEK and others, 2005, Analysis of inertia and scale effects on dynamic neck formation during tension of sheet steel][research_rusinek_zaera_2005]
 - [Russo and others, 2026, HYPERION A Mach 5 Spaceplane for Multiple Missions][research_russo_voto_2026]
 - [Rutishauser and others, 2019, High Performance Computing for Precision Landing and Hazard Avoidance and Co-Design Approach][research_rutishauser_moore_2019]
 - [Rutishauser and others, 2022, NASA and Blue Origin's Flight Assessment of Precision Landing Algorithms Computing Performance][research_rutishauser_mendeck_2022]
-- [Ryder and Battle, 2024, Choice of needleless connector technology as a risk reduction strategy for catheter related bloodstream infection, mortality, and cost A secondary data analysis][research_ryder_battle_2024]
 - [S and Padhi, 2017, Explicit Constrained Terminal Acceleration Optimal Guidance for Three Dimensional Lunar Landing][research_s_padhi_2017]
 - [S. Hameed and G. R, 2021, Single segment approach and landing guidance and control for an unpowered reusable launch vehicle][research_shameed_gr_2021]
 - [Sabatini and others, 2013, Low-cost Navigation and Guidance Systems for Unmanned Aerial Vehicles Part 2 Attitude Determination and Control][research_sabatini_rodriguez_2013]
@@ -4641,11 +4340,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Samardžić and others, 2013, Apparatus for measurement of pitch and yaw damping derivatives in high Reynolds number blowdown wind tunnel][research_samardzic_isakovic_2013]
 - [Samotokhin, 2021, Review of space vehicle control and guidance methods at atmosphere reentry][research_samotokhin_2021]
 - [SANDERSON, 1965, The X-15 Flight Test Instrumentation][research_sanderson_1965]
-- [Sands and Bollino, 2020, Autonomous Underwater Vehicle Guidance, Navigation, and Control][research_sands_bollino_2020]
-- [Sanduleac and others, 2023, Prerequisites of using similitude for studying distribution networks with a laboratory-scaled grid][research_sanduleac_stanescu_2023]
-- [Sangekar and others, 2012, Wide area seafloor observation using an autonomous landing vehicle with adaptive resolution capability][research_sangekar_thornton_2012]
 - [Sani and Karimian, 2017, Automatic navigation and landing of an indoor AR. drone quadrotor using ArUco marker and inertial sensors][research_sani_karimian_2017]
-- [Sani and others, 2026, Efficient DEM calibration of AM powders using a rotating drum through Froude number scaling][research_sani_quist_2026]
 - [Sankar, 2012, Effect Of Jump Strut Nose Landing Gear In Preliminary Design Of Aircraft][research_sankar_2012]
 - [Sankey and others, 2023, SeaTac third runway Design and performance of MSE tall wall][research_sankey_bailey_2023]
 - [Sansica and Hashimoto, 2023, Global Stability Analysis of Turbulent Transonic Buffet on the NASA Common Research Model From Wind Tunnel to Flight Reynolds Numbers][research_sansica_hashimoto_2023]
@@ -4658,13 +4353,11 @@ The next article returns to a vehicle designed to be shot down.
 - [SANUKI, 1965, The Optimum Control of an Automatic Landing System of Aircraft][research_sanuki_1965]
 - [Saputra, 2017, Studi Analisis Penyebab Runway Excursion di Indonesia Berdasarkan Data Komite Nasional Keselamatan Transportasi KNKT Tahun 2007-2016][research_saputra_2017]
 - [Sarae and others, 2017, Results of subscale model acoustic tests for H3 launch vehicle][research_sarae_terashima_2017]
-- [Sardou, 1986, "Reynolds effect" and "moving ground effect" tested in a quarter scale wind tunnel over a high speed moving belt][research_sardou_1986]
 - [Sarigul-Klijn and others, 2005, Trade Studies for Air Launching a Small Launch Vehicle from a Cargo Aircraft][research_sarigulklijn_sarigulklijn_2005]
 - [Sarigul-Klijn and others, 2008, Selection of a Carrier Aircraft and a Launch Method for Air Launching Space Vehicles][research_sarigulklijn_sarigulklijn_2008]
 - [Saripalli and others, 2003, Visually guided landing of an unmanned aerial vehicle][research_saripalli_montgomery_2003]
 - [Saripalli, 2009, Vision-Based Autonomous Landing of an Helicopter on a Moving Target][research_saripalli_2009]
 - [Sarkar and others, 2021, A Hysteresis Quantizer Based Artificial Time Delayed Control Strategy for Re-entry Phase of Reusable Launch Vehicle][research_sarkar_amrr_2021]
-- [Sarker, 2021, A Study of The Design Method and Similitude for A Small-Scale Test Drilling Rig Part 1 An Application of The Geometrically Distorted Scaled Modeling Method][research_sarker_2021]
 - [Sasa and others, 1991, Spaceplane Longitudinal Aerodynamic Parameter Estimation by Cable-Mount Dynamic Wind-Tunnel Test][research_sasa_takizawa_1991]
 - [Sasani and others, 2015, Improving MEMS-IMU/GPS integrated systems for land vehicle navigation applications][research_sasani_asgari_2015]
 - [Satkunanathan and Murphy, 1998, Satellite-Based Guidance for Precision Approach and Landing of Commercial Aircraft][research_satkunanathan_murphy_1998]
@@ -4679,12 +4372,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Sayadi and others, 2018, Robust Optimal Control for Precision Improvement of Guided Gliding Vehicle Positioning][research_sayadi_kosari_2018]
 - [Scanlan and Fortier, 1982, Turbulent winds and pressure effects around a rough cylinder at high Reynolds number][research_scanlan_fortier_1982]
 - [Scarlatella and others, 2024, Assessment of Mission Capabilities of a Reusable Heavy-lift Launch Vehicle Concept with Aerospike Engine][research_scarlatella_guadagnini_2024]
-- [Schaaser and Brink, 1986, The moment of inertia in the interacting boson model][research_schaaser_brink_1986]
 - [SCHAEFFER, 1983, Functional development of the 757/767 digital cat. IIIB Autoland System][research_schaeffer_1983]
 - [Schang, 2024, Gas-Granular Mechanics Observed in a Subscale, Reduced-Pressure Plume-Surface Interaction Test][research_schang_2024]
 - [Schermerhorn, 1969, Static-Stability Index and Aerodynamic Coefficients for the 0.125-Scale Model Mark 82 Low-Drag Bomb with Standard and Emtex Snakeye I Fins with Six Retardation Angles at Subsonic Speeds][research_schermerhorn_1969]
 - [Scherzinger and Blake Reid, 1989, Integration of INS, GPS and Doppler for Helicopter Navigation][research_scherzinger_blakereid_1989]
-- [Schewe and Larsen, 1998, Reynolds number effects in the flow around a bluff bridge deck cross section][research_schewe_larsen_1998]
 - [Schiavazzi and Juliano, 2020, Bayesian Network Inference of Thermal Protection System Failure in Hypersonic Vehicles][research_schiavazzi_juliano_2020]
 - [Schierman and others, 2001, A Reconfigurable Guidance Approach for Reusable Launch Vehicles][research_schierman_ward_2001]
 - [Schierman and others, 2001, Adaptive Guidance Systems for Hypersonic Reusable Launch Vehicles][research_schierman_ward_2001_b]
@@ -4694,7 +4385,6 @@ The next article returns to a vehicle designed to be shot down.
 - [SCHMIDT and MANN, 1996, Reusable Launch Vehicle/X-33 Preliminary Structural Analysis for Dynamic Launch Environments][research_schmidt_mann_1996]
 - [Schmidt, 2011, Inertial Navigation and GPS lectures][research_schmidt_2011]
 - [Schmitt and Burchett, 2004, Fuzzy IPPD Guidance for Approach and Landing of a Reusable Launch Vehicle][research_schmitt_burchett_2004]
-- [Schmitt and Elsäßer, 2017, The application of Froude scaling to model tests of Oscillating Wave Surge Converters][research_schmitt_elsasser_2017]
 - [Schneider and others, 2005, Orbital Space Plane Design Considerations][research_schneider_searcy_2005]
 - [Schneider and others, 2012, Overview of the C-12J External Stores Flight Test Program][research_schneider_larson_2012]
 - [Scholz and others, 2026, Manufacture-oriented design of a topology-optimized nose landing gear fork for a small aircraft with retractable landing gear][research_scholz_theuser_2026]
@@ -4758,7 +4448,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Sharf and Monterrubio, 1999, Influence of landing gear design on helicopter ground resonance][research_sharf_monterrubio_1999]
 - [Sharma and Hablani, 2014, High-Accuracy GPS-Based Aircraft Navigation for Landing using Pseudolites and Double-Difference Carrier Phase Measurements][research_sharma_hablani_2014]
 - [Sharma and others, 2008, Multi-Fidelity Design of an Integrated Thermal Protection System for Spacecraft Reentry][research_sharma_gogu_2008]
-- [Sharma and others, 2010, Scaling methods for wind tunnel modelling of building internal pressures induced through openings][research_sharma_mason_2010]
 - [Sharma and others, 2011, Development of an Environment for Determining Vehicle Mass Properties of a Reusable Booster Design][research_sharma_vidal_2011]
 - [Sharma and others, 2024, Influence of magnetohydrodynamics configuration on aerothermodynamics during Martian reentry][research_sharma_giangaspero_2024]
 - [Shaw and others, 1997, RLV economics fiscal evaluation of NASA's reusable launch vehicle effort][research_shaw_taylor_1997]
@@ -4767,11 +4456,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Shea and others, 2023, Force and Moment Analysis for the High Reynolds Number Wind Tunnel Test of the Space Launch System at Ascent Conditions][research_shea_chan_2023]
 - [Sheard and others, 2008, MEMS sensor and integrated navigation technology for precision guidance][research_sheard_scaysbrook_2008]
 - [Sheldon, 1967, Re-Entry Module/Adapter Interconnect Fairing Aerodynamic Heating Wind Tunnel Tests AEDC Tunnel B][research_sheldon_1967]
-- [Shemdin and Mehta, 1972, Discussion of "Anemometer Height in Froude Scaling of Wind Stress"][research_shemdin_mehta_1972]
 - [Shen and Chen, 2025, Model-in-the-Loop Design and Flight Test Validation of Flight Control Laws for a Small Fixed-Wing UAV][research_shen_chen_2025]
-- [Shen and Hughes, 2020, Ship Hull Resistance Prediction from Model Tests with a Resistance Similitude Simulator][research_shen_hughes_2020]
 - [Shen and others, 2009, Tip Vortex Cavitation Inception Scaling for High Reynolds Number Applications][research_shen_gowing_2009]
-- [Shen and others, 2011, Implementation and substantiation of energy management systems for terminal buildings][research_shen_togoshi_2011]
 - [Shen and others, 2016, An improved chattering-free sliding mode control with finite time convergence for reentry vehicle][research_shen_sheng_2016]
 - [Shen and others, 2019, The Similarity Research for Flight Test of Towed Cable System][research_shen_li_2019]
 - [Shen and others, 2022, Penetration trajectory optimization for the hypersonic gliding vehicle encountering two interceptors][research_shen_yu_2022]
@@ -4806,11 +4492,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Shim and others, 2023, Real-Time Optimal Route Planning by Deep Reinforcement Learning and Validation with Flight Test][research_shim_park_2023]
 - [Shimada and Ohwada, 2020, ILES of an array of three subsonic counter-flow jets issuing from a wing leading edge exposed to hypersonic aerodynamic heating][research_shimada_ohwada_2020]
 - [Shimizu and Murata, 2008, Flight Evaluation of GPS Precise Point Positioning Software for Helicopter Navigation][research_shimizu_murata_2008]
-- [Shimizu and others, 2003, Power Augmentation of a HAWT by Mie-type Tip Vanes, considering Wind Tunnel Flow Visualisation, Blade-Aspect Ratios and Reynolds Number][research_shimizu_ismaili_2003]
 - [Shin and Kim, 2013, The Study on the Runway Safety Area for the Light Sport Aircraft][research_shin_kim_2013]
 - [Shinbrot, 2019, Intermezzo Effects of Increasing Reynolds Number][research_shinbrot_2019]
 - [SHINNICK, 1966, On the linearized atmospheric contributions to reentry vehicle CEP][research_shinnick_1966]
-- [Shishkov and others, 2022, Strength-mass scaling law governs mass distribution inside honey bee swarms][research_shishkov_chen_2022]
 - [Shou and others, 2021, Aerodynamic/reaction-jet compound control of hypersonic reentry vehicle using sliding mode control and neural learning][research_shou_xu_2021]
 - [Shrotri and Schrage, 2009, Composite Skid Landing Gear Design Feasibility][research_shrotri_schrage_2009_b]
 - [Shrotri and Schrage, 2009, Composite Skid Landing Gear Performance and Laminate Tailoring for Reduced Load Factor under Limit Loads][research_shrotri_schrage_2009]
@@ -4855,7 +4539,6 @@ The next article returns to a vehicle designed to be shot down.
 - [SINGH and others, 1989, Influence of shock-shock interactions on the blunt body flow field at hypersonic flight speeds][research_singh_tiwari_1989]
 - [Singh and others, 2021, Design Optimization of Torque Link of an Aircraft Landing Gear Assembly][research_singh_chaudhary_2021]
 - [Singh and others, 2022, Integration of INS and GPS for Radar Aided Inertial Navigation System][research_singh_menghal_2022]
-- [Singh and Paliwal, 2023, Deterministic approach-based energy management of smart microgrids][research_singh_paliwal_2023]
 - [Singh, 2023, An Approach of Evolving Vehicle Architecture in Reusable Spaceplane Design as a Means of Affordability and Flexibility in Access to Space][research_singh_2023]
 - [Sinha, 2007, Optimizing Wing Lift to Drag Ratio Enhancement with Flexible-Wall Turbulence Control][research_sinha_2007]
 - [Sipe and Hinde, 2008, Orion Thermal Protection System Design Development][research_sipe_hinde_2008]
@@ -4911,14 +4594,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Song and others, 2023, Autonomous Guidance Control for Ascent Flight][research_song_wang_2023]
 - [Song and others, 2023, Autonomous Landing for Unmanned Seaplanes][research_song_wang_2023_b]
 - [Song and others, 2024, Flow field radiation characteristics extraction and analysis of the re-entry orbital test vehicle][research_song_zhang_2024]
-- [Song and others, 2026, Mechanisms of carrier-gas flow rate effects on particle dynamics and deposition quality in laser-directed energy deposition governed by the lift-to-drag ratio][research_song_lin_2026]
 - [Song and others, 2026, Surrogate-Assisted Optimization of Hypersonic Gliding Vehicle for Range Extension in Re-entry Flight][research_song_shi_2026]
-- [Song and others, 2026, Wake Recovery of Vertical-Axis Wind Turbines Effects of Rotor Solidity and Reynolds Number][research_song_chen_2026]
 - [Song and Wang, 2025, Design and Analysis Method of Downlock Spring for Landing Gear of a Certain Aircraft][research_song_wang_2025]
 - [Songhui and others, 2020, Online Trajectory Planning of RLV Terminal Area Energy Management Phase][research_songhui_chufeng_2020]
 - [Sonowal and others, 2021, Design and static analysis of landing gear shock absorber of commercial aircraft][research_sonowal_pandey_2021]
 - [Sostaric and others, 2017, A Rigid Mid Lift-to-Drag Ratio Approach to Human Mars Entry, Descent, and Landing][research_sostaric_cerimele_2017]
-- [Sousa and others, 2018, Guidance of an Autonomous Surface Vehicle for Underwater Navigation Aid][research_sousa_ferreira_2018]
 - [SPAHR, 1974, Theoretical store separation analyses of a prototype store and comparison with a flight drop test][research_spahr_1974]
 - [SPEARMAN, 1984, Aerodynamic characteristics of some lifting reentry concepts applicable to transatmospheric vehicle design studies][research_spearman_1984]
 - [SPEARMAN, 1985, The application of some lifting-body reentry concepts to missile design][research_spearman_1985]
@@ -4936,7 +4616,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Srinivasan and others, 2025, Flight system acquisition, tracking, and pointing results from the deep space optical communications technology demonstration][research_srinivasan_alerstam_2025]
 - [Sruthi S and others, 2015, Disturbance observer based control of a flexible Reusable Launch Vehicle][research_sruthis_sumathyr_2015]
 - [Staas and Philip C, 1963, Mechanization Equations for a Schuler-tuned Inertial Navigation System Vertically Aligned to the Mass-attraction Gravity Vector][research_staas_philipc_1963]
-- [Stabler and Taylor, 1967, Performance in a Runway][research_stabler_taylor_1967]
 - [Stachiw and others, 2020, The Use of an Inerter in an Aircraft Landing Gear Suspension for Improved Passenger and Crew Comfort at Touchdown][research_stachiw_khouli_2020]
 - [Stadler, 1993, Lifting-body reentry vehicle][research_stadler_1993]
 - [Stadler, 1998, Results for a fully reusable TSTO-launch vehicle concept][research_stadler_1998]
@@ -4944,12 +4623,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Staniszewski, 1999, Semi-reusable launch vehicle - A next step for Europe?][research_staniszewski_1999]
 - [Stapleton and others, 1997, Atmospheric Considerations for Skipping Spaceplane Trajectories][research_stapleton_galati_1997]
 - [Stapleton and others, 1998, Atmospheric considerations for skipping spaceplane trajectories][research_stapleton_galati_1998]
-- [Starchenko, 2018, Analytic scaling laws in planetary dynamo models][research_starchenko_2018]
 - [Starkey and Lewis, 2000, Analytical Off-Design Lift-to-Drag-Ratio Analysis for Hypersonic Waveriders][research_starkey_lewis_2000]
 - [Starkey and others, 2012, Design and Flight Testing of a 15% Dynamically Scaled HL-20 Vehicle Model][research_starkey_argrow_2012]
 - [Starkey and others, 2026, Flight Test Performance Assessment of a Machine-Learning Software-Enhanced Inertial Navigation System][research_starkey_sequeira_2026]
-- [Stathopoulos and Surry, 1984, Scale Effects in Wind Tunnel Testing of Low Buildings][research_stathopoulos_surry_1984]
-- [Stavenga, 2014, Charting the Visual Space of Insect Eyes - Delineating the Guidance, Navigation and Control of Insect Flight by Their Optical Sensor][research_stavenga_2014]
 - [Steer, 2004, Supersonic transport aircraft longitudinal flight control law design][research_steer_2004]
 - [STEFKO and others, 1987, Wind tunnel performance results of an aeroelastically scaled 2/9 model of the PTA flight test prop-fan][research_stefko_podboy_1987]
 - [STEINBERG, 1992, A fuzzy logic based F/A-18 automatic carrier landing system][research_steinberg_1992]
@@ -4958,7 +4634,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Stender and others, 2015, Mission case studies using the rideshare enabling Orbital Maneuvering Vehicle][research_stender_pearson_2015]
 - [Stephan, 2025, High-Level Control Guidance][research_stephan_2025]
 - [Stern and Chu, 1963, Landing Site Coverage for Orbital Lifting Reentry Vehicles][research_stern_chu_1963]
-- [Stern and others, 1995, Detailed Bow-Flow Data and CFD of a Series 60 CB= .6 Ship Model for Froude Number 0.316][research_stern_longo_1995]
 - [Stern, 2004, Aerothermal Heating for Satellite Reentry Conditions][research_stern_2004]
 - [Stern, 2008, Reentry Breakup and Survivability Characteristics of the Vehicle Atmospheric Survivability Project VASP Vehicles][research_stern_2008]
 - [STETSON and LEWIS, 1977, Aerodynamic comparison of a conical and biconic reentry vehicle][research_stetson_lewis_1977]
@@ -4966,7 +4641,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Stich, 2012, Clearance of Flight Control Laws for Carefree Handling of Advanced Fighter Aircraft][research_stich_2012]
 - [Stiles, 2022, The Flight Test Program][research_stiles_2022]
 - [STILLEY, 1988, An approach to extraction of initial conditions from projectile free-flight test data][research_stilley_1988]
-- [Stilwell and Bishop, 2001, Decentralized Guidance, Navigation, and Control for Platoons of Cooperating UUVs][research_stilwell_bishop_2001]
 - [Stoll, 1961, Thermal Protection Capacity of Aviator's Textiles][research_stoll_1961]
 - [Stolle and others, 2015, A vision-based Flight Guidance and Navigation System for autonomous cross-country soaring UAVs][research_stolle_bolting_2015]
 - [STOLLERY and MURTHY, 1978, An intermittent high Reynolds number wind tunnel][research_stollery_murthy_1978]
@@ -4988,7 +4662,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Su and others, 2013, Moving Mass Actuated Reentry Vehicle Control Based on Trajectory Linearization][research_su_yu_2013]
 - [Su and others, 2021, A hybrid hyper-heuristic whale optimization algorithm for reusable launch vehicle reentry trajectory optimization][research_su_dai_2021]
 - [Su and others, 2021, A hybrid parallel Harris hawks optimization algorithm for reusable launch vehicle reentry trajectory optimization with no-fly zones][research_su_dai_2021_b]
-- [Su and others, 2021, Reynolds number effects on the wind pressure distribution on spherical storage tanks][research_su_peng_2021]
 - [Su and others, 2025, Reentry initial descent stage guidance method for lift-type reentry vehicle][research_su_hong_2025]
 - [Su and Wang, 2015, A novel robust hybrid gravitational search algorithm for reusable launch vehicle approach and landing trajectory optimization][research_su_wang_2015]
 - [Subrahmanyam, 1994, H-infinity design of F/A-18A automatic Carrier Landing System][research_subrahmanyam_1994]
@@ -5020,7 +4693,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Suzuki and others, 2014, Postflight Thermal Protection System Analysis of Hayabusa Reentry Capsule][research_suzuki_fujita_2014]
 - [Suzuki and others, 2016, Integrated navigation of aerial robot for GPS and GPS-denied environment][research_suzuki_min_2016]
 - [Suzuki and others, 2017, Effect of wing mass in free flight of a two-dimensional symmetric flapping wing-body model][research_suzuki_aoki_2017]
-- [Suzuki, 2012, Autonomous Navigation, Guidance and Control of Small 4-wheel Electric Vehicle][research_suzuki_2012]
 - [Suzuki, 2013, Control Scheme for Automatic Takeoff and Landing of Small Electric Helicopter][research_suzuki_2013]
 - [Svyatushenko and Yagodnikov, 2021, Static sensitivity of a spaceplane Ramjet's thrust and impulse][research_svyatushenko_yagodnikov_2021]
 - [Swamy and Zebenay, 2021, An Elephant Foot Analogy Design and Development of Landing Gear][research_swamy_zebenay_2021]
@@ -5028,7 +4700,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Swann, 1960, An Engineering Analysis of the Weights of Ablating Systems for Manned ° Reentry Vehicles][research_swann_1960]
 - [Swanson and others, 2025, Overview and Performance of the Low-Earth Orbit Flight Test of an Inflatable Decelerator Instrumentation Suite][research_swanson_miller_2025]
 - [Swathy and others, 2018, Discrete Sliding Mode Control Technique Applied to Reusable Launch Vehicle][research_swathy_geetha_2018]
-- [Sweet and others, 1979, Nonlinear Wheelset Forces in Flange Contact-Part 2 Measurements Using Dynamically Scaled Models][research_sweet_sivak_1979]
 - [Szalai and others, 2005, Mars Exploration Rover Transverse Impulse Rocket Cover Thermal Protection System Design Verification][research_szalai_chen_2005]
 - [Szmuk and others, 2017, Successive Convexification for Mars 6-DoF Powered Descent Landing Guidance][research_szmuk_eren_2017]
 - [T. Ruxton-davies and Powell, 1970, A self adaptive automatic carrier landing system ACLS][research_truxtondavies_powell_1970]
@@ -5036,11 +4707,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Tablole and Banavar, 1998, Predictive Control-Based Optimal Nonliear Reentry Guidance Law][research_tablole_banavar_1998]
 - [Tadema and Theunissen, 2007, A display concept for UAV autoland monitoring rationale, design and evaluation][research_tadema_theunissen_2007]
 - [Tadema and Theunissen, 2008, Design of a synthetic vision overlay for UAV autoland monitoring][research_tadema_theunissen_2008]
-- [Taghavi and others, 2025, A resilience-oriented approach to integrated energy management systems Addressing energy conversion unit unavailability and cost efficiency][research_taghavi_niknam_2025]
 - [Taghizadeh and others, 2022, A low-cost integrated navigation system based on factor graph nonlinear optimization for autonomous flight][research_taghizadeh_nezhadshahbodaghi_2022]
 - [Taguchi and others, 1999, Airbreather/rocket combined propulsion system research for Japanese SSTO spaceplane][research_taguchi_maita_1999]
 - [Taguchi and others, 2001, Analytical study of pre-cooled turbojet engine for TSTO Spaceplane][research_taguchi_futamura_2001]
-- [Tahir, 2017, Meta-Model Based Scaling Laws Of A Two-Winding Transformer][research_tahir_2017]
 - [Tahsini and Mousavi, 2014, Ablative Heat Shield Design for Reentry Vehicle Using Numerical Analysis][research_tahsini_mousavi_2014]
 - [Taihua and others, 2011, The Mechanics Analysis of Desquamation for Thermal Protection System TPS Tiles of Spacecraft][research_taihua_xianhong_2011]
 - [Takahashi and others, 1997, Conceptual Study of a Two-Stage, Air-Breathing Reusable Launch Vehicle][research_takahashi_mizobata_1997]
@@ -5056,10 +4725,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Takaishi and others, 2017, Noise Reduction Design for Landing Gear toward FQUROH Flight Demonstration][research_takaishi_inoue_2017]
 - [Takaishi and others, 2018, Further Noise Reduction Design for Landing Gear toward FQUROH Second Flight Demonstration][research_takaishi_kumada_2018]
 - [Tamer, 2021, Aeroelastic Response of Aircraft Wings to External Store Separation Using Flexible Multibody Dynamics][research_tamer_2021]
-- [Tan and Chen, 2013, Campus building energy management in Tongji University an approach to achieve energy efficiency of buildings for sustainability][research_tan_chen_2013]
 - [Tan and others, 2025, Longitudinal Energy Management for Unpowered Landing of UAV Based on Bionic Tau Theory][research_tan_yang_2025]
-- [Tanaka, 1990, Similitude and modelling in wind tunnel testing of bridges][research_tanaka_1990]
-- [Tanaka, 2017, Similitude and modelling in bridge aerodynamics][research_tanaka_2017]
 - [Tanck and Steadman, 1998, Single stage and thrust augmented reusable launch vehicle stability and performance study][research_tanck_steadman_1998]
 - [Tancredi and Grassi, 2007, Approximate Trajectories for Thermal Protection System Flight Tests Mission Design][research_tancredi_grassi_2007]
 - [Tancredi and others, 2007, Unmanned space vehicle technology demonstrator][research_tancredi_accardo_2007]
@@ -5069,9 +4735,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Tang and van Bussel, 2018, Wind Tunnel Testing Airfoil with Screens at Low Reynolds Number][research_tang_vanbussel_2018]
 - [Tangthong and Aktimagool, 2021, A Simple Glide Slope Transmitter for Navigation Aids System Education][research_tangthong_aktimagool_2021]
 - [TANIGUCHI, 2000, Future Space Transportation System Fully Reusable Launch Vehicle][research_taniguchi_2000]
-- [Tanino and others, 2011, Influence of Reynolds Number and Scale on Performance Evaluation of Lift-type Vertical Axis Wind Turbine by Scale-model Wind Tunnel Tests][research_tanino_nakao_2011]
 - [Tanno and others, 2017, Aerodynamic Characteristics of Lifting Body HYFLEX under High-Temperature Real-Gas Conditio][research_tanno_komuro_2017]
-- [Tao and others, 2008, The design of Energy Management Terminal Unit based on double MSP430 MCU][research_tao_zhang_2008]
 - [Tao and others, 2010, Vehicle State Estimation System Aided by Inertial Sensors in GPS Navigation][research_tao_diange_2010]
 - [Tao Guo and others, 2010, Novel aeroassisted orbital transfer optimal guidance algorithm for reentry vehicle][research_taoguo_daweiliu_2010]
 - [Tariq and others, 2026, Design of a Gain-Scheduled LQR Controller for Landing of a Reusable Launch Vehicle][research_tariq_wasim_2026]
@@ -5090,7 +4754,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Tennstedt and Schon, 2021, Integration of atom interferometers and inertial measurement units to improve navigation performance][research_tennstedt_schon_2021]
 - [Tennstedt and Schön, 2025, Assessment of IMU Quality Requirements in Integrated Quantum Inertial Navigation Systems][research_tennstedt_schon_2025]
 - [Terheyden and Zickwolff, 1986, Integrierte Navigation und NAVSTAR GPS][research_terheyden_zickwolff_1986]
-- [Terra and others, 2020, Cyclist Reynolds number effects and drag crisis distribution][research_terra_sciacchitano_2020]
 - [Tetlow and others, 2000, Optimisation of a reusable launch vehicle concept][research_tetlow_schoettle_2000]
 - [TEWELL, 1984, An unmanned reentry/recovery vehicle for a reusable launch system][research_tewell_1984]
 - [Theunissen, 1994, Factors influencing the design of perspective flight path displays for guidance and navigation][research_theunissen_1994]
@@ -5102,7 +4765,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Thompson and Hull, 1970, Hypersonic airfoils of maximum lift-to-drag ratio][research_thompson_hull_1970]
 - [THOMPSON, 1965, Automatic Vectoring and Landing of Carrier Based High Performance Aircraft][research_thompson_1965]
 - [Thompson, 1966, Progress report on the manned lifting body flight test program][research_thompson_1966]
-- [Thonig and others, 2017, Magnetic moment of inertia within the torque-torque correlation model][research_thonig_eriksson_2017]
 - [THORNTON and LAMY, 1992, Measuring flight test progress on large scale development programs][research_thornton_lamy_1992]
 - [Thornton, 1994, Program management and control of the B-2 Flight Test Program][research_thornton_1994]
 - [Threadgill and others, 2024, Scaling and Transition Effects on Hollow-Cylinder/Flare SBLIs in Wind Tunnel Environments][research_threadgill_hader_2024]
@@ -5110,7 +4772,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Tian and others, 2013, Quasi-continuous high-order sliding mode controller design for reusable launch vehicles in reentry phase][research_tian_zong_2013]
 - [Tian and others, 2015, Integrated guidance and control for reusable launch vehicle in reentry phase][research_tian_fan_2015]
 - [Tian and others, 2018, Crater Edge-based Flexible Autonomous Navigation for Planetary Landing][research_tian_yu_2018]
-- [Tian and others, 2021, The Optimal Lift-Drag Ratio of Underwater Glider for Improving Sailing Efficiency][research_tian_zhang_2021]
 - [Tian and others, 2022, Force Distribution-Based Control Strategy of Landing Gear for the Unmanned Helicopter Landing on the Inclined Surface][research_tian_yu_2022]
 - [Tian and others, 2024, Whole-Body Control for Autonomous Landing of Unmanned Helicopter Equipped With Antagonistic Cable-Driven Legged Landing Gear][research_tian_yu_2024]
 - [Tian and others, 2025, Lightweight silicone aerogel-based ceramic composite with integrated non-ablative and ablative characteristics for reusable thermal protection system][research_tian_dong_2025]
@@ -5120,7 +4781,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Tie and others, 2018, Compensation of Horizontal Gravity Disturbances for High Precision Inertial Navigation][research_tie_cao_2018]
 - [Tieshan and others, 2021, Application of Adaptive Fuzzy ADRC for Hypersonic Flight Vehicle][research_tieshan_zhiyao_2021]
 - [Timmer, 2008, Two-Dimensional Low-Reynolds Number Wind Tunnel Results for Airfoil NACA 0018][research_timmer_2008]
-- [Tin and others, 2015, Measuring Similarity between Vehicle Speed Records Using Dynamic Time Warping][research_tin_hien_2015]
 - [Tirtey and others, 2005, Investigation of the Boundary Layer Characteristics on a Reentry Vehicle][research_tirtey_paris_2005]
 - [Tischler, 2018, System identification methods for aircraft flight control development and validation][research_tischler_2018]
 - [Titov and others, 2025, The formation of technical appearance of a helicopter-type unmanned aerial vehicle in part of take-off and landing devices that provide take-off and landing on the ship's helicopter landing pad][research_titov_parnenkov_2025]
@@ -5163,7 +4823,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Tsai, 2008, Landing Phase Visual Navigation for a Tail Sitting Vertical Takeoff and Landing UAV][research_tsai_2008]
 - [TSAKIRI and others, 1999, Urban Canyon Vehicle Navigation with Integrated GPS/GLONASS/DR Systems][research_tsakiri_kealy_1999]
 - [Tsapparellas and others, 2023, Vision-based Runway Detection and Landing for Unmanned Aerial Vehicle Enhanced Autonomy][research_tsapparellas_jelev_2023]
-- [Tschepe and others, 2021, On the influence of Reynolds number and ground conditions on the scaling of the aerodynamic drag of trains][research_tschepe_nayeri_2021]
 - [Tseng and others, 2013, Development of a Vision Recognition System for Unmanned Aerial Helicopter Automatic Landing System][research_tseng_lou_2013]
 - [Tsikalas and Dyer, 1982, Shuttle automatic landing system][research_tsikalas_1982_b]
 - [TSIKALAS, 1982, Space Shuttle autoland design][research_tsikalas_1982]
@@ -5205,16 +4864,13 @@ The next article returns to a vehicle designed to be shot down.
 - [Urnes and Nguyen, 2013, A Mission Adaptive Variable Camber Flap Control System to Optimize High Lift and Cruise Lift to Drag Ratios of Future N+3 Transport Aircraft][research_urnes_nguyen_2013]
 - [URNES and others, 1979, Development of the Navy H-Dot Automatic Carrier Landing System designed to give improved approach control in air turbulence][research_urnes_hess_1979]
 - [Urschel and Cox, 2003, Launch Condition Deviations of Reusable Launch Vehicle Simulations in Exo-Atmospheric Zoom Climbs][research_urschel_cox_2003]
-- [Ustaszewski and others, 2005, Fault reactivation in brittle-viscous wrench systems-dynamically scaled analogue models and application to the Rhine-Bresse transfer zone][research_ustaszewski_schumacher_2005]
 - [UTTERSTROM and KESTEK, 1965, The Boeing-bendix Precision Approach and Landing System][research_utterstrom_kestek_1965]
 - [Uybarreta and others, 2025, A Limited Handling Qualities Evaluation of an Optionally Piloted Personal Air Vehicle During Manned-Unmanned Teaming Landing Tasks][research_uybarreta_grant_2025]
-- [Uysal, 2023, Goal-Oriented Requirements Engineering Approach to Energy Management Systems][research_uysal_2023]
 - [Vaglio-Laurin and Finke, 1965, Reusable Space Launch Vehicle Concepts Outlook 1965][research_vagliolaurin_finke_1965]
 - [Vaispacher and others, 2025, Radar-Altimeter Inertial Vertical Loop-Multisensor Estimation of Vertical Parameters for Autonomous Vertical Landing][research_vaispacher_baranek_2025]
 - [Valente and others, 2006, Ceramic Composites and Thermal Protection Systems for Reusable Re-Entry Vehicles][research_valente_bartuli_2006]
 - [VALLOT and others, 1991, Design and Flight Test of a Differential GPS/Inertial Navigation System for Approach/Landing Guidance][research_vallot_snyder_1991]
 - [Van Bavel, 2014, A Takeoff Rotation Model Including Pilot Technique Parameters for Flight Test Data Reduction and Expansion][research_vanbavel_2014]
-- [van de Lindt, 2008, Energy-Based Similitude for Shake Table Testing of Scale Woodframe Structures][research_vandelindt_2008]
 - [van den Abeelen, 2016, Origins Re-entry Vehicles and Orbital Factories 1946-1983][research_vandenabeelen_2016]
 - [van den Abeelen, 2016, Staying Cool The Thermal Protection System][research_vandenabeelen_2016_b]
 - [van den Broek and others, 2025, Use of Surrogate Modeling for Preliminary Aircraft Landing Gear Design][research_vandenbroek_simpson_2025]
@@ -5224,28 +4880,22 @@ The next article returns to a vehicle designed to be shot down.
 - [Van Gaasbeek, 1980, Validation of the Rotorcraft Flight Simulation Program C81 Using Operational Loads Survey Flight Test Data][research_vangaasbeek_1980]
 - [VAN GRAAS and others, 1994, Interferometric GPS Flight Reference/Autoland System Flight Test Results][research_vangraas_diggle_1994]
 - [van Oort and others, 2007, Nonlinear Robust Model Predictive Control for Lifting Body Re-entry Flight Attitude Control][research_vanoort_chu_2007]
-- [Van Treuren, 2015, Small-Scale Wind Turbine Testing in Wind Tunnels Under Low Reynolds Number Conditions][research_vantreuren_2015]
 - [Van Wyckhouse, 1966, High-performance UH-1 Compound Helicopter Maneuver Flight Test Program][research_vanwyckhouse_1966]
 - [VANATTA and INDERHEES, 1988, AQM-127A full scale engineering development Flight Test Program][research_vanatta_inderhees_1988]
 - [Vaquero and others, 2022, Final Approach Navigation to Europa Setting up for a Successful Landing][research_vaquero_kennedy_2022]
-- [Varga, 2002, Short and long term variations of the polar moment of inertia and of the model of the Earth][research_varga_2002]
 - [Varshney and others, 2019, Lift-to-Drag Ratio Enhancement for a Wing Using Thermal Forcing][research_varshney_varshney_2019]
 - [Varshney and others, 2019, Withdrawal Lift-to-Drag Ratio Enhancement for a Wing Using Thermal Forcing][research_varshney_varshney_2019_b]
 - [Varshney and others, 2020, Incrementation of Lift-to-Drag Ratio for a Wing Using Thermal Forcing][research_varshney_varshney_2020]
 - [Varshney and others, 2020, Withdrawal Incrementation of Lift-to-Drag Ratio for a Wing Using Thermal Forcing][research_varshney_varshney_2020_b]
 - [Varshney and others, 2022, Augmentation of Lift-to-Drag Ratio for a Wing Using Thermal Forcing][research_varshney_varshney_2022]
 - [Vasconcelos and others, 2005, Inertial Navigation System Aided by GPS and Selective Frequency Contents of Vector Measurements][research_vasconcelos_oliveira_2005]
-- [Vatanparvar and Sharma, 2018, Battery Optimal Approach to Demand Charge Reduction in Behind-The-Meter Energy Management Systems][research_vatanparvar_sharma_2018]
 - [Veaux, 1988, New design procedures applied to landing gear development][research_veaux_1988]
-- [Velázquez and others, 2013, Development of an energy management system for a naphtha reforming plant A data mining approach][research_velazquez_gonzalezfalcon_2013]
 - [Vemuri, 1982, Optimal Alpha-Beta Filtering for Tracking Reentry Vehicles from Shipboard Radars][research_vemuri_1982]
 - [Veneruso and others, 2024, Assessing Radar-Aided Navigation for UAM Approach and Landing Through High-Fidelity Simulations and Flight Testing][research_veneruso_miccio_2024]
-- [Venkatesh and others, 2021, Energy Management System in Smart Grids A Cyber-Physical System Approach][research_venkatesh_annapoorani_2021]
 - [Venkateswara Rao and Go, 2014, Automatic landing system design using sliding mode control][research_venkateswararao_go_2014]
 - [Venugopalan and others, 2012, Autonomous landing of an Unmanned Aerial Vehicle on an autonomous marine vehicle][research_venugopalan_taher_2012]
 - [Vepa and Zhahir, 2010, High-Precision Kinematic Satellite and Doppler Aided Inertial Navigation System][research_vepa_zhahir_2010]
 - [Verderame and others, 1999, X-37 and Space Maneuver Vehicle SMV aerobraking and aerodynamic plane change][research_verderame_phillips_1999]
-- [Vererese, 1976, Guidance and Control of an Underwater Remote Piloted Vehicle][research_vererese_1976]
 - [Verhaegen, 1988, Robust adaptive flight-path reconstruction technique for nonsteady longitudinal flight test maneuvers][research_verhaegen_1988]
 - [Verkhovsky and others, 2023, Efficiency of Using a Reusable Reentry Vehicle as Part of Advanced Transport Space Systems][research_verkhovsky_gyazova_2023]
 - [Verma and Mettler, 2017, Computational Investigation of Environment Learning in Guidance and Navigation][research_verma_mettler_2017]
@@ -5253,7 +4903,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Verstraete and others, 2009, In-flight oxygen collection for a two-stage air-launch vehicle integration of vehicle and separation cycle design][research_verstraete_bizzarri_2009]
 - [VETTER, 1966, Unified approach to lifting-body sizing][research_vetter_1966]
 - [Videmsek and de Haag, 2020, On-Board GPS Augmentation through RADAR Altimeter Aiding for Precision Approach and Landing of UAS][research_videmsek_dehaag_2020]
-- [Vignesh and Ashok, 2023, Intelligent energy management through neuro-fuzzy based adaptive ECMS approach for an optimal battery utilization in plugin parallel hybrid electric vehicle][research_vignesh_ashok_2023]
 - [Vijayanandh and others, 2020, Conceptual Design and Optimization of Flexible Landing Gear for Tilt-Hexacopter Using CFD][research_vijayanandh_kiran_2020]
 - [Villanueva, 2022, Maneuverable Reentry Vehicle Trajectory Optimization using Pseudospectral Method][research_villanueva_2022]
 - [Vinh and Medepalli, 1994, Optimal Thrust and Aerodynamic Controls in Hypersonic Flight][research_vinh_medepalli_1994]
@@ -5273,7 +4922,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Viviani and Pezzella, 2010, Computational Flowfield Analysis over a Blunt-Body Reentry Vehicle][research_viviani_pezzella_2010]
 - [VO and others, 1993, Design of a recovery system for a reentry vehicle][research_vo_garrard_1993]
 - [Vocke and Nunez, 2016, Test Data Report, Low-Speed Wind Tunnel Drag Test of a 2/5 Scale Lockheed AH-56 Cheyenne Door-Hinge Hub][research_vocke_nunez_2016]
-- [Vogeler and others, 2018, Different methods for road load determination in comparison Wind tunnel, Wind tunnel method according to WLTP and Coastdown method][research_vogeler_untermaierhofer_2018]
 - [Volkov and others, 2022, Technology of Autonomous Take-Off and Landing for the Modern Flight and Navigation Complex of an Unmanned Aerial Vehicle][research_volkov_komar_2022]
 - [Voloshenyuk, 2018, Airplane Landing by the Curvilinear Glide Paths in Limits of the Border Trajectories Modelling Method][research_voloshenyuk_2018]
 - [VORBURGER and others, 1985, Surface roughness studies for wind tunnel models used in high Reynolds number testing][research_vorburger_mclay_1985]
@@ -5285,10 +4933,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Wagner and Valasek, 2006, Digital Autoland Control Laws Using Direct Digital Design and Quantitative Feedback Theory][research_wagner_valasek_2006]
 - [Wagner and Valasek, 2007, Digital Autoland Control Laws Using Quantitative Feedback Theory and Direct Digital Design][research_wagner_valasek_2007]
 - [Wagner and Yin, 2022, Development of Subscale Tester for High-Cycle Fatigue Evaluation][research_wagner_yin_2022]
-- [Wagner, 1963, Sodium amytal and partially reinforced runway performance][research_wagner_1963]
 - [Wahi and Straub, 1977, Tire Runway Interface Friction Prediction Subsystem][research_wahi_straub_1977]
-- [Wainwright and others, 2024, Navigation for Multiple Short Term ADCP Measurements Using an Autonomous Underwater Landing Vehicle AULV][research_wainwright_beaujean_2024]
-- [Wainwright and others, 2025, Surface Navigation Simulations and Experimental Validation for an Autonomous Underwater Landing Vehicle AULV][research_wainwright_beaujean_2025]
 - [Waitman and others, 2019, Design and Hardware-In-the-Loop Validation of a Fault-Tolerant Y* Flight Control Law][research_waitman_marcos_2019]
 - [Wakamatsu and others, 1999, Effects of propellant characteristics and vehicle structure on rocket space plane][research_wakamatsu_ono_1999]
 - [Waldmann and others, 2023, Mach and Reynolds number effects on transonic buffet on the XRF-1 transport aircraft wing at flight Reynolds number][research_waldmann_ehrle_2023]
@@ -5307,13 +4952,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Wang and Gu, 2015, Experimental investigation of Reynolds number effects on 2D rectangular prisms with various side ratios and rounded corners][research_wang_gu_2015]
 - [Wang and Holzapfel, 2018, Correction Modeling of the Aircraft Landing Behavior for Runway Excursion and Abnormal Runway Contact Analysis][research_wang_holzapfel_2018_b]
 - [Wang and Holzapfel, 2018, Modeling of the Aircraft Landing Behavior for Runway Excursion and Abnormal Runway Contact Analysis][research_wang_holzapfel_2018]
-- [Wang and Liu, 2023, Origins of scaling laws in microbial dynamics][research_wang_liu_2023]
 - [Wang and Mou, 2025, Flight Safety Risk Prediction for Civil Aircraft Approach and Landing][research_wang_mou_2025]
 - [WANG and others, 1986, Flight test planning and parameter extraction for rotorcraft system identification][research_wang_demiroz_1986]
 - [Wang and others, 2005, Runway detection of an unmanned landing aerial vehicle based on vision][research_wang_peng_2005]
 - [WANG and others, 2006, Runway Detecting and Tracking of an Unmanned Aerial Landing Vehicle Based on Vision][research_wang_peng_2006]
 - [Wang and others, 2007, Apply grey relational grade in optimal airplane landing gear loads calibration][research_wang_jau_2007]
-- [Wang and others, 2007, Investigation of acoustic scale effects and boundary effects for the similitude model of underwater complex shell-structure][research_wang_yang_2007]
 - [Wang and others, 2009, Reentry attitude tracking control based on fuzzy feedforward for reusable launch vehicle][research_wang_wu_2009]
 - [Wang and others, 2011, Reentry vehicle modeling and sliding mode controller design][research_wang_liu_2011]
 - [Wang and others, 2012, Nonlinear Hierarchy-Structured Predictive Control System Design for Hypersonic Flight Vehicle][research_wang_liu_2012]
@@ -5357,7 +5000,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Wang and others, 2022, Lateral automatic landing guidance law based on risk-state model predictive control][research_wang_jiang_2022]
 - [Wang and others, 2022, Linear Pseudospectral Entry Guidance Algorithm Using Differential Flat Output for High Lift-to-Drag Ratio Entry Vehicle][research_wang_yang_2022]
 - [Wang and others, 2022, Maneuver Strategy of Terminal Guidance of Near Space Vehicle via Differential Game Theory][research_wang_ning_2022]
-- [Wang and others, 2022, Physical model test validation of dynamic similarity truncation method for an internal turret mooring system][research_wang_zhang_2022]
 - [Wang and others, 2022, Predefined-Time Nonsingular Attitude Control for Vertical-Takeoff Horizontal-Landing Reusable Launch Vehicle][research_wang_wei_2022]
 - [Wang and others, 2022, Vision Guidance Method for Unmanned Aerial Vehicle Autonomous Landing Based on Dual-Mode Cameras][research_wang_bi_2022]
 - [Wang and others, 2022, Visual Navigation Algorithm for Night Landing of Fixed-Wing Unmanned Aerial Vehicle][research_wang_zhao_2022]
@@ -5382,10 +5024,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Wang and others, 2025, Segformer-LH Vision-Based Airport Runway Segmentation for Autonomous Aircraft Landing in Complex Weather Conditions][research_wang_mu_2025]
 - [Wang and others, 2025, The Design of the Flight Corridor for the Terminal Area Energy Management Phase of Gliding Hypersonic Unmanned Aerial Vehicles][research_wang_shao_2025]
 - [Wang and others, 2025, Transient Response Analysis in Spacecraft Thermal Protection Structures Under Periodic Thermal Disturbances][research_wang_ai_2025]
-- [Wang and others, 2026, Addressing hybrid uncertainties in energy management A synergistic Planner-Learner approach][research_wang_cui_2026]
 - [Wang and others, 2026, Enhancing active disturbance rejection control design for aircraft landing gear via deep reinforcement learning][research_wang_zhang_2026]
 - [Wang and others, 2026, Physics-Informed Hybrid Predictor-Corrector Guidance for Real-Time Terminal Area Energy Management][research_wang_ding_2026]
-- [Wang and others, 2026, Similitude-scaled criterion for investigating the snow and ice accumulation in the bogie regions of high-speed train][research_wang_hu_2026]
 - [Wang and Wang, 1997, Coupled CFD and rigid body dynamics analysis for the launch vehicle stage separation][research_wang_wang_1997]
 - [Wang and Wang, 2013, Airborne Integrated Vision/Inertial Navigation System for Landing on Aircraft Carrier][research_wang_wang_2013]
 - [Wang and Zhao, 2014, GPS/INS integrated urban navigation system based on vehicle motion detection][research_wang_zhao_2014]
@@ -5393,7 +5033,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Wang Lu and others, 2016, On safe landing control technology of unmanned helicopter][research_wanglu_yaoweili_2016]
 - [Wang Shihao and others, 2018, Analysis of Required Landing Distance on Performance Improvement of Civil Aircraft][research_wangshihao_yanzilin_2018]
 - [Wang, 1963, Approximate Solutions of the Lateral Motion of Re-entry Vehicles During Constant Altitude Glide][research_wang_1963]
-- [WANG, 2009, Analysis on the Landing Strategy of Autonomous Underwater Vehicle Based on Fuzzy Control][research_wang_2009]
 - [WANG, 2010, Investigation on Aerodynamic Similitude for Axial Microfan][research_wang_2010]
 - [Wang, 2016, Dynamics and Energy Conversion of Aircraft Landing Gears at Touchdown][research_wang_2016]
 - [Wang, 2022, Analysis of emergency landing load of civil aircraft with single main landing gear extended landing][research_wang_2022_b]
@@ -5422,10 +5061,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Way and others, 2024, Hypernetwork Based Surrogate Modeling of Hypersonic Glide Vehicle Aerothermodynamics][research_way_sescu_2024]
 - [Webb and Bettinger, 2024, Max Range Reentry Optimization in Pseudo 5DOF for Lifting Bodies with Heating and Survivability Constraints][research_webb_bettinger_2024]
 - [Webb and others, 2026, Preliminary investigation of 6DOF reentry reachability for a cylindrical reentry vehicle][research_webb_bettinger_2026]
-- [Webb, 1999, Small Business Technology Transfer STTR Program, Phase 2, an Autonomous Gliding Vehicle for the Distributed Observation of the Littoral Environment][research_webb_1999]
-- [Webb, 2000, An Autonomous Gliding Vehicle for the Distributed Observation of the Littoral Environment][research_webb_2000]
 - [Wee and Yechout, 2004, A Wind Tunnel Investigation of Orbital Space Plane Configurations and Comparison to CFD Predictions][research_wee_yechout_2004]
-- [Weems and Belenky, 2023, Reduced-order model for ship motions incorporating a volume-based calculation of body-nonlinear hydrostatic and Froude-Krylov forces][research_weems_belenky_2023]
 - [Wei and Du, 2018, A Control Law Design Method for Glide Slope Capture of Commercial Aircraft Based on Coupled-Proportional Guidance][research_wei_du_2018]
 - [Wei and Gjestvang, 2001, Store separation analysis of the Penguin missile from the SH-2G helicopter][research_wei_gjestvang_2001]
 - [Wei and others, 2018, A Longitudinal Automatic landing System Design Based on Recursive Sliding Mode Dynamic Surface Control With Nonlinear Gains under icing condition][research_wei_xu_2018]
@@ -5444,9 +5080,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Welker and others, 2011, Use of Gravity Gradiometry in Precision Inertial Navigation Systems][research_welker_huffman_2011]
 - [Welker and others, 2013, Gravity gradiometer integrated inertial navigation][research_welker_pachter_2013]
 - [WELLS, 1987, Wind-tunnel preflight test program for aeroassist flight experiment][research_wells_1987]
-- [Wen and Aziz, 2023, Data-driven energy management system for flexible operation of hydrogen/ammonia-based energy hub A deep reinforcement learning approach][research_wen_aziz_2023]
 - [Wen and others, 2021, Reentry Attitude Control of Reusable Launch Vehicle Based on Event-Triggered Sliding Mode Control][research_wen_huang_2021]
-- [Wen and others, 2026, Froude scaling of rotating intrusion drag in microgravity regolith][research_wen_roy_2026]
 - [Wenchang Lu and Ying Zhang, 2011, Research on algorithm of GPS/DR integrated vehicle navigation system][research_wenchanglu_yingzhang_2011]
 - [Weng and others, 2020, Analysis and on-line compensation of gravity disturbance in a high-precision inertial navigation system][research_weng_liu_2020]
 - [Wenming and others, 2015, A decomposition approach to design attitude controller for underactuated reentry vehicle][research_wenming_zhi_2015]
@@ -5464,21 +5098,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Wibben and others, 2012, Switching System Model for Pinpoint Lunar Landing Guidance Using a Hybrid Control Strategy][research_wibben_furfaro_2012]
 - [WIDNALL and MORTH, 1972, Space Shuttle Landing Navigation Using Precision Distance Measuring Equipment][research_widnall_morth_1972]
 - [Widnall and others, 1982, Decentralized Relative Navigation and JTIDS/GPS/INS Integrated Navigation Systems][research_widnall_gobbini_1982]
-- [Wiedemeier, 1999, Natural Attenuation of Chlorinated Solvents Performance and Cost Results from Multiple Air Force Demonstration Sites, Technology Demonstration Slide Presentation][research_wiedemeier_1999]
 - [Wierzbanowski and Ramasubramanian, 2020, Correction The DARPA Experimental Spaceplane Program XSP Observations, Findings, and Recommendations for Future Reusable Launch Systems][research_wierzbanowski_ramasubramanian_2020_b]
 - [Wierzbanowski and Ramasubramanian, 2020, The DARPA Experimental Spaceplane Program XSP Observations, Findings, and Recommendations for Future Reusable Launch Systems][research_wierzbanowski_ramasubramanian_2020]
 - [Wijaya and Nurrohmad, 2020, Design of Force Measuring System on Main Landing Gear Weight Drop Testing Machine for the Application of Lsu Series][research_wijaya_nurrohmad_2020]
-- [Wike and Chen, 1970, Runway performance and reward magnitude][research_wike_chen_1970]
-- [Wike and King, 1973, Sequences of reward magnitude and runway performance][research_wike_king_1973]
-- [Wike and Kintsch, 1959, Delayed reinforcement and runway performance][research_wike_kintsch_1959]
-- [Wike and McWilliams, 1967, Duration of Delay, Delay-Box Confinement, and Runway Performance][research_wike_mcwilliams_1967]
-- [WIKE, 1960, Runway Performance as a Function of Variable Deprivation Periods][research_wike_1960]
-- [WIKE, 1961, Effects of Preliminary Reward Upon Runway Performance][research_wike_1961]
-- [Wilcoski and others, 2001, Seismic Testing of a 1/20 Scale Model of Koyna Dam][research_wilcoski_hall_2001]
 - [Wilcox, 1963, A Gamma Guidance System for Helicopter Flight-formation Control][research_wilcox_1963]
 - [Wiley and Seidl, 1965, Aerodynamic Noise Tests on X-20 Scale Models. Volume 2. Summary and Analysis Report][research_wiley_seidl_1965]
-- [Wilhelmsson and Roux, 1992, Equilibria, scaling laws and dynamic evolution of temperature and density in alpha particle heated fusion plasma][research_wilhelmsson_roux_1992]
-- [Willemsen, 1997, High Reynolds number wind tunnel experiments on trains][research_willemsen_1997]
 - [Williams and Al Seyab, 2026, Physics-Based Digital Twin Simulation for Control System Development in Dynamic Flight and Motion Applications Demonstrated on a Reusable Launch Vehicle][research_williams_alseyab_2026]
 - [WILLIAMS and HARTFORD, 1987, Integration of manned simulation and flight test in an operational test and evaluation program][research_williams_hartford_1987]
 - [Williams and others, 1995, Thermal protection system design studies for lunar crew module][research_williams_curry_1995]
@@ -5496,7 +5120,6 @@ The next article returns to a vehicle designed to be shot down.
 - [WILSON and others, 1980, Reynolds Number Effects on Flow Recirculation Behind Two-dimensional Obstacles in a Turbulent Boundary Layer][research_wilson_winkel_1980]
 - [Wilson and others, 2015, Vision-aided Guidance and Navigation for Close Formation Flight][research_wilson_goktogan_2015]
 - [Wilson and Riccardi, 2022, Enabling intelligent onboard guidance, navigation, and control using reinforcement learning on near-term flight hardware][research_wilson_riccardi_2022]
-- [Wilson, 2014, Similitude Laws and Small-Scale Model Experiments Characterizing Dynamic Failures of Flawed Utility Poles][research_wilson_2014]
 - [WILZ and JOHNSON, 1975, Automatic all-weather landing control][research_wilz_johnson_1975]
 - [Winchenbach, 1997, Aerodynamic Testing in a Free-Flight Spark Range][research_winchenbach_1997]
 - [Windhorst and others, 1997, Minimum heating reentry trajectories for advanced hypersonic launch vehicles][research_windhorst_ardema_1997]
@@ -5514,10 +5137,8 @@ The next article returns to a vehicle designed to be shot down.
 - [Wolf and others, 2012, Improving the landing precision of an MSL-class vehicle][research_wolf_casoliva_2012]
 - [Wolf, 1996, A method for determining the lift-to-drag ratio of a propelled hang-glider][research_wolf_1996]
 - [Wolfe, 1976, NAVSTAR/GPS Navigation Analysis and Algorithm Development Study][research_wolfe_1976]
-- [Wollen and others, 1966, Effects of apparatus adaptation and ethanol upon runway performance][research_wollen_dobbs_1966]
 - [Wong and others, 2017, Design optimization of aircraft landing gear assembly under dynamic loading][research_wong_ryan_2017]
 - [Wong and others, 2019, Flight Test Methodology for NASA Advanced Inlet Liner on 737MAX-7 Test Bed Quiet Technology Demonstrator 3][research_wong_nesbitt_2019]
-- [Wong, 1972, Goal-box valence as a determinant of runway performance][research_wong_1972]
 - [Wood and others, 2007, An Autonomous Palm-Sized Gliding Micro Air Vehicle][research_wood_avadhanula_2007]
 - [Wood, 1968, Some Fatigue Problems Encountered in the Design of an Aircraft Landing Gear][research_wood_1968]
 - [Wood, 1972, Approach and Landing Guidance for Civil Aviation][research_wood_1972]
@@ -5526,9 +5147,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Woodbury and Valasek, 2015, Synthesis and flight test of an automatic landing controller using Quantitative Feedback Theory][research_woodbury_valasek_2015]
 - [Woodbury and Valasek, 2016, Synthesis and Flight Test of Automatic Landing Controller Using Quantitative Feedback Theory][research_woodbury_valasek_2016]
 - [Woodfield, 1966, Flight Test Instrumentation. Volume 3. Edited by M.A. Perry. Pergamon Press, Oxford. 1965. 295 pp. Diagrams. Tables. £5][research_woodfield_1966]
-- [Wooley, 1998, Navigation Conditions at Gray's Landing Locks and Dam, Monongahela River Hydraulic Model Investigation][research_wooley_1998]
 - [Woollard and others, 2016, Aerothermodynamic and thermal protection system instrumentation reference guide][research_woollard_braun_2016]
-- [Woolsey, 2005, Review of Marine Control Systems Guidance, Navigation, and Control of Ships, Rigs and Underwater Vehicles][research_woolsey_2005]
 - [WORTMAN, 1969, Reentry vehicle altitude-velocity sensor][research_wortman_1969]
 - [Wright and Aubert, 2014, Icing Wind Tunnel Test of a Full Scale Heated Tail Rotor Model][research_wright_aubert_2014]
 - [Wright and others, 2006, Afterbody Aeroheating Flight Data for Planetary Probe Thermal Protection System Design][research_wright_milos_2006]
@@ -5539,11 +5158,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Wu and Guo, 1994, Optimum flight trajectory guidance based on total energy control of aircraft][research_wu_guo_1994]
 - [Wu and Liu, 1995, Electromagnetic similitude and inconsistency of laser scattering for scale model][research_wu_liu_1995]
 - [Wu and Liu, 2021, Research on Flight Technique and Hazard Control for Civil Airplane Crosswind Flight Test][research_wu_liu_2021]
-- [Wu and others, 1988, Application of similitude principle to the numerical simulation of solar atmospheric dynamics][research_wu_wang_1988]
 - [Wu and others, 1994, Computational reentry aerothermodynamics in the aft skirt cavity region of the Space Shuttle Solid Rocket Boosters][research_wu_lycans_1994]
 - [Wu and others, 2005, Vision-Aided Inertial Navigation for Flight Control][research_wu_johnson_2005]
 - [Wu and others, 2012, Coupled Shape and Reentry Trajectory Optimization of Entry Vehicle for Lunar Return][research_wu_tang_2012]
-- [Wu and others, 2014, A numerical study on the free hovering flight of a model insect at low Reynolds number][research_wu_yeo_2014]
 - [Wu and others, 2014, Design of landing trajectory for unpowered aircraft using an hp-adaptive Radau pseudospectral method][research_wu_cai_2014]
 - [Wu and others, 2017, Research on Non-fragile Robust Control of High-Speed Reentry Vehicle][research_wu_lian_2017]
 - [Wu and others, 2017, SINS aided GPS integrity monitoring for SINS/GPS tightly integrated navigation system][research_wu_gu_2017]
@@ -5553,14 +5170,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Wu and others, 2020, Full-stage Reentry Trajectory Optimization for Reusable Launch Vehicle][research_wu_tian_2020]
 - [Wu and others, 2022, Optimization Design of Landing Gear Structure based on Fatigue Life Constraint][research_wu_shi_2022]
 - [Wu and others, 2023, Vision-Aided Precision Landing Guidance Technology for Long-Endurance Loitering Missile][research_wu_luo_2023]
-- [Wu and others, 2024, Integrated battery thermal and energy management for electric vehicles with hybrid energy storage system A hierarchical approach][research_wu_huang_2024]
 - [Wu and others, 2025, A switched dynamic system approach for hypersonic vehicle optimal flight control][research_wu_yuan_2025]
 - [Wu and others, 2026, Reliability analysis of an automatic carrier landing system based on predefined-time fault-tolerant control under air-wake disturbances and actuator faults][research_wu_zhu_2026]
 - [Wu and Wang, 2018, An On-Orbit Initial Alignment Method for Reusable Spacecraft with INS Star Sensor and GPS][research_wu_wang_2018]
 - [Wu and Zhang, 2023, Analysis of the development of reusable launch vehicle technology][research_wu_zhang_2023]
 - [Wu Yanan and others, 2016, Terminal guidance with impact angle constraint based on a practical flight strategy][research_wuyanan_zhangran_2016]
-- [Wu, 1969, Froude Number Scaling of Wind-Stress Coefficients][research_wu_1969]
-- [Wu, 1971, Anemometer Height in Froude Scaling of Wind Stress][research_wu_1971]
 - [Wu, 2006, Prediction of the dynamic characteristics of an elastically supported full-size flat plate from those of its complete-similitude scale model][research_wu_2006]
 - [Wu, 2015, A Controller for Tracking Steep Glide Slopes for an Unmanned Gyroplane][research_wu_2015]
 - [WU, 2018, Optimization Design of High Lift to Drag Ratio Waverider Vehicle Based on Viscosity Simulation][research_wu_2018]
@@ -5590,12 +5204,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Xie and Wang, 2012, Optimal Guidance Law Design for Reentry Vehicles with Terminal Velocity and Angle Constraints][research_xie_wang_2012]
 - [Xie, 2024, Research on machine vision-based unmanned aerial vehicle landing technology][research_xie_2024]
 - [Xin, 2021, Design and analysis of retractable structure of new quadrotor landing gear][research_xin_2021]
-- [Xing and others, 2020, The effects of vent area and ignition position on pressure oscillations in a large L/D ratio duct][research_xing_xu_2020]
 - [Xingling and Honglun, 2014, Sliding mode based trajectory linearization control for hypersonic reentry vehicle via extended disturbance observer][research_xingling_honglun_2014]
 - [Xinguo and others, 2024, Re-entry Trajectory Planning Algorithm for Reusable Launch Vehicle Based on RRT *][research_xinguo_ting_2024]
 - [Xiong and others, 2018, An analysis of the effect of gravity anomaly to attitude estimation in high-precision GNSS/INS integrated navigation systems under overturning cases][research_xiong_zhao_2018]
 - [Xiong and others, 2021, Precision Temperature Control for the Laser Gyro Inertial Navigation System in Long-Endurance Marine Navigation][research_xiong_wei_2021]
-- [Xiong, 2013, Guidance and Control Research on Underwater Unpowered Anti-Submarine Weapons][research_xiong_2013]
 - [Xiu-zhen and others, 2014, Design and implementation of GPS/INS integrated navigation simulation software][research_xiuzhen_shaolei_2014]
 - [Xu and Jiang, 2026, Research on Gliding Vehicle Algorithms with Terminal Velocity and Angle Constraints][research_xu_jiang_2026]
 - [Xu and Lan, 2018, Entry Trajectory Reconstruction for an Unpowered Reusable Launch Vehicle Under the Change of Landing Field][research_xu_lan_2018]
@@ -5604,7 +5216,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Xu and others, 2012, Research on Unmanned Aerial Vehicles Autonomous Soft Landing Based on Optimal Control][research_xu_xia_2012]
 - [Xu and others, 2017, Adjustment method of automatic carrier landing system design criterion for scaled model aircraft][research_xu_zhao_2017]
 - [Xu and others, 2017, Autonomous Navigation Based on Sequential Images for Planetary Landing in Unknown Environments][research_xu_wang_2017]
-- [Xu and others, 2017, Research on control strategy of cloud-based terminal user energy management system][research_xu_fu_2017]
 - [Xu and others, 2017, Stereo vision-based navigation and guidance for pinpoint planetary landing in unknown environments][research_xu_wang_2017_b]
 - [Xu and others, 2018, Study of boundary layer transition on supercritical natural laminar flow wing at high Reynolds number through wind tunnel experiment][research_xu_fu_2018]
 - [Xu and others, 2020, Vision-based Autonomous Landing of Unmanned Aerial Vehicle on a Motional Unmanned Surface Vessel][research_xu_hu_2020]
@@ -5615,18 +5226,15 @@ The next article returns to a vehicle designed to be shot down.
 - [Xu and others, 2023, Practical predefined-time barrier function-based adaptive sliding mode control for reusable launch vehicle][research_xu_guan_2023]
 - [Xu and others, 2025, Fault-Tolerant Controller Design for Reusable Launch Vehicle][research_xu_guo_2025]
 - [Xu and others, 2025, Imitation-Reinforcement Learning Penetration Strategy for Hypersonic Vehicle in Gliding Phase][research_xu_guan_2025]
-- [Xu and others, 2025, Investigation of Hydromechanical Characteristics of Underwater Gliding Motion of Variable-Configuration Water-Air Amphibious Vehicle][research_xu_song_2025]
 - [Xu and Tang, 2010, RLV Reusable Launch Vehicle reentry nonlinear controller design][research_xu_tang_2010]
 - [Xu and Wang, 2016, Real-Time Reliability Verification for UAV Flight Control System Supporting Airworthiness Certification][research_xu_wang_2016]
 - [Xu Xibao and others, 2016, TV guidance technical schemes for manned lunar soft landing][research_xuxibao_guojifeng_2016]
-- [XU, 2014, Vibration Analyses of Elastic Wheelset Model with Concentrated Mass and Moment of Inertia][research_xu_2014]
 - [Xu, 2015, Robust adaptive neural control of flexible hypersonic flight vehicle with dead-zone input nonlinearity][research_xu_2015]
 - [Xu, 2025, Visual Recognition-Assisted Precision Landing for UAVs in GPS-Degraded Environments Approach Guidance, Backup End-Phase Recognition, and Post-Landing Verification][research_xu_2025]
 - [Xue and others, 2016, Aeroelastic Optimization of Flap-gliding Micro Air Vehicle wings][research_xue_song_2016]
 - [Xue and others, 2018, A maneuvering penetration strategy via integrated flight/propulsion guidance and control method for air-breathing hypersonic vehicle][research_xue_guodong_2018]
 - [Xue and others, 2019, Free flight wind tunnel test similarity law derivation for light store separation from aircraft][research_xue_qin_2019]
 - [Xuguo and others, 2018, Study on Completely Autonomous Integrated Navigation Technology for Space Maneuvering Vehicle][research_xuguo_ke_2018]
-- [Y and others, 2015, Effect of Relative Density and Velocity Towards Dynamic Response of Metal Foam][research_y_s_2015]
 - [Y, 2013, Reusable Launch Vehicles Evolution Redefined][research_y_2013]
 - [Yadav and others, 2018, Numerical investigation of the effect of disk position on the aerodynamic heating and drag of a spiked blunt body in hypersonic flow][research_yadav_bodavula_2018]
 - [Yadav and Ramamoorthy, 1991, Nonlinear Landing Gear Behavior at Touchdown][research_yadav_ramamoorthy_1991]
@@ -5643,8 +5251,6 @@ The next article returns to a vehicle designed to be shot down.
 - [YAMANAKA, 1989, Space plane research activities in Japan][research_yamanaka_1989]
 - [Yamanaka, 2003, Flight Performance of An Airbreathing Rocket Combuned Engine Powered Spaceplane][research_yamanaka_2003]
 - [Yamasaki and others, 2013, Development of a hardware-in-the-loop simulator and flight simulation of a subscale experimental winged rocket][research_yamasaki_matsumoto_2013]
-- [YAMASHITA and others, 2009, C21 An experimental study on the insect flapping flight by using the dynamically scaled model][research_yamashita_ishihara_2009]
-- [Yan and Byrne, 1989, Application of hydraulic gradient similitude method to small-scale footing tests on sand][research_yan_byrne_1989]
 - [Yan and He, 2020, Unpowered approach and landing trajectory planning using second-order cone programming][research_yan_he_2020]
 - [Yan and Hexi, 2025, Guidance and Control Based on Nonsingular Terminal Sliding Mode Control for Asteroid Landing with a Flexible Lander][research_yan_hexi_2025]
 - [Yan and others, 2004, A washboard with moment of inertia model of gas-surface scattering][research_yan_hase_2004]
@@ -5657,7 +5263,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Yan and Xu, 2013, Design and Experiment of SINS/GPS Integrated Navigation System][research_yan_xu_2013]
 - [Yanagihara and others, 1991, Estimation of Spaceplane Lateral-Directional Stability and Control Derivatives from Dynamic Wind Tunnel Test][research_yanagihara_suzuki_1991]
 - [Yanagihara and others, 1999, Estimating Aerodynamic Characteristics of Automatic Landing Flight Experiment Vehicle Using Flight Data][research_yanagihara_shigemi_1999]
-- [Yang and Fan, 2011, The design of Energy Management Terminal Unit based on UC-7420][research_yang_fan_2011]
 - [Yang and Li, 2008, Effects of Reynolds Number on Wind Tunnel Corner Losses][research_yang_li_2008]
 - [Yang and Liu, 2021, Gravity-Turn-Based Precise Landing Guidance for Reusable Rockets][research_yang_liu_2021]
 - [Yang and Meng, 2012, The Reentry Trajectory Optimization for Lifting Vehicle by Using Gauss Pseudospectral Method][research_yang_meng_2012]
@@ -5668,13 +5273,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Yang and others, 2016, The influence of the elastic vibration of the carrier to the aerodynamics of the external store in air-launch-to-orbit process][research_yang_ye_2016]
 - [Yang and others, 2017, Research on RAIM Algorithm Based on GPS/BDS Integrated Navigation][research_yang_wang_2017]
 - [Yang and others, 2018, Correlational inference-based adaptive unscented Kalman filter with application in GNSS/IMU-integrated navigation][research_yang_shi_2018]
-- [Yang and others, 2018, The development of the Scaled Accelerated Loading Simulator facility and transfer functions to the full-scale pavement using theory of similitude by finite element analysis][research_yang_huang_2018]
 - [Yang and others, 2021, Longitudinal aerodynamic modeling and verification for air-launch-to-orbit system during stage separation][research_yang_ye_2021]
 - [Yang and others, 2022, Assessment of Radiative Heating for Hypersonic Earth Reentry Using Nongray Step Models][research_yang_wang_2022]
 - [Yang and others, 2022, Electromechanical Actuator Design and Control Strategy for UAV Landing Gear][research_yang_wu_2022]
 - [Yang and others, 2023, Reynolds number effect correction of multi-fidelity aerodynamic distributions from wind tunnel and simulation data][research_yang_chen_2023]
 - [Yang and others, 2024, Compound Attitude Control Strategy for Reusable Launch Vehicle Based on Improved Particle Swarm Optimization Algorithm][research_yang_gan_2024]
-- [Yang and others, 2024, Day-ahead energy management of IES with a distributionally robust approach][research_yang_wang_2024]
 - [Yang and others, 2024, Performance analysis of CAT III autoland systerm under steady wind interference][research_yang_hao_2024]
 - [Yang and others, 2025, Adaptive filter parameter reconstruction technology for rocket inertial navigation/satellite integrated navigation system][research_yang_chen_2025]
 - [Yang and others, 2025, Modeling Non-Equilibrium Rarefied Gas Flows Past a Cross-Domain Reentry Unmanned Flight Vehicle Using a Hybrid Macro-/Mesoscopic Scheme][research_yang_men_2025]
@@ -5698,8 +5301,6 @@ The next article returns to a vehicle designed to be shot down.
 - [YAO and others, 2025, Adaptive terminal sliding combined super twisting control design and flight tests for automatic carrier landing system][research_yao_li_2025_b]
 - [Yao and others, 2025, Automatic Carrier Landing Control Based on a Finite-Time Convergence Method][research_yao_kan_2025]
 - [Yao and Wu, 2019, Intermittent Gliding Flight Control Design and Verification of a Morphing Unmanned Aerial Vehicle][research_yao_wu_2019]
-- [Yao and Yeo, 2018, Longitudinal free flight of a model insect flyer at low Reynolds number][research_yao_yeo_2018]
-- [Yaomin, 1995, Mechanism of Variance of Moment of Inertia in Fermion Dynamical Symmetry Model][research_yaomin_1995]
 - [Yap and others, 2012, Structural Health Monitoring and Risk Management of a Reusable Launch Vehicle][research_yap_macias_2012]
 - [Yarlett and others, 2000, Analysis and manufacture of dynamically scaled wind tunnel models][research_yarlett_adrezin_2000]
 - [Yassir Fadhilah and others, 2024, Runway Excursion Analisis Kejadian Satu Dekade Terakhir di Indonesia][research_yassirfadhilah_mubarok_2024]
@@ -5710,12 +5311,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Ye, 2023, China's mysterious spaceplane returns to Earth what we know][research_ye_2023]
 - [Yee and others, 2023, Micro-tomography Based Analysis of Thermal Protection System Materials - Overview][research_yee_parkinson_2023]
 - [Yelin Zhang and others, 2016, Vision-aided navigation for fixed-wing UAV's autonomous landing][research_yelinzhang_yangzhuwang_2016]
-- [Yeoh and others, 2025, Navigation in a Search Pointer Robot for Victim Detection in Volcanic Eruption Using Hybrid GPS-Inertial Navigation System][research_yeoh_sumaryo_2025]
 - [Yeom and others, 2009, A Study on Technique of Development Test by an Aircraft Captive Flight Test in Weapon System][research_yeom_oh_2009]
 - [Yerdon and Cook, 2015, Mass properties analysis and measurements of a high altitude Supersonic Decelerator Test Vehicle][research_yerdon_cook_2015]
 - [YiFan and others, 2024, Dynamically scaled equivalent modelling for flexible multibody systems in space][research_yifan_minghe_2024]
 - [Yilmaz and others, 2019, Energy and Landing Accuracy Considerations for Urban Air Mobility Vertiport Approach Surfaces][research_yilmaz_warren_2019]
-- [Yin and others, 2018, Risk reduction impact of connected vehicle technology on regional hurricane evacuations A simulation study][research_yin_cordahi_2018]
 - [Yin and others, 2024, Research on the Design of Stiffness Test Fixtures for Civil Aircraft Landing Gear][research_yin_li_2024]
 - [Yingying and others, 2011, Simulation of Geomagnetic/Inertial Integrated Navigation System][research_yingying_yanshun_2011]
 - [Yokokawa and others, 2017, Acoustic Wind Tunnel Test with 18% scale Half-span Model toward FQUROH Flight Demonstration][research_yokokawa_takaishi_2017]
@@ -5726,16 +5325,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Yongsheng, 2021, Study of Design Means to Discourage Errors Resulting from Flight Crew Operating Landing Gear Control Lever][research_yongsheng_2021]
 - [Yongsheng, 2021, Study of Design Means to Prevent Errors Resulting from Flight Crew Operating Landing Gear System Controls][research_yongsheng_2021_b]
 - [Yoon and others, 2021, Reentry Guidance for Korean Space Plane Based on Reference Drag Following][research_yoon_kim_2021]
-- [YOSHIDA and others, 2009, 1610 Evaluations of the passive pitching motion and the lift for the insect flapping flight using the dynamically scaled model][research_yoshida_ishihara_2009]
 - [YOSHIDA and TOKUYAMA, 1992, Improving the lift to drag characteristics of low boom configuration][research_yoshida_tokuyama_1992]
 - [Yoshinaga and others, 1995, Dynamic test of the Orbital Reentry Vehicle OREX in a transonic wind tunnel with comparison to flight data][research_yoshinaga_tate_1995]
 - [Yoshinaga and others, 1996, Orbital re-entry experiment vehicle ground and flight dynamic test results comparison][research_yoshinaga_tate_1996]
 - [You and others, 2019, Structural similitude design for a scaled composite wing box based on optimised stacking sequence][research_you_yasaee_2019]
 - [YOUNG, 1966, Aerodynamics of Hypersonic Flight][research_young_1966]
-- [Yousefzadeh and Uzgoren, 2015, Mass-conserving dynamic organic Rankine cycle model to investigate the link between mass distribution and system state][research_yousefzadeh_uzgoren_2015]
-- [Yu and others, 2011, Application Approach of Energy Management Contract in Hebei][research_yu_wang_2011]
 - [Yu and others, 2014, An Entry Range Correction Scheme for Reusable Launch Vehicle][research_yu_sun_2014]
-- [Yu and others, 2015, A least-squares regression based method for vehicle yaw moment of inertia estimation][research_yu_huang_2015]
 - [Yu and others, 2015, A Multi Sensor Based Integrated Navigation for Pin-Point Landing on Mars][research_yu_xu_2015]
 - [Yu and others, 2017, Automatic carrier landing system based on active disturbance rejection control with a novel parameters optimizer][research_yu_wang_2017]
 - [Yu and others, 2017, Multi-resolution Visual Positioning and Navigation Technique for Unmanned Aerial System Landing Assistance][research_yu_cai_2017]
@@ -5743,9 +5338,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Yu and others, 2019, Single crater-aided inertial navigation for autonomous asteroid landing][research_yu_li_2019]
 - [Yu and others, 2020, Disturbance observer-based autonomous landing control of unmanned helicopters on moving shipboard][research_yu_yang_2020]
 - [Yu and others, 2021, CFD Simulation Strategy for Hypersonic Aerodynamic Heating around a Blunt Biconic][research_yu_ni_2021]
-- [Yu and others, 2022, 3-D Maneuverability Analysis and Path Planning for Gliding Underwater Robots][research_yu_wu_2022]
 - [Yu and others, 2022, Post-buckling Partial Similitude Scaled Model for Stiffened Cylinders under Axial Compression by Energy Method][research_yu_du_2022]
-- [Yu and others, 2022, Real-Time Path Planning and Following of a Gliding Underwater Robot within a Hierarchical Framework][research_yu_wu_2022_b]
 - [Yu and others, 2024, Fault-Tolerant Integrated Guidance and Control Design for the Flight Vehicle without LOS Angular Rate Measurement][research_yu_luo_2024]
 - [Yu and others, 2024, Real-time vision-inertial landing navigation for fixed-wing aircraft with CFC-CKF][research_yu_zhang_2024]
 - [YU and others, 2025, Research on the Lateral Compression Post-Buckling Similitude Model of Stiffened Cylindrical Shells with Dimple Imperfections][research_yu_su_2025]
@@ -5766,14 +5359,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Yun and others, 2019, Flight testing of technology demonstrator with hydrogen peroxide hybrid rocket][research_yun_seo_2019]
 - [Yuta Akai and others, 2007, Automatic landing system for spaceplane based on model predictive control using state mapping][research_yutaakai_kenjiuchiyama_2007]
 - [Zaili and others, 2014, Characteristics of a Reciprocating Pump for Low-Cost Sustainable Water Hydraulic Technology Demonstrator][research_zaili_yusof_2014]
-- [Zaiser and Sandfeld, 2014, Scaling properties of dislocation simulations in the similitude regime][research_zaiser_sandfeld_2014]
 - [Zakharin and Ponomarenko, 2023, Advancing Universal Algorithmic Support for High-Precision Strapdown Inertial Navigation Systems in Aircraft and Rockets][research_zakharin_ponomarenko_2023]
-- [Zaki and others, 2022, Effects of leading edge slat on the aerodynamic performance of low Reynolds number horizontal axis wind turbine][research_zaki_abdelrahman_2022]
 - [Zakrajsek and others, 2017, Landing Gear Design Impact on Aircraft Tire Life][research_zakrajsek_vogel_2017]
 - [Zammit-Mangion and others, 2006, A Performance-Based Method for Improving Safety during Runway Maneuvers][research_zammitmangion_zammit_2006]
-- [Zanforlin and Deluca, 2018, Effects of the Reynolds number and the tip losses on the optimal aspect ratio of straight-bladed Vertical Axis Wind Turbines][research_zanforlin_deluca_2018]
-- [Zare and Boroushaki, 2024, A knowledge-assisted deep reinforcement learning approach for energy management in hybrid electric vehicles][research_zare_boroushaki_2024]
-- [Zasso and others, 2006, Wind tunnel study of a cone-like shaped roof Reynolds number effects][research_zasso_giappino_2006]
 - [Zavalishin and others, 2021, The Method of Aircraft Landing with the Use of Integrated Satellite Optical Navigation System][research_zavalishin_zatuchny_2021]
 - [Zeiler and others, 1999, Preliminary Static Aeroelastic Analysis of Reusable Launch Vehicle Stability and Control Derivatives][research_zeiler_mcghee_1999]
 - [Zeleke and others, 2023, Cessna 172 G1000 Aircraft Airfoil Optimization Using Particle Swarm Optimization Method Applying a Direct Airfoil Design Approach to Obtain the Maximum Lift-to-Drag Ratio][research_zeleke_asfaw_2023]
@@ -5785,13 +5373,11 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhang and Chen, 2011, Reentry Vehicle Constrained Trajectory Optimization][research_zhang_chen_2011]
 - [Zhang and Ding, 2023, Numerical algorithm for hypersonic vehicle optimal flight control][research_zhang_ding_2023]
 - [Zhang and Han, 2025, Control Allocation Based Fault-Tolerant Attitude Control of Hypersonic Reentry Vehicle][research_zhang_han_2025]
-- [Zhang and Hao, 2013, Structure and Hydrodynamics Optimizations of Landing Autonomous Underwater Vehicle][research_zhang_hao_2013]
 - [Zhang and Hu, 2025, Dynamic Response of FG-CNTRC Circular Plates Under Shock Heating A GDQ-Based Transient Axisymmetric Framework for Aerospace Reentry Structures][research_zhang_hu_2025]
 - [Zhang and Jia, 2013, Automatic landing controller design and simulation of flying-wing unmanned aerial vehicle][research_zhang_jia_2013]
 - [Zhang and others, 2005, Performance Analysis and Validation of a Recoverable Flight Control System in a Simulated Neutron Environment][research_zhang_gray_2005]
 - [Zhang and others, 2007, Automatic Landing of Crew Exploration Vehicle CEVs Using Hybrid Memory-Based Approach][research_zhang_cai_2007]
 - [Zhang and others, 2009, Fault-Tolerant GPS/DR Integrated Navigation System Based on Heuristic Reduction of MEMS Inertial Measurement Unit Drift][research_zhang_wan_2009]
-- [Zhang and others, 2011, Landing Motion Simulation of Autonomous Underwater Lurk Vehicle][research_zhang_song_2011]
 - [Zhang and others, 2013, Adaptive Backstepping Controller Design for Reentry Attitude of Near Space Hypersonic Vehicle][research_zhang_sun_2013]
 - [Zhang and others, 2014, Autonomous integrated navigation method based on the strapdown inertial navigation system and Lidar][research_zhang_lin_2014]
 - [Zhang and others, 2015, Study on Mechanical Response Changes of Pavement to Aircraft Loads with Different Landing Gear Configurations][research_zhang_dong_2015]
@@ -5818,9 +5404,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhang and others, 2019, Infrared-Based Autonomous Navigation for Civil Aircraft Precision Approach and Landing][research_zhang_zhai_2019_b]
 - [Zhang and others, 2019, Infrared-Inertial Navigation for Commercial Aircraft Precision Landing in Low Visibility and GPS-Denied Environments][research_zhang_zhai_2019]
 - [Zhang and others, 2019, Multi-objective optimization design for airfoils with high lift-to-drag ratio based on geometric feature control][research_zhang_li_2019_b]
-- [Zhang and others, 2020, Evaluating the navigation performance of multi-information integration based on low-end inertial sensors for precision agriculture][research_zhang_chen_2020]
-- [Zhang and others, 2020, Hydrodynamic performance and calculation of lift-drag ratio on underwater glider][research_zhang_zhang_2020]
-- [Zhang and others, 2020, Research on the Identification of Moment of Inertia Based on Fuzzy Rules for Variable Gain Model Reference Adaptive][research_zhang_yang_2020]
 - [Zhang and others, 2020, Tolerance Design and Robust Study for The Joint Clearances of Landing Gear Retraction Mechanisms][research_zhang_nie_2020]
 - [Zhang and others, 2021, A Reusable Software Architecture for Spacecraft Control System][research_zhang_lin_2021]
 - [Zhang and others, 2021, Design Launch Vehicle Vertical Landing Guidance Law Using a Gauss Point Discrete Convex Programming][research_zhang_li_2021]
@@ -5846,12 +5429,10 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhang and others, 2024, Prediction of thermal contact resistance for reusable heat-pipe cooled thermal protection system based on an inverse thermo-mechanical coupling method][research_zhang_yu_2024]
 - [Zhang and others, 2025, Coordinated Decision-Making of Heading and Morphing for a Morphing Reusable Launch Vehicle via Multi-Agent Reinforcement Learning][research_zhang_wang_2025_d]
 - [Zhang and others, 2025, Design of Automatic Landing System for Carrier-Based Aircraft Based on Adaptive Fuzzy Sliding-Mode Control][research_zhang_ma_2025]
-- [Zhang and others, 2025, Effects of Ultra-High Reynolds Number and Low Mach Number Compressibility on the Static Stall Behavior of a Wind Turbine Airfoil][research_zhang_huang_2025]
 - [Zhang and others, 2025, Finite-time fault-tolerant attitude control for hypersonic reentry vehicle based composite learning observer][research_zhang_han_2025_b]
 - [Zhang and others, 2025, Fixed-Time-Synchronized Attitude Control of Hypersonic Flight Vehicles][research_zhang_yin_2025]
 - [Zhang and others, 2025, Radio frequency signal propagation and plasma characteristics in reentry vehicle][research_zhang_wang_2025_b]
 - [Zhang and others, 2025, Reentry Trajectory Planning of Hypersonic Gliding Vehicle Based on IFDS Algorithm][research_zhang_wang_2025]
-- [Zhang and others, 2026, A distortion similitude method for scaled experiments of flexible marine risers undergoing CF VIV][research_zhang_xue_2026]
 - [Zhang and others, 2026, Dynamics simulation and bird-strike resistance design for civil aircraft landing gear][research_zhang_chen_2026]
 - [Zhang and others, 2026, Reynolds number effects on two parallel circular cylinders at various angles of attack][research_zhang_hua_2026]
 - [Zhang and others, 2026, Singularity Analysis and Optimization Design for Landing Gear Locking Performance Considering Ground Loads][research_zhang_yuan_2026]
@@ -5859,7 +5440,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhang and Wang, 2013, Automatic landing of unmanned aerial vehicle using fuzzy control][research_zhang_wang_2013]
 - [Zhang and Wang, 2024, Design and simulation of system to prevent runway overrun during landing of civil aircraft][research_zhang_wang_2024]
 - [Zhang and Wang, 2025, High-Resolution ISAR Imaging for Detection of Micro Damages on Spacecraft Thermal Protection System][research_zhang_wang_2025_c]
-- [Zhang and Wu, 2011, Research on the Fast Network Rollout Performance of Mine Multimedia Emergency Communication System Based on WMN][research_zhang_wu_2011]
 - [Zhang and Zhang, 2011, Methods of Altitude Control and Safe Landing on Final Approach of Non-Precision Approach Procedures][research_zhang_zhang_2011]
 - [Zhang and Zhang, 2016, Similarity Search for Flight Data][research_zhang_zhang_2016]
 - [Zhang and Zhang, 2020, Multidisciplinary design and optimization of an innovative nano air launch vehicle with a twin-fuselage UAV as carrier aircraft][research_zhang_zhang_2020_b]
@@ -5872,14 +5452,12 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhang, 2019, A Fusion Methodology to Bridge GPS Outages for INS/GPS Integrated Navigation System][research_zhang_2019]
 - [Zhang, 2020, Effects of Reynolds Number on Performance of Highly Loaded Multi-Stage Axial Compressors][research_zhang_2020]
 - [Zhang, 2024, Analysis of Landing Buffer Characteristics of Unmanned Airdrop Rescue Vehicle][research_zhang_2024]
-- [Zhang, 2025, On scaling laws of fast-fluidized-bed dynamics Critical remarks and final solution][research_zhang_2025]
 - [Zhao and others, 2011, Landing gear torque arm position analysis and the optimization design][research_zhao_cui_2011]
 - [Zhao and others, 2013, Attitude Controller Design of Multiple Independently Targeted Reentry Vehicle Based on Internal Model Control][research_zhao_li_2013]
 - [Zhao and others, 2013, Automatic Landing System Design Using Multiobjective Robust Control][research_zhao_yang_2013]
 - [Zhao and others, 2013, Improved Vision-Based Algorithm for Unmanned Aerial Vehicles Autonomous Landing][research_zhao_pei_2013]
 - [Zhao and others, 2014, Differential GPS aided Inertial Navigation a Contemplative Realtime Approach][research_zhao_chen_2014]
 - [Zhao and others, 2014, Unpowered landing guidance with large initial condition errors][research_zhao_sheng_2014]
-- [Zhao and others, 2015, Experimental study on the ride comfort of a crawler power chassis scale model based on the similitude theory][research_zhao_wang_2015]
 - [Zhao and others, 2016, A brief analysis of landing gear overspeed protection design][research_zhao_wang_2016]
 - [Zhao and others, 2018, Joint Design of Guidance and Control System for a Hypersonic Gliding Vehicle on Lie Groups][research_zhao_he_2018]
 - [Zhao and others, 2019, A Study on Alignment of analytic Space Stable Inertial Navigation System][research_zhao_zhou_2019]
@@ -5925,7 +5503,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhou and others, 2013, An Adaptive Dual Kalman Filtering Algorithm for Locata/GPS/INS Integrated Navigation][research_zhou_yang_2013]
 - [Zhou and others, 2013, Terminal Area Energy Management Trajectory Planning for an Unpowered Reusable Launch Vehicle with Gliding Limitations][research_zhou_zhou_2013]
 - [Zhou and others, 2015, Preliminary Analysis for a Two-Stage-To-Orbit Reusable Launch Vehicle][research_zhou_xiao_2015]
-- [Zhou and others, 2019, On-Line Identification of Moment of Inertia for Permanent Magnet Synchronous Motor Based on Model Reference Adaptive System][research_zhou_she_2019]
 - [Zhou and others, 2019, Reduced-Scale Model Design for a High-Speed Rotor System Based on Similitude Theory][research_zhou_liang_2019]
 - [Zhou and others, 2020, Control Barrier Function Based Nonlinear Controller for Automatic Carrier Landing][research_zhou_zheng_2020]
 - [Zhou and others, 2020, Glide guidance for reusable launch vehicles using analytical dynamics][research_zhou_wang_2020]
@@ -5958,7 +5535,6 @@ The next article returns to a vehicle designed to be shot down.
 - [Zhu Qi-dan and others, 2009, Variable structure approach power compensation system design of an automatic carrier landing system][research_zhuqidan_wangtong_2009]
 - [Zhu Qidan and others, 2009, Research on the line stabilization law of the fresnel guiding glide slope][research_zhuqidan_zhangwen_2009]
 - [Zhu, 2024, Automatic landing control system for large passenger aircraft under artificial intelligence][research_zhu_2024]
-- [Ziaie and others, 1990, Similitude Model Experiments to Detect Mine Cavities][research_ziaie_peng_1990]
 - [Zieja and others, 2015, Symbad Instrument in the Course of Aircraft Flight Test Planning][research_zieja_kosinski_2015]
 - [Zilong and others, 2019, Analysis and Optimization of Lunar Exploration Architecture Based on Reusable Human Spacecraft][research_zilong_zhaokui_2019]
 - [Zimmerman and others, 2003, Automated Method to Compute Orbital Reentry Trajectories with Heating Constraints][research_zimmerman_dukeman_2003]
@@ -5972,11 +5548,9 @@ The next article returns to a vehicle designed to be shot down.
 - [Zuppardi and Mongelluzzo, 2023, Aerodynamic Data to Design an Active Thermal Protection System for SpaceLiner 7-1][research_zuppardi_mongelluzzo_2023_b]
 - [Zuppardi and Mongelluzzo, 2023, Aerodynamics of a Concept Space Plane in High-Altitude Earth Reentry][research_zuppardi_mongelluzzo_2023]
 - [Zwirglmaier and others, 2014, Reliability analysis for Runway Overrun using subset simulation][research_zwirglmaier_drees_2014]
-- [Zyhowski and others, 2022, Load Feedback from a Dynamically Scaled Robotic Model of Carausius Morosus Middle Leg][research_zyhowski_zill_2022]
 - [ÇABUK, 2021, Design and Kinematic Analysis of Proposed Adaptive Landing Gear for Multirotor UAV][research_cabuk_2021]
 - [Çabuk, 2023, Design and Experimental Validation of an Adaptive Landing Gear for Safe Landing on Uneven Grounds of VTOL UAVs in the Context of Lightweight and Fast Adaptations][research_cabuk_2023]
 - [ÇETİN and others, 2024, Design of a Multi-Purpose Vertical Take-Off and Landing Unmanned Aerial Vehicle][research_cetin_aygun_2024]
-- [Özgören and Uzol, 2025, A Data-Driven Approach for the Prediction of Reynolds Number Effects on Wind Turbine Airfoil Aerodynamic Polars][research_ozgoren_uzol_2025]
 - [Štumper and others, 2015, Runway Safety Areas][research_stumper_kraus_2015]
 - [Ашихмина and others, 2018, Thermal design of the wing skin of a tourist class reusable spacecraft][research_thermal_design_of_2018]
 - [Бабич and others, 2017, Features of landing approach for aircraft in automatic and yoke control modes in conditions of vertical wind shear][research_features_of_landing_2017]
@@ -6042,9 +5616,6 @@ The next article returns to a vehicle designed to be shot down.
 [related_post_a335_scaled_composites_x38]: {% post_url 2025-11-13-x_planes_scaled_composites_x38 %}
 [related_post_a336_x39_reserved_never_assigned]: {% post_url 2025-11-14-x_planes_x39_reserved_never_assigned %}
 
-[research_043_fuzzy_1994]: https://doi.org/10.1016/0967-0661(94)90625-4
-[research_083_ultrasonic_1994]: https://doi.org/10.1016/0967-0661(94)90665-3
-[research_120_similitude_1972]: https://doi.org/10.1016/0022-4898(72)90059-6
 [research_180_fault_1994]: https://doi.org/10.1016/0967-0661(94)90532-0
 [research_219_attitude_1994]: https://doi.org/10.1016/0967-0661(94)91008-1
 [research_3_10_safety_1987]: https://doi.org/10.1016/0045-8732(87)90244-0
@@ -6052,10 +5623,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_3_inertiale_2011]: https://doi.org/10.1524/9783486705720.27
 [research_4_inertial_2001]: https://doi.org/10.1515/9783110800234.101
 [research_4_inertial_2023]: https://doi.org/10.1515/9783110784329-004
-[research_56_scale_1968]: https://doi.org/10.1016/0022-4898(68)90147-x
 [research_5_inertial_2013]: https://doi.org/10.4324/9780080941523-108
-[research_82_similttude_1973]: https://doi.org/10.1016/0022-4898(73)90120-1
-[research_95_04351_cutting_1995]: https://doi.org/10.1016/0140-6701(95)95926-v
 [research_a_bt_2015]: https://doi.org/10.4172/2168-9792.1000144
 [research_a_feasibility_1991]: https://doi.org/10.1016/0141-6359(91)90552-t
 [research_a_manageable_2021]: https://doi.org/10.2307/j.ctv1m0kjm2.17
@@ -6064,7 +5632,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_a_typical]: https://doi.org/10.1049/sbra507e_ch11
 [research_a_typical_2010]: https://doi.org/10.1049/sbra033e_ch11
 [research_abdolkarimi_mosavi_2020]: https://doi.org/10.1007/s10291-020-01023-9
-[research_abdulkareem_khudheyer_2021]: https://doi.org/10.1088/1757-899x/1094/1/012078
 [research_abe_fujita_2001]: https://doi.org/10.2514/6.2001-1905
 [research_abe_kasamura_2018]: https://doi.org/10.1299/jsmemecj.2018.j0260204
 [research_abe_shimada_2005]: https://doi.org/10.2322/tjsass.48.135
@@ -6075,32 +5642,24 @@ The next article returns to a vehicle designed to be shot down.
 [research_abujbara_alheadary_2015]: https://doi.org/10.1109/icuas.2015.7152407
 [research_abujoub_mcphee_2018]: https://doi.org/10.1109/oceans.2018.8604820
 [research_acarbay_kiyak_2022]: https://doi.org/10.1108/aeat-09-2021-0272
-[research_acarer_2020]: https://doi.org/10.1016/j.energy.2020.117659
 [research_achambath_ramjatan_2019]: https://doi.org/10.2514/6.2019-1283
 [research_achambath_schwartzentruber_2018]: https://doi.org/10.2514/6.2018-0493
 [research_acikmese_ploen_2005]: https://doi.org/10.2514/6.2005-6288
 [research_acikmese_ploen_2007]: https://doi.org/10.2514/1.27553
 [research_acquatella_reiner_2014]: https://doi.org/10.3384/ecp14096589
 [research_adachi_1997]: https://doi.org/10.1016/s0167-6105(97)00172-4
-[research_adaikalam_kumar_2025]: https://doi.org/10.1016/j.energy.2025.137799
-[research_adam_english_2014]: https://doi.org/10.14195/978-989-26-0884-6_50
 [research_adams_johnc_1973]: https://doi.org/10.21236/ad0756499
 [research_adhikari_black_2024]: https://doi.org/10.1063/5.0187505
-[research_adiwilaga_taufikurrahman_2017]: https://doi.org/10.1109/iccre.2017.7935060
-[research_adnan_2021]: https://doi.org/10.1109/icdcm50975.2021.9504629
 [research_adrian_balachandar_2001]: https://doi.org/10.21236/ada390542
 [research_advanced_hypersonic_2004]: https://doi.org/10.2514/6.iac-04-p.p.17
 [research_aerodynamic_optimization_1994]: https://doi.org/10.2514/5.9781600866326.0296.0307
 [research_aerodynamics_calculation_of_2013]: https://doi.org/10.17958/ksmt.15.6.201312.819
 [research_aftatah_zebbara_2024]: https://doi.org/10.56294/dm2024.405
-[research_agaiby_kulhawy_1996]: https://doi.org/10.1520/gtj11405j
 [research_agez_wuilbercq_2025]: https://doi.org/10.1007/s12567-025-00645-4
 [research_agustin_mangoubi_1999]: https://doi.org/10.2514/2.4461
 [research_ahlefeldt_2017]: https://doi.org/10.2514/1.j055262
 [research_ahlefeldt_quest_2014]: https://doi.org/10.2514/6.2014-1483
-[research_ahmadi_ahmadi_2025]: https://doi.org/10.1109/ictem66196.2025.11063645
 [research_ahmed_2021]: https://doi.org/10.1109/icns52807.2021.9441573
-[research_ahmed_azam_2025]: https://doi.org/10.1016/j.apor.2025.104485
 [research_ahmed_hazry_2017]: https://doi.org/10.5954/icarob.2017.gs11-10
 [research_ahmed_rahman_1998]: https://doi.org/10.1061/(asce)0887-3828(1998)12:3(145)
 [research_ai_hu_2023]: https://doi.org/10.23919/ccc58697.2023.10240026
@@ -6116,7 +5675,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_ajacobdamotta_2020]: https://doi.org/10.5162/ettc2020/2.6
 [research_akash_anbarasu_2025]: https://doi.org/10.1109/ipmml68499.2025.11407142
 [research_akinyemi_adebiyi_2016]: https://doi.org/10.1504/ijrs.2016.078387
-[research_aksrivastava_gerehkugler_1978]: https://doi.org/10.13031/2013.35358
 [research_albach_fewel_1965]: https://doi.org/10.4271/650843
 [research_albakri_albakri_2020]: https://doi.org/10.2514/1.g004934
 [research_albakri_kluever_2017]: https://doi.org/10.4236/aast.2017.24004
@@ -6140,13 +5698,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_alich_castillo_2007]: https://doi.org/10.2514/6.2007-1608
 [research_alijani_osman_2020]: https://doi.org/10.1109/iccad49821.2020.9260498
 [research_allen_lin_2007]: https://doi.org/10.2514/6.2007-867
-[research_allen_sandberg_2020]: https://doi.org/10.1201/9781003151234-30
-[research_allen_sandberg_2020_b]: https://doi.org/10.1201/9781003151678-25
 [research_allen_sauvageau_1994]: https://doi.org/10.2514/6.1994-4499
 [research_allen_sexton_2015]: https://doi.org/10.2514/6.2015-1171
 [research_allison_2017]: https://doi.org/10.2514/6.2017-5350
-[research_allori_bartoli_2013]: https://doi.org/10.1016/j.jweia.2013.09.011
-[research_almassoum_haffar_1998]: https://doi.org/10.17660/actahortic.1998.456.39
 [research_almeida_2021]: https://doi.org/10.2514/6.2021-1566
 [research_almosnino_2016]: https://doi.org/10.2514/6.2016-3266
 [research_alpert_2001]: https://doi.org/10.2514/6.2001-4282
@@ -6156,20 +5710,16 @@ The next article returns to a vehicle designed to be shot down.
 [research_altmann_2013]: https://doi.org/10.2514/6.2013-1345
 [research_alvord_arias_2024]: https://doi.org/10.1109/aero58975.2024.10521242
 [research_aly_bitsuamlak_2013]: https://doi.org/10.1016/j.jweia.2013.07.007
-[research_aly_dileo_2025]: https://doi.org/10.3390/wind5040027
 [research_amato_giannino_2026]: https://doi.org/10.2514/6.2026-5098
 [research_ambrosio_camargo_2026]: https://doi.org/10.1007/s40430-026-06481-9
 [research_amelin_2022]: https://doi.org/10.18127/j20700784-202212-10
 [research_amendolare_cyganski_2008]: https://doi.org/10.1109/plans.2008.4570055
-[research_an_equivalent_2003]: https://doi.org/10.5000/eesk.2003.7.6.101
-[research_an_equivalent_2004]: https://doi.org/10.5000/eesk.2004.8.5.035
 [research_an_liu_2023]: https://doi.org/10.54254/2755-2721/9/20230063
 [research_an_wang_2017]: https://doi.org/10.1016/j.actaastro.2017.06.026
 [research_an_wang_2019]: https://doi.org/10.1109/access.2019.2948963
 [research_an_wang_2025]: https://doi.org/10.1061/jaeeez.aseng-6056
 [research_analysis_for_1983]: https://doi.org/10.1016/b978-0-444-42094-7.50022-7
 [research_anand_barman_2020]: https://doi.org/10.1007/978-3-030-34152-7_8
-[research_ananta_farizal_2023]: https://doi.org/10.46254/na8.20230074
 [research_anatomy_of_2019]: https://doi.org/10.1109/icnsurv.2019.8735188
 [research_anderson_kinzel_2023]: https://doi.org/10.2514/6.2023-0391
 [research_anderson_loewenson_2021]: https://doi.org/10.2514/6.2021-2798
@@ -6186,13 +5736,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_anoshin_bobylev_2012]: https://doi.org/10.1615/tsagiscij.2013007140
 [research_ansuyang_zhangfeijuan_2016]: https://doi.org/10.1109/cgncc.2016.7828756
 [research_antonia_zhou_1998]: https://doi.org/10.1007/978-94-011-5118-4_56
-[research_antunes_heemels_2014]: https://doi.org/10.1109/tac.2014.2351932
 [research_anyoji_nose_2010]: https://doi.org/10.2514/6.2010-4627
 [research_aoki_ishigami_2022]: https://doi.org/10.1080/01691864.2022.2141078
-[research_aplak_sogut_2013]: https://doi.org/10.1016/j.enconman.2013.03.027
 [research_appendix_b_2004]: https://doi.org/10.1049/pbra017e_appendixb
 [research_appendix_d_2004]: https://doi.org/10.1049/pbra017e_appendixd
-[research_appleman_nau_2003]: https://doi.org/10.21236/ada412670
 [research_application_of_quasi_object_2008]: https://doi.org/10.18372/1990-5548.18.642
 [research_application_to_2010]: https://doi.org/10.2514/5.9781600867347.0231.0239
 [research_approach_to_2025]: https://doi.org/10.36652/0869-4931-2025-79-3-125-128
@@ -6214,9 +5761,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_arshad_kallungal_2021]: https://doi.org/10.1109/icmt52455.2021.9502764
 [research_artificial_intelligence_1986]: https://doi.org/10.2514/3.56419
 [research_aruna_devi_2012]: https://doi.org/10.1504/ijad.2012.049128
-[research_aryass_majeedrasheed_2022]: https://doi.org/10.1515/eng-2022-0324
 [research_ashford_1993]: https://doi.org/10.2514/6.1993-5057
-[research_ashida_1969]: https://doi.org/10.2466/pr0.1969.25.2.371
 [research_ashikhmina_prosuntsov_2021]: https://doi.org/10.1063/5.0036218
 [research_ashkenas_1982]: https://ntrs.nasa.gov/citations/19820055479
 [research_ashokgandhi_jayan_2020]: https://doi.org/10.1007/978-981-15-5862-7_30
@@ -6243,15 +5788,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_automatic_landing_2007]: https://doi.org/10.5302/j.icros.2007.13.1.039
 [research_automatic_landing_2008]: https://doi.org/10.5302/j.icros.2008.14.12.1253
 [research_automatic_landing_control_2012]: https://doi.org/10.18372/1990-5548.33.5507
-[research_autonomous_guidance_2010]: https://doi.org/10.1201/b10565-27
-[research_auv_navigation_2020]: https://doi.org/10.1049/sbra525e_ch17
 [research_avtin_baburov_2021]: https://doi.org/10.1007/978-981-16-0897-1_5
 [research_avtin_baburov_2021_b]: https://doi.org/10.1007/978-981-16-0897-1_7
 [research_awin_2013]: https://doi.org/10.4028/www.scientific.net/amm.367.528
 [research_azarov_chernovolov_2018]: https://doi.org/10.18577/2071-9140-2018-0-2-75-87
 [research_azimov_2013]: https://doi.org/10.2514/6.2013-5258
 [research_azinheira_depaiva_2000]: https://doi.org/10.1016/s1474-6670(17)37983-1
-[research_b_2011]: https://doi.org/10.5772/32215
 [research_baca_stepan_2017]: https://doi.org/10.1109/ecmr.2017.8098700
 [research_badarudinmohamadbadry_lee_2013]: https://doi.org/10.1016/j.ast.2013.08.007
 [research_badikov_volkova_2026]: https://doi.org/10.1007/978-3-032-05757-0_17
@@ -6261,8 +5803,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_bailet_denis_2022]: https://doi.org/10.2514/1.a34968
 [research_baillif_bodepudi_1995]: https://doi.org/10.2514/6.1995-1330
 [research_baimukhametov_white_2026]: https://doi.org/10.1061/9780784487037.091
-[research_bairral_souzabrito_2024]: https://doi.org/10.34257/gjsfrfvol24is1pg17
-[research_baker_brockie_1991]: https://doi.org/10.1016/0167-6105(91)90024-q
 [research_baker_kramer_1979]: https://doi.org/10.2514/6.1979-201
 [research_baker_kramer_1982]: https://doi.org/10.21236/ada114013
 [research_bakulin_borzykh_2016]: https://doi.org/10.3103/s1068799816010049
@@ -6273,7 +5813,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_balas_2003]: https://doi.org/10.3166/ejc.9.207-226
 [research_balch_1979]: https://doi.org/10.4050/jahs.24.45
 [research_baldini_anandkumar_2020]: https://doi.org/10.23919/acc45564.2020.9147400
-[research_baldwin_2013]: https://doi.org/10.1057/9781137313805_4
 [research_balepin_czysz_2001]: https://doi.org/10.2514/2.5870
 [research_balint_kaslik_2010]: https://doi.org/10.1016/j.nonrwa.2009.04.017
 [research_ball_oittinen_1997]: https://doi.org/10.2514/6.1997-3926
@@ -6294,14 +5833,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_barnes_mcmichael_2007]: https://doi.org/10.2514/6.2007-2077
 [research_barnhart_sullivan_2007]: https://doi.org/10.2514/6.2007-6040
 [research_barron_2024]: https://doi.org/10.25144/19073
-[research_barsim_bassily_2019]: https://doi.org/10.1080/14733315.2019.1615220
 [research_barthelemy_1989]: https://doi.org/10.2514/6.1989-5053
 [research_bartlett_humphreys_2004]: https://doi.org/10.2514/6.2004-2869
 [research_baselga_garciaasenjo_2009]: https://doi.org/10.1017/s0373463309990117
 [research_bashir_khan_2017]: https://doi.org/10.14716/ijtech.v8i3.6319
 [research_basic_principles_2004]: https://doi.org/10.1049/pbra017e_ch3
 [research_basirico_zhou_2011]: https://doi.org/10.1115/gt2011-46857
-[research_bastankhah_hamilton_2022]: https://doi.org/10.1063/5.0133993
 [research_basturk_rosenthal_2015]: https://doi.org/10.1109/tcst.2014.2330993
 [research_batill_1982]: https://doi.org/10.21236/ada122312
 [research_batterbee_sims_2007]: https://doi.org/10.1088/0964-1726/16/6/046
@@ -6311,15 +5848,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_baumgartner_1997]: https://doi.org/10.1063/1.51920
 [research_baxevani_yadav_2022]: https://doi.org/10.1142/s2737480722500200
 [research_bayer_1998]: https://doi.org/10.2514/6.1998-1546
-[research_beber_madabhushi_2018]: https://doi.org/10.1201/9780429438660-11
 [research_beck_driver_2014]: https://doi.org/10.2514/1.a32635
 [research_bednarcyk_gustafson_2023]: https://doi.org/10.2514/6.2023-0724
-[research_bedoya_rincon_2002]: https://doi.org/10.1115/imece2002-32283
 [research_bedrov_vadichin_1966]: https://doi.org/10.1007/978-1-4899-6411-3_37
 [research_bekar_tanyeri_2025]: https://doi.org/10.3390/aerospace12060501
 [research_belabbas_dautermann_2010]: https://doi.org/10.1109/plans.2010.5507312
-[research_belikov_alexander_2017]: https://doi.org/10.23919/acc.2017.7963390
-[research_bellinger_v_1962]: https://doi.org/10.25291/vr/1962-vr-514
 [research_benbow_1971]: https://doi.org/10.2514/6.1971-958
 [research_bendov_beatus_2022]: https://doi.org/10.3390/insects13111018
 [research_benedetto_damico_2014]: https://doi.org/10.1016/j.ssci.2013.09.008
@@ -6333,7 +5866,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_beresford_asteraki_1961]: https://doi.org/10.1049/pi-b-2.1961.0013
 [research_beresh_2022]: https://doi.org/10.2172/2006213
 [research_berg_1966]: https://doi.org/10.1109/taes.1966.4501991
-[research_bergdahl_palm_2016]: https://doi.org/10.3390/jmse4010005
 [research_berger_tischler_2012]: https://doi.org/10.2514/6.2012-4503
 [research_bergeron_tavan_2011]: https://doi.org/10.2514/6.2011-2530
 [research_berkes_1992]: https://doi.org/10.1017/s0001924000025070
@@ -6344,7 +5876,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_berry_1999]: https://doi.org/10.4271/1999-01-5523
 [research_berry_2000]: https://doi.org/10.2514/6.2000-5601
 [research_berry_merski_2002]: https://doi.org/10.2514/6.2002-4701
-[research_bertazzi_2011]: https://doi.org/10.1007/s10957-011-9902-7
 [research_bertelrud_kolodziej_1992]: https://doi.org/10.2514/6.1992-4104
 [research_berthelot_craft_2026]: https://doi.org/10.2514/6.2026-112174
 [research_bertrandnoel_bignaletcazalet_2022]: https://doi.org/10.1016/j.jsse.2021.12.002
@@ -6365,7 +5896,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_biannic_roos_2018]: https://doi.org/10.3390/aerospace5010018
 [research_bickford_bickmore_1997]: https://doi.org/10.2514/6.1997-2901
 [research_bieniawski_rosenzweig_2014]: https://doi.org/10.2514/6.2014-1457
-[research_biesel_1954]: https://doi.org/10.9753/icce.v5.9
 [research_bifurcation_analysis_2004]: https://doi.org/10.1201/9780203298916-7
 [research_bikonis_demkowicz_2013]: https://doi.org/10.1201/b14962-37
 [research_bin_hongxin_2006]: https://doi.org/10.1109/chicc.2006.4346800
@@ -6373,28 +5903,21 @@ The next article returns to a vehicle designed to be shot down.
 [research_binz_hartmann_2017]: https://doi.org/10.1007/978-3-319-65283-2_20
 [research_birkeland_meuser_1999]: https://doi.org/10.2514/6.1999-4463
 [research_bischoff_duffy_1974]: https://doi.org/10.2514/3.60378
-[research_bishop_2002]: https://doi.org/10.21236/ada627048
 [research_bishop_crain_2016]: https://doi.org/10.2514/6.2016-0098
-[research_bixel_heydinger_1996]: https://doi.org/10.4271/960183
 [research_bizzarri_hendrick_2003]: https://doi.org/10.2514/6.2003-6930
 [research_black_1968]: https://doi.org/10.2514/6.1968-361
-[research_black_cronn_1975]: https://doi.org/10.1016/0022-1694(75)90007-4
-[research_black_house_1973]: https://doi.org/10.2466/pr0.1973.32.1.331
 [research_blackmore_acikmese_2010]: https://doi.org/10.2514/1.47202
 [research_blackstock_1970]: https://doi.org/10.2514/3.30113
 [research_blades_redgrave_2000]: https://doi.org/10.2514/6.2000-1778
-[research_blaylock_maniaci_2015]: https://doi.org/10.2514/6.2015-0493
 [research_bleimeyer_1981]: https://doi.org/10.2514/6.1981-2515
 [research_blevins_mckinnis_2022]: https://doi.org/10.2514/6.2022-2292
 [research_bliamis_panagiotou_2018]: https://doi.org/10.2514/6.2018-5376
-[research_blizard_stockar_2023]: https://doi.org/10.1016/j.enconman.2023.117446
 [research_blodgett_conrad_1986]: https://doi.org/10.2514/6.1986-9821
 [research_blom_2017]: https://doi.org/10.1109/icnsurv.2017.8012008
 [research_blonigan_tencer_2025]: https://doi.org/10.2514/6.2025-2133
 [research_blosser_1997]: https://doi.org/10.1063/1.51930
 [research_blosser_2002]: https://doi.org/10.2514/6.2002-503
 [research_blosser_2004]: https://doi.org/10.2514/1.9182
-[research_bmitchell_knorwood_2020]: https://doi.org/10.4043/30519-ms
 [research_bo_xiaogang_2020]: https://doi.org/10.1155/2020/1420393
 [research_bo_yuan_2017]: https://doi.org/10.2514/6.2017-2172
 [research_bobylev_dyadkin_2008]: https://doi.org/10.1134/s0010952508010097
@@ -6407,7 +5930,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_bolt_1981]: https://doi.org/10.2514/6.1981-2394
 [research_bonetti_dezaiacomo_2013]: https://doi.org/10.2514/6.2013-5021
 [research_bonnal_caporicci_2000]: https://doi.org/10.1016/s0094-5765(00)00050-3
-[research_book_review_1999]: https://doi.org/10.1177/014459879901700617
 [research_boothe_chen_1974]: https://doi.org/10.21236/ad0782218
 [research_borges_burnside_2026]: https://doi.org/10.1109/sieds69358.2026.11540136
 [research_borodin_2001]: https://doi.org/10.1023/a:1019298109749
@@ -6416,10 +5938,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_borzykh_voronin_2013]: https://doi.org/10.18287/1998-6629-2013-0-4(42)-86-93
 [research_boschetti_cardenas_2004]: https://doi.org/10.2514/6.2004-4969
 [research_boskovic_redding_2009]: https://doi.org/10.2514/6.2009-6264
-[research_bourahla_blakeborough_2015]: https://doi.org/10.3844/ajeassp.2015.481.488
-[research_bourhis_pereira_2022]: https://doi.org/10.2139/ssrn.4110724
-[research_bourhis_pereira_2023]: https://doi.org/10.1016/j.renene.2023.03.093
-[research_bourhis_zhang_2023]: https://doi.org/10.1115/gt2023-102795
 [research_bourisli_hamadeh_2020]: https://doi.org/10.2514/6.2020-1297
 [research_bourisli_ibrahim_2025]: https://doi.org/10.1080/19942060.2025.2525904
 [research_bouslog_an_1993]: https://doi.org/10.2514/6.1993-2763
@@ -6427,7 +5945,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_bovais_haupt_1992]: https://doi.org/10.2514/6.1992-4079
 [research_boye_2020]: https://doi.org/10.1109/aero47225.2020.9172642
 [research_boyer_1964]: https://doi.org/10.2514/6.1964-1121
-[research_bpvermaandrlschafer_1971]: https://doi.org/10.13031/2013.38293
 [research_brady_1969]: https://doi.org/10.4050/jahs.14.48
 [research_brando_dannier_2016]: https://doi.org/10.1109/speedam.2016.7525892
 [research_brandt_mclaughlin_2019]: https://doi.org/10.2514/6.2019-0283
@@ -6481,7 +5998,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_buckley_morfey_1984]: https://doi.org/10.2514/6.1984-2360
 [research_buell_oleinik_1998]: https://doi.org/10.1002/j.2161-4296.1998.tb02380.x
 [research_bufalino_1995]: https://doi.org/10.2514/6.1995-3899
-[research_buffinbelanger_roy_2004]: https://doi.org/10.1007/978-94-007-0997-3_52
 [research_buffo_1990]: https://doi.org/10.2514/6.1990-3674
 [research_bukov_bykov_2017]: https://doi.org/10.1134/s1064230717040062
 [research_bull_foster_1974]: https://doi.org/10.2514/6.1974-811
@@ -6490,13 +6006,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_burchett_2004]: https://doi.org/10.2514/1.10938
 [research_burgess_1970]: https://doi.org/10.1017/s0001924000048016
 [research_burkhardt_graesslin_1999]: https://doi.org/10.2514/6.1999-4167
-[research_burnham_1971]: https://doi.org/10.1063/1.1660753
 [research_burns_1970]: https://doi.org/10.2514/6.1970-587
 [research_burnsiii_1992]: https://doi.org/10.2514/6.1992-1211
 [research_burt_haigh_1968]: https://doi.org/10.2514/6.1968-387
 [research_bushnell_2006]: https://doi.org/10.1146/annurev.fluid.38.050304.092208
 [research_busnardo_aitken_2011]: https://doi.org/10.2514/6.2011-428
-[research_butler_verrall_2001]: https://doi.org/10.1002/j.2161-4296.2001.tb00223.x
 [research_butt_2013]: https://doi.org/10.21307/ijssis-2017-560
 [research_butt_yan_2010]: https://doi.org/10.1109/cdc.2010.5717701
 [research_butt_yan_2011]: https://doi.org/10.1002/asjc.450
@@ -6515,7 +6029,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_cai_gao_2025]: https://doi.org/10.1109/jsen.2024.3519880
 [research_cai_jianmei_2013]: https://doi.org/10.2514/6.2013-4525
 [research_cai_lei_2024]: https://doi.org/10.1007/s42405-024-00786-6
-[research_cai_liu_2017]: https://doi.org/10.1016/j.enconman.2016.11.024
 [research_cai_song_2013]: https://doi.org/10.1177/0954410013486239
 [research_cai_song_2014]: https://doi.org/10.1177/0954410014555894
 [research_cai_yang_2024]: https://doi.org/10.3390/aerospace11120975
@@ -6531,17 +6044,14 @@ The next article returns to a vehicle designed to be shot down.
 [research_campi_cruciani_2019]: https://doi.org/10.3390/en12183483
 [research_camponogara_oliveira_2019]: https://doi.org/10.1109/taes.2019.2913613
 [research_campos_1989]: https://doi.org/10.1017/s0001924000022090
-[research_canet_bortolotti_2018]: https://doi.org/10.1088/1742-6596/1037/4/042006
 [research_canniff_1969]: https://doi.org/10.2514/6.1969-842
 [research_cao_ding_2012]: https://doi.org/10.1109/ibcast.2012.6177533
-[research_cao_li_2018]: https://doi.org/10.1109/oceanskobe.2018.8559291
 [research_cao_zhang_2015]: https://doi.org/10.1109/icspcc.2015.7338798
 [research_cao_zhou_2024]: https://doi.org/10.1007/978-981-97-3998-1_131
 [research_caogen_hongjun_2008]: https://doi.org/10.1016/j.actaastro.2007.12.059
 [research_capderou_2012]: https://doi.org/10.1007/978-2-287-99050-2_14
 [research_cappello_sabatini_2016]: https://doi.org/10.1109/icuas.2016.7502644
 [research_carloni_bousson_2016]: https://doi.org/10.15866/irece.v7i4.10757
-[research_carlson_doyle_1965]: https://doi.org/10.1007/bf00405014
 [research_carman_jb_1980]: https://doi.org/10.21236/ada087561
 [research_carnes_bakker_2015]: https://doi.org/10.2514/6.2015-0603
 [research_carpenter_chocron_2019]: https://doi.org/10.1115/hvis2019-063
@@ -6564,7 +6074,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_cetin_kurnaz_2010]: https://doi.org/10.1007/978-94-007-1110-5_16
 [research_cetin_kutay_2016]: https://doi.org/10.1109/icmae.2016.7549576
 [research_cetinkaya_ozkol_2017]: https://doi.org/10.1109/icmae.2017.8038678
-[research_ceyhan_2012]: https://doi.org/10.2514/6.2012-1157
 [research_chae_mankodi_2019]: https://doi.org/10.1007/s42405-019-00243-9
 [research_chai_mason_1996]: https://doi.org/10.2514/6.1996-4038
 [research_chai_savvaris_2017]: https://doi.org/10.1109/taes.2017.2680698
@@ -6591,7 +6100,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_chang_yee_2021]: https://doi.org/10.2514/6.2021-0671
 [research_changsheng_wuxing_2006]: https://doi.org/10.1109/chicc.2006.4347462
 [research_channon_barry_1967]: https://doi.org/10.2514/6.1967-1125
-[research_chanson_gualtieri_2008]: https://doi.org/10.1080/00221686.2008.9521841
 [research_chapteer_8_2008]: https://doi.org/10.4324/9780203305225-11
 [research_chapter_12_2013]: https://doi.org/10.1615/978-1-56700-309-3.234
 [research_chapter_13_2013]: https://doi.org/10.1615/978-1-56700-309-3.236
@@ -6625,12 +6133,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_chen_he_2025]: https://doi.org/10.1177/16878132251348391
 [research_chen_huang_2025]: https://doi.org/10.1109/cac67268.2025.11487626
 [research_chen_li_2016]: https://doi.org/10.1109/cgncc.2016.7828876
-[research_chen_lv_2023]: https://doi.org/10.1016/j.oceaneng.2023.115682
 [research_chen_ma_2018]: https://doi.org/10.1093/imamci/dny012
 [research_chen_man_2022]: https://doi.org/10.1109/iccasit55263.2022.9986874
 [research_chen_mu_2018]: https://doi.org/10.1117/12.2317531
 [research_chen_nie_2013]: https://doi.org/10.21595/jve.2013.14589
-[research_chen_peng_2023]: https://doi.org/10.1016/j.enconman.2023.117685
 [research_chen_shi_2025]: https://doi.org/10.1049/cth2.70002
 [research_chen_squire_2006]: https://doi.org/10.2514/6.2006-2951
 [research_chen_wang_2023]: https://doi.org/10.1007/978-981-19-6613-2_154
@@ -6638,16 +6144,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_chen_xu_2011]: https://doi.org/10.2514/1.52963
 [research_chen_xue_2023]: https://doi.org/10.1080/13588265.2023.2242102
 [research_chen_yang_2025]: https://doi.org/10.34133/space.0260
-[research_chen_yao_2017]: https://doi.org/10.12783/dtetr/icia2017/15636
-[research_chen_ye_2026]: https://doi.org/10.1007/s10694-026-01903-5
 [research_chen_yu_2011]: https://doi.org/10.1109/imtc.2011.5944155
-[research_chen_zhang_2025]: https://doi.org/10.1016/j.marstruc.2025.103777
 [research_chen_zhou_2020]: https://doi.org/10.1007/978-981-15-8901-0_13
 [research_chen_zhou_2020_b]: https://doi.org/10.1007/978-981-15-8901-0_10
 [research_chen_zhou_2020_c]: https://doi.org/10.1007/978-981-15-8901-0_11
 [research_chen_zhou_2020_d]: https://doi.org/10.1007/978-981-15-8901-0_9
 [research_chen_zhou_2020_e]: https://doi.org/10.1007/978-981-15-8901-0_7
-[research_chen_zhou_2022]: https://doi.org/10.1061/9780784483886.010
 [research_chen_zhu_2016]: https://doi.org/10.1109/chicc.2016.7555061
 [research_chen_zhu_2025]: https://doi.org/10.23919/ccc64809.2025.11179204
 [research_cheney_1988]: https://doi.org/10.2514/6.1988-2125
@@ -6661,8 +6163,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_cheng_shyur_2025]: https://doi.org/10.1007/978-981-96-1235-2_8
 [research_cheng_wang_2026]: https://doi.org/10.1002/pc.71385
 [research_cheng_yang_2014]: https://doi.org/10.1016/j.phycom.2013.12.003
-[research_cheng_zhao_2017]: https://doi.org/10.12989/was.2017.24.2.119
-[research_cheng_zhu_2008]: https://doi.org/10.1016/j.ces.2008.03.036
 [research_chenliu_chaoyangdong_2016]: https://doi.org/10.1109/cgncc.2016.7829094
 [research_chensongyue_wangliang_2018]: https://doi.org/10.1049/cp.2018.0351
 [research_chernenko_burnashev_2022]: https://doi.org/10.20535/0203-3771422021268461
@@ -6693,7 +6193,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_choo_mun_2018]: https://doi.org/10.6108/kspe.2018.22.2.138
 [research_choong_lim_2026]: https://doi.org/10.1007/978-3-032-08476-7_66
 [research_choudhary_a_2023]: https://doi.org/10.1109/icuas57906.2023.10155962
-[research_choudhary_biswas_2023]: https://doi.org/10.1007/978-981-99-1579-8_27
 [research_chowdhary_johnson_2008]: https://doi.org/10.2514/6.2008-6781
 [research_chowdhury_joshi_2026]: https://doi.org/10.5220/0014326200004052
 [research_chowdhury_keshmiri_2022]: https://doi.org/10.1109/aero53065.2022.9843777
@@ -6709,8 +6208,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_chudej_1994]: https://doi.org/10.1007/bfb0035498
 [research_chun_noda_1985]: https://doi.org/10.1061/9780872624382.182
 [research_chung_echigo_2025]: https://doi.org/10.2514/6.2025-1897
-[research_chvojan_mayer_2007]: https://doi.org/10.1007/978-1-4020-6239-1_339
-[research_cilluffo_black_1970]: https://doi.org/10.3758/bf03335486
 [research_cirioli_krishnan_1987]: https://doi.org/10.4271/871478
 [research_clancy_2001]: https://doi.org/10.1007/978-1-4471-0275-5_1
 [research_clapp_1965]: https://doi.org/10.2514/6.1965-492
@@ -6738,7 +6235,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_comer_chakraborty_2026]: https://doi.org/10.2514/1.g009060
 [research_comparison_of_1975]: https://doi.org/10.2514/5.9781600865121.0493.0506
 [research_condomines_2018]: https://doi.org/10.1016/b978-1-78548-285-4.50003-5
-[research_contini_cesari_2009]: https://doi.org/10.1016/j.jweia.2009.07.007
 [research_contreras_hajiyev_2019]: https://doi.org/10.24425/mms.2019.129586
 [research_control_and_1998]: https://doi.org/10.2514/5.9781600861697.0049.0098
 [research_cook_1981]: https://doi.org/10.2514/6.1981-2380
@@ -6758,7 +6254,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_coutinho_baptista_2016]: https://doi.org/10.1016/j.engstruct.2016.04.016
 [research_coutu_brailovski_2011]: https://doi.org/10.1088/0964-1726/20/3/035019
 [research_cowart_olds_2000]: https://doi.org/10.2514/6.2000-5265
-[research_cowen_briest_1997]: https://doi.org/10.21236/ada422445
 [research_cowling_2011]: https://doi.org/10.2514/6.2011-2370
 [research_cox_1978]: https://doi.org/10.1002/j.2161-4296.1978.tb01335.x
 [research_cox_1986]: https://doi.org/10.1016/0166-4328(86)90057-4
@@ -6784,21 +6279,16 @@ The next article returns to a vehicle designed to be shot down.
 [research_cui_zhao_2017]: https://doi.org/10.1016/j.applthermaleng.2017.06.113
 [research_cui_zhen_2025]: https://doi.org/10.1002/rnc.8012
 [research_culler_williams_2007]: https://doi.org/10.2514/6.2007-6395
-[research_culligan_barry_1998]: https://doi.org/10.1680/igeng.1998.30474
 [research_cummings_2003]: https://doi.org/10.2514/6.2003-233
 [research_cunningham_foster_2008]: https://doi.org/10.2514/6.2008-6200
-[research_cunningham_lemieux_2022]: https://doi.org/10.2514/6.2022-1149
 [research_currey_1969]: https://doi.org/10.1016/s0010-4485(69)80081-3
 [research_curtin_2026]: https://doi.org/10.2514/6.2026-112716
 [research_curtis_2005]: https://doi.org/10.2514/6.2005-6282
 [research_curtis_2010]: https://doi.org/10.1016/b978-0-12-374778-5.00006-4
 [research_cusick_kontis_2019]: https://doi.org/10.2514/6.2019-2929
-[research_custer_agapova_2010]: https://doi.org/10.1111/j.1537-2995.2010.02704.x
 [research_cvrlje_1999]: https://doi.org/10.2514/6.1999-3412
 [research_czysz_murthy_1996]: https://doi.org/10.2514/6.1996-4574
 [research_dabas_sheikh_2025]: https://doi.org/10.52202/083092-0073
-[research_dabin_leclerc_2002]: https://doi.org/10.2514/6.2002-61
-[research_dachowski_1968]: https://doi.org/10.2466/pr0.1968.23.3.769
 [research_dacosta_2003]: https://doi.org/10.2514/6.iac-03-v.p.10
 [research_dacosta_sachs_2002]: https://doi.org/10.2514/6.2002-5219
 [research_dacosta_sachs_2003]: https://doi.org/10.2514/6.2003-7079
@@ -6835,18 +6325,15 @@ The next article returns to a vehicle designed to be shot down.
 [research_daugherty_yager_1988]: https://doi.org/10.4271/881402
 [research_daughetee_1974]: https://doi.org/10.2514/6.1974-343
 [research_daum_mollmann_2017]: https://doi.org/10.2514/6.2017-4204
-[research_davey_darvizeh_2021]: https://doi.org/10.1016/j.engstruct.2020.111739
 [research_davey_sadeghi_2021]: https://doi.org/10.1016/j.ijimpeng.2020.103744
 [research_davidson_vazquez_2009]: https://doi.org/10.1109/isce.2009.5156849
 [research_davis_1968]: https://doi.org/10.2514/3.29455
 [research_davis_1969]: https://doi.org/10.2514/6.1969-27
-[research_davis_1974]: https://doi.org/10.2466/pms.1974.39.1.252
 [research_davis_1989]: https://doi.org/10.2514/6.1989-2949
 [research_davis_2002]: https://doi.org/10.21236/ada404007
 [research_davis_engler_2003]: https://doi.org/10.2514/6.2003-2706
 [research_daymanjr_1971]: https://doi.org/10.2514/6.1971-265
 [research_dealvearcardenas_looye_2021]: https://doi.org/10.2514/6.2021-0781
-[research_deavenport_gilchrest_2015]: https://doi.org/10.21236/ada625680
 [research_debra_breakwell_1981]: https://doi.org/10.21236/ada114636
 [research_debruynkops_riley_2004]: https://doi.org/10.1007/978-94-007-0997-3_13
 [research_dec_braun_2006]: https://doi.org/10.2514/6.2006-780
@@ -6855,10 +6342,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_dedivitiis_corraro_2007]: https://doi.org/10.2514/6.2007-6495
 [research_defensescienceboardwashingtondc_1992]: https://doi.org/10.21236/ada274530
 [research_degiorgis_borriello_1999]: https://doi.org/10.2514/3.27192
-[research_degroat_duane]: https://doi.org/10.4203/ccp.89.157
 [research_delafontaine_1992]: https://doi.org/10.2514/3.20877
 [research_delafontaine_levesque_2006]: https://doi.org/10.2514/6.2006-6075
-[research_delannoy_petriu]: https://doi.org/10.1109/vecims.2004.1397205
 [research_delaune_derosa_2010]: https://doi.org/10.2514/6.2010-8028
 [research_delaune_lebesnerais_2016]: https://doi.org/10.1016/j.robot.2016.01.007
 [research_delprete_dagna_2023]: https://doi.org/10.3390/app132011465
@@ -6868,7 +6353,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_demidovich_2017]: https://doi.org/10.1109/icnsurv.2017.8012003
 [research_demir_seyfullahbabaarslan_2021]: https://doi.org/10.11648/j.ajset.20210602.13
 [research_demo_1986]: https://doi.org/10.2514/6.1986-9797
-[research_demontegonzalez_anderlini_2024]: https://doi.org/10.3390/en17205112
 [research_demuelenaere_alonso_2018]: https://doi.org/10.2514/6.2018-0416
 [research_deng_duan_2016]: https://doi.org/10.1007/s11071-016-2670-z
 [research_deng_xu_2025]: https://doi.org/10.1088/1742-6596/2977/1/012007
@@ -6879,7 +6363,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_deridder_mooij_2009]: https://doi.org/10.2514/6.2009-5769
 [research_deridder_mooij_2011]: https://doi.org/10.1016/j.actaastro.2010.08.032
 [research_derkiureghian_2001]: https://doi.org/10.1016/s0951-8320(01)00084-9
-[research_deschamps_snieder_2001]: https://doi.org/10.1016/s0031-9201(01)00199-6
 [research_design_considerations_1963]: https://doi.org/10.2514/5.9781600864834.0761.0782
 [research_design_of_2011]: https://doi.org/10.1201/b10807-9
 [research_design_validation_2026]: https://doi.org/10.36334/modsim2025.c01.pattarakunnan
@@ -6887,16 +6370,13 @@ The next article returns to a vehicle designed to be shot down.
 [research_determining_the_rational_2020]: https://doi.org/10.25791/aviakosmos.11.2020.1189
 [research_development_of_1972]: https://doi.org/10.2514/6.1972-789
 [research_devesa_jourdan_2004]: https://doi.org/10.2514/1.3612
-[research_devi_matharu_2021]: https://doi.org/10.1088/1402-4896/abf18c
 [research_devita_viola_2015]: https://doi.org/10.2514/6.2015-3540
-[research_devlin_miller_2024]: https://doi.org/10.2514/6.2024-84143
 [research_dewagter_meulenbeld_2019]: https://doi.org/10.1177/1756829319880302
 [research_dey_giri_2018]: https://doi.org/10.1109/icarcv.2018.8581321
 [research_deyst_1968]: https://doi.org/10.1109/tac.1968.1098871
 [research_dhananjay_ghose_2014]: https://doi.org/10.2514/1.g000082
 [research_dhanasekaran_balamurali_2011]: https://doi.org/10.4028/www.scientific.net/amm.70.201
 [research_dicamplibayarddevolo_dipietro_2018]: https://doi.org/10.2514/6.2018-2463
-[research_dickson_polidoro_2010]: https://doi.org/10.1242/jeb.042978
 [research_dieffenbach_1995]: https://doi.org/10.1117/12.211487
 [research_diehl_schreiber_2020]: https://doi.org/10.1115/1.4045465
 [research_dieroff_schaenzer_1990]: https://doi.org/10.2514/6.1990-1301
@@ -6904,7 +6384,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_dileo_leon_2018]: https://doi.org/10.2514/6.2018-0491
 [research_dill_uijtdehaag_2016]: https://doi.org/10.1002/navi.134
 [research_dillman_slagle_2020]: https://doi.org/10.2514/6.2020-1266
-[research_dilollo_1964]: https://doi.org/10.1037/h0045607
 [research_dimauro_lawn_2018]: https://doi.org/10.2514/1.g002868
 [research_dimensional_analysis_1998]: https://doi.org/10.1017/cbo9780511803352.006
 [research_dimensional_analysis_2009]: https://doi.org/10.1201/9781420085259-9
@@ -6917,7 +6396,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_ding_2015]: https://doi.org/10.2991/icmmcce-15.2015.441
 [research_ding_guo_2016]: https://doi.org/10.1109/cgncc.2016.7829000
 [research_ding_li_2023]: https://doi.org/10.2174/9789815050028123040003
-[research_ding_zhang_2022]: https://doi.org/10.1109/icpics55264.2022.9873716
 [research_dirlingjr_eitman_1984]: https://doi.org/10.2514/6.1984-1771
 [research_dirs_1966]: https://doi.org/10.1108/eb034187
 [research_discussion_questions_1999]: https://doi.org/10.2514/5.9781600861994.0213.0217
@@ -6936,7 +6414,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_donahue_1997]: https://doi.org/10.2514/2.3249
 [research_donahue_farrell_1979]: https://doi.org/10.21236/ada083336
 [research_donahue_weldon_2008]: https://doi.org/10.2514/1.29313
-[research_donelan_kram_1997]: https://doi.org/10.1242/jeb.200.24.3193
 [research_donelson_lewerenz_1989]: https://doi.org/10.2514/6.1989-2582
 [research_dong_huang_2023]: https://doi.org/10.23919/ccc58697.2023.10239805
 [research_dong_li_2023]: https://doi.org/10.1002/rnc.6722
@@ -6968,10 +6445,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_droege_1947]: https://doi.org/10.1115/1.4017522
 [research_dsouza_dsouza_1997]: https://doi.org/10.2514/6.1997-3709
 [research_dsouza_mcguire_2022]: https://doi.org/10.2514/6.2022-0418
-[research_dspain_2009]: https://doi.org/10.21236/ada496168
-[research_dspain_chadwell_2005]: https://doi.org/10.21236/ada572723
-[research_dspain_chadwell_2009]: https://doi.org/10.21236/ada501314
-[research_du_jiang_2012]: https://doi.org/10.1007/s12209-012-1808-4
 [research_du_jing_2016]: https://doi.org/10.1360/n092016-00106
 [research_du_zhang_2020]: https://doi.org/10.23919/ccc50068.2020.9189031
 [research_du_zhang_2025]: https://doi.org/10.1007/978-981-97-9771-4_47
@@ -7001,11 +6474,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_dynnikov_2020]: https://doi.org/10.1201/9780429070372-59
 [research_ebner_mark_1977]: https://doi.org/10.2514/6.1977-1109
 [research_ebner_mark_1978]: https://doi.org/10.2514/3.55757
-[research_eboibi_eboibi_2024]: https://doi.org/10.1016/j.sciaf.2024.e02215
 [research_eck_geering_2003]: https://doi.org/10.2514/6.2003-5595
 [research_eckmann_cotta_1997]: https://doi.org/10.1063/1.51905
 [research_ecodemonstrator_flight_2020]: https://doi.org/10.12968/s1478-2774(22)50336-1
-[research_eddiecburt_robertlschafer_1974]: https://doi.org/10.13031/2013.36932
 [research_edwards_1969]: https://doi.org/10.2514/6.1969-718
 [research_edwards_1975]: https://ntrs.nasa.gov/citations/19750008540
 [research_edwards_mavris_2010]: https://doi.org/10.2514/6.2010-8667
@@ -7020,18 +6491,13 @@ The next article returns to a vehicle designed to be shot down.
 [research_eldiasty_pagiatakis_2008]: https://doi.org/10.5081/jgps.7.2.170
 [research_eldred_1953]: https://doi.org/10.4271/530157
 [research_eldridgeallegra_xu_2023]: https://doi.org/10.2514/6.2023-1426
-[research_elgamah_elganaouimourlan_2025]: https://doi.org/10.1109/itsc60802.2025.11423466
-[research_elgammi_aokaly_2021]: https://doi.org/10.1515/ehs-2021-0009
 [research_elias_1974]: https://doi.org/10.2514/6.1974-125
-[research_eliaszuniga_martinezromero_2024]: https://doi.org/10.1142/s0218348x24500154
-[research_elie_oger_2013]: https://doi.org/10.1115/omae2013-11576
 [research_elkaim_lie_2014]: https://doi.org/10.1007/978-90-481-9707-1_56
 [research_ellery_richter_2006]: https://doi.org/10.1016/j.actaastro.2005.07.052
 [research_elliot_redden_2006]: https://doi.org/10.21236/ada449965
 [research_ellis_1989]: https://doi.org/10.2514/6.1989-1406
 [research_ellms_huddle_1976]: https://doi.org/10.1002/j.2161-4296.1976.tb00728.x
 [research_elmowafy_2005]: https://doi.org/10.5081/jgps.4.1.2
-[research_elnaggar_soliman_2025]: https://doi.org/10.3390/buildings15173234
 [research_elrabbany_2006]: https://doi.org/10.1109/itsc.2006.1706837
 [research_elvin_1996]: https://doi.org/10.1063/1.49950
 [research_ely_heyne_2010]: https://doi.org/10.2514/6.2010-7718
@@ -7042,24 +6508,18 @@ The next article returns to a vehicle designed to be shot down.
 [research_enriquez_2025]: https://doi.org/10.2514/6.2025-0878
 [research_epp_robertson_2015]: https://doi.org/10.2514/6.2015-0324
 [research_erasmus_hattingh_2014]: https://doi.org/10.1016/j.engfailanal.2013.07.030
-[research_erdem_eulalie_2022]: https://doi.org/10.3390/fluids7050166
 [research_erer_tekin_2024]: https://doi.org/10.2514/1.g007910
 [research_ernst_leidinger_1988]: https://doi.org/10.2514/6.1988-2686
 [research_erwin_1990]: https://doi.org/10.2514/6.1990-3815
 [research_esposito_orlando_2024]: https://doi.org/10.1063/5.0210478
 [research_estimation_and_1997]: https://doi.org/10.1016/s0389-4304(97)84965-x
-[research_estimation_of_2016]: https://doi.org/10.1201/b21185-74
 [research_estupinan_prazenica_2026]: https://doi.org/10.2514/6.2026-0124
-[research_ettema_kirkil_2006]: https://doi.org/10.1061/(asce)0733-9429(2006)132:1(33)
 [research_european_space_2015]: https://doi.org/10.1063/pt.5.028635
 [research_evaluation_of_1979]: https://doi.org/10.2514/6.1979-1708
 [research_evangelista_pfenninger_1987]: https://doi.org/10.2514/6.1987-2349
 [research_evangelisti_pfifer_2024]: https://doi.org/10.2514/1.g007518
 [research_eymar_deneu_2002]: https://doi.org/10.1007/978-94-015-9880-4_13
 [research_fahazfiroz_rupikaraj_2023]: https://doi.org/10.34293/acsjse.v3i1.63
-[research_fahmy_2020]: https://doi.org/10.1007/978-3-030-29700-8_4
-[research_fahmy_2020_b]: https://doi.org/10.1007/978-3-030-29700-8_5
-[research_fahmy_2020_c]: https://doi.org/10.1007/978-3-030-29700-8_6
 [research_fahrenthold_park_2005]: https://doi.org/10.2514/1.6759
 [research_fahy_buttsworth_2021]: https://doi.org/10.2514/1.a34863
 [research_failure_to_2008]: https://doi.org/10.1108/aeat.2008.12780eab.021
@@ -7067,7 +6527,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_fairuzizzuddinromli_muhammadaimanmohammadsabri_2023]: https://doi.org/10.37934/cfdl.15.3.1221
 [research_faisal_james_2025]: https://doi.org/10.70322/dav.2025.10017
 [research_fallonii_taylor_1999]: https://doi.org/10.2514/6.1999-1720
-[research_falope_lao_2024]: https://doi.org/10.1007/978-3-031-62042-3_3
 [research_fan_2015]: https://doi.org/10.4028/www.scientific.net/amr.1091.103
 [research_fan_cadot_2023]: https://doi.org/10.1103/physreve.107.025103
 [research_fan_nie_2025]: https://doi.org/10.1007/978-981-96-2204-7_58
@@ -7084,16 +6543,13 @@ The next article returns to a vehicle designed to be shot down.
 [research_faulders_lekawa_1967]: https://doi.org/10.2514/6.1967-575
 [research_faulders_lekawa_1968]: https://doi.org/10.2514/3.29388
 [research_faundez_2018]: https://doi.org/10.1088/1742-6596/1043/1/012057
-[research_fawkes_1987]: https://doi.org/10.1016/0306-2619(87)90053-5
 [research_fearnside_1959]: https://doi.org/10.1017/s0373463300045859
 [research_features_of_landing_2017]: https://doi.org/10.18372/2073-4751.4.12814
 [research_federici_benedikter_2026]: https://doi.org/10.2514/1.g009534
 [research_fedotov_perepelkina_2019]: https://doi.org/10.23919/icins.2019.8769349
 [research_fegely_tischler_2016]: https://doi.org/10.4050/f-0072-2016-11500
 [research_fehrs_helm_2025]: https://doi.org/10.2514/6.2025-1714
-[research_fei_tan_2025]: https://doi.org/10.1007/s40430-025-05898-y
 [research_feldman_1967]: https://doi.org/10.2514/6.1967-588
-[research_feldmann_levermann_2016]: https://doi.org/10.5194/tc-10-1753-2016
 [research_feng_bai_2025]: https://doi.org/10.3390/aerospace12110956
 [research_feng_cui_2009]: https://doi.org/10.1117/12.855287
 [research_feng_guo_2019]: https://doi.org/10.1177/0142331219836470
@@ -7106,18 +6562,15 @@ The next article returns to a vehicle designed to be shot down.
 [research_ferrandon_1998]: https://doi.org/10.1007/978-94-011-5030-9_31
 [research_ferreirasantos_2022]: https://doi.org/10.47191/etj/v7i8.02
 [research_ferreres_puyou_2006]: https://doi.org/10.2514/1.18535
-[research_feth_neill_1990]: https://doi.org/10.1121/1.2029024
 [research_feuchter_grobman_1997]: https://doi.org/10.1063/1.51937
 [research_feustelbuechl_1988]: https://doi.org/10.1179/030801888789798574
 [research_fiddes_kirby_1985]: https://doi.org/10.1017/s0001924000050971
 [research_field_rossitto_1999]: https://doi.org/10.2514/6.1999-4095
-[research_figueiredo_2026]: https://doi.org/10.1002/adem.71006
 [research_filatyev_2000]: https://doi.org/10.1016/s0094-5765(00)00016-3
 [research_filatyev_buzuluk_2014]: https://doi.org/10.1016/j.actaastro.2014.03.007
 [research_filyashkin_yatskivsky_2013]: https://doi.org/10.1109/apuavd.2013.6705327
 [research_finke_1990]: https://doi.org/10.21236/ada231552
 [research_finson_clarke_1980]: https://doi.org/10.21236/ada082438
-[research_firouzjah_ghasemi_2026]: https://doi.org/10.1038/s41598-026-42594-w
 [research_fisher_quinn_2018]: https://doi.org/10.2514/6.2018-4283
 [research_fitzgerald_1974]: https://doi.org/10.1109/tac.1974.1100653
 [research_fitzsimmons_1996]: https://doi.org/10.2514/6.1996-4414
@@ -7139,7 +6592,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_foster_1972]: https://doi.org/10.2514/6.1972-755
 [research_foster_miller_2020]: https://doi.org/10.2514/6.2020-1504
 [research_fowler_1990]: https://doi.org/10.21236/ada223762
-[research_fowler_goupee_2017]: https://doi.org/10.1115/omae2017-61864
 [research_foye_ulloa_2017]: https://doi.org/10.1061/9780784480700.021
 [research_fralish_1998]: https://doi.org/10.21236/ada341227
 [research_frank_durand_2014]: https://doi.org/10.2514/6.2014-3010
@@ -7153,13 +6605,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_franze_basov_2026]: https://doi.org/10.2514/6.2026-5005
 [research_franzini_tardioli_2018]: https://doi.org/10.2514/1.g002897
 [research_frapard_2003]: https://doi.org/10.2514/6.iac-03-v.3.07
-[research_fraser_payne_2018]: https://doi.org/10.3905/jwm.2018.21.2.027
-[research_fratantoni_2001]: https://doi.org/10.21236/ada625213
-[research_fratantoni_2001_b]: https://doi.org/10.21236/ada625172
-[research_fratantoni_2002]: https://doi.org/10.21236/ada629092
-[research_fratantoni_2002_b]: https://doi.org/10.21236/ada629088
-[research_fratantoni_2003]: https://doi.org/10.21236/ada629472
-[research_fratantoni_2003_b]: https://doi.org/10.21236/ada629474
 [research_fravolini_campa_2004]: https://doi.org/10.2514/1.9175
 [research_fravolini_yucelen_2015]: https://doi.org/10.2514/6.2015-0611
 [research_frayssinet_2019]: https://doi.org/10.2514/6.2019-3224
@@ -7171,7 +6616,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_frenkel_shaferman_2026]: https://doi.org/10.2514/6.2026-2167
 [research_fresconi_2011]: https://doi.org/10.2514/6.2011-6248
 [research_fresconi_celmins_2014]: https://doi.org/10.21236/ada593328
-[research_freudenreich_kaiser_2004]: https://doi.org/10.1260/0309524043028109
 [research_friia_mahajan_2023]: https://doi.org/10.2514/6.2023-0692
 [research_frinell_1983]: https://doi.org/10.2514/6.1983-2743
 [research_frisby_1960]: https://doi.org/10.21236/ad0244172
@@ -7179,14 +6623,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_froechtenigt_hetrick_1984]: https://doi.org/10.2514/6.1984-1778
 [research_froning_2006]: https://doi.org/10.2514/6.2006-8014
 [research_froningjr_mckinney_1996]: https://doi.org/10.2514/6.1996-4519
-[research_froude_scale_1991]: https://doi.org/10.1016/0148-9062(91)92904-d
 [research_fry_2001]: https://doi.org/10.21236/ada385431
 [research_fu_dang_2025]: https://doi.org/10.1007/978-981-96-2268-9_8
 [research_fu_hang_2023]: https://doi.org/10.1109/icmee59781.2023.10525523
 [research_fu_shi_2022]: https://doi.org/10.1016/j.cja.2021.01.006
 [research_fuchs_haskell_2018]: https://doi.org/10.2514/6.2018-0084
 [research_fuchs_jackson_2011]: https://doi.org/10.4050/jahs.56.012005
-[research_fuchs_konior_2026]: https://doi.org/10.1016/j.cej.2026.178493
 [research_fuhrmann_2003]: https://doi.org/10.2514/6.2003-3807
 [research_fuhry_1999]: https://doi.org/10.2514/6.1999-4211
 [research_fujimori_kurozumi_2000]: https://doi.org/10.2514/2.4536
@@ -7199,7 +6641,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_further_development_1994]: https://doi.org/10.2514/6.1994-2141
 [research_fusaro_viola_2016]: https://doi.org/10.1007/s12567-016-0131-7
 [research_fusion_of_2012]: https://doi.org/10.2514/6.2012-2480
-[research_fuwa_takimoto_2014]: https://doi.org/10.1109/iccas.2014.6988041
 [research_gabarrou_alazard_2010]: https://doi.org/10.3182/20100906-5-jp-2022.00091
 [research_gaetan_2009]: https://doi.org/10.3182/20090902-3-us-2007.00072
 [research_gage_vanderkam_2003]: https://doi.org/10.2514/6.2003-1330
@@ -7235,11 +6676,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_gaohua_jianmei_2014]: https://doi.org/10.1108/aeat-10-2012-0198
 [research_garcia_2008]: https://doi.org/10.1109/date.2008.4484898
 [research_garcia_fowler_1974]: https://doi.org/10.2514/3.62050
-[research_garciafernandez_fernandezbalbuena_2018]: https://doi.org/10.1201/9781315158648-54
 [research_garciapardo_sukhatme_2001]: https://doi.org/10.21236/ada593397
 [research_garciaquinchia_yiguo_2009]: https://doi.org/10.1109/isie.2009.5220306
 [research_gardinier_taylor_1999]: https://doi.org/10.2514/6.1999-1757
-[research_gardner_ashmore_2017]: https://doi.org/10.1111/sed.12409
 [research_garg_dodiyal_2009]: https://doi.org/10.1109/aero.2009.4839389
 [research_gaskell_2005]: https://doi.org/10.2514/6.2005-6813
 [research_gaverina_eiras_2026]: https://doi.org/10.1117/12.3096303
@@ -7297,7 +6736,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_goldstein_leiser_1978]: https://doi.org/10.1007/978-1-4615-9083-5_40
 [research_goldyn_marwege_2025]: https://doi.org/10.2514/1.a36174
 [research_golomazov_ivankov_2018]: https://doi.org/10.1134/s0038094618070109
-[research_golse_kneib_2002]: https://doi.org/10.1051/0004-6361:20020639
 [research_gomez_walker_2017]: https://doi.org/10.2514/1.g002081
 [research_gong_bing_2015]: https://doi.org/10.2514/6.2015-3606
 [research_gong_chen_2025]: https://doi.org/10.23919/acc63710.2025.11107562
@@ -7306,7 +6744,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_gong_wang_2022]: https://doi.org/10.3390/sym14091862
 [research_gong_zhang_2015]: https://doi.org/10.1109/tim.2015.2454672
 [research_gonzales_kurihara_2021]: https://doi.org/10.2514/6.2021-0871
-[research_goodchild_1995]: https://doi.org/10.1049/ic:19950801
 [research_goodyearaerospacecorpakronoh_1961]: https://doi.org/10.21236/ad0323899
 [research_goodyer_kilgore_1972]: https://doi.org/10.2514/6.1972-995
 [research_gopal_somaroutu_2026]: https://doi.org/10.2514/6.2026-2544
@@ -7320,8 +6757,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_gps_receiver_2005]: https://doi.org/10.1108/aeat.2005.12777dad.006
 [research_grabowsky_eldridge_1981]: https://doi.org/10.2514/6.1981-2372
 [research_grace_1964]: https://doi.org/10.2514/6.1964-296
-[research_gragg_black_1967]: https://doi.org/10.3758/bf03331607
-[research_grandy_1980]: https://doi.org/10.1002/j.2333-8504.1980.tb01222.x
 [research_grantham_williams_1987]: https://doi.org/10.2514/6.1987-2290
 [research_grantz_2011]: https://doi.org/10.2514/6.2011-7315
 [research_graovac_2007]: https://doi.org/10.5772/4767
@@ -7329,23 +6764,18 @@ The next article returns to a vehicle designed to be shot down.
 [research_graves_masciarelli_2002]: https://doi.org/10.2514/6.2002-4622
 [research_gray_2016]: https://doi.org/10.2514/6.2016-1034
 [research_green_fernandez_1994]: https://doi.org/10.2514/6.1994-2107
-[research_gregg_burdett_2011]: https://doi.org/10.1115/imece2011-65351
 [research_gregory_xargay_2011]: https://doi.org/10.2514/6.2011-6608
 [research_greiser_lantzsch_2011]: https://doi.org/10.4050/vfs-f67-000076
 [research_grenestedt_spletzer_2010]: https://doi.org/10.1109/cdc.2010.5717109
 [research_grenoble_nguyen_2018]: https://doi.org/10.2514/6.2018-1376
 [research_grewal_schneider_1976]: https://doi.org/10.1016/s1474-6670(17)67131-3
-[research_griffin_lambert_2005]: https://doi.org/10.3920/978-90-8686-549-9_072
 [research_griffin_takahashi_2022]: https://doi.org/10.2514/6.2022-3656
 [research_griffiths_miller_1986]: https://doi.org/10.21236/ada170357
 [research_grigoli_2024]: https://doi.org/10.52202/078373-0087
-[research_grimsley_mcdonald_1964]: https://doi.org/10.2466/pr0.1964.14.1.199
 [research_grodsky_mandour_1967]: https://doi.org/10.2514/6.1967-574
 [research_groener_stetson_1980]: https://doi.org/10.2514/6.1980-447
-[research_gromke_2018]: https://doi.org/10.1016/j.jweia.2018.01.036
 [research_grosse_schroder_2009]: https://doi.org/10.1080/14685240902953798
 [research_grossi_fabiani_2026]: https://doi.org/10.2514/6.2026-5034
-[research_grubbs_bergum_1974]: https://doi.org/10.3758/bf03333380
 [research_grubel_magni_1999]: https://doi.org/10.1016/s1270-9638(99)80035-2
 [research_grumondz_polishchuk_2012]: https://doi.org/10.3103/s1068799812030051
 [research_gryte_hansen_2017]: https://doi.org/10.2514/6.2017-1035
@@ -7356,7 +6786,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_guan_xu_2019]: https://doi.org/10.5772/intechopen.80343
 [research_guerrero_pelluault_2022]: https://doi.org/10.5162/ettc2022/4.3
 [research_guida_2023]: https://doi.org/10.21741/9781644902813-19
-[research_gulavani_chalipat_2019]: https://doi.org/10.4271/2019-26-0224
 [research_gulli_maddalena_2014]: https://doi.org/10.2514/1.a32980
 [research_gulli_maddalena_2014_b]: https://doi.org/10.2514/1.a32692
 [research_gulli_maddalena_2014_c]: https://doi.org/10.2514/6.2014-2804
@@ -7365,12 +6794,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_gunckel_1966]: https://doi.org/10.1016/b978-1-4831-6716-9.50006-0
 [research_gunderson_hardy_1965]: https://doi.org/10.1016/s1474-6670(17)69064-5
 [research_gunderson_hardy_1966]: https://doi.org/10.1007/978-1-4899-6411-3_3
-[research_guo_2006]: https://doi.org/10.1049/pbce069e_ch12
 [research_guo_chang_2018]: https://doi.org/10.1016/j.isatra.2018.04.001
 [research_guo_du_2025]: https://doi.org/10.1007/978-981-95-3025-0_10
 [research_guo_fang_2022]: https://doi.org/10.1088/1742-6596/2383/1/012127
 [research_guo_huang_2026]: https://doi.org/10.3724/j.issn.2096-9287.2025.20250067
-[research_guo_li_2015]: https://doi.org/10.2991/icmmcce-15.2015.164
 [research_guo_li_2020]: https://doi.org/10.2514/1.g004669
 [research_guo_luo_2025]: https://doi.org/10.1016/j.ast.2024.109891
 [research_guo_qi_2017]: https://doi.org/10.1109/ccdc.2017.7978346
@@ -7409,7 +6836,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_hallberg_cenko_2008]: https://doi.org/10.2514/6.2008-6381
 [research_hallion_becker_1995]: https://doi.org/10.21236/ada302634
 [research_hamburg_napolillo_2011]: https://doi.org/10.2514/6.2011-3658
-[research_hamby_1997]: https://doi.org/10.21236/ada328131
 [research_hameed_bindu_2019]: https://doi.org/10.1109/icaset.2019.8714376
 [research_hamel_garant_2025]: https://doi.org/10.52202/083087-0043
 [research_hamel_garant_2025_b]: https://doi.org/10.2514/6.2025-2075
@@ -7417,7 +6843,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_hammouche_sakhi_2016]: https://doi.org/10.5220/0005984103900397
 [research_han_2024]: https://doi.org/10.1016/j.sasc.2024.200105
 [research_han_2025]: https://doi.org/10.1109/iceace67491.2025.11439877
-[research_han_chen_2020]: https://doi.org/10.32604/fdmp.2020.06525
 [research_han_han_2015]: https://doi.org/10.1115/ajkfluids2015-04425
 [research_han_han_2024]: https://doi.org/10.1063/5.0196415
 [research_han_jiao_2022]: https://doi.org/10.1109/iccasit55263.2022.9986717
@@ -7443,7 +6868,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_harigae_tanabe_1990]: https://doi.org/10.1016/b978-0-08-037027-9.50009-4
 [research_harigae_tomita_2003]: https://doi.org/10.9746/sicetr1965.39.276
 [research_harl_2008]: https://doi.org/10.2514/6.2008-6215
-[research_harris_1977]: https://doi.org/10.1119/1.10847
 [research_harris_2018]: https://doi.org/10.2514/6.2018-3516
 [research_harris_stanford_2019]: https://doi.org/10.2514/5.9781624105678.0287.0312
 [research_harrison_1967]: https://doi.org/10.2514/6.1967-599
@@ -7467,12 +6891,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_he_zhang_2023]: https://doi.org/10.1007/978-981-19-6613-2_501
 [research_he_zhang_2025]: https://doi.org/10.1007/s10291-025-01898-6
 [research_he_zhao_2025]: https://doi.org/10.3390/en18133417
-[research_healey_2005]: https://doi.org/10.21236/ada436008
 [research_hebbar_pashilkar_2017]: https://doi.org/10.1007/s12046-017-0613-0
 [research_hecker_bestmann_2019]: https://doi.org/10.17285/0869-7035.0011
 [research_hedlund_higgins_1990]: https://doi.org/10.2514/6.1990-1379
 [research_hedlund_ragsdale_1985]: https://doi.org/10.2514/6.1985-226
-[research_heinemann_henning_2025]: https://doi.org/10.1109/ccta53793.2025.11151367
 [research_heisler_abel_2017]: https://doi.org/10.1109/aero.2017.7943703
 [research_helers_kraemer_1977]: https://doi.org/10.1016/0005-1098(77)90005-x
 [research_hellings_1973]: https://doi.org/10.21236/ad0763718
@@ -7480,7 +6902,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_hellman_remillard_2011]: https://doi.org/10.21236/ada554045
 [research_hellman_tejtel_2008]: https://doi.org/10.2514/6.2008-2566
 [research_hellman_wallace_2011]: https://doi.org/10.21236/ada551823
-[research_hellmann_2013]: https://doi.org/10.1007/978-3-658-02893-0_18
 [research_hemann_singh_2016]: https://doi.org/10.1109/iros.2016.7759267
 [research_hemsch_1988]: https://doi.org/10.2514/6.1988-216
 [research_hemsch_1989]: https://doi.org/10.2514/3.45723
@@ -7509,7 +6930,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_hilorme_nakashydze_2022]: https://doi.org/10.31891/2307-5732-2022-315-6-69-76
 [research_hiltz_florence_1968]: https://doi.org/10.2514/3.29469
 [research_hinchey_1968]: https://doi.org/10.2514/6.1968-345
-[research_hinostroza_lekkas_2024]: https://doi.org/10.1016/j.oceaneng.2024.117104
 [research_hintz_2015]: https://doi.org/10.1007/978-3-319-09444-1_3
 [research_hintz_2022]: https://doi.org/10.1007/978-3-030-96573-0_3
 [research_hirai_pecnik_2021]: https://doi.org/10.1103/physrevfluids.6.124603
@@ -7524,7 +6944,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_hoffman_zvara_1970]: https://doi.org/10.2514/3.29898
 [research_hofmannwellenhof_legat_2003]: https://doi.org/10.1007/978-3-7091-6078-7_11
 [research_hofsass_braun_2023]: https://doi.org/10.2514/6.2023-4223
-[research_hojjat_ghasemi_2024]: https://doi.org/10.1109/icecet61485.2024.10698265
 [research_holberg_grabowsky_1981]: https://doi.org/10.2514/6.1981-2492
 [research_holdo_1993]: https://doi.org/10.1016/0167-6105(93)90272-p
 [research_holley_brysonjr_1975]: https://doi.org/10.2514/6.1975-1077
@@ -7575,18 +6994,15 @@ The next article returns to a vehicle designed to be shot down.
 [research_hu_xiao_2024]: https://doi.org/10.1016/j.jfranklin.2023.12.038
 [research_hu_yang_2009]: https://doi.org/10.1080/13588260902896433
 [research_hua_yan_2018]: https://doi.org/10.1109/gncc42960.2018.9018695
-[research_hua_zhang_2017]: https://doi.org/10.1016/j.applthermaleng.2017.07.013
 [research_huan_guoliang_2015]: https://doi.org/10.1109/chicc.2015.7260524
 [research_huang_1968]: https://doi.org/10.1007/bf00928758
 [research_huang_2016]: https://doi.org/10.1109/ecc.2016.7810266
-[research_huang_bucchi_2023]: https://doi.org/10.1109/oceanslimerick52467.2023.10244654
 [research_huang_dai_2023]: https://doi.org/10.2514/1.a35612
 [research_huang_dai_2024]: https://doi.org/10.1088/1742-6596/2764/1/012068
 [research_huang_deng_2023]: https://doi.org/10.3390/app13031848
 [research_huang_fan_2022]: https://doi.org/10.2514/1.a35251
 [research_huang_gong_2024]: https://doi.org/10.1061/jaeeez.aseng-5205
 [research_huang_jia_2018]: https://doi.org/10.2991/jimec-18.2018.61
-[research_huang_li_2024]: https://doi.org/10.1093/tse/tdae006
 [research_huang_li_2025]: https://doi.org/10.2514/1.a36290
 [research_huang_lin_2020]: https://doi.org/10.1016/j.jweia.2019.104012
 [research_huang_liu_2009]: https://doi.org/10.2514/1.34476
@@ -7613,7 +7029,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_hui_yang_2013]: https://doi.org/10.4028/www.scientific.net/amm.275-277.567
 [research_huili_xiying_2023]: https://doi.org/10.1109/fpm57590.2023.10565438
 [research_hull_french_1981]: https://doi.org/10.2514/6.1981-1862
-[research_humaid_apriyanto_2021]: https://doi.org/10.21009/gjik.123.02
 [research_humes_1978]: https://doi.org/10.2514/3.28010
 [research_hummer_jurkovich_2018]: https://doi.org/10.2514/6.2018-3810
 [research_humphrey_humphrey_1997]: https://doi.org/10.2514/6.1997-3567
@@ -7623,22 +7038,18 @@ The next article returns to a vehicle designed to be shot down.
 [research_hunt_eiswirth_1996]: https://doi.org/10.2514/6.1996-4591
 [research_hunter_1973]: https://doi.org/10.1017/s0373463300021561
 [research_hunter_wilson_1976]: https://doi.org/10.2514/6.1976-930
-[research_huo_bouffard_2017]: https://doi.org/10.1109/epec.2017.8286143
 [research_hutter_johnk_2004]: https://doi.org/10.1007/978-3-662-06402-3_10
 [research_hutter_wang_2016]: https://doi.org/10.1007/978-3-319-33636-7_20
 [research_huweijun_zhoujun_2009]: https://doi.org/10.1109/icicisys.2009.5358312
 [research_huynh_kriz_2009]: https://doi.org/10.21236/ada640309
 [research_hwang_oh_2005]: https://doi.org/10.1007/s10291-005-0135-9
 [research_hyde_2005]: https://doi.org/10.2514/6.2005-5897
-[research_hydraulic_scaling_2019]: https://doi.org/10.35940/ijrte.b1066.0982s1019
 [research_hynes_hardy_1987]: https://doi.org/10.4271/872316
 [research_hyokawa_ueba_2023]: https://doi.org/10.3390/aerospace10040334
 [research_hypersonic_plane_2011]: https://doi.org/10.1063/pt.5.025508
 [research_hyslop_doherty_2021]: https://doi.org/10.2514/1.a34937
 [research_hyslop_mcgilvray_2022]: https://doi.org/10.2514/6.2022-1324
 [research_hyun_2005]: https://doi.org/10.2514/6.2005-7014
-[research_iai_1989]: https://doi.org/10.3208/sandf1972.29.105
-[research_ibrahim_hasanien_2023]: https://doi.org/10.1109/access.2023.3313259
 [research_ide_landman_2025]: https://doi.org/10.1108/ijius-11-2024-0335
 [research_iden_1959]: https://doi.org/10.1109/tane3.1959.4201676
 [research_iharasani_2015]: https://doi.org/10.5176/2382-5758_1.2.10
@@ -7646,9 +7057,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_iliev_nachev_2022]: https://doi.org/10.3390/s22176451
 [research_ilyinskii_potashev_2003]: https://doi.org/10.1023/a:1024293623876
 [research_improving_thermal_2001]: https://doi.org/10.1108/aeat.2001.12773aab.005
-[research_imran_khan_2016]: https://doi.org/10.1007/s10652-016-9488-6
 [research_in_flight_control_2006]: https://doi.org/10.1108/aeat.2006.12778aaf.009
-[research_inaoka_1993]: https://doi.org/10.1142/s0218348x93001052
 [research_inatani_akiba_1992]: https://doi.org/10.2514/6.1992-5053
 [research_india_to_2015]: https://doi.org/10.1063/pt.5.028943
 [research_indig_benasher_2017]: https://doi.org/10.2514/6.2017-1737
@@ -7674,19 +7083,16 @@ The next article returns to a vehicle designed to be shot down.
 [research_integrated_vision_inertial_1999]: https://doi.org/10.1109/acc.1999.786185
 [research_integration_of_1979]: https://doi.org/10.1016/0198-0254(79)94298-5
 [research_introduction_and_2022]: https://doi.org/10.1049/sbra550e_ch1
-[research_investigation_of_2018]: https://doi.org/10.1115/1.861851_ch117
 [research_irwin_2024]: https://doi.org/10.52202/078375-0033
 [research_isakhani_xiong_2021]: https://doi.org/10.1098/rsos.202253
 [research_ishida_nagai_2014]: https://doi.org/10.1299/jsmemecj.2014._s1910203-
 [research_ishida_nagai_2015]: https://doi.org/10.2514/6.2015-0244
 [research_ishiguro_kawasetsu_2023]: https://doi.org/10.3389/frobt.2023.1255666
-[research_ishihara_horie_2014]: https://doi.org/10.1299/jsmecmd.2014.27.403
 [research_ishikawa_ogasawara_2001]: https://doi.org/10.2514/6.2001-1879
 [research_ishimoto_1995]: https://doi.org/10.2514/6.1995-3286
 [research_ishimoto_fujii_2005]: https://doi.org/10.1016/j.actaastro.2005.03.045
 [research_ishimoto_takizawa_1996]: https://doi.org/10.2514/6.1996-3403
 [research_ishioka_uchiyama_2019]: https://doi.org/10.2514/6.2019-0358
-[research_iskander_2010]: https://doi.org/10.1007/978-3-642-13108-0_8
 [research_ismail_pashilkar_2015]: https://doi.org/10.1109/ccip.2015.7100733
 [research_isro_releases_the_2018]: https://doi.org/10.18520/cs/v114/i08/1596-1596
 [research_ito_akimoto_1990]: https://doi.org/10.2514/6.1990-5223
@@ -7756,7 +7162,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_jia_wang_2024]: https://doi.org/10.1109/icaace61206.2024.10548275
 [research_jiang_2011]: https://doi.org/10.1016/j.proeng.2011.10.002
 [research_jiang_chen_2018]: https://doi.org/10.1109/gncc42960.2018.9018655
-[research_jiang_kobayashi_2024]: https://doi.org/10.1016/j.buildenv.2024.111842
 [research_jiang_song_2017]: https://doi.org/10.2514/6.2017-2262
 [research_jiang_wang_2017]: https://doi.org/10.1007/978-3-319-46213-4_29
 [research_jiang_wang_2023]: https://doi.org/10.1016/j.triboint.2023.108501
@@ -7773,7 +7178,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_jiaxing_dayi_2025]: https://doi.org/10.1007/978-981-96-2212-2_40
 [research_jiayuan_peng_2018]: https://doi.org/10.1109/gncc42960.2018.9018894
 [research_jieliangzhihuilixuguoliweiboshi_2020]: https://doi.org/10.4208/cicp.oa-2016-0213
-[research_jimenez_capeltunon_2017]: https://doi.org/10.5220/0007901600280049
 [research_jin_huang_2025]: https://doi.org/10.1007/978-981-96-2204-7_31
 [research_jin_zhu_2017]: https://doi.org/10.2514/6.2017-1522
 [research_jindong_zhiqiang_2011]: https://doi.org/10.1109/isie.2011.20
@@ -7784,7 +7188,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_jo_ahn_2021]: https://doi.org/10.1016/j.ast.2020.106431
 [research_jo_ahn_2022]: https://doi.org/10.1016/j.ast.2022.107703
 [research_jobmann_thielecke_2024]: https://doi.org/10.36001/phme.2024.v8i1.4104
-[research_jochem_eberle_2025]: https://doi.org/10.4337/9781800376502.00025
 [research_joelp_r_2014]: https://doi.org/10.9790/1684-11236774
 [research_johannesen_vinh_1985]: https://doi.org/10.2514/6.1985-1817
 [research_johannsen_pfendler_1976]: https://doi.org/10.1007/978-1-4684-2523-9_8
@@ -7797,7 +7200,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_johnson_cerimele_2018]: https://doi.org/10.2514/6.2018-0615
 [research_johnson_lu_2020]: https://doi.org/10.2514/6.2020-1513
 [research_johnson_shalaev_2006]: https://doi.org/10.21236/ada573636
-[research_johnson_wang_2022]: https://doi.org/10.1111/jfr3.12786
 [research_johnston_candler_2023]: https://doi.org/10.2514/6.2023-0084
 [research_jones_1970]: https://doi.org/10.1017/s0373463300032471
 [research_jones_abel_1997]: https://doi.org/10.2514/6.1997-2800
@@ -7815,14 +7217,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_jordan_buffington_1987]: https://doi.org/10.2514/6.1987-2364
 [research_jordan_langford_2005]: https://doi.org/10.2514/6.2005-6432
 [research_jordanjr_1980]: https://doi.org/10.2514/6.1980-427
-[research_jorgensen_1979]: https://doi.org/10.1119/1.11872
 [research_joshi_compton_1985]: https://doi.org/10.2514/6.1985-3075
 [research_joshi_jeon_2015]: https://doi.org/10.1061/(asce)as.1943-5525.0000395
 [research_jouannet_berry_2012]: https://doi.org/10.1108/00022661211222058
 [research_jouannet_lundstrom_2017]: https://doi.org/10.2514/6.2017-4075
 [research_jouhaud_1992]: https://doi.org/10.1016/0094-5765(92)90148-c
 [research_jouhaud_ferreres_2007]: https://doi.org/10.3182/20070625-5-fr-2916.00054
-[research_jspanwar_gnclark_1973]: https://doi.org/10.13031/2013.37636
 [research_ju_jiang_2024]: https://doi.org/10.3390/math12193024
 [research_ju_tsai_2005]: https://doi.org/10.3182/20050703-6-cz-1902.01983
 [research_ju_wei_2022]: https://doi.org/10.1016/j.actaastro.2021.11.015
@@ -7843,7 +7243,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kahn_edwards_2019]: https://doi.org/10.2514/1.g004247
 [research_kai_anglade_2018]: https://doi.org/10.1109/cdc.2018.8619827
 [research_kai_ohtake_1996]: https://doi.org/10.2514/6.1996-4526
-[research_kaka_jain_2024]: https://doi.org/10.4271/2024-01-2308
 [research_kalden_2007]: https://doi.org/10.1109/rast.2007.4283979
 [research_kalikhman_kalikhman_2018]: https://doi.org/10.23919/icins.2018.8405927
 [research_kalman_filter_1999]: https://doi.org/10.2514/5.9781600861994.0095.0107
@@ -7860,8 +7259,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_karasopoulos_cervisi_1998]: https://doi.org/10.2514/6.1998-4149
 [research_kare_2003]: https://doi.org/10.1063/1.1582151
 [research_karel_1967]: https://doi.org/10.4271/670378
-[research_kargarmoakhar_chowdhury_2015]: https://doi.org/10.12989/was.2015.20.2.327
-[research_kargarmoakhar_mooneghi_2017]: https://doi.org/10.1061/9780784480403.013
 [research_kargin_haser_2018]: https://doi.org/10.2514/6.2018-3151
 [research_kariya_tanaka_2020]: https://doi.org/10.1299/jsmermd.2020.2a1-b01
 [research_karl_martinezschramm_2020]: https://doi.org/10.1007/s12567-020-00307-7
@@ -7874,7 +7271,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kashkovsky_2014]: https://doi.org/10.1063/1.4902593
 [research_kashkovsky_vashchenkov_2014]: https://doi.org/10.1134/s0869864314060067
 [research_kashkovsky_vashchenkov_2019]: https://doi.org/10.1063/1.5119609
-[research_kasuda_2011]: https://doi.org/10.21236/ad1018752
 [research_kato_1991]: https://doi.org/10.2322/jjsass1969.39.580
 [research_katz_roglin_2000]: https://doi.org/10.2514/2.2658
 [research_kaushik_anemaat_2012]: https://doi.org/10.2514/6.2012-3228
@@ -7888,9 +7284,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_kawato_watanabe_2003]: https://doi.org/10.2514/6.2003-7059
 [research_kaynak_2010]: https://doi.org/10.3182/20100906-5-jp-2022.00012
 [research_kayton_1968]: https://doi.org/10.1109/taes.1968.5409036
-[research_kazolea_lteif_2025]: https://doi.org/10.1016/j.compfluid.2025.106699
 [research_ke_zhengzhong_2014]: https://doi.org/10.1109/cgncc.2014.7007248
-[research_keane_smyth_2001]: https://doi.org/10.1093/acprof:oso/9780198506287.003.0010
 [research_keidel_fasel_2019]: https://doi.org/10.2514/6.2019-0854
 [research_keke_qing_2014]: https://doi.org/10.1109/cgncc.2014.7007393
 [research_keller_2016]: https://doi.org/10.21236/ad1011921
@@ -7903,7 +7297,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kelly_menich_2010]: https://doi.org/10.2514/6.2010-8872
 [research_kempel_1970]: https://ntrs.nasa.gov/citations/19710000629
 [research_kempel_painter_1994]: https://doi.org/10.2514/6.1994-2180
-[research_kenan_azeloglu_2020]: https://doi.org/10.1016/j.engstruct.2020.110985
 [research_kendall_idris_2022]: https://doi.org/10.2514/6.2022-3759
 [research_kendoul_2012]: https://doi.org/10.1002/rob.20414
 [research_kendoul_2013]: https://doi.org/10.1177/0278364913509496
@@ -7950,8 +7343,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kim_ko_2026]: https://doi.org/10.2514/6.2026-1707
 [research_kim_langley_2003]: https://doi.org/10.1002/j.2161-4296.2003.tb00322.x
 [research_kim_lee_2006]: https://doi.org/10.5081/jgps.5.1.82
-[research_kim_lee_2009]: https://doi.org/10.1016/j.engstruct.2008.06.008
-[research_kim_lee_2019]: https://doi.org/10.1016/j.jbiomech.2019.04.022
 [research_kim_lee_2021]: https://doi.org/10.3390/en14113210
 [research_kim_shin_2015]: https://doi.org/10.1115/imece2015-52474
 [research_kim_tahk_2019]: https://doi.org/10.1007/s42405-019-00192-3
@@ -7962,10 +7353,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_kimmel_adamczak_2011]: https://doi.org/10.21236/ada548272
 [research_kimura_nagata_2022]: https://doi.org/10.1299/jsmefed.2022.os03-04
 [research_kineyko_1982]: https://doi.org/10.21236/ada119003
-[research_kintsch_1962]: https://doi.org/10.1037/h0043377
 [research_kirkpatrick_1989]: https://doi.org/10.2514/6.1989-495
 [research_kish_rhoney_2017]: https://doi.org/10.1109/aero.2017.7943672
-[research_klein_1980]: https://doi.org/10.1016/0370-2693(80)90082-9
 [research_kleinert_schleith_2010]: https://doi.org/10.1109/mfi.2010.5604453
 [research_klevatt_gaubatz_1998]: https://doi.org/10.1063/1.54948
 [research_klewicki_2010]: https://doi.org/10.1115/1.4002167
@@ -7987,14 +7376,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_knab_gogel_1995]: https://doi.org/10.2514/6.1995-623
 [research_knapp_1999]: https://doi.org/10.2514/6.1999-4932
 [research_knapp_ivler_2017]: https://doi.org/10.4050/f-0073-2017-12185
-[research_knappett_brown_2018]: https://doi.org/10.1201/9780429438660-30
 [research_kobald_fischer_2017]: https://doi.org/10.2514/6.2017-4902
 [research_kobald_fischer_2018]: https://doi.org/10.2514/1.a34035
 [research_kobayakawa_maeda_1978]: https://doi.org/10.2514/3.58403
 [research_kobayashi_maita_1995]: https://doi.org/10.2514/6.1995-6002
 [research_kobayashi_sato_2001]: https://doi.org/10.2514/6.2001-1912
 [research_kobayashi_tanatsugu_2001]: https://doi.org/10.2514/6.2001-3965
-[research_kober_huber_2016]: https://doi.org/10.1007/978-3-319-31895-0_6
 [research_kocamer_uzun_2022]: https://doi.org/10.56753/asrel.2022.2.5
 [research_koch_wilken_2025]: https://doi.org/10.1007/s12567-025-00597-9
 [research_kock_1972]: https://ntrs.nasa.gov/citations/19720011372
@@ -8009,7 +7396,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kokan_olds_2002]: https://doi.org/10.2514/6.2002-3905
 [research_kolesnikov_2005]: https://doi.org/10.2514/6.2005-5977
 [research_kolevatov_ulyanovskaya_2019]: https://doi.org/10.1134/s2075108719030052
-[research_kolkman_2026]: https://doi.org/10.1201/9781003763307-57
 [research_kolodziej_rasky_2003]: https://doi.org/10.2514/6.2003-3766
 [research_komar_christenson_1996]: https://doi.org/10.2514/6.1996-4246
 [research_komatsu_ohyagi_2001]: https://doi.org/10.1299/jsmesec.2001.9.83
@@ -8046,8 +7432,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kreienkamp_luessenheide_1985]: https://doi.org/10.2466/pr0.1985.57.2.465
 [research_krempasky_1996]: https://doi.org/10.2514/6.1996-3816
 [research_kreutz_1971]: https://doi.org/10.4050/jahs.16.17
-[research_kriebel_dally_1986]: https://doi.org/10.9753/icce.v20.95
-[research_kriebel_dally_1987]: https://doi.org/10.1061/9780872626003.095
 [research_kriegsman_tao_1974]: https://doi.org/10.2514/6.1974-866
 [research_krishnamoorthy_clarke_2016]: https://doi.org/10.1155/2016/8401249
 [research_krishnan_sajikumar_2023]: https://doi.org/10.1063/5.0157175
@@ -8057,7 +7441,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_kruggel_sigal_1999]: https://doi.org/10.2514/6.1999-435
 [research_krumenacker_pellicano_1992]: https://doi.org/10.2514/6.1992-4108
 [research_kryvoruka_ashurst_1973]: https://doi.org/10.2514/6.1973-183
-[research_kubo_nogami_2026]: https://doi.org/10.1201/9781003761891-32
 [research_kubo_suzuki_2007]: https://doi.org/10.2514/6.2007-2752
 [research_kubo_suzuki_2008]: https://doi.org/10.2514/1.30122
 [research_kubota_hashimoto_2003]: https://doi.org/10.1016/s0094-5765(02)00147-9
@@ -8094,12 +7477,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_kunwar_putra_2026]: https://doi.org/10.2514/6.2026-2288
 [research_kuppuswamy_kiran_1981]: https://doi.org/10.2514/6.1981-2381
 [research_kurdel_gecejova_2024]: https://doi.org/10.3390/aerospace11010082
-[research_kurelek_pique_2023]: https://doi.org/10.1016/j.jweia.2023.105377
 [research_kurniawan_stefanie_2022]: https://doi.org/10.30736/je-unisla.v7i1.755
 [research_kurowski_haghani_2015]: https://doi.org/10.1515/auto-2014-1173
 [research_kutluay_mahmutyazicioglu_2009]: https://doi.org/10.2514/6.2009-5724
 [research_kuzin_lozin_2009]: https://doi.org/10.2514/6.2009-6732
-[research_kuzmynchuk_kutsenko_2023]: https://doi.org/10.1007/978-3-031-30800-0_4
 [research_kwon_park_2013]: https://doi.org/10.9766/kimst.2013.16.3.268
 [research_kwon_yee_2025]: https://doi.org/10.1007/s42405-025-01047-w
 [research_la_shivananda_1993]: https://doi.org/10.2514/6.1993-3692
@@ -8124,10 +7505,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_landman_burnette_2022_b]: https://doi.org/10.2514/6.2022-3641.c1
 [research_langberg_tyler_2022]: https://doi.org/10.1109/aero53065.2022.9843527
 [research_langelaan_grande_2013]: https://doi.org/10.4050/vfs-f69-0293
-[research_langer_rosenblatt_1997]: https://doi.org/10.1007/978-1-4615-6325-9_14
 [research_langston_1967]: https://doi.org/10.21236/ad0813281
 [research_langston_peterson_2021]: https://doi.org/10.2514/1.a34911
-[research_lanli_zhukuanyi_2007]: https://doi.org/10.1109/icca.2007.4376728
 [research_lapygin_yakunina_2009]: https://doi.org/10.1016/j.jappmathmech.2009.11.004
 [research_large_scale_model_2014]: https://doi.org/10.1007/978-3-642-41714-6_120481
 [research_larose_dauteuil_2008]: https://doi.org/10.1016/j.jweia.2007.06.018
@@ -8136,13 +7515,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_larsen_2005]: https://doi.org/10.2514/6.2005-6795
 [research_larson_1972]: https://ntrs.nasa.gov/citations/19720011245
 [research_laub_white_2006]: https://doi.org/10.2514/1.19218
-[research_laudahn_sviberg_2018]: https://doi.org/10.1007/978-3-319-98020-1_30
 [research_lauer_2006]: https://doi.org/10.2514/6.iac-06-d2.4.08
 [research_lauer_2007]: https://doi.org/10.1016/j.actaastro.2007.01.050
 [research_laumann_1966]: https://doi.org/10.2514/6.1966-772
 [research_launius_2013]: https://doi.org/10.2514/5.9781624102172.0001.0024
 [research_launius_2013_b]: https://doi.org/10.1111/1600-0498.12037
-[research_lauterbach_ehrenfried_2012]: https://doi.org/10.1260/1475-4738.11.4.35
 [research_lavender_1965]: https://doi.org/10.2514/6.1965-1124
 [research_lavergne_villaume_2005]: https://doi.org/10.2514/6.2005-5848
 [research_law_mcwhorter_1992]: https://doi.org/10.2514/6.1992-1273
@@ -8171,16 +7548,13 @@ The next article returns to a vehicle designed to be shot down.
 [research_lee_han_2012]: https://doi.org/10.1088/0964-1726/21/9/094023
 [research_lee_jo_2026]: https://doi.org/10.3390/aerospace13010079
 [research_lee_kim_2026]: https://doi.org/10.2514/6.2026-5074
-[research_lee_lee_2020]: https://doi.org/10.1016/j.renene.2020.03.097
 [research_lee_mesbahi_2017]: https://doi.org/10.2514/1.g001879
 [research_lee_park_2011]: https://doi.org/10.5302/j.icros.2011.17.8.833
-[research_lee_park_2012]: https://doi.org/10.1016/j.jbiomech.2012.05.036
 [research_lee_park_2021]: https://doi.org/10.3390/app11188555
 [research_lee_park_2025]: https://doi.org/10.2514/1.g008809
 [research_lee_payan_2022]: https://doi.org/10.1109/dasc55683.2022.9925756
 [research_lee_ryu_2003]: https://doi.org/10.1088/0964-1726/12/1/317
 [research_lee_soon_2008]: https://doi.org/10.1017/s037346330700464x
-[research_lee_yuvamitra_2020]: https://doi.org/10.1201/9781003151944-11
 [research_lefevre_lock_2025]: https://doi.org/10.2514/1.a35636
 [research_legoff_moreau_2013]: https://doi.org/10.1016/j.actaastro.2013.03.025
 [research_lei_li_2012]: https://doi.org/10.3390/s121013212
@@ -8218,7 +7592,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_li_chao_2018]: https://doi.org/10.23919/chicc.2018.8482793
 [research_li_chao_2018_b]: https://doi.org/10.1109/gncc42960.2018.9019175
 [research_li_chao_2022]: https://doi.org/10.1016/j.ast.2022.107364
-[research_li_chen_2010]: https://doi.org/10.1155/2010/749517
 [research_li_cheng_2021]: https://doi.org/10.1049/rsn2.12092
 [research_li_cui_2006]: https://doi.org/10.1016/j.ast.2005.12.003
 [research_li_cui_2007]: https://doi.org/10.1016/j.ast.2007.04.006
@@ -8227,7 +7600,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_li_cui_2013]: https://doi.org/10.1109/qr2mse.2013.6625699
 [research_li_du_2026]: https://doi.org/10.1016/j.ceramint.2026.04.095
 [research_li_duan_2015]: https://doi.org/10.1016/j.ast.2015.01.017
-[research_li_gao_2022]: https://doi.org/10.1177/09544097221138885
 [research_li_guo_2022]: https://doi.org/10.1007/s10291-022-01297-1
 [research_li_hu_2018]: https://doi.org/10.1016/j.ast.2017.12.037
 [research_li_hu_2023]: https://doi.org/10.1007/978-981-19-6613-2_627
@@ -8251,23 +7623,19 @@ The next article returns to a vehicle designed to be shot down.
 [research_li_qian_2014]: https://doi.org/10.3724/sp.j.1146.2012.01065
 [research_li_shen_2010]: https://doi.org/10.1061/41096(366)178
 [research_li_shi_2022]: https://doi.org/10.3934/jimo.2020180
-[research_li_sun_2019]: https://doi.org/10.3390/en12040627
 [research_li_sun_2023]: https://doi.org/10.1016/j.ssci.2022.105992
 [research_li_wang_2016]: https://doi.org/10.1017/s0373463315001083
 [research_li_wang_2024]: https://doi.org/10.1142/s2737480724500250
 [research_li_wang_2025]: https://doi.org/10.2514/1.a36377
-[research_li_wang_2026]: https://doi.org/10.1016/j.soildyn.2025.109975
 [research_li_wu_2017]: https://doi.org/10.2514/6.2017-2344
 [research_li_wu_2024]: https://doi.org/10.1117/12.3014827
 [research_li_xia_2024]: https://doi.org/10.3390/drones8100571
 [research_li_xiao_2018]: https://doi.org/10.1360/n092018-00034
 [research_li_xiao_2021]: https://doi.org/10.1007/978-981-15-8155-7_185
 [research_li_xiong_2025]: https://doi.org/10.1088/1742-6596/3044/1/012002
-[research_li_xu_2022]: https://doi.org/10.1016/j.jweia.2022.104938
 [research_li_xu_2024]: https://doi.org/10.3390/drones8100568
 [research_li_xu_2025]: https://doi.org/10.3390/aerospace12040280
 [research_li_yang_2012]: https://doi.org/10.4028/www.scientific.net/amr.452-453.548
-[research_li_yang_2017]: https://doi.org/10.1063/1.5018744
 [research_li_yavuz_2004]: https://doi.org/10.1115/ht-fed2004-56814
 [research_li_zeng_2023]: https://doi.org/10.1007/978-981-19-6613-2_690
 [research_li_zhai_2024]: https://doi.org/10.1007/978-981-97-5300-0_10
@@ -8278,8 +7646,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_li_zhang_2023]: https://doi.org/10.3390/app13179828
 [research_li_zhao_2023]: https://doi.org/10.1016/j.ast.2023.108616
 [research_li_zhao_2025]: https://doi.org/10.1016/j.ast.2025.110226
-[research_li_zheng_2011]: https://doi.org/10.4028/www.scientific.net/amm.105-107.1547
-[research_li_zhou_2019]: https://doi.org/10.1680/jphmg.17.00014
 [research_lian_bang_2004]: https://doi.org/10.2514/6.2004-5328
 [research_liang_2024]: https://doi.org/10.54097/d1b0pg47
 [research_liang_2024_b]: https://doi.org/10.54097/ee2pgs04
@@ -8306,16 +7672,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_likhachev_sikharulidze_2014]: https://doi.org/10.1134/s0038094614070132
 [research_lin_2025]: https://doi.org/10.5220/0014773000004818
 [research_lin_cui_2022]: https://doi.org/10.1088/1742-6596/2203/1/012020
-[research_lin_hang_2021]: https://doi.org/10.1016/j.buildenv.2021.107965
 [research_lin_meghdadhasheminasab_2020]: https://doi.org/10.1109/icuas48674.2020.9214049
 [research_lin_qi_2020]: https://doi.org/10.23919/ccc50068.2020.9188609
 [research_lin_tseng_2026]: https://doi.org/10.1177/00368504261448346
-[research_lin_xiao_2022]: https://doi.org/10.2139/ssrn.4051708
-[research_lin_xiao_2023]: https://doi.org/10.1016/j.engstruct.2023.115961
 [research_lina_whitten_1968]: https://doi.org/10.2514/6.1968-191
 [research_lindberg_schade_1997]: https://doi.org/10.2514/6.1997-5629
 [research_ling_2017]: https://doi.org/10.2514/6.2017-4210
-[research_ling_yingtao_2016]: https://doi.org/10.14311/cej.2016.03.0018
 [research_linlin_jianqiao_2015]: https://doi.org/10.1109/chicc.2015.7260426
 [research_lippitt_jr_1983]: https://doi.org/10.21236/ada130685
 [research_liseitsev_2025]: https://doi.org/10.1007/978-981-96-4599-2_21
@@ -8328,13 +7690,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_liu_2025_b]: https://doi.org/10.1109/comea66280.2025.11241751
 [research_liu_chen_2002]: https://doi.org/10.21236/ada403577
 [research_liu_chen_2017]: https://doi.org/10.2991/iccia-17.2017.155
-[research_liu_chen_2024]: https://doi.org/10.1016/j.oceaneng.2024.118501
 [research_liu_dai_2017]: https://doi.org/10.2514/6.2017-2284
 [research_liu_di_2023]: https://doi.org/10.3390/su151612477
 [research_liu_ding_2014]: https://doi.org/10.1016/j.actaastro.2014.04.024
 [research_liu_dong_2021]: https://doi.org/10.1016/j.cja.2020.04.026
-[research_liu_fu_2023]: https://doi.org/10.1016/j.jobe.2022.105660
-[research_liu_gao_2019]: https://doi.org/10.1109/oceanse.2019.8867117
 [research_liu_gong_2023]: https://doi.org/10.1115/1.4063229
 [research_liu_hao_2023]: https://doi.org/10.1007/978-981-19-6613-2_432
 [research_liu_he_2017]: https://doi.org/10.23919/chicc.2017.8028281
@@ -8342,14 +7701,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_liu_hou_2020]: https://doi.org/10.32604/cmes.2020.08124
 [research_liu_hu_2023]: https://doi.org/10.1007/978-981-19-6613-2_440
 [research_liu_hu_2024]: https://doi.org/10.3390/act13070259
-[research_liu_kang_2020]: https://doi.org/10.1002/tee.23091
 [research_liu_kuang_2025]: https://doi.org/10.1007/978-981-95-3010-6_40
 [research_liu_lee_2022]: https://doi.org/10.1109/cacs55319.2022.9969843
 [research_liu_li_2006]: https://doi.org/10.2514/6.2006-6547
 [research_liu_li_2011]: https://doi.org/10.4028/www.scientific.net/amr.383-390.1452
-[research_liu_li_2019]: https://doi.org/10.1061/(asce)as.1943-5525.0001033
 [research_liu_li_2021]: https://doi.org/10.23919/icins43216.2021.9470853
-[research_liu_li_2023]: https://doi.org/10.1016/j.enconman.2023.117728
 [research_liu_liang_2025]: https://doi.org/10.1016/j.ast.2025.110448
 [research_liu_liu_2015]: https://doi.org/10.1117/12.2205564
 [research_liu_liu_2018]: https://doi.org/10.1080/00207179.2018.1426882
@@ -8357,13 +7713,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_liu_liu_2025]: https://doi.org/10.1088/1742-6596/3141/1/012039
 [research_liu_liu_2025_b]: https://doi.org/10.1109/rcae66389.2025.11355191
 [research_liu_liu_2025_c]: https://doi.org/10.1109/cac67268.2025.11487021
-[research_liu_liu_2025_d]: https://doi.org/10.1088/1742-6596/3033/1/012034
 [research_liu_luo_2012]: https://doi.org/10.1061/9780784412442.328
-[research_liu_ma_2014]: https://doi.org/10.5359/jawe.39.340
 [research_liu_pan_2013]: https://doi.org/10.1007/978-3-642-40063-6_12
 [research_liu_pei_2024]: https://doi.org/10.3846/transport.2024.20542
 [research_liu_ren_2015]: https://doi.org/10.1108/ijicc-05-2015-0016
-[research_liu_sun_2022]: https://doi.org/10.1016/j.jweia.2022.105080
 [research_liu_sun_2025]: https://doi.org/10.1016/j.conengprac.2025.106314
 [research_liu_wang_2011]: https://doi.org/10.1109/icecc.2011.6066471
 [research_liu_wang_2016]: https://doi.org/10.1109/chicc.2016.7555029
@@ -8371,8 +7724,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_liu_wang_2023]: https://doi.org/10.3390/aerospace10110953
 [research_liu_wang_2023_b]: https://doi.org/10.1145/3632971.3633003
 [research_liu_wang_2025]: https://doi.org/10.1177/14759217251382094
-[research_liu_wassgren_2016]: https://doi.org/10.1016/j.powtec.2016.04.017
-[research_liu_xia_2011]: https://doi.org/10.4028/www.scientific.net/amm.80-81.626
 [research_liu_xiao_2019]: https://doi.org/10.1007/978-981-13-6061-9_13
 [research_liu_yan_2023]: https://doi.org/10.1109/itoec57671.2023.10291601
 [research_liu_zhang_2017]: https://doi.org/10.1016/j.cja.2017.06.008
@@ -8383,10 +7734,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_liu_zhou_2006]: https://doi.org/10.1109/chicc.2006.280702
 [research_liuzhi_wangyong_2012]: https://doi.org/10.1109/aero.2012.6187321
 [research_livingston_1965]: https://doi.org/10.21236/ad0619157
-[research_llorente_gorostidi_2014]: https://doi.org/10.1088/1742-6596/524/1/012012
 [research_lobl_weiss_2018]: https://doi.org/10.2514/6.2018-1598
-[research_loebis_naeem_2006]: https://doi.org/10.1049/pbce069e_ch7
-[research_loebis_naeem_2006_b]: https://doi.org/10.1002/acs.929
 [research_logsdon_williamson_1997]: https://doi.org/10.1016/s0265-9646(97)00010-6
 [research_longani_2000]: https://doi.org/10.1063/1.1302572
 [research_looye_joos_2001]: https://doi.org/10.2514/6.2001-4206
@@ -8409,7 +7757,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_lu_harris_2017]: https://doi.org/10.1109/icuas.2017.7991399
 [research_lu_lei_2010]: https://doi.org/10.1108/00022661011028074
 [research_lu_lei_2017]: https://doi.org/10.1038/s41598-017-04061-5
-[research_lu_ma_2009]: https://doi.org/10.1109/appeec.2009.4918296
 [research_lu_tao_2025]: https://doi.org/10.1007/978-981-97-9765-3_21
 [research_lu_wang_2010]: https://doi.org/10.4028/www.scientific.net/amm.42.118
 [research_lu_wang_2021]: https://doi.org/10.1109/icpics52425.2021.9524290
@@ -8423,7 +7770,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_lugo_dwyercianciolo_2022]: https://doi.org/10.2514/6.2022-0607
 [research_lugo_tolson_2014]: https://doi.org/10.2514/6.2014-0388
 [research_lukeke_yujinyong_2016]: https://doi.org/10.1109/cgncc.2016.7829047
-[research_lukpanov_2024]: https://doi.org/10.21660/2024.117.4167
 [research_lund_2004]: https://doi.org/10.2514/6.2004-6544
 [research_lungu_2017]: https://doi.org/10.2316/p.2017.848-004
 [research_lungu_lungu_2011]: https://doi.org/10.1109/lindi.2011.6031131
@@ -8461,7 +7807,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_ma_zhao_2005]: https://doi.org/10.1007/978-3-540-27009-6_20
 [research_maass_woicke_2020]: https://doi.org/10.2514/1.g004850
 [research_macallister_1955]: https://doi.org/10.21236/ad0062045
-[research_machacek_pospisil_2020]: https://doi.org/10.1051/matecconf/202031300053
 [research_machin_daum_2026]: https://doi.org/10.2514/6.2026-3852
 [research_machnik_decker_2022]: https://doi.org/10.5162/ettc2022/4.2
 [research_mackay_ellingson_2016]: https://doi.org/10.2514/6.2016-1137
@@ -8469,7 +7814,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_macklnnon_madden_1972]: https://doi.org/10.2514/3.59028
 [research_macleod_2026]: https://doi.org/10.59332/jbis-079-01-0017
 [research_macmillan_1981]: https://doi.org/10.2514/6.1981-2350
-[research_macneill_barkdoll_2025]: https://doi.org/10.3390/biomimetics10040234
 [research_macy_shea_1989]: https://doi.org/10.4271/892335
 [research_madden_1958]: https://doi.org/10.21236/ad0160389
 [research_madden_desai_1973]: https://doi.org/10.2514/6.1973-903
@@ -8478,7 +7822,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_maeda_otsuki_2014]: https://doi.org/10.1299/jsmemovic.2014.12._3c22-1_
 [research_maeda_otsuki_2016]: https://doi.org/10.2514/6.2016-5595
 [research_maemori_tanigawa_2003]: https://doi.org/10.1115/detc2003/dac-48765
-[research_magelli_pagano_2025]: https://doi.org/10.1016/j.wear.2025.206105
 [research_magoon_treadwell_2009]: https://doi.org/10.1142/9789814282024_0016
 [research_mahmood_2025]: https://doi.org/10.1007/s42496-025-00285-1
 [research_mahmood_rehman_2022]: https://doi.org/10.3390/drones6110360
@@ -8497,7 +7840,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_makizono_sasaki_2015]: https://doi.org/10.1299/jsmekyushu.2015.68.167
 [research_malloy_chang_1998]: https://doi.org/10.1115/1.2802410
 [research_mammarella_rodrigalvarez_2011]: https://doi.org/10.1007/978-3-642-19817-5_32
-[research_manabe_1989]: https://doi.org/10.1299/jsmec1988.32.200
 [research_mandal_gu_2016]: https://doi.org/10.2514/6.2016-0636
 [research_manfred_ryno_2008]: https://doi.org/10.1109/icnsurv.2008.4559165
 [research_mani_2007]: https://doi.org/10.1109/dasc.2007.4391941
@@ -8507,8 +7849,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_manning_baum_1992]: https://doi.org/10.2514/6.1992-4115
 [research_manning_gleason_1992]: https://doi.org/10.2514/6.1992-4425
 [research_manokaran_vidya_2009]: https://doi.org/10.2514/1.39732
-[research_mansharamani_bag_2009]: https://doi.org/10.1109/cseet.2009.13
-[research_mao_chirwa_2006]: https://doi.org/10.1533/ijcr.2005.0383
 [research_mao_dou_2018]: https://doi.org/10.1002/rnc.4349
 [research_mao_xue_2019]: https://doi.org/10.1007/978-981-13-3305-7_10
 [research_marantos_karras_2017]: https://doi.org/10.1007/s10846-017-0702-7
@@ -8542,7 +7882,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
 [research_masilamani_kumar_2018]: https://doi.org/10.18520/cs/v114/i01/84-100
 [research_mason_zahn_2021]: https://doi.org/10.2514/6.2021-0569
-[research_mastin_jaillet_2014]: https://doi.org/10.1007/s10957-014-0603-x
 [research_mastromatteo_gaverina_2023]: https://doi.org/10.12783/shm2023/37054
 [research_mastromatteo_gaverina_2026]: https://doi.org/10.58286/33864
 [research_mathavaraj_halbe_2010]: https://doi.org/10.2514/6.2010-8312
@@ -8552,13 +7891,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_matranga_1959a]: https://ntrs.nasa.gov/citations/19630004018
 [research_matranga_1959b]: https://ntrs.nasa.gov/citations/19980235626
 [research_matsuda_kihara_2013]: https://doi.org/10.1016/j.proeng.2013.12.025
-[research_matsuda_tokushige_2026]: https://doi.org/10.1201/9781003761891-37
 [research_matsumoto_1994]: https://doi.org/10.5359/jawe.1994.59_15
 [research_matsumoto_kondoh_2015]: https://doi.org/10.2514/6.2015-1772
 [research_matsunaga_takahashi_2017]: https://doi.org/10.2514/6.2017-0263
-[research_matusiak_piotrowski_2015]: https://doi.org/10.1109/eem.2015.7216612
 [research_matveev_2017]: https://doi.org/10.23919/icins.2017.7995628
-[research_matveev_sung_2022]: https://doi.org/10.5957/smc-2022-030
 [research_maughmer_axten_2021]: https://doi.org/10.2514/6.2021-2514
 [research_maurya_wang_2021]: https://doi.org/10.4050/jahs.66.042005
 [research_maxwell_2017]: https://doi.org/10.2514/6.2017-4317
@@ -8573,7 +7909,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_mccabe_brown_2017]: https://doi.org/10.2514/6.2017-1498
 [research_mccabe_demars_2018]: https://doi.org/10.2514/6.2018-1332
 [research_mccafferty_woodward_2014]: https://doi.org/10.2514/6.2014-0979
-[research_mcclimans_gjerp_1978]: https://doi.org/10.1061/9780872621909.179
 [research_mcclinton_voland_1998]: https://doi.org/10.2514/6.1998-2866
 [research_mcclure_1998]: https://doi.org/10.2514/6.1998-5139
 [research_mcclure_sirbaugh_1991]: https://doi.org/10.21236/ada232101
@@ -8591,8 +7926,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_mcnally_dsurney_2015]: https://doi.org/10.1177/1073191115588783
 [research_mcnally_warner_1992]: https://doi.org/10.1002/j.2161-4296.1992.tb01872.x
 [research_mcquellin_buttsworth_2024]: https://doi.org/10.2514/6.2024-2889
-[research_mctavish_feszty_2012]: https://doi.org/10.1115/gt2012-69335
-[research_mctavish_feszty_2013]: https://doi.org/10.1016/j.jweia.2013.07.006
 [research_mctigue_1970]: https://ntrs.nasa.gov/citations/19710000628
 [research_mctigue_layton_1969]: https://doi.org/10.4271/690662
 [research_mctigue_ryan_1968]: https://doi.org/10.1111/j.1749-6632.1968.tb15241.x
@@ -8655,10 +7988,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_mikhailov_nedelko_2012]: https://doi.org/10.3103/s1068799812030130
 [research_mikhailov_nedelko_2012_b]: https://doi.org/10.3103/s1068799812020067
 [research_miki_fujii_2018]: https://doi.org/10.2514/6.2018-0382
-[research_miklavcic_tokar_2026]: https://doi.org/10.1122/8.0001079
 [research_mikrin_orlovskii_2020]: https://doi.org/10.23919/icins43215.2020.9133923
 [research_mikula_holthaus_2000]: https://doi.org/10.2514/6.2000-5073
-[research_milani_marzbani_2021]: https://doi.org/10.1080/00423114.2021.1909736
 [research_miller_kazemba_2023]: https://doi.org/10.2514/1.a35500
 [research_miller_kazemba_2023_b]: https://doi.org/10.2514/1.a35595
 [research_millerjr_1979]: https://doi.org/10.2514/6.1979-1678
@@ -8669,14 +8000,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_minami_tsukamoto_2006]: https://doi.org/10.2514/6.2006-8120
 [research_minghui_qiuying_2017]: https://doi.org/10.1109/cpgps.2017.8075089
 [research_minisci_vasile_2013]: https://doi.org/10.2514/1.j051573
-[research_minixhofer_klejch_2025]: https://doi.org/10.21437/interspeech.2025-2750
 [research_minnema_mayersoares_2019]: https://doi.org/10.26678/abcm.cobem2019.cob2019-1726
 [research_minwen_dayi_2014]: https://doi.org/10.1016/j.ast.2014.05.004
 [research_miotto_lepome_2003]: https://doi.org/10.2514/6.2003-5360
 [research_miotto_paduano_1995]: https://doi.org/10.2514/6.1995-3190
 [research_miotto_paduano_1996]: https://doi.org/10.2514/3.21778
-[research_mishra_mantri_1987]: https://doi.org/10.1007/bf01290659
-[research_mishra_mantri_1988]: https://doi.org/10.1103/physrevc.38.1921
 [research_mishra_neunaber_2022]: https://doi.org/10.1088/1742-6596/2265/2/022095
 [research_misra_bai_2019]: https://doi.org/10.2514/1.g004160
 [research_misra_fraticellirivera_2022]: https://doi.org/10.58940/2374-6793.1754
@@ -8697,19 +8025,14 @@ The next article returns to a vehicle designed to be shot down.
 [research_mohaghegh_2025]: https://doi.org/10.2139/ssrn.5772903
 [research_mohamed_mamatas_2012]: https://doi.org/10.5772/31093
 [research_mohamed_safwat_2022]: https://doi.org/10.1109/iceeng49683.2022.9782063
-[research_mohammadi_illman_2020]: https://doi.org/10.1111/gwat.13052
 [research_mohammadkarimi_nobahari_2018]: https://doi.org/10.1002/navi.232
 [research_mohan_s_2025]: https://doi.org/10.1016/j.jsse.2025.10.004
 [research_mohlenbrink_1989]: https://doi.org/10.1007/978-3-642-74585-0_33
 [research_moiseev_poluboyarinov_2011]: https://doi.org/10.3103/s1068799811010016
-[research_mokin_mokin_2020]: https://doi.org/10.31649/2307-5392-2020-1-30-34
 [research_mokrane_benallegue_2022]: https://doi.org/10.3390/s22228865
 [research_mokry_1974]: https://doi.org/10.2514/6.1974-83
 [research_molchanova_kashkovsky_2016]: https://doi.org/10.1063/1.4964079
 [research_molina_simeonides_1996]: https://doi.org/10.2514/6.1996-2468
-[research_molnar_omerdic_2007]: https://doi.org/10.1080/00207170701245039
-[research_monaco_brennan_2018]: https://doi.org/10.1109/auv.2018.8729737
-[research_monjurulhasan_trianni_2020]: https://doi.org/10.1109/ieem45057.2020.9309939
 [research_monteil_2024]: https://doi.org/10.5162/ettc2024/a1.4
 [research_montella_vio_2024]: https://doi.org/10.52202/078369-0025
 [research_montenbruck_ramosbosch_2007]: https://doi.org/10.1007/s10291-007-0080-x
@@ -8751,7 +8074,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_mourikis_trawny_2007]: https://doi.org/10.15607/rss.2007.iii.019
 [research_mourikis_trawny_2008]: https://doi.org/10.7551/mitpress/7830.003.0020
 [research_mowry_grasso_2020]: https://doi.org/10.1007/978-3-030-36308-6_92
-[research_mribeiro_rfioravanti_2020]: https://doi.org/10.48011/asba.v2i1.1007
 [research_mu_wang_2012]: https://doi.org/10.4028/www.scientific.net/amr.466-467.1329
 [research_mu_yu_2016]: https://doi.org/10.1016/j.ifacol.2016.09.079
 [research_mu_yu_2018]: https://doi.org/10.1016/j.actaastro.2017.10.027
@@ -8760,7 +8082,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_mu_zhang_2023]: https://doi.org/10.1007/978-981-19-6613-2_290
 [research_mu_zhao_2019]: https://doi.org/10.1007/s10291-019-0901-8
 [research_mueller_landolt_2012]: https://doi.org/10.2514/6.2012-3317
-[research_muhammadarifbudiyanto_naufalyudhaprawira_2021]: https://doi.org/10.37934/cfdl.13.5.19
 [research_muhammadhadiwidanto_rizkifitriansyah_2025]: https://doi.org/10.35894/jtk.v10i1.230
 [research_muhlsteinjr_petroff_1974]: https://doi.org/10.2514/6.1974-632
 [research_mukhopadhyay_1969]: https://doi.org/10.2514/6.1969-128
@@ -8771,11 +8092,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_multiple_inertial_1962]: https://doi.org/10.2514/5.9781600864827.0349.0366
 [research_mumm_holzapfel_2017]: https://doi.org/10.1109/ccta.2017.8062608
 [research_munguia_2014]: https://doi.org/10.1016/s1665-6423(14)70096-3
-[research_munsamy_telukdarie_2020]: https://doi.org/10.1109/ieem45057.2020.9309741
 [research_munusamy_stephen_2022]: https://doi.org/10.13111/2066-8201.2022.14.3.3
 [research_munzing_catris_2015]: https://doi.org/10.4271/2015-01-2129
 [research_muradyan_haase_2010]: https://doi.org/10.1007/s10291-010-0183-7
-[research_murakami_iida_2002]: https://doi.org/10.1063/1.1478558
 [research_murakami_kwak_2008]: https://doi.org/10.2514/6.2008-7488
 [research_murali_moreno_2024]: https://doi.org/10.1109/icra57147.2024.10610780
 [research_murch_cox_2009]: https://doi.org/10.2514/6.2009-2054
@@ -8783,7 +8102,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_murphy_1956]: https://doi.org/10.21236/ad0093521
 [research_murraysmith_1995]: https://doi.org/10.1007/978-1-4615-2504-2_11
 [research_musal_hm_1964]: https://doi.org/10.21236/ad0449823
-[research_mustafa_cox_2016]: https://doi.org/10.1201/9781315644479-167
 [research_mwenegoha_moore_2019]: https://doi.org/10.3390/s19112467
 [research_nabi_najafi_2024]: https://doi.org/10.1115/ht2024-131509
 [research_nadan_lee_2018]: https://doi.org/10.1115/imece2018-86615
@@ -8791,8 +8109,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_nagai_2013]: https://doi.org/10.2514/6.2013-73
 [research_nagarani_venkatakrishnan_2020]: https://doi.org/10.1016/j.comcom.2019.12.039
 [research_nagarjuna_suresh_2015]: https://doi.org/10.1109/icscn.2015.7219864
-[research_nagata_ueda_2012]: https://doi.org/10.1109/asscc.2012.6523287
-[research_nagayoshi_tayama_2021]: https://doi.org/10.1201/9780203739600-64
 [research_najam_2014]: https://doi.org/10.1089/space.2013.0027
 [research_najson_mease_2005]: https://doi.org/10.2514/6.2005-6289
 [research_naka_hashimoto_2015]: https://doi.org/10.1299/jsmemipe.2015._web-4-4-1
@@ -8802,10 +8118,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_nance_2013]: https://doi.org/10.21236/ada571259
 [research_nanda_gopalakrishna_2025]: https://doi.org/10.1504/ijesms.2025.10072232
 [research_narvesen_selekwa_2014]: https://doi.org/10.1115/imece2014-38548
-[research_nasri_benslama_2014]: https://doi.org/10.1109/irec.2014.6826899
 [research_nastasi_martorella_1983]: https://doi.org/10.2514/6.1983-2072
 [research_nathan_2007]: https://doi.org/10.2514/6.2007-4540
-[research_naufal_ubaidillah_2023]: https://doi.org/10.1063/5.0121180
 [research_navigation_and_1964]: https://doi.org/10.2514/5.9781600864872.0391.0419
 [research_navigation_grade_inertial_2022]: https://doi.org/10.1049/sbra550e_ch8
 [research_nazar_gandhi_2020]: https://doi.org/10.1007/978-3-030-55115-5_21
@@ -8822,19 +8136,15 @@ The next article returns to a vehicle designed to be shot down.
 [research_neriyahegade_natalia_2020]: https://doi.org/10.1007/s42452-020-2602-x
 [research_neumaier_kranemann_2022]: https://doi.org/10.3390/aerospace9030140
 [research_neumannn_moore_2016]: https://doi.org/10.5162/etc2016/3.1
-[research_neunaber_danbon_2022]: https://doi.org/10.1002/we.2732
 [research_neusypin_kupriyanov_2023]: https://doi.org/10.1007/s10291-023-01433-5
-[research_new_color_1982]: https://doi.org/10.1002/j.2637-496x.1982.tb02024.x
 [research_newman_bailey_1987]: https://doi.org/10.21236/ada194602
 [research_newman_fulcher_1992]: https://doi.org/10.2514/6.1992-2722
 [research_newman_parham_2014]: https://doi.org/10.4050/f-0070-2014-9490
 [research_ngo_blake_2003]: https://doi.org/10.2514/6.2003-5738
 [research_ngo_doman_2002]: https://doi.org/10.1109/acc.2002.1023917
 [research_nguyen_cao_2018]: https://doi.org/10.1109/icarcv.2018.8581117
-[research_nguyen_duong_2025]: https://doi.org/10.1142/s0219455427500337
 [research_nguyen_jacklin_2010]: https://doi.org/10.1007/978-3-642-10690-3_5
 [research_nguyen_kostiukov_2020]: https://doi.org/10.3846/aviation.2020.12424
-[research_nguyen_trovao_2022]: https://doi.org/10.1007/978-3-030-84474-5_11
 [research_nho_agarwal_1998]: https://doi.org/10.2514/6.1998-4484
 [research_nho_agarwal_2000]: https://doi.org/10.2514/2.4522
 [research_ni_dai_2023]: https://doi.org/10.23919/icins51816.2023.10168471
@@ -8846,7 +8156,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_nielson_swearingen_1986]: https://doi.org/10.1109/maes.1986.5005069
 [research_niemela_1982]: https://doi.org/10.1002/j.2161-4296.1982.tb00813.x
 [research_niewald_parker_1999]: https://doi.org/10.2514/6.1999-768
-[research_nikhashim_2013]: https://doi.org/10.17576/pengurusan-2013-39-01
 [research_nill_reinhardt_1970]: https://doi.org/10.1515/mt-1970-120602
 [research_ning_zhang_2007]: https://doi.org/10.1016/s1000-9361(07)60001-6
 [research_ninomiya_suzuki_2005]: https://doi.org/10.2514/6.2005-3274
@@ -8858,14 +8167,12 @@ The next article returns to a vehicle designed to be shot down.
 [research_niu_wang_2025_b]: https://doi.org/10.1007/s10291-025-01993-8
 [research_nizin_antony_2016]: https://doi.org/10.1109/iicpe.2016.8079437
 [research_nobahari_mohammadkarimi_2017]: https://doi.org/10.1002/navi.195
-[research_noda_yanagida_2025]: https://doi.org/10.1299/jsmermd.2025.2a2-h01
 [research_nogar_2020]: https://doi.org/10.1109/ssrr50563.2020.9292607
 [research_noh_sharif_2024]: https://doi.org/10.1007/978-3-031-68751-8_5
 [research_nomura_itabashi_2022]: https://doi.org/10.1007/978-981-19-2689-1_49
 [research_nonami_kendoul_2010]: https://doi.org/10.1007/978-4-431-53856-1_13
 [research_nonami_kendoul_2010_b]: https://doi.org/10.1007/978-4-431-53856-1_10
 [research_nonlinear_flight_2004]: https://doi.org/10.2514/6.iac-04-a.4.07
-[research_nordin_yazid_2009]: https://doi.org/10.7763/ijcee.2009.v1.61
 [research_nordlund_1985]: https://doi.org/10.2514/6.1985-1053
 [research_norris_2004]: https://doi.org/10.1007/s10686-005-4192-4
 [research_norris_2005]: https://doi.org/10.1007/1-4020-3798-8_8
@@ -8880,7 +8187,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_nurse_prohaska_1978]: https://doi.org/10.21236/ada062810
 [research_nurse_prohaska_1978_b]: https://doi.org/10.21236/ada062809
 [research_nutt_martindale_1976]: https://doi.org/10.21236/ada025080
-[research_obeid_durangarcia_2024]: https://doi.org/10.1115/fedsm2024-122616
 [research_obermann_williamson_1998]: https://doi.org/10.1016/s0265-9646(97)00041-6
 [research_obermann_williamson_2003]: https://doi.org/10.1016/s0094-5765(02)00200-x
 [research_obermark_2004]: https://doi.org/10.21236/ada422954
@@ -8895,12 +8201,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_ohashi_fukagata_2021]: https://doi.org/10.2514/1.j060415
 [research_ohashi_morita_2019]: https://doi.org/10.1115/ajkfluids2019-5067
 [research_ohashi_morita_2020]: https://doi.org/10.1299/jfst.2020jfst0008
-[research_ohba_kurabuchi_2004]: https://doi.org/10.1080/14733315.2004.11683680
 [research_ohe_oyama_2014]: https://doi.org/10.2514/6.2014-3954
 [research_ohkami_yamanaka_1991]: https://doi.org/10.2514/6.1991-5085
 [research_ohno_yamaguchi_1998]: https://doi.org/10.1016/s1474-6670(17)41088-3
 [research_ohno_yamaguchi_1999]: https://doi.org/10.1016/s0967-0661(99)00085-4
-[research_ohtsu_yasuda_2009]: https://doi.org/10.1080/00221686.2009.9521998
 [research_ohya_kato_1985]: https://doi.org/10.2322/jjsass1969.33.540
 [research_okada_1994]: https://doi.org/10.4271/940001
 [research_okafor_jemitola_2018]: https://doi.org/10.4314/njt.v37i3.9
@@ -8911,7 +8215,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_olds_1998]: https://doi.org/10.21236/ada389224
 [research_olds_bellini_1998]: https://doi.org/10.2514/6.1998-1557
 [research_olds_bradford_1999]: https://doi.org/10.2514/6.1999-4944
-[research_oleinikova_mutule_2019]: https://doi.org/10.1109/ptc.2019.8810741
 [research_olejnik_kachel_2019]: https://doi.org/10.1051/matecconf/201930402010
 [research_olejnik_kachel_2020]: https://doi.org/10.1177/0954410020934301
 [research_olivaresmendez_mondragon_2013]: https://doi.org/10.3182/20131120-3-fr-4045.00011
@@ -8920,7 +8223,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_olynick_1996]: https://doi.org/10.2514/6.1996-1857
 [research_olynick_1998]: https://doi.org/10.2514/2.3338
 [research_olynick_henline_1996]: https://doi.org/10.2514/3.26842
-[research_omar_elshatshat_2025]: https://doi.org/10.1109/pesgm52009.2025.11225724
 [research_optimal_glide_1981]: https://doi.org/10.1016/b978-0-444-41961-3.50023-1
 [research_orbital_aerodynamic_1981]: https://doi.org/10.1016/b978-0-444-41961-3.50024-3
 [research_orbital_maneuvers_2002]: https://doi.org/10.2514/5.9781600862250.0087.0116
@@ -8930,7 +8232,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_oren_kocyigit_2016]: https://doi.org/10.1109/icuas.2016.7502556
 [research_ortloff_1968]: https://doi.org/10.21236/ad0830727
 [research_osder_1970]: https://ntrs.nasa.gov/citations/19700031646
-[research_otokodani_hamada_2020]: https://doi.org/10.1299/jsmemecj.2020.s11104
 [research_otsu_2016]: https://doi.org/10.2322/tastj.14.pe_7
 [research_otsu_2018]: https://doi.org/10.2322/tastj.16.588
 [research_otsu_abe_2006]: https://doi.org/10.2322/jjsass.54.181
@@ -8946,11 +8247,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_ouellette_patil_2012]: https://doi.org/10.2514/6.2012-4640
 [research_ouellette_patil_2014]: https://doi.org/10.2514/6.2014-0032
 [research_ouyang_wu_2021]: https://doi.org/10.23919/icins43216.2021.9470873
-[research_owens_2002]: https://doi.org/10.21236/ada403395
 [research_owens_2020]: https://doi.org/10.2514/6.2020-2136
 [research_owens_cox_2006]: https://doi.org/10.2514/6.2006-3306
 [research_oza_hu_2015]: https://doi.org/10.2514/6.2015-2288
-[research_ozgoren_uzol_2025]: https://doi.org/10.1002/we.2964
 [research_pace_maji_2008]: https://doi.org/10.1061/40988(323)37
 [research_pace_nash_2001]: https://doi.org/10.1109/7.953238
 [research_pace_nishimura_1998]: https://doi.org/10.1109/7.640269
@@ -8958,13 +8257,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_packard_seiler_2009]: https://doi.org/10.21236/ada531629
 [research_padhi_chawla_2016]: https://doi.org/10.1201/b12690-20
 [research_padmanabhan_dowell_2015]: https://doi.org/10.2514/1.c033027
-[research_pai_neuberger_2021]: https://doi.org/10.1515/auto-2021-0032
-[research_pajchrowski_2014]: https://doi.org/10.1109/epepemc.2014.6980578
 [research_palaninathan_bindu_2005]: https://doi.org/10.2514/1.10710
 [research_paletta_belardo_2013]: https://doi.org/10.4271/2013-01-2188
 [research_paletta_dmytriv_2015]: https://doi.org/10.1016/j.proeng.2015.08.030
 [research_pallister_parker_1992]: https://doi.org/10.2514/6.1992-3985
-[research_palmer_1989]: https://doi.org/10.1017/s037346330001506x
 [research_palmer_henline_1997]: https://doi.org/10.2514/2.3261
 [research_palmer_pulsonetti_2009]: https://doi.org/10.2514/1.40478
 [research_palomino_2022]: https://doi.org/10.5162/ettc2022/2.4
@@ -8978,13 +8274,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_paquita_persadanta_2024]: https://doi.org/10.52989/jaet.v4i2.148
 [research_paraforos_griepentrog_2015]: https://doi.org/10.3920/978-90-8686-814-8_33
 [research_paranjape_2023]: https://doi.org/10.2514/6.2023-0983
-[research_parisot_vila_2014]: https://doi.org/10.1016/j.crma.2014.09.020
 [research_park_2020]: https://doi.org/10.2514/1.g004058
 [research_park_jung_2019]: https://doi.org/10.2514/1.g003400
 [research_park_kim_2015]: https://doi.org/10.1109/iciev.2015.7334046
-[research_park_lee_2011]: https://doi.org/10.1115/imece2011-65942
 [research_park_lee_2012]: https://doi.org/10.1007/s11771-012-1106-2
-[research_park_lee_2025]: https://doi.org/10.1038/s41598-025-05038-5
 [research_park_park_2017]: https://doi.org/10.1016/j.asr.2017.05.004
 [research_park_rokhsaz_2003]: https://doi.org/10.2514/6.2003-4069
 [research_park_suzuki_1998]: https://doi.org/10.2534/jjasnaoe1968.1998.9
@@ -9054,10 +8347,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_pinchin_hide_2012]: https://doi.org/10.1109/plans.2012.6236841
 [research_pines_hueschen_1978]: https://doi.org/10.2514/6.1978-1296
 [research_pingyuan_tianlai_2007]: https://doi.org/10.1109/iciea.2007.4318739
-[research_pinto_osorio_2026]: https://doi.org/10.1016/j.enconman.2025.120932
 [research_pipenberg_keennon_2019]: https://doi.org/10.2514/6.2019-0620
-[research_pique_miller_2025]: https://doi.org/10.1017/flo.2025.10037
-[research_pires_munduate_2016]: https://doi.org/10.1088/1742-6596/753/2/022047
 [research_pirooz_mirmahdi_2021]: https://doi.org/10.1007/s42452-021-04320-1
 [research_pittman_dillon_1977]: https://doi.org/10.2514/3.44633
 [research_pitts_kourtides_1989]: https://doi.org/10.2514/6.1989-1772
@@ -9091,7 +8381,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_prachand_rakshith_2025]: https://doi.org/10.2514/6.2025-2347
 [research_pragadheswaran_balguri_2015]: https://doi.org/10.1109/race.2015.7097261
 [research_prahl_1968]: https://doi.org/10.1017/s0001924000083445
-[research_prakash_1973]: https://doi.org/10.1139/p73-236
 [research_prakash_zhong_2008]: https://doi.org/10.2514/6.2008-744
 [research_prakash_zhong_2009]: https://doi.org/10.2514/6.2009-1542
 [research_prasad_2022]: https://doi.org/10.13111/2066-8201.2022.14.1.10
@@ -9101,7 +8390,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_predachenko_lemko_2019]: https://doi.org/10.18372/1990-5548.61.14222
 [research_preisser_chestnutt_1983]: https://doi.org/10.2514/6.1983-678
 [research_preliminary_design_1983]: https://doi.org/10.2514/5.9781600865626.0385.0415
-[research_premoli_rocchi_2015]: https://doi.org/10.1016/j.jweia.2015.03.015
 [research_price_1970]: https://doi.org/10.21236/ad0879285
 [research_principles_of_2022]: https://doi.org/10.15394/eaglepub.2022.1066.n14
 [research_pritchard_1969]: https://doi.org/10.1007/bf00932462
@@ -9138,23 +8426,18 @@ The next article returns to a vehicle designed to be shot down.
 [research_qiu_sun_2014]: https://doi.org/10.1016/j.jweia.2014.02.003
 [research_qiuying_minghui_2018]: https://doi.org/10.1109/plans.2018.8373462
 [research_qu_zhang_2023]: https://doi.org/10.1109/icma57826.2023.10215607
-[research_quan_su_2026]: https://doi.org/10.1016/j.oceaneng.2026.125073
 [research_quast_henke_1990]: https://doi.org/10.2514/6.1990-3045
 [research_r_sridhar_2022]: https://doi.org/10.1149/10701.1063ecst
 [research_r_ss_2025]: https://doi.org/10.52202/080555-0012
 [research_rabinskiy_tushavina_2019]: https://doi.org/10.52571/ptq.v16.n33.2019.672_periodico33_pgs_657_667.pdf
 [research_radar_altimeter_2019]: https://doi.org/10.1109/icnsurv.2019.8735127
 [research_radforth_1987]: https://doi.org/10.1017/s0373463300000357
-[research_radha_priya_2023]: https://doi.org/10.1109/icais56108.2023.10073859
 [research_radhakrishnan_hari_2023]: https://doi.org/10.1007/s40435-023-01126-4
 [research_radhakrishnan_hari_2024]: https://doi.org/10.1007/s40435-024-01477-6
 [research_rafatnia_nourmohammadi_2019]: https://doi.org/10.1007/s10291-019-0845-z
 [research_ragheb_dantsker_2013]: https://doi.org/10.2514/6.2013-2806
-[research_raichlen_2008]: https://doi.org/10.1242/jeb.020073
 [research_raja_2011]: https://doi.org/10.1109/aero.2011.5747518
 [research_rajagopalan_1989]: https://doi.org/10.2514/6.1989-1815
-[research_rajagopalan_2015]: https://doi.org/10.1109/igesc.2015.7359383
-[research_rajagopalan_cheng_1996]: https://doi.org/10.1007/bf00240649
 [research_rajawana_smithmaitrie_2020]: https://doi.org/10.18178/ijmerr.9.7.1065-1071
 [research_rajeshyadav_mohammadfaisal_2016]: https://doi.org/10.1007/978-81-322-2743-4_13
 [research_rajukulkarni_larocca_2019]: https://doi.org/10.2514/6.2019-1208
@@ -9203,7 +8486,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_reiser_villani_2024]: https://doi.org/10.1017/aer.2024.37
 [research_ren_cai_2011]: https://doi.org/10.3724/sp.j.1218.2011.00502
 [research_ren_fu_2017]: https://doi.org/10.1177/1687814017703900
-[research_ren_lu_2020]: https://doi.org/10.1002/tal.1773
 [research_ren_ma_2025]: https://doi.org/10.1016/j.ast.2025.110080
 [research_ren_wang_2018]: https://doi.org/10.23919/chicc.2018.8483181
 [research_ren_wang_2023]: https://doi.org/10.1007/978-981-99-8861-7_47
@@ -9218,7 +8500,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_rey_2000]: https://doi.org/10.1063/1.1290921
 [research_reyhanoglu_alvarado_2013]: https://doi.org/10.1016/j.actaastro.2013.01.018
 [research_reynerson_2006]: https://doi.org/10.2514/6.2006-6275
-[research_reynierse_scavio_1969]: https://doi.org/10.3758/bf03331901
 [research_reynolds_number_2000]: https://doi.org/10.1017/cbo9780511529535.007
 [research_reynolds_number_2021]: https://doi.org/10.2174/9789814998185121010006
 [research_rezaeepazhand_yazdi_2011]: https://doi.org/10.1016/j.compositesb.2010.09.010
@@ -9250,13 +8531,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_rivera_hein_2025]: https://doi.org/10.4050/f-0081-2025-0087
 [research_rivers_1968]: https://doi.org/10.2514/3.29345
 [research_rizvi_he_2013]: https://doi.org/10.4028/www.scientific.net/amm.390.161
-[research_roach_caldarella_1996]: https://doi.org/10.21236/ada354038
 [research_robaglia_libine_2018]: https://doi.org/10.2514/6.2018-1461
 [research_roberts_1988]: https://doi.org/10.2514/6.1988-2077
 [research_roberts_1990]: https://doi.org/10.2514/6.1990-1265
 [research_roberts_2024]: https://doi.org/10.33545/26648776.2024.v6.i1a.57
 [research_roberts_bhanu_1992]: https://doi.org/10.1002/rob.4620090608
-[research_roberts_sutton_2006]: https://doi.org/10.1049/pbce069e_ch1
 [research_robertson_2017]: https://doi.org/10.2514/6.2017-1897
 [research_robinson_nolen_1995]: https://doi.org/10.2514/6.1995-3606
 [research_robinson_ouhabi_2025]: https://doi.org/10.2514/6.2025-3234
@@ -9281,15 +8560,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_romere_eichblatt_1979]: https://doi.org/10.2514/3.58510
 [research_romero_bledsoe_2015]: https://doi.org/10.2514/6.2015-2178
 [research_rona_soueid_2010]: https://doi.org/10.2514/6.2010-399
-[research_rong_wang_2025]: https://doi.org/10.3390/app151810278
 [research_rooney_2003]: https://doi.org/10.2514/6.2003-2953
 [research_rooney_craig_1977]: https://doi.org/10.2514/6.1977-996
-[research_rosen_ison_1965]: https://doi.org/10.3758/bf03343484
 [research_rosenthal_1982]: https://doi.org/10.4271/821341
 [research_roshanian_talebi_2008]: https://doi.org/10.1007/s10483-008-1103-z
 [research_roshini_subbareddy_2023]: https://doi.org/10.61653/joast.v67i4.2015.407
-[research_rosman_denny_2013]: https://doi.org/10.4319/lo.2013.58.3.0790
-[research_rosman_monismith_2010]: https://doi.org/10.4319/lo.2010.55.3.1145
 [research_rosner_peszor_2018]: https://doi.org/10.1063/1.5043764
 [research_rossman_braun_2017]: https://doi.org/10.2514/6.2017-0898
 [research_rougeux_malomolina_2009]: https://doi.org/10.2514/6.2009-1580
@@ -9305,11 +8580,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_ruping_xin_2021]: https://doi.org/10.1007/978-981-15-8155-7_262
 [research_ruppe_1985]: https://doi.org/10.1016/0265-9646(85)90034-7
 [research_rusbarsky_1990]: https://doi.org/10.2514/6.1990-1269
-[research_rusinek_zaera_2005]: https://doi.org/10.1016/j.actamat.2005.08.019
 [research_russo_voto_2026]: https://doi.org/10.2514/6.2026-5140
 [research_rutishauser_mendeck_2022]: https://doi.org/10.2514/6.2022-1832
 [research_rutishauser_moore_2019]: https://doi.org/10.1109/aero.2019.8741888
-[research_ryder_battle_2024]: https://doi.org/10.1177/11297298241261951
 [research_s_padhi_2017]: https://doi.org/10.2514/6.2017-1267
 [research_sabatini_2014]: https://doi.org/10.1109/metroaerospace.2014.6865886
 [research_sabatini_rodriguez_2013]: https://doi.org/10.2478/aon-2013-0008
@@ -9338,11 +8611,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_samardzic_isakovic_2013]: https://doi.org/10.1016/j.measurement.2013.04.074
 [research_samotokhin_2021]: https://doi.org/10.20948/prepr-2021-5
 [research_sanderson_1965]: https://doi.org/10.1016/b978-0-08-011074-5.50017-8
-[research_sands_bollino_2020]: https://doi.org/10.5772/intechopen.80316
-[research_sanduleac_stanescu_2023]: https://doi.org/10.1109/mps58874.2023.10187424
-[research_sangekar_thornton_2012]: https://doi.org/10.1109/oceans.2012.6404877
 [research_sani_karimian_2017]: https://doi.org/10.1109/iconda.2017.8270408
-[research_sani_quist_2026]: https://doi.org/10.1007/s40964-026-01627-6
 [research_sankar_2012]: https://doi.org/10.2514/6.2012-4953
 [research_sankey_bailey_2023]: https://doi.org/10.1201/9781003416753-18
 [research_sansica_hashimoto_2023]: https://doi.org/10.2514/6.2023-1989
@@ -9355,13 +8624,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_sanuki_1965]: https://doi.org/10.1299/jsmemag.68.552_99
 [research_saputra_2017]: https://doi.org/10.25104/wa.v43i2.305.93-104
 [research_sarae_terashima_2017]: https://doi.org/10.1121/1.5014087
-[research_sardou_1986]: https://doi.org/10.1016/0167-6105(86)90089-9
 [research_sarigulklijn_sarigulklijn_2005]: https://doi.org/10.2514/6.2005-621
 [research_sarigulklijn_sarigulklijn_2008]: https://doi.org/10.2514/6.2008-7835
 [research_saripalli_2009]: https://doi.org/10.2514/6.2009-5660
 [research_saripalli_montgomery_2003]: https://doi.org/10.1109/tra.2003.810239
 [research_sarkar_amrr_2021]: https://doi.org/10.1109/med51440.2021.9480343
-[research_sarker_2021]: https://doi.org/10.25299/jeee.2021.7466
 [research_sasa_takizawa_1991]: https://doi.org/10.4271/911980
 [research_sasani_asgari_2015]: https://doi.org/10.1007/s10291-015-0471-3
 [research_satkunanathan_murphy_1998]: https://doi.org/10.1007/pl00000023
@@ -9378,13 +8645,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_scaling_laws_2003]: https://doi.org/10.1017/cbo9780511814921.011
 [research_scanlan_fortier_1982]: https://doi.org/10.1016/0167-6105(82)90016-2
 [research_scarlatella_guadagnini_2024]: https://doi.org/10.2514/6.2024-2122
-[research_schaaser_brink_1986]: https://doi.org/10.1016/0375-9474(86)90505-1
 [research_schaeffer_1983]: https://doi.org/10.2514/6.1983-2192
 [research_schang_2024]: https://doi.org/10.1061/9780784485736.014
 [research_schanzer_1993]: https://doi.org/10.1007/978-3-642-45720-3_20
 [research_schermerhorn_1969]: https://doi.org/10.21236/ad0860089
 [research_scherzinger_blakereid_1989]: https://doi.org/10.1007/978-3-642-74585-0_42
-[research_schewe_larsen_1998]: https://doi.org/10.1016/s0167-6105(98)00075-0
 [research_schiavazzi_juliano_2020]: https://doi.org/10.2514/6.2020-1652
 [research_schierman_gandhi_2004]: https://doi.org/10.2514/6.2004-4771
 [research_schierman_ward_2001]: https://doi.org/10.21236/ada436263
@@ -9394,7 +8659,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_schmidt_2011]: https://doi.org/10.1109/maes.2011.5763346
 [research_schmidt_mann_1996]: https://doi.org/10.2514/6.1996-1199
 [research_schmitt_burchett_2004]: https://doi.org/10.2514/6.2004-6254
-[research_schmitt_elsasser_2017]: https://doi.org/10.1016/j.oceaneng.2017.06.003
 [research_schneider_larson_2012]: https://doi.org/10.2514/6.2012-3164
 [research_schneider_searcy_2005]: https://doi.org/10.2514/6.2005-822
 [research_scholz_theuser_2026]: https://doi.org/10.1007/s13272-026-00958-y
@@ -9460,7 +8724,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_sharma_giangaspero_2024]: https://doi.org/10.1063/5.0191101
 [research_sharma_gogu_2008]: https://doi.org/10.2514/6.2008-2062
 [research_sharma_hablani_2014]: https://doi.org/10.3182/20140313-3-in-3024.00224
-[research_sharma_mason_2010]: https://doi.org/10.12989/was.2010.13.4.363
 [research_sharma_vidal_2011]: https://doi.org/10.2514/6.2011-7165
 [research_shaw_richter_1985]: https://doi.org/10.2514/6.1985-338
 [research_shaw_taylor_1997]: https://doi.org/10.1016/s0265-9646(97)00007-6
@@ -9468,16 +8731,13 @@ The next article returns to a vehicle designed to be shot down.
 [research_shea_chan_2023]: https://doi.org/10.2514/6.2023-0426
 [research_sheard_scaysbrook_2008]: https://doi.org/10.1109/plans.2008.4570001
 [research_sheldon_1967]: https://doi.org/10.21236/ad0856658
-[research_shemdin_mehta_1972]: https://doi.org/10.1061/awhcar.0000424
 [research_shen_1971]: https://doi.org/10.2514/6.1971-902
 [research_shen_2021]: https://doi.org/10.1007/978-981-33-4516-4_5
 [research_shen_2021_b]: https://doi.org/10.1007/978-981-33-4516-4_6
 [research_shen_chen_2025]: https://doi.org/10.3390/drones9090624
 [research_shen_gowing_2009]: https://doi.org/10.1115/1.3130245
-[research_shen_hughes_2020]: https://doi.org/10.5957/josr.08190051
 [research_shen_li_2019]: https://doi.org/10.1109/sdpc.2019.00169
 [research_shen_sheng_2016]: https://doi.org/10.1109/cgncc.2016.7828761
-[research_shen_togoshi_2011]: https://doi.org/10.1109/etfa.2011.6059108
 [research_shen_xia_2023]: https://doi.org/10.1016/j.isatra.2022.06.023
 [research_shen_yu_2022]: https://doi.org/10.1016/j.ast.2022.107363
 [research_shen_zhang_2025]: https://doi.org/10.1007/978-981-96-2268-9_38
@@ -9506,12 +8766,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_shim_lee_2025]: https://doi.org/10.52202/083092-0086
 [research_shim_park_2023]: https://doi.org/10.2514/6.2023-3623
 [research_shimada_ohwada_2020]: https://doi.org/10.1186/s42774-020-00037-8
-[research_shimizu_ismaili_2003]: https://doi.org/10.1260/030952403769016663
 [research_shimizu_murata_2008]: https://doi.org/10.9746/jcmsi.1.362
 [research_shin_kim_2013]: https://doi.org/10.12985/ksaa.2013.21.3.041
 [research_shinbrot_2019]: https://doi.org/10.1093/oso/9780198812586.003.0007
 [research_shinnick_1966]: https://doi.org/10.2514/6.1966-358
-[research_shishkov_chen_2022]: https://doi.org/10.1038/s41598-022-21347-5
 [research_shou_xu_2021]: https://doi.org/10.1016/j.ast.2021.106564
 [research_shrotri_schrage_2009]: https://doi.org/10.4050/jahs.54.042005
 [research_shrotri_schrage_2009_b]: https://doi.org/10.4050/jahs.54.042004
@@ -9557,7 +8815,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_singh_2023]: https://doi.org/10.2514/6.2023-3006
 [research_singh_chaudhary_2021]: https://doi.org/10.1007/978-981-16-0673-1_12
 [research_singh_menghal_2022]: https://doi.org/10.1109/i2ct54291.2022.9824660
-[research_singh_paliwal_2023]: https://doi.org/10.1109/piecon56912.2023.10085904
 [research_singh_tiwari_1989]: https://doi.org/10.2514/6.1989-2184
 [research_sinha_2007]: https://doi.org/10.2514/6.2007-4425
 [research_sipe_hinde_2008]: https://doi.org/10.2514/6.2008-7801
@@ -9608,9 +8865,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_son_oh_2023]: https://doi.org/10.5302/j.icros.2023.23.0010
 [research_song_ai_2020]: https://doi.org/10.1016/j.ast.2020.106001
 [research_song_cai_2013]: https://doi.org/10.4028/www.scientific.net/amm.448-453.3508
-[research_song_chen_2026]: https://doi.org/10.3390/app16157382
 [research_song_liao_2005]: https://doi.org/10.1007/11427469_30
-[research_song_lin_2026]: https://doi.org/10.1016/j.matdes.2026.115862
 [research_song_liu_2016]: https://doi.org/10.1109/oceans.2016.7761415
 [research_song_liu_2020]: https://doi.org/10.1145/3440084.3441205
 [research_song_shi_2026]: https://doi.org/10.1007/978-981-95-7342-4_35
@@ -9623,7 +8878,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_songhui_chufeng_2020]: https://doi.org/10.1109/cac51589.2020.9326754
 [research_sonowal_pandey_2021]: https://doi.org/10.1016/j.matpr.2020.11.1032
 [research_sostaric_cerimele_2017]: https://doi.org/10.2514/6.2017-1898
-[research_sousa_ferreira_2018]: https://doi.org/10.1109/auv.2018.8729815
 [research_space_launch_1998]: https://doi.org/10.1108/aeat.1998.12770ead.005
 [research_space_vehicles_1962]: https://doi.org/10.1016/0016-0032(62)90975-4
 [research_spaceplane_coordinates_2016]: https://doi.org/10.1016/b978-0-12-804425-4.00024-6
@@ -9647,7 +8901,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_srinivasan_alerstam_2025]: https://doi.org/10.1117/12.3043389
 [research_sruthis_sumathyr_2015]: https://doi.org/10.1109/iccc.2015.7432877
 [research_staas_philipc_1963]: https://doi.org/10.21236/ad0406113
-[research_stabler_taylor_1967]: https://doi.org/10.2307/1420546
 [research_stachiw_khouli_2020]: https://doi.org/10.2514/6.2020-1681
 [research_stadler_1993]: https://doi.org/10.2514/6.1993-5102
 [research_stadler_1998]: https://doi.org/10.2514/6.1998-1504
@@ -9655,13 +8908,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_staniszewski_1999]: https://doi.org/10.2514/6.1999-4826
 [research_stapleton_galati_1997]: https://doi.org/10.21236/ada397882
 [research_stapleton_galati_1998]: https://doi.org/10.1063/1.54891
-[research_starchenko_2018]: https://doi.org/10.1080/03091929.2018.1551531
 [research_starkey_argrow_2012]: https://doi.org/10.2514/6.2012-1048
 [research_starkey_lewis_2000]: https://doi.org/10.2514/2.3618
 [research_starkey_sequeira_2026]: https://doi.org/10.3390/engproc2025088079
-[research_stathopoulos_surry_1984]: https://doi.org/10.1016/b978-0-444-42340-5.50038-5
 [research_statistical_filtering_1964]: https://doi.org/10.2514/5.9781600864872.0775.0801
-[research_stavenga_2014]: https://doi.org/10.21236/ada607192
 [research_steer_2004]: https://doi.org/10.1017/s000192400000018x
 [research_stefko_podboy_1987]: https://doi.org/10.2514/6.1987-1893
 [research_steinberg_1992]: https://doi.org/10.2514/6.1992-4392
@@ -9673,13 +8923,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_stern_2004]: https://doi.org/10.21236/ada428861
 [research_stern_2008]: https://doi.org/10.21236/ada491628
 [research_stern_chu_1963]: https://doi.org/10.21236/ad0405109
-[research_stern_longo_1995]: https://doi.org/10.5957/attc-1995-031
 [research_stetson_lewis_1977]: https://doi.org/10.2514/6.1977-1161
 [research_stewart_leiser_1986]: https://doi.org/10.2514/3.25823
 [research_stich_2012]: https://doi.org/10.1007/978-3-642-22627-4_21
 [research_stiles_2022]: https://doi.org/10.2514/5.9781624106255.0275.0310
 [research_stilley_1988]: https://doi.org/10.2514/6.1988-4350
-[research_stilwell_bishop_2001]: https://doi.org/10.21236/ada625233
 [research_stoll_1961]: https://doi.org/10.21236/ad0259076
 [research_stolle_bolting_2015]: https://doi.org/10.1109/icuas.2015.7152281
 [research_stollery_murthy_1978]: https://doi.org/10.2514/6.1978-766
@@ -9705,7 +8953,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_su_kiang_2022]: https://doi.org/10.3390/rs14236092
 [research_su_liu_2025]: https://doi.org/10.1016/j.ast.2024.109839
 [research_su_liu_2025_b]: https://doi.org/10.1016/j.asoc.2024.112637
-[research_su_peng_2021]: https://doi.org/10.1016/j.jweia.2020.104464
 [research_su_wang_2015]: https://doi.org/10.1016/j.neucom.2015.03.063
 [research_su_yu_2013]: https://doi.org/10.5139/ijass.2013.14.3.247
 [research_subrahmanyam_1994]: https://doi.org/10.2514/3.21177
@@ -9735,7 +8982,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_surzhikov_2018_b]: https://doi.org/10.31857/s086956520003101-4
 [research_sushnigdha_2021]: https://doi.org/10.1007/978-981-16-2709-5_17
 [research_suszynski_kowalski_2025]: https://doi.org/10.1108/aeat-01-2025-0003
-[research_suzuki_2012]: https://doi.org/10.4130/jaev.10.1575
 [research_suzuki_2013]: https://doi.org/10.1007/978-4-431-54276-6_5
 [research_suzuki_aoki_2017]: https://doi.org/10.1088/1873-7005/aa7a9a
 [research_suzuki_fujita_2014]: https://doi.org/10.2514/1.a32549
@@ -9746,18 +8992,15 @@ The next article returns to a vehicle designed to be shot down.
 [research_swann_duke_1981]: https://doi.org/10.2514/6.1981-2504
 [research_swanson_miller_2025]: https://doi.org/10.2514/1.a36287
 [research_swathy_geetha_2018]: https://doi.org/10.1109/cetic4.2018.8530899
-[research_sweet_sivak_1979]: https://doi.org/10.1115/1.3426432
 [research_szalai_chen_2005]: https://doi.org/10.2514/1.3637
 [research_szmuk_eren_2017]: https://doi.org/10.2514/6.2017-1500
 [research_tabatabaei_orlu_2021]: https://doi.org/10.3390/fluids6080265
 [research_tablole_banavar_1998]: https://doi.org/10.14429/dsj.48.4043
 [research_tadema_theunissen_2007]: https://doi.org/10.1109/dasc.2007.4391934
 [research_tadema_theunissen_2008]: https://doi.org/10.1117/12.781845
-[research_taghavi_niknam_2025]: https://doi.org/10.1016/j.enconman.2024.119291
 [research_taghizadeh_nezhadshahbodaghi_2022]: https://doi.org/10.1007/s10291-022-01265-9
 [research_taguchi_futamura_2001]: https://doi.org/10.2514/6.2001-1838
 [research_taguchi_maita_1999]: https://doi.org/10.2514/6.1999-4811
-[research_tahir_2017]: https://doi.org/10.37376/2402-001-001-003
 [research_tahsini_mousavi_2014]: https://doi.org/10.4028/www.scientific.net/amm.598.298
 [research_taihua_xianhong_2011]: https://doi.org/10.5772/13604
 [research_takahashi_1993]: https://doi.org/10.2514/6.1993-3849
@@ -9773,10 +9016,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_takaishi_inoue_2017]: https://doi.org/10.2514/6.2017-4033
 [research_takaishi_kumada_2018]: https://doi.org/10.2514/6.2018-3300
 [research_tamer_2021]: https://doi.org/10.3390/machines9030061
-[research_tan_chen_2013]: https://doi.org/10.4337/9781781003640.00011
 [research_tan_yang_2025]: https://doi.org/10.1109/icccr65461.2025.11072631
-[research_tanaka_1990]: https://doi.org/10.1016/0167-6105(90)90044-d
-[research_tanaka_2017]: https://doi.org/10.1201/9781315136950-7
 [research_tanck_steadman_1998]: https://doi.org/10.1063/1.54716
 [research_tancredi_accardo_2007]: https://doi.org/10.1016/j.actaastro.2006.06.003
 [research_tancredi_grassi_2007]: https://doi.org/10.2514/1.22007
@@ -9786,10 +9026,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_tang_zhai_2020]: https://doi.org/10.1016/j.ins.2019.08.012
 [research_tangthong_aktimagool_2021]: https://doi.org/10.1109/ieecon51072.2021.9440230
 [research_taniguchi_2000]: https://doi.org/10.1299/jsmemag.103.983_674
-[research_tanino_nakao_2011]: https://doi.org/10.5293/ijfms.2011.4.2.229
 [research_tanno_komuro_2017]: https://doi.org/10.2514/6.2017-0772
 [research_tao_diange_2010]: https://doi.org/10.1109/icece.2010.1408
-[research_tao_zhang_2008]: https://doi.org/10.1109/ciced.2008.5211741
 [research_taoguo_daweiliu_2010]: https://doi.org/10.1109/icacte.2010.5578951
 [research_tariq_wasim_2026]: https://doi.org/10.3390/pr14152458
 [research_tatry_deneu_1997]: https://doi.org/10.1016/s0094-5765(97)00194-x
@@ -9809,7 +9047,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_tennstedt_schon_2025]: https://doi.org/10.1109/inertial63280.2025.11037122
 [research_terheyden_zickwolff_1986]: https://doi.org/10.1007/978-3-662-21924-9_4
 [research_terminal_guidance_1962]: https://doi.org/10.2514/5.9781600864827.0217.0239
-[research_terra_sciacchitano_2020]: https://doi.org/10.1016/j.jweia.2020.104143
 [research_tetlow_schoettle_2000]: https://doi.org/10.2514/6.2000-4180
 [research_tewell_1984]: https://doi.org/10.2514/6.1984-781
 [research_the_advance_1971]: https://doi.org/10.1108/eb034732
@@ -9823,7 +9060,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_the_king_1962]: https://doi.org/10.2514/5.9781600864827.0397.0410
 [research_the_spaceplane_2002]: https://doi.org/10.1142/9781860949371_0007
 [research_the_traditional_2017]: https://doi.org/10.1002/9781119049272.ch1
-[research_theoretical_and_1969]: https://doi.org/10.1016/0022-4898(69)90050-0
 [research_thermal_design_of_2018]: https://doi.org/10.18698/2308-6033-2017-12-1712
 [research_thermal_performance_1972]: https://doi.org/10.2514/6.1972-388
 [research_thermal_protection_1963]: https://doi.org/10.2514/5.9781600864834.0433.0447
@@ -9840,7 +9076,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_thompson_1965]: https://doi.org/10.2514/6.1965-1209
 [research_thompson_1966]: https://ntrs.nasa.gov/citations/19670035398
 [research_thompson_hull_1970]: https://doi.org/10.1007/bf00927442
-[research_thonig_eriksson_2017]: https://doi.org/10.1038/s41598-017-01081-z
 [research_thornton_1994]: https://doi.org/10.2514/6.1994-2163
 [research_thornton_lamy_1992]: https://doi.org/10.2514/6.1992-4070
 [research_threadgill_hader_2024]: https://doi.org/10.2514/6.2024-0498
@@ -9854,13 +9089,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_tian_yu_2018]: https://doi.org/10.1017/s0373463318000966
 [research_tian_yu_2022]: https://doi.org/10.1109/robio55434.2022.10011723
 [research_tian_yu_2024]: https://doi.org/10.1109/lra.2024.3380925
-[research_tian_zhang_2021]: https://doi.org/10.1109/joe.2020.3024508
 [research_tian_zong_2013]: https://doi.org/10.1016/j.ast.2012.10.015
 [research_tie_cao_2018]: https://doi.org/10.3390/s18030906
 [research_tieshan_zhiyao_2021]: https://doi.org/10.1109/ccdc52312.2021.9601884
 [research_tile_gap_flow_1983]: https://doi.org/10.2514/5.9781600865626.0271.0299
 [research_timmer_2008]: https://doi.org/10.1260/030952408787548848
-[research_tin_hien_2015]: https://doi.org/10.1109/kse.2015.69
 [research_tire_runway_braking_1958]: https://doi.org/10.1016/0043-1648(58)90128-5
 [research_tirtey_paris_2005]: https://doi.org/10.2514/6.2005-3280
 [research_tischler_2018]: https://doi.org/10.1201/9781315136820-2
@@ -9908,7 +9141,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_tsai_2008]: https://doi.org/10.2514/6.2008-7240
 [research_tsakiri_kealy_1999]: https://doi.org/10.1002/j.2161-4296.1999.tb02404.x
 [research_tsapparellas_jelev_2023]: https://doi.org/10.1109/icma57826.2023.10215523
-[research_tschepe_nayeri_2021]: https://doi.org/10.1016/j.jweia.2021.104594
 [research_tseng_lou_2013]: https://doi.org/10.4028/www.scientific.net/amm.411-414.1815
 [research_tsikalas_1982]: https://doi.org/10.2514/6.1982-1604
 [research_tsikalas_1982_b]: https://ntrs.nasa.gov/citations/19820062072
@@ -9951,18 +9183,14 @@ The next article returns to a vehicle designed to be shot down.
 [research_urnes_nguyen_2013]: https://doi.org/10.2514/6.2013-214
 [research_urschel_cox_2003]: https://doi.org/10.2514/6.2003-5544
 [research_us_air_2010]: https://doi.org/10.1063/pt.5.024875
-[research_ustaszewski_schumacher_2005]: https://doi.org/10.1016/j.quascirev.2004.03.015
 [research_utterstrom_kestek_1965]: https://doi.org/10.2514/6.1965-1234
-[research_uuvs_special_2009]: https://doi.org/10.3723/ut.28.137
 [research_uybarreta_grant_2025]: https://doi.org/10.2514/6.2025-3610
-[research_uysal_2023]: https://doi.org/10.1007/978-3-031-30171-1_24
 [research_vagliolaurin_finke_1965]: https://doi.org/10.4271/650801
 [research_vaispacher_baranek_2025]: https://doi.org/10.3390/engproc2025088028
 [research_valente_bartuli_2006]: https://doi.org/10.4028/3-908158-01-x.1505
 [research_vallot_snyder_1991]: https://doi.org/10.1002/j.2161-4296.1991.tb01719.x
 [research_vanatta_inderhees_1988]: https://doi.org/10.2514/6.1988-2121
 [research_vanbavel_2014]: https://doi.org/10.2514/6.2014-2059
-[research_vandelindt_2008]: https://doi.org/10.1080/13632460701299062
 [research_vandenabeelen_2016]: https://doi.org/10.1007/978-3-319-44472-7_1
 [research_vandenabeelen_2016_b]: https://doi.org/10.1007/978-3-319-44472-7_20
 [research_vandenbroek_hunns_2026]: https://doi.org/10.1016/j.ast.2025.111475
@@ -9972,27 +9200,21 @@ The next article returns to a vehicle designed to be shot down.
 [research_vangaasbeek_1980]: https://doi.org/10.21236/ada089008
 [research_vangraas_diggle_1994]: https://doi.org/10.1002/j.2161-4296.1994.tb02322.x
 [research_vanoort_chu_2007]: https://doi.org/10.3182/20070625-5-fr-2916.00056
-[research_vantreuren_2015]: https://doi.org/10.1115/1.4030617
 [research_vanwyckhouse_1966]: https://doi.org/10.21236/ad0630927
 [research_vaquero_kennedy_2022]: https://doi.org/10.2514/6.2022-2475
-[research_varga_2002]: https://doi.org/10.1556/ageod.37.2002.1.5
 [research_varshney_varshney_2019]: https://doi.org/10.2514/6.2019-3599
 [research_varshney_varshney_2019_b]: https://doi.org/10.2514/6.2019-3599.c1
 [research_varshney_varshney_2020]: https://doi.org/10.2514/6.2020-1321
 [research_varshney_varshney_2020_b]: https://doi.org/10.2514/6.2020-1321.c1
 [research_varshney_varshney_2022]: https://doi.org/10.2514/6.2022-1333
 [research_vasconcelos_oliveira_2005]: https://doi.org/10.2514/6.2005-6057
-[research_vatanparvar_sharma_2018]: https://doi.org/10.1109/pesgm.2018.8586597
 [research_veaux_1988]: https://doi.org/10.2514/3.45678
-[research_velazquez_gonzalezfalcon_2013]: https://doi.org/10.1016/j.enconman.2012.11.016
 [research_vemuri_1982]: https://doi.org/10.21236/ada113076
 [research_veneruso_miccio_2024]: https://doi.org/10.1109/dasc62030.2024.10749214
-[research_venkatesh_annapoorani_2021]: https://doi.org/10.1201/9781003129790-1
 [research_venkateswararao_go_2014]: https://doi.org/10.1016/j.ast.2013.10.001
 [research_venugopalan_taher_2012]: https://doi.org/10.1109/oceans.2012.6404893
 [research_vepa_zhahir_2010]: https://doi.org/10.1017/s0373463310000329
 [research_verderame_phillips_1999]: https://doi.org/10.2514/6.1999-4608
-[research_vererese_1976]: https://doi.org/10.1109/oceans.1976.1154196
 [research_verhaegen_1988]: https://doi.org/10.2514/3.20272
 [research_verkhovsky_gyazova_2023]: https://doi.org/10.52375/20728689_2023_2_150
 [research_verma_freeman_2022]: https://doi.org/10.1063/5.0082578
@@ -10001,7 +9223,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_vetter_1966]: https://doi.org/10.2514/6.1966-47
 [research_vibration_of_1975]: https://doi.org/10.7551/mitpress/6449.003.0022
 [research_videmsek_dehaag_2020]: https://doi.org/10.23919/enc48637.2020.9317481
-[research_vignesh_ashok_2023]: https://doi.org/10.1016/j.enconman.2023.116792
 [research_vijayanandh_kiran_2020]: https://doi.org/10.1007/978-3-030-37393-1_15
 [research_villanueva_2022]: https://doi.org/10.1109/eircon56026.2022.9934090
 [research_vinh_medepalli_1994]: https://doi.org/10.1007/978-1-4615-2425-0_14
@@ -10022,7 +9243,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_viviani_pezzella_2010]: https://doi.org/10.2514/1.40876
 [research_vo_garrard_1993]: https://doi.org/10.2514/6.1993-1224
 [research_vocke_nunez_2016]: https://doi.org/10.21236/ad1011994
-[research_vogeler_untermaierhofer_2018]: https://doi.org/10.51202/9783181023334-469
 [research_volkov_komar_2022]: https://doi.org/10.1007/s10559-023-00521-1
 [research_voloshenyuk_2018]: https://doi.org/10.15407/usim.2017.06.065
 [research_vorburger_mclay_1985]: https://doi.org/10.2514/6.1985-228
@@ -10031,13 +9251,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_vos_hodigeresiddaramaiah_2007]: https://doi.org/10.2514/6.2007-1706
 [research_voss_tang_2026]: https://doi.org/10.2514/6.2026-1156
 [research_w_p_2020]: https://doi.org/10.52453/t.v11i2.302
-[research_wagner_1963]: https://doi.org/10.1037/h0043679
 [research_wagner_valasek_2006]: https://doi.org/10.2514/6.2006-6599
 [research_wagner_valasek_2007]: https://doi.org/10.2514/1.27761
 [research_wagner_yin_2022]: https://doi.org/10.21236/ad1157677
 [research_wahi_straub_1977]: https://doi.org/10.21236/ada039968
-[research_wainwright_beaujean_2024]: https://doi.org/10.1109/oceans55160.2024.10753700
-[research_wainwright_beaujean_2025]: https://doi.org/10.23919/oceans59106.2025.11245175
 [research_waitman_marcos_2019]: https://doi.org/10.1109/systol.2019.8864789
 [research_wakamatsu_ono_1999]: https://doi.org/10.2514/6.1999-4867
 [research_waldmann_ehrle_2023]: https://doi.org/10.1007/s00348-023-03642-7
@@ -10052,7 +9269,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_walsh_hart_1981]: https://doi.org/10.2514/6.1981-2458
 [research_wan_pan_2023]: https://doi.org/10.1007/978-981-19-6613-2_477
 [research_wang_1963]: https://doi.org/10.21236/ad0402079
-[research_wang_2009]: https://doi.org/10.3901/jme.2009.03.084
 [research_wang_2010]: https://doi.org/10.3901/jme.2010.04.116
 [research_wang_2016]: https://doi.org/10.1051/matecconf/20167701038
 [research_wang_2022]: https://doi.org/10.1155/2022/4627111
@@ -10064,7 +9280,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wang_chen_2019]: https://doi.org/10.1109/iccasit48058.2019.8973184
 [research_wang_chen_2020]: https://doi.org/10.3390/sym12091572
 [research_wang_cui_2018]: https://doi.org/10.2514/6.2018-1871
-[research_wang_cui_2026]: https://doi.org/10.1016/j.energy.2026.141691
 [research_wang_demiroz_1986]: https://doi.org/10.2514/6.1986-9772
 [research_wang_ding_2026]: https://doi.org/10.1109/ccdc69976.2026.11560758
 [research_wang_dong_2018]: https://doi.org/10.1007/s10291-018-0718-x
@@ -10075,7 +9290,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wang_gu_2015]: https://doi.org/10.12989/was.2015.21.2.183
 [research_wang_holzapfel_2018]: https://doi.org/10.2514/6.2018-1166
 [research_wang_holzapfel_2018_b]: https://doi.org/10.2514/6.2018-1166.c1
-[research_wang_hu_2026]: https://doi.org/10.1016/j.coldregions.2026.104879
 [research_wang_hua_2015]: https://doi.org/10.1002/acs.2541
 [research_wang_hua_2016]: https://doi.org/10.1109/chicc.2016.7555060
 [research_wang_jau_2007]: https://doi.org/10.1109/icias.2007.4658394
@@ -10092,7 +9306,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wang_liu_2011]: https://doi.org/10.1109/rast.2011.5966829
 [research_wang_liu_2012]: https://doi.org/10.4028/www.scientific.net/amm.232.194
 [research_wang_liu_2019]: https://doi.org/10.1109/tps.2019.2926166
-[research_wang_liu_2023]: https://doi.org/10.1103/physrevresearch.5.013004
 [research_wang_liu_2024]: https://doi.org/10.1007/978-981-97-3336-1_23
 [research_wang_lu_2016]: https://doi.org/10.1109/chicc.2016.7555043
 [research_wang_lu_2017]: https://doi.org/10.23919/acc.2017.7963614
@@ -10122,7 +9335,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wang_xu_2014]: https://doi.org/10.4028/www.scientific.net/amr.945-949.662
 [research_wang_xu_2020]: https://doi.org/10.1360/sst-2020-0211
 [research_wang_xu_2024]: https://doi.org/10.1016/j.ijthermalsci.2023.108857
-[research_wang_yang_2007]: https://doi.org/10.1007/s11804-007-6005-9
 [research_wang_yang_2022]: https://doi.org/10.1007/s42405-022-00506-y
 [research_wang_yang_2025]: https://doi.org/10.1007/978-981-96-2252-8_6
 [research_wang_yang_2025_b]: https://doi.org/10.1016/j.jfranklin.2024.107426
@@ -10135,7 +9347,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wang_zhang_2017]: https://doi.org/10.1177/0954410017746432
 [research_wang_zhang_2019]: https://doi.org/10.1177/0959651819868039
 [research_wang_zhang_2020]: https://doi.org/10.1016/j.ast.2020.106114
-[research_wang_zhang_2022]: https://doi.org/10.1016/j.oceaneng.2021.110328
 [research_wang_zhang_2026]: https://doi.org/10.1177/10775463251410847
 [research_wang_zhao_2014]: https://doi.org/10.1109/cgncc.2014.7007294
 [research_wang_zhao_2022]: https://doi.org/10.3390/aerospace9100615
@@ -10169,12 +9380,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_waugh_1968]: https://doi.org/10.2514/3.48090
 [research_way_desai_2003]: https://doi.org/10.2514/6.2003-2128
 [research_way_sescu_2024]: https://doi.org/10.2514/6.2024-4107
-[research_webb_1999]: https://doi.org/10.21236/ada636796
-[research_webb_2000]: https://doi.org/10.21236/ada380432
 [research_webb_bettinger_2024]: https://doi.org/10.2514/6.2024-1915
 [research_webb_bettinger_2026]: https://doi.org/10.1016/j.ast.2026.112231
 [research_wee_yechout_2004]: https://doi.org/10.2514/6.2004-722
-[research_weems_belenky_2023]: https://doi.org/10.1016/j.oceaneng.2023.116214
 [research_wei_diaz_2026]: https://doi.org/10.2514/6.2026-114336
 [research_wei_du_2018]: https://doi.org/10.1109/gncc42960.2018.9019216
 [research_wei_gjestvang_2001]: https://doi.org/10.2514/6.2001-992
@@ -10193,9 +9401,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_welker_huffman_2011]: https://doi.org/10.2514/6.2011-6643
 [research_welker_pachter_2013]: https://doi.org/10.23919/ecc.2013.6669109
 [research_wells_1987]: https://doi.org/10.2514/6.1987-2367
-[research_wen_aziz_2023]: https://doi.org/10.1016/j.enconman.2023.117323
 [research_wen_huang_2021]: https://doi.org/10.1109/icetci53161.2021.9563541
-[research_wen_roy_2026]: https://doi.org/10.1103/32wm-94y1
 [research_wenchanglu_yingzhang_2011]: https://doi.org/10.1109/iceice.2011.5777110
 [research_weng_liu_2020]: https://doi.org/10.1007/s10291-020-00998-9
 [research_wenming_zhi_2015]: https://doi.org/10.1109/chicc.2015.7259750
@@ -10213,21 +9419,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_wibben_furfaro_2012]: https://doi.org/10.2514/6.2012-4919
 [research_widnall_gobbini_1982]: https://doi.org/10.21236/ada116417
 [research_widnall_morth_1972]: https://doi.org/10.1002/j.2161-4296.1972.tb01708.x
-[research_wiedemeier_1999]: https://doi.org/10.21236/ada425073
 [research_wierzbanowski_ramasubramanian_2020]: https://doi.org/10.2514/6.2020-4205
 [research_wierzbanowski_ramasubramanian_2020_b]: https://doi.org/10.2514/6.2020-4205.c1
 [research_wijaya_nurrohmad_2020]: https://doi.org/10.30536/j.jtd.2020.v18.a3377
-[research_wike_1960]: https://doi.org/10.2466/pr0.6.1.37-38
-[research_wike_1961]: https://doi.org/10.2466/pr0.8.2.339-340
-[research_wike_chen_1970]: https://doi.org/10.3758/bf03331852
-[research_wike_king_1973]: https://doi.org/10.3758/bf03199069
-[research_wike_kintsch_1959]: https://doi.org/10.1007/bf03393320
-[research_wike_mcwilliams_1967]: https://doi.org/10.2466/pr0.1967.21.3.865
-[research_wilcoski_hall_2001]: https://doi.org/10.21236/ada401013
 [research_wilcox_1963]: https://doi.org/10.21236/ad0400570
 [research_wiley_seidl_1965]: https://doi.org/10.21236/ad0478215
-[research_wilhelmsson_roux_1992]: https://doi.org/10.1088/0031-8949/46/4/012
-[research_willemsen_1997]: https://doi.org/10.1016/s0167-6105(97)00175-x
 [research_williams_1947]: https://doi.org/10.1049/ji-3a-2.1947.0028
 [research_williams_2002]: https://doi.org/10.1016/s0094-5765(01)00140-0
 [research_williams_2017]: https://doi.org/10.4271/2017-01-2016
@@ -10241,7 +9437,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_williamson_bi_2025]: https://doi.org/10.2514/6.2025-3408
 [research_williamson_speyer_2005]: https://doi.org/10.21236/ada433107
 [research_williamsonjr_1978]: https://doi.org/10.2514/6.1978-1366
-[research_wilson_2014]: https://doi.org/10.1115/1.4027886
 [research_wilson_chou_1985]: https://doi.org/10.2514/6.1985-315
 [research_wilson_goktogan_2015]: https://doi.org/10.1002/rob.21637
 [research_wilson_riccardi_2022]: https://doi.org/10.1016/j.actaastro.2022.07.013
@@ -10265,8 +9460,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wolf_bossert_2001]: https://doi.org/10.2514/6.2001-4313
 [research_wolf_casoliva_2012]: https://doi.org/10.1109/aero.2012.6187005
 [research_wolfe_1976]: https://doi.org/10.21236/ada034873
-[research_wollen_dobbs_1966]: https://doi.org/10.3758/bf03330930
-[research_wong_1972]: https://doi.org/10.1016/0001-6918(72)90047-9
 [research_wong_nesbitt_2019]: https://doi.org/10.2514/6.2019-2763
 [research_wong_ryan_2017]: https://doi.org/10.1007/s00158-017-1817-y
 [research_wood_1968]: https://doi.org/10.1108/eb034334
@@ -10277,9 +9470,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_woodbury_valasek_2015_b]: https://doi.org/10.2514/6.2015-1481
 [research_woodbury_valasek_2016]: https://doi.org/10.2514/1.g001758
 [research_woodfield_1966]: https://doi.org/10.1017/s0001924000057973
-[research_wooley_1998]: https://doi.org/10.21236/ada351093
 [research_woollard_braun_2016]: https://doi.org/10.1109/aero.2016.7500556
-[research_woolsey_2005]: https://doi.org/10.2514/1.17190
 [research_wortman_1969]: https://doi.org/10.2514/6.1969-866
 [research_wright_1989]: https://doi.org/10.2514/6.1989-5003
 [research_wright_1989_b]: https://doi.org/10.1115/89-gt-31
@@ -10287,8 +9478,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wright_aubert_2014]: https://doi.org/10.4050/f-0070-2014-9661
 [research_wright_beck_2014]: https://doi.org/10.2514/1.a32579
 [research_wright_milos_2006]: https://doi.org/10.2514/1.17703
-[research_wu_1969]: https://doi.org/10.1175/1520-0469(1969)026<0408:fnsows>2.0.co;2
-[research_wu_1971]: https://doi.org/10.1061/awhcar.0000055
 [research_wu_2006]: https://doi.org/10.1016/j.compstruc.2005.09.033
 [research_wu_2015]: https://doi.org/10.9734/bjast/2015/17376
 [research_wu_2018]: https://doi.org/10.12783/dtetr/pmsms2018/24866
@@ -10297,7 +9486,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_wu_cai_2014]: https://doi.org/10.1109/cgncc.2014.7007507
 [research_wu_gu_2017]: https://doi.org/10.23919/icins.2017.7995603
 [research_wu_guo_1994]: https://doi.org/10.2514/3.21196
-[research_wu_huang_2024]: https://doi.org/10.1016/j.enconman.2024.118853
 [research_wu_johnson_2005]: https://doi.org/10.2514/6.2005-5998
 [research_wu_lian_2017]: https://doi.org/10.2514/6.2017-2202
 [research_wu_liu_1995]: https://doi.org/10.1007/bf02068805
@@ -10309,9 +9497,7 @@ The next article returns to a vehicle designed to be shot down.
 [research_wu_shi_2022]: https://doi.org/10.1088/1742-6596/2403/1/012027
 [research_wu_tang_2012]: https://doi.org/10.4028/www.scientific.net/amr.591-593.2624
 [research_wu_tian_2020]: https://doi.org/10.23919/ccc50068.2020.9188640
-[research_wu_wang_1988]: https://doi.org/10.1016/0273-1177(88)90324-9
 [research_wu_wang_2018]: https://doi.org/10.1109/imccc.2018.00226
-[research_wu_yeo_2014]: https://doi.org/10.1016/j.compfluid.2014.07.030
 [research_wu_yuan_2025]: https://doi.org/10.3934/jimo.2025010
 [research_wu_zhang_2018]: https://doi.org/10.1109/gncc42960.2018.9018887
 [research_wu_zhang_2023]: https://doi.org/10.54254/2755-2721/11/20230209
@@ -10342,18 +9528,14 @@ The next article returns to a vehicle designed to be shot down.
 [research_xie_li_2016]: https://doi.org/10.2991/msmi-16.2016.11
 [research_xie_wang_2012]: https://doi.org/10.4028/www.scientific.net/amr.459.505
 [research_xin_2021]: https://doi.org/10.1088/1742-6596/1750/1/012022
-[research_xing_xu_2020]: https://doi.org/10.1016/j.psep.2019.12.030
 [research_xingling_honglun_2014]: https://doi.org/10.1016/j.isatra.2014.09.021
 [research_xinguo_ting_2024]: https://doi.org/10.1109/ccdc62350.2024.10587450
-[research_xiong_2013]: https://doi.org/10.4028/www.scientific.net/amr.648.323
 [research_xiong_wei_2021]: https://doi.org/10.3390/s21124119
 [research_xiong_zhao_2018]: https://doi.org/10.1109/inertialsensors.2018.8577185
 [research_xiuzhen_shaolei_2014]: https://doi.org/10.1109/cgncc.2014.7007256
-[research_xu_2014]: https://doi.org/10.3901/jme.2014.02.125
 [research_xu_2015]: https://doi.org/10.1007/s11071-015-1958-8
 [research_xu_2025]: https://doi.org/10.1109/aipip66876.2025.11299229
 [research_xu_dong_2022]: https://doi.org/10.1109/cac57257.2022.10055577
-[research_xu_fu_2017]: https://doi.org/10.1109/ei2.2017.8245421
 [research_xu_fu_2018]: https://doi.org/10.1016/j.ast.2018.07.007
 [research_xu_guan_2022]: https://doi.org/10.3390/app12157436
 [research_xu_guan_2023]: https://doi.org/10.1016/j.actaastro.2022.12.044
@@ -10365,7 +9547,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_xu_lan_2018]: https://doi.org/10.1109/icmic.2018.8529840
 [research_xu_liu_2021]: https://doi.org/10.3390/rs13040772
 [research_xu_mirmirani_2004]: https://doi.org/10.2514/1.12596
-[research_xu_song_2025]: https://doi.org/10.1007/978-981-96-3592-4_12
 [research_xu_sun_2012]: https://doi.org/10.1049/iet-cta.2011.0026
 [research_xu_tang_2010]: https://doi.org/10.1109/cmce.2010.5610293
 [research_xu_wang_2016]: https://doi.org/10.1371/journal.pone.0167168
@@ -10379,7 +9560,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_xuguo_ke_2018]: https://doi.org/10.1109/gncc42960.2018.9019176
 [research_xuxibao_guojifeng_2016]: https://doi.org/10.1109/cgncc.2016.7829158
 [research_y_2013]: https://doi.org/10.4172/2168-9792.1000107
-[research_y_s_2015]: https://doi.org/10.11113/jt.v76.5636
 [research_yadav_bodavula_2018]: https://doi.org/10.1017/aer.2018.109
 [research_yadav_ramamoorthy_1991]: https://doi.org/10.1115/1.2896474
 [research_yafei_jianqiao_2015]: https://doi.org/10.1109/chicc.2015.7260509
@@ -10395,8 +9575,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_yamanaka_2003]: https://doi.org/10.2514/6.2003-6996
 [research_yamanaka_maita_2001]: https://doi.org/10.2514/6.2001-1923
 [research_yamasaki_matsumoto_2013]: https://doi.org/10.1109/aim.2013.6584309
-[research_yamashita_ishihara_2009]: https://doi.org/10.1299/jsmekyushu.2009.62.87
-[research_yan_byrne_1989]: https://doi.org/10.1139/t89-034
 [research_yan_chen_2025]: https://doi.org/10.1061/jaeeez.aseng-5871
 [research_yan_hase_2004]: https://doi.org/10.1063/1.1628674
 [research_yan_he_2020]: https://doi.org/10.1016/j.ast.2020.105841
@@ -10413,11 +9591,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_yang_chen_2016]: https://doi.org/10.1155/2016/3527460
 [research_yang_chen_2023]: https://doi.org/10.1063/5.0170578
 [research_yang_chen_2025]: https://doi.org/10.7717/peerj-cs.3040
-[research_yang_fan_2011]: https://doi.org/10.1109/iceceng.2011.6057663
 [research_yang_gan_2024]: https://doi.org/10.3390/aerospace11070555
 [research_yang_hao_2024]: https://doi.org/10.1088/1742-6596/2820/1/012032
 [research_yang_hu_2006]: https://doi.org/10.2514/6.iac-06-d2.4.03
-[research_yang_huang_2018]: https://doi.org/10.1016/j.ijprt.2018.03.004
 [research_yang_li_2008]: https://doi.org/10.2514/6.2008-374
 [research_yang_liu_2021]: https://doi.org/10.1007/978-981-15-8155-7_286
 [research_yang_men_2025]: https://doi.org/10.3390/drones9040239
@@ -10430,7 +9606,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_yang_wang_2013]: https://doi.org/10.1109/icinfa.2013.6720343
 [research_yang_wang_2017]: https://doi.org/10.1007/978-981-10-4591-2_18
 [research_yang_wang_2022]: https://doi.org/10.3390/aerospace9040219
-[research_yang_wang_2024]: https://doi.org/10.1016/b978-0-44-314122-5.00007-4
 [research_yang_wu_2022]: https://doi.org/10.1088/1742-6596/2218/1/012080
 [research_yang_yang_2026]: https://doi.org/10.1016/j.measurement.2025.118993
 [research_yang_yanguang_2015]: https://doi.org/10.1109/icphm.2015.7245048
@@ -10450,8 +9625,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_yao_wang_2013]: https://doi.org/10.1007/978-3-319-01273-5_73
 [research_yao_wu_2019]: https://doi.org/10.1109/access.2019.2905628
 [research_yao_yao_2007]: https://doi.org/10.1051/epjap:2007010
-[research_yao_yeo_2018]: https://doi.org/10.1016/j.compfluid.2017.12.004
-[research_yaomin_1995]: https://doi.org/10.1088/0256-307x/12/12/002
 [research_yap_macias_2012]: https://doi.org/10.2514/1.a32156
 [research_yarlett_adrezin_2000]: https://doi.org/10.2514/6.2000-1694
 [research_yassirfadhilah_mubarok_2024]: https://doi.org/10.25104/mtm.v22i2.2387
@@ -10462,12 +9635,10 @@ The next article returns to a vehicle designed to be shot down.
 [research_ye_wang_2024]: https://doi.org/10.1007/978-981-97-3998-1_124
 [research_yee_parkinson_2023]: https://doi.org/10.33599/nasampe/s.23.0039
 [research_yelinzhang_yangzhuwang_2016]: https://doi.org/10.1109/cgncc.2016.7828920
-[research_yeoh_sumaryo_2025]: https://doi.org/10.31763/ijrcs.v6i1.2156
 [research_yeom_oh_2009]: https://doi.org/10.5139/jksas.2009.37.10.1010
 [research_yerdon_cook_2015]: https://doi.org/10.1109/aero.2015.7118938
 [research_yifan_minghe_2024]: https://doi.org/10.1360/sspma-2024-0302
 [research_yilmaz_warren_2019]: https://doi.org/10.2514/6.2019-3122
-[research_yin_cordahi_2018]: https://doi.org/10.1016/j.ijdrr.2018.01.013
 [research_yin_li_2024]: https://doi.org/10.1109/meae62008.2024.11026322
 [research_yingying_yanshun_2011]: https://doi.org/10.1109/icmtma.2011.634
 [research_yokokawa_takaishi_2017]: https://doi.org/10.2514/6.2017-4032
@@ -10478,28 +9649,22 @@ The next article returns to a vehicle designed to be shot down.
 [research_yongsheng_2021]: https://doi.org/10.1109/aemcse51986.2021.00271
 [research_yongsheng_2021_b]: https://doi.org/10.1109/aemcse51986.2021.00193
 [research_yoon_kim_2021]: https://doi.org/10.5139/jksas.2021.49.8.637
-[research_yoshida_ishihara_2009]: https://doi.org/10.1299/jsmefed.2009.501
 [research_yoshida_tokuyama_1992]: https://doi.org/10.2514/6.1992-4218
 [research_yoshinaga_tate_1995]: https://doi.org/10.2514/6.1995-1901
 [research_yoshinaga_tate_1996]: https://doi.org/10.2514/3.26813
 [research_you_yasaee_2019]: https://doi.org/10.1016/j.compstruct.2019.111255
 [research_young_1966]: https://doi.org/10.1038/2091163b0
-[research_yousefzadeh_uzgoren_2015]: https://doi.org/10.1016/j.energy.2015.09.102
 [research_yu_baek_2025]: https://doi.org/10.52202/083075-0025
 [research_yu_cai_2017]: https://doi.org/10.1017/s0373463317000327
 [research_yu_du_2022]: https://doi.org/10.3390/buildings12122163
-[research_yu_huang_2015]: https://doi.org/10.1109/acc.2015.7172189
 [research_yu_li_2018]: https://doi.org/10.1016/j.actaastro.2018.09.022
 [research_yu_li_2019]: https://doi.org/10.1016/j.asr.2018.09.035
 [research_yu_luo_2024]: https://doi.org/10.3390/app14188191
 [research_yu_ni_2021]: https://doi.org/10.1155/2021/8885074
 [research_yu_su_2025]: https://doi.org/10.3724/j.gyjzg22082203
 [research_yu_sun_2014]: https://doi.org/10.4028/www.scientific.net/amm.668-669.406
-[research_yu_wang_2011]: https://doi.org/10.1109/icmss.2011.5998421
 [research_yu_wang_2017]: https://doi.org/10.1016/j.ast.2017.06.026
 [research_yu_wang_2026]: https://doi.org/10.1016/j.ast.2026.112132
-[research_yu_wu_2022]: https://doi.org/10.1201/9781003347439-8
-[research_yu_wu_2022_b]: https://doi.org/10.1201/9781003347439-7
 [research_yu_xu_2015]: https://doi.org/10.2514/6.2015-1331
 [research_yu_yang_2020]: https://doi.org/10.1007/s11071-020-05915-w
 [research_yu_zhang_2024]: https://doi.org/10.1007/s40747-024-01579-w
@@ -10518,14 +9683,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_yun_seo_2019]: https://doi.org/10.2514/6.2019-4267
 [research_yutaakai_kenjiuchiyama_2007]: https://doi.org/10.1109/iccas.2007.4406924
 [research_zaili_yusof_2014]: https://doi.org/10.4028/www.scientific.net/amm.699.736
-[research_zaiser_sandfeld_2014]: https://doi.org/10.1088/0965-0393/22/6/065012
 [research_zakharin_ponomarenko_2023]: https://doi.org/10.1109/msnmc61017.2023.10329195
-[research_zaki_abdelrahman_2022]: https://doi.org/10.1016/j.energy.2021.122338
 [research_zakrajsek_vogel_2017]: https://doi.org/10.2514/6.2017-0352
 [research_zammitmangion_zammit_2006]: https://doi.org/10.2514/6.2006-6271
-[research_zanforlin_deluca_2018]: https://doi.org/10.1016/j.energy.2018.01.132
-[research_zare_boroushaki_2024]: https://doi.org/10.1016/j.energy.2024.134113
-[research_zasso_giappino_2006]: https://doi.org/10.1016/j.jweia.2006.01.007
 [research_zavalishin_zatuchny_2021]: https://doi.org/10.1007/978-981-16-0073-9_1
 [research_zeiler_mcghee_1999]: https://doi.org/10.2514/2.3434
 [research_zeleke_asfaw_2023]: https://doi.org/10.3103/s1068799823040190
@@ -10542,13 +9702,11 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhang_2019]: https://doi.org/10.1109/access.2019.2911025
 [research_zhang_2020]: https://doi.org/10.1115/gt2020-14672
 [research_zhang_2024]: https://doi.org/10.54097/rxvm3q06
-[research_zhang_2025]: https://doi.org/10.1016/j.partic.2025.04.004
 [research_zhang_bai_2023]: https://doi.org/10.1007/978-981-19-6613-2_137
 [research_zhang_cai_2007]: https://doi.org/10.2514/6.2007-6132
 [research_zhang_cai_2024]: https://doi.org/10.1007/978-981-99-8048-2_269
 [research_zhang_chang_2022]: https://doi.org/10.1007/978-981-16-9492-9_283
 [research_zhang_chen_2011]: https://doi.org/10.2514/6.2011-2231
-[research_zhang_chen_2020]: https://doi.org/10.1007/s11119-020-09747-x
 [research_zhang_chen_2023]: https://doi.org/10.1007/978-981-19-6613-2_436
 [research_zhang_chen_2026]: https://doi.org/10.1016/j.ast.2026.112946
 [research_zhang_chu_2024]: https://doi.org/10.3390/s24103079
@@ -10560,11 +9718,9 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhang_guo_2017]: https://doi.org/10.2514/6.2017-2372
 [research_zhang_han_2025]: https://doi.org/10.1007/978-981-96-7352-0_11
 [research_zhang_han_2025_b]: https://doi.org/10.1002/asjc.3839
-[research_zhang_hao_2013]: https://doi.org/10.4028/www.scientific.net/amr.694-697.1641
 [research_zhang_hu_2021]: https://doi.org/10.1109/tnnls.2021.3080980
 [research_zhang_hu_2025]: https://doi.org/10.1142/s021945542750088x
 [research_zhang_hua_2026]: https://doi.org/10.1016/j.jweia.2026.106433
-[research_zhang_huang_2025]: https://doi.org/10.3390/machines13090847
 [research_zhang_jia_2013]: https://doi.org/10.1109/mic.2013.6758104
 [research_zhang_jing_2021]: https://doi.org/10.1108/aeat-11-2020-0253
 [research_zhang_li_2017]: https://doi.org/10.1109/icmsc.2017.7959475
@@ -10585,7 +9741,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhang_selezneva_2022]: https://doi.org/10.1109/rusautocon54946.2022.9896327
 [research_zhang_shi_2016]: https://doi.org/10.1117/1.oe.55.4.044102
 [research_zhang_shou_2022]: https://doi.org/10.1016/j.neucom.2021.10.084
-[research_zhang_song_2011]: https://doi.org/10.4028/www.scientific.net/amr.366.444
 [research_zhang_sun_2013]: https://doi.org/10.1007/978-3-642-42057-3_81
 [research_zhang_sun_2016]: https://doi.org/10.1109/icrms.2016.8050105
 [research_zhang_tang_2017]: https://doi.org/10.1016/j.isatra.2017.08.012
@@ -10605,11 +9760,8 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhang_wei_2018]: https://doi.org/10.1016/j.ast.2018.08.028
 [research_zhang_wei_2019]: https://doi.org/10.1007/978-981-13-3305-7_204
 [research_zhang_wei_2019_b]: https://doi.org/10.1016/j.actaastro.2019.03.078
-[research_zhang_wu_2011]: https://doi.org/10.4028/www.scientific.net/amr.271-273.1103
 [research_zhang_wu_2017]: https://doi.org/10.2514/6.2017-2320
 [research_zhang_xu_2022]: https://doi.org/10.1016/j.actaastro.2022.05.021
-[research_zhang_xue_2026]: https://doi.org/10.1016/j.oceaneng.2026.125174
-[research_zhang_yang_2020]: https://doi.org/10.1109/cac51589.2020.9327599
 [research_zhang_yin_2025]: https://doi.org/10.1007/978-981-96-2228-3_25
 [research_zhang_yu_2018]: https://doi.org/10.1109/gncc42960.2018.9018888
 [research_zhang_yu_2024]: https://doi.org/10.1016/j.renene.2024.120541
@@ -10618,7 +9770,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhang_zhai_2019_b]: https://doi.org/10.1109/access.2019.2893062
 [research_zhang_zhang_2011]: https://doi.org/10.1061/41184(419)500
 [research_zhang_zhang_2016]: https://doi.org/10.1007/978-3-662-53430-4_4
-[research_zhang_zhang_2020]: https://doi.org/10.1007/s00773-020-00716-7
 [research_zhang_zhang_2020_b]: https://doi.org/10.1016/j.actaastro.2019.11.012
 [research_zhang_zhang_2022]: https://doi.org/10.1016/j.isatra.2021.04.031
 [research_zhang_zhang_2023]: https://doi.org/10.1007/978-981-19-6613-2_244
@@ -10639,7 +9790,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhao_pei_2013]: https://doi.org/10.4304/jmm.8.2.90-97
 [research_zhao_sheng_2014]: https://doi.org/10.1109/cgncc.2014.7007465
 [research_zhao_tang_2015]: https://doi.org/10.2991/icismme-15.2015.71
-[research_zhao_wang_2015]: https://doi.org/10.3901/cjme.2015.0306.024
 [research_zhao_wang_2016]: https://doi.org/10.1109/aus.2016.7748091
 [research_zhao_yang_2013]: https://doi.org/10.1061/(asce)as.1943-5525.0000174
 [research_zhao_zhao_2024]: https://doi.org/10.1177/16878132241300197
@@ -10680,7 +9830,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhou_liang_2019]: https://doi.org/10.1115/gt2019-91112
 [research_zhou_neusypin_2023]: https://doi.org/10.3390/engproc2023033066
 [research_zhou_ohashi_2020]: https://doi.org/10.1109/tencon50793.2020.9293862
-[research_zhou_she_2019]: https://doi.org/10.1007/978-3-030-27535-8_44
 [research_zhou_takaba_2019]: https://doi.org/10.1109/icamechs.2019.8861664
 [research_zhou_wan_2026]: https://doi.org/10.1016/j.cja.2025.103581
 [research_zhou_wang_1987]: https://doi.org/10.1016/0094-5765(87)90016-6
@@ -10710,7 +9859,6 @@ The next article returns to a vehicle designed to be shot down.
 [research_zhuqidan_wangtong_2009]: https://doi.org/10.1109/ccdc.2009.5191918
 [research_zhuqidan_wangtong_2009_b]: https://doi.org/10.1109/ccdc.2009.5194878
 [research_zhuqidan_zhangwen_2009]: https://doi.org/10.1109/ccdc.2009.5192852
-[research_ziaie_peng_1990]: https://doi.org/10.21000/jasmr90010473
 [research_zieja_kosinski_2015]: https://doi.org/10.5604/12314005.1137866
 [research_zilong_zhaokui_2019]: https://doi.org/10.2514/1.a34265
 [research_zimmerman_dukeman_2003]: https://doi.org/10.2514/2.5096
@@ -10724,4 +9872,3 @@ The next article returns to a vehicle designed to be shot down.
 [research_zuppardi_mongelluzzo_2023]: https://doi.org/10.2514/1.a35489
 [research_zuppardi_mongelluzzo_2023_b]: https://doi.org/10.2514/1.a35665
 [research_zwirglmaier_drees_2014]: https://doi.org/10.1201/b17399-279
-[research_zyhowski_zill_2022]: https://doi.org/10.1007/978-3-031-20470-8_14

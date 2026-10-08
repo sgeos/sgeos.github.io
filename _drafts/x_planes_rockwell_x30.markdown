@@ -455,11 +455,7 @@ enthalpy by burning fuel in the test gas, which leaves the flow contaminated wit
 A scramjet burning hydrogen in that gas is not burning in air, and the difference matters precisely where
 the margins are thinnest.
 
-- [Transient Reactor Test Facility achieves Criticality][research_transient_reactor_1959]
 - [Design Features of the General Electric Research Laboratory...][research_nagamatsu_sheer_1961]
-- [Super-power Klystron Tube-test Facility][research_blessing_1961]
-- [Super-power Klystron Tube-test Facility][research_blessing_1962]
-- [Super-power Klystron Tube-test Facility][research_blessing_1963]
 - [The Aerospace Hypersonic Shock Tunnel][research_varwig_1963]
 - [NOL Hypersonic Shock Tunnel Facilitiesxb][research_watt_aronson_1964]
 - [Development of the Supersonic Compressor Test Facilities at...][research_carman_1965]
@@ -472,17 +468,13 @@ the margins are thinnest.
 - [An Experimental Investigation of the Supersonic Combustion of...][research_davis_1970]
 - [Supersonic combustion tests with a double- oblique-shock...][research_osgerby_smithson_1970]
 - [Model Induction Test Facility Capability for Testing Turbofan...][research_hale_1973]
-- [New aircon test facility to judge star performance][research_new_aircon_1974]
-- [RADC SOI Test Facility Technical Assistance Program][research_grish_weitzman_1974]
 - [Description and test results of a digital supersonic...][research_battertonpg_arpasidj_1976]
 - [Exploding Wire Shock Test Facility][research_boardman_1976]
-- [Solar test facility yields 1.7-MW power][research_solar_test_1977]
 - [Summary of Helicopter Airframe Testing in the Shipboard...][research_kolwey_1977]
 - [Hypersonic Heat Transfer Test Program in the VKI Longshot...][research_dicristina_1979]
 - [Flow Calibration and Test Facility][research_flow_calibration_1982]
 - [Buccaneer S2B Fatique Test Facility][research_buccaneer_s2b_1984]
 - [Modification of NASA Langley 8 foot high temperature tunnel...][research_kellyhn_wietingar_1984]
-- [Simulation of PWR Turbine Trip Transient in ROSA-IV Large...][research_kukita_osakabe_1985]
 - [The Design and Testing of Pneumatic Systems for Measuring Low...][research_wagner_dale_1985]
 - [New environmental test facility][research_new_environmental_1986]
 - [The LSP/SNI Test Facility][research_denenberg_1986]
@@ -490,25 +482,17 @@ the margins are thinnest.
 - [Modification to the Langley 8-foot high temperature tunnel...][research_reubushde_pusterrl_1987]
 - [Vectoring Single Expansion Ramp Nozzle VSERN static model...][research_eamesdjh_masonml_1988]
 - [Comparisons of a Three-Dimensional, Full Navier Stokes...][research_watkinswilliamb_1990]
-- [Rome Air Development Center CRYO Test Facility][research_carpenter_1990]
 - [Scramjet testing from Mach 4 to 20 - Present capability and...][research_thomasscottr_guyrwayne_1990]
 - [Shock tunnel studies of scramjet phenomena, supplement 5][research_caseyr_stalkerrj_1990]
 - [Cars temperature/multi-species measurement strategies for...][research_anderson_eckbreth_1991]
 - [ZEST Flight Test Experiments, Kauai Test Facility, Hawaii][research_cenkci_1991]
-- [A Study of RELAP5/MOD2 and RELAP5/MOD3 Predictions of a...][research_sloan_hassan_1992]
 - [Aircraft Engine Test Facility][research_aircraft_engine_1992]
-- [Harwell's respirator test facility][research_harwell_s_respirator_1992]
 - [Heat flux and shock shape measurements on an Aeroassist...][research_gaisl_mudfordnr_1992]
 - [High-temperature strain measurement techniques Current...][research_lemcoemm_1992]
-- [Production scheduling algorithms for a semiconductor test...][research_production_scheduling_1992]
 - [Scramjet analysis, testing][research_leingangjl_stullfd_1992]
-- [Validation of RETRAN-03 by Simulating a Peach Bottom Turbine...][research_westacott_peterson_1992]
 - [Shock tunnel studies of scramjet phenomena, supplement 6][research_wendtm_nettletonm_1993]
 - [Shock tunnel studies of scramjet phenomena, supplement 7][research_bakosrj_morganrg_1993]
 - [Shock tunnel studies of scramjet phenomena, supplement 8][research_stalkerrj_hollisp_1993]
-- [Cathode Life Test Facility][research_jardieu_1994]
-- [Investigation of condensation phenomena as part of the TRAM...][research_tuunanen_sonnenburg_1994]
-- [RELAP5/MOD3 Simulation of the Loss of the Residual Heat...][research_hassan_banerjee_1994]
 - [Shock-tunnel combustor testing for hypersonic vehicles][research_loomismarkp_1994]
 - [The J6 Partnering Case Study. J6 Large Rocket Test Facility][research_lancaster_1994]
 - [Experiments on supersonic combustion ramjet propulsion in a...][research_paull_stalker_1995]
@@ -519,34 +503,19 @@ the margins are thinnest.
 - [Shock Tunnel Studies of Scramjet Phenomena 1993][research_stalkerrj_bakosrj_1995]
 - [The NASA Ames 16-Inch Shock Tunnel Nozzle Simulations and...][research_tokarcikpolskys_papadopoulosp_1995]
 - [Thermal distortion test facility][research_stapp_1995]
-- [96/04007 Investigation of control and simulation of solar...][research_96_04007_investigation_1996]
-- [Investigation of control and simulation of solar process heat...][research_kohne_oertel_1996]
 - [Shock Tunnel Studies of Scramjet Phenomena][research_stalkerrj_1996]
-- [Versatile membranes filtration test facility][research_versatile_membranes_1996]
 - [Ambient Temperature Testing of Metallic Materials Exposed to...][research_vigilante_cote_1997]
 - [Experimental Analysis of a Rocket Based Combined Cycle RBCC...][research_knelson_clarkwhawk_1997]
-- [Mathematical Modeling and Parameter Identification of a...][research_furst_hahn_1997]
-- [Simulation of Loss of the Residual Heat Removal System of...][research_hassan_troshko_1997]
-- [Simulation of a Small Cold-Leg-Break Experiment at the PMK-2...][research_ezsol_guba_1997]
-- [Test facility offers synthetic car exhaust][research_test_facility_1997]
 - [Tri-Service Thermal Radiation Test Facility Xenon Flashlamp...][research_sweeney_1997]
-- [120MM Propellant Drums First Article Testing FAT][research_ajalla_1998]
 - [Aeropropulsion Environmental Test Facility][research_lominac_boytos_1998]
 - [Langley Aerothermodynamic Facilities Complex Enhancements and...][research_micoljr_1998]
 - [Recent Flight Test Results of the Joint CIAM-NASA Mach 6.5...][research_roudakovalexanders_semenovvyacheslavl_1998]
-- [Outokumpu builds filter test facility][research_outokumpu_builds_1999]
 - [Ozone Flow Tagging Scheme for Air Inlet Testing][research_debarber_1999]
-- [Pump test facility expanded][research_pump_test_1999]
-- [Test facility for Atmospheric Pressure Plasmas][research_schoenbach_1999]
 - [Benchmark Testing of the Largest Titanium Aluminide Sheet...][research_bartolottapaula_krausedavidl_2000]
-- [Joint Integration Test Facility JITF Performance Measurement...][research_boucher_2000]
 - [Measurement Requirements for Improved Modeling of Arcjet...][research_fletcherdouglasg_2000]
 - [Test Capabilities and Recent Experiences in the NASA Langley...][research_hodgejeffreys_harvinstephenf_2000]
-- [Development of a Multi-GHz Sampling Capability at the...][research_hummels_irons_2001]
-- [Joint Integration Test Facility JITF Engineering II...][research_boucher_2001]
 - [Large Liquid Engine Test Facility][research_mendez_2001]
 - [Low Emissions RQL Flametube Combustor Component Test Results][research_holdemanjamesd_changclarencet_2001]
-- [An Assessment of the USAFE School Board Test Program][research_wright_2002]
 - [Design and Testing of Non-Toxic RCS Thrusters for Second...][research_calvignacjacky_danglisa_2003]
 - [Exhaust Simulation Testing of a Hypersonic Airbreathing Model...][research_huebnerlawrenced_wittedavidw_2004]
 - [Free-jet Testing of a REST Scramjet at Off-Design Conditions][research_smartmichaelk_rufedwardg_2006]
@@ -751,7 +720,6 @@ than chemistry.
 - [Rate-controlled constrained equilibrium calculation of...][research_law_metghalchi_1989]
 - [Engineering model for analysis of scramjet combustor...][research_pulsonetti_erdos_1991]
 - [Raman measurement of mixing and finite-rate chemistry in a...][research_cheng_wehrmeyer_1994]
-- [Self-ignition and combustion of a water-fuel emulsion during...][research_buzukov_timoshenko_1995]
 - [Hydrogen Autoignition and Combustion in Supersonic Flow at...][research_riva_daminelli_1997]
 - [Chemical Kinetics and Aerodynamics of Ignition][research_law_2004]
 
@@ -762,13 +730,9 @@ than chemistry.
 - [Effect of equivalence ratio and approach flow turbulence...][research_rajan_1987]
 - [Influence of equivalence ratio on the structure of...][research_pauwels_carlier_1990]
 - [The influence of equivalence ratio and Sorêt effecton the...][research_dasilva_deshaies_1994]
-- [The phi meter A simple, fuel-independent instrument for...][research_babrauskas_parker_1994]
-- [The global equivalence ratio concept and the formation...][research_pitts_1995]
-- [The effect of the bulk equivalence ratio on the pah emissions...][research_panagiotou_levendis_1996]
 - [Effect of Overall Equivalence Ratio on Minimum Nitric Oxide...][research_alder_lyle_1998]
 - [The role of equivalence ratio oscillations in driving...][research_lieuwen_zinn_1998]
 - [The effect of global equivalence ratio and postflame...][research_tolocka_richardson_1999]
-- [The global equivalence ratio concept in laboratory scale...][research_richter_lorenz_1999]
 
 ### The Inlet, Which Is Most of the Vehicle
 
@@ -853,10 +817,7 @@ trade between length, weight and cooling area.
 - [Project SQUID An Experimental Investigation of the Effect of...][research_wilder_jr_1949]
 - [Criteria of inlet contraction. What is their value?][research_kaltreider_1951]
 - [Preliminary Investigation of a New Type of Supersonic Inlet][research_ferriantonio_nuccilouism_1951]
-- [Free molecular flow in the sample inlet to the mass...][research_free_molecular_1952]
 - [Performance Characteristics of a Normal-shock Side Inlet...][research_dryermurray_bekeandrew_1952]
-- [Performance Test of a Side-inlet, Steam-to-air Jet Pump with...][research_heinrich_1954_b]
-- [Summary of Performance Tests of Two Side Inlet, Steam-to-air...][research_heinrich_1954]
 - [Total-Pressure Distortion and Recovery of Supersonic Nose...][research_gelderthomasf_1957]
 - [Performance of an All-internal Conical Compression Inlet with...][research_oberylj_stittle_1958]
 - [Experimental investigation of a mach 5 isentropic spike inlet...][research_flahertyrj_stittle_1959]
@@ -865,8 +826,6 @@ trade between length, weight and cooling area.
 - [Concerning Real Gas Effects on Hypersonic Inlet Performance][research_hartsell_1961]
 - [Development of flow in the inlet length of a circular tube...][research_atabek_1962]
 - [Force-Balance Determination of Supersonic/Hypersonic...][research_kutschenreuter_1962]
-- [Inlet Contraction of the Pelvis][research_glenning_bond_1962]
-- [Mass Spectrometer All-Glass Heated Inlet][research_peterson_1962]
 - [Laminar Boundary Layer Near the Plane of Symmetry of a...][research_libby_fox_1963]
 - [Hypersonic inlet performance from direct force measurements][research_kutschenreuter_balent_1965]
 - [An Experimental Investigation on the Effect of Subsonic Inlet...][research_vandewoestine_fox_1966]
@@ -874,11 +833,8 @@ trade between length, weight and cooling area.
 - [Busemann inlet for hypersonic speeds][research_molder_szpiro_1966]
 - [Hypersonic inlet boundary-layer research][research_stroud_miller_1966]
 - [Investigation of Hypersonic Inlet Shock-wave Boundary Layer...][research_kutschenreuter_paulh_1966]
-- [Mass spectrometer inlet system for organic compounds with low...][research_mass_spectrometer_1966]
 - [Measurement of the heat transfer to a two- dimensional...][research_tabakoff_mcdonel_1966]
 - [Study of Wall-Pressure Fluctuations in a Supersonic-Engine...][research_shulman_parry_1966]
-- [258. A simple mass spectrometer inlet leak][research_258_a_1968]
-- [A mass spectrometer all-glass heated inlet][research_stafford_morgan_1968]
 - [Design and Component Test of Engine Air Inlet Particle...][research_duffy_1968]
 - [Inlet Duct-Engine Exhaust Nozzle Airflow Matching for the...][research_taylor_1968]
 - [Tests of One-third-scale NASA Hypersonic Research Engine...][research_hube_1968]
@@ -887,19 +843,15 @@ trade between length, weight and cooling area.
 - [Investigation of Feasibility of Integral Gas Turbine Engine...][research_mcanally_williamj_1970]
 - [Some Experimental Results of Two-Dimensional Compressor...][research_starken_lichtfuss_1970]
 - [A Method for Predicting Compressor Cascade Total Pressure...][research_balzer_1971]
-- [Cortisol and cortisone as test substances for the efficiency...][research_adley_granata_1971]
 - [Detailed investigation of flowfields within large scale...][research_seebaughwr_doranrw_1971]
 - [Application of quadratic optimization to supersonic inlet...][research_lehtinen_zeller_1972]
 - [Combined Viscous-Inviscid Analysis of Supersonic Inlet...][research_reyhner_hickcox_1972]
-- [Evaporator of a direct sample inlet system for mass...][research_evaporator_of_1972]
 - [Influence of Contraction Section Shape and Inlet Flow...][research_back_cuffel_1972]
 - [Investigation of a mixed compression axisymmetric inlet at...][research_lathamea_sorensonne_1972]
 - [Performance Estimates for a Supersonic Axisymmetric Inlet...][research_sorensen_smeltzer_1972]
-- [Pressure Distributions Near an Inlet of a Circular...][research_lowe_1972]
 - [Advanced supersonic inlet technology][research_sorensen_smeltzer_1973]
 - [Hypersonic flows in large-scale inlet models][research_seebaugh_1973]
 - [Possibilities for improved supersonic inlet performance][research_sorensenne_benczedp_1973]
-- [578. Mass spectrometer calibration under pulsed molecular...][research_578_mass_1974]
 - [Digital integrated control of a Mach 2.5 mixed-compression...][research_battertonpg_arpasidj_1974]
 - [Performance of an Inlet for an Integrated Scramjet Concept][research_trexler_1974]
 - [Possibilities for Improved Supersonic Inlet Performance][research_sorensen_bencze_1974]
@@ -911,56 +863,40 @@ trade between length, weight and cooling area.
 - [Evaluation of an Airjet Distortion Generator used to Produce...][research_overall_1976]
 - [Experiments Concerning the Response of Supersonic Nozzles to...][research_zukoski_auerbach_1976]
 - [ASD Advanced Program Research Inlet Data Analysis Report for...][research_mann_garner_1977]
-- [Molecular Sieve Generation of Aviator's Oxygen Breathing Gas...][research_miller_theis_1977]
 - [Experimental investigation of a 0.15-scale model of an...][research_leamerpc_kennonig_1978]
 - [Inlet boundary-layer shapes on four aircraft forebodies at...][research_lawingpl_johnsoncb_1978]
-- [Mass spectrometry of medicines. Quantitative determination by...][research_tatematsu_yoshizumi_1978]
 - [Performance of Rotating Cascades under the Inlet-Distortion...][research_maekawa_higashi_1978]
 - [Unsteady Effects of Circumferential Pressure Distorted Inlet...][research_peacock_1978]
-- [A successive direct inlet system][research_baba_horie_1979]
 - [Conceptual study of a turbojet/ramjet inlet][research_weidnerjp_1979]
 - [Effects of Airframe-Inlet Integration on Half -Axisymmetric...][research_surber_sedlock_1979]
 - [Evaluation of an Airjet Distortion Generator Used to Produce...][research_hubble_smith_1979]
 - [Aerodynamic and inlet flow characteristics of several...][research_dillonjl_marcumdcjr_1980]
 - [Effects on inlet technology on cruise speed selection][research_bangertlh_santmandm_1980]
 - [Some effects of cruise speed and engine matching of...][research_bangertlh_santmandm_1980_b]
-- [A direct inlet for surface-ionization mass spectrometry of...][research_stoffels_1981]
-- [A direct-inlet mass spectrometer for real-time analysis of...][research_stoffels_1981_b]
 - [Aerodynamic and Inlet Flow Characteristics of Several...][research_dillon_marcum_1981]
 - [Unsteady Effects of Circumferential Pressure Distorted Inlet...][research_peacock_1981]
-- [Instrumental parameterization for optimum use of commercial...][research_traldi_vettori_1982]
 - [Three-Dimensional Inviscid Analysis of the Scramjet Inlet...][research_kumar_1982_b]
 - [Two-Dimensional Analysis of a Scramjet Inlet Flowfield][research_kumar_1982]
-- [An inlet sequence produced by migration of a small microtidal...][research_reddering_1983]
-- [Sequencing of underivatized peptides by direct liquid inlet...][research_kenyon_1983]
 - [Improved Statistical Analysis Method for Prediction of...][research_sedlock_1985]
 - [Real gas effects on the numerical simulation of a hypersonic...][research_ng_benson_1986]
 - [Stall transients of axial compression systems with inlet...][research_moore_1986]
 - [Analytical and experimental evaluation of a 3-D hypersonic...][research_agnoneanthonym_1987]
-- [Supersonic jet spectroscopy with a capillary gas...][research_stiller_johnston_1987]
 - [Inlet starting predictions for sidewall-compression scramjet...][research_trexlercarla_1988]
 - [Patched-grid computations of high-speed inlet flows][research_thomasjl_rudydh_1988]
 - [The effects of inlet sharpness on the pipe contraction...][research_bullen_cheeseman_1988]
-- [Direct liquid inlet liquid chromatographic/mass spectrometric...][research_dragna_aubert_1989_b]
-- [Identification of some glucuronides by direct liquid‐inlet...][research_dragna_aubert_1989]
 - [Turbulence modeling in a hypersonic inlet][research_ng_ajmani_1989]
 - [4860534 Inlet particle separator with anti-icing means][research_4860534_inlet_1990]
 - [A flux-split solution procedure for unsteady inlet flows][research_pordalhs_khoslapk_1990]
-- [A membrane‐inlet tandem mass spectrometer for continuous...][research_lauritsen_bohatka_1990]
 - [Hypersonic aircraft and inlet configurations derived from...][research_hemdan_1990]
 - [Prediction of inviscid stagnation pressure losses in...][research_azevedo_liu_1990]
 - [A Computational and Experimental Investigation of a...][research_hollandscottdouglas_1991]
-- [A gas inlet system for quantitative mass spectrometry][research_hall_lundgren_1991]
 - [CFD validation for forebody inlet interactions][research_marvinjg_1991]
 - [Computation of Inlet Reference Plane Flow-Field for a...][research_mcclure_sirbaugh_1991]
-- [Continuous measurement of water in organic solution by...][research_bohatka_degn_1991]
 - [Contraction ratio effects in a generic sidewall compression...][research_hollandscottd_perkinsjohnn_1991]
 - [Design and off-design performance analysis of a maximum...][research_hawkinsrichardw_richardsonpamelaf_1991]
 - [Numerical performance estimates for a generic hypersonic...][research_lawrencescottl_1991]
 - [Supersonic propulsion simulation by incorporating component...][research_colegaryl_richardjacquesc_1991]
-- [The effects of inlet conditions on mass transfer in annular...][research_legentilhomme_legrand_1991]
 - [Wind tunnel blockage study of a generic three-dimensional...][research_hollandscottd_hodgejeffreys_1991]
-- [An experimental study of a stratified thermal storage under...][research_abuhamdan_zurigat_1992]
 - [Application of space-marching methods to hypersonic forebody...][research_lawrencescottl_1992]
 - [Experimental investigation of an axisymmetric hypersonic...][research_jones_myrabo_1992]
 - [Full Navier-Stokes analysis of a three-dimensional hypersonic...][research_white_rhie_1992]
@@ -973,45 +909,30 @@ trade between length, weight and cooling area.
 - [Computational effects of inlet representation on powered...][research_huebner_tatum_1993]
 - [Computational parametric study of sidewall-compression...][research_hollandscottd_1993]
 - [Full Navier-Stokes analysis of an axisymmetric scramjet inlet][research_hsia_1993]
-- [Membrane mass spectrometer inlet for quantitation of nitric...][research_lewis_deen_1993]
 - [Numerical study of the performance of swept, curved...][research_kortejohnj_singhdj_1993]
-- [Rapid and direct monitoring of volatile fermentation products...][research_lauritsen_kotiaho_1993]
 - [Boundary conditions for unsteady supersonic inlet analyses][research_mayer_paynter_1994]
 - [Experimental, analytical, and computational methods applied...][research_simeonides_haase_1994]
 - [Numerical Investigation to S-Inlet Flows Numerical Simulation...][research_shucheng_xijun_1994]
 - [Computational inlet-fairing effects and plume...][research_huebner_1995]
 - [Experimental investigation of the inlet detector...][research_hwangkyuc_tiwarisurrendran_1995]
-- [Micropore membrane inlet mass spectrometer probes suitable...][research_baumgardner_quinn_1995]
 - [New similarity solutions for hypersonic boundary layers with...][research_inger_1995]
 - [Numerical analysis of hypersonic low-density scramjet inlet...][research_chung_kim_1995]
 - [Shock waves and turbulence in a hypersonic inlet][research_liu_sheng_1995]
-- [Sorption technique in membrane‐inlet mass spectrometry][research_rivlin_1995]
 - [Comment on 'New similarity solutions for hypersonic boundary...][research_pike_1996]
 - [Experimental Investigation of the Performance of a Mach-2.7...][research_wasserbauerjf_meleasonet_1996]
 - [Inlet and Propulsion Integration of Scram Propelled Vehicles][research_povinellilouisa_1996]
 - [Rocket-Based Combined Cycle Engine Technology Development...][research_debonisjr_yungsters_1996]
 - [Supersonic-inlet boundary-layer bleed flow][research_harloff_smith_1996]
-- [The Effects of Inlet Ducting Geometries on the Performance...][research_loustaunau_1996]
 - [Unsteady pressure behavior in a ramjet/scramjet inlet][research_rodi_emami_1996]
-- [A reference gas inlet module for internal isotopic...][research_meieraugenstein_1997]
 - [Computational Fluid Dynamics Analysis Method Developed for...][research_computational_fluid_1997]
-- [Determination of phenolic compounds in water using membrane...][research_ojala_1997]
 - [Improved Hypersonic Inlet Performance Using Validated Strut...][research_bulmanmj_stoutpw_1997]
 - [Influence of inlet pressure conditions on supersonic...][research_barre_braud_1997]
-- [Process Monitoring in Fermentors and Living Plants by...][research_bohatka_1997]
-- [Classification of cola beverages on the basis of mass spectra...][research_ketola_heikkonen_1998]
 - [Euler Calculations at Off-Design Conditions for an Inlet of...][research_takashiman_kothariap_1998]
 - [Forebody precompression effects and inlet entry conditions...][research_berens_bissinger_1998]
 - [Improvement of forebody/inlet integration for hypersonic...][research_bissinger_blagoveshchensky_1998]
 - [Inlet Performance Analysis Code Developed][research_juleskenol_barnhartpaulj_1998]
 - [Large Eddy Simulation of Supersonic Inlet Flows][research_moin_lele_1998]
-- [Rotating ball inlet for continuous mass spectrometric...][research_rsnes_graf_1998]
-- [Temperature-programmed desorption for membrane inlet mass...][research_ketola_gron_1998]
 - [Time Accurate Computation of Unsteady Hypersonic Inlet Flows...][research_mcrae_neaves_1998]
-- [Wave Breaking on a Current at an Idealized Inlet Coastal...][research_smith_seabergh_1998]
-- [Detection of dicarboxylic acids in aqueous samples using...][research_ketola_lauritsen_1999]
-- [Membrane inlet mass spectrometry of volatile organohalogen...][research_bocchini_pozzi_1999]
-- [Ponce de Leon Inlet, Florida, Site Investigation. Report 2...][research_zarillo_militello_1999]
 - [Advanced Methods for Aircraft Engine Thrust and Noise...][research_gilinskymikhail_morganmorrish_2001]
 - [Parametric Data from a Wind Tunnel Test on a Rocket-Based...][research_fernandezrene_trefnycharlesj_2001]
 - [Mach 4 Performance of a Fixed-Geometry Hypersonic Inlet with...][research_smartmichaelk_trexlercarla_2003]
@@ -1026,9 +947,7 @@ trade between length, weight and cooling area.
 - [Flow Simulation of Supersonic Inlet with Bypass Annular Duct][research_kimhyoungjin_kumanotakayasu_2011]
 - [Laser-Induced Thermal Acoustics Theory and Expected...][research_middletontroyf_ballarobertjeffrey_2011]
 - [Supersonic Inlet Flow Control Using Localized Arc Filament...][research_samimy_webb_2011]
-- [Waves, Currents, and Bathymetric Evolution Near an Inlet][research_elgar_raubenheimer_2011]
 - [Reynolds-Averaged Turbulence Model Assessment for a Highly...][research_baurleroberta_middletontroyf_2012]
-- [Waves, Currents, and Bathymetric Evolution Near An Inlet][research_raubenheimer_elgar_2012]
 - [Flow Control for Supersonic Inlet Applications][research_babinsky_2014]
 - [Inlet Engineering Toolbox][research_frey_2014]
 - [The Origin of Inlet Buzz in a Mach 1.7 Low Boom Inlet Design][research_andersonbernhardh_weirlois_2014]
@@ -1060,9 +979,7 @@ trade between length, weight and cooling area.
 - [Study of hypersonic propulsion/airframe integration technology][research_hartillwr_goebeltp_1978]
 - [Initial wind tunnel tests at Mach 4 and 7 of a...][research_guyrw_mackleyea_1979]
 - [Target Missile Airframe Costs][research_anderson_1979]
-- [Design and Integration of an Electric Transmission in a...][research_heise_mando_1983]
 - [Launch vehicle integration requirements for SP-100][research_shawltjr_womackjr_1984]
-- [Design and Integration of Hydrostatic Transmission in a...][research_stecklein_knipp_1985]
 - [Automated Airframe Assembly Program AAAP - Survey of CIM...][research_waterhouse_1988]
 - [A numerical study of hypersonic propulsion/airframe...][research_narayanjr_kumara_1989]
 - [STOVL engine/airframe integration][research_bucknell_1989]
@@ -1078,24 +995,16 @@ trade between length, weight and cooling area.
 - [Interpretation of waverider performance data using...][research_cockrellcharlesejr_1994]
 - [Vehicle integration effects on hypersonic waveriders][research_cockrellcharlesedwardjr_1994]
 - [Nonequilibrium boundary-layer effects on the aerodynamic...][research_inger_1995_c]
-- [Ground Vehicle System Integration GVSI and Design...][research_horton_1996]
 - [Lift-Drag Ratio of a Hypersonic Waverider of Delta Planform][research_zubin_ostapenko_1997]
 - [Scramjet Engine/Airframe Integration Methodology][research_huntjamesl_mcclintoncharlesr_1997]
 - [Experimental Results of the 2.7% Reference H Nacelle Airframe...][research_cappucciogelsomina_1999]
 - [HSCT Propulsion Airframe Integration Studies][research_chaneysteve_1999]
-- [Marine Sensor/Autonomous Underwater Vehicle Integration...][research_hopkins_1999]
 - [Propulsion / Aircraft Integration of Hypersonic Vehicles with...][research_hollmeier_kopp_1999]
 - [Propulsion System Airframe Integration Issues and Aerodynamic...][research_engelundwalterc_hollandscottd_1999]
 - [Highly Loaded Airframe Fittings][research_tessnow_hethcock_2001]
 - [Integrated Propulsion/Vehicle System Structurally Optimized][research_hunterjamese_mccurdydavidr_2003]
 - [Development of Multidisciplinary, Multifidelity Analysis...][research_reisenthel_allen_2010]
 - [Titanium Sandwich Airframe Structure. Volume 1 Program...][research_jones_2011]
-- [Vehicle Systems Engineering and Integration Activities...][research_bryzik_witus_2011]
-- [Vehicle Systems Engineering and Integration Activities...][research_bryzik_witus_2011_b]
-- [Vehicle Systems Engineering and Integration RT 26][research_bryzik_2012]
-- [Vehicle Systems Engineering and Integration Activities][research_bryzik_witus_2012]
-- [Vehicle Systems Engineering and Integration Activities...][research_bryzik_witus_2012_c]
-- [Vehicle Systems Engineering and Integration Activities...][research_bryzik_witus_2012_b]
 - [Simulating the Impact Response of Composite Airframe...][research_jacksonkarene_littelljustind_2014]
 
 ### Heating, and Whether Hydrogen Can Carry It Away
@@ -1259,11 +1168,8 @@ because extra fuel is extra coolant, and it also costs specific impulse.
 - [A fuselage/tank structure study for actively cooled...][research_stoneje_1975]
 - [Study of active cooling for supersonic transports][research_brewergd_morrisre_1975]
 - [Laminar Film Cooling Experiments in Hypersonic Flow][research_richards_stollery_1979]
-- [Characterization of Solid and Liquid Propellant Igniters for...][research_stobie_knapton_1988]
 - [Active Cooling of a Hypersonic Plane Using Hydrogen, Methane...][research_algarni_sahin_1996]
 - [Effects of hydrogen active cooling on scramjet engine...][research_tsujikawa_1996]
-- [Regenerative Fuel Cell Test Rig at Glenn Research Center][research_changbeijiann_johnsondonaldw_2003]
-- [Integrated Printed Circuit Board PCB Active Cooling With...][research_booth_hudson_2012]
 
 ### Materials, and Why They Were Necessary Rather Than Sufficient
 
@@ -1376,8 +1282,6 @@ series.
 - [Nitramine Composite Solid Propellant Modelling][research_blomshield_1989]
 - [The effects of electrochemical oxidation of carbon fibre...][research_neffe_zaskorski_1989]
 - [High Temperature Deformation Behavior of Titanium-Aluminide...][research_masahashi_mizuhara_1991]
-- [High Temperature Superconducting Materials Thin Films...][research_weaver_1991]
-- [Surface activation of air oxidation of hydrazine on...][research_coynelm_summersdp_1991]
 - [34th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics...][research_americaninstituteofaeronauticsandastronautics_1993]
 - [Development of hydrogen resistant structural alloy NASA-23][research_bhatbn_mcphersonwb_1993]
 - [High temperature compressive strength of titanium reinforced...][research_high_temperature_1993]
@@ -1389,7 +1293,6 @@ series.
 - [High temperature strength of nickel alloy reinforced with...][research_high_temperature_1996_b]
 - [Ignition, Combustion and Kinetics of Energetic Materials][research_kuo_thynell_1998]
 - [Oxidation and Thermal Shock Resistance of SiC Compositionally...][research_yamada_fujii_1999]
-- [Development of New High Temperature and High Performance...][research_liu_kuhl_2000]
 - [Research Program For Radiation Stability of the Aerospace...][research_briskman_2000]
 - [AFOSR Workshop on Research and Applications of Active...][research_lagoudas_sanders_2001]
 - [Materials for High Temperature Applications][research_upsadhya_2001]
@@ -1398,8 +1301,6 @@ series.
 - [High Temperature Texturing of Engineered Materials in a...][research_gamestani_2003]
 - [Oxidation of Carbon Fibers in Water Vapor Studied][research_opilaelizabethj_2003]
 - [A Study on the Role of Grain-Boundary Engineering in...][research_ritchie_kumar_2005]
-- [Materials, Processing and Quality Control for High...][research_chu_salama_2005]
-- [Materials, Processing and Quality Control for High...][research_chu_2006]
 - [A High-Temperature Combinatorial Technique for the Thermal...][research_vlassak_2008]
 - [Deformation and Failure of a Multi-Wall Carbon Nanotube Yarn...][research_gatesthomass_jeffersongaild_2008]
 - [Non-contact Measurement of Creep in Ultra-High-Temperature...][research_hyers_2009]
@@ -1427,44 +1328,28 @@ series.
 - [Hypersonic wing test structure design, analysis, and...][research_plankpp_penningfa_1973]
 - [T-38 Structural Flight Loads Data for June 1970 through...][research_clay_rockafellow_1973]
 - [Dynamic Loads and Structural Criteria Study][research_spreuer_snackenburg_1974]
-- [The optimum shape of cooling towers][research_reinschmidt_narayanan_1975]
 - [A fuselage/tank structure study for actively cooled...][research_pirrellocj_bakerah_1976]
 - [Design and analysis of a plate-fin sandwich actively cooled...][research_smithlm_1978]
 - [Recent Advances in Structures for Hypersonic Flight, Part 1][research_recent_advances_1978]
 - [Development of Advanced Aluminum Alloys from Rapidly...][research_lewis_1979]
-- [Environmental loadings on concrete cooling towers types...][research_gould_1979]
 - [ACOSS Three Active Control of Space Structures . Phase I][research_lyons_aubrun_1980]
 - [BDR Tensile Structure Concept Feasibility Study][research_kuznetsov_1980]
-- [Effects of geometric imperfections on stress distributions in...][research_kato_yokoo_1980]
 - [ACOSS NINE Active Control of Space Structures][research_seltzer_worley_1981]
-- [Active Mirror Structures][research_shannon_richard_1981]
 - [ACOSS Fifteen Active Control of Space Structures][research_seltzer_worley_1982]
 - [ACOSS-11 Active Control of Space Structures . Volume I][research_brooks_mahajan_1982]
 - [ACOSS Eleven Active Control of Space Structures . Volume 1][research_fogel_hegg_1983]
 - [ACOSS Eleven Active Control of Space Structures . Volume 2][research_brooks_anding_1983]
 - [Report of the Panel on Propulsion][research_kerrebrockjackl_poferldavidj_1984]
-- [Analysis of hyperbolic cooling towers with local imperfections][research_han_tong_1985]
-- [Large reticulated steel cooling towers][research_kollar_1985]
-- [Impact of research on development of large cooling towers][research_niemann_zerna_1986]
 - [Review of convectively cooled structures for hypersonic flight][research_shorecharlesp_1986]
-- [Seismic analysis of cooling towers][research_wolf_1986]
-- [The effect of cracking on the ultimate strength of reinforced...][research_milford_schnobrich_1986]
 - [Instrumentation for a Facility for the Test, Analysis and...][research_vonflotow_1989]
 - [Mechanical Response of Structural Elements to Dynamic Loads][research_herrmann_1989]
 - [Structures technology development for hypersonic vehicles][research_camardacharlesj_murrowharoldn_1990]
-- [Active Knowledge Structures for Natural Language Processing][research_wilks_coombs_1991]
 - [Active Structural Acoustic Control and Smart Structures][research_fuller_1991]
-- [Gust factors for hyperbolic cooling towers on soils][research_wangshu_luwenda_1991]
-- [The design of cooling towers in extremely severe earthquake...][research_castiau_gaurois_1991]
-- [Collapse simulation of reinforced concrete natural draught...][research_kratzig_zhuang_1992]
 - [Life assessment of structural components using inelastic...][research_aryavinodk_halfordgaryr_1993]
 - [Finite element modelling of a three-component force balance...][research_daniel_mee_1995]
-- [A finite element formulation for column-supported hyperboloid...][research_aksu_1996]
 - [Use of Smart Structures for Control and Performance...][research_augustjamesa_joshishiv_1996]
-- [Natural draught cooling towers][research_kemp_1997]
 - [Evaluation of the Transient Liquid Phase TLP Bonding Process...][research_birdrkeith_hoffmanerick_1998]
 - [Active-Passive Hybrid Adaptive Structures for Vibration...][research_wang_2000]
-- [Active and Reconfigurable Photonic-Bandgap Structures][research_shiroma_chiao_2002]
 - [GTX Reference Vehicle Structural Verification Methods and...][research_hunterje_mccurdydr_2002]
 - [Collected Papers in Structural Mechanics Honoring Dr. James...][research_knightnormanfjr_nemethmichaelp_2006]
 - [Investigation of Passive Control Devices for Potential...][research_howard_hansen_2006]
@@ -1569,11 +1454,6 @@ $$ \left(\frac{m_{\mathrm{fuel}}}{m_0}\right)_{\min} = \frac{32.24}{119.96} = 26
 better than a factor of 1.69 improvement on the answer above, and
 **that is the strongest evidence available here that the integration is not producing a fantasy**, because a
 result below the bound would have been proof of an error.
-
-- [The Energy Budget at the Earth's Surface Air Flow and...][research_allen_lh_1967]
-- [The Energy Budget at the Earth's Surface a Simulation of Net...][research_stewart_lemon_1969]
-- [The Energy Budget at the Earth's Surface Effects of Air...][research_kimball_lemon_1969]
-- [Electrochemical Orbital Energy Storage ECOES technology...][research_mcbryarh_1980]
 
 **Air-breathing to six kilometres per second moves the permitted structural fraction from twelve percent to fifty-two.**
 That is not a marginal improvement. It is the difference between a vehicle that cannot be built and one with
@@ -1681,7 +1561,6 @@ trajectory that strays high loses the air it needs, and one that strays low melt
 - [Hypersonic airfoils of maximum lift-to-drag ratio][research_thompson_hull_1970]
 - [Subsonic-hypersonic aerodynamic characteristics of several...][research_trujillo_1970]
 - [Aerodynamic characteristics of slender wedge- wings in...][research_rodkiewicz_chattopadhyay_1971]
-- [Lift, Drag, and Pressure Distribution Effects Accompanying...][research_fruman_tulin_1975]
 - [Results of an investigation of hypersonic viscous interaction...][research_elderdj_1975]
 - [Effect of slip on the aerodynamic characteristics of a wing...][research_golubkin_1978]
 - [Hypersonic aerodynamics for an entry research vehicle][research_cunningham_1987]
@@ -1723,8 +1602,6 @@ trajectory that strays high loses the air it needs, and one that strays low melt
 - [Low Reynolds number effect on hypersonic lifting body...][research_adams_1975]
 - [Influence of tangential injection on heat transfer to a cone...][research_vasilev_petrov_1977]
 - [Vibrational nonequilibrium stagnation shock layers at...][research_schubert_1978]
-- [High Reynolds number flow through cubic arrays of spheres...][research_lahbabi_chang_1985]
-- [The Effects of Reynolds Number Variation on Measurement of...][research_specker_1985]
 - [The influence of laminar separation and transition on low...][research_mueller_1985]
 - [Heat Transfer Downstream of an Abrupt Expansion in the...][research_baughn_hoffman_1987]
 - [Hypersonic viscous shock-layer solutions over long slender...][research_gupta_lee_1990]
@@ -1738,7 +1615,6 @@ trajectory that strays high loses the air it needs, and one that strays low melt
 - [Pitch Rate and Reynolds Number Effects on Unsteady...][research_schreck_faller_1998]
 - [Structures and transition in a high Reynolds number experiment][research_willaime_belin_1998]
 - [Reynolds Number Effects on Low-Speed Aerodynamics of a...][research_neuwerth_peiter_1999]
-- [High Reynolds Number Boundary Layer Scaling on a Large...][research_brewer_park_2001]
 - [High Reynolds Number Turbulence][research_smits_2007]
 - [Unsteady Low-Reynolds Number Aerodynamics for Micro Air...][research_ol_2007]
 - [Numerical Study of Unsteady Low-Reynolds Number Wing...][research_gopalarothnam_mcgowan_2008]
@@ -1792,7 +1668,6 @@ so the computational case and the experimental case failed together rather than 
 - [Simplified model and Navier-Stokes calculations for...][research_penanhoat_darracq_1996]
 - [Data Base for CFD Validation][research_deiwertgeorges_1997]
 - [Transition and Turbulence Modeling for Blunt-Body Wake Flows][research_nancerobertp_horvaththomasj_1997]
-- [An evaluation of topographical effects on neutral and...][research_burman_1998]
 - [High-Order Finite-Difference Schemes for Numerical Simulation...][research_zhong_1998]
 - [Numerical Simulation of Hypersonic Shock-Induced Combustion...][research_dudebout_sislian_1998]
 - [Hypersonic Maneuvering Vehicle Simulations Using Real-Gas...][research_mcgrory_2001]
@@ -1872,9 +1747,7 @@ so the computational case and the experimental case failed together rather than 
 - [Space shuttle digital flight control system][research_minottgm_pellerjb_1976]
 - [Explicit Guidance Equations for a Variable Trim Reentry...][research_alexander_tm_1978]
 - [New Methods for Analysis of the Performance of Guidance and...][research_bucy_1979]
-- [Guidance and Actuation Techniques for an Adaptively...][research_patterson_reidy_1982]
 - [Stability and control over the supersonic and hypersonic...][research_comptonhr_schiessjr_1983]
-- [Guidance and Actuation Systems for an Adaptive-Suspension...][research_patterson_reidy_1984]
 - [Hypersonic vehicle control law development using H infinity...][research_gregoryirenem_chowdhryrajivs_1992]
 - [On Ascent Guidance of a Hypersonic Vehicle][research_grimm_1992]
 - [Effect of aeroelastic-propulsive interactions on flight...][research_raneydavidl_mcminnjohnd_1993]
@@ -1884,11 +1757,8 @@ so the computational case and the experimental case failed together rather than 
 - [Simple guidance method for single stage to low Earth orbit][research_pamadi_1995]
 - [A Disturbance Attenuation Approach to Missile Guidance and...][research_speyer_1997]
 - [Adaptive Guidance Systems for Hypersonic Reusable Launch...][research_schierman_ward_2001]
-- [Acoustic Communication for High-Doppler Guidance and Control][research_freitag_2002]
-- [Decentralized Guidance, Navigation, and Control for Platoons...][research_bishop_2002]
 - [A Generic Inner-Loop Control Law Structure for...][research_coxtimothyh_cottingmchristopher_2005]
 - [An Integrated Design Methodology for Nanosat Navigation...][research_gebreegziabher_2007]
-- [Natural Models for Autonomous Control of Spatial Navigation...][research_cronin_2013]
 - [Guidance and Control of a Man-Portable Precision Munition...][research_fresconi_rogers_2014]
 
 ## The Flight Test Record
@@ -2014,32 +1884,23 @@ uncertainty is large, and the ground cannot settle it.
 - [Aerodynamic Performance of a Third Stage Plenum Evacuation...][research_estabrooks_robinson_1961]
 - [Propulsion Research Program. Propellant Performance...][research_hanzel_1962]
 - [Feasibility Study and Demonstration of Variable-thrust...][research_williamsonjr_1963]
-- [Performance of Wake-adapted Propellers in Open Water and...][research_beveridge_1963]
 - [Polaris Propulsion Development Burst Test of a First-Stage...][research_oliver_1963]
 - [Satellite Dynamics for Small Eccentricity Including Drag and...][research_forster_1963]
 - [Satellite Lifetimes Under the Influence of Continuous Thrust...][research_citron_1963]
 - [Aerospacecraft performance optimization considering combined...][research_thelander_1966]
-- [An Ion-Drag Thrust Bearing][research_timko_1966]
-- [Hydrojet Ducted Propulsion System Impeller Induced Vibratory...][research_hale_norrie_1966]
 - [Really High Speed Propulsion by Scramjets][research_curran_swithenbank_1966]
 - [Approximate analytical solution for satellite orbits...][research_brofman_1967]
 - [Comments on "Approximate Analytical Solution for Satellite...][research_zee_1967]
 - [Hypersonic air-breathing propulsion][research_swithenbank_1967]
-- [Performance Estimates of Captured Air Bubble Vehicles with...][research_williams_1967]
-- [Fuel Cell-electric Propulsion Test Rig Modified M-37, 3/4-Ton...][research_gaddy_lonnied_1968]
 - [Rocket Propellant Inplace Flowmeter Calibration System...][research_berg_1968]
 - [Thrust Coefficients, Thrust Deflection Angles, and...][research_phillips_fiedler_1968]
-- [Waterjet Propulsion Kit for M-113 Armored Personnel Vehicle][research_schlappi_1968]
 - [Propagation of error in the calculation of airplane thrust...][research_dunlap_1969]
 - [Investigation of the Effect of Low Thrust Levels on the Base...][research_martin_brazzel_1970]
 - [Feasibility of Ramjet Engine Test Capability on the Holloman...][research_mctaggart_1973]
 - [The Use of Stream Thrust Concepts for the Approximate...][research_curran_craig_1973]
-- [Comparative Performance of High Efficiency Ship Propulsion...][research_stewart_1974]
 - [Duct Flow Analysis Methods for V/STOL Propulsion System...][research_serovy_kavanagh_1974]
 - [Minimum thrust levels for spinning drag-free satellites][research_olsder_powell_1975]
 - [Nonreactive mixing study of a scramjet swept-strut fuel...][research_mcclintoncr_torrencemg_1975]
-- [Propulsion Plant Standards Feasibility Study][research_bathironworkscorpme_1975]
-- [Ship Producibility Program Task S-1, Propulsion Plant...][research_rosenblattmandsonincnewyork_1975]
 - [A simplified analysis of propulsion installation losses for...][research_morrissjjr_nelmswpjr_1976]
 - [Mach 4 free-jet tunnel starting experiments for a hypersonic...][research_carsongtjr_middenre_1976]
 - [Performance and Operating Characteristics of a Turbine Engine...][research_brooks_wasson_1976]
@@ -2047,7 +1908,6 @@ uncertainty is large, and the ground cannot settle it.
 - [Liquid rocket engine self-cooled combustion chambers][research_liquid_rocket_1977]
 - [Calibration of the AEDC-PWT 16-Ft Transonic Tunnel with the...][research_jackson_1978]
 - [Design and analysis of a scramjet engine][research_buchmannoa_1978]
-- [Effects of interstellar drag on minimum-time trajectories...][research_anderson_1978]
 - [Low energy stage study. Volume 2 Requirements and candidate...][research_low_energy_1978]
 - [Multiple Ignition, Normal and Catalytic Combustion and...][research_bracco_homan_1978]
 - [On the Conventional Definitions of Thrust/Drag of an Aircraft...][research_cassetti_1978]
@@ -2056,7 +1916,6 @@ uncertainty is large, and the ground cannot settle it.
 - [Hybrid Rocket/Airbreathing Propulsion for Ballistic Space...][research_kramer_buhler_1980]
 - [Nuclear Blast Response of Airbreathing Propulsion Systems...][research_dunn_1980]
 - [External Burning Propulsion Analysis EBPA . User's Manual][research_davis_harvey_1981]
-- [Influence of pectoral fin shape on thrust and drag in...][research_blake_1981]
 - [Space propulsion systems. Present performance limits and...][research_buehlerrd_lore_1981]
 - [Static internal performance of single expansion-ramp nozzles...][research_rerj_berrierbl_1982]
 - [A comparison of scramjet integral analysis techniques][research_sullins_waltrup_1985]
@@ -2122,14 +1981,11 @@ uncertainty is large, and the ground cannot settle it.
 - [Digital Simulation of Propulsion System Performance for Cycle...][research_sanghi_sane_1999]
 - [JANNAF 25Th Airbreathing Propulsion Subcommittee, 37Th...][research_fryronalds_beckerdorothyl_2000]
 - [Experimental Studies of Shock Interaction Phenomena...][research_holden_wadhams_2001]
-- [Final Report - Part 1 Aspects of Switched Reluctance Motor...][research_ramamurthy_balda_2001]
 - [MHD Energy Bypass Scramjet Engine][research_mehtaunmeelb_bogdanoffdavidw_2001]
 - [Radiometric Analysis from the 26-kW Electric Propulsion Space...][research_spanjers_schilling_2001]
-- [Measurement Uncertainty Analysis of Ship Model Resistance and...][research_forgach_2002]
 - [Multidisciplinary Analysis of a Hypersonic Engine][research_stewartmem_suresha_2002]
 - [Earth-to-Orbit Rocket Propulsion][research_beaurainandre_souchieralain_2003]
 - [High-Performance Computing and Simulation for Advanced...][research_nusca_2004]
-- [A Micro Hydrogen Air Fuel Cell][research_savinell_wainright_2005]
 - [Active Control Strategies to Optimize Supersonic Fuel-Air...][research_ghenai_philippidis_2005]
 - [Aerospace Power Scholarly Research Program. Delivery Order...][research_sandhu_2005]
 - [Fuel-Air Mixing and Combustion in Scramjets][research_drummondjphilip_diskinglenns_2006]
@@ -2137,7 +1993,6 @@ uncertainty is large, and the ground cannot settle it.
 - [Integrated Aero-Servo-Thermo-Propulso-Elasticity ASTPE for...][research_chen_starkey_2009]
 - [Diagnostics for Hypersonic Engine Control][research_brown_donbar_2013]
 - [Rapid Response Research and Development RandD for the...][research_universaltechnologycorpdaytonoh_2014]
-- [Solar Electric Propulsion SEP Systems for SMD Mission Needs...][research_andersondavid_2014]
 
 ## The Designation Went to Something That Was Never Built, and That Is Now Twice
 
@@ -2196,7 +2051,6 @@ methodological lesson the programme paid three billion dollars to teach.
 - [A model of mode transition logic in dual-mode scramjet engines][research_hao_chang_2016]
 - [Analysis of a Dual-Mode Scramjet Engine Isolator Operating...][research_ngoclong_2016]
 - [Effect of variation of length-to-depth ratio and Mach number...][research_mahto_choubey_2016]
-- [Large Eddy Simulation of Gas Turbine Combustor under Rapid...][research_tanno_kurose_2016]
 - [Large Eddy Simulation of a Swirl-Stabilized Pilot Combustor...][research_fooladgar_chan_2016]
 - [Large Eddy Simulation of the flame stabilization process in a...][research_wang_cai_2016]
 - [Large Eddy Simulation of the fuel transport and mixing...][research_cai_liu_2016]
@@ -2263,7 +2117,6 @@ methodological lesson the programme paid three billion dollars to teach.
 - [Effects of pylon geometry on mixing enhancement in a scramjet...][research_oamjee_sadanandan_2020_b]
 - [Evaluation of Fuel and Air Mixing in a Scramjet Engine Using...][research_swain_p_2020]
 - [Flow and thermal performance of supercritical n-decane in...][research_li_xie_2020]
-- [Large eddy simulation calculated flame dynamics of one...][research_yang_liu_2020]
 - [Large eddy simulation of flame propagation during the...][research_zhao_xia_2020]
 - [Large eddy simulation of plasma-assisted ignition and...][research_dong_cui_2020]
 - [Numerical investigation of fuel mixing with upstream crescent...][research_roos_pudsey_2020]
@@ -2403,7 +2256,6 @@ methodological lesson the programme paid three billion dollars to teach.
 - [Experimental investigation of flame dynamics in scramjet...][research_hirayama_hamaji_2026]
 - [Experimental investigation on the effect of rounded-cavity...][research_yin_li_2026]
 - [Improving the hydrogen-oxygen combustion efficiency of...][research_li_zhang_2026]
-- [Large eddy simulation of syngas combustion in a trapped...][research_sharifi_sharifzadeh_2026]
 - [Mechanism and performance of supersonic mixing enhancement in...][research_wu_gao_2026]
 - [Mode transition and combustion characteristics of a dual-mode...][research_xia_han_2026]
 - [Mode transition and combustion-induced shock train dynamics...][research_lonkar_panda_2026]
@@ -2432,8 +2284,6 @@ dynamics, its response to throttling and the detection of impending unstart.
 - [Command switching based multiobjective safety protection...][research_qi_bao_2015]
 - [Experimental Analyses of Inlet Characteristics of an...][research_herrmann_gulhan_2015]
 - [Experimental Investigation of Leading Edge Bluntness Effects...][research_hongjun_qing_2015]
-- [Inlet Geomorphology Evolution][research_pollock_brutsche_2015]
-- [Inlet Geomorphology Evolution Work Unit][research_brutsche_mcfall_2015]
 - [Novel inlet airframe integration methodology for hypersonic...][research_ding_liu_2015]
 - [Progress in Hypersonic Inlet Flow Controls by...][research_zhang_hong_2015]
 - [Scramjet Isolator Shock-Train Leading-Edge Position Modeling...][research_hu_chang_2015]
@@ -2444,7 +2294,6 @@ dynamics, its response to throttling and the detection of impending unstart.
 - [Hysteresis phenomenon of hypersonic inlet at high Mach number][research_jiao_chang_2016_b]
 - [Investigation of hypersonic inlet pulse-starting...][research_jiao_chang_2016]
 - [Numerical analysis of flow features and operation...][research_shi_liu_2016]
-- [Performance Analysis of Single Stage Centifugalompressor by...][research_performance_analysis_2016]
 - [SUPIN A Computational Tool for Supersonic Inlet Design][research_slaterjohnw_2016]
 - [Subsonic In-Flight Temperature and Pressure Measurements...][research_kurtz_aizengendler_2016]
 - [Vortex Generators in a Two-Dimensional, External-Compression...][research_baydarezgihan_lufrankk_2016]
@@ -2462,7 +2311,6 @@ dynamics, its response to throttling and the detection of impending unstart.
 - [A Scramjet Compression System for Hypersonic Air...][research_sen_pesyridis_2018]
 - [Control of a time-varying hypersonic vehicle model subject to...][research_an_wu_2018]
 - [Control of pseudo-shock oscillation in scramjet...][research_su_chen_2018]
-- [Exergetic evaluation of gas-turbine based combined cycle...][research_mohapatra_sanjay_2018]
 - [Periodic forcing of a shock train in a scramjet...][research_jiao_chang_2018]
 - [Ramjet Compression System for a Hypersonic Air Transportation...][research_veeran_pesyridis_2018]
 - [Uncertainty and sensitivity analysis of flow parameters on...][research_liu_yan_2018]
@@ -2491,14 +2339,12 @@ dynamics, its response to throttling and the detection of impending unstart.
 - [Aerothermodynamic characteristics of hypersonic curved...][research_tang_wang_2021]
 - [Boundary-layer viscous correction method for hypersonic...][research_ding_liu_2021]
 - [Effect of inlet-valve structures on thrust of air-breathing...][research_chen_fan_2021]
-- [Effects of Feeding Mode and Inlet Area Ratio on Heating...][research_effects_of_2021]
 - [Experimental investigation of shock train behavior in a...][research_wang_chang_2021]
 - [Hysteresis of Shock Train Movement in the Isolator with a Ramp][research_huang_zhang_2021]
 - [Investigation of translation scheme turbine-based...][research_liu_yuan_2021]
 - [Locating the Isolator Shock-Train Leading Edge with Limited...][research_hunt_hunt_2021]
 - [Roughness-Induced Instabilities and Transition on a Generic...][research_lefieux_garnier_2021]
 - [Studies on unsteady mode transition of a turbine based...][research_lyu_gao_2021]
-- [Two-Stage Evaporative Inlet Air Gas Turbine Cooling][research_zeitoun_2021]
 - [Development of a Control Oriented Scramjet Engine Inlet Model][research_raviteja_bharanichandra_2022]
 - [Effect of cavity pressure on shock train behavior and panel...][research_liu_wu_2022]
 - [Effects of Cowl Lip Angle on Starting Performances for a...][research_zhou_xu_2022]
@@ -2564,8 +2410,6 @@ cannot establish.
 - [A new sliding joint to accommodate recoil of a...][research_gildfind_morgan_2015]
 - [Experiments in hand-operated, hypersonic shock tunnel facility][research_sudhieshkumar_reddy_2015]
 - [HIFiRE-5 Flight Test Results][research_juliano_adamczak_2015]
-- [ICONE23-1006 Capability of the RELAP5 Code to Simulate Flow...][research_lei_cao_2015]
-- [ICONE23-2083 Full Scale Bwr Containment Loca Response Test at...][research_wagner_leyer_2015]
 - [Improvement of an Altitude Test Facility Capability in...][research_hervy_maguis_2015]
 - [Modeling of an Exhaust Gas Cooler in a High-Altitude Test...][research_rajagopal_rajamanohar_2015]
 - [Numerical Study on Abnormal Heat Flux Augmentation in High...][research_ishihara_ogino_2015]
@@ -2577,40 +2421,28 @@ cannot establish.
 - [Fatigue of a 2D unitized polymer/ceramic matrix composite at...][research_wilkinson_ruggleswrenn_2016]
 - [Force measurement using strain-gauge balance in a shock...][research_wang_liu_2016]
 - [Free-fall Force Measurement in a Shock Tunnel][research_park_chang_2016]
-- [Ground Test Facility for a Turboshaft-type Apu TG-16M for...][research_tudosie_2016]
-- [High-Speed Characterization of a Prototype Leaf Seal on an...][research_pekris_nasti_2016]
 - [Numerical study on wall pressure over cone region of...][research_ishihara_ogino_2016]
 - [Coupled CFD and FEA Calculations to Determine Acceleration...][research_kumar_rakesh_2017]
 - [Computational Simulations of the NASA Langley HyMETS Arc-Jet...][research_bruneaj_bruceweiii_2017]
 - [Flow Characterization of a Hypersonic Expansion Tube Facility...][research_abulhuda_gamba_2017]
 - [Numerical study on hypersonic nozzle-inlet starting...][research_jiao_chang_2017]
 - [Two-dimensional computational modeling of high-speed...][research_mohsen_yusoff_2017]
-- [A gas meter test facility with multifunction][research_li_zhang_2018_b]
-- [A ground-based test facility for airborne magnetic gradient...][research_sui_xia_2018]
 - [Hand-operated shock tube and hypersonic shock tunnel][research_kumar_reddy_2018]
 - [LIGS measurements in the nozzle reservoir of a free-piston...][research_altenhofer_sander_2018]
-- [Measurement of differential hardening of pure titanium sheet...][research_nagano_kuwabara_2018]
 - [Novel Test Facility for Investigation of the Impact of...][research_thiele_gampe_2018]
 - [Performance of Copper Calorimeter for Heat Transfer...][research_wang_li_2018_b]
 - [Quality Assurance Challenges in Testing and Evaluation of...][research_abrahamm_valsa_2018]
 - [The High Enthalpy Shock Tunnel Göttingen of the German...][research_hannemann_martinezschramm_2018]
 - [An accelerometer balance for aerodynamic force measurements...][research_balakalyani_jagadeesh_2019]
 - [An innovative approach for prediction of aerodynamic...][research_nanda_kulkarni_2019]
-- [Boeing to Test Drones at New Australian Facility][research_boeing_to_2019]
 - [Computational Predictions of the Hypersonic Material...][research_brune_bruce_2019]
 - [Development and Testing of Hypersonic Flutter Test Capability][research_ji_li_2019]
-- [Evaluation of dry acid gas removal process on bench scale...][research_kobayashi_akiho_2019]
 - [Ground-based Experimental Testing of Elements of Automation...][research_ponomarov_2019]
-- [John Crane invests in Qatar's first dry gas seal repair and...][research_john_crane_2019]
 - [Nozzle design for a large-scale high-enthalpy shock tunnel][research_tang_wang_2019]
-- [Operation of a 50-kWth chemical looping combustion test...][research_bayham_straub_2019]
-- [Testing sealed-tube Graphitization at the NERC Radiocarbon...][research_cisnerosdozal_xu_2019]
-- [The capability of Ansys CFX to predict the mixing phenomena...][research_boumaza_hohne_2019]
 - [Altitude Test Facility Humidity Control to Generate Defined...][research_barth_staudacher_2020]
 - [Electrically-heated flat plate testing in a free-piston...][research_chang_chan_2020]
 - [Intelligent Force-Measurement System Use in Shock Tunnel][research_wang_jiang_2020]
 - [Numerical modeling of a high-enthalpy shock tunnel driven by...][research_luo_wang_2020]
-- [Simulation of the gas density distribution in the accelerator...][research_siragusa_sartori_2020]
 - [A skin-friction balance for shock tunnel applications][research_kshetrimayum_menezes_2021]
 - [Aerodynamic characteristics of a free-flight scramjet vehicle...][research_tanno_tanno_2021]
 - [Duplication of hypersonic stagnation-region...][research_turchi_matesanzsaiz_2021]
@@ -2619,28 +2451,19 @@ cannot establish.
 - [Hypersonic missile RandD Center Opens][research_hypersonic_missile_2021]
 - [In situ nozzle reservoir thermometry by laser-induced grating...][research_selcan_sander_2021]
 - [Methods for the Material Spectral Emissivity Evaluation by...][research_purpura_2021]
-- [National trends in testing for hepatitis C virus in licensed...][research_pro_tompkins_2021]
 - [Nitrogen driver for low-enthalpy testing in...][research_chan_whitside_2021]
-- [Northwest UAV, NRL testing hydrogen drone propulsion system][research_northwest_uav_2021]
 - [Toward a Low Noise Shock Tunnel Facility via Multiobjective...][research_malekipour_mohammadiamin_2021]
 - [Virtual Mechanical Testing of Rocket and Space Technology...][research_yakhutin_2021]
-- [A Novel Boeing 737 Ground Test Facility for the Experimental...][research_chowdhury_ali_2022]
 - [Accelerating Hypersonic Innovation][research_accelerating_hypersonic_2022]
 - [Assessment of drag measurement techniques in a shock tunnel][research_kim_jang_2022]
-- [Design of Self-regulated Flow Control Mechanism for a...][research_chiong_soon_2022]
-- [Experimental and Numerical Similitude Study Using a Novel...][research_podeur_vogt_2022]
 - [Liquid Hydrogen Test Facility Achieves Key Milestone][research_liquid_hydrogen_2022]
 - [Mach 5 Performance Verification of Free-jet Type Ground...][research_lee_yang_2022]
 - [Mach 5 Performance tests of Scramjet Engine Intake Using...][research_lee_yang_2022_b]
 - [Numerical and Experimental Study on the Duration of Nozzle...][research_yu_li_2022]
-- [Stability of a Rotor Partially Filled With Fluid Test...][research_kasprzyk_sentmanat_2022]
 - [The Race To Hypersonic Supremacy][research_tegler_2022]
 - [A Study on a Vitiated Air Heater for a Direct-Connect...][research_lee_lee_2023]
 - [Adaptation of von Karman Institute for Fluid Dynamics’...][research_torre_merli_2023]
-- [Bayesian Vehicle Load Estimation, Vehicle Position Tracking...][research_yuen_guo_2023]
 - [Design and characterization of the Sandia free-piston...][research_lynch_grasser_2023]
-- [Development and testing of a 200 kW tube bundle moving packed...][research_yu_nie_2023]
-- [Development of a Novel Ground Test Facility for Aircraft...][research_chowdhury_ali_2023]
 - [Force measurement using strain-gauge balance in shock tunnel...][research_nie_wang_2023]
 - [Ground Testing Facility for Hypersonic Materials][research_ground_testing_2023]
 - [Hypersonic Materials for Thermal Protection][research_hypersonic_materials_2023]
@@ -2649,7 +2472,6 @@ cannot establish.
 - [A changeable boundary prescribed performance control for the...][research_lun_wang_2024]
 - [Accelerated pump tube concept for hypersonic ground testing][research_gildfind_2024]
 - [Active fault-tolerant control with prescribed performance and...][research_lun_wang_2024_c]
-- [CubeSat Ground Test Facility as a Tool for Collaborative...][research_curatolo_modenini_2024]
 - [Development of combined hypersonic test facility for...][research_yang_choi_2024]
 - [Development of force measurement technique for preheated...][research_yang_choi_2024_b]
 - [Development of ultra-high temperature ceramic matrix...][research_baier_friess_2024]
@@ -2658,7 +2480,6 @@ cannot establish.
 - [Microwave radar diagnostics of piston motion in a...][research_kurosaka_shimamura_2024]
 - [Temperature-pressure interaction analysis of altitude ground...][research_lun_wang_2024_b]
 - [Testing Framework of Polyimide-Based High Temperature...][research_lee_2024]
-- [Testing the flux tube expansion factor - solar wind speed...][research_dakeyo_rouillard_2024]
 - [Unsteady conjugate heat transfer simulation around the throat...][research_liu_wang_2024]
 - [A supercritical ethylene fuel injection system for the T4...][research_trudgian_vanyai_2025]
 - [Characterization of reflected shock tunnel freestream in...][research_liu_li_2025]
@@ -2668,13 +2489,10 @@ cannot establish.
 - [Enhancing free piston high enthalpy shock tunnel drive...][research_shen_yao_2025]
 - [Estimation of Hinge Moment Coefficient During Grid Fin...][research_sreenivasulu_neelapu_2025]
 - [Experimental performance evaluation of a single-body typed...][research_kim_shim_2025]
-- [Experimental study on light gas transport during containment...][research_soma_ishigaki_2025]
-- [Low-vibration cryogenic test facility for next generation of...][research_kapasi_mcrae_2025]
 - [Swiss Students Achieve Europe’s First Reusable Rocket Hopper][research_swiss_students_2025]
 - [An experimental parameter study on the formation of plasma on...][research_petervari_wagner_2026]
 - [Conceptual design and numerical evaluation of a...][research_fang_zeng_2026]
 - [High temperature interlaminar tensile strength of a SiCf/SiC...][research_jeffs_newton_2026]
-- [Multiscale Simulation of Rarefied Gas Flows in Simplified...][research_li_zhang_2026_b]
 
 ### Computation grew up, and learned to state its uncertainty
 
@@ -2688,11 +2506,7 @@ simulation, and the shift matters for exactly the reason this article's amplific
 - [Assessment of CFD Modeling Capability for Hypersonic Shock...][research_knight_2015]
 - [CFD Validation Experiment of a Mach 2.5 Axisymmetric...][research_davisdavido_2015]
 - [CFD/CSD Approach to Predict Hypersonic Aerothermoelastic...][research_lv_wang_2015]
-- [Direct numerical simulation of PRF70/air partially premixed...][research_zhang_yu_2015]
 - [Direct numerical simulation of a supersonic lifted hydrogen...][research_jin_luo_2015]
-- [ICONE23-1744 Using the Pirt to Represent Application and...][research_gaudron_cordier_2015]
-- [ICONE23-1847 CFD Methodology and Validation for Ivr-ervc...][research_huo_wang_2015]
-- [ICONE23-2123 Validation of CFD Models for Hydrogen Safety...][research_nikolaeva_skibin_2015]
 - [Numerical Simulation of the Interaction of a Transverse Jet...][research_numerical_simulation_2015_b]
 - [Numerical simulation of the interaction of a transverse jet...][research_volkov_emelyanov_2015]
 - [Turbulence Model Effects on Cold-Gas Lateral Jet Interaction...][research_despirito_2015]
@@ -2704,21 +2518,18 @@ simulation, and the shift matters for exactly the reason this article's amplific
 - [RANS Modelling of Shock-Wave Boundary Layer Interaction in a...][research_kumar_thornber_2016]
 - [Study of effect of a smooth hump on hypersonic boundary layer...][research_park_park_2016]
 - [Three-dimensional direct numerical simulation of turbulent...][research_aspden_day_2016]
-- [3D CFD Simulation and Experimental Validation of Small APC...][research_kutty_rajendran_2017]
 - [A Comparison of Strategies for Direct Numerical Simulation of...][research_klein_chakraborty_2017]
 - [Assessment of CFD Capability for Hypersonic Shock Wave...][research_rouhiyoussefi_knight_2017]
 - [CFD-EFD Mutual Validation Using a CFD Solver Based on...][research_jung_han_2017]
 - [Direct Numerical Simulation of Boron Particle Agglomeration...][research_rashkovskiy_2017]
 - [Direct Numerical Simulation of the Transition to Turbulence...][research_direct_numerical_2017]
 - [Direct Numerical Simulation of the bending effect in...][research_nivarti_cant_2017]
-- [Artificial intelligence aided CFD analysis regime validation...][research_li_lange_2018]
 - [CFD Analysis of Supersonic flow performance around a scramjet...][research_gupta_venuprasad_2018]
 - [CFD Rebuilding of Cold Hypersonic Flow in GHIBLI facility][research_purpura_trifoni_2018]
 - [Direct Numerical Simulation of a Supersonic Flow in the Base...][research_direct_numerical_2018]
 - [CFD Analysis of Scramjet Engine Combustion Chamber with...][research_roga_2019_b]
 - [CFD Analysis of Scramjet Engine Combustion Chamber with...][research_roga_2019]
 - [Design exploration of combinational spike and opposing jet...][research_ou_yan_2019]
-- [Direct numerical simulation DNS of alkali metals released...][research_qu_you_2019]
 - [Direct numerical simulation of a supersonic turbulent...][research_wu_liang_2019]
 - [Direct numerical simulation of effects of a micro-ramp on a...][research_sun_guo_2019]
 - [Grid criteria for numerical simulation of hypersonic...][research_ren_yuan_2019]
@@ -2727,13 +2538,10 @@ simulation, and the shift matters for exactly the reason this article's amplific
 - [Design and CFD Analysis of Hypersonic Nose Cone][research_g_2020]
 - [Direct numerical simulation of catalytic combustion in a...][research_chabane_truffin_2020]
 - [Numerical simulation of hypersonic reentry flow Field with...][research_mei_shi_2020]
-- [Validation of a Radial Compressor CFD Analysis][research_ak_cadirci_2020]
 - [Analysis of the post-flutter aerothermoelastic...][research_quan_xu_2021]
 - [Direct numerical simulation of supersonic turbulent expansion...][research_zhang_tong_2021]
 - [Numerical simulation of fuel ignition the scramjet engine...][research_molchanov_gribinenko_2021]
 - [Using numerical simulation to investigate the effect of...][research_barpande_singh_2021]
-- [Validation of full-scale delivered power CFD simulations][research_orych_werner_2021]
-- [Verification and Validation of CFD Based Form Factors as a...][research_korkmaz_werner_2021]
 - [An Investigation of Scale-Resolving Turbulence Models for...][research_nastac_frendi_2022]
 - [Bayesian uncertainty analysis of SA turbulence model for...][research_li_chen_2022]
 - [CFD investigation of shock boundary layer interaction in...][research_gupta_ashokkumar_2022]
@@ -2741,12 +2549,10 @@ simulation, and the shift matters for exactly the reason this article's amplific
 - [Computational Fluid Dynamics analysis on the Reusable Launch...][research_prasad_2022]
 - [Investigations on Turbulence Model Uncertainty for Hypersonic...][research_li_zeng_2022]
 - [Numerical Simulation of Shock-Wave Interaction with a Laminar...][research_surzhikov_2022]
-- [Prototyping Roof Mounts for Photovoltaic PV Panels Design...][research_mohammadalrawi_nivedrajan_2022]
 - [Secondary instability of Görtler vortices in hypersonic...][research_li_choudhari_2022]
 - [Acceleration of supersonic/hypersonic reactive CFD...][research_ghioldi_piscaglia_2023]
 - [Application of Machine Learning Methods to Numerical...][research_pavlov_istomin_2023]
 - [Direct numerical simulation of a turbulent methane/air flame...][research_direnzo_cuenot_2023]
-- [Ethanol pool fire on a one-meter test tray validation of CFD...][research_ethanol_pool_2023]
 - [Novel three-dimensional simplified numerical simulation...][research_wang_eri_2023_b]
 - [Numerical Simulation of Thermal Choking of a Channel during...][research_fedorova_2023]
 - [Numerical Solution of Transition to Turbulence over...][research_holman_2023]
@@ -2756,14 +2562,10 @@ simulation, and the shift matters for exactly the reason this article's amplific
 - [Direct numerical simulation of a supersonic turbulent...][research_wang_xu_2024_b]
 - [Direct numerical simulation of fully-developed supersonic...][research_chen_yang_2024]
 - [Direct numerical simulation of supercritical carbon dioxide...][research_mishra_jarrahbashi_2024]
-- [Evaluating the performance of machine learning CFD-based and...][research_elsaed_linjama_2024]
 - [Hypersonic boost-glide systems Flight mechanics and plasma...][research_ragnoli_savino_2024]
-- [Numerical Analysis and Experimental Validation of Trimaran...][research_yuliora_utama_2024]
-- [Numerical Model Parameters Choice of Helical Savonius Wind...][research_mariemlajnef_mabroukmosbahi_2024]
 - [Simulation of Hypersonic Shock-Boundary Layer Interaction...][research_rathi_sinha_2024]
 - [Application of Uncertainty Quantification of...][research_li_wang_2025]
 - [Comparative analysis of hypersonic flow characteristics over...][research_arora_srivastava_2025]
-- [Direct numerical simulation of nonpremixed ignition under...][research_li_hawkes_2025]
 - [Direct numerical simulation of soot break-through in...][research_scialabba_davidovic_2025]
 - [Direct numerical simulation of supersonic turbulent boundary...][research_xiao_wu_2025]
 - [Direct numerical simulation of turbulent mixing in supersonic...][research_tian_bai_2025]
@@ -2772,20 +2574,15 @@ simulation, and the shift matters for exactly the reason this article's amplific
 - [Numerical simulation of supersonic turbulent combustion of...][research_nikonov_2025]
 - [Numerical simulation on the influence of aerothermodynamics...][research_gokul_malaikannan_2025]
 - [Prediction of Crossflow Transition using γ Transition Model...][research_pisharoti_brizzolara_2025]
-- [Printability Optimization of LDPE-Based Composites for Tool...][research_derosa_laurenzi_2025]
 - [Role of the wall-normal Reynolds stress in RANS modeling of...][research_parish_barone_2025]
 - [The turbulence evolution of tangential supersonic cooling...][research_zhao_wu_2025]
-- [Verification and Validation of Student’s CFD Tool on the...][research_mihalic_zaninovic_2025]
 - [Automatic curved block structure and hexahedral mesh...][research_roche_breil_2026]
-- [CFD-Assisted Validation of Weibull-Based Wind-Speed...][research_ekmekci_oral_2026]
 - [CFD-Based Analysis of Shock Stand-Off Distance Around a...][research_jun_yang_2026]
 - [Direct numerical simulation of Hydrogen Air Steam laminar and...][research_cerutti_ribert_2026]
-- [Bekston and Biermann 2026][research_bekston_biermann_2026]
 - [LCO prediction in hypersonic control surfaces due to freeplay...][research_zhang_li_2026]
 - [LES of a turbulent swirl-stabilized lifted hydrogen air flame...][research_wen_hasse_2026]
 - [Study on wind tunnel experiment and numerical simulation of...][research_xie_zhao_2026]
 - [Surrogate-based uncertainty quantification framework for...][research_elkhoury_hickey_2026]
-- [Thermo-Fluid Optimization in Compressed Air Systems Bridging...][research_thermo_fluid_optimization_2026]
 - [Using physics informed neural network PINN and neural network...][research_davidson_2026]
 
 - [Comment on “Parametric Ideal Scramjet Cycle Analysis”][research_yang_chang_2015]
@@ -2918,7 +2715,6 @@ the spread between codes at the conditions that matter remains substantial.
 - [Thermo‐structural design of ZrB 2 SiC‐based thermal...][research_purwar_basu_2017]
 - [A New Transient High Heat Flux Convection Calibration...][research_lubbock_luque_2018]
 - [Aerodynamic heating in transitional hypersonic boundary...][research_zhu_chen_2018]
-- [Aerothermodynamics and Exergy Analysis in Radial Turbine With...][research_lim_dahlkild_2018]
 - [Analysis of nonequilibrium effects characterizes shock...][research_kim_2018]
 - [Experimental investigation on thermo-acoustic instability and...][research_pan_bi_2018]
 - [Nonequilibrium Radiation Aerothermodynamics of the Command...][research_surzhikov_2018]
@@ -3098,7 +2894,6 @@ than as lines on a chart.
 - [Robust Adaptive Approximate Backstepping Control Design for a...][research_zong_wang_2015]
 - [Robust fault tolerant tracking control design for a...][research_gao_lin_2015]
 - [Three-dimensional robust diving guidance for hypersonic...][research_zhu_liu_2016]
-- [A Model-Based Control Design Approach for Linear Free-Piston...][research_kigezi_dunne_2017]
 - [Improved adaptive fault‐tolerant control design for...][research_chen_hu_2017]
 - [Re-entry guidance for hypersonic vehicle satisfying no-fly...][research_lu_zhou_2017]
 - [Aeroelastic Control-Oriented Modeling of an Airbreathing...][research_sudalagunta_sultan_2018]
@@ -3181,28 +2976,18 @@ a chemistry model attached.
 - [The plasma reforming of methane in rocket engines under...][research_yang_che_2024]
 - [Comparative analysis of cavity flameholder geometries for...][research_shajahan_gugulothu_2025]
 - [Detailed analysis of hydrogen oxygen mixture ignition delay...][research_neek_najarmansour_2025]
-- [Determining Pilot Ignition Delay in Dual-Fuel Medium-Speed...][research_parsa_verhelst_2025]
 - [Experimental investigation and optimization of ammonia...][research_methling_pierro_2025]
 - [Hot surface ignition delay time of ammonia-hydrogen-methane...][research_sharifiilkhchi_tahsini_2025]
-- [Simulation-Based Study of NH3/H2-Dual Fueled HCCI Engine...][research_balogun_vasudev_2025]
 - [Effects of Ignition Delay on Flame Behavior and Local Thermal...][research_guo_dong_2026]
 - [Prediction of Hydrogen Oxygen Combustion Ignition Delay Time...][research_ma_fu_2026]
 - [Tuning CO/CO2 Formation, Flame Temperature, and Ignition...][research_amiri_tyliszczak_2026]
 
-- [Experimental Investigation of Solid Recovered Fuel SRF...][research_berrueco_recari_2015]
-- [Effect of inlet temperature and equivalence ratio on HCCI...][research_rahbari_2016]
 - [Effect of Fuel Equivalence Ratio on Scramjet-to-Ramjet Mode...][research_ha_yoon_2018]
 - [Experimental study on the effect of equivalence ratio and...][research_tian_zeng_2018]
-- [Effects of equivalence ratio and CNG addition on engine...][research_yontar_dogu_2019]
 - [Effects of equivalence ratio and blending ratio on the...][research_jiang_zhang_2021_b]
-- [Effect of variable compression ratio and equivalence ratio on...][research_pandey_kumar_2022]
-- [Exergy evaluation of equivalence ratio, compression ratio and...][research_rakopoulos_rakopoulos_2022]
 - [Study on fuel equivalence ratio range for supersonic premixed...][research_dou_yang_2022]
-- [Effect of Air Supply Location and Equivalence Ratio on...][research_susastriawan_saptoadi_2023]
-- [Improvement of thermal performance and energy efficiency of...][research_shi_peng_2023]
 - [Numerical investigation of the effect of equivalence ratio on...][research_chen_si_2023]
 - [Numerical Investigation on Pulse Detonation Engine...][research_kocaaslan_2024]
-- [On combustion and emission characteristics of...][research_hu_li_2024]
 - [Study on the influence of fuel injection position on ignition...][research_yin_li_2024]
 - [Approaches to control primary zone equivalence ratio and its...][research_rajpara_shah_2025]
 - [Equivalence ratio inhomogeneity and mixing in liquid-fueled...][research_paudel_mcfarland_2025]
@@ -3211,7 +2996,6 @@ a chemistry model attached.
 - [Effects of equivalence ratio on combustion and performance of...][research_zhao_bai_2026]
 - [Effects of injection strategy and equivalence ratio on...][research_wan_wang_2026]
 - [Influence of load flexibility on combustion performance of...][research_chen_qiu_2026]
-- [Insight into the effects of equivalence ratio a multivariate...][research_lou_huang_2026]
 
 ### Inlet starting is a design variable now
 
@@ -3271,7 +3055,6 @@ a chemistry model attached.
 - [Hypersonic Conical Shock-Wave/Turbulent-Boundary-Layer...][research_zuo_2023_b]
 - [Temporal characteristics of hypersonic flows over a double...][research_tumuklu_hanquist_2023]
 - [Experimental study on the influence of angle of attack and...][research_zhang_wu_2024]
-- [Experimental study on the transition modes of falling film...][research_chen_gao_2024]
 - [Crossflow-Induced Breakdown and Transition Correlation for a...][research_li_su_2025]
 
 ### Materials and structures moved on
@@ -3287,7 +3070,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Optimization of a Hot Structure Aeroshell and Nose Cap for...][research_langstonsarahl_langchristapherg_2016]
 - [The temperature-dependent fracture models for...][research_deng_li_2016]
 - [High-temperature thermal barrier-coated...][research_sabelkin_zawada_2017]
-- [Influence of the Anodizing Temperature on the Mechanical...][research_nmadu_parshuto_2017]
 - [Numerical method for the thermal analysis of a ceramic matrix...][research_tu_mao_2017]
 - [Predictions of transverse thermal conductivities for plain...][research_chen_zhang_2018]
 - [Preparation of carbon/carbon‐ultra high temperature ceramics...][research_xu_cheng_2018]
@@ -3316,7 +3098,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Residual Strength Analysis of C/SiC Ceramic Matrix Composite...][research_zhang_sun_2022]
 - [Tailoring 18 Mol.% Yo1.5 Stabilized Hfo2 with Lamgal11o19...][research_jieyan_yuan_2022]
 - [An Experimental Analysis on Spectrum Absorption...][research_an_experimental_2023]
-- [Effect of Reactor Wall Temperature on Benzene Oxidation in a...][research_leshchik_ocheredko_2023]
 - [Modeling and Performance Analysis of Variable Cycle Engine...][research_li_huang_2024]
 - [Multi deep learning-based stochastic microstructure...][research_hamza_chattopadhyay_2024]
 - [Preparation and properties of a porous ZrO2/SiZrBOC ceramic...][research_zhang_shi_2024]
@@ -3327,7 +3108,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [High-temperature mechanical properties and thermal shock...][research_jiang_xu_2025]
 - [Identification of the interfacial fracture energy at high...][research_bertrand_huchette_2025]
 - [Response surface methodology-based optimisation of...][research_rathore_mishra_2025]
-- [Separation and Recovery of Niobium Coating from 440C Tool...][research_gupta_mishra_2025]
 - [Sustainable Design and Wall Thickness Optimization for...][research_doozandeh_jindal_2025]
 - [Synergistically achieving low friction and high wear...][research_wang_hua_2025]
 - [Applicability of ultra-fast laser machining process and...][research_wang_huang_2026]
@@ -3342,9 +3122,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Transient Analysis of Tip Clearance in Ceramic Matrix...][research_yang_shao_2026]
 
 - [Design of Air-Breathing Hypersonic Vehicle Control System][research_hu_deng_2015]
-- [High Temperature Oxidation Investigation of Hot Roll Material...][research_hao_jiang_2015]
-- [High Temperature Oxidation of the Hot Rolled ZrNbMoGe Alloy...][research_bandriyana_rivai_2015]
-- [Realization of High-temperature Superconductivity in...][research_haruyama_2015]
 - [The Rapid Engineering Aero-Heating Calculation Method for...][research_huo_yang_2015]
 - [Control Problem for Unsteady Magnetohydrodynamic Flow of...][research_tereshko_2016]
 - [Effect of Oxidation-Induced Material Parameter Variation on...][research_wang_ai_2016]
@@ -3353,7 +3130,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Synergistic Effects of Temperature and Oxidation on Matrix...][research_longbiao_2016]
 - [Temperature Dependent Residual Stress Models for...][research_wang_li_2016]
 - [Thermal‐Shock Fracture and Damage Resistance Improved by...][research_akatsu_takashima_2016]
-- [Tube expansion and diffusion bonding of 316L stainless steel...][research_haneklaus_reuven_2016]
 - [Mechanical and thermal properties of double-layer and...][research_abedi_salehi_2017]
 - [TiC/TiCN-based hard material with high oxidation resistance...][research_shimojima_hosokawa_2017]
 - [ANFIS based model to forecast the Wire-EDM parameters for...][research_mandal_pramanick_2018]
@@ -3373,7 +3149,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Synergistic effects of temperature and time on proportional...][research_longbiao_2019]
 - [Time-dependent matrix fracture of carbon fiber-reinforced...][research_longbiao_2019_c]
 - [Dense amorphous Si2BC1-4N monoliths resistant to...][research_li_yang_2020]
-- [Development and verification of the scale formation model...][research_przylucka_ceborudnicka_2020]
 - [Effect of temperature on matrix multicracking evolution of...][research_li_2020]
 - [Fabrication and characterization of novel excellent...][research_chen_wang_2020]
 - [Modeling stress-dependent matrix multiple fractures of...][research_li_2020_b]
@@ -3385,17 +3160,10 @@ and additive manufacture has changed what cooled structures can be made.
 - [Review of Intelligent Materials and the Possibility of Their...][research_petelko_lipovskyi_2021]
 - [Thermal cyclic fatigue damage evolution of fiber-reinforced...][research_li_reynaud_2021]
 - [Unusual temperature-dependent reactivity of ultra-high...][research_nieto_samayoa_2021]
-- [Experimental study on random temperature field of ultra-high...][research_wang_yu_2022]
 - [High-Temperature Oxidation Behavior of TiB2-HfB2-Ni Cermet...][research_wang_gao_2022]
 - [Mechanical, structural and oxidation behavior of ultra...][research_pandey_soni_2022]
 - [Numerical Application of the Flamelet Model to Supersonic...][research_zheng_jiang_2022]
-- [Study on High Temperature Oxidation Behavior of...][research_cemin_2022]
-- [Synthesis and Characterization of Copper Metal Matrix...][research_laad_2022]
-- [ATF Claddings after High-Temperature Steam Oxidation WDS and...][research_klaisnerova_krivsky_2023]
-- [Capability of R3 test to evaluate pozzolanicity of ground raw...][research_deazevedobasto_estolanodelima_2023]
-- [Fatigue life prediction of stay cables under vehicle load...][research_yan_liu_2023]
 - [High Temperature Oxidation and Oxyacetylene Ablation...][research_huang_xia_2023]
-- [High temperature oxidation behavior of ZrNiSn-based...][research_wang_song_2023]
 - [Research on the influence of high temperature oxidation...][research_zhou_tan_2023]
 - [Synergistic reinforcement effects of ZrB2 on the ultra-high...][research_kong_lee_2023]
 - [Thermo-Structural Response Prediction of UHTCC Control...][research_ghori_narendar_2023]
@@ -3409,8 +3177,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Tension Compression Fatigue of a Hybrid...][research_ruggleswrenn_schmidt_2024]
 - [The Behavior of Al0.5CoCrFeNiCuPt0.3 High-Entropy Alloy...][research_samoilova_suleymanova_2024]
 - [The Oxidation Behaviors of NiCoCrAlY Coatings After...][research_negami_yamabemitarai_2024]
-- [Tube Sheet Ligament Thickness Selection and Stress Analysis...][research_shapoval_vakulenko_2024]
-- [Conceptual design and optimization of multi-material inner...][research_wang_deng_2025]
 - [Cr2AlC MAX phase A promising bond coat TBC material with high...][research_shamsipoor_mousavi_2025]
 - [Finite‐time fault‐tolerant attitude control for hypersonic...][research_zhang_han_2025]
 - [High Temperature Oxidation of AlB12 Al Composite Material][research_high_temperature_2025]
@@ -3422,43 +3188,29 @@ and additive manufacture has changed what cooled structures can be made.
 - [Effect of Si3N4 addition on erosion and oxidation resistance...][research_kavoosi_mashhadi_2026]
 - [Functionally graded ultra-high temperature ceramics for...][research_rahimi_svolos_2026]
 - [High-Temperature Forming of TiC-Based Metal-Matrix Metal...][research_bazhina_antipov_2026]
-- [High-Temperature Oxidation Behaviors of Structural Materials...][research_us_ghosh_2026]
-- [High-Temperature Oxidation Behaviors of W Re Alloy for...][research_shen_duan_2026]
 
 - [Centerline instabilities on the hypersonic international...][research_paredes_theofilis_2015]
 - [Continuous nonlinear asymptotic tracking control of an...][research_zhang_xian_2015]
 - [Quantifying Confidence in Model Predictions for Hypersonic...][research_smarslok_2015]
 - [Variable Structure Control for Hypersonic Vehicle Based on...][research_wei_tian_2015]
-- [Multidisciplinary optimization design of a new underwater...][research_zhang_song_2016]
 - [Representative surrogate problems as test functions for...][research_sala_baldanzini_2016]
-- [Response of cracked simply supported concrete beam with...][research_zhou_liu_2016]
 - [Thermal structural analysis of the platelet heat-pipe-cooled...][research_hongpeng_weiqiang_2016]
-- [A fair evaluation of certain stage in a two-stage structure...][research_li_2017]
-- [Dynamic Simulation and Analysis of Free Piston Stirling...][research_zheng_zheng_2017]
 - [Interaction Between Compliant Structures and Boundary-Layer...][research_riley_mcnamara_2017]
 - [Multidisciplinary design of a guided flying vehicle using...][research_zandavi_pourtakdoust_2017]
 - [The Structure of a Hypersonic Air Flow near a Plane Surface...][research_fomichev_yadrenkin_2017]
-- [Antenna Structure with Multipath Effect Suppression][research_kurdyumov_lopatko_2018]
-- [Design optimization of battery pack enclosure for electric...][research_shui_chen_2018]
 - [Development of Aerodynamic Thermal Load Element for...][research_kang_kim_2018]
 - [Large-scale flow structures in turbulence mixing of sonic jet...][research_khali_yao_2018]
-- [Lightweight design of turnover frame of bridge detection...][research_ma_wang_2018]
-- [Design of the communication structure of cooperative adaptive...][research_lunze_2019]
 - [Experimental and numerical study of flow structures of the...][research_zhu_2019]
 - [Internal structure of hydrogen-enriched methane air turbulent...][research_mohammadnejad_vena_2019]
 - [Reliability Analysis of a Hypersonic Vehicle Panel with...][research_hu_mahadevan_2019]
-- [Shared autonomous electric vehicle design and operations...][research_lee_kang_2019_b]
 - [Thermo-Structural Behaviour Prediction of the Nose Cap of a...][research_sun_yang_2020]
 - [Direct-Connect Test of Solid Scramjet with Symmetrical...][research_yang_xia_2021]
 - [Emulator embedded neural networks for multi-fidelity...][research_beachy_bae_2021]
-- [Reliability-Based Robust Optimization Design for vehicle drum...][research_yang_pak_2022]
-- [Response spectrum model of vehicle dynamic load for the...][research_wang_nagayama_2022]
 - [A sequential algorithm for decoupling the multidisciplinary...][research_wang_xu_2023]
 - [Adaptive Hybrid Compensation Control of Inertia Uncertainty...][research_hu_cheng_2023]
 - [Attitude Control of a Hypersonic Glide Vehicle Based on...][research_le_liu_2023]
 - [Design of Hypersonic Vehicle Time-Delay Compensation...][research_zhou_2023]
 - [Numerical studies on the thermal-fluid-structure coupling...][research_wang_qian_2023]
-- [A survey on design optimization of battery electric vehicle...][research_acar_jain_2024]
 - [Adaptive Variable Structure Interacting Multiple Model...][research_fu_wan_2024]
 - [Experimental Verification of an Optimized Design of Air...][research_pani_maharana_2024]
 - [Intelligent Trajectory Prediction Algorithm for Hypersonic...][research_liu_lu_2024]
@@ -3466,7 +3218,6 @@ and additive manufacture has changed what cooled structures can be made.
 - [Multi-level and multi-objective structural optimization for...][research_rodriguezsegade_hernandez_2024]
 - [Research on the cooling performance of the discontinuous...][research_wang_pan_2024]
 - [A Concept of Equivalent Load Scheme for Easy Prediction of...][research_bochenek_tajszielinska_2025]
-- [Study on the residual load‐bearing capacity of prestressed...][research_qixin_chao_2025]
 - [Additive technologies in the polymer components manufacturing...][research_dzhurynskyi_2026]
 - [Internal shock structure evolution and liquid jet...][research_mvv_rajagopal_2026]
 - [Projection-based model reduction using Pressio application to...][research_rizzi_parish_2026]
@@ -3551,7 +3302,6 @@ direct. The X-30's difficulty was that its fuel added a small perturbation to a 
 - [Computational Study of Deflagration to Detonation Transition...][research_debnath_pandey_2015]
 - [Shock Transfer and Shock-Initiated Detonation in a Dual Pulse...][research_driscoll_stoddard_2015]
 - [Ignition method effect on detonation initiation...][research_wang_zhang_2016]
-- [Initiation of PETN detonation by an impactor and a...][research_ershov_kashkarov_2016]
 - [Numerical Investigation of Kerosene-Based Pulse-Detonation...][research_gwak_lee_2016]
 - [Thrust characteristics of an airbreathing pulse detonation...][research_zangiev_ivanov_2016]
 - [Unsteady Thrust Measurement for Pulse Detonation Engines][research_joshi_lu_2016]
@@ -3630,8 +3380,6 @@ the compressor inlet temperature enough to let turbomachinery work far beyond it
 **This is a different bet from the X-30's**, and its central difficulty is the heat exchanger rather than
 the combustor.
 
-- [Performance of a single-stage 4 K pulse tube cooler with...][research_schneidemesser_thummes_1999]
-
 - [Thermodynamic spectrum of direct precooled airbreathing...][research_yu_pan_2017]
 - [Sabre Space Engine Gets £26.5M Boost][research_sabre_space_2018]
 - [Precooler-design and engine-performance conjugated...][research_yu_wang_2019_b]
@@ -3674,8 +3422,6 @@ reach the flight condition extrapolates there, and extrapolation is what the pro
 - [A fuzzy wavelet neural network-based approach to hypersonic...][research_bu_lei_2018]
 - [A New Optimized Reduced Order Model of High-order Discrete...][research_a_new_2020]
 - [Dual-Channel and Bidirectional Neural Network for Hypersonic...][research_xie_zhuang_2021]
-- [Prediction model for aerodynamic coefficients of iced quad...][research_mou_yan_2021]
-- [Reliability based design optimization of bridges considering...][research_ni_li_2021]
 - [Surrogate Model Based Robust Multidisciplinary Design...][research_setayandeh_2021]
 - [Calibrating hypersonic turbulence flow models with the...][research_chowdhary_hoang_2022]
 - [Estimation of hypersonic vehicle weight using...][research_chen_li_2022]
@@ -3688,43 +3434,29 @@ reach the flight condition extrapolates there, and extrapolation is what the pro
 - [Data-Driven Based Model-Free Adaptive Optimal Control Method...][research_bao_wang_2023]
 - [Machine Learning based reduced models for the...][research_schouler_prevereaud_2023]
 - [Prediction of Aerodynamic Broadband Noise Generated from a...][research_sasaki_tanaka_2023]
-- [Reduced-order model predictive control of a fish schooling...][research_ogura_wakamiya_2023]
 - [Reduced-order modeling of supersonic fuel air mixing in a...][research_ispir_zdybal_2023]
-- [A Fuzzy Wavelet Neural Network FWNN and Hybrid Optimization...][research_balasubramani_natarajan_2024]
 - [Aerodynamic force prediction of compressor blade surfaces...][research_niu_zhao_2024]
 - [Airfoil aerodynamic performance prediction using machine...][research_teimourian_rohacs_2024]
 - [Multi domain decomposed reduced order model for store...][research_pandey_sinha_2024]
 - [Multi-layer thermal simulation using physics-informed neural...][research_peng_panesar_2024]
-- [Multi-parameter optimization based on a surrogate model for...][research_song_qi_2024]
 - [Multidisciplinary Design Optimization of Reentry-Powered...][research_ma_yang_2024_b]
-- [Optimal Design of an Interior Permanent Magnet Synchronous...][research_guo_su_2024]
-- [Study on Reduced Order Model and Its Application to Vehicle...][research_sugai_shimokawa_2024]
 - [Transferable machine learning model for the aerodynamic...][research_yang_li_2024]
 - [A Machine Learning Rapid Prediction of the Aerothermodynamic...][research_chen_fan_2025]
 - [Adaptive physics-informed neural network to simultaneously...][research_zheng_huang_2025]
 - [Coupling-Informed Data-Driven Intelligent Control for...][research_lan_wang_2025]
 - [Machine Learning Prediction of Airfoil Aerodynamic...][research_sterpu_mariuta_2025]
-- [Machine learning-based prediction of well performance...][research_akbari_ghazi_2025]
 - [Off-design performance analysis of a supercritical carbon...][research_ma_shu_2025]
 - [Physics-Informed Convolutional Transposed Neural Network for...][research_tong_li_2025]
-- [Physics-informed neural network enables high-frame-rate...][research_xing_wang_2025]
 - [Predicting Second-Mode Instability Evolution in Hypersonic...][research_liu_yang_2025]
-- [Predicting drag coefficients of vehicle geometries A...][research_qi_yang_2025]
 - [Research on compressible FPV combustion model establishment...][research_sun_xue_2025]
 - [Supersonic aircraft aerodynamic performance prediction based...][research_liu_zhang_2025]
 - [Use of Predictive Surrogate Model for prediction hydrogen...][research_feng_wang_2025]
-- [Vehicle suspension recommendation system multi-fidelity...][research_lee_kang_2025]
 - [A dual physics-informed neural network for topology...][research_singh_chakraborty_2026]
-- [A new framework for input variable selection based on the...][research_shafieibafti_vafakhah_2026]
 - [A quantitative evaluation method for the applicability domain...][research_wang_song_2026]
 - [AW-EL-PINNs A multi-task learning physics-informed neural...][research_li_zeng_2026]
-- [Component-based machine learning for indoor flow and...][research_wang_thuerey_2026]
 - [Dirichlet Neumann Averaging The DNA of Efficient Gaussian...][research_kutri_scheichl_2026]
 - [Fast prediction of chemically reactive rarefied hypersonic...][research_saiprakash_raghav_2026]
 - [Machine Learning-Driven Classification and Prediction of Wake...][research_puchakayala_k_2026]
-- [Optimizing feature selection for global geothermal heat flow...][research_mousavi_mousavi_2026]
-- [Physics-based machine learning for subcooled boiling flow...][research_hu_2026]
-- [Physics-informed neural network for quantum control of NMR...][research_batra_ts_2026]
 - [Pointwise surface pressure prediction for hypersonic vehicles...][research_yan_wang_2026]
 
 ### Uncertainty is quantified rather than covered
@@ -3736,28 +3468,20 @@ practice under the names uncertainty quantification and validation hierarchy.
 
 - [Monte Carlo Simulation of Radiation in Hypersonic Flows][research_boyd_2002]
 
-- [A Physics-Based Emulator for the Simulation of Geophysical...][research_mahmood_wolpert_2015]
-- [Multilevel Simulation Based Policy Iteration for Optimal...][research_belomestny_ladkau_2015]
 - [Uncertainty Quantification of Hypersonic Reentry Flows with...][research_west_hosder_2015]
-- [The Effect of Grid Resolution and Reaction Models in...][research_shahnam_gel_2016]
 - [Bayesian Subset Simulation][research_bect_li_2017]
-- [Simulation-Based Uncertainty Quantification for Estimating...][research_hobbs_braverman_2017]
 - [Efficient uncertainty quantification for a hypersonic...][research_bhattrai_debaar_2018]
 - [Multifidelity Preconditioning of the Cross-Entropy Method for...][research_peherstorfer_kramer_2018]
 - [Emulating Satellite Drag from Large Simulation Experiments][research_sun_gramacy_2019]
-- [Multilevel Nested Simulation for Efficient Risk Estimation][research_giles_hajiali_2019]
 - [Standards and Methods for Verification, Validation, and...][research_freitas_2020]
 - [A Nonparametric Bayesian Framework for Uncertainty...][research_xie_li_2021]
 - [Cross-Entropy-Based Importance Sampling with Failure-Informed...][research_uribe_papaioannou_2021]
 - [Robust System Design with Limited Experimental Data and an...][research_sun_plumlee_2021]
-- [Uncertainty Quantification in Reservoir Simulation Using...][research_tuczynski_stopa_2023]
 - [Adaptive Multilevel Subset Simulation with Selective...][research_elfverson_scheichl_2024]
 - [Comprehensive Evaluation of the Massively Parallel Direct...][research_klothakis_nikolos_2024_b]
 - [Uncertainty Separation Method for Simulation With Image and...][research_du_2024]
 - [Uncertainty quantification using simulation output batching...][research_jeon_chu_2024]
 - [Adaptive Reduced Tempering for Bayesian Inverse Problems and...][research_cerou_heas_2025]
-- [Monte Carlo Simulation in Renewable Energy Planning A...][research_shah_2025]
-- [Monte Carlo-based Prediction of Electric Vehicle Charging...][research_monte_carlo_based_2025]
 - [Scalable Simulation-Based Inference for Implicitly Defined...][research_park_2025]
 
 ### Manufacture changed what a cooled structure can be
@@ -3766,8 +3490,6 @@ practice under the names uncertainty quantification and validation hierarchy.
 allows internal cooling geometries that cannot be fabricated any other way, and the design-for-additive
 literature is substantial.
 
-- [3D printing in orbital surgery The next stage][research_malik_hossain_2016]
-- [Grayscale-free topology optimization for electromagnetic...][research_yamasaki_kawamoto_2016]
 - [High temperature strength of an ultra high temperature...][research_feilden_glymond_2019]
 - [Hybrid Metal/Composite Lattice Structures Design for Additive...][research_dicaprio_acanfora_2019]
 - [Models for wind tunnel tests based on additive manufacturing...][research_zhu_2019_b]
@@ -3776,8 +3498,6 @@ literature is substantial.
 - [Additive Manufacturing of Novel Hybrid Monolithic Ceramic...][research_kovacev_li_2022]
 - [MAYA MAnufacturing of the lining panel using hYbrid...][research_blanco_lobet_2022]
 - [A design and optimisation framework for cold spray additive...][research_lomo_patel_2023]
-- [Additive Manufacturing of Liquid-Cooled Ceramic Heat Sinks An...][research_wang_hu_2023]
-- [All-terrain vehicle chassis design using multi-material...][research_shah_pamwar_2023]
 - [Dynamic Structural Scaling Concept for a Delta Wing Wind...][research_bantscheff_breitsamter_2023]
 - [A systematic review of design for additive manufacturing of...][research_khan_riccio_2024]
 - [Review on Additive Manufacturing Process in Aircraft...][research_venkatesan_s_2024]
@@ -3867,7 +3587,6 @@ leaving the physics exactly where it was.
 - [Performance Requirement Analysis and Weight Estimation of...][research_lee_yang_2015]
 - [A rocket-based combined-cycle engine prototype demonstrating...][research_shi_he_2016]
 - [Hysteresis of mode transition in a dual-struts based scramjet][research_yan_shaohua_2016]
-- [Comparative exergoeconomics of power utilities Air-cooled gas...][research_sahu_sanjay_2017]
 - [Effect of thermal choking on ejection process in a...][research_wang_yang_2017]
 - [Thermodynamic efficiency analysis and cycle optimization of...][research_zhang_wang_2017]
 - [Analysis and reduction of skin-friction in a rocket-based...][research_wang_he_2018]
@@ -3880,23 +3599,18 @@ leaving the physics exactly where it was.
 - [Survey on key techniques of rocket-based combined-cycle...][research_dong_sun_2019]
 - [Analysis of aerodynamic/propulsive couplings during mode...][research_zheng_chang_2020]
 - [Experimental and numerical investigations on the mode...][research_lv_xu_2020]
-- [Performance Analysis of Combined Cycle with Air Breathing...][research_nirbito_budiyanto_2020]
 - [Study on influencing factors of combustion mode transition...][research_cao_lu_2020]
 - [A novel experimental method to the internal thrust of...][research_gu_sun_2021]
 - [Modeling and analysis of windmilling operation during mode...][research_zheng_chang_2021]
-- [Modernization of a combined-cycle gas turbine unit for...][research_sednin_sednin_2021]
 - [Sea-Level Static Tests of Rocket Ramjet Combined Cycle Engine...][research_tomioka_takegoshi_2021]
 - [Combustion Instability due to Combustion Mode Transition in a...][research_vanderlee_yokev_2022]
-- [Economic Analysis and Genetic Algorithm Optimization Based on...][research_wang_zhang_2022_b]
 - [Effect of area ratio and heat release method on the Ma∞ = 2-6...][research_yan_liu_2022_b]
 - [Effect of the Heat Release on Ejector-to-Ramjet Dynamic Mode...][research_hu_liu_2022]
 - [Ejector mode performance improvement of rocket-based combined...][research_yan_liu_2022]
 - [Numerical study on the lobed nozzles for enhancing the mixing...][research_wang_li_2022]
 - [Parametric Research and Aerodynamic Characteristic of a...][research_shi_2022]
-- [Peak regulation performance study of the gas turbine combined...][research_wang_duan_2022]
 - [Performance analysis and dynamic optimization of integrated...][research_ma_jiang_2022]
 - [Research of parameters and characteristicsof the...][research_polev_grunin_2022]
-- [Adaptive Robust Unit Commitment of Combined-Cycle Gas-Turbine...][research_wang_jiang_2023]
 - [Modeling and performance analysis of a pre-cooling and power...][research_ma_jiang_2023]
 - [Preliminary sizing and study of a hybrid rocket based...][research_hillion_parisse_2023]
 - [Study on SABRE and rocket-based combined cycle engine][research_wen_2023]
@@ -3904,7 +3618,6 @@ leaving the physics exactly where it was.
 - [Combined Cycle Nuclear System Architecture for Crewed Mars...][research_maydan_nabity_2024]
 - [Derivation Method for Required Mass Flow Rate in the...][research_kim_lee_2024]
 - [Experimental investigation of mode transition process in a...][research_meng_sun_2024]
-- [Onboard pre-combustion carbon capture with combined-cycle gas...][research_chinlaw_gkantonas_2024]
 - [Predictive control method for mode transition process of...][research_cai_zheng_2024]
 - [Simple model of turbine-based combined cycle propulsion...][research_liu_kuang_2024]
 - [Finite-time control for polynomial parameter-varying systems...][research_yu_yang_2025]
@@ -3914,7 +3627,6 @@ leaving the physics exactly where it was.
 - [Anti-Disturbance Mode-Transition Control for Turbine-Based...][research_liu_zheng_2026]
 - [Co-Optimized Flow Matching and Thrust Retention Control for...][research_fu_song_2026]
 - [Experimental study of Mach-dependent combustion instabilities...][research_qin_yuan_2026]
-- [Hydrogen impact on gas turbine operating flexibility in...][research_cappellini_castagna_2026]
 - [Mechanism model and protective control for an air-breathing...][research_li_feng_2026]
 - [Quasi-One-Dimensional Reacting-Flow Modeling for Rocket-Based...][research_park_lee_2026]
 
@@ -3928,7 +3640,6 @@ leaving the physics exactly where it was.
 - [Mode transition path optimization for turbine-based...][research_lv_huang_2023]
 - [Design and Evaluation of a Hypersonic Waverider Vehicle Using...][research_klothakis_nikolos_2024]
 - [Flight trajectory optimization study of a variable-cycle...][research_fu_song_2024]
-- [An integration of topology optimization and conformal minimal...][research_orakwe_shahabad_2025]
 - [A locally validated surrogate-assisted design strategy for a...][research_turkoglu_donmez_2026]
 - [Transient thermodynamic-dynamic modeling and exergy analysis...][research_demoura_ribeiro_2026]
 
@@ -3964,8 +3675,6 @@ leaving the physics exactly where it was.
 - [The Ascent Trajectory Optimization of Two-Stage-To-Orbit...][research_song_su_2015]
 - [The Prospects for Microwave Actuated Airbreathing Hypersonic...][research_macleod_2026]
 
-- [Liquid hydrogen and synthetic sustainable aviation fuel A...][research_gallagher_stuart_2025]
-
 - [Design and analysis of a single stage to orbit nuclear...][research_labib_king_2015_b]
 - [Initial risk assessment for a single stage to orbit nuclear...][research_labib_king_2015]
 - [Conceptual study of a dual-rocket-based-combined-cycle...][research_zhang_zhang_2017]
@@ -3992,110 +3701,78 @@ leaving the physics exactly where it was.
 - [Mach 6 8+ Hydrocarbon-Fueled Scramjet Flight Experiment The...][research_jackson_gruber_2015]
 - [Numerical Study of Mixing in an Air-Breathing Rocket Engine][research_numerical_study_2015]
 - [Optimization of Combined Rocket and Ramjet/Scramjet Ballistic...][research_ahuja_hartfield_2015]
-- [Performance Analysis of the Organic Rankine Cycle ORC System...][research_yang_zhang_2015]
-- [Precise piston trajectory control for a free piston engine][research_li_zhang_2015]
 - [Robust Adaptive Attitude Control for Airbreathing Hypersonic...][research_fu_wang_2015]
 - [Thermodynamic analysis on optimum performance of scramjet...][research_zhang_yang_2015]
-- [Additional Mission Applications for NASA's 13.3-kW Ion...][research_snyderjohnsteven_manzelladavid_2016]
 - [Aerodynamic performance analysis of a winged re-entry vehicle...][research_pezzella_viviani_2016]
 - [Innovative Solid Formulations for Rocket Propulsion][research_deluca_2016]
 - [Numerical investigation of combustion field of hypervelocity...][research_zhang_li_2016]
 - [Dimensionally and Physically Proper Lift, Drag, and...][research_burgers_2017]
 - [Experimental investigation on laser-induced plasma ignition...][research_li_liu_2017]
 - [Experimental investigation on thermal-hydraulic...][research_guo_bi_2017]
-- [Tribological characteristics of piston rings in a...][research_qin_yuan_2017]
 - [Analysis of kerosene-based endothermic hydrocarbon fuel using...][research_li_liu_2018]
 - [Boundary-Layer Control for Effective Hypersonic Intake][research_ruban_menezes_2018]
 - [Characterization of ignition transient processes in...][research_li_liu_2018_b]
 - [Crossflow Phenomena in Streamline-Traced Hypersonic Intakes][research_karl_steelant_2018]
-- [DLR, Airbus in BILBO project on hydrogen, fuel cells in...][research_dlr_airbus_2018]
-- [Dynamic modeling and model predictive control of an RCCI...][research_raut_irdmousa_2018]
 - [Exergy analysis of water cooling cycle system for scramjet...][research_wang_pan_2018]
 - [Experimental Study on the Combustion of Thermally Cracked...][research_zhong_peng_2018]
-- [HES plans to launch autonomous hydrogen aviation in France][research_hes_plans_2018]
 - [Investigation on thermo-acoustic instability dynamic...][research_zan_li_2018]
 - [Modeling of incomplete combustion in a scramjet engine][research_kim_kwon_2018]
 - [Modular, Fast Model for Design and Optimization of Hypersonic...][research_mogavero_brown_2018]
 - [Numerical analysis and design optimization of supersonic...][research_candon_ogawa_2018]
 - [Preliminary Kinetic Characterization of Lithium Aluminum...][research_boiocchi_galfetti_2018]
 - [Correction to Thermofluidic compression effects to achieve...][research_moura_wheatley_2019]
-- [Dana e-propulsion unit for Alberta hydrogen powered freight...][research_dana_e_propulsion_2019]
 - [Development of a Skeletal Mechanism for Aviation Kerosene...][research_zhong_peng_2019]
 - [Effects of endothermic hydrocarbon fuel composition on the...][research_sun_li_2019]
 - [Experimental Hypersonic Scramjet Sets Thrust Record][research_experimental_hypersonic_2019]
 - [Experimental investigation of thermodynamic instability of...][research_wang_nie_2019]
-- [H2SHIPS project will demonstrate hydrogen propulsion in...][research_h2ships_project_2019]
 - [Investigation on combustion mode and heat release in a model...][research_zhang_cao_2019]
 - [Low Enriched Uranium based Nuclear Rocket Propulsion...][research_neupane_2019]
 - [Role of the backward-facing steps at two struts on mixing and...][research_li_chen_2019]
 - [Study on Multi-objective Design Optimization Of Air Breathing...][research_saito_oyama_2019]
 - [Supersonic mixing in airbreathing propulsion systems for...][research_huang_du_2019]
-- [CSIRO, Boeing report looks at hydrogen in commercial aviation][research_csiro_boeing_2020]
 - [Combined Diagnostic Analysis of Dynamic Combustion...][research_jeong_choi_2020]
-- [FCH2 JU, Clean Sky 2 study on hydrogen powered aviation][research_fch2_ju_2020]
 - [Highly-resolved large-eddy simulations of combustion...][research_eugenioribeiro_boukharfane_2020]
 - [Influence of water injection on performance of scramjet engine][research_xiong_qin_2020]
-- [On the Turbulence-Chemistry Interaction of an HCCI Combustion...][research_damato_viggiano_2020]
-- [Performance analysis of carbon dioxide based combined power...][research_khatoon_kim_2020]
 - [Performance analysis of cooling system based on improved...][research_miao_wang_2020]
 - [Review of combustion stabilization for hypersonic...][research_liu_baccarella_2020]
 - [Antenna In-Situ Performance Analysis for the Hypersonic...][research_mohring_gabler_2021]
 - [Criteria for hypersonic airbreathing propulsion and its...][research_jiang_zhang_2021]
-- [Deutsche Aircraft aims for hydrogen aviation][research_deutsche_aircraft_2021]
-- [EnaBle consortium to develop hydrogen-electric aviation tech][research_enable_consortium_2021]
 - [Experimental study of ignition behaviors of pyrolysis gas of...][research_zheng_xiong_2021]
-- [French partnership to promote hydrogen for decarbonising...][research_french_partnership_2021]
-- [Hamburg aerospace consortium targets hydrogen for aviation][research_hamburg_aerospace_2021]
 - [Hydrogen as an aviation fuel][research_rez_2021]
 - [Multi-platform app-embedded model for hybrid air-breathing...][research_tsentis_gkoutzamanis_2021]
 - [Multipoint Design Optimization of Busemann-Based Intakes for...][research_brahmachary_ogawa_2021]
 - [Performance analysis of a strut-aided hypersonic scramjet by...][research_yao_liu_2021]
 - [Skeletal Kinetic Modeling for the Combustion of Endothermic...][research_huisheng_beijing_2021]
 - [Some Key Issues in Hypersonic Propulsion][research_bruno_ingenito_2021]
-- [US consortium creates hydrogen aviation site][research_us_consortium_2021]
-- [World's first full-scale hydrogen-based propulsion system...][research_world_s_first_2021]
 - [A Multifidelity Simulation Method for Internal and External...][research_liu_yuan_2022]
 - [Characterization of a new ultra-high pressure shock tube...][research_urso_kinney_2022]
-- [Comparison of phase-change-heat-pump cooling and liquid...][research_kosters_liu_2022]
 - [Design optimization and off-design performance analysis of...][research_brahmachary_fujio_2022]
 - [Hypersonic Propulsion Systems a Review of Design Solutions][research_janiszewski_wozniak_2022]
-- [Hydrogen-Powered Aircraft Hydrogen electric hybrid propulsion...][research_gao_jausseme_2022]
 - [Integrated Hypersonic Aeropropulsion Model for...][research_ramunno_boyd_2022]
 - [Life Analysis of Reusable Liquid Rocket Engine Thrust Chamber][research_qi_cheng_2022]
 - [Performance Evaluation of Fuel Indirect Cooling Based Thermal...][research_cheng_xu_2022]
 - [Performance analysis of the hypersonic vehicle with dorsal...][research_luo_sun_2022]
 - [Recent research progress on airbreathing aero-engine control...][research_lv_chang_2022]
 - [Response of Internal Flowfield to Downstream Pressure...][research_chang_yuan_2022]
-- [A method for an efficiency and weight-optimised preliminary...][research_akkaya_neumann_2023]
-- [An overview on light assisted techniques for waste-derived...][research_suresh_rajendran_2023]
 - [Analysis and comparison of cooling performance, thermodynamic...][research_lei_zhang_2023]
-- [Decarbonizing aviation The roles of sustainable aviation...][research_mannava_velautham_2023]
-- [Effect on drag thrust transition for flapping airfoil with...][research_sharma_dutta_2023]
 - [Efficient and stable Pt/CaO-TiO2-Al2O3 for the catalytic...][research_wang_liu_2023]
 - [Experimental Study on the Ethanol-Assisted Catalytic Steam...][research_guo_gao_2023]
-- [Hydrogen in aviation H2FLY makes historic world-first piloted...][research_hydrogen_in_2023_b]
-- [Hydrogen in aviation ZeroAvia claims fuel cell first][research_hydrogen_in_2023]
 - [Inverted Brayton Cycle Engine Optimization for Hypersonic...][research_karabacak_turan_2023]
 - [Kinetic insight into composition effect on the laminar flame...][research_peng_2023]
 - [One-dimensional modelling and analysis of flow excursion of...][research_jiang_wang_2023_b]
 - [One-dimensional modelling and simulation of multiple solution...][research_jiang_wang_2023_c]
 - [Optimization design of hypersonic vehicle propulsion system...][research_zheng_wu_2023]
 - [Path-Following Control for Thrust-Vectored Hypersonic Aircraft][research_sahbon_jacewicz_2023]
-- [Power and efficiency optimizations for an open cycle...][research_chen_feng_2023]
-- [Preliminary Design of the Fuel Cells Based Energy Systems for...][research_delorenzo_ruffo_2023]
 - [Reacting flow analysis in scramjet engine effect of mass flow...][research_sanaka_kandula_2023]
 - [Reduced oxygen concentration effects on scramjet engine...][research_ozbek_karyeyen_2023]
 - [Research on uncertainty of propulsion system of air-breathing...][research_su_wu_2023]
 - [The combustion performance of sustainable aviation fuel with...][research_yelugoti_wang_2023]
 - [Uncertainty optimization design of hypersonic vehicle...][research_sun_wu_2023]
-- [Performance analysis of a conventional two-stage indirect...][research_salman_2024]
 - [Performance and emission characteristics of ammonia fueled...][research_lu_zhang_2024]
 - [Reusable and Low Cost Space Rocket Engine with High Efficient...][research_saboktakin_monjezi_2024]
 - [Thermodynamic Analysis of the Second Fluid Brayton Cycle for...][research_luo_qi_2024]
-- [UK must invest more in hydrogen planes, say top aviation firms][research_uk_must_2024]
 - [Development of a Mathematical Model for Hypersonic Aircraft...][research_zaludin_2025]
 - [Dynamic Air Fuel Mixing in Scramjets and Other Hypersonic...][research_macleod_gibson_2025]
-- [Evaluating Potential Fuel Savings of External Alternative...][research_waltert_figuet_2025]
 - [Experimental study on combustion instability of a...][research_li_li_2025]
 - [Fundamental characteristics of VLEO satellites with...][research_burton_carroll_2025]
 - [Hydrogen Propulsion Technologies for Aviation A Review of...][research_gopalasingam_rakhshani_2025]
@@ -4103,7 +3780,6 @@ leaving the physics exactly where it was.
 - [Optimization methodology of wide-speed scramjet engine based...][research_hao_yu_2025]
 - [Performance analysis and design optimization of a...][research_ma_guo_2025]
 - [Performance analysis of a scramjet engine thermoelectric...][research_luo_luo_2025]
-- [Production of sustainable aviation fuel Influence of...][research_guilloteau_groll_2025]
 - [Pulsed Magnetoplasmadynamic Propulsion for Airbreathing...][research_zimmerman_burton_2025]
 - [Research on integrated design method of wide-range hypersonic...][research_zhao_ma_2025]
 - [Sensitivity analysis of design parameters for hypersonic...][research_yao_wu_2025]
@@ -4111,14 +3787,11 @@ leaving the physics exactly where it was.
 - [Strategies to Increase Hydrogen Energy Share of a Dual-Fuel...][research_reitmayr_hofmann_2025]
 - [Thermal response time characteristics of endothermic...][research_wu_he_2025]
 - [Thermodynamic analysis of boron powdered scramjet engine...][research_li_wang_2025_b]
-- [4E Analysis and Development of an Equilibrium Constant-Based...][research_razmjooei_ommi_2026]
 - [Distributed Air-Augmented Kerosene Propulsion Cells as an...][research_perlo_2026]
 - [Hydrogen Fuel in Aviation Quantifying Risks for a Sustainable...][research_ozturk_yildiz_2026]
 - [Hydrogen in Aviation A Review of Storage, Infrastructure...][research_schrotter_kavas_2026]
 - [Mapping cavity flameholder stability limits for single and...][research_opacich_ombrello_2026]
 - [Penetration of supercritical kerosene jet in supersonic...][research_satyanarayan_raj_2026]
-- [Performance Analysis of Direct Stage, In-Direct Stage and...][research_san_aungkolatt_2026]
-- [Performance Analysis of an Electric Vehicle][research_performance_analysis_2026]
 - [Shock Tube Measurements of the Sooting Propensity of...][research_rahman_arafin_2026]
 
 ## Where the Framing Breaks Down
@@ -4183,7 +3856,7 @@ contemporary sources that had been harvested and left unused.
 **The publication pass then did the reverse.** The period count sits essentially unchanged at 1,103 while
 its fraction falls, because a further thousand contemporary sources arrived underneath it.
 
-**Nothing was removed at any point**, and every one of the 3,062 harvested records is now cited.
+**Nothing was removed in either pass**, and every one of the 2,738 records that remain after the 7 October 2026 rebuild is now cited.
 
 ### What the Primary Pass Was Aimed At
 
@@ -4229,8 +3902,27 @@ rejected every one, which is the gate working.
 
 | | Count | Fraction of cited research |
 |---|---|---|
-| Period, through 1999 | 1,103 | |
-| Contemporary, 2015 onward | 1,784 | |
+| Period, through 1999 | 984 | |
+| Contemporary, 2015 onward | 1,605 | |
+
+**The survey was refiltered on 7 October 2026, after the counts first published with this article.** A
+title-by-title reading of all 3,062 research records refused 324 that share a word with the subject and
+nothing else. The largest groups were 36 papers on road vehicles, railways and bridges, 32 on the inlets of
+mass spectrometers and chromatographs, 29 on electric power generation, 25 on civil hydrogen aviation, fuel
+cells and sustainable fuel, 22 on nuclear reactors, 21 on electronics, 18 on ships and underwater vehicles,
+17 on piston engines, 13 on civil engineering cooling towers and seven on coastal tidal inlets, with smaller
+numbers from medicine, finance, fire science and geophysics. **Three of the refused records were studies of
+the energy budget at the Earth's surface**, the homonym the anchor gate is said above to have rejected in
+full, so that gate was less complete than the earlier paragraph records.
+**The research base falls from 3,062 to 2,738 records**, the period count from 1,103 to 984 and the
+contemporary count from 1,784 to 1,605, while report-server records number 688, or 25.1 percent, and the
+median publication year stays at 2017. The clusters most changed are Why Unstart Cannot Be Undone at Speed,
+from 273 to 218, Combined cycles and the reusable launch question, from 251 to 205, Materials and structures
+moved on, from 247 to 215, and Why Milliseconds Are Not Enough, from 108 to 77. A reading of 300 records the
+screens had not flagged found 31 off topic, or 10.3 percent, and all 31 are among those refused. Because
+every title was then read rather than sampled, what remains is the doubtful kind kept on the rule that doubt
+keeps, such as general reviews of hydrogen as an aviation fuel, and a count kept during the reading puts it
+near one hundred records, or under 4 percent.
 
 ## Epistemic State
 
@@ -4469,18 +4161,15 @@ available.
 ### Research
 
 - [2018][research_anon_2018]
-- [258. A simple mass spectrometer inlet leak 1968][research_258_a_1968]
 - [266 On ascent guidance of hypersonic vehicle 1994][research_266_on_1994]
 - [3D Problems of Rotating Detonation Wave in a Ramjet Engine Modeled on a Supercomputer 2018][research_3d_problems_2018]
 - [4860534 Inlet particle separator with anti-icing means 1990][research_4860534_inlet_1990]
-- [578. Mass spectrometer calibration under pulsed molecular flow conditions: sample inlet influences 1974][research_578_mass_1974]
 - [95/01686 Cavity-actuated supersonic mixing and combustion control 1995][research_95_01686_cavity_actuated_1995]
 - [95/01778 Reduced kinetic mechanism of ignition for non-premixed hydrogen/air in a supersonic mixing layer 1995][research_95_01778_reduced_1995]
 - [95/01780 The role of kinetic versus thermal feedback in non-premixed ignition of hydrogen versus heated air 1995][research_95_01780_the_1995]
 - [95/05986 Oxidation and ablation of 3D carbon-carbon composite at up to 3000°C 1995][research_95_05986_oxidation_1995]
 - [95/06326 Ignition simulation of methane/hydrogen mixtures in a supersonic mixing layer 1995][research_95_06326_ignition_1995]
 - [95/06441 Studies on solution-derived ceramic coatings for oxidation protection of carbon-carbon composites 1995][research_95_06441_studies_1995]
-- [96/04007 Investigation of control and simulation of solar process heat plants using a flexible test facility 1996][research_96_04007_investigation_1996]
 - [96/05298 Relationships between bifurcation and numerical analyses for ignition of hydrogen-air diffusion flames 1996][research_96_05298_relationships_1996]
 - [97/03061 A numerical study of ignition in the supersonic hydrogen/air laminar mixing layer 1997][research_97_03061_a_1997]
 - [97/04270 Ignition of hydrogen-enriched methane by heated air 1997][research_97_04270_ignition_1997]
@@ -4495,9 +4184,7 @@ available.
 - [Abedi et al 2017][research_abedi_salehi_2017]
 - [Abell 1989][research_abell_1989]
 - [Abrahamm and Valsa 2018][research_abrahamm_valsa_2018]
-- [Abu-Hamdan et al 1992][research_abuhamdan_zurigat_1992]
 - [Abul-Huda and Gamba 2017][research_abulhuda_gamba_2017]
-- [Acar et al 2024][research_acar_jain_2024]
 - [Accelerating Hypersonic Innovation 2022][research_accelerating_hypersonic_2022]
 - [Acharya 2025][research_acharya_2025]
 - [Adam Khan 2024][research_adamkhan_2024]
@@ -4507,7 +4194,6 @@ available.
 - [Adams, J. C., Jr. et al 1976][research_adamsjcjr_martindalewr_1976]
 - [Adams, J. C., Jr. et al 1984][research_adamsjcjr_martindalewr_1984]
 - [Adelman, Henry G. et al 1996][research_adelmanhenryg_meneesgenep_1996]
-- [Adley and Granata 1971][research_adley_granata_1971]
 - [Advisory Group for Aerospace Research and Development 1993][research_advisorygroupforaerospaceresearchanddevelopment_1993]
 - [Agnone and Prakasam 1987][research_agnone_prakasam_1987]
 - [Agnone, Anthony M. 1987][research_agnoneanthonym_1987]
@@ -4516,12 +4202,7 @@ available.
 - [Ahuja and Hartfield 2015][research_ahuja_hartfield_2015]
 - [Air Force Test Pilot School Edwards Afb Ca 1987][research_airforcetestpilotschooledwardsafbca_1987]
 - [Aircraft Engine Test Facility 1992][research_aircraft_engine_1992]
-- [Ajalla 1998][research_ajalla_1998]
-- [Ak and Çadırcı 2020][research_ak_cadirci_2020]
 - [Akatsu et al 2016][research_akatsu_takashima_2016]
-- [Akbari et al 2025][research_akbari_ghazi_2025]
-- [Akkaya et al 2023][research_akkaya_neumann_2023]
-- [Aksu 1996][research_aksu_1996]
 - [Al-Garni et al 1996][research_algarni_sahin_1996]
 - [Alam et al 2019][research_alam_sharma_2019]
 - [Alam et al 2019][research_alam_sharma_2019_b]
@@ -4533,7 +4214,6 @@ available.
 - [Allen 1957][research_allen_1957]
 - [Allen 2021][research_allen_2021]
 - [Allen and Byrne 1965][research_allen_byrne_1965]
-- [Allen and L. H. 1967][research_allen_lh_1967]
 - [Allen, H. J. 1966][research_allenhj_1966]
 - [Allen, J L and Beke, Andrew 1953][research_allenjl_bekeandrew_1953]
 - [Almeida and Navarro-Martinez 2019][research_almeida_navarromartinez_2019]
@@ -4554,14 +4234,12 @@ available.
 - [An Investigation on the Effect of TiC Additive on the Microstructural and Mechanical Properties of Ultra-High Temperature ZrB2-SiC-Based Ceramic Composite by Multi-Step Spark Plasma Sintering Method 2024][research_an_investigation_2024]
 - [Analysis of Rotating Detonation Wave Engine 2023][research_analysis_of_2023]
 - [Anders, J. B., Jr. 1975][research_andersjbjr_1975]
-- [Anderson 1978][research_anderson_1978]
 - [Anderson 1979][research_anderson_1979]
 - [Anderson 1986][research_anderson_1986]
 - [Anderson and Brooks 1960][research_anderson_brooks_1960]
 - [Anderson and Eckbreth 1991][research_anderson_eckbreth_1991]
 - [Anderson, Bernhard H. and Weir, Lois 2014][research_andersonbernhardh_weirlois_2014]
 - [Anderson, Charles W. 1993][research_andersoncharlesw_1993]
-- [Anderson, David 2014][research_andersondavid_2014]
 - [Anderson, G. Y. et al 1977][research_andersongy_reagonpg_1977]
 - [Anderson, Griffin Y. et al 1987][research_andersongriffiny_benczedanielp_1987]
 - [Andrews et al 1992][research_andrews_davis_1992]
@@ -4584,9 +4262,7 @@ available.
 - [Azevedo et al 1990][research_azevedo_liu_1990]
 - [Azhar et al 2022][research_azhar_habeeb_2022]
 - [Aziz et al 2022][research_aziz_chowdhury_2022]
-- [Baba et al 1979][research_baba_horie_1979]
 - [Babinsky 2014][research_babinsky_2014]
-- [Babrauskas et al 1994][research_babrauskas_parker_1994]
 - [Baccarella and Samuels 2025][research_baccarella_samuels_2025]
 - [Baccarella et al 2016][research_baccarella_liu_2016]
 - [Back et al 1972][research_back_cuffel_1972]
@@ -4600,14 +4276,11 @@ available.
 - [Balakrishnan and Williams 1994][research_balakrishnan_williams_1994]
 - [Balakumar and Chou 2018][research_balakumar_chou_2018]
 - [Balakumar and Kegerise 2016][research_balakumar_kegerise_2016]
-- [Balasubramani and Natarajan 2024][research_balasubramani_natarajan_2024]
 - [Ball and Ross 1972][research_ball_ross_1972]
 - [Ball, W. H. and Lyon, F. J. 1966][research_ballwh_lyonfj_1966]
-- [Balogun et al 2025][research_balogun_vasudev_2025]
 - [Balut et al 1991][research_balut_frazier_1991]
 - [Balzer 1971][research_balzer_1971]
 - [Banagiri et al 2025][research_banagiri_raj_2025]
-- [Bandriyana et al 2015][research_bandriyana_rivai_2015]
 - [Bandyopadhyay and Gad-el-Hak 1994][research_bandyopadhyay_gadelhak_1994]
 - [Bangert, L. H. et al 1980][research_bangertlh_santmandm_1980]
 - [Bangert, L. H. et al 1980][research_bangertlh_santmandm_1980_b]
@@ -4628,20 +4301,16 @@ available.
 - [Bartolotta, Paul A. and Krause, David L. 2000][research_bartolottapaula_krausedavidl_2000]
 - [Batdor 1957][research_batdor_1957]
 - [Bates 1984][research_bates_1984]
-- [Bath Iron Works Corp Me 1975][research_bathironworkscorpme_1975]
-- [Batra and T. S. 2026][research_batra_ts_2026]
 - [Battelle Memorial Inst Columbus Oh 1947][research_battellememorialinstcolumbusoh_1947]
 - [Batterton, P. G. et al 1974][research_battertonpg_arpasidj_1974]
 - [Batterton, P. G. et al 1976][research_battertonpg_arpasidj_1976]
 - [Baughn et al 1987][research_baughn_hoffman_1987]
 - [Baumbick, R. J. 1974][research_baumbickrj_1974]
-- [Baumgardner et al 1995][research_baumgardner_quinn_1995]
 - [Baumgart et al 2025][research_baumgart_yao_2025]
 - [Baurle, R. A. and Axdahl, E. L. 2017][research_baurlera_axdahlel_2017]
 - [Baurle, Robert A. et al 2012][research_baurleroberta_middletontroyf_2012]
 - [Baydar, Ezgihan et al 2016][research_baydarezgihan_lufrankk_2016]
 - [Baydar, Ezgihan et al 2017][research_baydarezgihan_lufrankk_2017]
-- [Bayham et al 2019][research_bayham_straub_2019]
 - [Baysal, O. 1992][research_baysalo_1992]
 - [Bazhina et al 2026][research_bazhina_antipov_2026]
 - [Baş 2026][research_bas_2026]
@@ -4657,23 +4326,19 @@ available.
 - [Beige and Mardani 2025][research_beige_mardani_2025]
 - [Bein, T. et al 1993][research_beint_friedmannp_1993]
 - [Bejan 2013][research_bejan_2013]
-- [Bekston and Biermann 2026][research_bekston_biermann_2026]
 - [Bellan 2017][research_bellan_2017]
-- [Belomestny et al 2015][research_belomestny_ladkau_2015]
 - [Ben Hamida et al 2025][research_benhamida_basem_2025]
 - [Benard et al 1997][research_benard_gaillard_1997]
 - [Benson and Maslowe 1966][research_benson_maslowe_1966]
 - [Berens and Bissinger 1998][research_berens_bissinger_1998]
 - [Berg 1968][research_berg_1968]
 - [Berger and White 2024][research_berger_white_2024]
-- [Berrueco et al 2015][research_berrueco_recari_2015]
 - [Berry 1991][research_berry_1991]
 - [Berry, Scott A. et al 2008][research_berryscotta_horvaththomasjjr_2008]
 - [Berry, Scott A. et al 2011][research_berryscotta_kimmelroger_2011]
 - [Berry, Scott A. et al 2016][research_berryscotta_bergerkarent_2016]
 - [Bertrand et al 2025][research_bertrand_huchette_2025]
 - [Besserer 1952][research_besserer_1952]
-- [Beveridge 1963][research_beveridge_1963]
 - [Bevilaqua and Lee 1980][research_bevilaqua_lee_1980]
 - [Bhadouriya 2024][research_bhadouriya_2024]
 - [Bhat, B. N. et al 1993][research_bhatbn_mcphersonwb_1993]
@@ -4682,35 +4347,22 @@ available.
 - [Billig 1995][research_billig_1995]
 - [Bilsborough et al 2025][research_bilsborough_neilsenburke_2025]
 - [Bird, R. Keith and Hoffman, Eric K. 1998][research_birdrkeith_hoffmanerick_1998]
-- [Bishop 2002][research_bishop_2002]
 - [Bissinger et al 1998][research_bissinger_blagoveshchensky_1998]
-- [Blake 1981][research_blake_1981]
 - [Blanco et al 2022][research_blanco_lobet_2022]
 - [Blankson, Isaiah M. and Hagseth, Paul 1993][research_blanksonisaiahm_hagsethpaul_1993]
-- [Blessing 1961][research_blessing_1961]
-- [Blessing 1962][research_blessing_1962]
-- [Blessing 1963][research_blessing_1963]
 - [Blomshield 1989][research_blomshield_1989]
 - [Boardman 1976][research_boardman_1976]
 - [Boatright, W. B. et al 1976][research_boatrightwb_sabolap_1976]
-- [Bocchini et al 1999][research_bocchini_pozzi_1999]
 - [Bochenek and Tajs-Zielińska 2025][research_bochenek_tajszielinska_2025]
 - [Bodan-Sanders, Patricia and Bouvier, Carl 1998][research_bodansanderspatricia_bouviercarl_1998]
-- [Boeing to Test Drones at New Australian Facility 2019][research_boeing_to_2019]
-- [Bohátka 1997][research_bohatka_1997]
-- [Bohátka and Degn 1991][research_bohatka_degn_1991]
 - [Boiocchi et al 2018][research_boiocchi_galfetti_2018]
 - [Boles and Milligan 2013][research_boles_milligan_2013]
 - [Bonanni et al 2024][research_bonanni_norris_2024]
 - [Bond 1958][research_bond_1958]
 - [Bondar et al 2024][research_bondar_nadtoka_2024]
-- [Booth et al 2012][research_booth_hudson_2012]
 - [Boscagli et al 2026][research_boscagli_rigas_2026]
 - [Botelho et al 2022][research_botelho_martinez_2022]
 - [Bouchard and Chambers 1966][research_bouchard_chambers_1966]
-- [Boucher 2000][research_boucher_2000]
-- [Boucher 2001][research_boucher_2001]
-- [Boumaza et al 2019][research_boumaza_hohne_2019]
 - [Bowersox and Fan 2000][research_bowersox_fan_2000]
 - [Bowes 1978][research_bowes_1978]
 - [Bowman and Foy 1961][research_bowman_foy_1961]
@@ -4729,7 +4381,6 @@ available.
 - [Bray 1963][research_bray_1963]
 - [Brei et al 2012][research_brei_luntz_2012]
 - [Brevault et al 2017][research_brevault_balesdent_2017]
-- [Brewer and Park 2001][research_brewer_park_2001]
 - [Brewer, G. D. and Morris, R. E. 1975][research_brewergd_morrisre_1975]
 - [Briehl, D. et al 1983][research_briehld_schultzdf_1983]
 - [Briskman 2000][research_briskman_2000]
@@ -4748,14 +4399,7 @@ available.
 - [Brune, A. J. et al 2017][research_bruneaj_bruceweiii_2017]
 - [Brunner 1959][research_brunner_1959]
 - [Bruno and Ingenito 2021][research_bruno_ingenito_2021]
-- [Brutsche and McFall 2015][research_brutsche_mcfall_2015]
 - [Bryan 1955][research_bryan_1955]
-- [Bryzik 2012][research_bryzik_2012]
-- [Bryzik and Witus 2011][research_bryzik_witus_2011]
-- [Bryzik and Witus 2011][research_bryzik_witus_2011_b]
-- [Bryzik and Witus 2012][research_bryzik_witus_2012]
-- [Bryzik and Witus 2012][research_bryzik_witus_2012_b]
-- [Bryzik and Witus 2012][research_bryzik_witus_2012_c]
 - [Bu and Lei 2018][research_bu_lei_2018]
 - [Buccaneer S2B Fatique Test Facility 1984][research_buccaneer_s2b_1984]
 - [Buchanan and Little 1993][research_buchanan_little_1993]
@@ -4768,7 +4412,6 @@ available.
 - [Bulman, M. J. et al 1997][research_bulmanmj_stoutpw_1997]
 - [Burgers 2017][research_burgers_2017]
 - [Burke and Rezzag 2026][research_burke_rezzag_2026]
-- [Burman 1998][research_burman_1998]
 - [Burton and Carroll 2025][research_burton_carroll_2025]
 - [Busa, K. M. et al 2012][research_busakm_mcdanieljc_2012]
 - [Busa, Kristin et al 2013][research_busakristin_ellisonerikn_2013]
@@ -4776,7 +4419,6 @@ available.
 - [Bushnell, Dennis M. et al 1993][research_bushnelldennism_yiplongp_1993]
 - [Bussing, T. R. A. and Murman, E. M. 1983][research_bussingtra_murmanem_1983]
 - [Buzukov 1999][research_buzukov_1999]
-- [Buzukov and Timoshenko 1995][research_buzukov_timoshenko_1995]
 - [Byrne and Wilde 1963][research_byrne_wilde_1963]
 - [Byun and Kim 2026][research_byun_kim_2026]
 - [C W Anderson et al 1990][research_cwanderson_charlesrmcclinton_1990]
@@ -4802,7 +4444,6 @@ available.
 - [Cao et al 2020][research_cao_lu_2020]
 - [Cao et al 2021][research_cao_brod_2021]
 - [Capone, Francis J. and Schirmer, Alberto W. 1993][research_caponefrancisj_schirmeralbertow_1993]
-- [Cappellini et al 2026][research_cappellini_castagna_2026]
 - [Cappuccio, Gelsomina 1999][research_cappucciogelsomina_1999]
 - [Carbajosa et al 2025][research_carbajosa_sanzandres_2025]
 - [Carbon fiber composites effect 1971][research_carbon_fiber_1971]
@@ -4811,7 +4452,6 @@ available.
 - [Carlson, John R. and Abdol-Hamid, Khaled S. 1993][research_carlsonjohnr_abdolhamidkhaleds_1993]
 - [Carman 1965][research_carman_1965]
 - [Carman and J. B. 1966][research_carman_jb_1966]
-- [Carpenter 1990][research_carpenter_1990]
 - [Carpenter, J. L., Jr. and Stuhrke, W. F. 1976][research_carpenterjljr_stuhrkewf_1976]
 - [Carrier et al 1995][research_carrier_fendell_1995]
 - [Carson, G. T., Jr. 1974][research_carsongtjr_1974]
@@ -4823,9 +4463,7 @@ available.
 - [Casseau et al 2016][research_casseau_palharini_2016]
 - [Cassetti 1978][research_cassetti_1978]
 - [Castelvecchi 2024][research_castelvecchi_2024]
-- [Castiau and Gaurois 1991][research_castiau_gaurois_1991]
 - [Cavolowsky, John A. et al 1995][research_cavolowskyjohna_loomismarkp_1995]
-- [Cemin 2022][research_cemin_2022]
 - [Cenkci 1991][research_cenkci_1991]
 - [Cerminara 2023][research_cerminara_2023]
 - [Cerminara et al 2020][research_cerminara_deiterding_2020]
@@ -4846,7 +4484,6 @@ available.
 - [Chang et al 2020][research_chang_chan_2020]
 - [Chang et al 2022][research_chang_bai_2022]
 - [Chang et al 2022][research_chang_huang_2022]
-- [Chang, Bei-Jiann et al 2003][research_changbeijiann_johnsondonaldw_2003]
 - [Changbao et al 2020][research_changbao_hui_2020]
 - [Cheah et al 2025][research_cheah_bhattacharjee_2025]
 - [Chen 1969][research_chen_1969]
@@ -4871,10 +4508,8 @@ available.
 - [Chen et al 2022][research_chen_li_2022]
 - [Chen et al 2022][research_chen_zou_2022]
 - [Chen et al 2023][research_chen_chen_2023]
-- [Chen et al 2023][research_chen_feng_2023]
 - [Chen et al 2023][research_chen_guo_2023]
 - [Chen et al 2023][research_chen_si_2023]
-- [Chen et al 2024][research_chen_gao_2024]
 - [Chen et al 2024][research_chen_yang_2024]
 - [Chen et al 2024][research_chen_zhang_2024]
 - [Chen et al 2025][research_chen_he_2025]
@@ -4892,10 +4527,8 @@ available.
 - [Cheng et al 2023][research_cheng_chen_2023]
 - [Chima, Rodrick V. et al 2009][research_chimarodrickv_connerstimothyr_2009]
 - [Chima, Rodrick V. et al 2010][research_chimarodrickv_connerstimothyr_2010]
-- [Chin Law et al 2024][research_chinlaw_gkantonas_2024]
 - [Chinitz et al 1994][research_chinitz_erdos_1994]
 - [Chinnaraj et al 2024][research_chinnaraj_kim_2024]
-- [Chiong et al 2022][research_chiong_soon_2022]
 - [Chitsomboon and Northam 1991][research_chitsomboon_northam_1991]
 - [Chitsomboon, T. et al 1988][research_chitsomboont_northamgb_1988]
 - [Cho et al 1996][research_cho_ha_1996]
@@ -4908,12 +4541,8 @@ available.
 - [Choubey et al 2027][research_choubey_panging_2027]
 - [Choudhary et al 2021][research_choudhary_daschakladar_2021]
 - [Chowdhary et al 2022][research_chowdhary_hoang_2022]
-- [Chowdhury et al 2022][research_chowdhury_ali_2022]
-- [Chowdhury et al 2023][research_chowdhury_ali_2023]
 - [Christol 1993][research_christol_1993]
 - [Chu 1967][research_chu_1967]
-- [Chu 2006][research_chu_2006]
-- [Chu and Salama 2005][research_chu_salama_2005]
 - [Chu et al 1992][research_chu_thompson_1992]
 - [Chu et al 2026][research_chu_tu_2026]
 - [Chun and Burr 1969][research_chun_burr_1969]
@@ -4921,7 +4550,6 @@ available.
 - [Chung and Kim 1994][research_chung_kim_1994]
 - [Chung and Lu 1995][research_chung_lu_1995]
 - [Chung et al 1995][research_chung_kim_1995]
-- [Cisneros-Dozal et al 2019][research_cisnerosdozal_xu_2019]
 - [Citron 1963][research_citron_1963]
 - [Clark 1969][research_clark_1969]
 - [Clarkson 1960][research_clarkson_1960]
@@ -4952,13 +4580,10 @@ available.
 - [Cox and Torres 1975][research_cox_torres_1975]
 - [Cox et al 1966][research_cox_crabtree_1966]
 - [Cox, Timothy H. and Cotting, M. Christopher 2005][research_coxtimothyh_cottingmchristopher_2005]
-- [Coyne, L. M. and Summers, D. P. 1991][research_coynelm_summersdp_1991]
 - [Craig and Saric 2016][research_craig_saric_2016]
 - [Crocker and McEnaney 1991][research_crocker_mcenaney_1991]
-- [Cronin 2013][research_cronin_2013]
 - [Crown 1950][research_crown_1950]
 - [Cruden et al 2021][research_cruden_tang_2021]
-- [CSIRO, Boeing report looks at hydrogen in commercial aviation 2020][research_csiro_boeing_2020]
 - [Cui et al 2015][research_cui_wang_2015]
 - [Cui et al 2017][research_cui_zhao_2017]
 - [Cui et al 2018][research_cui_mei_2018]
@@ -4967,7 +4592,6 @@ available.
 - [Cunningham 1987][research_cunningham_1987]
 - [Cuppoletti et al 2019][research_cuppoletti_ombrello_2019]
 - [Cuppoletti et al 2020][research_cuppoletti_ombrello_2020]
-- [Curatolo et al 2024][research_curatolo_modenini_2024]
 - [Curran and Craig 1973][research_curran_craig_1973]
 - [Curran and Swithenbank 1966][research_curran_swithenbank_1966]
 - [Curran, E. T. and Beach, H. L., Jr. 1988][research_curranet_beachhljr_1988]
@@ -4982,9 +4606,7 @@ available.
 - [Dai et al 2025][research_dai_shao_2025]
 - [Dai et al 2026][research_dai_cai_2026]
 - [Daines and Segal 1998][research_daines_segal_1998]
-- [Dakeyo et al 2024][research_dakeyo_rouillard_2024]
 - [Dalzell 1991][research_dalzell_1991]
-- [Dana e-propulsion unit for Alberta hydrogen powered freight project 2019][research_dana_e_propulsion_2019]
 - [Daniel and Mee 1995][research_daniel_mee_1995]
 - [Darrel R Tenney et al 1989][research_darrelrtenney_wbarrylisagor_1989]
 - [Dary and M. Pollock 1996][research_dary_mpollock_1996]
@@ -4999,10 +4621,7 @@ available.
 - [Davis and Harvey 1981][research_davis_harvey_1981]
 - [Davis, David O. 2015][research_davisdavido_2015]
 - [Davis, G. W. et al 1970][research_davisgw_plankpp_1970]
-- [de Azevedo Basto et al 2023][research_deazevedobasto_estolanodelima_2023]
-- [De Lorenzo et al 2023][research_delorenzo_ruffo_2023]
 - [de Moura and Ribeiro 2026][research_demoura_ribeiro_2026]
-- [De Rosa and Laurenzi 2025][research_derosa_laurenzi_2025]
 - [De Stefano Fumo et al 2025][research_destefanofumo_sciti_2025]
 - [Debarber 1999][research_debarber_1999]
 - [Debnath and Pandey 2015][research_debnath_pandey_2015]
@@ -5030,7 +4649,6 @@ available.
 - [Deng et al 2026][research_deng_ying_2026]
 - [Desai et al 2019][research_desai_brahmachary_2019]
 - [DeSpirito 2015][research_despirito_2015]
-- [Deutsche Aircraft aims for hydrogen aviation 2021][research_deutsche_aircraft_2021]
 - [Dewey 1961][research_dewey_1961]
 - [Dharavath et al 2015][research_dharavath_manna_2015]
 - [Di Caprio et al 2019][research_dicaprio_acanfora_2019]
@@ -5054,7 +4672,6 @@ available.
 - [Diskin, Glenn S. and Northam, G. Burton 1988][research_diskinglenns_northamgburton_1988]
 - [Dixon, S. C. 1985][research_dixonsc_1985]
 - [Dixon, S. C. et al 1985][research_dixonsc_tenneydr_1985]
-- [DLR, Airbus in BILBO project on hydrogen, fuel cells in aviation 2018][research_dlr_airbus_2018]
 - [Doggett, Robert V., Jr. et al 1991][research_doggettrobertvjr_rickettsrodneyh_1991]
 - [Dong and Cai 2017][research_dong_cai_2017]
 - [Dong et al 2018][research_dong_tang_2018]
@@ -5068,8 +4685,6 @@ available.
 - [dos Santos et al 2025][research_dossantos_passaro_2025]
 - [Dou et al 2022][research_dou_yang_2022]
 - [Dougherty 1975][research_dougherty_1975]
-- [Dragna et al 1989][research_dragna_aubert_1989]
-- [Dragna et al 1989][research_dragna_aubert_1989_b]
 - [Drennan, S. A. et al 1993][research_drennansa_sowawa_1993]
 - [Driscoll et al 2015][research_driscoll_stoddard_2015]
 - [Drummond, J. P. 1991][research_drummondjp_1991]
@@ -5096,7 +4711,6 @@ available.
 - [Dwoyer, Douglas L. 1987][research_dwoyerdouglasl_1987]
 - [Dynamic Testing of the 2011][research_dynamic_testing_2011]
 - [Dzhurynskyi 2026][research_dzhurynskyi_2026]
-- [D’Amato et al 2020][research_damato_viggiano_2020]
 - [Eames, D. J. H. and Mason, M. L. 1988][research_eamesdjh_masonml_1988]
 - [Echeverria Aparicio et al 2022][research_echeverriaaparicio_fishpool_2022]
 - [Economos, C. 1966][research_economosc_1966]
@@ -5106,33 +4720,25 @@ available.
 - [Edwards, T. A. 1992][research_edwardsta_1992]
 - [Edwards, Thomas Alan 1988][research_edwardsthomasalan_1988]
 - [Effects of different physical properties of anthracite powder fuel on detonation characteristics of a rotating detonation engine 2023][research_effects_of_2023]
-- [Effects of Feeding Mode and Inlet Area Ratio on Heating Characteristics in Dual-Inlet Swirl Tubes 2021][research_effects_of_2021]
 - [Effects of Various Compositions of the Fuel-Air Mixture on the Pulse Detonation Engine Performance 2019][research_effects_of_2019]
 - [Ehrburger et al 1986][research_ehrburger_baranne_1986]
 - [Eidelman et al 2000][research_eidelman_sharov_2000]
-- [Ekmekci et al 2026][research_ekmekci_oral_2026]
 - [El Khoury and Hickey 2026][research_elkhoury_hickey_2026]
 - [El Yagoubi et al 2015][research_elyagoubi_lamon_2015]
 - [Elder, D. J. 1975][research_elderdj_1975]
 - [Elfverson et al 2024][research_elfverson_scheichl_2024]
-- [Elgar and Raubenheimer 2011][research_elgar_raubenheimer_2011]
 - [Elizabeth F Rieken et al 2020][research_elizabethfrieken_scottaberry_2020]
 - [Elkowitz et al 2024][research_elkowitz_wanchek_2024]
 - [Ellis 2025][research_ellis_2025]
 - [Ellison, J. C. and Johnson, C. B. 1964][research_ellisonjc_johnsoncb_1964]
 - [Elmouazen et al 2026][research_elmouazen_zhang_2026]
-- [Elsaed and Linjama 2024][research_elsaed_linjama_2024]
-- [EnaBle consortium to develop hydrogen-electric aviation tech 2021][research_enable_consortium_2021]
 - [Engelund, Walter C. et al 1999][research_engelundwalterc_hollandscottd_1999]
 - [Epstein 1961][research_epstein_1961]
 - [Erdahl et al 1988][research_erdahl_banning_1988]
 - [Erickson, W. D. and Klick, G. F. 1970][research_ericksonwd_klickgf_1970]
-- [Ershov et al 2016][research_ershov_kashkarov_2016]
 - [Estabrooks et al 1961][research_estabrooks_robinson_1961]
-- [Ethanol pool fire on a one-meter test tray, validation of CFD results 2023][research_ethanol_pool_2023]
 - [Eugênio Ribeiro et al 2020][research_eugenioribeiro_boukharfane_2020]
 - [Evaluation of Various Flow Control Methods in Reducing Drag and Aerodynamic Heating on the Nose of Hypersonic Flying Objects 2024][research_evaluation_of_2024]
-- [Evaporator of a direct sample inlet system for mass spectrometric analysis of organic materials 1972][research_evaporator_of_1972]
 - [Experimental Hypersonic Scramjet Sets Thrust Record 2019][research_experimental_hypersonic_2019]
 - [Experimental Study of the Unstart/Restart Process of a Two-Dimensional Supersonic Inlet Induced by Backpressure 2022][research_experimental_study_2022]
 - [Eyi et al 2019][research_eyi_hanquist_2019]
@@ -5140,7 +4746,6 @@ available.
 - [Fang et al 2026][research_fang_zeng_2026]
 - [Fasel et al 2011][research_fasel_gross_2011]
 - [Fasel et al 2020][research_fasel_keidel_2020]
-- [FCH2 JU, Clean Sky 2 study on hydrogen powered aviation 2020][research_fch2_ju_2020]
 - [Fedorova 2023][research_fedorova_2023]
 - [Feilden et al 2019][research_feilden_glymond_2019]
 - [Feldman, Jay et al 2019][research_feldmanjay_stewartdavid_2019]
@@ -5171,23 +4776,18 @@ available.
 - [Fooladgar and Chan 2016][research_fooladgar_chan_2016]
 - [Ford 1993][research_ford_1993]
 - [Fordoei et al 2021][research_fordoei_mazaheri_2021]
-- [Forgach 2002][research_forgach_2002]
 - [Forster 1963][research_forster_1963]
 - [Fotia 2015][research_fotia_2015]
 - [Fotia et al 2016][research_fotia_schauer_2016]
 - [Fraiser 1960][research_fraiser_1960]
-- [Free molecular flow in the sample inlet to the mass spectrometer 1952][research_free_molecular_1952]
 - [Freeman and Powell 1980][research_freeman_powell_1980]
 - [Freeman et al 1995][research_freeman_stanley_1995]
 - [Freeman et al 1996][research_freeman_talay_1996]
-- [Freitag 2002][research_freitag_2002]
 - [Freitas 2020][research_freitas_2020]
-- [French partnership to promote hydrogen for decarbonising aviation 2021][research_french_partnership_2021]
 - [Fresconi and Rogers 2014][research_fresconi_rogers_2014]
 - [Frey 2014][research_frey_2014]
 - [Freydin and Dowell 2021][research_freydin_dowell_2021]
 - [Froning 1988][research_froning_1988]
-- [Fruman et al 1975][research_fruman_tulin_1975]
 - [Fry, Ronald S. and Becker, Dorothy L. 2000][research_fryronalds_beckerdorothyl_2000]
 - [Fu and Hall 1993][research_fu_hall_1993]
 - [Fu et al 1993][research_fu_hall_1993_b]
@@ -5206,12 +4806,9 @@ available.
 - [Fureby et al 2025][research_fureby_nilsson_2025]
 - [Fusaro et al 2024][research_fusaro_saccone_2024]
 - [Fusaro et al 2025][research_fusaro_borgna_2025]
-- [Fürst et al 1997][research_furst_hahn_1997]
 - [G 2020][research_g_2020]
 - [G and G 2025][research_g_g_2025]
-- [Gaddy and Lonnie D. 1968][research_gaddy_lonnied_1968]
 - [Gai, S. L. et al 1992][research_gaisl_mudfordnr_1992]
-- [Gallagher et al 2025][research_gallagher_stuart_2025]
 - [Gamestani 2003][research_gamestani_2003]
 - [Gao 2023][research_gao_2023]
 - [Gao et al 2015][research_gao_li_2015]
@@ -5222,12 +4819,10 @@ available.
 - [Gao et al 2020][research_gao_zhang_2020_b]
 - [Gao et al 2020][research_gao_zhang_2020_c]
 - [Gao et al 2021][research_gao_gou_2021]
-- [Gao et al 2022][research_gao_jausseme_2022]
 - [Gao et al 2025][research_gao_ge_2025]
 - [Gao et al 2026][research_gao_he_2026]
 - [Gao et al 2026][research_gao_liu_2026]
 - [Gates, Thomas S. et al 2008][research_gatesthomass_jeffersongaild_2008]
-- [Gaudron et al 2015][research_gaudron_cordier_2015]
 - [Ge and Liu 2023][research_ge_liu_2023]
 - [Ge et al 2026][research_ge_zhu_2026]
 - [Gebre-Egziabher 2007][research_gebreegziabher_2007]
@@ -5249,11 +4844,9 @@ available.
 - [Gilbert, Michael et al 2009][research_gilbertmichael_rajuivatury_2009]
 - [Gildfind 2024][research_gildfind_2024]
 - [Gildfind and Morgan 2015][research_gildfind_morgan_2015]
-- [Giles and Haji-Ali 2019][research_giles_hajiali_2019]
 - [Gilinsky, Mikhail et al 2001][research_gilinskymikhail_morganmorrish_2001]
 - [Gimelshein and Wysong 2019][research_gimelshein_wysong_2019]
 - [Glauser and Lewalle 2011][research_glauser_lewalle_2011]
-- [Glenning and Bond 1962][research_glenning_bond_1962]
 - [Gnoffo, Peter A. 1993][research_gnoffopetera_1993]
 - [Goel et al 2018][research_goel_duraisamy_2018]
 - [Gokul and Malaikannan 2025][research_gokul_malaikannan_2025]
@@ -5275,7 +4868,6 @@ available.
 - [Gordon 1962][research_gordon_1962]
 - [Gorskii and Olenicheva 2018][research_gorskii_olenicheva_2018]
 - [Goulard 1958][research_goulard_1958]
-- [Gould 1979][research_gould_1979]
 - [Goulos et al 2021][research_goulos_otter_2021]
 - [Goyne, Christopher P. and McDaniel, James C. 2002][research_goynechristopherp_mcdanieljamesc_2002]
 - [Grasso, Francesco and Gnoffo, Peter A. 1990][research_grassofrancesco_gnoffopetera_1990]
@@ -5290,7 +4882,6 @@ available.
 - [Griffith 1958][research_griffith_1958]
 - [Griffith and Lewis 1963][research_griffith_lewis_1963]
 - [Grimm 1992][research_grimm_1992]
-- [Grish and Weitzman 1974][research_grish_weitzman_1974]
 - [Ground Testing Facility for Hypersonic Materials 2023][research_ground_testing_2023]
 - [Gruenig and Mayinger 1999][research_gruenig_mayinger_1999]
 - [Gu and Timmerhaus 1992][research_gu_timmerhaus_1992]
@@ -5298,16 +4889,13 @@ available.
 - [Guadagnini et al 2023][research_guadagnini_dezaiacomo_2023]
 - [Gugulothu 2020][research_gugulothu_2020]
 - [Gui et al 2022][research_gui_wang_2022]
-- [Guilloteau et al 2025][research_guilloteau_groll_2025]
 - [Guo and Cao 2026][research_guo_cao_2026]
 - [Guo and Lei 2025][research_guo_lei_2025]
 - [Guo et al 2017][research_guo_bi_2017]
 - [Guo et al 2020][research_guo_luo_2020]
 - [Guo et al 2022][research_guo_pang_2022]
 - [Guo et al 2023][research_guo_gao_2023]
-- [Guo et al 2024][research_guo_su_2024]
 - [Guo et al 2026][research_guo_dong_2026]
-- [Gupta and Mishra 2025][research_gupta_mishra_2025]
 - [Gupta and Ramkumar 2015][research_gupta_ramkumar_2015]
 - [Gupta and Schwer 2018][research_gupta_schwer_2018]
 - [Gupta and Venuprasad 2018][research_gupta_venuprasad_2018]
@@ -5318,20 +4906,15 @@ available.
 - [Gwak et al 2016][research_gwak_lee_2016]
 - [H Julian Allen 1963][research_hjulianallen_1963]
 - [H. Julian Allen 1962][research_hjulianallen_1962]
-- [H2SHIPS project will demonstrate hydrogen propulsion in shipping 2019][research_h2ships_project_2019]
 - [Ha et al 2018][research_ha_yoon_2018]
 - [Hale 1973][research_hale_1973]
-- [Hale and Norrie 1966][research_hale_norrie_1966]
 - [Haley and Zhong 2023][research_haley_zhong_2023]
-- [Hall et al 1991][research_hall_lundgren_1991]
 - [Hallion et al 1995][research_hallion_becker_1995]
-- [Hamburg aerospace consortium targets hydrogen for aviation 2021][research_hamburg_aerospace_2021]
 - [Hammitt and Bogdonoff 1956][research_hammitt_bogdonoff_1956]
 - [Hammond, M. B., Jr. 1966][research_hammondmbjr_1966]
 - [Hamza and Chattopadhyay 2024][research_hamza_chattopadhyay_2024]
 - [Han and Cao 2019][research_han_cao_2019]
 - [Han and Han 2024][research_han_han_2024]
-- [Han and Tong 1985][research_han_tong_1985]
 - [Han et al 1995][research_han_he_1995]
 - [Han et al 2020][research_han_lee_2020]
 - [Han et al 2021][research_han_lee_2021]
@@ -5341,13 +4924,11 @@ available.
 - [Han et al 2026][research_han_tian_2026]
 - [Han et al 2026][research_han_xu_2026]
 - [Han, Samuel S. 1998][research_hansamuels_1998]
-- [Haneklaus et al 2016][research_haneklaus_reuven_2016]
 - [Hannemann et al 2018][research_hannemann_martinezschramm_2018]
 - [Hannum, Ned P. 1988][research_hannumnedp_1988]
 - [Hannum, Ned P. and Berkopec, Frank D. 1989][research_hannumnedp_berkopecfrankd_1989]
 - [Hanquist et al 2017][research_hanquist_hara_2017]
 - [Hanzel 1962][research_hanzel_1962]
-- [Hao et al 2015][research_hao_jiang_2015]
 - [Hao et al 2016][research_hao_chang_2016]
 - [Hao et al 2017][research_hao_yan_2017]
 - [Hao et al 2025][research_hao_yu_2025]
@@ -5357,12 +4938,8 @@ available.
 - [Harney 1963][research_harney_1963]
 - [Hartill, W. R. et al 1978][research_hartillwr_goebeltp_1978]
 - [Hartsell 1961][research_hartsell_1961]
-- [Haruyama 2015][research_haruyama_2015]
 - [Harvin, S. F. et al 2006][research_harvinsf_cabellkf_2006]
-- [Harwell's respirator test facility 1992][research_harwell_s_respirator_1992]
 - [Hass, Neal E. et al 2010][research_hassneale_cabellkarenf_2010]
-- [Hassan and Banerjee 1994][research_hassan_banerjee_1994]
-- [Hassan and Troshko 1997][research_hassan_troshko_1997]
 - [Hastings et al 1957][research_hastings_persh_1957]
 - [Hawkings 1974][research_hawkings_1974]
 - [Hawkins et al 1999][research_hawkins_kidd_1999]
@@ -5380,9 +4957,6 @@ available.
 - [He, Zhuohui J. et al 2018][research_hezhuohuij_podboyderekp_2018]
 - [Heeg, Jennifer et al 1993][research_heegjennifer_zeilerthomasa_1993]
 - [Heinemann, K. et al 1992][research_heinemannk_bogdanoffdavidw_1992]
-- [Heinrich 1954][research_heinrich_1954]
-- [Heinrich 1954][research_heinrich_1954_b]
-- [Heise and Mando 1983][research_heise_mando_1983]
 - [Helenbrook, R. G. et al 1971][research_helenbrookrg_mcconartywa_1971]
 - [Hemdan 1990][research_hemdan_1990]
 - [Henderson 1964][research_henderson_1964]
@@ -5397,7 +4971,6 @@ available.
 - [Herrouin et al 1996][research_herrouin_bowen_1996]
 - [Hertzberg 1956][research_hertzberg_1956]
 - [Hervy et al 2015][research_hervy_maguis_2015]
-- [HES plans to launch autonomous hydrogen aviation in France 2018][research_hes_plans_2018]
 - [Hicks, John W. 1991][research_hicksjohnw_1991]
 - [High Power Water Jet Guided Laser Cutting of SiC/SiC Ceramic Matrix Composite 2022][research_high_power_2022]
 - [High temperature compressive strength of titanium reinforced nickel alloy 1993][research_high_temperature_1993]
@@ -5409,7 +4982,6 @@ available.
 - [Hirayama et al 2026][research_hirayama_hamaji_2026]
 - [Hirsch, Charles et al 1992][research_hirschcharles_periauxj_1992]
 - [Hite, Dale 1991][research_hitedale_1991]
-- [Hobbs et al 2017][research_hobbs_braverman_2017]
 - [Hodge 1976][research_hodge_1976]
 - [Hodge, Jeffrey S. and Harvin, Stephen F. 2000][research_hodgejeffreys_harvinstephenf_2000]
 - [Hoffman et al 1995][research_hoffman_phan_1995]
@@ -5430,18 +5002,15 @@ available.
 - [Hong-jun and Qing 2015][research_hongjun_qing_2015]
 - [Hongbo and Yongyuan 2016][research_hongbo_yongyuan_2016]
 - [Hongpeng and Weiqiang 2016][research_hongpeng_weiqiang_2016]
-- [Hopkins 1999][research_hopkins_1999]
 - [Hopkins and Keener 1968][research_hopkins_keener_1968]
 - [Horing et al 2025][research_horing_maute_2025]
 - [Hornbeck 1975][research_hornbeck_1975]
-- [Horton 1996][research_horton_1996]
 - [Hoseinzade and Kim 2024][research_hoseinzade_kim_2024]
 - [Hoseinzade and Kim 2024][research_hoseinzade_kim_2024_b]
 - [Hoseinzade et al 2025][research_hoseinzade_lakzian_2025]
 - [Howard and Hansen 2006][research_howard_hansen_2006]
 - [Hsia 1993][research_hsia_1993]
 - [Hsu and Liou 1991][research_hsu_liou_1991]
-- [Hu 2026][research_hu_2026]
 - [Hu and Mahadevan 2019][research_hu_mahadevan_2019]
 - [Hu and Wang 2018][research_hu_wang_2018]
 - [Hu et al 2015][research_hu_chang_2015]
@@ -5449,7 +5018,6 @@ available.
 - [Hu et al 2016][research_hu_pan_2016]
 - [Hu et al 2022][research_hu_liu_2022]
 - [Hu et al 2023][research_hu_cheng_2023]
-- [Hu et al 2024][research_hu_li_2024]
 - [Hu et al 2025][research_hu_guo_2025]
 - [Hu et al 2026][research_hu_li_2026]
 - [Hu et al 2026][research_hu_zheng_2026]
@@ -5484,7 +5052,6 @@ available.
 - [Hueter, Uwe and Turner, James 1998][research_hueteruwe_turnerjames_1998]
 - [Hufgard et al 2023][research_hufgard_duernhofer_2023]
 - [Hui-Sheng and Bei-Jing 2021][research_huisheng_beijing_2021]
-- [Hummels and Irons 2001][research_hummels_irons_2001]
 - [Hung and MacCormack 1977][research_hung_maccormack_1977]
 - [Hunt and Hunt 2021][research_hunt_hunt_2021]
 - [Hunt, James L. 1995][research_huntjamesl_1995]
@@ -5495,12 +5062,9 @@ available.
 - [Hunter, James E. and McCurdy, David R. 2003][research_hunterjamese_mccurdydavidr_2003]
 - [Huo and Yang 2015][research_huo_yang_2015]
 - [Huo et al 2015][research_huo_cheng_2015]
-- [Huo et al 2015][research_huo_wang_2015]
 - [Hussein 2025][research_hussein_2025]
 - [Hwang, Kyu C. et al 1995][research_hwangkyuc_tiwarisurrendran_1995]
 - [Hyde and Knight 1975][research_hyde_knight_1975]
-- [Hydrogen in aviation H2FLY 2023][research_hydrogen_in_2023_b]
-- [Hydrogen in aviation ZeroAvia 2023][research_hydrogen_in_2023]
 - [Hyers 2009][research_hyers_2009]
 - [Hyland 1972][research_hyland_1972]
 - [Hypersonic Materials for Thermal Protection 2023][research_hypersonic_materials_2023]
@@ -5547,7 +5111,6 @@ available.
 - [James and Agrawal 2026][research_james_agrawal_2026]
 - [Jang et al 2021][research_jang_kim_2021]
 - [Janiszewski and Woźniak 2022][research_janiszewski_wozniak_2022]
-- [Jardieu 1994][research_jardieu_1994]
 - [Jawed and Nagle 1986][research_jawed_nagle_1986]
 - [Jayaraman and Lewis 1997][research_jayaraman_lewis_1997]
 - [Jee and Etele 2020][research_jee_etele_2020]
@@ -5591,7 +5154,6 @@ available.
 - [Jingqi and Yulong 2024][research_jingqi_yulong_2024]
 - [Jo and Choi 2026][research_jo_choi_2026]
 - [Jobart et al 1994][research_jobart_blandin_1994]
-- [John Crane invests in Qatar's first dry gas seal repair and test facility 2019][research_john_crane_2019]
 - [Johnson and Narayanaswamy 2024][research_johnson_narayanaswamy_2024]
 - [Johnson and Wu 1975][research_johnson_wu_1975]
 - [Johnson et al 1998][research_johnson_seipp_1998]
@@ -5638,15 +5200,12 @@ available.
 - [Kandula and Kummitha 2025][research_kandula_kummitha_2025]
 - [Kang 1970][research_kang_1970]
 - [Kang et al 2018][research_kang_kim_2018]
-- [Kapasi et al 2025][research_kapasi_mcrae_2025]
 - [Kapusta et al 2021][research_kapusta_boruc_2021]
 - [Karabacak and Turan 2023][research_karabacak_turan_2023]
 - [Karanian, A. J. and Kepler, C. E. 1965][research_karanianaj_keplerce_1965]
 - [Karasopoulos and Langan 1992][research_karasopoulos_langan_1992]
 - [Karl and Steelant 2018][research_karl_steelant_2018]
 - [Kaskan and Reuther 1977][research_kaskan_reuther_1977]
-- [Kasprzyk et al 2022][research_kasprzyk_sentmanat_2022]
-- [Kato and Yokoo 1980][research_kato_yokoo_1980]
 - [Kaufman 1963][research_kaufman_1963]
 - [Kaufman, Albert 1988][research_kaufmanalbert_1988]
 - [Kaul, Upender K. 1989][research_kaulupenderk_1989]
@@ -5658,27 +5217,20 @@ available.
 - [Kelly, H. N. and Wieting, A. R. 1984][research_kellyhn_wietingar_1984]
 - [Kelly, H. Neale and Blosser, Max L. 1992][research_kellyhneale_blossermaxl_1992]
 - [Kelly, H. Neale and Blosser, Max L. 1994][research_kellyhneale_blossermaxl_1994]
-- [Kemp 1997][research_kemp_1997]
 - [Kenger and Leavy 1955][research_kenger_leavy_1955]
-- [Kenyon 1983][research_kenyon_1983]
 - [Kerlin, E. E. 1966][research_kerlinee_1966]
 - [Kerrebrock 1992][research_kerrebrock_1992]
 - [Kerrebrock, Jack L. and Poferl, David J. 1984][research_kerrebrockjackl_poferldavidj_1984]
 - [Kerth et al 2024][research_kerth_lepage_2024]
-- [Ketola and Lauritsen 1999][research_ketola_lauritsen_1999]
-- [Ketola et al 1998][research_ketola_gron_1998]
-- [Ketola et al 1998][research_ketola_heikkonen_1998]
 - [Khali and Yao 2018][research_khali_yao_2018]
 - [Khamlak 2026][research_khamlak_2026]
 - [Khan and Chakraborty 2023][research_khan_chakraborty_2023]
 - [Khan and Riccio 2024][research_khan_riccio_2024]
 - [Kharitonov and Chernykh 1974][research_kharitonov_chernykh_1974]
-- [Khatoon and Kim 2020][research_khatoon_kim_2020]
 - [Khrapko 2018][research_khrapko_2018]
 - [Kianvashrad and Knight 2019][research_kianvashrad_knight_2019]
 - [Kibbey, Tim 2019][research_kibbeytim_2019]
 - [Kiehn 2020][research_kiehn_2020]
-- [Kigezi and Dunne 2017][research_kigezi_dunne_2017]
 - [Kikuyama et al 1983][research_kikuyama_murakami_1983]
 - [Kim 2018][research_kim_2018]
 - [Kim and Choi 2026][research_kim_choi_2026]
@@ -5692,7 +5244,6 @@ available.
 - [Kim et al 2025][research_kim_seo_2025]
 - [Kim et al 2025][research_kim_shim_2025]
 - [Kim, HyoungJin et al 2011][research_kimhyoungjin_kumanotakayasu_2011]
-- [Kimball and Lemon 1969][research_kimball_lemon_1969]
 - [Kimmel et al 2011][research_kimmel_adamczak_2011]
 - [Kimmel et al 2015][research_kimmel_borg_2015]
 - [Kimura 1993][research_kimura_1993]
@@ -5702,7 +5253,6 @@ available.
 - [Kirik et al 2018][research_kirik_goyne_2018]
 - [Kirkby 1964][research_kirkby_1964]
 - [Kirsch et al 2025][research_kirsch_krueger_2025]
-- [Klaisnerová et al 2023][research_klaisnerova_krivsky_2023]
 - [Klein et al 2017][research_klein_chakraborty_2017]
 - [Kline and Alonso 2017][research_kline_alonso_2017]
 - [Klothakis and Nikolos 2024][research_klothakis_nikolos_2024]
@@ -5713,17 +5263,14 @@ available.
 - [Ko et al 2025][research_ko_mannion_2025]
 - [Ko et al 2026][research_ko_son_2026]
 - [Kobayashi et al 1990][research_kobayashi_yoshihara_1990]
-- [Kobayashi et al 2019][research_kobayashi_akiho_2019]
 - [Kocaaslan 2024][research_kocaaslan_2024]
 - [Koch et al 2025][research_koch_wilken_2025]
 - [Kolimi Abdul Ahad 2021][research_kolimiabdulahad_2021]
-- [Kollár 1985][research_kollar_1985]
 - [Kolwey 1977][research_kolwey_1977]
 - [Kong et al 2020][research_kong_chang_2020]
 - [Kong et al 2023][research_kong_lee_2023]
 - [Koo et al 2015][research_koo_raman_2015]
 - [Koo et al 2023][research_koo_lee_2023]
-- [Korkmaz et al 2021][research_korkmaz_werner_2021]
 - [Koroglu and Vasu 2016][research_koroglu_vasu_2016]
 - [Kors 1988][research_kors_1988]
 - [Korte, J. J. 2000][research_kortejj_2000]
@@ -5738,9 +5285,7 @@ available.
 - [Krivosheyev et al 2024][research_krivosheyev_kisel_2024]
 - [Krouse and Ellis 1966][research_krouse_ellis_1966]
 - [Krämer 2024][research_kramer_2024]
-- [Krätzig and Zhuang 1992][research_kratzig_zhuang_1992]
 - [Kshetrimayum et al 2021][research_kshetrimayum_menezes_2021]
-- [Kukita et al 1985][research_kukita_osakabe_1985]
 - [Kulkarni et al 2026][research_kulkarni_gujar_2026]
 - [Kumakawa 1989][research_kumakawa_1989]
 - [Kumar 1982][research_kumar_1982]
@@ -5764,7 +5309,6 @@ available.
 - [Kunz 1967][research_kunz_1967]
 - [Kuo et al 1998][research_kuo_thynell_1998]
 - [Kuppa et al 2018][research_kuppa_goldmann_2018]
-- [Kurdyumov et al 2018][research_kurdyumov_lopatko_2018]
 - [Kurosaka and Shimamura 2024][research_kurosaka_shimamura_2024]
 - [Kurtz et al 2016][research_kurtz_aizengendler_2016]
 - [Kutri and Scheichl 2026][research_kutri_scheichl_2026]
@@ -5772,12 +5316,8 @@ available.
 - [Kutschenreuter and Balent 1965][research_kutschenreuter_balent_1965]
 - [Kutschenreuter et al 1966][research_kutschenreuter_paulh_1966]
 - [Kutschenreuter, Paul 1992][research_kutschenreuterpaul_1992]
-- [Kutty and Rajendran 2017][research_kutty_rajendran_2017]
 - [Kuznetsov 1980][research_kuznetsov_1980]
 - [Kydd and Mullaney 1961][research_kydd_mullaney_1961]
-- [Köhne et al 1996][research_kohne_oertel_1996]
-- [Kösters et al 2022][research_kosters_liu_2022]
-- [Laad 2022][research_laad_2022]
 - [Labib and King 2015][research_labib_king_2015]
 - [Labib and King 2015][research_labib_king_2015_b]
 - [Lach, Cynthia L. and Domack, Marcia S. 2003][research_lachcynthial_domackmarcias_2003]
@@ -5785,7 +5325,6 @@ available.
 - [Ladeinde et al 2019][research_ladeinde_lou_2019]
 - [Ladyzhenskii and Lipin 1966][research_ladyzhenskii_lipin_1966]
 - [Lagoudas et al 2001][research_lagoudas_sanders_2001]
-- [Lahbabi and Chang 1985][research_lahbabi_chang_1985]
 - [Lai, H. T. et al 1993][research_laiht_kimsc_1993]
 - [Lakka et al 2021][research_lakka_randive_2021]
 - [Lan et al 2025][research_lan_wang_2025]
@@ -5798,8 +5337,6 @@ available.
 - [Lantz 1992][research_lantz_1992]
 - [Larsson et al 2015][research_larsson_laurence_2015]
 - [Latham, E. A. et al 1972][research_lathamea_sorensonne_1972]
-- [Lauritsen et al 1990][research_lauritsen_bohatka_1990]
-- [Lauritsen et al 1993][research_lauritsen_kotiaho_1993]
 - [Law 2004][research_law_2004]
 - [Law et al 1989][research_law_metghalchi_1989]
 - [Lawing, P. L. and Johnson, C. B. 1978][research_lawingpl_johnsoncb_1978]
@@ -5812,13 +5349,11 @@ available.
 - [Lee and Bae 2023][research_lee_bae_2023]
 - [Lee and Kang 2019][research_lee_kang_2019]
 - [Lee and Kang 2020][research_lee_kang_2020]
-- [Lee and Kang 2025][research_lee_kang_2025]
 - [Lee and Song 2016][research_lee_song_2016]
 - [Lee and Song 2020][research_lee_song_2020]
 - [Lee et al 1990][research_lee_gupta_1990]
 - [Lee et al 2015][research_lee_kang_2015]
 - [Lee et al 2015][research_lee_yang_2015]
-- [Lee et al 2019][research_lee_kang_2019_b]
 - [Lee et al 2020][research_lee_kim_2020]
 - [Lee et al 2022][research_lee_duan_2022]
 - [Lee et al 2022][research_lee_yang_2022]
@@ -5828,25 +5363,20 @@ available.
 - [Lees 1956][research_lees_1956]
 - [Lees 1957][research_lees_1957]
 - [Lefieux et al 2021][research_lefieux_garnier_2021]
-- [Legentilhomme and Legrand 1991][research_legentilhomme_legrand_1991]
 - [Lehmusto et al 2024][research_lehmusto_ievlev_2024]
 - [Lehtinen and Zeller 1972][research_lehtinen_zeller_1972]
 - [Lehtinen, B. et al 1978][research_lehtinenb_zellerjr_1978]
-- [Lei et al 2015][research_lei_cao_2015]
 - [Lei et al 2023][research_lei_zhang_2023]
 - [Leingang, J. L. and Stull, F. D. 1992][research_leingangjl_stullfd_1992]
 - [Lemcoe, M. M. 1992][research_lemcoemm_1992]
 - [Lepsch and Naftel 1993][research_lepsch_naftel_1993]
 - [Lepsch et al 1991][research_lepsch_stanley_1991]
 - [Lerner, J. I. and Mc Intosh, S. C., Jr. 1968][research_lernerji_mcintoshscjr_1968]
-- [Leshchik et al 2023][research_leshchik_ocheredko_2023]
 - [Levensteins and Krumins 1967][research_levensteins_krumins_1967]
 - [Lewis 1979][research_lewis_1979]
 - [Lewis 1993][research_lewis_1993]
 - [Lewis and Hastings 1989][research_lewis_hastings_1989]
 - [Lewis DMR commissions large-scale test facility 1995][research_lewis_dmr_1995]
-- [Lewis et al 1993][research_lewis_deen_1993]
-- [Li 2017][research_li_2017]
 - [Li 2020][research_li_2020]
 - [Li 2020][research_li_2020_b]
 - [Li 2021][research_li_2021]
@@ -5861,20 +5391,17 @@ available.
 - [Li and Zheng 2023][research_li_zheng_2023]
 - [Li et al 1993][research_li_yang_1993]
 - [Li et al 2015][research_li_song_2015]
-- [Li et al 2015][research_li_zhang_2015]
 - [Li et al 2015][research_li_zheng_2015]
 - [Li et al 2016][research_li_yang_2016]
 - [Li et al 2016][research_li_zheng_2016]
 - [Li et al 2017][research_li_jin_2017]
 - [Li et al 2017][research_li_liu_2017]
 - [Li et al 2018][research_li_jiao_2018]
-- [Li et al 2018][research_li_lange_2018]
 - [Li et al 2018][research_li_li_2018]
 - [Li et al 2018][research_li_liu_2018]
 - [Li et al 2018][research_li_liu_2018_b]
 - [Li et al 2018][research_li_sun_2018]
 - [Li et al 2018][research_li_zhang_2018]
-- [Li et al 2018][research_li_zhang_2018_b]
 - [Li et al 2019][research_li_chen_2019]
 - [Li et al 2019][research_li_jiao_2019]
 - [Li et al 2019][research_li_liao_2019]
@@ -5907,7 +5434,6 @@ available.
 - [Li et al 2024][research_li_wang_2024_b]
 - [Li et al 2024][research_li_zeng_2024]
 - [Li et al 2024][research_li_zhao_2024]
-- [Li et al 2025][research_li_hawkes_2025]
 - [Li et al 2025][research_li_ji_2025]
 - [Li et al 2025][research_li_li_2025]
 - [Li et al 2025][research_li_liu_2025]
@@ -5922,7 +5448,6 @@ available.
 - [Li et al 2026][research_li_jiao_2026]
 - [Li et al 2026][research_li_pang_2026]
 - [Li et al 2026][research_li_yang_2026]
-- [Li et al 2026][research_li_zhang_2026_b]
 - [Lian et al 2023][research_lian_tang_2023]
 - [Lian et al 2025][research_lian_xiong_2025]
 - [Liang et al 2016][research_liang_liu_2016]
@@ -5936,7 +5461,6 @@ available.
 - [Lieuwen and Zinn 1998][research_lieuwen_zinn_1998]
 - [Lillard, Randolph P. et al 2011][research_lillardrandolphp_oliverabrandon_2011]
 - [Lilley and Pengelly 1993][research_lilley_pengelly_1993]
-- [Lim et al 2018][research_lim_dahlkild_2018]
 - [Limerick 1991][research_limerick_1991]
 - [Lipanov and Karskanov 2024][research_lipanov_karskanov_2024]
 - [Liquid Hydrogen Test Facility Achieves Key Milestone 2022][research_liquid_hydrogen_2022]
@@ -5946,7 +5470,6 @@ available.
 - [Little, T. E. 1992][research_littlete_1992]
 - [Liu 1967][research_liu_1967]
 - [Liu 2020][research_liu_2020]
-- [Liu and Kuhl 2000][research_liu_kuhl_2000]
 - [Liu and Sogame 1969][research_liu_sogame_1969]
 - [Liu and Wang 2025][research_liu_wang_2025]
 - [Liu and Zhang 2019][research_liu_zhang_2019]
@@ -6003,11 +5526,8 @@ available.
 - [Longwell and Weiss 1952][research_longwell_weiss_1952]
 - [Lonkar and Panda 2026][research_lonkar_panda_2026]
 - [Loomis, Mark P. 1994][research_loomismarkp_1994]
-- [Lou et al 2026][research_lou_huang_2026]
-- [Loustaunau 1996][research_loustaunau_1996]
 - [Lovell, T. Alan and Schmidt, D. K. 1994][research_lovelltalan_schmidtdk_1994]
 - [Low energy stage study 1978][research_low_energy_1978]
-- [Lowe 1972][research_lowe_1972]
 - [Lu and Zhou 2017][research_lu_zhou_2017]
 - [Lu et al 2015][research_lu_zhansen_2015]
 - [Lu et al 2024][research_lu_zhang_2024]
@@ -6022,7 +5542,6 @@ available.
 - [Lun et al 2024][research_lun_wang_2024]
 - [Lun et al 2024][research_lun_wang_2024_b]
 - [Lun et al 2024][research_lun_wang_2024_c]
-- [Lunze 2019][research_lunze_2019]
 - [Luo et al 2020][research_luo_wang_2020]
 - [Luo et al 2021][research_luo_miao_2021]
 - [Luo et al 2022][research_luo_sun_2022]
@@ -6047,7 +5566,6 @@ available.
 - [Lyu et al 2021][research_lyu_gao_2021]
 - [Ma and Cai 2018][research_ma_cai_2018]
 - [Ma and Cai 2018][research_ma_cai_2018_b]
-- [Ma et al 2018][research_ma_wang_2018]
 - [Ma et al 2019][research_ma_chang_2019]
 - [Ma et al 2019][research_ma_chang_2019_b]
 - [Ma et al 2021][research_ma_sun_2021]
@@ -6067,7 +5585,6 @@ available.
 - [Maekawa et al 1978][research_maekawa_higashi_1978]
 - [Maglieri, Domenic J. et al 1990][research_maglieridomenicj_sothcottvictore_1990]
 - [Magnus et al 2020][research_magnus_sharp_2020]
-- [Mahmood et al 2015][research_mahmood_wolpert_2015]
 - [Mahto et al 2016][research_mahto_choubey_2016]
 - [Maikap and Rajagopal 2024][research_maikap_rajagopal_2024]
 - [Maiorova et al 2016][research_maiorova_prosuntsov_2016]
@@ -6076,13 +5593,11 @@ available.
 - [Malakondaiah and Nicholas 1996][research_malakondaiah_nicholas_1996]
 - [Malekipour et al 2021][research_malekipour_mohammadiamin_2021]
 - [Malik and Anderson 1991][research_malik_anderson_1991]
-- [Malik and Hossain 2016][research_malik_hossain_2016]
 - [Malone, Michael B. and Peavey, Charles C. 1999][research_malonemichaelb_peaveycharlesc_1999]
 - [Mandal et al 2018][research_mandal_pramanick_2018]
 - [Mandel, G. et al 1977][research_mandelg_carpenterjljr_1977]
 - [Mann and Garner 1977][research_mann_garner_1977]
 - [Manna et al 2023][research_manna_dharavath_2023]
-- [Mannava and Velautham 2023][research_mannava_velautham_2023]
 - [Mannion et al 2026][research_mannion_ko_2026]
 - [Mannion et al 2026][research_mannion_ko_2026_b]
 - [Manocha and Manocha 1995][research_manocha_manocha_1995]
@@ -6092,7 +5607,6 @@ available.
 - [Mao et al 2016][research_mao_zhang_2016]
 - [Marchetti et al 2021][research_marchetti_minisci_2021]
 - [Marek, Lindsay C. 2011][research_mareklindsayc_2011]
-- [Mariem Lajnef et al 2024][research_mariemlajnef_mabroukmosbahi_2024]
 - [Marley and Driscoll 2022][research_marley_driscoll_2022]
 - [Marschall 2011][research_marschall_2011]
 - [Marsh and Sears 1954][research_marsh_sears_1954]
@@ -6108,7 +5622,6 @@ available.
 - [Masad 1995][research_masad_1995]
 - [Masahashi et al 1991][research_masahashi_mizuhara_1991]
 - [Mason and Brainin 1962][research_mason_brainin_1962]
-- [Mass spectrometer inlet system for organic compounds with low vapour pressure 1966][research_mass_spectrometer_1966]
 - [Matarrese et al 1991][research_matarrese_messiter_1991]
 - [Mathavaraj and Padhi 2020][research_mathavaraj_padhi_2020]
 - [Mathur and Singh 2024][research_mathur_singh_2024]
@@ -6121,7 +5634,6 @@ available.
 - [Mayer and Paynter 1995][research_mayer_paynter_1995]
 - [Mbagwu et al 2023][research_mbagwu_dalle_2023]
 - [McAnally et al 1970][research_mcanally_williamj_1970]
-- [Mcbryar, H. 1980][research_mcbryarh_1980]
 - [Mcclinton, C. R. and Anderson, G. Y. 1980][research_mcclintoncr_andersongy_1980]
 - [Mcclinton, C. R. et al 1975][research_mcclintoncr_torrencemg_1975]
 - [McClure and Sirbaugh 1991][research_mcclure_sirbaugh_1991]
@@ -6144,7 +5656,6 @@ available.
 - [Mehta, Unmeel B. 1994][research_mehtaunmeelb_1994]
 - [Mehta, Unmeel B. et al 2001][research_mehtaunmeelb_bogdanoffdavidw_2001]
 - [Mei et al 2020][research_mei_shi_2020]
-- [Meier-Augenstein 1997][research_meieraugenstein_1997]
 - [Melconian, Jerry O. et al 1992][research_melconianjerryo_mongiahukamc_1992]
 - [Melnik, W. L. and Perini, L. L. 1968][research_melnikwl_perinill_1968]
 - [Mendez 2001][research_mendez_2001]
@@ -6172,9 +5683,6 @@ available.
 - [Microstructural control of a titanium aluminide alloy 1997][research_microstructural_control_1997]
 - [Midden, Raymond E. and Miller, Charles G., III 1985][research_middenraymonde_millercharlesgiii_1985]
 - [Middleton, Troy F. et al 2011][research_middletontroyf_ballarobertjeffrey_2011]
-- [Mihalić et al 2025][research_mihalic_zaninovic_2025]
-- [Milford and Schnobrich 1986][research_milford_schnobrich_1986]
-- [Miller et al 1977][research_miller_theis_1977]
 - [Min and Yee 2021][research_min_yee_2021]
 - [Minott, G. M. et al 1976][research_minottgm_pellerjb_1976]
 - [Mishra and Jarrahbashi 2024][research_mishra_jarrahbashi_2024]
@@ -6185,9 +5693,7 @@ available.
 - [Mizener and Lu 2017][research_mizener_lu_2017]
 - [Mogavero and Brown 2018][research_mogavero_brown_2018]
 - [Mohamad et al 2024][research_mohamad_ivan_2024]
-- [Mohammad Al-Rawi et al 2022][research_mohammadalrawi_nivedrajan_2022]
 - [Mohammadnejad et al 2019][research_mohammadnejad_vena_2019]
-- [Mohapatra and Sanjay 2018][research_mohapatra_sanjay_2018]
 - [Mohring et al 2021][research_mohring_gabler_2021]
 - [Mohsen et al 2017][research_mohsen_yusoff_2017]
 - [Moin and Lele 1998][research_moin_lele_1998]
@@ -6197,7 +5703,6 @@ available.
 - [Mondal and Jagtap 2026][research_mondal_jagtap_2026]
 - [Montagne, J.-L. et al 1988][research_montagnejl_yeehc_1988]
 - [Montagne, J.-L. et al 1989][research_montagnejl_yeehc_1989]
-- [Monte Carlo-based Prediction of Electric Vehicle Charging Load and Coupling Mechanisms of Multiple Information Sources 2025][research_monte_carlo_based_2025]
 - [Moore 1986][research_moore_1986]
 - [Mori 1965][research_mori_1965]
 - [Morinaga 1969][research_morinaga_1969]
@@ -6205,9 +5710,7 @@ available.
 - [Morris, S. J., Jr. et al 1976][research_morrissjjr_nelmswpjr_1976]
 - [Moses, P. L. et al 1999][research_mosespl_bouchardka_1999]
 - [Moss, James N. et al 1987][research_mossjamesn_simmondsannl_1987]
-- [Mou et al 2021][research_mou_yan_2021]
 - [Moura et al 2019][research_moura_wheatley_2019]
-- [Mousavi and Mousavi 2026][research_mousavi_mousavi_2026]
 - [Mueller 1985][research_mueller_1985]
 - [Mukundan et al 2022][research_mukundan_maity_2022]
 - [Munk et al 2016][research_munk_vio_2016]
@@ -6220,7 +5723,6 @@ available.
 - [Nagamatsu et al 1960][research_nagamatsu_geiger_1960]
 - [Nagamatsu et al 1961][research_nagamatsu_sheer_1961]
 - [Nagamatsu et al 1964][research_nagamatsu_graber_1964]
-- [Nagano et al 2018][research_nagano_kuwabara_2018]
 - [Nagawkar and Leifsson 2022][research_nagawkar_leifsson_2022]
 - [Nagel 1967][research_nagel_1967]
 - [Nair et al 2023][research_nair_suryan_2023]
@@ -6245,7 +5747,6 @@ available.
 - [Nelson, Howard G. 1988][research_nelsonhowardg_1988]
 - [Neupane 2019][research_neupane_2019]
 - [Neuwerth et al 1999][research_neuwerth_peiter_1999]
-- [New aircon test facility to judge star performance 1974][research_new_aircon_1974]
 - [New environmental test facility 1986][research_new_environmental_1986]
 - [Next-Generation Aerospace Components Via Additive Manufacturing and Structural Optimization 2026][research_next_generation_aerospace_2026]
 - [Ng et al 1986][research_ng_benson_1986]
@@ -6253,7 +5754,6 @@ available.
 - [Ngoc Long 2016][research_ngoclong_2016]
 - [Nguyen et al 2022][research_nguyen_luong_2022]
 - [Ni et al 2016][research_ni_lu_2016]
-- [Ni et al 2021][research_ni_li_2021]
 - [Nicolaou and Semiatin 1996][research_nicolaou_semiatin_1996]
 - [Nicolaou and Semiatin 1997][research_nicolaou_semiatin_1997]
 - [Nie et al 2022][research_nie_song_2022]
@@ -6262,11 +5762,8 @@ available.
 - [Nie et al 2024][research_nie_he_2024]
 - [Nie et al 2025][research_nie_qin_2025]
 - [Nielsen et al 2021][research_nielsen_edwards_2021]
-- [Niemann and Zerna 1986][research_niemann_zerna_1986]
 - [Nieto et al 2021][research_nieto_samayoa_2021]
-- [Nikolaeva et al 2015][research_nikolaeva_skibin_2015]
 - [Nikonov 2025][research_nikonov_2025]
-- [Nirbito et al 2020][research_nirbito_budiyanto_2020]
 - [Nisewanger 1964][research_nisewanger_1964]
 - [Nishiguchi et al 2025][research_nishiguchi_kodera_2025]
 - [Nishioka and Law 1997][research_nishioka_law_1997]
@@ -6277,11 +5774,9 @@ available.
 - [Niu and Su 2023][research_niu_su_2023]
 - [Niu et al 2024][research_niu_zhao_2024]
 - [Nivarti and Cant 2017][research_nivarti_cant_2017]
-- [Nmadu and Parshuto 2017][research_nmadu_parshuto_2017]
 - [Noble and Gin 2010][research_noble_gin_2010]
 - [Nordin-Bates et al 2017][research_nordinbates_fureby_2017]
 - [Northrop Aircraft Inc Hawthorne Ca 1953][research_northropaircraftinchawthorneca_1953]
-- [Northwest UAV, NRL testing hydrogen drone propulsion system 2021][research_northwest_uav_2021]
 - [Nowak, R. J. and Kelly, H. N. 1976][research_nowakrj_kellyhn_1976]
 - [Noyce and Sheppard 1982][research_noyce_sheppard_1982]
 - [Numerical Analysis of Heat Flux Reduction by Transpiration Cooling in Laminar Hypersonic Flow 2026][research_numerical_analysis_2026]
@@ -6301,25 +5796,20 @@ available.
 - [Oberle and White 1991][research_oberle_white_1991]
 - [Obery, L. J. and Stitt, L. E. 1958][research_oberylj_stittle_1958]
 - [Ogawa 2024][research_ogawa_2024]
-- [Ogura and Wakamiya 2023][research_ogura_wakamiya_2023]
 - [Ohira 1999][research_ohira_1999]
 - [Ohira et al 1994][research_ohira_matsuo_1994]
-- [Ojala 1997][research_ojala_1997]
 - [Ol 2007][research_ol_2007]
 - [Oliver 1963][research_oliver_1963]
 - [Oliver and Stephanou 1963][research_oliver_stephanou_1963]
 - [Olsder and Powell 1975][research_olsder_powell_1975]
 - [Opacich and Ombrello 2026][research_opacich_ombrello_2026]
 - [Opila, Elizabeth J. 2003][research_opilaelizabethj_2003]
-- [Orakwe et al 2025][research_orakwe_shahabad_2025]
 - [Orbital ATK tests 3D printed hypersonic engine combustor 2016][research_orbital_atk_2016]
 - [Ormsbee 1962][research_ormsbee_1962]
-- [Orych et al 2021][research_orych_werner_2021]
 - [Osgerby et al 1970][research_osgerby_smithson_1970]
 - [Otsuka et al 1999][research_otsuka_sakamoto_1999]
 - [Ou et al 2019][research_ou_yan_2019]
 - [Ounaies et al 2010][research_ounaies_krishnamoorti_2010]
-- [Outokumpu builds filter test facility 1999][research_outokumpu_builds_1999]
 - [Overall 1976][research_overall_1976]
 - [Owen, F. K. and Horstman, C. C. 1972][research_owenfk_horstmancc_1972]
 - [Oxidation protection for carbon fibre composites 1990][research_oxidation_protection_1990]
@@ -6333,11 +5823,9 @@ available.
 - [Pan et al 2022][research_pan_xiong_2022]
 - [Pan et al 2024][research_pan_wang_2024]
 - [Pan et al 2024][research_pan_zhou_2024]
-- [Panagiotou et al 1996][research_panagiotou_levendis_1996]
 - [Panchal and Menon 2022][research_panchal_menon_2022]
 - [Panchal and Menon 2022][research_panchal_menon_2022_b]
 - [Pande 1994][research_pande_1994]
-- [Pandey and Kumar 2022][research_pandey_kumar_2022]
 - [Pandey and Sinha 2024][research_pandey_sinha_2024]
 - [Pandey et al 2022][research_pandey_soni_2022]
 - [Pani et al 2024][research_pani_maharana_2024]
@@ -6355,15 +5843,12 @@ available.
 - [Park et al 2026][research_park_lee_2026]
 - [Park, Chul 1989][research_parkchul_1989]
 - [Parmar et al 2026][research_parmar_jp_2026]
-- [Parsa and Verhelst 2025][research_parsa_verhelst_2025]
 - [Pathak et al 2024][research_pathak_khare_2024]
 - [Patil and Montanari 2015][research_patil_montanari_2015]
 - [Patra and Lee 2018][research_patra_lee_2018]
 - [Patrick 2019][research_patrick_2019]
 - [Patrick 2021][research_patrick_2021]
 - [Patterson 2010][research_patterson_2010]
-- [Patterson et al 1982][research_patterson_reidy_1982]
-- [Patterson et al 1984][research_patterson_reidy_1984]
 - [Paudel and McFarland 2025][research_paudel_mcfarland_2025]
 - [Paull et al 1995][research_paull_stalker_1995]
 - [Paull, A. et al 1995][research_paulla_stalkerrj_1995]
@@ -6381,7 +5866,6 @@ available.
 - [Pegg, Robert J. et al 1993][research_peggrobertj_huntjamesl_1993]
 - [Peherstorfer et al 2018][research_peherstorfer_kramer_2018]
 - [Pei et al 2021][research_pei_fan_2021]
-- [Pekris et al 2016][research_pekris_nasti_2016]
 - [Pellett, Gerald 2005][research_pellettgerald_2005]
 - [Penanhoat and Darracq 1996][research_penanhoat_darracq_1996]
 - [Peng 2023][research_peng_2023]
@@ -6394,15 +5878,12 @@ available.
 - [Peng et al 2025][research_peng_yin_2025]
 - [Penland and Romeo 1971][research_penland_romeo_1971]
 - [Pereddy 2022][research_pereddy_2022]
-- [Performance Analysis of an Electric Vehicle 2026][research_performance_analysis_2026]
-- [Performance Analysis of Single Stage Centifugalompressor by Changing Its Inlet Blade Angle 2016][research_performance_analysis_2016]
 - [Perkowski et al 2024][research_perkowski_bilar_2024]
 - [Perlo 2026][research_perlo_2026]
 - [Perry and Rievley 1961][research_perry_rievley_1961]
 - [Persh 1955][research_persh_1955]
 - [Peschke 1995][research_peschke_1995]
 - [Petelko and Lipovskyi 2021][research_petelko_lipovskyi_2021]
-- [Peterson 1962][research_peterson_1962]
 - [Peterson 2023][research_peterson_2023]
 - [Peterson, Christopher O. et al 2002][research_petersonchristophero_sowawilliama_2002]
 - [Petervari et al 2026][research_petervari_wagner_2026]
@@ -6418,12 +5899,9 @@ available.
 - [Piland, William M. 1987][research_pilandwilliamm_1987]
 - [Pirrello, C. J. et al 1976][research_pirrellocj_bakerah_1976]
 - [Pisharoti and Brizzolara 2025][research_pisharoti_brizzolara_2025]
-- [Pitts 1995][research_pitts_1995]
 - [Plank, P. P. and Penning, F. A. 1973][research_plankpp_penningfa_1973]
 - [Plencner, Robert M. 1991][research_plencnerrobertm_1991]
-- [Podeur and Vogt 2022][research_podeur_vogt_2022]
 - [Polev et al 2022][research_polev_grunin_2022]
-- [Pollock and Brutsche 2015][research_pollock_brutsche_2015]
 - [Polyanskii 1967][research_polyanskii_1967]
 - [Ponomarov 2019][research_ponomarov_2019]
 - [Pordal, H. S. et al 1990][research_pordalhs_khoslapk_1990]
@@ -6438,13 +5916,9 @@ available.
 - [Presby 2021][research_presby_2021]
 - [Preston 1958][research_preston_1958]
 - [Price 1970][research_price_1970]
-- [Pro et al 2021][research_pro_tompkins_2021]
-- [Production scheduling algorithms for a semiconductor test facility 1992][research_production_scheduling_1992]
-- [Przyłucka et al 2020][research_przylucka_ceborudnicka_2020]
 - [Pu et al 2026][research_pu_xu_2026]
 - [Puchakayala et al 2026][research_puchakayala_k_2026]
 - [Pulsonetti et al 1991][research_pulsonetti_erdos_1991]
-- [Pump test facility expanded 1999][research_pump_test_1999]
 - [Purpura 2021][research_purpura_2021]
 - [Purpura et al 2018][research_purpura_trifoni_2018]
 - [Purwar and Basu 2017][research_purwar_basu_2017]
@@ -6452,21 +5926,17 @@ available.
 - [Qi et al 2015][research_qi_bao_2015]
 - [Qi et al 2021][research_qi_li_2021]
 - [Qi et al 2022][research_qi_cheng_2022]
-- [Qi et al 2025][research_qi_yang_2025]
 - [Qiao et al 2022][research_qiao_liu_2022]
 - [Qiao et al 2023][research_qiao_liu_2023]
 - [Qiao et al 2024][research_qiao_liu_2024]
 - [Qin et al 1991][research_qin_scriba_1991]
 - [Qin et al 2015][research_qin_chang_2015]
-- [Qin et al 2017][research_qin_yuan_2017]
 - [Qin et al 2019][research_qin_agarwal_2019]
 - [Qin et al 2026][research_qin_huang_2026]
 - [Qin et al 2026][research_qin_yuan_2026]
 - [Qin et al 2026][research_qin_zhang_2026]
 - [Qiu et al 2021][research_qiu_zhang_2021]
 - [Qiu et al 2024][research_qiu_shi_2024]
-- [Qixin and Chao 2025][research_qixin_chao_2025]
-- [Qu and You 2019][research_qu_you_2019]
 - [Quan et al 2021][research_quan_xu_2021]
 - [Quan et al 2024][research_quan_chang_2024]
 - [Quentmeyer, Richard J. and Roncace, Elizabeth A. 1993][research_quentmeyerrichardj_roncaceelizabetha_1993]
@@ -6476,7 +5946,6 @@ available.
 - [Rabadan Santana and Weigand 2021][research_rabadansantana_weigand_2021]
 - [Radhi et al 2019][research_radhi_iacobellis_2019]
 - [Ragnoli et al 2024][research_ragnoli_savino_2024]
-- [Rahbari 2016][research_rahbari_2016]
 - [Rahimi et al 2026][research_rahimi_svolos_2026]
 - [Rahman et al 2026][research_rahman_arafin_2026]
 - [Rahmani and Hejranfar 2021][research_rahmani_hejranfar_2021]
@@ -6486,8 +5955,6 @@ available.
 - [Rajan 1987][research_rajan_1987]
 - [Rajpara et al 2025][research_rajpara_shah_2025]
 - [Rajput et al 2026][research_rajput_soni_2026]
-- [Rakopoulos et al 2022][research_rakopoulos_rakopoulos_2022]
-- [Ramamurthy and Balda 2001][research_ramamurthy_balda_2001]
 - [Ramanujachari and Amrutha Preethi 2023][research_ramanujachari_amruthapreethi_2023]
 - [Ramunno et al 2022][research_ramunno_boyd_2022]
 - [Raney, David L. et al 1993][research_raneydavidl_mcminnjohnd_1993]
@@ -6498,19 +5965,15 @@ available.
 - [Rathi and Sinha 2024][research_rathi_sinha_2024]
 - [Rathore et al 2025][research_rathore_mishra_2025]
 - [Ratnayake, Nalin A. 2010][research_ratnayakenalina_2010]
-- [Raubenheimer and Elgar 2012][research_raubenheimer_elgar_2012]
 - [Rausch, Vincent L. and Morris, Charles E. K., Jr. 1992][research_rauschvincentl_morrischarlesekjr_1992]
-- [Raut et al 2018][research_raut_irdmousa_2018]
 - [Ravi Teja et al 2022][research_raviteja_bharanichandra_2022]
 - [Ravindran et al 2019][research_ravindran_bricalli_2019]
 - [Rayle, Warren D and Koch, Richard G 1954][research_raylewarrend_kochrichardg_1954]
-- [Razmjooei et al 2026][research_razmjooei_ommi_2026]
 - [Re, R. J. and Berrier, B. L. 1982][research_rerj_berrierbl_1982]
 - [Reba 1964][research_reba_1964]
 - [Reba and Christian 1963][research_reba_christian_1963]
 - [Recent Advances in Structures 1978][research_recent_advances_1978]
 - [Recina and Karlsson 1999][research_recina_karlsson_1999]
-- [Reddering 1983][research_reddering_1983]
 - [Redding et al 2025][research_redding_cavanaugh_2025]
 - [Reddy 2019][research_reddy_2019]
 - [Reddy and Harloff 1991][research_reddy_harloff_1991]
@@ -6518,7 +5981,6 @@ available.
 - [Reed and Carroll 1964][research_reed_carroll_1964]
 - [Reed et al 1995][research_reed_spencer_1995]
 - [Reed et al 2015][research_reed_perez_2015]
-- [Reinschmidt and Narayanan 1975][research_reinschmidt_narayanan_1975]
 - [Reisenthel et al 2010][research_reisenthel_allen_2010]
 - [Reitmayr and Hofmann 2025][research_reitmayr_hofmann_2025]
 - [Relangi et al 2022][research_relangi_ingenito_2022]
@@ -6538,7 +6000,6 @@ available.
 - [Richards and Stollery 1979][research_richards_stollery_1979]
 - [Richards et al 1971][research_richards_culotta_1971]
 - [Richardson, Pamela F. et al 1989][research_richardsonpamelaf_mcclintoncharlesr_1989]
-- [Richter et al 1999][research_richter_lorenz_1999]
 - [Ricketts, Rodney H. et al 1993][research_rickettsrodneyh_nollthomase_1993]
 - [Ridgway et al 2018][research_ridgway_sam_2018]
 - [Riggins 1997][research_riggins_1997]
@@ -6551,7 +6012,6 @@ available.
 - [Ritchie and Kumar 2005][research_ritchie_kumar_2005]
 - [Riva et al 1997][research_riva_daminelli_1997]
 - [Rivers, H. Kevin 1999][research_rivershkevin_1999]
-- [Rivlin 1995][research_rivlin_1995]
 - [Rizkalla et al 1990][research_rizkalla_chinitz_1990]
 - [Rizvi et al 2017][research_rizvi_linshu_2017]
 - [Rizzi et al 2026][research_rizzi_parish_2026]
@@ -6572,7 +6032,6 @@ available.
 - [Rong 2017][research_rong_2017]
 - [Rong et al 2023][research_rong_cheng_2023]
 - [Roos et al 2020][research_roos_pudsey_2020]
-- [Rosenblatt M And Son Inc New York 1975][research_rosenblattmandsonincnewyork_1975]
 - [Rosfjord, T. J. et al 2001][research_rosfjordtj_padgetfc_2001]
 - [Rotinian et al 1994][research_rotinian_shur_1994]
 - [Roudakov, Alexander S. et al 1998][research_roudakovalexanders_semenovvyacheslavl_1998]
@@ -6605,15 +6064,12 @@ available.
 - [Saenz et al 2025][research_saenz_frankel_2025]
 - [Saha 2022][research_saha_2022]
 - [Sahbon et al 2023][research_sahbon_jacewicz_2023]
-- [Sahu and Sanjay 2017][research_sahu_sanjay_2017]
 - [Sahu et al 2022][research_sahu_tropina_2022]
 - [Sai Prakash et al 2026][research_saiprakash_raghav_2026]
 - [Saito et al 2019][research_saito_oyama_2019]
 - [Sala et al 2016][research_sala_baldanzini_2016]
-- [Salman 2024][research_salman_2024]
 - [Samimy et al 2011][research_samimy_webb_2011]
 - [Samoilova et al 2024][research_samoilova_suleymanova_2024]
-- [San et al 2026][research_san_aungkolatt_2026]
 - [Sanaka et al 2023][research_sanaka_kandula_2023]
 - [Sandberg et al 2023][research_sandberg_gregoire_2023]
 - [Sandhu 2005][research_sandhu_2005]
@@ -6626,7 +6082,6 @@ available.
 - [Satyanarayan et al 2026][research_satyanarayan_raj_2026]
 - [Saunders, J. D. et al 2012][research_saundersjd_stuebertj_2012]
 - [Savel'ev and Stepanov 1988][research_savelev_stepanov_1988]
-- [Savinell and Wainright 2005][research_savinell_wainright_2005]
 - [Scala 1958][research_scala_1958]
 - [Scanning and Transmission Electron 1994][research_scanning_and_1994]
 - [Schetz et al 1969][research_schetz_gilreath_1969]
@@ -6635,13 +6090,10 @@ available.
 - [Schierman et al 2001][research_schierman_ward_2001]
 - [Schindel 1999][research_schindel_1999]
 - [Schirmer, Alberto W. and Capone, Francis J. 1989][research_schirmeralbertow_caponefrancisj_1989]
-- [Schlappi 1968][research_schlappi_1968]
 - [Schmidt and Patankar 1991][research_schmidt_patankar_1991]
 - [Schmierer et al 2019][research_schmierer_kobald_2019]
-- [Schneidemesser et al 1999][research_schneidemesser_thummes_1999]
 - [Schneider 1970][research_schneider_1970]
 - [Schneider and Reed 2003][research_schneider_reed_2003]
-- [Schoenbach 1999][research_schoenbach_1999]
 - [Schoenman et al 1995][research_schoenman_rosenberg_1995]
 - [Schouler et al 2023][research_schouler_prevereaud_2023]
 - [Schram and Narayanaswamy 2026][research_schram_narayanaswamy_2026]
@@ -6655,7 +6107,6 @@ available.
 - [Scotti, Stephen J. 1992][research_scottistephenj_1992]
 - [Scribben and Withrow 2006][research_scribben_withrow_2006]
 - [Sedlock 1985][research_sedlock_1985]
-- [Sednin et al 2021][research_sednin_sednin_2021]
 - [See and Ihme 2015][research_see_ihme_2015]
 - [Seebass 1989][research_seebass_1989]
 - [Seebaugh 1973][research_seebaugh_1973]
@@ -6675,23 +6126,15 @@ available.
 - [Sforza 2026][research_sforza_2026]
 - [Sha et al 2026][research_sha_long_2026]
 - [Shadow 1987][research_shadow_1987]
-- [Shafiei Bafti et al 2026][research_shafieibafti_vafakhah_2026]
-- [Shah 2025][research_shah_2025]
-- [Shah et al 2023][research_shah_pamwar_2023]
-- [Shahnam et al 2016][research_shahnam_gel_2016]
 - [Shajahan et al 2025][research_shajahan_gugulothu_2025]
 - [Shamsipoor et al 2025][research_shamsipoor_mousavi_2025]
 - [Shan et al 2017][research_shan_hou_2017]
 - [Shan et al 2021][research_shan_zhang_2021]
-- [Shannon et al 1981][research_shannon_richard_1981]
 - [Shao et al 2015][research_shao_wang_2015]
 - [Shaohua and Xu 2017][research_shaohua_xu_2017]
-- [Shapoval et al 2024][research_shapoval_vakulenko_2024]
-- [Sharifi et al 2026][research_sharifi_sharifzadeh_2026]
 - [Sharifi Ilkhchi and Tahsini 2025][research_sharifiilkhchi_tahsini_2025]
 - [Sharifzadeh and Afshari 2022][research_sharifzadeh_afshari_2022]
 - [Sharifzadeh and Afshari 2024][research_sharifzadeh_afshari_2024]
-- [Sharma and Dutta 2023][research_sharma_dutta_2023]
 - [Sharma and Saluti 2025][research_sharma_saluti_2025]
 - [Sharma and Sharma 2024][research_sharma_sharma_2024]
 - [Sharma et al 2020][research_sharma_eswaran_2020]
@@ -6710,24 +6153,20 @@ available.
 - [Shen et al 2022][research_shen_ma_2022]
 - [Shen et al 2022][research_shen_yu_2022]
 - [Shen et al 2025][research_shen_yao_2025]
-- [Shen et al 2026][research_shen_duan_2026]
 - [Sheng et al 2023][research_sheng_gan_2023]
 - [Shi 2022][research_shi_2022]
 - [Shi et al 2016][research_shi_he_2016]
 - [Shi et al 2016][research_shi_liu_2016]
 - [Shi et al 2020][research_shi_zhu_2020]
 - [Shi et al 2023][research_shi_fan_2023]
-- [Shi et al 2023][research_shi_peng_2023]
 - [Shieh et al 2024][research_shieh_lin_2024]
 - [Shilnikov and Elizarova 2018][research_shilnikov_elizarova_2018]
 - [Shimojima et al 2017][research_shimojima_hosokawa_2017]
 - [Shin and Sung 2018][research_shin_sung_2018]
 - [Shirasu et al 1996][research_shirasu_south_1996]
-- [Shiroma and Chiao 2002][research_shiroma_chiao_2002]
 - [Shore, Charles P. 1986][research_shorecharlesp_1986]
 - [Shou et al 2023][research_shou_yan_2023]
 - [Shucheng and Xijun 1994][research_shucheng_xijun_1994]
-- [Shui et al 2018][research_shui_chen_2018]
 - [Shulman et al 1966][research_shulman_parry_1966]
 - [Si et al 2019][research_si_huang_2019]
 - [Siddiqui et al 2023][research_siddiqui_ledbetter_2023]
@@ -6738,14 +6177,12 @@ available.
 - [Singh et al 1992][research_singh_shen_1992]
 - [Singh et al 2023][research_singh_prakash_2023]
 - [Singh et al 2026][research_singh_chakraborty_2026]
-- [Siragusa et al 2020][research_siragusa_sartori_2020]
 - [Sivan and Pandian 2018][research_sivan_pandian_2018]
 - [Sivasubramanian et al 2026][research_sivasubramanian_v_2026]
 - [Skamniotis and Cocks 2021][research_skamniotis_cocks_2021]
 - [Skinner and Chattopadhyay 2021][research_skinner_chattopadhyay_2021]
 - [Slater, John W. 2016][research_slaterjohnw_2016]
 - [Slater, John W. et al 2005][research_slaterjohnw_davisdavido_2005]
-- [Sloan and Hassan 1992][research_sloan_hassan_1992]
 - [Slutsky et al 1965][research_slutsky_tamagno_1965]
 - [Small, W. J. et al 1974][research_smallwj_weidnerjp_1974]
 - [Small, W. J. et al 1976][research_smallwj_weidnerjp_1976]
@@ -6756,20 +6193,15 @@ available.
 - [Smirnov et al 2023][research_smirnov_nikitin_2023]
 - [Smith 1989][research_smith_1989]
 - [Smith 2021][research_smith_2021]
-- [Smith et al 1998][research_smith_seabergh_1998]
 - [Smith, L. M. 1978][research_smithlm_1978]
 - [Smithey and Fuhs 1977][research_smithey_fuhs_1977]
 - [Smits 2007][research_smits_2007]
 - [Smits 2009][research_smits_2009]
-- [Snyder, John Steven et al 2016][research_snyderjohnsteven_manzelladavid_2016]
-- [Solar test facility yields 1.7-MW power 1977][research_solar_test_1977]
-- [Soma et al 2025][research_soma_ishigaki_2025]
 - [Son et al 2024][research_son_ko_2024]
 - [Song and Choi 2020][research_song_choi_2020]
 - [Song and Su 2015][research_song_su_2015]
 - [Song et al 2020][research_song_zhao_2020]
 - [Song et al 2022][research_song_luo_2022]
-- [Song et al 2024][research_song_qi_2024]
 - [Song et al 2026][research_song_xu_2026]
 - [Soni and De 2017][research_soni_de_2017]
 - [Soovere and Drake 1985][research_soovere_drake_1985]
@@ -6782,7 +6214,6 @@ available.
 - [Soumyajit Saha and Debasis Chakraborty 2023][research_soumyajitsaha_debasischakraborty_2023]
 - [Spanjers et al 2001][research_spanjers_schilling_2001]
 - [Spanos, Theodoros A. 2009][research_spanostheodorosa_2009]
-- [Specker 1985][research_specker_1985]
 - [Spencer 1962][research_spencer_1962]
 - [Speyer 1997][research_speyer_1997]
 - [Spreuer et al 1974][research_spreuer_snackenburg_1974]
@@ -6792,7 +6223,6 @@ available.
 - [Sreenivasulu et al 2025][research_sreenivasulu_neelapu_2025]
 - [Srinivasan et al 2020][research_srinivasan_mahapatra_2020]
 - [Sriram et al 2015][research_sriram_ram_2015]
-- [Stafford et al 1968][research_stafford_morgan_1968]
 - [Stainback, P. C. 1969][research_stainbackpc_1969]
 - [Stalder 1957][research_stalder_1957]
 - [Stalker and Morgan 1984][research_stalker_morgan_1984]
@@ -6807,7 +6237,6 @@ available.
 - [Stapp 1995][research_stapp_1995]
 - [Starken and Lichtfuss 1970][research_starken_lichtfuss_1970]
 - [Stechmann et al 2019][research_stechmann_heister_2019]
-- [Stecklein and Knipp 1985][research_stecklein_knipp_1985]
 - [Stefaniya et al 2025][research_stefaniya_pushpalatha_2025]
 - [Steffen, Christopher J., Jr. and Yungster, Shaye 2001][research_steffenchristopherjjr_yungstershaye_2001]
 - [Steinetz, Bruce M. 2008][research_steinetzbrucem_2008]
@@ -6816,17 +6245,11 @@ available.
 - [Sterpu et al 2025][research_sterpu_mariuta_2025]
 - [Stetson 1986][research_stetson_1986]
 - [Stewart 1973][research_stewart_1973]
-- [Stewart 1974][research_stewart_1974]
-- [Stewart and Lemon 1969][research_stewart_lemon_1969]
 - [Stewart and Martin 1995][research_stewart_martin_1995]
 - [Stewart, David A. et al 2010][research_stewartdavida_leiserdanielb_2010]
 - [Stewart, David and Leiser, Daniel 2007][research_stewartdavid_leiserdaniel_2007]
 - [Stewart, M. E. M. et al 2002][research_stewartmem_suresha_2002]
 - [Stilla 1994][research_stilla_1994]
-- [Stiller and Johnston 1987][research_stiller_johnston_1987]
-- [Stobie et al 1988][research_stobie_knapton_1988]
-- [Stoffels 1981][research_stoffels_1981]
-- [Stoffels 1981][research_stoffels_1981_b]
 - [Stolzenburg 1965][research_stolzenburg_1965]
 - [Stone, J. E. 1975][research_stoneje_1975]
 - [Strangman and Keiser 1988][research_strangman_keiser_1988]
@@ -6846,9 +6269,7 @@ available.
 - [Subramanian and Meadows 2020][research_subramanian_meadows_2020]
 - [Sudalagunta et al 2018][research_sudalagunta_sultan_2018]
 - [Sudhiesh Kumar and Reddy 2015][research_sudhieshkumar_reddy_2015]
-- [Sugai et al 2024][research_sugai_shimokawa_2024]
 - [Sugavanam and Sastry 1975][research_sugavanam_sastry_1975]
-- [Sui et al 2018][research_sui_xia_2018]
 - [Sullins and Waltrup 1985][research_sullins_waltrup_1985]
 - [Sun and Zhu 2019][research_sun_zhu_2019]
 - [Sun et al 2018][research_sun_zhou_2018]
@@ -6871,14 +6292,12 @@ available.
 - [Superconducting liquid-level sensor for slush hydrogen use 1967][research_superconducting_liquid_level_1967]
 - [Supersonic and Hypersonic Flight Dynamics Realization for the Spaceliner Real-Time Human-In-the-Loop Space Flight Simulator 2019][research_supersonic_and_2019]
 - [Surber and Sedlock 1979][research_surber_sedlock_1979]
-- [Suresh et al 2023][research_suresh_rajendran_2023]
 - [Suryanarayanan et al 2019][research_suryanarayanan_goldstein_2019]
 - [Surzhikov 2018][research_surzhikov_2018]
 - [Surzhikov 2019][research_surzhikov_2019]
 - [Surzhikov 2021][research_surzhikov_2021]
 - [Surzhikov 2021][research_surzhikov_2021_b]
 - [Surzhikov 2022][research_surzhikov_2022]
-- [Susastriawan and Saptoadi 2023][research_susastriawan_saptoadi_2023]
 - [Swain et al 2020][research_swain_p_2020]
 - [Swanson, G. T. et al 2015][research_swansongt_kazembacd_2015]
 - [Swanson, Greg et al 2014][research_swansongreg_kazembacole_2014]
@@ -6906,10 +6325,8 @@ available.
 - [Tang et al 2025][research_tang_li_2025]
 - [Tang et al 2026][research_tang_fan_2026]
 - [Tanno and Tanno 2021][research_tanno_tanno_2021]
-- [Tanno et al 2016][research_tanno_kurose_2016]
 - [Tariq et al 2026][research_tariq_wasim_2026]
 - [Tarpley et al 1992][research_tarpley_lewis_1992]
-- [Tatematsu et al 1978][research_tatematsu_yoshizumi_1978]
 - [Taylor 1968][research_taylor_1968]
 - [Tedder, Sarah Augusta Umberger 2010][research_teddersarahaugustaumberger_2010]
 - [Tegler 2022][research_tegler_2022]
@@ -6917,14 +6334,12 @@ available.
 - [Teng and Yuan 2015][research_teng_yuan_2015]
 - [Tereshko 2016][research_tereshko_2016]
 - [Tessnow et al 2001][research_tessnow_hethcock_2001]
-- [Test facility offers synthetic car exhaust 1997][research_test_facility_1997]
 - [Tetervin 1961][research_tetervin_1961]
 - [Tewfik and Giedt 1960][research_tewfik_giedt_1960]
 - [Tharakan and Sukesh 2025][research_tharakan_sukesh_2025]
 - [Thawait et al 2023][research_thawait_tandaiya_2023]
 - [Thawait et al 2023][research_thawait_tandaiya_2023_b]
 - [Thelander 1966][research_thelander_1966]
-- [Thermo-Fluid Optimization in Compressed Air Systems: Bridging CFD Modeling with Experimental Validation 2026][research_thermo_fluid_optimization_2026]
 - [Thiele et al 2018][research_thiele_gampe_2018]
 - [Thomas and Perlbachs 1967][research_thomas_perlbachs_1967]
 - [Thomas, J. L. et al 1988][research_thomasjl_rudydh_1988]
@@ -6942,7 +6357,6 @@ available.
 - [Tian et al 2023][research_tian_yang_2023]
 - [Tian et al 2024][research_tian_yang_2024]
 - [Tian et al 2025][research_tian_bai_2025]
-- [Timko 1966][research_timko_1966]
 - [Tirskii 1993][research_tirskii_1993]
 - [Tirsky 1993][research_tirsky_1993]
 - [Titanium aluminide made by sintering powder prepared by self propagating high temperature synthesis (SPHTS) 1992][research_titanium_aluminide_1992]
@@ -6956,8 +6370,6 @@ available.
 - [Torre et al 2023][research_torre_merli_2023]
 - [Torres, Abel O. 1992][research_torresabelo_1992]
 - [Townend 1995][research_townend_1995]
-- [Traldi et al 1982][research_traldi_vettori_1982]
-- [Transient Reactor Test Facility achieves Criticality 1959][research_transient_reactor_1959]
 - [Trefny, Charles J. et al 2017][research_trefnycharlesj_dippoldvancefiii_2017]
 - [Treviño 1995][research_trevino_1995]
 - [Trexler 1974][research_trexler_1974]
@@ -6977,16 +6389,12 @@ available.
 - [Tu et al 2017][research_tu_mao_2017]
 - [Tu et al 2021][research_tu_zhao_2021]
 - [Tu et al 2026][research_tu_lan_2026]
-- [Tuczyński and Stopa 2023][research_tuczynski_stopa_2023]
-- [Tudosie 2016][research_tudosie_2016]
 - [Tufts et al 2018][research_tufts_gosse_2018]
 - [Tumuklu and Hanquist 2023][research_tumuklu_hanquist_2023]
 - [Turchi et al 2021][research_turchi_matesanzsaiz_2021]
 - [Tuttle, Sean 1995][research_tuttlesean_1995]
-- [Tuunanen et al 1994][research_tuunanen_sonnenburg_1994]
 - [Twomey and Ham 1978][research_twomey_ham_1978]
 - [Türkoğlu et al 2026][research_turkoglu_donmez_2026]
-- [UK must invest more in hydrogen planes, say top aviation firms 2024][research_uk_must_2024]
 - [ul Islam Rizvi et al 2015][research_ulislamrizvi_linshu_2015]
 - [Ullman and Raman 2023][research_ullman_raman_2023]
 - [Ullman et al 2025][research_ullman_sharma_2025]
@@ -6999,8 +6407,6 @@ available.
 - [Uribe et al 2021][research_uribe_papaioannou_2021]
 - [Urso et al 2022][research_urso_kinney_2022]
 - [Urzay 2018][research_urzay_2018]
-- [US consortium creates hydrogen aviation site 2021][research_us_consortium_2021]
-- [Us et al 2026][research_us_ghosh_2026]
 - [Uselton 1976][research_uselton_1976]
 - [Ustinov and Kachanov 2021][research_ustinov_kachanov_2021]
 - [Uy et al 2023][research_uy_hao_2023]
@@ -7023,7 +6429,6 @@ available.
 - [Venkatesan and S 2024][research_venkatesan_s_2024]
 - [Venkateshwaran and Padmanathan 2026][research_venkateshwaran_padmanathan_2026]
 - [Verma et al 2021][research_verma_pandey_2021]
-- [Versatile membranes filtration test facility 1996][research_versatile_membranes_1996]
 - [Vert and Bouchard 2024][research_vert_bouchard_2024]
 - [Very-Large-Eddy Simulation of Nonreactive Turbulent Flow for Annular Trapped Vortex Combustor 2022][research_very_large_eddy_simulation_2022]
 - [Vetter 1968][research_vetter_1968]
@@ -7040,11 +6445,9 @@ available.
 - [Vulpetti and Pecchioli 1989][research_vulpetti_pecchioli_1989]
 - [Vyas, Manan A. et al 2010][research_vyasmanana_engblomwilliama_2010]
 - [Wagner and Dale 1985][research_wagner_dale_1985]
-- [Wagner and Leyer 2015][research_wagner_leyer_2015]
 - [Walker 1952][research_walker_1952]
 - [Walker 2025][research_walker_2025]
 - [Wallace, T. A. et al 2003][research_wallaceta_birdrk_2003]
-- [Waltert et al 2025][research_waltert_figuet_2025]
 - [Walton, J. T. 1990][research_waltonjt_1990]
 - [Walton, James T. 1992][research_waltonjamest_1992]
 - [Waltrup et al 1981][research_waltrup_billig_1981]
@@ -7052,11 +6455,9 @@ available.
 - [Wan et al 2026][research_wan_shi_2026]
 - [Wan et al 2026][research_wan_wang_2026]
 - [Wang 2000][research_wang_2000]
-- [Wang and Duan 2022][research_wang_duan_2022]
 - [Wang and Jiang 2020][research_wang_jiang_2020]
 - [Wang and Li 2016][research_wang_li_2016]
 - [Wang and Luo 2022][research_wang_luo_2022]
-- [Wang and Nagayama 2022][research_wang_nagayama_2022]
 - [Wang and Oehlschlaeger 2020][research_wang_oehlschlaeger_2020]
 - [Wang and Wang 2024][research_wang_wang_2024_b]
 - [Wang and Xu 2024][research_wang_xu_2024_b]
@@ -7106,20 +6507,15 @@ available.
 - [Wang et al 2022][research_wang_wang_2022]
 - [Wang et al 2022][research_wang_wei_2022]
 - [Wang et al 2022][research_wang_xin_2022]
-- [Wang et al 2022][research_wang_yu_2022]
 - [Wang et al 2022][research_wang_yu_2022_b]
 - [Wang et al 2022][research_wang_zhang_2022]
-- [Wang et al 2022][research_wang_zhang_2022_b]
 - [Wang et al 2022][research_wang_zhao_2022]
 - [Wang et al 2023][research_wang_eri_2023]
 - [Wang et al 2023][research_wang_eri_2023_b]
 - [Wang et al 2023][research_wang_fan_2023]
-- [Wang et al 2023][research_wang_hu_2023]
 - [Wang et al 2023][research_wang_huang_2023]
-- [Wang et al 2023][research_wang_jiang_2023]
 - [Wang et al 2023][research_wang_liu_2023]
 - [Wang et al 2023][research_wang_qian_2023]
-- [Wang et al 2023][research_wang_song_2023]
 - [Wang et al 2023][research_wang_wang_2023]
 - [Wang et al 2023][research_wang_xu_2023]
 - [Wang et al 2024][research_wang_liu_2024]
@@ -7128,7 +6524,6 @@ available.
 - [Wang et al 2024][research_wang_xu_2024]
 - [Wang et al 2024][research_wang_zou_2024]
 - [Wang et al 2025][research_wang_an_2025]
-- [Wang et al 2025][research_wang_deng_2025]
 - [Wang et al 2025][research_wang_he_2025]
 - [Wang et al 2025][research_wang_hua_2025]
 - [Wang et al 2025][research_wang_liu_2025]
@@ -7144,10 +6539,8 @@ available.
 - [Wang et al 2026][research_wang_hong_2026]
 - [Wang et al 2026][research_wang_huang_2026]
 - [Wang et al 2026][research_wang_song_2026]
-- [Wang et al 2026][research_wang_thuerey_2026]
 - [Wang et al 2026][research_wang_yuan_2026]
 - [Wang et al 2026][research_wang_zhang_2026]
-- [Wang Shu and Lu Wenda 1991][research_wangshu_luwenda_1991]
 - [Wang, H. et al 1989][research_wangh_seifertd_1989]
 - [Wang, Xiao-Yen et al 2007][research_wangxiaoyen_harpstergeorge_2007]
 - [Ward and Smart 2021][research_ward_smart_2021]
@@ -7160,7 +6553,6 @@ available.
 - [Waterhouse 1988][research_waterhouse_1988]
 - [Watkins, William B. 1990][research_watkinswilliamb_1990]
 - [Watt and Aronson 1964][research_watt_aronson_1964]
-- [Weaver 1991][research_weaver_1991]
 - [Webber et al 2026][research_webber_reeves_2026]
 - [Wei and Tsung-Ming 1994][research_wei_tsungming_1994]
 - [Wei et al 2015][research_wei_tian_2015]
@@ -7183,7 +6575,6 @@ available.
 - [Wendt, M. et al 1993][research_wendtm_nettletonm_1993]
 - [West and Bynum 2024][research_west_bynum_2024]
 - [West and Hosder 2015][research_west_hosder_2015]
-- [Westacott et al 1992][research_westacott_peterson_1992]
 - [Whitcomb 2010][research_whitcomb_2010]
 - [White and Ault 1996][research_white_ault_1996]
 - [White and Rhie 1992][research_white_rhie_1992]
@@ -7199,12 +6590,10 @@ available.
 - [Wilhite 1983][research_wilhite_1983]
 - [Wilhite et al 1991][research_wilhite_bush_1991]
 - [Wilkinson and Ruggles-Wrenn 2016][research_wilkinson_ruggleswrenn_2016]
-- [Wilks et al 1991][research_wilks_coombs_1991]
 - [Willaime et al 1998][research_willaime_belin_1998]
 - [Willbanks 1970][research_willbanks_1970]
 - [William Sullivan 1991][research_williamsullivan_1991]
 - [William-Sobers et al 2025][research_williamsobers_agwu_2025]
-- [Williams 1967][research_williams_1967]
 - [Williamson Jr. 1963][research_williamsonjr_1963]
 - [Wilson 1953][research_wilson_1953]
 - [Winterberg 1983][research_winterberg_1983]
@@ -7212,14 +6601,11 @@ available.
 - [Wisbey and Ward-Close 1997][research_wisbey_wardclose_1997]
 - [Wisbey et al 1994][research_wisbey_kearns_1994]
 - [WlMBERLY et al 1970][research_wlmberly_mcginnis_1970]
-- [Wolf 1986][research_wolf_1986]
 - [Wolf et al 1951][research_wolf_mullen_1951]
 - [Wolfle 1969][research_wolfle_1969]
 - [Wood 1968][research_wood_1968]
 - [Woodcock 1988][research_woodcock_1988]
 - [Woodruff and Lorenz 1966][research_woodruff_lorenz_1966]
-- [World's first full-scale hydrogen-based propulsion system launched by Kongsberg 2021][research_world_s_first_2021]
-- [Wright 2002][research_wright_2002]
 - [Wright, George F., Jr. 1993][research_wrightgeorgefjr_1993]
 - [Wright, Howard T. 1989][research_wrighthowardt_1989]
 - [Wu 1992][research_wu_1992]
@@ -7249,7 +6635,6 @@ available.
 - [Xie et al 2025][research_xie_xia_2025]
 - [Xie et al 2026][research_xie_zhao_2026]
 - [Xing et al 2017][research_xing_ruan_2017]
-- [Xing et al 2025][research_xing_wang_2025]
 - [Xing-hao et al 2021][research_xinghao_haijie_2021]
 - [Xiong et al 2019][research_xiong_fan_2019]
 - [Xiong et al 2020][research_xiong_qin_2020]
@@ -7273,7 +6658,6 @@ available.
 - [Yakhutin 2021][research_yakhutin_2021]
 - [Yamada and Fujii 1999][research_yamada_fujii_1999]
 - [Yamaguchi et al 2020][research_yamaguchi_hizawa_2020]
-- [Yamasaki et al 2016][research_yamasaki_kawamoto_2016]
 - [Yan and Shi 2025][research_yan_shi_2025]
 - [Yan and Wang 2022][research_yan_wang_2022]
 - [Yan and Yang 2025][research_yan_yang_2025]
@@ -7284,7 +6668,6 @@ available.
 - [Yan et al 2022][research_yan_fan_2022]
 - [Yan et al 2022][research_yan_liu_2022]
 - [Yan et al 2022][research_yan_liu_2022_b]
-- [Yan et al 2023][research_yan_liu_2023]
 - [Yan et al 2023][research_yan_wang_2023]
 - [Yan et al 2025][research_yan_tian_2025]
 - [Yan et al 2026][research_yan_le_2026]
@@ -7293,7 +6676,6 @@ available.
 - [Yang and Liu 2017][research_yang_liu_2017]
 - [Yang and Xiao 2019][research_yang_xiao_2019]
 - [Yang and Yuh-Yih Wu 1994][research_yang_yuhyihwu_1994]
-- [Yang and Zhang 2015][research_yang_zhang_2015]
 - [Yang et al 1993][research_yang_kubota_1993]
 - [Yang et al 2015][research_yang_chang_2015]
 - [Yang et al 2015][research_yang_shi_2015]
@@ -7302,10 +6684,8 @@ available.
 - [Yang et al 2019][research_yang_li_2019]
 - [Yang et al 2020][research_yang_gui_2020]
 - [Yang et al 2020][research_yang_lee_2020]
-- [Yang et al 2020][research_yang_liu_2020]
 - [Yang et al 2021][research_yang_li_2021]
 - [Yang et al 2021][research_yang_xia_2021]
-- [Yang et al 2022][research_yang_pak_2022]
 - [Yang et al 2022][research_yang_wang_2022]
 - [Yang et al 2023][research_yang_song_2023]
 - [Yang et al 2023][research_yang_yang_2023]
@@ -7341,7 +6721,6 @@ available.
 - [Yin et al 2024][research_yin_li_2024]
 - [Yin et al 2026][research_yin_li_2026]
 - [Yokoo et al 2020][research_yokoo_goto_2020]
-- [Yontar and Doğu 2019][research_yontar_dogu_2019]
 - [Yoon and Ahn 2016][research_yoon_ahn_2016]
 - [Yoshida et al 2019][research_yoshida_micci_2019]
 - [Youn and Mills 1995][research_youn_mills_1995]
@@ -7360,7 +6739,6 @@ available.
 - [Yu et al 2021][research_yu_ni_2021]
 - [Yu et al 2022][research_yu_li_2022]
 - [Yu et al 2022][research_yu_zhou_2022]
-- [Yu et al 2023][research_yu_nie_2023]
 - [Yu et al 2025][research_yu_wang_2025]
 - [Yu et al 2025][research_yu_yang_2025]
 - [Yu et al 2026][research_yu_wang_2026]
@@ -7370,8 +6748,6 @@ available.
 - [Yue et al 2016][research_yue_wu_2016]
 - [Yue et al 2018][research_yue_nie_2018]
 - [Yue et al 2022][research_yue_titurus_2022]
-- [Yuen et al 2023][research_yuen_guo_2023]
-- [Yuliora et al 2024][research_yuliora_utama_2024]
 - [Yun et al 2026][research_yun_kim_2026]
 - [Yungster, Shaye et al 2015][research_yungstershaye_paxsondaniele_2015]
 - [Yushchenkova et al 1967][research_yushchenkova_pomerantsev_1967]
@@ -7381,9 +6757,7 @@ available.
 - [Zandavi and Pourtakdoust 2017][research_zandavi_pourtakdoust_2017]
 - [Zander et al 2021][research_zander_vinkeloe_2021]
 - [Zangiev et al 2016][research_zangiev_ivanov_2016]
-- [Zarillo and Militello 1999][research_zarillo_militello_1999]
 - [Zee 1967][research_zee_1967]
-- [Zeitoun 2021][research_zeitoun_2021]
 - [Zeng et al 2026][research_zeng_wang_2026]
 - [Zhai and Yang 2020][research_zhai_yang_2020]
 - [Zhang 2020][research_zhang_2020]
@@ -7393,11 +6767,9 @@ available.
 - [Zhang et al 2015][research_zhang_chen_2015]
 - [Zhang et al 2015][research_zhang_hong_2015]
 - [Zhang et al 2015][research_zhang_yang_2015]
-- [Zhang et al 2015][research_zhang_yu_2015]
 - [Zhang et al 2016][research_zhang_feng_2016]
 - [Zhang et al 2016][research_zhang_feng_2016_b]
 - [Zhang et al 2016][research_zhang_li_2016]
-- [Zhang et al 2016][research_zhang_song_2016]
 - [Zhang et al 2016][research_zhang_xu_2016]
 - [Zhang et al 2017][research_zhang_chang_2017]
 - [Zhang et al 2017][research_zhang_wang_2017]
@@ -7461,7 +6833,6 @@ available.
 - [Zhao et al 2026][research_zhao_tu_2026]
 - [Zheng and Bray 1994][research_zheng_bray_1994]
 - [Zheng and Wang 2018][research_zheng_wang_2018]
-- [Zheng et al 2017][research_zheng_zheng_2017]
 - [Zheng et al 2018][research_zheng_chang_2018]
 - [Zheng et al 2019][research_zheng_chang_2019]
 - [Zheng et al 2020][research_zheng_chang_2020]
@@ -7483,7 +6854,6 @@ available.
 - [Zhong et al 2025][research_zhong_xu_2025]
 - [Zhou 2023][research_zhou_2023]
 - [Zhou and Li 2024][research_zhou_li_2024]
-- [Zhou and Liu 2016][research_zhou_liu_2016]
 - [Zhou et al 2015][research_zhou_yan_2015]
 - [Zhou et al 2016][research_zhou_yan_2016]
 - [Zhou et al 2016][research_zhou_zhao_2016]
@@ -7526,23 +6896,18 @@ available.
 - [Zuo and Mölder 2019][research_zuo_molder_2019]
 - [Zuo et al 2018][research_zuo_zhang_2018]
 - [Çelik and Demirezen 2024][research_celik_demirezen_2024]
-- [Ézsöl et al 1997][research_ezsol_guba_1997]
 - [Özbek and Karyeyen 2023][research_ozbek_karyeyen_2023]
 - [Öztürk and Yıldız 2026][research_ozturk_yildiz_2026]
-- [Ørsnes et al 1998][research_rsnes_graf_1998]
 
-[research_258_a_1968]: https://doi.org/10.1016/0042-207x(68)91459-0
 [research_266_on_1994]: https://doi.org/10.1016/0967-0661(94)91057-x
 [research_3d_problems_2018]: https://doi.org/10.14529/jsfi180207
 [research_4860534_inlet_1990]: https://doi.org/10.1016/0890-4332(90)90056-p
-[research_578_mass_1974]: https://doi.org/10.1016/0042-207x(74)92092-2
 [research_95_01686_cavity_actuated_1995]: https://doi.org/10.1016/0140-6701(95)93351-4
 [research_95_01778_reduced_1995]: https://doi.org/10.1016/0140-6701(95)93443-x
 [research_95_01780_the_1995]: https://doi.org/10.1016/0140-6701(95)93445-6
 [research_95_05986_oxidation_1995]: https://doi.org/10.1016/0140-6701(95)97624-s
 [research_95_06326_ignition_1995]: https://doi.org/10.1016/0140-6701(95)97915-7
 [research_95_06441_studies_1995]: https://doi.org/10.1016/0140-6701(95)98013-h
-[research_96_04007_investigation_1996]: https://doi.org/10.1016/0140-6701(96)82298-3
 [research_96_05298_relationships_1996]: https://doi.org/10.1016/0140-6701(96)89992-9
 [research_97_03061_a_1997]: https://doi.org/10.1016/s0140-6701(97)84932-6
 [research_97_04270_ignition_1997]: https://doi.org/10.1016/s0140-6701(97)81565-2
@@ -7557,9 +6922,7 @@ available.
 [research_abedi_salehi_2017]: https://doi.org/10.1016/j.ceramint.2017.06.164
 [research_abell_1989]: https://doi.org/10.1126/science.246.4936.1375.a
 [research_abrahamm_valsa_2018]: https://doi.org/10.18520/cs/v114/i01/144-147
-[research_abuhamdan_zurigat_1992]: https://doi.org/10.1016/0017-9310(92)90195-x
 [research_abulhuda_gamba_2017]: https://doi.org/10.2514/1.b36543
-[research_acar_jain_2024]: https://doi.org/10.1007/s00158-024-03737-7
 [research_accelerating_hypersonic_2022]: https://doi.org/10.12968/s1478-2774(23)50146-0
 [research_acharya_2025]: https://doi.org/10.3390/aerospace12060503
 [research_adamkhan_2024]: https://doi.org/10.1007/s11085-024-10239-w
@@ -7569,7 +6932,6 @@ available.
 [research_adamsjcjr_martindalewr_1976]: https://ntrs.nasa.gov/citations/19760054044
 [research_adamsjcjr_martindalewr_1984]: https://ntrs.nasa.gov/citations/19840035307
 [research_adelmanhenryg_meneesgenep_1996]: https://ntrs.nasa.gov/citations/19960021078
-[research_adley_granata_1971]: https://doi.org/10.1002/oms.1210050402
 [research_advisorygroupforaerospaceresearchanddevelopment_1993]: https://ntrs.nasa.gov/citations/19940024743
 [research_agnone_prakasam_1987]: https://doi.org/10.2514/3.25894
 [research_agnoneanthonym_1987]: https://ntrs.nasa.gov/citations/19870037657
@@ -7578,12 +6940,7 @@ available.
 [research_ahuja_hartfield_2015]: https://doi.org/10.2514/1.b35212
 [research_aircraft_engine_1992]: https://doi.org/10.1108/eb037251
 [research_airforcetestpilotschooledwardsafbca_1987]: https://doi.org/10.21236/ada320212
-[research_ajalla_1998]: https://doi.org/10.21236/ada352955
-[research_ak_cadirci_2020]: https://doi.org/10.33793/acperpro.03.01.23
 [research_akatsu_takashima_2016]: https://doi.org/10.1111/ijac.12549
-[research_akbari_ghazi_2025]: https://doi.org/10.1038/s41598-025-27851-8
-[research_akkaya_neumann_2023]: https://doi.org/10.1007/s13272-023-00699-2
-[research_aksu_1996]: https://doi.org/10.1016/0045-7949(95)00323-1
 [research_alam_sharma_2019]: https://doi.org/10.2139/ssrn.3351634
 [research_alam_sharma_2019_b]: https://doi.org/10.2139/ssrn.3355295
 [research_alder_lyle_1998]: https://doi.org/10.1080/00102209808915783
@@ -7595,7 +6952,6 @@ available.
 [research_allen_1957]: https://doi.org/10.2514/8.12486
 [research_allen_2021]: https://doi.org/10.1088/2058-7058/34/07/06
 [research_allen_byrne_1965]: https://doi.org/10.2514/3.3041
-[research_allen_lh_1967]: https://doi.org/10.21236/ad0662720
 [research_allenhj_1966]: https://ntrs.nasa.gov/citations/19660045863
 [research_allenjl_bekeandrew_1953]: https://ntrs.nasa.gov/citations/19930087574
 [research_almeida_navarromartinez_2019]: https://doi.org/10.1007/s10494-019-00055-7
@@ -7616,14 +6972,12 @@ available.
 [research_an_wu_2018]: https://doi.org/10.1016/j.jfranklin.2018.04.035
 [research_analysis_of_2023]: https://doi.org/10.56042/ijems.v30i2.1461
 [research_andersjbjr_1975]: https://ntrs.nasa.gov/citations/19750006919
-[research_anderson_1978]: https://doi.org/10.1016/0094-5765(78)90031-0
 [research_anderson_1979]: https://doi.org/10.21236/ada073314
 [research_anderson_1986]: https://doi.org/10.2514/3.48409
 [research_anderson_brooks_1960]: https://doi.org/10.2514/8.8371
 [research_anderson_eckbreth_1991]: https://doi.org/10.1016/s0082-0784(06)80470-4
 [research_andersonbernhardh_weirlois_2014]: https://ntrs.nasa.gov/citations/20140016538
 [research_andersoncharlesw_1993]: https://ntrs.nasa.gov/citations/19930065836
-[research_andersondavid_2014]: https://ntrs.nasa.gov/citations/20140012554
 [research_andersongriffiny_benczedanielp_1987]: https://ntrs.nasa.gov/citations/19880023142
 [research_andersongy_reagonpg_1977]: https://ntrs.nasa.gov/citations/19770021180
 [research_andrews_davis_1992]: https://doi.org/10.1016/0094-5765(92)90153-a
@@ -7647,9 +7001,7 @@ available.
 [research_azevedo_liu_1990]: https://doi.org/10.2514/3.10486
 [research_azhar_habeeb_2022]: https://doi.org/10.4273/ijvss.14.7.21
 [research_aziz_chowdhury_2022]: https://doi.org/10.1177/14680874221100499
-[research_baba_horie_1979]: https://doi.org/10.1002/bms.1200060907
 [research_babinsky_2014]: https://doi.org/10.21236/ada602774
-[research_babrauskas_parker_1994]: https://doi.org/10.1063/1.1144690
 [research_baccarella_liu_2016]: https://doi.org/10.1088/0957-0233/27/4/045902
 [research_baccarella_samuels_2025]: https://doi.org/10.2514/1.t7019
 [research_back_cuffel_1972]: https://doi.org/10.2514/3.61705
@@ -7663,14 +7015,11 @@ available.
 [research_balakrishnan_williams_1994]: https://doi.org/10.2514/3.23754
 [research_balakumar_chou_2018]: https://doi.org/10.2514/1.j056040
 [research_balakumar_kegerise_2016]: https://doi.org/10.2514/1.j054632
-[research_balasubramani_natarajan_2024]: https://doi.org/10.58496/bjml/2024/012
 [research_ball_ross_1972]: https://doi.org/10.2514/3.59042
 [research_ballwh_lyonfj_1966]: https://ntrs.nasa.gov/citations/19660053460
-[research_balogun_vasudev_2025]: https://doi.org/10.3390/pr13072049
 [research_balut_frazier_1991]: https://doi.org/10.21236/ada232661
 [research_balzer_1971]: https://doi.org/10.1115/1.3445377
 [research_banagiri_raj_2025]: https://doi.org/10.1115/1.4069506
-[research_bandriyana_rivai_2015]: https://doi.org/10.4028/www.scientific.net/amr.1123.356
 [research_bandyopadhyay_gadelhak_1994]: https://doi.org/10.21236/ada637054
 [research_bangertlh_santmandm_1980]: https://ntrs.nasa.gov/citations/19810009475
 [research_bangertlh_santmandm_1980_b]: https://ntrs.nasa.gov/citations/19800061564
@@ -7693,20 +7042,16 @@ available.
 [research_baskaya_hickel_2025]: https://doi.org/10.1063/5.0281627
 [research_batdor_1957]: https://doi.org/10.2514/8.12490
 [research_bates_1984]: https://doi.org/10.21236/ada150900
-[research_bathironworkscorpme_1975]: https://doi.org/10.21236/ada445609
-[research_batra_ts_2026]: https://doi.org/10.1116/5.0316840
 [research_battellememorialinstcolumbusoh_1947]: https://doi.org/10.21236/ad0210300
 [research_battertonpg_arpasidj_1974]: https://ntrs.nasa.gov/citations/19740025659
 [research_battertonpg_arpasidj_1976]: https://ntrs.nasa.gov/citations/19760024067
 [research_baughn_hoffman_1987]: https://doi.org/10.1115/1.3248064
 [research_baumbickrj_1974]: https://ntrs.nasa.gov/citations/19740008381
-[research_baumgardner_quinn_1995]: https://doi.org/10.1002/jms.1190300407
 [research_baumgart_yao_2025]: https://doi.org/10.1016/j.proci.2025.105798
 [research_baurlera_axdahlel_2017]: https://ntrs.nasa.gov/citations/20180000520
 [research_baurleroberta_middletontroyf_2012]: https://ntrs.nasa.gov/citations/20130000726
 [research_baydarezgihan_lufrankk_2016]: https://ntrs.nasa.gov/citations/20170000948
 [research_baydarezgihan_lufrankk_2017]: https://ntrs.nasa.gov/citations/20170001419
-[research_bayham_straub_2019]: https://doi.org/10.1016/j.ijggc.2019.05.022
 [research_baysalo_1992]: https://ntrs.nasa.gov/citations/19930065534
 [research_bazhina_antipov_2026]: https://doi.org/10.1134/s0020168526700809
 [research_beachhljr_1976]: https://ntrs.nasa.gov/citations/19770003430
@@ -7720,23 +7065,19 @@ available.
 [research_beige_mardani_2025]: https://doi.org/10.1016/j.fuel.2025.134719
 [research_beint_friedmannp_1993]: https://ntrs.nasa.gov/citations/19930053431
 [research_bejan_2013]: https://doi.org/10.21236/ada590232
-[research_bekston_biermann_2026]: https://doi.org/10.37544/1436-4980-2026-05-57
 [research_bellan_2017]: https://doi.org/10.1016/j.combustflame.2016.09.026
-[research_belomestny_ladkau_2015]: https://doi.org/10.1137/140958463
 [research_benard_gaillard_1997]: https://doi.org/10.1007/s003480050050
 [research_benhamida_basem_2025]: https://doi.org/10.1063/5.0272099
 [research_benson_maslowe_1966]: https://doi.org/10.2514/3.28665
 [research_berens_bissinger_1998]: https://doi.org/10.2514/3.26994
 [research_berg_1968]: https://doi.org/10.21236/ad0833157
 [research_berger_white_2024]: https://doi.org/10.1007/s00348-024-03909-7
-[research_berrueco_recari_2015]: https://doi.org/10.1021/acs.energyfuels.5b02032
 [research_berry_1991]: https://doi.org/10.2514/3.20623
 [research_berryscotta_bergerkarent_2016]: https://ntrs.nasa.gov/citations/20160010109
 [research_berryscotta_horvaththomasjjr_2008]: https://ntrs.nasa.gov/citations/20080023461
 [research_berryscotta_kimmelroger_2011]: https://ntrs.nasa.gov/citations/20110013235
 [research_bertrand_huchette_2025]: https://doi.org/10.1016/j.engfracmech.2025.111570
 [research_besserer_1952]: https://doi.org/10.21236/ad0036272
-[research_beveridge_1963]: https://doi.org/10.21236/ad0426757
 [research_bevilaqua_lee_1980]: https://doi.org/10.21236/ada087709
 [research_bhadouriya_2024]: https://doi.org/10.22214/ijraset.2024.58089
 [research_bhatbn_mcphersonwb_1993]: https://ntrs.nasa.gov/citations/19930066322
@@ -7745,35 +7086,22 @@ available.
 [research_billig_1995]: https://doi.org/10.2514/3.23952
 [research_bilsborough_neilsenburke_2025]: https://doi.org/10.1016/j.compositesb.2025.112906
 [research_birdrkeith_hoffmanerick_1998]: https://ntrs.nasa.gov/citations/19980201176
-[research_bishop_2002]: https://doi.org/10.21236/ada627048
 [research_bissinger_blagoveshchensky_1998]: https://doi.org/10.1016/s1270-9638(99)80009-1
-[research_blake_1981]: https://doi.org/10.1111/j.1469-7998.1981.tb04578.x
 [research_blanco_lobet_2022]: https://doi.org/10.23967/r.matcomp.2022.01.004
 [research_blanksonisaiahm_hagsethpaul_1993]: https://ntrs.nasa.gov/citations/19930041536
-[research_blessing_1961]: https://doi.org/10.21236/ad0268481
-[research_blessing_1962]: https://doi.org/10.21236/ad0296840
-[research_blessing_1963]: https://doi.org/10.21236/ad0404708
 [research_blomshield_1989]: https://doi.org/10.21236/ada220198
 [research_boardman_1976]: https://doi.org/10.21236/ada024924
 [research_boatrightwb_sabolap_1976]: https://ntrs.nasa.gov/citations/19760035766
-[research_bocchini_pozzi_1999]: https://doi.org/10.1002/(sici)1097-0231(19991030)13:20<2049::aid-rcm752>3.0.co;2-b
 [research_bochenek_tajszielinska_2025]: https://doi.org/10.3390/app152212294
 [research_bodansanderspatricia_bouviercarl_1998]: https://ntrs.nasa.gov/citations/19980069722
-[research_boeing_to_2019]: https://doi.org/10.12968/s1478-2774(22)50414-7
-[research_bohatka_1997]: https://doi.org/10.1002/(sici)1097-0231(199704)11:6<656::aid-rcm835>3.0.co;2-w
-[research_bohatka_degn_1991]: https://doi.org/10.1002/rcm.1290051002
 [research_boiocchi_galfetti_2018]: https://doi.org/10.2514/1.b36307
 [research_boles_milligan_2013]: https://doi.org/10.21236/ada586382
 [research_bonanni_norris_2024]: https://doi.org/10.1016/j.proci.2024.105690
 [research_bond_1958]: https://doi.org/10.2514/8.7284
 [research_bondar_nadtoka_2024]: https://doi.org/10.15421/452409
-[research_booth_hudson_2012]: https://doi.org/10.21236/ada567661
 [research_boscagli_rigas_2026]: https://doi.org/10.1017/jfm.2026.11548
 [research_botelho_martinez_2022]: https://doi.org/10.1007/s12567-022-00423-6
 [research_bouchard_chambers_1966]: https://doi.org/10.21236/ad0632234
-[research_boucher_2000]: https://doi.org/10.21236/ada378222
-[research_boucher_2001]: https://doi.org/10.21236/ada398003
-[research_boumaza_hohne_2019]: https://doi.org/10.1007/s42452-019-1574-1
 [research_bowersox_fan_2000]: https://doi.org/10.21236/ada384726
 [research_bowes_1978]: https://doi.org/10.21236/ada058197
 [research_bowman_foy_1961]: https://doi.org/10.21236/ad0267505
@@ -7792,7 +7120,6 @@ available.
 [research_bray_1963]: https://doi.org/10.1016/s0082-0784(63)80085-5
 [research_brei_luntz_2012]: https://doi.org/10.21236/ada579083
 [research_brevault_balesdent_2017]: https://doi.org/10.1177/1063293x17737131
-[research_brewer_park_2001]: https://doi.org/10.21236/ada390544
 [research_brewergd_morrisre_1975]: https://ntrs.nasa.gov/citations/19750009264
 [research_briehld_schultzdf_1983]: https://ntrs.nasa.gov/citations/19830019724
 [research_briskman_2000]: https://doi.org/10.21236/ada400180
@@ -7811,14 +7138,7 @@ available.
 [research_bruneaj_bruceweiii_2017]: https://ntrs.nasa.gov/citations/20180000701
 [research_brunner_1959]: https://doi.org/10.1115/1.4008191
 [research_bruno_ingenito_2021]: https://doi.org/10.3390/en14123690
-[research_brutsche_mcfall_2015]: https://doi.org/10.21236/ad1001469
 [research_bryan_1955]: https://doi.org/10.21236/ad0079996
-[research_bryzik_2012]: https://doi.org/10.21236/ada582688
-[research_bryzik_witus_2011]: https://doi.org/10.21236/ada606986
-[research_bryzik_witus_2011_b]: https://doi.org/10.21236/ada606630
-[research_bryzik_witus_2012]: https://doi.org/10.21236/ada582533
-[research_bryzik_witus_2012_b]: https://doi.org/10.21236/ada606988
-[research_bryzik_witus_2012_c]: https://doi.org/10.21236/ada606987
 [research_bu_lei_2018]: https://doi.org/10.1007/s11071-018-4447-z
 [research_buccaneer_s2b_1984]: https://doi.org/10.1108/eb036026
 [research_buchanan_little_1993]: https://doi.org/10.1016/0010-938x(93)90344-g
@@ -7831,7 +7151,6 @@ available.
 [research_bulmanmj_stoutpw_1997]: https://ntrs.nasa.gov/citations/19990080047
 [research_burgers_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000689
 [research_burke_rezzag_2026]: https://doi.org/10.1007/s00193-026-01263-7
-[research_burman_1998]: https://doi.org/10.1016/s0167-6105(98)00028-2
 [research_burton_carroll_2025]: https://doi.org/10.1016/j.actaastro.2025.09.001
 [research_busakm_mcdanieljc_2012]: https://ntrs.nasa.gov/citations/20130001729
 [research_busakristin_ellisonerikn_2013]: https://ntrs.nasa.gov/citations/20130004498
@@ -7839,7 +7158,6 @@ available.
 [research_bushnelldennism_yiplongp_1993]: https://ntrs.nasa.gov/citations/19930022543
 [research_bussingtra_murmanem_1983]: https://ntrs.nasa.gov/citations/19830035487
 [research_buzukov_1999]: https://doi.org/10.1007/bf02674532
-[research_buzukov_timoshenko_1995]: https://doi.org/10.1007/bf00789360
 [research_byrne_wilde_1963]: https://doi.org/10.21236/ad0406932
 [research_byun_kim_2026]: https://doi.org/10.1016/j.ast.2026.112144
 [research_cabellkaren_hassneal_2011]: https://ntrs.nasa.gov/citations/20110011173
@@ -7864,7 +7182,6 @@ available.
 [research_cao_lu_2020]: https://doi.org/10.1016/j.ast.2019.105590
 [research_cao_yu_2021]: https://doi.org/10.1134/s0869864321040120
 [research_caponefrancisj_schirmeralbertow_1993]: https://ntrs.nasa.gov/citations/19940006220
-[research_cappellini_castagna_2026]: https://doi.org/10.1016/j.cles.2025.100229
 [research_cappucciogelsomina_1999]: https://ntrs.nasa.gov/citations/20000044623
 [research_carbajosa_sanzandres_2025]: https://doi.org/10.1016/j.actaastro.2025.05.006
 [research_carbon_fiber_1971]: https://doi.org/10.1016/0010-4361(71)90969-4
@@ -7873,7 +7190,6 @@ available.
 [research_carlsonjohnr_abdolhamidkhaleds_1993]: https://ntrs.nasa.gov/citations/19930057050
 [research_carman_1965]: https://doi.org/10.21236/ad0471021
 [research_carman_jb_1966]: https://doi.org/10.21236/ad0632514
-[research_carpenter_1990]: https://doi.org/10.21236/ada220067
 [research_carpenterjljr_stuhrkewf_1976]: https://ntrs.nasa.gov/citations/19760018287
 [research_carrier_fendell_1995]: https://doi.org/10.1016/0010-2180(95)00099-2
 [research_carsongtjr_1974]: https://ntrs.nasa.gov/citations/19750002123
@@ -7885,10 +7201,8 @@ available.
 [research_casseau_palharini_2016]: https://doi.org/10.3390/aerospace3040034
 [research_cassetti_1978]: https://doi.org/10.1108/eb035480
 [research_castelvecchi_2024]: https://doi.org/10.1038/d41586-024-02191-1
-[research_castiau_gaurois_1991]: https://doi.org/10.1016/0141-0296(91)90003-u
 [research_cavolowskyjohna_loomismarkp_1995]: https://ntrs.nasa.gov/citations/20020038030
 [research_celik_demirezen_2024]: https://doi.org/10.1109/access.2024.3359417
-[research_cemin_2022]: https://doi.org/10.26855/oajrcms.2021.12.001
 [research_cenkci_1991]: https://doi.org/10.21236/ada241143
 [research_cerminara_2023]: https://doi.org/10.1007/s10494-023-00403-8
 [research_cerminara_deiterding_2020]: https://doi.org/10.1016/j.ijheatfluidflow.2020.108732
@@ -7911,7 +7225,6 @@ available.
 [research_chang_tiernan_1986]: https://doi.org/10.21236/ada187197
 [research_chang_yuan_2022]: https://doi.org/10.1080/00102202.2022.2086000
 [research_changbao_hui_2020]: https://doi.org/10.1088/1757-899x/751/1/012078
-[research_changbeijiann_johnsondonaldw_2003]: https://ntrs.nasa.gov/citations/20030068063
 [research_cheah_bhattacharjee_2025]: https://doi.org/10.2514/1.g008331
 [research_chen_1969]: https://doi.org/10.2514/3.29720
 [research_chen_1969_b]: https://doi.org/10.1121/1.1972199
@@ -7921,8 +7234,6 @@ available.
 [research_chen_fan_2020]: https://doi.org/10.1016/j.actaastro.2019.10.047
 [research_chen_fan_2021]: https://doi.org/10.1016/j.jppr.2021.11.002
 [research_chen_fan_2025]: https://doi.org/10.26599/tst.2024.9010018
-[research_chen_feng_2023]: https://doi.org/10.1016/j.jppr.2023.10.001
-[research_chen_gao_2024]: https://doi.org/10.1093/ijlct/ctad120
 [research_chen_guo_2023]: https://doi.org/10.1063/5.0176245
 [research_chen_he_2025]: https://doi.org/10.1016/j.ast.2025.110086
 [research_chen_he_2025_b]: https://doi.org/10.1177/16878132251348391
@@ -7957,9 +7268,7 @@ available.
 [research_chimarodrickv_connerstimothyr_2009]: https://ntrs.nasa.gov/citations/20100041304
 [research_chimarodrickv_connerstimothyr_2010]: https://ntrs.nasa.gov/citations/20100024366
 [research_chinitz_erdos_1994]: https://doi.org/10.2514/3.23705
-[research_chinlaw_gkantonas_2024]: https://doi.org/10.1016/j.applthermaleng.2024.123294
 [research_chinnaraj_kim_2024]: https://doi.org/10.3390/ma17215229
-[research_chiong_soon_2022]: https://doi.org/10.11113/jm.v45.453
 [research_chitsomboon_northam_1991]: https://doi.org/10.2514/3.23292
 [research_chitsomboont_northamgb_1988]: https://ntrs.nasa.gov/citations/19880065924
 [research_cho_ha_1996]: https://doi.org/10.1016/0008-6223(96)00016-4
@@ -7972,12 +7281,8 @@ available.
 [research_choudhary_daschakladar_2021]: https://doi.org/10.1016/j.compstruct.2020.113274
 [research_choulynnchen_machkervynd_1995]: https://ntrs.nasa.gov/citations/19960047303
 [research_chowdhary_hoang_2022]: https://doi.org/10.1016/j.cma.2022.115396
-[research_chowdhury_ali_2022]: https://doi.org/10.2139/ssrn.4069602
-[research_chowdhury_ali_2023]: https://doi.org/10.1115/1.4062553
 [research_christol_1993]: https://doi.org/10.1016/0265-9646(93)90007-v
 [research_chu_1967]: https://doi.org/10.1016/0016-0032(67)90237-2
-[research_chu_2006]: https://doi.org/10.21236/ada473427
-[research_chu_salama_2005]: https://doi.org/10.21236/ada430184
 [research_chu_thompson_1992]: https://doi.org/10.1016/0956-7151(92)90393-s
 [research_chu_tu_2026]: https://doi.org/10.3390/pr14081315
 [research_chun_burr_1969]: https://doi.org/10.2514/3.44056
@@ -7985,7 +7290,6 @@ available.
 [research_chung_kim_1995]: https://doi.org/10.2514/3.26575
 [research_chung_lu_1995]: https://doi.org/10.2514/3.23863
 [research_chunks_lockerj_1994]: https://ntrs.nasa.gov/citations/19940022070
-[research_cisnerosdozal_xu_2019]: https://doi.org/10.1017/rdc.2019.102
 [research_citron_1963]: https://doi.org/10.2514/3.1792
 [research_clark_1969]: https://doi.org/10.2514/3.5359
 [research_clarkson_1960]: https://doi.org/10.21236/ad0294146
@@ -8016,13 +7320,10 @@ available.
 [research_cox_crabtree_1966]: https://doi.org/10.1063/1.3048343
 [research_cox_torres_1975]: https://doi.org/10.21236/ada007091
 [research_coxtimothyh_cottingmchristopher_2005]: https://ntrs.nasa.gov/citations/20050166903
-[research_coynelm_summersdp_1991]: https://ntrs.nasa.gov/citations/20040090063
 [research_craig_saric_2016]: https://doi.org/10.1017/jfm.2016.643
 [research_crocker_mcenaney_1991]: https://doi.org/10.1016/0008-6223(91)90163-d
-[research_cronin_2013]: https://doi.org/10.21236/ada594988
 [research_crown_1950]: https://doi.org/10.21236/ad0062509
 [research_cruden_tang_2021]: https://doi.org/10.1007/s00348-021-03227-2
-[research_csiro_boeing_2020]: https://doi.org/10.1016/s1464-2859(20)30393-x
 [research_cui_mei_2018]: https://doi.org/10.1016/j.applthermaleng.2018.02.038
 [research_cui_wang_2015]: https://doi.org/10.2514/1.j053378
 [research_cui_xu_2018]: https://doi.org/10.1016/j.actaastro.2017.10.034
@@ -8031,7 +7332,6 @@ available.
 [research_cunningham_1987]: https://doi.org/10.2514/3.25879
 [research_cuppoletti_ombrello_2019]: https://doi.org/10.1016/j.proci.2018.08.005
 [research_cuppoletti_ombrello_2020]: https://doi.org/10.1016/j.combustflame.2020.01.030
-[research_curatolo_modenini_2024]: https://doi.org/10.1016/j.ifacol.2024.08.457
 [research_curran_craig_1973]: https://doi.org/10.21236/ad0769481
 [research_curran_swithenbank_1966]: https://doi.org/10.1108/eb034117
 [research_curranet_beachhljr_1988]: https://ntrs.nasa.gov/citations/19890026132
@@ -8043,10 +7343,7 @@ available.
 [research_dai_shao_2025]: https://doi.org/10.1063/5.0305837
 [research_dai_zhao_2023]: https://doi.org/10.2514/1.t6675
 [research_daines_segal_1998]: https://doi.org/10.2514/2.5352
-[research_dakeyo_rouillard_2024]: https://doi.org/10.1051/0004-6361/202451272
 [research_dalzell_1991]: https://doi.org/10.21236/ada245702
-[research_damato_viggiano_2020]: https://doi.org/10.3390/en13225876
-[research_dana_e_propulsion_2019]: https://doi.org/10.1016/s1464-2859(19)30360-8
 [research_daniel_mee_1995]: https://doi.org/10.1016/0045-7949(94)00309-q
 [research_darrelrtenney_wbarrylisagor_1989]: https://ntrs.nasa.gov/citations/19900025960
 [research_dary_mpollock_1996]: https://doi.org/10.1016/0921-5093(95)10049-0
@@ -8063,7 +7360,6 @@ available.
 [research_davis_harvey_1981]: https://doi.org/10.21236/ada101185
 [research_davisdavido_2015]: https://ntrs.nasa.gov/citations/20150022184
 [research_davisgw_plankpp_1970]: https://ntrs.nasa.gov/citations/19700017938
-[research_deazevedobasto_estolanodelima_2023]: https://doi.org/10.1016/j.matpr.2023.04.048
 [research_debarber_1999]: https://doi.org/10.21236/ada388803
 [research_debnath_pandey_2015]: https://doi.org/10.4028/www.scientific.net/amm.772.136
 [research_debnath_roy_2023]: https://doi.org/10.1007/s42979-023-02020-8
@@ -8076,7 +7372,6 @@ available.
 [research_deiwertgeorges_1997]: https://ntrs.nasa.gov/citations/19970026372
 [research_delage_saiz_2022]: https://doi.org/10.1016/j.jeurceramsoc.2022.01.060
 [research_delcorsojosepha_cheatwoodfmcneil_2011]: https://ntrs.nasa.gov/citations/20110012051
-[research_delorenzo_ruffo_2023]: https://doi.org/10.3390/wevj14090263
 [research_deluca_2016]: https://doi.org/10.18321/ectj424
 [research_demangejeffreyj_taylorshawnc_2014]: https://ntrs.nasa.gov/citations/20150000141
 [research_demoura_ribeiro_2026]: https://doi.org/10.1007/s42401-026-00510-0
@@ -8090,11 +7385,9 @@ available.
 [research_deng_ren_2024]: https://doi.org/10.1016/j.compstruct.2024.118103
 [research_deng_wang_2025]: https://doi.org/10.1016/j.tsep.2025.104290
 [research_deng_ying_2026]: https://doi.org/10.1016/j.jeurceramsoc.2026.118587
-[research_derosa_laurenzi_2025]: https://doi.org/10.3390/aerospace12060530
 [research_desai_brahmachary_2019]: https://doi.org/10.1061/(asce)as.1943-5525.0001085
 [research_despirito_2015]: https://doi.org/10.2514/1.a32974
 [research_destefanofumo_sciti_2025]: https://doi.org/10.14339/sto-avt-384-2
-[research_deutsche_aircraft_2021]: https://doi.org/10.1016/s1464-2859(21)00437-5
 [research_dewey_1961]: https://doi.org/10.2514/8.5900
 [research_dharavath_manna_2015]: https://doi.org/10.1016/j.actaastro.2015.08.014
 [research_diao_liu_2025]: https://doi.org/10.1016/j.ijthermalsci.2024.109457
@@ -8118,7 +7411,6 @@ available.
 [research_diskinglenns_northamgburton_1988]: https://ntrs.nasa.gov/citations/19890026140
 [research_dixonsc_1985]: https://ntrs.nasa.gov/citations/19850017057
 [research_dixonsc_tenneydr_1985]: https://ntrs.nasa.gov/citations/19860003881
-[research_dlr_airbus_2018]: https://doi.org/10.1016/s1464-2859(18)30152-4
 [research_doggettrobertvjr_rickettsrodneyh_1991]: https://ntrs.nasa.gov/citations/19910017813
 [research_dong_cai_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000727
 [research_dong_cui_2020]: https://doi.org/10.1016/j.energy.2020.117463
@@ -8132,8 +7424,6 @@ available.
 [research_dossantos_passaro_2025]: https://doi.org/10.1016/j.tsep.2024.103172
 [research_dou_yang_2022]: https://doi.org/10.1016/j.actaastro.2022.07.016
 [research_dougherty_1975]: https://doi.org/10.2514/3.7045
-[research_dragna_aubert_1989]: https://doi.org/10.1002/rcm.1290030202
-[research_dragna_aubert_1989_b]: https://doi.org/10.1002/bms.1200180602
 [research_drennansa_sowawa_1993]: https://ntrs.nasa.gov/citations/19930070002
 [research_driscoll_stoddard_2015]: https://doi.org/10.2514/1.j053027
 [research_drtenney_wblisagor_1988]: https://ntrs.nasa.gov/citations/19890026171
@@ -8170,42 +7460,32 @@ available.
 [research_edwardsta_1992]: https://ntrs.nasa.gov/citations/19930038304
 [research_edwardsthomasalan_1988]: https://ntrs.nasa.gov/citations/19890008229
 [research_effects_of_2019]: https://doi.org/10.15372/fgv20190612
-[research_effects_of_2021]: https://doi.org/10.47176/jafm.14.03.31766
 [research_effects_of_2023]: https://doi.org/10.1063/5.0149813
 [research_ehrburger_baranne_1986]: https://doi.org/10.1016/0008-6223(86)90274-5
 [research_eidelman_sharov_2000]: https://doi.org/10.21236/ada405510
-[research_ekmekci_oral_2026]: https://doi.org/10.3390/modelling7040127
 [research_elderdj_1975]: https://ntrs.nasa.gov/citations/19760009061
 [research_elfverson_scheichl_2024]: https://doi.org/10.1137/22m1515240
-[research_elgar_raubenheimer_2011]: https://doi.org/10.21236/ada545009
 [research_elizabethfrieken_scottaberry_2020]: https://ntrs.nasa.gov/citations/20200003493
 [research_elkhoury_hickey_2026]: https://doi.org/10.1016/j.ast.2026.113130
 [research_elkowitz_wanchek_2024]: https://doi.org/10.1364/ao.507587
 [research_ellis_2025]: https://doi.org/10.2139/ssrn.5181173
 [research_ellisonjc_johnsoncb_1964]: https://ntrs.nasa.gov/citations/19650001351
 [research_elmouazen_zhang_2026]: https://doi.org/10.1063/5.0312618
-[research_elsaed_linjama_2024]: https://doi.org/10.1016/j.flowmeasinst.2023.102511
 [research_elyagoubi_lamon_2015]: https://doi.org/10.1007/s11340-014-9976-x
-[research_enable_consortium_2021]: https://doi.org/10.1016/s1464-2859(21)00496-x
 [research_engelundwalterc_hollandscottd_1999]: https://ntrs.nasa.gov/citations/20040086964
 [research_epstein_1961]: https://doi.org/10.2514/8.9128
 [research_erdahl_banning_1988]: https://doi.org/10.21236/ada203204
 [research_ericksonwd_klickgf_1970]: https://ntrs.nasa.gov/citations/19700014243
-[research_ershov_kashkarov_2016]: https://doi.org/10.1134/s0010508216010135
 [research_estabrooks_robinson_1961]: https://doi.org/10.21236/ad0261942
-[research_ethanol_pool_2023]: https://doi.org/10.24425/cpe.2022.140809
 [research_eugenioribeiro_boukharfane_2020]: https://doi.org/10.1016/j.compfluid.2019.104344
 [research_evaluation_of_2024]: https://doi.org/10.47176/jafm.17.3.2150
-[research_evaporator_of_1972]: https://doi.org/10.1016/0042-207x(72)90506-4
 [research_experimental_hypersonic_2019]: https://doi.org/10.12968/s0261-2097(22)60721-4
 [research_experimental_study_2022]: https://doi.org/10.47176/jafm.15.02.33220
 [research_eyi_hanquist_2019]: https://doi.org/10.2514/1.t5523
-[research_ezsol_guba_1997]: https://doi.org/10.13182/nt97-a35376
 [research_fang_xianyao_2020]: https://doi.org/10.1088/1757-899x/887/1/012031
 [research_fang_zeng_2026]: https://doi.org/10.1016/j.ast.2026.113019
 [research_fasel_gross_2011]: https://doi.org/10.21236/ada563832
 [research_fasel_keidel_2020]: https://doi.org/10.1016/j.mfglet.2019.12.004
-[research_fch2_ju_2020]: https://doi.org/10.1016/s1464-2859(20)30281-9
 [research_fedorova_2023]: https://doi.org/10.1134/s0010508223040020
 [research_feilden_glymond_2019]: https://doi.org/10.1016/j.ceramint.2019.05.032
 [research_feldmanjay_stewartdavid_2019]: https://ntrs.nasa.gov/citations/20190030273
@@ -8236,23 +7516,18 @@ available.
 [research_fooladgar_chan_2016]: https://doi.org/10.1155/2016/8261560
 [research_ford_1993]: https://doi.org/10.1108/eb037329
 [research_fordoei_mazaheri_2021]: https://doi.org/10.1016/j.ijhydene.2021.07.065
-[research_forgach_2002]: https://doi.org/10.21236/ada409338
 [research_forster_1963]: https://doi.org/10.2514/3.2121
 [research_fotia_2015]: https://doi.org/10.2514/1.b35171
 [research_fotia_schauer_2016]: https://doi.org/10.2514/1.b35913
 [research_fraiser_1960]: https://doi.org/10.2514/8.8575
-[research_free_molecular_1952]: https://doi.org/10.1016/0042-207x(52)93943-2
 [research_freeman_powell_1980]: https://doi.org/10.2514/3.57743
 [research_freeman_stanley_1995]: https://doi.org/10.1016/0094-5765(95)00087-g
 [research_freeman_talay_1996]: https://doi.org/10.1016/0094-5765(96)00051-3
-[research_freitag_2002]: https://doi.org/10.21236/ada404027
 [research_freitas_2020]: https://doi.org/10.1115/1.4047274
-[research_french_partnership_2021]: https://doi.org/10.1016/s1464-2859(21)00555-1
 [research_fresconi_rogers_2014]: https://doi.org/10.21236/ada606639
 [research_frey_2014]: https://doi.org/10.21236/ada622072
 [research_freydin_dowell_2021]: https://doi.org/10.2514/1.j060085
 [research_froning_1988]: https://doi.org/10.1016/0094-5765(88)90168-3
-[research_fruman_tulin_1975]: https://doi.org/10.21236/ada022433
 [research_fryronalds_beckerdorothyl_2000]: https://ntrs.nasa.gov/citations/20010036862
 [research_fu_hall_1993]: https://doi.org/10.1017/s0022112093000540
 [research_fu_hall_1993_b]: https://doi.org/10.1098/rsta.1993.0025
@@ -8269,20 +7544,16 @@ available.
 [research_fujio_taguchi_2026]: https://doi.org/10.1007/s12567-026-00722-2
 [research_fuller_1991]: https://doi.org/10.21236/ada248341
 [research_fureby_nilsson_2025]: https://doi.org/10.2514/1.j064432
-[research_furst_hahn_1997]: https://doi.org/10.1023/a:1008232219532
 [research_fusaro_borgna_2025]: https://doi.org/10.1016/j.actaastro.2024.11.061
 [research_fusaro_saccone_2024]: https://doi.org/10.1016/j.actaastro.2023.12.060
 [research_g_2020]: https://doi.org/10.22214/ijraset.2020.30549
 [research_g_g_2025]: https://doi.org/10.1063/5.0262265
-[research_gaddy_lonnied_1968]: https://doi.org/10.21236/ad0666763
 [research_gaisl_mudfordnr_1992]: https://ntrs.nasa.gov/citations/19920074118
-[research_gallagher_stuart_2025]: https://doi.org/10.33737/jgpps/204054
 [research_gamestani_2003]: https://doi.org/10.21236/ada422222
 [research_gao_2023]: https://doi.org/10.54254/2753-8818/11/20230391
 [research_gao_ge_2025]: https://doi.org/10.1007/s44270-025-00015-9
 [research_gao_gou_2021]: https://doi.org/10.1016/j.compstruct.2021.113962
 [research_gao_he_2026]: https://doi.org/10.1063/5.0322431
-[research_gao_jausseme_2022]: https://doi.org/10.1109/mele.2022.3165725
 [research_gao_jiang_2017]: https://doi.org/10.1016/j.proci.2016.06.184
 [research_gao_li_2015]: https://doi.org/10.1007/s11433-015-5710-7
 [research_gao_lin_2015]: https://doi.org/10.1007/s12555-014-0169-2
@@ -8292,7 +7563,6 @@ available.
 [research_gao_zhang_2020_b]: https://doi.org/10.1088/1742-6596/1634/1/012157
 [research_gao_zhang_2020_c]: https://doi.org/10.1088/1742-6596/1634/1/012159
 [research_gatesthomass_jeffersongaild_2008]: https://ntrs.nasa.gov/citations/20080015749
-[research_gaudron_cordier_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-1_367
 [research_ge_liu_2023]: https://doi.org/10.2514/1.g007180
 [research_ge_zhu_2026]: https://doi.org/10.2514/1.j066541
 [research_gebreegziabher_2007]: https://doi.org/10.21236/ada474558
@@ -8314,11 +7584,9 @@ available.
 [research_gilbertmichael_rajuivatury_2009]: https://ntrs.nasa.gov/citations/20090015238
 [research_gildfind_2024]: https://doi.org/10.1016/j.ast.2024.109621
 [research_gildfind_morgan_2015]: https://doi.org/10.1007/s00193-015-0609-9
-[research_giles_hajiali_2019]: https://doi.org/10.1137/18m1173186
 [research_gilinskymikhail_morganmorrish_2001]: https://ntrs.nasa.gov/citations/20020018895
 [research_gimelshein_wysong_2019]: https://doi.org/10.2514/1.t5556
 [research_glauser_lewalle_2011]: https://doi.org/10.21236/ada566128
-[research_glenning_bond_1962]: https://doi.org/10.1111/j.1479-828x.1962.tb00187.x
 [research_gnoffopetera_1993]: https://ntrs.nasa.gov/citations/19940008099
 [research_goel_duraisamy_2018]: https://doi.org/10.2514/1.j055812
 [research_gokul_malaikannan_2025]: https://doi.org/10.1017/aer.2025.10023
@@ -8340,7 +7608,6 @@ available.
 [research_gordon_1962]: https://doi.org/10.21236/ad0283940
 [research_gorskii_olenicheva_2018]: https://doi.org/10.1134/s0018151x18020104
 [research_goulard_1958]: https://doi.org/10.2514/8.7444
-[research_gould_1979]: https://doi.org/10.1016/0141-0296(79)90007-5
 [research_goulos_otter_2021]: https://doi.org/10.1016/j.ast.2021.106533
 [research_goynechristopherp_mcdanieljamesc_2002]: https://ntrs.nasa.gov/citations/20030007792
 [research_grassofrancesco_gnoffopetera_1990]: https://ntrs.nasa.gov/citations/19910049570
@@ -8355,7 +7622,6 @@ available.
 [research_griffith_1958]: https://doi.org/10.2514/8.7258
 [research_griffith_lewis_1963]: https://doi.org/10.21236/ad0408568
 [research_grimm_1992]: https://doi.org/10.1016/s1474-6670(17)49694-7
-[research_grish_weitzman_1974]: https://doi.org/10.21236/ada001087
 [research_ground_testing_2023]: https://doi.org/10.12968/s1478-2774(23)50337-9
 [research_gruenig_mayinger_1999]: https://doi.org/10.1080/00102209908924205
 [research_gu_sun_2021]: https://doi.org/10.1016/j.applthermaleng.2021.117245
@@ -8363,7 +7629,6 @@ available.
 [research_guadagnini_dezaiacomo_2023]: https://doi.org/10.3390/aerospace11010035
 [research_gugulothu_2020]: https://doi.org/10.1002/htj.21856
 [research_gui_wang_2022]: https://doi.org/10.2514/1.j060930
-[research_guilloteau_groll_2025]: https://doi.org/10.1016/j.ijhydene.2025.150494
 [research_guo_bi_2017]: https://doi.org/10.1016/j.applthermaleng.2017.05.038
 [research_guo_cao_2026]: https://doi.org/10.1063/5.0340255
 [research_guo_dong_2026]: https://doi.org/10.3390/hydrogen7020080
@@ -8371,24 +7636,18 @@ available.
 [research_guo_lei_2025]: https://doi.org/10.1061/jaeeez.aseng-5809
 [research_guo_luo_2020]: https://doi.org/10.3390/en13112911
 [research_guo_pang_2022]: https://doi.org/10.3390/en15155332
-[research_guo_su_2024]: https://doi.org/10.3390/en17163864
 [research_gupta_ashokkumar_2022]: https://doi.org/10.1108/aeat-04-2020-0069
 [research_gupta_lee_1990]: https://doi.org/10.2514/3.26122
-[research_gupta_mishra_2025]: https://doi.org/10.1007/s11085-025-10332-8
 [research_gupta_ramkumar_2015]: https://doi.org/10.12783/fae.2015.0401.02
 [research_gupta_schwer_2018]: https://doi.org/10.2514/1.b36545
 [research_gupta_sun_2009]: https://doi.org/10.21236/ada583075
 [research_gupta_venuprasad_2018]: https://doi.org/10.1088/1757-899x/455/1/012027
 [research_guyrw_mackleyea_1979]: https://ntrs.nasa.gov/citations/19790045400
 [research_gwak_lee_2016]: https://doi.org/10.2514/1.b36020
-[research_h2ships_project_2019]: https://doi.org/10.1016/s1464-2859(19)30321-9
 [research_ha_yoon_2018]: https://doi.org/10.6108/kspe.2018.22.1.045
 [research_hale_1973]: https://doi.org/10.21236/ad0757197
-[research_hale_norrie_1966]: https://doi.org/10.21236/ad0664518
 [research_haley_zhong_2023]: https://doi.org/10.1063/5.0137902
-[research_hall_lundgren_1991]: https://doi.org/10.1016/0168-1176(91)87002-i
 [research_hallion_becker_1995]: https://doi.org/10.21236/ada302634
-[research_hamburg_aerospace_2021]: https://doi.org/10.1016/s1464-2859(21)00438-7
 [research_hammitt_bogdonoff_1956]: https://doi.org/10.2514/8.6969
 [research_hammondmbjr_1966]: https://ntrs.nasa.gov/citations/19660060602
 [research_hamza_chattopadhyay_2024]: https://doi.org/10.1016/j.compstruct.2024.118360
@@ -8401,9 +7660,7 @@ available.
 [research_han_lee_2021]: https://doi.org/10.3390/en14051381
 [research_han_ma_2024]: https://doi.org/10.1016/j.apsusc.2024.159812
 [research_han_tian_2026]: https://doi.org/10.1016/j.applthermaleng.2026.132248
-[research_han_tong_1985]: https://doi.org/10.1016/0141-0296(85)90008-2
 [research_han_xu_2026]: https://doi.org/10.1063/5.0313065
-[research_haneklaus_reuven_2016]: https://doi.org/10.1016/j.jmatprotec.2016.03.008
 [research_hannemann_martinezschramm_2018]: https://doi.org/10.17815/jlsrf-4-168
 [research_hannumnedp_1988]: https://ntrs.nasa.gov/citations/19890000752
 [research_hannumnedp_berkopecfrankd_1989]: https://ntrs.nasa.gov/citations/19890063968
@@ -8411,7 +7668,6 @@ available.
 [research_hansamuels_1998]: https://ntrs.nasa.gov/citations/19990010016
 [research_hanzel_1962]: https://doi.org/10.21236/ad0408918
 [research_hao_chang_2016]: https://doi.org/10.1016/j.ast.2015.12.001
-[research_hao_jiang_2015]: https://doi.org/10.4028/www.scientific.net/amr.1095.130
 [research_hao_yan_2017]: https://doi.org/10.1016/j.ijheatmasstransfer.2016.11.052
 [research_hao_yu_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127490
 [research_harish_shabaz_2016]: https://doi.org/10.9790/1684-130503134137
@@ -8420,11 +7676,7 @@ available.
 [research_harney_1963]: https://doi.org/10.21236/ad0295147
 [research_hartillwr_goebeltp_1978]: https://ntrs.nasa.gov/citations/19780011153
 [research_hartsell_1961]: https://doi.org/10.2514/8.8946
-[research_haruyama_2015]: https://doi.org/10.21236/ada623477
 [research_harvinsf_cabellkf_2006]: https://ntrs.nasa.gov/citations/20070003589
-[research_harwell_s_respirator_1992]: https://doi.org/10.1016/0015-1882(92)80219-9
-[research_hassan_banerjee_1994]: https://doi.org/10.13182/nt94-a35030
-[research_hassan_troshko_1997]: https://doi.org/10.13182/nt77-a35392
 [research_hassneale_cabellkarenf_2010]: https://ntrs.nasa.gov/citations/20100002215
 [research_hastings_persh_1957]: https://doi.org/10.21236/ad0156190
 [research_hawkings_1974]: https://doi.org/10.1016/s0022-460x(74)80007-6
@@ -8442,9 +7694,6 @@ available.
 [research_he_zhong_2021]: https://doi.org/10.2514/1.j059697
 [research_heegjennifer_zeilerthomasa_1993]: https://ntrs.nasa.gov/citations/19930049936
 [research_heinemannk_bogdanoffdavidw_1992]: https://ntrs.nasa.gov/citations/19930008896
-[research_heinrich_1954]: https://doi.org/10.21236/ad0041737
-[research_heinrich_1954_b]: https://doi.org/10.21236/ad0041734
-[research_heise_mando_1983]: https://doi.org/10.21236/ada134014
 [research_helenbrookrg_mcconartywa_1971]: https://ntrs.nasa.gov/citations/19720014374
 [research_hemdan_1990]: https://doi.org/10.1016/0094-5765(90)90072-s
 [research_henderson_1964]: https://doi.org/10.2514/3.2502
@@ -8459,7 +7708,6 @@ available.
 [research_herrouin_bowen_1996]: https://doi.org/10.1557/proc-460-287
 [research_hertzberg_1956]: https://doi.org/10.2514/8.7091
 [research_hervy_maguis_2015]: https://doi.org/10.4271/2015-01-2154
-[research_hes_plans_2018]: https://doi.org/10.1016/s1464-2859(18)30364-x
 [research_hezhuohuij_podboyderekp_2018]: https://ntrs.nasa.gov/citations/20190001884
 [research_hicksjohnw_1991]: https://ntrs.nasa.gov/citations/19910063201
 [research_high_power_2022]: https://doi.org/10.2961/jlmn.2022.03.2006
@@ -8474,7 +7722,6 @@ available.
 [research_hitedale_1991]: https://ntrs.nasa.gov/citations/19910018895
 [research_hjulianallen_1962]: https://ntrs.nasa.gov/citations/19620000713
 [research_hjulianallen_1963]: https://ntrs.nasa.gov/citations/19640016213
-[research_hobbs_braverman_2017]: https://doi.org/10.1137/16m1060765
 [research_hodge_1976]: https://doi.org/10.21236/ada029544
 [research_hodgejeffreys_harvinstephenf_2000]: https://ntrs.nasa.gov/citations/20000058170
 [research_hoffman_phan_1995]: https://doi.org/10.1016/0008-6223(94)00176-z
@@ -8495,23 +7742,19 @@ available.
 [research_hongbo_yongyuan_2016]: https://doi.org/10.1504/ijscom.2016.076405
 [research_hongjun_qing_2015]: https://doi.org/10.1016/j.proeng.2014.12.710
 [research_hongpeng_weiqiang_2016]: https://doi.org/10.1016/j.actaastro.2016.05.014
-[research_hopkins_1999]: https://doi.org/10.21236/ada629788
 [research_hopkins_keener_1968]: https://doi.org/10.2514/3.4644
 [research_horing_maute_2025]: https://doi.org/10.2514/1.t7165
 [research_hornbeck_1975]: https://doi.org/10.21236/ada023471
-[research_horton_1996]: https://doi.org/10.21236/ada360935
 [research_hoseinzade_kim_2024]: https://doi.org/10.1063/5.0215973
 [research_hoseinzade_kim_2024_b]: https://doi.org/10.1016/j.ast.2024.109414
 [research_hoseinzade_lakzian_2025]: https://doi.org/10.1016/j.applthermaleng.2025.125827
 [research_howard_hansen_2006]: https://doi.org/10.21236/ada473434
 [research_hsia_1993]: https://doi.org/10.2514/3.23696
 [research_hsu_liou_1991]: https://doi.org/10.2514/3.23324
-[research_hu_2026]: https://doi.org/10.1016/j.aitf.2025.100026
 [research_hu_chang_2015]: https://doi.org/10.1061/(asce)as.1943-5525.0000389
 [research_hu_cheng_2023]: https://doi.org/10.1109/access.2023.3321892
 [research_hu_deng_2015]: https://doi.org/10.4028/www.scientific.net/amm.719-720.324
 [research_hu_guo_2025]: https://doi.org/10.1109/taes.2025.3591385
-[research_hu_li_2024]: https://doi.org/10.1016/j.fuel.2024.131183
 [research_hu_li_2026]: https://doi.org/10.1016/j.ijheatmasstransfer.2026.129036
 [research_hu_liu_2022]: https://doi.org/10.2139/ssrn.4231148
 [research_hu_mahadevan_2019]: https://doi.org/10.2514/1.j057865
@@ -8549,7 +7792,6 @@ available.
 [research_hueteruwe_turnerjames_1998]: https://ntrs.nasa.gov/citations/19990099681
 [research_hufgard_duernhofer_2023]: https://doi.org/10.1038/s41598-023-40281-8
 [research_huisheng_beijing_2021]: https://doi.org/10.1115/1.4053068
-[research_hummels_irons_2001]: https://doi.org/10.21236/ada392492
 [research_hung_maccormack_1977]: https://doi.org/10.2514/3.60633
 [research_hunt_hunt_2021]: https://doi.org/10.2514/1.b38334
 [research_hunterjamese_mccurdydavidr_2003]: https://ntrs.nasa.gov/citations/20050215095
@@ -8559,13 +7801,10 @@ available.
 [research_huntjamesl_martinjohng_1989]: https://ntrs.nasa.gov/citations/19890015839
 [research_huntjamesl_mcclintoncharlesr_1997]: https://ntrs.nasa.gov/citations/19980018699
 [research_huo_cheng_2015]: https://doi.org/10.1016/j.asr.2015.02.008
-[research_huo_wang_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-1_402
 [research_huo_yang_2015]: https://doi.org/10.4028/www.scientific.net/amm.775.59
 [research_hussein_2025]: https://doi.org/10.15199/40.2025.8.2
 [research_hwangkyuc_tiwarisurrendran_1995]: https://ntrs.nasa.gov/citations/19960002555
 [research_hyde_knight_1975]: https://doi.org/10.1109/jqe.1975.1068751
-[research_hydrogen_in_2023]: https://doi.org/10.12968/s1464-2859(23)70021-7
-[research_hydrogen_in_2023_b]: https://doi.org/10.12968/s1464-2859(23)70068-0
 [research_hyers_2009]: https://doi.org/10.21236/ada524249
 [research_hyland_1972]: https://doi.org/10.2514/3.61753
 [research_hypersonic_materials_2023]: https://doi.org/10.12968/s1478-2774(24)50016-3
@@ -8611,7 +7850,6 @@ available.
 [research_james_agrawal_2026]: https://doi.org/10.1016/j.proci.2026.106110
 [research_jang_kim_2021]: https://doi.org/10.6108/kspe.2021.25.3.081
 [research_janiszewski_wozniak_2022]: https://doi.org/10.5604/01.3001.0016.1105
-[research_jardieu_1994]: https://doi.org/10.21236/ada286232
 [research_jawed_nagle_1986]: https://doi.org/10.1016/0025-5408(86)90075-9
 [research_jayaraman_lewis_1997]: https://doi.org/10.2514/2.5141
 [research_jee_etele_2020]: https://doi.org/10.2514/1.a34616
@@ -8655,7 +7893,6 @@ available.
 [research_jingqi_yulong_2024]: https://doi.org/10.1016/j.energy.2024.132763
 [research_jo_choi_2026]: https://doi.org/10.1016/j.ijhydene.2026.156139
 [research_jobart_blandin_1994]: https://doi.org/10.4028/www.scientific.net/msf.170-172.465
-[research_john_crane_2019]: https://doi.org/10.1016/s1359-6128(19)30117-x
 [research_johnson_narayanaswamy_2024]: https://doi.org/10.2514/1.j064324
 [research_johnson_seipp_1998]: https://doi.org/10.1063/1.869781
 [research_johnson_wu_1975]: https://doi.org/10.1115/1.3447318
@@ -8702,15 +7939,12 @@ available.
 [research_kandula_kummitha_2025]: https://doi.org/10.1080/00102202.2025.2580323
 [research_kang_1970]: https://doi.org/10.2514/3.5883
 [research_kang_kim_2018]: https://doi.org/10.5139/jksas.2018.46.11.892
-[research_kapasi_mcrae_2025]: https://doi.org/10.1063/5.0236965
 [research_kapusta_boruc_2021]: https://doi.org/10.1016/j.fuel.2020.119370
 [research_karabacak_turan_2023]: https://doi.org/10.18038/estubtda.1270986
 [research_karanianaj_keplerce_1965]: https://ntrs.nasa.gov/citations/19650044095
 [research_karasopoulos_langan_1992]: https://doi.org/10.21236/ada259761
 [research_karl_steelant_2018]: https://doi.org/10.2514/1.b36637
 [research_kaskan_reuther_1977]: https://doi.org/10.1016/s0082-0784(77)80398-6
-[research_kasprzyk_sentmanat_2022]: https://doi.org/10.1115/1.4055946
-[research_kato_yokoo_1980]: https://doi.org/10.1016/0141-0296(80)90016-4
 [research_kaufman_1963]: https://doi.org/10.21236/ad0421859
 [research_kaufmanalbert_1988]: https://ntrs.nasa.gov/citations/19880013021
 [research_kaulupenderk_1989]: https://ntrs.nasa.gov/citations/19910036572
@@ -8722,27 +7956,20 @@ available.
 [research_kellyhn_wietingar_1984]: https://ntrs.nasa.gov/citations/19840017665
 [research_kellyhneale_blossermaxl_1992]: https://ntrs.nasa.gov/citations/19930003270
 [research_kellyhneale_blossermaxl_1994]: https://ntrs.nasa.gov/citations/19940033030
-[research_kemp_1997]: https://doi.org/10.1016/s0141-0296(97)00040-0
 [research_kenger_leavy_1955]: https://doi.org/10.21236/ad0097491
-[research_kenyon_1983]: https://doi.org/10.1002/bms.1200101002
 [research_kerlinee_1966]: https://ntrs.nasa.gov/citations/19670009800
 [research_kerrebrock_1992]: https://doi.org/10.2514/3.23600
 [research_kerrebrockjackl_poferldavidj_1984]: https://ntrs.nasa.gov/citations/19970030198
 [research_kerth_lepage_2024]: https://doi.org/10.1063/5.0189321
-[research_ketola_gron_1998]: https://doi.org/10.1002/(sici)1097-0231(19980630)12:12<773::aid-rcm231>3.0.co;2-d
-[research_ketola_heikkonen_1998]: https://doi.org/10.1002/(sici)1097-0231(19980815)12:15<1011::aid-rcm268>3.0.co;2-x
-[research_ketola_lauritsen_1999]: https://doi.org/10.1002/(sici)1097-0231(19990430)13:8<749::aid-rcm553>3.0.co;2-b
 [research_khali_yao_2018]: https://doi.org/10.1504/ijtamm.2018.096429
 [research_khamlak_2026]: https://doi.org/10.37547/tajet/book-26-01
 [research_khan_chakraborty_2023]: https://doi.org/10.2514/1.j063120
 [research_khan_riccio_2024]: https://doi.org/10.1016/j.paerosci.2024.101021
 [research_kharitonov_chernykh_1974]: https://doi.org/10.1007/bf01031324
-[research_khatoon_kim_2020]: https://doi.org/10.1016/j.enconman.2019.112416
 [research_khrapko_2018]: https://doi.org/10.18502/keg.v3i3.1647
 [research_kianvashrad_knight_2019]: https://doi.org/10.2514/1.j057883
 [research_kibbeytim_2019]: https://ntrs.nasa.gov/citations/20190027424
 [research_kiehn_2020]: https://doi.org/10.1007/s12567-020-00319-3
-[research_kigezi_dunne_2017]: https://doi.org/10.1115/1.4036886
 [research_kikuyama_murakami_1983]: https://doi.org/10.1299/jsme1958.26.970
 [research_kim_2018]: https://doi.org/10.1063/1.5078623
 [research_kim_choi_2021]: https://doi.org/10.32908/hthp.v50.1079
@@ -8755,7 +7982,6 @@ available.
 [research_kim_seo_2022]: https://doi.org/10.5139/jksas.2022.50.1.21
 [research_kim_seo_2025]: https://doi.org/10.1016/j.ast.2025.109978
 [research_kim_shim_2025]: https://doi.org/10.1007/s00348-025-04117-7
-[research_kimball_lemon_1969]: https://doi.org/10.21236/ad0705379
 [research_kimhyoungjin_kumanotakayasu_2011]: https://ntrs.nasa.gov/citations/20110011992
 [research_kimmel_adamczak_2011]: https://doi.org/10.21236/ada548272
 [research_kimmel_borg_2015]: https://doi.org/10.21236/ada623564
@@ -8766,7 +7992,6 @@ available.
 [research_kirik_goyne_2018]: https://doi.org/10.2514/1.b36605
 [research_kirkby_1964]: https://doi.org/10.1016/0010-2180(64)90103-8
 [research_kirsch_krueger_2025]: https://doi.org/10.1115/1.4070187
-[research_klaisnerova_krivsky_2023]: https://doi.org/10.21062/mft.2022.078
 [research_klein_chakraborty_2017]: https://doi.org/10.1007/s10494-017-9843-9
 [research_kline_alonso_2017]: https://doi.org/10.2514/1.j055863
 [research_klothakis_nikolos_2024]: https://doi.org/10.3390/computation12070140
@@ -8777,37 +8002,30 @@ available.
 [research_knightnormanfjr_nemethmichaelp_2006]: https://ntrs.nasa.gov/citations/20060008032
 [research_ko_mannion_2025]: https://doi.org/10.2514/1.t6991
 [research_ko_son_2026]: https://doi.org/10.1016/j.ast.2026.112444
-[research_kobayashi_akiho_2019]: https://doi.org/10.1016/j.fuel.2019.03.136
 [research_kobayashi_yoshihara_1990]: https://doi.org/10.1080/02619180.1990.11753477
 [research_kocaaslan_2024]: https://doi.org/10.46793/adeletters.2024.3.1.1
 [research_koch_wilken_2025]: https://doi.org/10.1007/s12567-025-00597-9
-[research_kohne_oertel_1996]: https://doi.org/10.1016/0038-092x(95)00076-4
 [research_kolimiabdulahad_2021]: https://doi.org/10.21275/sr21926223440
-[research_kollar_1985]: https://doi.org/10.1016/0141-0296(85)90006-9
 [research_kolwey_1977]: https://doi.org/10.21236/ada039748
 [research_kong_chang_2020]: https://doi.org/10.2514/1.j059302
 [research_kong_lee_2023]: https://doi.org/10.1016/j.jeurceramsoc.2023.02.048
 [research_koo_lee_2023]: https://doi.org/10.3390/aerospace10110949
 [research_koo_raman_2015]: https://doi.org/10.1016/j.proci.2014.08.005
-[research_korkmaz_werner_2021]: https://doi.org/10.3390/jmse9010075
 [research_koroglu_vasu_2016]: https://doi.org/10.1002/kin.21024
 [research_kors_1988]: https://doi.org/10.1016/0094-5765(88)90099-9
 [research_kortejj_2000]: https://ntrs.nasa.gov/citations/19990116372
 [research_kortejohnj_singhdj_1993]: https://ntrs.nasa.gov/citations/19930065724
-[research_kosters_liu_2022]: https://doi.org/10.1016/j.ijhydene.2022.06.235
 [research_koubek_1963]: https://doi.org/10.21236/ad0408362
 [research_kouchi_goyne_2015]: https://doi.org/10.1007/s00348-015-2081-9
 [research_kovacev_li_2022]: https://doi.org/10.3390/aerospace9050255
 [research_kowbel_huang_1993]: https://doi.org/10.1016/0008-6223(93)90040-h
 [research_kramer_2024]: https://doi.org/10.1038/d41586-024-02240-9
 [research_kramer_buhler_1980]: https://doi.org/10.2514/3.57746
-[research_kratzig_zhuang_1992]: https://doi.org/10.1016/0141-0296(92)90042-o
 [research_kreutz_law_1996]: https://doi.org/10.1016/0140-6701(96)88878-3
 [research_krishamurthyramesh_1993]: https://ntrs.nasa.gov/citations/19940023408
 [research_krivosheyev_kisel_2024]: https://doi.org/10.1016/j.ijhydene.2024.03.363
 [research_krouse_ellis_1966]: https://doi.org/10.21236/ad0634562
 [research_kshetrimayum_menezes_2021]: https://doi.org/10.1088/1361-6501/abe161
-[research_kukita_osakabe_1985]: https://doi.org/10.3327/jnst.22.678
 [research_kulkarni_gujar_2026]: https://doi.org/10.1615/hightempmatproc.2025058747
 [research_kumakawa_1989]: https://doi.org/10.3775/jie.68.107
 [research_kumar_1982]: https://doi.org/10.2514/3.51052
@@ -8831,7 +8049,6 @@ available.
 [research_kunz_1967]: https://doi.org/10.21236/ad0824527
 [research_kuo_thynell_1998]: https://doi.org/10.21236/ada357836
 [research_kuppa_goldmann_2018]: https://doi.org/10.1016/j.fuel.2018.02.064
-[research_kurdyumov_lopatko_2018]: https://doi.org/10.30894/issn2409-0239.2018.5.3.52.59
 [research_kurosaka_shimamura_2024]: https://doi.org/10.1007/s00193-024-01194-1
 [research_kurtz_aizengendler_2016]: https://doi.org/10.2514/1.j054207
 [research_kutri_scheichl_2026]: https://doi.org/10.1137/24m1715854
@@ -8839,10 +8056,8 @@ available.
 [research_kutschenreuter_balent_1965]: https://doi.org/10.2514/3.28150
 [research_kutschenreuter_paulh_1966]: https://doi.org/10.21236/ad0636981
 [research_kutschenreuterpaul_1992]: https://ntrs.nasa.gov/citations/19920012285
-[research_kutty_rajendran_2017]: https://doi.org/10.3390/aerospace4010010
 [research_kuznetsov_1980]: https://doi.org/10.21236/ada113588
 [research_kydd_mullaney_1961]: https://doi.org/10.1016/0010-2180(61)90112-2
-[research_laad_2022]: https://doi.org/10.2339/politeknik.824853
 [research_labib_king_2015]: https://doi.org/10.1016/j.nucengdes.2015.02.004
 [research_labib_king_2015_b]: https://doi.org/10.1016/j.nucengdes.2015.02.006
 [research_lachcynthial_domackmarcias_2003]: https://ntrs.nasa.gov/citations/20030075676
@@ -8850,7 +8065,6 @@ available.
 [research_ladeinde_lou_2019]: https://doi.org/10.1016/j.combustflame.2019.03.030
 [research_ladyzhenskii_lipin_1966]: https://doi.org/10.1007/bf01016282
 [research_lagoudas_sanders_2001]: https://doi.org/10.21236/ada388552
-[research_lahbabi_chang_1985]: https://doi.org/10.1016/0009-2509(85)85105-8
 [research_laiht_kimsc_1993]: https://ntrs.nasa.gov/citations/19930065723
 [research_lakka_randive_2021]: https://doi.org/10.1016/j.actaastro.2020.08.040
 [research_lan_wang_2025]: https://doi.org/10.1016/j.ifacol.2025.11.420
@@ -8863,8 +8077,6 @@ available.
 [research_lantz_1992]: https://doi.org/10.2514/3.23510
 [research_larsson_laurence_2015]: https://doi.org/10.1016/j.combustflame.2014.09.017
 [research_lathamea_sorensonne_1972]: https://ntrs.nasa.gov/citations/19720007338
-[research_lauritsen_bohatka_1990]: https://doi.org/10.1002/rcm.1290041011
-[research_lauritsen_kotiaho_1993]: https://doi.org/10.1002/bms.1200221005
 [research_law_2004]: https://doi.org/10.21236/ada429385
 [research_law_metghalchi_1989]: https://doi.org/10.1016/s0082-0784(89)80183-3
 [research_lawingpl_johnsoncb_1978]: https://ntrs.nasa.gov/citations/19780034729
@@ -8880,9 +8092,7 @@ available.
 [research_lee_jo_2026]: https://doi.org/10.3390/aerospace13010079
 [research_lee_kang_2015]: https://doi.org/10.6108/kspe.2015.19.6.081
 [research_lee_kang_2019]: https://doi.org/10.1371/journal.pone.0224994
-[research_lee_kang_2019_b]: https://doi.org/10.1007/s00158-019-02434-0
 [research_lee_kang_2020]: https://doi.org/10.6108/kspe.2020.24.6.016
-[research_lee_kang_2025]: https://doi.org/10.1007/s00158-024-03957-x
 [research_lee_kim_2020]: https://doi.org/10.1371/journal.pone.0240300
 [research_lee_lee_2023]: https://doi.org/10.3390/aerospace10050415
 [research_lee_song_2016]: https://doi.org/10.1016/j.ijhydene.2016.09.036
@@ -8893,25 +8103,20 @@ available.
 [research_lees_1956]: https://doi.org/10.2514/8.6977
 [research_lees_1957]: https://doi.org/10.2514/8.12491
 [research_lefieux_garnier_2021]: https://doi.org/10.2514/1.j059972
-[research_legentilhomme_legrand_1991]: https://doi.org/10.1016/0017-9310(91)90036-e
 [research_lehmusto_ievlev_2024]: https://doi.org/10.1007/s11085-024-10323-1
 [research_lehtinen_zeller_1972]: https://doi.org/10.1016/0005-1098(72)90027-1
 [research_lehtinenb_zellerjr_1978]: https://ntrs.nasa.gov/citations/19780015081
-[research_lei_cao_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-1_5
 [research_lei_zhang_2023]: https://doi.org/10.1016/j.tsep.2023.102255
 [research_leingangjl_stullfd_1992]: https://ntrs.nasa.gov/citations/19920012289
 [research_lemcoemm_1992]: https://ntrs.nasa.gov/citations/19930004481
 [research_lepsch_naftel_1993]: https://doi.org/10.2514/3.26368
 [research_lepsch_stanley_1991]: https://doi.org/10.2514/3.26281
 [research_lernerji_mcintoshscjr_1968]: https://ntrs.nasa.gov/citations/19710005866
-[research_leshchik_ocheredko_2023]: https://doi.org/10.1615/hightempmatproc.2023048357
 [research_levensteins_krumins_1967]: https://doi.org/10.2514/3.4256
 [research_lewis_1979]: https://doi.org/10.21236/ada067270
 [research_lewis_1993]: https://doi.org/10.2514/3.23624
-[research_lewis_deen_1993]: https://doi.org/10.1002/bms.1200220106
 [research_lewis_dmr_1995]: https://doi.org/10.1016/0262-1762(95)90910-9
 [research_lewis_hastings_1989]: https://doi.org/10.2514/3.23200
-[research_li_2017]: https://doi.org/10.1016/j.omega.2016.07.002
 [research_li_2020]: https://doi.org/10.1515/htmp-2020-0044
 [research_li_2020_b]: https://doi.org/10.1080/09276440.2020.1775016
 [research_li_2021]: https://doi.org/10.1016/j.compstruct.2020.113297
@@ -8922,7 +8127,6 @@ available.
 [research_li_chen_2022]: https://doi.org/10.1016/j.cja.2021.07.039
 [research_li_choudhari_2022]: https://doi.org/10.1007/s00162-021-00599-3
 [research_li_feng_2026]: https://doi.org/10.1016/j.ast.2025.111490
-[research_li_hawkes_2025]: https://doi.org/10.1016/j.combustflame.2025.114393
 [research_li_huang_2020]: https://doi.org/10.1016/j.energy.2020.116920
 [research_li_huang_2024]: https://doi.org/10.3390/aerospace11110886
 [research_li_ji_2025]: https://doi.org/10.1063/5.0292927
@@ -8932,7 +8136,6 @@ available.
 [research_li_jiao_2026]: https://doi.org/10.1016/j.ast.2025.111255
 [research_li_jin_2017]: https://doi.org/10.1080/00102202.2017.1376190
 [research_li_jin_2021]: https://doi.org/10.1016/j.jaap.2021.105084
-[research_li_lange_2018]: https://doi.org/10.1080/16864360.2018.1441230
 [research_li_leng_2023]: https://doi.org/10.1016/j.icheatmasstransfer.2022.106514
 [research_li_li_2018]: https://doi.org/10.1021/acs.energyfuels.8b00531
 [research_li_li_2022]: https://doi.org/10.1109/access.2021.3136612
@@ -8978,12 +8181,9 @@ available.
 [research_li_zeng_2022]: https://doi.org/10.2514/1.j061355
 [research_li_zeng_2024]: https://doi.org/10.1088/1742-6596/2882/1/012089
 [research_li_zeng_2026]: https://doi.org/10.1016/j.neunet.2026.108694
-[research_li_zhang_2015]: https://doi.org/10.1016/j.conengprac.2014.09.016
 [research_li_zhang_2018]: https://doi.org/10.1515/tjj-2016-0052
-[research_li_zhang_2018_b]: https://doi.org/10.1088/1742-6596/1065/9/092002
 [research_li_zhang_2025]: https://doi.org/10.1007/s42405-025-00941-7
 [research_li_zhang_2026]: https://doi.org/10.1016/j.ast.2025.111328
-[research_li_zhang_2026_b]: https://doi.org/10.4208/cicp.oa-2024-0212
 [research_li_zhao_2024]: https://doi.org/10.1016/j.combustflame.2024.113725
 [research_li_zheng_2015]: https://doi.org/10.1016/j.egypro.2015.02.080
 [research_li_zheng_2016]: https://doi.org/10.1115/1.4034446
@@ -9001,7 +8201,6 @@ available.
 [research_lieuwen_zinn_1998]: https://doi.org/10.1016/s0082-0784(98)80022-2
 [research_lillardrandolphp_oliverabrandon_2011]: https://ntrs.nasa.gov/citations/20110024207
 [research_lilley_pengelly_1993]: https://doi.org/10.2514/3.23700
-[research_lim_dahlkild_2018]: https://doi.org/10.1115/1.4040852
 [research_limerick_1991]: https://doi.org/10.2514/3.23290
 [research_lipanov_karskanov_2024]: https://doi.org/10.20537/nd240803
 [research_liquid_hydrogen_2022]: https://doi.org/10.12968/s1478-2774(23)50277-5
@@ -9019,7 +8218,6 @@ available.
 [research_liu_fan_2019]: https://doi.org/10.1016/j.actaastro.2019.04.041
 [research_liu_han_2023]: https://doi.org/10.1016/j.energy.2023.129003
 [research_liu_kuang_2024]: https://doi.org/10.1515/tjj-2024-0047
-[research_liu_kuhl_2000]: https://doi.org/10.21236/ada382940
 [research_liu_li_2023]: https://doi.org/10.3390/en16010505
 [research_liu_li_2025]: https://doi.org/10.1007/s00348-025-03967-5
 [research_liu_liu_2016]: https://doi.org/10.1016/j.actaastro.2015.10.015
@@ -9068,11 +8266,8 @@ available.
 [research_longwell_weiss_1952]: https://doi.org/10.21236/ad0041743
 [research_lonkar_panda_2026]: https://doi.org/10.1016/j.ast.2026.112194
 [research_loomismarkp_1994]: https://ntrs.nasa.gov/citations/19950005525
-[research_lou_huang_2026]: https://doi.org/10.1016/j.ijhydene.2026.153946
-[research_loustaunau_1996]: https://doi.org/10.21236/ada375718
 [research_lovelltalan_schmidtdk_1994]: https://ntrs.nasa.gov/citations/19940023286
 [research_low_energy_1978]: https://ntrs.nasa.gov/citations/19790006960
-[research_lowe_1972]: https://doi.org/10.1115/1.3451684
 [research_lu_gang_2026]: https://doi.org/10.1016/j.ast.2026.111837
 [research_lu_sheng_2025]: https://doi.org/10.1016/j.fuel.2024.134216
 [research_lu_zhang_2024]: https://doi.org/10.1016/j.enconman.2023.117913
@@ -9086,7 +8281,6 @@ available.
 [research_lun_wang_2024]: https://doi.org/10.1007/s11071-023-09270-4
 [research_lun_wang_2024_b]: https://doi.org/10.3724/j.gter.20240011
 [research_lun_wang_2024_c]: https://doi.org/10.1016/j.ast.2024.109653
-[research_lunze_2019]: https://doi.org/10.1016/j.ifacol.2019.09.002
 [research_luo_li_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127298
 [research_luo_liu_2024]: https://doi.org/10.1360/sspma-2023-0126
 [research_luo_luo_2025]: https://doi.org/10.1016/j.renene.2025.123606
@@ -9120,7 +8314,6 @@ available.
 [research_ma_jiang_2023]: https://doi.org/10.1016/j.energy.2023.128540
 [research_ma_shu_2025]: https://doi.org/10.1016/j.energy.2025.139462
 [research_ma_sun_2021]: https://doi.org/10.1016/j.actaastro.2021.02.020
-[research_ma_wang_2018]: https://doi.org/10.1007/s00158-018-2113-1
 [research_ma_yang_2024]: https://doi.org/10.1016/j.ast.2024.108969
 [research_ma_yang_2024_b]: https://doi.org/10.1155/2024/5557153
 [research_ma_zhao_2025]: https://doi.org/10.2514/1.j065087
@@ -9132,7 +8325,6 @@ available.
 [research_maekawa_higashi_1978]: https://doi.org/10.1299/kikai1938.44.2304
 [research_maglieridomenicj_sothcottvictore_1990]: https://ntrs.nasa.gov/citations/19910029827
 [research_magnus_sharp_2020]: https://doi.org/10.1016/j.ceramint.2020.05.151
-[research_mahmood_wolpert_2015]: https://doi.org/10.1137/130909445
 [research_mahto_choubey_2016]: https://doi.org/10.1016/j.actaastro.2016.08.010
 [research_maikap_rajagopal_2024]: https://doi.org/10.1063/5.0185787
 [research_maiorova_prosuntsov_2016]: https://doi.org/10.1007/s10891-016-1406-8
@@ -9141,13 +8333,11 @@ available.
 [research_malakondaiah_nicholas_1996]: https://doi.org/10.1007/bf02651878
 [research_malekipour_mohammadiamin_2021]: https://doi.org/10.1061/(asce)as.1943-5525.0001296
 [research_malik_anderson_1991]: https://doi.org/10.1063/1.858012
-[research_malik_hossain_2016]: https://doi.org/10.1080/01676830.2016.1176054
 [research_malonemichaelb_peaveycharlesc_1999]: https://ntrs.nasa.gov/citations/20000044629
 [research_mandal_pramanick_2018]: https://doi.org/10.1088/1757-899x/377/1/012088
 [research_mandelg_carpenterjljr_1977]: https://ntrs.nasa.gov/citations/19770000080
 [research_mann_garner_1977]: https://doi.org/10.21236/ada040707
 [research_manna_dharavath_2023]: https://doi.org/10.61653/joast.v61i4.2009.589
-[research_mannava_velautham_2023]: https://doi.org/10.38105/spr.4z2j4tru9a
 [research_mannion_ko_2026]: https://doi.org/10.2514/1.t7258
 [research_mannion_ko_2026_b]: https://doi.org/10.2514/1.t7150
 [research_manocha_manocha_1995]: https://doi.org/10.1016/0008-6223(94)00168-y
@@ -9157,7 +8347,6 @@ available.
 [research_mao_zhang_2016]: https://doi.org/10.1007/s00500-016-2201-3
 [research_marchetti_minisci_2021]: https://doi.org/10.1007/s11081-021-09698-w
 [research_mareklindsayc_2011]: https://ntrs.nasa.gov/citations/20110024073
-[research_mariemlajnef_mabroukmosbahi_2024]: https://doi.org/10.37934/cfdl.16.10.94111
 [research_marley_driscoll_2022]: https://doi.org/10.2514/1.c036411
 [research_marschall_2011]: https://doi.org/10.21236/ada553782
 [research_marsh_sears_1954]: https://doi.org/10.2514/8.6480
@@ -9173,7 +8362,6 @@ available.
 [research_masad_1995]: https://doi.org/10.1115/1.2817329
 [research_masahashi_mizuhara_1991]: https://doi.org/10.2355/isijinternational.31.728
 [research_mason_brainin_1962]: https://doi.org/10.21236/ada280215
-[research_mass_spectrometer_1966]: https://doi.org/10.1016/0042-207x(66)90418-0
 [research_matarrese_messiter_1991]: https://doi.org/10.2514/3.10846
 [research_mathavaraj_padhi_2020]: https://doi.org/10.1142/s230138502050003x
 [research_mathur_singh_2024]: https://doi.org/10.22214/ijraset.2024.65672
@@ -9186,7 +8374,6 @@ available.
 [research_mayer_paynter_1995]: https://doi.org/10.2514/3.12418
 [research_mbagwu_dalle_2023]: https://doi.org/10.2514/1.c037186
 [research_mcanally_williamj_1970]: https://doi.org/10.21236/ad0875953
-[research_mcbryarh_1980]: https://ntrs.nasa.gov/citations/19800024965
 [research_mcclintoncr_andersongy_1980]: https://ntrs.nasa.gov/citations/19810004547
 [research_mcclintoncr_torrencemg_1975]: https://ntrs.nasa.gov/citations/19760006009
 [research_mcclure_sirbaugh_1991]: https://doi.org/10.21236/ada232101
@@ -9209,7 +8396,6 @@ available.
 [research_mehtaunmeelb_1994]: https://ntrs.nasa.gov/citations/19950008507
 [research_mehtaunmeelb_bogdanoffdavidw_2001]: https://ntrs.nasa.gov/citations/20010048659
 [research_mei_shi_2020]: https://doi.org/10.1016/j.mtcomm.2019.100773
-[research_meieraugenstein_1997]: https://doi.org/10.1002/(sici)1097-0231(19971030)11:16<1775::aid-rcm89>3.0.co;2-p
 [research_melconianjerryo_mongiahukamc_1992]: https://ntrs.nasa.gov/citations/19920071411
 [research_melnikwl_perinill_1968]: https://ntrs.nasa.gov/citations/19680040420
 [research_mendez_2001]: https://doi.org/10.21236/ada405809
@@ -9237,9 +8423,6 @@ available.
 [research_microstructural_control_1997]: https://doi.org/10.1016/s0026-0657(97)87116-0
 [research_middenraymonde_millercharlesgiii_1985]: https://ntrs.nasa.gov/citations/19870020345
 [research_middletontroyf_ballarobertjeffrey_2011]: https://ntrs.nasa.gov/citations/20110011132
-[research_mihalic_zaninovic_2025]: https://doi.org/10.18690/jet.17.3.54-61.2024
-[research_milford_schnobrich_1986]: https://doi.org/10.1016/0141-0296(86)90019-2
-[research_miller_theis_1977]: https://doi.org/10.21236/ada054240
 [research_min_yee_2021]: https://doi.org/10.2514/1.j059222
 [research_minottgm_pellerjb_1976]: https://ntrs.nasa.gov/citations/19760024058
 [research_mishra_jarrahbashi_2024]: https://doi.org/10.1063/5.0217903
@@ -9250,9 +8433,7 @@ available.
 [research_mizener_lu_2017]: https://doi.org/10.2514/1.b36432
 [research_mogavero_brown_2018]: https://doi.org/10.2514/1.a33676
 [research_mohamad_ivan_2024]: https://doi.org/10.1016/j.fuel.2024.132227
-[research_mohammadalrawi_nivedrajan_2022]: https://doi.org/10.37934/cfdl.14.2.5971
 [research_mohammadnejad_vena_2019]: https://doi.org/10.1016/j.combustflame.2019.06.016
-[research_mohapatra_sanjay_2018]: https://doi.org/10.1016/j.applthermaleng.2018.03.023
 [research_mohring_gabler_2021]: https://doi.org/10.1109/map.2020.3003226
 [research_mohsen_yusoff_2017]: https://doi.org/10.1007/s00193-017-0758-0
 [research_moin_lele_1998]: https://doi.org/10.21236/ada343835
@@ -9262,7 +8443,6 @@ available.
 [research_mondal_jagtap_2026]: https://doi.org/10.1063/5.0324870
 [research_montagnejl_yeehc_1988]: https://ntrs.nasa.gov/citations/19880008960
 [research_montagnejl_yeehc_1989]: https://ntrs.nasa.gov/citations/19890061394
-[research_monte_carlo_based_2025]: https://doi.org/10.20508/ijrer.v15i1.14694.g9010
 [research_moore_1986]: https://doi.org/10.2514/3.22941
 [research_mori_1965]: https://doi.org/10.1299/jsmemag.68.562_1587
 [research_morinaga_1969]: https://doi.org/10.1246/bcsj.42.2106
@@ -9270,9 +8450,7 @@ available.
 [research_morrissjjr_nelmswpjr_1976]: https://ntrs.nasa.gov/citations/19770009073
 [research_mosespl_bouchardka_1999]: https://ntrs.nasa.gov/citations/19990115467
 [research_mossjamesn_simmondsannl_1987]: https://ntrs.nasa.gov/citations/19870035337
-[research_mou_yan_2021]: https://doi.org/10.1098/rsos.210568
 [research_moura_wheatley_2019]: https://doi.org/10.1007/s00193-019-00908-0
-[research_mousavi_mousavi_2026]: https://doi.org/10.1038/s41598-026-63610-z
 [research_mueller_1985]: https://doi.org/10.2514/3.45199
 [research_mukundan_maity_2022]: https://doi.org/10.1016/j.ifacol.2023.03.007
 [research_munk_vio_2016]: https://doi.org/10.4028/www.scientific.net/amm.846.494
@@ -9285,7 +8463,6 @@ available.
 [research_nagamatsu_geiger_1960]: https://doi.org/10.2514/8.8494
 [research_nagamatsu_graber_1964]: https://doi.org/10.21236/ad0615601
 [research_nagamatsu_sheer_1961]: https://doi.org/10.21236/ad0600345
-[research_nagano_kuwabara_2018]: https://doi.org/10.1299/jsmemm.2018.os0112
 [research_nagawkar_leifsson_2022]: https://doi.org/10.1016/j.ast.2022.107449
 [research_nagel_1967]: https://doi.org/10.21236/ad0661318
 [research_nair_suryan_2023]: https://doi.org/10.1063/5.0151676
@@ -9310,14 +8487,12 @@ available.
 [research_nelsonhowardg_1988]: https://ntrs.nasa.gov/citations/19890029406
 [research_neupane_2019]: https://doi.org/10.21276/ijre.2019.6.1.4
 [research_neuwerth_peiter_1999]: https://doi.org/10.2514/2.3441
-[research_new_aircon_1974]: https://doi.org/10.1071/ec11110
 [research_new_environmental_1986]: https://doi.org/10.1016/0140-7007(86)90054-x
 [research_next_generation_aerospace_2026]: https://doi.org/10.64643/ijirtv12i11-207245-459
 [research_ng_ajmani_1989]: https://doi.org/10.2514/3.10271
 [research_ng_benson_1986]: https://doi.org/10.2514/3.22900
 [research_ngoclong_2016]: https://doi.org/10.11648/j.ijmea.20160405.14
 [research_nguyen_luong_2022]: https://doi.org/10.3390/en15051940
-[research_ni_li_2021]: https://doi.org/10.1016/j.engstruct.2021.112989
 [research_ni_lu_2016]: https://doi.org/10.3390/en9030154
 [research_nicolaou_semiatin_1996]: https://doi.org/10.1007/bf02595459
 [research_nicolaou_semiatin_1997]: https://doi.org/10.1007/s11661-997-1017-2
@@ -9327,11 +8502,8 @@ available.
 [research_nie_wang_2023]: https://doi.org/10.1016/j.cja.2023.05.009
 [research_nie_ye_2023]: https://doi.org/10.1016/j.actaastro.2023.04.034
 [research_nielsen_edwards_2021]: https://doi.org/10.2514/1.j059343
-[research_niemann_zerna_1986]: https://doi.org/10.1016/0141-0296(86)90023-4
 [research_nieto_samayoa_2021]: https://doi.org/10.1016/j.mtla.2021.101265
-[research_nikolaeva_skibin_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-2_47
 [research_nikonov_2025]: https://doi.org/10.7868/s3034612625040087
-[research_nirbito_budiyanto_2020]: https://doi.org/10.3390/jmse8090726
 [research_nisewanger_1964]: https://doi.org/10.21236/ad0444376
 [research_nishiguchi_kodera_2025]: https://doi.org/10.3390/aerospace12010066
 [research_nishioka_law_1997]: https://doi.org/10.1016/s0010-2180(96)00099-5
@@ -9342,11 +8514,9 @@ available.
 [research_niu_su_2023]: https://doi.org/10.1063/5.0141000
 [research_niu_zhao_2024]: https://doi.org/10.1063/5.0226649
 [research_nivarti_cant_2017]: https://doi.org/10.1016/j.proci.2016.07.076
-[research_nmadu_parshuto_2017]: https://doi.org/10.1615/hightempmatproc.2017021404
 [research_noble_gin_2010]: https://doi.org/10.21236/ada533484
 [research_nordinbates_fureby_2017]: https://doi.org/10.1016/j.proci.2016.07.118
 [research_northropaircraftinchawthorneca_1953]: https://doi.org/10.21236/ad0022941
-[research_northwest_uav_2021]: https://doi.org/10.1016/s1464-2859(21)00191-7
 [research_nowakrj_kellyhn_1976]: https://ntrs.nasa.gov/citations/19760047061
 [research_noyce_sheppard_1982]: https://doi.org/10.1080/00102208208923585
 [research_numerical_analysis_2026]: https://doi.org/10.56726/irjmets88340
@@ -9365,10 +8535,8 @@ available.
 [research_obyrne_doolan_1999]: https://doi.org/10.1007/s001930050159
 [research_oconnor_2012]: https://doi.org/10.21236/ada566348
 [research_ogawa_2024]: https://doi.org/10.1063/5.0228287
-[research_ogura_wakamiya_2023]: https://doi.org/10.1016/j.nahs.2023.101342
 [research_ohira_1999]: https://doi.org/10.1299/kikaib.65.4055
 [research_ohira_matsuo_1994]: https://doi.org/10.1016/s0011-2275(05)80090-6
-[research_ojala_1997]: https://doi.org/10.1016/s0039-9140(96)02169-8
 [research_ol_2007]: https://doi.org/10.21236/ada472788
 [research_oliver_1963]: https://doi.org/10.21236/ada307510
 [research_oliver_stephanou_1963]: https://doi.org/10.21236/ad0297221
@@ -9376,15 +8544,12 @@ available.
 [research_oneillmarykael_lewismarkj_1992]: https://ntrs.nasa.gov/citations/19920050689
 [research_opacich_ombrello_2026]: https://doi.org/10.1016/j.proci.2026.106191
 [research_opilaelizabethj_2003]: https://ntrs.nasa.gov/citations/20050214581
-[research_orakwe_shahabad_2025]: https://doi.org/10.1016/j.addma.2025.104814
 [research_orbital_atk_2016]: https://doi.org/10.1016/j.mprp.2016.04.028
 [research_ormsbee_1962]: https://doi.org/10.21236/ad0295993
-[research_orych_werner_2021]: https://doi.org/10.1016/j.oceaneng.2021.109654
 [research_osgerby_smithson_1970]: https://doi.org/10.2514/3.5970
 [research_otsuka_sakamoto_1999]: https://doi.org/10.2472/jsms.48.9appendix_163
 [research_ou_yan_2019]: https://doi.org/10.1016/j.actaastro.2018.12.012
 [research_ounaies_krishnamoorti_2010]: https://doi.org/10.21236/ada547363
-[research_outokumpu_builds_1999]: https://doi.org/10.1016/s1365-6937(99)90392-1
 [research_overall_1976]: https://doi.org/10.21236/ada033883
 [research_owenfk_horstmancc_1972]: https://ntrs.nasa.gov/citations/19720051522
 [research_oxidation_protection_1990]: https://doi.org/10.1016/0010-4361(90)90250-z
@@ -9399,11 +8564,9 @@ available.
 [research_pan_wang_2024]: https://doi.org/10.1088/1742-6596/2820/1/012076
 [research_pan_xiong_2022]: https://doi.org/10.1016/j.energy.2022.123582
 [research_pan_zhou_2024]: https://doi.org/10.1016/j.applthermaleng.2024.122916
-[research_panagiotou_levendis_1996]: https://doi.org/10.1016/s0082-0784(96)80072-5
 [research_panchal_menon_2022]: https://doi.org/10.1016/j.combustflame.2022.112162
 [research_panchal_menon_2022_b]: https://doi.org/10.1016/j.combustflame.2022.112161
 [research_pande_1994]: https://doi.org/10.21236/ada413742
-[research_pandey_kumar_2022]: https://doi.org/10.1016/j.energy.2021.122468
 [research_pandey_sinha_2024]: https://doi.org/10.1007/s12046-023-02365-z
 [research_pandey_soni_2022]: https://doi.org/10.1016/j.msea.2022.144378
 [research_pani_maharana_2024]: https://doi.org/10.4273/ijvss.16.4.05
@@ -9421,15 +8584,12 @@ available.
 [research_park_park_2022]: https://doi.org/10.1016/j.ast.2022.107902
 [research_parkchul_1989]: https://ntrs.nasa.gov/citations/19910029860
 [research_parmar_jp_2026]: https://doi.org/10.1016/j.ast.2026.112964
-[research_parsa_verhelst_2025]: https://doi.org/10.3390/en18123064
 [research_pathak_khare_2024]: https://doi.org/10.1016/j.actaastro.2024.08.023
 [research_patil_montanari_2015]: https://doi.org/10.1115/1.4030793
 [research_patra_lee_2018]: https://doi.org/10.1021/acsanm.8b00781
 [research_patrick_2019]: https://doi.org/10.1063/10.0000281
 [research_patrick_2021]: https://doi.org/10.1063/10.0005106
 [research_patterson_2010]: https://doi.org/10.21236/ada514616
-[research_patterson_reidy_1982]: https://doi.org/10.21236/ada119131
-[research_patterson_reidy_1984]: https://doi.org/10.21236/ada139111
 [research_paudel_mcfarland_2025]: https://doi.org/10.1016/j.fuel.2024.133587
 [research_paull_stalker_1995]: https://doi.org/10.1017/s0022112095002096
 [research_paulla_stalkerrj_1995]: https://ntrs.nasa.gov/citations/19950018975
@@ -9447,7 +8607,6 @@ available.
 [research_peggrobertj_huntjamesl_1993]: https://ntrs.nasa.gov/citations/19930037111
 [research_peherstorfer_kramer_2018]: https://doi.org/10.1137/17m1122992
 [research_pei_fan_2021]: https://doi.org/10.1109/access.2021.3056517
-[research_pekris_nasti_2016]: https://doi.org/10.1115/1.4032422
 [research_pellettgerald_2005]: https://ntrs.nasa.gov/citations/20050041971
 [research_penanhoat_darracq_1996]: https://doi.org/10.2514/3.24059
 [research_peng_2023]: https://doi.org/10.1016/j.csite.2023.103620
@@ -9460,15 +8619,12 @@ available.
 [research_peng_zhou_2024]: https://doi.org/10.1021/acsomega.4c00622
 [research_penland_romeo_1971]: https://doi.org/10.2514/3.59185
 [research_pereddy_2022]: https://doi.org/10.1007/s12046-022-01893-4
-[research_performance_analysis_2016]: https://doi.org/10.21884/ijmter.2016.3088.odipa
-[research_performance_analysis_2026]: https://doi.org/10.55162/mcet.10.318
 [research_perkowski_bilar_2024]: https://doi.org/10.1007/s00193-024-01185-2
 [research_perlo_2026]: https://doi.org/10.63620/mkjaeast.2026.1012
 [research_perry_rievley_1961]: https://doi.org/10.21236/ad0259391
 [research_persh_1955]: https://doi.org/10.21236/ad0075320
 [research_peschke_1995]: https://doi.org/10.2514/3.23921
 [research_petelko_lipovskyi_2021]: https://doi.org/10.15421/452103
-[research_peterson_1962]: https://doi.org/10.1021/ac60193a054
 [research_peterson_2023]: https://doi.org/10.1016/j.proci.2022.08.120
 [research_petersonchristophero_sowawilliama_2002]: https://ntrs.nasa.gov/citations/20030013952
 [research_petervari_wagner_2026]: https://doi.org/10.1016/j.ast.2026.113377
@@ -9484,12 +8640,9 @@ available.
 [research_pilandwilliamm_1987]: https://ntrs.nasa.gov/citations/19880054061
 [research_pirrellocj_bakerah_1976]: https://ntrs.nasa.gov/citations/19760011448
 [research_pisharoti_brizzolara_2025]: https://doi.org/10.51560/ofj.v5.130
-[research_pitts_1995]: https://doi.org/10.1016/0360-1285(95)00004-2
 [research_plankpp_penningfa_1973]: https://ntrs.nasa.gov/citations/19730025150
 [research_plencnerrobertm_1991]: https://ntrs.nasa.gov/citations/19920001816
-[research_podeur_vogt_2022]: https://doi.org/10.1115/1.4053987
 [research_polev_grunin_2022]: https://doi.org/10.54349/26586061_2022_3_15
-[research_pollock_brutsche_2015]: https://doi.org/10.21236/ada622103
 [research_polyanskii_1967]: https://doi.org/10.1007/bf01013723
 [research_ponomarov_2019]: https://doi.org/10.15421/451909
 [research_pordalhs_khoslapk_1990]: https://ntrs.nasa.gov/citations/19900039912
@@ -9504,14 +8657,10 @@ available.
 [research_presby_2021]: https://doi.org/10.1115/1.4051969
 [research_preston_1958]: https://doi.org/10.1017/s0022112058000057
 [research_price_1970]: https://doi.org/10.21236/ad0879285
-[research_pro_tompkins_2021]: https://doi.org/10.1016/j.drugalcdep.2021.109092
-[research_production_scheduling_1992]: https://doi.org/10.1016/0026-2714(92)90677-d
-[research_przylucka_ceborudnicka_2020]: https://doi.org/10.7494/cmms.2020.4.0723
 [research_pschen_chsu_2026]: https://ntrs.nasa.gov/citations/20260002311
 [research_pu_xu_2026]: https://doi.org/10.1063/5.0336053
 [research_puchakayala_k_2026]: https://doi.org/10.1016/j.procs.2026.06.337
 [research_pulsonetti_erdos_1991]: https://doi.org/10.2514/3.23427
-[research_pump_test_1999]: https://doi.org/10.1016/s0262-1762(99)81394-7
 [research_purpura_2021]: https://doi.org/10.1109/jmass.2020.3023968
 [research_purpura_trifoni_2018]: https://doi.org/10.1007/bf03406051
 [research_purwar_basu_2017]: https://doi.org/10.1111/jace.14750
@@ -9519,7 +8668,6 @@ available.
 [research_qi_cheng_2022]: https://doi.org/10.3390/aerospace9120788
 [research_qi_li_2021]: https://doi.org/10.1186/s42774-021-00082-x
 [research_qi_wang_1998]: https://doi.org/10.2514/2.5353
-[research_qi_yang_2025]: https://doi.org/10.1063/5.0300798
 [research_qiao_liu_2022]: https://doi.org/10.1016/j.csite.2022.102476
 [research_qiao_liu_2023]: https://doi.org/10.1016/j.applthermaleng.2023.120526
 [research_qiao_liu_2024]: https://doi.org/10.1016/j.energy.2024.130906
@@ -9527,13 +8675,10 @@ available.
 [research_qin_chang_2015]: https://doi.org/10.2514/1.j053547
 [research_qin_huang_2026]: https://doi.org/10.1016/j.ast.2025.111044
 [research_qin_scriba_1991]: https://doi.org/10.1017/s0001924000023800
-[research_qin_yuan_2017]: https://doi.org/10.1108/ilt-01-2015-0011
 [research_qin_yuan_2026]: https://doi.org/10.1063/5.0336363
 [research_qin_zhang_2026]: https://doi.org/10.1063/5.0303107
 [research_qiu_shi_2024]: https://doi.org/10.1017/jfm.2024.42
 [research_qiu_zhang_2021]: https://doi.org/10.1016/j.ast.2020.106376
-[research_qixin_chao_2025]: https://doi.org/10.1002/suco.70175
-[research_qu_you_2019]: https://doi.org/10.1016/j.fuel.2019.115763
 [research_quan_chang_2024]: https://doi.org/10.1016/j.applthermaleng.2023.121527
 [research_quan_xu_2021]: https://doi.org/10.1016/j.ast.2021.107076
 [research_quentmeyerrichardj_roncaceelizabetha_1993]: https://ntrs.nasa.gov/citations/19940008097
@@ -9542,7 +8687,6 @@ available.
 [research_rabadansantana_weigand_2021]: https://doi.org/10.1016/j.ast.2021.106595
 [research_radhi_iacobellis_2019]: https://doi.org/10.1016/j.compositesb.2019.107129
 [research_ragnoli_savino_2024]: https://doi.org/10.1016/j.ast.2024.109092
-[research_rahbari_2016]: https://doi.org/10.1007/s11771-016-3055-7
 [research_rahimi_svolos_2026]: https://doi.org/10.1016/j.engfracmech.2025.111794
 [research_rahman_arafin_2026]: https://doi.org/10.2514/1.b40126
 [research_rahmani_hejranfar_2021]: https://doi.org/10.1016/j.compfluid.2021.105079
@@ -9552,8 +8696,6 @@ available.
 [research_rajan_1987]: https://doi.org/10.1016/0010-2180(87)90001-0
 [research_rajpara_shah_2025]: https://doi.org/10.1016/j.applthermaleng.2025.125844
 [research_rajput_soni_2026]: https://doi.org/10.37868/dss.v7.id324
-[research_rakopoulos_rakopoulos_2022]: https://doi.org/10.1016/j.energy.2021.123080
-[research_ramamurthy_balda_2001]: https://doi.org/10.21236/ada398311
 [research_ramanujachari_amruthapreethi_2023]: https://doi.org/10.61653/joast.v74i1.2022.5
 [research_ramunno_boyd_2022]: https://doi.org/10.2514/1.b38573
 [research_raneydavidl_mcminnjohnd_1993]: https://ntrs.nasa.gov/citations/19940020631
@@ -9564,18 +8706,14 @@ available.
 [research_rathi_sinha_2024]: https://doi.org/10.2514/1.j064053
 [research_rathore_mishra_2025]: https://doi.org/10.1016/j.tsep.2025.103951
 [research_ratnayakenalina_2010]: https://ntrs.nasa.gov/citations/20100001729
-[research_raubenheimer_elgar_2012]: https://doi.org/10.21236/ada572952
 [research_rauschvincentl_morrischarlesekjr_1992]: https://ntrs.nasa.gov/citations/19920074635
-[research_raut_irdmousa_2018]: https://doi.org/10.1016/j.conengprac.2018.09.004
 [research_ravindran_bricalli_2019]: https://doi.org/10.1016/j.actaastro.2019.06.010
 [research_raviteja_bharanichandra_2022]: https://doi.org/10.1016/j.ifacol.2022.04.033
 [research_raylewarrend_kochrichardg_1954]: https://ntrs.nasa.gov/citations/19930088026
-[research_razmjooei_ommi_2026]: https://doi.org/10.38036/jgpp.17.1_v17n1tp01
 [research_reba_1964]: https://doi.org/10.21236/ad0444094
 [research_reba_christian_1963]: https://doi.org/10.21236/ad0297092
 [research_recent_advances_1978]: https://ntrs.nasa.gov/citations/19790013251
 [research_recina_karlsson_1999]: https://doi.org/10.1016/s0921-5093(98)01008-9
-[research_reddering_1983]: https://doi.org/10.1111/j.1365-3091.1983.tb00665.x
 [research_redding_cavanaugh_2025]: https://doi.org/10.1063/5.0271076
 [research_reddy_2019]: https://doi.org/10.22214/ijraset.2019.6273
 [research_reddy_harloff_1991]: https://doi.org/10.2514/3.23297
@@ -9583,7 +8721,6 @@ available.
 [research_reed_carroll_1964]: https://doi.org/10.21236/ad0433683
 [research_reed_perez_2015]: https://doi.org/10.2514/1.a32825
 [research_reed_spencer_1995]: https://doi.org/10.21236/ada372198
-[research_reinschmidt_narayanan_1975]: https://doi.org/10.1016/0045-7949(75)90039-5
 [research_reisenthel_allen_2010]: https://doi.org/10.21236/ada517077
 [research_reitmayr_hofmann_2025]: https://doi.org/10.3390/hydrogen6010017
 [research_relangi_ingenito_2022]: https://doi.org/10.1177/14680874221085059
@@ -9604,7 +8741,6 @@ available.
 [research_richards_culotta_1971]: https://doi.org/10.21236/ad0743836
 [research_richards_stollery_1979]: https://doi.org/10.2514/3.58502
 [research_richardsonpamelaf_mcclintoncharlesr_1989]: https://ntrs.nasa.gov/citations/19900058418
-[research_richter_lorenz_1999]: https://doi.org/10.1016/s0045-6535(99)00120-4
 [research_rickettsrodneyh_nollthomase_1993]: https://ntrs.nasa.gov/citations/19930049892
 [research_ridgway_sam_2018]: https://doi.org/10.3390/en11123449
 [research_riggins_1997]: https://doi.org/10.2514/2.5161
@@ -9617,7 +8753,6 @@ available.
 [research_ritchie_kumar_2005]: https://doi.org/10.21236/ada456825
 [research_riva_daminelli_1997]: https://doi.org/10.2514/2.5199
 [research_rivershkevin_1999]: https://ntrs.nasa.gov/citations/20040086813
-[research_rivlin_1995]: https://doi.org/10.1002/rcm.1290090507
 [research_rizkalla_chinitz_1990]: https://doi.org/10.2514/3.23222
 [research_rizvi_linshu_2017]: https://doi.org/10.1017/aer.2017.11
 [research_rizzi_parish_2026]: https://doi.org/10.1007/s00158-026-04300-2
@@ -9638,7 +8773,6 @@ available.
 [research_rong_2017]: https://doi.org/10.12783/dtetr/apetc2017/11122
 [research_rong_cheng_2023]: https://doi.org/10.1063/5.0154599
 [research_roos_pudsey_2020]: https://doi.org/10.1016/j.actaastro.2020.08.022
-[research_rosenblattmandsonincnewyork_1975]: https://doi.org/10.21236/ada451514
 [research_rosfjordtj_padgetfc_2001]: https://ntrs.nasa.gov/citations/20010015502
 [research_rotinian_shur_1994]: https://doi.org/10.1016/s0082-0784(06)80622-3
 [research_roudakovalexanders_semenovvyacheslavl_1998]: https://ntrs.nasa.gov/citations/19980137604
@@ -9646,7 +8780,6 @@ available.
 [research_roundy_1979]: https://doi.org/10.21236/ada078529
 [research_roux_tiruveedula_2016]: https://doi.org/10.2514/1.t4792
 [research_roux_tiruveedula_2017]: https://doi.org/10.1016/j.tsep.2017.03.003
-[research_rsnes_graf_1998]: https://doi.org/10.1002/(sici)1097-0231(19980115)12:1<11::aid-rcm110>3.0.co;2-r
 [research_ruban_menezes_2018]: https://doi.org/10.2514/1.b37066
 [research_ruban_menezes_2020]: https://doi.org/10.1115/1.4048141
 [research_rubins_bauer_1994]: https://doi.org/10.2514/3.23768
@@ -9672,15 +8805,12 @@ available.
 [research_saenz_frankel_2025]: https://doi.org/10.1007/s00193-025-01226-4
 [research_saha_2022]: https://doi.org/10.2139/ssrn.4084066
 [research_sahbon_jacewicz_2023]: https://doi.org/10.3390/en16052501
-[research_sahu_sanjay_2017]: https://doi.org/10.1016/j.energy.2017.07.131
 [research_sahu_tropina_2022]: https://doi.org/10.1088/1361-6595/ac4ecc
 [research_saiprakash_raghav_2026]: https://doi.org/10.1063/5.0309330
 [research_saito_oyama_2019]: https://doi.org/10.1299/jsmedsd.2019.29.1205
 [research_sala_baldanzini_2016]: https://doi.org/10.1007/s00158-016-1410-9
-[research_salman_2024]: https://doi.org/10.1007/s44189-024-00063-x
 [research_samimy_webb_2011]: https://doi.org/10.21236/ada564713
 [research_samoilova_suleymanova_2024]: https://doi.org/10.1007/s11085-024-10248-9
-[research_san_aungkolatt_2026]: https://doi.org/10.33022/ijcs.v15i2.5114
 [research_sanaka_kandula_2023]: https://doi.org/10.1515/tjeng-2023-0029
 [research_sandberg_gregoire_2023]: https://doi.org/10.3390/en16217278
 [research_sandhu_2005]: https://doi.org/10.21236/ada436943
@@ -9693,7 +8823,6 @@ available.
 [research_satyanarayan_raj_2026]: https://doi.org/10.1016/j.fuel.2025.137977
 [research_saundersjd_stuebertj_2012]: https://ntrs.nasa.gov/citations/20120002930
 [research_savelev_stepanov_1988]: https://doi.org/10.1007/bf01051832
-[research_savinell_wainright_2005]: https://doi.org/10.21236/ada440192
 [research_scala_1958]: https://doi.org/10.2514/8.7530
 [research_scanning_and_1994]: https://ntrs.nasa.gov/citations/19960022935
 [research_schetz_billig_1982]: https://doi.org/10.2514/3.51187
@@ -9702,13 +8831,10 @@ available.
 [research_schierman_ward_2001]: https://doi.org/10.21236/ada436268
 [research_schindel_1999]: https://doi.org/10.2514/2.5435
 [research_schirmeralbertow_caponefrancisj_1989]: https://ntrs.nasa.gov/citations/19890059727
-[research_schlappi_1968]: https://doi.org/10.21236/ad0668673
 [research_schmidt_patankar_1991]: https://doi.org/10.1115/1.2927728
 [research_schmierer_kobald_2019]: https://doi.org/10.1016/j.actaastro.2019.02.018
-[research_schneidemesser_thummes_1999]: https://doi.org/10.1016/s0011-2275(99)00100-9
 [research_schneider_1970]: https://doi.org/10.2514/3.49827
 [research_schneider_reed_2003]: https://doi.org/10.21236/ada413763
-[research_schoenbach_1999]: https://doi.org/10.21236/ada370730
 [research_schoenman_rosenberg_1995]: https://doi.org/10.2514/3.23928
 [research_schouler_prevereaud_2023]: https://doi.org/10.1016/j.actaastro.2022.12.039
 [research_schram_narayanaswamy_2026]: https://doi.org/10.1007/s00348-026-04215-0
@@ -9722,7 +8848,6 @@ available.
 [research_scottistephenj_1992]: https://ntrs.nasa.gov/citations/19930003259
 [research_scribben_withrow_2006]: https://doi.org/10.21236/ada463634
 [research_sedlock_1985]: https://doi.org/10.21236/ada153767
-[research_sednin_sednin_2021]: https://doi.org/10.1051/e3sconf/202128801090
 [research_see_ihme_2015]: https://doi.org/10.1016/j.proci.2014.08.006
 [research_seebass_1989]: https://doi.org/10.1126/science.246.4936.1374-e
 [research_seebaugh_1973]: https://doi.org/10.2514/3.44348
@@ -9742,25 +8867,17 @@ available.
 [research_sforza_2026]: https://doi.org/10.3390/aerospace13020115
 [research_sha_long_2026]: https://doi.org/10.1063/5.0320179
 [research_shadow_1987]: https://doi.org/10.21236/ada531361
-[research_shafieibafti_vafakhah_2026]: https://doi.org/10.1016/j.mlwa.2026.100839
-[research_shah_2025]: https://doi.org/10.37547/tajet/volume07issue06-04
-[research_shah_pamwar_2023]: https://doi.org/10.1007/s00158-023-03489-w
-[research_shahnam_gel_2016]: https://doi.org/10.1115/1.4035445
 [research_shajahan_gugulothu_2025]: https://doi.org/10.1016/j.ijhydene.2025.150342
 [research_shameed_gr_2021]: https://doi.org/10.1016/j.ast.2021.106777
 [research_shamsipoor_mousavi_2025]: https://doi.org/10.1016/j.ceramint.2024.12.088
 [research_shan_hou_2017]: https://doi.org/10.1016/j.ijhydene.2017.02.100
 [research_shan_zhang_2021]: https://doi.org/10.1016/j.ijhydene.2020.10.225
-[research_shannon_richard_1981]: https://doi.org/10.21236/ada339049
 [research_shao_wang_2015]: https://doi.org/10.1016/j.ast.2015.09.003
 [research_shaohua_xu_2017]: https://doi.org/10.1177/0954410017708213
-[research_shapoval_vakulenko_2024]: https://doi.org/10.4028/p-h2x9di
-[research_sharifi_sharifzadeh_2026]: https://doi.org/10.1016/j.ijhydene.2026.153553
 [research_sharifiilkhchi_tahsini_2025]: https://doi.org/10.1016/j.ijthermalsci.2025.109885
 [research_sharifzadeh_afshari_2022]: https://doi.org/10.1016/j.ast.2022.107711
 [research_sharifzadeh_afshari_2024]: https://doi.org/10.1016/j.fuel.2023.129847
 [research_sharma_de_2024]: https://doi.org/10.1063/5.0212604
-[research_sharma_dutta_2023]: https://doi.org/10.1063/5.0149372
 [research_sharma_eswaran_2020]: https://doi.org/10.1115/1.4045985
 [research_sharma_eswaran_2022]: https://doi.org/10.1016/j.ast.2022.107900
 [research_sharma_saluti_2025]: https://doi.org/10.11648/j.ajae.20251102.14
@@ -9772,7 +8889,6 @@ available.
 [research_sheehan_1989]: https://doi.org/10.1016/0008-6223(89)90204-2
 [research_sheetznwjr_1965]: https://ntrs.nasa.gov/citations/19650033898
 [research_shekhtman_yu_2021]: https://doi.org/10.1007/s00348-021-03207-6
-[research_shen_duan_2026]: https://doi.org/10.1007/s11085-026-10438-7
 [research_shen_huang_2020]: https://doi.org/10.1016/j.ast.2020.105779
 [research_shen_huang_2021]: https://doi.org/10.1016/j.csite.2021.101104
 [research_shen_ma_2022]: https://doi.org/10.1016/j.ast.2022.107661
@@ -9784,18 +8900,15 @@ available.
 [research_shi_fan_2023]: https://doi.org/10.3390/aerospace10100879
 [research_shi_he_2016]: https://doi.org/10.1016/j.actaastro.2016.07.017
 [research_shi_liu_2016]: https://doi.org/10.1016/j.actaastro.2016.05.033
-[research_shi_peng_2023]: https://doi.org/10.1016/j.fuel.2023.128257
 [research_shi_zhu_2020]: https://doi.org/10.2514/1.j059054
 [research_shieh_lin_2024]: https://doi.org/10.3390/sym16081044
 [research_shilnikov_elizarova_2018]: https://doi.org/10.1615/hightempmatproc.2018024713
 [research_shimojima_hosokawa_2017]: https://doi.org/10.1016/j.mprp.2016.06.004
 [research_shin_sung_2018]: https://doi.org/10.2514/1.j056707
 [research_shirasu_south_1996]: https://doi.org/10.2514/3.26805
-[research_shiroma_chiao_2002]: https://doi.org/10.21236/ada411049
 [research_shorecharlesp_1986]: https://ntrs.nasa.gov/citations/19880014433
 [research_shou_yan_2023]: https://doi.org/10.1002/rnc.6607
 [research_shucheng_xijun_1994]: https://doi.org/10.21236/ada289590
-[research_shui_chen_2018]: https://doi.org/10.1007/s00158-018-1901-y
 [research_shulman_parry_1966]: https://doi.org/10.1121/1.1942873
 [research_si_huang_2019]: https://doi.org/10.1063/1.5098543
 [research_siddiqui_ledbetter_2023]: https://doi.org/10.1007/s00348-023-03716-6
@@ -9806,14 +8919,12 @@ available.
 [research_singh_mukhopadhyay_2025]: https://doi.org/10.1016/j.ast.2025.109928
 [research_singh_prakash_2023]: https://doi.org/10.5937/fme2302221s
 [research_singh_shen_1992]: https://doi.org/10.1016/0883-2889(92)90057-l
-[research_siragusa_sartori_2020]: https://doi.org/10.1063/1.5129221
 [research_sivan_pandian_2018]: https://doi.org/10.18520/cs/v114/i01/38-47
 [research_sivasubramanian_v_2026]: https://doi.org/10.36948/ijfmr.2026.v08i02.74866
 [research_skamniotis_cocks_2021]: https://doi.org/10.1016/j.ast.2021.106610
 [research_skinner_chattopadhyay_2021]: https://doi.org/10.1016/j.compstruct.2021.114006
 [research_slaterjohnw_2016]: https://ntrs.nasa.gov/citations/20160010068
 [research_slaterjohnw_davisdavido_2005]: https://ntrs.nasa.gov/citations/20050217469
-[research_sloan_hassan_1992]: https://doi.org/10.13182/nt92-a34757
 [research_slutsky_tamagno_1965]: https://doi.org/10.2514/3.3215
 [research_smallwj_weidnerjp_1974]: https://ntrs.nasa.gov/citations/19750005793
 [research_smallwj_weidnerjp_1976]: https://ntrs.nasa.gov/citations/19770005051
@@ -9824,18 +8935,13 @@ available.
 [research_smirnov_nikitin_2023]: https://doi.org/10.3390/fire6090335
 [research_smith_1989]: https://doi.org/10.1016/0360-3199(89)90054-2
 [research_smith_2021]: https://doi.org/10.1063/pt.3.4888
-[research_smith_seabergh_1998]: https://doi.org/10.21236/ada357841
 [research_smithey_fuhs_1977]: https://doi.org/10.2514/3.58886
 [research_smithlm_1978]: https://ntrs.nasa.gov/citations/19790013260
 [research_smits_2007]: https://doi.org/10.21236/ada465164
 [research_smits_2009]: https://doi.org/10.21236/ada499452
-[research_snyderjohnsteven_manzelladavid_2016]: https://ntrs.nasa.gov/citations/20170007091
-[research_solar_test_1977]: https://doi.org/10.1063/1.3037787
-[research_soma_ishigaki_2025]: https://doi.org/10.1016/j.anucene.2025.111455
 [research_son_ko_2024]: https://doi.org/10.1016/j.ast.2024.109366
 [research_song_choi_2020]: https://doi.org/10.1016/j.ifacol.2020.12.1900
 [research_song_luo_2022]: https://doi.org/10.3390/math10183401
-[research_song_qi_2024]: https://doi.org/10.1080/00423114.2024.2430577
 [research_song_su_2015]: https://doi.org/10.1016/j.proeng.2014.12.639
 [research_song_xu_2026]: https://doi.org/10.1016/j.ast.2025.110949
 [research_song_zhao_2020]: https://doi.org/10.1063/1.5140222
@@ -9850,7 +8956,6 @@ available.
 [research_soumyajitsaha_debasischakraborty_2023]: https://doi.org/10.61653/joast.v63i4.2011.594
 [research_spanjers_schilling_2001]: https://doi.org/10.21236/ada405912
 [research_spanostheodorosa_2009]: https://ntrs.nasa.gov/citations/20110008506
-[research_specker_1985]: https://doi.org/10.21236/ada359977
 [research_spencer_1962]: https://doi.org/10.21236/ad0408919
 [research_speyer_1997]: https://doi.org/10.21236/ada329598
 [research_spreuer_snackenburg_1974]: https://doi.org/10.21236/ada001739
@@ -9860,7 +8965,6 @@ available.
 [research_sreenivasulu_neelapu_2025]: https://doi.org/10.61653/joast.v77i3.2025.1088
 [research_srinivasan_mahapatra_2020]: https://doi.org/10.1080/14685248.2019.1710517
 [research_sriram_ram_2015]: https://doi.org/10.1088/0957-0233/26/9/095301
-[research_stafford_morgan_1968]: https://doi.org/10.1016/0020-7381(68)80007-5
 [research_stainbackpc_1969]: https://ntrs.nasa.gov/citations/19690005540
 [research_stalder_1957]: https://doi.org/10.2514/8.12492
 [research_stalker_morgan_1984]: https://doi.org/10.1016/0010-2180(84)90137-8
@@ -9875,7 +8979,6 @@ available.
 [research_stapp_1995]: https://doi.org/10.1117/12.194195
 [research_starken_lichtfuss_1970]: https://doi.org/10.1115/1.3445351
 [research_stechmann_heister_2019]: https://doi.org/10.2514/1.a34313
-[research_stecklein_knipp_1985]: https://doi.org/10.21236/ada205291
 [research_stefaniya_pushpalatha_2025]: https://doi.org/10.1134/s001546282560227x
 [research_steffenchristopherjjr_yungstershaye_2001]: https://ntrs.nasa.gov/citations/20010050137
 [research_steinetzbrucem_2008]: https://ntrs.nasa.gov/citations/20080047343
@@ -9884,17 +8987,11 @@ available.
 [research_sterpu_mariuta_2025]: https://doi.org/10.3390/app15147720
 [research_stetson_1986]: https://doi.org/10.21236/ada178877
 [research_stewart_1973]: https://doi.org/10.21236/ad0525631
-[research_stewart_1974]: https://doi.org/10.21236/ada007340
-[research_stewart_lemon_1969]: https://doi.org/10.21236/ad0705380
 [research_stewart_martin_1995]: https://doi.org/10.21236/ada409786
 [research_stewartdavid_leiserdaniel_2007]: https://ntrs.nasa.gov/citations/20100011117
 [research_stewartdavida_leiserdanielb_2010]: https://ntrs.nasa.gov/citations/20100042283
 [research_stewartmem_suresha_2002]: https://ntrs.nasa.gov/citations/20020090948
 [research_stilla_1994]: https://doi.org/10.2514/3.46659
-[research_stiller_johnston_1987]: https://doi.org/10.1021/ac00131a007
-[research_stobie_knapton_1988]: https://doi.org/10.21236/ada196741
-[research_stoffels_1981]: https://doi.org/10.1016/0020-7381(81)80045-9
-[research_stoffels_1981_b]: https://doi.org/10.1016/0020-7381(81)80044-7
 [research_stolzenburg_1965]: https://doi.org/10.5594/j06018
 [research_stoneje_1975]: https://ntrs.nasa.gov/citations/19750018926
 [research_strangman_keiser_1988]: https://doi.org/10.1016/0008-6223(88)90240-0
@@ -9914,9 +9011,7 @@ available.
 [research_subramanian_meadows_2020]: https://doi.org/10.2514/1.b37719
 [research_sudalagunta_sultan_2018]: https://doi.org/10.2514/1.g002777
 [research_sudhieshkumar_reddy_2015]: https://doi.org/10.1007/s00193-015-0608-x
-[research_sugai_shimokawa_2024]: https://doi.org/10.1299/jsmedsd.2024.34.1304
 [research_sugavanam_sastry_1975]: https://doi.org/10.2514/3.49665
-[research_sui_xia_2018]: https://doi.org/10.1016/j.measurement.2018.02.046
 [research_sullins_waltrup_1985]: https://doi.org/10.2514/3.22774
 [research_sun_ding_2026]: https://doi.org/10.2514/1.j067279
 [research_sun_gramacy_2019]: https://doi.org/10.1137/18m1170157
@@ -9939,14 +9034,12 @@ available.
 [research_superconducting_liquid_level_1967]: https://doi.org/10.1016/0042-207x(67)91396-6
 [research_supersonic_and_2019]: https://doi.org/10.35940/ijrte.b1590.0982s1119
 [research_surber_sedlock_1979]: https://doi.org/10.2514/3.58575
-[research_suresh_rajendran_2023]: https://doi.org/10.1016/j.fuel.2022.126645
 [research_suryanarayanan_goldstein_2019]: https://doi.org/10.1063/1.5075635
 [research_surzhikov_2018]: https://doi.org/10.1134/s1028335818020039
 [research_surzhikov_2019]: https://doi.org/10.33257/phchgd.20.4.892
 [research_surzhikov_2021]: https://doi.org/10.33257/phchgd.22.1.931
 [research_surzhikov_2021_b]: https://doi.org/10.33257/phchgd.22.1.930
 [research_surzhikov_2022]: https://doi.org/10.1134/s001546282260122x
-[research_susastriawan_saptoadi_2023]: https://doi.org/10.13044/j.sdewes.d10.0435
 [research_swain_p_2020]: https://doi.org/10.1080/00102202.2020.1791838
 [research_swansongreg_kazembacole_2014]: https://ntrs.nasa.gov/citations/20150000181
 [research_swansongregoryt_cassellalanm_2012]: https://ntrs.nasa.gov/citations/20120011828
@@ -9973,11 +9066,9 @@ available.
 [research_tang_wang_2024]: https://doi.org/10.1016/j.combustflame.2024.113431
 [research_tang_xiong_2023]: https://doi.org/10.3390/app13179752
 [research_tang_xu_2024]: https://doi.org/10.1017/jfm.2024.641
-[research_tanno_kurose_2016]: https://doi.org/10.1299/jsmemecj.2016.j0520104
 [research_tanno_tanno_2021]: https://doi.org/10.1007/s00348-021-03229-0
 [research_tariq_wasim_2026]: https://doi.org/10.3390/pr14152458
 [research_tarpley_lewis_1992]: https://doi.org/10.2514/3.23452
-[research_tatematsu_yoshizumi_1978]: https://doi.org/10.1002/bms.1200050306
 [research_taylor_1968]: https://doi.org/10.1017/s0001924000084347
 [research_teddersarahaugustaumberger_2010]: https://ntrs.nasa.gov/citations/20100026458
 [research_tegler_2022]: https://doi.org/10.12968/s1478-2774(23)50300-8
@@ -9985,14 +9076,12 @@ available.
 [research_teng_yuan_2015]: https://doi.org/10.1016/j.ast.2015.01.011
 [research_tereshko_2016]: https://doi.org/10.4028/www.scientific.net/kem.685.23
 [research_tessnow_hethcock_2001]: https://doi.org/10.21236/ada391790
-[research_test_facility_1997]: https://doi.org/10.1016/s0026-0657(97)80069-0
 [research_tetervin_1961]: https://doi.org/10.2514/8.8896
 [research_tewfik_giedt_1960]: https://doi.org/10.2514/8.8737
 [research_tharakan_sukesh_2025]: https://doi.org/10.1615/intjenergeticmaterialschemprop.2025058828
 [research_thawait_tandaiya_2023]: https://doi.org/10.1063/5.0165168
 [research_thawait_tandaiya_2023_b]: https://doi.org/10.1007/s00707-023-03495-5
 [research_thelander_1966]: https://doi.org/10.2514/3.28449
-[research_thermo_fluid_optimization_2026]: https://doi.org/10.64388/irev9i10-1716174
 [research_thiele_gampe_2018]: https://doi.org/10.1115/1.4041129
 [research_thomas_perlbachs_1967]: https://doi.org/10.21236/ad0655383
 [research_thomasjl_rudydh_1988]: https://ntrs.nasa.gov/citations/19890047357
@@ -10010,7 +9099,6 @@ available.
 [research_tian_yang_2023]: https://doi.org/10.1016/j.ast.2023.108357
 [research_tian_yang_2024]: https://doi.org/10.1016/j.jclepro.2024.143247
 [research_tian_zeng_2018]: https://doi.org/10.1016/j.ast.2018.08.026
-[research_timko_1966]: https://doi.org/10.1115/1.3645790
 [research_tirskii_1993]: https://doi.org/10.1007/bf00570739
 [research_tirsky_1993]: https://doi.org/10.1146/annurev.fl.25.010193.001055
 [research_titanium_aluminide_1992]: https://doi.org/10.1016/0026-0657(92)91460-2
@@ -10024,8 +9112,6 @@ available.
 [research_torre_merli_2023]: https://doi.org/10.1115/1.4064067
 [research_torresabelo_1992]: https://ntrs.nasa.gov/citations/19930062819
 [research_townend_1995]: https://doi.org/10.1017/s0001924000049666
-[research_traldi_vettori_1982]: https://doi.org/10.1002/oms.1210171112
-[research_transient_reactor_1959]: https://doi.org/10.1038/183862d0
 [research_trefnycharlesj_dippoldvancefiii_2017]: https://ntrs.nasa.gov/citations/20170008733
 [research_trevino_1995]: https://doi.org/10.1016/0010-2180(95)00052-8
 [research_trexler_1974]: https://doi.org/10.2514/3.60393
@@ -10045,16 +9131,12 @@ available.
 [research_tu_lan_2026]: https://doi.org/10.1016/j.ast.2026.112409
 [research_tu_mao_2017]: https://doi.org/10.1016/j.applthermaleng.2017.07.204
 [research_tu_zhao_2021]: https://doi.org/10.1016/j.ijthermalsci.2021.107112
-[research_tuczynski_stopa_2023]: https://doi.org/10.3390/en16031153
-[research_tudosie_2016]: https://doi.org/10.19062/2247-3173.2016.18.1.11
 [research_tufts_gosse_2018]: https://doi.org/10.2514/1.a34149
 [research_tumuklu_hanquist_2023]: https://doi.org/10.1063/5.0169648
 [research_turchi_matesanzsaiz_2021]: https://doi.org/10.1007/s00348-021-03320-6
 [research_turkoglu_donmez_2026]: https://doi.org/10.1016/j.ast.2026.113022
 [research_tuttlesean_1995]: https://ntrs.nasa.gov/citations/19950018977
-[research_tuunanen_sonnenburg_1994]: https://doi.org/10.1515/kern-1994-594-514
 [research_twomey_ham_1978]: https://doi.org/10.21236/ada057932
-[research_uk_must_2024]: https://doi.org/10.12968/s1464-2859(24)70025-x
 [research_ulislamrizvi_linshu_2015]: https://doi.org/10.1108/aeat-04-2013-0079
 [research_ullman_raman_2023]: https://doi.org/10.1080/00102202.2023.2239447
 [research_ullman_sharma_2025]: https://doi.org/10.1016/j.jaecs.2025.100353
@@ -10067,8 +9149,6 @@ available.
 [research_uribe_papaioannou_2021]: https://doi.org/10.1137/20m1344585
 [research_urso_kinney_2022]: https://doi.org/10.1063/5.0084047
 [research_urzay_2018]: https://doi.org/10.1146/annurev-fluid-122316-045217
-[research_us_consortium_2021]: https://doi.org/10.1016/s1464-2859(21)00497-1
-[research_us_ghosh_2026]: https://doi.org/10.1007/s11085-026-10379-1
 [research_uselton_1976]: https://doi.org/10.21236/ada024210
 [research_ustinov_kachanov_2021]: https://doi.org/10.1063/5.0057853
 [research_uy_hao_2023]: https://doi.org/10.1016/j.ast.2023.108520
@@ -10091,7 +9171,6 @@ available.
 [research_venkatesan_s_2024]: https://doi.org/10.61359/11.2106-2412
 [research_venkateshwaran_padmanathan_2026]: https://doi.org/10.1016/j.rineng.2026.110667
 [research_verma_pandey_2021]: https://doi.org/10.1016/j.matpr.2020.07.388
-[research_versatile_membranes_1996]: https://doi.org/10.1016/s0015-1882(96)90804-6
 [research_vert_bouchard_2024]: https://doi.org/10.12968/s1478-2774(25)50011-x
 [research_very_large_eddy_simulation_2022]: https://doi.org/10.47176/jafm.15.02.33195
 [research_vetter_1968]: https://doi.org/10.21236/ad0826208
@@ -10108,11 +9187,9 @@ available.
 [research_vulpetti_pecchioli_1989]: https://doi.org/10.2514/3.23194
 [research_vyasmanana_engblomwilliama_2010]: https://ntrs.nasa.gov/citations/20100029603
 [research_wagner_dale_1985]: https://doi.org/10.21236/ada379715
-[research_wagner_leyer_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-2_32
 [research_walker_1952]: https://doi.org/10.21236/ad0041745
 [research_walker_2025]: https://doi.org/10.18278/sesa.5.4.5
 [research_wallaceta_birdrk_2003]: https://ntrs.nasa.gov/citations/20040012943
-[research_waltert_figuet_2025]: https://doi.org/10.59490/joas.2024.7888
 [research_waltonjamest_1992]: https://ntrs.nasa.gov/citations/19930006339
 [research_waltonjt_1990]: https://ntrs.nasa.gov/citations/19900000647
 [research_waltrup_billig_1981]: https://doi.org/10.2514/3.28060
@@ -10133,9 +9210,7 @@ available.
 [research_wang_cheng_2026]: https://doi.org/10.1016/j.ast.2026.112326
 [research_wang_dang_2021]: https://doi.org/10.2139/ssrn.3980387
 [research_wang_dang_2022]: https://doi.org/10.1016/j.fuel.2022.123956
-[research_wang_deng_2025]: https://doi.org/10.1007/s00158-025-04153-1
 [research_wang_du_2026]: https://doi.org/10.1016/j.ast.2025.111542
-[research_wang_duan_2022]: https://doi.org/10.1016/j.enconman.2022.116103
 [research_wang_eri_2023]: https://doi.org/10.1016/j.applthermaleng.2023.120596
 [research_wang_eri_2023_b]: https://doi.org/10.1016/j.applthermaleng.2023.120827
 [research_wang_fan_2022]: https://doi.org/10.23919/jsee.2022.000019
@@ -10152,12 +9227,10 @@ available.
 [research_wang_hou_2018]: https://doi.org/10.1088/1757-899x/449/1/012006
 [research_wang_hou_2019]: https://doi.org/10.1109/access.2019.2918848
 [research_wang_hou_2021]: https://doi.org/10.1016/j.energy.2020.119271
-[research_wang_hu_2023]: https://doi.org/10.1016/j.cjmeam.2023.100100
 [research_wang_hua_2025]: https://doi.org/10.1016/j.jeurceramsoc.2025.117678
 [research_wang_huang_2023]: https://doi.org/10.1016/j.fuel.2022.126619
 [research_wang_huang_2026]: https://doi.org/10.1016/j.jeurceramsoc.2025.118061
 [research_wang_jiang_2020]: https://doi.org/10.3390/s20216179
-[research_wang_jiang_2023]: https://doi.org/10.1109/access.2023.3264833
 [research_wang_jin_2022]: https://doi.org/10.1016/j.applthermaleng.2021.117661
 [research_wang_li_2016]: https://doi.org/10.1007/s10443-016-9548-6
 [research_wang_li_2018]: https://doi.org/10.1016/j.ijheatmasstransfer.2018.03.092
@@ -10170,17 +9243,14 @@ available.
 [research_wang_liu_2025]: https://doi.org/10.1080/01457632.2025.2571269
 [research_wang_liu_2025_b]: https://doi.org/10.3390/aerospace12030242
 [research_wang_luo_2022]: https://doi.org/10.3390/app122110734
-[research_wang_nagayama_2022]: https://doi.org/10.1016/j.engstruct.2022.114180
 [research_wang_nie_2019]: https://doi.org/10.1177/1687814019830283
 [research_wang_oehlschlaeger_2020]: https://doi.org/10.1002/kin.21394
 [research_wang_pan_2018]: https://doi.org/10.1088/1742-6596/1064/1/012001
 [research_wang_pan_2024]: https://doi.org/10.1016/j.applthermaleng.2023.122324
 [research_wang_qian_2023]: https://doi.org/10.1016/j.tsep.2023.101792
 [research_wang_shan_2015]: https://doi.org/10.1016/j.ijhydene.2014.10.124
-[research_wang_song_2023]: https://doi.org/10.1016/j.corsci.2023.111606
 [research_wang_song_2026]: https://doi.org/10.1016/j.cja.2026.104219
 [research_wang_tang_2025]: https://doi.org/10.1088/1742-6596/3041/1/012024
-[research_wang_thuerey_2026]: https://doi.org/10.1016/j.enbuild.2026.116958
 [research_wang_wang_2015]: https://doi.org/10.1016/j.actaastro.2014.12.008
 [research_wang_wang_2016]: https://doi.org/10.1016/j.actaastro.2016.06.022
 [research_wang_wang_2018]: https://doi.org/10.1016/j.actaastro.2018.10.013
@@ -10202,21 +9272,18 @@ available.
 [research_wang_yang_2020]: https://doi.org/10.1016/j.fuproc.2019.106229
 [research_wang_yang_2025]: https://doi.org/10.1016/j.jfranklin.2024.107426
 [research_wang_yao_2025]: https://doi.org/10.2514/1.j064599
-[research_wang_yu_2022]: https://doi.org/10.1016/j.compstruct.2022.115445
 [research_wang_yu_2022_b]: https://doi.org/10.1016/j.energy.2021.121769
 [research_wang_yuan_2026]: https://doi.org/10.3390/aerospace13030252
 [research_wang_zhang_2016]: https://doi.org/10.1016/j.applthermaleng.2015.09.064
 [research_wang_zhang_2018]: https://doi.org/10.2514/1.g003540
 [research_wang_zhang_2021]: https://doi.org/10.2514/1.a34728
 [research_wang_zhang_2022]: https://doi.org/10.1061/(asce)as.1943-5525.0001374
-[research_wang_zhang_2022_b]: https://doi.org/10.2139/ssrn.4184485
 [research_wang_zhang_2022_c]: https://doi.org/10.2139/ssrn.4201874
 [research_wang_zhang_2026]: https://doi.org/10.1016/j.ast.2026.111678
 [research_wang_zhao_2022]: https://doi.org/10.1016/j.ast.2022.107883
 [research_wang_zhou_1995]: https://doi.org/10.1016/0008-6223(94)00167-x
 [research_wang_zou_2024]: https://doi.org/10.1016/j.cja.2024.03.042
 [research_wangh_seifertd_1989]: https://ntrs.nasa.gov/citations/19940004526
-[research_wangshu_luwenda_1991]: https://doi.org/10.1016/0141-0296(91)90004-v
 [research_wangxiaoyen_harpstergeorge_2007]: https://ntrs.nasa.gov/citations/20070010027
 [research_ward_smart_2021]: https://doi.org/10.2514/1.a34983
 [research_warnken_busch_1963]: https://doi.org/10.21236/ad0295738
@@ -10228,7 +9295,6 @@ available.
 [research_waterhouse_1988]: https://doi.org/10.21236/ada197368
 [research_watkinswilliamb_1990]: https://ntrs.nasa.gov/citations/20080029274
 [research_watt_aronson_1964]: https://doi.org/10.21236/ad0447153
-[research_weaver_1991]: https://doi.org/10.21236/ada237359
 [research_webber_reeves_2026]: https://doi.org/10.1063/5.0325241
 [research_wei_gao_2024]: https://doi.org/10.1016/j.ijhydene.2024.07.461
 [research_wei_jiao_2024]: https://doi.org/10.1016/j.energy.2024.131679
@@ -10251,7 +9317,6 @@ available.
 [research_wendtm_nettletonm_1993]: https://ntrs.nasa.gov/citations/19930013628
 [research_west_bynum_2024]: https://doi.org/10.2514/1.b39108
 [research_west_hosder_2015]: https://doi.org/10.2514/1.a32947
-[research_westacott_peterson_1992]: https://doi.org/10.13182/nt92-a34745
 [research_whitcomb_2010]: https://doi.org/10.21236/ada547461
 [research_white_ault_1996]: https://doi.org/10.2514/3.24157
 [research_white_rhie_1992]: https://doi.org/10.2514/3.23471
@@ -10267,10 +9332,8 @@ available.
 [research_wilhite_1983]: https://doi.org/10.2514/3.28366
 [research_wilhite_bush_1991]: https://doi.org/10.2514/3.26294
 [research_wilkinson_ruggleswrenn_2016]: https://doi.org/10.1016/j.polymertesting.2016.07.010
-[research_wilks_coombs_1991]: https://doi.org/10.21236/ada245893
 [research_willaime_belin_1998]: https://doi.org/10.1016/s0997-7546(98)80006-x
 [research_willbanks_1970]: https://doi.org/10.2514/3.5614
-[research_williams_1967]: https://doi.org/10.21236/ad0654564
 [research_williamsobers_agwu_2025]: https://doi.org/10.1089/3dp.2023.0168
 [research_williamsonjr_1963]: https://doi.org/10.21236/ad0297395
 [research_williamsullivan_1991]: https://ntrs.nasa.gov/citations/19920035196
@@ -10280,14 +9343,11 @@ available.
 [research_wisbey_kearns_1994]: https://doi.org/10.1016/0167-577x(94)90120-1
 [research_wisbey_wardclose_1997]: https://doi.org/10.1179/026708397790302313
 [research_wlmberly_mcginnis_1970]: https://doi.org/10.2514/3.5827
-[research_wolf_1986]: https://doi.org/10.1016/0141-0296(86)90052-0
 [research_wolf_mullen_1951]: https://doi.org/10.21236/ad0036130
 [research_wolfle_1969]: https://doi.org/10.1126/science.165.3897.969
 [research_wood_1968]: https://doi.org/10.1017/s0001925900004704
 [research_woodcock_1988]: https://doi.org/10.1126/science.518-c
 [research_woodruff_lorenz_1966]: https://doi.org/10.2514/3.3589
-[research_world_s_first_2021]: https://doi.org/10.1016/s1464-2859(21)00647-7
-[research_wright_2002]: https://doi.org/10.21236/ada407827
 [research_wrightgeorgefjr_1993]: https://ntrs.nasa.gov/citations/19930012927
 [research_wrighthowardt_1989]: https://ntrs.nasa.gov/citations/19890063957
 [research_wu_1992]: https://doi.org/10.1007/bf00729908
@@ -10317,7 +9377,6 @@ available.
 [research_xie_zhao_2026]: https://doi.org/10.1016/j.ast.2026.112895
 [research_xie_zhuang_2021]: https://doi.org/10.1109/access.2021.3092515
 [research_xing_ruan_2017]: https://doi.org/10.1016/j.ast.2016.11.007
-[research_xing_wang_2025]: https://doi.org/10.3788/col202523.121101
 [research_xinghao_haijie_2021]: https://doi.org/10.1088/1742-6596/1786/1/012051
 [research_xiong_fan_2019]: https://doi.org/10.1016/j.actaastro.2019.07.004
 [research_xiong_qin_2020]: https://doi.org/10.1016/j.energy.2020.117477
@@ -10341,14 +9400,12 @@ available.
 [research_yakhutin_2021]: https://doi.org/10.30894/issn2409-0239.2021.8.3.43.47
 [research_yamada_fujii_1999]: https://doi.org/10.4028/www.scientific.net/msf.308-311.902
 [research_yamaguchi_hizawa_2020]: https://doi.org/10.2322/tjsass.63.160
-[research_yamasaki_kawamoto_2016]: https://doi.org/10.1007/s00158-016-1557-4
 [research_yan_fan_2022]: https://doi.org/10.3390/aerospace10010002
 [research_yan_he_2018]: https://doi.org/10.1016/j.actaastro.2018.04.038
 [research_yan_he_2018_b]: https://doi.org/10.1016/j.actaastro.2018.04.051
 [research_yan_le_2026]: https://doi.org/10.1016/j.applthermaleng.2026.132218
 [research_yan_liu_2022]: https://doi.org/10.1016/j.ast.2022.107637
 [research_yan_liu_2022_b]: https://doi.org/10.1016/j.ast.2022.107617
-[research_yan_liu_2023]: https://doi.org/10.1016/j.istruc.2023.104879
 [research_yan_shaohua_2016]: https://doi.org/10.1016/j.actaastro.2016.07.025
 [research_yan_shi_2025]: https://doi.org/10.56028/aetr.14.1.1702.2025
 [research_yan_teng_2021]: https://doi.org/10.1016/j.actaastro.2021.02.010
@@ -10374,8 +9431,6 @@ available.
 [research_yang_li_2024]: https://doi.org/10.1063/5.0213830
 [research_yang_li_2026]: https://doi.org/10.3390/ma19153296
 [research_yang_liu_2017]: https://doi.org/10.1016/j.actaastro.2016.11.043
-[research_yang_liu_2020]: https://doi.org/10.1016/j.fuel.2019.116451
-[research_yang_pak_2022]: https://doi.org/10.1007/s00158-022-03349-z
 [research_yang_qiu_2024]: https://doi.org/10.1063/5.0226284
 [research_yang_shao_2026]: https://doi.org/10.1016/j.ast.2026.113400
 [research_yang_shi_2015]: https://doi.org/10.1016/j.ijhydene.2015.01.033
@@ -10386,7 +9441,6 @@ available.
 [research_yang_xiao_2019]: https://doi.org/10.1016/j.renene.2018.12.091
 [research_yang_yang_2023]: https://doi.org/10.1063/5.0171301
 [research_yang_yuhyihwu_1994]: https://doi.org/10.1016/s0082-0784(06)80806-4
-[research_yang_zhang_2015]: https://doi.org/10.7763/jocet.2015.v3.220
 [research_yanghq_peugeotjohnw_2013]: https://ntrs.nasa.gov/citations/20140002597
 [research_yao_2022]: https://doi.org/10.2514/1.b38617
 [research_yao_gu_2023]: https://doi.org/10.1063/5.0145047
@@ -10409,7 +9463,6 @@ available.
 [research_yin_li_2024]: https://doi.org/10.1007/s40430-024-05361-4
 [research_yin_li_2026]: https://doi.org/10.1016/j.combustflame.2026.115044
 [research_yokoo_goto_2020]: https://doi.org/10.2514/1.j058322
-[research_yontar_dogu_2019]: https://doi.org/10.1177/1468087419834190
 [research_yoon_ahn_2016]: https://doi.org/10.1061/(asce)as.1943-5525.0000567
 [research_yoshida_micci_2019]: https://doi.org/10.2514/1.a34341
 [research_youn_mills_1995]: https://doi.org/10.2514/3.639
@@ -10420,7 +9473,6 @@ available.
 [research_yu_li_2022]: https://doi.org/10.3390/app12062845
 [research_yu_luan_2016]: https://doi.org/10.1016/j.jeurceramsoc.2016.06.001
 [research_yu_ni_2021]: https://doi.org/10.1155/2021/8885074
-[research_yu_nie_2023]: https://doi.org/10.1016/j.icheatmasstransfer.2023.106686
 [research_yu_pan_2017]: https://doi.org/10.1016/j.energy.2017.06.158
 [research_yu_wang_2019]: https://doi.org/10.1016/j.energy.2019.07.102
 [research_yu_wang_2019_b]: https://doi.org/10.1016/j.energy.2018.12.192
@@ -10437,8 +9489,6 @@ available.
 [research_yue_nie_2018]: https://doi.org/10.1061/(asce)as.1943-5525.0000825
 [research_yue_titurus_2022]: https://doi.org/10.1007/s11071-022-07944-z
 [research_yue_wu_2016]: https://doi.org/10.1016/j.fuproc.2016.04.017
-[research_yuen_guo_2023]: https://doi.org/10.1155/2023/4752776
-[research_yuliora_utama_2024]: https://doi.org/10.37934/cfdl.17.3.5276
 [research_yun_kim_2026]: https://doi.org/10.1016/j.ast.2026.111990
 [research_yungstershaye_paxsondaniele_2015]: https://ntrs.nasa.gov/citations/20150022172
 [research_yushchenkova_pomerantsev_1967]: https://doi.org/10.1016/0017-9310(67)90179-2
@@ -10449,9 +9499,7 @@ available.
 [research_zandavi_pourtakdoust_2017]: https://doi.org/10.1007/s00158-017-1776-3
 [research_zander_vinkeloe_2021]: https://doi.org/10.1002/kin.21469
 [research_zangiev_ivanov_2016]: https://doi.org/10.1134/s1990793116020135
-[research_zarillo_militello_1999]: https://doi.org/10.21236/ada362897
 [research_zee_1967]: https://doi.org/10.2514/3.55349
-[research_zeitoun_2021]: https://doi.org/10.3390/en14051382
 [research_zeng_wang_2026]: https://doi.org/10.1016/j.ast.2026.113306
 [research_zhai_yang_2020]: https://doi.org/10.1016/j.jfranklin.2020.03.002
 [research_zhang_2020]: https://doi.org/10.1063/5.0036004
@@ -10482,7 +9530,6 @@ available.
 [research_zhang_qiao_2020]: https://doi.org/10.1016/j.applthermaleng.2020.115661
 [research_zhang_riedel_2019]: https://doi.org/10.1016/j.jmst.2019.09.001
 [research_zhang_shi_2024]: https://doi.org/10.1016/j.jeurceramsoc.2023.11.007
-[research_zhang_song_2016]: https://doi.org/10.1007/s00158-016-1575-2
 [research_zhang_su_2025]: https://doi.org/10.2514/1.a36194
 [research_zhang_sun_2022]: https://doi.org/10.3390/app12125996
 [research_zhang_tong_2021]: https://doi.org/10.1063/5.0064741
@@ -10499,7 +9546,6 @@ available.
 [research_zhang_yang_2015]: https://doi.org/10.1016/j.energy.2015.08.017
 [research_zhang_yao_2023]: https://doi.org/10.1016/j.fuel.2023.128502
 [research_zhang_yi_2023]: https://doi.org/10.1016/j.expthermflusci.2022.110786
-[research_zhang_yu_2015]: https://doi.org/10.1016/j.proci.2014.09.004
 [research_zhang_yu_2024]: https://doi.org/10.1016/j.renene.2024.120541
 [research_zhang_yue_2019]: https://doi.org/10.1016/j.ast.2019.105420
 [research_zhang_zhang_2017]: https://doi.org/10.1177/0954410017703148
@@ -10537,7 +9583,6 @@ available.
 [research_zheng_wang_2018]: https://doi.org/10.2514/1.b36591
 [research_zheng_wu_2023]: https://doi.org/10.1049/icp.2022.3035
 [research_zheng_xiong_2021]: https://doi.org/10.1002/er.6856
-[research_zheng_zheng_2017]: https://doi.org/10.12783/dtcse/aice-ncs2016/5617
 [research_zhi_ran_2015]: https://doi.org/10.1016/j.proeng.2014.12.633
 [research_zhikharev_1993]: https://doi.org/10.1007/bf00417928
 [research_zhivotov_1996]: https://doi.org/10.1007/bf02230761
@@ -10555,7 +9600,6 @@ available.
 [research_zhou_li_2017]: https://doi.org/10.1016/j.ijheatmasstransfer.2017.08.013
 [research_zhou_li_2023]: https://doi.org/10.1063/5.0136170
 [research_zhou_li_2024]: https://doi.org/10.1016/j.applthermaleng.2024.123020
-[research_zhou_liu_2016]: https://doi.org/10.1002/suco.201500138
 [research_zhou_tan_2023]: https://doi.org/10.21595/vp.2023.23198
 [research_zhou_tian_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127851
 [research_zhou_xu_2022]: https://doi.org/10.3390/app12147127

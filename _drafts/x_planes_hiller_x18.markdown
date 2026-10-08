@@ -155,7 +155,7 @@ For the un-immersed panel $v_s = 0$ and this collapses to $\alpha = i_w$, which 
 | 30 m/s | 5.0 | 9.9 | 14.6 | 19.1 | 23.1 | 26.5 |
 | 60 m/s | 7.5 | 15.0 | 22.5 | 30.0 | 37.5 | 45.0 |
 
-The interference this relation idealises is the configuration's central aerodynamic subject and has its own long literature, in [THOREN and JOHNSON 1940][research_thoren_johnson_1940], [Stiesz 1940][research_stiesz_1940], [BRENCKMANN 1958][research_brenckmann_1958], [Kuhn 1959][research_kuhn_1959], [VIDAL et al 1960][research_vidal_1960], [Grunwald 1961][research_grunwald_1961], [Weiberg and Holzhauser 1961][research_weiberg_holzhauser_1961], [Kuhn and Grunwald 1961][research_kuhn_grunwald_1961], [Rizk 1980][research_rizk_1980], [RIZK 1980, Propeller slipstream/wing interact][research_rizk_1980_2], [KATZ et al 1980][research_katz_1980], [Welge et al 1981][research_welge_1981], [Meloney et al 2000][research_meloney_2000], [Moens and Gardarein 2001][research_moens_gardarein_2001], [Meloney et al 2001][research_meloney_2001], [Renooij and Slingerland 2004][research_renooij_slingerland_2004], [Wang et al 2019][research_wang_2019], [Wang et al 2019, Aerodynamic design of multi-propel][research_wang_2019_3], [Mikhalyov et al 2019][research_mikhalyov_2019], [Xue and Zhou 2020][research_xue_zhou_2020].
+The interference this relation idealises is the configuration's central aerodynamic subject and has its own long literature, in [THOREN and JOHNSON 1940][research_thoren_johnson_1940], [Stiesz 1940][research_stiesz_1940], [BRENCKMANN 1958][research_brenckmann_1958], [Kuhn 1959][research_kuhn_1959], [VIDAL et al 1960][research_vidal_1960], [Grunwald 1961][research_grunwald_1961], [Weiberg and Holzhauser 1961][research_weiberg_holzhauser_1961], [Kuhn and Grunwald 1961][research_kuhn_grunwald_1961], [Rizk 1980][research_rizk_1980], [RIZK 1980, Propeller slipstream/wing interact][research_rizk_1980_2], [KATZ et al 1980][research_katz_1980], [Welge et al 1981][research_welge_1981], [Moens and Gardarein 2001][research_moens_gardarein_2001], [Renooij and Slingerland 2004][research_renooij_slingerland_2004], [Wang et al 2019][research_wang_2019], [Wang et al 2019, Aerodynamic design of multi-propel][research_wang_2019_3], [Mikhalyov et al 2019][research_mikhalyov_2019], [Xue and Zhou 2020][research_xue_zhou_2020].
 
 **At zero forward speed the immersed wing is at exactly zero angle of attack, at any tilt whatever.** The only flow it sees comes straight down its own chord. It is not stalled, not marginal, and needs no high-lift device to be unstalled. The un-immersed panel meanwhile sits at the full tilt angle at every speed in the table.
 
@@ -389,7 +389,7 @@ The propeller and wing interference that the X-18 could only obtain from wind tu
 
 ### The Corridor Is an Optimisation Problem
 
-This article computes a corridor by hand at six speeds and reports a margin. The modern treatment optimises the trajectory through it, in [Cheng et al 2022][research_cheng_2022], [Cong et al 2024][research_cong_2024], [Filho and Belo 2024][research_filho_belo_2024], [Hsu et al 2024][research_hsu_2024], [Li et al 2024, Short Takeoff and Vertical Landing][research_li_2024_2], [Jin and Zhao 2025][research_jin_zhao_2025], [Panish and Bacic 2025][research_panish_bacic_2025], [Anonymous 2026][research_anonymous_2026], [Farid and Jungers 2026][research_farid_jungers_2026], [Lee et al 2026][research_lee_2026].
+This article computes a corridor by hand at six speeds and reports a margin. The modern treatment optimises the trajectory through it, in [Cheng et al 2022][research_cheng_2022], [Cong et al 2024][research_cong_2024], [Filho and Belo 2024][research_filho_belo_2024], [Hsu et al 2024][research_hsu_2024], [Li et al 2024, Short Takeoff and Vertical Landing][research_li_2024_2], [Jin and Zhao 2025][research_jin_zhao_2025], [Panish and Bacic 2025][research_panish_bacic_2025], [Farid and Jungers 2026][research_farid_jungers_2026], [Lee et al 2026][research_lee_2026].
 
 **The shape of the answer is unchanged and the method is unrecognisable.** A conversion schedule is now the output of a constrained optimisation rather than a line on a pilot's card.
 
@@ -401,7 +401,7 @@ The strongest continuity in this survey. This article finds that descent closes 
 
 ### Redundancy Replaced Cross-Shafting
 
-The X-18's fatal deficiency was two engines with no interconnection. The XC-142 answered with cross-shafting. **The modern answer is neither**, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Du et al 2024, Experimental and numerical investi][research_du_2024_2], [Kang et al 2024][research_kang_2024], [Ren et al 2024][research_ren_2024], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Liao et al 2025][research_liao_2025], [Luo et al 2025][research_luo_2025], [Dastgerdi and Nabavi-Chashmi 2026][research_dastgerdi_nabavi_chashmi_2026], [Krug et al 2026][research_krug_2026], [May et al 2026][research_may_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026], [Cui et al 2027][research_cui_2027].
+The X-18's fatal deficiency was two engines with no interconnection. The XC-142 answered with cross-shafting. **The modern answer is neither**, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Du et al 2024, Experimental and numerical investi][research_du_2024_2], [Kang et al 2024][research_kang_2024], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Liao et al 2025][research_liao_2025], [Luo et al 2025][research_luo_2025], [Dastgerdi and Nabavi-Chashmi 2026][research_dastgerdi_nabavi_chashmi_2026], [Krug et al 2026][research_krug_2026], [May et al 2026][research_may_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026], [Cui et al 2027][research_cui_2027].
 
 With enough independent motors the loss of one is a control-allocation problem rather than a catastrophe, and the rolling moment this article computes at 268 kilonewton metres for a two-propeller aircraft becomes a small perturbation for an eight-motor one. **The engine-out case stopped being an aerodynamic problem and became a redundancy-architecture problem**, which is a change in the kind of engineering required rather than in its difficulty.
 
@@ -411,7 +411,7 @@ The control-power question the X-13, X-14 and X-18 each met separately is now a 
 
 ### Certification Is Where the Constraint Now Lives
 
-This is the largest single difference between the X-18's world and the present. A 1959 research aircraft needed to fly. A modern powered-lift aircraft needs to fly, be certified against a category that had to be invented for it, and be operated in airspace it shares, in [Mulyk 2021][research_mulyk_2021], [Cocard 2022][research_cocard_2022], [Flagstad et al 2022][research_flagstad_2022], [Veras Neto and de Andrade 2022][research_neto_andrade_2022], [Schweiger and Preis 2022][research_schweiger_preis_2022], [Takacs and Haidegger 2022][research_takacs_haidegger_2022], [Cabaleiro et al 2024][research_cabaleiro_2024], [Lal 2024][research_lal_2024], [Cartile et al 2025][research_cartile_2025], [Farooqui 2025][research_farooqui_2025], [Yadita and Sakti 2025][research_yadita_sakti_2025], [Laplante et al 2026][research_laplante_2026], [Lei 2026][research_lei_2026], [Shubert et al 2026][research_shubert_2026].
+This is the largest single difference between the X-18's world and the present. A 1959 research aircraft needed to fly. A modern powered-lift aircraft needs to fly, be certified against a category that had to be invented for it, and be operated in airspace it shares, in [Veras Neto and de Andrade 2022][research_neto_andrade_2022], [Schweiger and Preis 2022][research_schweiger_preis_2022], [Takacs and Haidegger 2022][research_takacs_haidegger_2022], [Cabaleiro et al 2024][research_cabaleiro_2024], [Cartile et al 2025][research_cartile_2025], [Farooqui 2025][research_farooqui_2025], [Laplante et al 2026][research_laplante_2026], [Lei 2026][research_lei_2026], [Shubert et al 2026][research_shubert_2026].
 
 **The X-18 was grounded by a propeller governor. Its descendants are more often delayed by a means-of-compliance document**, and an article that treated only the aerodynamics would miss where the difficulty now lies.
 
@@ -423,7 +423,7 @@ A 1959 military transport testbed at Edwards had no acoustic constraint whatever
 
 ### Energy and Sizing, the Modern Disc Loading
 
-This article computes a disc loading of 82.1 pounds per square foot and a figure of merit of 0.674, and treats power as something the engines either have or do not. The modern equivalent is energy, in [Hoenicke and Willich 2025][research_hoenicke_willich_2025], [Golombek et al 2026][research_golombek_2026], [Jiang et al 2026][research_jiang_2026], [Jiao and Yang 2026][research_jiao_yang_2026], [Li et al 2026][research_li_2026], [Mokotoff et al 2026][research_mokotoff_2026], [Park 2026, Analytical sizing method for eVTOL][research_park_2026_2], [Park and Park 2026][research_park_park_2026], [Qiao and Zhou 2026][research_qiao_zhou_2026], [Shah and Ansell 2026][research_shah_ansell_2026], [Shirinov et al 2026][research_shirinov_2026], [Xie et al 2026][research_xie_2026], [Yang et al 2026, Structural Parameter Optimization][research_yang_2026_5], [Yang et al 2026, Phase-segmented feature extraction][research_yang_2026_6].
+This article computes a disc loading of 82.1 pounds per square foot and a figure of merit of 0.674, and treats power as something the engines either have or do not. The modern equivalent is energy, in [Hoenicke and Willich 2025][research_hoenicke_willich_2025], [Golombek et al 2026][research_golombek_2026], [Jiang et al 2026][research_jiang_2026], [Jiao and Yang 2026][research_jiao_yang_2026], [Li et al 2026][research_li_2026], [Mokotoff et al 2026][research_mokotoff_2026], [Park 2026, Analytical sizing method for eVTOL][research_park_2026_2], [Park and Park 2026][research_park_park_2026], [Qiao and Zhou 2026][research_qiao_zhou_2026], [Shah and Ansell 2026][research_shah_ansell_2026], [Xie et al 2026][research_xie_2026], [Yang et al 2026, Structural Parameter Optimization][research_yang_2026_5], [Yang et al 2026, Phase-segmented feature extraction][research_yang_2026_6].
 
 **Disc loading has not stopped mattering and has stopped being the binding constraint.** A battery-powered vehicle is limited by stored energy rather than by installed power, which inverts the sizing problem the X-18 faced.
 
@@ -459,7 +459,7 @@ Every dimension and weight is from secondary compilation. No source disagreement
 
 ### The Shape of the Reference Base
 
-Of 388 research references, **184 predate 2019 and 204 do not**, so the base divides close to evenly. The distribution runs 54 documents from before 1960, 53 from the 1960s and 1970s, 39 from the 1980s and 1990s, 38 from 2000 to 2018, and 204 from 2019 onward. The contemporary half is large because **the configuration actually returned**, so surveying the present state of it is surveying a live engineering field rather than an epilogue.
+Of 380 research references, **185 predate 2019 and 195 do not**, so the base divides close to evenly. The distribution runs 57 documents from before 1960, 52 from the 1960s and 1970s, 40 from the 1980s and 1990s, 36 from 2000 to 2018, and 195 from 2019 onward. The contemporary half is large because **the configuration actually returned**, so surveying the present state of it is surveying a live engineering field rather than an epilogue.
 
 **The coverage audit found a selection problem rather than a supply problem**, which is the opposite of the preceding article. The harvest had returned every era in quantity and the draft had cited almost only pre-1960 material, so the correction was to spread the selection rather than to search again.
 
@@ -470,6 +470,8 @@ That search found the single most apposite document in the article, a measuremen
 **Eight candidate references were rejected across the two reference passes after being read rather than matched.** Two matched high angle of attack and were missile aerodynamics, where the phrase means something else. Two matched vortex ring and were a methane diffusion flame and a study of vortex filaments in a viscous fluid. One matched noise and concerned micro-mobility, meaning scooters. One matched regulatory and concerned flying-car racing. And one matched **regulat** inside the phrase roll attitude **regulation**, which is control theory, in a bucket about certification.
 
 **A keyword diagnostic inside a field is useless outside it**, which is the lesson the previous two articles recorded in different vocabularies. One further observation belongs beside it. An ad-hoc relevance scan run over the finished citations produced two false positives of its own, matching a fragment inside the word **arising** and another inside a legitimate paper on propeller-produced unsteady **bearing** forces. **The checks need the same discipline as the thing they check**, and word boundaries are not optional in either.
+
+**The survey was re-read on 7 October 2026, and the rebuilt filter found ten records that do not belong to it.** Five concern certification outside aviation, namely the qualification of welding personnel, an environmental certification scheme for small companies, a hospital nursing credential, the training of forensic experts and halal certification in Indonesia. Two are reports on a magnetohydrodynamic slipstream accelerator, one is a statistical physics paper on run and tumble particles, one concerns a road vehicle with a motor fault, and one is a finite element study of the jaw joint that matched the words disc loading. The filter removed none, because every one is cited in a sentence of this article rather than in a list, and those sentences were left for a hand edit. **All ten were then removed by hand**, each from a list of citations that keeps its other sources, so the total falls from 390 to 380. A reading of 300 unflagged records found 2 off topic, which puts the contamination the screens miss near 0.7 percent, and the ten removed records were 2.6 percent of the base.
 
 ## Epistemic State
 
@@ -582,7 +584,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Anderson 1960, Highlights of Handling Qualities C][research_anderson_1960_2]
 - [Anderson 1960, Highlights of handling qualities c][research_anderson_1960_3]
 - [Anderson and Cho 1984][research_anderson_cho_1984]
-- [Anonymous 2026][research_anonymous_2026]
 - [Antonakis 2025][research_antonakis_2025]
 - [Antonakis and Biannic 2024][research_antonakis_biannic_2024]
 - [Aoyagi and Hickey 1959][research_aoyagi_hickey_1959]
@@ -634,7 +635,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Choi and Suk 2026][research_choi_suk_2026]
 - [Choi et al 2026][research_choi_2026]
 - [Ciliberti and Nicolosi 2026][research_ciliberti_nicolosi_2026]
-- [Cocard 2022][research_cocard_2022]
 - [Comunian et al 2026][research_comunian_2026]
 - [Cong et al 2024][research_cong_2024]
 - [Cook et al 1958][research_cook_1958]
@@ -680,7 +680,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Ferraro et al 2014][research_ferraro_2014]
 - [Filho and Belo 2024][research_filho_belo_2024]
 - [Fink 1967][research_fink_1967]
-- [Flagstad et al 2022][research_flagstad_2022]
 - [FLUK 1981][research_fluk_1981]
 - [G and Mukherjee 2024][research_g_mukherjee_2024]
 - [Gandhi et al 2026][research_gandhi_2026]
@@ -772,7 +771,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Kuhn and Grunwald 1961][research_kuhn_grunwald_1961]
 - [Kumar et al 2026][research_kumar_2026]
 - [Kyi and FENG 2026][research_kyi_feng_2026]
-- [Lal 2024][research_lal_2024]
 - [Lan et al 2026][research_lan_2026]
 - [Laplante et al 2026][research_laplante_2026]
 - [Lee 1985][research_lee_1985]
@@ -815,8 +813,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [McCormick and Mallen 1957][research_mccormick_mallen_1957]
 - [McCormick and W. 1956, Comparative Study of Various Types][research_mccormick_w_1956_2]
 - [Mcveigh et al 1975][research_mcveigh_1975]
-- [Meloney et al 2000][research_meloney_2000]
-- [Meloney et al 2001][research_meloney_2001]
 - [Mikhalyov et al 2019][research_mikhalyov_2019]
 - [Mirković et al 2026][research_mirkovic_2026]
 - [MOCK 1951][research_mock_1951]
@@ -824,7 +820,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Mohamed and Nabawy 2026][research_mohamed_nabawy_2026]
 - [Mokotoff et al 2026][research_mokotoff_2026]
 - [MORSE and NEWHOUSE 1960][research_morse_newhouse_1960]
-- [Mulyk 2021][research_mulyk_2021]
 - [NACA 1960][research_naca_1960]
 - [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2]
 - [NACA 1978][research_naca_1978]
@@ -865,7 +860,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Radhakrishnan and Schmitz 2006][research_radhakrishnan_schmitz_2006]
 - [RASMUSSEN 1960][research_rasmussen_1960]
 - [Reeder 1958][research_reeder_1958]
-- [Ren et al 2024][research_ren_2024]
 - [Renooij and Slingerland 2004][research_renooij_slingerland_2004]
 - [Reynolds et al 1957][research_reynolds_1957]
 - [RICE 1955][research_rice_1955]
@@ -890,7 +884,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Shang et al 2025][research_shang_2025]
 - [SHARP 1950][research_sharp_1950]
 - [Shen et al 2026][research_shen_2026]
-- [Shirinov et al 2026][research_shirinov_2026]
 - [Shubert et al 2026][research_shubert_2026]
 - [Slaughter 1958][research_slaughter_1958]
 - [Smith 1958][research_smith_1958]
@@ -951,7 +944,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Xie et al 2026][research_xie_2026]
 - [Xu et al 2024][research_xu_2024]
 - [Xue and Zhou 2020][research_xue_zhou_2020]
-- [Yadita and Sakti 2025][research_yadita_sakti_2025]
 - [Yan and Shi 2025][research_yan_shi_2025]
 - [Yan et al 2012][research_yan_2012]
 - [Yang et al 2025, Fully autonomous anti-interference][research_yang_2025_3]
@@ -974,7 +966,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_anderson_1960_2]: https://ntrs.nasa.gov/citations/19630004821
 [research_anderson_1960_3]: https://ntrs.nasa.gov/citations/19740076594
 [research_anderson_cho_1984]: https://ntrs.nasa.gov/citations/19840051681
-[research_anonymous_2026]: https://doi.org/10.1103/xy11-ztd3
 [research_antonakis_2025]: https://doi.org/10.1007/s13272-025-00815-4
 [research_antonakis_biannic_2024]: https://doi.org/10.2514/1.c037707
 [research_aoyagi_hickey_1959]: https://ntrs.nasa.gov/citations/19980228317
@@ -1026,7 +1017,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_choi_2026]: https://doi.org/10.2514/1.c038503
 [research_choi_suk_2026]: https://doi.org/10.5139/jksas.2026.54.1.105
 [research_ciliberti_nicolosi_2026]: https://doi.org/10.1016/j.ast.2026.113231
-[research_cocard_2022]: https://doi.org/10.4028/p-4w2t23
 [research_comunian_2026]: https://doi.org/10.1016/j.ast.2026.111980
 [research_cong_2024]: https://doi.org/10.1016/j.ast.2024.109267
 [research_cook_1958]: https://ntrs.nasa.gov/citations/19930092355
@@ -1072,7 +1062,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_ferraro_2014]: https://doi.org/10.2514/6.2014-0564
 [research_filho_belo_2024]: https://doi.org/10.1017/aer.2023.34
 [research_fink_1967]: https://ntrs.nasa.gov/citations/19670014464
-[research_flagstad_2022]: https://doi.org/10.1016/j.jclepro.2022.132037
 [research_fluk_1981]: https://doi.org/10.2514/6.1981-1623
 [research_g_mukherjee_2024]: https://doi.org/10.1134/s0015462824602043
 [research_gandhi_2026]: https://doi.org/10.2514/1.c038602
@@ -1164,7 +1153,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_kuhn_grunwald_1961]: https://ntrs.nasa.gov/citations/19980227771
 [research_kumar_2026]: https://doi.org/10.1016/j.jfluidstructs.2025.104439
 [research_kyi_feng_2026]: https://doi.org/10.1016/j.urbmob.2026.100231
-[research_lal_2024]: https://doi.org/10.1097/nna.0000000000001367
 [research_lan_2026]: https://doi.org/10.3389/arc.2026.16179
 [research_laplante_2026]: https://doi.org/10.3846/aviation.2026.26878
 [research_lee_1985]: https://ntrs.nasa.gov/citations/19860020337
@@ -1207,8 +1195,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_mccormick_mallen_1957]: https://doi.org/10.4050/jahs.2.49
 [research_mccormick_w_1956_2]: https://doi.org/10.21236/ad0159429
 [research_mcveigh_1975]: https://ntrs.nasa.gov/citations/19760004918
-[research_meloney_2000]: https://doi.org/10.2514/6.2000-3486
-[research_meloney_2001]: https://doi.org/10.2514/6.2001-3799
 [research_mikhalyov_2019]: https://doi.org/10.1051/matecconf/201930402018
 [research_mirkovic_2026]: https://doi.org/10.1016/j.urbmob.2025.100181
 [research_mock_1951]: https://doi.org/10.4271/510198
@@ -1216,7 +1202,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_mohamed_nabawy_2026]: https://doi.org/10.1016/j.ast.2026.113250
 [research_mokotoff_2026]: https://doi.org/10.2514/1.c038452
 [research_morse_newhouse_1960]: https://doi.org/10.21236/ad0248356
-[research_mulyk_2021]: https://doi.org/10.32702/2307-2105-2021.1.105
 [research_naca_1960]: https://ntrs.nasa.gov/citations/19740076580
 [research_naca_1960_2]: https://ntrs.nasa.gov/citations/19630004807
 [research_naca_1978]: https://ntrs.nasa.gov/citations/19800005872
@@ -1258,7 +1243,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_radhakrishnan_schmitz_2006]: https://doi.org/10.2514/6.2006-3471
 [research_rasmussen_1960]: https://doi.org/10.4271/600281
 [research_reeder_1958]: https://doi.org/10.4050/jahs.3.4
-[research_ren_2024]: https://doi.org/10.1016/j.mechatronics.2024.103266
 [research_renooij_slingerland_2004]: https://doi.org/10.2514/6.2004-214
 [research_reynolds_1957]: https://ntrs.nasa.gov/citations/19930092325
 [research_rice_1955]: https://doi.org/10.4271/550025
@@ -1283,7 +1267,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_shang_2025]: https://doi.org/10.1049/pel2.70134
 [research_sharp_1950]: https://doi.org/10.4271/500123
 [research_shen_2026]: https://doi.org/10.1016/j.ast.2025.110883
-[research_shirinov_2026]: https://doi.org/10.1016/j.prosdent.2026.03.037
 [research_shubert_2026]: https://doi.org/10.4050/jahs.71.042008
 [research_slaughter_1958]: https://doi.org/10.4050/jahs.3.9
 [research_smith_1958]: https://ntrs.nasa.gov/citations/19980227972
@@ -1344,7 +1327,6 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 [research_xie_2026]: https://doi.org/10.2514/1.c038127
 [research_xu_2024]: https://doi.org/10.1061/jaeeez.aseng-5213
 [research_xue_zhou_2020]: https://doi.org/10.1016/j.ast.2019.105556
-[research_yadita_sakti_2025]: https://doi.org/10.20414/ijhi.v24i2.1099
 [research_yan_2012]: https://doi.org/10.1016/j.apm.2012.01.015
 [research_yan_shi_2025]: https://doi.org/10.56028/aetr.14.1.1702.2025
 [research_yang_2025_3]: https://doi.org/10.1088/1361-6501/adb98a

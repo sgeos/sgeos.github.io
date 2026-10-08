@@ -815,6 +815,8 @@ A weapon programme reports to a service, and the service keeps the reports. The 
 
 **Neither archive holds much about the guidance system**, which is the vehicle's actual subject, and that is not an accident. Guidance was the classified part.
 
+**The research works were re-read on 7 October 2026, and the re-reading refused none of them.** Every one of the 269 research works in the references is cited by name in a sentence of this article, and a reading of every title, the 20 that a screen for missing engineering vocabulary flagged and the 249 it did not, found none outside the subject. The total therefore stands at 269 before and after. The nearest calls were a flutter study of a piezoelectric plate, a fault-tolerance study for aeroengines, a latency study of remote driving and a study of silos under blast, and each was kept because the sentence citing it uses it for exactly that neighbouring point.
+
 ## Epistemic State
 
 **Historical fact, well documented.** The 15 July 1945 military characteristics and their 500 feet at 75 percent accuracy requirement. The MX-767 to MX-776 lineage and the MX-776A and MX-776B split. Bell's May 1947 development contract and Dornberger's leadership. The RTV-A-4 designation and its 1951 redesignation to X-9. The first glide drop in April 1949, the failed powered attempt in May 1950, the first full success on the fifth flight in November 1950, and the January 1953 conclusion. Thirty-one vehicles built. Trapeze launch from a modified EB-50D with radio command guidance. RASCAL cancellation in September 1958.

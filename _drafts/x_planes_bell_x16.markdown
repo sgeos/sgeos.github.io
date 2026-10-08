@@ -425,7 +425,7 @@ and expressing that as an effective exponent on the density ratio alone,
 
 $$n_{\text{ram}} = \frac{\ln 0.08120}{\ln 0.05934} = 0.8889$$
 
-The relation above assumes perfect recovery, which no real inlet achieves. Subsonic inlet and diffuser performance is its own measured subject, in [Conrad and Sobolewski 1950][research_conrad_sobolewski_1950], [Connors and Woollett 1952][research_connors_woollett_1952], [Allen and Beke 1953][research_allen_beke_1953], [Moyer 1963][research_moyer_1963], [FOX 1971][research_fox_1971], [STULL and VELKOFF 1972][research_stull_velkoff_1972], [GLASGOW et al 1980][research_glasgow_1980], [Peacock 1981][research_peacock_1981], [KERKAM 1982][research_kerkam_1982], [Wendt 2000][research_wendt_2000], [Carlin et al 2003][research_carlin_2003], [Baydar et al 2017][research_baydar_2017], and a recovery below unity moves the prediction toward the observed value from the same direction as the compressor losses discussed next. **Ram recovery alone predicts 0.8889 against the 0.9378 the three aircraft actually require, so it over-explains the effect.** The realised benefit is
+The relation above assumes perfect recovery, which no real inlet achieves. Subsonic inlet and diffuser performance is its own measured subject, in [Conrad and Sobolewski 1950][research_conrad_sobolewski_1950], [Connors and Woollett 1952][research_connors_woollett_1952], [Allen and Beke 1953][research_allen_beke_1953], [FOX 1971][research_fox_1971], [STULL and VELKOFF 1972][research_stull_velkoff_1972], [GLASGOW et al 1980][research_glasgow_1980], [Peacock 1981][research_peacock_1981], [KERKAM 1982][research_kerkam_1982], [Wendt 2000][research_wendt_2000], [Carlin et al 2003][research_carlin_2003], [Baydar et al 2017][research_baydar_2017], and a recovery below unity moves the prediction toward the observed value from the same direction as the compressor losses discussed next. **Ram recovery alone predicts 0.8889 against the 0.9378 the three aircraft actually require, so it over-explains the effect.** The realised benefit is
 
 $$\frac{1 - 0.9378}{1 - 0.8889} = 0.560$$
 
@@ -611,7 +611,7 @@ High-altitude long-endurance design is a live field and its sizing problem is re
 
 That is worth stating precisely, because it is the article's keystone being dissolved rather than solved. This article's central finding is that the X-16's ceiling was set by how well a compressor works in thin air, and that the whole aeroplane lived on a nineteen percent margin bought by ram recovery. **A solar-electric platform has no compressor and no lapse exponent.** Its available power at altitude is very nearly independent of density, because photovoltaic output depends on irradiance rather than on air, so the term that dominated the X-16's design by a factor of four over every aerodynamic parameter simply leaves the equation.
 
-What replaces it is energy storage over the night, and the modern literature on solar, fuel cell, battery and hybrid architectures is where that constraint now lives, in [Haider 2025][research_haider_2025], [Hoenicke and Willich 2025][research_hoenicke_willich_2025], [Lewis et al 2025][research_lewis_2025], [Park et al 2025][research_park_2025], [Alfares 2026][research_alfares_2026], [Edi 2026][research_edi_2026], [He et al 2026][research_he_2026], [Ji et al 2026][research_ji_2026], [Jiao and Yang 2026][research_jiao_yang_2026], [Li et al 2026][research_li_2026], [Mityushkin et al 2026][research_mityushkin_2026], [Sarup 2026][research_sarup_2026], [Sawake 2026][research_sawake_2026], [Shah and Ansell 2026][research_shah_ansell_2026], [Yi et al 2026][research_yi_2026], [Cui et al 2027][research_cui_2027].
+What replaces it is energy storage over the night, and the modern literature on solar, fuel cell, battery and hybrid architectures is where that constraint now lives, in [Haider 2025][research_haider_2025], [Hoenicke and Willich 2025][research_hoenicke_willich_2025], [Park et al 2025][research_park_2025], [Alfares 2026][research_alfares_2026], [Edi 2026][research_edi_2026], [He et al 2026][research_he_2026], [Ji et al 2026][research_ji_2026], [Jiao and Yang 2026][research_jiao_yang_2026], [Li et al 2026][research_li_2026], [Mityushkin et al 2026][research_mityushkin_2026], [Sarup 2026][research_sarup_2026], [Sawake 2026][research_sawake_2026], [Shah and Ansell 2026][research_shah_ansell_2026], [Yi et al 2026][research_yi_2026], [Cui et al 2027][research_cui_2027].
 
 **The constraint did not get easier. It moved from the propulsion system's altitude behaviour to the energy system's mass.** A design that must carry enough stored energy to survive until sunrise is mass-constrained in exactly the way the ceiling relation punishes, since every kilogramme of battery raises the weight that sets the ceiling.
 
@@ -651,31 +651,31 @@ This article's reconciliation of the thrust-limited ceiling with the U-2's reput
 
 ### Propulsion at Altitude Is Still Measured Rather Than Predicted
 
-The article's headline result is that a lapse exponent had to be inferred from outcomes because it could not be derived. That has not fundamentally changed for air-breathing engines, and altitude performance modelling, compressor behaviour at low Reynolds number, inlet recovery and propeller performance in thin air remain measured subjects, in [Kruger and Uranga 2024][research_kruger_uranga_2024], [Lee and Yee 2024][research_lee_yee_2024], [Oğur et al 2024][research_ogur_2024], [Shi et al 2024][research_shi_2024], [Almutairi et al 2025][research_almutairi_2025], [Dai et al 2025][research_dai_2025], [Priya and Arora 2025][research_priya_arora_2025], [Riccio et al 2025][research_riccio_2025], [Sarup 2025][research_sarup_2025], [Shan et al 2025][research_shan_2025], [Shang et al 2025][research_shang_2025], [Gao et al 2026][research_gao_2026], [Koshel et al 2026][research_koshel_2026], [LIU et al 2026, Consideration for the development][research_liu_2026_3].
+The article's headline result is that a lapse exponent had to be inferred from outcomes because it could not be derived. That has not fundamentally changed for air-breathing engines, and altitude performance modelling, compressor behaviour at low Reynolds number, inlet recovery and propeller performance in thin air remain measured subjects, in [Kruger and Uranga 2024][research_kruger_uranga_2024], [Lee and Yee 2024][research_lee_yee_2024], [Oğur et al 2024][research_ogur_2024], [Shi et al 2024][research_shi_2024], [Almutairi et al 2025][research_almutairi_2025], [Dai et al 2025][research_dai_2025], [Priya and Arora 2025][research_priya_arora_2025], [Riccio et al 2025][research_riccio_2025], [Sarup 2025][research_sarup_2025], [Shan et al 2025][research_shan_2025], [Shang et al 2025][research_shang_2025], [Koshel et al 2026][research_koshel_2026], [LIU et al 2026, Consideration for the development][research_liu_2026_3].
 
 **The turbocharger failure literature for high-altitude long-endurance aircraft is the closest modern analogue to the X-16's problem**, because a turbocharged piston or small turbine engine at seventy thousand feet faces the same thin-air component-efficiency question the J57 faced, at a smaller scale and with better instrumentation.
 
 ### The Sensor Improved and the Penalty Did Not
 
-The article's resolution relation is that ground sample distance is slant range times angular resolution, so altitude costs resolution linearly. **That relation is exact and permanent.** What improved is the angular resolution, through better optics, digital detectors, hyperspectral and radar sensing, and computational correction, in [Dewage et al 2024][research_dewage_2024], [Ardohain and Fei 2025][research_ardohain_fei_2025], [Jin et al 2025][research_jin_2025], [Kim and Lee 2025][research_kim_lee_2025], [Kim and Lim 2025][research_kim_lim_2025], [Knauer et al 2025][research_knauer_2025], [Rathnasabapathy et al 2025][research_rathnasabapathy_2025], [Saldarriaga et al 2025][research_saldarriaga_2025], [Wang and Zhang 2025][research_wang_zhang_2025], [Zhou 2025][research_zhou_2025], [Jasso et al 2026][research_jasso_2026], [Schumann 2026][research_schumann_2026], [Tian et al 2026, Overcoming spatial resolution limi][research_tian_2026_2].
+The article's resolution relation is that ground sample distance is slant range times angular resolution, so altitude costs resolution linearly. **That relation is exact and permanent.** What improved is the angular resolution, through better optics, digital detectors, hyperspectral and radar sensing, and computational correction, in [Ardohain and Fei 2025][research_ardohain_fei_2025], [Jin et al 2025][research_jin_2025], [Knauer et al 2025][research_knauer_2025], [Rathnasabapathy et al 2025][research_rathnasabapathy_2025], [Saldarriaga et al 2025][research_saldarriaga_2025], [Wang and Zhang 2025][research_wang_zhang_2025], [Zhou 2025][research_zhou_2025], [Jasso et al 2026][research_jasso_2026].
 
 **The trade the X-16 faced is therefore unchanged in form and enormously relaxed in magnitude.** A modern sensor at seventy thousand feet resolves what a 1955 sensor would have needed to descend to a few thousand feet to see, which means the altitude that once cost resolution now costs almost nothing. **The reason to fly high stopped being a compromise.**
 
 ### The Stratosphere Is Now Observed Rather Than Assumed
 
-The article notes that the X-16 was sized against an atmosphere still being measured. That measurement continued and is now a field of its own, covering stratospheric turbulence, gravity waves, density model uncertainty, aerosol and ozone distribution, and long-term temperature trends, in [Bai et al 2025][research_bai_2025], [Brown and Leidich 2025][research_brown_leidich_2025], [Chern 2025][research_chern_2025], [Duffey et al 2025][research_duffey_2025], [Guo et al 2025][research_guo_2025], [Hannachi et al 2025][research_hannachi_2025], [Davies and Sprenger 2026][research_davies_sprenger_2026], [Francis et al 2026][research_francis_2026], [Gann and Yiğit 2026][research_gann_yigit_2026], [Lange et al 2026][research_lange_2026], [Liu and Hu 2026][research_liu_hu_2026], [Maghrabi et al 2026][research_maghrabi_2026], [de Arruda Moreira et al 2026][research_moreira_2026], [Richter 2026][research_richter_2026].
+The article notes that the X-16 was sized against an atmosphere still being measured. That measurement continued and is now a field of its own, covering stratospheric turbulence, gravity waves, density model uncertainty, aerosol and ozone distribution, and long-term temperature trends, in [Bai et al 2025][research_bai_2025], [Brown and Leidich 2025][research_brown_leidich_2025], [Duffey et al 2025][research_duffey_2025], [Guo et al 2025][research_guo_2025], [Hannachi et al 2025][research_hannachi_2025], [Davies and Sprenger 2026][research_davies_sprenger_2026], [Francis et al 2026][research_francis_2026], [Gann and Yiğit 2026][research_gann_yigit_2026], [Lange et al 2026][research_lange_2026], [Liu and Hu 2026][research_liu_hu_2026], [Maghrabi et al 2026][research_maghrabi_2026], [de Arruda Moreira et al 2026][research_moreira_2026], [Richter 2026][research_richter_2026].
 
 **Two consequences bear on this article directly.** The standard atmosphere it uses is a smooth average of a variable medium, and the real stratosphere carries turbulence and wave activity that a 1955 design would have met without warning. And **the medium is changing**, since stratospheric cooling and density trends mean that the altitude corresponding to a given density ratio is not fixed on a decadal scale, which makes the ceiling relation's answer very slightly time-dependent.
 
 ### The Binding Constraint Moved to Certification
 
-This is the largest single difference between the X-16's world and the present one, and it is not technical. A 1955 military reconnaissance aeroplane needed to work. A modern high-altitude platform needs to work, to be certified, to be insurable, and to be integrated into airspace it shares with everything else, and that literature is now substantial, in [Lee and Ko 2025][research_lee_ko_2025], [Mirabella et al 2025][research_mirabella_2025], [Nrangwesti et al 2025][research_nrangwesti_2025], [Randieri et al 2025][research_randieri_2025], [Dui et al 2026][research_dui_2026], [Kumar et al 2026][research_kumar_2026], [Park 2026][research_park_2026], [Pratima and Mohammed 2026][research_pratima_mohammed_2026], [Rochford et al 2026][research_rochford_2026], [Wang et al 2026, Dynamic reliability analysis for u][research_wang_2026_4], [Zhang et al 2026, Decision reliability analysis fram][research_zhang_2026_4], [Zhang et al 2027][research_zhang_2027].
+This is the largest single difference between the X-16's world and the present one, and it is not technical. A 1955 military reconnaissance aeroplane needed to work. A modern high-altitude platform needs to work, to be certified, to be insurable, and to be integrated into airspace it shares with everything else, and that literature is now substantial, in [Lee and Ko 2025][research_lee_ko_2025], [Mirabella et al 2025][research_mirabella_2025], [Nrangwesti et al 2025][research_nrangwesti_2025], [Randieri et al 2025][research_randieri_2025], [Dui et al 2026][research_dui_2026], [Kumar et al 2026][research_kumar_2026], [Park 2026][research_park_2026], [Rochford et al 2026][research_rochford_2026], [Wang et al 2026, Dynamic reliability analysis for u][research_wang_2026_4], [Zhang et al 2026, Decision reliability analysis fram][research_zhang_2026_4], [Zhang et al 2027][research_zhang_2027].
 
 **The X-16 was cancelled by a procurement decision, which this article argues was not an engineering verdict.** Its descendants are more often delayed by an approval process than by a design problem. **The constraint moved from the aeroplane to the paperwork**, and an article that treated only the arithmetic would miss where the difficulty actually now lies.
 
 ### The Design Method Itself Changed
 
-The trade this article performs by hand, ceiling against weight against wing loading against structural mass, is now automated. Multidisciplinary optimisation, surrogate modelling, machine-learned aerodynamic prediction, digital twins and structural health monitoring are the current toolset, in [Bornholdt et al 2025][research_bornholdt_2025], [Huang et al 2025, Balanced fidelity digital twin for][research_huang_2025_2], [Adimass and Żak 2026][research_adimass_zak_2026], [Duan et al 2026][research_duan_2026], [Hoda and Bhattacharyya 2026][research_hoda_bhattacharyya_2026], [Karyofyllas et al 2026][research_karyofyllas_2026], [Keçeci and Oktal 2026][research_kececi_oktal_2026], [Pan et al 2026][research_pan_2026], [Qin 2026][research_qin_2026], [Yan et al 2026][research_yan_2026], [Zhang et al 2026, Resonance-aware digital twin-drive][research_zhang_2026_5].
+The trade this article performs by hand, ceiling against weight against wing loading against structural mass, is now automated. Multidisciplinary optimisation, surrogate modelling, machine-learned aerodynamic prediction, digital twins and structural health monitoring are the current toolset, in [Huang et al 2025, Balanced fidelity digital twin for][research_huang_2025_2], [Adimass and Żak 2026][research_adimass_zak_2026], [Duan et al 2026][research_duan_2026], [Hoda and Bhattacharyya 2026][research_hoda_bhattacharyya_2026], [Karyofyllas et al 2026][research_karyofyllas_2026], [Keçeci and Oktal 2026][research_kececi_oktal_2026], [Pan et al 2026][research_pan_2026], [Qin 2026][research_qin_2026].
 
 **That changes what a comparison of three designs means.** Bell, Lockheed and Martin each produced one point design and defended it. A modern equivalent would produce a Pareto surface, and the question this article asks about why the X-16 lost would be answered by showing where each design sat on it. **The reason that cannot be done here is not that the method is unavailable but that the inputs for the X-16 do not exist.**
 
@@ -717,11 +717,13 @@ What does hold the article up is the literature of the flight condition. The NAC
 
 An earlier version of this article cited 35 documents from before 1960 and 22 published after 2019, and **three from the whole of 1960 to 2018.** That shape implied the X-16's question was asked in the 1950s, abandoned, and revived recently. **It was not.** It was worked continuously, most visibly by the high-altitude long-endurance programmes of the 1980s and 1990s. The reference base now runs 69 documents from before 1960, 61 from the 1960s and 1970s, 56 from the 1980s and 1990s, 47 from 2000 to 2018, and 57 from 2019 onward. **The correction was to the article's implicit history rather than to its arithmetic.**
 
-Of the 443 research references, 226 predate 2019 and 217 do not, so the base is almost exactly half primary and period material by count, running 69 documents from before 1960, 60 from the 1960s and 1970s, 52 from the 1980s and 1990s, 45 from 2000 to 2018, and 217 from 2019 onward. **Contemporary coverage at 222 is above the absolute range this series has usually held**, and that is deliberate rather than accidental. The X-16 has no literature of its own, so the only way this article can be a survey of anything is to survey the question, and the question is being asked now by twelve identifiable fields rather than one. The contemporary section is organised into those twelve rather than presented as a list.
+Of the 430 research references, 225 predate 2019 and 205 do not, so the base is slightly more than half primary and period material by count, running 69 documents from before 1960, 59 from the 1960s and 1970s, 52 from the 1980s and 1990s, 45 from 2000 to 2018, and 205 from 2019 onward. **Contemporary coverage at 205 is above the absolute range this series has usually held**, and that is deliberate rather than accidental. The X-16 has no literature of its own, so the only way this article can be a survey of anything is to survey the question, and the question is being asked now by twelve identifiable fields rather than one. The contemporary section is organised into those twelve rather than presented as a list.
 
 **Sixteen citations were removed after insertion because they were read rather than merely matched**, and the list is worth giving because it shows how a title search fails. Searching for resolution returned robust localisation for wireless sensor networks, inductive arrays for unexploded ordnance detection, and charge-coupled device spectra of stars in globular clusters. Searching for high aspect ratio returned a high-explosive round for a railgun bore. Searching for fatigue under spectrum loading returned gun tube steel. Searching for digital twin returned cable-stayed bridges and rolling-element bearings. Searching for airborne hyperspectral imaging returned the organic matter content of winter wheat topsoil. A further fifteen were dropped the same way before insertion, including three copies of a mammography paper and a run of reports on nuclear turbojet powerplants that share vocabulary with this subject and nothing else.
 
 **Every one of those was found by reading a title rather than by a rule, and several survived two successive filters.** The general lesson is that a keyword that is diagnostic within a field is not diagnostic across the literature, since aspect ratio, resolution, fatigue, and digital twin all mean something precise here and something entirely different one discipline away.
+
+**The research works were re-read against the article's subject on 7 October 2026, and the re-reading found fifteen that are about something else.** They are two vegetation-mapping studies, a forest-canopy classification, a vegetation-index rescaling study, a survey of phosphorus in small water bodies, a review of satellite observation in flood management, a paper on whether stratospheric aerosol could save corals, a photovoltaic yield study for ground sites, a survey of airborne particulate matter, digital-twin papers on dikes, on infrastructure sensor networks and on bearing faults, a healthcare data framework, a study of diesel lubrication on high plateaus, and a performance report on the Tory II-C nuclear ramjet. Every one of them is cited in a prose sentence of The Contemporary Literature or of the reconnaissance and propulsion sections, so the filter removed none of them, since removing a work that a sentence rests on is an editorial decision about that sentence and not a filter decision. **Thirteen were then removed by hand**, each from a list of citations that keeps its other sources. The two kept are the forest-canopy classification and the vegetation-index rescaling study, which both use airborne sensors and sit in the sequence of aerial sensing that also holds the forestry and beach photography of the 1950s. The research total therefore falls from 443 to 430, and a reading of 300 unflagged records found 9 off topic, which puts the contamination the screens miss near 3.0 percent.
 
 ## Epistemic State
 
@@ -851,7 +853,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Bland 1980][research_bland_1980]
 - [Boddy 1946][research_boddy_1946]
 - [Borgmann et al 2025][research_borgmann_2025]
-- [Bornholdt et al 2025][research_bornholdt_2025]
 - [BRAITHWAITE et al 1973][research_braithwaite_1973]
 - [Breuhaus 1961][research_breuhaus_1961]
 - [Broeren et al 2019][research_broeren_2019]
@@ -870,7 +871,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Carmichael 1981][research_carmichael_1981]
 - [Cavaliere and Fezans 2024][research_cavaliere_fezans_2024]
 - [Chen et al 2021][research_chen_2021]
-- [Chern 2025][research_chern_2025]
 - [Cheung et al 2020][research_cheung_2020]
 - [Childs and McCafferty 1948][research_childs_mccafferty_1948]
 - [Chu et al 2021][research_chu_2021]
@@ -897,7 +897,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Davenport et al 1974][research_davenport_1974]
 - [Davies and Sprenger 2026][research_davies_sprenger_2026]
 - [Davison and Chishty 2011][research_davison_chishty_2011]
-- [Dewage et al 2024][research_dewage_2024]
 - [Diederich 1956][research_diederich_1956]
 - [Diederich 1957][research_diederich_1957]
 - [DIETZ 1952][research_dietz_1952]
@@ -931,7 +930,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Games et al 1954][research_games_1954]
 - [GANGSAAS et al 1981][research_gangsaas_1981]
 - [Gann and Yiğit 2026][research_gann_yigit_2026]
-- [Gao et al 2026][research_gao_2026]
 - [Ge et al 2025][research_ge_2025]
 - [Gern et al 2000][research_gern_2000]
 - [Ghonem 1987][research_ghonem_1987]
@@ -1008,8 +1006,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Kida 1982][research_kida_1982]
 - [Kilic and Unal 2021][research_kilic_unal_2021]
 - [Kilic et al 2024][research_kilic_2024]
-- [Kim and Lee 2025][research_kim_lee_2025]
-- [Kim and Lim 2025][research_kim_lim_2025]
 - [Kirsch et al 2020][research_kirsch_2020]
 - [Klein 1945][research_klein_1945]
 - [Klinar 1947][research_klinar_1947]
@@ -1035,7 +1031,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Lei et al 2025][research_lei_2025]
 - [Levin and Shyy 2001][research_levin_shyy_2001]
 - [Levy and Bailey 1981][research_levy_bailey_1981]
-- [Lewis et al 2025][research_lewis_2025]
 - [Li 2021][research_li_2021]
 - [Li and Qin 2021][research_li_qin_2021]
 - [Li et al 2021, Effects of Unbalanced Lamination P][research_li_2021_2]
@@ -1085,7 +1080,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [de Arruda Moreira et al 2026][research_moreira_2026]
 - [MORRIS 1954][research_morris_1954]
 - [Morris 1981, Analytical study of the cruise per][research_morris_1981_2]
-- [Moyer 1963][research_moyer_1963]
 - [Mueller 1984][research_mueller_1984]
 - [Mueller and Batill 1980][research_mueller_batill_1980]
 - [Mueller and Torres 2001][research_mueller_torres_2001]
@@ -1119,7 +1113,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Petroski 1981][research_petroski_1981]
 - [Pinkel and Shames 1948][research_pinkel_shames_1948]
 - [Pourtakdoust and Khodabakhsh 2026][research_pourtakdoust_khodabakhsh_2026]
-- [Pratima and Mohammed 2026][research_pratima_mohammed_2026]
 - [Prince and Mcaulay 1950][research_prince_mcaulay_1950]
 - [Priya and Arora 2025][research_priya_arora_2025]
 - [Qi et al 2026][research_qi_2026]
@@ -1165,7 +1158,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Schollmeier and Wiesche 2022][research_schollmeier_wiesche_2022]
 - [SCHROEDER 1956][research_schroeder_1956]
 - [Schulderfrei et al 1951][research_schulderfrei_1951]
-- [Schumann 2026][research_schumann_2026]
 - [Shah and Ansell 2026][research_shah_ansell_2026]
 - [Shan et al 2025][research_shan_2025]
 - [Shanahan and Barker 1962][research_shanahan_barker_1962]
@@ -1208,7 +1200,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Tescaroli and Belan 2021][research_tescaroli_belan_2021]
 - [Thornton 2002][research_thornton_2002]
 - [Tian et al 2026][research_tian_2026]
-- [Tian et al 2026, Overcoming spatial resolution limi][research_tian_2026_2]
 - [Tian-yu et al 1981][research_tian_yu_1981]
 - [TORENBEEK 1972][research_torenbeek_1972]
 - [TOTH and WHITE 1949][research_toth_white_1949]
@@ -1243,7 +1234,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Xing et al 2026][research_xing_2026]
 - [Xiong et al 2026][research_xiong_2026]
 - [Xu 2026, Retraction Note][research_xu_2026_2]
-- [Yan et al 2026][research_yan_2026]
 - [Yi et al 2025][research_yi_2025]
 - [Yi et al 2026][research_yi_2026]
 - [Youngblood and Talay 1982][research_youngblood_talay_1982]
@@ -1254,7 +1244,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Zhang et al 2026][research_zhang_2026]
 - [Zhang et al 2026, Decision reliability analysis fram][research_zhang_2026_4]
 - [Zhang et al 2026, Gust Alleviation Approach for Flyi][research_zhang_2026_2]
-- [Zhang et al 2026, Resonance-aware digital twin-drive][research_zhang_2026_5]
 - [Zhang et al 2027][research_zhang_2027]
 - [Zhao 2021][research_zhao_2021]
 - [Zhao and Gao 2019][research_zhao_gao_2019]
@@ -1295,7 +1284,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_bland_1980]: https://ntrs.nasa.gov/citations/19800068478
 [research_boddy_1946]: https://ntrs.nasa.gov/citations/20140000007
 [research_borgmann_2025]: https://doi.org/10.1017/jfm.2025.43
-[research_bornholdt_2025]: https://doi.org/10.3390/civileng6030039
 [research_braithwaite_1973]: https://doi.org/10.2514/6.1973-1316
 [research_breuhaus_1961]: https://doi.org/10.21236/ad0403365
 [research_broeren_2019]: https://ntrs.nasa.gov/citations/20190027696
@@ -1314,7 +1302,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_carmichael_1981]: https://ntrs.nasa.gov/citations/19820006186
 [research_cavaliere_fezans_2024]: https://doi.org/10.2514/1.g007762
 [research_chen_2021]: https://doi.org/10.1017/aer.2021.9
-[research_chern_2025]: https://doi.org/10.1029/2025eo250463
 [research_cheung_2020]: https://doi.org/10.2514/1.c035732
 [research_childs_mccafferty_1948]: https://ntrs.nasa.gov/citations/20030065290
 [research_chu_2021]: https://doi.org/10.3390/drones5020044
@@ -1341,7 +1328,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_davenport_1974]: https://doi.org/10.21236/ada002546
 [research_davies_sprenger_2026]: https://doi.org/10.5194/wcd-7-717-2026
 [research_davison_chishty_2011]: https://doi.org/10.1115/gt2011-45132
-[research_dewage_2024]: https://doi.org/10.3390/rs16132454
 [research_diederich_1956]: https://ntrs.nasa.gov/citations/20150019335
 [research_diederich_1957]: https://ntrs.nasa.gov/citations/19930084813
 [research_dietz_1952]: https://doi.org/10.4271/520093
@@ -1375,7 +1361,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_games_1954]: https://doi.org/10.21236/ad0035127
 [research_gangsaas_1981]: https://doi.org/10.2514/6.1981-21
 [research_gann_yigit_2026]: https://doi.org/10.1029/2025ja034575
-[research_gao_2026]: https://doi.org/10.3390/lubricants14020088
 [research_ge_2025]: https://doi.org/10.2514/1.c038384
 [research_gern_2000]: https://ntrs.nasa.gov/citations/20000023179
 [research_ghonem_1987]: https://doi.org/10.21236/ada192027
@@ -1452,8 +1437,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_kida_1982]: https://doi.org/10.1515/9783112546963-011
 [research_kilic_2024]: https://doi.org/10.1061/jaeeez.aseng-5486
 [research_kilic_unal_2021]: https://doi.org/10.1108/aeat-01-2021-0018
-[research_kim_lee_2025]: https://doi.org/10.5194/ica-abs-10-146-2025
-[research_kim_lim_2025]: https://doi.org/10.3390/f16071158
 [research_kirsch_2020]: https://doi.org/10.1016/j.jfluidstructs.2020.102930
 [research_klein_1945]: https://ntrs.nasa.gov/citations/20050185542
 [research_klinar_1947]: https://ntrs.nasa.gov/citations/20050019298
@@ -1479,7 +1462,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_lei_2026]: https://doi.org/10.1088/1742-6596/3207/1/012006
 [research_levin_shyy_2001]: https://doi.org/10.2514/6.2001-125
 [research_levy_bailey_1981]: https://ntrs.nasa.gov/citations/19820027451
-[research_lewis_2025]: https://doi.org/10.1016/j.solener.2025.113816
 [research_li_2021]: https://doi.org/10.1088/1742-6596/2029/1/012016
 [research_li_2021_2]: https://doi.org/10.1155/2021/3949078
 [research_li_2022_3]: https://doi.org/10.1109/tim.2022.3162267
@@ -1529,7 +1511,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_moreira_2026]: https://doi.org/10.5194/angeo-44-195-2026
 [research_morris_1954]: https://doi.org/10.21236/ad0115997
 [research_morris_1981_2]: https://ntrs.nasa.gov/citations/19810013510
-[research_moyer_1963]: https://doi.org/10.2172/435307
 [research_mueller_1984]: https://ntrs.nasa.gov/citations/19840055223
 [research_mueller_batill_1980]: https://ntrs.nasa.gov/citations/19800057452
 [research_mueller_torres_2001]: https://doi.org/10.21236/ada397533
@@ -1563,7 +1544,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_petroski_1981]: https://doi.org/10.21236/ada097224
 [research_pinkel_shames_1948]: https://ntrs.nasa.gov/citations/19930093755
 [research_pourtakdoust_khodabakhsh_2026]: https://doi.org/10.1016/j.ast.2025.111214
-[research_pratima_mohammed_2026]: https://doi.org/10.1007/s12247-025-10154-w
 [research_prince_mcaulay_1950]: https://ntrs.nasa.gov/citations/19930086235
 [research_priya_arora_2025]: https://doi.org/10.5750/ijme.v167ia3(s).1711
 [research_qi_2026]: https://doi.org/10.3390/aerospace13060496
@@ -1609,7 +1589,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_schollmeier_wiesche_2022]: https://doi.org/10.1016/j.energy.2022.125143
 [research_schroeder_1956]: https://doi.org/10.4271/560282
 [research_schulderfrei_1951]: https://ntrs.nasa.gov/citations/19930083056
-[research_schumann_2026]: https://doi.org/10.66233/innp-026-30159
 [research_shah_ansell_2026]: https://doi.org/10.2514/1.c038714
 [research_shan_2025]: https://doi.org/10.3390/wevj16040212
 [research_shanahan_barker_1962]: https://doi.org/10.21236/ad0434193
@@ -1652,7 +1631,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_tescaroli_belan_2021]: https://doi.org/10.1088/1361-6501/abf057
 [research_thornton_2002]: https://doi.org/10.4218/etrij.02.0102.0202
 [research_tian_2026]: https://doi.org/10.1016/j.compstruct.2026.120104
-[research_tian_2026_2]: https://doi.org/10.1117/1.jrs.20.014504
 [research_tian_yu_1981]: https://doi.org/10.1115/81-gt-49
 [research_torenbeek_1972]: https://doi.org/10.1108/eb034867
 [research_toth_white_1949]: https://doi.org/10.21236/ad0072677
@@ -1687,7 +1665,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_xing_2026]: https://doi.org/10.1016/j.engfailanal.2026.111081
 [research_xiong_2026]: https://doi.org/10.1016/j.ast.2026.112223
 [research_xu_2026_2]: https://doi.org/10.1038/s41598-026-56983-8
-[research_yan_2026]: https://doi.org/10.1177/14759217261433896
 [research_yi_2025]: https://doi.org/10.1063/5.0299020
 [research_yi_2026]: https://doi.org/10.1016/j.joule.2026.102601
 [research_youngblood_talay_1982]: https://ntrs.nasa.gov/citations/19820048449
@@ -1698,7 +1675,6 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 [research_zhang_2026]: https://doi.org/10.3390/aerospace13010098
 [research_zhang_2026_2]: https://doi.org/10.1007/s42405-026-01144-4
 [research_zhang_2026_4]: https://doi.org/10.1016/j.ress.2026.112887
-[research_zhang_2026_5]: https://doi.org/10.1177/14759217261462579
 [research_zhang_2027]: https://doi.org/10.1016/j.ress.2026.113082
 [research_zhao_2021]: https://doi.org/10.1088/1742-6596/1820/1/012048
 [research_zhao_gao_2019]: https://doi.org/10.1108/ec-05-2018-0215

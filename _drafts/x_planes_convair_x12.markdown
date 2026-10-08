@@ -965,11 +965,11 @@ Separation is now a multibody simulation problem, in [Pamadi et al 2016][researc
 
 The article's sharpest propulsion result is that the tail-off impulse uncertainty is 1.8 times the entire error budget. The modern literature attacks that uncertainty directly rather than working around it. Start and shutdown transients are simulated in detail, deep throttling is [Fiore et al 2026][research_fiore_2026] and [Zhou et al 2026, Analysis of throttling characteris][research_zhou_2026_2], turbopump cavitation is reviewed in [Wan et al 2026][research_wan_2026] with supersonic turbine design in [Wei et al 2026, Design and loss mechanisms analysi][research_wei_2026_2], and film cooling is [Yang et al 2025][research_yang_2025].
 
-**Health monitoring is the capability that would have changed the Atlas B flight record most.** Three of its four failures were propulsion faults, and [Cha and Ko 2025][research_cha_ko_2025], [Zhang et al 2024, Knowledge distillation-optimized t][research_zhang_2024_2], and [Zhu et al 2026][research_zhu_2026] detect exactly that class of fault from sensor data. The propellant utilisation function the article shows to be worth forty-five error budgets is now a sensing problem, in [Anisha Selva Kala et al 2025][research_kala_2025]. **A vehicle that knows its own mixture ratio in flight does not need to reserve propellant against not knowing it.**
+**Health monitoring is the capability that would have changed the Atlas B flight record most.** Three of its four failures were propulsion faults, and [Cha and Ko 2025][research_cha_ko_2025] and [Zhang et al 2024, Knowledge distillation-optimized t][research_zhang_2024_2] detect exactly that class of fault from sensor data. The propellant utilisation function the article shows to be worth forty-five error budgets is now a sensing problem, in [Anisha Selva Kala et al 2025][research_kala_2025]. **A vehicle that knows its own mixture ratio in flight does not need to reserve propellant against not knowing it.**
 
 ### Structural Dynamics, Where the Balloon Tank Still Complicates Matters
 
-The article shows that the autopilot bandwidth must sit in a window of 31 and that the first bending mode moves during the ascent because the shell is pressure-stabilised. Pogo suppression under model reduction is [Zhao and Tan 2026][research_zhao_tan_2026], [Raji et al 2019][research_raji_2019], [Liu et al 2020][research_liu_2020], and [Nikolayev et al 2026][research_nikolayev_2026], slosh coupled to control is [Pei 2021, Analytical Investigation of Propel][research_pei_2021_2] and [Feng et al 2020][research_feng_2020], and load relief against wind is [Song et al 2022, Comprehensive Load Relief of Launc][research_song_2022_5] and [Ivanco et al 2020][research_ivanco_2020].
+The article shows that the autopilot bandwidth must sit in a window of 31 and that the first bending mode moves during the ascent because the shell is pressure-stabilised. Pogo suppression under model reduction is [Zhao and Tan 2026][research_zhao_tan_2026], [Raji et al 2019][research_raji_2019], and [Nikolayev et al 2026][research_nikolayev_2026], slosh coupled to control is [Pei 2021, Analytical Investigation of Propel][research_pei_2021_2] and [Feng et al 2020][research_feng_2020], and load relief against wind is [Song et al 2022, Comprehensive Load Relief of Launc][research_song_2022_5] and [Ivanco et al 2020][research_ivanco_2020].
 
 ### Reentry, and the Same Physics From the Other Side
 
@@ -1054,6 +1054,8 @@ The asymmetry the [previous article][related_post_a308_convair_x11] identified h
 The satellite side has the opposite shape. Project SCORE was run under extreme secrecy by a different service, and the accessible technical record for the payload is thin compared with the vehicle that carried it. What survives well is the surrounding orbital mechanics and communications literature, which was being written at exactly that moment for reasons that had nothing to do with SCORE, and the clearest window onto what SCORE was is its successor rather than itself, in [Maresca 1960][research_maresca_1960] and [Mottley et al 1960][research_mottley_1960].
 
 **The third body of literature this article draws on was not sought and turned out to be the largest.** The geodesy section exists because the equation pass established that the flattening of the Earth exceeds the miss budget by a factor of 5.8, and the harvest assembled for a missile article contained nothing about datums, geoids, or zonal harmonics. A sweep aimed at them returned an entire discipline, openly published in the astronomical and geodetic journals, running continuously from [Hirvonen 1954][research_hirvonen_1954] to [Eitschberger and Grafarend 1974][research_eitschberger_grafarend_1974] and overlapping the Atlas force's whole operational life. **The weapon literature is classified, fragmentary, and archived under project numbers. The literature the weapon depended on is none of those things**, because determining the shape of the Earth was not a secret and could not usefully have been made one. That asymmetry is the most striking source-base feature of this article and it was found by following a relation rather than a topic.
+
+**The research list was read again in full on 7 October 2026, and the re-reading refused none of its 382 records.** Every research work in this article is cited in a sentence of the body, which makes each one a source chosen by hand rather than a record admitted by a query, so the filter left the total at 382. The reading found one title outside the subject, a study of anomaly detection for the structural health monitoring of lightweight bridges that sat among the rocket engine health monitoring work in the contemporary section. A reading of 300 records that no screen flagged found that same one off topic, which put the contamination near 0.3 percent. **That study and a regional gravity field study cited as pogo suppression were then removed by hand**, together with their citations, so the total stands at 380.
 
 ## Epistemic State
 
@@ -1345,7 +1347,6 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Li et al 2026][research_li_2026]
 - [Li et al 2026, Improved time-correlated noise mod][research_li_2026_2]
 - [Liu 1974][research_liu_1974]
-- [Liu et al 2020][research_liu_2020]
 - [Liu et al 2026][research_liu_2026]
 - [Liu et al 2026, Spacecraft System-Level Survivabil][research_liu_2026_4]
 - [Lortie 1966][research_lortie_1966]
@@ -1520,7 +1521,6 @@ The sensitivity that organises the article has not moved since. Running it forwa
 - [Zhao and Li 2025][research_zhao_li_2025]
 - [Zhao and Tan 2026][research_zhao_tan_2026]
 - [Zhou et al 2026, Analysis of throttling characteris][research_zhou_2026_2]
-- [Zhu et al 2026][research_zhu_2026]
 - [Zmyslowski and Kelner 2026][research_zmyslowski_kelner_2026]
 - [Öztürk et al 2026][research_ozturk_2026]
 
@@ -1728,7 +1728,6 @@ The sensitivity that organises the article has not moved since. Running it forwa
 [research_li_2026]: https://doi.org/10.1109/access.2026.3667479
 [research_li_2026_2]: https://doi.org/10.1016/j.measurement.2026.120644
 [research_liu_1974]: https://doi.org/10.2514/6.1974-166
-[research_liu_2020]: https://doi.org/10.1007/s00190-020-01431-2
 [research_liu_2026]: https://doi.org/10.3390/act15070379
 [research_liu_2026_4]: https://doi.org/10.34133/space.0368
 [research_lortie_1966]: https://doi.org/10.21236/ad0630781
@@ -1904,5 +1903,4 @@ The sensitivity that organises the article has not moved since. Running it forwa
 [research_zhao_li_2025]: https://doi.org/10.3390/s25113555
 [research_zhao_tan_2026]: https://doi.org/10.1016/j.actaastro.2026.01.008
 [research_zhou_2026_2]: https://doi.org/10.1016/j.actaastro.2026.07.044
-[research_zhu_2026]: https://doi.org/10.1177/14759217261422450
 [research_zmyslowski_kelner_2026]: https://doi.org/10.12716/1001.20.02.09

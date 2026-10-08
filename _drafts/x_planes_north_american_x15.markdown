@@ -968,6 +968,8 @@ One archive quirk is worth recording because a reader checking the citation will
 
 **Two limitations should be stated.** The article's heating numbers are computed rather than taken from the flight record, because the flight heating data are distributed across many reports and figures that did not survive text extraction. And the vehicle specifications come from secondary compilations, which agree with each other more than the sources for earlier articles in this series did, but are still secondary.
 
+**The research works were re-read against the article's subject on 7 October 2026, and the re-reading refused none of them.** Every one of the 331 research records was read by title, including the eleven that the refusal and vocabulary screens flagged, and none proved to be about anything outside hypersonic flight, its structures, its test facilities, or the pilot who flew it. The research total therefore stays at 331, and a reading of 300 unflagged records found none off topic, which puts the remaining contamination near zero.
+
 ## Epistemic State
 
 **Historical fact, from primary and secondary sources.** The 1954 origin, the tripartite arrangement, the three airframes, the XLR11 and XLR99 installations, the first glide flight on 8 June 1959, 199 flights ending 24 October 1968, twelve pilots, Flight 91 reaching 354,200 feet on 22 August 1963, Flight 188 reaching Mach 6.70 on 3 October 1967, and the loss of Adams on 15 November 1967.

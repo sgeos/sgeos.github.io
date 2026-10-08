@@ -242,7 +242,6 @@ and a ground kill was additionally scored when an aircraft penetrated a hard dec
 ground level, on the reasoning that a pilot driven into the ground has been defeated whether or not a weapon
 was fired.
 
-- [An Attempt to Predict Probable Combat Effectiveness by Brief...][research_glass_1949]
 - [Preservation of Tactical Air Combat Potential in Western...][research_preservation_of_1954]
 - [Factors in Fighter-interceptor Pilot Combat Effectiveness][research_torrance_rush_1957]
 - [Navy Air to Air Missile Study Fire Control Requirements][research_aberg_francis_1962]
@@ -440,8 +439,6 @@ band says almost nothing about the other.
 - [Small Sample Properties of Asymptotic Tests for Two Binomial...][research_dozzi_riedwyl_1984]
 - [The exact confidence interval for the scale parameter and the...][research_asrabadi_1985]
 - [A Comparison of Large-Sample Confidence Interval Methods for...][research_hauck_anderson_1986]
-- [A comparison of the continuous gaussian antenna with the...][research_coughlin_krall_1986]
-- [Summation of binomial coefficients using hypergeometric...][research_hayden_lamagna_1986]
 - [A Correction for Biasing Effects of Pilot Sample Size on...][research_shiffler_adams_1987]
 - [A Simple Way to Construct a Two-Sample Sequential Confidence...][research_tableman_1987]
 - [Asymptotic Confidence Intervals for the Difference between...][research_beal_1987]
@@ -453,10 +450,8 @@ band says almost nothing about the other.
 - [A new confidence interval for the difference of two binomial...][research_conlon_thomas_1990]
 - [Charting small sample characteristics of asymptotic...][research_schader_schmid_1990]
 - [Exact Confidence Limits for Binomial Proportions-Pearson and...][research_brenner_quan_1990]
-- [On the isomorphism problem for finite-dimensional binomial...][research_shirayanagi_1990]
 - [An Investigation of Finite-Sample Behavior of Confidence...][research_sargent_kang_1992]
 - [Exact Confidence Limits for Binomial Proportions-Brenner and...][research_copas_1992]
-- [Generalized distribution of negative binomial states][research_dsouza_mishra_1992]
 - [Sample Size Requirements for the Back-of-the-Envelope...][research_samuels_lu_1992]
 - [Simple SAS macros for the calculation of exact binomial and...][research_daly_1992]
 - [A New Confidence Interval Method Based on the Normal...][research_peskun_1993]
@@ -464,7 +459,6 @@ band says almost nothing about the other.
 - [Confidence intervals for a binomial proportion][research_vollset_1993]
 - [Confidence intervals for a binomial proportion][research_edwardes_vollset_1994]
 - [Using the SAS System to Estimate Sample Size and Power for...][research_yarandi_1994]
-- [Image compression via multiresolution feature-based VQ of...][research_deargandona_1995]
 - [Sample Size Calculations for Binomial Proportions via Highest...][research_joseph_wolfson_1995]
 - [Sample Size for Therapeutic Equivalence Based on Confidence...][research_lin_1995]
 - [An Exact Confidence Interval for the Ratio of Two Related...][research_parker_1996]
@@ -472,7 +466,6 @@ band says almost nothing about the other.
 - [Quickbasic program for exact and mid-P confidence intervals...][research_fagan_1996]
 - [A comparison of two large sample confidence intervals for a...][research_hung_1997]
 - [Exact confidence interval for the shape parameter of a...][research_chen_1997]
-- [Parsimonious texture synthesis using binomial linear...][research_becchetti_1997]
 - [Approximate Is Better than "Exact" for Interval Estimation of...][research_agresti_coull_1998]
 - [Equivalence test and confidence interval for the difference...][research_tango_1998]
 - [Negative binomial yield model parameter extraction using...][research_langford_liou_1998]
@@ -729,7 +722,6 @@ statement than either one alone.
 - [Aerodynamic characteristics of a delta wing in hypersonic flow][research_kiselev_maslov_1994]
 - [Aerodynamics of a double delta wing undergoing pitching...][research_grismer_nelson_1994]
 - [Characteristics of mean and fluctuating pressure coefficients...][research_tieleman_surry_1994]
-- [Composition des 3 types de foie gras oie, canard mulard et...][research_salichon_guy_1994]
 - [Delta wing in a subsonic flow][research_betyaev_brysov_1994]
 - [Effect of canard deflection on close-coupled canard-wing-body...][research_tu_1994]
 - [Flowfield study of a close-coupled canard configuration][research_howard_oleary_1994]
@@ -744,7 +736,6 @@ statement than either one alone.
 - [Analysis of rolled delta wing flows using effective sweep and...][research_stephen_1995]
 - [Calculated effect of freestream turbulence on aerodynamic...][research_pollak_lan_1995]
 - [Canard tip vortex splitting in a canard-wing configuration...][research_lombardi_1995]
-- [Comparaison des performances de l'oie, du canard mulard et du...][research_guy_rousselotpailley_1995]
 - [Effects of a closely coupled static and oscillating canard][research_howard_kersh_1995]
 - [Fixed-wing performance predictions of the Canard rotor/wing...][research_bass_thompson_1995]
 - [Free Flight of a Delta Wing][research_miller_williamson_1995]
@@ -1289,7 +1280,6 @@ that post-stall manoeuvring works only when used selectively and in a timely man
 - [The evaluation of several agility metrics for fighter...][research_ryaniii_downing_1993]
 - [Functional agility metrics and optimal trajectory analysis][research_ryan_downing_1994]
 - [Evaluation of several agility metrics for fighter aircraft...][research_ryan_downing_1995]
-- [Agility Measures Engineering Agile Systems][research_goranson_1997]
 - [Agility metric robustness using linear error theory][research_smith_valasek_1999]
 - [Comparison of traditional agility metrics to Beck performance...][research_smith_valasek_2000]
 
@@ -1341,7 +1331,6 @@ degrees, was added after an inadvertent overshoot to 62 degrees when the limit w
 - [Optimum Redundancy Under Multiple Constraints][research_proschan_bray_1963]
 - [Redundancy and switching failure][research_redundancy_and_1963]
 - [Redundancy and the detection of first failures][research_redundancy_and_1963_b]
-- [Reliability Improvement of Digital Communication using...][research_kurz_1963]
 - [Flight Control System Investigation of Bearing Retention by...][research_spiker_1964]
 - [Optimum redundancy when components are subject to two kinds...][research_optimum_redundancy_1964]
 - [The X-20 Flight Control System Development][research_mcdonald_farris_1964]
@@ -1398,9 +1387,7 @@ degrees, was added after an inadvertent overshoot to 62 degrees when the limit w
 - [An Automatic Flight Control System for VTOL Aircraft...][research_niwa_sugiura_1987]
 - [Computation of mean time to failure for a system with simple...][research_computation_of_1987]
 - [Fly-by-wire system and control laws of the T-2 control...][research_yasue_kanno_1987]
-- [Incorporating Redundancy Considerations Into Stockage Models][research_kaplan_1987]
 - [Model following flight control system design for ATTAS...][research_chetty_henschel_1987]
-- [Optimal Partitioning and Redundancy Removal in Computing...][research_fam_1987]
 - [X-29A flight control system performance during flight test][research_chin_chacon_1987]
 - [A Hyperstable Model-Following Flight Control System Used for...][research_dittmar_1988]
 - [Aircraft Flight Control System Identification][research_mulder_1988]
@@ -1443,10 +1430,8 @@ degrees, was added after an inadvertent overshoot to 62 degrees when the limit w
 - [Sensor-actuator placement for flexible structures with...][research_maghami_joshi_1991]
 - [Stabilization of linear discrete-time systems with actuator...][research_chou_1991]
 - [Tiltrotor Control Law Design for Rotor Loads Alleviation...][research_miller_black_1991]
-- [Tools for the Design of Single-Loop Control Systems with...][research_glattfelder_jiang_1991]
 - [A General Framework for Constrained Configuration Control Law...][research_potvin_minto_1992]
 - [Actuator placement in structural control][research_choe_baruh_1992]
-- [Adaptive control of ROVs with actuator dynamics and saturation][research_fjellstad_fossen_1992]
 - [Computer aided evaluation of aircraft handling qualities and...][research_chetty_raol_1992]
 - [High-performance fighter fly-by-wire flight control actuation...][research_vieten_1992]
 - [Intelligent control law tuning for AIAA Controls Design...][research_wei_1992]
@@ -1466,7 +1451,6 @@ degrees, was added after an inadvertent overshoot to 62 degrees when the limit w
 - [Sensor-Actuator Placement for Flexible Structures with...][research_maghami_joshi_1993]
 - [Stiffness enhancement of flight control actuator][research_blaignan_skormin_1993]
 - [213 Development of a robust flight control law for a VSTOL...][research_213_development_1994]
-- [231 Cascaded adaptive control of marine vehicles with...][research_231_cascaded_1994]
 - [Actuator saturation compensation for self-tuning controllers][research_chan_hui_1994]
 - [Design of a flight control system for a highly maneuverable...][research_reiner_balas_1994]
 - [Design of flight control system for an aeroelastic aircraft][research_kubica_livet_1994_b]
@@ -1477,7 +1461,6 @@ degrees, was added after an inadvertent overshoot to 62 degrees when the limit w
 - [Flight testing a propulsion-controlled aircraft emergency...][research_burchamjr_burken_1994]
 - [Functional control law design using exact non-linear dynamic...][research_smith_1994]
 - [Missile flight control with dynamic inversion and structured...][research_mcfarland_dsouza_1994]
-- [On the robust control of robot manipulators including...][research_chunyisu_stepanenko_1994]
 - [Parameter Robust Flight Control System for a Flexible Aircraft][research_kubica_livet_1994]
 - [Redundancy in the discrete-vortex method for closed bodies][research_srivastava_mook_1994]
 - [Rotorcraft control law design for rejection of atmospheric...][research_postlethwaite_1994]
@@ -1511,27 +1494,20 @@ degrees, was added after an inadvertent overshoot to 62 degrees when the limit w
 - [Eigenstructure control law design for a satellite launcher...][research_oliva_leit_1999]
 - [Modified dynamic inversion to control large flexible aircraft...][research_gregory_1999]
 - [Robust flight control law design for an automatic landing...][research_ohno_yamaguchi_1999]
-- [Advantage of Base-Line Redundancy in Sparse Apertures][research_dyson_2000]
 - [Constrained Control Allocation Methods for Reconfigurable...][research_bodson_2000]
 - [A new control strategy for integrating and unstable time...][research_majhi_raina_2001]
 - [Satellite launcher control law design for decoupling and...][research_oliva_leit_2001]
 - [The design of simple controllers for unstable time delay...][research_dostal_bobal_2001]
 - [Autonomous Reconfigurable Control Allocation ARCA for...][research_hodelas_callahanronnie_2002]
-- [Design of a control law for a magneto-rheological suspension][research_giua_melas_2003]
 - [Neural Flight Control System][research_gundyburletkaren_2003]
-- [Scalable Redundancy for Infrastructure Services][research_reiter_2004]
 - [NDI-Based Flight Control Law Design][research_kolesnikov_2005]
 - [Computing adaptive backstepping control law using computer...][research_pozo_ikhouane_2006]
-- [Increasing Intrusion Tolerance via Scalable Redundancy][research_reiter_ganger_2006]
 - [Control of Unstable Processes with Lightly Damped Poles and...][research_wentan_tingtingyang_2007]
 - [Closing the Certification Gaps in Adaptive Flight Control...][research_jacklinstephena_2008]
 - [MPC-based design of on-off control law of the attitude...][research_yang_he_2008]
 - [Self-Scheduling Multiobjective Control Law Design for a...][research_torralba_puyou_2009]
 - [Sensitivity Analysis of Linear Programming and Quadratic...][research_frostsusana_bodsonmarc_2009]
 - [Evolutionary design of a full-envelope flight control system...][research_avanzini_minisci_2010]
-- [Design of Control Law and Control Allocation for Autonomous...][research_bui_lee_2011]
-- [Design of Control Law and Control Allocation for Autonomous...][research_bui_lee_2012]
-- [Secure Heterogeneous Multicore Platform Through Diversity and...][research_suh_2012]
 - [A flight control system design for highly unstable unmanned...][research_jung_jung_2014]
 - [Design and Analysis of Morpheus Lander Flight Control System][research_jangjiannwoei_yanglee_2014]
 - [Noncausal finite time interval iterative learning control law...][research_wang_rogers_2014]
@@ -1641,10 +1617,7 @@ which gives 418 milliseconds for the X-31 case and 144 for the X-29.
 neither instability was hard in the sense of being close to a fundamental limit. Both were hard in the
 practical sense of demanding reliable computers.
 
-- [Tailless cats][research_uneda_1854]
 - [The Eddy Malay Tailless Kite][research_the_eddy_1894]
-- [The tailless batrachians of Europe][research_boulenger_1897]
-- [Tailless cats][research_rockingham_1922]
 - [An Interim Report on the Stability and Control of Tailless...][research_charlesjdonlan_1944]
 - [Tailless Aircraft and Flying Wings][research_weyl_1944]
 - [Flight Measurements of Lateral and Directional Stability and...][research_cranehl_reederjp_1945]
@@ -1658,7 +1631,6 @@ practical sense of demanding reliable computers.
 - [Jet-Propelled Tailless Aircraft][research_jet_propelled_tailless_1946]
 - [The Case for the Tailless Aircraft][research_lee_1946]
 - [Tailless Aircraft Design Problems][research_lee_1947]
-- [Lesson 10. the Tailless Rat][research_lesson_10_1948]
 - [Measurements of the Lateral and Directional Stability and...][research_kraftchristophercjr_reederjp_1948]
 - [A Tailless Research Aircraft][research_cox_siddall_1949]
 
@@ -1737,7 +1709,6 @@ accident four of the five active pilots believed the pitot heat worked.
 - [ICING-INTENSITY DATA FOR THE 1953-54 SEASON][research_brown_1954]
 - [The Design of Static and Pitot Static Tubes Jor Subsonic...][research_kettle_1954]
 - [A Three-Dimensional Spherical Pitot Probe][research_lee_ash_1956]
-- [A pitot-static method for computation of blood velocity and...][research_breme_rao_1959]
 - [The Pitot and Static Tubes - Condensed Sources of General...][research_stuart_1960]
 - [Upper-atmosphere structure measurement made with the...][research_ainsworth_fox_1961]
 - [A Traversing Probe for Pitot-pressure Mapping in a...][research_alligood_kyser_1963]
@@ -1772,7 +1743,6 @@ system could identify abrupt changes in air data signals, and that
 **no flight control code implementing such a safeguard could be found and the board concluded that it did not exist**.
 
 - [Container Failure Detection System][research_wieczorek_levine_1963]
-- [Incipient Failure Detection Incipient Failure Detection in...][research_balderston_1969]
 - [Management of analytical redundancy in digital flight control...][research_montgomeryrc_pricedb_1974]
 - [Failure detection and isolation investigation for strapdown...][research_eberleinaj_lahmtg_1976]
 - [Failure Detection of Aircraft Engine Output Sensors via...][research_wells_1977]
@@ -1822,7 +1792,6 @@ system could identify abrupt changes in air data signals, and that
 - [Air Force Safety Agency Kirtland Afb Nm 2000, Air Force System Safety Handbook][research_airforcesafetyagencykirtlandafbnm_2000]
 - [Fault tolerant control for unstable systems a linear time...][research_stoustrup_niemann_2004]
 - [Immunity-Based Aircraft Fault Detection System][research_dasguptad_krishnakumark_2004]
-- [Analytical Redundancy and Fuzzy Inference in AUV Fault...][research_healey_2005]
 
 ### Gain Scheduling, and Why an Airspeed Error Is a Stability Error
 
@@ -1857,7 +1826,6 @@ sixfold.
 - [L¿-optimal sensitivity vs. stability margin][research_safonov_1983]
 - [Exact calculation of the multivariable...][research_safonov_1984]
 - [A new geometric stability margin for feedback system][research_bennett_baras_1985]
-- [Gain Scheduling for Composition Control of Distillation...][research_tsogas_mcavoy_1985]
 - [Calculation of the Multiloop Stability Margin][research_degaston_safonov_1986]
 - [Multivariable stability margin calculation with uncertain...][research_sideris_edegaston_1986]
 - [Suboptimal gain scheduling with model error accommodation for...][research_citron_1986]
@@ -1879,43 +1847,31 @@ sixfold.
 - [Determination of robust stability margin for second-order...][research_chuang_kau_1992]
 - [Gain scheduling potential hazards and possible remedies][research_gain_scheduling_1992]
 - [028 Application of a new robust stability margin P.M.M...][research_028_application_1993]
-- [Automatic tuning and gain scheduling for pH control][research_lin_yu_1993]
 - [Gain scheduling for H-infinity controllers a flight control...][research_nichols_reichert_1993]
 - [Gain scheduling simplification by simultaneous control design][research_alsunni_lewis_1993]
-- [Generalized Gain Scheduling Control of a Diesel Engine based...][research_jiang_1993]
 - [Missile autopilot robustness using the real multiloop...][research_wise_1993]
 - [Parametric Stability Margin for Multilinear Interval Control...][research_keel_bhattacharyya_1993]
 - [015 A multiplier method for computing real multivariable...][research_015_a_1994]
 - [088 Stability margin of a feedback system with structured and...][research_088_stability_1994]
-- [Application of a gain scheduling generalized predictive...][research_camacho_berenguel_1994]
 - [Fuzzy logic gain scheduling for flight control][research_gonsalves_zacharias_1994]
-- [Gain scheduling adaptive control strategies for HVDC systems...][research_reeve_sultan_1994]
 - [Gain scheduling via linear fractional transformations][research_packard_1994]
 - [Nonlinear PI-controller design for a continuous-flow furnace...][research_knoop_morenoperez_1994]
 - [On the relationship between the stability margin and the...][research_baron_grasse_1994]
-- [Optimal gain scheduling controller for a diesel engine][research_optimal_gain_1994]
 - [Stability margin evaluation for uncertain linear systems][research_gong_thompson_1994]
 - [Analytical gain scheduling approach to periodic observer...][research_fisher_bryson_1995]
-- [Control of the Static Voltage Stability Margin Using Optimal...][research_mangang_ahmed_1995]
 - [Gain scheduling dynamic linear controllers for a nonlinear...][research_lawrence_rugh_1995]
 - [Nonlinear Process Control by a Combination of Exact...][research_klatt_engell_1995]
 - [Regularity Conditions for the Stability Margin Problem with...][research_vicino_tesi_1995]
-- [The application of setpoint gain scheduling to high-speed...][research_beaven_wright_1995]
-- [Transient stability margin assessment of power systems with...][research_tso_1995]
 - [Fuzzy Gain Scheduling Optimal Control of a Flexible Robot][research_xu_ge_1996]
-- [Gain scheduling control of DC motor drive with field weakening][research_matausek_jeftenic_1996]
 - [Mixed H2/H-infinity gain scheduling control of aircraft][research_shue_sawan_1996]
 - [Multivariable stability margin optimization a spectral...][research_cockburn_tannenbaum_1996]
 - [97/02841 Fuzzy gain scheduling of velocity p1 controller with...][research_97_02841_fuzzy_1997]
-- [Real-time control of a water-gas shift reactor by a...][research_ling_edgar_1997]
 - [The Nyquist Robust Stability Margin a New Metric for the...][research_latchman_crisalle_1997]
 - [Improved LMI conditions for gain scheduling and related...][research_scorletti_ghaoui_1998]
 - [Missile Autopilot Designs Using H8 Control with Gain...][research_schumacher_khargonekar_1998]
 - [μ synthesis and LFT gain scheduling with real uncertainties][research_helmersson_1998]
-- [Adaptive fuzzy gain scheduling for load frequency control][research_talaq_albasri_1999]
 - [Adaptive gain scheduling control Inference of feedback-loop...][research_mosca_agnoloni_1999]
 - [Interpolation of observer state feedback controllers for gain...][research_stilwell_rugh_1999]
-- [On microprocessor-based arc voltage control for gas tungsten...][research_leith_leithead_1999]
 - [An Investigation of Rotorcraft Stability-Phase Margin...][research_blankenchrisl_lusardijeffa_2009]
 
 ### The Cross-Check the Cockpit Already Contained
@@ -2035,10 +1991,7 @@ partly from thrust is a control failure as well as a propulsion failure.
 - [Inlet and Nozzle Technology for 21st Century Fighter Aircraft][research_gridley_walker_1996]
 - [Inlet Distortion for an F/A-18A Aircraft During Steady...][research_walshkevinr_yuhasandrewj_1997]
 - [Investigations of High-Speed Civil Transport Inlet Unstart at...][research_zha_knight_1998]
-- [Design of Nozzle for UV Fluorescence Detector][research_ramamurti_2001]
 - [APTU Nozzle Code Manual, Version 3.0][research_candler_2005]
-- [Axial Waterjet AxWJ Model 5662 Hull Resistance and...][research_cusanelli_carpenter_2007]
-- [Computational Flow Analysis of Ultra High Pressure...][research_menchini_2010]
 
 ### Instrumentation and the Scoring System
 
@@ -2060,7 +2013,6 @@ real time to improve situational awareness in the control room and afterwards fo
 
 - [Operational Suitability Test of Open Gun Ports for F-86...][research_airprovinggroundcentereglinafbfl_1949]
 - [Operational Suitability Test of the T-160 20MM Gun...][research_airprovinggroundcentereglinafbfl_1954]
-- [Human Factors Evaluation of the Tank, Combat Full Tracked...][research_haggard_wight_1961]
 - [Minuteman Weapon System Demonstration and Delivery Program...][research_makar_1962]
 - [Product Engineering Program. Coated Metallic Thrust Chambers...][research_aerojetgeneralcorpsacramentoca_1963]
 - [Weapon System Effectiveness Industry Advisory Committee Wseiac][research_airforcesystemscommandandrewsafbmd_1965]
@@ -2085,8 +2037,6 @@ real time to improve situational awareness in the control room and afterwards fo
 - [Helmet Mounted Display Systems for Helicopter Simulation][research_haworth_bucher_1989]
 - [Helmet mounted display applications for enhanced pilot...][research_hardyman_smith_1989]
 - [&lt title&gt F-16 helmet-mounted display flight...][research_butterfield_1990]
-- [Design Techniques To Upgrade the Combat System Effectiveness...][research_yanis_schmitt_1990]
-- [Design Techniques Used to Optimise the Combat System...][research_fraser_1990]
 - [Effects of Variations in Head-Up Display Airspeed and...][research_ercoline_gillingham_1990]
 - [&lt title&gt Advent of helmet-mounted devices in the combat...][research_chapman_clarkson_1992]
 - [&lt title&gt Intensified CCD sensor applications for...][research_gilligan_1992]
@@ -2122,7 +2072,6 @@ real time to improve situational awareness in the control room and afterwards fo
 - [Helmet-Mounted Displays for Use in Air Force Training and...][research_winterbottom_patterson_2005]
 - [Arc Segment Attitude Reference ASAR Head-Up Display HUD...][research_jenkins_2008]
 - [Capabilities-Based Resourcing for Air Force Weapon System...][research_haines_2009]
-- [Combat Vehicle Fire Control Systems - Gun/Sight...][research_aberdeentestcentermd_2009]
 
 - [A Method for Evaluating Aircraft Stability Parameters from...][research_schumacher_1952]
 - [Installation and Flight Test of Dragless Antennas for Use...][research_stutz_1952]
@@ -2529,7 +2478,6 @@ flight and expanding the post-stall envelope to forty degrees of angle of attack
 - [Twin tail/delta wing configuration buffet due to unsteady...][research_kandil_sheta_1996]
 - [Design and development of a wind tunnel model for high angle...][research_papageorgiou_glover_1997]
 - [Effect of Deep-Stall Wing Dynamics on Forebody-Induced Wing...][research_ericsson_1997_c]
-- [Modeling and Analysis of an Airport Departure Process][research_hebert_dietz_1997]
 - [Numerical Simulation of the Interaction Between Leading-Edge...][research_rizzetta_1997]
 - [Real-Time Forecasts of Aircraft Departure Queues][research_shumsky_1997]
 - [Sideslip Behavior of Elliptic Cross-Sectional Forebodies at...][research_tajfar_lamont_1997]
@@ -2631,9 +2579,7 @@ gets a vote on which engagement occurs.
 - [Simulator Sickness Occurrences in the 2E6 Air Combat...][research_mcguinness_bouwman_1981]
 - [Advanced nozzle integration for air combat fighter application][research_wallace_bowers_1982]
 - [Air Combat Maneuvering Performance Measurement State Space...][research_wooldridge_kelly_1982]
-- [Combat Effectiveness Cohesion, Stress, and the Volunteer...][research_faris_sarkesian_1982]
 - [Simulator for air-to-air combat versus real world Visual cue...][research_coward_rupp_1982]
-- [Unit Cohesion A Prerequisite for Combat Effectiveness][research_phipps_1982]
 - [Application of forward sweep wings to an air combat fighter][research_miller_hadley_1983]
 - [Use of air combat simulation for calculation of combat...][research_johnson_1984]
 - [A modern air combat dome visual system][research_barrette_morris_1985]
@@ -2695,8 +2641,6 @@ gets a vote on which engagement occurs.
 - [Automated Adversary for Piloted Simulation of Helicopter Air...][research_austin_george_1992]
 - [Combat Effectiveness Measures An Update][research_connelly_myers_1992]
 - [Combat effectiveness methodology as a tool for conceptual...][research_kitowski_1992]
-- [Governmental Policy and Combat Effectiveness France 1920-1940][research_kirkland_1992]
-- [Impact of Dental Sick Call on Combat Effectiveness The Dental...][research_allen_smith_1992]
 - [Maneuver prediction in air combat via artificial neural...][research_rodin_massoudamin_1992]
 - [The Air to Air Attack Management simulation program][research_marchi_sweeney_1992]
 - [Thrust Vectoring/Reversing Tactics in Air-to-Air Combat][research_boppe_martorella_1992]
@@ -2726,15 +2670,11 @@ gets a vote on which engagement occurs.
 - [Training Benefits of Interactive Air Combat Simulation][research_waag_bell_1997_b]
 - [21ST Century Air-To-Air Short Range Weapon Requirements][research_nichols_1998]
 - [Air-to-Air Missile TandE Using Live Aircraft Linked to a...][research_mckee_1998]
-- [Homosexuals in the U.S. Military Open Integration and Combat...][research_kier_1998]
 - [Time Sensitive Control of Air Combat Operations][research_lewis_1998]
 - [Commercial Application for Combat Effectiveness CACE][research_oran_1999]
 - [Air Combat Environment Test and Evaluation Facility][research_macone_2000]
 - [Joint Strike Fighter virtual air-to-air combat analysis for...][research_bishop_menke_2000]
-- [Military Operational Measures of Effectiveness for...][research_anderson_2000]
-- [The Trivialization of Gender and Its Impact on Combat...][research_king_2000]
 - [State Department Advanced Medium Range Air-to-Air Missile...][research_cabot_nelson_2003]
-- [Beneficial or Buzzword Can Operational Commanders Use...][research_white_2004]
 - [An Investigation of the Impact of Aerodynamic Model Fidelity...][research_persingtray_bellishchristinea_2005]
 - [High-Alpha Flight Maneuverability Enhancement of a Twin...][research_atesoglu_ozgoren_2006]
 - [The Air Combat Lab a Modular Air-to-Air Combat Simulation][research_mentz_holzapfel_2006]
@@ -3270,8 +3210,6 @@ is a redundant-effector question of exactly the kind that modern control allocat
 - [Summary of Low-Lift Drag and Directional Stability Data from...][research_mitchamgradyl_blanchardwillards_1952]
 - [A Flight Investigation of the Low-Speed Handling Qualities of...][research_whitemauriced_innisrobertc_1959]
 - [The Development of Tailless Aircraft and Flying Wings][research_bishop_1961]
-- [An experimental investigation of crack-path directional...][research_streit_finnie_1980]
-- [On the directional stability of ships][research_haddara_1980]
 - [Some Effects of Parameter Variations on the...][research_stengel_1980]
 - [Wind-tunnel investigation of longitudinal and...][research_byrdsongta_brookscwjr_1980]
 - [Assessment of propeller influence on lateral-directional...][research_vanrooyen_eshelby_1981]
@@ -3280,23 +3218,15 @@ is a redundant-effector question of exactly the kind that modern control allocat
 - [A unified approach to stability characteristics of tailless...][research_banerjee_1988_b]
 - [Flutter modes of high aspect ratio tailless aircraft][research_banerjee_1988]
 - [Low-speed aerodynamics of apex fences on a tailless delta...][research_hoffler_rao_1988]
-- [Directional stability of two-member wheeled machines][research_lobas_1989]
 - [A computational study of the F-5A forebody emphasizing...][research_mason_ravi_1991]
-- [On the directional stability of wedging][research_melin_1991]
 - [A computational study on directional stability of...][research_ravi_mason_1992]
-- [Directional Stability Tests and Maneuvering Predictions for a...][research_lewandowski_1992]
-- [Directional stability of an originally straight crack][research_melin_1992]
 - [Integrated aerodynamics and control system design for...][research_morris_1992]
 - [Control concepts for a vertical tailless fighter][research_simon_blake_1993]
-- [Control of tailless expression by bicoid, dorsal and...][research_liaw_lengyel_1993]
 - [Chine-shaped forebody effects on directional stability at...][research_ravi_mason_1994]
 - [Computational study of the F-5A forebody emphasizing...][research_mason_ravi_1994]
-- [The Selection Of Optimum Vehicle Parameters Based On The...][research_habib_bakr_1994]
 - [The Preliminary Design Analysis of a Unique Semi-Tailless...][research_tipton_smith_1995]
-- [Improvement of Vehicle Directional Stability for Transient...][research_yasui_tozu_1996]
 - [Lateral-directional stability augmentation using on-line...][research_napolitano_kincheloe_1996]
 - [Multivariable control law design for a tailless airplane][research_ngo_reigelsperger_1996]
-- [Reducing Driving Fatigue by Improving Heavy Vehicle...][research_howard_1996]
 - [Stability, control, and handling quality design of a unique...][research_mullinsjr_tipton_1996]
 - [The aerodynamic and performance analysis of a unique...][research_tipton_smith_1996]
 - [Challenges and opportunities in tailless aircraft stability...][research_bowlus_multhopp_1997]
@@ -3372,7 +3302,6 @@ operate mostly over water, and was injured on the hard playa surface.
 - [Air Force Test Pilot School Edwards Afb Ca 1967][research_airforcetestpilotschooledwardsafbca_1967]
 - [Pitot-pressure Measurements with Rapidly Traversing Probes in...][research_tsao_1968]
 - [Pitot Measurements on Sparrow-arcas Vehicles][research_horvath_1969]
-- [Pitot probe measurements of mercury drop growth rates][research_merritt_1969]
 - [Calibration of Special Pitot Tubes][research_iinoya_masuda_1970]
 - [Improved calibration method for a five-hole spherical Pitot...][research_nowack_1970]
 - [Pitot inlet additive drag][research_crosthwait_1970]
@@ -3451,15 +3380,12 @@ operate mostly over water, and was injured on the hard playa surface.
 - [Anti-Icing System Simulation Using CANICE][research_morency_tezok_1999]
 - [Pitot static testing of the RU-38A][research_kish_graham_1999]
 - [Sensing aircraft icing effects by flap hinge moment...][research_gurbacki_bragg_1999]
-- [Ship Superstructure Icing Crystalline and Physical Properties][research_ryerson_gow_2000]
 - [Cold Air Data Acquisition System Documentation][research_robinson_blanchard_2003]
 - [Back Up Velocity Estimate Following Air Data System Failure...][research_mclaren_jayashankar_2007]
 - [CJ2 Icing Effects Simulator. Delivery Order 0019 Development...][research_barnhart_2007]
 - [New Ionic Liquids from Natural Products for Environmentally...][research_davis_2010]
 - [Flight Test Results of a GPS-Based Pitot-Static Calibration...][research_martosborja_kiszelypaul_2011]
 - [Environmentally Benign Aircraft Anti-icing and Deicing Fluids...][research_chauhan_roshon_2012]
-- [Sea Spray and Icing in the Emerging Open Water of the Arctic...][research_andreas_2012]
-- [Sea Spray and Icing in the Emerging Open Water of the Arctic...][research_jones_2013]
 - [PSL Icing Facility Upgrade Overview][research_griffinthomasa_dickidennisj_2014]
 
 ### What Some Test Team Members Thought the Report Missed
@@ -3502,7 +3428,6 @@ article.
 - [Improving Air Combat Maneuvering Skills Through Self-Study...][research_petty_barbosa_2016]
 - [On close-range air combat based on hidden Markov model][research_chaofeng_pengyao_2016]
 - [Research of the network structure in beyond-visual-range...][research_zoujie_wuwei_2016]
-- [Rushing to Failure Impacts of a Gender-Neutral Military on...][research_mull_2016]
 - [A Goal Reasoning Agent for Controlling UAVs in...][research_floyd_karneeb_2017]
 - [Air-to-air missile bank-to-turn autopilot based on L1...][research_liqun_chaoyang_2017]
 - [Lock-on range estimation in an air-to-air engagement situation][research_cetin_kandemir_2017]
@@ -3736,10 +3661,7 @@ it reports is the same weighted mean this article has spent its keystone section
 hundred, which moves the high-speed line-abreast case from unresolvable to routine.
 
 - [Neural Network Based Estimator for a Maneuvering Aircraft][research_feteih_breckenridge_1993]
-- [059 FMS's dynamic scheduling by Hopfield neural network][research_059_fms_s_1994]
 - [A neural network based approach to helicopter low airspeed...][research_mccool_haas_1996]
-- [Dynamic vehicle roll control using reinforcement learning][research_frost_1996]
-- [Feedback optimal neural network controller for dynamic...][research_djouani_hamam_1996]
 - [Transformation model of thrust-vectoring using RBF neural...][research_yong_ye_2014]
 
 - [Active Vibration Control of the Smart Plate Using Artificial...][research_mohit_chhabra_2015]
@@ -3761,10 +3683,8 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [A Comparison Between Generalization Capability of Neural...][research_norouzi_kosari_2018]
 - [Adaptive Neural Network Based Intelligent Control for...][research_jafari_xu_2018]
 - [Attack angle tracking for high speed vehicle based on...][research_song_lei_2018]
-- [Estimation of Air Quality Index by Merging Neural Network...][research_sarwat_2018]
 - [Feedback Control of Karman Vortex Shedding from a Cylinder...][research_koizumi_tsutsumi_2018]
 - [Uncertainty Quantification of Reliability Analysis Under...][research_bae_park_2018]
-- [Weapon-Carrying among High School Students A Predictive Model...][research_fan_2018]
 - [Adaptive Wing Morphing Strategy and Flight Control Method of...][research_yan_li_2019]
 - [Deep neural network for unsteady aerodynamic and aeroelastic...][research_li_kou_2019]
 - [Distributed Wildfire Surveillance with Autonomous Aircraft...][research_julian_kochenderfer_2019]
@@ -3772,14 +3692,12 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Neural network-based adaptive sliding mode control design for...][research_razmi_afshinfar_2019]
 - [Prescribed performance control of morphing aircraft based on...][research_gong_wang_2019_b]
 - [Pursuit and evasion game between UVAs based on multi-agent...][research_xu_zhao_2019]
-- [Robust Constrained Model Predictive Control of Irrigation...][research_shang_chen_2019]
 - [Unmanned aerial vehicles using machine learning for...][research_choi_cha_2019]
 - [Upscaling the Data-driven Prognostic Methodologies Towards a...][research_loutas_zarouchas_2019]
 - [Adaptive neural network vibration control of a flexible...][research_gao_liu_2020_b]
 - [Aircraft Control Method Based on Deep Reinforcement Learning][research_zhen_hao_2020]
 - [Aircraft Gearbox Fault Diagnosis System An Approach based on...][research_mallikarjuna_sreenatha_2020]
 - [Aircraft Speed/Altitude Control Using a Sigma-Pi Neural...][research_kim_horspool_2020]
-- [Assessment and Forecast of Air Quality data based on Neural...][research_assessment_amp_2020]
 - [Automated data-driven prediction on aircraft Estimated Time...][research_wang_liang_2020]
 - [Autonomous Control of Combat Unmanned Aerial Vehicles to...][research_lee_kim_2020]
 - [Challenging Top Level Aircraft Requirements based on...][research_peteilh_klein_2020]
@@ -3814,7 +3732,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Development of the Machine Learning-based Safety Significant...][research_lee_lin_2021]
 - [Embedded real-time people detection and tracking with...][research_tamas_cozma_2021]
 - [Energy-Optimal Flight Strategy for Solar-Powered Aircraft...][research_ni_wu_2021]
-- [Ensemble Machine Learning Model for Software Defect Prediction][research_ensemble_machine_2021]
 - [Flight Control of a Multicopter using Reinforcement Learning][research_dapolito_sulzbachner_2021]
 - [From active learning to deep reinforcement learning...][research_zheng_ji_2021]
 - [Hexarotor Longitudinal Flight Control with Deep Neural...][research_oktay_kose_2021]
@@ -3825,20 +3742,16 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Neural Network Verification using Polynomial Optimisation][research_newton_papachristodoulou_2021]
 - [Online reinforcement learning for fixed-wing aircraft...][research_lee_vankampen_2021]
 - [Prediction model for aerodynamic coefficients of iced quad...][research_mou_yan_2021]
-- [Quality Assurance Challenges For Machine Learning Software...][research_alalamin_uddin_2021]
 - [Reinforcement Learning Control for 6 DOF Flight of Fixed-Wing...][research_zhang_du_2021]
 - [Reinforcement Learning based Online Adaptive Flight Control...][research_konatala_vankampen_2021]
 - [Research on Fault Diagnosis of Electrical System of Medium...][research_mu_2021]
 - [Safety Behavior Analysis of a Delayed Control System][research_safety_behavior_2021]
 - [Two-Stage Strategy to Achieve a Reinforcement Learning-Based...][research_cao_zeng_2021]
-- [513 A Deep Learning Computer Vision Injury Prediction tool...][research_naseem_2022]
 - [9.3 Aircraft Maneuver Prediction with Machine Learning...][research_cakici_yoruk_2022]
 - [A comparison of machine learning methods for pressure...][research_gorgues_castellanos_2022]
-- [A data-driven penalty-reward methodology for performance...][research_singh_maiti_2022]
 - [Artificial neural network based wing planform aerodynamic...][research_dam_pirasaci_2022]
 - [Closed-loop Control from Data-Driven Open-Loop Optimal...][research_pellegrino_blanchini_2022]
 - [Comparative Study of Machine Learning Modeling for Unsteady...][research_alkhedher_2022]
-- [Data Driven Digital Twin Applications Towards Green Ship...][research_taghavi_perera_2022]
 - [Deep reinforcement learning-based upset recovery control for...][research_lang_cen_2022]
 - [Direct Data Driven Model Reference Control for Flight...][research_jianhong_ramirezmendoza_2022_b]
 - [Direct data driven strategy for closed-loop aircraft flutter...][research_jianhong_ramirezmendoza_2022]
@@ -3851,8 +3764,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Machine Learning with Echo State Networks for Automated Fault...][research_diget_hasan_2022]
 - [Multifidelity aerodynamic flow field prediction using random...][research_nagawkar_leifsson_2022]
 - [Neural Network Based Model Predictive Control for a Quadrotor...][research_jiang_li_2022]
-- [Optimization and thermal-performance deep learning on...][research_chen_li_2022]
-- [Rainy Day Prediction Model with Climate Covariates Using...][research_gentilucci_pambianchi_2022]
 - [Robust Feedback Active Noise Control in Headphones Based on a...][research_hilgemann_jax_2022]
 - [Safety Verification of Neural Network Control Systems Using...][research_xiang_shao_2022]
 - [Sensitivity Analysis of Predictive Machine Learning Models to...][research_lee_puranik_2022]
@@ -3884,7 +3795,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Model of a Predictive Neural Network for Determining the...][research_michalowska_2023]
 - [Modular Reinforcement Learning for Autonomous UAV Flight...][research_choi_kim_2023]
 - [Morphing Aircraft Adaptive Attitude Control Based on Deep...][research_ma_hui_2023]
-- [Multi-zone building control with thermal comfort constraints...][research_hu_you_2023]
 - [On Learning Data-Driven Models For In-Flight Drone Battery...][research_coursey_quinonesgrueiro_2023]
 - [Prediction of Aerodynamic Broadband Noise Generated from a...][research_sasaki_tanaka_2023]
 - [QAR Data-Driven Calibration of Physics-based Aircraft...][research_delpozodominguez_lopezleones_2023]
@@ -3892,7 +3802,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Research on data-driven flight safety risk assessment and...][research_yang_chen_2023]
 - [Risk-sensitive Distributional Reinforcement Learning for...][research_seres_liu_2023]
 - [Simulation of Hierarchical Fault Diagnosis Model for Aircraft...][research_song_2023]
-- [Space Robot On-Orbit Operation of Insertion and Extraction...][research_liu_chen_2023]
 - [Sparse polynomial optimisation for neural network verification][research_newton_papachristodoulou_2023]
 - [Study on Deep Learning of Aircraft Safety Enhancement and...][research_study_on_2023_b]
 - [Surrogate Model Based Aerodynamic Shape Optimization of a...][research_kiely_agarwal_2023]
@@ -3912,33 +3821,25 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Airfoil aerodynamic performance prediction using machine...][research_teimourian_rohacs_2024]
 - [An improved neural network for modeling airfoil's unsteady...][research_pan_an_2024]
 - [Assessment of Trees’ Structural Defects via Hybrid Deep...][research_qiu_lau_2024]
-- [Assimilating human feedback from autonomous vehicle...][research_fox_ludvig_2024]
 - [Building an automated three-dimensional flight agent for...][research_building_an_2024]
 - [Confidence Intervals for Uncertainty Quantification in Sensor...][research_berghout_benbouzid_2024]
-- [Data-Driven MMA Outcome Prediction Enhanced by Fighter Styles...][research_yin_2024]
 - [Data‐based nonlinear learning control for aircraft trajectory...][research_wei_meng_2024]
 - [Deep Reinforcement-Learning-Based Air-Combat-Maneuver...][research_mei_li_2024]
 - [Digital Twin Framework for Aircraft Lifecycle Management...][research_kabashkin_2024]
 - [Enhanced Flight Envelope Protection A Novel Reinforcement...][research_catak_altunkaya_2024]
-- [Enhancing Product Assurance and Reliability through a Machine...][research_kim_kim_2024_b]
 - [Evaluation of aircraft engine performance during takeoff...][research_kurt_2024]
 - [Fault Diagnosis Method of Morphing Aircraft Based on Particle...][research_wang_liang_2024]
-- [Fault Diagnosis of Process Systems Based on Graph Neural...][research_ouyang_jin_2024]
 - [Finite-Time Convergent Missile Terminal Guidance Law Based on...][research_li_zhou_2024]
 - [Flight Dynamic Uncertainty Quantification Modeling Using...][research_michek_mehta_2024]
 - [Flight Modes and Aerodynamic Parameters Identification Using...][research_eggers_xu_2024]
 - [Framework for Offline Data-Driven Aircraft Fault Diagnosis][research_dahlenikraemer_villani_2024]
 - [Global adaptive neural network control of nonlinear...][research_ma_chen_2024_b]
-- [Improved Convolutional Neural Network Time-Delay Neural...][research_gao_zhang_2024_c]
 - [Improving large angle flow measurement accuracy of five-hole...][research_zuo_zhang_2024]
-- [Integrating Advanced Machine Learning, Sensor Fusion, and...][research_shanmugam_munusamy_2024]
 - [Investigation of Deep Reinforcement Learning for...][research_xu_tian_2024]
 - [Large Language Model Guided Reinforcement Learning Based...][research_han_yang_2024]
 - [LyZNet with Control Physics-Informed Neural Network Control...][research_liu_meng_2024]
 - [Machine Learning Application Flight Delay Prediction][research_chai_2024]
 - [Machine Learning Based Radar Cross-Section Clustering Towards...][research_ozdemir_kucuk_2024]
-- [Machine Learning for Dynamic Pressure Coefficient Prediction...][research_salemnia_boldaji_2024]
-- [Machine learning application for optimization of laser...][research_ertugrul_2024]
 - [Neural Network Classification-Regression Method Applied to...][research_mori_2024]
 - [Neural Network-Based Descent Control for Landers with...][research_ortega_shirin_2024]
 - [Neural network observer-based predefined-time attitude...][research_lu_wang_2024]
@@ -3957,7 +3858,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Research on Self-Learning Control Method of Reusable Launch...][research_xue_wang_2024]
 - [Research on Unsteady Aerodynamic Modeling Method Based on...][research_liu_shen_2024]
 - [Research on simulation of ejection seat cockpit layout based...][research_shi_ying_2024]
-- [Software Bug Prediction Model using Graph Neural Network][research_takeda_masuda_2024]
 - [The Parameter Augmentation Pretraining Neural Network Model...][research_you_xiao_2024]
 - [Towards Safe Aircraft Control With AI Reinforcement Learning...][research_koopman_zammitmangion_2024]
 - [Trajectory Tracking Control of Variable Sweep Aircraft Based...][research_cao_lu_2024]
@@ -3980,8 +3880,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Applications of Machine Learning to UAV Autonomous Flight][research_wang_li_2025_d]
 - [Applied Machine Learning-Based Metal Additive Manufacturing...][research_prevette_mai_2025]
 - [Artificial Intelligence in Aviation A Review of Machine...][research_ahmed_2025]
-- [Autonomous AI and Agentic Testing Agents A Multi-Agent...][research_gajjar_2025]
-- [Building Public Trust in Autonomous Industry Through Machine...][research_nakimuli_greenfield_2025]
 - [Comparing classic to novel flight control approaches to...][research_fernandes_cardosoribeiro_2025]
 - [Data Driven Estimation Techniques for Modeling Available...][research_peterson_vanbreugel_2025]
 - [Data-Driven Resilient Cooperative Control for Nonlinear...][research_li_ma_2025]
@@ -3993,12 +3891,9 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Enhancing Aerodynamic Prediction of Airfoils Using Advanced...][research_maju_thomas_2025]
 - [Flight Control of Tiltrotor Uavs Pso-Optimized Neural Network...][research_cheng_yang_2025]
 - [Flight, aircraft, and crew integrated recovery policies for...][research_wang_mao_2025]
-- [Fractional deer hunting optimization algorithm enabled deep...][research_kumbi_birje_2025]
 - [Gated Branched Convergence Network for Upset Recovery in...][research_wang_gao_2025]
 - [Impact of Low-Altitude Wind Shear on Aircraft Performance and...][research_wang_hu_2025]
 - [Indirect Adaptive Control for Autonomous Flight Vehicles...][research_schaff_prazenica_2025]
-- [IoT based Line of Control Monitoring System][research_petkar_2025]
-- [Knowledge-Guided Machine Learning for Shape Parameter and...][research_fitzgerald_hudson_2025]
 - [Low variance trust region optimization with independent...][research_le_ta_2025]
 - [Machine Learning Prediction of Airfoil Aerodynamic...][research_sterpu_mariuta_2025]
 - [Machine Learning for Air Quality Monitoring with Low-Cost...][research_bagkis_kassandros_2025]
@@ -4012,10 +3907,7 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [On Architectures for Combining Reinforcement Learning and...][research_jia_bajaj_2025]
 - [Open-loop linear modeling method for unstable flow utilizing...][research_gao_yang_2025]
 - [Optimized Flare Performance Analysis Through Multi-Modal...][research_boumaraf_li_2025]
-- [Optimized machine learning models for accurate prediction of...][research_belaabed_arabet_2025]
-- [Optimizing Resource Allocation in Cloud-Based Deep Learning...][research_jaman_sarangerel_2025]
 - [Performance Evaluation of a Graph Neural Network-Augmented...][research_shen_alonso_2025]
-- [Physical-guided graph deep learning for composite pipelines...][research_jiang_hu_2025]
 - [Physics-Informed Machine Learning for Structural Health...][research_chabukswar_mullen_2025]
 - [Real-time fault diagnosis of subsonic aircraft based on...][research_chen_song_2025_b]
 - [Reinforcement Learning Control Strategies Q-learning, SARSA...][research_ahmed_fabri_2025]
@@ -4026,13 +3918,10 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Safe and Intelligent Control Hybrid and Distributional...][research_vieiradossantos_vankampen_2025]
 - [Study of the Aerodynamic Characteristics of a Lightweight...][research_yu_2025]
 - [Supersonic aircraft aerodynamic performance prediction based...][research_liu_zhang_2025]
-- [Thrust Coefficient Prediction In Hydrokinetic Turbines Using...][research_arya_nair_2025]
 - [Uncertainty-Driven Distributional Reinforcement Learning for...][research_homola_li_2025]
 - [Unsupervised Autoencoders Combined with Multi-Model Machine...][research_zhou_zhang_2025]
 - [A Novel Parameterization Framework and Neural Network-Based...][research_thakur_anand_2026]
-- [A Sensor-Based Multi-Agent Ecosystem for Biomechanical...][research_alvim_fdasilva_2026]
 - [A quantitative evaluation method for the applicability domain...][research_wang_song_2026]
-- [Adaptive Role-Based UI Personalization in ServiceNow...][research_reddypullikallu_2026]
 - [Adaptive neural network tracking control for stratospheric...][research_liang_hassanalian_2026]
 - [Aircraft Performance Prediction Model Based on Deep Learning][research_bai_chen_2026]
 - [An automated surrogate model generation framework for rapid...][research_golombek_bustamante_2026]
@@ -4042,12 +3931,10 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Calibrating Pilot Awareness in Autonomous Combat Aircraft][research_smith_schnell_2026]
 - [Conditional disturbance utilization-based intelligent...][research_wang_yi_2026]
 - [Data-Driven 6DoF Aerodynamic Modeling of the T-38 Using...][research_ghoreyshi_seidel_2026]
-- [Data-Driven Aerodynamic Coefficient Prediction for Bus Bodies...][research_mujawar_rafiq_2026]
 - [Data-Driven Aerodynamic Performance Prediction Architecture...][research_liu_chen_2026]
 - [Data-Driven Q-Learning Based Robust Longitudinal Missile...][research_nguyentat_lephan_2026]
 - [Data-driven flow speed and angle-of-attack soft sensor using...][research_maged_tripathi_2026]
 - [Deep Reinforcement Learning-based Evasive Maneuvering in...][research_shin_lee_2026]
-- [Deep reinforcement learning for autonomous control of...][research_dwivedi_palandage_2026]
 - [Deep reinforcement learning for carrier-based aircraft flight...][research_li_han_2026_b]
 - [Enhancing active disturbance rejection control design for...][research_wang_zhang_2026]
 - [From CFD Simulations to Machine Learning A Comparative Study...][research_kumar_khanna_2026]
@@ -4058,14 +3945,10 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Intelligent Unmanned Aerial Vehicle Swarm Control Under...][research_chen_niu_2026]
 - [Inverse Reinforcement Learning for Safety-Critical VTOL...][research_zou_xie_2026]
 - [MHPIS A multi-modal hybrid deep learning architecture for...][research_szrama_2026_b]
-- [Machine Learning Calibration Transfer for Low-Cost Air...][research_zhivkov_fidanova_2026]
 - [Multi-fidelity Gaussian Process for Uncertainty...][research_chen_huang_2026]
 - [Neural network-based adaptive control system for the...][research_li_cai_2026]
 - [Physics-informed reinforcement learning based control for...][research_yang_wang_2026]
 - [Predicting Conceptual Aircraft Design Parameters Using...][research_arnson_aljaber_2026]
-- [Prediction and Optimization of S 11 Reflection Coefficient in...][research_rashid_dutta_2026]
-- [Prediction of wave reflection coefficient in coastal...][research_baykal_cihan_2026]
-- [Predictive handover control for train-to-ground...][research_gao_bu_2026]
 - [Priority-driven multi-objective reinforcement learning for...][research_zhang_wang_2026]
 - [Reinforcement Learning-Based Speed and Altitude Control...][research_setiawarman_sasongko_2026]
 - [Reinforcement learning enhanced multi-swarm particle swarm...][research_jiang_han_2026]
@@ -4073,7 +3956,6 @@ hundred, which moves the high-speed line-abreast case from unresolvable to routi
 - [Reinforcement learning-based prescribed performance control...][research_cao_chen_2026]
 - [Reinforcement learning enhanced non-singular super-twisting...][research_toloei_ghaderi_2026]
 - [Rule-Based High-Level Coaching for Goal-Conditioned...][research_ramezani_voos_2026]
-- [TPCHL A Threat-Progression Aware Hybrid Learning Framework...][research_pallavi_sinha_2026]
 - [Towards Learning Assurance for In-Flight Machine...][research_mechouche_fabre_2026]
 
 ### Pursuit and evasion had a formal theory the programme did not use
@@ -4184,7 +4066,6 @@ the same problem in different buildings.
 
 - [A mixed L&lt inf&gt 2&lt /inf&gt /L&lt inf&gt ∞&lt /inf&gt...][research_hayoun_weiss_2015]
 - [Analysis of a new pursuit-evasion game based on game theory][research_haochen_jingchen_2015]
-- [Control of microgrids using a differential game theoretic...][research_mylvaganam_astolfi_2015]
 - [Numerical solution of a pursuit-evasion differential game...][research_sun_zhang_2015]
 - [On the value of information in a differential pursuit-evasion...][research_becerra_macias_2015]
 - [Pursuit evasion game of two players under an external flow...][research_sun_tsiotras_2015]
@@ -4216,7 +4097,6 @@ the same problem in different buildings.
 - [An Application of Continuous Deep Reinforcement Learning...][research_wang_wang_2019]
 - [Evasion-Pursuit Strategy against Defended Aircraft Based on...][research_sun_shen_2019]
 - [Evolutionary Game Theory based Multi-Objective Optimization...][research_park_shin_2019]
-- [Game theoretic decision making for autonomous vehicles’ merge...][research_garzon_spalanzani_2019]
 - [Resilient Synchronization of Radio Networks of Clocks A...][research_pham_2019]
 - [Towards a relaxation of the pursuit-evasion differential game][research_chentsov_khachay_2019]
 - [3-D Multi-player Pursuit-evasion Game with a Faster Evader][research_fang_cheng_2020]
@@ -4275,7 +4155,6 @@ the same problem in different buildings.
 - [An Indirect Approach to Solve a Pursuit-Evasion War Game...][research_funkhouser_sharan_2025]
 - [Anti-Outlier Control for Satellite Pursuit-Evasion Game with...][research_che_zhang_2025]
 - [Differential Game Approach to Orbital Pursuit-Evasion Problems][research_li_xue_2025]
-- [Differential Game Theoretic Models for Designing Water...][research_momeni_mohebbi_2025]
 - [Distributed Capture Strategies for Multiplayer...][research_wang_liu_2025_b]
 - [Game Strategy Prediction for Spacecraft Orbital Pursuit...][research_wang_zhang_2025]
 - [Nonzero-sum differential game guidance laws in...][research_xie_ma_2025]
@@ -4307,8 +4186,6 @@ differential drag devices and vectoring for tailless configurations is a direct 
 - [Method for Improving the Natural Lateral-Directional...][research_song_yang_2016]
 - [Optimization of Chine-Shaped Forebody of an Aircraft in Terms...][research_makarov_pavlenko_2016]
 - [Stability Derivative Computation of Tailless Aircraft using...][research_park_choi_2016]
-- [Tailless artificial sperm go for gold][research_tailless_artificial_2016]
-- [Tailless comet could provide clues to solar system’s formation][research_tailless_comet_2016]
 - [Variable-Fidelity Multidisciplinary Design Optimization for...][research_park_jo_2016]
 - [Yaw Control of a Smart Morphing Tailless Aircraft Concept][research_gamble_inman_2016]
 - [A Tailless Fighter Aircraft Model for Control-Related...][research_niestroy_dorsett_2017]
@@ -4316,7 +4193,6 @@ differential drag devices and vectoring for tailless configurations is a direct 
 - [Stability and Control of Tailless Aircraft Using...][research_park_choi_2017]
 - [Variable-Fidelity Multidisciplinary Design Optimization with...][research_park_jo_2017]
 - [A Study on the Aerodynamic Efficiency and Static Stability of...][research_kashiwagura_shimoyama_2018]
-- [CHAPTER 6. Tailless Whipscorpions Amblypygi][research_chapter_6_2018]
 - [Control Surface Faults Neural Adaptive Compensation Control...][research_zhang_shuang_2018]
 - [Correction Multifidelity Optimization Under Uncertainty for a...][research_chaudhuri_jasa_2018_b]
 - [Development of Neo-Ptero Tailless Micro Aircraft][research_development_of_2018]
@@ -4325,7 +4201,6 @@ differential drag devices and vectoring for tailless configurations is a direct 
 - [Multifidelity Optimization Under Uncertainty for a Tailless...][research_chaudhuri_jasa_2018]
 - [Planform, aero-structural and flight control optimization for...][research_molinari_arrieta_2018]
 - [Research on lateral-directional stability augmentation system...][research_pan_huang_2018]
-- [Tailless Whipscorpions][research_tailless_whipscorpions_2018]
 - [A numerical study into the longitudinal dynamic stability of...][research_kwiek_2019]
 - [Design and Performance Verification of L1 Adaptive Flight...][research_ko_kang_2019]
 - [Drag reducing in level flight for VTOL UAV combined with...][research_takita_minohoshi_2019]
@@ -4371,7 +4246,6 @@ differential drag devices and vectoring for tailless configurations is a direct 
 - [Reconfiguration control allocation of actuator faults for...][research_li_sun_2023]
 - [Tailless Flying Wing UA V Buzz Response Analysis][research_jun_2023]
 - [Virtual flight test of pitch and roll attitude control based...][research_zhang_huang_2023]
-- [tailless, adj][research_tailless_adj_2023]
 - [A Review of Control Methods for Tailless Aircraft][research_hu_song_2024]
 - [Design and Analysis of the Effect of Trimmable Vertical...][research_taufik_zaidaan_2024]
 - [Fixed-Time Adaptive Fuzzy Fault-Tolerant Attitude Control for...][research_yu_li_2024]
@@ -4527,7 +4401,6 @@ differential drag devices and vectoring for tailless configurations is a direct 
 - [Modeling and Robust Control for Full-flight Envelope...][research_campos_cardoso_2021]
 - [Nonlinear Adaptive Control of Unmanned Aerial Vehicle Using...][research_duggan_bhandari_2021]
 - [On Maneuverability of Fixed-Wing Unmanned Aerial Vehicle...][research_challa_ratnoo_2021]
-- [Optimal Allocation of Large-Capacity Distributed Generation...][research_lee_son_2021]
 - [Overriding Learning-based Perception Systems for Control of...][research_patel_krishnamurthy_2021]
 - [Performance Assessment of a Distributed Electric Propulsion...][research_markov_cinar_2021]
 - [Radar Cross Section Analysis of Unmanned Combat Aerial...][research_sijabat_indriyanto_2021]
@@ -4610,7 +4483,6 @@ differential drag devices and vectoring for tailless configurations is a direct 
 - [Conceptual Design and Aerodynamic Analysis of Medium Altitude...][research_rajendran_2025]
 - [Cooperative Control of Unmanned Aerial Vehicle UAV Swarms and...][research_huang_2025]
 - [Design and Evaluation of Manned-Unmanned Teaming Aircraft...][research_lee_kang_2025]
-- [Design of a Manned-Unmanned Teaming System and...][research_kwon_lee_2025]
 - [Electric Machine Design and Integration for an Electric...][research_kurt_arabul_2025]
 - [Guidance and Control System for an Unmanned Combat Aerial...][research_faisal_james_2025]
 - [Hydrodynamic performance and maneuverability design for a...][research_zhou_wei_2025]
@@ -4670,7 +4542,6 @@ first aircraft. Incremental methods reduce the dependence on a model of the airc
 accuracy of the air data that parameterises it.
 
 - [2D independent actuator control based on a Proportional...][research_kamarudin_pitowarno_2015]
-- [A new predictive control technique for force control of...][research_emhemed_binmamat_2015]
 - [Aircraft Control Law Reconfiguration][research_kosyanchuk_selvesyuk_2015]
 - [Aircraft robust flight tracking control against actuator...][research_almutairi_aouf_2015]
 - [Application of adaptive control with closed-loop reference...][research_zollitsch_holzapfel_2015]
@@ -4686,11 +4557,7 @@ accuracy of the air data that parameterises it.
 - [Enlarging the domain of attraction and maximising convergence...][research_yang_zhang_2015]
 - [Experimental Teaching Reform on the Fly-By-Wire System of...][research_dong_shi_2015]
 - [Flow control over a backward facing step by ns-DBD plasma...][research_correale_2015]
-- [Force Control of Series Elastic Actuator Implications for...][research_yang_huashan_2015]
-- [Force control and force observer design of series elastic...][research_oh_lee_2015]
 - [Hybrid control of linear continuous systems with actuator...][research_jing_shen_2015]
-- [Modeling and Optimization of Composite and Servo-driven...][research_yang_2015]
-- [Nonlinear control of tendon driven robot manipulators...][research_okur_zergeroglu_2015]
 - [Optimized Safety Critical Embedded Automatic Flight Control...][research_prosvirin_kharchenko_2015]
 - [Observer-based attitude control for flexible spacecrafts...][research_zhu_qiao_2015]
 - [Observer-based flight control system design under linear...][research_komnatska_2015]
@@ -4706,7 +4573,6 @@ accuracy of the air data that parameterises it.
 - [Singularly perturbed implicit control law for linear...][research_puga_bonilla_2015]
 - [Stabilization of neutral time-delay systems with actuator...][research_chen_fei_2015]
 - [Switching signal design for asymptotic stability of uncertain...][research_wu_duan_2015]
-- [System Identification and PID-PSO Force Control of Thin Soft...][research_faudzi_lazim_2015]
 - [A Collaborative Safety Flight Control System for Multiple...][research_okutake_uchida_2016]
 - [A longitudinal flight control law to accommodate sensor loss...][research_maciejowski_hartley_2016]
 - [Active Multiple Jets System Using Surface Plasma Actuator][research_benard_mizuno_2016]
@@ -4723,12 +4589,9 @@ accuracy of the air data that parameterises it.
 - [Flight Control Law Clearance Using Optimal Control Theory][research_herrmann_benasher_2016]
 - [Flight Control System Modeling with SysML to Support...][research_mhenni_choley_2016]
 - [Fly-by-wire flight control smart optical rotary sensor for...][research_tameh_sawan_2016]
-- [Force control on antagonistic Twist-drive Actuator robot][research_inoue_miyata_2016]
-- [Force tracking Fuzzy Control of a shape memory alloy actuator][research_ronghu_feigao_2016]
 - [Handling qualities evaluation of predictive display model for...][research_zhang_li_2016]
 - [Health and Usage Monitoring System HUMS Strategy to enhance...][research_arriba_gallego_2016]
 - [Helicopter nonlinear dynamic inversion flight control model...][research_ma_yang_2016]
-- [Hybrid Online Sensor Error Detection and Functional...][research_feng_turksoy_2016]
 - [Improvement of “Aircraft-automatic Flight Control System”...][research_prosvirin_kharchenko_2016]
 - [LES-based characterization of a suction and oscillatory...][research_kim_moin_2016]
 - [Modeling and Incremental Nonlinear Dynamic Inversion Control...][research_difrancesco_mattei_2016]
@@ -4759,14 +4622,11 @@ accuracy of the air data that parameterises it.
 - [A Single Loop Dynamic Inversion Control for a Fighter...][research_mukherjee_sinha_2017]
 - [Adaptive Control Allocation for Over-Actuated Systems with...][research_tohidi_yildiz_2017]
 - [Attitude stabilization control for rigid spacecraft with...][research_tan_hu_2017]
-- [Clamping force control of Sensor-less Electro-Mechanical...][research_wei_xu_2017]
-- [Comparison of resonance ratio control and inner force control...][research_kwak_oh_2017]
 - [Delay-dependent stability criterion for uncertain discrete...][research_pal_negi_2017]
 - [Design of missile flight control system based on variable...][research_lou_cai_2017]
 - [Direct Adaptive Augmentation of a Linear Controller for a...][research_noriega_balas_2017]
 - [Estimation of stability regions for continuous-time systems...][research_xiang_zenggui_2017]
 - [FlexRay based treble-redundancy UAV flight control computer...][research_pan_luo_2017]
-- [From competitive sensor redundancy to competitive service...][research_jabeur_moh_2017]
 - [Gain-Scheduling Control of Flexible Aircraft with Actuator...][research_fan_liu_2017]
 - [Gurney-Flap Drag Penalty Reduction with a DBD Plasma Actuator][research_zhang_feng_2017]
 - [Handling Qualities Evaluation of Time Delay and Predictive...][research_zhang_huang_2017]
@@ -4790,7 +4650,6 @@ accuracy of the air data that parameterises it.
 - [Trajectory control of a quadrotor using a control allocation...][research_zaki_unel_2017]
 - [Unsteady numerical simulation of missile trajectories with...][research_yang_zhang_2017]
 - [WOS-ELM-Based Double Redundancy Fault Diagnosis and...][research_zhao_liu_2017]
-- [A 3D Printed Linear Pneumatic Actuator for Position, Force...][research_krause_bhounsule_2018]
 - [A Hybrid Fault Diagnosis Method of Electromechanical Actuator...][research_laixuesun_sianshi_2018]
 - [AAA process a new approach to affordable fly-by-wire systems...][research_mueller_belschner_2018]
 - [Active control of noise amplification in the flow over a...][research_huang_zhou_2018]
@@ -4801,7 +4660,6 @@ accuracy of the air data that parameterises it.
 - [Characterization of the Suction-and-Oscillatory-Blowing...][research_prachar_vrchota_2018]
 - [Control Allocation under Actuator Saturation An Experimental...][research_kirchengast_steinberger_2018]
 - [Design of multi-UAVs flight control system and trajectory...][research_qi_ding_2018]
-- [Design of reduced order disturbance observer of series...][research_lee_oh_2018]
 - [Development of the Model-/Sensor-Based Nonlinear Dynamic...][research_kim_yang_2018]
 - [Energy optimization Charateristic Analysis of More Electric...][research_cao_liu_2018]
 - [Event-triggered Feedforward Control subject to Actuator...][research_iwaki_wu_2018]
@@ -4816,11 +4674,9 @@ accuracy of the air data that parameterises it.
 - [Hybrid Regional Stabilization of Linear Systems with Actuator...][research_ferrante_sanfelice_2018]
 - [Model Reference Adaptive Control for a Class of Aircraft with...][research_chen_wang_2018]
 - [Model-Based Actuator Fault Diagnosis in Multirotor UAVs][research_hasan_johansen_2018]
-- [Multi-Objective Optimal Control Allocation for an...][research_jing_jia_2018]
 - [Multi-Objective Optimal Longitudinal Flight Control System...][research_song_whidborne_2018]
 - [Nonlinear Control Allocation for Interacting Control...][research_rajput_xiaobo_2018]
 - [Pilot Induced Oscillation Mitigation for Unmanned Aircraft...][research_tohidi_yildiz_2018]
-- [Prediction of lysine glutarylation sites by maximum relevance...][research_ju_he_2018]
 - [Preliminary design of redundancy management for LSA -02...][research_pranoto_wirawan_2018]
 - [Proposal of a plasma actuator for enhancement of...][research_sato_takahashi_2018]
 - [Proxy-Based Optimal Control Allocation for Dual-Input...][research_duan_okwudire_2018]
@@ -4832,7 +4688,6 @@ accuracy of the air data that parameterises it.
 - [Separated-flow control around airfoil using vortex-generator...][research_sato_2018_c]
 - [Stability Analysis and Antiwindup Design of Switched Linear...][research_zhang_su_2018]
 - [Study on risk assessment of civil aircraft flight control...][research_yang_zhang_2018]
-- [Supplement Energy Control for Hydraulic Compliant Actuator...][research_qi_2018]
 - [Synthesis of PI Controller with a Simple Set-Point Filter for...][research_gerov_jovanovic_2018]
 - [The development requirement and design considerations for...][research_shi_tan_2018]
 - [Withdrawal Study on risk assessment of civil aircraft flight...][research_yang_zhang_2018_b]
@@ -4853,23 +4708,16 @@ accuracy of the air data that parameterises it.
 - [Finite-time stabilization control of complex-valued neural...][research_wang_cao_2019]
 - [Flight control system design using neural networks][research_mjahed_2019]
 - [Flow control with plasma‐based actuator in different velocity...][research_mehdipoor_sohbatzadeh_2019]
-- [Force Characterization and Optimization of the Bottom-Driven...][research_force_characterization_2019]
-- [Force/motion control of constrained mobile manipulators...][research_rani_kumar_2019]
 - [Linear Quadratic control law design for commensurate...][research_chevrie_farges_2019]
 - [Magnetic force modelling and nonlinear switched control of an...][research_deschaux_gouaisbaut_2019]
 - [Mission-oriented optimization Research of Aircraft Control...][research_lin_zhang_2019]
-- [Model Predictive Control Allocation of an Over-actuated...][research_schwartz_siebenrock_2019]
 - [Modeling and Adaptive Robust Force Control of a...][research_luo_gorges_2019]
 - [Modeling and Control of a Spherical Inverted Pendulum With...][research_bondo_yuan_2019]
-- [Optimal Force Control and Analysis of Soft Pneumatic Actuator][research_vaani_pal_2019]
 - [Optimization of Multi-effector Aircraft Control Allocation...][research_yiming_mei_2019]
 - [Piloted Handling Qualities Evaluation of an OBLTR Prototype...][research_cotting_alt_2019]
-- [Position/Force Sensorless Force Control Using Reaction Force...][research_nagai_kawamura_2019]
-- [REDUNDANCY 2019 Committees][research_redundancy_2019_2019]
 - [Reinforcement Learning-based Control Allocation for the...][research_devries_vankampen_2019]
 - [Semi-global containment control of discrete-time linear...][research_zhao_yang_2019]
 - [Sensor Redundancy for Robustness in Nonlinear State Estimation][research_yang_rezaee_2019]
-- [Simultaneous path following and lateral stability control of...][research_chen_chen_2019]
 - [Stability Analysis for Incremental Nonlinear Dynamic...][research_wang_vankampen_2019]
 - [Stability Analysis of T S Fuzzy Control Systems Subject to...][research_wang_zhao_2019]
 - [Stability of Switched Positive Linear Systems with Actuator...][research_you_fang_2019]
@@ -4885,7 +4733,6 @@ accuracy of the air data that parameterises it.
 - [Cascade Control of Spacecraft Formation with Actuator...][research_cui_li_2020]
 - [Constrained Control Allocation Approaches in Trajectory...][research_tariq_nahon_2020]
 - [Control Allocation for Maneuver and Gust Load Alleviation of...][research_hansen_duan_2020]
-- [Control Allocation for Wheeled Mobile Robots Subject to Input...][research_alves_lizarralde_2020]
 - [Correction Control Allocation for Maneuver and Gust Load...][research_hansen_duan_2020_b]
 - [Data-Driven Health Assessment in Flight Control System][research_chen_zhao_2020]
 - [Discharge and flow characterizations of the double-side...][research_he_liang_2020]
@@ -4896,22 +4743,18 @@ accuracy of the air data that parameterises it.
 - [Flight Control Design using Incremental Nonlinear Dynamic...][research_ludenacervantes_choi_2020]
 - [Flight Control Law Design and Analysis for Mars Airplane in...][research_du_zhang_2020]
 - [Flying qualities evaluation based nonlinear flight control...][research_sun_shi_2020]
-- [Force control for a force display using a pneumatic actuator...][research_takata_koyanagi_2020]
 - [Handling actuator magnitude and rate saturation in uncertain...][research_tohidi_yildiz_2020]
 - [Hardware Design of Flight Control System and Flight...][research_yin_xu_2020]
 - [Identifying Pilot-Induced Oscillation Tendencies in Advanced...][research_klyde_mitchell_2020]
 - [Implementation of Flight Control Computer Redundancy System...][research_om_park_2020]
-- [Integrated design of control allocation and triple-step...][research_wang_gao_2020]
 - [Longitudinal flight control system design via Laguerre based...][research_hemmasianettefagh_soler_2020]
 - [More Integrated Total Energy Control Law for Longitudinal...][research_giustidegaspare_kienitz_2020]
 - [Nonlinear Dynamic Inversion Flight Control Design for Guided...][research_tipan_theodoulis_2020]
-- [Position and Force Control of a Twisted and Coiled Polymeric...][research_wu_zheng_2020]
 - [Quadrotor Flight Control System Tolerant to Sensor Failures][research_larin_tunik_2020]
 - [Reduced Order Model Based Flight Control System for a...][research_mohamed_g_2020]
 - [Regional stability analysis of interconnected systems with...][research_zhang_xu_2020]
 - [Reinforcement learning based closed‐loop reference model...][research_yuksek_inalhan_2020]
 - [Research on Nonlinear Hysteresis of the Flight Control System][research_guo_ma_2020]
-- [Ripple Minimization for Harmonic-geared Series Elastic...][research_kang_lee_2020]
 - [Robust Fuzzy Attitude Control of Sampled-Data Spacecraft with...][research_xu_wen_2020]
 - [Self-triggered sliding mode control for Digital Fly-by-Wire...][research_cao_jia_2020]
 - [Stability Analysis of The Stability of Impulsive Switched...][research_meng_feng_2020]
@@ -4929,27 +4772,23 @@ accuracy of the air data that parameterises it.
 - [Angular acceleration estimation-based incremental nonlinear...][research_li_liu_2021]
 - [Anti Windup PID Control of Discrete Systems Subject to...][research_lerch_dehnert_2021]
 - [Business Jet Fly-by-Wire Control Laws Handling Qualities...][research_berger_tischler_2021]
-- [Control Allocation Approaches for Over-actuated Underwater...][research_kostenko_tolstonogov_2021]
 - [Control and Control Allocation for Bimodal, Rotary Wing...][research_atay_bryant_2021]
 - [Correction Energy Optimal Control Allocation for INDI...][research_pfeifle_fichter_2021_b]
 - [Design of UAV Flight Control Law Based on PID Control][research_liu_2021]
 - [Effect of Actuator Saturation on Pilot-Induced Oscillation A...][research_nguyen_lowenberg_2021_b]
 - [Energy Optimal Control Allocation for INDI Controlled...][research_pfeifle_fichter_2021]
-- [External Force Estimation in Linear Series Elastic Actuator...][research_yokoyama_petrea_2021]
 - [Fault Diagnosis and Reconfigurable Control for Commercial...][research_liu_hong_2021]
 - [Flight Control System Design and Autonomous Flight Control of...][research_yin_peng_2021]
 - [Flight Dynamics, Control Law Design, and Flight Tests of Kite][research_gupta_zhu_2021]
 - [Force control on direct driven servo hydraulic actuator][research_petrovic_janezic_2021]
 - [Global output feedback stabilization for nonlinear fractional...][research_benali_2021]
 - [Measurement noise filter design for unstable time delay...][research_ediga_ambati_2021]
-- [Operational Space Control Under Actuator Bandwidth Limitation][research_lee_park_2021]
 - [Optimal Flight Control System Design Using LQR A Study on...][research_devi_2021]
 - [Research on the NealandSmith Criterion Application on...][research_guo_2021]
 - [Robust Adaptive Compound Control for the High-speed Aircraft...][research_yuan_wanwei_2021]
 - [Robust Control for Non-Minimum Phase Systems with Actuator...][research_sirelkhatem_engin_2021]
 - [Robust composite control of telescopic wing morphing aircraft...][research_wang_hou_2021]
 - [Saturation Protection with Pseudo Control Hedging A Control...][research_zhang_holzapfel_2021]
-- [Singularity Avoidance of Task-redundant Robots in Pointing...][research_schappler_ortmaier_2021]
 - [Stabilization of discrete time stochastic linear systems with...][research_dong_zong_2021]
 - [Static Output Feedback Controller Design of Discrete Systems...][research_lerch_dehnert_2021_b]
 - [Successive Generalized Dynamic Inversion Control of Lateral...][research_mibar_bajodah_2021]
@@ -4963,7 +4802,6 @@ accuracy of the air data that parameterises it.
 - [Blockchain-Enabled Redundant Fractionated Spacecraft System][research_alves_daiguebonne_2022]
 - [Case Analysis on Flight Control System Sikorsky S76 C++...][research_rahmawati_lukito_2022]
 - [Design of UAV Flight Control System][research_design_of_2022]
-- [Develop Control Architectures to Enhance Soft Actuator Motion...][research_hassan_awad_2022]
 - [Dual Synthetic Jets Actuator and Its Applications Part II...][research_liu_luo_2022]
 - [Dynamic control allocation between onboard and delayed remote...][research_tabassum_bai_2022]
 - [Estimation of Fly-by-wire Emergency Servo-control of Regional...][research_terekhov_2022]
@@ -4989,7 +4827,6 @@ accuracy of the air data that parameterises it.
 - [Sensor FDI and reconfiguration in B-747 aircraft flight...][research_hajiyev_guven_2022]
 - [Simultaneous Fault and Input Time Delay Estimation for an...][research_chen_edwards_2022]
 - [Transition Flight Control System Design for Fixed-Wing VTOL...][research_yuksek_inalhan_2022]
-- [Variable Selection and Redundancy in Multivariate Regression...][research_westad_marini_2022]
 - [A Novel PI-PD Controller Tuning Method based on Neutrosophic...][research_dogruer_2023]
 - [A smooth control allocation method for a distributed electric...][research_qin_liu_2023]
 - [ADRC-based control allocation method and theory for 3-DOF...][research_adrc_based_control_allocation_2023]
@@ -5011,8 +4848,6 @@ accuracy of the air data that parameterises it.
 - [Hybrid suction/blowing actuator to control flow separation on...][research_pourrazzaghi_rezaeisani_2023]
 - [Impact of Control Allocation Methods on the Design of Control...][research_wahler_varriale_2023]
 - [Incremental Nonlinear Dynamic Inversion Attitude Control for...][research_zhang_zhang_2023]
-- [LQNTL Low-overhead quadruple-node-upset self-recovery latch...][research_xu_zhou_2023]
-- [Load-side acceleration control based on load-side velocity...][research_kawai_yokokura_2023]
 - [Meta-Learning-Based Incremental Nonlinear Dynamic Inversion...][research_zhang_ran_2023]
 - [Methodology for Preliminary Flight Control Actuator Design][research_stephan_stumpf_2023]
 - [Minimum Power Control Allocation for Incremental Control of...][research_pfeifle_fichter_2023]
@@ -5023,8 +4858,6 @@ accuracy of the air data that parameterises it.
 - [Predictive Hybrid Redundancy for Aircraft Wheel Braking...][research_mallick_subbareddy_2023]
 - [Quadrotor Trajectory-Tracking Control with Actuator Saturation][research_chang_chu_2023]
 - [Real-Time Nonlinear Control Allocation Framework for Vehicles...][research_mancinelli_remes_2023]
-- [Redundancy 2023 Committees][research_redundancy_2023_2023]
-- [Redundancy 2023 Title Page][research_redundancy_2023_2023_b]
 - [Research on Flight Control System Fault Injection Method for...][research_wang_2023]
 - [Safety Assessment of an Unmanned Air Vehicle Flight Control...][research_son_yoo_2023]
 - [Separation Control using Vortex-Generator-Type Plasma...][research_mayahara_sato_2023]
@@ -5032,7 +4865,6 @@ accuracy of the air data that parameterises it.
 - [Summary of perspectives in active sidesticks development for...][research_horpatzka_hlinka_2023]
 - [Synthesis of Control Law Based on Nonlinear Dynamic Inversion...][research_gaurav_sekou_2023]
 - [The Design of Phugoid Mode Stabilization in Angle of Attack...][research_zhang_xu_2023]
-- [The Longitudinal Attitude Control of the Fully-Submerged...][research_niu_2023]
 - [The Safe Passage Redundancy Analysis of Airport Taxiway...][research_zhang_zhao_2023]
 - [Turbulent Boundary Layer Separation Control Using...][research_kotvitskii_kazanskii_2023]
 - [A Failure-Pass Model Based Method for Safety Analysis of...][research_di_2024]
@@ -5045,7 +4877,6 @@ accuracy of the air data that parameterises it.
 - [Delayed non‐fragile robust control of civil structure...][research_pan_liu_2024]
 - [Design and characterization of a corona-based micro-blowing...][research_liu_liang_2024]
 - [Dual Pilot Operation Concept for a Tandem Cockpit Fly-by-Wire...][research_wechner_dollinger_2024]
-- [Dynamic Actuator Allocation via Reinforcement Learning for...][research_paruchuri_graber_2024]
 - [Enhancing Aircraft Control Design and Implementation of an...][research_hedlund_ribeiro_2024]
 - [Exponential stability of fuzzy systems with actuator...][research_ge_long_2024]
 - [Group-feature Sensor selection with controlled redundancy...][research_saha_pal_2024]
@@ -5059,17 +4890,12 @@ accuracy of the air data that parameterises it.
 - [Parameter Tuning Approach for Incremental Nonlinear Dynamic...][research_henkenjohann_nolte_2024]
 - [Precision Airflow Control via EHD Actuator A Co-Simulation...][research_shaygani_adamiak_2024]
 - [Preventing Actuator Saturation in Linear Quadratic Regulators][research_komaee_2024]
-- [Redundancy Control Strategy for a Dual-Redundancy...][research_wang_qu_2024]
 - [Redundancy in Automatic Flight Control System Design for A...][research_eser_yildiz_2024]
 - [Research on Redundancy Management Algorithm of...][research_xin_zhanlei_2024]
 - [Research on Synchronization Problem of Triple Redundancy...][research_cheng_zhao_2024]
-- [Research on end force control actuator of polishing robot][research_ling_wang_2024]
 - [Sliding Mode Flight Control Law Design Requirements for...][research_wang_sun_2024]
 - [Stability Enhancement of Aircraft Ground Handling Qualities...][research_mendozalopetegui_loiacono_2024]
-- [Static actuator-sharing algorithm for concurrent control of...][research_tejparuchuri_graber_2024]
-- [Study of control allocation algorithm for over-actuated...][research_solnyshkin_2024]
 - [Switching Model Predictive Control With Actuator Saturation...][research_xie_2024]
-- [The Sample Rate Battle Opposing Approaches As to Sample Rates...][research_card_hatch_2024]
 - [Top-Level Modeling and Simulation of Civil Aircraft...][research_guo_cao_2024]
 - [Typical Redundancy Architecture Design of UAV Flight Control...][research_xin_chen_2024]
 - [Verification of Triple Redundant Flight Control Computer...][research_karkar_gokmenoglu_2024]
@@ -5080,8 +4906,6 @@ accuracy of the air data that parameterises it.
 - [A Three-Dimensional Actuator Disk Model for Fan Response to...][research_prasad_2025]
 - [Accident Survey of Fly-by-Wire Powered-lift Aircraft Toward...][research_shubert_sizoo_2025]
 - [Active control of flow-induced cavity noise using plasma...][research_kopiev_2025]
-- [Active fault diagnosis for AUV over-actuated systems based on...][research_wu_zhu_2025]
-- [Adaptive Aggregation for Distributed Industrial Control...][research_nurullaev_2025]
 - [Adaptive Dynamic Incremental Nonlinear Control Allocation for...][research_stam_devisser_2025]
 - [Adaptive Incremental Nonlinear Dynamic Inversion Control with...][research_park_ramirezserrano_2025]
 - [Addressing asymptotic stability of tracking control in...][research_homaeinezhad_mousavialvar_2025]
@@ -5111,30 +4935,21 @@ accuracy of the air data that parameterises it.
 - [Performance evaluation of on-board hydraulic system for...][research_performance_evaluation_2025]
 - [Quantized feedback neuroadaptive control for a non-affine...][research_wang_ni_2025]
 - [Real-Time Control Allocation Method for Multi-Control-Surface...][research_zhang_xiang_2025]
-- [Redundancy 2025 Committees][research_redundancy_2025_2025]
-- [Redundancy 2025 Copyright Page][research_redundancy_2025_2025_c]
-- [Redundancy 2025 Cover Page][research_redundancy_2025_2025_d]
-- [Redundancy 2025 TOC][research_redundancy_2025_2025_b]
 - [Redundancy design and research of safety fly-by-wire flight...][research_wang_li_2025_c]
 - [Regional stability analysis of aperiodic sampled-data dynamic...][research_palmeira_gomesdasilvajr_2025]
-- [Regions of feasible handling in overactuated vehicles...][research_mandl_klein_2025]
 - [Reinforcement Learning-Based Flight Control Law Clearance...][research_braun_holzapfel_2025]
 - [Reinforcement Q-learning based flight control for a passenger...][research_mohammadi_ebrahimi_2025]
 - [Research on a Safety-Critical Architecture of Large...][research_tang_tang_2025]
-- [Sensorless Force Admittance Control Considering Robot...][research_xu_xu_2025]
 - [Super‐Maneuver Flight Control Based on Predefined Time...][research_li_lin_2025]
 - [The Redundancy Management Design of a Three-redundancy Flight...][research_wang_wan_2025]
-- [The Vulnerability-Redundancy Nexus through Connectivity. An...][research_ninivaggi_cutrini_2025]
 - [Three Loop Adaptive Robust Force Control Design for a Servo...][research_three_loop_2025]
 - [Three-Dimensional Trajectory Optimization for UAV-Based...][research_zhao_tran_2025]
 - [Verification and Clearance of a Flight Control System for...][research_weiser_2025]
 - [Accident Survey of Fly-by-Wire Powered-Lift Aircraft toward...][research_shubert_sizoo_2026]
 - [Active disturbance rejection control design with actuator...][research_wu_li_2026]
 - [Adaptive Augmentation of Incremental Nonlinear Dynamic...][research_wang_wei_2026]
-- [Bumpless Multi-Mode Control Allocation for Over-Actuated AUV...][research_gao_li_2026]
 - [Control allocation for over-actuated satellite laser...][research_ruddenklau_schitter_2026]
 - [Design of Intelligent Control Law Embedded With Dynamic Flow...][research_zhao_liu_2026]
-- [Development of a Force Distribution Control System for...][research_kuno_masaoka_2026]
 - [Distributed formation control for multiple QUAVs with...][research_li_yin_2026]
 - [Duality Between Incremental Nonlinear Dynamic Inversion and...][research_pollack_theodoulis_2026]
 - [Dynamic modeling, flight control design, and simulation...][research_liu_xu_2026]
@@ -5151,7 +4966,6 @@ accuracy of the air data that parameterises it.
 - [Resilient Control with Adaptive Control Allocation for...][research_vernyi_stanko_2026]
 - [Solution to Asymptotic Stability in Tracking Control of...][research_homaeinezhad_alvar_2026]
 - [Stabilization of feedforward nonlinear time-delay systems...][research_zhang_zhou_2026]
-- [Thrust force synthesis-based motion control for a voice-coil...][research_xu_gu_2026]
 
 ### High angle of attack aerodynamics is computed now, with reservations
 
@@ -5191,7 +5005,6 @@ hardest.
 - [CFD study on prediction of vortex shedding in draft tube of...][research_kc_lee_2016]
 - [Characterizing the Transient Growth Mechanism on a Hypersonic...][research_reshotko_leidy_2016]
 - [Delayed detached eddy simulations of fighter aircraft at high...][research_xu_jiang_2016]
-- [Effect of End Control Plugs on the Performance of Vortex Tube...][research_gowd_2016]
 - [Effect of Sideslip on High-Angle-of-Attack Vortex Flow over...][research_chen_liu_2016]
 - [Hypersonic starting flow at high angle of attack][research_bai_wu_2016]
 - [Impact of Gurney Flaplike Strips on the Aerodynamic and...][research_lee_2016]
@@ -5227,7 +5040,6 @@ hardest.
 - [The leading-edge vortex of swift wing-shaped delta wings][research_muir_arredondogaleana_2017]
 - [Vortex Control through Forebody Strakes and Vortex Generators][research_stephen_mclaughlin_2017]
 - [Vortex force of an impulsively started plate at high angle of...][research_fu_li_2017]
-- [Vortex-vortex control in exciton-polariton condensates][research_ma_schumacher_2017]
 - [Active flight path control for an induced spin flight...][research_shukla_woolsey_2018]
 - [An investigation into the use of GAMA water tunnel for...][research_wibowo_sutrisno_2018_b]
 - [Apex perturbations on slender wings cause spatial...][research_cockbill_2018]
@@ -5267,7 +5079,6 @@ hardest.
 - [Minimum Parameters Learning-Based Dynamic Surface Control for...][research_shi_lyu_2019]
 - [Output feedback control for aircraft at high angle of attack...][research_liu_sun_2019]
 - [Study of Vortex Breakdown and Pitch up on a Compound Delta...][research_shivam_verma_2019]
-- [Synthesis of Fe2O3/MWCNTs composite by oxidation and spin...][research_ismail_bakar_2019]
 - [The Method of Improving Spin Recovery Characteristics of a...][research_golovkin_gorbunov_2019]
 - [Vortex-Sheet Representation of Leading-Edge Vortex Shedding...][research_hirato_shen_2019]
 - [A Generalization for Model Reference Adaptive Control and...][research_a_generalization_2020]
@@ -5305,7 +5116,6 @@ hardest.
 - [Predicting the High Angle of Attack Characteristics of a...][research_seraj_martins_2021]
 - [Region of attraction Analysis for Adaptive Control of Wing...][research_li_ignatyev_2021]
 - [Roll Control of Morphing Aircraft with Synthetic Jet...][research_li_wang_2021_b]
-- [Strong confinement of active microalgae leads to inversion of...][research_mondal_prabhune_2021]
 - [A Reduced-Order Discrete-Vortex Method for Flows with...][research_hernandezgelado_ramesh_2022]
 - [A heterogeneous redundancy method for flight control computer...][research_chen_yang_2022]
 - [Assessment of Hybrid Delta Wing Vortex Flow Investigation...][research_sedlacek_breitsamter_2022]
@@ -5331,7 +5141,6 @@ hardest.
 - [Investigations on the effects of structural damping on...][research_cui_khoo_2023]
 - [Non-Equilibrium Supersonic Flow Past a Blunt Plate at High...][research_surzhikov_2023]
 - [Robust Stall Spin Flight Path Control with Flight Test...][research_hopwood_gresham_2023]
-- [The effect of vortex generators on the hydrodynamic...][research_rostamzadehrenani_rostamzadehrenani_2023]
 - [Validation of Paras3d Rans Pressure Data with Flight Results...][research_vidhya_manokaran_2023]
 - [Vortex dynamics of axisymmetric cones at high angles of attack][research_shahriar_kumar_2023]
 - [Wind Tunnel Investigation of Typical Strategic Missile...][research_ghosh_sagoo_2023]
@@ -5526,7 +5335,6 @@ unsteady and hysteretic aerodynamics at high angle of attack as its own subject.
 - [System Identification of Flexible Aircraft Lessons Learned...][research_grauer_boucher_2020]
 - [Towards Validation of a Dynamic Interface Simulation using...][research_christoffel_hendrick_2020]
 - [Unsteady aerodynamics analysis and modelling of a Slingsby...][research_neves_lawson_2020]
-- [Wind Tunnel Investigation into the Resistance Analysis of...][research_utama_sutiyo_2020]
 - [Aerodynamic characterization of a Delta-wing UAV based on...][research_longobardi_laupre_2021]
 - [Aircraft and Flight Test Instrumentation][research_aircraft_and_2021]
 - [Application of air-to-ground integration flight test...][research_che_lian_2021]
@@ -5642,7 +5450,6 @@ unsteady and hysteretic aerodynamics at high angle of attack as its own subject.
 - [Research on flight test data analysis of PBN horizontal...][research_li_2024_b]
 - [System Identification of Aircraft Longitudinal Motion by...][research_metodiev_2024]
 - [Study on Hot Weather Operation Flight Test of Civil Aircraft...][research_zhao_ji_2024]
-- [System Identification for Lithium-Ion Batteries with...][research_tu_lin_2024]
 - [Use of an Uninhabited Aircraft System UAS for Atmospheric...][research_fowler_boyle_2024]
 - [Advanced Spacecraft Simulation High-Fidelity AOCS Simulation...][research_visintini_vonrueden_2025]
 - [An Analysis of Multi-Object Detection on 2024 Aerial...][research_prasinos_weinfurtner_2025]
@@ -5715,7 +5522,6 @@ first X-31.
 - [Diagnosis of Wing Icing Through Lift and Drag Coefficient...][research_aircraft_sorensen_2015]
 - [Icing Wind Tunnel and Detection of the Formation of Icing by...][research_mendig_2015]
 - [Numerical Simulation of Icing on the Rotating Blade][research_dong_zhu_2015]
-- [Ocean Speed and Turbulence Measurements Using Pitot-Static...][research_moum_2015]
 - [Study on Algorithms of Flush Air Data Sensing System for...][research_chen_chen_2015]
 - [Uncertainty Quantification for Airfoil Icing Using Polynomial...][research_degennaro_rowley_2015]
 - [A simulator of the aircraft air data system][research_efremova_2016]
@@ -5813,7 +5619,6 @@ first X-31.
 - [Aircraft air data system fault detection and reconstruction...][research_kilic_unal_2021]
 - [An Algorithm to Improve Accuracy of Flush Air Data Sensing][research_jia_hu_2021]
 - [An original Pitot-static probe design for subsonic boundary...][research_tescaroli_belan_2021]
-- [Compact Pitot-static-tube-based waterflow sensor for...][research_kishimoto_saito_2021]
 - [Comparative study on integrated air data system of civil...][research_zhao_2021_b]
 - [Design and Verification of Flush Air Data Sensing Module with...][research_fan_jiang_2021]
 - [Deviation Analysis of Pitot Static Probe Airflow Receiving...][research_zhao_2021]
@@ -5824,7 +5629,6 @@ first X-31.
 - [Modeling and Analysis of Anti-Icing Power of Aircraft Engine...][research_peng_2021]
 - [Numerical and experimental investigations into protection net...][research_tang_xie_2021]
 - [Pitot probe response for pulsed supersonic gas flow...][research_rosily_dikshit_2021]
-- [Pitot-Static-Tube-Based Waterflow Sensor for Marine...][research_kishimoto_saito_2021_b]
 - [Revisit the Pitot static tubes in the standards][research_choi_terao_2021]
 - [Safety Analysis of a Certifiable Air Data System Based on...][research_lerro_battipede_2021]
 - [UAV icing the influence of airspeed and chord length on...][research_hann_johansen_2021]
@@ -5836,13 +5640,11 @@ first X-31.
 - [An Experimental Study on Ice Accretion and Anti-/De-Icing of...][research_hu_almasri_2022]
 - [Atmospheric icing measurement and online ice type recognition...][research_ge_liu_2022]
 - [Data-Driven Model for Detection, Isolation and Accommodation...][research_wondimagegnehumersha_ma_2022]
-- [Development of compact Pitot-static-tube-based waterflow...][research_kishimoto_saito_2022]
 - [Enhancement of Insensitivity for Pitot-Static Probe by...][research_li_lin_2022]
 - [Flush Air Data Sensing Based on Dimensionless Input and...][research_liu_zhang_2022_b]
 - [Flush Air Data System Modeling Using DOE-Based Wind-Tunnel...][research_lee_kim_2022]
 - [Icing on Full-Scale Swept Wings in Flight and Icing Wind...][research_tanaka_ahmad_2022]
 - [Numerical Simulation of Aircraft Icing under Local Thermal...][research_wang_zhao_2022]
-- [Numerical Study on Prediction of Icing Phenomena for Intake...][research_yoon_park_2022]
 - [Research on Flush Air Data Sensing System Based on Kriging...][research_chen_xu_2022]
 - [Research on detection method of large diameter pitot tube...][research_han_chen_2022]
 - [Study on the Flight Characteristics of An Aircraft after Icing][research_study_on_2022]
@@ -5943,25 +5745,18 @@ against airspeed through the lift curve and raised a fault when the two disagree
 **Nothing in that technique required computing power the X-31 did not have.** It required someone to have
 written down the relation.
 
-- [A Distributed Architecture for HVAC Sensor Fault Detection...][research_reppa_papadopoulos_2015]
-- [A robust safety-oriented autonomous cruise control scheme for...][research_mozaffari_vajedi_2015]
 - [A two-stage approach for managing actuators redundancy and...][research_zhong_felix_2015]
 - [A virtual actuator approach for the fault tolerant control of...][research_rotondo_ponsart_2015]
-- [Actuator fault monitoring and fault tolerant control in...][research_lawal_zhang_2015]
 - [Actuator fault-tolerant control FTC design with post-fault...][research_chakravarty_mahanta_2015]
-- [An approach for diagnosability analysis and sensor placement...][research_leal_aguilar_2015]
 - [Applying success-based assurance techniques to the safety of...][research_foster_2015]
 - [Design of fault-tolerant control functions for a primary...][research_arriola_thielecke_2015]
 - [Fault Tolerant Control Design for the Longitudinal Aircraft...][research_ossmann_2015]
 - [Fault tolerant cooperative control of multiple UAVs-UGVs...][research_kamel_ghamry_2015]
 - [Fault-tolerant control allocation for over-actuated...][research_liu_jiang_2015]
-- [Fault-tolerant control scheme for manipulator with actuator...][research_tian_wang_2015]
 - [Flight Evaluation of Fault-tolerant Control System Using...][research_tokunaga_masui_2015]
 - [Joint Sensor Based Backstepping for Fault-Tolerant Flight...][research_sun_devisser_2015]
-- [Research of Sensor Fault-Tolerant Control Based on CSA-SVR...][research_wang_xu_2015]
 - [Review on Fault Detection and Fault Tolerant Control Applied...][research_abdulhuq_beebim_2015]
 - [Robust sliding-mode observer-based sensor fault estimation...][research_yang_zhu_2015]
-- [Sensor fault tolerant control of nonlinear Takagi-Sugeno...][research_ichalal_marx_2015]
 - [Sensor scheduling strategies for fault isolation in networked...][research_sid_2015]
 - [Active fault tolerant control for networked control systems...][research_zhang_pang_2016]
 - [Active fault tolerant control of a completely damaged...][research_hannan_shaopingwang_2016]
@@ -5971,25 +5766,18 @@ written down the relation.
 - [Analytical Redundancy Design for Aeroengine Sensor Fault...][research_zhou_liu_2016]
 - [Combining sensor monitoring and fault tolerant control to...][research_ossmann_joos_2016]
 - [Control allocation based adaptive dynamic inversion fault...][research_binwenlu_jianjunma_2016]
-- [Current-sensor fault detection and isolation for...][research_aguilera_delabarrera_2016]
-- [Detection of Sensor Abnormalities in a Pressurizer by Means...][research_cho_jiang_2016]
 - [Fault diagnosis and fuzzy fault-tolerant control design of...][research_li_tong_2016]
 - [Fault tolerant control in multi-agent systems subject to...][research_eslami_menhaj_2016]
 - [Fault-Tolerant Flight Control Design with Explicit...][research_yu_zhang_2016]
 - [Fault-tolerant control for a quadrotor unmanned helicopter...][research_qin_he_2016]
 - [Fault-tolerant control for cooperative unmanned aerial...][research_hafez_kamel_2016]
-- [Fault-tolerant cooperative control of WMRs under actuator...][research_kamel_yu_2016]
 - [Impacts of safety on the design of light remotely-piloted...][research_dirito_schettini_2016]
-- [Model-based broken rotor bars fault detection and diagnosis...][research_duvvuri_detroja_2016]
 - [Nonlinear Aircraft Attitude and Heading Reference System...][research_lu_vankampen_2016_b]
 - [Quantitative safety assessment of pressure control failure in...][research_marcoulaki_venetsanos_2016]
 - [Real-time fault-tolerant cooperative control of multiple...][research_kamel_ghamry_2016]
 - [Reconfigurable fault-tolerant UAV flight control against...][research_hajiyev_2016_b]
-- [Sensor Fault Detection, Isolation, and Estimation in...][research_dey_mohon_2016]
 - [Sensor Fault Detection, Isolation, and Identification Using...][research_pourbabaee_meskin_2016]
 - [Simple Adaptive Control with PID for MIMO Fault Tolerant...][research_nishiyama_suzuki_2016]
-- [Toward risk assessment 2.0 Safety supervisory control and...][research_favaro_saleh_2016]
-- [Wide-area measurement-based fault tolerant control of power...][research_khosravani_nazirimoghaddam_2016]
 - [A method to get analytical redundancy relations for fault...][research_lunze_2017]
 - [Actuator and sensor fault detection and isolation for...][research_shahnazari_mhaskar_2017]
 - [Adaptive fault-tolerant control for actuator failures A...][research_ouyang_lin_2017_b]
@@ -6013,7 +5801,6 @@ written down the relation.
 - [Special section on Reliability and Safety Certification of...][research_gallina_natella_2017]
 - [Supervisory adaptive fault‐tolerant control against actuator...][research_ouyang_lin_2017]
 - [Two methods to find analytical redundancy relations for fault...][research_lunze_2017_b]
-- [Active Fault-tolerant Control of EPS Considering Sensor and...][research_gao_2018]
 - [Actuator Fault Tolerant Control for a Rotary Wing Aircraft][research_kiyak_ermeydan_2018]
 - [Adaptive Fault Diagnosis Observer-Based Fault Tolerant...][research_gu_zhang_2018]
 - [Adaptive Fault Tolerant Control Design for Actuator Fault...][research_mallavalli_fekih_2018]
@@ -6025,24 +5812,19 @@ written down the relation.
 - [Fault tolerant scheme design for the flight control systems...][research_bai_gao_2018]
 - [Fault-Tolerant Control of a Hexacopter UAV based on...][research_nguyen_saussie_2018]
 - [Flight test of fault-tolerant flight control system using...][research_matsuki_nishiyama_2018]
-- [Internal and Sensor Fault Detection and Isolation for Li-ion...][research_couto_kinnaert_2018]
-- [Nonlinear Analytical Redundancy Method for Sensor Fault...][research_shui_duan_2018]
 - [Nonlinear Fault-Tolerant Control for Hypersonic Flight...][research_chen_niu_2018]
 - [Robust Actuator‐Fault‐Tolerant Control System Based on...][research_li_dong_2018_b]
 - [Robust adaptive fault-tolerant control of a tandem coaxial...][research_wang_xiang_2018]
 - [Sensor fault detection and isolation of an industrial gas...][research_navi_meskin_2018]
 - [A Fault Tolerant Control Design for Actuator Fault Mitigation...][research_mallavalli_fekih_2019]
 - [A nonlinear observer-based approach to fault detection...][research_nemati_safavihamami_2019]
-- [Active Fault Tolerant Lateral Control Against Actuator Faults...][research_hacizade_vural_2019]
 - [Actuator Fault Detection and Fault-Tolerant Control for...][research_nguyen_xuanmung_2019]
 - [Actuator Fault Tolerant Position Control of a Quadrotor...][research_baldini_felicetti_2019]
 - [Actuator Fault-Diagnosis and Fault-Tolerant-Control using...][research_younes_noura_2019]
-- [Actuator fault estimation and fault tolerant control for...][research_elyoussfi_oudghiri_2019]
 - [Adaptive Closed-Loop Control Allocation-Based Fault Tolerant...][research_lu_ma_2019]
 - [An anti-windup INDI fault-tolerant control scheme for flying...][research_zhang_meng_2019]
 - [Cooperative Fault-tolerant Formation Control for Nonlinear...][research_shi_2019]
 - [Design and Hardware-In-the-Loop Validation of a...][research_waitman_marcos_2019]
-- [Fault Diagnosis and Fault Tolerant Control Based on Model...][research_jarrou_sauter_2019]
 - [Fault Tolerant Control of Actuator Additive Fault for...][research_zheng_li_2019]
 - [Fault Tolerant Control of a Blended Wing Body Aircraft using...][research_vile_alwi_2019_b]
 - [Fault-Tolerant Adaptive Neural Control of Multi-UAVs Against...][research_yu_zhang_2019]
@@ -6051,39 +5833,28 @@ written down the relation.
 - [Finite Time Fault Tolerant Control Design for UAV Attitude...][research_cheng_cai_2019]
 - [Incipient sensor fault isolation based on augmented...][research_ji_huang_2019]
 - [Integrated Fault-Tolerant Flight Control System with Actuator...][research_liu_liu_2019]
-- [Integrated Sensor Fault Diagnosis and Fault-Tolerant Control...][research_hong_yao_2019]
 - [Neuro-adaptive Sliding Mode Fault-tolerant Control of...][research_ping_ju_2019]
-- [Offshore Platform Actuator Fault Optimal Anti-Interference...][research_li_2019]
 - [Prescribed Performance Fault Tolerant Control for Hypersonic...][research_zhao_li_2019]
 - [Sliding Mode Fault Tolerant Control Allocation with...][research_vile_alwi_2019]
 - [System Safety for Vertical Flight][research_hewitt_2019]
-- [A novel data mining approach for analysis of accident paths...][research_singh_maiti_2020]
-- [Active Fault Tolerant Control of Adaptive Cruise Control...][research_zhang_liang_2020]
 - [Adaptive Fault-Tolerant Control Allocation Schemes for...][research_akram_tedesco_2020]
 - [Attitude fault tolerant control for satellite under actuator...][research_yang_wang_2020]
-- [Comparative Analysis of Fault Detection for HVDC Transmission...][research_ahmed_ram_2020]
-- [Fault Detection Techniques in Solar Photovoltaic Modules by...][research_s_2020]
 - [Fault Detection, Isolation and Adaptive Augmentation for...][research_ignatyev_shin_2020]
-- [Fault Diagnosis and Fault Tolerant Control for Manipulator...][research_wu_yao_2020]
 - [Fault diagnosis and model predictive fault-tolerant control...][research_kang_yao_2020_b]
-- [Fault-Tolerant Stability Control for Independent Four-Wheel...][research_lee_lee_2020]
 - [Fault-tolerant Control for Multi-agent with Actuator Fault][research_zhang_xue_2020]
 - [Flight evaluation of a sliding mode online control allocation...][research_chen_edwards_2020]
 - [Linear Adaptive Fault Tolerant Control against Aircraft...][research_hamza_samir_2020]
 - [Performance comparison of representative model-based fault...][research_he_zhang_2020]
 - [Robust fault tolerant control allocation for a modern...][research_vile_alwi_2020]
 - [Sensor Fault Diagnosis and Fault Tolerant Control for...][research_zhang_xiao_2020]
-- [Sensor fault diagnosis and fault tolerant control for the...][research_kang_yao_2020]
 - [Virtual Sensor Development for Actual Sensor Fault Detection...][research_zahed_alabsi_2020]
 - [A modified observer based fault-tolerant control for aircraft...][research_wang_zhang_2021]
 - [Actuator and Sensor Fault Detection and Isolation for...][research_zhu_shan_2021]
-- [Actuator-Integrated Fault Estimation and Fault Tolerant...][research_su_xiao_2021]
 - [Adaptive Fault-Tolerant Control of Fixed-wing UAV Under...][research_fu_yu_2021]
 - [Adaptive fault-tolerant boundary vibration control for a...][research_gao_liu_2021]
 - [Adaptive model-free fault-tolerant control based on integral...][research_ma_peng_2021]
 - [An Analytical Robust Sensor Fault Detection and Fault...][research_mohammadi_ramezani_2021]
 - [Fault Detection and Isolation of the Multi-Sensor Inertial...][research_liang_guo_2021]
-- [Fault Diagnosis using a Combined Model and Data Based...][research_galve_vilajosana_2021]
 - [Fault detection, analysis and prevention of aircraft...][research_hengcheng_pu_2021]
 - [Fault diagnosis and fault-tolerant control for non-linear UAV...][research_wang_yao_2021]
 - [Fault estimation and fault-tolerant control for discrete-time...][research_ding_li_2021]
@@ -6092,7 +5863,6 @@ written down the relation.
 - [Fuzzy robust fault estimation scheme for fault tolerant...][research_unal_2021_b]
 - [Improved Adaptive Integral-Sliding-Mode Fault-Tolerant...][research_guo_lu_2021]
 - [Integrated design of fault-tolerant control for flight...][research_unal_2021]
-- [Multiple Sensor Fault Detection Algorithm for Fault Tolerant...][research_aqil_hur_2021]
 - [Passive Fault-Tolerant Flight Control Design Example for...][research_sato_2021]
 - [Robust fault-tolerant flight path angle control][research_dhadekar_misra_2021]
 - [Sensor Fault Detection and Isolation via Networked Estimation...][research_doostmohammadian_meskin_2021]
@@ -6107,27 +5877,17 @@ written down the relation.
 - [Control allocation based fault tolerant control of descriptor...][research_mashud_bera_2022]
 - [Data‐driven sensor fault detection and isolation of nonlinear...][research_bakhtiaridoust_irani_2022]
 - [Enhanced Multiscale Principal Component Analysis for Improved...][research_malluhi_nounou_2022]
-- [Fault Tolerant Control Applied to Drum Boiler by Virtual...][research_martins_potts_2022]
 - [Fault Tolerant Control of Quadrotor Based on Sensor Fault...][research_huang_liao_2022]
 - [Fault detection for delay-switched systems with all...][research_su_guo_2022]
 - [Fault tolerant control for actuator failures with application...][research_ouyang_zhou_2022]
 - [Fault tolerant control of a quadrotor based on incremental...][research_ahmadidastgerdi_asadi_2022]
-- [Fault-Tolerant Control Design in Scrubber Plant with Fault on...][research_wafi_indriawati_2022]
 - [Importance sampling for probabilistic prognosis of...][research_subramanian_mahadevan_2022]
-- [Metalearning-Based Fault-Tolerant Control for Skid Steering...][research_dai_chen_2022]
-- [Model-based sensor fault detection, isolation and tolerant...][research_chen_zhu_2022]
 - [Navigation Sensor Failure Detection without Sensor Redundancy][research_panten_bestmann_2022]
 - [Predictor-based Adaptive Incremental Nonlinear Dynamic...][research_chang_guo_2022]
-- [Research on Micro-Fault Detection and Multiple-Fault...][research_xu_meng_2022]
 - [Sensor fault detection and isolation via networked estimation...][research_doostmohammadian_zarrabi_2022]
-- [Single critic network based fault-tolerant tracking control...][research_che_2022]
 - [Soft Actor-Critic Deep Reinforcement Learning for Fault...][research_dally_vankampen_2022]
-- [Speed Sensorless Fault Tolerant Control for DC Servo Motor...][research_indriawati_yudistiranda_2022]
-- [A sensor fault detection, isolation, and estimation method...][research_huang_pan_2023]
 - [Adaptive backstepping fault-tolerant control for hypersonic...][research_gou_liu_2023]
 - [Adaptive fault-tolerant trajectory tracking and attitude...][research_hu_fu_2023]
-- [An efficient control allocation algorithm for over-actuated...][research_yuan_shuai_2023]
-- [Detection of Sensor Faults with or without Disturbance Using...][research_sravani_venkata_2023]
 - [Deterministic learning-based sensor fault detection...][research_zhu_chen_2023]
 - [Distributed fault‐tolerant control for over‐actuated...][research_du_jiang_2023]
 - [Dual neural networks based active fault-tolerant control for...][research_hu_sha_2023]
@@ -6138,14 +5898,12 @@ written down the relation.
 - [Nonlinear Fault-Tolerant Vibration Control for Partial...][research_li_jin_2023]
 - [Physics-Guided Neural Network Model for Aeroengine Control...][research_li_gou_2023]
 - [Robust integration of fault estimation and sliding mode...][research_abduljaleel_shaker_2023]
-- [A New Observer-Based Fault Tolerant Shared Control for SbW...][research_boudaoud_sentouh_2024]
 - [Active Fault-Tolerant Strategy for Flight Vehicles Transfer...][research_zhao_lu_2024]
 - [Adaptive Fault-Tolerant Finite-Time Flight-Path Angle Control...][research_yu_wang_2024]
 - [Adaptive fault-tolerant control of distributed electric...][research_li_sheng_2024]
 - [Data-Driven Fault Detection and Isolation for Quadrotor Using...][research_lee_im_2024]
 - [Evolutionary Reinforcement Learning A Hybrid Approach for...][research_gavra_vankampen_2024_b]
 - [Evolutionary Reinforcement Learning Hybrid Approach for...][research_gavra_vankampen_2024]
-- [Failure Modes and Effects Analysis for Automotive Trim Parts...][research_dumitrascu_dumitrascu_2024]
 - [Fault Isolation and Fault‐Tolerant Control Design for...][research_wang_yao_2024]
 - [Fault-Tolerant Control for Carrier-Based Aircraft Automatic...][research_wu_zhu_2024]
 - [Fault-tolerant RS-LQR based Yaw Control for Distributed...][research_yu_kim_2024]
@@ -6160,7 +5918,6 @@ written down the relation.
 - [Review of Fault-tolerant Control for Flight Control System][research_review_of_2024]
 - [Self-Healing Fault-Tolerant Control for High-Order Fully...][research_cai_he_2024]
 - [Task reliability index for operator performance and failure...][research_porthin_podofillini_2024]
-- [A Neural Network-Based Fault-Tolerant Control Method for...][research_wang_yang_2025_b]
 - [Adaptive predefined-time fault-tolerant attitude tracking...][research_xiao_fan_2025]
 - [Controllability Assessment and Fault-Tolerant Sizing of UAVs...][research_pollet_liscouet_2025]
 - [Data model-based sensor fault diagnosis algorithm for...][research_han_zhou_2025]
@@ -6169,14 +5926,10 @@ written down the relation.
 - [Extended State Observer-Based Optimized Terminal Sliding Mode...][research_sharma_agrawal_2025]
 - [Fault Tolerant Control for Aircraft Flaperon Faults Using...][research_fault_tolerant_2025]
 - [Fault Tolerant Control of Tilt-rotor Aircraft Based on...][research_tang_yang_2025]
-- [Fault diagnosis and fault tolerant control of asynchronous...][research_li_2025]
 - [Fault-Tolerant Control for Polynomial Fault Systems with...][research_ji_pang_2025]
-- [Fault-tolerant reconfiguration estimation and control of...][research_luo_yin_2025]
-- [Fault‐Tolerant Control of BLDC Motors Fault‐Tolerant Control...][research_ullah_hongfei_2025]
 - [Model-Based Sensor Fault Diagnosis for Hydraulic-Electro...][research_he_2025]
 - [Passive Fault-Tolerant Control of Flying-Wing UAV with...][research_pei_huang_2025]
 - [Reconfigurable Fault-Tolerant Dynamic Control Allocation...][research_ergocmen_tilki_2025]
-- [Robust Adaptive Dynamic Surface Fault-tolerant Tracking...][research_xu_liang_2025]
 - [Robust Augmented State Extended Kalman Filter for...][research_patan_ustoglu_2025]
 - [Safe Reinforcement Learning Parameter Optimization for...][research_zheng_yan_2025]
 - [Sensor Fault Detection and Isolation in Multi‐Agent Systems][research_borah_2025]
@@ -6184,7 +5937,6 @@ written down the relation.
 - [A gas turbine performance mitigation control method based on...][research_han_cao_2026]
 - [A maximum entropy moment quadrature method for...][research_li_lin_2026]
 - [A rapid fusion generation of sensor analytical redundancy for...][research_yang_zhou_2026]
-- [Active Steering Control Strategy and Fault-Tolerant Method...][research_tian_shi_2026]
 - [An uncertainty-aware deep neural network framework integrated...][research_kim_2026_b]
 - [Dual-Loop Sliding Mode Adaptive Fault-Tolerant Control for...][research_zhang_2026_b]
 - [Fixed-time fault-tolerant anti-skid control for...][research_yin_yang_2026]
@@ -6197,7 +5949,6 @@ written down the relation.
 - [Self‐Learning Robust Fault‐Tolerant Control for Aircraft...][research_peng_li_2026]
 - [Sensor Fault Reconstruction-Based Fixed-Time Fault-Tolerant...][research_lv_2026]
 - [Singularity-free predefined-time fault-tolerant attitude...][research_huang_shi_2026]
-- [Test Sample Ranking for Fault Detection in Decision...][research_emmanuele_barbareschi_2026]
 - [Toward future flight safety of electric vertical takeoff and...][research_liang_wang_2026]
 - [An interpretable machine learning framework for identifying...][research_liu_qi_2027]
 
@@ -6265,10 +6016,8 @@ fifteen. The subject did not disappear. It dissolved into trajectory optimisatio
 manoeuvre selection, where the question is no longer what metric describes agility but what an agent does
 with it.
 
-- [Power-agility metrics Measuring dynamic characteristics of...][research_begum_hempstead_2015]
 - [An exact model for airline flight network optimization based...][research_caetano_gualda_2017]
 - [Angle of Attack and Load Factor Limiting in Fighter Aircraft...][research_simon_harkegard_2017]
-- [Agility Metrics in the ARIAC Competition][research_downs_kootbally_2021]
 - [Modeling of aircraft performance parameters with...][research_oruc_baklacioglu_2022]
 - [Combat Aircraft Agility Metrics - A Review][research_paranjape_ananthkrishnan_2023]
 - [Modeling of energy maneuverability based specific excess...][research_oruc_baklacioglu_2023]
@@ -6369,7 +6118,6 @@ still lapses with altitude. The mechanism is different and the scaling is identi
 - [Computational Investigation of Effects of Side-Injection...][research_computational_investigation_2022]
 - [Experimental Investigation on Jet Vector Deflection Jumping...][research_chi_gu_2022_b]
 - [Fluidic Thrust, Propulsion, Vector Control of Supersonic Jets...][research_shakouchi_fukushima_2022]
-- [Hydrodynamic analysis and motion control of the Coanda-effect...][research_li_liu_2022]
 - [Mechanism of hysteresis and uncontrolled deflection in jet...][research_shi_gu_2022]
 - [Numerical study on the shock vector control performance in a...][research_zhang_su_2022]
 - [Controlling the Jet of Overexpanded Nozzle Using Coanda Effect][research_zaheer_disimile_2023]
@@ -6427,59 +6175,42 @@ component was proposed for a flight-critical loop.
 - [Runtime Assurance Protection for Advanced Turbofan Engine...][research_schierman_neal_2018]
 - [A Viable Approach to Formal Verification of Complex Aerospace...][research_vaz_elliott_2019]
 - [An optimized method towards formal verification of mixed...][research_ds_ramachandra_2019]
-- [Operational Control in the Process Safety Assurance][research_karkoszka_2019]
 - [The Certification as a Mechanism for Control of Artificial...][research_galanphd_2019]
 - [Energy-efficient control adaptation with safety guarantees...][research_wang_huang_2020]
 - [Explainable Artificial Intelligence for Aviation Safety...][research_saraf_chan_2020]
 - [Runtime Assurance for Autonomous Aerospace Systems][research_schierman_devore_2020]
-- [A Quest of Self-Explainability When Causal Diagrams meet...][research_schwammberger_2021]
 - [Aspects and Challenges of Unmanned Aircraft Systems Safety...][research_karyotakis_panagiotakopoulos_2021]
 - [RADICS Runtime Assurance of Distributed Intelligent Control...][research_wheatman_chen_2021]
 - [Automatic Loss of Control Prevention using Longitudinal and...][research_kirkendoll_2022]
 - [Exploring online and offline explainability in deep...][research_guo_zhou_2022]
-- [Formal Verification of Neural Networks a Case Study about...][research_demarchi_guidotti_2022]
 - [Formal Verification of Octorotor Flight Envelope Using...][research_heersink_sylla_2022]
 - [Run Time Assurance for Electric Vertical Takeoff and Landing...][research_michaeldevore_jaredcooper_2022]
 - [Toward Airworthiness Certification for Artificial...][research_henderson_harbour_2022]
 - [AACE Automated Assurance Case Environment for Aerospace...][research_daw_oh_2023]
-- [Explainability and human intervention in autonomous scanning...][research_liu_ziatdinov_2023]
-- [Reinforcement Learning Enabled Safety-Critical Tracking of...][research_meng_zhao_2023]
 - [Runtime Assurance for Safety-Critical Systems An Introduction...][research_hobbs_mote_2023]
-- [Safety assurance for automated driving systems that can adapt...][research_ballingall_sarvi_2023]
 - [Towards Explainability in Modular Autonomous System Software][research_zheng_zang_2023]
 - [A User-Centered Ontology for Explainable Artificial...][research_bernard_perellomarch_2024]
 - [Continuous Formal Verification for Aerospace Applications][research_mccoll_mccoll_2024]
-- [Ensuring Safety and Reliability Formal Verification of...][research_ensuring_safety_2024]
 - [Formal Verification of Clock Synchronization Algorithms for...][research_krishnan_gupta_2024]
-- [Reducing Return Volatility in Neural Network-Based Asset...][research_stevinson_lomuscio_2024]
 - [Research on Explainability Methods for Unmanned Combat...][research_chen_wang_2024_b]
 - [Spontaneous State Constraint Insertions to Operating Symbolic...][research_kreuzer_weber_2024]
-- [Trustworthiness and explainability of a watermarking and...][research_rosales_malanowska_2024]
 - [What if Autonomous Systems had a Game Master? Targeted...][research_bairy_franzle_2024]
-- [Autonomous Earthwork Machinery for Urban Construction A...][research_liu_kim_2025]
-- [Deep learning-enabled quality of service assurance for...][research_aledaily_2025]
 - [Design and Formal Verification of Fault Protection Function...][research_miao_li_2025_b]
 - [Designing Future Aerospace Systems Integrating BIP Formal...][research_metwally_somov_2025]
 - [Learning-Enabled Iterative Convex Optimization for...][research_liu_huang_2025]
 - [Recursive Gaussian Process-Based Safety Assurance Exploration...][research_kanou_ibuki_2025]
 - [Runtime Assurance with Stability Regulation †][research_kurtoglu_yucelen_2025]
-- [Safe Reinforcement Learning Control for Maglev Train...][research_zhao_sun_2025]
-- [Safety assurance adaptive control for modular autonomous...][research_ma_zhou_2025]
-- [Safety assurance and nutritional quality enhancement of...][research_somasundaram_mock_2025]
 - [A neuromorphic safety monitor for verifiable runtime...][research_kaczmarek_2026]
 - [Certification of AI-Based Aviation Systems A Methodology for...][research_schoeman_panday_2026]
 - [Explainability as an Emergent Property in AI-Enabled...][research_ruseno_safi_2026]
 - [Explainability-driven adaptive cyber deception control system...][research_roy_khekare_2026]
 - [Explainable Artificial Intelligence for Aviation-Related...][research_krozel_krozel_2026]
-- [Explainable Dense Quantum Recurrent Model with Chebyshev...][research_balasubramani_r_2026]
 - [Explainable federated learning-based fault diagnosis...][research_rahmati_rahmati_2026]
 - [Formal Verification of Aerospace Software IP Components A...][research_zhang_liu_2026_b]
 - [Is Static Aviation Certification Adequate for Machine...][research_daw_2026]
-- [Leveraging Data-Driven Safety Assurance and Digital-Twin...][research_jansen_graafland_2026]
 - [Problem of In Explainability in Testing Fully Autonomous...][research_zajac_2026]
 - [Risk-aware learning-enabled control for safety-critical...][research_yazdinejad_dehghantanha_2026]
 - [Runtime Assurance With Stability Regulation][research_kurtoglu_yucelen_2026]
-- [Runtime assurance for enterprise agentic AI systems A...][research_tan_2026]
 
 ### The standard atmosphere, and what rests on it
 
@@ -6496,7 +6227,6 @@ several percent in density are ordinary.
 - [The International Civil Aviation Organization Standard...][research_the_international_1957]
 - [Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]
 - [Density Altitude as a Performance Standard for Helicopter...][research_dennispdykstra_1980]
-- [Raman-DIAL Measurements in the Upper Troposphere and...][research_reichardt_weitkamp_1997]
 - [MV-22B high density altitude handling qualities][research_strand_ennis_2012]
 
 - [Analytic approach to determine optimal conditions for...][research_lee_aldredge_2015]
@@ -6586,7 +6316,6 @@ aircraft in this series. The X-31's contribution was to fly somewhere the distin
 - [Formulation of equations of motion of aircraft][research_pradeep_1999]
 - [An Investigation of Open Loop Flight Control Equations of...][research_miller_beccarisi_2003]
 
-- [L-structured quaternion matrices and quaternion linear matrix...][research_yuan_wang_2015]
 - [Quadrotor quaternion control][research_carino_abaunza_2015]
 - [Quaternion-based robust attitude control for quadrotors][research_liu_wang_2015_b]
 - [Modeling And Simulation of Spacecraft Pointing Modes Using...][research_bel_aly_2016]
@@ -6600,13 +6329,10 @@ aircraft in this series. The X-31's contribution was to fly somewhere the distin
 - [Research on Attitude Algorithm of Aircraft Based on Quaternion][research_chen_2018]
 - [Architecture-independent quaternion-based attitude planning...][research_farconi_terra_2019]
 - [Bell 412 Full Flight Envelope Aircraft Simulation Model...][research_crain_ricciardi_2021]
-- [Quaternion-based AHRS with MEMS Motion Sensor for Biomedical...][research_antunes_palma_2021]
 - [Singularity-Free Quaternion Representation to Control a...][research_marciano_brandao_2021]
 - [Equations of Motion for a Generic Multibody Tilt-rotor...][research_pei_roithmayr_2022]
 - [An Alternate Dimensionless Form of the Linearized Rigid-Body...][research_hunsaker_moulton_2023]
 - [Correction An Alternate Dimensionless Form of the Linearized...][research_hunsaker_moulton_2023_b]
-- [Hyers-Ulam stability of linear quaternion-valued differential...][research_lv_wang_2023]
-- [Motion Simulation of 3D Virtual Human Model Based on Dual...][research_chen_2023]
 - [Motion, Dual Quaternion Optimization and Motion Optimization][research_qi_2023]
 - [Adaptive Control Using a Quaternion Wavelet Neural Network][research_martinezteran_bayrocorrochano_2024]
 - [Data-Driven Discovery of the Equations of Motion of...][research_elsayed_elbadawy_2024]
@@ -6614,11 +6340,8 @@ aircraft in this series. The X-31's contribution was to fly somewhere the distin
 - [Quaternion-Based Observer Control for Multirotor UAVs, an...][research_gandulfo_varela_2024]
 - [Derivation and Analysis of Rigid Aircraft Equations of Motion...][research_matthew_2025]
 - [Offset-Aware Dual Quaternion Control for UAVs with...][research_yuan_pries_2025]
-- [Structure-preserving quaternion BiCG method and quaternion...][research_cai_ke_2025]
 - [Decoupled Large-Pitch Maneuvers of a 2DOF Thrust-Vectoring...][research_liao_yang_2026]
 - [Possibilities of Using Quaternion Methods in Helmet-Mounted...][research_michalak_szelmanowski_2026]
-- [Structure-preserving quaternion BiCOR method and quaternion...][research_cai_li_2026]
-- [Structure-preserving randomized quaternion full...][research_huang_ding_2026]
 
 ### Uncertainty quantification
 
@@ -6659,7 +6382,6 @@ course.
 - [Analysis of Uncertainty Quantification Techniques for Vehicle...][research_burrows_allaire_2019]
 - [Application of a CFD Uncertainty Quantification Framework for...][research_schaefer_cary_2019]
 - [Output-Feedback Stochastic Model Predictive Control for...][research_misra_bai_2019]
-- [Theoretical modeling and sensitivity analysis of the...][research_qiao_zhang_2019]
 - [Uncertainty Quantification on Aerodynamic Characteristics of...][research_hamada_tamura_2019]
 - [Uncertainty Quantification for Laminar-Turbulent Transition...][research_jung_baeder_2019]
 - [Uncertainty Quantification of Guided Waves Propagation for...][research_ahmed_kopsaftopoulos_2019]
@@ -6690,7 +6412,6 @@ course.
 - [Efficient Quantification of Aerodynamic Performance...][research_zhang_xu_2024_b]
 - [Generative Model Based Parameterization for More Efficient...][research_li_song_2024]
 - [Modeling Combustor Turbine Interaction Using Efficient Joint...][research_verma_zori_2024]
-- [Sensitivity Analysis of Wind Affected Maneuverability of...][research_hoffmann_roy_2024]
 - [Uncertainty Quantification of Hypersonic Aerodynamic Heating][research_holifield_tufts_2024]
 - [Unsteady Aerodynamic Uncertainty Quantification of a...][research_willier_hickey_2024]
 - [A multi-method framework for establishing an angular...][research_giessler_waltersberger_2025]
@@ -6726,21 +6447,16 @@ course.
 - [Synthesizing close combat using sequential Monte Carlo][research_chiang_lin_2015]
 - [A new confidence interval in measurement error model with the...][research_yan_xu_2016]
 - [A novel nonparametric confidence interval for differences of...][research_duan_cao_2016]
-- [An Approch to Predict the Confidence Interval of Web Services...][research_xiao_wang_2016]
-- [Beta-binomial analysis of variance model for network...][research_nnyaga_arbyn_2016]
 - [Confidence interval of difference of proportions in logistic...][research_reeve_2016]
 - [Confidence intervals for a ratio of binomial proportions...][research_ngamkham_volodin_2016]
 - [Confidence intervals for adequacy assessment using Monte...][research_henneaux_bouchez_2016]
 - [Confidence intervals for the odds ratio of two independent...][research_rahardja_wu_2016]
 - [Design of Gamma control charts based on the narrowest...][research_hao_huang_2016]
-- [Does Geographical Distance Effect Distributed Development...][research_nguyen_adams_2016]
 - [Inferences on common ratio means of lognormal distributions...][research_smithpreecha_niwitpong_2016]
 - [Revisiting activity sampling a fresh look at binomial...][research_disney_2016]
-- [Selection and Interpretation of Standard Deviation, Standard...][research_so_2016]
 - [Uncertainty analysis of entry guidance based on confidence...][research_xiaojiaping_shenzuojun_2016]
 - [Approximate Bayesianity of Frequentist Confidence Intervals...][research_jin_thulin_2017]
 - [Confidence Interval of Bayesian Network and Global...][research_bae_kim_2017]
-- [Deterministic Confidence Interval Estimation of Networking...][research_yang_ng_2017]
 - [Effective Confidence Interval Estimation Based on Ohba's...][research_tsai_fang_2017]
 - [Fixed-width confidence interval of log odds ratio for joint...][research_bandyopadhyay_sarkar_2017]
 - [Numerical simulation of idealized front motion in neutral and...][research_yudin_2017]
@@ -6751,14 +6467,10 @@ course.
 - [Confidence interval for the weighted sum of two binomial...][research_zielinski_2018]
 - [Likelihood ratio confidence interval for the abundance under...][research_liu_liu_2018]
 - [Noise Analysis of Aircraft Departure Procedures Using Monte...][research_smits_hartjes_2018]
-- [P149 Identification of late asthmatic reactions using the 95%...][research_moore_walters_2018]
-- [Train Speed Measurement and Position Identification Approach...][research_cui_dong_2018]
 - [Uncertainty Quantification in Steady State PSP Using Monte...][research_nelson_2018]
 - [Association Evaluation by Confidence Interval of Proportional...][research_park_2019]
 - [Asymptotic confidence interval construction for proportion...][research_peng_liu_2019]
 - [Bayesian Inference for the Difference of Two Proportion...][research_rahardja_2019]
-- [Confidence Interval Estimation of Apparent Residential Load...][research_katsuragawa_wakao_2019]
-- [Determining Shortening Rates by Integrated Structural...][research_trexler_cowgill_2019]
 - [Ensemble confidence intervals for binomial proportions][research_park_leemis_2019]
 - [Fuzzy Confidence Interval Estimation by Likelihood Ratio][research_berkachy_donze_2019]
 - [Simulation and Analysis of Simple, Repairable Systems with a...][research_mullermsc_bertsche_2019]
@@ -6768,14 +6480,11 @@ course.
 - [Approximate Confidence Intervals for the Binomial Parameter][research_davidsotresramos_jesusriveracortez_2020]
 - [Constructing a confidence interval for the ratio of normal...][research_malekzadeh_mahmoudi_2020]
 - [Score confidence intervals and sample sizes for stratified...][research_tang_2020]
-- [Traffic Flow Series Outlier Detection Based on Time Series...][research_zhang_liang_2020_b]
 - [A fair comparison of credible and confidence intervals an...][research_depaulacastro_paulino_2021]
 - [An integrated‐likelihood‐ratio confidence interval for a...][research_wiley_elrod_2021]
-- [Analysis of China's Pension Financial Sustainability Based on...][research_haiyang_yujiao_2021]
 - [Comparison of Accuracy Properties for Confidence Intervals of...][research_comparison_of_2021]
 - [Confidence Estimation of a Ratio of Binomial Proportions for...][research_kokaew_thaithanan_2021]
 - [Confidence Estimation of the Cross-Product Ratio of Binomial...][research_sungboonchoo_ngamkham_2021]
-- [Confidence Interval of Peak-Based Distance Estimation in...][research_alesiani_magarini_2021]
 - [Confidence Intervals for the Binomial Proportion A Comparison...][research_orawo_2021]
 - [Confidence Intervals for the Risk Ratio Using Double Sampling...][research_rahardja_young_2021]
 - [Confidence intervals, prediction intervals and tolerance...][research_dang_krishnamoorthy_2021]
@@ -6784,7 +6493,6 @@ course.
 - [Logarithmic confidence intervals for the cross-product ratio...][research_sungboonchoo_yang_2021]
 - [Risk and Economic Evaluation of Aircraft Program Based on...][research_zhang_cao_2021]
 - [Uncertainty Quantification for the BGK Model of the Boltzmann...][research_hu_pareschi_2021]
-- [A Monte Carlo Study of Confidence Interval Methods for...][research_jiang_2022]
 - [A weighted score confidence interval for a binomial proportion][research_nawa_2022]
 - [Approximate Confidence Intervals for a Binomial p Once Again][research_andersson_2022]
 - [Comparison between binomial generalized linear mixmodels...][research_rohimah_notodiputro_2022]
@@ -6806,23 +6514,16 @@ course.
 - [Confidence intervals and prediction intervals for...][research_hasan_krishnamoorthy_2023]
 - [Determination of measurement uncertainty by a Monte Carlo...][research_jaworski_szatkowski_2023]
 - [Locally correct confidence intervals for a binomial...][research_garthwaite_moustafa_2023]
-- [Performance of Bias-Corrected Bootstrap Confidence Interval...][research_yang_2023]
 - [A Note on Confidence Intervals for a Binomial p Andersson...][research_andersson_2024]
 - [An optimal exact confidence interval for the difference of...][research_cao_wang_2024]
 - [Binomial Confidence Intervals for Rare Events Importance of...][research_mcgrath_burke_2024]
-- [Blind Edge-Retention Indicator for Assessing the Quality of...][research_ma_li_2024]
 - [Evaluation of Humidity Sensor Calibration Uncertainty by...][research_wei_wen_2024]
 - [Fixed-width confidence interval of log odds ratio in...][research_bandyopadhyay_sarkar_2024]
 - [Online Design of Experiments with Fuzzy Confidence Interval...][research_ozbot_skrjanc_2024]
 - [Optimal confidence interval for the difference between...][research_peer_azriel_2024]
-- [Reliable Confidence Intervals for Monte Carlo-Based Resource...][research_sharifnia_tindemans_2024]
 - [Score confidence interval with continuity correction for...][research_wu_shan_2024]
 - [Short confidence intervals for the count parameters of the...][research_holladay_schilling_2024]
-- [Uncertainty Propagation in Fire Probabilistic Risk Assessment...][research_nasiri_sepanloo_2024]
-- [Digital Engagement across Socio-Economic Strata among Laundry...][research_ghosh_sal_2025]
-- [Frequency Analysis in Flood Management Confidence Interval...][research_zheng_liu_2025]
 - [More Details on Two Solutions with Ordered Sequences for...][research_jantschi_2025]
-- [Ovarian Cancer Detection using Soft-Attention-Enhanced...][research_reddy_narender_2025]
 - [Simultaneous Confidence Intervals for Parameters of...][research_khandeparkar_sabnis_2025]
 - [Using Importance Sampling Monte Carlo to Analyze Aircraft...][research_ouellette_2025]
 - [A novel exact confidence interval for the difference of...][research_cao_wang_2026]
@@ -6831,7 +6532,6 @@ course.
 - [Calculation of Lofting Deformation Impacts on Aircraft...][research_secchi_mestriner_2026]
 - [Exact Confidence Intervals for the Mixing Distribution from...][research_basu_brill_2026]
 - [Exact confidence intervals for risk differences of stratified...][research_shao_ye_2026]
-- [From Adoption Diffusion to Dimensioning Probabilistic...][research_kanellos_katsianis_2026]
 - [Stall Recovery Method With Optimal Control for T-Tail...][research_yoshioka_morita_2026]
 
 ### Propulsion integration at extreme attitude
@@ -6865,7 +6565,6 @@ course.
 - [TJ100 inlet distortion testing][research_bugajski_pecinka_2015]
 - [URANS analysis of the effect of realistic inlet distortions...][research_vagnoli_verstraete_2015]
 - [Validation of a Modified Parallel Compressor Model for...][research_floyd_davis_2015]
-- [Zero-delay rate-distortion optimization for partially...][research_tanaka_2015]
 - [Analysis and Comparison of Inlet Distortion Flow Physics at...][research_spencer_gorrell_2016]
 - [Assessing Computational Fluid Dynamics Turbulence Models for...][research_watts_2016]
 - [Effects of inlet radial distortion on the type of stall...][research_arshad_li_2016]
@@ -6894,7 +6593,6 @@ course.
 - [Fan Rotor Flow Measurements in a Turbofan Engine Operating...][research_frohnapfel_obrien_2017]
 - [Further Development of Supersonic Jet Noise Reduction Using...][research_morgan_morris_2017]
 - [Impact of inlet distortion on turbocharger compressor stage...][research_zhao_sun_2017]
-- [Improvement of a Hybrid Serpentine-Interdigitated Flow Field...][research_limjeerajarus_santiprasertkul_2017]
 - [Influence of deflector on impact properties of multi-nozzle...][research_cai_nie_2017]
 - [Inlet Compatibility and Fan Aeromechanics of HBP Turbofan...][research_wang_chen_2017]
 - [Inlet Trade Study for a Low-Boom Aircraft Demonstrator][research_heath_slater_2017]
@@ -6947,16 +6645,13 @@ course.
 - [Aeroelastic and Aerodynamic Investigation of a Low Pressure...][research_simonassi_zenz_2019]
 - [Compressible Flow Through a Diffusing Serpentine Inlet Duct...][research_thompson_komives_2019]
 - [Distortion of pipe-flow development by boundary layer growth...][research_haustein_kashi_2019]
-- [Experimental Analysis of Inlet Air Swirl in Diesel Engine...][research_experimental_analysis_of_2019]
 - [Effect of Side Gust on Performance of External Compression...][research_halwas_aggarwal_2019_b]
 - [Effects of Mach Number on the Performance of a Diverterless...][research_askari_soltani_2019]
 - [Efficient simulation of inlet distortion in engine fan stage...][research_mehdizadeh_vilmin_2019]
 - [Eigenmode Distortion Analysis for Motion Cueing Evaluation in...][research_stoev_stroosma_2019]
 - [Experimental investigation and detached-eddy simulation of...][research_zhou_li_2019]
-- [Failure of a hydrogenerator reactor inlet piping by...][research_poorhaydari_2019]
 - [Nozzle Reservoir Thermometry by Laser-Induced Grating...][research_selcan_sander_2019]
 - [Numerical and Experimental Investigation of the Impact of...][research_leonard_spence_2019]
-- [Numerical simulation of particle formation and evolution in a...][research_liu_chan_2019]
 - [Shock-induced flow separation in an over-expandedsupersonic...][research_zebiri_piquet_2019]
 - [Side Gust Effects on the Performance of a Supersonic Inlet...][research_halwas_aggarwal_2019]
 - [Stall and Recovery Process of a Transonic Fan With and...][research_zhang_vahdati_2019]
@@ -6976,7 +6671,6 @@ course.
 - [Controlled Flow Dynamics in a Serpentine Diffuser with a Cowl...][research_burrows_vukasinovic_2020]
 - [Correction Mitigation of Serpentine Duct Flow Distortion...][research_xu_zha_2020_c]
 - [Design and thermo-structural analysis of 2D exhaust nozzle...][research_kim_kim_2020]
-- [Development and uncertainty analysis of radionuclide...][research_cao_cui_2020]
 - [Development, Analysis, and Validation of a Simultaneous Inlet...][research_frohnapfel_lowe_2020]
 - [Distortion Elimination for Serpentine Inlet Using CoFlow Jet...][research_xu_zha_2020]
 - [Experimental Investigation of Inlet Distortion in a 4.5-Stage...][research_reutter_enders_2020]
@@ -6999,7 +6693,6 @@ course.
 - [Tip air injection to extend stall margin of multi-stage axial...][research_li_du_2020]
 - [Towards Primary Breakup Simulation of a Complete Aircraft...][research_warncke_sadiki_2020]
 - [A Brief History of Rocket Exhaust Plume Measurements and...][research_reed_hiers_2021]
-- [A study on the effect of blade inlet angle, attack angle and...][research_niyigena_2021]
 - [An experimental study on the control of plug nozzle jets][research_khan_bhesania_2021]
 - [Computation on Infrared Radiation of Side Exhaust Plume under...][research_sun_chen_2021]
 - [Computational Inlet Swirl Distortion Investigation of a...][research_acton_wolff_2021]
@@ -7007,7 +6700,6 @@ course.
 - [Dynamic characteristics analysis of hammer shock in...][research_wu_gao_2021]
 - [Experimental Investigation of Rotating Instability in an...][research_xu_hu_2021]
 - [Experimental research on vector control features of a pulse...][research_zhang_wang_2021]
-- [Fabrication and Characterization of Fluidic Channel and...][research_ko_khan_2021]
 - [Flow Distortion Into the Core Engine for an Installed...][research_rajendran_pachidis_2021]
 - [Improvement of the Parallel Compressor Model and Application...][research_benichou_binder_2021]
 - [Inlet Distortion Simulations of a Transonic Fan With CFD and...][research_favaron_magrini_2021]
@@ -7019,7 +6711,6 @@ course.
 - [Prestall Disturbances and Stall Inception for an Eccentric...][research_wang_hu_2021]
 - [Research on the influence of integrated infrared suppressor...][research_yang_zhang_2021]
 - [Spike-type disturbances due to inlet distortion in a...][research_cao_zhu_2021]
-- [Tailoring the Flash-boiling Spray Structure Through the...][research_xu_yang_2021]
 - [The Effects of Various Inlet Distortion Patterns on...][research_bedke_gorrell_2021]
 - [Thrust Measurements using Acoustic Sensing on a Turbofan...][research_gillespie_lowe_2021]
 - [Topology Optimization of a Section of a Morphing Serpentine...][research_munroe_bohrer_2021]
@@ -7029,13 +6720,10 @@ course.
 - [Effect of inlet distortion with crosswind on aircraft-engine...][research_naruse_ishii_2022]
 - [Efficient Pseudo-Polydisperse Model for Plume-Surface...][research_gale_2022]
 - [Experiment investigation on the effect of inlet...][research_pan_yan_2022]
-- [Experimental Dynamic Load Cycling and Current Density...][research_suarez_toharias_2022]
 - [Experimental Investigation of Inlet Stagnation Pressure...][research_oliva_morris_2022]
 - [Experimental investigations of hypersonic inlet...][research_xu_wang_2022_b]
 - [Gas-Particle Interaction Model Development in Plume Surface...][research_west_liever_2022]
-- [High angle mass flux of an electrospray plume][research_collins_wright_2022]
 - [Influence of Inlet Pressure Distortion on the Engine...][research_alendar_grunin_2022]
-- [Influence of fluid inlet outlet on hydrothermal evaluation...][research_alhasani_freegah_2022]
 - [Inlet Flow Distortion Dependencies for Tail Mounted Ducted...][research_engelbrecht_gkoutzamanis_2022]
 - [Inlet Flow Distortion in an Advanced Civil Transport Boundary...][research_hall_greitzer_2022]
 - [Integrated Infrared Radiation Characteristics of Aircraft...][research_zhang_qi_2022]
@@ -7066,7 +6754,6 @@ course.
 - [Inlet Distortion Studies on a Centrifugal Compressor][research_jaiswal_bubanale_2023]
 - [Installed performance seeking control based on supersonic...][research_wang_sun_2023]
 - [Internal Aerodynamic Performance Enhancement for Aircraft...][research_zhang_mi_2023]
-- [Laboratory investigation of the plume-to-plume interaction in...][research_song_yuan_2023]
 - [Numerical Optimization of High Convoluted Serpentine Air...][research_yahsi_yilmaz_2023]
 - [Numerical Simulation of a Y-Shaped Diverterless Supersonic...][research_askari_soltani_2023]
 - [Numerical investigation of inlet distortion in a jet engine...][research_wang_lyu_2023]
@@ -7086,7 +6773,6 @@ course.
 - [Analysis on stall mechanism of axial flow compressor with...][research_qiu_zhong_2024]
 - [Angle of Attack Effects on the Performance of a Diverterless...][research_vacarios_oliveira_2024]
 - [Attenuation of Inlet Distortion Effects on Fans Using...][research_liu_vo_2024]
-- [Deep recycling of nitrogen to the plume mantle sources...][research_li_barry_2024]
 - [Development of a Transonic Fan Research Facility Focused on...][research_cusator_brown_2024]
 - [Distortion elimination for serpentine duct at various Mach...][research_xu_zha_2024]
 - [Effect of Exhaust Jet from Takeoff Aircraft on the Inlet...][research_effect_of_2024]
@@ -7098,18 +6784,13 @@ course.
 - [Forced Vibration Induced by Dynamic Response Under Different...][research_pan_mu_2024]
 - [Ice Object Exclusion Characteristics of Turboshaft Engine...][research_zhou_zhou_2024]
 - [Impact of circumferential inlet distortion on different types...][research_pan_yan_2024]
-- [Improving Internal Combustion Engine Performance through...][research_ahsan_noman_2024]
-- [Improving the performance of the turbocharger turbine by...][research_sabahi_tabatabaei_2024]
 - [Investigation of Flow Control in an Ultra-Compact Serpentine...][research_liu_bai_2024]
 - [Investigation of the Internal Flow Characteristics of a...][research_zhu_he_2024]
-- [Near-field plume-to-plume interaction of multi-hole GDI...][research_bae_moon_2024]
 - [Noise suppression of infrared thermal imaging of rocket...][research_fu_sun_2024]
 - [Numerical Simulation and Prediction Using Neural Network for...][research_wang_zhang_2024_b]
 - [Numerical study on the influence of inlet distortion on...][research_yu_qin_2024]
 - [Partial tip air injection to extend the stall margin in an...][research_li_liu_2024_b]
 - [Plume flow characteristics of rectangular exhaust nozzles in...][research_lee_choi_2024]
-- [Plume-orogenic lithosphere-asthenospheric mantle interaction...][research_an_zhang_2024]
-- [Plume‐Plateau Interaction][research_huang_2024]
 - [Reverse Thrust Aerodynamics of Variable Pitch Fans With Inlet...][research_ma_hall_2024]
 - [Spectral feature extraction of rocket exhaust plume using...][research_sun_niu_2024]
 - [Stall Warning and Adaptive Control Subjected to Rotating...][research_li_liu_2024]
@@ -7119,12 +6800,10 @@ course.
 - [The numerical simulation and test verification of the inlet...][research_wu_li_2024]
 - [Validatation of the time-space collocation method in...][research_wu_du_2024]
 - [A Flow Physics Approach to Determining Critical Angle of...][research_bond_key_2025]
-- [A bridge-based ship exhaust monitoring method in the Yangtze...][research_zhou_li_2025]
 - [A review on aero-engine inlet-compressor integration and...][research_li_sun_2025]
 - [Aerodynamics Performance Analysis of Serpentine Hypersonic...][research_terade_shriyan_2025]
 - [Analysis of Radial Inlet Distortion on Transonic Fan...][research_reedy_gorrell_2025]
 - [Application of Neural Network Models for Analyzing the Impact...][research_kozakiewicz_adamczyk_2025]
-- [Concurrent optimization of laser scanning path and structural...][research_huang_xiong_2025]
 - [Design and analysis of an aeroengine inlet total pressure...][research_yang_da_2025]
 - [Discovery, interpretation, and model-based judgment of a...][research_qiao_chu_2025]
 - [Effect of airframe/inlet integration on inlet performance][research_bai_deng_2025]
@@ -7138,11 +6817,9 @@ course.
 - [Mitigation of Circumferential Inlet Distortion Effects Using...][research_kramer_hall_2025]
 - [Model-Based Systems Engineering Approach for a Systematic...][research_jagtap_strehlow_2025]
 - [Multiphysics Coupled Modeling of Aero-Engine Aerodynamic...][research_zhao_li_2025]
-- [Numerical Investigation of Thermal Performance in Liquid...][research_chadi_belghar_2025]
 - [Numerical Investigation on the Interaction between Fighter...][research_kim_choi_2025]
 - [On the evolution of the unstart flow during the variable...][research_yang_xie_2025]
 - [Plume Characterization of Electrodeless Plasma Thruster with...][research_andronov_shumeiko_2025]
-- [Plume-ridge interaction unravels the origin of 3 He/ 4 He...][research_guo_stuart_2025]
 - [Research on Axisymmetric Vectoring Exhaust Nozzle Dynamic...][research_research_on_2025]
 - [Research on the Anti-Distortion Fan Stator Based on...][research_bai_yu_2025]
 - [Response and stall mechanism for axial compressor under...][research_ma_wang_2025]
@@ -7168,7 +6845,6 @@ course.
 - [Influence of inlet distortion on stall inception in...][research_yuan_lu_2026]
 - [Method for Improving Inlet Flow Quality][research_shmilovich_yadlin_2026]
 - [Mitigation of Circumferential Inlet Distortion Effects Using...][research_kramer_hall_2026]
-- [Molecular Dynamics Study of the Wetting Behavior of Biodiesel...][research_liu_zhang_2026]
 - [Numerical Evaluation of Morphing Busemann Inlet at Off-Design...][research_madhvaraju_snider_2026]
 - [Numerical Study on Distortion at the Nacelle Inlet Under...][research_kokubo_oba_2026]
 - [Prediction of the radiative base heating from the solid...][research_kim_kim_2026]
@@ -7184,7 +6860,6 @@ chosen knowing it was brittle. The modern literature on high-temperature composi
 structures is the continuation.
 
 - [Fatigue Tests and Aircraft Life Evaluation][research_haas_1955]
-- [Crystal Structure of Delta-Prime Plutonium And the Thermal...][research_ellinger_1956]
 - [Breaking Strength and Endurance Testing of Aircraft Control...][research_smith_1967]
 - [Analytical Design Methods for Aircraft Structural Joints][research_mccombs_mcqueen_1968]
 - [A fighter against fatigue][research_venetskii_1969]
@@ -7195,11 +6870,7 @@ structures is the continuation.
 - [Buckling and Failure of Flat Stiffened Panels][research_yusuff_1976]
 - [A-37B Fatigue Sensor Evaluation Program - Full Scale Test and...][research_walker_kaufman_1977]
 - [Directional Structures for Advanced Aircraft Turbine Blades][research_duhl_thompson_1977]
-- [Structure of Unstable Particle Scattering Amplitude from...][research_kanai_nakamura_1978]
-- [Measures Applied to Combat Thermal Stress in Poultry under...][research_oluyemi_adebanjo_1979]
 - [Data Acquisition for Aircraft Structure Tests][research_data_acquisition_1980]
-- [The Estimation Of Natural Frequencies And Damping Ratios Of...][research_campbell_vandiver_1980]
-- [Time Structured Rates An Alternative to Specific Commodity...][research_clarke_1980]
 - [V-Belt Reliability A Statistical Study of Large Sample Size...][research_shepherd_jackson_1980]
 - [of Forward Swept Composite Wings Divergence][research_weisshaar_1980]
 - [Effect of Fighter Attack Spectrum on Composite Fatigue Life][research_badaliance_dill_1981]
@@ -7212,14 +6883,11 @@ structures is the continuation.
 - [Divergence speed degradation of forward-swept wings with...][research_eastep_venkayya_1984]
 - [A dynamic tire/soil contact surface interacting model for...][research_pi_1985]
 - [Flutter and divergence aeroelastic characteristics for...][research_lottati_1985]
-- [Contribution to the study of labile structures in PVC][research_simon_martinez_1986]
 - [Dynamic interactions between active control systems and a...][research_freymann_1986]
-- [Knowledge of Battle Fatigue Among Division Combat Medics and...][research_garland_robichaud_1987]
 - [Structural influence of the cabin floor on sound transmission...][research_fuller_1987]
 - [Active vibration control synthesis for the control of...][research_wie_1988]
 - [General formulation for the aeroelastic divergence of...][research_librescu_simovich_1988]
 - [Integrating nonlinear aerodynamic and structural analysis for...][research_tatum_giles_1988]
-- [Simulation of ionic structure in lean and...][research_brown_eraslan_1988]
 - [Structure-borne noise control for propeller aircraft][research_unruh_1988]
 - [Structures and Trends in Design of Flight Control Systems for...][research_omlor_radunz_1988]
 - [Supportability of composite airframes The Lavi fighter...][research_segal_1988]
@@ -7227,27 +6895,19 @@ structures is the continuation.
 - [Aeroelastic stability of aircraft with circulation control...][research_haas_chopra_1989]
 - [Comment on 'General formulation of the aeroelastic divergence...][research_rodden_1989_b]
 - [Computational analysis of a stability robustness margin for...][research_wedell_chuang_1989]
-- [Improvement of Langmuir-Blodgett film structure by dynamic...][research_nakayama_egusa_1989]
 - [Influence of Joint Fixity on the Structural Static and...][research_lin_jhou_1989]
-- [The Monte-Carlo simulation of random stacking faults in...][research_bogdan_alexander_1989]
 - [Integrated structure/control concepts for oblique wing roll...][research_weisshaar_1990]
-- [Simulation of Composite Optical Properties Close to...][research_brouers_clerc_1990]
-- [A simulation model to assess primary production and use of...][research_lopeztirado_jones_1991]
 - [Analytical studies on static aeroelastic behavior of...][research_librescu_thangjitham_1991]
 - [Buffet induced structural/flight-control system interaction...][research_voracek_clarke_1991]
 - [Free vibration and aeroelastic divergence of aircraft wings...][research_song_librescu_1991]
 - [Influence of static and dynamic aeroelastic constraints on...][research_striz_eastep_1991]
 - [Robust Stability Analysis with Structured Norm Bounded...][research_kaminer_khargonekar_1991]
-- [A Novel Device Structure of Vertical Multiple Quantum Well...][research_yamaguchi_tada_1992]
 - [Nutational divergence time constant of a spinning...][research_klajn_gur_1992]
 - [34th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics...][research_americaninstituteofaeronauticsandastronautics_1993]
 - [Application of structured singular value synthesis to a...][research_sparks_banda_1993]
-- [Computer Simulation of Free-Surfaces in Close-Packed...][research_fernandez_monti_1993]
 - [Control of Large Space Structures with Varying Configuration][research_meirovitch_1993_b]
-- [Identification of Vehicle-Driver Stability Domain using Human...][research_habib_1993]
 - [On the Static Stability of Forward Swept Propfans][research_srivastava_1993]
 - [Probabilistically Configured Adaptve Composite Structures][research_shiao_chamis_1993]
-- [Saturation Control of Buildings with Amd of Bounded Capacities][research_bhartia_nagashima_1993]
 - [An analysis of warping effects on the static and dynamic...][research_rahematpura_hooper_1994]
 - [Buffet-induced structural/flight-control system interaction...][research_voracek_clarke_1994]
 - [Control/structure design optimization using covariance...][research_layton_peterson_1994]
@@ -7259,20 +6919,16 @@ structures is the continuation.
 - [Aeroelastic analysis of a flexible control surface with...][research_lee_kim_1995]
 - [Optimum jack loads for static and fatigue tests][research_austin_balderes_1995]
 - [Reduction of vertical tail buffet response using active...][research_hauch_jacobs_1995]
-- [Variable Structure Control of a Static Var Compensator for...][research_collins_patton_1995]
 - [Flight control design optimization with respect to flight and...][research_becker_luber_1996]
 - [Integrated Control Using the SOFFT Control Structure][research_halyonesim_1996]
 - [Investigation of failures in gas turbines. II. Engineering...][research_investigation_of_1996]
 - [Lyapunov analysis of the approximate motion equations of...][research_indri_tornambe_1996]
-- [Saturation control of a dc motor][research_oueini_nayfeh_1996]
 - [Site Assessment Report for F-16 Crash Site Albany County...][research_operationaltechnologiescorpsanantoniotx_1996]
 - [Static Aeroelastic Considerations][research_static_aeroelastic_1996]
 - [Structural dynamics-CFD interaction for computation of...][research_kandil_massey_1996]
 - [Multivariable Active Lifting Surface Control Using Strain...][research_lazarus_crawley_1997]
 - [A Bayesian analysis of ratios of proportions in...][research_iii_1998]
-- [Follow-On Development of Structured Training for the Close...][research_deatz_forrest_1998]
 - [Spatial characteristics of F/A-18 vertical tail buffet...][research_moses_shah_1998]
-- [Structured Training for Units in the Close Combat Tactical...][research_flynn_campbell_1998]
 - [Time varying effects on the buffet response of a scaled...][research_liguore_drouin_1998]
 - [Variable Structure Adaptive Control of Wing-Rock Motion of...][research_araujo_singh_1998]
 - [Development of a Bonded Repair for the F-16 FS479 Bulkhead...][research_kerr_ruddy_1999]
@@ -7281,21 +6937,17 @@ structures is the continuation.
 - [Design of missile guidance law via variable structure control][research_moon_kim_2000]
 - [Procedures For Submitting Flight Loads, Launch, and Landing...][research_navalairsystemscommandpatuxentrivermd_2000]
 - [Quantitative Nondestructive Evaluation and Reliability...][research_sutin_2000]
-- [Coherent Structures and Chaos Control in High-Power Microwave...][research_nachman_chen_2006]
 - [Investigation and Root Cause Analysis Guideline for...][research_brausch_butkus_2007]
 - [Final Environmental Assessment Proposed Composite Aircraft...][research_klein_winn_2008]
-- [Coherent Structures and Chaos Control in High-Power Microwave...][research_chen_2009]
 - [Faculty Opinions recommendation of Fatigue and stimulant use...][research_grunberg_2010]
 - [Linear Quadratic Tracking Design for a Generic Transport...][research_burkenjohnj_frostsusana_2011]
 
 - [A Coupled Lateral/Directional Flight Dynamics and Structural...][research_juhasz_tischler_2015]
 - [A multi-objective, multidisciplinary design optimization...][research_fazeley_taei_2015]
 - [A review of the catalytic oxidation of carbon carbon...][research_bevilacqua_babutskyi_2015]
-- [Adjustable water contact angle by nano composite structure...][research_lee_choi_2015]
 - [Aeroelastic Analysis and Optimization of Flexible Wing...][research_mallik_kapania_2015]
 - [Aircraft Composite Structure Preventive Maintenance][research_cot_mukherjee_2015]
 - [Composite Nanofibers for Structural Health Monitoring][research_servati_soltanian_2015]
-- [Control of structural and mechanical properties in bioceramic...][research_vlasea_pilliar_2015]
 - [Damage Evaluation for Aircraft CFRP Components Using...][research_austin_elbatanouny_2015]
 - [Damage Imaging of Aircraft Composite Structure Based on 2-D...][research_qiu_yuan_2015]
 - [Design of Embedded FBG Sensor System for Ultralight Aircraft...][research_dvorak_ruzicka_2015]
@@ -7317,7 +6969,6 @@ structures is the continuation.
 - [SHM Certification Requirements for Military Aircraft An...][research_galea_rajic_2015]
 - [Strong Interference Denoising Method for the Multiple Damage...][research_dong_yuan_2015]
 - [Structural Health Monitoring Platform for Sensorised...][research_sharifkhodaei_thiene_2015]
-- [Structural phase transitions of C60 under high-pressure and...][research_alvarezmurga_hodeau_2015]
 - [The Evaluation of Aerodynamic Interaction of Wind Blade Using...][research_lee_huque_2015]
 - [Thermal vibration characteristics of fiber-reinforced mullite...][research_zhang_yu_2015]
 - [Unsteady Aerodynamic Simulation of Supersonic Flexible...][research_kimata_taguchi_2015]
@@ -7330,15 +6981,12 @@ structures is the continuation.
 - [Control Oriented Aeroservoelastic Modeling of a Small...][research_danowsky_lieu_2016]
 - [Conversion of hydrocarbon fuel in thermal protection reactors...][research_kuranov_mikhaylov_2016]
 - [Effect of vortex shedding in unsteady aerodynamic forces for...][research_villegas_diez_2016]
-- [Energy reverse transmission analysis of collaborative...][research_zhao_jiao_2016]
 - [Experimental and Numerical Simulation of a Contact Induced...][research_batailly_agrapart_2016]
 - [Fault Diagnosis on an Aircraft Engine Model Equipped With...][research_ambur_zhao_2016]
 - [Hybrid evasion strategy against a missile with guidance law...][research_turetsky_shima_2016_b]
 - [Lightning Strike Protection of Aircraft Composite Structures...][research_katunin_2016]
 - [Modal content-based damage indicators for disbonds in...][research_ren_lissenden_2016]
 - [Model-Predictive Control of Flexible Aircraft Dynamics using...][research_wang_wynn_2016]
-- [Neural structures involved in visual search guidance by...][research_pollmann_estocinova_2016]
-- [Numerical simulation of tuned liquid tank- structure systems...][research_eswaran_reddy_2016]
 - [Numerical study of body shape and wing flexibility in fluid...][research_nita_nolan_2016]
 - [On the use of microwave microscopy for detecting defects in...][research_rufail_laurin_2016]
 - [Probabilistic Gust Loads Analysis Accounting for...][research_wu_livne_2016]
@@ -7368,7 +7016,6 @@ structures is the continuation.
 - [Investigations on LM6 metal matrix composite with...][research_rathnaraj_sathish_2017]
 - [Mixed-structure control system for an unconventional...][research_fan_xiang_2017]
 - [Multifunctional Skin based on Spiral Passive Electromagnetic...][research_iervolino_meo_2017]
-- [Numerical simulation of Vortex Induced Piezoelectric Energy...][research_an_song_2017]
 - [Operational Load Monitoring System Implementation for...][research_kurnyta_zielinski_2017]
 - [Optical Fiber Sensor Based Aircraft Structural Health...][research_mamizu_kuraishi_2017]
 - [Structural Health Management of Damaged Aircraft Structures...][research_seshadri_krishnamurthy_2017]
@@ -7390,21 +7037,17 @@ structures is the continuation.
 - [Formation of Composite Material Fiber-Reinforced Structure...][research_zubashchenko_2018_b]
 - [Gaussian mixture model based path-synthesis accumulation...][research_ren_qiu_2018]
 - [High stability carbon/carbon telescope structure][research_bailly_cornu_2018]
-- [Integrated vehicle chassis control for active front steering...][research_zhang_li_2018]
 - [Method of Fundamental Solution in Thermoelasticity of Random...][research_buryachenko_2018]
 - [Model predictive control of piezo-actuated structures using...][research_rosenzweig_kater_2018]
 - [Numerical simulation of three-dimensional vortical structures...][research_suzuki_yoshida_2018]
 - [Optimization of Structure of Carbon-carbon Composite...][research_kolesnikov_2018]
 - [Optical Techniques For the Analysis of Outgassing of...][research_carr_clark_2018]
-- [Optimized Bending Stable Carbon Nanotube - Polymer Composite...][research_zhang_yeow_2018]
 - [Sensor Composite Faults Estimation and Control for Hypersonic...][research_jiang_chen_2018]
 - [Stress-deflection angle measurement of the aircraft wings...][research_tian_li_2018_b]
 - [Structural Sizing of Aircraft Wings and Fuselages in...][research_kao_white_2018]
 - [Structural abstraction for model-based diagnosis with a...][research_elimelech_stern_2018]
-- [Structure Optimization of Optical Fiber Composite Low Voltage...][research_sun_chen_2018]
 - [The Formation of the Fibrous-reinforced Composite Structure...][research_zubashchenko_2018]
 - [Topology optimization of a novel fuselage structure in the...][research_liu_zhang_2018_b]
-- [Variable-Angle Total Internal Reflection Fluorescence...][research_elarawi_vezy_2018]
 - [A Flexible and Lightweight Impact Monitoring System with...][research_qiu_lin_2019]
 - [A Large-scale and Lightweight Piezoelectric Sensor Network...][research_wang_qiu_2019_b]
 - [A stretchable and large-scale guided wave sensor network for...][research_wang_qiu_2019]
@@ -7423,12 +7066,10 @@ structures is the continuation.
 - [Numerical buckling analysis of graded CNT-reinforced...][research_mehar_kumarpanda_2019]
 - [Prediction Model for the Anisotropic Thermal Conductivity of...][research_tu_mao_2019]
 - [Real-Time Impact Identification by Using Acceleration...][research_goutaudier_gendre_2019]
-- [Sandwich Panel Composite Based Light-Weight Structure Design...][research_irawan_santosa_2019]
 - [Structural Health Monitoring for Aerospace Composite...][research_hadjria_dalmeida_2019]
 - [Systematic multiparameter design methodology for an...][research_ochoa_groves_2019]
 - [The Effect of Mounting Structure and Piezoelectric Pressure...][research_gao_lin_2019]
 - [Thermal Numerical Analysis of the Primary Composite Structure...][research_piedra_torres_2019]
-- [Universal modeling of unsteady airflow in different hoistway...][research_zhang_qiao_2019]
 - [Additive manufacturing-driven design optimization Building...][research_li_yuan_2020]
 - [Composite Smooth Control Method for Low-Thrust Trajectory...][research_taheri_2020]
 - [Controllability Gramian as Control Design Objective in...][research_gupta_zhao_2020]
@@ -7439,7 +7080,6 @@ structures is the continuation.
 - [Dynamic and fluid-structure interaction simulations of a...][research_han_gao_2020]
 - [Experimental Study of the Complex Vortical Flow Structures...][research_kumar_mandal_2020]
 - [Erosion Testing of Environmental Barrier-Coated Ceramic...][research_okita_mizokami_2020]
-- [Expanded graphite Paraffin composite phase change materials...][research_zhao_jin_2020]
 - [High-bandwidth open-loop motion control of a...][research_yang_zhu_2020]
 - [Identification of nonlinear aerodynamic systems with...][research_liu_gao_2020]
 - [In-situ monitoring of liquid composite molding process using...][research_qing_liu_2020]
@@ -7447,10 +7087,7 @@ structures is the continuation.
 - [Integrated Aircraft Risk Analysis Framework for Health...][research_steinweg_hornung_2020]
 - [Long-range impact localization with a frequency domain...][research_goutaudier_gendre_2020]
 - [Naturally architected microstructures in structural materials...][research_traxel_bandyopadhyay_2020]
-- [Patterns of the formation of the structure and properties of...][research_gordienko_derevyagina_2020]
 - [Propagation of transient elastic waves in multilayered...][research_zhou_shui_2020]
-- [Relating reactivity to structure in cokes and carbon...][research_andreoli_eser_2020]
-- [Study on Method for Weak Part Identification of Dynamic...][research_wu_lu_2020]
 - [Suppression of vortex-induced vibration of single-box girder...][research_yang_chen_2020]
 - [Vortex generator’s effect on trailing edge vortex shedding...][research_besirovic_sagmo_2020]
 - [Wake topology and dynamics over a slender body at a high...][research_yuan_yarusevych_2020]
@@ -7460,7 +7097,6 @@ structures is the continuation.
 - [Conceptual Multifunctional Design, Feasibility and...][research_nguyen_millereux_2021]
 - [Coupled Adjoint Fluid-Structure Interaction Technique for...][research_tsiakas_roge_2021]
 - [Crashworthiness Loads for Conceptual Design Structural Sizing...][research_winter_robinson_2021]
-- [Critical heat flux enhancement using composite porous...][research_liu_zhang_2021]
 - [Determinant Search Method for the Large Structural Systems...][research_seena_2021]
 - [Development of TPU/CNPs flexible composite strain sensors...][research_ahmed_nauman_2021]
 - [Effect of Interfacial Structure on Mechanical Properties of...][research_wang_zhao_2021_b]
@@ -7474,13 +7110,11 @@ structures is the continuation.
 - [Multilayer structural epoxy composite coating towards...][research_song_yan_2021]
 - [Prediction of Airframe Thermal Stresses for Hybrid...][research_norwood_schneberger_2021]
 - [Progressive Failure Prediction of a Notched Ceramic Matrix...][research_roach_zhang_2021]
-- [Psychological Structure of Human Trust Toward Autonomous...][research_park_park_2021_b]
 - [Recent progress in aircraft smart skin for structural health...][research_wang_hu_2021_c]
 - [Structural Design Synthesis of Aircraft Engine Pylons at...][research_stefanovic_livne_2021]
 - [Structural control of asymmetric forebody vortices over a...][research_zong_wang_2021]
 - [Study on Aircraft Lightweight fuselage Structure Design Using...][research_khudaybergenov_2021]
 - [Study on the mechanical performances of carbon fiber/epoxy...][research_jia_wang_2021]
-- [Thermal Analysis of Nickel Alloy/AL2O3/TIO2 Hybrid Metal...][research_kumaraswamy_kumar_2021]
 - [The Effect of Attack Angle On The Vibration Suppression Of...][research_kadhem_hussein_2021]
 - [Unsteady Interaction of Aerodynamics with Wing Structure in...][research_qin_2021]
 - [Video Effect of angle of attack on flow structures on the...][research_kumar_mandal_2021_b]
@@ -7504,7 +7138,6 @@ structures is the continuation.
 - [On the Challenges of Upscaling Damage Monitoring...][research_broer_yue_2022]
 - [Optimization of Active and Passive Thermal Protection Systems...][research_marley_driscoll_2022]
 - [Optimization of a multi-layered heater for an electro-thermal...][research_gallia_martuffo_2022]
-- [Pore structure changes in free-standing single-wall carbon...][research_kamijyou_kukobat_2022]
 - [Retrofitting Potentials in Aircraft Structural Health...][research_buchter_koops_2022]
 - [Risk Management System Associated with Fatigue in the Flight...][research_guziy_kostina_2022]
 - [Simulation of the Active Thermal Control of Aircraft Products...][research_kotovshchikov_2022]
@@ -7514,16 +7147,13 @@ structures is the continuation.
 - [Structural health monitoring for light aircraft][research_karuskevich_maslak_2022]
 - [The Need for Multi-Sensor Data Fusion in Structural Health...][research_broer_benedictus_2022]
 - [Thermal analysis of composite beam structure based on a...][research_ibouroi_vidal_2022]
-- [Thermo-Mechanical Behavior of Multi-Layer Deposition for Wire...][research_kumar_bag_2022]
 - [Vortical Wake Structure Downstream of a Finite-span Wing][research_stepanov_kusyumov_2022]
-- [Vibration analysis of composite exhaust manifold for diesel...][research_kumar_razak_2022]
 - [A Meta-Model for composite wingbox sizing in aircraft...][research_toffol_ricci_2023]
 - [A design and optimisation framework for cold spray additive...][research_lomo_patel_2023]
 - [Aircraft Turbofan Engine Linear Model Additive Static...][research_aircraft_turbofan_engine_2023]
 - [Application of Carbon-carbon Composite Materials for the...][research_hurin_nevlyudov_2023]
 - [Architected Cellular Materials for Aerospace Components...][research_rastegarzadeh_huang_2023]
 - [Design and optimization study of discrete inclined ribs...][research_qiao_liu_2023]
-- [Development and Technological Strategy of Intelligent Ground...][research_kim_kim_2023_b]
 - [Development of a Bio-Inspired Sweeping Wing Structure by...][research_soydas_peel_2023]
 - [Development of conductive lightweight nanofiber reinforced...][research_jahan_kelkar_2023]
 - [Effect of Typical Aircraft Design Requirements on the...][research_tumpak_leonard_2023]
@@ -7535,16 +7165,13 @@ structures is the continuation.
 - [Hot-Zone Design of Carbon/Carbon-Metal Sandwich Structure...][research_huang_zhang_2023]
 - [LS-Dyna Impact Modelling on Carbon Fibre Reinforced Polymers...][research_ravinath_wessley_2023]
 - [Manufacturing and Structural Analysis of a Composite Sandwich...][research_kumar_supale_2023]
-- [Micro and macroscopic structure evolution of few-walled...][research_kobashi_yamazaki_2023]
 - [On the structure of the Ti-Si-C-based composite obtained by...][research_larionova_nikonova_2023]
-- [Processing and structural health monitoring of a composite...][research_rocha_antunes_2023]
 - [Real-time structural validation for material extrusion...][research_fu_downey_2023]
 - [Robust shape optimization under model uncertainty of an...][research_demir_gorguluarslan_2023]
 - [Structural Requirements for Design and Analysis of 25% Scale...][research_miller_jansen_2023]
 - [Study on Fluid Structure Interaction of a Camber Morphing Wing][research_wang_lei_2023]
 - [Testing of different materials for composite aircraft...][research_simelane_magoro_2023]
 - [Thermal Simulations of a Composite Grid Structure Boom for...][research_scigliano_desimone_2023]
-- [Thermal response of high-speed train multi-layer composite...][research_gao_yuan_2023]
 - [Three components strain-gauge type aircraft surface friction...][research_liu_pang_2023]
 - [Time series analysis and sparse sensor network-based impact...][research_wang_wang_2023_b]
 - [Advanced NDT inspection approach for aircraft composite panels][research_plastropoulos_torbali_2024]
@@ -7555,20 +7182,16 @@ structures is the continuation.
 - [Enhancement of sound transmission through an aircraft...][research_moustafa_talebitooti_2024]
 - [Evaluating Reduced-Order Methods for Hypersonic Vehicle...][research_portis_dambrosio_2024]
 - [Experimental investigation on transpiration cooling of...][research_wang_song_2024]
-- [Exploring disparities in employment location and structure...][research_zhou_xue_2024]
 - [Frf-based Probabilistic Model Updating in Structural Dynamics...][research_arora_friswell_2024]
 - [Influence of Oxidation Temperature on the Tensile Behaviour...][research_zubiaurre_lunghi_2024]
 - [Innovative welding integration of acousto-ultrasonic...][research_galiana_moradi_2024]
 - [Multi-frequency probabilistic imaging fusion for impact...][research_deng_zeng_2024]
-- [Multiphysics Analysis of Carbon Composite Structural Batteries][research_gujrathi_2024]
 - [Multiple-input, multiple-output modal testing of a Hawk T1A...][research_wilson_champneys_2024]
 - [Research progress of transpiration cooling for aircraft...][research_mi_yi_2024]
-- [Response of a slender structure subject to stochastic ground...][research_olawale_george_2024]
 - [Revolutionizing Additive Manufacturing Advancing Elongated...][research_hosur_soydas_2024]
 - [Specifics of Numerical Simulation of Vortex Structure in...][research_bosnyakov_wolkov_2024]
 - [Smooth Particle Hydrodynamic Code Predictions for Meteoroid...][research_corbett_williamsen_2024]
 - [Structurization of information flows for optimal design of...][research_bondar_2024]
-- [Ultrathin carbon nanosheets with carbon composite structure...][research_ning_qiu_2024]
 - [Visualization of the Vortex Structures Effect on the...][research_konstantinovskaya_borisov_2024]
 - [A comprehensive review on friction stir additive...][research_bozkurt_avsar_2025]
 - [A jackfruit-inspired ultralight high load-bearing...][research_cao_qing_2025]
@@ -7583,9 +7206,7 @@ structures is the continuation.
 - [Efficient multi-objective optimization of composite...][research_distelfeld_osovski_2025]
 - [Experimental study on the thermal transfer characteristics of...][research_wang_zhao_2025]
 - [Formalization of Criteria for the Multi-parametric Selection...][research_burova_2025]
-- [Gradient Structure Construction of High Thermal Conductivity...][research_miao_li_2025]
 - [History and Challenges for Structural Health Monitoring SHM...][research_lindgren_2025]
-- [Impact of Cycling on the Structure of Crystal...][research_anjum_niemi_2025]
 - [Improve Aircraft Structure Safety by Reinforcing the Critical...][research_dong_sato_2025]
 - [Low-Cost Strain-Gauge Force-Sensing Sidestick for 6-DoF...][research_rozic_vrdoljak_2025]
 - [Measurement of Fluid Structure Strengthening in a Sandwich...][research_maestas_ghosh_2025]
@@ -7594,14 +7215,11 @@ structures is the continuation.
 - [Modelling Dynamics of Highly Flexible Aircraft Using a...][research_tuzcu_nguyen_2025]
 - [Modelling, structural analysis and additive manufacturing of...][research_tejaswini_kumar_2025]
 - [Multi Parameter SHM System for Damage Detection in Real Scale...][research_memmolo_monaco_2025]
-- [Multi-Agent Cooperative Perception A Structural Evaluation...][research_wu_wang_2025]
 - [Numerical study on thermal protection of turbofan engine...][research_hou_wang_2025]
 - [Numerical study on unsteady flow behaviors of a rotating body...][research_li_2025_b]
 - [Robust Rotor Dynamic Design Evaluation of Turbine-Generators...][research_chasalevris_gavalas_2025]
 - [Simulation Study on Compression Properties of Needle-Punched...][research_wang_han_2025]
 - [Structural damage detection on non-isotropic composite plates...][research_kong_jeon_2025]
-- [Structure optimization of a polygonal automobile exhaust...][research_quan_zhou_2025]
-- [T5.1.4 - Room Temperature CO2 Gas Sensor Based on Carbon...][research_mlaera_cassano_2025]
 - [The Parametric Analysis of Flow Control Methods for Forebody...][research_wang_zhang_2025_b]
 - [The Role of Artificial Intelligence AI and Future...][research_ziakkas_henneberry_2025]
 - [Toward sustainable additive manufacturing of PEKK/Martian...][research_malekpour_abdali_2025]
@@ -7614,14 +7232,11 @@ structures is the continuation.
 - [Additive technologies research, application in the design and...][research_marynoshenko_chornyi_2026]
 - [Atomistic Simulation of the Impact of Water Droplet on...][research_roy_alamin_2026]
 - [BI-Sandwich a cross-domain model for fault diagnosis of...][research_su_kong_2026]
-- [Cavity structure of aerodynamic braking devices and influence...][research_wang_feng_2026]
 - [Composite Structure Enabling an Efficient Lunar Surface...][research_ziglar_2026]
-- [Decision Tree Model based Fault Diagnosis Method for New...][research_lin_2026]
 - [Determination of Acceptance Criteria for Aircraft Wet-Molding...][research_zheng_lu_2026]
 - [Domain adaptive relational graph convolutional network for...][research_xu_liu_2026]
 - [Dynamic characteristics and stress distribution of...][research_li_han_2026]
 - [Experimental and numerical investigation on strain-based...][research_zhou_guan_2026]
-- [From vortex shedding to Vortex-Induced Vibrations The role of...][research_catania_pomaranzi_2026]
 - [Long-term oxidation resistance and reusability of a...][research_huang_lu_2026]
 - [Measurement of Fluid Structure Strengthening in a Sandwich...][research_maestas_ghosh_2026]
 - [Model predictive control of piezoelectric intelligent curved...][research_wasim_li_2026]
@@ -7656,12 +7271,9 @@ did. An aircraft that can point its seeker without pointing itself does not need
 - [Helmet mounted display supporting helicopter missions during...][research_lueken_doehler_2016]
 - [Helmet-mounted eye control system for pupil recognition and...][research_xiong_peng_2016]
 - [Application of large head-box aircraft transparency...][research_fischler_campbell_2017]
-- [Approach for combat capability requirement generation and...][research_xu_wang_2017]
 - [Helmet-Mounted Attitude Control Algorithms of the...][research_szelmanowski_pazur_2017]
 - [Numerical Simulation of the Muzzle Flowfield of Embedded...][research_zeqing_haitao_2017]
 - [Preventing Rendering Speed Degradation for Helmet Mounted...][research_lim_lee_2017]
-- [Automatic Target Detecting and Shooting Gun Using Pir Sensor][research_automatic_target_2018]
-- [Mouthguard-based wireless high-bandwidth helmet-mounted...][research_lund_paris_2018]
 - [Implementation of Helmet Mounted Display system to Control...][research_kumar_raghuwanshi_2020]
 - [Methodology for developing a conceptual design of radar...][research_druzin_gorevich_2020]
 - [Simulation of Missile Launch Using Sukhoi SU-35 and Vympel...][research_dagomes_retnowati_2020]
@@ -7672,12 +7284,10 @@ did. An aircraft that can point its seeker without pointing itself does not need
 - [Modeling and Theoretical Design of Missile Launch System...][research_chhavi_ramanan_2023]
 - [Target-Interception Feasibility Assessment Methodology for...][research_katukuri_2023]
 - [Weapon Systems and Missions Specific to the F16 Aircraft in...][research_circiu_mihai_2023]
-- [On-Field Evaluation of Mouthpiece-and-Helmet-Mounted Sensor...][research_holcomb_marks_2024]
 - [Simulation of Launch Pad Atomization for Military Weapon...][research_vijayanaher_2024]
 - [The Problem of Training the Aircrew of Army Aviation to...][research_the_problem_of_2024]
 - [The Turreted Gun System Technology Integrated To The Helmet...][research_caliskan_sakarya_2024]
 - [Design and Optimization of a Conformal 433 MHz Helmet-Mounted...][research_ramli_bashri_2025]
-- [Helmet Head Decoupling in Ice Hockey Impacts An In-lab...][research_sciacca_ionescu_2025]
 - [System identification of a thrust-vectoring...][research_denton_benedict_2025]
 - [DRAMS Threat and Role of Ground Based Air Defence Weapon...][research_baloni_bhullar_2026]
 - [Design and structural analysis of a modular and automated...][research_demirel_demirci_2026]
@@ -7703,19 +7313,14 @@ did. An aircraft that can point its seeker without pointing itself does not need
 - [H&lt inf&gt ∞&lt /inf&gt Robust Adaptive Controller for a...][research_jie_2018]
 - [Robust Gain-scheduled Controller Design with a Hierarchical...][research_guo_scherer_2018]
 - [Sensor redundancy based FDI using an LPV sliding mode observer][research_chen_edwards_2018]
-- [Gain-Scheduled Controller Design for Cooperative Adaptive...][research_jain_roy_2019]
 - [LPV Modeling and Identification of Unsteady Aerodynamics for...][research_zhang_xia_2019]
 - [Robust PI, gain scheduled and PSS controller design using LMI...][research_vesely_murgas_2019]
 - [Smooth-switching LPV control for vibration suppression of a...][research_he_zhu_2019]
 - [Flower Pollination Optimization Based PID Controller Tuning...][research_sudha_subbulekshmi_2020]
 - [Gain-scheduled ℋ∞ controller synthesis for LPV systems...][research_levano_oliveira_2020]
 - [Direct tuning of gain-scheduled controller for...][research_yahagi_kajiwara_2021]
-- [Dynamic Improvement of Hydraulic Excavator Using Pressure...][research_jose_das_2021]
 - [Research on a Passenger Aircraft Flight Control System Gain...][research_guo_2021_b]
-- [Symmetrical Pole Placement Method-Based Unity Proportional...][research_yanarates_zhou_2021]
-- [Unity Proportional Gain Resonant and Gain Scheduled...][research_yanarates_wang_2021]
 - [Fault tolerant linear parameter varying flight control...][research_marcos_waitman_2022]
-- [Optimization of Gain Scheduled Controller for an Active...][research_qureshi_liscano_2022]
 - [Real-Time Level Control of Spherical Tank Process using Gain...][research_vinodhini_2022]
 - [Accelerated Flight Envelope Expansion Using Near Real Time...][research_patel_deodhare_2023]
 - [Noniterative Data-Driven Gain-Scheduled Controller Design...][research_yahagi_kajiwara_2023]
@@ -7829,7 +7434,6 @@ did. An aircraft that can point its seeker without pointing itself does not need
 - [Modelling and Handling Quality Assessment of the Flying-V...][research_vanovereem_wang_2022]
 - [Prospective Means for the Aircraft Pilot Induced Oscillation...][research_efremov_shcherbakov_2022]
 - [The Investigation of Sidestick Gradient Effects on Handling...][research_erturk_ozkan_2022]
-- [Valve control of a hydraulically interconnected suspension...][research_jafari_mashadi_2022]
 - [A Theoretical Basis for Adverse Aircraft-Pilot Coupling][research_bachelder_aponso_2023]
 - [A Theoretical Basis for Predicting Pilot Performance...][research_bachelder_aponso_2023_c]
 - [ADS-33 Handling Qualities Requirements in Design][research_lusardi_2023]
@@ -7959,7 +7563,6 @@ did. An aircraft that can point its seeker without pointing itself does not need
 - [Vortex generator effect and aerodynamic characteristic for...][research_vortex_generator_effect_2019]
 - [Coupled Calculations for a Canard-Finned Body with Open-Loop...][research_sahu_gruenwald_2020]
 - [Investigation of Air Flow Over Delta and Cranked Arrow Delta...][research_draz_elsaadany_2020]
-- [Numerical investigation on hydrodynamic performance of new...][research_yao_liu_2020]
 - [Numerical simulation with low artificial dissipation of...][research_rozema_kok_2020]
 - [Vortex force maps for three-dimensional unsteady flows with...][research_li_zhao_2020]
 - [Aeroelastic Trim Drag Optimization of Mach 0.745 Transonic...][research_xiong_bartels_2021]
@@ -8064,7 +7667,6 @@ did. An aircraft that can point its seeker without pointing itself does not need
 - [A Multi-Fidelity Double-Delta Wing Dataset and Empirical...][research_shen_alonso_2026]
 - [Aerodynamic Characteristics of Flat-Plate Delta Wing with...][research_trussa_whitfield_2026]
 - [Aerodynamic Performance and Vortex Structure Investigations...][research_bay_kara_2026]
-- [Detecting Canard Tori in Quadratic Jerk Systems via...][research_candido_2026]
 - [Investigation of Vortex-Dominant Flow of a Diamond Wing with...][research_hashemi_malekjafarian_2026]
 - [Mid-Fidelity Numerical Simulation of a Delta Wing-Body from...][research_shahjahan_enriquez_2026]
 - [Numerical Performance Studies on a Multi-Delta Wing Fighter...][research_schuette_ghoreyshi_2026]
@@ -8081,15 +7683,7 @@ unstable in one axis, augmented in all of them, and dependent on a measured flig
 is a control-theory object before it is anything else, and the literature that surrounds it is
 correspondingly large. The period half is listed first.
 
-- [Insurance. Liability Insurance. Right of the Insurer to...][research_insurance_liability_1918]
-- [Some Legal Aspects of Federal Control of Railways][research_hull_1918]
-- [Interstate Commerce. State Control of Animals Ferae Naturae][research_interstate_commerce_1922]
-- [Social Control of Sex Expression][research_goebel_may_1931]
-- [State Regulation of Interstate Busses. Proposed Federal...][research_state_regulation_1931]
-- [Control of Securities Selling][research_washburn_steig_1933]
 - [Lateral and Directional Control][research_alston_1936]
-- [Bankruptcy. Turnover Order. Presumption of Continued...][research_bankruptcy_turnover_1944]
-- [Bankruptcy. Turnover Order. Presumption of Continued...][research_bankruptcy_turnover_1945]
 - [Control and protection of aircraft D-C power systems][research_control_and_1946]
 - [Investigation of a Spoiler-Type Lateral Control System on a...][research_detersowenj_russellrobertt_1947]
 - [Preliminary Results of a Free-Flight Investigation of the...][research_michaldavidh_mitchamgradyl_1949]
@@ -8108,8 +7702,6 @@ correspondingly large. The period half is listed first.
 - [A Study of Longitudinal Control Problems at Low and Negative...][research_sadoffmelvin_mcfaddennormanm_1961]
 - [Noise Control for Aircraft Engine Test Cells and Ground...][research_doelling_bolt_1961_b]
 - [Noise Control for Aircraft Engine Test Cells and Ground...][research_doelling_1961]
-- [Estimated power requirements of the reactor control system][research_morris_1962]
-- [Precision Frequency Control of a High-power Millimeter...][research_steinmetz_1962]
 - [Simplified Analysis of Flexible Booster Flight Control Systems][research_hofmann_kezer_1962]
 - [A Gamma Guidance System for Helicopter Flight-formation...][research_wilcox_1963]
 - [Air Force Flight Control and Flight Display Integration...][research_gainer_1963]
@@ -8121,7 +7713,6 @@ correspondingly large. The period half is listed first.
 - [Simulator Study of Direct Lift Control During Carrier Landing...][research_douglasaircraftcolongbeachca_1963]
 - [A General Investigation of Hypersonic Stability and Control...][research_flightscienceslabincbuffalony_1964]
 - [An automatic stall prevention control for supersonic fighter...][research_cook_1964]
-- [The Bias and Moment Matrix of a Mixed Regression Estimator][research_nagar_kakwani_1964]
 - [Aerospace Vehicle Flight Control Conference, Los Angeles...][research_aerospace_vehicle_1965]
 - [An automatic stall prevention control for supersonic fighter...][research_cook_1965]
 - [Evaluation of a Mechanical Servoactuator for Flight Control...][research_knuusi_sage_1965]
@@ -8137,7 +7728,6 @@ correspondingly large. The period half is listed first.
 - [Aircraft Detection, Range Estimation, and Auditory Tracking...][research_frederickson_follettie_1967]
 - [Fire Information Requirements for Civil Defense Command and...][research_sullivan_1967]
 - [Effects of manual altitude control and other factors on...][research_stapleford_ashkenas_1968]
-- [Adaptive delta modulation][research_wing_1969]
 - [Nonlinear aerodynamic characteristics of re- entry...][research_eikenberry_ingram_1969]
 - [Research on aircraft control][research_research_on_1969]
 - [A Stability and Control Prediction Method for Helicopters and...][research_bird_1970]
@@ -8150,7 +7740,6 @@ correspondingly large. The period half is listed first.
 - [Aircraft elastic mode control][research_swaim_1971]
 - [An In-Flight Investigation of Bank-Angle Control Parameters...][research_hall_1971]
 - [Conceptual Study to Apply Advanced Flight Control Technology...][research_smith_hammer_1971]
-- [Nonlinear Pulsations of Unstable Massive Main-Sequence Stars...][research_talbot_1971]
 - [Study to Determine the Application of Aircraft...][research_drummond_1971]
 - [Combat Job Requirements for the Air Cavalry Aeroscout Pilot...][research_warnick_1972]
 - [Error analysis of hybrid aircraft inertial navigation systems][research_nashjr_dappolito_1972]
@@ -8167,7 +7756,6 @@ correspondingly large. The period half is listed first.
 - [Flight Simulator Evaluation of Control Moment Usage and...][research_vinje_1974]
 - [Tactile Display for Aircraft Control][research_rosa_sanneman_1974]
 - [Advanced Integrated Aircraft Displays and Augmented Flight...][research_roscoe_eisele_1975]
-- [Increasing Oil Recovery by Chemical Control of Producing...][research_sloat_1975]
 - [Static stability and aperiodic divergence][research_sachs_1975]
 - [Terrain Following Control Based on an Optimized Spline Model...][research_funk_1975]
 - [The effects of stability augmentation on the gust response of...][research_portermbjr_swaimrl_1975]
@@ -8179,10 +7767,8 @@ correspondingly large. The period half is listed first.
 - [On Stability of Free-Free Beams with and without Directional...][research_wu_1976]
 - [Propulsion system/flight control integration for supersonic...][research_reukaufpj_burchamfwjr_1976]
 - [Simulator study of the effectiveness of an automatic control...][research_gilbertwp_nguyenlt_1976]
-- [Control Requirements for the Design of Production System...][research_rychener_1977]
 - [Development and Application of Decision Aids for Tactical...][research_levit_heaton_1977]
 - [Dome effects on sphere cone aerodynamic characteristics][research_paolo_1977]
-- [Environmental control for Hong Kong][research_environmentalresourcesltd_1977]
 - [Flight Experience with Aircraft Time-of-Arrival Control][research_neuman_lee_1977]
 - [Optimal Control of Random Walks][research_serfozo_1977]
 - [The Evaluation of a Digital Hardware Voter/Monitor in an...][research_schreadley_1977]
@@ -8201,7 +7787,6 @@ correspondingly large. The period half is listed first.
 - [Research and Development of Control Actuation Systems for...][research_jenney_1979]
 - [Cabin Pressure Control Systems for General Aviation Aircraft][research_taylor_1980]
 - [Design, Development, and Flight Demonstration of the Loads...][research_dixon_1980]
-- [Proposal for Configuration Control for the ARPA Standard...][research_fabry_1980]
 - [Research in Advanced Flight Control Design][research_horowitz_golubev_1980]
 - [Roll Resonance Control of Angle of Attack for Reentry Vehicle...][research_platus_1980]
 - [Stability and Control Characteristics of the Aerocrane Hybrid...][research_putman_curtiss_1980]
@@ -8215,9 +7800,7 @@ correspondingly large. The period half is listed first.
 - [Active Control of Forward-Swept Wings with Divergence and...][research_griffin_eastep_1982]
 - [Aircraft Instrumentation Trend][research_aircraft_instrumentation_1982]
 - [Design and flight testing of a digital optimal control...][research_broussardjr_downingdr_1982]
-- [Hydromagnetic stability of turbulent geomagnetic tail][research_buti_1982]
 - [Improved control surface effectiveness for missiles][research_august_1982]
-- [Indecent Displays Control Act 1981][research_manchester_1982]
 - [Multivariable stability-margin optimisation with decoupling...][research_safonov_chen_1982]
 - [The graph metric for unstable plants and robustness estimates...][research_vidyasagar_1982]
 - [Unrestrained Aeroelastic Divergence in a Dynamic Stability...][research_rodden_bellinger_1982]
@@ -8230,7 +7813,6 @@ correspondingly large. The period half is listed first.
 - [Aerodynamic characteristics of missile control fins in...][research_hemschmj_nielsenjn_1983]
 - [An Improved Method for Predicting Lateral-Directional Dynamic...][research_bruner_1983]
 - [Application of optimal control synthesis to integrated...][research_munger_carlin_1983]
-- [Compulsory Birth Control and Fertility Measures in India][research_halli_1983]
 - [Control of aeroelastic divergence][research_chipman_zislin_1983]
 - [Development and validation of the V/STOL aerodynamics and...][research_walters_henderson_1983]
 - [Effect of aircraft configuration and control integration on...][research_rabenberg_palarz_1983]
@@ -8264,11 +7846,8 @@ correspondingly large. The period half is listed first.
 - [Optimal Control with Diminishing and Zero Cost for Control][research_shreve_mizel_1985]
 - [Spectral Analysis via Lag-Reshaping of the Correlation...][research_nuttall_1985]
 - [Stability of adaptive control algorithms - Theoretical...][research_walker_1985]
-- [The Static Stability of Articulated Commercial Vehicles][research_fancher_1985]
 - [Totally robust control - A new concept for design of flight...][research_robinson_1985]
 - [Unsteady surface pressure measurements on a pitching airfoil][research_unsteady_surface_1985]
-- [Use of Drillstring Models and Data Bases for the Scientific...][research_amara_1985]
-- [A WKB type analysis of marginal stability in directional...][research_sarkar_1986]
 - [A perspective on superaugmented flight control - Advantages...][research_mcruerd_johnstond_1986]
 - [Aerodynamic forces acting on parachutes in unsteady motion...][research_cockrell_harwood_1986]
 - [Aircraft Battery State of Charge and Charge Control System][research_viswanathan_charkey_1986]
@@ -8291,13 +7870,9 @@ correspondingly large. The period half is listed first.
 - [Modelling of rigid-body and elastic aircraft dynamics for...][research_calico_noll_1986]
 - [Stability and control of aircraft with manual all-moving...][research_stability_and_1986]
 - [The Dynamic Block Relative Gain and its Role in the Design of...][research_arkun_manousiouthakis_1986]
-- [The Equivalence of Non-Interacting Control System Design...][research_bequette_edgar_1986]
 - [The jet spoiler as a yaw control device][research_tavella_lee_1986]
-- [Unstable stability constants][research_goldberg_1986]
 - [A Survey of Aircraft Integrated Control Technology][research_hill_1987]
 - [Algorithms for relaxed control problems with delay][research_virk_1987]
-- [An analysis of a candidate control algorithm for a ride...][research_suikat_donaldson_1987]
-- [Configuration Control Method of a Control Configured Robot...][research_fukuda_kobayashi_1987]
 - [Differential pursuit games][research_yong_1987]
 - [Flight Tests on Propeller Noise Pressure Time History...][research_kallergis_1987]
 - [Hypersonic vehicle pitch stability measurement in a ground...][research_hutt_1987]
@@ -8307,7 +7882,6 @@ correspondingly large. The period half is listed first.
 - [On mission- and trajectory planning in an air-combat processor][research_grimm_well_1987]
 - [Periodic Model-Following For The Control-Configured Helicopter][research_mckillip_1987]
 - [The significance of error dynamics in model-following for...][research_schmidt_1987]
-- [A microprocessor-based vehicle static stability limit...][research_owen_hunter_1988]
 - [Adaptive Stability Augmentation][research_wittenmark_1988]
 - [Adaptive aircraft model-follower design][research_goodner_rao_1988]
 - [Air-combat analysis using projections of the playable set][research_cline_vincent_1988]
@@ -8317,16 +7891,12 @@ correspondingly large. The period half is listed first.
 - [Cooperative synthesis of control and display augmentation for...][research_gargsanjay_schmidtdavidk_1988]
 - [Enhanced fighter engine operability using full authority...][research_simmons_brant_1988]
 - [Experimental study of effects of forebody geometry on high...][research_brandon_nguyen_1988]
-- [Extension of Dynamic Stability Limits Static VAR Compensation...][research_hamdan_1988]
 - [Fluid dynamics of airfoils with moving surface boundary-layer...][research_moktarian_modi_1988]
 - [Influence of support oscillation in dynamic stability tests][research_beyers_1988]
 - [Investigation of the effect of variable tail dihedral on...][research_kidd_1988]
 - [On estimating aircraft nonlinear rotary derivatives from...][research_ritter_1988]
 - [Stability of airplanes in ground effect][research_staufenbiel_schlichting_1988]
 - [Static aeroelastic characteristics of circulation control...][research_haas_chopra_1988]
-- [All Terrain vehicle Lateral Stability and the Limits of...][research_deppa_hauser_1989]
-- [An Integrated Approach to Dynamic and Static Voltage Stability][research_rajagopalan_sauer_1989]
-- [Application of a New Pressure Intensifier Using Oil Hammer to...][research_suzuki_1989]
 - [Application of perfect model following to a control...][research_application_of_1989]
 - [Assessment of the effects of reconfiguration on...][research_mercadante_laurie_1989]
 - [Block noninteracting control with stability via static state...][research_grizzle_isidori_1989]
@@ -8337,13 +7907,11 @@ correspondingly large. The period half is listed first.
 - [Flight control synthesis for an unstable fighter aircraft...][research_wendel_schmidt_1989]
 - [Flight evaluation of pursuit displays for precision approach...][research_hynes_franklin_1989]
 - [High gain flight controllers for nonlinear systems][research_innocenti_1989]
-- [Improved Basis for Static Stability Analysis and Design of...][research_hale_lammert_1989]
 - [Nonlinear model following control application to a flight...][research_nonlinear_model_1989]
 - [Optical Fibre Based Sensors for Aircraft Applications][research_wood_1989]
 - [Parallel dynamic programming for on-line flight path...][research_slater_hu_1989]
 - [Properties of the Relaxed Trajectories of Evolution Equations...][research_papageorgiou_1989]
 - [Stability boundaries for aircraft with unstable...][research_shrivastava_stengel_1989]
-- [Static Stability as a Predictor of Overturn in Fatal Motor...][research_robertson_kelley_1989]
 - [The Practice of Dynamic Pressure Measurement][research_clark_1989]
 - [The dynamic seat as an angular cuing device - Control of roll...][research_cress_gilkey_1989]
 - [The pursuit of integrated control - A realtime aircraft...][research_tillman_ikeler_1989]
@@ -8358,11 +7926,8 @@ correspondingly large. The period half is listed first.
 - [Cabin noise control ground tests for ultra high bypass...][research_simpson_1990]
 - [Control of asymmetric vortical flows over delta wings at high...][research_wood_roberts_1990]
 - [Control surface effectiveness model through fin-normal...][research_oh_kimmel_1990]
-- [Dengue Vector Biology, Transmission and Control Options in...][research_reyesvillanueva_1990]
 - [Derivation of aircraft, linear state equations from implicit...][research_stevens_1990]
-- [Design of Stability Augmentation Systems for Automotive...][research_lee_1990]
 - [Dynamic Analysis of a Two-Stage Two-Spool Pressure Control...][research_tsai_akers_1990]
-- [Dynamic job scheduling with strict deadline][research_miao_luh_1990]
 - [Effect of thrust/speed dependence on long-period dynamics in...][research_sachs_1990]
 - [Eigenspace Design of Helicopter Flight Control Systems][research_garrard_low_1990]
 - [Estimate of loads during wing-vortex interactions by Munk's...][research_rossow_1990]
@@ -8370,28 +7935,16 @@ correspondingly large. The period half is listed first.
 - [Exact Linearization with Configuration Optimization][research_hsu_1990]
 - [Flight control design considerations for STOVL powered-lift...][research_vincentjamesh_anexrob_1990]
 - [Helicopter Yaw Control][research_helicopter_yaw_1990]
-- [Integrated Information Support System IISS . Volume 3...][research_foster_1990]
 - [Integrated Propulsion System Requirements for Control of...][research_gallops_weiss_1990]
-- [Interface Stability During Rapid Directional Solidification][research_hoglund_aziz_1990]
-- [Linear stability of directional solidification cells][research_kessler_levine_1990]
 - [Multivariable flight control synthesis and literal robustness...][research_schmidt_newman_1990]
 - [Nonlinear Stabilization of High Angle-of-Attack Flight...][research_abed_lee_1990]
 - [Nonlinear flight control design via sliding methods][research_hedrick_gopalswamy_1990]
 - [Numerical study of asymmetric air injection to control high...][research_rosen_davis_1990]
-- [On the Stability of Relaxed Incomplete Lu Factorizations][research_bruaset_tveito_1990]
-- [Optimal Stability of Vehicle Control][research_simic_golubovic_1990]
 - [Parametric aeroelastic stability analysis of a generic X-wing...][research_woods_gilbert_1990]
 - [Robust hover control for a short takeoff/vertical landing...][research_douglas_mackler_1990]
 - [Sensitivity derivatives of flutter characteristics and...][research_karpel_1990]
-- [Simulation based evaluation of control of residential air...][research_myers_pahwa_1990]
-- [Stability Analysis of Automatic Lateral Motion Controlled...][research_ito_fujishiro_1990]
-- [Stability of a Taylor-relaxed cylindrical plasma separated...][research_schuurman_weenink_1990]
 - [Static stability and control characteristics of scissor wing...][research_rokhsaz_selberg_1990]
 - [The Bell X-22A V/STOL, Variable Stability Research Airplane...][research_the_bell_1990]
-- [The surprising kidney-fluid mechanism for pressure...][research_guyton_1990]
-- [Vehicle Lateral Control for Highway Automation][research_peng_tomizuka_1990]
-- [Vehicle lateral velocity and yaw rate control with two...][research_matsumoto_tomizuka_1990]
-- [A roadway information system for vehicle guidance/control][research_a_roadway_1991]
 - [Adaptive control of propellant slosh for a launch vehicle...][research_saugen_adler_1991]
 - [Aircraft Weighing][research_payne_1991]
 - [Analysing manipulator and feel system effects in aircraft...][research_hess_1991]
@@ -8400,15 +7953,11 @@ correspondingly large. The period half is listed first.
 - [Control configuration of a relaxed stability airship][research_nagabhushan_1991]
 - [Control of an advanced fighter aircraft using loop shaping][research_sparks_1991]
 - [Control system failure monitoring using generalized parity...][research_vanschalkwykchristiaanmauritz_1991]
-- [Cost-effectiveness analysis of air-pollution control measures][research_vo_schmid_1991]
 - [Decision analysis and optimality in air traffic control...][research_friedman_1991]
 - [Dynamic Vehicle Control Problem][research_hahs_sorrells_1991]
 - [Dynamic interpolation and application to flight control][research_jackson_crouch_1991]
-- [Dynamic setup scheduling and flow control in manufacturing...][research_sharifnia_caramanis_1991]
-- [Ensuring Compliance with Arms Control Agreements Legal...][research_butler_1991]
 - [Error dynamics and perfect model following with application...][research_anderson_schmidt_1991]
 - [Evaluation of the longitudinal stability and control...][research_engelland_1991]
-- [Experimentation with a vehicle platoon control system][research_experimentation_with_1991]
 - [Fuzzy Controller Design and Stability Analysis for an...][research_chiu_chand_1991]
 - [Gain in computational efficiency by vectorization in the...][research_amirouche_shareef_1991]
 - [IMPAC An Integrated Methodology for Propulsion and Airframe...][research_gargsanjay_ouztspeterj_1991]
@@ -8423,7 +7972,6 @@ correspondingly large. The period half is listed first.
 - [Supersonic boundary-layer stability analysis on an aircraft...][research_agrawal_kinard_1991]
 - [Survey of Electrical and Automatic Flight Controls in...][research_negre_1991]
 - [A New Flight Control Design Scheme using Optimal Dynamic...][research_cheng_li_1992]
-- [A Statistical Analysis of Vehicle Rollover Propensity and...][research_klein_1992]
 - [A mission adaptive combat environment MACE for fixed and...][research_roden_harrhy_1992]
 - [Cognitive modelling of fighter aircraft process control a...][research_amalberti_deblon_1992]
 - [Comment on 'Effect of thrust/speed dependence on long-period...][research_stengel_1992]
@@ -8435,8 +7983,6 @@ correspondingly large. The period half is listed first.
 - [Flight Investigation of the Effect of Tail Boom Strakes on...][research_kelley_crowell_1992]
 - [High Mach number dynamic stability of blunt slender cones at...][research_khalid_1992]
 - [High angle-of-attack control enhancement on a forward swept...][research_walchli_guyton_1992]
-- [Indian Company Law Administration Government Control Relaxed][research_indian_company_1992]
-- [Interface Protocol Requirements for Shipboard Damage Control...][research_tate_1992]
 - [Longitudinal stability analysis of aerial-towed systems][research_nakagawa_obata_1992]
 - [Microwave landing system modeling with application to air...][research_poulose_1992]
 - [New literal approximations for the longitudinal dynamic...][research_livneh_schmidt_1992]
@@ -8445,21 +7991,15 @@ correspondingly large. The period half is listed first.
 - [Piloted simulation evaluation of pitch control designs for...][research_engellandsa_franklinja_1992]
 - [Pulsating spanwise blowing on a fighter aircraft][research_meyer_seginer_1992]
 - [Separation control using moving surface effects - A numerical...][research_hassan_sankar_1992]
-- [Vehicle Lateral Velocity and Yaw Rate Control With Two...][research_matsumoto_tomizuka_1992]
-- [Workload Assessment for the Combat Vehicle Command and...][research_morey_wigginton_1992]
 - [122 Neural networks applied to optimal flight control][research_122_neural_1993]
 - [202 Biomechanics in aircraft control][research_202_biomechanics_1993]
 - [A knowledge based simulation approach for real-time model...][research_a_knowledge_1993]
 - [Active control of the shear layer on a static airfoil][research_lovato_troutt_1993]
 - [Aircraft control requirements and achievable dynamics...][research_boland_riley_1993]
 - [An overview of recent subsonic laminar flow control flight...][research_collierjr_1993]
-- [Combat Vehicle Command and Control 93 Technical Report Draft...][research_leibrecht_meade_1993]
 - [Control Systems and Software for Aircraft Maintenance...][research_control_systems_1993]
 - [Control of wing-rock motion of slender delta wings][research_luo_lan_1993]
-- [Deployment control of a cable connecting a ship to an...][research_banerjee_do_1993]
 - [Digital Model-Reference Flight Control of Aircraft with...][research_hori_markazi_1993]
-- [Dynamic Scheduling Control for a Network of Queues][research_atkins_chen_1993]
-- [Dynamic scheduling by using scheduling editor and distributed...][research_dynamic_scheduling_1993]
 - [Dynamics of hypersonic flight vehicles exhibiting significant...][research_chavez_schmidt_1993]
 - [Effect of geometry, static stability, and mass distribution...][research_fremaux_vairo_1993]
 - [Estimation of aerodynamic coefficients using neural networks][research_youssef_juang_1993]
@@ -8468,29 +8008,21 @@ correspondingly large. The period half is listed first.
 - [Methodology for integration of digital control loaders in...][research_katz_schamle_1993]
 - [On the stability proof of adaptive schemes with static...][research_tsao_ioannou_1993]
 - [On the use of back propagation with feed-forward neural...][research_hess_1993]
-- [Optical vehicle detector for traffic control][research_yoshida_1993]
 - [PAN AIR analysis of simply connected control surface...][research_moyer_1993]
 - [Pseudo Aircraft Systems - A multi-aircraft simulation system...][research_weske_danek_1993]
-- [ReDS A dynamic planning, scheduling and control system for...][research_redsa_dynamic_1993]
-- [Solid-state distribution current limiter and circuit breaker...][research_smith_slade_1993]
 - [Static aeroelastic control of an adaptive lifting surface][research_ehlers_weisshaar_1993]
 - [The effect of Reynolds number on control of forebody...][research_bernhardt_williams_1993_b]
-- [002 Robust nonlinear decoupling and yaw stabilization of...][research_002_robust_1994]
 - [087 An explicit formula for Γ-stability robustness margin][research_087_an_1994]
-- [110 Dynamic scheduling control for a network of queens][research_110_dynamic_1994]
 - [Adaptive Perturbation Control of an Unstable Plant using...][research_colgren_1994]
 - [Application of Approximate I/O Linearization to Aircraft...][research_lee_hedrick_1994]
 - [Automatic formation flight control][research_pachter_dazzo_1994]
-- [Consideration of Lateral and Longitudinal Vehicle Stability...][research_leffler_1994]
 - [Design and evaluation of a Stochastic Optimal Feed-forward...][research_ostroffaaronj_proffittmelissas_1994]
 - [Design of nonlinear control laws for high-angle-of-attack...][research_adams_buffington_1994]
 - [Digital model-reference flight control of aircraft with...][research_digital_model_reference_1994]
 - [Direct solution of the aeroelastic stability equations][research_bismarcknasr_1994]
-- [Driver Vehicle Environment Closed Loop Simulation of Handling...][research_xi_qun_1994]
 - [Experimental measurements of dynamic control surface...][research_rennie_jumper_1994]
 - [Flight control design with input saturation - MIMO systems...][research_hess_1994]
 - [Flight dynamics and control of elastic hypersonic vehicles...][research_chavez_schmidt_1994]
-- [Formulating requirements for a universally applicable power...][research_depenbrock_marshall_1994]
 - [Kinematics and aerodynamics of velocity-vector roll][research_durham_lutze_1994]
 - [Multi-application controls Robust nonlinear multivariable...][research_ennsdalef_bugajskidanielj_1994]
 - [Nonlinear decoupling control of aircraft motion][research_zhou_1994]
@@ -8504,39 +8036,28 @@ correspondingly large. The period half is listed first.
 - [A nonlinear flight controller design for aircraft][research_wang_sundararajan_1995]
 - [Aircraft trajectory sensitivities in air traffic control...][research_zhao_jackson_1995]
 - [An innovative architecture for flap control system of...][research_borello_villero_1995]
-- [Application of advanced static VAr generator to improve Henan...][research_zunyiliu_1995]
 - [Control of spacecraft and aircraft][research_control_of_1995]
 - [Development of roll attitude quickness criteria for fighter...][research_klyde_aponso_1995]
 - [Dihedral for spiral stability][research_katz_1995]
 - [Direct Adaptive and Neural Control of Wing-Rock Motion of...][research_singh_yirn_1995]
-- [Directional solidification into static stability][research_brattkus_1995]
 - [Discrete-time, mixed-norm control synthesis applied to...][research_jacques_ridgely_1995]
 - [Dynamics and Control of a Tethered Flight Vehicle][research_no_cochran_1995]
 - [Feedback system design for stable plants with input saturation][research_hess_1995_b]
 - [Identification and Simulation Evaluation of a Combat...][research_schroeder_tischler_1995]
 - [Improved Literal Approximation for Lateral-Directional...][research_livneh_1995]
 - [In-Flight Evaluation of CASSY A System Providing Intelligent...][research_prevot_onken_1995]
-- [Logistics Command and Control Training Requirements][research_brecke_garcia_1995]
 - [Minimal time change detection algorithm for reconfigurable...][research_kim_1995]
 - [Modeling and control of velocity vector rolls][research_pachter_chandler_1995]
 - [Nonlinear autopilot design for a fighter aircraft][research_wee_1995]
 - [Nonlinear flight control for a high-lift reentry vehicle][research_roenneke_well_1995]
 - [Nonlinear flight control using embedded vehicle computer model][research_menon_njaka_1995]
 - [Numerical study of a supersonic open cavity flow and pressure...][research_jeng_payne_1995]
-- [On Direct Yaw Moment Control for Improving Active Safety of...][research_ohkubo_1995]
-- [Optimal Control of MoIecular Motion][research_rabitz_1995]
 - [Optimal roll/yaw control by thrusters][research_azor_1995]
 - [Reconfigurable tracking control with saturation][research_pachter_chandler_1995_b]
 - [Scheduling of local nonlinear control laws by exogenous...][research_wang_1995]
-- [Soliton interaction and stability in nonlinear directional...][research_cohen_1995]
 - [Stabilizable Regions for Unstable Systems with Rate and...][research_glad_1995]
 - [U-parameter robust flight control design][research_lin_tai_1995]
-- [Vehicle stability control in limit cornering by active brake][research_yamamoto_1995]
-- [Voltage control stability and dynamic interaction phenomena...][research_parniani_iravani_1995]
 - [4-dimensional control of a remotely piloted vehicle][research_linehan_1996]
-- [9539103 Improvement of vehicle stability using active brake...][research_9539103_improvement_1996]
-- [Adaptive Identification for Heavy-Truck Stability Control][research_palkovics_michelberger_1996]
-- [Adaptive Vehicle Traction Force Control for Intelligent...][research_lee_tomizuka_1996]
 - [An Aircraft Longitudinal Static Stability and Control...][research_bloy_1996_b]
 - [An MDO approach to Control-Configured-Vehicle design][research_anderson_mason_1996]
 - [An eclectic approach to undergraduate flight dynamics...][research_valasek_1996]
@@ -8547,35 +8068,24 @@ correspondingly large. The period half is listed first.
 - [Directional control of an advanced airship][research_nagabhushan_tan_1996]
 - [Estimation of aircraft dynamic parameters using Euler...][research_hulshoff_mulder_1996]
 - [Experimental measurements of dynamic control surface...][research_rennie_jumper_1996]
-- [Fuzzy Control of an Articulated Vehicle and its Stability...][research_tanaka_kosaki_1996]
-- [Lyapunov stability and thermal stability of partially relaxed...][research_elsasser_spiess_1996]
 - [Mixed linear-quadratic/eigenstructure strategy for design of...][research_mengali_1996]
-- [Model-based robust control for a towed underwater vehicle][research_campa_innocenti_1996]
 - [Multi-objective eigenstructure assignment with dynamic flight...][research_faleiro_pratt_1996]
-- [Nonlinear Control of Neutralization Processes by...][research_klatt_engell_1996]
 - [Periodic optimal flight][research_speyer_1996]
-- [Proposal for Testing and Rating of Traction and Stability...][research_schweers_wallentowitz_1996]
 - [Reduction of vertical tail buffet response using active...][research_hauch_jacobs_1996]
 - [Robust control of a hypersonic experimental vehicle with...][research_sachs_heller_1996]
 - [Robust controller for a dynamic six degree of freedom flight...][research_idan_sahar_1996]
 - [Stabilising predictive control static vs dynamic programming...][research_chisci_1996]
 - [Stability augmentation design of a large flexible transport...][research_ward_ly_1996]
-- [Static and decentralized-adaptive load balancing in a star...][research_dattatreya_venkatesh_1996]
-- [Vehicle Stability Control in Limit Cornering by Active Brake][research_koibuchi_yamamoto_1996]
-- [Yaw Rate Estimation for Vehicle Control Applications][research_sivashankar_ulsoy_1996]
 - [Analytic Sensitivities and Approximations in Supersonic and...][research_li_livne_1997]
 - [Assessment of store control surface effectiveness in a...][research_nichols_evans_1997]
 - [Communications and Information Strategic Automated Command...][research_secretaryoftheairforcewashingtondc_1997]
-- [Dynamic Scheduling Solutions for Real-time Multiprocessor...][research_saez_crespo_1997]
 - [Experiments in Aircraft Roll-Yaw Control using Forebody...][research_pedreironelson_1997]
 - [Exploratory Investigation of Forebody Strakes for Yaw Control...][research_rosshollym_orourkematthewj_1997]
 - [Extremal Angle of Attack over a Singular Thrust Arc in Rocket...][research_ross_1997]
-- [Integrated Robust Control of Active Rear Wheel Steering and...][research_nagai_hirano_1997]
 - [Multicriteria Optimization of Time Control Laws of Short...][research_egorov_kretinin_1997]
 - [Multiple Control Surface Utilization in Active Aeroelastic...][research_andersen_forster_1997]
 - [Predictive Controllers with Guaranteed Stability and...][research_rossiter_1997]
 - [Robust, Decoupled, Flight Control Design with Rate Saturating...][research_snellsa_hessra_1997]
-- [Yaw disturbance attenuation by robust decoupling of car...][research_ackermann_bunte_1997]
 - [A Gas Turbine Dynamic Model for Simulation and Control][research_perezblanco_henricks_1998]
 - [Active Control of Helicopter Blade Stall][research_nguyen_1998]
 - [Advanced gain-scheduling techniques for uncertain systems][research_apkarian_adams_1998]
@@ -8583,15 +8093,12 @@ correspondingly large. The period half is listed first.
 - [Communications and Information Strategic Automated Command...][research_secretaryoftheairforcewashingtondc_1998]
 - [Control of the F-14 Aircraft Lateral-Directional Axis During...][research_balas_packard_1998]
 - [Control-Surface Reversal in the Transonic Regime][research_andersen_kolonay_1998]
-- [Design and Implementation of a Fault Management System for...][research_rajamani_law_1998]
 - [Development and Testing of a High Stability Engine Control...][research_ormejohns_delaatjohnc_1998]
 - [Drag device for providing stability to towed bodies][research_drag_device_1998]
 - [Estimation of Aircraft Lateral-Directional Parameters Using...][research_ghosh_raisinghani_1998]
 - [Fluid flow control devices for an aircraft powerplant][research_fluid_flow_1998]
 - [Frequency Effects on Dynamic Stability Derivatives Obtained...][research_greenwell_1998]
-- [Gain-scheduling control of the Switched Reluctance Motor][research_ho_panda_1998]
 - [High Stability Engine Control HISTEC Flight Demonstration...][research_delaatjohnc_southwickrobertd_1998]
-- [Intelligent Multi-Axis Motion Control for Machine Tool Systems][research_liu_yokoyama_1998]
 - [Lateral Directional Aircraft Control Using Eigenstructure...][research_garrard_1998]
 - [Nonlinear Adaptive Flight Control with a Backstepping Design...][research_steinberg_page_1998]
 - [Proportional Control of Asymmetric Forebody Vortices][research_bernhardt_williams_1998]
@@ -8599,16 +8106,9 @@ correspondingly large. The period half is listed first.
 - [Spacecraft attitude control using an induction motor actuated...][research_dodds_vittek_1998]
 - [Static Aeroelastic Considerations for Circulation Control...][research_zeiler_1998]
 - [The High Stability Engine Control HISTEC Program Flight...][research_delaatjohnc_southwickrobertd_1998_b]
-- [Touch-screen surface treatment control system][research_touch_screen_surface_1998]
-- [Yaw Rate Estimation for Vehicle Control Applications][research_sivashankar_ulsoy_1998]
-- [A Gain-Scheduling Approach for Control of Dissolved Oxygen in...][research_akesson_hagander_1999]
-- [A fuzzy PLC with gain-scheduling control resolution for a...][research_li_tso_1999]
-- [An internal model control approach to the design of...][research_chingyawtzeng_1999]
-- [Application of active yaw control to vehicle dynamics by...][research_sawase_1999]
 - [Application of sliding-mode theory to direct yaw-moment...][research_yoshioka_1999]
 - [Comparison of electrical drive technologies for aircraft...][research_atallah_1999_b]
 - [Delay and saturation in controlled aircraft dynamics...][research_ionita_rasvan_1999]
-- [Driver assisted yaw rate control][research_driver_assisted_1999]
 - [Flight Control Laws for NASA's Hyper-X Research Vehicle][research_davidsonj_lallmanf_1999]
 - [Friction compensation via smooth adaptive dynamic surface...][research_friction_compensation_1999]
 - [Fuzzy Gain-Scheduling Control and its Application to Flight...][research_fujimori_nikiforuk_1999]
@@ -8618,20 +8118,13 @@ correspondingly large. The period half is listed first.
 - [Optimizing Operational Control of U.S. Army Attack Aviation][research_taylor_1999]
 - [Permanent magnet brushless drives for aircraft flight control...][research_atallah_1999]
 - [Pneumatic Lift and Control Surface Technology for High Speed...][research_englar_niebur_1999]
-- [Prostate Specific Gene Therapy Using a 'Gutless' Adene-Vector...][research_belldegrun_1999]
 - [Relative stability for open-loop stable and unstable discrete...][research_shafiei_shenton_1999]
-- [Subjective and objective assessment of `agbelima' cassava...][research_dziedzoave_ellis_1999]
 - [The design of a switched reluctance drive for aircraft flight...][research_cossar_1999]
 - [Active Stall Control Mutlistage Compression Systems][research_abed_2000]
 - [Bleed Valve Rate Requirements Evaluation in Rotating Stall...][research_yeung_wang_2000]
 - [Control-Surface Deflection Effects on the Innovative Control...][research_addington_myatt_2000]
-- [Demonstration Erosion Control Project Monitoring Program][research_biedenharn_raphelt_2000]
-- [High Power Gallium Nitride Devices for Microwave and RF...][research_caverly_2000]
-- [High Speed Modulation, Beam Steering and Control of High...][research_moloney_2000]
 - [Intelligenct Flight Control of Uninhabited Aerial Vehicles][research_bernstein_2000]
-- [Underwater Vehicle Control Minimum Requirements for a Robust...][research_benjamin_2000]
 - [Biologically Inspired Direct Adaptive Guidance and Control...][research_corban_gilbert_2001]
-- [Mechanisms and Control of Chaos and Halos in High Power...][research_chen_2001]
 - [Air Force Flight Test Center Edwards Afb Ca 2002, AFFTC Instruction 99-5, Test and][research_airforceflighttestcenteredwardsafbca_2002_b]
 - [Application of Sliding Mode Methods to the Design of...][research_wellsscottr_2002]
 - [Closed-Loop Control of Acoustic Tones in Aircraft Cavities][research_williams_2002]
@@ -8643,7 +8136,6 @@ correspondingly large. The period half is listed first.
 - [Thruster Limitation Consideration for Formation Flight Control][research_yunjunxu_normanfitzcoy_2003]
 - [A New Approach to Attitude Stability and Control for Low...][research_limkb_shinyy_2004]
 - [Boundary Layer Control for Hypersonic Airbreathing Vehicles][research_berryscotta_nowakrobertj_2004]
-- [High-Speed and Low-Power VLSI Error Control Coders][research_parhi_2004]
 - [Optimal Control through Biologically-Inspired Pursuit][research_shao_hristuvarsakelis_2004]
 - [Separation Control Using Plasma Actuators Dynamic Stall...][research_post_corke_2004]
 - [Tuning a Control System][research_ellis_2004]
@@ -8652,27 +8144,22 @@ correspondingly large. The period half is listed first.
 - [Human Factors Considerations in Migration of Unmanned...][research_tvaryanas_2006]
 - [Numerical Simulation of Stall and Stall Control in Axial and...][research_chen_webster_2006]
 - [Fighter Aircraft Guidance and Control Based on Combat Power...][research_zhoutao_sunliang_2007]
-- [Flow Model Study for Section 227 Demonstration Project in...][research_hansen_howington_2007]
 - [Intelligent Flight Control Simulation Research Program][research_stolarik_2007]
 - [Scheduled Anti-Windup Controllers for Application to Aircraft...][research_sajjadikia_farregabernet_2007]
 - [Transition Flight Control of Two Vertical/Short Takeoff and...][research_xili_yong_2008]
 - [Unsteady Aerodynamic Models for Flight Control of Agile Micro...][research_rowley_2008]
 - [Adaptive Control, Wide Speed Range Flight, and Deconfliction][research_ronflenadaud_2009]
 - [Request for Information Response for the Flight Validation of...][research_bosworthjohnt_2009]
-- [Aging, Counterfeiting Configuration Control AC3][research_simon_gallardo_2010]
 - [The Need for a Common Aviation Command and Control System in...][research_ahlstrom_2010]
 - [Unsteady Aerodynamic Models for Flight Control of Agile Micro...][research_rowley_2010]
 - [A Piloted Evaluation of Damage Accommodating Flight Control...][research_cunninghamkevin_coxdavide_2011]
 - [DBD Plasma Actuators for Flow Control in Air Vehicles and Jet...][research_ashpisdavide_thurmandouglasr_2011]
-- [Principles of Distillation Design and Control][research_principles_of_2011]
 - [Submersible Aircraft Concept Design Study - Amendment 1...][research_willan_2011]
 - [The Stability of Powered Flight around Asteroids with...][research_whiffengregoryj_2011]
 - [Aero-Effected Flight Control Using Distributed Active Bleed][research_glezer_leonard_2012]
-- [Back to the Sea U.S. Strategic Requirements and Sea Control][research_kirk_2012]
 - [Stages of functioning the gas-dynamic device takeoff and...][research_stages_of_functioning_2012]
 - [Tuning a Control System][research_ellis_2012]
 - [An Aircraft Electric Power Testbed for Validating...][research_rogersten_xu_2013]
-- [Power optimization for a variable-speed stall-regulated...][research_rosmin_watson_2013]
 - [Air Force Space Command Space Missile Sys Ctr 2013, Space and Missile Systems Center][research_airforcespacecommandspacemissilesysctr_2013]
 - [Truncated predictor feedback control for exponentially...][research_seyoungyoon_zonglilin_2013]
 - [Adaptive Augmenting Control Flight Characterization...][research_vanzwietentannens_orrjebs_2014]
@@ -8680,7 +8167,6 @@ correspondingly large. The period half is listed first.
 - [Morpheus Lander Roll Control System and Wind Modeling][research_gamboneelisabetha_2014]
 - [Space Launch System Implementation of Adaptive Augmenting...][research_walljohnh_orrjebs_2014]
 
-- [1D33 Active secondary yaw control to improve curving...][research_alfi_prandi_2015]
 - [2015 International Conference on Unmanned Aircraft Systems...][research_valavanis_2015]
 - [8. Optimal control design for swinging and damping a double...][research_8_optimal_2015]
 - [A Design, Analysis and Verification Framework for Adaptive...][research_fravolini_yucelen_2015]
@@ -8689,30 +8175,25 @@ correspondingly large. The period half is listed first.
 - [A backstepping based flight control design for an...][research_rajput_zhangweiguo_2015]
 - [A short survey on Pyragas time-delay feedback stabilization...][research_kuznetsov_leonov_2015]
 - [Active Flow Separation Control Using Endwall Vortex Generator...][research_feng_song_2015]
-- [Active and reactive power control capability in wind...][research_troncoso_battaiotto_2015]
 - [Adaptive Control for Aircraft Longitudinal Dynamics with...][research_gavilan_vazquez_2015]
 - [Adaptive Feedforward Control Design for Gust Loads...][research_wang_li_2015]
 - [Adaptive backstepping control of uncertain nonlinear systems...][research_zhou_yin_2015]
 - [Adaptive control of an aircraft with uncertain...][research_ansari_bernstein_2015]
-- [Agent-based simulation of autonomous cars][research_boesch_ciari_2015]
 - [Aircraft Cable with Connector Fault Modeling and Diagnosis][research_tao_mengwei_2015]
 - [Aircraft Enroute Command and Control Comms Redesign...][research_callaway_2015]
 - [Aircraft Flight Dynamics and Control][research_cochran_2015]
-- [An integrated Control Approach and Power Management of...][research_ns_gaonkar_2015]
 - [Application of Anytime Control to an Inherently Unstable...][research_maxwell_ferri_2015]
 - [Automatic Control of Aircraft in Lateral‐Directional Plane...][research_lungu_lungu_2015_b]
 - [Autonomous Pareto Front Scanning using an Adaptive...][research_martin_george_2015]
 - [C8.4 - Partially Estimated Polynomial MEMS Sensor Calibration][research_dickow_feiertag_2015]
 - [Closed-Loop Control of a Microtab-Based Load Control System][research_cooperman_vandam_2015]
 - [Comparison of Robust Control Techniques for Use in Flight...][research_becerravargas_2015]
-- [Comparison of Yaw Stability Control Methods for Mining Trucks][research_ono_2015]
 - [Control limitation of a three-loop acceleration autopilot][research_junfang_ying_2015]
 - [Control of the Flexural Axis of a Wing with Piezoelectric...][research_davis_kim_2015]
 - [Cyclic Control for Multiple Satellite Cluster Flight Using...][research_zhang_gurfil_2015]
 - [Dynamic Estimation of Vortex Shedding][research_illingworth_2015]
 - [Delay distribution dependent output feedback stabilization...][research_nan_yuan_2015]
 - [Design and Control of Lateral Axis of Aircraft using Sliding...][research_rajeswari_padmasuresh_2015]
-- [Design of a feedback-feedforward steering controller for...][research_kapania_gerdes_2015]
 - [Determination and Control of the Satellites’ Attitude by...][research_lungu_lungu_2015]
 - [Distributed near optimal flocking control for multiple...][research_xu_carrillo_2015]
 - [Estimation of optimal flight altitude for an aircraft][research_singh_dhawan_2015]
@@ -8721,13 +8202,10 @@ correspondingly large. The period half is listed first.
 - [Fixed-Wing Unmanned Aircraft In-Flight Pitch and Yaw Control...][research_yeo_atkins_2015]
 - [Flight Control Design for Small-Scale Helicopter Using...][research_lu_liu_2015]
 - [Flight Dynamics and Stability of Kites in Steady and Unsteady...][research_salordlosantos_sanchezarriaga_2015]
-- [Fuzzy inference system for the efficiency assessment of hold...][research_skorupski_uchronski_2015]
 - [Guidance and nonlinear MRAC of a powered air-to-surface...][research_cloutier_stockbridge_2015]
 - [High-Fidelity Weight Estimation for Aircraft Conceptual...][research_nigam_ayyalasomayajula_2015]
 - [Hover control of a thrust-vectoring aircraft][research_kuang_zhu_2015]
 - [Identification of flexible wing aircraft models using...][research_soumelidis_szabo_2015]
-- [Improvement of Active Yaw Moment Control Based on...][research_cheng_chuanxue_2015]
-- [Information Support of Management Control in Information...][research_kuznetsova_kuznetsov_2015]
 - [Integrated flight control design for a large flexible aircraft][research_theis_pfifer_2015]
 - [Integrator resetting for enforcing constraints in aircraft...][research_mcdonough_kolmanovsky_2015]
 - [Integrator-Backstepping Control Design for Nonlinear Flight...][research_tran_newman_2015_b]
@@ -8735,13 +8213,11 @@ correspondingly large. The period half is listed first.
 - [Kite Model with Bridle Control for Wind-Power Generation][research_alonsopardo_sanchezarriaga_2015]
 - [Lateral-directional control for a fixed wing vehicle based on...][research_coronasanchez_rodriguezcortes_2015]
 - [Lift and Drag Characteristics of an Airfoil and Feedback Flow...][research_mori_yamaguchi_2015]
-- [Liposomal and edible coating as control release delivery...][research_alikhanikoupaei_2015]
 - [Measurement and Estimation of the Angle of Attack and the...][research_popowski_dabrowski_2015]
 - [Mach number virtual sensor for civil aircraft extended...][research_mimmo_goupil_2015]
 - [Micro Vortex Generators for Boundary Layer Control Principles...][research_sun_2015]
 - [Minimal-Jerk Missile Guidance Law][research_grinfeld_benasher_2015]
 - [Missile Guidance Law Considering Constraints on Impact Angle...][research_kim_kim_2015]
-- [Model of Information Exchange of the Appraisal Center and...][research_saveleva_2015]
 - [Model simplification methods for a reduced order system of...][research_mohamed_swaroops_2015]
 - [Modeling and control of an unstable system using...][research_sozhamadevi_sathiyamoorthy_2015]
 - [Multiphase Optimal Control Framework for Commercial Aircraft...][research_soler_olivares_2015]
@@ -8756,7 +8232,6 @@ correspondingly large. The period half is listed first.
 - [Optimization of Multiphase Aircraft Trajectories Using Hybrid...][research_franco_rivas_2015]
 - [Optimum Design of Compound Helicopters that Use Higher...][research_giovanetti_hall_2015]
 - [Real Time Multiple Fidelity Physics Based Simulation of...][research_sasanapuri_2015]
-- [Real-Time Detection of Unstable Control Loop Behavior in a...][research_hober_pape_2015]
 - [Real-Time State Estimation in a Flight Simulator Using fNIRS][research_gateau_durantin_2015]
 - [Reconfigurable control strategy for aircraft model operating...][research_mikhail_zeinsabatto_2015]
 - [Report of the 2014 International Conference on Unmanned...][research_valavanis_2015_b]
@@ -8766,34 +8241,25 @@ correspondingly large. The period half is listed first.
 - [Robust control of a yaw-pitch gimballed seeker][research_zhan_yan_2015]
 - [Robust feedforward control of robotic arms with friction...][research_plooij_wolfslag_2015]
 - [Robust flight control for hypersonic flight vehicle using...][research_zhu_liu_2015]
-- [Robust yaw stability control based on disturbance observer...][research_marar_ginoya_2015]
 - [SDRE Based Guidance and Flight Control of Aircraft Formations][research_tekinalp_kumbasar_2015]
 - [Speed control of high speed aircraft with fixed attack angle...][research_jin_wang_2015]
-- [Stability and stabilization of unstable condensates][research_cohen_2015]
 - [Stability of networked control system with bandwidth...][research_xu_wang_2015]
 - [Stabilization control for discrete time systems with random...][research_zhang_li_2015]
 - [Temporal Prediction of Aircraft Loss-of-Control A Dynamic...][research_poolla_ishihara_2015]
 - [Terminal guidance law design based on predictive control for...][research_lisha_yu_2015]
 - [The Role of Three-Dimensional Interactions in Fluidic Control...][research_bernardini_sacco_2015]
-- [The bumpy road to better risk control A Tour d'Horizon of new...][research_pasman_rogers_2015]
 - [The robust roll control using only synthetic jet actuators in...][research_chunzhi_jianying_2015]
 - [Thermal Ice Protection of Restraining Grids in the...][research_hassler_puffing_2015]
 - [Unified Robust Gain-Scheduled and Switched Controller Design...][research_vesely_ilka_2015_b]
-- [Vehicle yaw rate control using tyre force measurements][research_madhusudhanan_corno_2015]
-- [Vehicle yaw stability control using active limited-slip...][research_rubin_arogeti_2015]
 - [Vortex-enhanced mixing through active and passive flow...][research_depurumohan_greenblatt_2015]
-- [Yaw Moment Control of the Vehicle by Means of a...][research_russo_strano_2015]
 - [A Comparative Study of Hybrid Flow Control System...][research_jabbal_everett_2016]
 - [A Simplified Adaptive Backstepping Control of Aircraft...][research_swarnkar_kothari_2016]
 - [A Vectoring Thrust Coaxial Rotor for Micro Air Vehicle...][research_prothin_defay_2016]
-- [A control method for stable operation of distributed...][research_seyedalipour_gharehpetian_2016]
 - [A control system for flight at asymmetrical thrust][research_yahyaoui_2016]
 - [A new-type robust model-based fault diagnosis method with...][research_binqiang_guangshang_2016]
 - [A nonsingular SMC-based guidance law for an accelerating...][research_ye_liu_2016_b]
-- [A parallel spectrum allocation algorithm based on bandwidth...][research_gao_lv_2016]
 - [Active Flow Control on the Stability and Control...][research_jentzsch_taubert_2016]
 - [Active flow control of the vortex rope and pressure...][research_javadi_nilsson_2016]
-- [Adaptive Control Strategy for Low Voltage Ride Through...][research_hasanien_muyeen_2016]
 - [Aircraft Automatic Control System Failure and Flight Safety][research_slihta_sestakovs_2016]
 - [Aircraft Loss-Of-Control Recovery Strategy Using High Order...][research_zhang_chen_2016]
 - [Aircraft Trim Recovery from Highly Nonlinear Upset Conditions][research_chang_kwatny_2016]
@@ -8801,21 +8267,16 @@ correspondingly large. The period half is listed first.
 - [Aircraft loss-of-control arrest autopilot using trajectory...][research_zhao_zhu_2016_b]
 - [Aircraft loss-of-control autonomous recovery Mission...][research_zhao_zhu_2016]
 - [Aircraft suitability model applied to a laminar flow control...][research_tucker_reed_2016]
-- [An advanced Driller's Method simulator for deepwater well...][research_feng_fu_2016]
 - [Analysis of Pilot-Induced-Oscillation and Pilot Vehicle...][research_mandal_gu_2016]
 - [Analysis of open-loop characteristics on SISO sampled-data...][research_atsumi_2016]
 - [Application of Input and State Multiple Model Adaptive...][research_bauer_baar_2016]
 - [Attitude and orbit coupled control and simulation of...][research_yankai_jiang_2016]
 - [Attractive Sets to Unstable Orbits Using Optimal Feedback...][research_bando_scheeres_2016]
 - [Automatic control of aircraft lateral-directional motion...][research_lungu_lungu_2016]
-- [Backlash identification for PMSM servo system based on relay...][research_han_liu_2016]
-- [Centralization, scope, and control provisions in the design...][research_centralization_scope_2016]
-- [Characterizing the Effective Bandwidth of Tri-Stable Energy...][research_panyam_daqaq_2016]
 - [Combining model-free and model-based angle of attack...][research_wenz_johansen_2016]
 - [Comparison of Passive Flow Control Methods for a Cavity in...][research_saddington_thangamani_2016]
 - [Comparison of Robust and Probabilistic LMI-Based Design of...][research_fravolini_yucelen_2016]
 - [Comparison of vortex generators effect on shock wave induced...][research_flaszynski_2016]
-- [Considerations on islanded microgrid frequency control...][research_rodrigues_desouza_2016]
 - [Control design of paralleled sources in electrical power...][research_wang_yin_2016]
 - [Control of flow instabilities in an open aircraft bay model...][research_liu_gomez_2016]
 - [Correction A Comparative Study of Hybrid Flow Control System...][research_jabbal_everett_2016_b]
@@ -8831,7 +8292,6 @@ correspondingly large. The period half is listed first.
 - [Energy efficiency analysis of electric and conventional...][research_jiang_dong_2016]
 - [Estimating ultrasonic time-of-flight through echo signal...][research_lu_yang_2016]
 - [Experimental Study and Vortex Analysis in a Linear Compressor...][research_tian_wu_2016]
-- [Flexible Voltage Support Control with Imbalance Mitigation...][research_wang_yang_2016]
 - [Flight control using only synthetic jet actuators in...][research_li_yang_2016]
 - [Flight dynamics and nonlinear control design for...][research_gupta_kothari_2016]
 - [Fuel Flow Control for Extending Aircraft Thermal Endurance...][research_doman_2016_b]
@@ -8841,28 +8301,20 @@ correspondingly large. The period half is listed first.
 - [Impact-Time-Control Guidance Law for Missile with...][research_zhou_wang_2016_b]
 - [Inference of flight mode of aircraft including conflict...][research_yokoyama_2016]
 - [Integrated control of active front steer angle and direct yaw...][research_saikia_mahanta_2016_b]
-- [Investigating cross-wind stability of high-speed trains with...][research_fragner_deiterding_2016]
-- [Lateral stability enhancement of vehicles using adaptive...][research_saikia_mahanta_2016]
 - [Mean-square stabilization for discrete-time networked control...][research_junhuili_weizhousu_2016]
 - [Missile guidance law with impact angle constraint and...][research_wei_liu_2016]
 - [Modeling and control for morphing unmanned aircraft vehicle][research_li_guo_2016]
-- [Modified control scheme to improve LVRT capability of DFIG...][research_aimengwang_yunwen_2016]
 - [Multi-missile distributed cooperative guidance law based on...][research_gao_zhou_2016]
 - [Multi-sensor robust relative estimation framework for...][research_koch_mclain_2016]
 - [Multiple model predictive control for large envelope flight...][research_tao_li_2016]
 - [Nonlinear Aircraft Flight Control Using the Forward...][research_prach_tekinalp_2016]
 - [Nonlinear Total Energy Control for the Longitudinal dynamics...][research_argyle_beard_2016]
-- [Nonlinear path following control of the underactuated AUV via...][research_miao_wang_2016]
 - [Numerical Simulations of an Airplane with an Active Flow...][research_shmilovich_yadlin_2016]
 - [Optimal Aircraft Control in Stochastic Severe Weather...][research_okamoto_tsuchiya_2016]
 - [Optimization of Passive Flow Control Devices of a Slatless...][research_moens_dandois_2016]
-- [Optimization of active yaw control in an autonomous electric...][research_dollinger_markgraf_2016]
-- [Optimized control of SRG based on fuzzy logic by turn-on and...][research_fan_liu_2016]
 - [Output feedback robust MPC for time-varying system with...][research_yang_ding_2016]
 - [PD-type open-closed-loop iterative learning control in the...][research_shanhai_zhong_2016]
-- [Prediction of subharmonic oscillation in switching regulators...][research_elaroudi_2016]
 - [Preliminary Study on Aerodynamic Control of...][research_sato_nishida_2016]
-- [Real time robotic arm control using hand gestures with...][research_devine_rafferty_2016]
 - [Real-Time Trajectory Estimation Based on Hybrid Estimation...][research_zhang_wang_2016]
 - [Reliability-centered optimal design method for flight vehicle...][research_kong_zhang_2016]
 - [Research of aircraft ground service scheduling problems][research_fei_shuan_2016]
@@ -8872,35 +8324,27 @@ correspondingly large. The period half is listed first.
 - [Robust and optimal control of shimmy vibration in aircraft...][research_tourajizadeh_zare_2016]
 - [Robust controller for aircraft roll control system using data...][research_perrusquia_tovar_2016]
 - [Robust flight control design using incremental adaptive...][research_putro_holzapfel_2016]
-- [Runtime observation of functional safety properties in an...][research_heffernan_macnamee_2016]
 - [Side force control on slender body by self-excited...][research_zhai_zhang_2016]
 - [Simulation of Laminar-Flow Compatible High-Lift Wing...][research_rizzetta_visbal_2016]
-- [Size and mass minimization of capacitor bank in a power...][research_borisov_poliakov_2016]
 - [Stability analysis and stabilization for fuzzy hyperbolic...][research_wang_liu_2016_b]
 - [Stability and stabilization for switched systems with all...][research_liu_wang_2016]
 - [Stabilization of exponentially unstable linear systems with...][research_wei_lin_2016]
 - [Stabilization of the PVTOL aircraft based on a sliding mode...][research_aguilaribanez_2016]
-- [Study on the active steering system with direct yaw-moment...][research_chen_yin_2016]
 - [Suppression of nonlinear aeroelastic vibration of a...][research_fazelzadeh_azadi_2016]
 - [Target Evasion from a Missile Performing Multiple Switches in...][research_turetsky_shima_2016]
 - [The 2016 International Conference on Unmanned Aircraft...][research_valavanis_2016]
 - [The general design of environment control system based on...][research_cuifeng_wenqiang_2016]
 - [The measurement uncertainty evaluation of yaw sensor...][research_tipsuwanporn_chinchusak_2016]
 - [Vortex generators effectiveness compared to active flow...][research_gartner_amitay_2016]
-- [Who to Blame? learning and control strategies with...][research_liu_zhang_2016]
 - [gold-Fourier Kaluri method for estimating vortex shedding...][research_rangarao_arumuru_2016]
 - [2017 International Conference on Unmanned Aircraft Systems...][research_valavanis_2017]
 - [A Blended Sliding Mode Control with Linear Quadratic Integral...][research_herrera_leica_2017]
 - [A Column Generation Approach to Solve Aircraft Recovery...][research_xu_2017]
-- [A Hybrid Feedback Control Model for a Gesture-based Pointing...][research_kondo_mizuno_2017]
 - [A control system architecture for control of non-affine in...][research_marangoz_kutay_2017]
 - [A multi-carrier protocol for in-band control of tactical data...][research_riley_domm_2017]
-- [A novel control scheme for enhancing low voltage ride through...][research_he_xu_2017]
 - [A novel yaw control method for flying-wing aircraft in low...][research_qu_zhang_2017]
 - [A special kind of Optimal PID Control Method for High Speed...][research_wang_lei_2017]
-- [AMR and diagnostics pointing the way to better infection...][research_amr_and_2017]
 - [Active flow control of vortex induced vibrations of a...][research_muddada_patnaik_2017]
-- [Active vortex-induced vibration control of a flexible rod...][research_shah_hong_2017]
 - [Adaptive Flight Control Under Actuation and Sensor Failures...][research_boskovic_jackson_2017]
 - [Adaptive Observer for Multi-Effectors Aircraft with Control...][research_zhang_2017]
 - [Adaptive backstepping fast terminal sliding mode controller...][research_fazeliasl_moosapour_2017]
@@ -8913,8 +8357,6 @@ correspondingly large. The period half is listed first.
 - [Aircraft single-jet engine with hydro-mechanical fuel flow...][research_tudosie_2017_c]
 - [Algorithms of Aircraft Flight Parameters Determination via...][research_sokolov_beklemichev_2017]
 - [Altitude control algorithm design of the quadrotor aircraft][research_hairui_bo_2017]
-- [An Extrinsic Sensor Calibration Framework for Sensor-fusion...][research_bouain_berdjag_2017]
-- [An Integrated Control and Management Approach of Stand-alone...][research_jayalakshmi_gaonkar_2017]
 - [Analysis of Airfoil Stall Control Using Dynamic Mode...][research_mohan_gaitonde_2017]
 - [Approaches to Real-time Predictive Estimation of...][research_rafi_steck_2017]
 - [Attitude dynamics of gyrostat satellites under control by...][research_doroshin_2017]
@@ -8930,7 +8372,6 @@ correspondingly large. The period half is listed first.
 - [Distributed cooperative control for joint optimization of...][research_moon_frew_2017]
 - [Dynamic Modelling of Commercial Aircraft Secondary Flight...][research_hardwick_panella_2017]
 - [Dynamics and autopilot design for BTT aircraft with flaps...][research_dong_zhou_2017]
-- [Enhancing fault ride‐through capability of DFIG with modified...][research_xiao_yang_2017]
 - [Estimating Angle of Attack of an ATAS Aircraft Using TS Fuzzy...][research_singh_dev_2017]
 - [Evaluation of multiple model adaptive estimation of aircraft...][research_baar_bauer_2017]
 - [Experimental investigation of active yaw moment control...][research_arora_diba_2017]
@@ -8946,13 +8387,11 @@ correspondingly large. The period half is listed first.
 - [Hovering control for quadrotor aircraft based on finite-time...][research_zhu_du_2017]
 - [Hydro-mechanical fuel flow controller for aircraft jet engines][research_tudosie_2017_b]
 - [Integrated Control System for Airframe and Propulsion...][research_zeinsabatto_mccurry_2017]
-- [Integrated control of direct yaw moment control and active...][research_hu_han_2017]
 - [Integration of exergy analysis into model-based design and...][research_bender_2017]
 - [Integrator-Augmented Robust Adaptive Control Design for Close...][research_zhang_liu_2017]
 - [Intelligent reconfigurable control system for aircraft flight...][research_terrell_zeinsabatto_2017]
 - [Laplace-Based Predictive Estimation of Loss-of-Control...][research_rajaram_rafi_2017]
 - [Lateral-directional flight control for single engine failure...][research_lin_wang_2017_b]
-- [Magneto-rheological suspensions for improving ground...][research_ahmadian_2017]
 - [Markov Decision Process Framework for Flight Safety...][research_balachandran_atkins_2017]
 - [Model based verification of Electronic Control Unit ECU in...][research_farooq_2017]
 - [Modeling and semi-active control for a low power and free-yaw...][research_barbosa_palma_2017]
@@ -8961,9 +8400,7 @@ correspondingly large. The period half is listed first.
 - [Nonlinear region of attraction analysis for hypersonic flight...][research_chen_ma_2017]
 - [Novel fractional order PD μ controller for open-loop unstable...][research_dwivedi_pandey_2017]
 - [Open Loop based Time Optimal PID Control Synthesis][research_bichiou_bouafoura_2017]
-- [Open-loop control system of liquid level in double tank...][research_kula_2017]
 - [Operator-Splitting and Gradient Methods for Real-Time...][research_ferranti_keviczky_2017]
-- [Optimization of the Drag Force of Planing Boat with Trim...][research_sakaki_ghassemi_2017]
 - [Output‐feedback model predictive control for stochastic...][research_li_li_2017]
 - [Parameter varying flutter suppression control for the BAH jet...][research_patartics_luspay_2017]
 - [Parameterized Flight Mission for Secondary Power Requirement...][research_lampl_muschkorgel_2017]
@@ -8976,19 +8413,16 @@ correspondingly large. The period half is listed first.
 - [Reduced-Order Modeling of Unsteady Aerodynamics for an...][research_liu_huang_2017]
 - [Research on Lateral-Directional Dynamic Characteristics and...][research_zhang_wang_2017]
 - [Retraction Design and control of a high‐speed switched...][research_ding_liu_2017]
-- [Robust Model Predictive Control of DC-DC Floating Interleaved...][research_sartipizadeh_harirchi_2017]
 - [Robust Nonlinear Tracking Control for Unmanned Aircraft with...][research_kazarin_mackunis_2017]
 - [Robust control of the boost-pressure of a turbocharger...][research_posielek_wulff_2017]
 - [Robust nonlinear model predictive control with reduction of...][research_thangavel_lucia_2017]
 - [Robust pitch attitude hold with MRAC for a nonlinear light...][research_wagner_hromcik_2017]
-- [Service agent transport agent task planning incorporating...][research_bays_wettergren_2017]
 - [Solar Radiation Pressure Hamiltonian Feedback Control for...][research_soldini_colombo_2017]
 - [Stability of spinning missile with homing proportional...][research_hu_yang_2017]
 - [Stabilization of Delay Systems Delay-Dependent Impulsive...][research_li_song_2017]
 - [Stable and robust control design for a benchmark hypersonic...][research_wenyan_sen_2017]
 - [Strategy for robust gust response alleviation of an aircraft...][research_dai_yang_2017]
 - [Strictly Finite‐Time‐Convergent Missile Guidance Law Based on...][research_zhou_wang_2017_b]
-- [Successful System Integration Test of Real-Time Drillstem...][research_vo_cao_2017]
 - [Tracking Control for VTOL Aircraft with Input Disturbances...][research_zou_li_2017]
 - [The Qualitative Properties of Symmetric Open‐Loop Nash...][research_hsueh_ling_2017]
 - [The design of the four rotor unmanned aircraft control...][research_chen_zhao_2017_b]
@@ -8996,14 +8430,9 @@ correspondingly large. The period half is listed first.
 - [Thrust Mixing, Saturation, and Body-Rate Control for Accurate...][research_faessler_falanga_2017]
 - [Trajectory control of a very flexible flying wing][research_qi_wang_2017]
 - [Unstable Mechanical Objects Motion Control, Stabilization][research_formalskii_2017]
-- [Using Frontal Brain Asymmetry to Control Sensory Treatment of...][research_cjacob_wardensmith_2017]
 - [VSC Design For Overload Control In High Angle-of-attack...][research_liang_jia_2017]
-- [Vehicle safety enhancement through a novel active yaw...][research_fengchenwang_chen_2017]
-- [Vehicle stability enhancement using sliding mode based active...][research_saikia_mahanta_2017]
 - [Vertical and Horizontal Flight Reference Trajectory...][research_murrietamendoza_mugnier_2017]
-- [Voltage stability index based on standard deviation-mean...][research_yusuff_2017]
 - [Weapon Target-Allocation Strategies in Multiagent Target...][research_shalumov_shima_2017]
-- [Yaw response control method for the in-wheel motor electric...][research_jia_liu_2017]
 - [A Comparison of Flight Control Strategies for Hypersonic...][research_jiayuan_peng_2018]
 - [A Game-Theoretic Approach for Choosing a Detector Tuning...][research_umsonst_sandberg_2018]
 - [A Geometric Control Strategy for Real-time Coordination of...][research_guijarroreyes_garciacarrillo_2018]
@@ -9013,35 +8442,25 @@ correspondingly large. The period half is listed first.
 - [A Real Time Scheme for Rotating System Component Load...][research_mballo_prasad_2018]
 - [A Three-Dimensional Robust Nonlinear Guidance Law Considering...][research_wang_li_2018_b]
 - [A disturbance observer-based robust controller design for...][research_sariyildiz_mutlu_2018]
-- [A standing wave ultrasonic stepping motor using open-loop...][research_dong_hu_2018]
-- [Achieving operational process safety via model predictive...][research_albalawi_durand_2018]
 - [Adaptive Dynamic Compensation Observer for Fast Diagnose of...][research_zhang_wang_2018]
-- [Adaptive Game-Theoretic Decision Making for Autonomous...][research_tian_li_2018]
-- [Adaptive Yaw Control Of Three-Axle Road Vehicles Based On...][research_zhang_woo_2018]
 - [Aircraft Control Surfaces Using Co-flow Jet Active Flow...][research_zhang_xu_2018]
 - [Aircraft Longitudinal Control based on the Lanchester's...][research_rosariogabriel_cortes_2018]
 - [An Integrated Design Approach for Advanced Flight Control...][research_lampl_hornung_2018]
-- [An efficient access control scheme with outsourcing...][research_zhang_chen_2018]
 - [Analytical design of an industrial two-term controller for...][research_tchamna_lee_2018]
-- [Anti-windup scheme for PI temperature control of an open-loop...][research_losreyes_alvarez_2018]
 - [Automatic Landing Control of a Very Flexible Flying Wing][research_qi_zhao_2018]
 - [Autonomous Flight][research_tang_kumar_2018]
-- [Balancing Control of a Unicycle Robot using Control Moment...][research_jung_park_2018]
 - [CFD-Based Stability and Control Modeling of Fighter Aircraft...][research_morton_mcdaniel_2018]
 - [Calculation Method and Simulation of Air Bleeding Loss for...][research_su_li_2018]
 - [Chaos as the hub of systems dynamics. The part I The attitude...][research_doroshin_2018]
-- [Closed Loop Control of Unstable Omni Directional Assisting...][research_kadam_jadhav_2018]
 - [Closed-loop active flow control of repetitive disturbances in...][research_steinberg_king_2018]
 - [Closed-loop control of a piezo-fluidic amplifier][research_nicholls_bacic_2018]
 - [Comparison of Aircraft Conceptual Design Weight Estimation...][research_horvath_wells_2018]
 - [Comparison of Different Vortex Generating Devices for Flow...][research_singh_scholz_2018]
 - [Computational aerodynamics analysis of a light sport aircraft...][research_piedra_martinez_2018]
-- [Conceptual Design of Driver-Adaptive Human-Machine Interface...][research_choi_kwon_2018]
 - [Continuous control of asymmetric forebody vortices in a...][research_wang_cheng_2018]
 - [Control Device Studies for Yaw Control without Vertical Tail...][research_loechert_huber_2018]
 - [Control System Design and the Power Management of MEFADEC...][research_yin_bozhko_2018]
 - [Control oriented reduced order modeling of a flexible winged...][research_luspay_peni_2018]
-- [Coordinated control strategies for active steering...][research_termous_shraim_2018]
 - [Core-pressure alleviation for a wall-normal vortex by active...][research_liu_an_2018]
 - [Correction A Rapid-prototyping process for Flight Control...][research_kuchar_looye_2018_b]
 - [Correction Model Verification of a Satellite with Large...][research_mooij_gransden_2018_b]
@@ -9054,14 +8473,12 @@ correspondingly large. The period half is listed first.
 - [Design, Implementation and Flight-Tests of Incremental...][research_vanekeren_looye_2018]
 - [Discontinuous conduction mode three phase buck-boost derived...][research_sivanagaraju_rathore_2018]
 - [Dynamic pressure probe response tests for robust measurements...][research_sahin_schiffmann_2018]
-- [Dynamics and Control of a Novel Active Yaw Stabilizer to...][research_wang_chen_2018]
 - [Estimation of the Lateral Aerodynamic Coefficients for...][research_mohammadifarhadi_kortunov_2018]
 - [Effect of Ice Accretion on Safe Flight Envelope][research_yuan_li_2018]
 - [Embedded model control Reconciling modern control theory and...][research_canuto_novara_2018]
 - [Estimating Uncertainty Bounds for Modified Configurations...][research_denham_patil_2018]
 - [Estimation of Aerodynamic Warming with Non-zero Angle of...][research_machado_2018]
 - [Estimation of the flight thrust increment changing the...][research_korsun_prihodko_2018]
-- [Experimental study on prevention and control of coal...][research_wu_hu_2018]
 - [Extending Aircraft Thermal Endurance by Fuel Pump Sizing][research_oppenheimer_sigthorsson_2018]
 - [Flexible switching control of aircraft skin inspection robot...][research_wu_wang_2018_b]
 - [Flight Motion Controller Design using Genetic Algorithm for a...][research_tran_nguyen_2018]
@@ -9072,9 +8489,7 @@ correspondingly large. The period half is listed first.
 - [Gust response stabilization for rigid aircraft with...][research_liu_zhang_2018_c]
 - [Hybrid Cooperative Guidance Law for Active Aircraft Defense...][research_lyu_zhu_2018]
 - [In-Flight Estimation of Time-Varying Aircraft Center of...][research_manshadi_saghafi_2018]
-- [Induction motor speed control using reduced-order model][research_sabir_ibrir_2018]
 - [Inference of Aircraft Intent via Inverse Optimal Control...][research_yokoyama_2018]
-- [Kick control reliability analysis of managed pressure...][research_sule_khan_2018]
 - [Linear Model Predictive Safety Certification for...][research_wabersich_zeilinger_2018]
 - [Longitudinal Flight Multi-Control Blending Verification Using...][research_fellah_guiatni_2018]
 - [Low-Order Control Design using a Reduced-Order Model with a...][research_benner_mitchell_2018]
@@ -9085,7 +8500,6 @@ correspondingly large. The period half is listed first.
 - [Model Verification of a Satellite with Large Flexible...][research_mooij_gransden_2018]
 - [Modeling and Adaptive Flight Control for Quadrotor Trajectory...][research_bouadi_moracamino_2018]
 - [Modelling and Control of a miniature, low-aspect-ratio...][research_mitikiri_mohseni_2018]
-- [Modelling and Simulation of Main Battle Tank to Stabilize the...][research_shukla_2018]
 - [Multi-disciplinary Simulations of Stores in Weapon Bays using...][research_loupy_barakos_2018]
 - [Multi-missile Distributed Cooperative Guidance Law Based on...][research_xi_yongtao_2018]
 - [Near Wake Vortex Shedding and Noise Control Using Sweeping...][research_elsahhar_theunissen_2018]
@@ -9100,23 +8514,18 @@ correspondingly large. The period half is listed first.
 - [Overlapping-Decomposition-Based Control Design for Switched...][research_yang_guan_2018]
 - [Parallel Vortex Body Interaction Enabled by Active Flow...][research_weingaertner_tewes_2018]
 - [Parametric Design of Optimal in Average Fractional-Order PID...][research_panteleev_letova_2018]
-- [Plasma Probe Measurement Control System Design][research_wen_2018]
-- [Power coordinated control method with frequency support...][research_zhou_chen_2018]
 - [Preview-Based Altitude Control for a Very Flexible Flying...][research_qi_zhao_2018_b]
 - [Providing Flight-Path Control Bandwidth for Carrier Landings][research_hess_2018]
 - [Real Time Loading Test Rig for Flight Control Actuators Under...][research_chiavaroli_demartin_2018]
 - [Real-time Estimation of Power Consumption in Multi-rotor...][research_jang_2018]
-- [Risk factors for motorcycle loss-of-control crashes][research_wu_hours_2018]
 - [Robust Aircraft Trajectory Planning Under Wind Uncertainty...][research_gonzalezarribas_soler_2018]
 - [Robust Controller Design of Hypersonic Vehicle in Uncertainty...][research_wu_yu_2018]
 - [Robust Gain-Scheduled Flight Controller via A New Formulation...][research_sato_2018]
-- [Robust H∞ Output-feedback Vehicle Yaw Control Using an Active...][research_liang_yin_2018]
 - [Robust Model Predictive Control with Adjustable Uncertainty...][research_kim_zhang_2018]
 - [Robust Optimization of Mars Entry Trajectory under Uncertainty][research_jiang_2018]
 - [Robust autopilot design for landing a large civil aircraft in...][research_theis_ossmann_2018]
 - [Robust control of a class of under-actuated mechanical...][research_yang_feng_2018]
 - [Robust dynamic allocation for aircraft roll-out phase...][research_cassaro_roos_2018]
-- [STAMP-based analysis of deepwater well control safety][research_meng_chen_2018]
 - [Shock Control Method for Hypersonic Inlets Based on Forebody...][research_zhang_tan_2018]
 - [Slope angle estimation method based on sparse subspace...][research_li_cao_2018]
 - [Stability of Very Flexible Aircraft with Coupled Nonlinear...][research_changchuan_lan_2018]
@@ -9126,15 +8535,11 @@ correspondingly large. The period half is listed first.
 - [The aircraft dynamics and control at landing phase][research_bogos_dumitrache_2018]
 - [Trajectory tracking control of thrust-vectoring UAVs][research_invernizzi_lovera_2018]
 - [Transition to Hover for a Flying Wing with Electric Propulsion][research_cook_hauser_2018]
-- [Using Complicated Mathematical Model in the Control Loop For...][research_fi_iv_2018]
 - [Withdrawal Nonlinear Static Aeroelastic Trim and Stability...][research_zhang_zhou_2018_b]
-- [Yaw Moment Modification in NASCAR Race Vehicles via Passive...][research_jacuzzi_granlund_2018]
 - [Zero Shaping of Nonminimum Phase Aircraft Dynamics][research_caverly_forbes_2018]
 - [A Bayesian network based method for reliability analysis of...][research_liu_liu_2019_b]
 - [A Demonstration of Reliability and Certification Standards...][research_melnyk_2019]
-- [A Global Chassis Control System Involving Active Suspensions...][research_chokor_talj_2019]
 - [A Sliding Mode Altitude Flight Control for a Class of Tilting...][research_jianjian_qi_2019]
-- [A novel control strategy for grid connected distributed...][research_celik_meral_2019]
 - [A novel distributed extended Kalman filter for aircraft...][research_lu_gao_2019]
 - [Active Disturbance Rejection Control Design of the Yaw...][research_tang_mao_2019]
 - [Adaptive Aircraft Control in the Presence of Unstructured...][research_lymperopoulos_ioannou_2019]
@@ -9144,16 +8549,12 @@ correspondingly large. The period half is listed first.
 - [Aircraft model for the automatic taxi directional control...][research_krawczyk_szczepanski_2019_b]
 - [Algorithm of Two Turbojets Thrust Asymmetry Minimization for...][research_novichkov_burova_2019]
 - [An Online Bang-Bang Control Based Guidance Law for...][research_banerjee_amrr_2019]
-- [An optimal volt/var control strategy for an islanded...][research_zhuochen_zhaobindu_2019]
 - [Analysis of Ensuring Stability of Metrological...][research_grachev_safonov_2019]
 - [Attack-of-Angle Convergence Control Design and Decision...][research_xiaoxi_yongbo_2019]
 - [Autopilot Design][research_zaikang_defu_2019]
-- [Capability‐coordinated frequency control scheme of a virtual...][research_kim_muljadi_2019]
 - [Classification of principles of state control of civil...][research_moskalenko_arapov_2019]
-- [Control Strategy for MGT Generation System Optimized by...][research_zhu_wang_2019]
 - [Control of a Transonic Shock in a Serpentine Diffuser using...][research_burrows_vukasinovic_2019]
 - [Control of asymmetric flow over a blunt-nosed slender body][research_qi_wang_2019]
-- [Converter Fed DC Motor Speed Control Open Loop and Closed...][research_e_2019]
 - [Design of Active Control System of Passenger Aircraft for...][research_kuvshinov_lazurin_2019]
 - [Decentralized Control Strategies for Unmanned Aircraft System...][research_king_peterson_2019]
 - [Design and Flight Evaluation of Primary Control System for...][research_lavretsky_2019]
@@ -9163,7 +8564,6 @@ correspondingly large. The period half is listed first.
 - [Dissipative analysis for aircraft flight control systems with...][research_kumar_anthoni_2019]
 - [Disturbance rejection control of morphing aircraft based on...][research_gong_wang_2019]
 - [Dynamic Contraction Method approach to digital longitudinal...][research_czyba_stajer_2019]
-- [Effects of delays on current loop bandwidth in servo motor...][research_wang_luo_2019]
 - [Event-based Control and Scheduling Co-Design in Networked...][research_nazarzadeh_montazeri_2019]
 - [Excitation of the precessing vortex core by active flow...][research_luckoff_oberleithner_2019]
 - [Explicit bounds for guaranteed stabilization by PID control...][research_ma_chen_2019]
@@ -9174,18 +8574,14 @@ correspondingly large. The period half is listed first.
 - [Flow separation control of NACA-2412 airfoil with...][research_rajmohamed_guven_2019]
 - [From Theory to Flight Design and Application of Pitch Rate...][research_devi_2019]
 - [High Density Airspace Analysis with Comprehensive Pilot...][research_hu_li_2019]
-- [High-bandwidth fine tracking system for optical communication...][research_wang_li_2019]
 - [Hybrid Flocking Control Algorithm for Fixed-Wing Aircraft][research_sun_kwon_2019]
 - [Improved Delay-and-Its-derivative-Dependent Stability and...][research_gao_zhang_2019]
 - [Improved Tail Bounds for Missing Mass and Confidence...][research_chandra_pradeep_2019]
-- [Improvements in NASCAR Race Vehicle Side Force and Yawing...][research_jacuzzi_alemanchona_2019]
 - [Improving Human-Machine Collaboration Through...][research_akash_polson_2019]
 - [Inertial Angle of Attack estimation for a small transport...][research_jain_kamali_2019]
 - [Integration of Phase Plane Flight Envelope Protections in...][research_gabrys_steffensen_2019]
-- [Integration of process control protection layer into a...][research_danko_janosovsky_2019]
 - [Inverted Pendulum Control via Variable Speed Control Moment...][research_trentin_dasilva_2019]
 - [Investigation of Reduced-Order Modeling for Aircraft...][research_frink_hiller_2019]
-- [Low voltage ride through capability enhancement in a...][research_roy_basak_2019]
 - [Low-cost quadrotor hardware design with PID control system as...][research_altahtawi_yusuf_2019]
 - [MEMS sensor in flight control][research_varnava_2019]
 - [Missile Guidance Law Based on New Analysis and Design of SDRE...][research_lin_xin_2019]
@@ -9195,7 +8591,6 @@ correspondingly large. The period half is listed first.
 - [New Robust Method to Study Flight Flutter Testing][research_leclainche_morenoramos_2019]
 - [Nonlinear 3D path following control of a fixed-wing aircraft...][research_galffy_bock_2019]
 - [Online failure probability estimation under state estimation...][research_merlinge_cantou_2019]
-- [Open-loop Power Control for Moving Network System][research_park_chung_2019]
 - [Optimal Aircraft Design Deicions under Uncertainty via Robust...][research_ozturk_saab_2019]
 - [Optimal Cooperative Guidance Laws in a Multiagent Target...][research_shalumov_2019]
 - [Optimal Solution for Torque Capability of Control Moment...][research_sawyerelliott_peck_2019]
@@ -9203,19 +8598,16 @@ correspondingly large. The period half is listed first.
 - [Radius of Turn and Flight Path Angle Estimation from Unmanned...][research_benders_koch_2019]
 - [Real time estimation of impaired aircraft flight envelope...][research_norouzi_kosari_2019]
 - [Real-time Adaptive Prediction of Loss-of-Control Margins on a...][research_rafi_steck_2019]
-- [Real-time control for at-limit handling driving on a...][research_novi_liniger_2019]
 - [Reduced Order Model Predictive Control For Setpoint Tracking][research_lorenzetti_landry_2019]
 - [Robust control of parabolic stochastic partial differential...][research_baltas_xepapadeas_2019]
 - [Robust stabilization of discrete-time switched systems with...][research_taghieh_hashemzadeh_2019]
 - [Roll Control of Low-Aspect-Ratio Wings Using Articulated...][research_odonnell_mohseni_2019]
 - [SNR Stabilization over Fading Channels with Bandwidth...][research_rojas_garces_2019]
 - [Stabilization of Linear Systems with Input Delay by...][research_xie_wei_2019]
-- [Stepper motor open-loop control system modeling and control...][research_zhang_wang_2019]
 - [Study of Aircraft with Hybrid Laminar Flow Control Based on...][research_yanagimoto_rinoie_2019]
 - [Tensor Product Model-based Robust Flutter Control Design for...][research_takarics_vanek_2019]
 - [The Advanced Control Approach based on SMC Design for the...][research_hace_2019]
 - [Trajectory Planning in Time-Varying Adverse Weather for...][research_mothes_2019]
-- [Van der Pol filter of chaotic vortex signal in vortex...][research_iwai_2019]
 - [A Robust Scheduling Model for Continuous Berth Allocation...][research_wu_miao_2020]
 - [A framework for robust quadratic optimal control with...][research_lefebvre_debelie_2020]
 - [A mathematical simulation and evaluation method for the...][research_huang_yang_2020]
@@ -9237,14 +8629,12 @@ correspondingly large. The period half is listed first.
 - [Bond Graph Based Model for Robust Fault Diagnosis][research_elharabi_abdelkrim_2020]
 - [Control of a Passively-Coupled Hybrid Aircraft][research_patience_nahon_2020]
 - [Control of a Thrust-Vectoring CubeSat Using a Single...][research_biggs_livornese_2020]
-- [Coordinated control of active front steering and direct yaw...][research_guo_zhang_2020]
 - [Cost-Effective Control of Unmanned Aircraft Systems][research_mirchandani_2020]
 - [Criteria for the Stability Limit Prediction of High Speed...][research_cravero_marsano_2020]
 - [Delay Independent Output Feedback Stabilization of...][research_wei_lin_2020]
 - [Derived Angle of Attack and Sideslip Angle Characterization...][research_valasek_harris_2020]
 - [Design of Yaw and Tilt Alignment Inspection System for a...][research_oh_yu_2020]
 - [Development of a Display Tool to Quality Control Weather...][research_jessicakheadley_charlesmsayrejr_2020]
-- [Development of an International Convention on the Control of...][research_batyr_2020]
 - [Dynamic Stability Analysis of Aircraft Flight in Deep Stall][research_cunis_condomines_2020_b]
 - [Error Bounds for Reduced Order Model Predictive Control][research_lorenzetti_pavone_2020]
 - [Event-triggered sliding mode control for a high-order system...][research_kumari_bandyopadhyay_2020]
@@ -9260,14 +8650,11 @@ correspondingly large. The period half is listed first.
 - [High Reliability Simulation and Application Design of CPCI...][research_li_li_2020]
 - [Improved Multi-Camera Coverage Control of Unmanned Multirotors][research_huang_yang_2020_b]
 - [Improved adaptive NN backstepping control design for a...][research_zheng_yang_2020]
-- [Integrated model reference adaptive control to coordinate...][research_ahmadian_khosravi_2020]
 - [Landing control design for a VTOL aircraft][research_ye_li_2020]
 - [Lateral Stability and Control of a Flying Wing Configuration...][research_wang_tang_2020]
 - [Low-Cost Educational Feedback Control System Helicopter Tail...][research_chuckpaiwong_boekfah_2020]
 - [Low-complexity hypersonic flight control with asymmetric...][research_an_guo_2020]
 - [Model Predictive Control Design for Tilt-Rotor Aircraft at...][research_wang_wu_2020]
-- [Model identification and nonlinear adaptive control of...][research_chen_xu_2020]
-- [Model predictive control‐based optimal voltage regulation of...][research_dutta_ganguly_2020]
 - [Modeling resilience of the ATC Air Traffic Control sectors][research_jaksic_janic_2020]
 - [Modelling and Compensation of Uncertain Time-delays in...][research_modelling_and_2020]
 - [Motion Equations and Longitudinal Control of a Convertible...][research_czyba_kronhof_2020]
@@ -9281,20 +8668,14 @@ correspondingly large. The period half is listed first.
 - [Parallel vortex body interaction enabled by active flow...][research_weingaertner_tewes_2020]
 - [Power flow control capability of the power...][research_gasimmohamed_2020]
 - [Practical Implementation of Passivity-Based Robust Switching...][research_jung_2020]
-- [Precise slave-side force control for security enhancement of...][research_ruwanthika_katsura_2020]
 - [Research on Longitudinal Landing Track Control Technology of...][research_liang_chen_2020]
 - [Research on Military Aviation Air Traffic Control Safety...][research_wei_qu_2020]
 - [Revisiting the Fundamentals of Control Surface Reversal...][research_bueno_dowell_2020]
-- [Road handling improvement through active yaw control system...][research_muniandy_ong_2020]
 - [Robust Nonlinear Flight Controller For Small Unmanned...][research_safwat_weiguo_2020]
 - [Robust Stability Analysis of an Uncertain Aircraft Model with...][research_aslam_shoaib_2020]
-- [Safety-centered process control design based on dynamic safe...][research_ariamuthuvenkidasalapathy_kravaris_2020]
 - [Saturation control of PVTOL aircraft on time scales][research_ozturk_mguzey_2020]
-- [Stochastic Transmission Dynamic Model for Evaluating...][research_channapathi_thatikonda_2020]
-- [Stuck Half Way The Limitation of Joint Control after Fashion...][research_spechtriemenschneider_schneider_2020]
 - [Sum-of-Squares Flight Control Synthesis for Deep-Stall...][research_cunis_condomines_2020]
 - [Testing and verification of neural-network-based...][research_zhang_li_2020]
-- [The influence of feedback channel delay of servo motor...][research_wang_luo_2020]
 - [Trim Analysis for an Electric Rotorcraft Utilizing a Moving...][research_brown_2020]
 - [2021 International Conference on Unmanned Aircraft Systems...][research_2021_international_2021]
 - [A Digital Twin-Based Platform towards Intelligent Automation...][research_yiu_ng_2021]
@@ -9319,11 +8700,7 @@ correspondingly large. The period half is listed first.
 - [Design of control device on aircraft for improving ergonomics][research_luo_2021]
 - [Developing a Magnetic Suspension System Capable of...][research_sugiura_kai_2021]
 - [Development of primary flight display human machine interface...][research_atmasari_bahri_2021]
-- [Disturbance attenuation control for LVRT capability...][research_qin_zhang_2021]
 - [Droop control design to minimize losses in DC microgrid for...][research_mohamed_rashed_2021]
-- [Dual-Loop PQ Control Scheme for Transient Stability...][research_sun_yao_2021]
-- [Dynamic risks hierarchical management and control technology...][research_miao_yu_2021]
-- [Energy‐maximising moment‐based constrained optimal control of...][research_faedo_scarciotti_2021]
 - [Evaluating the Effectiveness of Compliant Leading Edge...][research_deslich_flick_2021]
 - [Evaluation of ML Algorithms for System Dynamics...][research_mukhachev_sukhov_2021]
 - [Event‐driven adaptive near‐optimal tracking control of the...][research_wu_wang_2021]
@@ -9332,23 +8709,16 @@ correspondingly large. The period half is listed first.
 - [Fault observer for morphing aircraft with inaccurate attack...][research_wang_wang_2021_b]
 - [Flow separation control using a bio-inspired nose for NACA 4...][research_rajmohamed_yadav_2021]
 - [Flying Wing Drones based on Cricket Antennas][research_hassairi_abid_2021]
-- [Force-Driven Path Tracking Control Strategy Based on Vehicle...][research_yao_tian_2021]
-- [Frequency analysis of signal obtained from pressure probe...][research_kollross_tajc_2021]
 - [Fuzzy Logic Active Yaw Control of a Low-Power Wind Generator][research_haro_young_2021]
 - [Fuzzy Model of Situational Control of the Flight Parameters...][research_melekhin_khachumov_2021]
 - [General Conceptual Design of Small Unmanned Aircraft...][research_hlinkova_andoga_2021]
 - [Global Trajectory-tracking Control for a Tailsitter Flying...][research_tal_karaman_2021]
-- [Hierarchical Robust Model-based Predictive Control in Supply...][research_dorostian_moradmand_2021]
 - [Hybrid Laminar Flow Control on A320 Fin Retrofit Design and...][research_schrauf_vongeyr_2021]
-- [Instant and seamless closing of control system of IPMSM after...][research_dianov_2021]
-- [Inter-Observer and Intra-Observer Reliability of 2D...][research_gopurathingal_bhonsle_2021]
 - [Inverted Triangular Decoupling Control of Stable Two-Input...][research_ogunba_taiwo_2021]
 - [Joint Depth and Normal Estimation from Real-world...][research_gao_fan_2021]
-- [Loss Minimization Control of an Electronic Pole Changing...][research_latif_jaffar_2021]
 - [Low-Reynolds-Number Flowfield of Wing with Control Surface in...][research_ikami_fujita_2021]
 - [Low-Thrust Transfer Between Circular Orbits Using Natural...][research_wen_zhang_2021]
 - [Mental Workload of Air Traffic Control ATC Personnel at...][research_seftiyana_2021]
-- [Model Predictive Control of Fish Schooling Model with...][research_ogura_wakamiya_2021]
 - [Model-Free Scheme for Angle-of-Attack and Angle-of-Sideslip...][research_lerro_brandl_2021]
 - [Multiple-Aircraft-Conflict Resolution Under Uncertainties][research_zhao_erzberger_2021]
 - [Multivariable Nonlinear Model Predictive Controller Design...][research_liavoli_shadi_2021]
@@ -9356,7 +8726,6 @@ correspondingly large. The period half is listed first.
 - [Nonlinear Trajectory Based Region of Attraction Estimation...][research_lai_cunis_2021]
 - [Nonlinear learning‐based model predictive control supporting...][research_wabersich_zeilinger_2021]
 - [Nonlinear stochastic estimation of altitude and vertical...][research_kharkov_korsun_2021]
-- [Novel Control Approach with FRT capability for Grid connected...][research_valluri_2021]
 - [Observer-based Angle of Attack Estimation for Tilt-Wing eVTOL...][research_yokota_fujimoto_2021]
 - [On Some Approaches to Development of Flight Safety Control...][research_pashchenko_akhrameev_2021]
 - [Open-loop and closed-loop solvabilities for stochastic linear...][research_zhang_li_2021]
@@ -9370,22 +8739,18 @@ correspondingly large. The period half is listed first.
 - [Reliability of EC 155 B1 Aircraft Components Using Upper...][research_mahroni_2021]
 - [Real-time Adaptive Optimal Prediction of Safe Control Spaces...][research_rafi_steck_2021]
 - [Reinforcement-Learning-Based Adaptive Optimal Flight Control...][research_sun_vankampen_2021]
-- [Resilient Control Algorithm for Wind-Hydro Based Distributed...][research_sharma_singh_2021]
 - [Robust Full-Envelope Flight Control Design for an eVTOL...][research_yang_morales_2021]
 - [Robust Model Reference Adaptive Control for Tail-Sitter VTOL...][research_ajel_humaidi_2021]
 - [Robust Nonlinear Close Formation Control of Multiple...][research_zhang_liu_2021]
 - [Robust adaptive finite‐time trajectory tracking control of a...][research_wu_zhang_2021]
 - [Robust control design for the FLEXOP demonstrator aircraft...][research_takarics_vanek_2021]
 - [Robust model predictive control for hypersonic vehicle with...][research_hu_yang_2021_b]
-- [Robust optimization of multi-probe roundness measurement...][research_tiainen_viitala_2021]
 - [Simulation of an integro-differential equation and...][research_cai_xiao_2021]
 - [Simultaneous Combined Optimal Design and Control Formulation...][research_nakka_alexanderramos_2021]
 - [Stabilization of Unstable Second-Order Delay Plants under PID...][research_sun_ma_2021]
-- [Surrogate‐assisted optimal re‐dispatch control for risk‐aware...][research_qiu_liu_2021]
 - [System Analysis of Control Methodology in Flight Control of...][research_system_analysis_of_2021]
 - [Temperature and Pressure Dynamic Control for the Aircraft...][research_zheng_liu_2021]
 - [The 2020 International Conference on Unmanned Aircraft...][research_valavanis_tzes_2021]
-- [The Energy-Based Control Frame and its Limitation for...][research_lu_xiao_2021]
 - [Transient Dynamics Assessment of a Gain-Scheduled Aircraft...][research_nguyen_lowenberg_2021]
 - [Transient-Suppressing Initialization for Low-Bandwidth...][research_vigneron_delchambre_2021]
 - [Tuning rules Graphical analysis and experimental validation...][research_dwivedi_pandey_2021]
@@ -9394,23 +8759,16 @@ correspondingly large. The period half is listed first.
 - [3D Aircraft Control Surface Enabled by Co-Flow Jet Flap][research_xu_zha_2022]
 - [6DOF nonlinear control loading system for a large transport...][research_amirahmadichomachar_kuppusamy_2022]
 - [A Comparison of Command and Control Communication Protocols...][research_reichstein_schopferer_2022]
-- [A Comprehensive Analysis on the Effect of Right Half Plane...][research_vyapari_vijunair_2022]
 - [A Continuity-Based Command Mapping Approach Applied to...][research_angelov_holzapfel_2022]
 - [A Predictive and Adaptive Integrated Flight Display For...][research_rafi_schmitz_2022]
 - [A Reduced-Order Multiple-Model Adaptive Identification...][research_zhang_wang_2022_b]
 - [A Tutorial and Review on Flight Control Co-Simulation Using...][research_horri_pietraszko_2022]
-- [A control philosophy for complex Non-square chemical process][research_sujatha_panda_2022]
-- [A current‐limiting DC circuit breaker with power flow control...][research_xue_chen_2022]
-- [A novel control strategy for effects of Right-Half Plane Zero...][research_wang_zhang_2022]
-- [A novel control technique for on‐load tap changer to enlarge...][research_hoseinzadeh_blaabjerg_2022]
-- [A novel equilibrium optimized double-loop control scheme for...][research_aryan_raja_2022]
 - [A semi-automated approach for requirement-based early...][research_chrysalidis_hoeber_2022]
 - [Active Flow Control Devices for Wing Load Alleviation][research_khalil_asaro_2022]
 - [Adaptive Control Validation Using a MATLAB‐Based CFD/RBD...][research_sahu_gruenwald_2022]
 - [Adaptive Energy Control of Longitudinal Aircraft Dynamics][research_anandakumar_bernstein_2022]
 - [Adaptive Robust Model Predictive Control with Matched and...][research_sinha_harrison_2022]
 - [Adaptive multi-missile cooperative guidance law based on...][research_xu_shi_2022]
-- [Aggregate Modeling and Non-Disruptive Control of Residential...][research_nugroho_granitsas_2022]
 - [Agile flight for a quadrotor via robust geometry control...][research_gu_xian_2022]
 - [Aircraft Spiral Recovery with Altitude Control][research_salahudden_das_2022_b]
 - [Aircraft Takeoff and Landing Weight Estimation from...][research_salgueiro_huynh_2022]
@@ -9429,14 +8787,11 @@ correspondingly large. The period half is listed first.
 - [Design of Fuzzy Control System for Generic Aircraft/UAVs][research_singh_verma_2022]
 - [Design of Hybrid Laminar Flow Control System for Aircraft...][research_zareshahnehb_2022]
 - [Design of Robust H-infinity Flight Control for MIMO Model of...][research_prakosa_kurniawan_2022]
-- [Design of X-rudder AUV’s Motion Control using Sliding Mode...][research_ameer_kamal_2022]
 - [Distributed Fluidic Control Method for Alleviating Rapid...][research_wang_xu_2022]
-- [Dynamic Inverse Control of Rudder Roll / Yaw Stabilization...][research_qi_li_2022]
 - [Dynamic Response of Swept Wing Aerodynamics to Active Flow...][research_brandt_mcfadden_2022]
 - [Dynamics and anti-disturbance control for tethered aircraft...][research_song_huang_2022]
 - [Effect of opposing jet on aerodynamic and flight stability...][research_rashid_nawaz_2022]
 - [Estimation of Resultant Airframe Forces for a Variable Pitch...][research_rajendran_tunstall_2022]
-- [Evasion-Aware Neyman-Pearson Detectors A Game-Theoretic...][research_hu_zhu_2022]
 - [Flatness-Based Reduced Hessian Method for Optimal Control of...][research_sandeepkumar_mohan_2022]
 - [Flight Demonstration and Validation of Control Acquisition...][research_jares_valasek_2022]
 - [Flight Dynamics Integration Approach for Aircraft using...][research_coletti_faruque_2022]
@@ -9447,35 +8802,25 @@ correspondingly large. The period half is listed first.
 - [Fluidic oscillator with active phase control][research_nicholls_bacic_2022]
 - [Fractional order sliding mode control based on delayed output...][research_bist_sondhi_2022]
 - [Game-Theoretic Steady-State Control][research_romano_pavel_2022]
-- [How Event-driven Intermittent Control with Unstable Open and...][research_dash_palanthandalammadapusi_2022]
-- [Human resource risk control through COVID-19 risk assessment...][research_ambarwati_yuliastri_2022]
 - [Icon Design for Representing Safety-Critical Aircraft...][research_friedrich_richards_2022]
-- [Improvement of Control Loop Bandwidth of UPFC in Dynamic...][research_fang_wu_2022]
 - [In-Wing Pressure Measurements for Airspeed and Airflow Angle...][research_heinrich_vogt_2022]
 - [Invariant Tensor Modeling and Functional Matrix Coding of...][research_yin_2022]
 - [Large-Slenderness-Ratio Supersonic Aircraft Lateral...][research_lyu_gong_2022]
 - [Lateral directional geometric control for small fixed-wing...][research_martinezramirez_rodriguezcortes_2022]
 - [Leveraging Ground Test Data for Aero-Engine Thrust Estimation][research_zhang_hu_2022]
 - [Longitudinal flight dynamics modeling and a flight stability...][research_tong_shi_2022]
-- [Modeling, design and control of a modified flyback converter...][research_goudarzian_khosravi_2022]
-- [Model‐based robust control design and experimental validation...][research_zhen_zhang_2022]
 - [Modern Aircraft Flight Control Design and Bare Aircraft...][research_amato_cortigiani_2022]
 - [Neural-Network-Based Terminal Sliding Mode Control of Space...][research_xia_jia_2022]
 - [Nonlinear Accommodation of a DC-8 Aircraft Affected by a...][research_mlayeh_benothman_2022]
 - [Nonlinear Analysis for Wing-Rock System with Adaptive Control][research_li_tsourdos_2022]
 - [Nonlinear Control of Longitudinal Aircraft Dynamics with a...][research_blodgett_lagor_2022]
 - [Numerical study of the yaw control of flapless aircraft][research_li_xu_2022]
-- [On Agent Incentives to Manipulate Human Feedback in...][research_ward_toni_2022]
 - [Open-loop Control of a Soft Arm in Throwing Tasks][research_bianchi_antonelli_2022]
-- [Optimal Voltage Control in Low-Observable Unbalanced...][research_abujubbeh_kumarr_2022]
 - [Optimization Design of Air Traffic Control Safety Risk...][research_optimization_design_2022]
 - [PD-Based Control of Cart-Pole System on Inclined Plane with...][research_wang_2022_b]
 - [Particle Filter Based Continuous-time Generalized Predictive...][research_xu_deng_2022]
-- [Predictive direct yaw moment control with active steering...][research_iles_svec_2022]
-- [Real‐time low/high‐voltage ride‐through capability...][research_kordkandi_hagh_2022]
 - [Reduced Order Aerodynamics and Flight Mechanics Coupling For...][research_bath_gaitonde_2022]
 - [Regulator with reference model for u nmanned aircraft control...][research_regulator_with_2022]
-- [Research on Yaw Stability Control Method of Liquid Tank...][research_li_fu_2022]
 - [Rethinking Sampled-Data Control for Unmanned Aircraft Systems][research_zhang_bradley_2022]
 - [Robust Stability Analysis of Unstable Second Order Plus...][research_asadi_farnam_2022]
 - [Robust Terminal Sliding Mode Control on SE 3 for Gough...][research_xie_dai_2022]
@@ -9483,30 +8828,24 @@ correspondingly large. The period half is listed first.
 - [Robust control of aircraft flight in conditions of...][research_karimtaevna_bekbolatovna_2022]
 - [Signalling and Control of Nonlinear Partially Observable...][research_charalambous_kourtellaris_2022]
 - [Switched Control Strategy for Robust Formation Flight with...][research_ambroziak_kownacki_2022]
-- [The Influence of Spatio-temporal Based Human-Machine...][research_wang_you_2022]
 - [Three-dimensional Multi-missile Cooperative Guidance Law with...][research_meng_yang_2022]
 - [Trajectory Tracking Based on Active Disturbance Rejection...][research_deng_xu_2022]
 - [Transition Trajectory Optimization for a Tiltwing VTOL...][research_panish_bacic_2022]
 - [Volume Estimation From Planform Characteristics of Washover...][research_lazarus_williams_2022]
-- [A Combination Strategy of Saturated Yaw Moment Control with...][research_peng_chang_2023]
 - [A Comparison of Partially and Fully Integrated Guidance and...][research_gaudet_furfaro_2023]
 - [A Design Model for Electric Environmental Control System in...][research_fioriti_difede_2023]
 - [AN Optimization control Techniques for Aircraft Yaw Control...][research_shankar_l_2023]
 - [Active Flow Control of a Swept Wing in Subsonic Compressible...][research_rambacher_bons_2023]
-- [Active flow control of the airflow of a ship at yaw][research_xu_su_2023]
 - [Active flutter suppression on a flexible wing via...][research_chen_shi_2023_b]
 - [Adaptive Feed-Forward Control for Gust Load Alleviation on a...][research_zhang_zhao_2023_b]
 - [Advanced Algorithms for Verification and Validation of...][research_wagner_henrion_2023]
-- [Advanced process control system with MPC as a new approach...][research_marques_alvarez_2023]
 - [Aircraft flutter suppression from a parametric model to...][research_desouza_poussotvassal_2023]
 - [An Efficient and Robust Sizing Method for eVTOL Aircraft...][research_ugwueze_statheros_2023]
 - [An Innovative Diesel Burner for Thermal Management of Exhaust...][research_kang_2023]
 - [Analisis Pemanfaatan Gelombang Elektromagnetik pada WX Radar...][research_restudwisetiyoutami_sudartisudarti_2023]
-- [Analysis of voltage loop bandwidth and control delay effects...][research_xu_lu_2023]
 - [Angle-of-Attack Estimation for General Aviation Aircraft][research_ivankovic_vrdoljak_2023]
 - [Anti-saturation Sliding Mode Control with Preassigned...][research_zheng_liu_2023]
 - [Application of Active Flow Control Technologies for Improving...][research_hooker_2023]
-- [Assurance of Learning in Marketing Bachelors Program An...][research_kokku_2023]
 - [Attention-Enabled Memory for Concurrent Learning Adaptive...][research_habboush_yildiz_2023]
 - [Attitude Stability Control and Visualization Simulation for...][research_li_shi_2023]
 - [Autonomous reliable intelligent control design under...][research_wang_wei_2023_b]
@@ -9516,8 +8855,6 @@ correspondingly large. The period half is listed first.
 - [Constrained Attitude Control for Flexible Spacecraft Attitude...][research_golestani_esmaeilzadeh_2023]
 - [Control Design of Flight Simulation Turntable Based on...][research_mingtan_yu_2023]
 - [Control Surfaces for Supersonic Airfoil Using Co-flow Jet...][research_lei_zha_2023]
-- [Control of Distributed Generation System with Grid...][research_tiwari_singh_2023]
-- [Controller parameter tuning for gain‐scheduled vehicle...][research_yahagi_suzuki_2023]
 - [Cooperative Guidance Law of Multi-Missile Dynamic Roundup...][research_meng_yang_2023]
 - [Coordinated Roll Control of Conformal Finless Flying Wing...][research_shearwood_nabawy_2023]
 - [Correction Control Surfaces for Supersonic Airfoil Using...][research_lei_zha_2023_c]
@@ -9532,12 +8869,10 @@ correspondingly large. The period half is listed first.
 - [Discussion of passenger service unit design requirements in...][research_xulei_yao_2023]
 - [Distribution Network Closed-Loop Control Method Using...][research_pang_yang_2023]
 - [Distributionally Robust Optimization of Adaptive Cruise...][research_zhang_hadji_2023]
-- [Driver and Vehicle Cooperative Control System Based on Active...][research_chen_yan_2023]
 - [Dynamic Modelling and Robust Backstepping Control of Hybrid...][research_khatri_gupta_2023]
 - [Dynamic Numerical Simulation of Cockpit Temperature in...][research_wang_yao_2023]
 - [Enhancing Limited Authority Adaptive Control Peudocontrol...][research_enhancing_limited_authority_2023]
 - [Enhancing Supersonic Rudder Control Surface Using Co-flow Jet...][research_lei_zha_2023_b]
-- [Environmental noise modeling, quality control, verification...][research_forschner_2023]
 - [Exact Controllability of the Vortex System by Means of a...][research_dorsz_glass_2023]
 - [Explicit Midcourse Guidance Law for Multi-Stage Antiballistic...][research_lee_jung_2023]
 - [Extended Approach to Analytical Triangular Decoupling...][research_ogunba_fakunle_2023]
@@ -9545,15 +8880,11 @@ correspondingly large. The period half is listed first.
 - [Flight Vehicle Control Design Based on Modern Control Theory][research_yijie_deshuang_2023]
 - [Flight testing of the effects of airspeed and aircraft...][research_seaver_bennett_2023]
 - [Flightcrew Thrust Control and Engine Display Concepts for the...][research_arthur_kennedy_2023]
-- [Food safety management system certification - the...][research_food_safety_2023]
 - [High Power Density Motor for Light Electric Aircraft Design...][research_wolnik_jarek_2023]
 - [Holistic Approach for Aircraft Trajectory Optimization Using...][research_kasmi_laporte_2023]
 - [Identifying Pilot Control Adaptations to Sudden Changes in...][research_jiao_sun_2023]
 - [Improved Two-Step Finite-Time Stabilization Control for...][research_chen_zhu_2023]
-- [Improving the Quality of Automated Vehicle Control Systems...][research_khilenko_galinski_2023]
 - [Incremental Nonlinear Control for Aeroelastic Wing Load...][research_schildkamp_chang_2023]
-- [Influence of sensor installation tilt angle on explosion...][research_wang_kong_2023]
-- [Integrated Braking and Traction Torque Vectoring Control...][research_jneid_harth_2023]
 - [Integrated guidance and control of hypersonic flight vehicle...][research_shou_yan_2023]
 - [Integration of Active Flow Control Effectors into Aircraft...][research_zelman_silic_2023]
 - [Interface Design of DJI Tello Quadcopter Flight Control][research_fahmizal_afidah_2023]
@@ -9565,30 +8896,22 @@ correspondingly large. The period half is listed first.
 - [Multi-Axis Nose-Pointing-and-Shooting in a Biomimetic...][research_pons_cirak_2023]
 - [Multi-Missile Cooperative Guidance Law Under Communication...][research_dong_yang_2023]
 - [Multi-Objective Aircraft Robust Trajectory Optimization...][research_chang_hu_2023]
-- [Natural effectors for conformational control of coronavirus...][research_asarnow_veesler_2023]
 - [New Backstepping Control of Nonlinear Uncertain Systems with...][research_selman_2023]
-- [Nonlinear model predictive control for yaw rate and body...][research_ricco_alshawi_2023]
 - [Nonparametric Adaptive Robust Control under Model Uncertainty][research_bayraktar_chen_2023]
 - [Observer Backstepping Design for Flight Control][research_safinaz_mohammed_2023]
 - [Optimal Cruise Airspeed for Hybrid-Electric and Electric...][research_li_rodrigues_2023]
-- [Optimal coordinated control of active steering and direct yaw...][research_dong_li_2023]
 - [Parametric study of the effectiveness of active yaw control...][research_wei_wang_2023]
 - [Passive Transonic Shock Control on Bump Flow for Wing Buffet...][research_dipasquale_prince_2023]
 - [Plasma Gurney Flap Flight Control at Low Angle of Attack][research_gu_ducvo_2023]
-- [Pole-Transition Control of Variable-Pole Machines Using...][research_wu_olson_2023]
 - [Pressure Stabilized POD Reduced Order Model for Control of...][research_ravindran_2023]
 - [Real Time Flight Timing Estimation at Airports Using Kalman...][research_srisiddhartha_saha_2023]
-- [Reduced-order model predictive control of a fish schooling...][research_ogura_wakamiya_2023]
 - [Refinement of aircraft dynamics model and control system...][research_refinement_of_2023]
 - [Research on Axial Force Balance and Loss Optimization Control...][research_fan_liang_2023]
 - [Research on the Integrated Design of Missile Guidance Control...][research_research_on_2023]
-- [Resilient Control Algorithm for Wind-Hydro Based Distributed...][research_sharma_singh_2023]
 - [Robust Flight-Path Angle Consensus Tracking Control for...][research_zhu_qin_2023]
 - [Robust active yaw control for offshore wind farms using...][research_wang_wei_2023]
-- [Robust adaptive path following control of autonomous...][research_xu_wan_2023]
 - [Robust trajectory tracking control for cable-driven parallel...][research_ning_han_2023]
 - [Rotor Cross-Tilt Optimization of Manned Multi-rotor eVTOL...][research_yan_cai_2023]
-- [Scheduled power tracking control of the virtual power plant...][research_chen_chen_2023]
 - [Secondary Flow Control of Turbomachinery Blades Using Vortex...][research_putzu_ghisu_2023]
 - [Sparse feedback controller from open-loop solution to...][research_zhang_fujisaki_2023]
 - [Stability Analysis and Energy Management of a Novel Electric...][research_wen_liang_2023]
@@ -9598,17 +8921,13 @@ correspondingly large. The period half is listed first.
 - [The angle of attack and side-slip angle estimation for civil...][research_liu_2023]
 - [Uncertainty propagation for nonlinear dynamics A polynomial...][research_covella_fantuzzi_2023]
 - [Unmanned Aircraft/Aerial System UAS Noise Compilation][research_rochat_2023]
-- [Use of a Time-of-Flight 3D Camera for Real-Time Nonporous...][research_mullins_esau_2023]
-- [Weak magnetic control of PMSM servo system with high...][research_ding_ji_2023]
 - [uWSC Aircraft Simulator A Gazebo-based model for uncrewed...][research_mailhot_dejesuskrings_2023]
 - [A Digital-Model-Based Approach for Defining HIRF Immunity...][research_wang_zhang_2024]
-- [A Low Voltage Ride-Through Control Strategy of Distributed...][research_fang_gao_2024]
 - [A Robust Sliding-Mode Control Framework for Quadrotors...][research_yang_huang_2024]
 - [Advanced Subsonic Aircraft Engine Noise Reduction Research][research_groeneweg_2024]
 - [Aircraft Noise - Flight Operational Aspects][research_woodburn_2024]
 - [Active Flutter Suppression of a Wing Section in the Subsonic...][research_munoz_garciafogeda_2024]
 - [Active Sequential Posterior Estimation for Sample-Efficient...][research_griesemer_cao_2024]
-- [Adaptive PPC-Based SMC of Axial Active Suspension Control...][research_pan_chu_2024]
 - [Adaptive Robust Trajectory-Tracking Control for Underactuated...][research_ma_chen_2024]
 - [Advanced autopilot design with extremum-seeking control for...][research_baran_bayezit_2024]
 - [Advances in flight control systems for modern commercial...][research_du_2024]
@@ -9616,14 +8935,11 @@ correspondingly large. The period half is listed first.
 - [Aeroelastic vibrations control system of an unmanned aircraft][research_bondarenko_shkolnyi_2024]
 - [Angle-of-attack and angle-of-sideslip estimation and...][research_zhai_li_2024]
 - [Artificial Compression POD Reduced Order Model for Control of...][research_ravindran_2024]
-- [Beyond the stable handling limits nonlinear model predictive...][research_goh_thompson_2024]
 - [Blended Pilot and Controller Authority Architecture for...][research_belak_hromcik_2024]
-- [Characteristic and oscillation tendency study for different...][research_kloetzer_weber_2024]
 - [Comprehensive Analysis of Advanced Display and Control...][research_alharasees_zolfaghari_2024]
 - [Computational Investigation of Control Effectors on a Generic...][research_paul_despirito_2024]
 - [Control of the flow around a finite-height square cylinder...][research_zhu_wang_2024]
 - [Controlling Angle of Attack of Aircraft by Noble Optimization...][research_bal_swain_2024]
-- [Coordination of Active Front Steering and Direct Yaw Control...][research_muhammad_vali_2024]
 - [Design and Optimization of Control System for More Electric...][research_phosung_areerak_2024]
 - [Design and Verification of Thermal Control System of...][research_huang_bu_2024]
 - [Design of Hybrid-Laminar-Flow-Control Wing and Suction System...][research_prasannakumar_sudhi_2024]
@@ -9632,12 +8948,9 @@ correspondingly large. The period half is listed first.
 - [Developing Modular Vehicle and Flight Control Management...][research_marvakov_huber_2024]
 - [Development and Evaluation of Multirotor Flight Dynamic...][research_hopwood_simmons_2024]
 - [Disposal Method for Left and Right Angle of Attack Difference...][research_zhang_2024]
-- [Distributed Generation with Voltage Control Capability in the...][research_fsulla_jbjornstedt_2024]
 - [Distributed feather-inspired flow control mitigates stall and...][research_sedky_simon_2024]
-- [Dual-loop PID control strategy for ramp tracking and ramp...][research_das_chakraborty_2024]
 - [Dynamic Active Subspaces for Model Predictive Allocation in...][research_singh_lambeth_2024]
 - [Effective Angle of Attack Measurements in Active Control for...][research_sen_saritas_2024]
-- [Ergonomic design and evaluation of human-machine interaction...][research_li_ye_2024_b]
 - [Estimating Aircraft Power Requirements A Study of Electrical...][research_voth_lubbe_2024]
 - [Extremum Seeking Control Techniques for Antenna Pointing][research_shore_lane_2024]
 - [Flight Dynamics and Control Integration in Conceptual Design...][research_mishra_chakraborty_2024_b]
@@ -9648,7 +8961,6 @@ correspondingly large. The period half is listed first.
 - [Fluidic Flow Control Devices for Gust Load Alleviation][research_khalil_bauknecht_2024]
 - [Formation Flying for Fixed Wing UAVs with Obstacle Avoidance...][research_antony_kumar_2024]
 - [Full-Envelope Flight Control for Compound Vertical Takeoff...][research_kai_2024]
-- [Fuzzy-based Vehicle Yaw Stability Control System with Torque...][research_herath_rajasuriya_2024]
 - [High-Speed Aircraft Stability and Control Metrics][research_takahashi_griffin_2024]
 - [Hunting stability control of high-speed bogie based on active...][research_mao_zeng_2024]
 - [Incremental Nonlinear Dynamics Inversion Control with...][research_kim_kim_2024]
@@ -9659,27 +8971,20 @@ correspondingly large. The period half is listed first.
 - [Low Flying Aircraft Noise - Is It a Health Risk?][research_ludlow_2024]
 - [Model Predictive Planning Trajectory Planning in...][research_wallace_streetman_2024]
 - [Moving-fuzzy sliding mode control of aircraft wing-rock motion][research_aloui_larguech_2024]
-- [Multi-stage voltage control in high photovoltaic based...][research_kumartatikayala_dixit_2024]
 - [Nonlinear Generalized Predictive Control for a Novel...][research_li_yang_2024]
 - [Nonlinear Model Predictive Control for Autonomous Flight...][research_masaoka_hashimoto_2024]
 - [Numerical simulation study on temperature field of aircraft...][research_xing_fan_2024]
 - [Optimal Flight Trajectories of Hybrid Electric Aircraft with...][research_nie_ko_2024]
-- [Overvoltage ride through control strategy for improving...][research_zhao_zhang_2024]
-- [Path-tracking control at the limits of handling of a...][research_lin_siampis_2024]
-- [Power Supply Design How Bode Plots Can Help You Meet The...][research_dostal_2024]
-- [Proactive control Endogenous cueing effects in a two-target...][research_montakhabynodeh_maclellan_2024]
 - [Research on High-Precision Thrust Control Methods for...][research_liu_wang_2024]
 - [Research on Optimal Allocation of Command Decision-making...][research_jin_zhang_2024]
 - [Research on Over-Speed Protection Control Method for Aircraft...][research_jie_xu_2024]
 - [Research on open-loop control system of three-axis mobile...][research_yang_yang_2024_b]
 - [Research on the Prevention and Control of Low-Slow-Small...][research_li_wen_2024]
-- [Research on the diffusion and control of unsafe behaviors...][research_ding_liu_2024]
 - [Robust Finite-Time Control for Guidance Law with...][research_tao_shi_2024]
 - [Robust Lyapunov-Based Control for Trajectory Tracking and...][research_thakur_barai_2024]
 - [Robust Optimization of a Thermal Anti-Ice Protection System...][research_gallia_arizmendigutierrez_2024]
 - [Robust dynamic feedback stabilization for the unstable wave...][research_lang_feng_2024]
 - [Robust model predictive control with polytopic model...][research_chen_preciado_2024]
-- [Rotation matrix-based finite-time trajectory tracking control...][research_xu_wan_2024]
 - [Rotor cross-tilt optimization for yaw control improvement of...][research_yan_yuan_2024]
 - [Saturated RISE Control for Considering Rotor Thrust...][research_lee_kim_2024]
 - [Scenario-Based Aircraft Nose Wheel Steering Control Modes...][research_chen_lou_2024]
@@ -9688,19 +8993,14 @@ correspondingly large. The period half is listed first.
 - [Sliding Mode Trajectory Tracking Control For Quadrotors Based...][research_deng_chai_2024]
 - [Stability analysis and stabilization control of discrete-time...][research_jiang_sun_2024]
 - [Stabilization And Control Of Unstable Discrete Linear Delay...][research_abdusamad_mousa_2024]
-- [Steering control for handling and stability and wear...][research_liu_zhang_2024]
 - [Terminal guidance law of missile based on Soft Actor-critic...][research_wang_zhang_2024_c]
 - [Three-dimensional adaptive dynamic surface guidance law for...][research_wang_wang_2024_b]
 - [Thruster Pointing Constrained Optimal Control for Satellite...][research_panag_woollands_2024]
 - [Unsteady Aerodynamics in Model-Based Wind Estimation from...][research_halefom_hopwood_2024]
 - [Verification and Validation of Advanced Control Systems for a...][research_iyer_keeling_2024]
 - [Verification of a method for implementing a closed-loop...][research_korneev_lenevsky_2024]
-- [Voronoi-based adaptive area optimal coverage control for...][research_yu_mi_2024]
-- [Yaw rate and roll motion control of 4IWMD/4WS vehicle based...][research_yu_luo_2024]
-- [133 Real-time Cognitive Load Assessment and Adaptive...][research_xie_xie_2025]
 - [2024 International Conference on Unmanned Aircraft Systems...][research_valavanis_2025]
 - [A Digital Twin Enabled Runtime Analysis and Mitigation for...][research_boudjadar_frasheri_2025]
-- [A Framework for Runtime Safety of Industrial Control Systems...][research_li_li_2025_b]
 - [A Higher Order Artificial Compression Reduced Order Model for...][research_ravindran_2025]
 - [A Yaw-roll Coupling Suppression Control Method for eVTOL...][research_ni_wang_2025]
 - [AI-Based Decision Support System for Heritage Aircraft...][research_kuchar_fiser_2025]
@@ -9715,16 +9015,13 @@ correspondingly large. The period half is listed first.
 - [Aircraft Takeoff and Landing Weight Estimation from...][research_salgueiro_hansman_2025]
 - [Airfoil Aerodynamic Coefficient Prediction Method Based on...][research_zhang_liu_2025]
 - [An FPGA-Based Energy-Efficient Real-Time Hand Pose Estimation...][research_kim_so_2025]
-- [An analysis method for robust stability region of vehicle...][research_shi_ma_2025]
 - [An optimal control approach to the generation of yaw-moment...][research_limebeer_romero_2025]
 - [Artificial Intelligence and Large Foundation Models for...][research_fang_ji_2025]
 - [Attitude stabilization of a rigid body with measurement noise...][research_sharma_sakthivel_2025]
 - [Baseline Differential-PI Control for High Altitude Platform...][research_sachan_singh_2025]
 - [Bifurcation Results and Amplitude Control of a Novel...][research_ramar_vaidhyanathan_2025]
-- [Bioinspired Active Vortex Generators for Underwater Flow...][research_mamman_weerakkody_2025]
 - [Blown Yaw A Novel Yaw Control Method for Tail-Sitter Aircraft...][research_hu_wen_2025]
 - [Chorin Projection Reduced Order Model for Control of...][research_ravindran_2025_b]
-- [Closed-Loop Adaptive Lighting System Using Low-Bandwidth...][research_xia_liu_2025]
 - [Closed-Loop Control of a Wing in Discrete Vortical Gust...][research_porterfield_gunasekaran_2025]
 - [Computational Guidance for Agile Missile Turns Integrating...][research_lee_park_2025]
 - [Control characteristics of vortex-generator height on...][research_zong_wang_2025]
@@ -9734,18 +9031,13 @@ correspondingly large. The period half is listed first.
 - [Design and Control of a Two-Phase Interleaved DC-DC Boost...][research_andalibi_vasak_2025]
 - [Details of a Proven Software for the Control of Unmanned...][research_neitzke_2025]
 - [Efficiently Training Observable Control Policies][research_enriquezfernandez_bird_2025]
-- [Enhanced Low‐Voltage Ride‐Through Capability of DFIG by...][research_luo_zhao_2025]
-- [Enhanced Miniaturization and Bandwidth Control using...][research_grevathi_2025]
 - [Enhanced real-time 6d pose estimation for automatic recovery...][research_jeong_choi_2025]
-- [Enhancement of Frequency Stabilization Capability of GFM...][research_yokoi_kawabe_2025]
 - [Event-Triggered Formation Control for High-Speed Flight...][research_li_li_2025]
-- [Experimental Assessment of Semi-Active ECS Under Low-Friction...][research_lee_lee_2025]
 - [Experimental Nonlinear Modal Analysis of an F-16 Aircraft...][research_zhou_raze_2025]
 - [Experimental research on three-axis control of flying-wing...][research_xu_feng_2025]
 - [Experimental study on hydrogen-blended natural gas explosion...][research_cao_xu_2025]
 - [Exponential Stability of Continuous-Time Switched Delay...][research_ma_liu_2025]
 - [Failure‐Based Sizing and Energy Management for Hybrid...][research_khasheinejad_montazerigh_2025]
-- [Financial Well-being among Generation Y Exploring the Impact...][research_muhammadtaha_profdrimtiazarif_2025]
 - [Flight Control Design for Rudder Failure Event on Cessna 172...][research_zuhri_2025]
 - [Flight Modelling and Robust Control of Tilt Tri-Rotor Fixed...][research_salahudden_agrawal_2025]
 - [Flow Control Devices for Aeroacoustic Noise Suppression in...][research_lee_lua_2025]
@@ -9756,36 +9048,23 @@ correspondingly large. The period half is listed first.
 - [Increasing Air Traffic Management efficiency by integrating...][research_spiridon_fuiorea_2025]
 - [Integrated Design Optimization of Environmental Control...][research_giuffre_ascione_2025]
 - [IoT-enabled Integrated Avionic System for Supersonic...][research_tapu_dragulinescu_2025]
-- [Joint moment estimation for hip exoskeleton control A...][research_zhang_xiong_2025]
 - [Lateral Control of a Hypersonic Aircraft][research_lateral_control_2025]
 - [Loss-of-Control Prevention of an Agile Aircraft Dynamic...][research_caltunkaya_catak_2025]
 - [Low-Bandwidth Fixed-Trim Control of a Guided Projectile][research_kovalik_rogers_2025]
 - [Minimum Parameter Approximation of Nonlinear Aircraft Dynamics][research_khamvilai_johnson_2025]
-- [Mixed Open-loop / Closed-loop Control of a Slow Sampled Water...][research_chalupa_janota_2025]
 - [Model-Free Altitude Tracking Control for Nonlinear...][research_yin_2025]
 - [New FOPID Control Design for Flight Dynamics With Special...][research_sirelkhatem_engin_2025]
 - [Nonlinear Model Predictive Control for Attitude Dynamics of...][research_zhao_wang_2025_b]
 - [Nonlinear model predictive control for stabilizing tiltrotor...][research_nunes_su_2025]
 - [Nonlinearity-Oriented Optimal Control Design for...][research_li_dong_2025]
-- [Novel closed-loop control system for shunt active power...][research_bielecka_wojciechowski_2025]
 - [Novel dual-twin model-based nonlinear onboard adaptive...][research_chen_shi_2025]
 - [Observer-based suppression of the wing-rock oscillations...][research_mobayen_izadbakhsh_2025]
-- [On the Stabilization of Unstable Internal Dynamics Model...][research_juris_li_2025]
 - [Open Loop Aircraft Take-off Mass Estimation An Optimal...][research_tassanbi_sun_2025]
 - [Open Loop Higher Harmonic Control Flight Testing on X2andreg...][research_monico_millott_2025]
-- [Open-Loop Unstable Behavior in a Class of Single-Loop...][research_chen_lestas_2025]
 - [Optimal Constant Climb Airspeed with Variable Cost Index for...][research_souzaesilva_rodrigues_2025]
-- [Optimal real PIDD ^2 controller design for vehicle cruise...][research_basak_2025]
-- [Oscillatory Stability Analysis of Grid-Forming Converters...][research_duan_wang_2025_b]
 - [PiLS of Embedded Hybrid MPC for Fighter Aircraft Attack Angle...][research_kim_park_2025]
-- [Real-Time Demand-Side Management System for Residential...][research_he_2025_b]
 - [Reduced-order observer-based robust trajectory tracking...][research_rasool_zhu_2025]
-- [Rent Control and Tenure Duration in Ethiopia Reflections on...][research_habtamusitotawsemahagne_alelegnwenedemagegnehu_2025]
-- [Research on Robust Adaptive Model Predictive Control Based on...][research_li_liu_2025]
-- [Research on leakage control of river oil and gas pipelines...][research_kang_meng_2025]
-- [Research on the handling and stability of liquid tank trucks...][research_zhang_tang_2025]
 - [Robust Adaptive Control of a Coaxial-Ducted-Fan Aircraft with...][research_ai_luo_2025]
-- [Robust Control of Rotary Tablet Press via Suboptimal...][research_susca_nascu_2025]
 - [Robust Control of Tilt-Rotor Aircraft Based on Adaptive...][research_guan_xian_2025]
 - [Robust Incremental Model Predictive Control for Morphing...][research_zhang_guo_2025]
 - [Robust Model Predictive Control for Aircraft Intent-Aware...][research_kordabad_dacol_2025]
@@ -9797,13 +9076,11 @@ correspondingly large. The period half is listed first.
 - [Soteria A Formal Digital-Twin-Enabled Framework for...][research_wilson_arafat_2025]
 - [Stability of Gossamer Propellers for High-Altitude Ballooning][research_kenny_lawrence_2025]
 - [Supervision of Multiple Remote Tower Centers Evaluating a New...][research_materne_friedrich_2025]
-- [Systemic risk control in anthraquinone-based hydrogen...][research_meng_jia_2025]
 - [Time of Flight Estimation in Low-thrust Transfers Between...][research_li_2025_c]
 - [The Numerical Study on Active Control of Vortex Plasma Jet...][research_yang_zeng_2025]
 - [Three-dimensional guidance law with precise control of attack...][research_gao_yi_2025]
 - [Time-Varying Control Strategy for Asymmetric Thrust Flight of...][research_xu_zhang_2025]
 - [Time-of-flight-based advanced surface reconstruction methods...][research_mullins_esau_2025]
-- [Tip vortex cavitation control by the micro vortex generator][research_wang_ye_2025]
 - [Towards Real-Time Scatter Estimation Directly From...][research_gouinferland_fontaine_2025]
 - [Transition Process Control of Tiltrotor Aircraft Based on...][research_liang_ye_2025]
 - [Trust-Aware Safe Control for Autonomous Navigation Estimation...][research_ejaz_inoue_2025]
@@ -9812,11 +9089,8 @@ correspondingly large. The period half is listed first.
 - [2025 International Conference on Unmanned Aircraft Systems...][research_valavanis_vitzilaios_2026]
 - [A Priori Time of Flight Estimation for the Q-law][research_yin_damaren_2026]
 - [A morphing uncertainty disturbance suppression and stability...][research_ren_kan_2026]
-- [AI-enabled cardiovascular devices a lifecycle playbook for...][research_ardic_dinc_2026]
 - [Active Control of the Precession Frequency of the Vortex Core...][research_suslov_skripkin_2026]
 - [Active Flow Control Applications to High-Lift Leading-Edge...][research_shmilovich_yadlin_2026_b]
-- [Active Push-Assisted Yaw-Correction Control for Bridge-Area...][research_shah_2026]
-- [Active yaw-damper control for carbody hunting instability in...][research_huang_zeng_2026]
 - [Adaptive attitude-orbit control via noncertainty equivalence...][research_gijo_canales_2026]
 - [Adaptive nonlinear aircraft pitch control via LS-SDRE][research_le_2026]
 - [Advanced Pilot-in-the-Loop Control System for Aircraft Ground...][research_mendozalopetegui_desiderato_2026]
@@ -9825,7 +9099,6 @@ correspondingly large. The period half is listed first.
 - [Aerodynamic Investigation of a Morphing Control Surface for...][research_fernandes_2026]
 - [Aeroengine Gas-Path Fault Diagnosis Based on Lightweight...][research_xiao_zhang_2026]
 - [Aircraft Weight Estimation Using Surveillance Data Based on...][research_matsuda_matsuno_2026]
-- [An adaptive causal path reasoning model for marine diesel...][research_shen_cao_2026]
 - [An exploration of ethical AI design issues in AI-enabled...][research_kroculick_kroculick_2026]
 - [Analysis of Coflow Jet Flow Control for an Airfoil Using...][research_morgan_garmann_2026]
 - [Architecture-Driven Safety Security Co-Assurance for Control...][research_masoudidionne_behdadnia_2026]
@@ -9839,25 +9112,18 @@ correspondingly large. The period half is listed first.
 - [Combined Flow Control Method for Supersonic Jet Noise...][research_kabaliswaran_das_2026]
 - [Constrained Antenna Selection and Beam Pointing Control for...][research_fan_zhang_2026]
 - [Decomposing Aeropropulsive Phenomena Governing Stability and...][research_neves_araujo_2026]
-- [Delay-robust nonlinear control for hunting stability of...][research_guo_shi_2026]
 - [Design Method for Supersonic Bump Using Three-Dimensional...][research_sun_zheng_2026]
 - [Design and Control of a Thrust-Vectoring Quadrotor with...][research_oliinyk_zylevich_2026]
 - [Design and Piloted Simulation of Envelope-Protected Control...][research_atmaca_stroosma_2026]
-- [Drive torque distribution for yaw control potential and...][research_eberhart_arndt_2026]
 - [Dual-stage risk-aware predictive control system for terrain...][research_padilla_cho_2026]
 - [Early integration of quadratic programming-based power split...][research_hellgren_alfredsson_2026]
 - [Ejector for Calibration of Mass-Flow Control Unit in...][research_srinivasan_nath_2026]
-- [Emergency Traffic Control with Capability-Based Access...][research_watanabe_kurihara_2026]
-- [Evaluating GFM-Induced Low-Frequency Oscillation Stability...][research_zhan_yuan_2026]
 - [Evaluating Longitudinal Stability-and-Control Characteristics...][research_xie_cai_2026]
-- [Experimental study of coupled cavitation hydroelasticity...][research_lin_elmoctar_2026]
 - [Fast fixed-time formation control for heterogeneous...][research_xu_huang_2026]
 - [Flight Safety Control and Test Flight Experiments under...][research_zhou_gong_2026]
-- [Fluctuation Mitigation for Ship at Yaw Using Streamwise...][research_xu_bensow_2026]
 - [Game-Theoretic Decision-Making for Aircraft Routing at...][research_lv_wu_2026]
 - [Gross Weight, CG Position, and Airspeed Estimation for a UAM...][research_halder_gandhi_2026]
 - [Hierarchical Tracking Control of Multirotors Under Saturation...][research_stauder_yigit_2026]
-- [Incorporating cybersecurity measures around industrial...][research_rajaruthnam_peach_2026]
 - [Model Reference Adaptive Control for Wing-Rock Suppression in...][research_narayanan_kumar_2026]
 - [Model predictive control for aircraft engines based on...][research_zhang_liu_2026]
 - [Nonlinear Disturbance-Estimated Anti-Saturation Adaptive...][research_jin_zheng_2026]
@@ -9865,18 +9131,14 @@ correspondingly large. The period half is listed first.
 - [Nonlinear Precise Tracking and Regulation for Unmanned...][research_hongyan_xiaoyong_2026]
 - [Nonlinear geometric multivariable control for unmanned...][research_jianhong_yanxiang_2026]
 - [Novel Concept of Capacity Enhancement on Supersonic Coflow...][research_wang_qu_2026]
-- [Observer-based virtual impedance modelling for enhanced fault...][research_neumann_eckel_2026]
 - [On Robust State Estimation for Practical Problems in Flight...][research_moszczynski_grant_2026_b]
 - [Parameter Design and Predictive Antiwindup of Double...][research_zhang_ruan_2026]
 - [Pneumatic-Based Approach for Flight Control][research_shmilovich_princen_2026]
-- [Risk management model for long-distance pipelines based on...][research_wang_liang_2026]
 - [Robust electro-hydraulic control for aircraft anti-skid...][research_mendozalopetegui_tanelli_2026]
 - [Robust reduced-order model predictive control using...][research_kohler_scholz_2026]
 - [Robust switching control for supersonic civil aircraft based...][research_liang_lu_2026]
 - [Rockoon Launch Experiment with Azimuth Angle Control][research_shoyama_wada_2026]
 - [Roll Attitude Control for Flying Wing via Apex Vortex...][research_wang_feng_2026_b]
-- [Singular Perturbation-Based Capability-Aware Frequency...][research_norouzi_xu_2026]
-- [Sliding Mode Control design for Active Yaw Control for a...][research_qassim_alsamarraie_2026]
 - [Study of integrated navigation system SINS/ANS for...][research_shenjenjao_boyan_2026]
 - [Suppression of vortex-induced vibration of a flexible...][research_liu_du_2026]
 - [Three-Dimensional Guidance Law with LOS Angle and Attack Lead...][research_niu_li_2026]
@@ -9893,8 +9155,6 @@ half is what the same questions look like once computation replaced the tunnel a
 
 - [General Formulas and Charts for the Calculation of Airplane...][research_wbaileyoswald_1932]
 - [Altitude Performance Characteristics of Tail-pipe Burner with...][research_princewilliamr_mcaulayjohne_1950]
-- [David Taylor Model Basin Washington Dc 1960, First Symposium on Ship Maneuvera][research_davidtaylormodelbasinwashingtondc_1960]
-- [Offering you big company facilities with small company...][research_offering_you_1960]
 - [Noise Control for Aircraft Engine Test Cells and Ground...][research_doelling_bolt_1961]
 - [Sea-level and High-altitude Performance of Experimental...][research_lopatin_1961]
 - [Auxiliary Ejector Effects on Rocket-driven Diffuser...][research_hale_1963]
@@ -9913,7 +9173,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Theory of the Measurement and Standardization of In-Flight...][research_dunlap_porter_1971]
 - [An Adaptive Estimator for Passive Range and Depth...][research_moose_1972]
 - [Optimal Aerodynamic and Thrust Magnitude Control of...][research_vinh_powers_1972]
-- [Submersible Maneuvering][research_taft_1973]
 - [The Use of Stream Thrust Concepts for the Approximate...][research_curran_craig_1973]
 - [A display of energy-maneuverability performance information...][research_loh_lustyjr_1974]
 - [Hybrid computer simulation of maneuvering during underway...][research_brown_alvestad_1974]
@@ -9921,7 +9180,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Nonlinear aerodynamics of aircraft in high-angle-of-attack...][research_tobak_schiff_1974]
 - [Army Preliminary Evaluation YAH-1R Improved Cobra Agility and...][research_stewart_dominick_1975]
 - [Chronology and Analysis of the Development of Altitude...][research_tate_gillard_1975]
-- [Criterion Performance Measures of Leadership and Unit...][research_downey_duffy_1975]
 - [Evaluation of an Airborne Thrust Computing System. Volume I...][research_gravelle_1975]
 - [STINGER Launch and Flight Motor Squib Electrical Safety and...][research_williams_1975]
 - [Surface Waves Due to a Maneuvering Air-Cushion Vehicle][research_yeung_1975]
@@ -9931,13 +9189,11 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Stability and Control of Maneuvering High-Performance Aircraft][research_stengel_berry_1977]
 - [Stability of the pilot-aircraft system in maneuvering flight][research_broussard_stengel_1977]
 - [Feasibility Demonstration of the Earth-Referenced Maneuvering...][research_watler_mulley_1978]
-- [Maneuvering Performance of High-Speed Ships with Effect of...][research_eda_1978]
 - [Simulation of Maneuvering Control During Underway...][research_brown_alvestad_1978]
 - [Aerodynamic Stability Technology for Maneuverable Missiles...][research_aiello_bateman_1979]
 - [KATMAI BAY WTGB-101 Speed, Tactical, and Maneuvering Trials][research_hunt_hundley_1979]
 - [Manned Engineering Flight Simulation Validation. Part I...][research_hofmann_riedel_1979]
 - [Method for calculating wing loading during maneuvering flight...][research_katz_1979]
-- [Performance Effectiveness in Combat Job Specialties...][research_rose_motoyama_1979]
 - [The Performance of a Conceptual Vertical Attitude Takeoff and...][research_papadales_basils_1979]
 - [Air Force Test Pilot School Edwards Afb Ca 1979][research_airforcetestpilotschooledwardsafbca_1979]
 - [Conceptual Study of Modifying an Existing Fighter for V/STOL...][research_kuhn_1980]
@@ -9950,33 +9206,25 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Effect of oxygen addition of low pressure ignition...][research_effect_of_1981]
 - [Forebody Drag Reduction][research_pamadi_1981]
 - [Low-speed aerodynamic performance of an aspect-ratio-10...][research_morganhljr_1981]
-- [The Investigation of Submersible Maneuverability by Simulation][research_rugsell_bellec_1981]
 - [Vehicle Maneuverability Augments Remote Controlled...][research_eppig_1981]
-- [Ammonite maneuverability - a new look at the function of...][research_bayer_1982]
 - [Performance calibration results for a Compact Multimission...][research_wagenknecht_hoff_1982]
-- [A Simulation Study of Maneuverability of Vehicle][research_saito_1983]
 - [Aerodynamic design for improved maneuverability by the use of...][research_mann_campbell_1983]
 - [Thrust Augmentation Study of High Performance Ejectors][research_minardi_vonohain_1983]
 - [A forward-swept wing configuration designed for high...][research_mannmj_mercerce_1985]
 - [Aero/propulsion technology for STOL and maneuver][research_mello_kotansky_1985]
 - [Aircraft Flight Performance Methods. Revision 2][research_miller_koch_1985]
 - [Maneuverability constraints for supervisory steering control][research_krogh_graettinger_1985]
-- [On the Backward Maneuverability of Articulated Vehicles][research_kageyama_saito_1985]
 - [Performance of Axial Compressor With Non-Uniform Exit Static...][research_kodama_1985]
 - [Subsonic diffuser design and performance for advanced fighter...][research_lee_boedicker_1985]
 - [Trajectory optimization for maneuvering satellites][research_tomita_feiring_1985]
 - [Calculation of static elastic effects on a modern high...][research_caap_elemeland_1986]
-- [Features of Maneuverability of Ships with Steering Nozzles][research_asinovsky_1986_b]
 - [Fighter evasive maneuvers against proportional navigation...][research_imado_miwa_1986]
 - [Forward-swept wing configuration designed for high...][research_mannmj_mercerce_1986]
 - [Gust and maneuver spectra for general aviation aircraft][research_reyer_ogg_1986]
 - [High-speed Offensive Missile Evasive maneuver][research_jonsson_1986]
-- [On the Backward Maneuverability of Articulated Vehicles][research_kageyama_saito_1986]
 - [Optimization of Closed Loop Eigenvalues Maneuvering...][research_junkins_1986]
 - [Performance augmentation of a 60-degree delta aircraft...][research_seginer_salomon_1986]
-- [Simplified Approaches for Evaluation of Maneuverability of...][research_asinovsky_1986]
 - [Spherical mapping and analysis of aircraft angles for...][research_kalviste_1986]
-- [A control method of the maneuverability of an autonomous...][research_hosokai_fukuda_1987]
 - [A mathematical model of the orbital maneuvering vehicle][research_walls_greene_1987]
 - [A simple procedure for tracking fast maneuvering aircraft...][research_dommermuth_1987]
 - [Aeroassisted orbital maneuvering using Lyapunov optimal...][research_grantham_1987]
@@ -9986,7 +9234,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Nonlinear simulation of a flexible aircraft in maneuvering...][research_buttrill_arbuckle_1987]
 - [Performance seeking control for cruise optimization in...][research_tich_shaw_1987]
 - [Spherical mapping and analysis of aircraft angles for...][research_kalviste_1987]
-- [Stability analysis and prediction of performance for a...][research_masuyama_1987]
 - [Wave Drag and High-Speed Performance of Supersonic STOVL...][research_durston_stonum_1987]
 - [A simplified mathematical model for an onboard maneuvering...][research_biancardi_1988]
 - [Control of nearly singular decoupling systems and nonlinear...][research_singh_1988]
@@ -10003,57 +9250,45 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Decoupled ultimate boundedness control of systems and large...][research_singh_1989]
 - [Design of adaptive digital model-following flight-mode...][research_porter_othman_1989]
 - [Formulation and experimental evaluation of closed-form...][research_bernard_1989]
-- [Maneuvering Simulation Model Based oh Ship Design Parameters][research_szeto_grochowalski_1989]
 - [Methodology for aero-structural analysis of a missile...][research_schulz_dillenius_1989]
 - [Near optimal 3-D guidance against a maneuvering target][research_cliff_1989]
 - [Orbital maneuvering vehicle attitude control system][research_parry_golub_1989]
 - [Pilot's associate - The generation of real-time performance][research_smith_broadwelljr_1989]
-- [Review and Analysis of Ship Maneuverability Criteria][research_asinovsky_1989]
 - [Roll response criteria for high maneuverable aircraft using...][research_innocenti_1989_b]
 - [US Air Force relies on computer graphics to evaluate combat...][research_brown_1989]
-- [Use of Full Scale Trial Results for Investigations of...][research_asinovsky_1989_b]
 - [Aircraft design optimization with dynamic performance...][research_morris_kroo_1990]
 - [An angle-only tracking filter for a maneuvering target][research_stallard_1990]
 - [An investigation of aircraft maneuverability and agility][research_schrage_1990]
 - [Analysis of aircraft performance during lateral maneuvering...][research_avilademelo_hansmanjr_1990]
-- [Automatic Steering System for Utility Trailers to Enhance...][research_kimbrough_chiu_1990]
 - [Control of Articulated Structures on Maneuvering Platforms][research_shah_kosut_1990]
 - [Dynamics and control of maneuverable towed flight vehicles][research_cochranjr_innocenti_1990]
 - [Measures of Merit for Aircraft Dynamic Maneuvering][research_kalviste_1990]
-- [Performance Measures and Technical Services Efficiency and...][research_croneis_1990]
 - [A two-time-scale autopilot for high-performance aircraft][research_menon_chatterji_1991]
 - [Analysis of aircraft performance during lateral maneuvering...][research_demelo_hansman_1991]
 - [Analysis of airship lateral maneuverability][research_nagabhushan_pasha_1991]
 - [Applications of low lift to drag ratio aerobrakes using angle...][research_mulqueenja_1991]
 - [Classical turning performance of a fighter aircraft revisited][research_hoffman_stalford_1991]
 - [Combined design of structures and controllers for optimal...][research_ling_kabamba_1991]
-- [Comparison of Maneuverability of Prosthetic Terminal Devices][research_kitayama_1991]
 - [Demonstration of feedback using the MIT-SNL minimum time...][research_bernard_1991]
 - [Learning augmented flight control for high performance...][research_baker_farrell_1991]
 - [Meeting VSTOL aircraft performance requirements using...][research_hyde_glover_1991]
 - [Orbital plane change maneuver with aerocruise][research_naidu_1991]
 - [Performance optimization of an airbreathing launch vehicle by...][research_schoettle_hillesheimer_1991]
-- [Ship Maneuverability Analysis Using Steady-State Techniques][research_asinovsky_huang_1991]
 - [State equations for maneuvering and control of flexible...][research_meirovitch_1991]
 - [Time-optimal reorientation maneuvers for an aircraft with...][research_lutze_cliff_1991]
 - [Towards robust tracking of maneuvering targets][research_hepner_bagnaschi_1991]
-- [A method for computing discrete event simulation performance...][research_standridge_tsai_1992]
 - [Aerodynamic performance of a full-scale lifting ejector...][research_smith_garland_1992]
 - [Aircraft agility maneuvers][research_cliff_thompson_1992]
 - [Analysis of airship lateral maneuverability][research_nagabhushan_pasha_1992]
-- [Combat Maneuver Training Center Data in the ARI Combat...][research_hardy_gd_1992]
 - [Design and performance of the centrifuge-based Dynamic Flight...][research_eythjr_heffner_1992]
-- [Designing Articulated Vehicles for Low‐Speed Maneuverability][research_chen_velinsky_1992]
 - [Dynamics and control of maneuverable towed flight vehicles][research_cochran_innocenti_1992]
 - [Flexible structure control by an alternating sequence of...][research_psiaki_1992]
 - [Hover performance validation of an ejector configured STOVL...][research_naumowicz_smith_1992]
 - [Maneuvering Technology for Advanced Fighter Aircraft][research_alexander_harris_1992]
 - [Mathematical Simulation of Hovercraft Maneuvering][research_zilman_miloh_1992]
-- [Measuring Human Performance as a Function of Speech...][research_whitaker_peters_1992]
 - [Overview of high performance aircraft propulsion research][research_biesiadnythomasj_1992]
 - [Rapid synthesis for evaluating missile maneuverability...][research_giragosian_1992]
 - [Static aeroelastic analysis of a maneuvering aircraft with...][research_woo_1992]
-- [Thoraco-Lumbar Spinal Instability during Variations of the...][research_suter_tighe_1992]
 - [‘Design and evaluation of a visual display aid for orbital...][research_design_and_1992]
 - [A Generalized Algorithm for Inverse Simulation Applied to...][research_hess_gao_1993]
 - [An advanced rotorcraft flight simulation model - Parallel...][research_sarathy_murthy_1993]
@@ -10062,10 +9297,8 @@ half is what the same questions look like once computation replaced the tunnel a
 - [F-14A aircraft low-speed maneuvering aerodynamics][research_tai_1993]
 - [Fixed-order dynamic compensation for a high-performance...][research_byrns_calise_1993]
 - [High Maneuverability. Theory and Practice][research_zagainov_1993]
-- [Improvement of Vehicle Maneuverability by Direct Yaw Moment...][research_shibahata_shimada_1993]
 - [Kalman filtering applied to real-time monitoring of apogee...][research_deboerfrederic_barbierchristian_1993]
 - [Nonlinear command augmentation system for a high performance...][research_menon_1993]
-- [Performance Tests of a Large-Roll Chassis Dynamometer with AC...][research_mears_dangelo_1993]
 - [State equations for maneuvering and control of flexible...][research_meirovitch_1993]
 - [Target pitch angle for the microburst escape maneuver][research_mulgund_stengel_1993_b]
 - [The role of static aeroelastic constraints in the design...][research_kadrnka_hawley_1993]
@@ -10080,18 +9313,14 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Control of a high performance fighter aircraft using...][research_jianliangwang_sundararajan_1994]
 - [Control stick logic in high angle-of-attack maneuvering][research_durham_1994]
 - [Gust effect on fighter aircraft during manoeuvring flight][research_ghazi_1994]
-- [High Speed Stability and Curving Performance of...][research_suda_1994]
 - [High angle-of-attack airfoil performance improvement by...][research_hsiao_shyu_1994]
 - [Maneuvering and control of flexible space robots][research_meirovitch_lim_1994]
 - [Prevention of jump in inertia-coupled roll maneuvers of...][research_ananthkrishnan_sudhakar_1994]
 - [Severe turbulence and maneuvering from airline flight records][research_wingrove_bach_1994]
-- [Stability and manoeuvrability analysis of vehicle with four...][research_halanay_ionita_1994]
-- [The Combat Vehicle Command and Control System. Combat...][research_meade_lozicki_1994]
 - [Time-optimal sidestep maneuvers of an aircraft][research_fan_lutze_1994]
 - [A framework for analysis of aircraft maneuverability][research_beck_cord_1995]
 - [Aeroelastic effects on the B-2 maneuver response][research_winther_hagemeyer_1995]
 - [Aircraft performance modelling for air traffic control...][research_hached_beauchesne_1995]
-- [An evaluation based on physiological responses, of a driver's...][research_matsui_1995]
 - [Analysis of aircraft/air traffic control system performance][research_de_1995]
 - [Application of Navier-Stokes aeroelastic methods to improve...][research_schuster_1995]
 - [Augmentation of High-Altitude Maneuver Performance of a...][research_chadwick_1995]
@@ -10110,15 +9339,10 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Rolling maneuver load alleviation using active controls][research_woodsvedeler_pototzky_1995]
 - [Side gust loads on a fighter aircraft during maneuver][research_olwi_1995]
 - [&lt title&gt AMLCD performance in tactical fighter...][research_mcclaskey_evans_1996]
-- [9539031 A study of emergency maneuverability Tsuyosi...][research_9539031_a_1996]
 - [Can an appropriate gain-scheduling realisation enhance...][research_leith_1996]
 - [Development of a nonlinear indicial model for maneuvering...][research_reisenthel_1996]
-- [Directional Performance and Yaw Stability of Articulated...][research_esmailzadeh_1996]
 - [Enhancing aircraft performance through flight/propulsion...][research_menon_iragavarapu_1996]
 - [Evaluating the maneuverability of a control stick using...][research_kobayashi_ikeura_1996]
-- [Experimental Evaluation, Simulation and Optimization of a...][research_arinze_sokhansanj_1996]
-- [Minimum-time maneuvering of a ship, with wind disturbances][research_ohtsu_shoji_1996]
-- [Numerical Simulation of an AUV Thruster during Maneuvering][research_knowles_grosenbaugh_1996]
 - [Orbital gyrocompassing with yaw maneuvers][research_fisher_1996]
 - [Simulation and analysis of V-22 aircraft maneuvering...][research_tai_1996]
 - [Symmetrical Maneuvering Flight][research_symmetrical_maneuvering_1996]
@@ -10127,10 +9351,8 @@ half is what the same questions look like once computation replaced the tunnel a
 - [A Method for Integrating Thrust-Vectoring and Actuated...][research_lallmanfrederickj_davidsonjohnb_1998]
 - [Analysis of Aircraft Agility on Maximum Performance Maneuvers][research_avanzini_matteis_1998]
 - [Erasable Disk Mass Memory, STEP Mission 3 Integration and...][research_bussinger_1998]
-- [Evaluation of Motorcycle Maneuverability With the Optimal...][research_cossalter_dalio_1998]
 - [Evaluation of maneuverability of aircraft equipped with...][research_tomczyk_1998]
 - [High-Performance Airfoil with Moving Surface Boundary-Layer...][research_modi_munshi_1998]
-- [Improved maneuverability of power plants for better grid...][research_lausterer_1998]
 - [Nontoxic Orbital Maneuvering and Reaction Control Systems for...][research_hurlbert_applewhite_1998]
 - [Performance, Stability, Dynamics and Control of Airplanes][research_performance_stability_1998]
 - [Prediction of vertical tail maneuver loads using...][research_kim_marciniak_1998]
@@ -10138,7 +9360,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Subsonic Maneuvering Effectiveness of High Performance...][research_montgomeryraymondc_scottmichaela_1998]
 - [A switching models gain rotation algorithm for tracking a...][research_bahnasawi_1999]
 - [Modeling the unsteady aerodynamic forces of a maneuvering...][research_cao_1999]
-- [Tactical Alchemy Heavy Division Tactical Maneuver Planning...][research_tedesco_iii_1999]
 - [Simplified Analysis of Low-Thrust Orbital Maneuvers][research_pollard_2000]
 - [Determination of Aerodynamic Characteristics][research_determination_of_2001]
 - [Determination of Head and Neck Loads and Moments During...][research_shender_paskoff_2001]
@@ -10147,13 +9368,9 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Fuzzy Enhanced Maneuverability Law For Tactical Missile...][research_deepak_2004]
 - [Markov Jump-Linear Performance Models for Recoverable Flight...][research_zhanghong_graywsteven_2004]
 - [Structural Integrity of a Fighter Aircraft Undergoing Dynamic...][research_karniadakis_2004]
-- [Blunt Impact Performance Characteristics of the Advanced...][research_mcentire_whitley_2005]
-- [Maneuvering Performance of Autonomous Underwater Vehicles][research_hover_2006]
 - [High Performance and High-Fidelity Aeroelastic Simulation of...][research_lesoinne_2007]
-- [Initial Experimental Evaluation of a Circulation Controlled...][research_imber_rogers_2007]
 - [Minimum-Power Robotic Maneuvering Using Control-Moment...][research_carpenter_peck_2007]
 - [A Model-Based Approach to Aircraft Takeoff and Landing...][research_ohme_2009]
-- [Dynamic Fit and Misfit through Organizational Design...][research_nissen_2009]
 - [Dynamic Flight Maneuvering Using Virtual Control Surfaces...][research_glezer_allen_2010]
 - [Evaluation of Glider Coatings against Biofouling for Improved...][research_moline_wendt_2010]
 - [Full-Scale Demonstrations of Enhanced Low-Speed...][research_buerge_ram_2010]
@@ -10161,15 +9378,11 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Applications of Statistically Defensible Test and Evaluation...][research_woolf_2012_b]
 - [Assessment of Cargo Space Seating Performance Applicable to...][research_wright_2012]
 - [Safe Set Maneuverability of Impaired Aircraft][research_kwatny_allen_2012]
-- [Design of a Twin Hull Based USV with Enhanced Maneuverability][research_blaich_wirtensohn_2013]
 - [Fully Articulating Air Bladder System FAABS Noise Attenuation...][research_gallagher_2013]
 - [Noise Attenuation Performance of Flight Helmets in...][research_gallagher_theis_2013]
-- [SLAM-based maneuverability strategy for unmanned car-like...][research_cheein_2013]
 - [Artificial Immune System Approach for Airborne Vehicle...][research_kaneshigejohnt_krishnakumarkalmanjes_2014]
-- [Control of the axial offset in a nuclear reactor at power...][research_maksimov_kanazirskyi_2014]
 - [Theory, Guidance, and Flight Control for High Maneuverability...][research_fresconi_celmins_2014]
 
-- [A kinematical analysis of human meal movement based on the...][research_fukui_tsujita_2015]
 - [A study of autonomous evasive planar-maneuver against...][research_yomchinda_2015]
 - [An Assessment of Unmanned Aircraft System Level-Turn Maneuver...][research_jack_hoffler_2015]
 - [Application of L&lt sub&gt 1&lt /sub&gt Adaptive Control to a...][research_ene_stoica_2015]
@@ -10180,24 +9393,18 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Effects of Flight Dynamics on Performance of One Axis Gimbal...][research_effects_of_2015]
 - [Effects of biofuels properties on aircraft engine performance][research_mazlan_savill_2015]
 - [Flutter of Maneuvering Aircraft][research_tuzcu_nguyen_2015]
-- [Flying wing underwater glider Design, analysis, and...][research_zihao_ye_2015]
 - [Fuel State Reconstruction for Maneuvering Aircraft][research_ozger_2015]
 - [Implementataion and Validation of an Internal Combustion...][research_harrison_min_2015]
 - [Investigation of the Compressibility Effects on Engine...][research_shi_tu_2015]
-- [Maneuverability of a DWT 8,000 ton oil/chemical tanker by...][research_an_lee_2015]
-- [Modeling and Assessment Performance of OpenFlow-Based Network...][research_salahalyassin_2015]
 - [Multidisciplinary Design Optimization of a Deorbit Maneuver...][research_adami_mortazavi_2015]
 - [Optimal target aiming maneuver for an advanced aircraft via...][research_liaokaijun_qiankun_2015]
-- [Performance Analysis of Closed Loop and Open Loop Control...][research_inci_demirdelen_2015]
 - [Performance Evaluation of Airframe-Integrated Aerospike...][research_takahashi_tomita_2015]
 - [Performance survey of minimum gain exact pole placement...][research_pandey_schmid_2015]
 - [Roll performance assessment of a light aircraft flight tests...][research_nicolosi_demarco_2015]
 - [Target visibility for multiple maneuvering target tracking][research_sabordo_aboutanios_2015]
 - [The Effects of Using an Angle of Attack System on Pilot...][research_bromfield_dillman_2015]
 - [The Gust Resistant MAV - Aerodynamic Measurements...][research_zyluk_sibilski_2015]
-- [The Kremlin’s Economic Checkmate Maneuver][research_finch_2015]
 - [The Nuclear Thermal Turbo Rocket - A Conceptual...][research_bucknell_2015]
-- [Variable Assist Characteristics and Control Strategies for...][research_jiang_2015]
 - [6 DoF Aircraft Simulation Model Capable of Handling Maneuver...][research_6_dof_2016]
 - [A study of ground maneuver stability of multiple-bogie...][research_zhao_wang_2016]
 - [Aerodynamic/Sonic Boom Performance Evaluation of Innovative...][research_yamazaki_kusunose_2016]
@@ -10208,16 +9415,13 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Effects of Asymmetric Blade-Pitching Kinematics on...][research_benedict_jarugumilli_2016]
 - [Estimating the Aerodynamic Performance of a High Speed...][research_alhinai_2016]
 - [Experimental and Numerical Investigation of Entomopter...][research_zyluk_sibilski_2016]
-- [Handling performance control for hybrid 8-wheel-drive vehicle...][research_ni_hu_2016]
 - [Helicopter Unsteady Maneuver Analysis Using Inverse Flight...][research_abhishek_prasad_2016]
-- [Indirect adaptive pole placement control with performance...][research_thiel_schwarzmann_2016]
 - [Influence of Control Coupling Effect on Landing Performance...][research_hong_ma_2016]
 - [Installed Performance Assessment of a Boundary Layer...][research_goldberg_nalianda_2016]
 - [Integrating Aerodynamic Uncertainty into Aircraft Maneuvers...][research_wendorff_alonso_2016]
 - [Investigating Traffic Avoidance Maneuver Preferences of...][research_kuffner_guendel_2016]
 - [Numerical Simulation of Water-Landing Performance of a...][research_qu_liu_2016]
 - [Optimal tracking performance limitation of networked control...][research_wu_shen_2016]
-- [Optimisation of active suspension control inputs for improved...][research_coric_deur_2016]
 - [Performance Assessment of a Transonic Wing Body Configuration...][research_mele_tognaccini_2016]
 - [Performance Evaluation and Comparison of Dynamic Inflow...][research_guner_gursoy_2016]
 - [Performance Evaluation of Airframe-Integrated Aerospike...][research_takahashi_2016]
@@ -10225,19 +9429,14 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Performance analysis of Automatic Generation controller using...][research_pai_gupta_2016]
 - [Reconstructed Parachute System Performance During the Second...][research_ofarrell_brandeau_2016]
 - [Reducing Induced Drag and Maneuver Loads by Active...][research_lin_2016]
-- [Safe maneuverability zones and metrics for data reduction in...][research_satzoda_trivedi_2016]
 - [System rigidization and control for post-capture maneuvering...][research_sharf_woo_2016]
-- [Thermal performance of ultra-thin flattened heat pipes with...][research_li_zhou_2016]
 - [Trajectory Optimization of Space Manipulator with Non-zero...][research_rybus_seweryn_2016]
 - [Transonic Airfoil Performance Enhancement Using Co-Flow Jet...][research_liu_zha_2016]
 - [Virtual Flight Testing of High Performance Fighter Aircraft...][research_ratcliff_bodkin_2016]
-- [WRF model performance analysis for a suite of simulation...][research_mohan_sati_2016]
-- [A comparison of performance metrics for event classification...][research_pereira_nunes_2017]
 - [A hybrid guidance law of LOS acceleration feedback for...][research_liu_qu_2017]
 - [A missile guidance law tolerant to unestimated evasive...][research_marzat_2017]
 - [Aerodynamic characteristics and exhaust heat performance of...][research_koga_hiratsuka_2017]
 - [Aircraft re-routing optimization and performance assessment...][research_zhang_mahadevan_2017]
-- [Analysis of the role of altitude on diesel engine performance...][research_bermudez_serrano_2017]
 - [Design and Analysis of Reduction of Induced Drag by using...][research_mrsaravindan_kknithiyanantham_2017]
 - [Design and integration sensitivity of a morphing trailing...][research_dellavecchia_corcione_2017]
 - [Effect of Raked Winglet on Aircraft Performance][research_khalil_helal_2017]
@@ -10246,7 +9445,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Effects of aspect ratio and angle of attack on tip vortex...][research_li_dong_2017]
 - [Flight Dynamics of Helicopter Under Steady Maneuver...][research_sakthivel_venkatesan_2017]
 - [Flight Performance Optimization of a Multi-Lift Rotorcraft...][research_enciu_horn_2017]
-- [High-performance adaptive robust control with balanced torque...][research_liao_chen_2017]
 - [In-Flight Guidance, Navigation, and Control Performance...][research_chapeljim_stancliffedevin_2017]
 - [L1 Augmented Controller for a Lateral/Directional Maneuver of...][research_banerjee_boyce_2017]
 - [Mismatch-Observer Based Model Reference Adaptive Control for...][research_kim_kim_2017]
@@ -10256,7 +9454,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Performance-Based Ice Detection Methodology][research_deiler_fezans_2017]
 - [Research on adaptive robust guidance law for passive homing...][research_yang_zhou_2017]
 - [Suggestions of the Improvement of the Quality of Flight...][research_hryshchenko_romanenko_2017]
-- [The influence of vehicle body roll angle on the motion...][research_parczewski_wnek_2017]
 - [Thermoelastic vibration and maneuver control of smart...][research_fazelzadeh_azadi_2017]
 - [Thrust Performance Evaluation of a Turbofan Engine Based on...][research_yalcin_2017]
 - [Transient performance simulation of aircraft engine...][research_wang_li_2017]
@@ -10267,7 +9464,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [A Stochastic Approach for Performance Prediction of Aircraft...][research_mckeand_gorguluarslan_2018]
 - [Adaptive Maneuver Load Alleviation for Flexible Wing Aircraft...][research_hashemi_nguyen_2018]
 - [An autonomous aerial combat framework for two-on-two...][research_shin_lee_2018]
-- [Boosting performance of power quality event identification...][research_kapoor_gupta_2018]
 - [Cassini’s Grand Finale Attitude Control Subsystem Performance...][research_sung_2018]
 - [Control Plane Performance in Tactical Software Defined...][research_flathagen_bentstuen_2018]
 - [Control strategy of sideslip perching maneuver under dynamic...][research_feroskhan_go_2018]
@@ -10281,23 +9477,14 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Interval analysis of the standard of adaptive cycle engine...][research_chen_zhang_2018]
 - [Laser ablation aerosol particle time-of-flight mass...][research_shen_ramisetty_2018]
 - [Maneuver load alleviation for high performance aircraft...][research_li_huang_2018]
-- [Marine Atmospheric Corrosion Takes Toll on U.S. Army Aircraft...][research_dubose_2018]
 - [Market-driven Derivation of Field Performance Requirements...][research_dzikus_terekhov_2018]
-- [Milled flake graphite/plasma nano-silicon@carbon composite...][research_chen_hou_2018]
 - [Modeling and Flight Performance of Supersonic Disk-Gap-Band...][research_muppidi_ofarrell_2018]
 - [Nonlinear Flight Control Design for Maneuvering Flight of...][research_peng_lin_2018]
 - [Numerical Simulation of Super-Lift Coefficient of Co-Flow Jet...][research_yang_zha_2018_b]
 - [Numerical Simulation of Super-Lift Coefficient of Co-Flow Jet...][research_yang_zha_2018]
-- [Optimization-Based Maneuver Automata for Cooperative...][research_eilbrecht_stursberg_2018]
 - [Performance Metrics Required of Next-Generation Batteries to...][research_fredericks_sripad_2018]
-- [Prediction model of influence of force on land and...][research_rozi_thanopoulos_2018]
 - [Probability Risk Assessment of Man-Machine System Based on...][research_mei_huang_2018]
-- [Quality in museums and libraries a comparison of indicators][research_poll_2018]
 - [Robust Higher-Order Sliding Mode Control Systems for...][research_raj_muthukumar_2018]
-- [Scale Effects on Ship Maneuverability Using RANS][research_araki_2018]
-- [Sea Trials of a High Maneuverability Compact Autonomous...][research_sato_kim_2018]
-- [Simulator based performance metrics to estimate reliability...][research_iqbal_srinivasan_2018]
-- [Species With Greater Aerial Maneuverability Have Higher...][research_fernandezjuricic_brand_2018]
 - [State Estimation for Landing Maneuver on High Performance...][research_suresh_sura_2018]
 - [Tether cutting maneuver in swing-by trajectory][research_yamasaki_bando_2018]
 - [The Effect of Stage-Diffuser Interaction on the Aerodynamic...][research_ding_xu_2018]
@@ -10305,11 +9492,9 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Withdrawal Experimental Investigation on the Angle of Attack...][research_soltani_mostoufi_2018_b]
 - [A high performance altitude navigation system for small...][research_lei_liu_2019]
 - [A method for a spacecraft maneuver detection based on current...][research_glushchenko_khokhlov_2019]
-- [A study on effect of altitude upon long jump performance of...][research_kadwe_2019]
 - [Active Control of Wing-tip Vortex Development Using...][research_himeda_naka_2019]
 - [Aerodynamic Sails for Passive Guidance of High-Altitude...][research_waghela_yoder_2019]
 - [An Advanced Method for Processing Compressor Model in...][research_dai_nikolaidis_2019]
-- [Assessment of Maneuverability in Waves][research_shigunov_2019]
 - [Augmented Aircraft Performance with the Use of Morphing...][research_moens_2019]
 - [Black-box Modeling for Aircraft Maneuver Control with...][research_kim_oh_2019]
 - [Conceptual Design and Performance Optimization of a Tip...][research_lappas_ikenaga_2019]
@@ -10317,7 +9502,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Correction of the method of assessing exhaust emission during...][research_nowacki_olejniczak_2019]
 - [Correction Model Predictive Control Architectures for...][research_virgiliopereira_kolmanovsky_2019_b]
 - [Determination of Parameters during Quasi-Steady Stall...][research_srivastava_2019]
-- [Development and Analysis of an Autonomous Underwater...][research_kumar_rajagopal_2019]
 - [Discrete-Time Control Based on Pole Placement by Engineering...][research_chestnov_alexandrov_2019]
 - [Effect of Angle of Attack on Pressure and Lift Coefficient of...][research_anggraeni_2019]
 - [Effect of Propeller Installation on Performance Indicators of...][research_schouten_hoogreef_2019]
@@ -10326,7 +9510,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [General Reentry Trajectory Planning Method Based on Improved...][research_hao_peng_2019]
 - [Generalized Sizing Methodology for Hybrid Aircraft Using...][research_kamal_ramirezserrano_2019]
 - [Guidance Law Design with Attack Angle Control and Maneuvering...][research_fan_nie_2019]
-- [Handling performance optimisation for formula vehicle using...][research_tey_rahizar_2019]
 - [Launch Performance Degradation of the Rupture-Type Missile...][research_choi_jung_2019]
 - [Mach 5 3.5 Morphing Waverider Accuracy and Aerodynamic...][research_phoenix_maxwell_2019]
 - [Model Predictive Control Architectures for Maneuver Load...][research_virgiliopereira_kolmanovsky_2019]
@@ -10334,24 +9517,19 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Modelling Geared Turbofan and Open Rotor Engine Performance...][research_sebastiampillai_jacob_2019]
 - [Numerical investigation to predict optimum attack angle...][research_zeeshan_nath_2019]
 - [Optimal Maneuver Trajectory for Hypersonic Missiles in Dive...][research_tan_lei_2019]
-- [Performance Benchmark of Yaw Rate Controllers by Active Front...][research_miyahara_fujimoto_2019]
-- [Performance Evaluation of the Control Plane in Software...][research_shang_wu_2019]
 - [Performance of 4G-LTE Communication and Navigation System in...][research_zainurin_nasir_2019]
 - [Performance of a Generic X-51 Waverider Thrust, Drag, and...][research_yost_choi_2019]
 - [Performance of the ALICE Time-Of-Flight detector at the LHC][research_carnesecchi_2019]
 - [Prediction of Sensor Performance Required for Reliable...][research_parker_white_2019]
 - [Prescribed performance neural control to guarantee tracking...][research_zhang_li_2019]
-- [Rear-Wheel Steering Control for Enhanced Maneuverability of...][research_park_joa_2019]
 - [Reduction in the pilot’s stress during the landing maneuver...][research_splichal_2019]
 - [Sensitivity of automatic control of emergency manoeuvre to...][research_graffstein_maslowski_2019]
 - [Surrogate models for the prediction of the aerodynamic...][research_giangaspero_macmanus_2019]
 - [The Effect of Maneuver Load Alleviation Strategies on...][research_mancini_vos_2019]
-- [The Performance and Dependability of Control Plane in...][research_shang_2019]
 - [Timing Determination Algorithm for Aircraft Evasive Maneuver...][research_nakagawa_yamasaki_2019]
 - [Trajectory Optimization of Space Maneuver Vehicle Using a...][research_chai_savvaris_2019]
 - [A Machine-Learning Approach to Assess Aircraft Engine System...][research_tong_2020]
 - [A Physical Aircraft Performance Model for Multi-Criteria...][research_judith_2020]
-- [A Primer of Inland Vessel Maneuverability][research_liu_2020]
 - [A prescribed performance adaptive optimal control scheme for...][research_huang_zhang_2020]
 - [Aircraft Performance Model Calibration and Validation for...][research_puranik_harrison_2020]
 - [Computational Fluid Dynamic for Performance Hydrofoil due to...][research_zaubeu_2020]
@@ -10363,12 +9541,10 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Download and Rotor Installed Performance In Hover and Low...][research_quackenbush_whitehouse_2020]
 - [Electromagnetic-Component-Coupled Performance Analysis of...][research_okai_taguchi_2020]
 - [Estimation of Aircraft Performance Metrics Based on Flight...][research_le_meng_2020]
-- [Evaluation of the maneuverability of a real ship with flap...][research_ahn_kim_2020]
 - [Explicit Reference Governor for Constrained Maneuver and...][research_orourke_kolmanovsky_2020]
 - [Exploring the Use of Reverse Thrust in a Dynamic UAS Landing...][research_givens_coopmans_2020]
 - [Finite-Time Missile Guidance Law with LOS Rate for...][research_jayaraman_gaurav_2020]
 - [Flight Control Simulation and Battery Performance Analysis of...][research_kim_lim_2020]
-- [High-Performance Probe for Over-the-Air Measurement][research_naeini_gu_2020]
 - [High-altitude performance and improvement methods of poppet...][research_xu_ji_2020]
 - [Improved Maneuverability for Multirotor Aerial Vehicles using...][research_casau_cunha_2020]
 - [Investigation of Stationary Vanes Aerodynamic Performance...][research_asli_stathopoulos_2020]
@@ -10384,12 +9560,9 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Performance Comparison of Conventional, Hybrid-Electric, and...][research_strathoff_savic_2020]
 - [Performance Evaluation at Asymmetric Attitude Flight for Two...][research_muqeeth_abdallah_2020]
 - [Performance Metrics Required of Next-Generation Batteries to...][research_bills_sripad_2020]
-- [Performance analysis of Closed Loop Hysteresis Control of a...][research_kumarch_jain_2020]
 - [Simulation and Optimization of Takeoff Maneuvers of Very...][research_delcarre_palacios_2020]
 - [Stochastic Optimization Framework for Spacecraft Maneuver...][research_dutta_raquepas_2020]
-- [Tests and Criteria for Inland Vessel Maneuverability][research_liu_2020_b]
 - [Theoretical Assessment of Turbocharged Pulse Detonation...][research_nageswarareddy_2020]
-- [Toolpath Generation for Additive Manufacturing Considering...][research_sales_kwok_2020]
 - [Unmanned Aircraft Systems Conflict Resolution Using...][research_dey_ratnoo_2020]
 - [Unsteady Maneuvering of a Morphing Wing][research_joshi_vazquez_2020]
 - [Withdrawal Finite-Time Missile Guidance Law with LOS Rate for...][research_jayaraman_gaurav_2020_b]
@@ -10403,14 +9576,10 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Altitude Performance and Fuel Consumption Modelling of...][research_muratotkur_2021]
 - [Correction Aerodynamic Performance of Wingtip-Mounted...][research_sinnige_nederlof_2021_b]
 - [Design of the Electronic Engine Control Unit Performance Test...][research_kho_park_2021]
-- [Dose safety motivation mediate the effect of psychological...][research_vatankhah_2021]
-- [Drag Reduction On A Square Back Ahmed Body Using A Simple Flap][research_siddiqui_agelinchaab_2021]
-- [Dynamic Maneuverability Analysis A Preliminary Application on...][research_topini_pagliai_2021]
 - [Effect of Lift-Share Ratio on Aerodynamic Performance of...][research_sugawara_tanabe_2021]
 - [Effects of Geometrical Configuration on the Aerodynamic...][research_alam_soeimanikutanaei_2021]
 - [Effects of exhaust particles on turbine performance and...][research_sun_cao_2021]
 - [Evaluation of Key Performance of Aircraft Fabric Rubber Seal...][research_fu_dong_2021]
-- [Experimental Comparison of a New SAG-IGBT and Conventional...][research_kong_ngwendson_2021]
 - [Experimental Investigations of Airplane Maneuverability and...][research_fouda_taha_2021]
 - [Flight-Test Validation of a Takeoff Performance Uncertainty...][research_sobester_2021]
 - [Generalized Energy-Based Flight Vehicle Sizing and...][research_chakraborty_mishra_2021]
@@ -10418,23 +9587,18 @@ half is what the same questions look like once computation replaced the tunnel a
 - [In-Stall Compressor Performance and the Effects of Reynolds...][research_hutchings_hall_2021]
 - [Linear Quadratic Minimum-Effort, Specify-Performance Approach...][research_weiss_shima_2021]
 - [Maneuver Load Alleviation of Very Flexible Aircraft via...][research_duan_kolmanovsky_2021]
-- [Mechatronic Design and Maneuverability Analysis of a Novel...][research_gao_li_2021]
 - [Multi-Objective Optimization of a Maneuvering Small Aircraft...][research_josephshibu_shankar_2021]
 - [Numerical Virtual Flight Simulation of Quasi-Cobra Maneuver...][research_wang_ma_2021]
-- [Performance Prediction and Design of Wind-assisted Propulsion...][research_thies_ringsberg_2021]
 - [Peregrine Falcon’s Dive Pullout Maneuver and Flight Control...][research_selim_gowree_2021]
 - [Performance analysis of hybrid electric and distributed...][research_bravo_praliyev_2021]
 - [Propulsion Performance of Repeated, Highly Focused Laser...][research_smith_sloane_2021]
-- [Purpose-built, head-mounted 3D display for ophthalmic...][research_korot_rolain_2021]
 - [Real-Time Drag Optimization of Aspect Ratio 13.5 Common...][research_nguyen_xiong_2021]
 - [Reference Trajectory/Attitude Control System Design and...][research_yokoyama_fujiwara_2021]
 - [Secondary vortex, laminar separation bubble and vortex...][research_chopra_mittal_2021]
 - [Trajectory optimization-based maneuverability assessment of...][research_wang_diepolder_2021]
-- [Turning Maneuverability Analysis of a Bionic Gliding Robotic...][research_zhang_wu_2021]
 - [Unmanned aircraft automatic flight control algorithm in an...][research_rogalski_rzucidlo_2021]
 - [Using Artificial Bias to Assist Evasive Maneuvering of...][research_pham_2021]
 - [Variable Time-of-Flight Spacecraft Maneuver Targeting Using...][research_boone_mcmahon_2021]
-- [Virtual Character Control by Brain-Computer Interface and...][research_gezgez_kacar_2021]
 - [A 55-pound Vertical-Takeoff-and-Landing Fixed-Wing sUAS for...][research_coopmans_slack_2022]
 - [A comparative study on the performance of nickel-based...][research_langot_gourcerol_2022]
 - [A pointing-based method for spacecraft attitude maneuver path...][research_he_shi_2022]
@@ -10457,7 +9621,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Global Incremental Flight Control for Agile Maneuvering of a...][research_tal_karaman_2022]
 - [Installed performance of ultra-high bypass turbofans...][research_buosi_magrini_2022]
 - [Investigation of the Performance of Hydrogen-Fueled Wankel...][research_du_yang_2022]
-- [Manual Maneuverability Metrics for Analysing and Benchmarking...][research_kirschner_martineau_2022]
 - [Novel UAS Propeller Design Part 1 Using an Unloaded Tip to...][research_wisniewski_vantreuren_2022_b]
 - [Novel UAS Propeller Design Part 2 Design Hub and Tip Angle of...][research_vantreuren_wisniewski_2022]
 - [Novel Unmanned Aircraft System Propeller Design Part 1 Using...][research_wisniewski_vantreuren_2022]
@@ -10467,31 +9630,24 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Performance improvement of aircraft pitch angle control using...][research_idir_bensafia_2022]
 - [Pressure Gradient Effects on the Performance of Riblets...][research_sasamori_koga_2022]
 - [Quantification of Uncertainty in Extrapolation of Charring...][research_rostkowski_panesi_2022]
-- [Real-time multiscale prediction of structural performance in...][research_liu_kan_2022]
 - [Simulation of an Electric Powered Aircraft for Flight and...][research_hein_myschik_2022]
 - [Study on Effect of Aerodynamic Configuration on Aerodynamic...][research_li_yuan_2022]
-- [The effect of high altitude environment on diesel engine...][research_liu_li_2022]
-- [The effect of the altitude on the performance of a solar...][research_bouchair_2022]
-- [The maneuverability and hydrodynamics of a tethered...][research_xu_wu_2022]
 - [Touch-and-go Generation with Trim-based Maneuver Algorithm][research_dursun_erturk_2022]
 - [Uncertainty propagation in flight performance of multirotor...][research_lim_kim_2022]
 - [Using nonlinear feedback control to improve aircraft nose...][research_wang_jin_2022]
 - [A Surge/Stall-Capable Dynamic Performance Simulation...][research_gullu_aran_2023]
 - [Adjoint-Based Aerodynamic Design Optimization and Drag...][research_rao_chen_2023]
-- [Aerodynamic performance analysis of muffler used in exhaust...][research_kalita_singh_2023]
 - [Aircraft Engine Performance Augmented by Wet Compression][research_gkoutzamanis_psaropoulos_2023]
 - [An Improved Feedforward-Robust Algorithm for Active Vibration...][research_qin_lu_2023]
 - [Analytical and simulation model of fighter flight dynamics...][research_kostin_zhuravskiy_2023]
 - [Bidirectional Guided Policy Search for Aircraft Maneuver][research_wang_guo_2023]
 - [Compressor and Valve Control Performance Implications on...][research_mansy_faruque_2023]
-- [Computational Fluid Dynamics Study of Modification to Front...][research_wu_agarwal_2023]
 - [Conceptual Design Optimization of Liquid-Hydrogen-Fueled...][research_vanlandingham_hall_2023]
 - [Conceptual design and its optimization of an air-cooled...][research_deng_liu_2023]
 - [Cooling performance of droplet-shaped Kagome truss structure...][research_ruan_xu_2023]
 - [Correction Conceptual Design Optimization of...][research_vanlandingham_hall_2023_b]
 - [Dealing with Aspects of Performance and Environmental Impact...][research_aygun_2023]
 - [Design and Longitudinal Dynamics Decoupling Control of a...][research_li_zheng_2023]
-- [Design and Performance Comparison of 3D Metal Printed Near...][research_agnihotri_2023]
 - [Determination of main performance data of an aircraft...][research_zhuravsky_kostin_2023]
 - [Drag Reduction Techniques for eVTOL Configuration with...][research_zheng_merret_2023]
 - [Estimation-based missile threat detection and evasion...][research_tian_danino_2023]
@@ -10500,10 +9656,8 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Impact of sCO2 Waste Heat Recovery System Air Cooler...][research_bury_vesely_2023]
 - [Implementation of Alternative Aircraft Evaluation Techniques...][research_furmanek_skrasek_2023]
 - [Innovative Control Effectors for Maneuvering of Air Vehicles][research_hristov_2023]
-- [Interface Structure Change and Carbon Diffusion of Stainless...][research_li_zhang_2023]
 - [LQR and Pole Placement Controllers with Integral Action...][research_zarghoon_belavy_2023]
 - [Maneuverability Set Estimation and Trajectory Feasibility...][research_lu_hong_2023]
-- [Message Generation Algorithm for Maneuver Coordination Based...][research_xhoxhi_li_2023]
 - [Mostafa Maged Ali 2023][research_mostafamagedali_2023]
 - [Numerical Analysis of Flight Performance of Bioinspired Mars...][research_tarpley_pohly_2023]
 - [Numerical Investigation of the Intercooler Performance of...][research_sun_liu_2023]
@@ -10513,7 +9667,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Robust Stability and Performance Analysis of Incremental...][research_pollack_vankampen_2023]
 - [Robust backstepping control for maneuver aircraft based on...][research_shen_chen_2023]
 - [Robust performance comparison of PMSM for flight control...][research_karboua_belgacem_2023]
-- [Study of the effect of structural parameters of vehicle...][research_study_of_2023]
 - [Successive Optimization of Airfoils, Planform and Twist for...][research_wilke_2023]
 - [The Effectiveness of Audible Alarm Types and Presentation...][research_wu_li_2023]
 - [The manoeuvre system][research_the_manoeuvre_2023]
@@ -10528,24 +9681,19 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Analysis of Yaw-axis Control Performance According to Motor...][research_jeong_kim_2024]
 - [Attention-Based Model With Component Embedding for...][research_liang_xiao_2024]
 - [Comparison of Analytical and Experimental Propeller...][research_greeson_manning_2024]
-- [Control-Plane Observability Through Data-Plane Performance][research_ramachandran_2024]
 - [Correction Modeling and performance prediction of small...][research_whitcher_2024_b]
 - [Development and Validation of Full-Aircraft Free-Flight...][research_zhao_defreitas_2024]
 - [Development of a Modular Engine Performance Calculation Tool...][research_wiegand_schuchard_2024]
 - [Effect of pitch and angle of attack on thermal performance of...][research_srivastava_sahoo_2024_b]
-- [Employee Performance Evaluation Using the Standard Method of...][research_isnain_rahmanto_2024]
 - [Enhanced Convex Optimization Strategies in 6-Dof Non-Coplanar...][research_kang_li_2024]
-- [Enhancing the high-temperature oxidation performance of...][research_chen_wang_2024]
 - [Experimental Analysis on Performance of Air/Oil Centrifugal...][research_dimatteo_berten_2024]
 - [Experimental and numerical study on thermal performance of...][research_srivastava_sahoo_2024]
-- [Extended Comparison and Performance Analysis for Mobile...][research_razouqi_boushehri_2024]
 - [Fluid Structure Coupled Analysis of Maneuver Load Alleviation...][research_breitenstein_muller_2024]
 - [HFTsim A Component Library for High-Frequency Gas Turbine...][research_gullu_aran_2024]
 - [High-Performance Latch Designs of Double-Node-Upset...][research_peng_tian_2024]
 - [Hybrid Flight Physics and QAR Data Based Mission Fuel...][research_wu_song_2024]
 - [Impact of Various Intake Configurations on the Flight Mission...][research_remiger_grois_2024]
 - [In-flight Capture Maneuver of Drones Using Model Predictive...][research_oliveira_guerreiro_2024]
-- [Integrated Footstep Planning and CoM Control for Enhanced...][research_fatahillah_suryanobelia_2024]
 - [Low-Thrust Spacecraft Trajectory Optimization with...][research_harris_he_2024]
 - [Maneuverability and Agility Evaluation of Fighter Based on...][research_liu_li_2024]
 - [Model-based manoeuvre analysis a path to a new paradigm in...][research_shayak_girdhar_2024]
@@ -10553,7 +9701,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Modeling and Performance Analysis of Variable Cycle Engine...][research_li_huang_2024]
 - [Modeling and performance prediction of small electric...][research_whitcher_2024]
 - [Numerical Simulation of the Influence of Exhaust Diffuser...][research_shi_zeng_2024]
-- [Optimizing Cloud Telemetry for Real-Time Performance...][research_optimizing_cloud_2024]
 - [Optimizing Mechanical Performance of Carbon Fiber Reinforced...][research_more_mohan_2024]
 - [Performance assessment of ammonia as a turbofan engine fuel...][research_ogur_koc_2024]
 - [Piloted Simulation Evaluation of Maneuver Optimization...][research_horn_berger_2024]
@@ -10562,11 +9709,9 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Research on Combat Aircraft Maneuver Decision-making Based on...][research_zhao_zhu_2024]
 - [Research on Drag Reduction Matching of Modular Flying Cars...][research_li_ye_2024]
 - [Roll Maneuverability of Transonic High-Aspect-Ratio-Wing...][research_sanghi_cesnik_2024]
-- [Simultaneous Trajectory and Speed Planning for Autonomous...][research_diachuk_easa_2024]
 - [Solar Electric Propulsion Isothermal Performance and Pressure...][research_alhammadi_green_2024]
 - [Stealth Aircraft Penetration Trajectory Planning in 3D...][research_lu_huang_2024]
 - [Surrey Hydrogen Aircraft Performance Evaluator SHAPE...][research_tiwari_pekris_2024]
-- [Temporal fragmentation of the energy demand in Europe Impact...][research_filahi_omrani_2024]
 - [Time-to-go based three-dimensional multi-missile...][research_zhan_li_2024]
 - [Ultra-low Altitude Aircraft Airborne Radar Performance Under...][research_shah_tao_2024]
 - [A Detailed Experimental Investigation Into the Vectoring...][research_weigert_crowther_2025]
@@ -10586,29 +9731,20 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Comparative Analysis of Two-Stage Leader-Follower Algorithms...][research_bozko_ambroziak_2025]
 - [Comparative performance analysis of a turboprop engine used...][research_yuksel_aygun_2025]
 - [Comparison of Classical and Optimization-Based Motion Cueing...][research_bakker_stroosma_2025]
-- [Comparison of Performance Metrics of Various ML-based Load...][research_devi_dalal_2025]
-- [Compass Steering Control with Minimum Displacement Error for...][research_wang_wang_2025_b]
-- [Controllable Hydraulic Jet Thrusters for Enhanced Underwater...][research_eastridge_buck_2025]
 - [Correction algorithm for the navigation complex of a...][research_correction_algorithm_2025]
 - [Design Reference Model Based Maneuverability Phase Planes of...][research_bhardwaj_holzapfel_2025]
-- [Design and Performance of a Dual-Layer ITO-Based...][research_ali_jinzu_2025]
-- [Design of Electric Propulsion System Considering Propulsion...][research_park_park_2025]
 - [Determination of Control Effector Rate Requirements for...][research_kus_ergazi_2025]
 - [Effect of Reynolds Number and Angle of Attack on Aerodynamic...][research_gu_wang_2025]
 - [Effect of flap settings on energy and environmental...][research_sogut_2025]
 - [Effect of sustainable/ durable composite materials on dynamic...][research_nagy_2025]
 - [Energy-Harvesting Performance of an Aircraft Propeller][research_nederlof_ragni_2025]
 - [Energy-Maneuverability Method for Aircraft Performance...][research_zalewskipiotrzalewskiwatedupl_kiszkowiaklukaszkiszkowiakwatedupl_2025]
-- [Enhanced Speed and Maneuverability of a Robotic Fish via...][research_li_liu_2025_b]
 - [Factors influencing the performance of commercial aircraft...][research_uchman_2025]
 - [Finite-Time Control for Maneuvering Aircraft with Input...][research_zhou_shen_2025]
 - [Framework for Technical Performance Uncertainty in...][research_park_listgarten_2025]
 - [Gas Turbine Engine Performance Estimation Using Model-Based...][research_nakod_bora_2025]
 - [High-Altitude Balloon Flight Ozone, Temperature, and Battery...][research_novo_lisman_2025]
-- [Hydrodynamic and thermosolutal analysis of MHD ternary hybrid...][research_hussain_2025]
 - [Indicators of Maneuverability of Shock Unmanned Aircraft with...][research_pilkevych_omelchuk_2025]
-- [Integrated Control Strategy Combining Torque Vectoring and...][research_ustaoglu_turhan_2025]
-- [Integrated Design and Performance Optimization of Residential...][research_xu_ma_2025_b]
 - [Integrating Cross-Axis Decoupling into Conventional Flight...][research_akaryildiz_kaya_2025]
 - [Investigation of Energy-Maneuverability Methods for...][research_tritschler_juhasz_2025]
 - [Lateral-Directional LQR Control With Performance, Robustness...][research_peterson_2025]
@@ -10628,13 +9764,11 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Research on Airworthiness Verification Technology of...][research_zhou_liu_2025_b]
 - [Research on the performance of active-passive combined...][research_ke_wang_2025]
 - [Retrofitting of a High-Performance Aerospace Component via...][research_cresposanchez_solek_2025]
-- [Robust fuzzy sampled event-triggered control for enhancing...][research_djadane_makni_2025]
 - [Robust trajectory maneuver scheduling near the flyby of small...][research_hu_wu_2025]
 - [Robust trajectory optimization under arbitrary uncertainty...][research_matsuno_matsuda_2025]
 - [Sensor Performance Models-Aided Target Tracking and...][research_albert_stutz_2025]
 - [Simulation Modeling of Aircraft Maneuvering Behavior Based on...][research_bai_2025]
 - [Solvent- and binder-free additive manufacturing of...][research_viswanadha_watts_2025]
-- [Strategic Oversight of AI-Enabled Manufacturing...][research_john_2025]
 - [Study on thermal insulation performance of aircraft wall...][research_jia_tian_2025]
 - [Trajectory Optimization Approach for Adaptive Multiple-Pass...][research_teng_han_2025]
 - [Twisted finite wing at low Reynolds number cellular vortex...][research_pandi_mittal_2025]
@@ -10654,7 +9788,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Correction Performance Comparison of Truss-Braced Wing...][research_rahman_akbar_2026_b]
 - [Coupling Dynamic Stall with Lifting-Line Theory for Gust and...][research_abunawas_qawasmeh_2026]
 - [Deep-Learning-Based Inverse Airfoil Design Using Global...][research_eris_ozgoren_2026]
-- [Design and Optimization ofWheel Geometries for Enhanced...][research_sahunalu_wissler_2026]
 - [Design of Reflex Cambered Wing for Range Performance for...][research_gupta_2026]
 - [Digital Twin of Fixed-Wing Aircraft Powertrain Performance][research_karpenko_dobrokhodov_2026]
 - [Ditching Performance Comparison of Blended-Wing-Body and...][research_zheng_qu_2026]
@@ -10665,12 +9798,9 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Flight Trajectory Protection for an Urban Air Mobility...][research_martinez_clardy_2026]
 - [Generalized Engine Inoperative Performance Requirements for...][research_mokotoff_cinar_2026]
 - [Impact of Mach and cabin altitude on aircraft...][research_hussein_kadhim_2026]
-- [Increasing the efficiency and maneuverability of nuclear...][research_kindra_rogalev_2026]
 - [Influence of Performance Metrics Emphasis in Hyperparameter...][research_kurniawan_suvittawat_2026]
 - [Influence of endwall contouring domain on the aerodynamic...][research_zhao_zhang_2026]
-- [Learning to Smooth Mitigating Energy Waste in...][research_tong_weng_2026]
 - [Longitudinal flight performance improvement strategy for...][research_wang_hu_2026]
-- [Maneuverability Analysis of an Asymmetric Bio-Inspired...][research_durai_song_2026]
 - [Neural Learning Control of Fighter Aircraft at...][research_yu_yu_2026]
 - [Numerical Simulations of an Installed Rotor in Prescribed and...][research_sheng_2026]
 - [Off-Design Performance Consequences of Design Payload and...][research_hoogreef_2026]
@@ -10678,28 +9808,22 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Parametric Reduced-Order Model Drag Polars for Supersonic...][research_felix_perron_2026]
 - [Performance Analysis of Dynamic Soaring with Thrust and...][research_zhuo_nahon_2026]
 - [Performance Comparison of Truss-Braced Wing Aircraft Model...][research_rahman_akbar_2026]
-- [Performance Evaluation of High-Traffic Asphalt Mixtures With...][research_candotipan_mosqueramolina_2026]
 - [Performance Prediction of a Low-Reynolds-Number Airfoil in an...][research_ferrand_gowree_2026]
-- [Performance analysis of a desalination system enhanced by...][research_chen_gao_2026]
 - [Solid Oxide Fuel Cell Performance and Sizing Model for Novel...][research_warsch_carbone_2026]
 - [Time-Varying Aerodynamic Model and Adaptive Control of the...][research_peng_cao_2026]
 - [Trajectory Design and Control of a Small-Scale Helicopter...][research_fattizzo_giulietti_2026]
-- [Unpacking marketing agility Effects on customer mindset...][research_agag_ali_2026]
 - [WITHDRAWAL Ditching Performance Comparison of TAW, BWB, and...][research_wang_zhou_2026_b]
 - [WITHDRAWN Ditching Performance Comparison of TAW, BWB, and...][research_wang_zhou_2026]
 
 ### Control power and effector sizing
 
 - [Development of a roll and yaw moment generation mechanism...][research_takagi_nishimura_2015]
-- [Iteration control of particle size distribution in cobalt...][research_chao_jing_2015]
-- [Robust control for four wheel independently-actuated electric...][research_yin_wang_2015]
 - [Simple Adaptive Delta Operator Aircraft Flight Control for...][research_cano_sobel_2016]
 - [The design of fault-tolerant flight control within actuator...][research_yu_yufu_2016]
 - [Gust Load Alleviation Control for a Flexible Aircraft with...][research_fan_liu_2017_b]
 - [Aircraft Fault Accommodation With Consideration of Actuator...][research_yu_fu_2018]
 - [Dynamic Flight Simulation of Spanwise Distributed Electric...][research_freeman_klunk_2018]
 - [Fault Tolerant Control for Civil Aircraft with Actuator...][research_wang_li_2018]
-- [Stable Backstepping Control of Marine Vehicles with Actuator...][research_vonellenrieder_2018]
 - [High Control Authority 3D Aircraft Control Surfaces Using...][research_xu_zha_2019]
 - [NATO AVT-239 Task Group Control effectiveness and system...][research_hutchin_2019]
 - [Control Authority of a Camber Morphing Flying Wing][research_keidel_fasel_2020]
@@ -10712,13 +9836,11 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Enhancing Yaw Control Authority and Resilience for eVTOL...][research_kamath_thanaraj_2025]
 - [Dynamic Stability and Control Authority Blending in...][research_spadao_vasconcellos_2026]
 - [Nonlinear Time-Domain System Identification of Aircraft...][research_nguyen_xiong_2026]
-- [Robust and dynamic control authority allocation in...][research_chen_cheng_2026]
 
 ### Yaw asymmetry and forebody flow
 
 - [Computational Analysis of Conical Forebody Flow at High Alpha...][research_zheng_wang_2015]
 - [Effect of Roll Orientation on the Vortex Asymmetry on a...][research_taligoski_uzun_2015]
-- [Cyclone anticyclone vortex asymmetry mechanism and linear...][research_chefranov_2016]
 - [Effect of Controlled Imperfections on the Vortex Asymmetry of...][research_mahadevan_rodriguez_2017]
 - [Effect of Controlled Imperfections on the Vortex Asymmetry of...][research_mahadevan_rodriguez_2018]
 - [Experimental and Numerical Study of Forebody Vortex...][research_sampathkumar_guha_2020]
@@ -10824,7 +9946,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Performance Analysis of Fluidic Thrust Vector Control System][research_takahashi_maruyana_2020]
 - [Performance Assessment of the Dual-Throat Nozzle Thrust...][research_wu_kim_2020]
 - [Quaternion Feedback Based Autonomous Control of a Quadcopter...][research_kumar_bhargavapuri_2020]
-- [Research on underwater fluidic thrust vectoring method based...][research_xiu_geng_2020]
 - [Thrust Vectoring of a Supersonic Rectangular Nozzle by Using...][research_thrust_vectoring_2020]
 - [Thrust vectoring control of vertical/short takeoff and...][research_wang_zhu_2020]
 - [Verification and Measurement of Thrust Vectoring Using...][research_roush_shapochka_2020]
@@ -10837,7 +9958,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Inverted hovering of fixed-wing aircraft using thrust...][research_miwa_2021]
 - [Nozzle Performance Maps for Fluidic Thrust Vectoring][research_chandrasekar_jaiswal_2021]
 - [Numerical Study of Fluidic Thrust Vector Control Using Dual...][research_numerical_study_2021]
-- [Preliminary Design of Ducted Nozzle Propeller in Propulsion...][research_axsendra_ekadarma_2021]
 - [Performance Analysis of Fluidic Thrust Vector Control System][research_takahashi_maruyama_2021]
 - [Propeller and Propeller-in-Wing Thrust Vectoring][research_culpepper_cai_2021]
 - [Research on control effectiveness of fluidic thrust vectoring][research_xue_yunsong_2021]
@@ -10848,7 +9968,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Advanced wave plasma thruster with multiple thrust vectoring...][research_shumeiko_jarrar_2022]
 - [Design and Experimental Study of a Turbojet VTOL Aircraft...][research_liu_gao_2022]
 - [Design of Thrust Vectoring Vertical/Short Takeoff and Landing...][research_zhou_wang_2022]
-- [Development of Discrete-Time Waterjet Control Systems Used in...][research_loghis_xiros_2022]
 - [Development of a novel wave plasma propulsion module with...][research_shumeiko_telekh_2022]
 - [Effect of Forward Propeller Tilt and Inlet Shape in...][research_culpepper_cai_2022]
 - [Hydrodynamic characteristics of a new thrust vectoring ducted...][research_xia_wang_2022]
@@ -10903,7 +10022,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Study of performance of an internal strut-based thrust...][research_soundararajan_sridhar_2024]
 - [The Effect of Thrust Vectoring on Aeroelastic Stability of...][research_amoozgar_hall_2024]
 - [Thrust Vectoring using Differential Throttling in...][research_resta_dicicca_2024]
-- [Untethered Underwater Soft Robot with Thrust Vectoring][research_hall_onal_2024]
 - [CFD Analysis of Thrust Vectoring Nozzle][research_bhabar_mukeshsharma_2025]
 - [CFD analysis and design of bypass dual throat nozzle for...][research_park_lee_2025]
 - [Computational Investigation of Fluidic Thrust Vectoring...][research_computational_investigation_2025]
@@ -10915,7 +10033,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Enhanced Control System for Thrust Vectoring Design...][research_ahmed_elbanna_2025]
 - [Experimental Study on the Performance Characteristics of...][research_ha_kim_2025]
 - [Fluid Thrust Vectoring with Bypass Injection on Single- and...][research_kishore_ashok_2025]
-- [Flow and thrust vectoring characteristics of underwater...][research_zhang_bao_2025]
 - [Fluidic Thrust Vectoring CFD Analysis of Secondary Injection...][research_gupta_2025]
 - [Kernel-based predictive control allocation for a class of...][research_nguyen_han_2025]
 - [Kinematic Design and Control Analysis of A Subsonic Ejector...][research_oganyan_loginov_2025]
@@ -10937,7 +10054,6 @@ half is what the same questions look like once computation replaced the tunnel a
 - [Trailing-Edge Beveling Effect on Passive Fluidic Thrust...][research_huang_gu_2025]
 - [Advanced Fluidic Thrust Vectoring with Dual Throat Nozzle...][research_shukla_mitra_2026]
 - [Acoustic Measurements of Supersonic Jet with Thrust Vectoring][research_siginamsetty_karuchola_2026]
-- [CFD Analysis of Flow Characteristics in a Rectangular Fluidic...][research_chen_2026]
 - [Design and Development of a Thrust Vectoring Floating...][research_crawford_samaniego_2026]
 - [Experimental investigation of passive fluidic thrust...][research_zhang_gu_2026_b]
 - [Experimental investigation of pulsed fluidic thrust vectoring...][research_singh_2026_b]
@@ -11064,18 +10180,18 @@ the weights. The general form of that hazard is known in statistics as
 
 ## The Source Base
 
-**The reference set behind this article holds 2,887 records published through 1999 and 6,067 published from 2015 onward**,
+**The reference set behind this article holds 2,662 records published through 1999 and 5,446 published from 2015 onward**,
 drawn from a master set of anchored records assembled from the NASA Technical Reports Server, the Defense
 Technical Information Center through its registered identifiers, and the Crossref registry across journal
 and conference literature. **Every anchored record is cited.**
 
 | Period | Records | Share |
 |---|---|---|
-| Before 1985 | 863 | 9.3 percent |
-| **1985 to 1996, the programme window** | **1,764** | **19.1 percent** |
-| 1997 to 2014 | 555 | 6.0 percent |
-| 2015 onward | 6,067 | 65.6 percent |
-| of which 2022 onward | 2,842 | 30.7 percent |
+| Before 1985 | 815 | 9.7 percent |
+| **1985 to 1996, the programme window** | **1,615** | **19.3 percent** |
+| 1997 to 2014 | 489 | 5.8 percent |
+| 2015 onward | 5,446 | 65.1 percent |
+| of which 2022 onward | 2,542 | 30.4 percent |
 
 **The programme window is the row that matters for primacy**, because it holds the work published while this
 aircraft was being designed, built and flown. A record from 1993 about high angle of attack aerodynamics is
@@ -11084,9 +10200,28 @@ a primary source for this article in a way that a review from 2021 is not, howev
 **The count and the fraction are both reported, because they move in opposite directions and because this article was caught by both ends.**
 The period count rose from 1,221 to 1,393 across the reference work while the period fraction fell from 44.9
 percent to 19.6, because the same pass added nearly four thousand contemporary records underneath it.
-**Nothing was removed at any point.** The count going up and the fraction going down are the same event seen
+**Nothing was removed during those passes.** The count going up and the fraction going down are the same event seen
 from two sides, and reporting only the fraction would read as a regression when it is the comprehensiveness
 directive working.
+
+**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
+reading of every record the screens flagged, of a random sample, and of every title carrying no aerospace or
+statistical term found that the cluster patterns had matched words rather than subjects, so that control
+admitted power grids, gene therapy and bankruptcy law, structure admitted crystallography, vehicle stability
+admitted cars, and manoeuvrability admitted ships. The rebuilt filter refused 884 records. Of those, 190
+concern road and ground vehicles, 120 electric power and electric machines, 96 ships and underwater vehicles,
+69 medicine and biology, 66 the chemical and process industries, 58 law, economics and the social sciences,
+49 computing and networks, 48 robots and industrial actuators, 20 railways, and 168 a scatter of other
+physical sciences and industries, among them six titles on tailless cats, rats, batrachians and
+whipscorpions and two on foie gras ducks filed under the canard.
+
+**The research total fell from 9,249 to 8,365.** The general control literature changed most, from 1,803
+records to 1,463, followed by the general aerodynamics literature, from 795 to 660, structures and
+materials, from 451 to 390, control allocation, from 483 to 425, and analytical redundancy, from 257
+to 206. A reading of 300 unflagged records found 29 off topic, all of them refused by the rebuilt filter, and a
+second reading of 300 records drawn after the rebuild found seven more, which put the contamination
+remaining at that point near 2.3 percent and prompted a further sweep that refused 28 records, those seven
+among them.
 
 ### What the Primary Pass Was Aimed At, and What It Moved
 
@@ -11120,7 +10255,7 @@ own engineers wrote.
 ### What the Contemporary Sweep Found on a Second Look
 
 **The survey was measured again after the primary work, because two harvests aimed at the programme window could easily have left the modern half behind.**
-They had not. Coverage from 2015 onward stands at 6,067 records, and 2,842 of those were published from 2022
+They had not. Coverage from 2015 onward stands at 5,446 records, and 2,542 of those were published from 2022
 onward, so the survey reaches the present rather than stopping a decade short.
 
 **Eight modern clusters were thin and two subjects had no heading at all.** The two are the ones that
@@ -11505,32 +10640,25 @@ computable in one line from the lift equation.
 
 ### Research
 
-- [002 Robust nonlinear decoupling and yaw stabilization of four-wheel steering cars 1994][research_002_robust_1994]
 - [015 A multiplier method for computing real multivariable stability margin 1994][research_015_a_1994]
 - [028 Application of a new robust stability margin P.M.M. Bongers, pp 120-123 1993][research_028_application_1993]
-- [059 FMS's dynamic scheduling by Hopfield neural network 1994][research_059_fms_s_1994]
 - [087 An explicit formula for Γ-stability robustness margin 1994][research_087_an_1994]
 - [088 Stability margin of a feedback system with structured and unstructured uncertainties 1994][research_088_stability_1994]
-- [110 Dynamic scheduling control for a network of queens 1994][research_110_dynamic_1994]
 - [122 Neural networks applied to optimal flight control 1993][research_122_neural_1993]
 - [171 A practical adaptive tracking filter for maneuvering targets 1994][research_171_a_1994]
 - [202 Biomechanics in aircraft control 1993][research_202_biomechanics_1993]
 - [2021 International Conference on Unmanned Aircraft Systems (Conference Reports) 2021][research_2021_international_2021]
 - [213 Development of a robust flight control law for a VSTOL aircraft 1994][research_213_development_1994]
-- [231 Cascaded adaptive control of marine vehicles with significant actuator dynamics 1994][research_231_cascaded_1994]
 - [4th Aircraft Design, Flight Test, and Operations Meeting 1972][research_4th_aircraft_1972]
 - [5th Aircraft Design,Flight Test and Operations Meeting 1973][research_5th_aircraft_1973]
 - [6 DoF Aircraft Simulation Model Capable of Handling Maneuver Events (WIP) 2016][research_6_dof_2016]
 - [6th Aircraft Design,Flight Test and Operations Meeting 1974][research_6th_aircraft_1974]
 - [8. Optimal control design for swinging and damping a double pendulum 2015][research_8_optimal_2015]
-- [9539031 A study of emergency maneuverability Tsuyosi Moriyama, Takashi Yonekawa (Toyota Motor Corporation) 1996][research_9539031_a_1996]
-- [9539103 Improvement of vehicle stability using active brake control Yoshiyuki Yasui, Kenji Tozu, Noriaki Hattori, Masakazu Sugisawa (Aisin Seiki Co., Ltd.) 1996][research_9539103_improvement_1996]
 - [97/02841 Fuzzy gain scheduling of velocity p1 controller with intelligent learning algorithm for reactor control 1997][research_97_02841_fuzzy_1997]
 - [A feasibility review of SMC-MIMO based control architecture for high angle of attack flight 2019][research_a_feasibility_2019]
 - [A Generalization for Model Reference Adaptive Control and Robust Model Reference Adaptive Control Adaptive Laws for a Class of Nonlinear Uncertain Systems with Application to Control of Wing Rock Phenomenon 2020][research_a_generalization_2020]
 - [A hierarchical decision-making method for multi-aircraft air combat confrontation 2022][research_a_hierarchical_decision_making_2022]
 - [A knowledge based simulation approach for real-time model validation 1993][research_a_knowledge_1993]
-- [A roadway information system for vehicle guidance/control 1991][research_a_roadway_1991]
 - [A Spreadsheet Tool for the AERODAS Model for Calculating Airfoil Pre-Stall and Post-Stall Lift and Drag Characteristics 2018][research_a_spreadsheet_2018]
 - [A Static and Dynamic Aeroelastic Loads and Sensitivity Analysis For Structural Loads optimization and Its Application to Transport Aircraft 1993][research_a_static_1993]
 - [A Whitmore 2024][research_awhitmore_2024]
@@ -11556,7 +10684,6 @@ computable in one line from the lift equation.
 - [Abed and Lee 1990][research_abed_lee_1990]
 - [Abed et al 2024][research_abed_alhamadani_2024]
 - [Abene 2015][research_abene_2015]
-- [Aberdeen Test Center Md 2009][research_aberdeentestcentermd_2009]
 - [Aberg et al 1962][research_aberg_francis_1962]
 - [Abhishek and Prasad 2016][research_abhishek_prasad_2016]
 - [Abney and McDaniel 2005][research_abney_mcdaniel_2005]
@@ -11564,12 +10691,10 @@ computable in one line from the lift equation.
 - [Abouheaf et al 2020][research_abouheaf_gueaieb_2020]
 - [Abratanski et al 2023][research_abratanski_grzejda_2023]
 - [Abu-Elola et al 2024][research_abuelola_alqaisia_2024]
-- [Abujubbeh et al 2022][research_abujubbeh_kumarr_2022]
 - [AbuNawas and Qawasmeh 2026][research_abunawas_qawasmeh_2026]
 - [Abzug 1999][research_abzug_1999]
 - [Acar and Tezel 2025][research_acar_tezel_2025]
 - [Ackerman et al 2017][research_ackerman_talleur_2017]
-- [Ackermann and Bünte 1997][research_ackermann_bunte_1997]
 - [Acquatella and Chu 2020][research_acquatella_chu_2020]
 - [Acquatella B. et al 2017][research_acquatellab_vanekeren_2017]
 - [Acton et al 2021][research_acton_wolff_2021]
@@ -11597,40 +10722,31 @@ computable in one line from the lift equation.
 - [Afridi et al 2024][research_afridi_khan_2024]
 - [Aftab and Rossiter 2021][research_aftab_rossiter_2021]
 - [Afthon and Moelyadi 2021][research_afthon_moelyadi_2021]
-- [Agag et al 2026][research_agag_ali_2026]
 - [Agarwal et al 2021][research_agarwal_ng_2021]
 - [Ageev et al 2022][research_ageev_bukov_2022]
 - [Agha et al 2017][research_agha_kanistras_2017]
-- [Agnihotri 2023][research_agnihotri_2023]
 - [Agnone 1984][research_agnone_1984]
 - [Agrawal et al 1991][research_agrawal_kinard_1991]
 - [Agrell and Elmeland 1985][research_agrell_elmeland_1985]
 - [Agresti and Coull 1998][research_agresti_coull_1998]
 - [Agui et al 2019][research_agui_struk_2019]
 - [Aguilar-Ibañez 2016][research_aguilaribanez_2016]
-- [Aguilera et al 2016][research_aguilera_delabarrera_2016]
 - [Ahlstrom 2010][research_ahlstrom_2010]
 - [Ahmad et al 2018][research_ahmad_siddique_2018]
 - [Ahmadi Dastgerdi et al 2022][research_ahmadidastgerdi_asadi_2022]
-- [Ahmadian 2017][research_ahmadian_2017]
-- [Ahmadian et al 2020][research_ahmadian_khosravi_2020]
 - [Ahmed 2025][research_ahmed_2025]
 - [Ahmed Abdelrahman et al 2015][research_ahmedabdelrahman_elessaidsuliman_2015]
 - [Ahmed and Kopsaftopoulos 2019][research_ahmed_kopsaftopoulos_2019]
 - [Ahmed and Qin 2020][research_ahmed_qin_2020]
-- [Ahmed et al 2020][research_ahmed_ram_2020]
 - [Ahmed et al 2021][research_ahmed_nauman_2021]
 - [Ahmed et al 2025][research_ahmed_elbanna_2025]
 - [Ahmed et al 2025][research_ahmed_fabri_2025]
 - [Ahmed-Zaid et al 1990][research_ahmedzaid_ioannou_1990]
-- [Ahn et al 2020][research_ahn_kim_2020]
-- [Ahsan and Noman 2024][research_ahsan_noman_2024]
 - [Ai et al 2022][research_ai_wang_2022]
 - [Ai et al 2025][research_ai_jiang_2025]
 - [Ai et al 2025][research_ai_luo_2025]
 - [Aiello and Bateman 1979][research_aiello_bateman_1979]
 - [Aihara et al 2020][research_aihara_goude_2020]
-- [Aimeng Wang et al 2016][research_aimengwang_yunwen_2016]
 - [Ainsworth et al 1961][research_ainsworth_fox_1961]
 - [Air Force Flight Test Center Edwards Afb Ca 1970][research_airforceflighttestcenteredwardsafbca_1970]
 - [Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]
@@ -11678,10 +10794,8 @@ computable in one line from the lift equation.
 - [Aksteter et al 1994][research_aksteter_parks_1994]
 - [Aksteter et al 1995][research_aksteter_parks_1995]
 - [Aksöz et al 2024][research_aksoz_gunay_2024]
-- [Al Alamin and Uddin 2021][research_alalamin_uddin_2021]
 - [Al Tahtawi and Yusuf 2019][research_altahtawi_yusuf_2019]
 - [Al-Ahmed and Fielding 1995][research_alahmed_fielding_1995]
-- [Al-Edaily 2025][research_aledaily_2025]
 - [Al-Husseinawi et al 2026][research_alhusseinawi_van_2026]
 - [Al-Sadawi and Chong 2019][research_alsadawi_chong_2019]
 - [Al-Sunni and Lewis 1993][research_alsunni_lewis_1993]
@@ -11693,7 +10807,6 @@ computable in one line from the lift equation.
 - [Alahmadi 2025][research_alahmadi_2025]
 - [Alam and Soeimanikutanaei 2021][research_alam_soeimanikutanaei_2021]
 - [Alatorre et al 2021][research_alatorre_castillo_2021]
-- [Albalawi et al 2018][research_albalawi_durand_2018]
 - [Alberghini and Lee 2018][research_alberghini_lee_2018]
 - [Albert and Stütz 2025][research_albert_stutz_2025]
 - [Alberts and Conley 2015][research_alberts_conley_2015]
@@ -11705,26 +10818,21 @@ computable in one line from the lift equation.
 - [Alejo et al 2015][research_alejo_cobano_2015]
 - [Aleman et al 2017][research_aleman_saini_2017]
 - [Alendar et al 2022][research_alendar_grunin_2022]
-- [Alesiani et al 2021][research_alesiani_magarini_2021]
 - [Alexander 2025][research_alexander_2025]
 - [Alexander 2025][research_alexander_2025_b]
 - [Alexander et al 1992][research_alexander_harris_1992]
 - [Alexandrov et al 2025][research_alexandrov_belousova_2025]
 - [Alexopoulos et al 2017][research_alexopoulos_kirsch_2017]
-- [Alfi et al 2015][research_alfi_prandi_2015]
 - [Alford and Knarr 1999][research_alford_knarr_1999]
 - [Alhammadi and Green 2024][research_alhammadi_green_2024]
 - [Alharasees et al 2024][research_alharasees_zolfaghari_2024]
 - [Alhinai 2016][research_alhinai_2016]
-- [Ali and Jinzu 2025][research_ali_jinzu_2025]
 - [Ali et al 2016][research_ali_shah_2016]
 - [Ali et al 2017][research_ali_asghar_2017]
 - [Aliaga et al 2022][research_aliaga_kopp_2022]
-- [Alikhani-Koupaei 2015][research_alikhanikoupaei_2015]
 - [Alimi and Wünsch 2018][research_alimi_wunsch_2018]
 - [Alkhedher 2022][research_alkhedher_2022]
 - [Allen 1975][research_allen_1975]
-- [Allen and Smith 1992][research_allen_smith_1992]
 - [Alligood et al 1963][research_alligood_kyser_1963]
 - [Allik and Maley 2024][research_allik_maley_2024]
 - [Allison 1972][research_allison_1972]
@@ -11751,31 +10859,21 @@ computable in one line from the lift equation.
 - [Altunkaya and Özkol 2025][research_altunkaya_ozkol_2025]
 - [Altunkaya et al 2024][research_altunkaya_erol_2024]
 - [Alvarez et al 2020][research_alvarez_gonzalez_2020]
-- [Alves et al 2020][research_alves_lizarralde_2020]
 - [Alves et al 2022][research_alves_daiguebonne_2022]
 - [Alvi 2014][research_alvi_2014]
-- [Alvim et al 2026][research_alvim_fdasilva_2026]
 - [Alziadeh and Mohany 2021][research_alziadeh_mohany_2021]
-- [Al‐Hasani and Freegah 2022][research_alhasani_freegah_2022]
 - [Amalberti and Deblon 1992][research_amalberti_deblon_1992]
-- [Amara 1985][research_amara_1985]
 - [Amato et al 1996][research_amato_ambrosino_1996]
 - [Amato et al 2022][research_amato_cortigiani_2022]
-- [Ambarwati et al 2022][research_ambarwati_yuliastri_2022]
 - [Ambroziak et al 2022][research_ambroziak_kownacki_2022]
 - [Ambur et al 2016][research_ambur_zhao_2016]
 - [Amburn and Marshak 1996][research_amburn_marshak_1996]
-- [Ameer et al 2022][research_ameer_kamal_2022]
 - [American Institute of Aeronautics and Astronautics 1992][research_americaninstituteofaeronauticsandastronautics_1992]
 - [American Institute of Aeronautics and Astronautics 1993][research_americaninstituteofaeronauticsandastronautics_1993]
 - [Amini et al 2020][research_amini_ayati_2020]
 - [Amir Ahmadi Chomachar and Kuppusamy 2022][research_amirahmadichomachar_kuppusamy_2022]
 - [Amirouche and Shareef 1991][research_amirouche_shareef_1991]
 - [Amoozgar et al 2024][research_amoozgar_hall_2024]
-- [AMR and diagnostics pointing 2017][research_amr_and_2017]
-- [An and Zhang 2024][research_an_zhang_2024]
-- [An et al 2015][research_an_lee_2015]
-- [An et al 2017][research_an_song_2017]
 - [An et al 2020][research_an_guo_2020]
 - [An investigation into possible back profiles for reclined seats in air-to-air combat aircraft. Royal Aircraft Establishment Flight Systems 1979][research_an_investigation_1979]
 - [An investigation of strake fence flaps on a canard-configured aircraft 1990][research_an_investigation_1990]
@@ -11797,7 +10895,6 @@ computable in one line from the lift equation.
 - [Anderson 1985][research_anderson_1985]
 - [Anderson 1995][research_anderson_1995]
 - [Anderson 1996][research_anderson_1996]
-- [Anderson 2000][research_anderson_2000]
 - [Anderson 2004][research_anderson_2004]
 - [Anderson 2019][research_anderson_2019]
 - [Anderson and Mason 1996][research_anderson_mason_1996]
@@ -11809,8 +10906,6 @@ computable in one line from the lift equation.
 - [Anderson, Seth B. 1960][research_andersonsethb_1960]
 - [Andersson 2022][research_andersson_2022]
 - [Andersson 2024][research_andersson_2024]
-- [Andreas 2012][research_andreas_2012]
-- [Andreoli and Eser 2020][research_andreoli_eser_2020]
 - [Andrew et al 1991][research_andrew_lehnig_1991]
 - [Andrews and Gordon 1981][research_andrews_gordon_1981]
 - [Andrianantara et al 2021][research_andrianantara_ghazi_2021]
@@ -11823,7 +10918,6 @@ computable in one line from the lift equation.
 - [Anggraeni 2019][research_anggraeni_2019]
 - [Anglin 1978][research_anglin_1978]
 - [Angus 1987][research_angus_1987]
-- [Anjum et al 2025][research_anjum_niemi_2025]
 - [Anna, Paul D. and Kidman, David S. 1994][research_annapauld_kidmandavids_1994]
 - [Ansari and Bernstein 2015][research_ansari_bernstein_2015]
 - [Antipov 2020][research_antipov_2020]
@@ -11831,7 +10925,6 @@ computable in one line from the lift equation.
 - [Antonakis 2025][research_antonakis_2025_b]
 - [Antonakis and Biannic 2024][research_antonakis_biannic_2024]
 - [Antony et al 2024][research_antony_kumar_2024]
-- [Antunes and Palma 2021][research_antunes_palma_2021]
 - [Aparinov et al 1982][research_aparinov_karask_1982]
 - [Apkarian and Adams 1998][research_apkarian_adams_1998]
 - [Aponte-Rengifo et al 2023][research_aponterengifo_vega_2023]
@@ -11839,26 +10932,21 @@ computable in one line from the lift equation.
 - [Application Analysis on Fly-by-Wire Flight Control System on Large Transport Aircraft 2022][research_application_analysis_2022]
 - [APPLICATION OF FLUIDIC THRUST VECTORING IN V/STOL AIRCRAFT 2024][research_application_of_2024]
 - [Application of perfect model following to a control configured vehicle 1989][research_application_of_1989]
-- [Aqil and Hur 2021][research_aqil_hur_2021]
 - [Arabi and Zaidi 2020][research_arabi_zaidi_2020]
 - [Arai et al 2022][research_arai_inada_2022]
 - [Araki 2016][research_araki_2016]
-- [Araki 2018][research_araki_2018]
 - [Aranishi and Ikeda 2015][research_aranishi_ikeda_2015]
 - [Araujo and Singh 1998][research_araujo_singh_1998]
 - [Araujo-Estrada et al 2015][research_araujoestrada_lowenberg_2015]
 - [Arbeiter et al 2020][research_arbeiter_travnicek_2020]
 - [Ardema and Rajan 1987][research_ardema_rajan_1987]
 - [Ardema et al 1987][research_ardema_rajan_1987_b]
-- [Ardic and Dinc 2026][research_ardic_dinc_2026]
 - [Arena et al 1995][research_arena_nelson_1995]
 - [Arena, A. S., Jr. et al 1993][research_arenaasjr_nelsonrc_1993]
 - [Arena, Jr. and Nelson 1989][research_arenajr_nelson_1989]
 - [Arena, Jr. and Nelson 1991][research_arenajr_nelson_1991]
 - [Argyle and Beard 2016][research_argyle_beard_2016]
 - [Ariafar et al 2018][research_ariafar_cochrane_2018]
-- [Ariamuthu Venkidasalapathy and Kravaris 2020][research_ariamuthuvenkidasalapathy_kravaris_2020]
-- [Arinze et al 1996][research_arinze_sokhansanj_1996]
 - [Arkun 1987][research_arkun_1987]
 - [Arkun and Manousiouthakis 1986][research_arkun_manousiouthakis_1986]
 - [Armstrong 1977][research_armstrong_1977]
@@ -11875,12 +10963,9 @@ computable in one line from the lift equation.
 - [Arshad et al 2016][research_arshad_li_2016]
 - [Arthur et al 2023][research_arthur_kennedy_2023]
 - [Arya and Rao 2016][research_arya_rao_2016]
-- [Arya et al 2025][research_arya_nair_2025]
-- [Aryan and Raja 2022][research_aryan_raja_2022]
 - [Aryanto et al 2016][research_aryanto_sudiro_2016]
 - [Arévalo Nogales 2020][research_arevalonogales_2020]
 - [Asadi et al 2022][research_asadi_farnam_2022]
-- [Asarnow and Veesler 2023][research_asarnow_veesler_2023]
 - [Asavasirikulkij and Hanif 2023][research_asavasirikulkij_hanif_2023]
 - [Asbury, Scott C. and Capone, Francis J. 1992][research_asburyscottc_caponefrancisj_1992]
 - [Asbury, Scott C. and Capone, Francis J. 1995][research_asburyscottc_caponefrancisj_1995]
@@ -11895,11 +10980,6 @@ computable in one line from the lift equation.
 - [Ashraf and Van Kampen 2020][research_ashraf_vankampen_2020]
 - [Ashraf et al 2018][research_ashraf_mei_2018]
 - [Ashry et al 2026][research_ashry_titus_2026]
-- [Asinovsky 1986][research_asinovsky_1986]
-- [Asinovsky 1986][research_asinovsky_1986_b]
-- [Asinovsky 1989][research_asinovsky_1989]
-- [Asinovsky 1989][research_asinovsky_1989_b]
-- [Asinovsky et al 1991][research_asinovsky_huang_1991]
 - [Askari and Abedi 2026][research_askari_abedi_2026]
 - [Askari and Soltani 2019][research_askari_soltani_2019]
 - [Askari and Soltani 2023][research_askari_soltani_2023]
@@ -11909,7 +10989,6 @@ computable in one line from the lift equation.
 - [Asli et al 2020][research_asli_stathopoulos_2020]
 - [Asouti et al 2023][research_asouti_kontou_2023]
 - [Asrabadi 1985][research_asrabadi_1985]
-- [Assessment and Forecast of 2020][research_assessment_amp_2020]
 - [Assoc Prof. Dr Hoang Thi Kim Dung et al 2025][research_assocprofdrhoangthikimdung_nguyenvancuong_2025]
 - [Asyraf and Omar 2026][research_asyraf_omar_2026]
 - [Atallah 1999][research_atallah_1999]
@@ -11919,7 +10998,6 @@ computable in one line from the lift equation.
 - [Atesoglu and Özgören 2006][research_atesoglu_ozgoren_2006]
 - [Atesoglu and Özgören 2007][research_atesoglu_ozgoren_2007]
 - [Athavale et al 2019][research_athavale_mariani_2019]
-- [Atkins and Chen 1993][research_atkins_chen_1993]
 - [Atkinson 2016][research_atkinson_2016]
 - [Atmaca et al 2026][research_atmaca_stroosma_2026]
 - [Atmasari et al 2021][research_atmasari_bahri_2021]
@@ -11932,7 +11010,6 @@ computable in one line from the lift equation.
 - [Austin et al 1995][research_austin_balderes_1995]
 - [Austin et al 2015][research_austin_elbatanouny_2015]
 - [Autenrieb 2025][research_autenrieb_2025]
-- [AUTOMATIC TARGET DETECTING and 2018][research_automatic_target_2018]
 - [Autonomous flight control of drone equipped with microcomputer for flight control and GPS 2018][research_autonomous_flight_2018]
 - [Autry and Victorazzo 2019][research_autry_victorazzo_2019]
 - [Avanzini and Galeani 2005][research_avanzini_galeani_2005]
@@ -11946,7 +11023,6 @@ computable in one line from the lift equation.
 - [Avram et al 2017][research_avram_zhang_2017]
 - [Aware et al 2021][research_aware_hanwate_2021]
 - [Axelson 1977][research_axelson_1977]
-- [Axsendra et al 2021][research_axsendra_ekadarma_2021]
 - [Aydın et al 2025][research_aydin_ermeydan_2025]
 - [Aygün 2023][research_aygun_2023]
 - [Ayoub and Mclachlan 1987][research_ayoub_mclachlan_1987]
@@ -11978,7 +11054,6 @@ computable in one line from the lift equation.
 - [Badakaya et al 2022][research_badakaya_halliru_2022]
 - [Badaliance and Dill 1981][research_badaliance_dill_1981]
 - [Badrinarayanan and Singh 2025][research_badrinarayanan_singh_2025]
-- [Bae and Moon 2024][research_bae_moon_2024]
 - [Bae et al 2017][research_bae_kim_2017]
 - [Bae et al 2018][research_bae_park_2018]
 - [Bae et al 2023][research_bae_jung_2023]
@@ -12030,18 +11105,15 @@ computable in one line from the lift equation.
 - [Balakrishna and Niranjana 1987][research_balakrishna_niranjana_1987]
 - [Balas et al 1992][research_balas_garrard_1992]
 - [Balas et al 1998][research_balas_packard_1998]
-- [Balasubramani and R 2026][research_balasubramani_r_2026]
 - [Balasubramanian et al 2024][research_balasubramanian_ahuja_2024]
 - [Balcan et al 2026][research_balcan_kucuker_2026]
 - [Baldan and Guardone 2024][research_baldan_guardone_2024]
-- [Balderston 1969][research_balderston_1969]
 - [Baldini et al 2019][research_baldini_felicetti_2019]
 - [Baldini et al 2020][research_baldini_felicetti_2020]
 - [Baldini et al 2026][research_baldini_felicetti_2026]
 - [Baldwin and Drewett 1986][research_baldwin_drewett_1986]
 - [Balkhi and Durna 2025][research_balkhi_durna_2025]
 - [Balli 2020][research_balli_2020]
-- [Ballingall et al 2023][research_ballingall_sarvi_2023]
 - [Baloni et al 2026][research_baloni_bhullar_2026]
 - [Baltas et al 2019][research_baltas_xepapadeas_2019]
 - [Banazadeh and Saghafi 2016][research_banazadeh_saghafi_2016]
@@ -12058,11 +11130,8 @@ computable in one line from the lift equation.
 - [Banerjee 2019][research_banerjee_2019]
 - [Banerjee and Corbetta 2020][research_banerjee_corbetta_2020]
 - [Banerjee and Corbetta 2021][research_banerjee_corbetta_2021]
-- [Banerjee and Do 1993][research_banerjee_do_1993]
 - [Banerjee et al 2017][research_banerjee_boyce_2017]
 - [Banerjee et al 2019][research_banerjee_amrr_2019]
-- [Bankruptcy. Turnover Order. Presumption of Continued Possession or Control 1944][research_bankruptcy_turnover_1944]
-- [Bankruptcy. Turnover Order. Presumption of Continued Possession or Control 1945][research_bankruptcy_turnover_1945]
 - [Banks 1988][research_banks_1988]
 - [Banks, Daniel W. et al 1992][research_banksdanielw_gatlingregorym_1992]
 - [Bantscheff and Breitsamter 2023][research_bantscheff_breitsamter_2023]
@@ -12103,7 +11172,6 @@ computable in one line from the lift equation.
 - [Batterson and Klein 1984][research_batterson_klein_1984]
 - [Batterson and Klein 1989][research_batterson_klein_1989]
 - [Batterson, James G. and Morelli, E. A. 1996][research_battersonjamesg_morelliea_1996]
-- [Batyr 2020][research_batyr_2020]
 - [Bauer et al 1989][research_bauer_crawford_1989]
 - [Bauer et al 2016][research_bauer_baar_2016]
 - [Bauer, Jeffrey E. et al 1995][research_bauerjeffreye_clarkerobert_1995]
@@ -12111,20 +11179,14 @@ computable in one line from the lift equation.
 - [Bauman 1997][research_bauman_1997]
 - [Baumann and Gal-Or 1992][research_baumann_galor_1992]
 - [Bay and Kara 2026][research_bay_kara_2026]
-- [Bayer 1982][research_bayer_1982]
 - [Baykal and Baspinar 2023][research_baykal_baspinar_2023]
-- [Baykal and Cihan 2026][research_baykal_cihan_2026]
 - [Bayoğlu et al 2016][research_bayoglu_nalci_2016]
 - [Bayraktar and Chen 2023][research_bayraktar_chen_2023]
-- [Bays and Wettergren 2017][research_bays_wettergren_2017]
-- [Başak 2025][research_basak_2025]
 - [Beal 1987][research_beal_1987]
 - [Beale 2018][research_beale_2018]
 - [Bean and Lee 1994][research_bean_lee_1994]
 - [Beard, B. B. and Foley, W. H. 1983][research_beardbb_foleywh_1983]
 - [Beaufrere 1988][research_beaufrere_1988]
-- [Beaven et al 1995][research_beaven_wright_1995]
-- [Becchetti 1997][research_becchetti_1997]
 - [Becerra et al 2015][research_becerra_macias_2015]
 - [Becerra-Vargas 2015][research_becerravargas_2015]
 - [Bechelder et al 2025][research_bechelder_bjorkman_2025]
@@ -12133,18 +11195,15 @@ computable in one line from the lift equation.
 - [Becker and Luber 1996][research_becker_luber_1996]
 - [Bedke and Gorrell 2021][research_bedke_gorrell_2021]
 - [Beffert and Zell 2026][research_beffert_zell_2026]
-- [Begum and Hempstead 2015][research_begum_hempstead_2015]
 - [Begum et al 2020][research_begum_rao_2020]
 - [Bekar et al 2025][research_bekar_tanyeri_2025]
 - [Beke and Kumbasar 2017][research_beke_kumbasar_2017]
 - [Bel et al 2016][research_bel_aly_2016]
-- [Belaabed et al 2025][research_belaabed_arabet_2025]
 - [Belak and Hromcik 2024][research_belak_hromcik_2024]
 - [Belcastro et al 2016][research_belcastro_foster_2016]
 - [Belcastro et al 2017][research_belcastro_klyde_2017]
 - [Belinskaya 2020][research_belinskaya_2020]
 - [Bell and Crane 1993][research_bell_crane_1993]
-- [Belldegrun 1999][research_belldegrun_1999]
 - [Bellosta et al 2021][research_bellosta_guardone_2021]
 - [Belmont 1983][research_belmont_1983]
 - [Ben-Asher 1994][research_benasher_1994]
@@ -12160,7 +11219,6 @@ computable in one line from the lift equation.
 - [Benedek and Vad 2016][research_benedek_vad_2016]
 - [Benedict et al 2016][research_benedict_jarugumilli_2016]
 - [Benichou et al 2021][research_benichou_binder_2021]
-- [Benjamin 2000][research_benjamin_2000]
 - [Benner et al 2018][research_benner_mitchell_2018]
 - [Bennett and Abel 1982][research_bennett_abel_1982]
 - [Bennett and Baras 1985][research_bennett_baras_1985]
@@ -12168,7 +11226,6 @@ computable in one line from the lift equation.
 - [Benyamen and Keshmiri 2022][research_benyamen_keshmiri_2022]
 - [Benyamen et al 2024][research_benyamen_chowdhury_2024]
 - [Beppu et al 1966][research_beppu_curtiss_1966]
-- [Bequette and Edgar 1986][research_bequette_edgar_1986]
 - [Berendsen et al 1994][research_berendsen_cassar_1994]
 - [Berens 2019][research_berens_2019]
 - [Berg 1991][research_berg_1991]
@@ -12185,7 +11242,6 @@ computable in one line from the lift equation.
 - [Berkachy and Donzé 2019][research_berkachy_donze_2019]
 - [Berkovitz 1985][research_berkovitz_1985]
 - [Berkovitz 1986][research_berkovitz_1986]
-- [Bermúdez et al 2017][research_bermudez_serrano_2017]
 - [Bernard 1989][research_bernard_1989]
 - [Bernard 1991][research_bernard_1991]
 - [Bernard et al 2024][research_bernard_perellomarch_2024]
@@ -12222,7 +11278,6 @@ computable in one line from the lift equation.
 - [Bharathwaj et al 2016][research_bharathwaj_giridharan_2016]
 - [Bhardwaj and Holzapfel 2025][research_bhardwaj_holzapfel_2025]
 - [Bhardwaj and Kapania 1995][research_bhardwaj_kapania_1995]
-- [Bhartia and Nagashima 1993][research_bhartia_nagashima_1993]
 - [Bhattacharyya 2022][research_bhattacharyya_2022]
 - [Bi et al 2025][research_bi_chen_2025]
 - [Bian et al 2018][research_bian_nener_2018]
@@ -12233,8 +11288,6 @@ computable in one line from the lift equation.
 - [Biberstein et al 2021][research_biberstein_tal_2021]
 - [Bichiou et al 2017][research_bichiou_bouafoura_2017]
 - [Bidinotto et al 2021][research_bidinotto_moura_2021]
-- [Biedenharn et al 2000][research_biedenharn_raphelt_2000]
-- [Bielecka and Wojciechowski 2025][research_bielecka_wojciechowski_2025]
 - [Bielecki et al 2019][research_bielecki_chen_2019]
 - [Biesiadny, Thomas J. 1992][research_biesiadnythomasj_1992]
 - [Biggs and Livornese 2020][research_biggs_livornese_2020]
@@ -12266,7 +11319,6 @@ computable in one line from the lift equation.
 - [Blackburn and Whitfield 1965][research_blackburn_whitfield_1965]
 - [Blackwell 1993][research_blackwell_1993]
 - [Blackwell et al 1997][research_blackwell_brill_1997]
-- [Blaich et al 2013][research_blaich_wirtensohn_2013]
 - [Blaignan and Skormin 1993][research_blaignan_skormin_1993]
 - [Blair and Weisshaar 1981][research_blair_weisshaar_1981]
 - [Blair and Weisshaar 1982][research_blair_weisshaar_1982]
@@ -12293,8 +11345,6 @@ computable in one line from the lift equation.
 - [Boeing Co Morton Pa Vertol Div 1961][research_boeingcomortonpavertoldiv_1961]
 - [Boelens 2009][research_boelens_2009]
 - [Boelens 2012][research_boelens_2012]
-- [Boesch and Ciari 2015][research_boesch_ciari_2015]
-- [Bogdan and Alexander 1989][research_bogdan_alexander_1989]
 - [Bogos 2020][research_bogos_2020]
 - [Bogos et al 2018][research_bogos_dumitrache_2018]
 - [Bogoyavlenskiy 2019][research_bogoyavlenskiy_2019]
@@ -12319,7 +11369,6 @@ computable in one line from the lift equation.
 - [Borah 2025][research_borah_2025]
 - [Borello and Villero 1995][research_borello_villero_1995]
 - [Borisov 2025][research_borisov_2025]
-- [Borisov et al 2016][research_borisov_poliakov_2016]
 - [Bornhoft et al 2025][research_bornhoft_moin_2025]
 - [Bortz et al 2026][research_bortz_dukic_2026]
 - [Bosch and Kuehl 1977][research_bosch_kuehl_1977]
@@ -12330,14 +11379,10 @@ computable in one line from the lift equation.
 - [Bosworth, John T. 2009][research_bosworthjohnt_2009]
 - [Bottasso and Montinari 2015][research_bottasso_montinari_2015]
 - [Bouadi and Mora-Camino 2018][research_bouadi_moracamino_2018]
-- [Bouain et al 2017][research_bouain_berdjag_2017]
 - [Boubaker 2017][research_boubaker_2017]
-- [Bouchair 2022][research_bouchair_2022]
-- [Boudaoud et al 2024][research_boudaoud_sentouh_2024]
 - [Boudjadar and Frasheri 2025][research_boudjadar_frasheri_2025]
 - [Boudreau 1977][research_boudreau_1977]
 - [Boudria et al 2023][research_boudria_sepe_2023]
-- [Boulenger 1897][research_boulenger_1897]
 - [Boulouma et al 2017][research_boulouma_labiod_2017]
 - [Boumaraf et al 2025][research_boumaraf_li_2025]
 - [Bowers, Albion H. and Pahle, Joseph W. 1996][research_bowersalbionh_pahlejosephw_1996]
@@ -12365,7 +11410,6 @@ computable in one line from the lift equation.
 - [Brandt and Bons 2023][research_brandt_bons_2023]
 - [Brandt et al 2022][research_brandt_mcfadden_2022]
 - [Bras et al 2022][research_bras_warwick_2022]
-- [Brattkus 1995][research_brattkus_1995]
 - [Braun and Pregibon 1984][research_braun_pregibon_1984]
 - [Braun et al 2025][research_braun_holzapfel_2025]
 - [Brausch and Butkus 2007][research_brausch_butkus_2007]
@@ -12374,11 +11418,9 @@ computable in one line from the lift equation.
 - [Breach 1970][research_breach_1970]
 - [Breakwell 1978][research_breakwell_1978]
 - [Breakwell and Merz 1992][research_breakwell_merz_1992]
-- [Brecke and Garcia 1995][research_brecke_garcia_1995]
 - [Breebaart 2015][research_breebaart_2015]
 - [Breitenstein et al 2024][research_breitenstein_muller_2024]
 - [Breitsamter and Laschka 1994][research_breitsamter_laschka_1994]
-- [Breme and Rao 1959][research_breme_rao_1959]
 - [Brenner 1993][research_brenner_1993]
 - [Brenner and Quan 1990][research_brenner_quan_1990]
 - [Brenner, Martin J. 2001][research_brennermartinj_2001]
@@ -12403,7 +11445,6 @@ computable in one line from the lift equation.
 - [Bronz and Hattenberger 2016][research_bronz_hattenberger_2016]
 - [Bronz et al 2017][research_bronz_garciademarina_2017]
 - [Brooks et al 1976][research_brooks_wasson_1976]
-- [Brouers et al 1990][research_brouers_clerc_1990]
 - [Broussard and Stengel 1977][research_broussard_stengel_1977]
 - [Broussard, J. R. et al 1982][research_broussardjr_downingdr_1982]
 - [Brown 1954][research_brown_1954]
@@ -12416,12 +11457,10 @@ computable in one line from the lift equation.
 - [Brown and Alvestad 1978][research_brown_alvestad_1978]
 - [Brown and Bradley 1981][research_brown_bradley_1981]
 - [Brown and Elgin 1985][research_brown_elgin_1985]
-- [Brown and Eraslan 1988][research_brown_eraslan_1988]
 - [Brown and Kunz 2023][research_brown_kunz_2023]
 - [Brown And Root Development Inc Houston Tx 1977][research_brownandrootdevelopmentinchoustontx_1977]
 - [Brown et al 2022][research_brown_mehta_2022]
 - [Brown, L. W. and Montgomery, R. C. 1984][research_brownlw_montgomeryrc_1984]
-- [Bruaset et al 1990][research_bruaset_tveito_1990]
 - [Bruner 1983][research_bruner_1983]
 - [Brunner 1996][research_brunner_1996]
 - [Bruns, James E. and Smith, C. F. 1992][research_brunsjamese_smithcf_1992]
@@ -12445,8 +11484,6 @@ computable in one line from the lift equation.
 - [Bugajski et al 1990][research_bugajski_enns_1990]
 - [Bugajski et al 2015][research_bugajski_pecinka_2015]
 - [Bugnon and Mohler 1988][research_bugnon_mohler_1988]
-- [Bui et al 2011][research_bui_lee_2011]
-- [Bui et al 2012][research_bui_lee_2012]
 - [Building an automated three-dimensional flight agent for neural network reconstruction 2024][research_building_an_2024]
 - [Bukhman et al 2024][research_bukhman_brito_2024]
 - [Bunge and Kroo 2018][research_bunge_kroo_2018]
@@ -12481,8 +11518,6 @@ computable in one line from the lift equation.
 - [Bury et al 2023][research_bury_vesely_2023]
 - [Buryachenko 2018][research_buryachenko_2018]
 - [Bussinger 1998][research_bussinger_1998]
-- [Buti 1982][research_buti_1982]
-- [Butler 1991][research_butler_1991]
 - [Butler and Bons 2024][research_butler_bons_2024]
 - [Butler and Rees 1974][research_butler_rees_1974]
 - [Butter 2017][research_butter_2017]
@@ -12497,7 +11532,6 @@ computable in one line from the lift equation.
 - [Büchter et al 2021][research_buchter_sebastiasaez_2021]
 - [Büchter, and Koops 2022][research_buchter_koops_2022]
 - [Błoński et al 2021][research_blonski_strzelecka_2021]
-- [C. Jacob et al 2017][research_cjacob_wardensmith_2017]
 - [Caap and Elemeland 1986][research_caap_elemeland_1986]
 - [Cabot and Nelson 2003][research_cabot_nelson_2003]
 - [Caddy and Arnold 1988][research_caddy_arnold_1988]
@@ -12511,9 +11545,7 @@ computable in one line from the lift equation.
 - [Cai et al 2018][research_cai_gao_2018]
 - [Cai et al 2021][research_cai_xie_2021]
 - [Cai et al 2024][research_cai_he_2024]
-- [Cai et al 2025][research_cai_ke_2025]
 - [Cai et al 2025][research_cai_wu_2025]
-- [Cai et al 2026][research_cai_li_2026]
 - [Cai et al 2026][research_cai_wu_2026]
 - [Cakici and Yörük 2022][research_cakici_yoruk_2022]
 - [Calico and Noll 1986][research_calico_noll_1986]
@@ -12526,11 +11558,8 @@ computable in one line from the lift equation.
 - [Callaway 2015][research_callaway_2015]
 - [Calogero et al 2023][research_calogero_mammarella_2023]
 - [Calvez 2022][research_calvez_2022]
-- [Camacho et al 1994][research_camacho_berenguel_1994]
 - [Camacho et al 2023][research_camacho_alvarez_2023]
 - [Camci and Kayacan 2016][research_camci_kayacan_2016]
-- [Campa et al 1996][research_campa_innocenti_1996]
-- [Campbell and Vandiver 1980][research_campbell_vandiver_1980]
 - [Campbell et al 1966][research_campbell_haas_1966]
 - [Campbell et al 2021][research_campbell_grauer_2021]
 - [Campbell et al 2026][research_campbell_mulani_2026]
@@ -12539,7 +11568,6 @@ computable in one line from the lift equation.
 - [Campos et al 2021][research_campos_cardoso_2021]
 - [Canard-Leading Edge Flap Scheduling for the Maneuverability Enhancement of a Fighter Class Aircraft 2007][research_canard_leading_edge_2007]
 - [Candler 2005][research_candler_2005]
-- [Cando Tipán et al 2026][research_candotipan_mosqueramolina_2026]
 - [Canin 2019][research_canin_2019]
 - [Cano and Sobel 2016][research_cano_sobel_2016]
 - [Canter and Groves 1994][research_canter_groves_1994]
@@ -12555,7 +11583,6 @@ computable in one line from the lift equation.
 - [Cao et al 2017][research_cao_hu_2017]
 - [Cao et al 2017][research_cao_tang_2017]
 - [Cao et al 2018][research_cao_liu_2018]
-- [Cao et al 2020][research_cao_cui_2020]
 - [Cao et al 2020][research_cao_jia_2020]
 - [Cao et al 2020][research_cao_tan_2020]
 - [Cao et al 2020][research_cao_wang_2020]
@@ -12578,7 +11605,6 @@ computable in one line from the lift equation.
 - [Capone, F. et al 1992][research_caponef_smereczniakp_1992]
 - [Capone, Francis J. and Bare, E. Ann 1987][research_caponefrancisj_bareeann_1987]
 - [Carbonara and Binnie 1938][research_carbonara_binnie_1938]
-- [Card and Hatch 2024][research_card_hatch_2024]
 - [Care and Fourneaux 2020][research_care_fourneaux_2020]
 - [Carico 1998][research_carico_1998]
 - [Carine Viola Dsouza and Dr. Basawaraj 2015][research_carinevioladsouza_drbasawaraj_2015]
@@ -12601,11 +11627,9 @@ computable in one line from the lift equation.
 - [Castner 2015][research_castner_2015]
 - [Castner et al 2017][research_castner_zaman_2017]
 - [Catak et al 2024][research_catak_altunkaya_2024]
-- [Catania et al 2026][research_catania_pomaranzi_2026]
 - [Catastrophic failure modes limit redundancy effectiveness 1985][research_catastrophic_failure_1985]
 - [Cavalcanti et al 2026][research_cavalcanti_uehara_2026]
 - [Cavallo et al 1990][research_cavallo_demaria_1990]
-- [Caverly 2000][research_caverly_2000]
 - [Caverly and Forbes 2018][research_caverly_forbes_2018]
 - [Cavin et al 1976][research_cavin_howze_1976]
 - [Cebeci et al 1993][research_cebeci_roknaldin_1993]
@@ -12614,7 +11638,6 @@ computable in one line from the lift equation.
 - [Celis and Cadarso 2024][research_celis_cadarso_2024]
 - [Cen et al 2018][research_cen_li_2018]
 - [Cenkci 1991][research_cenkci_1991]
-- [Centralization, scope, and control provisions in the design of international law 2016][research_centralization_scope_2016]
 - [Cetin and Kandemir 2017][research_cetin_kandemir_2017]
 - [Cetin and Kutay 2016][research_cetin_kutay_2016]
 - [Chabanenko and Yurchuk 2024][research_chabanenko_yurchuk_2024]
@@ -12622,7 +11645,6 @@ computable in one line from the lift equation.
 - [Chabukswar et al 2025][research_chabukswar_mullen_2025]
 - [Chaderjian 1992][research_chaderjian_1992]
 - [Chaderjian and Schiff 1996][research_chaderjian_schiff_1996]
-- [Chadi et al 2025][research_chadi_belghar_2025]
 - [Chadwick 1995][research_chadwick_1995]
 - [Chae and Choi 2018][research_chae_choi_2018]
 - [Chai 2024][research_chai_2024]
@@ -12635,7 +11657,6 @@ computable in one line from the lift equation.
 - [Chakravarty and Vagners 1983][research_chakravarty_vagners_1983]
 - [Chalk, C. R. 1980][research_chalkcr_1980]
 - [Challa and Ratnoo 2021][research_challa_ratnoo_2021]
-- [Chalupa et al 2025][research_chalupa_janota_2025]
 - [Chambers 1980][research_chambers_1980]
 - [Chambers and Bowman 1971][research_chambers_bowman_1971]
 - [Chambers et al 2019][research_chambers_titchener_2019]
@@ -12663,16 +11684,13 @@ computable in one line from the lift equation.
 - [Chang et al 2023][research_chang_chu_2023]
 - [Chang et al 2023][research_chang_hu_2023]
 - [Changchuan et al 2018][research_changchuan_lan_2018]
-- [Channapathi and Thatikonda 2020][research_channapathi_thatikonda_2020]
 - [Chao and Zhenghong 2019][research_chao_zhenghong_2019]
-- [Chao et al 2015][research_chao_jing_2015]
 - [Chao et al 2017][research_chao_wujie_2017]
 - [Chao Feng and Peng Yao 2016][research_chaofeng_pengyao_2016]
 - [Chaoran et al 2021][research_chaoran_hongcheng_2021]
 - [Chaparro et al 2016][research_chaparro_fujiwara_2016]
 - [Chapel, Jim et al 2017][research_chapeljim_stancliffedevin_2017]
 - [Chapman and Clarkson 1992][research_chapman_clarkson_1992]
-- [CHAPTER 6. Tailless Whipscorpions: Amblypygi 2018][research_chapter_6_2018]
 - [Charalambous et al 2022][research_charalambous_kourtellaris_2022]
 - [Charles J Donlan 1944][research_charlesjdonlan_1944]
 - [Chasalevris et al 2025][research_chasalevris_gavalas_2025]
@@ -12687,24 +11705,17 @@ computable in one line from the lift equation.
 - [Chavez and Schmidt 1993][research_chavez_schmidt_1993]
 - [Chavez and Schmidt 1994][research_chavez_schmidt_1994]
 - [Chawla and Van Dalsem 1992][research_chawla_vandalsem_1992]
-- [Che 2022][research_che_2022]
 - [Che et al 2021][research_che_lian_2021]
 - [Che et al 2025][research_che_zhang_2025]
 - [Che Man et al 2020][research_cheman_liu_2020]
 - [Cheatham et al 1991][research_cheatham_walker_1991]
 - [Chebbi and Tavoularis 1991][research_chebbi_tavoularis_1991]
-- [Cheein 2013][research_cheein_2013]
-- [Chefranov 2016][research_chefranov_2016]
 - [Chelihi et al 2025][research_chelihi_glida_2025]
 - [Chen 1977][research_chen_1977]
 - [Chen 1984][research_chen_1984]
 - [Chen 1997][research_chen_1997]
-- [Chen 2001][research_chen_2001]
-- [Chen 2009][research_chen_2009]
 - [Chen 2016][research_chen_2016]
 - [Chen 2018][research_chen_2018]
-- [Chen 2023][research_chen_2023]
-- [Chen 2026][research_chen_2026]
 - [Chen and Chen 1993][research_chen_chen_1993]
 - [Chen and Ge 2022][research_chen_ge_2022]
 - [Chen and Guo 2025][research_chen_guo_2025]
@@ -12716,7 +11727,6 @@ computable in one line from the lift equation.
 - [Chen and Ng 1994][research_chen_ng_1994]
 - [Chen and Niu 2026][research_chen_niu_2026]
 - [Chen and Song 2025][research_chen_song_2025_b]
-- [Chen and Velinsky 1992][research_chen_velinsky_1992]
 - [Chen and Whidborne 2023][research_chen_whidborne_2023]
 - [Chen and Xu 2022][research_chen_xu_2022]
 - [Chen and Zhao 2017][research_chen_zhao_2017_b]
@@ -12730,7 +11740,6 @@ computable in one line from the lift equation.
 - [Chen et al 2015][research_chen_wu_2015]
 - [Chen et al 2016][research_chen_deng_2016]
 - [Chen et al 2016][research_chen_liu_2016]
-- [Chen et al 2016][research_chen_yin_2016]
 - [Chen et al 2016][research_chen_zhong_2016]
 - [Chen et al 2017][research_chen_huang_2017]
 - [Chen et al 2017][research_chen_jia_2017]
@@ -12740,36 +11749,28 @@ computable in one line from the lift equation.
 - [Chen et al 2017][research_chen_wang_2017]
 - [Chen et al 2017][research_chen_zhao_2017]
 - [Chen et al 2018][research_chen_edwards_2018]
-- [Chen et al 2018][research_chen_hou_2018]
 - [Chen et al 2018][research_chen_niu_2018]
 - [Chen et al 2018][research_chen_wang_2018]
 - [Chen et al 2018][research_chen_zhang_2018]
-- [Chen et al 2019][research_chen_chen_2019]
 - [Chen et al 2020][research_chen_edwards_2020]
 - [Chen et al 2020][research_chen_he_2020]
-- [Chen et al 2020][research_chen_xu_2020]
 - [Chen et al 2020][research_chen_zhao_2020]
 - [Chen et al 2021][research_chen_hu_2021]
 - [Chen et al 2022][research_chen_edwards_2022]
 - [Chen et al 2022][research_chen_hou_2022]
-- [Chen et al 2022][research_chen_li_2022]
 - [Chen et al 2022][research_chen_sun_2022]
 - [Chen et al 2022][research_chen_yang_2022]
-- [Chen et al 2022][research_chen_zhu_2022]
-- [Chen et al 2023][research_chen_chen_2023]
 - [Chen et al 2023][research_chen_gao_2023]
 - [Chen et al 2023][research_chen_li_2023]
 - [Chen et al 2023][research_chen_liu_2023]
 - [Chen et al 2023][research_chen_shi_2023]
 - [Chen et al 2023][research_chen_shi_2023_b]
-- [Chen et al 2023][research_chen_yan_2023]
 - [Chen et al 2023][research_chen_zeng_2023]
 - [Chen et al 2023][research_chen_zhou_2023]
 - [Chen et al 2024][research_chen_chen_2024]
 - [Chen et al 2024][research_chen_guan_2024]
 - [Chen et al 2024][research_chen_hu_2024]
 - [Chen et al 2024][research_chen_preciado_2024]
-- [Chen et al 2024][research_chen_wang_2024]
 - [Chen et al 2024][research_chen_wang_2024_b]
 - [Chen et al 2024][research_chen_yang_2024]
 - [Chen et al 2024][research_chen_zhang_2024]
@@ -12777,7 +11778,6 @@ computable in one line from the lift equation.
 - [Chen et al 2025][research_chen_cen_2025]
 - [Chen et al 2025][research_chen_chen_2025]
 - [Chen et al 2025][research_chen_he_2025]
-- [Chen et al 2025][research_chen_lestas_2025]
 - [Chen et al 2025][research_chen_li_2025]
 - [Chen et al 2025][research_chen_li_2025_b]
 - [Chen et al 2025][research_chen_liu_2025]
@@ -12786,8 +11786,6 @@ computable in one line from the lift equation.
 - [Chen et al 2025][research_chen_song_2025]
 - [Chen et al 2025][research_chen_zhao_2025]
 - [Chen et al 2026][research_chen_cai_2026]
-- [Chen et al 2026][research_chen_cheng_2026]
-- [Chen et al 2026][research_chen_gao_2026]
 - [Chen et al 2026][research_chen_gray_2026]
 - [Chen et al 2026][research_chen_huang_2026]
 - [Chen et al 2026][research_chen_hui_2026]
@@ -12798,7 +11796,6 @@ computable in one line from the lift equation.
 - [Cheney and Holzer 1987][research_cheney_holzer_1987]
 - [Cheng and Pei 2021][research_cheng_pei_2021]
 - [Cheng et al 1992][research_cheng_li_1992]
-- [Cheng et al 2015][research_cheng_chuanxue_2015]
 - [Cheng et al 2017][research_cheng_zhou_2017]
 - [Cheng et al 2019][research_cheng_cai_2019]
 - [Cheng et al 2020][research_cheng_zhang_2020]
@@ -12827,23 +11824,19 @@ computable in one line from the lift equation.
 - [Chiavaroli et al 2018][research_chiavaroli_demartin_2018]
 - [Chih and Peng 2026][research_chih_peng_2026]
 - [Chin et al 1987][research_chin_chacon_1987]
-- [Ching-Yaw Tzeng 1999][research_chingyawtzeng_1999]
 - [Chipman et al 1983][research_chipman_zislin_1983]
 - [Chisci 1996][research_chisci_1996]
 - [Chiu and Chand 1991][research_chiu_chand_1991]
 - [Cho and Cho 1995][research_cho_cho_1995]
-- [Cho and Jiang 2016][research_cho_jiang_2016]
 - [Cho et al 1995][research_cho_nagati_1995]
 - [Choe and Baruh 1992][research_choe_baruh_1992]
 - [Choi and Cha 2019][research_choi_cha_2019]
 - [Choi and Jung 2019][research_choi_jung_2019]
 - [Choi et al 2015][research_choi_lee_2015]
 - [Choi et al 2017][research_choi_shrestha_2017]
-- [Choi et al 2018][research_choi_kwon_2018]
 - [Choi et al 2021][research_choi_terao_2021]
 - [Choi et al 2023][research_choi_cho_2023]
 - [Choi et al 2023][research_choi_kim_2023]
-- [Chokor et al 2019][research_chokor_talj_2019]
 - [Chopra and Mittal 2021][research_chopra_mittal_2021]
 - [Chou 1991][research_chou_1991]
 - [Choudhry et al 2017][research_choudhry_badshah_2017]
@@ -12864,7 +11857,6 @@ computable in one line from the lift equation.
 - [Chuang et al 1992][research_chuang_kau_1992]
 - [Chuckpaiwong and Boekfah 2020][research_chuckpaiwong_boekfah_2020]
 - [Chukanov et al 2024][research_chukanov_chukanov_2024]
-- [Chun-Yi Su and Stepanenko 1994][research_chunyisu_stepanenko_1994]
 - [Chung et al 1993][research_chung_mcneill_1993]
 - [Chung et al 2019][research_chung_kim_2019]
 - [Chunzhi et al 2015][research_chunzhi_jianying_2015]
@@ -12879,7 +11871,6 @@ computable in one line from the lift equation.
 - [Clark and LeTron 1989][research_clark_letron_1989]
 - [Clark and Walters 1986][research_clark_walters_1986]
 - [Clark et al 1973][research_clark_dodge_1973]
-- [Clarke 1980][research_clarke_1980]
 - [Clarke and Hwang 2020][research_clarke_hwang_2020]
 - [Cliff 1989][research_cliff_1989]
 - [Cliff and Thompson 1992][research_cliff_thompson_1992]
@@ -12898,8 +11889,6 @@ computable in one line from the lift equation.
 - [Cockburn and Tannenbaum 1996][research_cockburn_tannenbaum_1996]
 - [Cockrell et al 1986][research_cockrell_harwood_1986]
 - [Coe et al 2019][research_coe_dunbar_2019]
-- [Cohen 1995][research_cohen_1995]
-- [Cohen 2015][research_cohen_2015]
 - [Cohn et al 1985][research_cohn_dusa_1985]
 - [Colbert et al 2023][research_colbert_quinn_2023]
 - [Coletti and Faruque 2022][research_coletti_faruque_2022]
@@ -12909,9 +11898,7 @@ computable in one line from the lift equation.
 - [Collard and Jorns 2018][research_collard_jorns_2018_b]
 - [Collier, Jr. 1993][research_collierjr_1993]
 - [Collins 2016][research_collins_2016]
-- [Collins et al 1995][research_collins_patton_1995]
 - [Collins et al 2004][research_collins_zhao_2004]
-- [Collins et al 2022][research_collins_wright_2022]
 - [Collins Jr 2005][research_collinsjr_2005]
 - [Comer et al 2026][research_comer_chakraborty_2026]
 - [Comparison of Accuracy Properties for Confidence Intervals of the Cross-Product Ratio of Binomial Proportions under Direct-Direct Sampling Scheme 2021][research_comparison_of_2021]
@@ -12970,7 +11957,6 @@ computable in one line from the lift equation.
 - [Corsiglia et al 1984][research_corsiglia_olson_1984]
 - [Cosentino, Gary B. 2008][research_cosentinogaryb_2008]
 - [Cosenza and Vos 2017][research_cosenza_vos_2017]
-- [Cossalter et al 1998][research_cossalter_dalio_1998]
 - [Cossar 1999][research_cossar_1999]
 - [Costa et al 2025][research_costa_dantas_2025]
 - [Costes 1988][research_costes_1988]
@@ -12982,12 +11968,10 @@ computable in one line from the lift equation.
 - [Cotton 1978][research_cotton_1978]
 - [Cotton 1979][research_cotton_1979]
 - [Cotton, Stacey J. and Bjarke, Lisa J. 1994][research_cottonstaceyj_bjarkelisaj_1994]
-- [Coughlin et al 1986][research_coughlin_krall_1986]
 - [Counter, D. N. and Brinton, B. C. 1975][research_counterdn_brintonbc_1975]
 - [Coursey et al 2023][research_coursey_quinonesgrueiro_2023]
 - [Courtin et al 2021][research_courtin_mahseredjian_2021]
 - [Cousins and Obrien 1985][research_cousins_obrien_1985]
-- [Couto and Kinnaert 2018][research_couto_kinnaert_2018]
 - [Covella and Fantuzzi 2023][research_covella_fantuzzi_2023]
 - [Covino and Healy 1991][research_covino_healy_1991]
 - [Coward and Rupp 1982][research_coward_rupp_1982]
@@ -13015,13 +11999,11 @@ computable in one line from the lift equation.
 - [Crites et al 1992][research_crites_rueger_1992]
 - [Croce and Suzzi 2024][research_croce_suzzi_2024]
 - [Crombie and Moorhouse 1980][research_crombie_moorhouse_1980]
-- [Croneis 1990][research_croneis_1990]
 - [Croom et al 1982][research_croom_grafton_1982]
 - [Croom et al 1993][research_croom_fratello_1993]
 - [Crosthwait 1970][research_crosthwait_1970]
 - [Croston and Griffin 1967][research_croston_griffin_1967]
 - [Crown 1950][research_crown_1950]
-- [Cui and Dong 2018][research_cui_dong_2018]
 - [Cui and Khoo 2023][research_cui_khoo_2023]
 - [Cui and Li 2020][research_cui_li_2020]
 - [Cui et al 1993][research_cui_yu_1993]
@@ -13045,17 +12027,14 @@ computable in one line from the lift equation.
 - [Curley 1991][research_curley_1991]
 - [Curran and Craig 1973][research_curran_craig_1973]
 - [Curtiss 1971][research_curtiss_1971]
-- [Cusanelli and Carpenter 2007][research_cusanelli_carpenter_2007]
 - [Cusator et al 2024][research_cusator_brown_2024]
 - [Cusher and Gopalarathnam 2006][research_cusher_gopalarathnam_2006]
 - [Cusimano and Johnson 1994][research_cusimano_johnson_1994]
 - [Czyba and Kronhof 2020][research_czyba_kronhof_2020]
 - [Czyba and Stajer 2019][research_czyba_stajer_2019]
-- [Cândido 2026][research_candido_2026]
 - [Cîrciu and Mihai 2023][research_circiu_mihai_2023]
 - [Dynamics and control of hang-gliders 1989][research_d_1989]
 - [D S et al 2025][research_ds_quaranta_2025]
-- [D'Souza and Mishra 1992][research_dsouza_mishra_1992]
 - [D.S. and Ramachandra 2019][research_ds_ramachandra_2019]
 - [Da and Fan 2020][research_da_fan_2020]
 - [Da et al 2015][research_da_fan_2015]
@@ -13065,7 +12044,6 @@ computable in one line from the lift equation.
 - [Dahleni Kraemer and Villani 2024][research_dahlenikraemer_villani_2024]
 - [Dai et al 2017][research_dai_yang_2017]
 - [Dai et al 2019][research_dai_nikolaidis_2019]
-- [Dai et al 2022][research_dai_chen_2022]
 - [Daiber et al 1995][research_daiber_bomba_1995]
 - [Daily 1989][research_daily_1989]
 - [Dale Mackall et al 1992][research_dalemackall_kennethnorlin_1992]
@@ -13076,7 +12054,6 @@ computable in one line from the lift equation.
 - [Dam et al 2022][research_dam_pirasaci_2022]
 - [Dancila and Botez 2020][research_dancila_botez_2020]
 - [Dang and Krishnamoorthy 2021][research_dang_krishnamoorthy_2021]
-- [Danko et al 2019][research_danko_janosovsky_2019]
 - [Dannenhoffer and Green 2017][research_dannenhoffer_green_2017]
 - [Danowsky et al 2016][research_danowsky_lieu_2016]
 - [Danowsky et al 2017][research_danowsky_schmidt_2017]
@@ -13092,21 +12069,17 @@ computable in one line from the lift equation.
 - [Darhi et al 2025][research_darhi_dvorjetski_2025]
 - [Das and Longo 1995][research_das_longo_1995]
 - [Das et al 2023][research_das_mankodi_2023]
-- [Das et al 2024][research_das_chakraborty_2024]
 - [Das et al 2024][research_das_mankodi_2024]
 - [Das et al 2025][research_das_mankodi_2025]
 - [Das et al 2025][research_das_mankodi_2025_b]
 - [Dasgupta, D. et al 2004][research_dasguptad_krishnakumark_2004]
-- [Dash and Palanthandalam-Madapusi 2022][research_dash_palanthandalammadapusi_2022]
 - [Daskiran et al 2017][research_daskiran_huff_2017]
 - [Data Acquisition for Aircraft Structure Tests 1980][research_data_acquisition_1980]
-- [Dattatreya and Venkatesh 1996][research_dattatreya_venkatesh_1996]
 - [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955]
 - [Davenport et al 1974][research_davenport_dixon_1974]
 - [David F Fisher et al 1992][research_davidffisher_davidmrichwine_1992]
 - [David L Williams, II et al 1994][research_davidlwilliamsii_robertcnelson_1994]
 - [David Sotres-Ramos and Jesus Rivera-Cortez 2020][research_davidsotresramos_jesusriveracortez_2020]
-- [David Taylor Model Basin Washington Dc 1960, First Symposium on Ship Maneuvera][research_davidtaylormodelbasinwashingtondc_1960]
 - [Davidson, J. et al 1999][research_davidsonj_lallmanf_1999]
 - [Davidson, John B. and Andrisani, Dominick, II 1996][research_davidsonjohnb_andrisanidominickii_1996]
 - [Davidson, John B. et al 1998][research_davidsonjohnb_murphypatrickc_1998]
@@ -13122,7 +12095,6 @@ computable in one line from the lift equation.
 - [Daw et al 2023][research_daw_oh_2023]
 - [Dawson et al 2016][research_dawson_hemati_2016]
 - [de 1995][research_de_1995]
-- [de Argandona 1995][research_deargandona_1995]
 - [de Becdelievre and Kroo 2021][research_debecdelievre_kroo_2021]
 - [de Celis and Cadarso 2017][research_decelis_cadarso_2017]
 - [de Cos et al 2017][research_decos_acosta_2017]
@@ -13144,7 +12116,6 @@ computable in one line from the lift equation.
 - [de Vries and Van Kampen 2019][research_devries_vankampen_2019]
 - [Dean and Pagano 2015][research_dean_pagano_2015]
 - [Deangelis 1981][research_deangelis_1981]
-- [Deatz et al 1998][research_deatz_forrest_1998]
 - [Deboer, Frederic and Barbier, Christian 1993][research_deboerfrederic_barbierchristian_1993]
 - [Deckert, J. C. et al 1978][research_deckertjc_desaimn_1978]
 - [Deep et al 2022][research_deep_bassamboo_2022]
@@ -13176,7 +12147,6 @@ computable in one line from the lift equation.
 - [Della Vecchia et al 2017][research_dellavecchia_corcione_2017]
 - [DeLorenzo 1990][research_delorenzo_1990]
 - [Demarchi and Haning 1978][research_demarchi_haning_1978]
-- [Demarchi et al 2022][research_demarchi_guidotti_2022]
 - [Demetriades 1977][research_demetriades_1977]
 - [Demir and Seyfullah Babaarslan 2021][research_demir_seyfullahbabaarslan_2021]
 - [Demir et al 2023][research_demir_gorguluarslan_2023]
@@ -13194,8 +12164,6 @@ computable in one line from the lift equation.
 - [Dennis P. Dykstra 1980][research_dennispdykstra_1980]
 - [Denton et al 2025][research_denton_benedict_2025]
 - [Department Of The Air Force Washington Dc 1984][research_departmentoftheairforcewashingtondc_1984]
-- [Depenbrock et al 1994][research_depenbrock_marshall_1994]
-- [Deppa and Hauser 1989][research_deppa_hauser_1989]
 - [Depuru Mohan et al 2015][research_depurumohan_greenblatt_2015]
 - [Deschaux et al 2019][research_deschaux_gouaisbaut_2019]
 - [Deshmukh et al 2016][research_deshmukh_prabhu_2016]
@@ -13214,14 +12182,11 @@ computable in one line from the lift equation.
 - [Dever and Jansen 2022][research_dever_jansen_2022]
 - [Devi 2019][research_devi_2019]
 - [Devi 2021][research_devi_2021]
-- [Devi and Dalal 2025][research_devi_dalal_2025]
-- [Devine et al 2016][research_devine_rafferty_2016]
 - [Devore et al 2016][research_devore_gandhi_2016]
 - [Dewangga and Sasongko 2019][research_dewangga_sasongko_2019]
 - [Dewar et al 2021][research_dewar_formentini_2021]
 - [Dexter 1993][research_dexter_1993]
 - [Dey and Ratnoo 2020][research_dey_ratnoo_2020]
-- [Dey et al 2016][research_dey_mohon_2016]
 - [Deák and Kowalik 2019][research_deak_kowalik_2019]
 - [De‐icing 1974][research_deicing_1974]
 - [Dghim et al 2018][research_dghim_ferchichi_2018]
@@ -13241,8 +12206,6 @@ computable in one line from the lift equation.
 - [Di Pasquale and Prince 2023][research_dipasquale_prince_2023]
 - [Di Rito and Schettini 2016][research_dirito_schettini_2016]
 - [Di Sante 2015][research_disante_2015]
-- [Diachuk and Easa 2024][research_diachuk_easa_2024]
-- [Dianov 2021][research_dianov_2021]
 - [Dias 2015][research_dias_2015]
 - [Dias 2015][research_dias_2015_b]
 - [Dias 2016][research_dias_2016]
@@ -13266,9 +12229,7 @@ computable in one line from the lift equation.
 - [Ding et al 2018][research_ding_che_2018]
 - [Ding et al 2018][research_ding_xu_2018]
 - [Ding et al 2020][research_ding_qian_2020]
-- [Ding et al 2023][research_ding_ji_2023]
 - [Ding et al 2023][research_ding_yi_2023]
-- [Ding et al 2024][research_ding_liu_2024]
 - [Ding et al 2025][research_ding_zhang_2025]
 - [DiPlacido et al 2016][research_diplacido_soltis_2016]
 - [Diqnada et al 2021][research_diqnada_dyatmika_2021]
@@ -13278,10 +12239,8 @@ computable in one line from the lift equation.
 - [Divakar and B L 2022][research_divakar_bl_2022]
 - [Dixon 1980][research_dixon_1980]
 - [Dixon et al 1989][research_dixon_martin_1989]
-- [Djadane et al 2025][research_djadane_makni_2025]
 - [Djellal et al 2023][research_djellal_mayache_2023]
 - [Djordjevic 1983][research_djordjevic_1983]
-- [Djouani and Hamam 1996][research_djouani_hamam_1996]
 - [Dobos-Bubno and Hartsook 1977][research_dobosbubno_hartsook_1977]
 - [Dobrokhodov et al 2026][research_dobrokhodov_karpenko_2026]
 - [Dodds and Vittek 1998][research_dodds_vittek_1998]
@@ -13292,7 +12251,6 @@ computable in one line from the lift equation.
 - [Doff-Sotta et al 2025][research_doffsotta_cannon_2025]
 - [Dogruer 2022][research_dogruer_2022]
 - [Doiron et al 2026][research_doiron_matida_2026]
-- [Dollinger et al 2016][research_dollinger_markgraf_2016]
 - [Doman 1995][research_doman_1995]
 - [Doman 2015][research_doman_2015]
 - [Doman 2016][research_doman_2016]
@@ -13311,10 +12269,8 @@ computable in one line from the lift equation.
 - [Dong et al 2015][research_dong_zhu_2015]
 - [Dong et al 2016][research_dong_jiao_2016]
 - [Dong et al 2016][research_dong_lu_2016]
-- [Dong et al 2018][research_dong_hu_2018]
 - [Dong et al 2019][research_dong_shi_2019]
 - [Dong et al 2020][research_dong_you_2020]
-- [Dong et al 2023][research_dong_li_2023]
 - [Dong et al 2023][research_dong_shi_2023]
 - [Dong et al 2023][research_dong_yang_2023]
 - [Dong et al 2024][research_dong_chen_2024]
@@ -13335,12 +12291,10 @@ computable in one line from the lift equation.
 - [Doostmohammadian et al 2022][research_doostmohammadian_zarrabi_2022]
 - [Doroshin 2017][research_doroshin_2017]
 - [Doroshin 2018][research_doroshin_2018]
-- [Dorostian and Moradmand 2021][research_dorostian_moradmand_2021]
 - [Dorozhko et al 2019][research_dorozhko_degtyarenko_2019]
 - [Dorr et al 1994][research_dorr_moralez_1994]
 - [Dorsz and Glass 2023][research_dorsz_glass_2023]
 - [Dosch 2024][research_dosch_2024]
-- [Dostal 2024][research_dostal_2024]
 - [Dostal et al 2001][research_dostal_bobal_2001]
 - [Dou and Duan 2016][research_dou_duan_2016]
 - [Dou et al 2023][research_dou_tang_2023]
@@ -13348,8 +12302,6 @@ computable in one line from the lift equation.
 - [Douglas Aircraft Co Long Beach Ca 1963][research_douglasaircraftcolongbeachca_1963]
 - [Douglas et al 1990][research_douglas_mackler_1990]
 - [Dowden and Bessette 1987][research_dowden_bessette_1987]
-- [Downey et al 1975][research_downey_duffy_1975]
-- [Downs et al 2021][research_downs_kootbally_2021]
 - [Dozzi and Riedwyl 1984][research_dozzi_riedwyl_1984]
 - [Doğruer 2023][research_dogruer_2023]
 - [Dołęga et al 2017][research_dolega_kopecki_2017]
@@ -13362,7 +12314,6 @@ computable in one line from the lift equation.
 - [Drewiacki et al 2020][research_drewiacki_josesilvestre_2020]
 - [Drewiacki et al 2020][research_drewiacki_josesilvestre_2020_b]
 - [Drewiacki et al 2025][research_drewiacki_moreira_2025]
-- [Driver assisted yaw rate control 1999][research_driver_assisted_1999]
 - [Drummond 1971][research_drummond_1971]
 - [Druzin and Gorevich 2020][research_druzin_gorevich_2020]
 - [Du 2024][research_du_2024]
@@ -13377,13 +12328,10 @@ computable in one line from the lift equation.
 - [Duan et al 2021][research_duan_kolmanovsky_2021]
 - [Duan et al 2023][research_duan_lei_2023]
 - [Duan et al 2025][research_duan_wang_2025]
-- [Duan et al 2025][research_duan_wang_2025_b]
-- [DuBose 2018][research_dubose_2018]
 - [Duggan and Bhandari 2021][research_duggan_bhandari_2021]
 - [Duhl and Thompson 1977][research_duhl_thompson_1977]
 - [Duke and Jones 1984][research_duke_jones_1984]
 - [Dukes 1970][research_dukes_1970]
-- [Dumitrascu and Dumitrascu 2024][research_dumitrascu_dumitrascu_2024]
 - [Dung 2026][research_dung_2026]
 - [Dungan and Clark 1994][research_dungan_clark_1994]
 - [Dunham et al 2017][research_dunham_hencey_2017]
@@ -13392,7 +12340,6 @@ computable in one line from the lift equation.
 - [Dunlap and Porter 1971][research_dunlap_porter_1971]
 - [Dunn et al 1981][research_dunn_leong_1981]
 - [Dupuy 1986][research_dupuy_1986]
-- [Durai et al 2026][research_durai_song_2026]
 - [Durham 1994][research_durham_1994]
 - [Durham 1995][research_durham_1995]
 - [Durham et al 1993][research_durham_lutze_1993]
@@ -13405,10 +12352,7 @@ computable in one line from the lift equation.
 - [Dutra 2019][research_dutra_2019]
 - [Dutra 2025][research_dutra_2025]
 - [Dutta and Raquepas 2020][research_dutta_raquepas_2020]
-- [Dutta et al 2020][research_dutta_ganguly_2020]
-- [Duvvuri and Detroja 2016][research_duvvuri_detroja_2016]
 - [Dvorak et al 2015][research_dvorak_ruzicka_2015]
-- [Dwivedi and Palandage 2026][research_dwivedi_palandage_2026]
 - [Dwivedi and Pandey 2021][research_dwivedi_pandey_2021]
 - [Dwivedi et al 2017][research_dwivedi_pandey_2017]
 - [Dwivedi et al 2022][research_dwivedi_anitha_2022]
@@ -13416,26 +12360,19 @@ computable in one line from the lift equation.
 - [Dwyer 1994][research_dwyer_1994]
 - [Dwyer and Lutze 1993][research_dwyer_lutze_1993]
 - [Dynamic Analysis in Aircraft Component Testing 1984][research_dynamic_analysis_1984]
-- [Dynamic scheduling by using scheduling editor and distributed decision maker 1993][research_dynamic_scheduling_1993]
 - [Dynamic scheduling of modern-robust-control autopilot designs for missiles 1992][research_dynamic_scheduling_1992]
 - [DYNAMIC THRUST CONTROL UNLEASHING 2023][research_dynamic_thrust_2023]
-- [Dyson 2000][research_dyson_2000]
 - [Dyvnych and Bezkorovainyi 2025][research_dyvnych_bezkorovainyi_2025]
 - [Dzhurynskyi and Filipkovskij 2025][research_dzhurynskyi_filipkovskij_2025]
-- [Dziedzoave et al 1999][research_dziedzoave_ellis_1999]
 - [Dzikus et al 2018][research_dzikus_terekhov_2018]
 - [Düssler and Palacios 2024][research_dussler_palacios_2024]
 - [D’Agostino et al 2019][research_dagostino_meo_2019]
 - [d’Apolito and Sulzbachner 2021][research_dapolito_sulzbachner_2021]
 - [D’hondt et al 2022][research_dhondt_degryse_2022]
-- [E 2019][research_e_2019]
 - [Eastep et al 1984][research_eastep_venkayya_1984]
-- [Eastridge et al 2025][research_eastridge_buck_2025]
 - [Eberhardt and Ward 1999][research_eberhardt_ward_1999]
-- [Eberhart et al 2026][research_eberhart_arndt_2026]
 - [Eberlein, A. J. and Lahm, T. G. 1976][research_eberleinaj_lahmtg_1976]
 - [Ebihara et al 2020][research_ebihara_sebe_2020]
-- [Eda 1978][research_eda_1978]
 - [Eddine and Boulanouar 2020][research_eddine_boulanouar_2020]
 - [Edelson and Thole 2022][research_edelson_thole_2022]
 - [Ediga and Ambati 2021][research_ediga_ambati_2021]
@@ -13460,21 +12397,16 @@ computable in one line from the lift equation.
 - [Ehrlich and Singer 1996][research_ehrlich_singer_1996]
 - [Eikenberry and Ingram 1969][research_eikenberry_ingram_1969]
 - [Eilbert and Hayslip 1989][research_eilbert_hayslip_1989]
-- [Eilbrecht and Stursberg 2018][research_eilbrecht_stursberg_2018]
 - [Eisenhut and Strohmayer 2026][research_eisenhut_strohmayer_2026]
 - [Ejaz and Inoue 2025][research_ejaz_inoue_2025]
 - [Ejeh et al 2019][research_ejeh_akhabue_2019]
 - [Ekaterinaris et al 1995][research_ekaterinaris_coutley_1995]
-- [El Arawi et al 2018][research_elarawi_vezy_2018]
-- [El Aroudi 2016][research_elaroudi_2016]
 - [El Mobaraky et al 2026][research_elmobaraky_benjelloun_2026]
-- [El Youssfi et al 2019][research_elyoussfi_oudghiri_2019]
 - [Eldredge and Mousavi 2026][research_eldredge_mousavi_2026]
 - [Elebe 2025][research_elebe_2025]
 - [Elharabi and Abdelkrim 2020][research_elharabi_abdelkrim_2020]
 - [Elimelech et al 2018][research_elimelech_stern_2018]
 - [Ellerbroek et al 2016][research_ellerbroek_martin_2016]
-- [Ellinger 1956][research_ellinger_1956]
 - [Ellis 2004][research_ellis_2004]
 - [Ellis 2012][research_ellis_2012]
 - [Ellis and Kearney 1982][research_ellis_kearney_1982]
@@ -13483,11 +12415,8 @@ computable in one line from the lift equation.
 - [Elsahhar et al 2018][research_elsahhar_theunissen_2018]
 - [Elsayed et al 2024][research_elsayed_elbadawy_2024]
 - [ElSharkawy et al 2024][research_elsharkawy_valente_2024]
-- [Elsässer and Spiess 1996][research_elsasser_spiess_1996]
 - [Elzebda et al 1989][research_elzebda_mook_1989]
 - [Elzebda et al 1989][research_elzebda_nayfeh_1989]
-- [Emhemed et al 2015][research_emhemed_binmamat_2015]
-- [Emmanuele et al 2026][research_emmanuele_barbareschi_2026]
 - [Enciu 2019][research_enciu_2019]
 - [Enciu and Horn 2017][research_enciu_horn_2017]
 - [End-To-End Flight Test Data Acquisition 2020][research_end_to_end_flight_2020]
@@ -13509,10 +12438,7 @@ computable in one line from the lift equation.
 - [Enns et al 1994][research_enns_bugajski_1994]
 - [Enns, Dale F. et al 1994][research_ennsdalef_bugajskidanielj_1994]
 - [Enriquez Fernandez and Bird 2025][research_enriquezfernandez_bird_2025]
-- [Ensemble Machine Learning Model for Software Defect Prediction 2021][research_ensemble_machine_2021]
 - [Ensuring flight safety of aircraft in icing conditions 2020][research_ensuring_flight_safety_2020]
-- [Ensuring Safety and Reliability: Formal Verification of Communication-Based Train Control Systems 2024][research_ensuring_safety_2024]
-- [Environmentalresourcesltd 1977][research_environmentalresourcesltd_1977]
 - [Enzinger 1988][research_enzinger_1988]
 - [Epikhin 2021][research_epikhin_2021]
 - [Eppig 1981][research_eppig_1981]
@@ -13557,7 +12483,6 @@ computable in one line from the lift equation.
 - [Ermeydan and Kiyak 2017][research_ermeydan_kiyak_2017]
 - [Ernest and Carroll 2016][research_ernest_carroll_2016]
 - [Ernest and Cohen 2016][research_ernest_cohen_2016]
-- [Ertugrul 2024][research_ertugrul_2024]
 - [Ertugrul and Koyuncu 2023][research_ertugrul_koyuncu_2023]
 - [Erturk et al 2022][research_erturk_ozkan_2022]
 - [Erwin et al 1964][research_erwin_clark_1964]
@@ -13567,9 +12492,7 @@ computable in one line from the lift equation.
 - [Esformes 1989][research_esformes_1989]
 - [Esker and Sedrick 1972][research_esker_sedrick_1972]
 - [Eslami et al 2016][research_eslami_menhaj_2016]
-- [Esmailzadeh 1996][research_esmailzadeh_1996]
 - [Esteban et al 2015][research_esteban_gavilan_2015]
-- [Eswaran and Reddy 2016][research_eswaran_reddy_2016]
 - [Evaluation metrics and a tool for control panel design 1989][research_evaluation_metrics_1989]
 - [Evaluation of Equipment Performance for Altitude Test Facility Flight Environment Simulation System 2022][research_evaluation_of_2022]
 - [Evangelista and Mori 2025][research_evangelista_mori_2025]
@@ -13577,18 +12500,12 @@ computable in one line from the lift equation.
 - [Evans 1983][research_evans_1983]
 - [Everett 2021][research_everett_2021]
 - [Ewald et al 2017][research_ewald_groves_2017]
-- [Experimental Analysis of Inlet Air Swirl in Diesel Engine Through Radial Grooved Inlet Valves 2019][research_experimental_analysis_of_2019]
 - [Experimental investigation of synthetic jet control of wing rock for a flying wing aircraft 2023][research_experimental_investigation_2023]
 - [Experimental Investigations on the Strut Controlled Thrust Vectoring of a Supersonic Nozzle 2020][research_experimental_investigations_2020]
-- [Experimentation with a vehicle platoon control system 1991][research_experimentation_with_1991]
 - [Eyi 2016][research_eyi_2016]
 - [Eyth, Jr. and Heffner 1992][research_eythjr_heffner_1992]
 - [Ezvan et al 2016][research_ezvan_batou_2016]
 - [Eşer et al 2024][research_eser_yildiz_2024]
-- [F. Sulla et al 2024][research_fsulla_jbjornstedt_2024]
-- [F.I and I.V 2018][research_fi_iv_2018]
-- [Fabry 1980][research_fabry_1980]
-- [Faedo et al 2021][research_faedo_scarciotti_2021]
 - [Faessler et al 2017][research_faessler_falanga_2017]
 - [Fagan 1996][research_fagan_1996]
 - [Fagan 1999][research_fagan_1999]
@@ -13598,12 +12515,9 @@ computable in one line from the lift equation.
 - [Faleiro and Pratt 1996][research_faleiro_pratt_1996]
 - [Faltot et al 2018][research_faltot_pitelwelnitz_2018]
 - [Falunin et al 1968][research_falunin_ulyanov_1968]
-- [Fam 1987][research_fam_1987]
-- [Fan 2018][research_fan_2018]
 - [Fan and Lutze 1996][research_fan_lutze_1996]
 - [Fan et al 1994][research_fan_lutze_1994]
 - [Fan et al 2013][research_fan_liu_2013]
-- [Fan et al 2016][research_fan_liu_2016]
 - [Fan et al 2017][research_fan_li_2017]
 - [Fan et al 2017][research_fan_liu_2017]
 - [Fan et al 2017][research_fan_liu_2017_b]
@@ -13618,30 +12532,23 @@ computable in one line from the lift equation.
 - [Fan et al 2025][research_fan_wang_2025]
 - [Fan et al 2026][research_fan_li_2026]
 - [Fan et al 2026][research_fan_zhang_2026]
-- [Fancher 1985][research_fancher_1985]
 - [Fang and Wang 2023][research_fang_wang_2023]
 - [Fang et al 2020][research_fang_cheng_2020]
-- [Fang et al 2022][research_fang_wu_2022]
 - [Fang et al 2022][research_fang_zheng_2022]
 - [Fang et al 2023][research_fang_sun_2023]
-- [Fang et al 2024][research_fang_gao_2024]
 - [Fang et al 2025][research_fang_ji_2025]
 - [Fangzi et al 2024][research_fangzi_wenrui_2024]
 - [Farconi et al 2019][research_farconi_terra_2019]
 - [Farcy et al 2020][research_farcy_khrabrov_2020]
-- [Faris and Sarkesian 1982][research_faris_sarkesian_1982]
 - [Farooq 2017][research_farooq_2017]
 - [Farrar and Krodel 1979][research_farrar_krodel_1979]
-- [Fatahillah et al 2024][research_fatahillah_suryanobelia_2024]
 - [Fatemeh Mahdavi and Mohammad Reza 2021][research_fatemehmahdavi_mohammadreza_2021]
 - [Fattizzo et al 2026][research_fattizzo_giulietti_2026]
-- [Faudzi et al 2015][research_faudzi_lazim_2015]
 - [Fault Tolerant Control for Aircraft Flaperon Faults Using Nonlinear Dynamic Inversion 2025][research_fault_tolerant_2025]
 - [Faure et al 2019][research_faure_dumas_2019]
 - [Favaregh et al 2016][research_favaregh_houlden_2016]
 - [Favaro et al 2025][research_favaro_rylko_2025]
 - [Favaron et al 2021][research_favaron_magrini_2021]
-- [Favarò and Saleh 2016][research_favaro_saleh_2016]
 - [Favier et al 1987][research_favier_maresca_1987]
 - [Fawcett et al 1992][research_fawcett_funk_1992]
 - [Fazeley et al 2015][research_fazeley_taei_2015]
@@ -13662,14 +12569,11 @@ computable in one line from the lift equation.
 - [Feng and Jin 2016][research_feng_jin_2016]
 - [Feng et al 2015][research_feng_fan_2015]
 - [Feng et al 2015][research_feng_song_2015]
-- [Feng et al 2016][research_feng_fu_2016]
-- [Feng et al 2016][research_feng_turksoy_2016]
 - [Feng et al 2017][research_feng_turksoy_2017]
 - [Feng et al 2022][research_feng_leemis_2022]
 - [Feng et al 2023][research_feng_guo_2023]
 - [Feng et al 2024][research_feng_wang_2024]
 - [Feng et al 2025][research_feng_hao_2025]
-- [Fengchen Wang and Chen 2017][research_fengchenwang_chen_2017]
 - [Fenghua He and Yu Yao 2010][research_fenghuahe_yuyao_2010]
 - [Ferlauto and Marsilio 2016][research_ferlauto_marsilio_2016]
 - [Ferlauto and Marsilio 2017][research_ferlauto_marsilio_2017]
@@ -13681,8 +12585,6 @@ computable in one line from the lift equation.
 - [Fernandes 2026][research_fernandes_2026]
 - [Fernandes and Cardoso-Ribeiro 2025][research_fernandes_cardosoribeiro_2025]
 - [Fernandes et al 2023][research_fernandes_wesely_2023]
-- [Fernández et al 1993][research_fernandez_monti_1993]
-- [Fernández-Juricic et al 2018][research_fernandezjuricic_brand_2018]
 - [Feroskhan and Go 2016][research_feroskhan_go_2016]
 - [Feroskhan and Go 2018][research_feroskhan_go_2018]
 - [Ferrand et al 2026][research_ferrand_gowree_2026]
@@ -13697,9 +12599,7 @@ computable in one line from the lift equation.
 - [Feteih and Breckenridge 1993][research_feteih_breckenridge_1993]
 - [Feucht et al 1978][research_feucht_presley_1978]
 - [Figge 1973][research_figge_1973]
-- [Filahi et al 2024][research_filahi_omrani_2024]
 - [Filipović 2023][research_filipovic_2023]
-- [Finch 2015][research_finch_2015]
 - [Finch, Thomas W and Walker, Joseph A 1953][research_finchthomasw_walkerjosepha_1953]
 - [Fink 1965][research_fink_1965]
 - [Finley and Cockrell 1995][research_finley_cockrell_1995]
@@ -13710,8 +12610,6 @@ computable in one line from the lift equation.
 - [Fisher 1996][research_fisher_1996]
 - [Fisher and Bryson 1995][research_fisher_bryson_1995]
 - [Fisher, David F. et al 1998][research_fisherdavidf_cobleighbrentr_1998]
-- [Fitzgerald et al 2025][research_fitzgerald_hudson_2025]
-- [Fjellstad et al 1992][research_fjellstad_fossen_1992]
 - [Flaherty 1977][research_flaherty_1977]
 - [Flamm, Jeffrey D. et al 2006][research_flammjeffreyd_deerekarena_2006]
 - [Flamm, Jeffrey D. et al 2007][research_flammjeffreyd_deerekarena_2007]
@@ -13732,24 +12630,19 @@ computable in one line from the lift equation.
 - [Floyd et al 2017][research_floyd_karneeb_2017]
 - [Fluid flow control devices for an aircraft powerplant 1998][research_fluid_flow_1998]
 - [Flynn 1987][research_flynn_1987]
-- [Flynn et al 1998][research_flynn_campbell_1998]
 - [Foch 1992][research_foch_1992]
 - [Folding Wing Flight Test 2018][research_folding_wing_2018]
 - [Font et al 1998][research_font_siguerdidjane_1998]
 - [Fontaine and Ali 2023][research_fontaine_ali_2023]
-- [Food safety management system certification - the organization's commitment to control food safety hazards 2023][research_food_safety_2023]
 - [Forbes 2015][research_forbes_2015]
-- [Force Characterization and Optimization of the Bottom-Driven Type and Side-Driven Type Rotary Motion Electrostatic Actuator using FEM 2019][research_force_characterization_2019]
 - [Ford 1989][research_ford_1989]
 - [Forkun et al 2020][research_forkun_medzatyi_2020]
 - [Forliti et al 2002][research_forliti_strykowski_2002]
 - [Formalskii 2017][research_formalskii_2017]
 - [Formation and adjustment of manned/unmanned combat aerial vehicle cooperative engagement system 2018][research_formation_and_2018]
-- [Forschner 2023][research_forschner_2023]
 - [Fortunato et al 2021][research_fortunato_pascarella_2021]
 - [Fosdick 1970][research_fosdick_1970]
 - [Fosnight 1968][research_fosnight_1968]
-- [Foster 1990][research_foster_1990]
 - [Foster 2015][research_foster_2015]
 - [Foster et al 1993][research_foster_ross_1993]
 - [Fouda and Taha 2021][research_fouda_taha_2021]
@@ -13757,13 +12650,10 @@ computable in one line from the lift equation.
 - [Fourth High Alpha Conference 1994][research_fourth_high_1994_b]
 - [Fowler and Rogers 2016][research_fowler_rogers_2016]
 - [Fowler et al 2024][research_fowler_boyle_2024]
-- [Fox and Ludvig 2024][research_fox_ludvig_2024]
-- [Fragner and Deiterding 2016][research_fragner_deiterding_2016]
 - [Franco and Rivas 2015][research_franco_rivas_2015]
 - [Franke et al 2023][research_franke_burger_2023]
 - [Franklin 1993][research_franklin_1993]
 - [Franklin and Innis 1978][research_franklin_innis_1978]
-- [Fraser 1990][research_fraser_1990]
 - [Fravolini et al 2015][research_fravolini_yucelen_2015]
 - [Fravolini et al 2016][research_fravolini_yucelen_2016]
 - [Fravolini et al 2017][research_fravolini_yucelen_2017]
@@ -13795,7 +12685,6 @@ computable in one line from the lift equation.
 - [Frohnapfel et al 2017][research_frohnapfel_obrien_2017]
 - [Frohnapfel et al 2018][research_frohnapfel_mack_2018]
 - [Frohnapfel et al 2020][research_frohnapfel_lowe_2020]
-- [Frost 1996][research_frost_1996]
 - [Frost, Susan A. et al 2009][research_frostsusana_bodsonmarc_2009]
 - [Fu and Dong 2021][research_fu_dong_2021]
 - [Fu and Wang 2011][research_fu_wang_2011]
@@ -13815,8 +12704,6 @@ computable in one line from the lift equation.
 - [Fujino 1980][research_fujino_1980]
 - [Fujiwara and Bragg 2019][research_fujiwara_bragg_2019]
 - [Fujizawa et al 2016][research_fujizawa_tischler_2016]
-- [Fukuda and Kobayashi 1987][research_fukuda_kobayashi_1987]
-- [Fukui and Tsujita 2015][research_fukui_tsujita_2015]
 - [Fukushima and Oyama 2022][research_fukushima_oyama_2022]
 - [Fuller 1987][research_fuller_1987]
 - [Funchal de Rezende et al 2025][research_funchalderezende_vilela_2025]
@@ -13830,7 +12717,6 @@ computable in one line from the lift equation.
 - [Förder and Steiner 2020][research_forder_steiner_2020]
 - [G and J 2022][research_g_j_2022]
 - [G.A.L. Younes 2024][research_galyounes_2024]
-- [G.Revathi 2025][research_grevathi_2025]
 - [Gabel and Tarzanin 1974][research_gabel_tarzanin_1974]
 - [Gabriel and Schreiber 1969][research_gabriel_schreiber_1969]
 - [Gabrys et al 2019][research_gabrys_steffensen_2019]
@@ -13839,7 +12725,6 @@ computable in one line from the lift equation.
 - [Gain scheduling potential hazards 1992][research_gain_scheduling_1992]
 - [Gainer 1963][research_gainer_1963]
 - [Gainor 2019][research_gainor_2019]
-- [Gajjar 2025][research_gajjar_2025]
 - [Gal-Or 1990][research_galor_1990]
 - [Gal-Or 1992][research_galor_1992]
 - [Gal-Or 1994][research_galor_1994]
@@ -13866,7 +12751,6 @@ computable in one line from the lift equation.
 - [Galperin and Skowronski 1987][research_galperin_skowronski_1987]
 - [Galperin and Zheng 1989][research_galperin_zheng_1989]
 - [Galperin and Zheng 1989][research_galperin_zheng_1989_b]
-- [Galve et al 2021][research_galve_vilajosana_2021]
 - [Gamayunov 2018][research_gamayunov_2018]
 - [Gamble and Inman 2016][research_gamble_inman_2016]
 - [Gambone, Elisabeth A. 2014][research_gamboneelisabetha_2014]
@@ -13878,12 +12762,9 @@ computable in one line from the lift equation.
 - [Gangl et al 2013][research_gangl_lettl_2013]
 - [Gangulee and Ng 1994][research_gangulee_ng_1994]
 - [Gangulee and Ng 1995][research_gangulee_ng_1995]
-- [Gao 2018][research_gao_2018]
 - [Gao and Liu 2020][research_gao_liu_2020_b]
 - [Gao and Liu 2021][research_gao_liu_2021]
 - [Gao and Tie 2017][research_gao_tie_2017]
-- [Gao and Zhang 2024][research_gao_zhang_2024_c]
-- [Gao et al 2016][research_gao_lv_2016]
 - [Gao et al 2016][research_gao_zhou_2016]
 - [Gao et al 2017][research_gao_shen_2017]
 - [Gao et al 2017][research_gao_wu_2017]
@@ -13894,7 +12775,6 @@ computable in one line from the lift equation.
 - [Gao et al 2020][research_gao_liu_2020]
 - [Gao et al 2020][research_gao_wang_2020]
 - [Gao et al 2021][research_gao_fan_2021]
-- [Gao et al 2021][research_gao_li_2021]
 - [Gao et al 2021][research_gao_ma_2021]
 - [Gao et al 2021][research_gao_wang_2021]
 - [Gao et al 2022][research_gao_shi_2022]
@@ -13902,15 +12782,12 @@ computable in one line from the lift equation.
 - [Gao et al 2022][research_gao_yang_2022]
 - [Gao et al 2022][research_gao_zhang_2022]
 - [Gao et al 2023][research_gao_yang_2023]
-- [Gao et al 2023][research_gao_yuan_2023]
 - [Gao et al 2024][research_gao_yao_2024]
 - [Gao et al 2024][research_gao_zhang_2024]
 - [Gao et al 2024][research_gao_zhang_2024_b]
 - [Gao et al 2025][research_gao_wang_2025]
 - [Gao et al 2025][research_gao_yang_2025]
 - [Gao et al 2025][research_gao_yi_2025]
-- [Gao et al 2026][research_gao_bu_2026]
-- [Gao et al 2026][research_gao_li_2026]
 - [Gao et al 2026][research_gao_zhao_2026]
 - [Garbarino et al 2026][research_garbarino_gaudino_2026]
 - [Garcia et al 2015][research_garcia_keshmiri_2015]
@@ -13924,7 +12801,6 @@ computable in one line from the lift equation.
 - [Garg, Sanjay and Schmidt, David K. 1988][research_gargsanjay_schmidtdavidk_1988]
 - [Garg, Sanjay et al 1991][research_gargsanjay_ouztspeterj_1991]
 - [Garkushenko and Vinogradov 2016][research_garkushenko_vinogradov_2016]
-- [Garland and Robichaud 1987][research_garland_robichaud_1987]
 - [Garmendia and Mavris 2016][research_garmendia_mavris_2016]
 - [Garrard 1998][research_garrard_1998]
 - [Garrard and Low 1990][research_garrard_low_1990]
@@ -13933,7 +12809,6 @@ computable in one line from the lift equation.
 - [Garthwaite et al 2023][research_garthwaite_moustafa_2023]
 - [Gartner and Amitay 2016][research_gartner_amitay_2016]
 - [Gary 1983][research_gary_1983]
-- [Garzon and Spalanzani 2019][research_garzon_spalanzani_2019]
 - [Gasim Mohamed 2020][research_gasimmohamed_2020]
 - [Gastopoulos and Lawton 2017][research_gastopoulos_lawton_2017]
 - [Gastopoulos et al 2018][research_gastopoulos_mcginn_2018]
@@ -13965,7 +12840,6 @@ computable in one line from the lift equation.
 - [Generating analytical redundancy for fault detection systems using flowgraphs 1994][research_generating_analytical_1994]
 - [Geng et al 2015][research_geng_shi_2015]
 - [Geng et al 2023][research_geng_yuan_2023]
-- [Gentilucci and Pambianchi 2022][research_gentilucci_pambianchi_2022]
 - [Gentry 1972][research_gentry_1972]
 - [Gera and Bosworth 1987][research_gera_bosworth_1987]
 - [Gera, J. et al 1981][research_geraj_wilsonrj_1981]
@@ -13976,7 +12850,6 @@ computable in one line from the lift equation.
 - [Gertler and Hagen 1967][research_gertler_hagen_1967]
 - [Gertsen and Shomber 1965][research_gertsen_shomber_1965]
 - [Gezer and Kutay 2015][research_gezer_kutay_2015]
-- [Gezgez and Kacar 2021][research_gezgez_kacar_2021]
 - [Ghasemzadeh and Banazadeh 2025][research_ghasemzadeh_banazadeh_2025]
 - [Ghazi 1994][research_ghazi_1994]
 - [Ghazi et al 2020][research_ghazi_botez_2020]
@@ -13984,7 +12857,6 @@ computable in one line from the lift equation.
 - [Ghoreyshi et al 2017][research_ghoreyshi_darragh_2017]
 - [Ghoreyshi et al 2026][research_ghoreyshi_seidel_2026]
 - [Ghosh and Raisinghani 1993][research_ghosh_raisinghani_1993]
-- [Ghosh and Sal 2025][research_ghosh_sal_2025]
 - [Ghosh et al 1998][research_ghosh_raisinghani_1998]
 - [Ghosh et al 2006][research_ghosh_paranjape_2006]
 - [Ghosh et al 2023][research_ghosh_sagoo_2023]
@@ -14018,7 +12890,6 @@ computable in one line from the lift equation.
 - [Gittner and Chokani 1992][research_gittner_chokani_1992]
 - [Gittner and Chokani 1994][research_gittner_chokani_1994]
 - [Gittner, Nathan M. and Chokani, Ndaona 1991][research_gittnernathanm_chokanindaona_1991]
-- [Giua et al 2003][research_giua_melas_2003]
 - [Giuffre' et al 2022][research_giuffre_colonna_2022]
 - [Giuffre’ et al 2025][research_giuffre_ascione_2025]
 - [Giunta 1999][research_giunta_1999]
@@ -14027,8 +12898,6 @@ computable in one line from the lift equation.
 - [Gkoutzamanis et al 2023][research_gkoutzamanis_psaropoulos_2023]
 - [Glad 1995][research_glad_1995]
 - [Glaser 1952][research_glaser_1952]
-- [Glass 1949][research_glass_1949]
-- [Glattfelder et al 1991][research_glattfelder_jiang_1991]
 - [Glaudel 2018][research_glaudel_2018]
 - [Glenn and Koch 1973][research_glenn_koch_1973]
 - [Glezer 2009][research_glezer_2009]
@@ -14038,13 +12907,10 @@ computable in one line from the lift equation.
 - [Glowacki 1971][research_glowacki_1971]
 - [Glushchenko and Khokhlov 2019][research_glushchenko_khokhlov_2019]
 - [Godavarty and Orkwis 2000][research_godavarty_orkwis_2000]
-- [Goebel and May 1931][research_goebel_may_1931]
 - [Goeing et al 2024][research_goeing_luck_2024]
 - [Goel et al 2021][research_goel_sarkar_2021]
 - [Goerttler 2025][research_goerttler_2025]
 - [Goetzendorf-Grabowski and Antoniewski 2016][research_goetzendorfgrabowski_antoniewski_2016]
-- [Goh et al 2024][research_goh_thompson_2024]
-- [Goldberg 1986][research_goldberg_1986]
 - [Goldberg et al 2016][research_goldberg_nalianda_2016]
 - [Goldberg et al 2017][research_goldberg_nalianda_2017]
 - [Goldberger 1966][research_goldberger_1966]
@@ -14072,16 +12938,12 @@ computable in one line from the lift equation.
 - [Goodrich et al 1995][research_goodrich_mcmanus_1995]
 - [Gopesh. M. P and Manivel. M 2016][research_gopeshmp_manivelm_2016]
 - [Gopinath 1982][research_gopinath_1982]
-- [Gopurathingal and Bhonsle 2021][research_gopurathingal_bhonsle_2021]
-- [Goranson 1997][research_goranson_1997]
-- [Gordienko and Derevyagina 2020][research_gordienko_derevyagina_2020]
 - [Gordnier 1995][research_gordnier_1995]
 - [Gordon 1990][research_gordon_1990]
 - [Gorgues et al 2022][research_gorgues_castellanos_2022]
 - [Gorgulu et al 2025][research_gorgulu_sahin_2025]
 - [Gou et al 2023][research_gou_liu_2023]
 - [Goucem and Khiri 2023][research_goucem_khiri_2023]
-- [Goudarzian et al 2022][research_goudarzian_khosravi_2022]
 - [Gouin-Ferland et al 2025][research_gouinferland_fontaine_2025]
 - [Gould 1983][research_gould_1983]
 - [Gourcerol et al 2025][research_gourcerol_desangles_2025]
@@ -14089,7 +12951,6 @@ computable in one line from the lift equation.
 - [Goutaudier et al 2020][research_goutaudier_gendre_2020]
 - [Govindaraj et al 1979][research_govindaraj_rynaski_1979]
 - [Govoni and Cristofaro 2023][research_govoni_cristofaro_2023]
-- [Gowd 2016][research_gowd_2016]
 - [Gozzi and Schulte 2026][research_gozzi_schulte_2026]
 - [Grabbe, Shon R. 2017][research_grabbeshonr_2017]
 - [Grachev and Safonov 2019][research_grachev_safonov_2019]
@@ -14179,7 +13040,6 @@ computable in one line from the lift equation.
 - [Guijarro Reyes et al 2018][research_guijarroreyes_garciacarrillo_2018]
 - [Guiler and Huebsch 2005][research_guiler_huebsch_2005]
 - [Guimaraes et al 2015][research_guimaraes_lowe_2015]
-- [Gujrathi 2024][research_gujrathi_2024]
 - [Gumussoy and Özbay 2018][research_gumussoy_ozbay_2018]
 - [Gundy-Burlet, Karen 2003][research_gundyburletkaren_2003]
 - [Guner et al 2016][research_guner_gursoy_2016]
@@ -14197,15 +13057,12 @@ computable in one line from the lift equation.
 - [Guo et al 2015][research_guo_hu_2015]
 - [Guo et al 2018][research_guo_wang_2018]
 - [Guo et al 2020][research_guo_ma_2020]
-- [Guo et al 2020][research_guo_zhang_2020]
 - [Guo et al 2021][research_guo_ye_2021]
 - [Guo et al 2022][research_guo_wang_2022]
 - [Guo et al 2022][research_guo_zhou_2022]
 - [Guo et al 2024][research_guo_cao_2024]
 - [Guo et al 2025][research_guo_mu_2025]
-- [Guo et al 2025][research_guo_stuart_2025]
 - [Guo et al 2026][research_guo_liu_2026]
-- [Guo et al 2026][research_guo_shi_2026]
 - [Guo et al 2026][research_guo_yu_2026]
 - [Gupta 2023][research_gupta_2023]
 - [Gupta 2025][research_gupta_2025]
@@ -14225,8 +13082,6 @@ computable in one line from the lift equation.
 - [Gursul and Wang 2010][research_gursul_wang_2010]
 - [Guruswamy and Tu 1989][research_guruswamy_tu_1989]
 - [Guvernyuk et al 2020][research_guvernyuk_kuzmin_2020]
-- [Guy et al 1995][research_guy_rousselotpailley_1995]
-- [Guyton 1990][research_guyton_1990]
 - [Guziy and Kostina 2022][research_guziy_kostina_2022]
 - [Guzman et al 2022][research_guzman_oliveira_2022]
 - [Gwilliam, Jr. and Howard 1991][research_gwilliamjr_howard_1991]
@@ -14245,23 +13100,17 @@ computable in one line from the lift equation.
 - [Haas and Chopra 1989][research_haas_chopra_1989]
 - [Haas and Chopra 1990][research_haas_chopra_1990]
 - [Habboush and Yildiz 2023][research_habboush_yildiz_2023]
-- [Habib 1993][research_habib_1993]
-- [Habib and Bakr 1994][research_habib_bakr_1994]
 - [Habibi and O'Connor 2020][research_habibi_oconnor_2020]
 - [Habin 1994][research_habin_1994]
-- [Habtamu Sitotaw Semahagne and Alelegn Wenedem Agegnehu 2025][research_habtamusitotawsemahagne_alelegnwenedemagegnehu_2025]
 - [Hace 2019][research_hace_2019]
 - [Hached and Beauchesne 1995][research_hached_beauchesne_1995]
 - [Haci et al 2026][research_haci_eser_2026]
-- [Hacizade and Vural 2019][research_hacizade_vural_2019]
-- [Haddara 1980][research_haddara_1980]
 - [Hadidoolabi and Ansarian 2017][research_hadidoolabi_ansarian_2017]
 - [Hadidoolabi and Ansarian 2018][research_hadidoolabi_ansarian_2018]
 - [Hadjria and D’Almeida 2019][research_hadjria_dalmeida_2019]
 - [Haering, Jr. 1990][research_haeringjr_1990]
 - [Hafez and Kamel 2016][research_hafez_kamel_2016]
 - [Haftmann et al 1988][research_haftmann_debbeler_1988]
-- [Haggard and Wight 1961][research_haggard_wight_1961]
 - [Hagood et al 1990][research_hagood_chung_1990]
 - [Hague and Hague 1987][research_hague_hague_1987]
 - [Hah, Chunill et al 2015][research_hahchunill_rabedouglas_2015]
@@ -14271,17 +13120,14 @@ computable in one line from the lift equation.
 - [Haichao et al 2023][research_haichao_liwei_2023]
 - [Haines 2009][research_haines_2009]
 - [Haiping et al 2021][research_haiping_yanjun_2021]
-- [Haiyang and Yujiao 2021][research_haiyang_yujiao_2021]
 - [Hajiyev 2016][research_hajiyev_2016]
 - [Hajiyev 2016][research_hajiyev_2016_b]
 - [Hajiyev and Güven 2022][research_hajiyev_guven_2022]
 - [Hajiyev et al 2019][research_hajiyev_cildenguler_2019]
 - [Hakim et al 2020][research_hakim_toufik_2020]
 - [Hakimi et al 2026][research_hakimi_alisadeghi_2026]
-- [Halanay et al 1994][research_halanay_ionita_1994]
 - [Halder and Gandhi 2026][research_halder_gandhi_2026]
 - [Hale 1963][research_hale_1963]
-- [Hale et al 1989][research_hale_lammert_1989]
 - [Hale et al 2015][research_hale_patil_2015]
 - [Hale et al 2015][research_hale_patil_2015_b]
 - [Hale et al 2017][research_hale_patil_2017]
@@ -14292,17 +13138,14 @@ computable in one line from the lift equation.
 - [Hall 1987][research_hall_1987]
 - [Hall and Banks 1994][research_hall_banks_1994]
 - [Hall and Boothe 1972][research_hall_boothe_1972]
-- [Hall and Onal 2024][research_hall_onal_2024]
 - [Hall et al 2022][research_hall_greitzer_2022]
 - [Hall, s E, Jr and Perkins 1995][research_hallsejr_perkins_1995]
-- [Halli 1983][research_halli_1983]
 - [Halperin 1980][research_halperin_1980]
 - [Halwas and Aggarwal 2019][research_halwas_aggarwal_2019]
 - [Halwas and Aggarwal 2019][research_halwas_aggarwal_2019_b]
 - [Halyo, Nesim 1996][research_halyonesim_1996]
 - [Hamada and Tamura 2019][research_hamada_tamura_2019]
 - [Hambidge et al 2023][research_hambidge_ivison_2023]
-- [Hamdan 1988][research_hamdan_1988]
 - [Hamel and Jategaonkar 1996][research_hamel_jategaonkar_1996]
 - [Hamel and Kolarich 2020][research_hamel_kolarich_2020]
 - [Hamel et al 2022][research_hamel_allgood_2022]
@@ -14312,7 +13155,6 @@ computable in one line from the lift equation.
 - [Han and Fan 2025][research_han_fan_2025]
 - [Han and Liu 2026][research_han_liu_2026]
 - [Han and Pei 2026][research_han_pei_2026]
-- [Han et al 2016][research_han_liu_2016]
 - [Han et al 2019][research_han_hu_2019]
 - [Han et al 2019][research_han_wang_2019]
 - [Han et al 2020][research_han_gao_2020]
@@ -14336,7 +13178,6 @@ computable in one line from the lift equation.
 - [Hannan et al 2016][research_hannan_shaopingwang_2016]
 - [Hannan et al 2017][research_hannan_wangshaoping_2017]
 - [Hansen and Rogowski 2022][research_hansen_rogowski_2022]
-- [Hansen et al 2007][research_hansen_howington_2007]
 - [Hansen et al 2020][research_hansen_duan_2020]
 - [Hansen et al 2020][research_hansen_duan_2020_b]
 - [Hanson and Stengel 1981][research_hanson_stengel_1981]
@@ -14357,7 +13198,6 @@ computable in one line from the lift equation.
 - [Hara 1964][research_hara_1964]
 - [Hardwick and Panella 2017][research_hardwick_panella_2017]
 - [Hardy 1987][research_hardy_1987]
-- [Hardy and G. D. 1992][research_hardy_gd_1992]
 - [Hardyman and Smith 1989][research_hardyman_smith_1989]
 - [Harini Venkatesan and Sinha 2015][research_harinivenkatesan_sinha_2015]
 - [Hariowibowo et al 2021][research_hariowibowo_arifianto_2021]
@@ -14390,7 +13230,6 @@ computable in one line from the lift equation.
 - [Hartmann, G. L. et al 1982][research_hartmanngl_walljejr_1982]
 - [Hasan and Johansen 2018][research_hasan_johansen_2018]
 - [Hasan and Krishnamoorthy 2023][research_hasan_krishnamoorthy_2023]
-- [Hasanien et al 2016][research_hasanien_muyeen_2016]
 - [Hashemi and Nguyen 2018][research_hashemi_nguyen_2018]
 - [Hashemi et al 2026][research_hashemi_malekjafarian_2026]
 - [Hashii and Thompson 2018][research_hashii_thompson_2018]
@@ -14400,7 +13239,6 @@ computable in one line from the lift equation.
 - [Hassan 2006][research_hassan_2006]
 - [Hassan and Ali 2022][research_hassan_ali_2022]
 - [Hassan and Sankar 1992][research_hassan_sankar_1992]
-- [Hassan et al 2022][research_hassan_awad_2022]
 - [Hassell, James L., Jr. and Hewes, Donald E. 1960][research_hasselljamesljr_hewesdonalde_1960]
 - [Hassler et al 2015][research_hassler_puffing_2015]
 - [Hatori and Uchiyama 2015][research_hatori_uchiyama_2015]
@@ -14414,7 +13252,6 @@ computable in one line from the lift equation.
 - [Haworth and Seery 1992][research_haworth_seery_1992]
 - [Haworth et al 1988][research_haworth_bucher_1988]
 - [Haworth et al 1989][research_haworth_bucher_1989]
-- [Hayden and Lamagna 1986][research_hayden_lamagna_1986]
 - [Hayes, Peggy Sue 2010][research_hayespeggysue_2010]
 - [Hayoun et al 2015][research_hayoun_weiss_2015]
 - [Hayoun et al 2016][research_hayoun_weiss_2016]
@@ -14422,12 +13259,10 @@ computable in one line from the lift equation.
 - [Hayward 1968][research_hayward_1968]
 - [He 2015][research_he_2015]
 - [He 2025][research_he_2025]
-- [He 2025][research_he_2025_b]
 - [He and Kral 2000][research_he_kral_2000]
 - [He and Williams 2020][research_he_williams_2020]
 - [He et al 2001][research_he_cary_2001]
 - [He et al 2017][research_he_li_2017]
-- [He et al 2017][research_he_xu_2017]
 - [He et al 2019][research_he_an_2019]
 - [He et al 2019][research_he_zhu_2019]
 - [He et al 2020][research_he_liang_2020]
@@ -14447,7 +13282,6 @@ computable in one line from the lift equation.
 - [He et al 2026][research_he_zheng_2026]
 - [Head 1981][research_head_1981]
 - [Head up display for aircraft 1998][research_head_up_1998]
-- [Healey 2005][research_healey_2005]
 - [Heath et al 2017][research_heath_slater_2017]
 - [Hebbar and Leedy 1990][research_hebbar_leedy_1990]
 - [Hebbar and Leedy 1992][research_hebbar_leedy_1992]
@@ -14457,11 +13291,9 @@ computable in one line from the lift equation.
 - [Hebbar et al 1993][research_hebbar_platzer_1993_b]
 - [Hebbar et al 1995][research_hebbar_platzer_1995]
 - [Hebbar et al 1996][research_hebbar_platzer_1996]
-- [Hebert and Dietz 1997][research_hebert_dietz_1997]
 - [Hedlund et al 2024][research_hedlund_ribeiro_2024]
 - [Hedrick and Gopalswamy 1990][research_hedrick_gopalswamy_1990]
 - [Heersink et al 2022][research_heersink_sylla_2022]
-- [Heffernan and MacNamee 2016][research_heffernan_macnamee_2016]
 - [Heffley and Johnston 1979][research_heffley_johnston_1979]
 - [Hegde 2020][research_hegde_2020]
 - [Hein and Myschik 2022][research_hein_myschik_2022]
@@ -14488,7 +13320,6 @@ computable in one line from the lift equation.
 - [Henry, M. W. et al 1988][research_henrymw_wolfh_1988]
 - [Henschel and Chetty 1989][research_henschel_chetty_1989]
 - [Hepner et al 1991][research_hepner_bagnaschi_1991]
-- [Herath et al 2024][research_herath_rajasuriya_2024]
 - [Herd et al 1965][research_herd_moxley_1965]
 - [Hermes Spaceplane in MBB Wind Tunnel 1988][research_hermes_spaceplane_1988]
 - [Hernandez and Taylor 1988][research_hernandez_taylor_1988]
@@ -14551,7 +13382,6 @@ computable in one line from the lift equation.
 - [Hlavatá et al 2018][research_hlavata_maxa_2018]
 - [Hlinkova et al 2021][research_hlinkova_andoga_2021]
 - [Ho et al 1965][research_ho_bryson_1965]
-- [Ho et al 1998][research_ho_panda_1998]
 - [Hoadley 1988][research_hoadley_1988]
 - [Hobbs et al 2023][research_hobbs_mote_2023]
 - [Hoburg and Tedrake 2009][research_hoburg_tedrake_2009]
@@ -14575,14 +13405,12 @@ computable in one line from the lift equation.
 - [Hofmann et al 2025][research_hofmann_hosseini_2025_c]
 - [Hofsäß et al 2023][research_hofsass_braun_2023]
 - [Hogan and Rinde 1978][research_hogan_rinde_1978]
-- [Hoglund and Aziz 1990][research_hoglund_aziz_1990]
 - [Hoh 1988][research_hoh_1988]
 - [Hoh and Mitchell 1983][research_hoh_mitchell_1983]
 - [Hoh et al 1981][research_hoh_myers_1981]
 - [Hohls 1998][research_hohls_1998]
 - [Hoholis et al 2016][research_hoholis_steijl_2016]
 - [Holberg and Grabowsky 1981][research_holberg_grabowsky_1981]
-- [Holcomb et al 2024][research_holcomb_marks_2024]
 - [Holdhusen and Perusse 1965][research_holdhusen_perusse_1965]
 - [Holger Friehmelt et al 1997][research_holgerfriehmelt_quirinkim_1997]
 - [Holifield and Tufts 2024][research_holifield_tufts_2024]
@@ -14601,7 +13429,6 @@ computable in one line from the lift equation.
 - [Hong and Roberts 1995][research_hong_roberts_1995]
 - [Hong et al 1996][research_hong_celik_1996]
 - [Hong et al 2015][research_hong_park_2015]
-- [Hong et al 2019][research_hong_yao_2019]
 - [Hong et al 2020][research_hong_kim_2020]
 - [Hong et al 2022][research_hong_xiaolong_2022]
 - [Hong et al 2025][research_hong_jois_2025]
@@ -14623,9 +13450,7 @@ computable in one line from the lift equation.
 - [Horri and Pietraszko 2022][research_horri_pietraszko_2022]
 - [Horvath 1969][research_horvath_1969]
 - [Horvath and Wells 2018][research_horvath_wells_2018]
-- [Hoseinzadeh and Blaabjerg 2022][research_hoseinzadeh_blaabjerg_2022]
 - [Hoskin et al 1991][research_hoskin_nett_1991]
-- [Hosokai and Fukuda 1987][research_hosokai_fukuda_1987]
 - [Hossain et al 2019][research_hossain_mantel_2019]
 - [Hosseini et al 2023][research_hosseini_steinert_2023]
 - [Hosseini et al 2025][research_hosseini_grauer_2025]
@@ -14640,8 +13465,6 @@ computable in one line from the lift equation.
 - [Houin and Sood 2025][research_houin_sood_2025]
 - [Housman and Kiris 2015][research_housman_kiris_2015]
 - [Houzibe and Chaki 2026][research_houzibe_chaki_2026]
-- [Hover 2006][research_hover_2006]
-- [Howard 1996][research_howard_1996]
 - [Howard and Kersh, Jr. 1991][research_howard_kershjr_1991]
 - [Howard and O'Leary 1993][research_howard_oleary_1993]
 - [Howard and O'Leary 1994][research_howard_oleary_1994]
@@ -14662,11 +13485,8 @@ computable in one line from the lift equation.
 - [Hsu et al 2024][research_hsu_choi_2024]
 - [Hsueh and Ling 2017][research_hsueh_ling_2017]
 - [Hu and Li 2019][research_hu_li_2019]
-- [Hu and You 2023][research_hu_you_2023]
 - [Hu and Zhou 2017][research_hu_zhou_2017]
-- [Hu and Zhu 2022][research_hu_zhu_2022]
 - [Hu et al 1993][research_hu_lan_1993]
-- [Hu et al 2017][research_hu_han_2017]
 - [Hu et al 2017][research_hu_yang_2017]
 - [Hu et al 2018][research_hu_jiang_2018]
 - [Hu et al 2018][research_hu_luo_2018]
@@ -14690,7 +13510,6 @@ computable in one line from the lift equation.
 - [Hua 2022][research_hua_2022]
 - [Huang 1990][research_huang_1990]
 - [Huang 2016][research_huang_2016]
-- [Huang 2024][research_huang_2024]
 - [Huang 2025][research_huang_2025]
 - [Huang and Bu 2024][research_huang_bu_2024]
 - [Huang and Cheng 2022][research_huang_cheng_2022]
@@ -14708,17 +13527,13 @@ computable in one line from the lift equation.
 - [Huang et al 2021][research_huang_leong_2021]
 - [Huang et al 2022][research_huang_liao_2022]
 - [Huang et al 2023][research_huang_jiang_2023]
-- [Huang et al 2023][research_huang_pan_2023]
 - [Huang et al 2024][research_huang_weng_2024]
 - [Huang et al 2025][research_huang_gu_2025]
-- [Huang et al 2025][research_huang_xiong_2025]
 - [Huang et al 2025][research_huang_yang_2025]
-- [Huang et al 2026][research_huang_ding_2026]
 - [Huang et al 2026][research_huang_gu_2026]
 - [Huang et al 2026][research_huang_li_2026]
 - [Huang et al 2026][research_huang_lu_2026]
 - [Huang et al 2026][research_huang_shi_2026]
-- [Huang et al 2026][research_huang_zeng_2026]
 - [Huannian et al 2018][research_huannian_kewei_2018]
 - [Huber 1976][research_huber_1976]
 - [Huber 1995][research_huber_1995]
@@ -14731,7 +13546,6 @@ computable in one line from the lift equation.
 - [Huihui and Jun 2024][research_huihui_jun_2024_b]
 - [Huijts and Voskuijl 2015][research_huijts_voskuijl_2015]
 - [Huiying et al 2017][research_huiying_zhibin_2017]
-- [Hull 1918][research_hull_1918]
 - [Hulshoff et al 1996][research_hulshoff_mulder_1996]
 - [Hummel and Oelker 1994][research_hummel_oelker_1994]
 - [Hummel and Srinivasan 1967][research_hummel_srinivasan_1967]
@@ -14746,7 +13560,6 @@ computable in one line from the lift equation.
 - [Hurlbert et al 1998][research_hurlbert_applewhite_1998]
 - [Hurwitz and Dick 1978][research_hurwitz_dick_1978]
 - [Huskey 1975][research_huskey_1975]
-- [Hussain 2025][research_hussain_2025]
 - [Hussain et al 2026][research_hussain_rafi_2026]
 - [Hussein et al 2026][research_hussein_kadhim_2026]
 - [Hutchin 2019][research_hutchin_2019]
@@ -14768,14 +13581,11 @@ computable in one line from the lift equation.
 - [Hyland 1974][research_hyland_1974]
 - [Hynes et al 1989][research_hynes_franklin_1989]
 - [Hyun et al 2022][research_hyun_lee_2022]
-- [Höber et al 2015][research_hober_pape_2015]
-- [Höffmann et al 2024][research_hoffmann_roy_2024]
 - [Hübner and Strümpfel 2020][research_hubner_strumpfel_2020]
 - [Ibouroi et al 2022][research_ibouroi_vidal_2022]
 - [Ibragimov et al 2023][research_ibragimov_qushaqov_2023]
 - [Ibragimov et al 2026][research_ibragimov_gulomov_2026]
 - [Ibraheem AlQadi 2019][research_ibraheemalqadi_2019]
-- [Ichalal et al 2015][research_ichalal_marx_2015]
 - [Idan and Sahar 1996][research_idan_sahar_1996]
 - [Idir et al 2022][research_idir_bensafia_2022]
 - [Idnani 2026][research_idnani_2026]
@@ -14788,7 +13598,6 @@ computable in one line from the lift equation.
 - [Iinoya and Masuda 1970][research_iinoya_masuda_1970]
 - [Ikami et al 2021][research_ikami_fujita_2021]
 - [Ikaza and Rausch 2000][research_ikaza_rausch_2000]
-- [Ileš et al 2022][research_iles_svec_2022]
 - [Ilgen and Speyer 1992][research_ilgen_speyer_1992]
 - [Ilie 2026][research_ilie_2026]
 - [Ilie and Recher 2025][research_ilie_recher_2025]
@@ -14804,13 +13613,10 @@ computable in one line from the lift equation.
 - [Imado and Ishihara 1993][research_imado_ishihara_1993]
 - [Imado and Miwa 1986][research_imado_miwa_1986]
 - [Imanov 2025][research_imanov_2025]
-- [Imber et al 2007][research_imber_rogers_2007]
 - [Imbrie 1981][research_imbrie_1981]
 - [Imlay 1986][research_imlay_1986]
 - [Incorporating agility flight test metrics concurrently into the aircraft preliminary design process 1994][research_incorporating_agility_1994]
-- [Indian Company Law Administration: Government Control Relaxed 1992][research_indian_company_1992]
 - [Indri and Tornambé 1996][research_indri_tornambe_1996]
-- [Indriawati et al 2022][research_indriawati_yudistiranda_2022]
 - [Influence of Surface Curvature on Coanda Effect for Vertical Jet Impacting Horizontal Cylinder 2023][research_influence_of_2023]
 - [Infrared de-icing 1998][research_infrared_de_icing_1998]
 - [Ingalagi and Katti 2016][research_ingalagi_katti_2016]
@@ -14820,11 +13626,8 @@ computable in one line from the lift equation.
 - [Innocenti 1985][research_innocenti_1985]
 - [Innocenti 1989][research_innocenti_1989]
 - [Innocenti 1989][research_innocenti_1989_b]
-- [Inoue et al 2016][research_inoue_miyata_2016]
 - [Inozemtsev et al 2022][research_inozemtsev_pleshivykh_2022]
-- [Insurance. Liability Insurance. Right of the Insurer to Control Litigation 1918][research_insurance_liability_1918]
 - [Intelligent hierarchical thrust vector control for a space shuttle 1994][research_intelligent_hierarchical_1994]
-- [Interstate Commerce. State Control of Animals Ferae Naturae 1922][research_interstate_commerce_1922]
 - [Intravartolo et al 2023][research_intravartolo_miller_2023]
 - [Introduction to the Special Section on F-16XL Flight Aerodynamics Predictions at a High Angle of Attack 2017][research_introduction_to_2017]
 - [Invernizzi and Lovera 2018][research_invernizzi_lovera_2018]
@@ -14832,8 +13635,6 @@ computable in one line from the lift equation.
 - [Investigation on Jet Characteristics of Turbofan Exhaust System under Take-off Condition with High Angle of Attack 2022][research_investigation_on_2022]
 - [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026]
 - [Ionita and Rasvan 1999][research_ionita_rasvan_1999]
-- [Iqbal and Srinivasan 2018][research_iqbal_srinivasan_2018]
-- [Irawan et al 2019][research_irawan_santosa_2019]
 - [Irving 1933][research_irving_1933]
 - [Isaac and Allaire 2016][research_isaac_allaire_2016]
 - [Isci and Koyuncu 2022][research_isci_koyuncu_2022]
@@ -14844,12 +13645,9 @@ computable in one line from the lift equation.
 - [Islam et al 2018][research_islam_hasan_2018]
 - [Islam et al 2018][research_islam_hasan_2018_b]
 - [Islam et al 2025][research_islam_ali_2025]
-- [Ismail et al 2019][research_ismail_bakar_2019]
 - [Ismayilov et al 2025][research_ismayilov_bergeles_2025]
-- [Isnain and Rahmanto 2024][research_isnain_rahmanto_2024]
 - [Ison 2017][research_ison_2017]
 - [Ito and Iwashita 2017][research_ito_iwashita_2017]
-- [Ito et al 1990][research_ito_fujishiro_1990]
 - [Ito et al 2016][research_ito_endo_2016]
 - [Ito et al 2020][research_ito_furukawa_2020]
 - [Ito et al 2022][research_ito_watanabe_2022]
@@ -14859,7 +13657,6 @@ computable in one line from the lift equation.
 - [Ivler et al 2011][research_ivler_tischler_2011]
 - [Ivler et al 2019][research_ivler_tischler_2019]
 - [Iwai 2018][research_iwai_2018]
-- [Iwai 2019][research_iwai_2019]
 - [Iwaki et al 2018][research_iwaki_wu_2018]
 - [Iwamoto et al 2019][research_iwamoto_kanai_2019]
 - [Iwanski and O'Rourke 1995][research_iwanski_orourke_1995]
@@ -14868,12 +13665,10 @@ computable in one line from the lift equation.
 - [Izadbakhsh and Jabbari Asl 2025][research_izadbakhsh_jabbariasl_2025]
 - [Izquierdo and Marques 2021][research_izquierdo_marques_2021]
 - [Işik and Ateş 2026][research_isik_ates_2026]
-- [İnci et al 2015][research_inci_demirdelen_2015]
 - [İşci and Günel 2021][research_isci_gunel_2021]
 - [Ja. Rubinovich 2018][research_jarubinovich_2018]
 - [Jabbal et al 2016][research_jabbal_everett_2016]
 - [Jabbal et al 2016][research_jabbal_everett_2016_b]
-- [Jabeur et al 2017][research_jabeur_moh_2017]
 - [Jack et al 2015][research_jack_hoffler_2015]
 - [Jackel et al 2018][research_jackel_urueta_2018]
 - [Jacklin, Stephen A. 2008][research_jacklinstephena_2008]
@@ -14881,18 +13676,14 @@ computable in one line from the lift equation.
 - [Jackson and Crouch 1991][research_jackson_crouch_1991]
 - [Jacobson 1952][research_jacobson_1952]
 - [Jacques and Ridgely 1995][research_jacques_ridgely_1995]
-- [Jacuzzi and Granlund 2018][research_jacuzzi_granlund_2018]
-- [Jacuzzi et al 2019][research_jacuzzi_alemanchona_2019]
 - [Jaeger and Hemati 2025][research_jaeger_hemati_2025]
 - [Jaeger et al 2026][research_jaeger_thome_2026]
 - [Jaermark 1983][research_jaermark_1983]
-- [Jafari and Mashadi 2022][research_jafari_mashadi_2022]
 - [Jafari and Xu 2018][research_jafari_xu_2018]
 - [Jafari et al 2017][research_jafari_fehr_2017]
 - [Jafari et al 2022][research_jafari_khakisedigh_2022]
 - [Jagtap et al 2025][research_jagtap_strehlow_2025]
 - [Jahan et al 2023][research_jahan_kelkar_2023]
-- [Jain and Roy 2019][research_jain_roy_2019]
 - [Jain et al 2015][research_jain_roy_2015]
 - [Jain et al 2017][research_jain_aguiar_2017]
 - [Jain et al 2017][research_jain_c_2017]
@@ -14901,14 +13692,12 @@ computable in one line from the lift equation.
 - [Jaiswal et al 2023][research_jaiswal_bubanale_2023]
 - [Jaiswal et al 2024][research_jaiswal_kothari_2024]
 - [Jakšić and Janić 2020][research_jaksic_janic_2020]
-- [Jaman et al 2025][research_jaman_sarangerel_2025]
 - [James M Luckring 2003][research_jamesmluckring_2003]
 - [Jammalamadaka et al 2020][research_jammalamadaka_laskowski_2020]
 - [Jamshidi, M. et al 1997][research_jamshidim_lumiar_1997]
 - [Jang 2018][research_jang_2018]
 - [Jang, Jiann-Woei et al 2014][research_jangjiannwoei_yanglee_2014]
 - [Jankovic 1983][research_jankovic_1983]
-- [Jansen and Graafland 2026][research_jansen_graafland_2026]
 - [Jansen and Van Kampen 2025][research_jansen_vankampen_2025]
 - [Jansen and Vos 2016][research_jansen_vos_2016]
 - [Jansen, Emmert T and Thorman, H Carl 1950][research_jansenemmertt_thormanhcarl_1950]
@@ -14918,7 +13707,6 @@ computable in one line from the lift equation.
 - [Jarmark 1976][research_jarmark_1976]
 - [Jarrah 1989][research_jarrah_1989]
 - [Jarrah 1995][research_jarrah_1995]
-- [Jarrou et al 2019][research_jarrou_sauter_2019]
 - [Jasim and Veres 2018][research_jasim_veres_2018]
 - [Jategaonkar and Plaetschke 1989][research_jategaonkar_plaetschke_1989]
 - [Jategaonkar and Thielecke 1994][research_jategaonkar_thielecke_1994]
@@ -14926,7 +13714,6 @@ computable in one line from the lift equation.
 - [Javadi and Nilsson 2016][research_javadi_nilsson_2016]
 - [Jaworski et al 2023][research_jaworski_szatkowski_2023]
 - [Jayakumar et al 2018][research_jayakumar_shyammohan_2018]
-- [Jayalakshmi and Gaonkar 2017][research_jayalakshmi_gaonkar_2017]
 - [Jayaram et al 1992][research_jayaram_myklebust_1992]
 - [Jayaraman et al 2020][research_jayaraman_gaurav_2020]
 - [Jayaraman et al 2020][research_jayaraman_gaurav_2020_b]
@@ -14973,7 +13760,6 @@ computable in one line from the lift equation.
 - [Ji et al 2026][research_ji_gong_2026]
 - [Jia 2020][research_jia_2020]
 - [Jia and Bajaj 2025][research_jia_bajaj_2025]
-- [Jia and Liu 2017][research_jia_liu_2017]
 - [Jia et al 2021][research_jia_hu_2021]
 - [Jia et al 2021][research_jia_liu_2021]
 - [Jia et al 2021][research_jia_wang_2021]
@@ -14987,11 +13773,8 @@ computable in one line from the lift equation.
 - [Jian et al 2024][research_jian_chen_2024]
 - [jian-jian et al 2019][research_jianjian_qi_2019]
 - [Jiandong et al 2021][research_jiandong_qiming_2021]
-- [Jiang 1993][research_jiang_1993]
-- [Jiang 2015][research_jiang_2015]
 - [Jiang 2018][research_jiang_2018]
 - [Jiang 2018][research_jiang_2018_b]
-- [Jiang 2022][research_jiang_2022]
 - [Jiang and Han 2026][research_jiang_han_2026]
 - [Jiang and Li 2018][research_jiang_li_2018]
 - [Jiang and Li 2018][research_jiang_li_2018_b]
@@ -15004,7 +13787,6 @@ computable in one line from the lift equation.
 - [Jiang et al 2022][research_jiang_yu_2022]
 - [Jiang et al 2023][research_jiang_luo_2023]
 - [Jiang et al 2024][research_jiang_wang_2024]
-- [Jiang et al 2025][research_jiang_hu_2025]
 - [Jiang et al 2025][research_jiang_peng_2025]
 - [Jianhao et al 2025][research_jianhao_jianfeng_2025]
 - [Jianhong and Lei 2026][research_jianhong_lei_2026]
@@ -15031,7 +13813,6 @@ computable in one line from the lift equation.
 - [Jin et al 2026][research_jin_zheng_2026]
 - [Jing and Ma 2025][research_jing_ma_2025]
 - [Jing and Shen 2015][research_jing_shen_2015]
-- [Jing et al 2018][research_jing_jia_2018]
 - [Jing et al 2020][research_jing_qi_2020]
 - [Jing et al 2024][research_jing_cong_2024]
 - [Jing-gang and Ning 2016][research_jinggang_ning_2016]
@@ -15039,12 +13820,10 @@ computable in one line from the lift equation.
 - [jingwei and jiaming 2020][research_jingwei_jiaming_2020]
 - [Jingwei et al 2016][research_jingwei_li_2016]
 - [Jingwei et al 2019][research_jingwei_zhanxue_2019]
-- [Jneid and Harth 2023][research_jneid_harth_2023]
 - [Jo et al 2015][research_jo_park_2015]
 - [Jo et al 2016][research_jo_park_2016]
 - [Jobbins et al 2026][research_jobbins_caldwell_2026]
 - [Johansen et al 2015][research_johansen_cristofaro_2015]
-- [John 2025][research_john_2025]
 - [Johnson 1972][research_johnson_1972]
 - [Johnson 1984][research_johnson_1984]
 - [Johnson and Willen 1976][research_johnson_willen_1976]
@@ -15063,7 +13842,6 @@ computable in one line from the lift equation.
 - [Jones 1973][research_jones_1973]
 - [Jones 1983][research_jones_1983]
 - [Jones 1995][research_jones_1995]
-- [Jones 2013][research_jones_2013]
 - [Jones and Garcia 1996][research_jones_garcia_1996]
 - [Jones and Jia-Richards 2025][research_jones_jiarichards_2025]
 - [Jones and Jia-Richards 2026][research_jones_jiarichards_2026]
@@ -15074,7 +13852,6 @@ computable in one line from the lift equation.
 - [Joos and Ossmann 2016][research_joos_ossmann_2016]
 - [Joosten et al 2023][research_joosten_stroosma_2023]
 - [Jordan 1974][research_jordan_1974]
-- [Jose et al 2021][research_jose_das_2021]
 - [Joseph et al 1995][research_joseph_wolfson_1995]
 - [Joseph Shibu et al 2021][research_josephshibu_shankar_2021]
 - [Joshi et al 1998][research_joshi_sreenatha_1998]
@@ -15082,7 +13859,6 @@ computable in one line from the lift equation.
 - [Josipovic et al 2024][research_josipovic_ortiz_2024]
 - [Jouannet and Krus 2007][research_jouannet_krus_2007]
 - [Joyce 2026][research_joyce_2026]
-- [Ju and He 2018][research_ju_he_2018]
 - [Ju et al 2023][research_ju_li_2023]
 - [Juang 1988][research_juang_1988]
 - [Judith 2020][research_judith_2020]
@@ -15099,14 +13875,12 @@ computable in one line from the lift equation.
 - [Jung and Baeder 2019][research_jung_baeder_2019]
 - [Jung and Baeder 2023][research_jung_baeder_2023]
 - [Jung and Kim 2019][research_jung_kim_2019]
-- [Jung and Park 2018][research_jung_park_2018]
 - [Jung et al 2014][research_jung_jung_2014]
 - [Junhua Chen et al 2015][research_junhuachen_dongcao_2015]
 - [Junhui Li and Weizhou Su 2016][research_junhuili_weizhousu_2016]
 - [Junkins 1986][research_junkins_1986]
 - [Jurado and McGehee 2019][research_jurado_mcgehee_2019]
 - [Jurado and McGehee 2024][research_jurado_mcgehee_2024]
-- [Juris and Li 2025][research_juris_li_2025]
 - [Jusko and Berger 2024][research_jusko_berger_2024]
 - [Justice and Iii 2004][research_justice_iii_2004]
 - [Jyothy and John Wessley 2023][research_jyothy_johnwessley_2023]
@@ -15119,19 +13893,14 @@ computable in one line from the lift equation.
 - [Kabaliswaran and Das 2026][research_kabaliswaran_das_2026]
 - [Kabashkin 2024][research_kabashkin_2024]
 - [Kaczmarek 2026][research_kaczmarek_2026]
-- [Kadam et al 2018][research_kadam_jadhav_2018]
 - [Kadhem and Hussein 2021][research_kadhem_hussein_2021]
 - [Kadrnka and Hawley 1993][research_kadrnka_hawley_1993]
-- [Kadwe 2019][research_kadwe_2019]
-- [Kageyama and Saito 1985][research_kageyama_saito_1985]
-- [Kageyama and Saito 1986][research_kageyama_saito_1986]
 - [Kahe 2017][research_kahe_2017]
 - [Kai 2024][research_kai_2024]
 - [Kakroo and Sadat 2025][research_kakroo_sadat_2025]
 - [Kalensher 1957][research_kalensher_1957]
 - [Kaletka and Fu 1993][research_kaletka_fu_1993]
 - [Kalinowski 2017][research_kalinowski_2017]
-- [Kalita and Singh 2023][research_kalita_singh_2023]
 - [Kallergis 1987][research_kallergis_1987]
 - [Kalugin et al 2022][research_kalugin_voropaev_2022]
 - [Kalviste 1986][research_kalviste_1986]
@@ -15147,10 +13916,7 @@ computable in one line from the lift equation.
 - [Kamel and Oussama 2021][research_kamel_oussama_2021]
 - [Kamel et al 2015][research_kamel_ghamry_2015]
 - [Kamel et al 2016][research_kamel_ghamry_2016]
-- [Kamel et al 2016][research_kamel_yu_2016]
-- [Kamijyou et al 2022][research_kamijyou_kukobat_2022]
 - [Kaminer and Khargonekar 1991][research_kaminer_khargonekar_1991]
-- [Kanai et al 1978][research_kanai_nakamura_1978]
 - [Kandemir and Ayan 2023][research_kandemir_ayan_2023]
 - [Kandil and Chuang 1989][research_kandil_chuang_1989]
 - [Kandil and Chuang 1990][research_kandil_chuang_1990]
@@ -15163,25 +13929,18 @@ computable in one line from the lift equation.
 - [Kandil et al 1996][research_kandil_massey_1996]
 - [Kandil et al 1996][research_kandil_sheta_1996]
 - [Kaneko et al 2024][research_kaneko_yamanaka_2024]
-- [Kanellos et al 2026][research_kanellos_katsianis_2026]
 - [Kaneshige, John T. and Krishnakumar, Kalmanje S. 2014][research_kaneshigejohnt_krishnakumarkalmanjes_2014]
 - [Kang 2023][research_kang_2023]
 - [Kang and Choi 2022][research_kang_choi_2022]
 - [Kang et al 2015][research_kang_zhong_2015]
-- [Kang et al 2020][research_kang_lee_2020]
-- [Kang et al 2020][research_kang_yao_2020]
 - [Kang et al 2020][research_kang_yao_2020_b]
 - [Kang et al 2024][research_kang_li_2024]
 - [Kang et al 2024][research_kang_xu_2024]
-- [Kang et al 2025][research_kang_meng_2025]
 - [Kang et al 2026][research_kang_gao_2026]
 - [Kano et al 2025][research_kano_ryuzono_2025]
 - [Kanou and Ibuki 2025][research_kanou_ibuki_2025]
 - [Kao et al 2018][research_kao_white_2018]
-- [Kapania and Gerdes 2015][research_kapania_gerdes_2015]
-- [Kaplan 1987][research_kaplan_1987]
 - [Kaplan, Joseph A. et al 1994][research_kaplanjosepha_chappellalanr_1994]
-- [Kapoor et al 2018][research_kapoor_gupta_2018]
 - [Kara and Erpulat 2021][research_kara_erpulat_2021]
 - [Kara and Kurtuluş 2024][research_kara_kurtulus_2024]
 - [Kara et al 2025][research_kara_enderya_2025]
@@ -15190,7 +13949,6 @@ computable in one line from the lift equation.
 - [Karimi Kelayeh and Djavareshkian 2024][research_karimikelayeh_djavareshkian_2024]
 - [Karimtaevna et al 2022][research_karimtaevna_bekbolatovna_2022]
 - [Karkar and Gökmenoğlu 2024][research_karkar_gokmenoglu_2024]
-- [Karkoszka 2019][research_karkoszka_2019]
 - [Karlgaard 2025][research_karlgaard_2025]
 - [Karlgaard and Schoenenberger 2017][research_karlgaard_schoenenberger_2017]
 - [Karlgaard et al 2015][research_karlgaard_kutty_2015]
@@ -15211,7 +13969,6 @@ computable in one line from the lift equation.
 - [Kassab 1990][research_kassab_1990]
 - [Kassapakis and Warwick 1994][research_kassapakis_warwick_1994]
 - [Kasula et al 2024][research_kasula_whidborne_2024]
-- [Katsuragawa and Wakao 2019][research_katsuragawa_wakao_2019]
 - [Katukuri 2023][research_katukuri_2023]
 - [Katunin 2016][research_katunin_2016]
 - [Katunin et al 2017][research_katunin_krukiewicz_2017]
@@ -15229,7 +13986,6 @@ computable in one line from the lift equation.
 - [Katz et al 1996][research_katz_yon_1996]
 - [Kaufmann, David N. and Mcnally, B. David 1995][research_kaufmanndavidn_mcnallybdavid_1995]
 - [Kaufmann, David N. and Ncnally, B. David 1995][research_kaufmanndavidn_ncnallybdavid_1995]
-- [Kawai et al 2023][research_kawai_yokokura_2023]
 - [Kayacan and Peschel 2016][research_kayacan_peschel_2016]
 - [Kazan and Aktemur 2026][research_kazan_aktemur_2026]
 - [Kazarin et al 2016][research_kazarin_golubev_2016]
@@ -15266,7 +14022,6 @@ computable in one line from the lift equation.
 - [Kereliuk and Sinclair 1979][research_kereliuk_sinclair_1979]
 - [Kern 1993][research_kern_1993]
 - [Kerr and Ruddy 1999][research_kerr_ruddy_1999]
-- [Kessler and Levine 1990][research_kessler_levine_1990]
 - [Ketchel 1977][research_ketchel_1977]
 - [Kettle 1954][research_kettle_1954]
 - [Key 1971][research_key_1971]
@@ -15287,18 +14042,15 @@ computable in one line from the lift equation.
 - [Khasheinejad and Montazeri‐Gh 2025][research_khasheinejad_montazerigh_2025]
 - [Khatri and Subbarao 2024][research_khatri_subbarao_2024]
 - [Khatri et al 2023][research_khatri_gupta_2023]
-- [Khilenko et al 2023][research_khilenko_galinski_2023]
 - [Kho and Park 2021][research_kho_park_2021]
 - [Khodunkov and Zarichnyak 2022][research_khodunkov_zarichnyak_2022]
 - [Khoshkhoo and Jahangirian 2016][research_khoshkhoo_jahangirian_2016]
-- [Khosravani et al 2016][research_khosravani_nazirimoghaddam_2016]
 - [Khudaybergenov 2021][research_khudaybergenov_2021]
 - [Khurana et al 2023][research_khurana_eldin_2023]
 - [Kidd 1988][research_kidd_1988]
 - [Kidd and Bull 1963][research_kidd_bull_1963]
 - [Kiefer and Calvert 1992][research_kiefer_calvert_1992]
 - [Kiely and Agarwal 2023][research_kiely_agarwal_2023]
-- [Kier 1998][research_kier_1998]
 - [Kikin 2018][research_kikin_2018]
 - [Kikkawa and Uchiyama 2017][research_kikkawa_uchiyama_2017]
 - [Kikuchi et al 2015][research_kikuchi_yoshida_2015]
@@ -15317,9 +14069,7 @@ computable in one line from the lift equation.
 - [Kim and Kim 2017][research_kim_kim_2017]
 - [Kim and Kim 2020][research_kim_kim_2020]
 - [Kim and Kim 2023][research_kim_kim_2023]
-- [Kim and Kim 2023][research_kim_kim_2023_b]
 - [Kim and Kim 2024][research_kim_kim_2024]
-- [Kim and Kim 2024][research_kim_kim_2024_b]
 - [Kim and Kim 2026][research_kim_kim_2026]
 - [Kim and Kunz 2016][research_kim_kunz_2016]
 - [Kim and Kunz 2017][research_kim_kunz_2017]
@@ -15331,7 +14081,6 @@ computable in one line from the lift equation.
 - [Kim et al 2017][research_kim_sung_2017]
 - [Kim et al 2018][research_kim_yang_2018]
 - [Kim et al 2018][research_kim_zhang_2018]
-- [Kim et al 2019][research_kim_muljadi_2019]
 - [Kim et al 2019][research_kim_oh_2019]
 - [Kim et al 2020][research_kim_kim_2020_b]
 - [Kim et al 2020][research_kim_lee_2020]
@@ -15344,34 +14093,24 @@ computable in one line from the lift equation.
 - [Kimata et al 2015][research_kimata_taguchi_2015]
 - [Kimathi and Lantos 2024][research_kimathi_lantos_2024]
 - [Kimberlin and Sims 1992][research_kimberlin_sims_1992]
-- [Kimbrough and Chiu 1990][research_kimbrough_chiu_1990]
-- [Kindra et al 2026][research_kindra_rogalev_2026]
 - [Kineyko 1982][research_kineyko_1982]
-- [King 2000][research_king_2000]
 - [King and Peterson 2019][research_king_peterson_2019]
 - [King and Schnelker 1970][research_king_schnelker_1970]
 - [King, Jr. et al 1991][research_kingjr_freeman_1991]
 - [Kinnaert 1993][research_kinnaert_1993]
 - [Kinnaert 1996][research_kinnaert_1996]
 - [Kirchengast et al 2018][research_kirchengast_steinberger_2018]
-- [Kirk 2012][research_kirk_2012]
 - [Kirkendoll 2022][research_kirkendoll_2022]
-- [Kirkland 1992][research_kirkland_1992]
 - [Kirmizi et al 2023][research_kirmizi_aygun_2023]
 - [Kirsch et al 2025][research_kirsch_fathi_2025]
-- [Kirschner et al 2022][research_kirschner_martineau_2022]
 - [Kirsten 1985][research_kirsten_1985]
 - [Kiselev et al 1994][research_kiselev_maslov_1994]
 - [Kiseleva and Lukeshevich 2019][research_kiseleva_lukeshevich_2019]
 - [Kish et al 1996][research_kish_mittlestead_1996]
 - [Kish et al 1999][research_kish_graham_1999]
-- [Kishimoto et al 2021][research_kishimoto_saito_2021]
-- [Kishimoto et al 2021][research_kishimoto_saito_2021_b]
-- [Kishimoto et al 2022][research_kishimoto_saito_2022]
 - [Kishore et al 2025][research_kishore_ashok_2025]
 - [Kisslinger and Wendl 1971][research_kisslinger_wendl_1971]
 - [Kistyarev and Wang 2025][research_kistyarev_wang_2025]
-- [Kitayama 1991][research_kitayama_1991]
 - [Kitowski 1992][research_kitowski_1992]
 - [Kiyak 2016][research_kiyak_2016]
 - [Kiyak and Ermeydan 2018][research_kiyak_ermeydan_2018]
@@ -15379,11 +14118,9 @@ computable in one line from the lift equation.
 - [Klafin 1988][research_klafin_1988]
 - [Klajn and Gur 1992][research_klajn_gur_1992]
 - [Klatt and Engell 1995][research_klatt_engell_1995]
-- [Klatt and Engell 1996][research_klatt_engell_1996]
 - [Klein 1989][research_klein_1989]
 - [Klein 1989][research_klein_1989_b]
 - [Klein 1990][research_klein_1990]
-- [Klein 1992][research_klein_1992]
 - [Klein and Batterson 1986][research_klein_batterson_1986]
 - [Klein and Morelli 1992][research_klein_morelli_1992]
 - [Klein et al 2008][research_klein_winn_2008]
@@ -15398,7 +14135,6 @@ computable in one line from the lift equation.
 - [Klepper et al 2017][research_klepper_sirbaugh_2017]
 - [Klinskii 2023][research_klinskii_2023]
 - [Klion 1977][research_klion_1977]
-- [Kloetzer and Weber 2024][research_kloetzer_weber_2024]
 - [Klopfer and Nielsen 1979][research_klopfer_nielsen_1979]
 - [Klute et al 1996][research_klute_rediniotis_1996]
 - [Klyde et al 1995][research_klyde_aponso_1995]
@@ -15409,13 +14145,10 @@ computable in one line from the lift equation.
 - [Knezevic 2015][research_knezevic_2015]
 - [Knoedler et al 1996][research_knoedler_bailey_1996]
 - [Knoop and Moreno Pérez 1994][research_knoop_morenoperez_1994]
-- [Knowles et al 1996][research_knowles_grosenbaugh_1996]
 - [Knox 1992][research_knox_1992]
 - [Knuusi and Sage 1965][research_knuusi_sage_1965]
 - [Ko and Kim 2016][research_ko_kim_2016]
 - [Ko et al 2019][research_ko_kang_2019]
-- [Ko et al 2021][research_ko_khan_2021]
-- [Kobashi et al 2023][research_kobashi_yamazaki_2023]
 - [Kobayakawa et al 1993][research_kobayakawa_kondo_1993]
 - [Kobayashi et al 1996][research_kobayashi_ikeura_1996]
 - [Kobayashi et al 2020][research_kobayashi_watanabe_2020]
@@ -15423,11 +14156,9 @@ computable in one line from the lift equation.
 - [Kocherla and Yu 2019][research_kocherla_yu_2019]
 - [Kodama 1985][research_kodama_1985]
 - [Koga et al 2017][research_koga_hiratsuka_2017]
-- [Koibuchi et al 1996][research_koibuchi_yamamoto_1996]
 - [Koizumi et al 2018][research_koizumi_tsutsumi_2018]
 - [Kokaew et al 2021][research_kokaew_thaithanan_2021]
 - [Kokaew et al 2022][research_kokaew_bodhisuwan_2022]
-- [Kokku 2023][research_kokku_2023]
 - [Koklu 2016][research_koklu_2016]
 - [Kokolios, Alex 1993][research_kokoliosalex_1993]
 - [Kokubo et al 2026][research_kokubo_oba_2026]
@@ -15435,7 +14166,6 @@ computable in one line from the lift equation.
 - [Kolesnikov 2005][research_kolesnikov_2005]
 - [Kolesnikov 2018][research_kolesnikov_2018]
 - [Koliai et al 2025][research_koliai_zoulagh_2025]
-- [Kollross and Tajč 2021][research_kollross_tajc_2021]
 - [Komaee 2024][research_komaee_2024]
 - [Komarov 2018][research_komarov_2018]
 - [Komarov and Zinchenko 2023][research_komarov_zinchenko_2023]
@@ -15444,9 +14174,7 @@ computable in one line from the lift equation.
 - [Konar et al 1974][research_konar_mahesh_1974]
 - [Konatala et al 2021][research_konatala_vankampen_2021]
 - [Konatala et al 2024][research_konatala_milz_2024]
-- [Kondo et al 2017][research_kondo_mizuno_2017]
 - [Kong 2026][research_kong_2026]
-- [Kong and Ngwendson 2021][research_kong_ngwendson_2021]
 - [Kong et al 2016][research_kong_gao_2016]
 - [Kong et al 2016][research_kong_zhang_2016]
 - [Kong et al 2020][research_kong_zhou_2020]
@@ -15465,11 +14193,9 @@ computable in one line from the lift equation.
 - [Koppitz et al 2018][research_koppitz_siegel_2018]
 - [Koppitz et al 2019][research_koppitz_wang_2019]
 - [Kordabad et al 2025][research_kordabad_dacol_2025]
-- [Kordkandi et al 2022][research_kordkandi_hagh_2022]
 - [Korecki and Hoika 2026][research_korecki_hoika_2026]
 - [Korn 1974][research_korn_1974]
 - [Korneev et al 2024][research_korneev_lenevsky_2024]
-- [Korot et al 2021][research_korot_rolain_2021]
 - [Korsun and Moung Htang 2023][research_korsun_mounghtang_2023]
 - [Korsun et al 2017][research_korsun_poplavsky_2017]
 - [Korsun et al 2018][research_korsun_prihodko_2018]
@@ -15477,7 +14203,6 @@ computable in one line from the lift equation.
 - [Korunov et al 2024][research_korunov_gusev_2024]
 - [Kosacki and Tomczyk 2022][research_kosacki_tomczyk_2022]
 - [Koschel et al 2021][research_koschel_carrese_2021]
-- [Kostenko and Tolstonogov 2021][research_kostenko_tolstonogov_2021]
 - [Kostin and Zhuravskiy 2023][research_kostin_zhuravskiy_2023]
 - [Kostić et al 2015][research_kostic_rasuo_2015]
 - [Kostić et al 2024][research_kostic_simonovic_2024]
@@ -15507,7 +14232,6 @@ computable in one line from the lift equation.
 - [Krasil'nikov 1969][research_krasilnikov_1969]
 - [Krasuski and Savchuk 2019][research_krasuski_savchuk_2019]
 - [Krause 1997][research_krause_1997]
-- [Krause and Bhounsule 2018][research_krause_bhounsule_2018]
 - [Krawczyk et al 2019][research_krawczyk_szczepanski_2019]
 - [Krawczyk et al 2019][research_krawczyk_szczepanski_2019_b]
 - [Krekeler, Jr. et al 1990][research_krekelerjr_wilson_1990]
@@ -15540,7 +14264,6 @@ computable in one line from the lift equation.
 - [Kuffner et al 2016][research_kuffner_guendel_2016]
 - [Kuhn 1975][research_kuhn_1975]
 - [Kuhn 1980][research_kuhn_1980]
-- [Kula 2017][research_kula_2017]
 - [Kulhánek 2019][research_kulhanek_2019]
 - [Kumar 2020][research_kumar_2020]
 - [Kumar 2020][research_kumar_2020_b]
@@ -15553,7 +14276,6 @@ computable in one line from the lift equation.
 - [Kumar and Ghosh 2024][research_kumar_ghosh_2024]
 - [Kumar and Khanna 2026][research_kumar_khanna_2026]
 - [Kumar and Raghuwanshi 2020][research_kumar_raghuwanshi_2020]
-- [Kumar and Rajagopal 2019][research_kumar_rajagopal_2019]
 - [Kumar and Supale 2023][research_kumar_supale_2023]
 - [Kumar et al 1995][research_kumar_seywald_1995]
 - [Kumar et al 2019][research_kumar_anthoni_2019]
@@ -15562,19 +14284,12 @@ computable in one line from the lift equation.
 - [Kumar et al 2021][research_kumar_mandal_2021]
 - [Kumar et al 2021][research_kumar_mandal_2021_b]
 - [Kumar et al 2021][research_kumar_rohit_2021]
-- [Kumar et al 2022][research_kumar_bag_2022]
-- [Kumar et al 2022][research_kumar_razak_2022]
 - [Kumar et al 2026][research_kumar_mittal_2026]
 - [Kumar Neelakanta Pillai Santha Kumari Amma 2025][research_kumarneelakantapillaisanthakumariamma_2025]
 - [Kumar P and Detroja 2024][research_kumarp_detroja_2024]
-- [Kumar Tatikayala and Dixit 2024][research_kumartatikayala_dixit_2024]
-- [Kumar.Ch et al 2020][research_kumarch_jain_2020]
-- [Kumaraswamy et al 2021][research_kumaraswamy_kumar_2021]
 - [Kumari et al 2020][research_kumari_bandyopadhyay_2020]
-- [Kumbi et al 2025][research_kumbi_birje_2025]
 - [Kung and Chiang 2015][research_kung_chiang_2015]
 - [Kunishige et al 2018][research_kunishige_yonamoto_2018]
-- [Kuno et al 2026][research_kuno_masaoka_2026]
 - [Kuntjoro et al 2015][research_kuntjoro_wisnoe_2015]
 - [Kunwar et al 2024][research_kunwar_mishra_2024]
 - [Kuo et al 2016][research_kuo_smith_2016]
@@ -15589,7 +14304,6 @@ computable in one line from the lift equation.
 - [Kurt et al 2025][research_kurt_arabul_2025]
 - [Kurtoglu et al 2025][research_kurtoglu_yucelen_2025]
 - [Kurtoglu et al 2026][research_kurtoglu_yucelen_2026]
-- [Kurz 1963][research_kurz_1963]
 - [Kus and Ergazi 2025][research_kus_ergazi_2025]
 - [Kusmirek et al 2024][research_kusmirek_socha_2024]
 - [Kutschera and Render 1999][research_kutschera_render_1999]
@@ -15598,13 +14312,10 @@ computable in one line from the lift equation.
 - [Kuvshinov et al 2019][research_kuvshinov_lazurin_2019]
 - [Kuwamura and Hara 2017][research_kuwamura_hara_2017]
 - [Kuznetsov et al 2015][research_kuznetsov_leonov_2015]
-- [Kuznetsova and Kuznetsov 2015][research_kuznetsova_kuznetsov_2015]
-- [Kwak and Oh 2017][research_kwak_oh_2017]
 - [Kwatny and Allen 2012][research_kwatny_allen_2012]
 - [Kwatny et al 1991][research_kwatny_bennett_1991]
 - [Kwiek 2019][research_kwiek_2019]
 - [Kwon et al 2019][research_kwon_park_2019]
-- [Kwon et al 2025][research_kwon_lee_2025]
 - [Köhler et al 2026][research_kohler_scholz_2026]
 - [Köthe et al 2016][research_kothe_luckner_2016]
 - [La Due et al 1996][research_ladue_muller_1996]
@@ -15661,11 +14372,8 @@ computable in one line from the lift equation.
 - [Latchman et al 1997][research_latchman_crisalle_1997]
 - [Lateral Control of a Hypersonic Aircraft 2025][research_lateral_control_2025]
 - [Lathasree et al 2019][research_lathasree_pashilkar_2019]
-- [Latif et al 2021][research_latif_jaffar_2021]
 - [Laurence III and Argrow 2019][research_laurenceiii_argrow_2019]
-- [Lausterer 1998][research_lausterer_1998]
 - [Lavretsky 2019][research_lavretsky_2019]
-- [Lawal and Zhang 2015][research_lawal_zhang_2015]
 - [Lawes 1994][research_lawes_1994]
 - [Lawrence and Rugh 1995][research_lawrence_rugh_1995]
 - [Lawrence et al 2018][research_lawrence_theodore_2018]
@@ -15681,7 +14389,6 @@ computable in one line from the lift equation.
 - [Le Clainche et al 2019][research_leclainche_morenoramos_2019]
 - [Le et al 2020][research_le_meng_2020]
 - [Le Provost et al 2018][research_leprovost_williams_2018]
-- [Leal et al 2015][research_leal_aguilar_2015]
 - [Leatham and Linch 1974][research_leatham_linch_1974]
 - [Lebacqz and Govindaraj 1980][research_lebacqz_govindaraj_1980]
 - [Lebacqz and Radford 1979][research_lebacqz_radford_1979]
@@ -15689,7 +14396,6 @@ computable in one line from the lift equation.
 - [Lecerf et al 2015][research_lecerf_allaire_2015]
 - [Lee 1946][research_lee_1946]
 - [Lee 1947][research_lee_1947]
-- [Lee 1990][research_lee_1990]
 - [Lee 2016][research_lee_2016]
 - [Lee 2017][research_lee_2017]
 - [Lee 2017][research_lee_2017_b]
@@ -15715,18 +14421,12 @@ computable in one line from the lift equation.
 - [Lee and Ko 2018][research_lee_ko_2018]
 - [Lee and Lan 1992][research_lee_lan_1992]
 - [Lee and Lee 2019][research_lee_lee_2019]
-- [Lee and Lee 2020][research_lee_lee_2020]
-- [Lee and Lee 2025][research_lee_lee_2025]
 - [Lee and Lua 2025][research_lee_lua_2025]
 - [Lee and Lua 2026][research_lee_lua_2026]
-- [Lee and Oh 2018][research_lee_oh_2018]
-- [Lee and Park 2021][research_lee_park_2021]
 - [Lee and Singh 2017][research_lee_singh_2017]
-- [Lee and Tomizuka 1996][research_lee_tomizuka_1996]
 - [Lee and Vagners 1982][research_lee_vagners_1982]
 - [Lee and Van Kampen 2021][research_lee_vankampen_2021]
 - [Lee et al 1994][research_lee_kim_1994]
-- [Lee et al 2015][research_lee_choi_2015]
 - [Lee et al 2015][research_lee_huque_2015]
 - [Lee et al 2016][research_lee_park_2016]
 - [Lee et al 2017][research_lee_snyder_2017]
@@ -15740,7 +14440,6 @@ computable in one line from the lift equation.
 - [Lee et al 2021][research_lee_huang_2021]
 - [Lee et al 2021][research_lee_lin_2021]
 - [Lee et al 2021][research_lee_saj_2021]
-- [Lee et al 2021][research_lee_son_2021]
 - [Lee et al 2022][research_lee_kim_2022]
 - [Lee et al 2022][research_lee_oh_2022]
 - [Lee et al 2022][research_lee_puranik_2022]
@@ -15752,7 +14451,6 @@ computable in one line from the lift equation.
 - [Lee et al 2025][research_lee_park_2025]
 - [Lee et al 2026][research_lee_horn_2026]
 - [Lefebvre et al 2020][research_lefebvre_debelie_2020]
-- [Leffler 1994][research_leffler_1994]
 - [Leftheriotis and Carpenter 1992][research_leftheriotis_carpenter_1992]
 - [Legen'kii 1995][research_legenkii_1995]
 - [Leggett et al 1990][research_leggett_moorhouse_1990]
@@ -15765,10 +14463,8 @@ computable in one line from the lift equation.
 - [Lei and Zha 2023][research_lei_zha_2023_c]
 - [Lei et al 2017][research_lei_qi_2017]
 - [Lei et al 2022][research_lei_huo_2022]
-- [Leibrecht et al 1993][research_leibrecht_meade_1993]
 - [Leith 1996][research_leith_1996]
 - [Leith 1999][research_leith_1999]
-- [Leith and Leithead 1999][research_leith_leithead_1999]
 - [Leitmann 1969][research_leitmann_1969]
 - [Leitmann 1969][research_leitmann_1969_b]
 - [Leitner 1986][research_leitner_1986]
@@ -15791,13 +14487,11 @@ computable in one line from the lift equation.
 - [Lesieutre and Hall 2024][research_lesieutre_hall_2024]
 - [Lesieutre et al 1996][research_lesieutre_love_1996]
 - [Lesoinne 2007][research_lesoinne_2007]
-- [LESSON 10. THE TAILLESS RAT 1948][research_lesson_10_1948]
 - [Leung et al 2019][research_leung_moszczynski_2019]
 - [Level Flight Performance Flight Test and Data Reduction Methods for Propeller-Driven Aircraft 2003][research_level_flight_2003]
 - [Levi and Stahlhuth 1977][research_levi_stahlhuth_1977]
 - [Levin 1997][research_levin_1997]
 - [Levit et al 1977][research_levit_heaton_1977]
-- [Lewandowski 1992][research_lewandowski_1992]
 - [Lewis 1986][research_lewis_1986]
 - [Lewis 1990][research_lewis_1990]
 - [Lewis 1998][research_lewis_1998]
@@ -15809,18 +14503,15 @@ computable in one line from the lift equation.
 - [Lewkowicz 2026][research_lewkowicz_2026]
 - [Lhachemi et al 2017][research_lhachemi_chu_2017]
 - [Lhopiteau et al 2025][research_lhopiteau_proenca_2025]
-- [Li 2019][research_li_2019]
 - [Li 2021][research_li_2021]
 - [Li 2022][research_li_2022]
 - [Li 2024][research_li_2024]
 - [Li 2024][research_li_2024_b]
-- [Li 2025][research_li_2025]
 - [Li 2025][research_li_2025_b]
 - [Li 2025][research_li_2025_c]
 - [Li and Cai 2026][research_li_cai_2026]
 - [Li and Fan 2018][research_li_fan_2018]
 - [Li and Geiselhart 2026][research_li_geiselhart_2026]
-- [Li and Liu 2025][research_li_liu_2025]
 - [Li and Livne 1997][research_li_livne_1997]
 - [Li and Ma 2025][research_li_ma_2025]
 - [Li and Nabawy 2022][research_li_nabawy_2022]
@@ -15831,7 +14522,6 @@ computable in one line from the lift equation.
 - [Li and Shi 2021][research_li_shi_2021]
 - [Li and Song 2017][research_li_song_2017]
 - [Li and Tong 2016][research_li_tong_2016]
-- [Li and Tso 1999][research_li_tso_1999]
 - [Li and van Kampen 2024][research_li_vankampen_2024]
 - [Li and wang 2021][research_li_wang_2021]
 - [Li and Wei 2016][research_li_wei_2016]
@@ -15844,7 +14534,6 @@ computable in one line from the lift equation.
 - [Li et al 2016][research_li_he_2016]
 - [Li et al 2016][research_li_hirota_2016]
 - [Li et al 2016][research_li_yang_2016_b]
-- [Li et al 2016][research_li_zhou_2016]
 - [Li et al 2017][research_li_cho_2017]
 - [Li et al 2017][research_li_dong_2017]
 - [Li et al 2017][research_li_jin_2017]
@@ -15879,12 +14568,10 @@ computable in one line from the lift equation.
 - [Li et al 2022][research_li_chen_2022]
 - [Li et al 2022][research_li_chen_2022_b]
 - [Li et al 2022][research_li_dai_2022]
-- [Li et al 2022][research_li_fu_2022]
 - [Li et al 2022][research_li_hu_2022]
 - [Li et al 2022][research_li_huang_2022]
 - [Li et al 2022][research_li_liang_2022]
 - [Li et al 2022][research_li_lin_2022]
-- [Li et al 2022][research_li_liu_2022]
 - [Li et al 2022][research_li_lyu_2022]
 - [Li et al 2022][research_li_lyu_2022_b]
 - [Li et al 2022][research_li_nie_2022]
@@ -15909,9 +14596,7 @@ computable in one line from the lift equation.
 - [Li et al 2023][research_li_sun_2023]
 - [Li et al 2023][research_li_sun_2023_b]
 - [Li et al 2023][research_li_teng_2023]
-- [Li et al 2023][research_li_zhang_2023]
 - [Li et al 2023][research_li_zheng_2023]
-- [Li et al 2024][research_li_barry_2024]
 - [Li et al 2024][research_li_fang_2024]
 - [Li et al 2024][research_li_huang_2024]
 - [Li et al 2024][research_li_li_2024]
@@ -15925,7 +14610,6 @@ computable in one line from the lift equation.
 - [Li et al 2024][research_li_wen_2024]
 - [Li et al 2024][research_li_yang_2024]
 - [Li et al 2024][research_li_ye_2024]
-- [li et al 2024][research_li_ye_2024_b]
 - [Li et al 2024][research_li_zhang_2024]
 - [Li et al 2024][research_li_zhang_2024_b]
 - [Li et al 2024][research_li_zhou_2024]
@@ -15935,9 +14619,7 @@ computable in one line from the lift equation.
 - [Li et al 2025][research_li_ji_2025]
 - [Li et al 2025][research_li_lang_2025]
 - [Li et al 2025][research_li_li_2025]
-- [Li et al 2025][research_li_li_2025_b]
 - [Li et al 2025][research_li_lin_2025]
-- [Li et al 2025][research_li_liu_2025_b]
 - [Li et al 2025][research_li_luo_2025]
 - [Li et al 2025][research_li_meng_2025]
 - [Li et al 2025][research_li_sun_2025]
@@ -15960,7 +14642,6 @@ computable in one line from the lift equation.
 - [Liang 1989][research_liang_1989]
 - [Liang and Hassanalian 2026][research_liang_hassanalian_2026]
 - [Liang et al 2017][research_liang_jia_2017]
-- [Liang et al 2018][research_liang_yin_2018]
 - [Liang et al 2020][research_liang_chen_2020]
 - [Liang et al 2021][research_liang_guo_2021]
 - [Liang et al 2022][research_liang_li_2022]
@@ -15971,12 +14652,10 @@ computable in one line from the lift equation.
 - [Liang et al 2025][research_liang_zhao_2025]
 - [Liang et al 2026][research_liang_lu_2026]
 - [Liang et al 2026][research_liang_wang_2026]
-- [Liao et al 2017][research_liao_chen_2017]
 - [Liao et al 2021][research_liao_wei_2021]
 - [Liao et al 2026][research_liao_yang_2026]
 - [Liao Kaijun et al 2015][research_liaokaijun_qiankun_2015]
 - [Liavoli et al 2021][research_liavoli_shadi_2021]
-- [Liaw and Lengyel 1993][research_liaw_lengyel_1993]
 - [Librescu and Simovich 1988][research_librescu_simovich_1988]
 - [Librescu and Thangjitham 1991][research_librescu_thangjitham_1991]
 - [Lichota 2023][research_lichota_2023]
@@ -16004,26 +14683,21 @@ computable in one line from the lift equation.
 - [Lim, K. B. et al 2004][research_limkb_shinyy_2004]
 - [Lima Filho et al 2021][research_limafilho_medeiros_2021]
 - [Limebeer et al 2025][research_limebeer_romero_2025]
-- [Limjeerajarus and Santiprasertkul 2017][research_limjeerajarus_santiprasertkul_2017]
 - [Lin 1995][research_lin_1995]
 - [Lin 1998][research_lin_1998]
 - [Lin 2002][research_lin_2002]
 - [Lin 2016][research_lin_2016]
 - [Lin 2025][research_lin_2025]
-- [Lin 2026][research_lin_2026]
 - [Lin and Sheehan 2018][research_lin_sheehan_2018]
 - [Lin and Tai 1995][research_lin_tai_1995]
 - [Lin and Xin 2019][research_lin_xin_2019]
-- [Lin and Yu 1993][research_lin_yu_1993]
 - [Lin et al 1989][research_lin_jhou_1989]
 - [Lin et al 1994][research_lin_chin_1994]
 - [Lin et al 2017][research_lin_wang_2017]
 - [Lin et al 2017][research_lin_wang_2017_b]
 - [Lin et al 2019][research_lin_zhang_2019]
 - [Lin et al 2023][research_lin_xiao_2023]
-- [Lin et al 2024][research_lin_siampis_2024]
 - [Lin et al 2026][research_lin_dong_2026]
-- [Lin et al 2026][research_lin_elmoctar_2026]
 - [Lin et al 2026][research_lin_zong_2026]
 - [Lind and Brenner 1998][research_lind_brenner_1998]
 - [Lind, Rick C. et al 1997][research_lindrickc_brennermartinj_1997]
@@ -16031,9 +14705,7 @@ computable in one line from the lift equation.
 - [Lindgren 2025][research_lindgren_2025]
 - [Linehan 1996][research_linehan_1996]
 - [Ling and Edgar 1992][research_ling_edgar_1992]
-- [Ling and Edgar 1997][research_ling_edgar_1997]
 - [Ling et al 1991][research_ling_kabamba_1991]
-- [Ling et al 2024][research_ling_wang_2024]
 - [Linton 1993][research_linton_1993]
 - [Linville and Hess 2020][research_linville_hess_2020]
 - [Liqun et al 2017][research_liqun_chaoyang_2017]
@@ -16043,16 +14715,12 @@ computable in one line from the lift equation.
 - [Litot 2025][research_litot_2025]
 - [Littleboy and Patel 1998][research_littleboy_patel_1998]
 - [Littleboy et al 1997][research_littleboy_smith_1997]
-- [Liu 2020][research_liu_2020]
-- [Liu 2020][research_liu_2020_b]
 - [Liu 2021][research_liu_2021]
 - [Liu 2023][research_liu_2023]
 - [Liu 2024][research_liu_2024]
-- [Liu and Chen 2023][research_liu_chen_2023]
 - [Liu and Gao 2020][research_liu_gao_2020]
 - [Liu and Hu 2014][research_liu_hu_2014]
 - [Liu and Jiao 2017][research_liu_jiao_2017]
-- [Liu and Kim 2025][research_liu_kim_2025]
 - [Liu and Li 2024][research_liu_li_2024]
 - [Liu and Liu 2019][research_liu_liu_2019_b]
 - [Liu and Liu 2022][research_liu_liu_2022]
@@ -16066,7 +14734,6 @@ computable in one line from the lift equation.
 - [Liu and Zhang 2018][research_liu_zhang_2018]
 - [Liu and Zhang 2022][research_liu_zhang_2022_c]
 - [Liu and Zhang 2024][research_liu_zhang_2024_b]
-- [Liu et al 1998][research_liu_yokoyama_1998]
 - [Liu et al 2015][research_liu_jiang_2015]
 - [Liu et al 2015][research_liu_lao_2015]
 - [Liu et al 2015][research_liu_qiao_2015]
@@ -16076,7 +14743,6 @@ computable in one line from the lift equation.
 - [Liu et al 2016][research_liu_wang_2016]
 - [Liu et al 2016][research_liu_yang_2016]
 - [Liu et al 2016][research_liu_yuan_2016]
-- [Liu et al 2016][research_liu_zhang_2016]
 - [Liu et al 2017][research_liu_huang_2017]
 - [Liu et al 2017][research_liu_litvinenko_2017]
 - [Liu et al 2017][research_liu_zhang_2017]
@@ -16088,7 +14754,6 @@ computable in one line from the lift equation.
 - [Liu et al 2018][research_liu_zhang_2018_b]
 - [Liu et al 2018][research_liu_zhang_2018_c]
 - [Liu et al 2018][research_liu_zhang_2018_d]
-- [Liu et al 2019][research_liu_chan_2019]
 - [Liu et al 2019][research_liu_chen_2019]
 - [Liu et al 2019][research_liu_dong_2019]
 - [Liu et al 2019][research_liu_liu_2019]
@@ -16104,10 +14769,7 @@ computable in one line from the lift equation.
 - [Liu et al 2021][research_liu_cheman_2021]
 - [Liu et al 2021][research_liu_hong_2021]
 - [Liu et al 2021][research_liu_luo_2021]
-- [Liu et al 2021][research_liu_zhang_2021]
 - [Liu et al 2022][research_liu_gao_2022]
-- [Liu et al 2022][research_liu_kan_2022]
-- [Liu et al 2022][research_liu_li_2022]
 - [Liu et al 2022][research_liu_luo_2022]
 - [Liu et al 2022][research_liu_ma_2022]
 - [Liu et al 2022][research_liu_xu_2022]
@@ -16118,7 +14780,6 @@ computable in one line from the lift equation.
 - [Liu et al 2023][research_liu_pang_2023]
 - [Liu et al 2023][research_liu_wang_2023]
 - [Liu et al 2023][research_liu_zhou_2023]
-- [Liu et al 2023][research_liu_ziatdinov_2023]
 - [Liu et al 2024][research_liu_bai_2024]
 - [Liu et al 2024][research_liu_gao_2024]
 - [Liu et al 2024][research_liu_ji_2024]
@@ -16127,7 +14788,6 @@ computable in one line from the lift equation.
 - [Liu et al 2024][research_liu_shen_2024]
 - [Liu et al 2024][research_liu_su_2024]
 - [Liu et al 2024][research_liu_wang_2024]
-- [Liu et al 2024][research_liu_zhang_2024]
 - [Liu et al 2025][research_liu_ding_2025]
 - [Liu et al 2025][research_liu_du_2025]
 - [Liu et al 2025][research_liu_huang_2025]
@@ -16146,16 +14806,13 @@ computable in one line from the lift equation.
 - [Liu et al 2026][research_liu_song_2026]
 - [Liu et al 2026][research_liu_wang_2026]
 - [Liu et al 2026][research_liu_wang_2026_b]
-- [Liu et al 2026][research_liu_zhang_2026]
 - [Liu et al 2026][research_liu_zhu_2026]
 - [Liu et al 2027][research_liu_qi_2027]
 - [Livneh 1995][research_livneh_1995]
 - [Livneh and Schmidt 1992][research_livneh_schmidt_1992]
-- [Lobas 1989][research_lobas_1989]
 - [Lobo et al 2016][research_lobo_zori_2016]
 - [Locke 1984][research_locke_1984]
 - [Loechert et al 2018][research_loechert_huber_2018]
-- [Loghis and Xiros 2022][research_loghis_xiros_2022]
 - [Loginova et al 2019][research_loginova_chelebyan_2019]
 - [Loh 1986][research_loh_1986]
 - [Loh and Lusty, Jr. 1974][research_loh_lustyjr_1974]
@@ -16173,13 +14830,11 @@ computable in one line from the lift equation.
 - [Loo and Alben 2025][research_loo_alben_2025]
 - [Lopatin 1961][research_lopatin_1961]
 - [Lopez et al 2021][research_lopez_duffy_2021]
-- [Lopez-Tirado and Jones 1991][research_lopeztirado_jones_1991]
 - [Loranchet et al 2025][research_loranchet_tiako_2025]
 - [Lorenzetti and Pavone 2020][research_lorenzetti_pavone_2020]
 - [Lorenzetti et al 2019][research_lorenzetti_landry_2019]
 - [Lorincz, D. J. 1978][research_lorinczdj_1978]
 - [Lorincz, D. J. and Friend, E. L. 1979][research_lorinczdj_friendel_1979]
-- [los Reyes and Álvarez 2018][research_losreyes_alvarez_2018]
 - [Lottati 1985][research_lottati_1985]
 - [Lou et al 1985][research_lou_willsky_1985]
 - [Lou et al 1985][research_lou_willsky_1985_b]
@@ -16209,7 +14864,6 @@ computable in one line from the lift equation.
 - [Lu et al 2019][research_lu_liu_2019]
 - [Lu et al 2019][research_lu_ma_2019]
 - [Lu et al 2019][research_lu_zhang_2019]
-- [Lu et al 2021][research_lu_xiao_2021]
 - [Lu et al 2022][research_lu_hu_2022]
 - [Lu et al 2023][research_lu_hong_2023]
 - [Lu et al 2024][research_lu_huang_2024]
@@ -16227,7 +14881,6 @@ computable in one line from the lift equation.
 - [Lukianenko 2026][research_lukianenko_2026]
 - [Luna and Valasek 2025][research_luna_valasek_2025]
 - [Luna et al 2026][research_luna_valasek_2026]
-- [Lund et al 2018][research_lund_paris_2018]
 - [Lungu and Lungu 2015][research_lungu_lungu_2015_b]
 - [Lungu and Lungu 2016][research_lungu_lungu_2016]
 - [Lungu et al 2015][research_lungu_lungu_2015]
@@ -16249,8 +14902,6 @@ computable in one line from the lift equation.
 - [Luo et al 2025][research_luo_he_2025]
 - [Luo et al 2025][research_luo_ruan_2025]
 - [Luo et al 2025][research_luo_wei_2025]
-- [Luo et al 2025][research_luo_yin_2025]
-- [Luo et al 2025][research_luo_zhao_2025]
 - [Luo et al 2026][research_luo_xue_2026]
 - [Lusardi 2023][research_lusardi_2023]
 - [Luspay et al 2018][research_luspay_peni_2018]
@@ -16259,7 +14910,6 @@ computable in one line from the lift equation.
 - [Lv et al 2015][research_lv_fang_2015]
 - [Lv et al 2015][research_lv_xie_2015]
 - [Lv et al 2020][research_lv_guan_2020]
-- [Lv et al 2023][research_lv_wang_2023]
 - [Lv et al 2024][research_lv_gao_2024]
 - [Lv et al 2024][research_lv_sun_2024]
 - [Lv et al 2026][research_lv_wu_2026]
@@ -16279,14 +14929,12 @@ computable in one line from the lift equation.
 - [Lückoff and Oberleithner 2019][research_luckoff_oberleithner_2019]
 - [L’Ecuyer et al 2023][research_lecuyer_nakayama_2023]
 - [M R et al 2017][research_mr_ts_2017]
-- [M. Laera et al 2025][research_mlaera_cassano_2025]
 - [Ma 2019][research_ma_2019]
 - [Ma 2025][research_ma_2025]
 - [Ma 2025][research_ma_2025_b]
 - [Ma and Chen 2023][research_ma_chen_2023]
 - [Ma and Chen 2024][research_ma_chen_2024]
 - [Ma and Peng 2021][research_ma_peng_2021]
-- [Ma and Schumacher 2017][research_ma_schumacher_2017]
 - [Ma and Yan 2015][research_ma_yan_2015]
 - [Ma and Yang 2016][research_ma_yang_2016]
 - [Ma et al 2015][research_ma_bao_2015]
@@ -16302,11 +14950,9 @@ computable in one line from the lift equation.
 - [Ma et al 2023][research_ma_hui_2023]
 - [Ma et al 2024][research_ma_chen_2024_b]
 - [Ma et al 2024][research_ma_hall_2024]
-- [Ma et al 2024][research_ma_li_2024]
 - [Ma et al 2025][research_ma_liu_2025]
 - [Ma et al 2025][research_ma_liu_2025_b]
 - [Ma et al 2025][research_ma_wang_2025]
-- [Ma et al 2025][research_ma_zhou_2025]
 - [Ma et al 2025][research_ma_zhu_2025]
 - [Ma et al 2026][research_ma_li_2026]
 - [Mabey 1997][research_mabey_1997]
@@ -16320,7 +14966,6 @@ computable in one line from the lift equation.
 - [Macone 1996][research_macone_1996]
 - [Macone 2000][research_macone_2000]
 - [Madhavanpillai et al 2017][research_madhavanpillai_dhoaya_2017]
-- [Madhusudhanan et al 2015][research_madhusudhanan_corno_2015]
 - [Madhvaraju et al 2026][research_madhvaraju_snider_2026]
 - [Maes et al 2015][research_maes_smyth_2015]
 - [Maestas and Ghosh 2025][research_maestas_ghosh_2025]
@@ -16349,7 +14994,6 @@ computable in one line from the lift equation.
 - [Maju et al 2025][research_maju_thomas_2025]
 - [Makar 1962][research_makar_1962]
 - [Makarov and Pavlenko 2016][research_makarov_pavlenko_2016]
-- [Maksimov et al 2014][research_maksimov_kanazirskyi_2014]
 - [Malan and Brown 1994][research_malan_brown_1994]
 - [Malcolm 1979][research_malcolm_1979]
 - [Malcolm 1991][research_malcolm_1991]
@@ -16374,16 +15018,12 @@ computable in one line from the lift equation.
 - [Malone, Iii et al 1987][research_maloneiii_horowitz_1987]
 - [Malpica and Lusardi 2013][research_malpica_lusardi_2013]
 - [Mamizu et al 2017][research_mamizu_kuraishi_2017]
-- [Mamman et al 2025][research_mamman_weerakkody_2025]
-- [Manchester 1982][research_manchester_1982]
 - [Mancinelli et al 2022][research_mancinelli_smeur_2022]
 - [Mancinelli et al 2023][research_mancinelli_remes_2023]
 - [Mancini and Vos 2019][research_mancini_vos_2019]
 - [Mandal and Gu 2016][research_mandal_gu_2016]
 - [Mandal and Gu 2016][research_mandal_gu_2016_b]
-- [Mandl et al 2025][research_mandl_klein_2025]
 - [Mandralis et al 2023][research_mandralis_sihite_2023]
-- [Mangang et al 1995][research_mangang_ahmed_1995]
 - [Manjith 2026][research_manjith_2026]
 - [Mann et al 1983][research_mann_campbell_1983]
 - [Mann, M. J. and Mercer, C. E. 1985][research_mannmj_mercerce_1985]
@@ -16402,7 +15042,6 @@ computable in one line from the lift equation.
 - [Manzoor et al 2016][research_manzoor_maqsood_2016]
 - [Mao et al 2024][research_mao_zeng_2024]
 - [Marangoz and Kutay 2017][research_marangoz_kutay_2017]
-- [Marar et al 2015][research_marar_ginoya_2015]
 - [Marchetti 1968][research_marchetti_1968]
 - [Marchi and Sweeney 1992][research_marchi_sweeney_1992]
 - [Marchinski 1974][research_marchinski_1974]
@@ -16417,7 +15056,6 @@ computable in one line from the lift equation.
 - [Markov et al 2021][research_markov_cinar_2021]
 - [Marley and Driscoll 2022][research_marley_driscoll_2022]
 - [Marquardt 1976][research_marquardt_1976]
-- [Marques and Alvarez 2023][research_marques_alvarez_2023]
 - [Marquet 2023][research_marquet_2023]
 - [Marsilio et al 2024][research_marsilio_resta_2024]
 - [Martin 1978][research_martin_1978]
@@ -16427,7 +15065,6 @@ computable in one line from the lift equation.
 - [Martin, Jr. 1999][research_martinjr_1999]
 - [Martinez et al 2026][research_martinez_clardy_2026]
 - [Martinez-Gonzalez et al 2024][research_martinezgonzalez_sitaraman_2024]
-- [Martins and Potts 2022][research_martins_potts_2022]
 - [Martos, Borja et al 2011][research_martosborja_kiszelypaul_2011]
 - [Martynov et al 2017][research_martynov_botkin_2017]
 - [Martínez et al 2017][research_martinez_pescini_2017]
@@ -16459,16 +15096,11 @@ computable in one line from the lift equation.
 - [Massegur Sampietro and Da Ronch 2024][research_massegursampietro_daronch_2024]
 - [Massoumnia et al 1986][research_massoumnia_verghese_1986]
 - [Masud et al 2017][research_masud_arif_2017]
-- [Masuyama 1987][research_masuyama_1987]
 - [Matamoros and de Visser 2018][research_matamoros_devisser_2018]
-- [Matausek et al 1996][research_matausek_jeftenic_1996]
 - [Materne and Friedrich 2025][research_materne_friedrich_2025]
 - [Matheny and Panageas 1981][research_matheny_panageas_1981]
 - [Matsuda et al 2026][research_matsuda_matsuno_2026]
-- [Matsui 1995][research_matsui_1995]
 - [Matsuki et al 2018][research_matsuki_nishiyama_2018]
-- [Matsumoto and Tomizuka 1990][research_matsumoto_tomizuka_1990]
-- [Matsumoto and Tomizuka 1992][research_matsumoto_tomizuka_1992]
 - [Matsunaga 2023][research_matsunaga_2023]
 - [Matsuno and Matsuda 2025][research_matsuno_matsuda_2025]
 - [Matsushima 2001][research_matsushima_2001]
@@ -16502,7 +15134,6 @@ computable in one line from the lift equation.
 - [McDonald and Farris 1964][research_mcdonald_farris_1964]
 - [McDonough and Kolmanovsky 2015][research_mcdonough_kolmanovsky_2015]
 - [McDonough and Kolmanovsky 2017][research_mcdonough_kolmanovsky_2017]
-- [McEntire and Whitley 2005][research_mcentire_whitley_2005]
 - [McFadden et al 2023][research_mcfadden_brandt_2023]
 - [McFarland and D'Souza 1994][research_mcfarland_dsouza_1994]
 - [McGilvray et al 2019][research_mcgilvray_neely_2019]
@@ -16536,8 +15167,6 @@ computable in one line from the lift equation.
 - [McNickle et al 1996][research_mcnickle_pawlikowski_1996]
 - [McPike 1976][research_mcpike_1976]
 - [Mcruer, D. et al 1986][research_mcruerd_johnstond_1986]
-- [Meade et al 1994][research_meade_lozicki_1994]
-- [Mears et al 1993][research_mears_dangelo_1993]
 - [Measures of Effectiveness and Measures of Performance 1995][research_measures_of_1995]
 - [Mechouche et al 2026][research_mechouche_fabre_2026]
 - [Meckstroth and Blake 2015][research_meckstroth_blake_2015]
@@ -16565,15 +15194,12 @@ computable in one line from the lift equation.
 - [Mekonnen et al 2021][research_mekonnen_asrat_2021]
 - [Mele et al 2016][research_mele_tognaccini_2016]
 - [Melekhin and Khachumov 2021][research_melekhin_khachumov_2021]
-- [Melin 1991][research_melin_1991]
-- [Melin 1992][research_melin_1992]
 - [Mello and Kotansky 1985][research_mello_kotansky_1985]
 - [Melnyk 2019][research_melnyk_2019]
 - [Melville 2026][research_melville_2026]
 - [Melvyn et al 2024][research_melvyn_couturier_2024]
 - [Memmolo et al 2025][research_memmolo_monaco_2025]
 - [Memon et al 2021][research_memon_white_2021]
-- [Menchini 2010][research_menchini_2010]
 - [Mendenhall and Perkins, Jr. 1996][research_mendenhall_perkinsjr_1996]
 - [Mendenhall and Perkins, Jr. 1999][research_mendenhall_perkinsjr_1999]
 - [Mendez 1988][research_mendez_1988]
@@ -16583,15 +15209,12 @@ computable in one line from the lift equation.
 - [Mendoza Lopetegui et al 2026][research_mendozalopetegui_desiderato_2026]
 - [Mendoza Strilchuk and Arnold 2018][research_mendozastrilchuk_arnold_2018]
 - [Menegozzo and Benini 2020][research_menegozzo_benini_2020]
-- [Meng et al 2018][research_meng_chen_2018]
 - [Meng et al 2018][research_meng_liu_2018]
 - [Meng et al 2018][research_meng_long_2018]
 - [Meng et al 2020][research_meng_feng_2020]
 - [Meng et al 2022][research_meng_sun_2022]
 - [Meng et al 2022][research_meng_yang_2022]
 - [Meng et al 2023][research_meng_yang_2023]
-- [Meng et al 2023][research_meng_zhao_2023]
-- [Meng et al 2025][research_meng_jia_2025]
 - [Mengali 1996][research_mengali_1996]
 - [Menges 1995][research_menges_1995]
 - [Mennebeuf et al 2024][research_mennebeuf_mouchet_2024]
@@ -16621,7 +15244,6 @@ computable in one line from the lift equation.
 - [Merrill, Walter C. 1990][research_merrillwalterc_1990]
 - [Merrill, Walter C. et al 1987][research_merrillwalterc_delaatjohnc_1987]
 - [Merrill, Walter C. et al 1991][research_merrillwalterc_delaatjohnc_1991]
-- [Merritt 1969][research_merritt_1969]
 - [Merryman 1994][research_merryman_1994]
 - [Mersha et al 2026][research_mersha_dai_2026]
 - [Mertaugh 1998][research_mertaugh_1998]
@@ -16642,12 +15264,8 @@ computable in one line from the lift equation.
 - [Mhenni et al 2016][research_mhenni_choley_2016]
 - [Mi et al 2024][research_mi_cheng_2024]
 - [Mi et al 2024][research_mi_yi_2024]
-- [Miao et al 1990][research_miao_luh_1990]
-- [Miao et al 2016][research_miao_wang_2016]
 - [Miao et al 2020][research_miao_wang_2020]
-- [Miao et al 2021][research_miao_yu_2021]
 - [Miao et al 2024][research_miao_yuan_2024]
-- [Miao et al 2025][research_miao_li_2025]
 - [Miao et al 2025][research_miao_li_2025_b]
 - [Mibar and Bajodah 2021][research_mibar_bajodah_2021]
 - [Michael DeVore et al 2022][research_michaeldevore_jaredcooper_2022]
@@ -16707,7 +15325,6 @@ computable in one line from the lift equation.
 - [Miwa 2021][research_miwa_2021]
 - [Miwa and Maruhashi 2016][research_miwa_maruhashi_2016]
 - [Miyagi et al 2015][research_miyagi_ueki_2015]
-- [Miyahara et al 2019][research_miyahara_fujimoto_2019]
 - [Miyazawa 1992][research_miyazawa_1992]
 - [Mizukami, Masahi 2004][research_mizukamimasahi_2004]
 - [Mjahed 2019][research_mjahed_2019]
@@ -16739,7 +15356,6 @@ computable in one line from the lift equation.
 - [Mohammadi et al 2025][research_mohammadi_ebrahimi_2025]
 - [Mohammadi Farhadi et al 2018][research_mohammadifarhadi_kortunov_2018]
 - [Mohan and Gaitonde 2017][research_mohan_gaitonde_2017]
-- [Mohan and Sati 2016][research_mohan_sati_2016]
 - [Mohankumar et al 2020][research_mohankumar_hall_2020]
 - [Mohankumar et al 2021][research_mohankumar_hall_2021]
 - [Mohankumar et al 2022][research_mohankumar_hall_2022]
@@ -16754,14 +15370,10 @@ computable in one line from the lift equation.
 - [Moline and Wendt 2011][research_moline_wendt_2011]
 - [Molloy et al 2026][research_molloy_shekar_2026]
 - [Molloy et al 2026][research_molloy_shekar_2026_b]
-- [Moloney 2000][research_moloney_2000]
-- [Momeni and Mohebbi 2025][research_momeni_mohebbi_2025]
 - [Monahemi et al 1995][research_monahemi_barlow_1995]
 - [Mondal and Padhi 2018][research_mondal_padhi_2018]
-- [Mondal et al 2021][research_mondal_prabhune_2021]
 - [Monico et al 2025][research_monico_millott_2025]
 - [Monstein et al 2019][research_monstein_capone_2019]
-- [Montakhaby Nodeh et al 2024][research_montakhabynodeh_maclellan_2024]
 - [Monteil 2024][research_monteil_2024]
 - [Monteiro et al 2025][research_monteiro_ramesh_2025]
 - [Montel and Thielecke 2015][research_montel_thielecke_2015]
@@ -16777,7 +15389,6 @@ computable in one line from the lift equation.
 - [Moore and Greitzer 1986][research_moore_greitzer_1986]
 - [Moore and McInville 1995][research_moore_mcinville_1995]
 - [Moore et al 1980][research_moore_skow_1980]
-- [Moore et al 2018][research_moore_walters_2018]
 - [Moorhouse 1990][research_moorhouse_1990]
 - [Moose 1972][research_moose_1972]
 - [More and Mohan 2024][research_more_mohan_2024]
@@ -16793,7 +15404,6 @@ computable in one line from the lift equation.
 - [Morelli, Eugene A. 1996][research_morellieugenea_1996]
 - [Morelli, Eugene A. 2000][research_morellieugenea_2000]
 - [Morency et al 1999][research_morency_tezok_1999]
-- [Morey et al 1992][research_morey_wigginton_1992]
 - [Morgado et al 2016][research_morgado_silvestre_2016]
 - [Morgan and Garmann 2026][research_morgan_garmann_2026]
 - [Morgan et al 2017][research_morgan_mclaughlin_2017]
@@ -16809,7 +15419,6 @@ computable in one line from the lift equation.
 - [Moriyama et al 2017][research_moriyama_yonamoto_2017]
 - [Moriyama et al 2019][research_moriyama_yonamoto_2019]
 - [Moroney et al 1979][research_moroney_pruitt_1979]
-- [Morris 1962][research_morris_1962]
 - [Morris 1992][research_morris_1992]
 - [Morris and Kroo 1990][research_morris_kroo_1990]
 - [Morris and Woratschek 1980][research_morris_woratschek_1980]
@@ -16832,11 +15441,9 @@ computable in one line from the lift equation.
 - [Mouch et al 1989][research_mouch_mclaughlin_1989]
 - [Moul and Taylor 1981][research_moul_taylor_1981]
 - [Moulin and Silva 2016][research_moulin_silva_2016]
-- [Moum 2015][research_moum_2015]
 - [Moustafa et al 2024][research_moustafa_talebitooti_2024]
 - [Mouton 2023][research_mouton_2023]
 - [Moyer 1993][research_moyer_1993]
-- [Mozaffari et al 2015][research_mozaffari_vajedi_2015]
 - [Mr. S. Aravindan et al 2017][research_mrsaravindan_kknithiyanantham_2017]
 - [Mu 2021][research_mu_2021]
 - [Mu et al 2026][research_mu_li_2026]
@@ -16845,13 +15452,10 @@ computable in one line from the lift equation.
 - [Muddada and Patnaik 2017][research_muddada_patnaik_2017]
 - [Mueller and Brito 2003][research_mueller_brito_2003]
 - [Mueller et al 2018][research_mueller_belschner_2018]
-- [Muhammad et al 2024][research_muhammad_vali_2024]
-- [Muhammad Taha et al 2025][research_muhammadtaha_profdrimtiazarif_2025]
 - [Muhl and Jr 1989][research_muhl_jr_1989]
 - [Muir 1993][research_muir_1993]
 - [Muir and Bradshaw 1996][research_muir_bradshaw_1996]
 - [Muir et al 2017][research_muir_arredondogaleana_2017]
-- [Mujawar et al 2026][research_mujawar_rafiq_2026]
 - [Mukhachev et al 2021][research_mukhachev_sukhov_2021]
 - [Mukherjee and Sinha 2017][research_mukherjee_sinha_2017]
 - [Mukherjee et al 2021][research_mukherjee_pawar_2021]
@@ -16862,13 +15466,10 @@ computable in one line from the lift equation.
 - [Mulgund and Stengel 1995][research_mulgund_stengel_1995]
 - [Mulholland 2002][research_mulholland_2002]
 - [Muliadi 2016][research_muliadi_2016]
-- [Mull 2016][research_mull_2016]
-- [Mullins et al 2023][research_mullins_esau_2023]
 - [Mullins et al 2025][research_mullins_esau_2025]
 - [Mullins, Jr. et al 1996][research_mullinsjr_tipton_1996]
 - [Mulqueen, J. A. 1991][research_mulqueenja_1991]
 - [Munger et al 1983][research_munger_carlin_1983]
-- [Muniandy and Ong 2020][research_muniandy_ong_2020]
 - [Muniraj and Farhood 2019][research_muniraj_farhood_2019]
 - [Munroe et al 2021][research_munroe_bohrer_2021]
 - [Muppidi et al 2018][research_muppidi_ofarrell_2018]
@@ -16891,21 +15492,15 @@ computable in one line from the lift equation.
 - [Muñoz and García-Fogeda 2024][research_munoz_garciafogeda_2024]
 - [Myatt et al 1998][research_myatt_schumacher_1998]
 - [Myers and Walsh 1991][research_myers_walsh_1991]
-- [Myers et al 1990][research_myers_pahwa_1990]
 - [Myers et al 2015][research_myers_gowen_2015]
 - [Myers, T. T. et al 1982][research_myerstt_johnstonde_1982]
 - [Mylvaganam 2017][research_mylvaganam_2017]
-- [Mylvaganam and Astolfi 2015][research_mylvaganam_astolfi_2015]
 - [Myose et al 1996][research_myose_heron_1996]
 - [Mäder et al 2018][research_mader_nestler_2018]
 - [Müller and Moormann 2023][research_muller_moormann_2023]
 - [Müller et al 2018][research_muller_luckoff_2018]
 - [Müller M.Sc. and Bertsche 2019][research_mullermsc_bertsche_2019]
-- [N Nyaga et al 2016][research_nnyaga_arbyn_2016]
-- [N.S. and Gaonkar 2015][research_ns_gaonkar_2015]
-- [Nachman and Chen 2006][research_nachman_chen_2006]
 - [Nae 2026][research_nae_2026]
-- [Naeini et al 2020][research_naeini_gu_2020]
 - [Nafi and Hasan 2019][research_nafi_hasan_2019]
 - [Naftaly and Raveh 2025][research_naftaly_raveh_2025]
 - [Nagabhushan 1986][research_nagabhushan_1986]
@@ -16915,9 +15510,6 @@ computable in one line from the lift equation.
 - [Nagabhushan and Pasha 1991][research_nagabhushan_pasha_1991]
 - [Nagabhushan and Pasha 1992][research_nagabhushan_pasha_1992]
 - [Nagabhushan and Tan 1996][research_nagabhushan_tan_1996]
-- [Nagai and Kawamura 2019][research_nagai_kawamura_2019]
-- [Nagai et al 1997][research_nagai_hirano_1997]
-- [Nagar and Kakwani 1964][research_nagar_kakwani_1964]
 - [Nagaral et al 2023][research_nagaral_r_2023]
 - [Nagawkar and Leifsson 2022][research_nagawkar_leifsson_2022]
 - [Nageswara Reddy 2020][research_nageswarareddy_2020]
@@ -16934,8 +15526,6 @@ computable in one line from the lift equation.
 - [Nakai et al 2019][research_nakai_hasegawa_2019]
 - [Nakai et al 2019][research_nakai_hatamoto_2019]
 - [Nakamura-Zimmerer et al 2023][research_nakamurazimmerer_stringer_2023]
-- [Nakayama et al 1989][research_nakayama_egusa_1989]
-- [Nakimuli and Greenfield 2025][research_nakimuli_greenfield_2025]
 - [Nakka and Alexander-Ramos 2021][research_nakka_alexanderramos_2021]
 - [Nakod et al 2025][research_nakod_bora_2025]
 - [Nam 2025][research_nam_2025]
@@ -16948,9 +15538,7 @@ computable in one line from the lift equation.
 - [Narayanan et al 2026][research_narayanan_kumar_2026]
 - [Nardi 1970][research_nardi_1970]
 - [Naruse et al 2022][research_naruse_ishii_2022]
-- [Naseem 2022][research_naseem_2022]
 - [Nash, Jr. et al 1972][research_nashjr_dappolito_1972]
-- [Nasiri et al 2024][research_nasiri_sepanloo_2024]
 - [Naskar et al 2015][research_naskar_patra_2015]
 - [Naskar et al 2016][research_naskar_patra_2016]
 - [Nasuhbeyoglu and Akça 2024][research_nasuhbeyoglu_akca_2024]
@@ -16984,7 +15572,6 @@ computable in one line from the lift equation.
 - [Nemec et al 2024][research_nemec_bedonian_2024]
 - [Neuman 1987][research_neuman_1987]
 - [Neuman and Lee 1977][research_neuman_lee_1977]
-- [Neumann and Eckel 2026][research_neumann_eckel_2026]
 - [Neves and Mariani 2024][research_neves_mariani_2024]
 - [Neves et al 2020][research_neves_lawson_2020]
 - [Neves et al 2026][research_neves_araujo_2026]
@@ -17016,7 +15603,6 @@ computable in one line from the lift equation.
 - [Nguyen and Tran 2021][research_nguyen_tran_2021]
 - [Nguyen and Xiong 2021][research_nguyen_xiong_2021]
 - [Nguyen and Xiong 2026][research_nguyen_xiong_2026]
-- [Nguyen et al 2016][research_nguyen_adams_2016]
 - [Nguyen et al 2017][research_nguyen_saussie_2017]
 - [Nguyen et al 2018][research_nguyen_saussie_2018]
 - [Nguyen et al 2019][research_nguyen_cramer_2019]
@@ -17035,7 +15621,6 @@ computable in one line from the lift equation.
 - [Nguyen, L. T. et al 1980][research_nguyenlt_gilbertwp_1980]
 - [Nguyen, L. T. et al 1985][research_nguyenlt_whipplerd_1985]
 - [Nguyen-Tat et al 2026][research_nguyentat_lephan_2026]
-- [Ni and Hu 2016][research_ni_hu_2016]
 - [Ni et al 2021][research_ni_wu_2021]
 - [Ni et al 2025][research_ni_wang_2025]
 - [Nial 1972][research_nial_1972]
@@ -17068,13 +15653,9 @@ computable in one line from the lift equation.
 - [Nineteenth Annual Conference on 1983][research_nineteenth_annual_1983]
 - [Ning and You 2016][research_ning_you_2016]
 - [Ning et al 2023][research_ning_han_2023]
-- [Ning et al 2024][research_ning_qiu_2024]
-- [Ninivaggi and Cutrini 2025][research_ninivaggi_cutrini_2025]
 - [Niranjana, T. et al 1993][research_niranjanat_raodm_1993]
 - [Nishiyama et al 2016][research_nishiyama_suzuki_2016]
-- [Nissen 2009][research_nissen_2009]
 - [Nita et al 2016][research_nita_nolan_2016]
-- [Niu 2023][research_niu_2023]
 - [Niu et al 2024][research_niu_zhao_2024]
 - [Niu et al 2025][research_niu_su_2025]
 - [Niu et al 2026][research_niu_li_2026]
@@ -17083,7 +15664,6 @@ computable in one line from the lift equation.
 - [Niwa et al 1989][research_niwa_suzuki_1989]
 - [Niwitpong 2015][research_niwitpong_2015]
 - [Nix and Lind 2020][research_nix_lind_2020]
-- [Niyigena 2021][research_niyigena_2021]
 - [No and Cochran 1995][research_no_cochran_1995]
 - [Noack 2023][research_noack_2023]
 - [Nocoń et al 2023][research_nocon_grzyb_2023]
@@ -17094,7 +15674,6 @@ computable in one line from the lift equation.
 - [Norlin 1995][research_norlin_1995]
 - [Norouzi et al 2018][research_norouzi_kosari_2018]
 - [Norouzi et al 2019][research_norouzi_kosari_2019]
-- [Norouzi et al 2026][research_norouzi_xu_2026]
 - [Norris and Lan 1991][research_norris_lan_1991]
 - [North American Aviation Inc Los Angeles Ca 1963][research_northamericanaviationinclosangelesca_1963]
 - [Northrop Aircraft Inc Hawthorne Ca 1952][research_northropaircraftinchawthorneca_1952]
@@ -17102,19 +15681,16 @@ computable in one line from the lift equation.
 - [Norton 1990][research_norton_1990]
 - [Norwood et al 2021][research_norwood_schneberger_2021]
 - [Novak 1986][research_novak_1986]
-- [Novi et al 2019][research_novi_liniger_2019]
 - [Novichkov and Burova 2019][research_novichkov_burova_2019]
 - [Novo and Lisman 2025][research_novo_lisman_2025]
 - [Nowack 1970][research_nowack_1970]
 - [Nowacki and Olejniczak 2019][research_nowacki_olejniczak_2019]
-- [Nugroho et al 2022][research_nugroho_granitsas_2022]
 - [Numerical Analysis of the Flow Pattern and Vortex Breakdown over a Pitching Delta wing at Supersonic Speeds 2017][research_numerical_analysis_2017]
 - [Numerical and Experimental Determination of Canard Controlled Missile Aerodynamic Coefficients in Subsonic Regime 2019][research_numerical_and_2019]
 - [Numerical and Experimental Study of Fuel Pre-Injection in the Inlet of a High-Velocity Air-Breathing Engine 2017][research_numerical_and_2017]
 - [Numerical Study of Aerodynamic Performance of Airfoil with Variable Curvature Split Flap 2023][research_numerical_study_2023]
 - [Numerical Study of Fluidic Thrust Vector Control Using Dual Throat Nozzle 2021][research_numerical_study_2021]
 - [Nunes et al 2025][research_nunes_su_2025]
-- [Nurullaev 2025][research_nurullaev_2025]
 - [Nusantika et al 2021][research_nusantika_hu_2021]
 - [Nuss 2024][research_nuss_2024]
 - [Nuttall 1985][research_nuttall_1985]
@@ -17135,7 +15711,6 @@ computable in one line from the lift equation.
 - [Odriozola et al 2026][research_odriozola_marquier_2026]
 - [Oehling and Barry 2019][research_oehling_barry_2019]
 - [Oelker and Hummel 1989][research_oelker_hummel_1989]
-- [Offering you big company facilities with small company maneuverability 1960][research_offering_you_1960]
 - [Oganyan and Loginov 2025][research_oganyan_loginov_2025]
 - [Ogburn et al 1988][research_ogburn_nguyen_1988]
 - [Ogburn, Marilyn E. and Foster, John V. 1993][research_ogburnmarilyne_fosterjohnv_1993]
@@ -17147,26 +15722,19 @@ computable in one line from the lift equation.
 - [Ogunba and Taiwo 2021][research_ogunba_taiwo_2021]
 - [Ogunba et al 2023][research_ogunba_fakunle_2023]
 - [Ogunka et al 2022][research_ogunka_akbarzadeh_2022]
-- [Ogura and Wakamiya 2021][research_ogura_wakamiya_2021]
-- [Ogura and Wakamiya 2023][research_ogura_wakamiya_2023]
 - [Oguz Tasci et al 2022][research_oguztasci_tumse_2022]
 - [Oh 2020][research_oh_2020]
 - [Oh and Kimmel 1990][research_oh_kimmel_1990]
 - [Oh and Tavella 1986][research_oh_tavella_1986]
-- [Oh et al 2015][research_oh_lee_2015]
 - [Oh et al 2020][research_oh_yu_2020]
-- [Ohkubo 1995][research_ohkubo_1995]
 - [Ohme 2009][research_ohme_2009]
 - [Ohno et al 1998][research_ohno_yamaguchi_1998]
 - [Ohno et al 1999][research_ohno_yamaguchi_1999]
-- [Ohtsu et al 1996][research_ohtsu_shoji_1996]
 - [Okai et al 2020][research_okai_taguchi_2020]
 - [Okamoto and Tsuchiya 2016][research_okamoto_tsuchiya_2016]
 - [Okita et al 2020][research_okita_mizokami_2020]
 - [Oktay and Kose 2021][research_oktay_kose_2021]
-- [Okur et al 2015][research_okur_zergeroglu_2015]
 - [Okutake et al 2016][research_okutake_uchida_2016]
-- [Olawale et al 2024][research_olawale_george_2024]
 - [Olejniczak and Nowacki 2018][research_olejniczak_nowacki_2018]
 - [Olejniczak and Nowacki 2020][research_olejniczak_nowacki_2020]
 - [Oliinyk and Zylevich 2026][research_oliinyk_zylevich_2026]
@@ -17178,20 +15746,16 @@ computable in one line from the lift equation.
 - [Oliveira and Wolf 2021][research_oliveira_wolf_2021]
 - [Olsder and Papavassilopoulos 1986][research_olsder_papavassilopoulos_1986]
 - [Olson 2018][research_olson_2018]
-- [Oluyemi and Adebanjo 1979][research_oluyemi_adebanjo_1979]
 - [Olwi 1995][research_olwi_1995]
 - [Om et al 2020][research_om_park_2020]
 - [Omar 2021][research_omar_2021]
 - [Ombrello et al 2015][research_ombrello_peltier_2015]
 - [Omlor and Radunz 1988][research_omlor_radunz_1988]
 - [Onboard computer requirements for navigation of a spinning and maneuvering vehicle 1968][research_onboard_computer_1968]
-- [Ono 2015][research_ono_2015]
 - [Operational Technologies Corp San Antonio Tx 1996][research_operationaltechnologiescorpsanantoniotx_1996]
 - [Oppenheimer et al 2018][research_oppenheimer_sigthorsson_2018]
-- [Optimal gain scheduling controller for a diesel engine 1994][research_optimal_gain_1994]
 - [Optimization Design of Air Traffic Control Safety Risk Assessment Index System 2022][research_optimization_design_2022]
 - [Optimization of Flowable Fill Mix Proportions 1994][research_optimization_of_1994]
-- [Optimizing Cloud Telemetry for Real-Time Performance Monitoring and Insights 2024][research_optimizing_cloud_2024]
 - [Optimum redundancy when components are subject to two kinds of failure 1964][research_optimum_redundancy_1964]
 - [Oran 1999][research_oran_1999]
 - [Orawo 2021][research_orawo_2021]
@@ -17224,14 +15788,11 @@ computable in one line from the lift equation.
 - [Ostroff, Aaron J. et al 1994][research_ostroffaaronj_hofflerkeithd_1994]
 - [Ott et al 1994][research_ott_chan_1994]
 - [Ou and Du 2022][research_ou_du_2022]
-- [Oueini and Nayfeh 1996][research_oueini_nayfeh_1996]
 - [Ouellette 2025][research_ouellette_2025]
-- [Ouyang and Jin 2024][research_ouyang_jin_2024]
 - [Ouyang and Lin 2017][research_ouyang_lin_2017]
 - [Ouyang and Lin 2017][research_ouyang_lin_2017_b]
 - [Ouyang et al 2022][research_ouyang_zhou_2022]
 - [Owashi et al 2017][research_owashi_tanaka_2017]
-- [Owen and Hunter 1988][research_owen_hunter_1988]
 - [Owen and Johnson 1978][research_owen_johnson_1978]
 - [Owens and Perkins 1996][research_owens_perkins_1996]
 - [Owings and Lutz 1964][research_owings_lutz_1964]
@@ -17271,13 +15832,10 @@ computable in one line from the lift equation.
 - [Pal and Negi 2017][research_pal_negi_2017]
 - [Palazzo 2025][research_palazzo_2025]
 - [Palkin and Zenchenko 2025][research_palkin_zenchenko_2025]
-- [Palkovics et al 1996][research_palkovics_michelberger_1996]
-- [Pallavi and Sinha 2026][research_pallavi_sinha_2026]
 - [Palmeira et al 2025][research_palmeira_gomesdasilvajr_2025]
 - [Palomino 2022][research_palomino_2022]
 - [Pamadi 1981][research_pamadi_1981]
 - [Pamadi et al 1994][research_pamadi_rao_1994]
-- [Pan and Chu 2024][research_pan_chu_2024]
 - [Pan and Huang 2018][research_pan_huang_2018]
 - [Pan and Huang 2019][research_pan_huang_2019]
 - [Pan and Huang 2019][research_pan_huang_2019_b]
@@ -17300,7 +15858,6 @@ computable in one line from the lift equation.
 - [Panish and Bacic 2022][research_panish_bacic_2022]
 - [Panteleev et al 2018][research_panteleev_letova_2018]
 - [Panten et al 2022][research_panten_bestmann_2022]
-- [Panyam and Daqaq 2016][research_panyam_daqaq_2016]
 - [Paolo 1977][research_paolo_1977]
 - [Papa and Stoliker 1988][research_papa_stoliker_1988]
 - [Papadales and Basil S. 1979][research_papadales_basils_1979]
@@ -17311,8 +15868,6 @@ computable in one line from the lift equation.
 - [Parameter estimation techniques and 1974][research_parameter_estimation_1974]
 - [Paranjape and Ananthkrishnan 2023][research_paranjape_ananthkrishnan_2023]
 - [Paranjape and Chung 2010][research_paranjape_chung_2010]
-- [Parczewski and Wnęk 2017][research_parczewski_wnek_2017]
-- [Parhi 2004][research_parhi_2004]
 - [Parise 1989][research_parise_1989]
 - [Park 1977][research_park_1977]
 - [Park 2017][research_park_2017]
@@ -17323,29 +15878,22 @@ computable in one line from the lift equation.
 - [Park et al 2016][research_park_lee_2016]
 - [Park et al 2017][research_park_choi_2017]
 - [Park et al 2017][research_park_jo_2017]
-- [Park et al 2019][research_park_chung_2019]
-- [Park et al 2019][research_park_joa_2019]
 - [Park et al 2019][research_park_shin_2019]
 - [Park et al 2021][research_park_park_2021]
-- [Park et al 2021][research_park_park_2021_b]
 - [Park et al 2024][research_park_ramirezserrano_2024]
 - [Park et al 2025][research_park_lee_2025]
 - [Park et al 2025][research_park_listgarten_2025]
-- [Park et al 2025][research_park_park_2025]
 - [Park et al 2025][research_park_ramirezserrano_2025]
 - [Parker 1996][research_parker_1996]
 - [Parker et al 2019][research_parker_white_2019]
 - [Parkinson et al 1992][research_parkinson_kong_1992]
-- [Parniani and Iravani 1995][research_parniani_iravani_1995]
 - [Parrott 1978][research_parrott_1978]
 - [Parry et al 1989][research_parry_golub_1989]
-- [Paruchuri et al 2024][research_paruchuri_graber_2024]
 - [Pascasio et al 2020][research_pascasio_grubb_2020]
 - [Pashaei and Hashemzadeh 2019][research_pashaei_hashemzadeh_2019]
 - [Pashchenko and Akhrameev 2021][research_pashchenko_akhrameev_2021]
 - [Pashkov and Sinitsyn 1995][research_pashkov_sinitsyn_1995]
 - [Pasialakos 2024][research_pasialakos_2024]
-- [Pasman and Rogers 2015][research_pasman_rogers_2015]
 - [Patan and Ustoglu 2025][research_patan_ustoglu_2025]
 - [Patartics et al 2017][research_patartics_luspay_2017]
 - [Patel 1980][research_patel_1980]
@@ -17390,8 +15938,6 @@ computable in one line from the lift equation.
 - [Peng 2021][research_peng_2021]
 - [Peng 2021][research_peng_2021_b]
 - [Peng 2021][research_peng_2021_c]
-- [Peng and Chang 2023][research_peng_chang_2023]
-- [Peng and Tomizuka 1990][research_peng_tomizuka_1990]
 - [Peng et al 2016][research_peng_huo_2016]
 - [Peng et al 2018][research_peng_lin_2018]
 - [Peng et al 2019][research_peng_liu_2019]
@@ -17406,7 +15952,6 @@ computable in one line from the lift equation.
 - [Pengzhuang and Hanwen 2023][research_pengzhuang_hanwen_2023]
 - [Pennington, J. E. and Meintel, A. J., Jr. 1980][research_penningtonje_meintelajjr_1980]
 - [Peracchio 1982][research_peracchio_1982]
-- [Pereira and Nunes 2017][research_pereira_nunes_2017]
 - [Perez-Blanco and Henricks 1998][research_perezblanco_henricks_1998]
 - [Performance evaluation of on-board hydraulic system for flight control actuator requirement based on modelling and simulation 2025][research_performance_evaluation_2025]
 - [Performance, Stability, Dynamics and Control of Airplanes 1998][research_performance_stability_1998]
@@ -17424,7 +15969,6 @@ computable in one line from the lift equation.
 - [Peterson et al 2025][research_peterson_lee_2025]
 - [Peterson et al 2025][research_peterson_vanbreugel_2025]
 - [Petit and Scholey 1973][research_petit_scholey_1973]
-- [Petkar 2025][research_petkar_2025]
 - [Petrie 1982][research_petrie_1982]
 - [Petrovič et al 2021][research_petrovic_janezic_2021]
 - [Petty 1980][research_petty_1980]
@@ -17443,7 +15987,6 @@ computable in one line from the lift equation.
 - [Phillips and West 2018][research_phillips_west_2018]
 - [Phillips et al 1968][research_phillips_fiedler_1968]
 - [Phillips et al 2019][research_phillips_jentzsch_2019]
-- [Phipps 1982][research_phipps_1982]
 - [Phoenix et al 2019][research_phoenix_maxwell_2019]
 - [Phosung et al 2024][research_phosung_areerak_2024]
 - [Pi 1985][research_pi_1985]
@@ -17474,7 +16017,6 @@ computable in one line from the lift equation.
 - [Politansky and Pilkey 1989][research_politansky_pilkey_1989]
 - [Politovich 1996][research_politovich_1996]
 - [Politovich and Sand 1981][research_politovich_sand_1981]
-- [Poll 2018][research_poll_2018]
 - [Pollack and van Kampen 2023][research_pollack_vankampen_2023]
 - [Pollack and Van Kampen 2023][research_pollack_vankampen_2023_b]
 - [Pollack et al 2019][research_pollack_looye_2019]
@@ -17483,13 +16025,11 @@ computable in one line from the lift equation.
 - [Pollak and Lan 1995][research_pollak_lan_1995]
 - [Pollard 2000][research_pollard_2000]
 - [Pollet et al 2025][research_pollet_liscouet_2025]
-- [Pollmann et al 2016][research_pollmann_estocinova_2016]
 - [Pons and Cirak 2023][research_pons_cirak_2023]
 - [Pontryagin and Mishchenko 1988][research_pontryagin_mishchenko_1988]
 - [Ponzio 1991][research_ponzio_1991]
 - [Poojari 2022][research_poojari_2022]
 - [Poolla and Ishihara 2015][research_poolla_ishihara_2015]
-- [Poorhaydari 2019][research_poorhaydari_2019]
 - [Popowski and Dąbrowski 2015][research_popowski_dabrowski_2015]
 - [Portapas and Cooke 2020][research_portapas_cooke_2020]
 - [Portapas et al 2017][research_portapas_yusuf_2017]
@@ -17542,7 +16082,6 @@ computable in one line from the lift equation.
 - [Prichard and Strasser 2024][research_prichard_strasser_2024]
 - [Prilliman et al 1969][research_prilliman_huff_1969]
 - [Prince, William R and Mcaulay, John E 1950][research_princewilliamr_mcaulayjohne_1950]
-- [Principles of Distillation Design and Control 2011][research_principles_of_2011]
 - [Pritchard et al 2016][research_pritchard_wallace_2016]
 - [Prizirembel and Wen 1978][research_prizirembel_wen_1978]
 - [Probst et al 2019][research_probst_knopp_2019]
@@ -17578,11 +16117,8 @@ computable in one line from the lift equation.
 - [Puviyarasi et al 2023][research_puviyarasi_suveka_2023]
 - [Pérez Rus and Le Gal 2024][research_perezrus_legal_2024]
 - [Qamar and Cheok 2023][research_qamar_cheok_2023]
-- [Qassim and Al-Samarraie 2026][research_qassim_alsamarraie_2026]
 - [Qaumi and Hashemi 2023][research_qaumi_hashemi_2023]
-- [Qi 2018][research_qi_2018]
 - [Qi 2023][research_qi_2023]
-- [Qi and Li 2022][research_qi_li_2022]
 - [Qi and Wang 2019][research_qi_wang_2019]
 - [Qi and Zhao 2020][research_qi_zhao_2020]
 - [Qi and Zhongke 2015][research_qi_zhongke_2015]
@@ -17594,7 +16130,6 @@ computable in one line from the lift equation.
 - [Qi et al 2021][research_qi_zong_2021]
 - [Qian et al 2022][research_qian_liang_2022]
 - [Qian et al 2025][research_qian_xinhui_2025]
-- [Qiao et al 2019][research_qiao_zhang_2019]
 - [Qiao et al 2022][research_qiao_liu_2022]
 - [Qiao et al 2023][research_qiao_liu_2023]
 - [Qiao et al 2025][research_qiao_chu_2025]
@@ -17605,7 +16140,6 @@ computable in one line from the lift equation.
 - [Qin et al 2017][research_qin_liu_2017]
 - [Qin et al 2018][research_qin_liu_2018]
 - [Qin et al 2018][research_qin_xu_2018]
-- [Qin et al 2021][research_qin_zhang_2021]
 - [Qin et al 2023][research_qin_liu_2023]
 - [Qin et al 2023][research_qin_lu_2023]
 - [Qing et al 2015][research_qing_sun_2015]
@@ -17617,7 +16151,6 @@ computable in one line from the lift equation.
 - [Qiu et al 2018][research_qiu_fang_2018]
 - [Qiu et al 2019][research_qiu_lin_2019]
 - [Qiu et al 2020][research_qiu_yao_2020]
-- [Qiu et al 2021][research_qiu_liu_2021]
 - [Qiu et al 2023][research_qiu_du_2023]
 - [Qiu et al 2023][research_qiu_zhao_2023]
 - [Qiu et al 2023][research_qiu_zhao_2023_b]
@@ -17631,14 +16164,11 @@ computable in one line from the lift equation.
 - [Qu et al 2025][research_qu_zhao_2025]
 - [Quackenbush et al 2020][research_quackenbush_whitehouse_2020]
 - [Quan and Ma 2016][research_quan_ma_2016]
-- [Quan et al 2025][research_quan_zhou_2025]
 - [Quan et al 2026][research_quan_cao_2026]
 - [Quinlan and Gern 2016][research_quinlan_gern_2016]
 - [Quinn 2022][research_quinn_2022]
-- [Qureshi et al 2022][research_qureshi_liscano_2022]
 - [Raab 2026][research_raab_2026]
 - [Rabenberg and Palarz 1983][research_rabenberg_palarz_1983]
-- [Rabitz 1995][research_rabitz_1995]
 - [Radford, R. C. et al 1980][research_radfordrc_smithr_1980]
 - [Radhakrishnan and Swarup 2020][research_radhakrishnan_swarup_2020]
 - [Raffel et al 2021][research_raffel_dillmann_2021]
@@ -17667,10 +16197,7 @@ computable in one line from the lift equation.
 - [Raj et al 2025][research_raj_rana_2025]
 - [Raj Mohamed et al 2019][research_rajmohamed_guven_2019]
 - [Raj Mohamed et al 2021][research_rajmohamed_yadav_2021]
-- [Rajagopalan et al 1989][research_rajagopalan_sauer_1989]
-- [Rajamani et al 1998][research_rajamani_law_1998]
 - [Rajaram et al 2017][research_rajaram_rafi_2017]
-- [Rajaruthnam and Peach 2026][research_rajaruthnam_peach_2026]
 - [Rajendran 2025][research_rajendran_2025]
 - [Rajendran and Pachidis 2020][research_rajendran_pachidis_2020]
 - [Rajendran and Pachidis 2021][research_rajendran_pachidis_2021]
@@ -17679,9 +16206,7 @@ computable in one line from the lift equation.
 - [Rajkumar et al 2024][research_rajkumar_fabbio_2024]
 - [Rajput et al 2015][research_rajput_zhangweiguo_2015]
 - [Rajput et al 2018][research_rajput_xiaobo_2018]
-- [Ramachandran 2024][research_ramachandran_2024]
 - [Ramachandran and Galloway 1982][research_ramachandran_galloway_1982]
-- [Ramamurti 2001][research_ramamurti_2001]
 - [Ramar et al 2025][research_ramar_vaidhyanathan_2025]
 - [Rambacher and Bons 2023][research_rambacher_bons_2023]
 - [Ramezani and Voos 2026][research_ramezani_voos_2026]
@@ -17692,7 +16217,6 @@ computable in one line from the lift equation.
 - [Ran et al 2016][research_ran_wang_2016]
 - [Randall J Mumaw et al 2019][research_randalljmumaw_loranahaworth_2019]
 - [Rangarao and Arumuru 2016][research_rangarao_arumuru_2016]
-- [Rani et al 2019][research_rani_kumar_2019]
 - [Ranlet 1965][research_ranlet_1965]
 - [Ransom 1983][research_ransom_1983]
 - [Ransquin and Chatelain 2021][research_ransquin_chatelain_2021]
@@ -17714,7 +16238,6 @@ computable in one line from the lift equation.
 - [Rapisarda et al 2026][research_rapisarda_dimare_2026]
 - [Rash et al 1998][research_rash_mclean_1998]
 - [Rashid et al 2022][research_rashid_nawaz_2022]
-- [Rashid et al 2026][research_rashid_dutta_2026]
 - [Rasimarzabadi et al 2023][research_rasimarzabadi_martensson_2023]
 - [Rasmussen and Houpis 1994][research_rasmussen_houpis_1994]
 - [Rasool et al 2025][research_rasool_zhu_2025]
@@ -17740,7 +16263,6 @@ computable in one line from the lift equation.
 - [Raymer 1991][research_raymer_1991]
 - [Raza et al 2024][research_raza_maqsood_2024]
 - [Razmi and Afshinfar 2019][research_razmi_afshinfar_2019]
-- [Razouqi et al 2024][research_razouqi_boushehri_2024]
 - [Reader 1980][research_reader_1980]
 - [Real‐Time Knowledge Based System to Control Major Air‐Combat Simulator 1991][research_realtime_knowledge_1991]
 - [Rebman 1967][research_rebman_1967]
@@ -17748,31 +16270,19 @@ computable in one line from the lift equation.
 - [Reddinger and Gandhi 2016][research_reddinger_gandhi_2016]
 - [Reddy 1981][research_reddy_1981]
 - [Reddy 1989][research_reddy_1989]
-- [Reddy et al 2025][research_reddy_narender_2025]
-- [Reddy Pullikallu 2026][research_reddypullikallu_2026]
 - [Redeker and Voersmann 1988][research_redeker_voersmann_1988]
 - [Rediess and Melton 1994][research_rediess_melton_1994]
 - [Rediniotis et al 1991][research_rediniotis_hoang_1991]
-- [ReDS A dynamic planning, scheduling 1993][research_redsa_dynamic_1993]
-- [REDUNDANCY 2019 Committees 2019][research_redundancy_2019_2019]
-- [Redundancy 2023 Committees 2023][research_redundancy_2023_2023]
-- [Redundancy 2023 Title Page 2023][research_redundancy_2023_2023_b]
-- [Redundancy 2025 Committees 2025][research_redundancy_2025_2025]
-- [Redundancy 2025 Copyright Page 2025][research_redundancy_2025_2025_c]
-- [Redundancy 2025 Cover Page 2025][research_redundancy_2025_2025_d]
-- [Redundancy 2025 TOC 2025][research_redundancy_2025_2025_b]
 - [Redundancy and switching failure 1963][research_redundancy_and_1963]
 - [Redundancy and the detection of first failures 1963][research_redundancy_and_1963_b]
 - [Reed and Hiers 2021][research_reed_hiers_2021]
 - [Reedy and Gorrell 2025][research_reedy_gorrell_2025]
 - [Reeve 2016][research_reeve_2016]
-- [Reeve and Sultan 1994][research_reeve_sultan_1994]
 - [Refinement of aircraft dynamics model and control system according to the flight-tests results 2023][research_refinement_of_2023]
 - [Regenie et al 1992][research_regenie_gatlin_1992]
 - [Regenie, Victoria A. et al 1992][research_regenievictoriaa_earlsmichael_1992]
 - [Regenie, Victoria A. et al 1994][research_regenievictoriaa_earlsmichael_1994]
 - [Regulator with reference model for u nmanned aircraft control when boarding on unmanned vehicle 2022][research_regulator_with_2022]
-- [Reichardt and Weitkamp 1997][research_reichardt_weitkamp_1997]
 - [Reichstein et al 2022][research_reichstein_schopferer_2022]
 - [Reid et al 1994][research_reid_rajagopal_1994]
 - [Reigelsperger et al 1995][research_reigelsperger_hammett_1995]
@@ -17782,8 +16292,6 @@ computable in one line from the lift equation.
 - [Reinmann and Adams 1993][research_reinmann_adams_1993]
 - [Reisenthel 1996][research_reisenthel_1996]
 - [Reist et al 2019][research_reist_zingg_2019]
-- [Reiter 2004][research_reiter_2004]
-- [Reiter and Ganger 2006][research_reiter_ganger_2006]
 - [Reliability growth during flight test 1987][research_reliability_growth_1987]
 - [Remiger et al 2023][research_remiger_schwagerus_2023]
 - [Remiger et al 2024][research_remiger_grois_2024]
@@ -17802,7 +16310,6 @@ computable in one line from the lift equation.
 - [Rennie and Jumper 1996][research_rennie_jumper_1996]
 - [Report no. 264, Differential pressures on a pitot-venturi and pitot-static nozzle over 360° Pitch and Yaw 1927][research_report_no_1927]
 - [Report No. 538, altitude-pressure tables based on the United States standard atmosphere 1935][research_report_no_1935]
-- [Reppa et al 2015][research_reppa_papadopoulos_2015]
 - [Research and Analysis on Development and Flight Test of Military Aircraft Flight Simulator 2022][research_research_and_2022]
 - [Research and Design of Automatic Flight Control System Test System 2022][research_research_and_2022_b]
 - [Research on Aerodynamic Modeling of Elman Neural Network Based on PSO Algorithm 2017][research_research_on_2017]
@@ -17824,7 +16331,6 @@ computable in one line from the lift equation.
 - [Reutter et al 2020][research_reutter_enders_2020]
 - [Review of Fault-tolerant Control for Flight Control System 2024][research_review_of_2024]
 - [Reyer and Ogg 1986][research_reyer_ogg_1986]
-- [Reyes-Villanueva 1990][research_reyesvillanueva_1990]
 - [Rezaei and Khosravi 2022][research_rezaei_khosravi_2022]
 - [Rezaei and Khosravi 2023][research_rezaei_khosravi_2023]
 - [Rezaei et al 2024][research_rezaei_manfredi_2024]
@@ -17835,7 +16341,6 @@ computable in one line from the lift equation.
 - [Riboldi et al 2026][research_riboldi_alessi_2026]
 - [Riccardi et al 2025][research_riccardi_mamino_2025]
 - [Ricciardi and Minwalla 2016][research_ricciardi_minwalla_2016]
-- [Ricco et al 2023][research_ricco_alshawi_2023]
 - [Rice 1996][research_rice_1996]
 - [Rice and Hazlwood 1994][research_rice_hazlwood_1994]
 - [Rice and Locksley 2000][research_rice_locksley_2000]
@@ -17872,14 +16377,11 @@ computable in one line from the lift equation.
 - [Roberts and Wagner 1973][research_roberts_wagner_1973]
 - [Roberts et al 1966][research_roberts_smith_1966]
 - [Robertshaw et al 1989][research_robertshaw_wynnjr_1989]
-- [Robertson and Kelley 1989][research_robertson_kelley_1989]
 - [Robinson 1985][research_robinson_1985]
 - [Robinson and Blanchard 2003][research_robinson_blanchard_2003]
 - [Robinson and Green 2016][research_robinson_green_2016]
 - [Robot Efficiency for British Airways' Flight Data Analysis 1987][research_robot_efficiency_1987]
-- [Rocha et al 2023][research_rocha_antunes_2023]
 - [Rochat 2023][research_rochat_2023]
-- [Rockingham 1922][research_rockingham_1922]
 - [Rockwell 2001][research_rockwell_2001]
 - [Rodden 1989][research_rodden_1989]
 - [Rodden 1989][research_rodden_1989_b]
@@ -17889,7 +16391,6 @@ computable in one line from the lift equation.
 - [Rodin 1990][research_rodin_1990]
 - [Rodin and Massoud Amin 1992][research_rodin_massoudamin_1992]
 - [Rodrigues and Creen 2026][research_rodrigues_creen_2026]
-- [Rodrigues et al 2016][research_rodrigues_desouza_2016]
 - [Rodrigues et al 2017][research_rodrigues_grey_2017]
 - [Rodrigues et al 2024][research_rodrigues_modanloujoubari_2024]
 - [Rodriguez 1984][research_rodriguez_1984]
@@ -17931,18 +16432,15 @@ computable in one line from the lift equation.
 - [Roncolini and Quaranta 2024][research_roncolini_quaranta_2024]
 - [Ronfle-Nadaud 2009][research_ronflenadaud_2009]
 - [Rong and Yang 2024][research_rong_yang_2024]
-- [Rong Hu et al 2016][research_ronghu_feigao_2016]
 - [Ronné et al 2024][research_ronne_dubuis_2024]
 - [Rooney et al 1982][research_rooney_chung_1982]
 - [Roos 1996][research_roos_1996]
 - [Roos 1996][research_roos_1996_b]
 - [Rosa et al 1974][research_rosa_sanneman_1974]
-- [Rosales et al 2024][research_rosales_malanowska_2024]
 - [Rosario-Gabriel and Cortes 2018][research_rosariogabriel_cortes_2018]
 - [Roscoe et al 1975][research_roscoe_eisele_1975]
 - [Rose and Pittman 1989][research_rose_pittman_1989]
 - [Rose and Pittman 1993][research_rose_pittman_1993]
-- [Rose et al 1979][research_rose_motoyama_1979]
 - [Rose et al 1988][research_rose_miller_1988]
 - [Roseberry 2025][research_roseberry_2025]
 - [Rosen and Davis 1990][research_rosen_davis_1990]
@@ -17952,7 +16450,6 @@ computable in one line from the lift equation.
 - [Rosić and Diekmann 2015][research_rosic_diekmann_2015]
 - [Roskam 1965][research_roskam_1965]
 - [Roskam 1973][research_roskam_1973]
-- [Rosmin et al 2013][research_rosmin_watson_2013]
 - [Ross 1979][research_ross_1979]
 - [Ross 1980][research_ross_1980]
 - [Ross 1983][research_ross_1983]
@@ -17968,7 +16465,6 @@ computable in one line from the lift equation.
 - [Rossiter 1997][research_rossiter_1997]
 - [Rossow 1990][research_rossow_1990]
 - [Rostad et al 2003][research_rostad_rash_2003]
-- [Rostamzadeh-Renani et al 2023][research_rostamzadehrenani_rostamzadehrenani_2023]
 - [Rostkowski and Panesi 2022][research_rostkowski_panesi_2022]
 - [Rotondo et al 2015][research_rotondo_ponsart_2015]
 - [Rotorcraft handling qualities design 2011][research_rotorcraft_handling_2011]
@@ -17979,18 +16475,15 @@ computable in one line from the lift equation.
 - [Rowley 2010][research_rowley_2010]
 - [Roy 1993][research_roy_1993]
 - [Roy and Al Amin 2026][research_roy_alamin_2026]
-- [Roy et al 2019][research_roy_basak_2019]
 - [Roy et al 2019][research_roy_rai_2019]
 - [Roy et al 2023][research_roy_biswas_2023]
 - [Roy et al 2026][research_roy_ajeigbe_2026]
 - [Roy et al 2026][research_roy_khekare_2026]
 - [Roza et al 2017][research_roza_vanderploeg_2017]
 - [Rozema et al 2020][research_rozema_kok_2020]
-- [Rozi and Thanopoulos 2018][research_rozi_thanopoulos_2018]
 - [Rožić et al 2025][research_rozic_vrdoljak_2025]
 - [Ruan et al 2022][research_ruan_duan_2022]
 - [Ruan et al 2023][research_ruan_xu_2023]
-- [Rubin and Arogeti 2015][research_rubin_arogeti_2015]
 - [Rubino et al 2021][research_rubino_rubino_2021]
 - [Rubio-Sierra et al 2022][research_rubiosierra_delgado_2022]
 - [Rucci et al 2023][research_rucci_slingerland_2023]
@@ -18002,7 +16495,6 @@ computable in one line from the lift equation.
 - [Ruff 1985][research_ruff_1985]
 - [Ruggles and Kelman 2015][research_ruggles_kelman_2015]
 - [Rugh 1990][research_rugh_1990]
-- [Rugsell and Bellec 1981][research_rugsell_bellec_1981]
 - [Ruiz and Murrieta-Cid 2016][research_ruiz_murrietacid_2016]
 - [Rullan et al 2003][research_rullan_vlachos_2003]
 - [Rullan et al 2004][research_rullan_vlachos_2004]
@@ -18011,28 +16503,21 @@ computable in one line from the lift equation.
 - [Ruseno et al 2026][research_ruseno_safi_2026]
 - [Russell et al 2022][research_russell_werner_2022]
 - [Russo and Sugimura 1996][research_russo_sugimura_1996]
-- [Russo et al 2015][research_russo_strano_2015]
 - [Rustenburg 1972][research_rustenburg_1972]
 - [Ruther et al 2022][research_ruther_strohal_2022]
-- [Ruwanthika and Katsura 2020][research_ruwanthika_katsura_2020]
 - [Ryan and Downing 1994][research_ryan_downing_1994]
 - [Ryan and Downing 1995][research_ryan_downing_1995]
 - [Ryan, Iii and Downing 1992][research_ryaniii_downing_1992]
 - [Ryan, Iii and Downing 1993][research_ryaniii_downing_1993]
 - [Rybus et al 2016][research_rybus_seweryn_2016]
-- [Rychener 1977][research_rychener_1977]
 - [Rydblom and Thornberg 2016][research_rydblom_thornberg_2016]
 - [Ryerson 1988][research_ryerson_1988]
-- [Ryerson and Gow 2000][research_ryerson_gow_2000]
 - [Ryffel et al 2019][research_ryffel_muehlethaler_2019]
 - [Rzepka 1982][research_rzepka_1982]
 - [Rüddenklau and Schitter 2026][research_ruddenklau_schitter_2026]
 - [S N et al 2020][research_sn_kalyan_2020]
-- [S. 2020][research_s_2020]
 - [S. et al 2025][research_s_c_2025]
-- [Sabahi et al 2024][research_sabahi_tabatabaei_2024]
 - [Sabino and Grilo 2018][research_sabino_grilo_2018]
-- [Sabir and Ibrir 2018][research_sabir_ibrir_2018]
 - [Sable 2023][research_sable_2023]
 - [Sabordo and Aboutanios 2015][research_sabordo_aboutanios_2015]
 - [Sachan and Singh 2025][research_sachan_singh_2025]
@@ -18069,21 +16554,15 @@ computable in one line from the lift equation.
 - [Sahu et al 2019][research_sahu_fresconi_2019]
 - [Sahu et al 2020][research_sahu_gruenwald_2020]
 - [Sahu et al 2022][research_sahu_gruenwald_2022]
-- [Sahunalu et al 2026][research_sahunalu_wissler_2026]
 - [Said et al 2015][research_said_mat_2015]
 - [Saied et al 2018][research_saied_ouda_2018]
-- [Saikia and Mahanta 2016][research_saikia_mahanta_2016]
 - [Saikia and Mahanta 2016][research_saikia_mahanta_2016_b]
-- [Saikia and Mahanta 2017][research_saikia_mahanta_2017]
 - [Saisuryateja et al 2022][research_saisuryateja_dwivedi_2022]
-- [Saito 1983][research_saito_1983]
 - [Sajjad et al 2021][research_sajjad_babar_2021]
 - [Sajjadi-Kia et al 2007][research_sajjadikia_farregabernet_2007]
-- [Sakaki et al 2017][research_sakaki_ghassemi_2017]
 - [Sakata and Maruyama 2018][research_sakata_maruyama_2018]
 - [Sakthivel and Venkatesan 2017][research_sakthivel_venkatesan_2017]
 - [Salagame et al 2025][research_salagame_pandya_2025]
-- [Salah Al Yassin 2015][research_salahalyassin_2015]
 - [Salahudden et al 2020][research_salahudden_giri_2020]
 - [Salahudden et al 2021][research_salahudden_dwivedi_2021]
 - [Salahudden et al 2022][research_salahudden_das_2022]
@@ -18099,11 +16578,8 @@ computable in one line from the lift equation.
 - [Salehian et al 2022][research_salehian_khan_2022]
 - [Salehian et al 2024][research_salehian_khan_2024]
 - [Salehian et al 2025][research_salehian_khan_2025]
-- [Salemnia et al 2024][research_salemnia_boldaji_2024]
-- [Sales et al 2020][research_sales_kwok_2020]
 - [Salgueiro et al 2022][research_salgueiro_huynh_2022]
 - [Salgueiro et al 2025][research_salgueiro_hansman_2025]
-- [Salichon et al 1994][research_salichon_guy_1994]
 - [Salikuddin et al 1985][research_salikuddin_brown_1985]
 - [Salikuddin et al 1987][research_salikuddin_brown_1987]
 - [Salord Losantos and Sánchez-Arriaga 2015][research_salordlosantos_sanchezarriaga_2015]
@@ -18138,10 +16614,7 @@ computable in one line from the lift equation.
 - [Sarathy and Murthy 1993][research_sarathy_murthy_1993_b]
 - [Sargent et al 1992][research_sargent_kang_1992]
 - [Sariyildiz et al 2018][research_sariyildiz_mutlu_2018]
-- [Sarkar 1986][research_sarkar_1986]
 - [Sarojini et al 2022][research_sarojini_solano_2022]
-- [Sartipizadeh and Harirchi 2017][research_sartipizadeh_harirchi_2017]
-- [Sarwat 2018][research_sarwat_2018]
 - [Sasaki et al 2023][research_sasaki_tanaka_2023]
 - [Sasamori et al 2022][research_sasamori_koga_2022]
 - [Sasanapuri 2015][research_sasanapuri_2015]
@@ -18151,14 +16624,10 @@ computable in one line from the lift equation.
 - [Sato 2018][research_sato_2018_c]
 - [Sato 2021][research_sato_2021]
 - [Sato et al 2016][research_sato_nishida_2016]
-- [Sato et al 2018][research_sato_kim_2018]
 - [Sato et al 2018][research_sato_takahashi_2018]
 - [Satrianto and Firmanto 2023][research_satrianto_firmanto_2023]
-- [Satzoda and Trivedi 2016][research_satzoda_trivedi_2016]
 - [Saugen and Adler 1991][research_saugen_adler_1991]
 - [Savelev and Neretin 2019][research_savelev_neretin_2019]
-- [Saveleva 2015][research_saveleva_2015]
-- [Sawase 1999][research_sawase_1999]
 - [Sawyer Elliott et al 2019][research_sawyerelliott_peck_2019]
 - [Saxena and Faruque 2016][research_saxena_faruque_2016]
 - [Sayyed et al 2025][research_sayyed_konar_2025]
@@ -18170,7 +16639,6 @@ computable in one line from the lift equation.
 - [Schaeffler et al 1967][research_schaeffler_alscher_1967]
 - [Schafer et al 2015][research_schafer_cooper_2015]
 - [Schaff and Prazenica 2025][research_schaff_prazenica_2025]
-- [Schappler and Ortmaier 2021][research_schappler_ortmaier_2021]
 - [Scheaua et al 2025][research_scheaua_ramazanuly_2025]
 - [Scheffe 1944][research_scheffe_1944]
 - [Scherz and Tucker 1985][research_scherz_tucker_1985]
@@ -18219,21 +16687,16 @@ computable in one line from the lift equation.
 - [Schumacher 1952][research_schumacher_1952]
 - [Schumacher and Khargonekar 1998][research_schumacher_khargonekar_1998]
 - [Schuster 1995][research_schuster_1995]
-- [Schuurman and Weenink 1990][research_schuurman_weenink_1990]
 - [Schwagerus et al 2023][research_schwagerus_remiger_2023]
 - [Schwagerus et al 2023][research_schwagerus_stossel_2023]
 - [Schwagerus et al 2025][research_schwagerus_remiger_2025]
 - [Schwagerus et al 2026][research_schwagerus_stossel_2026]
-- [Schwammberger 2021][research_schwammberger_2021]
 - [Schwanz 1972][research_schwanz_1972]
 - [Schwartz and Wray 1969][research_schwartz_wray_1969]
-- [Schwartz et al 2019][research_schwartz_siebenrock_2019]
-- [Schweers et al 1996][research_schweers_wallentowitz_1996]
 - [Schweiger et al 1996][research_schweiger_weiss_1996]
 - [Schwithal et al 2025][research_schwithal_wallace_2025]
 - [Schäfer et al 2018][research_schafer_garcia_2018]
 - [Schüller and Santucci 1979][research_schuller_santucci_1979]
-- [Sciacca and Ionescu 2025][research_sciacca_ionescu_2025]
 - [Scigliano et al 2023][research_scigliano_desimone_2023]
 - [Scordamaglia et al 2025][research_scordamaglia_mattei_2025]
 - [Scorletti and Ghaoui 1998][research_scorletti_ghaoui_1998]
@@ -18283,17 +16746,14 @@ computable in one line from the lift equation.
 - [Seshadri and Krishnamurthy 2017][research_seshadri_krishnamurthy_2017]
 - [Setiawarman and Sasongko 2026][research_setiawarman_sasongko_2026]
 - [Setoguchi and Kanazaki 2020][research_setoguchi_kanazaki_2020]
-- [Seyedalipour and Gharehpetian 2016][research_seyedalipour_gharehpetian_2016]
 - [Seyedtabaii and Delavari 2018][research_seyedtabaii_delavari_2018]
 - [Sha et al 2017][research_sha_wang_2017]
 - [Shafer, M. F. 1980][research_shafermf_1980]
 - [Shafer, M. F. et al 1983][research_shafermf_smithre_1983]
 - [Shafer, M. F. et al 1984][research_shafermf_smithre_1984]
 - [Shafiei and Shenton 1999][research_shafiei_shenton_1999]
-- [Shah 2026][research_shah_2026]
 - [Shah and Ahmed 2023][research_shah_ahmed_2023]
 - [Shah and Granda 1998][research_shah_granda_1998]
-- [Shah and Hong 2017][research_shah_hong_2017]
 - [Shah and Kosut 1990][research_shah_kosut_1990]
 - [Shah et al 2024][research_shah_tao_2024]
 - [Shahjahan and Ahuja 2026][research_shahjahan_ahuja_2026]
@@ -18316,11 +16776,7 @@ computable in one line from the lift equation.
 - [Shams Taleghani and Ghajar 2024][research_shamstaleghani_ghajar_2024]
 - [Shan-hai et al 2016][research_shanhai_zhong_2016]
 - [Shandor and Walker 1962][research_shandor_walker_1962]
-- [Shang 2019][research_shang_2019]
-- [Shang et al 2019][research_shang_chen_2019]
-- [Shang et al 2019][research_shang_wu_2019]
 - [Shankar and L 2023][research_shankar_l_2023]
-- [Shanmugam et al 2024][research_shanmugam_munusamy_2024]
 - [Shao and Cui 2019][research_shao_cui_2019]
 - [Shao and Hristu-Varsakelis 2004][research_shao_hristuvarsakelis_2004]
 - [Shao and Hristu-Varsakelis 2005][research_shao_hristuvarsakelis_2005]
@@ -18333,13 +16789,9 @@ computable in one line from the lift equation.
 - [Sharf et al 2016][research_sharf_woo_2016]
 - [Sharif-Khodaei et al 2015][research_sharifkhodaei_thiene_2015]
 - [Sharifi et al 2022][research_sharifi_badakaya_2022]
-- [Sharifnia and Tindemans 2024][research_sharifnia_tindemans_2024]
-- [Sharifnia et al 1991][research_sharifnia_caramanis_1991]
 - [Sharjad et al 2022][research_sharjad_bijo_2022]
 - [Sharkey et al 2000][research_sharkey_hennessy_2000]
 - [Sharma and Sakthivel 2025][research_sharma_sakthivel_2025]
-- [Sharma and Singh 2021][research_sharma_singh_2021]
-- [Sharma and Singh 2023][research_sharma_singh_2023]
 - [Sharma et al 2016][research_sharma_naimuddin_2016]
 - [Sharma et al 2025][research_sharma_agrawal_2025]
 - [Sharpe and Hansman 2024][research_sharpe_hansman_2024]
@@ -18375,7 +16827,6 @@ computable in one line from the lift equation.
 - [Shen et al 2022][research_shen_chang_2022]
 - [Shen et al 2022][research_shen_chang_2022_b]
 - [Shen et al 2025][research_shen_li_2025]
-- [Shen et al 2026][research_shen_cao_2026]
 - [Shen et al 2026][research_shen_lee_2026]
 - [Shender et al 2001][research_shender_paskoff_2001]
 - [Sheng 2026][research_sheng_2026]
@@ -18408,16 +16859,13 @@ computable in one line from the lift equation.
 - [Shi et al 2024][research_shi_hui_2024_b]
 - [shi et al 2024][research_shi_ying_2024]
 - [Shi et al 2024][research_shi_zeng_2024]
-- [Shi et al 2025][research_shi_ma_2025]
 - [Shi et al 2026][research_shi_li_2026]
 - [Shiao and Chamis 1993][research_shiao_chamis_1993]
-- [Shibahata et al 1993][research_shibahata_shimada_1993]
 - [Shibanov G.P. and Krasnov R.V. 2026][research_shibanovgp_krasnovrv_2026]
 - [Shibata and Ohmiya 1988][research_shibata_ohmiya_1988]
 - [Shibata et al 1987][research_shibata_nakao_1987]
 - [Shiffler and Adams 1987][research_shiffler_adams_1987]
 - [Shigemi 1993][research_shigemi_1993]
-- [Shigunov 2019][research_shigunov_2019]
 - [Shimada et al 2024][research_shimada_kishimoto_2024]
 - [Shimmin et al 2015][research_shimmin_russell_2015]
 - [Shin et al 2015][research_shin_kim_2015]
@@ -18429,7 +16877,6 @@ computable in one line from the lift equation.
 - [Shinar and Glizer 1999][research_shinar_glizer_1999]
 - [Shinar et al 1989][research_shinar_guelman_1989]
 - [Shinar et al 1989][research_shinar_siegel_1989]
-- [Shirayanagi 1990][research_shirayanagi_1990]
 - [Shirokov and Elizarova 2026][research_shirokov_elizarova_2026]
 - [Shishkina 1987][research_shishkina_1987]
 - [Shivam and Verma 2019][research_shivam_verma_2019]
@@ -18460,8 +16907,6 @@ computable in one line from the lift equation.
 - [Shubert et al 2026][research_shubert_sizoo_2026]
 - [Shue et al 1996][research_shue_sawan_1996]
 - [Shufeldt and Layton 1972][research_shufeldt_layton_1972]
-- [Shui et al 2018][research_shui_duan_2018]
-- [Shukla 2018][research_shukla_2018]
 - [Shukla and Komerath 2018][research_shukla_komerath_2018]
 - [Shukla and Subrahmanyam 1999][research_shukla_subrahmanyam_1999]
 - [Shukla and Woolsey 2018][research_shukla_woolsey_2018]
@@ -18478,7 +16923,6 @@ computable in one line from the lift equation.
 - [Sid 2015][research_sid_2015]
 - [Siddhardha 2019][research_siddhardha_2019]
 - [Siddiqi and Abraham 1988][research_siddiqi_abraham_1988]
-- [Siddiqui and Agelin-Chaab 2021][research_siddiqui_agelinchaab_2021]
 - [Sideris and E. De Gaston 1986][research_sideris_edegaston_1986]
 - [Sideris and Pena 1988][research_sideris_pena_1988]
 - [Sidharth and Dwivedi 2026][research_sidharth_dwivedi_2026]
@@ -18493,7 +16937,6 @@ computable in one line from the lift equation.
 - [Sim and Lee 2015][research_sim_lee_2015]
 - [Sim et al 1994][research_sim_murray_1994]
 - [Simelane et al 2023][research_simelane_magoro_2023]
-- [Simic and Golubović 1990][research_simic_golubovic_1990]
 - [Simkins and Breyer 1989][research_simkins_breyer_1989]
 - [Simmons 2022][research_simmons_2022]
 - [Simmons 2023][research_simmons_2023]
@@ -18506,7 +16949,6 @@ computable in one line from the lift equation.
 - [Simon 1992][research_simon_1992]
 - [Simon and Blake 1999][research_simon_blake_1999]
 - [Simon et al 1993][research_simon_blake_1993]
-- [Simon et al 2010][research_simon_gallardo_2010]
 - [Simon et al 2017][research_simon_harkegard_2017]
 - [Simon et al 2023][research_simon_williams_2023]
 - [Simon et al 2023][research_simon_williams_2023_b]
@@ -18536,7 +16978,6 @@ computable in one line from the lift equation.
 - [Singh and Dhawan 2015][research_singh_dhawan_2015]
 - [Singh and Ghosh 2023][research_singh_ghosh_2023]
 - [Singh and Jategaonkar 1996][research_singh_jategaonkar_1996]
-- [Singh and Maiti 2020][research_singh_maiti_2020]
 - [Singh and Scholz 2018][research_singh_scholz_2018]
 - [Singh and Verma 2022][research_singh_verma_2022]
 - [Singh and Willcox 2016][research_singh_willcox_2016]
@@ -18545,7 +16986,6 @@ computable in one line from the lift equation.
 - [Singh et al 1995][research_singh_yirn_1995]
 - [Singh et al 2016][research_singh_brown_2016]
 - [Singh et al 2017][research_singh_dev_2017]
-- [Singh et al 2022][research_singh_maiti_2022]
 - [Singh et al 2024][research_singh_lambeth_2024]
 - [Singha et al 2024][research_singha_ray_2024]
 - [Sinha et al 2017][research_sinha_suthar_2017]
@@ -18559,9 +16999,6 @@ computable in one line from the lift equation.
 - [Sitaram et al 2023][research_sitaram_suresh_2023]
 - [Sitz et al 1997][research_sitz_nelson_1997]
 - [Sivanagaraju et al 2018][research_sivanagaraju_rathore_2018]
-- [Sivashankar and Ulsoy 1996][research_sivashankar_ulsoy_1996]
-- [Sivashankar and Ulsoy 1998][research_sivashankar_ulsoy_1998]
-- [Skorupski and Uchroński 2015][research_skorupski_uchronski_2015]
 - [Skow et al 1982][research_skow_moore_1982]
 - [Skow et al 1985][research_skow_hamilton_1985]
 - [Skowronski 1988][research_skowronski_1988]
@@ -18570,7 +17007,6 @@ computable in one line from the lift equation.
 - [Skowronski and Stonier 1987][research_skowronski_stonier_1987_b]
 - [Slater 1987][research_slater_1987]
 - [Slater and Hu 1989][research_slater_hu_1989]
-- [Sloat 1975][research_sloat_1975]
 - [Slongo et al 2020][research_slongo_moraes_2020]
 - [Smart 1991][research_smart_1991]
 - [Smith 1966][research_smith_1966]
@@ -18592,7 +17028,6 @@ computable in one line from the lift equation.
 - [Smith et al 1971][research_smith_hammer_1971]
 - [Smith et al 1973][research_smith_lebacqz_1973]
 - [Smith et al 1992][research_smith_garland_1992]
-- [Smith et al 1993][research_smith_slade_1993]
 - [Smith et al 1994][research_smith_hebbar_1994]
 - [Smith et al 2021][research_smith_sloane_2021]
 - [Smith, J. W. and Edwards, J. W. 1980][research_smithjw_edwardsjw_1980]
@@ -18608,7 +17043,6 @@ computable in one line from the lift equation.
 - [Snell, S. A. and Hess, R. A. 1997][research_snellsa_hessra_1997]
 - [Snow 1990][research_snow_1990]
 - [Snyder et al 2015][research_snyder_prazenica_2015]
-- [So 2016][research_so_2016]
 - [Sobel 1982][research_sobel_1982]
 - [Sobel 2015][research_sobel_2015]
 - [Sobel and Groll 1966][research_sobel_groll_1966]
@@ -18629,12 +17063,10 @@ computable in one line from the lift equation.
 - [Soler et al 2015][research_soler_olivares_2015]
 - [Solies 1994][research_solies_1994]
 - [Solies 1995][research_solies_1995]
-- [Solnyshkin 2024][research_solnyshkin_2024]
 - [Solomon and Davison 1986][research_solomon_davison_1986]
 - [Soltani et al 2018][research_soltani_mostoufi_2018]
 - [Soltani et al 2018][research_soltani_mostoufi_2018_b]
 - [Solís et al 2026][research_solis_leweke_2026]
-- [Somasundaram et al 2025][research_somasundaram_mock_2025]
 - [Son and Yee 2018][research_son_yee_2018]
 - [Son and Yoo 2023][research_son_yoo_2023]
 - [Son et al 2015][research_son_pipeleers_2015]
@@ -18648,7 +17080,6 @@ computable in one line from the lift equation.
 - [Song et al 2018][research_song_whidborne_2018]
 - [Song et al 2019][research_song_lee_2019]
 - [Song et al 2021][research_song_yan_2021]
-- [Song et al 2023][research_song_yuan_2023]
 - [Song et al 2023][research_song_zhang_2023]
 - [Song et al 2025][research_song_tang_2025]
 - [Sorrentino et al 2019][research_sorrentino_romano_2019]
@@ -18669,7 +17100,6 @@ computable in one line from the lift equation.
 - [Sparks and Sparks 1997][research_sparks_sparks_1997]
 - [Sparks et al 1994][research_sparks_buffington_1994]
 - [Spearman, M. Leroy and Driver, Cornelius 1959][research_spearmanmleroy_drivercornelius_1959]
-- [Specht-Riemenschneider and Schneider 2020][research_spechtriemenschneider_schneider_2020]
 - [Spencer 1947][research_spencer_1947]
 - [Spencer and He 2025][research_spencer_he_2025]
 - [Spencer et al 2016][research_spencer_gorrell_2016]
@@ -18682,7 +17112,6 @@ computable in one line from the lift equation.
 - [Spiridon and Fuiorea 2025][research_spiridon_fuiorea_2025]
 - [Spitzer et al 1972][research_spitzer_rumsey_1972]
 - [Spravka and Jorris 2015][research_spravka_jorris_2015]
-- [Sravani and Venkata 2023][research_sravani_venkata_2023]
 - [Sreeram and Agathoklis 1991][research_sreeram_agathoklis_1991]
 - [Sri Siddhartha et al 2023][research_srisiddhartha_saha_2023]
 - [Srinathkumar 2015][research_srinathkumar_2015]
@@ -18709,7 +17138,6 @@ computable in one line from the lift equation.
 - [Stalford, Harold 1990][research_stalfordharold_1990]
 - [Stallard 1990][research_stallard_1990]
 - [Stam and de Visser 2025][research_stam_devisser_2025]
-- [Standridge and Tsai 1992][research_standridge_tsai_1992]
 - [Stanford 2020][research_stanford_2020]
 - [Stange 1959][research_stange_1959]
 - [Stankov and Bedard 1994][research_stankov_bedard_1994]
@@ -18719,7 +17147,6 @@ computable in one line from the lift equation.
 - [Staples and Nagati 1990][research_staples_nagati_1990]
 - [Starikovskiy 2017][research_starikovskiy_2017]
 - [Starikovskiy et al 2017][research_starikovskiy_williams_2017]
-- [State Regulation of Interstate Busses. Proposed Federal Control 1931][research_state_regulation_1931]
 - [Static Aeroelastic Considerations 1996][research_static_aeroelastic_1996]
 - [Stauder et al 2026][research_stauder_yigit_2026]
 - [Staufenbiel and Schlichting 1988][research_staufenbiel_schlichting_1988]
@@ -18729,7 +17156,6 @@ computable in one line from the lift equation.
 - [Steiger and Wilson 1999][research_steiger_wilson_1999]
 - [Steinberg and King 2018][research_steinberg_king_2018]
 - [Steinberg and Page 1998][research_steinberg_page_1998]
-- [Steinmetz 1962][research_steinmetz_1962]
 - [Steinweg and Hornung 2020][research_steinweg_hornung_2020]
 - [Stengel 1980][research_stengel_1980]
 - [Stengel 1992][research_stengel_1992]
@@ -18748,7 +17174,6 @@ computable in one line from the lift equation.
 - [Sterpu et al 2025][research_sterpu_mariuta_2025]
 - [Stevens 1990][research_stevens_1990]
 - [Stevenson 1991][research_stevenson_1991]
-- [Stevinson and Lomuscio 2024][research_stevinson_lomuscio_2024]
 - [Stewart and Shuck 1990][research_stewart_shuck_1990]
 - [Stewart et al 1975][research_stewart_dominick_1975]
 - [Stewart et al 2025][research_stewart_dooher_2025]
@@ -18769,20 +17194,17 @@ computable in one line from the lift equation.
 - [Straub, Jr. 1973][research_straubjr_1973]
 - [Streeter 2020][research_streeter_2020]
 - [Streiff 1953][research_streiff_1953]
-- [Streit and Finnie 1980][research_streit_finnie_1980]
 - [Striz et al 1991][research_striz_eastep_1991]
 - [Strome 1969][research_strome_1969]
 - [Strykowski et al 1996][research_strykowski_krothapalli_1996]
 - [Stuart 1960][research_stuart_1960]
 - [Stubbs and Mehta 2026][research_stubbs_mehta_2026]
-- [Study of the effect of structural parameters of vehicle transportation devices by partial loading on road train maneuverability 2023][research_study_of_2023]
 - [Study on Deep Learning of Aircraft Safety Enhancement and Autonomous Flight Assistance 2023][research_study_on_2023_b]
 - [Study on the Aerodynamic Performance of Novel Bypass Shock-Induced Thrust Vector Nozzle 2023][research_study_on_2023]
 - [Study on the Flight Characteristics of An Aircraft after Icing 2022][research_study_on_2022]
 - [Stutz 1952][research_stutz_1952]
 - [Stutz and Price 1964][research_stutz_price_1964]
 - [Su 2024][research_su_2024]
-- [Su and Xiao 2021][research_su_xiao_2021]
 - [Su et al 2018][research_su_li_2018]
 - [Su et al 2022][research_su_guo_2022]
 - [Su et al 2022][research_su_hu_2022]
@@ -18792,22 +17214,16 @@ computable in one line from the lift equation.
 - [Suarez et al 1992][research_suarez_kramer_1992]
 - [Suarez et al 1992][research_suarez_malcolm_1992]
 - [Suarez et al 1993][research_suarez_kramer_1993]
-- [Suarez et al 2022][research_suarez_toharias_2022]
 - [Suarez, Carlos J. et al 1993][research_suarezcarlosj_smithbrookec_1993]
 - [Subramanian and Mahadevan 2022][research_subramanian_mahadevan_2022]
 - [Subramanian and Subramanian 1989][research_subramanian_subramanian_1989]
 - [Subramanyam 1997][research_subramanyam_1997]
-- [Suda 1994][research_suda_1994]
 - [Sudha and Subbulekshmi 2020][research_sudha_subbulekshmi_2020]
 - [Sudha et al 2018][research_sudha_deodhare_2018]
 - [Sudhi et al 2023][research_sudhi_radespiel_2023]
 - [Suga and Yamazaki 2015][research_suga_yamazaki_2015]
 - [Sugawara et al 2021][research_sugawara_tanabe_2021]
 - [Sugiura et al 2021][research_sugiura_kai_2021]
-- [Suh 2012][research_suh_2012]
-- [Suikat et al 1987][research_suikat_donaldson_1987]
-- [Sujatha and Panda 2022][research_sujatha_panda_2022]
-- [Sule et al 2018][research_sule_khan_2018]
 - [Sullivan 1967][research_sullivan_1967]
 - [Sullivan and Finberg 1989][research_sullivan_finberg_1989]
 - [Suminsby 2002][research_suminsby_2002]
@@ -18826,7 +17242,6 @@ computable in one line from the lift equation.
 - [Sun et al 2017][research_sun_chen_2017]
 - [Sun et al 2017][research_sun_tsiotras_2017]
 - [Sun et al 2018][research_sun_cai_2018]
-- [Sun et al 2018][research_sun_chen_2018]
 - [Sun et al 2018][research_sun_li_2018]
 - [Sun et al 2018][research_sun_luo_2018]
 - [Sun et al 2018][research_sun_schilder_2018]
@@ -18839,7 +17254,6 @@ computable in one line from the lift equation.
 - [Sun et al 2021][research_sun_cao_2021]
 - [Sun et al 2021][research_sun_chen_2021]
 - [Sun et al 2021][research_sun_ma_2021_b]
-- [Sun et al 2021][research_sun_yao_2021]
 - [Sun et al 2022][research_sun_hu_2022]
 - [Sun et al 2022][research_sun_wu_2022]
 - [Sun et al 2023][research_sun_liu_2023]
@@ -18865,9 +17279,7 @@ computable in one line from the lift equation.
 - [Suseno and Sasongko 2016][research_suseno_sasongko_2016]
 - [Suslov and Skripkin 2026][research_suslov_skripkin_2026]
 - [Sutcliffe and Rennie 2016][research_sutcliffe_rennie_2016]
-- [Suter et al 1992][research_suter_tighe_1992]
 - [Sutin 2000][research_sutin_2000]
-- [Suzuki 1989][research_suzuki_1989]
 - [Suzuki et al 2018][research_suzuki_yoshida_2018]
 - [Suñol Jiménez et al 2015][research_sunoljimenez_yang_2015]
 - [Svendsen 1994][research_svendsen_1994]
@@ -18891,13 +17303,11 @@ computable in one line from the lift equation.
 - [System Analysis of Control Methodology in Flight Control of Modern Spacecraft 2021][research_system_analysis_of_2021]
 - [System Development Corp Huntsville Al 1970][research_systemdevelopmentcorphuntsvilleal_1970]
 - [Szelmanowski et al 2017][research_szelmanowski_pazur_2017]
-- [Szeto and Grochowalski 1989][research_szeto_grochowalski_1989]
 - [Szklarski and Głębocki 2025][research_szklarski_glebocki_2025]
 - [Szots and Harmati 2019][research_szots_harmati_2019]
 - [Szrama 2026][research_szrama_2026]
 - [Szrama 2026][research_szrama_2026_b]
 - [Szymanski et al 2025][research_szymanski_ghazi_2025]
-- [Sáez and Crespo 1997][research_saez_crespo_1997]
 - [Sánchez et al 2024][research_sanchez_cajas_2024]
 - [Sánchez Muñoz et al 2024][research_sanchezmunoz_lagarzacortes_2024]
 - [Sóbester 2021][research_sobester_2021]
@@ -18908,8 +17318,6 @@ computable in one line from the lift equation.
 - [Tabrizi and Keshock 1988][research_tabrizi_keshock_1988]
 - [Tachinina and Kovalenko 2026][research_tachinina_kovalenko_2026]
 - [Tactical Air Command Langley Afb Va 1963][research_tacticalaircommandlangleyafbva_1963]
-- [Taft 1973][research_taft_1973]
-- [Taghavi and Perera 2022][research_taghavi_perera_2022]
 - [Taghieh et al 2019][research_taghieh_hashemzadeh_2019]
 - [Tahani et al 2017][research_tahani_masdari_2017]
 - [Taheri 2020][research_taheri_2020]
@@ -18921,10 +17329,6 @@ computable in one line from the lift equation.
 - [Tai et al 2021][research_tai_wang_2021]
 - [Tai et al 2023][research_tai_wang_2023]
 - [Tai et al 2026][research_tai_wang_2026]
-- [Tailless artificial sperm go for gold 2016][research_tailless_artificial_2016]
-- [Tailless comet could provide clues to solar system’s formation 2016][research_tailless_comet_2016]
-- [Tailless Whipscorpions: 2018][research_tailless_whipscorpions_2018]
-- [tailless, adj 2023][research_tailless_adj_2023]
 - [Tait et al 2022][research_tait_roome_2022]
 - [Tajfar and Lamont 1997][research_tajfar_lamont_1997]
 - [Takagi et al 2015][research_takagi_nishimura_2015]
@@ -18943,14 +17347,10 @@ computable in one line from the lift equation.
 - [Takahashi et al 2026][research_takahashi_hirotani_2026]
 - [Takarics and Vanek 2019][research_takarics_vanek_2019]
 - [Takarics and Vanek 2021][research_takarics_vanek_2021]
-- [Takata et al 2020][research_takata_koyanagi_2020]
-- [Takeda and Masuda 2024][research_takeda_masuda_2024]
 - [Takita and Kashitani 2019][research_takita_kashitani_2019]
 - [Takita et al 2019][research_takita_minohoshi_2019]
 - [Tal and Karaman 2021][research_tal_karaman_2021]
 - [Tal and Karaman 2022][research_tal_karaman_2022]
-- [Talaq and Al-Basri 1999][research_talaq_albasri_1999]
-- [Talbot 1971][research_talbot_1971]
 - [Taligoski et al 2015][research_taligoski_uzun_2015]
 - [Talmage, Donald B and Reeder, John P 1949][research_talmagedonaldb_reederjohnp_1949]
 - [Talty and Caughlin 1988][research_talty_caughlin_1988]
@@ -18962,7 +17362,6 @@ computable in one line from the lift equation.
 - [Tamrat 2004][research_tamrat_2004]
 - [Tamrat and Antani 1988][research_tamrat_antani_1988]
 - [Tamsyn Edwards et al 2021][research_tamsynedwards_cynthiaawolter_2021]
-- [Tan 2026][research_tan_2026]
 - [Tan et al 2017][research_tan_hu_2017]
 - [Tan et al 2018][research_tan_wang_2018]
 - [Tan et al 2019][research_tan_lei_2019]
@@ -18973,8 +17372,6 @@ computable in one line from the lift equation.
 - [Tan et al 2025][research_tan_sun_2025]
 - [Tanabe 2022][research_tanabe_2022]
 - [Tanaka 1961][research_tanaka_1961]
-- [Tanaka 2015][research_tanaka_2015]
-- [Tanaka et al 1996][research_tanaka_kosaki_1996]
 - [Tanaka et al 2022][research_tanaka_ahmad_2022]
 - [Tang 2020][research_tang_2020]
 - [Tang 2025][research_tang_2025]
@@ -19014,7 +17411,6 @@ computable in one line from the lift equation.
 - [Tasci et al 2022][research_tasci_tumse_2022]
 - [Tasic et al 2018][research_tasic_kolundzija_2018]
 - [Tassanbi et al 2025][research_tassanbi_sun_2025]
-- [Tate 1992][research_tate_1992]
 - [Tate and Gillard 1975][research_tate_gillard_1975]
 - [Tatum and Giles 1988][research_tatum_giles_1988]
 - [Taufik et al 2024][research_taufik_zaidaan_2024]
@@ -19028,11 +17424,9 @@ computable in one line from the lift equation.
 - [Tchamna and Lee 2018][research_tchamna_lee_2018]
 - [Tcherak et al 2026][research_tcherak_kbab_2026]
 - [Tedder and Walker 2022][research_tedder_walker_2022]
-- [Tedesco and Iii 1999][research_tedesco_iii_1999]
 - [Teel 1999][research_teel_1999]
 - [Teel 1999][research_teel_1999_b]
 - [Teimourian et al 2024][research_teimourian_rohacs_2024]
-- [Tej Paruchuri et al 2024][research_tejparuchuri_graber_2024]
 - [Tejaswini et al 2025][research_tejaswini_kumar_2025]
 - [Tekawy et al 1990][research_tekawy_safonov_1990]
 - [Tekinalp and Ariyibi 2015][research_tekinalp_ariyibi_2015]
@@ -19047,11 +17441,9 @@ computable in one line from the lift equation.
 - [Teng et al 2026][research_teng_naouri_2026]
 - [Terade et al 2025][research_terade_shriyan_2025]
 - [Terekhov 2022][research_terekhov_2022]
-- [Termous et al 2018][research_termous_shraim_2018]
 - [Terrell and Zein-Sabatto 2017][research_terrell_zeinsabatto_2017]
 - [Tescaroli and Belan 2021][research_tescaroli_belan_2021]
 - [Testing new aircraft - Is there an R&amp;M challenge? 1988][research_testing_new_1988]
-- [Tey and Rahizar 2019][research_tey_rahizar_2019]
 - [Thakur et al 2019][research_thakur_mukhopadhyay_2019]
 - [Thakur et al 2024][research_thakur_barai_2024]
 - [Thakur et al 2026][research_thakur_anand_2026]
@@ -19071,8 +17463,6 @@ computable in one line from the lift equation.
 - [Theisen et al 1973][research_theisen_scruggs_1973]
 - [Thermal distortion of spiral-grooved gas-lubricated thrust bearings 1972][research_thermal_distortion_1972]
 - [Theunissen 1995][research_theunissen_1995]
-- [Thiel et al 2016][research_thiel_schwarzmann_2016]
-- [Thies and Ringsberg 2021][research_thies_ringsberg_2021]
 - [Third Boeing 717-200 joins flight test program 1999][research_third_boeing_1999]
 - [Thomas 1991][research_thomas_1991]
 - [Thomas and Dowell 2025][research_thomas_dowell_2025]
@@ -19090,16 +17480,12 @@ computable in one line from the lift equation.
 - [THRUST VECTORING OF A SUPERSONIC RECTANGULAR NOZZLE BY USING DIFFERENT PLATE EXTENSIONS 2020][research_thrust_vectoring_2020]
 - [Thrust-induced effects on pitching-up delta wing flow field 1994][research_thrust_induced_effects_1994]
 - [Thukral and Innocenti 1998][research_thukral_innocenti_1998]
-- [Tiainen and Viitala 2021][research_tiainen_viitala_2021]
-- [Tian et al 2015][research_tian_wang_2015]
 - [Tian et al 2016][research_tian_wu_2016]
 - [Tian et al 2017][research_tian_he_2017]
-- [Tian et al 2018][research_tian_li_2018]
 - [Tian et al 2018][research_tian_li_2018_b]
 - [Tian et al 2020][research_tian_sun_2020]
 - [Tian et al 2022][research_tian_yang_2022]
 - [Tian et al 2023][research_tian_danino_2023]
-- [Tian et al 2026][research_tian_shi_2026]
 - [Tich 1991][research_tich_1991]
 - [Tich et al 1987][research_tich_shaw_1987]
 - [Tieleman et al 1994][research_tieleman_surry_1994]
@@ -19118,7 +17504,6 @@ computable in one line from the lift equation.
 - [Tischler and Barlow 1981][research_tischler_barlow_1981]
 - [Tischler and Barlow 1982][research_tischler_barlow_1982]
 - [Tischler, Mark B. et al 1991][research_tischlermarkb_fletcherjayw_1991]
-- [Tiwari and Singh 2023][research_tiwari_singh_2023]
 - [Tiwari et al 2024][research_tiwari_pekris_2024]
 - [Tobak and Schiff 1974][research_tobak_schiff_1974]
 - [Toffol and Ricci 2023][research_toffol_ricci_2023]
@@ -19137,16 +17522,13 @@ computable in one line from the lift equation.
 - [Tong et al 2017][research_tong_thompson_2017]
 - [Tong et al 2022][research_tong_shi_2022]
 - [Tong et al 2023][research_tong_zhou_2023]
-- [Tong et al 2026][research_tong_weng_2026]
 - [Topbaş et al 2024][research_topbas_karaca_2024]
-- [Topini et al 2021][research_topini_pagliai_2021]
 - [Torno et al 2023][research_torno_armstrong_2023]
 - [Torralba et al 2009][research_torralba_puyou_2009]
 - [Torrance et al 1957][research_torrance_rush_1957]
 - [Torres and Barott 2015][research_torres_barott_2015]
 - [Torres et al 2022][research_torres_xu_2022]
 - [Toubar et al 2017][research_toubar_halawa_2017]
-- [Touch-screen surface treatment control system 1998][research_touch_screen_surface_1998]
 - [Tourajizadeh and Zare 2016][research_tourajizadeh_zare_2016]
 - [Tournes and Johnson 1999][research_tournes_johnson_1999]
 - [Tournes et al 1997][research_tournes_shtessel_1997]
@@ -19164,12 +17546,10 @@ computable in one line from the lift equation.
 - [Traven and Whitley 1995][research_traven_whitley_1995]
 - [Traxel and Bandyopadhyay 2020][research_traxel_bandyopadhyay_2020]
 - [Trentin et al 2019][research_trentin_dasilva_2019]
-- [Trexler et al 2019][research_trexler_cowgill_2019]
 - [Tritschler and Dotson 2022][research_tritschler_dotson_2022]
 - [Tritschler et al 2025][research_tritschler_juhasz_2025]
 - [Trollip and Engelbrecht 2016][research_trollip_engelbrecht_2016]
 - [Tromp 1999][research_tromp_1999]
-- [Troncoso et al 2015][research_troncoso_battaiotto_2015]
 - [Trosen et al 1994][research_trosen_pachter_1994]
 - [Truong et al 2016][research_truong_rakotomamonjy_2016]
 - [Trussa et al 2021][research_trussa_whitfield_2021]
@@ -19183,8 +17563,6 @@ computable in one line from the lift equation.
 - [Tsao and Ioannou 1993][research_tsao_ioannou_1993]
 - [Tseng, J. B. and Lan, C. Edward 1989][research_tsengjb_lancedward_1989]
 - [Tsiakas et al 2021][research_tsiakas_roge_2021]
-- [Tso 1995][research_tso_1995]
-- [Tsogas and McAVOY 1985][research_tsogas_mcavoy_1985]
 - [Tsoubanos 1979][research_tsoubanos_1979]
 - [Tsubakino and Saito 2020][research_tsubakino_saito_2020]
 - [Tsurusaki et al 1987][research_tsurusaki_imaichi_1987]
@@ -19201,7 +17579,6 @@ computable in one line from the lift equation.
 - [Tu et al 2019][research_tu_mao_2019]
 - [Tu et al 2019][research_tu_marzanek_2019]
 - [Tu et al 2020][research_tu_wang_2020]
-- [Tu et al 2024][research_tu_lin_2024]
 - [Tu et al 2026][research_tu_lan_2026]
 - [Tucker and Iii 1993][research_tucker_iii_1993]
 - [Tucker et al 2016][research_tucker_reed_2016]
@@ -19232,7 +17609,6 @@ computable in one line from the lift equation.
 - [Ugwueze et al 2023][research_ugwueze_statheros_2023]
 - [Ukai et al 2026][research_ukai_hotta_2026]
 - [Ul Islam et al 2020][research_ulislam_nguyen_2020]
-- [Ullah et al 2025][research_ullah_hongfei_2025]
 - [Umar et al 2024][research_umar_rilwan_2024]
 - [UML-based combat effectiveness simulation system modeling within MDE 2018][research_uml_based_combat_2018]
 - [Umm-e-Aymon et al 2016][research_ummeaymon_shah_2016]
@@ -19241,7 +17617,6 @@ computable in one line from the lift equation.
 - [Unal 2021][research_unal_2021]
 - [Unal 2021][research_unal_2021_b]
 - [Understanding Aircraft Structures, 3rd ed 1999][research_understanding_aircraft_1999]
-- [Uneda 1854][research_uneda_1854]
 - [Unruh 1988][research_unruh_1988]
 - [Unstable Aircraft Identification 2006][research_unstable_aircraft_2006]
 - [Unstable Aircraft Identification 2015][research_unstable_aircraft_2015]
@@ -19250,12 +17625,9 @@ computable in one line from the lift equation.
 - [Urnes and Yeager 1991][research_urnes_yeager_1991]
 - [Ursu et al 2018][research_ursu_ionguta_2018]
 - [Using Tip Injection to Stability Enhancement of a Transonic Centrifugal Impeller with Inlet Distortion 2022][research_using_tip_2022]
-- [Ustaoğlu et al 2025][research_ustaoglu_turhan_2025]
-- [Utama et al 2020][research_utama_sutiyo_2020]
 - [Uybarreta et al 2024][research_uybarreta_kabaliuk_2024]
 - [Uybarreta et al 2024][research_uybarreta_kabaliuk_2024_b]
 - [Uybarreta et al 2025][research_uybarreta_grant_2025]
-- [Vaani et al 2019][research_vaani_pal_2019]
 - [Vaca-Rios et al 2024][research_vacarios_oliveira_2024]
 - [Vafamand and Shasadeghi 2016][research_vafamand_shasadeghi_2016]
 - [Vagianos and Rooney 1964][research_vagianos_rooney_1964]
@@ -19274,7 +17646,6 @@ computable in one line from the lift equation.
 - [Valavanis et al 2021][research_valavanis_tzes_2021]
 - [Valavanis et al 2026][research_valavanis_vitzilaios_2026]
 - [Valencia et al 2026][research_valencia_acevedonisperuza_2026]
-- [Valluri 2021][research_valluri_2021]
 - [Van Baelen et al 2020][research_vanbaelen_ellerbroek_2020]
 - [Van Baelen et al 2021][research_vanbaelen_vanpaassen_2021]
 - [van Dam and Holmes 1988][research_vandam_holmes_1988]
@@ -19308,7 +17679,6 @@ computable in one line from the lift equation.
 - [Vashishtha and Khurana 2021][research_vashishtha_khurana_2021]
 - [Vashishtha and Khurana 2021][research_vashishtha_khurana_2021_b]
 - [Vasile 2017][research_vasile_2017]
-- [Vatankhah 2021][research_vatankhah_2021]
 - [Vaughan and Wood 1995][research_vaughan_wood_1995]
 - [Vaughn and Lindsay 1988][research_vaughn_lindsay_1988]
 - [Vaz et al 2019][research_vaz_elliott_2019]
@@ -19370,15 +17740,12 @@ computable in one line from the lift equation.
 - [Vizzini 1985][research_vizzini_1985]
 - [Vlachos et al 1999][research_vlachos_schaeffler_1999]
 - [Vlahostergios et al 2018][research_vlahostergios_komnos_2018]
-- [Vlasea et al 2015][research_vlasea_pilliar_2015]
-- [Vo et al 2017][research_vo_cao_2017]
 - [Vohra and Kumar 2025][research_vohra_kumar_2025]
 - [Voigt et al 2019][research_voigt_fettig_2019]
 - [Voissel et al 2025][research_voissel_kudeti_2025]
 - [Vollset 1993][research_vollset_1993]
 - [Volochiy et al 2015][research_volochiy_ozirkovskyi_2015]
 - [Volz 1972][research_volz_1972]
-- [von Ellenrieder 2018][research_vonellenrieder_2018]
 - [Von Flotow 1989][research_vonflotow_1989]
 - [Voracek and Clarke 1991][research_voracek_clarke_1991]
 - [Voracek and Clarke 1994][research_voracek_clarke_1994]
@@ -19387,9 +17754,7 @@ computable in one line from the lift equation.
 - [Vos et al 1991][research_vos_baker_1991]
 - [Voth et al 2024][research_voth_lubbe_2024]
 - [Voting software for fault-tolerant aircraft flight control systems 1993][research_voting_software_1993]
-- [Voβ and Schmid 1991][research_vo_schmid_1991]
 - [Vukobratović and Stojić 1985][research_vukobratovic_stojic_1985]
-- [Vyapari and Viju Nair. 2022][research_vyapari_vijunair_2022]
 - [W and N 2019][research_w_n_2019]
 - [W Bailey Oswald 1932][research_wbaileyoswald_1932]
 - [W. Bridges et al 2020][research_wbridges_zroberts_2020]
@@ -19401,7 +17766,6 @@ computable in one line from the lift equation.
 - [Wada 1927][research_wada_1927]
 - [Wada and Tamayama 2019][research_wada_tamayama_2019]
 - [Wade et al 2026][research_wade_tardif_2026]
-- [Wafi and Indriawati 2022][research_wafi_indriawati_2022]
 - [Wagenknecht et al 1982][research_wagenknecht_hoff_1982]
 - [Waghela et al 2019][research_waghela_yoder_2019]
 - [Wagner and Hromcik 2017][research_wagner_hromcik_2017]
@@ -19434,19 +17798,15 @@ computable in one line from the lift equation.
 - [Wang 2023][research_wang_2023]
 - [Wang 2025][research_wang_2025]
 - [Wang and Cao 2019][research_wang_cao_2019]
-- [Wang and Chen 2018][research_wang_chen_2018]
 - [Wang and Chen 2024][research_wang_chen_2024]
 - [Wang and Feng 2026][research_wang_feng_2026_b]
 - [Wang and Han 2025][research_wang_han_2025]
 - [Wang and Hu 2025][research_wang_hu_2025]
-- [Wang and Kong 2023][research_wang_kong_2023]
 - [Wang and Lei 2017][research_wang_lei_2017]
 - [Wang and Liang 2024][research_wang_liang_2024]
 - [Wang and Liu 2016][research_wang_liu_2016]
 - [Wang and Liu 2025][research_wang_liu_2025_b]
 - [Wang and Lu 2017][research_wang_lu_2017]
-- [Wang and Luo 2019][research_wang_luo_2019]
-- [Wang and Luo 2020][research_wang_luo_2020]
 - [Wang and Meng 2024][research_wang_meng_2024]
 - [Wang and Meng 2024][research_wang_meng_2024_b]
 - [Wang and Mesbahi 2021][research_wang_mesbahi_2021]
@@ -19470,14 +17830,12 @@ computable in one line from the lift equation.
 - [Wang et al 2015][research_wang_li_2015]
 - [Wang et al 2015][research_wang_qian_2015]
 - [Wang et al 2015][research_wang_shi_2015]
-- [Wang et al 2015][research_wang_xu_2015]
 - [Wang et al 2016][research_wang_gao_2016]
 - [Wang et al 2016][research_wang_huang_2016]
 - [Wang et al 2016][research_wang_ji_2016]
 - [Wang et al 2016][research_wang_li_2016]
 - [Wang et al 2016][research_wang_liu_2016_b]
 - [Wang et al 2016][research_wang_wynn_2016]
-- [Wang et al 2016][research_wang_yang_2016]
 - [Wang et al 2016][research_wang_yin_2016]
 - [Wang et al 2016][research_wang_yu_2016_b]
 - [Wang et al 2016][research_wang_zhupanska_2016]
@@ -19499,7 +17857,6 @@ computable in one line from the lift equation.
 - [Wang et al 2018][research_wang_wynn_2018]
 - [Wang et al 2018][research_wang_xiang_2018]
 - [Wang et al 2019][research_wang_hudson_2019]
-- [Wang et al 2019][research_wang_li_2019]
 - [Wang et al 2019][research_wang_qiu_2019]
 - [Wang et al 2019][research_wang_qiu_2019_b]
 - [Wang et al 2019][research_wang_vankampen_2019]
@@ -19508,7 +17865,6 @@ computable in one line from the lift equation.
 - [Wang et al 2019][research_wang_zhao_2019_b]
 - [Wang et al 2019][research_wang_zuo_2019]
 - [Wang et al 2020][research_wang_ding_2020]
-- [Wang et al 2020][research_wang_gao_2020]
 - [Wang et al 2020][research_wang_hu_2020]
 - [Wang et al 2020][research_wang_huang_2020]
 - [Wang et al 2020][research_wang_li_2020]
@@ -19537,8 +17893,6 @@ computable in one line from the lift equation.
 - [Wang et al 2022][research_wang_tai_2022]
 - [Wang et al 2022][research_wang_wang_2022]
 - [Wang et al 2022][research_wang_xu_2022]
-- [Wang et al 2022][research_wang_you_2022]
-- [Wang et al 2022][research_wang_zhang_2022]
 - [Wang et al 2022][research_wang_zhao_2022]
 - [Wang et al 2022][research_wang_zhao_2022_b]
 - [Wang et al 2022][research_wang_zheng_2022]
@@ -19562,7 +17916,6 @@ computable in one line from the lift equation.
 - [Wang et al 2024][research_wang_gao_2024]
 - [Wang et al 2024][research_wang_guo_2024]
 - [Wang et al 2024][research_wang_li_2024]
-- [Wang et al 2024][research_wang_qu_2024]
 - [Wang et al 2024][research_wang_shi_2024]
 - [Wang et al 2024][research_wang_song_2024]
 - [Wang et al 2024][research_wang_sun_2024]
@@ -19596,19 +17949,14 @@ computable in one line from the lift equation.
 - [Wang et al 2025][research_wang_ru_2025_c]
 - [Wang et al 2025][research_wang_su_2025]
 - [Wang et al 2025][research_wang_wang_2025]
-- [Wang et al 2025][research_wang_wang_2025_b]
 - [Wang et al 2025][research_wang_yang_2025]
-- [Wang et al 2025][research_wang_yang_2025_b]
-- [Wang et al 2025][research_wang_ye_2025]
 - [Wang et al 2025][research_wang_yu_2025]
 - [Wang et al 2025][research_wang_zhang_2025]
 - [Wang et al 2025][research_wang_zhang_2025_c]
 - [Wang et al 2025][research_wang_zhang_2025_d]
 - [Wang et al 2025][research_wang_zhao_2025]
-- [Wang et al 2026][research_wang_feng_2026]
 - [Wang et al 2026][research_wang_hu_2026]
 - [Wang et al 2026][research_wang_li_2026]
-- [Wang et al 2026][research_wang_liang_2026]
 - [Wang et al 2026][research_wang_qu_2026]
 - [Wang et al 2026][research_wang_song_2026]
 - [Wang et al 2026][research_wang_sun_2026]
@@ -19629,7 +17977,6 @@ computable in one line from the lift equation.
 - [Ward and Neeley 1959][research_ward_neeley_1959]
 - [Ward and Stout 1986][research_ward_stout_1986]
 - [Ward et al 1976][research_ward_bennett_1976]
-- [Ward et al 2022][research_ward_toni_2022]
 - [Ward et al 2024][research_ward_vu_2024]
 - [Wardana et al 2021][research_wardana_pranoto_2021]
 - [Wardlaw 1974][research_wardlaw_1974]
@@ -19641,13 +17988,11 @@ computable in one line from the lift equation.
 - [Warsop and Crowther 2018][research_warsop_crowther_2018]
 - [Warsop et al 2019][research_warsop_crowther_2019]
 - [Wartmann 2015][research_wartmann_2015]
-- [Washburn and Steig 1933][research_washburn_steig_1933]
 - [Washington Univ Seattle Dept Of Statistics 2007][research_washingtonunivseattledeptofstatistics_2007]
 - [Wasicko, R. J. 1972][research_wasickorj_1972]
 - [Wasim and Li 2026][research_wasim_li_2026]
 - [Wasserbauer, J. F. et al 1975][research_wasserbauerjf_shawrj_1975]
 - [Watanabe et al 2017][research_watanabe_nakamura_2017]
-- [Watanabe et al 2026][research_watanabe_kurihara_2026]
 - [Watler and Mulley 1978][research_watler_mulley_1978]
 - [Watts 1976][research_watts_1976]
 - [Watts 2016][research_watts_2016]
@@ -19672,7 +18017,6 @@ computable in one line from the lift equation.
 - [Wei et al 2016][research_wei_liu_2016]
 - [Wei et al 2017][research_wei_chen_2017]
 - [Wei et al 2017][research_wei_jiao_2017]
-- [Wei et al 2017][research_wei_xu_2017]
 - [Wei et al 2019][research_wei_trochsler_2019]
 - [Wei et al 2019][research_wei_zhan_2019]
 - [Wei et al 2020][research_wei_qu_2020]
@@ -19714,7 +18058,6 @@ computable in one line from the lift equation.
 - [Wells, Edward A. and Urnes, James M., Sr. 1995][research_wellsedwarda_urnesjamesmsr_1995]
 - [Wells, Scott R. 2002][research_wellsscottr_2002]
 - [Welte 1986][research_welte_1986]
-- [Wen 2018][research_wen_2018]
 - [Wen et al 2021][research_wen_zhang_2021]
 - [Wen et al 2022][research_wen_zhou_2022]
 - [Wen et al 2023][research_wen_liang_2023]
@@ -19742,7 +18085,6 @@ computable in one line from the lift equation.
 - [West and Liever 2022][research_west_liever_2022]
 - [West and Phillips 2020][research_west_phillips_2020]
 - [West et al 2017][research_west_reuter_2017]
-- [Westad and Marini 2022][research_westad_marini_2022]
 - [Westbrook 1975][research_westbrook_1975]
 - [Westermeier and Hansen 1985][research_westermeier_hansen_1985]
 - [Weyl 1944][research_weyl_1944]
@@ -19756,11 +18098,9 @@ computable in one line from the lift equation.
 - [Whillock et al 1994][research_whillock_corwin_1994]
 - [Whitaker and Gowadia 1994][research_whitaker_gowadia_1994]
 - [Whitaker et al 1991][research_whitaker_gowadia_1991]
-- [Whitaker et al 1992][research_whitaker_peters_1992]
 - [Whitcher 2024][research_whitcher_2024]
 - [Whitcher 2024][research_whitcher_2024_b]
 - [White 1991][research_white_1991]
-- [White 2004][research_white_2004]
 - [White and Olmstead 1997][research_white_olmstead_1997]
 - [White et al 1976][research_white_jr_1976]
 - [White et al 2017][research_white_mongru_2017]
@@ -19824,7 +18164,6 @@ computable in one line from the lift equation.
 - [Wilson et al 2024][research_wilson_champneys_2024]
 - [Wilson et al 2025][research_wilson_arafat_2025]
 - [Wilson, David J. et al 1994][research_wilsondavidj_citurskevind_1994]
-- [Wing 1969][research_wing_1969]
 - [Wing and Asbury 1991][research_wing_asbury_1991]
 - [Wingrove 1973][research_wingrove_1973]
 - [Wingrove and Bach 1994][research_wingrove_bach_1994]
@@ -19878,7 +18217,6 @@ computable in one line from the lift equation.
 - [Wu 2023][research_wu_2023]
 - [Wu 2024][research_wu_2024]
 - [Wu 2025][research_wu_2025]
-- [Wu and Agarwal 2023][research_wu_agarwal_2023]
 - [Wu and Chow 1985][research_wu_chow_1985]
 - [Wu and Dong Kim 2019][research_wu_dongkim_2019]
 - [Wu and Kim 2019][research_wu_kim_2019]
@@ -19894,9 +18232,7 @@ computable in one line from the lift equation.
 - [Wu and Wang 2018][research_wu_wang_2018_b]
 - [Wu and Wang 2021][research_wu_wang_2021]
 - [Wu and Wu 1993][research_wu_wu_1993]
-- [Wu and Yao 2020][research_wu_yao_2020]
 - [Wu and Yu 2018][research_wu_yu_2018]
-- [Wu and Zheng 2020][research_wu_zheng_2020]
 - [Wu and Zhu 2024][research_wu_zhu_2024]
 - [Wu et al 2005][research_wu_gopalarathnam_2005]
 - [Wu et al 2015][research_wu_duan_2015]
@@ -19906,8 +18242,6 @@ computable in one line from the lift equation.
 - [Wu et al 2017][research_wu_chen_2017]
 - [Wu et al 2017][research_wu_chen_2017_b]
 - [Wu et al 2017][research_wu_yang_2017]
-- [Wu et al 2018][research_wu_hours_2018]
-- [Wu et al 2018][research_wu_hu_2018]
 - [Wu et al 2018][research_wu_wang_2018]
 - [Wu et al 2019][research_wu_li_2019]
 - [Wu et al 2019][research_wu_lu_2019]
@@ -19915,7 +18249,6 @@ computable in one line from the lift equation.
 - [Wu et al 2020][research_wu_kim_2020]
 - [Wu et al 2020][research_wu_li_2020]
 - [Wu et al 2020][research_wu_lin_2020]
-- [Wu et al 2020][research_wu_lu_2020]
 - [Wu et al 2020][research_wu_zhang_2020]
 - [Wu et al 2021][research_wu_gao_2021]
 - [Wu et al 2021][research_wu_kim_2021_b]
@@ -19925,7 +18258,6 @@ computable in one line from the lift equation.
 - [Wu et al 2021][research_wu_zhao_2021]
 - [Wu et al 2022][research_wu_chen_2022]
 - [Wu et al 2023][research_wu_li_2023]
-- [Wu et al 2023][research_wu_olson_2023]
 - [Wu et al 2024][research_wu_du_2024]
 - [Wu et al 2024][research_wu_fan_2024]
 - [Wu et al 2024][research_wu_li_2024]
@@ -19934,8 +18266,6 @@ computable in one line from the lift equation.
 - [Wu et al 2024][research_wu_ye_2024]
 - [Wu et al 2025][research_wu_jiang_2025]
 - [Wu et al 2025][research_wu_shi_2025]
-- [Wu et al 2025][research_wu_wang_2025]
-- [Wu et al 2025][research_wu_zhu_2025]
 - [Wu et al 2026][research_wu_du_2026]
 - [Wu et al 2026][research_wu_li_2026]
 - [Wu et al 2026][research_wu_lian_2026]
@@ -19943,15 +18273,12 @@ computable in one line from the lift equation.
 - [Wuwer et al 2025][research_wuwer_kunzel_2025]
 - [Wyatt 2003][research_wyatt_2003]
 - [X-31 Tailless Testing 1994][research_x_31_tailless_1994]
-- [Xhoxhi et al 2023][research_xhoxhi_li_2023]
 - [Xi and Cai 2024][research_xi_cai_2024]
-- [Xi and Qun 1994][research_xi_qun_1994]
 - [Xi and Zhao 2017][research_xi_zhao_2017]
 - [Xi et al 2018][research_xi_yongtao_2018]
 - [Xi et al 2023][research_xi_cai_2023]
 - [Xi et al 2023][research_xi_lyu_2023]
 - [Xi et al 2024][research_xi_kou_2024]
-- [Xia and Liu 2025][research_xia_liu_2025]
 - [Xia and Zhang 2021][research_xia_zhang_2021]
 - [Xia et al 2019][research_xia_jia_2019]
 - [Xia et al 2022][research_xia_jia_2022]
@@ -19962,9 +18289,7 @@ computable in one line from the lift equation.
 - [Xiang et al 2018][research_xiang_arbaiy_2018]
 - [Xiang et al 2023][research_xiang_yang_2023]
 - [Xiao and Liang-Wei 1985][research_xiao_liangwei_1985]
-- [Xiao and Wang 2016][research_xiao_wang_2016]
 - [Xiao et al 2015][research_xiao_lu_2015]
-- [Xiao et al 2017][research_xiao_yang_2017]
 - [Xiao et al 2024][research_xiao_tan_2024]
 - [Xiao et al 2025][research_xiao_fan_2025]
 - [Xiao et al 2026][research_xiao_huang_2026]
@@ -19985,7 +18310,6 @@ computable in one line from the lift equation.
 - [Xie et al 2023][research_xie_zhu_2023]
 - [Xie et al 2024][research_xie_zhao_2024]
 - [Xie et al 2025][research_xie_tang_2025]
-- [Xie et al 2025][research_xie_xie_2025]
 - [Xie et al 2026][research_xie_cai_2026]
 - [Xieyuan 1985][research_xieyuan_1985]
 - [Xili et al 2008][research_xili_yong_2008]
@@ -20001,7 +18325,6 @@ computable in one line from the lift equation.
 - [Xiong et al 2021][research_xiong_bartels_2021]
 - [Xiong et al 2022][research_xiong_nguyen_2022]
 - [Xiong et al 2023][research_xiong_nguyen_2023]
-- [Xiu et al 2020][research_xiu_geng_2020]
 - [Xu 2017][research_xu_2017]
 - [Xu 2024][research_xu_2024]
 - [Xu and Carrillo 2015][research_xu_carrillo_2015]
@@ -20011,7 +18334,6 @@ computable in one line from the lift equation.
 - [Xu and Shen 2022][research_xu_shen_2022]
 - [Xu and Wang 2016][research_xu_wang_2016]
 - [Xu and Wen 2020][research_xu_wen_2020]
-- [Xu and Wu 2022][research_xu_wu_2022]
 - [Xu and Yu 2025][research_xu_yu_2025]
 - [Xu and Zha 2019][research_xu_zha_2019]
 - [Xu and Zha 2020][research_xu_zha_2020]
@@ -20027,7 +18349,6 @@ computable in one line from the lift equation.
 - [Xu et al 2015][research_xu_wang_2015]
 - [Xu et al 2016][research_xu_jiang_2016]
 - [Xu et al 2017][research_xu_jiang_2017]
-- [Xu et al 2017][research_xu_wang_2017]
 - [Xu et al 2017][research_xu_yang_2017]
 - [Xu et al 2018][research_xu_feng_2018]
 - [Xu et al 2018][research_xu_liu_2018]
@@ -20038,27 +18359,15 @@ computable in one line from the lift equation.
 - [Xu et al 2020][research_xu_zhang_2020]
 - [Xu et al 2021][research_xu_chen_2021]
 - [Xu et al 2021][research_xu_hu_2021]
-- [Xu et al 2021][research_xu_yang_2021]
-- [Xu et al 2022][research_xu_meng_2022]
 - [Xu et al 2022][research_xu_shi_2022]
 - [Xu et al 2022][research_xu_wang_2022]
 - [Xu et al 2022][research_xu_wang_2022_b]
 - [Xu et al 2022][research_xu_zhang_2022]
-- [Xu et al 2023][research_xu_lu_2023]
-- [Xu et al 2023][research_xu_su_2023]
-- [Xu et al 2023][research_xu_wan_2023]
 - [Xu et al 2023][research_xu_wu_2023]
-- [Xu et al 2023][research_xu_zhou_2023]
 - [Xu et al 2024][research_xu_hu_2024]
 - [Xu et al 2024][research_xu_tian_2024]
-- [Xu et al 2024][research_xu_wan_2024]
 - [Xu et al 2025][research_xu_gu_2025]
-- [Xu et al 2025][research_xu_liang_2025]
 - [Xu et al 2025][research_xu_ma_2025]
-- [Xu et al 2025][research_xu_ma_2025_b]
-- [Xu et al 2025][research_xu_xu_2025]
-- [Xu et al 2026][research_xu_bensow_2026]
-- [Xu et al 2026][research_xu_gu_2026]
 - [Xu et al 2026][research_xu_huang_2026]
 - [Xu et al 2026][research_xu_liu_2026]
 - [Xu et al 2026][research_xu_men_2026]
@@ -20067,7 +18376,6 @@ computable in one line from the lift equation.
 - [Xue 2015][research_xue_2015]
 - [Xue et al 2016][research_xue_yao_2016]
 - [Xue et al 2021][research_xue_yunsong_2021]
-- [Xue et al 2022][research_xue_chen_2022]
 - [Xue et al 2024][research_xue_jin_2024]
 - [Xue et al 2024][research_xue_wang_2024]
 - [Xue et al 2026][research_xue_zhao_2026]
@@ -20078,13 +18386,10 @@ computable in one line from the lift equation.
 - [Yagil et al 2018][research_yagil_raveh_2018]
 - [Yahagi and Kajiwara 2021][research_yahagi_kajiwara_2021]
 - [Yahagi and Kajiwara 2023][research_yahagi_kajiwara_2023]
-- [Yahagi and Suzuki 2023][research_yahagi_suzuki_2023]
 - [Yahi et al 2024][research_yahi_matute_2024]
 - [Yahsi et al 2023][research_yahsi_yilmaz_2023]
 - [Yahyaoui 2016][research_yahyaoui_2016]
 - [Yalcin 2017][research_yalcin_2017]
-- [Yamaguchi et al 1992][research_yamaguchi_tada_1992]
-- [Yamamoto 1995][research_yamamoto_1995]
 - [Yamasaki et al 2018][research_yamasaki_bando_2018]
 - [Yamato et al 1988][research_yamato_okada_1988]
 - [Yamato et al 1991][research_yamato_okada_1991]
@@ -20106,18 +18411,13 @@ computable in one line from the lift equation.
 - [Yan et al 2025][research_yan_tang_2025]
 - [Yanagihara et al 1999][research_yanagihara_shigemi_1999]
 - [Yanagimoto and Rinoie 2019][research_yanagimoto_rinoie_2019]
-- [Yanarates and Zhou 2021][research_yanarates_zhou_2021]
-- [Yanarates et al 2021][research_yanarates_wang_2021]
-- [Yang 2015][research_yang_2015]
 - [Yang 2017][research_yang_2017]
-- [Yang 2023][research_yang_2023]
 - [Yang 2024][research_yang_2024]
 - [Yang and Chang 2024][research_yang_chang_2024]
 - [Yang and Chen 2022][research_yang_chen_2022]
 - [Yang and Chen 2023][research_yang_chen_2023]
 - [Yang and Gao 2020][research_yang_gao_2020]
 - [Yang and Huang 2018][research_yang_huang_2018]
-- [Yang and Huashan 2015][research_yang_huashan_2015]
 - [Yang and Ke 2022][research_yang_ke_2022]
 - [Yang and Morales 2021][research_yang_morales_2021]
 - [Yang and Yang 2024][research_yang_yang_2024_b]
@@ -20135,7 +18435,6 @@ computable in one line from the lift equation.
 - [Yang et al 2016][research_yang_xia_2016]
 - [Yang et al 2017][research_yang_an_2017]
 - [Yang et al 2017][research_yang_li_2017]
-- [Yang et al 2017][research_yang_ng_2017]
 - [Yang et al 2017][research_yang_wang_2017]
 - [Yang et al 2017][research_yang_zhang_2017]
 - [Yang et al 2017][research_yang_zhou_2017]
@@ -20189,13 +18488,10 @@ computable in one line from the lift equation.
 - [Yang Zhang and Shaoping Wang 2018][research_yangzhang_shaopingwang_2018]
 - [Yaniktepe et al 2016][research_yaniktepe_ozalp_2016]
 - [Yaniktepe et al 2025][research_yaniktepe_sekeroglu_2025]
-- [Yanis and Schmitt 1990][research_yanis_schmitt_1990]
 - [Yankai et al 2016][research_yankai_jiang_2016]
 - [Yao 2019][research_yao_2019]
 - [Yao and Wu 2019][research_yao_wu_2019]
 - [Yao et al 2018][research_yao_zhou_2018]
-- [Yao et al 2020][research_yao_liu_2020]
-- [Yao et al 2021][research_yao_tian_2021]
 - [Yao et al 2026][research_yao_li_2026]
 - [Yao et al 2026][research_yao_ma_2026]
 - [Yarandi 1994][research_yarandi_1994]
@@ -20203,7 +18499,6 @@ computable in one line from the lift equation.
 - [Yasue 2020][research_yasue_2020]
 - [Yasue et al 1986][research_yasue_takekoshi_1986]
 - [Yasue et al 1987][research_yasue_kanno_1987]
-- [Yasui et al 1996][research_yasui_tozu_1996]
 - [Yavin 1985][research_yavin_1985]
 - [Yavin 1986][research_yavin_1986]
 - [Yavin 1986][research_yavin_1986_b]
@@ -20247,11 +18542,9 @@ computable in one line from the lift equation.
 - [Yiming et al 2019][research_yiming_mei_2019]
 - [Yin 2022][research_yin_2022]
 - [Yin 2023][research_yin_2023]
-- [Yin 2024][research_yin_2024]
 - [Yin 2025][research_yin_2025]
 - [Yin and Damaren 2026][research_yin_damaren_2026]
 - [Yin and Wang 2017][research_yin_wang_2017]
-- [Yin et al 2015][research_yin_wang_2015]
 - [Yin et al 2018][research_yin_bozhko_2018]
 - [Yin et al 2019][research_yin_chu_2019]
 - [Yin et al 2019][research_yin_wang_2019]
@@ -20263,12 +18556,10 @@ computable in one line from the lift equation.
 - [Yin et al 2026][research_yin_yang_2026]
 - [Yip et al 1992][research_yip_ross_1992]
 - [Yiu et al 2021][research_yiu_ng_2021]
-- [Yokoi et al 2025][research_yokoi_kawabe_2025]
 - [Yokota et al 2021][research_yokota_fujimoto_2021]
 - [Yokoyama 2016][research_yokoyama_2016]
 - [Yokoyama 2018][research_yokoyama_2018]
 - [Yokoyama and Fujiwara 2021][research_yokoyama_fujiwara_2021]
-- [Yokoyama et al 2021][research_yokoyama_petrea_2021]
 - [Yomchinda 2015][research_yomchinda_2015]
 - [Yong 1987][research_yong_1987]
 - [Yong et al 2014][research_yong_ye_2014]
@@ -20279,9 +18570,7 @@ computable in one line from the lift equation.
 - [Yoo et al 2021][research_yoo_jang_2021]
 - [Yoo et al 2021][research_yoo_park_2021]
 - [Yoo et al 2023][research_yoo_jeong_2023]
-- [Yoon and Park 2022][research_yoon_park_2022]
 - [Yoon et al 2025][research_yoon_lee_2025]
-- [Yoshida 1993][research_yoshida_1993]
 - [Yoshioka 1999][research_yoshioka_1999]
 - [Yoshioka et al 2026][research_yoshioka_morita_2026]
 - [Yost et al 2019][research_yost_choi_2019]
@@ -20314,21 +18603,17 @@ computable in one line from the lift equation.
 - [Yu et al 2023][research_yu_li_2023_c]
 - [Yu et al 2023][research_yu_zhang_2023]
 - [Yu et al 2024][research_yu_li_2024]
-- [Yu et al 2024][research_yu_luo_2024]
-- [Yu et al 2024][research_yu_mi_2024]
 - [Yu et al 2024][research_yu_qin_2024]
 - [Yu et al 2025][research_yu_zhang_2025]
 - [Yu-Yuan and Chun-Hai 2017][research_yuyuan_chunhai_2017]
 - [Yuan and Li 2018][research_yuan_li_2018]
 - [Yuan and Li 2019][research_yuan_li_2019]
-- [Yuan and Wang 2015][research_yuan_wang_2015]
 - [Yuan and Yarusevych 2020][research_yuan_yarusevych_2020]
 - [Yuan and Zhou 2024][research_yuan_zhou_2024]
 - [Yuan et al 2018][research_yuan_wang_2018]
 - [Yuan et al 2021][research_yuan_wanwei_2021]
 - [Yuan et al 2022][research_yuan_thomson_2022]
 - [Yuan et al 2022][research_yuan_thomson_2022_b]
-- [Yuan et al 2023][research_yuan_shuai_2023]
 - [Yuan et al 2025][research_yuan_pries_2025]
 - [Yuan et al 2026][research_yuan_lu_2026]
 - [Yuan et al 2026][research_yuan_wang_2026]
@@ -20347,7 +18632,6 @@ computable in one line from the lift equation.
 - [Yunjun Xu et al 2003][research_yunjunxu_normanfitzcoy_2003]
 - [Yuqi et al 2025][research_yuqi_siyuan_2025]
 - [Yusuff 1976][research_yusuff_1976]
-- [Yusuff 2017][research_yusuff_2017]
 - [Yutuk et al 2021][research_yutuk_tikenogullari_2021]
 - [Yuvarajan 2001][research_yuvarajan_2001]
 - [Yáñez Canal, and Rangel Ruiz 2015][research_yanezcanal_rangelruiz_2015]
@@ -20391,7 +18675,6 @@ computable in one line from the lift equation.
 - [Zhai et al 2016][research_zhai_zhang_2016]
 - [Zhai et al 2024][research_zhai_li_2024]
 - [Zhan and Wang 2017][research_zhan_wang_2017]
-- [Zhan and Yuan 2026][research_zhan_yuan_2026]
 - [Zhan et al 2015][research_zhan_yan_2015]
 - [Zhan et al 2024][research_zhan_li_2024]
 - [Zhang 2017][research_zhang_2017]
@@ -20414,7 +18697,6 @@ computable in one line from the lift equation.
 - [Zhang and Hu 2022][research_zhang_hu_2022]
 - [Zhang and Li 2015][research_zhang_li_2015]
 - [Zhang and Li 2016][research_zhang_li_2016]
-- [Zhang and Li 2018][research_zhang_li_2018]
 - [Zhang and Li 2020][research_zhang_li_2020]
 - [Zhang and Liu 2016][research_zhang_liu_2016]
 - [Zhang and Liu 2017][research_zhang_liu_2017]
@@ -20437,7 +18719,6 @@ computable in one line from the lift equation.
 - [Zhang and Xiao 2020][research_zhang_xiao_2020]
 - [Zhang and Xu 2026][research_zhang_xu_2026_b]
 - [Zhang and Yang 2024][research_zhang_yang_2024]
-- [Zhang and Yeow 2018][research_zhang_yeow_2018]
 - [Zhang and Yu 2021][research_zhang_yu_2021]
 - [Zhang and Yuan 2019][research_zhang_yuan_2019]
 - [Zhang and Zhang 2020][research_zhang_zhang_2020]
@@ -20459,13 +18740,11 @@ computable in one line from the lift equation.
 - [Zhang et al 2017][research_zhang_wang_2017]
 - [Zhang et al 2017][research_zhang_wang_2017_b]
 - [Zhang et al 2017][research_zhang_zhang_2017]
-- [Zhang et al 2018][research_zhang_chen_2018]
 - [Zhang et al 2018][research_zhang_liao_2018]
 - [Zhang et al 2018][research_zhang_liu_2018]
 - [Zhang et al 2018][research_zhang_liu_2018_b]
 - [Zhang et al 2018][research_zhang_shuang_2018]
 - [Zhang et al 2018][research_zhang_tan_2018]
-- [Zhang et al 2018][research_zhang_woo_2018]
 - [Zhang et al 2018][research_zhang_xu_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018_b]
@@ -20473,13 +18752,9 @@ computable in one line from the lift equation.
 - [Zhang et al 2019][research_zhang_huang_2019]
 - [Zhang et al 2019][research_zhang_ji_2019]
 - [Zhang et al 2019][research_zhang_li_2019]
-- [Zhang et al 2019][research_zhang_qiao_2019]
 - [Zhang et al 2019][research_zhang_vahdati_2019_b]
-- [Zhang et al 2019][research_zhang_wang_2019]
 - [Zhang et al 2019][research_zhang_xia_2019]
 - [Zhang et al 2020][research_zhang_han_2020]
-- [Zhang et al 2020][research_zhang_liang_2020]
-- [Zhang et al 2020][research_zhang_liang_2020_b]
 - [Zhang et al 2020][research_zhang_stapelfeldt_2020]
 - [Zhang et al 2020][research_zhang_xu_2020]
 - [Zhang et al 2020][research_zhang_xue_2020]
@@ -20493,7 +18768,6 @@ computable in one line from the lift equation.
 - [Zhang et al 2021][research_zhang_li_2021]
 - [Zhang et al 2021][research_zhang_su_2021]
 - [Zhang et al 2021][research_zhang_wang_2021]
-- [Zhang et al 2021][research_zhang_wu_2021]
 - [Zhang et al 2022][research_zhang_cao_2022]
 - [Zhang et al 2022][research_zhang_deng_2022]
 - [Zhang et al 2022][research_zhang_qi_2022]
@@ -20525,13 +18799,10 @@ computable in one line from the lift equation.
 - [Zhang et al 2024][research_zhang_wang_2024]
 - [Zhang et al 2024][research_zhang_xu_2024]
 - [Zhang et al 2024][research_zhang_xu_2024_b]
-- [Zhang et al 2025][research_zhang_bao_2025]
 - [Zhang et al 2025][research_zhang_guo_2025]
 - [Zhang et al 2025][research_zhang_jiao_2025]
 - [Zhang et al 2025][research_zhang_liu_2025]
-- [Zhang et al 2025][research_zhang_tang_2025]
 - [Zhang et al 2025][research_zhang_xiang_2025]
-- [Zhang et al 2025][research_zhang_xiong_2025]
 - [Zhang et al 2026][research_zhang_gu_2026]
 - [Zhang et al 2026][research_zhang_gu_2026_b]
 - [Zhang et al 2026][research_zhang_li_2026]
@@ -20557,13 +18828,11 @@ computable in one line from the lift equation.
 - [Zhao and Zhu 2016][research_zhao_zhu_2016_b]
 - [Zhao and Zhu 2016][research_zhao_zhu_2016_c]
 - [Zhao et al 1995][research_zhao_jackson_1995]
-- [Zhao et al 2016][research_zhao_jiao_2016]
 - [Zhao et al 2016][research_zhao_wang_2016]
 - [Zhao et al 2017][research_zhao_hao_2017]
 - [Zhao et al 2017][research_zhao_liu_2017]
 - [Zhao et al 2017][research_zhao_sun_2017]
 - [Zhao et al 2019][research_zhao_yang_2019]
-- [Zhao et al 2020][research_zhao_jin_2020]
 - [Zhao et al 2020][research_zhao_wang_2020]
 - [Zhao et al 2021][research_zhao_erzberger_2021]
 - [Zhao et al 2021][research_zhao_liu_2021]
@@ -20574,13 +18843,11 @@ computable in one line from the lift equation.
 - [Zhao et al 2024][research_zhao_lu_2024]
 - [Zhao et al 2024][research_zhao_xing_2024]
 - [Zhao et al 2024][research_zhao_xu_2024]
-- [Zhao et al 2024][research_zhao_zhang_2024]
 - [Zhao et al 2024][research_zhao_zhang_2024_b]
 - [Zhao et al 2024][research_zhao_zhang_2024_c]
 - [Zhao et al 2024][research_zhao_zhu_2024]
 - [Zhao et al 2025][research_zhao_chen_2025]
 - [Zhao et al 2025][research_zhao_li_2025]
-- [Zhao et al 2025][research_zhao_sun_2025]
 - [Zhao et al 2025][research_zhao_wang_2025]
 - [Zhao et al 2025][research_zhao_wang_2025_b]
 - [Zhao et al 2026][research_zhao_chang_2026]
@@ -20588,7 +18855,6 @@ computable in one line from the lift equation.
 - [Zhao et al 2026][research_zhao_zhang_2026]
 - [Zharfa et al 2016][research_zharfa_ozturk_2016]
 - [Zhen and Hao 2020][research_zhen_hao_2020]
-- [Zhen et al 2022][research_zhen_zhang_2022]
 - [Zhen-ning et al 2020][research_zhenning_jianing_2020]
 - [Zheng and Duan 2023][research_zheng_duan_2023]
 - [Zheng and Feiguo 2017][research_zheng_feiguo_2017]
@@ -20606,7 +18872,6 @@ computable in one line from the lift equation.
 - [Zheng et al 2024][research_zheng_wei_2024]
 - [Zheng et al 2024][research_zheng_xin_2024]
 - [Zheng et al 2025][research_zheng_gao_2025]
-- [Zheng et al 2025][research_zheng_liu_2025]
 - [Zheng et al 2025][research_zheng_yan_2025]
 - [Zheng et al 2026][research_zheng_lu_2026]
 - [Zheng et al 2026][research_zheng_qu_2026]
@@ -20618,7 +18883,6 @@ computable in one line from the lift equation.
 - [Zhi et al 2018][research_zhi_chen_2018]
 - [Zhijie et al 2025][research_zhijie_taiyu_2025]
 - [Zhishuai and Lingling 2022][research_zhishuai_lingling_2022]
-- [Zhivkov and Fidanova 2026][research_zhivkov_fidanova_2026]
 - [Zhixin 2022][research_zhixin_2022]
 - [Zhong and Félix 2015][research_zhong_felix_2015]
 - [Zhong et al 2020][research_zhong_qi_2020]
@@ -20644,7 +18908,6 @@ computable in one line from the lift equation.
 - [Zhou et al 2016][research_zhou_zhu_2016]
 - [Zhou et al 2017][research_zhou_wang_2017]
 - [Zhou et al 2017][research_zhou_yang_2017]
-- [Zhou et al 2018][research_zhou_chen_2018]
 - [Zhou et al 2018][research_zhou_feng_2018]
 - [Zhou et al 2018][research_zhou_lin_2018]
 - [Zhou et al 2018][research_zhou_liu_2018]
@@ -20656,10 +18919,8 @@ computable in one line from the lift equation.
 - [Zhou et al 2022][research_zhou_wang_2022]
 - [Zhou et al 2022][research_zhou_yang_2022]
 - [Zhou et al 2024][research_zhou_cheng_2024]
-- [Zhou et al 2024][research_zhou_xue_2024]
 - [Zhou et al 2024][research_zhou_yang_2024]
 - [Zhou et al 2024][research_zhou_zhou_2024]
-- [Zhou et al 2025][research_zhou_li_2025]
 - [Zhou et al 2025][research_zhou_liu_2025]
 - [Zhou et al 2025][research_zhou_liu_2025_b]
 - [Zhou et al 2025][research_zhou_raze_2025]
@@ -20682,7 +18943,6 @@ computable in one line from the lift equation.
 - [Zhu et al 2016][research_zhu_zhang_2016]
 - [Zhu et al 2017][research_zhu_du_2017]
 - [Zhu et al 2017][research_zhu_sempertegui_2017]
-- [Zhu et al 2019][research_zhu_wang_2019]
 - [Zhu et al 2020][research_zhu_lei_2020]
 - [Zhu et al 2021][research_zhu_shan_2021]
 - [Zhu et al 2022][research_zhu_shi_2022]
@@ -20693,14 +18953,12 @@ computable in one line from the lift equation.
 - [Zhu et al 2024][research_zhu_zheng_2024]
 - [Zhu et al 2026][research_zhu_xu_2026]
 - [Zhubin and Ruikun 2023][research_zhubin_ruikun_2023]
-- [Zhuo Chen et al 2019][research_zhuochen_zhaobindu_2019]
 - [Zhuo et al 2026][research_zhuo_nahon_2026]
 - [Zhuravsky and Kostin 2023][research_zhuravsky_kostin_2023]
 - [Ziakkas et al 2025][research_ziakkas_henneberry_2025]
 - [Zielińska-Kolasińska and Zieliński 2023][research_zielinskakolasinska_zielinski_2023]
 - [Zieliński 2018][research_zielinski_2018]
 - [Ziglar 2026][research_ziglar_2026]
-- [Zihao et al 2015][research_zihao_ye_2015]
 - [Zikmund et al 2019][research_zikmund_dubnicky_2019]
 - [Zilman and Miloh 1992][research_zilman_miloh_1992]
 - [Zimbelman and Rouser 2025][research_zimbelman_rouser_2025]
@@ -20728,26 +18986,19 @@ computable in one line from the lift equation.
 - [Zubiaurre et al 2024][research_zubiaurre_lunghi_2024]
 - [Zubko et al 2022][research_zubko_kozhemyako_2022]
 - [Zuhri 2025][research_zuhri_2025]
-- [Zunyi Liu 1995][research_zunyiliu_1995]
 - [Zuo et al 2024][research_zuo_zhang_2024]
 - [Zweig and Ben-Asher 1995][research_zweig_benasher_1995]
 - [Zwerger et al 2015][research_zwerger_hickel_2015]
 - [Zwerneman and Eller 1994][research_zwerneman_eller_1994]
 - [Zyluk and Sibilski 2015][research_zyluk_sibilski_2015]
 - [Zyluk et al 2016][research_zyluk_sibilski_2016]
-- [Álvarez-Murga and Hodeau 2015][research_alvarezmurga_hodeau_2015]
-- [Åkesson and Hagander 1999][research_akesson_hagander_1999]
 - [Ç. Altunkaya et al 2025][research_caltunkaya_catak_2025]
 - [Çalışkan and Sakarya 2024][research_caliskan_sakarya_2024]
-- [Çelik and Meral 2019][research_celik_meral_2019]
 - [Özbek and Koyuncu 2023][research_ozbek_koyuncu_2023]
 - [Öznurlu et al 2023][research_oznurlu_bayri_2023]
 - [Öztürk and M. Güzey 2020][research_ozturk_mguzey_2020]
-- [Čorić et al 2016][research_coric_deur_2016]
 - [Łabowski et al 2016][research_abowski_kaniewski_2016]
 - [Şahin and Schiffmann 2018][research_sahin_schiffmann_2018]
-- [Şuşcă et al 2025][research_susca_nascu_2025]
-- [Šimon et al 1986][research_simon_martinez_1986]
 - [Šlihta et al 2016][research_slihta_sestakovs_2016]
 - [Šplíchal 2019][research_splichal_2019]
 - [Ţapu and Drăgulinescu 2025][research_tapu_dragulinescu_2025]
@@ -20755,32 +19006,25 @@ computable in one line from the lift equation.
 - [Žunić et al 2023][research_zunic_dovatov_2023]
 - [‘Design and evaluation of a visual display aid for orbital maneuvering’ 1992][research_design_and_1992]
 
-[research_002_robust_1994]: https://doi.org/10.1016/0967-0661(94)90354-9
 [research_015_a_1994]: https://doi.org/10.1016/0967-0661(94)90030-2
 [research_028_application_1993]: https://doi.org/10.1016/0967-0661(93)91659-k
-[research_059_fms_s_1994]: https://doi.org/10.1016/0967-0661(94)91686-1
 [research_087_an_1994]: https://doi.org/10.1016/0967-0661(94)90102-3
 [research_088_stability_1994]: https://doi.org/10.1016/0967-0661(94)90103-1
-[research_110_dynamic_1994]: https://doi.org/10.1016/0967-0661(94)91737-x
 [research_122_neural_1993]: https://doi.org/10.1016/0967-0661(93)90141-d
 [research_171_a_1994]: https://doi.org/10.1016/0967-0661(94)90523-1
 [research_2021_international_2021]: https://doi.org/10.1109/mcs.2021.3107768
 [research_202_biomechanics_1993]: https://doi.org/10.1016/0967-0661(93)91597-p
 [research_213_development_1994]: https://doi.org/10.1016/0967-0661(94)91002-2
-[research_231_cascaded_1994]: https://doi.org/10.1016/0967-0661(94)91858-9
 [research_4th_aircraft_1972]: https://doi.org/10.2514/mado72
 [research_5th_aircraft_1973]: https://doi.org/10.2514/mado73
 [research_6_dof_2016]: https://doi.org/10.22360/summersim.2016.scsc.063
 [research_6th_aircraft_1974]: https://doi.org/10.2514/mado74
 [research_8_optimal_2015]: https://doi.org/10.1515/9783110375893-010
-[research_9539031_a_1996]: https://doi.org/10.1016/0389-4304(96)83200-0
-[research_9539103_improvement_1996]: https://doi.org/10.1016/0389-4304(96)83208-5
 [research_97_02841_fuzzy_1997]: https://doi.org/10.1016/s0140-6701(97)84711-x
 [research_a_feasibility_2019]: https://doi.org/10.21152/1750-9548.13.4.339
 [research_a_generalization_2020]: https://doi.org/10.5829/ije.2020.33.11b.28
 [research_a_hierarchical_decision_making_2022]: https://doi.org/10.1360/ssi-2022-0185
 [research_a_knowledge_1993]: https://doi.org/10.1016/0967-0661(93)92197-c
-[research_a_roadway_1991]: https://doi.org/10.1109/vnis.1991.205857
 [research_a_spreadsheet_2018]: https://doi.org/10.20508/ijrer.v8i4.8480.g7550
 [research_a_static_1993]: https://doi.org/10.2514/6.1993-1643
 [research_aanandmraikar_2024]: https://doi.org/10.52783/pst.1744
@@ -20802,7 +19046,6 @@ computable in one line from the lift equation.
 [research_abed_alhamadani_2024]: https://doi.org/10.18280/mmep.111029
 [research_abed_lee_1990]: https://doi.org/10.23919/acc.1990.4791129
 [research_abene_2015]: https://doi.org/10.4172/2090-8369.1000111
-[research_aberdeentestcentermd_2009]: https://doi.org/10.21236/ada509434
 [research_aberg_francis_1962]: https://doi.org/10.21236/ad0376576
 [research_abhishek_prasad_2016]: https://doi.org/10.2514/1.c033707
 [research_abney_mcdaniel_2005]: https://doi.org/10.2514/6.2005-5086
@@ -20811,12 +19054,10 @@ computable in one line from the lift equation.
 [research_abowski_kaniewski_2016]: https://doi.org/10.1515/mms-2016-0034
 [research_abratanski_grzejda_2023]: https://doi.org/10.1108/aeat-04-2022-0109
 [research_abuelola_alqaisia_2024]: https://doi.org/10.1109/rem63063.2024.10735705
-[research_abujubbeh_kumarr_2022]: https://doi.org/10.1109/isgt50606.2022.9817471
 [research_abunawas_qawasmeh_2026]: https://doi.org/10.2514/1.c038542
 [research_abzug_1999]: https://doi.org/10.2514/2.2474
 [research_acar_tezel_2025]: https://doi.org/10.1115/ssdm2025-151852
 [research_ackerman_talleur_2017]: https://doi.org/10.2514/1.g000338
-[research_ackermann_bunte_1997]: https://doi.org/10.1016/s0967-0661(97)00106-8
 [research_acquatella_chu_2020]: https://doi.org/10.1016/j.ifacol.2020.12.1598
 [research_acquatellab_vanekeren_2017]: https://doi.org/10.1016/j.ifacol.2017.08.1265
 [research_acton_wolff_2021]: https://doi.org/10.2514/6.2021-0387
@@ -20844,22 +19085,17 @@ computable in one line from the lift equation.
 [research_afridi_khan_2024]: https://doi.org/10.1115/1.4064608
 [research_aftab_rossiter_2021]: https://doi.org/10.1016/j.ifacol.2021.08.537
 [research_afthon_moelyadi_2021]: https://doi.org/10.47355/avia.v2i1.12
-[research_agag_ali_2026]: https://doi.org/10.1016/j.tourman.2026.105427
 [research_agarwal_ng_2021]: https://doi.org/10.1109/icuas51884.2021.9476830
 [research_ageev_bukov_2022]: https://doi.org/10.36535/0236-1914-2022-06-2
 [research_agha_kanistras_2017]: https://doi.org/10.2514/6.2017-3154
-[research_agnihotri_2023]: https://doi.org/10.23919/amta58553.2023.10293620
 [research_agnone_1984]: https://doi.org/10.2514/6.1984-507
 [research_agrawal_kinard_1991]: https://doi.org/10.2514/3.46088
 [research_agrell_elmeland_1985]: https://doi.org/10.2514/3.45185
 [research_agresti_coull_1998]: https://doi.org/10.2307/2685469
 [research_agui_struk_2019]: https://doi.org/10.4271/2019-01-1923
 [research_aguilaribanez_2016]: https://doi.org/10.1002/rnc.3601
-[research_aguilera_delabarrera_2016]: https://doi.org/10.1016/j.conengprac.2016.04.014
 [research_ahlstrom_2010]: https://doi.org/10.21236/ada536866
 [research_ahmad_siddique_2018]: https://doi.org/10.1007/s40430-018-1248-8
-[research_ahmadian_2017]: https://doi.org/10.1080/00423114.2017.1323106
-[research_ahmadian_khosravi_2020]: https://doi.org/10.1016/j.isatra.2020.06.020
 [research_ahmadidastgerdi_asadi_2022]: https://doi.org/10.55212/ijaa.1033224
 [research_ahmed_2025]: https://doi.org/10.70389/pjai.100013
 [research_ahmed_elbanna_2025]: https://doi.org/10.1142/s2301385026500366
@@ -20867,17 +19103,13 @@ computable in one line from the lift equation.
 [research_ahmed_kopsaftopoulos_2019]: https://doi.org/10.4050/f-0075-2019-14616
 [research_ahmed_nauman_2021]: https://doi.org/10.1109/ibcast51254.2021.9393013
 [research_ahmed_qin_2020]: https://doi.org/10.1016/j.paerosci.2019.100585
-[research_ahmed_ram_2020]: https://doi.org/10.1109/icomet48670.2020.9074065
 [research_ahmedabdelrahman_elessaidsuliman_2015]: https://doi.org/10.1109/iccneee.2015.7381446
 [research_ahmedzaid_ioannou_1990]: https://doi.org/10.23919/acc.1990.4790835
-[research_ahn_kim_2020]: https://doi.org/10.3796/ksfot.2020.56.2.172
-[research_ahsan_noman_2024]: https://doi.org/10.3390/engproc2024072006
 [research_ai_jiang_2025]: https://doi.org/10.3390/aerospace12070593
 [research_ai_luo_2025]: https://doi.org/10.3390/electronics14010170
 [research_ai_wang_2022]: https://doi.org/10.1016/j.compstruct.2022.116073
 [research_aiello_bateman_1979]: https://doi.org/10.21236/ada070250
 [research_aihara_goude_2020]: https://doi.org/10.2514/6.2020-1723
-[research_aimengwang_yunwen_2016]: https://doi.org/10.1049/cp.2016.0544
 [research_ainsworth_fox_1961]: https://doi.org/10.1029/jz066i010p03191
 [research_air_wars_1990]: https://doi.org/10.5860/choice.27-6114
 [research_aircraft_and_2016]: https://doi.org/10.1109/mcs.2015.2512078
@@ -20919,7 +19151,6 @@ computable in one line from the lift equation.
 [research_akaryildiz_kaya_2025]: https://doi.org/10.2139/ssrn.5733616
 [research_akash_polson_2019]: https://doi.org/10.1016/j.ifacol.2019.01.028
 [research_akcal_hostas_2018]: https://doi.org/10.1109/aero.2018.8396500
-[research_akesson_hagander_1999]: https://doi.org/10.1016/s1474-6670(17)57299-7
 [research_akolekar_godse_2025]: https://doi.org/10.1115/imece-india2025-159168
 [research_akram_tedesco_2020]: https://doi.org/10.5220/0009894800810088
 [research_aksoy_2024]: https://doi.org/10.1016/j.apor.2023.103836
@@ -20929,10 +19160,8 @@ computable in one line from the lift equation.
 [research_alag_duke_1985]: https://doi.org/10.2514/6.1985-1859
 [research_alahmadi_2025]: https://doi.org/10.11159/jffhmt.2025.001
 [research_alahmed_fielding_1995]: https://doi.org/10.2514/6.1995-3904
-[research_alalamin_uddin_2021]: https://doi.org/10.1109/icas49788.2021.9551151
 [research_alam_soeimanikutanaei_2021]: https://doi.org/10.1115/imece2021-72087
 [research_alatorre_castillo_2021]: https://doi.org/10.1109/icuas51884.2021.9476680
-[research_albalawi_durand_2018]: https://doi.org/10.1016/j.jlp.2016.11.021
 [research_alberghini_lee_2018]: https://doi.org/10.2514/6.2018-4170
 [research_albert_stutz_2025]: https://doi.org/10.1109/sdf67080.2025.11330490
 [research_alberts_conley_2015]: https://doi.org/10.21236/ada617821
@@ -20941,32 +19170,25 @@ computable in one line from the lift equation.
 [research_alcorn_croom_1995]: https://doi.org/10.2514/6.1995-362
 [research_alcorn_croom_1996]: https://doi.org/10.1016/0376-0421(95)00006-2
 [research_aldosari_feron_2025]: https://doi.org/10.1007/s12217-025-10182-8
-[research_aledaily_2025]: https://doi.org/10.1108/ijwis-12-2024-0395
 [research_alejo_cobano_2015]: https://doi.org/10.1109/icuas.2015.7152277
 [research_aleman_saini_2017]: https://doi.org/10.2514/6.2017-3749
 [research_alendar_grunin_2022]: https://doi.org/10.3103/s1068798x2207005x
-[research_alesiani_magarini_2021]: https://doi.org/10.1109/meditcom49071.2021.9647482
 [research_alexander_2025]: https://doi.org/10.4050/sm_handling_2025-5295
 [research_alexander_2025_b]: https://doi.org/10.4050/sm_handling_2025-5289
 [research_alexander_harris_1992]: https://doi.org/10.4271/921984
 [research_alexandrov_belousova_2025]: https://doi.org/10.1016/j.actaastro.2024.11.023
 [research_alexopoulos_kirsch_2017]: https://doi.org/10.1109/icuas.2017.7991416
-[research_alfi_prandi_2015]: https://doi.org/10.1299/jsmestech.2015._1d33-1_
 [research_alford_knarr_1999]: https://doi.org/10.21236/ada371942
 [research_alhammadi_green_2024]: https://doi.org/10.52202/078371-0054
 [research_alharasees_zolfaghari_2024]: https://doi.org/10.1109/gpecom61896.2024.10582627
-[research_alhasani_freegah_2022]: https://doi.org/10.1002/htj.22659
 [research_alhinai_2016]: https://doi.org/10.15445/02012015.33
 [research_alhusseinawi_van_2026]: https://doi.org/10.1109/airc69745.2026.11631328
 [research_ali_asghar_2017]: https://doi.org/10.13033/ijahp.v9i2.489
-[research_ali_jinzu_2025]: https://doi.org/10.23919/aces-china66523.2025.11333022
 [research_ali_shah_2016]: https://doi.org/10.1109/ibcast.2016.7429865
 [research_aliaga_kopp_2022]: https://doi.org/10.2514/6.2022-3322
-[research_alikhanikoupaei_2015]: https://doi.org/10.3920/qas2013.0297
 [research_alimi_wunsch_2018]: https://doi.org/10.3390/fluids3040094
 [research_alkhedher_2022]: https://doi.org/10.32604/cmc.2022.025334
 [research_allen_1975]: https://doi.org/10.2514/3.60481
-[research_allen_smith_1992]: https://doi.org/10.1093/milmed/157.4.200
 [research_alligood_kyser_1963]: https://doi.org/10.21236/ad0423947
 [research_allik_maley_2024]: https://doi.org/10.2514/6.2024-0712
 [research_allison_1972]: https://doi.org/10.2514/6.1972-765
@@ -20999,35 +19221,25 @@ computable in one line from the lift equation.
 [research_altunkaya_erol_2024]: https://doi.org/10.1016/j.ifacol.2025.01.184
 [research_altunkaya_ozkol_2025]: https://doi.org/10.2514/1.g008752
 [research_alvarez_gonzalez_2020]: https://doi.org/10.1109/dasc50938.2020.9256511
-[research_alvarezmurga_hodeau_2015]: https://doi.org/10.1016/j.carbon.2014.10.083
 [research_alves_daiguebonne_2022]: https://doi.org/10.1109/aero53065.2022.9843336
-[research_alves_lizarralde_2020]: https://doi.org/10.1016/j.ifacol.2020.12.2117
 [research_alvi_2014]: https://doi.org/10.21236/ada598402
-[research_alvim_fdasilva_2026]: https://doi.org/10.5220/0014967600004018
 [research_alziadeh_mohany_2021]: https://doi.org/10.1115/pvp2021-63015
 [research_alzubaidi_stol_2022]: https://doi.org/10.1109/icuas54217.2022.9836158
 [research_amalberti_deblon_1992]: https://doi.org/10.1016/0020-7373(92)90035-j
-[research_amara_1985]: https://doi.org/10.2523/13495-ms
 [research_amato_ambrosino_1996]: https://doi.org/10.2514/3.21636
 [research_amato_cortigiani_2022]: https://doi.org/10.4050/sm_2022_cs-1154
-[research_ambarwati_yuliastri_2022]: https://doi.org/10.1016/j.jlp.2021.104665
 [research_ambroziak_kownacki_2022]: https://doi.org/10.1109/icc45855.2022.9838250
 [research_ambur_zhao_2016]: https://doi.org/10.1115/gt2016-56975
 [research_amburn_marshak_1996]: https://doi.org/10.1109/vrais.1996.490520
-[research_ameer_kamal_2022]: https://doi.org/10.1109/ibcast54850.2022.9990194
 [research_americaninstituteofaeronauticsandastronautics_1992]: https://ntrs.nasa.gov/citations/19930027254
 [research_americaninstituteofaeronauticsandastronautics_1993]: https://ntrs.nasa.gov/citations/19930049879
 [research_amini_ayati_2020]: https://doi.org/10.1007/s42235-020-0086-4
 [research_amirahmadichomachar_kuppusamy_2022]: https://doi.org/10.1108/aeat-08-2021-0240
 [research_amirouche_shareef_1991]: https://doi.org/10.2514/6.1991-2748
 [research_amoozgar_hall_2024]: https://doi.org/10.2514/6.2024-2044
-[research_amr_and_2017]: https://doi.org/10.1211/pj.2017.20203597
 [research_an_guo_2020]: https://doi.org/10.1007/s11071-020-05531-8
 [research_an_investigation_1979]: https://doi.org/10.1016/0003-6870(79)90096-6
 [research_an_investigation_1990]: https://doi.org/10.2514/6.1990-762
-[research_an_lee_2015]: https://doi.org/10.3796/ksft.2015.51.2.257
-[research_an_song_2017]: https://doi.org/10.1109/oceanse.2017.8084941
-[research_an_zhang_2024]: https://doi.org/10.46427/gold2024.24770
 [research_analysis_of_2024]: https://doi.org/10.47176/jafm.17.02.2101
 [research_analytical_framework_1991]: https://doi.org/10.1109/37.103361
 [research_anand_kolathaya_2025]: https://doi.org/10.1109/icc69100.2025.11372388
@@ -21046,7 +19258,6 @@ computable in one line from the lift equation.
 [research_anderson_1985]: https://doi.org/10.2514/3.45218
 [research_anderson_1995]: https://doi.org/10.2514/3.46766
 [research_anderson_1996]: https://doi.org/10.2514/3.46977
-[research_anderson_2000]: https://doi.org/10.21236/ada381728
 [research_anderson_2004]: https://doi.org/10.2514/6.2004-5033
 [research_anderson_2019]: https://doi.org/10.1115/gt2019-90992
 [research_anderson_mason_1996]: https://doi.org/10.2514/6.1996-4058
@@ -21058,8 +19269,6 @@ computable in one line from the lift equation.
 [research_andersonsethb_1960]: https://ntrs.nasa.gov/citations/19980223619
 [research_andersson_2022]: https://doi.org/10.1214/21-sts837
 [research_andersson_2024]: https://doi.org/10.1002/sta4.70027
-[research_andreas_2012]: https://doi.org/10.21236/ada580285
-[research_andreoli_eser_2020]: https://doi.org/10.1016/j.carbon.2020.06.071
 [research_andrew_lehnig_1991]: https://doi.org/10.2514/6.1991-2481
 [research_andrews_gordon_1981]: https://doi.org/10.2514/6.1981-2452
 [research_andrianantara_ghazi_2021]: https://doi.org/10.2514/6.2021-3247
@@ -21072,7 +19281,6 @@ computable in one line from the lift equation.
 [research_anggraeni_2019]: https://doi.org/10.19184/cerimre.v2i2.27374
 [research_anglin_1978]: https://doi.org/10.2514/3.58445
 [research_angus_1987]: https://doi.org/10.1002/1520-6750(198712)34:6<845::aid-nav3220340609>3.0.co;2-d
-[research_anjum_niemi_2025]: https://doi.org/10.1115/es2025-155568
 [research_annapauld_kidmandavids_1994]: https://ntrs.nasa.gov/citations/19950007831
 [research_ansari_bernstein_2015]: https://doi.org/10.1109/acc.2015.7170839
 [research_antipov_2020]: https://doi.org/10.2514/1.j058976
@@ -21080,7 +19288,6 @@ computable in one line from the lift equation.
 [research_antonakis_2025_b]: https://doi.org/10.1016/j.ast.2025.110020
 [research_antonakis_biannic_2024]: https://doi.org/10.2514/1.c037707
 [research_antony_kumar_2024]: https://doi.org/10.1109/icc64753.2024.10883710
-[research_antunes_palma_2021]: https://doi.org/10.1109/ibitec53045.2021.9649165
 [research_apablospalomino_2024]: https://doi.org/10.5162/ettc2024/a10.2
 [research_aparinov_karask_1982]: https://doi.org/10.1007/bf01090170
 [research_apkarian_adams_1998]: https://doi.org/10.1109/87.654874
@@ -21089,18 +19296,15 @@ computable in one line from the lift equation.
 [research_application_analysis_2022]: https://doi.org/10.47939/et.v3i5(02).13
 [research_application_of_1989]: https://doi.org/10.2514/6.1989-3453
 [research_application_of_2024]: https://doi.org/10.56726/irjmets49706
-[research_aqil_hur_2021]: https://doi.org/10.3390/electronics10091038
 [research_arabi_zaidi_2020]: https://doi.org/10.1016/j.media.2020.101718
 [research_arai_inada_2022]: https://doi.org/10.1299/jsmemecj.2022.j191-11
 [research_araki_2016]: https://doi.org/10.1063/1.4967668
-[research_araki_2018]: https://doi.org/10.1115/omae2018-77191
 [research_aranishi_ikeda_2015]: https://doi.org/10.1016/j.jval.2015.03.098
 [research_araujo_singh_1998]: https://doi.org/10.2514/2.4250
 [research_araujoestrada_lowenberg_2015]: https://doi.org/10.2514/6.2015-0750
 [research_arbeiter_travnicek_2020]: https://doi.org/10.1016/j.addma.2020.101730
 [research_ardema_rajan_1987]: https://doi.org/10.1016/0898-1221(87)90096-4
 [research_ardema_rajan_1987_b]: https://doi.org/10.2514/6.1987-2316
-[research_ardic_dinc_2026]: https://doi.org/10.3389/fdgth.2026.1785381
 [research_arena_nelson_1995]: https://doi.org/10.2514/3.46761
 [research_arenaasjr_nelsonrc_1993]: https://ntrs.nasa.gov/citations/19930064312
 [research_arenajr_nelson_1989]: https://doi.org/10.2514/6.1989-3348
@@ -21108,8 +19312,6 @@ computable in one line from the lift equation.
 [research_arevalonogales_2020]: https://doi.org/10.5162/ettc2020/6.1
 [research_argyle_beard_2016]: https://doi.org/10.1109/acc.2016.7526733
 [research_ariafar_cochrane_2018]: https://doi.org/10.1016/j.expthermflusci.2018.04.004
-[research_ariamuthuvenkidasalapathy_kravaris_2020]: https://doi.org/10.1016/j.jlp.2020.104126
-[research_arinze_sokhansanj_1996]: https://doi.org/10.1006/jaer.1996.0034
 [research_arkun_1987]: https://doi.org/10.1080/00207178708933959
 [research_arkun_manousiouthakis_1986]: https://doi.org/10.23919/acc.1986.4788904
 [research_armstrong_1977]: https://doi.org/10.21236/adb029224
@@ -21125,12 +19327,9 @@ computable in one line from the lift equation.
 [research_arrosida_echsony_2017]: https://doi.org/10.22219/kinetik.v2i4.267
 [research_arshad_li_2016]: https://doi.org/10.1177/0954410016670679
 [research_arthur_kennedy_2023]: https://doi.org/10.2514/6.2023-1751
-[research_arya_nair_2025]: https://doi.org/10.1109/isec64801.2025.11147421
 [research_arya_rao_2016]: https://doi.org/10.1016/j.ifacol.2016.03.116
-[research_aryan_raja_2022]: https://doi.org/10.1515/ijcre-2022-0007
 [research_aryanto_sudiro_2016]: https://doi.org/10.1063/1.4945462
 [research_asadi_farnam_2022]: https://doi.org/10.3390/math10040567
-[research_asarnow_veesler_2023]: https://doi.org/10.1016/j.bpj.2022.11.1893
 [research_asavasirikulkij_hanif_2023]: https://doi.org/10.1145/3568294.3580057
 [research_asburyscottc_caponefrancisj_1992]: https://ntrs.nasa.gov/citations/19920066113
 [research_asburyscottc_caponefrancisj_1995]: https://ntrs.nasa.gov/citations/19970001863
@@ -21145,11 +19344,6 @@ computable in one line from the lift equation.
 [research_ashraf_mei_2018]: https://doi.org/10.1109/iccais.2018.8570323
 [research_ashraf_vankampen_2020]: https://doi.org/10.2514/6.2020-1845
 [research_ashry_titus_2026]: https://doi.org/10.1109/icuas69441.2026.11598617
-[research_asinovsky_1986]: https://doi.org/10.1111/j.1559-3584.1986.tb03429.x
-[research_asinovsky_1986_b]: https://doi.org/10.5957/mt1.1986.23.1.23
-[research_asinovsky_1989]: https://doi.org/10.1111/j.1559-3584.1989.tb02183.x
-[research_asinovsky_1989_b]: https://doi.org/10.5957/attc-1989-055
-[research_asinovsky_huang_1991]: https://doi.org/10.5957/mt1.1991.28.3.163
 [research_askari_abedi_2026]: https://doi.org/10.1016/j.flowmeasinst.2025.103045
 [research_askari_soltani_2019]: https://doi.org/10.2514/1.c035328
 [research_askari_soltani_2023]: https://doi.org/10.2514/1.c037043
@@ -21159,7 +19353,6 @@ computable in one line from the lift equation.
 [research_asli_stathopoulos_2020]: https://doi.org/10.14264/9e7ac3e
 [research_asouti_kontou_2023]: https://doi.org/10.3390/fluids8110292
 [research_asrabadi_1985]: https://doi.org/10.1080/03610928508828944
-[research_assessment_amp_2020]: https://doi.org/10.31838/ijpr/2020.12.01.231
 [research_assocprofdrhoangthikimdung_nguyenvancuong_2025]: https://doi.org/10.64588/jc.03.10.2025
 [research_asyraf_omar_2026]: https://doi.org/10.30880/paat.2026.06.01.005
 [research_atallah_1999]: https://doi.org/10.1049/ic:19990837
@@ -21169,7 +19362,6 @@ computable in one line from the lift equation.
 [research_atesoglu_ozgoren_2007]: https://doi.org/10.2514/1.28620
 [research_atesoglu_ozgoren_2011]: https://doi.org/10.2514/6.2011-6636
 [research_athavale_mariani_2019]: https://doi.org/10.1109/iolts.2019.8854415
-[research_atkins_chen_1993]: https://doi.org/10.1016/s1474-6670(17)48524-7
 [research_atkinson_2016]: https://doi.org/10.2514/6.2016-1185
 [research_atmaca_stroosma_2026]: https://doi.org/10.2514/6.2026-0550
 [research_atmasari_bahri_2021]: https://doi.org/10.1063/5.0061261
@@ -21182,7 +19374,6 @@ computable in one line from the lift equation.
 [research_austin_elbatanouny_2015]: https://doi.org/10.12783/shm2015/190
 [research_austin_george_1992]: https://doi.org/10.4050/jahs.37.25
 [research_autenrieb_2025]: https://doi.org/10.2514/1.g009203
-[research_automatic_target_2018]: https://doi.org/10.23883/ijrter.2018.4138.spcod
 [research_autonomous_flight_2018]: https://doi.org/10.1299/jsmecs.2018.56.1215
 [research_autry_victorazzo_2019]: https://doi.org/10.2514/6.2019-0550
 [research_avananyev_2019]: https://doi.org/10.21557/mth.57847390
@@ -21199,7 +19390,6 @@ computable in one line from the lift equation.
 [research_awhitmore_2024]: https://doi.org/10.15406/aaoaj.2024.08.00192
 [research_awhitmore_ccase_2023]: https://doi.org/10.15406/aaoaj.2023.07.00173
 [research_axelson_1977]: https://doi.org/10.2514/3.58819
-[research_axsendra_ekadarma_2021]: https://doi.org/10.3940/rina.icsotindonesia.2021.02
 [research_aydin_ermeydan_2025]: https://doi.org/10.1016/j.energy.2025.137887
 [research_aygun_2023]: https://doi.org/10.16984/saufenbilder.1192159
 [research_ayoub_mclachlan_1987]: https://doi.org/10.2514/6.1987-1230
@@ -21232,7 +19422,6 @@ computable in one line from the lift equation.
 [research_badrinarayanan_singh_2025]: https://doi.org/10.12783/ballistics25/37182
 [research_bae_jung_2023]: https://doi.org/10.1109/access.2023.3257849
 [research_bae_kim_2017]: https://doi.org/10.2514/6.2017-0595
-[research_bae_moon_2024]: https://doi.org/10.1016/j.ijmultiphaseflow.2023.104642
 [research_bae_park_2018]: https://doi.org/10.1115/detc2018-85541
 [research_baek_york_2020]: https://doi.org/10.1109/icuas48674.2020.9213917
 [research_baer_1966]: https://doi.org/10.21236/ad0477832
@@ -21282,18 +19471,15 @@ computable in one line from the lift equation.
 [research_balakrishna_niranjana_1987]: https://doi.org/10.2514/6.1987-2626
 [research_balas_garrard_1992]: https://doi.org/10.2514/6.1992-4329
 [research_balas_packard_1998]: https://doi.org/10.2514/2.4323
-[research_balasubramani_r_2026]: https://doi.org/10.1109/icmlas67792.2026.11483957
 [research_balasubramanian_ahuja_2024]: https://doi.org/10.2514/6.2024-4144
 [research_balcan_kucuker_2026]: https://doi.org/10.2514/6.2026-4236
 [research_baldan_guardone_2024]: https://doi.org/10.1016/j.ast.2024.109345
-[research_balderston_1969]: https://doi.org/10.21236/ad0858093
 [research_baldini_felicetti_2019]: https://doi.org/10.1109/systol.2019.8864785
 [research_baldini_felicetti_2020]: https://doi.org/10.1109/icuas48674.2020.9214026
 [research_baldini_felicetti_2026]: https://doi.org/10.1109/icuas69441.2026.11598634
 [research_baldwin_drewett_1986]: https://doi.org/10.2514/6.1986-2682
 [research_balkhi_durna_2025]: https://doi.org/10.1063/5.0244444
 [research_balli_2020]: https://doi.org/10.18186/thermal.796753
-[research_ballingall_sarvi_2023]: https://doi.org/10.1016/j.jsr.2022.10.024
 [research_baloni_bhullar_2026]: https://doi.org/10.1109/icads69450.2026.11545493
 [research_baltas_xepapadeas_2019]: https://doi.org/10.1016/j.ejcon.2018.04.004
 [research_banazadeh_saghafi_2016]: https://doi.org/10.1017/aer.2016.110
@@ -21312,9 +19498,6 @@ computable in one line from the lift equation.
 [research_banerjee_boyce_2017]: https://doi.org/10.2514/1.c033313
 [research_banerjee_corbetta_2020]: https://doi.org/10.1109/aero47225.2020.9172610
 [research_banerjee_corbetta_2021]: https://doi.org/10.2514/6.2021-2380
-[research_banerjee_do_1993]: https://doi.org/10.2514/6.1993-3711
-[research_bankruptcy_turnover_1944]: https://doi.org/10.2307/1068577
-[research_bankruptcy_turnover_1945]: https://doi.org/10.2307/1068750
 [research_banks_1988]: https://doi.org/10.4271/881419
 [research_banksdanielw_gatlingregorym_1992]: https://ntrs.nasa.gov/citations/19930002434
 [research_bantscheff_breitsamter_2023]: https://doi.org/10.3390/aerospace10070581
@@ -21344,7 +19527,6 @@ computable in one line from the lift equation.
 [research_bartels_stanford_2017]: https://doi.org/10.2514/6.2017-4358
 [research_barthelemy_bergen_1989]: https://doi.org/10.2514/3.45829
 [research_baruh_1986]: https://doi.org/10.2514/3.20088
-[research_basak_2025]: https://doi.org/10.1007/s40435-025-01967-1
 [research_basappa_singh_2006]: https://doi.org/10.1109/ccece.2006.277559
 [research_basescu_yeh_2023]: https://doi.org/10.1109/lra.2023.3264738
 [research_baskaran_harisrinivasan_2018]: https://doi.org/10.2514/6.2018-4206
@@ -21357,7 +19539,6 @@ computable in one line from the lift equation.
 [research_batterson_klein_1984]: https://doi.org/10.2514/3.44999
 [research_batterson_klein_1989]: https://doi.org/10.2514/3.45765
 [research_battersonjamesg_morelliea_1996]: https://ntrs.nasa.gov/citations/20040110721
-[research_batyr_2020]: https://doi.org/10.17803/1729-5920.2020.165.8.106-123
 [research_bauer_baar_2016]: https://doi.org/10.1016/j.ifacol.2016.09.014
 [research_bauer_crawford_1989]: https://doi.org/10.2514/3.45732
 [research_bauerjeffreye_clarkerobert_1995]: https://ntrs.nasa.gov/citations/19950016389
@@ -21365,19 +19546,14 @@ computable in one line from the lift equation.
 [research_bauman_1997]: https://doi.org/10.21236/ada325669
 [research_baumann_galor_1992]: https://doi.org/10.4271/921015
 [research_bay_kara_2026]: https://doi.org/10.17798/bitlisfen.1847172
-[research_bayer_1982]: https://doi.org/10.1127/njgpa/164/1982/154
 [research_baykal_baspinar_2023]: https://doi.org/10.1109/dasc58513.2023.10311295
-[research_baykal_cihan_2026]: https://doi.org/10.1016/j.oceaneng.2025.123477
 [research_bayoglu_nalci_2016]: https://doi.org/10.2514/6.2016-3856
 [research_bayraktar_chen_2023]: https://doi.org/10.1137/22m1481609
-[research_bays_wettergren_2017]: https://doi.org/10.1016/j.robot.2016.11.022
 [research_beal_1987]: https://doi.org/10.2307/2531547
 [research_beale_2018]: https://doi.org/10.1115/gt2018-75749
 [research_bean_lee_1994]: https://doi.org/10.2514/6.1994-1800
 [research_beardbb_foleywh_1983]: https://ntrs.nasa.gov/citations/19830066784
 [research_beaufrere_1988]: https://doi.org/10.2514/6.1988-4503
-[research_beaven_wright_1995]: https://doi.org/10.1016/0967-0661(95)00168-t
-[research_becchetti_1997]: https://doi.org/10.1049/cp:19970962
 [research_becerra_macias_2015]: https://doi.org/10.1109/icra.2015.7139862
 [research_becerravargas_2015]: https://doi.org/10.5220/0005546803440348
 [research_bechelder_bjorkman_2025]: https://doi.org/10.4050/sm_handling_2025-5299
@@ -21386,18 +19562,15 @@ computable in one line from the lift equation.
 [research_becker_luber_1996]: https://doi.org/10.2514/6.1996-4047
 [research_bedke_gorrell_2021]: https://doi.org/10.2514/6.2021-3465
 [research_beffert_zell_2026]: https://doi.org/10.1109/icuas69441.2026.11598598
-[research_begum_hempstead_2015]: https://doi.org/10.1109/iccd.2015.7357176
 [research_begum_rao_2020]: https://doi.org/10.1504/ijaac.2020.108274
 [research_bekar_tanyeri_2025]: https://doi.org/10.3390/aerospace12060501
 [research_beke_kumbasar_2017]: https://doi.org/10.1109/fuzz-ieee.2017.8015501
 [research_bel_aly_2016]: https://doi.org/10.2514/6.2016-0170
-[research_belaabed_arabet_2025]: https://doi.org/10.2478/johh-2025-0023
 [research_belak_hromcik_2024]: https://doi.org/10.1109/icarcv63323.2024.10821556
 [research_belcastro_foster_2016]: https://doi.org/10.2514/6.2016-0092
 [research_belcastro_klyde_2017]: https://doi.org/10.2514/6.2017-3274
 [research_belinskaya_2020]: https://doi.org/10.1109/mlsd49919.2020.9247840
 [research_bell_crane_1993]: https://doi.org/10.1145/256563.256948
-[research_belldegrun_1999]: https://doi.org/10.21236/ada391010
 [research_bellosta_guardone_2021]: https://doi.org/10.2514/6.2021-2645
 [research_belmont_1983]: https://doi.org/10.21236/ada133274
 [research_benali_2021]: https://doi.org/10.14736/kyb-2021-5-0785
@@ -21413,7 +19586,6 @@ computable in one line from the lift equation.
 [research_benedict_jarugumilli_2016]: https://doi.org/10.2514/1.c033558
 [research_benhaim_1990]: https://doi.org/10.2514/3.25394
 [research_benichou_binder_2021]: https://doi.org/10.3390/ijtpp6030034
-[research_benjamin_2000]: https://doi.org/10.21236/ada461209
 [research_benner_mitchell_2018]: https://doi.org/10.1109/cdc.2018.8619449
 [research_bennett_abel_1982]: https://doi.org/10.2514/3.57433
 [research_bennett_baras_1985]: https://doi.org/10.1109/cdc.1985.268496
@@ -21421,7 +19593,6 @@ computable in one line from the lift equation.
 [research_benyamen_chowdhury_2024]: https://doi.org/10.1115/1.4065804
 [research_benyamen_keshmiri_2022]: https://doi.org/10.1109/icuas54217.2022.9836206
 [research_beppu_curtiss_1966]: https://doi.org/10.21236/ad0640945
-[research_bequette_edgar_1986]: https://doi.org/10.23919/acc.1986.4788907
 [research_berendsen_cassar_1994]: https://doi.org/10.1016/s1474-6670(17)48104-3
 [research_berens_2019]: https://doi.org/10.2514/6.2019-1685
 [research_berg_1991]: https://doi.org/10.2514/6.1991-2630
@@ -21438,7 +19609,6 @@ computable in one line from the lift equation.
 [research_berkachy_donze_2019]: https://doi.org/10.2991/eusflat-19.2019.23
 [research_berkovitz_1985]: https://doi.org/10.1109/cdc.1985.268671
 [research_berkovitz_1986]: https://doi.org/10.1137/0324021
-[research_bermudez_serrano_2017]: https://doi.org/10.1177/1468087416679569
 [research_bernard_1989]: https://doi.org/10.2172/6841357
 [research_bernard_1991]: https://doi.org/10.1109/23.289398
 [research_bernard_perellomarch_2024]: https://doi.org/10.5220/0012978600004562
@@ -21475,7 +19645,6 @@ computable in one line from the lift equation.
 [research_bharathwaj_giridharan_2016]: https://doi.org/10.1088/1757-899x/149/1/012210
 [research_bhardwaj_holzapfel_2025]: https://doi.org/10.2514/6.2025-3490
 [research_bhardwaj_kapania_1995]: https://doi.org/10.2514/3.46814
-[research_bhartia_nagashima_1993]: https://doi.org/10.2514/6.1993-1672
 [research_bhattacharyya_2022]: https://doi.org/10.1103/aps.dfd.2022.gfm.v0047
 [research_bi_chen_2025]: https://doi.org/10.1109/tpel.2025.3570244
 [research_bian_nener_2018]: https://doi.org/10.1080/00207179.2018.1473643
@@ -21486,8 +19655,6 @@ computable in one line from the lift equation.
 [research_biberstein_tal_2021]: https://doi.org/10.2514/6.2021-3228
 [research_bichiou_bouafoura_2017]: https://doi.org/10.5220/0006433002790285
 [research_bidinotto_moura_2021]: https://doi.org/10.1017/aer.2021.82
-[research_biedenharn_raphelt_2000]: https://doi.org/10.21236/ada375784
-[research_bielecka_wojciechowski_2025]: https://doi.org/10.24425/aee.2025.155960
 [research_bielecki_chen_2019]: https://doi.org/10.1137/17m1137917
 [research_biesiadnythomasj_1992]: https://ntrs.nasa.gov/citations/19940035346
 [research_biggs_livornese_2020]: https://doi.org/10.2514/1.g005181
@@ -21519,7 +19686,6 @@ computable in one line from the lift equation.
 [research_blackburn_whitfield_1965]: https://doi.org/10.21236/ad0620247
 [research_blackwell_1993]: https://doi.org/10.23919/acc.1993.4793322
 [research_blackwell_brill_1997]: https://doi.org/10.21236/ada381074
-[research_blaich_wirtensohn_2013]: https://doi.org/10.3182/20130918-4-jp-3022.00056
 [research_blaignan_skormin_1993]: https://doi.org/10.1109/7.210076
 [research_blair_weisshaar_1981]: https://doi.org/10.2514/6.1981-1670
 [research_blair_weisshaar_1982]: https://doi.org/10.2514/3.44806
@@ -21547,8 +19713,6 @@ computable in one line from the lift equation.
 [research_boeingcomortonpavertoldiv_1961]: https://doi.org/10.21236/ad0256426
 [research_boelens_2009]: https://doi.org/10.2514/6.2009-3628
 [research_boelens_2012]: https://doi.org/10.1016/j.ast.2012.03.003
-[research_boesch_ciari_2015]: https://doi.org/10.1109/acc.2015.7171123
-[research_bogdan_alexander_1989]: https://doi.org/10.1080/01411598908245731
 [research_bogos_2020]: https://doi.org/10.1063/5.0027300
 [research_bogos_dumitrache_2018]: https://doi.org/10.1063/1.5081530
 [research_bogoyavlenskiy_2019]: https://doi.org/10.35400/1813-8667-2019-3-22-26
@@ -21574,7 +19738,6 @@ computable in one line from the lift equation.
 [research_borah_2025]: https://doi.org/10.1002/acs.3984
 [research_borello_villero_1995]: https://doi.org/10.2514/6.1995-3919
 [research_borisov_2025]: https://doi.org/10.7868/s3034534025030109
-[research_borisov_poliakov_2016]: https://doi.org/10.1109/icpds.2016.7756714
 [research_bornhoft_moin_2025]: https://doi.org/10.2514/1.c038146
 [research_bortz_dukic_2026]: https://doi.org/10.2514/6.2026-4114
 [research_bosch_kuehl_1977]: https://doi.org/10.2514/3.58880
@@ -21586,14 +19749,10 @@ computable in one line from the lift equation.
 [research_bosworthjohnt_2009]: https://ntrs.nasa.gov/citations/20090034936
 [research_bottasso_montinari_2015]: https://doi.org/10.4050/jahs.60.022005
 [research_bouadi_moracamino_2018]: https://doi.org/10.2514/1.c034477
-[research_bouain_berdjag_2017]: https://doi.org/10.5220/0006438105050512
 [research_boubaker_2017]: https://doi.org/10.1007/s11071-017-3693-9
-[research_bouchair_2022]: https://doi.org/10.1016/j.energy.2022.123704
-[research_boudaoud_sentouh_2024]: https://doi.org/10.5220/0013069800003822
 [research_boudjadar_frasheri_2025]: https://doi.org/10.5220/0013772600003982
 [research_boudreau_1977]: https://doi.org/10.2514/3.58889
 [research_boudria_sepe_2023]: https://doi.org/10.1109/ests56571.2023.10220461
-[research_boulenger_1897]: https://doi.org/10.5962/bhl.title.57744
 [research_boulouma_labiod_2017]: https://doi.org/10.1016/j.ast.2017.03.025
 [research_boumaraf_li_2025]: https://doi.org/10.1109/access.2025.3540558
 [research_bowersalbionh_noffzgregoryk_1991]: https://ntrs.nasa.gov/citations/19910012770
@@ -21620,7 +19779,6 @@ computable in one line from the lift equation.
 [research_brandt_bons_2023]: https://doi.org/10.2514/6.2023-4309
 [research_brandt_mcfadden_2022]: https://doi.org/10.2514/6.2022-3888
 [research_bras_warwick_2022]: https://doi.org/10.1016/j.ast.2022.107400
-[research_brattkus_1995]: https://doi.org/10.1017/s002211209500437x
 [research_braun_holzapfel_2025]: https://doi.org/10.2514/6.2025-2809
 [research_braun_pregibon_1984]: https://doi.org/10.21236/ada142248
 [research_brausch_butkus_2007]: https://doi.org/10.21236/ada470673
@@ -21629,11 +19787,9 @@ computable in one line from the lift equation.
 [research_breach_1970]: https://doi.org/10.1108/eb034654
 [research_breakwell_1978]: https://doi.org/10.2514/3.55764
 [research_breakwell_merz_1992]: https://doi.org/10.2514/3.20985
-[research_brecke_garcia_1995]: https://doi.org/10.21236/ada293469
 [research_breebaart_2015]: https://doi.org/10.1109/taslp.2015.2412462
 [research_breitenstein_muller_2024]: https://doi.org/10.2514/1.c037648
 [research_breitsamter_laschka_1994]: https://doi.org/10.2514/3.46560
-[research_breme_rao_1959]: https://doi.org/10.1016/0002-8703(59)90356-4
 [research_brenner_1993]: https://doi.org/10.2514/6.1993-1419
 [research_brenner_quan_1990]: https://doi.org/10.2307/2349083
 [research_brennermartinj_2001]: https://ntrs.nasa.gov/citations/20010071675
@@ -21658,7 +19814,6 @@ computable in one line from the lift equation.
 [research_bronz_hattenberger_2015]: https://doi.org/10.2514/6.2015-2879
 [research_bronz_hattenberger_2016]: https://doi.org/10.2514/6.2016-3979
 [research_brooks_wasson_1976]: https://doi.org/10.21236/adb011346
-[research_brouers_clerc_1990]: https://doi.org/10.1557/proc-195-77
 [research_broussard_stengel_1977]: https://doi.org/10.2514/3.44630
 [research_broussardjr_downingdr_1982]: https://ntrs.nasa.gov/citations/19820057371
 [research_brown_1954]: https://doi.org/10.21236/ad0470489
@@ -21671,12 +19826,10 @@ computable in one line from the lift equation.
 [research_brown_alvestad_1978]: https://doi.org/10.2514/3.63120
 [research_brown_bradley_1981]: https://doi.org/10.2514/6.1981-2390
 [research_brown_elgin_1985]: https://doi.org/10.1115/1.3239820
-[research_brown_eraslan_1988]: https://doi.org/10.1016/0010-2180(88)90050-8
 [research_brown_kunz_2023]: https://doi.org/10.1016/j.jfluidstructs.2023.103965
 [research_brown_mehta_2022]: https://doi.org/10.2514/6.2022-3890
 [research_brownandrootdevelopmentinchoustontx_1977]: https://doi.org/10.21236/ada182693
 [research_brownlw_montgomeryrc_1984]: https://ntrs.nasa.gov/citations/19840020732
-[research_bruaset_tveito_1990]: https://doi.org/10.2307/2008507
 [research_bruner_1983]: https://doi.org/10.4271/830711
 [research_brunner_1996]: https://doi.org/10.21236/ada305291
 [research_brunsjamese_smithcf_1992]: https://ntrs.nasa.gov/citations/19920071388
@@ -21702,8 +19855,6 @@ computable in one line from the lift equation.
 [research_bugajski_enns_1992]: https://doi.org/10.2514/3.20902
 [research_bugajski_pecinka_2015]: https://doi.org/10.1109/miltechs.2015.7153692
 [research_bugnon_mohler_1988]: https://doi.org/10.1115/1.3152666
-[research_bui_lee_2011]: https://doi.org/10.2316/p.2011.752-019
-[research_bui_lee_2012]: https://doi.org/10.2316/p.2012.752-019
 [research_building_an_2024]: https://doi.org/10.1038/s41592-024-02227-4
 [research_bukhman_brito_2024]: https://doi.org/10.1016/j.jairtraman.2024.102674
 [research_bunge_kroo_2018]: https://doi.org/10.2514/6.2018-0772
@@ -21738,8 +19889,6 @@ computable in one line from the lift equation.
 [research_bury_vesely_2023]: https://doi.org/10.1115/gt2023-103166
 [research_buryachenko_2018]: https://doi.org/10.1115/imece2018-86515
 [research_bussinger_1998]: https://doi.org/10.21236/ada372706
-[research_buti_1982]: https://doi.org/10.1029/gl009i004p00454
-[research_butler_1991]: https://doi.org/10.1163/9789004637627_006
 [research_butler_bons_2024]: https://doi.org/10.2514/6.2024-3757
 [research_butler_rees_1974]: https://doi.org/10.21236/ada002310
 [research_butter_2017]: https://doi.org/10.1201/9781315210469-150
@@ -21759,8 +19908,6 @@ computable in one line from the lift equation.
 [research_caglayanak_godiwalapm_1986]: https://ntrs.nasa.gov/citations/19860062773
 [research_cai_gao_2018]: https://doi.org/10.2514/1.c034401
 [research_cai_he_2024]: https://doi.org/10.1109/tcyb.2023.3285903
-[research_cai_ke_2025]: https://doi.org/10.1007/s40314-025-03205-y
-[research_cai_li_2026]: https://doi.org/10.1016/j.jfranklin.2025.108306
 [research_cai_nie_2017]: https://doi.org/10.1109/icmae.2017.8038659
 [research_cai_wu_2025]: https://doi.org/10.1109/taes.2024.3440966
 [research_cai_wu_2026]: https://doi.org/10.1109/tase.2026.3717504
@@ -21781,27 +19928,21 @@ computable in one line from the lift equation.
 [research_caltunkaya_catak_2025]: https://doi.org/10.2514/1.g008188
 [research_calvez_2022]: https://doi.org/10.2172/1874328
 [research_camacho_alvarez_2023]: https://doi.org/10.3390/chemengineering7030053
-[research_camacho_berenguel_1994]: https://doi.org/10.1016/0967-0661(94)90202-x
 [research_camci_kayacan_2016]: https://doi.org/10.1109/fuzz-ieee.2016.7737744
-[research_campa_innocenti_1996]: https://doi.org/10.2514/6.1996-3829
 [research_campbell_grauer_2021]: https://doi.org/10.2514/6.2021-0778
 [research_campbell_haas_1966]: https://doi.org/10.21236/ad0487431
 [research_campbell_mulani_2026]: https://doi.org/10.2514/6.2026-0770
-[research_campbell_vandiver_1980]: https://doi.org/10.4043/3861-ms
 [research_campos_1989]: https://doi.org/10.2514/6.1989-2041
 [research_campos_cardoso_2021]: https://doi.org/10.4050/f-0077-2021-16860
 [research_campos_marques_2021]: https://doi.org/10.3390/aerospace8030077
 [research_canard_leading_edge_2007]: https://doi.org/10.5139/jksas.2007.35.2.165
-[research_candido_2026]: https://doi.org/10.5540/03.2026.012.01.0274
 [research_candler_2005]: https://doi.org/10.21236/ada429887
-[research_candotipan_mosqueramolina_2026]: https://doi.org/10.55815/980000017007
 [research_canin_2019]: https://doi.org/10.2514/6.2019-3227
 [research_cano_sobel_2016]: https://doi.org/10.4236/eng.2016.84016
 [research_canter_groves_1994]: https://doi.org/10.2514/6.1994-2171
 [research_canuto_novara_2018]: https://doi.org/10.1007/s11768-018-8130-1
 [research_cao_1999]: https://doi.org/10.1108/00022669910296882
 [research_cao_chen_2026]: https://doi.org/10.1016/j.neucom.2025.132460
-[research_cao_cui_2020]: https://doi.org/10.1016/j.energy.2020.116925
 [research_cao_gong_2022]: https://doi.org/10.1155/2022/5419377
 [research_cao_hou_2016]: https://doi.org/10.2514/1.c033212
 [research_cao_hu_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000783
@@ -21833,7 +19974,6 @@ computable in one line from the lift equation.
 [research_caponef_smereczniakp_1992]: https://ntrs.nasa.gov/citations/19920066234
 [research_caponefrancisj_bareeann_1987]: https://ntrs.nasa.gov/citations/19870015000
 [research_carbonara_binnie_1938]: https://doi.org/10.2514/8.678
-[research_card_hatch_2024]: https://doi.org/10.1109/ietc61393.2024.10564372
 [research_care_fourneaux_2020]: https://doi.org/10.1016/j.flowmeasinst.2020.101714
 [research_carico_1998]: https://doi.org/10.21236/ada350677
 [research_carinevioladsouza_drbasawaraj_2015]: https://doi.org/10.17577/ijertv4is060764
@@ -21856,21 +19996,17 @@ computable in one line from the lift equation.
 [research_castner_2015]: https://doi.org/10.2514/6.2015-2263
 [research_castner_zaman_2017]: https://doi.org/10.2514/1.c033623
 [research_catak_altunkaya_2024]: https://doi.org/10.1016/j.ifacol.2025.01.182
-[research_catania_pomaranzi_2026]: https://doi.org/10.1016/j.jfluidstructs.2026.104538
 [research_catastrophic_failure_1985]: https://doi.org/10.1016/0026-2714(85)90536-0
 [research_cavalcanti_uehara_2026]: https://doi.org/10.2514/1.c038528
 [research_cavallo_demaria_1990]: https://doi.org/10.1016/s1474-6670(17)51895-9
-[research_caverly_2000]: https://doi.org/10.21236/ada374652
 [research_caverly_forbes_2018]: https://doi.org/10.2514/6.2018-0601
 [research_cavin_howze_1976]: https://doi.org/10.2514/3.44532
 [research_cebeci_hefazi_1995]: https://doi.org/10.2514/3.12391
 [research_cebeci_roknaldin_1993]: https://doi.org/10.2514/6.1993-3502
 [research_celi_1991]: https://doi.org/10.2514/3.45991
-[research_celik_meral_2019]: https://doi.org/10.1016/j.energy.2019.115850
 [research_celis_cadarso_2024]: https://doi.org/10.1109/wsc63780.2024.10838728
 [research_cen_li_2018]: https://doi.org/10.2514/6.2018-0775
 [research_cenkci_1991]: https://doi.org/10.21236/ada241143
-[research_centralization_scope_2016]: https://doi.org/10.1017/cbo9781316415832.009
 [research_cetin_kandemir_2017]: https://doi.org/10.1117/12.2262549
 [research_cetin_kutay_2016]: https://doi.org/10.1109/icmae.2016.7549576
 [research_chabanenko_yurchuk_2024]: https://doi.org/10.1109/apuavd64488.2024.10765848
@@ -21878,7 +20014,6 @@ computable in one line from the lift equation.
 [research_chabukswar_mullen_2025]: https://doi.org/10.12783/shm2025/37485
 [research_chaderjian_1992]: https://doi.org/10.2514/6.1992-4428
 [research_chaderjian_schiff_1996]: https://doi.org/10.2514/3.46908
-[research_chadi_belghar_2025]: https://doi.org/10.2478/adms-2025-0013
 [research_chadwick_1995]: https://doi.org/10.21236/ada328973
 [research_chae_choi_2018]: https://doi.org/10.2514/6.2018-0645
 [research_chai_2024]: https://doi.org/10.5220/0013486400004619
@@ -21891,7 +20026,6 @@ computable in one line from the lift equation.
 [research_chakravarty_vagners_1983]: https://doi.org/10.23919/acc.1983.4788220
 [research_chalkcr_1980]: https://ntrs.nasa.gov/citations/19810009468
 [research_challa_ratnoo_2021]: https://doi.org/10.2514/1.g005409
-[research_chalupa_janota_2025]: https://doi.org/10.1109/pc65047.2025.11047472
 [research_chambers_1980]: https://doi.org/10.2514/6.1980-1580
 [research_chambers_bowman_1971]: https://doi.org/10.2514/3.59136
 [research_chambers_titchener_2019]: https://doi.org/10.2514/6.2019-2101
@@ -21919,8 +20053,6 @@ computable in one line from the lift equation.
 [research_chang_zhang_2022]: https://doi.org/10.1109/icus55513.2022.9986552
 [research_chang_zhao_2016]: https://doi.org/10.2514/1.c033882
 [research_changchuan_lan_2018]: https://doi.org/10.2514/1.c034162
-[research_channapathi_thatikonda_2020]: https://doi.org/10.2139/ssrn.3559581
-[research_chao_jing_2015]: https://doi.org/10.1109/ccdc.2015.7162067
 [research_chao_wujie_2017]: https://doi.org/10.1109/cmame.2017.8540126
 [research_chao_zhenghong_2019]: https://doi.org/10.1088/1742-6596/1215/1/012008
 [research_chaofeng_pengyao_2016]: https://doi.org/10.1109/cgncc.2016.7828869
@@ -21928,7 +20060,6 @@ computable in one line from the lift equation.
 [research_chaparro_fujiwara_2016]: https://doi.org/10.2514/6.2016-3418
 [research_chapeljim_stancliffedevin_2017]: https://ntrs.nasa.gov/citations/20170004851
 [research_chapman_clarkson_1992]: https://doi.org/10.1117/12.131948
-[research_chapter_6_2018]: https://doi.org/10.1515/9781400890187-008
 [research_charalambous_kourtellaris_2022]: https://doi.org/10.23919/ecc55457.2022.9838086
 [research_charlesjdonlan_1944]: https://ntrs.nasa.gov/citations/19770022126
 [research_chasalevris_gavalas_2025]: https://doi.org/10.1115/gt2025-151415
@@ -21943,40 +20074,29 @@ computable in one line from the lift equation.
 [research_chavez_schmidt_1993]: https://doi.org/10.2514/6.1993-3763
 [research_chavez_schmidt_1994]: https://doi.org/10.2514/6.1994-3629
 [research_chawla_vandalsem_1992]: https://doi.org/10.2514/6.1992-4254
-[research_che_2022]: https://doi.org/10.1016/j.oceaneng.2022.111380
 [research_che_lian_2021]: https://doi.org/10.1049/icp.2021.0285
 [research_che_zhang_2025]: https://doi.org/10.23919/ccc64809.2025.11178846
 [research_cheatham_walker_1991]: https://doi.org/10.2514/3.46094
 [research_chebbi_tavoularis_1991]: https://doi.org/10.1063/1.858105
-[research_cheein_2013]: https://doi.org/10.1017/s0263574713000131
-[research_chefranov_2016]: https://doi.org/10.1134/s1063776116040038
 [research_chelihi_glida_2025]: https://doi.org/10.1007/s40435-025-01695-6
 [research_cheman_liu_2020]: https://doi.org/10.1109/icuas48674.2020.9214048
 [research_chen_1977]: https://doi.org/10.1111/j.1467-842x.1977.tb01074.x
 [research_chen_1984]: https://doi.org/10.1080/03610928408828854
 [research_chen_1997]: https://doi.org/10.1080/00949659708811789
-[research_chen_2001]: https://doi.org/10.21236/ada387357
-[research_chen_2009]: https://doi.org/10.21236/ada495057
 [research_chen_2016]: https://doi.org/10.1109/ccdc.2016.7531214
 [research_chen_2018]: https://doi.org/10.2991/acaai-18.2018.46
-[research_chen_2023]: https://doi.org/10.1109/icsp58490.2023.10248913
-[research_chen_2026]: https://doi.org/10.54254/2755-2721/2026.35826
 [research_chen_cai_2026]: https://doi.org/10.1109/tie.2025.3639811
 [research_chen_cen_2025]: https://doi.org/10.1002/rnc.70140
 [research_chen_chen_1993]: https://doi.org/10.23919/acc.1993.4792978
 [research_chen_chen_2015]: https://doi.org/10.1016/j.proeng.2014.12.613
-[research_chen_chen_2019]: https://doi.org/10.1016/j.advengsoft.2018.07.004
-[research_chen_chen_2023]: https://doi.org/10.1016/j.epsr.2023.109402
 [research_chen_chen_2024]: https://doi.org/10.1109/cdc56724.2024.10886066
 [research_chen_chen_2025]: https://doi.org/10.1109/aeeca65693.2025.00116
-[research_chen_cheng_2026]: https://doi.org/10.1016/j.conengprac.2026.107073
 [research_chen_deng_2016]: https://doi.org/10.1360/n092015-00053
 [research_chen_edwards_2018]: https://doi.org/10.1049/iet-cta.2017.0818
 [research_chen_edwards_2020]: https://doi.org/10.1016/j.automatica.2020.108829
 [research_chen_edwards_2022]: https://doi.org/10.1109/lcsys.2021.3090654
 [research_chen_fei_2015]: https://doi.org/10.1016/j.automatica.2014.11.015
 [research_chen_gao_2023]: https://doi.org/10.54254/2755-2721/9/20230085
-[research_chen_gao_2026]: https://doi.org/10.1016/j.applthermaleng.2026.132370
 [research_chen_ge_2022]: https://doi.org/10.2749/nanjing.2022.1161
 [research_chen_gray_2026]: https://doi.org/10.2514/6.2026-1489
 [research_chen_guan_2024]: https://doi.org/10.1016/j.applthermaleng.2024.123980
@@ -21984,7 +20104,6 @@ computable in one line from the lift equation.
 [research_chen_he_2020]: https://doi.org/10.3390/sym12040544
 [research_chen_he_2025]: https://doi.org/10.3390/app15084333
 [research_chen_hindson_1986]: https://doi.org/10.2514/3.20089
-[research_chen_hou_2018]: https://doi.org/10.1016/j.carbon.2018.01.021
 [research_chen_hou_2022]: https://doi.org/10.1117/12.2638576
 [research_chen_hu_2021]: https://doi.org/10.1016/j.ast.2021.106553
 [research_chen_hu_2024]: https://doi.org/10.1007/s42064-024-0224-6
@@ -21994,9 +20113,7 @@ computable in one line from the lift equation.
 [research_chen_hui_2026]: https://doi.org/10.1016/j.jmsy.2026.03.001
 [research_chen_ji_2017]: https://doi.org/10.4050/sm_2017_hq-2997
 [research_chen_jia_2017]: https://doi.org/10.1177/0021998317742477
-[research_chen_lestas_2025]: https://doi.org/10.1109/itecasia-pacific63742.2025.11345077
 [research_chen_li_2017]: https://doi.org/10.12783/dtetr/3rd/amma2017/14770
-[research_chen_li_2022]: https://doi.org/10.1016/j.applthermaleng.2022.119162
 [research_chen_li_2023]: https://doi.org/10.3390/e25101409
 [research_chen_li_2025]: https://doi.org/10.1109/icacrs67045.2025.11324281
 [research_chen_li_2025_b]: https://doi.org/10.3390/aerospace12010064
@@ -22022,21 +20139,16 @@ computable in one line from the lift equation.
 [research_chen_song_2025_b]: https://doi.org/10.1109/cac67268.2025.11487536
 [research_chen_sun_2022]: https://doi.org/10.1109/cmsda58069.2022.00021
 [research_chen_tang_2026]: https://doi.org/10.1007/s00362-026-01840-z
-[research_chen_velinsky_1992]: https://doi.org/10.1061/(asce)0733-947x(1992)118:5(711)
 [research_chen_vexler_2015]: https://doi.org/10.1016/j.csda.2014.09.010
 [research_chen_wang_2017]: https://doi.org/10.23919/chicc.2017.8028514
 [research_chen_wang_2018]: https://doi.org/10.23919/chicc.2018.8484160
-[research_chen_wang_2024]: https://doi.org/10.1016/j.corsci.2024.112097
 [research_chen_wang_2024_b]: https://doi.org/10.1109/access.2024.3409616
 [research_chen_webster_2006]: https://doi.org/10.21236/ada455274
 [research_chen_whidborne_2023]: https://doi.org/10.1016/j.automatica.2023.111119
 [research_chen_wu_2015]: https://doi.org/10.1115/gt2015-42346
-[research_chen_xu_2020]: https://doi.org/10.1080/00423114.2020.1838564
 [research_chen_xu_2022]: https://doi.org/10.1088/1742-6596/2228/1/012045
-[research_chen_yan_2023]: https://doi.org/10.1109/cvci59596.2023.10397448
 [research_chen_yang_2022]: https://doi.org/10.1088/1742-6596/2252/1/012063
 [research_chen_yang_2024]: https://doi.org/10.1109/cac63892.2024.10865453
-[research_chen_yin_2016]: https://doi.org/10.1109/chicc.2016.7554785
 [research_chen_zeng_2023]: https://doi.org/10.3390/electronics12163438
 [research_chen_zhang_2018]: https://doi.org/10.1016/j.ast.2018.07.004
 [research_chen_zhang_2024]: https://doi.org/10.1016/j.oceaneng.2024.117380
@@ -22047,12 +20159,10 @@ computable in one line from the lift equation.
 [research_chen_zhao_2025]: https://doi.org/10.1016/j.eswa.2024.125322
 [research_chen_zhong_2016]: https://doi.org/10.1016/j.automatica.2016.04.031
 [research_chen_zhou_2023]: https://doi.org/10.52202/070275-0010
-[research_chen_zhu_2022]: https://doi.org/10.1177/00202940221090549
 [research_chen_zhu_2023]: https://doi.org/10.1109/icnc59488.2023.10462770
 [research_cheney_1988]: https://doi.org/10.2514/6.1988-2125
 [research_cheney_holzer_1987]: https://doi.org/10.2514/6.1987-2950
 [research_cheng_cai_2019]: https://doi.org/10.1016/j.ifacol.2019.12.380
-[research_cheng_chuanxue_2015]: https://doi.org/10.1109/imccc.2015.19
 [research_cheng_li_1992]: https://doi.org/10.23919/acc.1992.4792364
 [research_cheng_pei_2021]: https://doi.org/10.1109/icuas51884.2021.9476758
 [research_cheng_yang_2025]: https://doi.org/10.1109/icras65818.2025.11108809
@@ -22083,23 +20193,19 @@ computable in one line from the lift equation.
 [research_chiavaroli_demartin_2018]: https://doi.org/10.1115/imece2018-86967
 [research_chih_peng_2026]: https://doi.org/10.1016/j.apm.2026.117000
 [research_chin_chacon_1987]: https://doi.org/10.2514/6.1987-2878
-[research_chingyawtzeng_1999]: https://doi.org/10.1109/48.809275
 [research_chipman_zislin_1983]: https://doi.org/10.2514/3.48204
 [research_chisci_1996]: https://doi.org/10.1049/cp:19960752
 [research_chiu_chand_1991]: https://doi.org/10.23919/acc.1991.4791487
 [research_cho_cho_1995]: https://doi.org/10.1007/bf02953616
-[research_cho_jiang_2016]: https://doi.org/10.1109/tns.2016.2614579
 [research_cho_nagati_1995]: https://doi.org/10.2514/6.1995-3498
 [research_choe_baruh_1992]: https://doi.org/10.2514/3.20799
 [research_choi_cha_2019]: https://doi.org/10.1080/01691864.2019.1586760
 [research_choi_cho_2023]: https://doi.org/10.3390/engproc2023036006
 [research_choi_jung_2019]: https://doi.org/10.3390/app9071290
 [research_choi_kim_2023]: https://doi.org/10.3390/drones7070418
-[research_choi_kwon_2018]: https://doi.org/10.1109/ictc.2018.8539644
 [research_choi_lee_2015]: https://doi.org/10.12783/shm2015/316
 [research_choi_shrestha_2017]: https://doi.org/10.1177/1475921716686963
 [research_choi_terao_2021]: https://doi.org/10.1016/j.flowmeasinst.2021.102074
-[research_chokor_talj_2019]: https://doi.org/10.1016/j.ifacol.2019.09.071
 [research_chopra_mittal_2021]: https://doi.org/10.1017/jfm.2021.895
 [research_chou_1991]: https://doi.org/10.1016/0167-6911(91)90040-l
 [research_choudhry_badshah_2017]: https://doi.org/10.1117/12.2266790
@@ -22122,13 +20228,11 @@ computable in one line from the lift equation.
 [research_chukanov_chukanov_2024]: https://doi.org/10.24147/2222-8772.2024.3.84-93
 [research_chung_kim_2019]: https://doi.org/10.3938/npsm.69.776
 [research_chung_mcneill_1993]: https://doi.org/10.2514/6.1993-4871
-[research_chunyisu_stepanenko_1994]: https://doi.org/10.1109/cca.1994.381421
 [research_chunzhi_jianying_2015]: https://doi.org/10.1109/chicc.2015.7260078
 [research_ciavarelli_brictson_1978]: https://doi.org/10.1177/107118137802200198
 [research_ciliberti_nicolosi_2025]: https://doi.org/10.1186/s42774-024-00189-x
 [research_circiu_mihai_2023]: https://doi.org/10.19062/2247-3173.2023.24.18
 [research_citron_1986]: https://doi.org/10.2514/6.1986-1979
-[research_cjacob_wardensmith_2017]: https://doi.org/10.5220/0006471000840088
 [research_cjoplin_dallery_1996]: https://doi.org/10.2514/6.1996-3726
 [research_clark_1967]: https://doi.org/10.21236/ad0654327
 [research_clark_1974]: https://doi.org/10.2514/6.1974-967
@@ -22137,7 +20241,6 @@ computable in one line from the lift equation.
 [research_clark_hallow_1972]: https://doi.org/10.21236/ad0753214
 [research_clark_letron_1989]: https://doi.org/10.2514/3.20392
 [research_clark_walters_1986]: https://doi.org/10.2514/3.45319
-[research_clarke_1980]: https://doi.org/10.4271/801057
 [research_clarke_hwang_2020]: https://doi.org/10.2514/6.2020-0136
 [research_cliff_1989]: https://doi.org/10.2514/6.1989-3480
 [research_cliff_thompson_1992]: https://doi.org/10.2514/6.1992-4489
@@ -22156,8 +20259,6 @@ computable in one line from the lift equation.
 [research_cockburn_tannenbaum_1996]: https://doi.org/10.1080/00207179608921858
 [research_cockrell_harwood_1986]: https://doi.org/10.2514/6.1986-2470
 [research_coe_dunbar_2019]: https://doi.org/10.1139/juvs-2017-0023
-[research_cohen_1995]: https://doi.org/10.1103/physreve.52.5565
-[research_cohen_2015]: https://doi.org/10.1088/0031-8949/2015/t165/014032
 [research_cohn_dusa_1985]: https://doi.org/10.2514/6.1985-1466
 [research_colbert_quinn_2023]: https://doi.org/10.2514/1.c036820
 [research_coletti_faruque_2022]: https://doi.org/10.2514/6.2022-0556
@@ -22167,8 +20268,6 @@ computable in one line from the lift equation.
 [research_collard_jorns_2018_b]: https://doi.org/10.2514/6.2018-4729.c1
 [research_collierjr_1993]: https://doi.org/10.2514/6.1993-2987
 [research_collins_2016]: https://doi.org/10.5162/etc2016/8.2
-[research_collins_patton_1995]: https://doi.org/10.1016/s1474-6670(17)44731-8
-[research_collins_wright_2022]: https://doi.org/10.1007/s44205-022-00031-w
 [research_collins_zhao_2004]: https://doi.org/10.23919/acc.2004.1384479
 [research_collinsjr_2005]: https://doi.org/10.21236/ada438337
 [research_comer_chakraborty_2026]: https://doi.org/10.4050/f-0082-2026-0189
@@ -22214,7 +20313,6 @@ computable in one line from the lift equation.
 [research_corbetta_jarvis_2022]: https://doi.org/10.1109/aero53065.2022.9843796
 [research_cord_1989]: https://doi.org/10.2514/6.1989-3357
 [research_cord_suchomel_1984]: https://doi.org/10.2514/6.1984-2386
-[research_coric_deur_2016]: https://doi.org/10.1080/00423114.2016.1222075
 [research_cornelius_lucius_1993]: https://doi.org/10.2514/6.1993-3261
 [research_cornelius_lucius_1993_b]: https://doi.org/10.2514/6.1993-2959
 [research_cornelius_lucius_1994]: https://doi.org/10.2514/3.46566
@@ -22229,7 +20327,6 @@ computable in one line from the lift equation.
 [research_corsiglia_olson_1984]: https://doi.org/10.2514/6.1984-601
 [research_cosentinogaryb_2008]: https://ntrs.nasa.gov/citations/20080014868
 [research_cosenza_vos_2017]: https://doi.org/10.2514/6.2017-3763
-[research_cossalter_dalio_1998]: https://doi.org/10.4271/983022
 [research_cossar_1999]: https://doi.org/10.1049/ic:19990831
 [research_costa_dantas_2025]: https://doi.org/10.1109/access.2025.3563811
 [research_costes_1988]: https://doi.org/10.2514/6.1988-4160
@@ -22241,12 +20338,10 @@ computable in one line from the lift equation.
 [research_cotton_1978]: https://doi.org/10.21236/ada059704
 [research_cotton_1979]: https://doi.org/10.21236/ada067737
 [research_cottonstaceyj_bjarkelisaj_1994]: https://ntrs.nasa.gov/citations/19950004446
-[research_coughlin_krall_1986]: https://doi.org/10.1109/aps.1986.1149673
 [research_counterdn_brintonbc_1975]: https://ntrs.nasa.gov/citations/19750061533
 [research_coursey_quinonesgrueiro_2023]: https://doi.org/10.1109/smartcomp58114.2023.00038
 [research_courtin_mahseredjian_2021]: https://doi.org/10.2514/6.2021-3220
 [research_cousins_obrien_1985]: https://doi.org/10.2514/6.1985-1349
-[research_couto_kinnaert_2018]: https://doi.org/10.1016/j.ifacol.2018.09.536
 [research_covella_fantuzzi_2023]: https://doi.org/10.23919/acc55779.2023.10156169
 [research_covino_healy_1991]: https://doi.org/10.21236/ada237383
 [research_coward_rupp_1982]: https://doi.org/10.1037/e440622004-001
@@ -22274,14 +20369,12 @@ computable in one line from the lift equation.
 [research_crites_rueger_1992]: https://doi.org/10.2514/6.1992-3983
 [research_croce_suzzi_2024]: https://doi.org/10.1115/ht2024-131333
 [research_crombie_moorhouse_1980]: https://doi.org/10.21236/ada088629
-[research_croneis_1990]: https://doi.org/10.3776/ncl.v48i3.2386
 [research_croom_fratello_1993]: https://doi.org/10.2514/6.1993-3674
 [research_croom_grafton_1982]: https://doi.org/10.2514/6.1982-245
 [research_crosthwait_1970]: https://doi.org/10.2514/3.44216
 [research_croston_griffin_1967]: https://doi.org/10.2514/3.28846
 [research_crown_1950]: https://doi.org/10.21236/ad0062509
 [research_cui_azuara_2021]: https://doi.org/10.1177/14759217211023934
-[research_cui_dong_2018]: https://doi.org/10.1061/9780784480915.217
 [research_cui_khoo_2023]: https://doi.org/10.1063/5.0155120
 [research_cui_li_2020]: https://doi.org/10.23919/ccc50068.2020.9188431
 [research_cui_liu_2023]: https://doi.org/10.1109/itnec56291.2023.10082525
@@ -22304,7 +20397,6 @@ computable in one line from the lift equation.
 [research_curley_1991]: https://doi.org/10.1108/eb037169
 [research_curran_craig_1973]: https://doi.org/10.21236/ad0769481
 [research_curtiss_1971]: https://doi.org/10.2514/3.59098
-[research_cusanelli_carpenter_2007]: https://doi.org/10.21236/ada473572
 [research_cusator_brown_2024]: https://doi.org/10.1115/gt2024-126747
 [research_cusher_gopalarathnam_2006]: https://doi.org/10.2514/6.2006-3320
 [research_cusimano_johnson_1994]: https://doi.org/10.2514/6.1994-2120
@@ -22318,7 +20410,6 @@ computable in one line from the lift equation.
 [research_dagomes_retnowati_2020]: https://doi.org/10.28989/vortex.v1i1.702
 [research_dagostino_meo_2019]: https://doi.org/10.12783/shm2019/32168
 [research_dahlenikraemer_villani_2024]: https://doi.org/10.2514/1.i011253
-[research_dai_chen_2022]: https://doi.org/10.3390/s22030845
 [research_dai_nikolaidis_2019]: https://doi.org/10.33737/gpps19-bj-049
 [research_dai_yang_2017]: https://doi.org/10.1016/j.conengprac.2016.11.013
 [research_daiber_bomba_1995]: https://doi.org/10.4271/951431
@@ -22331,7 +20422,6 @@ computable in one line from the lift equation.
 [research_dam_pirasaci_2022]: https://doi.org/10.1108/aeat-10-2021-0311
 [research_dancila_botez_2020]: https://doi.org/10.1177/0954410020945555
 [research_dang_krishnamoorthy_2021]: https://doi.org/10.1007/s00362-021-01255-y
-[research_danko_janosovsky_2019]: https://doi.org/10.1016/j.jlp.2018.12.006
 [research_dannenhoffer_green_2017]: https://doi.org/10.2514/6.2017-0299
 [research_danowsky_lieu_2016]: https://doi.org/10.2514/6.2016-1749
 [research_danowsky_schmidt_2017]: https://doi.org/10.2514/6.2017-1394
@@ -22346,17 +20436,14 @@ computable in one line from the lift equation.
 [research_darden_komerath_1997]: https://doi.org/10.2514/2.51
 [research_darden_peterson_1995]: https://doi.org/10.2514/6.1995-3468
 [research_darhi_dvorjetski_2025]: https://doi.org/10.3390/electronics15010141
-[research_das_chakraborty_2024]: https://doi.org/10.1515/cppm-2024-0081
 [research_das_longo_1995]: https://doi.org/10.2514/3.46782
 [research_das_mankodi_2023]: https://doi.org/10.2514/6.2023-3010
 [research_das_mankodi_2024]: https://doi.org/10.1115/gt2024-128990
 [research_das_mankodi_2025]: https://doi.org/10.2514/1.b39877
 [research_das_mankodi_2025_b]: https://doi.org/10.1115/1.4067507
 [research_dasguptad_krishnakumark_2004]: https://ntrs.nasa.gov/citations/20050010139
-[research_dash_palanthandalammadapusi_2022]: https://doi.org/10.1142/s0219519422500476
 [research_daskiran_huff_2017]: https://doi.org/10.2514/6.2017-0934
 [research_data_acquisition_1980]: https://doi.org/10.1177/002029408001300307
-[research_dattatreya_venkatesh_1996]: https://doi.org/10.1109/3468.477863
 [research_daughaday_duwaldt_1955]: https://doi.org/10.21236/ad0103817
 [research_davenport_dixon_1974]: https://doi.org/10.21236/ada002546
 [research_davidffisher_davidmrichwine_1992]: https://ntrs.nasa.gov/citations/19930027276
@@ -22365,7 +20452,6 @@ computable in one line from the lift equation.
 [research_davidsonjohnb_andrisanidominickii_1996]: https://ntrs.nasa.gov/citations/19970008392
 [research_davidsonjohnb_murphypatrickc_1998]: https://ntrs.nasa.gov/citations/19990008184
 [research_davidsotresramos_jesusriveracortez_2020]: https://doi.org/10.17654/me020030085
-[research_davidtaylormodelbasinwashingtondc_1960]: https://doi.org/10.21236/ad0442036
 [research_davies_1981]: https://doi.org/10.1115/1.3139669
 [research_davino_flattery_1985]: https://doi.org/10.2514/6.1985-4042
 [research_davis_1973]: https://doi.org/10.21236/ad0781809
@@ -22381,8 +20467,6 @@ computable in one line from the lift equation.
 [research_deak_kowalik_2019]: https://doi.org/10.13164/conf.read.2018.15
 [research_dean_pagano_2015]: https://doi.org/10.1093/jssam/smv024
 [research_deangelis_1981]: https://doi.org/10.2514/6.1981-2450
-[research_deargandona_1995]: https://doi.org/10.1049/cp:19950719
-[research_deatz_forrest_1998]: https://doi.org/10.21236/ada350545
 [research_debecdelievre_kroo_2021]: https://doi.org/10.2514/6.2021-3063
 [research_deboerfrederic_barbierchristian_1993]: https://ntrs.nasa.gov/citations/19940019450
 [research_decelis_cadarso_2017]: https://doi.org/10.5220/0006393203770385
@@ -22420,7 +20504,6 @@ computable in one line from the lift equation.
 [research_dellavecchia_corcione_2017]: https://doi.org/10.1177/1045389x17704521
 [research_delorenzo_1990]: https://doi.org/10.2514/3.20544
 [research_delpozodominguez_lopezleones_2023]: https://doi.org/10.2514/6.2023-4498
-[research_demarchi_guidotti_2022]: https://doi.org/10.7148/2022-0310
 [research_demarchi_haning_1978]: https://doi.org/10.21236/ada060326
 [research_demarco_donza_2023]: https://doi.org/10.1007/s11071-023-08725-y
 [research_demedeiros_vandepitte_2017]: https://doi.org/10.1177/1475921716688442
@@ -22445,9 +20528,7 @@ computable in one line from the lift equation.
 [research_depadua_preisigheviana_2026]: https://doi.org/10.2514/6.2026-4237
 [research_departmentoftheairforcewashingtondc_1984]: https://doi.org/10.21236/ada362751
 [research_depaulacastro_paulino_2021]: https://doi.org/10.1007/s40300-021-00225-6
-[research_depenbrock_marshall_1994]: https://doi.org/10.1002/etep.4450040602
 [research_deponti_smeur_2026]: https://doi.org/10.1109/icuas69441.2026.11598575
-[research_deppa_hauser_1989]: https://doi.org/10.4271/891108
 [research_depurumohan_greenblatt_2015]: https://doi.org/10.1007/s00348-015-1916-8
 [research_derooij_vanbaelen_2023]: https://doi.org/10.2514/1.i011191
 [research_deschaux_gouaisbaut_2019]: https://doi.org/10.1109/cdc40024.2019.9030113
@@ -22470,16 +20551,13 @@ computable in one line from the lift equation.
 [research_dever_jansen_2022]: https://doi.org/10.1109/itec53557.2022.9814005
 [research_devi_2019]: https://doi.org/10.21275/sr231208204149
 [research_devi_2021]: https://doi.org/10.21275/sr231208203343
-[research_devi_dalal_2025]: https://doi.org/10.1109/cins67018.2025.11412019
 [research_devilliers_miloh_1988]: https://doi.org/10.1007/bf00939864
 [research_devilliers_wright_1987]: https://doi.org/10.1016/0898-1221(87)90124-6
-[research_devine_rafferty_2016]: https://doi.org/10.1109/control.2016.7737564
 [research_devore_gandhi_2016]: https://doi.org/10.2514/6.2016-0376
 [research_devries_vankampen_2019]: https://doi.org/10.2514/6.2019-0144
 [research_dewangga_sasongko_2019]: https://doi.org/10.1109/acdt47198.2019.9072781
 [research_dewar_formentini_2021]: https://doi.org/10.1049/pel2.12056
 [research_dexter_1993]: https://doi.org/10.1243/pime_proc_1993_207_241_02
-[research_dey_mohon_2016]: https://doi.org/10.1109/tcst.2016.2538200
 [research_dey_ratnoo_2020]: https://doi.org/10.2514/6.2020-2076
 [research_dghim_ferchichi_2018]: https://doi.org/10.1016/j.expthermflusci.2018.05.011
 [research_dghim_ferchichi_2018_b]: https://doi.org/10.2514/6.2018-3372
@@ -22493,8 +20571,6 @@ computable in one line from the lift equation.
 [research_dhondt_degryse_2022]: https://doi.org/10.4236/jtts.2022.121009
 [research_di_2024]: https://doi.org/10.1109/meae62008.2024.11026576
 [research_di_lu_2026]: https://doi.org/10.1080/21680566.2025.2609608
-[research_diachuk_easa_2024]: https://doi.org/10.3390/app14041579
-[research_dianov_2021]: https://doi.org/10.1109/aced50605.2021.9462266
 [research_dias_2015]: https://doi.org/10.2514/6.2015-1477
 [research_dias_2015_b]: https://doi.org/10.2514/6.2015-2705
 [research_dias_2016]: https://doi.org/10.2514/6.2016-4164
@@ -22516,10 +20592,8 @@ computable in one line from the lift equation.
 [research_digital_model_reference_1994]: https://doi.org/10.1016/0967-0661(94)90529-0
 [research_dimatteo_berten_2024]: https://doi.org/10.1115/gt2024-123819
 [research_ding_che_2018]: https://doi.org/10.1109/gncc42960.2018.9018871
-[research_ding_ji_2023]: https://doi.org/10.1109/scems60579.2023.10379270
 [research_ding_li_2021]: https://doi.org/10.1109/ccdc52312.2021.9602828
 [research_ding_liu_2017]: https://doi.org/10.1049/iet-epa.2016.0815
-[research_ding_liu_2024]: https://doi.org/10.1016/j.jlp.2024.105456
 [research_ding_pan_2016]: https://doi.org/10.1080/00207179.2016.1138144
 [research_ding_qian_2020]: https://doi.org/10.1088/1757-899x/751/1/012054
 [research_ding_xu_2018]: https://doi.org/10.1115/gt2018-75375
@@ -22536,10 +20610,8 @@ computable in one line from the lift equation.
 [research_divakar_bl_2022]: https://doi.org/10.1109/iihc55949.2022.10060718
 [research_dixon_1980]: https://doi.org/10.21236/ada086754
 [research_dixon_martin_1989]: https://doi.org/10.2514/6.1989-3323
-[research_djadane_makni_2025]: https://doi.org/10.1109/med64031.2025.11073453
 [research_djellal_mayache_2023]: https://doi.org/10.5121/csit.2023.132303
 [research_djordjevic_1983]: https://doi.org/10.1016/0167-6911(83)90057-9
-[research_djouani_hamam_1996]: https://doi.org/10.1016/0378-4754(95)00064-x
 [research_dobosbubno_hartsook_1977]: https://doi.org/10.21236/ada062008
 [research_dobrokhodov_karpenko_2026]: https://doi.org/10.2514/6.2026-0754
 [research_dodds_vittek_1998]: https://doi.org/10.1049/ic:19980347
@@ -22552,7 +20624,6 @@ computable in one line from the lift equation.
 [research_dogruer_2023]: https://doi.org/10.24012/dumf.1271137
 [research_doiron_matida_2026]: https://doi.org/10.2514/6.2026-4216
 [research_dolega_kopecki_2017]: https://doi.org/10.2478/tar-2017-0013
-[research_dollinger_markgraf_2016]: https://doi.org/10.1109/ecc.2016.7810415
 [research_doman_1995]: https://doi.org/10.21236/ada305053
 [research_doman_2015]: https://doi.org/10.2514/1.g000845
 [research_doman_2016]: https://doi.org/10.2514/6.2016-1622
@@ -22564,10 +20635,8 @@ computable in one line from the lift equation.
 [research_dong_da_2024]: https://doi.org/10.1038/s41598-023-50038-y
 [research_dong_glynn_2019]: https://doi.org/10.1109/wsc40007.2019.9004929
 [research_dong_he_2025]: https://doi.org/10.3390/aerospace12020073
-[research_dong_hu_2018]: https://doi.org/10.1016/j.ultras.2017.09.014
 [research_dong_huang_2015]: https://doi.org/10.2514/1.c032764
 [research_dong_jiao_2016]: https://doi.org/10.1109/aus.2016.7748168
-[research_dong_li_2023]: https://doi.org/10.1016/j.conengprac.2023.105486
 [research_dong_lu_2016]: https://doi.org/10.1155/2016/5037678
 [research_dong_sato_2025]: https://doi.org/10.12783/shm2025/37557
 [research_dong_shi_2015]: https://doi.org/10.2991/ssemse-15.2015.361
@@ -22595,12 +20664,10 @@ computable in one line from the lift equation.
 [research_doostmohammadian_zarrabi_2022]: https://doi.org/10.1080/00207179.2022.2117084
 [research_doroshin_2017]: https://doi.org/10.1016/j.cnsns.2017.01.029
 [research_doroshin_2018]: https://doi.org/10.1016/j.cnsns.2017.11.008
-[research_dorostian_moradmand_2021]: https://doi.org/10.1109/iccia52082.2021.9403550
 [research_dorozhko_degtyarenko_2019]: https://doi.org/10.15407/knit2019.05.011
 [research_dorr_moralez_1994]: https://doi.org/10.2514/3.46615
 [research_dorsz_glass_2023]: https://doi.org/10.1137/22m1509710
 [research_dosch_2024]: https://doi.org/10.52202/078369-0043
-[research_dostal_2024]: https://doi.org/10.12968/s0047-9624(25)60014-9
 [research_dostal_bobal_2001]: https://doi.org/10.23919/ecc.2001.7076395
 [research_dou_duan_2016]: https://doi.org/10.1108/aeat-05-2014-0073
 [research_dou_tang_2023]: https://doi.org/10.1109/iccar57134.2023.10151765
@@ -22608,8 +20675,6 @@ computable in one line from the lift equation.
 [research_douglas_mackler_1990]: https://doi.org/10.2514/6.1990-3333
 [research_douglasaircraftcolongbeachca_1963]: https://doi.org/10.21236/ad0406168
 [research_dowden_bessette_1987]: https://doi.org/10.4271/871348
-[research_downey_duffy_1975]: https://doi.org/10.21236/ada076787
-[research_downs_kootbally_2021]: https://doi.org/10.1109/arso51874.2021.9542831
 [research_dozzi_riedwyl_1984]: https://doi.org/10.1002/bimj.4710260506
 [research_drabek_1960]: https://doi.org/10.1115/60-gthyd-7
 [research_drag_device_1998]: https://doi.org/10.1108/aeat.1998.12770bad.001
@@ -22620,12 +20685,10 @@ computable in one line from the lift equation.
 [research_drewiacki_josesilvestre_2020_b]: https://doi.org/10.2514/6.2020-0282.c1
 [research_drewiacki_moreira_2025]: https://doi.org/10.2514/6.2025-1440
 [research_drewiacki_silvestre_2016]: https://doi.org/10.2514/6.2016-3539
-[research_driver_assisted_1999]: https://doi.org/10.1109/acc.1999.786125
 [research_drummond_1971]: https://doi.org/10.21236/ad0729870
 [research_druzin_gorevich_2020]: https://doi.org/10.38013/2542-0542-2020-2-6-31
 [research_ds_quaranta_2025]: https://doi.org/10.4050/f-0081-2025-0320
 [research_ds_ramachandra_2019]: https://doi.org/10.11591/ijece.v9i5.pp3423-3431
-[research_dsouza_mishra_1992]: https://doi.org/10.1117/12.130401
 [research_du_2024]: https://doi.org/10.54254/2755-2721/103/20241042
 [research_du_cocquempot_2017]: https://doi.org/10.1016/j.ifacol.2017.08.2308
 [research_du_jiang_2023]: https://doi.org/10.1002/rnc.6688
@@ -22638,13 +20701,10 @@ computable in one line from the lift equation.
 [research_duan_lei_2023]: https://doi.org/10.1109/taes.2022.3221691
 [research_duan_okwudire_2018]: https://doi.org/10.1109/tmech.2018.2796500
 [research_duan_wang_2025]: https://doi.org/10.5220/0013431700003929
-[research_duan_wang_2025_b]: https://doi.org/10.1109/sgee68429.2025.11385651
-[research_dubose_2018]: https://doi.org/10.5006/mp2018_57_3-14
 [research_duggan_bhandari_2021]: https://doi.org/10.1109/icuas51884.2021.9476857
 [research_duhl_thompson_1977]: https://doi.org/10.2514/3.58816
 [research_duke_jones_1984]: https://doi.org/10.2514/3.45041
 [research_dukes_1970]: https://doi.org/10.21236/ad0871424
-[research_dumitrascu_dumitrascu_2024]: https://doi.org/10.3390/engproc2024076022
 [research_dung_2026]: https://doi.org/10.63680/ijsate0726038.32
 [research_dungan_clark_1994]: https://doi.org/10.2514/6.1994-2138
 [research_dunham_hencey_2017]: https://doi.org/10.23919/acc.2017.7963577
@@ -22653,7 +20713,6 @@ computable in one line from the lift equation.
 [research_dunlap_porter_1971]: https://doi.org/10.21236/ad0725741
 [research_dunn_leong_1981]: https://doi.org/10.21236/ada103922
 [research_dupuy_1986]: https://doi.org/10.2307/1988011
-[research_durai_song_2026]: https://doi.org/10.1109/oceans66983.2026.11616967
 [research_durham_1994]: https://doi.org/10.2514/6.1994-3683
 [research_durham_1995]: https://doi.org/10.2514/3.21509
 [research_durham_lutze_1993]: https://doi.org/10.2514/6.1993-3625
@@ -22666,34 +20725,24 @@ computable in one line from the lift equation.
 [research_dussler_palacios_2024]: https://doi.org/10.2514/1.j063174
 [research_dutra_2019]: https://doi.org/10.2514/6.2019-3087
 [research_dutra_2025]: https://doi.org/10.2514/6.2025-1253
-[research_dutta_ganguly_2020]: https://doi.org/10.1049/iet-gtd.2020.0378
 [research_dutta_raquepas_2020]: https://doi.org/10.2514/6.2020-0234
-[research_duvvuri_detroja_2016]: https://doi.org/10.1109/systol.2016.7739804
 [research_dvorak_ruzicka_2015]: https://doi.org/10.12783/shm2015/208
 [research_dwivedi_anitha_2022]: https://doi.org/10.1002/masy.202100364
 [research_dwivedi_navaneetha_2022]: https://doi.org/10.47893/gret.2022.1071
-[research_dwivedi_palandage_2026]: https://doi.org/10.1063/5.0310012
 [research_dwivedi_pandey_2017]: https://doi.org/10.23919/iccas.2017.8204246
 [research_dwivedi_pandey_2021]: https://doi.org/10.1002/asjc.2635
 [research_dwyer_1994]: https://doi.org/10.2514/6.1994-2158
 [research_dwyer_lutze_1993]: https://doi.org/10.2514/6.1993-3778
 [research_dynamic_analysis_1984]: https://doi.org/10.1177/002029408401700407
 [research_dynamic_scheduling_1992]: https://doi.org/10.1109/37.158896
-[research_dynamic_scheduling_1993]: https://doi.org/10.1016/0967-0661(93)92174-3
 [research_dynamic_thrust_2023]: https://doi.org/10.48047/nq.2020.18.8.nq20247
-[research_dyson_2000]: https://doi.org/10.21236/ada384541
 [research_dyvnych_bezkorovainyi_2025]: https://doi.org/10.1109/msnmc61130.2025.11399684
 [research_dzhurynskyi_filipkovskij_2025]: https://doi.org/10.32620/oikit.2025.106.02
-[research_dziedzoave_ellis_1999]: https://doi.org/10.1016/s0956-7135(98)00153-4
 [research_dzikus_terekhov_2018]: https://doi.org/10.2514/6.2018-3499
-[research_e_2019]: https://doi.org/10.22214/ijraset.2019.4085
 [research_eastep_venkayya_1984]: https://doi.org/10.2514/3.45063
-[research_eastridge_buck_2025]: https://doi.org/10.23919/oceans59106.2025.11244990
 [research_eberhardt_ward_1999]: https://doi.org/10.2514/6.1999-4042
-[research_eberhart_arndt_2026]: https://doi.org/10.1080/00423114.2026.2624454
 [research_eberleinaj_lahmtg_1976]: https://ntrs.nasa.gov/citations/19760008973
 [research_ebihara_sebe_2020]: https://doi.org/10.1109/lcsys.2020.2991480
-[research_eda_1978]: https://doi.org/10.21236/ada061399
 [research_eddine_boulanouar_2020]: https://doi.org/10.3103/s0146411620010034
 [research_edelson_thole_2022]: https://doi.org/10.1115/gt2022-82326
 [research_ediga_ambati_2021]: https://doi.org/10.1007/s40435-021-00798-0
@@ -22718,19 +20767,15 @@ computable in one line from the lift equation.
 [research_ehrlich_singer_1996]: https://doi.org/10.1177/154193129604002478
 [research_eikenberry_ingram_1969]: https://doi.org/10.2514/6.1969-867
 [research_eilbert_hayslip_1989]: https://doi.org/10.2514/6.1989-3094
-[research_eilbrecht_stursberg_2018]: https://doi.org/10.23919/ecc.2018.8550422
 [research_eisenhut_strohmayer_2026]: https://doi.org/10.3390/aerospace13030292
 [research_ejaz_inoue_2025]: https://doi.org/10.1109/tcst.2024.3470533
 [research_ejeh_akhabue_2019]: https://doi.org/10.1016/j.rineng.2019.100037
 [research_ekaterinaris_coutley_1995]: https://doi.org/10.2514/3.46742
-[research_elarawi_vezy_2018]: https://doi.org/10.1016/j.bpj.2017.11.1043
-[research_elaroudi_2016]: https://doi.org/10.1109/iscas.2016.7527265
 [research_eldredge_mousavi_2026]: https://doi.org/10.2514/1.j066257
 [research_elebe_2025]: https://doi.org/10.2139/ssrn.5411303
 [research_elharabi_abdelkrim_2020]: https://doi.org/10.5013/ijssst.a.12.05.02
 [research_elimelech_stern_2018]: https://doi.org/10.1016/j.knosys.2018.07.039
 [research_ellerbroek_martin_2016]: https://doi.org/10.1016/j.ifacol.2016.10.481
-[research_ellinger_1956]: https://doi.org/10.1007/bf03377861
 [research_ellis_2004]: https://doi.org/10.1016/b978-012237461-6/50004-7
 [research_ellis_2012]: https://doi.org/10.1016/b978-0-12-385920-4.00003-5
 [research_ellis_kearney_1982]: https://doi.org/10.21236/adb064268
@@ -22738,14 +20783,10 @@ computable in one line from the lift equation.
 [research_ellison_ojala_1969]: https://doi.org/10.21236/ad0862052
 [research_elmobaraky_benjelloun_2026]: https://doi.org/10.1016/j.rineng.2026.110403
 [research_elsahhar_theunissen_2018]: https://doi.org/10.2514/6.2018-3373
-[research_elsasser_spiess_1996]: https://doi.org/10.1063/1.871948
 [research_elsayed_elbadawy_2024]: https://doi.org/10.1109/icstcc62912.2024.10744743
 [research_elsharkawy_valente_2024]: https://doi.org/10.2514/6.2024-4393
-[research_elyoussfi_oudghiri_2019]: https://doi.org/10.1063/1.5090644
 [research_elzebda_mook_1989]: https://doi.org/10.2514/3.45795
 [research_elzebda_nayfeh_1989]: https://doi.org/10.2514/3.45833
-[research_emhemed_binmamat_2015]: https://doi.org/10.1109/ascc.2015.7244883
-[research_emmanuele_barbareschi_2026]: https://doi.org/10.1109/ets69887.2026.11591637
 [research_enciu_2019]: https://doi.org/10.7763/ijmo.2019.v9.729
 [research_enciu_horn_2017]: https://doi.org/10.2514/6.2017-1638
 [research_end_to_end_flight_2020]: https://doi.org/10.12968/s1478-2774(23)50221-0
@@ -22767,10 +20808,7 @@ computable in one line from the lift equation.
 [research_enns_ozbay_1992]: https://doi.org/10.2514/3.20863
 [research_ennsdalef_bugajskidanielj_1994]: https://ntrs.nasa.gov/citations/19950007835
 [research_enriquezfernandez_bird_2025]: https://doi.org/10.2514/6.2025-2112
-[research_ensemble_machine_2021]: https://doi.org/10.33140/amlai.02.01.03
 [research_ensuring_flight_safety_2020]: https://doi.org/10.25633/etn.2020.10.11
-[research_ensuring_safety_2024]: https://doi.org/10.62919/hejk9341
-[research_environmentalresourcesltd_1977]: https://doi.org/10.1016/s0378-777x(77)80060-7
 [research_enzinger_1988]: https://doi.org/10.2514/6.1988-2120
 [research_epikhin_2021]: https://doi.org/10.1504/pcfd.2021.117468
 [research_eppig_1981]: https://doi.org/10.1109/oceans.1981.1151536
@@ -22815,7 +20853,6 @@ computable in one line from the lift equation.
 [research_ermeydan_kiyak_2017]: https://doi.org/10.1108/aeat-04-2015-0096
 [research_ernest_carroll_2016]: https://doi.org/10.4172/2167-0374.1000144
 [research_ernest_cohen_2016]: https://doi.org/10.4172/2167-0374.1000139
-[research_ertugrul_2024]: https://doi.org/10.21741/9781644903131-31
 [research_ertugrul_koyuncu_2023]: https://doi.org/10.2514/6.2023-1344
 [research_erturk_ozkan_2022]: https://doi.org/10.2514/6.2022-3647
 [research_erwin_clark_1964]: https://doi.org/10.21236/ad0609059
@@ -22826,9 +20863,7 @@ computable in one line from the lift equation.
 [research_esformes_1989]: https://doi.org/10.1016/0890-4332(89)90066-5
 [research_esker_sedrick_1972]: https://doi.org/10.2514/6.1972-1029
 [research_eslami_menhaj_2016]: https://doi.org/10.1109/icciautom.2016.7483140
-[research_esmailzadeh_1996]: https://doi.org/10.4271/962154
 [research_esteban_gavilan_2015]: https://doi.org/10.1016/j.ifacol.2015.08.070
-[research_eswaran_reddy_2016]: https://doi.org/10.12989/was.2016.23.5.421
 [research_evaluation_metrics_1989]: https://doi.org/10.1016/0003-6870(89)90038-0
 [research_evaluation_of_2022]: https://doi.org/10.18178/wcse.2022.06.002
 [research_evangelista_mori_2025]: https://doi.org/10.4050/f-0081-2025-0128
@@ -22836,15 +20871,11 @@ computable in one line from the lift equation.
 [research_evans_1983]: https://doi.org/10.21236/ada130114
 [research_everett_2021]: https://doi.org/10.1109/cdc45484.2021.9683154
 [research_ewald_groves_2017]: https://doi.org/10.12783/shm2017/14063
-[research_experimental_analysis_of_2019]: https://doi.org/10.33564/ijeast.2019.v04i03.073
 [research_experimental_investigation_2023]: https://doi.org/10.1063/5.0147213
 [research_experimental_investigations_2020]: https://doi.org/10.36884/jafm.13.04.31069
-[research_experimentation_with_1991]: https://doi.org/10.1109/vnis.1991.205858
 [research_eyi_2016]: https://doi.org/10.2514/6.2016-3975
 [research_eythjr_heffner_1992]: https://doi.org/10.2514/6.1992-4156
 [research_ezvan_batou_2016]: https://doi.org/10.1007/s00466-016-1348-1
-[research_fabry_1980]: https://doi.org/10.21236/ada094691
-[research_faedo_scarciotti_2021]: https://doi.org/10.1049/rpg2.12284
 [research_faessler_falanga_2017]: https://doi.org/10.1109/lra.2016.2640362
 [research_fagan_1996]: https://doi.org/10.1016/0010-4825(96)00006-6
 [research_fagan_1999]: https://doi.org/10.1016/s0010-4825(98)00047-x
@@ -22854,8 +20885,6 @@ computable in one line from the lift equation.
 [research_faleiro_pratt_1996]: https://doi.org/10.2514/6.1996-3909
 [research_faltot_pitelwelnitz_2018]: https://doi.org/10.1115/gt2018-76398
 [research_falunin_ulyanov_1968]: https://doi.org/10.1007/bf01029549
-[research_fam_1987]: https://doi.org/10.21236/ada179474
-[research_fan_2018]: https://doi.org/10.2139/ssrn.3303543
 [research_fan_du_2024]: https://doi.org/10.1115/gt2024-128983
 [research_fan_jia_2025]: https://doi.org/10.1007/s10586-025-05528-1
 [research_fan_jiang_2021]: https://doi.org/10.3390/aerospace8110336
@@ -22864,7 +20893,6 @@ computable in one line from the lift equation.
 [research_fan_li_2026]: https://doi.org/10.1115/1.4072311
 [research_fan_liang_2023]: https://doi.org/10.1109/icems59686.2023.10344655
 [research_fan_liu_2013]: https://doi.org/10.2514/6.2013-4217
-[research_fan_liu_2016]: https://doi.org/10.1109/aus.2016.7748025
 [research_fan_liu_2017]: https://doi.org/10.2514/1.g002222
 [research_fan_liu_2017_b]: https://doi.org/10.2514/6.2017-1721
 [research_fan_lutze_1994]: https://doi.org/10.2514/6.1994-3495
@@ -22874,29 +20902,22 @@ computable in one line from the lift equation.
 [research_fan_xiang_2017]: https://doi.org/10.1109/icuas.2017.7991405
 [research_fan_xu_2022]: https://doi.org/10.3390/machines10111033
 [research_fan_zhang_2026]: https://doi.org/10.3390/s26051635
-[research_fancher_1985]: https://doi.org/10.1080/00423118508968832
 [research_fang_cheng_2020]: https://doi.org/10.23919/ccc50068.2020.9188950
-[research_fang_gao_2024]: https://doi.org/10.1109/acpee60788.2024.10532355
 [research_fang_ji_2025]: https://doi.org/10.1145/3778534.3778575
 [research_fang_sun_2023]: https://doi.org/10.3390/aerospace10020141
 [research_fang_wang_2023]: https://doi.org/10.1016/j.ast.2023.108612
-[research_fang_wu_2022]: https://doi.org/10.1109/iclp56858.2022.9942558
 [research_fang_zheng_2022]: https://doi.org/10.1016/j.cja.2022.03.017
 [research_fangzi_wenrui_2024]: https://doi.org/10.1109/icsece61636.2024.10729296
 [research_farconi_terra_2019]: https://doi.org/10.1109/icuas.2019.8797723
 [research_farcy_khrabrov_2020]: https://doi.org/10.2514/1.c035882
-[research_faris_sarkesian_1982]: https://doi.org/10.2307/2578112
 [research_farooq_2017]: https://doi.org/10.1109/syseng.2017.8088318
 [research_farrar_krodel_1979]: https://doi.org/10.21236/ada075060
-[research_fatahillah_suryanobelia_2024]: https://doi.org/10.1109/ies63037.2024.10665839
 [research_fatemehmahdavi_mohammadreza_2021]: https://doi.org/10.36959/422/453
 [research_fattizzo_giulietti_2026]: https://doi.org/10.2514/1.c038348
-[research_faudzi_lazim_2015]: https://doi.org/10.1299/jsmeicam.2015.6.349
 [research_fault_tolerant_2025]: https://doi.org/10.37285/bsp.sacad2025.17
 [research_faure_dumas_2019]: https://doi.org/10.1016/j.apm.2018.12.013
 [research_favaregh_houlden_2016]: https://doi.org/10.2514/6.2016-0795
 [research_favaro_rylko_2025]: https://doi.org/10.3390/aerospace12060559
-[research_favaro_saleh_2016]: https://doi.org/10.1016/j.ress.2016.03.022
 [research_favaron_magrini_2021]: https://doi.org/10.1115/gt2021-58668
 [research_favier_maresca_1987]: https://doi.org/10.2514/3.45497
 [research_fawcett_funk_1992]: https://doi.org/10.2514/6.1992-2687
@@ -22916,16 +20937,13 @@ computable in one line from the lift equation.
 [research_fellah_guiatni_2018]: https://doi.org/10.1109/epepemc.2018.8521925
 [research_fellah_guiatni_2019]: https://doi.org/10.1109/toh.2018.2865302
 [research_feng_fan_2015]: https://doi.org/10.1016/j.carbon.2014.10.049
-[research_feng_fu_2016]: https://doi.org/10.1016/j.jlp.2015.11.026
 [research_feng_guo_2023]: https://doi.org/10.2514/1.g007591
 [research_feng_hao_2025]: https://doi.org/10.1016/j.energy.2025.138621
 [research_feng_jin_2016]: https://doi.org/10.1117/12.2246490
 [research_feng_leemis_2022]: https://doi.org/10.1007/s00180-021-01183-3
 [research_feng_song_2015]: https://doi.org/10.1115/gt2015-42268
-[research_feng_turksoy_2016]: https://doi.org/10.1016/j.ifacol.2016.07.277
 [research_feng_turksoy_2017]: https://doi.org/10.1016/j.jprocont.2017.04.004
 [research_feng_wang_2024]: https://doi.org/10.5220/0013444700004558
-[research_fengchenwang_chen_2017]: https://doi.org/10.23919/acc.2017.7963819
 [research_fenghuahe_yuyao_2010]: https://doi.org/10.1109/aero.2010.5446733
 [research_ferlauto_ferrero_2020]: https://doi.org/10.2514/6.2020-3777
 [research_ferlauto_ferrero_2020_b]: https://doi.org/10.2514/6.2020-2246
@@ -22937,8 +20955,6 @@ computable in one line from the lift equation.
 [research_fernandes_2026]: https://doi.org/10.2514/6.2026-4275
 [research_fernandes_cardosoribeiro_2025]: https://doi.org/10.26678/abcm.cobem2023.cob2023-0896
 [research_fernandes_wesely_2023]: https://doi.org/10.2514/6.2023-2532
-[research_fernandez_monti_1993]: https://doi.org/10.1557/proc-318-527
-[research_fernandezjuricic_brand_2018]: https://doi.org/10.3389/fevo.2018.00017
 [research_feroskhan_go_2016]: https://doi.org/10.1016/j.ast.2016.01.005
 [research_feroskhan_go_2018]: https://doi.org/10.1016/j.ast.2017.11.002
 [research_ferrand_gowree_2026]: https://doi.org/10.2514/1.c038572
@@ -22952,11 +20968,8 @@ computable in one line from the lift equation.
 [research_ferretto_gori_2026]: https://doi.org/10.2514/6.2026-5145
 [research_feteih_breckenridge_1993]: https://doi.org/10.23919/acc.1993.4793097
 [research_feucht_presley_1978]: https://doi.org/10.21236/ada063992
-[research_fi_iv_2018]: https://doi.org/10.33094/5.2017.2018.21.14.24
 [research_figge_1973]: https://doi.org/10.21236/ad0781810
-[research_filahi_omrani_2024]: https://doi.org/10.1016/j.cliser.2024.100469
 [research_filipovic_2023]: https://doi.org/10.5937/polrev75-43187
-[research_finch_2015]: https://doi.org/10.1080/10758216.2015.1022392
 [research_finchthomasw_walkerjosepha_1953]: https://ntrs.nasa.gov/citations/19930087479
 [research_fink_1965]: https://doi.org/10.2514/6.1965-719
 [research_finley_cockrell_1995]: https://doi.org/10.2514/6.1995-1831
@@ -22967,8 +20980,6 @@ computable in one line from the lift equation.
 [research_fisher_1996]: https://doi.org/10.2514/6.1996-3750
 [research_fisher_bryson_1995]: https://doi.org/10.2514/3.21421
 [research_fisherdavidf_cobleighbrentr_1998]: https://ntrs.nasa.gov/citations/19980201245
-[research_fitzgerald_hudson_2025]: https://doi.org/10.1175/aies-d-24-0059.1
-[research_fjellstad_fossen_1992]: https://doi.org/10.4173/mic.1992.3.5
 [research_flaherty_1977]: https://doi.org/10.2514/6.1977-1156
 [research_flammjeffreyd_deerekarena_2006]: https://ntrs.nasa.gov/citations/20060022557
 [research_flammjeffreyd_deerekarena_2007]: https://ntrs.nasa.gov/citations/20070030933
@@ -22989,25 +21000,20 @@ computable in one line from the lift equation.
 [research_floyd_karneeb_2017]: https://doi.org/10.24963/ijcai.2017/657
 [research_fluid_flow_1998]: https://doi.org/10.1108/aeat.1998.12770aad.018
 [research_flynn_1987]: https://doi.org/10.1117/12.940484
-[research_flynn_campbell_1998]: https://doi.org/10.21236/ada354171
 [research_foch_1992]: https://doi.org/10.2514/6.1992-4078
 [research_folding_wing_2018]: https://doi.org/10.12968/s0261-2097(23)60230-8
 [research_font_siguerdidjane_1998]: https://doi.org/10.1016/s1474-6670(17)41058-5
 [research_fontaine_ali_2023]: https://doi.org/10.46254/sa04.20230298
-[research_food_safety_2023]: https://doi.org/10.57263/jmq.02.03.20232
 [research_forbes_2015]: https://doi.org/10.1016/j.actaastro.2014.10.006
-[research_force_characterization_2019]: https://doi.org/10.35940/ijitee.l1090.10812s219
 [research_ford_1989]: https://doi.org/10.1108/eb036732
 [research_forder_steiner_2020]: https://doi.org/10.5162/ettc2020/2.1
 [research_forkun_medzatyi_2020]: https://doi.org/10.31891/2307-5732-2020-289-5-57-64
 [research_forliti_strykowski_2002]: https://doi.org/10.2514/6.2002-2950
 [research_formalskii_2017]: https://doi.org/10.13189/ujme.2017.050503
 [research_formation_and_2018]: https://doi.org/10.21629/jsee.2018.04.10
-[research_forschner_2023]: https://doi.org/10.1121/10.0019012
 [research_fortunato_pascarella_2021]: https://doi.org/10.2514/6.2021-1748
 [research_fosdick_1970]: https://doi.org/10.21236/ad0880677
 [research_fosnight_1968]: https://doi.org/10.2514/6.1968-543
-[research_foster_1990]: https://doi.org/10.21236/ada250108
 [research_foster_2015]: https://doi.org/10.1049/cp.2015.0290
 [research_foster_ross_1993]: https://doi.org/10.2514/6.1993-3647
 [research_fouda_taha_2021]: https://doi.org/10.2514/6.2021-1819
@@ -23015,13 +21021,10 @@ computable in one line from the lift equation.
 [research_fourth_high_1994_b]: https://ntrs.nasa.gov/citations/19950007825
 [research_fowler_boyle_2024]: https://doi.org/10.2514/6.2024-0080
 [research_fowler_rogers_2016]: https://doi.org/10.2514/6.2016-0540
-[research_fox_ludvig_2024]: https://doi.org/10.1007/s10458-024-09659-4
-[research_fragner_deiterding_2016]: https://doi.org/10.1080/10618562.2016.1205188
 [research_franco_rivas_2015]: https://doi.org/10.2514/1.g000688
 [research_franke_burger_2023]: https://doi.org/10.1007/s13272-023-00646-1
 [research_franklin_1993]: https://doi.org/10.2514/6.1993-4874
 [research_franklin_innis_1978]: https://doi.org/10.2514/3.58306
-[research_fraser_1990]: https://doi.org/10.3940/rina.navtec.1990.14
 [research_fravolini_yucelen_2015]: https://doi.org/10.2514/6.2015-0611
 [research_fravolini_yucelen_2016]: https://doi.org/10.2514/6.2016-1381
 [research_fravolini_yucelen_2017]: https://doi.org/10.2514/1.g001803
@@ -23053,9 +21056,7 @@ computable in one line from the lift equation.
 [research_frohnapfel_lowe_2020]: https://doi.org/10.1115/gt2020-16125
 [research_frohnapfel_mack_2018]: https://doi.org/10.1115/gt2018-76616
 [research_frohnapfel_obrien_2017]: https://doi.org/10.2514/6.2017-1623
-[research_frost_1996]: https://doi.org/10.1049/cp:19960708
 [research_frostsusana_bodsonmarc_2009]: https://ntrs.nasa.gov/citations/20110012890
-[research_fsulla_jbjornstedt_2024]: https://doi.org/10.24084/repqj08.288
 [research_fu_chen_2023]: https://doi.org/10.3390/aerospace10121022
 [research_fu_dong_2021]: https://doi.org/10.2514/1.c036331
 [research_fu_downey_2023]: https://doi.org/10.1016/j.addma.2023.103409
@@ -23073,8 +21074,6 @@ computable in one line from the lift equation.
 [research_fujino_1980]: https://doi.org/10.2307/2335139
 [research_fujiwara_bragg_2019]: https://doi.org/10.2514/1.c034987
 [research_fujizawa_tischler_2016]: https://doi.org/10.4050/f-0072-2016-11453
-[research_fukuda_kobayashi_1987]: https://doi.org/10.1016/s1474-6670(17)55319-7
-[research_fukui_tsujita_2015]: https://doi.org/10.1109/sii.2015.7404979
 [research_fukushima_oyama_2022]: https://doi.org/10.2514/6.2022-0731
 [research_fuli_yumeixiang_2008]: https://doi.org/10.1109/ccdc.2008.4598037
 [research_fuller_1987]: https://doi.org/10.2514/3.45514
@@ -23095,7 +21094,6 @@ computable in one line from the lift equation.
 [research_gain_scheduling_1992]: https://doi.org/10.1109/37.165527
 [research_gainer_1963]: https://doi.org/10.21236/ad0404850
 [research_gainor_2019]: https://doi.org/10.1353/tech.2019.0083
-[research_gajjar_2025]: https://doi.org/10.51219/jaimld/urvish-gajjar/687
 [research_galanphd_2019]: https://doi.org/10.2139/ssrn.3451741
 [research_gale_2022]: https://doi.org/10.2514/6.2022-2002
 [research_gale_harris_2022]: https://doi.org/10.2514/6.2022-2003
@@ -23122,7 +21120,6 @@ computable in one line from the lift equation.
 [research_galperin_skowronski_1987]: https://doi.org/10.1016/0898-1221(87)90091-5
 [research_galperin_zheng_1989]: https://doi.org/10.1016/0898-1221(89)90138-7
 [research_galperin_zheng_1989_b]: https://doi.org/10.2514/6.1989-3631
-[research_galve_vilajosana_2021]: https://doi.org/10.1109/systol52990.2021.9595323
 [research_galyounes_2024]: https://doi.org/10.1088/1755-1315/1396/1/012011
 [research_gamayunov_2018]: https://doi.org/10.1134/s0005117918040070
 [research_gamble_inman_2016]: https://doi.org/10.4028/www.scientific.net/ast.101.127
@@ -23135,18 +21132,13 @@ computable in one line from the lift equation.
 [research_gangl_lettl_2013]: https://doi.org/10.2514/6.2013-4899
 [research_gangulee_ng_1994]: https://doi.org/10.2514/6.1994-1829
 [research_gangulee_ng_1995]: https://doi.org/10.2514/3.46785
-[research_gao_2018]: https://doi.org/10.3901/jme.2018.22.103
-[research_gao_bu_2026]: https://doi.org/10.1016/j.mlwa.2026.100950
 [research_gao_fan_2021]: https://doi.org/10.1109/iros51168.2021.9636508
 [research_gao_gao_2019]: https://doi.org/10.1109/access.2019.2917316
 [research_gao_he_2019]: https://doi.org/10.1016/j.cja.2019.04.002
-[research_gao_li_2021]: https://doi.org/10.1115/omae2021-61080
-[research_gao_li_2026]: https://doi.org/10.3390/jmse14050516
 [research_gao_lin_2019]: https://doi.org/10.1109/jsen.2019.2913680
 [research_gao_liu_2020]: https://doi.org/10.1109/icuas48674.2020.9213836
 [research_gao_liu_2020_b]: https://doi.org/10.1016/j.ast.2019.105593
 [research_gao_liu_2021]: https://doi.org/10.1177/1077546320986715
-[research_gao_lv_2016]: https://doi.org/10.1109/wcica.2016.7578534
 [research_gao_ma_2021]: https://doi.org/10.32604/sdhm.2021.013737
 [research_gao_shen_2017]: https://doi.org/10.14257/ijca.2017.10.3.19
 [research_gao_shi_2022]: https://doi.org/10.1109/icuas54217.2022.9836203
@@ -23161,12 +21153,10 @@ computable in one line from the lift equation.
 [research_gao_yang_2025]: https://doi.org/10.1103/physrevfluids.10.033902
 [research_gao_yao_2024]: https://doi.org/10.1109/icccr61138.2024.10585424
 [research_gao_yi_2025]: https://doi.org/10.1016/j.isatra.2025.09.028
-[research_gao_yuan_2023]: https://doi.org/10.1016/j.tsep.2023.102167
 [research_gao_zhang_2019]: https://doi.org/10.23919/chicc.2019.8865317
 [research_gao_zhang_2022]: https://doi.org/10.1061/(asce)as.1943-5525.0001455
 [research_gao_zhang_2024]: https://doi.org/10.1109/epee63731.2024.10875497
 [research_gao_zhang_2024_b]: https://doi.org/10.3390/drones8090501
-[research_gao_zhang_2024_c]: https://doi.org/10.3390/app14083471
 [research_gao_zhao_2026]: https://doi.org/10.1063/5.0337653
 [research_gao_zhou_2016]: https://doi.org/10.1109/chicc.2016.7554653
 [research_garbarino_gaudino_2026]: https://doi.org/10.1109/icuas69441.2026.11598737
@@ -23181,7 +21171,6 @@ computable in one line from the lift equation.
 [research_gargsanjay_ouztspeterj_1991]: https://ntrs.nasa.gov/citations/19910010809
 [research_gargsanjay_schmidtdavidk_1988]: https://ntrs.nasa.gov/citations/19880063045
 [research_garkushenko_vinogradov_2016]: https://doi.org/10.3103/s1068799816040085
-[research_garland_robichaud_1987]: https://doi.org/10.1093/milmed/152.12.608
 [research_garmendia_mavris_2016]: https://doi.org/10.2514/1.c033184
 [research_garrard_1998]: https://doi.org/10.2514/2.7612
 [research_garrard_low_1990]: https://doi.org/10.21236/ada231588
@@ -23190,7 +21179,6 @@ computable in one line from the lift equation.
 [research_garthwaite_moustafa_2023]: https://doi.org/10.1111/sjos.12672
 [research_gartner_amitay_2016]: https://doi.org/10.2514/6.2016-3770
 [research_gary_1983]: https://doi.org/10.21236/ada137910
-[research_garzon_spalanzani_2019]: https://doi.org/10.1109/itsc.2019.8917314
 [research_gasimmohamed_2020]: https://doi.org/10.1049/iet-gtd.2020.0114
 [research_gastopoulos_lawton_2017]: https://doi.org/10.1115/gt2017-63346
 [research_gastopoulos_mcginn_2018]: https://doi.org/10.1115/gt2018-76945
@@ -23222,7 +21210,6 @@ computable in one line from the lift equation.
 [research_generating_analytical_1994]: https://doi.org/10.1016/0967-0661(94)90264-x
 [research_geng_shi_2015]: https://doi.org/10.1061/(asce)as.1943-5525.0000434
 [research_geng_yuan_2023]: https://doi.org/10.1109/cac59555.2023.10451375
-[research_gentilucci_pambianchi_2022]: https://doi.org/10.3390/cli10080120
 [research_gentry_1972]: https://doi.org/10.1017/s0001924000043013
 [research_gera_bosworth_1987]: https://doi.org/10.2514/6.1987-2258
 [research_geraj_wilsonrj_1981]: https://ntrs.nasa.gov/citations/19820030371
@@ -23233,7 +21220,6 @@ computable in one line from the lift equation.
 [research_gertler_hagen_1967]: https://doi.org/10.21236/ad0653861
 [research_gertsen_shomber_1965]: https://doi.org/10.2514/6.1965-780
 [research_gezer_kutay_2015]: https://doi.org/10.2514/6.2015-2554
-[research_gezgez_kacar_2021]: https://doi.org/10.1109/inista52262.2021.9548604
 [research_ghasemzadeh_banazadeh_2025]: https://doi.org/10.2514/1.c038159
 [research_ghazi_1994]: https://doi.org/10.2514/6.1994-3474
 [research_ghazi_botez_2020]: https://doi.org/10.2514/1.i010791
@@ -23245,7 +21231,6 @@ computable in one line from the lift equation.
 [research_ghosh_raisinghani_1993]: https://doi.org/10.2514/6.1993-3640
 [research_ghosh_raisinghani_1998]: https://doi.org/10.2514/2.2407
 [research_ghosh_sagoo_2023]: https://doi.org/10.61653/joast.v58i1.2006.672
-[research_ghosh_sal_2025]: https://doi.org/10.2139/ssrn.5286013
 [research_ghoshroy_peyada_2016]: https://doi.org/10.2514/6.2016-3708
 [research_giangaspero_macmanus_2019]: https://doi.org/10.1016/j.ast.2019.05.027
 [research_giannakeas_sharifkhodaei_2022]: https://doi.org/10.1177/14759217221095415
@@ -23275,7 +21260,6 @@ computable in one line from the lift equation.
 [research_gittner_chokani_1992]: https://doi.org/10.2514/6.1992-2603
 [research_gittner_chokani_1994]: https://doi.org/10.2514/3.46522
 [research_gittnernathanm_chokanindaona_1991]: https://ntrs.nasa.gov/citations/19910069139
-[research_giua_melas_2003]: https://doi.org/10.23919/ecc.2003.7085238
 [research_giuffre_ascione_2025]: https://doi.org/10.2514/1.c038093
 [research_giuffre_colonna_2022]: https://doi.org/10.1115/1.4056022
 [research_giunta_1999]: https://doi.org/10.1016/s1369-8869(99)00016-6
@@ -23284,8 +21268,6 @@ computable in one line from the lift equation.
 [research_gkoutzamanis_psaropoulos_2023]: https://doi.org/10.1115/gt2023-103947
 [research_glad_1995]: https://doi.org/10.1016/s1474-6670(17)46869-8
 [research_glaser_1952]: https://doi.org/10.1088/0950-7671/29/7/306
-[research_glass_1949]: https://doi.org/10.1176/ajp.106.2.81
-[research_glattfelder_jiang_1991]: https://doi.org/10.1016/s1474-6670(17)54201-9
 [research_glaudel_2018]: https://doi.org/10.2514/6.2018-4110
 [research_glebocki_jacewicz_2018]: https://doi.org/10.5604/01.3001.0012.1271
 [research_glebocki_jacewicz_2020]: https://doi.org/10.3390/aerospace7120168
@@ -23297,13 +21279,10 @@ computable in one line from the lift equation.
 [research_glowacki_1971]: https://doi.org/10.21236/ad0727591
 [research_glushchenko_khokhlov_2019]: https://doi.org/10.34759/trd-2019-109-17
 [research_godavarty_orkwis_2000]: https://doi.org/10.21236/ada379041
-[research_goebel_may_1931]: https://doi.org/10.2307/1114541
 [research_goeing_luck_2024]: https://doi.org/10.1115/gt2024-122738
 [research_goel_sarkar_2021]: https://doi.org/10.1109/confluence51648.2021.9377200
 [research_goerttler_2025]: https://doi.org/10.2514/1.c038181
 [research_goetzendorfgrabowski_antoniewski_2016]: https://doi.org/10.1108/aeat-02-2015-0055
-[research_goh_thompson_2024]: https://doi.org/10.1080/00423114.2023.2297799
-[research_goldberg_1986]: https://doi.org/10.1016/0025-326x(86)90776-9
 [research_goldberg_nalianda_2016]: https://doi.org/10.2514/6.2016-4800
 [research_goldberg_nalianda_2017]: https://doi.org/10.2514/6.2017-5055
 [research_goldberger_1966]: https://doi.org/10.21236/ad0644191
@@ -23331,16 +21310,12 @@ computable in one line from the lift equation.
 [research_goodrich_mcmanus_1995]: https://doi.org/10.2514/3.46873
 [research_gopeshmp_manivelm_2016]: https://doi.org/10.17577/ijertv5is050411
 [research_gopinath_1982]: https://doi.org/10.2514/3.44818
-[research_gopurathingal_bhonsle_2021]: https://doi.org/10.7759/cureus.12788
-[research_goranson_1997]: https://doi.org/10.21236/ada337932
-[research_gordienko_derevyagina_2020]: https://doi.org/10.1063/5.0034205
 [research_gordnier_1995]: https://doi.org/10.2514/3.46746
 [research_gordon_1990]: https://doi.org/10.2514/6.1990-3002
 [research_gorgues_castellanos_2022]: https://doi.org/10.23967/eccomas.2022.003
 [research_gorgulu_sahin_2025]: https://doi.org/10.1007/s42405-025-00982-y
 [research_gou_liu_2023]: https://doi.org/10.1017/aer.2023.93
 [research_goucem_khiri_2023]: https://doi.org/10.15866/irease.v16i5.24129
-[research_goudarzian_khosravi_2022]: https://doi.org/10.1016/j.jestch.2021.05.011
 [research_gouinferland_fontaine_2025]: https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287031
 [research_gould_1983]: https://doi.org/10.1016/0378-3758(83)90061-7
 [research_gourcerol_desangles_2025]: https://doi.org/10.1063/5.0274687
@@ -23348,7 +21323,6 @@ computable in one line from the lift equation.
 [research_goutaudier_gendre_2020]: https://doi.org/10.1016/j.compstruct.2020.111973
 [research_govindaraj_rynaski_1979]: https://doi.org/10.21236/ada074092
 [research_govoni_cristofaro_2023]: https://doi.org/10.1109/lcsys.2023.3324565
-[research_gowd_2016]: https://doi.org/10.18186/jte.83892
 [research_gozzi_schulte_2026]: https://doi.org/10.1109/cogsima68896.2026.11481238
 [research_grabbeshonr_2017]: https://ntrs.nasa.gov/citations/20170010406
 [research_grachev_safonov_2019]: https://doi.org/10.1109/rusautocon.2019.8867773
@@ -23387,7 +21361,6 @@ computable in one line from the lift equation.
 [research_grehan_ignatyev_2023]: https://doi.org/10.3390/machines11020211
 [research_greitzer_moore_1986]: https://doi.org/10.1115/1.3239893
 [research_gresham_fahmi_2022]: https://doi.org/10.2514/6.2022-2406
-[research_grevathi_2025]: https://doi.org/10.1109/icscss64956.2025.11500746
 [research_gridley_walker_1996]: https://doi.org/10.1115/96-gt-244
 [research_griesemer_cao_2024]: https://doi.org/10.52202/079017-4061
 [research_griffin_bellaire_1968]: https://doi.org/10.21236/ad0850270
@@ -23439,7 +21412,6 @@ computable in one line from the lift equation.
 [research_guijarroreyes_garciacarrillo_2018]: https://doi.org/10.1109/icuas.2018.8453484
 [research_guiler_huebsch_2005]: https://doi.org/10.2514/6.2005-4981
 [research_guimaraes_lowe_2015]: https://doi.org/10.2514/6.2015-2866
-[research_gujrathi_2024]: https://doi.org/10.2514/6.2024-85615
 [research_gullu_aran_2023]: https://doi.org/10.1115/gt2023-100874
 [research_gullu_aran_2024]: https://doi.org/10.1115/gt2024-124100
 [research_gumussoy_ozbay_2018]: https://doi.org/10.1016/j.ifacol.2018.07.209
@@ -23459,14 +21431,11 @@ computable in one line from the lift equation.
 [research_guo_ma_2020]: https://doi.org/10.3850/978-981-14-8593-0_4954-cd
 [research_guo_mu_2025]: https://doi.org/10.1109/tim.2025.3551017
 [research_guo_scherer_2018]: https://doi.org/10.1016/j.ifacol.2018.11.110
-[research_guo_shi_2026]: https://doi.org/10.1177/10775463261424847
-[research_guo_stuart_2025]: https://doi.org/10.7185/gold2025.28691
 [research_guo_thomas_2022]: https://doi.org/10.2514/6.2022-2995
 [research_guo_wang_2018]: https://doi.org/10.1109/gncc42960.2018.9019053
 [research_guo_wang_2022]: https://doi.org/10.1109/icca54724.2022.9831941
 [research_guo_ye_2021]: https://doi.org/10.1016/j.ress.2021.107654
 [research_guo_yu_2026]: https://doi.org/10.1109/icca69928.2026.11618137
-[research_guo_zhang_2020]: https://doi.org/10.1109/icus50048.2020.9274961
 [research_guo_zheng_2026]: https://doi.org/10.2514/1.a36339
 [research_guo_zhou_2022]: https://doi.org/10.3389/fpace.2022.1071793
 [research_gupta_2023]: https://doi.org/10.61653/joast.v68i4.2016.368
@@ -23487,8 +21456,6 @@ computable in one line from the lift equation.
 [research_gursul_wang_2010]: https://doi.org/10.1002/9780470686652.eae016
 [research_guruswamy_tu_1989]: https://doi.org/10.2514/3.45820
 [research_guvernyuk_kuzmin_2020]: https://doi.org/10.1134/s0015462820050080
-[research_guy_rousselotpailley_1995]: https://doi.org/10.1051/animres:19950308
-[research_guyton_1990]: https://doi.org/10.1161/01.hyp.16.6.725
 [research_guziy_kostina_2022]: https://doi.org/10.36535/0235-5000-2022-11-2
 [research_guzman_oliveira_2022]: https://doi.org/10.1109/icra46639.2022.9812406
 [research_gwilliamjr_howard_1991]: https://doi.org/10.2514/6.1991-431
@@ -23503,23 +21470,17 @@ computable in one line from the lift equation.
 [research_haas_chopra_1989]: https://doi.org/10.2514/6.1989-1184
 [research_haas_chopra_1990]: https://doi.org/10.2514/3.45937
 [research_habboush_yildiz_2023]: https://doi.org/10.1109/lcsys.2022.3229961
-[research_habib_1993]: https://doi.org/10.23919/acc.1993.4792955
-[research_habib_bakr_1994]: https://doi.org/10.1080/00423119308969514
 [research_habibi_oconnor_2020]: https://doi.org/10.1016/j.ymssp.2019.05.059
 [research_habin_1994]: https://doi.org/10.1109/cca.1994.381235
-[research_habtamusitotawsemahagne_alelegnwenedemagegnehu_2025]: https://doi.org/10.4314/mlr.v19i1.2
 [research_hace_2019]: https://doi.org/10.3390/en12152974
 [research_hached_beauchesne_1995]: https://doi.org/10.2514/6.1995-3394
 [research_haci_eser_2026]: https://doi.org/10.70322/dav.2026.10011
-[research_hacizade_vural_2019]: https://doi.org/10.1109/systol.2019.8864780
-[research_haddara_1980]: https://doi.org/10.3233/isp-1980-2731603
 [research_hadidoolabi_ansarian_2017]: https://doi.org/10.24200/sci.2017.4246
 [research_hadidoolabi_ansarian_2018]: https://doi.org/10.1007/s40430-018-1021-z
 [research_hadjria_dalmeida_2019]: https://doi.org/10.12783/shm2019/32280
 [research_haeringjr_1990]: https://doi.org/10.2514/6.1990-230
 [research_hafez_kamel_2016]: https://doi.org/10.1109/icuas.2016.7502660
 [research_haftmann_debbeler_1988]: https://doi.org/10.2514/3.45707
-[research_haggard_wight_1961]: https://doi.org/10.21236/ad0487893
 [research_hagood_chung_1990]: https://doi.org/10.2514/6.1990-1087
 [research_hague_hague_1987]: https://doi.org/10.2514/6.1987-2397
 [research_hahchunill_rabedouglas_2015]: https://ntrs.nasa.gov/citations/20150023041
@@ -23529,17 +21490,14 @@ computable in one line from the lift equation.
 [research_haines_2009]: https://doi.org/10.21236/ada540029
 [research_haiping_yanjun_2021]: https://doi.org/10.23919/ccc52363.2021.9550109
 [research_hairui_bo_2017]: https://doi.org/10.1109/cac.2017.8243862
-[research_haiyang_yujiao_2021]: https://doi.org/10.1109/icceai52939.2021.00009
 [research_hajiyev_2016]: https://doi.org/10.1016/j.ifacol.2016.09.072
 [research_hajiyev_2016_b]: https://doi.org/10.1109/aucc.2016.7868210
 [research_hajiyev_cildenguler_2019]: https://doi.org/10.1109/rast.2019.8767902
 [research_hajiyev_guven_2022]: https://doi.org/10.1504/ijsa.2022.10048618
 [research_hakim_toufik_2020]: https://doi.org/10.37934/arfmts.73.2.88105
 [research_hakimi_alisadeghi_2026]: https://doi.org/10.1063/5.0317723
-[research_halanay_ionita_1994]: https://doi.org/10.1109/cca.1994.381415
 [research_halder_gandhi_2026]: https://doi.org/10.4050/sm-2026-vlada-5198
 [research_hale_1963]: https://doi.org/10.21236/ad0417039
-[research_hale_lammert_1989]: https://doi.org/10.4043/6059-ms
 [research_hale_patil_2015]: https://doi.org/10.2514/6.2015-1538
 [research_hale_patil_2015_b]: https://doi.org/10.2514/6.2015-2329
 [research_hale_patil_2017]: https://doi.org/10.2514/1.g000582
@@ -23551,8 +21509,6 @@ computable in one line from the lift equation.
 [research_hall_banks_1994]: https://doi.org/10.2514/6.1994-169
 [research_hall_boothe_1972]: https://doi.org/10.2514/3.58945
 [research_hall_greitzer_2022]: https://doi.org/10.1115/1.4054035
-[research_hall_onal_2024]: https://doi.org/10.1109/icra57147.2024.10610430
-[research_halli_1983]: https://doi.org/10.1177/104687818301400406
 [research_hallsejr_perkins_1995]: https://doi.org/10.2514/6.1995-460
 [research_halperin_1980]: https://doi.org/10.2307/2335126
 [research_halwas_aggarwal_2019]: https://doi.org/10.2514/1.c035481
@@ -23560,7 +21516,6 @@ computable in one line from the lift equation.
 [research_halyonesim_1996]: https://ntrs.nasa.gov/citations/19960047272
 [research_hamada_tamura_2019]: https://doi.org/10.7712/120219.6370.18497
 [research_hambidge_ivison_2023]: https://doi.org/10.1007/s00348-023-03607-w
-[research_hamdan_1988]: https://doi.org/10.1080/07313568808909306
 [research_hamel_allgood_2022]: https://doi.org/10.4050/f-0078-2022-0015
 [research_hamel_jategaonkar_1996]: https://doi.org/10.2514/3.46898
 [research_hamel_kolarich_2020]: https://doi.org/10.4050/f-0076-2020-16363
@@ -23574,7 +21529,6 @@ computable in one line from the lift equation.
 [research_han_fan_2025]: https://doi.org/10.1109/icaace65325.2025.11019493
 [research_han_gao_2020]: https://doi.org/10.1016/j.compstruct.2020.112177
 [research_han_hu_2019]: https://doi.org/10.23919/chicc.2019.8865734
-[research_han_liu_2016]: https://doi.org/10.1007/s11071-016-2650-3
 [research_han_liu_2026]: https://doi.org/10.4271/2026-99-1613
 [research_han_pei_2026]: https://doi.org/10.1109/maes.2025.3566023
 [research_han_ra_2025]: https://doi.org/10.23919/ecc65951.2025.11187266
@@ -23595,7 +21549,6 @@ computable in one line from the lift equation.
 [research_hannan_wangshaoping_2017]: https://doi.org/10.1109/ibcast.2017.7868069
 [research_hansen_duan_2020]: https://doi.org/10.2514/6.2020-1186
 [research_hansen_duan_2020_b]: https://doi.org/10.2514/6.2020-1186.c1
-[research_hansen_howington_2007]: https://doi.org/10.21236/ada472127
 [research_hansen_rogowski_2022]: https://doi.org/10.1088/1742-6596/2265/3/032037
 [research_hanson_stengel_1981]: https://doi.org/10.2514/6.1981-1752
 [research_hanson_stengel_1983]: https://doi.org/10.2514/6.1983-65
@@ -23615,7 +21568,6 @@ computable in one line from the lift equation.
 [research_hara_1964]: https://doi.org/10.1177/003754976400200513
 [research_hardwick_panella_2017]: https://doi.org/10.5220/0006418800001626
 [research_hardy_1987]: https://doi.org/10.2514/3.51270
-[research_hardy_gd_1992]: https://doi.org/10.21236/ada255008
 [research_hardyman_smith_1989]: https://doi.org/10.2514/6.1989-3292
 [research_harinivenkatesan_sinha_2015]: https://doi.org/10.1109/tcst.2015.2411628
 [research_hariowibowo_arifianto_2021]: https://doi.org/10.1063/5.0061145
@@ -23648,7 +21600,6 @@ computable in one line from the lift equation.
 [research_hartsg_hartzellej_1984]: https://ntrs.nasa.gov/citations/19850006178
 [research_hasan_johansen_2018]: https://doi.org/10.1109/icuas.2018.8453420
 [research_hasan_krishnamoorthy_2023]: https://doi.org/10.1080/02664763.2023.2297157
-[research_hasanien_muyeen_2016]: https://doi.org/10.1049/cp.2016.0595
 [research_hashemi_malekjafarian_2026]: https://doi.org/10.1007/s42405-025-01117-z
 [research_hashemi_nguyen_2018]: https://doi.org/10.2514/6.2018-0619
 [research_hashii_thompson_2018]: https://doi.org/10.2514/6.2018-2920
@@ -23657,7 +21608,6 @@ computable in one line from the lift equation.
 [research_hassan_2005]: https://doi.org/10.4050/vfs-f61-000167
 [research_hassan_2006]: https://doi.org/10.2514/6.2006-99
 [research_hassan_ali_2022]: https://doi.org/10.51846/vol5iss2pp17-22
-[research_hassan_awad_2022]: https://doi.org/10.3390/computation10100178
 [research_hassan_sankar_1992]: https://doi.org/10.2514/3.46136
 [research_hasselljamesljr_hewesdonalde_1960]: https://ntrs.nasa.gov/citations/19980228451
 [research_hassler_puffing_2015]: https://doi.org/10.4271/2015-01-2095
@@ -23672,7 +21622,6 @@ computable in one line from the lift equation.
 [research_haworth_bucher_1988]: https://doi.org/10.2514/6.1988-4575
 [research_haworth_bucher_1989]: https://doi.org/10.1177/154193128903300219
 [research_haworth_seery_1992]: https://doi.org/10.2514/6.1992-4137
-[research_hayden_lamagna_1986]: https://doi.org/10.1145/32439.32454
 [research_hayespeggysue_2010]: https://ntrs.nasa.gov/citations/20110011493
 [research_hayoun_weiss_2015]: https://doi.org/10.1109/cdc.2015.7403033
 [research_hayoun_weiss_2016]: https://doi.org/10.1109/taes.2016.150915
@@ -23680,7 +21629,6 @@ computable in one line from the lift equation.
 [research_hayward_1968]: https://doi.org/10.1287/opre.16.2.314
 [research_he_2015]: https://doi.org/10.4028/www.scientific.net/amm.798.329
 [research_he_2025]: https://doi.org/10.1109/icemce68156.2025.11466590
-[research_he_2025_b]: https://doi.org/10.2139/ssrn.5846681
 [research_he_an_2019]: https://doi.org/10.2514/6.2019-0883
 [research_he_cary_2001]: https://doi.org/10.2514/6.2001-733
 [research_he_hu_2022]: https://doi.org/10.3390/aerospace9070352
@@ -23697,7 +21645,6 @@ computable in one line from the lift equation.
 [research_he_wang_2024]: https://doi.org/10.1115/gt2024-126463
 [research_he_williams_2020]: https://doi.org/10.2514/6.2020-0557
 [research_he_xia_2025]: https://doi.org/10.1109/aaac66612.2025.11427529
-[research_he_xu_2017]: https://doi.org/10.1109/cieec.2017.8388433
 [research_he_yang_2020]: https://doi.org/10.1115/gt2020-14353
 [research_he_yu_2020]: https://doi.org/10.23919/ccc50068.2020.9188535
 [research_he_zhang_2020]: https://doi.org/10.1016/j.ast.2019.105649
@@ -23705,7 +21652,6 @@ computable in one line from the lift equation.
 [research_he_zhu_2019]: https://doi.org/10.1016/j.ast.2018.11.029
 [research_head_1981]: https://doi.org/10.2514/6.1981-2506
 [research_head_up_1998]: https://doi.org/10.1108/aeat.1998.12770dad.003
-[research_healey_2005]: https://doi.org/10.21236/ada436012
 [research_heath_slater_2017]: https://doi.org/10.2514/1.c034036
 [research_hebbar_leedy_1990]: https://doi.org/10.2514/6.1990-3019
 [research_hebbar_leedy_1992]: https://doi.org/10.2514/3.46290
@@ -23715,11 +21661,9 @@ computable in one line from the lift equation.
 [research_hebbar_platzer_1993_b]: https://doi.org/10.2514/3.46350
 [research_hebbar_platzer_1995]: https://doi.org/10.2514/3.46855
 [research_hebbar_platzer_1996]: https://doi.org/10.2514/3.47010
-[research_hebert_dietz_1997]: https://doi.org/10.2514/2.2133
 [research_hedlund_ribeiro_2024]: https://doi.org/10.1109/sepoc63090.2024.10747475
 [research_hedrick_gopalswamy_1990]: https://doi.org/10.2514/3.25411
 [research_heersink_sylla_2022]: https://doi.org/10.1109/lcsys.2021.3119258
-[research_heffernan_macnamee_2016]: https://doi.org/10.1016/j.sysarc.2016.05.001
 [research_heffley_johnston_1979]: https://doi.org/10.4271/791085
 [research_hegde_2020]: https://doi.org/10.5373/jardcs/v12sp3/20201352
 [research_hein_myschik_2022]: https://doi.org/10.2514/6.2022-3572
@@ -23746,7 +21690,6 @@ computable in one line from the lift equation.
 [research_henrymw_wolfh_1988]: https://ntrs.nasa.gov/citations/19930057203
 [research_henschel_chetty_1989]: https://doi.org/10.2514/3.20415
 [research_hepner_bagnaschi_1991]: https://doi.org/10.2514/6.1991-2699
-[research_herath_rajasuriya_2024]: https://doi.org/10.1109/mercon63886.2024.10688791
 [research_herd_moxley_1965]: https://doi.org/10.21236/ad0458586
 [research_hermes_spaceplane_1988]: https://doi.org/10.1108/eb036582
 [research_hernandez_taylor_1988]: https://doi.org/10.2514/6.1988-2177
@@ -23809,10 +21752,8 @@ computable in one line from the lift equation.
 [research_hlavata_maxa_2018]: https://doi.org/10.1149/08701.0369ecst
 [research_hlinkova_andoga_2021]: https://doi.org/10.1109/ntad54074.2021.9746502
 [research_ho_bryson_1965]: https://doi.org/10.1109/tac.1965.1098197
-[research_ho_panda_1998]: https://doi.org/10.1016/s0967-0661(98)00012-4
 [research_hoadley_1988]: https://doi.org/10.2514/6.1988-2205
 [research_hobbs_mote_2023]: https://doi.org/10.1109/mcs.2023.3234380
-[research_hober_pape_2015]: https://doi.org/10.4236/eng.2015.712069
 [research_hoburg_tedrake_2009]: https://doi.org/10.2514/6.2009-1930
 [research_hodelas_callahanronnie_2002]: https://ntrs.nasa.gov/citations/20020092013
 [research_hodgkin_wood_1998]: https://doi.org/10.2514/2.2310
@@ -23827,7 +21768,6 @@ computable in one line from the lift equation.
 [research_hoffler_rao_1988]: https://doi.org/10.2514/3.45563
 [research_hoffman_stalford_1991]: https://doi.org/10.2514/6.1991-2667
 [research_hoffmanma_loscutoffwv_1972]: https://ntrs.nasa.gov/citations/19730008261
-[research_hoffmann_roy_2024]: https://doi.org/10.23919/siceiscs60954.2024.10505760
 [research_hofmann_hosseini_2025]: https://doi.org/10.3390/act14070310
 [research_hofmann_hosseini_2025_b]: https://doi.org/10.2514/6.2025-2172
 [research_hofmann_hosseini_2025_c]: https://doi.org/10.2514/6.2025-2175
@@ -23835,14 +21775,12 @@ computable in one line from the lift equation.
 [research_hofmann_riedel_1979]: https://doi.org/10.21236/ada071394
 [research_hofsass_braun_2023]: https://doi.org/10.2514/6.2023-4223
 [research_hogan_rinde_1978]: https://doi.org/10.21236/ada062030
-[research_hoglund_aziz_1990]: https://doi.org/10.1557/proc-205-325
 [research_hoh_1988]: https://doi.org/10.2514/6.1988-4328
 [research_hoh_mitchell_1983]: https://doi.org/10.21236/ada132857
 [research_hoh_myers_1981]: https://doi.org/10.21236/ada100045
 [research_hohls_1998]: https://doi.org/10.1002/(sici)1521-4036(199804)40:1<85::aid-bimj85>3.0.co;2-#
 [research_hoholis_steijl_2016]: https://doi.org/10.2514/1.c033642
 [research_holberg_grabowsky_1981]: https://doi.org/10.2514/6.1981-2492
-[research_holcomb_marks_2024]: https://doi.org/10.1007/s10439-024-03583-0
 [research_holdhusen_perusse_1965]: https://doi.org/10.21236/ada956154
 [research_holgerfriehmelt_quirinkim_1997]: https://ntrs.nasa.gov/citations/19980035032
 [research_holifield_tufts_2024]: https://doi.org/10.2514/6.2024-0672
@@ -23864,7 +21802,6 @@ computable in one line from the lift equation.
 [research_hong_park_2015]: https://doi.org/10.1016/j.ifacol.2015.10.016
 [research_hong_roberts_1995]: https://doi.org/10.2514/6.1995-1842
 [research_hong_xiaolong_2022]: https://doi.org/10.1109/iciscae55891.2022.9927683
-[research_hong_yao_2019]: https://doi.org/10.1155/2019/4751080
 [research_hongyan_xiaoyong_2026]: https://doi.org/10.1109/access.2026.3692889
 [research_hongzhang_hongchang_2018]: https://doi.org/10.1049/cp.2018.0297
 [research_hoogreef_2026]: https://doi.org/10.21741/9781644904251-108
@@ -23883,9 +21820,7 @@ computable in one line from the lift equation.
 [research_horri_pietraszko_2022]: https://doi.org/10.3390/automation3030025
 [research_horvath_1969]: https://doi.org/10.21236/ad0690528
 [research_horvath_wells_2018]: https://doi.org/10.2514/6.2018-2032
-[research_hoseinzadeh_blaabjerg_2022]: https://doi.org/10.1049/gtd2.12510
 [research_hoskin_nett_1991]: https://doi.org/10.2514/6.1991-2793
-[research_hosokai_fukuda_1987]: https://doi.org/10.1299/jsme1987.30.1129
 [research_hossain_mantel_2019]: https://doi.org/10.1117/1.jei.28.4.043012
 [research_hosseini_goshtasbirad_2026]: https://doi.org/10.1016/j.ast.2026.112888
 [research_hosseini_grauer_2025]: https://doi.org/10.2514/1.c038157
@@ -23900,8 +21835,6 @@ computable in one line from the lift equation.
 [research_houin_sood_2025]: https://doi.org/10.1016/j.actaastro.2025.06.008
 [research_housman_kiris_2015]: https://doi.org/10.2514/6.2015-2262
 [research_houzibe_chaki_2026]: https://doi.org/10.1177/14759217261453871
-[research_hover_2006]: https://doi.org/10.21236/ada446746
-[research_howard_1996]: https://doi.org/10.4271/962182
 [research_howard_demoss_2002]: https://doi.org/10.2514/6.2002-4615
 [research_howard_kersh_1995]: https://doi.org/10.2514/3.46890
 [research_howard_kershjr_1991]: https://doi.org/10.2514/6.1991-3222
@@ -23925,7 +21858,6 @@ computable in one line from the lift equation.
 [research_hu_almasri_2023]: https://doi.org/10.2514/1.t6782
 [research_hu_almasri_2025]: https://doi.org/10.3390/aerospace12100862
 [research_hu_fu_2023]: https://doi.org/10.1109/icuas57906.2023.10155801
-[research_hu_han_2017]: https://doi.org/10.5755/j01.mech.23.3.18481
 [research_hu_jiang_2018]: https://doi.org/10.2514/1.j055860
 [research_hu_lan_1993]: https://doi.org/10.2514/6.1993-3626
 [research_hu_li_2019]: https://doi.org/10.2514/1.g003718
@@ -23943,19 +21875,15 @@ computable in one line from the lift equation.
 [research_hu_yang_2017]: https://doi.org/10.1016/j.ast.2017.10.007
 [research_hu_yang_2021]: https://doi.org/10.1109/access.2021.3060426
 [research_hu_yang_2021_b]: https://doi.org/10.1002/rnc.5792
-[research_hu_you_2023]: https://doi.org/10.1016/j.adapen.2023.100124
 [research_hu_zhao_2025]: https://doi.org/10.1007/s11768-025-00268-4
 [research_hu_zhou_2017]: https://doi.org/10.23919/chicc.2017.8028277
-[research_hu_zhu_2022]: https://doi.org/10.1109/cdc51059.2022.9993423
 [research_hua_2022]: https://doi.org/10.1109/icmeas57305.2022.00055
 [research_huang_1990]: https://doi.org/10.2514/6.1990-3371
 [research_huang_2016]: https://doi.org/10.1109/ecc.2016.7810266
-[research_huang_2024]: https://doi.org/10.1029/2024av001464
 [research_huang_2025]: https://doi.org/10.54254/2755-2721/2025.ld28117
 [research_huang_bu_2024]: https://doi.org/10.3390/aerospace11100803
 [research_huang_cheng_2022]: https://doi.org/10.1016/j.jairtraman.2022.102181
 [research_huang_ding_2020]: https://doi.org/10.1109/icaica50127.2020.9182585
-[research_huang_ding_2026]: https://doi.org/10.1016/j.cnsns.2026.110551
 [research_huang_dong_2019]: https://doi.org/10.1007/s00500-019-04522-1
 [research_huang_gu_2025]: https://doi.org/10.3390/aerospace12121091
 [research_huang_gu_2026]: https://doi.org/10.3390/s26030811
@@ -23965,16 +21893,13 @@ computable in one line from the lift equation.
 [research_huang_li_2026]: https://doi.org/10.2514/1.c038842
 [research_huang_liao_2022]: https://doi.org/10.3390/machines10111088
 [research_huang_lu_2026]: https://doi.org/10.1016/j.jmst.2025.09.024
-[research_huang_pan_2023]: https://doi.org/10.1016/j.conengprac.2023.105620
 [research_huang_pool_2017]: https://doi.org/10.1016/j.ifacol.2017.08.837
 [research_huang_shi_2026]: https://doi.org/10.1016/j.ast.2026.113103
 [research_huang_weng_2024]: https://doi.org/10.3390/aerospace11030190
 [research_huang_xia_2020]: https://doi.org/10.3390/app10228240
-[research_huang_xiong_2025]: https://doi.org/10.1016/j.addma.2025.105046
 [research_huang_yang_2020]: https://doi.org/10.1109/cacre50138.2020.9230009
 [research_huang_yang_2020_b]: https://doi.org/10.1109/icuas48674.2020.9213835
 [research_huang_yang_2025]: https://doi.org/10.1109/leficlu65987.2025.11297366
-[research_huang_zeng_2026]: https://doi.org/10.1177/10775463261438269
 [research_huang_zhang_2016]: https://doi.org/10.1049/iet-cta.2015.1335
 [research_huang_zhang_2020]: https://doi.org/10.1109/icuas48674.2020.9213966
 [research_huang_zhang_2023]: https://doi.org/10.1115/ht2023-106577
@@ -23992,7 +21917,6 @@ computable in one line from the lift equation.
 [research_huihui_jun_2024_b]: https://doi.org/10.1109/meae62008.2024.11026731
 [research_huijts_voskuijl_2015]: https://doi.org/10.1016/j.ast.2015.07.001
 [research_huiying_zhibin_2017]: https://doi.org/10.1109/dcabes.2017.27
-[research_hull_1918]: https://doi.org/10.2307/1327709
 [research_hulshoff_mulder_1996]: https://doi.org/10.2514/6.1996-3416
 [research_hummel_oelker_1994]: https://doi.org/10.2514/3.46573
 [research_hummel_srinivasan_1967]: https://doi.org/10.1017/s000192400005586x
@@ -24007,7 +21931,6 @@ computable in one line from the lift equation.
 [research_hurlbert_applewhite_1998]: https://doi.org/10.2514/2.5330
 [research_hurwitz_dick_1978]: https://doi.org/10.21236/ada068486
 [research_huskey_1975]: https://doi.org/10.21236/ada012898
-[research_hussain_2025]: https://doi.org/10.1108/hff-04-2025-0291
 [research_hussain_rafi_2026]: https://doi.org/10.38032/scse.2026.4.216
 [research_hussein_kadhim_2026]: https://doi.org/10.1556/606.2025.01434
 [research_hutchin_2019]: https://doi.org/10.2514/6.2019-0280
@@ -24033,7 +21956,6 @@ computable in one line from the lift equation.
 [research_ibragimov_gulomov_2026]: https://doi.org/10.3390/g17040035
 [research_ibragimov_qushaqov_2023]: https://doi.org/10.3390/math11122662
 [research_ibraheemalqadi_2019]: https://doi.org/10.4197/eng.30-1.4
-[research_ichalal_marx_2015]: https://doi.org/10.1002/rnc.3355
 [research_idan_sahar_1996]: https://doi.org/10.2514/6.1996-3476
 [research_idir_bensafia_2022]: https://doi.org/10.1002/asjc.3009
 [research_idnani_2026]: https://doi.org/10.2514/6.2026-114748
@@ -24046,7 +21968,6 @@ computable in one line from the lift equation.
 [research_iinoya_masuda_1970]: https://doi.org/10.4164/sptj1964.7.290
 [research_ikami_fujita_2021]: https://doi.org/10.2514/1.c035880
 [research_ikaza_rausch_2000]: https://doi.org/10.1016/s1290-0958(00)80017-9
-[research_iles_svec_2022]: https://doi.org/10.1109/codit55151.2022.9804109
 [research_ilgen_speyer_1992]: https://doi.org/10.2514/6.1992-4453
 [research_ilie_2026]: https://doi.org/10.2514/6.2026-3331
 [research_ilie_recher_2025]: https://doi.org/10.2514/6.2025-0032
@@ -24062,14 +21983,10 @@ computable in one line from the lift equation.
 [research_imado_ishihara_1993]: https://doi.org/10.1016/0898-1221(93)90122-c
 [research_imado_miwa_1986]: https://doi.org/10.2514/3.45388
 [research_imanov_2025]: https://doi.org/10.1504/ijsa.2025.10071180
-[research_imber_rogers_2007]: https://doi.org/10.21236/ada465585
 [research_imbrie_1981]: https://doi.org/10.2514/3.44723
 [research_imlay_1986]: https://doi.org/10.2514/6.1986-203
-[research_inci_demirdelen_2015]: https://doi.org/10.17950/ijer/v4s11/1101
 [research_incorporating_agility_1994]: https://doi.org/10.2514/6.1994-2135
-[research_indian_company_1992]: https://doi.org/10.54648/bula1992006
 [research_indri_tornambe_1996]: https://doi.org/10.1016/0167-6911(96)00007-2
-[research_indriawati_yudistiranda_2022]: https://doi.org/10.15866/ireaco.v15i3.20190
 [research_influence_of_2023]: https://doi.org/10.47176/jafm.16.04.1581
 [research_infrared_de_icing_1998]: https://doi.org/10.1108/aeat.1998.12770ead.002
 [research_ingalagi_katti_2016]: https://doi.org/10.1016/j.pisc.2016.04.058
@@ -24079,11 +21996,8 @@ computable in one line from the lift equation.
 [research_innocenti_1985]: https://doi.org/10.2514/6.1985-1805
 [research_innocenti_1989]: https://doi.org/10.2514/6.1989-3488
 [research_innocenti_1989_b]: https://doi.org/10.2514/6.1989-3391
-[research_inoue_miyata_2016]: https://doi.org/10.1109/iros.2016.7759563
 [research_inozemtsev_pleshivykh_2022]: https://doi.org/10.18522/2311-3103-2022-2-65-78
-[research_insurance_liability_1918]: https://doi.org/10.2307/1327909
 [research_intelligent_hierarchical_1994]: https://doi.org/10.1109/37.291461
-[research_interstate_commerce_1922]: https://doi.org/10.2307/789391
 [research_intravartolo_miller_2023]: https://doi.org/10.2514/6.2023-2310
 [research_introduction_to_2017]: https://doi.org/10.2514/1.c034808
 [research_invernizzi_lovera_2018]: https://doi.org/10.1016/j.automatica.2018.05.024
@@ -24091,8 +22005,6 @@ computable in one line from the lift equation.
 [research_investigation_on_2022]: https://doi.org/10.47176/jafm.15.03.33364
 [research_ioannis_ioannis_2026]: https://doi.org/10.70322/dav.2026.10005
 [research_ionita_rasvan_1999]: https://doi.org/10.23919/ecc.1999.7099911
-[research_iqbal_srinivasan_2018]: https://doi.org/10.1016/j.jlp.2017.10.011
-[research_irawan_santosa_2019]: https://doi.org/10.1109/icevt48285.2019.8994031
 [research_irving_1933]: https://doi.org/10.1108/eb029754
 [research_isaac_allaire_2016]: https://doi.org/10.2514/6.2016-1444
 [research_isci_gunel_2021]: https://doi.org/10.1007/s40435-021-00803-6
@@ -24105,12 +22017,9 @@ computable in one line from the lift equation.
 [research_islam_hasan_2018]: https://doi.org/10.1051/matecconf/201817903014
 [research_islam_hasan_2018_b]: https://doi.org/10.1063/1.5044324
 [research_islam_islam_2017]: https://doi.org/10.3329/jbas.v41i1.33505
-[research_ismail_bakar_2019]: https://doi.org/10.1063/1.5089391
 [research_ismayilov_bergeles_2025]: https://doi.org/10.31256/hsmr25.14
-[research_isnain_rahmanto_2024]: https://doi.org/10.58602/itsecs.v2i4.164
 [research_ison_2017]: https://doi.org/10.15394/ijaaa.2017.1095
 [research_ito_endo_2016]: https://doi.org/10.1299/jsmermd.2016.1a2-18a4
-[research_ito_fujishiro_1990]: https://doi.org/10.23919/acc.1990.4790842
 [research_ito_furukawa_2020]: https://doi.org/10.1115/gt2020-15426
 [research_ito_iwashita_2017]: https://doi.org/10.2534/jjasnaoe.25.63
 [research_ito_watanabe_2022]: https://doi.org/10.1115/gt2022-79379
@@ -24120,7 +22029,6 @@ computable in one line from the lift equation.
 [research_ivler_tischler_2011]: https://doi.org/10.2514/6.2011-6686
 [research_ivler_tischler_2019]: https://doi.org/10.4050/f-0075-2019-14754
 [research_iwai_2018]: https://doi.org/10.1299/jsmemecj.2018.g0500104
-[research_iwai_2019]: https://doi.org/10.23919/iccas47443.2019.8971716
 [research_iwaki_wu_2018]: https://doi.org/10.23919/ecc.2018.8550115
 [research_iwamoto_kanai_2019]: https://doi.org/10.1299/jsmecs.2019.57.504
 [research_iwanski_orourke_1995]: https://doi.org/10.2514/6.1995-1800
@@ -24130,7 +22038,6 @@ computable in one line from the lift equation.
 [research_izquierdo_marques_2021]: https://doi.org/10.1007/s11012-021-01409-0
 [research_jabbal_everett_2016]: https://doi.org/10.2514/6.2016-3928
 [research_jabbal_everett_2016_b]: https://doi.org/10.2514/6.2016-3928.c1
-[research_jabeur_moh_2017]: https://doi.org/10.1007/s00779-017-1033-1
 [research_jack_hoffler_2015]: https://doi.org/10.2514/6.2015-2394
 [research_jackel_gutierrezurueta_2019]: https://doi.org/10.1017/aer.2019.33
 [research_jackel_gutierrezurueta_2021]: https://doi.org/10.1016/j.flowmeasinst.2021.102033
@@ -24141,14 +22048,11 @@ computable in one line from the lift equation.
 [research_jackson_crouch_1991]: https://doi.org/10.2514/3.20717
 [research_jacobson_1952]: https://doi.org/10.21236/ad0029208
 [research_jacques_ridgely_1995]: https://doi.org/10.2514/6.1995-3239
-[research_jacuzzi_alemanchona_2019]: https://doi.org/10.2514/6.2019-0592
-[research_jacuzzi_granlund_2018]: https://doi.org/10.2514/6.2018-3529
 [research_jaeger_hemati_2025]: https://doi.org/10.2514/6.2025-97945
 [research_jaeger_thome_2026]: https://doi.org/10.2514/6.2026-4164
 [research_jaermark_1983]: https://doi.org/10.2514/6.1983-2120
 [research_jafari_fehr_2017]: https://doi.org/10.1109/icuas.2017.7991512
 [research_jafari_khakisedigh_2022]: https://doi.org/10.1007/s40435-022-01054-9
-[research_jafari_mashadi_2022]: https://doi.org/10.1080/00423114.2022.2056490
 [research_jafari_xu_2018]: https://doi.org/10.1109/icuas.2018.8453450
 [research_jagtap_strehlow_2025]: https://doi.org/10.2514/6.2025-1410
 [research_jahan_kelkar_2023]: https://doi.org/10.33599/nasampe/c.23.0161
@@ -24156,19 +22060,16 @@ computable in one line from the lift equation.
 [research_jain_c_2017]: https://doi.org/10.2514/6.2017-1868
 [research_jain_kamali_2019]: https://doi.org/10.1109/icc47138.2019.9123185
 [research_jain_roy_2015]: https://doi.org/10.4271/2015-01-2423
-[research_jain_roy_2019]: https://doi.org/10.5373/jardcs/v11sp12/20193229
 [research_jain_singla_2025]: https://doi.org/10.2514/6.2025-0464
 [research_jaiswal_bubanale_2023]: https://doi.org/10.1115/gtindia2023-118322
 [research_jaiswal_kothari_2024]: https://doi.org/10.2514/6.2024-1105
 [research_jaksic_janic_2020]: https://doi.org/10.1016/j.jairtraman.2020.101891
-[research_jaman_sarangerel_2025]: https://doi.org/10.55248/gengpi.6.0525.1787
 [research_jamesmluckring_2003]: https://ntrs.nasa.gov/citations/20040010871
 [research_jammalamadaka_laskowski_2020]: https://doi.org/10.2514/6.2020-3055
 [research_jamshidim_lumiar_1997]: https://ntrs.nasa.gov/citations/20010000359
 [research_jang_2018]: https://doi.org/10.2514/6.2018-2258
 [research_jangjiannwoei_yanglee_2014]: https://ntrs.nasa.gov/citations/20140008284
 [research_jankovic_1983]: https://doi.org/10.2514/6.1983-993
-[research_jansen_graafland_2026]: https://doi.org/10.5592/co/cetra.2026.1839
 [research_jansen_vankampen_2025]: https://doi.org/10.2514/6.2025-2794
 [research_jansen_vos_2016]: https://doi.org/10.2514/6.2016-1281
 [research_jansenemmertt_thormanhcarl_1950]: https://ntrs.nasa.gov/citations/19930086180
@@ -24181,7 +22082,6 @@ computable in one line from the lift equation.
 [research_jarmark_1989]: https://doi.org/10.1115/1.3153103
 [research_jarrah_1989]: https://doi.org/10.2514/6.1989-295
 [research_jarrah_1995]: https://doi.org/10.1006/jfls.1995.1052
-[research_jarrou_sauter_2019]: https://doi.org/10.1109/systol.2019.8864773
 [research_jarubinovich_2018]: https://doi.org/10.1016/j.ifacol.2018.11.471
 [research_jasim_veres_2018]: https://doi.org/10.1109/ccta.2018.8511595
 [research_jategaonkar_monnich_1997]: https://doi.org/10.2514/2.2169
@@ -24190,7 +22090,6 @@ computable in one line from the lift equation.
 [research_javadi_nilsson_2016]: https://doi.org/10.1080/19942060.2016.1235515
 [research_jaworski_szatkowski_2023]: https://doi.org/10.24425/mms.2023.147953
 [research_jayakumar_shyammohan_2018]: https://doi.org/10.1080/03772063.2018.1538824
-[research_jayalakshmi_gaonkar_2017]: https://doi.org/10.1080/21563306.2017.11869107
 [research_jayaram_myklebust_1992]: https://doi.org/10.2514/6.1992-4283
 [research_jayaraman_gaurav_2020]: https://doi.org/10.2514/6.2020-0608
 [research_jayaraman_gaurav_2020_b]: https://doi.org/10.2514/6.2020-0608.c1
@@ -24240,7 +22139,6 @@ computable in one line from the lift equation.
 [research_jia_feng_2026]: https://doi.org/10.30919/es2092
 [research_jia_hu_2021]: https://doi.org/10.1109/jsen.2021.3073793
 [research_jia_li_2025]: https://doi.org/10.1109/ccdc65474.2025.11090517
-[research_jia_liu_2017]: https://doi.org/10.23919/chicc.2017.8028877
 [research_jia_liu_2021]: https://doi.org/10.1016/j.measurement.2021.109235
 [research_jia_qu_2022]: https://doi.org/10.1016/j.engappai.2022.105410
 [research_jia_tian_2025]: https://doi.org/10.1016/j.ijthermalsci.2025.109784
@@ -24249,15 +22147,11 @@ computable in one line from the lift equation.
 [research_jia_zhou_2026]: https://doi.org/10.1016/j.energy.2026.141750
 [research_jian_chen_2024]: https://doi.org/10.1109/jmass.2024.3378726
 [research_jiandong_qiming_2021]: https://doi.org/10.23919/jsee.2021.000121
-[research_jiang_1993]: https://doi.org/10.23919/acc.1993.4792863
-[research_jiang_2015]: https://doi.org/10.3901/jme.2015.22.088
 [research_jiang_2018]: https://doi.org/10.2514/6.2018-0721
 [research_jiang_2018_b]: https://doi.org/10.2514/6.2018-0721.c1
-[research_jiang_2022]: https://doi.org/10.3102/1882176
 [research_jiang_chen_2018]: https://doi.org/10.1109/gncc42960.2018.9018655
 [research_jiang_dong_2016]: https://doi.org/10.1109/aus.2016.7748195
 [research_jiang_han_2026]: https://doi.org/10.1016/j.engappai.2026.115076
-[research_jiang_hu_2025]: https://doi.org/10.1177/14759217251368998
 [research_jiang_li_2018]: https://doi.org/10.2514/6.2018-3160
 [research_jiang_li_2018_b]: https://doi.org/10.2514/6.2018-3160.c1
 [research_jiang_li_2022]: https://doi.org/10.3390/aerospace9080460
@@ -24293,7 +22187,6 @@ computable in one line from the lift equation.
 [research_jin_zheng_2026]: https://doi.org/10.1109/ccdc69976.2026.11560486
 [research_jin_zhu_2017]: https://doi.org/10.1109/iecon.2017.8216998
 [research_jing_cong_2024]: https://doi.org/10.3390/aerospace11121055
-[research_jing_jia_2018]: https://doi.org/10.1109/access.2017.2788941
 [research_jing_ma_2025]: https://doi.org/10.1108/aeat-01-2024-0025
 [research_jing_qi_2020]: https://doi.org/10.1088/1757-899x/887/1/012042
 [research_jing_shen_2015]: https://doi.org/10.1109/chicc.2015.7259716
@@ -24302,12 +22195,10 @@ computable in one line from the lift equation.
 [research_jingwei_jiaming_2020]: https://doi.org/10.1109/icmeas51739.2020.00036
 [research_jingwei_li_2016]: https://doi.org/10.1115/1.4033140
 [research_jingwei_zhanxue_2019]: https://doi.org/10.1115/1.4043611
-[research_jneid_harth_2023]: https://doi.org/10.1109/esars-itec57127.2023.10114899
 [research_jo_park_2015]: https://doi.org/10.2514/6.2015-3235
 [research_jo_park_2016]: https://doi.org/10.2514/6.2016-0163
 [research_jobbins_caldwell_2026]: https://doi.org/10.2514/6.2026-4705
 [research_johansen_cristofaro_2015]: https://doi.org/10.1109/icuas.2015.7152330
-[research_john_2025]: https://doi.org/10.55248/gengpi.06.1125.3868
 [research_johnson_1972]: https://doi.org/10.21236/ad0754909
 [research_johnson_1984]: https://doi.org/10.2514/6.1984-2127
 [research_johnson_bachalo_1981]: https://doi.org/10.2514/3.57459
@@ -24326,7 +22217,6 @@ computable in one line from the lift equation.
 [research_jones_1973]: https://doi.org/10.21236/ada002569
 [research_jones_1983]: https://doi.org/10.21236/ada133022
 [research_jones_1995]: https://doi.org/10.2514/3.46791
-[research_jones_2013]: https://doi.org/10.21236/ada601067
 [research_jones_franke_2006]: https://doi.org/10.2514/6.2006-2832
 [research_jones_garcia_1996]: https://doi.org/10.2514/3.21682
 [research_jones_jiarichards_2025]: https://doi.org/10.2514/6.2025-99739
@@ -24337,7 +22227,6 @@ computable in one line from the lift equation.
 [research_joos_ossmann_2016]: https://doi.org/10.1109/systol.2016.7739843
 [research_joosten_stroosma_2023]: https://doi.org/10.2514/6.2023-0906
 [research_jordan_1974]: https://doi.org/10.2514/6.1974-941
-[research_jose_das_2021]: https://doi.org/10.1109/jsen.2021.3083677
 [research_joseph_wolfson_1995]: https://doi.org/10.2307/2348439
 [research_josephshibu_shankar_2021]: https://doi.org/10.1007/s10846-021-01511-1
 [research_joshi_sreenatha_1998]: https://doi.org/10.1109/87.709502
@@ -24345,7 +22234,6 @@ computable in one line from the lift equation.
 [research_josipovic_ortiz_2024]: https://doi.org/10.2514/6.2024-2695
 [research_jouannet_krus_2007]: https://doi.org/10.2514/6.2007-4295
 [research_joyce_2026]: https://doi.org/10.58930/bp54365578
-[research_ju_he_2018]: https://doi.org/10.1016/j.ab.2018.04.005
 [research_ju_li_2023]: https://doi.org/10.1007/s12555-021-0515-0
 [research_juang_1988]: https://doi.org/10.23919/acc.1988.4789869
 [research_judith_2020]: https://doi.org/10.35840/2631-5009/7544
@@ -24363,13 +22251,11 @@ computable in one line from the lift equation.
 [research_jung_baeder_2023]: https://doi.org/10.2514/1.c037124
 [research_jung_jung_2014]: https://doi.org/10.1109/icuas.2014.6842365
 [research_jung_kim_2019]: https://doi.org/10.2514/1.g003990
-[research_jung_park_2018]: https://doi.org/10.7735/ksmte.2018.27.3.228
 [research_junhuachen_dongcao_2015]: https://doi.org/10.1109/cac.2015.7382827
 [research_junhuili_weizhousu_2016]: https://doi.org/10.1109/aucc.2016.7868200
 [research_junkins_1986]: https://doi.org/10.21236/ada172716
 [research_jurado_mcgehee_2019]: https://doi.org/10.2514/1.c034964
 [research_jurado_mcgehee_2024]: https://doi.org/10.1109/i2mtc60896.2024.10560820
-[research_juris_li_2025]: https://doi.org/10.1109/codit66093.2025.11321858
 [research_jusko_berger_2024]: https://doi.org/10.4050/f-0080-2024-1048
 [research_justice_iii_2004]: https://doi.org/10.21236/ada423705
 [research_jyothy_johnwessley_2023]: https://doi.org/10.1108/ijius-11-2022-0131
@@ -24377,19 +22263,14 @@ computable in one line from the lift equation.
 [research_kabaliswaran_das_2026]: https://doi.org/10.2514/1.c038269
 [research_kabashkin_2024]: https://doi.org/10.3390/math12192979
 [research_kaczmarek_2026]: https://doi.org/10.1016/j.neucom.2026.133215
-[research_kadam_jadhav_2018]: https://doi.org/10.1109/i2ct42659.2018.9058054
 [research_kadhem_hussein_2021]: https://doi.org/10.33261/https://doi.org/10.33261/jaaru.2020.27.4.003
 [research_kadrnka_hawley_1993]: https://doi.org/10.2514/6.1993-3929
-[research_kadwe_2019]: https://doi.org/10.33545/27068919.2019.v1.i2c.101
-[research_kageyama_saito_1985]: https://doi.org/10.1080/00423118508968794
-[research_kageyama_saito_1986]: https://doi.org/10.1080/00423118608969138
 [research_kahe_2017]: https://doi.org/10.1007/s13198-017-0584-x
 [research_kai_2024]: https://doi.org/10.2514/1.g007917
 [research_kakroo_sadat_2025]: https://doi.org/10.1063/5.0282950
 [research_kalensher_1957]: https://doi.org/10.21236/ad0149918
 [research_kaletka_fu_1993]: https://doi.org/10.2514/6.1993-3635
 [research_kalinowski_2017]: https://doi.org/10.2514/6.2017-1605
-[research_kalita_singh_2023]: https://doi.org/10.1063/5.0164072
 [research_kallergis_1987]: https://doi.org/10.3397/1.2827688
 [research_kalugin_voropaev_2022]: https://doi.org/10.3103/s1068799822030126
 [research_kalviste_1986]: https://doi.org/10.2514/6.1986-2283
@@ -24405,10 +22286,7 @@ computable in one line from the lift equation.
 [research_kamel_ghamry_2015]: https://doi.org/10.1109/icuas.2015.7152346
 [research_kamel_ghamry_2016]: https://doi.org/10.1109/icuas.2016.7502638
 [research_kamel_oussama_2021]: https://doi.org/10.1109/icvisp54630.2021.00046
-[research_kamel_yu_2016]: https://doi.org/10.1109/systol.2016.7739723
-[research_kamijyou_kukobat_2022]: https://doi.org/10.1016/j.cartre.2022.100230
 [research_kaminer_khargonekar_1991]: https://doi.org/10.23919/acc.1991.4791891
-[research_kanai_nakamura_1978]: https://doi.org/10.1143/ptp.59.175
 [research_kandemir_ayan_2023]: https://doi.org/10.2514/6.2023-1562
 [research_kandil_chuang_1989]: https://doi.org/10.2514/6.1989-81
 [research_kandil_chuang_1990]: https://doi.org/10.2514/3.25257
@@ -24421,25 +22299,18 @@ computable in one line from the lift equation.
 [research_kandil_sheta_1995]: https://doi.org/10.2514/6.1995-3464
 [research_kandil_sheta_1996]: https://doi.org/10.2514/6.1996-2517
 [research_kaneko_yamanaka_2024]: https://doi.org/10.1016/j.sna.2024.115320
-[research_kanellos_katsianis_2026]: https://doi.org/10.3390/forecast8020028
 [research_kaneshigejohnt_krishnakumarkalmanjes_2014]: https://ntrs.nasa.gov/citations/20150003405
 [research_kang_2023]: https://doi.org/10.4271/2023-01-1654
 [research_kang_choi_2022]: https://doi.org/10.1007/s42405-021-00425-4
 [research_kang_gao_2026]: https://doi.org/10.1109/tim.2026.3693792
-[research_kang_lee_2020]: https://doi.org/10.1109/amc44022.2020.9244303
 [research_kang_li_2024]: https://doi.org/10.52202/078368-0104
-[research_kang_meng_2025]: https://doi.org/10.1016/j.jlp.2025.105615
 [research_kang_xu_2024]: https://doi.org/10.3390/app14062292
-[research_kang_yao_2020]: https://doi.org/10.1016/j.isatra.2020.06.015
 [research_kang_yao_2020_b]: https://doi.org/10.1080/00207721.2020.1737756
 [research_kang_zhong_2015]: https://doi.org/10.1016/j.proeng.2014.12.523
 [research_kano_ryuzono_2025]: https://doi.org/10.2514/6.2025-0002
 [research_kanou_ibuki_2025]: https://doi.org/10.1109/lcsys.2025.3647557
 [research_kao_white_2018]: https://doi.org/10.2514/6.2018-3877
-[research_kapania_gerdes_2015]: https://doi.org/10.1080/00423114.2015.1055279
-[research_kaplan_1987]: https://doi.org/10.21236/ada179306
 [research_kaplanjosepha_chappellalanr_1994]: https://ntrs.nasa.gov/citations/19940031931
-[research_kapoor_gupta_2018]: https://doi.org/10.1016/j.measurement.2018.05.053
 [research_kara_enderya_2025]: https://doi.org/10.1016/j.prostr.2025.08.077
 [research_kara_erpulat_2021]: https://doi.org/10.35860/iarej.758397
 [research_kara_kurtulus_2024]: https://doi.org/10.1515/tjj-2024-0090
@@ -24448,7 +22319,6 @@ computable in one line from the lift equation.
 [research_karimikelayeh_djavareshkian_2024]: https://doi.org/10.1061/jaeeez.aseng-5073
 [research_karimtaevna_bekbolatovna_2022]: https://doi.org/10.11591/ijece.v12i4.pp3572-3582
 [research_karkar_gokmenoglu_2024]: https://doi.org/10.1109/autotestcon47465.2024.10697526
-[research_karkoszka_2019]: https://doi.org/10.2478/czoto-2019-0016
 [research_karlgaard_2025]: https://doi.org/10.2514/1.a36215
 [research_karlgaard_kutty_2015]: https://doi.org/10.2514/6.2015-0526
 [research_karlgaard_kutty_2017]: https://doi.org/10.2514/1.a33331
@@ -24469,7 +22339,6 @@ computable in one line from the lift equation.
 [research_kassab_1990]: https://doi.org/10.1063/1.1141095
 [research_kassapakis_warwick_1994]: https://doi.org/10.1002/acs.4480080405
 [research_kasula_whidborne_2024]: https://doi.org/10.3390/s24123795
-[research_katsuragawa_wakao_2019]: https://doi.org/10.1109/pvsc40753.2019.8980670
 [research_katukuri_2023]: https://doi.org/10.1109/icort56052.2023.10249134
 [research_katunin_2016]: https://doi.org/10.1515/fas-2016-0002
 [research_katunin_krukiewicz_2017]: https://doi.org/10.1016/j.compstruct.2016.10.028
@@ -24487,7 +22356,6 @@ computable in one line from the lift equation.
 [research_katz_yon_1996]: https://doi.org/10.2514/3.13054
 [research_kaufmanndavidn_mcnallybdavid_1995]: https://ntrs.nasa.gov/citations/19960002042
 [research_kaufmanndavidn_ncnallybdavid_1995]: https://ntrs.nasa.gov/citations/19950024367
-[research_kawai_yokokura_2023]: https://doi.org/10.1080/01691864.2023.2185812
 [research_kayacan_peschel_2016]: https://doi.org/10.1016/j.ifacol.2016.10.175
 [research_kazan_aktemur_2026]: https://doi.org/10.30518/jav.1824254
 [research_kazarin_golubev_2016]: https://doi.org/10.2514/6.2016-3884
@@ -24524,7 +22392,6 @@ computable in one line from the lift equation.
 [research_kereliuk_sinclair_1979]: https://doi.org/10.2514/6.1979-702
 [research_kern_1993]: https://doi.org/10.2514/3.46422
 [research_kerr_ruddy_1999]: https://doi.org/10.1023/a:1008809902992
-[research_kessler_levine_1990]: https://doi.org/10.1103/physreva.41.3197
 [research_ketchel_1977]: https://doi.org/10.1177/107118137702100515
 [research_kettle_1954]: https://doi.org/10.1017/s0368393100102159
 [research_key_1971]: https://doi.org/10.21236/ad0725746
@@ -24545,18 +22412,15 @@ computable in one line from the lift equation.
 [research_khasheinejad_montazerigh_2025]: https://doi.org/10.1049/cth2.70015
 [research_khatri_gupta_2023]: https://doi.org/10.1109/icuas57906.2023.10156488
 [research_khatri_subbarao_2024]: https://doi.org/10.23919/acc60939.2024.10644512
-[research_khilenko_galinski_2023]: https://doi.org/10.1109/kit59097.2023.10297066
 [research_kho_park_2021]: https://doi.org/10.3390/aerospace8060158
 [research_khodunkov_zarichnyak_2022]: https://doi.org/10.34759/tpt-2022-14-12-539-554
 [research_khoshkhoo_jahangirian_2016]: https://doi.org/10.1088/1009-0630/18/9/10
-[research_khosravani_nazirimoghaddam_2016]: https://doi.org/10.1016/j.epsr.2016.03.024
 [research_khudaybergenov_2021]: https://doi.org/10.1109/icisct52966.2021.9670372
 [research_khurana_eldin_2023]: https://doi.org/10.2514/1.c036860
 [research_kidd_1988]: https://doi.org/10.2514/6.1988-4335
 [research_kidd_bull_1963]: https://doi.org/10.21236/ad0400265
 [research_kiefer_calvert_1992]: https://doi.org/10.2514/6.1992-4157
 [research_kiely_agarwal_2023]: https://doi.org/10.2514/6.2023-4373
-[research_kier_1998]: https://doi.org/10.2307/2539378
 [research_kikin_2018]: https://doi.org/10.14489/vkit.2018.01.pp.003-013
 [research_kikkawa_uchiyama_2017]: https://doi.org/10.1109/red-uas.2017.8101677
 [research_kikuchi_yoshida_2015]: https://doi.org/10.1109/icaicta.2015.7335387
@@ -24577,9 +22441,7 @@ computable in one line from the lift equation.
 [research_kim_kim_2020]: https://doi.org/10.1016/j.compstruct.2020.112857
 [research_kim_kim_2020_b]: https://doi.org/10.1016/j.energy.2020.117046
 [research_kim_kim_2023]: https://doi.org/10.3390/s23063232
-[research_kim_kim_2023_b]: https://doi.org/10.52798/kadis.2023.30.3.5
 [research_kim_kim_2024]: https://doi.org/10.3390/app142210615
-[research_kim_kim_2024_b]: https://doi.org/10.1109/paine62042.2024.10792709
 [research_kim_kim_2026]: https://doi.org/10.1016/j.ast.2026.112974
 [research_kim_koh_2025]: https://doi.org/10.1007/s42405-025-01059-6
 [research_kim_kunz_2016]: https://doi.org/10.2514/6.2016-3542
@@ -24590,7 +22452,6 @@ computable in one line from the lift equation.
 [research_kim_lim_2020]: https://doi.org/10.1109/icuas48674.2020.9214058
 [research_kim_marciniak_1998]: https://doi.org/10.2514/6.1998-4259
 [research_kim_moin_2016]: https://doi.org/10.2514/6.2016-0572
-[research_kim_muljadi_2019]: https://doi.org/10.1049/iet-gtd.2018.5828
 [research_kim_oh_2019]: https://doi.org/10.1007/s12555-018-0401-6
 [research_kim_park_2025]: https://doi.org/10.23919/iccas66577.2025.11301088
 [research_kim_so_2025]: https://doi.org/10.1109/jiot.2024.3468344
@@ -24602,34 +22463,24 @@ computable in one line from the lift equation.
 [research_kimata_taguchi_2015]: https://doi.org/10.2514/6.2015-2186
 [research_kimathi_lantos_2024]: https://doi.org/10.12700/aph.21.2.2024.2.16
 [research_kimberlin_sims_1992]: https://doi.org/10.2514/6.1992-4090
-[research_kimbrough_chiu_1990]: https://doi.org/10.23919/acc.1990.4791252
-[research_kindra_rogalev_2026]: https://doi.org/10.1016/j.anucene.2025.111969
 [research_kineyko_1982]: https://doi.org/10.21236/ada119003
-[research_king_2000]: https://doi.org/10.21236/ada377683
 [research_king_peterson_2019]: https://doi.org/10.1109/vtcfall.2019.8891277
 [research_king_schnelker_1970]: https://doi.org/10.2514/6.1970-1150
 [research_kingjr_freeman_1991]: https://doi.org/10.2514/6.1991-473
 [research_kinnaert_1993]: https://doi.org/10.1016/s1474-6670(17)48292-9
 [research_kinnaert_1996]: https://doi.org/10.1080/00207179608921860
 [research_kirchengast_steinberger_2018]: https://doi.org/10.1016/j.ifacol.2018.11.080
-[research_kirk_2012]: https://doi.org/10.21236/ada561273
 [research_kirkendoll_2022]: https://doi.org/10.1109/dasc55683.2022.9925724
-[research_kirkland_1992]: https://doi.org/10.1177/0095327x9201800202
 [research_kirmizi_aygun_2023]: https://doi.org/10.1016/j.energy.2023.129084
 [research_kirsch_fathi_2025]: https://doi.org/10.1115/1.4071802
-[research_kirschner_martineau_2022]: https://doi.org/10.1109/iros47612.2022.9981864
 [research_kirsten_1985]: https://doi.org/10.2514/6.1985-4040
 [research_kiselev_maslov_1994]: https://doi.org/10.1007/bf02369177
 [research_kiseleva_lukeshevich_2019]: https://doi.org/10.1088/1742-6596/1404/1/012111
 [research_kish_graham_1999]: https://doi.org/10.1109/aero.1999.789766
 [research_kish_mittlestead_1996]: https://doi.org/10.2514/6.1996-3493
-[research_kishimoto_saito_2021]: https://doi.org/10.1109/sensors47087.2021.9639833
-[research_kishimoto_saito_2021_b]: https://doi.org/10.1109/jsen.2021.3094565
-[research_kishimoto_saito_2022]: https://doi.org/10.1299/jsmermd.2022.2p1-t04
 [research_kishore_ashok_2025]: https://doi.org/10.1615/interfacphenomheattransfer.2024055443
 [research_kisslinger_wendl_1971]: https://doi.org/10.21236/ad0727762
 [research_kistyarev_wang_2025]: https://doi.org/10.1007/s42496-025-00249-5
-[research_kitayama_1991]: https://doi.org/10.5100/jje.27.supplement_240
 [research_kitowski_1992]: https://doi.org/10.2514/6.1992-1197
 [research_kiyak_2016]: https://doi.org/10.1108/aeat-02-2015-0037
 [research_kiyak_ermeydan_2018]: https://doi.org/10.11128/sne.28.sn.10422
@@ -24637,11 +22488,9 @@ computable in one line from the lift equation.
 [research_klafin_1988]: https://doi.org/10.2514/6.1988-4499
 [research_klajn_gur_1992]: https://doi.org/10.2514/6.1992-4368
 [research_klatt_engell_1995]: https://doi.org/10.1016/s1474-6670(17)46826-1
-[research_klatt_engell_1996]: https://doi.org/10.1021/ie960033g
 [research_klein_1989]: https://doi.org/10.2514/6.1989-3356
 [research_klein_1989_b]: https://doi.org/10.1016/0376-0421(89)90002-x
 [research_klein_1990]: https://doi.org/10.2514/6.1990-2801
-[research_klein_1992]: https://doi.org/10.4271/920584
 [research_klein_batterson_1986]: https://doi.org/10.2514/3.45304
 [research_klein_krainski_2017]: https://doi.org/10.4050/sm_2017_hq-1572
 [research_klein_morelli_1992]: https://doi.org/10.1016/s1474-6670(17)50630-8
@@ -24656,7 +22505,6 @@ computable in one line from the lift equation.
 [research_klepper_sirbaugh_2017]: https://doi.org/10.1115/gt2017-63072
 [research_klinskii_2023]: https://doi.org/10.34759/vst-2023-1-117-130
 [research_klion_1977]: https://doi.org/10.21236/ada050837
-[research_kloetzer_weber_2024]: https://doi.org/10.13052/rp-9788770042222c12
 [research_klopfer_nielsen_1979]: https://doi.org/10.21236/ada087134
 [research_klute_rediniotis_1996]: https://doi.org/10.2514/3.13125
 [research_klyde_aponso_1995]: https://doi.org/10.2514/6.1995-3205
@@ -24667,13 +22515,10 @@ computable in one line from the lift equation.
 [research_knezevic_2015]: https://doi.org/10.5937/jaes13-8952
 [research_knoedler_bailey_1996]: https://doi.org/10.2514/6.1996-3417
 [research_knoop_morenoperez_1994]: https://doi.org/10.1016/0959-1524(94)85006-2
-[research_knowles_grosenbaugh_1996]: https://doi.org/10.21236/ada329072
 [research_knox_1992]: https://doi.org/10.2514/6.1992-1035
 [research_knuusi_sage_1965]: https://doi.org/10.21236/ad0623111
 [research_ko_kang_2019]: https://doi.org/10.5139/jksas.2019.47.2.114
-[research_ko_khan_2021]: https://doi.org/10.1109/mems51782.2021.9375248
 [research_ko_kim_2016]: https://doi.org/10.20910/jase.2016.10.2.7
-[research_kobashi_yamazaki_2023]: https://doi.org/10.1016/j.carbon.2022.12.011
 [research_kobayakawa_kondo_1993]: https://doi.org/10.1007/978-3-642-52460-8_18
 [research_kobayashi_ikeura_1996]: https://doi.org/10.1007/bf00238735
 [research_kobayashi_watanabe_2020]: https://doi.org/10.1299/mej.20-00215
@@ -24682,11 +22527,9 @@ computable in one line from the lift equation.
 [research_kodama_1985]: https://doi.org/10.1115/85-igt-43
 [research_koga_hiratsuka_2017]: https://doi.org/10.1299/jsmemecj.2017.j2340102
 [research_kohler_scholz_2026]: https://doi.org/10.1016/j.ejcon.2026.101569
-[research_koibuchi_yamamoto_1996]: https://doi.org/10.4271/960487
 [research_koizumi_tsutsumi_2018]: https://doi.org/10.2514/6.2018-3691
 [research_kokaew_bodhisuwan_2022]: https://doi.org/10.1080/02664763.2022.2041566
 [research_kokaew_thaithanan_2021]: https://doi.org/10.1134/s199508022102013x
-[research_kokku_2023]: https://doi.org/10.21275/sr231005151406
 [research_koklu_2016]: https://doi.org/10.2514/1.j054448
 [research_kokoliosalex_1993]: https://ntrs.nasa.gov/citations/19940020627
 [research_kokubo_oba_2026]: https://doi.org/10.2514/6.2026-2882
@@ -24694,7 +22537,6 @@ computable in one line from the lift equation.
 [research_kolesnikov_2005]: https://doi.org/10.2514/6.2005-5977
 [research_kolesnikov_2018]: https://doi.org/10.6060/tcct.20165909.28y
 [research_koliai_zoulagh_2025]: https://doi.org/10.1016/j.ifacol.2025.10.050
-[research_kollross_tajc_2021]: https://doi.org/10.1063/5.0042745
 [research_komaee_2024]: https://doi.org/10.1109/cdc56724.2024.10885881
 [research_komarov_2018]: https://doi.org/10.15588/1727-0219-2018-1-5
 [research_komarov_zinchenko_2023]: https://doi.org/10.20535/0203-3771452023290873
@@ -24703,12 +22545,10 @@ computable in one line from the lift equation.
 [research_konar_mahesh_1974]: https://doi.org/10.21236/ada002320
 [research_konatala_milz_2024]: https://doi.org/10.2514/1.g008321
 [research_konatala_vankampen_2021]: https://doi.org/10.2514/6.2021-0883
-[research_kondo_mizuno_2017]: https://doi.org/10.5220/0006506501340141
 [research_kong_2026]: https://doi.org/10.1111/aspp.70096
 [research_kong_ding_2026]: https://doi.org/10.1016/j.compstruct.2026.120321
 [research_kong_gao_2016]: https://doi.org/10.1016/j.carbon.2015.10.035
 [research_kong_jeon_2025]: https://doi.org/10.1177/14759217251339812
-[research_kong_ngwendson_2021]: https://doi.org/10.14311/isps.2021.005
 [research_kong_zhang_2016]: https://doi.org/10.1109/icrms.2016.8050056
 [research_kong_zhou_2020]: https://doi.org/10.3390/app10155198
 [research_kong_zhou_2020_b]: https://doi.org/10.1109/icca51439.2020.9264567
@@ -24724,11 +22564,9 @@ computable in one line from the lift equation.
 [research_koppitz_siegel_2018]: https://doi.org/10.2514/6.2018-1018
 [research_koppitz_wang_2019]: https://doi.org/10.2514/6.2019-2233
 [research_kordabad_dacol_2025]: https://doi.org/10.23919/ecc65951.2025.11186903
-[research_kordkandi_hagh_2022]: https://doi.org/10.1049/gtd2.12523
 [research_korecki_hoika_2026]: https://doi.org/10.20858/tp.2026.21.2.08
 [research_korn_1974]: https://doi.org/10.2514/3.60390
 [research_korneev_lenevsky_2024]: https://doi.org/10.62486/agmu2024207
-[research_korot_rolain_2021]: https://doi.org/10.1136/bmjinnov-2020-000507
 [research_korsun_mounghtang_2023]: https://doi.org/10.3934/mina.2024003
 [research_korsun_poplavsky_2017]: https://doi.org/10.1016/j.procs.2017.01.017
 [research_korsun_poplavsky_2024]: https://doi.org/10.31857/s0002338824030066
@@ -24736,7 +22574,6 @@ computable in one line from the lift equation.
 [research_korunov_gusev_2024]: https://doi.org/10.31857/s0320791924050075
 [research_kosacki_tomczyk_2022]: https://doi.org/10.3846/aviation.2022.17555
 [research_koschel_carrese_2021]: https://doi.org/10.2514/1.j060598
-[research_kostenko_tolstonogov_2021]: https://doi.org/10.37102/1992-4429_2021_35_01_01
 [research_kostic_rasuo_2015]: https://doi.org/10.5937/tehnika1505789k
 [research_kostic_simonovic_2024]: https://doi.org/10.3390/aerospace11030223
 [research_kostin_zhuravskiy_2023]: https://doi.org/10.26467/2079-0619-2023-26-4-77-92
@@ -24767,7 +22604,6 @@ computable in one line from the lift equation.
 [research_krasilnikov_1969]: https://doi.org/10.1007/bf01032487
 [research_krasuski_savchuk_2019]: https://doi.org/10.2478/ama-2019-0031
 [research_krause_1997]: https://doi.org/10.21236/ada397873
-[research_krause_bhounsule_2018]: https://doi.org/10.3390/act7020024
 [research_krawczyk_szczepanski_2019]: https://doi.org/10.1108/aeat-06-2018-0161
 [research_krawczyk_szczepanski_2019_b]: https://doi.org/10.1108/aeat-01-2018-0025
 [research_krekelerjr_wilson_1990]: https://doi.org/10.2514/6.1990-219
@@ -24800,12 +22636,10 @@ computable in one line from the lift equation.
 [research_kuffner_guendel_2016]: https://doi.org/10.2514/6.2016-3289
 [research_kuhn_1975]: https://doi.org/10.21236/ada955473
 [research_kuhn_1980]: https://doi.org/10.21236/ada087657
-[research_kula_2017]: https://doi.org/10.1109/mmar.2017.8046792
 [research_kulhanek_2019]: https://doi.org/10.1108/aeat-06-2018-0162
 [research_kumar_2020]: https://doi.org/10.2139/ssrn.3593220
 [research_kumar_2020_b]: https://doi.org/10.14429/dsj.70.13612
 [research_kumar_anthoni_2019]: https://doi.org/10.1016/j.matcom.2018.03.009
-[research_kumar_bag_2022]: https://doi.org/10.1115/imece2022-88917
 [research_kumar_bhargavapuri_2020]: https://doi.org/10.23919/acc45564.2020.9147794
 [research_kumar_ghosh_2015]: https://doi.org/10.2514/6.2015-2707
 [research_kumar_ghosh_2017]: https://doi.org/10.2514/6.2017-0936
@@ -24820,21 +22654,14 @@ computable in one line from the lift equation.
 [research_kumar_mandal_2021_b]: https://doi.org/10.1103/aps.dfd.2021.gfm.v0009
 [research_kumar_mittal_2026]: https://doi.org/10.2514/6.2026-4389
 [research_kumar_raghuwanshi_2020]: https://doi.org/10.1109/parc49193.2020.246975
-[research_kumar_rajagopal_2019]: https://doi.org/10.1109/oceanse.2019.8867465
-[research_kumar_razak_2022]: https://doi.org/10.1016/j.csite.2022.101853
 [research_kumar_rohit_2021]: https://doi.org/10.1615/interjfluidmechres.2021037918
 [research_kumar_seywald_1995]: https://doi.org/10.2514/3.21409
 [research_kumar_supale_2023]: https://doi.org/10.1166/eef.2023.1276
-[research_kumaraswamy_kumar_2021]: https://doi.org/10.18186/thermal.882965
-[research_kumarch_jain_2020]: https://doi.org/10.1109/pedes49360.2020.9379719
 [research_kumari_bandyopadhyay_2020]: https://doi.org/10.1016/j.automatica.2020.109163
 [research_kumarneelakantapillaisanthakumariamma_2025]: https://doi.org/10.21275/sr25927034247
 [research_kumarp_detroja_2024]: https://doi.org/10.1016/j.ifacol.2024.08.023
-[research_kumartatikayala_dixit_2024]: https://doi.org/10.1016/j.asej.2023.102265
-[research_kumbi_birje_2025]: https://doi.org/10.1007/s13198-025-02753-0
 [research_kung_chiang_2015]: https://doi.org/10.1109/iccas.2015.7364908
 [research_kunishige_yonamoto_2018]: https://doi.org/10.1299/jsmekyushu.2018.71.j35
-[research_kuno_masaoka_2026]: https://doi.org/10.1109/robosoft67810.2026.11522842
 [research_kuntjoro_wisnoe_2015]: https://doi.org/10.15224/978-1-63248-072-9-61
 [research_kunwar_mishra_2024]: https://doi.org/10.2514/6.2024-3752
 [research_kuo_smith_2016]: https://doi.org/10.1016/j.expthermflusci.2015.10.023
@@ -24849,7 +22676,6 @@ computable in one line from the lift equation.
 [research_kurt_arabul_2025]: https://doi.org/10.3390/app15073438
 [research_kurtoglu_yucelen_2025]: https://doi.org/10.1109/cdc57313.2025.11312310
 [research_kurtoglu_yucelen_2026]: https://doi.org/10.1002/rnc.70640
-[research_kurz_1963]: https://doi.org/10.21236/ad0414370
 [research_kus_ergazi_2025]: https://doi.org/10.2514/6.2025-3447
 [research_kusmirek_socha_2024]: https://doi.org/10.1061/jaeeez.aseng-5578
 [research_kutschera_render_1999]: https://doi.org/10.2514/6.1999-4020
@@ -24858,12 +22684,9 @@ computable in one line from the lift equation.
 [research_kuvshinov_lazurin_2019]: https://doi.org/10.1615/tsagiscij.2020033338
 [research_kuwamura_hara_2017]: https://doi.org/10.1299/jsmetokai.2017.66.322
 [research_kuznetsov_leonov_2015]: https://doi.org/10.1016/j.ifacol.2015.09.271
-[research_kuznetsova_kuznetsov_2015]: https://doi.org/10.13189/ujm.2015.030403
-[research_kwak_oh_2017]: https://doi.org/10.1109/iecon.2017.8217329
 [research_kwatny_allen_2012]: https://doi.org/10.2514/6.2012-4405
 [research_kwatny_bennett_1991]: https://doi.org/10.1109/9.100946
 [research_kwiek_2019]: https://doi.org/10.1108/aeat-01-2018-0032
-[research_kwon_lee_2025]: https://doi.org/10.1109/access.2025.3575110
 [research_kwon_park_2019]: https://doi.org/10.1177/1475921719843772
 [research_laban_masui_1993]: https://doi.org/10.2514/3.46327
 [research_lackey_hadfield_1992]: https://doi.org/10.2514/6.1992-4107
@@ -24918,11 +22741,8 @@ computable in one line from the lift equation.
 [research_latchman_crisalle_1997]: https://doi.org/10.1002/(sici)1099-1239(199702)7:2<211::aid-rnc299>3.0.co;2-8
 [research_lateral_control_2025]: https://doi.org/10.37285/bsp.sacad2025.09
 [research_lathasree_pashilkar_2019]: https://doi.org/10.1109/icc47138.2019.9123201
-[research_latif_jaffar_2021]: https://doi.org/10.1109/ecce47101.2021.9595843
 [research_laurenceiii_argrow_2019]: https://doi.org/10.1175/jtech-d-18-0208.1
-[research_lausterer_1998]: https://doi.org/10.1016/s0967-0661(98)00116-6
 [research_lavretsky_2019]: https://doi.org/10.2514/1.g004328
-[research_lawal_zhang_2015]: https://doi.org/10.1109/iconac.2015.7313971
 [research_lawes_1994]: https://doi.org/10.1049/cp:19940288
 [research_lawrence_rugh_1995]: https://doi.org/10.1016/0005-1098(94)00113-w
 [research_lawrence_theodore_2018]: https://doi.org/10.1017/aer.2018.43
@@ -24937,7 +22757,6 @@ computable in one line from the lift equation.
 [research_le_hoang_2026]: https://doi.org/10.51316/jst.191.etsd.2026.36.3.10
 [research_le_meng_2020]: https://doi.org/10.1109/iccasit50869.2020.9368690
 [research_le_ta_2025]: https://doi.org/10.1007/s10458-025-09695-8
-[research_leal_aguilar_2015]: https://doi.org/10.12988/ams.2015.52122
 [research_leatham_linch_1974]: https://doi.org/10.2514/6.1974-22
 [research_lebacqz_govindaraj_1980]: https://doi.org/10.2514/3.55958
 [research_lebacqz_radford_1979]: https://doi.org/10.2514/3.55912
@@ -24947,7 +22766,6 @@ computable in one line from the lift equation.
 [research_lecuyer_nakayama_2023]: https://doi.org/10.1109/wsc60868.2023.10408613
 [research_lee_1946]: https://doi.org/10.1017/s0368393100120863
 [research_lee_1947]: https://doi.org/10.1017/s036839310011185x
-[research_lee_1990]: https://doi.org/10.1115/1.2896169
 [research_lee_2016]: https://doi.org/10.1115/1.4032301
 [research_lee_2017]: https://doi.org/10.1371/journal.pone.0176423
 [research_lee_2017_b]: https://doi.org/10.1371/journal.pone.0179351
@@ -24961,7 +22779,6 @@ computable in one line from the lift equation.
 [research_lee_batina_1991]: https://doi.org/10.2514/3.45996
 [research_lee_benedict_2021]: https://doi.org/10.4050/f-0077-2021-16863
 [research_lee_boedicker_1985]: https://doi.org/10.2514/6.1985-3073
-[research_lee_choi_2015]: https://doi.org/10.1049/cp.2015.1588
 [research_lee_choi_2024]: https://doi.org/10.1017/aer.2023.86
 [research_lee_grantham_1989]: https://doi.org/10.2514/3.20396
 [research_lee_han_2015]: https://doi.org/10.2514/6.2015-0036
@@ -24985,32 +22802,25 @@ computable in one line from the lift equation.
 [research_lee_ko_2018]: https://doi.org/10.1115/1.4039232
 [research_lee_lan_1992]: https://doi.org/10.2514/3.46191
 [research_lee_lee_2019]: https://doi.org/10.5139/jksas.2019.47.1.1
-[research_lee_lee_2020]: https://doi.org/10.1109/access.2020.2994530
-[research_lee_lee_2025]: https://doi.org/10.3390/act14120611
 [research_lee_lim_2020]: https://doi.org/10.2514/6.2020-2879.c1
 [research_lee_lim_2020_b]: https://doi.org/10.2514/6.2020-2879
 [research_lee_lin_2021]: https://doi.org/10.1016/j.anucene.2021.108443
 [research_lee_lua_2025]: https://doi.org/10.2514/1.c038014
 [research_lee_lua_2026]: https://doi.org/10.2514/1.c038959
-[research_lee_oh_2018]: https://doi.org/10.1109/amc.2019.8371173
 [research_lee_oh_2022]: https://doi.org/10.9766/kimst.2022.25.6.637
 [research_lee_park_2016]: https://doi.org/10.2514/1.j054993
-[research_lee_park_2021]: https://doi.org/10.1109/icra48506.2021.9560732
 [research_lee_park_2024]: https://doi.org/10.2514/6.2024-2391
 [research_lee_park_2025]: https://doi.org/10.2514/6.2025-1711
 [research_lee_puranik_2022]: https://doi.org/10.2514/6.2022-3612
 [research_lee_saj_2021]: https://doi.org/10.2514/6.2021-3218
 [research_lee_singh_2017]: https://doi.org/10.1007/s11071-016-3287-y
 [research_lee_snyder_2017]: https://doi.org/10.2514/1.g001742
-[research_lee_son_2021]: https://doi.org/10.3390/en14113112
 [research_lee_song_2018]: https://doi.org/10.2514/1.j056598
-[research_lee_tomizuka_1996]: https://doi.org/10.1115/imece1996-0315
 [research_lee_vagners_1982]: https://doi.org/10.1109/cdc.1982.268452
 [research_lee_vankampen_2021]: https://doi.org/10.2514/6.2021-0392
 [research_lee_vukasinovic_2024]: https://doi.org/10.2514/6.2024-1516
 [research_lee_wilson_2018]: https://doi.org/10.1115/gt2018-75469
 [research_lefebvre_debelie_2020]: https://doi.org/10.1002/oca.2575
-[research_leffler_1994]: https://doi.org/10.4271/940832
 [research_leftheriotis_carpenter_1992]: https://doi.org/10.1016/0167-6105(92)90565-r
 [research_legenkii_1995]: https://doi.org/10.1007/bf00846889
 [research_leggett_moorhouse_1990]: https://doi.org/10.2514/6.1990-2845
@@ -25023,10 +22833,8 @@ computable in one line from the lift equation.
 [research_lei_zha_2023]: https://doi.org/10.2514/6.2023-4236
 [research_lei_zha_2023_b]: https://doi.org/10.2514/6.2023-3606
 [research_lei_zha_2023_c]: https://doi.org/10.2514/6.2023-4236.c1
-[research_leibrecht_meade_1993]: https://doi.org/10.21236/ada282920
 [research_leith_1996]: https://doi.org/10.1049/cp:19960613
 [research_leith_1999]: https://doi.org/10.1080/002071799221217
-[research_leith_leithead_1999]: https://doi.org/10.1109/87.799672
 [research_leitmann_1969]: https://doi.org/10.1016/0020-7462(69)90008-0
 [research_leitmann_1969_b]: https://doi.org/10.1016/0020-7462(69)90026-2
 [research_leitner_1986]: https://doi.org/10.21236/ada522372
@@ -25050,14 +22858,12 @@ computable in one line from the lift equation.
 [research_lesieutre_hall_2024]: https://doi.org/10.2514/6.2024-4443
 [research_lesieutre_love_1996]: https://doi.org/10.2514/6.1996-3392
 [research_lesoinne_2007]: https://doi.org/10.21236/ada481320
-[research_lesson_10_1948]: https://doi.org/10.4159/harvard.9780674732889.c24
 [research_leung_moszczynski_2019]: https://doi.org/10.2514/6.2019-0013
 [research_levano_oliveira_2020]: https://doi.org/10.1016/j.ifacol.2020.12.012
 [research_level_flight_2003]: https://doi.org/10.2514/5.9781600861840.0083.0096
 [research_levi_stahlhuth_1977]: https://doi.org/10.21236/adb019655
 [research_levin_1997]: https://doi.org/10.2514/2.2232
 [research_levit_heaton_1977]: https://doi.org/10.21236/ada050889
-[research_lewandowski_1992]: https://doi.org/10.5957/attc-1992-001
 [research_lewis_1986]: https://doi.org/10.4050/jahs.31.2.19
 [research_lewis_1990]: https://doi.org/10.4271/901843
 [research_lewis_1998]: https://doi.org/10.21236/ada346210
@@ -25069,15 +22875,12 @@ computable in one line from the lift equation.
 [research_lewkowicz_2026]: https://doi.org/10.13174/pjambp.25.05.2026.04
 [research_lhachemi_chu_2017]: https://doi.org/10.2514/1.g002497
 [research_lhopiteau_proenca_2025]: https://doi.org/10.2514/6.2025-1087
-[research_li_2019]: https://doi.org/10.2112/si94-031.1
 [research_li_2021]: https://doi.org/10.1109/acpee51499.2021.9436871
 [research_li_2022]: https://doi.org/10.1016/j.actaastro.2021.10.019
 [research_li_2024]: https://doi.org/10.3390/aerospace11060443
 [research_li_2024_b]: https://doi.org/10.1049/icp.2024.0621
-[research_li_2025]: https://doi.org/10.29354/diag/203239
 [research_li_2025_b]: https://doi.org/10.1080/17445302.2025.2609209
 [research_li_2025_c]: https://doi.org/10.7868/s3034550225050047
-[research_li_barry_2024]: https://doi.org/10.46427/gold2024.24549
 [research_li_cai_2026]: https://doi.org/10.1088/1742-6596/3256/1/012016
 [research_li_cao_2018]: https://doi.org/10.1088/1361-6501/aab1c4
 [research_li_chen_2021]: https://doi.org/10.1109/ccdc52312.2021.9602097
@@ -25097,7 +22900,6 @@ computable in one line from the lift equation.
 [research_li_fan_2018]: https://doi.org/10.2991/ncce-18.2018.32
 [research_li_fang_2024]: https://doi.org/10.3390/e26121036
 [research_li_feng_2023]: https://doi.org/10.1017/flo.2023.30
-[research_li_fu_2022]: https://doi.org/10.3390/app13010039
 [research_li_geiselhart_2026]: https://doi.org/10.2514/1.c038747
 [research_li_gou_2023]: https://doi.org/10.3390/aerospace10070644
 [research_li_guo_2016]: https://doi.org/10.1109/cgncc.2016.7828963
@@ -25124,18 +22926,14 @@ computable in one line from the lift equation.
 [research_li_li_2023]: https://doi.org/10.1115/gt2023-101620
 [research_li_li_2024]: https://doi.org/10.1016/j.cja.2023.10.007
 [research_li_li_2025]: https://doi.org/10.1109/taes.2025.3596214
-[research_li_li_2025_b]: https://doi.org/10.1109/jiot.2025.3529887
 [research_li_liang_2022]: https://doi.org/10.1109/itoec53115.2022.9734422
 [research_li_lin_2022]: https://doi.org/10.1109/tim.2022.3162267
 [research_li_lin_2025]: https://doi.org/10.1002/acs.3967
 [research_li_lin_2026]: https://doi.org/10.1016/j.ress.2026.112293
 [research_li_liu_2021]: https://doi.org/10.1016/j.conengprac.2021.104938
-[research_li_liu_2022]: https://doi.org/10.1016/j.oceaneng.2022.113096
 [research_li_liu_2023]: https://doi.org/10.1002/rnc.6641
 [research_li_liu_2024]: https://doi.org/10.1115/1.4065617
 [research_li_liu_2024_b]: https://doi.org/10.1016/j.ast.2023.108810
-[research_li_liu_2025]: https://doi.org/10.3390/wevj16050271
-[research_li_liu_2025_b]: https://doi.org/10.1109/acirs66343.2025.11360966
 [research_li_livne_1997]: https://doi.org/10.2514/2.2179
 [research_li_luo_2025]: https://doi.org/10.1002/rob.22538
 [research_li_luo_2026]: https://doi.org/10.2514/1.c038244
@@ -25165,7 +22963,6 @@ computable in one line from the lift equation.
 [research_li_tang_2018]: https://doi.org/10.1016/j.probengmech.2018.05.001
 [research_li_teng_2023]: https://doi.org/10.1115/gt2023-102781
 [research_li_tong_2016]: https://doi.org/10.1109/chicc.2016.7554381
-[research_li_tso_1999]: https://doi.org/10.1016/s0967-0661(99)00007-6
 [research_li_tsourdos_2022]: https://doi.org/10.2514/1.g006775
 [research_li_vankampen_2024]: https://doi.org/10.23919/ecc64448.2024.10591030
 [research_li_walter_2017]: https://doi.org/10.2514/6.2017-3236
@@ -25195,7 +22992,6 @@ computable in one line from the lift equation.
 [research_li_yang_2022_b]: https://doi.org/10.23919/iccas55662.2022.10003924
 [research_li_yang_2024]: https://doi.org/10.1109/iecon55916.2024.10905896
 [research_li_ye_2024]: https://doi.org/10.4271/2024-01-7016
-[research_li_ye_2024_b]: https://doi.org/10.1117/12.3049398
 [research_li_yin_2026]: https://doi.org/10.1016/j.ast.2025.110868
 [research_li_yong_2017]: https://doi.org/10.23919/chicc.2017.8027800
 [research_li_yuan_2020]: https://doi.org/10.1016/j.addma.2020.101406
@@ -25203,13 +22999,11 @@ computable in one line from the lift equation.
 [research_li_yue_2026]: https://doi.org/10.2514/1.j065956
 [research_li_zhang_2018]: https://doi.org/10.1109/gncc42960.2018.9019083
 [research_li_zhang_2019]: https://doi.org/10.23919/chicc.2019.8866051
-[research_li_zhang_2023]: https://doi.org/10.1007/s11665-023-08829-x
 [research_li_zhang_2024]: https://doi.org/10.1016/j.neucom.2024.127591
 [research_li_zhang_2024_b]: https://doi.org/10.3390/aerospace11121020
 [research_li_zhao_2020]: https://doi.org/10.1017/jfm.2020.515
 [research_li_zhao_2022]: https://doi.org/10.1088/1742-6596/2230/1/012009
 [research_li_zheng_2023]: https://doi.org/10.1109/lra.2022.3231826
-[research_li_zhou_2016]: https://doi.org/10.1016/j.applthermaleng.2016.03.097
 [research_li_zhou_2018]: https://doi.org/10.1109/access.2018.2878722
 [research_li_zhou_2024]: https://doi.org/10.1109/icca62789.2024.10591906
 [research_li_zhu_2020]: https://doi.org/10.2514/1.g004459
@@ -25227,15 +23021,12 @@ computable in one line from the lift equation.
 [research_liang_xia_2025]: https://doi.org/10.1049/icp.2024.2832
 [research_liang_xiao_2024]: https://doi.org/10.1115/gt2024-124074
 [research_liang_ye_2025]: https://doi.org/10.3390/machines13060439
-[research_liang_yin_2018]: https://doi.org/10.23919/chicc.2018.8483289
 [research_liang_zhao_2024]: https://doi.org/10.1145/3703935.3703959
 [research_liang_zhao_2025]: https://doi.org/10.1007/s11071-025-11066-7
-[research_liao_chen_2017]: https://doi.org/10.1016/j.mechatronics.2017.08.007
 [research_liao_wei_2021]: https://doi.org/10.3233/jifs-210032
 [research_liao_yang_2026]: https://doi.org/10.1109/tie.2026.3675194
 [research_liaokaijun_qiankun_2015]: https://doi.org/10.1109/cac.2015.7382792
 [research_liavoli_shadi_2021]: https://doi.org/10.1109/iccia52082.2021.9403555
-[research_liaw_lengyel_1993]: https://doi.org/10.1016/0925-4773(93)90087-e
 [research_librescu_simovich_1988]: https://doi.org/10.2514/3.45572
 [research_librescu_thangjitham_1991]: https://doi.org/10.2514/3.46004
 [research_lichota_2023]: https://doi.org/10.2514/1.g006654
@@ -25262,26 +23053,21 @@ computable in one line from the lift equation.
 [research_lim_ra_2018]: https://doi.org/10.14801/jkiit.2018.16.9.31
 [research_limafilho_medeiros_2021]: https://doi.org/10.1590/jatm.v13.1228
 [research_limebeer_romero_2025]: https://doi.org/10.1080/00423114.2025.2471344
-[research_limjeerajarus_santiprasertkul_2017]: https://doi.org/10.18690/978-961-286-054-7.6
 [research_limkb_shinyy_2004]: https://ntrs.nasa.gov/citations/20040095917
 [research_lin_1995]: https://doi.org/10.1177/009286159502900107
 [research_lin_1998]: https://doi.org/10.1016/s0167-6911(97)00100-x
 [research_lin_2002]: https://doi.org/10.21236/ada403633
 [research_lin_2016]: https://doi.org/10.2514/1.c033701
 [research_lin_2025]: https://doi.org/10.5220/0014773000004818
-[research_lin_2026]: https://doi.org/10.4273/ijvss.18.2.07
 [research_lin_chin_1994]: https://doi.org/10.2514/3.46547
 [research_lin_dong_2026]: https://doi.org/10.1007/s11071-026-12935-5
-[research_lin_elmoctar_2026]: https://doi.org/10.1063/5.0314161
 [research_lin_jhou_1989]: https://doi.org/10.4271/891060
 [research_lin_sheehan_2018]: https://doi.org/10.2514/6.2018-0003
-[research_lin_siampis_2024]: https://doi.org/10.1080/00423114.2024.2361726
 [research_lin_tai_1995]: https://doi.org/10.2514/3.21482
 [research_lin_wang_2017]: https://doi.org/10.1016/j.cja.2017.03.014
 [research_lin_wang_2017_b]: https://doi.org/10.23919/chicc.2017.8028365
 [research_lin_xiao_2023]: https://doi.org/10.3390/aerospace10060493
 [research_lin_xin_2019]: https://doi.org/10.2514/1.g003544
-[research_lin_yu_1993]: https://doi.org/10.1016/0009-2509(93)80202-2
 [research_lin_zhang_2019]: https://doi.org/10.23919/chicc.2019.8865352
 [research_lin_zong_2026]: https://doi.org/10.1063/5.0334699
 [research_lind_brenner_1998]: https://doi.org/10.2514/2.2320
@@ -25290,9 +23076,7 @@ computable in one line from the lift equation.
 [research_lindrickc_brennermartinj_1997]: https://ntrs.nasa.gov/citations/19980018481
 [research_linehan_1996]: https://doi.org/10.1049/cp:19960649
 [research_ling_edgar_1992]: https://doi.org/10.23919/acc.1992.4792544
-[research_ling_edgar_1997]: https://doi.org/10.1016/s0959-1524(97)00001-2
 [research_ling_kabamba_1991]: https://doi.org/10.1007/bf01744056
-[research_ling_wang_2024]: https://doi.org/10.1109/icccr61138.2024.10585354
 [research_linton_1993]: https://doi.org/10.2514/6.1993-207
 [research_linville_hess_2020]: https://doi.org/10.2514/6.2020-0952
 [research_liqun_chaoyang_2017]: https://doi.org/10.1109/ccdc.2017.7979406
@@ -25302,20 +23086,16 @@ computable in one line from the lift equation.
 [research_litot_2025]: https://doi.org/10.62717/2221-4550-2025-1-066
 [research_littleboy_patel_1998]: https://doi.org/10.2514/6.1998-4205
 [research_littleboy_smith_1997]: https://doi.org/10.2514/6.1997-3717
-[research_liu_2020]: https://doi.org/10.1007/978-3-030-47475-1_5
-[research_liu_2020_b]: https://doi.org/10.1007/978-3-030-47475-1_7
 [research_liu_2021]: https://doi.org/10.1109/conf-spml54095.2021.00028
 [research_liu_2023]: https://doi.org/10.1088/1742-6596/2569/1/012072
 [research_liu_2024]: https://doi.org/10.12694/scpe.v25i3.2700
 [research_liu_an_2018]: https://doi.org/10.1017/jfm.2018.629
 [research_liu_an_2020]: https://doi.org/10.1115/1.4046692
 [research_liu_bai_2024]: https://doi.org/10.3390/aerospace11121011
-[research_liu_chan_2019]: https://doi.org/10.1016/j.partic.2018.02.003
 [research_liu_cheman_2021]: https://doi.org/10.1016/j.ast.2021.106645
 [research_liu_chen_2019]: https://doi.org/10.2514/1.c035338
 [research_liu_chen_2020]: https://doi.org/10.1016/j.ast.2020.106256
 [research_liu_chen_2020_b]: https://doi.org/10.1017/aer.2020.129
-[research_liu_chen_2023]: https://doi.org/10.3390/aerospace10050466
 [research_liu_chen_2026]: https://doi.org/10.2514/1.c038852
 [research_liu_ding_2025]: https://doi.org/10.3390/aerospace12030193
 [research_liu_dong_2019]: https://doi.org/10.1016/j.jfranklin.2018.11.043
@@ -25336,10 +23116,7 @@ computable in one line from the lift equation.
 [research_liu_jiang_2026]: https://doi.org/10.1177/01423312251408530
 [research_liu_jiang_2026_b]: https://doi.org/10.1177/09544100261461092
 [research_liu_jiao_2017]: https://doi.org/10.1109/iccis.2017.8274866
-[research_liu_kan_2022]: https://doi.org/10.1016/j.addma.2021.102503
-[research_liu_kim_2025]: https://doi.org/10.3390/buildings15142570
 [research_liu_lao_2015]: https://doi.org/10.1115/gt2015-42201
-[research_liu_li_2022]: https://doi.org/10.1016/j.chemosphere.2022.136621
 [research_liu_li_2024]: https://doi.org/10.1007/978-981-97-3998-1_120
 [research_liu_li_2025]: https://doi.org/10.23919/ccc64809.2025.11179333
 [research_liu_li_2026]: https://doi.org/10.3390/electronics15163532
@@ -25387,35 +23164,27 @@ computable in one line from the lift equation.
 [research_liu_yang_2016]: https://doi.org/10.2514/6.2016-3980
 [research_liu_yang_2022]: https://doi.org/10.23919/iccas55662.2022.10003726
 [research_liu_yin_2022]: https://doi.org/10.3390/aerospace9100563
-[research_liu_yokoyama_1998]: https://doi.org/10.4271/981858
 [research_liu_yu_2025]: https://doi.org/10.1007/s11518-025-5699-z
 [research_liu_yuan_2016]: https://doi.org/10.1109/icuas.2016.7502543
 [research_liu_zha_2016]: https://doi.org/10.2514/6.2016-3472
-[research_liu_zhang_2016]: https://doi.org/10.1109/acc.2016.7526122
 [research_liu_zhang_2017]: https://doi.org/10.1186/s12859-017-1808-4
 [research_liu_zhang_2018]: https://doi.org/10.1016/j.sysconle.2018.07.012
 [research_liu_zhang_2018_b]: https://doi.org/10.1108/aeat-04-2017-0100
 [research_liu_zhang_2018_c]: https://doi.org/10.1016/j.ast.2018.06.022
 [research_liu_zhang_2018_d]: https://doi.org/10.1109/gncc42960.2018.9019008
-[research_liu_zhang_2021]: https://doi.org/10.1016/j.applthermaleng.2021.117396
 [research_liu_zhang_2022]: https://doi.org/10.1061/(asce)as.1943-5525.0001495
 [research_liu_zhang_2022_b]: https://doi.org/10.1109/taes.2022.3201813
 [research_liu_zhang_2022_c]: https://doi.org/10.3390/aerospace9020079
-[research_liu_zhang_2024]: https://doi.org/10.1080/00423114.2024.2359485
 [research_liu_zhang_2024_b]: https://doi.org/10.1109/irac63143.2024.10871517
 [research_liu_zhang_2025]: https://doi.org/10.1063/5.0282257
-[research_liu_zhang_2026]: https://doi.org/10.32604/ee.2026.083105
 [research_liu_zhou_2023]: https://doi.org/10.1109/icemi59194.2023.10270040
 [research_liu_zhu_2026]: https://doi.org/10.1016/j.ast.2026.112476
-[research_liu_ziatdinov_2023]: https://doi.org/10.1016/j.patter.2023.100858
 [research_livneh_1995]: https://doi.org/10.2514/3.56682
 [research_livneh_schmidt_1992]: https://doi.org/10.2514/6.1992-4411
 [research_liyu_chenweijian_2018]: https://doi.org/10.1049/cp.2018.0292
-[research_lobas_1989]: https://doi.org/10.1007/bf00886688
 [research_lobo_zori_2016]: https://doi.org/10.1115/gt2016-57467
 [research_locke_1984]: https://doi.org/10.1007/bf01059558
 [research_loechert_huber_2018]: https://doi.org/10.2514/6.2018-3329
-[research_loghis_xiros_2022]: https://doi.org/10.3390/jmse10121844
 [research_loginova_chelebyan_2019]: https://doi.org/10.1088/1742-6596/1421/1/012008
 [research_loh_1986]: https://doi.org/10.21236/ada168970
 [research_loh_lustyjr_1974]: https://doi.org/10.2514/6.1974-814
@@ -25434,13 +23203,11 @@ computable in one line from the lift equation.
 [research_lopatin_1961]: https://doi.org/10.21236/ad0266213
 [research_lopez_duffy_2021]: https://doi.org/10.4050/f-0077-2021-16834
 [research_lopez_moore_2026]: https://doi.org/10.1007/s11071-025-12185-x
-[research_lopeztirado_jones_1991]: https://doi.org/10.1016/0308-521x(91)90086-p
 [research_loranchet_tiako_2025]: https://doi.org/10.2514/6.2025-98091
 [research_lorenzetti_landry_2019]: https://doi.org/10.23919/ecc.2019.8796005
 [research_lorenzetti_pavone_2020]: https://doi.org/10.1109/cdc42340.2020.9303959
 [research_lorinczdj_1978]: https://ntrs.nasa.gov/citations/19790010115
 [research_lorinczdj_friendel_1979]: https://ntrs.nasa.gov/citations/19790061312
-[research_losreyes_alvarez_2018]: https://doi.org/10.1016/j.ifacol.2018.06.143
 [research_lottati_1985]: https://doi.org/10.2514/3.45238
 [research_lou_cai_2017]: https://doi.org/10.23919/chicc.2017.8027958
 [research_lou_willsky_1985]: https://doi.org/10.21236/ada459971
@@ -25473,7 +23240,6 @@ computable in one line from the lift equation.
 [research_lu_vankampen_2016_b]: https://doi.org/10.2514/6.2016-1755
 [research_lu_vankampen_2017]: https://doi.org/10.2514/1.g002079
 [research_lu_wang_2024]: https://doi.org/10.1016/j.ast.2024.109333
-[research_lu_xiao_2021]: https://doi.org/10.1109/cieec50170.2021.9510220
 [research_lu_xiao_2025]: https://doi.org/10.23919/ccc64809.2025.11178945
 [research_lu_yang_2016]: https://doi.org/10.1016/j.measurement.2016.08.013
 [research_lu_zhang_2019]: https://doi.org/10.1016/j.cja.2019.09.010
@@ -25490,7 +23256,6 @@ computable in one line from the lift equation.
 [research_lukianenko_2026]: https://doi.org/10.62717/3083-7057-2026-1-041
 [research_luna_valasek_2025]: https://doi.org/10.2514/6.2025-1926
 [research_luna_valasek_2026]: https://doi.org/10.2514/6.2026-2570
-[research_lund_paris_2018]: https://doi.org/10.1016/j.ohx.2018.e00041
 [research_lungu_lungu_2015]: https://doi.org/10.5220/0005507304480456
 [research_lungu_lungu_2015_b]: https://doi.org/10.1002/asjc.1133
 [research_lungu_lungu_2016]: https://doi.org/10.1016/j.neucom.2015.06.084
@@ -25513,8 +23278,6 @@ computable in one line from the lift equation.
 [research_luo_wei_2025]: https://doi.org/10.3390/aerospace12080731
 [research_luo_xiao_2022]: https://doi.org/10.1088/1748-3190/ac8e3f
 [research_luo_xue_2026]: https://doi.org/10.1016/j.atmosres.2026.108748
-[research_luo_yin_2025]: https://doi.org/10.1108/sr-11-2024-0899
-[research_luo_zhao_2025]: https://doi.org/10.1049/rpg2.70046
 [research_lusardi_2023]: https://doi.org/10.4050/sm_2023_hq-1186
 [research_luspay_peni_2018]: https://doi.org/10.1109/aero.2018.8396496
 [research_lutze_cliff_1991]: https://doi.org/10.2514/6.1991-2709
@@ -25523,7 +23286,6 @@ computable in one line from the lift equation.
 [research_lv_gao_2024]: https://doi.org/10.1016/j.addma.2024.104434
 [research_lv_guan_2020]: https://doi.org/10.1155/2020/1902053
 [research_lv_sun_2024]: https://doi.org/10.1109/aiars63200.2024.00085
-[research_lv_wang_2023]: https://doi.org/10.58997/ejde.2023.21
 [research_lv_wu_2026]: https://doi.org/10.1109/ccdc69976.2026.11559637
 [research_lv_xie_2015]: https://doi.org/10.2991/msam-15.2015.20
 [research_lymperopoulos_ioannou_2019]: https://doi.org/10.2514/1.g003693
@@ -25547,12 +23309,10 @@ computable in one line from the lift equation.
 [research_ma_dong_2019]: https://doi.org/10.1109/access.2019.2949061
 [research_ma_hall_2024]: https://doi.org/10.1115/gt2024-121728
 [research_ma_hui_2023]: https://doi.org/10.23919/ccc58697.2023.10241099
-[research_ma_li_2024]: https://doi.org/10.3390/rs16111992
 [research_ma_li_2026]: https://doi.org/10.1016/j.ast.2025.110819
 [research_ma_liu_2025]: https://doi.org/10.23919/ccc64809.2025.11178481
 [research_ma_liu_2025_b]: https://doi.org/10.1016/j.isatra.2025.10.014
 [research_ma_peng_2021]: https://doi.org/10.1016/j.ast.2021.107204
-[research_ma_schumacher_2017]: https://doi.org/10.1103/physrevb.95.235301
 [research_ma_su_2017]: https://doi.org/10.2991/mecae-17.2017.72
 [research_ma_sun_2017]: https://doi.org/10.1109/ddcls.2017.8068142
 [research_ma_tang_2015]: https://doi.org/10.2322/tjsass.58.270
@@ -25561,7 +23321,6 @@ computable in one line from the lift equation.
 [research_ma_wang_2025]: https://doi.org/10.1063/5.0254496
 [research_ma_yan_2015]: https://doi.org/10.1002/oca.2197
 [research_ma_yang_2016]: https://doi.org/10.1109/iccais.2016.7822452
-[research_ma_zhou_2025]: https://doi.org/10.1016/j.commtr.2025.100204
 [research_ma_zhu_2019]: https://doi.org/10.1017/aer.2018.167
 [research_ma_zhu_2019_b]: https://doi.org/10.3390/app9204236
 [research_ma_zhu_2025]: https://doi.org/10.1016/j.ast.2025.110045
@@ -25577,7 +23336,6 @@ computable in one line from the lift equation.
 [research_macone_2000]: https://doi.org/10.21236/ada389204
 [research_mader_nestler_2018]: https://doi.org/10.1002/adem.201800589
 [research_madhavanpillai_dhoaya_2017]: https://doi.org/10.1007/s40032-017-0398-2
-[research_madhusudhanan_corno_2015]: https://doi.org/10.1109/ecc.2015.7330926
 [research_madhvaraju_snider_2026]: https://doi.org/10.2514/1.b40269
 [research_maes_smyth_2015]: https://doi.org/10.7712/120215.4260.548
 [research_maestas_ghosh_2025]: https://doi.org/10.1615/tfec2025.exp.055933
@@ -25606,7 +23364,6 @@ computable in one line from the lift equation.
 [research_maju_thomas_2025]: https://doi.org/10.1109/siscon66686.2025.11409056
 [research_makar_1962]: https://doi.org/10.21236/ad0408905
 [research_makarov_pavlenko_2016]: https://doi.org/10.2514/6.2016-3723
-[research_maksimov_kanazirskyi_2014]: https://doi.org/10.15276/opu.2.44.2014.15
 [research_malan_brown_1994]: https://doi.org/10.2514/3.46539
 [research_malcolm_1979]: https://doi.org/10.2514/3.58515
 [research_malcolm_1991]: https://doi.org/10.1016/0376-0421(91)90005-o
@@ -25631,16 +23388,12 @@ computable in one line from the lift equation.
 [research_maloneiii_horowitz_1987]: https://doi.org/10.2514/6.1987-2373
 [research_malpica_lusardi_2013]: https://doi.org/10.21236/ada589936
 [research_mamizu_kuraishi_2017]: https://doi.org/10.12783/shm2017/13858
-[research_mamman_weerakkody_2025]: https://doi.org/10.1177/28350111251365627
-[research_manchester_1982]: https://doi.org/10.1093/slr/3.1.31
 [research_mancinelli_remes_2023]: https://doi.org/10.1007/s10846-023-01865-8
 [research_mancinelli_smeur_2022]: https://doi.org/10.1109/icuas54217.2022.9836063
 [research_mancini_vos_2019]: https://doi.org/10.2514/6.2019-3272
 [research_mandal_gu_2016]: https://doi.org/10.3390/aerospace3040042
 [research_mandal_gu_2016_b]: https://doi.org/10.2514/6.2016-0636
-[research_mandl_klein_2025]: https://doi.org/10.1080/00423114.2025.2579863
 [research_mandralis_sihite_2023]: https://doi.org/10.23919/ecc57647.2023.10178360
-[research_mangang_ahmed_1995]: https://doi.org/10.1016/s1474-6670(17)44779-3
 [research_manjith_2026]: https://doi.org/10.2514/6.2026-111390
 [research_mann_campbell_1983]: https://doi.org/10.2514/6.1983-1859
 [research_mannai_1962]: https://doi.org/10.1016/0016-0032(62)91055-4
@@ -25659,7 +23412,6 @@ computable in one line from the lift equation.
 [research_manzoor_maqsood_2016]: https://doi.org/10.15866/irease.v9i3.8119
 [research_mao_zeng_2024]: https://doi.org/10.1177/14613484241253105
 [research_marangoz_kutay_2017]: https://doi.org/10.1109/icmae.2017.8038749
-[research_marar_ginoya_2015]: https://doi.org/10.1109/iic.2015.7150961
 [research_marchetti_1968]: https://doi.org/10.2514/3.43902
 [research_marchi_sweeney_1992]: https://doi.org/10.2514/6.1992-4142
 [research_marchinski_1974]: https://doi.org/10.2514/6.1974-962
@@ -25674,7 +23426,6 @@ computable in one line from the lift equation.
 [research_markov_cinar_2021]: https://doi.org/10.2514/6.2021-3289
 [research_marley_driscoll_2022]: https://doi.org/10.2514/1.c036411
 [research_marquardt_1976]: https://doi.org/10.21236/ada044956
-[research_marques_alvarez_2023]: https://doi.org/10.1016/j.jlp.2023.104993
 [research_marquet_2023]: https://doi.org/10.52843/cassyni.ysgdnx
 [research_marsilio_resta_2024]: https://doi.org/10.2514/6.2024-1617.c1
 [research_martin_1978]: https://doi.org/10.21236/ada066904
@@ -25689,7 +23440,6 @@ computable in one line from the lift equation.
 [research_martinezramirez_rodriguezcortes_2022]: https://doi.org/10.58571/cnca.amca.2022.041
 [research_martinezteran_bayrocorrochano_2024]: https://doi.org/10.1109/romoco60539.2024.10604300
 [research_martinjr_1999]: https://doi.org/10.2514/6.1999-1734
-[research_martins_potts_2022]: https://doi.org/10.23919/ecc55457.2022.9838070
 [research_martosborja_kiszelypaul_2011]: https://ntrs.nasa.gov/citations/20110015011
 [research_martynov_botkin_2017]: https://doi.org/10.1109/med.2017.7984131
 [research_marubashi_miwa_2016]: https://doi.org/10.1299/jsmecs.2016.54._815-1_
@@ -25716,16 +23466,11 @@ computable in one line from the lift equation.
 [research_massegursampietro_daronch_2024]: https://doi.org/10.2514/6.2024-4067
 [research_massoumnia_verghese_1986]: https://doi.org/10.21236/ada188277
 [research_masud_arif_2017]: https://doi.org/10.2514/6.2017-0269
-[research_masuyama_1987]: https://doi.org/10.3233/isp-1987-3439801
 [research_matamoros_devisser_2018]: https://doi.org/10.2514/6.2018-1116
-[research_matausek_jeftenic_1996]: https://doi.org/10.1109/41.481421
 [research_materne_friedrich_2025]: https://doi.org/10.1109/thms.2025.3527136
 [research_matheny_panageas_1981]: https://doi.org/10.2514/6.1981-2433
 [research_matsuda_matsuno_2026]: https://doi.org/10.2514/1.c038130
-[research_matsui_1995]: https://doi.org/10.1016/0389-4304(95)95030-x
 [research_matsuki_nishiyama_2018]: https://doi.org/10.1108/aeat-03-2016-0052
-[research_matsumoto_tomizuka_1990]: https://doi.org/10.23919/acc.1990.4791052
-[research_matsumoto_tomizuka_1992]: https://doi.org/10.1115/1.2897731
 [research_matsunaga_2023]: https://doi.org/10.5817/am2023-1-77
 [research_matsuno_matsuda_2025]: https://doi.org/10.1016/j.trc.2025.104999
 [research_matsushima_2001]: https://doi.org/10.21236/ada526557
@@ -25759,7 +23504,6 @@ computable in one line from the lift equation.
 [research_mcdonald_farris_1964]: https://doi.org/10.21236/ad0603704
 [research_mcdonough_kolmanovsky_2015]: https://doi.org/10.2514/6.2015-1995
 [research_mcdonough_kolmanovsky_2017]: https://doi.org/10.2514/1.g001747
-[research_mcentire_whitley_2005]: https://doi.org/10.21236/ada437530
 [research_mcfadden_brandt_2023]: https://doi.org/10.2514/1.j062302
 [research_mcfarland_dsouza_1994]: https://doi.org/10.2514/6.1994-3604
 [research_mcgilvray_neely_2019]: https://doi.org/10.2514/6.2019-1680
@@ -25793,8 +23537,6 @@ computable in one line from the lift equation.
 [research_mcnickle_pawlikowski_1996]: https://doi.org/10.1145/256562.256690
 [research_mcpike_1976]: https://doi.org/10.3397/1.2832045
 [research_mcruerd_johnstond_1986]: https://ntrs.nasa.gov/citations/19870030478
-[research_meade_lozicki_1994]: https://doi.org/10.21236/ada282744
-[research_mears_dangelo_1993]: https://doi.org/10.4271/930392
 [research_measures_of_1995]: https://doi.org/10.2514/5.9781600862212.0253.0270
 [research_mechouche_fabre_2026]: https://doi.org/10.4050/f-0082-2026-0097
 [research_meckstroth_blake_2015]: https://doi.org/10.2514/6.2015-2324
@@ -25822,15 +23564,12 @@ computable in one line from the lift equation.
 [research_mekonnen_asrat_2021]: https://doi.org/10.3849/aimt.01364
 [research_mele_tognaccini_2016]: https://doi.org/10.2514/1.c033220
 [research_melekhin_khachumov_2021]: https://doi.org/10.17587/mau.22.650-659
-[research_melin_1991]: https://doi.org/10.1007/bf00032198
-[research_melin_1992]: https://doi.org/10.1007/bf00034668
 [research_mello_kotansky_1985]: https://doi.org/10.2514/6.1985-4013
 [research_melnyk_2019]: https://doi.org/10.2514/6.2019-1785
 [research_melville_2026]: https://doi.org/10.2514/6.2026-4239
 [research_melvyn_couturier_2024]: https://doi.org/10.1109/icccr61138.2024.10585511
 [research_memmolo_monaco_2025]: https://doi.org/10.12783/shm2025/37285
 [research_memon_white_2021]: https://doi.org/10.1017/aer.2021.87
-[research_menchini_2010]: https://doi.org/10.21236/ada522324
 [research_mendenhall_perkinsjr_1996]: https://doi.org/10.2514/6.1996-2433
 [research_mendenhall_perkinsjr_1999]: https://doi.org/10.2514/6.1999-3115
 [research_mendez_1988]: https://doi.org/10.21236/ada199875
@@ -25840,15 +23579,12 @@ computable in one line from the lift equation.
 [research_mendozalopetegui_tanelli_2026]: https://doi.org/10.1016/j.conengprac.2026.106814
 [research_mendozastrilchuk_arnold_2018]: https://doi.org/10.2514/6.2018-3584
 [research_menegozzo_benini_2020]: https://doi.org/10.1115/gt2020-14775
-[research_meng_chen_2018]: https://doi.org/10.1016/j.jlp.2018.05.019
 [research_meng_feng_2020]: https://doi.org/10.1109/iccss52145.2020.9336764
-[research_meng_jia_2025]: https://doi.org/10.1016/j.jlp.2025.105689
 [research_meng_liu_2018]: https://doi.org/10.1016/j.ast.2018.08.017
 [research_meng_long_2018]: https://doi.org/10.1063/1.5005514
 [research_meng_sun_2022]: https://doi.org/10.1109/icus55513.2022.9987174
 [research_meng_yang_2022]: https://doi.org/10.23919/iccas55662.2022.10003825
 [research_meng_yang_2023]: https://doi.org/10.23919/ccc58697.2023.10240025
-[research_meng_zhao_2023]: https://doi.org/10.1016/j.ifacol.2023.12.005
 [research_mengali_1996]: https://doi.org/10.2514/3.21777
 [research_menges_1995]: https://doi.org/10.2514/6.1995-3878
 [research_mennebeuf_mouchet_2024]: https://doi.org/10.5162/ettc2024/a5.1
@@ -25878,7 +23614,6 @@ computable in one line from the lift equation.
 [research_merrillwalterc_delaatjohnc_1987]: https://ntrs.nasa.gov/citations/19870063148
 [research_merrillwalterc_delaatjohnc_1991]: https://ntrs.nasa.gov/citations/19910045152
 [research_merrillwc_1984]: https://ntrs.nasa.gov/citations/19850033946
-[research_merritt_1969]: https://doi.org/10.2514/3.5389
 [research_merryman_1994]: https://doi.org/10.1117/12.177361
 [research_mersha_dai_2026]: https://doi.org/10.1016/j.measurement.2026.120416
 [research_mertaugh_1998]: https://doi.org/10.21236/ada350674
@@ -25899,12 +23634,8 @@ computable in one line from the lift equation.
 [research_mhenni_choley_2016]: https://doi.org/10.1016/j.ifacol.2016.07.076
 [research_mi_cheng_2024]: https://doi.org/10.1007/s11831-024-10180-w
 [research_mi_yi_2024]: https://doi.org/10.1016/j.applthermaleng.2023.121360
-[research_miao_li_2025]: https://doi.org/10.3390/molecules30071449
 [research_miao_li_2025_b]: https://doi.org/10.1109/isaes66870.2025.11274283
-[research_miao_luh_1990]: https://doi.org/10.1109/cdc.1990.203556
-[research_miao_wang_2016]: https://doi.org/10.1109/aus.2016.7748182
 [research_miao_wang_2020]: https://doi.org/10.1115/gt2020-16048
-[research_miao_yu_2021]: https://doi.org/10.1016/j.jlp.2021.104466
 [research_miao_yuan_2024]: https://doi.org/10.2514/1.c037448
 [research_mibar_bajodah_2021]: https://doi.org/10.1109/icsc50472.2021.9666671
 [research_michaeldevore_jaredcooper_2022]: https://ntrs.nasa.gov/citations/20210026909
@@ -25964,12 +23695,10 @@ computable in one line from the lift equation.
 [research_miwa_2021]: https://doi.org/10.1299/jsmermd.2021.1p3-b17
 [research_miwa_maruhashi_2016]: https://doi.org/10.1299/jsmermd.2016.1p1-17b6
 [research_miyagi_ueki_2015]: https://doi.org/10.1115/ajkfluids2015-14711
-[research_miyahara_fujimoto_2019]: https://doi.org/10.1109/iecon.2019.8927733
 [research_miyazawa_1992]: https://doi.org/10.2514/3.20908
 [research_mizukamimasahi_2004]: https://ntrs.nasa.gov/citations/20050019536
 [research_mjahed_2019]: https://doi.org/10.15406/iratj.2019.05.00180
 [research_mkoyan_romanova_2023]: https://doi.org/10.1109/ispras60948.2023.10508152
-[research_mlaera_cassano_2025]: https://doi.org/10.5162/eurosensors2025/t5.1.4
 [research_mlayeh_benothman_2022]: https://doi.org/10.24846/v31i3y202210
 [research_mobayen_izadbakhsh_2025]: https://doi.org/10.1063/5.0247902
 [research_mobayen_izadbakhsh_2025_b]: https://doi.org/10.1177/10775463251372262
@@ -25997,7 +23726,6 @@ computable in one line from the lift equation.
 [research_mohammadi_ramezani_2021]: https://doi.org/10.3103/s0146411621010053
 [research_mohammadifarhadi_kortunov_2018]: https://doi.org/10.14311/ap.2018.58.0077
 [research_mohan_gaitonde_2017]: https://doi.org/10.2514/1.c034044
-[research_mohan_sati_2016]: https://doi.org/10.1016/j.atmosres.2015.10.013
 [research_mohankumar_hall_2020]: https://doi.org/10.1115/gt2020-16296
 [research_mohankumar_hall_2021]: https://doi.org/10.1115/1.4050606
 [research_mohankumar_hall_2022]: https://doi.org/10.1115/1.4054064
@@ -26012,14 +23740,10 @@ computable in one line from the lift equation.
 [research_moline_wendt_2011]: https://doi.org/10.21236/ada547644
 [research_molloy_shekar_2026]: https://doi.org/10.2514/6.2026-2808
 [research_molloy_shekar_2026_b]: https://doi.org/10.2514/6.2026-2808.c1
-[research_moloney_2000]: https://doi.org/10.21236/ada376293
-[research_momeni_mohebbi_2025]: https://doi.org/10.1287/deca.2024.0208
 [research_monahemi_barlow_1995]: https://doi.org/10.2514/6.1995-3344
 [research_mondal_padhi_2018]: https://doi.org/10.2514/6.2018-1584
-[research_mondal_prabhune_2021]: https://doi.org/10.7554/elife.67663
 [research_monico_millott_2025]: https://doi.org/10.4050/f-0081-2025-0286
 [research_monstein_capone_2019]: https://doi.org/10.2514/1.c035171
-[research_montakhabynodeh_maclellan_2024]: https://doi.org/10.1016/j.concog.2024.103648
 [research_monteil_2024]: https://doi.org/10.5162/ettc2024/a1.4
 [research_monteiro_ramesh_2025]: https://doi.org/10.26678/abcm.cobem2023.cob2023-2211
 [research_montel_thielecke_2015]: https://doi.org/10.2514/6.2015-2237
@@ -26035,7 +23759,6 @@ computable in one line from the lift equation.
 [research_moore_greitzer_1986]: https://doi.org/10.1115/1.3239887
 [research_moore_mcinville_1995]: https://doi.org/10.2514/3.26594
 [research_moore_skow_1980]: https://doi.org/10.2514/6.1980-173
-[research_moore_walters_2018]: https://doi.org/10.1136/thorax-2018-212555.307
 [research_moorhouse_1990]: https://doi.org/10.2514/6.1990-3306
 [research_moose_1972]: https://doi.org/10.21236/ad0754387
 [research_more_mohan_2024]: https://doi.org/10.1115/imece2024-145616
@@ -26051,7 +23774,6 @@ computable in one line from the lift equation.
 [research_morellieugenea_1996]: https://ntrs.nasa.gov/citations/19960023575
 [research_morellieugenea_2000]: https://ntrs.nasa.gov/citations/20000085030
 [research_morency_tezok_1999]: https://doi.org/10.2514/2.2541
-[research_morey_wigginton_1992]: https://doi.org/10.21236/ada252239
 [research_morgado_silvestre_2016]: https://doi.org/10.1108/aeat-07-2014-0119
 [research_morgan_garmann_2026]: https://doi.org/10.2514/1.c038460
 [research_morgan_mclaughlin_2017]: https://doi.org/10.2514/6.2017-3518
@@ -26067,7 +23789,6 @@ computable in one line from the lift equation.
 [research_moriyama_yonamoto_2017]: https://doi.org/10.1299/jsmekyushu.2017.70.505
 [research_moriyama_yonamoto_2019]: https://doi.org/10.1299/jsmekyushu.2019.72.c15
 [research_moroney_pruitt_1979]: https://doi.org/10.1177/1071181379023001126
-[research_morris_1962]: https://doi.org/10.2172/4223051
 [research_morris_1992]: https://doi.org/10.2514/6.1992-4604
 [research_morris_kroo_1990]: https://doi.org/10.2514/3.45982
 [research_morris_woratschek_1980]: https://doi.org/10.21236/ada096361
@@ -26090,11 +23811,9 @@ computable in one line from the lift equation.
 [research_mouch_mclaughlin_1989]: https://doi.org/10.2514/6.1989-2229
 [research_moul_taylor_1981]: https://doi.org/10.2514/3.57569
 [research_moulin_silva_2016]: https://doi.org/10.21528/cbrn1999-002
-[research_moum_2015]: https://doi.org/10.1175/jtech-d-14-00158.1
 [research_moustafa_talebitooti_2024]: https://doi.org/10.1177/10775463241287846
 [research_mouton_2023]: https://doi.org/10.2514/1.c036880
 [research_moyer_1993]: https://doi.org/10.2514/3.46329
-[research_mozaffari_vajedi_2015]: https://doi.org/10.1016/j.neucom.2014.10.011
 [research_mr_ts_2017]: https://doi.org/10.2514/6.2017-1812
 [research_mrsaravindan_kknithiyanantham_2017]: https://doi.org/10.17577/ijertv6is020019
 [research_mu_2021]: https://doi.org/10.1109/iciscae52414.2021.9590747
@@ -26104,13 +23823,10 @@ computable in one line from the lift equation.
 [research_muddada_patnaik_2017]: https://doi.org/10.1016/j.oceaneng.2017.06.036
 [research_mueller_belschner_2018]: https://doi.org/10.1007/s13272-018-0282-7
 [research_mueller_brito_2003]: https://doi.org/10.21236/ada451883
-[research_muhammad_vali_2024]: https://doi.org/10.1007/s12555-023-0132-1
-[research_muhammadtaha_profdrimtiazarif_2025]: https://doi.org/10.51153/mf.80phr.059
 [research_muhl_jr_1989]: https://doi.org/10.21236/ada225469
 [research_muir_1993]: https://doi.org/10.2514/6.1993-3779
 [research_muir_arredondogaleana_2017]: https://doi.org/10.1098/rsos.170077
 [research_muir_bradshaw_1996]: https://doi.org/10.1243/pime_proc_1996_210_378_02
-[research_mujawar_rafiq_2026]: https://doi.org/10.1109/ccge67142.2026.11581823
 [research_mukhachev_sukhov_2021]: https://doi.org/10.36001/phme.2021.v6i1.2799
 [research_mukherjee_pawar_2021]: https://doi.org/10.2514/1.c035849
 [research_mukherjee_sinha_2017]: https://doi.org/10.1109/indicon.2017.8487772
@@ -26121,16 +23837,13 @@ computable in one line from the lift equation.
 [research_mulgund_stengel_1995]: https://doi.org/10.2514/3.21508
 [research_mulholland_2002]: https://doi.org/10.1117/12.478866
 [research_muliadi_2016]: https://doi.org/10.1063/1.4953985
-[research_mull_2016]: https://doi.org/10.21236/ad1012765
 [research_muller_luckoff_2018]: https://doi.org/10.1115/1.4040862
 [research_muller_moormann_2023]: https://doi.org/10.1142/s2301385024430040
 [research_mullermsc_bertsche_2019]: https://doi.org/10.3850/978-981-11-2724-3_0225-cd
-[research_mullins_esau_2023]: https://doi.org/10.13031/aim.202301443
 [research_mullins_esau_2025]: https://doi.org/10.1016/j.atech.2025.101050
 [research_mullinsjr_tipton_1996]: https://doi.org/10.2514/6.1996-894
 [research_mulqueenja_1991]: https://ntrs.nasa.gov/citations/19910018875
 [research_munger_carlin_1983]: https://doi.org/10.2514/6.1983-2560
-[research_muniandy_ong_2020]: https://doi.org/10.21595/vp.2020.21365
 [research_muniraj_farhood_2019]: https://doi.org/10.1016/j.conengprac.2018.10.022
 [research_munoz_garciafogeda_2024]: https://doi.org/10.3390/aerospace11030198
 [research_munroe_bohrer_2021]: https://doi.org/10.2514/6.2021-0620
@@ -26153,15 +23866,11 @@ computable in one line from the lift equation.
 [research_mustopa_2022]: https://doi.org/10.37868/dss.v3.id203
 [research_myatt_schumacher_1998]: https://doi.org/10.2514/6.1998-4455
 [research_myers_gowen_2015]: https://doi.org/10.21236/ad1002955
-[research_myers_pahwa_1990]: https://doi.org/10.1016/0378-7796(90)90005-n
 [research_myers_walsh_1991]: https://doi.org/10.2514/3.46103
 [research_myerstt_johnstonde_1982]: https://ntrs.nasa.gov/citations/19820020424
 [research_mylvaganam_2017]: https://doi.org/10.1109/cdc.2017.8264597
-[research_mylvaganam_astolfi_2015]: https://doi.org/10.1109/cdc.2015.7403137
 [research_myose_heron_1996]: https://doi.org/10.4271/961316
-[research_nachman_chen_2006]: https://doi.org/10.21236/ada451047
 [research_nae_2026]: https://doi.org/10.2514/6.2026-2110
-[research_naeini_gu_2020]: https://doi.org/10.1109/arftg47271.2020.9241367
 [research_nafi_hasan_2019]: https://doi.org/10.1063/1.5115900
 [research_naftaly_raveh_2025]: https://doi.org/10.2514/6.2025-1021
 [research_nagabhushan_1986]: https://doi.org/10.2514/3.20058
@@ -26171,9 +23880,6 @@ computable in one line from the lift equation.
 [research_nagabhushan_pasha_1991]: https://doi.org/10.2514/6.1991-1274
 [research_nagabhushan_pasha_1992]: https://doi.org/10.2514/3.46160
 [research_nagabhushan_tan_1996]: https://doi.org/10.2514/3.47032
-[research_nagai_hirano_1997]: https://doi.org/10.1080/00423119708969575
-[research_nagai_kawamura_2019]: https://doi.org/10.1109/iecon.2019.8926848
-[research_nagar_kakwani_1964]: https://doi.org/10.2307/1913742
 [research_nagaral_r_2023]: https://doi.org/10.2514/6.2023-3101
 [research_nagawkar_leifsson_2022]: https://doi.org/10.1016/j.ast.2022.107449
 [research_nageswarareddy_2020]: https://doi.org/10.1115/gt2020-14451
@@ -26190,8 +23896,6 @@ computable in one line from the lift equation.
 [research_nakai_hasegawa_2019]: https://doi.org/10.2514/6.2019-0737
 [research_nakai_hatamoto_2019]: https://doi.org/10.1299/jsmemecj.2019.s05204
 [research_nakamurazimmerer_stringer_2023]: https://doi.org/10.2514/6.2023-1184
-[research_nakayama_egusa_1989]: https://doi.org/10.1016/0040-6090(89)90295-2
-[research_nakimuli_greenfield_2025]: https://doi.org/10.22214/ijraset.2025.66817
 [research_nakka_alexanderramos_2021]: https://doi.org/10.2514/1.c035678
 [research_nakod_bora_2025]: https://doi.org/10.1115/gt2025-153583
 [research_nam_2025]: https://doi.org/10.63680/ijsate1125033.024
@@ -26204,9 +23908,7 @@ computable in one line from the lift equation.
 [research_narayanan_kumar_2026]: https://doi.org/10.1051/e3sconf/202669202008
 [research_nardi_1970]: https://doi.org/10.2514/6.1970-515
 [research_naruse_ishii_2022]: https://doi.org/10.1299/transjsme.21-00357
-[research_naseem_2022]: https://doi.org/10.1136/injuryprev-2022-safety2022.232
 [research_nashjr_dappolito_1972]: https://doi.org/10.2514/6.1972-848
-[research_nasiri_sepanloo_2024]: https://doi.org/10.24200/jonra.2024.1682.1160
 [research_naskar_patra_2015]: https://doi.org/10.1109/med.2015.7158814
 [research_naskar_patra_2016]: https://doi.org/10.1080/00207179.2016.1181785
 [research_nasuhbeyoglu_akca_2024]: https://doi.org/10.2514/6.2024-4228
@@ -26240,7 +23942,6 @@ computable in one line from the lift equation.
 [research_nemec_bedonian_2024]: https://doi.org/10.2514/6.2024-4671
 [research_neuman_1987]: https://doi.org/10.2514/6.1987-2395
 [research_neuman_lee_1977]: https://doi.org/10.2514/3.58754
-[research_neumann_eckel_2026]: https://doi.org/10.1049/icp.2025.4544
 [research_neves_araujo_2026]: https://doi.org/10.2514/6.2026-4720
 [research_neves_lawson_2020]: https://doi.org/10.1016/j.ast.2020.106179
 [research_neves_mariani_2024]: https://doi.org/10.2514/6.2024-0140
@@ -26269,7 +23970,6 @@ computable in one line from the lift equation.
 [research_ngo_reigelsperger_1996]: https://doi.org/10.2514/6.1996-3866
 [research_ngouandongavele_angoueavele_2023]: https://doi.org/10.17979/spudc.000024.01
 [research_nguyen_1998]: https://doi.org/10.2514/2.2264
-[research_nguyen_adams_2016]: https://doi.org/10.1109/issre.2016.36
 [research_nguyen_cramer_2019]: https://doi.org/10.2514/6.2019-3156
 [research_nguyen_han_2025]: https://doi.org/10.1016/j.automatica.2025.112270
 [research_nguyen_lowenberg_2021]: https://doi.org/10.2514/1.g005866
@@ -26291,7 +23991,6 @@ computable in one line from the lift equation.
 [research_nguyenlt_ogburnme_1979]: https://ntrs.nasa.gov/citations/19800005879
 [research_nguyenlt_whipplerd_1985]: https://ntrs.nasa.gov/citations/19860017780
 [research_nguyentat_lephan_2026]: https://doi.org/10.1007/s42405-026-01203-w
-[research_ni_hu_2016]: https://doi.org/10.1080/00423114.2016.1169303
 [research_ni_wang_2025]: https://doi.org/10.1088/1742-6596/3044/1/012001
 [research_ni_wu_2021]: https://doi.org/10.1109/access.2021.3095224
 [research_nial_1972]: https://doi.org/10.2514/6.1972-787
@@ -26323,14 +24022,10 @@ computable in one line from the lift equation.
 [research_nikoukhah_delebecque_1992]: https://doi.org/10.23919/acc.1992.4792329
 [research_nineteenth_annual_1983]: https://ntrs.nasa.gov/citations/19890068145
 [research_ning_han_2023]: https://doi.org/10.1016/j.conengprac.2023.105662
-[research_ning_qiu_2024]: https://doi.org/10.1016/j.jpowsour.2024.234421
 [research_ning_you_2016]: https://doi.org/10.1109/cdc.2016.7799219
-[research_ninivaggi_cutrini_2025]: https://doi.org/10.1007/s11067-025-09673-3
 [research_niranjanat_raodm_1993]: https://ntrs.nasa.gov/citations/19940020629
 [research_nishiyama_suzuki_2016]: https://doi.org/10.2514/6.2016-0132
-[research_nissen_2009]: https://doi.org/10.21236/ada513588
 [research_nita_nolan_2016]: https://doi.org/10.1007/s40314-016-0333-9
-[research_niu_2023]: https://doi.org/10.23919/ccc58697.2023.10241191
 [research_niu_li_2026]: https://doi.org/10.1007/s12555-026-00058-x
 [research_niu_su_2025]: https://doi.org/10.1016/j.coco.2024.102228
 [research_niu_zhao_2024]: https://doi.org/10.1063/5.0226649
@@ -26339,8 +24034,6 @@ computable in one line from the lift equation.
 [research_niwa_suzuki_1989]: https://doi.org/10.2514/6.1989-3592
 [research_niwitpong_2015]: https://doi.org/10.14445/22315373/ijmtt-v17p514
 [research_nix_lind_2020]: https://doi.org/10.2514/6.2020-0754
-[research_niyigena_2021]: https://doi.org/10.31593/ijeat.998333
-[research_nnyaga_arbyn_2016]: https://doi.org/10.1177/0962280216682532
 [research_no_cochran_1995]: https://doi.org/10.2514/3.56658
 [research_noack_2023]: https://doi.org/10.1063/5.0152777
 [research_nocon_grzyb_2023]: https://doi.org/10.24425/bpasts.2023.148444
@@ -26351,7 +24044,6 @@ computable in one line from the lift equation.
 [research_norlin_1995]: https://doi.org/10.2514/6.1995-3419
 [research_norouzi_kosari_2018]: https://doi.org/10.1109/iemcon.2018.8614987
 [research_norouzi_kosari_2019]: https://doi.org/10.1016/j.ast.2019.04.048
-[research_norouzi_xu_2026]: https://doi.org/10.3390/en19112632
 [research_norris_lan_1991]: https://doi.org/10.2514/6.1991-3251
 [research_northamericanaviationinclosangelesca_1963]: https://doi.org/10.21236/ad0410334
 [research_northropaircraftinchawthorneca_1952]: https://doi.org/10.21236/ad0024361
@@ -26359,20 +24051,16 @@ computable in one line from the lift equation.
 [research_norton_1990]: https://doi.org/10.21236/ada257262
 [research_norwood_schneberger_2021]: https://doi.org/10.2514/6.2021-0572
 [research_novak_1986]: https://doi.org/10.1177/003754978604600605
-[research_novi_liniger_2019]: https://doi.org/10.1080/00423114.2019.1605081
 [research_novichkov_burova_2019]: https://doi.org/10.1109/fareastcon.2019.8934285
 [research_novo_lisman_2025]: https://doi.org/10.31274/ahac.20466
 [research_nowack_1970]: https://doi.org/10.1088/0022-3735/3/1/305
 [research_nowacki_olejniczak_2019]: https://doi.org/10.1016/j.trpro.2019.12.012
-[research_ns_gaonkar_2015]: https://doi.org/10.13052/dgaej2156-3306.3042
-[research_nugroho_granitsas_2022]: https://doi.org/10.23919/acc53348.2022.9867430
 [research_numerical_analysis_2017]: https://doi.org/10.15372/pmtf20170303
 [research_numerical_and_2017]: https://doi.org/10.15372/fgv20170505
 [research_numerical_and_2019]: https://doi.org/10.17559/tv-20180724143418
 [research_numerical_study_2021]: https://doi.org/10.47176/jafm.14.01.31690
 [research_numerical_study_2023]: https://doi.org/10.47176/jafm.16.06.1531
 [research_nunes_su_2025]: https://doi.org/10.1016/j.ast.2025.110517
-[research_nurullaev_2025]: https://doi.org/10.1109/redundancy68069.2025.11301475
 [research_nusantika_hu_2021]: https://doi.org/10.1109/iciea51954.2021.9516053
 [research_nuss_2024]: https://doi.org/10.11648/j.acis.20241201.11
 [research_nuttall_1985]: https://doi.org/10.21236/ada162229
@@ -26393,7 +24081,6 @@ computable in one line from the lift equation.
 [research_oehling_barry_2019]: https://doi.org/10.1016/j.ssci.2018.12.018
 [research_oelker_hummel_1989]: https://doi.org/10.2514/3.45817
 [research_ofarrell_brandeau_2016]: https://doi.org/10.2514/6.2016-3242
-[research_offering_you_1960]: https://doi.org/10.1021/cen-v038n026.p031
 [research_oganyan_loginov_2025]: https://doi.org/10.2478/tar-2025-0018
 [research_ogburn_nguyen_1988]: https://doi.org/10.2514/6.1988-4357
 [research_ogburnmarilyne_fosterjohnv_1992]: https://ntrs.nasa.gov/citations/20040121214
@@ -26406,26 +24093,19 @@ computable in one line from the lift equation.
 [research_ogunba_taiwo_2021]: https://doi.org/10.1016/j.ifacol.2021.12.015
 [research_ogunka_akbarzadeh_2022]: https://doi.org/10.2514/6.2022-1948
 [research_ogur_koc_2024]: https://doi.org/10.1016/j.energy.2024.132714
-[research_ogura_wakamiya_2021]: https://doi.org/10.1109/cdc45484.2021.9682930
-[research_ogura_wakamiya_2023]: https://doi.org/10.1016/j.nahs.2023.101342
 [research_oguztasci_tumse_2022]: https://doi.org/10.1016/j.oceaneng.2022.112120
 [research_oh_2020]: https://doi.org/10.26511/jkset.21.5.12
 [research_oh_kimmel_1990]: https://doi.org/10.2514/6.1990-279
-[research_oh_lee_2015]: https://doi.org/10.1109/iecon.2015.7392823
 [research_oh_tavella_1986]: https://doi.org/10.2514/6.1986-1790
 [research_oh_yu_2020]: https://doi.org/10.1115/imece2020-23601
-[research_ohkubo_1995]: https://doi.org/10.1016/0389-4304(95)94723-z
 [research_ohme_2009]: https://doi.org/10.2514/6.2009-6154
 [research_ohno_yamaguchi_1998]: https://doi.org/10.1016/s1474-6670(17)41088-3
 [research_ohno_yamaguchi_1999]: https://doi.org/10.1016/s0967-0661(99)00085-4
-[research_ohtsu_shoji_1996]: https://doi.org/10.1016/0967-0661(96)00016-0
 [research_okai_taguchi_2020]: https://doi.org/10.2514/6.2020-3678
 [research_okamoto_tsuchiya_2016]: https://doi.org/10.2514/1.g001105
 [research_okita_mizokami_2020]: https://doi.org/10.1115/1.4046547
 [research_oktay_kose_2021]: https://doi.org/10.31590/ejosat.946884
-[research_okur_zergeroglu_2015]: https://doi.org/10.1109/cdc.2015.7402421
 [research_okutake_uchida_2016]: https://doi.org/10.1109/imis.2016.128
-[research_olawale_george_2024]: https://doi.org/10.62512/conf.ukacm2024.076
 [research_olejniczak_nowacki_2018]: https://doi.org/10.1016/j.trpro.2018.12.017
 [research_olejniczak_nowacki_2020]: https://doi.org/10.1016/j.trpro.2020.11.005
 [research_oliinyk_zylevich_2026]: https://doi.org/10.1109/elnano63396.2026.11601591
@@ -26437,7 +24117,6 @@ computable in one line from the lift equation.
 [research_oliveira_wolf_2021]: https://doi.org/10.2514/6.2021-1334
 [research_olsder_papavassilopoulos_1986]: https://doi.org/10.1109/cdc.1986.267421
 [research_olson_2018]: https://doi.org/10.2514/6.2018-0189
-[research_oluyemi_adebanjo_1979]: https://doi.org/10.3382/ps.0580767
 [research_olwi_1995]: https://doi.org/10.2514/6.1995-3465
 [research_om_park_2020]: https://doi.org/10.9728/jcc.2020.06.2.1.95
 [research_omar_2021]: https://doi.org/10.3390/aerospace8120400
@@ -26446,13 +24125,10 @@ computable in one line from the lift equation.
 [research_onboard_computer_1968]: https://doi.org/10.2514/6.1968-839
 [research_oneill_mcquilling_2024]: https://doi.org/10.2514/6.2024-2836
 [research_oneill_mcquilling_2025]: https://doi.org/10.2514/6.2025-1631
-[research_ono_2015]: https://doi.org/10.2316/p.2015.826-020
 [research_operationaltechnologiescorpsanantoniotx_1996]: https://doi.org/10.21236/ada316165
 [research_oppenheimer_sigthorsson_2018]: https://doi.org/10.2514/6.2018-0856
-[research_optimal_gain_1994]: https://doi.org/10.1109/37.295969
 [research_optimization_design_2022]: https://doi.org/10.47939/et.v3i3(01).27
 [research_optimization_of_1994]: https://doi.org/10.14359/4326
-[research_optimizing_cloud_2024]: https://doi.org/10.63345/ijrmeet.org.v12.i12.12
 [research_optimum_redundancy_1964]: https://doi.org/10.1016/0026-2714(64)90183-0
 [research_oran_1999]: https://doi.org/10.21236/ada371863
 [research_orawo_2021]: https://doi.org/10.4236/ojs.2021.115047
@@ -26486,14 +24162,11 @@ computable in one line from the lift equation.
 [research_ostroffaaronj_proffittmelissas_1994]: https://ntrs.nasa.gov/citations/19940032506
 [research_ott_chan_1994]: https://doi.org/10.1109/fuzzy.1994.343948
 [research_ou_du_2022]: https://doi.org/10.1088/1742-6596/2179/1/012015
-[research_oueini_nayfeh_1996]: https://doi.org/10.2514/6.1996-1642
 [research_ouellette_2025]: https://doi.org/10.2514/6.2025-1055
-[research_ouyang_jin_2024]: https://doi.org/10.5220/0012876300004536
 [research_ouyang_lin_2017]: https://doi.org/10.1002/rnc.3883
 [research_ouyang_lin_2017_b]: https://doi.org/10.1016/j.automatica.2017.03.014
 [research_ouyang_zhou_2022]: https://doi.org/10.1109/iciea54703.2022.10006047
 [research_owashi_tanaka_2017]: https://doi.org/10.1299/jsmermd.2017.1p2-e04
-[research_owen_hunter_1988]: https://doi.org/10.1016/0021-8634(88)90210-7
 [research_owen_johnson_1978]: https://doi.org/10.2514/6.1978-23
 [research_owens_perkins_1996]: https://doi.org/10.2514/3.47079
 [research_owings_lutz_1964]: https://doi.org/10.21236/ad0600677
@@ -26532,14 +24205,11 @@ computable in one line from the lift equation.
 [research_pal_negi_2017]: https://doi.org/10.1177/0142331217695387
 [research_palazzo_2025]: https://doi.org/10.2514/6.2025-1706
 [research_palkin_zenchenko_2025]: https://doi.org/10.18127/j20700784-202509-06
-[research_palkovics_michelberger_1996]: https://doi.org/10.1080/00423119608969216
-[research_pallavi_sinha_2026]: https://doi.org/10.1109/icmlas67792.2026.11483814
 [research_palmeira_gomesdasilvajr_2025]: https://doi.org/10.1016/j.ifacol.2025.10.088
 [research_palomino_2022]: https://doi.org/10.5162/ettc2022/2.4
 [research_pamadi_1981]: https://doi.org/10.2514/3.60070
 [research_pamadi_rao_1994]: https://doi.org/10.2514/6.1994-807
 [research_pan_an_2024]: https://doi.org/10.1063/5.0175690
-[research_pan_chu_2024]: https://doi.org/10.1109/access.2024.3462771
 [research_pan_huang_2018]: https://doi.org/10.1177/0954410018817449
 [research_pan_huang_2019]: https://doi.org/10.1108/aeat-04-2018-0119
 [research_pan_huang_2019_b]: https://doi.org/10.5028/jatm.v11.1074
@@ -26561,7 +24231,6 @@ computable in one line from the lift equation.
 [research_panish_bacic_2022]: https://doi.org/10.2514/6.2022-1082
 [research_panteleev_letova_2018]: https://doi.org/10.1134/s0005117918010137
 [research_panten_bestmann_2022]: https://doi.org/10.1109/iss55898.2022.9926336
-[research_panyam_daqaq_2016]: https://doi.org/10.1115/detc2016-59929
 [research_paolo_1977]: https://doi.org/10.2514/6.1977-1129
 [research_papa_stoliker_1988]: https://doi.org/10.2514/6.1988-2105
 [research_papadales_basils_1979]: https://doi.org/10.21236/ada073100
@@ -26572,41 +24241,32 @@ computable in one line from the lift equation.
 [research_parameter_estimation_1974]: https://ntrs.nasa.gov/citations/19740017456
 [research_paranjape_ananthkrishnan_2023]: https://doi.org/10.61653/joast.v58i2.2006.706
 [research_paranjape_chung_2010]: https://doi.org/10.2514/6.2010-7633
-[research_parczewski_wnek_2017]: https://doi.org/10.19206/ce-2017-121
-[research_parhi_2004]: https://doi.org/10.21236/ada426960
 [research_parise_1989]: https://doi.org/10.1117/12.960897
 [research_park_1977]: https://doi.org/10.2514/3.58770
 [research_park_2017]: https://doi.org/10.5139/ijass.2017.18.2.344
 [research_park_2019]: https://doi.org/10.37727/jkdas.2019.21.6.2931
 [research_park_choi_2016]: https://doi.org/10.2514/6.2016-2024
 [research_park_choi_2017]: https://doi.org/10.2514/1.c034052
-[research_park_chung_2019]: https://doi.org/10.1109/ictc46691.2019.8939909
 [research_park_jo_2016]: https://doi.org/10.2514/6.2016-4038
 [research_park_jo_2017]: https://doi.org/10.2514/6.2017-1754
-[research_park_joa_2019]: https://doi.org/10.4271/2019-01-1238
 [research_park_lee_2016]: https://doi.org/10.5139/ijass.2016.17.2.204
 [research_park_lee_2025]: https://doi.org/10.1016/j.advengsoft.2024.103827
 [research_park_leemis_2019]: https://doi.org/10.1002/sim.8189
 [research_park_listgarten_2025]: https://doi.org/10.1109/itec63604.2025.11097944
 [research_park_park_2021]: https://doi.org/10.2514/6.2021-0526
-[research_park_park_2021_b]: https://doi.org/10.2139/ssrn.3981316
-[research_park_park_2025]: https://doi.org/10.1007/s42835-025-02243-0
 [research_park_ramirezserrano_2024]: https://doi.org/10.3390/aerospace11080671
 [research_park_ramirezserrano_2025]: https://doi.org/10.3390/aerospace12040312
 [research_park_shin_2019]: https://doi.org/10.1016/j.ifacol.2019.11.261
 [research_parker_1996]: https://doi.org/10.1002/bimj.4710380313
 [research_parker_white_2019]: https://doi.org/10.1109/sspd.2019.8751646
 [research_parkinson_kong_1992]: https://doi.org/10.1016/0167-6105(92)90366-i
-[research_parniani_iravani_1995]: https://doi.org/10.1109/59.466483
 [research_parrott_1978]: https://doi.org/10.21236/ada066034
 [research_parry_golub_1989]: https://doi.org/10.2514/6.1989-3604
-[research_paruchuri_graber_2024]: https://doi.org/10.1109/tps.2024.3377137
 [research_pascasio_grubb_2020]: https://doi.org/10.4050/sm_2020_hq-918
 [research_pashaei_hashemzadeh_2019]: https://doi.org/10.1109/iraniancee.2019.8786408
 [research_pashchenko_akhrameev_2021]: https://doi.org/10.1016/j.ifacol.2021.10.534
 [research_pashkov_sinitsyn_1995]: https://doi.org/10.1016/0021-8928(95)00127-1
 [research_pasialakos_2024]: https://doi.org/10.3390/proceedings2024101008
-[research_pasman_rogers_2015]: https://doi.org/10.1016/j.jlp.2014.12.003
 [research_patan_ustoglu_2025]: https://doi.org/10.1115/1.4069171
 [research_patartics_luspay_2017]: https://doi.org/10.1016/j.ifacol.2017.08.1263
 [research_patel_1980]: https://doi.org/10.2514/3.7664
@@ -26653,7 +24313,6 @@ computable in one line from the lift equation.
 [research_peng_2021_b]: https://doi.org/10.1109/aemcse51986.2021.00243
 [research_peng_2021_c]: https://doi.org/10.1142/s2737480721500096
 [research_peng_cao_2026]: https://doi.org/10.1109/tsmc.2026.3657656
-[research_peng_chang_2023]: https://doi.org/10.1109/cacs60074.2023.10325859
 [research_peng_duan_2022]: https://doi.org/10.1109/icca54724.2022.9831958
 [research_peng_huo_2016]: https://doi.org/10.1109/chicc.2016.7554247
 [research_peng_li_2024]: https://doi.org/10.1109/icjece.2024.3451965
@@ -26663,12 +24322,10 @@ computable in one line from the lift equation.
 [research_peng_liu_2025]: https://doi.org/10.1109/raiic65850.2025.11170233
 [research_peng_marunia_2025]: https://doi.org/10.1109/powertech59965.2025.11180462
 [research_peng_tian_2024]: https://doi.org/10.1109/taes.2024.3406311
-[research_peng_tomizuka_1990]: https://doi.org/10.23919/acc.1990.4790840
 [research_peng_wang_2025]: https://doi.org/10.1016/j.ast.2025.110584
 [research_pengzhuang_hanwen_2023]: https://doi.org/10.1109/iceace60673.2023.10442831
 [research_penningtonje_meintelajjr_1980]: https://ntrs.nasa.gov/citations/19810061133
 [research_peracchio_1982]: https://doi.org/10.2514/3.44810
-[research_pereira_nunes_2017]: https://doi.org/10.1109/smartgridcomm.2017.8340682
 [research_perezblanco_henricks_1998]: https://doi.org/10.1115/98-gt-078
 [research_perezrus_legal_2024]: https://doi.org/10.5162/ettc2024/b3.2
 [research_performance_evaluation_2025]: https://doi.org/10.37285/bsp.sacad2025.35
@@ -26687,7 +24344,6 @@ computable in one line from the lift equation.
 [research_peterson_lee_2025]: https://doi.org/10.2514/6.2025-2227
 [research_peterson_vanbreugel_2025]: https://doi.org/10.2514/6.2025-2012
 [research_petit_scholey_1973]: https://doi.org/10.2514/6.1973-1218
-[research_petkar_2025]: https://doi.org/10.1109/icmlas64557.2025.10967893
 [research_petrie_1982]: https://doi.org/10.21236/ada115897
 [research_petrovic_janezic_2021]: https://doi.org/10.18690/978-961-286-513-9.16
 [research_petty_1980]: https://doi.org/10.21236/ada083246
@@ -26705,7 +24361,6 @@ computable in one line from the lift equation.
 [research_phillips_fiedler_1968]: https://doi.org/10.21236/ad0683763
 [research_phillips_jentzsch_2019]: https://doi.org/10.2514/6.2019-0045
 [research_phillips_west_2018]: https://doi.org/10.2514/6.2018-0333
-[research_phipps_1982]: https://doi.org/10.21236/ada119752
 [research_phoenix_maxwell_2019]: https://doi.org/10.2514/1.c035317
 [research_phosung_areerak_2024]: https://doi.org/10.1109/access.2024.3406855
 [research_pi_1985]: https://doi.org/10.2514/6.1985-708
@@ -26736,7 +24391,6 @@ computable in one line from the lift equation.
 [research_politansky_pilkey_1989]: https://doi.org/10.2514/3.20463
 [research_politovich_1996]: https://doi.org/10.2514/3.46936
 [research_politovich_sand_1981]: https://doi.org/10.2514/6.1981-1646
-[research_poll_2018]: https://doi.org/10.1108/pmm-10-2017-0049
 [research_pollack_looye_2019]: https://doi.org/10.2514/6.2019-0130
 [research_pollack_theodoulis_2024]: https://doi.org/10.1016/j.ast.2024.109377
 [research_pollack_theodoulis_2026]: https://doi.org/10.2514/1.g009559
@@ -26745,13 +24399,11 @@ computable in one line from the lift equation.
 [research_pollak_lan_1995]: https://doi.org/10.2514/3.12717
 [research_pollard_2000]: https://doi.org/10.21236/ada384536
 [research_pollet_liscouet_2025]: https://doi.org/10.2514/1.g007821
-[research_pollmann_estocinova_2016]: https://doi.org/10.1016/j.neuroimage.2015.09.040
 [research_pons_cirak_2023]: https://doi.org/10.2514/1.g006381
 [research_pontryagin_mishchenko_1988]: https://doi.org/10.1070/sm1988v059n01abeh003128
 [research_ponzio_1991]: https://doi.org/10.21236/ada243176
 [research_poojari_2022]: https://doi.org/10.47893/gret.2022.1089
 [research_poolla_ishihara_2015]: https://doi.org/10.4236/ica.2015.64023
-[research_poorhaydari_2019]: https://doi.org/10.1016/j.engfailanal.2019.07.003
 [research_popowski_dabrowski_2015]: https://doi.org/10.3846/16487788.2015.1015293
 [research_portapas_cooke_2020]: https://doi.org/10.3846/aviation.2020.12175
 [research_portapas_yusuf_2017]: https://doi.org/10.2514/6.2017-0577
@@ -26805,7 +24457,6 @@ computable in one line from the lift equation.
 [research_prichard_strasser_2024]: https://doi.org/10.1080/10618562.2025.2513607
 [research_prilliman_huff_1969]: https://doi.org/10.2514/3.44064
 [research_princewilliamr_mcaulayjohne_1950]: https://ntrs.nasa.gov/citations/19930086235
-[research_principles_of_2011]: https://doi.org/10.1002/9781118001653.ch3
 [research_pritchard_wallace_2016]: https://doi.org/10.2514/6.2016-1772
 [research_prizirembel_wen_1978]: https://doi.org/10.21236/ada064583
 [research_probst_knopp_2019]: https://doi.org/10.2514/6.2019-0331
@@ -26839,12 +24490,9 @@ computable in one line from the lift equation.
 [research_putzu_ghisu_2023]: https://doi.org/10.1115/gt2023-103769
 [research_puviyarasi_suveka_2023]: https://doi.org/10.1109/iccebs58601.2023.10448649
 [research_qamar_cheok_2023]: https://doi.org/10.32388/8a6rct
-[research_qassim_alsamarraie_2026]: https://doi.org/10.18196/jrc.v7i2.29477
 [research_qaumi_hashemi_2023]: https://doi.org/10.3390/aerospace10100867
-[research_qi_2018]: https://doi.org/10.3901/jme.2018.06.203
 [research_qi_2023]: https://doi.org/10.1007/s42967-023-00262-0
 [research_qi_ding_2018]: https://doi.org/10.23919/chicc.2018.8482825
-[research_qi_li_2022]: https://doi.org/10.1109/icoias56028.2022.9931312
 [research_qi_wang_2017]: https://doi.org/10.23919/acc.2017.7963645
 [research_qi_wang_2018]: https://doi.org/10.1016/j.euromechflu.2017.06.005
 [research_qi_wang_2019]: https://doi.org/10.1063/1.5080756
@@ -26859,7 +24507,6 @@ computable in one line from the lift equation.
 [research_qiao_li_2026]: https://doi.org/10.1016/j.probengmech.2025.103881
 [research_qiao_liu_2022]: https://doi.org/10.1016/j.csite.2022.102476
 [research_qiao_liu_2023]: https://doi.org/10.1016/j.applthermaleng.2023.120526
-[research_qiao_zhang_2019]: https://doi.org/10.1016/j.jweia.2019.02.012
 [research_qiming_husheng_2021]: https://doi.org/10.1109/icist52614.2021.9440608
 [research_qin_2021]: https://doi.org/10.23967/coupled.2021.060
 [research_qin_he_2016]: https://doi.org/10.1109/icuas.2016.7502554
@@ -26868,14 +24515,12 @@ computable in one line from the lift equation.
 [research_qin_liu_2023]: https://doi.org/10.1049/cth2.12427
 [research_qin_lu_2023]: https://doi.org/10.1155/2023/3610865
 [research_qin_xu_2018]: https://doi.org/10.2514/1.c034649
-[research_qin_zhang_2021]: https://doi.org/10.1049/gtd2.12200
 [research_qing_liu_2020]: https://doi.org/10.1177/1475921720958082
 [research_qing_sun_2015]: https://doi.org/10.12783/shm2015/13
 [research_qiu_du_2023]: https://doi.org/10.1063/5.0171892
 [research_qiu_fang_2018]: https://doi.org/10.1177/1475921718759344
 [research_qiu_lau_2024]: https://doi.org/10.3390/f15081374
 [research_qiu_lin_2019]: https://doi.org/10.12783/shm2019/32210
-[research_qiu_liu_2021]: https://doi.org/10.1049/gtd2.12147
 [research_qiu_sang_2025]: https://doi.org/10.1108/aeat-03-2025-0081
 [research_qiu_yao_2020]: https://doi.org/10.1109/cac51589.2020.9327310
 [research_qiu_yuan_2015]: https://doi.org/10.12783/shm2015/73
@@ -26893,13 +24538,10 @@ computable in one line from the lift equation.
 [research_quackenbush_whitehouse_2020]: https://doi.org/10.2514/6.2020-0772
 [research_quan_cao_2026]: https://doi.org/10.3390/drones10010035
 [research_quan_ma_2016]: https://doi.org/10.1109/ccdc.2016.7531221
-[research_quan_zhou_2025]: https://doi.org/10.1016/j.csite.2024.105724
 [research_quinlan_gern_2016]: https://doi.org/10.2514/6.2016-0229
 [research_quinn_2022]: https://doi.org/10.5162/ettc2022/7.3
-[research_qureshi_liscano_2022]: https://doi.org/10.3390/machines10111019
 [research_raab_2026]: https://doi.org/10.21741/9781644904251-262
 [research_rabenberg_palarz_1983]: https://doi.org/10.2514/6.1983-2487
-[research_rabitz_1995]: https://doi.org/10.21236/ada291919
 [research_radfordrc_smithr_1980]: https://ntrs.nasa.gov/citations/19810005458
 [research_radhakrishnan_swarup_2020]: https://doi.org/10.1109/icirca48905.2020.9183199
 [research_raffel_dillmann_2021]: https://doi.org/10.2514/6.2021-0769
@@ -26926,10 +24568,7 @@ computable in one line from the lift equation.
 [research_raj_muthukumar_2018]: https://doi.org/10.2514/6.2018-2833
 [research_raj_rana_2025]: https://doi.org/10.2514/6.2025-0570
 [research_raj_sikora_1988]: https://doi.org/10.2514/3.45552
-[research_rajagopalan_sauer_1989]: https://doi.org/10.23919/acc.1989.4790377
-[research_rajamani_law_1998]: https://doi.org/10.1016/s1474-6670(17)42177-x
 [research_rajaram_rafi_2017]: https://doi.org/10.2514/6.2017-1022
-[research_rajaruthnam_peach_2026]: https://doi.org/10.1016/j.jlp.2025.105803
 [research_rajendran_2025]: https://doi.org/10.61359/11.2106-2557
 [research_rajendran_pachidis_2020]: https://doi.org/10.1115/gt2020-14174
 [research_rajendran_pachidis_2021]: https://doi.org/10.1115/1.4050331
@@ -26940,9 +24579,7 @@ computable in one line from the lift equation.
 [research_rajmohamed_yadav_2021]: https://doi.org/10.1108/aeat-08-2019-0170
 [research_rajput_xiaobo_2018]: https://doi.org/10.1109/codit.2018.8394861
 [research_rajput_zhangweiguo_2015]: https://doi.org/10.1109/ascc.2015.7244649
-[research_ramachandran_2024]: https://doi.org/10.1109/comsnets59351.2024.10426959
 [research_ramachandran_galloway_1982]: https://doi.org/10.2514/3.61554
-[research_ramamurti_2001]: https://doi.org/10.21236/ada389799
 [research_ramar_vaidhyanathan_2025]: https://doi.org/10.1109/ciscon66933.2025.11337682
 [research_rambacher_bons_2023]: https://doi.org/10.2514/6.2023-1239
 [research_ramezani_voos_2026]: https://doi.org/10.1109/icuas69441.2026.11598578
@@ -26953,7 +24590,6 @@ computable in one line from the lift equation.
 [research_ran_wang_2016]: https://doi.org/10.1002/rnc.3524
 [research_randalljmumaw_loranahaworth_2019]: https://ntrs.nasa.gov/citations/20190004927
 [research_rangarao_arumuru_2016]: https://doi.org/10.1109/tenconspring.2016.7519436
-[research_rani_kumar_2019]: https://doi.org/10.1007/s40435-019-00523-y
 [research_ranlet_1965]: https://doi.org/10.21236/ad0467022
 [research_ransom_1983]: https://doi.org/10.2514/3.44917
 [research_ransquin_chatelain_2021]: https://doi.org/10.2514/6.2021-0885
@@ -26974,7 +24610,6 @@ computable in one line from the lift equation.
 [research_raol_jategaonkar_1995]: https://doi.org/10.2514/6.1995-3504
 [research_rapisarda_dimare_2026]: https://doi.org/10.2514/6.2026-3835
 [research_rash_mclean_1998]: https://doi.org/10.21236/ada352464
-[research_rashid_dutta_2026]: https://doi.org/10.1109/southeastcon63549.2026.11475983
 [research_rashid_nawaz_2022]: https://doi.org/10.1007/s12206-022-0524-9
 [research_rasimarzabadi_martensson_2023]: https://doi.org/10.1115/gt2023-100561
 [research_rasmussen_houpis_1994]: https://doi.org/10.1115/imece1994-0433
@@ -27001,7 +24636,6 @@ computable in one line from the lift equation.
 [research_raymer_1991]: https://doi.org/10.2514/6.1991-3170
 [research_raza_maqsood_2024]: https://doi.org/10.1017/aer.2024.32
 [research_razmi_afshinfar_2019]: https://doi.org/10.1016/j.ast.2019.04.055
-[research_razouqi_boushehri_2024]: https://doi.org/10.3390/electronics13142877
 [research_reader_1980]: https://doi.org/10.21236/ada080953
 [research_realtime_knowledge_1991]: https://doi.org/10.1108/eb037079
 [research_rebman_1967]: https://doi.org/10.4050/sm_tact_1967-4963
@@ -27009,31 +24643,19 @@ computable in one line from the lift equation.
 [research_reddinger_gandhi_2016]: https://doi.org/10.4050/f-0072-2016-11362
 [research_reddy_1981]: https://doi.org/10.2514/3.44734
 [research_reddy_1989]: https://doi.org/10.2514/3.45878
-[research_reddy_narender_2025]: https://doi.org/10.1109/mpcon66082.2025.11256586
-[research_reddypullikallu_2026]: https://doi.org/10.21275/sr26515093450
 [research_redeker_voersmann_1988]: https://doi.org/10.2514/6.1988-2165
 [research_rediess_melton_1994]: https://doi.org/10.2514/6.1994-2172
 [research_rediniotis_hoang_1991]: https://doi.org/10.2514/6.1991-735
-[research_redsa_dynamic_1993]: https://doi.org/10.1016/0278-6125(93)90220-n
-[research_redundancy_2019_2019]: https://doi.org/10.1109/redundancy48165.2019.9003327
-[research_redundancy_2023_2023]: https://doi.org/10.1109/redundancy59964.2023.10330196
-[research_redundancy_2023_2023_b]: https://doi.org/10.1109/redundancy59964.2023.10330202
-[research_redundancy_2025_2025]: https://doi.org/10.1109/redundancy68069.2025.11301419
-[research_redundancy_2025_2025_b]: https://doi.org/10.1109/redundancy68069.2025.11301565
-[research_redundancy_2025_2025_c]: https://doi.org/10.1109/redundancy68069.2025.11301434
-[research_redundancy_2025_2025_d]: https://doi.org/10.1109/redundancy68069.2025.11301555
 [research_redundancy_and_1963]: https://doi.org/10.1016/0026-2714(63)90208-7
 [research_redundancy_and_1963_b]: https://doi.org/10.1016/0026-2714(63)90356-1
 [research_reed_hiers_2021]: https://doi.org/10.2514/6.2021-1571
 [research_reedy_gorrell_2025]: https://doi.org/10.1115/gt2025-154181
 [research_reeve_2016]: https://doi.org/10.1177/0962280216631583
-[research_reeve_sultan_1994]: https://doi.org/10.1109/59.317589
 [research_refinement_of_2023]: https://doi.org/10.36652/0869-4931-2023-77-2-86-94
 [research_regenie_gatlin_1992]: https://doi.org/10.2514/6.1992-4121
 [research_regenievictoriaa_earlsmichael_1992]: https://ntrs.nasa.gov/citations/19920024795
 [research_regenievictoriaa_earlsmichael_1994]: https://ntrs.nasa.gov/citations/19940031461
 [research_regulator_with_2022]: https://doi.org/10.36652/0869-4931-2022-76-2-73-77
-[research_reichardt_weitkamp_1997]: https://doi.org/10.1364/orsa.1997.othc.1
 [research_reichstein_schopferer_2022]: https://doi.org/10.1109/icuas54217.2022.9836194
 [research_reid_rajagopal_1994]: https://doi.org/10.2514/3.46607
 [research_reigelsperger_hammett_1995]: https://doi.org/10.2514/6.1995-3249
@@ -27043,8 +24665,6 @@ computable in one line from the lift equation.
 [research_reinmann_adams_1993]: https://doi.org/10.2514/3.46297
 [research_reisenthel_1996]: https://doi.org/10.2514/6.1996-896
 [research_reist_zingg_2019]: https://doi.org/10.2514/1.c034703
-[research_reiter_2004]: https://doi.org/10.21236/ada424144
-[research_reiter_ganger_2006]: https://doi.org/10.21236/ada455860
 [research_reliability_growth_1987]: https://doi.org/10.1016/0026-2714(87)90527-0
 [research_remiger_grois_2024]: https://doi.org/10.1115/gt2024-122647
 [research_remiger_schwagerus_2023]: https://doi.org/10.2514/6.2023-3584
@@ -27063,7 +24683,6 @@ computable in one line from the lift equation.
 [research_rennie_jumper_1996]: https://doi.org/10.2514/3.47030
 [research_report_no_1927]: https://doi.org/10.1016/s0016-0032(27)92139-5
 [research_report_no_1935]: https://doi.org/10.1016/s0016-0032(35)90062-x
-[research_reppa_papadopoulos_2015]: https://doi.org/10.1109/tcst.2014.2363629
 [research_research_and_2022]: https://doi.org/10.47939/et.v3i2.102
 [research_research_and_2022_b]: https://doi.org/10.47939/et.v3i2.104
 [research_research_on_1969]: https://doi.org/10.1049/ep.1969.0186
@@ -27085,7 +24704,6 @@ computable in one line from the lift equation.
 [research_reutter_enders_2020]: https://doi.org/10.1115/gt2020-16201
 [research_review_of_2024]: https://doi.org/10.3901/jme.2024.04.050
 [research_reyer_ogg_1986]: https://doi.org/10.2514/6.1986-2599
-[research_reyesvillanueva_1990]: https://doi.org/10.21236/ada240379
 [research_rezaei_khosravi_2022]: https://doi.org/10.1109/sist54437.2022.9945765
 [research_rezaei_khosravi_2023]: https://doi.org/10.36909/jer.16725
 [research_rezaei_manfredi_2024]: https://doi.org/10.1109/icuas60882.2024.10557045
@@ -27096,7 +24714,6 @@ computable in one line from the lift equation.
 [research_riboldi_alessi_2026]: https://doi.org/10.2514/1.c038971
 [research_riccardi_mamino_2025]: https://doi.org/10.4050/sm_handling_2025-5298
 [research_ricciardi_minwalla_2016]: https://doi.org/10.2514/6.2016-1435
-[research_ricco_alshawi_2023]: https://doi.org/10.1080/00423114.2023.2251615
 [research_rice_1996]: https://doi.org/10.2514/6.1996-1774
 [research_rice_hazlwood_1994]: https://doi.org/10.2514/6.1994-2166
 [research_rice_locksley_2000]: https://doi.org/10.21236/ada375749
@@ -27133,14 +24750,11 @@ computable in one line from the lift equation.
 [research_roberts_smith_1966]: https://doi.org/10.21236/ad0635953
 [research_roberts_wagner_1973]: https://doi.org/10.21236/ad0762730
 [research_robertshaw_wynnjr_1989]: https://doi.org/10.2514/6.1989-1328
-[research_robertson_kelley_1989]: https://doi.org/10.1097/00005373-198903000-00006
 [research_robinson_1985]: https://doi.org/10.2514/6.1985-1974
 [research_robinson_blanchard_2003]: https://doi.org/10.21236/ada419763
 [research_robinson_green_2016]: https://doi.org/10.4050/f-0072-2016-11420
 [research_robot_efficiency_1987]: https://doi.org/10.1108/eb036478
-[research_rocha_antunes_2023]: https://doi.org/10.1177/14759217231204242
 [research_rochat_2023]: https://doi.org/10.3397/1/377134
-[research_rockingham_1922]: https://doi.org/10.1093/nq/s12-xi.224.97c
 [research_rockwell_2001]: https://doi.org/10.21236/ada402569
 [research_rodden_1989]: https://doi.org/10.2514/3.45842
 [research_rodden_1989_b]: https://doi.org/10.2514/3.45825
@@ -27150,7 +24764,6 @@ computable in one line from the lift equation.
 [research_rodin_1990]: https://doi.org/10.21236/ada227366
 [research_rodin_massoudamin_1992]: https://doi.org/10.1016/0898-1221(92)90217-6
 [research_rodrigues_creen_2026]: https://doi.org/10.1590/jatm.v18.1437
-[research_rodrigues_desouza_2016]: https://doi.org/10.1109/induscon.2016.7874538
 [research_rodrigues_grey_2017]: https://doi.org/10.2514/6.2017-3187
 [research_rodrigues_modanloujoubari_2024]: https://doi.org/10.23967/eccomas.2024.102
 [research_rodriguez_1984]: https://doi.org/10.21236/ada160413
@@ -27192,17 +24805,14 @@ computable in one line from the lift equation.
 [research_roncolini_quaranta_2024]: https://doi.org/10.4050/f-0080-2024-1213
 [research_ronflenadaud_2009]: https://doi.org/10.21236/ada512960
 [research_rong_yang_2024]: https://doi.org/10.1007/978-981-97-1541-1_15
-[research_ronghu_feigao_2016]: https://doi.org/10.1109/imcec.2016.7867519
 [research_ronne_dubuis_2024]: https://doi.org/10.1080/00423114.2024.2387043
 [research_rooney_chung_1982]: https://doi.org/10.2514/6.1982-1524
 [research_roos_1996]: https://doi.org/10.2514/6.1996-543
 [research_roos_1996_b]: https://doi.org/10.2514/6.1996-1951
 [research_rosa_sanneman_1974]: https://doi.org/10.21236/ad0783690
-[research_rosales_malanowska_2024]: https://doi.org/10.1145/3664476.3670934
 [research_rosariogabriel_cortes_2018]: https://doi.org/10.1109/icuas.2018.8453350
 [research_roscoe_eisele_1975]: https://doi.org/10.21236/ada022459
 [research_rose_miller_1988]: https://doi.org/10.2514/6.1988-480
-[research_rose_motoyama_1979]: https://doi.org/10.21236/ada069078
 [research_rose_pittman_1989]: https://doi.org/10.2514/6.1989-343
 [research_rose_pittman_1993]: https://doi.org/10.2514/3.56894
 [research_roseberry_2025]: https://doi.org/10.12968/s1478-2774(25)50035-2
@@ -27213,7 +24823,6 @@ computable in one line from the lift equation.
 [research_rosily_dikshit_2021]: https://doi.org/10.1063/5.0016292
 [research_roskam_1965]: https://doi.org/10.2514/3.43619
 [research_roskam_1973]: https://doi.org/10.2514/6.1973-787
-[research_rosmin_watson_2013]: https://doi.org/10.1109/iccep.2013.6587027
 [research_ross_1979]: https://doi.org/10.1016/0376-0421(77)90011-2
 [research_ross_1980]: https://doi.org/10.2514/3.44688
 [research_ross_1983]: https://doi.org/10.2514/3.48199
@@ -27229,7 +24838,6 @@ computable in one line from the lift equation.
 [research_rossiter_1997]: https://doi.org/10.1016/s0947-3580(97)70087-6
 [research_rossow_1990]: https://doi.org/10.2514/3.45897
 [research_rostad_rash_2003]: https://doi.org/10.21236/ada414825
-[research_rostamzadehrenani_rostamzadehrenani_2023]: https://doi.org/10.1016/j.oceaneng.2023.114932
 [research_rostkowski_panesi_2022]: https://doi.org/10.2514/6.2022-2360
 [research_rotondo_ponsart_2015]: https://doi.org/10.1016/j.arcontrol.2015.03.006
 [research_rotorcraft_handling_2011]: https://doi.org/10.1049/pbce074e_ch11
@@ -27241,17 +24849,14 @@ computable in one line from the lift equation.
 [research_roy_1993]: https://doi.org/10.1080/00949659308811513
 [research_roy_ajeigbe_2026]: https://doi.org/10.2514/6.2026-4538
 [research_roy_alamin_2026]: https://doi.org/10.2514/6.2026-1777
-[research_roy_basak_2019]: https://doi.org/10.1049/iet-gtd.2019.0021
 [research_roy_biswas_2023]: https://doi.org/10.18311/jmmf/2023/35861
 [research_roy_khekare_2026]: https://doi.org/10.1038/s41598-026-64427-6
 [research_roy_rai_2019]: https://doi.org/10.12783/shm2019/32285
 [research_roza_vanderploeg_2017]: https://doi.org/10.2514/6.2017-1756
 [research_rozema_kok_2020]: https://doi.org/10.1016/j.jcp.2019.109182
-[research_rozi_thanopoulos_2018]: https://doi.org/10.5937/fizkul1801096r
 [research_rozic_vrdoljak_2025]: https://doi.org/10.3390/s25144476
 [research_ruan_duan_2022]: https://doi.org/10.1109/jas.2022.105803
 [research_ruan_xu_2023]: https://doi.org/10.1016/j.csite.2023.103558
-[research_rubin_arogeti_2015]: https://doi.org/10.1080/00423114.2015.1046461
 [research_rubino_rubino_2021]: https://doi.org/10.3390/su13158580
 [research_rubiosierra_delgado_2022]: https://doi.org/10.1061/(asce)as.1943-5525.0001399
 [research_rucci_slingerland_2023]: https://doi.org/10.4050/f-0079-2023-18176
@@ -27264,7 +24869,6 @@ computable in one line from the lift equation.
 [research_ruff_1985]: https://doi.org/10.21236/ada162226
 [research_ruggles_kelman_2015]: https://doi.org/10.1016/j.combustflame.2014.07.016
 [research_rugh_1990]: https://doi.org/10.23919/acc.1990.4791022
-[research_rugsell_bellec_1981]: https://doi.org/10.1109/oceans.1981.1151656
 [research_ruiz_murrietacid_2016]: https://doi.org/10.1080/00207179.2016.1151078
 [research_rullan_vlachos_2003]: https://doi.org/10.2514/6.2003-62
 [research_rullan_vlachos_2004]: https://doi.org/10.2514/6.2004-226
@@ -27272,27 +24876,20 @@ computable in one line from the lift equation.
 [research_rusak_granata_2015]: https://doi.org/10.1017/jfm.2015.276
 [research_ruseno_safi_2026]: https://doi.org/10.1109/sose69681.2026.11622403
 [research_russell_werner_2022]: https://doi.org/10.2514/6.2022-0158
-[research_russo_strano_2015]: https://doi.org/10.4271/2015-24-2529
 [research_russo_sugimura_1996]: https://doi.org/10.1016/0011-2275(96)00034-3
 [research_rustenburg_1972]: https://doi.org/10.21236/ada004456
 [research_ruther_strohal_2022]: https://doi.org/10.5220/0011302800003274
-[research_ruwanthika_katsura_2020]: https://doi.org/10.1016/j.precisioneng.2020.04.015
 [research_ryan_downing_1994]: https://doi.org/10.2514/3.21332
 [research_ryan_downing_1995]: https://doi.org/10.2514/3.46784
 [research_ryaniii_downing_1992]: https://doi.org/10.2514/6.1992-4488
 [research_ryaniii_downing_1993]: https://doi.org/10.2514/6.1993-3646
 [research_rybus_seweryn_2016]: https://doi.org/10.2514/6.2016-0885
-[research_rychener_1977]: https://doi.org/10.21236/ada043491
 [research_rydblom_thornberg_2016]: https://doi.org/10.1109/ist.2016.7738200
 [research_ryerson_1988]: https://doi.org/10.21236/ada200287
-[research_ryerson_gow_2000]: https://doi.org/10.21236/ada381910
 [research_ryffel_muehlethaler_2019]: https://doi.org/10.1080/00140139.2018.1501093
 [research_rzepka_1982]: https://doi.org/10.21236/ada124429
-[research_s_2020]: https://doi.org/10.5373/jardcs/v12sp4/20201477
 [research_s_c_2025]: https://doi.org/10.1108/aeat-08-2024-0241
-[research_sabahi_tabatabaei_2024]: https://doi.org/10.1177/14680874241265978
 [research_sabino_grilo_2018]: https://doi.org/10.1145/3213526.3213535
-[research_sabir_ibrir_2018]: https://doi.org/10.1080/00051144.2018.1531963
 [research_sable_2023]: https://doi.org/10.4271/2023-01-1395
 [research_sabordo_aboutanios_2015]: https://doi.org/10.1117/12.2176802
 [research_sachan_singh_2025]: https://doi.org/10.1109/space65882.2025.11171193
@@ -27309,7 +24906,6 @@ computable in one line from the lift equation.
 [research_saetti_rogers_2020]: https://doi.org/10.4050/sm_2020_hq-916
 [research_saetti_rogers_2020_b]: https://doi.org/10.4050/f-0076-2020-16389
 [research_saetti_rogers_2024]: https://doi.org/10.4050/jahs.69.042007
-[research_saez_crespo_1997]: https://doi.org/10.1016/s0967-0661(97)00089-0
 [research_safety_behavior_2021]: https://doi.org/10.33140/amlai.02.01.06
 [research_safinaz_mohammed_2023]: https://doi.org/10.3390/engproc2023029003
 [research_safonov_1983]: https://doi.org/10.1109/cdc.1983.269807
@@ -27331,21 +24927,15 @@ computable in one line from the lift equation.
 [research_sahu_gruenwald_2020]: https://doi.org/10.2514/6.2020-2775
 [research_sahu_gruenwald_2022]: https://doi.org/10.21236/ad1167349
 [research_sahu_heavey_2000]: https://doi.org/10.21236/ada384925
-[research_sahunalu_wissler_2026]: https://doi.org/10.2514/6.2026-112794
 [research_said_mat_2015]: https://doi.org/10.2514/6.2015-1229
 [research_saied_ouda_2018]: https://doi.org/10.1109/icenco.2018.8636129
-[research_saikia_mahanta_2016]: https://doi.org/10.1109/indicon.2016.7838915
 [research_saikia_mahanta_2016_b]: https://doi.org/10.1109/icpeices.2016.7853059
-[research_saikia_mahanta_2017]: https://doi.org/10.1109/indiancc.2017.7846504
 [research_saisuryateja_dwivedi_2022]: https://doi.org/10.47893/gret.2022.1053
-[research_saito_1983]: https://doi.org/10.1080/00423118308968734
 [research_sajjad_babar_2021]: https://doi.org/10.1109/icase54940.2021.9904264
 [research_sajjadikia_farregabernet_2007]: https://doi.org/10.2514/6.2007-6416
-[research_sakaki_ghassemi_2017]: https://doi.org/10.12691/ajme-5-4-8
 [research_sakata_maruyama_2018]: https://doi.org/10.1299/jsmecs.2018.56.712
 [research_sakthivel_venkatesan_2017]: https://doi.org/10.2514/1.c034226
 [research_salagame_pandya_2025]: https://doi.org/10.1109/lcsys.2025.3589412
-[research_salahalyassin_2015]: https://doi.org/10.21275/sub157826
 [research_salahudden_agrawal_2025]: https://doi.org/10.1007/s42405-025-01045-y
 [research_salahudden_chhetri_2026]: https://doi.org/10.2514/6.2026-2654.c1
 [research_salahudden_chhetri_2026_b]: https://doi.org/10.2514/6.2026-2654
@@ -27361,11 +24951,8 @@ computable in one line from the lift equation.
 [research_salehian_khan_2022]: https://doi.org/10.2514/6.2022-0939
 [research_salehian_khan_2024]: https://doi.org/10.2514/6.2024-0301
 [research_salehian_khan_2025]: https://doi.org/10.2514/6.2025-2405
-[research_salemnia_boldaji_2024]: https://doi.org/10.3390/fluids9090205
-[research_sales_kwok_2020]: https://doi.org/10.1115/msec2020-8413
 [research_salgueiro_hansman_2025]: https://doi.org/10.2514/1.d0370
 [research_salgueiro_huynh_2022]: https://doi.org/10.2514/6.2022-1307
-[research_salichon_guy_1994]: https://doi.org/10.1051/animres:19940210
 [research_salikuddin_brown_1985]: https://doi.org/10.2514/6.1985-3083
 [research_salikuddin_brown_1987]: https://doi.org/10.2514/3.45410
 [research_salordlosantos_sanchezarriaga_2015]: https://doi.org/10.2514/1.c032825
@@ -27402,10 +24989,7 @@ computable in one line from the lift equation.
 [research_sarathy_murthy_1993_b]: https://doi.org/10.2514/6.1993-3618
 [research_sargent_kang_1992]: https://doi.org/10.1287/opre.40.5.898
 [research_sariyildiz_mutlu_2018]: https://doi.org/10.1016/j.ejcon.2018.01.002
-[research_sarkar_1986]: https://doi.org/10.1016/0375-9601(86)90020-4
 [research_sarojini_solano_2022]: https://doi.org/10.2514/6.2022-1026
-[research_sartipizadeh_harirchi_2017]: https://doi.org/10.1109/greentech.2017.39
-[research_sarwat_2018]: https://doi.org/10.26808/rs.ca.i8v1.01
 [research_sasaki_tanaka_2023]: https://doi.org/10.3397/in_2023_0727
 [research_sasamori_koga_2022]: https://doi.org/10.2514/1.c036409
 [research_sasanapuri_2015]: https://doi.org/10.2514/6.2015-2953
@@ -27414,15 +24998,11 @@ computable in one line from the lift equation.
 [research_sato_2018_b]: https://doi.org/10.1109/tcst.2017.2692750
 [research_sato_2018_c]: https://doi.org/10.1299/jsmemecj.2018.s0520303
 [research_sato_2021]: https://doi.org/10.1109/med51440.2021.9480174
-[research_sato_kim_2018]: https://doi.org/10.1109/oceanskobe.2018.8558827
 [research_sato_nishida_2016]: https://doi.org/10.1155/2016/1602043
 [research_sato_takahashi_2018]: https://doi.org/10.1299/jsmemecj.2018.s0520103
 [research_satrianto_firmanto_2023]: https://doi.org/10.54706/senastindo.v5.2023.237
-[research_satzoda_trivedi_2016]: https://doi.org/10.1109/ivs.2016.7535513
 [research_saugen_adler_1991]: https://doi.org/10.2514/6.1991-2818
 [research_savelev_neretin_2019]: https://doi.org/10.1109/iccairo47923.2019.00012
-[research_saveleva_2015]: https://doi.org/10.15535/339
-[research_sawase_1999]: https://doi.org/10.1016/s0389-4304(98)00070-8
 [research_sawyerelliott_peck_2019]: https://doi.org/10.1109/aero.2019.8742213
 [research_saxena_faruque_2016]: https://doi.org/10.2514/6.2016-3712
 [research_sayyed_konar_2025]: https://doi.org/10.1109/icc69100.2025.11372428
@@ -27435,7 +25015,6 @@ computable in one line from the lift equation.
 [research_schafer_cooper_2015]: https://doi.org/10.4050/f-0071-2015-10282
 [research_schafer_garcia_2018]: https://doi.org/10.1016/j.cor.2018.02.005
 [research_schaff_prazenica_2025]: https://doi.org/10.2514/6.2025-0347
-[research_schappler_ortmaier_2021]: https://doi.org/10.5220/0010621100002994
 [research_scheaua_ramazanuly_2025]: https://doi.org/10.3390/app151810117
 [research_scheffe_1944]: https://doi.org/10.2307/2334116
 [research_scherz_tucker_1985]: https://doi.org/10.2514/6.1985-1860
@@ -27485,19 +25064,14 @@ computable in one line from the lift equation.
 [research_schumacher_1952]: https://doi.org/10.21236/ada075866
 [research_schumacher_khargonekar_1998]: https://doi.org/10.2514/2.4248
 [research_schuster_1995]: https://doi.org/10.2514/3.46686
-[research_schuurman_weenink_1990]: https://doi.org/10.1088/0741-3335/32/12/005
 [research_schwagerus_remiger_2023]: https://doi.org/10.2514/6.2023-3583
 [research_schwagerus_remiger_2025]: https://doi.org/10.2514/6.2025-3334
 [research_schwagerus_stossel_2023]: https://doi.org/10.1007/s13272-023-00677-8
 [research_schwagerus_stossel_2026]: https://doi.org/10.2514/6.2026-2881
-[research_schwammberger_2021]: https://doi.org/10.1109/rew53955.2021.00035
 [research_schwanz_1972]: https://doi.org/10.21236/ada006391
-[research_schwartz_siebenrock_2019]: https://doi.org/10.1016/j.ifacol.2019.08.065
 [research_schwartz_wray_1969]: https://doi.org/10.21236/ad0864071
-[research_schweers_wallentowitz_1996]: https://doi.org/10.1080/00423119608969305
 [research_schweiger_weiss_1996]: https://doi.org/10.1017/s000192400006704x
 [research_schwithal_wallace_2025]: https://doi.org/10.2514/6.2025-1825
-[research_sciacca_ionescu_2025]: https://doi.org/10.1007/s10439-025-03848-2
 [research_scigliano_desimone_2023]: https://doi.org/10.1115/imece2023-113298
 [research_scordamaglia_mattei_2025]: https://doi.org/10.1109/ojcsys.2025.3619810
 [research_scorletti_ghaoui_1998]: https://doi.org/10.1002/(sici)1099-1239(199808)8:10<845::aid-rnc350>3.0.co;2-i
@@ -27546,7 +25120,6 @@ computable in one line from the lift equation.
 [research_seshadri_krishnamurthy_2017]: https://doi.org/10.2514/6.2017-1675
 [research_setiawarman_sasongko_2026]: https://doi.org/10.1142/s2737480726400078
 [research_setoguchi_kanazaki_2020]: https://doi.org/10.2514/6.2020-0534
-[research_seyedalipour_gharehpetian_2016]: https://doi.org/10.1109/epdc.2016.7514811
 [research_seyedtabaii_delavari_2018]: https://doi.org/10.1177/1756829318771059
 [research_seyoungyoon_zonglilin_2013]: https://doi.org/10.1109/acc.2013.6579958
 [research_sha_wang_2017]: https://doi.org/10.1088/1742-6596/822/1/012053
@@ -27554,10 +25127,8 @@ computable in one line from the lift equation.
 [research_shafermf_smithre_1983]: https://ntrs.nasa.gov/citations/19830060718
 [research_shafermf_smithre_1984]: https://ntrs.nasa.gov/citations/19840008145
 [research_shafiei_shenton_1999]: https://doi.org/10.23919/ecc.1999.7099643
-[research_shah_2026]: https://doi.org/10.20474/japs-12.2.4
 [research_shah_ahmed_2023]: https://doi.org/10.2514/6.2023-1982
 [research_shah_granda_1998]: https://doi.org/10.2514/6.1998-4448
-[research_shah_hong_2017]: https://doi.org/10.1109/ascc.2017.8287555
 [research_shah_kosut_1990]: https://doi.org/10.23919/acc.1990.4790693
 [research_shah_tao_2024]: https://doi.org/10.1109/coa58979.2024.10723589
 [research_shahjahan_ahuja_2026]: https://doi.org/10.2514/6.2026-4665
@@ -27579,12 +25150,8 @@ computable in one line from the lift equation.
 [research_shamma_athans_1991]: https://doi.org/10.23919/acc.1991.4791421
 [research_shamstaleghani_ghajar_2024]: https://doi.org/10.3389/fmech.2024.1355711
 [research_shandor_walker_1962]: https://doi.org/10.21236/ad0406683
-[research_shang_2019]: https://doi.org/10.1109/issrew.2019.00054
-[research_shang_chen_2019]: https://doi.org/10.23919/acc.2019.8814692
-[research_shang_wu_2019]: https://doi.org/10.1145/3306309.3306336
 [research_shanhai_zhong_2016]: https://doi.org/10.1109/ccdc.2016.7532025
 [research_shankar_l_2023]: https://doi.org/10.18090/samriddhi.v15i03.06
-[research_shanmugam_munusamy_2024]: https://doi.org/10.1109/icei64305.2024.10912173
 [research_shao_cui_2019]: https://doi.org/10.1109/eitce47263.2019.9095102
 [research_shao_hristuvarsakelis_2004]: https://doi.org/10.21236/ada439266
 [research_shao_hristuvarsakelis_2005]: https://doi.org/10.21236/ada439268
@@ -27597,15 +25164,11 @@ computable in one line from the lift equation.
 [research_sharf_woo_2016]: https://doi.org/10.1109/aero.2016.7500800
 [research_sharifi_badakaya_2022]: https://doi.org/10.1007/s13160-022-00501-6
 [research_sharifkhodaei_thiene_2015]: https://doi.org/10.12783/shm2015/247
-[research_sharifnia_caramanis_1991]: https://doi.org/10.1007/bf01805561
-[research_sharifnia_tindemans_2024]: https://doi.org/10.1109/sest61601.2024.10694674
 [research_sharjad_bijo_2022]: https://doi.org/10.1615/ihmtc-2021.3030
 [research_sharkey_hennessy_2000]: https://doi.org/10.21236/ada383181
 [research_sharma_agrawal_2025]: https://doi.org/10.1115/1.4068425
 [research_sharma_naimuddin_2016]: https://doi.org/10.1109/aero.2016.7500662
 [research_sharma_sakthivel_2025]: https://doi.org/10.1016/j.cnsns.2025.108887
-[research_sharma_singh_2021]: https://doi.org/10.1109/gucon50781.2021.9573641
-[research_sharma_singh_2023]: https://doi.org/10.1109/tia.2023.3258426
 [research_sharpe_hansman_2024]: https://doi.org/10.2514/6.2024-1306
 [research_shayak_girdhar_2024]: https://doi.org/10.3389/fpace.2024.1308872
 [research_shayan_vankampen_2021]: https://doi.org/10.2514/6.2021-0884
@@ -27623,7 +25186,6 @@ computable in one line from the lift equation.
 [research_shen_1998]: https://doi.org/10.1080/10543409808835254
 [research_shen_alonso_2025]: https://doi.org/10.2514/6.2025-2360
 [research_shen_alonso_2026]: https://doi.org/10.2514/6.2026-0686
-[research_shen_cao_2026]: https://doi.org/10.1016/j.knosys.2025.114772
 [research_shen_casalino_2018]: https://doi.org/10.2514/1.g003127
 [research_shen_chang_2022]: https://doi.org/10.1088/1742-6596/2338/1/012092
 [research_shen_chang_2022_b]: https://doi.org/10.1117/12.2653499
@@ -27663,7 +25225,6 @@ computable in one line from the lift equation.
 [research_shi_liang_2018_b]: https://doi.org/10.1109/gncc42960.2018.9018858
 [research_shi_lin_2018]: https://doi.org/10.23919/chicc.2018.8482685
 [research_shi_lyu_2019]: https://doi.org/10.1109/access.2019.2938013
-[research_shi_ma_2025]: https://doi.org/10.1080/00423114.2025.2562944
 [research_shi_tan_2018]: https://doi.org/10.1360/n092017-00215
 [research_shi_tu_2015]: https://doi.org/10.1115/gt2015-42889
 [research_shi_wang_2019]: https://doi.org/10.2514/6.2019-1686
@@ -27675,13 +25236,11 @@ computable in one line from the lift equation.
 [research_shi_zeng_2024]: https://doi.org/10.1109/icesep62218.2024.10651729
 [research_shi_zhu_2021]: https://doi.org/10.23919/ecc54610.2021.9654988
 [research_shiao_chamis_1993]: https://doi.org/10.2514/6.1993-1679
-[research_shibahata_shimada_1993]: https://doi.org/10.1080/00423119308969044
 [research_shibanovgp_krasnovrv_2026]: https://doi.org/10.36652/0869-4931-2026-80-3-124-128
 [research_shibata_nakao_1987]: https://doi.org/10.2514/6.1987-2587
 [research_shibata_ohmiya_1988]: https://doi.org/10.2514/6.1988-3882
 [research_shiffler_adams_1987]: https://doi.org/10.2307/3151643
 [research_shigemi_1993]: https://doi.org/10.1007/978-3-642-52460-8_6
-[research_shigunov_2019]: https://doi.org/10.5957/josr.09180048
 [research_shimada_kishimoto_2024]: https://doi.org/10.1109/sensors60989.2024.10785040
 [research_shimmin_russell_2015]: https://doi.org/10.4271/2015-01-2415
 [research_shin_kim_2015]: https://doi.org/10.2514/6.2015-2733
@@ -27693,7 +25252,6 @@ computable in one line from the lift equation.
 [research_shinar_glizer_1999]: https://doi.org/10.1142/s0219198999000153
 [research_shinar_guelman_1989]: https://doi.org/10.1016/0898-1221(89)90122-3
 [research_shinar_siegel_1989]: https://doi.org/10.2514/6.1989-3630
-[research_shirayanagi_1990]: https://doi.org/10.1145/96877.96906
 [research_shirokov_elizarova_2026]: https://doi.org/10.1134/s001546282660447x
 [research_shishkina_1987]: https://doi.org/10.1007/bf01068804
 [research_shivam_verma_2019]: https://doi.org/10.13111/2066-8201.2019.11.2.14
@@ -27724,8 +25282,6 @@ computable in one line from the lift equation.
 [research_shubert_sizoo_2026]: https://doi.org/10.4050/jahs.71.042008
 [research_shue_sawan_1996]: https://doi.org/10.2514/6.1996-3779
 [research_shufeldt_layton_1972]: https://doi.org/10.2514/3.59032
-[research_shui_duan_2018]: https://doi.org/10.36001/phmconf.2018.v10i1.538
-[research_shukla_2018]: https://doi.org/10.4271/2018-28-0078
 [research_shukla_benyamen_2025]: https://doi.org/10.1109/tcst.2024.3516383
 [research_shukla_komerath_2018]: https://doi.org/10.3390/drones2040043
 [research_shukla_lal_2020]: https://doi.org/10.2514/6.2020-3093
@@ -27742,7 +25298,6 @@ computable in one line from the lift equation.
 [research_sid_2015]: https://doi.org/10.1016/j.isatra.2014.07.005
 [research_siddhardha_2019]: https://doi.org/10.1016/j.ast.2019.01.014
 [research_siddiqi_abraham_1988]: https://doi.org/10.2514/6.1988-2170
-[research_siddiqui_agelinchaab_2021]: https://doi.org/10.32393/csme.2021.139
 [research_sideris_edegaston_1986]: https://doi.org/10.1109/cdc.1986.267458
 [research_sideris_pena_1988]: https://doi.org/10.23919/acc.1988.4789952
 [research_sidharth_dwivedi_2026]: https://doi.org/10.2514/6.2026-4301
@@ -27757,7 +25312,6 @@ computable in one line from the lift equation.
 [research_sim_lee_2015]: https://doi.org/10.12812/ksms.2015.17.2.89
 [research_sim_murray_1994]: https://doi.org/10.2514/3.46617
 [research_simelane_magoro_2023]: https://doi.org/10.1109/saupec57889.2023.10057901
-[research_simic_golubovic_1990]: https://doi.org/10.4271/901733
 [research_simkins_breyer_1989]: https://doi.org/10.2514/6.1989-2146
 [research_simmons_2022]: https://doi.org/10.2514/6.2022-2409
 [research_simmons_2023]: https://doi.org/10.2514/1.c036896
@@ -27771,9 +25325,7 @@ computable in one line from the lift equation.
 [research_simon_bianco_2024]: https://doi.org/10.1115/1.4063715
 [research_simon_blake_1993]: https://doi.org/10.2514/6.1993-4000
 [research_simon_blake_1999]: https://doi.org/10.2514/6.1999-4258
-[research_simon_gallardo_2010]: https://doi.org/10.21236/ada539263
 [research_simon_harkegard_2017]: https://doi.org/10.2514/6.2017-1257
-[research_simon_martinez_1986]: https://doi.org/10.1016/0141-3910(86)90084-4
 [research_simon_williams_2023]: https://doi.org/10.2514/6.2023-3565
 [research_simon_williams_2023_b]: https://doi.org/10.2514/6.2023-3565.c1
 [research_simon_williams_2024]: https://doi.org/10.2514/6.2024-0491
@@ -27804,8 +25356,6 @@ computable in one line from the lift equation.
 [research_singh_ghosh_2023]: https://doi.org/10.61653/joast.v59i2.2007.567
 [research_singh_jategaonkar_1996]: https://doi.org/10.2514/3.46993
 [research_singh_lambeth_2024]: https://doi.org/10.1109/lcsys.2023.3342094
-[research_singh_maiti_2020]: https://doi.org/10.1016/j.ress.2020.107041
-[research_singh_maiti_2022]: https://doi.org/10.1016/j.jlp.2022.104756
 [research_singh_scholz_2018]: https://doi.org/10.2514/6.2018-4023
 [research_singh_verma_2022]: https://doi.org/10.1109/icpc2t53885.2022.9776784
 [research_singh_willcox_2016]: https://doi.org/10.2514/6.2016-4124
@@ -27824,9 +25374,6 @@ computable in one line from the lift equation.
 [research_sitaram_suresh_2023]: https://doi.org/10.61653/joast.v72i4.2020.191
 [research_sitz_nelson_1997]: https://doi.org/10.2514/2.2174
 [research_sivanagaraju_rathore_2018]: https://doi.org/10.1109/apec.2018.8341210
-[research_sivashankar_ulsoy_1996]: https://doi.org/10.1115/imece1996-0318
-[research_sivashankar_ulsoy_1998]: https://doi.org/10.1115/1.2802418
-[research_skorupski_uchronski_2015]: https://doi.org/10.1016/j.ssci.2015.06.020
 [research_skow_hamilton_1985]: https://doi.org/10.2514/6.1985-1779
 [research_skow_moore_1982]: https://doi.org/10.2514/3.61562
 [research_skowronski_1988]: https://doi.org/10.2514/6.1988-4157
@@ -27836,7 +25383,6 @@ computable in one line from the lift equation.
 [research_slater_1987]: https://doi.org/10.2514/6.1987-2406
 [research_slater_hu_1989]: https://doi.org/10.2514/6.1989-3615
 [research_slihta_sestakovs_2016]: https://doi.org/10.1515/tae-2016-0002
-[research_sloat_1975]: https://doi.org/10.2118/5341-ms
 [research_slongo_moraes_2020]: https://doi.org/10.5028/jatm.cab.1150
 [research_smart_1991]: https://doi.org/10.2514/3.46007
 [research_smith_1966]: https://doi.org/10.2514/3.43700
@@ -27857,7 +25403,6 @@ computable in one line from the lift equation.
 [research_smith_patel_1995]: https://doi.org/10.2514/6.1995-3452
 [research_smith_pellicano_1992]: https://doi.org/10.2514/6.1992-4080
 [research_smith_schnell_2026]: https://doi.org/10.1177/15553434251414527
-[research_smith_slade_1993]: https://doi.org/10.1109/61.252640
 [research_smith_sloane_2021]: https://doi.org/10.2514/1.b38161
 [research_smith_valasek_1999]: https://doi.org/10.2514/6.1999-4093
 [research_smith_valasek_2000]: https://doi.org/10.2514/6.2000-4313
@@ -27875,7 +25420,6 @@ computable in one line from the lift equation.
 [research_snellsa_hessra_1997]: https://ntrs.nasa.gov/citations/19980021298
 [research_snow_1990]: https://doi.org/10.4271/901848
 [research_snyder_prazenica_2015]: https://doi.org/10.2514/6.2015-0613
-[research_so_2016]: https://doi.org/10.9787/kjbs.2016.48.2.102
 [research_sobel_1982]: https://doi.org/10.1109/cdc.1982.268384
 [research_sobel_2015]: https://doi.org/10.21236/ad1018985
 [research_sobel_groll_1966]: https://doi.org/10.2307/1266636
@@ -27898,11 +25442,9 @@ computable in one line from the lift equation.
 [research_solies_1994]: https://doi.org/10.2514/3.46634
 [research_solies_1995]: https://doi.org/10.2514/6.1995-3912
 [research_solis_leweke_2026]: https://doi.org/10.1017/jfm.2026.11657
-[research_solnyshkin_2024]: https://doi.org/10.31776/rtcj.12206
 [research_solomon_davison_1986]: https://doi.org/10.23919/acc.1986.4788965
 [research_soltani_mostoufi_2018]: https://doi.org/10.2514/6.2018-4457
 [research_soltani_mostoufi_2018_b]: https://doi.org/10.2514/6.2018-4457.c1
-[research_somasundaram_mock_2025]: https://doi.org/10.1016/j.foodcont.2024.110802
 [research_son_pipeleers_2015]: https://doi.org/10.1109/acc.2015.7172100
 [research_son_sa_2015]: https://doi.org/10.1007/s12206-015-0720-y
 [research_son_sa_2015_b]: https://doi.org/10.6112/kscfe.2015.20.2.073
@@ -27917,7 +25459,6 @@ computable in one line from the lift equation.
 [research_song_whidborne_2018]: https://doi.org/10.1109/control.2018.8516783
 [research_song_yan_2021]: https://doi.org/10.1016/j.carbon.2021.07.012
 [research_song_yang_2016]: https://doi.org/10.1061/(asce)as.1943-5525.0000625
-[research_song_yuan_2023]: https://doi.org/10.1063/5.0174071
 [research_song_zhang_2023]: https://doi.org/10.1007/s11071-023-08955-0
 [research_sorrentino_romano_2019]: https://doi.org/10.12783/shm2019/32180
 [research_sotello_penner_1992]: https://doi.org/10.21236/ada252786
@@ -27937,7 +25478,6 @@ computable in one line from the lift equation.
 [research_sparks_buffington_1994]: https://doi.org/10.1080/00207179408923110
 [research_sparks_sparks_1997]: https://doi.org/10.2514/6.1997-3636
 [research_spearmanmleroy_drivercornelius_1959]: https://ntrs.nasa.gov/citations/19980228222
-[research_spechtriemenschneider_schneider_2020]: https://doi.org/10.1093/grurint/ikz036
 [research_spencer_1947]: https://doi.org/10.3189/s0022143000007632
 [research_spencer_gorrell_2016]: https://doi.org/10.2514/6.2016-5058
 [research_spencer_he_2025]: https://doi.org/10.1115/ssdm2025-152508
@@ -27951,7 +25491,6 @@ computable in one line from the lift equation.
 [research_spitzer_rumsey_1972]: https://doi.org/10.2514/6.1972-762
 [research_splichal_2019]: https://doi.org/10.13164/conf.read.2018.3
 [research_spravka_jorris_2015]: https://doi.org/10.2514/6.2015-3224
-[research_sravani_venkata_2023]: https://doi.org/10.3390/s23146633
 [research_sreeram_agathoklis_1991]: https://doi.org/10.1049/ip-d.1991.0020
 [research_srinathkumar_2015]: https://doi.org/10.4050/jahs.60.022010
 [research_srinathkumar_madhuranath_1993]: https://doi.org/10.2514/6.1993-3620
@@ -27977,7 +25516,6 @@ computable in one line from the lift equation.
 [research_stalfordharold_1990]: https://ntrs.nasa.gov/citations/19910000734
 [research_stallard_1990]: https://doi.org/10.2514/6.1990-3343
 [research_stam_devisser_2025]: https://doi.org/10.2514/6.2025-0082
-[research_standridge_tsai_1992]: https://doi.org/10.1177/003754979205900606
 [research_stanford_2020]: https://doi.org/10.2514/6.2020-0448
 [research_stange_1959]: https://doi.org/10.21236/ada955359
 [research_stankov_bedard_1994]: https://doi.org/10.2514/3.46458
@@ -27987,7 +25525,6 @@ computable in one line from the lift equation.
 [research_staples_nagati_1990]: https://doi.org/10.2514/6.1990-3079
 [research_starikovskiy_2017]: https://doi.org/10.2514/6.2017-1342
 [research_starikovskiy_williams_2017]: https://doi.org/10.2514/6.2017-3342
-[research_state_regulation_1931]: https://doi.org/10.2307/1114515
 [research_static_aeroelastic_1996]: https://doi.org/10.2514/5.9781600862465.0223.0231
 [research_stauder_yigit_2026]: https://doi.org/10.1109/icuas69441.2026.11598729
 [research_staufenbiel_schlichting_1988]: https://doi.org/10.2514/3.45562
@@ -27997,7 +25534,6 @@ computable in one line from the lift equation.
 [research_steiger_wilson_1999]: https://doi.org/10.1145/324138.324278
 [research_steinberg_king_2018]: https://doi.org/10.2514/6.2018-3689
 [research_steinberg_page_1998]: https://doi.org/10.21236/ada350986
-[research_steinmetz_1962]: https://doi.org/10.21236/ad0273509
 [research_steinweg_hornung_2020]: https://doi.org/10.2514/6.2020-1453
 [research_stengel_1980]: https://doi.org/10.2514/3.55959
 [research_stengel_1992]: https://doi.org/10.2514/3.20911
@@ -28016,7 +25552,6 @@ computable in one line from the lift equation.
 [research_sterpu_mariuta_2025]: https://doi.org/10.3390/app15147720
 [research_stevens_1990]: https://doi.org/10.1109/cdc.1990.203642
 [research_stevenson_1991]: https://doi.org/10.2514/6.1991-2878
-[research_stevinson_lomuscio_2024]: https://doi.org/10.1145/3677052.3698678
 [research_stewart_dominick_1975]: https://doi.org/10.21236/ada018420
 [research_stewart_dooher_2025]: https://doi.org/10.4050/f-0081-2025-0037
 [research_stewart_shuck_1990]: https://doi.org/10.2514/6.1990-1321
@@ -28038,13 +25573,11 @@ computable in one line from the lift equation.
 [research_straubjr_1973]: https://doi.org/10.2514/6.1973-799
 [research_streeter_2020]: https://doi.org/10.1109/lsens.2020.3028359
 [research_streiff_1953]: https://doi.org/10.21236/ad0041742
-[research_streit_finnie_1980]: https://doi.org/10.1007/bf02324422
 [research_striz_eastep_1991]: https://doi.org/10.2514/6.1991-1100
 [research_strome_1969]: https://doi.org/10.21236/ad0865977
 [research_strykowski_krothapalli_1996]: https://doi.org/10.2514/3.13395
 [research_stuart_1960]: https://doi.org/10.2514/8.8423
 [research_stubbs_mehta_2026]: https://doi.org/10.2514/6.2026-2152
-[research_study_of_2023]: https://doi.org/10.36652/10.36652/1684-1298-2023-8-3-8
 [research_study_on_2022]: https://doi.org/10.47939/et.v3i2.103
 [research_study_on_2023]: https://doi.org/10.47176/jafm.16.04.1566
 [research_study_on_2023_b]: https://doi.org/10.25236/ijfet.2023.051214
@@ -28056,27 +25589,20 @@ computable in one line from the lift equation.
 [research_su_hu_2023]: https://doi.org/10.1109/access.2023.3281008
 [research_su_kong_2026]: https://doi.org/10.1177/14759217261426251
 [research_su_li_2018]: https://doi.org/10.23919/chicc.2018.8483008
-[research_su_xiao_2021]: https://doi.org/10.3390/app11167236
 [research_suarez_kramer_1992]: https://doi.org/10.2514/6.1992-2716
 [research_suarez_kramer_1993]: https://doi.org/10.2514/6.1993-3450
 [research_suarez_malcolm_1992]: https://doi.org/10.2514/6.1992-22
 [research_suarez_malcolm_1995]: https://doi.org/10.2514/6.1995-1843
-[research_suarez_toharias_2022]: https://doi.org/10.2139/ssrn.4269781
 [research_suarezcarlosj_smithbrookec_1993]: https://ntrs.nasa.gov/citations/19940011307
 [research_subramanian_mahadevan_2022]: https://doi.org/10.1016/j.ress.2022.108410
 [research_subramanian_subramanian_1989]: https://doi.org/10.1109/9.35823
 [research_subramanyam_1997]: https://doi.org/10.14429/dsj.47.4014
-[research_suda_1994]: https://doi.org/10.1080/00423119408969048
 [research_sudha_deodhare_2018]: https://doi.org/10.2514/1.c034585
 [research_sudha_subbulekshmi_2020]: https://doi.org/10.37394/232012.2020.15.a025103-883
 [research_sudhi_radespiel_2023]: https://doi.org/10.2514/1.c036968
 [research_suga_yamazaki_2015]: https://doi.org/10.2514/6.2015-1815
 [research_sugawara_tanabe_2021]: https://doi.org/10.2514/1.c036163
 [research_sugiura_kai_2021]: https://doi.org/10.2514/6.2021-1760
-[research_suh_2012]: https://doi.org/10.21236/ada567533
-[research_suikat_donaldson_1987]: https://doi.org/10.2514/6.1987-2936
-[research_sujatha_panda_2022]: https://doi.org/10.1016/j.jlp.2022.104900
-[research_sule_khan_2018]: https://doi.org/10.1016/j.jlp.2018.01.007
 [research_sullivan_1967]: https://doi.org/10.21236/ad0819455
 [research_sullivan_finberg_1989]: https://doi.org/10.2514/6.1989-3593
 [research_suminsby_2002]: https://doi.org/10.21236/ada420687
@@ -28084,7 +25610,6 @@ computable in one line from the lift equation.
 [research_sun_cai_2018]: https://doi.org/10.1109/icmae.2018.8467618
 [research_sun_cao_2021]: https://doi.org/10.2514/6.2021-2620
 [research_sun_chen_2017]: https://doi.org/10.1109/ccdc.2017.7979296
-[research_sun_chen_2018]: https://doi.org/10.1109/icd.2018.8514618
 [research_sun_chen_2021]: https://doi.org/10.1088/1742-6596/2112/1/012002
 [research_sun_chen_2025]: https://doi.org/10.3390/drones9030218
 [research_sun_devisser_2015]: https://doi.org/10.2514/1.g000432
@@ -28112,7 +25637,6 @@ computable in one line from the lift equation.
 [research_sun_wang_2016]: https://doi.org/10.1186/s40064-016-1982-2
 [research_sun_wang_2020]: https://doi.org/10.1109/cac51589.2020.9327613
 [research_sun_wu_2022]: https://doi.org/10.3390/aerospace9120824
-[research_sun_yao_2021]: https://doi.org/10.1109/powercon53785.2021.9697753
 [research_sun_zhang_2005]: https://doi.org/10.2514/6.2005-4602
 [research_sun_zhang_2015]: https://doi.org/10.3934/jimo.2015.11.1127
 [research_sun_zheng_2026]: https://doi.org/10.2514/1.c038877
@@ -28132,13 +25656,10 @@ computable in one line from the lift equation.
 [research_surosh_ghaziani_2023]: https://doi.org/10.5890/jand.2023.09.003
 [research_surzhikov_2023]: https://doi.org/10.1134/s0015462822700033
 [research_susanto_bayusetiawan_2021]: https://doi.org/10.1109/icomitee53461.2021.9650314
-[research_susca_nascu_2025]: https://doi.org/10.1109/icstcc66753.2025.11240454
 [research_suseno_sasongko_2016]: https://doi.org/10.4028/www.scientific.net/amm.842.329
 [research_suslov_skripkin_2026]: https://doi.org/10.3390/en19030719
 [research_sutcliffe_rennie_2016]: https://doi.org/10.2514/6.2016-1150
-[research_suter_tighe_1992]: https://doi.org/10.1017/s1049023x00039364
 [research_sutin_2000]: https://doi.org/10.21236/ada377667
-[research_suzuki_1989]: https://doi.org/10.1115/1.3153053
 [research_suzuki_yoshida_2018]: https://doi.org/10.1299/jsmehs.2018.55.e023
 [research_svendsen_1994]: https://doi.org/10.2514/6.1994-2160
 [research_svoboda_rozehnal_2018]: https://doi.org/10.3849/aimt.01227
@@ -28161,7 +25682,6 @@ computable in one line from the lift equation.
 [research_system_analysis_of_2021]: https://doi.org/10.25791/pribor.3.2021.1248
 [research_systemdevelopmentcorphuntsvilleal_1970]: https://doi.org/10.21236/ad0714292
 [research_szelmanowski_pazur_2017]: https://doi.org/10.1515/jok-2017-0073
-[research_szeto_grochowalski_1989]: https://doi.org/10.5957/attc-1989-057
 [research_szklarski_glebocki_2025]: https://doi.org/10.24425/ame.2025.155873
 [research_szots_harmati_2019]: https://doi.org/10.23919/ecc.2019.8795797
 [research_szrama_2026]: https://doi.org/10.1016/j.ymssp.2026.114674
@@ -28174,8 +25694,6 @@ computable in one line from the lift equation.
 [research_tabrizi_keshock_1988]: https://doi.org/10.2514/3.45569
 [research_tachinina_kovalenko_2026]: https://doi.org/10.18372/1990-5548.88.20981
 [research_tacticalaircommandlangleyafbva_1963]: https://doi.org/10.21236/ad0422693
-[research_taft_1973]: https://doi.org/10.21236/ad0757096
-[research_taghavi_perera_2022]: https://doi.org/10.1115/omae2022-78775
 [research_taghieh_hashemzadeh_2019]: https://doi.org/10.1109/iccia49288.2019.9030970
 [research_tahani_masdari_2017]: https://doi.org/10.1108/aeat-01-2016-0019
 [research_taheri_2020]: https://doi.org/10.2514/6.2020-2184
@@ -28187,10 +25705,6 @@ computable in one line from the lift equation.
 [research_tai_wang_2021]: https://doi.org/10.1109/icmae52228.2021.9522559
 [research_tai_wang_2023]: https://doi.org/10.3390/aerospace10040350
 [research_tai_wang_2026]: https://doi.org/10.2514/1.g009489
-[research_tailless_adj_2023]: https://doi.org/10.1093/oed/1066834552
-[research_tailless_artificial_2016]: https://doi.org/10.1016/s0262-4079(16)60068-4
-[research_tailless_comet_2016]: https://doi.org/10.1063/pt.5.029786
-[research_tailless_whipscorpions_2018]: https://doi.org/10.2307/j.ctt1zkjxkx.10
 [research_tait_roome_2022]: https://doi.org/10.3390/engproc2022028016
 [research_tajfar_lamont_1997]: https://doi.org/10.2514/2.2215
 [research_takagi_aogaki_2020]: https://doi.org/10.2322/tastj.18.149
@@ -28209,14 +25723,10 @@ computable in one line from the lift equation.
 [research_takahashi_tomita_2015]: https://doi.org/10.2514/6.2015-1671
 [research_takarics_vanek_2019]: https://doi.org/10.1016/j.ifacol.2019.11.149
 [research_takarics_vanek_2021]: https://doi.org/10.1002/asjc.2547
-[research_takata_koyanagi_2020]: https://doi.org/10.23919/sice48898.2020.9240239
-[research_takeda_masuda_2024]: https://doi.org/10.1109/icstw60967.2024.00035
 [research_takita_kashitani_2019]: https://doi.org/10.1299/jsmemovic.2019.16.b113
 [research_takita_minohoshi_2019]: https://doi.org/10.1299/jsmedmc.2019.204
 [research_tal_karaman_2021]: https://doi.org/10.2514/6.2021-3214
 [research_tal_karaman_2022]: https://doi.org/10.2514/1.g006645
-[research_talaq_albasri_1999]: https://doi.org/10.1109/59.744505
-[research_talbot_1971]: https://doi.org/10.1086/150881
 [research_taligoski_uzun_2015]: https://doi.org/10.2514/6.2015-0547
 [research_talmagedonaldb_reederjohnp_1949]: https://ntrs.nasa.gov/citations/19930085551
 [research_talty_caughlin_1988]: https://doi.org/10.2514/3.45579
@@ -28228,7 +25738,6 @@ computable in one line from the lift equation.
 [research_tamrat_2004]: https://doi.org/10.2514/6.2004-5173
 [research_tamrat_antani_1988]: https://doi.org/10.2514/6.1988-3221
 [research_tamsynedwards_cynthiaawolter_2021]: https://ntrs.nasa.gov/citations/20210019347
-[research_tan_2026]: https://doi.org/10.30574/wjarr.2026.31.1.1872
 [research_tan_hu_2017]: https://doi.org/10.23919/chicc.2017.8028865
 [research_tan_lei_2019]: https://doi.org/10.1109/access.2019.2916464
 [research_tan_sun_2024]: https://doi.org/10.23919/ccc63176.2024.10661619
@@ -28239,9 +25748,7 @@ computable in one line from the lift equation.
 [research_tan_wang_2023]: https://doi.org/10.1017/jfm.2023.678
 [research_tanabe_2022]: https://doi.org/10.1299/transjsme.22-00179
 [research_tanaka_1961]: https://doi.org/10.1007/bf02868870
-[research_tanaka_2015]: https://doi.org/10.1109/cdc.2015.7403118
 [research_tanaka_ahmad_2022]: https://doi.org/10.2514/1.c036640
-[research_tanaka_kosaki_1996]: https://doi.org/10.1016/s1474-6670(17)58052-0
 [research_tang_2020]: https://doi.org/10.1002/sim.8674
 [research_tang_2025]: https://doi.org/10.1109/mmeat65787.2025.11399073
 [research_tang_chen_2023]: https://doi.org/10.1109/icus58632.2023.10318449
@@ -28281,7 +25788,6 @@ computable in one line from the lift equation.
 [research_tasci_tumse_2022]: https://doi.org/10.1016/j.ast.2022.107943
 [research_tasic_kolundzija_2018]: https://doi.org/10.23919/ropaces.2018.8364325
 [research_tassanbi_sun_2025]: https://doi.org/10.1109/icns65417.2025.10976871
-[research_tate_1992]: https://doi.org/10.21236/ada256514
 [research_tate_gillard_1975]: https://doi.org/10.21236/ada018691
 [research_tatum_giles_1988]: https://doi.org/10.2514/3.45715
 [research_taufik_zaidaan_2024]: https://doi.org/10.1109/icspc63060.2024.10862738
@@ -28295,12 +25801,10 @@ computable in one line from the lift equation.
 [research_tchamna_lee_2018]: https://doi.org/10.1016/j.isatra.2017.11.002
 [research_tcherak_kbab_2026]: https://doi.org/10.1109/scm71573.2026.11625853
 [research_tedder_walker_2022]: https://doi.org/10.2514/6.2022-2327
-[research_tedesco_iii_1999]: https://doi.org/10.21236/ada381774
 [research_teel_1999]: https://doi.org/10.21236/ada367012
 [research_teel_1999_b]: https://doi.org/10.21236/ada367415
 [research_teimourian_rohacs_2024]: https://doi.org/10.1016/j.heliyon.2024.e29377
 [research_tejaswini_kumar_2025]: https://doi.org/10.1063/5.0263372
-[research_tejparuchuri_graber_2024]: https://doi.org/10.1088/1361-6587/ad8ef2
 [research_tekawy_safonov_1990]: https://doi.org/10.23919/acc.1990.4790719
 [research_tekinalp_ariyibi_2015]: https://doi.org/10.2514/6.2015-2007
 [research_tekinalp_kumbasar_2015]: https://doi.org/10.2514/6.2015-0601
@@ -28314,11 +25818,9 @@ computable in one line from the lift equation.
 [research_teng_zhang_2016]: https://doi.org/10.2514/6.2016-1040
 [research_terade_shriyan_2025]: https://doi.org/10.2514/6.2025-105951
 [research_terekhov_2022]: https://doi.org/10.34759/vst-2022-1-211-225
-[research_termous_shraim_2018]: https://doi.org/10.1080/00423114.2018.1521001
 [research_terrell_zeinsabatto_2017]: https://doi.org/10.1109/secon.2017.7925309
 [research_tescaroli_belan_2021]: https://doi.org/10.1088/1361-6501/abf057
 [research_testing_new_1988]: https://doi.org/10.2514/6.1988-2182
-[research_tey_rahizar_2019]: https://doi.org/10.1080/00423114.2019.1645861
 [research_thakur_anand_2026]: https://doi.org/10.2514/6.2026-1117
 [research_thakur_barai_2024]: https://doi.org/10.1109/infoteh60418.2024.10495938
 [research_thakur_mukhopadhyay_2019]: https://doi.org/10.1109/icort46471.2019.9069664
@@ -28338,8 +25840,6 @@ computable in one line from the lift equation.
 [research_theisen_scruggs_1973]: https://doi.org/10.21236/ad0771304
 [research_thermal_distortion_1972]: https://doi.org/10.1016/0043-1648(72)90175-5
 [research_theunissen_1995]: https://doi.org/10.2514/atcq.3.2.95
-[research_thiel_schwarzmann_2016]: https://doi.org/10.1109/med.2016.7535892
-[research_thies_ringsberg_2021]: https://doi.org/10.3940/rina.win.2021.06
 [research_third_boeing_1999]: https://doi.org/10.1108/aeat.1999.12771cab.037
 [research_thomas_1991]: https://doi.org/10.2514/6.1991-3295
 [research_thomas_cassoni_1996]: https://doi.org/10.2514/3.47027
@@ -28357,14 +25857,10 @@ computable in one line from the lift equation.
 [research_thrust_induced_effects_1994]: https://doi.org/10.2514/6.1994-1856
 [research_thrust_vectoring_2020]: https://doi.org/10.37896/jxu14.10/016
 [research_thukral_innocenti_1998]: https://doi.org/10.1109/87.668037
-[research_tiainen_viitala_2021]: https://doi.org/10.1016/j.measurement.2020.108146
 [research_tian_danino_2023]: https://doi.org/10.1117/12.2663369
 [research_tian_he_2017]: https://doi.org/10.2514/6.2017-1910
-[research_tian_li_2018]: https://doi.org/10.1109/cdc.2018.8619275
 [research_tian_li_2018_b]: https://doi.org/10.1109/fendt.2018.8681983
-[research_tian_shi_2026]: https://doi.org/10.1109/tvt.2025.3604388
 [research_tian_sun_2020]: https://doi.org/10.1115/gt2020-14541
-[research_tian_wang_2015]: https://doi.org/10.1504/ijamechs.2015.072706
 [research_tian_wu_2016]: https://doi.org/10.1115/gt2016-57276
 [research_tian_yang_2022]: https://doi.org/10.1117/12.2616701
 [research_tich_1991]: https://doi.org/10.2514/6.1991-2795
@@ -28386,7 +25882,6 @@ computable in one line from the lift equation.
 [research_tischler_barlow_1982]: https://doi.org/10.2514/3.57376
 [research_tischlermarkb_fletcherjayw_1991]: https://ntrs.nasa.gov/citations/19910067397
 [research_tiwari_pekris_2024]: https://doi.org/10.1115/gt2024-127694
-[research_tiwari_singh_2023]: https://doi.org/10.1109/stpec59253.2023.10431092
 [research_tobak_schiff_1974]: https://doi.org/10.2514/6.1974-85
 [research_toffol_ricci_2023]: https://doi.org/10.1016/j.compstruct.2022.116557
 [research_tohidi_yildiz_2017]: https://doi.org/10.1016/j.ifacol.2017.08.1088
@@ -28402,18 +25897,15 @@ computable in one line from the lift equation.
 [research_tong_2020]: https://doi.org/10.1115/gt2020-14661
 [research_tong_shi_2022]: https://doi.org/10.1063/5.0130626
 [research_tong_thompson_2017]: https://doi.org/10.2514/1.c033949
-[research_tong_weng_2026]: https://doi.org/10.1109/oceans66983.2026.11616814
 [research_tong_yin_1993]: https://doi.org/10.1007/978-3-642-52460-8_7
 [research_tong_zhou_2023]: https://doi.org/10.3390/aerospace10100886
 [research_topbas_karaca_2024]: https://doi.org/10.1080/17477778.2024.2403424
-[research_topini_pagliai_2021]: https://doi.org/10.3390/app11104469
 [research_torno_armstrong_2023]: https://doi.org/10.2514/6.2023-0627
 [research_torralba_puyou_2009]: https://doi.org/10.2514/6.2009-6303
 [research_torrance_rush_1957]: https://doi.org/10.21236/ad0146407
 [research_torres_barott_2015]: https://doi.org/10.1109/aps.2015.7305552
 [research_torres_xu_2022]: https://doi.org/10.1115/imece2022-97224
 [research_toubar_halawa_2017]: https://doi.org/10.1109/sibcon.2017.7998551
-[research_touch_screen_surface_1998]: https://doi.org/10.1108/aeat.1998.12770aad.007
 [research_tourajizadeh_zare_2016]: https://doi.org/10.1016/j.ast.2015.12.019
 [research_tournes_johnson_1999]: https://doi.org/10.2514/6.1999-3982
 [research_tournes_shtessel_1997]: https://doi.org/10.2514/6.1997-3633
@@ -28431,12 +25923,10 @@ computable in one line from the lift equation.
 [research_traven_whitley_1995]: https://doi.org/10.21236/ada300965
 [research_traxel_bandyopadhyay_2020]: https://doi.org/10.1016/j.addma.2020.101243
 [research_trentin_dasilva_2019]: https://doi.org/10.26678/abcm.diname2019.din2019-0039
-[research_trexler_cowgill_2019]: https://doi.org/10.1130/abs/2019am-341252
 [research_tritschler_dotson_2022]: https://doi.org/10.4050/f-0078-2022-1300
 [research_tritschler_juhasz_2025]: https://doi.org/10.2514/1.c037763
 [research_trollip_engelbrecht_2016]: https://doi.org/10.1109/aero.2016.7500886
 [research_tromp_1999]: https://doi.org/10.2514/2.2462
-[research_troncoso_battaiotto_2015]: https://doi.org/10.1109/isgt-la.2015.7381213
 [research_trosen_pachter_1994]: https://doi.org/10.2514/6.1994-3545
 [research_truong_rakotomamonjy_2016]: https://doi.org/10.1016/j.ifacol.2016.09.021
 [research_trussa_whitfield_2021]: https://doi.org/10.2514/6.2021-2536
@@ -28450,8 +25940,6 @@ computable in one line from the lift equation.
 [research_tsao_ioannou_1993]: https://doi.org/10.1109/9.186334
 [research_tsengjb_lancedward_1989]: https://ntrs.nasa.gov/citations/19900004038
 [research_tsiakas_roge_2021]: https://doi.org/10.23967/wccm-eccomas.2020.108
-[research_tso_1995]: https://doi.org/10.1049/cp:19951269
-[research_tsogas_mcavoy_1985]: https://doi.org/10.1080/00986448508911286
 [research_tsoubanos_1979]: https://doi.org/10.21236/ada065018
 [research_tsubakino_saito_2020]: https://doi.org/10.1299/jsmetokai.2020.69.412
 [research_tsurusaki_imaichi_1987]: https://doi.org/10.1299/jsme1987.30.279
@@ -28466,7 +25954,6 @@ computable in one line from the lift equation.
 [research_tu_1994_b]: https://doi.org/10.2514/3.46489
 [research_tu_1996]: https://doi.org/10.2514/6.1996-2407
 [research_tu_lan_2026]: https://doi.org/10.1016/j.ast.2026.112409
-[research_tu_lin_2024]: https://doi.org/10.23919/acc60939.2024.10645049
 [research_tu_mao_2019]: https://doi.org/10.3390/app9050875
 [research_tu_marzanek_2019]: https://doi.org/10.2514/6.2019-2165
 [research_tu_wang_2020]: https://doi.org/10.1109/ibcast47879.2020.9044507
@@ -28499,7 +25986,6 @@ computable in one line from the lift equation.
 [research_ugwueze_statheros_2023]: https://doi.org/10.3390/aerospace10030311
 [research_ukai_hotta_2026]: https://doi.org/10.1016/j.actaastro.2025.12.050
 [research_ulislam_nguyen_2020]: https://doi.org/10.23919/acc45564.2020.9147891
-[research_ullah_hongfei_2025]: https://doi.org/10.1002/adc2.70002
 [research_umar_rilwan_2024]: https://doi.org/10.3390/sym16050513
 [research_uml_based_combat_2018]: https://doi.org/10.21629/jsee.2018.06.07
 [research_ummah_setiadi_2020]: https://doi.org/10.47355/avia.v1i1.8
@@ -28508,7 +25994,6 @@ computable in one line from the lift equation.
 [research_unal_2021]: https://doi.org/10.1108/aeat-12-2020-0293
 [research_unal_2021_b]: https://doi.org/10.1108/aeat-12-2020-0302
 [research_understanding_aircraft_1999]: https://doi.org/10.1108/aeat.1999.12771cae.001
-[research_uneda_1854]: https://doi.org/10.1093/nq/s1-ix.238.479e
 [research_unruh_1988]: https://doi.org/10.2514/3.45654
 [research_unstable_aircraft_2006]: https://doi.org/10.2514/5.9781600866852.0295.0334
 [research_unstable_aircraft_2015]: https://doi.org/10.2514/5.9781624102790.0335.0378
@@ -28517,12 +26002,9 @@ computable in one line from the lift equation.
 [research_urrahman_naeemmalik_2024]: https://doi.org/10.1016/j.measurement.2024.115208
 [research_ursu_ionguta_2018]: https://doi.org/10.1088/1742-6596/1106/1/012033
 [research_using_tip_2022]: https://doi.org/10.47176/jafm.15.06.1089
-[research_ustaoglu_turhan_2025]: https://doi.org/10.1109/eleco69582.2025.11329241
-[research_utama_sutiyo_2020]: https://doi.org/10.14710/kapal.v17i2.29867
 [research_uybarreta_grant_2025]: https://doi.org/10.2514/6.2025-3610
 [research_uybarreta_kabaliuk_2024]: https://doi.org/10.2514/6.2024-4491
 [research_uybarreta_kabaliuk_2024_b]: https://doi.org/10.2514/6.2024-4491.c1
-[research_vaani_pal_2019]: https://doi.org/10.1109/icicict46008.2019.8993383
 [research_vacarios_oliveira_2024]: https://doi.org/10.26678/abcm.conem2024.con24-0784
 [research_vafamand_shasadeghi_2016]: https://doi.org/10.1002/asjc.1429
 [research_vagianos_rooney_1964]: https://doi.org/10.21236/ad0625722
@@ -28541,7 +26023,6 @@ computable in one line from the lift equation.
 [research_valavanis_tzes_2021]: https://doi.org/10.1109/mcs.2020.3033195
 [research_valavanis_vitzilaios_2026]: https://doi.org/10.1109/mcs.2026.3677951
 [research_valencia_acevedonisperuza_2026]: https://doi.org/10.3390/aerospace13080698
-[research_valluri_2021]: https://doi.org/10.22214/ijraset.2021.39684
 [research_vanbaelen_ellerbroek_2020]: https://doi.org/10.2514/1.g004596
 [research_vanbaelen_vanpaassen_2021]: https://doi.org/10.1080/10447318.2021.1890489
 [research_vandam_holmes_1988]: https://doi.org/10.2514/3.45647
@@ -28575,7 +26056,6 @@ computable in one line from the lift equation.
 [research_vashishtha_khurana_2021]: https://doi.org/10.2514/6.2021-0839
 [research_vashishtha_khurana_2021_b]: https://doi.org/10.2514/6.2021-0839.c1
 [research_vasile_2017]: https://doi.org/10.2514/6.2017-0717
-[research_vatankhah_2021]: https://doi.org/10.1016/j.jairtraman.2020.101945
 [research_vaughan_wood_1995]: https://doi.org/10.2514/6.1995-1874
 [research_vaughn_lindsay_1988]: https://doi.org/10.2514/6.1988-2102
 [research_vaz_elliott_2019]: https://doi.org/10.2514/6.2019-0504
@@ -28637,16 +26117,12 @@ computable in one line from the lift equation.
 [research_vizzini_1985]: https://doi.org/10.1115/1.3239819
 [research_vlachos_schaeffler_1999]: https://doi.org/10.2514/6.1999-924
 [research_vlahostergios_komnos_2018]: https://doi.org/10.1504/pcfd.2018.096620
-[research_vlasea_pilliar_2015]: https://doi.org/10.1016/j.addma.2015.03.001
-[research_vo_cao_2017]: https://doi.org/10.2118/183751-ms
-[research_vo_schmid_1991]: https://doi.org/10.1016/0360-5442(91)90150-k
 [research_vohra_kumar_2025]: https://doi.org/10.2514/6.2025-106579
 [research_voigt_fettig_2019]: https://doi.org/10.4050/f-0075-2019-14748
 [research_voissel_kudeti_2025]: https://doi.org/10.1115/gt2025-152042
 [research_vollset_1993]: https://doi.org/10.1002/sim.4780120902
 [research_volochiy_ozirkovskyi_2015]: https://doi.org/10.33577/2312-4458.13.2015.77-85
 [research_volz_1972]: https://doi.org/10.2514/6.1972-813
-[research_vonellenrieder_2018]: https://doi.org/10.1016/j.ifacol.2018.09.513
 [research_vonflotow_1989]: https://doi.org/10.2514/6.1989-1187
 [research_voracek_clarke_1991]: https://doi.org/10.2514/6.1991-1053
 [research_voracek_clarke_1994]: https://doi.org/10.2514/3.46505
@@ -28656,7 +26132,6 @@ computable in one line from the lift equation.
 [research_voth_lubbe_2024]: https://doi.org/10.3390/aerospace11120958
 [research_voting_software_1993]: https://doi.org/10.1016/0967-0661(93)92298-i
 [research_vukobratovic_stojic_1985]: https://doi.org/10.1016/s1474-6670(17)60398-7
-[research_vyapari_vijunair_2022]: https://doi.org/10.1109/icit48603.2022.10002804
 [research_w_n_2019]: https://doi.org/10.19070/2470-4415-si02-01001
 [research_waag_bell_1997]: https://doi.org/10.21236/ada459625
 [research_waag_bell_1997_b]: https://doi.org/10.21236/ada459622
@@ -28666,7 +26141,6 @@ computable in one line from the lift equation.
 [research_wada_1927]: https://doi.org/10.2183/pjab1912.3.599
 [research_wada_tamayama_2019]: https://doi.org/10.3390/app9071461
 [research_wade_tardif_2026]: https://doi.org/10.2514/6.2026-0529
-[research_wafi_indriawati_2022]: https://doi.org/10.2139/ssrn.4053241
 [research_wagenknecht_hoff_1982]: https://doi.org/10.2514/6.1982-254
 [research_waghela_yoder_2019]: https://doi.org/10.2514/1.c035353
 [research_wagner_henrion_2023]: https://doi.org/10.2514/1.g006151
@@ -28701,7 +26175,6 @@ computable in one line from the lift equation.
 [research_wang_anand_2017]: https://doi.org/10.1080/21642583.2016.1278410
 [research_wang_cao_2019]: https://doi.org/10.23919/chicc.2019.8865680
 [research_wang_chen_2017]: https://doi.org/10.1115/gt2017-63427
-[research_wang_chen_2018]: https://doi.org/10.1115/1.4039187
 [research_wang_chen_2024]: https://doi.org/10.3390/aerospace11090711
 [research_wang_chen_2025]: https://doi.org/10.1016/j.ast.2025.110547
 [research_wang_chen_2025_b]: https://doi.org/10.1109/icmae66341.2025.11277169
@@ -28710,10 +26183,8 @@ computable in one line from the lift equation.
 [research_wang_diepolder_2021]: https://doi.org/10.1016/j.ast.2021.106903
 [research_wang_ding_2018]: https://doi.org/10.1088/1742-6596/1087/2/022027
 [research_wang_ding_2020]: https://doi.org/10.1109/icaica50127.2020.9181863
-[research_wang_feng_2026]: https://doi.org/10.1063/5.0314042
 [research_wang_feng_2026_b]: https://doi.org/10.2514/1.j066379
 [research_wang_gao_2016]: https://doi.org/10.1007/s00348-016-2184-y
-[research_wang_gao_2020]: https://doi.org/10.1016/j.jfranklin.2019.07.035
 [research_wang_gao_2024]: https://doi.org/10.1016/j.knosys.2024.112000
 [research_wang_gao_2025]: https://doi.org/10.1109/taes.2025.3616272
 [research_wang_guo_2017]: https://doi.org/10.1016/j.cja.2017.03.004
@@ -28735,7 +26206,6 @@ computable in one line from the lift equation.
 [research_wang_ji_2016]: https://doi.org/10.1016/j.compstruct.2016.03.005
 [research_wang_jian_2023]: https://doi.org/10.1155/2023/3093526
 [research_wang_jin_2022]: https://doi.org/10.1007/s11012-022-01560-2
-[research_wang_kong_2023]: https://doi.org/10.1177/00202940231189506
 [research_wang_lei_2017]: https://doi.org/10.2991/icmmcce-17.2017.151
 [research_wang_lei_2023]: https://doi.org/10.3390/vibration6040062
 [research_wang_li_2015]: https://doi.org/10.2514/6.2015-2243
@@ -28743,7 +26213,6 @@ computable in one line from the lift equation.
 [research_wang_li_2017]: https://doi.org/10.1016/j.applthermaleng.2016.12.036
 [research_wang_li_2018]: https://doi.org/10.1109/gncc42960.2018.9019116
 [research_wang_li_2018_b]: https://doi.org/10.1109/gncc42960.2018.9018880
-[research_wang_li_2019]: https://doi.org/10.1117/1.oe.58.2.026102
 [research_wang_li_2020]: https://doi.org/10.1155/2020/7180639
 [research_wang_li_2020_b]: https://doi.org/10.1142/s0217984921500858
 [research_wang_li_2021]: https://doi.org/10.1109/cac53003.2021.9727364
@@ -28756,7 +26225,6 @@ computable in one line from the lift equation.
 [research_wang_liang_2017]: https://doi.org/10.23919/chicc.2017.8027337
 [research_wang_liang_2020]: https://doi.org/10.1016/j.jairtraman.2020.101840
 [research_wang_liang_2024]: https://doi.org/10.1109/csis-iac63491.2024.10919408
-[research_wang_liang_2026]: https://doi.org/10.1016/j.jlp.2025.105910
 [research_wang_lin_2022]: https://doi.org/10.1063/5.0082283
 [research_wang_liu_2016]: https://doi.org/10.1142/9789813145603_0006
 [research_wang_liu_2016_b]: https://doi.org/10.1016/j.neucom.2016.06.028
@@ -28768,8 +26236,6 @@ computable in one line from the lift equation.
 [research_wang_lu_2023]: https://doi.org/10.3390/aerospace10090799
 [research_wang_luan_2020]: https://doi.org/10.1007/s42405-020-00298-z
 [research_wang_lungu_2023]: https://doi.org/10.1016/j.ast.2023.108473
-[research_wang_luo_2019]: https://doi.org/10.1063/1.5125354
-[research_wang_luo_2020]: https://doi.org/10.1088/1742-6596/1601/4/042026
 [research_wang_luo_2025]: https://doi.org/10.1016/j.cja.2024.103327
 [research_wang_luo_2025_b]: https://doi.org/10.1016/j.ast.2025.110369
 [research_wang_lyu_2023]: https://doi.org/10.1016/j.tsep.2023.101961
@@ -28785,7 +26251,6 @@ computable in one line from the lift equation.
 [research_wang_qin_2024]: https://doi.org/10.3397/in_2024_2969
 [research_wang_qiu_2019]: https://doi.org/10.1177/1475921719850641
 [research_wang_qiu_2019_b]: https://doi.org/10.12783/shm2019/32224
-[research_wang_qu_2024]: https://doi.org/10.3390/act13090378
 [research_wang_qu_2026]: https://doi.org/10.2514/1.j065943
 [research_wang_rogers_2014]: https://doi.org/10.1109/control.2014.6915113
 [research_wang_ru_2025]: https://doi.org/10.1016/j.ast.2025.110327
@@ -28820,7 +26285,6 @@ computable in one line from the lift equation.
 [research_wang_wang_2024]: https://doi.org/10.1038/s41598-024-54938-5
 [research_wang_wang_2024_b]: https://doi.org/10.1016/j.isatra.2024.08.006
 [research_wang_wang_2025]: https://doi.org/10.1016/j.ultras.2024.107509
-[research_wang_wang_2025_b]: https://doi.org/10.1109/itsc60802.2025.11423670
 [research_wang_wei_2023]: https://doi.org/10.1016/j.oceaneng.2023.115578
 [research_wang_wei_2023_b]: https://doi.org/10.1016/j.conengprac.2023.105577
 [research_wang_wei_2026]: https://doi.org/10.1109/taes.2026.3663140
@@ -28829,11 +26293,9 @@ computable in one line from the lift equation.
 [research_wang_wynn_2016]: https://doi.org/10.2514/6.2016-0711
 [research_wang_wynn_2018]: https://doi.org/10.2514/1.c034684
 [research_wang_xiang_2018]: https://doi.org/10.1016/j.cja.2018.03.018
-[research_wang_xu_2015]: https://doi.org/10.7763/ijmo.2015.v5.451
 [research_wang_xu_2021]: https://doi.org/10.1016/j.neucom.2020.11.070
 [research_wang_xu_2022]: https://doi.org/10.2514/1.j062020
 [research_wang_xu_2024]: https://doi.org/10.1134/s001546282460295x
-[research_wang_yang_2016]: https://doi.org/10.6113/jpe.2016.16.4.1551
 [research_wang_yang_2019]: https://doi.org/10.1109/ccdc.2019.8833424
 [research_wang_yang_2021]: https://doi.org/10.3390/aerospace8120360
 [research_wang_yang_2023]: https://doi.org/10.1038/s41467-023-37478-w
@@ -28841,22 +26303,18 @@ computable in one line from the lift equation.
 [research_wang_yang_2024]: https://doi.org/10.1109/icca62789.2024.10591840
 [research_wang_yang_2024_b]: https://doi.org/10.1038/s41467-024-47234-3
 [research_wang_yang_2025]: https://doi.org/10.23919/jsee.2025.000011
-[research_wang_yang_2025_b]: https://doi.org/10.3390/aerospace12080697
 [research_wang_yang_2026]: https://doi.org/10.1088/1742-6596/3207/1/012111
 [research_wang_yao_2021]: https://doi.org/10.23919/ccc52363.2021.9549459
 [research_wang_yao_2023]: https://doi.org/10.1109/icapc61546.2023.00039
 [research_wang_yao_2024]: https://doi.org/10.1002/acs.3911
 [research_wang_ye_2017]: https://doi.org/10.1109/iccss.2017.8091479
-[research_wang_ye_2025]: https://doi.org/10.1063/5.0252143
 [research_wang_yi_2026]: https://doi.org/10.1007/s11431-025-3198-1
 [research_wang_yin_2016]: https://doi.org/10.1109/aus.2016.7748135
-[research_wang_you_2022]: https://doi.org/10.1109/sii52469.2022.9708771
 [research_wang_yu_2016]: https://doi.org/10.1109/chicc.2016.7555038
 [research_wang_yu_2016_b]: https://doi.org/10.1109/imccc.2016.15
 [research_wang_yu_2025]: https://doi.org/10.1109/tsmc.2025.3559536
 [research_wang_yuan_2023]: https://doi.org/10.1109/cac59555.2023.10451852
 [research_wang_zhang_2021]: https://doi.org/10.1049/icp.2021.0339
-[research_wang_zhang_2022]: https://doi.org/10.1016/j.egyr.2021.11.106
 [research_wang_zhang_2024]: https://doi.org/10.1109/access.2024.3435132
 [research_wang_zhang_2024_b]: https://doi.org/10.1115/gt2024-128513
 [research_wang_zhang_2024_c]: https://doi.org/10.23919/ccc63176.2024.10661814
@@ -28894,7 +26352,6 @@ computable in one line from the lift equation.
 [research_ward_miley_1983]: https://doi.org/10.2514/6.1983-2689
 [research_ward_neeley_1959]: https://doi.org/10.21236/ad0221389
 [research_ward_stout_1986]: https://doi.org/10.2514/6.1986-168
-[research_ward_toni_2022]: https://doi.org/10.65109/ezqo8412
 [research_ward_vu_2024]: https://doi.org/10.2514/1.c037791
 [research_wardana_pranoto_2021]: https://doi.org/10.1063/5.0060371
 [research_wardlaw_1974]: https://doi.org/10.2514/3.49431
@@ -28906,12 +26363,10 @@ computable in one line from the lift equation.
 [research_warsop_crowther_2018]: https://doi.org/10.2514/1.j056787
 [research_warsop_crowther_2019]: https://doi.org/10.2514/6.2019-0044
 [research_wartmann_2015]: https://doi.org/10.1007/s13272-015-0152-5
-[research_washburn_steig_1933]: https://doi.org/10.2307/1281404
 [research_washingtonunivseattledeptofstatistics_2007]: https://doi.org/10.21236/ada478831
 [research_wasickorj_1972]: https://ntrs.nasa.gov/citations/19720024388
 [research_wasim_li_2026]: https://doi.org/10.1088/2631-8695/ae5449
 [research_wasserbauerjf_shawrj_1975]: https://ntrs.nasa.gov/citations/19750009291
-[research_watanabe_kurihara_2026]: https://doi.org/10.5220/0014245900004061
 [research_watanabe_nakamura_2017]: https://doi.org/10.1115/gt2017-63264
 [research_watler_mulley_1978]: https://doi.org/10.2514/3.58397
 [research_watts_1976]: https://doi.org/10.21236/ada030344
@@ -28946,7 +26401,6 @@ computable in one line from the lift equation.
 [research_wei_trochsler_2019]: https://doi.org/10.2514/6.2019-2099
 [research_wei_wang_2023]: https://doi.org/10.1016/j.oceaneng.2023.113751
 [research_wei_wen_2024]: https://doi.org/10.1007/s12647-024-00742-5
-[research_wei_xu_2017]: https://doi.org/10.1109/icma.2017.8015912
 [research_wei_xu_2020]: https://doi.org/10.1109/access.2020.2964728
 [research_wei_yang_2018]: https://doi.org/10.2514/1.g003480
 [research_wei_zhan_2019]: https://doi.org/10.1108/aeat-08-2017-0181
@@ -28981,7 +26435,6 @@ computable in one line from the lift equation.
 [research_wellsedwarda_urnesjamesmsr_1995]: https://ntrs.nasa.gov/citations/19950026601
 [research_wellsscottr_2002]: https://ntrs.nasa.gov/citations/20020080707
 [research_welte_1986]: https://doi.org/10.2514/3.45299
-[research_wen_2018]: https://doi.org/10.1109/icsai.2018.8599385
 [research_wen_hou_2026]: https://doi.org/10.3390/drones10020151
 [research_wen_liang_2023]: https://doi.org/10.1109/ecce53617.2023.10362594
 [research_wen_song_2023]: https://doi.org/10.3390/aerospace10121001
@@ -29009,7 +26462,6 @@ computable in one line from the lift equation.
 [research_west_liever_2022]: https://doi.org/10.2514/6.2022-2321
 [research_west_phillips_2020]: https://doi.org/10.2514/1.c035496
 [research_west_reuter_2017]: https://doi.org/10.2514/1.c033907
-[research_westad_marini_2022]: https://doi.org/10.3389/frans.2022.897605
 [research_westbrook_1975]: https://doi.org/10.21236/ada004476
 [research_westermeier_hansen_1985]: https://doi.org/10.2514/6.1985-1953
 [research_weyl_1944]: https://doi.org/10.1108/eb031199
@@ -29023,11 +26475,9 @@ computable in one line from the lift equation.
 [research_whillock_corwin_1994]: https://doi.org/10.21236/ada293611
 [research_whitaker_gowadia_1991]: https://doi.org/10.2514/6.1991-2368
 [research_whitaker_gowadia_1994]: https://doi.org/10.2514/3.46592
-[research_whitaker_peters_1992]: https://doi.org/10.1518/107118192786751844
 [research_whitcher_2024]: https://doi.org/10.2514/6.2024-4429
 [research_whitcher_2024_b]: https://doi.org/10.2514/6.2024-4429.c1
 [research_white_1991]: https://doi.org/10.2514/6.1991-2617
-[research_white_2004]: https://doi.org/10.21236/ada425925
 [research_white_jr_1976]: https://doi.org/10.21236/ada042917
 [research_white_mongru_2017]: https://doi.org/10.1177/1475921717738389
 [research_white_olmstead_1997]: https://doi.org/10.21236/ada338775
@@ -29091,7 +26541,6 @@ computable in one line from the lift equation.
 [research_wilson_riley_1993]: https://doi.org/10.2514/6.1993-3645
 [research_wilson_riley_1993_b]: https://doi.org/10.21236/ada273685
 [research_wilsondavidj_citurskevind_1994]: https://ntrs.nasa.gov/citations/19950007833
-[research_wing_1969]: https://doi.org/10.1049/el:19690145
 [research_wing_asbury_1991]: https://doi.org/10.2514/6.1991-2137
 [research_wingrove_1973]: https://doi.org/10.2514/3.60230
 [research_wingrove_bach_1994]: https://doi.org/10.2514/3.46557
@@ -29145,7 +26594,6 @@ computable in one line from the lift equation.
 [research_wu_2023]: https://doi.org/10.1117/12.2688666
 [research_wu_2024]: https://doi.org/10.1109/icdcot61034.2024.10516095
 [research_wu_2025]: https://doi.org/10.3390/aerospace12010065
-[research_wu_agarwal_2023]: https://doi.org/10.2514/6.2023-1007
 [research_wu_chen_2017]: https://doi.org/10.1016/j.isatra.2017.06.015
 [research_wu_chen_2017_b]: https://doi.org/10.3390/app7030219
 [research_wu_chen_2020]: https://doi.org/10.1002/acs.3119
@@ -29159,8 +26607,6 @@ computable in one line from the lift equation.
 [research_wu_gao_2016]: https://doi.org/10.2514/6.2016-4015
 [research_wu_gao_2021]: https://doi.org/10.1063/5.0018140
 [research_wu_gopalarathnam_2005]: https://doi.org/10.2514/6.2005-6169
-[research_wu_hours_2018]: https://doi.org/10.1080/15389588.2017.1410145
-[research_wu_hu_2018]: https://doi.org/10.1016/j.jlp.2018.09.012
 [research_wu_jiang_2015]: https://doi.org/10.1051/matecconf/20153102004
 [research_wu_jiang_2025]: https://doi.org/10.1007/s40747-025-02189-w
 [research_wu_kim_2019]: https://doi.org/10.6108/kspe.2019.23.4.010
@@ -29181,9 +26627,7 @@ computable in one line from the lift equation.
 [research_wu_liu_2021]: https://doi.org/10.1145/3459104.3459109
 [research_wu_livne_2016]: https://doi.org/10.2514/6.2016-1483
 [research_wu_lu_2019]: https://doi.org/10.1109/icca.2019.8899617
-[research_wu_lu_2020]: https://doi.org/10.1109/iciea49774.2020.9102108
 [research_wu_miao_2020]: https://doi.org/10.1109/icectt50890.2020.00017
-[research_wu_olson_2023]: https://doi.org/10.1109/tie.2022.3231328
 [research_wu_qiu_2015]: https://doi.org/10.1109/ihmsc.2015.213
 [research_wu_shan_2024]: https://doi.org/10.1007/s40300-023-00264-1
 [research_wu_shen_2016]: https://doi.org/10.1109/chicc.2016.7554514
@@ -29193,34 +26637,27 @@ computable in one line from the lift equation.
 [research_wu_wang_2018]: https://doi.org/10.2991/macmc-17.2018.64
 [research_wu_wang_2018_b]: https://doi.org/10.1109/gncc42960.2018.9018949
 [research_wu_wang_2021]: https://doi.org/10.1002/rnc.5410
-[research_wu_wang_2025]: https://doi.org/10.1109/smc58881.2025.11343092
 [research_wu_wu_1993]: https://doi.org/10.1007/978-3-642-52460-8_2
 [research_wu_yang_2017]: https://doi.org/10.1109/icinfa.2017.8078898
 [research_wu_yang_2021]: https://doi.org/10.1007/s40815-021-01158-y
-[research_wu_yao_2020]: https://doi.org/10.1007/s12555-019-1013-5
 [research_wu_ye_2024]: https://doi.org/10.1016/j.jfranklin.2024.106914
 [research_wu_yu_2018]: https://doi.org/10.5220/0006969302880293
 [research_wu_zhang_2020]: https://doi.org/10.1109/iccasit50869.2020.9368709
 [research_wu_zhang_2021]: https://doi.org/10.1002/rnc.5743
 [research_wu_zhang_2026]: https://doi.org/10.2514/1.c038395
 [research_wu_zhao_2021]: https://doi.org/10.1109/iccasit53235.2021.9633501
-[research_wu_zheng_2020]: https://doi.org/10.1109/access.2020.3011731
 [research_wu_zhu_2024]: https://doi.org/10.1155/2024/2054883
-[research_wu_zhu_2025]: https://doi.org/10.1016/j.isatra.2025.07.007
 [research_wuwer_kunzel_2025]: https://doi.org/10.1109/smc58881.2025.11342504
 [research_wyatt_2003]: https://doi.org/10.2514/6.2003-2616
 [research_x_31_tailless_1994]: https://ntrs.nasa.gov/citations/19950004339
-[research_xhoxhi_li_2023]: https://doi.org/10.1109/vtc2023-spring57618.2023.10199647
 [research_xi_cai_2023]: https://doi.org/10.1177/09544100231191411
 [research_xi_cai_2024]: https://doi.org/10.3390/aerospace11070558
 [research_xi_kou_2024]: https://doi.org/10.1016/j.dt.2023.11.010
 [research_xi_lyu_2023]: https://doi.org/10.1016/j.cja.2023.04.020
-[research_xi_qun_1994]: https://doi.org/10.1080/00423119308969513
 [research_xi_yongtao_2018]: https://doi.org/10.23919/chicc.2018.8483423
 [research_xi_zhao_2017]: https://doi.org/10.1109/ascc.2017.8287228
 [research_xia_jia_2019]: https://doi.org/10.23919/chicc.2019.8866473
 [research_xia_jia_2022]: https://doi.org/10.3390/aerospace9110730
-[research_xia_liu_2025]: https://doi.org/10.1109/emp67345.2025.11428524
 [research_xia_wang_2022]: https://doi.org/10.1016/j.oceaneng.2022.112805
 [research_xia_zhang_2021]: https://doi.org/10.3390/act10100255
 [research_xiang_arbaiy_2018]: https://doi.org/10.1063/1.5041559
@@ -29233,9 +26670,7 @@ computable in one line from the lift equation.
 [research_xiao_liangwei_1985]: https://doi.org/10.1115/85-igt-74
 [research_xiao_lu_2015]: https://doi.org/10.1016/j.neucom.2014.12.078
 [research_xiao_tan_2024]: https://doi.org/10.1017/aer.2024.68
-[research_xiao_wang_2016]: https://doi.org/10.1109/icss.2016.20
 [research_xiao_wang_2026]: https://doi.org/10.1038/s41598-026-60028-5
-[research_xiao_yang_2017]: https://doi.org/10.1049/iet-gtd.2016.2136
 [research_xiao_zhang_2026]: https://doi.org/10.2514/1.c038592
 [research_xiaobo_zhanxue_2017]: https://doi.org/10.1115/gtindia2017-4743
 [research_xiaochuanliu_xiaobinshen_2018]: https://doi.org/10.1049/cp.2018.0294
@@ -29250,7 +26685,6 @@ computable in one line from the lift equation.
 [research_xie_tang_2025]: https://doi.org/10.1117/12.3055977
 [research_xie_wei_2019]: https://doi.org/10.23919/acc.2019.8815130
 [research_xie_wu_2015]: https://doi.org/10.1115/gt2015-42350
-[research_xie_xie_2025]: https://doi.org/10.1097/01.yco.0001176220.28718.95
 [research_xie_yang_2020]: https://doi.org/10.1051/jnwpu/20203861330
 [research_xie_zhao_2024]: https://doi.org/10.34133/space.0087
 [research_xie_zhu_2023]: https://doi.org/10.1063/5.0185385
@@ -29268,10 +26702,8 @@ computable in one line from the lift equation.
 [research_xiong_nguyen_2023]: https://doi.org/10.2514/6.2023-1575
 [research_xiong_peng_2016]: https://doi.org/10.1504/ijcat.2016.073605
 [research_xiong_wei_2017]: https://doi.org/10.1108/aeat-02-2015-0029
-[research_xiu_geng_2020]: https://doi.org/10.1109/icmcce51767.2020.00131
 [research_xu_2017]: https://doi.org/10.2316/p.2017.853-015
 [research_xu_2024]: https://doi.org/10.5220/0013515500004619
-[research_xu_bensow_2026]: https://doi.org/10.2514/1.j065709
 [research_xu_carrillo_2015]: https://doi.org/10.1109/icuas.2015.7152374
 [research_xu_chen_2021]: https://doi.org/10.3390/aerospace8040112
 [research_xu_deng_2022]: https://doi.org/10.1109/icamechs57222.2022.10003400
@@ -29279,7 +26711,6 @@ computable in one line from the lift equation.
 [research_xu_feng_2025]: https://doi.org/10.1016/j.cja.2025.103443
 [research_xu_ge_1996]: https://doi.org/10.1016/s1474-6670(17)57651-x
 [research_xu_gu_2025]: https://doi.org/10.1016/j.ast.2024.109765
-[research_xu_gu_2026]: https://doi.org/10.1016/j.measurement.2025.119015
 [research_xu_hu_2021]: https://doi.org/10.3390/en14238057
 [research_xu_hu_2024]: https://doi.org/10.1016/j.cja.2024.04.013
 [research_xu_huang_2026]: https://doi.org/10.1177/01423312261462215
@@ -29287,34 +26718,23 @@ computable in one line from the lift equation.
 [research_xu_jiang_2016]: https://doi.org/10.1007/s10409-016-0565-3
 [research_xu_jiang_2017]: https://doi.org/10.1504/ijmic.2017.086559
 [research_xu_keshmiri_2021]: https://doi.org/10.1109/icuas51884.2021.9476808
-[research_xu_liang_2025]: https://doi.org/10.1007/s12555-024-0215-7
 [research_xu_liu_2018]: https://doi.org/10.1109/cac.2018.8623409
 [research_xu_liu_2026]: https://doi.org/10.1177/14759217261457103
 [research_xu_lu_2018]: https://doi.org/10.1109/ibcast.2018.8312211
-[research_xu_lu_2023]: https://doi.org/10.1109/cieec58067.2023.10166402
 [research_xu_ma_2025]: https://doi.org/10.1109/icus66297.2025.11295366
-[research_xu_ma_2025_b]: https://doi.org/10.1109/vppc66000.2025.11393068
 [research_xu_men_2026]: https://doi.org/10.1016/j.porgcoat.2026.110343
-[research_xu_meng_2022]: https://doi.org/10.3390/electronics11111755
 [research_xu_peng_2026]: https://doi.org/10.1016/j.oceaneng.2026.124314
 [research_xu_shen_2022]: https://doi.org/10.1515/secm-2022-0158
 [research_xu_shi_2022]: https://doi.org/10.1109/iccsi55536.2022.9970597
-[research_xu_su_2023]: https://doi.org/10.1016/j.oceaneng.2023.113961
 [research_xu_tan_2019]: https://doi.org/10.1016/j.cja.2019.06.003
 [research_xu_tian_2024]: https://doi.org/10.1061/jaeeez.aseng-5007
-[research_xu_wan_2023]: https://doi.org/10.1016/j.oceaneng.2023.115895
-[research_xu_wan_2024]: https://doi.org/10.1177/10775463241301852
 [research_xu_wang_2015]: https://doi.org/10.1109/chicc.2015.7260857
 [research_xu_wang_2016]: https://doi.org/10.1371/journal.pone.0167168
-[research_xu_wang_2017]: https://doi.org/10.23919/chicc.2017.8029017
 [research_xu_wang_2022]: https://doi.org/10.1016/j.ast.2022.107884
 [research_xu_wang_2022_b]: https://doi.org/10.1016/j.ast.2022.107621
 [research_xu_wen_2020]: https://doi.org/10.23919/ccc50068.2020.9188433
-[research_xu_wu_2022]: https://doi.org/10.1016/j.oceaneng.2022.112644
 [research_xu_wu_2023]: https://doi.org/10.1088/2058-6272/aca18f
-[research_xu_xu_2025]: https://doi.org/10.1109/robio66223.2025.11376184
 [research_xu_yang_2017]: https://doi.org/10.23919/chicc.2017.8028280
-[research_xu_yang_2021]: https://doi.org/10.1615/atomizspr.2021037005
 [research_xu_yu_2025]: https://doi.org/10.3390/aerospace13010017
 [research_xu_zha_2019]: https://doi.org/10.2514/6.2019-3168
 [research_xu_zha_2020]: https://doi.org/10.2514/6.2020-3775
@@ -29329,10 +26749,8 @@ computable in one line from the lift equation.
 [research_xu_zhang_2024]: https://doi.org/10.1109/cac63892.2024.10865127
 [research_xu_zhang_2025]: https://doi.org/10.3390/act14050222
 [research_xu_zhao_2019]: https://doi.org/10.1109/cac48633.2019.8997447
-[research_xu_zhou_2023]: https://doi.org/10.1016/j.vlsi.2023.03.008
 [research_xuanwang_bingchu_2016]: https://doi.org/10.1109/acc.2016.7524944
 [research_xue_2015]: https://doi.org/10.2991/meic-15.2015.170
-[research_xue_chen_2022]: https://doi.org/10.1049/gtd2.12426
 [research_xue_jin_2024]: https://doi.org/10.3390/sym16070873
 [research_xue_wang_2024]: https://doi.org/10.3390/aerospace11090774
 [research_xue_yao_2016]: https://doi.org/10.1109/cis.2016.0072
@@ -29345,13 +26763,10 @@ computable in one line from the lift equation.
 [research_yagil_raveh_2018]: https://doi.org/10.2514/1.c034353
 [research_yahagi_kajiwara_2021]: https://doi.org/10.1177/16878140211036017
 [research_yahagi_kajiwara_2023]: https://doi.org/10.1109/access.2023.3278798
-[research_yahagi_suzuki_2023]: https://doi.org/10.1049/ell2.12764
 [research_yahi_matute_2024]: https://doi.org/10.1109/icns60906.2024.10550659
 [research_yahsi_yilmaz_2023]: https://doi.org/10.2514/6.2023-3587
 [research_yahyaoui_2016]: https://doi.org/10.1109/icmae.2016.7549579
 [research_yalcin_2017]: https://doi.org/10.1515/tjj-2015-0065
-[research_yamaguchi_tada_1992]: https://doi.org/10.1364/ipr.1992.wh4
-[research_yamamoto_1995]: https://doi.org/10.1016/0389-4304(95)95150-s
 [research_yamasaki_bando_2018]: https://doi.org/10.1016/j.actaastro.2017.11.002
 [research_yamato_okada_1988]: https://doi.org/10.2514/6.1988-2180
 [research_yamato_okada_1991]: https://doi.org/10.2514/3.46075
@@ -29373,12 +26788,8 @@ computable in one line from the lift equation.
 [research_yan_zhang_2023]: https://doi.org/10.1088/1742-6596/2472/1/012053
 [research_yanagihara_shigemi_1999]: https://doi.org/10.2514/2.2553
 [research_yanagimoto_rinoie_2019]: https://doi.org/10.2514/6.2019-2805
-[research_yanarates_wang_2021]: https://doi.org/10.1109/access.2021.3119042
-[research_yanarates_zhou_2021]: https://doi.org/10.1109/access.2021.3092827
 [research_yanezcanal_rangelruiz_2015]: https://doi.org/10.52041/srap.15121
-[research_yang_2015]: https://doi.org/10.3901/jme.2015.03.139
 [research_yang_2017]: https://doi.org/10.23919/chicc.2017.8027427
-[research_yang_2023]: https://doi.org/10.3102/2010595
 [research_yang_2024]: https://doi.org/10.1002/adc2.194
 [research_yang_an_2017]: https://doi.org/10.2514/6.2017-3268
 [research_yang_chang_2024]: https://doi.org/10.20944/preprints202408.0423.v1
@@ -29399,7 +26810,6 @@ computable in one line from the lift equation.
 [research_yang_he_2008]: https://doi.org/10.1109/chicc.2008.4605311
 [research_yang_huang_2018]: https://doi.org/10.1051/matecconf/201817903022
 [research_yang_huang_2024]: https://doi.org/10.23919/acc60939.2024.10644679
-[research_yang_huashan_2015]: https://doi.org/10.1109/imccc.2015.186
 [research_yang_ke_2022]: https://doi.org/10.1049/icp.2022.1579
 [research_yang_kim_2024]: https://doi.org/10.2514/1.i011234
 [research_yang_li_2017]: https://doi.org/10.1002/rnc.3754
@@ -29415,7 +26825,6 @@ computable in one line from the lift equation.
 [research_yang_mao_2018]: https://doi.org/10.23919/chicc.2018.8484083
 [research_yang_mo_2025]: https://doi.org/10.1109/tvt.2024.3458076
 [research_yang_morales_2021]: https://doi.org/10.2514/6.2021-0254
-[research_yang_ng_2017]: https://doi.org/10.1109/lcn.2017.36
 [research_yang_ren_2016]: https://doi.org/10.1007/s11424-016-5169-2
 [research_yang_rezaee_2019]: https://doi.org/10.1109/cdc40024.2019.9029242
 [research_yang_shan_2025]: https://doi.org/10.1016/j.cja.2025.103526
@@ -29457,13 +26866,10 @@ computable in one line from the lift equation.
 [research_yangzhang_shaopingwang_2018]: https://doi.org/10.1049/cp.2018.0308
 [research_yaniktepe_ozalp_2016]: https://doi.org/10.17780/ksujes.86852
 [research_yaniktepe_sekeroglu_2025]: https://doi.org/10.1063/5.0299627
-[research_yanis_schmitt_1990]: https://doi.org/10.3940/rina.navtec.1990.08
 [research_yankai_jiang_2016]: https://doi.org/10.1109/aus.2016.7748011
 [research_yao_2019]: https://doi.org/10.3390/sym11030375
 [research_yao_li_2026]: https://doi.org/10.1016/j.carbon.2026.121664
-[research_yao_liu_2020]: https://doi.org/10.1016/j.apor.2020.102374
 [research_yao_ma_2026]: https://doi.org/10.1109/taes.2025.3634222
-[research_yao_tian_2021]: https://doi.org/10.1109/cvci54083.2021.9661191
 [research_yao_wu_2019]: https://doi.org/10.1109/access.2019.2905628
 [research_yao_zhou_2018]: https://doi.org/10.1117/12.2505597
 [research_yarandi_1994]: https://doi.org/10.1097/00006199-199403000-00015
@@ -29471,7 +26877,6 @@ computable in one line from the lift equation.
 [research_yasue_2020]: https://doi.org/10.2514/1.c035564
 [research_yasue_kanno_1987]: https://doi.org/10.2514/6.1987-2586
 [research_yasue_takekoshi_1986]: https://doi.org/10.2514/6.1986-9763
-[research_yasui_tozu_1996]: https://doi.org/10.4271/960485
 [research_yavin_1985]: https://doi.org/10.1016/0270-0255(85)90022-3
 [research_yavin_1986]: https://doi.org/10.1002/oca.4660070404
 [research_yavin_1986_b]: https://doi.org/10.1007/bf00938606
@@ -29516,7 +26921,6 @@ computable in one line from the lift equation.
 [research_yiming_mei_2019]: https://doi.org/10.1109/iccais46528.2019.9074698
 [research_yin_2022]: https://doi.org/10.1109/ccdc55256.2022.10033522
 [research_yin_2023]: https://doi.org/10.54254/2753-8818/26/20241094
-[research_yin_2024]: https://doi.org/10.1109/mlise62164.2024.10674447
 [research_yin_2025]: https://doi.org/10.1109/acctcs66275.2025.00113
 [research_yin_bozhko_2018]: https://doi.org/10.1109/esars-itec.2018.8607738
 [research_yin_chu_2019]: https://doi.org/10.2514/1.g004193
@@ -29524,7 +26928,6 @@ computable in one line from the lift equation.
 [research_yin_fan_2020]: https://doi.org/10.1109/icus50048.2020.9274892
 [research_yin_kang_2022]: https://doi.org/10.23919/ccc55666.2022.9901992
 [research_yin_peng_2021]: https://doi.org/10.1166/jno.2021.2996
-[research_yin_wang_2015]: https://doi.org/10.1007/s12239-015-0086-2
 [research_yin_wang_2017]: https://doi.org/10.12783/dtetr/amsm2017/14821
 [research_yin_wang_2019]: https://doi.org/10.1109/icmae.2019.8881023
 [research_yin_wang_2025]: https://doi.org/10.1109/yac66630.2025.11149697
@@ -29532,12 +26935,10 @@ computable in one line from the lift equation.
 [research_yin_yang_2026]: https://doi.org/10.1016/j.ast.2026.113296
 [research_yip_ross_1992]: https://doi.org/10.2514/3.46248
 [research_yiu_ng_2021]: https://doi.org/10.3390/app112210923
-[research_yokoi_kawabe_2025]: https://doi.org/10.1109/isgtasia63446.2025.11431512
 [research_yokota_fujimoto_2021]: https://doi.org/10.1109/icm46511.2021.9385670
 [research_yokoyama_2016]: https://doi.org/10.1109/acc.2016.7526731
 [research_yokoyama_2018]: https://doi.org/10.2514/1.g002792
 [research_yokoyama_fujiwara_2021]: https://doi.org/10.1299/jsmemecj.2021.j181-05
-[research_yokoyama_petrea_2021]: https://doi.org/10.1109/tie.2020.3013791
 [research_yomchinda_2015]: https://doi.org/10.1109/acdt.2015.7111613
 [research_yong_1987]: https://doi.org/10.1109/cdc.1987.272573
 [research_yong_wu_2020]: https://doi.org/10.1109/icca51439.2020.9264484
@@ -29549,8 +26950,6 @@ computable in one line from the lift equation.
 [research_yoo_jeong_2023]: https://doi.org/10.1007/s11081-023-09827-7
 [research_yoo_park_2021]: https://doi.org/10.11627/jkise.2021.44.3.064
 [research_yoon_lee_2025]: https://doi.org/10.1177/15485129251335043
-[research_yoon_park_2022]: https://doi.org/10.2139/ssrn.4128744
-[research_yoshida_1993]: https://doi.org/10.1109/vnis.1993.585606
 [research_yoshioka_1999]: https://doi.org/10.1016/s0389-4304(99)00050-8
 [research_yoshioka_morita_2026]: https://doi.org/10.2514/6.2026-0546
 [research_yost_choi_2019]: https://doi.org/10.2514/6.2019-3841
@@ -29573,8 +26972,6 @@ computable in one line from the lift equation.
 [research_yu_li_2023_b]: https://doi.org/10.1016/j.ast.2023.108472
 [research_yu_li_2023_c]: https://doi.org/10.1002/rnc.6570
 [research_yu_li_2024]: https://doi.org/10.1109/tfuzz.2024.3356577
-[research_yu_luo_2024]: https://doi.org/10.1109/iv55156.2024.10588854
-[research_yu_mi_2024]: https://doi.org/10.1016/j.cnsns.2024.108235
 [research_yu_qin_2024]: https://doi.org/10.1177/09576509241248482
 [research_yu_wang_2024]: https://doi.org/10.1109/access.2024.3425462
 [research_yu_xiao_2022]: https://doi.org/10.1109/icacr55854.2022.9935553
@@ -29591,10 +26988,8 @@ computable in one line from the lift equation.
 [research_yuan_li_2019]: https://doi.org/10.1177/0020294019830115
 [research_yuan_lu_2026]: https://doi.org/10.1016/j.energy.2026.140460
 [research_yuan_pries_2025]: https://doi.org/10.1109/icuas65942.2025.11007816
-[research_yuan_shuai_2023]: https://doi.org/10.1016/j.oceaneng.2023.113976
 [research_yuan_thomson_2022]: https://doi.org/10.3390/aerospace9050271
 [research_yuan_thomson_2022_b]: https://doi.org/10.1016/j.ast.2022.107516
-[research_yuan_wang_2015]: https://doi.org/10.1080/03081087.2015.1037302
 [research_yuan_wang_2018]: https://doi.org/10.1115/1.4041815
 [research_yuan_wang_2026]: https://doi.org/10.1007/s10853-026-12201-4
 [research_yuan_wanwei_2021]: https://doi.org/10.1109/ccdc52312.2021.9601725
@@ -29615,7 +27010,6 @@ computable in one line from the lift equation.
 [research_yunjunxu_normanfitzcoy_2003]: https://ntrs.nasa.gov/citations/20040013317
 [research_yuqi_siyuan_2025]: https://doi.org/10.1007/s42423-025-00171-9
 [research_yusuff_1976]: https://doi.org/10.2514/3.46286
-[research_yusuff_2017]: https://doi.org/10.1109/afrcon.2017.8095662
 [research_yutuk_tikenogullari_2021]: https://doi.org/10.1016/j.compfluid.2020.104822
 [research_yuvarajan_2001]: https://doi.org/10.21236/ada399688
 [research_yuyuan_chunhai_2017]: https://doi.org/10.1109/ccsse.2017.8087890
@@ -29660,7 +27054,6 @@ computable in one line from the lift equation.
 [research_zhan_li_2024]: https://doi.org/10.1016/j.isatra.2024.04.017
 [research_zhan_wang_2017]: https://doi.org/10.1109/itnec.2017.8285084
 [research_zhan_yan_2015]: https://doi.org/10.1108/aeat-12-2012-0258
-[research_zhan_yuan_2026]: https://doi.org/10.1109/pesim67009.2026.11439029
 [research_zhang_2017]: https://doi.org/10.2991/mme-16.2017.103
 [research_zhang_2021]: https://doi.org/10.3233/jcm-204511
 [research_zhang_2021_b]: https://doi.org/10.1615/atomizspr.2021036488
@@ -29669,12 +27062,10 @@ computable in one line from the lift equation.
 [research_zhang_2026]: https://doi.org/10.4271/2026-99-1634
 [research_zhang_2026_b]: https://doi.org/10.1109/icaace69793.2026.11508762
 [research_zhang_an_2017]: https://doi.org/10.1115/gt2017-63369
-[research_zhang_bao_2025]: https://doi.org/10.1063/5.0247625
 [research_zhang_bradley_2022]: https://doi.org/10.3390/s22041525
 [research_zhang_cao_2021]: https://doi.org/10.2514/1.c035945
 [research_zhang_cao_2022]: https://doi.org/10.1088/1742-6596/2381/1/012086
 [research_zhang_chen_2016]: https://doi.org/10.2514/6.2016-3919
-[research_zhang_chen_2018]: https://doi.org/10.1016/j.future.2016.12.015
 [research_zhang_chen_2018_b]: https://doi.org/10.1109/wcica.2018.8630383
 [research_zhang_chen_2023]: https://doi.org/10.1109/raiic59453.2023.10280846
 [research_zhang_cheng_2019]: https://doi.org/10.1109/ccdc.2019.8832357
@@ -29706,14 +27097,11 @@ computable in one line from the lift equation.
 [research_zhang_ke_2016]: https://doi.org/10.1115/gt2016-56582
 [research_zhang_li_2015]: https://doi.org/10.1109/acc.2015.7171985
 [research_zhang_li_2016]: https://doi.org/10.1109/cgncc.2016.7828878
-[research_zhang_li_2018]: https://doi.org/10.1177/0142331218801131
 [research_zhang_li_2019]: https://doi.org/10.21629/jsee.2019.03.15
 [research_zhang_li_2020]: https://doi.org/10.1016/j.infsof.2020.106296
 [research_zhang_li_2021]: https://doi.org/10.1051/cocv/2021066
 [research_zhang_li_2024]: https://doi.org/10.1002/smo.20240014
 [research_zhang_li_2026]: https://doi.org/10.1080/21642583.2026.2634446
-[research_zhang_liang_2020]: https://doi.org/10.1109/access.2020.2964947
-[research_zhang_liang_2020_b]: https://doi.org/10.1061/9780784483053.064
 [research_zhang_liao_2018]: https://doi.org/10.1109/ccdc.2018.8407685
 [research_zhang_liu_2016]: https://doi.org/10.2514/6.2016-2102
 [research_zhang_liu_2017]: https://doi.org/10.2514/6.2017-1255
@@ -29733,7 +27121,6 @@ computable in one line from the lift equation.
 [research_zhang_mou_2023]: https://doi.org/10.1088/1742-6596/2599/1/012002
 [research_zhang_pang_2016]: https://doi.org/10.1109/chicc.2016.7554548
 [research_zhang_qi_2022]: https://doi.org/10.3390/ma15217726
-[research_zhang_qiao_2019]: https://doi.org/10.1016/j.jweia.2019.103987
 [research_zhang_ran_2023]: https://doi.org/10.3390/app132111844
 [research_zhang_ruan_2026]: https://doi.org/10.1109/tpel.2025.3593404
 [research_zhang_samtaney_2016]: https://doi.org/10.1063/1.4945005
@@ -29746,7 +27133,6 @@ computable in one line from the lift equation.
 [research_zhang_su_2022]: https://doi.org/10.1007/s12206-022-0532-9
 [research_zhang_tan_2018]: https://doi.org/10.2514/1.j056799
 [research_zhang_tang_2015]: https://doi.org/10.2514/6.2015-3667
-[research_zhang_tang_2025]: https://doi.org/10.1080/00423114.2025.2545000
 [research_zhang_vahdati_2018]: https://doi.org/10.1115/1.4041376
 [research_zhang_vahdati_2019]: https://doi.org/10.1115/1.4045552
 [research_zhang_vahdati_2019_b]: https://doi.org/10.29008/etc2019-371
@@ -29756,7 +27142,6 @@ computable in one line from the lift equation.
 [research_zhang_wang_2017]: https://doi.org/10.2991/mme-16.2017.1
 [research_zhang_wang_2017_b]: https://doi.org/10.2514/6.2017-4122
 [research_zhang_wang_2018]: https://doi.org/10.1109/imcec.2018.8469333
-[research_zhang_wang_2019]: https://doi.org/10.24425/aee.2019.125980
 [research_zhang_wang_2021]: https://doi.org/10.1016/j.ast.2020.106456
 [research_zhang_wang_2022]: https://doi.org/10.1007/s00348-022-03528-0
 [research_zhang_wang_2022_b]: https://doi.org/10.1109/icspcc55723.2022.9984362
@@ -29765,15 +27150,12 @@ computable in one line from the lift equation.
 [research_zhang_wang_2026]: https://doi.org/10.1016/j.cja.2026.104377
 [research_zhang_wei_2022]: https://doi.org/10.3390/app122010230
 [research_zhang_wei_2023]: https://doi.org/10.1109/mlccim60412.2023.00008
-[research_zhang_woo_2018]: https://doi.org/10.25071/10315/35227
-[research_zhang_wu_2021]: https://doi.org/10.1109/robio54168.2021.9739305
 [research_zhang_xi_2022]: https://doi.org/10.23919/ccc55666.2022.9902766
 [research_zhang_xia_2019]: https://doi.org/10.1109/access.2019.2927503
 [research_zhang_xia_2022]: https://doi.org/10.1109/mlccim55934.2022.00056
 [research_zhang_xia_2023]: https://doi.org/10.3390/aerospace10110961
 [research_zhang_xiang_2025]: https://doi.org/10.23919/ccc64809.2025.11178744
 [research_zhang_xiao_2020]: https://doi.org/10.1109/access.2020.2991188
-[research_zhang_xiong_2025]: https://doi.org/10.1016/j.birob.2025.100246
 [research_zhang_xu_2018]: https://doi.org/10.2514/6.2018-3067
 [research_zhang_xu_2020]: https://doi.org/10.1109/cac51589.2020.9326792
 [research_zhang_xu_2023]: https://doi.org/10.1088/1742-6596/2658/1/012018
@@ -29788,7 +27170,6 @@ computable in one line from the lift equation.
 [research_zhang_yang_2023]: https://doi.org/10.23919/ccc58697.2023.10240246
 [research_zhang_yang_2024]: https://doi.org/10.1109/isaes61964.2024.10750958
 [research_zhang_yang_2026]: https://doi.org/10.1016/j.applthermaleng.2025.129428
-[research_zhang_yeow_2018]: https://doi.org/10.1109/irmmw-thz.2018.8510077
 [research_zhang_yu_2015]: https://doi.org/10.1016/j.compstruct.2015.04.049
 [research_zhang_yu_2021]: https://doi.org/10.23919/ccc52363.2021.9550456
 [research_zhang_yu_2023]: https://doi.org/10.1016/j.dt.2022.08.010
@@ -29819,9 +27200,7 @@ computable in one line from the lift equation.
 [research_zhao_huang_2018]: https://doi.org/10.1109/ccdc.2018.8407414
 [research_zhao_jackson_1995]: https://doi.org/10.2514/6.1995-3332
 [research_zhao_ji_2024]: https://doi.org/10.1088/1742-6596/2785/1/012047
-[research_zhao_jiao_2016]: https://doi.org/10.1109/aus.2016.7748213
 [research_zhao_jimzhu_2017]: https://doi.org/10.2514/1.g001835
-[research_zhao_jin_2020]: https://doi.org/10.1016/j.applthermaleng.2020.115015
 [research_zhao_jin_2023]: https://doi.org/10.3390/aerospace10030207
 [research_zhao_li_2019]: https://doi.org/10.1109/access.2019.2930658
 [research_zhao_li_2023]: https://doi.org/10.1109/isctech60480.2023.00073
@@ -29834,7 +27213,6 @@ computable in one line from the lift equation.
 [research_zhao_shi_2018]: https://doi.org/10.1002/rnc.4344
 [research_zhao_shi_2018_b]: https://doi.org/10.23919/chicc.2018.8483135
 [research_zhao_sun_2017]: https://doi.org/10.1016/j.applthermaleng.2017.05.181
-[research_zhao_sun_2025]: https://doi.org/10.1109/itsc60802.2025.11423743
 [research_zhao_tran_2025]: https://doi.org/10.3390/jsan14030063
 [research_zhao_wang_2016]: https://doi.org/10.1109/aus.2016.7748075
 [research_zhao_wang_2020]: https://doi.org/10.1109/icmae50897.2020.9178863
@@ -29844,7 +27222,6 @@ computable in one line from the lift equation.
 [research_zhao_xu_2024]: https://doi.org/10.3390/drones8090429
 [research_zhao_yang_2019]: https://doi.org/10.1016/j.neucom.2018.12.001
 [research_zhao_yuan_2024]: https://doi.org/10.1088/1742-6596/2820/1/012002
-[research_zhao_zhang_2024]: https://doi.org/10.1049/gtd2.13335
 [research_zhao_zhang_2024_b]: https://doi.org/10.1109/cisce62493.2024.10653305
 [research_zhao_zhang_2024_c]: https://doi.org/10.1016/j.jweia.2024.105905
 [research_zhao_zhang_2026]: https://doi.org/10.1016/j.ast.2026.113173
@@ -29855,7 +27232,6 @@ computable in one line from the lift equation.
 [research_zhao_zhu_2024]: https://doi.org/10.1145/3672121.3672155
 [research_zharfa_ozturk_2016]: https://doi.org/10.2514/1.j054495
 [research_zhen_hao_2020]: https://doi.org/10.1109/ddcls49620.2020.9275205
-[research_zhen_zhang_2022]: https://doi.org/10.1002/asjc.2864
 [research_zheng_duan_2023]: https://doi.org/10.20517/ir.2023.04
 [research_zheng_feiguo_2017]: https://doi.org/10.1109/icmae.2017.8038740
 [research_zheng_gao_2025]: https://doi.org/10.1063/5.0255732
@@ -29864,7 +27240,6 @@ computable in one line from the lift equation.
 [research_zheng_li_2019]: https://doi.org/10.1109/ccdc.2019.8833258
 [research_zheng_liu_2021]: https://doi.org/10.3390/aerospace8120367
 [research_zheng_liu_2023]: https://doi.org/10.1109/ccdc58219.2023.10327633
-[research_zheng_liu_2025]: https://doi.org/10.64697/978-90-835589-7-4_41wc-p1624-cd
 [research_zheng_lu_2026]: https://doi.org/10.2514/1.c038686
 [research_zheng_merret_2023]: https://doi.org/10.2514/6.2023-0032
 [research_zheng_qu_2026]: https://doi.org/10.2514/1.c038372
@@ -29885,7 +27260,6 @@ computable in one line from the lift equation.
 [research_zhi_chen_2018]: https://doi.org/10.1049/iet-cta.2017.0385
 [research_zhijie_taiyu_2025]: https://doi.org/10.1007/s00348-025-04112-y
 [research_zhishuai_lingling_2022]: https://doi.org/10.1109/ccdc55256.2022.10034339
-[research_zhivkov_fidanova_2026]: https://doi.org/10.3390/atmos17040335
 [research_zhixin_2022]: https://doi.org/10.1109/icmeas57305.2022.00056
 [research_zhong_felix_2015]: https://doi.org/10.1016/j.cja.2015.02.004
 [research_zhong_qi_2020]: https://doi.org/10.1088/1757-899x/887/1/012011
@@ -29897,7 +27271,6 @@ computable in one line from the lift equation.
 [research_zhongyang_yankui_2017]: https://doi.org/10.1088/1873-7005/aa9582
 [research_zhou_1994]: https://doi.org/10.2514/6.1994-3517
 [research_zhou_chang_2026]: https://doi.org/10.1016/j.isatra.2025.10.017
-[research_zhou_chen_2018]: https://doi.org/10.1049/iet-gtd.2017.0876
 [research_zhou_cheng_2024]: https://doi.org/10.2514/1.j064022
 [research_zhou_diskin_2019]: https://doi.org/10.2514/6.2019-3524
 [research_zhou_dong_2024]: https://doi.org/10.1088/1742-6596/2820/1/012051
@@ -29906,7 +27279,6 @@ computable in one line from the lift equation.
 [research_zhou_gong_2026]: https://doi.org/10.1061/jaeeez.aseng-6212
 [research_zhou_guan_2026]: https://doi.org/10.1177/14759217251411529
 [research_zhou_li_2019]: https://doi.org/10.1063/1.5095499
-[research_zhou_li_2025]: https://doi.org/10.1016/j.marpolbul.2025.117574
 [research_zhou_li_2026]: https://doi.org/10.1177/14759217261423169
 [research_zhou_lin_2018]: https://doi.org/10.1109/access.2018.2812819
 [research_zhou_liu_2016]: https://doi.org/10.1155/2016/8153282
@@ -29929,7 +27301,6 @@ computable in one line from the lift equation.
 [research_zhou_wang_2022]: https://doi.org/10.3390/sym14091837
 [research_zhou_wei_2019]: https://doi.org/10.1109/qr2mse46217.2019.9021204
 [research_zhou_wei_2025]: https://doi.org/10.1016/j.oceaneng.2024.120210
-[research_zhou_xue_2024]: https://doi.org/10.1016/j.jclepro.2024.140720
 [research_zhou_yang_2017]: https://doi.org/10.1109/icca.2017.8003042
 [research_zhou_yang_2022]: https://doi.org/10.1002/rnc.6503
 [research_zhou_yang_2024]: https://doi.org/10.1016/j.cja.2024.04.008
@@ -29953,7 +27324,6 @@ computable in one line from the lift equation.
 [research_zhu_sempertegui_2017]: https://doi.org/10.2514/6.2017-3234
 [research_zhu_shan_2021]: https://doi.org/10.1007/s12555-020-0618-z
 [research_zhu_shi_2022]: https://doi.org/10.1063/5.0076173
-[research_zhu_wang_2019]: https://doi.org/10.3390/en12163101
 [research_zhu_wang_2024]: https://doi.org/10.1063/5.0187959
 [research_zhu_xu_2026]: https://doi.org/10.1016/j.ast.2025.110922
 [research_zhu_yuan_2015]: https://doi.org/10.1063/1.4928313
@@ -29961,13 +27331,11 @@ computable in one line from the lift equation.
 [research_zhu_zheng_2024]: https://doi.org/10.3390/drones8120756
 [research_zhubin_ruikun_2023]: https://doi.org/10.1088/1742-6596/2551/1/012001
 [research_zhuo_nahon_2026]: https://doi.org/10.1109/icuas69441.2026.11598594
-[research_zhuochen_zhaobindu_2019]: https://doi.org/10.1049/cp.2019.0487
 [research_zhuravsky_kostin_2023]: https://doi.org/10.26467/2079-0619-2022-25-6-77-90
 [research_ziakkas_henneberry_2025]: https://doi.org/10.54941/ahfe1005928
 [research_zielinskakolasinska_zielinski_2023]: https://doi.org/10.59170/stattrans-2023-023
 [research_zielinski_2018]: https://doi.org/10.4064/am2349-12-2017
 [research_ziglar_2026]: https://doi.org/10.1109/aero66936.2026.11519840
-[research_zihao_ye_2015]: https://doi.org/10.1109/iccar.2015.7166005
 [research_zikmund_dubnicky_2019]: https://doi.org/10.1051/matecconf/201930406005
 [research_zilman_miloh_1992]: https://doi.org/10.5957/attc-1992-040
 [research_zimbelman_rouser_2025]: https://doi.org/10.1115/gt2025-153304
@@ -29997,7 +27365,6 @@ computable in one line from the lift equation.
 [research_zugaj_2017]: https://doi.org/10.2478/tar-2017-0017
 [research_zuhri_2025]: https://doi.org/10.55981/ijoa.2025.9106
 [research_zunic_dovatov_2023]: https://doi.org/10.5937/str23020032z
-[research_zunyiliu_1995]: https://doi.org/10.1049/cp:19951210
 [research_zuo_zhang_2024]: https://doi.org/10.1016/j.flowmeasinst.2024.102670
 [research_zweig_benasher_1995]: https://doi.org/10.2514/6.1995-3482
 [research_zwerger_hickel_2015]: https://doi.org/10.2514/6.2015-2572

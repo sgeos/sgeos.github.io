@@ -440,7 +440,6 @@ was tested over twenty thousand randomised combinations of thrust, flow and impu
 - [THIOVEC Trademark TVC Nozzle Warm Gas Actuation][research_huskey_1975]
 - [The effect of nozzle tailpipe boattails on model rocket...][research_micci_1975]
 - [Characterization of advanced solid rocket nozzle materials][research_baetz_1976]
-- [Economic impact analysis of emergency boiler combustion...][research_author_1976]
 - [Effects of hydrocarbon propellant composition on infrared...][research_rothschild_martin_1976]
 - [Mathematical modeling of the combustion process in the...][research_kolesovas_svitra_1976]
 - [Aerodynamic and thermodynamic characteristics of...][research_khalil_whitelaw_1977]
@@ -641,12 +640,10 @@ was tested over twenty thousand randomised combinations of thrust, flow and impu
 - [Comparison of high aspect ratio cooling channel designs for a...][research_wadel_wadel_1997]
 - [Evaluation of Thermochemical Erosion of the Solid Propellant...][research_vural_ak_1997]
 - [Experimental Investigation of a Cooling System Entrance for...][research_lindqvist_nilsson_1997]
-- [Extent, Mass, and Duration of Hydrocarbon Plumes from Leaking...][research_mace_fisher_1997]
 - [Fuel/propellant mixing in an open-cycle gas core nuclear...][research_guo_wehrmeyer_1997]
 - [Liquid rocket engine combustion instability][research_reardon_1997]
 - [Numerical simulation of flow separation in rocket nozzle][research_hadjadj_nebbache_1997]
 - [Performance enhancements for the reusable solid rocket motor...][research_cook_walters_1997]
-- [Remediation of petroleum hydrocarbon-contaminated ground...][research_remediation_of_1997]
 - [SCCREAM Simulated Combined-Cycle Rocket Engine Analysis...][research_olds_bradford_1997]
 - [Transpiring cooling of a scram-jet engine combustion chamber][research_choi_scotti_1997]
 - [Convective Heat Transfer Coefficient on a Multiholed Plate...][research_emidio_grienche_1998]
@@ -946,8 +943,6 @@ the engine was designed.
 - [Turbulent Liquid-metal Heat Transfer in Concentric Annuli...][research_yu_chen_1969]
 - [Downstream Influence of Film-cooling in a Supersonic...][research_laganelli_1970]
 
-- [Recession lines of Niagara Falls][research_spencer_1906]
-- [Recession lines of Niagara Falls][research_spencer_1907]
 - [A semi-quantitative prediction of the erosion of graphite...][research_delaney_eagleton_1964]
 - [Analysis of the Effects of Environmental Conditions on the...][research_swann_dow_1964]
 - [Ablatively cooled pulse rocket engine design][research_fiorito_1964]
@@ -1006,8 +1001,6 @@ State says so rather than guessing.
 - [A semi-empirical method for correlating the thermal...][research_mezines_1968]
 - [A study of the effects of environmental and ablator...][research_coleman_hearne_1968]
 - [Ablative surface recession and mass loss on large-angle...][research_orlikruckemann_1968]
-- [An improved method for the quantitative analysis of lipid...][research_nutter_privett_1968]
-- [Contusive Angle Recession a Histopathological Study of a...][research_jensen_1968]
 - [Comment on "Carbon-Silica Reaction in Silica-Phenolic...][research_rindal_moyer_1968]
 - [Demonstration of 156 Inch Motor with Segmented Fiberglass...][research_walker_zeigler_1968]
 - [Effect of material and process deviations on the performance...][research_davis_1968]
@@ -1467,7 +1460,6 @@ article's Epistemic State says so.
 - [Logistical Support of a Multiple Launch Rocket System MLRS...][research_thrasher_1993]
 - [System for adverse weather landing][research_ferguson_radke_1993]
 - [Differential GPS and system integration of the Low Visibility...][research_rankinjamesm_1994]
-- [Legged Vehicle for Underwater Mobile Operations][research_ayers_1994]
 - [Avionics reliability modelling for aircraft conceptual design][research_fielding_vaziryz_1995]
 - [Future launch vehicle propulsion systems operability analysis][research_christenson_holt_1995]
 - [Thermal Protection in Small Boat Special Operations][research_thomas_hyde_1998]
@@ -1477,10 +1469,8 @@ article's Epistemic State says so.
 - [Spaceliner Class Operability Gains Via Combined Airbreathing/...][research_nixmichaelb_escherwilliamjd_1999]
 - [A reusable enterprise model][research_yu_harding_2000]
 - [Approximation Model Building for Reliability and...][research_unalresit_morriswdouglas_2000]
-- [Peace Operations The Cost Of Doing Business][research_pidgeon_jr_2000]
 - [Assessment of Perchlorate Releases in Launch Operations][research_lang_bohman_2001]
 - [Fatigue Management for Aerospace Expeditionary Forces...][research_leclair_2001]
-- [M1117 Guardian" Armored Security Vehicle ASV Employment in...][research_bradford_2001]
 - [Assessment of Perchlorate Releases in Launch Operations II][research_lang_bohman_2002]
 - [Use of Multiple Launch Rocket System MLRS in Military...][research_hutton_2002]
 - [Assessment of Perchlorate Releases in Launch Operations III][research_lang_bohman_2003]
@@ -1500,7 +1490,6 @@ article's Epistemic State says so.
 - [Range Safety for an Autonomous Flight Safety System][research_lanziraymondj_simpsonjamesc_2010]
 - [Hybrid Airships Intratheater Operations Cost-Benefit Analysis][research_lynch_2011]
 - [Standards and Specifications for Ground Processing of Space...][research_ingallsjohn_cipollettijohn_2011]
-- [Characteristics of a Maritime Interdiction Operations...][research_nguyen_baker_2012]
 - [General Purpose Data-Driven System Monitoring for Space...][research_davidliverson_rodneymartin_2012]
 - [Business Case Analysis of the Special Operations Air Mobility...][research_wodele_2013]
 - [Special Operations Aerial Mobility Vehicle Training Syllabus][research_jensen_2013]
@@ -1575,11 +1564,9 @@ quantity that would have settled it, turnaround, was never measured.
 - [Low-cost stainless steels in greater use][research_low_cost_stainless_1993]
 - [Test results from a simple, low-cost, pressure-fed liquid...][research_dresslerga_stoddardfj_1993]
 - [Low cost, low erosion throat material for solid rocket motors][research_baker_dunn_1994]
-- [Development of low cost intercooler hose for turbo...][research_nisizawa_1995]
 - [Technology-insertion life-cycle-cost model][research_yelverton_1995]
 - [Test vehicle ALEX-I for low-cost autonomous parafoil landing...][research_doherr_jann_1997]
 - [Affordable hybrid simulation for predicting store separation][research_hoffren_salminen_1999]
-- [UNIFORMAT II elemental classification for building...][research_charette_marshall_1999]
 - [Low Cost UUV's for Military Applications Is the Technology...][research_wernli_2000]
 - [Low-Cost Approach to the Design and Fabrication of a LOX/RP-1...][research_shadoanmichaeld_sparksdavel_2000]
 - [The K-1 reusable aerospace vehicle managing to achieve low...][research_muellerhm_lepore_2000]
@@ -1649,7 +1636,6 @@ built and did not fly.
 with pyrolysis, char and surface chemistry resolved rather than lumped, and it is driven largely by
 planetary entry rather than by cheap engines.
 
-- [A Comprehensive Simulation Model of Kerogen Pyrolysis for the...][research_lee_moridis_2015]
 - [A nonlinear pyrolysis layer model for analyzing thermal...][research_li_huang_2015]
 - [Comparisons of PICA In-depth Material Performance and Ablator...][research_smith_white_2015]
 - [Conformal Phenolic Impregnated Carbon Ablator C-PICA Arcjet...][research_milos_gasch_2015]
@@ -1659,11 +1645,9 @@ planetary entry rather than by cheap engines.
 - [Development of pyrolysis models for charring polymers][research_li_gong_2015]
 - [Evaluation of Finite-Rate Gas/Surface Interaction Models for...][research_chen_gokcen_2015]
 - [Flame retardancy and thermal degradation of intumescent flame...][research_feng_liang_2015]
-- [Model of Fast Pyrolysis of a Small Volume-Fraction of Biomass...][research_parziale_2015]
 - [Modeling the Pyrolysis and Combustion Behaviors of...][research_shi_chew_2015]
 - [Molecular Dynamics Simulation of n-Heptane Pyrolysis using...][research_hirai_2015]
 - [Nonlinear pyrolysis layer model for thermal behavior of...][research_li_huang_2015_b]
-- [Numerical Analysis of Charring of Timber Structures in...][research_salminen_2015]
 - [Numerical Investigation of Thermal Response Using Orthotropic...][research_weng_martin_2015]
 - [Numerical Simulation of Regular Surface Patterns on...][research_trevino_candler_2015]
 - [Quantitative determination of species production from the...][research_wong_peck_2015]
@@ -1690,7 +1674,6 @@ planetary entry rather than by cheap engines.
 - [Fully Coupled Ablation Modeling of Non-Charring Hypersonic...][research_chen_boyd_2017]
 - [Fully coupled CFD simulation of the pyrolysis of non-charring...][research_boyer_2017]
 - [High-temperature pyrolysis simulation of...][research_saha_bhowmick_2017]
-- [Investigation of model scale effects on coal pyrolysis using...][research_zheng_li_2017]
 - [Numerical simulation of a non-charring ablator in high...][research_schrooyen_coheur_2017]
 - [Radiative Transfer in a Low Density Ablative Material under...][research_horiuchi_sakai_2017]
 - [Test and Analysis of Solid Rocket Motor Nozzle Ablative...][research_claytonjlouie_2017]
@@ -1702,7 +1685,6 @@ planetary entry rather than by cheap engines.
 - [Evaluation of thermal protection performance and heat...][research_yoko_kubota_2018]
 - [Laser Propulsion Technological Demonstrator Rocket Mode with...][research_pimentel_rego_2018]
 - [One-Dimensional Thermal Analysis Model for Charring Ablative...][research_mazzaracchio_2018]
-- [Simulation of Polymer Exchange Membrane Fuel Cell Utilizing...][research_nur_pane_2018]
 - [Simulation of the pyrolysis of charring polymers influence of...][research_shi_boyer_2018]
 - [Study on Pyrolysis Model of Mineral Insulating Oil and...][research_wang_du_2018]
 - [Thermo-structural Analysis of Solid Rocket Scarfed Nozzle...][research_murugan_kurian_2018]
@@ -1717,7 +1699,6 @@ planetary entry rather than by cheap engines.
 - [Pyrolysis gas diffusion model in kevlar/nomex honeycomb...][research_liu_wei_2019]
 - [The Flame Retardancy of Charring Agent MTHEIC on Flame...][research_gao_zou_2019]
 - [Thermal Response of an Orthotropic Non-charring Ablative...][research_tatar_2019]
-- [A novel approach to determine charring of wood in natural...][research_pecenko_hozjan_2020]
 - [Ablative Laser Structuring for Stretchable Multilayer and...][research_stier_bose_2020]
 - [Competitive kinetic model for the pyrolysis of the Phenolic...][research_torresherrador_coheur_2020]
 - [Detection of Spallation Phenomena on Ablator Surfaces][research_grigat_loehle_2020]
@@ -1736,7 +1717,6 @@ planetary entry rather than by cheap engines.
 - [Inverse identification of temperature-dependent thermal...][research_tahmasbi_noori_2021]
 - [Two-dimensional study of charring ablative materials using...][research_tatar_2021]
 - [Arc-jet measurements of low-density ablator spallation][research_price_panerai_2022]
-- [Biomass fast pyrolysis prediction model through data-based...][research_kim_choi_2022]
 - [CHyPS A High-Order Material Response Solver for Ablative...][research_chiodi_stephani_2022]
 - [Chemical Kinetics and Thermal Properties of Ablator Pyrolysis...][research_gosma_harper_2022]
 - [Correction Fully-Coupled Simulation of Low Temperature...][research_zibitsker_mcquaid_2022_b]
@@ -1782,16 +1762,12 @@ planetary entry rather than by cheap engines.
 - [Performance Evaluation of Compression-Molded Ablative Rocket...][research_damane_pitot_2024]
 - [Predicting the entire pyrolysis process of representative...][research_wu_liu_2024]
 - [Pyrolysis Gas Energy Transport in Ablative Material][research_joseph_duplessis_2024]
-- [RecessionRisk+ A Novel Recession Risk Model with Applications...][research_giacomelli_passalacqua_2024]
 - [Simulation of a Low Enthalpy Ablator into a Hypersonic...][research_condren_hermann_2024]
-- [Simulation of coconut shell combustion in a grate-fired...][research_habibi_nugraha_2024]
 - [Solar-Thermal Testing of Ablator Materials in an Atomic...][research_anderson_lawless_2024]
-- [The effect of H2 and NH3 on the pyrolysis of coal model...][research_liu_zhang_2024]
 - [Validation of Ablation and Thermal Response Model for...][research_chen_gokcen_2024]
 - [Validation of a Charring Ablator Material Response Code...][research_quinn_pickard_2024]
 - [A phenomenological model for cellulose charring during low...][research_odak_warren_2025]
 - [Adaptive physics-informed neural network to simultaneously...][research_zheng_huang_2025_b]
-- [Anaerobic digestion of biosolid pyrolysis liquid and...][research_indrebo_flatabo_2025]
 - [Characterization of ablator dynamics initiated by...][research_kafka_goncharov_2025]
 - [Coupled Aerothermal Prediction of Ablative Hypersonic...][research_shah_navajasortega_2025]
 - [Development and validation of an in-situ recession...][research_trotsky_baccarella_2025]
@@ -1803,8 +1779,6 @@ planetary entry rather than by cheap engines.
 - [A Rapid Computational Framework for Predicting Ablative...][research_morris_lasorsa_2026]
 - [A peridynamic multiphysics model for...][research_huang_hao_2026]
 - [Characterization of Ablator Recession and Thermal Response...][research_salvi_hohn_2026]
-- [Direct drive laser fusion targets with a porous ablator][research_direct_drive_laser_2026]
-- [Effect of radiative heat flux and material charring on smoke...][research_ha_jeon_2026]
 - [Parameter sensitivity analysis and rapid prediction of...][research_qin_li_2026]
 
 ### Low-Cost Propulsion, Which Came Back Through Manufacture
@@ -1825,13 +1799,11 @@ are made rather than in how they work.
 - [Prediction of Model Rocket Trajectories Using Low Cost Sensor...][research_hanc_jones_2022]
 - [Design and Implementation of a Low-Cost Folding-Wing UAV for...][research_watson_gonzalez_2023]
 - [Design and Structural Analysis of Low-Cost Modular Rocket...][research_szalkowski_chrostowski_2024]
-- [Experimental evaluation of low-cost thermoelectric integrated...][research_haile_adem_2024]
 - [FGM combustion model performance in a simplified naval engine...][research_dimatteo_somers_2024]
 - [Reusable and Low Cost Space Rocket Engine with High Efficient...][research_saboktakin_monjezi_2024]
 - [A versatile low-cost data acquisition system for small rocket...][research_netzel_batista_2025]
 - [DART A Low-cost Data Acquisition System for Small...][research_netzel_batista_2025_b]
 - [Design and validation of ADRC-based variable thrust control...][research_xiong_liu_2025]
-- [Innovative Use of Basic Technologies for a High-Efficiency...][research_singh_singh_2025]
 - [Low-Cost Hypersonic Rocket Design, Simulation, and Launch...][research_sinclair_nguyen_2025]
 - [Novel Use of Non-Combustible Propellant Analogs for Rapid...][research_khalimonov_ng_2025]
 
@@ -1842,13 +1814,10 @@ are made rather than in how they work.
 - [Redesigning a Reaction Control Thruster for Metal-Based...][research_woods_meisel_2016]
 - [Use of Additive Manufacturing to Develop Advanced Hybrid...][research_catina_nellis_2016]
 - [A Review on Properties of Aerospace Materials Through...][research_a_review_2017]
-- [All-in-one 3D printed microscopy chamber for multidimensional...][research_alessandri_andrique_2017]
-- [Design and Additive Manufacturing of Lattice-based Cellular...][research_naboni_kunic_2017]
 - [Design for Additive Manufacturing in the Cloud Platform][research_wang_blache_2017]
 - [Development of a 3D printed device to support long term...][research_costa_nosach_2017]
 - [Special Section Designing for Additive Manufacturing Recent...][research_special_section_2017]
 - [Topology optimization of a 3D printed acoustic chamber for...][research_haouari_rochus_2017]
-- [3D-Printed Reusable Cell Culture Chamber with Integrated...][research_schneidereit_tschernich_2018]
 - [Additive Manufacturing for Civil Infrastructure Design and...][research_bhardwaj_zou_2018]
 - [Design approach for additive manufacturing employing...][research_kamps_biedermann_2018]
 - [Flexible Strain Sensor Using Additive Manufacturing and...][research_smith_bardaweel_2018]
@@ -1862,14 +1831,12 @@ are made rather than in how they work.
 - [Design for Additive Manufacturing Using a Master Model...][research_wiberg_persson_2019]
 - [Design for Additive Manufacturing Effectiveness of Unit Cell...][research_boyd_fazelpour_2019]
 - [How the Design of a 3D Printer Bridged Engineering Design...][research_lindberg_campbell_2019]
-- [Performance Test of Fingers on 3D Printed Myoelectric...][research_pambudi_ismail_2019]
 - [Performance Test of Metal 3D Printed Micro Gas Turbine Engine...][research_kim_kim_2019]
 - [Technology cost drivers for a potential transition to...][research_bonninroca_vaishnav_2019]
 - [Additive manufacturing of high modulus steels New...][research_springer_baron_2020]
 - [Additive manufacturing-enabled design, manufacturing, and...][research_peng_zhu_2020]
 - [Combustion of 3D printed 90 wt% loading reinforced...][research_shen_wang_2020]
 - [Computational design synthesis of additive manufactured...][research_biedermann_meboldt_2020]
-- [Computer-Aided Design and Additive Manufacturing of Custom...][research_chen_plott_2020]
 - [Design and characterisation of an additive manufacturing...][research_rivassantos_thompson_2020]
 - [Design for additive manufacturing process for a lightweight...][research_diegel_schutte_2020]
 - [Design of a laser control system with continuously variable...][research_phillips_ricker_2020]
@@ -1883,7 +1850,6 @@ are made rather than in how they work.
 - [Thermal characterization of the build chamber in electron...][research_landau_tiferet_2020]
 - [Timescapes Design and Additive Manufacturing Workflows for...][research_raspall_banon_2020]
 - [3D printed ABS/paraffin hybrid rocket fuels with carbon dots...][research_oztan_ginzburg_2021]
-- [3D printed multicompartmental capsules for a progressive drug...][research_russi_delgaudio_2021]
 - [A constructive solid geometry-based generative design method...][research_wang_zhang_2021]
 - [Advanced design for additive manufacturing][research_simpson_2021]
 - [Augmented Design with Additive Manufacturing Methodology...][research_lang_segonds_2021]
@@ -1896,13 +1862,11 @@ are made rather than in how they work.
 - [Image-Guided Multi-Response Modeling and Characterization of...][research_imani_khanzadeh_2021]
 - [Machine learning and knowledge graph based design rule...][research_ko_witherell_2021]
 - [Material and Vacuum Characterization of 3D Printed Stainless...][research_bryant_2021]
-- [Real-Time Monitoring of Wound Healing by Using Label-free...][research_chang_2021]
 - [Recurrence network analysis of design-quality interactions in...][research_chen_rao_2021]
 - [Utilization of additive manufacturing in hybrid rocket...][research_oztan_coverstone_2021]
 - [Applications of Additive Manufacturing in Aerospace Reducing...][research_jain_2022]
 - [Exploring Augmented Reality for Teaching Design for Additive...][research_melo_ravi_2022]
 - [Intelligent additive manufacturing and design state of the...][research_xiong_tang_2022]
-- [Shear performance of 3D printed concrete reinforced with...][research_sun_ye_2022]
 - [Topology optimization based channel design for powder-bed...][research_wang_xia_2022]
 - [Towards smart monitored AM Open source in-situ layer-wise 3D...][research_petsiuk_pearce_2022]
 - [3D Printed Drivetrain Development for Inspection Robot][research_wilkinson_2023]
@@ -1921,7 +1885,6 @@ are made rather than in how they work.
 - [Multi-Resolution Quality Inspection for Additive Manufacturing][research_yang_reijonen_2023]
 - [Novel STL-Free Design Paradigm for High-Resolution...][research_rastegarzadeh_huang_2023]
 - [PO-1789 Ionisation chamber constancy check a 3D printed...][research_parent_zidane_2023]
-- [The Contribution of Additive Manufacturing in the Design of...][research_rossi_2023]
 - [A heterogeneous pore design algorithm for material extrusion...][research_qu_liu_2024]
 - [Additive manufacturing of functionally graded foams Material...][research_kalia_ameli_2024]
 - [Bridging Biomimetics and Additive Manufacturing for Dynamic...][research_titotto_2024]
@@ -1966,7 +1929,6 @@ are made rather than in how they work.
 - [Effect of injector configuration in rocket nozzle film cooling][research_kumar_pisharady_2015]
 - [Evolutionary algorithm applied to ballistic launch vehicle...][research_yoda_ito_2015]
 - [Fuel Chemistry And Combustion Distribution Effects On Rocket...][research_anderson_heister_2015]
-- [Impact of Swirl Ratio on Combustion Performance of a Non-Pent...][research_kocsis_joo_2015]
 - [Modeling and computation of the cavitating flow in injection...][research_kanfoudi_zgolli_2015]
 - [Modeling and simulation of a GOX/kerosene subscale rocket...][research_hoglauer_kniesner_2015]
 - [Multidisciplinary Design Exploration for Sounding Launch...][research_chiba_kanazaki_2015]
@@ -2003,8 +1965,6 @@ are made rather than in how they work.
 - [The issue of ensuring the safe explosion of the spent orbital...][research_trushlyakov_zharikov_2016]
 - [Thermal analyses supporting the development of a liquid...][research_ricci_natale_2016]
 - [Validation of Damage Parameter Based Finite Element Fatigue...][research_thiede_riccius_2016]
-- [Velocity Monitoring of Molten Steel in a Continuous Casting...][research_miranda_barron_2016]
-- [Analisa Proses Engine Cutting Simulation Daihatsu Charade][research_usman_2017]
 - [Active Mixing Nozzle for Multi-Material and Multi-Scale 3D...][research_lan_2017]
 - [Analysis of 3D Printed Titanium Rocket Nozzle][research_fritz_huebsch_2017]
 - [CFD analysis of axial pump of lox booster turbo pump for a...][research_mishra_ghosh_2017]
@@ -2073,16 +2033,12 @@ are made rather than in how they work.
 - [Numerical simulation of nozzle flow for design of the devices...][research_kimura_imai_2018]
 - [Optimal nozzle Mach number for maximizing altitude of...][research_lee_2018]
 - [Optimization of Nozzle Shape of Hydrogen-Oxygen Rocket Engine][research_matveev_zubanov_2018]
-- [Pengaruh Variasi Arah Dan Massa Serat Tkks Terhadap Kekuatan...][research_pareo_2018]
-- [Perbandingan Akselerasi Mobil Listrik Tuxuci Menggunakan...][research_syarifudin_2018]
 - [Partial Transparency of Advanced Compression Ignition...][research_hoffman_odonnell_2018]
-- [Pengaruh Variasi Kecepatan Feeding Pada CNC Router 3 Axis...][research_ariyanto_2018]
 - [Performance assessment of electrically driven pump-fed...][research_kwak_kwon_2018]
 - [Preliminary Design Analysis of Regenerative Cooling for N 2...][research_palej_palacz_2018]
 - [RX-320 Rocket Static Pressure Combustion Chamber Prediction...][research_sofyan_wuwung_2018]
 - [Reduced Kinetic Scheme of Methane/Oxygen Combustion for...][research_saccone_natale_2018]
 - [Reduced Reaction Mechanism for Rocket Nozzle Ablation...][research_cross_boyd_2018]
-- [Simulation model of converging-diverging CD nozzle to improve...][research_sumarsono_ibrahim_2018]
 - [Simulation of swirling wet steam flow through a supersonic...][research_vijayakumaran_lemma_2018]
 - [The 3D Computational Investigation of Film Cooling...][research_gorelov_tyulkov_2018]
 - [Thermal Activation of the Combustion Chamber of a...][research_sroka_sadlak_2018]
@@ -2102,7 +2058,6 @@ are made rather than in how they work.
 - [Design and tool anchoring for a 120-kilonewton expander cycle...][research_souverein_maeding_2019]
 - [Development and Evaluation of Startup Simulation Code for an...][research_jung_2019]
 - [Evaluation of the Reliability Test Results of a Rocket Engine...][research_podolchak_2019]
-- [Efektivitas Kecepatan Laju Pengikisan Terhadap Material...][research_qurohman_usman_2019]
 - [Effect of Aft Chamber Volume on Hybrid Rocket Combustion...][research_kageyama_kamps_2019]
 - [Effect of Optical and Structural Parameters of Thermal...][research_merzlikin_smirnov_2019]
 - [Effects of heat treatments to inner liner material, thermal...][research_kimura_moriya_2019]
@@ -2166,7 +2121,6 @@ are made rather than in how they work.
 - [Predicting and Improvising the Performance of Rocket Nozzle...][research_krishna_2020]
 - [Prediction of Flow Separation and Side-loads in Rocket Nozzle...][research_daviller_dombard_2020]
 - [Research of heat transfer in combustion chamber of diesel...][research_vintsarevich_mityakov_2020]
-- [Rotation nozzle and numerical simulation of mass distribution...][research_liu_li_2020]
 - [Roughness Augmented High Pressure Flow Boiling Heat Transfer...][research_ortega_palacios_2020]
 - [Simulation Analysis of the Influence of Nozzle Structure...][research_liu_zheng_2020]
 - [Stress and Displacement Distribution of the Thermal Barrier...][research_wang_li_2020]
@@ -2208,10 +2162,8 @@ are made rather than in how they work.
 - [Multi-Phase Impact on the Heat Load Characteristics of a...][research_rahn_riedmann_2021]
 - [Numerical Simulation Coupling on Fluid Flow and Heat Transfer...][research_ni_wu_2021]
 - [Numerical investigation on performance of convergent...][research_bhaskar_sahu_2021]
-- [Numerical simulation and industrial application of nozzle...][research_hua_bao_2021]
 - [On the characterization of methane in rocket nozzle cooling...][research_heldens_fridh_2021]
 - [Overview and analysis of the experimentally measured throat...][research_pizzarelli_2021]
-- [Pengaruh Variasi Putaran Mesin Terhadap Waktu Pengeboran...][research_akhmadi_wulandari_2021]
 - [Portable test platform for student liquid rocket engine...][research_robertson_broomby_2021]
 - [Process Development and Hot-fire Testing of Additively...][research_gradl_teasley_2021]
 - [Pseudo-boiling and heat transfer deterioration while heating...][research_nasuti_pizzarelli_2021]
@@ -2362,7 +2314,6 @@ are made rather than in how they work.
 - [Design and Evaluation of a Small Scale Liquid Rocket Engine...][research_bermudez_2024]
 - [Design and Progress of a LOX/methane Reusable Commercial...][research_jiawei_2024]
 - [Design, Manufacturing and Cold Flow Testing of a Liquid...][research_broomby_trifoni_2024]
-- [Detailed Investigation of Diesel-Gas Dual Fuel Combustion...][research_redtenbacher_kiesling_2024]
 - [Development Status of the Air Turbo Rocket Engine "ATRIUM”][research_kobayashi_2024]
 - [Development and Testing of a Thrust Vector Control System for...][research_shynkarenko_bertoldi_2024]
 - [Development of Atlas A Liquid Rocket Engine Cryogenic Feed...][research_pharokhipanah_bouckenooghe_2024]
@@ -2401,7 +2352,6 @@ are made rather than in how they work.
 - [Performance of Heat Exchanger in a Liquid Rocket Engine by...][research_jeong_lee_2024]
 - [Qualification of thermal barrier coating for semi-cryogenic...][research_nairs_jayamani_2024]
 - [Quasi-Stationary Mathematical Model of Hybrid Rocket Engine...][research_wardachswiecicka_kardas_2024]
-- [Radiative Heat Flux Measurement in a Semi-Industrial Oxyfuel...][research_richter_konig_2024]
 - [Recent Developments in High-Speed Sealing Applications with...][research_tokunaga_imura_2024]
 - [Rocket engine burns itself up for fuel][research_crane_2024]
 - [Simulation of divergent angle of hybrid rocket engine nozzle...][research_ramadhan_andoko_2024]
@@ -2552,39 +2502,24 @@ reusability and cost per kilogram is where the argument the programme could not 
 - [A composite cost model for the aeronautical industry...][research_hagnell_akermo_2015]
 - [Affordable Development and Demonstration of a Small NTR...][research_borowskisk_sefcikrj_2015_b]
 - [Affordable Development and Demonstration of a Small NTR...][research_borowskisk_sefcikrj_2015]
-- [Cost Analysis of a Transition to Green Vehicle Technology for...][research_coffeen_williami_2015]
-- [Cost analysis of long-term outcomes of an urban mental health...][research_kubiak_roddy_2015]
 - [Developing a Low-Cost, Portable Virtual Environment for...][research_korzatkowski_kolsch_2015]
-- [Evaluating the Talent Search TRIO program A Benefit-Cost...][research_bowden_belfield_2015]
 - [Follow up on the Actions to Improve the Defense Contract...][research_dodofficeofinspectorgeneral_2015]
 - [Integrated System Development Methodology Design And LCC Life...][research_son_ryu_2015]
-- [Low-Cost and High-Reduction Approaches for Power Droop During...][research_omana_rossi_2015]
 - [Low-cost, low mass avionics system for a dedicated...][research_williams_puigsuari_2015]
 - [United Launch Alliance rideshare capabilities for providing...][research_karuntzos_2015]
 - [Using Budgeted Cost of Work Performed to Predict Estimates at...][research_keaton_2015]
-- [A Benefit-Cost Analysis of the Tulsa Universal Pre-K Program][research_bartik_gormley_2016]
 - [Additive Manufacturing for Affordable Rocket Engines][research_westbrian_robertsonelizabeth_2016]
-- [Additive manufacturing of biomedical implants A feasibility...][research_emelogu_marufuzzaman_2016]
 - [Affordable Development and Demonstration of a Small Nuclear...][research_borowskistanleyk_sefcikrobertj_2016]
 - [Arduino Based Low-Cost Experimental Unmanned Aerial Flight...][research_rico_turkoglu_2016]
-- [Cost Analysis in Indonesia Open University Post Graduate...][research_kurniatun_rosita_2016]
-- [Cost analysis and cost-driven IP reuse methodology for SoC...][research_stow_akgun_2016]
-- [Phogo A low cost, engaging and modern proposal to learn how...][research_gonzalezsacristan_garciasaura_2016]
 - [Small Cells Deployment for Cost Reduction of Hybrid-Energy...][research_alhajhassan_nuaymi_2016]
-- [A Benefit-Cost Analysis Framework for Evaluation of Highway...][research_decorlasouza_lee_2017]
 - [A low cost testbed and test-design methodology for...][research_zaidi_vanzyl_2017]
-- [Cost model evolution of custody][research_fors_2017]
 - [Design and testing of a low-cost extended-range pressure...][research_provost_bonneric_2017]
 - [Design of a Portable Low-Cost Impedance Analyzer][research_alali_elwakil_2017]
 - [Dorsal Fin Design Method A Low Cost Aerodynamic Solution to...][research_anemaat_karwas_2017]
 - [Evaluation of Low Cost Additive Manufacturing Techniques for...][research_kunka_jacob_2017]
 - [Hercules Single-Stage Reusable Vehicle supporting a Safe...][research_komar_2017]
-- [High performance, low cost carbon nanotube yarn based 3D...][research_yang_venton_2017]
-- [Low-Cost Production of a Versatile 3D-Printed Perfusion...][research_belanger_anctil_2017]
 - [Research on the Overall Design of Low Cost Launch Vehicle][research_research_on_the_2017]
-- [Towards Open-HW A Platform to Design, Share and Deploy FPGA...][research_zhao_amagasaki_2017]
 - [Validation of a Low-Cost Avionics Package for Small...][research_sorgenfrei_kemp_2017]
-- [A benefit-cost analysis of a red drum stock enhancement...][research_rhodes_whitehead_2018]
 - [Design and development of a low-cost CubeSat attitude control...][research_rahnamai_searles_2018]
 - [Design of an adaptive Fresnel lens using design thinking...][research_santiagoalvarado_santiagogomez_2018]
 - [Low Cost Thrust Vectoring Control System for a Solid...][research_resemini_desouzacosta_2018]
@@ -2599,45 +2534,30 @@ reusability and cost per kilogram is where the argument the programme could not 
 - [Manufacturing Process of High Performance Low Cost Composite...][research_torres_piedra_2019]
 - [Additive Manufacturing Applications for Quality Improvement...][research_blalack_2020]
 - [Additive manufacturing assisted investment casting A low-cost...][research_carneiro_rawson_2020]
-- [Cost analysis comparing a digitally delivered first-line...][research_ekman_dahlberg_2020]
 - [Design of a low-cost, high-temperature inverted build...][research_zawaski_williams_2020]
 - [Design, Analysis, and Testing of a Low-Cost...][research_bauer_schauer_2020]
-- [Experimental Investigation of Low Cost, Low Thermal...][research_moser_odonnell_2020]
 - [Low Cost All Metal Additively Manufactured Wideband Antenna...][research_massman_steffen_2020]
 - [Low-Cost Experimental Methodology for the Dynamic Model...][research_mayorgamacias_gonzalezjimenez_2020]
-- [Low-cost housing a cost management model for process...][research_obi_arif_2020]
 - [Redesign of an In-Market Conveyor System for Manufacturing...][research_butt_jedi_2020]
-- [A Cost Analysis of an Outreach School-Based Dental Program...][research_nguyen_tonmukayakul_2021]
-- [A low-cost 3D printed microfluidic bioreactor and imaging...][research_khan_prabhakar_2021]
 - [Additive manufacturing in the process industry A...][research_cardeal_sequeira_2021]
-- [Cost Analysis of a PTO Driveline Shielding Program Are...][research_tinc_sorensen_2021]
-- [Cost analysis of disposable/reusable Surgical drapes used in...][research_cetin_sonmez_2021]
 - [Cost-affordable Ti-6Al-4V for additive manufacturing Powder...][research_dong_li_2021]
 - [Filament rheological characterization for fused filament...][research_chen_smith_2021]
-- [Implementation of an Automated Sepsis Screening Tool A Cost...][research_toews_leonard_2021]
 - [Latlaunch Air-launch System for Low-cost Launching of Small...][research_urbahs_kravchenko_2021]
-- [Management improvement through total cost reduction activity...][research_management_improvement_2021]
 - [Parametric Cost Analysis of Expendable vs. Reusable Refueling...][research_tiffin_friz_2021]
 - [Realizing surface amphiphobicity using 3D printing techniques...][research_shams_basit_2021]
-- [A Low-Cost Methodology for EM Fault Emulation on FPGA][research_maistri_po_2022]
 - [A low-cost integrated navigation system based on factor graph...][research_taghizadeh_nezhadshahbodaghi_2022]
 - [An Improved Cost Analysis of the Apollo Program][research_dreier_2022]
 - [Cost Analysis of Preventive Maintenance for Commercial...][research_li_2022]
-- [Cost Effectiveness Analysis Small Country Pediatric Cardiac...][research_cardarelli_chadikovski_2022]
 - [Design of a Low-Cost Air Bearing Testbed for Nano CMG...][research_papakonstantinou_moraitis_2022]
-- [Design of a Low-cost, Submersible, Digital Holographic...][research_ramirez_burch_2022]
 - [Low-Cost Satellite Launch System Aerodynamic Feasibility Study][research_olejnik_kiszkowiak_2022]
-- [Ocular Prosthesis with Cad/ Cam Workflow and Low Cost...][research_ocular_prosthesis_2022]
 - [Optimal staging of reusable launch vehicles for minimum life...][research_jo_ahn_2022]
 - [Printability of low-cost pre-heat-treated ball milled Al7075...][research_prasad_khalik_2022]
 - [Small Satellites for Low-Cost Space Access Launch...][research_malisuwan_kanchanarat_2022]
 - [Synthesis and Cost Analysis of the SpaceX Starship Launch...][research_harris_ledford_2022]
 - [The Space Superhighway A Cost Analysis of an In-Space...][research_friz_tiffin_2022]
 - [A specific manufacturing cost model for fast cost estimation...][research_yi_werrel_2023]
-- [Building a Low-Cost Wireless Biofeedback Solution Applying...][research_cheng_lin_2023]
 - [Design methodology for heat transfer system with low-cost...][research_velasquez_vanessamejialara_2023]
 - [Design, Development, and Testing of a Low-Cost Sub-Joule µPPT...][research_smith_bae_2023]
-- [Dynamic model based integrated navigation for a small and low...][research_ji_cheng_2023]
 - [Low cost inertial sensor attitude fixation algorithm and...][research_jiang_tan_2023]
 - [Low-cost fully additively manufactured passive microwave...][research_piekarz_wincza_2023]
 - [NASA's LCOT Low-Cost Optical Terminal FSOS Free-Space Optical...][research_patricklthompson_armencaroglanian_2023]
@@ -2651,7 +2571,6 @@ reusability and cost per kilogram is where the argument the programme could not 
 - [Low-Cost Small Scale Autonomous Vehicle][research_bogrekci_demircioglu_2024]
 - [Low-cost Composite Tooling using Additive Manufacturing...][research_wu_baur_2024]
 - [The development of a framework to produce additively...][research_hudson_fidan_2024]
-- [Ultra-low-cost, high-dynamic-range, additively manufactured...][research_kondo_2024]
 - [A Low-cost Experimental Infrastructure for the Development of...][research_krepski_garbelinifilho_2025]
 - [An activity-based parametric cost analysis for upcycling...][research_baruah_hoekstra_2025]
 - [Automation of Acceptance Testing Process of Liquid Rocket...][research_ta_2025]
@@ -2662,19 +2581,12 @@ reusability and cost per kilogram is where the argument the programme could not 
 - [Design and Implementation of Low-Cost Lidar System][research_siva_gunasri_2025]
 - [Developing a Cost Effective Launch Solutions with Hybrid...][research_tamang_2025]
 - [Developing a Near-Equatorial Low-Cost Small Satellite to...][research_lim_lansard_2025]
-- [Indirect determination of trace concentrations of amoxicillin...][research_boane_rocha_2025]
-- [Lifecycle Cost Analysis and Business Case for High Integrity...][research_alqarzae_fenais_2025]
 - [Low-Cost Ground Station Design for NOAA APT signal reception...][research_choudhary_tambekar_2025]
-- [Low-cost conductive polypropylene for electroanalysis in...][research_ferreira_crapnell_2025]
 - [Testing of a New Family of Low-Cost Additively Manufactured...][research_woodger_horton_2025]
 - [Comprehensive additive manufacturing cost reduction through...][research_crispo_kim_2026]
-- [Cost Analysis of BEST in CLASS-Elementary Average Cost per...][research_sutherland_conroy_2026]
-- [Facile and low-cost oil/water separation using polymer wastes...][research_firoozabadi_nateghi_2026]
 - [Integrated Design and Analysis of a Low-Cost, Motor-Driven...][research_alizoewald_alizoewald_2026]
-- [Low cost additive manufacturing enabled RF sensor for...][research_sarangi_priyadarsini_2026]
 - [Space Shuttle Program Life-Cycle Cost Analysis Retrospective...][research_roush_dreier_2026]
 - [The Variable-Pitch Screw Launcher Infrastructure for...][research_swan_2026]
-- [rAAV production cost analysis Indication-specific cost per...][research_park_matuszek_2026]
 
 ### Air Launch, Which Has Since Been Settled Commercially and Mostly Against Itself
 
@@ -2797,7 +2709,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Three-dimensional optimal path planning for waypoint guidance...][research_ataei_yousefikoma_2015]
 - [A near-optimal analytical guidance scheme for approach phase...][research_sachan_padhi_2016]
 - [Autonomous Landing for UAVs using T-MPSP Guidance and Dynamic...][research_tripathi_padhi_2016]
-- [Concept Design of an Autonomous Underwater Vehicle with...][research_hasan_anwar_2016]
 - [Design Features and Flight Results for the Autonomous Mobile...][research_hanlon_2016]
 - [Flight Analysis of an Autonomous Parafoil Recovery System for...][research_chin_dunker_2016]
 - [Information flow simulation design for launch vehicle][research_qiangwu_weiwang_2016]
@@ -2820,10 +2731,8 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Autonomous landing on ground target of UAV by using...][research_zhang_yu_2017]
 - [Constrained Autonomous Precision Landing via Dual Quaternions...][research_lee_mesbahi_2017]
 - [Implementation and Flight Testing of the IMPACT System for...][research_boskovic_jackson_2017]
-- [IoT Based Real-time Autonomous Vehicle Tracking System][research_iot_based_2017]
 - [Landing area recognition by image applied to an autonomous...][research_silva_cerqueira_2017]
 - [Lidar-guided autonomous landing of an aerial vehicle on a...][research_kim_woo_2017]
-- [Modified Spline-based Path Planning for Autonomous Ground...][research_magid_lavrenov_2017]
 - [Reconfiguration of fixed-wing UAV control system in...][research_zugaj_2017]
 - [Smooth Autonomous Take-off and Landing Maneuvers over a...][research_velasco_alhamablanco_2017]
 - [A Predictive Guidance Algorithm for Autonomous Asteroid Soft...][research_sanchez_gavilan_2018]
@@ -2834,7 +2743,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Autonomous Precision Landing for the Joint Tactical Aerial...][research_recker_gribble_2018]
 - [Autonomous flight control of drone equipped with...][research_autonomous_flight_2018]
 - [Decoupling ADRC Lateral/Directional Controller of Autonomous...][research_wu_zhang_2018]
-- [Design and Implementation of Android-Based Autonomous Human...][research_ozarslanyatak_goktas_2018]
 - [Guidance of an Autonomous Surface Vehicle for Underwater...][research_sousa_ferreira_2018]
 - [Improved EKF-SLAM Algorithm of Unmanned Helicopter Autonomous...][research_wu_shi_2018]
 - [Monocular Vision based Autonomous Landing of Quadrotor...][research_xu_liu_2018]
@@ -2852,9 +2760,7 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Fixed-time pinpoint mars landing using two sliding-surface...][research_zhang_guo_2019]
 - [Flight Trajectory Clustering a framework that uses Planned...][research_morales_moral_2019]
 - [Model Predictive Control for Autonomous Ship Landing in a...][research_persson_wahlberg_2019]
-- [Risk Feeling Index of Autonomous Vehicle Behavior][research_hashimoto_yanagisawa_2019]
 - [Signal Processing Improves Autonomous Vehicle Navigation...][research_edwards_2019]
-- [Ultra-low-light-level digital still camera for autonomous...][research_ultra_low_light_level_digital_2019]
 - [Vision Based Autonomous Landing of the Quadrotor Using Fuzzy...][research_he_wang_2019]
 - [Vision-based UAV Guidance for Autonomous Landing with Deep...][research_bicer_moghadam_2019]
 - [Vision-based autonomous tracking and landing of a...][research_bhargavapuri_shastry_2019]
@@ -2868,7 +2774,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Autonomous Vehicle Battery State-of-Charge Prognostics...][research_zhang_tang_2020]
 - [Control Design for the Autonomous Horizontal Takeoff Phase of...][research_an_liu_2020]
 - [Crater Navigation System for Autonomous Precision Landing on...][research_maass_woicke_2020]
-- [Dynamic Risk Analysis of Operation of the Autonomous...][research_yang_utne_2020]
 - [Extension of Quadcopter Flight Range Based on Quadcopter...][research_lee_lee_2020]
 - [Highly Reliable Autonomous Redundancy for Automatic Control...][research_li_xie_2020]
 - [Incremental learning-based land mark recognition for...][research_shen_zhuang_2020]
@@ -2877,7 +2782,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Mathematical modeling for flocking flight of autonomous...][research_mathematical_modeling_2020]
 - [Output-constrained fixed-time control for autonomous ship...][research_huang_zhu_2020]
 - [Partitioned artificial immune system for detection and...][research_mclaughlin_perhinschi_2020]
-- [Study of the influence of autonomous vehicles on transport...][research_study_of_2020]
 - [The algorithm of the color signal recognition at landing an...][research_the_algorithm_2020]
 - [Withdrawal Low-Altitude Autonomous Flight of a Solar-Powered...][research_bi_zhou_2020_b]
 - [Analysis of landing strategies and influencing factors of an...][research_zhu_song_2021]
@@ -2906,7 +2810,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Simultaneous Obstacles Avoidance and Robust Autonomous...][research_guo_dong_2022]
 - [Technology of Autonomous Take-Off and Landing for the Modern...][research_volkov_komar_2022]
 - [A Novel Swarm Unmanned Aerial Vehicle System Incorporating...][research_bakirci_2023]
-- [A study on ‘Patternicity’-based UX design approach for the...][research_na_nah_2023]
 - [Accelerating Deep Neural Network training for autonomous...][research_ni_pan_2023]
 - [Automatic Landing Guidance Law Design for Carrier-based...][research_wang_liu_2023]
 - [Autonomous Vehicle Guidance Using Neural Network and Random...][research_gadhvi_shankar_2023]
@@ -2918,7 +2821,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Fault Tolerant Processing Unit Using Gamma Distribution...][research_ahmed_2023]
 - [Finite-Horizon Near-Optimal Approach and Landing Planning of...][research_yao_xin_2023]
 - [Fixed-Wing Unmanned Aerial Vehicle 3D-Model-Based Tracking...][research_pessanhasantos_lobo_2023]
-- [Influence of highway space alignment continuous degradation...][research_wang_coulibaly_2023]
 - [Intelligent Control Systems for Autonomous Re-entry and...][research_rohan_mantero_2023]
 - [Model-free autonomous control of four-wheel steering using...][research_liu_gordon_2023]
 - [Report on Human Factors Issues Likely to Affect Air-Launched...][research_hicks_lewis_2023]
@@ -2948,7 +2850,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [A Visual Guidance and Control Method for Autonomous Landing...][research_guo_wang_2025]
 - [An Overview of the Air Data Inertial Reference System Adirs...][research_raufguliyev_2025]
 - [Adaptive System for Autonomous Landing Control of Seaplanes][research_kaneko_yamato_2025]
-- [An Autonomous Vehicle Behavior Decision Method Based on Deep...][research_wang_qian_2025]
 - [Army Sand#x26 T for Tactical Autonomous Flight][research_naigle_2025]
 - [Autonomous Emergency Gliding Landing Guidance and Control of...][research_ma_ding_2025]
 - [Autonomous Forward Slip Maneuver for Steep Approach and...][research_lee_park_2025]
@@ -2976,7 +2877,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [A Ground-Centric UAV-UGV Cooperative System for Autonomous...][research_sun_qian_2026]
 - [Autonomous Control for Reusable Rocket Landing Deriving a...][research_chowdhury_joshi_2026]
 - [Backstepping Control for Systems with Fast Time-Varying...][research_costache_stoica_2026]
-- [Branch pruning alignment using small form factor monocular...][research_strohbehn_grimm_2026]
 - [Correction algorithms of a navigation system and an...][research_surkovaad_neusypink_2026]
 - [Design of an Autonomous UAV Traffic Enforcement System with...][research_s_m_2026]
 - [Development of an Autonomous Flight Control System for a...][research_filippoli_2026]
@@ -3022,7 +2922,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Glide guidance for reusable launch vehicles using analytical...][research_zhou_wang_2020]
 - [Midcourse Guidance Algorithm for Return to Launch Site of...][research_jo_ahn_2020]
 - [Sliding Mode-Based Guidance for UAV Landing on a Stationary...][research_modali_ghosh_2020]
-- [Cooperative collision warning system design at intersections...][research_zhang_gao_2021]
 - [Development of a Gimbal Actuated Powered Descent Vehicle][research_vredevoogd_thompson_2021]
 - [Endoatmospheric Energy Management Method for Launch Vehicle...][research_fu_wang_2021]
 - [Multi-platform app-embedded model for hybrid air-breathing...][research_tsentis_gkoutzamanis_2021]
@@ -3031,7 +2930,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Tracking Filter Integration in the Adaptive Augmenting...][research_trotta_zavoli_2021]
 - [Trajectory reconstruction algorithm for powered landing of...][research_wei_shao_2021]
 - [Actuator-constrained Trajectory Optimization for Reusable...][research_liu_zhang_2022]
-- [Competition and Welfare Effects of Introducing New Products...][research_he_hao_2022]
 - [Design of the landing guidance for the retro-propulsive...][research_botelho_martinez_2022]
 - [Fourier trajectory analysis for system discrimination][research_morgan_barton_2022]
 - [Iterative Guidance Scheme for a Satellite Launch Vehicle...][research_ashraf_baig_2022]
@@ -3094,11 +2992,9 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Ruggedized photonic components for avionics and vehicle...][research_logan_sawires_2015]
 - [A comprehensive safety analysis method research for vehicle...][research_ji_bao_2016]
 - [Advanced avionics applications simulation platform AAASP for...][research_wilson_storey_2016]
-- [Comparison of operational availability of public city buses...][research_rymarz_niewczas_2016]
 - [Compound semiconductor integrated photonics for avionics][research_taukepedretti_2016]
 - [Fault tolerant flight-control via control allocation for...][research_xu_tang_2016]
 - [Functional components for a design strategy Hot cell...][research_borrelli_2016]
-- [Hybrid maintenance cost optimization for EPC brake system of...][research_jiang_niu_2016]
 - [Integrated vehicle health management in the aviation field][research_li_wang_2016]
 - [Launch Vehicle Software System Reliability Prediction based...][research_yan_chen_2016]
 - [Reliability Analysis in the Presence of Aleatory and...][research_brevault_lacaze_2016]
@@ -3123,15 +3019,12 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Tutorial Accelerated testing for diagnostics and prognostics][research_liao_2017]
 - [A Review of Integrated Vehicle Health Management and...][research_chang_gao_2018]
 - [Analysis of Operational Availability under Changing Failure...][research_tak_jung_2018]
-- [Analytical Vehicle KANO Model Development][research_chen_chang_2018]
 - [Application of PoF Based Virtual Qualification Methods for...][research_soodbhanup_2018]
 - [Flight Autonomy Impact To The Future Avionics Architecture][research_yin_zhu_2018]
 - [Modelling inspection and replacement quality for a protection...][research_alberti_cavalcante_2018]
-- [Performance Degradation of Hydraulic Vehicle Dampers][research_yao_pecht_2018]
 - [Uncertainty Quantification of Reliability Analysis Under...][research_bae_park_2018]
 - [2019 Prognostics and System Health Management Conference][research_2019_prognostics_2019]
 - [A Theoretical Framework on Reliability Optimization for...][research_lee_2019]
-- [A reliability-transient stability analysis of power systems...][research_koksal_ozdemir_2019]
 - [An Inference Method for Quantity of Launch Vehicle Tank...][research_li_gong_2019]
 - [Ethics in Prognostics and Health Management][research_goebel_smith_2019]
 - [High redundancy electromechanical actuator for thrust vector...][research_b_n_2019]
@@ -3154,7 +3047,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Prognostics Health Estimation of Lithium-ion Batteries in...][research_iossai_2020]
 - [Prognostics and Health Management for Maintenance...][research_atamuradov_medjaher_2020]
 - [Prognostics and Health Management for an Overhead Contact...][research_brahimi_medjaher_2020]
-- [Rail Corrugation Diagnosis of High-Speed Railway Based on...][research_li_shi_2020]
 - [Reliability Analysis for Small Unmanned Air Vehicle with...][research_kotikalpudi_danowsky_2020]
 - [Reliability of Software Applications in Integrated Modular...][research_kabashkin_filippov_2020]
 - [Segmentation Based Feature Evaluation and Fusion for...][research_atamuradov_camci_2020]
@@ -3172,7 +3064,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Joint Special Issue on PHM for Aerospace Systems][research_kulkarni_goebel_2021]
 - [On the Subsea Production System Availability with Resident...][research_mattioli_dipadova_2021]
 - [One-sided cumulative sum control chart for the Rayleigh...][research_nasiru_2021]
-- [PHM of Rail Vehicle Based on Digital Twin][research_zhang_du_2021]
 - [Policy, Regulations and Standards in Prognostics and Health...][research_goebel_rajamani_2021]
 - [Prognostics and Health Management of Wafer...][research_lim_dutta_2021]
 - [Reliability and availability analysis of a retrial system...][research_gao_wang_2021]
@@ -3183,25 +3074,17 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Welcome to the International Journal of Prognostics and...][research_hweklund_2021]
 - [Bayes Plan of Reliability Qualification Testing for Weibull...][research_wang_jiang_2022]
 - [Design of Avionics Network Architecture Under a Reliability...][research_khamvilai_mains_2022]
-- [Identification of vehicle response features for onboard...][research_kulkarni_qazizadeh_2022]
 - [Mathematical model of functional reliability of avionics...][research_masjukov_konovalov_2022]
-- [Pedestrian Detection for Vehicle-borne Image Based on...][research_han_2022]
-- [Potential Future Growth of Electrical Vehicle Charging...][research_xu_fernandez_2022]
 - [Potentials of prognostics and health management for polymer...][research_ebner_koops_2022]
 - [Predicting the Remaining Useful Life of Landing Gear with...][research_hsu_chang_2022]
 - [Runtime Assurance for Distributed Avionics Architecture][research_ghori_khamvilai_2022]
 - [Thermal Analysis Package for Launch Vehicle Avionics][research_padmanabhan_george_2022]
-- [Unmanned Surface Vehicle Cooperative Task Assignment Based on...][research_luo_yan_2022]
 - [A Conceptual Spacecraft Operational Survivability Estimation...][research_tullino_keys_2023]
-- [A modified chain group sampling inspection plan for the time...][research_tripathi_saha_2023]
 - [An Improved TCAS Display Based On Aircraft Separation][research_butka_2023]
 - [Auxiliary Particle Filter for Prognostics and Health...][research_xiao_coble_2023]
 - [Performance analysis of avionics devices based on...][research_qi_2023]
-- [Predictive Maintenance of Lead-Acid Batteries with Sparse...][research_voronov_krysander_2023]
 - [Reliability and Availability Analysis of Non-Markovian Single...][research_kumari_malik_2023]
 - [Research on Key Technologies of High-Reliability Telemetry...][research_zhu_yan_2023]
-- [Single acceptance sampling inspection plan based on...][research_tripathi_saha_2023_b]
-- [The Study of Trends in AI Applications for Vehicle...][research_li_li_2023]
 - [The importance of dissimilar redundancy for safety in future...][research_ryan_granger_2023]
 - [Welcome to the 2023 Global Reliability and Prognostics and...][research_welcome_to_2023]
 - [A general inspection and replacement policy for protection...][research_rodrigues_cavalcante_2024]
@@ -3209,65 +3092,48 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Design of Open Modular Avionics for Launch Vehicle Test and...][research_xu_ling_2024]
 - [Development of a Prognostic Health Monitoring System to...][research_subramanian_venkitasamy_2024]
 - [Knowledge-based and Expert Systems in Prognostics and Health...][research_bouhadra_forest_2024]
-- [Novel Prognostics and Health Management Framework to Extract...][research_alfahdi_gultekin_2024]
 - [Onboard Power Distribution and Measurement for Launch Vehicle...][research_vaheed_vaddavalli_2024]
-- [Overview of Vehicle Chassis Fault Prediction][research_li_zhao_2024_b]
 - [Prognostics Aware Control Design for Extended Remaining...][research_thuillier_jha_2024]
 - [Reliability Analysis of eVTOL Avionics System Architecture...][research_zhou_tan_2024]
 - [Reliability analysis of deep space satellites launched 1991...][research_grile_bettinger_2024]
 - [Research on Reliability Analysis Based on Vehicle Path...][research_shang_wang_2024]
 - [Welcome to the 2024 Global Reliability and Prognostics and...][research_welcome_to_2024]
-- [Acceptance sampling inspection plan under fuzzy theory for...][research_tripathi_2025]
 - [Adaptive Fault Tolerant Servo Scheme For Launch Vehicle...][research_adaptive_fault_2025]
-- [Automated underwater crack classification using modified...][research_gupta_dixit_2025]
 - [Availability analysis of phase mission weighted components...][research_bhatt_singh_2025]
 - [Big Data Analytical Framework for Launch Vehicle Avionics...][research_s_s_2025]
 - [Data Mining and Potential Fault Analysis of Aerospace...][research_hong_wan_2025]
 - [Dynamic Ecosystems for Mars ECLSS Testing, Evaluation, and...][research_kemp_clemmons_2025]
 - [Energy losses a resource indicator of the vehicle reliability][research_energy_losses_2025]
-- [Group acceptance sampling inspection plan for truncated life...][research_saha_tripathi_2025]
 - [Hypersonic flight vehicle intelligent fault diagnosis with...][research_dong_jiang_2025]
 - [Maintenance policies for protection systems with imperfect...][research_tekin_bakir_2025]
 - [Numerical Simulation of Coupled CFD-flight Mechanics and...][research_nasiri_adami_2025]
 - [Reliability analysis of reconfigurable integrated modular...][research_zhao_li_2025_b]
 - [Reliability design and management in CZ-5 launch vehicle...][research_li_lou_2025]
-- [Research on Real-time Early Warning Method for New Energy...][research_wang_chen_2025]
 - [Research on reliability modeling and evaluation methods of...][research_zhang_xu_2025_c]
 - [Space vehicle reliability assessment for selected medium...][research_norris_bettinger_2025]
 - [Vehicle reliability impact on the formation of the need for...][research_ishkin_2025]
 - [Zero Trust Architecture for Avionics][research_haswell_murray_2025]
-- [Reliability Analysis and Improvement Strategies for IoT-Based...][research_ma_2026]
 - [Reliability analysis of reconfigurable integrated modular...][research_zhao_li_2026]
 - [Reliability-driven adaptive multi-level pre-optimization...][research_huang_2026]
-- [Sampling inspection plans for life tests based on Lomax...][research_pavithra_vijayaraghavan_2026]
 - [Seasonal and predictive analysis of transport fleet...][research_guzanek_borucka_2026]
 
 ### Structures, Tanks and Thermal Protection
 
-- [An Analytical Model of Apparent Gas Permeability for Tight...][research_yuan_gholizadehdoonechaly_2015]
 - [Design of composite tank covers][research_bondyra_klasztorny_2015]
 - [NASA Prototype All Composite Tank Cryogenic Pressure Tests to...][research_werlink_pena_2015]
 - [Thermal Gradient on Hybrid Composite Propellant Tank...][research_avila_islam_2016]
-- [A Model of Gas Transport Through Shale Reservoirs Including...][research_you_lau_2018]
-- [An Object-Based Shale Permeability Model Non-Darcy Gas Flow...][research_naraghi_javadpour_2018]
-- [Apparent permeability model for gas transport in shale...][research_wang_shi_2018]
 - [Mesoscopic Simulation of Convective Heat Transfer from a...][research_vijaybabu_dhinakaran_2018]
 - [A Two-Parametric Model for Gas Flow in Low-Permeable Porous...][research_paulini_2019]
 - [Additive Manufacturing of Propellant Tank and Structural...][research_easley_young_2019]
 - [Correction to A Two-Parametric Model for Gas Flow in...][research_paulini_2019_b]
-- [Model-Order Reduction of Coupled Flow and Geomechanics in...][research_florez_gildin_2019]
-- [A Model for Relative Permeabilities Under Gas Liberation or...][research_almasri_shapiro_2020]
 - [Experimental investigation of a liner-free propellant tank...][research_sidoruk_popov_2020]
 - [Experimental study of hypersonic boundary layer transition on...][research_zhu_shi_2020]
-- [A Fractal Permeability Model for Gas Transport in the...][research_ren_wei_2021]
 - [Advanced manufacturing of titanium propellant tanks for space...][research_norman_iqbal_2021]
 - [Development Technique of Large Composite Tank for Aerospace...][research_zhao_yu_2021]
-- [Stochastic Estimation of the Slip Factor in Apparent...][research_elamin_elbeltagy_2021]
 - [Characterization Studies on Graphene-Aluminium Nano...][research_jayaseelan_pazhani_2022]
 - [FBG-based strain monitoring and temperature compensation for...][research_liang_liu_2022]
 - [Progressive Damage Analysis for Multiscale Model of Linerless...][research_tian_zhao_2022]
 - [Sensitivity Analysis and Quantification of the Role of...][research_sandoval_riva_2022]
-- [A Double-Permeability Poroelasticity Model for Fluid...][research_jin_yuan_2023]
 - [Crashworthiness Study of a Newly Developed Civil Aircraft...][research_rayhan_pu_2023]
 - [Graphene Reinforced Aluminium Metal Matrix Composite...][research_pashwath_2023]
 - [Liner stability of a cylindrical metal composite tank under...][research_skleznev_2023]
@@ -3280,13 +3146,10 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Modelling and simulation of high-pressure hydrogen storage...][research_kavalli_kumar_2026]
 - [Multiscale structural evolution and permeability in a...][research_bryan_drewry_2026]
 
-- [A Comprehensive Model for Simulation of Gas Transport in...][research_yu_2015]
 - [Demonstration and challenges for joining technology based on...][research_fischer_gelinck_2015]
 - [Design, application, and validation of embedded ultrasonic...][research_chilles_croxford_2015]
-- [Development of an Image-Based Biomechanical Model for...][research_nasirisarvi_luo_2015]
 - [Experimental Study on Combustion of Aluminum in Composite...][research_liu_liu_2015]
 - [Manufacturing of Triaxial Quasi-three-dimensional Composite...][research_peterson_liu_2015]
-- [Probabilistic ship collision risk and sustainability...][research_dong_frangopol_2015]
 - [Self-response multi-functional composite material base on...][research_chu_zhang_2015]
 - [Thermal protection tile structures of shuttlecraft with...][research_tikhy_gusev_2015]
 - [Time-Temperature Superposition Principle Applied to Thermally...][research_villar_rezende_2015]
@@ -3295,7 +3158,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Application of conduction-cooled PCBs and composite materials...][research_saums_hay_2016]
 - [Composite Manufacturing Data Management in Aerospace Industry][research_tekin_kapan_2016]
 - [Comprehensive thermal transmittance investigations carried...][research_lakatos_2016]
-- [Computer Modelling and Analysis of Polymer Composite Concrete...][research_computer_modelling_2016]
 - [Fracture Analysis of High Strength Steel Fastener Used in...][research_manwatkar_murty_2016]
 - [From Tomography to Material Properties of Thermal Protection...][research_paneraifrancesco_mansournagi_2016]
 - [Ignition Characteristics of a Metallized Composite Solid...][research_ignition_characteristics_2016]
@@ -3307,16 +3169,12 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Advances in Composite Manufacturing of Helicopter Parts][research_weber_ruffstahl_2017]
 - [Algorithm-driven design of fracture resistant composite...][research_gu_wettermark_2017]
 - [Burning rate of AP/HTPB base-bleed composite propellant under...][research_zhang_tian_2017]
-- [Coupled Geomechanics And Flow Simulation For Water Injection...][research_lei_li_2017]
 - [DMA tests for 3D printed polymer specimens of fatigue test...][research_fodor_2017]
 - [Development of an innovative design of a composite-sandwich...][research_borazjani_belingardi_2017]
 - [Heat Transfer Analysis of Jet Impingement Cooling on a...][research_krishna_ricklick_2017]
 - [Interaction Between Compliant Structures and Boundary-Layer...][research_riley_mcnamara_2017]
 - [Life Prediction of Rocket Combustion-Chamber-Type...][research_thiede_riccius_2017]
-- [Modeling of Compositional Gas Transport in Shale as a...][research_olorode_akkutlu_2017]
-- [Multiscale model reduction for shale gas transport in a...][research_akkutlu_efendiev_2017]
 - [Numerical Study on Effects of Density Ratio on Film Cooling...][research_sakai_takahashi_2017]
-- [Numerical simulation of self-consolidating concrete flow as a...][research_hosseinpoor_khayat_2017]
 - [Overhang Support Structure Design for Electron Beam Additive...][research_cheng_chou_2017]
 - [Research on the compatibility of UF resin matrix composites...][research_lin_yan_2017]
 - [The effects of AP particle size and concentration on ap/htpb...][research_morrow_petersen_2017]
@@ -3344,27 +3202,20 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Dynamic Mechanical Characterization of Composite Solid...][research_murari_calciolari_2019]
 - [Experimental Investigation on Abrasive Waterjet Machining of...][research_kumar_tank_2019]
 - [Effects of Jetting Orifice Geometry Parameters and Channel...][research_he_deng_2019]
-- [Embedded Discrete Fracture Model Assisted Study of Gas...][research_yu_wu_2019]
 - [Experimental Study on Analogy Principle of Overall Cooling...][research_xie_liu_2019]
 - [Flame Dynamics of AP/HTPB Composite Propellant in Unsteady...][research_xu_ao_2019]
 - [Hybrid Metal/Composite Lattice Structures Design for Additive...][research_dicaprio_acanfora_2019]
 - [Lattice Structure Design for Additive Manufacturing Unit Cell...][research_hanks_frecker_2019]
 - [Microwave Control of Composite Solid Propellant Flame Spread...][research_barkley_zhu_2019]
-- [NDT Inspection of Critical ABC Details to Assure Life Cycle...][research_farhangdoust_mehrabi_2019]
 - [Numerical and experimental comparative study of Aluminum and...][research_krishna_nathde_2019]
 - [Prospects of Anisogrid Lattice Structures Using in Adapters...][research_proroka_lypovskyi_2019]
-- [Probabilistic Models for Vehicle Interactions in Fatigue...][research_croce_2019]
-- [Robotic measurement system dedicated for inspection and...][research_domin_kielan_2019]
 - [Simulation of Structure Change in Porous Media During Gas...][research_tarabkhah_khoshandam_2019]
 - [Structural Health Monitoring for Aerospace Composite...][research_hadjria_dalmeida_2019]
 - [Structural, Propulsion, Mechanical, and Dynamics Guidance for...][research_fusselman_goyal_2019]
 - [The Application of Composite Materials in the Aerospace...][research_skoczylas_samborski_2019]
 - [Testing and Analysis Correlation of Composite Sandwich...][research_sleight_satyanarayana_2019]
 - [The Influence of the Kaolin Content on the Thermal Protection...][research_liu_zhao_2019]
-- [The impact of the development of the digital economy on the...][research_iurieva_sinianskaia_2019]
-- [Tunable EOS Material Model in the Simulation of Pulsed...][research_lin_winder_2019]
 - [Unmanned Vehicles for Lightning Protection System Inspection...][research_mascarenas_liao_2019]
-- [A practical methodology for optimum seismic design of RC...][research_asadi_hajirasouliha_2020]
 - [Additive manufacturing-driven design optimization Building...][research_li_yuan_2020]
 - [Composite additive manufacturing of morphing aerospace...][research_fasel_keidel_2020]
 - [Conjugate heat transfer analysis for composite cooling...][research_zhou_deng_2020]
@@ -3375,23 +3226,18 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Injection-gas-composition effects on hypersonic...][research_miromiro_pinna_2020]
 - [Interactions between turbulent flow and diffusion flame of...][research_xu_liu_2020]
 - [Lightweight and Flexible Thermal Protection Systems for High...][research_hao_lundblad_2020]
-- [Market structures in small open economies Evidence from...][research_alfaro_2020]
 - [Polymer composite for antistatic application in aerospace][research_yadav_tirumali_2020]
 - [Predictive Multiscale Modeling of 3D Printed Polymers for...][research_li_2020]
-- [Additively Manufactured Ti6Al4V Lattice Structures for...][research_sagbas_gurkan_2021]
 - [Aero-thermo-dynamic Study of Ultra-high- Temperature Ceramic...][research_mungiguerra_cecere_2021]
 - [Characterization of Aluminum-Lithium Composite-Propellant...][research_ruesch_son_2021]
 - [Combustion promotion and agglomeration reduction of the...][research_liu_ao_2021]
-- [Coupled Simulation of Flow and Geomechanics in Fractured...][research_wu_di_2021]
 - [Design of Additively-Manufactured Lattice Structure for...][research_chang_yee_2021]
 - [Dynamic Viscoelasticity Analysis of AP/HTPB Composite...][research_terashima_iwasaki_2021]
-- [Effects of Gas Trapping on Foam Mobility in a Model Fracture][research_li_wolf_2021]
 - [Effects of Wing Kinematics on Modulating Odor Plume...][research_lei_li_2021]
 - [Evaluation of Mechanical Properties of Composite Solid...][research_dong_zhang_2021]
 - [Multifunctional Ceramic Composite System for Simultaneous...][research_ajayi_jia_2021]
 - [Modeling of Layered Ammonium Perchlorate Composite Propellant...][research_mcclain_bojko_2021]
 - [Need for Aerospace Structural Health Monitoring][research_wild_pollock_2021]
-- [On the termination and structural termination problems for...][research_hampson_2021]
 - [Preliminary results of DOA plasticizer effect on AP/HTPB...][research_pinalia_prianto_2021]
 - [Preliminary results of the particle packing density theory...][research_prianto_setyaningsih_2021]
 - [Progress in research on composite cryogenic propellant tank...][research_liu_ma_2021]
@@ -3399,14 +3245,11 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Study and Manufacturing of Heat Insulator for Thermoplastic...][research_hamad_nagmeldinmelamin_2021]
 - [Support point determination for support structure design in...][research_wang_zhang_2021_b]
 - [Test Design of Small Sample Launch Vehicle Based on Composite...][research_huangpeng_duan_2021]
-- [The Impacts of Pore Structure and Relative Humidity on Gas...][research_song_yao_2021]
-- [Thermal Response of Cold Formed Structural Steel Elements...][research_naserabdelrahim_2021]
 - [Thermomechanical Homogenization of Corrugated Core Sandwich...][research_khan_chakraborty_2021]
 - [Thermoplastic Mandrel for Manufacturing Composite Components...][research_jing_chen_2021]
 - [Wing Flutter Analysis Using Computational Fluid-Structure...][research_pohly_zhang_2021]
 - [A Review on Vibro-Acoustic Analysis of a Launch Vehicle...][research_krishna_2022]
 - [A Technique for Real-time Defect Detection of Composite...][research_kashefinishaburi_hoa_2022]
-- [Advantages of structural inspection and diagnosis for...][research_silva_surra_2022]
 - [An Updated BDP Model for Composite AP/HTPB Propellant...][research_thomas_petersen_2022]
 - [An experimental investigation on the progressive failure of...][research_gupta_bennett_2022]
 - [Application of a dynamic thermoelastic coupled model for an...][research_ganilova_cartmell_2022]
@@ -3420,7 +3263,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Experimental device and method design for long-term...][research_deng_zhou_2022]
 - [Launch Vehicle Structural Analysis LVSA A Multifidelity...][research_cox_harris_2022]
 - [Machine learning of transient...][research_haber_draganov_2022]
-- [Modeling of Shale Gas Transport in Multi-Scale Complex...][research_li_2022_b]
 - [Multi-Parameters Sensitivity Analysis of Overall Cooling...][research_liu_li_2022]
 - [On the design optimisation of direct energy deposited support...][research_dsouza_ravichandran_2022]
 - [Part 1 The Efect of Defects on Traditional and 3D Printed...][research_balles_2022_b]
@@ -3437,7 +3279,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Adaptive Kriging Adopting PSO with Hollow-Hypersphere space...][research_thedy_liao_2023]
 - [Bonded flush repairs for aerospace composite structures A...][research_orsatelli_paroissien_2023]
 - [Deployable Roll-Out Composite ROC Booms for Smallsat Antennas][research_pulford_lake_2023]
-- [Design Optimization Methodology for Diversion Structure with...][research_hong_eum_2023]
 - [Digital Thread Roadmap for Manufacturing and Health...][research_eskue_2023]
 - [Enhancing heat transfer performance in 3D-printed integrated...][research_gu_liu_2023]
 - [Estimation of aerothermal heating for a thermal protection...][research_brociek_hetmaniok_2023_b]
@@ -3452,7 +3293,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Numerical Analysis Results of Debonding Damage Effects for an...][research_diodati_sorrentino_2023]
 - [Physical overloading test for 3D printed caverns Failure...][research_liu_jiang_2023]
 - [Shape sensing approach for composite and sandwich beam with...][research_zhao_bao_2023]
-- [Simulation Structure for Simulation Model of MCFC GT Hybrid...][research_milewski_skibinski_2023]
 - [Structural Design of a Large-Scale 3D-Printed High-Altitude...][research_malim_mourousias_2023]
 - [The Impact of Additive Manufacturing Constraints and Design...][research_dangal_jung_2023]
 - [A Computational Analysis of Fluid-Structure Interaction in...][research_lou_lei_2024]
@@ -3467,7 +3307,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Dynamic FEA Analysis of the Super Lightweight External...][research_pazhani_salman_2024]
 - [End-to-End Simulation of Linerless Composite Pressure Vessels...][research_goncalves_arteiro_2024]
 - [Enhancing Material Property Prediction in High Entropy Alloys...][research_osuna_adibi_2024]
-- [Enhancing concrete structures Integrating machine learning...][research_oluwatobiaogunsaya_rotimitaiwo_2024]
 - [Experimental Study on Constant Stress Variable Range...][research_qu_xu_2024]
 - [Flexible loofah sponge-based phase change composite for...][research_he_xu_2024]
 - [Guided wave-based damage imaging of quartz ceramic thermal...][research_zheng_shao_2024]
@@ -3479,11 +3318,9 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Numerical simulation of composite swirl/film double-wall...][research_han_xiang_2024]
 - [Optimization Design of Core Ultra-Stable Structure for Space...][research_liu_xu_2024]
 - [Reliability-Based Damage Tolerance Framework for Achieving...][research_shimizu_goyal_2024]
-- [Remote Impact Acoustic Inspection of Structures Using Water...][research_tokuomi_mori_2024]
 - [Robust-flexible and highly-thermostable polyimide-silica...][research_sun_yao_2024]
 - [Service load analysis and ply stacking optimization for...][research_guan_chi_2024]
 - [Twin screw continuous mixer for processing of composite...][research_nidagalkar_padmanabha_2024]
-- [Uncertainty Quantification of Drill Collar Fatigue...][research_ghosh_du_2024]
 - [Understanding AP/HTPB composite propellant combustion from...][research_cang_wang_2024]
 - [Withdrawn Interfacial Modification Techniques of Aramid...][research_mdhelal_gongdong_2024]
 - [A Control Method for Thermal Structural Tests of Hypersonic...][research_lu_zhang_2025]
@@ -3504,7 +3341,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Design and Additive Manufacturing of Metamaterial Enabling...][research_wang_song_2025]
 - [Design method of aeroengine turbine tenon/mortise joints’...][research_dong_fang_2025]
 - [Design of Variable-Stiffness Bistable Composite Laminates and...][research_xie_zhang_2025]
-- [Development of a new ring model for flexible protection...][research_sigeneger_singer_2025]
 - [Double-network hybrid ODA/OTD polyimide aerogel composites...][research_hou_ye_2025]
 - [Effect of Graphene on Pineapple Leaf Fiber PALF -Fiberglass...][research_hafizuddinbaderillah_fadhlizulkafli_2025]
 - [Experimental and numerical investigation for structural...][research_osama_gomaa_2025]
@@ -3523,9 +3359,7 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Long-term stability analysis and failure mode of composite...][research_deng_li_2025]
 - [Low-density silicone aerogel composites with excellent...][research_wu_wu_2025]
 - [Methods of Composite Fiber Filling for Aerospace Parts Made...][research_sirenko_2025]
-- [Machine learning for structural response assessment in timber...][research_zhao_meng_2025]
 - [Multidisciplinary Design Optimization of the NASA Metallic...][research_dababneh_kipouros_2025]
-- [Performance of sandwich type fire-resistant flexible...][research_shen_su_2025]
 - [Recovery of Information About the Thermal Protection of a...][research_tianyang_2025]
 - [Research and application of 3D measurement technology for...][research_dai_zhang_2025]
 - [Residual Stress Evolution of Graphene-Reinforced AA2195...][research_manokaran_michael_2025]
@@ -3541,13 +3375,10 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Combustion of Liquefying Fuels with 3D-printed Reinforcement...][research_giambelli_calo_2026]
 - [Composite Habitat An Incremental Development Path from...][research_ziglar_elsperman_2026]
 - [Composite Structure Enabling an Efficient Lunar Surface...][research_ziglar_2026]
-- [Coupled Forward Inverse Simulation of Flow and Pressure...][research_sathish_cv_2026]
-- [Data-driven reliability-based optimization framework for...][research_wang_zhang_2026_b]
 - [Design and Finite Element Thermo-Structural Analysis of a...][research_crisan_moraru_2026]
 - [Design and mechanical performance analysis of a flexible...][research_shao_zhao_2026]
 - [Design and structural analysis of a modular and automated...][research_demirel_demirci_2026]
 - [Design, machine learning based optimization, experimental...][research_zheng_shen_2026]
-- [Development and application of the soft collision-protection...][research_liu_li_2026]
 - [Experimental Evaluation of the Performance of the Flange of a...][research_manko_litot_2026]
 - [Experimental Sample of a Composite Pipe Used in the Fuel...][research_honchar_2026]
 - [Experimental Verification of the Performance of the Flange...][research_murashko_2026]
@@ -3557,9 +3388,7 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Finite Element-Based Structural Integrity Assessment of a...][research_pawar_navle_2026]
 - [Lightweight, Robust, and Superhydrophobic Multiscale...][research_cheng_wang_2026]
 - [Modern Approaches to Enhancing the Thermal Conductivity of...][research_podliesnyi_2026]
-- [Machine learning-based analysis of thermal performance in...][research_thanigaiselvan_kalidasan_2026]
 - [Metal matrix composite and nanocomposite for aerospace...][research_koley_mondal_2026]
-- [Optimal characteristics of inspection vehicle for drive-by...][research_calderonhurtado_atroshchenko_2026]
 - [Optimized Postprocessing Method for Fatigue Life Evaluation...][research_gulczynski_riccius_2026]
 - [Outstanding Multispectral Radiation Shielding and Thermal...][research_qu_wang_2026]
 - [Physics-Informed Machine Learning for Life Assessment of...][research_kunal_chakraborty_2026]
@@ -3576,205 +3405,120 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Design of the Experimental Campaign on Variable Transpiration...][research_gulli_maddalena_2015]
 - [Effect of parameters correlation on uncertainty and...][research_zhao_zhang_2015]
 - [Enthalpy modulation of a laminar pulsed nitrogen arc jet...][research_rat_krowka_2015]
-- [Examining the “Blanket of Protection” Conferred by...][research_parker_rains_2015]
 - [Experimental evaluation of force control for...][research_vozar_leonard_2015]
-- [ICONE23-1841 Thermal Hydraulic Analysis of Water Cooled...][research_chen_peng_2015]
-- [Inter-Tile Reuse Optimization Applied to Bandwidth...][research_peemen_mesman_2015]
 - [Probabilistic Design Demonstration of a Flexible Thermal...][research_tobin_dec_2015]
-- [Recycling of Boron Waste to Develop Ceramic Wall Tile in...][research_celik_2015]
 - [Strength Analysis and Optimization Technique for Thermal...][research_yan_luo_2015]
-- [Sweden ∙ Blanket Storage of Communications Data...][research_storr_2015]
 - [Thermal Impact Resistance of Integrated Thermal Protection...][research_fan_2015]
 - [Thermal Protection System Mass Estimating Relationships For...][research_sepka_samareh_2015]
 - [Thermal Protection for a Re-Entry Vehicle Using Heat Ablation...][research_thermal_protection_2015]
 - [Thermal Response and Ablation Research of EPDM Thermal...][research_chen_xue_2015]
-- [Thermal behavior of ceramic wall tile pastes bearing solid...][research_faria_holanda_2015]
 - [Titanium Aluminides for Metallic Thermal Protection System of...][research_gupta_ramkumar_2015]
 - [Toughened Thermal Blanket for Micrometeoroid and Orbital...][research_christiansen_lear_2015]
-- [Valorisation of Forest and Agricultural Biomass for the...][research_alfonso_mezquita_2015]
 - [Aerothermodynamic and thermal protection system...][research_woollard_braun_2016]
 - [Experimental Validation of an Innovative Metallic Tile Holder...][research_becchi_burberi_2016]
 - [Nuclear Thermal Rocket - Arc Jet Integrated System Model][research_taylor_emrich_2016]
 - [Optimal Thermal Design of a Multishield Thermal Protection...][research_maiorova_prosuntsov_2016]
 - [Post-Flight Assessment of Avcoat Thermal Protection System...][research_bosedeepak_santosjose_2016]
-- [Study of flatness measuring system for ceramic tile based...][research_bo_2016]
-- [The Study and Analysis on the Reuse and Transformation...][research_chang_lin_2016]
 - [The influence of parameters of ceramic tile covering on the...][research_vakhitov_klygach_2016]
 - [Thermal Characteristic Analysis of Thermal Protection System...][research_hwang_kim_2016]
 - [Thermogravimetric Analysis of Flexible Thermal Protection...][research_rossman_braun_2016]
 - [Uncertainty Analysis of Thermal Protection System Response of...][research_brune_hosder_2016]
-- [Use of an eye-tracker to assess workers in ceramic tile...][research_ozkan_ulutas_2016]
-- [A Location Method for Ceramic Tile Based on the Combination...][research_yang_li_2017]
 - [Design of Thermal Protection System for Reusable Hypersonic...][research_kumar_mahulikar_2017]
 - [Design, formation, and property of high emissivity...][research_shao_wu_2017]
-- [Environmental impact assessment of a ceramic tile supply...][research_sangwan_choudhary_2017]
 - [Full scale thermal simulator development for the solar probe...][research_heisler_abel_2017]
 - [Inverse analysis for simultaneously estimating...][research_cui_zhao_2017]
 - [Measurement of the Vapor Blanket Thickness by Image...][research_hou_chang_2017]
-- [Novel soft blanket gravure printing technology with an...][research_izumi_yoshida_2017]
-- [Oxidation protection of SiC in porcelain tile ceramics by...][research_xi_xiong_2017]
 - [Quantification of uncertainty on the catalytic property of...][research_sanson_villedieu_2017]
 - [Rarefaction Effects in NASA arc jet testing at SCIROCCO...][research_cinquegrana_votta_2017]
-- [Research on Resistance Characteristic in Blanket Assembly of...][research_bing_2017]
-- [Simulation of planetary end facing polishing uniformity on...][research_dai_li_2017]
-- [The energy consumption in the ceramic tile industry in Brazil][research_ciacco_rocha_2017]
-- [The use of alunitic kaolin in ceramic tile production][research_ediz_tatar_2017]
 - [Thermal Analysis of Thermal Protection System of Test Launch...][research_kim_2017]
 - [Thermogravimetric Analysis of Carbon Felt Insulation for...][research_rossman_braun_2017]
-- [Tile size selection for optimized memory reuse in high-level...][research_liu_wickerson_2017]
-- [Addition of cement kiln dust in ceramic wall tile bodies][research_aydin_tarhan_2018]
-- [An Intelligent Defect Detection Method of Small Sized Ceramic...][research_yang_chong_2018]
 - [Characterization of a radiometer window for Mars aftbody...][research_miller_tang_2018]
-- [Evaluation and Application of Reuse Method of Ceramic Tile...][research_yoshida_morita_2018]
 - [Evaluations of Silica Aerogel-Based Flexible Blanket as...][research_hasan_rashmi_2018]
-- [Improved fine layer patterning using soft blanket gravure...][research_izumi_yoshida_2018]
-- [Life cycle environmental and economic assessment of ceramic...][research_ye_hong_2018]
 - [Molecular Simulation of Boundary Layer Flow over Thermal...][research_achambath_schwartzentruber_2018]
-- [Relaxation of ceramic tile stresses generated by fast drying...][research_amoros_cantavella_2018]
-- [Renewable Energy from Thermal Electrical Power Generation in...][research_mohammadi_2018]
-- [Research on Real Time Online Detection System for High...][research_han_liu_2018]
 - [Thermal Protection Systems Technology Transfer from Apollo...][research_harris_stewart_2018]
 - [Anisotropic thermal conductivity under compression in...][research_penidefernandez_sansoz_2019]
 - [Calculation of aerodynamic heating and ablation of thermal...][research_minyushkin_kryukov_2019]
-- [Fabrication and characterization of ceramic tile incorporated...][research_teo_seman_2019]
 - [Flow Simulation over a Bulbous Heat Shield of a Typical...][research_flow_simulation_2019]
-- [Life cycle assessment of a ceramic glaze containing copper...][research_mohaddeskhorassani_siligardi_2019]
 - [Multi-scale thermal response modeling of an AVCOAT-like...][research_sawant_rao_2019]
 - [Reliability Increase of Base Heating Prediction and Thermal...][research_bao_ding_2019]
 - [Simultaneously Identification of Thermal Conductivity and...][research_sun_ji_2019]
 - [Spatial Spectroscopic Analysis of a Cathodic Arc Jet][research_ronis_kronhaus_2019]
 - [Stability investigations of the thermal insulating...][research_lakatos_2019]
 - [Surface Properties on Thermal Protection System...][research_achambath_ramjatan_2019]
-- [The Impact of Neogene Thermal Blanket to the Maturation of...][research_oikonomopoulos_tripsanas_2019]
-- [Whole-House Fire Blanket Protection From Wildland-Urban...][research_takahashi_2019]
 - [A magnetohydrodynamic model of a low current vacuum arc jet...][research_yang_wang_2020]
-- [Assessment of the Energy Conversion on the Thermal Balance...][research_salah_jemai_2020]
 - [Bayesian Network Inference of Thermal Protection System...][research_schiavazzi_juliano_2020]
 - [Effect of hot fuel gas on a combinational opposing jet and...][research_shen_liu_2020]
 - [Evaluation of Formulations for Self-Healing Thermal...][research_skolnik_putnam_2020]
-- [Influence of Flowability of Ceramic Tile Granule Powders on...][research_shin_choi_2020]
-- [Influence of crude glycerol load and pH shocks on the...][research_mora_lafuente_2020]
 - [Nonprobabilistic uncertain model updating and optimization...][research_jiang_wang_2020]
 - [Pterodactyl Thermal Protection System for Integrated Control...][research_hayszaneb_yountbryanc_2020]
 - [Thermo-mechanical assessment of gas turbine combustor tile...][research_nagabandi_pujari_2020]
 - [Thermo-physical properties of multilayer super insulation The...][research_nikpourian_bahramian_2020]
 - [Trends in the development of flexible thermal protection...][research_babashov_varrik_2020]
-- [Ceramic Tile Adhesives from the Producer’s Perspective A...][research_michalak_2021]
 - [Development of Multilayer Insulation Blanket of Aerogel With...][research_li_chen_2021]
-- [Environmental impact assessment of ceramic tile manufacturing...][research_atilganturkmen_budakduhbaci_2021]
 - [Experimental verification of thermal properties of the...][research_lakatos_csik_2021]
-- [Fire tests and thermal analyses of LSF walls insulated with...][research_tao_mahendran_2021]
-- [Heat Recovery in the Ceramic Tile Production Cycle][research_frignani_2021]
 - [Inferring thermal conductivity of a dual-layer woven thermal...][research_dang_stern_2021]
 - [Investigation of In-Depth penetration of Radiative Heating in...][research_banerjee_poovathingal_2021]
 - [On thermal protection system optimization criteria selection...][research_aronov_klyagin_2021]
 - [Optimization of multilayer thermal protection system by using...][research_ren_zhang_2021]
 - [Re-analysis of the multistep degradation kinetic data of...][research_shilav_gottlieb_2021]
 - [Super-flexible polyimide nanofiber cross-linked polyimide...][research_hou_mao_2021]
-- [The effects of cement raw mix waste dust on thermal...][research_aydin_2021]
 - [Thermal Protection Properties of the Wall Panel of the BKR-2C...][research_ivanchenko_klimenko_2021]
-- [Thermal and gas emission analysis of ceramic roofing tile...][research_maciel_maciel_2021]
-- [Thermal blanket for plastics processing][research_thermal_blanket_2021]
 - [Thermal performance and ablation characteristics of C/C-SiC...][research_shi_zha_2021]
-- [Tunable Reverse Offset Printing with a Stretchable Blanket...][research_shin_kim_2021]
 - [Validation and Sensitivity Analyses of Arc-Jet Performance of...][research_raghunandan_stern_2021]
-- [A Comparative Life Cycle Assessment of Palm Kernel Shell in...][research_handaya_marimin_2022]
 - [Ablation of carbon thermal protection system materials in...][research_ringel_panerai_2022]
-- [Alternative resource of incineration bottom ash for ceramic...][research_dagnew_2022]
 - [Analytical modeling of heat interchange in the blanket...][research_pronina_tushavina_2022]
-- [Assessment of mechanical, durability and microstructural...][research_saxena_gupta_2022]
-- [Assessment of the possibility of using the measurement of...][research_stancu_debski_2022]
-- [Blanket Protection Under India’s Covid-19 Insolvency...][research_jain_sood_2022]
 - [Correction Ablation of carbon thermal protection system...][research_ringel_panerai_2022_b]
-- [Cracking the Code for Wind Distress on Tile Roofs A Regional...][research_jorgenson_barrett_2022]
 - [Effect of Designed-In Features on Thermal Response of...][research_skolnik_putnam_2022_b]
-- [Environmental footprint assessment of China's ceramic tile...][research_ma_zhang_2022]
 - [Experimental Assessment of Thermal Response of Insulating...][research_skolnik_putnam_2022]
-- [Exploration of Textures on Tree Barks as a Medium for...][research_exploration_of_2022]
 - [Fully Coupled Material Response Solver using Radiative...][research_sirmalla_chiodi_2022]
 - [Hypersonic foldable Aeroshell for THermal protection using...][research_gramola_bruce_2022]
-- [Life cycle assessment of binary recycled ceramic tile and...][research_mir_khan_2022]
 - [Low-density Flexible and Conformal Thermal Protection Systems...][research_koo_2022]
 - [Pterodactyl Effects of 3D Thermal Analysis on the Thermal...][research_dsouza_mcguire_2022]
 - [Software Development for Thickness Optimization of Tile-Type...][research_wang_cheng_2022]
-- [Standards and Assessment of Construction Products Case Study...][research_michalak_2022]
-- [Assessment of Cementitious Ceramic Tile Adhesives in the...][research_michalak_ziomek_2023]
-- [DF-Net A Defect Detection Method of Ceramic Tile Printing...][research_li_zhou_2023]
 - [Design Assessment of Metallic Thermal Protection System for...][research_le_han_2023]
-- [Design and Analysis of a Novel Molten Salt Fusion Breeder...][research_franklin_mcguire_2023]
-- [Design of embedded-based ceramic tile linear thermal...][research_shui_yang_2023]
-- [Detection of ceramic tile defects based on improved YOLOv5][research_liu_gao_2023]
 - [Direct-Homogenization-Based Plate Models of Integrated...][research_khan_chakraborty_2023]
-- [Improving Buffer Storage Performance in Ceramic Tile Industry...][research_taccini_iori_2023]
 - [Loosely coupled analysis strategy for melt-ablation modeling...][research_lai_leu_2023_b]
 - [Micro-tomography Based Analysis of Thermal Protection System...][research_yee_parkinson_2023]
 - [Numerical Evaluation of Entry System Trajectory Control via...][research_anderson_kinzel_2023]
 - [Numerical Flowfield Visualization Over Heat Shield Of...][research_rcmehta_2023]
 - [Polyimide aerogels with low thermal conductivity and...][research_xu_zhang_2023]
-- [Research and Design of a Ceramic Tile Defect Detection Edge...][research_chen_2023]
-- [Sustainability Assessment of Cementitious Ceramic Tile...][research_michalak_2023]
-- [The risk of a different assessment of the performance of...][research_michalak_2023_b]
-- [Thermal Comfort and Energy Analysis in Ceramic Tile][research_kemaneci_yolcan_2023]
 - [Thermal Control Investigations on Separation Zone of Ceramic...][research_huang_dai_2023]
-- [Thermal and mechanical properties of concrete containing...][research_gharibi_mostofinejad_2023]
 - [Two Coupled Analysis Strategies for Melt-Ablation Modeling of...][research_lai_leu_2023]
-- [Vector Tile Geospatial Data Protection Using...][research_glazkov_chupshev_2023]
 - [An Experimental Study of the Thermal Transport Mechanisms in...][research_hassan_amin_2024]
 - [Arc Jet Ground Testing for Hypersonic Vehicles and Spacecraft][research_perry_2024]
-- [Assessment of Hail Damage for Tile Roofing System A Technical...][research_thakre_kaushal_2024]
-- [Assessment of hydrogen production potential of APEX fusion...][research_asal_genc_2024]
 - [Covering convection with a thermal blanket numerical...][research_huang_2024]
-- [Design and analysis of mixed bed solid breeder blanket with...][research_sharma_chaudhuri_2024]
 - [Development and Fabrication of Thermal Protection Systems for...][research_violette_2024]
 - [Evaluation of Reusable Thermal Protection System Materials...][research_chinnaraj_kim_2024]
-- [Influence of thermal condition on the shrinkage and bond...][research_liu_lu_2024]
 - [Interval finite element analysis of thermal protection system...][research_feng_shi_2024]
-- [Investigation of Widespread Cracking and Bowing of Bathroom...][research_radlinski_sachs_2024]
 - [Mechanically robust and thermal-insulated polyimide aerogel...][research_chen_chen_2024]
-- [Numeral Research on Thermal-Hydraulic Characteristics of...][research_bai_cheng_2024]
 - [Optimization of a Hybrid Thermal Protection System for Space...][research_nabi_najafi_2024]
-- [Parallel Per-tile Activation with Linear Superposition of...][research_he_chang_2024]
 - [Prediction of thermal contact resistance for reusable...][research_zhang_yu_2024]
-- [Preparation and properties of low-temperature self-expanding...][research_hu_wu_2024]
 - [Stress Distribution Analysis in ZrB2-SiC Based Thermal...][research_zuccarini_2024]
 - [The uniqueness of flexible and mouldable thermal insulation...][research_chaturvedi_dhangar_2024]
 - [Thermal Protection Performance of Biomimetic Flexible Skin...][research_yuan_lu_2024]
 - [Ultralight, low-shrinkage copolyimide aerogels with excellent...][research_chen_shi_2024]
 - [Validation of Porous Microstructure Analysis PuMA against...][research_bernstein_litvinov_2024]
-- [Advancing environmental sustainability of ceramic tile...][research_vijerathne_wahala_2025]
-- [An Efficient Data Reuse with Tile-Based Adaptive Stationary...][research_li_chang_2025]
-- [Coordination of surge protection and operation of thermal...][research_tsukamoto_shiozaki_2025]
-- [Correction Advancing environmental sustainability of ceramic...][research_vijerathne_wahala_2025_b]
-- [Discrete element flexible modeling and experimental...][research_jia_zheng_2025]
 - [Effect of Thermal Blanket on the Charging of Spacecraft Bodies][research_gudhenia_chakrabarty_2025]
-- [Evaluating decarbonization technologies and optimizing...][research_saavedra_osma_2025]
 - [Flexible Thermal Protection System for Aircraft Vehicles from...][research_medvedev_razumeev_2025]
 - [In Search of an Alternative Configuration of the Flexible...][research_castrojunior_andrianov_2025]
 - [Improvements to Thermal Protection System Design of...][research_morgan_williams_2025]
 - [Keeping Cool System shows promise for better thermal...][research_ikenson_2025]
 - [Measurement of particulates formed during thermal protection...][research_price_martin_2025]
-- [Multidimensional assessment of sustainability and...][research_yarahmadi_asadi_2025]
 - [Multifidelity HDMR Surrogates for Thermal Protection System...][research_williamson_bi_2025]
 - [Numerical study on thermal protection of turbofan engine...][research_hou_wang_2025]
 - [Rapid Optimization Design of Multi-Layer Passive Thermal...][research_wang_li_2025]
 - [Reconstruction of Thermal Protection System Aeroheating Using...][research_mcafee_alpert_2025]
 - [Study on the heat transfer performance of stepped lap joint...][research_yue_li_2025]
-- [TiO2 Supported on Kaolinite via Sol Gel Method for Thermal...][research_cordeiro_feltrin_2025]
-- [Utilizing Ceramic Tile Waste as Partial Aggregate Replacement...][research_s_n_2025]
 - [A novel adaptive coating for collaborative thermal protection...][research_li_du_2026]
 - [A review on the thermal protection technologies of reusable...][research_luo_tang_2026]
 - [Aerothermodynamic Analysis of a Flexible Thermal Protection...][research_hoter_nastac_2026]
-- [Carbon Emissions Quantification from Ceramic Tile Production...][research_pasae_idrus_2026]
 - [Design and Virtual Manufacturing of Co-sintered Metal Ceramic...][research_zappino_filippi_2026]
 - [Durability Assessment of Tile-Type Reusable Thermal...][research_kim_choi_2026]
-- [Flexible, axisymmetric MHD solver for coupled plasma and...][research_guizzo_hansen_2026]
 - [Improvements of the Thermal Protection System from Apollo to...][research_curtin_2026]
 - [Mechanical Analysis of a Deployable Flexible Thermal...][research_noel_gamarnik_2026]
 - [Multi-objective genetic algorithm-based thermal optimization...][research_deprisco_infante_2026]
 - [New Approaches to Processing Thermal Insulation and Thermal...][research_nakhod_2026]
 - [Radiation heating tests with porous ceramic thermal spray...][research_akamine_sudo_2026]
-- [Study on Preparation of Ceramic Tile Adhesive Using Waste...][research_shengjun_junyang_2026]
-- [Sustainable concrete development through the utilization of...][research_shivaprasad_yang_2026]
 - [Ultrasonic Monitoring of Ablation in Ceramic-Coated Thermal...][research_bano_fraser_2026]
 
 - [A “Laminar + Transition Criteria” Model for Hypersonic...][research_zhou_yan_2015]
@@ -3787,7 +3531,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Galerkin method solution of a volume-averaged model for...][research_sbutega_catton_2015]
 - [Numerical Simulation of Convective Heat Transfer and Pressure...][research_wu_zhou_2015]
 - [Next-Generation CFD for Hypersonic and Aerothermal Flows...][research_candler_2015]
-- [Numerical analysis for the conjugate heat transfer of skin...][research_jeon_choi_2015]
 - [Numerical modeling of melting and dripping process of...][research_kim_hossain_2015]
 - [Overall Thermal Contact Conductance of Propellant Tank...][research_angirasa_2015]
 - [Simulation of Conjugate Heat Transfer CHT Between Engine Head...][research_patil_pise_2015]
@@ -3801,7 +3544,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Hypersonic Boundary Layer Transition Experiments in...][research_swanson_daniel_2016]
 - [Improved k ω γ model for hypersonic boundary layer transition...][research_zhou_yan_2016]
 - [Numerical simulation of the convective heat transfer on...][research_stepanov_vasilyeva_2016]
-- [Numerical simulation on forced convective heat transfer of...][research_chen_cheng_2016]
 - [Prediction Methodology for 2 nd Mode Dominated Boundary Layer...][research_marineau_2016]
 - [Simulation of Convective Heat Transfer of Gas Liquid Bubble...][research_samkhaniani_2016]
 - [Stability analysis of partitioned methods for predicting...][research_verstraete_scholl_2016]
@@ -3813,7 +3555,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Improved γ-Re model for heat transfer prediction of...][research_hao_yan_2017]
 - [Large Eddy Simulation of Flow and Heat Transfer Mechanism in...][research_luan_yang_2017]
 - [Nonlinear Harmonic Method Applied to Turbine Conjugate Heat...][research_mehdizadeh_vilmin_2017]
-- [Numerical Simulation of Forced Convective Heat Transfer...][research_kahsay_bitsuamlak_2017]
 - [Numerical Simulation of the Laminar Forced Convective Heat...][research_sarbu_iosif_2017]
 - [Numerical simulation of convective heat transfer of...][research_sayyar_saghafian_2017]
 - [Optical Diagnostic Imaging of Multi-Rocket Plume-Induced Base...][research_mehta_danehy_2017]
@@ -3891,7 +3632,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Aerodisk Effect on Hypersonic Boundary Layer Transition and...][research_zhao_shao_2022]
 - [Assessment and numerical validation of a normal mode...][research_gelain_errera_2022]
 - [Computational Fluid Dynamics Simulation of Mixed Convection...][research_dzodzo_2022]
-- [Conjugate heat transfer analysis of laser-irradiated...][research_kishore_kumar_2022]
 - [Delaying hypersonic boundary layer transition using...][research_xu_yi_2022]
 - [Dependency of Surface Temperature on Coolant Mass Flow and...][research_kringe_burger_2022]
 - [Development and validation of an efficient numerical...][research_remiddi_indelicato_2022]
@@ -3902,7 +3642,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Investigations on Cooling Hole Patterns Over a Turbine...][research_yang_zhao_2022]
 - [Methodology for conjugate heat transfer analysis of brake...][research_ravindranath_2022]
 - [Notes on the hypersonic boundary layer transition][research_zhu_2022]
-- [Numerical simulation on convective heat transfer...][research_liu_yu_2022]
 - [Physics-Infused Reduced Order Modeling of Hypersonic...][research_vargasvenegas_huang_2022]
 - [Prediction of Aerothermal Environment and Heat Transfer for...][research_huang_he_2022]
 - [Topology Optimization Design and Heat Transfer Performance of...][research_duan_xie_2022]
@@ -3940,14 +3679,12 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Aerothermal Analysis of Nominal and Off-Design First Stage...][research_assonitis_orlandini_2024]
 - [Aerothermal Characteristics of Hypersonic Flow Around a...][research_makhnun_ahmed_2024]
 - [Aerothermal and aerodynamic characteristics of reusable...][research_shilwant_mahulikar_2024]
-- [Analysis of channel configuration effects on heat transfer...][research_imran_mahmoud_2024]
 - [Analysis of the Instantaneous Film Cooling Effectiveness on...][research_sounik_wright_2024]
 - [Boundary layer transition of hypersonic flow over a delta wing][research_qiu_shi_2024]
 - [Conjugate Heat Transfer Advancements and Applications in...][research_zha_xu_2024]
 - [Conjugate heat transfer analysis of mist-assisted film...][research_jaiswal_mallikarjunarao_2024]
 - [Controlling hypersonic boundary layer transition with...][research_oz_kara_2024]
 - [Correction Uncertainty Quantification of Hypersonic...][research_holifield_tufts_2024_b]
-- [Coupled Flow and Thermal Radiation Simulation for Molten Salt...][research_yuan_dai_2024]
 - [Effect of Atmospheric Turbulence on Hypersonic Boundary Layer...][research_melander_candler_2024]
 - [Effect of Relative Location of Film Cooling Hole With...][research_kang_jeong_2024]
 - [Evaluation of the wall heat flux in filtered premixed...][research_li_wang_2024]
@@ -4043,16 +3780,13 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Experimental Design for Partially Observed Markov Decision...][research_thorbergsson_hooker_2018]
 - [Noise Analysis of Aircraft Departure Procedures Using Monte...][research_smits_hartjes_2018]
 - [Notes on Computational Uncertainties in Probabilistic...][research_rauzy_2018]
-- [Probabilistic assessment of railway vehicle-curved track...][research_xu_zhai_2018]
 - [Sequential Refined Partitioning for Probabilistic Dependence...][research_werner_bedford_2018]
 - [Uncertainty Quantification for Low-Frequency, Time-Harmonic...][research_kamilis_polydorides_2018]
 - [A Sequential Design Approach for Calibrating Dynamic Computer...][research_zhang_lin_2019]
 - [Sensitivity Analysis in Material Response for Ablation Problem][research_fu_setters_2019]
-- [Uncertainty quantification in vehicle dynamics][research_funfschilling_perrin_2019]
 - [Bayesian Quadrature, Energy Minimization, and Space-Filling...][research_pronzato_zhigljavsky_2020]
 - [Optimal Uncertainty Quantification of a Risk Measurement from...][research_stenger_gamboa_2020]
 - [Probabilistic Assessment of Pilot-Vehicle System Performance...][research_saetti_rogers_2020]
-- [Probabilistic assessment of vehicle derailment based on...][research_jin_liu_2020]
 - [Sensitivity Analysis and Flight Tests Results for a Vertical...][research_glebocki_jacewicz_2020]
 - [Sensitivity Analysis of Major Cost Parameters on the Launch...][research_yang_2020]
 - [A Nonparametric Bayesian Framework for Uncertainty...][research_xie_li_2021]
@@ -4071,14 +3805,11 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Alternative Importance Measure for Seismic Probabilistic Risk...][research_riley_richards_2023]
 - [Assessment of Uncertainty Associated with Tropical Cyclone...][research_najarkolaie_bensi_2023]
 - [Multi-output Gaussian Process Surrogate Models for Inverse...][research_lartaud_humbert_2023]
-- [Probabilistic Assessment of Landslide Risk Considering...][research_rana_sivakumarbabu_2023]
 - [Probabilistic assessment technique of air combat results...][research_probabilistic_assessment_2023]
-- [Probabilistic cost-benefit analysis for mitigating...][research_merisalu_sundell_2023]
 - [Uncertainty Quantification and Experimental Design for...][research_travelletti_ginsbourger_2023]
 - [Launch Separation Simulation and Sensitivity Analysis in...][research_yu_deng_2024]
 - [Multifidelity Bayesian Experimental Design to Quantify...][research_gong_pan_2024]
 - [Multiple Closed Curve Modeling with Uncertainty...][research_luo_strait_2024]
-- [Probabilistic assessment of rockburst risk in TBM-excavated...][research_yin_cheng_2024]
 - [PyApprox a software package for sensitivity Analysis...][research_jakeman_2024]
 - [Sensitivity analysis for knowledge discovery in scramjet...][research_fujio_ogawa_2024]
 - [Targeted Adaptive Design][research_graziani_ngom_2024]
@@ -4091,10 +3822,8 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Robust A-Optimal Experimental Design for Sensor Placement in...][research_attia_leyffer_2025]
 - [Scalable Method for Bayesian Experimental Design without...][research_hoang_espath_2025]
 - [Uncertainty Quantification by Probabilistic Analysis of...][research_gorla_brewer_2025]
-- [Vehicle Load Identification of Bridges Using Acceleration...][research_dabbaghchian_pakzad_2025]
 - [Correction Solver and Modeling Sensitivity Analysis of a...][research_erol_unsal_2026_b]
 - [Gradient-Free Sequential Bayesian Experimental Design via...][research_gruhlke_hanu_2026]
-- [Probabilistic seismic risk and vulnerability assessment...][research_li_beer_2026]
 - [Rim seal performance in a hydrogen-fueled gas turbine...][research_ma_zhu_2026]
 - [Solver and Modeling Sensitivity Analysis of a Four-Engine...][research_erol_unsal_2026]
 
@@ -4104,7 +3833,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Implementation and Validation of the Jet Flame Model Using...][research_kamma_suvanjumrat_2015]
 - [Multi-fluid modelling of pulsed discharges for flow control...][research_poggie_2015]
 - [Numerical Simulation and Analysis of the Aircraft Pilot Seat...][research_zhang_jinwu_2015]
-- [Numerical Simulation for Coupled Heat and Moisture Transfer...][research_zhang_cheng_2015]
 - [Numerical Simulation of Chemical Erosion in VEGA Launcher...][research_bianchi_neri_2015]
 - [Numerical simulation of flow over an airfoil in heavy rain...][research_wu_cao_2015]
 - [Assessing Computational Fluid Dynamics Turbulence Models for...][research_watts_2016]
@@ -4123,24 +3851,17 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Numerical Simulation of the Wake of an Airliner][research_kolomenskiy_paoli_2018]
 - [Validation of two-phase CFD models for propellant tank...][research_kassemi_kartuzova_2018]
 - [CFD Jet Mixing Model Validation against Zero-Boil-Off Tank...][research_kartuzova_kassemi_2019]
-- [Coupled Numerical Simulation of Thermal-Reactive Flow and...][research_alpak_vink_2019]
-- [Coupled Numerical Simulation of Transient Microseismicity and...][research_han_ren_2019]
 - [Flow Mixing Optimisation inside a Manifold using...][research_subaschandar_2019]
-- [Hydrodynamic Evaluation of Microtiter Plate Assay Using...][research_zahra_khan_2019]
 - [Modeling of gas surface interface for paraffin-based hybrid...][research_bianchi_nasuti_2019]
 - [Numerical Simulation and Experimental Studies on Weapon Safe...][research_dileep_umesh_2019]
 - [Numerical Simulation of Rocket Launch Vehicle][research_gj_nath_2019]
 - [Optimization of a Cyclone Using Multiphase Flow Computational...][research_weber_fullmer_2019]
-- [Predicting and analyzing the performance of biomass-burning...][research_pundle_sullivan_2019]
 - [Assessment of Computational Fluid Dynamics for Predicting...][research_banazadehneishabouri_shirazi_2020]
 - [CFD simulation of empty fuel tanks separation from a trainer...][research_olejnik_dziubinski_2020]
-- [Co-simulation of CFD-multiphase population balance coupled...][research_wodolazski_2020]
-- [Coupled CFD-DEM Simulation of Seed Flow in an Air Seeder...][research_guzman_chen_2020]
 - [Large Eddy Simulation of Film Cooling with Triple Holes...][research_baek_ahn_2020]
 - [Reconciling Gaussian plume and Computational Fluid Dynamics...][research_joseph_hargreaves_2020]
 - [Using Computational Fluid Dynamics to Analyze Convection in...][research_galvez_wright_2020]
 - [Very Large Eddy Simulation of Film Cooling Effectiveness on...][research_yan_2020]
-- [A Case Study on Pathogen Transport, Deposition, Evaporation...][research_domino_2021]
 - [A study on laser keyhole welding in vacuum by computational...][research_han_cho_2021]
 - [Computational Study on Radiative Aerothermodynamics of a...][research_li_zhang_2021]
 - [Non-zonal detached eddy simulation coupled with a steady RANS...][research_davidson_2021]
@@ -4153,18 +3874,15 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [RANS/LES investigation on the performance of air film fusion...][research_shi_gao_2022]
 - [Solid rocket motor interior ballistics fluid-solid...][research_alqaleiby_hashem_2022]
 - [Validation of Large Eddy Simulation Turbulence Model on a...][research_pilmaier_bhushan_2022]
-- [Coupled CFD-DEM Simulation of Seed Flow in...][research_guzman_chen_2023]
 - [Efficient numerical simulation of the conserved Allen Cahn...][research_wang_xiao_2023]
 - [Modeling and CFD Simulation of Regression Rate in Hybrid...][research_rampazzo_barato_2023]
 - [A novel dynamic heat-flow coupled model under spray...][research_qiao_zhou_2024]
-- [CFD Modeling of the Refining Process in an Industry-Scale...][research_busa_konar_2024]
 - [CFD Performance Prediction of Cryogenic High-Speed Bearings...][research_sakai_miyagawa_2024]
 - [Evaluation of Computational Fluid Dynamics Modeling for...][research_zhang_li_2024_b]
 - [Flow-induced erosion modelling of cohesive material with...][research_rahimilarki_vollmann_2024]
 - [Fluid Dynamics Conference / Aerospace Numerical Simulation...][research_ishii_tsuboi_2024]
 - [Investigation of Fluid Dynamics in Various Aircraft Wing Tank...][research_karahan_cadirci_2024]
 - [Multiphase Computational Fluid Dynamics Simulation of...][research_soto_williams_2024]
-- [Numerical simulation of aerated flow in tunnel based on...][research_lei_zhang_2024]
 - [Numerical simulation research on the launch process of...][research_li_zi_2024]
 - [Validation of a Computational Fluid Dynamics Model of Axial...][research_reske_brodnick_2024]
 - [Computational Fluid Dynamics CFD Modelling to Explore Canard...][research_lenggana_barokah_2025]
@@ -4173,7 +3891,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Numerical Simulation on Inter-stage Separation of Finned...][research_yan_jiang_2025]
 - [Performance Evaluation of Computational Fluid Dynamics and...][research_cabello_troyanoferre_2025]
 - [Validation and Development of a Fast-Running CFD Model for...][research_yang_brodnick_2025]
-- [A DEM-CFD coupled model for abrasive-jet blunting of cemented...][research_xiao_wang_2026]
 - [Correction Performance Comparison of Truss-Braced Wing...][research_rahman_akbar_2026_b]
 - [Gas-Granular Computational Fluid Dynamics Simulation of...][research_knickerbocker_west_2026]
 - [Numerical solution to a coupled dual-porosity flow and free...][research_du_zuo_2026]
@@ -4181,122 +3898,58 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Static and Dynamic Derivatives Estimation of an Image Guided...][research_bielaszka_2026]
 
 - [Towards Nonlinear Multimaterial Topology Optimization Using...][research_liu_tovar_2015]
-- [Data Analytics and Machine Learning for Design-Process-Yield...][research_capodieci_2017]
 - [Model-based Decision Support for Value and Sustainability...][research_bertoni_dasari_2018]
-- [Machine learning for IC design and technology co-optimization...][research_pan_2018]
 - [Design of a Hybrid Digital-Twin Flight Performance Model...][research_uzun_umutdemirezen_2019]
 - [Machine Learning and Optimization for Resource-Constrained...][research_barnes_murawski_2019]
 - [On Nonintrusive Uncertainty Quantification and Surrogate...][research_adelmann_2019]
-- [Using Machine Learning for Incident Response and Classify...][research_pereira_2019]
 - [Application of a Neural Network for the Analysis of the...][research_matushin_makhalov_2020]
-- [Deep Reinforcement Learning for Safe Local Planning of a...][research_josef_degani_2020]
 - [Digital Engineering and U.S. Army Air Vehicle Technical...][research_calvert_2020]
-- [Visual Inspection of Collective Protection Equipment...][research_ferreira_lima_2020]
-- [A machine learning and deep learning based approach to...][research_bhamare_saikia_2021]
 - [Data-Driven Simulation for Evaluating the Impact of Lower...][research_sekine_kato_2021]
 - [Data-driven electromagnetic field simulation with a...][research_galetzka_loukrezis_2021]
 - [Intelligent sensitivity analysis framework based on machine...][research_xiong_guo_2021]
-- [Machine Learning Estimators for Power Electronics Design and...][research_goodrick_butler_2021]
-- [Machine Learning-Based Optimization for Subsea Pipeline Route...][research_bhowmik_2021]
-- [Optimization of an Embedded Phase Change Material Cooling...][research_bhatasana_marconnet_2021]
 - [Uncertainty Quantification for Deep Learning Regression...][research_garciacardona_lin_2021]
-- [A Thermal Machine Learning Solver For Chip Simulation][research_ranade_he_2022]
 - [An Adaptive Framework for Optimization and Prediction of Air...][research_reitmann_schultz_2022]
-- [An Optimization Model of Reverse Logistics Network Design][research_an_optimization_2022]
-- [Cost-Efficient Data Privacy Protection in Multi Cloud Storage][research_matveev_2022]
 - [Data-Driven Approach Using Machine Learning for Real-Time...][research_kim_justin_2022]
 - [Gradient-based shape optimization for unsteady turbulent...][research_fidkowski_2022]
 - [Lunar Campaign Optimization Using Machine Learning][research_bartkiewicz_haws_2022]
 - [Off-Design Mission Performance Prediction for Unmanned Aerial...][research_klaproth_hornung_2022]
 - [Playful Probing Towards Understanding the Interaction with...][research_ribeiro_roque_2022]
-- [Reinforcement learning for guiding optimization processes in...][research_fu_stollenwerk_2022]
-- [Research on Construction of Digital Twin System for Bridge...][research_xue_zhu_2022]
-- [Vehicle Assisted Bridge Damage Assessment Using Probabilistic...][research_sarwar_cantero_2022]
-- [A cost-based criterion for implementing data-driven...][research_parsons_2023]
 - [A machine learning methodology for the diagnosis of phase...][research_anooj_marri_2023]
-- [Advancing magnetic material discovery through machine...][research_khatri_kashyap_2023]
 - [Aircraft Line Maintenance Scheduling Using Simulation and...][research_widmer_shaukat_2023]
 - [Airfoil Analysis and Optimization Using a Petrov Galerkin...][research_areias_correia_2023]
-- [Applying Digital Engineering Digital Twin to Support Ground...][research_kanon_griffin_2023]
-- [Building Machine Learning Models to Detect Item Response...][research_donoghue_2023]
-- [Coupling Dynamic Model of Natural Environment Protection and...][research_coupling_dynamic_2023]
 - [Design and Optimization of Mechatronic Integrated Control...][research_design_and_2023]
-- [Drug Response Prediction with Machine Learning A Critical...][research_bernett_picciani_2023]
 - [End-to-end material thermal conductivity prediction through...][research_srivastava_jain_2023]
 - [Fast Inverse Design of Transonic Airfoils by Combining Deep...][research_deng_yi_2023]
-- [Implementing Digital Engineering Digital Thread and Digital...][research_thukral_griffin_2023]
-- [Machine Learning Accelerated Atomistic Simulations for 2D...][research_sun_singh_2023]
-- [Machine learning driven smart fire safety design of false...][research_khan_zhang_2023]
-- [Multi-Scalar Urban Digital Twin Design Architecture and...][research_multi_scalar_urban_2023]
 - [Propellant Mass Gauging in a Spherical Tank under...][research_chowdhury_charleston_2023]
-- [Ship-D Ship Hull Dataset for Design Optimization Using...][research_bagazinski_ahmed_2023]
 - [Study on Optimization Design of Airfoil Transonic Buffet with...][research_chen_gao_2023]
-- [Time-Drift Aware RF Optimization with Machine Learning...][research_sharankova_seiya_2023]
-- [Vehicle assisted bridge damage assessment using probabilistic...][research_sarwar_cantero_2023]
 - [A systematic review of Kansei engineering in vehicle design][research_lu_ye_2024]
 - [Advanced UAV Design Optimization Through Deep Learning-Based...][research_karali_inalhan_2024]
 - [Analyzing the Potential of Dynamic Aircraft Wake Separation...][research_chu_ng_2024]
 - [Application of Machine Learning Tools to Material Science A...][research_ta_2024]
-- [Enhancing Power System Protection with Machine Learning A...][research_gulzar_urrehman_2024]
-- [Incorporating nickel foam with nano-encapsulated phase change...][research_yang_wang_2024]
-- [Integrating computational models and machine learning for...][research_s_ilangovan_2024]
-- [Integrating machine learning and feature analysis for...][research_chu_2024]
-- [Machine Learning Models in Bone Tumor Diagnosis Performance...][research_sharma_mittal_2024]
 - [Machine Learning Molecular Dynamics Simulations An...][research_okumura_2024]
-- [Machine Learning for Quantum Cascade Laser Design and...][research_hernandez_gmachl_2024]
-- [Machine Learning-Driven Optimization of MTPA in IPMSM Drives...][research_jujjuvarapu_rajulapati_2024]
-- [Machine learning predictions and optimization for thermal...][research_izgi_2024]
 - [Machine learning-based surrogates for eVTOL performance...][research_rao_chimata_2024]
 - [Material Type Prediction Using Machine Learning Techniques][research_ray_2024]
 - [Mission-Driven Inverse Design of Blended Wing Body Aircraft...][research_sharma_hosder_2024]
 - [Model-Based Sequential Design of Experiments with Machine...][research_gerling_dresia_2024]
 - [Optimizing Propeller Efficiency Using AI / Machine Learning...][research_arya_zaidi_2024]
-- [Revolutionizing Vehicle Damage Inspection A Deep Learning...][research_amodu_shaban_2024]
-- [The Combination and Application of Vehicle-Connected Vehicle...][research_lu_2024]
-- [The Design of Inflow Control Device Completion Using Machine...][research_chua_tan_2024]
 - [A data-driven based concurrent coupling approach for...][research_cheng_yang_2025]
-- [AI-Driven Functional Protein Design Machine Learning...][research_jiang_2025]
-- [Accelerating Reflect Array Design Leveraging Machine Learning...][research_srinikhil_d_2025]
-- [Automatic Action Space Specification for Deep Reinforcement...][research_volokh_halfond_2025]
-- [Data-driven framework for pothole repair automation using...][research_mehta_yusuf_2025]
-- [Design and Synthesis of a Dual Band Series Feed Microstrip...][research_acharya_gangopadhyaya_2025]
 - [Determination of a machine learning constitutive model from...][research_wang_2025_b]
-- [Efficiency of machine learning optimizers and...][research_morrison_ma_2025]
-- [Hybrid computational model for analysis of drug release from...][research_wang_tian_2025]
-- [Implementation of a Machine Learning for Optimizing CNTFET...][research_mrsvlalithamani_msmsoumya_2025]
 - [Intelligent Flight Procedure Design A Reinforcement Learning...][research_huang_zhang_2025]
 - [Machine Learning-Driven Prediction of High Entropy Alloy...][research_mora_adibi_2025]
-- [Machine learning and response surface methodology for...][research_bhujbal_preetam_2025]
-- [Material Parameter Inference in Organic Photovoltaics Using...][research_kirchartz_kim_2025]
-- [Material selection and optimization for hybrid Solar-Thermal...][research_yahya_mahmoud_2025]
 - [Non-standard Approach to the Design of Spacecraft On-board...][research_liubimov_2025]
 - [Optimization Method for Cost-Effectiveness-Oriented...][research_shi_pan_2025]
-- [Optimization of Reconfigurable Metasurface Design Based on...][research_su_yang_2025]
 - [Research on Constructing Machine Vision-Based Material...][research_li_leong_2025]
-- [Thermal degradation investigation with machine learning...][research_knehir_pasha_2025]
 - [Understanding Physics-guided Machine Learning Applications...][research_murashko_tkachov_2025]
-- [A Data-Driven Analysis of Ad Creative Performance on Cost Per...][research_pateliya_patidar_2026]
 - [A Data-Driven Methodology for Developing a Future Design Day...][research_kim_yun_2026]
 - [A Digital Engineering Workbench for Collaborative Air Vehicle...][research_moerland_jepsen_2026]
 - [A hybrid deep learning framework for efficient airfoil design...][research_tekin_xiao_2026]
-- [DNBR Box Enhancing the Thermal-Hydraulic Design of the...][research_segond_lefebvre_2026]
 - [Design optimisation of purge flow path in axial aero gas...][research_sharmila_samad_2026]
-- [Development and Validation of an Interpretable Machine...][research_ma_zhao_2026]
 - [Editorial Physics-informed machine learning for modeling and...][research_xie_mao_2026]
-- [Estimating Material Consumption per Production Order Using...][research_amorim_lopes_2026]
-- [Improved A* algorithm design for container relocation problem...][research_ying_xun_2026]
 - [Intelligent design of transonic compressor self-recirculating...][research_li_chu_2026]
 - [Intelligent thermal response system for solar wing vacuum...][research_feng_zheng_2026]
-- [Interpretable hybrid machine learning and response surface...][research_behjati_kashani_2026]
-- [Machine Learning Use Cases for Predicting Mine Material...][research_meuzelaar_warren_2026]
-- [Machine learning-based predictive modeling of transient...][research_prabakaran_mohanraj_2026]
 - [Multimodal physics simulation for space launch vehicle...][research_miller_jones_2026]
 - [Neural Network-Based Optimization of Hybrid Rocket Design for...][research_zolla_zavoli_2026]
-- [On the use of machine learning for the development of an...][research_tam_siddiqiemon_2026]
-- [Research on thermal runaway warning threshold and machine...][research_han_hu_2026]
 - [Surrogate model-assisted machine learning optimization of...][research_selvam_george_2026]
-- [Thermal and Power Loss Analysis of Polycrystalline Solar...][research_mali_kotalwar_2026]
-- [Thermal interface material impact prediction on LED heat...][research_erkalkan_polat_2026]
 - [Uncertainty quantification-informed machine learning models...][research_ding_ziviani_2026]
 
 - [Aerodynamic Design of Payload Fairing of Satellite Launch...][research_mehta_2015]
@@ -4313,7 +3966,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Blended control allocation and lateral-directional stability...][research_huang_2016]
 - [Computation of Aerodynamic load on Protuberance over...][research_mehta_2016]
 - [Computational Study of Non-Equilibrium Effects on Hypersonic...][research_wang_josyula_2016]
-- [Development and Validation of Stability Indicating HPTLC...][research_development_and_2016]
 - [Effective high-order solver with thermally perfect gas model...][research_jiang_yan_2016]
 - [Space Launch System Aerodynamic Database Uncertainty...][research_favaregh_houlden_2016]
 - [Space Launch System Booster Separation Aerodynamic Database...][research_chan_dalle_2016]
@@ -4377,7 +4029,6 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Implicit Large eddy simulation of hypersonic boundary-layer...][research_nguyen_terrana_2023]
 - [Improvement of transition prediction model in hypersonic...][research_zhang_chen_2023]
 - [Influence of Single Roughness Element on Hypersonic...][research_cheng_huang_2023]
-- [Matlab Program for Slope Stability Analysis A Handy...][research_atarigiya_2023]
 - [Numerical Simulation of Vapor Configuration and Bubbles...][research_yang_wang_2023]
 - [Rapid Algorithmic Blade Design Applying Machine Learning From...][research_dasadhikari_kuwamura_2023]
 - [Receptivity and its influence on transition prediction of a...][research_niu_su_2023]
@@ -4568,11 +4219,8 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Reusable Launch Vehicle Landing Online Guidance and Control...][research_li_ji_2026]
 
 - [A Methodology to Develop Dynamic Cost-Centric Risk Impact...][research_hamid_macdermott_2015]
-- [A large-scale initiative to disseminate an evidence-based...][research_velasco_griffin_2015]
 - [Amas Jctd Operational Demonstration Lessons Learned][research_theisen_schoenherr_2015]
 - [An Efficient Data Acquisition System for Launch Vehicle...][research_vijayan_sureshbabu_2015]
-- [Application of an organizational evaluation capacity...][research_bourgeois_whynot_2015]
-- [Dietary exposure and risk assessment to cadmium of the adult...][research_zhang_liu_2015]
 - [ICONE23-1112 Development of Risk Assessment Methodology of...][research_nishino_kurisaka_2015]
 - [Independent Assessment across the Launch Vehicle - Satellite...][research_buzzatto_2015]
 - [International Acquisition Programs Variables Beyond Cost...][research_chace_2015]
@@ -4582,64 +4230,30 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Reliability and Probabilistic Risk Assessment - How They Play...][research_safiefayssal_stuttsrichard_2015]
 - [Research on the reliability model of the underwater vehicle...][research_chen_zhao_2015]
 - [Temporal Wind Pairs for Space Launch Vehicle Capability...][research_decker_barbre_2015]
-- [A Cross-cultural Evaluation Conversation in India Benefits...][research_hudib_cousins_2016]
-- [A Model for Probabilistic Seismic Risk Assessment of Process...][research_caputo_2016]
 - [A Monte Carlo Analysis for Collision Risk Assessment on Vega...][research_sindoni_ciufolini_2016]
 - [An Innovative Goddard Space Flight Center GSFC Methodology...][research_nancyjlindsey_2016]
-- [Conducting a One Million Tonne Carbon Storage Demonstration...][research_greenberg_2016]
-- [Evaluation and lessons learned from an undergraduate service...][research_mcelwain_finnegan_2016]
 - [Towards a methodology and tooling for Model-Based...][research_schreiner_rozek_2016]
 - [Air/ground system wide information management Concept...][research_abraham_2017]
 - [Augmenting Space Technology Program Management with Secure...][research_hodson_munk_2017]
-- [Building Evaluation Culture and Capacity in a Community-Level...][research_runnels_andrew_2017]
-- [Evaluation of a cross-cultural training program for Pakistani...][research_mazur_woodland_2017]
-- [Geotechnical Fragility Analysis for Seismic Probabilistic...][research_tastan_2017]
-- [Logic-probabilistic Modeling for the Risk Assessment During...][research_arzhenovskiy_2017]
-- [Lessons learned using a values-engaged approach to attend to...][research_boyce_2017]
-- [Probabilistic Risk Assessment for an Art Timber Structure...][research_darmon_2017]
-- [Probabilistic risk assessment for pedestrian vehicle...][research_huang_liu_2017]
-- [Design of Vehicle Defect Risk Assessment System Based on...][research_design_of_2018]
 - [Estimating Software Reliability for Space Launch Vehicles in...][research_novacksteven_alhassanmohammad_2018]
 - [Flight control of a launch vehicle using the hierarchical...][research_lungu_butu_2018]
 - [Harmonization of Regulation on Land Acquisition For...][research_suhadi_2018]
-- [Lessons learned Evaluating the program fidelity of UNWomen...][research_jeremiah_quinn_2018]
-- [Operational Risk Assessment of Grid-connected PV System...][research_tao_li_2018]
-- [Probabilistic Integrated Human Mixture Risk Assessment of...][research_lin_lin_2018]
 - [Quantifying the benefit of a developmental test program...][research_kothakonda_kezirian_2018]
-- [Community, Theory, and Guidance Benefits and Lessons Learned...][research_lachenaye_boyce_2019]
 - [Design and Testing of a Small Launch Vehicle with Lessons...][research_chandler_2019]
 - [From Program Strategic Planning to Program Initiation Lessons...][research_fernandes_silva_2019]
 - [Ground Risk Assessment Service Provider GRASP Development...][research_ancel_helsel_2019]
 - [Technology Readiness Assessment for HEEET TPS][research_gagepeter_mahzarimilad_2019]
-- [A Dynamic Risk Assessment Model for Hazardous Chemicals...][research_lai_li_2020]
-- [An E-learning outreach program for public schools Findings...][research_nuncio_arcinas_2020]
-- [Evaluating the Implementation of the Prison Rape Elimination...][research_smith_2020]
 - [Incorporating FLEX Strategies in Multi-Unit Probabilistic...][research_zhang_ma_2020]
-- [Kylie Hutchinson, ed. 2018 . Evaluation Failures 22 Tales of...][research_gomezramirez_2020]
 - [Methods for Modeling Shutdown States in a Full-Scope...][research_wood_2020]
-- [Striking a Balance between Program-Specific and...][research_wolff_errichetti_2020]
-- [British Columbia SHIFT Early Lessons Learned from a...][research_davies_reid_2021]
-- [Creating Effectiveness Principles for Principles-Focused...][research_iyamu_berger_2021]
 - [Europa Clipper planetary protection probabilistic risk...][research_mccoy_dinicola_2021]
-- [Evaluating a community based mental health programme in West...][research_tewari_raja_2021]
-- [Exercise is Medicine® Canada on Campus Casebook Evaluation of...][research_morgan_liscio_2021]
-- [Bayesian Risk Assessment On the Boundaries of Probabilistic...][research_kiani_steen_2022]
 - [Correction Quantification of Launch Vehicle Subsystem Design...][research_harris_cox_2022_b]
-- [Evaluating an innovative integrated training for child and...][research_coll_stewart_2022]
-- [Fire Risk Assessment of a Ship’s Power System under the...][research_li_zhang_2022]
 - [Model-Based Systems Engineering Approach for the First-Stage...][research_zhang_liu_2022]
 - [Probabilistic Risk Assessment in Space Launches Using...][research_pan_ding_2022]
-- [Productive interactions in digital training partnerships...][research_marra_2022]
-- [Quality by design based development of nanostructured lipid...][research_alam_2022]
 - [Quantification of Launch Vehicle Subsystem Design Uncertainty...][research_harris_cox_2022]
-- [The funders’ perspective Lessons learned from the National...][research_gibbs_reynolds_2022]
 - [Assessment of Uncertainty in Scenario Development for...][research_liu_wu_2023]
-- [Capitalization of experience of physical activity resumption...][research_riquier_vanhoye_2023]
 - [External Flood Guidance for Probabilistic Risk Assessment][research_randelovic_schneider_2023]
 - [Importance Measure for Dynamic Probabilistic Risk Assessment...][research_shah_kim_2023]
 - [Investigation of the Use of Dynamic Probabilistic Risk...][research_turkmen_bao_2023]
-- [Lessons learned creating microbiology laboratory...][research_lessons_learned_2023]
-- [Lessons learned from implementing the parenting Program P in...][research_stern_alemann_2023]
 - [Leveraging Advanced Visualization Capabilities for Improved...][research_wishart_miller_2023]
 - [Method of Developing a SCRAM Parallel Engine for Efficient...][research_aras_farag_2023_b]
 - [Methodology and Demonstration for Performance Analysis of a...][research_aras_farag_2023]
@@ -4648,158 +4262,95 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Probabilistic Risk Assessment Goals for the eVinciTM...][research_detar_maioli_2023]
 - [Probabilistic Risk Assessment and Its Application in Complex...][research_probabilistic_risk_2023]
 - [Probabilistic Risk Assessment of a Light-Water Reactor...][research_christian_otani_2023]
-- [Risk Based Tunnel Design by Vehicle Involved in Road Crashes...][research_pireddu_lombardi_2023]
 - [Risk reduction of tank explosion based on passivation of...][research_trushlyakov_urbansky_2023]
 - [Understanding the Benefits of Utilizing Additive...][research_buettner_lakshmipuramraghu_2023]
 - [A State-based Probabilistic Risk Assessment Framework for...][research_roy_guariniello_2024]
 - [Fault Management Algorithm Risk Assessment for the NASA Space...][research_maul_lo_2024]
 - [Fault tree analysis for risk assessment of rocket engine...][research_das_padmanabhan_2024]
-- [Game-Theoretic and Probabilistic Cyber Risk Assessment][research_zhao_2024]
-- [Lessons Learned from the Southwest Regional Partnership on...][research_mcpherson_balch_2024]
-- [Modern Power System Risk Assessment Using Quantum Computing][research_hosseini_monti_2024]
-- [Probabilistic Risk Assessment for Data Rate Maximization in...][research_toledo_kaschel_2024]
 - [Probabilistic risk assessment Hazard impact study of...][research_nick_buchaillot_2024]
-- [S15-04 The use of artificial intelligence in risk...][research_hartung_2024]
-- [The probable future of toxicology - probabilistic risk...][research_the_probable_2024]
 - [Thermal hazard analysis and fire risk assessment of rocket...][research_yang_yao_2024]
-- [Urban Fire Risk Hot Spot Assessment and Green Spaces A...][research_thakare_tajne_2024]
 - [A Sequential Decision-Making Formulation of Dynamic...][research_oleary_nassar_2025]
 - [Bayesian Network as a Surrogate Model for Physical...][research_chen_sakurahara_2025]
 - [Determining Risk Significant Digital IandC Failure Modes in...][research_pandit_earthperson_2025]
 - [Developing a Probabilistic Risk Assessment Framework for...][research_farag_chandran_2025]
-- [Enhanced Landslide Risk Assessment Through Non-Probabilistic...][research_shu_pi_2025]
 - [Enhancing Expert Elicitation in Probabilistic Risk Assessment...][research_mustafa_alzahrani_2025]
-- [Enhancing Risk Based Inspection Strategies for Safe Smart Ex...][research_cardno_2025]
 - [Exhaustive probabilistic risk assessment for space...][research_genet_giugliarelli_2025]
-- [Extended Probabilistic Risk Assessment of Autonomous...][research_kim_jung_2025]
 - [Launch Collision Risk Assessment What Impacts on the European...][research_zemoura_farago_2025]
 - [Manufacturing a 3D stitched highly unitized PRSEUS-based...][research_saha_baker_2025]
 - [Model-Based Systems Engineering Approach for Requirements...][research_borio_fusaro_2025]
 - [Predictive Decision-Making in Support of the Selection of...][research_alkhatib_sakurahara_2025]
-- [Probabilistic Model of Vehicle Safety Operation Risk...][research_li_shi_2025]
 - [Probabilistic Risk Assessment for Small Modular Nuclear...][research_cheng_vedros_2025]
 - [Probabilistic risk assessment of a liquid rocket engine][research_ram_joshi_2025]
-- [Probabilistic seismic risk assessment of Africa][research_paul_silva_2025]
-- [Robotic ground vehicle for acoustic data acquisition on...][research_gagnon_leroux_2025]
-- [S02-01 Probabilistic Risk Assessment in Practice][research_maertens_2025]
-- [Scenario-based probabilistic risk assessment of...][research_vashistha_joshi_2025]
 - [Synthetical Model Generator for Probabilistic Risk Assessment...][research_aras_earthperson_2025]
 - [Collaborative Scheduling Problem Pertaining to Launch and...][research_guo_han_2026]
 - [Distributed Data Acquisition and Control System for Rocket...][research_slawecki_kowalczyk_2026]
 - [Dynamic Threat Modeling and Risk Assessment for Space Systems][research_kim_2026]
-- [Integrating 3D rockfall modelling and probabilistic analysis...][research_rusydy_canbulat_2026]
-- [Lessons learned from a collective evaluation and community of...][research_anderson_stern_2026]
 - [Open Systems Verification Demonstration OSVD Lessons Learned...][research_avery_finnegan_2026]
 - [Probabilistic Risk Assessment PRA for Artemis and future...][research_lane_nilvarna_2026]
-- [Probabilistic risk assessment PRA for sustainable water...][research_martin_2026]
 - [Probabilistic space IoT risk management methodology P-SIRM2][research_dawaare_vaidyan_2026]
 
-- [Asynchronous UKF-based localization of an underwater robotic...][research_potyagaylo_constantinou_2015]
-- [Autonomous Underwater Vehicle Operations in the Arctic][research_mcmillan_2015]
 - [Complexities of system of systems operational availability...][research_anderson_carter_2015]
 - [Effects of Safety Protocols on Unmanned Vehicle Ground...][research_ryan_cummings_2015]
 - [FPGA Implementation of Software Defined Radio-Based Flight...][research_panda_mishra_2015]
-- [Planning operations before market launch for balancing...][research_hansen_grunow_2015]
 - [Production cost heterogeneity in the circular city model][research_lin_wu_2015]
-- [Time to Come Clean? Disclosure and Inspection Policies for...][research_kim_2015]
 - [5.6 - Onboard Flight Termination System with Electronic...][research_aktas_ertugrul_2016]
 - [An Insight into Pakistan Space Program][research_zahid_2016]
 - [Demonstration program committee][research_demonstration_program_2016]
 - [Development of Improved Security Command Insertion Device for...][research_hwang_oh_2016]
-- [Efficient Large-scale Road Inspection Routing][research_chen_cowling_2016]
 - [H3 Launch Vehicle Development Concept of Operations][research_mori_saito_2016]
 - [Implementation of SCADA/HMI system for real-time controlling...][research_panda_mishra_2016]
 - [Lighter-Than-Air LTA “AirStation” - Unmanned Aircraft System...][research_hochstetler_bosma_2016]
 - [Probabilistic Modeling of Aircraft Trajectories for Dynamic...][research_lewis_2016]
 - [A GNSS Integrity Augmentation System for Ground Vehicle...][research_bijjahalli_ramasamy_2017]
 - [Aircraft Ground Handling Analysis for Automation][research_alonsotabares_moracamino_2017]
-- [Canvas as a design tool for autonomous operations With...][research_grotli_bjerkeng_2017]
-- [Contributions of vehicle inspection operations to traffic...][research_gbadamosi_adenigbo_2017]
 - [FPGA Implementation of a Tone-Based Flight Termination System...][research_panda_mishra_2017]
 - [High power UHF transmitters using SSPA for flight termination...][research_sahani_mandal_2017]
 - [Identification and Analysis of Factors Influencing the...][research_linn_2017]
-- [Identification of workstations in earthwork operations from...][research_fu_jenelius_2017]
 - [Model-Driven Approach and Library of Reusable Source Code for...][research_bartusevics_lesovskis_2017]
-- [Operations and Maintenance Practice of U.S. Public-Private...][research_chan_2017]
 - [PHM enabled autonomous propellant loading operations][research_walker_figueroa_2017]
-- [Revenue Management of Reusable Resources with Advanced...][research_chen_levi_2017]
 - [Sistem Pengaman Power Shape-charge Pada Flight Termination...][research_arisandi_2017]
 - [Survey of sUAS Flight Termination as Depicted in Internet...][research_fernando_2017]
 - [Use of continuum robots for remote inspection operations][research_walker_university_2017]
-- [A branch-and-cut algorithm for the Time Window Assignment...][research_dalmeijer_spliet_2018]
 - [Active flight path control for an induced spin flight...][research_shukla_woolsey_2018]
 - [Debris, Launch and Other Considerations - Towards a Small...][research_straub_2018]
 - [Ground operations concept for Altair, Europe’s future...][research_arnodo_appolloni_2018]
 - [Initial Criticality Assessments to Guide FMEAs on Rocket...][research_fernandez_riddlebaugh_2018]
 - [Integration of reliability, availability and maintainability...][research_bishop_niblett_2018]
-- [Machine learning as a reusable microservice][research_pahl_loipfinger_2018]
 - [PLD Space’ Arion 2 micro-launcher simplifying and improving...][research_torres_garcia_2018]
 - [Rapid Assessment of Power Requirements and Optimization of...][research_bendarkar_chakraborty_2018]
-- [Robust vehicle routing problem with hard time windows under...][research_hu_lu_2018]
 - [Simulation of Integrated Approach for Aircraft Turnaround...][research_jin_garcia_2018]
-- [Supplier Quality Management Investment, Inspection, and...][research_lee_li_2018]
-- [Two strategies of two-level facility network design for...][research_chalupa_nielsen_2018]
 - [Aircraft ground operations steps towards automation][research_alonsotabares_moracamino_2019]
-- [District-Led School Turnaround A Case Study Of One U.S...][research_meyers_2019]
 - [World launch vehicle operations trends][research_samokhvalova_shlyakhtenkova_2019]
-- [An Exact Solution Framework for Multitrip Vehicle-Routing...][research_paradiso_roberti_2020]
 - [Bayesian Reliability Analysis with Slice Sampling in Launch...][research_ireland_gonzales_2020]
-- [Benefits of Vehicle Automation for Public Transportation...][research_othman_2020]
 - [Computational Study of Pump Turbine Partial Load Operations][research_altimemy_caspar_2020]
 - [Control Concepts for Simplified Vehicle Operations of a...][research_lombaerts_kaneshige_2020]
 - [Mitigation of Ground Impact Hazard for Safe Unmanned Aerial...][research_poissant_castano_2020]
-- [Nested Vehicle Routing Problem Combined Operations of UAV and...][research_zeng_chen_2020]
 - [Planetary Protection Implementation of the InSight Mission...][research_hendrickson_kazarians_2020]
-- [Real-Time Dynamic Pricing for Revenue Management with...][research_lei_jasin_2020]
 - [Scheduling Aircraft Ground Handling Operations Under...][research_sheibani_2020]
-- [A hybrid algorithm for time-dependent vehicle routing problem...][research_pan_zhang_2021]
 - [Automatic Change Over Unit for Flight Termination System][research_gourab_priyadarshini_2021]
-- [Fixing Phantom Stockouts Optimal Data‐Driven Shelf Inspection...][research_chen_2021]
 - [Integrated Framework for Staging and Trajectory Optimization...][research_cho_jo_2021]
 - [Measurement and Evaluation for Prognostics and Health...][research_weiss_brundage_2021]
 - [Performance Analysis of Reverse Osmosis System using...][research_yusuf_maihulla_2021]
 - [Remote Operation of Flight Termination System over Fiber...][research_gourab_mandal_2021]
-- [Robust Data-Driven Vehicle Routing with Time Windows][research_zhang_zhang_2021]
 - [Supplemented Thrust Reversal Contraption for Enhanced Flight...][research_bibhorr_anand_2021]
-- [The secure time-dependent vehicle routing problem with...][research_allahyari_yaghoubi_2021]
-- [Time-dependent multi-depot green vehicle routing problem with...][research_fan_zhang_2021]
 - [Correlation Analysis between Delay and Turnaround Time at...][research_lee_kim_2022]
-- [Crowdsourced humanitarian relief vehicle routing problem][research_parappathodi_archetti_2022]
-- [Enhancing mass transit passenger safety during a pandemic via...][research_salama_mcgarvey_2022]
-- [Modeling Bayesian inspection game for non-performing loan...][research_widodo_rochmadhan_2022]
-- [Network Inspection for Detecting Strategic Attacks][research_dahan_sela_2022]
-- [Port Concession and Ship Turnaround Time in Nigerian Ports][research_okeke_florence_2022]
-- [Remotely Operated Vehicle Taxonomy and Emerging Methods of...][research_dalhatu_saad_2022]
 - [Research on X-Ray Digital Imaging Inspection Method of Carbon...][research_gao_chai_2022]
 - [Safety on ground operations on Ariane 6 Launch System][research_decadi_dias_2022]
-- [Spatial Network Analysis of Container Port Operations The...][research_ducruet_itoh_2022]
-- [Technical Note Bifurcating Constraints to Improve...][research_baek_ma_2022]
-- [Technical Note Static Pricing Universal Guarantees for...][research_besbes_elmachtoub_2022]
-- [Territory Design for the Multi-Period Vehicle Routing Problem...][research_lespay_suchan_2022]
-- [The Consistent Vehicle Routing Problem with heterogeneous...][research_stavropoulou_2022]
-- [Turnaround Arts Pilot Program An Interrupted Time Series...][research_wright_2022]
 - [Waterproof Inline Flight Termination System for Ocean Bound...][research_nichols_schmidt_2022]
 - [A Comparative Study on various Flight Termination System...][research_priyadarshini_gourab_2023]
 - [Aircraft ground operations automation. The turnaround 2.0][research_alonsotabares_2023_b]
-- [An Integrated Production and Inspection Model With a...][research_shih_tsai_2023]
-- [An adaptive ant colony algorithm for crowdsourcing...][research_xue_2023]
 - [Correction Aircraft ground operations automation. The...][research_alonsotabares_2023]
 - [Design of 2 1 Wilkinson Power combiner for Flight Termination...][research_gourab_sahani_2023]
 - [Design of Ground Telecommand System for Flight Termination in...][research_gourab_roy_2023]
 - [Employing robotics for inspection operations][research_alexis_2023]
 - [FPGA Implementation of Range Safety Panel for Flight...][research_gourab_mandal_2023]
-- [Fare inspection patrolling under in-station selective...][research_escalona_brotcorne_2023]
 - [Physics-Constrained Machine Learning for Reliability-Based...][research_xu_wang_2023]
 - [Research of Definition and Analysis Method for Civil Aircraft...][research_zhang_2023_c]
-- [Six Sigma Application to Reduce Variance In Turnaround Time...][research_jaffar_ismail_2023]
-- [A branch-and-cut algorithm for the time-dependent vehicle...][research_wei_poon_2024]
 - [Autonomous Flight Safety System Embedded Software and...][research_saban_diez_2024]
 - [Autonomous data detection and inspection with a fleet of UAVs][research_calamoneri_coro_2024]
 - [Autonomous flight termination system The need for an...][research_miquelparra_acampa_2024]
-- [Breaking new ground Opportunities and challenges in tunnel...][research_loybenitez_song_2024]
 - [Design of an autonomous flight termination system for an...][research_gente_hirth_2024]
 - [Development of Autonomous Flight Termination Software][research_akiyama_ishikawa_2024]
-- [Enhancing Urban Unmanned Ground Vehicle Operations Through...][research_moore_yakimenko_2024]
 - [European Autonomous Flight Termination Systems Based in Smart...][research_ramireznavidad_sancheznogales_2024]
 - [Four SpaceX Rideshare Launch Missions Facilitating Access to...][research_yarimbatman_cengiz_2024]
 - [Generic Flight Termination Architecture for Launchers...][research_thivent_2024]
@@ -4808,50 +4359,23 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [Impact of Launch Cadence on the Automation and Economics of...][research_pizzuto_ziegler_2024]
 - [Japan's First In-Flight Experimentation of Autonomous Flight...][research_asamura_hasegawa_2024]
 - [Multi-Disciplinary Optimization of Air-Launched Vehicles A...][research_silaidis_maggi_2024]
-- [Nested column generation for split pickup vehicle routing...][research_wu_bo_2024]
-- [Online Learning and Pricing for Service Systems with Reusable...][research_jia_shi_2024]
-- [Optimal Auction Design with Deferred Inspection and Reward][research_alaei_belloni_2024]
 - [Optimising the flight turnaround schedules An improved...][research_zhang_li_2024_c]
-- [Optimization of Diesel Locomotive Brake Valve Refurbishment...][research_mosia_ramdass_2024]
 - [Performance analysis of reverse osmosis system using...][research_maihulla_yusuf_2024]
 - [Predictive Mental Workload Modeling Methodology for...][research_li_wang_2024_b]
-- [Real-time schedule adjustments for conflict-free vehicle...][research_adamo_ghiani_2024]
 - [Research on Application Mode of Data Transmission for...][research_qiao_2024]
 - [Simplified Vehicle Operations Pathway to Autonomy][research_iii_2024]
-- [Technical Note Cloud Cost Optimization Model, Bounds, and...][research_qu_dawande_2024]
-- [Technical Note Near-Optimal Bayesian Online Assortment of...][research_feng_niazadeh_2024]
-- [Asymptotically Optimal Competitive Ratio for Online...][research_goyal_iyengar_2025]
 - [Autonomous flight termination system A proposal for an...][research_pasciuti_acampa_2025]
-- [Closed Loop Supply Chain Model with Remanufacturing,Recycling...][research_handayani_jauhari_2025]
-- [Dynamic Allocation of Reusable Resources Logarithmic Regret...][research_xie_gurvich_2025]
 - [Enabling Rapid and Reusable Visualization of Construction...][research_mirhasani_louis_2025]
-- [Enhancing Autonomous Multi-Agent Coordination for Unmanned...][research_moore_yakimenko_2025]
 - [Evaluation of Convective Heat Transfer Coefficients With CFD...][research_feldkamp_gleim_2025]
 - [FPGA Implementation of Area-Efficient Digital Encoder for...][research_kumar_mandal_2025]
 - [Ground Facilities and Operations for H3 Launch Vehicle at...][research_kawashima_suzuki_2025]
-- [Integrated electric ground vehicle and drone with...][research_nugraha_rendragraha_2025]
 - [MIA a reusable execution platform for space missions a case...][research_zurera_rozas_2025]
-- [Managing Reusable Resources With Usage Time Limits][research_legros_vanleeuwaarden_2025]
 - [Minimum cost consensus model considering dual behavior...][research_liang_qin_2025]
-- [On the capacity inequalities for the heterogeneous vehicle...][research_pavlikov_2025]
-- [Online Allocation of Reusable Resources in Nonstationary...][research_zhang_cheung_2025]
 - [Predicted Trajectory Accuracy Requirements to Reduce Aviation...][research_weitz_gruber_2025]
 - [Preliminary Development of Multi-Vehicle m N Operations With...][research_buck_politowicz_2025]
-- [Research on efficient grasping of unmanned aerial vehicle...][research_han_liu_2025]
-- [Revenue Maximization Under Unknown Private Values with...][research_alaei_makhdoumi_2025]
 - [Simulation-Based Two-Stage Scheduling Optimization Method for...][research_liu_wang_2025]
-- [Vehicle routing problem for omnichannel retailing including...][research_li_wang_2025_b]
-- [Vehicle-to-Everything-Car Edge Cloud Management with...][research_ku_zang_2025]
-- [A data-driven heuristic for the dynamic vehicle routing...][research_belhaiza_laporte_2026]
-- [A study on process optimization and turnaround time tat...][research_n_s_2026]
 - [Autonomous Air Ground Vehicle Operations Optimization in...][research_choi_li_2026]
 - [Capacity Planning for Resource Turnaround Operations][research_li_slaugh_2026]
-- [Dynamic Pricing for Reusable Resources The Power of Two Prices][research_balseiro_ma_2026]
-- [Inspection station allocation in a production line with...][research_hedayati_devuyst_2026]
-- [Joint or Independent? Sourcing and Inspection Decisions in...][research_chen_wu_2026]
-- [Leveraging reusability Improved competitive ratio of greedy...][research_baek_wang_2026]
-- [Machine Learning Based Optimization of Officer Assignment and...][research_alharthi_shubber_2026]
-- [Pricing and operations planning for new product launch...][research_lamas_jahanmir_2026]
 - [Semantic Web-Guided Bi-Context Scheduling for Airport Ground...][research_wang_chi_2026]
 - [The Technique for Performance Verification of Flight...][research_lee_2026_b]
 
@@ -4872,7 +4396,6 @@ measure of what it contributed but of how long it survived.
 - [Control Enhanced and Parameterized Load Relief technology for...][research_yang_tang_2015]
 - [Demonstration of Launch Vehicle Slosh Instability on a...][research_pei_rothhaar_2015]
 - [Design and Analysis of Vented Interstage in a Typical Launch...][research_yedhuukrishnan_saidalavip_2015]
-- [Design and Development of a Solar Based Air Conditioning...][research_abdullah_ahmad_2015]
 - [Design and Testing of an Additively Manufactured Advanced...][research_mcknight_boyer_2015]
 - [Design of Periodic Cruise Vehicle Based on the Passive...][research_hu_jiang_2015]
 - [Development of a CuNiCrAl Bond Coat for Thermal Barrier...][research_fiedler_rosler_2015]
@@ -4894,7 +4417,6 @@ measure of what it contributed but of how long it survived.
 - [Parametric Visualization Study of Self-Pressurizing...][research_zimmerman_cantwell_2015]
 - [Real Time Multiple Fidelity Physics Based Simulation of...][research_sasanapuri_2015]
 - [Rocket Plume Modeling][research_cai_2015]
-- [Roof Performance Analysis for a Small Emergent Market Vehicle][research_pereira_bennati_2015]
 - [Route Optimization Method for Unmanned Air Vehicle Launched...][research_savuran_karakaya_2015]
 - [Scenario Planning Based Strategy for Research and Development...][research_hong_ahn_2015]
 - [Simulation of a Light Aircraft Encountering a Helicopter Wake][research_wang_white_2015]
@@ -4912,7 +4434,6 @@ measure of what it contributed but of how long it survived.
 - [Characterizing Epistemic Uncertainty for Launch Vehicle...][research_novackstevend_rogersjim_2016]
 - [Design Evolution and AHP-based Historiography of Lifting...][research_rana_chudoba_2016]
 - [Development and Testing of a High-Pressure Rotating...][research_stechmann_heister_2016]
-- [Digital data transmission via Visible Light Communication VLC...][research_mohammed_bourzig_2016]
 - [Effectiveness of Gaseous Film Cooling in Rocket Nozzles][research_nidhi_nishchith_2016]
 - [Effect of Surface Pressure Integration Methodology on Launch...][research_sekula_piatak_2016]
 - [FMI based multi-domain modeling and simulation for aircraft...][research_yang_wu_2016]
@@ -4945,11 +4466,9 @@ measure of what it contributed but of how long it survived.
 - [Space Launch Vehicle Development in Korea Aerospace Research...][research_ko_cho_2016]
 - [Study on System Design Method of Firing Precision for...][research_rui_2016]
 - [System Design of Enhanced Epsilon Launch Vehicle][research_imoto_2016]
-- [The In-Vehicle Information Interface Design Based on Internet...][research_zhang_2016]
 - [U.S. Air Force EELV New Entrant Launch Vehicle Certification...][research_gujral_emdee_2016]
 - [A Simulation Study On A Flexible Manufacturing Systems For...][research_a_simulation_2017]
 - [Aircraft Touchdown Speed Estimation][research_fazeli_narayan_2017]
-- [Analysis Of Vehicle Air Compressor Mounting Bracket][research_analysis_of_2017]
 - [Analysis of Utilizing Existing Runways for Horizontal...][research_gulliver_lemon_2017]
 - [Design Methodology of a Hybrid Rocket-Powered Launch Vehicle...][research_kanazaki_yoda_2017]
 - [Design and Manufacture of Liquid Oxygen Propellant Tank for...][research_benkelman_berger_2017]
@@ -4976,14 +4495,12 @@ measure of what it contributed but of how long it survived.
 - [Project of LPS for rocket launcher of the Barreira do Inferno...][research_silvaoliveira_luizdasilva_2017]
 - [Reduction Methods Applied to Aircraft Brake Squeal Prediction...][research_gatt_besset_2017]
 - [Retrieval of Vehicle Images based on Color Space Fuzzy...][research_hu_2017]
-- [Review on Design and Development of Three Wheeled Campus...][research_review_on_2017]
 - [Robust Exploration and Commercial Missions to the Moon Using...][research_borowskistanleyk_ryanstephenw_2017]
 - [Rocket Launcher Protocol][research_s_2017]
 - [Simulation of Sloshing in Rigid Rectangular Tank and a...][research_hv_sg_2017]
 - [Sixty years of launch vehicle acoustics][research_lubert_2017]
 - [Status of the COSPAS SARSAT Programme and Its Future...][research_studenov_2017]
 - [Success for SpaceX reusable rocket][research_success_for_2017]
-- [Surface Quality Inspection for Vehicle Front Panel Using...][research_xie_zeng_2017]
 - [The Airframe/Propulsion Integrated Design, Analysis and...][research_gong_bing_2017]
 - [Using Cell-DEVS for Prototyping Unmanned Aircraft System...][research_using_cell_devs_2017]
 - [Validation of a System Theory Model for Aircraft Engine...][research_dwinger_friedrichs_2017]
@@ -4993,14 +4510,12 @@ measure of what it contributed but of how long it survived.
 - [A Parametric Case Study of the Apollo Program Launch Vehicle...][research_coley_seyedalavi_2018]
 - [A study on launch site ground of vehicle-mounted missile...][research_zhao_jiang_2018]
 - [A theoretical study on the effects of thermal barrier coating...][research_yao_ma_2018]
-- [Analysis on the market evolution of new energy vehicle based...][research_sun_wang_2018]
 - [Basic study for sloshing phenomena under microgravity...][research_michihara_tamura_2018]
 - [Capability-Based Design Task Decomposition in Heavy Military...][research_liu_ji_2018]
 - [Computational Analysis of Nuclear Thermal Propulsion Rocket...][research_lawdensky_culbreth_2018]
 - [Concept Study of a Reusable Suborbital Launch Vehicle][research_fuchs_haskell_2018]
 - [Design Methodology of the Aircraft Power Generation System][research_ismagilov_vavilov_2018]
 - [Design Options for a South African Small-Satellite Launch...][research_wunderlin_martin_2018]
-- [Design and Development of a ROS Enabled CAN Based All-Terrain...][research_rhoades_srivastava_2018]
 - [Design and Simulation of a Commercial Hybrid Electric...][research_rheaume_lents_2018]
 - [Design of mobile solid propellant launch vehicle using hybrid...][research_villanueva_2018]
 - [Development of Design Methodology for a Small Solar-Powered...][research_rajendran_smith_2018]
@@ -5024,7 +4539,6 @@ measure of what it contributed but of how long it survived.
 - [Problems of ground safety supporting at launch of space...][research_barmin_neustroev_2018]
 - [Robust LQG Controller Design for the Small Unmanned Aerial...][research_szabolcsi_2018]
 - [Real-Time Simulation of a More Electric Aircraft Power...][research_rivard_fallaha_2018]
-- [Research on Urban Vehicle Art Design and Development Based on...][research_research_on_2018]
 - [Review on film cooling of liquid rocket engines][research_shine_nidhi_2018]
 - [Selection of Geostationary Satellite Launch Vehicle Using...][research_gulgonul_sozbir_2018]
 - [Simulation of Water Spray Generated by Pneumatic Aircraft...][research_qu_liu_2018]
@@ -5043,11 +4557,9 @@ measure of what it contributed but of how long it survived.
 - [A Novel Method For The Vibration Reduction of an Air Vehicle...][research_aksoy_acar_2019]
 - [A new Metallic Thermal Barrier Coating System for Rocket...][research_fiedler_rosler_2019]
 - [Adaptive Separation Thresholds for Self-Separation of...][research_du_zhang_2019]
-- [Assessment of the Fire Dynamics Simulator for Modeling Fire...][research_bellas_gomez_2019]
 - [Attitude Tracking Control Reconfiguration for Space Launch...][research_zhang_li_2019]
 - [Climbing performance analysis of rocket-based combined cycle...][research_jia_ye_2019]
 - [Determination of External Power Factors Acting on an Unmanned...][research_determination_of_2019]
-- [Design and Simulation of Vehicle Cab Noise Reduction based on...][research_zheng_2019]
 - [Design of a Solid Fuel Ramjet Ground Launch Demonstrator][research_martinez_kubicki_2019]
 - [Design, Analysis and Optimization of Linear Bundled...][research_xiangjun_bingquan_2019]
 - [Development Status of LE-9 Engine for H3 Launch Vehicle][research_kawashima_funakoshi_2019]
@@ -5084,7 +4596,6 @@ measure of what it contributed but of how long it survived.
 - [Application of Modern Management Technology in the...][research_qin_yunzhou_2020]
 - [Correction The DARPA Experimental Spaceplane Program XSP...][research_wierzbanowski_ramasubramanian_2020_b]
 - [Correction Unstructured Grid Development for the Space Launch...][research_ratnayake_krist_2020_b]
-- [Digital Vehicle Security Platform Proposal][research_paulort_lepikson_2020]
 - [Design and Control of an Underwater Launch System][research_corwel_zoghbi_2020]
 - [Design and simulation of the accumulator for servomechanisms...][research_zheng_zhao_2020]
 - [Experimental Studies on Launch Dynamics of Slant Launched...][research_chandramoul_reddy_2020]
@@ -5124,7 +4635,6 @@ measure of what it contributed but of how long it survived.
 - [Air Launched Effects Payload and Air Vehicle Integration][research_lengyel_sosa_2021]
 - [Analysis of Quasi-three-dimensional Landing Dynamics and...][research_analysis_of_2021]
 - [Ballistic design of a launch vehicle with a reusable payload...][research_shulga_shcheglov_2021]
-- [Concealed Carry in a Vehicle Combining Second Amendment...][research_gosney_2021]
 - [Conceptual Design and Sizing Study of Reusable TSTO Launch...][research_simon_chudoba_2021]
 - [Cooling of rocket plume using aqueous jets during launching][research_zhou_bao_2021]
 - [Design Optimization and Parameter Analysis of a Hybrid Rocket...][research_zhu_wang_2021]
@@ -5140,9 +4650,7 @@ measure of what it contributed but of how long it survived.
 - [Film cooling modeling in liquid rocket thrust chambers][research_concio_dalessandro_2021]
 - [Influence of Interstage Damping on Satellite-launch Vehicle...][research_silvaguimaraes_dandradesouto_2021]
 - [Influence of thermal barrier coating on partially premixed...][research_ma_chen_2021]
-- [Inverter Design Development][research_inverter_design_2021]
 - [Low-Order Method for Prediction of Separation and Stall on...][research_hosangadi_gopalarathnam_2021]
-- [Modeling and Path Planning for Persistent Surveillance by...][research_wang_huang_2021]
 - [Modern Legal Practice as the Engine of Inequality][research_sissoko_2021]
 - [Multidisciplinary design and optimization of expendable...][research_zeeshan_rafique_2021]
 - [Numerical Virtual Flight Simulation of Quasi-Cobra Maneuver...][research_wang_ma_2021]
@@ -5165,14 +4673,10 @@ measure of what it contributed but of how long it survived.
 - [A path planning method for robot-aided aero-engine fleet...][research_song_cheng_2022]
 - [An Application of Analytical Target Cascading for a...][research_wang_xu_2022]
 - [An Effort to Use a Solid Propellant Engine Arrangement in the...][research_obreque_diaz_2022]
-- [Analysis of the Development of Vehicle Inspection Technology][research_analysis_of_2022]
 - [Cost Estimation for Space Propulsion Systems and Human...][research_naseh_jafarpanah_2022]
-- [Design and Fabrication of Load Carry Electrical Vehicle][research_arulmurugan_2022]
 - [Design and analysis of attitude observers based on the...][research_cruz_batista_2022]
 - [Design of a Robust Controller for Launch Vehicle][research_garg_abraham_2022]
-- [Design of new energy vehicle exhibition space based on...][research_huang_ali_2022]
 - [Design, development, and flight testing of a tube-launched...][research_denton_benedict_2022]
-- [Detection and reconstruction of static vehicle-related ground...][research_liu_vanoosterom_2022]
 - [Determination of Heat Fluxes for Fairing Separation of Launch...][research_anum_majid_2022]
 - [Double-Ducted Fan as an Effective Lip Separation Control...][research_akturk_camci_2022]
 - [Electrolytic-Plasma Jet Polishing of Additively Manufactured...][research_nagulin_terentev_2022]
@@ -5199,7 +4703,6 @@ measure of what it contributed but of how long it survived.
 - [The Long Road to Overnight Success Reusable Rocket Boosters...][research_brooks_2022]
 - [Thrust Control Method and Technology of Variable-Thrust...][research_yao_qi_2022]
 - [URANS Analysis of a Launch Vehicle Aero-Acoustic Environment][research_escartiguillem_garciaraffi_2022]
-- [Unmanned Ground Vehicle Equipped with Ground Penetrating...][research_szynkarczyk_wrona_2022]
 - [A Bifurcation Theoretic Integrated Methodology for Aircraft...][research_khatri_sinha_2023]
 - [A Multilayered and Multifactorial Health Assessment Method...][research_lin_huang_2023]
 - [An Overview on the Design Variants for Organization of the...][research_an_overview_on_2023]
@@ -5210,22 +4713,18 @@ measure of what it contributed but of how long it survived.
 - [Cascade nonlinear observer design for large amplitude of...][research_park_bang_2023]
 - [Case Study on Launch Vehicle, Platform and Process for Sea...][research_jung_kim_2023]
 - [Collaborative path planning method for vehicle and...][research_ding_liu_2023]
-- [Cooperative Transmission Line Inspection Between Inspection...][research_ding_duan_2023]
 - [Cost Effect of Launch Site Location on Multistage Rocket...][research_cam_ozkol_2023]
 - [Design and ballistic analysis of the prospects of using a...][research_kuznetsov_2023]
 - [Design of an Anti-Tank Rocket Launcher Drone][research_muda_irmanto_2023]
 - [Design, Performance-Based Optimization PBO , and Actual...][research_abbas_mir_2023]
 - [Development Trends of Reusable Launch Vehicles][research_yun_jo_2023]
-- [Development of turbocharged engine bench test adapted to...][research_ye_yimin_2023]
 - [Development trend and integrated design of liquid launch...][research_yang_2023]
 - [Discrete Event Simulation of Aircraft Sortie Generation on an...][research_yoon_oh_2023]
 - [Electric Rocket Launcher Aircraft Drone-Launched Short Range...][research_shubov_2023]
-- [Electric Vehicles Integration in Automatic Generation Control...][research_ullah_ullah_2023]
 - [Evaluation of 15-kHz high-speed Pr YAG phosphor surface...][research_witkowski_rothamer_2023]
 - [Experimental study of rocket plume expansion in the...][research_yao_sun_2023]
 - [Finite Element Simulation of Three Full-Scale Crash Tests for...][research_mason_warren_2023]
 - [Finite Horizon Worst Case Analysis of Linear Time-Varying...][research_biertumpfel_pholdee_2023]
-- [Fire Loss Assessment Model Based on Internet Search Engine...][research_hao_liu_2023]
 - [Four Decades of Indian Launch Vehicle Technology][research_madhavannair_2023]
 - [Freestream Turbulence Effects in Large-Eddy Simulations of...][research_kawai_asada_2023]
 - [Ground Test Technology Demonstration for Nuclear Thermal...][research_sasmal_holmes_2023]
@@ -5252,13 +4751,9 @@ measure of what it contributed but of how long it survived.
 - [The Application of the Extended Cells Method to Simulate the...][research_the_application_of_2023]
 - [Test Methodology Establishment of Hydrodynamic Ram Effect on...][research_seo_kim_2023]
 - [Testing of Real time Embedded Onboard Software a Launch...][research_krishnan_cr_2023]
-- [The effects of new energy vehicle subsidies on air quality...][research_li_zhang_2023]
 - [Tool material selection methodology for aircraft elements...][research_faizullin_danilaev_2023]
-- [Towards the automation of NIR spectroscopy to assess vineyard...][research_fernandeznovales_barrio_2023]
 - [UAV control with active disturbance suppression for the...][research_uav_control_2023]
-- [Vehicle Health Inspections in the Digital Age Harnessing Auto...][research_agarwal_2023]
 - [Vehicle Digital Twins in Space-Air-Ground Integrated Networks...][research_yang_hui_2023]
-- [A 2D path-planning performance comparison of RRT and RRT* for...][research_davarzani_ejaz_2024]
 - [Aircraft Sequencing Simulation Impact on Runway Capacity][research_dragojevic_ogatovic_2024]
 - [Analysis of Air Dust Pollution in the Transport Compartment...][research_biliaiev_biliaieva_2024]
 - [Analysis of the relationship between mass, speed and cost of...][research_analysis_of_2024]
@@ -5271,16 +4766,13 @@ measure of what it contributed but of how long it survived.
 - [Correction Extreme Temperature Additively Manufactured...][research_gradl_smith_2024_b]
 - [Cost estimation for launch vehicle families considering...][research_wilken_2024]
 - [Development of a Differential Model for Cooling an Lpre...][research_development_of_a_2024]
-- [Design and Development of IoT based Agricultural vehicle for...][research_apoorvavijay_sapidi_2024]
 - [Design and Development of Solar Based Fast Charger for...][research_design_and_2024]
 - [Design and Flight Vehicle Integration of a VAPAK Liquid...][research_alvesalmeida_davis_2024]
 - [Design and Realization of Programmable Electronic Load for...][research_kumar_2024]
-- [Design fire scenarios for hazard assessment of modern battery...][research_hodges_salvi_2024]
 - [Development of FPGA Based Automated System for Testing Launch...][research_ravindran_kumar_2024]
 - [Development of a Plume Evolution Model for Launch Vehicle...][research_wongprapinkul_johnson_2024]
 - [Development of a tube-launched tail-sitter unmanned aerial...][research_cai_denton_2024]
 - [Development of an Integrated Multi-Fidelity Tool for the...][research_molinari_borio_2024]
-- [Environmental Noise Impact Analysis from Vehicle Inspection...][research_bistafa_2024]
 - [Ecological Monitoring of the Areas of the Angara A5 Launch...][research_puzanov_balykin_2024]
 - [Effect of Reynolds Number and Aeroelastic Scaling Upon...][research_ivanco_keller_2024]
 - [Effects of thermal barrier coating porosity on combustion and...][research_somhorst_oevermann_2024]
@@ -5312,7 +4804,6 @@ measure of what it contributed but of how long it survived.
 - [Reconfigurable Software Design of Model-Based Launch Vehicle...][research_lee_seo_2024]
 - [Research of Joint Launch Vehicle and Satellite Adaptive...][research_zhang_li_2024]
 - [Research on the Construction and Application of Simulation...][research_zhang_wu_2024]
-- [Research on volatility spillover effects between traditional...][research_wang_2024]
 - [Rocket Launch Laconic][research_dillemuth_2024]
 - [Rolling Mechanism of Launch Vehicle during the Prelaunch...][research_wang_xiao_2024]
 - [Simulation Study on the Thermal Safety of Ammunition in a...][research_wen_nie_2024]
@@ -5320,15 +4811,12 @@ measure of what it contributed but of how long it survived.
 - [Simulation of Sand Erosion in a Transonic Fan Stage][research_ghenaiet_2024]
 - [Space Accessories for Lunar Mobility and Exploration Vehicle][research_cagna_2024]
 - [Stage separation of recoverable liquid launch vehicle by...][research_lu_yue_2024]
-- [Strategic interactions and market dynamics in the intelligent...][research_ma_sun_2024]
-- [Subsurface Feature-based Ground Robot/Vehicle Localization...][research_li_guo_2024]
 - [The Design and Optimization of Additively Manufactured Radial...][research_ergin_verstraete_2024]
 - [The Space Liner Federation Distributed Space Vehicle...][research_morlang_strassburger_2024]
 - [Three-dimensional photophoretic aircraft made from ultralight...][research_celenza_eskenazi_2024]
 - [Use of Vibro-acoustic Predictive Techniques for Space Vehicle...][research_borello_2024]
 - [Unlocking Sustainable Space Exploration The Role of Reusable...][research_mirzabayova_rustamov_2024]
 - [Visualization and Analysis of Accelerating Transonic Flow...][research_singh_yanamashetti_2024]
-- [Automated Models of Software Systems for Vehicle Diagnostics...][research_automated_models_2025]
 - [Additively Manufactured Inconel 718 In Small-Scale Rotating...][research_abdala_shamam_2025]
 - [An Airplane Longer Than a Football Field Radia is Building...][research_moseman_2025]
 - [Analysis of a Launch Vehicle Upper Stage as a Momentum...][research_campbell_thomas_2025]
@@ -5363,18 +4851,14 @@ measure of what it contributed but of how long it survived.
 - [Human-Rated Launch Infrastructure for the Interplanetary Era...][research_swan_swan_2025]
 - [Hybrid Rocket Development with Nytrox Blends Through Real-Gas...][research_ergin_karabeyoglu_2025]
 - [Identification of stages in the launch of unguided aircraft...][research_tsybriy_guskov_2025]
-- [Impact of Ventilation Modes on PM 2.5 Concentrations in...][research_li_wang_2025]
-- [Improved culvert inspection with the hydraulic inspection...][research_gamble_trombley_2025]
 - [Inlet-Engine Matching Control of Rocket Based Combined Cycle...][research_ma_he_2025]
 - [Investigation on sea-level thrust gain in ejector mode of...][research_nie_qin_2025]
 - [Investigation on temperature field reconstruction for the...][research_gao_ge_2025]
 - [LSTM-Based Post-Mission Assessment of Reusable Rocket Engines][research_li_zhao_2025]
-- [Methods for assessing the market share of a trademark in the...][research_kartuzov_2025]
 - [Minimizing Hydraulic Losses in Additively-Manufactured...][research_keller_kuenning_2025]
 - [Novel Fluid Foil Compound Bearings Incorporating...][research_dou_he_2025]
 - [POGO Analysis and Accumulator Design for the PR-2 Launch...][research_lou_yang_2025]
 - [Planform Mesh Requirements for Fixed and Rotating Wing with...][research_kolpitcke_smith_2025]
-- [Policy Drive and Market Competition A Comparative Study on...][research_liu_zhou_2025]
 - [Preliminary Sizing of a Vertical-Takeoff Horizontal-Landing...][research_xu_fang_2025]
 - [Quadrotor Unmanned Aerial Vehicle-Mounted Launch Device...][research_he_di_2025]
 - [Reusable Launch Vehicles Designing Legs for Propulsive Rocket...][research_purcell_wicklund_2025]
@@ -5388,7 +4872,6 @@ measure of what it contributed but of how long it survived.
 - [The FOCUS Program and Development of Space Launch Vehicle...][research_kim_lim_2025_b]
 - [Theoretical investigation of the effect of thermal barrier...][research_wang_zhang_2025]
 - [Thermal Simulation and Analysis of The Small Unmanned Aerial...][research_guo_meng_2025]
-- [Vehicle exhaust standards and urban air quality in China][research_shu_wang_2025]
 - [Wargaming Space Rapid Transit as a Dual-Use Horizontal Two...][research_magistro_zhang_2025]
 - [A Framework for Integrated Behaviour Driven Development and...][research_sandhu_rajendran_2026]
 - [Ballistic Justification of Access Control of a Space Vehicle...][research_tiniakov_2026]
@@ -5398,9 +4881,6 @@ measure of what it contributed but of how long it survived.
 - [Complexity Management of Rocket Engines Discrete Event...][research_etzenbach_hussein_2026]
 - [Correction Development of an Automated Hot-Fire Control...][research_person_mikhail_2026_b]
 - [Determination of the Stress-strain State of the Protection of...][research_akimov_2026]
-- [Digital Vehicle Management System Motorhub][research_digital_vehicle_2026]
-- [Design and Development of Omnidirectional Intelligent...][research_chen_2026]
-- [Design and Experimental Evaluation of an Arduino-Based Li-Fi...][research_alruqaishi_elhassan_2026]
 - [Developing a Reusable Propulsive Self-Landing Rocket for...][research_li_paik_2026]
 - [Development of an Automated Hot-Fire Control System for an...][research_person_mikhail_2026]
 - [Efficient thermal analysis of film-cooling effects in...][research_jeon_park_2026]
@@ -5413,13 +4893,11 @@ measure of what it contributed but of how long it survived.
 - [Launch Cost Deflation and the Economics of Satellite...][research_christie_2026]
 - [Low-temperature/random-vibrations bias as an appropriate...][research_suhir_2026]
 - [Marshall Enriched Storable Oxidizer and a Truly Reusable...][research_herdy_2026]
-- [One Market, two logics Salience and asymmetric myopia in...][research_li_2026]
 - [Optimization of the encryption and signal processing...][research_phamuc_dvtarlakovsky_2026]
 - [Parametric design and analysis of modular-to-annular...][research_han_xu_2026]
 - [Predictions of Liquid Methane LCH4 Lubricated Hybrid Tilting...][research_kim_kim_2026]
 - [Software for Launch Vehicle Injection Accuracy Analysis Using...][research_krivenko_2026]
 - [Solar Assisted Reusable Rocket System][research_dandappanavar_manoj_2026]
-- [Synergistic diffusion-premixed combustion in a heavy-duty...][research_wang_li_2026]
 - [System Architecture of a Reusable N2O/Paraffin-ABS Hybrid...][research_chen_rumpf_2026]
 - [Thermal Characterization of Ammonium Perchlorate with...][research_mackey_stockman_2026]
 - [Thin Film Isotope Nuclear Engine Rocket TFINER Preliminary...][research_casel_bickford_2026]
@@ -5462,16 +4940,12 @@ attempting a flight profile within reach of existing practice.
 
 - [Advanced Avionics Architecture and Technology Review...][research_navalairsystemscommandarlingtonva_1993]
 - [Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]
-- [Defense Transportation's EDI Program A Security Risk...][research_frohman_ledder_1993]
 - [Orbiter lessons learned A guide to future vehicle development][research_greenbergharrystan_1993]
-- [Installation Restoration Program IRP Remedial...][research_tetratechincredmondwa_1995]
-- [Development of Military IRIS System for the Hazard...][research_harvey_bauer_1997]
 - [LDAP A Data Acquisition Program Written Using LabVIEW][research_spencer_1997]
 - [Lessons Learned in Predicting Launch Vehicle Vibroacoustic...][research_tanner_1997]
 - [The Evolved Expendable Launch Vehicle EELV Acquisition and...][research_greaves_1997]
 - [Particle impact risk assessment for ablative thermal...][research_naughton_venkatapathy_1998]
 - [Acquisition for the 21st Century The F-22 Development Program][research_perry_1999]
-- [Altitude Decompression Sickness Risk Assessment Computer...][research_pilmanis_petropoulos_1999]
 - [Cost and budget estimation for DoD ATE test program set...][research_robinson_smith_1999]
 - [Reengineering the Acquisition Process A Quantitative Example...][research_graham_hoffman_1999]
 - [Summary of Results from the Risk Management Program for the...][research_shishkorobert_matijevicjacobr_2000]
@@ -5481,7 +4955,6 @@ attempting a flight profile within reach of existing practice.
 - [Estimating Models of Program Management][research_womer_camm_2003]
 - [Independent Review of the Failure Modes of F-1 Engine and...][research_raypaul_2003]
 - [Army strategic Software Improvement Program ASSIP Survey of...][research_kasunic_2004]
-- [Development of a Physiologically-Based Pharmacokinetic Model...][research_covington_clewell_2004]
 - [Effective Technology Insertion The Key to Evolutionary...][research_guinivan_2004]
 - [Joint Program Management Handbook][research_defenseacquisitionunivftbelvoirva_2004]
 - [Solar Sail Propulsion Technology Readiness Level Database][research_adamscharlesl_2004]
@@ -5506,19 +4979,17 @@ attempting a flight profile within reach of existing practice.
 - [Space Shuttle Ascent Flight Design Process Evolution and...][research_pickabreta_glennchristopherb_2011]
 - [Modeling Space Launch Process Delays to Improve Space Vehicle...][research_baldus_yoshimoto_2013]
 - [Next Generation Leadership Improving Acquisition Program...][research_sobel_2013]
-- [Finding of No Significant Impact and Tiered Environmental...][research_ciurej_2014]
 - [Air Force Space Command Space Missile Sys Ctr 2014][research_airforcespacecommandspacemissilesysctr_2014]
 - [Study of the Light Utility Helicopter LUH Acquisition Program...][research_rubinstein_2014]
 
 - [A Monte Carlo Calculation of Neutron Heating in a Nuclear...][research_streetman_graves_1963]
 - [Design optimization for cost and quality The robust design...][research_unalresit_1990]
-- [Review of Cost-Constrained Minimum Runs Algorithm for...][research_hardy_1997]
 - [Use of Probabilistic Engineering Methods in the Detailed...][research_fayssalsafie_weldondanny_2008]
 - [Sensitivity Analysis of Launch Vehicle Debris Risk Model][research_geeken_lawrencescottl_2010]
 
 ## The Source Base
 
-**This article rests on 2,227 references published through 2001, when the programme was cancelled, and 3,698 published from 2015 onward.**
+**This article rests on 2,141 references published through 2001, when the programme was cancelled, and 3,189 published from 2015 onward.**
 Every harvested record is cited.
 
 ### Both Halves, Counted and Not Only Divided
@@ -5542,6 +5013,20 @@ and **the period count did not move at all**, while the period fraction fell sev
 the clearest case,
 **holding at exactly 884 records across the final pass while its share fell from 20.7 percent to 14.0**,
 which is a fact about how much else was added and about nothing whatever to do with the reports.
+
+**The survey was re-read on 7 October 2026, and a rebuilt filter refused 609 records that had entered it through a shared word rather than a shared subject.**
+Among them were 58 studies of the ceramic tile industry, 99 on road, rail, underwater and ground robotic vehicles,
+36 on vehicle routing, road transport and car engines, 34 applications of machine learning outside aerospace,
+28 on medicine and biomedical devices, 28 on coal pyrolysis, petroleum reservoirs and geology, 28 on civil
+engineering, 24 evaluations of social programmes, 13 on the revenue management of reusable resources, seven on
+fusion reactor blankets, and four on the recession of Niagara Falls, of a glacier and of the angle of the eye.
+The research references went from 6,295 to 5,686. The period through 2001 went from 2,227 to 2,141, or 37.7
+percent, and the contemporary count from 3,698 to 3,189, or 56.1 percent, while records published from 2022
+onward went from 1,897 to 1,617, or 28.4 percent. The cluster on method, uncertainty and computation lost 259
+records, the cluster on structures, tanks and thermal protection lost 138, and the period base lost 80.
+A reading of 300 records the screens had not flagged found 21 off topic, and the rebuilt filter refused every
+one of them, which puts the remaining contamination below about one percent. The refused records are no longer
+cited, so the statement that every harvested record is cited now holds for every harvested record the filter admits.
 
 ### What the Equation Pass Did to the Reference Base
 
@@ -5627,7 +5112,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Integral solution for thermal performance of a charring...][research_laganelli_harper_1974]
 - [Performance of ablator materials in ramjet environments][research_cohen_couch_1974]
 - [A users manual for a revised version of the Langley charring...][research_stroudcw_brinkleykl_1975]
-- [Laser-fusion target fabrication application of a polymeric...][research_simonsic_1975]
 - [Response of charring ablators to severe aerodynamic and...][research_clever_denny_1975]
 - [Correlation of Theoretical Analysis With Experimental Data on...][research_mastanaiah_1976]
 - [Effects of improvements and uncertainties in thermophysical...][research_bueche_1977]
@@ -5637,7 +5121,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Investigation of finite difference recession computation...][research_randall_1978]
 - [Low density ablator compositions][research_low_density_1978]
 - [Transient temperature response of charring composite slabs][research_prussing_krier_1978]
-- [Material provenance in the Ancylus ridge and the ice...][research_konigsson_1979]
 - [Shuttle subscale ablative nozzle tests][research_powers_bailey_1980]
 - [Simple spherical ablative-implosion model][research_mayer_steele_1980]
 - [Determination of kinetic parameters for the thermal...][research_henderson_tant_1981]
@@ -5669,12 +5152,9 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Thermal and ablative properties of rocket insulator compound...][research_sahadeuri_bhowmick_1988]
 - [Low density indications in radiographs of solid rocket motor...][research_kelley_thompson_1989]
 - [Pulsed laser ablative deposition of thin metal films][research_mogyorosi_szorenyi_1989]
-- [Rates of air pollution induced surface recession and material...][research_roekens_vangrieken_1989]
 - [Erosion of nozzle throat inserts and silica-phenolic ablative...][research_de_narendranath_1990]
 - [Periodic surface structures in the excimer laser ablative...][research_dyer_farley_1990]
 - [Comparison of ablative materials in a simulated solid rocket...][research_koo_lin_1991]
-- [High-temperature pyrolysis mechanisms of coal model compounds][research_penn_owens_1991]
-- [High-temperature pyrolysis mechanisms of coal model...][research_penn_owens_1991_b]
 - [Pyrolysis of various furan model compounds][research_schrodter_baltes_1991]
 - [Ablative control mechanism in nozzle thermo-protection][research_he_zhou_1992]
 - [Combustion evaluation and heat transfer characterization of a...][research_banks_wong_1992]
@@ -5686,14 +5166,12 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [An instrument for characterization of the thermal and optical...][research_serio_pines_1994]
 - [Prediction of engine performance and wall erosion due to film...][research_trinhhuup_1994]
 - [The measurement of emissivity of charring ablative materials][research_colombo_galfetti_1994]
-- [95/06340 A model of pyrolysis of coal particles in a...][research_95_06340_a_1995]
 - [Ablative material removal utilizing the copper vapor laser][research_warner_boley_1995]
 - [Ablative thermal management structural material on the...][research_shortland_tsai_1995]
 - [Predictions of wind-opposed flame spread rates and energy...][research_predictions_of_1995]
 - [Design and Laboratory Validation of a Capacitive Sensor for...][research_gregoryknoffz_michaelpbowman_1996]
 - [Laser ablative cutting of ceramics for electronics...][research_warner_1996]
 - [MIRKA Heat Shield Experiment HEATIN-Theoretical and...][research_reich_jahn_1996]
-- [Pyrolysis of simple coal model compounds containing aromatic...][research_eskay_britt_1996]
 - [Recession analysis for carbon-carbon composite nozzle of...][research_liu_qizhi_1996]
 - [Simultaneous monitoring of ablative shocks in air by...][research_diaci_hurley_1996]
 - [Thermo-ablative and fluid dynamic analyses for the design of...][research_fabrizi_lamotta_1996]
@@ -5702,19 +5180,16 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Numerical Study of the Thermal Response of High-temperature...][research_shih_cheung_1997]
 - [Process and economic model of in-field heavy oil upgrading...][research_thorsness_1997]
 - [Thermal and ablative properties of silicone insulation][research_yamada_serizawa_1997]
-- [A Computational Model for Enclosure Fires Incorporating...][research_yuen_devahldavis_1998]
 - [Dynamics of pyrolysis gas in charring materials ablation][research_ahn_park_1998]
 - [Effects of melt-layer formation on ablative materials exposed...][research_lewis_andersonjr_1998]
 - [Influence of laser parameters on the formation of ablative...][research_ozegowski_metev_1998]
 - [Modeling and Control of Ablative Thermal Layered...][research_fourligkas_doumanidis_1998]
 - [Thermal-mechanical model for crustal thickening in the...][research_pope_willett_1998]
-- [A Model of Tissue Charring During Interstitial Laser...][research_whelan_wyman_1999]
 - [Acoustic Emission Studies on Carbon/Phenolic Ablative...][research_sreejith_krishnamurthy_1999_b]
 - [An XPS investigation of thermal degradation and charring in...][research_wang_li_1999]
 - [Development of X-ray tracer diagnostics for...][research_jjmacfarlane_dhcohen_1999]
 - [Studies on the machining of carbon/phenolic ablative...][research_sreejith_krishnamurthy_1999_c]
 - [Thermal Aspects During Machining of High Silica/Phenolic...][research_sreejith_krishnamurthy_1999]
-- [Thermal Balloon Endometrial Ablator A Preclinical Safety and...][research_banerjee_buckshee_1999]
 - [Thermal Engineering of Mars Entry Non-Ablative Aeroshell Part...][research_wise_mcelroy_1999]
 - [Transient Modeling of Thermal Degradation in Non-Charring...][research_sohn_baek_1999]
 - [00/02802 Pitch pyrolysis kinetics isothermal heat treatment...][research_00_02802_pitch_2000]
@@ -5759,7 +5234,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Prediction of skin-friction and heat transfer from...][research_mastanaiah_1978]
 - [Hypersonic Heat Transfer Test Program in the VKI Longshot...][research_dicristina_1979]
 - [Boundary layer transition observations on a body of...][research_arakeri_1980]
-- [Convective heat transfer in building energy analysis][research_gadgil_1980]
 - [Technique and Measurement of Heat Flux and Flame Temperature...][research_piergallini_stoll_1980]
 - [Curvature Effects on the Heat Transfer Performance of...][research_eckert_goldstein_1982]
 - [Effect of Turbulence on the Heat Transfer in a Laminar and...][research_krishnamoorthy_1982]
@@ -5838,7 +5312,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Turbulent Spot Characterization and the Modeling of...][research_zhang_2000]
 - [A numerical study of interfacial convective heat transfer...][research_kuwahara_shirota_2001]
 - [Comparison of Cooling Film Development Calculations for...][research_bohn_moritz_2001]
-- [Evaluation of convective heat transfer coefficient in crop...][research_anwar_tiwari_2001]
 - [Heat Transfer Through Cryogenic Propellant Tank Insulation...][research_nandi_2001]
 - [Integral Calculations of Melt-Layer Heat Transfer in...][research_wei_zien_2001]
 - [Modal Inverse Frequency Response Heat Transfer Analysis for...][research_ma_yuan_2001]
@@ -5910,7 +5383,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Composite Propellant combustion and Transition to Detonation][research_cohen_strand_1981]
 - [Low thrust chemical propulsion for orbit transfer of large...][research_shojijm_1981]
 - [Perforated Porous Plate Burner to Model Composite Propellant...][research_ramohalli_magiawala_1981]
-- [Tank Car Head Shield Fatigue Performance Study][research_johnson_1981]
 - [Thermal expansion of composites Methods and results][research_bowlesde_tenneydr_1981]
 - [Turbulent Boundary Layer Structure and Drag Reduction][research_landahl_widnall_1981]
 - [Wire mesh-plastic composite material for heat exchangers][research_wire_mesh_plastic_1981]
@@ -5918,7 +5390,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Heat Transfer in Two-component Mist Flow Boundary Layer...][research_hishida_maeda_1982]
 - [Quick-Look Structural Analysis Techniques for Solid Rocket...][research_leighton_1982]
 - [Turbulent Boundary Layer Structure and Drag Reduction][research_landahl_widnall_1982]
-- [Evaluation of NASA Structural Analysis NASTRAN to Predict the...][research_payne_jr_1983]
 - [Extruded composite propellant technology development][research_haffjr_1983]
 - [Ignition of composite solid propellant at subatmospheric...][research_harayama_saito_1983]
 - [Research on Composite Materials for Structural Design][research_allen_bradley_1983]
@@ -5932,7 +5403,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Primer on composite materials Analysis][research_primer_on_1985]
 - [Thermal response of integral multicomponent composite thermal...][research_stewart_leiser_1985]
 - [Combustion behaviour of composite propellant at...][research_schoyer_korting_1986]
-- [Cure behavior of an epoxy-phenolic magnetic recording ink][research_prime_1986]
 - [Composite leafsprings for tank trailer suspensions][research_composite_leafsprings_1987]
 - [Percolation model of polydisperse composite solid propellant...][research_kerstein_1987]
 - [Small-scale laser effects experiments on graphite Coupling...][research_klein_menefee_1987]
@@ -5957,18 +5427,12 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Operator Performance in Pattern Matching as a Function of...][research_kibbe_stiff_1993]
 - [Aspects on design and analysis of composite structures in an...][research_ireman_holmberg_1994]
 - [Dynamic mechanical behavior of HTPB dummy composite propellant][research_kawata_chung_1994]
-- [Thermal Well Test Analysis Using an Analytical Multi-Region...][research_acosta_ambastha_1994]
 - [Cryogenic insulation selection and its effects on thermal...][research_baillif_bodepudi_1995]
-- [Yucca Mountain thermal response An evaluation of the effects...][research_longenbaugh_rautman_1995]
 - [Effective Three-Dimensional 3-D Finite Element Material...][research_alexander_tzeng_1996]
 - [Flutter analysis for control surface of launch vehicle with...][research_paek_lee_1996]
-- [Moisture measurement perturbations of the surface neutron...][research_watson_1996]
 - [Probabilistic model, analysis and computer code for take-off...][research_glaser_1996]
 - [Sailplane carry-through structures made with composite...][research_thompson_lotz_1996]
 - [TABI - The lightweight durable thermal protection system for...][research_lu_1996]
-- [An Improved Three-region Composite Reservoir Model For...][research_issaka_ambastha_1997]
-- [Caustic leaching of composite AZ-101/AZ-102 Hanford tank...][research_rapko_wagner_1997]
-- [Estimating fire growth and temperatures in structural fires][research_lilley_lilley_1997]
 - [Influence of transpiration cooling on laminar boundary layer...][research_ren_tang_1997]
 - [Development and Demonstration of Advanced Design Composite...][research_howdyshell_trovillion_1998]
 - [Effective Thermal Conductivity of a Thin, Randomly Oriented...][research_phelan_niemann_1998]
@@ -5991,7 +5455,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Micromechanical Analysis of Nonlinear Response of...][research_jadhav_sridharan_2001]
 - [Modelling of Composite-Propellant Flames][research_buckmaster_2001]
 - [Vapor Grown Carbon Fiber/Phenolic Matrix Composites for...][research_pattonrd_pittmancujr_2001]
-- [GIS-based bridge structural health monitoring and management...][research_shi_cheng_2002]
 - [Buckling Design Studies of Inverted, Oblate Bulkheads for a...][research_smeltzer_bowman_2002]
 - [Structural health monitoring RandD at the “European Research...][research_balageas_2002]
 - [Advanced Composite Performance Material Behavior and Life...][research_case_reifsnider_2003]
@@ -6025,7 +5488,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Performance of LI-1542 reusable surface insulation system in...][research_huntlr_shidelerjl_1976]
 - [Performance of a mullite reusable surface insulation system...][research_huntlr_1976]
 - [Roll torque evaluation RTE vehicle postflight test report...][research_kryvoruka_1976]
-- [Thermal stability of glazes for glazed tile coverings][research_lisachuk_ryshchenko_1976]
 - [Thermal stress evaluation of the Viking RTG heat shield][research_stadter_weiss_1976]
 - [Aerothermodynamic environment for Jovian entry with silica...][research_green_nicolet_1978]
 - [An assessment of the impact of transition on advanced winged...][research_wurster_1981]
@@ -6040,7 +5502,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Development of Passive Diver Thermal Protection System][research_lippitt_jr_1983]
 - [Space shuttle orbiter reusable surface insulation flight...][research_dottsrl_smithja_1983]
 - [Aerothermodynamic environment and thermal protection for a...][research_green_moss_1984]
-- [Thermal stresses in mortar-tile systems][research_yoshikawa_litvan_1984]
 - [Increased Re-Entry Vehicle Thermal Protection Requirements...][research_nestler_1985]
 - [Thermal protection system optimization for a hypersonic...][research_shih_zwan_1988]
 - [4680010 Re-radiating heat shield assembly][research_4680010_re_radiating_1989]
@@ -6050,7 +5511,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Recombination of nitrogen on silica-based...][research_jumper_newman_1993]
 - [Thermochemical ablation model for TPS materials with multiple...][research_milos_marschall_1994]
 - [Thermal Protection Systems for Future Reusable Launch Vehicles][research_rasky_1995]
-- [5423294 Furnace tile and expansion joint][research_5423294_furnace_1996]
 - [Emission Spectral Measurements in the Plenum of an Arc Jet...][research_donohuejim_fletcherdoug_1996]
 - [Evaluation of Thermal Protection of Fabrics and Uniform...][research_roach_caldarella_1996]
 - [Galileo probe heat shield ablation experiment][research_milos_1996]
@@ -6060,10 +5520,8 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Analysis of Galileo Probe heat shield ablation and...][research_milos_chen_1997]
 - [Evaluation of Thermal Control Coatings for Flexible Ceramic...][research_kourtidesdemetrius_carrollcarol_1997]
 - [Galileo Probe Heat Shield Ablation Experiment][research_milos_1997]
-- [Thermal response for divertor mock-up using surface-modified...][research_fujita_1997]
 - [Heat shield aeroheating predictions for a Mars Orbiter angle...][research_gulick_edquist_1998]
 - [Thermal analysis of the thermal protection system for the...][research_ohtake_1998]
-- [Thermal desorption analysis of beryllium tile pieces from JET][research_macaulaynewcombe_thompson_1998]
 - [Parametric Weight Comparison of Current and Proposed Thermal...][research_myersdavide_martincarlj_1999]
 - [Thermal Protection System with Use of Porous Media for a...][research_kubota_uchida_1999]
 - [Development of Wireless Subsurface Microsensors for Health...][research_pallixjoan_milosfrank_2000]
@@ -6082,11 +5540,9 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Reusable Surface Insulation Tile Thermal Protection Materials...][research_leiserdanielb_stewartdavida_2002]
 - [Thermal protection of hypersonic flight vehicle using...][research_korabelnikov_kuranov_2002]
 - [Design of a built-in health monitoring system for bolted...][research_yang_chang_2003_b]
-- [Radioactivity level in Chinese building ceramic tile][research_xinwei_2004]
 - [Strength Enhancement and Application Development of Carbon...][research_duston_seghi_2004]
 - [Trajectory and Thermal Protection System Design for Reusable...][research_mcguire_gage_2004]
 - [The Effect of Forebody Geometry on Turbulent Heating and...][research_jameslbrown_2006]
-- [Design and Testing of a Diver Thermal Protection Garment][research_pendergast_mollendorf_2008]
 - [New Thermal Protection Concepts for the Next Generation Gas...][research_clarke_2008]
 - [Ablation, Thermal Response, and Chemistry Program for...][research_milosfranks_chenyihkanq_2010]
 - [Multidimensional Testing of Thermal Protection Materials in...][research_agrawalparul_ellerbydonaldt_2010]
@@ -6110,7 +5566,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Windblast Protection Wind Tunnel Evaluation of Concepts for...][research_specker_brinkley_1983]
 - [An unmanned reentry/recovery vehicle for a reusable launch...][research_tewell_1984]
 - [Application of combustion time-lag theory to combustion...][research_fang_1984]
-- [Studies on thermal stability and knot formation in the TG...][research_jayabalan_1986]
 - [Reusable Reentry Satellite RRS Configuration trade study][research_reusable_reentry_1990]
 - [Response and Stability Analysis of Helicopter Rotor Blades...][research_crespodasilva_1991]
 - [Two Stage Fully Reusable Space Launch Vehicle Configuration...][research_dahlem_gord_1991]
@@ -6182,7 +5637,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [A Lambert targeting procedure for rocket systems that lack...][research_white_1989]
 - [Aircraft Automatic Landing Systems Using GPS][research_parkinson_fitzgibbon_1989]
 - [Development of an Autonomous Landing Guidance system...][research_zeh_young_1989]
-- [Guidance of an Autonomous Vehicle by Visual Feedback][research_maravall_mazo_1990]
 - [An automatic carrier landing system utilizing aircraft sensors][research_crassidis_mook_1991]
 - [Blanche-an experiment in guidance and navigation of an...][research_cox_1991]
 - [Performance optimization of an airbreathing launch vehicle by...][research_schoettle_hillesheimer_1991]
@@ -6192,26 +5646,16 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Autonomous spacecraft navigation and control for comet landing][research_delafontaine_1992]
 - [TALONS 95 GHz radar sensor for autonomous landing guidance][research_koester_vaillancourt_1992]
 - [Using a genetic algorithm to learn behaviors for autonomous...][research_schultz_grefenstette_1992]
-- [An Improved Plan-View Method for Autonomous Vehicle Guidance][research_chen_dagless_1993]
 - [An automatic Guidance system of an autonomous vehicle the...][research_lee_williams_1993]
-- [Fuzzy Logic Guidance and Obstacle Avoidance Algorithms for...][research_axter_bumby_1993]
 - [Guidance and control law for automatic landing flight...][research_miyazawa_ishikawa_1993]
 - [Guidance and control of an autonomous planetary rover][research_green_sasiadek_1993]
-- [Guidance of Autonomous Vehicle with 4 Wheel Trailer][research_andersen_christensen_1993]
-- [Model-based guidance by the longest common subsequence...][research_wang_ku_1993]
-- [Vehicle health monitoring for AVCS malfunction management][research_zhang_1993]
 - [Federal research and development activities in autonomous...][research_davison_schroeder_1994]
-- [040 Guidance of autonomous vehicle with 4 wheel trailer][research_040_guidance_1994]
-- [043 Fuzzy logic guidance and obstacle avoidance algorithms...][research_043_fuzzy_1994]
-- [081 An improved plan-view method for autonomous vehicle...][research_081_an_1994]
 - [180 Fault Tolerant navigation system for aircraft landing][research_180_fault_1994]
 - [Autonomous Guidance for the Recovery and Landing of a...][research_chamitoff_1994]
 - [Application of an autonomous landing guidance system for...][research_franklin_1995]
-- [Commercial application of integrated robotic vehicle drivers...][research_kenyon_1995]
 - [Electro-optic precision approach and landing system][research_salt_1995]
 - [Infrared-optical multisensor for autonomous landing guidance][research_kerr_pond_1995]
 - [Pilot-vehicle interface evaluation of a simulated head-up...][research_martin_cone_1995]
-- [Control functions for autonomous underwater vehicle on-board...][research_cowling_1995]
 - [Guidance algorithm for suborbital flight experiment of...][research_ishimoto_1995]
 - [Motion controller design of autonomous vehicle][research_salehi_li_1995]
 - [Autonomous landing guidance program][research_brown_1996]
@@ -6220,34 +5664,27 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Data collection system for autonomous landing guidance][research_tiana_pond_1997]
 - [A modified genetic algorithm for the design of autonomous...][research_perhinschi_perhinschi_1997]
 - [An optimal guidance law for planetary landing][research_dsouza_dsouza_1997]
-- [Autonomous Underwater Vehicle Systems][research_sorrell_1997]
 - [A fast guidance algorithm for an autonomous navigation system][research_teofilatto_depasquale_1998]
 - [Automatic landing system design using fuzzy logic][research_nho_agarwal_1998]
 - [RGPS - Based Automatic Landing System for Light and Commuter...][research_lee_shim_1998]
 - [Robotics for ROSETTA cometary landing mission][research_pozzi_mugnuolo_1998]
-- [A Bioluminescence Bathyphotometer for an Autonomous...][research_case_1999]
 - [Estimating Aerodynamic Characteristics of Automatic Landing...][research_yanagihara_shigemi_1999]
 - [Integrated control, guidance and diagnosis for reconfigurable...][research_katebi_grimble_1999]
 - [Longitudinal Landing Control Law for an Autonomous Reentry...][research_miyazawa_motoda_1999]
-- [Marine Sensor/Autonomous Underwater Vehicle Integration...][research_hopkins_1999]
 - [Optical guidance for autonomous landing of spacecraft][research_miso_hashimoto_1999]
 - [Parameter optimization via genetic algorithm of fuzzy...][research_perhinschi_1999]
-- [Small Autonomous Underwater Vehicle AUV Wave Measurement...][research_earle_1999]
 - [Flight Control Design of an Automatic Landing Flight...][research_fujimori_kurozumi_2000]
 - [Navigation Strategy for the Mars 2001 Lander Mission][research_maseroberta_spencerdavida_2000]
 - [Neural-Network-Based Autonomous Star Identification Algorithm][research_hong_dickerson_2000]
-- [A Bioluminescence Bathyphotometer for an Autonomous...][research_case_2001]
 - [Autonomous underwater vehicle homing/docking via...][research_feezor_yatessorrell_2001]
 - [Chemical Plume Mapping with an Autonomous Underwater Vehicle][research_fletcher_2001]
 - [Guidance algorithms for autonomous rendezvous of spacecraft...][research_danabashian_hablani_2001]
 - [High angle of attack autonomous landing using the X-31A...][research_lawrence_selmon_2001]
 - [LPV modeling and gain scheduled control of re-entry vehicle...][research_ohara_yamaguchi_2001]
 - [Obstacle avoidance in person following for vision-based...][research_chinghengku_wenhsiangtsai_2001]
-- [Small Autonomous Underwater Vehicle AUV Wave Measurement...][research_earle_2001]
 - [Test Results for an Off-the-Shelf GPS/INS During Approach and...][research_childersdave_gelderlooshendrik_2001]
 - [Towards Vision-Based Safe Landing for an Autonomous Helicopter][research_garciapardo_sukhatme_2001]
 - [Wind persistency determined launch commit criteria for the...][research_blanchet_eckler_2001]
-- [A Bioluminescence Bathyphotometer for an Autonomous...][research_case_2002]
 - [Autonomous Guidance and Control Design for Hazard Avoidance...][research_wong_masciarelli_2002]
 - [Towards vision-based safe landing for an autonomous helicopter][research_garciapardo_sukhatme_2002]
 - [Algorithm for Autonomous Longitude and Eccentricity Control...][research_emma_pernicka_2003]
@@ -6260,7 +5697,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Autonomous Flight Safety System][research_ferrellbob_santurosteve_2004]
 - [Autonomous infrared-based guidance system for approach and...][research_doehler_korn_2004]
 - [Biological Inspired Direct Adaptive Guidance and Control for...][research_corban_gilbert_2004]
-- [NPS Center for Autonomous Underwater Vehicle AUV Research][research_kragelund_2004]
 - [Robust Trajectory Planning for Target Following Vision-based...][research_ku_tsai_2004]
 - [Unpowered Approach and Landing Guidance Using Trajectory...][research_kluever_2004]
 - [Autonomous Flight Safety System Road Test][research_simpsonjamesc_zoemerrogerd_2005]
@@ -6357,7 +5793,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Non-intrusive vehicle health management][research_erickson_1993]
 - [Health monitoring and controls for a Single Stage To Orbit...][research_health_monitoring_1994]
 - [Technologies for Avionics Embedded Computer Systems][research_satterthwaite_1994]
-- [3-vehicle health monitoring on the Docklands Light Railway][research_mcdonald_1995]
 - [Integrated performance and reliability specification for...][research_brehm_goettge_1995]
 - [The ADAGE avionics reference architecture][research_batory_coglianese_1995]
 - [Aircraft Avionics Nonsupportability and Microcircuit...][research_nedresky_1996]
@@ -6370,13 +5805,11 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Launch vehicle booster avionics][research_launch_vehicle_2000]
 - [Networked Avionics Part Task Trainer][research_andrews_2000]
 - [Aging Avionics in Military Aircraft][research_nationalresearchcouncilwashingtondc_2001]
-- [Fault Diagnostic System Design Using LMIs, With Applications...][research_rajamani_shrivastava_2001]
 - [Fibre Channel Avionics Bus Monitor][research_jones_2001]
 - [Cost-Benefit Analysis Tools for Avionics Parts Obsolescence][research_shuman_2002]
 - [Critical Analysis of the Use of Redundancy to Achieve...][research_desmedt_2002]
 - [Eigenstructure Assignment for Fault Tolerant Flight Control...][research_sobelkenneth_joshisuresh_2002]
 - [Integrated vehicle health management for aerospace platforms][research_ofsthun_2002]
-- [Radar Health Monitoring for Highway Vehicle Applications][research_rajamani_2002]
 - [Bayesian Analysis of Launch Vehicle Reliability][research_guikema_patecornell_2003]
 - [Concepts for an Integrated Vehicle Health Monitoring System][research_abbott_2003]
 - [Sensor Technology for Integrated Vehicle Health Management of...][research_prosser_2003]
@@ -6388,7 +5821,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Prognostic Health Management for Avionics System Power...][research_orsagh_brown_2005]
 - [Estimating the Reliability of Electronic Parts in High...][research_everlinechester_clarkkarla_2008]
 - [Techniques for Assuring NASA Mission Success Using Redundancy...][research_shiversherb_2010]
-- [WD 08 CBM-A Intelligent Vehicle Health Management System...][research_grantner_bazuin_2010]
 - [Evolution of the Space Shuttle Primary Avionics Software and...][research_fergusonroscoec_2011]
 
 - [Three-Axis Fluidic/Electronic Automatic Flight Control System...][research_cotton_1974]
@@ -6419,7 +5851,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Fault-Tolerant Software For Flight Control][research_deetsdwaina_lockwiltonp_1988]
 - [Optimization of the rocket mode trajectory in a rocket based...][research_foster_1989]
 - [Penetration landing guidance trajectories in the presence of...][research_miele_wang_1989]
-- [An Adaptive Route-Guidance Algorithm for Intelligent Vehicle...][research_zhao_weymouth_1991]
 - [Ascent performance issues of a vertical-takeoff rocket launch...][research_powell_naftel_1991]
 - [Ascent performance of an air-breathing horizontal-takeoff...][research_powell_shaughnessy_1991]
 - [Methods of Guidance Flight Dynamics][research_wenxuan_1991]
@@ -6665,7 +6096,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Segmented Rocket Motor Case Program][research_carpenter_jeffus_1963]
 - [Simulation of Helicopter and V/STOL Aircraft. Volume II...][research_mcintyre_1963]
 - [Space Launch Vehicle Full-scale Damping Tests][research_miller_1963]
-- [Static Performance Analysis and Experimental Investigation of...][research_stoller_1963]
 - [Takeoff and Landing Capabilities of the Caribou CV-2B...][research_kidwell_1963]
 - [The Feasibility of a Rotating Detonation Wave Rocket Motor][research_michiganunivannarbor_1963]
 - [Turbulent boundary layer combustion in the hybrid rocket][research_marxman_gilbert_1963]
@@ -6748,11 +6178,9 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Radiation measurements and analysis in a nuclear rocket...][research_rankin_rowland_1969]
 - [Software concepts for a minimum cost design launch vehicle...][research_maynard_1969]
 - [Apollo-Saturn launch vehicle targeting program][research_rice_1970]
-- [Army Vehicle Power System and Load Study][research_nell_1970]
 - [Comparison of the impact dispersion of unguided and guided...][research_boersma_bosgra_1970]
 - [Comprehensive analysis of liquid rocket combustion][research_combs_1970]
 - [Flight Test Results of a DAVI Isolated Platform][research_jones_1970]
-- [Maintenance-Free Ignition System for the M151 Vehicle][research_sieja_1970]
 - [Nonlinear analysis of a launch vehicle attitude control system][research_seltzer_1970_b]
 - [Propellant Spray Combustion Processes During Stable and...][research_sutton_1970]
 - [Quasi-optimum design of an aircraft landing control system][research_ling_1970]
@@ -6785,9 +6213,7 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Launch Vehicle and Missile Lv/M Technology Subject Index][research_launch_vehicle_1973]
 - [Launch vehicle propulsion achievements and technology status][research_larson_1973]
 - [Nonlinear longitudinal combustion instability in rocket motors][research_lores_zinn_1973]
-- [Observations of Surface Effect Vehicle Performance][research_liston_1973]
 - [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1973]
-- [Tracked Air Cushion Vehicle Suspension Models Analysis and...][research_garg_platin_1973]
 - [A digital fly-by-wire technology development program using an...][research_jarvis_1974]
 - [Automatic Control of Adverse Yaw in the Landing Environment...][research_bischoff_duffy_1974]
 - [Aircraft antenna analysis for microwave landing system][research_balanis_cheng_1975]
@@ -6819,8 +6245,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Data Analysis of Film from AFGL Rocket A31.603][research_chamberlain_1979]
 - [Demonstration of Aircraft Wing/Store Flutter Suppression...][research_hwang_winther_1979]
 - [Height of Spray Produced by Vertical Takeoff and Landing VTOL...][research_kuhn_1979]
-- [Hydrogen-fueled postal vehicle performance evaluation][research_hall_1979]
-- [IEE to launch electric-vehicle journal][research_iee_to_1979]
 - [In-Flight Captive Store Loads Compared with Wind-Tunnel and...][research_maddox_dix_1979]
 - [New Remotely Piloted Vehicle Launch and Recovery Concepts...][research_baumgartner_yurczyk_1979]
 - [Orbit Transfer Vehicle OTV engine, phase A study. Volume 2...][research_mellishja_1979]
@@ -6833,13 +6257,11 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Flight Mechanics/Estimation Theory Symposium][research_fuchsaj_1980]
 - [IPAD Integrated Programs for Aerospace-Vehicle Design][research_ipad_integrated_1980]
 - [Rocket Propulsion and Spaceflight Dynamics][research_jensen_1980]
-- [Transaction of the International Association for Vehicle...][research_transaction_of_1980]
 - [Validation of the Rotorcraft Flight Simulation Program C81...][research_vangaasbeek_1980]
 - [An experimental study on air intake performance for a...][research_an_experimental_1981]
 - [Application of the parameter space method to aerospace...][research_seltzer_1981]
 - [Comparison of model testing with computer simulations of an...][research_fischer_1981]
 - [Computational analysis of combustion in recirculating flow...][research_computational_analysis_1981]
-- [Management information from an automatic vehicle monitoring...][research_ludwick_1981]
 - [The Aerospace Vehicle Interactive Design system][research_wilhite_1981]
 - [The impact of launch vehicle type and size on development cost][research_koelle_1981]
 - [Theoretical aspects of secondary combustion in rocket exhausts][research_jensen_jones_1981]
@@ -6889,7 +6311,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Algebraic Methods in Vehicle System Analysis][research_fuhrer_1987]
 - [Computational solution for the free surface in a propellant...][research_lheureux_1987]
 - [H-II rocket new Japanese launch vehicle in the 1990s][research_godai_1987]
-- [Identification Methods for Vehicle System Dynamics][research_kallenbach_1987]
 - [India's plans for an indigenous launch vehicle still on target][research_rao_1987]
 - [Liquid propellant tank ullage bubble deformation and breakup...][research_der_stevens_1987]
 - [Low-thrust rocket trajectories][research_keaton_1987]
@@ -6912,14 +6333,12 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [A Parametric Analysis Microcomputer Model for Evaluating the...][research_tsongas_white_1989]
 - [Accuracy analysis of the space shuttle rocket motor profile...][research_estler_1989]
 - [Assessment of the response of rocket propellants to...][research_ho_fong_1989]
-- [Combat Vehicle Identification System CVIS][research_donofrio_1989]
 - [Cycle Analysis for Helicopter Gas Turbine Engines][research_bewley_1989]
 - [Indian launch vehicle grounded][research_jayaraman_1989]
 - [Launch cost analyses for reusable space transportation...][research_koelle_1989]
 - [Propellant tank for telecommunication platforms][research_baralle_fournier_1989]
 - [Saenger - The German aerospace vehicle program][research_hoegenauer_koelle_1989]
 - [Studies of an extensively axisymmetric rocket based combined...][research_fosterrichardw_escherwilliamjd_1989]
-- [Transactions of the International Association for Vehicle...][research_transactions_of_1989]
 - [Application of plasma capacitance gage PCG for real time...][research_yang_miner_1990]
 - [Atomic hydrogen as a launch vehicle propellant][research_palaszewski_1990]
 - [British Aerospace Cut Cost of Producing Airbus Wing Skins][research_british_aerospace_1990]
@@ -6932,7 +6351,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [U.S. liquid propulsion technology stands still][research_mccartyjohnp_mcconnaugheyhelen_1990]
 - [Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990]
 - [Air Force Test Pilot School Edwards Afb Ca 1990][research_airforcetestpilotschooledwardsafbca_1990_b]
-- [Advanced Tethered Vehicle Lightweight Handling System...][research_yumori_1991]
 - [Advanced liquid rocket chamber wall cooling design criteria][research_mirzamoghadam_1991]
 - [Analysis of store trajectories from tactical fighter aircraft][research_donegan_fox_1991]
 - [Bipropellant spray combustion modeling in small rocket engines][research_larosiliere_jeng_1991]
@@ -6987,7 +6405,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Performance Oriented Packaging POP testing of Artillery Type...][research_siroy_1993]
 - [Rocket Based Combined Cycle engine RBCC - A propulsion system...][research_czysz_little_1993]
 - [Secondary power system study for the SAENGER first stage...][research_trollheden_streifinger_1993]
-- [The JASON Remotely Operated Vehicle System][research_ballard_1993]
 - [The National Aerospace Plane - Cost considerations for the...][research_harris_1993]
 - [TranAir applications to predicting transonic aircraft/store...][research_cenko_madson_1993]
 - [Vehicle Management System for single stage rocket][research_carter_rachel_1993]
@@ -6996,7 +6413,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Aircraft landing gear positioning concerning abnormal landing...][research_lee_chiou_1994]
 - [Chronicle review of the hybrid rocket combustion][research_helmy_1994]
 - [Combustion of a double-base homogeneous propellant in a...][research_tseng_yang_1994]
-- [Development of an AVM automatic vehicle monitoring system][research_yogo_1994]
 - [Estimating noise characteristics from flight test data using...][research_morelli_1994]
 - [Launch vehicle performance using metallized propellants][research_palaszewski_powell_1994]
 - [Selection and design of a next generation air breathing...][research_sholes_schnackel_1994]
@@ -7032,7 +6448,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Enhancing gas-turbine engine performance by means of the...][research_najjar_zaamout_1996]
 - [FASTPASS - A tool for launch vehicle synthesis][research_szedula_1996]
 - [Formulation and analysis of launch vehicle maneuvering loads][research_dotson_tiwari_1996]
-- [Ground Vehicle System Integration GVSI and Design...][research_horton_1996]
 - [Options for flight testing rocket-based combined-cycle RBCC...][research_oldsjohn_1996]
 - [Reusable Orbit Transfer Vehicle concepts analysis][research_elkins_galati_1996]
 - [Study of Gas CNG Engine ? 4 stroke cycle supercharging engine...][research_study_of_1996]
@@ -7061,8 +6476,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Isolated fluid oxygen drop behavior in fluid hydrogen at...][research_harstad_bellan_1998_b]
 - [Launch Vehicle Concept with Tandem Staging and Air Collection][research_martin_isaac_1998]
 - [Launch vehicle performance with solid particle feed systems...][research_palaszewski_1998]
-- [Logistic Vehicle System Replacement Cost Estimate][research_stinson_garmenn_1998]
-- [Millimeter wave safety warning system for in-vehicle signing][research_greneker_1998]
 - [Naval Rotary Wing Aircraft Flight Test Squadron Flight Test...][research_mertaugh_1998]
 - [New experimental results on transpiration cooling for...][research_froehkle_haidn_1998]
 - [Performance of an Axisymmetric Rocket Based Combined Cycle...][research_smithtimothyd_steffenchristopherjjr_1998]
@@ -7104,7 +6517,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [U.S. expendable launch vehicle performance history][research_coleman_2000]
 - [A one-dimensional engineering model for the evaluation of...][research_mckamey_landrum_2001]
 - [A unified analysis of ramjet operation in an integrated...][research_sung_hsieh_2001]
-- [Air Suspension Dimensionless Analysis and Design Procedure][research_quaglia_sorli_2001]
 - [Air Vehicle Technology Modeling and Simulation][research_marino_2001]
 - [Analysis of proposed fully internal compression geometry for...][research_rojasoviedo_deng_2001]
 - [Energy Transfer Processes in the Production of Excited States...][research_rich_adamovich_2001]
@@ -7113,10 +6525,8 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [I sup STAR , NASA's Next Step in Air-Breathing Propulsion for...][research_huttjohnj_mcarthurcraig_2001]
 - [Improved Insensitive Munitions Performance of an HE Rocket...][research_johnson_kim_2001]
 - [Integrated System Test of an Airbreathing Rocket ISTAR][research_faulknerrobertf_lylesgarry_2001]
-- [Logistic Vehicle System LVS Mod Demo Vehicle Armour...][research_ashmore_2001]
 - [Numerical Modeling of Pressurization of a Propellant Tank][research_majumdar_steadman_2001]
 - [Numerical analysis for propellant management in liquid rocket...][research_himeno_watanabe_2001]
-- [Optimization of Vehicle Air Conditioning Systems Using...][research_hendricks_2001]
 - [Plasma-Enhanced Combustion for Reduction of Rocket Plume Soot][research_gundersen_2001]
 - [Rocket Propulsion Technology Impact on TSTO Launch System Cost][research_mossman_perkins_2001]
 - [Rocket-Based Combined-Cycle Engine Integration on an...][research_obrien_lewis_2001]
@@ -7127,7 +6537,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [The Generic Aircraft-Store Interface Framework][research_gregory_2001]
 - [The Space Shuttle Decision NASA's Search for a Reusable Space...][research_roland_2001]
 - [The University of Glasgow unmanned aerial vehicle system][research_millar_smrcek_2001]
-- [Vehicle Chassis Monitoring System][research_pisu_soliman_2001]
 - [Comparison of Engine Cycle Codes for Rocket-Based Combined...][research_waltruppaulj_auslenderaaronh_2002]
 - [Design and Manufacture of the Messenger Propellant Tank...][research_tam_dommer_2002]
 - [Engine System Loads Analysis Compared to Hot-Fire Data][research_fradygregoryp_jenningsjohnm_2002]
@@ -7135,7 +6544,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Launch Vehicle Sizing Benefits Utilizing Main Propulsion...][research_chandlerfrank_scheiernm_2002]
 - [Launch vehicle accident assessment for Mars Exploration Rover...][research_yaum_reinhartl_2002]
 - [Test Engineering A Concise Guide to Cost-Effective Design...][research_test_engineering_2002]
-- [A Radio -Control and Monitoring System for Agricultural...][research_magazzu_2003]
 - [Advanced Iso-Grid Fairing Qualification Test for Minotaur...][research_sanford_higgins_2003]
 - [Cost-effective heat-treatment of aerospace fabrications][research_cost_effective_heat_treatment_2003]
 - [Kistler reusable vehicle facility design and operational...][research_fagan_mcinerney_2003]
@@ -7144,7 +6552,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Propeller Inflow Measurements on an Air Cushion Landing Craft...][research_gowing_2003]
 - [Quasi-One-Dimensional Modeling of Pulse Detonation Rocket...][research_morrischristopheri_2003]
 - [Stress corrosion cracking of stainless steel bellows of...][research_jha_diwakar_2003]
-- [Vehicle chassis monitoring system][research_pisu_soliman_2003]
 - [Bayesian Analysis of Launch Vehicle Success Rates][research_guikema_patecornell_2004]
 - [Design Modification of a Diaphragm Propellant Tank for a...][research_benton_debreceni_2004]
 - [Evaluation of an Infrared Camera for Use in a Gun-Launched...][research_childers_condon_2004]
@@ -7157,7 +6564,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Development of a Vertically Launched Decoy Vehicle][research_veracka_cross_2005]
 - [REIMR A Process for Utilizing Propulsion-Oriented...][research_ballardrichardo_brownkendallk_2005]
 - [Real-Time Control for Optimal Liquid Rocket Combustor...][research_zinn_lubarsky_2005]
-- [Unmanned Surface Sea Vehicle Power System Design and Modeling][research_pritpal_2005]
 - [Vision Assisted Landing of an Unmanned Aerial Vehicle][research_chitrakaran_dawson_2005]
 - [Propulsion IVHM Technology Experiment][research_chicatelliamyk_maulwilliama_2006]
 - [Electric Propulsion Upper-Stage for Launch Vehicle Capability...][research_kempgregorye_dankanichjohnw_2007]
@@ -7186,7 +6592,6 @@ everything published before 2015, and the contemporary half is listed in the sec
 - [Near Earth Asteroid Human Mission Possibilities Using Nuclear...][research_borowskistanley_mccurdydavidr_2012]
 - [Nuclear Thermal Rocket Ntr Propulsion A Proven Game-Changing...][research_borowskistanleyk_mccurdydavidr_2012]
 - [Real-Time X-ray Radiography Diagnostics of Components in...][research_cortopassiac_martinht_2012]
-- [Vehicle Dynamics Monitoring and Tracking System VDMTS...][research_koch_howard_2012]
 - [Center for Micro Air Vehicle Studies][research_huang_2013]
 - [Cu-Cr-Nb-Zr Alloy for Rocket Engines and Other High-Heat...][research_ellisdavidl_2013]
 - [Evolved Expendable Launch Vehicle EELV][research_airforcespacecommandspacemissilesysctr_2013]
@@ -7413,9 +6818,6 @@ Of the four it is the only one that was ready.
 
 - [00/00974 Combustion mechanism of an RDX-based composite propellant 2000][research_00_00974_combustion_2000]
 - [00/02802 Pitch pyrolysis kinetics: isothermal heat treatment experiments and model 2000][research_00_02802_pitch_2000]
-- [040 Guidance of autonomous vehicle with 4 wheel trailer 1994][research_040_guidance_1994]
-- [043 Fuzzy logic guidance and obstacle avoidance algorithms for autonomous vehicle control 1994][research_043_fuzzy_1994]
-- [081 An improved plan-view method for autonomous vehicle guidance 1994][research_081_an_1994]
 - [1162. Design of altitude simulators for rocket engine starting in high vacuum 1968][research_1162_design_1968]
 - [180 Fault Tolerant navigation system for aircraft landing 1994][research_180_fault_1994]
 - [2019 Prognostics and System Health Management Conference 2019][research_2019_prognostics_2019]
@@ -7424,9 +6826,7 @@ Of the four it is the only one that was ready.
 - [3D printed rocket engine 2020][research_3d_printed_2020]
 - [4680010 Re-radiating heat shield assembly 1989][research_4680010_re_radiating_1989]
 - [5132663 Vehicle safety system and method for monitoring toxic and combustible fuels 1993][research_5132663_vehicle_1993]
-- [5423294 Furnace tile and expansion joint 1996][research_5423294_furnace_1996]
 - [6 DoF Aircraft Simulation Model Capable of Handling Maneuver Events (WIP) 2016][research_6_dof_2016]
-- [95/06340 A model of pyrolysis of coal particles in a fluidized bed of heat carrier 1995][research_95_06340_a_1995]
 - [98/02419 Effects of launch vehicle emissions in the stratosphere 1998][research_98_02419_effects_1998]
 - [A Compact and Economical Kerosene Engine 1905][research_a_compact_1905]
 - [A et al 2025][research_a_haridoss_2025]
@@ -7445,7 +6845,6 @@ Of the four it is the only one that was ready.
 - [Abdi-Moradi 1988][research_abdimoradi_1988]
 - [Abdo et al 2021][research_abdo_erkin_2021]
 - [Abdullah 2025][research_abdullah_2025]
-- [Abdullah et al 2015][research_abdullah_ahmad_2015]
 - [Abdullah et al 2020][research_abdullah_okuyama_2020]
 - [Abkowitz 2001][research_abkowitz_2001]
 - [Ablative material tests under transient heating simulating ballisticreentry 1969][research_ablative_material_1969]
@@ -7459,10 +6858,7 @@ Of the four it is the only one that was ready.
 - [Accola, Anne et al 1990][research_accolaanne_fincannonhj_1990]
 - [Achambath and Schwartzentruber 2018][research_achambath_schwartzentruber_2018]
 - [Achambath et al 2019][research_achambath_ramjatan_2019]
-- [Acharya et al 2025][research_acharya_gangopadhyaya_2025]
 - [Achenbach 1971][research_achenbach_1971]
-- [Acosta and Ambastha 1994][research_acosta_ambastha_1994]
-- [Adamo et al 2024][research_adamo_ghiani_2024]
 - [Adamou et al 2022][research_adamou_costall_2022]
 - [Adams 1960][research_adams_1960]
 - [Adams 1968][research_adams_1968]
@@ -7479,7 +6875,6 @@ Of the four it is the only one that was ready.
 - [Aerospace Corp El Segundo Ca 1963][research_aerospacecorpelsegundoca_1963]
 - [Aeschliman et al 1975][research_aeschliman_mulac_1975]
 - [Africano 1935][research_africano_1935]
-- [Agarwal 2023][research_agarwal_2023]
 - [Agarwal and Gupta 2004][research_agarwal_gupta_2004]
 - [Agarwal et al 2021][research_agarwal_sahoo_2021]
 - [Aggarwal 2018][research_aggarwal_2018]
@@ -7513,48 +6908,34 @@ Of the four it is the only one that was ready.
 - [Akash and Anbarasu 2025][research_akash_anbarasu_2025]
 - [Akbulatov et al 2023][research_akbulatov_nazarov_2023]
 - [Akers et al 1970][research_akers_griest_1970]
-- [Akhmadi and Wulandari 2021][research_akhmadi_wulandari_2021]
 - [Akiba et al 1983][research_akiba_kohno_1983]
 - [Akimov 2026][research_akimov_2026]
 - [Akiyama et al 2024][research_akiyama_ishikawa_2024]
-- [Akkutlu et al 2017][research_akkutlu_efendiev_2017]
 - [Aksonov 2023][research_aksonov_2023]
 - [Aksoy et al 2019][research_aksoy_acar_2019]
 - [Aktas et al 2016][research_aktas_ertugrul_2016]
 - [Akturk and Camci 2022][research_akturk_camci_2022]
 - [Al Haj Hassan et al 2016][research_alhajhassan_nuaymi_2016]
-- [Al Ruqaishi et al 2026][research_alruqaishi_elhassan_2026]
 - [Al-Ali et al 2017][research_alali_elwakil_2017]
 - [Al-Bakri et al 2020][research_albakri_albakri_2020]
 - [Al-Barrak and Al-Khalil 2018][research_albarrak_alkhalil_2018]
-- [Al-Masri and Shapiro 2020][research_almasri_shapiro_2020]
-- [AL-Qarzae et al 2025][research_alqarzae_fenais_2025]
-- [Alaei et al 2024][research_alaei_belloni_2024]
-- [Alaei et al 2025][research_alaei_makhdoumi_2025]
-- [Alam 2022][research_alam_2022]
 - [Alanyalioglu 2017][research_alanyalioglu_2017]
 - [Alavilli et al 2000][research_alavilli_tafti_2000]
 - [Alawadhi et al 2025][research_alawadhi_vabithadevi_2025]
 - [Albanese et al 2012][research_albanese_meyers_2012]
 - [Alberti et al 2018][research_alberti_cavalcante_2018]
-- [Alessandri et al 2017][research_alessandri_andrique_2017]
 - [Alexander and Fournier 1963][research_alexander_fournier_1963]
 - [Alexander and T. M. 1978][research_alexander_tm_1978]
 - [Alexander et al 1996][research_alexander_tzeng_1996]
 - [Alexanderian et al 2021][research_alexanderian_petra_2021]
 - [Alexandrov 2026][research_alexandrov_2026]
 - [Alexis 2023][research_alexis_2023]
-- [Alfahdi et al 2024][research_alfahdi_gultekin_2024]
-- [Alfaro 2020][research_alfaro_2020]
-- [Alfonso et al 2015][research_alfonso_mezquita_2015]
 - [Algorithm for evaluation the navigation complex of a carrier-based aircraft 2020][research_algorithm_for_2020]
-- [Alharthi et al 2026][research_alharthi_shubber_2026]
 - [Alijani and Osman 2020][research_alijani_osman_2020]
 - [Alizo Ewald et al 2026][research_alizoewald_alizoewald_2026]
 - [Aljbour 2026][research_aljbour_2026]
 - [Aljbour 2026][research_aljbour_2026_b]
 - [Alkhatib et al 2025][research_alkhatib_sakurahara_2025]
-- [Allahyari et al 2021][research_allahyari_yaghoubi_2021]
 - [Allard 2024][research_allard_2024]
 - [Allen et al 1983][research_allen_bradley_1983]
 - [Allen et al 1984][research_allen_bradley_1984]
@@ -7566,7 +6947,6 @@ Of the four it is the only one that was ready.
 - [Alonso Tabares 2023][research_alonsotabares_2023_b]
 - [Alonso Tabares and Mora-Camino 2017][research_alonsotabares_moracamino_2017]
 - [Alonso Tabares and Mora-Camino 2019][research_alonsotabares_moracamino_2019]
-- [Alpak and Vink 2019][research_alpak_vink_2019]
 - [Alqaleiby et al 2022][research_alqaleiby_hashem_2022]
 - [Alsafadi and Martinez 1993][research_alsafadi_martinez_1993]
 - [Alsaidi et al 2024][research_alsaidi_huh_2024]
@@ -7594,10 +6974,7 @@ Of the four it is the only one that was ready.
 - [American Rocket Society News 1952][research_american_rocket_1952]
 - [American Rocket Society News 1953][research_american_rocket_1953]
 - [Aminov et al 2023][research_aminov_krapivnykh_2023]
-- [Amodu et al 2024][research_amodu_shaban_2024]
 - [Amokrane et al 2024][research_amokrane_fleurotte_2024]
-- [Amorim et al 2026][research_amorim_lopes_2026]
-- [Amorós et al 2018][research_amoros_cantavella_2018]
 - [Amos et al 1958][research_amos_macpherson_1958]
 - [An and Li 2023][research_an_li_2023]
 - [An autonomous robot control system based on an inverse problems method in dynamics 2019][research_an_autonomous_2019]
@@ -7607,17 +6984,13 @@ Of the four it is the only one that was ready.
 - [An experimental study on air intake performance for a rocket/ramjet engine 1981][research_an_experimental_1981]
 - [An Improved Kerosene Engine 1898][research_an_improved_1898]
 - [An investigation of the heating, drying, and pyrolysis process of two separate moisturized cellulosic leaves 2023][research_an_investigation_2023]
-- [An Optimization Model of Reverse Logistics Network Design 2022][research_an_optimization_2022]
 - [An Overview on the Design Variants for Organization of the Liquid Film Cooling in Lpre Combustion Chambers 2023][research_an_overview_on_2023]
 - [Analysis of pesudo-reliability of a combat tank system and its optimal design 1977][research_analysis_of_1977]
 - [Analysis of Quasi-three-dimensional Landing Dynamics and Attenuation Performance under Extreme Conditions for Launch Vehicle 2021][research_analysis_of_2021]
-- [Analysis of the Development of Vehicle Inspection Technology 2022][research_analysis_of_2022]
 - [Analysis of the Influence of the Design Parameters of the Upper Stage Liquid Propellant Rocket Engine Pump on Its Cavitation Characteristics 2023][research_analysis_of_the_2023]
 - [Analysis of the relationship between mass, speed and cost of an unmanned aircraft 2024][research_analysis_of_2024]
-- [Analysis Of Vehicle Air Compressor Mounting Bracket 2017][research_analysis_of_2017]
 - [Ananth et al 2003][research_ananth_tatem_2003]
 - [Ancel et al 2019][research_ancel_helsel_2019]
-- [Andersen and Christensen 1993][research_andersen_christensen_1993]
 - [Anderson 1969][research_anderson_1969]
 - [Anderson and Kinzel 2023][research_anderson_kinzel_2023]
 - [Anderson and McWilliams 2003][research_anderson_mcwilliams_2003]
@@ -7628,7 +7001,6 @@ Of the four it is the only one that was ready.
 - [Anderson et al 2015][research_anderson_heister_2015]
 - [Anderson et al 2024][research_anderson_lawless_2024]
 - [Anderson et al 2024][research_anderson_lawless_2024_b]
-- [Anderson et al 2026][research_anderson_stern_2026]
 - [Anderson, P. G. et al 1993][research_andersonpg_chenggc_1993]
 - [Andreadis, Dean et al 2002][research_andreadisdean_drakealan_2002]
 - [Andreadis, Dean et al 2003][research_andreadisdean_drakealan_2003]
@@ -7649,12 +7021,10 @@ Of the four it is the only one that was ready.
 - [Ansari and Bajodah 2016][research_ansari_bajodah_2016]
 - [Ansari and Bajodah 2016][research_ansari_bajodah_2016_b]
 - [Anum et al 2022][research_anum_majid_2022]
-- [Anwar and Tiwari 2001][research_anwar_tiwari_2001]
 - [Ao et al 2022][research_ao_wen_2022]
 - [Aogaki et al 2017][research_aogaki_kitamura_2017]
 - [Aoki and Ishigami 2022][research_aoki_ishigami_2022]
 - [Apetrei et al 2019][research_apetrei_curielsosa_2019]
-- [Apoorvavijay and Sapidi 2024][research_apoorvavijay_sapidi_2024]
 - [Appel, M. A. and Kruger, G. W. 1980][research_appelma_krugergw_1980]
 - [Application of Double Divergent Annular Rocket Nozzle 2022][research_application_of_2022]
 - [Application of the functional diagnostics system and the emergency protection system of a liquid rocket engine during fire tests 2024][research_application_of_2024]
@@ -7674,7 +7044,6 @@ Of the four it is the only one that was ready.
 - [Arhami et al 2026][research_arhami_borujerdi_2026]
 - [Arisandi 2017][research_arisandi_2017]
 - [Arita et al 2000][research_arita_ishikawa_2000]
-- [Ariyanto 2018][research_ariyanto_2018]
 - [Arkhipov et al 1999][research_arkhipov_tkachenko_1999]
 - [Armbruster et al 2021][research_armbruster_hardi_2021]
 - [Armstrong 1977][research_armstrong_1977]
@@ -7683,18 +7052,13 @@ Of the four it is the only one that was ready.
 - [Army Materiel Command Alexandria Va 1986][research_armymaterielcommandalexandriava_1986]
 - [Arnodo et al 2018][research_arnodo_appolloni_2018]
 - [Aronov and Klyagin 2021][research_aronov_klyagin_2021]
-- [Arulmurugan 2022][research_arulmurugan_2022]
 - [Arun and Prakash 2018][research_arun_prakash_2018]
 - [Arya and Zaidi 2024][research_arya_zaidi_2024]
 - [Aryal et al 2024][research_aryal_deshpande_2024]
-- [Arzhenovskiy 2017][research_arzhenovskiy_2017]
-- [Asadi and Hajirasouliha 2020][research_asadi_hajirasouliha_2020]
-- [Asal et al 2024][research_asal_genc_2024]
 - [Asamura et al 2024][research_asamura_hasegawa_2024]
 - [Asher and Maggelet 1980][research_asher_maggelet_1980]
 - [Ashforth-Frost and Jambunathan 1996][research_ashforthfrost_jambunathan_1996]
 - [Ashish and Chandrasekaran 2026][research_ashish_chandrasekaran_2026]
-- [Ashmore 2001][research_ashmore_2001]
 - [Ashraf et al 2022][research_ashraf_baig_2022]
 - [Askins, Bruce R. et al 2008][research_askinsbrucer_davissusanr_2008]
 - [Aslan et al 2015][research_aslan_taymaz_2015]
@@ -7705,21 +7069,17 @@ Of the four it is the only one that was ready.
 - [Atamanchuk 2025][research_atamanchuk_2025]
 - [Atamuradov and Camci 2020][research_atamuradov_camci_2020]
 - [Atamuradov et al 2020][research_atamuradov_medjaher_2020]
-- [Atarigiya 2023][research_atarigiya_2023]
 - [Atay et al 2026][research_atay_kumartaslioglu_2026]
 - [Atkinson's Cycle Gas Engine 1891][research_atkinson_s_cycle_1891]
 - [Atreya and Baum 2002][research_atreya_baum_2002]
 - [Attia et al 2025][research_attia_leyffer_2025]
 - [Atwood 1994][research_atwood_1994]
 - [Atwood 1995][research_atwood_1995]
-- [Atılgan Türkmen et al 2021][research_atilganturkmen_budakduhbaci_2021]
 - [Audet 1982][research_audet_1982]
 - [Auerbach 1966][research_auerbach_1966]
 - [Augousti et al 2018][research_augousti_baker_2018]
 - [Author 1966][research_author_1966]
 - [Author 1967][research_author_1967]
-- [Author 1976][research_author_1976]
-- [Automated Models of Software Systems for Vehicle Diagnostics: Approach to Data Integration 2025][research_automated_models_2025]
 - [Automatic Landing 1964][research_automatic_landing_1964]
 - [Automatic Landing 1969][research_automatic_landing_1969]
 - [Automatic landing system lands two planes a minute 1960][research_automatic_landing_1960]
@@ -7731,10 +7091,6 @@ Of the four it is the only one that was ready.
 - [Avila et al 2016][research_avila_islam_2016]
 - [Avionics and vehicle fiber-optics and photonics conference 2017 exhibitor guide 2017][research_avionics_and_2017]
 - [Avionics Testing 1976][research_avionics_testing_1976]
-- [Axter and Bumby 1993][research_axter_bumby_1993]
-- [Aydin 2021][research_aydin_2021]
-- [Aydin et al 2018][research_aydin_tarhan_2018]
-- [Ayers 1994][research_ayers_1994]
 - [Ayyasamy et al 2023][research_ayyasamy_nirmala_2023]
 - [Azhagan M. et al 2023][research_azhaganm_shanmugam_2023]
 - [Azis et al 2025][research_azis_maulana_2025]
@@ -7760,15 +7116,11 @@ Of the four it is the only one that was ready.
 - [Bae et al 2017][research_bae_kim_2017]
 - [Bae et al 2018][research_bae_park_2018]
 - [Baek and Ahn 2020][research_baek_ahn_2020]
-- [Baek and Ma 2022][research_baek_ma_2022]
-- [Baek and Wang 2026][research_baek_wang_2026]
 - [Baetz 1974][research_baetz_1974]
 - [Baetz 1975][research_baetz_1975]
 - [Baetz 1976][research_baetz_1976]
-- [Bagazinski and Ahmed 2023][research_bagazinski_ahmed_2023]
 - [Bahrami and Ommi 2022][research_bahrami_ommi_2022]
 - [Bai et al 2017][research_bai_wang_2017]
-- [Bai et al 2024][research_bai_cheng_2024]
 - [Bail 1968][research_bail_1968]
 - [Bailey et al 1986][research_bailey_murphy_1986]
 - [Baillif et al 1995][research_baillif_bodepudi_1995]
@@ -7788,7 +7140,6 @@ Of the four it is the only one that was ready.
 - [Balepin et al 2001][research_balepin_czysz_2001]
 - [Balesdent et al 2022][research_balesdent_brevault_2022]
 - [Balhoff and Pike 1973][research_balhoff_pike_1973]
-- [Ballard 1993][research_ballard_1993]
 - [Ballard, RIchard O. 2006][research_ballardrichardo_2006]
 - [Ballard, Richard O. and Brown, Kendall K. 2005][research_ballardrichardo_brownkendallk_2005]
 - [Ballard, Richard O. et al 2000][research_ballardrichardo_olivetim_2000]
@@ -7796,12 +7147,10 @@ Of the four it is the only one that was ready.
 - [Balles 2022][research_balles_2022_b]
 - [Ballou 1963][research_ballou_1963]
 - [Ballou 1963][research_ballou_1963_b]
-- [Balseiro et al 2026][research_balseiro_ma_2026]
 - [Balut et al 2003][research_balut_davis_2003]
 - [Balwanz 1965][research_balwanz_1965]
 - [Banazadeh-Neishabouri et al 2020][research_banazadehneishabouri_shirazi_2020]
 - [Banerjee and Poovathingal 2021][research_banerjee_poovathingal_2021]
-- [Banerjee et al 1999][research_banerjee_buckshee_1999]
 - [Banerjee et al 2016][research_banerjee_mohan_2016]
 - [Banks et al 1992][research_banks_wong_1992]
 - [Bano et al 2026][research_bano_fraser_2026]
@@ -7819,7 +7168,6 @@ Of the four it is the only one that was ready.
 - [Baroth, E. et al 1999][research_barothe_russk_1999]
 - [Barros et al 2025][research_barros_oliveira_2025]
 - [Barrère 1977][research_barrere_1977]
-- [Bartik and Gormley 2016][research_bartik_gormley_2016]
 - [Bartkiewicz et al 2022][research_bartkiewicz_haws_2022]
 - [Bartle and Leadon 1960][research_bartle_leadon_1960]
 - [Bartlett 1964][research_bartlett_1964]
@@ -7851,17 +7199,14 @@ Of the four it is the only one that was ready.
 - [Beck, R. A. et al 2019][research_beckra_szalaice_2019]
 - [Beddini and Owano 1987][research_beddini_owano_1987]
 - [Bedzyk et al 1987][research_bedzyk_czech_1987]
-- [Behjati et al 2026][research_behjati_kashani_2026]
 - [Behrens and Minier 1998][research_behrens_minier_1998]
 - [Beitel 1991][research_beitel_1991]
 - [Bejan 1983][research_bejan_1983]
 - [Bekka et al 2015][research_bekka_sellam_2015]
-- [Belhaiza and Laporte 2026][research_belhaiza_laporte_2026]
 - [Bell Aerospace Co Buffalo Ny 1955][research_bellaerospacecobuffalony_1955]
 - [Bell Aerospace Co Buffalo Ny 1955][research_bellaerospacecobuffalony_1955_b]
 - [Bell Aerospace Co Buffalo Ny 1957][research_bellaerospacecobuffalony_1957]
 - [Bell Aerospace Textron Buffalo Ny 1985][research_bellaerospacetextronbuffalony_1985]
-- [Bellas et al 2019][research_bellas_gomez_2019]
 - [Beltran and Kosvic 1966][research_beltran_kosvic_1966]
 - [Belyakov 2022][research_belyakov_2022]
 - [Belyakov and Shulepov 2023][research_belyakov_shulepov_2023]
@@ -7891,7 +7236,6 @@ Of the four it is the only one that was ready.
 - [Berman and Logan 1952][research_berman_logan_1952]
 - [Bermudez 2024][research_bermudez_2024]
 - [Bernard et al 2019][research_bernard_almaawali_2019]
-- [Bernett et al 2023][research_bernett_picciani_2023]
 - [Bernstein et al 1949][research_bernstein_linzer_1949]
 - [Bernstein et al 2023][research_bernstein_yee_2023]
 - [Bernstein et al 2024][research_bernstein_litvinov_2024]
@@ -7899,7 +7243,6 @@ Of the four it is the only one that was ready.
 - [Bershadskyi et al 2022][research_bershadskyi_sokolov_2022]
 - [Bertoni et al 2018][research_bertoni_dasari_2018]
 - [Bertsch et al 2019][research_bertsch_thomas_2019]
-- [Besbes et al 2022][research_besbes_elmachtoub_2022]
 - [Best 1982][research_best_1982]
 - [Best et al 1988][research_best_mcgahee_1988]
 - [Betady et al 2018][research_betady_ortiz_2018]
@@ -7908,16 +7251,12 @@ Of the four it is the only one that was ready.
 - [Betts, Erin M. and Hardin, Andy 2011][research_bettserinm_hardinandy_2011]
 - [Betts, Erin M. et al 2011][research_bettserinm_reynoldsdavidc_2011]
 - [Bewley 1989][research_bewley_1989]
-- [Bhamare et al 2021][research_bhamare_saikia_2021]
 - [Bhardwaj et al 2018][research_bhardwaj_zou_2018]
 - [Bhargavapuri et al 2019][research_bhargavapuri_shastry_2019]
 - [Bhaskar and Sahu 2021][research_bhaskar_sahu_2021]
 - [Bhat et al 2016][research_bhat_greene_2016]
-- [Bhatasana and Marconnet 2021][research_bhatasana_marconnet_2021]
 - [Bhatt and Singh 2025][research_bhatt_singh_2025]
 - [Bhattacharya and Jung 2020][research_bhattacharya_jung_2020]
-- [Bhowmik 2021][research_bhowmik_2021]
-- [Bhujbal et al 2025][research_bhujbal_preetam_2025]
 - [Bi et al 2020][research_bi_zhou_2020]
 - [Bi et al 2020][research_bi_zhou_2020_b]
 - [Bi et al 2025][research_bi_liu_2025]
@@ -7936,7 +7275,6 @@ Of the four it is the only one that was ready.
 - [Biliaiev et al 2024][research_biliaiev_biliaieva_2024]
 - [Bills et al 2016][research_bills_crowe_2016]
 - [Binder 1993][research_binder_1993]
-- [Bing 2017][research_bing_2017]
 - [Bing and Gong 2015][research_bing_gong_2015]
 - [Bird 2020][research_bird_2020]
 - [Bird and Shao 2020][research_bird_shao_2020]
@@ -7946,7 +7284,6 @@ Of the four it is the only one that was ready.
 - [Bishop and Dicristina 1967][research_bishop_dicristina_1967]
 - [Bishop and Dicristina 1968][research_bishop_dicristina_1968]
 - [Bishop et al 2018][research_bishop_niblett_2018]
-- [Bistafa 2024][research_bistafa_2024]
 - [Bjorklund et al 1979][research_bjorklund_rogero_1979]
 - [Black 1969][research_black_1969]
 - [Black and Picklesimer 1971][research_black_picklesimer_1971]
@@ -7963,8 +7300,6 @@ Of the four it is the only one that was ready.
 - [Blosser 1997][research_blosser_1997]
 - [Blumenthal et al 1966][research_blumenthal_santy_1966]
 - [Blösch-Paidosh and Shea 2018][research_bloschpaidosh_shea_2018]
-- [Bo 2016][research_bo_2016]
-- [Boane et al 2025][research_boane_rocha_2025]
 - [Bobisud 1983][research_bobisud_1983]
 - [Bock 1968][research_bock_1968]
 - [Boden 1951][research_boden_1951]
@@ -8014,18 +7349,14 @@ Of the four it is the only one that was ready.
 - [Bougacha and Varnier 2021][research_bougacha_varnier_2021_b]
 - [Bougacha et al 2021][research_bougacha_varnier_2021]
 - [Bouhadra and Forest 2024][research_bouhadra_forest_2024]
-- [Bourgeois et al 2015][research_bourgeois_whynot_2015]
-- [Bowden and Belfield 2015][research_bowden_belfield_2015]
 - [Bowen and Ness 1982][research_bowen_ness_1982]
 - [Bowers and Pratt 1985][research_bowers_pratt_1985]
 - [Bowles, D. E. and Tenney, D. R. 1981][research_bowlesde_tenneydr_1981]
 - [Bowman 1967][research_bowman_1967]
-- [Boyce 2017][research_boyce_2017]
 - [Boyd and Fazelpour 2019][research_boyd_fazelpour_2019]
 - [Boyd et al 1988][research_boyd_veeraraghavan_1988]
 - [Boydston et al 2015][research_boydston_cunningham_2015]
 - [Boyer 2017][research_boyer_2017]
-- [Bradford 2001][research_bradford_2001]
 - [Bradford et al 2004][research_bradford_charania_2004]
 - [Bragg 1963][research_bragg_1963]
 - [Brahimi et al 2020][research_brahimi_medjaher_2020]
@@ -8124,7 +7455,6 @@ Of the four it is the only one that was ready.
 - [Burton 1981][research_burton_1981]
 - [Burton 1998][research_burton_1998]
 - [Burton et al 2008][research_burton_hibbs_2008]
-- [Busa et al 2024][research_busa_konar_2024]
 - [Busam et al 1999][research_busam_glahn_1999]
 - [Butka 2023][research_butka_2023]
 - [Butler 1964][research_butler_1964]
@@ -8140,7 +7470,6 @@ Of the four it is the only one that was ready.
 - [Byczkowski and Rao 2023][research_byczkowski_rao_2023]
 - [Byczkowski and Rao 2023][research_byczkowski_rao_2023_b]
 - [Bäker et al 2015][research_baker_fiedler_2015]
-- [Bélanger et al 2017][research_belanger_anctil_2017]
 - [Börner et al 2017][research_borner_deeken_2017]
 - [Cabello et al 2025][research_cabello_troyanoferre_2025]
 - [Cagna 2024][research_cagna_2024]
@@ -8151,7 +7480,6 @@ Of the four it is the only one that was ready.
 - [Cai et al 2024][research_cai_ren_2024]
 - [Cakir 2025][research_cakir_2025]
 - [Calamoneri et al 2024][research_calamoneri_coro_2024]
-- [Calderon Hurtado et al 2026][research_calderonhurtado_atroshchenko_2026]
 - [Calhoon et al 1973][research_calhoon_kors_1973]
 - [Calhoun 2000][research_calhoun_2000]
 - [Calvano and Harney 1998][research_calvano_harney_1998]
@@ -8170,15 +7498,11 @@ Of the four it is the only one that was ready.
 - [Cao 2017][research_cao_2017]
 - [Cao 2024][research_cao_2024]
 - [Capitano and Eldridge 1984][research_capitano_eldridge_1984]
-- [Capodieci 2017][research_capodieci_2017]
 - [Capparelli et al 2026][research_capparelli_unternbaumen_2026]
-- [Caputo 2016][research_caputo_2016]
-- [Cardarelli et al 2022][research_cardarelli_chadikovski_2022]
 - [Cardeal et al 2021][research_cardeal_sequeira_2021]
 - [Carden 1964][research_carden_1964]
 - [Carden et al 1967][research_carden_harman_1967]
 - [Cardillo et al 2023][research_cardillo_battista_2023]
-- [Cardno 2025][research_cardno_2025]
 - [Carico 1998][research_carico_1998]
 - [Carlson et al 1995][research_carlson_king_1995]
 - [Carman and J. B. 1966][research_carman_jb_1966]
@@ -8195,9 +7519,6 @@ Of the four it is the only one that was ready.
 - [Casalino et al 2019][research_casalino_masseni_2019_b]
 - [Casalino et al 2022][research_casalino_ferrero_2022]
 - [Casalino et al 2022][research_casalino_masseni_2022]
-- [Case 1999][research_case_1999]
-- [Case 2001][research_case_2001]
-- [Case 2002][research_case_2002]
 - [Case and Reifsnider 2003][research_case_reifsnider_2003]
 - [Casel and Bickford 2026][research_casel_bickford_2026]
 - [Cassell, Alan et al 2016][research_cassellalan_gorbunovsergey_2016]
@@ -8210,7 +7531,6 @@ Of the four it is the only one that was ready.
 - [Cato 1964][research_cato_1964]
 - [Cato 1965][research_cato_1965]
 - [Celenza et al 2024][research_celenza_eskenazi_2024]
-- [Celik 2015][research_celik_2015]
 - [Cenkci 1991][research_cenkci_1991]
 - [Cenko and Madson 1993][research_cenko_madson_1993]
 - [Cenko et al 1994][research_cenko_phillips_1994]
@@ -8220,13 +7540,11 @@ Of the four it is the only one that was ready.
 - [Chaiaiad and Thongsri 2023][research_chaiaiad_thongsri_2023]
 - [Chalfant 1992][research_chalfant_1992]
 - [Chaloff et al 1974][research_chaloff_hiyama_1974]
-- [Chalupa and Nielsen 2018][research_chalupa_nielsen_2018]
 - [Chamberlain 1979][research_chamberlain_1979]
 - [Chamis 1983][research_chamis_1983]
 - [Chamitoff 1994][research_chamitoff_1994]
 - [Champion and Deshaies 1995][research_champion_deshaies_1995]
 - [Champion, R. J., Jr. and Darrow, R. J., Jr. 1998][research_championrjjr_darrowrjjr_1998]
-- [Chan 2017][research_chan_2017]
 - [Chan et al 2016][research_chan_dalle_2016]
 - [Chandler 1948][research_chandler_1948]
 - [Chandler 2019][research_chandler_2019]
@@ -8240,10 +7558,8 @@ Of the four it is the only one that was ready.
 - [Chandramoul et al 2020][research_chandramoul_reddy_2020]
 - [Chang 1956][research_chang_1956]
 - [Chang 1980][research_chang_1980]
-- [Chang 2021][research_chang_2021]
 - [Chang et al 1990][research_chang_fabrick_1990]
 - [Chang et al 1996][research_chang_huang_1996]
-- [Chang et al 2016][research_chang_lin_2016]
 - [Chang et al 2018][research_chang_gao_2018]
 - [Chang et al 2021][research_chang_yee_2021]
 - [Chang et al 2022][research_chang_huang_2022]
@@ -8254,7 +7570,6 @@ Of the four it is the only one that was ready.
 - [Chaplin 1957][research_chaplin_1957]
 - [Chappell 1984][research_chappell_1984]
 - [Charan and Tibrewal 2025][research_charan_tibrewal_2025]
-- [Charette and Marshall 1999][research_charette_marshall_1999]
 - [Chase 1979][research_chase_1979]
 - [Chaturvedi et al 2024][research_chaturvedi_dhangar_2024]
 - [Chaudhary et al 2025][research_chaudhary_bindra_2025]
@@ -8269,13 +7584,8 @@ Of the four it is the only one that was ready.
 - [Chen 2018][research_chen_2018]
 - [Chen 2019][research_chen_2019]
 - [Chen 2020][research_chen_2020]
-- [Chen 2021][research_chen_2021]
-- [Chen 2023][research_chen_2023]
 - [Chen 2025][research_chen_2025]
-- [Chen 2026][research_chen_2026]
 - [Chen and Boyd 2017][research_chen_boyd_2017]
-- [Chen and Chang 2018][research_chen_chang_2018]
-- [Chen and Cheng 2016][research_chen_cheng_2016]
 - [Chen and Gibbons 2022][research_chen_gibbons_2022]
 - [Chen and Gokcen 2015][research_chen_gokcen_2015]
 - [Chen and Gökçen 2024][research_chen_gokcen_2024]
@@ -8286,17 +7596,11 @@ Of the four it is the only one that was ready.
 - [Chen and Sakurahara 2025][research_chen_sakurahara_2025]
 - [Chen and Smith 2021][research_chen_smith_2021]
 - [Chen and Wu 2018][research_chen_wu_2018]
-- [Chen and Wu 2026][research_chen_wu_2026]
-- [Chen et al 1993][research_chen_dagless_1993]
 - [Chen et al 1993][research_chen_delichatsios_1993]
 - [Chen et al 2015][research_chen_liu_2015]
-- [Chen et al 2015][research_chen_peng_2015]
 - [Chen et al 2015][research_chen_xue_2015]
 - [Chen et al 2015][research_chen_zhao_2015]
-- [Chen et al 2016][research_chen_cowling_2016]
-- [Chen et al 2017][research_chen_levi_2017]
 - [Chen et al 2018][research_chen_mu_2018]
-- [Chen et al 2020][research_chen_plott_2020]
 - [Chen et al 2021][research_chen_luo_2021]
 - [Chen et al 2021][research_chen_lv_2021]
 - [Chen et al 2021][research_chen_rao_2021]
@@ -8323,7 +7627,6 @@ Of the four it is the only one that was ready.
 - [Cheng 1961][research_cheng_1961]
 - [Cheng and Chou 2017][research_cheng_chou_2017]
 - [Cheng and Farmer 2002][research_cheng_farmer_2002]
-- [Cheng and Lin 2023][research_cheng_lin_2023]
 - [Cheng and Wong 2023][research_cheng_wong_2023]
 - [Cheng et al 2021][research_cheng_jing_2021]
 - [Cheng et al 2023][research_cheng_huang_2023]
@@ -8380,19 +7683,15 @@ Of the four it is the only one that was ready.
 - [Christian et al 2023][research_christian_otani_2023]
 - [Christiansen and Lear 2015][research_christiansen_lear_2015]
 - [Christie 2026][research_christie_2026]
-- [Chu 2024][research_chu_2024]
 - [Chu et al 2015][research_chu_zhang_2015]
 - [Chu et al 2019][research_chu_yang_2019]
 - [Chu et al 2024][research_chu_ng_2024]
 - [Chu et al 2025][research_chu_li_2025]
-- [Chua et al 2024][research_chua_tan_2024]
 - [Chung et al 2025][research_chung_echigo_2025]
-- [Ciacco et al 2017][research_ciacco_rocha_2017]
 - [Cican et al 2023][research_cican_popa_2023]
 - [Cichon et al 2026][research_cichon_banko_2026]
 - [Cinquegrana et al 2017][research_cinquegrana_votta_2017]
 - [Citarella et al 2022][research_citarella_ferraiuolo_2022]
-- [Ciurej 2014][research_ciurej_2014]
 - [Civek and Özgören 2017][research_civek_ozgoren_2017]
 - [Clarke 2008][research_clarke_2008]
 - [Clausing 1969][research_clausing_1969]
@@ -8418,7 +7717,6 @@ Of the four it is the only one that was ready.
 - [Cockburn 1965][research_cockburn_1965]
 - [Cockrell, Charles 2008][research_cockrellcharles_2008]
 - [Cockrell, Charles E., Jr. et al 2007][research_cockrellcharlesejr_askinsbrucer_2007]
-- [Coffeen et al 2015][research_coffeen_williami_2015]
 - [Cohen 1980][research_cohen_1980]
 - [Cohen and Strand 1981][research_cohen_strand_1981]
 - [Cohen et al 1974][research_cohen_couch_1974]
@@ -8431,7 +7729,6 @@ Of the four it is the only one that was ready.
 - [Coleman et al 1968][research_coleman_hearne_1968]
 - [Coleman et al 1996][research_coleman_jolly_1996]
 - [Coley et al 2018][research_coley_seyedalavi_2018]
-- [Coll et al 2022][research_coll_stewart_2022]
 - [Collaborative Trajectory Options Program (CTOP) demonstration 2015][research_collaborative_trajectory_2015]
 - [Colombo et al 1994][research_colombo_galfetti_1994]
 - [Colombo, Oscar L. 1992][research_colombooscarl_1992]
@@ -8451,7 +7748,6 @@ Of the four it is the only one that was ready.
 - [Composite propellant combustion modeling with a porous plate burner 1976][research_composite_propellant_1976]
 - [Composite tank trials a success 2001][research_composite_tank_2001]
 - [Computational analysis of combustion in recirculating flow for rocket exhausts in supersonic streams 1981][research_computational_analysis_1981]
-- [Computer Modelling and Analysis of Polymer Composite Concrete Septic Tank 2016][research_computer_modelling_2016]
 - [Concio et al 2021][research_concio_dalessandro_2021]
 - [Concio et al 2023][research_concio_migliorino_2023]
 - [Condren et al 2024][research_condren_hermann_2024]
@@ -8483,7 +7779,6 @@ Of the four it is the only one that was ready.
 - [Corban et al 2004][research_corban_gilbert_2004]
 - [Corbetta 2020][research_corbetta_2020]
 - [Corda et al 2018][research_corda_longo_2018]
-- [Cordeiro et al 2025][research_cordeiro_feltrin_2025]
 - [Cordes and Hertzfeld 1997][research_cordes_hertzfeld_1997]
 - [Cork and Mulcahy 1977][research_cork_mulcahy_1977]
 - [Corke and Bowersox 2018][research_corke_bowersox_2018]
@@ -8499,10 +7794,7 @@ Of the four it is the only one that was ready.
 - [Cotton 1974][research_cotton_1974]
 - [Couch 1973][research_couch_1973]
 - [Coulbert 1963][research_coulbert_1963]
-- [Coupling Dynamic Model of Natural Environment Protection and Environmental Pollution Based on Machine Learning 2023][research_coupling_dynamic_2023]
 - [Covington and Vojvodich 1971][research_covington_vojvodich_1971]
-- [Covington et al 2004][research_covington_clewell_2004]
-- [Cowling 1995][research_cowling_1995]
 - [Cowling, Adam L. 2011][research_cowlingadaml_2011]
 - [Cox 1991][research_cox_1991]
 - [Cox et al 2022][research_cox_harris_2022]
@@ -8519,7 +7811,6 @@ Of the four it is the only one that was ready.
 - [Crisan et al 2026][research_crisan_moraru_2026]
 - [Crispo and Kim 2026][research_crispo_kim_2026]
 - [Crocco and Cheng 1953][research_crocco_cheng_1953]
-- [Croce 2019][research_croce_2019]
 - [Croce et al 2015][research_croce_rovenskaya_2015]
 - [Crocker and Peery 1998][research_crocker_peery_1998]
 - [Cronin 2013][research_cronin_2013]
@@ -8555,29 +7846,22 @@ Of the four it is the only one that was ready.
 - [Czysz and Little 1993][research_czysz_little_1993]
 - [D and Lise, i, M H N 1995][research_d_liseimhn_1995]
 - [D'Andrea 2008][research_dandrea_2008]
-- [D'Onofrio 1989][research_donofrio_1989]
 - [D'Souza and D'Souza 1997][research_dsouza_dsouza_1997]
 - [D'Souza et al 2022][research_dsouza_mcguire_2022]
 - [Da Soghe and Bianchini 2019][research_dasoghe_bianchini_2019]
 - [Dababneh et al 2025][research_dababneh_kipouros_2025]
-- [Dabbaghchian and Pakzad 2025][research_dabbaghchian_pakzad_2025]
-- [Dagnew 2022][research_dagnew_2022]
-- [Dahan et al 2022][research_dahan_sela_2022]
 - [Dahlem et al 1991][research_dahlem_gord_1991]
 - [Dahlene et al 1969][research_dahlene_martin_1969]
 - [Dai and Huang 2021][research_dai_huang_2021]
-- [Dai et al 2017][research_dai_li_2017]
 - [Dai et al 2017][research_dai_liu_2017]
 - [Dai et al 2025][research_dai_zhang_2025]
 - [Daily 1989][research_daily_1989]
 - [Daimon et al 2017][research_daimon_negishi_2017]
 - [Daines and Boyd 1977][research_daines_boyd_1977]
-- [Dalhatu et al 2022][research_dalhatu_saad_2022]
 - [Dalla Vecchia de Lima et al 2025][research_dallavecchiadelima_cavalheiro_2025]
 - [Dalle and Rogers 2015][research_dalle_rogers_2015]
 - [Dalle et al 2016][research_dalle_rogers_2016]
 - [Dalle et al 2023][research_dalle_rogers_2023]
-- [Dalmeijer and Spliet 2018][research_dalmeijer_spliet_2018]
 - [Damane and Pitot 2024][research_damane_pitot_2024]
 - [Damse and Singh 2000][research_damse_singh_2000]
 - [Dana-Bashian et al 2001][research_danabashian_hablani_2001]
@@ -8594,7 +7878,6 @@ Of the four it is the only one that was ready.
 - [Dasadhikari and Kuwamura 2023][research_dasadhikari_kuwamura_2023]
 - [Dash et al 2025][research_dash_barik_2025]
 - [Dastanian et al 2025][research_dastanian_mazaheri_2025]
-- [Davarzani and Ejaz 2024][research_davarzani_ejaz_2024]
 - [David L Iverson et al 2009][research_davidliverson_rodneyamartin_2009]
 - [David L Iverson et al 2009][research_davidliverson_rodneymartin_2009]
 - [David L Iverson et al 2012][research_davidliverson_rodneymartin_2012]
@@ -8606,7 +7889,6 @@ Of the four it is the only one that was ready.
 - [Davidson 2021][research_davidson_2021]
 - [Davies 1938][research_davies_1938]
 - [Davies and Park 1982][research_davies_park_1982]
-- [Davies and Reid 2021][research_davies_reid_2021]
 - [Daviller et al 2020][research_daviller_dombard_2020]
 - [Davis 1966][research_davis_1966]
 - [Davis 1968][research_davis_1968]
@@ -8644,7 +7926,6 @@ Of the four it is the only one that was ready.
 - [Dec, John A. et al 2011][research_decjohna_laubbernard_2011]
 - [Decadi and Dias 2022][research_decadi_dias_2022]
 - [Decker and Barbré 2015][research_decker_barbre_2015]
-- [DeCorla-Souza et al 2017][research_decorlasouza_lee_2017]
 - [Dees and Stockard 2023][research_dees_stockard_2023]
 - [Dees, Patrick D. et al 2015][research_deespatrickd_zwackmathewr_2015]
 - [Deets, Dwain A. et al 1988][research_deetsdwaina_lockwiltonp_1988]
@@ -8694,7 +7975,6 @@ Of the four it is the only one that was ready.
 - [Design concepts for low-cost composite engine frames 1986][research_design_concepts_1986]
 - [Design of an autonomous flight control system for imitation falcon flapping-wing aircraft 2022][research_design_of_an_2022]
 - [Design of Low-cost Smart Accelerometers 2004][research_design_of_2004]
-- [Design of Vehicle Defect Risk Assessment System Based on Multi-source Information Fusion 2018][research_design_of_2018]
 - [Deslandes and Seifert 2000][research_deslandes_seifert_2000]
 - [Desmedt 2002][research_desmedt_2002]
 - [Desnoyer 1987][research_desnoyer_1987]
@@ -8706,7 +7986,6 @@ Of the four it is the only one that was ready.
 - [Devadoss 1985][research_devadoss_1985]
 - [Development and implementation of a low-cost computer data acquisition system for structural analysis 1990][research_development_and_1990]
 - [Development and Prospect of Air Launch Vehicle 2004][research_development_and_2004]
-- [Development and Validation of Stability Indicating HPTLC Method for Estimation of Seratrodast 2016][research_development_and_2016]
 - [Development of a Differential Model for Cooling an Lpre Chamber by an Incompressible Fluid 2024][research_development_of_a_2024]
 - [Development of a large scale Chimera grid system for the Space Shuttle Launch Vehicle 1993][research_development_of_1993]
 - [Development of algorithmic support for detecting an aircraft carrier using machine vision technology for automatic landing of UAV 2022][research_development_of_2022]
@@ -8731,7 +8010,6 @@ Of the four it is the only one that was ready.
 - [Diegel et al 2020][research_diegel_schutte_2020]
 - [Diffusion bonded columbium panels for the shuttle heat shield 1973][research_diffusion_bonded_1973]
 - [Digges 1971][research_digges_1971]
-- [DIGITAL VEHICLE MANAGEMENT SYSTEM MOTORHUB 2026][research_digital_vehicle_2026]
 - [Digumarthi and Chang 1984][research_digumarthi_chang_1984]
 - [Dijkstra et al 1995][research_dijkstra_mayer_1995]
 - [Dileep et al 2019][research_dileep_umesh_2019]
@@ -8746,13 +8024,11 @@ Of the four it is the only one that was ready.
 - [Dineshkumar et al 2021][research_dineshkumar_gowrishankar_2021]
 - [Ding and Ziviani 2026][research_ding_ziviani_2026]
 - [Ding et al 2019][research_ding_liu_2019]
-- [Ding et al 2023][research_ding_duan_2023]
 - [Ding et al 2023][research_ding_liu_2023]
 - [Dinh and Trifoni 2023][research_dinh_trifoni_2023]
 - [Diodati et al 2023][research_diodati_sorrentino_2023]
 - [Dion 1992][research_dion_1992]
 - [Dire et al 1986][research_dire_franks_1986]
-- [Direct drive laser fusion targets with a porous ablator 2026][research_direct_drive_laser_2026]
 - [Direct numerical simulations of hypersonic boundary layer transition over a hypersonic transition research vehicle model lifting body at different angles of attack 2023][research_direct_numerical_2023]
 - [Divo et al 1998][research_divo_kassab_1998]
 - [Djeffal et al 2024][research_djeffal_benamara_2024]
@@ -8767,14 +8043,11 @@ Of the four it is the only one that was ready.
 - [Dolan 1970][research_dolan_1970]
 - [Dolgih 2025][research_dolgih_2025]
 - [Doman 2004][research_doman_2004]
-- [Domin et al 2019][research_domin_kielan_2019]
 - [Dominguez Calabuig et al 2024][research_dominguezcalabuig_wilson_2024]
-- [Domino 2021][research_domino_2021]
 - [Don, J. P. and Phen, R. L. 1971][research_donjp_phenrl_1971]
 - [Donahue 1997][research_donahue_1997]
 - [Donat 1993][research_donat_1993]
 - [Donegan and Fox 1991][research_donegan_fox_1991]
-- [Dong and Frangopol 2015][research_dong_frangopol_2015]
 - [Dong and Li 2021][research_dong_li_2021_b]
 - [Dong et al 2019][research_dong_sun_2019]
 - [Dong et al 2020][research_dong_tang_2020]
@@ -8784,7 +8057,6 @@ Of the four it is the only one that was ready.
 - [Dong et al 2025][research_dong_fang_2025]
 - [Dong et al 2025][research_dong_jiang_2025]
 - [Doniger 1967][research_doniger_1967]
-- [Donoghue 2023][research_donoghue_2023]
 - [Donohue, Jim and Fletcher, Doug 1996][research_donohuejim_fletcherdoug_1996]
 - [Dorrell et al 2024][research_dorrell_earnhart_2024]
 - [Dorrington 1987][research_dorrington_1987]
@@ -8822,7 +8094,6 @@ Of the four it is the only one that was ready.
 - [Duan et al 2026][research_duan_zhao_2026]
 - [Dubois et al 1995][research_dubois_habiballah_1995]
 - [Ducret et al 1996][research_ducret_arnaud_1996]
-- [Ducruet and Itoh 2022][research_ducruet_itoh_2022]
 - [Dudareva 2025][research_dudareva_2025]
 - [Dudley et al 1992][research_dudley_thonet_1992]
 - [Duggleby et al 2025][research_duggleby_walter_2025]
@@ -8848,14 +8119,11 @@ Of the four it is the only one that was ready.
 - [Dziopa and Koruba 2015][research_dziopa_koruba_2015]
 - [Dziubek et al 2026][research_dziubek_budzik_2026]
 - [Dzodzo 2022][research_dzodzo_2022]
-- [Dârmon 2017][research_darmon_2017]
 - [Džambas et al 2021][research_dzambas_dragcevic_2021]
 - [D’Alessandro et al 2021][research_dalessandro_pizzarelli_2021]
 - [D’Couto and Babu 1994][research_dcouto_babu_1994]
 - [D’Souza et al 2022][research_dsouza_ravichandran_2022]
 - [Earl 1984][research_earl_1984]
-- [Earle 1999][research_earle_1999]
-- [Earle 2001][research_earle_2001]
 - [Easley et al 2019][research_easley_young_2019]
 - [Eaton and Mathias 2000][research_eaton_mathias_2000]
 - [Eberhart et al 2016][research_eberhart_loehle_2016]
@@ -8863,7 +8131,6 @@ Of the four it is the only one that was ready.
 - [Ebrahimi et al 1998][research_ebrahimi_levine_1998]
 - [Eckert and Goldstein 1982][research_eckert_goldstein_1982]
 - [Ederouich et al 2021][research_ederouich_essahraoui_2021]
-- [Ediz et al 2017][research_ediz_tatar_2017]
 - [Edquist, Karl T. 2006][research_edquistkarlt_2006]
 - [Edwards 1987][research_edwards_1987]
 - [Edwards 2019][research_edwards_2019]
@@ -8885,8 +8152,6 @@ Of the four it is the only one that was ready.
 - [Ehlers et al 2021][research_ehlers_tatzko_2021]
 - [Ekimogloy et al 2026][research_ekimogloy_stelk_2026]
 - [Eklund 2004][research_eklund_2004]
-- [Ekman et al 2020][research_ekman_dahlberg_2020]
-- [El-Amin and El-Beltagy 2021][research_elamin_elbeltagy_2021]
 - [Electrodeposition Forms Rocket Nozzle Coating 1961][research_electrodeposition_forms_1961]
 - [Elegante and Bowman 1978][research_elegante_bowman_1978]
 - [Elias and Gordon 1952][research_elias_gordon_1952]
@@ -8902,7 +8167,6 @@ Of the four it is the only one that was ready.
 - [Elston 1963][research_elston_1963]
 - [Elvin 1996][research_elvin_1996]
 - [Emdee 2001][research_emdee_2001]
-- [Emelogu et al 2016][research_emelogu_marufuzzaman_2016]
 - [Emidio et al 1998][research_emidio_grienche_1998]
 - [Emma and Pernicka 2003][research_emma_pernicka_2003]
 - [Emory 2022][research_emory_2022]
@@ -8925,16 +8189,13 @@ Of the four it is the only one that was ready.
 - [Erickson 1993][research_erickson_1993]
 - [Erickson, Gary E. 2020][research_ericksongarye_2020]
 - [Ericsson 1995][research_ericsson_1995]
-- [Erkalkan and Polat 2026][research_erkalkan_polat_2026]
 - [Ermakova and Mehmanparast 2022][research_ermakova_mehmanparast_2022]
 - [Erol and Ünsal 2026][research_erol_unsal_2026]
 - [Erol and Ünsal 2026][research_erol_unsal_2026_b]
 - [Ertugrul 2024][research_ertugrul_2024]
-- [Escalona et al 2023][research_escalona_brotcorne_2023]
 - [Escartí-Guillem et al 2022][research_escartiguillem_garciaraffi_2022]
 - [ESDU release VGK program for aerofoil sections 1998][research_esdu_release_1998]
 - [Esiyok and Candarli 2018][research_esiyok_candarli_2018]
-- [Eskay et al 1996][research_eskay_britt_1996]
 - [Eskue 2023][research_eskue_2023]
 - [Esposito and Lappa 2026][research_esposito_lappa_2026]
 - [Estey et al 1983][research_estey_lewis_1983]
@@ -8950,7 +8211,6 @@ Of the four it is the only one that was ready.
 - [Everline, Chester et al 2008][research_everlinechester_clarkkarla_2008]
 - [Ewald and Sarkady 1966][research_ewald_sarkady_1966]
 - [Excelco Developments Inc Silver Creek Ny 1963][research_excelcodevelopmentsincsilvercreekny_1963]
-- [Exploration of Textures on Tree Barks as a Medium for Decorating Ceramic Tile Murals 2022][research_exploration_of_2022]
 - [Ezhilarasu et al 2019][research_ezhilarasu_skaf_2019]
 - [Fabig and Winter 2018][research_fabig_winter_2018]
 - [Fabrin and Ferrari 2021][research_fabrin_ferrari_2021]
@@ -8962,13 +8222,10 @@ Of the four it is the only one that was ready.
 - [Fajraoui et al 2017][research_fajraoui_marelli_2017]
 - [Fan 2015][research_fan_2015]
 - [Fan and Cheung 1996][research_fan_cheung_1996]
-- [Fan et al 2021][research_fan_zhang_2021]
 - [Fan et al 2024][research_fan_fan_2024]
 - [Fang 1984][research_fang_1984]
 - [Fanqi et al 2023][research_fanqi_bianjiang_2023]
 - [Farag et al 2025][research_farag_chandran_2025]
-- [Farhangdoust and Mehrabi 2019][research_farhangdoust_mehrabi_2019]
-- [Faria and Holanda 2015][research_faria_holanda_2015]
 - [Farmer 1970][research_farmer_1970]
 - [Farmer, R. C. et al 1996][research_farmerrc_andersonpg_1996]
 - [Farmer, Richard C. et al 1998][research_farmerrichardc_chenggaryc_1998]
@@ -8998,7 +8255,6 @@ Of the four it is the only one that was ready.
 - [Feng et al 2016][research_feng_liang_2016]
 - [Feng et al 2019][research_feng_zhang_2019]
 - [Feng et al 2020][research_feng_zhang_2020]
-- [Feng et al 2024][research_feng_niazadeh_2024]
 - [Feng et al 2024][research_feng_shi_2024]
 - [Feng et al 2026][research_feng_zheng_2026]
 - [Fenwick 1966][research_fenwick_1966]
@@ -9009,12 +8265,9 @@ Of the four it is the only one that was ready.
 - [Fernandes et al 2019][research_fernandes_silva_2019]
 - [Fernandez et al 2018][research_fernandez_riddlebaugh_2018]
 - [Fernando 2017][research_fernando_2017]
-- [Fernández-Novales et al 2023][research_fernandeznovales_barrio_2023]
 - [Ferraiuolo et al 2023][research_ferraiuolo_giannella_2023]
 - [Ferrandon 1997][research_ferrandon_1997]
 - [Ferreira and Dourado 2018][research_ferreira_dourado_2018]
-- [Ferreira et al 2020][research_ferreira_lima_2020]
-- [Ferreira et al 2025][research_ferreira_crapnell_2025]
 - [Ferrell, Bob et al 2004][research_ferrellbob_santurosteve_2004]
 - [Ferrero and Pastrone 2019][research_ferrero_pastrone_2019]
 - [Fidkowski 2022][research_fidkowski_2022]
@@ -9030,7 +8283,6 @@ Of the four it is the only one that was ready.
 - [Fio Rito 1964][research_fiorito_1964]
 - [Fiore et al 2024][research_fiore_barbato_2024]
 - [Fiore et al 2025][research_fiore_nasuti_2025]
-- [Firoozabadi et al 2026][research_firoozabadi_nateghi_2026]
 - [Firsyuk et al 2025][research_firsyuk_ermakov_2025]
 - [Fischer 1981][research_fischer_1981]
 - [Fischer and Fasoulas 2024][research_fischer_fasoulas_2024]
@@ -9048,14 +8300,12 @@ Of the four it is the only one that was ready.
 - [Fleurotte et al 2022][research_fleurotte_authier_2022]
 - [Flittie and Mcfarlane 1991][research_flittie_mcfarlane_1991]
 - [Flittie et al 1992][research_flittie_estey_1992]
-- [Florez and Gildin 2019][research_florez_gildin_2019]
 - [Flow Simulation over a Bulbous Heat Shield of a Typical Launch Vehicle 2019][research_flow_simulation_2019]
 - [Flying Controls and Automatic Landing 1963][research_flying_controls_1963]
 - [Fodor 2017][research_fodor_2017]
 - [Fohring and Haber 2016][research_fohring_haber_2016]
 - [Fong 1964][research_fong_1964]
 - [Fong et al 1964][research_fong_lovine_1964]
-- [Fors 2017][research_fors_2017]
 - [Fortenbaugh 1972][research_fortenbaugh_1972]
 - [Fortner et al 2022][research_fortner_maddox_2022]
 - [Fortner et al 2022][research_fortner_maddox_2022_b]
@@ -9074,7 +8324,6 @@ Of the four it is the only one that was ready.
 - [Franken et al 1958][research_franken_kerwin_1958]
 - [Franklin 1995][research_franklin_1995]
 - [Franklin and Tinsley 1970][research_franklin_tinsley_1970]
-- [Franklin et al 2023][research_franklin_mcguire_2023]
 - [Fredericks and Shorr 1972][research_fredericks_shorr_1972]
 - [Freeman et al 1996][research_freeman_talay_1996]
 - [Freeman et al 1997][research_freeman_talay_1997]
@@ -9088,21 +8337,17 @@ Of the four it is the only one that was ready.
 - [Friedland 1965][research_friedland_1965]
 - [Friedman 1953][research_friedman_1953]
 - [Friedman et al 1967][research_friedman_hines_1967]
-- [Frignani 2021][research_frignani_2021]
 - [Fritz et al 2017][research_fritz_huebsch_2017]
 - [Friz et al 2018][research_friz_samareh_2018]
 - [Friz et al 2022][research_friz_tiffin_2022]
 - [Froehkle et al 1998][research_froehkle_haidn_1998]
-- [Frohman and Ledder 1993][research_frohman_ledder_1993]
 - [Fu and Martin 2023][research_fu_martin_2023]
-- [Fu et al 2017][research_fu_jenelius_2017]
 - [Fu et al 2019][research_fu_liang_2019]
 - [Fu et al 2019][research_fu_setters_2019]
 - [Fu et al 2020][research_fu_mcdaniel_2020]
 - [Fu et al 2021][research_fu_bose_2021]
 - [Fu et al 2021][research_fu_mcdaniel_2021]
 - [Fu et al 2021][research_fu_wang_2021]
-- [Fu et al 2022][research_fu_stollenwerk_2022]
 - [Fu et al 2026][research_fu_hu_2026]
 - [Fuchs et al 2018][research_fuchs_haskell_2018]
 - [Fuchs, A. J. 1980][research_fuchsaj_1980]
@@ -9110,7 +8355,6 @@ Of the four it is the only one that was ready.
 - [Fujimori et al 2000][research_fujimori_kurozumi_2000]
 - [Fujio and Ogawa 2024][research_fujio_ogawa_2024]
 - [Fujio and Taguchi 2026][research_fujio_taguchi_2026]
-- [Fujita 1997][research_fujita_1997]
 - [Fujita et al 2015][research_fujita_suzuki_2015]
 - [Fuller 1973][research_fuller_1973]
 - [Fullerton, C. G. 1975][research_fullertoncg_1975]
@@ -9119,7 +8363,6 @@ Of the four it is the only one that was ready.
 - [Funatsu and Hiroyuki 2001][research_funatsu_hiroyuki_2001]
 - [Funazaki et al 2020][research_funazaki_iwaguchi_2020]
 - [Functional redundancy assures greater system reliability 1973][research_functional_redundancy_1973]
-- [Funfschilling and Perrin 2019][research_funfschilling_perrin_2019]
 - [Furlong et al 2025][research_furlong_zhao_2025]
 - [Fuse 2025][research_fuse_2025]
 - [Fusselman et al 2019][research_fusselman_goyal_2019]
@@ -9128,12 +8371,10 @@ Of the four it is the only one that was ready.
 - [G P Szatkowski and Barry E Levin 1991][research_gpszatkowski_barryelevin_1991]
 - [G. C. Sclippa et al 1999][research_gcsclippa_llbaxter_1999]
 - [Gade and Inman 1998][research_gade_inman_1998]
-- [Gadgil 1980][research_gadgil_1980]
 - [Gadhvi and Shankar 2023][research_gadhvi_shankar_2023]
 - [Gage and Vander Kam 2003][research_gage_vanderkam_2003]
 - [Gage, Peter et al 2019][research_gagepeter_mahzarimilad_2019]
 - [Gagliano et al 2016][research_gagliano_nocera_2016]
-- [Gagnon et al 2025][research_gagnon_leroux_2025]
 - [Gai and Cao 2025][research_gai_cao_2025]
 - [Gai and Curry 1977][research_gai_curry_1977]
 - [Gainer 1963][research_gainer_1963]
@@ -9144,7 +8385,6 @@ Of the four it is the only one that was ready.
 - [Gallo et al 2023][research_gallo_kamps_2023]
 - [Galvez et al 2020][research_galvez_wright_2020]
 - [Gamble and Jenkins 2001][research_gamble_jenkins_2001]
-- [Gamble et al 2025][research_gamble_trombley_2025]
 - [Gandge and Hampali 2022][research_gandge_hampali_2022]
 - [Gangeh et al 2023][research_gangeh_bui_2023]
 - [Ganilova et al 2022][research_ganilova_cartmell_2022]
@@ -9168,7 +8408,6 @@ Of the four it is the only one that was ready.
 - [Garcia-Pardo et al 2001][research_garciapardo_sukhatme_2001]
 - [Garcia-Pardo et al 2002][research_garciapardo_sukhatme_2002]
 - [Garegnani et al 2024][research_garegnani_avancini_2024]
-- [Garg and Platin 1973][research_garg_platin_1973]
 - [Garg et al 2022][research_garg_abraham_2022]
 - [Garimella and Nenaydykh 1996][research_garimella_nenaydykh_1996]
 - [Garwol 2024][research_garwol_2024]
@@ -9183,7 +8422,6 @@ Of the four it is the only one that was ready.
 - [Gawron et al 2023][research_gawron_wendt_2023]
 - [Gaynor and Cervisi 1984][research_gaynor_cervisi_1984]
 - [Gaynor and Johnson 2020][research_gaynor_johnson_2020]
-- [Gbadamosi and Adenigbo 2017][research_gbadamosi_adenigbo_2017]
 - [Ge et al 2022][research_ge_yuan_2022]
 - [Gebman 1989][research_gebman_1989]
 - [Gee et al 2025][research_gee_kellison_2025]
@@ -9201,25 +8439,20 @@ Of the four it is the only one that was ready.
 - [Georgieva 2026][research_georgieva_2026]
 - [Gerling et al 2024][research_gerling_dresia_2024]
 - [Gettatelli et al 2023][research_gettatelli_benedikter_2023]
-- [Gharibi and Mostofinejad 2023][research_gharibi_mostofinejad_2023]
 - [Ghenaiet 2024][research_ghenaiet_2024]
 - [Ghori et al 2022][research_ghori_khamvilai_2022]
 - [Ghosh and Chattopadhyay 2015][research_ghosh_chattopadhyay_2015]
-- [Ghosh and Du 2024][research_ghosh_du_2024]
 - [Ghosh and Gunasekaran 2021][research_ghosh_gunasekaran_2021]
 - [Ghosh et al 2023][research_ghosh_rao_2023]
-- [Giacomelli and Passalacqua 2024][research_giacomelli_passalacqua_2024]
 - [Giambelli et al 2026][research_giambelli_calo_2026]
 - [Giardini, A. A. 1986][research_giardiniaa_1986]
 - [Gibart et al 2024][research_gibart_pietlahanier_2024]
-- [Gibbs et al 2022][research_gibbs_reynolds_2022]
 - [Gibson 1985][research_gibson_1985]
 - [Gijón-Rivera et al 2017][research_gijonrivera_xaman_2017]
 - [Gilligan et al 1989][research_gilligan_hahn_1989]
 - [Gilliland et al 1966][research_gilliland_maurice_1966]
 - [Giurgiutiu and Lin 2004][research_giurgiutiu_lin_2004]
 - [Glaser 1996][research_glaser_1996]
-- [Glazkov et al 2023][research_glazkov_chupshev_2023]
 - [Gleadall 2021][research_gleadall_2021]
 - [Glick 1974][research_glick_1974]
 - [Glick 1976][research_glick_1976]
@@ -9249,9 +8482,7 @@ Of the four it is the only one that was ready.
 - [Gong et al 2018][research_gong_wang_2018]
 - [Gong et al 2022][research_gong_wang_2022]
 - [Gonzalez and Marks 1977][research_gonzalez_marks_1977]
-- [Gonzalez-Sacristan et al 2016][research_gonzalezsacristan_garciasaura_2016]
 - [Gonçalves et al 2024][research_goncalves_arteiro_2024]
-- [Goodrick et al 2021][research_goodrick_butler_2021]
 - [Gorbach et al 1988][research_gorbach_sidoruk_1988]
 - [Gordon 1950][research_gordon_1950]
 - [Gordon 1992][research_gordon_1992]
@@ -9262,7 +8493,6 @@ Of the four it is the only one that was ready.
 - [Gorodetsky and Marzouk 2016][research_gorodetsky_marzouk_2016]
 - [Gosma et al 2022][research_gosma_harper_2022]
 - [Gosma et al 2023][research_gosma_harper_2023]
-- [Gosney 2021][research_gosney_2021]
 - [Gostintsev et al 1972][research_gostintsev_sukhanov_1972]
 - [Gothard and Granlund 2022][research_gothard_granlund_2022]
 - [Gotzig 2015][research_gotzig_2015]
@@ -9275,7 +8505,6 @@ Of the four it is the only one that was ready.
 - [Gowariker 1966][research_gowariker_1966]
 - [Gowing 2003][research_gowing_2003]
 - [Goyal et al 2021][research_goyal_babuska_2021]
-- [Goyal et al 2025][research_goyal_iyengar_2025]
 - [Goyal et al 2026][research_goyal_goodman_2026]
 - [Graber, E. J., Jr. and Clark, J. S. 1972][research_graberejjr_clarkjs_1972]
 - [Grabow et al 1976][research_grabow_smallwood_1976]
@@ -9291,7 +8520,6 @@ Of the four it is the only one that was ready.
 - [Gradl, Paul R. et al 2019][research_gradlpaulr_protzchristophers_2019]
 - [Graham and Hoffman 1999][research_graham_hoffman_1999]
 - [Gramola et al 2022][research_gramola_bruce_2022]
-- [Grantner et al 2010][research_grantner_bazuin_2010]
 - [Graves et al 1989][research_graves_fonnesbeck_1989]
 - [Graziani and Ngom 2024][research_graziani_ngom_2024]
 - [Greaves 1997][research_greaves_1997]
@@ -9302,7 +8530,6 @@ Of the four it is the only one that was ready.
 - [Green et al 1993][research_green_sasiadek_1993]
 - [Green, Jr. 1963][research_greenjr_1963]
 - [Green, M. J. and Davy, W. C. 1981][research_greenmj_davywc_1981]
-- [Greenberg 2016][research_greenberg_2016]
 - [Greenberg, H. S. 1994][research_greenberghs_1994]
 - [Greenberg, H. S. 1994][research_greenberghs_1994_b]
 - [Greenberg, Harry Stan 1993][research_greenbergharrystan_1993]
@@ -9314,7 +8541,6 @@ Of the four it is the only one that was ready.
 - [Gregory and Wilcox 1970][research_gregory_wilcox_1970]
 - [Gregory et al 1971][research_gregory_williams_1971]
 - [Gregory K Noffz and Michael P Bowman 1996][research_gregoryknoffz_michaelpbowman_1996]
-- [Greneker 1998][research_greneker_1998]
 - [Grey 1953][research_grey_1953]
 - [Grey 1954][research_grey_1954]
 - [Griffin, Lisa W. et al 1999][research_griffinlisaw_hudsonsusant_1999]
@@ -9325,7 +8551,6 @@ Of the four it is the only one that was ready.
 - [Gros 1963][research_gros_1963]
 - [Grossi et al 2024][research_grossi_sereno_2024]
 - [Grossir et al 2015][research_grossir_masutti_2015]
-- [Grotli et al 2017][research_grotli_bjerkeng_2017]
 - [Gro¨nstedt and Pilidis 2000][research_gronstedt_pilidis_2000]
 - [Großmann et al 2020][research_grossmann_weis_2020]
 - [Grubelich et al 1993][research_grubelich_rowland_1993]
@@ -9346,7 +8571,6 @@ Of the four it is the only one that was ready.
 - [Guiliano 1999][research_guiliano_1999]
 - [Guimond et al 2015][research_guimond_ni_2015]
 - [Guinivan 2004][research_guinivan_2004]
-- [Guizzo et al 2026][research_guizzo_hansen_2026]
 - [Gujral and Emdee 2016][research_gujral_emdee_2016]
 - [Gulczynski et al 2023][research_gulczynski_riccius_2023]
 - [Gulczyński et al 2024][research_gulczynski_hahn_2024]
@@ -9354,7 +8578,6 @@ Of the four it is the only one that was ready.
 - [Gulick and Edquist 1998][research_gulick_edquist_1998]
 - [Gulli and Maddalena 2015][research_gulli_maddalena_2015]
 - [Gulliver et al 2017][research_gulliver_lemon_2017]
-- [Gulzar et al 2024][research_gulzar_urrehman_2024]
 - [Gummadidala et al 2025][research_gummadidala_krishna_2025]
 - [Gundersen 2001][research_gundersen_2001]
 - [Gunn and Hundal 1994][research_gunn_hundal_1994]
@@ -9372,7 +8595,6 @@ Of the four it is the only one that was ready.
 - [Guo et al 2025][research_guo_meng_2025]
 - [Guo et al 2025][research_guo_wang_2025]
 - [Guo et al 2026][research_guo_han_2026]
-- [Gupta and Dixit 2025][research_gupta_dixit_2025]
 - [Gupta and Mishra 2024][research_gupta_mishra_2024]
 - [Gupta and Ramkumar 2015][research_gupta_ramkumar_2015]
 - [Gupta et al 2018][research_gupta_anilkumar_2018]
@@ -9381,18 +8603,13 @@ Of the four it is the only one that was ready.
 - [Guruprasad and Mayilvaganan 2023][research_guruprasad_mayilvaganan_2023]
 - [Gut et al 2025][research_gut_parzybut_2025]
 - [Guzanek and Borucka 2026][research_guzanek_borucka_2026]
-- [Guzman et al 2020][research_guzman_chen_2020]
-- [Guzman et al 2023][research_guzman_chen_2023]
 - [Gyftos et al 2026][research_gyftos_sioutis_2026]
-- [Gómez-Ramírez 2020][research_gomezramirez_2020]
 - [Gülgönül and Sözbir 2018][research_gulgonul_sozbir_2018]
 - [Günsel et al 2025][research_gunsel_engin_2025]
 - [Głębocki and Jacewicz 2020][research_glebocki_jacewicz_2020]
 - [H. W. Eklund 2021][research_hweklund_2021]
-- [Ha and Jeon 2026][research_ha_jeon_2026]
 - [Ha et al 2020][research_ha_roh_2020]
 - [Haber et al 2022][research_haber_draganov_2022]
-- [Habibi et al 2024][research_habibi_nugraha_2024]
 - [Hader and Fasel 2021][research_hader_fasel_2021]
 - [Hader and Fasel 2024][research_hader_fasel_2024]
 - [Hader et al 2020][research_hader_leinemann_2020]
@@ -9406,14 +8623,12 @@ Of the four it is the only one that was ready.
 - [Hagopian 2002][research_hagopian_2002]
 - [Hahn 1964][research_hahn_1964]
 - [Hahne, David E. 1997][research_hahnedavide_1997]
-- [Haile and Adem 2024][research_haile_adem_2024]
 - [Hajar et al 2025][research_hajar_methot_2025]
 - [Hajiyev and Cilden Guler 2023][research_hajiyev_cildenguler_2023]
 - [Hale 1963][research_hale_1963]
 - [Hale 1963][research_hale_1963_b]
 - [Hale 2018][research_hale_2018]
 - [Hale, Joseph P. 1997][research_halejosephp_1997]
-- [Hall 1979][research_hall_1979]
 - [Hall, Edward J. et al 1994][research_halledwardj_toppdavida_1994]
 - [Hall, William B. 1988][research_hallwilliamb_1988]
 - [Halladay and Hodge 1903][research_halladay_hodge_1903]
@@ -9423,40 +8638,29 @@ Of the four it is the only one that was ready.
 - [Hamid and MacDermott 2015][research_hamid_macdermott_2015]
 - [Hamid et al 2025][research_hamid_ash_2025]
 - [Hammond et al 1970][research_hammond_hryhorciw_1970]
-- [Hampson 2021][research_hampson_2021]
 - [Hamza et al 2023][research_hamza_tezbasaran_2023]
-- [Han 2022][research_han_2022]
 - [Han and Cao 2019][research_han_cao_2019]
 - [Han and Lu 2018][research_han_lu_2018]
-- [Han et al 2018][research_han_liu_2018]
 - [Han et al 2019][research_han_park_2019]
-- [Han et al 2019][research_han_ren_2019]
 - [Han et al 2021][research_han_cho_2021]
 - [Han et al 2024][research_han_xiang_2024]
-- [Han et al 2025][research_han_liu_2025]
-- [Han et al 2026][research_han_hu_2026]
 - [Han et al 2026][research_han_huang_2026]
 - [Han et al 2026][research_han_xu_2026]
 - [Hanc et al 2022][research_hanc_jones_2022]
-- [Handaya et al 2022][research_handaya_marimin_2022]
-- [Handayani et al 2025][research_handayani_jauhari_2025]
 - [Hanks and Frecker 2019][research_hanks_frecker_2019]
 - [Hanlon 2016][research_hanlon_2016]
 - [Hannah and Muessig 1970][research_hannah_muessig_1970]
-- [Hansen and Grunow 2015][research_hansen_grunow_2015]
 - [Hanson et al 1998][research_hanson_coughlin_1998]
 - [Hanson et al 2015][research_hanson_miller_2015]
 - [Hao and Zhang 2021][research_hao_zhang_2021]
 - [Hao et al 2017][research_hao_peng_2017]
 - [Hao et al 2017][research_hao_yan_2017]
 - [Hao et al 2020][research_hao_lundblad_2020]
-- [Hao et al 2023][research_hao_liu_2023]
 - [Haouari et al 2017][research_haouari_rochus_2017]
 - [Hara et al 2024][research_hara_mamashita_2024]
 - [Harayama et al 1983][research_harayama_saito_1983]
 - [Hardesty 1970][research_hardesty_1970]
 - [Hardgrove and Krieg, Jr. 1984][research_hardgrove_kriegjr_1984]
-- [Hardy 1997][research_hardy_1997]
 - [Hardy et al 1993][research_hardy_eldrenkamp_1993]
 - [Hargus et al 2018][research_hargus_schumaker_2018]
 - [Harikrishnan and Lokavarapu 2021][research_harikrishnan_lokavarapu_2021]
@@ -9479,18 +8683,14 @@ Of the four it is the only one that was ready.
 - [Hart and McClure 1965][research_hart_mcclure_1965]
 - [Hartman and Stallings 1982][research_hartman_stallings_1982]
 - [Hartung 1963][research_hartung_1963]
-- [Hartung 2024][research_hartung_2024]
 - [Harvazinski and Houba 2022][research_harvazinski_houba_2022]
 - [Harvazinski and Houba 2023][research_harvazinski_houba_2023]
 - [Harvazinski et al 2014][research_harvazinski_sankaran_2014]
 - [Harvazinski et al 2024][research_harvazinski_mehta_2024]
-- [Harvey and Bauer 1997][research_harvey_bauer_1997]
 - [Hasan 2022][research_hasan_2022]
-- [Hasan and Anwar 2016][research_hasan_anwar_2016]
 - [Hasan et al 2018][research_hasan_rashmi_2018]
 - [Hasani et al 2017][research_hasani_roshanian_2017]
 - [Hasegawa and Yoshioka 2019][research_hasegawa_yoshioka_2019]
-- [Hashimoto and Yanagisawa 2019][research_hashimoto_yanagisawa_2019]
 - [Hassan 1965][research_hassan_1965]
 - [Hassan et al 2024][research_hassan_amin_2024]
 - [Hassanzadeh and Ashrafi 2025][research_hassanzadeh_ashrafi_2025]
@@ -9508,7 +8708,6 @@ Of the four it is the only one that was ready.
 - [Hayashi et al 2025][research_hayashi_yamasaki_2025]
 - [Hayre et al 1992][research_hayre_dull_1992]
 - [Hays, Zane B. et al 2020][research_hayszaneb_yountbryanc_2020]
-- [he and Hao 2022][research_he_hao_2022]
 - [He and Liu 2018][research_he_liu_2018]
 - [He and Wu 2022][research_he_wu_2022]
 - [He and Zhou 1992][research_he_zhou_1992]
@@ -9516,7 +8715,6 @@ Of the four it is the only one that was ready.
 - [He et al 2019][research_he_wang_2019]
 - [He et al 2022][research_he_dong_2022]
 - [He et al 2023][research_he_jiao_2023]
-- [He et al 2024][research_he_chang_2024]
 - [He et al 2024][research_he_xu_2024]
 - [He et al 2025][research_he_di_2025]
 - [He et al 2025][research_he_guo_2025]
@@ -9528,7 +8726,6 @@ Of the four it is the only one that was ready.
 - [Heat shield delivery 2001][research_heat_shield_2001]
 - [Heathman et al 1970][research_heathman_fujimoto_1970]
 - [Heatwole, Scott and Lanzi, Raymond J. 2010][research_heatwolescott_lanziraymondj_2010]
-- [Hedayati et al 2026][research_hedayati_devuyst_2026]
 - [Heeg et al 2020][research_heeg_kilzer_2020]
 - [Heflin, J. et al 2000][research_heflinj_koelblm_2000]
 - [Hegab and Kassoy 2001][research_hegab_kassoy_2001]
@@ -9544,7 +8741,6 @@ Of the four it is the only one that was ready.
 - [Henderson and Tant 1983][research_henderson_tant_1983]
 - [Henderson et al 1981][research_henderson_tant_1981]
 - [Hendrick and Horn 2024][research_hendrick_horn_2024]
-- [Hendricks 2001][research_hendricks_2001]
 - [Hendrickson et al 2020][research_hendrickson_kazarians_2020]
 - [Henline, William et al 1996][research_henlinewilliam_olynickdavid_1996]
 - [Henry and McLELLAN 1971][research_henry_mclellan_1971]
@@ -9558,7 +8754,6 @@ Of the four it is the only one that was ready.
 - [Herman, Daniel A. et al 2015][research_hermandaniela_santiagowalter_2015]
 - [Hermance 1967][research_hermance_1967]
 - [Hermsen 1981][research_hermsen_1981]
-- [Hernandez and Gmachl 2024][research_hernandez_gmachl_2024]
 - [Hernandez et al 2019][research_hernandez_palacios_2019]
 - [Hernandez-McCloskey et al 2023][research_hernandezmccloskey_pineda_2023]
 - [Herold and Boelts 2025][research_herold_boelts_2025]
@@ -9598,7 +8793,6 @@ Of the four it is the only one that was ready.
 - [Hoang et al 2025][research_hoang_espath_2025]
 - [Hochstetler et al 2016][research_hochstetler_bosma_2016]
 - [Hodge and Taylor 1991][research_hodge_taylor_1991]
-- [Hodges et al 2024][research_hodges_salvi_2024]
 - [Hodson et al 2017][research_hodson_munk_2017]
 - [Hoegenauer and Koelle 1989][research_hoegenauer_koelle_1989]
 - [Hoertel 1961][research_hoertel_1961]
@@ -9620,11 +8814,9 @@ Of the four it is the only one that was ready.
 - [Hong and Ahn 2015][research_hong_ahn_2015]
 - [Hong and Dickerson 2000][research_hong_dickerson_2000]
 - [Hong et al 2015][research_hong_park_2015]
-- [Hong et al 2023][research_hong_eum_2023]
 - [Hong et al 2025][research_hong_wan_2025]
 - [Honkawa and Yoozbashizadeh 2019][research_honkawa_yoozbashizadeh_2019]
 - [Hooper and Kostusak 1991][research_hooper_kostusak_1991]
-- [Hopkins 1999][research_hopkins_1999]
 - [Hopkins and Rutledge 2024][research_hopkins_rutledge_2024]
 - [Hoppin, G. S., III et al 1980][research_hoppingsiii_fujiim_1980]
 - [Horiuchi et al 2017][research_horiuchi_sakai_2017]
@@ -9633,13 +8825,10 @@ Of the four it is the only one that was ready.
 - [Hornbuckle 2015][research_hornbuckle_2015]
 - [Horton 1964][research_horton_1964]
 - [Horton 1976][research_horton_1976]
-- [Horton 1996][research_horton_1996]
 - [Hosack and Stromsta 1969][research_hosack_stromsta_1969]
 - [Hosangadi and Gopalarathnam 2021][research_hosangadi_gopalarathnam_2021]
 - [Hoskin et al 2024][research_hoskin_nguyen_2024]
 - [Hosomi et al 2019][research_hosomi_otake_2019]
-- [Hosseini et al 2024][research_hosseini_monti_2024]
-- [Hosseinpoor et al 2017][research_hosseinpoor_khayat_2017]
 - [Hoter et al 2026][research_hoter_nastac_2026]
 - [Hou et al 2017][research_hou_chang_2017]
 - [Hou et al 2021][research_hou_mao_2021]
@@ -9661,11 +8850,8 @@ Of the four it is the only one that was ready.
 - [Hu and Ludkovski 2017][research_hu_ludkovski_2017]
 - [Hu and Zhang 2019][research_hu_zhang_2019]
 - [Hu et al 2015][research_hu_jiang_2015]
-- [Hu et al 2018][research_hu_lu_2018]
 - [Hu et al 2022][research_hu_ji_2022]
 - [Hu et al 2022][research_hu_shen_2022]
-- [Hu et al 2024][research_hu_wu_2024]
-- [Hua et al 2021][research_hua_bao_2021]
 - [Hua Tian 2018][research_huatian_2018]
 - [Huan et al 2015][research_huan_guoliang_2015]
 - [Huang 2002][research_huang_2002]
@@ -9676,18 +8862,15 @@ Of the four it is the only one that was ready.
 - [Huang 2026][research_huang_2026]
 - [Huang and Dai 2023][research_huang_dai_2023]
 - [Huang and Zhang 2026][research_huang_zhang_2026]
-- [Huang et al 2017][research_huang_liu_2017]
 - [Huang et al 2018][research_huang_li_2018]
 - [Huang et al 2018][research_huang_zheng_2018]
 - [Huang et al 2020][research_huang_zhu_2020]
 - [Huang et al 2020][research_huang_zhu_2020_b]
-- [Huang et al 2022][research_huang_ali_2022]
 - [Huang et al 2022][research_huang_he_2022]
 - [Huang et al 2024][research_huang_dai_2024]
 - [Huang et al 2025][research_huang_zhang_2025]
 - [Huang et al 2026][research_huang_hao_2026]
 - [Huangpeng et al 2021][research_huangpeng_duan_2021]
-- [Hudib et al 2016][research_hudib_cousins_2016]
 - [Hudson 1988][research_hudson_1988]
 - [Hudson and Fidan 2024][research_hudson_fidan_2024]
 - [Huether, Jacob E. and Otto, Albert E. 1995][research_huetherjacobe_ottoalberte_1995]
@@ -9723,7 +8906,6 @@ Of the four it is the only one that was ready.
 - [I Romli and Hidayah Ariffin 2018][research_iromli_hidayahariffin_2018]
 - [I. Ossai 2020][research_iossai_2020]
 - [Ichiyanagi et al 2020][research_ichiyanagi_liu_2020]
-- [IEE to launch electric-vehicle journal 1979][research_iee_to_1979]
 - [Ifenna Okoli et al 2021][research_ifennaokoli_samuelsholiyi_2021]
 - [Ifergan et al 2021][research_ifergan_berreby_2021]
 - [Ignition Characteristics of a Metallized Composite Solid Propellant by a Group of Hot Particles 2016][research_ignition_characteristics_2016]
@@ -9740,13 +8922,11 @@ Of the four it is the only one that was ready.
 - [Imani and Khanzadeh 2021][research_imani_khanzadeh_2021]
 - [Imoto 2016][research_imoto_2016]
 - [Improving reliability of amplifiers by redundancy 1970][research_improving_reliability_1970]
-- [Imran et al 2024][research_imran_mahmoud_2024]
 - [Inada 2004][research_inada_2004]
 - [Inami and Shanfield 1964][research_inami_shanfield_1964]
 - [Inatomi et al 2019][research_inatomi_kitamura_2019]
 - [Indelicato et al 2021][research_indelicato_lapenna_2021]
 - [India to launch prototype of reusable launch vehicle 2015][research_india_to_2015]
-- [Indrebø et al 2025][research_indrebo_flatabo_2025]
 - [Infant Heat Shield 1981][research_infant_heat_1981]
 - [INFLUENCE OF THE CHOICE OF THE DESIGN PARAMETERS ON THE ROCKET ENGINE CHAMBER EFFICIENCY 2024][research_influence_of_the_2024]
 - [Ingalls, John and Cipolletti, John 2011][research_ingallsjohn_cipollettijohn_2011]
@@ -9756,8 +8936,6 @@ Of the four it is the only one that was ready.
 - [Integrated operations/payloads/fleet analysis. Volume 1971][research_integrated_operations_payloads_fleet_1971]
 - [Introduction to the Special Section on Hypersonic Boundary-Layer Transition Prediction 2019][research_introduction_to_2019]
 - [Introduction to the Virtual Collection for Predicting Hypersonic Boundary-Layer Transition on Complex Geometries 2026][research_introduction_to_2026]
-- [Inverter Design Development 2021][research_inverter_design_2021]
-- [IoT Based Real-time Autonomous Vehicle Tracking System 2017][research_iot_based_2017]
 - [IPAD Integrated Programs for 1980][research_ipad_integrated_1980]
 - [Iqbal and Akbar 2026][research_iqbal_akbar_2026]
 - [Ireland and Gonzales 2020][research_ireland_gonzales_2020]
@@ -9774,12 +8952,10 @@ Of the four it is the only one that was ready.
 - [Ismagilov et al 2018][research_ismagilov_vavilov_2018]
 - [Isono and Fujikawa 2025][research_isono_fujikawa_2025]
 - [ISRO Releases the Special Issue on ‘Reusable Launch Vehicle-Technology Demonstrator’ 2018][research_isro_releases_the_2018]
-- [Issaka and Ambastha 1997][research_issaka_ambastha_1997]
 - [Issakhov et al 2024][research_issakhov_abylkassymova_2024]
 - [Istratov et al 1996][research_istratov_marshakov_1996]
 - [Ito et al 2019][research_ito_hayashida_2019]
 - [Ito et al 2020][research_ito_yamamoto_2020]
-- [Iurieva et al 2019][research_iurieva_sinianskaia_2019]
 - [Ivanchenko et al 2021][research_ivanchenko_klimenko_2021]
 - [Ivanco et al 2020][research_ivanco_keller_2020]
 - [Ivanco et al 2021][research_ivanco_keller_2021]
@@ -9789,11 +8965,7 @@ Of the four it is the only one that was ready.
 - [Ivkić et al 2025][research_ivkic_buhmann_2025]
 - [Iwasaki et al 2016][research_iwasaki_matsumoto_2016]
 - [Iwata 1995][research_iwata_1995]
-- [Iyamu et al 2021][research_iyamu_berger_2021]
 - [Izham Izzat Ismail et al 2022][research_izhamizzatismail_nurhusninaaufarozainuddin_2022]
-- [Izumi et al 2017][research_izumi_yoshida_2017]
-- [Izumi et al 2018][research_izumi_yoshida_2018]
-- [İzgi 2024][research_izgi_2024]
 - [J et al 2025][research_j_kartheekeyan_2025]
 - [J G Campbell et al 1964][research_jgcampbell_mdcarey_1964]
 - [J. D. Bernardin and W. S. Gregory 1998][research_jdbernardin_wsgregory_1998]
@@ -9801,12 +8973,10 @@ Of the four it is the only one that was ready.
 - [Jabo 2017][research_jabo_2017]
 - [Jacobson 1952][research_jacobson_1952]
 - [Jadhav and Sridharan 2001][research_jadhav_sridharan_2001]
-- [Jaffar and Ismail 2023][research_jaffar_ismail_2023]
 - [Jaffe 1988][research_jaffe_1988]
 - [Jaffrezic et al 2015][research_jaffrezic_ruetten_2015]
 - [Jain 2022][research_jain_2022]
 - [Jain and Kumar 2022][research_jain_kumar_2022]
-- [Jain et al 2022][research_jain_sood_2022]
 - [Jaiswal et al 2024][research_jaiswal_mallikarjunarao_2024]
 - [Jaiswal et al 2024][research_jaiswal_sen_2024]
 - [Jakeman 2024][research_jakeman_2024]
@@ -9824,7 +8994,6 @@ Of the four it is the only one that was ready.
 - [Janovsky et al 1995][research_janovsky_arya_1995]
 - [Jansari et al 2026][research_jansari_ybarra_2026]
 - [Jarvis 1974][research_jarvis_1974]
-- [Jayabalan 1986][research_jayabalan_1986]
 - [Jayan et al 2024][research_jayan_pavanasam_2024]
 - [Jayanthi and Jain 2019][research_jayanthi_jain_2019]
 - [Jayaprakash et al 2022][research_jayaprakash_dhinarakaran_2022]
@@ -9837,14 +9006,12 @@ Of the four it is the only one that was ready.
 - [Jenkins et al 1991][research_jenkins_nestor_1991]
 - [Jennings and Morel 1987][research_jennings_morel_1987]
 - [Jennings and Morel 1987][research_jennings_morel_1987_b]
-- [Jensen 1968][research_jensen_1968]
 - [Jensen 1980][research_jensen_1980]
 - [Jensen 2000][research_jensen_2000]
 - [Jensen 2013][research_jensen_2013]
 - [Jensen and Jones 1981][research_jensen_jones_1981]
 - [Jensen and Wilson 1975][research_jensen_wilson_1975]
 - [Jensen et al 1962][research_jensen_goshgarian_1962]
-- [Jeon and Choi 2015][research_jeon_choi_2015]
 - [Jeon and Park 2026][research_jeon_park_2026]
 - [Jeon et al 2004][research_jeon_lee_2004]
 - [Jeong and Jo 2026][research_jeong_jo_2026]
@@ -9854,7 +9021,6 @@ Of the four it is the only one that was ready.
 - [Jeong et al 2026][research_jeong_cho_2026_b]
 - [Jeppesen and Jeppesen 1992][research_jeppesen_jeppesen_1992]
 - [Jere et al 2025][research_jere_faik_2025]
-- [Jeremiah et al 2018][research_jeremiah_quinn_2018]
 - [Jesen 1977][research_jesen_1977]
 - [Jessica Lux-Baumann and Darryl A Burkes 2005][research_jessicaluxbaumann_darrylaburkes_2005]
 - [Jetevator for rocket engine 1998][research_jetevator_for_1998]
@@ -9862,7 +9028,6 @@ Of the four it is the only one that was ready.
 - [Jha et al 2003][research_jha_diwakar_2003]
 - [Ji 2017][research_ji_2017]
 - [Ji et al 2016][research_ji_bao_2016]
-- [Ji et al 2023][research_ji_cheng_2023]
 - [Ji et al 2025][research_ji_dong_2025]
 - [Ji et al 2027][research_ji_zhang_2027]
 - [Jia 1987][research_jia_1987]
@@ -9871,13 +9036,9 @@ Of the four it is the only one that was ready.
 - [Jia et al 2018][research_jia_wang_2018]
 - [Jia et al 2019][research_jia_ye_2019]
 - [Jia et al 2020][research_jia_fu_2020]
-- [Jia et al 2024][research_jia_shi_2024]
 - [Jia et al 2025][research_jia_chen_2025]
-- [Jia et al 2025][research_jia_zheng_2025]
 - [Jiahe 2020][research_jiahe_2020]
-- [Jiang 2025][research_jiang_2025]
 - [Jiang and Chiu 1992][research_jiang_chiu_1992]
-- [Jiang and Niu 2016][research_jiang_niu_2016]
 - [Jiang and Tan 2023][research_jiang_tan_2023]
 - [Jiang et al 2016][research_jiang_yan_2016]
 - [Jiang et al 2017][research_jiang_yan_2017]
@@ -9888,10 +9049,8 @@ Of the four it is the only one that was ready.
 - [Jianguo et al 2016][research_jianguo_guoqing_2016]
 - [Jiawei 2024][research_jiawei_2024]
 - [Jin 2021][research_jin_2021]
-- [Jin and Yuan 2023][research_jin_yuan_2023]
 - [Jin et al 2016][research_jin_zhang_2016]
 - [Jin et al 2018][research_jin_garcia_2018]
-- [Jin et al 2020][research_jin_liu_2020]
 - [Jin et al 2022][research_jin_chen_2022]
 - [Jin et al 2022][research_jin_li_2022]
 - [Jin et al 2024][research_jin_cui_2024]
@@ -9904,7 +9063,6 @@ Of the four it is the only one that was ready.
 - [Jo et al 2021][research_jo_kim_2021]
 - [Jo et al 2021][research_jo_kim_2021_b]
 - [Joatton 1970][research_joatton_1970]
-- [Johnson 1981][research_johnson_1981]
 - [Johnson 1988][research_johnson_1988]
 - [Johnson and Kujawski 2025][research_johnson_kujawski_2025]
 - [Johnson and L'Ecuyer 1968][research_johnson_lecuyer_1968]
@@ -9932,9 +9090,7 @@ Of the four it is the only one that was ready.
 - [Jones, Daniel S. et al 2014][research_jonesdaniels_rufjosephh_2014]
 - [Jopson 1947][research_jopson_1947]
 - [Jorden and Siegel 1973][research_jorden_siegel_1973]
-- [Jorgenson and Barrett 2022][research_jorgenson_barrett_2022]
 - [Jortner and Martinez 1964][research_jortner_martinez_1964]
-- [Josef and Degani 2020][research_josef_degani_2020]
 - [Joseph et al 2020][research_joseph_hargreaves_2020]
 - [Joseph et al 2024][research_joseph_duplessis_2024]
 - [Joseph et al 2026][research_joseph_whitside_2026]
@@ -9944,7 +9100,6 @@ Of the four it is the only one that was ready.
 - [Ju and Zhang 2025][research_ju_zhang_2025]
 - [Ju et al 2022][research_ju_wei_2022]
 - [Jugade 2023][research_jugade_2023]
-- [Jujjuvarapu and Rajulapati 2024][research_jujjuvarapu_rajulapati_2024]
 - [Jumper et al 1993][research_jumper_newman_1993]
 - [Jumper, Jr. and Hitchcock 1986][research_jumperjr_hitchcock_1986]
 - [Junaid R and Beebi M 2015][research_junaidr_beebim_2015]
@@ -9966,11 +9121,9 @@ Of the four it is the only one that was ready.
 - [Kageyama et al 2019][research_kageyama_kamps_2019]
 - [Kahle, Bill 2000][research_kahlebill_2000]
 - [Kahraman et al 2020][research_kahraman_karakas_2020]
-- [Kahsay et al 2017][research_kahsay_bitsuamlak_2017]
 - [Kai and Ohtake 1996][research_kai_ohtake_1996]
 - [Kalia and Ameli 2024][research_kalia_ameli_2024]
 - [Kalizhanova et al 2026][research_kalizhanova_utegenova_2026]
-- [Kallenbach 1987][research_kallenbach_1987]
 - [Kalmykov and Yanchilin 1996][research_kalmykov_yanchilin_1996]
 - [Kam and Gage 2004][research_kam_gage_2004]
 - [Kamilis and Polydorides 2018][research_kamilis_polydorides_2018]
@@ -9987,7 +9140,6 @@ Of the four it is the only one that was ready.
 - [Kang et al 2024][research_kang_jeong_2024]
 - [Kang et al 2025][research_kang_jo_2025]
 - [Kanmuri et al 1989][research_kanmuri_kanda_1989]
-- [Kanon et al 2023][research_kanon_griffin_2023]
 - [Kansas Univ Lawrence 1952][research_kansasunivlawrence_1952]
 - [Kansas Univ Lawrence 1952][research_kansasunivlawrence_1952_b]
 - [Kanso et al 2022][research_kanso_jha_2022]
@@ -10004,7 +9156,6 @@ Of the four it is the only one that was ready.
 - [Karpuk 2024][research_karpuk_2024]
 - [Kartal 2021][research_kartal_2021]
 - [Karthikeyan and Shimada 2017][research_karthikeyan_shimada_2017]
-- [Kartuzov 2025][research_kartuzov_2025]
 - [Kartuzova and Kassemi 2019][research_kartuzova_kassemi_2019]
 - [Karuntzos 2015][research_karuntzos_2015]
 - [Kashefinishaburi and Hoa 2022][research_kashefinishaburi_hoa_2022]
@@ -10048,7 +9199,6 @@ Of the four it is the only one that was ready.
 - [Keller et al 2025][research_keller_spearrin_2025]
 - [Kelley and Thompson 1989][research_kelley_thompson_1989]
 - [Kelly, Jenny R. and Cruz, Juan R. 2009][research_kellyjennyr_cruzjuanr_2009]
-- [Kemaneci et al 2023][research_kemaneci_yolcan_2023]
 - [Kemp 1968][research_kemp_1968]
 - [Kemp et al 1972][research_kemp_luedke_1972]
 - [Kemp et al 2025][research_kemp_clemmons_2025]
@@ -10059,7 +9209,6 @@ Of the four it is the only one that was ready.
 - [Kennedy and McClure 2005][research_kennedy_mcclure_2005]
 - [Kennedy and Weldon 2024][research_kennedy_weldon_2024]
 - [Kenny, R. Jeremy et al 2011][research_kennyrjeremy_leeerik_2011]
-- [Kenyon 1995][research_kenyon_1995]
 - [Kerebel and Dugat 1986][research_kerebel_dugat_1986]
 - [Kerr et al 1995][research_kerr_pond_1995]
 - [Kerrian et al 2022][research_kerrian_mcshane_2022]
@@ -10077,20 +9226,15 @@ Of the four it is the only one that was ready.
 - [Khan and Chakraborty 2021][research_khan_chakraborty_2021]
 - [Khan and Chakraborty 2023][research_khan_chakraborty_2023]
 - [Khan et al 2015][research_khan_eker_2015]
-- [Khan et al 2021][research_khan_prabhakar_2021]
 - [Khan et al 2022][research_khan_sohail_2022]
-- [Khan et al 2023][research_khan_zhang_2023]
-- [Khatri and Kashyap 2023][research_khatri_kashyap_2023]
 - [Khatri and Sinha 2023][research_khatri_sinha_2023]
 - [Khou et al 2015][research_khou_ghedhaifi_2015]
-- [Kiani and Steen 2022][research_kiani_steen_2022]
 - [Kibbe and Stiff 1993][research_kibbe_stiff_1993]
 - [Kidwell 1963][research_kidwell_1963]
 - [Kieffer 2006][research_kieffer_2006]
 - [Kiehn 2020][research_kiehn_2020]
 - [Kikuchi et al 2016][research_kikuchi_misaka_2016]
 - [Kilham and Dunham 2019][research_kilham_dunham_2019]
-- [Kim 2015][research_kim_2015]
 - [Kim 2016][research_kim_2016]
 - [Kim 2017][research_kim_2017]
 - [Kim 2026][research_kim_2026]
@@ -10109,13 +9253,11 @@ Of the four it is the only one that was ready.
 - [Kim et al 2020][research_kim_kim_2020]
 - [Kim et al 2020][research_kim_kim_2020_b]
 - [Kim et al 2021][research_kim_lee_2021]
-- [Kim et al 2022][research_kim_choi_2022]
 - [Kim et al 2022][research_kim_justin_2022]
 - [Kim et al 2022][research_kim_lim_2022]
 - [Kim et al 2023][research_kim_park_2023]
 - [Kim et al 2024][research_kim_woldeyohannis_2024]
 - [Kim et al 2025][research_kim_jeong_2025]
-- [Kim et al 2025][research_kim_jung_2025]
 - [Kim et al 2025][research_kim_lim_2025]
 - [Kim et al 2025][research_kim_lim_2025_b]
 - [Kim et al 2025][research_kim_park_2025]
@@ -10135,11 +9277,9 @@ Of the four it is the only one that was ready.
 - [King 1982][research_king_1982]
 - [King 1985][research_king_1985]
 - [Kinsey et al 1987][research_kinsey_mckenzie_1987]
-- [Kirchartz and Kim 2025][research_kirchartz_kim_2025]
 - [Kirchberger et al 2019][research_kirchberger_freudenmann_2019]
 - [Kirikera et al 2003][research_kirikera_datta_2003]
 - [Kishore et al 1989][research_kishore_sankaralingam_1989]
-- [Kishore et al 2022][research_kishore_kumar_2022]
 - [Kishore Nath and Mallesham 2023][research_kishorenath_mallesham_2023]
 - [Kitagawa et al 2016][research_kitagawa_yuasa_2016]
 - [Kitaygorsky 2020][research_kitaygorsky_2020]
@@ -10158,7 +9298,6 @@ Of the four it is the only one that was ready.
 - [Knauber 1995][research_knauber_1995]
 - [Knauer and Edman 1991][research_knauer_edman_1991]
 - [Knauer et al 1993][research_knauer_anderson_1993]
-- [Knehir et al 2025][research_knehir_pasha_2025]
 - [Knesek et al 2025][research_knesek_alexander_2025]
 - [Knickerbocker et al 2026][research_knickerbocker_west_2026]
 - [Knight and Quinn 1971][research_knight_quinn_1971]
@@ -10170,10 +9309,8 @@ Of the four it is the only one that was ready.
 - [Kobald et al 2017][research_kobald_fischer_2017]
 - [Kobayashi 2024][research_kobayashi_2024]
 - [Kobayashi and Saperstein 1981][research_kobayashi_saperstein_1981]
-- [Koch et al 2012][research_koch_howard_2012]
 - [Koch et al 2025][research_koch_wilken_2025]
 - [Kock, B. M. et al 1972][research_kockbm_fultonfl_1972]
-- [Kocsis et al 2015][research_kocsis_joo_2015]
 - [Koehlinger et al 1992][research_koehlinger_bennett_1992]
 - [Koelle 1981][research_koelle_1981]
 - [Koelle 1984][research_koelle_1984]
@@ -10186,7 +9323,6 @@ Of the four it is the only one that was ready.
 - [Koester and Vaillancourt 1992][research_koester_vaillancourt_1992]
 - [Kogler and Quam 1983][research_kogler_quam_1983]
 - [Koike and Babinsky 2019][research_koike_babinsky_2019]
-- [Koksal et al 2019][research_koksal_ozdemir_2019]
 - [Kolarič and Kolarič 2016][research_kolaric_kolaric_2016]
 - [Kolesnik and Novikov 2023][research_kolesnik_novikov_2023]
 - [Kolesovas and Svitra 1976][research_kolesovas_svitra_1976]
@@ -10197,7 +9333,6 @@ Of the four it is the only one that was ready.
 - [Kolpitcke and Smith 2025][research_kolpitcke_smith_2025]
 - [Komar 2017][research_komar_2017]
 - [Komar and Christenson 1996][research_komar_christenson_1996]
-- [Kondo 2024][research_kondo_2024]
 - [Kong 2025][research_kong_2025]
 - [Koo 2022][research_koo_2022]
 - [Koo et al 1991][research_koo_lin_1991]
@@ -10216,7 +9351,6 @@ Of the four it is the only one that was ready.
 - [Kovalev et al 2023][research_kovalev_yagodnikov_2023]
 - [Kozedra et al 2021][research_kozedra_matveev_2021]
 - [Kozlov et al 1992][research_kozlov_vorozhtsov_1992]
-- [Kragelund 2004][research_kragelund_2004]
 - [Krause et al 2024][research_krause_cain_2024]
 - [Kravchenko et al 2021][research_kravchenko_kuleshov_2021]
 - [Krepski et al 2025][research_krepski_garbelinifilho_2025]
@@ -10242,8 +9376,6 @@ Of the four it is the only one that was ready.
 - [Krzycki 1965][research_krzycki_1965]
 - [Krühsel 2003][research_kruhsel_2003]
 - [Ku and Tsai 2004][research_ku_tsai_2004]
-- [Ku et al 2025][research_ku_zang_2025]
-- [Kubiak et al 2015][research_kubiak_roddy_2015]
 - [Kubota and Uchida 1999][research_kubota_uchida_1999]
 - [Kubota et al 2003][research_kubota_hashimoto_2003]
 - [Kuby 1964][research_kuby_1964]
@@ -10251,7 +9383,6 @@ Of the four it is the only one that was ready.
 - [Kuhn 1979][research_kuhn_1979]
 - [Kujawski and Angelis 2009][research_kujawski_angelis_2009]
 - [Kulkarni and Goebel 2021][research_kulkarni_goebel_2021]
-- [Kulkarni et al 2022][research_kulkarni_qazizadeh_2022]
 - [Kulumani and Lee 2022][research_kulumani_lee_2022]
 - [Kumar 2001][research_kumar_2001]
 - [Kumar 2002][research_kumar_2002]
@@ -10286,7 +9417,6 @@ Of the four it is the only one that was ready.
 - [Kuo 1976][research_kuo_1976]
 - [Kuriakose et al 2020][research_kuriakose_kurian_2020]
 - [Kurita et al 2020][research_kurita_jourdaine_2020]
-- [Kurniatun and Rosita 2016][research_kurniatun_rosita_2016]
 - [Kurokawa et al 1994][research_kurokawa_kamijo_1994]
 - [Kurth et al 2015][research_kurth_bauer_2015]
 - [Kurz 1963][research_kurz_1963]
@@ -10294,19 +9424,16 @@ Of the four it is the only one that was ready.
 - [Kuznetsov 2023][research_kuznetsov_2023]
 - [Kwak et al 2018][research_kwak_kwon_2018]
 - [Kwon et al 2004][research_kwon_lee_2004]
-- [Königsson 1979][research_konigsson_1979]
 - [Kühlwein et al 2024][research_kuhlwein_suslov_2024]
 - [L'Heureux 1987][research_lheureux_1987]
 - [L. Johnson and W. Vaughan 2020][research_ljohnson_wvaughan_2020]
 - [La Sorsa et al 2026][research_lasorsa_jaycard_2026]
 - [Lacefield and Sprow 1994][research_lacefield_sprow_1994]
-- [LaChenaye et al 2019][research_lachenaye_boyce_2019]
 - [Laganelli 1970][research_laganelli_1970]
 - [Laganelli et al 1974][research_laganelli_harper_1974]
 - [LaGraff 2001][research_lagraff_2001]
 - [Lai and Leu 2023][research_lai_leu_2023]
 - [Lai and Leu 2023][research_lai_leu_2023_b]
-- [Lai and Li 2020][research_lai_li_2020]
 - [Lakatos 2016][research_lakatos_2016]
 - [Lakatos 2019][research_lakatos_2019]
 - [Lakatos 2025][research_lakatos_2025]
@@ -10315,7 +9442,6 @@ Of the four it is the only one that was ready.
 - [Lakshminarayana, B. and Luo, J. 1996][research_lakshminarayanab_luoj_1996]
 - [Lakshmipuram Raghu et al 2024][research_lakshmipuramraghu_rawlins_2024]
 - [Lala and Adams 1987][research_lala_adams_1987]
-- [Lamas and Jahanmir 2026][research_lamas_jahanmir_2026]
 - [Lambregts 1982][research_lambregts_1982]
 - [Lan 2017][research_lan_2017]
 - [Lanaman et al 1965][research_lanaman_morrow_1965]
@@ -10386,7 +9512,6 @@ Of the four it is the only one that was ready.
 - [Lee and Chiou 1994][research_lee_chiou_1994]
 - [Lee and Kim 2015][research_lee_kim_2015]
 - [Lee and Lee 1995][research_lee_lee_1995]
-- [Lee and Li 2018][research_lee_li_2018]
 - [Lee and Mesbahi 2017][research_lee_mesbahi_2017]
 - [Lee and Park 2025][research_lee_park_2025]
 - [Lee and Sarigul-Klijn 2020][research_lee_sarigulklijn_2020]
@@ -10396,7 +9521,6 @@ Of the four it is the only one that was ready.
 - [Lee et al 1998][research_lee_shim_1998]
 - [Lee et al 2015][research_lee_lim_2015]
 - [Lee et al 2015][research_lee_moon_2015]
-- [Lee et al 2015][research_lee_moridis_2015]
 - [Lee et al 2020][research_lee_lee_2020]
 - [Lee et al 2020][research_lee_lim_2020]
 - [Lee et al 2022][research_lee_kim_2022]
@@ -10412,13 +9536,9 @@ Of the four it is the only one that was ready.
 - [Lee, J. and Elam, S. 2001][research_leej_elams_2001]
 - [Leeman et al 2022][research_leeman_preda_2022]
 - [Leese 1966][research_leese_1966]
-- [Legros et al 2025][research_legros_vanleeuwaarden_2025]
 - [Lehman 1964][research_lehman_1964]
 - [Lehman, J. K. and Christensen, H. E. 1973][research_lehmanjk_christensenhe_1973]
-- [Lei and Jasin 2020][research_lei_jasin_2020]
 - [Lei and Li 2021][research_lei_li_2021]
-- [Lei and Zhang 2024][research_lei_zhang_2024]
-- [Lei et al 2017][research_lei_li_2017]
 - [Lei et al 2017][research_lei_yan_2017]
 - [Lei et al 2022][research_lei_zhang_2022]
 - [Leighton 1982][research_leighton_1982]
@@ -10434,8 +9554,6 @@ Of the four it is the only one that was ready.
 - [Leonetti et al 2026][research_leonetti_murphy_2026]
 - [Leong 2017][research_leong_2017]
 - [Lepicovsky, J. 1990][research_lepicovskyj_1990]
-- [Lespay and Suchan 2022][research_lespay_suchan_2022]
-- [Lessons learned creating microbiology laboratory demonstration videos 2023][research_lessons_learned_2023]
 - [Lestinsky and Palit 2016][research_lestinsky_palit_2016]
 - [Lestz, et al 1975][research_lestz_melton_1975]
 - [Leto 2019][research_leto_2019]
@@ -10455,21 +9573,13 @@ Of the four it is the only one that was ready.
 - [Lewis and Williams 1975][research_lewis_williams_1975]
 - [Li 2020][research_li_2020]
 - [Li 2022][research_li_2022]
-- [Li 2022][research_li_2022_b]
-- [Li 2026][research_li_2026]
-- [Li and Chang 2025][research_li_chang_2025]
 - [Li and Hu 2018][research_li_hu_2018]
 - [Li and Li 2023][research_li_li_2023_b]
 - [Li and Ru 2019][research_li_ru_2019]
-- [Li and Shi 2020][research_li_shi_2020]
-- [Li and Shi 2025][research_li_shi_2025]
 - [Li and Slaugh 2026][research_li_slaugh_2026]
 - [Li and Wang 2024][research_li_wang_2024]
-- [Li and Wang 2025][research_li_wang_2025_b]
 - [Li and Zhang 2021][research_li_zhang_2021]
-- [Li and Zhang 2023][research_li_zhang_2023]
 - [Li and Zhao 2025][research_li_zhao_2025_b]
-- [Li and Zhou 2023][research_li_zhou_2023]
 - [Li et al 2015][research_li_gong_2015]
 - [Li et al 2015][research_li_huang_2015]
 - [Li et al 2015][research_li_huang_2015_b]
@@ -10492,21 +9602,16 @@ Of the four it is the only one that was ready.
 - [Li et al 2021][research_li_chen_2021]
 - [Li et al 2021][research_li_fang_2021]
 - [Li et al 2021][research_li_huang_2021]
-- [Li et al 2021][research_li_wolf_2021]
 - [Li et al 2022][research_li_chang_2022]
 - [Li et al 2022][research_li_du_2022]
 - [Li et al 2022][research_li_wang_2022]
-- [Li et al 2022][research_li_zhang_2022]
 - [Li et al 2023][research_li_deng_2023]
-- [Li et al 2023][research_li_li_2023]
 - [Li et al 2023][research_li_pang_2023]
 - [Li et al 2024][research_li_chen_2024]
-- [Li et al 2024][research_li_guo_2024]
 - [Li et al 2024][research_li_sun_2024]
 - [Li et al 2024][research_li_wang_2024_b]
 - [Li et al 2024][research_li_zhang_2024]
 - [Li et al 2024][research_li_zhao_2024]
-- [Li et al 2024][research_li_zhao_2024_b]
 - [Li et al 2024][research_li_zi_2024]
 - [Li et al 2025][research_li_di_2025]
 - [Li et al 2025][research_li_feng_2025]
@@ -10514,10 +9619,8 @@ Of the four it is the only one that was ready.
 - [Li et al 2025][research_li_lou_2025]
 - [Li et al 2025][research_li_lv_2025]
 - [Li et al 2025][research_li_niu_2025]
-- [Li et al 2025][research_li_wang_2025]
 - [Li et al 2025][research_li_xu_2025]
 - [Li et al 2025][research_li_zhao_2025]
-- [Li et al 2026][research_li_beer_2026]
 - [Li et al 2026][research_li_chu_2026]
 - [Li et al 2026][research_li_du_2026]
 - [Li et al 2026][research_li_ji_2026]
@@ -10543,7 +9646,6 @@ Of the four it is the only one that was ready.
 - [Lighthill 1963][research_lighthill_1963]
 - [Lijewski and Suhs 1992][research_lijewski_suhs_1992]
 - [Lijewski and Suhs 1994][research_lijewski_suhs_1994]
-- [Lilley and Lilley 1997][research_lilley_lilley_1997]
 - [Lim and Dutta 2021][research_lim_dutta_2021]
 - [Lim et al 2020][research_lim_kim_2020]
 - [Lim et al 2024][research_lim_kim_2024]
@@ -10551,10 +9653,8 @@ Of the four it is the only one that was ready.
 - [Lim et al 2025][research_lim_lee_2025]
 - [Lin 1989][research_lin_1989]
 - [Lin and Chiu 1995][research_lin_chiu_1995]
-- [Lin and Lin 2018][research_lin_lin_2018]
 - [Lin and Ma 2000][research_lin_ma_2000]
 - [Lin and Miller 2025][research_lin_miller_2025]
-- [Lin and Winder 2019][research_lin_winder_2019]
 - [Lin and Wu 2015][research_lin_wu_2015]
 - [Lin et al 2000][research_lin_ma_2000_b]
 - [Lin et al 2017][research_lin_yan_2017]
@@ -10576,8 +9676,6 @@ Of the four it is the only one that was ready.
 - [Lips 1976][research_lips_1976]
 - [Liquid rocket engine fluid-cooled 1972][research_liquid_rocket_1972]
 - [Liquid rocket fuel tanks of Teflon 2000][research_liquid_rocket_2000]
-- [Lisachuk et al 1976][research_lisachuk_ryshchenko_1976]
-- [Liston 1973][research_liston_1973]
 - [Litchfield and Norton 1982][research_litchfield_norton_1982]
 - [Litchford and Jeng 1992][research_litchford_jeng_1992]
 - [Litchford, R. J. et al 2000][research_litchfordrj_colejw_2000]
@@ -10590,7 +9688,6 @@ Of the four it is the only one that was ready.
 - [Liu and Wang 1999][research_liu_wang_1999]
 - [Liu and Wang 2025][research_liu_wang_2025]
 - [Liu and Zhang 2022][research_liu_zhang_2022]
-- [Liu and Zhou 2025][research_liu_zhou_2025]
 - [Liu et al 1995][research_liu_wang_1995]
 - [Liu et al 1998][research_liu_chen_1998]
 - [Liu et al 2004][research_liu_kylnn_2004]
@@ -10599,22 +9696,17 @@ Of the four it is the only one that was ready.
 - [Liu et al 2016][research_liu_detwiler_2016]
 - [Liu et al 2017][research_liu_dai_2017]
 - [Liu et al 2017][research_liu_tao_2017]
-- [Liu et al 2017][research_liu_wickerson_2017]
 - [Liu et al 2017][research_liu_zhang_2017]
 - [Liu et al 2018][research_liu_ji_2018]
 - [Liu et al 2018][research_liu_liu_2018]
 - [Liu et al 2019][research_liu_wei_2019]
 - [Liu et al 2019][research_liu_zhao_2019]
-- [Liu et al 2020][research_liu_li_2020]
 - [Liu et al 2020][research_liu_zheng_2020]
 - [Liu et al 2021][research_liu_ao_2021]
 - [Liu et al 2021][research_liu_ma_2021]
 - [Liu et al 2021][research_liu_wang_2021]
 - [Liu et al 2022][research_liu_li_2022]
-- [Liu et al 2022][research_liu_vanoosterom_2022]
 - [Liu et al 2022][research_liu_xu_2022]
-- [Liu et al 2022][research_liu_yu_2022]
-- [Liu et al 2023][research_liu_gao_2023]
 - [Liu et al 2023][research_liu_gordon_2023]
 - [Liu et al 2023][research_liu_jiang_2023]
 - [Liu et al 2023][research_liu_luo_2023]
@@ -10623,17 +9715,14 @@ Of the four it is the only one that was ready.
 - [Liu et al 2023][research_liu_xu_2023]
 - [Liu et al 2023][research_liu_zhang_2023]
 - [Liu et al 2024][research_liu_chen_2024]
-- [Liu et al 2024][research_liu_lu_2024]
 - [Liu et al 2024][research_liu_xu_2024]
 - [Liu et al 2024][research_liu_xue_2024]
-- [Liu et al 2024][research_liu_zhang_2024]
 - [Liu et al 2025][research_liu_cheng_2025]
 - [Liu et al 2025][research_liu_jiang_2025]
 - [Liu et al 2025][research_liu_liu_2025]
 - [Liu et al 2025][research_liu_liu_2025_b]
 - [Liu et al 2025][research_liu_zhuang_2025]
 - [Liu et al 2026][research_liu_jiang_2026]
-- [Liu et al 2026][research_liu_li_2026]
 - [Liubimov 2025][research_liubimov_2025]
 - [Lizhong et al 2002][research_lizhong_xiaojun_2002]
 - [Llewellyn et al 2025][research_llewellyn_clark_2025]
@@ -10652,7 +9741,6 @@ Of the four it is the only one that was ready.
 - [London, John R., III and Lyles, Garry M. 1998][research_londonjohnriii_lylesgarrym_1998]
 - [London, John R., III and Rogacki, Row 2000][research_londonjohnriii_rogackirow_2000]
 - [London, John, III and Sumrall, Phil 1999][research_londonjohniii_sumrallphil_1999]
-- [Longenbaugh et al 1995][research_longenbaugh_rautman_1995]
 - [Longobardo et al 2026][research_longobardo_paolillo_2026]
 - [Loomis, Mark P. 1994][research_loomismarkp_1994]
 - [Lopez and Rajkumar 2025][research_lopez_rajkumar_2025]
@@ -10666,10 +9754,8 @@ Of the four it is the only one that was ready.
 - [Low-cost design automation 1981][research_low_cost_design_1981]
 - [Low-cost stainless steels in greater use 1993][research_low_cost_stainless_1993]
 - [Lowrance and Smith 1996][research_lowrance_smith_1996]
-- [Loy-Benitez et al 2024][research_loybenitez_song_2024]
 - [Lu 1996][research_lu_1996]
 - [Lu 1997][research_lu_1997]
-- [Lu 2024][research_lu_2024]
 - [Lu and Koga 2016][research_lu_koga_2016]
 - [Lu et al 2016][research_lu_gong_2016]
 - [Lu et al 2022][research_lu_shen_2022]
@@ -10680,7 +9766,6 @@ Of the four it is the only one that was ready.
 - [Luan et al 2017][research_luan_yang_2017]
 - [Lubert 2017][research_lubert_2017]
 - [Ludescher and Olivier 2018][research_ludescher_olivier_2018]
-- [Ludwick 1981][research_ludwick_1981]
 - [Ludwig et al 2021][research_ludwig_antinori_2021]
 - [Lugo, Rafael A. et al 2019][research_lugorafaela_karlgaardchristopherd_2019]
 - [Lui and Mason 1991][research_lui_mason_1991]
@@ -10697,7 +9782,6 @@ Of the four it is the only one that was ready.
 - [Luo and Han 2026][research_luo_han_2026]
 - [Luo and Strait 2024][research_luo_strait_2024]
 - [Luo et al 2003][research_luo_koo_2003]
-- [Luo et al 2022][research_luo_yan_2022]
 - [Luo et al 2026][research_luo_tang_2026]
 - [Luton 1963][research_luton_1963]
 - [Lutsenko 2023][research_lutsenko_2023]
@@ -10720,7 +9804,6 @@ Of the four it is the only one that was ready.
 - [Lüdeke et al 2015][research_ludeke_mulot_2015]
 - [Ma 2016][research_ma_2016]
 - [Ma 2019][research_ma_2019]
-- [Ma 2026][research_ma_2026]
 - [Ma and Li 2020][research_ma_li_2020]
 - [Ma and Zhao 2019][research_ma_zhao_2019]
 - [Ma et al 2001][research_ma_yuan_2001]
@@ -10728,28 +9811,22 @@ Of the four it is the only one that was ready.
 - [Ma et al 2019][research_ma_wang_2019]
 - [Ma et al 2020][research_ma_bao_2020]
 - [Ma et al 2021][research_ma_chen_2021]
-- [Ma et al 2022][research_ma_zhang_2022]
 - [Ma et al 2023][research_ma_li_2023]
 - [Ma et al 2024][research_ma_li_2024]
 - [Ma et al 2024][research_ma_liu_2024]
-- [Ma et al 2024][research_ma_sun_2024]
 - [Ma et al 2024][research_ma_wang_2024]
 - [Ma et al 2025][research_ma_ding_2025]
 - [Ma et al 2025][research_ma_he_2025]
-- [Ma et al 2026][research_ma_zhao_2026]
 - [Ma et al 2026][research_ma_zhu_2026]
 - [Maahs 1972][research_maahs_1972]
 - [Maass et al 2020][research_maass_woicke_2020]
-- [Macaulay-Newcombe et al 1998][research_macaulaynewcombe_thompson_1998]
 - [Macconochie, Ian O. et al 1988][research_macconochieiano_davisrobertb_1988]
-- [Mace et al 1997][research_mace_fisher_1997]
 - [Macek and Semple 1972][research_macek_semple_1972]
 - [Maces-Hernandez et al 2017][research_maceshernandez_defay_2017]
 - [MacFarlane and Madell 1964][research_macfarlane_madell_1964]
 - [Machado 2025][research_machado_2025]
 - [Machado and Torsani 2020][research_machado_torsani_2020]
 - [Maciejewski 1995][research_maciejewski_1995]
-- [Maciel et al 2021][research_maciel_maciel_2021]
 - [Mackay et al 2016][research_mackay_ellingson_2016]
 - [Mackey et al 2026][research_mackey_stockman_2026]
 - [MACKlNNON and Madden 1972][research_macklnnon_madden_1972]
@@ -10760,9 +9837,6 @@ Of the four it is the only one that was ready.
 - [Maddu et al 2023][research_maddu_srivastava_2023]
 - [Maddux 1999][research_maddux_1999]
 - [Madhavan Nair 2023][research_madhavannair_2023]
-- [Maertens 2025][research_maertens_2025]
-- [Magazzù 2003][research_magazzu_2003]
-- [Magid et al 2017][research_magid_lavrenov_2017]
 - [Magistro et al 2025][research_magistro_zhang_2025]
 - [Magistro et al 2025][research_magistro_zhang_2025_b]
 - [Mah 1999][research_mah_1999]
@@ -10772,7 +9846,6 @@ Of the four it is the only one that was ready.
 - [Maicke 2017][research_maicke_2017]
 - [Maihulla and Yusuf 2024][research_maihulla_yusuf_2024]
 - [Maiorova et al 2016][research_maiorova_prosuntsov_2016]
-- [Maistri and Po 2022][research_maistri_po_2022]
 - [Maiuzzo 1970][research_maiuzzo_1970]
 - [Majerus and Tamekuni 1965][research_majerus_tamekuni_1965]
 - [Majumdar 1975][research_majumdar_1975]
@@ -10784,10 +9857,8 @@ Of the four it is the only one that was ready.
 - [Makhnun et al 2024][research_makhnun_ahmed_2024]
 - [Maldonado, Jaime J. 1994][research_maldonadojaimej_1994]
 - [Malekzadeh et al 2025][research_malekzadeh_taghavi_2025]
-- [Mali et al 2026][research_mali_kotalwar_2026]
 - [Malim et al 2023][research_malim_mourousias_2023]
 - [Malisuwan and Kanchanarat 2022][research_malisuwan_kanchanarat_2022]
-- [Management improvement through total cost reduction activity in a small and medium cosmetic manufacturing company: A case study 2021][research_management_improvement_2021]
 - [Manda 1966][research_manda_1966]
 - [Manjhi and Kumar 2019][research_manjhi_kumar_2019]
 - [Manko et al 2026][research_manko_litot_2026]
@@ -10802,7 +9873,6 @@ Of the four it is the only one that was ready.
 - [Manwatkar et al 2024][research_manwatkar_jalaja_2024]
 - [Man’ko and Коzis 2019][research_manko_zis_2019]
 - [Maquera Ortega et al 2024][research_maqueraortega_duranaquino_2024]
-- [Maravall et al 1990][research_maravall_mazo_1990]
 - [Marcucci et al 2026][research_marcucci_gatta_2026]
 - [Margolin 1963][research_margolin_1963]
 - [Marineau 2016][research_marineau_2016]
@@ -10811,7 +9881,6 @@ Of the four it is the only one that was ready.
 - [Marlow 1992][research_marlow_1992]
 - [Marocco and Franco 2016][research_marocco_franco_2016]
 - [Marquis et al 2016][research_marquis_batiot_2016]
-- [Marra 2022][research_marra_2022]
 - [Marszałek 2019][research_marszaek_2019]
 - [Martin 1962][research_martin_1962]
 - [Martin 1963][research_martin_1963]
@@ -10819,7 +9888,6 @@ Of the four it is the only one that was ready.
 - [Martin 1992][research_martin_1992]
 - [Martin 1993][research_martin_1993]
 - [Martin 2007][research_martin_2007]
-- [Martin 2026][research_martin_2026]
 - [Martin and Boyd 2015][research_martin_boyd_2015]
 - [Martin and Webb 1958][research_martin_webb_1958]
 - [Martin Co Baltimore Md 1963][research_martincobaltimoremd_1963]
@@ -10864,7 +9932,6 @@ Of the four it is the only one that was ready.
 - [Mattice 1982][research_mattice_1982]
 - [Mattioli and Di Padova 2021][research_mattioli_dipadova_2021]
 - [Matushin and Makhalov 2020][research_matushin_makhalov_2020]
-- [Matveev 2022][research_matveev_2022]
 - [Matveev et al 2018][research_matveev_zubanov_2018]
 - [Maul et al 2024][research_maul_lo_2024]
 - [Maul, William A. et al 2004][research_maulwilliama_chicatelliamyk_2004]
@@ -10884,7 +9951,6 @@ Of the four it is the only one that was ready.
 - [Mayo et al 2016][research_mayo_cernat_2016]
 - [Mayorga-Macías et al 2020][research_mayorgamacias_gonzalezjimenez_2020]
 - [Maze 1985][research_maze_1985]
-- [Mazur and Woodland 2017][research_mazur_woodland_2017]
 - [Mazurkivich, Pete et al 2005][research_mazurkivichpete_chandlerfrank_2005]
 - [Mazzaracchio 2018][research_mazzaracchio_2018]
 - [Mazzone et al 2024][research_mazzone_chiarelli_2024]
@@ -10903,10 +9969,8 @@ Of the four it is the only one that was ready.
 - [McCoy et al 2021][research_mccoy_dinicola_2021]
 - [McDaniel 2004][research_mcdaniel_2004]
 - [Mcdonald 1980][research_mcdonald_1980]
-- [McDonald 1995][research_mcdonald_1995]
 - [McDonald, J. P. et al 1998][research_mcdonaldjp_minorrb_1998]
 - [McDowell et al 2025][research_mcdowell_raghu_2025]
-- [McElwain et al 2016][research_mcelwain_finnegan_2016]
 - [Mcgarr 1947][research_mcgarr_1947]
 - [McGaughey and Kaviany 2002][research_mcgaughey_kaviany_2002]
 - [Mcgee 1977][research_mcgee_1977]
@@ -10925,12 +9989,10 @@ Of the four it is the only one that was ready.
 - [McKnight et al 2015][research_mcknight_boyer_2015]
 - [McLAFFERTY 1970][research_mclafferty_1970]
 - [McLaughlin and Perhinschi 2020][research_mclaughlin_perhinschi_2020]
-- [McMillan 2015][research_mcmillan_2015]
 - [McNeil 2015][research_mcneil_2015]
 - [McNicol 2014][research_mcnicol_2014]
 - [McNicol 2014][research_mcnicol_2014_b]
 - [McNicol and Wu 2014][research_mcnicol_wu_2014]
-- [McPherson and Balch 2024][research_mcpherson_balch_2024]
 - [McWhorter and Ewing 2001][research_mcwhorter_ewing_2001]
 - [McWhorter et al 1999][research_mcwhorter_johnson_1999]
 - [McWhorter, Bruce et al 2004][research_mcwhorterbruce_ewingmark_2004]
@@ -10950,7 +10012,6 @@ Of the four it is the only one that was ready.
 - [Mehta 2022][research_mehta_2022]
 - [Mehta et al 2017][research_mehta_danehy_2017]
 - [Mehta et al 2022][research_mehta_bhargav_2022]
-- [Mehta et al 2025][research_mehta_yusuf_2025]
 - [Mehta, Manish et al 2011][research_mehtamanish_canabalfrancisco_2011]
 - [Meichin and Tanaka 2019][research_meichin_tanaka_2019]
 - [Meier and Key 2025][research_meier_key_2025]
@@ -10969,15 +10030,12 @@ Of the four it is the only one that was ready.
 - [Menees 1983][research_menees_1983]
 - [Menon and Lehman 1986][research_menon_lehman_1986]
 - [Menon et al 2025][research_menon_ck_2025]
-- [Merisalu et al 2023][research_merisalu_sundell_2023]
 - [Merriam, Marshal L. 2000][research_merriammarshall_2000]
 - [Mertaugh 1998][research_mertaugh_1998]
 - [Merzlikin et al 2019][research_merzlikin_smirnov_2019]
 - [Metghalchi 2009][research_metghalchi_2009]
-- [Meuzelaar and Warren 2026][research_meuzelaar_warren_2026]
 - [Meyer, Robert R., Jr. et al 1992][research_meyerrobertrjr_curryroberte_1992]
 - [Meyers 1991][research_meyers_1991]
-- [Meyers 2019][research_meyers_2019]
 - [Meyers et al 1968][research_meyers_tompkins_1968]
 - [Meyerson 1998][research_meyerson_1998]
 - [Mezines 1968][research_mezines_1968]
@@ -10986,11 +10044,6 @@ Of the four it is the only one that was ready.
 - [Miccio 1998][research_miccio_1998]
 - [Miccio 2016][research_miccio_2016]
 - [Michael J Strickland and Daniel L Palumbo 1988][research_michaeljstrickland_daniellpalumbo_1988]
-- [Michalak 2021][research_michalak_2021]
-- [Michalak 2022][research_michalak_2022]
-- [Michalak 2023][research_michalak_2023]
-- [Michalak 2023][research_michalak_2023_b]
-- [Michalak and Ziomek 2023][research_michalak_ziomek_2023]
 - [Michell 2016][research_michell_2016]
 - [Michigan Univ Ann Arbor 1963][research_michiganunivannarbor_1963]
 - [Michihara et al 2018][research_michihara_tamura_2018]
@@ -11003,7 +10056,6 @@ Of the four it is the only one that was ready.
 - [Mikhail 1979][research_mikhail_1979]
 - [Mikhalchenko 2023][research_mikhalchenko_2023]
 - [Mikhalev et al 2022][research_mikhalev_beletskii_2022]
-- [Milewski et al 2023][research_milewski_skibinski_2023]
 - [Miley et al 2020][research_miley_puri_2020]
 - [Millar and Smrcek 2001][research_millar_smrcek_2001]
 - [Miller 1963][research_miller_1963]
@@ -11031,8 +10083,6 @@ Of the four it is the only one that was ready.
 - [Minyushkin and Kryukov 2019][research_minyushkin_kryukov_2019]
 - [Miotto and LePome 2003][research_miotto_lepome_2003]
 - [Miquel Parra et al 2024][research_miquelparra_acampa_2024]
-- [Mir et al 2022][research_mir_khan_2022]
-- [Miranda et al 2016][research_miranda_barron_2016]
 - [Mirhasani and Louis 2025][research_mirhasani_louis_2025]
 - [Mirzabayova and Rustamov 2024][research_mirzabayova_rustamov_2024]
 - [Mirzamoghadam 1991][research_mirzamoghadam_1991]
@@ -11061,9 +10111,6 @@ Of the four it is the only one that was ready.
 - [Moetazedian et al 2021][research_moetazedian_budisuharto_2021]
 - [Moghadasi et al 2018][research_moghadasi_dewit_2018]
 - [Mogyorósi et al 1989][research_mogyorosi_szorenyi_1989]
-- [Mohaddes Khorassani et al 2019][research_mohaddeskhorassani_siligardi_2019]
-- [Mohammadi 2018][research_mohammadi_2018]
-- [Mohammed et al 2016][research_mohammed_bourzig_2016]
 - [Mohan and Kim 2015][research_mohan_kim_2015]
 - [Mohan and Kishore 2021][research_mohan_kishore_2021]
 - [Mohan et al 2025][research_mohan_s_2025]
@@ -11080,13 +10127,10 @@ Of the four it is the only one that was ready.
 - [Moon et al 2015][research_moon_eom_2015]
 - [Moore 1969][research_moore_1969]
 - [Moore and Cozzolino 1978][research_moore_cozzolino_1978]
-- [Moore and Yakimenko 2024][research_moore_yakimenko_2024]
-- [Moore and Yakimenko 2025][research_moore_yakimenko_2025]
 - [Moore et al 1979][research_moore_barnett_1979]
 - [Moore, Dennis R. and Phelps, Willie J. 2011][research_mooredennisr_phelpswilliej_2011]
 - [Moosaie 2024][research_moosaie_2024]
 - [Mora and Adibi 2025][research_mora_adibi_2025]
-- [Mora et al 2020][research_mora_lafuente_2020]
 - [Morales and Moral 2019][research_morales_moral_2019]
 - [Moran, Robert P. and Houston, Janice D. 2011][research_moranrobertp_houstonjaniced_2011]
 - [Morando et al 2024][research_morando_bozzi_2024]
@@ -11096,7 +10140,6 @@ Of the four it is the only one that was ready.
 - [Morgan 1970][research_morgan_1970]
 - [Morgan and Barton 2022][research_morgan_barton_2022]
 - [Morgan and Williams 2025][research_morgan_williams_2025]
-- [Morgan et al 2021][research_morgan_liscio_2021]
 - [Morgenthaler and Montoya 1991][research_morgenthaler_montoya_1991]
 - [Mori and Maruyama 2016][research_mori_maruyama_2016]
 - [Mori et al 2016][research_mori_saito_2016]
@@ -11110,7 +10153,6 @@ Of the four it is the only one that was ready.
 - [Morris et al 2026][research_morris_lasorsa_2026]
 - [Morris, Christopher I. 2003][research_morrischristopheri_2003]
 - [Morris, Christopher I. 2003][research_morrischristopheri_2003_b]
-- [Morrison and Ma 2025][research_morrison_ma_2025]
 - [Morrow and Petersen 2017][research_morrow_petersen_2017]
 - [Morse et al 2024][research_morse_moore_2024]
 - [Moruzzi et al 2018][research_moruzzi_fessl_2018]
@@ -11118,8 +10160,6 @@ Of the four it is the only one that was ready.
 - [Moseman 2025][research_moseman_2025]
 - [Moser 1965][research_moser_1965]
 - [Moser and Keith 1992][research_moser_keith_1992]
-- [Moser et al 2020][research_moser_odonnell_2020]
-- [Mosia and Ramdass 2024][research_mosia_ramdass_2024]
 - [Mosley 1970][research_mosley_1970]
 - [Mosolov et al 2021][research_mosolov_lozinolozinskaya_2021]
 - [Mossman and Perkins 2001][research_mossman_perkins_2001]
@@ -11130,7 +10170,6 @@ Of the four it is the only one that was ready.
 - [Moua, Cheng M. et al 2012][research_mouachengm_mcwhertershaunc_2012]
 - [Moyer and Wool 1970][research_moyer_wool_1970]
 - [Mozaffar et al 2023][research_mozaffar_liao_2023]
-- [Mrs.V.Lalithamani et al 2025][research_mrsvlalithamani_msmsoumya_2025]
 - [MTBF Warranty/Guarantee for multiple user avionics 1991][research_mtbf_warranty_guarantee_1991]
 - [Mu et al 2025][research_mu_cao_2025]
 - [Muda et al 2023][research_muda_irmanto_2023]
@@ -11151,7 +10190,6 @@ Of the four it is the only one that was ready.
 - [Mukundan et al 2022][research_mukundan_maity_2022]
 - [Mulla et al 2023][research_mulla_satpathy_2023]
 - [Multi-dimensional modeling of convective heat transfer with application to I. C. engines 1989][research_multi_dimensional_modeling_1989]
-- [Multi-Scalar Urban Digital Twin Design: Architecture and OpenUSD Standards Based Methodology 2023][research_multi_scalar_urban_2023]
 - [Mungas et al 2003][research_mungas_das_2003]
 - [Mungiguerra et al 2021][research_mungiguerra_cecere_2021]
 - [Murari et al 2019][research_murari_calciolari_2019]
@@ -11179,10 +10217,7 @@ Of the four it is the only one that was ready.
 - [Mykhalchyshyn et al 2018][research_mykhalchyshyn_brezgin_2018]
 - [Myung 2022][research_myung_2022]
 - [Müller et al 2017][research_muller_kuhn_2017]
-- [N and S 2026][research_n_s_2026]
-- [Na and Nah 2023][research_na_nah_2023]
 - [Nabi and Najafi 2024][research_nabi_najafi_2024]
-- [Naboni and Kunic 2017][research_naboni_kunic_2017]
 - [Nachawati et al 2017][research_nachawati_brodsky_2017]
 - [Naeem et al 2003][research_naeem_sutton_2003]
 - [Naftel, J. C. and Powell, R. W. 1983][research_nafteljc_powellrw_1983]
@@ -11207,14 +10242,11 @@ Of the four it is the only one that was ready.
 - [Nakhod 2026][research_nakhod_2026]
 - [Nancy J Lindsey 2016][research_nancyjlindsey_2016]
 - [Nandi 2001][research_nandi_2001]
-- [Naraghi et al 2018][research_naraghi_javadpour_2018]
 - [Narayanan et al 1996][research_narayanan_seyedyagoobi_1996]
 - [Narayanan et al 2026][research_narayanan_arumughamachari_2026]
 - [Nardozzo et al 2019][research_nardozzo_popkin_2019]
 - [Naseh and Jafarpanah 2022][research_naseh_jafarpanah_2022]
-- [Naser Abdel Rahim 2021][research_naserabdelrahim_2021]
 - [Nasiri et al 2025][research_nasiri_adami_2025]
-- [Nasiri Sarvi and Luo 2015][research_nasirisarvi_luo_2015]
 - [Nasiru 2021][research_nasiru_2021]
 - [Nasuti and Pizzarelli 2021][research_nasuti_pizzarelli_2021]
 - [Nasuti et al 2021][research_nasuti_torricelli_2021]
@@ -11236,7 +10268,6 @@ Of the four it is the only one that was ready.
 - [Negre 1975][research_negre_1975]
 - [Negre 1977][research_negre_1977]
 - [Neilson and Gilchrist 1968][research_neilson_gilchrist_1968]
-- [Nell 1970][research_nell_1970]
 - [Nelson and Fields 1995][research_nelson_fields_1995]
 - [Nelson and Mezines 1978][research_nelson_mezines_1978]
 - [Nelson, W. G. and Cody, J. 1972][research_nelsonwg_codyj_1972]
@@ -11263,9 +10294,7 @@ Of the four it is the only one that was ready.
 - [Ngo et al 2017][research_ngo_powell_2017]
 - [Nguyen 2020][research_nguyen_2020]
 - [Nguyen and Aleti 2025][research_nguyen_aleti_2025]
-- [Nguyen and Baker 2012][research_nguyen_baker_2012]
 - [Nguyen et al 2021][research_nguyen_rohacs_2021]
-- [Nguyen et al 2021][research_nguyen_tonmukayakul_2021]
 - [Nguyen et al 2023][research_nguyen_terrana_2023]
 - [Nguyen, H. 1998][research_nguyenh_1998]
 - [Nguyentat et al 1991][research_nguyentat_gibson_1991]
@@ -11294,7 +10323,6 @@ Of the four it is the only one that was ready.
 - [Nilesh and Kamlesh 2020][research_nilesh_kamlesh_2020]
 - [Nishi and Gagge 1970][research_nishi_gagge_1970]
 - [Nishino et al 2015][research_nishino_kurisaka_2015]
-- [Nisizawa 1995][research_nisizawa_1995]
 - [Niu and Su 2023][research_niu_su_2023]
 - [Nix, Michael and Staton, Eric J. 2004][research_nixmichael_statonericj_2004]
 - [Nix, Michael B. and Escher, William J. d. 1999][research_nixmichaelb_escherwilliamjd_1999]
@@ -11319,27 +10347,21 @@ Of the four it is the only one that was ready.
 - [Ntintakis et al 2025][research_ntintakis_stavroulakis_2025]
 - [Nuclear rocket engine cycle selection 1963][research_nuclear_rocket_1963]
 - [Nuclear Rocket uncooled nozzle study program. Phase III 1972][research_nuclear_rocket_1972]
-- [Nugraha et al 2025][research_nugraha_rendragraha_2025]
 - [Nugroho et al 2024][research_nugroho_andiarti_2024]
 - [Numerical Modeling of Pulse 2003][research_numerical_modeling_2003]
 - [Numerical Optimization on Approach and Landing for Reusable Launch Vehicle 2016][research_numerical_optimization_2016]
 - [Numerical Simulation Study on Flow Field of Aerospike Rocket Engine Nozzle 2025][research_numerical_simulation_2025]
-- [Nuncio et al 2020][research_nuncio_arcinas_2020]
 - [Nunome et al 2019][research_nunome_ozaki_2019]
-- [Nur et al 2018][research_nur_pane_2018]
-- [Nutter and Privett 1968][research_nutter_privett_1968]
 - [Nyancho et al 2026][research_nyancho_benedict_2026]
 - [O'Leary et al 2025][research_oleary_nassar_2025]
 - [Oakes 2021][research_oakes_2021]
 - [Obermann and Williamson 1998][research_obermann_williamson_1998]
 - [Obermann and Williamson 2003][research_obermann_williamson_2003]
-- [Obi et al 2020][research_obi_arif_2020]
 - [Oblanas 1968][research_oblanas_1968]
 - [Obreque and Díaz 2022][research_obreque_diaz_2022]
 - [Obrien, C. J. and Salkeld, R. 1980][research_obriencj_salkeldr_1980]
 - [Obrien, Charles J. 1989][research_obriencharlesj_1989]
 - [Oconnor 1966][research_oconnor_1966]
-- [Ocular Prosthesis with Cad/ Cam Workflow and Low Cost Additive Manufacturing 2022][research_ocular_prosthesis_2022]
 - [Odak et al 2025][research_odak_warren_2025]
 - [Oefelein 2003][research_oefelein_2003]
 - [Ofsthun 2002][research_ofsthun_2002]
@@ -11354,14 +10376,12 @@ Of the four it is the only one that was ready.
 - [Ohara et al 2001][research_ohara_yamaguchi_2001]
 - [Ohern 1975][research_ohern_1975]
 - [Ohtake 1998][research_ohtake_1998]
-- [Oikonomopoulos et al 2019][research_oikonomopoulos_tripsanas_2019]
 - [Oishi et al 2023][research_oishi_tamari_2023]
 - [Oka et al 2025][research_oka_tahara_2025]
 - [Okamoto et al 1996][research_okamoto_zhang_1996]
 - [Okano and Haga 2026][research_okano_haga_2026]
 - [Okayasu et al 1983][research_okayasu_higashino_1983]
 - [Okazaki and Fujiwara 2025][research_okazaki_fujiwara_2025]
-- [Okeke and Florence 2022][research_okeke_florence_2022]
 - [Okumura 2024][research_okumura_2024]
 - [Olcucuoglu et al 2018][research_olcucuoglu_temel_2018]
 - [Olds and Bradford 2001][research_olds_bradford_2001]
@@ -11378,13 +10398,10 @@ Of the four it is the only one that was ready.
 - [Oliver, Stanley T. et al 2004][research_oliverstanleyt_selvidgeshawn_2004]
 - [Olivero et al 2018][research_olivero_ferrai_2018]
 - [Olmeda and Stemmer 2019][research_olmeda_stemmer_2019]
-- [Olorode et al 2017][research_olorode_akkutlu_2017]
 - [Olsen, G. C. and Chapman, A. J., III 1972][research_olsengc_chapmanajiii_1972]
 - [Olson and Allen 1998][research_olson_allen_1998]
 - [Olsson et al 2024][research_olsson_cameron_2024]
-- [Oluwatobi A Ogunsaya and Rotimi Taiwo 2024][research_oluwatobiaogunsaya_rotimitaiwo_2024]
 - [Olynick 1998][research_olynick_1998]
-- [Omana et al 2015][research_omana_rossi_2015]
 - [Omata and Tsutsumi 2022][research_omata_tsutsumi_2022_b]
 - [Omata et al 2022][research_omata_tsutsumi_2022]
 - [Omori 1973][research_omori_1973]
@@ -11418,7 +10435,6 @@ Of the four it is the only one that was ready.
 - [Ostroff, A. J. and Wood, R. B. 1977][research_ostroffaj_woodrb_1977]
 - [Osuna and Adibi 2024][research_osuna_adibi_2024]
 - [Ota and Noguchi 2001][research_ota_noguchi_2001]
-- [Othman 2020][research_othman_2020]
 - [Otsuka and Takiyama 1967][research_otsuka_takiyama_1967]
 - [Otte, Neil E. et al 2008][research_otteneile_lylesgarry_2008]
 - [Otto and Flage 1960][research_otto_flage_1960]
@@ -11429,7 +10445,6 @@ Of the four it is the only one that was ready.
 - [Ozawa and Bruce 2025][research_ozawa_bruce_2025]
 - [Ozegowski et al 1998][research_ozegowski_metev_1998]
 - [Ozeki et al 2002][research_ozeki_takabayashi_2002]
-- [Ozkan and Ulutas 2016][research_ozkan_ulutas_2016]
 - [Oztan and Coverstone 2021][research_oztan_coverstone_2021]
 - [Oztan et al 2021][research_oztan_ginzburg_2021]
 - [Ozturk et al 2023][research_ozturk_ozkol_2023]
@@ -11441,7 +10456,6 @@ Of the four it is the only one that was ready.
 - [Paek and Lee 1996][research_paek_lee_1996]
 - [Pages and Achipa 2026][research_pages_achipa_2026]
 - [Paglia et al 2019][research_paglia_genova_2019]
-- [Pahl and Loipfinger 2018][research_pahl_loipfinger_2018]
 - [Paine 1950][research_paine_1950]
 - [Paing 2023][research_paing_2023]
 - [Palacios Hervas 2026][research_palacioshervas_2026]
@@ -11459,9 +10473,6 @@ Of the four it is the only one that was ready.
 - [Palumbo and Begun 1977][research_palumbo_begun_1977]
 - [Pamadi, Bandu N. and Brauchman, Gregory J. 1999][research_pamadibandun_brauchmangregoryj_1999]
 - [Pamadi, Bandu N. et al 2000][research_pamadibandun_brauckmanngregoryj_2000]
-- [Pambudi et al 2019][research_pambudi_ismail_2019]
-- [Pan 2018][research_pan_2018]
-- [Pan et al 2021][research_pan_zhang_2021]
 - [Pan et al 2022][research_pan_ding_2022]
 - [Pan et al 2023][research_pan_jiang_2023]
 - [Panda et al 2015][research_panda_mishra_2015]
@@ -11475,35 +10486,27 @@ Of the four it is the only one that was ready.
 - [Papadopoulos 1998][research_papadopoulos_1998]
 - [Papadopoulos, George et al 2014][research_papadopoulosgeorge_tiliakosnicholas_2014]
 - [Papakonstantinou et al 2022][research_papakonstantinou_moraitis_2022]
-- [Paradiso et al 2020][research_paradiso_roberti_2020]
 - [Paramo and Arizpe 2024][research_paramo_arizpe_2024]
-- [Parappathodi and Archetti 2022][research_parappathodi_archetti_2022]
 - [Paredes et al 2018][research_paredes_choudhari_2018]
 - [Paredes et al 2019][research_paredes_choudhari_2019]
 - [Paredes et al 2021][research_paredes_scholten_2021]
 - [Parent 2021][research_parent_2021]
 - [Parent and Hanquist 2021][research_parent_hanquist_2021]
 - [Parent and Zidane 2023][research_parent_zidane_2023]
-- [Pareo 2018][research_pareo_2018]
 - [Park and Kang 2002][research_park_kang_2002]
 - [Park et al 2004][research_park_cho_2004]
 - [Park et al 2023][research_park_bang_2023]
 - [Park et al 2023][research_park_park_2023]
 - [Park et al 2024][research_park_bae_2024]
 - [Park et al 2024][research_park_yang_2024]
-- [Park et al 2026][research_park_matuszek_2026]
 - [Parker and Templeman 1967][research_parker_templeman_1967]
-- [Parker et al 2015][research_parker_rains_2015]
 - [Parkes and Conomos 2024][research_parkes_conomos_2024]
 - [Parkinson and Fitzgibbon 1989][research_parkinson_fitzgibbon_1989]
 - [Parks and Tubb 1970][research_parks_tubb_1970]
 - [Parmenter et al 2001][research_parmenter_shuman_2001]
 - [Parrish and Jr 1978][research_parrish_jr_1978]
 - [Parsons 1970][research_parsons_1970]
-- [Parsons 2023][research_parsons_2023]
 - [Parsons Engineering Sciences Inc Pasadena Ca 1991][research_parsonsengineeringsciencesincpasadenaca_1991]
-- [Parziale 2015][research_parziale_2015]
-- [Pasae et al 2026][research_pasae_idrus_2026]
 - [Pasciuti et al 2025][research_pasciuti_acampa_2025]
 - [Pasley 1972][research_pasley_1972]
 - [Pasley 1972][research_pasley_1972_b]
@@ -11512,7 +10515,6 @@ Of the four it is the only one that was ready.
 - [Patel 2016][research_patel_2016]
 - [Patel et al 2019][research_patel_standbridge_2019]
 - [Patel et al 2025][research_patel_bassett_2025]
-- [Pateliya and Patidar 2026][research_pateliya_patidar_2026]
 - [Paterson 1991][research_paterson_1991]
 - [Patil and Kulkarni 2026][research_patil_kulkarni_2026]
 - [Patil et al 2015][research_patil_pise_2015]
@@ -11522,25 +10524,19 @@ Of the four it is the only one that was ready.
 - [Pattanaik and Anupindi 2025][research_pattanaik_anupindi_2025]
 - [Patterson and Arena 2015][research_patterson_arena_2015]
 - [Patton, R. D. et al 2001][research_pattonrd_pittmancujr_2001]
-- [Paul and Silva 2025][research_paul_silva_2025]
 - [Paula et al 2026][research_paula_bizarria_2026]
 - [Paulini 2019][research_paulini_2019]
 - [Paulini 2019][research_paulini_2019_b]
-- [Paulo R. T. and Lepikson 2020][research_paulort_lepikson_2020]
 - [Pavanasam et al 2024][research_pavanasam_anil_2024]
-- [Pavithra et al 2026][research_pavithra_vijayaraghavan_2026]
-- [Pavlikov 2025][research_pavlikov_2025]
 - [Pawar and Sharma 2018][research_pawar_sharma_2018]
 - [Pawar et al 2026][research_pawar_navle_2026]
 - [Paxson et al 2022][research_paxson_miki_2022]
 - [Paxton et al 2020][research_paxton_villasenor_2020]
 - [Payne 2024][research_payne_2024]
-- [Payne and Jr 1983][research_payne_jr_1983]
 - [Pazhani et al 2024][research_pazhani_salman_2024]
 - [Pearson and Sutton 1966][research_pearson_sutton_1966]
 - [Pedreiro, Nelson 1997][research_pedreironelson_1997]
 - [Peebles, Curtis 2007][research_peeblescurtis_2007]
-- [Peemen et al 2015][research_peemen_mesman_2015]
 - [Peet 2021][research_peet_2021]
 - [Peffley, Al F. 1991][research_peffleyalf_1991]
 - [Pei and Rothhaar 2015][research_pei_rothhaar_2015]
@@ -11549,20 +10545,15 @@ Of the four it is the only one that was ready.
 - [Pelevin and Ponomarev 2018][research_pelevin_ponomarev_2018]
 - [Pelevin and Ponomarev 2021][research_pelevin_ponomarev_2021]
 - [Pempie et al 2001][research_pempie_froehlich_2001]
-- [Pendergast and Mollendorf 2008][research_pendergast_mollendorf_2008]
 - [Peng and Wang 2026][research_peng_wang_2026]
 - [Peng et al 2018][research_peng_hu_2018]
 - [Peng et al 2020][research_peng_zhu_2020]
 - [Peng et al 2025][research_peng_kaiqi_2025]
 - [Penide-Fernandez and Sansoz 2019][research_penidefernandez_sansoz_2019]
-- [Penn and Owens 1991][research_penn_owens_1991]
-- [Penn and Owens 1991][research_penn_owens_1991_b]
 - [Penner 1949][research_penner_1949]
 - [Penner and Datner 1955][research_penner_datner_1955]
 - [Perakis et al 2018][research_perakis_rahn_2018]
 - [Perakis et al 2021][research_perakis_preis_2021]
-- [Pereira 2019][research_pereira_2019]
-- [Pereira et al 2015][research_pereira_bennati_2015]
 - [Perez 1964][research_perez_1964]
 - [Perez and Benner 1973][research_perez_benner_1973]
 - [Perez et al 2024][research_perez_johns_2024]
@@ -11591,7 +10582,6 @@ Of the four it is the only one that was ready.
 - [Petrishchev 2017][research_petrishchev_2017]
 - [Petsiuk and Pearce 2022][research_petsiuk_pearce_2022]
 - [Peugeot, John et al 2014][research_peugeotjohn_garciachance_2014]
-- [Pečenko and Hozjan 2020][research_pecenko_hozjan_2020]
 - [Pharokhipanah and Bouckenooghe 2024][research_pharokhipanah_bouckenooghe_2024]
 - [Phelan and Niemann 1998][research_phelan_niemann_1998]
 - [Philipchuk 1953][research_philipchuk_1953]
@@ -11605,7 +10595,6 @@ Of the four it is the only one that was ready.
 - [Piatak et al 2019][research_piatak_sekula_2019_b]
 - [Piccirillo 2023][research_piccirillo_2023]
 - [Picka, Bret A. and Glenn, Christopher B. 2011][research_pickabreta_glennchristopherb_2011]
-- [Pidgeon and Jr 2000][research_pidgeon_jr_2000]
 - [Piecewicz 1942][research_piecewicz_1942]
 - [Piekarz et al 2023][research_piekarz_wincza_2023]
 - [Piergallini and Stoll 1980][research_piergallini_stoll_1980]
@@ -11615,15 +10604,11 @@ Of the four it is the only one that was ready.
 - [Pike 1991][research_pike_1991]
 - [Pillow 1968][research_pillow_1968]
 - [Pilmaier et al 2022][research_pilmaier_bhushan_2022]
-- [Pilmanis et al 1999][research_pilmanis_petropoulos_1999]
 - [Pimentel et al 2018][research_pimentel_rego_2018]
 - [Pinalia et al 2021][research_pinalia_prianto_2021]
 - [Pinheiro Maia and Marinho 2018][research_pinheiromaia_marinho_2018]
 - [Pinier 2024][research_pinier_2024]
 - [Pioneer Rocket Motor Test Station Built for General Electric - U.S. Army Ordnance Research 1947][research_pioneer_rocket_1947]
-- [Pireddu et al 2023][research_pireddu_lombardi_2023]
-- [Pisu et al 2001][research_pisu_soliman_2001]
-- [Pisu et al 2003][research_pisu_soliman_2003]
 - [Pizzarelli 2021][research_pizzarelli_2021]
 - [Pizzarelli 2021][research_pizzarelli_2021_b]
 - [Pizzarelli et al 2015][research_pizzarelli_nasuti_2015]
@@ -11660,7 +10645,6 @@ Of the four it is the only one that was ready.
 - [Potier et al 2022][research_potier_duchaine_2022]
 - [Potter et al 1993][research_potter_connell_1993]
 - [Potts 1984][research_potts_1984]
-- [Potyagaylo et al 2015][research_potyagaylo_constantinou_2015]
 - [Pouliquen 1978][research_pouliquen_1978]
 - [Pouliquen 1978][research_pouliquen_1978_b]
 - [Poulopoulos et al 2026][research_poulopoulos_syriopoulos_2026]
@@ -11677,7 +10661,6 @@ Of the four it is the only one that was ready.
 - [Powers and Bailey 1982][research_powers_bailey_1982]
 - [Powers et al 1981][research_powers_bailey_1981]
 - [Pozzi and Mugnuolo 1998][research_pozzi_mugnuolo_1998]
-- [Prabakaran et al 2026][research_prabakaran_mohanraj_2026]
 - [Prabhu, Dinesh K. 2012][research_prabhudineshk_2012]
 - [Prabhu, Dinesh K. et al 2012][research_prabhudineshk_agrawalparul_2012]
 - [Prakash et al 2017][research_prakash_arun_2017]
@@ -11698,14 +10681,12 @@ Of the four it is the only one that was ready.
 - [Price et al 2022][research_price_panerai_2022]
 - [Price et al 2025][research_price_martin_2025]
 - [Price, H. G. 1980][research_pricehg_1980]
-- [Prime 1986][research_prime_1986]
 - [Primer on composite materials: Analysis 1985][research_primer_on_1985]
 - [Prince, Andrew S. et al 1989][research_princeandrews_bunkerrobertc_1989]
 - [Prince, Frank A. and Hamaker, Joseph W. 2001][research_princefranka_hamakerjosephw_2001]
 - [Princeton Univ Nj 1952][research_princetonunivnj_1952]
 - [Prins et al 1992][research_prins_meyer_1992]
 - [Prinz et al 2024][research_prinz_willnat_2024]
-- [Pritpal 2005][research_pritpal_2005]
 - [Priyadarshini et al 2023][research_priyadarshini_gourab_2023]
 - [Probabilistic assessment technique of air combat results during tests 2023][research_probabilistic_assessment_2023]
 - [Probabilistic Risk Assessment and Its Application in Complex Integrated Task Risk Assessment 2023][research_probabilistic_risk_2023]
@@ -11731,7 +10712,6 @@ Of the four it is the only one that was ready.
 - [Pulford and Lake 2023][research_pulford_lake_2023]
 - [Pulk and Stolarik 1977][research_pulk_stolarik_1977]
 - [Pullen 1973][research_pullen_1973]
-- [Pundle et al 2019][research_pundle_sullivan_2019]
 - [Purcell et al 2025][research_purcell_wicklund_2025]
 - [Purushotham and L 2018][research_purushotham_l_2018]
 - [Pustovyi 2026][research_pustovyi_2026]
@@ -11760,11 +10740,9 @@ Of the four it is the only one that was ready.
 - [Qu et al 2016][research_qu_liu_2016]
 - [Qu et al 2018][research_qu_liu_2018]
 - [Qu et al 2023][research_qu_zhang_2023]
-- [Qu et al 2024][research_qu_dawande_2024]
 - [Qu et al 2024][research_qu_liu_2024]
 - [Qu et al 2024][research_qu_xu_2024]
 - [Qu et al 2026][research_qu_wang_2026]
-- [Quaglia and Sorli 2001][research_quaglia_sorli_2001]
 - [Quan et al 2026][research_quan_ma_2026]
 - [Quentmeyer 1990][research_quentmeyer_1990]
 - [Quero Granado et al 2021][research_querogranado_hijlkema_2021]
@@ -11772,7 +10750,6 @@ Of the four it is the only one that was ready.
 - [Quinn 1966][research_quinn_1966]
 - [Quinn et al 2023][research_quinn_pickard_2023]
 - [Quinn et al 2024][research_quinn_pickard_2024]
-- [Qurohman and Usman 2019][research_qurohman_usman_2019]
 - [R and Jv 2024][research_r_jv_2024]
 - [R and Rose 2024][research_r_rose_2024]
 - [R C et al 2023][research_rc_k_2023]
@@ -11783,7 +10760,6 @@ Of the four it is the only one that was ready.
 - [Radhakrishnan et al 2024][research_radhakrishnan_ha_2024]
 - [Radhakrishnan et al 2024][research_radhakrishnan_hari_2024]
 - [RADIATION EFFECTS ON A NUCLEAR ROCKET ENGINE SYSTEM. Final Report 1961][research_radiation_effects_1961]
-- [Radlinski et al 2024][research_radlinski_sachs_2024]
 - [Raei et al 2022][research_raei_cho_2022]
 - [Rafla 2019][research_rafla_2019]
 - [Ragab and Cheatwood 2015][research_ragab_cheatwood_2015]
@@ -11801,8 +10777,6 @@ Of the four it is the only one that was ready.
 - [Rahn et al 2021][research_rahn_riedmann_2021]
 - [Rahnamai et al 2018][research_rahnamai_searles_2018]
 - [Rainey 1964][research_rainey_1964]
-- [Rajamani 2002][research_rajamani_2002]
-- [Rajamani and Shrivastava 2001][research_rajamani_shrivastava_2001]
 - [Rajan et al 2019][research_rajan_heroldwright_2019]
 - [Rajendran and Smith 2018][research_rajendran_smith_2018]
 - [Raju et al 2021][research_raju_suryan_2021]
@@ -11811,15 +10785,12 @@ Of the four it is the only one that was ready.
 - [Ram et al 2025][research_ram_joshi_2025]
 - [Ramadhan et al 2024][research_ramadhan_andoko_2024]
 - [Ramamurti 2001][research_ramamurti_2001]
-- [Ramirez et al 2022][research_ramirez_burch_2022]
 - [Ramohalli and Magiawala 1981][research_ramohalli_magiawala_1981]
 - [Rampazzo and Barato 2023][research_rampazzo_barato_2023]
 - [Ramsey et al 2023][research_ramsey_ahuja_2023]
 - [Ramsthaler et al 1991][research_ramsthaler_culver_1991]
 - [Ramírez Navidad et al 2024][research_ramireznavidad_sancheznogales_2024]
 - [Rana and Chudoba 2016][research_rana_chudoba_2016]
-- [Rana and Sivakumar Babu 2023][research_rana_sivakumarbabu_2023]
-- [Ranade et al 2022][research_ranade_he_2022]
 - [Randall 1978][research_randall_1978]
 - [Randelovic et al 2023][research_randelovic_schneider_2023]
 - [Randhawa 1966][research_randhawa_1966]
@@ -11831,7 +10802,6 @@ Of the four it is the only one that was ready.
 - [Rao 1987][research_rao_1987]
 - [Rao and Chimata 2024][research_rao_chimata_2024]
 - [Raouf and Pourtakdoust 2017][research_raouf_pourtakdoust_2017]
-- [Rapko and Wagner 1997][research_rapko_wagner_1997]
 - [Rasky 1995][research_rasky_1995]
 - [Rasky et al 2001][research_rasky_milos_2001]
 - [Rasky, Dan J. et al 2000][research_raskydanj_milosfranks_2000]
@@ -11857,7 +10827,6 @@ Of the four it is the only one that was ready.
 - [Recker et al 2018][research_recker_gribble_2018]
 - [Reddy et al 2023][research_reddy_sai_2023]
 - [Redondo Gutierrez et al 2022][research_redondogutierrez_seelbinder_2022]
-- [Redtenbacher et al 2024][research_redtenbacher_kiesling_2024]
 - [Redundancy and switching failure 1963][research_redundancy_and_1963]
 - [Redundancy reliability 1982][research_redundancy_reliability_1982]
 - [Reed 1977][research_reed_1977]
@@ -11886,26 +10855,20 @@ Of the four it is the only one that was ready.
 - [Reliability through redundancy in electro-mechanical devices 1963][research_reliability_through_1963]
 - [Reliability tradeoff circuit redundancy 1964][research_reliability_tradeoff_1964]
 - [Reliable interconnections for Army avionics 1972][research_reliable_interconnections_1972]
-- [Remediation of petroleum hydrocarbon-contaminated ground water in the vicinity of a jet-fuel tank farm, Hanahan, South Carolina 1997][research_remediation_of_1997]
 - [Remiddi et al 2022][research_remiddi_indelicato_2022]
 - [Ren et al 1997][research_ren_tang_1997]
 - [Ren et al 1998][research_ren_tang_1998]
-- [Ren et al 2021][research_ren_wei_2021]
 - [Ren et al 2021][research_ren_zhang_2021]
 - [Research on the Overall Design of Low Cost Launch Vehicle 2017][research_research_on_the_2017]
-- [Research on Urban Vehicle Art Design and Development Based on Local Culture 2018][research_research_on_2018]
 - [Resemini and De Souza Costa 2018][research_resemini_desouzacosta_2018]
 - [Reske and Brodnick 2024][research_reske_brodnick_2024]
 - [Reusable Reentry Satellite RRS 1990][research_reusable_reentry_1990]
 - [Reusable single-state-to-orbit vehicle concept utilizing composite engines 1984][research_reusable_single_state_to_orbit_1984]
-- [Review on Design and Development of Three Wheeled Campus Mobility Vehicle 2017][research_review_on_2017]
 - [Rey 2000][research_rey_2000]
 - [Rezin, Marc et al 2001][research_rezinmarc_okakris_2001]
 - [Rheaume and Lents 2018][research_rheaume_lents_2018]
 - [Rhee et al 2025][research_rhee_yi_2025]
 - [Rhisat and Molki 2023][research_rhisat_molki_2023]
-- [Rhoades et al 2018][research_rhoades_srivastava_2018]
-- [Rhodes et al 2018][research_rhodes_whitehead_2018]
 - [Ribeiro and Roque 2022][research_ribeiro_roque_2022]
 - [Ricci et al 2016][research_ricci_natale_2016]
 - [Ricci et al 2023][research_ricci_battista_2023]
@@ -11921,7 +10884,6 @@ Of the four it is the only one that was ready.
 - [Richards, W Lance et al 2013][research_richardswlance_madaraserici_2013]
 - [Richardson 2024][research_richardson_2024]
 - [Richman 1967][research_richman_1967]
-- [Richter et al 2024][research_richter_konig_2024]
 - [Rico and Turkoglu 2016][research_rico_turkoglu_2016]
 - [Ridosko et al 2024][research_ridosko_kryspin_2024]
 - [Riehl, John et al 2002][research_riehljohn_trefnycharles_2002]
@@ -11938,7 +10900,6 @@ Of the four it is the only one that was ready.
 - [Ringel et al 2022][research_ringel_zaepfel_2022]
 - [Ringuette et al 2001][research_ringuette_dubois_2001]
 - [Rinta-Paavola et al 2023][research_rintapaavola_sukhomlinov_2023]
-- [Riquier et al 2023][research_riquier_vanhoye_2023]
 - [Risch 2017][research_risch_2017]
 - [Risch and Laub 1990][research_risch_laub_1990]
 - [Risko 1999][research_risko_1999]
@@ -11972,7 +10933,6 @@ Of the four it is the only one that was ready.
 - [Rodrigues et al 2024][research_rodrigues_cavalcante_2024]
 - [Rodriguez and Kalman 2024][research_rodriguez_kalman_2024]
 - [Rodríguez Otero et al 2020][research_rodriguezotero_moralesjimenez_2020]
-- [Roekens and van Grieken 1989][research_roekens_vangrieken_1989]
 - [Rogers et al 2017][research_rogers_noren_2017]
 - [Rohan et al 2023][research_rohan_mantero_2023]
 - [Rojas-Oviedo et al 2001][research_rojasoviedo_deng_2001]
@@ -11998,7 +10958,6 @@ Of the four it is the only one that was ready.
 - [Rosello et al 1996][research_rosello_adams_1996]
 - [Rosenfeld and Davis 1986][research_rosenfeld_davis_1986]
 - [Rosić and Diekmann 2015][research_rosic_diekmann_2015]
-- [Rossi 2023][research_rossi_2023]
 - [Rossman and Braun 2016][research_rossman_braun_2016]
 - [Rossman and Braun 2017][research_rossman_braun_2017]
 - [Rostkowski and Panesi 2022][research_rostkowski_panesi_2022]
@@ -12023,27 +10982,20 @@ Of the four it is the only one that was ready.
 - [Rufolo et al 2024][research_rufolo_destefanofumo_2024]
 - [Rui 2016][research_rui_2016]
 - [Ruiz et al 2021][research_ruiz_mueller_2021]
-- [Runnels et al 2017][research_runnels_andrew_2017]
 - [Rupert and King 2025][research_rupert_king_2025]
 - [Rupp 2014][research_rupp_2014]
 - [Rush et al 1967][research_rush_bracken_1967]
-- [Russi and Del Gaudio 2021][research_russi_delgaudio_2021]
-- [Rusydy et al 2026][research_rusydy_canbulat_2026]
 - [Rutter 1984][research_rutter_1984]
 - [Ryan and Cummings 2015][research_ryan_cummings_2015]
 - [Ryan and Granger 2023][research_ryan_granger_2023]
 - [Ryan and Verderaime 1993][research_ryan_verderaime_1993]
-- [Rymarz et al 2016][research_rymarz_niewczas_2016]
 - [Ryu et al 2024][research_ryu_kim_2024]
 - [S 2017][research_s_2017]
-- [S et al 2025][research_s_n_2025]
 - [S et al 2025][research_s_s_2025]
 - [S et al 2026][research_s_m_2026]
-- [S. et al 2024][research_s_ilangovan_2024]
 - [S. Hameed and G. R 2021][research_shameed_gr_2021]
 - [S. Prasanraj 2019][research_sprasanraj_2019]
 - [Sa et al 2017][research_sa_afzal_2017]
-- [Saavedra and Osma 2025][research_saavedra_osma_2025]
 - [Sabarilal and Kumar 2018][research_sabarilal_kumar_2018]
 - [Saboktakin and Monjezi 2024][research_saboktakin_monjezi_2024]
 - [Sabán et al 2024][research_saban_diez_2024]
@@ -12066,7 +11018,6 @@ Of the four it is the only one that was ready.
 - [Saha et al 2017][research_saha_mahamud_2017]
 - [Saha et al 2020][research_saha_de_2020]
 - [Saha et al 2025][research_saha_baker_2025]
-- [Saha et al 2025][research_saha_tripathi_2025]
 - [Sahani et al 2017][research_sahani_mandal_2017]
 - [Saiki et al 2026][research_saiki_christian_2026]
 - [Sakai and Takahashi 2017][research_sakai_takahashi_2017]
@@ -12077,14 +11028,11 @@ Of the four it is the only one that was ready.
 - [Sakamoto et al 2023][research_sakamoto_sato_2023_b]
 - [Sakowski et al 2019][research_sakowski_hauser_2019]
 - [Sakurai and Hayashi 2015][research_sakurai_hayashi_2015]
-- [Salah et al 2020][research_salah_jemai_2020]
 - [Salahudden 2025][research_salahudden_2025]
-- [Salama and McGarvey 2022][research_salama_mcgarvey_2022]
 - [Salazar and Amar 2021][research_salazar_amar_2021]
 - [Salazar et al 2016][research_salazar_droba_2016]
 - [Saleh and Zahmatkesh 2024][research_saleh_zahmatkesh_2024]
 - [Salehi et al 1995][research_salehi_li_1995]
-- [Salminen 2015][research_salminen_2015]
 - [Salt 1995][research_salt_1995]
 - [Salvi et al 2026][research_salvi_hohn_2026]
 - [Samkhaniani 2016][research_samkhaniani_2016]
@@ -12100,7 +11048,6 @@ Of the four it is the only one that was ready.
 - [Sandri et al 2025][research_sandri_polanka_2025]
 - [Sanford et al 2003][research_sanford_higgins_2003]
 - [Sangwan and Banik 2023][research_sangwan_banik_2023]
-- [Sangwan et al 2017][research_sangwan_choudhary_2017]
 - [Sankar et al 2017][research_sankar_a_2017]
 - [Sankararaman and Goebel 2020][research_sankararaman_goebel_2020]
 - [Sanson et al 2017][research_sanson_villedieu_2017]
@@ -12110,18 +11057,14 @@ Of the four it is the only one that was ready.
 - [Santos et al 2021][research_santos_hosder_2021]
 - [Sanuki 1965][research_sanuki_1965]
 - [Saokhede et al 2025][research_saokhede_borse_2025]
-- [Sarangi and Priyadarsini 2026][research_sarangi_priyadarsini_2026]
 - [Saravani et al 2018][research_saravani_beyhaghi_2018]
 - [Sarbu and Iosif 2017][research_sarbu_iosif_2017]
 - [Sarotte et al 2019][research_sarotte_marzat_2019]
 - [Sarrafian 1986][research_sarrafian_1986]
-- [Sarwar and Cantero 2022][research_sarwar_cantero_2022]
-- [Sarwar and Cantero 2023][research_sarwar_cantero_2023]
 - [Sasanapuri 2015][research_sasanapuri_2015]
 - [Sasmal et al 2023][research_sasmal_holmes_2023]
 - [Sather et al 1952][research_sather_schuricht_1952]
 - [Sather et al 1952][research_sather_schuricht_1952_b]
-- [Sathish and Cv 2026][research_sathish_cv_2026]
 - [Satish and Venkatasubbaiah 2020][research_satish_venkatasubbaiah_2020]
 - [Sato et al 2018][research_sato_ishikawa_2018]
 - [Sato et al 2020][research_sato_nakano_2020]
@@ -12131,12 +11074,10 @@ Of the four it is the only one that was ready.
 - [Savuran and Karakaya 2015][research_savuran_karakaya_2015]
 - [Sawant et al 2019][research_sawant_rao_2019]
 - [Sawyer et al 1999][research_sawyer_hodge_1999]
-- [Saxena and Gupta 2022][research_saxena_gupta_2022]
 - [Saxena et al 2023][research_saxena_soni_2023]
 - [Sayed et al 2024][research_sayed_aly_2024]
 - [Sayyar and Saghafian 2017][research_sayyar_saghafian_2017]
 - [Sayyed et al 2020][research_sayyed_sharma_2020]
-- [Sağbaş and Gürkan 2021][research_sagbas_gurkan_2021]
 - [Sbutega and Catton 2015][research_sbutega_catton_2015]
 - [Scala 1962][research_scala_1962]
 - [Scandelli et al 2023][research_scandelli_ahmadisenichault_2023]
@@ -12156,7 +11097,6 @@ Of the four it is the only one that was ready.
 - [Schmierer et al 2019][research_schmierer_kobald_2019]
 - [Schmitt and Burchett 2004][research_schmitt_burchett_2004]
 - [Schneider and Breda 2024][research_schneider_breda_2024]
-- [Schneidereit et al 2018][research_schneidereit_tschernich_2018]
 - [Schoenman 1988][research_schoenman_1988]
 - [Schoenman 1991][research_schoenman_1991]
 - [Schoenman and Doniger 1965][research_schoenman_doniger_1965]
@@ -12186,7 +11126,6 @@ Of the four it is the only one that was ready.
 - [Sebisty 1959][research_sebisty_1959]
 - [Sebring and Young 1981][research_sebring_young_1981]
 - [Segaser 1978][research_segaser_1978]
-- [Segond et al 2026][research_segond_lefebvre_2026]
 - [Seidel 1965][research_seidel_1965]
 - [Seidel 1974][research_seidel_1974]
 - [Seif et al 2018][research_seif_kamal_2018]
@@ -12226,11 +11165,8 @@ Of the four it is the only one that was ready.
 - [Shannon 1970][research_shannon_1970]
 - [Shao et al 2017][research_shao_wu_2017]
 - [Shao et al 2026][research_shao_zhao_2026]
-- [Sharankova et al 2023][research_sharankova_seiya_2023]
 - [Sharma 2019][research_sharma_2019]
 - [Sharma and Hosder 2024][research_sharma_hosder_2024]
-- [Sharma and Mittal 2024][research_sharma_mittal_2024]
-- [Sharma et al 2024][research_sharma_chaudhuri_2024]
 - [Sharmila and Samad 2026][research_sharmila_samad_2026]
 - [Sharn 1962][research_sharn_1962]
 - [Shaw and Womack 1984][research_shaw_womack_1984]
@@ -12244,14 +11180,11 @@ Of the four it is the only one that was ready.
 - [Shen et al 2019][research_shen_lifey_2019]
 - [Shen et al 2020][research_shen_wang_2020]
 - [Shen et al 2020][research_shen_zhuang_2020]
-- [Shen et al 2025][research_shen_su_2025]
 - [Shen et al 2025][research_shen_zhou_2025]
-- [Shengjun et al 2026][research_shengjun_junyang_2026]
 - [Shepperd and Staugler 1999][research_shepperd_staugler_1999]
 - [Sheremet 2021][research_sheremet_2021]
 - [Sheremet 2023][research_sheremet_2023]
 - [Shi 2016][research_shi_2016]
-- [Shi et al 2002][research_shi_cheng_2002]
 - [Shi et al 2015][research_shi_chew_2015]
 - [Shi et al 2018][research_shi_boyer_2018]
 - [Shi et al 2021][research_shi_zha_2021]
@@ -12262,13 +11195,10 @@ Of the four it is the only one that was ready.
 - [Shibato 1995][research_shibato_1995]
 - [Shih and Cheung 1997][research_shih_cheung_1997]
 - [Shih et al 1988][research_shih_zwan_1988]
-- [Shih et al 2023][research_shih_tsai_2023]
 - [Shilav et al 2021][research_shilav_gottlieb_2021]
 - [Shilwant and Mahulikar 2024][research_shilwant_mahulikar_2024]
 - [Shimizu et al 2024][research_shimizu_goyal_2024]
 - [Shimmy 2026][research_shimmy_2026]
-- [Shin et al 2020][research_shin_choi_2020]
-- [Shin et al 2021][research_shin_kim_2021]
 - [Shin et al 2022][research_shin_roh_2022]
 - [Shine and Nidhi 2018][research_shine_nidhi_2018]
 - [Shinn, A. M., Jr. 1967][research_shinnamjr_1967]
@@ -12277,7 +11207,6 @@ Of the four it is the only one that was ready.
 - [Shishov et al 1990][research_shishov_zabolotsky_1990]
 - [Shivakumar and Cozart 2002][research_shivakumar_cozart_2002]
 - [Shivam et al 2023][research_shivam_s_2023]
-- [Shivaprasad and Yang 2026][research_shivaprasad_yang_2026]
 - [Shivers, Herb 2010][research_shiversherb_2010]
 - [Shiwa et al 1990][research_shiwa_higuchi_1990]
 - [Shiwa et al 1990][research_shiwa_higuchi_1990_b]
@@ -12291,10 +11220,7 @@ Of the four it is the only one that was ready.
 - [Shrestha and Candler 2018][research_shrestha_candler_2018]
 - [Shrestha et al 2017][research_shrestha_nichols_2017]
 - [Shtessel et al 2000][research_shtessel_hall_2000]
-- [Shu et al 2025][research_shu_pi_2025]
-- [Shu et al 2025][research_shu_wang_2025]
 - [Shubov 2023][research_shubov_2023]
-- [Shui et al 2023][research_shui_yang_2023]
 - [Shukla 2025][research_shukla_2025]
 - [Shukla and Woolsey 2018][research_shukla_woolsey_2018]
 - [Shulepov and Popov 2018][research_shulepov_popov_2018]
@@ -12311,15 +11237,12 @@ Of the four it is the only one that was ready.
 - [Sidharth and Dwivedi 2026][research_sidharth_dwivedi_2026]
 - [Sidoruk et al 2020][research_sidoruk_popov_2020]
 - [Siebel 2025][research_siebel_2025]
-- [Sieja 1970][research_sieja_1970]
 - [Sierikova et al 2022][research_sierikova_koloskov_2022]
 - [Sierra et al 2017][research_sierra_tizon_2017]
-- [Sigeneger et al 2025][research_sigeneger_singer_2025]
 - [Signorelli et al 2024][research_signorelli_higgins_2024]
 - [Silaidis et al 2024][research_silaidis_maggi_2024]
 - [Silnikov and Chernyshov 2017][research_silnikov_chernyshov_2017]
 - [Silva et al 2017][research_silva_cerqueira_2017]
-- [Silva et al 2022][research_silva_surra_2022]
 - [Silva et al 2023][research_silva_arocena_2023]
 - [Silva Guimaraes and d’Andrade Souto 2021][research_silvaguimaraes_dandradesouto_2021]
 - [Silva Oliveira et al 2017][research_silvaoliveira_luizdasilva_2017]
@@ -12328,7 +11251,6 @@ Of the four it is the only one that was ready.
 - [Simms, William Herbert, III et al 2014][research_simmswilliamherbertiii_varnavaskosta_2014]
 - [Simon and Chudoba 2021][research_simon_chudoba_2021]
 - [Simons 1972][research_simons_1972]
-- [Simonsic 1975][research_simonsic_1975]
 - [Simplício et al 2019][research_simplicio_marcos_2019]
 - [Simpson 2021][research_simpson_2021]
 - [Simpson, James 2010][research_simpsonjames_2010]
@@ -12344,7 +11266,6 @@ Of the four it is the only one that was ready.
 - [Singh et al 2021][research_singh_pujari_2021]
 - [Singh et al 2022][research_singh_stappert_2022]
 - [Singh et al 2024][research_singh_yanamashetti_2024]
-- [Singh et al 2025][research_singh_singh_2025]
 - [Sinha and Kumar 2024][research_sinha_kumar_2024]
 - [Sinsbeck and Nowak 2017][research_sinsbeck_nowak_2017]
 - [Sinsbeck et al 2021][research_sinsbeck_cooke_2021]
@@ -12381,7 +11302,6 @@ Of the four it is the only one that was ready.
 - [Smith 1956][research_smith_1956]
 - [Smith 1969][research_smith_1969]
 - [Smith 1983][research_smith_1983]
-- [Smith 2020][research_smith_2020]
 - [Smith 2021][research_smith_2021]
 - [Smith and Bae 2023][research_smith_bae_2023]
 - [Smith and Bardaweel 2018][research_smith_bardaweel_2018]
@@ -12427,7 +11347,6 @@ Of the four it is the only one that was ready.
 - [Song and Zheng 2019][research_song_zheng_2019]
 - [Song et al 2020][research_song_ai_2020]
 - [Song et al 2021][research_song_guo_2021]
-- [Song et al 2021][research_song_yao_2021]
 - [Song et al 2022][research_song_cheng_2022]
 - [Song et al 2022][research_song_yuan_2022]
 - [Song et al 2023][research_song_ma_2023]
@@ -12437,7 +11356,6 @@ Of the four it is the only one that was ready.
 - [Sorensen, Kirk and Schafer, Charles 2001][research_sorensenkirk_schafercharles_2001]
 - [Sorgenfrei et al 2017][research_sorgenfrei_kemp_2017]
 - [Sorocki et al 2024][research_sorocki_piekarz_2024]
-- [Sorrell 1997][research_sorrell_1997]
 - [Sotello et al 1991][research_sotello_penner_1991]
 - [Sotirakos and Prazenica 2025][research_sotirakos_prazenica_2025]
 - [Soto and Williams 2024][research_soto_williams_2024]
@@ -12455,8 +11373,6 @@ Of the four it is the only one that was ready.
 - [Sparks 1988][research_sparks_1988]
 - [Special Section Designing for 2017][research_special_section_2017]
 - [Specker and Brinkley 1983][research_specker_brinkley_1983]
-- [Spencer 1906][research_spencer_1906]
-- [Spencer 1907][research_spencer_1907]
 - [Spencer 1997][research_spencer_1997]
 - [Spencer 1999][research_spencer_1999]
 - [Spencer and Beggs 1977][research_spencer_beggs_1977]
@@ -12476,7 +11392,6 @@ Of the four it is the only one that was ready.
 - [Sreekanth and Reddy 1994][research_sreekanth_reddy_1994]
 - [Sreekanth and Reddy 1995][research_sreekanth_reddy_1995]
 - [Sreeyesunath and Sugathan 1994][research_sreeyesunath_sugathan_1994]
-- [Srinikhil et al 2025][research_srinikhil_d_2025]
 - [Srinivasan et al 2023][research_srinivasan_lakshmi_2023]
 - [Srivastav et al 2024][research_srivastav_maithani_2024]
 - [Srivastava and Jain 2023][research_srivastava_jain_2023]
@@ -12491,14 +11406,12 @@ Of the four it is the only one that was ready.
 - [Stahl et al 1984][research_stahl_arena_1984]
 - [Stallings, Jr. 1982][research_stallingsjr_1982]
 - [Stamatelos and Labeas 2025][research_stamatelos_labeas_2025]
-- [Stancu et al 2022][research_stancu_debski_2022]
 - [Stand-by redundancy complex system's reliability 1974][research_stand_by_redundancy_1974]
 - [Standby redundancy in reliability-a review 1987][research_standby_redundancy_1987]
 - [Stange 1959][research_stange_1959]
 - [Staniszewski 2001][research_staniszewski_2001]
 - [Stanley, Douglas O. and Powell, Richard W. 1990][research_stanleydouglaso_powellrichardw_1990]
 - [States 2001][research_states_2001]
-- [Stavropoulou 2022][research_stavropoulou_2022]
 - [Stechmann and Heister 2016][research_stechmann_heister_2016]
 - [Steffens and Mavris 2015][research_steffens_mavris_2015]
 - [Steffens et al 2016][research_steffens_edwards_2016]
@@ -12516,7 +11429,6 @@ Of the four it is the only one that was ready.
 - [Stephenson 2018][research_stephenson_2018]
 - [Stephenson, Frank W., Jr. 1988][research_stephensonfrankwjr_1988]
 - [Steppert et al 2018][research_steppert_epple_2018]
-- [Stern et al 2023][research_stern_alemann_2023]
 - [Sternfeld 1972][research_sternfeld_1972]
 - [Stewart and Cox 1985][research_stewart_cox_1985]
 - [Stewart and Martin 1995][research_stewart_martin_1995]
@@ -12526,19 +11438,15 @@ Of the four it is the only one that was ready.
 - [Stewart et al 2026][research_stewart_dooher_2026]
 - [Stickler and Keller 1998][research_stickler_keller_1998]
 - [Stier and Böse 2020][research_stier_bose_2020]
-- [Stinson et al 1998][research_stinson_garmenn_1998]
 - [Stojanovski and Selva 2017][research_stojanovski_selva_2017]
 - [Stoker 1964][research_stoker_1964]
 - [Stokes et al 1999][research_stokes_chappell_1999]
 - [Stolarik 2007][research_stolarik_2007]
 - [Stoll 1961][research_stoll_1961]
 - [Stoll et al 1975][research_stoll_munroe_1975]
-- [Stoller 1963][research_stoller_1963]
 - [Stonehill et al 2023][research_stonehill_smith_2023]
-- [Storr 2015][research_storr_2015]
 - [Story, George 2014][research_storygeorge_2014]
 - [Story, George 2015][research_storygeorge_2015]
-- [Stow et al 2016][research_stow_akgun_2016]
 - [Stower 2024][research_stower_2024]
 - [Stower 2025][research_stower_2025]
 - [Strahle and Handley 1978][research_strahle_handley_1978]
@@ -12554,7 +11462,6 @@ Of the four it is the only one that was ready.
 - [Strganac 2007][research_strganac_2007]
 - [Striz and Jang 1987][research_striz_jang_1987]
 - [Strobel, Forrest and King, Belinda 1993][research_strobelforrest_kingbelinda_1993]
-- [Strohbehn and Grimm 2026][research_strohbehn_grimm_2026]
 - [Strome 1969][research_strome_1969]
 - [Stroud, C. W. and Brinkley, K. L. 1975][research_stroudcw_brinkleykl_1975]
 - [Stroud, C. W. et al 1987][research_stroudcw_howserlm_1987]
@@ -12568,13 +11475,11 @@ Of the four it is the only one that was ready.
 - [Stubbs 1964][research_stubbs_1964]
 - [Studenov 2017][research_studenov_2017]
 - [Study of Gas CNG 1996][research_study_of_1996]
-- [Study of the influence of autonomous vehicles on transport network capacity 2020][research_study_of_2020]
 - [Study on Miller cycle gas engine for power generation ? 2nd report: Numerical analysis for improvement of efficiency and power Satoshi Shimogata, Ryoji Homma, FuRong Zhang, Kazuhisa Okamoto, Fujio Shoji (Tokyo Gas Co., Ltd.) 1996][research_study_on_1996]
 - [Su 2017][research_su_2017]
 - [Su and Liu 2025][research_su_liu_2025]
 - [Su and Liu 2025][research_su_liu_2025_b]
 - [Su and Wang 2015][research_su_wang_2015]
-- [Su and Yang 2025][research_su_yang_2025]
 - [Su et al 2021][research_su_dai_2021]
 - [Su et al 2022][research_su_shi_2022]
 - [Su et al 2022][research_su_wang_2022]
@@ -12593,20 +11498,16 @@ Of the four it is the only one that was ready.
 - [Sullings and Waller 1967][research_sullings_waller_1967]
 - [Sullivan and Kobayashi 1987][research_sullivan_kobayashi_1987]
 - [Sultana et al 2024][research_sultana_alam_2024]
-- [Sumarsono et al 2018][research_sumarsono_ibrahim_2018]
 - [Summerfield 1951][research_summerfield_1951]
 - [Summerfield 1951][research_summerfield_1951_b]
 - [Sun 2022][research_sun_2022]
 - [Sun and van Kampen 2020][research_sun_vankampen_2020]
-- [Sun and Wang 2018][research_sun_wang_2018]
 - [Sun et al 2018][research_sun_qu_2018]
 - [Sun et al 2019][research_sun_ji_2019]
 - [Sun et al 2020][research_sun_yang_2020]
 - [Sun et al 2021][research_sun_plumlee_2021]
 - [Sun et al 2021][research_sun_yang_2021]
 - [Sun et al 2022][research_sun_cheng_2022]
-- [Sun et al 2022][research_sun_ye_2022]
-- [Sun et al 2023][research_sun_singh_2023]
 - [Sun et al 2024][research_sun_yao_2024]
 - [Sun et al 2026][research_sun_qian_2026]
 - [Sung and To 2026][research_sung_to_2026]
@@ -12617,7 +11518,6 @@ Of the four it is the only one that was ready.
 - [Suresh and Ratnoo 2019][research_suresh_ratnoo_2019]
 - [Suresh et al 2019][research_suresh_panigrahi_2019]
 - [Surkova A.D. and Neusypin K.А. 2026][research_surkovaad_neusypink_2026]
-- [Sutherland et al 2026][research_sutherland_conroy_2026]
 - [Sutton 1970][research_sutton_1970]
 - [Suzuki et al 2003][research_suzuki_sawada_2003]
 - [Suzuki et al 2004][research_suzuki_sawada_2004]
@@ -12634,7 +11534,6 @@ Of the four it is the only one that was ready.
 - [Swensen 2024][research_swensen_2024]
 - [Swiss Students Achieve Europe’s First Reusable Rocket Hopper 2025][research_swiss_students_2025]
 - [Swoyer et al 2026][research_swoyer_sethi_2026]
-- [Syarifudin 2018][research_syarifudin_2018]
 - [Symons 1987][research_symons_1987]
 - [Syscon Corp Washington Dc 1983][research_sysconcorpwashingtondc_1983]
 - [Szabolcsi 2018][research_szabolcsi_2018]
@@ -12642,17 +11541,14 @@ Of the four it is the only one that was ready.
 - [Szasz et al 2015][research_szasz_okuyama_2015]
 - [Szatkowski 1985][research_szatkowski_1985]
 - [Szedula 1996][research_szedula_1996]
-- [Szynkarczyk et al 2022][research_szynkarczyk_wrona_2022]
 - [T A 2025][research_ta_2025]
 - [T V Chambers 1977][research_tvchambers_1977]
 - [Ta 2024][research_ta_2024]
-- [Taccini et al 2023][research_taccini_iori_2023]
 - [Taghizadeh et al 2022][research_taghizadeh_nezhadshahbodaghi_2022]
 - [Tahmasbi and Noori 2021][research_tahmasbi_noori_2021]
 - [Tai and Jang 2017][research_tai_jang_2017]
 - [Tajima 1965][research_tajima_1965]
 - [Tak and Jung 2018][research_tak_jung_2018]
-- [Takahashi 2019][research_takahashi_2019]
 - [Takahashi et al 1997][research_takahashi_mizobata_1997]
 - [Takahashi et al 2018][research_takahashi_schulein_2018]
 - [Takaki and Kawabata 2022][research_takaki_kawabata_2022]
@@ -12665,7 +11561,6 @@ Of the four it is the only one that was ready.
 - [Tam et al 1998][research_tam_jaeklejr_1998]
 - [Tam et al 2000][research_tam_kawahara_2000]
 - [Tam et al 2002][research_tam_dommer_2002]
-- [Tam et al 2026][research_tam_siddiqiemon_2026]
 - [Tamang 2025][research_tamang_2025]
 - [Tamma and Yurko 1988][research_tamma_yurko_1988]
 - [Tamura et al 1987][research_tamura_ono_1987]
@@ -12678,15 +11573,12 @@ Of the four it is the only one that was ready.
 - [Tang et al 2022][research_tang_li_2022]
 - [Taniguchi 2000][research_taniguchi_2000]
 - [Tanner 1997][research_tanner_1997]
-- [Tao and Mahendran 2021][research_tao_mahendran_2021]
 - [Tao and Sun 2019][research_tao_sun_2019]
-- [Tao et al 2018][research_tao_li_2018]
 - [Tao et al 2023][research_tao_tian_2023]
 - [Tarabkhah and Khoshandam 2019][research_tarabkhah_khoshandam_2019]
 - [Taranto and Abdulrahim 2023][research_taranto_abdulrahim_2023]
 - [Tariq et al 2026][research_tariq_wasim_2026]
 - [Tartaglione and Mazzola 1982][research_tartaglione_mazzola_1982]
-- [Tastan 2017][research_tastan_2017]
 - [Tatar 2019][research_tatar_2019]
 - [Tatar 2021][research_tatar_2021]
 - [Tate 1969][research_tate_1969]
@@ -12712,7 +11604,6 @@ Of the four it is the only one that was ready.
 - [Tembare et al 2025][research_tembare_salunke_2025]
 - [Tempelman 1972][research_tempelman_1972]
 - [Templeman and Parker 1968][research_templeman_parker_1968]
-- [Teo et al 2019][research_teo_seman_2019]
 - [Teofilatto and De Pasquale 1998][research_teofilatto_depasquale_1998]
 - [Teoretical-experimental Comparison of the Models of Additively Manufactured Swirl Injectors Based on the Hydraulic Testing Results 2023][research_teoretical_experimental_comparison_of_2023]
 - [Terashima et al 2021][research_terashima_iwasaki_2021]
@@ -12720,12 +11611,7 @@ Of the four it is the only one that was ready.
 - [Testing aircraft fleet management policies using simulation experiments 2015][research_testing_aircraft_2015]
 - [Tetik and Das 2017][research_tetik_das_2017]
 - [Tetlow et al 2000][research_tetlow_schoettle_2000]
-- [Tetra Tech Inc Redmond Wa 1995][research_tetratechincredmondwa_1995]
-- [Tewari et al 2021][research_tewari_raja_2021]
 - [Tewell 1984][research_tewell_1984]
-- [Thakare and Tajne 2024][research_thakare_tajne_2024]
-- [Thakre et al 2024][research_thakre_kaushal_2024]
-- [Thanigaiselvan et al 2026][research_thanigaiselvan_kalidasan_2026]
 - [Thayer, E. B. et al 2004][research_thayereb_gambleej_2004]
 - [The air-breathing launch vehicle for earth- orbit shuttle - New technology and development approach 1970][research_the_air_breathing_1970]
 - [The algorithm of the color signal recognition at landing an unmanned aerial vehicle on an aircraft carrier in autonomous mode 2020][research_the_algorithm_2020]
@@ -12735,11 +11621,9 @@ Of the four it is the only one that was ready.
 - [The highest and lowest reliability achievable with redundancy 1978][research_the_highest_1978]
 - [The New York Rocket Battalion: Experiences of a Civil War Rocket Unit 1945][research_the_new_1945]
 - [The Pressure Analyzing of the C-D Rocket Nozzle Considering Isentropic Flow Theory 2023][research_the_pressure_2023]
-- [The probable future of toxicology - probabilistic risk assessment 2024][research_the_probable_2024]
 - [Thedy and Liao 2023][research_thedy_liao_2023]
 - [Theisen et al 2015][research_theisen_schoenherr_2015]
 - [Theoretical Analysis on Large-Stroke Dry Friction Vibration and Shock Isolation Composite Structure for Satellite Launch Environment 2026][research_theoretical_analysis_2026]
-- [Thermal blanket for plastics processing 2021][research_thermal_blanket_2021]
 - [Thermal conductivity of fibre/phenolic resin composites. Part I: Thermal diffusivity measurements 1988][research_thermal_conductivity_1988]
 - [Thermal conductivity of fibre/phenolic resin composites. Part II: Numerical evaluation 1988][research_thermal_conductivity_1988_b]
 - [Thermal design of composite 1972][research_thermal_design_1972]
@@ -12778,7 +11662,6 @@ Of the four it is the only one that was ready.
 - [Thostenson et al 2024][research_thostenson_aldhahri_2024]
 - [Thrasher 1993][research_thrasher_1993]
 - [Thuillier et al 2024][research_thuillier_jha_2024]
-- [Thukral et al 2023][research_thukral_griffin_2023]
 - [Tian 2025][research_tian_2025]
 - [Tian and Perre 2022][research_tian_perre_2022]
 - [Tian and Perré 2023][research_tian_perre_2023]
@@ -12794,7 +11677,6 @@ Of the four it is the only one that was ready.
 - [Tikhy et al 2015][research_tikhy_gusev_2015]
 - [Tilles et al 1963][research_tilles_defelice_1963]
 - [Timofeev 2020][research_timofeev_2020]
-- [Tinc et al 2021][research_tinc_sorensen_2021]
 - [Tiniakov 2026][research_tiniakov_2026]
 - [Tinney and Valdez 2026][research_tinney_valdez_2026]
 - [Titotto 2024][research_titotto_2024]
@@ -12802,11 +11684,8 @@ Of the four it is the only one that was ready.
 - [Tobbe, Patrick et al 2009][research_tobbepatrick_matrasalex_2009]
 - [Tobin and Dec 2015][research_tobin_dec_2015]
 - [Toda et al 2000][research_toda_arita_2000]
-- [Toews et al 2021][research_toews_leonard_2021]
 - [Tokarskyi and Habrinets 2025][research_tokarskyi_habrinets_2025]
 - [Tokunaga et al 2024][research_tokunaga_imura_2024]
-- [Tokuomi et al 2024][research_tokuomi_mori_2024]
-- [Toledo et al 2024][research_toledo_kaschel_2024]
 - [Tomaro et al 2000][research_tomaro_witzeman_2000]
 - [Tomczyk 2003][research_tomczyk_2003]
 - [Tommila and Hartsfield 2017][research_tommila_hartsfield_2017]
@@ -12827,8 +11706,6 @@ Of the four it is the only one that was ready.
 - [Tournes et al 1998][research_tournes_landrum_1998]
 - [Townsend and Hamilton 1981][research_townsend_hamilton_1981]
 - [Trajectory Shaping Guidance for Vertical Landing of Launch Vehicle Stage 2025][research_trajectory_shaping_2025]
-- [Transaction of the International Association for Vehicle System Dynamics (IAVSD) 1980][research_transaction_of_1980]
-- [Transactions of the International Association for Vehicle System Dynamics (IAVSD) 1989][research_transactions_of_1989]
 - [Traudt 2024][research_traudt_2024]
 - [Travelletti et al 2023][research_travelletti_ginsbourger_2023]
 - [Trefny 1999][research_trefny_1999]
@@ -12839,11 +11716,8 @@ Of the four it is the only one that was ready.
 - [Trimmer, L. L. et al 1972][research_trimmerll_loveda_1972]
 - [Trinh, Huu P. 1994][research_trinhhuup_1994]
 - [Trinh, Huu Phuoc 1999][research_trinhhuuphuoc_1999]
-- [Tripathi 2025][research_tripathi_2025]
 - [Tripathi and Padhi 2016][research_tripathi_padhi_2016]
 - [Tripathi and Patel 2019][research_tripathi_patel_2019]
-- [Tripathi et al 2023][research_tripathi_saha_2023]
-- [Tripathi et al 2023][research_tripathi_saha_2023_b]
 - [Tripathi et al 2025][research_tripathi_johari_2025]
 - [Triplett 1972][research_triplett_1972]
 - [Trollheden and Streifinger 1993][research_trollheden_streifinger_1993]
@@ -12865,7 +11739,6 @@ Of the four it is the only one that was ready.
 - [Tsoukalas et al 2026][research_tsoukalas_unlu_2026]
 - [Tsukahara et al 2001][research_tsukahara_yamao_2001]
 - [Tsukamoto et al 2022][research_tsukamoto_arai_2022]
-- [Tsukamoto et al 2025][research_tsukamoto_shiozaki_2025]
 - [Tsutsumi et al 2019][research_tsutsumi_hirabayashi_2019]
 - [Tsutsumi et al 2021][research_tsutsumi_hirabayashi_2021]
 - [Tsuyuki, Glenn T. et al 2005][research_tsuyukiglennt_sunadaerict_2005]
@@ -12891,9 +11764,7 @@ Of the four it is the only one that was ready.
 - [Uckun, Serdar 2005][research_uckunserdar_2005]
 - [Ueda et al 2026][research_ueda_nascimento_2026]
 - [Ukigai et al 2017][research_ukigai_fujimori_2017]
-- [Ullah et al 2023][research_ullah_ullah_2023]
 - [Ullah et al 2024][research_ullah_qiu_2024]
-- [Ultra-low-light-level digital still camera for autonomous underwater vehicle 2019][research_ultra_low_light_level_digital_2019]
 - [Uma Sankari et al 2017][research_umasankari_sreenivasakumar_2017]
 - [Umeoka et al 2021][research_umeoka_mishina_2021]
 - [Unal, Resit 1990][research_unalresit_1990]
@@ -12906,7 +11777,6 @@ Of the four it is the only one that was ready.
 - [Urschel and Cox 2003][research_urschel_cox_2003]
 - [Using Cell-DEVS for Prototyping Unmanned Aircraft System Traffic Simulation 2017][research_using_cell_devs_2017]
 - [Using test data to predict avionics integrity 1991][research_using_test_1991]
-- [Usman 2017][research_usman_2017]
 - [Usmonov and Kretov 2020][research_usmonov_kretov_2020]
 - [Utsumi 1997][research_utsumi_1997]
 - [Uzkan 1988][research_uzkan_1988]
@@ -12936,13 +11806,11 @@ Of the four it is the only one that was ready.
 - [Vargas Venegas and Huang 2022][research_vargasvenegas_huang_2022]
 - [Vargas Venegas and Huang 2023][research_vargasvenegas_huang_2023]
 - [Varé and Bogey 2022][research_vare_bogey_2022]
-- [Vashistha et al 2025][research_vashistha_joshi_2025]
 - [Vasilevsky 2022][research_vasilevsky_2022]
 - [Vaughn, Timothy P. 1999][research_vaughntimothyp_1999]
 - [Veerasamy et al 2025][research_veerasamy_balakrishnan_2025]
 - [Vehicle performance monitoring system 1991][research_vehicle_performance_1991]
 - [Vehicle Reliability Test in Vehicle Development 2021][research_vehicle_reliability_2021]
-- [Velasco et al 2015][research_velasco_griffin_2015]
 - [Velasco et al 2017][research_velasco_alhamablanco_2017]
 - [Velten and Zähringer 2026][research_velten_zahringer_2026]
 - [Velásquez et al 2023][research_velasquez_vanessamejialara_2023]
@@ -12962,8 +11830,6 @@ Of the four it is the only one that was ready.
 - [Vijayakumaran and Lemma 2018][research_vijayakumaran_lemma_2018]
 - [Vijayan and Suresh Babu 2015][research_vijayan_sureshbabu_2015]
 - [Vijaybabu and Dhinakaran 2018][research_vijaybabu_dhinakaran_2018]
-- [Vijerathne et al 2025][research_vijerathne_wahala_2025]
-- [Vijerathne et al 2025][research_vijerathne_wahala_2025_b]
 - [Villanueva 2016][research_villanueva_2016]
 - [Villanueva 2018][research_villanueva_2018]
 - [Villanueva 2022][research_villanueva_2022]
@@ -12983,10 +11849,8 @@ Of the four it is the only one that was ready.
 - [Vohra et al 2026][research_vohra_nd_2026]
 - [Voisinet and Lee 1972][research_voisinet_lee_1972]
 - [Volkov et al 2022][research_volkov_komar_2022]
-- [Volokh and Halfond 2025][research_volokh_halfond_2025]
 - [Von Chorus et al 2025][research_vonchorus_kiar_2025]
 - [Von Eckartsberg et al 2025][research_voneckartsberg_goldman_2025]
-- [Voronov et al 2023][research_voronov_krysander_2023]
 - [Vozar et al 2015][research_vozar_leonard_2015]
 - [Vredevoogd and Thompson 2021][research_vredevoogd_thompson_2021]
 - [Vu and Candler 2026][research_vu_candler_2026]
@@ -13024,7 +11888,6 @@ Of the four it is the only one that was ready.
 - [Wang 1993][research_wang_1993]
 - [Wang 2015][research_wang_2015]
 - [Wang 2015][research_wang_2015_b]
-- [Wang 2024][research_wang_2024]
 - [Wang 2025][research_wang_2025]
 - [Wang 2025][research_wang_2025_b]
 - [Wang and Carl 1999][research_wang_carl_1999]
@@ -13039,7 +11902,6 @@ Of the four it is the only one that was ready.
 - [Wang and Stockton 2001][research_wang_stockton_2001]
 - [Wang and Van 1992][research_wang_van_1992]
 - [Wang and Xia 2022][research_wang_xia_2022]
-- [Wang et al 1993][research_wang_ku_1993]
 - [Wang et al 1996][research_wang_li_1996]
 - [Wang et al 1996][research_wang_liu_1996]
 - [Wang et al 1999][research_wang_liu_1999]
@@ -13058,7 +11920,6 @@ Of the four it is the only one that was ready.
 - [Wang et al 2017][research_wang_yang_2017]
 - [Wang et al 2018][research_wang_du_2018]
 - [Wang et al 2018][research_wang_li_2018]
-- [Wang et al 2018][research_wang_shi_2018]
 - [Wang et al 2018][research_wang_sun_2018]
 - [Wang et al 2018][research_wang_zhao_2018]
 - [Wang et al 2019][research_wang_risch_2019]
@@ -13068,7 +11929,6 @@ Of the four it is the only one that was ready.
 - [Wang et al 2020][research_wang_tian_2020]
 - [Wang et al 2020][research_wang_zhang_2020]
 - [Wang et al 2021][research_wang_han_2021]
-- [Wang et al 2021][research_wang_huang_2021]
 - [Wang et al 2021][research_wang_ma_2021]
 - [Wang et al 2021][research_wang_ma_2021_b]
 - [Wang et al 2021][research_wang_zhang_2021]
@@ -13081,7 +11941,6 @@ Of the four it is the only one that was ready.
 - [Wang et al 2022][research_wang_sun_2022]
 - [Wang et al 2022][research_wang_wei_2022]
 - [Wang et al 2022][research_wang_xu_2022]
-- [Wang et al 2023][research_wang_coulibaly_2023]
 - [Wang et al 2023][research_wang_liu_2023]
 - [Wang et al 2023][research_wang_xiao_2023]
 - [Wang et al 2024][research_wang_chen_2024]
@@ -13091,19 +11950,14 @@ Of the four it is the only one that was ready.
 - [Wang et al 2024][research_wang_xu_2024]
 - [Wang et al 2024][research_wang_zhou_2024]
 - [Wang et al 2024][research_wang_zhou_2024_b]
-- [Wang et al 2025][research_wang_chen_2025]
 - [Wang et al 2025][research_wang_gan_2025]
 - [Wang et al 2025][research_wang_huang_2025]
 - [Wang et al 2025][research_wang_li_2025]
-- [Wang et al 2025][research_wang_qian_2025]
 - [Wang et al 2025][research_wang_shan_2025]
 - [Wang et al 2025][research_wang_su_2025]
-- [Wang et al 2025][research_wang_tian_2025]
 - [Wang et al 2025][research_wang_wang_2025]
 - [Wang et al 2025][research_wang_zhang_2025]
-- [Wang et al 2026][research_wang_li_2026]
 - [Wang et al 2026][research_wang_zhang_2026]
-- [Wang et al 2026][research_wang_zhang_2026_b]
 - [Wang et al 2026][research_wang_zhu_2026]
 - [Wang Pei et al 2017][research_wangpei_lvmeibo_2017]
 - [Wang, Ten-See 1995][research_wangtensee_1995]
@@ -13122,7 +11976,6 @@ Of the four it is the only one that was ready.
 - [Waters, Eric D. et al 2013][research_watersericd_beersbenjamin_2013]
 - [Waters, Eric D. et al 2013][research_watersericd_creechdennism_2013]
 - [Watson 1961][research_watson_1961]
-- [Watson 1996][research_watson_1996]
 - [Watson and Gonzalez 2023][research_watson_gonzalez_2023]
 - [Watson et al 2020][research_watson_owen_2020]
 - [Watts 2016][research_watts_2016]
@@ -13140,7 +11993,6 @@ Of the four it is the only one that was ready.
 - [Wei and Zien 2001][research_wei_zien_2001]
 - [Wei et al 2022][research_wei_zhang_2022]
 - [Wei et al 2024][research_wei_gao_2024]
-- [Wei et al 2024][research_wei_poon_2024]
 - [Wei et al 2025][research_wei_guan_2025]
 - [Weichelt et al 1986][research_weichelt_urnes_1986]
 - [Weinert and Meyer 1984][research_weinert_meyer_1984]
@@ -13167,7 +12019,6 @@ Of the four it is the only one that was ready.
 - [West, Brian et al 2016][research_westbrian_robertsonelizabeth_2016]
 - [Westmoreland 1977][research_westmoreland_1977]
 - [Wheeler et al 2021][research_wheeler_kurtoglu_2021]
-- [Whelan and Wyman 1999][research_whelan_wyman_1999]
 - [White 1989][research_white_1989]
 - [White 2000][research_white_2000]
 - [White et al 1985][research_white_thompson_1985]
@@ -13193,7 +12044,6 @@ Of the four it is the only one that was ready.
 - [Widargo and Anghaie 1999][research_widargo_anghaie_1999]
 - [Widmer 1963][research_widmer_1963]
 - [Widmer et al 2023][research_widmer_shaukat_2023]
-- [Widodo et al 2022][research_widodo_rochmadhan_2022]
 - [Wierzbanowski and Ramasubramanian 2020][research_wierzbanowski_ramasubramanian_2020]
 - [Wierzbanowski and Ramasubramanian 2020][research_wierzbanowski_ramasubramanian_2020_b]
 - [Wigginton et al 2015][research_wigginton_dubois_2015]
@@ -13235,11 +12085,9 @@ Of the four it is the only one that was ready.
 - [Wisniewski et al 2019][research_wisniewski_malicki_2019]
 - [Witkowski and Rothamer 2023][research_witkowski_rothamer_2023]
 - [Wodele 2013][research_wodele_2013]
-- [Wodołażski 2020][research_wodolazski_2020]
 - [Woeppel, Eric A. et al 2014][research_woeppelerica_balsamojamesm_2014]
 - [Woestemeyer 1964][research_woestemeyer_1964]
 - [Wolfe 1966][research_wolfe_1966]
-- [Wolff et al 2020][research_wolff_errichetti_2020]
 - [Wolverton 2018][research_wolverton_2018]
 - [Womer and Camm 2003][research_womer_camm_2003]
 - [Wong 1968][research_wong_1968]
@@ -13260,7 +12108,6 @@ Of the four it is the only one that was ready.
 - [Worlund 1992][research_worlund_1992]
 - [Wormhoudt 2003][research_wormhoudt_2003]
 - [Wrenn, G. et al 2001][research_wrenng_frameb_2001]
-- [Wright 2022][research_wright_2022]
 - [Wright et al 2023][research_wright_liu_2023]
 - [Wu 2019][research_wu_2019]
 - [Wu and Baur 2024][research_wu_baur_2024]
@@ -13273,8 +12120,6 @@ Of the four it is the only one that was ready.
 - [Wu et al 2018][research_wu_zhang_2018]
 - [Wu et al 2020][research_wu_tian_2020]
 - [Wu et al 2020][research_wu_yu_2020]
-- [Wu et al 2021][research_wu_di_2021]
-- [Wu et al 2024][research_wu_bo_2024]
 - [Wu et al 2024][research_wu_liu_2024]
 - [Wu et al 2024][research_wu_qian_2024]
 - [Wu et al 2024][research_wu_zhang_2024]
@@ -13287,7 +12132,6 @@ Of the four it is the only one that was ready.
 - [Wygle 1965][research_wygle_1965]
 - [Wyld 1947][research_wyld_1947]
 - [Wynn and McLain 2019][research_wynn_mclain_2019]
-- [Xi et al 2017][research_xi_xiong_2017]
 - [Xiang et al 2020][research_xiang_sun_2020]
 - [Xiang et al 2024][research_xiang_jia_2024]
 - [Xiang et al 2025][research_xiang_guo_2025]
@@ -13299,14 +12143,11 @@ Of the four it is the only one that was ready.
 - [Xiao et al 2019][research_xiao_xiao_2019]
 - [Xiao et al 2023][research_xiao_coble_2023]
 - [Xiao et al 2025][research_xiao_zhao_2025]
-- [Xiao et al 2026][research_xiao_wang_2026]
 - [Xie and Du 2024][research_xie_du_2024]
 - [Xie et al 2015][research_xie_wei_2015]
-- [Xie et al 2017][research_xie_zeng_2017]
 - [Xie et al 2019][research_xie_liu_2019]
 - [Xie et al 2021][research_xie_li_2021]
 - [Xie et al 2023][research_xie_tong_2023]
-- [Xie et al 2025][research_xie_gurvich_2025]
 - [Xie et al 2025][research_xie_jiang_2025]
 - [Xie et al 2025][research_xie_zhang_2025]
 - [Xie et al 2026][research_xie_mao_2026]
@@ -13315,17 +12156,14 @@ Of the four it is the only one that was ready.
 - [Xing et al 2026][research_xing_bao_2026]
 - [Xingjun 2023][research_xingjun_2023]
 - [Xinguo et al 2024][research_xinguo_ting_2024]
-- [Xinwei 2004][research_xinwei_2004]
 - [Xiong et al 2021][research_xiong_guo_2021]
 - [Xiong et al 2022][research_xiong_tang_2022]
 - [Xiong et al 2025][research_xiong_liu_2025]
 - [Xiong et al 2026][research_xiong_wang_2026]
-- [Xu and Fernandez 2022][research_xu_fernandez_2022]
 - [Xu and Jangi 2025][research_xu_jangi_2025]
 - [Xu and Lan 2018][research_xu_lan_2018]
 - [Xu and Wang 2023][research_xu_wang_2023]
 - [Xu and Yang 1993][research_xu_yang_1993]
-- [Xu and Zhai 2018][research_xu_zhai_2018]
 - [Xu and Zhang 2018][research_xu_zhang_2018]
 - [Xu et al 2016][research_xu_tang_2016]
 - [Xu et al 2017][research_xu_wang_2017]
@@ -13344,10 +12182,8 @@ Of the four it is the only one that was ready.
 - [Xu et al 2025][research_xu_fang_2025]
 - [Xu et al 2025][research_xu_guo_2025]
 - [Xu et al 2026][research_xu_ye_2026]
-- [Xue 2023][research_xue_2023]
 - [Xue et al 2017][research_xue_wang_2017]
 - [Xue et al 2018][research_xue_jackson_2018]
-- [Xue et al 2022][research_xue_zhu_2022]
 - [Xue et al 2024][research_xue_wang_2024]
 - [Xuefei et al 2023][research_xuefei_shanshan_2023]
 - [Y. Choo et al 2020][research_ychoo_cadams_2020]
@@ -13356,7 +12192,6 @@ Of the four it is the only one that was ready.
 - [Yaghi et al 2019][research_yaghi_ayvarsoberanis_2019]
 - [Yagodnikov et al 1995][research_yagodnikov_voronetskii_1995]
 - [Yahiaoui and Olivier 2015][research_yahiaoui_olivier_2015]
-- [Yahya et al 2025][research_yahya_mahmoud_2025]
 - [Yakubayev et al 2026][research_yakubayev_gschwend_2026]
 - [Yamada et al 1997][research_yamada_serizawa_1997]
 - [Yamanishi et al 2004][research_yamanishi_kimura_2004]
@@ -13382,7 +12217,6 @@ Of the four it is the only one that was ready.
 - [Yang 2020][research_yang_2020]
 - [Yang 2023][research_yang_2023]
 - [Yang 2025][research_yang_2025]
-- [Yang and Venton 2017][research_yang_venton_2017]
 - [Yang and Yu 2002][research_yang_yu_2002]
 - [Yang et al 1990][research_yang_miner_1990]
 - [Yang et al 2003][research_yang_chang_2003]
@@ -13391,9 +12225,6 @@ Of the four it is the only one that was ready.
 - [Yang et al 2015][research_yang_tang_2015]
 - [Yang et al 2016][research_yang_qiu_2016]
 - [Yang et al 2016][research_yang_wu_2016]
-- [Yang et al 2017][research_yang_li_2017]
-- [Yang et al 2018][research_yang_chong_2018]
-- [Yang et al 2020][research_yang_utne_2020]
 - [Yang et al 2020][research_yang_wang_2020]
 - [Yang et al 2022][research_yang_ji_2022]
 - [Yang et al 2022][research_yang_liu_2022]
@@ -13405,7 +12236,6 @@ Of the four it is the only one that was ready.
 - [Yang et al 2024][research_yang_gan_2024]
 - [Yang et al 2024][research_yang_gao_2024]
 - [Yang et al 2024][research_yang_tang_2024]
-- [Yang et al 2024][research_yang_wang_2024]
 - [Yang et al 2024][research_yang_yao_2024]
 - [Yang et al 2025][research_yang_brodnick_2025]
 - [Yang et al 2025][research_yang_li_2025]
@@ -13413,22 +12243,18 @@ Of the four it is the only one that was ready.
 - [Yang et al 2026][research_yang_gao_2026]
 - [Yang et al 2026][research_yang_zhao_2026]
 - [Yang Liu and Wanchun Chen 2016][research_yangliu_wanchunchen_2016]
-- [Yao and Pecht 2018][research_yao_pecht_2018]
 - [Yao and Xin 2023][research_yao_xin_2023]
 - [Yao et al 2016][research_yao_moon_2016]
 - [Yao et al 2018][research_yao_ma_2018]
 - [Yao et al 2022][research_yao_qi_2022]
 - [Yao et al 2023][research_yao_sun_2023]
 - [Yaqun et al 2020][research_yaqun_ping_2020]
-- [Yarahmadi and Asadi 2025][research_yarahmadi_asadi_2025]
 - [Yarimbatman and Cengiz 2024][research_yarimbatman_cengiz_2024]
 - [Yatsuyanagi et al 1985][research_yatsuyanagi_gomi_1985]
 - [Yau, M. et al 2002][research_yaum_reinhartl_2002]
 - [Yavuz 1997][research_yavuz_1997]
 - [Ye et al 2017][research_ye_schrijer_2017]
-- [Ye et al 2018][research_ye_hong_2018]
 - [Ye et al 2021][research_ye_li_2021]
-- [Ye et al 2023][research_ye_yimin_2023]
 - [Ye et al 2025][research_ye_luo_2025]
 - [Ye et al 2025][research_ye_luo_2025_b]
 - [Yedhu U. Krishnan and Saidalavi P 2015][research_yedhuukrishnan_saidalavip_2015]
@@ -13449,12 +12275,9 @@ Of the four it is the only one that was ready.
 - [Yin et al 2017][research_yin_nie_2017]
 - [Yin et al 2021][research_yin_peng_2021]
 - [Yin et al 2023][research_yin_jiang_2023]
-- [Yin et al 2024][research_yin_cheng_2024]
 - [Yinda 1986][research_yinda_1986]
-- [Ying et al 2026][research_ying_xun_2026]
 - [Ying Xiong 2015][research_yingxiong_2015]
 - [Yoda et al 2015][research_yoda_ito_2015]
-- [Yogo 1994][research_yogo_1994]
 - [Yoko et al 2018][research_yoko_kubota_2018]
 - [Yoko et al 2019][research_yoko_arai_2019]
 - [Yokohata et al 2025][research_yokohata_motegi_2025]
@@ -13462,22 +12285,17 @@ Of the four it is the only one that was ready.
 - [Yoon et al 2023][research_yoon_flachs_2023]
 - [Yoon et al 2023][research_yoon_oh_2023]
 - [Yoon et al 2024][research_yoon_yi_2024]
-- [Yoshida et al 2018][research_yoshida_morita_2018]
 - [Yoshihara 1963][research_yoshihara_1963]
-- [Yoshikawa and Litvan 1984][research_yoshikawa_litvan_1984]
-- [You and Lau 2018][research_you_lau_2018]
 - [You and Park 2021][research_you_park_2021]
 - [Young 1992][research_young_1992]
 - [Young, M. W. 1970][research_youngmw_1970]
 - [Youngquist 1947][research_youngquist_1947]
-- [Yu 2015][research_yu_2015]
 - [Yu 2017][research_yu_2017]
 - [Yu 2024][research_yu_2024]
 - [Yu and Chen 1969][research_yu_chen_1969]
 - [Yu and Yuan 2016][research_yu_yuan_2016]
 - [Yu et al 2000][research_yu_harding_2000]
 - [Yu et al 2002][research_yu_xu_2002]
-- [Yu et al 2019][research_yu_wu_2019]
 - [Yu et al 2019][research_yu_xu_2019]
 - [Yu et al 2021][research_yu_tao_2021]
 - [Yu et al 2024][research_yu_deng_2024]
@@ -13485,8 +12303,6 @@ Of the four it is the only one that was ready.
 - [Yu et al 2025][research_yu_lin_2025]
 - [Yu et al 2025][research_yu_wang_2025]
 - [Yu et al 2026][research_yu_campbell_2026]
-- [Yuan et al 2015][research_yuan_gholizadehdoonechaly_2015]
-- [Yuan et al 2024][research_yuan_dai_2024]
 - [Yuan et al 2024][research_yuan_lu_2024]
 - [Yuan et al 2025][research_yuan_zhao_2025]
 - [Yue 2024][research_yue_2024]
@@ -13495,8 +12311,6 @@ Of the four it is the only one that was ready.
 - [Yue et al 2022][research_yue_lin_2022]
 - [Yue et al 2022][research_yue_titurus_2022]
 - [Yue et al 2025][research_yue_li_2025]
-- [Yuen et al 1998][research_yuen_devahldavis_1998]
-- [Yumori 1991][research_yumori_1991]
 - [Yun et al 2023][research_yun_jo_2023]
 - [Yungster and Trefny 1999][research_yungster_trefny_1999]
 - [Yungster et al 1997][research_yungster_debonis_1997]
@@ -13505,7 +12319,6 @@ Of the four it is the only one that was ready.
 - [Yuwei et al 2021][research_yuwei_linyu_2021]
 - [Yuwei et al 2024][research_yuwei_wu_2024]
 - [Zahid 2016][research_zahid_2016]
-- [Zahra et al 2019][research_zahra_khan_2019]
 - [Zaidi and van Zyl 2017][research_zaidi_vanzyl_2017]
 - [Zaitsev et al 2020][research_zaitsev_protasova_2020]
 - [Zakrajsek, June 2000][research_zakrajsekjune_2000]
@@ -13518,19 +12331,15 @@ Of the four it is the only one that was ready.
 - [Zeh et al 1989][research_zeh_young_1989]
 - [Zeiler et al 1999][research_zeiler_mcghee_1999]
 - [Zemoura and Farago 2025][research_zemoura_farago_2025]
-- [Zeng et al 2020][research_zeng_chen_2020]
 - [Zeng et al 2021][research_zeng_shao_2021]
 - [Zeng et al 2026][research_zeng_li_2026]
 - [Zha et al 2024][research_zha_xu_2024]
-- [Zhang 1993][research_zhang_1993]
 - [Zhang 1995][research_zhang_1995]
 - [Zhang 2000][research_zhang_2000]
-- [Zhang 2016][research_zhang_2016]
 - [Zhang 2018][research_zhang_2018]
 - [Zhang 2023][research_zhang_2023]
 - [Zhang 2023][research_zhang_2023_b]
 - [Zhang 2023][research_zhang_2023_c]
-- [Zhang and Cheung 2025][research_zhang_cheung_2025]
 - [Zhang and Li 2017][research_zhang_li_2017]
 - [Zhang and Li 2019][research_zhang_li_2019_b]
 - [Zhang and Ma 2020][research_zhang_ma_2020]
@@ -13538,9 +12347,7 @@ Of the four it is the only one that was ready.
 - [Zhang and Xia 2026][research_zhang_xia_2026]
 - [Zhang and Xu 2025][research_zhang_xu_2025_b]
 - [Zhang and Zhang 2020][research_zhang_zhang_2020]
-- [Zhang et al 2015][research_zhang_cheng_2015]
 - [Zhang et al 2015][research_zhang_jinwu_2015]
-- [Zhang et al 2015][research_zhang_liu_2015]
 - [Zhang et al 2015][research_zhang_shotorban_2015]
 - [Zhang et al 2015][research_zhang_wang_2015]
 - [Zhang et al 2017][research_zhang_mu_2017]
@@ -13557,11 +12364,8 @@ Of the four it is the only one that was ready.
 - [Zhang et al 2020][research_zhang_tang_2020]
 - [Zhang et al 2020][research_zhang_wu_2020]
 - [Zhang et al 2021][research_zhang_cao_2021]
-- [Zhang et al 2021][research_zhang_du_2021]
-- [Zhang et al 2021][research_zhang_gao_2021]
 - [Zhang et al 2021][research_zhang_jing_2021]
 - [Zhang et al 2021][research_zhang_xu_2021]
-- [Zhang et al 2021][research_zhang_zhang_2021]
 - [Zhang et al 2022][research_zhang_liu_2022]
 - [Zhang et al 2022][research_zhang_yang_2022]
 - [Zhang et al 2022][research_zhang_zhang_2022]
@@ -13587,14 +12391,11 @@ Of the four it is the only one that was ready.
 - [Zhang et al 2025][research_zhang_zhao_2025]
 - [Zhang et al 2026][research_zhang_hu_2026]
 - [Zhang et al 2026][research_zhang_liang_2026]
-- [Zhao 2024][research_zhao_2024]
 - [Zhao and Bao 2023][research_zhao_bao_2023]
 - [Zhao and Jiang 2018][research_zhao_jiang_2018]
 - [Zhao and Li 2025][research_zhao_li_2025]
 - [Zhao and Wang 2020][research_zhao_wang_2020]
-- [Zhao and Weymouth 1991][research_zhao_weymouth_1991]
 - [Zhao et al 2015][research_zhao_zhang_2015]
-- [Zhao et al 2017][research_zhao_amagasaki_2017]
 - [Zhao et al 2019][research_zhao_liu_2019]
 - [Zhao et al 2020][research_zhao_li_2020]
 - [Zhao et al 2021][research_zhao_he_2021]
@@ -13604,16 +12405,13 @@ Of the four it is the only one that was ready.
 - [Zhao et al 2024][research_zhao_xu_2024]
 - [Zhao et al 2025][research_zhao_hao_2025]
 - [Zhao et al 2025][research_zhao_li_2025_b]
-- [Zhao et al 2025][research_zhao_meng_2025]
 - [Zhao et al 2025][research_zhao_zhang_2025]
 - [Zhao et al 2026][research_zhao_li_2026]
 - [Zhao et al 2026][research_zhao_yu_2026]
 - [Zhao et al 2026][research_zhao_zhou_2026]
 - [Zhen et al 2024][research_zhen_dong_2024]
-- [Zheng 2019][research_zheng_2019]
 - [Zheng 2024][research_zheng_2024]
 - [Zheng and Yao 2026][research_zheng_yao_2026]
-- [Zheng et al 2017][research_zheng_li_2017]
 - [Zheng et al 2020][research_zheng_fu_2020]
 - [Zheng et al 2020][research_zheng_zhao_2020]
 - [Zheng et al 2021][research_zheng_hongxing_2021]
@@ -13701,17 +12499,12 @@ Of the four it is the only one that was ready.
 - [Zurera et al 2025][research_zurera_rozas_2025]
 - [Çam and Özkol 2023][research_cam_ozkol_2023]
 - [Çelik and Demirezen 2024][research_celik_demirezen_2024]
-- [Çetin and Sönmez 2021][research_cetin_sonmez_2021]
-- [Özarslan Yatak et al 2018][research_ozarslanyatak_goktas_2018]
 - [Ševčík 2025][research_sevcik_2025]
 - [‘Aliman et al 2018][research_aliman_kurniawati_2018]
 - [“Plug nozzle” rocket engine 1961][research_plug_nozzle_1961]
 
 [research_00_00974_combustion_2000]: https://doi.org/10.1016/s0140-6701(00)90951-2
 [research_00_02802_pitch_2000]: https://doi.org/10.1016/s0140-6701(00)96715-8
-[research_040_guidance_1994]: https://doi.org/10.1016/0967-0661(94)90622-x
-[research_043_fuzzy_1994]: https://doi.org/10.1016/0967-0661(94)90625-4
-[research_081_an_1994]: https://doi.org/10.1016/0967-0661(94)90663-7
 [research_1162_design_1968]: https://doi.org/10.1016/0042-207x(68)90502-2
 [research_180_fault_1994]: https://doi.org/10.1016/0967-0661(94)90532-0
 [research_2019_prognostics_2019]: https://doi.org/10.1109/phm-paris.2019.00001
@@ -13720,9 +12513,7 @@ Of the four it is the only one that was ready.
 [research_3d_printed_2020]: https://doi.org/10.1016/j.mprp.2020.04.030
 [research_4680010_re_radiating_1989]: https://doi.org/10.1016/0956-053x(89)90172-4
 [research_5132663_vehicle_1993]: https://doi.org/10.1016/0160-4120(93)90140-d
-[research_5423294_furnace_1996]: https://doi.org/10.1016/1359-4311(95)98446-t
 [research_6_dof_2016]: https://doi.org/10.22360/summersim.2016.scsc.063
-[research_95_06340_a_1995]: https://doi.org/10.1016/0140-6701(95)97934-c
 [research_98_02419_effects_1998]: https://doi.org/10.1016/s0140-6701(98)90022-4
 [research_a_compact_1905]: https://doi.org/10.1038/scientificamerican04011905-88abuild
 [research_a_haridoss_2025]: https://doi.org/10.34218/ijase_03_01_002
@@ -13740,7 +12531,6 @@ Of the four it is the only one that was ready.
 [research_abdimoradi_1988]: https://doi.org/10.2514/6.1988-3971
 [research_abdo_erkin_2021]: https://doi.org/10.1109/siu53274.2021.9477915
 [research_abdullah_2025]: https://doi.org/10.54692/lgurjcsit.2024.081519
-[research_abdullah_ahmad_2015]: https://doi.org/10.4028/www.scientific.net/amr.1115.446
 [research_abdullah_okuyama_2020]: https://doi.org/10.3390/aerospace7070095
 [research_abkowitz_2001]: https://doi.org/10.21236/ada395519
 [research_ablative_material_1969]: https://doi.org/10.2514/6.1969-150
@@ -13754,10 +12544,7 @@ Of the four it is the only one that was ready.
 [research_accolaanne_fincannonhj_1990]: https://ntrs.nasa.gov/citations/19900048954
 [research_achambath_ramjatan_2019]: https://doi.org/10.2514/6.2019-1283
 [research_achambath_schwartzentruber_2018]: https://doi.org/10.2514/6.2018-0493
-[research_acharya_gangopadhyaya_2025]: https://doi.org/10.1109/space65882.2025.11170621
 [research_achenbach_1971]: https://doi.org/10.2514/6.1971-351
-[research_acosta_ambastha_1994]: https://doi.org/10.2523/28422-ms
-[research_adamo_ghiani_2024]: https://doi.org/10.1016/j.cor.2024.106625
 [research_adamou_costall_2022]: https://doi.org/10.1177/14680874221082636
 [research_adams_1960]: https://doi.org/10.2514/8.8663
 [research_adams_1968]: https://doi.org/10.1109/tim.1968.4313666
@@ -13774,7 +12561,6 @@ Of the four it is the only one that was ready.
 [research_aerospacecorpelsegundoca_1963]: https://doi.org/10.21236/ad0400476
 [research_aeschliman_mulac_1975]: https://doi.org/10.2172/5148718
 [research_africano_1935]: https://doi.org/10.2514/8.10140
-[research_agarwal_2023]: https://doi.org/10.55640/ijre-03-04-01
 [research_agarwal_gupta_2004]: https://doi.org/10.1142/9789812702685_0001
 [research_agarwal_sahoo_2021]: https://doi.org/10.1007/s40032-021-00706-7
 [research_aggarwal_2018]: https://doi.org/10.2514/6.2018-1473
@@ -13808,19 +12594,14 @@ Of the four it is the only one that was ready.
 [research_akash_anbarasu_2025]: https://doi.org/10.1109/ipmml68499.2025.11407142
 [research_akbulatov_nazarov_2023]: https://doi.org/10.31772/2712-8970-2023-24-4-682-696
 [research_akers_griest_1970]: https://doi.org/10.2514/3.30119
-[research_akhmadi_wulandari_2021]: https://doi.org/10.30591/nozzle.v10i1.2414
 [research_akiba_kohno_1983]: https://doi.org/10.2514/6.1983-2285
 [research_akimov_2026]: https://doi.org/10.62717/3083-7057-2026-1-001
 [research_akiyama_ishikawa_2024]: https://doi.org/10.52202/078377-0008
-[research_akkutlu_efendiev_2017]: https://doi.org/10.1016/j.jngse.2017.02.040
 [research_aksonov_2023]: https://doi.org/10.15421/452303
 [research_aksoy_acar_2019]: https://doi.org/10.2514/6.2019-0494
 [research_aktas_ertugrul_2016]: https://doi.org/10.5162/etc2016/5.6
 [research_akturk_camci_2022]: https://doi.org/10.2514/1.c036386
-[research_alaei_belloni_2024]: https://doi.org/10.1287/opre.2020.0651
-[research_alaei_makhdoumi_2025]: https://doi.org/10.1287/opre.2022.0024
 [research_alali_elwakil_2017]: https://doi.org/10.5220/0006121901040109
-[research_alam_2022]: https://doi.org/10.37349/emed.2022.00118
 [research_alanyalioglu_2017]: https://doi.org/10.2514/6.2017-4860
 [research_alavilli_tafti_2000]: https://doi.org/10.2514/6.2000-824
 [research_alawadhi_vabithadevi_2025]: https://doi.org/10.1115/detc2025-169746
@@ -13828,26 +12609,20 @@ Of the four it is the only one that was ready.
 [research_albanese_meyers_2012]: https://doi.org/10.21236/ada571357
 [research_albarrak_alkhalil_2018]: https://doi.org/10.1109/icoase.2018.8548795
 [research_alberti_cavalcante_2018]: https://doi.org/10.1016/j.ress.2018.04.002
-[research_alessandri_andrique_2017]: https://doi.org/10.1038/srep42378
 [research_alexander_fournier_1963]: https://doi.org/10.2514/6.1963-2909
 [research_alexander_tm_1978]: https://doi.org/10.21236/ada063655
 [research_alexander_tzeng_1996]: https://doi.org/10.21236/ada306454
 [research_alexanderian_petra_2021]: https://doi.org/10.1137/20m1347292
 [research_alexandrov_2026]: https://doi.org/10.2514/6.2026-115881
 [research_alexis_2023]: https://doi.org/10.56367/oag-039-10913
-[research_alfahdi_gultekin_2024]: https://doi.org/10.36001/ijphm.2024.v15i2.3933
-[research_alfaro_2020]: https://doi.org/10.1016/j.rie.2020.10.007
-[research_alfonso_mezquita_2015]: https://doi.org/10.15544/rd.2015.073
 [research_algorithm_for_2020]: https://doi.org/10.36652/0869-4931-2020-74-4-176-180
 [research_alhajhassan_nuaymi_2016]: https://doi.org/10.1109/vtcfall.2016.7881226
-[research_alharthi_shubber_2026]: https://doi.org/10.46254/gc03.20250314
 [research_alijani_osman_2020]: https://doi.org/10.1109/iccad49821.2020.9260498
 [research_aliman_kurniawati_2018]: https://doi.org/10.1063/1.5046631
 [research_alizoewald_alizoewald_2026]: https://doi.org/10.2514/6.2026-112894
 [research_aljbour_2026]: https://doi.org/10.2514/6.2026-5070.c1
 [research_aljbour_2026_b]: https://doi.org/10.2514/6.2026-5070
 [research_alkhatib_sakurahara_2025]: https://doi.org/10.13182/xyz-46528
-[research_allahyari_yaghoubi_2021]: https://doi.org/10.1016/j.cor.2021.105253
 [research_allard_2024]: https://doi.org/10.1038/s41578-024-00748-0
 [research_allen_bradley_1983]: https://doi.org/10.21236/ada134059
 [research_allen_bradley_1984]: https://doi.org/10.21236/ada150802
@@ -13855,15 +12630,11 @@ Of the four it is the only one that was ready.
 [research_allenmichaelj_2005]: https://ntrs.nasa.gov/citations/20050041655
 [research_alliot_huck_1990]: https://doi.org/10.2514/6.1990-1045
 [research_allison_sharpe_2019]: https://doi.org/10.1016/j.addma.2018.10.035
-[research_almasri_shapiro_2020]: https://doi.org/10.1007/s11242-020-01496-9
 [research_alonsotabares_2023]: https://doi.org/10.2514/6.2023-3405.c1
 [research_alonsotabares_2023_b]: https://doi.org/10.2514/6.2023-3405
 [research_alonsotabares_moracamino_2017]: https://doi.org/10.2514/6.2017-3425
 [research_alonsotabares_moracamino_2019]: https://doi.org/10.1007/s13272-019-00390-5
-[research_alpak_vink_2019]: https://doi.org/10.2118/193908-ms
 [research_alqaleiby_hashem_2022]: https://doi.org/10.1504/pcfd.2022.123182
-[research_alqarzae_fenais_2025]: https://doi.org/10.2118/230170-ms
-[research_alruqaishi_elhassan_2026]: https://doi.org/10.1109/icsedi66420.2026.11568369
 [research_alsafadi_martinez_1993]: https://doi.org/10.2514/6.1993-4719
 [research_alsaidi_huh_2024]: https://doi.org/10.3390/aerospace11030181
 [research_altimemy_caspar_2020]: https://doi.org/10.1115/fedsm2020-20054
@@ -13890,10 +12661,7 @@ Of the four it is the only one that was ready.
 [research_americaninstituteofaeronauticsandastronautics_1992]: https://ntrs.nasa.gov/citations/19930027254
 [research_americaninstituteofaeronauticsandastronautics_1993]: https://ntrs.nasa.gov/citations/19930049879
 [research_aminov_krapivnykh_2023]: https://doi.org/10.36652/1684-1107-2023-21-6-247-251
-[research_amodu_shaban_2024]: https://doi.org/10.5220/0012630700003705
 [research_amokrane_fleurotte_2024]: https://doi.org/10.1177/07349041241248080
-[research_amorim_lopes_2026]: https://doi.org/10.5220/0015083800004018
-[research_amoros_cantavella_2018]: https://doi.org/10.4995/ids2018.2018.7449
 [research_amos_macpherson_1958]: https://doi.org/10.2172/4336046
 [research_an_autonomous_2019]: https://doi.org/10.26731/1813-9108.2019.2(62).15-23
 [research_an_cheng_2021]: https://doi.org/10.1088/1755-1315/692/2/022093
@@ -13903,17 +12671,13 @@ Of the four it is the only one that was ready.
 [research_an_li_2023]: https://doi.org/10.54097/4r1k0e19
 [research_an_liao_2026]: https://doi.org/10.3390/jmse14040357
 [research_an_liu_2020]: https://doi.org/10.1109/access.2020.3001186
-[research_an_optimization_2022]: https://doi.org/10.23977/autml.2022.030202
 [research_an_overview_on_2023]: https://doi.org/10.15421/452302
 [research_analysis_of_1977]: https://doi.org/10.1016/0026-2714(77)90046-4
-[research_analysis_of_2017]: https://doi.org/10.23883/ijrter.2017.3063.twm7z
 [research_analysis_of_2021]: https://doi.org/10.3901/jme.2021.21.022
-[research_analysis_of_2022]: https://doi.org/10.47939/et.v3i9(05).13
 [research_analysis_of_2024]: https://doi.org/10.36652/0869-4931-2024-78-7-329-331
 [research_analysis_of_the_2023]: https://doi.org/10.15421/452324
 [research_ananth_tatem_2003]: https://doi.org/10.21236/ada416709
 [research_ancel_helsel_2019]: https://doi.org/10.1109/dasc43569.2019.9081659
-[research_andersen_christensen_1993]: https://doi.org/10.1016/s1474-6670(17)49306-2
 [research_anderson_1969]: https://doi.org/10.2514/6.1969-98
 [research_anderson_carter_2015]: https://doi.org/10.1109/rams.2015.7105114
 [research_anderson_heister_2013]: https://doi.org/10.21236/ada577052
@@ -13924,7 +12688,6 @@ Of the four it is the only one that was ready.
 [research_anderson_mcwilliams_2003]: https://doi.org/10.1115/imece2003-55212
 [research_anderson_schmidt_1987]: https://doi.org/10.2514/3.20201
 [research_anderson_son_2012]: https://doi.org/10.21236/ada566310
-[research_anderson_stern_2026]: https://doi.org/10.1016/j.evalprogplan.2026.102773
 [research_andersonpg_chenggc_1993]: https://ntrs.nasa.gov/citations/19950016993
 [research_andre_durant_2015]: https://doi.org/10.2514/6.2015-3525
 [research_andreadisdean_drakealan_2002]: https://ntrs.nasa.gov/citations/20030068741
@@ -13945,12 +12708,10 @@ Of the four it is the only one that was ready.
 [research_ansari_bajodah_2016]: https://doi.org/10.1109/ceit.2016.7929018
 [research_ansari_bajodah_2016_b]: https://doi.org/10.2316/p.2016.841-007
 [research_anum_majid_2022]: https://doi.org/10.1109/ibcast54850.2022.9990091
-[research_anwar_tiwari_2001]: https://doi.org/10.1016/s0196-8904(00)00065-0
 [research_ao_wen_2022]: https://doi.org/10.1016/j.ast.2022.107766
 [research_aogaki_kitamura_2017]: https://doi.org/10.2514/6.2017-1212
 [research_aoki_ishigami_2022]: https://doi.org/10.1080/01691864.2022.2141078
 [research_apetrei_curielsosa_2019]: https://doi.org/10.2514/1.c034968
-[research_apoorvavijay_sapidi_2024]: https://doi.org/10.1109/iceect61758.2024.10739091
 [research_appelma_krugergw_1980]: https://ntrs.nasa.gov/citations/19800054781
 [research_application_of_2022]: https://doi.org/10.53469/jrse.2022.04(07).14
 [research_application_of_2024]: https://doi.org/10.36652/0042-4633-2024-103-11-898-901
@@ -13971,7 +12732,6 @@ Of the four it is the only one that was ready.
 [research_arhami_borujerdi_2026]: https://doi.org/10.1007/s10973-026-15325-6
 [research_arisandi_2017]: https://doi.org/10.30536/j.jtd.2017.v15.a2484
 [research_arita_ishikawa_2000]: https://doi.org/10.2514/6.2000-3454
-[research_ariyanto_2018]: https://doi.org/10.30591/nozzle.v7i2.2185
 [research_arkhipov_tkachenko_1999]: https://doi.org/10.1007/bf02674428
 [research_armbruster_hardi_2021]: https://doi.org/10.1016/j.proci.2020.05.020
 [research_armstrong_1977]: https://doi.org/10.21236/adb029224
@@ -13980,18 +12740,13 @@ Of the four it is the only one that was ready.
 [research_armymaterielcommandalexandriava_1986]: https://doi.org/10.21236/ada213109
 [research_arnodo_appolloni_2018]: https://doi.org/10.2514/6.2018-2466
 [research_aronov_klyagin_2021]: https://doi.org/10.34759/tpt-2021-13-10-456-466
-[research_arulmurugan_2022]: https://doi.org/10.46610/joares.2022.v08i03.004
 [research_arun_prakash_2018]: https://doi.org/10.5098/hmt.11.9
 [research_arya_zaidi_2024]: https://doi.org/10.1115/imece2024-145584
 [research_aryal_deshpande_2024]: https://doi.org/10.1115/msec2024-121253
-[research_arzhenovskiy_2017]: https://doi.org/10.5593/sgemsocial2017/13/s03.055
-[research_asadi_hajirasouliha_2020]: https://doi.org/10.1016/j.engstruct.2019.109896
-[research_asal_genc_2024]: https://doi.org/10.1016/j.psep.2024.08.018
 [research_asamura_hasegawa_2024]: https://doi.org/10.52202/078373-0048
 [research_asher_maggelet_1980]: https://doi.org/10.21236/ada094693
 [research_ashforthfrost_jambunathan_1996]: https://doi.org/10.1016/0735-1933(96)00001-2
 [research_ashish_chandrasekaran_2026]: https://doi.org/10.1007/s41062-026-02708-9
-[research_ashmore_2001]: https://doi.org/10.21236/ada401565
 [research_ashraf_baig_2022]: https://doi.org/10.1109/ibcast54850.2022.9990247
 [research_askinsbrucer_davissusanr_2008]: https://ntrs.nasa.gov/citations/20080031466
 [research_aslan_taymaz_2015]: https://doi.org/10.1007/s00231-015-1571-x
@@ -14002,9 +12757,7 @@ Of the four it is the only one that was ready.
 [research_atamanchuk_2025]: https://doi.org/10.62717/2221-4550-2025-1-024
 [research_atamuradov_camci_2020]: https://doi.org/10.36001/ijphm.2017.v8i2.2643
 [research_atamuradov_medjaher_2020]: https://doi.org/10.36001/ijphm.2017.v8i3.2667
-[research_atarigiya_2023]: https://doi.org/10.2139/ssrn.4529721
 [research_atay_kumartaslioglu_2026]: https://doi.org/10.2514/6.2026-5130
-[research_atilganturkmen_budakduhbaci_2021]: https://doi.org/10.1007/s10098-021-02035-w
 [research_atkinson_s_cycle_1891]: https://doi.org/10.1038/scientificamerican06271891-12907supp
 [research_atreya_baum_2002]: https://doi.org/10.1016/s1540-7489(02)80031-1
 [research_attia_leyffer_2025]: https://doi.org/10.1137/24m1667543
@@ -14015,8 +12768,6 @@ Of the four it is the only one that was ready.
 [research_augousti_baker_2018]: https://doi.org/10.1088/1742-6596/1065/26/262002
 [research_author_1966]: https://doi.org/10.2172/12818232
 [research_author_1967]: https://doi.org/10.2172/4247731
-[research_author_1976]: https://doi.org/10.2172/6199740
-[research_automated_models_2025]: https://doi.org/10.31673/2409-7292.2025.017899
 [research_automatic_landing_1960]: https://doi.org/10.1109/ee.1960.6432627
 [research_automatic_landing_1964]: https://doi.org/10.1108/eb033884
 [research_automatic_landing_1969]: https://doi.org/10.1108/eb034494
@@ -14028,10 +12779,6 @@ Of the four it is the only one that was ready.
 [research_avila_islam_2016]: https://doi.org/10.1115/imece2016-65727
 [research_avionics_and_2017]: https://doi.org/10.1109/avfop.2017.8169760
 [research_avionics_testing_1976]: https://doi.org/10.1016/0026-2714(76)90051-2
-[research_axter_bumby_1993]: https://doi.org/10.1016/s1474-6670(17)49309-8
-[research_aydin_2021]: https://doi.org/10.1007/s10163-021-01210-x
-[research_aydin_tarhan_2018]: https://doi.org/10.1007/s10973-018-7615-y
-[research_ayers_1994]: https://doi.org/10.21236/ada285043
 [research_ayyasamy_nirmala_2023]: https://doi.org/10.1016/j.robot.2023.104409
 [research_azhaganm_shanmugam_2023]: https://doi.org/10.1115/imece2023-111791
 [research_azis_maulana_2025]: https://doi.org/10.37934/arnht.31.1.104125
@@ -14057,14 +12804,10 @@ Of the four it is the only one that was ready.
 [research_bae_kim_2017]: https://doi.org/10.7734/coseik.2017.30.2.119
 [research_bae_park_2018]: https://doi.org/10.1115/detc2018-85541
 [research_baek_ahn_2020]: https://doi.org/10.3390/pr8111443
-[research_baek_ma_2022]: https://doi.org/10.1287/opre.2022.2282
-[research_baek_wang_2026]: https://doi.org/10.1016/j.orl.2026.107480
 [research_baetz_1974]: https://doi.org/10.21236/ad0783200
 [research_baetz_1975]: https://doi.org/10.21236/ada020041
 [research_baetz_1976]: https://doi.org/10.2514/6.1976-195
-[research_bagazinski_ahmed_2023]: https://doi.org/10.1115/detc2023-117003
 [research_bahrami_ommi_2022]: https://doi.org/10.1016/j.applthermaleng.2021.117653
-[research_bai_cheng_2024]: https://doi.org/10.1115/icone31-135512
 [research_bai_wang_2017]: https://doi.org/10.1109/phm.2017.8079251
 [research_bail_1968]: https://doi.org/10.4271/680215
 [research_bailey_murphy_1986]: https://doi.org/10.2514/6.1986-1714
@@ -14086,7 +12829,6 @@ Of the four it is the only one that was ready.
 [research_balepin_czysz_2001]: https://doi.org/10.2514/2.5870
 [research_balesdent_brevault_2022]: https://doi.org/10.1016/j.actaastro.2022.08.032
 [research_balhoff_pike_1973]: https://doi.org/10.2514/3.61982
-[research_ballard_1993]: https://doi.org/10.21236/ada277885
 [research_ballardrichardo_2006]: https://ntrs.nasa.gov/citations/20060024932
 [research_ballardrichardo_brownkendallk_2005]: https://ntrs.nasa.gov/citations/20050209890
 [research_ballardrichardo_olivetim_2000]: https://ntrs.nasa.gov/citations/20000097369
@@ -14094,11 +12836,9 @@ Of the four it is the only one that was ready.
 [research_balles_2022_b]: https://doi.org/10.33599/nasampe/s.22.0809
 [research_ballou_1963]: https://doi.org/10.21236/ad0414492
 [research_ballou_1963_b]: https://doi.org/10.21236/ad0414553
-[research_balseiro_ma_2026]: https://doi.org/10.1287/opre.2023.0475
 [research_balut_davis_2003]: https://doi.org/10.21236/ada418948
 [research_balwanz_1965]: https://doi.org/10.1016/s0082-0784(65)80213-2
 [research_banazadehneishabouri_shirazi_2020]: https://doi.org/10.1115/fedsm2020-20172
-[research_banerjee_buckshee_1999]: https://doi.org/10.1111/j.1447-0756.1999.tb01137.x
 [research_banerjee_mohan_2016]: https://doi.org/10.1109/indicon.2016.7838974
 [research_banerjee_poovathingal_2021]: https://doi.org/10.2514/6.2021-1631
 [research_banks_wong_1992]: https://doi.org/10.4095/304538
@@ -14117,7 +12857,6 @@ Of the four it is the only one that was ready.
 [research_barothe_russk_1999]: https://ntrs.nasa.gov/citations/20060040844
 [research_barrere_1977]: https://doi.org/10.1016/0094-5765(77)90113-8
 [research_barros_oliveira_2025]: https://doi.org/10.29327/xxvi-coloquio-de-usinagem-449276.915045
-[research_bartik_gormley_2016]: https://doi.org/10.2139/ssrn.2830528
 [research_bartkiewicz_haws_2022]: https://doi.org/10.1109/aero53065.2022.9843289
 [research_bartle_leadon_1960]: https://doi.org/10.2514/8.8397
 [research_bartlett_1964]: https://doi.org/10.2514/3.2263
@@ -14149,18 +12888,14 @@ Of the four it is the only one that was ready.
 [research_beckra_szalaice_2019]: https://ntrs.nasa.gov/citations/20190001660
 [research_beddini_owano_1987]: https://doi.org/10.2514/6.1987-1770
 [research_bedzyk_czech_1987]: https://doi.org/10.21236/ada189019
-[research_behjati_kashani_2026]: https://doi.org/10.1016/j.applthermaleng.2026.132424
 [research_behrens_minier_1998]: https://doi.org/10.2172/653952
 [research_beitel_1991]: https://doi.org/10.21236/ada584968
 [research_bejan_1983]: https://doi.org/10.1016/s0017-9310(83)80065-9
 [research_bekka_sellam_2015]: https://doi.org/10.1007/s00193-015-0575-2
-[research_belanger_anctil_2017]: https://doi.org/10.1364/boda.2017.jtu4a.17
-[research_belhaiza_laporte_2026]: https://doi.org/10.1016/j.cor.2025.107341
 [research_bellaerospacecobuffalony_1955]: https://doi.org/10.21236/ad0125726
 [research_bellaerospacecobuffalony_1955_b]: https://doi.org/10.21236/ad0125728
 [research_bellaerospacecobuffalony_1957]: https://doi.org/10.21236/ad0136057
 [research_bellaerospacetextronbuffalony_1985]: https://doi.org/10.21236/ada585150
-[research_bellas_gomez_2019]: https://doi.org/10.1007/s10694-019-00931-8
 [research_beltran_kosvic_1966]: https://doi.org/10.2514/6.1966-603
 [research_belyakov_2022]: https://doi.org/10.31772/2712-8970-2022-23-3-424-436
 [research_belyakov_shulepov_2023]: https://doi.org/10.18287/2541-7533-2022-21-4-7-24
@@ -14190,7 +12925,6 @@ Of the four it is the only one that was ready.
 [research_berman_logan_1952]: https://doi.org/10.2514/8.4430
 [research_bermudez_2024]: https://doi.org/10.52202/078371-0180
 [research_bernard_almaawali_2019]: https://doi.org/10.1109/uvs.2019.8658311
-[research_bernett_picciani_2023]: https://doi.org/10.58647/rexpo.23015
 [research_bernstein_linzer_1949]: https://doi.org/10.2514/8.4275
 [research_bernstein_litvinov_2024]: https://doi.org/10.2514/6.2024-0363
 [research_bernstein_yee_2023]: https://doi.org/10.2514/6.2023-2023
@@ -14198,7 +12932,6 @@ Of the four it is the only one that was ready.
 [research_bershadskyi_sokolov_2022]: https://doi.org/10.33950/spacetech-2308-7625-2022-1-56-69
 [research_bertoni_dasari_2018]: https://doi.org/10.21278/idc.2018.0437
 [research_bertsch_thomas_2019]: https://doi.org/10.2514/6.2019-2539
-[research_besbes_elmachtoub_2022]: https://doi.org/10.1287/opre.2020.2054
 [research_best_1982]: https://doi.org/10.1615/ihtc7.1920
 [research_best_mcgahee_1988]: https://doi.org/10.2514/6.1988-3908
 [research_betady_ortiz_2018]: https://doi.org/10.2514/6.2018-4600
@@ -14207,16 +12940,12 @@ Of the four it is the only one that was ready.
 [research_bettserinm_hardinandy_2011]: https://ntrs.nasa.gov/citations/20120001460
 [research_bettserinm_reynoldsdavidc_2011]: https://ntrs.nasa.gov/citations/20120002585
 [research_bewley_1989]: https://doi.org/10.1115/89-gt-328
-[research_bhamare_saikia_2021]: https://doi.org/10.1016/j.buildenv.2021.107927
 [research_bhardwaj_zou_2018]: https://doi.org/10.1115/msec2018-6688
 [research_bhargavapuri_shastry_2019]: https://doi.org/10.1016/j.conengprac.2019.05.015
 [research_bhaskar_sahu_2021]: https://doi.org/10.1002/htj.22296
 [research_bhat_greene_2016]: https://doi.org/10.2514/6.2016-1416
-[research_bhatasana_marconnet_2021]: https://doi.org/10.1109/itherm51669.2021.9503128
 [research_bhatt_singh_2025]: https://doi.org/10.1016/j.ress.2025.111024
 [research_bhattacharya_jung_2020]: https://doi.org/10.5151/sigradi2020-36
-[research_bhowmik_2021]: https://doi.org/10.4043/31031-ms
-[research_bhujbal_preetam_2025]: https://doi.org/10.1016/j.psep.2025.106907
 [research_bi_liu_2025]: https://doi.org/10.1016/j.csite.2025.106822
 [research_bi_zhou_2020]: https://doi.org/10.2514/6.2020-1957
 [research_bi_zhou_2020_b]: https://doi.org/10.2514/6.2020-1957.c1
@@ -14235,7 +12964,6 @@ Of the four it is the only one that was ready.
 [research_biliaiev_biliaieva_2024]: https://doi.org/10.5755/e01.2351-7034.2024.p299-304
 [research_bills_crowe_2016]: https://doi.org/10.2514/6.2016-2149
 [research_binder_1993]: https://doi.org/10.2514/6.1993-2357
-[research_bing_2017]: https://doi.org/10.1115/icone25-67472
 [research_bing_gong_2015]: https://doi.org/10.2514/6.2015-3641
 [research_bird_2020]: https://doi.org/10.36001/ijphm.2014.v5i2.2207
 [research_bird_madge_2020]: https://doi.org/10.36001/ijphm.2014.v5i1.2201
@@ -14245,7 +12973,6 @@ Of the four it is the only one that was ready.
 [research_bishop_dicristina_1967]: https://doi.org/10.2514/6.1967-1126
 [research_bishop_dicristina_1968]: https://doi.org/10.2514/3.4441
 [research_bishop_niblett_2018]: https://doi.org/10.19124/ima.2018.001.05
-[research_bistafa_2024]: https://doi.org/10.25144/19836
 [research_bjorklund_rogero_1979]: https://doi.org/10.21236/ada072125
 [research_black_1969]: https://doi.org/10.2514/3.43999
 [research_black_picklesimer_1971]: https://doi.org/10.2514/6.1971-282
@@ -14262,8 +12989,6 @@ Of the four it is the only one that was ready.
 [research_bloschpaidosh_shea_2018]: https://doi.org/10.1115/detc2018-85908
 [research_blosser_1997]: https://doi.org/10.1063/1.51930
 [research_blumenthal_santy_1966]: https://doi.org/10.2514/3.3603
-[research_bo_2016]: https://doi.org/10.1109/icsai.2016.7810954
-[research_boane_rocha_2025]: https://doi.org/10.1016/j.electacta.2025.146175
 [research_bobisud_1983]: https://doi.org/10.1115/1.3245643
 [research_bock_1968]: https://doi.org/10.2172/4703248
 [research_boden_1951]: https://doi.org/10.1115/1.4016261
@@ -14314,18 +13039,14 @@ Of the four it is the only one that was ready.
 [research_bougacha_varnier_2021]: https://doi.org/10.36001/ijphm.2020.v11i2.2928
 [research_bougacha_varnier_2021_b]: https://doi.org/10.36001/ijphm.2020.v11i1.2607
 [research_bouhadra_forest_2024]: https://doi.org/10.36001/ijphm.2024.v15i2.3986
-[research_bourgeois_whynot_2015]: https://doi.org/10.1016/j.evalprogplan.2015.01.004
-[research_bowden_belfield_2015]: https://doi.org/10.1017/bca.2015.48
 [research_bowen_ness_1982]: https://doi.org/10.1115/82-gt-306
 [research_bowers_pratt_1985]: https://doi.org/10.1109/mdt.1985.294734
 [research_bowlesde_tenneydr_1981]: https://ntrs.nasa.gov/citations/19810010646
 [research_bowman_1967]: https://doi.org/10.21236/ad0649860
-[research_boyce_2017]: https://doi.org/10.1016/j.evalprogplan.2017.05.018
 [research_boyd_fazelpour_2019]: https://doi.org/10.1115/imece2019-11539
 [research_boyd_veeraraghavan_1988]: https://doi.org/10.2514/6.1988-3905
 [research_boydston_cunningham_2015]: https://doi.org/10.4050/f-0071-2015-10127
 [research_boyer_2017]: https://doi.org/10.1016/j.firesaf.2017.03.070
-[research_bradford_2001]: https://doi.org/10.21236/ada392312
 [research_bradford_charania_2004]: https://doi.org/10.2514/6.2004-3514
 [research_bragg_1963]: https://doi.org/10.1016/0010-2180(63)90198-6
 [research_brahimi_medjaher_2020]: https://doi.org/10.36001/ijphm.2017.v8i3.2665
@@ -14424,7 +13145,6 @@ Of the four it is the only one that was ready.
 [research_burton_1981]: https://doi.org/10.21236/ada097744
 [research_burton_1998]: https://doi.org/10.21236/ada354763
 [research_burton_hibbs_2008]: https://doi.org/10.21236/ada480315
-[research_busa_konar_2024]: https://doi.org/10.33313/388/041
 [research_busam_glahn_1999]: https://doi.org/10.1115/99-gt-249
 [research_butka_2023]: https://doi.org/10.1109/dasc58513.2023.10311306
 [research_butler_1964]: https://doi.org/10.1115/1.3629621
@@ -14448,7 +13168,6 @@ Of the four it is the only one that was ready.
 [research_cai_xu_2015]: https://doi.org/10.2991/ssemse-15.2015.210
 [research_cakir_2025]: https://doi.org/10.3390/en18092187
 [research_calamoneri_coro_2024]: https://doi.org/10.1016/j.cor.2024.106678
-[research_calderonhurtado_atroshchenko_2026]: https://doi.org/10.1016/j.compstruc.2025.108037
 [research_calhoon_kors_1973]: https://doi.org/10.2514/6.1973-1242
 [research_calhoun_2000]: https://doi.org/10.2514/6.2000-1046
 [research_calvano_harney_1998]: https://doi.org/10.21236/ada345638
@@ -14468,15 +13187,11 @@ Of the four it is the only one that was ready.
 [research_cao_2017]: https://doi.org/10.1109/phm.2017.8079101
 [research_cao_2024]: https://doi.org/10.1109/meae62008.2024.11026290
 [research_capitano_eldridge_1984]: https://doi.org/10.21236/ada145644
-[research_capodieci_2017]: https://doi.org/10.1109/cstic.2017.7919774
 [research_capparelli_unternbaumen_2026]: https://doi.org/10.18372/kai.2026.conf02.a8
-[research_caputo_2016]: https://doi.org/10.1115/pvp2016-63280
-[research_cardarelli_chadikovski_2022]: https://doi.org/10.12681/jhcvm.30093
 [research_cardeal_sequeira_2021]: https://doi.org/10.1016/j.procir.2021.01.032
 [research_carden_1964]: https://doi.org/10.21236/ad0434369
 [research_carden_harman_1967]: https://doi.org/10.2172/4474135
 [research_cardillo_battista_2023]: https://doi.org/10.3390/aerospace10060546
-[research_cardno_2025]: https://doi.org/10.2118/229255-ms
 [research_carico_1998]: https://doi.org/10.21236/ada350677
 [research_carlson_king_1995]: https://doi.org/10.2514/6.1995-3431
 [research_carman_jb_1966]: https://doi.org/10.21236/ad0632514
@@ -14493,9 +13208,6 @@ Of the four it is the only one that was ready.
 [research_casalino_masseni_2019]: https://doi.org/10.3390/aerospace6030036
 [research_casalino_masseni_2019_b]: https://doi.org/10.2514/6.2019-4096
 [research_casalino_masseni_2022]: https://doi.org/10.2514/1.a35428
-[research_case_1999]: https://doi.org/10.21236/ada629651
-[research_case_2001]: https://doi.org/10.21236/ada628114
-[research_case_2002]: https://doi.org/10.21236/ada628876
 [research_case_reifsnider_2003]: https://doi.org/10.21236/ada414609
 [research_casel_bickford_2026]: https://doi.org/10.13182/nets26-10200
 [research_cassellalan_gorbunovsergey_2016]: https://ntrs.nasa.gov/citations/20160007552
@@ -14508,25 +13220,21 @@ Of the four it is the only one that was ready.
 [research_cato_1964]: https://doi.org/10.2514/6.1964-326
 [research_cato_1965]: https://doi.org/10.2514/3.28176
 [research_celenza_eskenazi_2024]: https://doi.org/10.1103/physrevapplied.22.054081
-[research_celik_2015]: https://doi.org/10.1080/0371750x.2015.1005758
 [research_celik_demirezen_2024]: https://doi.org/10.1109/access.2024.3359417
 [research_cenkci_1991]: https://doi.org/10.21236/ada241143
 [research_cenko_madson_1993]: https://doi.org/10.2514/6.1993-855
 [research_cenko_phillips_1994]: https://doi.org/10.2514/6.1994-195
-[research_cetin_sonmez_2021]: https://doi.org/10.5455/medscience.2020.11.1123
 [research_cha_deoliveira_2022]: https://doi.org/10.3390/aerospace9060325
 [research_cha_ko_2024]: https://doi.org/10.3390/s24092798
 [research_chace_2015]: https://doi.org/10.21236/ada619434
 [research_chaiaiad_thongsri_2023]: https://doi.org/10.1109/itc-cscc58803.2023.10212737
 [research_chalfant_1992]: https://doi.org/10.21236/ada259991
 [research_chaloff_hiyama_1974]: https://doi.org/10.21236/ada002858
-[research_chalupa_nielsen_2018]: https://doi.org/10.1080/21693277.2018.1548982
 [research_chamberlain_1979]: https://doi.org/10.21236/ada092705
 [research_chamis_1983]: https://doi.org/10.2514/6.1983-2445
 [research_chamitoff_1994]: https://doi.org/10.1016/s1474-6670(17)45823-x
 [research_champion_deshaies_1995]: https://doi.org/10.2514/6.1995-2498
 [research_championrjjr_darrowrjjr_1998]: https://ntrs.nasa.gov/citations/19980227137
-[research_chan_2017]: https://doi.org/10.1061/9780784480267.012
 [research_chan_dalle_2016]: https://doi.org/10.2514/6.2016-0798
 [research_chandler_1948]: https://doi.org/10.2514/8.4241
 [research_chandler_2019]: https://doi.org/10.2514/6.2019-4148
@@ -14540,13 +13248,11 @@ Of the four it is the only one that was ready.
 [research_chandramoul_reddy_2020]: https://doi.org/10.34218/ijmet.11.5.2020.003
 [research_chang_1956]: https://doi.org/10.2172/4311980
 [research_chang_1980]: https://doi.org/10.21236/ada085806
-[research_chang_2021]: https://doi.org/10.22443/rms.elmi2021.43
 [research_chang_fabrick_1990]: https://doi.org/10.21236/ada519786
 [research_chang_gao_2018]: https://doi.org/10.1109/sdpc.2018.8664882
 [research_chang_huang_1996]: https://doi.org/10.1007/bf02663733
 [research_chang_huang_2022]: https://doi.org/10.3390/aerospace10010001
 [research_chang_joglekar_2023]: https://doi.org/10.2514/6.2023-2334
-[research_chang_lin_2016]: https://doi.org/10.5954/icarob.2016.os4-4
 [research_chang_pu_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131062
 [research_chang_yee_2021]: https://doi.org/10.2514/6.2021-0671
 [research_chantzis_tracy_2023]: https://doi.org/10.1016/j.addma.2023.103728
@@ -14554,7 +13260,6 @@ Of the four it is the only one that was ready.
 [research_chaplin_1957]: https://doi.org/10.21236/ad0140868
 [research_chappell_1984]: https://doi.org/10.1109/oceans.1984.1152239
 [research_charan_tibrewal_2025]: https://doi.org/10.1109/aero63441.2025.11068448
-[research_charette_marshall_1999]: https://doi.org/10.6028/nist.ir.6389
 [research_chase_1979]: https://doi.org/10.2514/6.1979-894
 [research_chaturvedi_dhangar_2024]: https://doi.org/10.1002/cjce.25278
 [research_chaudhary_bindra_2025]: https://doi.org/10.2514/6.2025-0128
@@ -14569,20 +13274,13 @@ Of the four it is the only one that was ready.
 [research_chen_2018]: https://doi.org/10.3901/jme.2018.02.184
 [research_chen_2019]: https://doi.org/10.2514/6.2019-3837
 [research_chen_2020]: https://doi.org/10.1142/s0217979220400913
-[research_chen_2021]: https://doi.org/10.1111/poms.13310
-[research_chen_2023]: https://doi.org/10.1109/auteee60196.2023.10408268
 [research_chen_2025]: https://doi.org/10.1109/csis-iac65538.2025.11161417
-[research_chen_2026]: https://doi.org/10.1109/isctis70043.2026.11571885
 [research_chen_boyd_2017]: https://doi.org/10.2514/6.2017-3683
-[research_chen_chang_2018]: https://doi.org/10.1115/imece2018-87825
 [research_chen_chen_2022]: https://doi.org/10.3390/coatings12101603
 [research_chen_chen_2022_b]: https://doi.org/10.1063/5.0113570
 [research_chen_chen_2023]: https://doi.org/10.1063/5.0146348
 [research_chen_chen_2024]: https://doi.org/10.1016/j.cej.2024.154251
 [research_chen_chen_2025]: https://doi.org/10.1016/j.ijheatmasstransfer.2025.126785
-[research_chen_cheng_2016]: https://doi.org/10.1016/j.icheatmasstransfer.2015.12.020
-[research_chen_cowling_2016]: https://doi.org/10.5220/0005749203040312
-[research_chen_dagless_1993]: https://doi.org/10.1016/s1474-6670(17)49349-9
 [research_chen_delichatsios_1993]: https://doi.org/10.1080/00102209308947242
 [research_chen_delooze_2025]: https://doi.org/10.52202/083088-0064
 [research_chen_gao_2023]: https://doi.org/10.3390/aerospace10050486
@@ -14591,7 +13289,6 @@ Of the four it is the only one that was ready.
 [research_chen_gokcen_2024]: https://doi.org/10.2514/1.a35761
 [research_chen_he_2025]: https://doi.org/10.1177/16878132251348391
 [research_chen_jin_2022]: https://doi.org/10.1109/icmae56000.2022.9852842
-[research_chen_levi_2017]: https://doi.org/10.1111/poms.12672
 [research_chen_liu_2015]: https://doi.org/10.2514/6.2015-3670
 [research_chen_luo_2021]: https://doi.org/10.1016/j.icheatmasstransfer.2020.105053
 [research_chen_lv_2021]: https://doi.org/10.1109/cac53003.2021.9727489
@@ -14600,8 +13297,6 @@ Of the four it is the only one that was ready.
 [research_chen_milos_2000]: https://doi.org/10.2514/6.2000-206
 [research_chen_milos_2001]: https://doi.org/10.2514/2.3724
 [research_chen_mu_2018]: https://doi.org/10.1117/12.2317531
-[research_chen_peng_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-1_398
-[research_chen_plott_2020]: https://doi.org/10.1115/msec2020-8420
 [research_chen_rao_2021]: https://doi.org/10.1016/j.addma.2021.101861
 [research_chen_rumpf_2026]: https://doi.org/10.2514/6.2026-112578
 [research_chen_sakurahara_2025]: https://doi.org/10.13182/xyz-46416
@@ -14610,7 +13305,6 @@ Of the four it is the only one that was ready.
 [research_chen_smith_2021]: https://doi.org/10.1016/j.addma.2021.102208
 [research_chen_wang_2022]: https://doi.org/10.1103/physrevfluids.7.033901
 [research_chen_wu_2018]: https://doi.org/10.2514/6.2018-4835
-[research_chen_wu_2026]: https://doi.org/10.1177/10591478261422988
 [research_chen_xue_2015]: https://doi.org/10.4028/www.scientific.net/amr.1092-1093.534
 [research_chen_yang_2025]: https://doi.org/10.34133/space.0260
 [research_chen_zhang_2023]: https://doi.org/10.3390/aerospace10030206
@@ -14623,7 +13317,6 @@ Of the four it is the only one that was ready.
 [research_cheng_farmer_2002]: https://doi.org/10.2514/6.2002-785
 [research_cheng_huang_2023]: https://doi.org/10.2514/1.j062713
 [research_cheng_jing_2021]: https://doi.org/10.1016/j.ast.2021.106965
-[research_cheng_lin_2023]: https://doi.org/10.3390/s23062920
 [research_cheng_vedros_2025]: https://doi.org/10.13182/xyz-46452
 [research_cheng_wang_2026]: https://doi.org/10.1002/pc.71385
 [research_cheng_wong_2023]: https://doi.org/10.1016/j.ijheatmasstransfer.2023.124047
@@ -14680,19 +13373,15 @@ Of the four it is the only one that was ready.
 [research_christian_otani_2023]: https://doi.org/10.13182/psa23-40981
 [research_christiansen_lear_2015]: https://doi.org/10.1016/j.proeng.2015.04.011
 [research_christie_2026]: https://doi.org/10.58567/eal05010002
-[research_chu_2024]: https://doi.org/10.1016/j.csite.2024.104343
 [research_chu_li_2025]: https://doi.org/10.1016/j.icheatmasstransfer.2025.109546
 [research_chu_ng_2024]: https://doi.org/10.2514/6.2024-4249
 [research_chu_yang_2019]: https://doi.org/10.1016/j.ijheatmasstransfer.2018.11.172
 [research_chu_zhang_2015]: https://doi.org/10.1117/12.2084258
-[research_chua_tan_2024]: https://doi.org/10.2118/222454-ms
 [research_chung_echigo_2025]: https://doi.org/10.2514/6.2025-1897
-[research_ciacco_rocha_2017]: https://doi.org/10.1016/j.applthermaleng.2016.11.068
 [research_cican_popa_2023]: https://doi.org/10.48084/etasr.6351
 [research_cichon_banko_2026]: https://doi.org/10.2514/6.2026-2901
 [research_cinquegrana_votta_2017]: https://doi.org/10.2514/6.2017-4450
 [research_citarella_ferraiuolo_2022]: https://doi.org/10.3390/ma15155427
-[research_ciurej_2014]: https://doi.org/10.21236/ada617475
 [research_civek_ozgoren_2017]: https://doi.org/10.2514/6.2017-5333
 [research_clarke_2008]: https://doi.org/10.21236/ada500739
 [research_clausing_1969]: https://doi.org/10.2172/4798200
@@ -14718,7 +13407,6 @@ Of the four it is the only one that was ready.
 [research_cockburn_1965]: https://doi.org/10.1049/sqj.1965.0062
 [research_cockrellcharles_2008]: https://ntrs.nasa.gov/citations/20090014147
 [research_cockrellcharlesejr_askinsbrucer_2007]: https://ntrs.nasa.gov/citations/20080013437
-[research_coffeen_williami_2015]: https://doi.org/10.21236/ada631984
 [research_cohen_1980]: https://doi.org/10.2514/3.50761
 [research_cohen_couch_1974]: https://doi.org/10.2514/6.1974-697
 [research_cohen_strand_1981]: https://doi.org/10.21236/ada102412
@@ -14731,7 +13419,6 @@ Of the four it is the only one that was ready.
 [research_coleman_hearne_1968]: https://doi.org/10.2514/6.1968-154
 [research_coleman_jolly_1996]: https://doi.org/10.2514/6.1996-3385
 [research_coley_seyedalavi_2018]: https://doi.org/10.2514/6.2018-5234
-[research_coll_stewart_2022]: https://doi.org/10.1016/j.evalprogplan.2022.102074
 [research_collaborative_trajectory_2015]: https://doi.org/10.1109/dasc.2015.7311508
 [research_colombo_galfetti_1994]: https://doi.org/10.21611/qirt.1994.018
 [research_colombooscarl_1992]: https://ntrs.nasa.gov/citations/19930071978
@@ -14751,7 +13438,6 @@ Of the four it is the only one that was ready.
 [research_composite_propellant_1976]: https://doi.org/10.2514/6.1976-669
 [research_composite_tank_2001]: https://doi.org/10.1016/s0034-3617(01)80147-8
 [research_computational_analysis_1981]: https://doi.org/10.2514/6.1981-1386
-[research_computer_modelling_2016]: https://doi.org/10.21275/v5i4.nov162549
 [research_concio_dalessandro_2021]: https://doi.org/10.2514/6.2021-3574
 [research_concio_migliorino_2023]: https://doi.org/10.2514/6.2023-0513
 [research_condren_hermann_2024]: https://doi.org/10.2514/6.2024-0650
@@ -14783,7 +13469,6 @@ Of the four it is the only one that was ready.
 [research_corban_gilbert_2004]: https://doi.org/10.21236/ada433221
 [research_corbetta_2020]: https://doi.org/10.1109/aero47225.2020.9172628
 [research_corda_longo_2018]: https://doi.org/10.2514/6.2018-5257
-[research_cordeiro_feltrin_2025]: https://doi.org/10.3390/min15080845
 [research_cordes_hertzfeld_1997]: https://doi.org/10.1016/s0265-9646(97)00006-4
 [research_cork_mulcahy_1977]: https://doi.org/10.21236/ada056348
 [research_corke_bowersox_2018]: https://doi.org/10.2514/6.2018-0352
@@ -14799,10 +13484,7 @@ Of the four it is the only one that was ready.
 [research_cotton_1974]: https://doi.org/10.21236/ada000894
 [research_couch_1973]: https://doi.org/10.2514/6.1973-741
 [research_coulbert_1963]: https://doi.org/10.2514/6.1963-241
-[research_coupling_dynamic_2023]: https://doi.org/10.38007/nep.2023.040108
-[research_covington_clewell_2004]: https://doi.org/10.21236/ada451076
 [research_covington_vojvodich_1971]: https://doi.org/10.2514/6.1971-262
-[research_cowling_1995]: https://doi.org/10.1049/ic:19950799
 [research_cowlingadaml_2011]: https://ntrs.nasa.gov/citations/20110010980
 [research_cox_1991]: https://doi.org/10.1109/70.75902
 [research_cox_harris_2022]: https://doi.org/10.2514/6.2022-0806
@@ -14819,7 +13501,6 @@ Of the four it is the only one that was ready.
 [research_crisan_moraru_2026]: https://doi.org/10.3390/aerospace13050475
 [research_crispo_kim_2026]: https://doi.org/10.1007/s40964-025-01520-8
 [research_crocco_cheng_1953]: https://doi.org/10.2514/8.4623
-[research_croce_2019]: https://doi.org/10.3390/app9245338
 [research_croce_rovenskaya_2015]: https://doi.org/10.1115/1.4029259
 [research_crocker_peery_1998]: https://doi.org/10.2514/6.1998-3674
 [research_cronin_2013]: https://doi.org/10.21236/ada594988
@@ -14855,25 +13536,19 @@ Of the four it is the only one that was ready.
 [research_czysz_little_1993]: https://doi.org/10.2514/6.1993-5096
 [research_d_liseimhn_1995]: https://doi.org/10.2514/6.1995-2499
 [research_dababneh_kipouros_2025]: https://doi.org/10.3390/aerospace12060476
-[research_dabbaghchian_pakzad_2025]: https://doi.org/10.13052/97887-438-0148-1_15
-[research_dagnew_2022]: https://doi.org/10.1002/ces2.10136
-[research_dahan_sela_2022]: https://doi.org/10.1287/opre.2021.2180
 [research_dahlem_gord_1991]: https://doi.org/10.4271/911184
 [research_dahlene_martin_1969]: https://doi.org/10.2514/6.1969-527
 [research_dai_huang_2021]: https://doi.org/10.1016/j.actaastro.2020.09.028
-[research_dai_li_2017]: https://doi.org/10.1142/9789813222359_0041
 [research_dai_liu_2017]: https://doi.org/10.23919/chicc.2017.8027911
 [research_dai_zhang_2025]: https://doi.org/10.1117/12.3078118
 [research_daily_1989]: https://doi.org/10.21236/ada244987
 [research_daimon_negishi_2017]: https://doi.org/10.2514/6.2017-4919
 [research_daines_boyd_1977]: https://doi.org/10.2514/6.1977-944
 [research_dalessandro_pizzarelli_2021]: https://doi.org/10.3390/aerospace8090250
-[research_dalhatu_saad_2022]: https://doi.org/10.1115/1.4055476
 [research_dallavecchiadelima_cavalheiro_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-1600
 [research_dalle_rogers_2015]: https://doi.org/10.2514/6.2015-3152
 [research_dalle_rogers_2016]: https://doi.org/10.2514/6.2016-0797
 [research_dalle_rogers_2023]: https://doi.org/10.2514/6.2023-0237
-[research_dalmeijer_spliet_2018]: https://doi.org/10.1016/j.cor.2017.08.015
 [research_damane_pitot_2024]: https://doi.org/10.2514/6.2024-1400
 [research_damse_singh_2000]: https://doi.org/10.14429/dsj.50.3352
 [research_danabashian_hablani_2001]: https://doi.org/10.2514/6.2001-4393
@@ -14886,14 +13561,12 @@ Of the four it is the only one that was ready.
 [research_daniels_clare_1973]: https://doi.org/10.2514/3.44388
 [research_danjun_yan_2015]: https://doi.org/10.1109/chicc.2015.7260521
 [research_darbandi_jalali_2022]: https://doi.org/10.1177/14680874211070101
-[research_darmon_2017]: https://doi.org/10.4028/www.scientific.net/aef.21.50
 [research_das_moore_1988]: https://doi.org/10.1111/j.1559-3584.1988.tb01450.x
 [research_das_padmanabhan_2024]: https://doi.org/10.1007/s41872-024-00252-y
 [research_dasadhikari_kuwamura_2023]: https://doi.org/10.1115/gt2023-102700
 [research_dash_barik_2025]: https://doi.org/10.1080/09276440.2025.2493478
 [research_dasoghe_bianchini_2019]: https://doi.org/10.1115/gt2019-90007
 [research_dastanian_mazaheri_2025]: https://doi.org/10.1016/j.tsep.2025.104141
-[research_davarzani_ejaz_2024]: https://doi.org/10.11591/ijra.v13i1.pp105-112
 [research_davidian_1987]: https://doi.org/10.2514/6.1987-2071
 [research_davidiankennethj_1989]: https://ntrs.nasa.gov/citations/19900000856
 [research_davidiankennetho_1990]: https://ntrs.nasa.gov/citations/19910000806
@@ -14905,7 +13578,6 @@ Of the four it is the only one that was ready.
 [research_davidson_2021]: https://doi.org/10.1016/j.ijheatfluidflow.2021.108880
 [research_davies_1938]: https://doi.org/10.4271/380028
 [research_davies_park_1982]: https://doi.org/10.2514/6.1982-200
-[research_davies_reid_2021]: https://doi.org/10.3390/proceedings2021077008
 [research_daviller_dombard_2020]: https://doi.org/10.1080/10618562.2020.1786540
 [research_davis_1966]: https://doi.org/10.2514/6.1966-990
 [research_davis_1968]: https://doi.org/10.2514/6.1968-502
@@ -14936,7 +13608,6 @@ Of the four it is the only one that was ready.
 [research_decjohna_braunrobertd_2006]: https://ntrs.nasa.gov/citations/20080013535
 [research_decjohna_laubbernard_2011]: https://ntrs.nasa.gov/citations/20110013222
 [research_decker_barbre_2015]: https://doi.org/10.2514/1.a33000
-[research_decorlasouza_lee_2017]: https://doi.org/10.1061/9780784480267.020
 [research_dees_stockard_2023]: https://doi.org/10.2514/6.2023-4693
 [research_deespatrickd_zwackmathewr_2015]: https://ntrs.nasa.gov/citations/20150021408
 [research_deetsdwaina_lockwiltonp_1988]: https://ntrs.nasa.gov/citations/19880000370
@@ -14993,7 +13664,6 @@ Of the four it is the only one that was ready.
 [research_design_and_2024]: https://doi.org/10.20508/ijrer.v14i2.14439.g8896
 [research_design_concepts_1986]: https://doi.org/10.1016/0010-4361(86)90278-8
 [research_design_of_2004]: https://doi.org/10.5821/iwp.2004.2.15998
-[research_design_of_2018]: https://doi.org/10.23977/iccsie.2018.1005
 [research_design_of_an_2022]: https://doi.org/10.1360/ssi-2022-0067
 [research_deslandes_seifert_2000]: https://doi.org/10.2514/6.2000-4200
 [research_desmedt_2002]: https://doi.org/10.21236/ada403635
@@ -15006,7 +13676,6 @@ Of the four it is the only one that was ready.
 [research_devadoss_1985]: https://doi.org/10.14429/dsj.35.5994
 [research_development_and_1990]: https://doi.org/10.2514/6.1990-72
 [research_development_and_2004]: https://doi.org/10.5139/jksas.2004.32.3.124
-[research_development_and_2016]: https://doi.org/10.20431/2455-1538.0203004
 [research_development_of_1960]: https://doi.org/10.6028/nbs.rpt.6862
 [research_development_of_1993]: https://doi.org/10.2514/6.1993-533
 [research_development_of_2001]: https://doi.org/10.1108/aeat.2001.12773cad.003
@@ -15029,7 +13698,6 @@ Of the four it is the only one that was ready.
 [research_diegel_schutte_2020]: https://doi.org/10.1016/j.addma.2020.101446
 [research_diffusion_bonded_1973]: https://doi.org/10.1016/0010-4361(73)90614-9
 [research_digges_1971]: https://doi.org/10.21236/ad0728647
-[research_digital_vehicle_2026]: https://doi.org/10.56726/irjmets86859
 [research_digumarthi_chang_1984]: https://doi.org/10.1115/1.3239626
 [research_dijkstra_mayer_1995]: https://doi.org/10.2514/6.1995-2415
 [research_dileep_umesh_2019]: https://doi.org/10.12783/ballistics2019/33146
@@ -15044,7 +13712,6 @@ Of the four it is the only one that was ready.
 [research_dincer_1996]: https://doi.org/10.1080/00908319608908804
 [research_dinelli_nannipieri_2019]: https://doi.org/10.3390/aerospace6090101
 [research_dineshkumar_gowrishankar_2021]: https://doi.org/10.4273/ijvss.13.3.05
-[research_ding_duan_2023]: https://doi.org/10.1109/cac59555.2023.10451154
 [research_ding_liu_2019]: https://doi.org/10.1088/1742-6596/1300/1/012052
 [research_ding_liu_2023]: https://doi.org/10.1109/iccect57938.2023.10141241
 [research_ding_ziviani_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131326
@@ -15052,7 +13719,6 @@ Of the four it is the only one that was ready.
 [research_diodati_sorrentino_2023]: https://doi.org/10.3390/aerospace10060507
 [research_dion_1992]: https://doi.org/10.1109/irps.1992.363301
 [research_dire_franks_1986]: https://doi.org/10.2514/6.1986-2730
-[research_direct_drive_laser_2026]: https://doi.org/10.34854/icpaf.53.2026.1.1.147
 [research_direct_numerical_2023]: https://doi.org/10.1063/5.0146651
 [research_divo_kassab_1998]: https://doi.org/10.2514/6.1998-2578
 [research_djeffal_benamara_2024]: https://doi.org/10.13111/2066-8201.2024.16.1.4
@@ -15067,14 +13733,11 @@ Of the four it is the only one that was ready.
 [research_dolan_1970]: https://doi.org/10.2514/6.1970-277
 [research_dolgih_2025]: https://doi.org/10.18287/2409-4579-2025-11-2-46-55
 [research_doman_2004]: https://doi.org/10.2514/1.14041
-[research_domin_kielan_2019]: https://doi.org/10.23919/ptze.2019.8781725
 [research_dominguezcalabuig_wilson_2024]: https://doi.org/10.1016/j.actaastro.2024.05.009
-[research_domino_2021]: https://doi.org/10.1080/10618562.2021.1905801
 [research_donahue_1997]: https://doi.org/10.2514/2.3249
 [research_donat_1993]: https://doi.org/10.2514/6.1993-1122
 [research_donegan_fox_1991]: https://doi.org/10.2514/6.1991-183
 [research_dong_fang_2025]: https://doi.org/10.1016/j.ast.2025.110467
-[research_dong_frangopol_2015]: https://doi.org/10.1016/j.strusafe.2014.10.004
 [research_dong_jiang_2025]: https://doi.org/10.1109/icphm65385.2025.11061823
 [research_dong_li_2021]: https://doi.org/10.1016/j.addma.2020.101699
 [research_dong_li_2021_b]: https://doi.org/10.2514/1.j059957
@@ -15084,8 +13747,6 @@ Of the four it is the only one that was ready.
 [research_dong_zhang_2021]: https://doi.org/10.1002/prep.202000178
 [research_doniger_1967]: https://doi.org/10.2514/6.1967-406
 [research_donjp_phenrl_1971]: https://ntrs.nasa.gov/citations/19720004061
-[research_donofrio_1989]: https://doi.org/10.21236/ada219184
-[research_donoghue_2023]: https://doi.org/10.3102/ip.23.2012571
 [research_donohuejim_fletcherdoug_1996]: https://ntrs.nasa.gov/citations/19970010166
 [research_dorrell_earnhart_2024]: https://doi.org/10.2514/6.2024-84781
 [research_dorrington_1987]: https://doi.org/10.2514/6.1987-1818
@@ -15126,7 +13787,6 @@ Of the four it is the only one that was ready.
 [research_duan_zhao_2026]: https://doi.org/10.2514/1.j066092
 [research_dubois_habiballah_1995]: https://doi.org/10.2514/6.1995-607
 [research_ducret_arnaud_1996]: https://doi.org/10.2514/6.1996-3289
-[research_ducruet_itoh_2022]: https://doi.org/10.1007/s11067-022-09570-z
 [research_dudareva_2025]: https://doi.org/10.3103/s1068799825010131
 [research_dudley_thonet_1992]: https://doi.org/10.2514/6.1992-3635
 [research_duggleby_walter_2025]: https://doi.org/10.2514/6.2025-1141
@@ -15154,8 +13814,6 @@ Of the four it is the only one that was ready.
 [research_dziubek_budzik_2026]: https://doi.org/10.24867/atm-2026-1-003
 [research_dzodzo_2022]: https://doi.org/10.1115/icone29-94479
 [research_earl_1984]: https://doi.org/10.21236/ada146694
-[research_earle_1999]: https://doi.org/10.21236/ada630546
-[research_earle_2001]: https://doi.org/10.21236/ada625399
 [research_easley_young_2019]: https://doi.org/10.2514/6.2019-4309
 [research_eaton_mathias_2000]: https://doi.org/10.2514/6.2000-3807
 [research_eberhart_loehle_2016]: https://doi.org/10.2514/6.2016-3232
@@ -15163,7 +13821,6 @@ Of the four it is the only one that was ready.
 [research_ebrahimi_levine_1998]: https://doi.org/10.21236/ada405686
 [research_eckert_goldstein_1982]: https://doi.org/10.21236/ada119729
 [research_ederouich_essahraoui_2021]: https://doi.org/10.5220/0010734400003101
-[research_ediz_tatar_2017]: https://doi.org/10.1007/s41779-017-0038-6
 [research_edquistkarlt_2006]: https://ntrs.nasa.gov/citations/20060047743
 [research_edwards_1987]: https://doi.org/10.21236/ada178473
 [research_edwards_2019]: https://doi.org/10.1109/msp.2018.2884745
@@ -15185,8 +13842,6 @@ Of the four it is the only one that was ready.
 [research_ehlers_tatzko_2021]: https://doi.org/10.1016/j.addma.2020.101752
 [research_ekimogloy_stelk_2026]: https://doi.org/10.2514/6.2026-112651
 [research_eklund_2004]: https://doi.org/10.2514/6.2004-5950
-[research_ekman_dahlberg_2020]: https://doi.org/10.1016/j.joca.2020.02.692
-[research_elamin_elbeltagy_2021]: https://doi.org/10.1007/s11242-021-01575-5
 [research_electrodeposition_forms_1961]: https://doi.org/10.1021/cen-v039n046.p056
 [research_elegante_bowman_1978]: https://doi.org/10.2514/6.1978-950
 [research_elias_gordon_1952]: https://doi.org/10.2514/8.4489
@@ -15202,7 +13857,6 @@ Of the four it is the only one that was ready.
 [research_elston_1963]: https://doi.org/10.21236/ad0407325
 [research_elvin_1996]: https://doi.org/10.1063/1.49950
 [research_emdee_2001]: https://doi.org/10.2514/6.2001-3985
-[research_emelogu_marufuzzaman_2016]: https://doi.org/10.1016/j.addma.2016.04.006
 [research_emidio_grienche_1998]: https://doi.org/10.1615/ihtc11.1260
 [research_emma_pernicka_2003]: https://doi.org/10.2514/2.5071
 [research_emory_2022]: https://doi.org/10.2514/6.2022-0635
@@ -15225,16 +13879,13 @@ Of the four it is the only one that was ready.
 [research_erickson_1993]: https://doi.org/10.2514/6.1993-4551
 [research_ericksongarye_2020]: https://ntrs.nasa.gov/citations/20200002873
 [research_ericsson_1995]: https://doi.org/10.1016/0376-0421(95)00002-g
-[research_erkalkan_polat_2026]: https://doi.org/10.1016/j.measurement.2026.120824
 [research_ermakova_mehmanparast_2022]: https://doi.org/10.3390/met12020238
 [research_erol_unsal_2026]: https://doi.org/10.2514/6.2026-4763
 [research_erol_unsal_2026_b]: https://doi.org/10.2514/6.2026-4763.c1
 [research_ertugrul_2024]: https://doi.org/10.21741/9781644903131-31
-[research_escalona_brotcorne_2023]: https://doi.org/10.1007/s10479-023-05670-2
 [research_escartiguillem_garciaraffi_2022]: https://doi.org/10.3390/app12073356
 [research_esdu_release_1998]: https://doi.org/10.1108/aeat.1998.12770bab.023
 [research_esiyok_candarli_2018]: https://doi.org/10.2514/6.2018-4577
-[research_eskay_britt_1996]: https://doi.org/10.2172/197833
 [research_eskue_2023]: https://doi.org/10.3390/aerospace10020146
 [research_esposito_lappa_2026]: https://doi.org/10.2514/6.2026-5042
 [research_estey_lewis_1983]: https://doi.org/10.2514/3.28355
@@ -15250,7 +13901,6 @@ Of the four it is the only one that was ready.
 [research_everlinechester_clarkkarla_2008]: https://ntrs.nasa.gov/citations/20110013160
 [research_ewald_sarkady_1966]: https://doi.org/10.1109/tns.1966.4324014
 [research_excelcodevelopmentsincsilvercreekny_1963]: https://doi.org/10.21236/ad0424490
-[research_exploration_of_2022]: https://doi.org/10.7176/ads/101-06
 [research_ezhilarasu_skaf_2019]: https://doi.org/10.1016/j.paerosci.2019.01.001
 [research_fabig_winter_2018]: https://doi.org/10.1109/wsc.2018.8632421
 [research_fabrin_ferrari_2021]: https://doi.org/10.1109/wsc52266.2021.9715473
@@ -15263,12 +13913,9 @@ Of the four it is the only one that was ready.
 [research_fan_2015]: https://doi.org/10.4028/www.scientific.net/amr.1091.103
 [research_fan_cheung_1996]: https://doi.org/10.1115/imece1996-0087
 [research_fan_fan_2024]: https://doi.org/10.1080/10407782.2024.2302397
-[research_fan_zhang_2021]: https://doi.org/10.1016/j.cor.2021.105211
 [research_fang_1984]: https://doi.org/10.2514/6.1984-510
 [research_fanqi_bianjiang_2023]: https://doi.org/10.1109/icmae59650.2023.10424599
 [research_farag_chandran_2025]: https://doi.org/10.13182/xyz-47493
-[research_farhangdoust_mehrabi_2019]: https://doi.org/10.1061/9780784482230.023
-[research_faria_holanda_2015]: https://doi.org/10.1007/s10973-015-5039-5
 [research_farmer_1970]: https://doi.org/10.21236/ad0706405
 [research_farmerrc_andersonpg_1996]: https://ntrs.nasa.gov/citations/19960029262
 [research_farmerrichardc_chenggary_1999]: https://ntrs.nasa.gov/citations/20000027515
@@ -15295,7 +13942,6 @@ Of the four it is the only one that was ready.
 [research_feltus_1979]: https://doi.org/10.21236/ada078053
 [research_feng_liang_2015]: https://doi.org/10.1016/j.jaap.2015.01.021
 [research_feng_liang_2016]: https://doi.org/10.1016/j.jaap.2016.01.004
-[research_feng_niazadeh_2024]: https://doi.org/10.1287/opre.2020.0687
 [research_feng_reifsnider_1985]: https://doi.org/10.1520/ctr10293j
 [research_feng_shi_2024]: https://doi.org/10.1080/01495739.2024.2361828
 [research_feng_zhang_2019]: https://doi.org/10.1109/icisce48695.2019.00213
@@ -15308,13 +13954,10 @@ Of the four it is the only one that was ready.
 [research_fergusonroscoec_2011]: https://ntrs.nasa.gov/citations/20110007936
 [research_fernandes_silva_2019]: https://doi.org/10.1109/ice.2019.8792651
 [research_fernandez_riddlebaugh_2018]: https://doi.org/10.1109/ram.2018.8463114
-[research_fernandeznovales_barrio_2023]: https://doi.org/10.1038/s41598-023-39039-z
 [research_fernando_2017]: https://doi.org/10.1139/juvs-2017-0007
 [research_ferraiuolo_giannella_2023]: https://doi.org/10.3390/met13030470
 [research_ferrandon_1997]: https://doi.org/10.1016/s0265-9646(97)00008-8
-[research_ferreira_crapnell_2025]: https://doi.org/10.1016/j.electacta.2025.145680
 [research_ferreira_dourado_2018]: https://doi.org/10.26678/abcm.encit2018.cit18-0121
-[research_ferreira_lima_2020]: https://doi.org/10.5220/0009834600760083
 [research_ferrellbob_santurosteve_2004]: https://ntrs.nasa.gov/citations/20120003350
 [research_ferrero_pastrone_2019]: https://doi.org/10.2514/1.j057956
 [research_fidkowski_2022]: https://doi.org/10.1016/j.ast.2022.107843
@@ -15330,7 +13973,6 @@ Of the four it is the only one that was ready.
 [research_fiore_barbato_2024]: https://doi.org/10.2514/6.2024-0353
 [research_fiore_nasuti_2025]: https://doi.org/10.2514/1.t6919
 [research_fiorito_1964]: https://doi.org/10.2514/6.1964-260
-[research_firoozabadi_nateghi_2026]: https://doi.org/10.1016/j.jwpe.2025.109234
 [research_firsyuk_ermakov_2025]: https://doi.org/10.1007/s42401-025-00347-z
 [research_fischer_1981]: https://doi.org/10.2514/6.1981-1663
 [research_fischer_fasoulas_2024]: https://doi.org/10.52202/078373-0079
@@ -15348,14 +13990,12 @@ Of the four it is the only one that was ready.
 [research_fleurotte_authier_2022]: https://doi.org/10.1177/07349041221134486
 [research_flittie_estey_1992]: https://doi.org/10.1016/0094-5765(92)90014-a
 [research_flittie_mcfarlane_1991]: https://doi.org/10.2514/6.1991-2046
-[research_florez_gildin_2019]: https://doi.org/10.2118/193911-ms
 [research_flow_simulation_2019]: https://doi.org/10.35940/ijrte.b1375.0982s1119
 [research_flying_controls_1963]: https://doi.org/10.1108/eb033786
 [research_fodor_2017]: https://doi.org/10.1515/macro-2017-0015
 [research_fohring_haber_2016]: https://doi.org/10.1137/15m1034738
 [research_fong_1964]: https://doi.org/10.2514/6.1964-125
 [research_fong_lovine_1964]: https://doi.org/10.2514/6.1964-117
-[research_fors_2017]: https://doi.org/10.69554/dbcc6884
 [research_fortenbaugh_1972]: https://doi.org/10.2514/6.1972-873
 [research_fortner_maddox_2022]: https://doi.org/10.2514/6.2022-1498
 [research_fortner_maddox_2022_b]: https://doi.org/10.2514/6.2022-1498.c1
@@ -15373,7 +14013,6 @@ Of the four it is the only one that was ready.
 [research_frank_drikakis_2017]: https://doi.org/10.2514/6.2017-0392
 [research_franken_kerwin_1958]: https://doi.org/10.21236/ad0205776
 [research_franklin_1995]: https://doi.org/10.1117/12.212738
-[research_franklin_mcguire_2023]: https://doi.org/10.13182/nureth20-40852
 [research_franklin_tinsley_1970]: https://doi.org/10.21236/ad0867628
 [research_fredericks_shorr_1972]: https://doi.org/10.2514/6.1972-1167
 [research_freeman_talay_1996]: https://doi.org/10.1061/40177(207)52
@@ -15388,21 +14027,17 @@ Of the four it is the only one that was ready.
 [research_friedland_1965]: https://doi.org/10.2514/6.1965-533
 [research_friedman_1953]: https://doi.org/10.2514/8.4640
 [research_friedman_hines_1967]: https://doi.org/10.21236/ad0816546
-[research_frignani_2021]: https://doi.org/10.1007/s42411-021-0438-z
 [research_fritz_huebsch_2017]: https://doi.org/10.2514/6.2017-0510
 [research_friz_samareh_2018]: https://doi.org/10.2514/6.2018-5177
 [research_friz_tiffin_2022]: https://doi.org/10.2514/6.2022-4254
 [research_froehkle_haidn_1998]: https://doi.org/10.2514/6.1998-3443
-[research_frohman_ledder_1993]: https://doi.org/10.21236/ada268612
 [research_fu_bose_2021]: https://doi.org/10.1007/s00162-021-00587-7
 [research_fu_hu_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2026.112280
-[research_fu_jenelius_2017]: https://doi.org/10.1016/j.autcon.2017.08.023
 [research_fu_liang_2019]: https://doi.org/10.1109/cisce.2019.00021
 [research_fu_martin_2023]: https://doi.org/10.2514/6.2023-2085
 [research_fu_mcdaniel_2020]: https://doi.org/10.2514/6.2020-0256
 [research_fu_mcdaniel_2021]: https://doi.org/10.2514/6.2021-1050
 [research_fu_setters_2019]: https://doi.org/10.2514/6.2019-2879
-[research_fu_stollenwerk_2022]: https://doi.org/10.1117/12.2632425
 [research_fu_wang_2021]: https://doi.org/10.1109/ccdc52312.2021.9602122
 [research_fuchs_haskell_2018]: https://doi.org/10.2514/6.2018-0084
 [research_fuchsaj_1980]: https://ntrs.nasa.gov/citations/19800019888
@@ -15411,7 +14046,6 @@ Of the four it is the only one that was ready.
 [research_fujimori_kurozumi_2000]: https://doi.org/10.2514/2.4536
 [research_fujio_ogawa_2024]: https://doi.org/10.1016/j.ast.2024.109183
 [research_fujio_taguchi_2026]: https://doi.org/10.1007/s12567-026-00722-2
-[research_fujita_1997]: https://doi.org/10.1016/s0022-3115(96)00697-6
 [research_fujita_suzuki_2015]: https://doi.org/10.2514/6.2015-2508
 [research_fuller_1973]: https://doi.org/10.2514/6.1973-1179
 [research_fullertoncg_1975]: https://ntrs.nasa.gov/citations/19760035694
@@ -15420,17 +14054,14 @@ Of the four it is the only one that was ready.
 [research_funatsu_hiroyuki_2001]: https://doi.org/10.2514/6.2001-1776
 [research_funazaki_iwaguchi_2020]: https://doi.org/10.1299/jsmefed.2020.os07-10
 [research_functional_redundancy_1973]: https://doi.org/10.1016/0026-2714(73)90247-3
-[research_funfschilling_perrin_2019]: https://doi.org/10.1080/00423114.2019.1601745
 [research_furlong_zhao_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127447
 [research_fuse_2025]: https://doi.org/10.52202/083084-0001
 [research_fusselman_goyal_2019]: https://doi.org/10.2514/6.2019-4144
 [research_gade_inman_1998]: https://doi.org/10.2514/2.2318
-[research_gadgil_1980]: https://doi.org/10.2172/5411509
 [research_gadhvi_shankar_2023]: https://doi.org/10.1115/imece2023-113414
 [research_gage_vanderkam_2003]: https://doi.org/10.2514/6.2003-1330
 [research_gagepeter_mahzarimilad_2019]: https://ntrs.nasa.gov/citations/20190028341
 [research_gagliano_nocera_2016]: https://doi.org/10.1109/irec.2016.7478885
-[research_gagnon_leroux_2025]: https://doi.org/10.1016/j.autcon.2025.106434
 [research_gai_cao_2025]: https://doi.org/10.1063/5.0272010
 [research_gai_curry_1977]: https://doi.org/10.2514/3.44580
 [research_gainer_1963]: https://doi.org/10.21236/ad0404850
@@ -15441,7 +14072,6 @@ Of the four it is the only one that was ready.
 [research_gallo_kamps_2023]: https://doi.org/10.1016/j.actaastro.2023.05.013
 [research_galvez_wright_2020]: https://doi.org/10.1115/fedsm2020-20244
 [research_gamble_jenkins_2001]: https://doi.org/10.1109/62.894176
-[research_gamble_trombley_2025]: https://doi.org/10.1117/12.3054802
 [research_gandge_hampali_2022]: https://doi.org/10.18311/jmmf/2021/30109
 [research_gangeh_bui_2023]: https://doi.org/10.2514/6.2023-72230
 [research_ganilova_cartmell_2022]: https://doi.org/10.1016/j.compstruct.2022.115423
@@ -15466,7 +14096,6 @@ Of the four it is the only one that was ready.
 [research_garciaroberto_williamsrobert_1998]: https://ntrs.nasa.gov/citations/19990009133
 [research_garegnani_avancini_2024]: https://doi.org/10.52202/078373-0112
 [research_garg_abraham_2022]: https://doi.org/10.1016/j.ifacol.2022.04.002
-[research_garg_platin_1973]: https://doi.org/10.1080/00423117308968436
 [research_garimella_nenaydykh_1996]: https://doi.org/10.1016/0017-9310(95)00382-7
 [research_garwol_2024]: https://doi.org/10.7862/tiam.2024.3.5
 [research_gasparini_2019]: https://doi.org/10.1063/10.0000160
@@ -15480,7 +14109,6 @@ Of the four it is the only one that was ready.
 [research_gawron_wendt_2023]: https://doi.org/10.5162/smsi2023/c6.3
 [research_gaynor_cervisi_1984]: https://doi.org/10.2514/6.1984-1225
 [research_gaynor_johnson_2020]: https://doi.org/10.1016/j.addma.2020.101149
-[research_gbadamosi_adenigbo_2017]: https://doi.org/10.4314/ejesm.v10i4.3
 [research_gcsclippa_llbaxter_1999]: https://doi.org/10.2172/5953
 [research_ge_yuan_2022]: https://doi.org/10.1115/pvp2022-85852
 [research_gebman_1989]: https://doi.org/10.2514/6.1989-2096
@@ -15499,18 +14127,14 @@ Of the four it is the only one that was ready.
 [research_georgieva_2026]: https://doi.org/10.2514/6.2026-112213
 [research_gerling_dresia_2024]: https://doi.org/10.3390/aerospace11110934
 [research_gettatelli_benedikter_2023]: https://doi.org/10.2514/6.2023-2644
-[research_gharibi_mostofinejad_2023]: https://doi.org/10.1680/jmacr.22.00076
 [research_ghenaiet_2024]: https://doi.org/10.1115/gt2024-121812
 [research_ghori_khamvilai_2022]: https://doi.org/10.1109/dasc55683.2022.9925841
 [research_ghosh_chattopadhyay_2015]: https://doi.org/10.1109/pcitc.2015.7438179
-[research_ghosh_du_2024]: https://doi.org/10.1115/vvuq2024-132266
 [research_ghosh_gunasekaran_2021]: https://doi.org/10.2514/6.2021-2489
 [research_ghosh_rao_2023]: https://doi.org/10.2514/6.2023-3051
-[research_giacomelli_passalacqua_2024]: https://doi.org/10.3390/math12233747
 [research_giambelli_calo_2026]: https://doi.org/10.2514/6.2026-2873
 [research_giardiniaa_1986]: https://ntrs.nasa.gov/citations/19870007327
 [research_gibart_pietlahanier_2024]: https://doi.org/10.23919/acc60939.2024.10644942
-[research_gibbs_reynolds_2022]: https://doi.org/10.1002/ev.20502
 [research_gibson_1985]: https://doi.org/10.2514/6.1985-1324
 [research_gijonrivera_xaman_2017]: https://doi.org/10.1080/01457632.2017.1288047
 [research_gilligan_hahn_1989]: https://doi.org/10.1109/plasma.1989.165971
@@ -15518,7 +14142,6 @@ Of the four it is the only one that was ready.
 [research_giurgiutiu_lin_2004]: https://doi.org/10.1115/imece2004-60929
 [research_gj_nath_2019]: https://doi.org/10.2139/ssrn.3507916
 [research_glaser_1996]: https://doi.org/10.2172/230627
-[research_glazkov_chupshev_2023]: https://doi.org/10.5220/0012044500003473
 [research_gleadall_2021]: https://doi.org/10.1016/j.addma.2021.102109
 [research_glebocki_jacewicz_2020]: https://doi.org/10.3390/aerospace7120168
 [research_glick_1974]: https://doi.org/10.2514/3.49241
@@ -15541,7 +14164,6 @@ Of the four it is the only one that was ready.
 [research_gomez_1970]: https://doi.org/10.2514/6.1970-869
 [research_gomezfernandez_2024]: https://doi.org/10.52202/078373-0057
 [research_gomezmonroy_floresmoreno_2024]: https://doi.org/10.52202/078371-0183
-[research_gomezramirez_2020]: https://doi.org/10.3138/cjpe.69030
 [research_gompertz_1950]: https://doi.org/10.2514/8.4343
 [research_gonca_genc_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2026.111966
 [research_goncalves_arteiro_2024]: https://doi.org/10.3390/jcs8120504
@@ -15551,8 +14173,6 @@ Of the four it is the only one that was ready.
 [research_gong_wang_2018]: https://doi.org/10.1016/j.compstruct.2017.10.078
 [research_gong_wang_2022]: https://doi.org/10.3390/sym14091862
 [research_gonzalez_marks_1977]: https://doi.org/10.2514/6.1977-868
-[research_gonzalezsacristan_garciasaura_2016]: https://doi.org/10.1145/3012430.3012498
-[research_goodrick_butler_2021]: https://doi.org/10.1109/dmc51747.2021.9529937
 [research_gorbach_sidoruk_1988]: https://doi.org/10.1007/bf00778258
 [research_gordon_1950]: https://doi.org/10.2514/8.4316
 [research_gordon_1992]: https://doi.org/10.21236/ada251353
@@ -15563,7 +14183,6 @@ Of the four it is the only one that was ready.
 [research_gorodetsky_marzouk_2016]: https://doi.org/10.1137/15m1017119
 [research_gosma_harper_2022]: https://doi.org/10.2172/2005949
 [research_gosma_harper_2023]: https://doi.org/10.2514/6.2023-3617
-[research_gosney_2021]: https://doi.org/10.2139/ssrn.3943611
 [research_gostintsev_sukhanov_1972]: https://doi.org/10.1007/bf00740450
 [research_gothard_granlund_2022]: https://doi.org/10.2514/1.c036261
 [research_gotzig_2015]: https://doi.org/10.2514/6.2015-4161
@@ -15577,7 +14196,6 @@ Of the four it is the only one that was ready.
 [research_gowing_2003]: https://doi.org/10.21236/ada416866
 [research_goyal_babuska_2021]: https://doi.org/10.2514/6.2021-1166
 [research_goyal_goodman_2026]: https://doi.org/10.2514/6.2026-0642
-[research_goyal_iyengar_2025]: https://doi.org/10.1287/opre.2021.0695
 [research_gpszatkowski_barryelevin_1991]: https://ntrs.nasa.gov/citations/19910011366
 [research_graberejjr_clarkjs_1972]: https://ntrs.nasa.gov/citations/19720015295
 [research_grabow_smallwood_1976]: https://doi.org/10.2514/6.1976-13
@@ -15593,7 +14211,6 @@ Of the four it is the only one that was ready.
 [research_gradlpaulr_protzchristophers_2019]: https://ntrs.nasa.gov/citations/20190033311
 [research_graham_hoffman_1999]: https://doi.org/10.21236/ada372247
 [research_gramola_bruce_2022]: https://doi.org/10.2514/6.2022-2288
-[research_grantner_bazuin_2010]: https://doi.org/10.21236/ada528800
 [research_graves_fonnesbeck_1989]: https://doi.org/10.2514/6.1989-2418
 [research_graziani_ngom_2024]: https://doi.org/10.1137/22m149898x
 [research_greaves_1997]: https://doi.org/10.21236/ada387880
@@ -15602,7 +14219,6 @@ Of the four it is the only one that was ready.
 [research_green_moss_1984]: https://doi.org/10.2514/6.1984-1714
 [research_green_nicolet_1978]: https://doi.org/10.2514/6.1978-186
 [research_green_sasiadek_1993]: https://doi.org/10.1109/vnis.1993.585690
-[research_greenberg_2016]: https://doi.org/10.1130/abs/2016nc-274789
 [research_greenbergharrystan_1993]: https://ntrs.nasa.gov/citations/19930012911
 [research_greenberghs_1994]: https://ntrs.nasa.gov/citations/19950005396
 [research_greenberghs_1994_b]: https://ntrs.nasa.gov/citations/19950005532
@@ -15616,7 +14232,6 @@ Of the four it is the only one that was ready.
 [research_gregory_wilcox_1970]: https://doi.org/10.2514/6.1970-270
 [research_gregory_williams_1971]: https://doi.org/10.2514/3.59163
 [research_gregoryknoffz_michaelpbowman_1996]: https://ntrs.nasa.gov/citations/19970003417
-[research_greneker_1998]: https://doi.org/10.1109/62.690727
 [research_grey_1953]: https://doi.org/10.21236/ad0036007
 [research_grey_1954]: https://doi.org/10.21236/ad0042856
 [research_griffinlisaw_hudsonsusant_1999]: https://ntrs.nasa.gov/citations/19990105703
@@ -15629,7 +14244,6 @@ Of the four it is the only one that was ready.
 [research_grossi_sereno_2024]: https://doi.org/10.52202/078371-0125
 [research_grossir_masutti_2015]: https://doi.org/10.2514/6.2015-0578
 [research_grossmann_weis_2020]: https://doi.org/10.1016/j.addma.2019.100892
-[research_grotli_bjerkeng_2017]: https://doi.org/10.1109/oceanse.2017.8084583
 [research_grubelich_rowland_1993]: https://doi.org/10.2514/6.1993-2265
 [research_gruhlke_hanu_2026]: https://doi.org/10.1137/25m1771946
 [research_gu_liu_2023]: https://doi.org/10.1016/j.applthermaleng.2023.121292
@@ -15648,7 +14262,6 @@ Of the four it is the only one that was ready.
 [research_guiliano_1999]: https://doi.org/10.21236/ada388094
 [research_guimond_ni_2015]: https://doi.org/10.2514/6.2015-0840
 [research_guinivan_2004]: https://doi.org/10.21236/ada423698
-[research_guizzo_hansen_2026]: https://doi.org/10.1016/j.fusengdes.2026.115971
 [research_gujral_emdee_2016]: https://doi.org/10.2514/6.2016-5557
 [research_gulczynski_hahn_2024]: https://doi.org/10.3390/aerospace11100808
 [research_gulczynski_riccius_2023]: https://doi.org/10.2514/6.2023-1263
@@ -15657,7 +14270,6 @@ Of the four it is the only one that was ready.
 [research_gulick_edquist_1998]: https://doi.org/10.2514/6.1998-2682
 [research_gulli_maddalena_2015]: https://doi.org/10.2514/6.2015-3554
 [research_gulliver_lemon_2017]: https://doi.org/10.2514/6.2017-5261
-[research_gulzar_urrehman_2024]: https://doi.org/10.1109/iceet65156.2024.10913692
 [research_gummadidala_krishna_2025]: https://doi.org/10.55248/gengpi.6.0925.3327
 [research_gundersen_2001]: https://doi.org/10.21236/ada397824
 [research_gunn_hundal_1994]: https://doi.org/10.2514/6.1994-2895
@@ -15678,20 +14290,15 @@ Of the four it is the only one that was ready.
 [research_guo_yang_2020]: https://doi.org/10.1115/msec2020-8510
 [research_gupta_anilkumar_2018]: https://doi.org/10.18520/cs/v114/i01/131-136
 [research_gupta_bennett_2022]: https://doi.org/10.1016/j.engfailanal.2022.106455
-[research_gupta_dixit_2025]: https://doi.org/10.1007/s41872-025-00384-9
 [research_gupta_mishra_2024]: https://doi.org/10.2514/6.2024-1884
 [research_gupta_ramkumar_2015]: https://doi.org/10.12783/fae.2015.0401.02
 [research_guratzsch_mahadevan_2004]: https://doi.org/10.1061/40722(153)62
 [research_guruprasad_mayilvaganan_2023]: https://doi.org/10.61653/joast.v71i1.2019.112
 [research_gut_parzybut_2025]: https://doi.org/10.3390/aerospace12070617
 [research_guzanek_borucka_2026]: https://doi.org/10.24425/bpasts.2025.155894
-[research_guzman_chen_2020]: https://doi.org/10.3390/pr8121597
-[research_guzman_chen_2023]: https://doi.org/10.3390/pr11030909
 [research_gyftos_sioutis_2026]: https://doi.org/10.3390/aerospace13040388
-[research_ha_jeon_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131817
 [research_ha_roh_2020]: https://doi.org/10.6108/kspe.2020.24.5.021
 [research_haber_draganov_2022]: https://doi.org/10.1117/12.2633338
-[research_habibi_nugraha_2024]: https://doi.org/10.1063/5.0207275
 [research_hader_fasel_2021]: https://doi.org/10.2514/6.2021-2865
 [research_hader_fasel_2024]: https://doi.org/10.2514/6.2024-1569
 [research_hader_leinemann_2020]: https://doi.org/10.2514/6.2020-2993
@@ -15705,14 +14312,12 @@ Of the four it is the only one that was ready.
 [research_hagopian_2002]: https://doi.org/10.2514/6.2002-t3-55
 [research_hahn_1964]: https://doi.org/10.2514/6.1964-262
 [research_hahnedavide_1997]: https://ntrs.nasa.gov/citations/19970022891
-[research_haile_adem_2024]: https://doi.org/10.1016/j.cles.2024.100112
 [research_hajar_methot_2025]: https://doi.org/10.52202/083092-0017
 [research_hajiyev_cildenguler_2023]: https://doi.org/10.1109/rast57548.2023.10198000
 [research_hale_1963]: https://doi.org/10.21236/ad0417039
 [research_hale_1963_b]: https://doi.org/10.21236/ad0422419
 [research_hale_2018]: https://doi.org/10.2514/6.2018-3430
 [research_halejosephp_1997]: https://ntrs.nasa.gov/citations/19990107378
-[research_hall_1979]: https://doi.org/10.2172/5951478
 [research_halladay_hodge_1903]: https://doi.org/10.1115/1.4060645
 [research_halledwardj_toppdavida_1994]: https://ntrs.nasa.gov/citations/19950005488
 [research_halligan_1977]: https://doi.org/10.21236/ada042877
@@ -15722,30 +14327,20 @@ Of the four it is the only one that was ready.
 [research_hamid_ash_2025]: https://doi.org/10.52202/083090-0100
 [research_hamid_macdermott_2015]: https://doi.org/10.1109/dese.2015.9
 [research_hammond_hryhorciw_1970]: https://doi.org/10.2514/3.5626
-[research_hampson_2021]: https://doi.org/10.1016/j.jcss.2021.03.007
 [research_hamza_tezbasaran_2023]: https://doi.org/10.13182/psa23-41025
-[research_han_2022]: https://doi.org/10.1109/phm2022-london52454.2022.00061
 [research_han_cao_2019]: https://doi.org/10.1007/s10483-019-2480-6
 [research_han_cho_2021]: https://doi.org/10.2351/7.0000235
-[research_han_hu_2026]: https://doi.org/10.1016/j.psep.2026.108471
 [research_han_huang_2026]: https://doi.org/10.1016/j.cja.2025.103974
-[research_han_liu_2018]: https://doi.org/10.1109/icitbs.2018.00141
-[research_han_liu_2025]: https://doi.org/10.2478/amns-2025-0953
 [research_han_lu_2018]: https://doi.org/10.1115/msec2018-6450
 [research_han_park_2019]: https://doi.org/10.1016/j.ress.2018.12.016
-[research_han_ren_2019]: https://doi.org/10.2118/193858-ms
 [research_han_xiang_2024]: https://doi.org/10.1016/j.ijheatmasstransfer.2024.125664
 [research_han_xu_2026]: https://doi.org/10.1063/5.0313065
 [research_hanc_jones_2022]: https://doi.org/10.1109/southeastcon48659.2022.9763943
-[research_handaya_marimin_2022]: https://doi.org/10.3390/su141610100
-[research_handayani_jauhari_2025]: https://doi.org/10.46254/ap06.20250026
 [research_hanks_frecker_2019]: https://doi.org/10.1115/detc2019-97863
 [research_hanlon_2016]: https://doi.org/10.2514/6.2016-5618
 [research_hannah_muessig_1970]: https://doi.org/10.21236/ada955972
-[research_hansen_grunow_2015]: https://doi.org/10.1016/j.ijpe.2014.10.010
 [research_hanson_coughlin_1998]: https://doi.org/10.2514/6.1998-4409
 [research_hanson_miller_2015]: https://doi.org/10.2514/6.2015-1776
-[research_hao_liu_2023]: https://doi.org/10.1007/s10694-023-01509-1
 [research_hao_lundblad_2020]: https://doi.org/10.33599/nasampe/s.20.0240
 [research_hao_peng_2017]: https://doi.org/10.2514/6.2017-2108
 [research_hao_yan_2017]: https://doi.org/10.1016/j.ijheatmasstransfer.2016.11.052
@@ -15755,7 +14350,6 @@ Of the four it is the only one that was ready.
 [research_harayama_saito_1983]: https://doi.org/10.1016/0010-2180(83)90122-0
 [research_hardesty_1970]: https://doi.org/10.21236/ad0726118
 [research_hardgrove_kriegjr_1984]: https://doi.org/10.2514/6.1984-1254
-[research_hardy_1997]: https://doi.org/10.21236/ada327088
 [research_hardy_eldrenkamp_1993]: https://doi.org/10.2514/6.1993-4161
 [research_hargus_schumaker_2018]: https://doi.org/10.2514/6.2018-4876
 [research_harikrishnan_lokavarapu_2021]: https://doi.org/10.1016/j.matpr.2020.10.370
@@ -15778,18 +14372,14 @@ Of the four it is the only one that was ready.
 [research_hart_mcclure_1965]: https://doi.org/10.1016/s0082-0784(65)80246-6
 [research_hartman_stallings_1982]: https://doi.org/10.21236/ada115723
 [research_hartung_1963]: https://doi.org/10.2514/6.1963-2915
-[research_hartung_2024]: https://doi.org/10.1016/j.toxlet.2024.07.098
 [research_harvazinski_houba_2022]: https://doi.org/10.2514/6.2022-0069
 [research_harvazinski_houba_2023]: https://doi.org/10.2514/6.2023-0134
 [research_harvazinski_mehta_2024]: https://doi.org/10.2514/6.2024-0149
 [research_harvazinski_sankaran_2014]: https://doi.org/10.21236/ada611028
-[research_harvey_bauer_1997]: https://doi.org/10.21236/ada637527
 [research_hasan_2022]: https://doi.org/10.1016/j.jsse.2022.03.002
-[research_hasan_anwar_2016]: https://doi.org/10.2514/6.2016-5408
 [research_hasan_rashmi_2018]: https://doi.org/10.1007/s11665-018-3232-y
 [research_hasani_roshanian_2017]: https://doi.org/10.12989/aas.2017.4.1.053
 [research_hasegawa_yoshioka_2019]: https://doi.org/10.1615/ihtc3.1020
-[research_hashimoto_yanagisawa_2019]: https://doi.org/10.1299/jsmedsd.2019.29.1402
 [research_hassan_1965]: https://doi.org/10.2514/3.59492
 [research_hassan_amin_2024]: https://doi.org/10.1115/imece2024-147279
 [research_hassanzadeh_ashrafi_2025]: https://doi.org/10.1016/j.icheatmasstransfer.2025.109720
@@ -15807,12 +14397,10 @@ Of the four it is the only one that was ready.
 [research_hayashi_yamasaki_2025]: https://doi.org/10.2514/6.2025-1948
 [research_hayre_dull_1992]: https://doi.org/10.2514/6.1992-1076
 [research_hayszaneb_yountbryanc_2020]: https://ntrs.nasa.gov/citations/20200000323
-[research_he_chang_2024]: https://doi.org/10.1109/mlcad62225.2024.10740222
 [research_he_deng_2019]: https://doi.org/10.1115/gt2019-90421
 [research_he_di_2025]: https://doi.org/10.3390/drones9010042
 [research_he_dong_2022]: https://doi.org/10.1117/12.2638712
 [research_he_guo_2025]: https://doi.org/10.1016/j.ceramint.2025.03.369
-[research_he_hao_2022]: https://doi.org/10.2139/ssrn.4232784
 [research_he_jiao_2023]: https://doi.org/10.1007/s40430-022-04004-w
 [research_he_liu_2018]: https://doi.org/10.1016/j.ijheatmasstransfer.2018.04.105
 [research_he_wang_2019]: https://doi.org/10.1109/ccdc.2019.8832729
@@ -15827,7 +14415,6 @@ Of the four it is the only one that was ready.
 [research_heat_shield_2001]: https://doi.org/10.1016/s0034-3617(01)80108-9
 [research_heathman_fujimoto_1970]: https://doi.org/10.21236/ad0872689
 [research_heatwolescott_lanziraymondj_2010]: https://ntrs.nasa.gov/citations/20100012808
-[research_hedayati_devuyst_2026]: https://doi.org/10.1016/j.cor.2026.107588
 [research_heeg_kilzer_2020]: https://doi.org/10.3390/aerospace7050057
 [research_heflinj_koelblm_2000]: https://ntrs.nasa.gov/citations/20000093951
 [research_hegab_kassoy_2001]: https://doi.org/10.2514/6.2001-338
@@ -15843,7 +14430,6 @@ Of the four it is the only one that was ready.
 [research_henderson_tant_1981]: https://doi.org/10.1016/0040-6031(81)85019-8
 [research_henderson_tant_1983]: https://doi.org/10.1002/pc.750040408
 [research_hendrick_horn_2024]: https://doi.org/10.1007/s13272-023-00704-8
-[research_hendricks_2001]: https://doi.org/10.4271/2001-01-1734
 [research_hendrickson_kazarians_2020]: https://doi.org/10.1089/ast.2019.2099
 [research_henlinewilliam_olynickdavid_1996]: https://ntrs.nasa.gov/citations/19960029267
 [research_henry_mclellan_1971]: https://doi.org/10.2514/3.59112
@@ -15857,7 +14443,6 @@ Of the four it is the only one that was ready.
 [research_hermance_1967]: https://doi.org/10.2514/3.4303
 [research_hermandaniela_santiagowalter_2015]: https://ntrs.nasa.gov/citations/20150023082
 [research_hermsen_1981]: https://doi.org/10.2514/6.1981-38
-[research_hernandez_gmachl_2024]: https://doi.org/10.1364/cleo_si.2024.sw3h.3
 [research_hernandez_palacios_2019]: https://doi.org/10.2514/6.2019-4363
 [research_hernandezmccloskey_pineda_2023]: https://doi.org/10.2514/6.2023-0355
 [research_herold_boelts_2025]: https://doi.org/10.7712/120225.12358.21274
@@ -15897,7 +14482,6 @@ Of the four it is the only one that was ready.
 [research_hoang_espath_2025]: https://doi.org/10.1137/23m1603364
 [research_hochstetler_bosma_2016]: https://doi.org/10.2514/6.2016-4223
 [research_hodge_taylor_1991]: https://doi.org/10.2514/6.1991-2435
-[research_hodges_salvi_2024]: https://doi.org/10.1016/j.firesaf.2024.104145
 [research_hodson_munk_2017]: https://doi.org/10.2514/6.2017-5162
 [research_hoegenauer_koelle_1989]: https://doi.org/10.2514/6.1989-5007
 [research_hoertel_1961]: https://doi.org/10.21236/ad0259441
@@ -15919,12 +14503,10 @@ Of the four it is the only one that was ready.
 [research_honchar_2026]: https://doi.org/10.62717/3083-7057-2026-1-069
 [research_hong_ahn_2015]: https://doi.org/10.2514/6.2015-4677
 [research_hong_dickerson_2000]: https://doi.org/10.2514/2.4589
-[research_hong_eum_2023]: https://doi.org/10.3390/app13052903
 [research_hong_park_2015]: https://doi.org/10.5139/ijass.2015.16.3.370
 [research_hong_wan_2025]: https://doi.org/10.1109/phm-xian66756.2025.11427550
 [research_honkawa_yoozbashizadeh_2019]: https://doi.org/10.2514/6.2019-3936
 [research_hooper_kostusak_1991]: https://doi.org/10.2514/6.1991-3360
-[research_hopkins_1999]: https://doi.org/10.21236/ada629788
 [research_hopkins_rutledge_2024]: https://doi.org/10.1115/gt2024-121339
 [research_hoppingsiii_fujiim_1980]: https://ntrs.nasa.gov/citations/19810026303
 [research_horiuchi_sakai_2017]: https://doi.org/10.2514/6.2017-0897
@@ -15933,13 +14515,10 @@ Of the four it is the only one that was ready.
 [research_hornbuckle_2015]: https://doi.org/10.21236/ad1019476
 [research_horton_1964]: https://doi.org/10.2514/6.1964-136
 [research_horton_1976]: https://doi.org/10.2514/6.1976-170
-[research_horton_1996]: https://doi.org/10.21236/ada360935
 [research_hosack_stromsta_1969]: https://doi.org/10.2514/6.1969-4
 [research_hosangadi_gopalarathnam_2021]: https://doi.org/10.2514/1.c036027
 [research_hoskin_nguyen_2024]: https://doi.org/10.2514/6.2024-2857
 [research_hosomi_otake_2019]: https://doi.org/10.2322/tastj.17.14
-[research_hosseini_monti_2024]: https://doi.org/10.1109/pmaps61648.2024.10667102
-[research_hosseinpoor_khayat_2017]: https://doi.org/10.1617/s11527-017-1032-8
 [research_hoter_nastac_2026]: https://doi.org/10.2514/6.2026-5115
 [research_hotte_haupt_2020]: https://doi.org/10.1016/j.ast.2020.106043
 [research_hou_chang_2017]: https://doi.org/10.1115/icone25-66576
@@ -15961,12 +14540,9 @@ Of the four it is the only one that was ready.
 [research_hu_an_2024]: https://doi.org/10.1115/gt2024-124139
 [research_hu_ji_2022]: https://doi.org/10.1117/12.2656651
 [research_hu_jiang_2015]: https://doi.org/10.2514/6.2015-4546
-[research_hu_lu_2018]: https://doi.org/10.1016/j.cor.2018.02.006
 [research_hu_ludkovski_2017]: https://doi.org/10.1137/15m1045168
 [research_hu_shen_2022]: https://doi.org/10.1109/taes.2021.3122918
-[research_hu_wu_2024]: https://doi.org/10.1016/j.csite.2024.104455
 [research_hu_zhang_2019]: https://doi.org/10.1016/j.applthermaleng.2019.114237
-[research_hua_bao_2021]: https://doi.org/10.1016/j.powtec.2021.07.070
 [research_huan_guoliang_2015]: https://doi.org/10.1109/chicc.2015.7260524
 [research_huang_2002]: https://doi.org/10.1360/02yb9047
 [research_huang_2002_b]: https://doi.org/10.1360/02yb9072
@@ -15974,13 +14550,11 @@ Of the four it is the only one that was ready.
 [research_huang_2016]: https://doi.org/10.1109/ecc.2016.7810266
 [research_huang_2024]: https://doi.org/10.1017/jfm.2023.1071
 [research_huang_2026]: https://doi.org/10.1016/j.ress.2026.112327
-[research_huang_ali_2022]: https://doi.org/10.1016/j.egyr.2022.02.043
 [research_huang_dai_2023]: https://doi.org/10.2514/1.a35612
 [research_huang_dai_2024]: https://doi.org/10.1088/1742-6596/2764/1/012068
 [research_huang_hao_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130227
 [research_huang_he_2022]: https://doi.org/10.4236/aast.2022.73008
 [research_huang_li_2018]: https://doi.org/10.1016/j.actaastro.2018.02.047
-[research_huang_liu_2017]: https://doi.org/10.1080/15389588.2017.1283026
 [research_huang_zhang_2025]: https://doi.org/10.3390/aerospace12060451
 [research_huang_zhang_2026]: https://doi.org/10.1007/s42405-026-01213-8
 [research_huang_zheng_2018]: https://doi.org/10.1049/iet-cta.2017.0998
@@ -15988,7 +14562,6 @@ Of the four it is the only one that was ready.
 [research_huang_zhu_2020_b]: https://doi.org/10.1002/asjc.2326
 [research_huangpeng_duan_2021]: https://doi.org/10.1109/phm-nanjing52125.2021.9612896
 [research_huatian_2018]: https://doi.org/10.1049/cp.2018.0175
-[research_hudib_cousins_2016]: https://doi.org/10.3138/cjpe.30.3.06
 [research_hudson_1988]: https://doi.org/10.2514/6.1988-2897
 [research_hudson_fidan_2024]: https://doi.org/10.1007/s12008-024-01813-2
 [research_huetherjacobe_ottoalberte_1995]: https://ntrs.nasa.gov/citations/19970009765
@@ -16021,7 +14594,6 @@ Of the four it is the only one that was ready.
 [research_hydrostatic_bearings_1969]: https://doi.org/10.1016/0043-1648(69)90109-4
 [research_hyland_1971]: https://doi.org/10.13182/nt71-a31023
 [research_ichiyanagi_liu_2020]: https://doi.org/10.4271/2019-32-0543
-[research_iee_to_1979]: https://doi.org/10.1049/ep.1979.0007
 [research_ifennaokoli_samuelsholiyi_2021]: https://doi.org/10.7753/ijsea1004.1002
 [research_ifergan_berreby_2021]: https://doi.org/10.2514/1.t6215
 [research_ignition_characteristics_2016]: https://doi.org/10.15372/fgv20160609
@@ -16038,13 +14610,11 @@ Of the four it is the only one that was ready.
 [research_imani_khanzadeh_2021]: https://doi.org/10.1115/imece2021-71966
 [research_imoto_2016]: https://doi.org/10.2514/6.2016-2587
 [research_improving_reliability_1970]: https://doi.org/10.1016/0026-2714(70)90590-1
-[research_imran_mahmoud_2024]: https://doi.org/10.1016/j.icheatmasstransfer.2024.107570
 [research_inada_2004]: https://doi.org/10.1299/jsmekanto.2004.10.49
 [research_inami_shanfield_1964]: https://doi.org/10.2514/6.1964-147
 [research_inatomi_kitamura_2019]: https://doi.org/10.2322/tastj.17.439
 [research_indelicato_lapenna_2021]: https://doi.org/10.1016/j.ijheatmasstransfer.2021.120913
 [research_india_to_2015]: https://doi.org/10.1063/pt.5.028943
-[research_indrebo_flatabo_2025]: https://doi.org/10.3384/ecp212.035
 [research_infant_heat_1981]: https://doi.org/10.1177/194336548102600133
 [research_influence_of_the_2024]: https://doi.org/10.62717/2221-4550-2024-1-027
 [research_ingallsjohn_cipollettijohn_2011]: https://ntrs.nasa.gov/citations/20110016185
@@ -16054,9 +14624,7 @@ Of the four it is the only one that was ready.
 [research_integrated_operations_payloads_fleet_1971]: https://ntrs.nasa.gov/citations/19720008089
 [research_introduction_to_2019]: https://doi.org/10.2514/1.a34454
 [research_introduction_to_2026]: https://doi.org/10.2514/1.j066633
-[research_inverter_design_2021]: https://doi.org/10.12968/s1467-5560(23)60026-0
 [research_iossai_2020]: https://doi.org/10.36001/ijphm.2018.v9i2.2703
-[research_iot_based_2017]: https://doi.org/10.21884/ijmter.2017.4324.lwba6
 [research_ipad_integrated_1980]: https://ntrs.nasa.gov/citations/19830008844
 [research_iqbal_akbar_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2025.110032
 [research_ireland_gonzales_2020]: https://doi.org/10.1109/rams48030.2020.9153710
@@ -16074,12 +14642,10 @@ Of the four it is the only one that was ready.
 [research_ismagilov_vavilov_2018]: https://doi.org/10.1109/iceca.2018.8474785
 [research_isono_fujikawa_2025]: https://doi.org/10.2514/6.2025-0957
 [research_isro_releases_the_2018]: https://doi.org/10.18520/cs/v114/i08/1596-1596
-[research_issaka_ambastha_1997]: https://doi.org/10.2118/97-55
 [research_issakhov_abylkassymova_2024]: https://doi.org/10.1080/10407782.2024.2311770
 [research_istratov_marshakov_1996]: https://doi.org/10.1007/bf02111569
 [research_ito_hayashida_2019]: https://doi.org/10.2514/6.2019-3005
 [research_ito_yamamoto_2020]: https://doi.org/10.1016/j.actaastro.2019.10.007
-[research_iurieva_sinianskaia_2019]: https://doi.org/10.2991/mtde-19.2019.17
 [research_ivanchenko_klimenko_2021]: https://doi.org/10.31659/0044-4472-2021-11-10-13
 [research_ivanco_keller_2020]: https://doi.org/10.1109/aero47225.2020.9172608
 [research_ivanco_keller_2021]: https://doi.org/10.2514/6.2021-1072
@@ -16089,21 +14655,15 @@ Of the four it is the only one that was ready.
 [research_ivkic_buhmann_2025]: https://doi.org/10.5220/0013361300003950
 [research_iwasaki_matsumoto_2016]: https://doi.org/10.2322/tastj.14.pa_107
 [research_iwata_1995]: https://doi.org/10.1016/0389-4304(95)95045-v
-[research_iyamu_berger_2021]: https://doi.org/10.3138/cjpe.70804
-[research_izgi_2024]: https://doi.org/10.58559/ijes.1420875
 [research_izhamizzatismail_nurhusninaaufarozainuddin_2022]: https://doi.org/10.37934/cfdl.14.3.5367
-[research_izumi_yoshida_2017]: https://doi.org/10.1088/2058-8585/aa6f56
-[research_izumi_yoshida_2018]: https://doi.org/10.1088/2058-8585/aab18a
 [research_j_kartheekeyan_2025]: https://doi.org/10.52202/083090-0091
 [research_jabo_2017]: https://doi.org/10.1061/9780784480700.027
 [research_jacobson_1952]: https://doi.org/10.21236/ad0029208
 [research_jadhav_sridharan_2001]: https://doi.org/10.1115/imece2001/ad-25315
-[research_jaffar_ismail_2023]: https://doi.org/10.46254/ap04.20230112
 [research_jaffe_1988]: https://doi.org/10.2514/3.26015
 [research_jaffrezic_ruetten_2015]: https://doi.org/10.2514/6.2015-2949
 [research_jain_2022]: https://doi.org/10.63345/ijrmeet.org.v10.i4.3
 [research_jain_kumar_2022]: https://doi.org/10.2514/6.2022-3861
-[research_jain_sood_2022]: https://doi.org/10.5958/2582-7529.2022.00007.2
 [research_jaiswal_mallikarjunarao_2024]: https://doi.org/10.1016/j.icheatmasstransfer.2024.108204
 [research_jaiswal_sen_2024]: https://doi.org/10.1016/j.microrel.2024.115524
 [research_jakeman_2024]: https://doi.org/10.2172/2540434
@@ -16121,7 +14681,6 @@ Of the four it is the only one that was ready.
 [research_janovsky_arya_1995]: https://doi.org/10.2514/3.26665
 [research_jansari_ybarra_2026]: https://doi.org/10.1016/j.addma.2026.105320
 [research_jarvis_1974]: https://doi.org/10.2514/6.1974-28
-[research_jayabalan_1986]: https://doi.org/10.1007/bf01913886
 [research_jayan_pavanasam_2024]: https://doi.org/10.4271/2024-26-0452
 [research_jayanthi_jain_2019]: https://doi.org/10.12783/ballistics2019/33142
 [research_jayaprakash_dhinarakaran_2022]: https://doi.org/10.53730/ijhs.v6ns5.9404
@@ -16135,14 +14694,12 @@ Of the four it is the only one that was ready.
 [research_jenkins_nestor_1991]: https://doi.org/10.2172/5712917
 [research_jennings_morel_1987]: https://doi.org/10.2172/6337443
 [research_jennings_morel_1987_b]: https://doi.org/10.2172/5583973
-[research_jensen_1968]: https://doi.org/10.1111/j.1755-3768.1968.tb05913.x
 [research_jensen_1980]: https://doi.org/10.1016/0010-2180(80)90078-4
 [research_jensen_2000]: https://doi.org/10.2514/6.2000-5259
 [research_jensen_2013]: https://doi.org/10.21236/ada620484
 [research_jensen_goshgarian_1962]: https://doi.org/10.21236/ad0295656
 [research_jensen_jones_1981]: https://doi.org/10.1016/0010-2180(81)90040-7
 [research_jensen_wilson_1975]: https://doi.org/10.1016/0010-2180(75)90067-x
-[research_jeon_choi_2015]: https://doi.org/10.1016/j.ijheatmasstransfer.2015.03.019
 [research_jeon_lee_2004]: https://doi.org/10.2514/6.2004-32
 [research_jeon_park_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131273
 [research_jeong_cho_2026]: https://doi.org/10.2514/6.2026-0729
@@ -16152,7 +14709,6 @@ Of the four it is the only one that was ready.
 [research_jeong_lee_2024]: https://doi.org/10.3795/ksme-b.2024.48.2.107
 [research_jeppesen_jeppesen_1992]: https://doi.org/10.1177/014556139207100105
 [research_jere_faik_2025]: https://doi.org/10.1002/pc.70510
-[research_jeremiah_quinn_2018]: https://doi.org/10.1016/j.evalprogplan.2018.03.008
 [research_jesen_1977]: https://doi.org/10.21236/ada054152
 [research_jessicaluxbaumann_darrylaburkes_2005]: https://ntrs.nasa.gov/citations/20050237906
 [research_jetevator_for_1998]: https://doi.org/10.1108/aeat.1998.12770cad.013
@@ -16161,7 +14717,6 @@ Of the four it is the only one that was ready.
 [research_jha_diwakar_2003]: https://doi.org/10.1016/s1350-6307(03)00048-7
 [research_ji_2017]: https://doi.org/10.2514/6.2017-2184
 [research_ji_bao_2016]: https://doi.org/10.1109/phm.2016.7819955
-[research_ji_cheng_2023]: https://doi.org/10.1016/j.oceaneng.2023.114091
 [research_ji_dong_2025]: https://doi.org/10.1017/jfm.2025.10378
 [research_ji_zhang_2027]: https://doi.org/10.1016/j.jeurceramsoc.2026.118768
 [research_jia_1987]: https://doi.org/10.2514/6.1987-2232
@@ -16169,15 +14724,11 @@ Of the four it is the only one that was ready.
 [research_jia_chen_2025]: https://doi.org/10.1016/j.ifacol.2025.11.236
 [research_jia_chung_1996]: https://doi.org/10.1115/imece1996-0062
 [research_jia_fu_2020]: https://doi.org/10.1016/j.actaastro.2020.07.022
-[research_jia_shi_2024]: https://doi.org/10.1287/opre.2022.2381
 [research_jia_wang_2018]: https://doi.org/10.1115/gt2018-75228
 [research_jia_ye_2019]: https://doi.org/10.1016/j.actaastro.2019.05.034
-[research_jia_zheng_2025]: https://doi.org/10.1016/j.compag.2025.110155
 [research_jiahe_2020]: https://doi.org/10.1109/wcmeim52463.2020.00034
-[research_jiang_2025]: https://doi.org/10.1145/3778450.3778490
 [research_jiang_chiu_1992]: https://doi.org/10.2514/3.23584
 [research_jiang_dong_2018]: https://doi.org/10.1615/ihtc16.mpf.023803
-[research_jiang_niu_2016]: https://doi.org/10.1109/phm.2016.7819954
 [research_jiang_pan_2023]: https://doi.org/10.1016/j.ijheatmasstransfer.2023.124699
 [research_jiang_qian_2024]: https://doi.org/10.1016/j.csite.2024.105564
 [research_jiang_tan_2023]: https://doi.org/10.1016/j.asr.2023.06.039
@@ -16191,8 +14742,6 @@ Of the four it is the only one that was ready.
 [research_jin_cui_2024]: https://doi.org/10.1016/j.compstruct.2023.117784
 [research_jin_garcia_2018]: https://doi.org/10.2514/6.2018-0418
 [research_jin_li_2022]: https://doi.org/10.1115/gt2022-82556
-[research_jin_liu_2020]: https://doi.org/10.1080/00423114.2020.1792940
-[research_jin_yuan_2023]: https://doi.org/10.1007/s11242-023-01904-w
 [research_jin_zhang_2016]: https://doi.org/10.1109/chicc.2016.7554984
 [research_jing_chen_2021]: https://doi.org/10.3390/aerospace8120399
 [research_jing_he_2018]: https://doi.org/10.1016/j.applthermaleng.2018.09.066
@@ -16204,7 +14753,6 @@ Of the four it is the only one that was ready.
 [research_jo_kim_2021]: https://doi.org/10.2514/6.2021-3585
 [research_jo_kim_2021_b]: https://doi.org/10.5139/jksas.2021.49.2.155
 [research_joatton_1970]: https://doi.org/10.2514/6.1970-824
-[research_johnson_1981]: https://doi.org/10.21236/ada106071
 [research_johnson_1988]: https://doi.org/10.2514/6.1988-3898
 [research_johnson_athmanathan_2026]: https://doi.org/10.2514/6.2026-1824
 [research_johnson_kim_2001]: https://doi.org/10.21236/ada385993
@@ -16232,9 +14780,7 @@ Of the four it is the only one that was ready.
 [research_jonesdaniels_rufjosephh_2014]: https://ntrs.nasa.gov/citations/20140011268
 [research_jopson_1947]: https://doi.org/10.21236/ad0038662
 [research_jorden_siegel_1973]: https://doi.org/10.2514/6.1973-1327
-[research_jorgenson_barrett_2022]: https://doi.org/10.1061/9780784484548.069
 [research_jortner_martinez_1964]: https://doi.org/10.2514/6.1964-410
-[research_josef_degani_2020]: https://doi.org/10.1109/lra.2020.3011912
 [research_joseph_duplessis_2024]: https://doi.org/10.2514/6.2024-3650
 [research_joseph_hargreaves_2020]: https://doi.org/10.1016/j.aeaoa.2020.100064
 [research_joseph_whitside_2026]: https://doi.org/10.2514/1.a36485
@@ -16244,7 +14790,6 @@ Of the four it is the only one that was ready.
 [research_ju_wei_2022]: https://doi.org/10.1016/j.actaastro.2021.11.015
 [research_ju_zhang_2025]: https://doi.org/10.1115/ssdm2025-152552
 [research_jugade_2023]: https://doi.org/10.2514/6.2023-69397
-[research_jujjuvarapu_rajulapati_2024]: https://doi.org/10.1109/icaaeei63658.2024.10899186
 [research_jumper_newman_1993]: https://doi.org/10.2514/6.1993-477
 [research_jumperjr_hitchcock_1986]: https://doi.org/10.2514/6.1986-1260
 [research_junaidr_beebim_2015]: https://doi.org/10.70729/ijser15399
@@ -16264,11 +14809,9 @@ Of the four it is the only one that was ready.
 [research_kageyama_kamps_2019]: https://doi.org/10.2514/6.2019-4334
 [research_kahlebill_2000]: https://ntrs.nasa.gov/citations/20010071156
 [research_kahraman_karakas_2020]: https://doi.org/10.2514/6.2020-3739
-[research_kahsay_bitsuamlak_2017]: https://doi.org/10.1061/9780784480502.022
 [research_kai_ohtake_1996]: https://doi.org/10.2514/6.1996-4526
 [research_kalia_ameli_2024]: https://doi.org/10.1016/j.addma.2023.103945
 [research_kalizhanova_utegenova_2026]: https://doi.org/10.3390/microorganisms14020342
-[research_kallenbach_1987]: https://doi.org/10.1080/00423118708968873
 [research_kalmykov_yanchilin_1996]: https://doi.org/10.2514/6.1996-4523
 [research_kam_gage_2004]: https://doi.org/10.2514/1.6324
 [research_kamilis_polydorides_2018]: https://doi.org/10.1137/17m1156010
@@ -16285,7 +14828,6 @@ Of the four it is the only one that was ready.
 [research_kang_jeong_2024]: https://doi.org/10.1115/gt2024-122560
 [research_kang_jo_2025]: https://doi.org/10.3390/aerospace12050364
 [research_kanmuri_kanda_1989]: https://doi.org/10.2514/6.1989-2736
-[research_kanon_griffin_2023]: https://doi.org/10.4271/2024-01-4084
 [research_kansasunivlawrence_1952]: https://doi.org/10.21236/ad0021570
 [research_kansasunivlawrence_1952_b]: https://doi.org/10.21236/ad0009895
 [research_kanso_jha_2022]: https://doi.org/10.1016/j.ifacol.2022.07.112
@@ -16302,7 +14844,6 @@ Of the four it is the only one that was ready.
 [research_karpuk_2024]: https://doi.org/10.1016/j.oceaneng.2024.118252
 [research_kartal_2021]: https://doi.org/10.31031/eme.2021.03.000566
 [research_karthikeyan_shimada_2017]: https://doi.org/10.2514/6.2017-4905
-[research_kartuzov_2025]: https://doi.org/10.35854/1998-1627-2025-6-770-781
 [research_kartuzova_kassemi_2019]: https://doi.org/10.2514/6.2019-4282
 [research_karuntzos_2015]: https://doi.org/10.1109/aero.2015.7119014
 [research_kashefinishaburi_hoa_2022]: https://doi.org/10.12783/asc37/36398
@@ -16346,7 +14887,6 @@ Of the four it is the only one that was ready.
 [research_keller_spearrin_2025]: https://doi.org/10.2514/6.2025-1760
 [research_kelley_thompson_1989]: https://doi.org/10.2514/6.1989-2661
 [research_kellyjennyr_cruzjuanr_2009]: https://ntrs.nasa.gov/citations/20090020432
-[research_kemaneci_yolcan_2023]: https://doi.org/10.24200/sci.2023.60138.6747
 [research_kemp_1968]: https://doi.org/10.2514/3.4870
 [research_kemp_clemmons_2025]: https://doi.org/10.2514/6.2025-4062
 [research_kemp_luedke_1972]: https://doi.org/10.2514/6.1972-447
@@ -16357,7 +14897,6 @@ Of the four it is the only one that was ready.
 [research_kennedy_mcclure_2005]: https://doi.org/10.21236/ada442999
 [research_kennedy_weldon_2024]: https://doi.org/10.3397/in_2024_3337
 [research_kennyrjeremy_leeerik_2011]: https://ntrs.nasa.gov/citations/20120002611
-[research_kenyon_1995]: https://doi.org/10.1117/12.198927
 [research_kerebel_dugat_1986]: https://doi.org/10.2514/6.1986-1502
 [research_kerr_pond_1995]: https://doi.org/10.1117/12.212753
 [research_kerrian_mcshane_2022]: https://doi.org/10.1121/10.0010729
@@ -16375,30 +14914,23 @@ Of the four it is the only one that was ready.
 [research_khan_chakraborty_2021]: https://doi.org/10.2514/1.j060246
 [research_khan_chakraborty_2023]: https://doi.org/10.2514/1.j063120
 [research_khan_eker_2015]: https://doi.org/10.1109/icphm.2015.7245042
-[research_khan_prabhakar_2021]: https://doi.org/10.1063/5.0041027
 [research_khan_sohail_2022]: https://doi.org/10.3390/app122010563
-[research_khan_zhang_2023]: https://doi.org/10.1016/j.psep.2023.07.068
-[research_khatri_kashyap_2023]: https://doi.org/10.1063/5.0171320
 [research_khatri_sinha_2023]: https://doi.org/10.61653/joast.v68i4.2016.367
 [research_khou_ghedhaifi_2015]: https://doi.org/10.2514/1.c033101
-[research_kiani_steen_2022]: https://doi.org/10.3850/978-981-18-5183-4_s26-03-674-cd
 [research_kibbe_stiff_1993]: https://doi.org/10.21236/ada269889
 [research_kidwell_1963]: https://doi.org/10.21236/ad0440406
 [research_kieffer_2006]: https://doi.org/10.21236/ada462805
 [research_kiehn_2020]: https://doi.org/10.1007/s12567-020-00319-3
 [research_kikuchi_misaka_2016]: https://doi.org/10.1080/10618562.2016.1198782
 [research_kilham_dunham_2019]: https://doi.org/10.1615/ihtc3.580
-[research_kim_2015]: https://doi.org/10.1287/opre.2015.1345
 [research_kim_2016]: https://doi.org/10.2514/6.2016-2336
 [research_kim_2017]: https://doi.org/10.1007/s10765-017-2285-8
 [research_kim_2026]: https://doi.org/10.1109/access.2025.3649777
-[research_kim_choi_2022]: https://doi.org/10.1016/j.jaap.2022.105448
 [research_kim_choi_2024]: https://doi.org/10.2514/6.2024-1919
 [research_kim_choi_2026]: https://doi.org/10.3390/ma19020303
 [research_kim_hong_2000]: https://doi.org/10.4028/www.scientific.net/kem.183-187.1153
 [research_kim_hossain_2015]: https://doi.org/10.1016/j.proci.2014.05.068
 [research_kim_jeong_2025]: https://doi.org/10.3390/aerospace12060518
-[research_kim_jung_2025]: https://doi.org/10.3390/jmse13091714
 [research_kim_justin_2022]: https://doi.org/10.2514/1.i010940
 [research_kim_kim_2001]: https://doi.org/10.2514/6.2001-4504
 [research_kim_kim_2019]: https://doi.org/10.6108/kspe.2019.23.6.051
@@ -16433,10 +14965,8 @@ Of the four it is the only one that was ready.
 [research_king_1982]: https://doi.org/10.2514/6.1982-1202
 [research_king_1985]: https://doi.org/10.2514/3.25061
 [research_kinsey_mckenzie_1987]: https://doi.org/10.2514/6.1987-2529
-[research_kirchartz_kim_2025]: https://doi.org/10.29363/nanoge.matsusspring.2026.447
 [research_kirchberger_freudenmann_2019]: https://doi.org/10.2514/6.2019-4428
 [research_kirikera_datta_2003]: https://doi.org/10.1117/12.484118
-[research_kishore_kumar_2022]: https://doi.org/10.1016/j.icheatmasstransfer.2022.106302
 [research_kishore_sankaralingam_1989]: https://doi.org/10.1016/0016-2361(89)90047-1
 [research_kishorenath_mallesham_2023]: https://doi.org/10.61653/joast.v65i3.2013.846
 [research_kitagawa_yuasa_2016]: https://doi.org/10.1615/intjenergeticmaterialschemprop.2017011994
@@ -16456,7 +14986,6 @@ Of the four it is the only one that was ready.
 [research_knauber_1995]: https://doi.org/10.2514/6.1995-2873
 [research_knauer_anderson_1993]: https://doi.org/10.2514/3.23603
 [research_knauer_edman_1991]: https://doi.org/10.2514/6.1991-1838
-[research_knehir_pasha_2025]: https://doi.org/10.1016/j.csite.2025.107267
 [research_knesek_alexander_2025]: https://doi.org/10.1109/aero63441.2025.11068544
 [research_knickerbocker_west_2026]: https://doi.org/10.2514/6.2026-2701
 [research_knight_quinn_1971]: https://doi.org/10.2514/6.1971-415
@@ -16468,10 +14997,8 @@ Of the four it is the only one that was ready.
 [research_kobald_fischer_2017]: https://doi.org/10.2514/6.2017-4902
 [research_kobayashi_2024]: https://doi.org/10.52202/078371-0055
 [research_kobayashi_saperstein_1981]: https://doi.org/10.2514/6.1981-1061
-[research_koch_howard_2012]: https://doi.org/10.21236/ada581967
 [research_koch_wilken_2025]: https://doi.org/10.1007/s12567-025-00597-9
 [research_kockbm_fultonfl_1972]: https://ntrs.nasa.gov/citations/19720011372
-[research_kocsis_joo_2015]: https://doi.org/10.4271/2015-01-0743
 [research_koehlinger_bennett_1992]: https://doi.org/10.2172/6630912
 [research_koelle_1981]: https://doi.org/10.1016/0094-5765(81)90118-1
 [research_koelle_1984]: https://doi.org/10.1016/0094-5765(84)90100-0
@@ -16484,7 +15011,6 @@ Of the four it is the only one that was ready.
 [research_koester_vaillancourt_1992]: https://doi.org/10.1109/62.149794
 [research_kogler_quam_1983]: https://doi.org/10.2514/6.1983-366
 [research_koike_babinsky_2019]: https://doi.org/10.2514/1.c034994
-[research_koksal_ozdemir_2019]: https://doi.org/10.1109/meps46793.2019.9395040
 [research_kolaric_kolaric_2016]: https://doi.org/10.20858/sjsutst.2016.90.11
 [research_kolesnik_novikov_2023]: https://doi.org/10.3103/s1068798x23070146
 [research_kolesovas_svitra_1976]: https://doi.org/10.1007/bf00969794
@@ -16495,9 +15021,7 @@ Of the four it is the only one that was ready.
 [research_kolpitcke_smith_2025]: https://doi.org/10.2514/1.c037859
 [research_komar_2017]: https://doi.org/10.2514/6.2017-5288
 [research_komar_christenson_1996]: https://doi.org/10.2514/6.1996-4246
-[research_kondo_2024]: https://doi.org/10.1051/bioconf/202412903018
 [research_kong_2025]: https://doi.org/10.54254/2977-3903/2025.26799
-[research_konigsson_1979]: https://doi.org/10.1111/j.1502-3885.1979.tb00797.x
 [research_koo_2022]: https://doi.org/10.2514/6.2022-1608
 [research_koo_bernstein_2023]: https://doi.org/10.33599/nasampe/s.23.0072
 [research_koo_lin_1991]: https://doi.org/10.2514/6.1991-978
@@ -16516,7 +15040,6 @@ Of the four it is the only one that was ready.
 [research_kozedra_matveev_2021]: https://doi.org/10.18698/2308-6033-2021-2-2055
 [research_kozlov_vorozhtsov_1992]: https://doi.org/10.1007/bf00568747
 [research_kr_goel_2025]: https://doi.org/10.1115/imece-india2025-160387
-[research_kragelund_2004]: https://doi.org/10.21236/ada435909
 [research_krause_cain_2024]: https://doi.org/10.1109/icuas60882.2024.10556952
 [research_kravchenko_kuleshov_2021]: https://doi.org/10.22616/erdev.2021.20.tf202
 [research_krepski_garbelinifilho_2025]: https://doi.org/10.29327/9786527220794.1443292
@@ -16543,8 +15066,6 @@ Of the four it is the only one that was ready.
 [research_krzycki_1965]: https://doi.org/10.2514/3.2912
 [research_ksenthilkumar_jshanmugam_2023]: https://doi.org/10.61653/joast.v60i4.2008.798
 [research_ku_tsai_2004]: https://doi.org/10.1017/s0373463303002509
-[research_ku_zang_2025]: https://doi.org/10.3390/electronics14030478
-[research_kubiak_roddy_2015]: https://doi.org/10.1016/j.evalprogplan.2015.04.002
 [research_kubota_hashimoto_2003]: https://doi.org/10.1016/s0094-5765(02)00147-9
 [research_kubota_uchida_1999]: https://doi.org/10.1615/jpormedia.v2.i1.50
 [research_kuby_1964]: https://doi.org/10.2514/6.1964-158
@@ -16553,7 +15074,6 @@ Of the four it is the only one that was ready.
 [research_kuhn_1979]: https://doi.org/10.21236/ada073099
 [research_kujawski_angelis_2009]: https://doi.org/10.21236/ada512312
 [research_kulkarni_goebel_2021]: https://doi.org/10.36001/ijphm.2021.v12i3.2941
-[research_kulkarni_qazizadeh_2022]: https://doi.org/10.1109/icphm53196.2022.9815828
 [research_kulumani_lee_2022]: https://doi.org/10.1007/s40295-022-00310-6
 [research_kumar_2001]: https://doi.org/10.2514/2.3685
 [research_kumar_2002]: https://doi.org/10.2514/2.3858
@@ -16588,7 +15108,6 @@ Of the four it is the only one that was ready.
 [research_kuo_1976]: https://doi.org/10.2514/6.1976-1531
 [research_kuriakose_kurian_2020]: https://doi.org/10.1109/picc51425.2020.9362467
 [research_kurita_jourdaine_2020]: https://doi.org/10.2514/6.2020-0688
-[research_kurniatun_rosita_2016]: https://doi.org/10.2991/icemal-16.2016.6
 [research_kurokawa_kamijo_1994]: https://doi.org/10.2514/3.23735
 [research_kurth_bauer_2015]: https://doi.org/10.2514/6.2015-4232
 [research_kurz_1963]: https://doi.org/10.21236/ad0414370
@@ -16597,13 +15116,11 @@ Of the four it is the only one that was ready.
 [research_kwak_kwon_2018]: https://doi.org/10.1016/j.ast.2018.02.033
 [research_kwon_lee_2004]: https://doi.org/10.2514/6.2004-3363
 [research_lacefield_sprow_1994]: https://doi.org/10.2514/6.1994-3397
-[research_lachenaye_boyce_2019]: https://doi.org/10.3138/cjpe.42118
 [research_laganelli_1970]: https://doi.org/10.1615/ihtc4.2480
 [research_laganelli_harper_1974]: https://doi.org/10.2514/6.1974-698
 [research_lagraff_2001]: https://doi.org/10.21236/ada387838
 [research_lai_leu_2023]: https://doi.org/10.3390/aerospace10070583
 [research_lai_leu_2023_b]: https://doi.org/10.1016/j.csite.2023.103486
-[research_lai_li_2020]: https://doi.org/10.3850/978-981-14-8593-0_4150-cd
 [research_lakatos_2016]: https://doi.org/10.1617/s11527-016-0876-7
 [research_lakatos_2019]: https://doi.org/10.1016/j.enbuild.2018.12.029
 [research_lakatos_2025]: https://doi.org/10.1016/j.csite.2025.107200
@@ -16612,7 +15129,6 @@ Of the four it is the only one that was ready.
 [research_lakshminarayanab_luoj_1996]: https://ntrs.nasa.gov/citations/19960029141
 [research_lakshmipuramraghu_rawlins_2024]: https://doi.org/10.2514/6.2024-2051
 [research_lala_adams_1987]: https://doi.org/10.2514/6.1987-2607
-[research_lamas_jahanmir_2026]: https://doi.org/10.1016/j.cor.2026.107529
 [research_lambregts_1982]: https://doi.org/10.2514/6.1982-1599
 [research_lan_2017]: https://doi.org/10.1115/msec2017-2779
 [research_lanaman_morrow_1965]: https://doi.org/10.1109/ta.1965.4319799
@@ -16691,14 +15207,12 @@ Of the four it is the only one that was ready.
 [research_lee_lee_2020]: https://doi.org/10.1109/access.2020.3019066
 [research_lee_lee_2025]: https://doi.org/10.3390/drones9040264
 [research_lee_lee_2025_b]: https://doi.org/10.1016/j.ast.2024.109755
-[research_lee_li_2018]: https://doi.org/10.1111/poms.12802
 [research_lee_lim_2015]: https://doi.org/10.1007/s12206-015-0535-x
 [research_lee_lim_2020]: https://doi.org/10.6108/kspe.2020.24.2.073
 [research_lee_lim_2023]: https://doi.org/10.6108/kspe.2023.27.3.063
 [research_lee_mesbahi_2017]: https://doi.org/10.2514/1.g001879
 [research_lee_mo_2024]: https://doi.org/10.14775/ksmpe.2024.23.04.009
 [research_lee_moon_2015]: https://doi.org/10.1115/ajkfluids2015-09287
-[research_lee_moridis_2015]: https://doi.org/10.2118/173299-ms
 [research_lee_park_2025]: https://doi.org/10.2514/1.g008809
 [research_lee_sarigulklijn_2020]: https://doi.org/10.1115/imece2020-23242
 [research_lee_seo_2024]: https://doi.org/10.52202/078373-0110
@@ -16710,15 +15224,11 @@ Of the four it is the only one that was ready.
 [research_leeman_preda_2022]: https://doi.org/10.1007/s12567-021-00406-z
 [research_leese_1966]: https://doi.org/10.21236/ad0633264
 [research_legallasalle_cadiou_2025]: https://doi.org/10.1007/s40194-025-02136-w
-[research_legros_vanleeuwaarden_2025]: https://doi.org/10.1177/10591478251319683
 [research_lehman_1964]: https://doi.org/10.21236/ad0606886
 [research_lehmanjk_christensenhe_1973]: https://ntrs.nasa.gov/citations/19730024752
-[research_lei_jasin_2020]: https://doi.org/10.1287/opre.2019.1906
-[research_lei_li_2017]: https://doi.org/10.2118/186009-ms
 [research_lei_li_2021]: https://doi.org/10.1115/fedsm2021-61832
 [research_lei_yan_2017]: https://doi.org/10.2514/6.2017-2256
 [research_lei_zhang_2022]: https://doi.org/10.1016/j.cja.2021.08.001
-[research_lei_zhang_2024]: https://doi.org/10.1016/j.oceaneng.2024.119407
 [research_leighton_1982]: https://doi.org/10.21236/ada119841
 [research_leiserdanielb_stewartdavida_2002]: https://ntrs.nasa.gov/citations/20030014602
 [research_leitner_1986]: https://doi.org/10.21236/ada522372
@@ -16732,8 +15242,6 @@ Of the four it is the only one that was ready.
 [research_leonetti_murphy_2026]: https://doi.org/10.2514/6.2026-1787
 [research_leong_2017]: https://doi.org/10.1109/phm.2017.8079103
 [research_lepicovskyj_1990]: https://ntrs.nasa.gov/citations/19910060039
-[research_lespay_suchan_2022]: https://doi.org/10.1016/j.cor.2022.105866
-[research_lessons_learned_2023]: https://doi.org/10.32873/unmc.dc.ihsej.0003
 [research_lestinsky_palit_2016]: https://doi.org/10.1515/gse-2016-0003
 [research_lestz_melton_1975]: https://doi.org/10.4271/750129
 [research_leto_2019]: https://doi.org/10.29008/etc2019-324
@@ -16754,11 +15262,7 @@ Of the four it is the only one that was ready.
 [research_lheureux_1987]: https://doi.org/10.2514/6.1987-2020
 [research_li_2020]: https://doi.org/10.2514/6.2020-0654
 [research_li_2022]: https://doi.org/10.5220/0012073300003624
-[research_li_2022_b]: https://doi.org/10.1007/s11242-022-01835-y
-[research_li_2026]: https://doi.org/10.1016/j.eneco.2026.109377
-[research_li_beer_2026]: https://doi.org/10.1016/j.probengmech.2026.103921
 [research_li_chang_2022]: https://doi.org/10.1016/j.fuel.2021.122925
-[research_li_chang_2025]: https://doi.org/10.1109/iscas56072.2025.11044288
 [research_li_chen_2021]: https://doi.org/10.1115/imece2021-70943
 [research_li_chen_2024]: https://doi.org/10.3390/aerospace11090759
 [research_li_chu_2026]: https://doi.org/10.1016/j.ast.2026.111950
@@ -16773,7 +15277,6 @@ Of the four it is the only one that was ready.
 [research_li_gong_2015]: https://doi.org/10.1016/j.polymdegradstab.2015.03.003
 [research_li_gong_2019]: https://doi.org/10.1109/qr2mse46217.2019.9021112
 [research_li_guo_2020]: https://doi.org/10.1142/s0217979220400780
-[research_li_guo_2024]: https://doi.org/10.1109/icra57147.2024.10611579
 [research_li_hu_2018]: https://doi.org/10.1016/j.ast.2017.12.037
 [research_li_huang_2015]: https://doi.org/10.1016/j.ijthermalsci.2015.07.002
 [research_li_huang_2015_b]: https://doi.org/10.1002/app.42331
@@ -16784,7 +15287,6 @@ Of the four it is the only one that was ready.
 [research_li_jiao_2016]: https://doi.org/10.1007/s00339-016-0040-9
 [research_li_leong_2025]: https://doi.org/10.1109/icmlca66850.2025.11336804
 [research_li_li_2016]: https://doi.org/10.2507/ijsimm15(2)6.334
-[research_li_li_2023]: https://doi.org/10.36001/ijphm.2023.v14i2.3583
 [research_li_li_2023_b]: https://doi.org/10.1515/secm-2022-0196
 [research_li_lou_2025]: https://doi.org/10.1088/3050-2454/ae0b71
 [research_li_luo_2017]: https://doi.org/10.2514/6.2017-0334
@@ -16796,8 +15298,6 @@ Of the four it is the only one that was ready.
 [research_li_ru_2019]: https://doi.org/10.1109/phm-qingdao46334.2019.8942890
 [research_li_rui_2017]: https://doi.org/10.1002/acs.2853
 [research_li_rui_2018]: https://doi.org/10.1115/detc2018-85790
-[research_li_shi_2020]: https://doi.org/10.1109/phm-besancon49106.2020.00031
-[research_li_shi_2025]: https://doi.org/10.1109/ictbai68361.2025.00026
 [research_li_slaugh_2026]: https://doi.org/10.1287/msom.2025.0395
 [research_li_sun_2024]: https://doi.org/10.1016/j.ijheatmasstransfer.2023.124876
 [research_li_verhagen_2020]: https://doi.org/10.1016/j.ast.2020.105877
@@ -16805,22 +15305,15 @@ Of the four it is the only one that was ready.
 [research_li_wang_2022]: https://doi.org/10.3390/aerospace9060300
 [research_li_wang_2024]: https://doi.org/10.1080/13647830.2024.2358943
 [research_li_wang_2024_b]: https://doi.org/10.2514/1.i011314
-[research_li_wang_2025]: https://doi.org/10.1155/ina/7875173
-[research_li_wang_2025_b]: https://doi.org/10.1016/j.cor.2024.106828
-[research_li_wolf_2021]: https://doi.org/10.1007/s11242-021-01598-y
 [research_li_xie_2020]: https://doi.org/10.1145/3424978.3425057
 [research_li_xu_2025]: https://doi.org/10.3390/aerospace12040280
 [research_li_yuan_2020]: https://doi.org/10.1016/j.addma.2020.101406
 [research_li_zhan_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2026.111695
 [research_li_zhang_2021]: https://doi.org/10.1115/fedsm2021-61455
-[research_li_zhang_2022]: https://doi.org/10.3390/jmse10111658
-[research_li_zhang_2023]: https://doi.org/10.1016/j.eneco.2023.106624
 [research_li_zhang_2024]: https://doi.org/10.1109/isas61044.2024.10552471
 [research_li_zhao_2024]: https://doi.org/10.52202/078365-0049
-[research_li_zhao_2024_b]: https://doi.org/10.1109/phm61473.2024.00025
 [research_li_zhao_2025]: https://doi.org/10.52202/083090-0094
 [research_li_zhao_2025_b]: https://doi.org/10.1002/htj.23305
-[research_li_zhou_2023]: https://doi.org/10.1109/csat61646.2023.00083
 [research_li_zi_2024]: https://doi.org/10.1088/1742-6596/2827/1/012030
 [research_lian_li_2020]: https://doi.org/10.1016/j.microrel.2020.113619
 [research_liang_fisher_1985]: https://doi.org/10.2514/6.1985-232
@@ -16842,7 +15335,6 @@ Of the four it is the only one that was ready.
 [research_lighthill_1963]: https://doi.org/10.1088/0031-9112/14/3/001
 [research_lijewski_suhs_1992]: https://doi.org/10.2514/6.1992-4569
 [research_lijewski_suhs_1994]: https://doi.org/10.2514/3.46575
-[research_lilley_lilley_1997]: https://doi.org/10.2514/6.1997-266
 [research_lim_dutta_2021]: https://doi.org/10.1109/icphm51084.2021.9486471
 [research_lim_kim_2020]: https://doi.org/10.6108/kspe.2020.24.4.055
 [research_lim_kim_2024]: https://doi.org/10.52202/078373-0012
@@ -16851,12 +15343,10 @@ Of the four it is the only one that was ready.
 [research_lin_1989]: https://doi.org/10.2514/6.1989-3193
 [research_lin_chiu_1995]: https://doi.org/10.2514/6.1995-2687
 [research_lin_huang_2023]: https://doi.org/10.3390/aerospace10060505
-[research_lin_lin_2018]: https://doi.org/10.1111/risa.13183
 [research_lin_ma_2000]: https://doi.org/10.1016/s0141-3910(00)00068-9
 [research_lin_ma_2000_b]: https://doi.org/10.1002/pc.10187
 [research_lin_miller_2025]: https://doi.org/10.2514/6.2025-0519
 [research_lin_tseng_2026]: https://doi.org/10.1177/00368504261448346
-[research_lin_winder_2019]: https://doi.org/10.1115/pvp2019-93292
 [research_lin_wu_2015]: https://doi.org/10.1016/j.orl.2015.04.010
 [research_lin_yan_2017]: https://doi.org/10.1063/1.4971902
 [research_lin_yang_2023]: https://doi.org/10.3390/aerospace10060517
@@ -16875,8 +15365,6 @@ Of the four it is the only one that was ready.
 [research_lips_1976]: https://doi.org/10.2514/6.1976-640
 [research_liquid_rocket_1972]: https://ntrs.nasa.gov/citations/19730022965
 [research_liquid_rocket_2000]: https://doi.org/10.1108/acmm.2000.12847faf.005
-[research_lisachuk_ryshchenko_1976]: https://doi.org/10.1007/bf00701709
-[research_liston_1973]: https://doi.org/10.21236/ad0762169
 [research_litchfield_norton_1982]: https://doi.org/10.1115/82-gt-247
 [research_litchford_jeng_1992]: https://doi.org/10.2514/6.1992-3227
 [research_litchfordrj_colejw_2000]: https://ntrs.nasa.gov/citations/20000095934
@@ -16889,21 +15377,17 @@ Of the four it is the only one that was ready.
 [research_liu_cheng_2025]: https://doi.org/10.1016/j.actaastro.2025.03.028
 [research_liu_dai_2017]: https://doi.org/10.2514/6.2017-2284
 [research_liu_detwiler_2016]: https://doi.org/10.1115/detc2016-60471
-[research_liu_gao_2023]: https://doi.org/10.1117/12.2674962
 [research_liu_gordon_2023]: https://doi.org/10.1080/00423114.2023.2276761
 [research_liu_ji_2018]: https://doi.org/10.1016/j.procir.2018.02.041
 [research_liu_jiang_2023]: https://doi.org/10.1016/j.tafmec.2022.103743
 [research_liu_jiang_2025]: https://doi.org/10.1016/j.ast.2025.110606
 [research_liu_jiang_2026]: https://doi.org/10.1016/j.ast.2025.111473
 [research_liu_kylnn_2004]: https://doi.org/10.21236/ada422518
-[research_liu_li_2020]: https://doi.org/10.1016/j.addma.2020.101190
 [research_liu_li_2022]: https://doi.org/10.1115/gt2022-82372
-[research_liu_li_2026]: https://doi.org/10.1080/15397734.2026.2634936
 [research_liu_liu_2015]: https://doi.org/10.2514/6.2015-3977
 [research_liu_liu_2018]: https://doi.org/10.5220/0006968302320235
 [research_liu_liu_2025]: https://doi.org/10.52202/083088-0034
 [research_liu_liu_2025_b]: https://doi.org/10.1109/rcae66389.2025.11355191
-[research_liu_lu_2024]: https://doi.org/10.1016/j.ijadhadh.2024.103647
 [research_liu_luo_2023]: https://doi.org/10.3390/aerospace10090766
 [research_liu_ma_2021]: https://doi.org/10.1016/j.compositesa.2021.106297
 [research_liu_qizhi_1996]: https://doi.org/10.2514/6.1996-3214
@@ -16912,26 +15396,21 @@ Of the four it is the only one that was ready.
 [research_liu_tao_2017]: https://doi.org/10.18178/ijmmm.2017.5.2.299
 [research_liu_tiwari_1996]: https://doi.org/10.2514/3.808
 [research_liu_tovar_2015]: https://doi.org/10.1115/detc2015-46534
-[research_liu_vanoosterom_2022]: https://doi.org/10.1016/j.autcon.2022.104461
 [research_liu_wang_1995]: https://doi.org/10.2514/6.1995-3117
 [research_liu_wang_1999]: https://doi.org/10.2514/6.1999-2651
 [research_liu_wang_2021]: https://doi.org/10.1142/s021798492150500x
 [research_liu_wang_2025]: https://doi.org/10.3390/e27070662
 [research_liu_wei_2019]: https://doi.org/10.1117/12.2523557
-[research_liu_wickerson_2017]: https://doi.org/10.23919/fpl.2017.8056810
 [research_liu_wu_2023]: https://doi.org/10.13182/psa23-41217
 [research_liu_xu_2022]: https://doi.org/10.3389/fenrg.2022.985220
 [research_liu_xu_2023]: https://doi.org/10.3390/aerospace10060564
 [research_liu_xu_2024]: https://doi.org/10.3390/aerospace11070518
 [research_liu_xue_2024]: https://doi.org/10.3390/drones8060257
-[research_liu_yu_2022]: https://doi.org/10.1016/j.ijheatmasstransfer.2022.123323
 [research_liu_zhang_2017]: https://doi.org/10.1016/j.cja.2017.06.008
 [research_liu_zhang_2022]: https://doi.org/10.23919/ascc56756.2022.9828171
 [research_liu_zhang_2023]: https://doi.org/10.1016/j.applthermaleng.2022.119544
-[research_liu_zhang_2024]: https://doi.org/10.1016/j.jaap.2024.106501
 [research_liu_zhao_2019]: https://doi.org/10.4028/www.scientific.net/msf.956.135
 [research_liu_zheng_2020]: https://doi.org/10.3390/mi11090826
-[research_liu_zhou_2025]: https://doi.org/10.71204/ket1wf21
 [research_liu_zhuang_2025]: https://doi.org/10.1017/jfm.2025.10849
 [research_liubimov_2025]: https://doi.org/10.62717/2221-4550-2025-1-055
 [research_lizhong_xiaojun_2002]: https://doi.org/10.1016/s0020-7225(02)00002-2
@@ -16952,7 +15431,6 @@ Of the four it is the only one that was ready.
 [research_londonjohniii_sumrallphil_1999]: https://ntrs.nasa.gov/citations/19990116207
 [research_londonjohnriii_lylesgarrym_1998]: https://ntrs.nasa.gov/citations/19990013976
 [research_londonjohnriii_rogackirow_2000]: https://ntrs.nasa.gov/citations/20000097948
-[research_longenbaugh_rautman_1995]: https://doi.org/10.2172/123209
 [research_longobardo_paolillo_2026]: https://doi.org/10.1016/j.ijheatmasstransfer.2025.127661
 [research_loomismarkp_1994]: https://ntrs.nasa.gov/citations/19950005525
 [research_lopez_mejia_2021]: https://doi.org/10.1007/s11242-021-01669-0
@@ -16967,10 +15445,8 @@ Of the four it is the only one that was ready.
 [research_low_cost_stainless_1993]: https://doi.org/10.1016/0261-3069(93)90096-e
 [research_low_density_1978]: https://doi.org/10.1016/0010-4361(78)90466-4
 [research_lowrance_smith_1996]: https://doi.org/10.21236/ada381746
-[research_loybenitez_song_2024]: https://doi.org/10.1016/j.autcon.2023.105199
 [research_lu_1996]: https://doi.org/10.2514/6.1996-1426
 [research_lu_1997]: https://doi.org/10.2514/2.4008
-[research_lu_2024]: https://doi.org/10.54097/6h176694
 [research_lu_gong_2016]: https://doi.org/10.1109/chicc.2016.7555080
 [research_lu_koga_2016]: https://doi.org/10.1016/j.simpat.2015.11.006
 [research_lu_shen_2022]: https://doi.org/10.1016/j.ast.2022.107521
@@ -16981,7 +15457,6 @@ Of the four it is the only one that was ready.
 [research_lubert_2017]: https://doi.org/10.1121/2.0000704
 [research_ludeke_mulot_2015]: https://doi.org/10.2514/1.j053297
 [research_ludescher_olivier_2018]: https://doi.org/10.2514/6.2018-0981
-[research_ludwick_1981]: https://doi.org/10.1109/vtc.1981.1622952
 [research_ludwig_antinori_2021]: https://doi.org/10.1115/gt2021-58604
 [research_lugorafaela_karlgaardchristopherd_2019]: https://ntrs.nasa.gov/citations/20200002412
 [research_lui_mason_1991]: https://doi.org/10.2514/6.1991-2301
@@ -16999,7 +15474,6 @@ Of the four it is the only one that was ready.
 [research_luo_koo_2003]: https://doi.org/10.1017/s1431927603442244
 [research_luo_strait_2024]: https://doi.org/10.1137/23m1590287
 [research_luo_tang_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2026.111984
-[research_luo_yan_2022]: https://doi.org/10.1109/phm-yantai55411.2022.9941917
 [research_luping_1999]: https://ntrs.nasa.gov/citations/19990100665
 [research_luton_1963]: https://doi.org/10.2514/6.1963-1409
 [research_lutsenko_2023]: https://doi.org/10.1063/5.0132423
@@ -17020,7 +15494,6 @@ Of the four it is the only one that was ready.
 [research_lywilliam_roefred_2001]: https://ntrs.nasa.gov/citations/20010084627
 [research_ma_2016]: https://doi.org/10.3901/jme.2016.24.136
 [research_ma_2019]: https://doi.org/10.5220/0008865203980401
-[research_ma_2026]: https://doi.org/10.54254/2755-2721/2026.gu33118
 [research_ma_bao_2020]: https://doi.org/10.1155/2020/8889333
 [research_ma_chen_2018]: https://doi.org/10.1109/ccdc.2018.8407160
 [research_ma_chen_2021]: https://doi.org/10.1016/j.fuel.2021.121259
@@ -17030,19 +15503,14 @@ Of the four it is the only one that was ready.
 [research_ma_li_2023]: https://doi.org/10.1109/cac59555.2023.10450763
 [research_ma_li_2024]: https://doi.org/10.1117/12.3032491
 [research_ma_liu_2024]: https://doi.org/10.1016/j.amf.2024.200136
-[research_ma_sun_2024]: https://doi.org/10.1002/mde.4290
 [research_ma_wang_2019]: https://doi.org/10.1109/ccdc.2019.8832563
 [research_ma_wang_2024]: https://doi.org/10.1016/j.actaastro.2024.08.012
 [research_ma_yuan_2001]: https://doi.org/10.1115/imece2001/med-23332
-[research_ma_zhang_2022]: https://doi.org/10.1016/j.jclepro.2022.130606
 [research_ma_zhao_2019]: https://doi.org/10.1109/fpm45753.2019.9035904
-[research_ma_zhao_2026]: https://doi.org/10.2147/jhc.s602760
 [research_ma_zhu_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130887
 [research_maahs_1972]: https://doi.org/10.2514/6.1972-295
 [research_maass_woicke_2020]: https://doi.org/10.2514/1.g004850
-[research_macaulaynewcombe_thompson_1998]: https://doi.org/10.1016/s0022-3115(98)00099-3
 [research_macconochieiano_davisrobertb_1988]: https://ntrs.nasa.gov/citations/19910000793
-[research_mace_fisher_1997]: https://doi.org/10.23867/gc9701d
 [research_macek_semple_1972]: https://doi.org/10.21236/ad0753105
 [research_maceshernandez_2026]: https://doi.org/10.1007/s12567-025-00676-x
 [research_maceshernandez_defay_2017]: https://doi.org/10.1109/ascc.2017.8287533
@@ -17050,7 +15518,6 @@ Of the four it is the only one that was ready.
 [research_machado_2025]: https://doi.org/10.1007/s13538-025-01889-5
 [research_machado_torsani_2020]: https://doi.org/10.26678/abcm.encit2020.cit20-0116
 [research_maciejewski_1995]: https://doi.org/10.1115/imece1995-1127
-[research_maciel_maciel_2021]: https://doi.org/10.1007/s41779-021-00619-9
 [research_mackay_ellingson_2016]: https://doi.org/10.2514/6.2016-1137
 [research_mackey_stockman_2026]: https://doi.org/10.2514/6.2026-2932
 [research_macklnnon_madden_1972]: https://doi.org/10.2514/3.59028
@@ -17060,9 +15527,6 @@ Of the four it is the only one that was ready.
 [research_maddu_srivastava_2023]: https://doi.org/10.1007/s12633-023-02289-7
 [research_maddux_1999]: https://doi.org/10.21236/ada363784
 [research_madhavannair_2023]: https://doi.org/10.61653/joast.v56i2.2004.819
-[research_maertens_2025]: https://doi.org/10.1016/j.toxlet.2025.07.046
-[research_magazzu_2003]: https://doi.org/10.17660/actahortic.2003.614.121
-[research_magid_lavrenov_2017]: https://doi.org/10.5220/0006442601320141
 [research_magistro_zhang_2025]: https://doi.org/10.2514/6.2025-4138
 [research_magistro_zhang_2025_b]: https://doi.org/10.2514/6.2025-4138.c1
 [research_mah_1999]: https://doi.org/10.2514/6.1999-2910
@@ -17072,7 +15536,6 @@ Of the four it is the only one that was ready.
 [research_maicke_2017]: https://doi.org/10.2514/6.2017-5058
 [research_maihulla_yusuf_2024]: https://doi.org/10.1504/ijor.2024.141333
 [research_maiorova_prosuntsov_2016]: https://doi.org/10.1007/s10891-016-1406-8
-[research_maistri_po_2022]: https://doi.org/10.23919/date54114.2022.9774507
 [research_maiuzzo_1970]: https://doi.org/10.21236/ad0707129
 [research_majerus_tamekuni_1965]: https://doi.org/10.2514/6.1965-158
 [research_majumdar_1975]: https://doi.org/10.2514/3.44459
@@ -17084,10 +15547,8 @@ Of the four it is the only one that was ready.
 [research_makhnun_ahmed_2024]: https://doi.org/10.2139/ssrn.4861835
 [research_maldonadojaimej_1994]: https://ntrs.nasa.gov/citations/19940025642
 [research_malekzadeh_taghavi_2025]: https://doi.org/10.1080/00102202.2025.2505572
-[research_mali_kotalwar_2026]: https://doi.org/10.1109/ictmim68190.2026.11506970
 [research_malim_mourousias_2023]: https://doi.org/10.3390/aerospace10030256
 [research_malisuwan_kanchanarat_2022]: https://doi.org/10.4236/ajibm.2022.1210082
-[research_management_improvement_2021]: https://doi.org/10.17051/ilkonline.2021.03.76
 [research_manda_1966]: https://doi.org/10.2514/3.28733
 [research_manjhi_kumar_2019]: https://doi.org/10.1080/08916152.2019.1630031
 [research_manko_litot_2026]: https://doi.org/10.15421/452560
@@ -17102,7 +15563,6 @@ Of the four it is the only one that was ready.
 [research_manwatkar_murty_2016]: https://doi.org/10.3139/147.110353
 [research_manwatkar_srinath_2016]: https://doi.org/10.1007/s11668-016-0203-1
 [research_maqueraortega_duranaquino_2024]: https://doi.org/10.52202/078373-0093
-[research_maravall_mazo_1990]: https://doi.org/10.1080/01969729008902239
 [research_marcucci_gatta_2026]: https://doi.org/10.1016/j.rtbm.2026.101663
 [research_margolin_1963]: https://doi.org/10.21236/ad0439238
 [research_marineau_2016]: https://doi.org/10.2514/6.2016-0597
@@ -17111,7 +15571,6 @@ Of the four it is the only one that was ready.
 [research_marlow_1992]: https://doi.org/10.2514/6.1992-3725
 [research_marocco_franco_2016]: https://doi.org/10.1115/1.4034774
 [research_marquis_batiot_2016]: https://doi.org/10.1016/j.jaap.2016.02.007
-[research_marra_2022]: https://doi.org/10.1016/j.evalprogplan.2022.102173
 [research_marszaek_2019]: https://doi.org/10.19206/ce-2019-441
 [research_martin_1962]: https://doi.org/10.21236/ad0273826
 [research_martin_1963]: https://doi.org/10.21236/ad0409636
@@ -17119,7 +15578,6 @@ Of the four it is the only one that was ready.
 [research_martin_1992]: https://doi.org/10.2514/3.55636
 [research_martin_1993]: https://doi.org/10.21236/ada275953
 [research_martin_2007]: https://doi.org/10.21236/ada473149
-[research_martin_2026]: https://doi.org/10.56367/oag-049-12434
 [research_martin_boyd_2015]: https://doi.org/10.2514/1.a32847
 [research_martin_cone_1995]: https://doi.org/10.1117/12.212741
 [research_martin_isaac_1998]: https://doi.org/10.2514/2.3382
@@ -17164,7 +15622,6 @@ Of the four it is the only one that was ready.
 [research_mattice_1982]: https://doi.org/10.2514/6.1982-1739
 [research_mattioli_dipadova_2021]: https://doi.org/10.4043/30918-ms
 [research_matushin_makhalov_2020]: https://doi.org/10.34131/msf.20.4.42-56
-[research_matveev_2022]: https://doi.org/10.5121/csit.2022.120706
 [research_matveev_zubanov_2018]: https://doi.org/10.5220/0006890003650370
 [research_maul_lo_2024]: https://doi.org/10.1109/rams51492.2024.10457683
 [research_maulwilliama_chicatelliamy_2005]: https://ntrs.nasa.gov/citations/20050080711
@@ -17184,7 +15641,6 @@ Of the four it is the only one that was ready.
 [research_mayo_cernat_2016]: https://doi.org/10.1115/gt2016-57606
 [research_mayorgamacias_gonzalezjimenez_2020]: https://doi.org/10.1155/2020/9263961
 [research_maze_1985]: https://doi.org/10.1177/089484538501200205
-[research_mazur_woodland_2017]: https://doi.org/10.1016/j.evalprogplan.2017.02.011
 [research_mazurkivichpete_chandlerfrank_2005]: https://ntrs.nasa.gov/citations/20050207495
 [research_mazzaracchio_2018]: https://doi.org/10.5028/jatm.v10.965
 [research_mazzone_chiarelli_2024]: https://doi.org/10.52202/078373-0104
@@ -17203,10 +15659,8 @@ Of the four it is the only one that was ready.
 [research_mccoy_dinicola_2021]: https://doi.org/10.1016/j.pss.2020.105139
 [research_mcdaniel_2004]: https://doi.org/10.21236/ada422912
 [research_mcdonald_1980]: https://doi.org/10.1002/j.2161-4296.1980.tb01396.x
-[research_mcdonald_1995]: https://doi.org/10.1049/ic:19950985
 [research_mcdonaldjp_minorrb_1998]: https://ntrs.nasa.gov/citations/19980237005
 [research_mcdowell_raghu_2025]: https://doi.org/10.1109/aero63441.2025.11068692
-[research_mcelwain_finnegan_2016]: https://doi.org/10.1016/j.evalprogplan.2016.06.002
 [research_mcgarr_1947]: https://doi.org/10.21236/ad0038665
 [research_mcgaughey_kaviany_2002]: https://doi.org/10.2514/6.2002-3343
 [research_mcgee_1977]: https://doi.org/10.2514/6.1977-603
@@ -17225,12 +15679,10 @@ Of the four it is the only one that was ready.
 [research_mcknight_boyer_2015]: https://doi.org/10.2514/6.2015-4036
 [research_mclafferty_1970]: https://doi.org/10.2514/3.30179
 [research_mclaughlin_perhinschi_2020]: https://doi.org/10.1108/ijius-11-2019-0064
-[research_mcmillan_2015]: https://doi.org/10.4043/25543-ms
 [research_mcneil_2015]: https://doi.org/10.21236/ada623464
 [research_mcnicol_2014]: https://doi.org/10.21236/ada603849
 [research_mcnicol_2014_b]: https://doi.org/10.21236/ada610317
 [research_mcnicol_wu_2014]: https://doi.org/10.21236/ada609472
-[research_mcpherson_balch_2024]: https://doi.org/10.2118/220068-ms
 [research_mcwhorter_ewing_2001]: https://doi.org/10.2514/6.2001-3280
 [research_mcwhorter_johnson_1999]: https://doi.org/10.2514/6.1999-2136
 [research_mcwhorterbruce_ewingmark_2004]: https://ntrs.nasa.gov/citations/20040085892
@@ -17250,7 +15702,6 @@ Of the four it is the only one that was ready.
 [research_mehta_2022]: https://doi.org/10.36347/sjet.2022.v10i04.001
 [research_mehta_bhargav_2022]: https://doi.org/10.2514/6.2022-0124
 [research_mehta_danehy_2017]: https://doi.org/10.2514/6.2017-3465
-[research_mehta_yusuf_2025]: https://doi.org/10.1016/j.autcon.2025.106176
 [research_mehtamanish_canabalfrancisco_2011]: https://ntrs.nasa.gov/citations/20110015765
 [research_meichin_tanaka_2019]: https://doi.org/10.2322/tastj.17.282
 [research_meier_key_2025]: https://doi.org/10.1115/gt2025-151261
@@ -17269,15 +15720,12 @@ Of the four it is the only one that was ready.
 [research_menees_1983]: https://doi.org/10.2514/6.1983-1513
 [research_menon_ck_2025]: https://doi.org/10.1007/s11038-025-09574-y
 [research_menon_lehman_1986]: https://doi.org/10.2514/3.20076
-[research_merisalu_sundell_2023]: https://doi.org/10.1016/j.tust.2022.104815
 [research_merriammarshall_2000]: https://ntrs.nasa.gov/citations/20010071155
 [research_mertaugh_1998]: https://doi.org/10.21236/ada350674
 [research_merzlikin_smirnov_2019]: https://doi.org/10.1109/fareastcon.2019.8934121
 [research_metghalchi_2009]: https://doi.org/10.21236/ada516408
-[research_meuzelaar_warren_2026]: https://doi.org/10.56952/arma-2026-0775
 [research_meyerrobertrjr_curryroberte_1992]: https://ntrs.nasa.gov/citations/19920074190
 [research_meyers_1991]: https://doi.org/10.1016/0094-5765(91)90081-f
-[research_meyers_2019]: https://doi.org/10.1080/15700763.2019.1637902
 [research_meyers_tompkins_1968]: https://doi.org/10.21236/ad0675443
 [research_meyerson_1998]: https://doi.org/10.1061/40339(206)21
 [research_mezines_1968]: https://doi.org/10.2514/6.1968-757
@@ -17286,11 +15734,6 @@ Of the four it is the only one that was ready.
 [research_miccio_1998]: https://doi.org/10.1016/s0082-0784(98)80090-8
 [research_miccio_2016]: https://doi.org/10.1063/1.4968711
 [research_michaeljstrickland_daniellpalumbo_1988]: https://ntrs.nasa.gov/citations/19880064706
-[research_michalak_2021]: https://doi.org/10.3390/ceramics4030027
-[research_michalak_2022]: https://doi.org/10.3390/standards2020013
-[research_michalak_2023]: https://doi.org/10.3390/buildings13051326
-[research_michalak_2023_b]: https://doi.org/10.32047/cwb.2022.27.6.1
-[research_michalak_ziomek_2023]: https://doi.org/10.3390/ma16124245
 [research_michell_2016]: https://doi.org/10.5220/0006222400730083
 [research_michiganunivannarbor_1963]: https://doi.org/10.21236/ad0410035
 [research_michihara_tamura_2018]: https://doi.org/10.1299/jsmefed.2018.os14-8
@@ -17303,7 +15746,6 @@ Of the four it is the only one that was ready.
 [research_mikhail_1979]: https://doi.org/10.21236/ada076116
 [research_mikhalchenko_2023]: https://doi.org/10.1615/heattransres.2022044887
 [research_mikhalev_beletskii_2022]: https://doi.org/10.1134/s0010952522020058
-[research_milewski_skibinski_2023]: https://doi.org/10.5220/0012052100003546
 [research_miley_puri_2020]: https://doi.org/10.2514/6.2020-4083
 [research_millar_smrcek_2001]: https://doi.org/10.1108/eum0000000006227
 [research_miller_1963]: https://doi.org/10.21236/ad0429015
@@ -17331,8 +15773,6 @@ Of the four it is the only one that was ready.
 [research_minyushkin_kryukov_2019]: https://doi.org/10.1063/1.5135685
 [research_miotto_lepome_2003]: https://doi.org/10.2514/6.2003-5360
 [research_miquelparra_acampa_2024]: https://doi.org/10.1016/j.jsse.2023.11.013
-[research_mir_khan_2022]: https://doi.org/10.1016/j.clema.2022.100116
-[research_miranda_barron_2016]: https://doi.org/10.4236/mnsms.2016.64006
 [research_mirhasani_louis_2025]: https://doi.org/10.7771/3067-4883.2004
 [research_miromiro_pinna_2018]: https://doi.org/10.1063/1.5043353
 [research_miromiro_pinna_2020]: https://doi.org/10.1017/jfm.2020.129
@@ -17361,9 +15801,6 @@ Of the four it is the only one that was ready.
 [research_moetazedian_budisuharto_2021]: https://doi.org/10.1016/j.addma.2020.101576
 [research_moghadasi_dewit_2018]: https://doi.org/10.1108/aeat-01-2017-0036
 [research_mogyorosi_szorenyi_1989]: https://doi.org/10.1016/0169-4332(89)90909-4
-[research_mohaddeskhorassani_siligardi_2019]: https://doi.org/10.1111/ijac.13382
-[research_mohammadi_2018]: https://doi.org/10.4172/2576-1463.1000212
-[research_mohammed_bourzig_2016]: https://doi.org/10.1109/ceit.2016.7929059
 [research_mohan_kim_2015]: https://doi.org/10.1016/j.oceaneng.2015.05.011
 [research_mohan_kishore_2021]: https://doi.org/10.1109/iceca52323.2021.9676096
 [research_mohan_s_2025]: https://doi.org/10.1016/j.jsse.2025.10.004
@@ -17381,12 +15818,9 @@ Of the four it is the only one that was ready.
 [research_moore_1969]: https://doi.org/10.2514/6.1969-980
 [research_moore_barnett_1979]: https://doi.org/10.21236/ada085203
 [research_moore_cozzolino_1978]: https://doi.org/10.1080/21649405.1978.10462443
-[research_moore_yakimenko_2024]: https://doi.org/10.1109/icca62789.2024.10591959
-[research_moore_yakimenko_2025]: https://doi.org/10.1109/icca65672.2025.11129746
 [research_mooredennisr_phelpswilliej_2011]: https://ntrs.nasa.gov/citations/20120001536
 [research_moosaie_2024]: https://doi.org/10.1016/j.icheatmasstransfer.2024.108110
 [research_mora_adibi_2025]: https://doi.org/10.1115/imece2025-167046
-[research_mora_lafuente_2020]: https://doi.org/10.1016/j.psep.2019.11.005
 [research_morales_moral_2019]: https://doi.org/10.1109/isads45777.2019.9155962
 [research_morando_bozzi_2024]: https://doi.org/10.3390/automation5030020
 [research_moranrobertp_houstonjaniced_2011]: https://ntrs.nasa.gov/citations/20120002972
@@ -17395,7 +15829,6 @@ Of the four it is the only one that was ready.
 [research_morelli_1994]: https://doi.org/10.2514/6.1994-152
 [research_morgan_1970]: https://doi.org/10.21236/ad0718997
 [research_morgan_barton_2022]: https://doi.org/10.1016/j.ejor.2021.05.052
-[research_morgan_liscio_2021]: https://doi.org/10.1016/j.evalprogplan.2021.101992
 [research_morgan_williams_2025]: https://doi.org/10.2514/6.2025-1513
 [research_morgenthaler_montoya_1991]: https://doi.org/10.2514/6.1991-4101
 [research_mori_maruyama_2016]: https://doi.org/10.2514/6.2016-0457
@@ -17410,7 +15843,6 @@ Of the four it is the only one that was ready.
 [research_morris_robertw_2012]: https://doi.org/10.21236/ada581835
 [research_morrischristopheri_2003]: https://ntrs.nasa.gov/citations/20030067419
 [research_morrischristopheri_2003_b]: https://ntrs.nasa.gov/citations/20030062167
-[research_morrison_ma_2025]: https://doi.org/10.1063/5.0238444
 [research_morrow_petersen_2017]: https://doi.org/10.2514/6.2017-0831
 [research_morse_moore_2024]: https://doi.org/10.2514/6.2024-86250
 [research_moruzzi_fessl_2018]: https://doi.org/10.2514/6.2018-4599
@@ -17418,8 +15850,6 @@ Of the four it is the only one that was ready.
 [research_moseman_2025]: https://doi.org/10.1109/mspec.2025.11197247
 [research_moser_1965]: https://doi.org/10.2514/6.1965-198
 [research_moser_keith_1992]: https://doi.org/10.2514/6.1992-3708
-[research_moser_odonnell_2020]: https://doi.org/10.4271/2020-01-1140
-[research_mosia_ramdass_2024]: https://doi.org/10.46254/af05.20240049
 [research_mosley_1970]: https://doi.org/10.2514/6.1970-242
 [research_mosolov_lozinolozinskaya_2021]: https://doi.org/10.18698/0236-3941-2021-3-60-79
 [research_mossman_perkins_2001]: https://doi.org/10.21236/ada411282
@@ -17430,7 +15860,6 @@ Of the four it is the only one that was ready.
 [research_mouachengm_mcwhertershaunc_2012]: https://ntrs.nasa.gov/citations/20120013435
 [research_moyer_wool_1970]: https://doi.org/10.21236/ad0875062
 [research_mozaffar_liao_2023]: https://doi.org/10.1016/j.addma.2022.103337
-[research_mrsvlalithamani_msmsoumya_2025]: https://doi.org/10.1109/iceca66444.2025.11383241
 [research_mtbf_warranty_guarantee_1991]: https://doi.org/10.1016/0026-2714(91)90104-f
 [research_mu_cao_2025]: https://doi.org/10.3390/drones9010057
 [research_muda_irmanto_2023]: https://doi.org/10.55248/gengpi.4.923.92446
@@ -17452,7 +15881,6 @@ Of the four it is the only one that was ready.
 [research_mulla_satpathy_2023]: https://doi.org/10.1115/gtindia2023-117608
 [research_muller_kuhn_2017]: https://doi.org/10.2514/6.2017-2349
 [research_multi_dimensional_modeling_1989]: https://doi.org/10.2172/5444310
-[research_multi_scalar_urban_2023]: https://doi.org/10.56831/psen-04-100
 [research_mungas_das_2003]: https://doi.org/10.1108/00022660310474492
 [research_mungiguerra_cecere_2021]: https://doi.org/10.12783/asc36/35774
 [research_murari_calciolari_2019]: https://doi.org/10.1002/masy.201800050
@@ -17479,10 +15907,7 @@ Of the four it is the only one that was ready.
 [research_myersdavide_martincarlj_2000]: https://ntrs.nasa.gov/citations/20000062016
 [research_mykhalchyshyn_brezgin_2018]: https://doi.org/10.15407/knit2018.02.012
 [research_myung_2022]: https://doi.org/10.52912/jsta.2022.2.2.67
-[research_n_s_2026]: https://doi.org/10.33545/26648792.2026.v8.i4b.714
-[research_na_nah_2023]: https://doi.org/10.46248/kidrs.2023.1.453
 [research_nabi_najafi_2024]: https://doi.org/10.1115/ht2024-131509
-[research_naboni_kunic_2017]: https://doi.org/10.5151/sigradi2017-058
 [research_nachawati_brodsky_2017]: https://doi.org/10.5220/0006338703120323
 [research_naeem_sutton_2003]: https://doi.org/10.1016/s1474-6670(17)36653-3
 [research_nafteljc_powellrw_1983]: https://ntrs.nasa.gov/citations/19830060721
@@ -17507,14 +15932,11 @@ Of the four it is the only one that was ready.
 [research_nakhod_2026]: https://doi.org/10.62717/3083-7057-2026-1-102
 [research_nancyjlindsey_2016]: https://ntrs.nasa.gov/citations/20250009570
 [research_nandi_2001]: https://doi.org/10.2514/2.3709
-[research_naraghi_javadpour_2018]: https://doi.org/10.1007/s11242-017-0992-z
 [research_narayanan_arumughamachari_2026]: https://doi.org/10.1016/j.ast.2026.112355
 [research_narayanan_seyedyagoobi_1996]: https://doi.org/10.1115/imece1996-0068
 [research_nardozzo_popkin_2019]: https://doi.org/10.2514/6.2019-3838
 [research_naseh_jafarpanah_2022]: https://doi.org/10.30699/jsst.2022.1302
-[research_naserabdelrahim_2021]: https://doi.org/10.69681/lajae.v4i1.19
 [research_nasiri_adami_2025]: https://doi.org/10.47176/jafm.18.8.3202
-[research_nasirisarvi_luo_2015]: https://doi.org/10.1115/detc2015-47878
 [research_nasiru_2021]: https://doi.org/10.1007/s41872-021-00168-x
 [research_nasuti_pizzarelli_2021]: https://doi.org/10.1016/j.supflu.2020.105066
 [research_nasuti_torricelli_2021]: https://doi.org/10.1016/j.ijheatmasstransfer.2021.121849
@@ -17536,7 +15958,6 @@ Of the four it is the only one that was ready.
 [research_negre_1975]: https://doi.org/10.2514/6.1975-1023
 [research_negre_1977]: https://doi.org/10.2514/3.58780
 [research_neilson_gilchrist_1968]: https://doi.org/10.1016/0043-1648(68)90592-9
-[research_nell_1970]: https://doi.org/10.21236/ad0718060
 [research_nelson_fields_1995]: https://doi.org/10.2514/3.707
 [research_nelson_mezines_1978]: https://doi.org/10.2514/6.1978-919
 [research_nelsonwg_codyj_1972]: https://ntrs.nasa.gov/citations/19720055494
@@ -17563,10 +15984,8 @@ Of the four it is the only one that was ready.
 [research_ngo_powell_2017]: https://doi.org/10.2514/6.2017-1405
 [research_nguyen_2020]: https://doi.org/10.56651/lqdtu.jst.v15.n01.105
 [research_nguyen_aleti_2025]: https://doi.org/10.52202/083084-0038
-[research_nguyen_baker_2012]: https://doi.org/10.21236/ada563950
 [research_nguyen_rohacs_2021]: https://doi.org/10.3390/ijgi10050338
 [research_nguyen_terrana_2023]: https://doi.org/10.2514/6.2023-0659
-[research_nguyen_tonmukayakul_2021]: https://doi.org/10.3390/children8020154
 [research_nguyenh_1998]: https://ntrs.nasa.gov/citations/19980236008
 [research_nguyentat_gibson_1991]: https://doi.org/10.2514/6.1991-2487
 [research_nho_agarwal_1998]: https://doi.org/10.2514/6.1998-4484
@@ -17594,7 +16013,6 @@ Of the four it is the only one that was ready.
 [research_nilesh_kamlesh_2020]: https://doi.org/10.1088/1757-899x/872/1/012086
 [research_nishi_gagge_1970]: https://doi.org/10.1152/jappl.1970.29.6.830
 [research_nishino_kurisaka_2015]: https://doi.org/10.1299/jsmeicone.2015.23._icone23-1_61
-[research_nisizawa_1995]: https://doi.org/10.1016/0389-4304(95)95185-w
 [research_niu_su_2023]: https://doi.org/10.1063/5.0141000
 [research_nixmichael_statonericj_2004]: https://ntrs.nasa.gov/citations/20040075660
 [research_nixmichaelb_escherwilliamjd_1999]: https://ntrs.nasa.gov/citations/19990064504
@@ -17619,27 +16037,21 @@ Of the four it is the only one that was ready.
 [research_ntintakis_stavroulakis_2025]: https://doi.org/10.23967/simam.2025.006
 [research_nuclear_rocket_1963]: https://doi.org/10.2172/4139520
 [research_nuclear_rocket_1972]: https://doi.org/10.2172/4229914
-[research_nugraha_rendragraha_2025]: https://doi.org/10.1016/j.cor.2025.107057
 [research_nugroho_andiarti_2024]: https://doi.org/10.1371/journal.pone.0292539
 [research_numerical_modeling_2003]: https://ntrs.nasa.gov/citations/20040040198
 [research_numerical_optimization_2016]: https://doi.org/10.21275/v5i6.nov164465
 [research_numerical_simulation_2025]: https://doi.org/10.23977/geors.2025.080105
-[research_nuncio_arcinas_2020]: https://doi.org/10.1016/j.evalprogplan.2020.101846
 [research_nunome_ozaki_2019]: https://doi.org/10.2322/tastj.17.7
-[research_nur_pane_2018]: https://doi.org/10.5220/0010079102370242
-[research_nutter_privett_1968]: https://doi.org/10.1016/s0021-9673(01)82418-3
 [research_nyancho_benedict_2026]: https://doi.org/10.4050/f-0082-2026-0284
 [research_oakes_2021]: https://doi.org/10.20935/al3542
 [research_obermann_williamson_1998]: https://doi.org/10.1016/s0265-9646(97)00041-6
 [research_obermann_williamson_2003]: https://doi.org/10.1016/s0094-5765(02)00200-x
-[research_obi_arif_2020]: https://doi.org/10.1080/17452007.2020.1738993
 [research_oblanas_1968]: https://doi.org/10.2172/4489487
 [research_obreque_diaz_2022]: https://doi.org/10.3390/aerospace9100540
 [research_obrien_lewis_2001]: https://doi.org/10.2514/2.2880
 [research_obriencharlesj_1989]: https://ntrs.nasa.gov/citations/19890000415
 [research_obriencj_salkeldr_1980]: https://ntrs.nasa.gov/citations/19810014652
 [research_oconnor_1966]: https://doi.org/10.2514/6.1966-840
-[research_ocular_prosthesis_2022]: https://doi.org/10.36266/jodhr/147
 [research_odak_warren_2025]: https://doi.org/10.1016/j.jaap.2025.107330
 [research_odonnell_powell_2016]: https://doi.org/10.1115/icef2016-9401
 [research_oefelein_2003]: https://doi.org/10.2514/6.2003-479
@@ -17655,14 +16067,12 @@ Of the four it is the only one that was ready.
 [research_ohara_yamaguchi_2001]: https://doi.org/10.2514/6.2001-4038
 [research_ohern_1975]: https://doi.org/10.2514/6.1975-571
 [research_ohtake_1998]: https://doi.org/10.1016/s0045-7825(97)00153-9
-[research_oikonomopoulos_tripsanas_2019]: https://doi.org/10.3997/2214-4609.201903154
 [research_oishi_tamari_2023]: https://doi.org/10.3390/aerospace10080713
 [research_oka_tahara_2025]: https://doi.org/10.54941/ahfe1006371
 [research_okamoto_zhang_1996]: https://doi.org/10.4271/960949
 [research_okano_haga_2026]: https://doi.org/10.2514/6.2026-0387
 [research_okayasu_higashino_1983]: https://doi.org/10.2514/6.1983-1388
 [research_okazaki_fujiwara_2025]: https://doi.org/10.4271/2024-32-0109
-[research_okeke_florence_2022]: https://doi.org/10.47310/hjel.2022.v03i01.049
 [research_okumura_2024]: https://doi.org/10.1109/icops58192.2024.10625950
 [research_olcucuoglu_temel_2018]: https://doi.org/10.2514/6.2018-0883
 [research_olds_bradford_1997]: https://doi.org/10.2514/6.1997-2760
@@ -17680,13 +16090,10 @@ Of the four it is the only one that was ready.
 [research_olivero_ferrai_2018]: https://doi.org/10.1108/aeat-11-2016-0232
 [research_oliverstanleyt_selvidgeshawn_2004]: https://ntrs.nasa.gov/citations/20040068371
 [research_olmeda_stemmer_2019]: https://doi.org/10.3850/978-981-11-2730-4_0241-cd
-[research_olorode_akkutlu_2017]: https://doi.org/10.1061/9780784480779.246
 [research_olsengc_chapmanajiii_1972]: https://ntrs.nasa.gov/citations/19720026296
 [research_olson_allen_1998]: https://doi.org/10.6028/nist.ir.6234
 [research_olsson_cameron_2024]: https://doi.org/10.1007/s10443-024-10219-y
-[research_oluwatobiaogunsaya_rotimitaiwo_2024]: https://doi.org/10.30574/wjarr.2024.23.3.2697
 [research_olynick_1998]: https://doi.org/10.2514/2.3338
-[research_omana_rossi_2015]: https://doi.org/10.1109/tc.2015.2490058
 [research_omata_tsutsumi_2022]: https://doi.org/10.1109/aero53065.2022.9843212
 [research_omata_tsutsumi_2022_b]: https://doi.org/10.23919/sice56594.2022.9905859
 [research_omori_1973]: https://doi.org/10.1080/00102207308952363
@@ -17720,7 +16127,6 @@ Of the four it is the only one that was ready.
 [research_ostroffaj_woodrb_1977]: https://ntrs.nasa.gov/citations/19770015154
 [research_osuna_adibi_2024]: https://doi.org/10.1115/imece2024-143559
 [research_ota_noguchi_2001]: https://doi.org/10.1115/imece2001/htd-24143
-[research_othman_2020]: https://doi.org/10.33552/ctcse.2020.06.000646
 [research_otsuka_takiyama_1967]: https://doi.org/10.1299/jsmemag.70.584_1353
 [research_otteneile_lylesgarry_2008]: https://ntrs.nasa.gov/citations/20160008981
 [research_otto_flage_1960]: https://doi.org/10.4271/600403
@@ -17728,11 +16134,9 @@ Of the four it is the only one that was ready.
 [research_oyewola_ismail_2022]: https://doi.org/10.5098/hmt.18.30
 [research_oz_kara_2024]: https://doi.org/10.1038/s41598-024-66867-4
 [research_ozaki_kurosu_2025]: https://doi.org/10.52202/083090-0007
-[research_ozarslanyatak_goktas_2018]: https://doi.org/10.17671/gazibtd.340566
 [research_ozawa_bruce_2025]: https://doi.org/10.2514/6.2025-0262
 [research_ozegowski_metev_1998]: https://doi.org/10.1016/s0169-4332(97)00714-9
 [research_ozeki_takabayashi_2002]: https://doi.org/10.4271/2002-01-0515
-[research_ozkan_ulutas_2016]: https://doi.org/10.1109/codit.2016.7593540
 [research_oztan_coverstone_2021]: https://doi.org/10.1016/j.actaastro.2020.11.024
 [research_oztan_ginzburg_2021]: https://doi.org/10.1016/j.combustflame.2020.11.024
 [research_ozturk_ozkol_2023]: https://doi.org/10.1109/rast57548.2023.10197942
@@ -17741,7 +16145,6 @@ Of the four it is the only one that was ready.
 [research_paek_lee_1996]: https://doi.org/10.1016/0045-7949(95)00425-4
 [research_pages_achipa_2026]: https://doi.org/10.2514/6.2026-114634
 [research_paglia_genova_2019]: https://doi.org/10.1016/j.polymdegradstab.2019.108979
-[research_pahl_loipfinger_2018]: https://doi.org/10.1109/noms.2018.8406165
 [research_paine_1950]: https://doi.org/10.21236/adc953406
 [research_paing_2023]: https://doi.org/10.26732/j.st.2023.1.04
 [research_palacioshervas_2026]: https://doi.org/10.2514/6.2026-4758
@@ -17759,11 +16162,8 @@ Of the four it is the only one that was ready.
 [research_palumbo_begun_1977]: https://doi.org/10.21236/ada039219
 [research_pamadibandun_brauchmangregoryj_1999]: https://ntrs.nasa.gov/citations/19990042054
 [research_pamadibandun_brauckmanngregoryj_2000]: https://ntrs.nasa.gov/citations/20000024854
-[research_pambudi_ismail_2019]: https://doi.org/10.1109/ibitec46597.2019.9091676
-[research_pan_2018]: https://doi.org/10.1109/vlsi-dat.2018.8373281
 [research_pan_ding_2022]: https://doi.org/10.3390/aerospace9060311
 [research_pan_jiang_2023]: https://doi.org/10.1109/lra.2023.3256920
-[research_pan_zhang_2021]: https://doi.org/10.1016/j.cor.2020.105193
 [research_panda_mishra_2015]: https://doi.org/10.1109/tii.2014.2364557
 [research_panda_mishra_2016]: https://doi.org/10.1016/j.jii.2016.07.001
 [research_panda_mishra_2017]: https://doi.org/10.1109/tii.2017.2709344
@@ -17775,24 +16175,19 @@ Of the four it is the only one that was ready.
 [research_papadopoulos_1998]: https://doi.org/10.1049/cp:19980634
 [research_papadopoulosgeorge_tiliakosnicholas_2014]: https://ntrs.nasa.gov/citations/20150003182
 [research_papakonstantinou_moraitis_2022]: https://doi.org/10.3390/aerospace9020095
-[research_paradiso_roberti_2020]: https://doi.org/10.1287/opre.2019.1874
 [research_paramo_arizpe_2024]: https://doi.org/10.52202/078371-0212
-[research_parappathodi_archetti_2022]: https://doi.org/10.1016/j.cor.2022.105963
 [research_paredes_choudhari_2018]: https://doi.org/10.2514/6.2018-3217
 [research_paredes_choudhari_2019]: https://doi.org/10.2514/6.2019-3215
 [research_paredes_scholten_2021]: https://doi.org/10.2514/6.2021-2886
 [research_parent_2021]: https://doi.org/10.1063/5.0046197
 [research_parent_hanquist_2021]: https://doi.org/10.1080/10618562.2021.1949456
 [research_parent_zidane_2023]: https://doi.org/10.1016/s0167-8140(23)66704-0
-[research_pareo_2018]: https://doi.org/10.30591/nozzle.v7i1.2094
 [research_park_bae_2024]: https://doi.org/10.6108/kspe.2024.28.4.047
 [research_park_bang_2023]: https://doi.org/10.1016/j.actaastro.2023.08.025
 [research_park_cho_2004]: https://doi.org/10.1016/j.carbon.2004.01.046
 [research_park_kang_2002]: https://doi.org/10.1016/s0008-6223(02)00063-5
-[research_park_matuszek_2026]: https://doi.org/10.1038/s41434-026-00631-3
 [research_park_park_2023]: https://doi.org/10.3390/aerospace10060516
 [research_park_yang_2024]: https://doi.org/10.52202/078383-0018
-[research_parker_rains_2015]: https://doi.org/10.1080/03637751.2015.1030681
 [research_parker_templeman_1967]: https://doi.org/10.2514/6.1967-573
 [research_parkes_conomos_2024]: https://doi.org/10.2514/6.2024-2772
 [research_parkinson_fitzgibbon_1989]: https://doi.org/10.1017/s0373463300015083
@@ -17800,10 +16195,7 @@ Of the four it is the only one that was ready.
 [research_parmenter_shuman_2001]: https://doi.org/10.2514/2.3675
 [research_parrish_jr_1978]: https://doi.org/10.21236/ada093689
 [research_parsons_1970]: https://doi.org/10.2514/6.1970-244
-[research_parsons_2023]: https://doi.org/10.1016/j.fusengdes.2023.113564
 [research_parsonsengineeringsciencesincpasadenaca_1991]: https://doi.org/10.21236/ada413142
-[research_parziale_2015]: https://doi.org/10.2514/6.2015-1303
-[research_pasae_idrus_2026]: https://doi.org/10.47836/pjst.34.3.14
 [research_pasciuti_acampa_2025]: https://doi.org/10.1016/j.jsse.2025.02.003
 [research_pashwath_2023]: https://doi.org/10.33552/mcms.2023.05.000607
 [research_pasley_1972]: https://doi.org/10.2514/3.61633
@@ -17813,7 +16205,6 @@ Of the four it is the only one that was ready.
 [research_patel_2016]: https://doi.org/10.2514/6.2016-4415
 [research_patel_bassett_2025]: https://doi.org/10.2514/6.2025-99101
 [research_patel_standbridge_2019]: https://doi.org/10.2514/6.2019-4392
-[research_pateliya_patidar_2026]: https://doi.org/10.55248/gengpi.07.0426.a930
 [research_paterson_1991]: https://doi.org/10.2514/6.1991-91
 [research_patil_kulkarni_2026]: https://doi.org/10.1007/s41872-026-00404-2
 [research_patil_pise_2015]: https://doi.org/10.4271/2015-01-1662
@@ -17823,26 +16214,19 @@ Of the four it is the only one that was ready.
 [research_pattanaik_anupindi_2025]: https://doi.org/10.1080/01457632.2025.2529746
 [research_patterson_arena_2015]: https://doi.org/10.2514/6.2015-2858
 [research_pattonrd_pittmancujr_2001]: https://ntrs.nasa.gov/citations/20010067308
-[research_paul_silva_2025]: https://doi.org/10.1016/j.ijdrr.2025.105303
 [research_paula_bizarria_2026]: https://doi.org/10.3390/aerospace13080696
 [research_paulini_2019]: https://doi.org/10.1007/s11242-019-01245-7
 [research_paulini_2019_b]: https://doi.org/10.1007/s11242-019-01248-4
-[research_paulort_lepikson_2020]: https://doi.org/10.5151/siintec2020-digitalvehicle
 [research_pavanasam_anil_2024]: https://doi.org/10.4271/2024-26-0447
-[research_pavithra_vijayaraghavan_2026]: https://doi.org/10.1007/s41872-025-00390-x
-[research_pavlikov_2025]: https://doi.org/10.1016/j.orl.2024.107239
 [research_pawar_navle_2026]: https://doi.org/10.4028/p-ennzc9
 [research_pawar_sharma_2018]: https://doi.org/10.1007/s40032-017-0430-6
 [research_paxson_miki_2022]: https://doi.org/10.2514/6.2022-4107
 [research_paxton_villasenor_2020]: https://doi.org/10.2514/6.2020-2721
 [research_payne_2024]: https://doi.org/10.52202/078365-0138
-[research_payne_jr_1983]: https://doi.org/10.21236/ada137244
 [research_pazhani_salman_2024]: https://doi.org/10.3390/jcs8070260
 [research_pearson_sutton_1966]: https://doi.org/10.2514/3.3585
-[research_pecenko_hozjan_2020]: https://doi.org/10.1515/hf-2020-0081
 [research_pedreironelson_1997]: https://ntrs.nasa.gov/citations/19980201173
 [research_peeblescurtis_2007]: https://ntrs.nasa.gov/citations/20070021686
-[research_peemen_mesman_2015]: https://doi.org/10.7873/date.2015.1033
 [research_peet_2021]: https://doi.org/10.1016/j.actaastro.2020.10.032
 [research_peffleyalf_1991]: https://ntrs.nasa.gov/citations/19930016325
 [research_pei_bo_2017]: https://doi.org/10.1109/icras.2017.8071917
@@ -17851,20 +16235,15 @@ Of the four it is the only one that was ready.
 [research_pelevin_ponomarev_2018]: https://doi.org/10.3103/s1068799818010117
 [research_pelevin_ponomarev_2021]: https://doi.org/10.33950/spacetech-2308-7625-2021-1-65-77
 [research_pempie_froehlich_2001]: https://doi.org/10.2514/6.2001-3542
-[research_pendergast_mollendorf_2008]: https://doi.org/10.21236/ada482231
 [research_peng_hu_2018]: https://doi.org/10.1016/j.asr.2018.06.001
 [research_peng_kaiqi_2025]: https://doi.org/10.23919/ccc64809.2025.11178793
 [research_peng_wang_2026]: https://doi.org/10.1088/1742-6596/3256/1/012063
 [research_peng_zhu_2020]: https://doi.org/10.1016/j.addma.2020.101646
 [research_penidefernandez_sansoz_2019]: https://doi.org/10.1016/j.ijheatmasstransfer.2019.118721
-[research_penn_owens_1991]: https://doi.org/10.2172/7069732
-[research_penn_owens_1991_b]: https://doi.org/10.2172/10184732
 [research_penner_1949]: https://doi.org/10.1063/1.1698405
 [research_penner_datner_1955]: https://doi.org/10.1016/s0082-0784(55)80009-4
 [research_perakis_preis_2021]: https://doi.org/10.2514/1.t6056
 [research_perakis_rahn_2018]: https://doi.org/10.2514/6.2018-4554
-[research_pereira_2019]: https://doi.org/10.20533/icitst.worldcis.wcst.wcicss.2019.0003
-[research_pereira_bennati_2015]: https://doi.org/10.4271/2015-36-0155
 [research_perez_1964]: https://doi.org/10.2514/6.1964-105
 [research_perez_benner_1973]: https://doi.org/10.2514/6.1973-812
 [research_perez_johns_2024]: https://doi.org/10.2514/6.2024-84114
@@ -17906,7 +16285,6 @@ Of the four it is the only one that was ready.
 [research_piatak_sekula_2019_c]: https://doi.org/10.2514/6.2019-3302
 [research_piccirillo_2023]: https://doi.org/10.21741/9781644902677-11
 [research_pickabreta_glennchristopherb_2011]: https://ntrs.nasa.gov/citations/20110002672
-[research_pidgeon_jr_2000]: https://doi.org/10.21236/ada378215
 [research_piecewicz_1942]: https://doi.org/10.2514/8.10344
 [research_piekarz_wincza_2023]: https://doi.org/10.1038/s41598-023-30163-4
 [research_piergallini_stoll_1980]: https://doi.org/10.21236/ada086533
@@ -17916,15 +16294,11 @@ Of the four it is the only one that was ready.
 [research_pike_1991]: https://doi.org/10.21236/ada585473
 [research_pillow_1968]: https://doi.org/10.21236/ad0826221
 [research_pilmaier_bhushan_2022]: https://doi.org/10.13182/t130-39891
-[research_pilmanis_petropoulos_1999]: https://doi.org/10.21236/ada397485
 [research_pimentel_rego_2018]: https://doi.org/10.26678/abcm.encit2018.cit18-0188
 [research_pinalia_prianto_2021]: https://doi.org/10.1063/5.0061303
 [research_pinheiromaia_marinho_2018]: https://doi.org/10.26678/abcm.encit2018.cit18-0388
 [research_pinier_2024]: https://doi.org/10.2514/6.2024-0016
 [research_pioneer_rocket_1947]: https://doi.org/10.2514/8.4155
-[research_pireddu_lombardi_2023]: https://doi.org/10.18280/ijtdi.070204
-[research_pisu_soliman_2001]: https://doi.org/10.1016/s1474-6670(17)34409-9
-[research_pisu_soliman_2003]: https://doi.org/10.1016/s0967-0661(02)00073-4
 [research_pizzarelli_2021]: https://doi.org/10.1016/j.actaastro.2021.03.028
 [research_pizzarelli_2021_b]: https://doi.org/10.1016/j.dib.2021.107173
 [research_pizzarelli_cegan_2024]: https://doi.org/10.1016/j.applthermaleng.2024.123816
@@ -17963,7 +16337,6 @@ Of the four it is the only one that was ready.
 [research_potier_duchaine_2022]: https://doi.org/10.3390/e24020256
 [research_potter_connell_1993]: https://doi.org/10.2514/6.1993-378
 [research_potts_1984]: https://doi.org/10.2514/6.1984-393
-[research_potyagaylo_constantinou_2015]: https://doi.org/10.23919/oceans.2015.7404552
 [research_pouliquen_1978]: https://doi.org/10.2514/6.1978-1036
 [research_pouliquen_1978_b]: https://doi.org/10.2514/6.1978-968
 [research_poulopoulos_syriopoulos_2026]: https://doi.org/10.1364/cleo_at.2026.am2b.2
@@ -17980,7 +16353,6 @@ Of the four it is the only one that was ready.
 [research_powers_bailey_1981]: https://doi.org/10.2514/6.1981-1461
 [research_powers_bailey_1982]: https://doi.org/10.2514/3.62217
 [research_pozzi_mugnuolo_1998]: https://doi.org/10.1016/s0921-8890(97)00060-2
-[research_prabakaran_mohanraj_2026]: https://doi.org/10.1016/j.tsep.2026.104861
 [research_prabhudineshk_2012]: https://ntrs.nasa.gov/citations/20160000299
 [research_prabhudineshk_agrawalparul_2012]: https://ntrs.nasa.gov/citations/20140008307
 [research_prakash_arun_2017]: https://doi.org/10.5098/hmt.8.23
@@ -18001,14 +16373,12 @@ Of the four it is the only one that was ready.
 [research_price_moody_1967]: https://doi.org/10.2514/6.1967-1519
 [research_price_panerai_2022]: https://doi.org/10.1016/j.expthermflusci.2021.110544
 [research_pricehg_1980]: https://ntrs.nasa.gov/citations/19800054822
-[research_prime_1986]: https://doi.org/10.1007/bf02119264
 [research_primer_on_1985]: https://doi.org/10.1016/0261-3069(85)90064-0
 [research_princeandrews_bunkerrobertc_1989]: https://ntrs.nasa.gov/citations/19890059621
 [research_princefranka_hamakerjosephw_2001]: https://ntrs.nasa.gov/citations/20010067489
 [research_princetonunivnj_1952]: https://doi.org/10.21236/ad0036008
 [research_prins_meyer_1992]: https://doi.org/10.2514/6.1992-3553
 [research_prinz_willnat_2024]: https://doi.org/10.5220/0012702400003702
-[research_pritpal_2005]: https://doi.org/10.21236/ada442011
 [research_priyadarshini_gourab_2023]: https://doi.org/10.14429/dsj.73.18334
 [research_probabilistic_assessment_2023]: https://doi.org/10.36652/0869-4931-2023-77-4-167-171
 [research_probabilistic_risk_2023]: https://doi.org/10.18178/wcse.2023.06.056
@@ -18034,7 +16404,6 @@ Of the four it is the only one that was ready.
 [research_pulford_lake_2023]: https://doi.org/10.2514/6.2023-2698
 [research_pulk_stolarik_1977]: https://doi.org/10.2514/6.1977-1065
 [research_pullen_1973]: https://doi.org/10.21236/ad0757152
-[research_pundle_sullivan_2019]: https://doi.org/10.1016/j.biombioe.2019.105402
 [research_purcell_wicklund_2025]: https://doi.org/10.2514/6.2025-0202
 [research_purushotham_l_2018]: https://doi.org/10.31142/ijtsrd19159
 [research_pustovyi_2026]: https://doi.org/10.62717/3083-7057-2026-1-031
@@ -18059,14 +16428,12 @@ Of the four it is the only one that was ready.
 [research_qing_xuelei_2016]: https://doi.org/10.1016/j.engfailanal.2015.11.056
 [research_qiu_shi_2024]: https://doi.org/10.1017/jfm.2024.42
 [research_qiu_simon_1995]: https://doi.org/10.1115/imece1995-1128
-[research_qu_dawande_2024]: https://doi.org/10.1287/opre.2022.0362
 [research_qu_liu_2016]: https://doi.org/10.2514/1.c033686
 [research_qu_liu_2018]: https://doi.org/10.2514/1.c034638
 [research_qu_liu_2024]: https://doi.org/10.1016/j.addma.2024.104449
 [research_qu_wang_2026]: https://doi.org/10.1002/smll.202514907
 [research_qu_xu_2024]: https://doi.org/10.1109/isaes61964.2024.10751514
 [research_qu_zhang_2023]: https://doi.org/10.1109/icma57826.2023.10215607
-[research_quaglia_sorli_2001]: https://doi.org/10.1076/vesd.35.6.443.2040
 [research_quan_ma_2026]: https://doi.org/10.2514/1.t7148
 [research_quentmeyer_1990]: https://doi.org/10.2514/6.1990-2116
 [research_querogranado_hijlkema_2021]: https://doi.org/10.2514/6.2021-3495
@@ -18074,7 +16441,6 @@ Of the four it is the only one that was ready.
 [research_quinn_1966]: https://doi.org/10.2172/4552179
 [research_quinn_pickard_2023]: https://doi.org/10.2514/6.2023-0197
 [research_quinn_pickard_2024]: https://doi.org/10.2514/6.2024-0862
-[research_qurohman_usman_2019]: https://doi.org/10.30591/nozzle.v8i1.2209
 [research_r_jv_2024]: https://doi.org/10.1177/09544100241283422
 [research_r_rose_2024]: https://doi.org/10.4271/2024-26-0461
 [research_racicot_1973]: https://doi.org/10.21236/ad0765481
@@ -18083,7 +16449,6 @@ Of the four it is the only one that was ready.
 [research_radhakrishnan_hari_2023]: https://doi.org/10.1007/s40435-023-01126-4
 [research_radhakrishnan_hari_2024]: https://doi.org/10.1007/s40435-024-01477-6
 [research_radiation_effects_1961]: https://doi.org/10.2172/4708022
-[research_radlinski_sachs_2024]: https://doi.org/10.1061/9780784485798.103
 [research_raei_cho_2022]: https://doi.org/10.23919/ascc56756.2022.9828342
 [research_rafla_2019]: https://doi.org/10.2514/6.2019-3132
 [research_ragab_cheatwood_2015]: https://doi.org/10.2514/6.2015-4490
@@ -18101,8 +16466,6 @@ Of the four it is the only one that was ready.
 [research_rahn_schottle_1996]: https://doi.org/10.2514/3.26743
 [research_rahnamai_searles_2018]: https://doi.org/10.1109/aero.2018.8396419
 [research_rainey_1964]: https://doi.org/10.2514/6.1964-1016
-[research_rajamani_2002]: https://doi.org/10.1076/vesd.38.1.23.3518
-[research_rajamani_shrivastava_2001]: https://doi.org/10.1115/imece2001/dsc-24597
 [research_rajan_heroldwright_2019]: https://doi.org/10.2514/6.2019-1938
 [research_rajendran_smith_2018]: https://doi.org/10.1155/2018/2820717
 [research_raju_suryan_2021]: https://doi.org/10.1080/15567036.2021.1963885
@@ -18111,15 +16474,12 @@ Of the four it is the only one that was ready.
 [research_ram_joshi_2025]: https://doi.org/10.1007/s41872-025-00381-y
 [research_ramadhan_andoko_2024]: https://doi.org/10.1063/5.0223224
 [research_ramamurti_2001]: https://doi.org/10.21236/ada389799
-[research_ramirez_burch_2022]: https://doi.org/10.1109/aero53065.2022.9843489
 [research_ramireznavidad_sancheznogales_2024]: https://doi.org/10.52202/078373-0042
 [research_ramohalli_magiawala_1981]: https://doi.org/10.2514/3.50926
 [research_rampazzo_barato_2023]: https://doi.org/10.3390/fire6030100
 [research_ramsey_ahuja_2023]: https://doi.org/10.2514/6.2023-3933
 [research_ramsthaler_culver_1991]: https://doi.org/10.2514/6.1991-3583
 [research_rana_chudoba_2016]: https://doi.org/10.2514/6.2016-5319
-[research_rana_sivakumarbabu_2023]: https://doi.org/10.1061/9780784484999.008
-[research_ranade_he_2022]: https://doi.org/10.1109/mlcad55463.2022.9900086
 [research_randall_1978]: https://doi.org/10.2172/6558928
 [research_randelovic_schneider_2023]: https://doi.org/10.13182/psa23-41153
 [research_randhawa_1966]: https://doi.org/10.21236/ad0639958
@@ -18131,7 +16491,6 @@ Of the four it is the only one that was ready.
 [research_rao_1987]: https://doi.org/10.1038/325383b0
 [research_rao_chimata_2024]: https://doi.org/10.3934/mina.2024011
 [research_raouf_pourtakdoust_2017]: https://doi.org/10.2514/1.a33550
-[research_rapko_wagner_1997]: https://doi.org/10.2172/563223
 [research_rasky_1995]: https://doi.org/10.4271/951618
 [research_rasky_milos_2001]: https://doi.org/10.2514/2.3686
 [research_raskydanj_milosfranks_2000]: https://ntrs.nasa.gov/citations/20000121328
@@ -18159,7 +16518,6 @@ Of the four it is the only one that was ready.
 [research_recker_gribble_2018]: https://doi.org/10.1109/aipr.2018.8707418
 [research_reddy_sai_2023]: https://doi.org/10.1063/5.0168236
 [research_redondogutierrez_seelbinder_2022]: https://doi.org/10.2514/6.2022-1842
-[research_redtenbacher_kiesling_2024]: https://doi.org/10.1115/icef2024-140722
 [research_redundancy_and_1963]: https://doi.org/10.1016/0026-2714(63)90208-7
 [research_redundancy_reliability_1982]: https://doi.org/10.1016/s0026-2714(82)80602-1
 [research_reed_1977]: https://doi.org/10.2514/6.1977-1397
@@ -18188,26 +16546,20 @@ Of the four it is the only one that was ready.
 [research_reliabilityanalysiscentergriffissafbny_1981]: https://doi.org/10.21236/ada113992
 [research_reliabilityanalysiscentergriffissafbny_1989]: https://doi.org/10.21236/ada220599
 [research_reliable_interconnections_1972]: https://doi.org/10.1016/0026-2714(72)90386-1
-[research_remediation_of_1997]: https://doi.org/10.3133/wri964251
 [research_remiddi_indelicato_2022]: https://doi.org/10.2514/6.2022-2119
 [research_ren_tang_1997]: https://doi.org/10.2514/6.1997-2578
 [research_ren_tang_1998]: https://doi.org/10.2514/6.1998-2684
-[research_ren_wei_2021]: https://doi.org/10.1007/s11242-021-01696-x
 [research_ren_zhang_2021]: https://doi.org/10.1016/j.applthermaleng.2021.116677
-[research_research_on_2018]: https://doi.org/10.25236/icallh.2018.08
 [research_research_on_the_2017]: https://doi.org/10.12677/jast.2017.51001
 [research_resemini_desouzacosta_2018]: https://doi.org/10.26678/abcm.encit2018.cit18-0432
 [research_reske_brodnick_2024]: https://doi.org/10.2514/6.2024-0545
 [research_reusable_reentry_1990]: https://ntrs.nasa.gov/citations/19930006615
 [research_reusable_single_state_to_orbit_1984]: https://doi.org/10.2514/6.1984-1498
-[research_review_on_2017]: https://doi.org/10.21884/ijmter.2017.4386.b2ymz
 [research_rey_2000]: https://doi.org/10.1063/1.1290921
 [research_rezinmarc_okakris_2001]: https://ntrs.nasa.gov/citations/20020012437
 [research_rheaume_lents_2018]: https://doi.org/10.2514/6.2018-4994
 [research_rhee_yi_2025]: https://doi.org/10.1016/j.jer.2025.01.008
 [research_rhisat_molki_2023]: https://doi.org/10.1115/imece2023-112724
-[research_rhoades_srivastava_2018]: https://doi.org/10.1109/secon.2018.8479285
-[research_rhodes_whitehead_2018]: https://doi.org/10.1017/bca.2018.1
 [research_ribeiro_roque_2022]: https://doi.org/10.3390/aerospace9120754
 [research_ricci_battista_2023]: https://doi.org/10.1115/imece2023-111867
 [research_ricci_natale_2016]: https://doi.org/10.18280/ijht.34s230
@@ -18223,7 +16575,6 @@ Of the four it is the only one that was ready.
 [research_richardson_2024]: https://doi.org/10.2514/6.2024-1146
 [research_richardswlance_madaraserici_2013]: https://ntrs.nasa.gov/citations/20140011091
 [research_richman_1967]: https://doi.org/10.2514/6.1967-1341
-[research_richter_konig_2024]: https://doi.org/10.3390/en17112735
 [research_rico_turkoglu_2016]: https://doi.org/10.2514/6.2016-0946
 [research_ridosko_kryspin_2024]: https://doi.org/10.52202/078365-0054
 [research_riehljohn_trefnycharles_2002]: https://ntrs.nasa.gov/citations/20020070918
@@ -18240,7 +16591,6 @@ Of the four it is the only one that was ready.
 [research_ringel_zaepfel_2022]: https://doi.org/10.1016/j.matpr.2022.09.241
 [research_ringuette_dubois_2001]: https://doi.org/10.1002/1521-4087(200106)26:3<118::aid-prep118>3.3.co;2-s
 [research_rintapaavola_sukhomlinov_2023]: https://doi.org/10.1007/s10694-023-01458-9
-[research_riquier_vanhoye_2023]: https://doi.org/10.1016/j.evalprogplan.2023.102349
 [research_risch_2017]: https://doi.org/10.2514/6.2017-3354
 [research_risch_laub_1990]: https://doi.org/10.2514/3.177
 [research_risko_1999]: https://doi.org/10.21236/ada368423
@@ -18274,7 +16624,6 @@ Of the four it is the only one that was ready.
 [research_rodrigues_cavalcante_2024]: https://doi.org/10.1016/j.ress.2024.110397
 [research_rodriguez_kalman_2024]: https://doi.org/10.2514/6.2024-84443
 [research_rodriguezotero_moralesjimenez_2020]: https://doi.org/10.2514/6.2020-4258
-[research_roekens_vangrieken_1989]: https://doi.org/10.1016/0004-6981(89)90119-4
 [research_rogers_noren_2017]: https://doi.org/10.1109/icuas.2017.7991479
 [research_rohan_mantero_2023]: https://doi.org/10.55041/ijsrem27499
 [research_rojasoviedo_deng_2001]: https://doi.org/10.2514/6.2001-824
@@ -18300,7 +16649,6 @@ Of the four it is the only one that was ready.
 [research_rosello_adams_1996]: https://doi.org/10.2514/6.1996-3922
 [research_rosenfeld_davis_1986]: https://doi.org/10.21236/ada170379
 [research_rosic_diekmann_2015]: https://doi.org/10.2514/1.c032856
-[research_rossi_2023]: https://doi.org/10.54941/ahfe1003526
 [research_rossman_braun_2016]: https://doi.org/10.2514/6.2016-1513
 [research_rossman_braun_2017]: https://doi.org/10.2514/6.2017-0898
 [research_rostkowski_meurisse_2022]: https://doi.org/10.1016/j.ast.2022.107522
@@ -18325,25 +16673,18 @@ Of the four it is the only one that was ready.
 [research_rufolo_destefanofumo_2024]: https://doi.org/10.52202/078373-0036
 [research_rui_2016]: https://doi.org/10.3901/jme.2016.07.164
 [research_ruiz_mueller_2021]: https://doi.org/10.1115/imece2021-70373
-[research_runnels_andrew_2017]: https://doi.org/10.3138/cjpe.30975
 [research_rupert_king_2025]: https://doi.org/10.2514/6.2025-98301
 [research_rupp_2014]: https://doi.org/10.21236/ada602592
 [research_rush_bracken_1967]: https://doi.org/10.1287/opre.15.2.185
-[research_russi_delgaudio_2021]: https://doi.org/10.1016/j.stlm.2021.100026
-[research_rusydy_canbulat_2026]: https://doi.org/10.1016/j.ijdrr.2026.106330
 [research_rutter_1984]: https://doi.org/10.1115/84-gt-105
 [research_ryan_cummings_2015]: https://doi.org/10.2514/1.i010293
 [research_ryan_granger_2023]: https://doi.org/10.1016/j.jsse.2023.08.005
 [research_ryan_verderaime_1993]: https://doi.org/10.2514/6.1993-1140
-[research_rymarz_niewczas_2016]: https://doi.org/10.17531/ein.2016.3.8
 [research_ryu_kim_2024]: https://doi.org/10.5139/jksas.2024.52.11.895
 [research_s_2017]: https://doi.org/10.7753/ijsea0602.1008
-[research_s_ilangovan_2024]: https://doi.org/10.1016/j.psep.2024.05.069
 [research_s_m_2026]: https://doi.org/10.56975/ijcrt.v14i5.309560
-[research_s_n_2025]: https://doi.org/10.5220/0014157200004932
 [research_s_s_2025]: https://doi.org/10.52202/080564-0022
 [research_sa_afzal_2017]: https://doi.org/10.1080/01457632.2017.1320170
-[research_saavedra_osma_2025]: https://doi.org/10.1016/j.jclepro.2025.145800
 [research_saban_diez_2024]: https://doi.org/10.52202/078367-0071
 [research_sabanfosch_diezlledo_2025]: https://doi.org/10.1016/j.actaastro.2025.07.004
 [research_sabarilal_kumar_2018]: https://doi.org/10.1088/1742-6596/1107/3/032024
@@ -18357,7 +16698,6 @@ Of the four it is the only one that was ready.
 [research_safiefayssal_stuttsrichard_2015]: https://ntrs.nasa.gov/citations/20150002868
 [research_safiefayssalm_fullerraymondp_2011]: https://ntrs.nasa.gov/citations/20110008830
 [research_sagawa_kawano_2019]: https://doi.org/10.1299/jsmefed.2019.os3-12
-[research_sagbas_gurkan_2021]: https://doi.org/10.46519/ij3dptdi.953315
 [research_sagliano_fari_2025]: https://doi.org/10.2514/6.2025-2597
 [research_sagliano_heidecker_2021]: https://doi.org/10.2514/6.2021-0862
 [research_sagliano_heidecker_2024]: https://doi.org/10.2514/6.2024-1761
@@ -18366,7 +16706,6 @@ Of the four it is the only one that was ready.
 [research_saha_chakraborty_2016]: https://doi.org/10.14429/dsj.66.9058
 [research_saha_de_2020]: https://doi.org/10.1016/j.asr.2020.02.026
 [research_saha_mahamud_2017]: https://doi.org/10.1115/ht2017-4806
-[research_saha_tripathi_2025]: https://doi.org/10.1007/s41872-025-00305-w
 [research_sahadeuri_bhowmick_1988]: https://doi.org/10.1016/0141-3910(88)90062-6
 [research_sahani_mandal_2017]: https://doi.org/10.1109/iccs1.2017.8326017
 [research_saiki_christian_2026]: https://doi.org/10.29322/ijsrp.16.05.2026.p17329
@@ -18378,14 +16717,11 @@ Of the four it is the only one that was ready.
 [research_sakamoto_sato_2023_b]: https://doi.org/10.2514/6.2023-1233.c1
 [research_sakowski_hauser_2019]: https://doi.org/10.2514/6.2019-4281
 [research_sakurai_hayashi_2015]: https://doi.org/10.2514/6.2015-4138
-[research_salah_jemai_2020]: https://doi.org/10.4236/acs.2020.104024
 [research_salahudden_2025]: https://doi.org/10.1109/etaav66793.2025.11213004
-[research_salama_mcgarvey_2022]: https://doi.org/10.1016/j.cor.2022.105776
 [research_salazar_amar_2021]: https://doi.org/10.2514/6.2021-3134
 [research_salazar_droba_2016]: https://doi.org/10.2514/6.2016-3388
 [research_saleh_zahmatkesh_2024]: https://doi.org/10.1016/j.icheatmasstransfer.2024.107753
 [research_salehi_li_1995]: https://doi.org/10.2514/6.1995-3345
-[research_salminen_2015]: https://doi.org/10.2749/222137815815622735
 [research_salt_1995]: https://doi.org/10.1117/12.212734
 [research_salvi_hohn_2026]: https://doi.org/10.2514/1.j065731
 [research_samkhaniani_2016]: https://doi.org/10.1002/htj.21215
@@ -18401,7 +16737,6 @@ Of the four it is the only one that was ready.
 [research_sandri_polanka_2025]: https://doi.org/10.1115/gt2025-152900
 [research_sanford_higgins_2003]: https://doi.org/10.21236/ada451647
 [research_sangwan_banik_2023]: https://doi.org/10.1051/e3sconf/202339101030
-[research_sangwan_choudhary_2017]: https://doi.org/10.1080/19397038.2017.1394398
 [research_sankar_a_2017]: https://doi.org/10.2514/6.2017-4766
 [research_sankararaman_goebel_2020]: https://doi.org/10.36001/ijphm.2015.v6i4.2319
 [research_sanson_villedieu_2017]: https://doi.org/10.1016/j.expthermflusci.2016.11.013
@@ -18411,18 +16746,14 @@ Of the four it is the only one that was ready.
 [research_santos_hosder_2021]: https://doi.org/10.2514/1.a34936
 [research_sanuki_1965]: https://doi.org/10.1299/jsmemag.68.552_99
 [research_saokhede_borse_2025]: https://doi.org/10.55041/ijsrem54959
-[research_sarangi_priyadarsini_2026]: https://doi.org/10.1007/s40964-026-01629-4
 [research_saravani_beyhaghi_2018]: https://doi.org/10.1115/gt2018-76093
 [research_sarbu_iosif_2017]: https://doi.org/10.3390/computation5020025
 [research_sarotte_marzat_2019]: https://doi.org/10.1016/j.ifacol.2019.11.256
 [research_sarrafian_1986]: https://doi.org/10.2514/3.20070
-[research_sarwar_cantero_2022]: https://doi.org/10.2139/ssrn.4206840
-[research_sarwar_cantero_2023]: https://doi.org/10.1016/j.measurement.2022.112216
 [research_sasanapuri_2015]: https://doi.org/10.2514/6.2015-2953
 [research_sasmal_holmes_2023]: https://doi.org/10.13182/nets23-41861
 [research_sather_schuricht_1952]: https://doi.org/10.1115/1.4015861
 [research_sather_schuricht_1952_b]: https://doi.org/10.1115/1.4015864
-[research_sathish_cv_2026]: https://doi.org/10.1109/icima68728.2026.11564205
 [research_satish_venkatasubbaiah_2020]: https://doi.org/10.1080/10407782.2020.1782134
 [research_sato_ishikawa_2018]: https://doi.org/10.1299/jsmefed.2018.os14-9
 [research_sato_nakano_2020]: https://doi.org/10.1016/j.jsse.2020.03.002
@@ -18432,7 +16763,6 @@ Of the four it is the only one that was ready.
 [research_savuran_karakaya_2015]: https://doi.org/10.7763/lnse.2015.v3.204
 [research_sawant_rao_2019]: https://doi.org/10.1016/j.ijheatmasstransfer.2018.12.182
 [research_sawyer_hodge_1999]: https://doi.org/10.1063/1.57501
-[research_saxena_gupta_2022]: https://doi.org/10.1007/s10163-022-01353-5
 [research_saxena_soni_2023]: https://doi.org/10.34049/bcc.55.a.0037
 [research_sayed_aly_2024]: https://doi.org/10.1016/j.aej.2024.05.091
 [research_sayyar_saghafian_2017]: https://doi.org/10.1007/s00231-017-2008-5
@@ -18456,7 +16786,6 @@ Of the four it is the only one that was ready.
 [research_schmierer_kobald_2019]: https://doi.org/10.1016/j.actaastro.2019.02.018
 [research_schmitt_burchett_2004]: https://doi.org/10.2514/6.2004-6254
 [research_schneider_breda_2024]: https://doi.org/10.52202/078373-0016
-[research_schneidereit_tschernich_2018]: https://doi.org/10.1089/3dp.2017.0103
 [research_schoenman_1988]: https://doi.org/10.1557/proc-125-79
 [research_schoenman_1991]: https://doi.org/10.2514/3.23360
 [research_schoenman_doniger_1965]: https://doi.org/10.4271/650571
@@ -18486,7 +16815,6 @@ Of the four it is the only one that was ready.
 [research_sebisty_1959]: https://doi.org/10.4095/324544
 [research_sebring_young_1981]: https://doi.org/10.2514/6.1981-2296
 [research_segaser_1978]: https://doi.org/10.2172/6583491
-[research_segond_lefebvre_2026]: https://doi.org/10.1080/00295639.2026.2639874
 [research_seidel_1965]: https://doi.org/10.21236/ad0613962
 [research_seidel_1974]: https://doi.org/10.2514/6.1974-1183
 [research_seif_kamal_2018]: https://doi.org/10.21608/amme.2018.34734
@@ -18528,11 +16856,8 @@ Of the four it is the only one that was ready.
 [research_shannon_1970]: https://doi.org/10.2514/3.5667
 [research_shao_wu_2017]: https://doi.org/10.1016/j.solmat.2017.08.006
 [research_shao_zhao_2026]: https://doi.org/10.1016/j.ast.2025.110822
-[research_sharankova_seiya_2023]: https://doi.org/10.2172/1983803
 [research_sharma_2019]: https://doi.org/10.4271/2019-26-0077
-[research_sharma_chaudhuri_2024]: https://doi.org/10.1016/j.applthermaleng.2024.124375
 [research_sharma_hosder_2024]: https://doi.org/10.3390/aerospace11020137
-[research_sharma_mittal_2024]: https://doi.org/10.1109/iceca63461.2024.10800764
 [research_sharmila_samad_2026]: https://doi.org/10.1016/j.ast.2025.111074
 [research_sharn_1962]: https://doi.org/10.21236/ad0299280
 [research_shaw_taylor_1997]: https://doi.org/10.1016/s0265-9646(97)00007-6
@@ -18544,17 +16869,14 @@ Of the four it is the only one that was ready.
 [research_sheibani_2020]: https://doi.org/10.4018/ijbsa.2020010103
 [research_shen_lifey_2019]: https://doi.org/10.36652/0869-4931-2019-73-4
 [research_shen_liu_2020]: https://doi.org/10.1016/j.applthermaleng.2019.114513
-[research_shen_su_2025]: https://doi.org/10.1016/j.applthermaleng.2024.124813
 [research_shen_wang_2020]: https://doi.org/10.1016/j.combustflame.2020.01.021
 [research_shen_zhou_2025]: https://doi.org/10.52202/083090-0109
 [research_shen_zhuang_2020]: https://doi.org/10.23919/ccc50068.2020.9188835
-[research_shengjun_junyang_2026]: https://doi.org/10.52202/084777-0157
 [research_shepperd_staugler_1999]: https://doi.org/10.2514/6.1999-4209
 [research_sheremet_2021]: https://doi.org/10.3390/en14175399
 [research_sheremet_2023]: https://doi.org/10.3390/en16041761
 [research_shi_2016]: https://doi.org/10.2514/6.2016-4874
 [research_shi_boyer_2018]: https://doi.org/10.1088/1742-6596/1107/3/032008
-[research_shi_cheng_2002]: https://doi.org/10.1117/12.470725
 [research_shi_chew_2015]: https://doi.org/10.3390/polym7101495
 [research_shi_gao_2022]: https://doi.org/10.1016/j.oceaneng.2022.112880
 [research_shi_li_2024]: https://doi.org/10.1109/fasta61401.2024.10595235
@@ -18563,14 +16885,11 @@ Of the four it is the only one that was ready.
 [research_shi_zha_2021]: https://doi.org/10.1016/j.jeurceramsoc.2021.03.015
 [research_shibato_1995]: https://doi.org/10.2187/bss.9.95
 [research_shih_cheung_1997]: https://doi.org/10.1080/10407789708913906
-[research_shih_tsai_2023]: https://doi.org/10.37256/ujom.2120232365
 [research_shih_zwan_1988]: https://doi.org/10.2514/6.1988-2739
 [research_shilav_gottlieb_2021]: https://doi.org/10.1007/s10973-021-10892-2
 [research_shilwant_mahulikar_2024]: https://doi.org/10.1017/aer.2024.27
 [research_shimizu_goyal_2024]: https://doi.org/10.2514/6.2024-1882
 [research_shimmy_2026]: https://doi.org/10.22214/ijraset.2026.77238
-[research_shin_choi_2020]: https://doi.org/10.3740/mrsk.2020.30.10.550
-[research_shin_kim_2021]: https://doi.org/10.1002/adem.202001537
 [research_shin_roh_2022]: https://doi.org/10.6108/jpne.2022.3.1.051
 [research_shine_nidhi_2018]: https://doi.org/10.1016/j.jppr.2018.01.004
 [research_shinnamjr_1967]: https://ntrs.nasa.gov/citations/19670026445
@@ -18579,7 +16898,6 @@ Of the four it is the only one that was ready.
 [research_shishov_zabolotsky_1990]: https://doi.org/10.1615/ihtc9.3860
 [research_shivakumar_cozart_2002]: https://doi.org/10.1115/fedsm2002-31422
 [research_shivam_s_2023]: https://doi.org/10.1109/codit58514.2023.10284179
-[research_shivaprasad_yang_2026]: https://doi.org/10.1063/5.0348227
 [research_shiversherb_2010]: https://ntrs.nasa.gov/citations/20100036656
 [research_shiwa_higuchi_1990]: https://doi.org/10.6089/jscm.16.61
 [research_shiwa_higuchi_1990_b]: https://doi.org/10.6089/jscm.16.69
@@ -18593,10 +16911,7 @@ Of the four it is the only one that was ready.
 [research_shrestha_candler_2018]: https://doi.org/10.2514/6.2018-1098
 [research_shrestha_nichols_2017]: https://doi.org/10.2514/6.2017-4513
 [research_shtessel_hall_2000]: https://doi.org/10.2514/2.4669
-[research_shu_pi_2025]: https://doi.org/10.3390/su17094146
-[research_shu_wang_2025]: https://doi.org/10.1016/j.jdeveco.2024.103387
 [research_shubov_2023]: https://doi.org/10.3390/aerospace10060514
-[research_shui_yang_2023]: https://doi.org/10.1109/icmtim58873.2023.10246640
 [research_shukla_2025]: https://doi.org/10.52202/080554-0034
 [research_shukla_woolsey_2018]: https://doi.org/10.2514/6.2018-0528
 [research_shulepov_popov_2018]: https://doi.org/10.1063/1.5081610
@@ -18613,16 +16928,13 @@ Of the four it is the only one that was ready.
 [research_sidharth_dwivedi_2026]: https://doi.org/10.2514/6.2026-1149
 [research_sidoruk_popov_2020]: https://doi.org/10.33136/stma2020.01.090
 [research_siebel_2025]: https://doi.org/10.1137/25m1744526
-[research_sieja_1970]: https://doi.org/10.21236/ad0878259
 [research_sierikova_koloskov_2022]: https://doi.org/10.4028/p-888232
 [research_sierra_tizon_2017]: https://doi.org/10.2514/6.2017-5007
-[research_sigeneger_singer_2025]: https://doi.org/10.23967/membranes.2025.017
 [research_signorelli_higgins_2024]: https://doi.org/10.2514/6.2024-3548
 [research_silaidis_maggi_2024]: https://doi.org/10.52202/078367-0061
 [research_silnikov_chernyshov_2017]: https://doi.org/10.1016/j.actaastro.2016.11.025
 [research_silva_arocena_2023]: https://doi.org/10.1364/fio.2023.jm7a.38
 [research_silva_cerqueira_2017]: https://doi.org/10.1109/carpathiancc.2017.7970404
-[research_silva_surra_2022]: https://doi.org/10.1016/j.buildenv.2022.109485
 [research_silvaguimaraes_dandradesouto_2021]: https://doi.org/10.46565/jreas.2021.v06i02.001
 [research_silvaoliveira_luizdasilva_2017]: https://doi.org/10.1109/sipda.2017.8116902
 [research_silver_brooks_2024]: https://doi.org/10.2514/6.2024-0351
@@ -18630,7 +16942,6 @@ Of the four it is the only one that was ready.
 [research_simmswilliamherbertiii_varnavaskosta_2014]: https://ntrs.nasa.gov/citations/20140012879
 [research_simon_chudoba_2021]: https://doi.org/10.2514/6.2021-4121
 [research_simons_1972]: https://doi.org/10.2514/3.6656
-[research_simonsic_1975]: https://doi.org/10.2172/4166539
 [research_simplicio_marcos_2019]: https://doi.org/10.2514/1.g004155
 [research_simpson_2021]: https://doi.org/10.1117/12.2590165
 [research_simpsonjames_2010]: https://ntrs.nasa.gov/citations/20100036666
@@ -18642,7 +16953,6 @@ Of the four it is the only one that was ready.
 [research_sindoni_ciufolini_2016]: https://doi.org/10.1515/arsa-2016-0004
 [research_singelmann_mueller_1948]: https://doi.org/10.21236/ada402594
 [research_singh_pujari_2021]: https://doi.org/10.1002/htj.22205
-[research_singh_singh_2025]: https://doi.org/10.4271/2025-01-8392
 [research_singh_stappert_2022]: https://doi.org/10.1016/j.jsse.2022.09.005
 [research_singh_taibani_2020]: https://doi.org/10.1115/ht2020-9070
 [research_singh_yanamashetti_2024]: https://doi.org/10.1615/jflowvisimageproc.2024049573
@@ -18683,7 +16993,6 @@ Of the four it is the only one that was ready.
 [research_smith_1956]: https://doi.org/10.2514/8.6914
 [research_smith_1969]: https://doi.org/10.2514/6.1969-937
 [research_smith_1983]: https://doi.org/10.2514/6.1983-1547
-[research_smith_2020]: https://doi.org/10.1016/j.evalprogplan.2020.101855
 [research_smith_2021]: https://doi.org/10.1063/pt.3.4888
 [research_smith_bae_2023]: https://doi.org/10.3390/aerospace10030316
 [research_smith_bardaweel_2018]: https://doi.org/10.1115/imece2018-88753
@@ -18730,7 +17039,6 @@ Of the four it is the only one that was ready.
 [research_song_guo_2021]: https://doi.org/10.1088/1755-1315/781/2/022070
 [research_song_ma_2023]: https://doi.org/10.1109/cac59555.2023.10451763
 [research_song_sun_2017]: https://doi.org/10.1016/j.cja.2017.04.007
-[research_song_yao_2021]: https://doi.org/10.1007/s11242-021-01663-6
 [research_song_yuan_2022]: https://doi.org/10.1080/01457632.2022.2127049
 [research_song_zheng_2019]: https://doi.org/10.1109/icras.2019.8808953
 [research_soni_2026]: https://doi.org/10.36948/ijfmr.2026.v08i03.82406
@@ -18739,7 +17047,6 @@ Of the four it is the only one that was ready.
 [research_sorensenkirk_schafercharles_2001]: https://ntrs.nasa.gov/citations/20020023257
 [research_sorgenfrei_kemp_2017]: https://doi.org/10.2514/6.2017-0168
 [research_sorocki_piekarz_2024]: https://doi.org/10.23919/eumc61614.2024.10732087
-[research_sorrell_1997]: https://doi.org/10.21236/ada627926
 [research_sotello_penner_1991]: https://doi.org/10.21236/ada252048
 [research_sotirakos_prazenica_2025]: https://doi.org/10.2514/6.2025-0101
 [research_soto_williams_2024]: https://doi.org/10.2514/6.2024-1144
@@ -18757,8 +17064,6 @@ Of the four it is the only one that was ready.
 [research_sparks_1988]: https://doi.org/10.1016/0094-5765(88)90192-0
 [research_special_section_2017]: https://doi.org/10.1115/1.4037555
 [research_specker_brinkley_1983]: https://doi.org/10.21236/ada360100
-[research_spencer_1906]: https://doi.org/10.4095/223848
-[research_spencer_1907]: https://doi.org/10.4095/108129
 [research_spencer_1997]: https://doi.org/10.21236/ada324105
 [research_spencer_1999]: https://doi.org/10.1063/1.57511
 [research_spencer_beggs_1977]: https://doi.org/10.21236/ada041566
@@ -18779,7 +17084,6 @@ Of the four it is the only one that was ready.
 [research_sreekanth_reddy_1994]: https://doi.org/10.2514/6.1994-2075
 [research_sreekanth_reddy_1995]: https://doi.org/10.2514/3.701
 [research_sreeyesunath_sugathan_1994]: https://doi.org/10.2514/6.1994-3973
-[research_srinikhil_d_2025]: https://doi.org/10.1109/fnwf66845.2025.11317756
 [research_srinivasan_lakshmi_2023]: https://doi.org/10.14429/dsj.73.17690
 [research_srivastav_maithani_2024]: https://doi.org/10.1080/08916152.2024.2391803
 [research_srivastava_jain_2023]: https://doi.org/10.1063/5.0183513
@@ -18794,14 +17098,12 @@ Of the four it is the only one that was ready.
 [research_stahl_arena_1984]: https://doi.org/10.21236/ada151575
 [research_stallingsjr_1982]: https://doi.org/10.2514/6.1982-372
 [research_stamatelos_labeas_2025]: https://doi.org/10.3390/aerospace12080726
-[research_stancu_debski_2022]: https://doi.org/10.32047/cwb.2022.27.4.1
 [research_stand_by_redundancy_1974]: https://doi.org/10.1016/0026-2714(74)90150-4
 [research_standby_redundancy_1987]: https://doi.org/10.1016/0026-2714(87)90374-x
 [research_stange_1959]: https://doi.org/10.21236/ada955359
 [research_staniszewski_2001]: https://doi.org/10.2514/2.3710
 [research_stanleydouglaso_powellrichardw_1990]: https://ntrs.nasa.gov/citations/19900032724
 [research_states_2001]: https://doi.org/10.2514/6.2001-3533
-[research_stavropoulou_2022]: https://doi.org/10.1016/j.cor.2021.105644
 [research_stechmann_heister_2016]: https://doi.org/10.2514/6.2016-1201
 [research_steffens_edwards_2016]: https://doi.org/10.2514/6.2016-0677
 [research_steffens_mavris_2015]: https://doi.org/10.2514/6.2015-4679
@@ -18819,7 +17121,6 @@ Of the four it is the only one that was ready.
 [research_stephenson_2018]: https://doi.org/10.5038/2326-3652.9.1.4895
 [research_stephensonfrankwjr_1988]: https://ntrs.nasa.gov/citations/19900019296
 [research_steppert_epple_2018]: https://doi.org/10.1115/fedsm2018-83379
-[research_stern_alemann_2023]: https://doi.org/10.1016/j.evalprogplan.2022.102207
 [research_sternfeld_1972]: https://doi.org/10.2514/6.1972-1079
 [research_stewart_bull_2011]: https://doi.org/10.21236/ada606209
 [research_stewart_cox_1985]: https://doi.org/10.21236/ada190702
@@ -18829,19 +17130,15 @@ Of the four it is the only one that was ready.
 [research_stewart_papadopoulos_2020]: https://doi.org/10.2514/6.2020-3841
 [research_stickler_keller_1998]: https://doi.org/10.1063/1.54717
 [research_stier_bose_2020]: https://doi.org/10.3390/proceedings2020056021
-[research_stinson_garmenn_1998]: https://doi.org/10.21236/ada401488
 [research_stojanovski_selva_2017]: https://doi.org/10.1109/aero.2017.7943665
 [research_stoker_1964]: https://doi.org/10.2514/6.1964-131
 [research_stokes_chappell_1999]: https://doi.org/10.2514/6.1999-3712
 [research_stolarik_2007]: https://doi.org/10.21236/ada470308
 [research_stoll_1961]: https://doi.org/10.21236/ad0259076
 [research_stoll_munroe_1975]: https://doi.org/10.21236/ada021234
-[research_stoller_1963]: https://doi.org/10.5957/jsr.1963.7.3.39
 [research_stonehill_smith_2023]: https://doi.org/10.13182/nets23-41939
-[research_storr_2015]: https://doi.org/10.21552/edpl/2015/3/13
 [research_storygeorge_2014]: https://ntrs.nasa.gov/citations/20150016480
 [research_storygeorge_2015]: https://ntrs.nasa.gov/citations/20150016546
-[research_stow_akgun_2016]: https://doi.org/10.1145/2966986.2980095
 [research_stower_2024]: https://doi.org/10.52202/078377-0011
 [research_stower_2025]: https://doi.org/10.52202/080559-0018
 [research_strahle_handley_1978]: https://doi.org/10.2514/3.61017
@@ -18857,7 +17154,6 @@ Of the four it is the only one that was ready.
 [research_strganac_2007]: https://doi.org/10.21236/ada475354
 [research_striz_jang_1987]: https://doi.org/10.2514/3.45469
 [research_strobelforrest_kingbelinda_1993]: https://ntrs.nasa.gov/citations/19940012804
-[research_strohbehn_grimm_2026]: https://doi.org/10.1016/j.robot.2026.105513
 [research_strome_1969]: https://doi.org/10.21236/ad0865977
 [research_stroudcw_brinkleykl_1975]: https://ntrs.nasa.gov/citations/19750015809
 [research_stroudcw_howserlm_1987]: https://ntrs.nasa.gov/citations/19870000076
@@ -18871,7 +17167,6 @@ Of the four it is the only one that was ready.
 [research_stubbs_1964]: https://doi.org/10.2172/1545348
 [research_studenov_2017]: https://doi.org/10.17238/issn2409-0239.2017.3.16
 [research_study_of_1996]: https://doi.org/10.1016/s0389-4304(96)80595-9
-[research_study_of_2020]: https://doi.org/10.26731/1813-9108.2020.3(67).146-152
 [research_study_on_1996]: https://doi.org/10.1016/s0389-4304(96)80590-x
 [research_su_2017]: https://doi.org/10.2514/6.2017-2297
 [research_su_dai_2021]: https://doi.org/10.1016/j.ast.2021.107200
@@ -18881,7 +17176,6 @@ Of the four it is the only one that was ready.
 [research_su_shi_2022]: https://doi.org/10.5755/j02.mech.28583
 [research_su_wang_2015]: https://doi.org/10.1016/j.neucom.2015.03.063
 [research_su_wang_2022]: https://doi.org/10.1109/icus55513.2022.9986540
-[research_su_yang_2025]: https://doi.org/10.1109/iws65943.2025.11177781
 [research_su_zha_2022]: https://doi.org/10.3390/aerospace9110701
 [research_subaschandar_2019]: https://doi.org/10.24321/2349.7661.201802
 [research_subject_index_1972]: https://doi.org/10.2514/3.62912
@@ -18896,7 +17190,6 @@ Of the four it is the only one that was ready.
 [research_sullings_waller_1967]: https://doi.org/10.2514/6.1967-757
 [research_sullivan_kobayashi_1987]: https://doi.org/10.2514/6.1987-1516
 [research_sultana_alam_2024]: https://doi.org/10.1088/1757-899x/1305/1/012031
-[research_sumarsono_ibrahim_2018]: https://doi.org/10.1063/1.5023990
 [research_summerfield_1951]: https://doi.org/10.21236/ada952489
 [research_summerfield_1951_b]: https://doi.org/10.2514/8.4374
 [research_sun_2022]: https://doi.org/10.2991/aebmr.k.220307.138
@@ -18905,13 +17198,10 @@ Of the four it is the only one that was ready.
 [research_sun_plumlee_2021]: https://doi.org/10.1137/20m1316287
 [research_sun_qian_2026]: https://doi.org/10.1109/lra.2026.3707345
 [research_sun_qu_2018]: https://doi.org/10.1016/j.compfluid.2018.05.028
-[research_sun_singh_2023]: https://doi.org/10.1115/imece2023-113427
 [research_sun_vankampen_2020]: https://doi.org/10.1109/ccta41146.2020.9206252
-[research_sun_wang_2018]: https://doi.org/10.1016/j.trd.2018.08.005
 [research_sun_yang_2020]: https://doi.org/10.12783/dtcse/cmso2019/33628
 [research_sun_yang_2021]: https://doi.org/10.1016/j.ijheatmasstransfer.2020.120637
 [research_sun_yao_2024]: https://doi.org/10.1016/j.mtcomm.2024.109409
-[research_sun_ye_2022]: https://doi.org/10.1016/j.jobe.2021.103860
 [research_sung_hsieh_2001]: https://doi.org/10.2514/6.2001-3192
 [research_sung_to_2026]: https://doi.org/10.1016/j.addma.2026.105292
 [research_superabrasive_machining_2004]: https://doi.org/10.1108/aeat.2004.12776aab.002
@@ -18920,7 +17210,6 @@ Of the four it is the only one that was ready.
 [research_suresh_panigrahi_2019]: https://doi.org/10.1115/gtindia2019-2480
 [research_suresh_ratnoo_2019]: https://doi.org/10.2514/6.2019-1170
 [research_surkovaad_neusypink_2026]: https://doi.org/10.36652/0869-4931-2026-80-5-237-242
-[research_sutherland_conroy_2026]: https://doi.org/10.1007/s11121-026-01938-8
 [research_sutton_1970]: https://doi.org/10.21236/ad0722473
 [research_suzuki_sawada_2003]: https://doi.org/10.2514/6.2003-4045
 [research_suzuki_sawada_2004]: https://doi.org/10.2514/6.2004-341
@@ -18937,7 +17226,6 @@ Of the four it is the only one that was ready.
 [research_swensen_2024]: https://doi.org/10.52202/078371-0208
 [research_swiss_students_2025]: https://doi.org/10.12968/s1478-2774(25)50079-0
 [research_swoyer_sethi_2026]: https://doi.org/10.2514/6.2026-112918
-[research_syarifudin_2018]: https://doi.org/10.30591/nozzle.v5i2.811
 [research_symons_1987]: https://doi.org/10.1088/0022-3735/20/3/015
 [research_sysconcorpwashingtondc_1983]: https://doi.org/10.21236/ada128523
 [research_szabolcsi_2018]: https://doi.org/10.19062/1842-9238.2018.16.1.5
@@ -18945,16 +17233,13 @@ Of the four it is the only one that was ready.
 [research_szasz_okuyama_2015]: https://doi.org/10.1299/jsmemecj.2015._s1910102a
 [research_szatkowski_1985]: https://doi.org/10.21236/ada158890
 [research_szedula_1996]: https://doi.org/10.2514/6.1996-4051
-[research_szynkarczyk_wrona_2022]: https://doi.org/10.14313/jamris/2-2021/10
 [research_ta_2024]: https://doi.org/10.23880/psbj-16000269
 [research_ta_2025]: https://doi.org/10.52202/083088-0056
-[research_taccini_iori_2023]: https://doi.org/10.1109/wsc60868.2023.10407555
 [research_taghizadeh_nezhadshahbodaghi_2022]: https://doi.org/10.1007/s10291-022-01265-9
 [research_tahmasbi_noori_2021]: https://doi.org/10.1016/j.applthermaleng.2020.116219
 [research_tai_jang_2017]: https://doi.org/10.1080/16864360.2017.1375664
 [research_tajima_1965]: https://doi.org/10.21236/ad0472135
 [research_tak_jung_2018]: https://doi.org/10.33162/jar.2018.03.18.1.1
-[research_takahashi_2019]: https://doi.org/10.3389/fmech.2019.00060
 [research_takahashi_mizobata_1997]: https://doi.org/10.2514/2.3280
 [research_takahashi_schulein_2018]: https://doi.org/10.4050/f-0074-2018-12913
 [research_takaki_kawabata_2022]: https://doi.org/10.1299/jsmesec.2021.30.a21
@@ -18966,7 +17251,6 @@ Of the four it is the only one that was ready.
 [research_tam_jaeklejr_1998]: https://doi.org/10.2514/6.1998-3199
 [research_tam_kawahara_2000]: https://doi.org/10.2514/6.2000-3444
 [research_tam_lay_1996]: https://doi.org/10.2514/6.1996-2748
-[research_tam_siddiqiemon_2026]: https://doi.org/10.1016/j.psep.2026.108617
 [research_tam_taylor_1997]: https://doi.org/10.2514/6.1997-2813
 [research_tamang_2025]: https://doi.org/10.52202/083092-0069
 [research_tamma_yurko_1988]: https://doi.org/10.2514/6.1988-2243
@@ -18980,15 +17264,12 @@ Of the four it is the only one that was ready.
 [research_tang_li_2022]: https://doi.org/10.1016/j.cej.2022.136527
 [research_taniguchi_2000]: https://doi.org/10.1299/jsmemag.103.983_674
 [research_tanner_1997]: https://doi.org/10.17764/jiet.2.40.2.b27vj14240535303
-[research_tao_li_2018]: https://doi.org/10.1016/j.egypro.2018.04.047
-[research_tao_mahendran_2021]: https://doi.org/10.1016/j.firesaf.2021.103352
 [research_tao_sun_2019]: https://doi.org/10.1016/j.ast.2019.07.002
 [research_tao_tian_2023]: https://doi.org/10.1115/ssdm2023-109144
 [research_tarabkhah_khoshandam_2019]: https://doi.org/10.1007/s11242-019-01259-1
 [research_taranto_abdulrahim_2023]: https://doi.org/10.2514/6.2023-71776
 [research_tariq_wasim_2026]: https://doi.org/10.3390/pr14152458
 [research_tartaglione_mazzola_1982]: https://doi.org/10.2514/6.1982-656
-[research_tastan_2017]: https://doi.org/10.1061/9780784480724.036
 [research_tatar_2019]: https://doi.org/10.1007/s13369-019-04211-z
 [research_tatar_2021]: https://doi.org/10.1016/j.ijthermalsci.2020.106642
 [research_tate_1969]: https://doi.org/10.21236/ad0696063
@@ -19014,7 +17295,6 @@ Of the four it is the only one that was ready.
 [research_tembare_salunke_2025]: https://doi.org/10.52202/080554-0005
 [research_tempelman_1972]: https://doi.org/10.2514/6.1972-912
 [research_templeman_parker_1968]: https://doi.org/10.2514/3.43940
-[research_teo_seman_2019]: https://doi.org/10.1063/1.5089339
 [research_teofilatto_depasquale_1998]: https://doi.org/10.1016/s0032-0633(97)00233-x
 [research_teoretical_experimental_comparison_of_2023]: https://doi.org/10.15421/452319
 [research_terashima_iwasaki_2021]: https://doi.org/10.2322/tastj.19.266
@@ -19022,12 +17302,7 @@ Of the four it is the only one that was ready.
 [research_testing_aircraft_2015]: https://doi.org/10.36334/modsim.2015.d5.marlow
 [research_tetik_das_2017]: https://doi.org/10.1109/rast.2017.8002992
 [research_tetlow_schoettle_2000]: https://doi.org/10.2514/6.2000-4180
-[research_tetratechincredmondwa_1995]: https://doi.org/10.21236/ada297638
-[research_tewari_raja_2021]: https://doi.org/10.1016/j.evalprogplan.2021.101931
 [research_tewell_1984]: https://doi.org/10.2514/6.1984-781
-[research_thakare_tajne_2024]: https://doi.org/10.7759/5
-[research_thakre_kaushal_2024]: https://doi.org/10.1061/9780784485798.109
-[research_thanigaiselvan_kalidasan_2026]: https://doi.org/10.1007/s10973-026-15494-4
 [research_thayereb_gambleej_2004]: https://ntrs.nasa.gov/citations/20040191406
 [research_the_air_breathing_1970]: https://doi.org/10.2514/6.1970-269
 [research_the_algorithm_2020]: https://doi.org/10.36652/0869-4931-2020-74-2-78-84
@@ -19037,11 +17312,9 @@ Of the four it is the only one that was ready.
 [research_the_highest_1978]: https://doi.org/10.1016/0026-2714(78)91203-9
 [research_the_new_1945]: https://doi.org/10.2514/8.4028
 [research_the_pressure_2023]: https://doi.org/10.59287/as-proceedings.42
-[research_the_probable_2024]: https://doi.org/10.14573/altex.2310301
 [research_thedy_liao_2023]: https://doi.org/10.1016/j.probengmech.2023.103513
 [research_theisen_schoenherr_2015]: https://doi.org/10.4271/2024-01-3558
 [research_theoretical_analysis_2026]: https://doi.org/10.23977/jemm.2026.110203
-[research_thermal_blanket_2021]: https://doi.org/10.1016/j.repl.2020.12.075
 [research_thermal_conductivity_1988]: https://doi.org/10.1016/0010-4361(88)90265-0
 [research_thermal_conductivity_1988_b]: https://doi.org/10.1016/0010-4361(88)90266-2
 [research_thermal_design_1972]: https://ntrs.nasa.gov/citations/19730012742
@@ -19080,7 +17353,6 @@ Of the four it is the only one that was ready.
 [research_thostenson_aldhahri_2024]: https://doi.org/10.33599/nasampe/s.24.0263
 [research_thrasher_1993]: https://doi.org/10.21236/ada264845
 [research_thuillier_jha_2024]: https://doi.org/10.36001/ijphm.2024.v15i1.3789
-[research_thukral_griffin_2023]: https://doi.org/10.4271/2024-01-4088
 [research_tian_2025]: https://doi.org/10.1109/iceace67491.2025.11439089
 [research_tian_dong_2025]: https://doi.org/10.1016/j.cej.2025.169346
 [research_tian_fan_2015]: https://doi.org/10.1007/s11071-014-1877-0
@@ -19096,7 +17368,6 @@ Of the four it is the only one that was ready.
 [research_tikhy_gusev_2015]: https://doi.org/10.15407/tpwj2015.04.09
 [research_tilles_defelice_1963]: https://doi.org/10.1016/0019-1035(63)90022-8
 [research_timofeev_2020]: https://doi.org/10.34759/trd-2020-113-06
-[research_tinc_sorensen_2021]: https://doi.org/10.13031/jash.14575
 [research_tiniakov_2026]: https://doi.org/10.62717/3083-7057-2026-1-045
 [research_tinney_valdez_2026]: https://doi.org/10.2514/6.2026-4235
 [research_titotto_2024]: https://doi.org/10.3390/proceedings2024107029
@@ -19104,11 +17375,8 @@ Of the four it is the only one that was ready.
 [research_tobbepatrick_matrasalex_2009]: https://ntrs.nasa.gov/citations/20090034247
 [research_tobin_dec_2015]: https://doi.org/10.2514/6.2015-1895
 [research_toda_arita_2000]: https://doi.org/10.1023/a:1010147405867
-[research_toews_leonard_2021]: https://doi.org/10.1542/peds.147.3_meetingabstract.505
 [research_tokarskyi_habrinets_2025]: https://doi.org/10.15421/452541
 [research_tokunaga_imura_2024]: https://doi.org/10.2514/6.2024-1215
-[research_tokuomi_mori_2024]: https://doi.org/10.1115/icone31-135012
-[research_toledo_kaschel_2024]: https://doi.org/10.3390/drones8100592
 [research_tomaro_witzeman_2000]: https://doi.org/10.2514/2.2614
 [research_tomczyk_2003]: https://doi.org/10.1108/00022660310503057
 [research_tommila_hartsfield_2017]: https://doi.org/10.2514/6.2017-0170
@@ -19129,8 +17397,6 @@ Of the four it is the only one that was ready.
 [research_tournes_landrum_1998]: https://doi.org/10.2514/2.4273
 [research_townsend_hamilton_1981]: https://doi.org/10.2514/6.1981-2133
 [research_trajectory_shaping_2025]: https://doi.org/10.37285/bsp.sacad2025.24
-[research_transaction_of_1980]: https://doi.org/10.1080/00423118008968631
-[research_transactions_of_1989]: https://doi.org/10.1080/00423118908968928
 [research_traudt_2024]: https://doi.org/10.52202/078371-0005
 [research_travelletti_ginsbourger_2023]: https://doi.org/10.1137/21m1445028
 [research_trefny_1999]: https://doi.org/10.2514/6.1999-2730
@@ -19141,12 +17407,9 @@ Of the four it is the only one that was ready.
 [research_trimmerll_loveda_1972]: https://ntrs.nasa.gov/citations/19720015248
 [research_trinhhuup_1994]: https://ntrs.nasa.gov/citations/19950002750
 [research_trinhhuuphuoc_1999]: https://ntrs.nasa.gov/citations/20000013281
-[research_tripathi_2025]: https://doi.org/10.1007/s41872-025-00330-9
 [research_tripathi_johari_2025]: https://doi.org/10.1109/etaav66793.2025.11213124
 [research_tripathi_padhi_2016]: https://doi.org/10.1016/j.ifacol.2016.03.022
 [research_tripathi_patel_2019]: https://doi.org/10.1109/indiancc.2019.8715588
-[research_tripathi_saha_2023]: https://doi.org/10.1007/s41872-023-00215-9
-[research_tripathi_saha_2023_b]: https://doi.org/10.1007/s41872-023-00221-x
 [research_triplett_1972]: https://doi.org/10.2514/3.59009
 [research_trollheden_streifinger_1993]: https://doi.org/10.2514/6.1993-5033
 [research_trotsky_baccarella_2024]: https://doi.org/10.2514/6.2024-4020
@@ -19167,7 +17430,6 @@ Of the four it is the only one that was ready.
 [research_tsoukalas_unlu_2026]: https://doi.org/10.1109/icuas69441.2026.11598570
 [research_tsukahara_yamao_2001]: https://doi.org/10.2514/6.2001-1909
 [research_tsukamoto_arai_2022]: https://doi.org/10.1299/jsmemecj.2022.s191p-03
-[research_tsukamoto_shiozaki_2025]: https://doi.org/10.1109/sipda68639.2025.11296693
 [research_tsutsumi_hirabayashi_2019]: https://doi.org/10.36001/phmconf.2019.v11i1.771
 [research_tsutsumi_hirabayashi_2021]: https://doi.org/10.1016/j.actaastro.2020.11.035
 [research_tsuyukiglennt_sunadaerict_2005]: https://ntrs.nasa.gov/citations/20090026396
@@ -19195,8 +17457,6 @@ Of the four it is the only one that was ready.
 [research_ueda_nascimento_2026]: https://doi.org/10.1177/21680256261464600
 [research_ukigai_fujimori_2017]: https://doi.org/10.1299/jsmeyamanashi.2017.151
 [research_ullah_qiu_2024]: https://doi.org/10.1063/5.0202268
-[research_ullah_ullah_2023]: https://doi.org/10.1109/vppc60535.2023.10403345
-[research_ultra_low_light_level_digital_2019]: https://doi.org/10.1117/1.oe.58.1.013106
 [research_umasankari_sreenivasakumar_2017]: https://doi.org/10.2514/1.i010468
 [research_umeoka_mishina_2021]: https://doi.org/10.1016/j.actaastro.2020.08.024
 [research_unalresit_1990]: https://ntrs.nasa.gov/citations/19910004031
@@ -19209,7 +17469,6 @@ Of the four it is the only one that was ready.
 [research_urschel_cox_2003]: https://doi.org/10.2514/6.2003-5544
 [research_using_cell_devs_2017]: https://doi.org/10.22360/springsim.2018.tms.035
 [research_using_test_1991]: https://doi.org/10.1016/0026-2714(91)90422-4
-[research_usman_2017]: https://doi.org/10.30591/nozzle.v3i2.784
 [research_usmonov_kretov_2020]: https://doi.org/10.1109/icmeas51739.2020.00031
 [research_utsumi_1997]: https://doi.org/10.2514/2.3289
 [research_uzkan_1988]: https://doi.org/10.1115/1.3240166
@@ -19238,14 +17497,12 @@ Of the four it is the only one that was ready.
 [research_vargasvenegas_huang_2021]: https://doi.org/10.2514/6.2021-1707
 [research_vargasvenegas_huang_2022]: https://doi.org/10.2514/6.2022-0989
 [research_vargasvenegas_huang_2023]: https://doi.org/10.2514/1.j062214
-[research_vashistha_joshi_2025]: https://doi.org/10.1007/s00477-025-03067-0
 [research_vasilevsky_2022]: https://doi.org/10.31772/2712-8970-2022-23-4-671-687
 [research_vaughntimothyp_1999]: https://ntrs.nasa.gov/citations/19990064648
 [research_veerasamy_balakrishnan_2025]: https://doi.org/10.1115/imece-india2025-161568
 [research_vehicle_performance_1991]: https://doi.org/10.1016/0160-4120(91)90062-u
 [research_vehicle_reliability_2021]: https://doi.org/10.47939/et.v2i7.69
 [research_velasco_alhamablanco_2017]: https://doi.org/10.5220/0006435303890396
-[research_velasco_griffin_2015]: https://doi.org/10.1016/j.evalprogplan.2015.03.002
 [research_velasquez_vanessamejialara_2023]: https://doi.org/10.1109/intercon59652.2023.10326096
 [research_velten_zahringer_2026]: https://doi.org/10.1007/s11242-026-02328-y
 [research_ventrice_fang_1979]: https://doi.org/10.2514/3.61316
@@ -19264,8 +17521,6 @@ Of the four it is the only one that was ready.
 [research_vijayakumaran_lemma_2018]: https://doi.org/10.1063/1.5075558
 [research_vijayan_sureshbabu_2015]: https://doi.org/10.21275/sub156759
 [research_vijaybabu_dhinakaran_2018]: https://doi.org/10.1615/ihmtc-2017.3100
-[research_vijerathne_wahala_2025]: https://doi.org/10.3389/fbuil.2025.1654253
-[research_vijerathne_wahala_2025_b]: https://doi.org/10.3389/fbuil.2025.1720103
 [research_villanueva_2016]: https://doi.org/10.1109/aero.2016.7500724
 [research_villanueva_2018]: https://doi.org/10.1109/aero.2018.8396566
 [research_villanueva_2022]: https://doi.org/10.1109/aero53065.2022.9843685
@@ -19285,10 +17540,8 @@ Of the four it is the only one that was ready.
 [research_vohra_nd_2026]: https://doi.org/10.2514/6.2026-4487
 [research_voisinet_lee_1972]: https://doi.org/10.21236/ad0757330
 [research_volkov_komar_2022]: https://doi.org/10.1007/s10559-023-00521-1
-[research_volokh_halfond_2025]: https://doi.org/10.1109/cog64752.2025.11114393
 [research_vonchorus_kiar_2025]: https://doi.org/10.52202/083095-0008
 [research_voneckartsberg_goldman_2025]: https://doi.org/10.52202/083090-0116
-[research_voronov_krysander_2023]: https://doi.org/10.36001/ijphm.2020.v11i1.2608
 [research_vozar_leonard_2015]: https://doi.org/10.1109/icra.2015.7139811
 [research_vpatil_2025]: https://doi.org/10.56975/ijedr.v13i3.301889
 [research_vredevoogd_thompson_2021]: https://doi.org/10.1061/9780784483374.057
@@ -19327,18 +17580,15 @@ Of the four it is the only one that was ready.
 [research_wang_1993]: https://doi.org/10.1111/j.1747-1567.1993.tb00774.x
 [research_wang_2015]: https://doi.org/10.7463/0115.0755072
 [research_wang_2015_b]: https://doi.org/10.1109/icicse.2015.33
-[research_wang_2024]: https://doi.org/10.54097/6e1zh945
 [research_wang_2025]: https://doi.org/10.1117/12.3084779
 [research_wang_2025_b]: https://doi.org/10.21741/9781644903599-203
 [research_wang_blache_2017]: https://doi.org/10.1115/msec2017-2708
 [research_wang_carl_1999]: https://doi.org/10.2514/6.1999-265
 [research_wang_chen_2020]: https://doi.org/10.3390/sym12091572
 [research_wang_chen_2024]: https://doi.org/10.1063/5.0221690
-[research_wang_chen_2025]: https://doi.org/10.1109/phm-xian66756.2025.11427660
 [research_wang_cheng_2022]: https://doi.org/10.1155/2022/3663567
 [research_wang_chi_2026]: https://doi.org/10.4018/ijswis.405431
 [research_wang_corral_2016]: https://doi.org/10.1115/gt2016-57419
-[research_wang_coulibaly_2023]: https://doi.org/10.48130/dts-2023-0007
 [research_wang_dong_2015]: https://doi.org/10.2514/6.2015-2556
 [research_wang_du_2018]: https://doi.org/10.1109/icd.2018.8514617
 [research_wang_ewing_2001]: https://doi.org/10.2514/6.2001-3441
@@ -19348,11 +17598,9 @@ Of the four it is the only one that was ready.
 [research_wang_han_2021]: https://doi.org/10.1088/1757-899x/1043/4/042024
 [research_wang_hua_2015]: https://doi.org/10.1002/acs.2541
 [research_wang_hua_2016]: https://doi.org/10.1109/chicc.2016.7555060
-[research_wang_huang_2021]: https://doi.org/10.1109/tase.2020.3013288
 [research_wang_huang_2025]: https://doi.org/10.3389/arc.2025.14274
 [research_wang_jiang_2022]: https://doi.org/10.1109/phm-yantai55411.2022.9942162
 [research_wang_josyula_2016]: https://doi.org/10.2514/6.2016-1248
-[research_wang_ku_1993]: https://doi.org/10.1016/0926-5805(93)90005-i
 [research_wang_li_1996]: https://doi.org/10.2514/6.1996-3056
 [research_wang_li_1999]: https://doi.org/10.1016/s0141-3910(98)00106-2
 [research_wang_li_2015]: https://doi.org/10.1109/cyber.2015.7287948
@@ -19361,7 +17609,6 @@ Of the four it is the only one that was ready.
 [research_wang_li_2020]: https://doi.org/10.3390/coatings10090842
 [research_wang_li_2022]: https://doi.org/10.1016/j.egyr.2022.05.019
 [research_wang_li_2025]: https://doi.org/10.1109/icmae66341.2025.11277230
-[research_wang_li_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130025
 [research_wang_lin_2022]: https://doi.org/10.1177/01423312221104424
 [research_wang_liu_1996]: https://doi.org/10.2514/6.1996-3132
 [research_wang_liu_1999]: https://doi.org/10.2514/6.1999-2820
@@ -19370,11 +17617,9 @@ Of the four it is the only one that was ready.
 [research_wang_ma_2021]: https://doi.org/10.2514/1.c035687
 [research_wang_ma_2021_b]: https://doi.org/10.1016/j.applthermaleng.2020.116497
 [research_wang_meng_2017]: https://doi.org/10.1109/icsrs.2017.8272788
-[research_wang_qian_2025]: https://doi.org/10.3390/s25030774
 [research_wang_ren_2024]: https://doi.org/10.1016/j.measurement.2024.114856
 [research_wang_risch_2019]: https://doi.org/10.1016/j.ast.2019.05.039
 [research_wang_shan_2025]: https://doi.org/10.3390/ma18174142
-[research_wang_shi_2018]: https://doi.org/10.1016/j.jngse.2018.05.026
 [research_wang_song_2018]: https://doi.org/10.1109/gncc42960.2018.9019105
 [research_wang_song_2019]: https://doi.org/10.1109/cac48633.2019.8997476
 [research_wang_song_2025]: https://doi.org/10.1016/j.amf.2025.200202
@@ -19383,7 +17628,6 @@ Of the four it is the only one that was ready.
 [research_wang_sun_2018]: https://doi.org/10.1299/jtst.2018jtst0016
 [research_wang_sun_2022]: https://doi.org/10.1109/yac57282.2022.10023560
 [research_wang_tian_2020]: https://doi.org/10.1016/j.cja.2019.11.002
-[research_wang_tian_2025]: https://doi.org/10.1016/j.csite.2025.106505
 [research_wang_van_1992]: https://doi.org/10.2514/6.1992-3151
 [research_wang_wang_2024]: https://doi.org/10.1016/j.csite.2023.103886
 [research_wang_wang_2025]: https://doi.org/10.1080/19942060.2025.2578014
@@ -19402,7 +17646,6 @@ Of the four it is the only one that was ready.
 [research_wang_zhang_2021_b]: https://doi.org/10.1016/j.addma.2021.102341
 [research_wang_zhang_2025]: https://doi.org/10.1016/j.energy.2025.135667
 [research_wang_zhang_2026]: https://doi.org/10.1016/j.ast.2026.111917
-[research_wang_zhang_2026_b]: https://doi.org/10.1177/13694332261447524
 [research_wang_zhao_2018]: https://doi.org/10.1016/j.jmst.2017.11.041
 [research_wang_zheng_2016]: https://doi.org/10.1142/9789813100312_0067
 [research_wang_zhou_2024]: https://doi.org/10.3390/aerospace11070567
@@ -19425,7 +17668,6 @@ Of the four it is the only one that was ready.
 [research_watersericd_beersbenjamin_2013]: https://ntrs.nasa.gov/citations/20140003198
 [research_watersericd_creechdennism_2013]: https://ntrs.nasa.gov/citations/20140003206
 [research_watson_1961]: https://doi.org/10.2514/8.5511
-[research_watson_1996]: https://doi.org/10.2172/332182
 [research_watson_gonzalez_2023]: https://doi.org/10.1109/aero55745.2023.10115901
 [research_watson_owen_2020]: https://doi.org/10.2514/1.c035733
 [research_watts_2016]: https://doi.org/10.2514/6.2016-4591
@@ -19440,7 +17682,6 @@ Of the four it is the only one that was ready.
 [research_wei_1987]: https://doi.org/10.2514/6.1987-1823
 [research_wei_gao_2024]: https://doi.org/10.2514/6.2024-0316
 [research_wei_guan_2025]: https://doi.org/10.52202/083090-0005
-[research_wei_poon_2024]: https://doi.org/10.1016/j.cor.2024.106807
 [research_wei_shao_2021]: https://doi.org/10.1109/cac53003.2021.9727820
 [research_wei_zhang_2022]: https://doi.org/10.1016/j.applthermaleng.2021.118021
 [research_wei_zien_2000]: https://doi.org/10.2514/6.2000-205
@@ -19470,7 +17711,6 @@ Of the four it is the only one that was ready.
 [research_westbrian_robertsonelizabeth_2016]: https://ntrs.nasa.gov/citations/20160012051
 [research_westmoreland_1977]: https://doi.org/10.21236/ada050525
 [research_wheeler_kurtoglu_2021]: https://doi.org/10.36001/ijphm.2010.v1i1.1345
-[research_whelan_wyman_1999]: https://doi.org/10.1115/imece1999-0589
 [research_white_1989]: https://doi.org/10.2514/6.1989-3442
 [research_white_2000]: https://doi.org/10.15760/etd.5678
 [research_white_geubelle_2005]: https://doi.org/10.21236/ada443864
@@ -19496,7 +17736,6 @@ Of the four it is the only one that was ready.
 [research_widargo_anghaie_1999]: https://doi.org/10.1063/1.57549
 [research_widmer_1963]: https://doi.org/10.2514/6.1963-1307
 [research_widmer_shaukat_2023]: https://doi.org/10.1109/wsc60868.2023.10408075
-[research_widodo_rochmadhan_2022]: https://doi.org/10.1016/j.orp.2021.100218
 [research_wierzbanowski_ramasubramanian_2020]: https://doi.org/10.2514/6.2020-4205
 [research_wierzbanowski_ramasubramanian_2020_b]: https://doi.org/10.2514/6.2020-4205.c1
 [research_wigginton_dubois_2015]: https://doi.org/10.4050/f-0071-2015-10128
@@ -19538,11 +17777,9 @@ Of the four it is the only one that was ready.
 [research_wisniewski_malicki_2019]: https://doi.org/10.1108/aeat-06-2018-0166
 [research_witkowski_rothamer_2023]: https://doi.org/10.1016/j.proci.2022.07.088
 [research_wodele_2013]: https://doi.org/10.21236/ada620516
-[research_wodolazski_2020]: https://doi.org/10.1016/j.ijmultiphaseflow.2019.103162
 [research_woeppelerica_balsamojamesm_2014]: https://ntrs.nasa.gov/citations/20140004799
 [research_woestemeyer_1964]: https://doi.org/10.2514/6.1964-645
 [research_wolfe_1966]: https://doi.org/10.21236/ad0486484
-[research_wolff_errichetti_2020]: https://doi.org/10.1016/j.evalprogplan.2020.101858
 [research_wolverton_2018]: https://doi.org/10.1063/1.5020962
 [research_womer_camm_2003]: https://doi.org/10.21236/ada419315
 [research_wong_1968]: https://doi.org/10.2514/6.1968-655
@@ -19563,13 +17800,10 @@ Of the four it is the only one that was ready.
 [research_worlund_1992]: https://doi.org/10.2514/6.1992-1379
 [research_wormhoudt_2003]: https://doi.org/10.21236/ada422571
 [research_wrenng_frameb_2001]: https://ntrs.nasa.gov/citations/20010067316
-[research_wright_2022]: https://doi.org/10.3102/1887957
 [research_wright_liu_2023]: https://doi.org/10.1115/gt2023-104056
 [research_wu_2019]: https://doi.org/10.3901/jme.2019.04.172
 [research_wu_baur_2024]: https://doi.org/10.33599/nasampe/s.24.0244
-[research_wu_bo_2024]: https://doi.org/10.1016/j.cor.2023.106523
 [research_wu_cao_2015]: https://doi.org/10.1016/j.ijmultiphaseflow.2014.11.006
-[research_wu_di_2021]: https://doi.org/10.2118/203967-ms
 [research_wu_li_2026]: https://doi.org/10.1016/j.ast.2025.111507
 [research_wu_liu_2024]: https://doi.org/10.1016/j.jaap.2024.106700
 [research_wu_qian_2024]: https://doi.org/10.1016/j.addma.2024.104378
@@ -19590,7 +17824,6 @@ Of the four it is the only one that was ready.
 [research_wygle_1965]: https://doi.org/10.4271/650848
 [research_wyld_1947]: https://doi.org/10.2514/8.4148
 [research_wynn_mclain_2019]: https://doi.org/10.23919/acc.2019.8814694
-[research_xi_xiong_2017]: https://doi.org/10.1016/j.jeurceramsoc.2017.02.034
 [research_xiang_guo_2025]: https://doi.org/10.1007/s12555-024-0155-2
 [research_xiang_jia_2024]: https://doi.org/10.3390/aerospace11060433
 [research_xiang_sun_2020]: https://doi.org/10.1016/j.applthermaleng.2019.114627
@@ -19600,11 +17833,9 @@ Of the four it is the only one that was ready.
 [research_xiao_amano_2001]: https://doi.org/10.1115/detc2001/cie-21760
 [research_xiao_coble_2023]: https://doi.org/10.36001/ijphm.2023.v14i2.3485
 [research_xiao_he_1991]: https://doi.org/10.2514/6.1991-2306
-[research_xiao_wang_2026]: https://doi.org/10.1016/j.powtec.2026.122532
 [research_xiao_xiao_2019]: https://doi.org/10.1109/aero.2019.8742210
 [research_xiao_zhao_2025]: https://doi.org/10.1115/gt2025-153619
 [research_xie_du_2024]: https://doi.org/10.1615/multscientechn.2024053540
-[research_xie_gurvich_2025]: https://doi.org/10.1287/opre.2022.0429
 [research_xie_jiang_2025]: https://doi.org/10.1016/j.asr.2025.05.077
 [research_xie_li_2021]: https://doi.org/10.1137/20m1345517
 [research_xie_liu_2019]: https://doi.org/10.1115/gt2019-90705
@@ -19612,13 +17843,11 @@ Of the four it is the only one that was ready.
 [research_xie_tong_2023]: https://doi.org/10.1615/ihtc17.80-100
 [research_xie_wang_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131287
 [research_xie_wei_2015]: https://doi.org/10.1109/icphm.2015.7245024
-[research_xie_zeng_2017]: https://doi.org/10.4271/2017-01-0395
 [research_xie_zhang_2025]: https://doi.org/10.3390/aerospace12060525
 [research_xing_bao_2026]: https://doi.org/10.1016/j.ceramint.2026.06.389
 [research_xing_li_2024]: https://doi.org/10.3390/aerospace11040256
 [research_xingjun_2023]: https://doi.org/10.1109/isas59543.2023.10164445
 [research_xinguo_ting_2024]: https://doi.org/10.1109/ccdc62350.2024.10587450
-[research_xinwei_2004]: https://doi.org/10.1093/rpd/nch396
 [research_xiong_guo_2021]: https://doi.org/10.1016/j.ast.2021.106927
 [research_xiong_liu_2025]: https://doi.org/10.1016/j.conengprac.2024.106200
 [research_xiong_tang_2022]: https://doi.org/10.1016/j.addma.2022.103139
@@ -19627,7 +17856,6 @@ Of the four it is the only one that was ready.
 [research_xu_chen_2023]: https://doi.org/10.3390/aerospace10050473
 [research_xu_fang_2024]: https://doi.org/10.1016/j.ijheatmasstransfer.2023.125044
 [research_xu_fang_2025]: https://doi.org/10.3390/aerospace12070567
-[research_xu_fernandez_2022]: https://doi.org/10.1109/phm-yantai55411.2022.9941974
 [research_xu_guan_2023]: https://doi.org/10.1016/j.actaastro.2022.12.044
 [research_xu_guo_2025]: https://doi.org/10.3390/act14110565
 [research_xu_jangi_2025]: https://doi.org/10.1016/j.icheatmasstransfer.2025.109111
@@ -19644,21 +17872,17 @@ Of the four it is the only one that was ready.
 [research_xu_yang_2020]: https://doi.org/10.1038/s41598-020-58173-6
 [research_xu_ye_2026]: https://doi.org/10.1063/5.0316185
 [research_xu_yi_2022]: https://doi.org/10.1063/5.0094755
-[research_xu_zhai_2018]: https://doi.org/10.1080/00423114.2018.1424916
 [research_xu_zhang_2018]: https://doi.org/10.1016/j.ast.2018.01.032
 [research_xu_zhang_2023]: https://doi.org/10.1177/09540083231209487
-[research_xue_2023]: https://doi.org/10.1016/j.susoc.2023.02.002
 [research_xue_jackson_2018]: https://doi.org/10.2514/6.2018-0362
 [research_xue_wang_2017]: https://doi.org/10.1109/phm.2017.8079307
 [research_xue_wang_2024]: https://doi.org/10.3390/aerospace11090774
-[research_xue_zhu_2022]: https://doi.org/10.1109/ichce57331.2022.10042557
 [research_xuefei_shanshan_2023]: https://doi.org/10.1109/ieeeconf59639.2023.10367360
 [research_yadav_tirumali_2020]: https://doi.org/10.1016/j.dt.2019.04.008
 [research_yaddalasomasekhar_2024]: https://doi.org/10.61359/11.2106-2437
 [research_yaghi_ayvarsoberanis_2019]: https://doi.org/10.1016/j.addma.2019.03.010
 [research_yagodnikov_voronetskii_1995]: https://doi.org/10.1007/bf00789365
 [research_yahiaoui_olivier_2015]: https://doi.org/10.2514/1.j053790
-[research_yahya_mahmoud_2025]: https://doi.org/10.1016/j.tsep.2025.104097
 [research_yakubayev_gschwend_2026]: https://doi.org/10.2514/6.2026-1095
 [research_yamada_serizawa_1997]: https://doi.org/10.2514/6.1997-3259
 [research_yamanishi_kimura_2004]: https://doi.org/10.2514/6.2004-3850
@@ -19687,13 +17911,11 @@ Of the four it is the only one that was ready.
 [research_yang_brodnick_2025]: https://doi.org/10.2514/6.2025-0130
 [research_yang_chang_2003]: https://doi.org/10.1177/1475921703002002003
 [research_yang_chang_2003_b]: https://doi.org/10.1117/12.508340
-[research_yang_chong_2018]: https://doi.org/10.5220/0006972104270433
 [research_yang_gan_2024]: https://doi.org/10.3390/aerospace11070555
 [research_yang_gao_2024]: https://doi.org/10.2514/1.j064399
 [research_yang_gao_2026]: https://doi.org/10.1017/jfm.2025.11062
 [research_yang_hui_2023]: https://doi.org/10.1109/vtc2023-fall60731.2023.10333352
 [research_yang_ji_2022]: https://doi.org/10.1088/1742-6596/2235/1/012015
-[research_yang_li_2017]: https://doi.org/10.1109/icmcce.2017.11
 [research_yang_li_2025]: https://doi.org/10.1063/5.0258378
 [research_yang_liu_2022]: https://doi.org/10.1088/1742-6596/2313/1/012021
 [research_yang_miner_1990]: https://doi.org/10.2514/6.1990-2327
@@ -19702,11 +17924,8 @@ Of the four it is the only one that was ready.
 [research_yang_shi_2015]: https://doi.org/10.1016/j.ijhydene.2015.01.033
 [research_yang_tang_2015]: https://doi.org/10.2514/6.2015-2655
 [research_yang_tang_2024]: https://doi.org/10.3390/aerospace11070577
-[research_yang_utne_2020]: https://doi.org/10.3850/978-981-14-8593-0_4118-cd
-[research_yang_venton_2017]: https://doi.org/10.1109/memea.2017.7985857
 [research_yang_wang_2020]: https://doi.org/10.1063/5.0011300
 [research_yang_wang_2023]: https://doi.org/10.1007/s12217-023-10045-0
-[research_yang_wang_2024]: https://doi.org/10.1016/j.csite.2024.104672
 [research_yang_wu_2016]: https://doi.org/10.1109/aus.2016.7748068
 [research_yang_yao_2024]: https://doi.org/10.1016/j.firesaf.2023.104080
 [research_yang_yu_2002]: https://doi.org/10.1021/es025672z
@@ -19717,23 +17936,19 @@ Of the four it is the only one that was ready.
 [research_yangliu_wanchunchen_2016]: https://doi.org/10.1109/imcec.2016.7867346
 [research_yao_ma_2018]: https://doi.org/10.1016/j.energy.2018.08.009
 [research_yao_moon_2016]: https://doi.org/10.1115/1.4032504
-[research_yao_pecht_2018]: https://doi.org/10.1109/phm-chongqing.2018.00068
 [research_yao_qi_2022]: https://doi.org/10.3390/aerospace10010032
 [research_yao_sun_2023]: https://doi.org/10.1016/j.ast.2023.108308
 [research_yao_xin_2023]: https://doi.org/10.2514/1.g006899
 [research_yaqun_ping_2020]: https://doi.org/10.1016/j.ress.2020.107080
-[research_yarahmadi_asadi_2025]: https://doi.org/10.1038/s41598-025-16739-2
 [research_yarimbatman_cengiz_2024]: https://doi.org/10.52202/078365-0053
 [research_yatsuyanagi_gomi_1985]: https://doi.org/10.2514/6.1985-1387
 [research_yaum_reinhartl_2002]: https://ntrs.nasa.gov/citations/20060030829
 [research_yavuz_1997]: https://doi.org/10.2514/2.2225
 [research_ychoo_cadams_2020]: https://doi.org/10.36001/ijphm.2016.v7i3.2412
-[research_ye_hong_2018]: https://doi.org/10.1016/j.jclepro.2018.04.112
 [research_ye_li_2021]: https://doi.org/10.23919/ccc52363.2021.9549314
 [research_ye_luo_2025]: https://doi.org/10.1115/gt2025-152582
 [research_ye_luo_2025_b]: https://doi.org/10.1115/gt2025-152577
 [research_ye_schrijer_2017]: https://doi.org/10.2514/6.2017-4512
-[research_ye_yimin_2023]: https://doi.org/10.1177/14680874231210076
 [research_yedhuukrishnan_saidalavip_2015]: https://doi.org/10.17577/ijertv4is080369
 [research_yee_parkinson_2023]: https://doi.org/10.33599/nasampe/s.23.0039
 [research_yelinzhang_yangzhuwang_2016]: https://doi.org/10.1109/cgncc.2016.7828920
@@ -19747,17 +17962,14 @@ Of the four it is the only one that was ready.
 [research_yi_liu_2025]: https://doi.org/10.3390/aerospace13010045
 [research_yi_wang_2019]: https://doi.org/10.1115/imece2019-11193
 [research_yi_werrel_2023]: https://doi.org/10.1016/j.procir.2023.08.005
-[research_yin_cheng_2024]: https://doi.org/10.1016/j.tust.2024.105915
 [research_yin_jiang_2023]: https://doi.org/10.3390/app132413302
 [research_yin_li_2015]: https://doi.org/10.4028/www.scientific.net/amm.799-800.651
 [research_yin_nie_2017]: https://doi.org/10.2514/6.2017-3829
 [research_yin_peng_2021]: https://doi.org/10.1166/jno.2021.2996
 [research_yin_zhu_2018]: https://doi.org/10.1109/dasc.2018.8569345
 [research_yinda_1986]: https://doi.org/10.2514/6.1986-1237
-[research_ying_xun_2026]: https://doi.org/10.1016/j.dte.2025.100086
 [research_yingxiong_2015]: https://doi.org/10.1109/dasc.2015.7311632
 [research_yoda_ito_2015]: https://doi.org/10.1109/cec.2015.7256948
-[research_yogo_1994]: https://doi.org/10.1016/0389-4304(94)90047-7
 [research_yoko_arai_2019]: https://doi.org/10.1299/jsmemp.2019.27.411
 [research_yoko_kubota_2018]: https://doi.org/10.1299/jsmemp.2018.26.708
 [research_yokohata_motegi_2025]: https://doi.org/10.1109/ut61067.2025.10947280
@@ -19765,15 +17977,11 @@ Of the four it is the only one that was ready.
 [research_yoon_flachs_2023]: https://doi.org/10.1115/gt2023-104171
 [research_yoon_oh_2023]: https://doi.org/10.1109/wsc60868.2023.10407756
 [research_yoon_yi_2024]: https://doi.org/10.2514/6.2024-1210
-[research_yoshida_morita_2018]: https://doi.org/10.3130/aijt.24.7
 [research_yoshihara_1963]: https://doi.org/10.1017/s0022112063000057
-[research_yoshikawa_litvan_1984]: https://doi.org/10.1007/bf02478707
-[research_you_lau_2018]: https://doi.org/10.2118/192014-ms
 [research_you_park_2021]: https://doi.org/10.1016/j.addma.2021.101947
 [research_young_1992]: https://doi.org/10.2514/6.1992-1054
 [research_youngmw_1970]: https://ntrs.nasa.gov/citations/19710002436
 [research_youngquist_1947]: https://doi.org/10.2514/8.4187
-[research_yu_2015]: https://doi.org/10.2118/178747-stu
 [research_yu_2017]: https://doi.org/10.1016/j.ast.2017.05.030
 [research_yu_2024]: https://doi.org/10.54254/2755-2721/85/20240694
 [research_yu_campbell_2026]: https://doi.org/10.2514/6.2026-114489
@@ -19784,12 +17992,9 @@ Of the four it is the only one that was ready.
 [research_yu_lin_2025]: https://doi.org/10.1109/comea66280.2025.11241613
 [research_yu_tao_2021]: https://doi.org/10.1109/iscipt53667.2021.00173
 [research_yu_wang_2025]: https://doi.org/10.1007/s12567-025-00672-1
-[research_yu_wu_2019]: https://doi.org/10.15530/urtec-2019-552
 [research_yu_xu_2002]: https://doi.org/10.1021/es015540q
 [research_yu_xu_2019]: https://doi.org/10.1016/j.ast.2019.05.054
 [research_yu_yuan_2016]: https://doi.org/10.1016/j.taml.2016.02.003
-[research_yuan_dai_2024]: https://doi.org/10.1115/ht2024-121105
-[research_yuan_gholizadehdoonechaly_2015]: https://doi.org/10.1007/s11242-015-0589-3
 [research_yuan_lu_2024]: https://doi.org/10.34133/research.0394
 [research_yuan_zhao_2025]: https://doi.org/10.1109/iscait64916.2025.11010775
 [research_yue_2024]: https://doi.org/10.1139/dsa-2024-0005
@@ -19798,8 +18003,6 @@ Of the four it is the only one that was ready.
 [research_yue_nie_2018]: https://doi.org/10.1061/(asce)as.1943-5525.0000825
 [research_yue_titurus_2019]: https://doi.org/10.1016/j.ymssp.2018.11.034
 [research_yue_titurus_2022]: https://doi.org/10.1007/s11071-022-07944-z
-[research_yuen_devahldavis_1998]: https://doi.org/10.1115/imece1998-0617
-[research_yumori_1991]: https://doi.org/10.21236/ada240418
 [research_yun_jo_2023]: https://doi.org/10.6108/kspe.2023.27.2.045
 [research_yungster_debonis_1997]: https://doi.org/10.2514/6.1997-28
 [research_yungster_trefny_1999]: https://doi.org/10.2514/6.1999-2393
@@ -19808,7 +18011,6 @@ Of the four it is the only one that was ready.
 [research_yuwei_linyu_2021]: https://doi.org/10.1109/caibda53561.2021.00040
 [research_yuwei_wu_2024]: https://doi.org/10.52202/078371-0177
 [research_zahid_2016]: https://doi.org/10.2514/6.2016-2343
-[research_zahra_khan_2019]: https://doi.org/10.1115/ajkfluids2019-5425
 [research_zaidi_vanzyl_2017]: https://doi.org/10.1109/afrcon.2017.8095518
 [research_zaitsev_protasova_2020]: https://doi.org/10.1007/s11223-021-00239-5
 [research_zakrajsekjune_2000]: https://ntrs.nasa.gov/citations/20010071151
@@ -19821,14 +18023,11 @@ Of the four it is the only one that was ready.
 [research_zeh_young_1989]: https://doi.org/10.2514/6.1989-3282
 [research_zeiler_mcghee_1999]: https://doi.org/10.2514/2.3434
 [research_zemoura_farago_2025]: https://doi.org/10.2514/6.2025-0979
-[research_zeng_chen_2020]: https://doi.org/10.2514/6.2020-2296
 [research_zeng_li_2026]: https://doi.org/10.1063/5.0340634
 [research_zeng_shao_2021]: https://doi.org/10.23919/ccc52363.2021.9550493
 [research_zha_xu_2024]: https://doi.org/10.3390/app14093556
-[research_zhang_1993]: https://doi.org/10.1109/vnis.1993.585681
 [research_zhang_1995]: https://doi.org/10.1016/0389-4304(95)95044-u
 [research_zhang_2000]: https://doi.org/10.21236/ada390748
-[research_zhang_2016]: https://doi.org/10.2991/icadce-16.2016.202
 [research_zhang_2018]: https://doi.org/10.1016/j.applthermaleng.2018.06.084
 [research_zhang_2023]: https://doi.org/10.1117/12.2691594
 [research_zhang_2023_b]: https://doi.org/10.1117/12.2692081
@@ -19837,10 +18036,6 @@ Of the four it is the only one that was ready.
 [research_zhang_bi_2018]: https://doi.org/10.5162/ettc2018/2.4
 [research_zhang_cao_2021]: https://doi.org/10.2514/1.c035945
 [research_zhang_chen_2023]: https://doi.org/10.1063/5.0137819
-[research_zhang_cheng_2015]: https://doi.org/10.2991/ic3me-15.2015.42
-[research_zhang_cheung_2025]: https://doi.org/10.1287/moor.2023.0250
-[research_zhang_du_2021]: https://doi.org/10.1109/phm-nanjing52125.2021.9613068
-[research_zhang_gao_2021]: https://doi.org/10.1504/ijvd.2021.122690
 [research_zhang_guo_2019]: https://doi.org/10.1016/j.actaastro.2019.01.046
 [research_zhang_hu_2026]: https://doi.org/10.2514/1.j066725
 [research_zhang_jing_2021]: https://doi.org/10.1108/aeat-11-2020-0253
@@ -19856,7 +18051,6 @@ Of the four it is the only one that was ready.
 [research_zhang_li_2024_d]: https://doi.org/10.1016/j.applthermaleng.2024.123800
 [research_zhang_liang_2026]: https://doi.org/10.3390/aerospace13030248
 [research_zhang_lin_2019]: https://doi.org/10.1137/18m1224544
-[research_zhang_liu_2015]: https://doi.org/10.1080/10807039.2015.1057103
 [research_zhang_liu_2022]: https://doi.org/10.3390/act11120366
 [research_zhang_ma_2020]: https://doi.org/10.1115/icone2020-16889
 [research_zhang_ma_2024]: https://doi.org/10.1007/s42423-024-00167-x
@@ -19886,12 +18080,9 @@ Of the four it is the only one that was ready.
 [research_zhang_yu_2017]: https://doi.org/10.23919/chicc.2017.8029145
 [research_zhang_yu_2024]: https://doi.org/10.1016/j.renene.2024.120541
 [research_zhang_zhang_2020]: https://doi.org/10.1016/j.actaastro.2019.11.012
-[research_zhang_zhang_2021]: https://doi.org/10.1287/opre.2020.2043
 [research_zhang_zhang_2022]: https://doi.org/10.1016/j.isatra.2021.04.031
 [research_zhang_zhao_2025]: https://doi.org/10.1016/j.ast.2025.110476
 [research_zhang_zong_2017]: https://doi.org/10.23919/chicc.2017.8027798
-[research_zhao_2024]: https://doi.org/10.1109/rams51492.2024.10457747
-[research_zhao_amagasaki_2017]: https://doi.org/10.2197/ipsjtsldm.10.63
 [research_zhao_bao_2023]: https://doi.org/10.1016/j.ast.2023.108314
 [research_zhao_hao_2025]: https://doi.org/10.3390/aerospace12100891
 [research_zhao_he_2021]: https://doi.org/10.1016/j.actaastro.2021.02.036
@@ -19901,10 +18092,8 @@ Of the four it is the only one that was ready.
 [research_zhao_li_2025_b]: https://doi.org/10.1504/ijrs.2025.10075458
 [research_zhao_li_2026]: https://doi.org/10.1504/ijrs.2026.155220
 [research_zhao_liu_2019]: https://doi.org/10.1063/1.5125116
-[research_zhao_meng_2025]: https://doi.org/10.1080/17480272.2025.2604624
 [research_zhao_shao_2022]: https://doi.org/10.3390/aerospace9120742
 [research_zhao_wang_2020]: https://doi.org/10.1109/cac51589.2020.9327172
-[research_zhao_weymouth_1991]: https://doi.org/10.23919/acc.1991.4791865
 [research_zhao_xu_2024]: https://doi.org/10.3390/en17194781
 [research_zhao_yan_2023]: https://doi.org/10.3390/drones7030219
 [research_zhao_yu_2021]: https://doi.org/10.1109/icmeas54189.2021.00051
@@ -19913,13 +18102,11 @@ Of the four it is the only one that was ready.
 [research_zhao_zhang_2025]: https://doi.org/10.52202/083075-0008
 [research_zhao_zhou_2026]: https://doi.org/10.2514/1.a36602
 [research_zhen_dong_2024]: https://doi.org/10.1016/j.ast.2024.109076
-[research_zheng_2019]: https://doi.org/10.5220/0008870401020107
 [research_zheng_2024]: https://doi.org/10.1007/s12046-024-02463-6
 [research_zheng_fu_2020]: https://doi.org/10.1016/j.ast.2020.106285
 [research_zheng_hongxing_2021]: https://doi.org/10.1109/access.2021.3074710
 [research_zheng_huang_2025]: https://doi.org/10.1016/j.actaastro.2025.07.010
 [research_zheng_huang_2025_b]: https://doi.org/10.1016/j.tsep.2025.104408
-[research_zheng_li_2017]: https://doi.org/10.1080/08927022.2017.1356456
 [research_zheng_moni_2025]: https://doi.org/10.3390/aerospace12030258
 [research_zheng_shao_2023]: https://doi.org/10.23967/latam.2023.054
 [research_zheng_shao_2024]: https://doi.org/10.23967/latam.2024.054

@@ -492,13 +492,13 @@ The nonequilibrium chemistry the X-17 surrendered is now the central computation
 
 ### Ablation Became a Predictive Model Rather Than a Screening Result
 
-The X-17 could tell a designer that a material survived. Modern practice demands a model that says why and predicts the recession, as in [Wang et al 2019][research_wang_2019]. Charring ablator response, pyrolysis, surface chemistry, and recession prediction are now coupled models validated against arc-jet and flight data, in [Bernstein et al 2025][research_austin_2025], [Cai and Gao 2025][research_cai_gao_2025], [Cheng et al 2025][research_cheng_2025], [Duncheskie and Isaacson 2025][research_duncheskie_isaacson_2025], [Li et al 2025, Ablation resistance evaluation of][research_li_2025_3], [Le Maout et al 2025][research_maout_2025], [Song and Kim 2025][research_song_kim_2025], [Tomasian and Jennings 2025][research_tomasian_jennings_2025], [Wang et al 2025, Arc Jet Testing and Modeling Study][research_wang_2025_3], [Cabrera and West 2026][research_cabrera_west_2026], [Girish and Manu 2026][research_girish_manu_2026], [Guan et al 2026][research_guan_2026], [Li et al 2026][research_li_2026], [Tański et al 2026][research_tanski_2026], [Wang et al 2026][research_wang_2026], [Xu et al 2026][research_xu_2026].
+The X-17 could tell a designer that a material survived. Modern practice demands a model that says why and predicts the recession, as in [Wang et al 2019][research_wang_2019]. Charring ablator response, pyrolysis, surface chemistry, and recession prediction are now coupled models validated against arc-jet and flight data, in [Bernstein et al 2025][research_austin_2025], [Cheng et al 2025][research_cheng_2025], [Li et al 2025, Ablation resistance evaluation of][research_li_2025_3], [Le Maout et al 2025][research_maout_2025], [Wang et al 2025, Arc Jet Testing and Modeling Study][research_wang_2025_3], [Cabrera and West 2026][research_cabrera_west_2026], [Girish and Manu 2026][research_girish_manu_2026], [Guan et al 2026][research_guan_2026], [Li et al 2026][research_li_2026], [Tański et al 2026][research_tanski_2026], [Wang et al 2026][research_wang_2026], [Xu et al 2026][research_xu_2026].
 
 **That is a change in kind rather than degree**, and it is what allows a heat shield to be designed rather than selected. The X-17 could report that a material survived. **A modern model reports how much of it is left and why**, which is the difference between a screening result and an engineering prediction.
 
 ### Radiation Became Its Own Modelling Problem
 
-The article computes that the X-17 saw about one part in 111 of an intercontinental re-entry's radiative heating, and that lunar return is a further factor of forty-seven above that. Radiation is now modelled spectrally and coupled to the flow, in [Albqmi and Sivanandam 2024][research_albqmi_sivanandam_2024], [Bazhinov and Kravtsov 2025][research_bazhinov_kravtsov_2025], [Gai and Cao 2025][research_gai_cao_2025], [Johnston and Mazaheri 2025][research_johnston_mazaheri_2025], [Maloney et al 2025][research_maloney_2025], [Wang 2025, Anvil-radiation diurnal interactio][research_wang_2025_2], [Zarubina 2025][research_zarubina_2025], [Zhang et al 2025, Nitrogen molecular radiation in hy][research_zhang_2025_2], [Zhu et al 2025][research_zhu_2025], [Gai and Cao 2026][research_gai_cao_2026], [Tabuchi and Fujino 2026][research_tabuchi_fujino_2026], [Zjavka 2026][research_zjavka_2026].
+The article computes that the X-17 saw about one part in 111 of an intercontinental re-entry's radiative heating, and that lunar return is a further factor of forty-seven above that. Radiation is now modelled spectrally and coupled to the flow, in [Bazhinov and Kravtsov 2025][research_bazhinov_kravtsov_2025], [Gai and Cao 2025][research_gai_cao_2025], [Johnston and Mazaheri 2025][research_johnston_mazaheri_2025], [Maloney et al 2025][research_maloney_2025], [Zhang et al 2025, Nitrogen molecular radiation in hy][research_zhang_2025_2], [Zhu et al 2025][research_zhu_2025], [Gai and Cao 2026][research_gai_cao_2026], [Tabuchi and Fujino 2026][research_tabuchi_fujino_2026].
 
 **That work exists because the X-17's regime is the last one in which radiation could safely be ignored.** Everything faster has to account for it, which is why the subject grew immediately after the period this article covers rather than during it.
 
@@ -510,7 +510,7 @@ The X-17 screened ablators because at 1,398 watts per square centimetre nothing 
 
 ### Free Flight Is Still the Ground Truth
 
-Rough-wall turbulent heat transfer measured in hypersonic free flight, in [Wilder and Prabhu 2019][research_wilder_prabhu_2019], is the direct descendant of the X-17's technique at small scale. Flight experiments, entry probe reconstructions, sounding rocket payloads and sample return capsules continue to supply the data that no facility can, across [Dutta and Karlgaard 2024][research_dutta_karlgaard_2024], [An et al 2025][research_an_2025], [Bishop et al 2025][research_bishop_2025], [KC et al 2025][research_kc_2025], [Murphy and Browne 2025][research_murphy_browne_2025], [Ozaki et al 2025][research_ozaki_2025], [Silber et al 2025][research_silber_2025], [Silber and Bowman 2025][research_silber_bowman_2025], [Nagata et al 2026][research_nagata_2026], [Nishikawa et al 2026][research_nishikawa_2026], [Saito et al 2026][research_saito_2026], [Silber 2026][research_silber_2026], [Silber and Scamfer 2026][research_silber_scamfer_2026], [Takahashi et al 2026][research_takahashi_2026].
+Rough-wall turbulent heat transfer measured in hypersonic free flight, in [Wilder and Prabhu 2019][research_wilder_prabhu_2019], is the direct descendant of the X-17's technique at small scale. Flight experiments, entry probe reconstructions, sounding rocket payloads and sample return capsules continue to supply the data that no facility can, across [Dutta and Karlgaard 2024][research_dutta_karlgaard_2024], [An et al 2025][research_an_2025], [Bishop et al 2025][research_bishop_2025], [KC et al 2025][research_kc_2025], [Ozaki et al 2025][research_ozaki_2025], [Silber et al 2025][research_silber_2025], [Silber and Bowman 2025][research_silber_bowman_2025], [Nagata et al 2026][research_nagata_2026], [Nishikawa et al 2026][research_nishikawa_2026], [Silber 2026][research_silber_2026], [Silber and Scamfer 2026][research_silber_scamfer_2026], [Takahashi et al 2026][research_takahashi_2026].
 
 **Flight remains the only place the real condition occurs**, which is the same reason the X-17 was built. The difference is that a modern flight experiment is instrumented to validate a specific model rather than to characterise an environment, and it is usually a by-product of a mission flown for another purpose rather than a vehicle built solely to obtain the condition. **Nobody now builds an X-17**, and the reason is not that the problem was solved.
 
@@ -528,7 +528,7 @@ The X-17's descendants are not weapons but planetary entry systems, and the disc
 
 ### Knowing What Is Wrong Became a Discipline
 
-This article's contribution is a partition into reproduced and not reproduced, with ratios attached. The modern equivalent is uncertainty quantification, which does the same job continuously and with error bars, in [Zhao et al 2020][research_zhao_2020], [Li et al 2021, Uncertainty analysis of the high p][research_li_2021_2], [Salem et al 2021][research_salem_2021], [Xie et al 2021][research_xie_2021], [Wang and Luo 2022][research_wang_luo_2022], [Tian et al 2023, Sensitivity analysis and safety ad][research_tian_2023_2], [Solanilla Blanco 2025][research_blanco_2025], [Deng et al 2026][research_deng_2026], [Graham and Fossati 2026][research_graham_fossati_2026], [Somé and Niyobuhungiro 2026][research_some_niyobuhungiro_2026].
+This article's contribution is a partition into reproduced and not reproduced, with ratios attached. The modern equivalent is uncertainty quantification, which does the same job continuously and with error bars, in [Zhao et al 2020][research_zhao_2020], [Xie et al 2021][research_xie_2021], [Wang and Luo 2022][research_wang_luo_2022], [Deng et al 2026][research_deng_2026], [Graham and Fossati 2026][research_graham_fossati_2026].
 
 **That is the deepest continuity between the X-17 and the present.** The vehicle's value was never that it reproduced a re-entry, because it did not. **It was that the people using its data knew which parts to trust**, and the modern field has turned that judgement into a method.
 
@@ -568,13 +568,15 @@ What does hold the article up is the re-entry literature itself, which is large,
 
 ### The Shape of the Reference Base
 
-Of 422 research references, **214 predate 2019 and 208 do not**, so the base divides almost exactly in half. The distribution is 33 documents from before 1960, 94 from the 1960s and 1970s, 43 from the 1980s and 1990s, 44 from 2000 to 2018, and 208 from 2019 onward. The contemporary half is large because **the X-17's question was never answered**, so surveying the present state of it is surveying an open problem rather than an epilogue.
+Of 401 research references, **210 predate 2019 and 191 do not**, so the base divides roughly in half. The distribution is 32 documents from before 1960, 93 from the 1960s and 1970s, 42 from the 1980s and 1990s, 43 from 2000 to 2018, and 191 from 2019 onward. The contemporary half is large because **the X-17's question was never answered**, so surveying the present state of it is surveying an open problem rather than an epilogue.
 
 **The pre-1960 material was nearly absent until it was looked for.** The first harvest used a 1985 cutoff on its period sweep, which let later work crowd out the contemporaneous literature, and the pool held only twenty records from before 1960 for a vehicle that flew in 1956. A second sweep with a 1960 cutoff took that to 157. **The documents the X-17's own engineers would have been reading are the most valuable primary material this article can have**, and they had to be asked for specifically.
 
 **Thirty candidate references were rejected across the two reference passes after being read rather than matched.** A title search for refractory returned furnace fillers, the mullitization of alumina raw material, silicon carbide power converters, and the near-infrared reflectance of rocks for asteroid science. A search for high temperature air returned a pneumatic air motor. A search for chemical kinetics returned the oxidation of n-butane and chemiluminescence in propane-butane flames. A search for heat flux returned microchannel heat sinks. A search for nonequilibrium returned a two-temperature Ising model. A search for ionisation returned electron impact on krypton. A search for demise, meaning the deliberate destruction of a spacecraft during re-entry, returned a paper on dataveillance and the demise of interpretive flexibility. And a search for thermal protection system returned the development of a passive thermal protection system for **divers**, which is a wetsuit.
 
 **The pattern is the one the previous article recorded, that a keyword diagnostic inside a field is useless outside it**, and the only method that catches it is reading the titles. A counter-observation is worth recording alongside it. An automated relevance scan run after insertion flagged a further ten citations, and **every one proved to be a false positive of the scan's own keyword list**, including a ceramic-heated tunnel, high-emissivity coatings, and expansion-tube flow characterisation. The reading step finds real defects and the automated step generates noise in both directions.
+
+**The research works were re-read against the article's subject on 7 October 2026, and the re-reading found fifteen that are about something else.** Four are medical ablation, of musculoskeletal tumours, epiglottic cysts, the thyroid and the adenoids, and sit in the ablation survey. Five are sensitivity or uncertainty analyses of district heating networks, a residential heating system, heating-degree-day derivative prices, road-vehicle handling and a gas flow standard, and sit in the uncertainty survey. Four are radiation papers on nanofluid convection in a porous medium, a cryogenic fusion fuel target, convective storm anvils and wind and radiation forecasting. Two are sounding-rocket experiments on alloy solidification and on firework infrasound. Every one of them is cited in a prose sentence of The Contemporary Literature, so the filter removed none of them, since removing a work that a sentence rests on is an editorial decision about that sentence and not a filter decision. **All fifteen were then removed by hand**, each from a list of citations that keeps its other sources, so the research total falls from 416 to 401, and a reading of 300 unflagged records found 8 off topic, which puts the contamination the screens miss near 2.7 percent.
 
 ## Epistemic State
 
@@ -675,7 +677,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Adelman 1979][research_adelman_1979]
 - [Aiken et al 2025][research_aiken_2025]
 - [Alberts et al 2026][research_alberts_2026]
-- [Albqmi and Sivanandam 2024][research_albqmi_sivanandam_2024]
 - [Allen and Eggers 1953][research_allen_eggers_1953]
 - [Altman and Chang 1965][research_altman_chang_1965]
 - [Alunni et al 2019][research_alunni_2019]
@@ -695,13 +696,11 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Sai Naga Bharghava et al 2024][research_bharghava_2024]
 - [Bird 1960][research_bird_1960]
 - [Bishop et al 2025][research_bishop_2025]
-- [Solanilla Blanco 2025][research_blanco_2025]
 - [Bleakney et al 1949][research_bleakney_1949]
 - [Boyce 1963][research_boyce_1963]
 - [Bradley et al 1981][research_bradley_1981]
 - [Bua 1963][research_bua_1963]
 - [Cabrera and West 2026][research_cabrera_west_2026]
-- [Cai and Gao 2025][research_cai_gao_2025]
 - [Cai and Zhuang 2025][research_cai_zhuang_2025]
 - [Caillaud et al 2025][research_caillaud_2025]
 - [CAMPBELL 1962][research_campbell_1962]
@@ -752,7 +751,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Dimino et al 2023][research_dimino_2023]
 - [Dohnanyi 1964][research_dohnanyi_1964]
 - [Dongre 2024][research_dongre_2024]
-- [Duncheskie and Isaacson 2025][research_duncheskie_isaacson_2025]
 - [Dutta 2025][research_dutta_2025]
 - [Dutta and Karlgaard 2024][research_dutta_karlgaard_2024]
 - [Dutta et al 2024][research_dutta_2024]
@@ -862,7 +860,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Li 1981][research_li_1981]
 - [LI and GEIGER 1957][research_li_geiger_1957]
 - [Li and Jing 2025][research_li_jing_2025]
-- [Li et al 2021, Uncertainty analysis of the high p][research_li_2021_2]
 - [Li et al 2024, Gas Kinetic Scheme Coupled with Hi][research_li_2024_3]
 - [Li et al 2025][research_li_2025]
 - [Li et al 2025, Ablation resistance evaluation of][research_li_2025_3]
@@ -907,7 +904,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Moss and Kumar 1981][research_moss_kumar_1981]
 - [Moyer and Wool 1970][research_moyer_wool_1970]
 - [Moyer and Wool 1970, Aerotherm Charring Material Therma][research_moyer_wool_1970_2]
-- [Murphy and Browne 2025][research_murphy_browne_2025]
 - [Murphy and Rubesin 1965][research_murphy_rubesin_1965]
 - [Nagata et al 2026][research_nagata_2026]
 - [Nardo and Sadler 1962][research_nardo_sadler_1962]
@@ -958,9 +954,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Roberts 1960][research_roberts_1960]
 - [Rogers and K. 1953][research_rogers_k_1953]
 - [Rose and Stankevics 1963][research_rose_stankevics_1963]
-- [Saito et al 2026][research_saito_2026]
 - [Sale 1964][research_sale_1964]
-- [Salem et al 2021][research_salem_2021]
 - [Santos and Sampaio 2021][research_santos_sampaio_2021]
 - [Saranathan 2025][research_saranathan_2025]
 - [Scalabrin and Boyd 2005][research_scalabrin_boyd_2005]
@@ -982,9 +976,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Silber et al 2025][research_silber_2025]
 - [Singh and Tiwari 1990][research_singh_tiwari_1990]
 - [Singh et al 1991][research_singh_1991]
-- [Somé and Niyobuhungiro 2026][research_some_niyobuhungiro_2026]
 - [Son et al 2025][research_son_2025]
-- [Song and Kim 2025][research_song_kim_2025]
 - [Speyer and Womble 1971][research_speyer_womble_1971]
 - [Sreenivasulu et al 2025][research_sreenivasulu_2025]
 - [Stalder and Nielsen 1954][research_stalder_nielsen_1954]
@@ -1008,10 +1000,8 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Tański et al 2026][research_tanski_2026]
 - [Thompson 2026][research_thompson_2026]
 - [Thornton 1981][research_thornton_1981]
-- [Tian et al 2023, Sensitivity analysis and safety ad][research_tian_2023_2]
 - [TIFFORD 1945][research_tifford_1945]
 - [Ting et al 1986][research_ting_1986]
-- [Tomasian and Jennings 2025][research_tomasian_jennings_2025]
 - [Tong et al 2026][research_tong_2026]
 - [Trimpi 1962][research_trimpi_1962]
 - [Trimpi 1962, A Preliminary Theoretical Study of][research_trimpi_1962_2]
@@ -1028,7 +1018,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Vinh and Lin 1982][research_vinh_lin_1982]
 - [Walker and Wolowicz 1960][research_walker_wolowicz_1960]
 - [WALTON and SIMMONS 1962][research_walton_simmons_1962]
-- [Wang 2025, Anvil-radiation diurnal interactio][research_wang_2025_2]
 - [Wang and Han 2025][research_wang_han_2025]
 - [Wang and Jiang 2020][research_wang_jiang_2020]
 - [Wang and Luo 2022][research_wang_luo_2022]
@@ -1065,7 +1054,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Yue et al 2025][research_yue_2025]
 - [Yun and Mason 1962][research_yun_mason_1962]
 - [Yungster and Radhakrishnan 2001][research_yungster_radhakrishnan_2001]
-- [Zarubina 2025][research_zarubina_2025]
 - [Zeng et al 2026][research_zeng_2026]
 - [Maorui Zhang et al 2010][research_zhang_2010]
 - [Zhang et al 2025, Nitrogen molecular radiation in hy][research_zhang_2025_2]
@@ -1081,7 +1069,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [ZHOU et al 2025][research_zhou_2025]
 - [Zhou et al 2026][research_zhou_2026]
 - [Zhu et al 2025][research_zhu_2025]
-- [Zjavka 2026][research_zjavka_2026]
 - [Zoby et al 1988][research_zoby_1988]
 - [Zou et al 2025][research_zou_2025]
 - [Zubiaurre et al 2024][research_zubiaurre_2024]
@@ -1092,7 +1079,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_adelman_1979]: https://ntrs.nasa.gov/citations/19800004187
 [research_aiken_2025]: https://doi.org/10.1063/5.0294530
 [research_alberts_2026]: https://doi.org/10.1016/j.actamat.2026.122613
-[research_albqmi_sivanandam_2024]: https://doi.org/10.3390/computation12030043
 [research_allen_eggers_1953]: https://ntrs.nasa.gov/citations/20050019430
 [research_altman_chang_1965]: https://ntrs.nasa.gov/citations/19650025525
 [research_alunni_2019]: https://ntrs.nasa.gov/citations/20190026513
@@ -1112,13 +1098,11 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_bharghava_2024]: https://doi.org/10.1016/j.ijheatfluidflow.2024.109413
 [research_bird_1960]: https://doi.org/10.2514/8.8718
 [research_bishop_2025]: https://doi.org/10.1121/10.0041857
-[research_blanco_2025]: https://doi.org/10.1080/14697688.2025.2471347
 [research_bleakney_1949]: https://doi.org/10.1063/1.1741395
 [research_boyce_1963]: https://ntrs.nasa.gov/citations/19630006926
 [research_bradley_1981]: https://ntrs.nasa.gov/citations/19820030400
 [research_bua_1963]: https://doi.org/10.21236/ad0415435
 [research_cabrera_west_2026]: https://doi.org/10.2514/1.a36431
-[research_cai_gao_2025]: https://doi.org/10.1177/01455613241259368
 [research_cai_zhuang_2025]: https://doi.org/10.1016/j.dt.2024.11.001
 [research_caillaud_2025]: https://doi.org/10.1103/physrevfluids.10.043902
 [research_campbell_1962]: https://doi.org/10.21236/ad0292258
@@ -1169,7 +1153,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_dimino_2023]: https://doi.org/10.3390/app13052783
 [research_dohnanyi_1964]: https://ntrs.nasa.gov/citations/19650014698
 [research_dongre_2024]: https://doi.org/10.53555/e2ha7809
-[research_duncheskie_isaacson_2025]: https://doi.org/10.1177/01455613251366042
 [research_dutta_2024]: https://doi.org/10.2514/1.a35771
 [research_dutta_2025]: https://doi.org/10.2514/1.a36119
 [research_dutta_karlgaard_2024]: https://doi.org/10.2514/1.a36101
@@ -1277,7 +1260,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_levine_1960]: https://ntrs.nasa.gov/citations/19980227768
 [research_levy_mc_devitt_1964]: https://ntrs.nasa.gov/citations/19650019778
 [research_li_1981]: https://ntrs.nasa.gov/citations/19820045478
-[research_li_2021_2]: https://doi.org/10.1016/j.flowmeasinst.2021.101891
 [research_li_2024_3]: https://doi.org/10.3390/e26020173
 [research_li_2025]: https://doi.org/10.1016/j.measen.2024.101693
 [research_li_2025_3]: https://doi.org/10.1016/j.ceramint.2025.07.394
@@ -1324,7 +1306,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_moss_kumar_1981]: https://ntrs.nasa.gov/citations/19810036320
 [research_moyer_wool_1970]: https://doi.org/10.21236/ad0875062
 [research_moyer_wool_1970_2]: https://doi.org/10.21236/ad0875392
-[research_murphy_browne_2025]: https://doi.org/10.1088/1757-899x/1335/1/012001
 [research_murphy_rubesin_1965]: https://ntrs.nasa.gov/citations/19660010795
 [research_nagata_2026]: https://doi.org/10.2514/1.a36152
 [research_nardo_sadler_1962]: https://doi.org/10.21236/ad0273837
@@ -1376,9 +1357,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_roberts_1960]: https://ntrs.nasa.gov/citations/19980232223
 [research_rogers_k_1953]: https://doi.org/10.21236/ad0013358
 [research_rose_stankevics_1963]: https://doi.org/10.21236/ad0406269
-[research_saito_2026]: https://doi.org/10.1029/2025jd045676
 [research_sale_1964]: https://doi.org/10.21236/ad0609001
-[research_salem_2021]: https://doi.org/10.4273/ijvss.13.1.13
 [research_santos_sampaio_2021]: https://doi.org/10.34117/bjdv7n11-361
 [research_saranathan_2025]: https://doi.org/10.1016/j.asr.2025.04.029
 [research_scalabrin_boyd_2005]: https://doi.org/10.2514/6.2005-5203
@@ -1400,9 +1379,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_silber_scamfer_2026]: https://doi.org/10.1785/0320260017
 [research_singh_1991]: https://ntrs.nasa.gov/citations/19910057633
 [research_singh_tiwari_1990]: https://ntrs.nasa.gov/citations/19900011634
-[research_some_niyobuhungiro_2026]: https://doi.org/10.3390/math14030489
 [research_son_2025]: https://doi.org/10.5139/jksas.2025.53.2.219
-[research_song_kim_2025]: https://doi.org/10.1177/01455613231182234
 [research_speyer_womble_1971]: https://ntrs.nasa.gov/citations/19720026711
 [research_sreenivasulu_2025]: https://doi.org/10.61653/joast.v77i3.2025.1088
 [research_stalder_nielsen_1954]: https://ntrs.nasa.gov/citations/19930083996
@@ -1426,10 +1403,8 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_tauber_sutton_1991]: https://ntrs.nasa.gov/citations/19910048758
 [research_thompson_2026]: https://doi.org/10.1063/10.0043197
 [research_thornton_1981]: https://www.osti.gov/biblio/6611421
-[research_tian_2023_2]: https://doi.org/10.1016/j.enbuild.2023.113603
 [research_tifford_1945]: https://doi.org/10.2514/8.11230
 [research_ting_1986]: https://ntrs.nasa.gov/citations/19860055208
-[research_tomasian_jennings_2025]: https://doi.org/10.1148/rg.240238
 [research_tong_2026]: https://doi.org/10.1016/j.actaastro.2026.04.010
 [research_trimpi_1962]: https://ntrs.nasa.gov/citations/19630003230
 [research_trimpi_1962_2]: https://ntrs.nasa.gov/citations/20190002214
@@ -1449,7 +1424,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_wang_2019]: https://ntrs.nasa.gov/citations/20190025824
 [research_wang_2024]: https://doi.org/10.1016/j.tsep.2023.102256
 [research_wang_2025]: https://doi.org/10.2514/1.a36141
-[research_wang_2025_2]: https://doi.org/10.5194/acp-25-5021-2025
 [research_wang_2025_3]: https://doi.org/10.3390/ma18174142
 [research_wang_2025_4]: https://doi.org/10.1016/j.compstruct.2025.119192
 [research_wang_2025_5]: https://doi.org/10.1016/j.applthermaleng.2025.126704
@@ -1483,7 +1457,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_yue_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127175
 [research_yun_mason_1962]: https://ntrs.nasa.gov/citations/19620005758
 [research_yungster_radhakrishnan_2001]: https://doi.org/10.1007/pl00004073
-[research_zarubina_2025]: https://doi.org/10.7868/s3034498025110041
 [research_zeng_2026]: https://doi.org/10.1063/5.0340634
 [research_zhang_2010]: https://doi.org/10.1109/wcica.2010.5554588
 [research_zhang_2025_2]: https://doi.org/10.1063/5.0251388
@@ -1499,7 +1472,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_zhou_2025]: https://doi.org/10.15541/jim20240317
 [research_zhou_2026]: https://doi.org/10.1016/j.asr.2025.12.026
 [research_zhu_2025]: https://doi.org/10.1016/j.ast.2025.110070
-[research_zjavka_2026]: https://doi.org/10.3390/modelling7030082
 [research_zoby_1988]: https://ntrs.nasa.gov/citations/19880056529
 [research_zou_2025]: https://doi.org/10.1017/jfm.2025.10846
 [research_zubiaurre_2024]: https://doi.org/10.1007/s11085-024-10254-x

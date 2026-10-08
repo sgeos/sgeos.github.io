@@ -473,47 +473,41 @@ designation in 2006 and recorded a phrase.**
 
 | Cluster | Records |
 |---|---|
-| Measuring how alike two strings are | 528 |
-| Names refused because another name was near them | 385 |
-| Other work on naming, confusion and error | 300 |
-| Call signs, readback and the spoken identifier | 292 |
-| Identifiers as administered objects | 229 |
+| Measuring how alike two strings are | 483 |
+| Names refused because another name was near them | 311 |
+| Other work on naming, confusion and error | 212 |
+| Identifiers as administered objects | 212 |
 | Medication safety, which is where this question is studied hardest | 179 |
-| Reading a code, and the shapes of its characters | 153 |
-| Confusing similarity as a legal test | 120 |
+| Call signs, readback and the spoken identifier | 151 |
+| Reading a code, and the shapes of its characters | 141 |
+| Confusing similarity as a legal test | 115 |
 | Human error, and the taxonomies built to describe it | 14 |
 | Aviation, and the designations it actually uses | 13 |
-| **Total** | **2,213** |
+| **Total** | **1,831** |
 
 ### Measuring how alike two strings are
 
 **The largest cluster, and it is the one the refusal actually needed.** Edit distance, phonetic encoding, approximate matching, record linkage and the similarity measures built on them. **AF/A8PE made a similarity judgement in 2006 and recorded no measure, no threshold and no method**, and this shelf is what such a judgement looks like when somebody is required to show their working.
 
-**528 records.** \[[Abdel Ghafour et al 2011][research_abdelghafour_elbastawissy_2011]\] \[[Aborot 2017][research_aborot_2017]\] \[[Abraham and Raj 2014][research_abraham_raj_2014]\] \[[Abreu Salas and Rico-Juan 2009][research_abreusalas_ricojuan_2009]\] \[[Afanasev and Lyashevskaya 2024][research_afanasev_lyashevskaya_2024]\] \[[Aguasvivas et al 2021][research_aguasvivas_testolin_2021]\] \[[Ahmed et al 2022][research_ahmed_suffian_2022]\] \[[Aksoy et al 2019][research_aksoy_uguz_2019]\] \[[Akutsu 1994][research_akutsu_1994]\] \[[Akutsu 1995][research_akutsu_1995]\] \[[Akutsu 2006][research_akutsu_2006]\] \[[Akutsu et al 2006][research_akutsu_fukagawa_2006]\] \[[Akutsu et al 2008][research_akutsu_fukagawa_2008]\] \[[Al-Bakry and Al-Rikaby 2016][research_albakry_alrikaby_2016]\] \[[Al-Dabbagh and Barnouti 2017][research_aldabbagh_barnouti_2017]\] \[[Aldwairi and Flaifel 2012][research_aldwairi_flaifel_2012]\] \[[Alhammad and Alshehri 2025][research_alhammad_alshehri_2025]\] \[[Allauzen and Raffinot 2000][research_allauzen_raffinot_2000]\] \[[Amir et al][research_amir_aumann]\] \[[Amir et al 2010][research_amir_eisenberg_2010]\] \[[Andrews 1997][research_andrews_1997]\] \[[Annisa Sihotang 2024][research_annisasihotang_2024]\] \[[Appendix I Orthographic and 2025][research_appendix_i_2025]\] \[[Appendix I. Orthographic and 2022][research_appendix_i_2022]\] \[[Approximate String Matching 1994][research_approximate_string_1994]\] \[[Approximate String Matching Techniques 2014][research_approximate_string_2014]\] \[[Aratsu et al 2009][research_aratsu_hirata_2009]\] \[[Aratsu et al 2010][research_aratsu_hirata_2010]\] \[[Arslan 2006][research_arslan_2006]\] \[[Arslan and Egecioglu][research_arslan_egecioglu]\] \[[Atallah et al 2001][research_atallah_chyzak_2001]\] \[[Audhkhasi and Verma 2007][research_audhkhasi_verma_2007]\] \[[Austin 1957][research_austin_1957]\] \[[Author 2026][research_author_2026]\] \[[Ayad et al 2016][research_ayad_pissis_2016]\] \[[Aygun 2017][research_aygun_2017]\] \[[Babayev 2025][research_babayev_2025]\] \[[Baeza-Yates and G. Navarro 1999][research_baezayatesandgnavarro_1999]\] \[[Baeza-Yates and Navarro][research_baezayates_navarro]\] \[[Baeza-Yates and Navarro 1996][research_baezayates_navarro_1996]\] \[[Baeza-Yates and Navarro 1997][research_baezayates_navarro_1997]\] \[[Baeza-Yates and Perleberg 1992][research_baezayates_perleberg_1992]\] \[[Baeza-Yates and Perleberg 1996][research_baezayates_perleberg_1996]\] \[[Bakar et al 2000][research_bakar_sembok_2000]\] \[[Baldwin et al 2016][research_baldwin_liang_2016]\] \[[Baloi et al 2022][research_baloi_belean_2022]\] \[[Baloi et al 2023][research_baloi_belean_2023]\] \[[Baroni et al 2002][research_baroni_matiasek_2002]\] \[[Bartolini et al 2002][research_bartolini_ciaccia_2002]\] \[[Barton et al 2014][research_barton_iliopoulos_2014]\] \[[Basheer Fattah 2022][research_basheerfattah_2022]\] \[[Batu et al 2006][research_batu_ergun_2006]\] \[[Baxter 1989][research_baxter_1989]\] \[[Beck and Kerschbaum 2013][research_beck_kerschbaum_2013]\] \[[Belazzougui and Venturini 2012][research_belazzougui_venturini_2012]\] \[[Belazzougui and Venturini 2015][research_belazzougui_venturini_2015]\] \[[Berghel et al][research_berghel_roach]\] \[[Bernard and Ajah 2025][research_bernard_ajah_2025]\] \[[Bhavana et al 2024][research_bhavana_rao_2024]\] \[[Bilas 2020][research_bilas_2020]\] \[[Bille 2011][research_bille_2011]\] \[[Bille et al][research_bille_fagerberg]\] \[[Bille et al 2009][research_bille_fagerberg_2009]\] \[[Bisson 2024][research_bisson_2024]\] \[[Block Edit Distance][research_block_edit]\] \[[Boitsov 2002][research_boitsov_2002]\] \[[Bruder and Silverman 1972][research_bruder_silverman_1972]\] \[[Brzeski and Roman 2023][research_brzeski_roman_2023]\] \[[Bunke and Bühler 1993][research_bunke_buhler_1993]\] \[[Bunke and Csirik 1995][research_bunke_csirik_1995]\] \[[Burt and Porter 2022][research_burt_porter_2022]\] \[[Buscaldi et al 2014][research_buscaldi_garciaflores_2014]\] \[[Calvo-Zaragoza et al 2016][research_calvozaragoza_delahiguera_2016]\] \[[Cantone et al 2025][research_cantone_faro_2025]\] \[[Carbonnel and Anquetil][research_carbonnel_anquetil]\] \[[Cha and Srihari 2003][research_cha_srihari_2003]\] \[[Chang and Lampe 1992][research_chang_lampe_1992]\] \[[Chang and Lawler][research_chang_lawler]\] \[[Chang and Lawler 1994][research_chang_lawler_1994]\] \[[Chang and Marr 1994][research_chang_marr_1994]\] \[[Chang and Morishita 2003][research_chang_morishita_2003]\] \[[Chapter Seven Orthographic and 2003][research_chapter_seven_2003]\] \[[Chaware and Rao 2010][research_chaware_rao_2010]\] \[[Chen 2017][research_chen_2017]\] \[[Chen et al 2020][research_chen_yang_2020]\] \[[Chen et al 2020][research_chen_wilson_2020]\] \[[Cheng and Olson 2026][research_cheng_olson_2026]\] \[[Cherifi and Guerti 2021][research_cherifi_guerti_2021]\] \[[Chernyak 2017][research_chernyak_2017]\] \[[Chi-Chien Pan et al 2002][research_chichienpan_kaihsiangyang_2002]\] \[[Choi and Oh 2023][research_choi_oh_2023]\] \[[Christen and Gayler 2015][research_christen_gayler_2015]\] \[[Christopher Jaisunder et al 2017][research_christopherjaisunder_ahmed_2017]\] \[[Chung et al 2011][research_chung_hsu_2011]\] \[[Ciobanu and Dinu 2014][research_ciobanu_dinu_2014]\] \[[Clifford and Iliopoulos 2004][research_clifford_iliopoulos_2004]\] \[[Cohen 2013][research_cohen_2013]\] \[[Cole and Hariharan 2002][research_cole_hariharan_2002]\] \[[Constrained Exact String Matching 2015][research_constrained_exact_2015]\] \[[Cormode and Muthukrishnan 2007][research_cormode_muthukrishnan_2007]\] \[[Crochemore and Lecroq][research_crochemore_lecroq]\] \[[Dai and Zhao 2009][research_dai_zhao_2009]\] \[[Daniel Wu 2023][research_danielwu_2023]\] \[[DanishAli and Farooqui 2013][research_danishali_farooqui_2013]\] \[[DanishAli and Farooqui 2013][research_danishali_farooqui_2013_b]\] \[[Danka 2015][research_danka_2015]\] \[[Danvy and Rohde 2005][research_danvy_rohde_2005]\] \[[Danvy and Rohde 2006][research_danvy_rohde_2006]\] \[[Das et al 2025][research_das_gilbert_2025]\] \[[Davuth and Kim 2013][research_davuth_kim_2013]\] \[[de la Higuera and Micó 2008][research_delahiguera_mico_2008]\] \[[Debbarma et al 2014][research_debbarma_purkayastha_2014]\] \[[Deforche et al 2023][research_deforche_devos_2023]\] \[[Deforche et al 2024][research_deforche_devos_2024]\] \[[Degroot 2004][research_degroot_2004]\] \[[Degroot 2005][research_degroot_2005]\] \[[Degroot 2014][research_degroot_2014]\] \[[Dimov 1994][research_dimov_1994]\] \[[Ding et al 2009][research_ding_li_2009]\] \[[Dong Deng et al 2013][research_dongdeng_guoliangli_2013]\] \[[dos Reis 2005][research_dosreis_2005]\] \[[Droppo and Acero 2010][research_droppo_acero_2010]\] \[[Duan et al 2020][research_duan_long_2020]\] \[[Duñabeitia et al 2007][research_dunabeitia_perea_2007]\] \[[Dzido and Krzywdziński 2015][research_dzido_krzywdzinski_2015]\] \[[El-Mabrouk and Crochemore 1996][research_elmabrouk_crochemore_1996]\] \[[Essex 2019][research_essex_2019]\] \[[Exact String Matching 2015][research_exact_string_2015]\] \[[Exact String Matching The 1997][research_exact_string_1997]\] \[[Fadlil et al 2022][research_fadlil_sunardi_2022]\] \[[Faleye and Adegoju 2013][research_faleye_adegoju_2013]\] \[[Fauzan et al 2021][research_fauzan_siahaan_2021]\] \[[Favata][research_favata]\] \[[Ferri et al 2018][research_ferri_tissot_2018]\] \[[Fiori et al 2021][research_fiori_pakalen_2021]\] \[[Fischer 1982][research_fischer_1982]\] \[[Foggia et al 2015][research_foggia_gauzere_2015]\] \[[Frances et al 2020][research_frances_navarrabarindelli_2020]\] \[[Frances et al 2021][research_frances_navarrabarindelli_2021]\] \[[Frances et al 2022][research_frances_navarrabarindelli_2022]\] \[[Fredriksson 2003][research_fredriksson_2003]\] \[[Fredriksson 2004][research_fredriksson_2004]\] \[[Fredriksson 2006][research_fredriksson_2006]\] \[[Fredriksson and Navarro 2003][research_fredriksson_navarro_2003]\] \[[Fredriksson and Navarro 2004][research_fredriksson_navarro_2004]\] \[[Fredriksson and Navarro 2004][research_fredriksson_navarro_2004_b]\] \[[Fukagawa et al 2009][research_fukagawa_akutsu_2009]\] \[[Gali et al 2019][research_gali_mariescuistodor_2019]\] \[[Galil and Giancarlo 1988][research_galil_giancarlo_1988]\] \[[Galil and Park 1990][research_galil_park_1990]\] \[[Ganske 1999][research_ganske_1999]\] \[[Garvin and Trager 1964][research_garvin_trager_1964]\] \[[Gawrychowski 2012][research_gawrychowski_2012]\] \[[Generalized String Matching 2015][research_generalized_string_2015]\] \[[Geva and Willows 1994][research_geva_willows_1994]\] \[[Gewurz and Vietri 2007][research_gewurz_vietri_2007]\] \[[Giannakopoulou et al 2013][research_giannakopoulou_uther_2013]\] \[[Giegerich et al 1997][research_giegerich_kurtz_1997]\] \[[Gonçalves 2007][research_goncalves_2007]\] \[[Gouda et al 2016][research_gouda_arafa_2016]\] \[[Graph Edit Distance 2007][research_graph_edit_2007]\] \[[Grigor'eva 1983][research_grigoreva_1983]\] \[[Gudschinsky et al 1970][research_gudschinsky_popovich_1970]\] \[[Guo 2022][research_guo_2022]\] \[[Guo 2023][research_guo_2023]\] \[[Guo et al 2019][research_guo_jiang_2019]\] \[[Gvasalia et al 2025][research_gvasalia_pelucchi_2025]\] \[[Haider et al 2025][research_haider_saed_2025]\] \[[Hall and Dowling 1980][research_hall_dowling_1980]\] \[[Han and Oh 2018][research_han_oh_2018]\] \[[Hancox and Polatidis 2013][research_hancox_polatidis_2013]\] \[[Hanmei et al 2019][research_hanmei_yu_2019]\] \[[Hashem 2025][research_hashem_2025]\] \[[Hazman et al 2025][research_hazman_mckeever_2025]\] \[[Heggarty et al 2005][research_heggarty_mcmahon_2005]\] \[[Heitner 2024][research_heitner_2024]\] \[[Hema 2024][research_hema_2024]\] \[[Heumann and Wittum 2009][research_heumann_wittum_2009]\] \[[Ho et al 2017][research_ho_oh_2017]\] \[[Ho et al 2018][research_ho_oh_2018]\] \[[Hoenigswald 1960][research_hoenigswald_1960]\] \[[Holub and Melichar 2000][research_holub_melichar_2000]\] \[[Holutiak-Hallick 1972][research_holutiakhallick_1972]\] \[[Hon et al][research_hon_lam]\] \[[Hout et al 2023][research_hout_montelongo_2023]\] \[[Hrbek and Holub 2016][research_hrbek_holub_2016]\] \[[Hsiao and Shillcock 2006][research_hsiao_shillcock_2006]\] \[[Htun Htet Htet and Sornlertlamvanich Virach 2018][research_htunhtethtet_sornlertlamvanichvirach_2018]\] \[[Huang et al 2020][research_huang_luo_2020]\] \[[Huerta 2010][research_huerta_2010]\] \[[Huynh et al 2004][research_huynh_hon_2004]\] \[[Hyyrö 2003][research_hyyro_2003]\] \[[Hyyrö 2004][research_hyyro_2004]\] \[[Hyyrö 2005][research_hyyro_2005]\] \[[Hyyrö 2005][research_hyyro_2005_b]\] \[[Hyyrö 2008][research_hyyro_2008]\] \[[Hyyrö and Navarro 2002][research_hyyro_navarro_2002]\] \[[Hyyrö and Navarro 2004][research_hyyro_navarro_2004]\] \[[Ifada et al 2023][research_ifada_rachman_2023]\] \[[Indexed Approximate String Matching][research_indexed_approximate]\] \[[Jeong et al 2014][research_jeong_choi_2014]\] \[[Jia and Fu 2012][research_jia_fu_2012]\] \[[Jia et al 2013][research_jia_fu_2013]\] \[[Jiang et al 2013][research_jiang_deng_2013]\] \[[Jiang et al 2014][research_jiang_li_2014]\] \[[Jimenez 2016][research_jimenez_2016]\] \[[Jin Hwan Park][research_jinhwanpark]\] \[[Jokisch and Hain 2017][research_jokisch_hain_2017]\] \[[Jordaan and Marshall 2015][research_jordaan_marshall_2015]\] \[[Judson 2005][research_judson_2005]\] \[[Jumde and Keskar 2020][research_jumde_keskar_2020]\] \[[Jupin et al 2012][research_jupin_shi_2012]\] \[[Jupin et al 2016][research_jupin_shi_2016]\] \[[Kaiser 1964][research_kaiser_1964]\] \[[Kaleem et al 2014][research_kaleem_oshea_2014]\] \[[Kamali 2026][research_kamali_2026]\] \[[Kant et al 2020][research_kant_shrivastava_2020]\] \[[Karpov et al 2023][research_karpov_zhang_2023]\] \[[Kashyap and Oommen 1981][research_kashyap_oommen_1981]\] \[[Katsumata and Miura 2009][research_katsumata_miura_2009]\] \[[Katsumata et al 2010][research_katsumata_miura_2010]\] \[[Kaur and Singh 2015][research_kaur_singh_2015]\] \[[Kavros and Tzitzikas 2022][research_kavros_tzitzikas_2022]\] \[[Keshava 2017][research_keshava_2017]\] \[[Khalid et al 2022][research_khalid_yousaf_2022]\] \[[Khan et al 2022][research_khan_hosen_2022]\] \[[Kianfar et al 2018][research_kianfar_pockrandt_2018]\] \[[Kim 2021][research_kim_2021]\] \[[Kim and Shawe-Taylor 1992][research_kim_shawetaylor_1992]\] \[[Kiwi et al][research_kiwi_navarro]\] \[[Kiwi et al 2011][research_kiwi_navarro_2011]\] \[[Klassen 2022][research_klassen_2022]\] \[[Knox 2019][research_knox_2019]\] \[[Komatsu et al 2014][research_komatsu_okuta_2014]\] \[[Kondrak and Sherif 2006][research_kondrak_sherif_2006]\] \[[Koneru et al 2016][research_koneru_pulla_2016]\] \[[Konshina 2026][research_konshina_2026]\] \[[Kontorovich and Trachtenberg 2012][research_kontorovich_trachtenberg_2012]\] \[[Korotkov 2010][research_korotkov_2010]\] \[[Krauthgamer 2013][research_krauthgamer_2013]\] \[[Kuboi et al 2014][research_kuboi_baba_2014]\] \[[Kucherov et al 2014][research_kucherov_salikhov_2014]\] \[[Kucherov et al 2016][research_kucherov_salikhov_2016]\] \[[Kumar et al 2023][research_kumar_parida_2023]\] \[[Kunchukuttan and Bhattacharyya 2021][research_kunchukuttan_bhattacharyya_2021]\] \[[Kunchukuttan et al 2018][research_kunchukuttan_khapra_2018]\] \[[Kysela 2018][research_kysela_2018]\] \[[Kärkkäinen 2015][research_karkkainen_2015]\] \[[Kärkkäinen and Na 2007][research_karkkainen_na_2007]\] \[[Kärkkäinen et al 2000][research_karkkainen_navarro_2000]\] \[[Ladefoged 1969][research_ladefoged_1969]\] \[[Lai][research_lai]\] \[[LaMonica 2014][research_lamonica_2014]\] \[[Landau and Vishkin 1989][research_landau_vishkin_1989]\] \[[Lazer-Pankiv and Pysmenna 2021][research_lazerpankiv_pysmenna_2021]\] \[[Li et al 2013][research_li_deng_2013]\] \[[Li et al 2014][research_li_wang_2014]\] \[[Li et al 2018][research_li_wang_2018]\] \[[Li et al 2020][research_li_li_2020]\] \[[Li et al 2021][research_li_xiao_2021]\] \[[Li et al 2023][research_li_wu_2023]\] \[[Li et al 2023][research_li_zheng_2023]\] \[[Li et al 2024][research_li_feng_2024]\] \[[Libovický and Fraser 2022][research_libovicky_fraser_2022]\] \[[Lin and Chen 2002][research_lin_chen_2002]\] \[[Lin and Wang 2011][research_lin_wang_2011]\] \[[Lin et al 2014][research_lin_chen_2014]\] \[[Lin et al 2014][research_lin_yu_2014]\] \[[Lin et al 2024][research_lin_liang_2024]\] \[[Liu et al 2007][research_liu_huang_2007]\] \[[Liu et al 2014][research_liu_han_2014]\] \[[Liu et al 2025][research_liu_wei_2025]\] \[[Loo 2014][research_loo_2014]\] \[[Loo 2026][research_loo_2026]\] \[[Lopresti and Tomkins 1997][research_lopresti_tomkins_1997]\] \[[Lopresti and Wilfong][research_lopresti_wilfong]\] \[[Lu et al 2001][research_lu_su_2001]\] \[[Lu et al 2013][research_lu_lin_2013]\] \[[Lu et al 2014][research_lu_du_2014]\] \[[Luján-Mora and Palomar 2001][research_lujanmora_palomar_2001]\] \[[Luniku 2015][research_luniku_2015]\] \[[Lupker 1982][research_lupker_1982]\] \[[Lyu et al 2024][research_lyu_cui_2024]\] \[[Mahmood 2022][research_mahmood_2022]\] \[[Makinen][research_makinen]\] \[[Man et al 2013][research_man_nakano_2013]\] \[[Manning and Shofner 1991][research_manning_shofner_1991]\] \[[Martinek et al 2007][research_martinek_fucik_2007]\] \[[Marzal et al 2003][research_marzal_mollineda_2003]\] \[[Masihi and Charkari 2005][research_masihi_charkari_2005]\] \[[Matsumoto et al][research_matsumoto_kida]\] \[[Matveev][research_matveev]\] \[[McCallum et al 2005][research_mccallum_bellare_2005]\] \[[McClanahan and Li 2024][research_mcclanahan_li_2024]\] \[[Mednis and Aurich 2012][research_mednis_aurich_2012]\] \[[Mehdiyeva 2025][research_mehdiyeva_2025]\] \[[Melichar 1995][research_melichar_1995]\] \[[Mergen 2022][research_mergen_2022]\] \[[Michailidis and Margaritis][research_michailidis_margaritis]\] \[[Mishina and Kojima][research_mishina_kojima]\] \[[Mishra et al 2013][research_mishra_gandhi_2013]\] \[[Mittal et al 2014][research_mittal_bhatt_2014]\] \[[Mohammed and Aliwy 2024][research_mohammed_aliwy_2024]\] \[[Mohd Anuar et al 2014][research_mohdanuar_setchi_2014]\] \[[Mollineda et al][research_mollineda_vidal]\] \[[Montalvo et al 2012][research_montalvo_pardo_2012]\] \[[Montgomery and O'Sullivan 2014][research_montgomery_osullivan_2014]\] \[[Moreau et al 2008][research_moreau_yvon_2008]\] \[[Moritz et al 2020][research_moritz_heard_2020]\] \[[Morris and Still 2012][research_morris_still_2012]\] \[[Morris et al 2026][research_morris_haye_2026]\] \[[Multidimensional String Matching, 1999][research_multidimensional_string]\] \[[Munawaroh et al 2020][research_munawaroh_siahaan_2020]\] \[[Muthukrishnan][research_muthukrishnan]\] \[[Myers 1998][research_myers_1998]\] \[[Nakagawa et al 2018][research_nakagawa_sakamoto_2018]\] \[[Nakano 2012][research_nakano_2012]\] \[[Nakano 2013][research_nakano_2013]\] \[[Names A Journal of Onomastics and Hall 1969][research_namesajournalofonomastics_hall_1969]\] \[[Narita et al 2012][research_narita_nakadai_2012]\] \[[Navarro 2001][research_navarro_2001]\] \[[Navarro 2008][research_navarro_2008]\] \[[Navarro 2014][research_navarro_2014]\] \[[Navarro 2016][research_navarro_2016]\] \[[Navarro and Baeza-Yates 1999][research_navarro_baezayates_1999]\] \[[Navarro and Baeza-Yates 1999][research_navarro_baezayates_1999_b]\] \[[Navarro and Chávez 2006][research_navarro_chavez_2006]\] \[[Navarro and Fredriksson 2004][research_navarro_fredriksson_2004]\] \[[Navarro et al][research_navarro_kida]\] \[[Navarro¹² 1997][research_navarro12_1997]\] \[[Navarro¹² 1997][research_navarro12_1997_b]\] \[[Nelson and Borden 1973][research_nelson_borden_1973]\] \[[Nguyen][research_nguyen]\] \[[Nguyen and Conrad 2014][research_nguyen_conrad_2014]\] \[[Nguyen and Conrad 2015][research_nguyen_conrad_2015]\] \[[Nooksack Phonemes and Orthographic 2011][research_nooksack_phonemes_2011]\] \[[Novitra 2023][research_novitra_2023]\] \[[Obaid et al 2023][research_obaid_nesbit_2023]\] \[[Ohtake et al 2004][research_ohtake_sekiguchi_2004]\] \[[Ortolani 2009][research_ortolani_2009]\] \[[Owolabi and Ferguson 1988][research_owolabi_ferguson_1988]\] \[[Owolabi and McGregor 1988][research_owolabi_mcgregor_1988]\] \[[P. 2016][research_p_2016]\] \[[P. Howard, II 2018][research_phowardii_2018]\] \[[Paclt 1971][research_paclt_1971]\] \[[Papamichail and Papamichail 2009][research_papamichail_papamichail_2009]\] \[[Paramonov et al 2016][research_paramonov_shigarov_2016]\] \[[Park et al 2007][research_park_gilbert_2007]\] \[[Pelamatti et al 1983][research_pelamatti_umilta_1983]\] \[[Perbandingan Algoritma Edit Distance 2014][research_perbandingan_algoritma_2014]\] \[[Peressotti et al 2003][research_peressotti_cubelli_2003]\] \[[Peschl 2022][research_peschl_2022]\] \[[Pettorossi 2021][research_pettorossi_2021]\] \[[Petty et al 2022][research_petty_hannig_2022]\] \[[Pevzner and Waterman][research_pevzner_waterman]\] \[[Phonetic similarity and multisegmental 1994][research_phonetic_similarity_1994]\] \[[Phuduhudu et al 2025][research_phuduhudu_moeti_2025]\] \[[Pissis and Retha 2015][research_pissis_retha_2015]\] \[[Policriti and Prezza 2015][research_policriti_prezza_2015]\] \[[Pollák and Černocký 2004][research_pollak_cernocky_2004]\] \[[Post and Carrecker 2002][research_post_carrecker_2002]\] \[[Post and Toussaint 2011][research_post_toussaint_2011]\] \[[Pouliquen 2008][research_pouliquen_2008]\] \[[Rachkovskij 2019][research_rachkovskij_2019]\] \[[Rack 1985][research_rack_1985]\] \[[Rama and Borin 2015][research_rama_borin_2015]\] \[[Rani and Singh 2018][research_rani_singh_2018]\] \[[Revesz 2021][research_revesz_2021]\] \[[Rice et al 1997][research_rice_bunke_1997]\] \[[Rico-Juan et al 2020][research_ricojuan_valeromas_2020]\] \[[Riesen 2015][research_riesen_2015]\] \[[Riesen 2015][research_riesen_2015_b]\] \[[Riesen 2015][research_riesen_2015_c]\] \[[Riesen 2015][research_riesen_2015_d]\] \[[Riesen 2015][research_riesen_2015_e]\] \[[Riesen and Schmidt 2019][research_riesen_schmidt_2019]\] \[[Riesen et al 2018][research_riesen_hanne_2018]\] \[[Riesen et al 2026][research_riesen_leonardi_2026]\] \[[Ristad and Yianilos 1998][research_ristad_yianilos_1998]\] \[[Robles-Kelly and Hancock 2002][research_robleskelly_hancock_2002]\] \[[Robles-Kelly and Hancock 2003][research_robleskelly_hancock_2003]\] \[[Robles-Kelly and Hancock 2004][research_robleskelly_hancock_2004]\] \[[Rochmawati and Kusumaningrum 2016][research_rochmawati_kusumaningrum_2016]\] \[[Rodriguez et al][research_rodriguez_kandel]\] \[[Rodriguez et al 2004][research_rodriguez_last_2004]\] \[[Roopa and Mahantesh 2022][research_roopa_mahantesh_2022]\] \[[Russo et al][research_russo_navarro]\] \[[Russo et al 2008][research_russo_navarro_2008]\] \[[Russo et al 2009][research_russo_navarro_2009]\] \[[Saadah et al 2020][research_saadah_saputro_2020]\] \[[Sadeh][research_sadeh]\] \[[Sadeh][research_sadeh_b]\] \[[Saikrishna and Ray 2013][research_saikrishna_ray_2013]\] \[[Salmela and Tarhio 2010][research_salmela_tarhio_2010]\] \[[Salmela et al 2009][research_salmela_tarhio_2009]\] \[[Sandeep Chaware and Srikantha Rao 2011][research_sandeepchaware_srikantharao_2011]\] \[[Sangurai et al 2024][research_sangurai_thumsuwan_2024]\] \[[Sariyar 2026][research_sariyar_2026]\] \[[Sastry and Ranganathan][research_sastry_ranganathan]\] \[[Sauleau et al 2005][research_sauleau_paumier_2005]\] \[[Schachter 1961][research_schachter_1961]\] \[[Schmalz et al 2024][research_schmalz_rueckl_2024]\] \[[Schraagen 2011][research_schraagen_2011]\] \[[Schwarz et al 2017][research_schwarz_pawlik_2017]\] \[[Scott and Baddeley 1969][research_scott_baddeley_1969]\] \[[Seps 2013][research_seps_2013]\] \[[Sequential Approximate String Matching][research_sequential_approximate]\] \[[Serratosa 2019][research_serratosa_2019]\] \[[ShabnamHasan et al 2015][research_shabnamhasan_ahmed_2015]\] \[[Shah and Kumar Singh 2014][research_shah_kumarsingh_2014]\] \[[Shah and Kumar Singh 2014][research_shah_kumarsingh_2014_b]\] \[[Shaikh et al 2011][research_shaikh_memon_2011]\] \[[Shan et al 2012][research_shan_guo_2012]\] \[[Shang and Merrettal 1996][research_shang_merrettal_1996]\] \[[Shapira and Storer 2003][research_shapira_storer_2003]\] \[[Shelake and Shekokar 2022][research_shelake_shekokar_2022]\] \[[Shilin Zhang and Bo Zhang 2010][research_shilinzhang_bozhang_2010]\] \[[Shin and Niiyama 2018][research_shin_niiyama_2018]\] \[[Siew 2018][research_siew_2018]\] \[[Sihotang 2023][research_sihotang_2023]\] \[[Silva 1969][research_silva_1969]\] \[[Simanjuntak et al 2015][research_simanjuntak_hutajulu_2015]\] \[[Siren and Wilcox 1990][research_siren_wilcox_1990]\] \[[Skurzok and Ziółko 2013][research_skurzok_ziolko_2013]\] \[[Smiley and Kübler 2017][research_smiley_kubler_2017]\] \[[Smith 2000][research_smith_2000]\] \[[Smith and Pierzchala][research_smith_pierzchala]\] \[[Spanish Names Orthographic Features 2020][research_spanish_names_orthographic_2020]\] \[[Srivastava 2021][research_srivastava_2021]\] \[[Srivastava 2023][research_srivastava_2023]\] \[[Stanchev et al 2019][research_stanchev_wang_2019]\] \[[String Matching 1994][research_string_matching_1994]\] \[[String Matching Algorithm 2011][research_string_matching_2011]\] \[[String-Matching 2017][research_string_matching_2017]\] \[[Stromberg and Roach 1993][research_stromberg_roach_1993]\] \[[Subsequence String Matching 2015][research_subsequence_string_2015]\] \[[Sudimac 2020][research_sudimac_2020]\] \[[Sukharev et al 2014][research_sukharev_zhukov_2014]\] \[[Sun and Wang 2018][research_sun_wang_2018]\] \[[Sung 2008][research_sung_2008]\] \[[Sung 2015][research_sung_2015]\] \[[Sung 2016][research_sung_2016]\] \[[Sung-Hwan Kim and Hwan-Gue Cho 2017][research_sunghwankim_hwanguecho_2017]\] \[[Surono 2016][research_surono_2016]\] \[[Susik 2017][research_susik_2017]\] \[[Sutinen and Tarhio 1996][research_sutinen_tarhio_1996]\] \[[Syaifudin et al 2025][research_syaifudin_adiatmaja_2025]\] \[[Tagliacozzo et al 1970][research_tagliacozzo_kochen_1970]\] \[[Tai 2018][research_tai_2018]\] \[[Takabatake et al 2014][research_takabatake_tabei_2014]\] \[[Takabatake et al 2016][research_takabatake_nakashima_2016]\] \[[Takasu][research_takasu]\] \[[Takeda 2001][research_takeda_2001]\] \[[Takenaka and Wakao 2015][research_takenaka_wakao_2015]\] \[[Takenaka and Wakao 2016][research_takenaka_wakao_2016]\] \[[Tarhio and Ukkonen 1990][research_tarhio_ukkonen_1990]\] \[[Tarhio and Ukkonen 1993][research_tarhio_ukkonen_1993]\] \[[The Orthographic Principles in 2009][research_the_orthographic_2009]\] \[[The role of orthographic 2019][research_the_role_2019]\] \[[Thompson et al 2015][research_thompson_panchev_2015]\] \[[Thumsuwan et al 2024][research_thumsuwan_sangurai_2024]\] \[[Tight and Vigil 2023][research_tight_vigil_2023]\] \[[Tissot and Dobson 2019][research_tissot_dobson_2019]\] \[[Titarenko and Yashchuk 2022][research_titarenko_yashchuk_2022]\] \[[Torrey 1945][research_torrey_1945]\] \[[Tseng and Chen 2016][research_tseng_chen_2016]\] \[[Tsur 2010][research_tsur_2010]\] \[[Tsuruoka et al 2007][research_tsuruoka_mcnaught_2007]\] \[[Ukkonen][research_ukkonen]\] \[[Ukkonen 1983][research_ukkonen_1983]\] \[[Ukkonen 1985][research_ukkonen_1985]\] \[[Ukkonen 1992][research_ukkonen_1992]\] \[[Ukkonen 1993][research_ukkonen_1993]\] \[[Ukkonen and Wood 1993][research_ukkonen_wood_1993]\] \[[Vaiwsri et al 2024][research_vaiwsri_ranbaduge_2024]\] \[[Van Bael and van Halteren 2007][research_vanbael_vanhalteren_2007]\] \[[Van Court and Herbordt][research_vancourt_herbordt]\] \[[Van Court and Herbordt 2007][research_vancourt_herbordt_2007]\] \[[van Engelenburg et al 2023][research_vanengelenburg_khademi_2023]\] \[[Vanderslice 1970][research_vanderslice_1970]\] \[[Vilares et al 2004][research_vilares_ribadas_2004]\] \[[Wang et al 2011][research_wang_li_2011]\] \[[Wang et al 2014][research_wang_wen_2014]\] \[[Wang et al 2014][research_wang_li_2014]\] \[[Wanniarachchi 2023][research_wanniarachchi_2023]\] \[[Waspada and Sarno 2020][research_waspada_sarno_2020]\] \[[Watcharapinchai and Rujikietgumjorn 2017][research_watcharapinchai_rujikietgumjorn_2017]\] \[[Wells 1972][research_wells_1972]\] \[[Wells 1984][research_wells_1984]\] \[[Westbury and Yang 2024][research_westbury_yang_2024]\] \[[Wieling et al 2012][research_wieling_margaretha_2012]\] \[[Winkler 2014][research_winkler_2014]\] \[[Winter et al 2020][research_winter_musliu_2020]\] \[[Wojnar et al][research_wojnar_mlynkova]\] \[[Word Similarity Calculation by 2015][research_word_similarity_2015]\] \[[Wright 1994][research_wright_1994]\] \[[Yan et al 2026][research_yan_mairano_2026]\] \[[Yan et al 2026][research_yan_mairano_2026_b]\] \[[Yang and Chen 2026][research_yang_chen_2026]\] \[[Yang et al 2022][research_yang_zheng_2022]\] \[[Yarkoni et al 2008][research_yarkoni_balota_2008]\] \[[Yencken and Baldwin 2008][research_yencken_baldwin_2008]\] \[[Yencken Lars and Baldwin Timothy 2008][research_yenckenlars_baldwintimothy_2008]\] \[[Yoneyama 2001][research_yoneyama_2001]\] \[[Yu et al 2016][research_yu_wang_2016]\] \[[Yuan et al 2014][research_yuan_wang_2014]\] \[[Yunju Suh 2010][research_yunjusuh_2010]\] \[[Yusupova 2025][research_yusupova_2025]\] \[[Yıldız et al 2025][research_yildiz_jamalova_2025]\] \[[Zgank and Kacic 2012][research_zgank_kacic_2012]\] \[[Zhang and Huang 2017][research_zhang_huang_2017]\] \[[Zhang and Osth 2023][research_zhang_osth_2023]\] \[[Zhang and Osth 2024][research_zhang_osth_2024]\] \[[Zhang and Zhang 2010][research_zhang_zhang_2010]\] \[[Zhang and Zhang 2020][research_zhang_zhang_2020]\] \[[Zhang et al 2014][research_zhang_yu_2014]\] \[[Zhang et al 2017][research_zhang_hu_2017]\] \[[Zhao et al 2012][research_zhao_xiao_2012]\] \[[Zhao et al 2013][research_zhao_xiao_2013]\] \[[Zheng et al 2013][research_zheng_zou_2013]\] \[[ZhiFeng Sun et al 2015][research_zhifengsun_jiehe_2015]\] \[[Zhou and Irani 2010][research_zhou_irani_2010]\] \[[Zhou et al][research_zhou_lu]\] \[[Zhou et al 2006][research_zhou_yuan_2006]\] \[[Zhou et al 2023][research_zhou_osth_2023]\] \[[Zobel and Dart 1996][research_zobel_dart_1996]\] \[[Zulfa et al 2020][research_zulfa_siahaan_2020]\] \[[Ögeyik 2022][research_ogeyik_2022]\]
+**483 records.** \[[Abdel Ghafour et al 2011][research_abdelghafour_elbastawissy_2011]\] \[[Aborot 2017][research_aborot_2017]\] \[[Abraham and Raj 2014][research_abraham_raj_2014]\] \[[Abreu Salas and Rico-Juan 2009][research_abreusalas_ricojuan_2009]\] \[[Afanasev and Lyashevskaya 2024][research_afanasev_lyashevskaya_2024]\] \[[Aguasvivas et al 2021][research_aguasvivas_testolin_2021]\] \[[Ahmed et al 2022][research_ahmed_suffian_2022]\] \[[Aksoy et al 2019][research_aksoy_uguz_2019]\] \[[Akutsu 1994][research_akutsu_1994]\] \[[Akutsu 1995][research_akutsu_1995]\] \[[Akutsu 2006][research_akutsu_2006]\] \[[Akutsu et al 2006][research_akutsu_fukagawa_2006]\] \[[Akutsu et al 2008][research_akutsu_fukagawa_2008]\] \[[Al-Bakry and Al-Rikaby 2016][research_albakry_alrikaby_2016]\] \[[Al-Dabbagh and Barnouti 2017][research_aldabbagh_barnouti_2017]\] \[[Aldwairi and Flaifel 2012][research_aldwairi_flaifel_2012]\] \[[Allauzen and Raffinot 2000][research_allauzen_raffinot_2000]\] \[[Amir et al][research_amir_aumann]\] \[[Amir et al 2010][research_amir_eisenberg_2010]\] \[[Andrews 1997][research_andrews_1997]\] \[[Annisa Sihotang 2024][research_annisasihotang_2024]\] \[[Appendix I Orthographic and 2025][research_appendix_i_2025]\] \[[Appendix I. Orthographic and 2022][research_appendix_i_2022]\] \[[Approximate String Matching 1994][research_approximate_string_1994]\] \[[Approximate String Matching Techniques 2014][research_approximate_string_2014]\] \[[Aratsu et al 2009][research_aratsu_hirata_2009]\] \[[Aratsu et al 2010][research_aratsu_hirata_2010]\] \[[Arslan 2006][research_arslan_2006]\] \[[Arslan and Egecioglu][research_arslan_egecioglu]\] \[[Atallah et al 2001][research_atallah_chyzak_2001]\] \[[Audhkhasi and Verma 2007][research_audhkhasi_verma_2007]\] \[[Austin 1957][research_austin_1957]\] \[[Author 2026][research_author_2026]\] \[[Ayad et al 2016][research_ayad_pissis_2016]\] \[[Aygun 2017][research_aygun_2017]\] \[[Babayev 2025][research_babayev_2025]\] \[[Baeza-Yates and G. Navarro 1999][research_baezayatesandgnavarro_1999]\] \[[Baeza-Yates and Navarro][research_baezayates_navarro]\] \[[Baeza-Yates and Navarro 1996][research_baezayates_navarro_1996]\] \[[Baeza-Yates and Navarro 1997][research_baezayates_navarro_1997]\] \[[Baeza-Yates and Perleberg 1992][research_baezayates_perleberg_1992]\] \[[Baeza-Yates and Perleberg 1996][research_baezayates_perleberg_1996]\] \[[Bakar et al 2000][research_bakar_sembok_2000]\] \[[Baldwin et al 2016][research_baldwin_liang_2016]\] \[[Baloi et al 2022][research_baloi_belean_2022]\] \[[Baloi et al 2023][research_baloi_belean_2023]\] \[[Baroni et al 2002][research_baroni_matiasek_2002]\] \[[Bartolini et al 2002][research_bartolini_ciaccia_2002]\] \[[Barton et al 2014][research_barton_iliopoulos_2014]\] \[[Basheer Fattah 2022][research_basheerfattah_2022]\] \[[Batu et al 2006][research_batu_ergun_2006]\] \[[Baxter 1989][research_baxter_1989]\] \[[Beck and Kerschbaum 2013][research_beck_kerschbaum_2013]\] \[[Belazzougui and Venturini 2012][research_belazzougui_venturini_2012]\] \[[Belazzougui and Venturini 2015][research_belazzougui_venturini_2015]\] \[[Berghel et al][research_berghel_roach]\] \[[Bernard and Ajah 2025][research_bernard_ajah_2025]\] \[[Bhavana et al 2024][research_bhavana_rao_2024]\] \[[Bille 2011][research_bille_2011]\] \[[Bille et al][research_bille_fagerberg]\] \[[Bille et al 2009][research_bille_fagerberg_2009]\] \[[Bisson 2024][research_bisson_2024]\] \[[Block Edit Distance][research_block_edit]\] \[[Boitsov 2002][research_boitsov_2002]\] \[[Bruder and Silverman 1972][research_bruder_silverman_1972]\] \[[Brzeski and Roman 2023][research_brzeski_roman_2023]\] \[[Bunke and Bühler 1993][research_bunke_buhler_1993]\] \[[Bunke and Csirik 1995][research_bunke_csirik_1995]\] \[[Burt and Porter 2022][research_burt_porter_2022]\] \[[Buscaldi et al 2014][research_buscaldi_garciaflores_2014]\] \[[Calvo-Zaragoza et al 2016][research_calvozaragoza_delahiguera_2016]\] \[[Cantone et al 2025][research_cantone_faro_2025]\] \[[Carbonnel and Anquetil][research_carbonnel_anquetil]\] \[[Cha and Srihari 2003][research_cha_srihari_2003]\] \[[Chang and Lampe 1992][research_chang_lampe_1992]\] \[[Chang and Lawler][research_chang_lawler]\] \[[Chang and Lawler 1994][research_chang_lawler_1994]\] \[[Chang and Marr 1994][research_chang_marr_1994]\] \[[Chapter Seven Orthographic and 2003][research_chapter_seven_2003]\] \[[Chaware and Rao 2010][research_chaware_rao_2010]\] \[[Chen 2017][research_chen_2017]\] \[[Chen et al 2020][research_chen_yang_2020]\] \[[Chen et al 2020][research_chen_wilson_2020]\] \[[Chernyak 2017][research_chernyak_2017]\] \[[Chi-Chien Pan et al 2002][research_chichienpan_kaihsiangyang_2002]\] \[[Choi and Oh 2023][research_choi_oh_2023]\] \[[Christen and Gayler 2015][research_christen_gayler_2015]\] \[[Christopher Jaisunder et al 2017][research_christopherjaisunder_ahmed_2017]\] \[[Chung et al 2011][research_chung_hsu_2011]\] \[[Ciobanu and Dinu 2014][research_ciobanu_dinu_2014]\] \[[Clifford and Iliopoulos 2004][research_clifford_iliopoulos_2004]\] \[[Cohen 2013][research_cohen_2013]\] \[[Cole and Hariharan 2002][research_cole_hariharan_2002]\] \[[Constrained Exact String Matching 2015][research_constrained_exact_2015]\] \[[Cormode and Muthukrishnan 2007][research_cormode_muthukrishnan_2007]\] \[[Crochemore and Lecroq][research_crochemore_lecroq]\] \[[Dai and Zhao 2009][research_dai_zhao_2009]\] \[[Daniel Wu 2023][research_danielwu_2023]\] \[[DanishAli and Farooqui 2013][research_danishali_farooqui_2013]\] \[[DanishAli and Farooqui 2013][research_danishali_farooqui_2013_b]\] \[[Danvy and Rohde 2005][research_danvy_rohde_2005]\] \[[Danvy and Rohde 2006][research_danvy_rohde_2006]\] \[[Das et al 2025][research_das_gilbert_2025]\] \[[Davuth and Kim 2013][research_davuth_kim_2013]\] \[[de la Higuera and Micó 2008][research_delahiguera_mico_2008]\] \[[Debbarma et al 2014][research_debbarma_purkayastha_2014]\] \[[Deforche et al 2023][research_deforche_devos_2023]\] \[[Deforche et al 2024][research_deforche_devos_2024]\] \[[Degroot 2004][research_degroot_2004]\] \[[Degroot 2005][research_degroot_2005]\] \[[Degroot 2014][research_degroot_2014]\] \[[Dimov 1994][research_dimov_1994]\] \[[Ding et al 2009][research_ding_li_2009]\] \[[Dong Deng et al 2013][research_dongdeng_guoliangli_2013]\] \[[dos Reis 2005][research_dosreis_2005]\] \[[Droppo and Acero 2010][research_droppo_acero_2010]\] \[[Duan et al 2020][research_duan_long_2020]\] \[[Duñabeitia et al 2007][research_dunabeitia_perea_2007]\] \[[Dzido and Krzywdziński 2015][research_dzido_krzywdzinski_2015]\] \[[El-Mabrouk and Crochemore 1996][research_elmabrouk_crochemore_1996]\] \[[Essex 2019][research_essex_2019]\] \[[Exact String Matching 2015][research_exact_string_2015]\] \[[Exact String Matching The 1997][research_exact_string_1997]\] \[[Fadlil et al 2022][research_fadlil_sunardi_2022]\] \[[Faleye and Adegoju 2013][research_faleye_adegoju_2013]\] \[[Fauzan et al 2021][research_fauzan_siahaan_2021]\] \[[Favata][research_favata]\] \[[Ferri et al 2018][research_ferri_tissot_2018]\] \[[Fiori et al 2021][research_fiori_pakalen_2021]\] \[[Fischer 1982][research_fischer_1982]\] \[[Foggia et al 2015][research_foggia_gauzere_2015]\] \[[Frances et al 2020][research_frances_navarrabarindelli_2020]\] \[[Frances et al 2021][research_frances_navarrabarindelli_2021]\] \[[Frances et al 2022][research_frances_navarrabarindelli_2022]\] \[[Fredriksson 2003][research_fredriksson_2003]\] \[[Fredriksson 2004][research_fredriksson_2004]\] \[[Fredriksson 2006][research_fredriksson_2006]\] \[[Fredriksson and Navarro 2003][research_fredriksson_navarro_2003]\] \[[Fredriksson and Navarro 2004][research_fredriksson_navarro_2004]\] \[[Fredriksson and Navarro 2004][research_fredriksson_navarro_2004_b]\] \[[Fukagawa et al 2009][research_fukagawa_akutsu_2009]\] \[[Gali et al 2019][research_gali_mariescuistodor_2019]\] \[[Galil and Giancarlo 1988][research_galil_giancarlo_1988]\] \[[Galil and Park 1990][research_galil_park_1990]\] \[[Gawrychowski 2012][research_gawrychowski_2012]\] \[[Generalized String Matching 2015][research_generalized_string_2015]\] \[[Gewurz and Vietri 2007][research_gewurz_vietri_2007]\] \[[Giegerich et al 1997][research_giegerich_kurtz_1997]\] \[[Gonçalves 2007][research_goncalves_2007]\] \[[Gouda et al 2016][research_gouda_arafa_2016]\] \[[Graph Edit Distance 2007][research_graph_edit_2007]\] \[[Grigor'eva 1983][research_grigoreva_1983]\] \[[Gudschinsky et al 1970][research_gudschinsky_popovich_1970]\] \[[Guo 2022][research_guo_2022]\] \[[Guo 2023][research_guo_2023]\] \[[Guo et al 2019][research_guo_jiang_2019]\] \[[Gvasalia et al 2025][research_gvasalia_pelucchi_2025]\] \[[Haider et al 2025][research_haider_saed_2025]\] \[[Hall and Dowling 1980][research_hall_dowling_1980]\] \[[Han and Oh 2018][research_han_oh_2018]\] \[[Hancox and Polatidis 2013][research_hancox_polatidis_2013]\] \[[Hanmei et al 2019][research_hanmei_yu_2019]\] \[[Hashem 2025][research_hashem_2025]\] \[[Hazman et al 2025][research_hazman_mckeever_2025]\] \[[Heggarty et al 2005][research_heggarty_mcmahon_2005]\] \[[Hema 2024][research_hema_2024]\] \[[Heumann and Wittum 2009][research_heumann_wittum_2009]\] \[[Ho et al 2017][research_ho_oh_2017]\] \[[Ho et al 2018][research_ho_oh_2018]\] \[[Hoenigswald 1960][research_hoenigswald_1960]\] \[[Holub and Melichar 2000][research_holub_melichar_2000]\] \[[Holutiak-Hallick 1972][research_holutiakhallick_1972]\] \[[Hon et al][research_hon_lam]\] \[[Hout et al 2023][research_hout_montelongo_2023]\] \[[Hrbek and Holub 2016][research_hrbek_holub_2016]\] \[[Htun Htet Htet and Sornlertlamvanich Virach 2018][research_htunhtethtet_sornlertlamvanichvirach_2018]\] \[[Huerta 2010][research_huerta_2010]\] \[[Huynh et al 2004][research_huynh_hon_2004]\] \[[Hyyrö 2003][research_hyyro_2003]\] \[[Hyyrö 2004][research_hyyro_2004]\] \[[Hyyrö 2005][research_hyyro_2005]\] \[[Hyyrö 2005][research_hyyro_2005_b]\] \[[Hyyrö 2008][research_hyyro_2008]\] \[[Hyyrö and Navarro 2002][research_hyyro_navarro_2002]\] \[[Hyyrö and Navarro 2004][research_hyyro_navarro_2004]\] \[[Ifada et al 2023][research_ifada_rachman_2023]\] \[[Indexed Approximate String Matching][research_indexed_approximate]\] \[[Jeong et al 2014][research_jeong_choi_2014]\] \[[Jia and Fu 2012][research_jia_fu_2012]\] \[[Jia et al 2013][research_jia_fu_2013]\] \[[Jiang et al 2013][research_jiang_deng_2013]\] \[[Jiang et al 2014][research_jiang_li_2014]\] \[[Jimenez 2016][research_jimenez_2016]\] \[[Jin Hwan Park][research_jinhwanpark]\] \[[Jokisch and Hain 2017][research_jokisch_hain_2017]\] \[[Jordaan and Marshall 2015][research_jordaan_marshall_2015]\] \[[Judson 2005][research_judson_2005]\] \[[Jumde and Keskar 2020][research_jumde_keskar_2020]\] \[[Jupin et al 2012][research_jupin_shi_2012]\] \[[Jupin et al 2016][research_jupin_shi_2016]\] \[[Kaiser 1964][research_kaiser_1964]\] \[[Kaleem et al 2014][research_kaleem_oshea_2014]\] \[[Kamali 2026][research_kamali_2026]\] \[[Kant et al 2020][research_kant_shrivastava_2020]\] \[[Karpov et al 2023][research_karpov_zhang_2023]\] \[[Kashyap and Oommen 1981][research_kashyap_oommen_1981]\] \[[Katsumata and Miura 2009][research_katsumata_miura_2009]\] \[[Katsumata et al 2010][research_katsumata_miura_2010]\] \[[Kaur and Singh 2015][research_kaur_singh_2015]\] \[[Kavros and Tzitzikas 2022][research_kavros_tzitzikas_2022]\] \[[Khalid et al 2022][research_khalid_yousaf_2022]\] \[[Khan et al 2022][research_khan_hosen_2022]\] \[[Kianfar et al 2018][research_kianfar_pockrandt_2018]\] \[[Kim 2021][research_kim_2021]\] \[[Kim and Shawe-Taylor 1992][research_kim_shawetaylor_1992]\] \[[Kiwi et al][research_kiwi_navarro]\] \[[Kiwi et al 2011][research_kiwi_navarro_2011]\] \[[Klassen 2022][research_klassen_2022]\] \[[Knox 2019][research_knox_2019]\] \[[Komatsu et al 2014][research_komatsu_okuta_2014]\] \[[Kondrak and Sherif 2006][research_kondrak_sherif_2006]\] \[[Koneru et al 2016][research_koneru_pulla_2016]\] \[[Kontorovich and Trachtenberg 2012][research_kontorovich_trachtenberg_2012]\] \[[Korotkov 2010][research_korotkov_2010]\] \[[Krauthgamer 2013][research_krauthgamer_2013]\] \[[Kuboi et al 2014][research_kuboi_baba_2014]\] \[[Kucherov et al 2014][research_kucherov_salikhov_2014]\] \[[Kucherov et al 2016][research_kucherov_salikhov_2016]\] \[[Kumar et al 2023][research_kumar_parida_2023]\] \[[Kunchukuttan and Bhattacharyya 2021][research_kunchukuttan_bhattacharyya_2021]\] \[[Kunchukuttan et al 2018][research_kunchukuttan_khapra_2018]\] \[[Kysela 2018][research_kysela_2018]\] \[[Kärkkäinen 2015][research_karkkainen_2015]\] \[[Kärkkäinen and Na 2007][research_karkkainen_na_2007]\] \[[Kärkkäinen et al 2000][research_karkkainen_navarro_2000]\] \[[Ladefoged 1969][research_ladefoged_1969]\] \[[Lai][research_lai]\] \[[LaMonica 2014][research_lamonica_2014]\] \[[Landau and Vishkin 1989][research_landau_vishkin_1989]\] \[[Li et al 2013][research_li_deng_2013]\] \[[Li et al 2014][research_li_wang_2014]\] \[[Li et al 2023][research_li_wu_2023]\] \[[Li et al 2023][research_li_zheng_2023]\] \[[Li et al 2024][research_li_feng_2024]\] \[[Libovický and Fraser 2022][research_libovicky_fraser_2022]\] \[[Lin and Chen 2002][research_lin_chen_2002]\] \[[Lin and Wang 2011][research_lin_wang_2011]\] \[[Lin et al 2014][research_lin_chen_2014]\] \[[Lin et al 2014][research_lin_yu_2014]\] \[[Lin et al 2024][research_lin_liang_2024]\] \[[Liu et al 2007][research_liu_huang_2007]\] \[[Liu et al 2014][research_liu_han_2014]\] \[[Liu et al 2025][research_liu_wei_2025]\] \[[Loo 2014][research_loo_2014]\] \[[Loo 2026][research_loo_2026]\] \[[Lopresti and Tomkins 1997][research_lopresti_tomkins_1997]\] \[[Lopresti and Wilfong][research_lopresti_wilfong]\] \[[Lu et al 2001][research_lu_su_2001]\] \[[Lu et al 2013][research_lu_lin_2013]\] \[[Lu et al 2014][research_lu_du_2014]\] \[[Luján-Mora and Palomar 2001][research_lujanmora_palomar_2001]\] \[[Lupker 1982][research_lupker_1982]\] \[[Mahmood 2022][research_mahmood_2022]\] \[[Makinen][research_makinen]\] \[[Man et al 2013][research_man_nakano_2013]\] \[[Manning and Shofner 1991][research_manning_shofner_1991]\] \[[Martinek et al 2007][research_martinek_fucik_2007]\] \[[Marzal et al 2003][research_marzal_mollineda_2003]\] \[[Masihi and Charkari 2005][research_masihi_charkari_2005]\] \[[Matsumoto et al][research_matsumoto_kida]\] \[[Matveev][research_matveev]\] \[[McCallum et al 2005][research_mccallum_bellare_2005]\] \[[McClanahan and Li 2024][research_mcclanahan_li_2024]\] \[[Mednis and Aurich 2012][research_mednis_aurich_2012]\] \[[Melichar 1995][research_melichar_1995]\] \[[Mergen 2022][research_mergen_2022]\] \[[Michailidis and Margaritis][research_michailidis_margaritis]\] \[[Mishina and Kojima][research_mishina_kojima]\] \[[Mishra et al 2013][research_mishra_gandhi_2013]\] \[[Mittal et al 2014][research_mittal_bhatt_2014]\] \[[Mohammed and Aliwy 2024][research_mohammed_aliwy_2024]\] \[[Mohd Anuar et al 2014][research_mohdanuar_setchi_2014]\] \[[Mollineda et al][research_mollineda_vidal]\] \[[Montalvo et al 2012][research_montalvo_pardo_2012]\] \[[Montgomery and O'Sullivan 2014][research_montgomery_osullivan_2014]\] \[[Moreau et al 2008][research_moreau_yvon_2008]\] \[[Moritz et al 2020][research_moritz_heard_2020]\] \[[Morris and Still 2012][research_morris_still_2012]\] \[[Morris et al 2026][research_morris_haye_2026]\] \[[Multidimensional String Matching, 1999][research_multidimensional_string]\] \[[Munawaroh et al 2020][research_munawaroh_siahaan_2020]\] \[[Muthukrishnan][research_muthukrishnan]\] \[[Myers 1998][research_myers_1998]\] \[[Nakagawa et al 2018][research_nakagawa_sakamoto_2018]\] \[[Nakano 2012][research_nakano_2012]\] \[[Nakano 2013][research_nakano_2013]\] \[[Names A Journal of Onomastics and Hall 1969][research_namesajournalofonomastics_hall_1969]\] \[[Narita et al 2012][research_narita_nakadai_2012]\] \[[Navarro 2001][research_navarro_2001]\] \[[Navarro 2008][research_navarro_2008]\] \[[Navarro 2014][research_navarro_2014]\] \[[Navarro 2016][research_navarro_2016]\] \[[Navarro and Baeza-Yates 1999][research_navarro_baezayates_1999]\] \[[Navarro and Baeza-Yates 1999][research_navarro_baezayates_1999_b]\] \[[Navarro and Chávez 2006][research_navarro_chavez_2006]\] \[[Navarro and Fredriksson 2004][research_navarro_fredriksson_2004]\] \[[Navarro et al][research_navarro_kida]\] \[[Navarro¹² 1997][research_navarro12_1997]\] \[[Navarro¹² 1997][research_navarro12_1997_b]\] \[[Nelson and Borden 1973][research_nelson_borden_1973]\] \[[Nguyen][research_nguyen]\] \[[Nguyen and Conrad 2014][research_nguyen_conrad_2014]\] \[[Nguyen and Conrad 2015][research_nguyen_conrad_2015]\] \[[Novitra 2023][research_novitra_2023]\] \[[Obaid et al 2023][research_obaid_nesbit_2023]\] \[[Ohtake et al 2004][research_ohtake_sekiguchi_2004]\] \[[Ortolani 2009][research_ortolani_2009]\] \[[Owolabi and Ferguson 1988][research_owolabi_ferguson_1988]\] \[[Owolabi and McGregor 1988][research_owolabi_mcgregor_1988]\] \[[P. 2016][research_p_2016]\] \[[P. Howard, II 2018][research_phowardii_2018]\] \[[Papamichail and Papamichail 2009][research_papamichail_papamichail_2009]\] \[[Paramonov et al 2016][research_paramonov_shigarov_2016]\] \[[Park et al 2007][research_park_gilbert_2007]\] \[[Pelamatti et al 1983][research_pelamatti_umilta_1983]\] \[[Perbandingan Algoritma Edit Distance 2014][research_perbandingan_algoritma_2014]\] \[[Peressotti et al 2003][research_peressotti_cubelli_2003]\] \[[Pettorossi 2021][research_pettorossi_2021]\] \[[Petty et al 2022][research_petty_hannig_2022]\] \[[Pevzner and Waterman][research_pevzner_waterman]\] \[[Phonetic similarity and multisegmental 1994][research_phonetic_similarity_1994]\] \[[Phuduhudu et al 2025][research_phuduhudu_moeti_2025]\] \[[Pissis and Retha 2015][research_pissis_retha_2015]\] \[[Policriti and Prezza 2015][research_policriti_prezza_2015]\] \[[Post and Carrecker 2002][research_post_carrecker_2002]\] \[[Post and Toussaint 2011][research_post_toussaint_2011]\] \[[Pouliquen 2008][research_pouliquen_2008]\] \[[Rachkovskij 2019][research_rachkovskij_2019]\] \[[Rama and Borin 2015][research_rama_borin_2015]\] \[[Rani and Singh 2018][research_rani_singh_2018]\] \[[Revesz 2021][research_revesz_2021]\] \[[Rice et al 1997][research_rice_bunke_1997]\] \[[Rico-Juan et al 2020][research_ricojuan_valeromas_2020]\] \[[Riesen 2015][research_riesen_2015]\] \[[Riesen 2015][research_riesen_2015_b]\] \[[Riesen 2015][research_riesen_2015_c]\] \[[Riesen 2015][research_riesen_2015_d]\] \[[Riesen 2015][research_riesen_2015_e]\] \[[Riesen and Schmidt 2019][research_riesen_schmidt_2019]\] \[[Riesen et al 2018][research_riesen_hanne_2018]\] \[[Riesen et al 2026][research_riesen_leonardi_2026]\] \[[Ristad and Yianilos 1998][research_ristad_yianilos_1998]\] \[[Robles-Kelly and Hancock 2002][research_robleskelly_hancock_2002]\] \[[Robles-Kelly and Hancock 2003][research_robleskelly_hancock_2003]\] \[[Robles-Kelly and Hancock 2004][research_robleskelly_hancock_2004]\] \[[Rochmawati and Kusumaningrum 2016][research_rochmawati_kusumaningrum_2016]\] \[[Rodriguez et al][research_rodriguez_kandel]\] \[[Rodriguez et al 2004][research_rodriguez_last_2004]\] \[[Roopa and Mahantesh 2022][research_roopa_mahantesh_2022]\] \[[Russo et al][research_russo_navarro]\] \[[Russo et al 2008][research_russo_navarro_2008]\] \[[Russo et al 2009][research_russo_navarro_2009]\] \[[Saadah et al 2020][research_saadah_saputro_2020]\] \[[Sadeh][research_sadeh]\] \[[Sadeh][research_sadeh_b]\] \[[Saikrishna and Ray 2013][research_saikrishna_ray_2013]\] \[[Salmela and Tarhio 2010][research_salmela_tarhio_2010]\] \[[Salmela et al 2009][research_salmela_tarhio_2009]\] \[[Sandeep Chaware and Srikantha Rao 2011][research_sandeepchaware_srikantharao_2011]\] \[[Sangurai et al 2024][research_sangurai_thumsuwan_2024]\] \[[Sariyar 2026][research_sariyar_2026]\] \[[Sastry and Ranganathan][research_sastry_ranganathan]\] \[[Sauleau et al 2005][research_sauleau_paumier_2005]\] \[[Schachter 1961][research_schachter_1961]\] \[[Schraagen 2011][research_schraagen_2011]\] \[[Schwarz et al 2017][research_schwarz_pawlik_2017]\] \[[Scott and Baddeley 1969][research_scott_baddeley_1969]\] \[[Sequential Approximate String Matching][research_sequential_approximate]\] \[[Serratosa 2019][research_serratosa_2019]\] \[[ShabnamHasan et al 2015][research_shabnamhasan_ahmed_2015]\] \[[Shah and Kumar Singh 2014][research_shah_kumarsingh_2014]\] \[[Shah and Kumar Singh 2014][research_shah_kumarsingh_2014_b]\] \[[Shaikh et al 2011][research_shaikh_memon_2011]\] \[[Shan et al 2012][research_shan_guo_2012]\] \[[Shang and Merrettal 1996][research_shang_merrettal_1996]\] \[[Shapira and Storer 2003][research_shapira_storer_2003]\] \[[Shelake and Shekokar 2022][research_shelake_shekokar_2022]\] \[[Shilin Zhang and Bo Zhang 2010][research_shilinzhang_bozhang_2010]\] \[[Shin and Niiyama 2018][research_shin_niiyama_2018]\] \[[Siew 2018][research_siew_2018]\] \[[Sihotang 2023][research_sihotang_2023]\] \[[Simanjuntak et al 2015][research_simanjuntak_hutajulu_2015]\] \[[Skurzok and Ziółko 2013][research_skurzok_ziolko_2013]\] \[[Smiley and Kübler 2017][research_smiley_kubler_2017]\] \[[Smith 2000][research_smith_2000]\] \[[Smith and Pierzchala][research_smith_pierzchala]\] \[[Spanish Names Orthographic Features 2020][research_spanish_names_orthographic_2020]\] \[[Srivastava 2021][research_srivastava_2021]\] \[[Srivastava 2023][research_srivastava_2023]\] \[[Stanchev et al 2019][research_stanchev_wang_2019]\] \[[String Matching 1994][research_string_matching_1994]\] \[[String Matching Algorithm 2011][research_string_matching_2011]\] \[[String-Matching 2017][research_string_matching_2017]\] \[[Subsequence String Matching 2015][research_subsequence_string_2015]\] \[[Sukharev et al 2014][research_sukharev_zhukov_2014]\] \[[Sun and Wang 2018][research_sun_wang_2018]\] \[[Sung 2008][research_sung_2008]\] \[[Sung 2015][research_sung_2015]\] \[[Sung 2016][research_sung_2016]\] \[[Sung-Hwan Kim and Hwan-Gue Cho 2017][research_sunghwankim_hwanguecho_2017]\] \[[Susik 2017][research_susik_2017]\] \[[Sutinen and Tarhio 1996][research_sutinen_tarhio_1996]\] \[[Syaifudin et al 2025][research_syaifudin_adiatmaja_2025]\] \[[Tagliacozzo et al 1970][research_tagliacozzo_kochen_1970]\] \[[Tai 2018][research_tai_2018]\] \[[Takabatake et al 2014][research_takabatake_tabei_2014]\] \[[Takabatake et al 2016][research_takabatake_nakashima_2016]\] \[[Takasu][research_takasu]\] \[[Takeda 2001][research_takeda_2001]\] \[[Takenaka and Wakao 2015][research_takenaka_wakao_2015]\] \[[Takenaka and Wakao 2016][research_takenaka_wakao_2016]\] \[[Tarhio and Ukkonen 1990][research_tarhio_ukkonen_1990]\] \[[Tarhio and Ukkonen 1993][research_tarhio_ukkonen_1993]\] \[[The role of orthographic 2019][research_the_role_2019]\] \[[Thompson et al 2015][research_thompson_panchev_2015]\] \[[Thumsuwan et al 2024][research_thumsuwan_sangurai_2024]\] \[[Tissot and Dobson 2019][research_tissot_dobson_2019]\] \[[Tseng and Chen 2016][research_tseng_chen_2016]\] \[[Tsur 2010][research_tsur_2010]\] \[[Tsuruoka et al 2007][research_tsuruoka_mcnaught_2007]\] \[[Ukkonen][research_ukkonen]\] \[[Ukkonen 1983][research_ukkonen_1983]\] \[[Ukkonen 1985][research_ukkonen_1985]\] \[[Ukkonen 1992][research_ukkonen_1992]\] \[[Ukkonen 1993][research_ukkonen_1993]\] \[[Ukkonen and Wood 1993][research_ukkonen_wood_1993]\] \[[Vaiwsri et al 2024][research_vaiwsri_ranbaduge_2024]\] \[[Van Court and Herbordt][research_vancourt_herbordt]\] \[[Van Court and Herbordt 2007][research_vancourt_herbordt_2007]\] \[[van Engelenburg et al 2023][research_vanengelenburg_khademi_2023]\] \[[Vilares et al 2004][research_vilares_ribadas_2004]\] \[[Wang et al 2011][research_wang_li_2011]\] \[[Wang et al 2014][research_wang_wen_2014]\] \[[Wang et al 2014][research_wang_li_2014]\] \[[Wanniarachchi 2023][research_wanniarachchi_2023]\] \[[Waspada and Sarno 2020][research_waspada_sarno_2020]\] \[[Watcharapinchai and Rujikietgumjorn 2017][research_watcharapinchai_rujikietgumjorn_2017]\] \[[Westbury and Yang 2024][research_westbury_yang_2024]\] \[[Wieling et al 2012][research_wieling_margaretha_2012]\] \[[Winkler 2014][research_winkler_2014]\] \[[Winter et al 2020][research_winter_musliu_2020]\] \[[Wojnar et al][research_wojnar_mlynkova]\] \[[Word Similarity Calculation by 2015][research_word_similarity_2015]\] \[[Wright 1994][research_wright_1994]\] \[[Yan et al 2026][research_yan_mairano_2026]\] \[[Yan et al 2026][research_yan_mairano_2026_b]\] \[[Yang and Chen 2026][research_yang_chen_2026]\] \[[Yang et al 2022][research_yang_zheng_2022]\] \[[Yarkoni et al 2008][research_yarkoni_balota_2008]\] \[[Yencken and Baldwin 2008][research_yencken_baldwin_2008]\] \[[Yencken Lars and Baldwin Timothy 2008][research_yenckenlars_baldwintimothy_2008]\] \[[Yoneyama 2001][research_yoneyama_2001]\] \[[Yu et al 2016][research_yu_wang_2016]\] \[[Yuan et al 2014][research_yuan_wang_2014]\] \[[Yunju Suh 2010][research_yunjusuh_2010]\] \[[Zgank and Kacic 2012][research_zgank_kacic_2012]\] \[[Zhang and Osth 2023][research_zhang_osth_2023]\] \[[Zhang and Osth 2024][research_zhang_osth_2024]\] \[[Zhang and Zhang 2010][research_zhang_zhang_2010]\] \[[Zhang and Zhang 2020][research_zhang_zhang_2020]\] \[[Zhang et al 2014][research_zhang_yu_2014]\] \[[Zhang et al 2017][research_zhang_hu_2017]\] \[[Zhao et al 2012][research_zhao_xiao_2012]\] \[[Zhao et al 2013][research_zhao_xiao_2013]\] \[[Zheng et al 2013][research_zheng_zou_2013]\] \[[ZhiFeng Sun et al 2015][research_zhifengsun_jiehe_2015]\] \[[Zhou and Irani 2010][research_zhou_irani_2010]\] \[[Zhou et al][research_zhou_lu]\] \[[Zhou et al 2006][research_zhou_yuan_2006]\] \[[Zhou et al 2023][research_zhou_osth_2023]\] \[[Zobel and Dart 1996][research_zobel_dart_1996]\] \[[Zulfa et al 2020][research_zulfa_siahaan_2020]\] \[[Ögeyik 2022][research_ogeyik_2022]\]
 
 ### Names refused because another name was near them
 
 **The same administrative act, performed somewhere it is studied.** Look-alike and sound-alike names, proprietary against nonproprietary naming, and the refusal of a proposed name because an approved one is near it. **A drug regulator does what the Air Force did to X-52A, and does it against criteria it publishes** \[[Best Practices in Developing Proprietary Names for Human Prescription Drug Products, Guidance for Industry, December 2020][ref_fda_naming]\].
 
-**385 records.** \[[A Proposed Method for 2011][research_a_proposed_2011]\] \[[Addressing LASA Medication Errors 2026][research_addressing_lasa_2026]\] \[[Adiana et al 2026][research_adiana_fakhriah_2026]\] \[[Ahluwalia and Gürhan-Canli 2000][research_ahluwalia_gurhancanli_2000]\] \[[Ahuja and Ahuja 2024][research_ahuja_ahuja_2024]\] \[[Alsalameen et al 2024][research_alsalameen_malsuliman_2024]\] \[[Altbach 2015][research_altbach_2015]\] \[[andNa 1996][research_na_1996]\] \[[andNa 1997][research_na_1997]\] \[[andNa 2004][research_na_2004]\] \[[andNa 2005][research_na_2005]\] \[[andNa 2006][research_na_2006]\] \[[Anggiratih 2025][research_anggiratih_2025]\] \[[Anonymous 2013][research_anonymous_2013]\] \[[Archer 2020][research_archer_2020]\] \[[Are electronic prescribing systems 2026][research_are_electronic_2026]\] \[[Aronson 1995][research_aronson_1995]\] \[[Aschenbrenner 2025][research_aschenbrenner_2025]\] \[[Aschenbrenner 2025][research_aschenbrenner_2025_b]\] \[[Assessment of Look-Alike, Sound-Alike 2020][research_assessment_of_2020]\] \[[Auh and Shih 2007][research_auh_shih_2007]\] \[[Aziz 1972][research_aziz_1972]\] \[[Baffour and Oyekoya 2024][research_baffour_oyekoya_2024]\] \[[Baker 2002][research_baker_2002]\] \[[Bakker 2017][research_bakker_2017]\] \[[Balabanis and Craven 1997][research_balabanis_craven_1997]\] \[[Balashov and Nikiforov 2019][research_balashov_nikiforov_2019]\] \[[Balocco et al 2025][research_balocco_aronson_2025]\] \[[Bansal et al 2026][research_bansal_khobragade_2026]\] \[[Basco et al 2010][research_basco_ebeling_2010]\] \[[Basco et al 2016][research_basco_garner_2016]\] \[[Baxter and Lowrey 2011][research_baxter_lowrey_2011]\] \[[Becherucci et al 2020][research_becherucci_landini_2020]\] \[[Ben Cheikha et al 2024][research_bencheikha_meftah_2024]\] \[[Benito Fernández et al 2026][research_benitofernandez_labordacobos_2026]\] \[[Bermel 2022][research_bermel_2022]\] \[[Beyea 2007][research_beyea_2007]\] \[[Bhat and Gutzwiller 2026][research_bhat_gutzwiller_2026]\] \[[Bohannon 2016][research_bohannon_2016]\] \[[Bonner 2020][research_bonner_2020]\] \[[Boonpaisarnsatit][research_boonpaisarnsatit]\] \[[Boring 1997][research_boring_1997]\] \[[Bottinelli et al 1999][research_bottinelli_gouguenheim_1999]\] \[[Boush 1997][research_boush_1997]\] \[[Brand Name 2004][research_brand_name_2004]\] \[[Brand-Name Capitalism and Professional 2023][research_brand_name_capitalism_2023]\] \[[Brauneis and Heald 2010][research_brauneis_heald_2010]\] \[[Bristow and Asquith 1999][research_bristow_asquith_1999]\] \[[Brodell 1997][research_brodell_1997]\] \[[Brushwood 2019][research_brushwood_2019]\] \[[Bryan][research_bryan]\] \[[Bryan et al 2020][research_bryan_aronson_2020]\] \[[Buckley 1980][research_buckley_1980]\] \[[Burt et al 2017][research_burt_mcfarlane_2017]\] \[[Carney 2008][research_carney_2008]\] \[[Carney et al 2011][research_carney_gazarian_2011]\] \[[Carothers 1999][research_carothers_1999]\] \[[Challenges in Drug Identification 2026][research_challenges_in_2026]\] \[[Champagne 2025][research_champagne_2025]\] \[[Chan et al 2018][research_chan_muller_2018]\] \[[Chanakit 2013][research_chanakit_2013]\] \[[Chen et al 2024][research_chen_chen_2024]\] \[[Chen et al 2025][research_chen_luo_2025]\] \[[Cheng et al 2018][research_cheng_salazar_2018]\] \[[Chiche et al 2008][research_chiche_thomas_2008]\] \[[Ciociano and Bagnasco 2013][research_ciociano_bagnasco_2013]\] \[[Clinical Consequences of Look-Alike 2026][research_clinical_consequences_2026]\] \[[Cocoros et al 2019][research_cocoros_haynes_2019]\] \[[Coding of Adverse Events 2025][research_coding_of_2025]\] \[[Cohen 1983][research_cohen_1983]\] \[[Cohen 2000][research_cohen_2000_b]\] \[[Cohen 2001][research_cohen_2001]\] \[[Cohen 2003][research_cohen_2003]\] \[[Cohen 2004][research_cohen_2004_b]\] \[[Cohen 2005][research_cohen_2005]\] \[[Cohen 2006][research_cohen_2006]\] \[[Cohen 2006][research_cohen_2006_c]\] \[[Cohen 2008][research_cohen_2008]\] \[[Cohen and Davis 1992][research_cohen_davis_1992]\] \[[Cohen and Smetzer 2010][research_cohen_smetzer_2010]\] \[[Cohen and Smetzer 2010][research_cohen_smetzer_2010_b]\] \[[Cohen and Smetzer 2018][research_cohen_smetzer_2018]\] \[[Combination Drugs by Trade 2012][research_combination_drugs_2012]\] \[[Combination Drugs by Trade 2014][research_combination_drugs_2014]\] \[[Computer algorithm targets possible 2017][research_computer_algorithm_2017]\] \[[Concordance of synonyms and 2014][research_concordance_of_2014]\] \[[Concordance of Synonyms and 2015][research_concordance_of_2015]\] \[[Concordance of synonyms and 2016][research_concordance_of_2016]\] \[[Confusing drug names 1985][research_confusing_drug_1985]\] \[[Correction Drug names that 1980][research_correction_drug_1980]\] \[[d'Astous and Chnaoui 2002][research_dastous_chnaoui_2002]\] \[[Dachev 1998][research_dachev_1998]\] \[[Dasopang et al 2022][research_dasopang_utami_2022]\] \[[Davis 1999][research_davis_1999]\] \[[Dealing With Look-Alike, Sound-Alike 2026][research_dealing_with_2026]\] \[[DeHenau et al 2016][research_dehenau_becker_2016]\] \[[Dembicki 1967][research_dembicki_1967]\] \[[Dhande et al 2021][research_dhande_mule_2021]\] \[[Dispensing errors/drug name confusion 2018][research_dispensing_errors_drug_2018]\] \[[Dixit 2014][research_dixit_2014]\] \[[Dobrovoljc 2012][research_dobrovoljc_2012]\] \[[Domínguez et al 2024][research_dominguez_garrido_2024]\] \[[Dosunmu and Adisa 2025][research_dosunmu_adisa_2025]\] \[[Dowling et al 2019][research_dowling_swaminathan_2019]\] \[[Drug name changes to 2004][research_drug_name_2004]\] \[[DRUG Names 1964][research_drug_names_1964]\] \[[Drug names are misleading 2018][research_drug_names_2018]\] \[[Drug names that look 1979][research_drug_names_1979]\] \[[Drug Trade Name Index 2014][research_drug_trade_2014]\] \[[Drugs by Trade Name 2020][research_drugs_by_2020_b]\] \[[Dukhanin 2016][research_dukhanin_2016]\] \[[Dupont and Ménard-Lépine 1976][research_dupont_menardlepine_1976]\] \[[E.j. 1918][research_ej_1918]\] \[[Edwards et al 2002][research_edwards_bronstein_2002]\] \[[Elmzughi et al 2025][research_elmzughi_abuhasina_2025]\] \[[Emmerton and Rizk 2011][research_emmerton_rizk_2011]\] \[[Emmerton et al 2020][research_emmerton_curtain_2020]\] \[[Enserink 2020][research_enserink_2020]\] \[[Error in Drug Name 2024][research_error_in_2024]\] \[[Established Drug Name 2020][research_established_drug_2020]\] \[[FDA warns of potential 2013][research_fda_warns_2013]\] \[[Ferber and Weitz 1960][research_ferber_weitz_1960]\] \[[Festa et al 2021][research_festa_chirico_2021]\] \[[Filik et al 2004][research_filik_purdy_2004]\] \[[Filik et al 2006][research_filik_purdy_2006]\] \[[Filik et al 2010][research_filik_price_2010]\] \[[Filik et al 2019][research_filik_purdy_2019]\] \[[Flipping the genetic 'switch' 2016][research_flipping_the_2016]\] \[[Fraser 1980][research_fraser_1980]\] \[[Friedman 1985][research_friedman_1985]\] \[[Gaillard et al 2017][research_gaillard_knipe_2017]\] \[[Galanter et al 2014][research_galanter_bryson_2014]\] \[[Gaurav et al 2025][research_gaurav_mandal_2025]\] \[[Generic and Trade Name 2012][research_generic_and_2012]\] \[[Generic and Trade Name 2014][research_generic_and_2014]\] \[[George 2023][research_george_2023]\] \[[Griff Round and Roper 2012][research_griffround_roper_2012]\] \[[Gumbhir and Rodowskas 1974][research_gumbhir_rodowskas_1974]\] \[[Hachemi et al 2024][research_hachemi_mouattah_2024]\] \[[Haertzen and Ross 1980][research_haertzen_ross_1980]\] \[[Hamad Abdelaziz et al 2024][research_hamadabdelaziz_salahhassan_2024]\] \[[Hampton 2011][research_hampton_2011]\] \[[Her and Toh 2019][research_her_toh_2019]\] \[[Hernández 2013][research_hernandez_2013]\] \[[Hilton 1980][research_hilton_1980]\] \[[Hisa 1996][research_hisa_1996]\] \[[Hoang][research_hoang]\] \[[Hoffman and Proulx 2003][research_hoffman_proulx_2003]\] \[[Holbrook 1992][research_holbrook_1992]\] \[[Hook 1987][research_hook_1987]\] \[[Hook and Lehman 1985][research_hook_lehman_1985]\] \[[Howard et al 2000][research_howard_kerin_2000]\] \[[Hristina Viktorova Lebanova, 2012][research_hristinaviktorovalebanova_2012]\] \[[Huang et al 2004][research_huang_schrank_2004]\] \[[Hulland 1999][research_hulland_1999]\] \[[Hussey 1974][research_hussey_1974]\] \[[Identical or Confusingly Similar][research_identical_or]\] \[[Incorrect Drug Name 2015][research_incorrect_drug_2015]\] \[[Incorrect Nonproprietary Drug Name 2015][research_incorrect_nonproprietary_2015]\] \[[Index by Drug Name 2015][research_index_by_2015]\] \[[Index by Drug Name 2020][research_index_by_2020]\] \[[Index by Drug Name 2023][research_index_by_2023]\] \[[Index by Drug Name 2024][research_index_by_2024]\] \[[Index-Trade Names 2017][research_index_trade_names_2017]\] \[[Integrated Strategies for Preventing 2026][research_integrated_strategies_2026]\] \[[Introduction to Look-Alike, Sound-Alike 2026][research_introduction_to_2026]\] \[[ISMP adds more drug 2023][research_ismp_adds_2023]\] \[[Jang et al 2024][research_jang_jang_2024]\] \[[Janiszewski 1990][research_janiszewski_1990]\] \[[Jasmine et al 2023][research_jasmine_ch_2023]\] \[[Jebali 2025][research_jebali_2025]\] \[[Jongprasithporn et al 2018][research_jongprasithporn_sunkarat_2018]\] \[[Joshi et al 2007][research_joshi_joshi_2007]\] \[[Joubert and Poalses 2012][research_joubert_poalses_2012]\] \[[Junsang Yeo 2009][research_junsangyeo_2009]\] \[[Kannou et al 2024][research_kannou_rached_2024]\] \[[Karakoyun et al 2024][research_karakoyun_abaci_2024]\] \[[Karet 2023][research_karet_2023]\] \[[Kelling 2017][research_kelling_2017]\] \[[Kim and Lim 2019][research_kim_lim_2019]\] \[[Klink and Wu 2017][research_klink_wu_2017]\] \[[Kohli and Buller 2013][research_kohli_buller_2013]\] \[[Kondrak and Dorr 2004][research_kondrak_dorr_2004]\] \[[Kondrak and Dorr 2006][research_kondrak_dorr_2006]\] \[[Kong 2008][research_kong_2008]\] \[[Kovacic and Chambers 2010][research_kovacic_chambers_2010]\] \[[Kronrod and Lowrey 2016][research_kronrod_lowrey_2016]\] \[[Kundig 2011][research_kundig_2011]\] \[[Lakoan et al 2024][research_lakoan_ardiansyah_2024]\] \[[Lambert 1997][research_lambert_1997]\] \[[Lambert et al 1999][research_lambert_lin_1999]\] \[[Lambert et al 2001][research_lambert_chang_2001]\] \[[Lambert et al 2002][research_lambert_donderi_2002]\] \[[Lambert et al 2003][research_lambert_chang_2003]\] \[[Lambert et al 2003][research_lambert_chang_2003_b]\] \[[Lambert et al 2005][research_lambert_lin_2005]\] \[[Lambert et al 2015][research_lambert_schroeder_2015]\] \[[Lambert et al 2015][research_lambert_bhaumik_2015]\] \[[Larson M et al 2026][research_larsonm_r_2026]\] \[[Lau 2001][research_lau_2001]\] \[[Lee 2019][research_lee_2019]\] \[[Lee 2023][research_lee_2023]\] \[[Lefkowith and Moldenhauer 1985][research_lefkowith_moldenhauer_1985]\] \[[Leslie 2026][research_leslie_2026]\] \[[Levien 2006][research_levien_2006]\] \[[Lewis 1979][research_lewis_1979]\] \[[Lewis and Blackstone 1982][research_lewis_blackstone_1982]\] \[[LI Jie 2020][research_lijie_2020]\] \[[Lilley and Guanci 1997][research_lilley_guanci_1997]\] \[[Lilley and Guanci 1997][research_lilley_guanci_1997_b]\] \[[Lilley and Guanci 1997][research_lilley_guanci_1997_c]\] \[[Liu et al 2019][research_liu_or_2019]\] \[[Liu et al 2025][research_liu_tsai_2025]\] \[[Liu et al 2026][research_liu_wan_2026]\] \[[Look-Alike and Sound-Alike Drugs 1976][research_look_alike_and_1976]\] \[[Look-Alike and Sound-Alike Medication 1997][research_look_alike_and_1997]\] \[[Look-alike Drugs and Drugs 2013][research_look_alike_drugs_2013]\] \[[Look-Alike, Sound-Alike in Dietary 2026][research_look_alike_sound_alike_2026_c]\] \[[Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026]\] \[[Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026_b]\] \[[Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026_d]\] \[[Lowrey and Shrum 2007][research_lowrey_shrum_2007]\] \[[Lu 2020][research_lu_2020]\] \[[Lusk 2001][research_lusk_2001]\] \[[Lévesque et al 1991][research_levesque_moore_1991]\] \[[Maheswaran et al 1992][research_maheswaran_mackie_1992]\] \[[Maheswaran et al 1992][research_maheswaran_mackie_1992_b]\] \[[Malai and Speece 2005][research_malai_speece_2005]\] \[[Malle][research_malle]\] \[[Mamunuwa et al 2023][research_mamunuwa_jayamanne_2023]\] \[[Marovino et al 2022][research_marovino_morgillo_2022]\] \[[McCallister 2011][research_mccallister_2011]\] \[[McCoy 2005][research_mccoy_2005]\] \[[Medical Device Brand Name 2020][research_medical_device_2020]\] \[[Mhiri et al 2022][research_mhiri_babbou_2022]\] \[[MHRA confusion over drug 2018][research_mhra_confusion_2018]\] \[[Michelet-Huot et al 2017][research_michelethuot_bacouillard_2017]\] \[[Miftahurrozik 2023][research_miftahurrozik_2023]\] \[[Millán-Hernández et al 2020][research_millanhernandez_garciahernandez_2020]\] \[[Milton et al 2015][research_milton_washington_2015]\] \[[Moini 2025][research_moini_2025]\] \[[Monograph of Look-Alike, Sound-Alike 2026][research_monograph_of_2026]\] \[[More on Drug-Name Confusion 1995][research_more_on_1995]\] \[[Mostafa et al 2021][research_mostafa_ali_2021]\] \[[Mouly Potluri et al 2024][research_moulypotluri_zulpaidar_2024]\] \[[Muchu 2024][research_muchu_2024]\] \[[Muhlis et al 2019][research_muhlis_andyani_2019]\] \[[Mukherjee et al 2025][research_mukherjee_paul_2025]\] \[[Munshi et al 2019][research_munshi_tople_2019]\] \[[Mursiti et al 2022][research_mursiti_mesias_2022]\] \[[Nagamotoo et al 2022][research_nagamotoo_lai_2022]\] \[[Nagata et al 2014][research_nagata_kimura_2014]\] \[[Nagel 2016][research_nagel_2016]\] \[[Nahler 2009][research_nahler_2009]\] \[[Nahler 2009][research_nahler_2009_b]\] \[[Naik et al 2009][research_naik_pranay_2009]\] \[[Naunton et al 2015][research_naunton_kyle_2015]\] \[[Nchinech et al 2023][research_nchinech_benhasna_2023]\] \[[Neelakantan et al 2024][research_neelakantan_sharma_2024]\] \[[Nickell 2009][research_nickell_2009]\] \[[Oerthel et al 2020][research_oerthel_guerreiro_2020]\] \[[Ohtani et al 2006][research_ohtani_takeda_2006]\] \[[Omission in Drug Name 1978][research_omission_in_1978]\] \[[Oral Liquid Medications and 2026][research_oral_liquid_2026]\] \[[Ostini et al 2012][research_ostini_roughead_2012]\] \[[Pan et al 2015][research_pan_kuo_2015]\] \[[Paramathma 2015][research_paramathma_2015]\] \[[Patel and Gharekhan 2026][research_patel_gharekhan_2026]\] \[[Peinado et al 2024][research_peinado_odonoghue_2024]\] \[[Perveen 2026][research_perveen_2026]\] \[[Perveen 2026][research_perveen_2026_b]\] \[[Phipps 2025][research_phipps_2025]\] \[[Practice to Enhance Identification][research_practice_to]\] \[[Prakash 2010][research_prakash_2010]\] \[[Predicting drug name confusion 1997][research_predicting_drug_1997]\] \[[Pronunciation of drug names 1970][research_pronunciation_of_1970]\] \[[Propp 2000][research_propp_2000]\] \[[Proprietary Name 2020][research_proprietary_name_2020]\] \[[R. g. d. 1926][research_rgd_1926]\] \[[Rahman and Parvin 2015][research_rahman_parvin_2015]\] \[[Rash-Foanio et al 2017][research_rashfoanio_galanter_2017]\] \[[Rastogi 2015][research_rastogi_2015]\] \[[Rataboli et al 2015][research_rataboli_khandeparkar_2015]\] \[[Reines 2005][research_reines_2005]\] \[[Removal of Drug Name 2018][research_removal_of_2018]\] \[[Rider et al 2019][research_rider_mehta_2019]\] \[[Rigan Ramadhani and Usviany 2024][research_riganramadhani_usviany_2024]\] \[[Rizzo and Zeckhauser 2005][research_rizzo_zeckhauser_2005]\] \[[Robertson 1989][research_robertson_1989]\] \[[Robins 2001][research_robins_2001]\] \[[Round and Roper 2015][research_round_roper_2015]\] \[[Rubio et al 2017][research_rubio_villasenor_2017]\] \[[Rupa et al 2022][research_rupa_srivastava_2022]\] \[[Ruutiainen et al 2021][research_ruutiainen_kallio_2021]\] \[[Ryan et al 2025][research_ryan_robertson_2025]\] \[[Sagawa et al 2024][research_sagawa_kizaki_2024]\] \[[Samudra et al 2022][research_samudra_friska_2022]\] \[[Sanders and Shaw 1991][research_sanders_shaw_1991]\] \[[Santos 2024][research_santos_2024]\] \[[Sardana and Rose Mathachan 2023][research_sardana_rosemathachan_2023]\] \[[Schmitt and Zhang 2012][research_schmitt_zhang_2012]\] \[[Schmitt and Zhang 2017][research_schmitt_zhang_2017]\] \[[Schulmeister 2006][research_schulmeister_2006]\] \[[Segura-Bedmar et al 2008][research_segurabedmar_martinez_2008]\] \[[Sen 1999][research_sen_1999]\] \[[Seoane-Vazquez et al 2017][research_seoanevazquez_rodriguezmonguio_2017]\] \[[Shah et al 2017][research_shah_merchant_2017]\] \[[Shastay 2023][research_shastay_2023]\] \[[Shear 2022][research_shear_2022]\] \[[Shear 2024][research_shear_2024]\] \[[Short 2019][research_short_2019]\] \[[Siddiqui 2020][research_siddiqui_2020]\] \[[Similar Drug Names a 2004][research_similar_drug_2004]\] \[[Simpson 1979][research_simpson_1979]\] \[[Singh and Singh 2017][research_singh_singh_2017]\] \[[Snell-Hornby 2009][research_snellhornby_2009]\] \[[Sound-Alike Drug Names Produce 2005][research_sound_alike_drug_2005]\] \[[Stephenson 2000][research_stephenson_2000]\] \[[Stewart 2005][research_stewart_2005]\] \[[Stiftung für Patientensicherheit, Schweiz 2010][research_stiftung_fur_2010]\] \[[Stockbridge and Taylor 2015][research_stockbridge_taylor_2015]\] \[[Strategically desirable brand name 1990][research_strategically_desirable_1990]\] \[[Structures that look alike 1993][research_structures_that_1993]\] \[[Study of deviant use 2020][research_study_of_2020]\] \[[Stulberg 2023][research_stulberg_2023]\] \[[Supapaan 2026][research_supapaan_2026]\] \[[Supapaan et al 2024][research_supapaan_songmuang_2024]\] \[[Supapaan et al 2024][research_supapaan_kamnuek_2024]\] \[[Svahn 1978][research_svahn_1978]\] \[[Syphilis the Vasculitis Look-Alike 2015][research_syphilis_the_2015]\] \[[Tamaki et al 2012][research_tamaki_satoh_2012]\] \[[Tan and Choo 2023][research_tan_choo_2023]\] \[[Tang 2021][research_tang_2021]\] \[[Teakel 1999][research_teakel_1999]\] \[[Teplitsky 1977][research_teplitsky_1977]\] \[[Teplitsky 1978][research_teplitsky_1978]\] \[[Teplitsky 1979][research_teplitsky_1979]\] \[[Teplitsky 1979][research_teplitsky_1979_b]\] \[[Teplitsky 1980][research_teplitsky_1980]\] \[[Teplitsky 1981][research_teplitsky_1981]\] \[[Teplitsky 1982][research_teplitsky_1982]\] \[[Teplitsky 1984][research_teplitsky_1984]\] \[[Teplitsky 1992][research_teplitsky_1992]\] \[[Teplitsky 1994][research_teplitsky_1994]\] \[[Teplitsky 2001][research_teplitsky_2001]\] \[[Tfeplitsky 1986][research_tfeplitsky_1986]\] \[[Thakkar and Billa 2013][research_thakkar_billa_2013]\] \[[The Prescription and Drug 2020][research_the_prescription_2020]\] \[[The Role of Typography 2006][research_the_role_2006]\] \[[Thompson 2008][research_thompson_2008]\] \[[Tobin and Tobin 2016][research_tobin_tobin_2016]\] \[[Topolinski 2017][research_topolinski_2017]\] \[[Trade Name Index 2023][research_trade_name_2023]\] \[[Tradename. Company. Similarity of 1912][research_tradename_company_1912]\] \[[Tranchard et al 2016][research_tranchard_hein_2016]\] \[[Trbovich and Hyland 2016][research_trbovich_hyland_2016]\] \[[Tseng et al 2016][research_tseng_wen_2016]\] \[[Tu 2019][research_tu_2019]\] \[[Tuohy and Paparella 2005][research_tuohy_paparella_2005]\] \[[Turley and Moore 1995][research_turley_moore_1995]\] \[[Van Vaerenbergh 2017][research_vanvaerenbergh_2017]\] \[[Van Winkel][research_vanwinkel]\] \[[Vázquez et al 2020][research_vazquez_ledeneva_2020]\] \[[Waggoner 1984][research_waggoner_1984]\] \[[Wang][research_wang]\] \[[Wang and Zhu 2021][research_wang_zhu_2021]\] \[[Wang et al 2021][research_wang_tao_2021]\] \[[Warning highlights risk of 2013][research_warning_highlights_2013]\] \[[Weitz 1960][research_weitz_1960]\] \[[What's in a name? 2000][research_what_s_in_2000]\] \[[Wong 2014][research_wong_2014]\] \[[Yoo and Kim 2023][research_yoo_kim_2023]\] \[[Yoon, Chun Suk 2015][research_yoonchunsuk_2015]\] \[[Yoshikawa et al 2023][research_yoshikawa_kizaki_2023]\] \[[Young 2000][research_young_2000]\] \[[Yu et al 2020][research_yu_yang_2020]\] \[[Zacher et al 2018][research_zacher_cunningham_2018]\] \[[Zaijul et al 2026][research_zaijul_nadjamuddin_2026]\] \[[Zaini et al 2026][research_zaini_isnani_2026]\] \[[Zee et al 2026][research_zee_willems_2026]\] \[[Zhang et al 2021][research_zhang_li_2021]\] \[[Zhao et al 2018][research_zhao_wong_2018]\] \[[Zhu et al 2025][research_zhu_rose_2025]\] \[[Zimmer 2017][research_zimmer_2017]\] \[[ปัจจัยที่มีผลต่อพฤติกรรมการซื้อสินค้าแฟชั่น Brand Name ต่างประเทศ][research_brand_name]\]
+**311 records.** \[[A Proposed Method for 2011][research_a_proposed_2011]\] \[[Addressing LASA Medication Errors 2026][research_addressing_lasa_2026]\] \[[Adiana et al 2026][research_adiana_fakhriah_2026]\] \[[Ahuja and Ahuja 2024][research_ahuja_ahuja_2024]\] \[[Alsalameen et al 2024][research_alsalameen_malsuliman_2024]\] \[[Altbach 2015][research_altbach_2015]\] \[[andNa 1996][research_na_1996]\] \[[andNa 1997][research_na_1997]\] \[[andNa 2004][research_na_2004]\] \[[andNa 2005][research_na_2005]\] \[[andNa 2006][research_na_2006]\] \[[Anggiratih 2025][research_anggiratih_2025]\] \[[Anonymous 2013][research_anonymous_2013]\] \[[Archer 2020][research_archer_2020]\] \[[Are electronic prescribing systems 2026][research_are_electronic_2026]\] \[[Aronson 1995][research_aronson_1995]\] \[[Aschenbrenner 2025][research_aschenbrenner_2025]\] \[[Aschenbrenner 2025][research_aschenbrenner_2025_b]\] \[[Assessment of Look-Alike, Sound-Alike 2020][research_assessment_of_2020]\] \[[Aziz 1972][research_aziz_1972]\] \[[Baker 2002][research_baker_2002]\] \[[Balabanis and Craven 1997][research_balabanis_craven_1997]\] \[[Balashov and Nikiforov 2019][research_balashov_nikiforov_2019]\] \[[Balocco et al 2025][research_balocco_aronson_2025]\] \[[Bansal et al 2026][research_bansal_khobragade_2026]\] \[[Basco et al 2010][research_basco_ebeling_2010]\] \[[Basco et al 2016][research_basco_garner_2016]\] \[[Baxter and Lowrey 2011][research_baxter_lowrey_2011]\] \[[Ben Cheikha et al 2024][research_bencheikha_meftah_2024]\] \[[Benito Fernández et al 2026][research_benitofernandez_labordacobos_2026]\] \[[Bermel 2022][research_bermel_2022]\] \[[Beyea 2007][research_beyea_2007]\] \[[Bhat and Gutzwiller 2026][research_bhat_gutzwiller_2026]\] \[[Bohannon 2016][research_bohannon_2016]\] \[[Bonner 2020][research_bonner_2020]\] \[[Boonpaisarnsatit][research_boonpaisarnsatit]\] \[[Boring 1997][research_boring_1997]\] \[[Boush 1997][research_boush_1997]\] \[[Brand Name 2004][research_brand_name_2004]\] \[[Brauneis and Heald 2010][research_brauneis_heald_2010]\] \[[Brodell 1997][research_brodell_1997]\] \[[Brushwood 2019][research_brushwood_2019]\] \[[Bryan][research_bryan]\] \[[Bryan et al 2020][research_bryan_aronson_2020]\] \[[Buckley 1980][research_buckley_1980]\] \[[Burt et al 2017][research_burt_mcfarlane_2017]\] \[[Carney 2008][research_carney_2008]\] \[[Carney et al 2011][research_carney_gazarian_2011]\] \[[Carothers 1999][research_carothers_1999]\] \[[Challenges in Drug Identification 2026][research_challenges_in_2026]\] \[[Champagne 2025][research_champagne_2025]\] \[[Chan et al 2018][research_chan_muller_2018]\] \[[Chanakit 2013][research_chanakit_2013]\] \[[Chen et al 2024][research_chen_chen_2024]\] \[[Cheng et al 2018][research_cheng_salazar_2018]\] \[[Chiche et al 2008][research_chiche_thomas_2008]\] \[[Ciociano and Bagnasco 2013][research_ciociano_bagnasco_2013]\] \[[Clinical Consequences of Look-Alike 2026][research_clinical_consequences_2026]\] \[[Cocoros et al 2019][research_cocoros_haynes_2019]\] \[[Coding of Adverse Events 2025][research_coding_of_2025]\] \[[Cohen 1983][research_cohen_1983]\] \[[Cohen 2000][research_cohen_2000_b]\] \[[Cohen 2001][research_cohen_2001]\] \[[Cohen 2003][research_cohen_2003]\] \[[Cohen 2004][research_cohen_2004_b]\] \[[Cohen 2005][research_cohen_2005]\] \[[Cohen 2006][research_cohen_2006]\] \[[Cohen 2006][research_cohen_2006_c]\] \[[Cohen 2008][research_cohen_2008]\] \[[Cohen and Davis 1992][research_cohen_davis_1992]\] \[[Cohen and Smetzer 2010][research_cohen_smetzer_2010]\] \[[Cohen and Smetzer 2010][research_cohen_smetzer_2010_b]\] \[[Cohen and Smetzer 2018][research_cohen_smetzer_2018]\] \[[Computer algorithm targets possible 2017][research_computer_algorithm_2017]\] \[[Concordance of synonyms and 2014][research_concordance_of_2014]\] \[[Concordance of Synonyms and 2015][research_concordance_of_2015]\] \[[Concordance of synonyms and 2016][research_concordance_of_2016]\] \[[Confusing drug names 1985][research_confusing_drug_1985]\] \[[Correction Drug names that 1980][research_correction_drug_1980]\] \[[Dasopang et al 2022][research_dasopang_utami_2022]\] \[[Davis 1999][research_davis_1999]\] \[[Dealing With Look-Alike, Sound-Alike 2026][research_dealing_with_2026]\] \[[DeHenau et al 2016][research_dehenau_becker_2016]\] \[[Dembicki 1967][research_dembicki_1967]\] \[[Dhande et al 2021][research_dhande_mule_2021]\] \[[Dispensing errors/drug name confusion 2018][research_dispensing_errors_drug_2018]\] \[[Dixit 2014][research_dixit_2014]\] \[[Dobrovoljc 2012][research_dobrovoljc_2012]\] \[[Domínguez et al 2024][research_dominguez_garrido_2024]\] \[[Dosunmu and Adisa 2025][research_dosunmu_adisa_2025]\] \[[Dowling et al 2019][research_dowling_swaminathan_2019]\] \[[Drug name changes to 2004][research_drug_name_2004]\] \[[DRUG Names 1964][research_drug_names_1964]\] \[[Drug names are misleading 2018][research_drug_names_2018]\] \[[Drug names that look 1979][research_drug_names_1979]\] \[[Dupont and Ménard-Lépine 1976][research_dupont_menardlepine_1976]\] \[[E.j. 1918][research_ej_1918]\] \[[Elmzughi et al 2025][research_elmzughi_abuhasina_2025]\] \[[Emmerton and Rizk 2011][research_emmerton_rizk_2011]\] \[[Emmerton et al 2020][research_emmerton_curtain_2020]\] \[[Enserink 2020][research_enserink_2020]\] \[[Established Drug Name 2020][research_established_drug_2020]\] \[[FDA warns of potential 2013][research_fda_warns_2013]\] \[[Ferber and Weitz 1960][research_ferber_weitz_1960]\] \[[Festa et al 2021][research_festa_chirico_2021]\] \[[Filik et al 2004][research_filik_purdy_2004]\] \[[Filik et al 2006][research_filik_purdy_2006]\] \[[Filik et al 2010][research_filik_price_2010]\] \[[Filik et al 2019][research_filik_purdy_2019]\] \[[Fraser 1980][research_fraser_1980]\] \[[Gaillard et al 2017][research_gaillard_knipe_2017]\] \[[Galanter et al 2014][research_galanter_bryson_2014]\] \[[George 2023][research_george_2023]\] \[[Hachemi et al 2024][research_hachemi_mouattah_2024]\] \[[Haertzen and Ross 1980][research_haertzen_ross_1980]\] \[[Hamad Abdelaziz et al 2024][research_hamadabdelaziz_salahhassan_2024]\] \[[Hampton 2011][research_hampton_2011]\] \[[Her and Toh 2019][research_her_toh_2019]\] \[[Hernández 2013][research_hernandez_2013]\] \[[Hilton 1980][research_hilton_1980]\] \[[Hisa 1996][research_hisa_1996]\] \[[Hoang][research_hoang]\] \[[Hoffman and Proulx 2003][research_hoffman_proulx_2003]\] \[[Hook 1987][research_hook_1987]\] \[[Hook and Lehman 1985][research_hook_lehman_1985]\] \[[Howard et al 2000][research_howard_kerin_2000]\] \[[Hristina Viktorova Lebanova, 2012][research_hristinaviktorovalebanova_2012]\] \[[Hussey 1974][research_hussey_1974]\] \[[Identical or Confusingly Similar][research_identical_or]\] \[[Integrated Strategies for Preventing 2026][research_integrated_strategies_2026]\] \[[Introduction to Look-Alike, Sound-Alike 2026][research_introduction_to_2026]\] \[[ISMP adds more drug 2023][research_ismp_adds_2023]\] \[[Jang et al 2024][research_jang_jang_2024]\] \[[Jasmine et al 2023][research_jasmine_ch_2023]\] \[[Jongprasithporn et al 2018][research_jongprasithporn_sunkarat_2018]\] \[[Joshi et al 2007][research_joshi_joshi_2007]\] \[[Karakoyun et al 2024][research_karakoyun_abaci_2024]\] \[[Karet 2023][research_karet_2023]\] \[[Kelling 2017][research_kelling_2017]\] \[[Kim and Lim 2019][research_kim_lim_2019]\] \[[Kondrak and Dorr 2004][research_kondrak_dorr_2004]\] \[[Kondrak and Dorr 2006][research_kondrak_dorr_2006]\] \[[Kovacic and Chambers 2010][research_kovacic_chambers_2010]\] \[[Kronrod and Lowrey 2016][research_kronrod_lowrey_2016]\] \[[Kundig 2011][research_kundig_2011]\] \[[Lakoan et al 2024][research_lakoan_ardiansyah_2024]\] \[[Lambert 1997][research_lambert_1997]\] \[[Lambert et al 1999][research_lambert_lin_1999]\] \[[Lambert et al 2001][research_lambert_chang_2001]\] \[[Lambert et al 2002][research_lambert_donderi_2002]\] \[[Lambert et al 2003][research_lambert_chang_2003]\] \[[Lambert et al 2003][research_lambert_chang_2003_b]\] \[[Lambert et al 2005][research_lambert_lin_2005]\] \[[Lambert et al 2015][research_lambert_schroeder_2015]\] \[[Lambert et al 2015][research_lambert_bhaumik_2015]\] \[[Larson M et al 2026][research_larsonm_r_2026]\] \[[Lau 2001][research_lau_2001]\] \[[Lefkowith and Moldenhauer 1985][research_lefkowith_moldenhauer_1985]\] \[[Leslie 2026][research_leslie_2026]\] \[[Levien 2006][research_levien_2006]\] \[[Lewis 1979][research_lewis_1979]\] \[[Lewis and Blackstone 1982][research_lewis_blackstone_1982]\] \[[LI Jie 2020][research_lijie_2020]\] \[[Lilley and Guanci 1997][research_lilley_guanci_1997]\] \[[Lilley and Guanci 1997][research_lilley_guanci_1997_b]\] \[[Lilley and Guanci 1997][research_lilley_guanci_1997_c]\] \[[Liu et al 2019][research_liu_or_2019]\] \[[Liu et al 2025][research_liu_tsai_2025]\] \[[Liu et al 2026][research_liu_wan_2026]\] \[[Look-Alike and Sound-Alike Drugs 1976][research_look_alike_and_1976]\] \[[Look-Alike and Sound-Alike Medication 1997][research_look_alike_and_1997]\] \[[Look-Alike, Sound-Alike in Dietary 2026][research_look_alike_sound_alike_2026_c]\] \[[Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026]\] \[[Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026_b]\] \[[Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026_d]\] \[[Lowrey and Shrum 2007][research_lowrey_shrum_2007]\] \[[Lévesque et al 1991][research_levesque_moore_1991]\] \[[Malle][research_malle]\] \[[Mamunuwa et al 2023][research_mamunuwa_jayamanne_2023]\] \[[Marovino et al 2022][research_marovino_morgillo_2022]\] \[[McCallister 2011][research_mccallister_2011]\] \[[McCoy 2005][research_mccoy_2005]\] \[[Medical Device Brand Name 2020][research_medical_device_2020]\] \[[Mhiri et al 2022][research_mhiri_babbou_2022]\] \[[MHRA confusion over drug 2018][research_mhra_confusion_2018]\] \[[Michelet-Huot et al 2017][research_michelethuot_bacouillard_2017]\] \[[Miftahurrozik 2023][research_miftahurrozik_2023]\] \[[Millán-Hernández et al 2020][research_millanhernandez_garciahernandez_2020]\] \[[Milton et al 2015][research_milton_washington_2015]\] \[[Moini 2025][research_moini_2025]\] \[[Monograph of Look-Alike, Sound-Alike 2026][research_monograph_of_2026]\] \[[More on Drug-Name Confusion 1995][research_more_on_1995]\] \[[Mostafa et al 2021][research_mostafa_ali_2021]\] \[[Muchu 2024][research_muchu_2024]\] \[[Muhlis et al 2019][research_muhlis_andyani_2019]\] \[[Mukherjee et al 2025][research_mukherjee_paul_2025]\] \[[Munshi et al 2019][research_munshi_tople_2019]\] \[[Mursiti et al 2022][research_mursiti_mesias_2022]\] \[[Nagamotoo et al 2022][research_nagamotoo_lai_2022]\] \[[Nagata et al 2014][research_nagata_kimura_2014]\] \[[Nahler 2009][research_nahler_2009]\] \[[Nahler 2009][research_nahler_2009_b]\] \[[Naik et al 2009][research_naik_pranay_2009]\] \[[Naunton et al 2015][research_naunton_kyle_2015]\] \[[Nchinech et al 2023][research_nchinech_benhasna_2023]\] \[[Neelakantan et al 2024][research_neelakantan_sharma_2024]\] \[[Nickell 2009][research_nickell_2009]\] \[[Oerthel et al 2020][research_oerthel_guerreiro_2020]\] \[[Ohtani et al 2006][research_ohtani_takeda_2006]\] \[[Oral Liquid Medications and 2026][research_oral_liquid_2026]\] \[[Ostini et al 2012][research_ostini_roughead_2012]\] \[[Pan et al 2015][research_pan_kuo_2015]\] \[[Paramathma 2015][research_paramathma_2015]\] \[[Peinado et al 2024][research_peinado_odonoghue_2024]\] \[[Perveen 2026][research_perveen_2026]\] \[[Perveen 2026][research_perveen_2026_b]\] \[[Phipps 2025][research_phipps_2025]\] \[[Practice to Enhance Identification][research_practice_to]\] \[[Prakash 2010][research_prakash_2010]\] \[[Predicting drug name confusion 1997][research_predicting_drug_1997]\] \[[Pronunciation of drug names 1970][research_pronunciation_of_1970]\] \[[Propp 2000][research_propp_2000]\] \[[Proprietary Name 2020][research_proprietary_name_2020]\] \[[R. g. d. 1926][research_rgd_1926]\] \[[Rahman and Parvin 2015][research_rahman_parvin_2015]\] \[[Rash-Foanio et al 2017][research_rashfoanio_galanter_2017]\] \[[Rastogi 2015][research_rastogi_2015]\] \[[Rataboli et al 2015][research_rataboli_khandeparkar_2015]\] \[[Reines 2005][research_reines_2005]\] \[[Rider et al 2019][research_rider_mehta_2019]\] \[[Rigan Ramadhani and Usviany 2024][research_riganramadhani_usviany_2024]\] \[[Robertson 1989][research_robertson_1989]\] \[[Robins 2001][research_robins_2001]\] \[[Rupa et al 2022][research_rupa_srivastava_2022]\] \[[Ruutiainen et al 2021][research_ruutiainen_kallio_2021]\] \[[Ryan et al 2025][research_ryan_robertson_2025]\] \[[Sagawa et al 2024][research_sagawa_kizaki_2024]\] \[[Samudra et al 2022][research_samudra_friska_2022]\] \[[Sanders and Shaw 1991][research_sanders_shaw_1991]\] \[[Sardana and Rose Mathachan 2023][research_sardana_rosemathachan_2023]\] \[[Schmitt and Zhang 2012][research_schmitt_zhang_2012]\] \[[Schmitt and Zhang 2017][research_schmitt_zhang_2017]\] \[[Schulmeister 2006][research_schulmeister_2006]\] \[[Segura-Bedmar et al 2008][research_segurabedmar_martinez_2008]\] \[[Seoane-Vazquez et al 2017][research_seoanevazquez_rodriguezmonguio_2017]\] \[[Shah et al 2017][research_shah_merchant_2017]\] \[[Shastay 2023][research_shastay_2023]\] \[[Shear 2022][research_shear_2022]\] \[[Shear 2024][research_shear_2024]\] \[[Siddiqui 2020][research_siddiqui_2020]\] \[[Similar Drug Names a 2004][research_similar_drug_2004]\] \[[Simpson 1979][research_simpson_1979]\] \[[Singh and Singh 2017][research_singh_singh_2017]\] \[[Snell-Hornby 2009][research_snellhornby_2009]\] \[[Sound-Alike Drug Names Produce 2005][research_sound_alike_drug_2005]\] \[[Stewart 2005][research_stewart_2005]\] \[[Stiftung für Patientensicherheit, Schweiz 2010][research_stiftung_fur_2010]\] \[[Stockbridge and Taylor 2015][research_stockbridge_taylor_2015]\] \[[Strategically desirable brand name 1990][research_strategically_desirable_1990]\] \[[Structures that look alike 1993][research_structures_that_1993]\] \[[Study of deviant use 2020][research_study_of_2020]\] \[[Supapaan 2026][research_supapaan_2026]\] \[[Supapaan et al 2024][research_supapaan_songmuang_2024]\] \[[Supapaan et al 2024][research_supapaan_kamnuek_2024]\] \[[Svahn 1978][research_svahn_1978]\] \[[Tamaki et al 2012][research_tamaki_satoh_2012]\] \[[Tan and Choo 2023][research_tan_choo_2023]\] \[[Tang 2021][research_tang_2021]\] \[[Teakel 1999][research_teakel_1999]\] \[[Teplitsky 1977][research_teplitsky_1977]\] \[[Teplitsky 1978][research_teplitsky_1978]\] \[[Teplitsky 1979][research_teplitsky_1979]\] \[[Teplitsky 1979][research_teplitsky_1979_b]\] \[[Teplitsky 1980][research_teplitsky_1980]\] \[[Teplitsky 1981][research_teplitsky_1981]\] \[[Teplitsky 1982][research_teplitsky_1982]\] \[[Teplitsky 1984][research_teplitsky_1984]\] \[[Teplitsky 1992][research_teplitsky_1992]\] \[[Teplitsky 1994][research_teplitsky_1994]\] \[[Teplitsky 2001][research_teplitsky_2001]\] \[[Tfeplitsky 1986][research_tfeplitsky_1986]\] \[[Thakkar and Billa 2013][research_thakkar_billa_2013]\] \[[The Prescription and Drug 2020][research_the_prescription_2020]\] \[[The Role of Typography 2006][research_the_role_2006]\] \[[Thompson 2008][research_thompson_2008]\] \[[Tobin and Tobin 2016][research_tobin_tobin_2016]\] \[[Topolinski 2017][research_topolinski_2017]\] \[[Tradename. Company. Similarity of 1912][research_tradename_company_1912]\] \[[Tranchard et al 2016][research_tranchard_hein_2016]\] \[[Trbovich and Hyland 2016][research_trbovich_hyland_2016]\] \[[Tseng et al 2016][research_tseng_wen_2016]\] \[[Tu 2019][research_tu_2019]\] \[[Tuohy and Paparella 2005][research_tuohy_paparella_2005]\] \[[Vázquez et al 2020][research_vazquez_ledeneva_2020]\] \[[Wang][research_wang]\] \[[Wang et al 2021][research_wang_tao_2021]\] \[[Warning highlights risk of 2013][research_warning_highlights_2013]\] \[[Weitz 1960][research_weitz_1960]\] \[[What's in a name? 2000][research_what_s_in_2000]\] \[[Wong 2014][research_wong_2014]\] \[[Yoo and Kim 2023][research_yoo_kim_2023]\] \[[Yoshikawa et al 2023][research_yoshikawa_kizaki_2023]\] \[[Young 2000][research_young_2000]\] \[[Yu et al 2020][research_yu_yang_2020]\] \[[Zacher et al 2018][research_zacher_cunningham_2018]\] \[[Zaijul et al 2026][research_zaijul_nadjamuddin_2026]\] \[[Zaini et al 2026][research_zaini_isnani_2026]\] \[[Zee et al 2026][research_zee_willems_2026]\] \[[Zhao et al 2018][research_zhao_wong_2018]\] \[[Zhu et al 2025][research_zhu_rose_2025]\] \[[Zimmer 2017][research_zimmer_2017]\]
 
 ### Other work on naming, confusion and error
 
 **The residual, reported and not hidden.** On-subject work belonging to no cluster above.
 
-**300 records.** \[[Abdulrouf et al 2019][research_abdulrouf_thomas_2019]\] \[[Ablimit et al 2015][research_ablimit_hamdulla_2015]\] \[[Absher 1984][research_absher_1984]\] \[[Adhe et al 2023][research_adhe_mustaji_2023]\] \[[Agoglia et al 2024][research_agoglia_kelly_2024]\] \[[Aibar and Casacuberta 1993][research_aibar_casacuberta_1993]\] \[[Akpınar et al 2026][research_akpinar_ay_2026]\] \[[Al-Maymuni 2026][research_almaymuni_2026]\] \[[Alexeeva 2023][research_alexeeva_2023]\] \[[Allington 1977][research_allington_1977]\] \[[Aloufi 2022][research_aloufi_2022]\] \[[Alwitt 1973][research_alwitt_1973]\] \[[An investigation of the 1973][research_an_investigation_1973]\] \[[Anguita et al 2004][research_anguita_peillon_2004]\] \[[Anguita et al 2005][research_anguita_hernando_2005]\] \[[Appendix A Greek alphabet 2022][research_appendix_a_2022]\] \[[Armstrong, Herbert B. 1989][research_armstrongherbertb_1989]\] \[[Ashby and Ashby 2021][research_ashby_ashby_2021]\] \[[Ashish et al 2016][research_ashish_patawari_2016]\] \[[Assessment of the Risk 2022][research_assessment_of_2022]\] \[[Baart et al 2014][research_baart_vroomen_2014]\] \[[Baddeley 1971][research_baddeley_1971]\] \[[Barik 1969][research_barik_1969]\] \[[Barry 2013][research_barry_2013]\] \[[Barry and Harper 1995][research_barry_harper_1995]\] \[[Baxter et al 2014][research_baxter_ilicic_2014]\] \[[Beck and Morgan 1986][research_beck_morgan_1986]\] \[[Blair et al 2021][research_blair_eliav_2021]\] \[[Blood pressure medication recalled 2026][research_blood_pressure_2026]\] \[[Bogunenko et al 2010][research_bogunenko_gavrylenko_2010]\] \[[Bolbochan 2024][research_bolbochan_2024]\] \[[Bouselmi et al 2006][research_bouselmi_fohr_2006]\] \[[Bouwman et al 2004][research_bouwman_cranen_2004]\] \[[Branting 2003][research_branting_2003]\] \[[Bretmersky, Steven C. et al 2004][research_bretmerskystevenc_murawskirobert_2004]\] \[[Brochhagen et al 2025][research_brochhagen_liao_2025]\] \[[Brown and Hull 1971][research_brown_hull_1971]\] \[[Bánki et al 2023][research_banki_doring_2023]\] \[[Bühlmann 1953][research_buhlmann_1953]\] \[[Cebrian et al 2025][research_cebrian_carlet_2025]\] \[[Chastain 1982][research_chastain_1982]\] \[[Chen et al 2007][research_chen_olsen_2007]\] \[[Childears 1954][research_childears_1954]\] \[[Christen 2006][research_christen_2006]\] \[[Cieri et al 2021][research_cieri_fiumara_2021]\] \[[Clopper et al 2010][research_clopper_pierrehumbert_2010]\] \[[Cohen 2004][research_cohen_2004]\] \[[Cohen 2006][research_cohen_2006_b]\] \[[Cohen and Smetzer 2009][research_cohen_smetzer_2009]\] \[[Colomer 2012][research_colomer_2012]\] \[[Confusion Between FDA and 1998][research_confusion_between_1998]\] \[[confusion with the critical 2004][research_confusion_with_2004]\] \[[Corter 1987][research_corter_1987]\] \[[Cucchiarini and Binnenpoorte 2002][research_cucchiarini_binnenpoorte_2002]\] \[[Current Service Provision Risk 2008][research_current_service_2008]\] \[[Cusic 2009][research_cusic_2009]\] \[[Cutler 2005][research_cutler_2005]\] \[[Daou et al 2025][research_daou_sayegh_2025]\] \[[Deligne et al 1995][research_deligne_yvon_1995]\] \[[Deng et al 2013][research_deng_abdelhamid_2013]\] \[[Dholakia et al 2007][research_dholakia_yajnik_2007]\] \[[Ding 2008][research_ding_2008]\] \[[Dinh 2023][research_dinh_2023]\] \[[Dolle and Rovnov 2017][research_dolle_rovnov_2017]\] \[[Donk 1956][research_donk_1956]\] \[[Donk 1956][research_donk_1956_b]\] \[[Donk 1957][research_donk_1957]\] \[[Donk 1957][research_donk_1957_b]\] \[[Donk 1957][research_donk_1957_c]\] \[[Donk 1962][research_donk_1962]\] \[[Driscoll 2009][research_driscoll_2009]\] \[[Drug profiles generic names 2014][research_drug_profiles_2014]\] \[[Drug profiles generic names 2016][research_drug_profiles_2016]\] \[[Drugs by Generic Name 2016][research_drugs_by_2016]\] \[[Drugs by Generic Name 2018][research_drugs_by_2018]\] \[[Drugs by Generic Name 2020][research_drugs_by_2020]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_b]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_c]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_d]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_e]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_f]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_g]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_h]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_i]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_j]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_k]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_l]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_m]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_n]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_o]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_p]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_q]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_r]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_s]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_t]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_u]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_v]\] \[[Drugs by Generic Name 2023][research_drugs_by_2023_w]\] \[[Dukes 1900][research_dukes_1900]\] \[[Dunn and Dunn 1940][research_dunn_dunn_1940]\] \[[Dunn-Rankin et al 1968][research_dunnrankin_leton_1968]\] \[[Eier and Kampichler 2026][research_eier_kampichler_2026]\] \[[EL Masri][research_elmasri]\] \[[Executive functions in name 2007][research_executive_functions_2007]\] \[[Farrell and Strang 1990][research_farrell_strang_1990]\] \[[Faure 2018][research_faure_2018]\] \[[Fayolle et al 2012][research_fayolle_saraclar_2012]\] \[[Fenna 1984][research_fenna_1984]\] \[[Fered et al 2026][research_fered_yigzaw_2026]\] \[[Fink and Goldrick 2015][research_fink_goldrick_2015]\] \[[Fletcher et al 2024][research_fletcher_rooney_2024]\] \[[Fohr and Illina 2015][research_fohr_illina_2015]\] \[[Fox 2010][research_fox_2010]\] \[[Friedman 2005][research_friedman_2005]\] \[[Gadd 1988][research_gadd_1988]\] \[[Gan et al 2026][research_gan_sun_2026]\] \[[Gong et al 2009][research_gong_wang_2009]\] \[[Greek Alphabet and Phonetic 2025][research_greek_alphabet_2025]\] \[[Griebling 2015][research_griebling_2015]\] \[[Guillot 2016][research_guillot_2016]\] \[[Gurtov et al 2018][research_gurtov_polishchuk_2018]\] \[[Hacquard and Walter 2003][research_hacquard_walter_2003]\] \[[Hall and Hume 2013][research_hall_hume_2013]\] \[[Harris et al 2013][research_harris_olson_2013]\] \[[Hartmann and Fosler-Lussier 2009][research_hartmann_foslerlussier_2009]\] \[[Hauk 2018][research_hauk_2018]\] \[[Hayati and Piramoon 2023][research_hayati_piramoon_2023]\] \[[Heng Ji et al 2008][research_hengji_grishman_2008]\] \[[Hershenson and Ryder 1982][research_hershenson_ryder_1982]\] \[[Hershey et al 2007][research_hershey_olsen_2007]\] \[[Herzog et al][research_herzog_scheuren]\] \[[Hidayatullah et al 2022][research_hidayatullah_kurniaasri_2022]\] \[[Hough 2000][research_hough_2000]\] \[[Howard, II 2020][research_howardii_2020]\] \[[Hrebeniuk 2010][research_hrebeniuk_2010]\] \[[Hunt 1996][research_hunt_1996]\] \[[Huo and Li 2007][research_huo_li_2007]\] \[[Hursky 1971][research_hursky_1971]\] \[[International Phonetic Alphabet 1984][research_international_phonetic_1984]\] \[[ISMP Survey Economy Having 2010][research_ismp_survey_2010]\] \[[Jani et al 2015][research_jani_cucchiarini_2015]\] \[[Jiang 2023][research_jiang_2023]\] \[[Jie Jiang and Bo Xu 2009][research_jiejiang_boxu_2009]\] \[[Kane 2025][research_kane_2025]\] \[[Kang and Cohen 2016][research_kang_cohen_2016]\] \[[Karanasou][research_karanasou]\] \[[Karpenstein 1953][research_karpenstein_1953]\] \[[Kashani et al 2017][research_kashani_sayadiyan_2017]\] \[[Kessler 2005][research_kessler_2005]\] \[[Khan 2013][research_khan_2013]\] \[[Khan et al 2021][research_khan_gurtov_2021]\] \[[Kiawkaew et al 2023][research_kiawkaew_kaothanthong_2023]\] \[[Kim et al 2015][research_kim_seong_2015]\] \[[Kim et al 2021][research_kim_jung_2021]\] \[[Kirubakaran and Aramudhan 2018][research_kirubakaran_aramudhan_2018]\] \[[Kitt and Pearce 1952][research_kitt_pearce_1952]\] \[[Klensin et al 1998][research_klensin_wolf_1998]\] \[[Kljajevic and Erramuzpe 2019][research_kljajevic_erramuzpe_2019]\] \[[Kobayashi and Niimi][research_kobayashi_niimi]\] \[[Kondrak 2003][research_kondrak_2003]\] \[[Kondrak 2005][research_kondrak_2005]\] \[[Kramer 1953][research_kramer_1953]\] \[[Krašovec 2009][research_krasovec_2009]\] \[[Kristanto and Indriyanto 2024][research_kristanto_indriyanto_2024]\] \[[Kulczynski et al 2021][research_kulczynski_brennan_2021]\] \[[Laarni 1999][research_laarni_1999]\] \[[Law 2002][research_law_2002]\] \[[Layne 2023][research_layne_2023]\] \[[Le Blouch and Collen 2008][research_leblouch_collen_2008]\] \[[Lee and Taft 2010][research_lee_taft_2010]\] \[[Lehto et al 2021][research_lehto_sestorp_2021]\] \[[Li][research_li]\] \[[Li and Yoshikawa 2016][research_li_yoshikawa_2016]\] \[[Li et al 2000][research_li_lo_2000]\] \[[Lisbach 2011][research_lisbach_2011]\] \[[Lisbach 2011][research_lisbach_2011_b]\] \[[Lisbach 2011][research_lisbach_2011_c]\] \[[Lisbach 2011][research_lisbach_2011_d]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013_b]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013_c]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013_d]\] \[[Loken et al 1986][research_loken_ross_1986]\] \[[Ma 2026][research_ma_2026]\] \[[Ma et al 2013][research_ma_liu_2013]\] \[[Mackintosh et al 1999][research_mackintosh_lozito_1999]\] \[[Mamou and Ramabhadran 2008][research_mamou_ramabhadran_2008]\] \[[Marvin et al 2019][research_marvin_ward_2019]\] \[[McCarley 2009][research_mccarley_2009]\] \[[McGlannan and Thorson 1976][research_mcglannan_thorson_1976]\] \[[McKaig et al 2014][research_mckaig_collins_2014]\] \[[Medication Safety and Error 2020][research_medication_safety_2020]\] \[[Moe 1970][research_moe_1970]\] \[[Moreau et al 2004][research_moreau_kim_2004]\] \[[Morgan et al 1973][research_morgan_chambers_1973]\] \[[Morrow et al 1993][research_morrow_lee_1993]\] \[[Morrow et al 1994][research_morrow_rodvold_1994]\] \[[Morrow, Daniel and Lebacqz, J. Victor 1994][research_morrowdaniel_lebacqzjvictor_1994]\] \[[Moser et al 1961][research_moser_michel_1961]\] \[[Moss 2008][research_moss_2008]\] \[[Mountstephens 2013][research_mountstephens_2013]\] \[[Murray 1968][research_murray_1968]\] \[[Mutalib and Noah 2011][research_mutalib_noah_2011]\] \[[Name Matching][research_name_matching]\] \[[Name Matching 2009][research_name_matching_2009]\] \[[Nanavati and Rajput 2006][research_nanavati_rajput_2006]\] \[[Ng and Zue][research_ng_zue]\] \[[Nguyen and Schwartz 1998][research_nguyen_schwartz_1998]\] \[[Nogueiras-Rodriguez and Marino][research_nogueirasrodriguez_marino]\] \[[Nozawa and Wayland 2025][research_nozawa_wayland_2025]\] \[[O'Leary and Srivastava 2012][research_oleary_srivastava_2012]\] \[[Ohunyon et al 2026][research_ohunyon_ojukwu_2026]\] \[[On the Phonetic and 2025][research_on_the_2025]\] \[[Orye et al 2023][research_orye_visky_2023]\] \[[Patterson and Werker 1998][research_patterson_werker_1998]\] \[[Phonetic characteristics of spontaneous 2022][research_phonetic_characteristics_2022]\] \[[Phonetic features, vocalisation and 2019][research_phonetic_features_2019]\] \[[Phonetic Key 1980][research_phonetic_key_1980]\] \[[Phonetic Records in Diagnosis 1922][research_phonetic_records_1922]\] \[[Phonetic Symbols 2014][research_phonetic_symbols_2014]\] \[[Phonetic Transcription in Relation 2013][research_phonetic_transcription_2013]\] \[[Phonetic Transcription of Geographic 1965][research_phonetic_transcription_1965]\] \[[Phoophuangpairoj et al 2024][research_phoophuangpairoj_boonsom_2024]\] \[[Piskorski et al 2009][research_piskorski_wieloch_2009]\] \[[Rakas and Yin 2005][research_rakas_yin_2005]\] \[[Rakas et al 2022][research_rakas_alvarado_2022]\] \[[Rankin and Mattson][research_rankin_mattson]\] \[[Reiner 1962][research_reiner_1962]\] \[[Ribeiro et al 2025][research_ribeiro_fabricio_2025]\] \[[Robinson 2013][research_robinson_2013]\] \[[Room 2013][research_room_2013]\] \[[SanFilippo et al 2021][research_sanfilippo_michaud_2021]\] \[[Scarborough 2003][research_scarborough_2003]\] \[[Scarborough 2003][research_scarborough_2003_b]\] \[[Schmidt et al 1993][research_schmidt_fitt_1993]\] \[[Schumacher et al 2023][research_schumacher_mayfield_2023]\] \[[Scripture 1903][research_scripture_1903]\] \[[Seely 1893][research_seely_1893]\] \[[Segmental representations and their 1998][research_segmental_representations_1998]\] \[[Sergent 1983][research_sergent_1983]\] \[[Shammass et al][research_shammass_moyal]\] \[[Shear 2021][research_shear_2021]\] \[[Shear 2024][research_shear_2024_b]\] \[[Sheikh et al 2015][research_sheikh_illina_2015]\] \[[Shim and Sung 2022][research_shim_sung_2022]\] \[[Shivakumar and Krauthammer 2009][research_shivakumar_krauthammer_2009]\] \[[Shivanand H Honakeri et al 2026][research_shivanandhhonakeri_hemanthck_2026]\] \[[Silverman 2022][research_silverman_2022]\] \[[Simmonite and Polk 2021][research_simmonite_polk_2021]\] \[[Simonsohn 2010][research_simonsohn_2010]\] \[[Simpson et al 2010][research_simpson_strassel_2010]\] \[[Siquier and Andrés 2022][research_siquier_andres_2022]\] \[[Sitbon et al 2007][research_sitbon_bellot_2007]\] \[[Sivakumar and Indiran 2020][research_sivakumar_indiran_2020]\] \[[Skaltsas et al 2011][research_skaltsas_rakas_2011]\] \[[Sloane 1991][research_sloane_1991]\] \[[Smith 2008][research_smith_2008]\] \[[Snae and Brueckner 2009][research_snae_brueckner_2009]\] \[[Solti et al 2025][research_solti_timari_2025]\] \[[Srinivasan and Petkovic 2000][research_srinivasan_petkovic_2000]\] \[[Starrfelt et al 2015][research_starrfelt_lindegaard_2015]\] \[[Stewart 1909][research_stewart_1909]\] \[[Stiles 1911][research_stiles_1911]\] \[[Stiles 1912][research_stiles_1912]\] \[[Stiles 1912][research_stiles_1912_b]\] \[[Street and LaidLaw 2007][research_street_laidlaw_2007]\] \[[Tagami and Imaizumi 2020][research_tagami_imaizumi_2020]\] \[[Tanaka et al][research_tanaka_itoh]\] \[[Telsang et al 2025][research_telsang_pund_2025]\] \[[Ternikov 2024][research_ternikov_2024]\] \[[Top et al 2007][research_top_dowla_2007]\] \[[Transposed-Letter Confusability Effects in 2004][research_transposed_letter_confusability_2004]\] \[[Treeratpituk and Giles 2021][research_treeratpituk_giles_2021]\] \[[Tuncal 2026][research_tuncal_2026]\] \[[Uryupina 2004][research_uryupina_2004]\] \[[Valarakos et al 2004][research_valarakos_paliouras_2004]\] \[[Valentine 1998][research_valentine_1998]\] \[[Vallejo Herán 2022][research_vallejoheran_2022]\] \[[Varol and Talburt 2011][research_varol_talburt_2011]\] \[[Vicard 1988][research_vicard_1988]\] \[[Vágási 2026][research_vagasi_2026]\] \[[Wang et al 2008][research_wang_hao_2008]\] \[[Wang et al 2024][research_wang_gao_2024]\] \[[Wang et al 2026][research_wang_vartanov_2026]\] \[[Weisenberger 1996][research_weisenberger_1996]\] \[[West 1954][research_west_1954]\] \[[Wolff 1971][research_wolff_1971]\] \[[Wu et al 2018][research_wu_liu_2018]\] \[[Xu and Metze 2014][research_xu_metze_2014]\] \[[Yamashita 2012][research_yamashita_2012]\] \[[You and Alwan 2007][research_you_alwan_2007]\] \[[Yu et al 2025][research_yu_fang_2025]\] \[[Yuan and Shih 2004][research_yuan_shih_2004]\] \[[ZeeAbrahamsen and Haberman 2018][research_zeeabrahamsen_haberman_2018]\] \[[Zhang 2019][research_zhang_2019]\] \[[Zhang and Cui 2010][research_zhang_cui_2010]\] \[[Zhang et al 2009][research_zhang_jiang_2009]\] \[[Zheng et al 2002][research_zheng_song_2002]\] \[[Žgank et al 2005][research_zgank_horvat_2005]\]
-
-### Call signs, readback and the spoken identifier
-
-**The channel the X-52 would have travelled down.** Call sign confusion, readback and hearback, radiotelephony phraseology and pilot-controller communication. **This is the cluster nearest the reason actually given for the C-16 skip**, which was recorded as concern about confusing an aircraft with the F-16 during the stress of high combat radio traffic.
-
-**292 records.** \[[A Fused Situational Awareness 2025][research_a_fused_2025]\] \[[A Novel Fatigue Detection 2019][research_a_novel_2019]\] \[[A Semantic Recognition Method 2020][research_a_semantic_2020]\] \[[Addressee errors in ATC communications, the call sign problem][research_callsign_problem]\] \[[air traffic control communications][research_air_traffic]\] \[[Allott 2016][research_allott_2016]\] \[[An error-resistant linguistic protocol for air traffic control][research_error_resistant_protocol]\] \[[Analysis of routine pilot-controller communication][research_routine_pilot_controller]\] \[[Andrade 2023][research_andrade_2023]\] \[[Anzaloni and Barbosa 1984][research_anzaloni_barbosa_1984]\] \[[Aragão and Scaramucci 2020][research_aragao_scaramucci_2020]\] \[[Arai et al 1984][research_arai_kato_1984]\] \[[Arra et al 2026][research_arra_payan_2026]\] \[[Baker 1984][research_baker_1984]\] \[[Baker et al 1984][research_baker_herte_1984]\] \[[Barbosa 1990][research_barbosa_1990]\] \[[Bernsen and Dybkjær][research_bernsen_dybkjaer]\] \[[Bhattacharyya et al 1991][research_bhattacharyya_tarnopolsky_1991]\] \[[Blatt et al 2022][research_blatt_kocour_2022]\] \[[Bloomberg et al 1983][research_bloomberg_menglean_1983]\] \[[Bogush and Kovtun 2019][research_bogush_kovtun_2019]\] \[[Borowska 2025][research_borowska_2025]\] \[[Boschen and Jones][research_boschen_jones]\] \[[Bown 1938][research_bown_1938]\] \[[Boyce 2017][research_boyce_2017]\] \[[Boyce 2017][research_boyce_2017_b]\] \[[Brammer, Anthony 2003][research_brammeranthony_2003]\] \[[Brown 2004][research_brown_2004]\] \[[Burns 1980][research_burns_1980]\] \[[Busch and King 1964][research_busch_king_1964]\] \[[Busyatras et al 2015][research_busyatras_warisarn_2015]\] \[[call sign][research_call_sign]\] \[[CALL SIGN "Marshal" from 2024][research_call_sign_2024]\] \[[call-sign allocation plan][research_call_sign_allocation]\] \[[call-sign linkage][research_call_sign_linkage]\] \[[Chang 1970][research_chang_1970]\] \[[Chen 2016][research_chen_2016]\] \[[Chen et al 2004][research_chen_moon_2004]\] \[[Cheng et al 2018][research_cheng_jia_2018]\] \[[Christopher et al 2012][research_christopher_allen_2012]\] \[[Chui 1999][research_chui_1999]\] \[[Chung 2026][research_chung_2026]\] \[[Civil Verbal Communication 2016][research_civil_verbal_2016]\] \[[Clark and Williams 2020][research_clark_williams_2020]\] \[[Communication in action Non-verbal 2013][research_communication_in_2013_b]\] \[[Communication in action verbal 2013][research_communication_in_2013]\] \[[Cooren 2016][research_cooren_2016]\] \[[Corps Of Engineers Washington Dc 1986][research_corpsofengineerswashingtondc_1986]\] \[[Dai 2022][research_dai_2022]\] \[[Danesi 2016][research_danesi_2016]\] \[[Dani Chandra Yudho Pranoto and Susanto 2024][research_danichandrayudhopranoto_susanto_2024]\] \[[DaPolito et al 1989][research_dapolito_jones_1989]\] \[[Davies and Katsos 2016][research_davies_katsos_2016]\] \[[Davison 1972][research_davison_1972]\] \[[Department Of The Air Force Washington Dc 1997][research_departmentoftheairforcewashingtondc_1997]\] \[[Design of the Teaching 2024][research_design_of_2024]\] \[[Digital voice communication systems 2008][research_digital_voice_2008]\] \[[Discussion on "The application 1950][research_discussion_on_1950]\] \[[Discussion on "The application 1951][research_discussion_on_1951]\] \[[Drayton][research_drayton]\] \[[Drayton and Coxhead 2023][research_drayton_coxhead_2023]\] \[[Eaton and Baldwinson][research_eaton_baldwinson]\] \[[Eaton and Baldwinson 1997][research_eaton_baldwinson_1997]\] \[[Eccles 1914][research_eccles_1914]\] \[[Eccles 1914][research_eccles_1914_b]\] \[[Eccles 1914][research_eccles_1914_c]\] \[[Enriquez 2014][research_enriquez_2014]\] \[[Espenschied 1937][research_espenschied_1937]\] \[[Esposito][research_esposito]\] \[[Falzon 2009][research_falzon_2009]\] \[[Fang and Ma 2021][research_fang_ma_2021]\] \[[Feng 1990][research_feng_1990]\] \[[Feng 1992][research_feng_1992]\] \[[Finn 2006][research_finn_2006]\] \[[Frey 1978][research_frey_1978]\] \[[Fu and Bogy 1996][research_fu_bogy_1996]\] \[[Fujishin 2019][research_fujishin_2019]\] \[[Fujishin 2024][research_fujishin_2024]\] \[[Gamble et al][research_gamble_hughes]\] \[[Garrett G Sadler et al][research_garrettgsadler_meghanchandarana]\] \[[George and Jursich 1985][research_george_jursich_1985]\] \[[Giolas et al 1971][research_giolas_cooker_1971]\] \[[Giolas et al 1973][research_giolas_duffy_1973]\] \[[Glushanytsia 2020][research_glushanytsia_2020]\] \[[Gopalaswamy and Kumar][research_gopalaswamy_kumar]\] \[[Gopalaswamy and Kumar 1994][research_gopalaswamy_kumar_1994]\] \[[Gopalaswamy and Vijaya Kumar 1994][research_gopalaswamy_vijayakumar_1994]\] \[[Guclu 2017][research_guclu_2017]\] \[[Gurney et al][research_gurney_childress]\] \[[Hamzah et al 2022][research_hamzah_krish_2022]\] \[[Hashimoto et al 2005][research_hashimoto_miura_2005]\] \[[Hashimoto et al 2005][research_hashimoto_suzuki_2005]\] \[[He et al 2011][research_he_wang_2011]\] \[[Heng Gong et al][research_henggong_kelley]\] \[[Herbert 1966][research_herbert_1966]\] \[[Hiranaga and Cho 2021][research_hiranaga_cho_2021]\] \[[Huang and Wang 2015][research_huang_wang_2015]\] \[[Hwang et al 2010][research_hwang_negi_2010]\] \[[Improved air-traffic control voice-communications 2005][research_improved_air_traffic_2005]\] \[[indefinite call sign][research_indefinite_call]\] \[[International Call Sign Series 2013][research_international_call_2013]\] \[[Ishihara and Lee 2021][research_ishihara_lee_2021]\] \[[Ishikawa et al][research_ishikawa_kishida]\] \[[Jacobs 2016][research_jacobs_2016]\] \[[Jansky 1953][research_jansky_1953]\] \[[Jensen 1992][research_jensen_1992]\] \[[Jia and Li 2022][research_jia_li_2022]\] \[[Jia et al 2017][research_jia_lu_2017]\] \[[Jia et al 2018][research_jia_cheng_2018]\] \[[Jia et al 2025][research_jia_he_2025]\] \[[Jian-Gang Zhu et al][research_jiangangzhu_bai]\] \[[Jian-Gang Zhu et al][research_jiangangzhu_bai_b]\] \[[Jian-Gang Zhu et al 2003][research_jiangangzhu_bai_2003]\] \[[Jin et al 2015][research_jin_muraoka_2015]\] \[[Jinghuan Chen et al 2002][research_jinghuanchen_jaekyunmoon_2002]\] \[[Johnson 1994][research_johnson_1994]\] \[[Jun Zhu and Thayamballi][research_junzhu_thayamballi]\] \[[Jun Zhu and Thayamballi 1996][research_junzhu_thayamballi_1996]\] \[[Kaack et al 1995][research_kaack_pelzl_1995]\] \[[Kao 2008][research_kao_2008]\] \[[Kassmi et al 1993][research_kassmi_oms_1993]\] \[[Katz et al 2006][research_katz_kambe_2006]\] \[[Kerpatenko et al 2024][research_kerpatenko_shcherbyna_2024]\] \[[Kim 2003][research_kim_2003]\] \[[Kim 2013][research_kim_2013_b]\] \[[Kim 2023][research_kim_2023]\] \[[Kinter. 1918][research_kinter_1918]\] \[[Klaassen and van Peppen][research_klaassen_vanpeppen]\] \[[Klaassen and van Peppen][research_klaassen_vanpeppen_b]\] \[[Klaassen and van Peppen 1994][research_klaassen_vanpeppen_1994]\] \[[Klaassen and van Peppen 2001][research_klaassen_vanpeppen_2001]\] \[[Kocour et al 2021][research_kocour_vesely_2021]\] \[[Korenari et al 1993][research_korenari_matsutera_1993]\] \[[Koshevoy and Shishkin 2013][research_koshevoy_shishkin_2013]\] \[[Lapshin 2000][research_lapshin_2000]\] \[[Lees and Williamson 2020][research_lees_williamson_2020]\] \[[Lees and Williamson 2022][research_lees_williamson_2022]\] \[[Lei Wang et al][research_leiwang_shaopingli]\] \[[Lei Wang et al 2002][research_leiwang_shaopingli_2002]\] \[[Li and Jia 2025][research_li_jia_2025]\] \[[Li et al 2016][research_li_schwarz_2016]\] \[[Li et al 2017][research_li_wang_2017]\] \[[Lim et al 2010][research_lim_wilson_2010]\] \[[Liu et al 2019][research_liu_guo_2019]\] \[[Liu Guixi and Yang Wanhai 2000][research_liuguixi_yangwanhai_2000]\] \[[Lombardi et al 2024][research_lombardi_digravio_2024]\] \[[Lu et al 2016][research_lu_shi_2016]\] \[[Lynn][research_lynn]\] \[[Major improvement in German 2005][research_major_improvement_2005]\] \[[Manning et al 2002][research_manning_fox_2002]\] \[[Mast et al 2017][research_mast_carrard_2017]\] \[[Mattox 1990][research_mattox_1990]\] \[[Melas and Arnett 1990][research_melas_arnett_1990]\] \[[Merriman and White 1947][research_merriman_white_1947]\] \[[Minuhin][research_minuhin]\] \[[Minuhin 1985][research_minuhin_1985]\] \[[Minuhin 1986][research_minuhin_1986]\] \[[Minuhin 2004][research_minuhin_2004]\] \[[Montalyo, Michael L. and Lebacqz, J. Victor 1994][research_montalyomichaell_lebacqzjvictor_1994]\] \[[Monteiro 2022][research_monteiro_2022]\] \[[Moore et al 1947][research_moore_seyler_1947]\] \[[Morrow et al 1990][research_morrow_lee_1990]\] \[[Muraoka et al 1999][research_muraoka_sugita_1999]\] \[[Murry 1970][research_murry_1970]\] \[[Myint and Supnithi 2012][research_myint_supnithi_2012]\] \[[Neely 1956][research_neely_1956]\] \[[Nguyen and Lee 2016][research_nguyen_lee_2016]\] \[[Nishikawa 1970][research_nishikawa_1970]\] \[[Nishikawa et al][research_nishikawa_komatsu]\] \[[Nitayaphorn][research_nitayaphorn]\] \[[Nogueira and García-Pérez 2024][research_nogueira_garciaperez_2024]\] \[[Non-verbal communication 2007][research_non_verbal_communication_2007]\] \[[Non-verbal Communication 2020][research_non_verbal_communication_2020]\] \[[Non-verbal communication and speech 2013][research_non_verbal_communication_2013_b]\] \[[Non-verbal communication in animals 2013][research_non_verbal_communication_2013]\] \[[Novotny and Hsiao 1998][research_novotny_hsiao_1998]\] \[[Now that the magic 2017][research_now_that_2017]\] \[[Oggiano and Adriani 2023][research_oggiano_adriani_2023]\] \[[Origgi 2016][research_origgi_2016]\] \[[Osipova 2016][research_osipova_2016]\] \[[Ossart and Meunier 1990][research_ossart_meunier_1990]\] \[[Oswald et al 2016][research_oswald_maillat_2016]\] \[[Ozgunes and Eppler 2005][research_ozgunes_eppler_2005]\] \[[Ozgunes et al 1998][research_ozgunes_haciog_1998]\] \[[Pan et al 2025][research_pan_han_2025]\] \[[Pellegrini et al 2019][research_pellegrini_farinas_2019]\] \[[Pidlubna 2019][research_pidlubna_2019]\] \[[Pilot-Controller Communication A Multidimensional 2020][research_pilot_controller_communication_2020]\] \[[Pilot-Controller Communication Problems and 2016][research_pilot_controller_communication_2016]\] \[[Plumer and van Ek][research_plumer_vanek]\] \[[Potter et al 1971][research_potter_schmulian_1971]\] \[[Pozidis 2004][research_pozidis_2004]\] \[[Presentation Skills Verbal Communication 2017][research_presentation_skills_2017]\] \[[Prokhozhay 2011][research_prokhozhay_2011]\] \[[Pumphrey 1963][research_pumphrey_1963]\] \[[Qing-Hua Zeng and Chen 2003][research_qinghuazeng_chen_2003]\] \[[radiotelephony][research_radiotelephony]\] \[[Radiotelephony on the farm 1921][research_radiotelephony_on_1921]\] \[[Radiotelephony RT 2013][research_radiotelephony_rt_2013]\] \[[Radul 2025][research_radul_2025]\] \[[Rakas et al 2023][research_rakas_sohn_2023]\] \[[Rakas et al 2024][research_rakas_vallioor_2024]\] \[[Rocci and Luciani 2016][research_rocci_luciani_2016]\] \[[Rosenshine 1968][research_rosenshine_1968]\] \[[Rosmayanti et al 2024][research_rosmayanti_djokojatmoko_2024]\] \[[Ruan et al 2014][research_ruan_jie_2014]\] \[[Ruben 2021][research_ruben_2021]\] \[[S. 1916][research_s_1916]\] \[[Sadler et al 2023][research_sadler_chandarana_2023]\] \[[Sarigoz et al 1998][research_sarigoz_kumar_1998]\] \[[Saussure and Rocci 2016][research_saussure_rocci_2016]\] \[[Scalart and Benamar 1996][research_scalart_benamar_1996]\] \[[Schafer et al 1993][research_schafer_argyle_1993]\] \[[Schreck et al 1998][research_schreck_kimball_1998]\] \[[Seagle et al 1990][research_seagle_meininger_1990]\] \[[Sebestyen and Van Meter 1962][research_sebestyen_vanmeter_1962]\] \[[Seffrin et al 2010][research_seffrin_malipatlolla_2010]\] \[[Senanan et al 2002][research_senanan_xue_2002]\] \[[Shen and Jia 2025][research_shen_jia_2025]\] \[[Shen and Wei 2021][research_shen_wei_2021]\] \[[Shetty et al 2022][research_shetty_helmke_2022]\] \[[Shi et al 1987][research_shi_zhu_1987]\] \[[Shi et al 2024][research_shi_jia_2024]\] \[[Shishkin 2012][research_shishkin_2012]\] \[[Shishkin and Koshevoy 2013][research_shishkin_koshevoy_2013]\] \[[Shishkin et al 2021][research_shishkin_koshevoy_2021]\] \[[Shyshkin and Koshevyy 2017][research_shyshkin_koshevyy_2017]\] \[[Simpson et al 1984][research_simpson_persson_1984]\] \[[Siti Fitriani 2021][research_sitifitriani_2021]\] \[[Skaltsas et al 2013][research_skaltsas_rakas_2013]\] \[[Sound signals radiotelephony information 2022][research_sound_signals_2022]\] \[[Spong et al 1994][research_spong_dovek_1994]\] \[[Stahel 2008][research_stahel_2008]\] \[[Stanton 1990][research_stanton_1990]\] \[[Stanton 1996][research_stanton_1996]\] \[[Stuntz 1963][research_stuntz_1963]\] \[[Takano 2013][research_takano_2013]\] \[[Takano et al 1994][research_takano_muraoka_1994]\] \[[Tavares Monteiro][research_tavaresmonteiro]\] \[[The communicative aspect in 2023][research_the_communicative_2023]\] \[[The Verbal Communication of 2002][research_the_verbal_2002]\] \[[Thomas and Friedmann 1994][research_thomas_friedmann_1994]\] \[[Tian et al 2020][research_tian_ballar_2020]\] \[[Trzaska][research_trzaska]\] \[[Uda 1930][research_uda_1930]\] \[[Uwazumi et al][research_uwazumi_jinghuanchen]\] \[[Vallioor et al 2025][research_vallioor_rakas_2025]\] \[[Verbal and Non-verbal Communication][research_verbal_and]\] \[[Verbal and Non-Verbal Communication][research_verbal_and_b]\] \[[Verbal and Non-Verbal Communication 2012][research_verbal_and_2012]\] \[[Verbal Communication 2013][research_verbal_communication_2013]\] \[[Verbal Communication 2016][research_verbal_communication_2016]\] \[[Verbal Communication 2022][research_verbal_communication_2022]\] \[[Victora and Wang 2014][research_victora_wang_2014]\] \[[VonColln and Gonchaaroff 1996][research_voncolln_gonchaaroff_1996]\] \[[Wallash et al 1991][research_wallash_salo_1991]\] \[[Wattanaphol et al 2026][research_wattanaphol_rueangnetr_2026]\] \[[Wei Zeng et al 2006][research_weizeng_kavcic_2006]\] \[[Weik 2000][research_weik_2000]\] \[[Weik 2000][research_weik_2000_b]\] \[[Weik 2000][research_weik_2000_c]\] \[[Weik 2000][research_weik_2000_d]\] \[[Weik 2000][research_weik_2000_e]\] \[[White 1915][research_white_1915]\] \[[White 2016][research_white_2016]\] \[[Wierzbicka 2016][research_wierzbicka_2016]\] \[[Wilton and Wood][research_wilton_wood]\] \[[Wilton and Wood 2004][research_wilton_wood_2004]\] \[[Wing 1970][research_wing_1970]\] \[[Wood and Wilton 2008][research_wood_wilton_2008]\] \[[Wood et al 2012][research_wood_salo_2012]\] \[[Wu and Meng 2022][research_wu_meng_2022]\] \[[Wu and Sun 2022][research_wu_sun_2022]\] \[[Xiang et al 2012][research_xiang_pan_2012]\] \[[Xiang-Jun Feng and Jiang-Ling Zhang 1988][research_xiangjunfeng_jianglingzhang_1988]\] \[[Xiao et al 2022][research_xiao_jia_2022]\] \[[Xu et al 2024][research_xu_ma_2024]\] \[[yanqing et al 2025][research_yanqing_zhang_2025]\] \[[Yao Wang et al 2012][research_yaowang_erden_2012]\] \[[Yimin Guo and Kochan Ju 1996][research_yiminguo_kochanju_1996]\] \[[Yoon and Hwang 2019][research_yoon_hwang_2019]\] \[[Yoon and Hwang 2021][research_yoon_hwang_2021]\] \[[Yuan et al 2010][research_yuan_han_2010]\] \[[Yun and Choi 2023][research_yun_choi_2023]\] \[[Yuniar et al 2024][research_yuniar_febiyanti_2024]\] \[[Zaharias and Antonakopoulos 2013][research_zaharias_antonakopoulos_2013]\] \[[Zeng and Chen][research_zeng_chen]\] \[[Zhang and Liu 2012][research_zhang_liu_2012]\] \[[Zhang et al 2026][research_zhang_deng_2026]\] \[[Zhaohui Fan et al 2009][research_zhaohuifan_zhenyongzhang_2009]\] \[[Zhu and Ma 2015][research_zhu_ma_2015]\] \[[Zuluaga-Gomez et al 2020][research_zuluagagomez_vesely_2020]\]
+**212 records.** \[[Abdulrouf et al 2019][research_abdulrouf_thomas_2019]\] \[[Ablimit et al 2015][research_ablimit_hamdulla_2015]\] \[[Absher 1984][research_absher_1984]\] \[[Adhe et al 2023][research_adhe_mustaji_2023]\] \[[Agoglia et al 2024][research_agoglia_kelly_2024]\] \[[Al-Maymuni 2026][research_almaymuni_2026]\] \[[Alexeeva 2023][research_alexeeva_2023]\] \[[Allington 1977][research_allington_1977]\] \[[Aloufi 2022][research_aloufi_2022]\] \[[Alwitt 1973][research_alwitt_1973]\] \[[An investigation of the 1973][research_an_investigation_1973]\] \[[Anguita et al 2004][research_anguita_peillon_2004]\] \[[Anguita et al 2005][research_anguita_hernando_2005]\] \[[Appendix A Greek alphabet 2022][research_appendix_a_2022]\] \[[Armstrong, Herbert B. 1989][research_armstrongherbertb_1989]\] \[[Ashish et al 2016][research_ashish_patawari_2016]\] \[[Assessment of the Risk 2022][research_assessment_of_2022]\] \[[Baddeley 1971][research_baddeley_1971]\] \[[Barik 1969][research_barik_1969]\] \[[Barry and Harper 1995][research_barry_harper_1995]\] \[[Baxter et al 2014][research_baxter_ilicic_2014]\] \[[Beck and Morgan 1986][research_beck_morgan_1986]\] \[[Blair et al 2021][research_blair_eliav_2021]\] \[[Blood pressure medication recalled 2026][research_blood_pressure_2026]\] \[[Bogunenko et al 2010][research_bogunenko_gavrylenko_2010]\] \[[Bouselmi et al 2006][research_bouselmi_fohr_2006]\] \[[Bouwman et al 2004][research_bouwman_cranen_2004]\] \[[Branting 2003][research_branting_2003]\] \[[Bretmersky, Steven C. et al 2004][research_bretmerskystevenc_murawskirobert_2004]\] \[[Brochhagen et al 2025][research_brochhagen_liao_2025]\] \[[Brown and Hull 1971][research_brown_hull_1971]\] \[[Bánki et al 2023][research_banki_doring_2023]\] \[[Bühlmann 1953][research_buhlmann_1953]\] \[[Cebrian et al 2025][research_cebrian_carlet_2025]\] \[[Chastain 1982][research_chastain_1982]\] \[[Chen et al 2007][research_chen_olsen_2007]\] \[[Childears 1954][research_childears_1954]\] \[[Christen 2006][research_christen_2006]\] \[[Cieri et al 2021][research_cieri_fiumara_2021]\] \[[Clopper et al 2010][research_clopper_pierrehumbert_2010]\] \[[Cohen 2004][research_cohen_2004]\] \[[Cohen 2006][research_cohen_2006_b]\] \[[Cohen and Smetzer 2009][research_cohen_smetzer_2009]\] \[[Colomer 2012][research_colomer_2012]\] \[[Confusion Between FDA and 1998][research_confusion_between_1998]\] \[[Corter 1987][research_corter_1987]\] \[[Cutler 2005][research_cutler_2005]\] \[[Daou et al 2025][research_daou_sayegh_2025]\] \[[Deligne et al 1995][research_deligne_yvon_1995]\] \[[Deng et al 2013][research_deng_abdelhamid_2013]\] \[[Dholakia et al 2007][research_dholakia_yajnik_2007]\] \[[Ding 2008][research_ding_2008]\] \[[Dinh 2023][research_dinh_2023]\] \[[Dolle and Rovnov 2017][research_dolle_rovnov_2017]\] \[[Dukes 1900][research_dukes_1900]\] \[[Dunn-Rankin et al 1968][research_dunnrankin_leton_1968]\] \[[Eier and Kampichler 2026][research_eier_kampichler_2026]\] \[[Faure 2018][research_faure_2018]\] \[[Fayolle et al 2012][research_fayolle_saraclar_2012]\] \[[Fenna 1984][research_fenna_1984]\] \[[Fered et al 2026][research_fered_yigzaw_2026]\] \[[Fink and Goldrick 2015][research_fink_goldrick_2015]\] \[[Fohr and Illina 2015][research_fohr_illina_2015]\] \[[Fox 2010][research_fox_2010]\] \[[Friedman 2005][research_friedman_2005]\] \[[Gadd 1988][research_gadd_1988]\] \[[Gong et al 2009][research_gong_wang_2009]\] \[[Greek Alphabet and Phonetic 2025][research_greek_alphabet_2025]\] \[[Gurtov et al 2018][research_gurtov_polishchuk_2018]\] \[[Hacquard and Walter 2003][research_hacquard_walter_2003]\] \[[Hall and Hume 2013][research_hall_hume_2013]\] \[[Harris et al 2013][research_harris_olson_2013]\] \[[Hartmann and Fosler-Lussier 2009][research_hartmann_foslerlussier_2009]\] \[[Hauk 2018][research_hauk_2018]\] \[[Hayati and Piramoon 2023][research_hayati_piramoon_2023]\] \[[Heng Ji et al 2008][research_hengji_grishman_2008]\] \[[Hershenson and Ryder 1982][research_hershenson_ryder_1982]\] \[[Hershey et al 2007][research_hershey_olsen_2007]\] \[[Herzog et al][research_herzog_scheuren]\] \[[Hough 2000][research_hough_2000]\] \[[Howard, II 2020][research_howardii_2020]\] \[[Hunt 1996][research_hunt_1996]\] \[[Huo and Li 2007][research_huo_li_2007]\] \[[Hursky 1971][research_hursky_1971]\] \[[International Phonetic Alphabet 1984][research_international_phonetic_1984]\] \[[ISMP Survey Economy Having 2010][research_ismp_survey_2010]\] \[[Jani et al 2015][research_jani_cucchiarini_2015]\] \[[Jie Jiang and Bo Xu 2009][research_jiejiang_boxu_2009]\] \[[Kang and Cohen 2016][research_kang_cohen_2016]\] \[[Karanasou][research_karanasou]\] \[[Karpenstein 1953][research_karpenstein_1953]\] \[[Kessler 2005][research_kessler_2005]\] \[[Khan 2013][research_khan_2013]\] \[[Khan et al 2021][research_khan_gurtov_2021]\] \[[Kiawkaew et al 2023][research_kiawkaew_kaothanthong_2023]\] \[[Kim et al 2015][research_kim_seong_2015]\] \[[Kim et al 2021][research_kim_jung_2021]\] \[[Kirubakaran and Aramudhan 2018][research_kirubakaran_aramudhan_2018]\] \[[Kitt and Pearce 1952][research_kitt_pearce_1952]\] \[[Klensin et al 1998][research_klensin_wolf_1998]\] \[[Kobayashi and Niimi][research_kobayashi_niimi]\] \[[Kondrak 2003][research_kondrak_2003]\] \[[Kondrak 2005][research_kondrak_2005]\] \[[Kramer 1953][research_kramer_1953]\] \[[Krašovec 2009][research_krasovec_2009]\] \[[Kristanto and Indriyanto 2024][research_kristanto_indriyanto_2024]\] \[[Kulczynski et al 2021][research_kulczynski_brennan_2021]\] \[[Laarni 1999][research_laarni_1999]\] \[[Law 2002][research_law_2002]\] \[[Le Blouch and Collen 2008][research_leblouch_collen_2008]\] \[[Lee and Taft 2010][research_lee_taft_2010]\] \[[Lehto et al 2021][research_lehto_sestorp_2021]\] \[[Li][research_li]\] \[[Li and Yoshikawa 2016][research_li_yoshikawa_2016]\] \[[Li et al 2000][research_li_lo_2000]\] \[[Lisbach 2011][research_lisbach_2011]\] \[[Lisbach 2011][research_lisbach_2011_b]\] \[[Lisbach 2011][research_lisbach_2011_c]\] \[[Lisbach 2011][research_lisbach_2011_d]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013_b]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013_c]\] \[[Lisbach and Meyer 2013][research_lisbach_meyer_2013_d]\] \[[Loken et al 1986][research_loken_ross_1986]\] \[[Ma 2026][research_ma_2026]\] \[[Ma et al 2013][research_ma_liu_2013]\] \[[Mackintosh et al 1999][research_mackintosh_lozito_1999]\] \[[Mamou and Ramabhadran 2008][research_mamou_ramabhadran_2008]\] \[[McCarley 2009][research_mccarley_2009]\] \[[McGlannan and Thorson 1976][research_mcglannan_thorson_1976]\] \[[McKaig et al 2014][research_mckaig_collins_2014]\] \[[Medication Safety and Error 2020][research_medication_safety_2020]\] \[[Moe 1970][research_moe_1970]\] \[[Moreau et al 2004][research_moreau_kim_2004]\] \[[Morgan et al 1973][research_morgan_chambers_1973]\] \[[Morrow et al 1993][research_morrow_lee_1993]\] \[[Morrow et al 1994][research_morrow_rodvold_1994]\] \[[Morrow, Daniel and Lebacqz, J. Victor 1994][research_morrowdaniel_lebacqzjvictor_1994]\] \[[Moser et al 1961][research_moser_michel_1961]\] \[[Moss 2008][research_moss_2008]\] \[[Mountstephens 2013][research_mountstephens_2013]\] \[[Murray 1968][research_murray_1968]\] \[[Mutalib and Noah 2011][research_mutalib_noah_2011]\] \[[Name Matching][research_name_matching]\] \[[Name Matching 2009][research_name_matching_2009]\] \[[Nanavati and Rajput 2006][research_nanavati_rajput_2006]\] \[[Ng and Zue][research_ng_zue]\] \[[Nguyen and Schwartz 1998][research_nguyen_schwartz_1998]\] \[[Nogueiras-Rodriguez and Marino][research_nogueirasrodriguez_marino]\] \[[Nozawa and Wayland 2025][research_nozawa_wayland_2025]\] \[[O'Leary and Srivastava 2012][research_oleary_srivastava_2012]\] \[[Ohunyon et al 2026][research_ohunyon_ojukwu_2026]\] \[[On the Phonetic and 2025][research_on_the_2025]\] \[[Orye et al 2023][research_orye_visky_2023]\] \[[Phonetic features, vocalisation and 2019][research_phonetic_features_2019]\] \[[Phonetic Key 1980][research_phonetic_key_1980]\] \[[Phonetic Symbols 2014][research_phonetic_symbols_2014]\] \[[Phonetic Transcription of Geographic 1965][research_phonetic_transcription_1965]\] \[[Phoophuangpairoj et al 2024][research_phoophuangpairoj_boonsom_2024]\] \[[Piskorski et al 2009][research_piskorski_wieloch_2009]\] \[[Rakas and Yin 2005][research_rakas_yin_2005]\] \[[Rakas et al 2022][research_rakas_alvarado_2022]\] \[[Rankin and Mattson][research_rankin_mattson]\] \[[Ribeiro et al 2025][research_ribeiro_fabricio_2025]\] \[[Robinson 2013][research_robinson_2013]\] \[[Room 2013][research_room_2013]\] \[[Scarborough 2003][research_scarborough_2003]\] \[[Scarborough 2003][research_scarborough_2003_b]\] \[[Schmidt et al 1993][research_schmidt_fitt_1993]\] \[[Schumacher et al 2023][research_schumacher_mayfield_2023]\] \[[Sergent 1983][research_sergent_1983]\] \[[Shammass et al][research_shammass_moyal]\] \[[Sheikh et al 2015][research_sheikh_illina_2015]\] \[[Shim and Sung 2022][research_shim_sung_2022]\] \[[Shivanand H Honakeri et al 2026][research_shivanandhhonakeri_hemanthck_2026]\] \[[Silverman 2022][research_silverman_2022]\] \[[Simonsohn 2010][research_simonsohn_2010]\] \[[Simpson et al 2010][research_simpson_strassel_2010]\] \[[Sitbon et al 2007][research_sitbon_bellot_2007]\] \[[Skaltsas et al 2011][research_skaltsas_rakas_2011]\] \[[Smith 2008][research_smith_2008]\] \[[Snae and Brueckner 2009][research_snae_brueckner_2009]\] \[[Srinivasan and Petkovic 2000][research_srinivasan_petkovic_2000]\] \[[Starrfelt et al 2015][research_starrfelt_lindegaard_2015]\] \[[Street and LaidLaw 2007][research_street_laidlaw_2007]\] \[[Tagami and Imaizumi 2020][research_tagami_imaizumi_2020]\] \[[Tanaka et al][research_tanaka_itoh]\] \[[Telsang et al 2025][research_telsang_pund_2025]\] \[[Ternikov 2024][research_ternikov_2024]\] \[[Top et al 2007][research_top_dowla_2007]\] \[[Transposed-Letter Confusability Effects in 2004][research_transposed_letter_confusability_2004]\] \[[Treeratpituk and Giles 2021][research_treeratpituk_giles_2021]\] \[[Tuncal 2026][research_tuncal_2026]\] \[[Uryupina 2004][research_uryupina_2004]\] \[[Valarakos et al 2004][research_valarakos_paliouras_2004]\] \[[Valentine 1998][research_valentine_1998]\] \[[Varol and Talburt 2011][research_varol_talburt_2011]\] \[[Wang et al 2008][research_wang_hao_2008]\] \[[Weisenberger 1996][research_weisenberger_1996]\] \[[West 1954][research_west_1954]\] \[[Wolff 1971][research_wolff_1971]\] \[[Wu et al 2018][research_wu_liu_2018]\] \[[Xu and Metze 2014][research_xu_metze_2014]\] \[[Yamashita 2012][research_yamashita_2012]\] \[[You and Alwan 2007][research_you_alwan_2007]\] \[[Yu et al 2025][research_yu_fang_2025]\] \[[Yuan and Shih 2004][research_yuan_shih_2004]\] \[[ZeeAbrahamsen and Haberman 2018][research_zeeabrahamsen_haberman_2018]\] \[[Zhang and Cui 2010][research_zhang_cui_2010]\] \[[Zhang et al 2009][research_zhang_jiang_2009]\] \[[Zheng et al 2002][research_zheng_song_2002]\] \[[Žgank et al 2005][research_zgank_horvat_2005]\]
 
 ### Identifiers as administered objects
 
 **Identifiers considered as things somebody has to issue, keep and retire.** Namespaces, numbering schemes, part numbering, registries and unique identifier standards. **A336 surveyed this ground for the X-39 from the direction of absence** and this article approaches it from the direction of collision, which is why the two anomaly surveys overlap here and nowhere else.
 
-**229 records.** \[[A Syntactic Namespace 2011][research_a_syntactic_2011]\] \[[A Uniform Resource Name 2008][research_a_uniform_2008]\] \[[Abstract numbering system 2003][research_abstract_numbering_2003]\] \[[Adamson and Williams 2016][research_adamson_williams_2016]\] \[[Aerospace. Part numbering for][research_aerospace_part]\] \[[alves Da Silva et al 2015][research_alvesdasilva_figueira_2015]\] \[[Anderson 1970][research_anderson_1970]\] \[[Apodaca 2010][research_apodaca_2010]\] \[[Appendix 1 Rowe's 1980 1998][research_appendix_1_1998]\] \[[Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]\] \[[Appendix A Numbering System 2023][research_appendix_a_2023]\] \[[Appendix C Numbering System 2003][research_appendix_c_2003]\] \[[Appendix C. Numbering System 1974][research_appendix_c_1974]\] \[[Arunachalam and Madhan 2021][research_arunachalam_madhan_2021]\] \[[Assaker et al 2020][research_assaker_makhoul_2020]\] \[[Author name processing at 1983][research_author_name_1983]\] \[[Awadallah et al 2023][research_awadallah_zohar_2023]\] \[[Bar coding. Unique identifier][research_bar_coding]\] \[[Beale and Rajwany 2022][research_beale_rajwany_2022]\] \[[Beck 1984][research_beck_1984]\] \[[Bekić][research_bekic]\] \[[Berendsohn 2023][research_berendsohn_2023]\] \[[Bessho et al 2007][research_bessho_kobayashi_2007]\] \[[Best and Walsh 2001][research_best_walsh_2001]\] \[[Best and Walsh 2001][research_best_walsh_2001_b]\] \[[Bolton et al 2026][research_bolton_mbua_2026]\] \[[Brahim and Menouar 2016][research_brahim_menouar_2016]\] \[[Campbell and Tschofenig 2012][research_campbell_tschofenig_2012]\] \[[Carpenter and Joffe 2011][research_carpenter_joffe_2011]\] \[[Celko 2010][research_celko_2010]\] \[[Cerf 1990][research_cerf_1990]\] \[[Champeil-Desplats 2019][research_champeildesplats_2019]\] \[[Chandra 2011][research_chandra_2011]\] \[[Chaturvedi et al 2020][research_chaturvedi_cheema_2020]\] \[[Chen and Yuan 2011][research_chen_yuan_2011]\] \[[Cheng et al][research_cheng_ito]\] \[[Choi et al 2015][research_choi_kim_2015]\] \[[Chrétien 2026][research_chretien_2026]\] \[[Clinical Trial Subject Unique 2020][research_clinical_trial_2020]\] \[[Cloud 1998][research_cloud_1998]\] \[[Cloud 1998][research_cloud_1998_b]\] \[[Cloud 1998][research_cloud_1998_c]\] \[[Cloud 1998][research_cloud_1998_d]\] \[[Coates et al 2001][research_coates_allen_2001]\] \[[Comer 2025][research_comer_2025]\] \[[Concept Unique Identifier 2020][research_concept_unique_2020]\] \[[Copper and copper alloys][research_copper_and]\] \[[Cornaby et al 2022][research_cornaby_montgomery_2022]\] \[[Cosma 2024][research_cosma_2024]\] \[[Cosma 2025][research_cosma_2025]\] \[[Daigle et al 1999][research_daigle_van_1999]\] \[[Data Universal Numbering System 2020][research_data_universal_2020]\] \[[Dawodu et al 2023][research_dawodu_okeke_2023]\] \[[Definition identifier URNs in][research_definition_identifier]\] \[[Deng et al 2019][research_deng_knipe_2019]\] \[[Development of a 14-digit 1999][research_development_of_1999]\] \[[Device Unique Identifier 2020][research_device_unique_2020]\] \[[Dhiman 2015][research_dhiman_2015]\] \[[Digital token identifier DTI][research_digital_token]\] \[[Ding et al 2010][research_ding_attenberg_2010]\] \[[Document Identifier with Attribute 2020][research_document_identifier_2020]\] \[[Document management. Portable Document][research_document_management]\] \[[E. An Alternative Numbering 2011][research_e_an_2011]\] \[[Earth-moving machinery. Product identification][research_earth_moving_machinery]\] \[[Elsmore 1986][research_elsmore_1986]\] \[[Embossed credit cards. Specifications][research_embossed_credit]\] \[[English cotton yarn numbering 2021][research_english_cotton_2021]\] \[[FDA Established Names and 2020][research_fda_established_2020]\] \[[FDA Unique Device Identifier 2020][research_fda_unique_2020]\] \[[Fenner 2010][research_fenner_2010]\] \[[Fenner 2010][research_fenner_2010_b]\] \[[Fenner 2010][research_fenner_2010_c]\] \[[Financial services � Natural][research_financial_services_d]\] \[[Financial services � Unique][research_financial_services_c]\] \[[Financial services. Legal entity][research_financial_services]\] \[[Financial services. Unique transaction][research_financial_services_b]\] \[[Format, Text and Numbering][research_format_text]\] \[[Format, Text, and Numbering][research_format_text_b]\] \[[Fox 2020][research_fox_2020]\] \[[Francis 2013][research_francis_2013]\] \[[Gahrns and Newman 1998][research_gahrns_newman_1998]\] \[[Geographic information. Place Identifier][research_geographic_information]\] \[[Germishuizen 1997][research_germishuizen_1997]\] \[[Goth 2009][research_goth_2009]\] \[[Group Numbering System 2005][research_group_numbering_2005]\] \[[Gschneider, Jr 1976][research_gschneiderjr_1976]\] \[[GSM and GPS Based 2021][research_gsm_and_2021]\] \[[Hanover 1998][research_hanover_1998]\] \[[Harrison][research_harrison]\] \[[Hausdoerffer 1957][research_hausdoerffer_1957]\] \[[Health informatics. Health cards][research_health_informatics]\] \[[Hefny and Hassan 2023][research_hefny_hassan_2023]\] \[[Hydratight unifies its part-numbering 2010][research_hydratight_unifies_2010]\] \[[Identity Crisis An Examination 2008][research_identity_crisis_2008]\] \[[Implementing a Unique Business 2016][research_implementing_a_2016]\] \[[India's Unique Numbering System 2012][research_india_s_unique_2012]\] \[[Inecik et al 2026][research_inecik_erken_2026]\] \[[Information technology. Unique identifiers][research_information_technology]\] \[[Instance Unique Identifier 2020][research_instance_unique_2020]\] \[[Ishikawa 2012][research_ishikawa_2012]\] \[[Ivory and Beale 2025][research_ivory_beale_2025]\] \[[Jacobson 2018][research_jacobson_2018]\] \[[Jethanandani 2016][research_jethanandani_2016]\] \[[Jethanandani and Reina Ortega 2019][research_jethanandani_reinaortega_2019]\] \[[Karas 2016][research_karas_2016]\] \[[Klensin and Hakala 2017][research_klensin_hakala_2017]\] \[[Kumari 2014][research_kumari_2014]\] \[[Kwon and Shin 2024][research_kwon_shin_2024]\] \[[Leach et al 2005][research_leach_mealling_2005]\] \[[Lehnert et al 2019][research_lehnert_klump_2019]\] \[[Lemieux 2014][research_lemieux_2014]\] \[[Lemieux 2016][research_lemieux_2016]\] \[[Lexical Group Unique Identifier 2020][research_lexical_group_2020]\] \[[Machine readable cards. Health][research_machine_readable]\] \[[Material Identifier with Attribute 2020][research_material_identifier_2020]\] \[[Mayer 1993][research_mayer_1993]\] \[[McAlpin 2003][research_mcalpin_2003]\] \[[Meadows and Koester 2015][research_meadows_koester_2015]\] \[[Mealling 2000][research_mealling_2000]\] \[[Mealling 2001][research_mealling_2001]\] \[[Mealling 2004][research_mealling_2004]\] \[[Menouar et al 2011][research_menouar_filali_2011]\] \[[Metals and Alloys in 2017][research_metals_and_2017]\] \[[Metals and Alloys in 2025][research_metals_and_2025]\] \[[Mezl 1996][research_mezl_1996]\] \[[Moats 1999][research_moats_1999]\] \[[Namespace 2020][research_namespace_2020]\] \[[Narten and Johnson 2011][research_narten_johnson_2011]\] \[[Naval Material Command Washington Dc 1980][research_navalmaterialcommandwashingtondc_1980]\] \[[NCI Namespace 2020][research_nci_namespace_2020]\] \[[Nesbitt and Murphy 2022][research_nesbitt_murphy_2022]\] \[[Nicholls and Penel 2015][research_nicholls_penel_2015]\] \[[Nomenclature, Aircraft Hydraulic and][research_nomenclature_aircraft_b]\] \[[Nomenclature, Aircraft Oxygen Equipment][research_nomenclature_aircraft]\] \[[None 2021][research_none_2021]\] \[[Notation and Numbering System 1992][research_notation_and_1992]\] \[[Numbering System 1996][research_numbering_system_1996]\] \[[Numbering System for Designating][research_numbering_system_h]\] \[[Numbering System for Food 2001][research_numbering_system_2001]\] \[[Numbering System for Multiple][research_numbering_system_f]\] \[[Numbering System for Reamers][research_numbering_system_b]\] \[[Numbering System for Single][research_numbering_system_e]\] \[[Numbering System for Single][research_numbering_system_g]\] \[[Numbering System for Standard][research_numbering_system_c]\] \[[Numbering System for Standard][research_numbering_system_d]\] \[[Numbering System for Taps][research_numbering_system]\] \[[Numbering System in Heat 2010][research_numbering_system_2010]\] \[[Odebode 2010][research_odebode_2010]\] \[[Ogomaka 2005][research_ogomaka_2005]\] \[[Olden et al 2016][research_olden_holle_2016]\] \[[Omoro1 et al 2018][research_omoro1_awuor1_2018]\] \[[Oppolzer and Bestak][research_oppolzer_bestak]\] \[[Oppolzer and Bestak 2012][research_oppolzer_bestak_2012]\] \[[Oppolzer and Bestak 2012][research_oppolzer_bestak_2012_b]\] \[[Oppolzer and Bestak 2012][research_oppolzer_bestak_2012_c]\] \[[Oppolzer and Bestak 2013][research_oppolzer_bestak_2013]\] \[[Organization Identifier with Attribute 2020][research_organization_identifier_2020]\] \[[outline numbering system][research_outline_numbering]\] \[[Package Identifier with Attribute 2020][research_package_identifier_2020]\] \[[Page 2008][research_page_2008]\] \[[Palanivelrajan and Alli 2018][research_palanivelrajan_alli_2018]\] \[[Palm and De Volpi 1995][research_palm_devolpi_1995]\] \[[Pang-Yen Hsu 2006][research_pangyenhsu_2006]\] \[[Patel 2023][research_patel_2023]\] \[[Pebrianto 2022][research_pebrianto_2022]\] \[[Polk 2014][research_polk_2014]\] \[[Polychronakos 2012][research_polychronakos_2012]\] \[[Position Terms and Numbering][research_position_terms]\] \[[Practice for Numbering Metals][research_practice_for]\] \[[Product Identification Numbering System][research_product_identification]\] \[[Rapid Image Search with 2015][research_rapid_image_2015]\] \[[Rathod et al 2024][research_rathod_linge_2024]\] \[[Recommended Part Numbering Guidelines][research_recommended_part]\] \[[Regulated Industry Unique Identifier 2020][research_regulated_industry_2020]\] \[[Regulatory Application Unique Identifier 2020][research_regulatory_application_2020]\] \[[Regulatory Submission Unique Identifier 2020][research_regulatory_submission_2020]\] \[[Rhinoviruses a Numbering System 1967][research_rhinoviruses_a_1967]\] \[[Riva and Pesole 2009][research_riva_pesole_2009]\] \[[SAE Numbering System for][research_sae_numbering]\] \[[Saint-Andre 2013][research_saintandre_2013]\] \[[Scudder 1875][research_scudder_1875]\] \[[Securities and related financial][research_securities_and]\] \[[Sensmeier and Carroll 2021][research_sensmeier_carroll_2021]\] \[[Serial Version Unique Identifier 2020][research_serial_version_2020]\] \[[Shehabeldin and Hamama 2024][research_shehabeldin_hamama_2024]\] \[[Silvestri][research_silvestri]\] \[[Soman et al 2015][research_soman_srivastava_2015]\] \[[Sorathia 2015][research_sorathia_2015]\] \[[Soukup and Hammond 1982][research_soukup_hammond_1982]\] \[[Specification for international securities][research_specification_for]\] \[[Specification for key numbering][research_specification_for_b]\] \[[spun silk numbering system 2021][research_spun_silk_2021]\] \[[ST 330 2004 Unique 2004][research_st_330_2004]\] \[[Stanciu and Craciun 2014][research_stanciu_craciun_2014]\] \[[Study Agent Unique Ingredient 2020][research_study_agent_2020]\] \[[Subject Identifier with Attribute 2020][research_subject_identifier_2020]\] \[[Subject Unique Identifier 2020][research_subject_unique_2020]\] \[[Suzuki 2001][research_suzuki_2001]\] \[[T.Kalin and M.Molina 2007][research_tkalin_mmolina_2007]\] \[[Tea 2021][research_tea_2021]\] \[[Tesink and Fox 2005][research_tesink_fox_2005]\] \[[Tessman 2005][research_tessman_2005]\] \[[The Grex Universal Numbering 1944][research_the_grex_1944]\] \[[The System.IO Namespace][research_the_system_io]\] \[[The Unified Numbering System 2010][research_the_unified_2010]\] \[[Thomas 2017][research_thomas_2017]\] \[[Tracked Changes. Earth-moving machinery][research_tracked_changes]\] \[[Troelsen 2003][research_troelsen_2003]\] \[[Trpkoska and Vukikjevikj 2022][research_trpkoska_vukikjevikj_2022]\] \[[Tumor Identifier Evaluator Identifier 2020][research_tumor_identifier_2020]\] \[[Tumor Identifier Group Identifier 2020][research_tumor_identifier_2020_c]\] \[[Tumor Identifier Link Identifier 2020][research_tumor_identifier_2020_d]\] \[[Tumor Identifier Reference Identifier 2020][research_tumor_identifier_2020_b]\] \[[Tumor Identifier Sponsor Defined 2020][research_tumor_identifier_2020_e]\] \[[UMLS Concept Unique Identifier 2020][research_umls_concept_2020]\] \[[Uniform Dash Numbering System][research_uniform_dash]\] \[[Unique Digital Media Identifier][research_unique_digital]\] \[[Unique Health Identifier Assessment 2018][research_unique_health_2018]\] \[[Unique Identifier 2020][research_unique_identifier_2020]\] \[[Unique Material Identifier UMID][research_unique_material]\] \[[Universally Unique Identifier 2020][research_universally_unique_2020]\] \[[Vladimirov et al 2019][research_vladimirov_pirmagomedov_2019]\] \[[Wackerow 2024][research_wackerow_2024]\] \[[Weik 2000][research_weik_2000_g]\] \[[Wold 2017][research_wold_2017]\] \[[Yamakami][research_yamakami]\] \[[Zhao et al 2014][research_zhao_liu_2014]\] \[[∞universal numbering system 2021][research_universal_numbering_2021]\] \[[◾ Binary Numbering System 2013][research_binary_2013]\]
+**212 records.** \[[A Syntactic Namespace 2011][research_a_syntactic_2011]\] \[[A Uniform Resource Name 2008][research_a_uniform_2008]\] \[[Abstract numbering system 2003][research_abstract_numbering_2003]\] \[[Adamson and Williams 2016][research_adamson_williams_2016]\] \[[Aerospace. Part numbering for][research_aerospace_part]\] \[[alves Da Silva et al 2015][research_alvesdasilva_figueira_2015]\] \[[Anderson 1970][research_anderson_1970]\] \[[Apodaca 2010][research_apodaca_2010]\] \[[Appendix 1 Rowe's 1980 1998][research_appendix_1_1998]\] \[[Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]\] \[[Appendix A Numbering System 2023][research_appendix_a_2023]\] \[[Appendix C Numbering System 2003][research_appendix_c_2003]\] \[[Appendix C. Numbering System 1974][research_appendix_c_1974]\] \[[Arunachalam and Madhan 2021][research_arunachalam_madhan_2021]\] \[[Assaker et al 2020][research_assaker_makhoul_2020]\] \[[Author name processing at 1983][research_author_name_1983]\] \[[Bar coding. Unique identifier][research_bar_coding]\] \[[Beale and Rajwany 2022][research_beale_rajwany_2022]\] \[[Bekić][research_bekic]\] \[[Berendsohn 2023][research_berendsohn_2023]\] \[[Bessho et al 2007][research_bessho_kobayashi_2007]\] \[[Best and Walsh 2001][research_best_walsh_2001]\] \[[Best and Walsh 2001][research_best_walsh_2001_b]\] \[[Bolton et al 2026][research_bolton_mbua_2026]\] \[[Brahim and Menouar 2016][research_brahim_menouar_2016]\] \[[Campbell and Tschofenig 2012][research_campbell_tschofenig_2012]\] \[[Carpenter and Joffe 2011][research_carpenter_joffe_2011]\] \[[Celko 2010][research_celko_2010]\] \[[Cerf 1990][research_cerf_1990]\] \[[Chandra 2011][research_chandra_2011]\] \[[Chaturvedi et al 2020][research_chaturvedi_cheema_2020]\] \[[Chen and Yuan 2011][research_chen_yuan_2011]\] \[[Cheng et al][research_cheng_ito]\] \[[Choi et al 2015][research_choi_kim_2015]\] \[[Chrétien 2026][research_chretien_2026]\] \[[Clinical Trial Subject Unique 2020][research_clinical_trial_2020]\] \[[Cloud 1998][research_cloud_1998]\] \[[Cloud 1998][research_cloud_1998_b]\] \[[Cloud 1998][research_cloud_1998_c]\] \[[Cloud 1998][research_cloud_1998_d]\] \[[Coates et al 2001][research_coates_allen_2001]\] \[[Comer 2025][research_comer_2025]\] \[[Concept Unique Identifier 2020][research_concept_unique_2020]\] \[[Copper and copper alloys][research_copper_and]\] \[[Cosma 2024][research_cosma_2024]\] \[[Cosma 2025][research_cosma_2025]\] \[[Daigle et al 1999][research_daigle_van_1999]\] \[[Data Universal Numbering System 2020][research_data_universal_2020]\] \[[Dawodu et al 2023][research_dawodu_okeke_2023]\] \[[Definition identifier URNs in][research_definition_identifier]\] \[[Deng et al 2019][research_deng_knipe_2019]\] \[[Development of a 14-digit 1999][research_development_of_1999]\] \[[Device Unique Identifier 2020][research_device_unique_2020]\] \[[Dhiman 2015][research_dhiman_2015]\] \[[Digital token identifier DTI][research_digital_token]\] \[[Ding et al 2010][research_ding_attenberg_2010]\] \[[Document Identifier with Attribute 2020][research_document_identifier_2020]\] \[[Document management. Portable Document][research_document_management]\] \[[Earth-moving machinery. Product identification][research_earth_moving_machinery]\] \[[Elsmore 1986][research_elsmore_1986]\] \[[Embossed credit cards. Specifications][research_embossed_credit]\] \[[FDA Established Names and 2020][research_fda_established_2020]\] \[[FDA Unique Device Identifier 2020][research_fda_unique_2020]\] \[[Fenner 2010][research_fenner_2010]\] \[[Fenner 2010][research_fenner_2010_b]\] \[[Fenner 2010][research_fenner_2010_c]\] \[[Financial services � Natural][research_financial_services_d]\] \[[Financial services � Unique][research_financial_services_c]\] \[[Financial services. Legal entity][research_financial_services]\] \[[Financial services. Unique transaction][research_financial_services_b]\] \[[Format, Text and Numbering][research_format_text]\] \[[Format, Text, and Numbering][research_format_text_b]\] \[[Francis 2013][research_francis_2013]\] \[[Gahrns and Newman 1998][research_gahrns_newman_1998]\] \[[Geographic information. Place Identifier][research_geographic_information]\] \[[Germishuizen 1997][research_germishuizen_1997]\] \[[Goth 2009][research_goth_2009]\] \[[Group Numbering System 2005][research_group_numbering_2005]\] \[[Gschneider, Jr 1976][research_gschneiderjr_1976]\] \[[Harrison][research_harrison]\] \[[Health informatics. Health cards][research_health_informatics]\] \[[Hydratight unifies its part-numbering 2010][research_hydratight_unifies_2010]\] \[[Identity Crisis An Examination 2008][research_identity_crisis_2008]\] \[[Implementing a Unique Business 2016][research_implementing_a_2016]\] \[[India's Unique Numbering System 2012][research_india_s_unique_2012]\] \[[Inecik et al 2026][research_inecik_erken_2026]\] \[[Information technology. Unique identifiers][research_information_technology]\] \[[Instance Unique Identifier 2020][research_instance_unique_2020]\] \[[Ishikawa 2012][research_ishikawa_2012]\] \[[Ivory and Beale 2025][research_ivory_beale_2025]\] \[[Jacobson 2018][research_jacobson_2018]\] \[[Jethanandani 2016][research_jethanandani_2016]\] \[[Jethanandani and Reina Ortega 2019][research_jethanandani_reinaortega_2019]\] \[[Karas 2016][research_karas_2016]\] \[[Klensin and Hakala 2017][research_klensin_hakala_2017]\] \[[Kumari 2014][research_kumari_2014]\] \[[Leach et al 2005][research_leach_mealling_2005]\] \[[Lehnert et al 2019][research_lehnert_klump_2019]\] \[[Lemieux 2014][research_lemieux_2014]\] \[[Lemieux 2016][research_lemieux_2016]\] \[[Lexical Group Unique Identifier 2020][research_lexical_group_2020]\] \[[Machine readable cards. Health][research_machine_readable]\] \[[Material Identifier with Attribute 2020][research_material_identifier_2020]\] \[[Mayer 1993][research_mayer_1993]\] \[[McAlpin 2003][research_mcalpin_2003]\] \[[Meadows and Koester 2015][research_meadows_koester_2015]\] \[[Mealling 2000][research_mealling_2000]\] \[[Mealling 2001][research_mealling_2001]\] \[[Mealling 2004][research_mealling_2004]\] \[[Menouar et al 2011][research_menouar_filali_2011]\] \[[Metals and Alloys in 2017][research_metals_and_2017]\] \[[Metals and Alloys in 2025][research_metals_and_2025]\] \[[Mezl 1996][research_mezl_1996]\] \[[Moats 1999][research_moats_1999]\] \[[Namespace 2020][research_namespace_2020]\] \[[Narten and Johnson 2011][research_narten_johnson_2011]\] \[[Naval Material Command Washington Dc 1980][research_navalmaterialcommandwashingtondc_1980]\] \[[NCI Namespace 2020][research_nci_namespace_2020]\] \[[Nesbitt and Murphy 2022][research_nesbitt_murphy_2022]\] \[[Nicholls and Penel 2015][research_nicholls_penel_2015]\] \[[Nomenclature, Aircraft Hydraulic and][research_nomenclature_aircraft_b]\] \[[Nomenclature, Aircraft Oxygen Equipment][research_nomenclature_aircraft]\] \[[None 2021][research_none_2021]\] \[[Notation and Numbering System 1992][research_notation_and_1992]\] \[[Numbering System 1996][research_numbering_system_1996]\] \[[Numbering System for Designating][research_numbering_system_h]\] \[[Numbering System for Food 2001][research_numbering_system_2001]\] \[[Numbering System for Multiple][research_numbering_system_f]\] \[[Numbering System for Reamers][research_numbering_system_b]\] \[[Numbering System for Single][research_numbering_system_e]\] \[[Numbering System for Single][research_numbering_system_g]\] \[[Numbering System for Standard][research_numbering_system_c]\] \[[Numbering System for Standard][research_numbering_system_d]\] \[[Numbering System for Taps][research_numbering_system]\] \[[Odebode 2010][research_odebode_2010]\] \[[Olden et al 2016][research_olden_holle_2016]\] \[[Omoro1 et al 2018][research_omoro1_awuor1_2018]\] \[[Oppolzer and Bestak][research_oppolzer_bestak]\] \[[Oppolzer and Bestak 2012][research_oppolzer_bestak_2012]\] \[[Oppolzer and Bestak 2012][research_oppolzer_bestak_2012_b]\] \[[Oppolzer and Bestak 2012][research_oppolzer_bestak_2012_c]\] \[[Oppolzer and Bestak 2013][research_oppolzer_bestak_2013]\] \[[Organization Identifier with Attribute 2020][research_organization_identifier_2020]\] \[[outline numbering system][research_outline_numbering]\] \[[Package Identifier with Attribute 2020][research_package_identifier_2020]\] \[[Page 2008][research_page_2008]\] \[[Palanivelrajan and Alli 2018][research_palanivelrajan_alli_2018]\] \[[Palm and De Volpi 1995][research_palm_devolpi_1995]\] \[[Pang-Yen Hsu 2006][research_pangyenhsu_2006]\] \[[Patel 2023][research_patel_2023]\] \[[Pebrianto 2022][research_pebrianto_2022]\] \[[Polk 2014][research_polk_2014]\] \[[Polychronakos 2012][research_polychronakos_2012]\] \[[Position Terms and Numbering][research_position_terms]\] \[[Practice for Numbering Metals][research_practice_for]\] \[[Product Identification Numbering System][research_product_identification]\] \[[Rapid Image Search with 2015][research_rapid_image_2015]\] \[[Rathod et al 2024][research_rathod_linge_2024]\] \[[Recommended Part Numbering Guidelines][research_recommended_part]\] \[[Regulated Industry Unique Identifier 2020][research_regulated_industry_2020]\] \[[Regulatory Application Unique Identifier 2020][research_regulatory_application_2020]\] \[[Regulatory Submission Unique Identifier 2020][research_regulatory_submission_2020]\] \[[Rhinoviruses a Numbering System 1967][research_rhinoviruses_a_1967]\] \[[Riva and Pesole 2009][research_riva_pesole_2009]\] \[[SAE Numbering System for][research_sae_numbering]\] \[[Saint-Andre 2013][research_saintandre_2013]\] \[[Securities and related financial][research_securities_and]\] \[[Sensmeier and Carroll 2021][research_sensmeier_carroll_2021]\] \[[Serial Version Unique Identifier 2020][research_serial_version_2020]\] \[[Shehabeldin and Hamama 2024][research_shehabeldin_hamama_2024]\] \[[Silvestri][research_silvestri]\] \[[Soman et al 2015][research_soman_srivastava_2015]\] \[[Sorathia 2015][research_sorathia_2015]\] \[[Soukup and Hammond 1982][research_soukup_hammond_1982]\] \[[Specification for international securities][research_specification_for]\] \[[Specification for key numbering][research_specification_for_b]\] \[[ST 330 2004 Unique 2004][research_st_330_2004]\] \[[Stanciu and Craciun 2014][research_stanciu_craciun_2014]\] \[[Study Agent Unique Ingredient 2020][research_study_agent_2020]\] \[[Subject Identifier with Attribute 2020][research_subject_identifier_2020]\] \[[Subject Unique Identifier 2020][research_subject_unique_2020]\] \[[Suzuki 2001][research_suzuki_2001]\] \[[T.Kalin and M.Molina 2007][research_tkalin_mmolina_2007]\] \[[Tea 2021][research_tea_2021]\] \[[Tesink and Fox 2005][research_tesink_fox_2005]\] \[[Tessman 2005][research_tessman_2005]\] \[[The Grex Universal Numbering 1944][research_the_grex_1944]\] \[[The System.IO Namespace][research_the_system_io]\] \[[The Unified Numbering System 2010][research_the_unified_2010]\] \[[Thomas 2017][research_thomas_2017]\] \[[Tracked Changes. Earth-moving machinery][research_tracked_changes]\] \[[Troelsen 2003][research_troelsen_2003]\] \[[Trpkoska and Vukikjevikj 2022][research_trpkoska_vukikjevikj_2022]\] \[[Tumor Identifier Evaluator Identifier 2020][research_tumor_identifier_2020]\] \[[Tumor Identifier Group Identifier 2020][research_tumor_identifier_2020_c]\] \[[Tumor Identifier Link Identifier 2020][research_tumor_identifier_2020_d]\] \[[Tumor Identifier Reference Identifier 2020][research_tumor_identifier_2020_b]\] \[[Tumor Identifier Sponsor Defined 2020][research_tumor_identifier_2020_e]\] \[[UMLS Concept Unique Identifier 2020][research_umls_concept_2020]\] \[[Uniform Dash Numbering System][research_uniform_dash]\] \[[Unique Digital Media Identifier][research_unique_digital]\] \[[Unique Health Identifier Assessment 2018][research_unique_health_2018]\] \[[Unique Identifier 2020][research_unique_identifier_2020]\] \[[Unique Material Identifier UMID][research_unique_material]\] \[[Universally Unique Identifier 2020][research_universally_unique_2020]\] \[[Vladimirov et al 2019][research_vladimirov_pirmagomedov_2019]\] \[[Wackerow 2024][research_wackerow_2024]\] \[[Weik 2000][research_weik_2000_g]\] \[[Wold 2017][research_wold_2017]\] \[[Yamakami][research_yamakami]\] \[[Zhao et al 2014][research_zhao_liu_2014]\] \[[∞universal numbering system 2021][research_universal_numbering_2021]\]
 
 ### Medication safety, which is where this question is studied hardest
 
@@ -521,17 +515,23 @@ designation in 2006 and recorded a phrase.**
 
 **179 records.** \[[Abuelsoud 2018][research_abuelsoud_2018]\] \[[Alex Tumuhaise and Jane Frances Namukwaya 2026][research_alextumuhaise_janefrancesnamukwaya_2026]\] \[[Aljedaani et al 2025][research_aljedaani_farrash_2025]\] \[[Alsaif 2018][research_alsaif_2018]\] \[[Alshaikh et al 2013][research_alshaikh_mayet_2013]\] \[[Anderson et al 2009][research_anderson_ramanujam_2009]\] \[[andNa 1985][research_na_1985]\] \[[andNa 1993][research_na_1993]\] \[[andNa 1995][research_na_1995]\] \[[andNa 1999][research_na_1999]\] \[[andNa 2004][research_na_2004_b]\] \[[andNa 2005][research_na_2005_b]\] \[[andNa 2005][research_na_2005_c]\] \[[andNa 2011][research_na_2011]\] \[[Antonow et al 2000][research_antonow_smith_2000]\] \[[Arimura et al 2008][research_arimura_poole_2008]\] \[[Arora 2020][research_arora_2020]\] \[[Aydemi̇r and Esenkaya 2023][research_aydemir_esenkaya_2023]\] \[[Baghcheghi and Koohestani 2025][research_baghcheghi_koohestani_2025]\] \[[Bailey][research_bailey]\] \[[Balan and Irawati 2026][research_balan_irawati_2026]\] \[[Barriers to reporting medication 2009][research_barriers_to_2009]\] \[[Bassi et al 2025][research_bassi_jakubielsmith_2025]\] \[[Bc et al 2015][research_bc_aa_2015]\] \[[Birdwell et al 2003][research_birdwell_sullivan_2003]\] \[[Blum et al 1988][research_blum_abel_1988]\] \[[Boyer et al 2009][research_boyer_mcpherson_2009]\] \[[Brabcová et al 2014][research_brabcova_bartlova_2014]\] \[[Byrne and Bury 2018][research_byrne_bury_2018]\] \[[Cavell et al 2001][research_cavell_burgess_2001]\] \[[Chalasani and Madhan 2017][research_chalasani_madhan_2017]\] \[[Chalasani et al 2018][research_chalasani_ramesh_2018]\] \[[Chan and Hauben 2005][research_chan_hauben_2005]\] \[[Chanyagorn et al 2016][research_chanyagorn_kungwannarongkun_2016]\] \[[Chauhan and Gaur 2025][research_chauhan_gaur_2025]\] \[[Cohen 1996][research_cohen_1996]\] \[[Cohen 1999][research_cohen_1999]\] \[[Costello et al 2007][research_costello_torowicz_2007]\] \[[Crossman 2009][research_crossman_2009]\] \[[Cunningham 2012][research_cunningham_2012]\] \[[Cusano et al 2008][research_cusano_chambers_2008]\] \[[Davis 2000][research_davis_2000]\] \[[Davis 2000][research_davis_2000_b]\] \[[Dejos 2021][research_dejos_2021]\] \[[Dickens et al 2007][research_dickens_sinsabaugh_2007]\] \[[Dodek et al 2010][research_dodek_louie_2010]\] \[[Dyab et al 2018][research_dyab_elkalmi_2018]\] \[[Edgar et al 1994][research_edgar_lee_1994]\] \[[ElLithy et al 2023][research_ellithy_salah_2023]\] \[[Elnour et al 2007][research_elnour_ellahham_2007]\] \[[Elvretta et al 2021][research_elvretta_lase_2021]\] \[[Fayaz-Bakhsh and Khezri 2014][research_fayazbakhsh_khezri_2014]\] \[[Flecainide overdose and medication 2021][research_flecainide_overdose_2021]\] \[[Folli et al 1987][research_folli_poole_1987]\] \[[Furukawa et al 2003][research_furukawa_bunko_2003]\] \[[George et al 2018][research_george_hss_2018]\] \[[Goedecke et al 2016][research_goedecke_ord_2016]\] \[[Grant 2017][research_grant_2017]\] \[[Grindrod et al 2002][research_grindrod_chambers_2002]\] \[[Grissinger et al 2019][research_grissinger_gaunt_2019]\] \[[Guo et al 2025][research_guo_guo_2025]\] \[[Hajibabaee et al 2014][research_hajibabaee_joolaee_2014]\] \[[Handler et al 2004][research_handler_nace_2004]\] \[[Hartnell et al 2012][research_hartnell_mackinnon_2012]\] \[[Hicks and Becker 2006][research_hicks_becker_2006]\] \[[Holmström et al 2012][research_holmstrom_airaksinen_2012]\] \[[Holmström et al 2015][research_holmstrom_laaksonen_2015]\] \[[Horsham 2015][research_horsham_2015]\] \[[Hritz et al 2002][research_hritz_everly_2002]\] \[[Humphrey and Barnard 1998][research_humphrey_barnard_1998]\] \[[Hung et al 2015][research_hung_chu_2015]\] \[[Hung et al 2016][research_hung_lee_2016]\] \[[Hutchinson et al 2015][research_hutchinson_sales_2015]\] \[[Jae Jeong 2017][research_jaejeong_2017]\] \[[Jember et al 2018][research_jember_hailu_2018]\] \[[Joiner 1994][research_joiner_1994]\] \[[Kalra et al 2025][research_kalra_sohal_2025]\] \[[Keefer et al 2017][research_keefer_kidwell_2017]\] \[[Kennedy and Littenberg 2004][research_kennedy_littenberg_2004]\] \[[Keshtkar et al 2023][research_keshtkar_masoudiasl_2023]\] \[[Kim 2012][research_kim_2012]\] \[[Kim 2013][research_kim_2013]\] \[[Kim 2016][research_kim_2016]\] \[[Kim and McPherson 2012][research_kim_mcpherson_2012]\] \[[Kim et al 2022][research_kim_kim_2022]\] \[[Koo 2012][research_koo_2012]\] \[[Kuitunen et al 2023][research_kuitunen_saksa_2023]\] \[[Lee 2016][research_lee_2016]\] \[[M.A, Otr/L 2022][research_maotrl_2022]\] \[[M.Mansour and AL-Gethami 2013][research_mmansour_algethami_2013]\] \[[Magare 2026][research_magare_2026]\] \[[Maidment and Thorn 2005][research_maidment_thorn_2005]\] \[[Manik 2020][research_manik_2020]\] \[[Marappa and Reha Mallika 2020][research_marappa_rehamallika_2020]\] \[[Masmali et al 2020][research_masmali_maashi_2020]\] \[[Massah et al 2021][research_massah_mohammadi_2021]\] \[[Mathew et al 2021][research_mathew_thomas_2021]\] \[[McArdle et al 2003][research_mcardle_burns_2003]\] \[[McNally and Sunderland 1998][research_mcnally_sunderland_1998]\] \[[Medication Error 2020][research_medication_error_2020]\] \[[Medication Error due to 2020][research_medication_error_2020_b]\] \[[Medication Error Overview and 2021][research_medication_error_2021]\] \[[Medication Error Prevention 2004][research_medication_error_2004]\] \[[Medication error prevention 2017][research_medication_error_2017]\] \[[Medication error prevention potassium 2001][research_medication_error_2001]\] \[[Medication Error Reporting 2012][research_medication_error_2012]\] \[[Medication Error Reporting System 2008][research_medication_error_2008]\] \[[Mehanna et al 2024][research_mehanna_elgerges_2024]\] \[[Miller 2006][research_miller_2006]\] \[[Miller 2007][research_miller_2007]\] \[[Mohanty 2016][research_mohanty_2016]\] \[[Moureaud et al 2020][research_moureaud_hertig_2020]\] \[[Mukriani 2026][research_mukriani_2026]\] \[[Natalia et al 2026][research_natalia_nesia_2026]\] \[[Ni et al 2023][research_ni_tang_2023]\] \[[Novi Yulianti et al 2019][research_noviyulianti_hemamalini_2019]\] \[[Nydert et al 2020][research_nydert_kumlien_2020]\] \[[Ogamba et al 2023][research_ogamba_ndukwe_2023]\] \[[Pal et al 2025][research_pal_shira_2025]\] \[[Panca et al 2018][research_panca_fitriasari_2018]\] \[[Paparella 2008][research_paparella_2008]\] \[[Patrician and Brosch 2009][research_patrician_brosch_2009]\] \[[Perez 2026][research_perez_2026]\] \[[Perioperative medication error rates 2015][research_perioperative_medication_2015]\] \[[Peshek and Cubera 2004][research_peshek_cubera_2004]\] \[[Pharmaceutical Quality/CMC Manufacturing Site 2020][research_pharmaceutical_quality_cmc_2020]\] \[[Pharmaceutical Quality/CMC Testing Site 2020][research_pharmaceutical_quality_cmc_2020_b]\] \[[Pharmacists' Experiences with Medication 2020][research_pharmacists_experiences_with_2020]\] \[[Phillips 2001][research_phillips_2001]\] \[[Phillips 2014][research_phillips_2014]\] \[[Poornima et al 2015][research_poornima_reshma_2015]\] \[[Rached][research_rached]\] \[[Rask et al 2006][research_rask_hawley_2006]\] \[[Rawat 2008][research_rawat_2008]\] \[[Richmond 2011][research_richmond_2011]\] \[[Ringseis and Caird 1995][research_ringseis_caird_1995]\] \[[Rinke et al 2010][research_rinke_bundy_2010]\] \[[Rutledge et al 2018][research_rutledge_retrosi_2018]\] \[[Saad et al 2025][research_saad_bondok_2025]\] \[[Saada 2023][research_saada_2023]\] \[[Saada et al 2023][research_saada_morrissey_2023]\] \[[Samaei et al 2017][research_samaei_amrollahi_2017]\] \[[Samsiah et al 2016][research_samsiah_othman_2016]\] \[[Samsiah et al 2016][research_samsiah_othman_2016_b]\] \[[Samundeeswari 2018][research_samundeeswari_2018]\] \[[Sandlin 2008][research_sandlin_2008]\] \[[Santos 2020][research_santos_2020]\] \[[Sarvadikar et al 2010][research_sarvadikar_prescott_2010]\] \[[Savage et al 2005][research_savage_schneider_2005]\] \[[Scarrow et al 2005][research_scarrow_routon_2005]\] \[[Scheirman 2001][research_scheirman_2001]\] \[[Schlosser et al 2025][research_schlosser_hincapie_2025]\] \[[Sears and Generali 2005][research_sears_generali_2005]\] \[[Seger et al 2007][research_seger_jha_2007]\] \[[Senft 2007][research_senft_2007]\] \[[SeongSook Jun 2016][research_seongsookjun_2016]\] \[[Shanty][research_shanty]\] \[[Shiima et al 2022][research_shiima_malik_2022]\] \[[Smetzer 2001][research_smetzer_2001]\] \[[Smetzer and Cohen 2007][research_smetzer_cohen_2007]\] \[[Smith et al 2006][research_smith_trapskin_2006]\] \[[Statutory Protection for Medication-Error 2019][research_statutory_protection_2019]\] \[[Stump 2000][research_stump_2000]\] \[[Sulastri et al 2023][research_sulastri_salam_2023]\] \[[Thabet et al 2022][research_thabet_lamine_2022]\] \[[The pharmacy technician's role 2014][research_the_pharmacy_2014]\] \[[Tisdale 1986][research_tisdale_1986]\] \[[Tumuhaise and Namukwaya 2024][research_tumuhaise_namukwaya_2024]\] \[[Utilisation of Neonatal Medication 2018][research_utilisation_of_2018]\] \[[Vallabhaneni et al 2023][research_vallabhaneni_ahmad_2023]\] \[[Weant et al 2007][research_weant_cook_2007]\] \[[Weant et al 2010][research_weant_humphries_2010]\] \[[Wertheimer 2014][research_wertheimer_2014]\] \[[Wisconsin reviews state code 1994][research_wisconsin_reviews_1994]\] \[[Witt et al 2024][research_witt_cillessen_2024]\] \[[Wysocki et al 2022][research_wysocki_grabe_2022]\] \[[Yiğit 2026][research_yigit_2026]\] \[[Yoo and Keshavarzi 2020][research_yoo_keshavarzi_2020]\] \[[Zellmer 1993][research_zellmer_1993]\]
 
+### Call signs, readback and the spoken identifier
+
+**The channel the X-52 would have travelled down.** Call sign confusion, readback and hearback, radiotelephony phraseology and pilot-controller communication. **This is the cluster nearest the reason actually given for the C-16 skip**, which was recorded as concern about confusing an aircraft with the F-16 during the stress of high combat radio traffic.
+
+**151 records.** \[[A Fused Situational Awareness 2025][research_a_fused_2025]\] \[[A Novel Fatigue Detection 2019][research_a_novel_2019]\] \[[A Semantic Recognition Method 2020][research_a_semantic_2020]\] \[[Addressee errors in ATC communications, the call sign problem][research_callsign_problem]\] \[[air traffic control communications][research_air_traffic]\] \[[Allott 2016][research_allott_2016]\] \[[An error-resistant linguistic protocol for air traffic control][research_error_resistant_protocol]\] \[[Analysis of routine pilot-controller communication][research_routine_pilot_controller]\] \[[Andrade 2023][research_andrade_2023]\] \[[Aragão and Scaramucci 2020][research_aragao_scaramucci_2020]\] \[[Arra et al 2026][research_arra_payan_2026]\] \[[Bernsen and Dybkjær][research_bernsen_dybkjaer]\] \[[Blatt et al 2022][research_blatt_kocour_2022]\] \[[Bogush and Kovtun 2019][research_bogush_kovtun_2019]\] \[[Borowska 2025][research_borowska_2025]\] \[[Boschen and Jones][research_boschen_jones]\] \[[Brammer, Anthony 2003][research_brammeranthony_2003]\] \[[Brown 2004][research_brown_2004]\] \[[Burns 1980][research_burns_1980]\] \[[Busch and King 1964][research_busch_king_1964]\] \[[call sign][research_call_sign]\] \[[CALL SIGN "Marshal" from 2024][research_call_sign_2024]\] \[[call-sign allocation plan][research_call_sign_allocation]\] \[[call-sign linkage][research_call_sign_linkage]\] \[[Chen 2016][research_chen_2016]\] \[[Cheng et al 2018][research_cheng_jia_2018]\] \[[Christopher et al 2012][research_christopher_allen_2012]\] \[[Chung 2026][research_chung_2026]\] \[[Civil Verbal Communication 2016][research_civil_verbal_2016]\] \[[Clark and Williams 2020][research_clark_williams_2020]\] \[[Communication in action verbal 2013][research_communication_in_2013]\] \[[Cooren 2016][research_cooren_2016]\] \[[Corps Of Engineers Washington Dc 1986][research_corpsofengineerswashingtondc_1986]\] \[[Dai 2022][research_dai_2022]\] \[[Danesi 2016][research_danesi_2016]\] \[[Dani Chandra Yudho Pranoto and Susanto 2024][research_danichandrayudhopranoto_susanto_2024]\] \[[DaPolito et al 1989][research_dapolito_jones_1989]\] \[[Davies and Katsos 2016][research_davies_katsos_2016]\] \[[Davison 1972][research_davison_1972]\] \[[Department Of The Air Force Washington Dc 1997][research_departmentoftheairforcewashingtondc_1997]\] \[[Design of the Teaching 2024][research_design_of_2024]\] \[[Digital voice communication systems 2008][research_digital_voice_2008]\] \[[Drayton][research_drayton]\] \[[Drayton and Coxhead 2023][research_drayton_coxhead_2023]\] \[[Enriquez 2014][research_enriquez_2014]\] \[[Espenschied 1937][research_espenschied_1937]\] \[[Esposito][research_esposito]\] \[[Falzon 2009][research_falzon_2009]\] \[[Finn 2006][research_finn_2006]\] \[[Fujishin 2019][research_fujishin_2019]\] \[[Fujishin 2024][research_fujishin_2024]\] \[[Garrett G Sadler et al][research_garrettgsadler_meghanchandarana]\] \[[Giolas et al 1971][research_giolas_cooker_1971]\] \[[Giolas et al 1973][research_giolas_duffy_1973]\] \[[Glushanytsia 2020][research_glushanytsia_2020]\] \[[Guclu 2017][research_guclu_2017]\] \[[Hamzah et al 2022][research_hamzah_krish_2022]\] \[[Huang and Wang 2015][research_huang_wang_2015]\] \[[Improved air-traffic control voice-communications 2005][research_improved_air_traffic_2005]\] \[[indefinite call sign][research_indefinite_call]\] \[[International Call Sign Series 2013][research_international_call_2013]\] \[[Ishihara and Lee 2021][research_ishihara_lee_2021]\] \[[Jacobs 2016][research_jacobs_2016]\] \[[Jansky 1953][research_jansky_1953]\] \[[Jia and Li 2022][research_jia_li_2022]\] \[[Jia et al 2017][research_jia_lu_2017]\] \[[Jia et al 2018][research_jia_cheng_2018]\] \[[Jia et al 2025][research_jia_he_2025]\] \[[Johnson 1994][research_johnson_1994]\] \[[Katz et al 2006][research_katz_kambe_2006]\] \[[Kerpatenko et al 2024][research_kerpatenko_shcherbyna_2024]\] \[[Kim 2013][research_kim_2013_b]\] \[[Kim 2023][research_kim_2023]\] \[[Kocour et al 2021][research_kocour_vesely_2021]\] \[[Koshevoy and Shishkin 2013][research_koshevoy_shishkin_2013]\] \[[Lees and Williamson 2020][research_lees_williamson_2020]\] \[[Lees and Williamson 2022][research_lees_williamson_2022]\] \[[Li and Jia 2025][research_li_jia_2025]\] \[[Liu et al 2019][research_liu_guo_2019]\] \[[Lombardi et al 2024][research_lombardi_digravio_2024]\] \[[Lu et al 2016][research_lu_shi_2016]\] \[[Lynn][research_lynn]\] \[[Major improvement in German 2005][research_major_improvement_2005]\] \[[Manning et al 2002][research_manning_fox_2002]\] \[[Mattox 1990][research_mattox_1990]\] \[[Montalyo, Michael L. and Lebacqz, J. Victor 1994][research_montalyomichaell_lebacqzjvictor_1994]\] \[[Monteiro 2022][research_monteiro_2022]\] \[[Morrow et al 1990][research_morrow_lee_1990]\] \[[Murry 1970][research_murry_1970]\] \[[Neely 1956][research_neely_1956]\] \[[Nitayaphorn][research_nitayaphorn]\] \[[Now that the magic 2017][research_now_that_2017]\] \[[Origgi 2016][research_origgi_2016]\] \[[Osipova 2016][research_osipova_2016]\] \[[Oswald et al 2016][research_oswald_maillat_2016]\] \[[Pan et al 2025][research_pan_han_2025]\] \[[Pellegrini et al 2019][research_pellegrini_farinas_2019]\] \[[Pidlubna 2019][research_pidlubna_2019]\] \[[Pilot-Controller Communication A Multidimensional 2020][research_pilot_controller_communication_2020]\] \[[Pilot-Controller Communication Problems and 2016][research_pilot_controller_communication_2016]\] \[[Prokhozhay 2011][research_prokhozhay_2011]\] \[[radiotelephony][research_radiotelephony]\] \[[Radiotelephony RT 2013][research_radiotelephony_rt_2013]\] \[[Radul 2025][research_radul_2025]\] \[[Rakas et al 2023][research_rakas_sohn_2023]\] \[[Rakas et al 2024][research_rakas_vallioor_2024]\] \[[Rocci and Luciani 2016][research_rocci_luciani_2016]\] \[[Rosenshine 1968][research_rosenshine_1968]\] \[[Rosmayanti et al 2024][research_rosmayanti_djokojatmoko_2024]\] \[[Ruben 2021][research_ruben_2021]\] \[[Sadler et al 2023][research_sadler_chandarana_2023]\] \[[Saussure and Rocci 2016][research_saussure_rocci_2016]\] \[[Sebestyen and Van Meter 1962][research_sebestyen_vanmeter_1962]\] \[[Shen and Jia 2025][research_shen_jia_2025]\] \[[Shen and Wei 2021][research_shen_wei_2021]\] \[[Shetty et al 2022][research_shetty_helmke_2022]\] \[[Shi et al 2024][research_shi_jia_2024]\] \[[Shishkin 2012][research_shishkin_2012]\] \[[Shishkin and Koshevoy 2013][research_shishkin_koshevoy_2013]\] \[[Shishkin et al 2021][research_shishkin_koshevoy_2021]\] \[[Shyshkin and Koshevyy 2017][research_shyshkin_koshevyy_2017]\] \[[Siti Fitriani 2021][research_sitifitriani_2021]\] \[[Skaltsas et al 2013][research_skaltsas_rakas_2013]\] \[[Sound signals radiotelephony information 2022][research_sound_signals_2022]\] \[[Stahel 2008][research_stahel_2008]\] \[[Stuntz 1963][research_stuntz_1963]\] \[[Tavares Monteiro][research_tavaresmonteiro]\] \[[The communicative aspect in 2023][research_the_communicative_2023]\] \[[Vallioor et al 2025][research_vallioor_rakas_2025]\] \[[Verbal and Non-verbal Communication][research_verbal_and]\] \[[Verbal Communication 2013][research_verbal_communication_2013]\] \[[Verbal Communication 2016][research_verbal_communication_2016]\] \[[Verbal Communication 2022][research_verbal_communication_2022]\] \[[Weik 2000][research_weik_2000]\] \[[Weik 2000][research_weik_2000_b]\] \[[Weik 2000][research_weik_2000_c]\] \[[Weik 2000][research_weik_2000_d]\] \[[Weik 2000][research_weik_2000_e]\] \[[White 2016][research_white_2016]\] \[[Wierzbicka 2016][research_wierzbicka_2016]\] \[[Wu and Meng 2022][research_wu_meng_2022]\] \[[Wu and Sun 2022][research_wu_sun_2022]\] \[[Xiang et al 2012][research_xiang_pan_2012]\] \[[Xiao et al 2022][research_xiao_jia_2022]\] \[[Xu et al 2024][research_xu_ma_2024]\] \[[yanqing et al 2025][research_yanqing_zhang_2025]\] \[[Yun and Choi 2023][research_yun_choi_2023]\] \[[Yuniar et al 2024][research_yuniar_febiyanti_2024]\] \[[Zhang et al 2026][research_zhang_deng_2026]\] \[[Zhu and Ma 2015][research_zhu_ma_2015]\] \[[Zuluaga-Gomez et al 2020][research_zuluagagomez_vesely_2020]\]
+
 ### Reading a code, and the shapes of its characters
 
 **The identifier as a thing seen rather than heard.** Legibility, typography, character and digit confusion, and labelling. **The instruction's only written anti-confusion rule for a designator lives in this cluster**, being the prohibition on the series letters I and O because they resemble the digits 1 and 0.
 
-**153 records.** \[[AlJassmi and Perea 2024][research_aljassmi_perea_2024]\] \[[alphanumeric][research_alphanumeric]\] \[[Alphanumeric 2020][research_alphanumeric_2020]\] \[[alphanumeric character set][research_alphanumeric_character_b]\] \[[alphanumeric character subset][research_alphanumeric_character]\] \[[alphanumeric code][research_alphanumeric_code]\] \[[alphanumeric coded set][research_alphanumeric_coded]\] \[[alphanumeric coded-character set][research_alphanumeric_coded_character]\] \[[alphanumeric data][research_alphanumeric_data]\] \[[alphanumeric literal][research_alphanumeric_literal]\] \[[alphanumeric word][research_alphanumeric_word]\] \[[Aten et al 2002][research_aten_gugerty_2002]\] \[[Barbre and Price 1983][research_barbre_price_1983]\] \[[Barnard et al 1978][research_barnard_wright_1978]\] \[[Bell 1967][research_bell_1967]\] \[[Bernard et al 2001][research_bernard_liao_2001]\] \[[Bhise and Hammoudeh 2004][research_bhise_hammoudeh_2004]\] \[[Brown and Goodman 1983][research_brown_goodman_1983]\] \[[Bruno et al 2018][research_bruno_garofalo_2018]\] \[[Butterbaugh 1981][research_butterbaugh_1981]\] \[[Butterbaugh and Rockwell 1982][research_butterbaugh_rockwell_1982]\] \[[Cai 2011][research_cai_2011]\] \[[Cai 2017][research_cai_2017]\] \[[Cardosi 1986][research_cardosi_1986]\] \[[Chapanis et al][research_chapanis_garner]\] \[[Chaparro et al 2006][research_chaparro_shaikh_2006]\] \[[Charness and Dijkstra 1999][research_charness_dijkstra_1999]\] \[[Chrysler et al 2001][research_chrysler_tranchida_2001]\] \[[Cohen 2000][research_cohen_2000]\] \[[Colby 1992][research_colby_1992]\] \[[Del Rose 2004][research_delrose_2004]\] \[[Desmarais and Dixon 2005][research_desmarais_dixon_2005]\] \[[Dorris and Davis 2003][research_dorris_davis_2003]\] \[[Duncan and Konz 1974][research_duncan_konz_1974]\] \[[Effects of perceptual similarity 2005][research_effects_of_2005]\] \[[Eggemeier et al 1990][research_eggemeier_granitz_1990]\] \[[Erdmann and Neal 1968][research_erdmann_neal_1968]\] \[[Fell and Laughery 1969][research_fell_laughery_1969]\] \[[Fox et al 2008][research_fox_chaparro_2008]\] \[[Garvey et al 2001][research_garvey_zineddin_2001]\] \[[Godwin et al 2013][research_godwin_hout_2013]\] \[[Goldberg and Reddy 1977][research_goldberg_reddy_1977]\] \[[Gonzales et al 2018][research_gonzales_moneda_2018]\] \[[Greco et al 2008][research_greco_stucchi_2008]\] \[[Greene et al 1994][research_greene_koppa_1994]\] \[[Greene et al 1995][research_greene_huchingson_1995]\] \[[Guangming Chang et al 2011][research_guangmingchang_yuan_2011]\] \[[Gunderson et al 1991][research_gunderson_gruetzmacher_1991]\] \[[Gunther 1979][research_gunther_1979]\] \[[Hemingway and Erickson 1969][research_hemingway_erickson_1969]\] \[[Herzog et al][research_herzog_scheuren_b]\] \[[Ho et al 2016][research_ho_maritan_2016]\] \[[Hoeken et al 2016][research_hoeken_kolthoff_2016]\] \[[Hsiao and Cheung 2015][research_hsiao_cheung_2015]\] \[[Johnson and Werner 2006][research_johnson_werner_2006]\] \[[Johnson and Werner 2007][research_johnson_werner_2007]\] \[[Kelso 1965][research_kelso_1965]\] \[[Kim and Shin 2025][research_kim_shin_2025]\] \[[Kim et al 2000][research_kim_chang_2000]\] \[[Kimura et al 2020][research_kimura_marunaka_2020]\] \[[Kinney et al 1966][research_kinney_marsetta_1966]\] \[[Kinoshita et al 2021][research_kinoshita_yu_2021]\] \[[Koehler et al 1994][research_koehler_lloyd_1994]\] \[[Kovesdi 2022][research_kovesdi_2022]\] \[[Lebiedź][research_lebiedz]\] \[[Legibility 2017][research_legibility_2017]\] \[[Legibility of Colored Print 2006][research_legibility_of_2006]\] \[[Li and Liu 2013][research_li_liu_2013]\] \[[Liang et al 2023][research_liang_cheng_2023]\] \[[Lindley et al 2020][research_lindley_akmal_2020]\] \[[Lippert 1963][research_lippert_1963]\] \[[Lippert and Lee 1965][research_lippert_lee_1965]\] \[[Little 1973][research_little_1973]\] \[[Local Legibility 2017][research_local_legibility_2017]\] \[[Loucks 1944][research_loucks_1944]\] \[[Lucia Bainotti Discusses Visual 2022][research_lucia_bainotti_2022]\] \[[McAlindon 1994][research_mcalindon_1994]\] \[[McCutcheon 2023][research_mccutcheon_2023]\] \[[Mclean 1965][research_mclean_1965]\] \[[McTyre 1982][research_mctyre_1982]\] \[[McTyre and Frommer 1985][research_mctyre_frommer_1985]\] \[[Menneer et al 2014][research_menneer_godwin_2014]\] \[[Micrographics. Alphanumeric computer output][research_micrographics_alphanumeric]\] \[[Moody][research_moody]\] \[[Morrison and Rayner 1985][research_morrison_rayner_1985]\] \[[Mustonen et al 2004][research_mustonen_olkkonen_2004]\] \[[Nakaseko et al 1985][research_nakaseko_grandjean_1985]\] \[[Nalajala et al 2016][research_nalajala_godavarth_2016]\] \[[Nilsson and Kaiserman 2004][research_nilsson_kaiserman_2004]\] \[[Oliveira et al 2020][research_oliveira_bruno_2020]\] \[[Olson and Bernstein 1979][research_olson_bernstein_1979]\] \[[Pastoor 1990][research_pastoor_1990]\] \[[Petrun et al 1985][research_petrun_hernon_1985]\] \[[Pilling et al 2020][research_pilling_akmal_2020]\] \[[Plaisant and Sears 1992][research_plaisant_sears_1992]\] \[[Podgorny and Garner 1979][research_podgorny_garner_1979]\] \[[Preczewski and Fisher 1990][research_preczewski_fisher_1990]\] \[[Quible 2006][research_quible_2006]\] \[[Rasmussen et al 1980][research_rasmussen_chesterfield_1980]\] \[[Reinhartz 1998][research_reinhartz_1998]\] \[[Riley and Glenn 1996][research_riley_glenn_1996]\] \[[Roca et al 2018][research_roca_insa_2018]\] \[[Rose and Cornog 1964][research_rose_cornog_1964]\] \[[Rose and Cornog 1967][research_rose_cornog_1967]\] \[[Rossi et al 2023][research_rossi_coppola_2023]\] \[[Sawyer et al 2017][research_sawyer_dobres_2017]\] \[[Schieber 1994][research_schieber_1994]\] \[[Schieber 1998][research_schieber_1998]\] \[[Schieber 2005][research_schieber_2005]\] \[[Schieber and Kline 1994][research_schieber_kline_1994]\] \[[Schnell and Zwahlen 1999][research_schnell_zwahlen_1999]\] \[[Serrano et al 2016][research_serrano_roudaut_2016]\] \[[Sheedy et al 2005][research_sheedy_subbaram_2005]\] \[[Showman 1967][research_showman_1967]\] \[[Shurtleff 1966][research_shurtleff_1966]\] \[[Shurtleff and Wuersch 1979][research_shurtleff_wuersch_1979]\] \[[Sivak et al 1981][research_sivak_olson_1981]\] \[[Slaughter 2007][research_slaughter_2007]\] \[[Smith 1979][research_smith_1979]\] \[[Snyder 1979][research_snyder_1979]\] \[[Sohn et al 2024][research_sohn_hong_2024]\] \[[Some factors affecting legibility 1981][research_some_factors_1981]\] \[[Spiker and Rogers 1984][research_spiker_rogers_1984]\] \[[Spoto and Babu 1989][research_spoto_babu_1989]\] \[[Still 2026][research_still_2026]\] \[[Stolz 1967][research_stolz_1967]\] \[[Study on judgment of 2016][research_study_on_2016]\] \[[The Legibility of Human 2022][research_the_legibility_2022]\] \[[Tullis 1981][research_tullis_1981]\] \[[Tullis 1983][research_tullis_1983]\] \[[Ulrych and Kopecký 2008][research_ulrych_kopecky_2008]\] \[[Vaghela et al 2022][research_vaghela_jackson_2022]\] \[[van Nes 1988][research_vannes_1988]\] \[[Van Nes and Bouma 1980][research_vannes_bouma_1980]\] \[[Vartabedian 1970][research_vartabedian_1970]\] \[[Vaughan et al 1982][research_vaughan_glass_1982]\] \[[Visual Similarity][research_visual_similarity]\] \[[Visual Similarity 2009][research_visual_similarity_2009]\] \[[Visual Similarity 2021][research_visual_similarity_2021]\] \[[Wang and Jean 1993][research_wang_jean_1993]\] \[[Wang et al 2024][research_wang_feng_2024]\] \[[Ward et al 1995][research_ward_parkes_1995]\] \[[Weik 2000][research_weik_2000_f]\] \[[Wetzel and Hernandez 2010][research_wetzel_hernandez_2010]\] \[[Williams 1967][research_williams_1967]\] \[[WITHDRAWN Visual Similarity Versus 2021][research_withdrawn_visual_2021]\] \[[Wolf 1982][research_wolf_1982]\] \[[Xiao and Calvo 2026][research_xiao_calvo_2026]\] \[[Yang and Anderson 2024][research_yang_anderson_2024]\] \[[Young et al 1992][research_young_laughery_1992]\] \[[Zhang and Jin 2021][research_zhang_jin_2021]\] \[[Zineddin et al 2003][research_zineddin_garvey_2003]\] \[[Zwaga 1979][research_zwaga_1979]\]
+**141 records.** \[[AlJassmi and Perea 2024][research_aljassmi_perea_2024]\] \[[alphanumeric][research_alphanumeric]\] \[[Alphanumeric 2020][research_alphanumeric_2020]\] \[[alphanumeric character set][research_alphanumeric_character_b]\] \[[alphanumeric character subset][research_alphanumeric_character]\] \[[alphanumeric code][research_alphanumeric_code]\] \[[alphanumeric coded set][research_alphanumeric_coded]\] \[[alphanumeric coded-character set][research_alphanumeric_coded_character]\] \[[alphanumeric data][research_alphanumeric_data]\] \[[alphanumeric literal][research_alphanumeric_literal]\] \[[alphanumeric word][research_alphanumeric_word]\] \[[Aten et al 2002][research_aten_gugerty_2002]\] \[[Barbre and Price 1983][research_barbre_price_1983]\] \[[Barnard et al 1978][research_barnard_wright_1978]\] \[[Bell 1967][research_bell_1967]\] \[[Bernard et al 2001][research_bernard_liao_2001]\] \[[Bhise and Hammoudeh 2004][research_bhise_hammoudeh_2004]\] \[[Brown and Goodman 1983][research_brown_goodman_1983]\] \[[Bruno et al 2018][research_bruno_garofalo_2018]\] \[[Butterbaugh 1981][research_butterbaugh_1981]\] \[[Butterbaugh and Rockwell 1982][research_butterbaugh_rockwell_1982]\] \[[Cai 2011][research_cai_2011]\] \[[Cai 2017][research_cai_2017]\] \[[Cardosi 1986][research_cardosi_1986]\] \[[Chapanis et al][research_chapanis_garner]\] \[[Chaparro et al 2006][research_chaparro_shaikh_2006]\] \[[Charness and Dijkstra 1999][research_charness_dijkstra_1999]\] \[[Chrysler et al 2001][research_chrysler_tranchida_2001]\] \[[Cohen 2000][research_cohen_2000]\] \[[Colby 1992][research_colby_1992]\] \[[Del Rose 2004][research_delrose_2004]\] \[[Desmarais and Dixon 2005][research_desmarais_dixon_2005]\] \[[Dorris and Davis 2003][research_dorris_davis_2003]\] \[[Duncan and Konz 1974][research_duncan_konz_1974]\] \[[Effects of perceptual similarity 2005][research_effects_of_2005]\] \[[Eggemeier et al 1990][research_eggemeier_granitz_1990]\] \[[Erdmann and Neal 1968][research_erdmann_neal_1968]\] \[[Fell and Laughery 1969][research_fell_laughery_1969]\] \[[Fox et al 2008][research_fox_chaparro_2008]\] \[[Garvey et al 2001][research_garvey_zineddin_2001]\] \[[Godwin et al 2013][research_godwin_hout_2013]\] \[[Goldberg and Reddy 1977][research_goldberg_reddy_1977]\] \[[Gonzales et al 2018][research_gonzales_moneda_2018]\] \[[Greco et al 2008][research_greco_stucchi_2008]\] \[[Greene et al 1994][research_greene_koppa_1994]\] \[[Greene et al 1995][research_greene_huchingson_1995]\] \[[Guangming Chang et al 2011][research_guangmingchang_yuan_2011]\] \[[Gunderson et al 1991][research_gunderson_gruetzmacher_1991]\] \[[Gunther 1979][research_gunther_1979]\] \[[Hemingway and Erickson 1969][research_hemingway_erickson_1969]\] \[[Herzog et al][research_herzog_scheuren_b]\] \[[Ho et al 2016][research_ho_maritan_2016]\] \[[Hsiao and Cheung 2015][research_hsiao_cheung_2015]\] \[[Johnson and Werner 2006][research_johnson_werner_2006]\] \[[Johnson and Werner 2007][research_johnson_werner_2007]\] \[[Kelso 1965][research_kelso_1965]\] \[[Kim et al 2000][research_kim_chang_2000]\] \[[Kimura et al 2020][research_kimura_marunaka_2020]\] \[[Kinney et al 1966][research_kinney_marsetta_1966]\] \[[Kinoshita et al 2021][research_kinoshita_yu_2021]\] \[[Koehler et al 1994][research_koehler_lloyd_1994]\] \[[Kovesdi 2022][research_kovesdi_2022]\] \[[Lebiedź][research_lebiedz]\] \[[Legibility 2017][research_legibility_2017]\] \[[Legibility of Colored Print 2006][research_legibility_of_2006]\] \[[Li and Liu 2013][research_li_liu_2013]\] \[[Liang et al 2023][research_liang_cheng_2023]\] \[[Lindley et al 2020][research_lindley_akmal_2020]\] \[[Lippert 1963][research_lippert_1963]\] \[[Lippert and Lee 1965][research_lippert_lee_1965]\] \[[Little 1973][research_little_1973]\] \[[Local Legibility 2017][research_local_legibility_2017]\] \[[Loucks 1944][research_loucks_1944]\] \[[Lucia Bainotti Discusses Visual 2022][research_lucia_bainotti_2022]\] \[[McAlindon 1994][research_mcalindon_1994]\] \[[McCutcheon 2023][research_mccutcheon_2023]\] \[[Mclean 1965][research_mclean_1965]\] \[[McTyre 1982][research_mctyre_1982]\] \[[McTyre and Frommer 1985][research_mctyre_frommer_1985]\] \[[Menneer et al 2014][research_menneer_godwin_2014]\] \[[Micrographics. Alphanumeric computer output][research_micrographics_alphanumeric]\] \[[Moody][research_moody]\] \[[Morrison and Rayner 1985][research_morrison_rayner_1985]\] \[[Mustonen et al 2004][research_mustonen_olkkonen_2004]\] \[[Nakaseko et al 1985][research_nakaseko_grandjean_1985]\] \[[Nalajala et al 2016][research_nalajala_godavarth_2016]\] \[[Nilsson and Kaiserman 2004][research_nilsson_kaiserman_2004]\] \[[Oliveira et al 2020][research_oliveira_bruno_2020]\] \[[Olson and Bernstein 1979][research_olson_bernstein_1979]\] \[[Pastoor 1990][research_pastoor_1990]\] \[[Petrun et al 1985][research_petrun_hernon_1985]\] \[[Plaisant and Sears 1992][research_plaisant_sears_1992]\] \[[Podgorny and Garner 1979][research_podgorny_garner_1979]\] \[[Preczewski and Fisher 1990][research_preczewski_fisher_1990]\] \[[Quible 2006][research_quible_2006]\] \[[Rasmussen et al 1980][research_rasmussen_chesterfield_1980]\] \[[Riley and Glenn 1996][research_riley_glenn_1996]\] \[[Roca et al 2018][research_roca_insa_2018]\] \[[Rose and Cornog 1964][research_rose_cornog_1964]\] \[[Rose and Cornog 1967][research_rose_cornog_1967]\] \[[Sawyer et al 2017][research_sawyer_dobres_2017]\] \[[Schieber 1994][research_schieber_1994]\] \[[Schieber 1998][research_schieber_1998]\] \[[Schieber 2005][research_schieber_2005]\] \[[Schieber and Kline 1994][research_schieber_kline_1994]\] \[[Schnell and Zwahlen 1999][research_schnell_zwahlen_1999]\] \[[Serrano et al 2016][research_serrano_roudaut_2016]\] \[[Sheedy et al 2005][research_sheedy_subbaram_2005]\] \[[Showman 1967][research_showman_1967]\] \[[Shurtleff 1966][research_shurtleff_1966]\] \[[Shurtleff and Wuersch 1979][research_shurtleff_wuersch_1979]\] \[[Sivak et al 1981][research_sivak_olson_1981]\] \[[Smith 1979][research_smith_1979]\] \[[Snyder 1979][research_snyder_1979]\] \[[Sohn et al 2024][research_sohn_hong_2024]\] \[[Some factors affecting legibility 1981][research_some_factors_1981]\] \[[Spiker and Rogers 1984][research_spiker_rogers_1984]\] \[[Spoto and Babu 1989][research_spoto_babu_1989]\] \[[Still 2026][research_still_2026]\] \[[Stolz 1967][research_stolz_1967]\] \[[Tullis 1981][research_tullis_1981]\] \[[Tullis 1983][research_tullis_1983]\] \[[Ulrych and Kopecký 2008][research_ulrych_kopecky_2008]\] \[[van Nes 1988][research_vannes_1988]\] \[[Van Nes and Bouma 1980][research_vannes_bouma_1980]\] \[[Vartabedian 1970][research_vartabedian_1970]\] \[[Vaughan et al 1982][research_vaughan_glass_1982]\] \[[Visual Similarity][research_visual_similarity]\] \[[Visual Similarity 2009][research_visual_similarity_2009]\] \[[Visual Similarity 2021][research_visual_similarity_2021]\] \[[Wang and Jean 1993][research_wang_jean_1993]\] \[[Wang et al 2024][research_wang_feng_2024]\] \[[Ward et al 1995][research_ward_parkes_1995]\] \[[Weik 2000][research_weik_2000_f]\] \[[Wetzel and Hernandez 2010][research_wetzel_hernandez_2010]\] \[[Williams 1967][research_williams_1967]\] \[[Wolf 1982][research_wolf_1982]\] \[[Young et al 1992][research_young_laughery_1992]\] \[[Zhang and Jin 2021][research_zhang_jin_2021]\] \[[Zineddin et al 2003][research_zineddin_garvey_2003]\] \[[Zwaga 1979][research_zwaga_1979]\]
 
 ### Confusing similarity as a legal test
 
 **The same judgement made where it has to be defended.** Trademark, likelihood of confusion, passing off and consumer confusion. **A court deciding whether two marks are confusingly similar is doing what AF/A8PE did**, and the instruction itself sends popular names to a trademark search while sending design numbers to nobody.
 
-**120 records.** \[[Assessment of the Similarity 2023][research_assessment_of_2023]\] \[[Austin 2008][research_austin_2008]\] \[[Bartholomew 2025][research_bartholomew_2025]\] \[[Bartow 2005][research_bartow_2005]\] \[[Basire and Darnand 2017][research_basire_darnand_2017]\] \[[Batty 2025][research_batty_2025]\] \[[Batykov 2020][research_batykov_2020]\] \[[Bayrak 2026][research_bayrak_2026]\] \[[Beebe 2006][research_beebe_2006]\] \[[Beebe and Fromer 2020][research_beebe_fromer_2020]\] \[[Beebe et al 2026][research_beebe_germano_2026]\] \[[Beebe et al 2026][research_beebe_fromer_2026]\] \[[Blum et al 2009][research_blum_fox_2009]\] \[[Boling 2015][research_boling_2015]\] \[[Brengman et al 2001][research_brengman_geuens_2001]\] \[[Buerke 2016][research_buerke_2016]\] \[[Buerke 2016][research_buerke_2016_b]\] \[[Buerke 2016][research_buerke_2016_c]\] \[[Buerke 2016][research_buerke_2016_d]\] \[[Buerke 2016][research_buerke_2016_e]\] \[[Buerke 2016][research_buerke_2016_f]\] \[[Bunker* 2015][research_bunker_2015]\] \[[Carraway 1994][research_carraway_1994]\] \[[Celik and Koc 2026][research_celik_koc_2026]\] \[[Chiampi Ohly 2024][research_chiampiohly_2024]\] \[[Choi 2026][research_choi_2026]\] \[[Dornis 2017][research_dornis_2017]\] \[[Eko 1998][research_eko_1998]\] \[[Empirical Studies of Trademark 2019][research_empirical_studies_2019]\] \[[Fhima 2025][research_fhima_2025]\] \[[Fhima 2025][research_fhima_2025_b]\] \[[Fhima and Denvir 2015][research_fhima_denvir_2015]\] \[[Fhima and Gangjee 2019][research_fhima_gangjee_2019]\] \[[Fhima and Gangjee 2019][research_fhima_gangjee_2019_b]\] \[[Fhima and Gangjee 2019][research_fhima_gangjee_2019_c]\] \[[Foxman et al 1990][research_foxman_muehling_1990]\] \[[Foxman et al 1992][research_foxman_berger_1992]\] \[[Frakes and Wasserman 2013][research_frakes_wasserman_2013]\] \[[Frakes and Wasserman 2014][research_frakes_wasserman_2014]\] \[[Fritch 2006][research_fritch_2006]\] \[[Furletti 2006][research_furletti_2006]\] \[[G. Bone 2021][research_gbone_2021]\] \[[Gao and Wang 2018][research_gao_wang_2018]\] \[[Giannino 2022][research_giannino_2022]\] \[[Giordani 2025][research_giordani_2025]\] \[[Greene 2003][research_greene_2003]\] \[[Greene 2006][research_greene_2006]\] \[[Guvenkaya 2026][research_guvenkaya_2026]\] \[[Han and Kim 2015][research_han_kim_2015]\] \[[Jacoby 2000][research_jacoby_2000]\] \[[Jiang 2024][research_jiang_2024]\] \[[Jintcharadze 2024][research_jintcharadze_2024]\] \[[Kaeding 1992][research_kaeding_1992]\] \[[Kaur 2026][research_kaur_2026]\] \[[Kearny and Mitchell 2001][research_kearny_mitchell_2001]\] \[[Kim 2024][research_kim_2024]\] \[[Kruger and Vargas 2006][research_kruger_vargas_2006]\] \[[Kuncheria 2008][research_kuncheria_2008]\] \[[Laustsen 2019][research_laustsen_2019]\] \[[Laustsen 2019][research_laustsen_2019_b]\] \[[Laustsen 2019][research_laustsen_2019_c]\] \[[Laustsen 2020][research_laustsen_2020]\] \[[Lee 2008][research_lee_2008]\] \[[Leek and Kun 2006][research_leek_kun_2006]\] \[[Lemley and McKenna 2026][research_lemley_mckenna_2026]\] \[[Levy 2018][research_levy_2018]\] \[[Li, Ling 2018][research_liling_2018]\] \[[Likelihood of Confusion Between 2022][research_likelihood_of_2022]\] \[[Likelihood of Confusion of 2020][research_likelihood_of_2020]\] \[[Likelihood of Confusion The 2013][research_likelihood_of_2013]\] \[[Liu and Cheng 2019][research_liu_cheng_2019]\] \[[Lomax et al 1999][research_lomax_sherski_1999]\] \[[Lou 2024][research_lou_2024]\] \[[Lunsford 1949][research_lunsford_1949]\] \[[Lutzker 2002][research_lutzker_2002]\] \[[Maksurov 2021][research_maksurov_2021]\] \[[Miaoulis and D'Amato 1978][research_miaoulis_damato_1978]\] \[[Mishra et al 2026][research_mishra_r_2026]\] \[[Mitchell and Kearney 2002][research_mitchell_kearney_2002]\] \[[Mitchell and Papavassiliou 1999][research_mitchell_papavassiliou_1999]\] \[[Mixed Messages Marketing and 2024][research_mixed_messages_2024]\] \[[Moon 2018][research_moon_2018]\] \[[Morrin and Jacoby 2000][research_morrin_jacoby_2000]\] \[[Mupangavanhu and Vuke 2023][research_mupangavanhu_vuke_2023]\] \[[Nadeau 1937][research_nadeau_1937]\] \[[No Cumulative Protection Against 2023][research_no_cumulative_2023]\] \[[No Likelihood of Confusion 2025][research_no_likelihood_2025]\] \[[Nowak-Gruca 2018][research_nowakgruca_2018]\] \[[Peterson et al 2024][research_peterson_cunningham_2024]\] \[[Pham and Huynh 2025][research_pham_huynh_2025]\] \[[Radack 2002][research_radack_2002]\] \[[Reichert 2025][research_reichert_2025]\] \[[Reichert 2026][research_reichert_2026]\] \[[Reichert 2026][research_reichert_2026_b]\] \[[Reichert 2026][research_reichert_2026_c]\] \[[Reichert 2026][research_reichert_2026_d]\] \[[Reichert 2026][research_reichert_2026_e]\] \[[Ritchie 2025][research_ritchie_2025]\] \[[Salim 2026][research_salim_2026]\] \[[Schweizer 2005][research_schweizer_2005]\] \[[Schweizer 2005][research_schweizer_2005_b]\] \[[Schweizer 2005][research_schweizer_2005_c]\] \[[Schweizer 2005][research_schweizer_2005_d]\] \[[Schweizer 2005][research_schweizer_2005_e]\] \[[Scott 2013][research_scott_2013]\] \[[Sheff 2024][research_sheff_2024]\] \[[Shiu 2021][research_shiu_2021]\] \[[The Image Confusion in 2012][research_the_image_confusion_2012]\] \[[Thouvenin et al 2025][research_thouvenin_gerber_2025]\] \[[Trade-Mark Registration. Similarity of 1938][research_trade_mark_registration_1938]\] \[[Walsh 2023][research_walsh_2023]\] \[[Wang 2022][research_wang_2022]\] \[[Wang 2024][research_wang_2024]\] \[[Wang 2025][research_wang_2025]\] \[[Woodward 2012][research_woodward_2012]\] \[[Yash 2020][research_yash_2020]\] \[[Zeisel and Kaye 1997][research_zeisel_kaye_1997]\] \[[Zhang and Cui 2022][research_zhang_cui_2022]\] \[[Zhou 2024][research_zhou_2024]\] \[[Zhou 2024][research_zhou_2024_b]\]
+**115 records.** \[[Assessment of the Similarity 2023][research_assessment_of_2023]\] \[[Austin 2008][research_austin_2008]\] \[[Bartholomew 2025][research_bartholomew_2025]\] \[[Bartow 2005][research_bartow_2005]\] \[[Basire and Darnand 2017][research_basire_darnand_2017]\] \[[Batty 2025][research_batty_2025]\] \[[Batykov 2020][research_batykov_2020]\] \[[Bayrak 2026][research_bayrak_2026]\] \[[Beebe 2006][research_beebe_2006]\] \[[Beebe and Fromer 2020][research_beebe_fromer_2020]\] \[[Beebe et al 2026][research_beebe_germano_2026]\] \[[Beebe et al 2026][research_beebe_fromer_2026]\] \[[Blum et al 2009][research_blum_fox_2009]\] \[[Boling 2015][research_boling_2015]\] \[[Brengman et al 2001][research_brengman_geuens_2001]\] \[[Buerke 2016][research_buerke_2016]\] \[[Buerke 2016][research_buerke_2016_b]\] \[[Buerke 2016][research_buerke_2016_c]\] \[[Buerke 2016][research_buerke_2016_d]\] \[[Buerke 2016][research_buerke_2016_e]\] \[[Buerke 2016][research_buerke_2016_f]\] \[[Bunker* 2015][research_bunker_2015]\] \[[Carraway 1994][research_carraway_1994]\] \[[Celik and Koc 2026][research_celik_koc_2026]\] \[[Chiampi Ohly 2024][research_chiampiohly_2024]\] \[[Choi 2026][research_choi_2026]\] \[[Dornis 2017][research_dornis_2017]\] \[[Eko 1998][research_eko_1998]\] \[[Empirical Studies of Trademark 2019][research_empirical_studies_2019]\] \[[Fhima 2025][research_fhima_2025]\] \[[Fhima 2025][research_fhima_2025_b]\] \[[Fhima and Denvir 2015][research_fhima_denvir_2015]\] \[[Fhima and Gangjee 2019][research_fhima_gangjee_2019]\] \[[Fhima and Gangjee 2019][research_fhima_gangjee_2019_b]\] \[[Fhima and Gangjee 2019][research_fhima_gangjee_2019_c]\] \[[Foxman et al 1990][research_foxman_muehling_1990]\] \[[Foxman et al 1992][research_foxman_berger_1992]\] \[[Fritch 2006][research_fritch_2006]\] \[[G. Bone 2021][research_gbone_2021]\] \[[Gao and Wang 2018][research_gao_wang_2018]\] \[[Giannino 2022][research_giannino_2022]\] \[[Giordani 2025][research_giordani_2025]\] \[[Greene 2003][research_greene_2003]\] \[[Greene 2006][research_greene_2006]\] \[[Guvenkaya 2026][research_guvenkaya_2026]\] \[[Han and Kim 2015][research_han_kim_2015]\] \[[Jacoby 2000][research_jacoby_2000]\] \[[Jiang 2024][research_jiang_2024]\] \[[Jintcharadze 2024][research_jintcharadze_2024]\] \[[Kaeding 1992][research_kaeding_1992]\] \[[Kaur 2026][research_kaur_2026]\] \[[Kearny and Mitchell 2001][research_kearny_mitchell_2001]\] \[[Kim 2024][research_kim_2024]\] \[[Kuncheria 2008][research_kuncheria_2008]\] \[[Laustsen 2019][research_laustsen_2019]\] \[[Laustsen 2019][research_laustsen_2019_b]\] \[[Laustsen 2019][research_laustsen_2019_c]\] \[[Laustsen 2020][research_laustsen_2020]\] \[[Lee 2008][research_lee_2008]\] \[[Leek and Kun 2006][research_leek_kun_2006]\] \[[Lemley and McKenna 2026][research_lemley_mckenna_2026]\] \[[Levy 2018][research_levy_2018]\] \[[Li, Ling 2018][research_liling_2018]\] \[[Likelihood of Confusion Between 2022][research_likelihood_of_2022]\] \[[Likelihood of Confusion of 2020][research_likelihood_of_2020]\] \[[Likelihood of Confusion The 2013][research_likelihood_of_2013]\] \[[Liu and Cheng 2019][research_liu_cheng_2019]\] \[[Lomax et al 1999][research_lomax_sherski_1999]\] \[[Lou 2024][research_lou_2024]\] \[[Lunsford 1949][research_lunsford_1949]\] \[[Lutzker 2002][research_lutzker_2002]\] \[[Maksurov 2021][research_maksurov_2021]\] \[[Miaoulis and D'Amato 1978][research_miaoulis_damato_1978]\] \[[Mishra et al 2026][research_mishra_r_2026]\] \[[Mitchell and Kearney 2002][research_mitchell_kearney_2002]\] \[[Mitchell and Papavassiliou 1999][research_mitchell_papavassiliou_1999]\] \[[Mixed Messages Marketing and 2024][research_mixed_messages_2024]\] \[[Moon 2018][research_moon_2018]\] \[[Morrin and Jacoby 2000][research_morrin_jacoby_2000]\] \[[Mupangavanhu and Vuke 2023][research_mupangavanhu_vuke_2023]\] \[[Nadeau 1937][research_nadeau_1937]\] \[[No Cumulative Protection Against 2023][research_no_cumulative_2023]\] \[[No Likelihood of Confusion 2025][research_no_likelihood_2025]\] \[[Nowak-Gruca 2018][research_nowakgruca_2018]\] \[[Peterson et al 2024][research_peterson_cunningham_2024]\] \[[Pham and Huynh 2025][research_pham_huynh_2025]\] \[[Radack 2002][research_radack_2002]\] \[[Reichert 2025][research_reichert_2025]\] \[[Reichert 2026][research_reichert_2026]\] \[[Reichert 2026][research_reichert_2026_b]\] \[[Reichert 2026][research_reichert_2026_c]\] \[[Reichert 2026][research_reichert_2026_d]\] \[[Reichert 2026][research_reichert_2026_e]\] \[[Ritchie 2025][research_ritchie_2025]\] \[[Salim 2026][research_salim_2026]\] \[[Schweizer 2005][research_schweizer_2005]\] \[[Schweizer 2005][research_schweizer_2005_b]\] \[[Schweizer 2005][research_schweizer_2005_c]\] \[[Schweizer 2005][research_schweizer_2005_d]\] \[[Schweizer 2005][research_schweizer_2005_e]\] \[[Scott 2013][research_scott_2013]\] \[[Sheff 2024][research_sheff_2024]\] \[[Shiu 2021][research_shiu_2021]\] \[[The Image Confusion in 2012][research_the_image_confusion_2012]\] \[[Thouvenin et al 2025][research_thouvenin_gerber_2025]\] \[[Trade-Mark Registration. Similarity of 1938][research_trade_mark_registration_1938]\] \[[Walsh 2023][research_walsh_2023]\] \[[Wang 2022][research_wang_2022]\] \[[Wang 2024][research_wang_2024]\] \[[Wang 2025][research_wang_2025]\] \[[Yash 2020][research_yash_2020]\] \[[Zeisel and Kaye 1997][research_zeisel_kaye_1997]\] \[[Zhang and Cui 2022][research_zhang_cui_2022]\] \[[Zhou 2024][research_zhou_2024]\] \[[Zhou 2024][research_zhou_2024_b]\]
 
 ### Human error, and the taxonomies built to describe it
 
@@ -556,21 +556,21 @@ designation in 2006 and recorded a phrase.**
 
 ## The Source Base
 
-**The twenty-seven curated sources that carry the argument and the 2,213 that map the field are different things, and this article keeps them apart on purpose.**
+**The twenty-seven curated sources that carry the argument and the 1,831 that map the field are different things, and this article keeps them apart on purpose.**
 
 **The evidentiary base is small because the subject is.** Twenty-seven curated references and four books carry every claim made here, and the ones that matter most are the three issues of the governing instruction that bracket and follow the decision. **Those are not commentary on the evidence. They are the evidence**, because the central question is what a document does and does not contain, and the only way to settle that is to read it.
 
-**The survey base was harvested and none of it was read.** 8,177 records were retrieved across three sweeps, 2,337 passed the subject gate, and 2,213 reach the reference list after duplicate registrations were removed. **Not one of them is cited in support of any claim about the X-52**, and the article would say exactly the same things if the survey were deleted.
+**The survey base was harvested and none of it was read.** 8,177 records were retrieved across three sweeps, 2,337 passed the subject gate, and 1,831 reach the reference list after duplicate registrations were removed and the 7 October rebuild refused 382 off-topic records. **Not one of them is cited in support of any claim about the X-52**, and the article would say exactly the same things if the survey were deleted.
 
 ### The Pool
 
 **Three sweeps, and the second and third are reported separately below because what they returned is a finding rather than an increment.** The main harvest retrieved 4,350 records from the scholarly registry, 621 from the defence report registry and 22 from the space agency's, for 4,993. A supplementary sweep aimed at report primaries added 1,196 the main harvest did not hold, and a sweep aimed at one thin conclusion added 1,988 more, for 8,177 in total.
 
-**2,337 passed the subject gate and 2,213 survived deduplication into the reference list, across 10 clusters.**
+**2,337 passed the subject gate and 2,213 survived deduplication into the reference list, across 10 clusters, and 1,831 remain after the 7 October rebuild.**
 
 ### The Report-Primary Fraction Is Near the Bottom of the Series and the Reason Is the Subject
 
-**The report-primary fraction is 2.0 percent, being 44 records of 2,213, which is the second-lowest of the fifty-three articles this series has drafted.** **The lowest is the [X-39][related_post_a336_x39_reserved_never_assigned], the other anomaly without a vehicle, at 0.0 percent of 2,454 records, and that is not a coincidence.**
+**The report-primary fraction is 2.2 percent, being 41 records of 1,831, which is the second-lowest of the fifty-three articles this series has drafted.** **The lowest is the [X-39][related_post_a336_x39_reserved_never_assigned], the other anomaly without a vehicle, at 0.0 percent of 2,454 records, and that is not a coincidence.**
 
 **The measure means less here than it does anywhere else in this series and the article will not dress it up.** It counts identifiers issued by the space agency's report server and the defence technical information centre, which is the right instrument when the subject is an aeroplane and the wrong one when the subject is a refusal. **The primary documents this article actually argues from are the three issues of the governing instruction, the registry that records the decision, the drug regulator's naming guidance and the civil call sign study**, and not one of them carries an identifier the measure can see.
 
@@ -578,7 +578,7 @@ designation in 2006 and recorded a phrase.**
 
 ### The Literature of This Refusal Is Not an Aeronautical Literature
 
-**Thirteen records of 2,213, or 0.59 percent, are about aircraft designation as a subject in its own right.** That is the smallest cluster in the survey and it is the most useful number in this section. **The literature of why the X-52 was refused is almost entirely outside aeronautics**, and an article in a series about aeroplanes should report that rather than pad the row.
+**Thirteen records of 1,831, or 0.71 percent, are about aircraft designation as a subject in its own right.** That is the smallest cluster in the survey and it is the most useful number in this section. **The literature of why the X-52 was refused is almost entirely outside aeronautics**, and an article in a series about aeroplanes should report that rather than pad the row.
 
 ### The Conclusions Were Probed and One Stayed Thin After Being Harvested For
 
@@ -629,6 +629,8 @@ designation in 2006 and recorded a phrase.**
 **Too narrow.** Phonetic coding methods for Malay name retrieval was refused because the pattern demanded phonetic similarity or phonetic algorithm and the literature wrote phonetic coding. **A paper titled Greek Alphabet and Phonetic Names was refused**, and the phonetic alphabet is the exact mechanism by which a designation is spoken over a radio \[[NATO Phonetic Alphabet][ref_icao_alphabet]\]. Human Error in Medication was refused because the pattern demanded a noun after the word medication and the title put the noun first.
 
 **Both corrections were made and both samples were read again.**
+
+**The filter was rebuilt on 7 October 2026, after the counts first written for this article.** Every title the screens flagged was read, and so was a sample of 300 they did not flag, and the reading found the gate admitting words this subject shares with other fields. The rebuilt filter refused 382 records. Among them were 105 papers on the readback signal of magnetic, optical and probe storage and of programmable logic, 62 on orthography and phonetics as philology, language teaching and transcription, 47 drug handbook index pages and erratum notices, 42 studies of the brand name as a marketing or pricing variable, 18 on radiotelephony as radio engineering, 18 on non-verbal communication and general communication skills, 17 on confusion as a clinical symptom or a conceptual muddle, and 16 on the generic names of fungi, trematodes and butterflies. Smaller families covered look-alike as clinical mimicry, numbering systems that are numerals or yarn counts, legibility in the political sense, and the similarity of drugs and patients rather than of their names. **The survey fell from 2,213 records to 1,831.** The call sign cluster changed most, from 292 to 151, and moved from fourth to sixth, while the residual cluster fell from 300 to 212 and the names cluster from 385 to 311. **A reading of 300 unflagged records found 48 off topic, or 16.0 percent**, and every one of them is now refused. That rate predicts about 89 off-topic records among the 558 the screens did not flag, and the rebuilt filter refused 85 of them, so the sample is consistent with little remaining contamination but, having guided the sweep, it is not an independent measure of what remains.
 
 ### A Fabricated Identifier Was Caught Before Assembly
 
@@ -948,12 +950,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Afanasev and Lyashevskaya 2024][research_afanasev_lyashevskaya_2024]
 - [Agoglia et al 2024][research_agoglia_kelly_2024]
 - [Aguasvivas et al 2021][research_aguasvivas_testolin_2021]
-- [Ahluwalia and Gürhan-Canli 2000][research_ahluwalia_gurhancanli_2000]
 - [Ahmed et al 2022][research_ahmed_suffian_2022]
 - [Ahuja and Ahuja 2024][research_ahuja_ahuja_2024]
-- [Aibar and Casacuberta 1993][research_aibar_casacuberta_1993]
 - [air traffic control communications][research_air_traffic]
-- [Akpınar et al 2026][research_akpinar_ay_2026]
 - [Aksoy et al 2019][research_aksoy_uguz_2019]
 - [Akutsu 1994][research_akutsu_1994]
 - [Akutsu 1995][research_akutsu_1995]
@@ -966,7 +965,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Aldwairi and Flaifel 2012][research_aldwairi_flaifel_2012]
 - [Alex Tumuhaise and Jane Frances Namukwaya 2026][research_alextumuhaise_janefrancesnamukwaya_2026]
 - [Alexeeva 2023][research_alexeeva_2023]
-- [Alhammad and Alshehri 2025][research_alhammad_alshehri_2025]
 - [AlJassmi and Perea 2024][research_aljassmi_perea_2024]
 - [Aljedaani et al 2025][research_aljedaani_farrash_2025]
 - [Allauzen and Raffinot 2000][research_allauzen_raffinot_2000]
@@ -1017,7 +1015,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Annisa Sihotang 2024][research_annisasihotang_2024]
 - [Anonymous 2013][research_anonymous_2013]
 - [Antonow et al 2000][research_antonow_smith_2000]
-- [Anzaloni and Barbosa 1984][research_anzaloni_barbosa_1984]
 - [Apodaca 2010][research_apodaca_2010]
 - [Appendix 1 Rowe's 1980 1998][research_appendix_1_1998]
 - [Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]
@@ -1030,7 +1027,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Approximate String Matching 1994][research_approximate_string_1994]
 - [Approximate String Matching Techniques 2014][research_approximate_string_2014]
 - [Aragão and Scaramucci 2020][research_aragao_scaramucci_2020]
-- [Arai et al 1984][research_arai_kato_1984]
 - [Aratsu et al 2009][research_aratsu_hirata_2009]
 - [Aratsu et al 2010][research_aratsu_hirata_2010]
 - [Archer 2020][research_archer_2020]
@@ -1045,7 +1041,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Arunachalam and Madhan 2021][research_arunachalam_madhan_2021]
 - [Aschenbrenner 2025][research_aschenbrenner_2025]
 - [Aschenbrenner 2025][research_aschenbrenner_2025_b]
-- [Ashby and Ashby 2021][research_ashby_ashby_2021]
 - [Ashish et al 2016][research_ashish_patawari_2016]
 - [Assaker et al 2020][research_assaker_makhoul_2020]
 - [Assessment of Look-Alike, Sound-Alike 2020][research_assessment_of_2020]
@@ -1054,17 +1049,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Atallah et al 2001][research_atallah_chyzak_2001]
 - [Aten et al 2002][research_aten_gugerty_2002]
 - [Audhkhasi and Verma 2007][research_audhkhasi_verma_2007]
-- [Auh and Shih 2007][research_auh_shih_2007]
 - [Austin 1957][research_austin_1957]
 - [Austin 2008][research_austin_2008]
 - [Author 2026][research_author_2026]
 - [Author name processing at 1983][research_author_name_1983]
-- [Awadallah et al 2023][research_awadallah_zohar_2023]
 - [Ayad et al 2016][research_ayad_pissis_2016]
 - [Aydemi̇r and Esenkaya 2023][research_aydemir_esenkaya_2023]
 - [Aygun 2017][research_aygun_2017]
 - [Aziz 1972][research_aziz_1972]
-- [Baart et al 2014][research_baart_vroomen_2014]
 - [Babayev 2025][research_babayev_2025]
 - [Baddeley 1971][research_baddeley_1971]
 - [Baeza-Yates and G. Navarro 1999][research_baezayatesandgnavarro_1999]
@@ -1073,14 +1065,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Baeza-Yates and Navarro 1997][research_baezayates_navarro_1997]
 - [Baeza-Yates and Perleberg 1992][research_baezayates_perleberg_1992]
 - [Baeza-Yates and Perleberg 1996][research_baezayates_perleberg_1996]
-- [Baffour and Oyekoya 2024][research_baffour_oyekoya_2024]
 - [Baghcheghi and Koohestani 2025][research_baghcheghi_koohestani_2025]
 - [Bailey][research_bailey]
 - [Bakar et al 2000][research_bakar_sembok_2000]
-- [Baker 1984][research_baker_1984]
 - [Baker 2002][research_baker_2002]
-- [Baker et al 1984][research_baker_herte_1984]
-- [Bakker 2017][research_bakker_2017]
 - [Balabanis and Craven 1997][research_balabanis_craven_1997]
 - [Balan and Irawati 2026][research_balan_irawati_2026]
 - [Balashov and Nikiforov 2019][research_balashov_nikiforov_2019]
@@ -1090,13 +1078,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Baloi et al 2023][research_baloi_belean_2023]
 - [Bansal et al 2026][research_bansal_khobragade_2026]
 - [Bar coding. Unique identifier][research_bar_coding]
-- [Barbosa 1990][research_barbosa_1990]
 - [Barbre and Price 1983][research_barbre_price_1983]
 - [Barik 1969][research_barik_1969]
 - [Barnard et al 1978][research_barnard_wright_1978]
 - [Baroni et al 2002][research_baroni_matiasek_2002]
 - [Barriers to reporting medication 2009][research_barriers_to_2009]
-- [Barry 2013][research_barry_2013]
 - [Barry and Harper 1995][research_barry_harper_1995]
 - [Bartholomew 2025][research_bartholomew_2025]
 - [Bartolini et al 2002][research_bartolini_ciaccia_2002]
@@ -1116,8 +1102,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Bayrak 2026][research_bayrak_2026]
 - [Bc et al 2015][research_bc_aa_2015]
 - [Beale and Rajwany 2022][research_beale_rajwany_2022]
-- [Becherucci et al 2020][research_becherucci_landini_2020]
-- [Beck 1984][research_beck_1984]
 - [Beck and Kerschbaum 2013][research_beck_kerschbaum_2013]
 - [Beck and Morgan 1986][research_beck_morgan_1986]
 - [Beebe 2006][research_beebe_2006]
@@ -1142,10 +1126,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Best and Walsh 2001][research_best_walsh_2001_b]
 - [Beyea 2007][research_beyea_2007]
 - [Bhat and Gutzwiller 2026][research_bhat_gutzwiller_2026]
-- [Bhattacharyya et al 1991][research_bhattacharyya_tarnopolsky_1991]
 - [Bhavana et al 2024][research_bhavana_rao_2024]
 - [Bhise and Hammoudeh 2004][research_bhise_hammoudeh_2004]
-- [Bilas 2020][research_bilas_2020]
 - [Bille 2011][research_bille_2011]
 - [Bille et al][research_bille_fagerberg]
 - [Bille et al 2009][research_bille_fagerberg_2009]
@@ -1155,14 +1137,12 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Blatt et al 2022][research_blatt_kocour_2022]
 - [Block Edit Distance][research_block_edit]
 - [Blood pressure medication recalled 2026][research_blood_pressure_2026]
-- [Bloomberg et al 1983][research_bloomberg_menglean_1983]
 - [Blum et al 1988][research_blum_abel_1988]
 - [Blum et al 2009][research_blum_fox_2009]
 - [Bogunenko et al 2010][research_bogunenko_gavrylenko_2010]
 - [Bogush and Kovtun 2019][research_bogush_kovtun_2019]
 - [Bohannon 2016][research_bohannon_2016]
 - [Boitsov 2002][research_boitsov_2002]
-- [Bolbochan 2024][research_bolbochan_2024]
 - [Boling 2015][research_boling_2015]
 - [Bolton et al 2026][research_bolton_mbua_2026]
 - [Bonner 2020][research_bonner_2020]
@@ -1170,24 +1150,18 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Boring 1997][research_boring_1997]
 - [Borowska 2025][research_borowska_2025]
 - [Boschen and Jones][research_boschen_jones]
-- [Bottinelli et al 1999][research_bottinelli_gouguenheim_1999]
 - [Bouselmi et al 2006][research_bouselmi_fohr_2006]
 - [Boush 1997][research_boush_1997]
 - [Bouwman et al 2004][research_bouwman_cranen_2004]
-- [Bown 1938][research_bown_1938]
-- [Boyce 2017][research_boyce_2017]
-- [Boyce 2017][research_boyce_2017_b]
 - [Boyer et al 2009][research_boyer_mcpherson_2009]
 - [Brabcová et al 2014][research_brabcova_bartlova_2014]
 - [Brahim and Menouar 2016][research_brahim_menouar_2016]
 - [Brammer, Anthony 2003][research_brammeranthony_2003]
 - [Brand Name 2004][research_brand_name_2004]
-- [Brand-Name Capitalism and Professional 2023][research_brand_name_capitalism_2023]
 - [Branting 2003][research_branting_2003]
 - [Brauneis and Heald 2010][research_brauneis_heald_2010]
 - [Brengman et al 2001][research_brengman_geuens_2001]
 - [Bretmersky, Steven C. et al 2004][research_bretmerskystevenc_murawskirobert_2004]
-- [Bristow and Asquith 1999][research_bristow_asquith_1999]
 - [Brochhagen et al 2025][research_brochhagen_liao_2025]
 - [Brodell 1997][research_brodell_1997]
 - [Brown 2004][research_brown_2004]
@@ -1214,7 +1188,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Burt et al 2017][research_burt_mcfarlane_2017]
 - [Buscaldi et al 2014][research_buscaldi_garciaflores_2014]
 - [Busch and King 1964][research_busch_king_1964]
-- [Busyatras et al 2015][research_busyatras_warisarn_2015]
 - [Butterbaugh 1981][research_butterbaugh_1981]
 - [Butterbaugh 1982][research_butterbaugh_1982]
 - [Butterbaugh and Rockwell 1982][research_butterbaugh_rockwell_1982]
@@ -1247,18 +1220,15 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Chalasani et al 2018][research_chalasani_ramesh_2018]
 - [Challenges in Drug Identification 2026][research_challenges_in_2026]
 - [Champagne 2025][research_champagne_2025]
-- [Champeil-Desplats 2019][research_champeildesplats_2019]
 - [Chan and Hauben 2005][research_chan_hauben_2005]
 - [Chan et al 2018][research_chan_muller_2018]
 - [Chan, Jeffrey W. and Simpson, Carol A. 1990][research_chanjeffreyw_simpsoncarola_1990]
 - [Chanakit 2013][research_chanakit_2013]
 - [Chandra 2011][research_chandra_2011]
-- [Chang 1970][research_chang_1970]
 - [Chang and Lampe 1992][research_chang_lampe_1992]
 - [Chang and Lawler][research_chang_lawler]
 - [Chang and Lawler 1994][research_chang_lawler_1994]
 - [Chang and Marr 1994][research_chang_marr_1994]
-- [Chang and Morishita 2003][research_chang_morishita_2003]
 - [Chanyagorn et al 2016][research_chanyagorn_kungwannarongkun_2016]
 - [Chapanis et al][research_chapanis_garner]
 - [Chaparro et al 2006][research_chaparro_shaikh_2006]
@@ -1272,17 +1242,13 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Chen 2016][research_chen_2016]
 - [Chen 2017][research_chen_2017]
 - [Chen and Yuan 2011][research_chen_yuan_2011]
-- [Chen et al 2004][research_chen_moon_2004]
 - [Chen et al 2007][research_chen_olsen_2007]
 - [Chen et al 2020][research_chen_wilson_2020]
 - [Chen et al 2020][research_chen_yang_2020]
 - [Chen et al 2024][research_chen_chen_2024]
-- [Chen et al 2025][research_chen_luo_2025]
-- [Cheng and Olson 2026][research_cheng_olson_2026]
 - [Cheng et al][research_cheng_ito]
 - [Cheng et al 2018][research_cheng_jia_2018]
 - [Cheng et al 2018][research_cheng_salazar_2018]
-- [Cherifi and Guerti 2021][research_cherifi_guerti_2021]
 - [Chernyak 2017][research_chernyak_2017]
 - [Chi-Chien Pan et al 2002][research_chichienpan_kaihsiangyang_2002]
 - [Chiampi Ohly 2024][research_chiampiohly_2024]
@@ -1297,7 +1263,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Christopher Jaisunder et al 2017][research_christopherjaisunder_ahmed_2017]
 - [Chrysler et al 2001][research_chrysler_tranchida_2001]
 - [Chrétien 2026][research_chretien_2026]
-- [Chui 1999][research_chui_1999]
 - [Chung 2026][research_chung_2026]
 - [Chung et al 2011][research_chung_hsu_2011]
 - [Cieri et al 2021][research_cieri_fiumara_2021]
@@ -1339,10 +1304,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Colby 1992][research_colby_1992]
 - [Cole and Hariharan 2002][research_cole_hariharan_2002]
 - [Colomer 2012][research_colomer_2012]
-- [Combination Drugs by Trade 2012][research_combination_drugs_2012]
-- [Combination Drugs by Trade 2014][research_combination_drugs_2014]
 - [Comer 2025][research_comer_2025]
-- [Communication in action Non-verbal 2013][research_communication_in_2013_b]
 - [Communication in action verbal 2013][research_communication_in_2013]
 - [Computer algorithm targets possible 2017][research_computer_algorithm_2017]
 - [Concept Unique Identifier 2020][research_concept_unique_2020]
@@ -1351,13 +1313,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Concordance of synonyms and 2016][research_concordance_of_2016]
 - [Confusing drug names 1985][research_confusing_drug_1985]
 - [Confusion Between FDA and 1998][research_confusion_between_1998]
-- [confusion with the critical 2004][research_confusion_with_2004]
 - [Connell, Linda J. and Reynard, William D. 1993][research_connelllindaj_reynardwilliamd_1993]
 - [Constrained Exact String Matching 2015][research_constrained_exact_2015]
 - [Cooren 2016][research_cooren_2016]
 - [Copper and copper alloys][research_copper_and]
 - [Cormode and Muthukrishnan 2007][research_cormode_muthukrishnan_2007]
-- [Cornaby et al 2022][research_cornaby_montgomery_2022]
 - [Corps Of Engineers Washington Dc 1986][research_corpsofengineerswashingtondc_1986]
 - [Correction Drug names that 1980][research_correction_drug_1980]
 - [Corrie and Corrie 1997][research_corrie_corrie_1997]
@@ -1367,15 +1327,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Costello et al 2007][research_costello_torowicz_2007]
 - [Crochemore and Lecroq][research_crochemore_lecroq]
 - [Crossman 2009][research_crossman_2009]
-- [Cucchiarini and Binnenpoorte 2002][research_cucchiarini_binnenpoorte_2002]
 - [Cui and Liu 2019][research_cui_liu_2019]
 - [Cunningham 2012][research_cunningham_2012]
-- [Current Service Provision Risk 2008][research_current_service_2008]
 - [Cusano et al 2008][research_cusano_chambers_2008]
-- [Cusic 2009][research_cusic_2009]
 - [Cutler 2005][research_cutler_2005]
-- [d'Astous and Chnaoui 2002][research_dastous_chnaoui_2002]
-- [Dachev 1998][research_dachev_1998]
 - [Dai 2022][research_dai_2022]
 - [Dai and Zhao 2009][research_dai_zhao_2009]
 - [Daigle et al 1999][research_daigle_van_1999]
@@ -1384,7 +1339,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Daniel Wu 2023][research_danielwu_2023]
 - [DanishAli and Farooqui 2013][research_danishali_farooqui_2013]
 - [DanishAli and Farooqui 2013][research_danishali_farooqui_2013_b]
-- [Danka 2015][research_danka_2015]
 - [Danvy and Rohde 2005][research_danvy_rohde_2005]
 - [Danvy and Rohde 2006][research_danvy_rohde_2006]
 - [Daou et al 2025][research_daou_sayegh_2025]
@@ -1432,8 +1386,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Ding et al 2009][research_ding_li_2009]
 - [Ding et al 2010][research_ding_attenberg_2010]
 - [Dinh 2023][research_dinh_2023]
-- [Discussion on "The application 1950][research_discussion_on_1950]
-- [Discussion on "The application 1951][research_discussion_on_1951]
 - [Dispensing errors/drug name confusion 2018][research_dispensing_errors_drug_2018]
 - [Dixit 2014][research_dixit_2014]
 - [Dobrovoljc 2012][research_dobrovoljc_2012]
@@ -1443,12 +1395,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Dolle and Rovnov 2017][research_dolle_rovnov_2017]
 - [Domínguez et al 2024][research_dominguez_garrido_2024]
 - [Dong Deng et al 2013][research_dongdeng_guoliangli_2013]
-- [Donk 1956][research_donk_1956]
-- [Donk 1956][research_donk_1956_b]
-- [Donk 1957][research_donk_1957]
-- [Donk 1957][research_donk_1957_b]
-- [Donk 1957][research_donk_1957_c]
-- [Donk 1962][research_donk_1962]
 - [Dornis 2017][research_dornis_2017]
 - [Dorris and Davis 2003][research_dorris_davis_2003]
 - [dos Reis 2005][research_dosreis_2005]
@@ -1456,67 +1402,26 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Dowling et al 2019][research_dowling_swaminathan_2019]
 - [Drayton][research_drayton]
 - [Drayton and Coxhead 2023][research_drayton_coxhead_2023]
-- [Driscoll 2009][research_driscoll_2009]
 - [Droppo and Acero 2010][research_droppo_acero_2010]
 - [Drug name changes to 2004][research_drug_name_2004]
 - [DRUG Names 1964][research_drug_names_1964]
 - [Drug names are misleading 2018][research_drug_names_2018]
 - [Drug names that look 1979][research_drug_names_1979]
-- [Drug profiles generic names 2014][research_drug_profiles_2014]
-- [Drug profiles generic names 2016][research_drug_profiles_2016]
-- [Drug Trade Name Index 2014][research_drug_trade_2014]
-- [Drugs by Generic Name 2016][research_drugs_by_2016]
-- [Drugs by Generic Name 2018][research_drugs_by_2018]
-- [Drugs by Generic Name 2020][research_drugs_by_2020]
-- [Drugs by Generic Name 2023][research_drugs_by_2023]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_b]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_c]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_d]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_e]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_f]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_g]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_h]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_i]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_j]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_k]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_l]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_m]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_n]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_o]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_p]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_q]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_r]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_s]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_t]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_u]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_v]
-- [Drugs by Generic Name 2023][research_drugs_by_2023_w]
-- [Drugs by Trade Name 2020][research_drugs_by_2020_b]
 - [Duan et al 2020][research_duan_long_2020]
 - [Dukes 1900][research_dukes_1900]
-- [Dukhanin 2016][research_dukhanin_2016]
 - [Duncan and Konz 1974][research_duncan_konz_1974]
-- [Dunn and Dunn 1940][research_dunn_dunn_1940]
 - [Dunn-Rankin et al 1968][research_dunnrankin_leton_1968]
 - [Dupont and Ménard-Lépine 1976][research_dupont_menardlepine_1976]
 - [Duñabeitia et al 2007][research_dunabeitia_perea_2007]
 - [Dyab et al 2018][research_dyab_elkalmi_2018]
 - [Dzido and Krzywdziński 2015][research_dzido_krzywdzinski_2015]
-- [E. An Alternative Numbering 2011][research_e_an_2011]
 - [E.j. 1918][research_ej_1918]
 - [Earth-moving machinery. Product identification][research_earth_moving_machinery]
-- [Eaton and Baldwinson][research_eaton_baldwinson]
-- [Eaton and Baldwinson 1997][research_eaton_baldwinson_1997]
-- [Eccles 1914][research_eccles_1914]
-- [Eccles 1914][research_eccles_1914_b]
-- [Eccles 1914][research_eccles_1914_c]
 - [Edgar et al 1994][research_edgar_lee_1994]
-- [Edwards et al 2002][research_edwards_bronstein_2002]
 - [Effects of perceptual similarity 2005][research_effects_of_2005]
 - [Eggemeier et al 1990][research_eggemeier_granitz_1990]
 - [Eier and Kampichler 2026][research_eier_kampichler_2026]
 - [Eko 1998][research_eko_1998]
-- [EL Masri][research_elmasri]
 - [El-Mabrouk and Crochemore 1996][research_elmabrouk_crochemore_1996]
 - [ElLithy et al 2023][research_ellithy_salah_2023]
 - [Elmzughi et al 2025][research_elmzughi_abuhasina_2025]
@@ -1527,23 +1432,18 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Emmerton and Rizk 2011][research_emmerton_rizk_2011]
 - [Emmerton et al 2020][research_emmerton_curtain_2020]
 - [Empirical Studies of Trademark 2019][research_empirical_studies_2019]
-- [English cotton yarn numbering 2021][research_english_cotton_2021]
 - [Enriquez 2014][research_enriquez_2014]
 - [Enserink 2020][research_enserink_2020]
 - [Erdmann and Neal 1968][research_erdmann_neal_1968]
-- [Error in Drug Name 2024][research_error_in_2024]
 - [Espenschied 1937][research_espenschied_1937]
 - [Esposito][research_esposito]
 - [Essex 2019][research_essex_2019]
 - [Established Drug Name 2020][research_established_drug_2020]
 - [Exact String Matching 2015][research_exact_string_2015]
 - [Exact String Matching The 1997][research_exact_string_1997]
-- [Executive functions in name 2007][research_executive_functions_2007]
 - [Fadlil et al 2022][research_fadlil_sunardi_2022]
 - [Faleye and Adegoju 2013][research_faleye_adegoju_2013]
 - [Falzon 2009][research_falzon_2009]
-- [Fang and Ma 2021][research_fang_ma_2021]
-- [Farrell and Strang 1990][research_farrell_strang_1990]
 - [Faure 2018][research_faure_2018]
 - [Fauzan et al 2021][research_fauzan_siahaan_2021]
 - [Favata][research_favata]
@@ -1553,8 +1453,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [FDA Unique Device Identifier 2020][research_fda_unique_2020]
 - [FDA warns of potential 2013][research_fda_warns_2013]
 - [Fell and Laughery 1969][research_fell_laughery_1969]
-- [Feng 1990][research_feng_1990]
-- [Feng 1992][research_feng_1992]
 - [Fenna 1984][research_fenna_1984]
 - [Fenner 2010][research_fenner_2010]
 - [Fenner 2010][research_fenner_2010_b]
@@ -1582,21 +1480,16 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Fiori et al 2021][research_fiori_pakalen_2021]
 - [Fischer 1982][research_fischer_1982]
 - [Flecainide overdose and medication 2021][research_flecainide_overdose_2021]
-- [Fletcher et al 2024][research_fletcher_rooney_2024]
 - [Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]
-- [Flipping the genetic 'switch' 2016][research_flipping_the_2016]
 - [Foggia et al 2015][research_foggia_gauzere_2015]
 - [Fohr and Illina 2015][research_fohr_illina_2015]
 - [Folli et al 1987][research_folli_poole_1987]
 - [Format, Text and Numbering][research_format_text]
 - [Format, Text, and Numbering][research_format_text_b]
 - [Fox 2010][research_fox_2010]
-- [Fox 2020][research_fox_2020]
 - [Fox et al 2008][research_fox_chaparro_2008]
 - [Foxman et al 1990][research_foxman_muehling_1990]
 - [Foxman et al 1992][research_foxman_berger_1992]
-- [Frakes and Wasserman 2013][research_frakes_wasserman_2013]
-- [Frakes and Wasserman 2014][research_frakes_wasserman_2014]
 - [Frances et al 2020][research_frances_navarrabarindelli_2020]
 - [Frances et al 2021][research_frances_navarrabarindelli_2021]
 - [Frances et al 2022][research_frances_navarrabarindelli_2022]
@@ -1608,15 +1501,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Fredriksson and Navarro 2003][research_fredriksson_navarro_2003]
 - [Fredriksson and Navarro 2004][research_fredriksson_navarro_2004]
 - [Fredriksson and Navarro 2004][research_fredriksson_navarro_2004_b]
-- [Frey 1978][research_frey_1978]
-- [Friedman 1985][research_friedman_1985]
 - [Friedman 2005][research_friedman_2005]
 - [Fritch 2006][research_fritch_2006]
-- [Fu and Bogy 1996][research_fu_bogy_1996]
 - [Fujishin 2019][research_fujishin_2019]
 - [Fujishin 2024][research_fujishin_2024]
 - [Fukagawa et al 2009][research_fukagawa_akutsu_2009]
-- [Furletti 2006][research_furletti_2006]
 - [Furukawa et al 2003][research_furukawa_bunko_2003]
 - [G. Bone 2021][research_gbone_2021]
 - [Gadd 1988][research_gadd_1988]
@@ -1626,26 +1515,16 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Gali et al 2019][research_gali_mariescuistodor_2019]
 - [Galil and Giancarlo 1988][research_galil_giancarlo_1988]
 - [Galil and Park 1990][research_galil_park_1990]
-- [Gamble et al][research_gamble_hughes]
-- [Gan et al 2026][research_gan_sun_2026]
-- [Ganske 1999][research_ganske_1999]
 - [Gao and Wang 2018][research_gao_wang_2018]
 - [Garrett G Sadler et al][research_garrettgsadler_meghanchandarana]
 - [Garvey et al 2001][research_garvey_zineddin_2001]
-- [Garvin and Trager 1964][research_garvin_trager_1964]
-- [Gaurav et al 2025][research_gaurav_mandal_2025]
 - [Gawrychowski 2012][research_gawrychowski_2012]
 - [Generalized String Matching 2015][research_generalized_string_2015]
-- [Generic and Trade Name 2012][research_generic_and_2012]
-- [Generic and Trade Name 2014][research_generic_and_2014]
 - [Geographic information. Place Identifier][research_geographic_information]
 - [George 2023][research_george_2023]
-- [George and Jursich 1985][research_george_jursich_1985]
 - [George et al 2018][research_george_hss_2018]
 - [Germishuizen 1997][research_germishuizen_1997]
-- [Geva and Willows 1994][research_geva_willows_1994]
 - [Gewurz and Vietri 2007][research_gewurz_vietri_2007]
-- [Giannakopoulou et al 2013][research_giannakopoulou_uther_2013]
 - [Giannino 2022][research_giannino_2022]
 - [Giegerich et al 1997][research_giegerich_kurtz_1997]
 - [Giolas et al 1971][research_giolas_cooker_1971]
@@ -1658,9 +1537,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Gong et al 2009][research_gong_wang_2009]
 - [Gonzales et al 2018][research_gonzales_moneda_2018]
 - [Gonçalves 2007][research_goncalves_2007]
-- [Gopalaswamy and Kumar][research_gopalaswamy_kumar]
-- [Gopalaswamy and Kumar 1994][research_gopalaswamy_kumar_1994]
-- [Gopalaswamy and Vijaya Kumar 1994][research_gopalaswamy_vijayakumar_1994]
 - [Goth 2009][research_goth_2009]
 - [Gouda et al 2016][research_gouda_arafa_2016]
 - [Grant 2017][research_grant_2017]
@@ -1671,26 +1547,20 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Greene 2006][research_greene_2006]
 - [Greene et al 1994][research_greene_koppa_1994]
 - [Greene et al 1995][research_greene_huchingson_1995]
-- [Griebling 2015][research_griebling_2015]
-- [Griff Round and Roper 2012][research_griffround_roper_2012]
 - [Grigor'eva 1983][research_grigoreva_1983]
 - [Grindrod et al 2002][research_grindrod_chambers_2002]
 - [Grissinger et al 2019][research_grissinger_gaunt_2019]
 - [Group Numbering System 2005][research_group_numbering_2005]
 - [Gschneider, Jr 1976][research_gschneiderjr_1976]
-- [GSM and GPS Based 2021][research_gsm_and_2021]
 - [Guangming Chang et al 2011][research_guangmingchang_yuan_2011]
 - [Guclu 2017][research_guclu_2017]
 - [Gudschinsky et al 1970][research_gudschinsky_popovich_1970]
-- [Guillot 2016][research_guillot_2016]
-- [Gumbhir and Rodowskas 1974][research_gumbhir_rodowskas_1974]
 - [Gunderson et al 1991][research_gunderson_gruetzmacher_1991]
 - [Gunther 1979][research_gunther_1979]
 - [Guo 2022][research_guo_2022]
 - [Guo 2023][research_guo_2023]
 - [Guo et al 2019][research_guo_jiang_2019]
 - [Guo et al 2025][research_guo_guo_2025]
-- [Gurney et al][research_gurney_childress]
 - [Gurtov et al 2018][research_gurtov_polishchuk_2018]
 - [Guvenkaya 2026][research_guvenkaya_2026]
 - [Gvasalia et al 2025][research_gvasalia_pelucchi_2025]
@@ -1709,30 +1579,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Hancox and Polatidis 2013][research_hancox_polatidis_2013]
 - [Handler et al 2004][research_handler_nace_2004]
 - [Hanmei et al 2019][research_hanmei_yu_2019]
-- [Hanover 1998][research_hanover_1998]
 - [Harris et al 2013][research_harris_olson_2013]
 - [Harrison][research_harrison]
 - [Hartmann and Fosler-Lussier 2009][research_hartmann_foslerlussier_2009]
 - [Hartnell et al 2012][research_hartnell_mackinnon_2012]
 - [Hartwig et al 1991][research_hartwig_denger_1991]
 - [Hashem 2025][research_hashem_2025]
-- [Hashimoto et al 2005][research_hashimoto_miura_2005]
-- [Hashimoto et al 2005][research_hashimoto_suzuki_2005]
 - [Hauk 2018][research_hauk_2018]
-- [Hausdoerffer 1957][research_hausdoerffer_1957]
 - [Hayati and Piramoon 2023][research_hayati_piramoon_2023]
 - [Hazman et al 2025][research_hazman_mckeever_2025]
-- [He et al 2011][research_he_wang_2011]
 - [Health informatics. Health cards][research_health_informatics]
-- [Hefny and Hassan 2023][research_hefny_hassan_2023]
 - [Heggarty et al 2005][research_heggarty_mcmahon_2005]
-- [Heitner 2024][research_heitner_2024]
 - [Hema 2024][research_hema_2024]
 - [Hemingway and Erickson 1969][research_hemingway_erickson_1969]
-- [Heng Gong et al][research_henggong_kelley]
 - [Heng Ji et al 2008][research_hengji_grishman_2008]
 - [Her and Toh 2019][research_her_toh_2019]
-- [Herbert 1966][research_herbert_1966]
 - [Hernández 2013][research_hernandez_2013]
 - [Hershenson and Ryder 1982][research_hershenson_ryder_1982]
 - [Hershey et al 2007][research_hershey_olsen_2007]
@@ -1740,18 +1601,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Herzog et al][research_herzog_scheuren_b]
 - [Heumann and Wittum 2009][research_heumann_wittum_2009]
 - [Hicks and Becker 2006][research_hicks_becker_2006]
-- [Hidayatullah et al 2022][research_hidayatullah_kurniaasri_2022]
 - [Hilton 1980][research_hilton_1980]
-- [Hiranaga and Cho 2021][research_hiranaga_cho_2021]
 - [Hisa 1996][research_hisa_1996]
 - [Ho et al 2016][research_ho_maritan_2016]
 - [Ho et al 2017][research_ho_oh_2017]
 - [Ho et al 2018][research_ho_oh_2018]
 - [Hoang][research_hoang]
-- [Hoeken et al 2016][research_hoeken_kolthoff_2016]
 - [Hoenigswald 1960][research_hoenigswald_1960]
 - [Hoffman and Proulx 2003][research_hoffman_proulx_2003]
-- [Holbrook 1992][research_holbrook_1992]
 - [Holmström et al 2012][research_holmstrom_airaksinen_2012]
 - [Holmström et al 2015][research_holmstrom_laaksonen_2015]
 - [Holub and Melichar 2000][research_holub_melichar_2000]
@@ -1765,18 +1622,13 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Howard et al 2000][research_howard_kerin_2000]
 - [Howard, II 2020][research_howardii_2020]
 - [Hrbek and Holub 2016][research_hrbek_holub_2016]
-- [Hrebeniuk 2010][research_hrebeniuk_2010]
 - [Hristina Viktorova Lebanova, 2012][research_hristinaviktorovalebanova_2012]
 - [Hritz et al 2002][research_hritz_everly_2002]
 - [Hsiao and Cheung 2015][research_hsiao_cheung_2015]
-- [Hsiao and Shillcock 2006][research_hsiao_shillcock_2006]
 - [Htun Htet Htet and Sornlertlamvanich Virach 2018][research_htunhtethtet_sornlertlamvanichvirach_2018]
 - [Huang and Wang 2015][research_huang_wang_2015]
-- [Huang et al 2004][research_huang_schrank_2004]
-- [Huang et al 2020][research_huang_luo_2020]
 - [Huerta 2010][research_huerta_2010]
 - [Hull 1976][research_hull_1976]
-- [Hulland 1999][research_hulland_1999]
 - [Human Error Identification and 2009][research_human_error_2009]
 - [Human Error Identification and 2017][research_human_error_2017]
 - [Human Error in Medication 2003][research_human_error_2003]
@@ -1791,7 +1643,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Hussey 1974][research_hussey_1974]
 - [Hutchinson et al 2015][research_hutchinson_sales_2015]
 - [Huynh et al 2004][research_huynh_hon_2004]
-- [Hwang et al 2010][research_hwang_negi_2010]
 - [Hydratight unifies its part-numbering 2010][research_hydratight_unifies_2010]
 - [Hyyrö 2003][research_hyyro_2003]
 - [Hyyrö 2004][research_hyyro_2004]
@@ -1805,14 +1656,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Ifada et al 2023][research_ifada_rachman_2023]
 - [Implementing a Unique Business 2016][research_implementing_a_2016]
 - [Improved air-traffic control voice-communications 2005][research_improved_air_traffic_2005]
-- [Incorrect Drug Name 2015][research_incorrect_drug_2015]
-- [Incorrect Nonproprietary Drug Name 2015][research_incorrect_nonproprietary_2015]
 - [indefinite call sign][research_indefinite_call]
-- [Index by Drug Name 2015][research_index_by_2015]
-- [Index by Drug Name 2020][research_index_by_2020]
-- [Index by Drug Name 2023][research_index_by_2023]
-- [Index by Drug Name 2024][research_index_by_2024]
-- [Index-Trade Names 2017][research_index_trade_names_2017]
 - [Indexed Approximate String Matching][research_indexed_approximate]
 - [India's Unique Numbering System 2012][research_india_s_unique_2012]
 - [Inecik et al 2026][research_inecik_erken_2026]
@@ -1824,7 +1668,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Introduction to Look-Alike, Sound-Alike 2026][research_introduction_to_2026]
 - [Ishihara and Lee 2021][research_ishihara_lee_2021]
 - [Ishikawa 2012][research_ishikawa_2012]
-- [Ishikawa et al][research_ishikawa_kishida]
 - [ISMP adds more drug 2023][research_ismp_adds_2023]
 - [ISMP Survey Economy Having 2010][research_ismp_survey_2010]
 - [Ivory and Beale 2025][research_ivory_beale_2025]
@@ -1834,12 +1677,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Jae Jeong 2017][research_jaejeong_2017]
 - [Jang et al 2024][research_jang_jang_2024]
 - [Jani et al 2015][research_jani_cucchiarini_2015]
-- [Janiszewski 1990][research_janiszewski_1990]
 - [Jansky 1953][research_jansky_1953]
 - [Jasmine et al 2023][research_jasmine_ch_2023]
-- [Jebali 2025][research_jebali_2025]
 - [Jember et al 2018][research_jember_hailu_2018]
-- [Jensen 1992][research_jensen_1992]
 - [Jeong et al 2014][research_jeong_choi_2014]
 - [Jethanandani 2016][research_jethanandani_2016]
 - [Jethanandani and Reina Ortega 2019][research_jethanandani_reinaortega_2019]
@@ -1849,18 +1689,12 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Jia et al 2017][research_jia_lu_2017]
 - [Jia et al 2018][research_jia_cheng_2018]
 - [Jia et al 2025][research_jia_he_2025]
-- [Jian-Gang Zhu et al][research_jiangangzhu_bai]
-- [Jian-Gang Zhu et al][research_jiangangzhu_bai_b]
-- [Jian-Gang Zhu et al 2003][research_jiangangzhu_bai_2003]
-- [Jiang 2023][research_jiang_2023]
 - [Jiang 2024][research_jiang_2024]
 - [Jiang et al 2013][research_jiang_deng_2013]
 - [Jiang et al 2014][research_jiang_li_2014]
 - [Jie Jiang and Bo Xu 2009][research_jiejiang_boxu_2009]
 - [Jimenez 2016][research_jimenez_2016]
-- [Jin et al 2015][research_jin_muraoka_2015]
 - [Jin Hwan Park][research_jinhwanpark]
-- [Jinghuan Chen et al 2002][research_jinghuanchen_jaekyunmoon_2002]
 - [Jintcharadze 2024][research_jintcharadze_2024]
 - [Johnson 1994][research_johnson_1994]
 - [Johnson and Werner 2006][research_johnson_werner_2006]
@@ -1870,35 +1704,25 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Jongprasithporn et al 2018][research_jongprasithporn_sunkarat_2018]
 - [Jordaan and Marshall 2015][research_jordaan_marshall_2015]
 - [Joshi et al 2007][research_joshi_joshi_2007]
-- [Joubert and Poalses 2012][research_joubert_poalses_2012]
 - [Judson 2005][research_judson_2005]
 - [Jumde and Keskar 2020][research_jumde_keskar_2020]
-- [Jun Zhu and Thayamballi][research_junzhu_thayamballi]
-- [Jun Zhu and Thayamballi 1996][research_junzhu_thayamballi_1996]
-- [Junsang Yeo 2009][research_junsangyeo_2009]
 - [Jupin et al 2012][research_jupin_shi_2012]
 - [Jupin et al 2016][research_jupin_shi_2016]
 - [K 2025][research_k_2025]
-- [Kaack et al 1995][research_kaack_pelzl_1995]
 - [Kaeding 1992][research_kaeding_1992]
 - [Kaiser 1964][research_kaiser_1964]
 - [Kaleem et al 2014][research_kaleem_oshea_2014]
 - [Kalra et al 2025][research_kalra_sohal_2025]
 - [Kamali 2026][research_kamali_2026]
-- [Kane 2025][research_kane_2025]
 - [Kang and Cohen 2016][research_kang_cohen_2016]
-- [Kannou et al 2024][research_kannou_rached_2024]
 - [Kant et al 2020][research_kant_shrivastava_2020]
-- [Kao 2008][research_kao_2008]
 - [Karakoyun et al 2024][research_karakoyun_abaci_2024]
 - [Karanasou][research_karanasou]
 - [Karas 2016][research_karas_2016]
 - [Karet 2023][research_karet_2023]
 - [Karpenstein 1953][research_karpenstein_1953]
 - [Karpov et al 2023][research_karpov_zhang_2023]
-- [Kashani et al 2017][research_kashani_sayadiyan_2017]
 - [Kashyap and Oommen 1981][research_kashyap_oommen_1981]
-- [Kassmi et al 1993][research_kassmi_oms_1993]
 - [Katsumata and Miura 2009][research_katsumata_miura_2009]
 - [Katsumata et al 2010][research_katsumata_miura_2010]
 - [Katz et al 2006][research_katz_kambe_2006]
@@ -1911,7 +1735,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Kelso 1965][research_kelso_1965]
 - [Kennedy and Littenberg 2004][research_kennedy_littenberg_2004]
 - [Kerpatenko et al 2024][research_kerpatenko_shcherbyna_2024]
-- [Keshava 2017][research_keshava_2017]
 - [Keshtkar et al 2023][research_keshtkar_masoudiasl_2023]
 - [Kessler 2005][research_kessler_2005]
 - [Khalid et al 2022][research_khalid_yousaf_2022]
@@ -1920,7 +1743,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Khan et al 2022][research_khan_hosen_2022]
 - [Kianfar et al 2018][research_kianfar_pockrandt_2018]
 - [Kiawkaew et al 2023][research_kiawkaew_kaothanthong_2023]
-- [Kim 2003][research_kim_2003]
 - [Kim 2012][research_kim_2012]
 - [Kim 2013][research_kim_2013]
 - [Kim 2013][research_kim_2013_b]
@@ -1931,7 +1753,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Kim and Lim 2019][research_kim_lim_2019]
 - [Kim and McPherson 2012][research_kim_mcpherson_2012]
 - [Kim and Shawe-Taylor 1992][research_kim_shawetaylor_1992]
-- [Kim and Shin 2025][research_kim_shin_2025]
 - [Kim et al 2000][research_kim_chang_2000]
 - [Kim et al 2015][research_kim_seong_2015]
 - [Kim et al 2021][research_kim_jung_2021]
@@ -1939,25 +1760,17 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Kimura et al 2020][research_kimura_marunaka_2020]
 - [Kinney et al 1966][research_kinney_marsetta_1966]
 - [Kinoshita et al 2021][research_kinoshita_yu_2021]
-- [Kinter. 1918][research_kinter_1918]
 - [Kirubakaran and Aramudhan 2018][research_kirubakaran_aramudhan_2018]
 - [Kitt and Pearce 1952][research_kitt_pearce_1952]
 - [Kiwi et al][research_kiwi_navarro]
 - [Kiwi et al 2011][research_kiwi_navarro_2011]
-- [Klaassen and van Peppen][research_klaassen_vanpeppen]
-- [Klaassen and van Peppen][research_klaassen_vanpeppen_b]
-- [Klaassen and van Peppen 1994][research_klaassen_vanpeppen_1994]
-- [Klaassen and van Peppen 2001][research_klaassen_vanpeppen_2001]
 - [Klassen 2022][research_klassen_2022]
 - [Klensin and Hakala 2017][research_klensin_hakala_2017]
 - [Klensin et al 1998][research_klensin_wolf_1998]
-- [Klink and Wu 2017][research_klink_wu_2017]
-- [Kljajevic and Erramuzpe 2019][research_kljajevic_erramuzpe_2019]
 - [Knox 2019][research_knox_2019]
 - [Kobayashi and Niimi][research_kobayashi_niimi]
 - [Kocour et al 2021][research_kocour_vesely_2021]
 - [Koehler et al 1994][research_koehler_lloyd_1994]
-- [Kohli and Buller 2013][research_kohli_buller_2013]
 - [Komatsu et al 2014][research_komatsu_okuta_2014]
 - [Kondrak 2003][research_kondrak_2003]
 - [Kondrak 2005][research_kondrak_2005]
@@ -1965,11 +1778,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Kondrak and Dorr 2006][research_kondrak_dorr_2006]
 - [Kondrak and Sherif 2006][research_kondrak_sherif_2006]
 - [Koneru et al 2016][research_koneru_pulla_2016]
-- [Kong 2008][research_kong_2008]
-- [Konshina 2026][research_konshina_2026]
 - [Kontorovich and Trachtenberg 2012][research_kontorovich_trachtenberg_2012]
 - [Koo 2012][research_koo_2012]
-- [Korenari et al 1993][research_korenari_matsutera_1993]
 - [Korotkov 2010][research_korotkov_2010]
 - [Koshevoy and Shishkin 2013][research_koshevoy_shishkin_2013]
 - [Kovacic and Chambers 2010][research_kovacic_chambers_2010]
@@ -1979,7 +1789,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Krašovec 2009][research_krasovec_2009]
 - [Kristanto and Indriyanto 2024][research_kristanto_indriyanto_2024]
 - [Kronrod and Lowrey 2016][research_kronrod_lowrey_2016]
-- [Kruger and Vargas 2006][research_kruger_vargas_2006]
 - [Kuboi et al 2014][research_kuboi_baba_2014]
 - [Kucherov et al 2014][research_kucherov_salikhov_2014]
 - [Kucherov et al 2016][research_kucherov_salikhov_2016]
@@ -1991,7 +1800,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Kunchukuttan and Bhattacharyya 2021][research_kunchukuttan_bhattacharyya_2021]
 - [Kunchukuttan et al 2018][research_kunchukuttan_khapra_2018]
 - [Kundig 2011][research_kundig_2011]
-- [Kwon and Shin 2024][research_kwon_shin_2024]
 - [Kysela 2018][research_kysela_2018]
 - [Kärkkäinen 2015][research_karkkainen_2015]
 - [Kärkkäinen and Na 2007][research_karkkainen_na_2007]
@@ -2011,7 +1819,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Lambert et al 2015][research_lambert_schroeder_2015]
 - [LaMonica 2014][research_lamonica_2014]
 - [Landau and Vishkin 1989][research_landau_vishkin_1989]
-- [Lapshin 2000][research_lapshin_2000]
 - [Larson M et al 2026][research_larsonm_r_2026]
 - [Lau 2001][research_lau_2001]
 - [Laustsen 2019][research_laustsen_2019]
@@ -2019,15 +1826,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Laustsen 2019][research_laustsen_2019_c]
 - [Laustsen 2020][research_laustsen_2020]
 - [Law 2002][research_law_2002]
-- [Layne 2023][research_layne_2023]
-- [Lazer-Pankiv and Pysmenna 2021][research_lazerpankiv_pysmenna_2021]
 - [Le Blouch and Collen 2008][research_leblouch_collen_2008]
 - [Leach et al 2005][research_leach_mealling_2005]
 - [Lebiedź][research_lebiedz]
 - [Lee 2008][research_lee_2008]
 - [Lee 2016][research_lee_2016]
-- [Lee 2019][research_lee_2019]
-- [Lee 2023][research_lee_2023]
 - [Lee and Taft 2010][research_lee_taft_2010]
 - [Leek and Kun 2006][research_leek_kun_2006]
 - [Lees and Williamson 2020][research_lees_williamson_2020]
@@ -2037,8 +1840,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Legibility of Colored Print 2006][research_legibility_of_2006]
 - [Lehnert et al 2019][research_lehnert_klump_2019]
 - [Lehto et al 2021][research_lehto_sestorp_2021]
-- [Lei Wang et al][research_leiwang_shaopingli]
-- [Lei Wang et al 2002][research_leiwang_shaopingli_2002]
 - [Lemieux 2014][research_lemieux_2014]
 - [Lemieux 2016][research_lemieux_2016]
 - [Lemley and McKenna 2026][research_lemley_mckenna_2026]
@@ -2055,11 +1856,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Li et al 2000][research_li_lo_2000]
 - [Li et al 2013][research_li_deng_2013]
 - [Li et al 2014][research_li_wang_2014]
-- [Li et al 2016][research_li_schwarz_2016]
-- [Li et al 2017][research_li_wang_2017]
-- [Li et al 2018][research_li_wang_2018]
-- [Li et al 2020][research_li_li_2020]
-- [Li et al 2021][research_li_xiao_2021]
 - [Li et al 2023][research_li_wu_2023]
 - [Li et al 2023][research_li_zheng_2023]
 - [Li et al 2024][research_li_feng_2024]
@@ -2073,7 +1869,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Lilley and Guanci 1997][research_lilley_guanci_1997]
 - [Lilley and Guanci 1997][research_lilley_guanci_1997_b]
 - [Lilley and Guanci 1997][research_lilley_guanci_1997_c]
-- [Lim et al 2010][research_lim_wilson_2010]
 - [Lin and Chen 2002][research_lin_chen_2002]
 - [Lin and Wang 2011][research_lin_wang_2011]
 - [Lin et al 2014][research_lin_chen_2014]
@@ -2099,7 +1894,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Liu et al 2025][research_liu_tsai_2025]
 - [Liu et al 2025][research_liu_wei_2025]
 - [Liu et al 2026][research_liu_wan_2026]
-- [Liu Guixi and Yang Wanhai 2000][research_liuguixi_yangwanhai_2000]
 - [Local Legibility 2017][research_local_legibility_2017]
 - [Loken et al 1986][research_loken_ross_1986]
 - [Lomax et al 1999][research_lomax_sherski_1999]
@@ -2108,7 +1902,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Loo 2026][research_loo_2026]
 - [Look-Alike and Sound-Alike Drugs 1976][research_look_alike_and_1976]
 - [Look-Alike and Sound-Alike Medication 1997][research_look_alike_and_1997]
-- [Look-alike Drugs and Drugs 2013][research_look_alike_drugs_2013]
 - [Look-Alike, Sound-Alike in Dietary 2026][research_look_alike_sound_alike_2026_c]
 - [Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026]
 - [Look-Alike, Sound-Alike Medication Errors 2026][research_look_alike_sound_alike_2026_b]
@@ -2118,20 +1911,16 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Lou 2024][research_lou_2024]
 - [Loucks 1944][research_loucks_1944]
 - [Lowrey and Shrum 2007][research_lowrey_shrum_2007]
-- [Lu 2020][research_lu_2020]
 - [Lu et al 2001][research_lu_su_2001]
 - [Lu et al 2013][research_lu_lin_2013]
 - [Lu et al 2014][research_lu_du_2014]
 - [Lu et al 2016][research_lu_shi_2016]
 - [Lucia Bainotti Discusses Visual 2022][research_lucia_bainotti_2022]
 - [Luján-Mora and Palomar 2001][research_lujanmora_palomar_2001]
-- [Luniku 2015][research_luniku_2015]
 - [Lunsford 1949][research_lunsford_1949]
 - [Lupker 1982][research_lupker_1982]
-- [Lusk 2001][research_lusk_2001]
 - [Lutzker 2002][research_lutzker_2002]
 - [Lynn][research_lynn]
-- [Lyu et al 2024][research_lyu_cui_2024]
 - [Lévesque et al 1991][research_levesque_moore_1991]
 - [M.A, Otr/L 2022][research_maotrl_2022]
 - [M.Mansour and AL-Gethami 2013][research_mmansour_algethami_2013]
@@ -2140,14 +1929,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Machine readable cards. Health][research_machine_readable]
 - [Mackintosh et al 1999][research_mackintosh_lozito_1999]
 - [Magare 2026][research_magare_2026]
-- [Maheswaran et al 1992][research_maheswaran_mackie_1992]
-- [Maheswaran et al 1992][research_maheswaran_mackie_1992_b]
 - [Mahmood 2022][research_mahmood_2022]
 - [Maidment and Thorn 2005][research_maidment_thorn_2005]
 - [Major improvement in German 2005][research_major_improvement_2005]
 - [Makinen][research_makinen]
 - [Maksurov 2021][research_maksurov_2021]
-- [Malai and Speece 2005][research_malai_speece_2005]
 - [Malle][research_malle]
 - [Mamou and Ramabhadran 2008][research_mamou_ramabhadran_2008]
 - [Mamunuwa et al 2023][research_mamunuwa_jayamanne_2023]
@@ -2158,12 +1944,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Marappa and Reha Mallika 2020][research_marappa_rehamallika_2020]
 - [Marovino et al 2022][research_marovino_morgillo_2022]
 - [Martinek et al 2007][research_martinek_fucik_2007]
-- [Marvin et al 2019][research_marvin_ward_2019]
 - [Marzal et al 2003][research_marzal_mollineda_2003]
 - [Masihi and Charkari 2005][research_masihi_charkari_2005]
 - [Masmali et al 2020][research_masmali_maashi_2020]
 - [Massah et al 2021][research_massah_mohammadi_2021]
-- [Mast et al 2017][research_mast_carrard_2017]
 - [Material Identifier with Attribute 2020][research_material_identifier_2020]
 - [Mathew et al 2021][research_mathew_thomas_2021]
 - [Matsumoto et al][research_matsumoto_kida]
@@ -2201,13 +1985,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Medication Safety and Error 2020][research_medication_safety_2020]
 - [Mednis and Aurich 2012][research_mednis_aurich_2012]
 - [Mehanna et al 2024][research_mehanna_elgerges_2024]
-- [Mehdiyeva 2025][research_mehdiyeva_2025]
-- [Melas and Arnett 1990][research_melas_arnett_1990]
 - [Melichar 1995][research_melichar_1995]
 - [Menneer et al 2014][research_menneer_godwin_2014]
 - [Menouar et al 2011][research_menouar_filali_2011]
 - [Mergen 2022][research_mergen_2022]
-- [Merriman and White 1947][research_merriman_white_1947]
 - [Metals and Alloys in 2017][research_metals_and_2017]
 - [Metals and Alloys in 2025][research_metals_and_2025]
 - [Mezl 1996][research_mezl_1996]
@@ -2222,10 +2003,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Miller 2007][research_miller_2007]
 - [Millán-Hernández et al 2020][research_millanhernandez_garciahernandez_2020]
 - [Milton et al 2015][research_milton_washington_2015]
-- [Minuhin][research_minuhin]
-- [Minuhin 1985][research_minuhin_1985]
-- [Minuhin 1986][research_minuhin_1986]
-- [Minuhin 2004][research_minuhin_2004]
 - [Mishina and Kojima][research_mishina_kojima]
 - [Mishra et al 2013][research_mishra_gandhi_2013]
 - [Mishra et al 2026][research_mishra_r_2026]
@@ -2247,7 +2024,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Montgomery and O'Sullivan 2014][research_montgomery_osullivan_2014]
 - [Moody][research_moody]
 - [Moon 2018][research_moon_2018]
-- [Moore et al 1947][research_moore_seyler_1947]
 - [More on Drug-Name Confusion 1995][research_more_on_1995]
 - [Moreau et al 2004][research_moreau_kim_2004]
 - [Moreau et al 2008][research_moreau_yvon_2008]
@@ -2264,7 +2040,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Moser et al 1961][research_moser_michel_1961]
 - [Moss 2008][research_moss_2008]
 - [Mostafa et al 2021][research_mostafa_ali_2021]
-- [Mouly Potluri et al 2024][research_moulypotluri_zulpaidar_2024]
 - [Mountstephens 2013][research_mountstephens_2013]
 - [Moureaud et al 2020][research_moureaud_hertig_2020]
 - [Muchu 2024][research_muchu_2024]
@@ -2275,7 +2050,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Munawaroh et al 2020][research_munawaroh_siahaan_2020]
 - [Munshi et al 2019][research_munshi_tople_2019]
 - [Mupangavanhu and Vuke 2023][research_mupangavanhu_vuke_2023]
-- [Muraoka et al 1999][research_muraoka_sugita_1999]
 - [Murray 1968][research_murray_1968]
 - [Murry 1970][research_murry_1970]
 - [Mursiti et al 2022][research_mursiti_mesias_2022]
@@ -2283,11 +2057,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Mutalib and Noah 2011][research_mutalib_noah_2011]
 - [Muthukrishnan][research_muthukrishnan]
 - [Myers 1998][research_myers_1998]
-- [Myint and Supnithi 2012][research_myint_supnithi_2012]
 - [Nadeau 1937][research_nadeau_1937]
 - [Nagamotoo et al 2022][research_nagamotoo_lai_2022]
 - [Nagata et al 2014][research_nagata_kimura_2014]
-- [Nagel 2016][research_nagel_2016]
 - [Nahler 2009][research_nahler_2009]
 - [Nahler 2009][research_nahler_2009_b]
 - [Naik et al 2009][research_naik_pranay_2009]
@@ -2329,31 +2101,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Nguyen][research_nguyen]
 - [Nguyen and Conrad 2014][research_nguyen_conrad_2014]
 - [Nguyen and Conrad 2015][research_nguyen_conrad_2015]
-- [Nguyen and Lee 2016][research_nguyen_lee_2016]
 - [Nguyen and Schwartz 1998][research_nguyen_schwartz_1998]
 - [Ni et al 2023][research_ni_tang_2023]
 - [Nicholls and Penel 2015][research_nicholls_penel_2015]
 - [Nickell 2009][research_nickell_2009]
 - [Nilsson and Kaiserman 2004][research_nilsson_kaiserman_2004]
-- [Nishikawa 1970][research_nishikawa_1970]
-- [Nishikawa et al][research_nishikawa_komatsu]
 - [Nitayaphorn][research_nitayaphorn]
 - [No Cumulative Protection Against 2023][research_no_cumulative_2023]
 - [No Likelihood of Confusion 2025][research_no_likelihood_2025]
-- [Nogueira and García-Pérez 2024][research_nogueira_garciaperez_2024]
 - [Nogueiras-Rodriguez and Marino][research_nogueirasrodriguez_marino]
 - [Nomenclature, Aircraft Hydraulic and][research_nomenclature_aircraft_b]
 - [Nomenclature, Aircraft Oxygen Equipment][research_nomenclature_aircraft]
-- [Non-verbal communication 2007][research_non_verbal_communication_2007]
-- [Non-verbal Communication 2020][research_non_verbal_communication_2020]
-- [Non-verbal communication and speech 2013][research_non_verbal_communication_2013_b]
-- [Non-verbal communication in animals 2013][research_non_verbal_communication_2013]
 - [None 2021][research_none_2021]
-- [Nooksack Phonemes and Orthographic 2011][research_nooksack_phonemes_2011]
 - [Notation and Numbering System 1992][research_notation_and_1992]
 - [Novi Yulianti et al 2019][research_noviyulianti_hemamalini_2019]
 - [Novitra 2023][research_novitra_2023]
-- [Novotny and Hsiao 1998][research_novotny_hsiao_1998]
 - [Now that the magic 2017][research_now_that_2017]
 - [Nowak-Gruca 2018][research_nowakgruca_2018]
 - [Nozawa and Wayland 2025][research_nozawa_wayland_2025]
@@ -2367,22 +2129,18 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Numbering System for Standard][research_numbering_system_c]
 - [Numbering System for Standard][research_numbering_system_d]
 - [Numbering System for Taps][research_numbering_system]
-- [Numbering System in Heat 2010][research_numbering_system_2010]
 - [Nydert et al 2020][research_nydert_kumlien_2020]
 - [O'Leary and Srivastava 2012][research_oleary_srivastava_2012]
 - [Obaid et al 2023][research_obaid_nesbit_2023]
 - [Odebode 2010][research_odebode_2010]
 - [Oerthel et al 2020][research_oerthel_guerreiro_2020]
 - [Ogamba et al 2023][research_ogamba_ndukwe_2023]
-- [Oggiano and Adriani 2023][research_oggiano_adriani_2023]
-- [Ogomaka 2005][research_ogomaka_2005]
 - [Ohtake et al 2004][research_ohtake_sekiguchi_2004]
 - [Ohtani et al 2006][research_ohtani_takeda_2006]
 - [Ohunyon et al 2026][research_ohunyon_ojukwu_2026]
 - [Olden et al 2016][research_olden_holle_2016]
 - [Oliveira et al 2020][research_oliveira_bruno_2020]
 - [Olson and Bernstein 1979][research_olson_bernstein_1979]
-- [Omission in Drug Name 1978][research_omission_in_1978]
 - [Omoro1 et al 2018][research_omoro1_awuor1_2018]
 - [On the Phonetic and 2025][research_on_the_2025]
 - [Oppolzer and Bestak][research_oppolzer_bestak]
@@ -2396,18 +2154,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Ortolani 2009][research_ortolani_2009]
 - [Orye et al 2023][research_orye_visky_2023]
 - [Osipova 2016][research_osipova_2016]
-- [Ossart and Meunier 1990][research_ossart_meunier_1990]
 - [Ostini et al 2012][research_ostini_roughead_2012]
 - [Oswald et al 2016][research_oswald_maillat_2016]
 - [outline numbering system][research_outline_numbering]
 - [Owolabi and Ferguson 1988][research_owolabi_ferguson_1988]
 - [Owolabi and McGregor 1988][research_owolabi_mcgregor_1988]
-- [Ozgunes and Eppler 2005][research_ozgunes_eppler_2005]
-- [Ozgunes et al 1998][research_ozgunes_haciog_1998]
 - [P. 2016][research_p_2016]
 - [P. Howard, II 2018][research_phowardii_2018]
 - [Package Identifier with Attribute 2020][research_package_identifier_2020]
-- [Paclt 1971][research_paclt_1971]
 - [Page 2008][research_page_2008]
 - [Pal et al 2025][research_pal_shira_2025]
 - [Palanivelrajan and Alli 2018][research_palanivelrajan_alli_2018]
@@ -2423,9 +2177,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Park et al 2007][research_park_gilbert_2007]
 - [Pastoor 1990][research_pastoor_1990]
 - [Patel 2023][research_patel_2023]
-- [Patel and Gharekhan 2026][research_patel_gharekhan_2026]
 - [Patrician and Brosch 2009][research_patrician_brosch_2009]
-- [Patterson and Werker 1998][research_patterson_werker_1998]
 - [Pebrianto 2022][research_pebrianto_2022]
 - [Peinado et al 2024][research_peinado_odonoghue_2024]
 - [Pelamatti et al 1983][research_pelamatti_umilta_1983]
@@ -2436,7 +2188,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Perioperative medication error rates 2015][research_perioperative_medication_2015]
 - [Perveen 2026][research_perveen_2026]
 - [Perveen 2026][research_perveen_2026_b]
-- [Peschl 2022][research_peschl_2022]
 - [Peshek and Cubera 2004][research_peshek_cubera_2004]
 - [Peterson et al 2024][research_peterson_cunningham_2024]
 - [Petrun et al 1985][research_petrun_hernon_1985]
@@ -2450,57 +2201,44 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Phillips 2001][research_phillips_2001]
 - [Phillips 2014][research_phillips_2014]
 - [Phipps 2025][research_phipps_2025]
-- [Phonetic characteristics of spontaneous 2022][research_phonetic_characteristics_2022]
 - [Phonetic features, vocalisation and 2019][research_phonetic_features_2019]
 - [Phonetic Key 1980][research_phonetic_key_1980]
-- [Phonetic Records in Diagnosis 1922][research_phonetic_records_1922]
 - [Phonetic similarity and multisegmental 1994][research_phonetic_similarity_1994]
 - [Phonetic Symbols 2014][research_phonetic_symbols_2014]
-- [Phonetic Transcription in Relation 2013][research_phonetic_transcription_2013]
 - [Phonetic Transcription of Geographic 1965][research_phonetic_transcription_1965]
 - [Phoophuangpairoj et al 2024][research_phoophuangpairoj_boonsom_2024]
 - [Phuduhudu et al 2025][research_phuduhudu_moeti_2025]
 - [Pidlubna 2019][research_pidlubna_2019]
-- [Pilling et al 2020][research_pilling_akmal_2020]
 - [Pilot-Controller Communication A Multidimensional 2020][research_pilot_controller_communication_2020]
 - [Pilot-Controller Communication Problems and 2016][research_pilot_controller_communication_2016]
 - [Piskorski et al 2009][research_piskorski_wieloch_2009]
 - [Pissis and Retha 2015][research_pissis_retha_2015]
 - [Plaisant and Sears 1992][research_plaisant_sears_1992]
-- [Plumer and van Ek][research_plumer_vanek]
 - [Podgorny and Garner 1979][research_podgorny_garner_1979]
 - [Policriti and Prezza 2015][research_policriti_prezza_2015]
 - [Polk 2014][research_polk_2014]
-- [Pollák and Černocký 2004][research_pollak_cernocky_2004]
 - [Polychronakos 2012][research_polychronakos_2012]
 - [Poornima et al 2015][research_poornima_reshma_2015]
 - [Position Terms and Numbering][research_position_terms]
 - [Post and Carrecker 2002][research_post_carrecker_2002]
 - [Post and Toussaint 2011][research_post_toussaint_2011]
-- [Potter et al 1971][research_potter_schmulian_1971]
 - [Pouliquen 2008][research_pouliquen_2008]
-- [Pozidis 2004][research_pozidis_2004]
 - [Practice for Numbering Metals][research_practice_for]
 - [Practice to Enhance Identification][research_practice_to]
 - [Prakash 2010][research_prakash_2010]
 - [Preczewski and Fisher 1990][research_preczewski_fisher_1990]
 - [Predicting drug name confusion 1997][research_predicting_drug_1997]
-- [Presentation Skills Verbal Communication 2017][research_presentation_skills_2017]
 - [Product Identification Numbering System][research_product_identification]
 - [Prokhozhay 2011][research_prokhozhay_2011]
 - [Pronunciation of drug names 1970][research_pronunciation_of_1970]
 - [Propp 2000][research_propp_2000]
 - [Proprietary Name 2020][research_proprietary_name_2020]
-- [Pumphrey 1963][research_pumphrey_1963]
-- [Qing-Hua Zeng and Chen 2003][research_qinghuazeng_chen_2003]
 - [Quible 2006][research_quible_2006]
 - [R. g. d. 1926][research_rgd_1926]
 - [Rached][research_rached]
 - [Rachkovskij 2019][research_rachkovskij_2019]
-- [Rack 1985][research_rack_1985]
 - [Radack 2002][research_radack_2002]
 - [radiotelephony][research_radiotelephony]
-- [Radiotelephony on the farm 1921][research_radiotelephony_on_1921]
 - [Radiotelephony RT 2013][research_radiotelephony_rt_2013]
 - [Radul 2025][research_radul_2025]
 - [Rahman and Parvin 2015][research_rahman_parvin_2015]
@@ -2529,10 +2267,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Reichert 2026][research_reichert_2026_c]
 - [Reichert 2026][research_reichert_2026_d]
 - [Reichert 2026][research_reichert_2026_e]
-- [Reiner 1962][research_reiner_1962]
 - [Reines 2005][research_reines_2005]
-- [Reinhartz 1998][research_reinhartz_1998]
-- [Removal of Drug Name 2018][research_removal_of_2018]
 - [Revesz 2021][research_revesz_2021]
 - [Rhinoviruses a Numbering System 1967][research_rhinoviruses_a_1967]
 - [Ribeiro et al 2025][research_ribeiro_fabricio_2025]
@@ -2555,7 +2290,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Ristad and Yianilos 1998][research_ristad_yianilos_1998]
 - [Ritchie 2025][research_ritchie_2025]
 - [Riva and Pesole 2009][research_riva_pesole_2009]
-- [Rizzo and Zeckhauser 2005][research_rizzo_zeckhauser_2005]
 - [Robertson 1989][research_robertson_1989]
 - [Robins 2001][research_robins_2001]
 - [Robinson 2013][research_robinson_2013]
@@ -2573,11 +2307,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Rose and Cornog 1967][research_rose_cornog_1967]
 - [Rosenshine 1968][research_rosenshine_1968]
 - [Rosmayanti et al 2024][research_rosmayanti_djokojatmoko_2024]
-- [Rossi et al 2023][research_rossi_coppola_2023]
-- [Round and Roper 2015][research_round_roper_2015]
-- [Ruan et al 2014][research_ruan_jie_2014]
 - [Ruben 2021][research_ruben_2021]
-- [Rubio et al 2017][research_rubio_villasenor_2017]
 - [Rupa et al 2022][research_rupa_srivastava_2022]
 - [Russo et al][research_russo_navarro]
 - [Russo et al 2008][research_russo_navarro_2008]
@@ -2585,7 +2315,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Rutledge et al 2018][research_rutledge_retrosi_2018]
 - [Ruutiainen et al 2021][research_ruutiainen_kallio_2021]
 - [Ryan et al 2025][research_ryan_robertson_2025]
-- [S. 1916][research_s_1916]
 - [Saad et al 2025][research_saad_bondok_2025]
 - [Saada 2023][research_saada_2023]
 - [Saada et al 2023][research_saada_morrissey_2023]
@@ -2608,13 +2337,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Sandeep Chaware and Srikantha Rao 2011][research_sandeepchaware_srikantharao_2011]
 - [Sanders and Shaw 1991][research_sanders_shaw_1991]
 - [Sandlin 2008][research_sandlin_2008]
-- [SanFilippo et al 2021][research_sanfilippo_michaud_2021]
 - [Sangurai et al 2024][research_sangurai_thumsuwan_2024]
 - [Sankaran and Rajkumar 2016][research_sankaran_rajkumar_2016]
 - [Santos 2020][research_santos_2020]
-- [Santos 2024][research_santos_2024]
 - [Sardana and Rose Mathachan 2023][research_sardana_rosemathachan_2023]
-- [Sarigoz et al 1998][research_sarigoz_kumar_1998]
 - [Sariyar 2026][research_sariyar_2026]
 - [Sarvadikar et al 2010][research_sarvadikar_prescott_2010]
 - [Sastry and Ranganathan][research_sastry_ranganathan]
@@ -2622,25 +2348,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Saussure and Rocci 2016][research_saussure_rocci_2016]
 - [Savage et al 2005][research_savage_schneider_2005]
 - [Sawyer et al 2017][research_sawyer_dobres_2017]
-- [Scalart and Benamar 1996][research_scalart_benamar_1996]
 - [Scarborough 2003][research_scarborough_2003]
 - [Scarborough 2003][research_scarborough_2003_b]
 - [Scarrow et al 2005][research_scarrow_routon_2005]
 - [Schachter 1961][research_schachter_1961]
-- [Schafer et al 1993][research_schafer_argyle_1993]
 - [Scheirman 2001][research_scheirman_2001]
 - [Schieber 1994][research_schieber_1994]
 - [Schieber 1998][research_schieber_1998]
 - [Schieber 2005][research_schieber_2005]
 - [Schieber and Kline 1994][research_schieber_kline_1994]
 - [Schlosser et al 2025][research_schlosser_hincapie_2025]
-- [Schmalz et al 2024][research_schmalz_rueckl_2024]
 - [Schmidt et al 1993][research_schmidt_fitt_1993]
 - [Schmitt and Zhang 2012][research_schmitt_zhang_2012]
 - [Schmitt and Zhang 2017][research_schmitt_zhang_2017]
 - [Schnell and Zwahlen 1999][research_schnell_zwahlen_1999]
 - [Schraagen 2011][research_schraagen_2011]
-- [Schreck et al 1998][research_schreck_kimball_1998]
 - [Schulmeister 2006][research_schulmeister_2006]
 - [Schumacher et al 2023][research_schumacher_mayfield_2023]
 - [Schwarz et al 2017][research_schwarz_pawlik_2017]
@@ -2651,24 +2373,15 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Schweizer 2005][research_schweizer_2005_e]
 - [Scott 2013][research_scott_2013]
 - [Scott and Baddeley 1969][research_scott_baddeley_1969]
-- [Scripture 1903][research_scripture_1903]
-- [Scudder 1875][research_scudder_1875]
-- [Seagle et al 1990][research_seagle_meininger_1990]
 - [Sears and Generali 2005][research_sears_generali_2005]
 - [Sebestyen and Van Meter 1962][research_sebestyen_vanmeter_1962]
 - [Securities and related financial][research_securities_and]
-- [Seely 1893][research_seely_1893]
-- [Seffrin et al 2010][research_seffrin_malipatlolla_2010]
 - [Seger et al 2007][research_seger_jha_2007]
-- [Segmental representations and their 1998][research_segmental_representations_1998]
 - [Segura-Bedmar et al 2008][research_segurabedmar_martinez_2008]
-- [Sen 1999][research_sen_1999]
-- [Senanan et al 2002][research_senanan_xue_2002]
 - [Senft 2007][research_senft_2007]
 - [Sensmeier and Carroll 2021][research_sensmeier_carroll_2021]
 - [Seoane-Vazquez et al 2017][research_seoanevazquez_rodriguezmonguio_2017]
 - [SeongSook Jun 2016][research_seongsookjun_2016]
-- [Seps 2013][research_seps_2013]
 - [Sequential Approximate String Matching][research_sequential_approximate]
 - [Sergent 1983][research_sergent_1983]
 - [Serial Version Unique Identifier 2020][research_serial_version_2020]
@@ -2685,10 +2398,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Shanty][research_shanty]
 - [Shapira and Storer 2003][research_shapira_storer_2003]
 - [Shastay 2023][research_shastay_2023]
-- [Shear 2021][research_shear_2021]
 - [Shear 2022][research_shear_2022]
 - [Shear 2024][research_shear_2024]
-- [Shear 2024][research_shear_2024_b]
 - [Sheedy et al 2005][research_sheedy_subbaram_2005]
 - [Sheff 2024][research_sheff_2024]
 - [Shehabeldin and Hamama 2024][research_shehabeldin_hamama_2024]
@@ -2697,7 +2408,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Shen and Jia 2025][research_shen_jia_2025]
 - [Shen and Wei 2021][research_shen_wei_2021]
 - [Shetty et al 2022][research_shetty_helmke_2022]
-- [Shi et al 1987][research_shi_zhu_1987]
 - [Shi et al 2024][research_shi_jia_2024]
 - [Shiima et al 2022][research_shiima_malik_2022]
 - [Shilin Zhang and Bo Zhang 2010][research_shilinzhang_bozhang_2010]
@@ -2707,9 +2417,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Shishkin and Koshevoy 2013][research_shishkin_koshevoy_2013]
 - [Shishkin et al 2021][research_shishkin_koshevoy_2021]
 - [Shiu 2021][research_shiu_2021]
-- [Shivakumar and Krauthammer 2009][research_shivakumar_krauthammer_2009]
 - [Shivanand H Honakeri et al 2026][research_shivanandhhonakeri_hemanthck_2026]
-- [Short 2019][research_short_2019]
 - [Showman 1967][research_showman_1967]
 - [Shurtleff 1966][research_shurtleff_1966]
 - [Shurtleff and Wuersch 1979][research_shurtleff_wuersch_1979]
@@ -2717,28 +2425,20 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Siddiqui 2020][research_siddiqui_2020]
 - [Siew 2018][research_siew_2018]
 - [Sihotang 2023][research_sihotang_2023]
-- [Silva 1969][research_silva_1969]
 - [Silverman 2022][research_silverman_2022]
 - [Silvestri][research_silvestri]
 - [Simanjuntak et al 2015][research_simanjuntak_hutajulu_2015]
 - [Similar Drug Names a 2004][research_similar_drug_2004]
-- [Simmonite and Polk 2021][research_simmonite_polk_2021]
 - [Simonsohn 2010][research_simonsohn_2010]
 - [Simpson 1979][research_simpson_1979]
-- [Simpson et al 1984][research_simpson_persson_1984]
 - [Simpson et al 2010][research_simpson_strassel_2010]
 - [Singh and Singh 2017][research_singh_singh_2017]
-- [Siquier and Andrés 2022][research_siquier_andres_2022]
-- [Siren and Wilcox 1990][research_siren_wilcox_1990]
 - [Sitbon et al 2007][research_sitbon_bellot_2007]
 - [Siti Fitriani 2021][research_sitifitriani_2021]
 - [Sivak et al 1981][research_sivak_olson_1981]
-- [Sivakumar and Indiran 2020][research_sivakumar_indiran_2020]
 - [Skaltsas et al 2011][research_skaltsas_rakas_2011]
 - [Skaltsas et al 2013][research_skaltsas_rakas_2013]
 - [Skurzok and Ziółko 2013][research_skurzok_ziolko_2013]
-- [Slaughter 2007][research_slaughter_2007]
-- [Sloane 1991][research_sloane_1991]
 - [Smetzer 2001][research_smetzer_2001]
 - [Smetzer and Cohen 2007][research_smetzer_cohen_2007]
 - [Smiley and Kübler 2017][research_smiley_kubler_2017]
@@ -2751,7 +2451,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Snell-Hornby 2009][research_snellhornby_2009]
 - [Snyder 1979][research_snyder_1979]
 - [Sohn et al 2024][research_sohn_hong_2024]
-- [Solti et al 2025][research_solti_timari_2025]
 - [Soman et al 2015][research_soman_srivastava_2015]
 - [Some factors affecting legibility 1981][research_some_factors_1981]
 - [Sorathia 2015][research_sorathia_2015]
@@ -2762,9 +2461,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Specification for international securities][research_specification_for]
 - [Specification for key numbering][research_specification_for_b]
 - [Spiker and Rogers 1984][research_spiker_rogers_1984]
-- [Spong et al 1994][research_spong_dovek_1994]
 - [Spoto and Babu 1989][research_spoto_babu_1989]
-- [spun silk numbering system 2021][research_spun_silk_2021]
 - [Srinivasan and Petkovic 2000][research_srinivasan_petkovic_2000]
 - [Srivastava 2021][research_srivastava_2021]
 - [Srivastava 2023][research_srivastava_2023]
@@ -2773,17 +2470,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Stanchev et al 2019][research_stanchev_wang_2019]
 - [Stanciu and Craciun 2014][research_stanciu_craciun_2014]
 - [Stanford and Homan 1990][research_stanford_homan_1990]
-- [Stanton 1990][research_stanton_1990]
-- [Stanton 1996][research_stanton_1996]
 - [Starrfelt et al 2015][research_starrfelt_lindegaard_2015]
 - [Statutory Protection for Medication-Error 2019][research_statutory_protection_2019]
-- [Stephenson 2000][research_stephenson_2000]
-- [Stewart 1909][research_stewart_1909]
 - [Stewart 2005][research_stewart_2005]
 - [Stiftung für Patientensicherheit, Schweiz 2010][research_stiftung_fur_2010]
-- [Stiles 1911][research_stiles_1911]
-- [Stiles 1912][research_stiles_1912]
-- [Stiles 1912][research_stiles_1912_b]
 - [Still 2026][research_still_2026]
 - [Stockbridge and Taylor 2015][research_stockbridge_taylor_2015]
 - [Stolz 1967][research_stolz_1967]
@@ -2794,18 +2484,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [String Matching 1994][research_string_matching_1994]
 - [String Matching Algorithm 2011][research_string_matching_2011]
 - [String-Matching 2017][research_string_matching_2017]
-- [Stromberg and Roach 1993][research_stromberg_roach_1993]
 - [Structures that look alike 1993][research_structures_that_1993]
 - [Study Agent Unique Ingredient 2020][research_study_agent_2020]
 - [Study of deviant use 2020][research_study_of_2020]
-- [Study on judgment of 2016][research_study_on_2016]
-- [Stulberg 2023][research_stulberg_2023]
 - [Stump 2000][research_stump_2000]
 - [Stuntz 1963][research_stuntz_1963]
 - [Subject Identifier with Attribute 2020][research_subject_identifier_2020]
 - [Subject Unique Identifier 2020][research_subject_unique_2020]
 - [Subsequence String Matching 2015][research_subsequence_string_2015]
-- [Sudimac 2020][research_sudimac_2020]
 - [Sukharev et al 2014][research_sukharev_zhukov_2014]
 - [Sulastri et al 2023][research_sulastri_salam_2023]
 - [Sun and Wang 2018][research_sun_wang_2018]
@@ -2816,21 +2502,17 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Supapaan 2026][research_supapaan_2026]
 - [Supapaan et al 2024][research_supapaan_kamnuek_2024]
 - [Supapaan et al 2024][research_supapaan_songmuang_2024]
-- [Surono 2016][research_surono_2016]
 - [Susik 2017][research_susik_2017]
 - [Sutinen and Tarhio 1996][research_sutinen_tarhio_1996]
 - [Suzuki 2001][research_suzuki_2001]
 - [Svahn 1978][research_svahn_1978]
 - [Syaifudin et al 2025][research_syaifudin_adiatmaja_2025]
-- [Syphilis the Vasculitis Look-Alike 2015][research_syphilis_the_2015]
 - [T.Kalin and M.Molina 2007][research_tkalin_mmolina_2007]
 - [Tagami and Imaizumi 2020][research_tagami_imaizumi_2020]
 - [Tagliacozzo et al 1970][research_tagliacozzo_kochen_1970]
 - [Tai 2018][research_tai_2018]
 - [Takabatake et al 2014][research_takabatake_tabei_2014]
 - [Takabatake et al 2016][research_takabatake_nakashima_2016]
-- [Takano 2013][research_takano_2013]
-- [Takano et al 1994][research_takano_muraoka_1994]
 - [Takasu][research_takasu]
 - [Takeda 2001][research_takeda_2001]
 - [Takenaka and Wakao 2015][research_takenaka_wakao_2015]
@@ -2866,32 +2548,23 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [The communicative aspect in 2023][research_the_communicative_2023]
 - [The Grex Universal Numbering 1944][research_the_grex_1944]
 - [The Image Confusion in 2012][research_the_image_confusion_2012]
-- [The Legibility of Human 2022][research_the_legibility_2022]
-- [The Orthographic Principles in 2009][research_the_orthographic_2009]
 - [The pharmacy technician's role 2014][research_the_pharmacy_2014]
 - [The Prescription and Drug 2020][research_the_prescription_2020]
 - [The role of orthographic 2019][research_the_role_2019]
 - [The Role of Typography 2006][research_the_role_2006]
 - [The System.IO Namespace][research_the_system_io]
 - [The Unified Numbering System 2010][research_the_unified_2010]
-- [The Verbal Communication of 2002][research_the_verbal_2002]
 - [Thomas 2017][research_thomas_2017]
-- [Thomas and Friedmann 1994][research_thomas_friedmann_1994]
 - [Thompson 2008][research_thompson_2008]
 - [Thompson et al 2015][research_thompson_panchev_2015]
 - [Thouvenin et al 2025][research_thouvenin_gerber_2025]
 - [Thumsuwan et al 2024][research_thumsuwan_sangurai_2024]
-- [Tian et al 2020][research_tian_ballar_2020]
-- [Tight and Vigil 2023][research_tight_vigil_2023]
 - [Tisdale 1986][research_tisdale_1986]
 - [Tissot and Dobson 2019][research_tissot_dobson_2019]
-- [Titarenko and Yashchuk 2022][research_titarenko_yashchuk_2022]
 - [Tobin and Tobin 2016][research_tobin_tobin_2016]
 - [Top et al 2007][research_top_dowla_2007]
 - [Topolinski 2017][research_topolinski_2017]
-- [Torrey 1945][research_torrey_1945]
 - [Tracked Changes. Earth-moving machinery][research_tracked_changes]
-- [Trade Name Index 2023][research_trade_name_2023]
 - [Trade-Mark Registration. Similarity of 1938][research_trade_mark_registration_1938]
 - [Tradename. Company. Similarity of 1912][research_tradename_company_1912]
 - [Tranchard et al 2016][research_tranchard_hein_2016]
@@ -2900,7 +2573,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Treeratpituk and Giles 2021][research_treeratpituk_giles_2021]
 - [Troelsen 2003][research_troelsen_2003]
 - [Trpkoska and Vukikjevikj 2022][research_trpkoska_vukikjevikj_2022]
-- [Trzaska][research_trzaska]
 - [Tseng and Chen 2016][research_tseng_chen_2016]
 - [Tseng et al 2016][research_tseng_wen_2016]
 - [Tsur 2010][research_tsur_2010]
@@ -2916,9 +2588,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Tumuhaise and Namukwaya 2024][research_tumuhaise_namukwaya_2024]
 - [Tuncal 2026][research_tuncal_2026]
 - [Tuohy and Paparella 2005][research_tuohy_paparella_2005]
-- [Turley and Moore 1995][research_turley_moore_1995]
 - [Twist model development and results from the active aeroelastic wing F/A-18 aircraft][research_aaw_twist_model]
-- [Uda 1930][research_uda_1930]
 - [Ukkonen][research_ukkonen]
 - [Ukkonen 1983][research_ukkonen_1983]
 - [Ukkonen 1985][research_ukkonen_1985]
@@ -2935,70 +2605,50 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Universally Unique Identifier 2020][research_universally_unique_2020]
 - [Uryupina 2004][research_uryupina_2004]
 - [Utilisation of Neonatal Medication 2018][research_utilisation_of_2018]
-- [Uwazumi et al][research_uwazumi_jinghuanchen]
-- [Vaghela et al 2022][research_vaghela_jackson_2022]
 - [Vaiwsri et al 2024][research_vaiwsri_ranbaduge_2024]
 - [Valarakos et al 2004][research_valarakos_paliouras_2004]
 - [Valentine 1998][research_valentine_1998]
 - [Vallabhaneni et al 2023][research_vallabhaneni_ahmad_2023]
-- [Vallejo Herán 2022][research_vallejoheran_2022]
 - [Vallioor et al 2025][research_vallioor_rakas_2025]
-- [Van Bael and van Halteren 2007][research_vanbael_vanhalteren_2007]
 - [Van Court and Herbordt][research_vancourt_herbordt]
 - [Van Court and Herbordt 2007][research_vancourt_herbordt_2007]
 - [van Engelenburg et al 2023][research_vanengelenburg_khademi_2023]
 - [van Nes 1988][research_vannes_1988]
 - [Van Nes and Bouma 1980][research_vannes_bouma_1980]
-- [Van Vaerenbergh 2017][research_vanvaerenbergh_2017]
-- [Van Winkel][research_vanwinkel]
-- [Vanderslice 1970][research_vanderslice_1970]
 - [Varol and Talburt 2011][research_varol_talburt_2011]
 - [Vartabedian 1970][research_vartabedian_1970]
 - [Vaughan et al 1982][research_vaughan_glass_1982]
 - [Verbal and Non-verbal Communication][research_verbal_and]
-- [Verbal and Non-Verbal Communication][research_verbal_and_b]
-- [Verbal and Non-Verbal Communication 2012][research_verbal_and_2012]
 - [Verbal Communication 2013][research_verbal_communication_2013]
 - [Verbal Communication 2016][research_verbal_communication_2016]
 - [Verbal Communication 2022][research_verbal_communication_2022]
-- [Vicard 1988][research_vicard_1988]
 - [Vicory 1968][research_vicory_1968]
-- [Victora and Wang 2014][research_victora_wang_2014]
 - [Vilares et al 2004][research_vilares_ribadas_2004]
 - [Visual Similarity][research_visual_similarity]
 - [Visual Similarity 2009][research_visual_similarity_2009]
 - [Visual Similarity 2021][research_visual_similarity_2021]
 - [Vladimirov et al 2019][research_vladimirov_pirmagomedov_2019]
-- [VonColln and Gonchaaroff 1996][research_voncolln_gonchaaroff_1996]
-- [Vágási 2026][research_vagasi_2026]
 - [Vázquez et al 2020][research_vazquez_ledeneva_2020]
 - [Wackerow 2024][research_wackerow_2024]
-- [Waggoner 1984][research_waggoner_1984]
-- [Wallash et al 1991][research_wallash_salo_1991]
 - [Walsh 2023][research_walsh_2023]
 - [Wang][research_wang]
 - [Wang 2022][research_wang_2022]
 - [Wang 2024][research_wang_2024]
 - [Wang 2025][research_wang_2025]
 - [Wang and Jean 1993][research_wang_jean_1993]
-- [Wang and Zhu 2021][research_wang_zhu_2021]
 - [Wang et al 2008][research_wang_hao_2008]
 - [Wang et al 2011][research_wang_li_2011]
 - [Wang et al 2014][research_wang_li_2014]
 - [Wang et al 2014][research_wang_wen_2014]
 - [Wang et al 2021][research_wang_tao_2021]
 - [Wang et al 2024][research_wang_feng_2024]
-- [Wang et al 2024][research_wang_gao_2024]
-- [Wang et al 2026][research_wang_vartanov_2026]
 - [Wanniarachchi 2023][research_wanniarachchi_2023]
 - [Ward et al 1995][research_ward_parkes_1995]
 - [Warning highlights risk of 2013][research_warning_highlights_2013]
 - [Waspada and Sarno 2020][research_waspada_sarno_2020]
 - [Watcharapinchai and Rujikietgumjorn 2017][research_watcharapinchai_rujikietgumjorn_2017]
-- [Wattanaphol et al 2026][research_wattanaphol_rueangnetr_2026]
 - [Weant et al 2007][research_weant_cook_2007]
 - [Weant et al 2010][research_weant_humphries_2010]
-- [Wei Zeng et al 2006][research_weizeng_kavcic_2006]
 - [Weik 2000][research_weik_2000]
 - [Weik 2000][research_weik_2000_b]
 - [Weik 2000][research_weik_2000_c]
@@ -3008,35 +2658,25 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Weik 2000][research_weik_2000_g]
 - [Weisenberger 1996][research_weisenberger_1996]
 - [Weitz 1960][research_weitz_1960]
-- [Wells 1972][research_wells_1972]
-- [Wells 1984][research_wells_1984]
 - [Wertheimer 2014][research_wertheimer_2014]
 - [West 1954][research_west_1954]
 - [Westbury and Yang 2024][research_westbury_yang_2024]
 - [Wetzel and Hernandez 2010][research_wetzel_hernandez_2010]
 - [What's in a name? 2000][research_what_s_in_2000]
-- [White 1915][research_white_1915]
 - [White 2016][research_white_2016]
 - [Wieling et al 2012][research_wieling_margaretha_2012]
 - [Wierzbicka 2016][research_wierzbicka_2016]
 - [Williams 1967][research_williams_1967]
 - [Williamson 2009][research_williamson_2009]
-- [Wilton and Wood][research_wilton_wood]
-- [Wilton and Wood 2004][research_wilton_wood_2004]
-- [Wing 1970][research_wing_1970]
 - [Winkler 2014][research_winkler_2014]
 - [Winter et al 2020][research_winter_musliu_2020]
 - [Wisconsin reviews state code 1994][research_wisconsin_reviews_1994]
-- [WITHDRAWN Visual Similarity Versus 2021][research_withdrawn_visual_2021]
 - [Witt et al 2024][research_witt_cillessen_2024]
 - [Wojnar et al][research_wojnar_mlynkova]
 - [Wold 2017][research_wold_2017]
 - [Wolf 1982][research_wolf_1982]
 - [Wolff 1971][research_wolff_1971]
 - [Wong 2014][research_wong_2014]
-- [Wood and Wilton 2008][research_wood_wilton_2008]
-- [Wood et al 2012][research_wood_salo_2012]
-- [Woodward 2012][research_woodward_2012]
 - [Word Similarity Calculation by 2015][research_word_similarity_2015]
 - [Wright 1994][research_wright_1994]
 - [Wu and Meng 2022][research_wu_meng_2022]
@@ -3044,8 +2684,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Wu et al 2018][research_wu_liu_2018]
 - [Wysocki et al 2022][research_wysocki_grabe_2022]
 - [Xiang et al 2012][research_xiang_pan_2012]
-- [Xiang-Jun Feng and Jiang-Ling Zhang 1988][research_xiangjunfeng_jianglingzhang_1988]
-- [Xiao and Calvo 2026][research_xiao_calvo_2026]
 - [Xiao et al 2022][research_xiao_jia_2022]
 - [Xu and Metze 2014][research_xu_metze_2014]
 - [Xu et al 2024][research_xu_ma_2024]
@@ -3053,23 +2691,17 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Yamashita 2012][research_yamashita_2012]
 - [Yan et al 2026][research_yan_mairano_2026]
 - [Yan et al 2026][research_yan_mairano_2026_b]
-- [Yang and Anderson 2024][research_yang_anderson_2024]
 - [Yang and Chen 2026][research_yang_chen_2026]
 - [Yang et al 2022][research_yang_zheng_2022]
 - [yanqing et al 2025][research_yanqing_zhang_2025]
-- [Yao Wang et al 2012][research_yaowang_erden_2012]
 - [Yarkoni et al 2008][research_yarkoni_balota_2008]
 - [Yash 2020][research_yash_2020]
 - [Yencken and Baldwin 2008][research_yencken_baldwin_2008]
 - [Yencken Lars and Baldwin Timothy 2008][research_yenckenlars_baldwintimothy_2008]
-- [Yimin Guo and Kochan Ju 1996][research_yiminguo_kochanju_1996]
 - [Yiğit 2026][research_yigit_2026]
 - [Yoneyama 2001][research_yoneyama_2001]
 - [Yoo and Keshavarzi 2020][research_yoo_keshavarzi_2020]
 - [Yoo and Kim 2023][research_yoo_kim_2023]
-- [Yoon and Hwang 2019][research_yoon_hwang_2019]
-- [Yoon and Hwang 2021][research_yoon_hwang_2021]
-- [Yoon, Chun Suk 2015][research_yoonchunsuk_2015]
 - [Yoshikawa et al 2023][research_yoshikawa_kizaki_2023]
 - [You and Alwan 2007][research_you_alwan_2007]
 - [Young 2000][research_young_2000]
@@ -3078,29 +2710,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Yu et al 2020][research_yu_yang_2020]
 - [Yu et al 2025][research_yu_fang_2025]
 - [Yuan and Shih 2004][research_yuan_shih_2004]
-- [Yuan et al 2010][research_yuan_han_2010]
 - [Yuan et al 2014][research_yuan_wang_2014]
 - [Yun and Choi 2023][research_yun_choi_2023]
 - [Yuniar et al 2024][research_yuniar_febiyanti_2024]
 - [Yunju Suh 2010][research_yunjusuh_2010]
-- [Yusupova 2025][research_yusupova_2025]
-- [Yıldız et al 2025][research_yildiz_jamalova_2025]
 - [Zacher et al 2018][research_zacher_cunningham_2018]
-- [Zaharias and Antonakopoulos 2013][research_zaharias_antonakopoulos_2013]
 - [Zaijul et al 2026][research_zaijul_nadjamuddin_2026]
 - [Zaini et al 2026][research_zaini_isnani_2026]
 - [Zee et al 2026][research_zee_willems_2026]
 - [ZeeAbrahamsen and Haberman 2018][research_zeeabrahamsen_haberman_2018]
 - [Zeisel and Kaye 1997][research_zeisel_kaye_1997]
 - [Zellmer 1993][research_zellmer_1993]
-- [Zeng and Chen][research_zeng_chen]
 - [Zgank and Kacic 2012][research_zgank_kacic_2012]
-- [Zhang 2019][research_zhang_2019]
 - [Zhang and Cui 2010][research_zhang_cui_2010]
 - [Zhang and Cui 2022][research_zhang_cui_2022]
-- [Zhang and Huang 2017][research_zhang_huang_2017]
 - [Zhang and Jin 2021][research_zhang_jin_2021]
-- [Zhang and Liu 2012][research_zhang_liu_2012]
 - [Zhang and Osth 2023][research_zhang_osth_2023]
 - [Zhang and Osth 2024][research_zhang_osth_2024]
 - [Zhang and Zhang 2010][research_zhang_zhang_2010]
@@ -3108,13 +2732,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Zhang et al 2009][research_zhang_jiang_2009]
 - [Zhang et al 2014][research_zhang_yu_2014]
 - [Zhang et al 2017][research_zhang_hu_2017]
-- [Zhang et al 2021][research_zhang_li_2021]
 - [Zhang et al 2026][research_zhang_deng_2026]
 - [Zhao et al 2012][research_zhao_xiao_2012]
 - [Zhao et al 2013][research_zhao_xiao_2013]
 - [Zhao et al 2014][research_zhao_liu_2014]
 - [Zhao et al 2018][research_zhao_wong_2018]
-- [Zhaohui Fan et al 2009][research_zhaohuifan_zhenyongzhang_2009]
 - [Zheng et al 2002][research_zheng_song_2002]
 - [Zheng et al 2013][research_zheng_zou_2013]
 - [ZhiFeng Sun et al 2015][research_zhifengsun_jiehe_2015]
@@ -3134,9 +2756,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [Zwaga 1979][research_zwaga_1979]
 - [Ögeyik 2022][research_ogeyik_2022]
 - [Žgank et al 2005][research_zgank_horvat_2005]
-- [ปัจจัยที่มีผลต่อพฤติกรรมการซื้อสินค้าแฟชั่น Brand Name ต่างประเทศ][research_brand_name]
 - [∞universal numbering system 2021][research_universal_numbering_2021]
-- [◾ Binary Numbering System 2013][research_binary_2013]
 
 [research_a_fused_2025]: https://doi.org/10.18178/wcse.2025.06.047
 [research_a_novel_2019]: https://doi.org/10.18178/wcse.2019.06.047
@@ -3163,12 +2783,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_afanasev_lyashevskaya_2024]: https://doi.org/10.1163/9789004702660_003
 [research_agoglia_kelly_2024]: https://doi.org/10.3928/01484834-20240305-07
 [research_aguasvivas_testolin_2021]: https://doi.org/10.31234/osf.io/8tx7p
-[research_ahluwalia_gurhancanli_2000]: https://doi.org/10.1086/317591
 [research_ahmed_suffian_2022]: https://doi.org/10.1109/access.2021.3137905
 [research_ahuja_ahuja_2024]: https://doi.org/10.18231/j.jdp.2024.023
-[research_aibar_casacuberta_1993]: https://doi.org/10.21437/eurospeech.1993-396
 [research_air_traffic]: https://doi.org/10.1007/springerreference_7859
-[research_akpinar_ay_2026]: https://doi.org/10.21203/rs.3.rs-9402334/v1
 [research_aksoy_uguz_2019]: https://doi.org/10.21923/jesd.467036
 [research_akutsu_1994]: https://doi.org/10.1007/3-540-58094-8_21
 [research_akutsu_1995]: https://doi.org/10.1016/0020-0190(95)00111-o
@@ -3180,7 +2797,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_aldwairi_flaifel_2012]: https://doi.org/10.1109/intech.2012.6457802
 [research_alexeeva_2023]: https://doi.org/10.31234/osf.io/e2uwm
 [research_alextumuhaise_janefrancesnamukwaya_2026]: https://doi.org/10.51168/vqh17x37
-[research_alhammad_alshehri_2025]: https://doi.org/10.64753/jcasc.v10i2.1950
 [research_aljassmi_perea_2024]: https://doi.org/10.1017/langcog.2024.20
 [research_aljedaani_farrash_2025]: https://doi.org/10.24911/ijmdc.51-1735682222
 [research_allauzen_raffinot_2000]: https://doi.org/10.1007/3-540-45123-4_30
@@ -3217,7 +2833,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_annisasihotang_2024]: https://doi.org/10.58369/biit.v2i3.57
 [research_anonymous_2013]: https://doi.org/10.1103/physics.6.s112
 [research_antonow_smith_2000]: https://doi.org/10.1097/00001786-200010000-00006
-[research_anzaloni_barbosa_1984]: https://doi.org/10.1109/tmag.1984.1063153
 [research_apodaca_2010]: https://doi.org/10.59350/xg75q-5ec40
 [research_appendix_1_1998]: https://doi.org/10.7560/708655-014
 [research_appendix_a_1997]: https://doi.org/10.2514/5.9781600861529.0297.0308
@@ -3230,7 +2845,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_approximate_string_1994]: https://doi.org/10.1142/9789814317368_0005
 [research_approximate_string_2014]: https://doi.org/10.5220/0004892802170224
 [research_aragao_scaramucci_2020]: https://doi.org/10.23925/2318-7115.2020v41i4a5
-[research_arai_kato_1984]: https://doi.org/10.1109/tmag.1984.1063499
 [research_aratsu_hirata_2009]: https://doi.org/10.1007/978-3-540-95891-8_12
 [research_aratsu_hirata_2010]: https://doi.org/10.3233/fi-2010-282
 [research_archer_2020]: https://doi.org/10.15695/vl.v3i0.4836
@@ -3245,7 +2859,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_arunachalam_madhan_2021]: https://doi.org/10.4103/0970-258x.190480
 [research_aschenbrenner_2025]: https://doi.org/10.1097/ajn.0000000000000187b
 [research_aschenbrenner_2025_b]: https://doi.org/10.1097/ajn.0000000000000141b
-[research_ashby_ashby_2021]: https://doi.org/10.1080/17597536.2021.1996085
 [research_ashish_patawari_2016]: https://doi.org/10.1145/2975167.2975203
 [research_assaker_makhoul_2020]: https://doi.org/10.1109/iros45743.2020.9341515
 [research_assessment_of_2020]: https://doi.org/10.29271/jcpsp.2020.04.425
@@ -3254,17 +2867,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_atallah_chyzak_2001]: https://doi.org/10.1007/s004530010062
 [research_aten_gugerty_2002]: https://doi.org/10.1177/154193120204601733
 [research_audhkhasi_verma_2007]: https://doi.org/10.1109/icassp.2007.367223
-[research_auh_shih_2007]: https://doi.org/10.1057/palgrave.bm.2550104
 [research_austin_1957]: https://doi.org/10.2307/411308
 [research_austin_2008]: https://doi.org/10.4337/9781848441316.00024
 [research_author_2026]: https://doi.org/10.26750/9nebyy46
 [research_author_name_1983]: https://doi.org/10.1016/0172-2190(83)90220-x
-[research_awadallah_zohar_2023]: https://doi.org/10.1063/5.0146648
 [research_ayad_pissis_2016]: https://doi.org/10.1186/s12859-016-1320-2
 [research_aydemir_esenkaya_2023]: https://doi.org/10.33457/ijhsrp.1193061
 [research_aygun_2017]: https://doi.org/10.1007/s40745-017-0117-0
 [research_aziz_1972]: https://doi.org/10.2307/2568981
-[research_baart_vroomen_2014]: https://doi.org/10.1016/j.cognition.2013.09.006
 [research_babayev_2025]: https://doi.org/10.69760/aghel.0250040018
 [research_baddeley_1971]: https://doi.org/10.3758/bf03332525
 [research_baezayates_navarro]: https://doi.org/10.1109/spire.1998.712978
@@ -3273,14 +2883,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_baezayates_perleberg_1992]: https://doi.org/10.1007/3-540-56024-6_15
 [research_baezayates_perleberg_1996]: https://doi.org/10.1016/0020-0190(96)00083-x
 [research_baezayatesandgnavarro_1999]: https://doi.org/10.1007/pl00009253
-[research_baffour_oyekoya_2024]: https://doi.org/10.1109/vrw62533.2024.00288
 [research_baghcheghi_koohestani_2025]: https://doi.org/10.1186/s12909-025-08350-w
 [research_bailey]: https://doi.org/10.26686/wgtn.17019833
 [research_bakar_sembok_2000]: https://doi.org/10.1002/(sici)1097-4571(2000)51:8<691::aid-asi20>3.0.co;2-u
-[research_baker_1984]: https://doi.org/10.1063/1.333616
 [research_baker_2002]: https://doi.org/10.1177/001857870203700301
-[research_baker_herte_1984]: https://doi.org/10.1109/tmag.1984.1063390
-[research_bakker_2017]: https://doi.org/10.18192/uojm.v7i1.1438
 [research_balabanis_craven_1997]: https://doi.org/10.1080/0267257x.1997.9964474
 [research_balan_irawati_2026]: https://doi.org/10.70672/dnkpby91
 [research_balashov_nikiforov_2019]: https://doi.org/10.1016/j.finmar.2019.06.002
@@ -3291,13 +2897,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_banki_doring_2023]: https://doi.org/10.3897/biss.7.111662
 [research_bansal_khobragade_2026]: https://doi.org/10.59556/japi.74.1593
 [research_bar_coding]: https://doi.org/10.3403/01013878u
-[research_barbosa_1990]: https://doi.org/10.1109/intmag.1990.734615
 [research_barbre_price_1983]: https://doi.org/10.1177/154193128302700609
 [research_barik_1969]: https://doi.org/10.1177/002383096901200304
 [research_barnard_wright_1978]: https://doi.org/10.1080/00140137808931695
 [research_baroni_matiasek_2002]: https://doi.org/10.3115/1118647.1118653
 [research_barriers_to_2009]: https://doi.org/10.1097/01.nurse.0000347045.91245.a4
-[research_barry_2013]: https://doi.org/10.3366/edinburgh/9780748640737.003.0007
 [research_barry_harper_1995]: https://doi.org/10.1007/bf01560190
 [research_bartholomew_2025]: https://doi.org/10.2139/ssrn.5041413
 [research_bartolini_ciaccia_2002]: https://doi.org/10.1007/3-540-45735-6_24
@@ -3317,8 +2921,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_bayrak_2026]: https://doi.org/10.38023/947bf44b-7f07-4b92-ad44-fe5fd82f3629
 [research_bc_aa_2015]: https://doi.org/10.4172/2167-1052.1000192
 [research_beale_rajwany_2022]: https://doi.org/10.1097/01.numa.0000805040.87004.37
-[research_becherucci_landini_2020]: https://doi.org/10.3390/ijerph17228363
-[research_beck_1984]: https://doi.org/10.2514/6.1984-1741
 [research_beck_kerschbaum_2013]: https://doi.org/10.1109/bigdata.congress.2013.14
 [research_beck_morgan_1986]: https://doi.org/10.2190/tw2b-2p4a-kgum-6102
 [research_beebe_2006]: https://doi.org/10.2307/20439078
@@ -3343,28 +2945,23 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_best_walsh_2001_b]: https://doi.org/10.17487/rfc3120
 [research_beyea_2007]: https://doi.org/10.1016/j.aorn.2007.10.008
 [research_bhat_gutzwiller_2026]: https://doi.org/10.1016/j.hfh.2026.100123
-[research_bhattacharyya_tarnopolsky_1991]: https://doi.org/10.1109/20.278922
 [research_bhavana_rao_2024]: https://doi.org/10.1109/icces63552.2024.10859471
 [research_bhise_hammoudeh_2004]: https://doi.org/10.1177/154193120404800715
-[research_bilas_2020]: https://doi.org/10.31470/2309-1797-2020-27-2-71-89
 [research_bille_2011]: https://doi.org/10.1007/s00224-011-9322-y
 [research_bille_fagerberg]: https://doi.org/10.1007/978-3-540-73437-6_8
 [research_bille_fagerberg_2009]: https://doi.org/10.1145/1644015.1644018
-[research_binary_2013]: https://doi.org/10.1201/b16033-9
 [research_birdwell_sullivan_2003]: https://doi.org/10.1093/ajhp/60.10.1054
 [research_bisson_2024]: https://doi.org/10.31219/osf.io/2mk7n
 [research_blair_eliav_2021]: https://doi.org/10.1007/978-3-030-86517-7_17
 [research_blatt_kocour_2022]: https://doi.org/10.1109/icassp43922.2022.9746301
 [research_block_edit]: https://doi.org/10.1007/springerreference_57569
 [research_blood_pressure_2026]: https://doi.org/10.1211/pj.2026.1.414521
-[research_bloomberg_menglean_1983]: https://doi.org/10.1109/tmag.1983.1062789
 [research_blum_abel_1988]: https://doi.org/10.1093/ajhp/45.9.1902
 [research_blum_fox_2009]: https://doi.org/10.2139/ssrn.1424142
 [research_bogunenko_gavrylenko_2010]: https://doi.org/10.18372/2306-1472.44.1909
 [research_bogush_kovtun_2019]: https://doi.org/10.31470/2309-1797-2019-25-1-11-32
 [research_bohannon_2016]: https://doi.org/10.1126/science.351.6270.213
 [research_boitsov_2002]: https://doi.org/10.1023/a:1016014301288
-[research_bolbochan_2024]: https://doi.org/10.7256/2454-0749.2024.12.72499
 [research_boling_2015]: https://doi.org/10.18060/18352
 [research_bolton_mbua_2026]: https://doi.org/10.1016/j.ymgme.2025.109345
 [research_bonner_2020]: https://doi.org/10.1016/j.ptdy.2020.10.022
@@ -3372,25 +2969,18 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_boring_1997]: https://doi.org/10.1177/009286159703100301
 [research_borowska_2025]: https://doi.org/10.1109/icns65417.2025.10976906
 [research_boschen_jones]: https://doi.org/10.1109/ipcc.2004.1375313
-[research_bottinelli_gouguenheim_1999]: https://doi.org/10.1051/aas:1999451
 [research_bouselmi_fohr_2006]: https://doi.org/10.21437/interspeech.2006-28
 [research_boush_1997]: https://doi.org/10.1023/a:1007947212963
 [research_bouwman_cranen_2004]: https://doi.org/10.21437/interspeech.2004-562
-[research_bown_1938]: https://doi.org/10.1049/jiee-1.1938.0155
-[research_boyce_2017]: https://doi.org/10.4324/9781315169255-3
-[research_boyce_2017_b]: https://doi.org/10.4324/9781315169255-9
 [research_boyer_mcpherson_2009]: https://doi.org/10.1177/1049909109335145
 [research_brabcova_bartlova_2014]: https://doi.org/10.1016/j.kontakt.2014.05.003
 [research_brahim_menouar_2016]: https://doi.org/10.1109/compcomm.2016.7924900
 [research_brammeranthony_2003]: https://ntrs.nasa.gov/citations/20040015121
-[research_brand_name]: https://doi.org/10.58837/chula.the.1996.709
 [research_brand_name_2004]: https://doi.org/10.4135/9781452229669.n408
-[research_brand_name_capitalism_2023]: https://doi.org/10.5040/9781350286207.ch-001
 [research_branting_2003]: https://doi.org/10.1145/1047788.1047837
 [research_brauneis_heald_2010]: https://doi.org/10.2139/ssrn.1662623
 [research_brengman_geuens_2001]: https://doi.org/10.1080/13527260127415
 [research_bretmerskystevenc_murawskirobert_2004]: https://ntrs.nasa.gov/citations/20040139154
-[research_bristow_asquith_1999]: https://doi.org/10.1108/10610429910272457
 [research_brochhagen_liao_2025]: https://doi.org/10.31234/osf.io/vh5td_v1
 [research_brodell_1997]: https://doi.org/10.1001/archfami.6.3.296
 [research_brown_2004]: https://doi.org/10.1016/s1549-3741(04)30053-5
@@ -3418,7 +3008,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_burt_porter_2022]: https://doi.org/10.1080/23273798.2021.2016872
 [research_buscaldi_garciaflores_2014]: https://doi.org/10.3115/v1/s14-2069
 [research_busch_king_1964]: https://doi.org/10.21236/ad0606629
-[research_busyatras_warisarn_2015]: https://doi.org/10.1109/intmag.2015.7157699
 [research_butterbaugh_1981]: https://doi.org/10.21236/ada108813
 [research_butterbaugh_1982]: https://doi.org/10.1177/154193128202600711
 [research_butterbaugh_rockwell_1982]: https://doi.org/10.1177/001872088202400503
@@ -3450,17 +3039,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_chalasani_ramesh_2018]: https://doi.org/10.3390/pharmacy6040133
 [research_challenges_in_2026]: https://doi.org/10.4018/979-8-3373-5478-1.ch003
 [research_champagne_2025]: https://doi.org/10.1201/9781003569756-1526
-[research_champeildesplats_2019]: https://doi.org/10.3917/rfdc.120.0865
 [research_chan_hauben_2005]: https://doi.org/10.1002/pds.1128
 [research_chan_muller_2018]: https://doi.org/10.2146/ajhp170671
 [research_chanakit_2013]: https://doi.org/10.5897/ajpp11.812
 [research_chandra_2011]: https://doi.org/10.5644/ama2006-124.26
-[research_chang_1970]: https://doi.org/10.1063/1.1658529
 [research_chang_lampe_1992]: https://doi.org/10.1007/3-540-56024-6_14
 [research_chang_lawler]: https://doi.org/10.1109/fscs.1990.89530
 [research_chang_lawler_1994]: https://doi.org/10.1007/bf01185431
 [research_chang_marr_1994]: https://doi.org/10.1007/3-540-58094-8_23
-[research_chang_morishita_2003]: https://doi.org/10.5715/jnlp.10.4_55
 [research_chanjeffreyw_simpsoncarola_1990]: https://ntrs.nasa.gov/citations/19900019194
 [research_chanyagorn_kungwannarongkun_2016]: https://doi.org/10.1109/iccsce.2016.7893585
 [research_chapanis_garner]: https://doi.org/10.1037/11152-005
@@ -3475,17 +3061,13 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_chen_2016]: https://doi.org/10.4236/ojml.2016.65035
 [research_chen_2017]: https://doi.org/10.5539/ells.v7n1p45
 [research_chen_chen_2024]: https://doi.org/10.1016/j.cmpb.2023.107869
-[research_chen_luo_2025]: https://doi.org/10.1108/apjml-08-2024-1153
-[research_chen_moon_2004]: https://doi.org/10.1109/tmag.2004.826913
 [research_chen_olsen_2007]: https://doi.org/10.21437/interspeech.2007-565
 [research_chen_wilson_2020]: https://doi.org/10.1177/0265532220909310
 [research_chen_yang_2020]: https://doi.org/10.1101/2020.05.24.113852
 [research_chen_yuan_2011]: https://doi.org/10.17487/rfc6286
 [research_cheng_ito]: https://doi.org/10.1007/978-1-4020-6270-4_50
 [research_cheng_jia_2018]: https://doi.org/10.1007/978-3-319-97909-0_62
-[research_cheng_olson_2026]: https://doi.org/10.1515/phon-2024-0048
 [research_cheng_salazar_2018]: https://doi.org/10.1093/jamia/ocy043
-[research_cherifi_guerti_2021]: https://doi.org/10.24425/aoa.2021.136574
 [research_chernyak_2017]: https://doi.org/10.18653/v1/w17-1415
 [research_chiampiohly_2024]: https://doi.org/10.1093/grurint/ikad129
 [research_chiche_thomas_2008]: https://doi.org/10.1016/j.ejim.2007.03.018
@@ -3500,7 +3082,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_christopher_allen_2012]: https://doi.org/10.1007/978-1-137-01097-1_3
 [research_christopherjaisunder_ahmed_2017]: https://doi.org/10.18311/gjeis/2016/7658
 [research_chrysler_tranchida_2001]: https://doi.org/10.1177/154193120104502308
-[research_chui_1999]: https://doi.org/10.1007/978-1-4615-4983-3_4
 [research_chung_2026]: https://doi.org/10.1109/compsac69091.2026.00315
 [research_chung_hsu_2011]: https://doi.org/10.1109/iri.2011.6009560
 [research_cieri_fiumara_2021]: https://doi.org/10.21437/interspeech.2021-1611
@@ -3542,11 +3123,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_colby_1992]: https://doi.org/10.1145/1125021.1125089
 [research_cole_hariharan_2002]: https://doi.org/10.1137/s0097539700370527
 [research_colomer_2012]: https://doi.org/10.7551/mitpress/9115.003.0014
-[research_combination_drugs_2012]: https://doi.org/10.1016/b978-0-323-07960-0.00042-9
-[research_combination_drugs_2014]: https://doi.org/10.1016/b978-0-323-16916-5.00027-4
 [research_comer_2025]: https://doi.org/10.1201/9781003597667-21
 [research_communication_in_2013]: https://doi.org/10.4135/9781506321141
-[research_communication_in_2013_b]: https://doi.org/10.4135/9781506321295
 [research_computer_algorithm_2017]: https://doi.org/10.1007/s40278-017-28695-x
 [research_concept_unique_2020]: https://doi.org/10.32388/qw3pn5
 [research_concordance_of_2014]: https://doi.org/10.1201/b16595-7
@@ -3554,13 +3132,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_concordance_of_2016]: https://doi.org/10.1201/b20727-10
 [research_confusing_drug_1985]: https://doi.org/10.1136/dtb.23.20.77
 [research_confusion_between_1998]: https://doi.org/10.1097/00149078-199807150-00001
-[research_confusion_with_2004]: https://doi.org/10.1201/9780203021262-160
 [research_connelllindaj_reynardwilliamd_1993]: https://ntrs.nasa.gov/citations/19950063602
 [research_constrained_exact_2015]: https://doi.org/10.1017/cbo9780511843204.006
 [research_cooren_2016]: https://doi.org/10.1515/9783110255478-021
 [research_copper_and]: https://doi.org/10.3403/00818537
 [research_cormode_muthukrishnan_2007]: https://doi.org/10.1145/1186810.1186812
-[research_cornaby_montgomery_2022]: https://doi.org/10.3389/fgene.2022.901377
 [research_corpsofengineerswashingtondc_1986]: https://doi.org/10.21236/ada404085
 [research_correction_drug_1980]: https://doi.org/10.1136/bmj.280.6210.336-c
 [research_corrie_corrie_1997]: https://doi.org/10.2514/6.1997-5562
@@ -3570,14 +3146,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_costello_torowicz_2007]: https://doi.org/10.2146/ajhp060296
 [research_crochemore_lecroq]: https://doi.org/10.1007/978-3-540-78291-9_3
 [research_crossman_2009]: https://doi.org/10.33151/ajp.7.3.170
-[research_cucchiarini_binnenpoorte_2002]: https://doi.org/10.21437/icslp.2002-143
 [research_cui_liu_2019]: https://doi.org/10.1109/iccasit48058.2019.8973128
 [research_cunningham_2012]: https://doi.org/10.5863/1551-6776-17.4.365
-[research_current_service_2008]: https://doi.org/10.1002/9780470774120.ch4
 [research_cusano_chambers_2008]: https://doi.org/10.1177/1078155208099284
-[research_cusic_2009]: https://doi.org/10.21236/ada500868
 [research_cutler_2005]: https://doi.org/10.21437/interspeech.2005-275
-[research_dachev_1998]: https://doi.org/10.1080/10486809808568494
 [research_dai_2022]: https://doi.org/10.1051/matecconf/202235503051
 [research_dai_zhao_2009]: https://doi.org/10.1145/1645953.1646142
 [research_daigle_van_1999]: https://doi.org/10.17487/rfc2611
@@ -3586,14 +3158,12 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_danielwu_2023]: https://doi.org/10.1353/pnm.2023.a929844
 [research_danishali_farooqui_2013]: https://doi.org/10.5120/13006-0312
 [research_danishali_farooqui_2013_b]: https://doi.org/10.5120/13320-0451
-[research_danka_2015]: https://doi.org/10.2307/j.ctvc770nr.48
 [research_danvy_rohde_2005]: https://doi.org/10.7146/brics.v12i29.21896
 [research_danvy_rohde_2006]: https://doi.org/10.1016/j.ipl.2006.04.001
 [research_daou_sayegh_2025]: https://doi.org/10.3390/su17229979
 [research_dapolito_jones_1989]: https://doi.org/10.21236/ada213934
 [research_das_gilbert_2025]: https://doi.org/10.1109/focs63196.2025.00041
 [research_dasopang_utami_2022]: https://doi.org/10.35617/jfionline.v14i2.97
-[research_dastous_chnaoui_2002]: https://doi.org/10.1108/ijsms-04-02-2002-b004
 [research_data_universal_2020]: https://doi.org/10.32388/ykdyh9
 [research_davies_katsos_2016]: https://doi.org/10.1515/9783110255478-008
 [research_davis_1999]: https://doi.org/10.1177/001857879903401006
@@ -3635,8 +3205,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_ding_attenberg_2010]: https://doi.org/10.1145/1772690.1772723
 [research_ding_li_2009]: https://doi.org/10.1142/9789814295062_0086
 [research_dinh_2023]: https://doi.org/10.1016/j.procs.2023.12.086
-[research_discussion_on_1950]: https://doi.org/10.1049/pi-3.1950.0021
-[research_discussion_on_1951]: https://doi.org/10.1049/pi-3.1951.0009
 [research_dispensing_errors_drug_2018]: https://doi.org/10.1007/s40278-018-46376-y
 [research_dixit_2014]: https://doi.org/10.3126/jkmc.v2i2.10630
 [research_dobrovoljc_2012]: https://doi.org/10.3986/9789610504412_03
@@ -3646,12 +3214,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_dolle_rovnov_2017]: https://doi.org/10.1017/err.2017.46
 [research_dominguez_garrido_2024]: https://doi.org/10.2139/ssrn.4908006
 [research_dongdeng_guoliangli_2013]: https://doi.org/10.1109/icde.2013.6544886
-[research_donk_1956]: https://doi.org/10.2307/1217317
-[research_donk_1956_b]: https://doi.org/10.2307/1216240
-[research_donk_1957]: https://doi.org/10.2307/1217865
-[research_donk_1957_b]: https://doi.org/10.2307/1217754
-[research_donk_1957_c]: https://doi.org/10.2307/1217166
-[research_donk_1962]: https://doi.org/10.2307/1216021
 [research_dornis_2017]: https://doi.org/10.2139/ssrn.2995688
 [research_dorris_davis_2003]: https://doi.org/10.1177/154193120304701402
 [research_dosreis_2005]: https://doi.org/10.1109/epia.2005.341282
@@ -3659,61 +3221,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_dowling_swaminathan_2019]: https://doi.org/10.1016/j.sapharm.2019.03.095
 [research_drayton]: https://doi.org/10.26686/wgtn.17152022
 [research_drayton_coxhead_2023]: https://doi.org/10.1016/j.esp.2022.10.001
-[research_driscoll_2009]: https://doi.org/10.1111/j.1744-6163.1985.tb00264.x
 [research_droppo_acero_2010]: https://doi.org/10.1109/icassp.2010.5495652
 [research_drug_name_2004]: https://doi.org/10.12968/npre.2004.2.2.12556
 [research_drug_names_1964]: https://doi.org/10.1001/jama.1964.03070190062016
 [research_drug_names_1979]: https://doi.org/10.1136/bmj.2.6197.1073-a
 [research_drug_names_2018]: https://doi.org/10.1002/cpu.30342
-[research_drug_profiles_2014]: https://doi.org/10.1201/b16595-2
-[research_drug_profiles_2016]: https://doi.org/10.1201/b20727-4
-[research_drug_trade_2014]: https://doi.org/10.1016/b978-1-4557-0892-5.00060-x
-[research_drugs_by_2016]: https://doi.org/10.21019/9781582122939.ch1
-[research_drugs_by_2018]: https://doi.org/10.21019/9781582123042.ch1
-[research_drugs_by_2020]: https://doi.org/10.21019/9781582123394.ch1
-[research_drugs_by_2020_b]: https://doi.org/10.21019/9781582123394.ch2
-[research_drugs_by_2023]: https://doi.org/10.21019/9781582123820.ch1l
-[research_drugs_by_2023_b]: https://doi.org/10.21019/9781582123820.ch1a
-[research_drugs_by_2023_c]: https://doi.org/10.21019/9781582123820.ch1s
-[research_drugs_by_2023_d]: https://doi.org/10.21019/9781582123820.ch1e
-[research_drugs_by_2023_e]: https://doi.org/10.21019/9781582123820.ch1f
-[research_drugs_by_2023_f]: https://doi.org/10.21019/9781582123820.ch1c
-[research_drugs_by_2023_g]: https://doi.org/10.21019/9781582123820.ch1w
-[research_drugs_by_2023_h]: https://doi.org/10.21019/9781582123820.ch1m
-[research_drugs_by_2023_i]: https://doi.org/10.21019/9781582123820.ch1r
-[research_drugs_by_2023_j]: https://doi.org/10.21019/9781582123820.ch1k
-[research_drugs_by_2023_k]: https://doi.org/10.21019/9781582123820.ch1t
-[research_drugs_by_2023_l]: https://doi.org/10.21019/9781582123820.ch1q
-[research_drugs_by_2023_m]: https://doi.org/10.21019/9781582123820.ch1i
-[research_drugs_by_2023_n]: https://doi.org/10.21019/9781582123820.ch1g
-[research_drugs_by_2023_o]: https://doi.org/10.21019/9781582123820.ch1u
-[research_drugs_by_2023_p]: https://doi.org/10.21019/9781582123820.ch1o
-[research_drugs_by_2023_q]: https://doi.org/10.21019/9781582123820.ch1h
-[research_drugs_by_2023_r]: https://doi.org/10.21019/9781582123820.ch1z
-[research_drugs_by_2023_s]: https://doi.org/10.21019/9781582123820.ch1p
-[research_drugs_by_2023_t]: https://doi.org/10.21019/9781582123820.ch1b
-[research_drugs_by_2023_u]: https://doi.org/10.21019/9781582123820.ch1d
-[research_drugs_by_2023_v]: https://doi.org/10.21019/9781582123820.ch1n
-[research_drugs_by_2023_w]: https://doi.org/10.21019/9781582123820.ch1v
 [research_duan_long_2020]: https://doi.org/10.1016/j.procs.2020.02.017
 [research_dukes_1900]: https://doi.org/10.1016/s0140-6736(01)80089-1
-[research_dukhanin_2016]: https://doi.org/10.17116/rosrino201624150-56
 [research_dunabeitia_perea_2007]: https://doi.org/10.1016/j.cognition.2006.12.001
 [research_duncan_konz_1974]: https://doi.org/10.1177/154193127401800124
-[research_dunn_dunn_1940]: https://doi.org/10.2307/1439044
 [research_dunnrankin_leton_1968]: https://doi.org/10.2466/pms.1968.26.2.659
 [research_dupont_menardlepine_1976]: https://doi.org/10.7202/002677ar
 [research_dyab_elkalmi_2018]: https://doi.org/10.3390/pharmacy6040120
 [research_dzido_krzywdzinski_2015]: https://doi.org/10.1007/s10587-015-0211-4
-[research_e_an_2011]: https://doi.org/10.70249/9798893980257-025
 [research_earth_moving_machinery]: https://doi.org/10.3403/00556567u
-[research_eaton_baldwinson]: https://doi.org/10.1109/mrc.1996.658182
-[research_eaton_baldwinson_1997]: https://doi.org/10.1109/20.560141
-[research_eccles_1914]: https://doi.org/10.1038/scientificamerican06131914-378supp
-[research_eccles_1914_b]: https://doi.org/10.1038/scientificamerican05301914-346bsupp
-[research_eccles_1914_c]: https://doi.org/10.1038/scientificamerican06061914-354supp
 [research_edgar_lee_1994]: https://doi.org/10.1093/ajhp/51.10.1335
-[research_edwards_bronstein_2002]: https://doi.org/10.1377/hlthaff.21.3.240
 [research_effects_of_2005]: https://doi.org/10.4324/9780203990292-12
 [research_eggemeier_granitz_1990]: https://doi.org/10.1177/154193129003401812
 [research_eier_kampichler_2026]: https://doi.org/10.1109/icns69853.2026.11570626
@@ -3721,7 +3243,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_eko_1998]: https://doi.org/10.1080/10811689809368665
 [research_ellithy_salah_2023]: https://doi.org/10.1016/j.jsps.2023.101726
 [research_elmabrouk_crochemore_1996]: https://doi.org/10.1007/3-540-61258-0_2
-[research_elmasri]: https://doi.org/10.14264/fb753c1
 [research_elmzughi_abuhasina_2025]: https://doi.org/10.36349/easjpp.2025.v07i03.004
 [research_elnour_ellahham_2007]: https://doi.org/10.1097/pts.0b01e31815a6110
 [research_elsmore_1986]: https://doi.org/10.1007/978-94-009-4676-7_92
@@ -3730,11 +3251,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_emmerton_curtain_2020]: https://doi.org/10.1016/j.ijmedinf.2020.104119
 [research_emmerton_rizk_2011]: https://doi.org/10.1007/s11096-011-9595-x
 [research_empirical_studies_2019]: https://doi.org/10.4337/9781789903997.00073
-[research_english_cotton_2021]: https://doi.org/10.5040/9781501365072.5555
 [research_enriquez_2014]: https://doi.org/10.2514/atcq.22.2.137
 [research_enserink_2020]: https://doi.org/10.1126/science.abb2806
 [research_erdmann_neal_1968]: https://doi.org/10.1177/001872086801000502
-[research_error_in_2024]: https://doi.org/10.1001/jamanetworkopen.2024.56401
 [research_error_resistant_protocol]: https://ntrs.nasa.gov/citations/19940032505
 [research_espenschied_1937]: https://doi.org/10.1109/jrproc.1937.228485
 [research_esposito]: https://doi.org/10.1007/978-3-540-76442-7_1
@@ -3742,12 +3261,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_established_drug_2020]: https://doi.org/10.32388/k4oxa7
 [research_exact_string_1997]: https://doi.org/10.1017/cbo9780511574931.002
 [research_exact_string_2015]: https://doi.org/10.1017/cbo9780511843204.005
-[research_executive_functions_2007]: https://doi.org/10.4324/9780203968512-13
 [research_fadlil_sunardi_2022]: https://doi.org/10.29407/intensif.v6i2.18141
 [research_faleye_adegoju_2013]: https://doi.org/10.13092/lo.53.287
 [research_falzon_2009]: https://doi.org/10.4000/discours.7241
-[research_fang_ma_2021]: https://doi.org/10.1109/imcec51613.2021.9482146
-[research_farrell_strang_1990]: https://doi.org/10.1080/09595239000185521
 [research_faure_2018]: https://doi.org/10.1080/00277738.2017.1415532
 [research_fauzan_siahaan_2021]: https://doi.org/10.7494/csci.2021.22.2.3868
 [research_favata]: https://doi.org/10.1109/icdar.1997.619820
@@ -3757,8 +3273,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_fda_unique_2020]: https://doi.org/10.32388/l2jqx2
 [research_fda_warns_2013]: https://doi.org/10.1007/s40278-013-2879-2
 [research_fell_laughery_1969]: https://doi.org/10.1177/001872086901100412
-[research_feng_1990]: https://doi.org/10.1109/intmag.1990.734772
-[research_feng_1992]: https://doi.org/10.1109/20.123856
 [research_fenna_1984]: https://doi.org/10.1016/0010-468x(84)90035-7
 [research_fenner_2010]: https://doi.org/10.53731/r294649-6f79289-8cw8c
 [research_fenner_2010_b]: https://doi.org/10.53731/r294649-6f79289-8cw3k
@@ -3786,20 +3300,15 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_fiori_pakalen_2021]: https://doi.org/10.1093/comjnl/bxaa193
 [research_fischer_1982]: https://doi.org/10.1007/978-3-642-93201-4_150
 [research_flecainide_overdose_2021]: https://doi.org/10.1007/s40278-021-95074-3
-[research_fletcher_rooney_2024]: https://doi.org/10.25144/22367
-[research_flipping_the_2016]: https://doi.org/10.64628/aa.tvsqaa9cu
 [research_foggia_gauzere_2015]: https://doi.org/10.1109/avss.2015.7301761
 [research_fohr_illina_2015]: https://doi.org/10.21437/interspeech.2015-695
 [research_folli_poole_1987]: https://doi.org/10.1542/peds.79.5.718
 [research_format_text]: https://doi.org/10.4271/arp761
 [research_format_text_b]: https://doi.org/10.4271/arp1051c
 [research_fox_2010]: https://doi.org/10.1007/s11623-010-0079-2
-[research_fox_2020]: https://doi.org/10.1201/9781003050971-4
 [research_fox_chaparro_2008]: https://doi.org/10.1177/154193120805200608
 [research_foxman_berger_1992]: https://doi.org/10.1002/mar.4220090204
 [research_foxman_muehling_1990]: https://doi.org/10.1111/j.1745-6606.1990.tb00264.x
-[research_frakes_wasserman_2013]: https://doi.org/10.2139/ssrn.2295561
-[research_frakes_wasserman_2014]: https://doi.org/10.1111/jels.12051
 [research_frances_navarrabarindelli_2020]: https://doi.org/10.21203/rs.3.rs-119578/v1
 [research_frances_navarrabarindelli_2021]: https://doi.org/10.1038/s41598-021-92259-z
 [research_frances_navarrabarindelli_2022]: https://doi.org/10.3389/fpsyg.2022.892822
@@ -3811,15 +3320,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_fredriksson_navarro_2003]: https://doi.org/10.1007/3-540-44888-8_9
 [research_fredriksson_navarro_2004]: https://doi.org/10.1007/978-3-540-27801-6_35
 [research_fredriksson_navarro_2004_b]: https://doi.org/10.1145/1005813.1041513
-[research_frey_1978]: https://doi.org/10.2172/1151069
-[research_friedman_1985]: https://doi.org/10.1086/209027
 [research_friedman_2005]: https://doi.org/10.1097/00004045-200504000-00011
 [research_fritch_2006]: https://doi.org/10.5195/tlp.2006.24
-[research_fu_bogy_1996]: https://doi.org/10.1115/1.2831311
 [research_fujishin_2019]: https://doi.org/10.4324/9780429196935-3
 [research_fujishin_2024]: https://doi.org/10.4324/9781003327172-3
 [research_fukagawa_akutsu_2009]: https://doi.org/10.1007/978-3-642-03784-9_2
-[research_furletti_2006]: https://doi.org/10.2139/ssrn.926396
 [research_furukawa_bunko_2003]: https://doi.org/10.1345/aph.1c330
 [research_gadd_1988]: https://doi.org/10.1108/eb046999
 [research_gahrns_newman_1998]: https://doi.org/10.17487/rfc2342
@@ -3828,27 +3333,17 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_gali_mariescuistodor_2019]: https://doi.org/10.1016/j.eswa.2019.03.048
 [research_galil_giancarlo_1988]: https://doi.org/10.1016/0885-064x(88)90008-8
 [research_galil_park_1990]: https://doi.org/10.1137/0219067
-[research_gamble_hughes]: https://doi.org/10.1109/intmag.2003.1230716
-[research_gan_sun_2026]: https://doi.org/10.1109/mai69289.2026.11543749
-[research_ganske_1999]: https://doi.org/10.1207/s15326977ea0601_4
 [research_gao_wang_2018]: https://doi.org/10.2991/icesem-18.2018.135
 [research_garrettgsadler_meghanchandarana]: https://ntrs.nasa.gov/citations/20230006595
 [research_garvey_zineddin_2001]: https://doi.org/10.1177/154193120104501828
-[research_garvin_trager_1964]: https://doi.org/10.1159/000258320
-[research_gaurav_mandal_2025]: https://doi.org/10.1108/ejm-04-2024-0257
 [research_gawrychowski_2012]: https://doi.org/10.1007/978-3-642-34109-0_24
 [research_gbone_2021]: https://doi.org/10.4337/9781785366215.00018
 [research_generalized_string_2015]: https://doi.org/10.1017/cbo9780511843204.007
-[research_generic_and_2012]: https://doi.org/10.1016/b978-0-323-07960-0.00026-0
-[research_generic_and_2014]: https://doi.org/10.1016/b978-0-323-16916-5.00045-6
 [research_geographic_information]: https://doi.org/10.3403/30284322u
 [research_george_2023]: https://doi.org/10.3350/cmh.2023.0367
 [research_george_hss_2018]: https://doi.org/10.7759/cureus.2746
-[research_george_jursich_1985]: https://doi.org/10.1109/tmag.1985.1064010
 [research_germishuizen_1997]: https://doi.org/10.4102/abc.v27i2.677
-[research_geva_willows_1994]: https://doi.org/10.1007/978-94-017-3492-9_11
 [research_gewurz_vietri_2007]: https://doi.org/10.4000/msh.6803
-[research_giannakopoulou_uther_2013]: https://doi.org/10.1121/2.0000206
 [research_giannino_2022]: https://doi.org/10.2139/ssrn.4005339
 [research_giegerich_kurtz_1997]: https://doi.org/10.1515/9780773591400-006
 [research_giolas_cooker_1971]: https://doi.org/10.21236/ad0734121
@@ -3861,9 +3356,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_goncalves_2007]: https://doi.org/10.1145/3250795
 [research_gong_wang_2009]: https://doi.org/10.1145/1555400.1555476
 [research_gonzales_moneda_2018]: https://doi.org/10.1007/978-3-319-93888-2_15
-[research_gopalaswamy_kumar]: https://doi.org/10.1109/glocom.1994.513021
-[research_gopalaswamy_kumar_1994]: https://doi.org/10.1364/ods.1994.tud13
-[research_gopalaswamy_vijayakumar_1994]: https://doi.org/10.1117/12.190187
 [research_goth_2009]: https://doi.org/10.1109/mic.2009.92
 [research_gouda_arafa_2016]: https://doi.org/10.1007/978-3-319-46759-7_1
 [research_grant_2017]: https://doi.org/10.64628/aa.jj7gh756t
@@ -3874,26 +3366,20 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_greene_2006]: https://doi.org/10.1111/j.1744-1714.2006.00011.x
 [research_greene_huchingson_1995]: https://doi.org/10.1177/154193129503901717
 [research_greene_koppa_1994]: https://doi.org/10.1177/154193129403801424
-[research_griebling_2015]: https://doi.org/10.1016/j.juro.2015.08.031
-[research_griffround_roper_2012]: https://doi.org/10.1108/03090561211230115
 [research_grigoreva_1983]: https://doi.org/10.1007/bf01084391
 [research_grindrod_chambers_2002]: https://doi.org/10.1191/1078155202jp098oa
 [research_grissinger_gaunt_2019]: https://doi.org/10.33940/medical/2019.9.3
 [research_group_numbering_2005]: https://doi.org/10.1002/0470862106.id367
 [research_gschneiderjr_1976]: https://doi.org/10.2172/7251906
-[research_gsm_and_2021]: https://doi.org/10.37896/jxu15.4/043
 [research_guangmingchang_yuan_2011]: https://doi.org/10.1109/acpr.2011.6166597
 [research_guclu_2017]: https://doi.org/10.1007/978-3-319-67134-5_20
 [research_gudschinsky_popovich_1970]: https://doi.org/10.2307/412408
-[research_guillot_2016]: https://doi.org/10.1007/s13164-016-0313-4
-[research_gumbhir_rodowskas_1974]: https://doi.org/10.2105/ajph.64.10.977
 [research_gunderson_gruetzmacher_1991]: https://doi.org/10.1518/107118191786754941
 [research_gunther_1979]: https://doi.org/10.21236/ada079289
 [research_guo_2022]: https://doi.org/10.2139/ssrn.4258463
 [research_guo_2023]: https://doi.org/10.2139/ssrn.4436954
 [research_guo_guo_2025]: https://doi.org/10.3389/fphar.2025.1590794
 [research_guo_jiang_2019]: https://doi.org/10.1109/peci.2019.8698905
-[research_gurney_childress]: https://doi.org/10.1109/drc.2003.1226894
 [research_gurtov_polishchuk_2018]: https://doi.org/10.3390/s18051636
 [research_guvenkaya_2026]: https://doi.org/10.2139/ssrn.6333658
 [research_gvasalia_pelucchi_2025]: https://doi.org/10.1007/978-3-032-05607-8_19
@@ -3912,30 +3398,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_hancox_polatidis_2013]: https://doi.org/10.2298/csis121202065h
 [research_handler_nace_2004]: https://doi.org/10.1016/j.amjopharm.2004.09.003
 [research_hanmei_yu_2019]: https://doi.org/10.1201/9780429070655-48
-[research_hanover_1998]: https://doi.org/10.1109/icce.1998.678351
 [research_harris_olson_2013]: https://doi.org/10.1080/09602011.2013.776500
 [research_harrison]: https://doi.org/10.37099/mtu.dc.etds/666
 [research_hartmann_foslerlussier_2009]: https://doi.org/10.21437/interspeech.2009-503
 [research_hartnell_mackinnon_2012]: https://doi.org/10.1136/bmjqs-2011-000299
 [research_hartwig_denger_1991]: https://doi.org/10.1093/ajhp/48.12.2611
 [research_hashem_2025]: https://doi.org/10.1016/j.dr.2025.101232
-[research_hashimoto_miura_2005]: https://doi.org/10.1109/tmag.2005.855320
-[research_hashimoto_suzuki_2005]: https://doi.org/10.1109/intmag.2005.1464113
 [research_hauk_2018]: https://doi.org/10.1002/aorn.12104
-[research_hausdoerffer_1957]: https://doi.org/10.5951/at.4.2.0061
 [research_hayati_piramoon_2023]: https://doi.org/10.4103/ijpvm.ijpvm_290_22
 [research_hazman_mckeever_2025]: https://doi.org/10.1109/ipta66025.2025.11222070
-[research_he_wang_2011]: https://doi.org/10.1109/csae.2011.5952842
 [research_health_informatics]: https://doi.org/10.3403/30084399
-[research_hefny_hassan_2023]: https://doi.org/10.21608/shedet.2023.285992
 [research_heggarty_mcmahon_2005]: https://doi.org/10.1515/9783110909579.43
-[research_heitner_2024]: https://doi.org/10.1007/978-3-031-39307-5_2
 [research_hema_2024]: https://doi.org/10.1109/smart63812.2024.10882561
 [research_hemingway_erickson_1969]: https://doi.org/10.1177/001872086901100404
-[research_henggong_kelley]: https://doi.org/10.1109/intmag.2002.1000847
 [research_hengji_grishman_2008]: https://doi.org/10.1109/slt.2008.4777895
 [research_her_toh_2019]: https://doi.org/10.1177/1060028019838239
-[research_herbert_1966]: https://doi.org/10.1109/tmag.1966.1065823
 [research_hernandez_2013]: https://doi.org/10.1179/0027773812z.00000000038
 [research_hershenson_ryder_1982]: https://doi.org/10.3758/bf03330028
 [research_hershey_olsen_2007]: https://doi.org/10.1109/ita.2007.4357616
@@ -3943,18 +3420,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_herzog_scheuren_b]: https://doi.org/10.1007/0-387-69505-2_13
 [research_heumann_wittum_2009]: https://doi.org/10.1186/1471-2202-10-s1-p89
 [research_hicks_becker_2006]: https://doi.org/10.1097/00129804-200601000-00005
-[research_hidayatullah_kurniaasri_2022]: https://doi.org/10.35316/joey.2022.v1i2.56-66
 [research_hilton_1980]: https://doi.org/10.1136/bmj.280.6209.257-e
-[research_hiranaga_cho_2021]: https://doi.org/10.1109/tuffc.2020.3006909
 [research_hisa_1996]: https://doi.org/10.1111/j.1365-4362.1996.tb03013.x
 [research_ho_maritan_2016]: https://doi.org/10.1177/1541931213601470
 [research_ho_oh_2017]: https://doi.org/10.1007/s11227-017-2192-6
 [research_ho_oh_2018]: https://doi.org/10.1007/s11227-018-2324-7
 [research_hoang]: https://doi.org/10.32469/10355/6683
-[research_hoeken_kolthoff_2016]: https://doi.org/10.1111/hcre.12076
 [research_hoenigswald_1960]: https://doi.org/10.2307/410982
 [research_hoffman_proulx_2003]: https://doi.org/10.2165/00002018-200326070-00001
-[research_holbrook_1992]: https://doi.org/10.1007/bf00994082
 [research_holmstrom_airaksinen_2012]: https://doi.org/10.1097/pts.0b013e3182676cf3
 [research_holmstrom_laaksonen_2015]: https://doi.org/10.1016/j.healthpol.2015.03.002
 [research_holub_melichar_2000]: https://doi.org/10.1016/s0304-3975(00)00064-5
@@ -3968,18 +3441,13 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_howard_kerin_2000]: https://doi.org/10.1509/jppm.19.2.250.17131
 [research_howardii_2020]: https://doi.org/10.18637/jss.v095.i08
 [research_hrbek_holub_2016]: https://doi.org/10.1109/dcc.2016.25
-[research_hrebeniuk_2010]: https://doi.org/10.33577/2312-4458.3.2010.41-44
 [research_hristinaviktorovalebanova_2012]: https://doi.org/10.5897/ajpp12.496
 [research_hritz_everly_2002]: https://doi.org/10.1111/j.1945-1474.2002.tb00413.x
 [research_hsiao_cheung_2015]: https://doi.org/10.1111/cogs.12233
-[research_hsiao_shillcock_2006]: https://doi.org/10.1007/s10936-006-9022-y
 [research_htunhtethtet_sornlertlamvanichvirach_2018]: https://doi.org/10.3233/978-1-61499-834-1-373
-[research_huang_luo_2020]: https://doi.org/10.1093/bib/bbaa265
-[research_huang_schrank_2004]: https://doi.org/10.1002/cb.156
 [research_huang_wang_2015]: https://doi.org/10.4028/www.scientific.net/amm.744-746.1980
 [research_huerta_2010]: https://doi.org/10.1145/1835449.1835634
 [research_hull_1976]: https://doi.org/10.1016/0003-6870(76)90152-6
-[research_hulland_1999]: https://doi.org/10.1300/j046v11n01_03
 [research_human_error_2003]: https://doi.org/10.1142/9789812795236_0006
 [research_human_error_2009]: https://doi.org/10.1201/9781420072181-c5
 [research_human_error_2017]: https://doi.org/10.1201/9781315587394-6
@@ -3994,7 +3462,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_hussey_1974]: https://doi.org/10.1001/jama.1974.03230350045030
 [research_hutchinson_sales_2015]: https://doi.org/10.1186/s13012-015-0260-y
 [research_huynh_hon_2004]: https://doi.org/10.1007/978-3-540-27801-6_33
-[research_hwang_negi_2010]: https://doi.org/10.1109/icc.2010.5502512
 [research_hydratight_unifies_2010]: https://doi.org/10.1016/s1350-4789(10)70128-8
 [research_hyyro_2003]: https://doi.org/10.1007/978-3-540-39984-1_8
 [research_hyyro_2004]: https://doi.org/10.1007/978-3-540-30213-1_28
@@ -4008,14 +3475,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_ifada_rachman_2023]: https://doi.org/10.1109/iceei59426.2023.10346716
 [research_implementing_a_2016]: https://doi.org/10.1596/k8618
 [research_improved_air_traffic_2005]: https://doi.org/10.1108/aeat.2005.12777fab.009
-[research_incorrect_drug_2015]: https://doi.org/10.1001/jamaoncol.2015.1156
-[research_incorrect_nonproprietary_2015]: https://doi.org/10.1001/jama.2015.15929
 [research_indefinite_call]: https://doi.org/10.1007/springerreference_16199
-[research_index_by_2015]: https://doi.org/10.1017/9781316161753.154
-[research_index_by_2020]: https://doi.org/10.1017/9781108921275.0154
-[research_index_by_2023]: https://doi.org/10.1017/9781108986335.104
-[research_index_by_2024]: https://doi.org/10.1017/9781009464772.160
-[research_index_trade_names_2017]: https://doi.org/10.1016/b978-0-12-805157-3.00025-9
 [research_indexed_approximate]: https://doi.org/10.1007/springerreference_57707
 [research_india_s_unique_2012]: https://doi.org/10.1002/9781119198734.app02
 [research_inecik_erken_2026]: https://doi.org/10.64898/2026.02.05.703984
@@ -4027,7 +3487,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_introduction_to_2026]: https://doi.org/10.4018/979-8-3373-5478-1.ch001
 [research_ishihara_lee_2021]: https://doi.org/10.1016/j.pragma.2021.04.030
 [research_ishikawa_2012]: https://doi.org/10.17487/rfc6588
-[research_ishikawa_kishida]: https://doi.org/10.1109/intmag.2000.872460
 [research_ismp_adds_2023]: https://doi.org/10.1007/s40278-023-44849-3
 [research_ismp_survey_2010]: https://doi.org/10.1097/01.cot.0000368451.36163.59
 [research_ivory_beale_2025]: https://doi.org/10.62116/nec.2025.43.1.33
@@ -4037,12 +3496,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_jaejeong_2017]: https://doi.org/10.15406/bbij.2017.05.00146
 [research_jang_jang_2024]: https://doi.org/10.1080/08911762.2023.2299011
 [research_jani_cucchiarini_2015]: https://doi.org/10.21437/interspeech.2015-394
-[research_janiszewski_1990]: https://doi.org/10.1086/208536
 [research_jansky_1953]: https://doi.org/10.1002/j.2161-4296.1953.tb00612.x
 [research_jasmine_ch_2023]: https://doi.org/10.1109/iciics59993.2023.10421226
-[research_jebali_2025]: https://doi.org/10.26668/businessreview/2025.v10i12.5812
 [research_jember_hailu_2018]: https://doi.org/10.1186/s12912-018-0280-4
-[research_jensen_1992]: https://doi.org/10.1016/b978-0-444-89587-5.50109-2
 [research_jeong_choi_2014]: https://doi.org/10.14257/astl.2014.63.29
 [research_jethanandani_2016]: https://doi.org/10.17487/rfc7818
 [research_jethanandani_reinaortega_2019]: https://doi.org/10.17487/rfc8515
@@ -4052,17 +3508,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_jia_he_2025]: https://doi.org/10.1109/lsp.2025.3545955
 [research_jia_li_2022]: https://doi.org/10.1016/j.cja.2022.05.005
 [research_jia_lu_2017]: https://doi.org/10.1049/el.2016.2877
-[research_jiang_2023]: https://doi.org/10.14772/cscck.2023.37.123
 [research_jiang_2024]: https://doi.org/10.4236/blr.2024.151016
 [research_jiang_deng_2013]: https://doi.org/10.1145/2457317.2457382
 [research_jiang_li_2014]: https://doi.org/10.14778/2732296.2732299
-[research_jiangangzhu_bai]: https://doi.org/10.1109/napmrc.2003.1177067
-[research_jiangangzhu_bai_2003]: https://doi.org/10.1109/tmag.2003.813754
-[research_jiangangzhu_bai_b]: https://doi.org/10.1109/intmag.2003.1230713
 [research_jiejiang_boxu_2009]: https://doi.org/10.1109/icassp.2009.4960713
 [research_jimenez_2016]: https://doi.org/10.18653/v1/s16-1116
-[research_jin_muraoka_2015]: https://doi.org/10.1063/1.4913635
-[research_jinghuanchen_jaekyunmoon_2002]: https://doi.org/10.1109/dac.2002.1012648
 [research_jinhwanpark]: https://doi.org/10.1109/dsd.2005.66
 [research_jintcharadze_2024]: https://doi.org/10.19044/esj.2024.v20n14p1
 [research_johnson_1994]: https://doi.org/10.1111/j.1467-971x.1994.tb00285.x
@@ -4073,26 +3523,18 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_jongprasithporn_sunkarat_2018]: https://doi.org/10.1051/matecconf/201819201051
 [research_jordaan_marshall_2015]: https://doi.org/10.1145/2815782.2815792
 [research_joshi_joshi_2007]: https://doi.org/10.3233/jrs-2007-416
-[research_joubert_poalses_2012]: https://doi.org/10.1111/j.1470-6431.2011.01065.x
 [research_judson_2005]: https://doi.org/10.1016/b0-12-369398-5/00190-0
 [research_jumde_keskar_2020]: https://doi.org/10.1109/access.2020.3021945
-[research_junsangyeo_2009]: https://doi.org/10.21074/kjlcap.2009.10.1.1
-[research_junzhu_thayamballi]: https://doi.org/10.1109/mrc.1995.658250
-[research_junzhu_thayamballi_1996]: https://doi.org/10.1109/20.477555
 [research_jupin_shi_2012]: https://doi.org/10.1109/sc.companion.2012.149
 [research_jupin_shi_2016]: https://doi.org/10.1109/bigdata.2016.7840596
 [research_k_2025]: https://doi.org/10.61463/ijset.vol.13.issue2.203
-[research_kaack_pelzl_1995]: https://doi.org/10.1109/20.490302
 [research_kaeding_1992]: https://doi.org/10.2307/1599865
 [research_kaiser_1964]: https://doi.org/10.1524/stuf.1964.17.16.243
 [research_kaleem_oshea_2014]: https://doi.org/10.1109/ukci.2014.6930180
 [research_kalra_sohal_2025]: https://doi.org/10.1109/aistemedu67077.2025.11403900
 [research_kamali_2026]: https://doi.org/10.14746/linpo.2025.67.1.8
-[research_kane_2025]: https://doi.org/10.62055/77840852wn
 [research_kang_cohen_2016]: https://doi.org/10.21437/interspeech.2016-906
-[research_kannou_rached_2024]: https://doi.org/10.26668/businessreview/2023.v9i1.4157
 [research_kant_shrivastava_2020]: https://doi.org/10.2139/ssrn.3579322
-[research_kao_2008]: https://doi.org/10.1109/icacte.2008.25
 [research_karakoyun_abaci_2024]: https://doi.org/10.33706/jemcr.1495028
 [research_karanasou]: https://doi.org/10.70675/3ed73126z29a0z4b4ez9ca3z0869b290e0f5
 [research_karas_2016]: https://doi.org/10.1016/j.aorn.2016.01.002
@@ -4102,9 +3544,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_karkkainen_navarro_2000]: https://doi.org/10.1007/3-540-45123-4_18
 [research_karpenstein_1953]: https://doi.org/10.2307/1497097
 [research_karpov_zhang_2023]: https://doi.org/10.1007/s00778-023-00806-z
-[research_kashani_sayadiyan_2017]: https://doi.org/10.1016/j.specom.2017.04.008
 [research_kashyap_oommen_1981]: https://doi.org/10.1016/0020-0255(81)90056-6
-[research_kassmi_oms_1993]: https://doi.org/10.1109/euma.1993.336712
 [research_katsumata_miura_2009]: https://doi.org/10.1109/pacrim.2009.5291387
 [research_katsumata_miura_2010]: https://doi.org/10.1109/paap.2010.11
 [research_katz_kambe_2006]: https://doi.org/10.21236/ada451484
@@ -4117,7 +3557,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_kelso_1965]: https://doi.org/10.1177/001872086500700606
 [research_kennedy_littenberg_2004]: https://doi.org/10.1331/1544345041475724
 [research_kerpatenko_shcherbyna_2024]: https://doi.org/10.32782/tps2663-4880/2024.33.1.15
-[research_keshava_2017]: https://doi.org/10.1109/bhi.2017.7897213
 [research_keshtkar_masoudiasl_2023]: https://doi.org/10.18502/jebhpme.v7i2.13138
 [research_kessler_2005]: https://doi.org/10.1111/j.1467-968x.2005.00153.x
 [research_khalid_yousaf_2022]: https://doi.org/10.3390/info13100452
@@ -4126,7 +3565,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_khan_hosen_2022]: https://doi.org/10.20944/preprints202210.0064.v1
 [research_kianfar_pockrandt_2018]: https://doi.org/10.1101/301085
 [research_kiawkaew_kaothanthong_2023]: https://doi.org/10.1109/isai-nlp60301.2023.10354663
-[research_kim_2003]: https://doi.org/10.1063/1.1639701
 [research_kim_2012]: https://doi.org/10.4040/jkan.2012.42.4.568
 [research_kim_2013]: https://doi.org/10.7475/kjan.2013.25.6.633
 [research_kim_2013_b]: https://doi.org/10.58379/ywll7105
@@ -4141,29 +3579,20 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_kim_mcpherson_2012]: https://doi.org/10.1016/j.jpainsymman.2011.12.228
 [research_kim_seong_2015]: https://doi.org/10.1007/978-3-319-19291-8_12
 [research_kim_shawetaylor_1992]: https://doi.org/10.1016/0304-3975(92)90138-6
-[research_kim_shin_2025]: https://doi.org/10.1101/2025.06.30.662469
 [research_kimura_marunaka_2020]: https://doi.org/10.1201/9781003064107-8
 [research_kinney_marsetta_1966]: https://doi.org/10.21236/ad0646660
 [research_kinoshita_yu_2021]: https://doi.org/10.3758/s13421-020-01125-2
-[research_kinter_1918]: https://doi.org/10.1111/j.1559-3584.1918.tb04835.x
 [research_kirubakaran_aramudhan_2018]: https://doi.org/10.1504/ijdats.2018.094128
 [research_kitt_pearce_1952]: https://doi.org/10.2307/1496233
 [research_kiwi_navarro]: https://doi.org/10.1007/978-3-540-69068-9_14
 [research_kiwi_navarro_2011]: https://doi.org/10.1016/j.tcs.2011.08.005
-[research_klaassen_vanpeppen]: https://doi.org/10.1109/intmag.1997.597426
-[research_klaassen_vanpeppen_1994]: https://doi.org/10.1109/19.293407
-[research_klaassen_vanpeppen_2001]: https://doi.org/10.1109/20.914381
-[research_klaassen_vanpeppen_b]: https://doi.org/10.1109/imtc.1993.382658
 [research_klassen_2022]: https://doi.org/10.7820/vli.v11.2.klassen
 [research_klensin_hakala_2017]: https://doi.org/10.17487/rfc8254
 [research_klensin_wolf_1998]: https://doi.org/10.17487/rfc2345
-[research_klink_wu_2017]: https://doi.org/10.1007/s11002-017-9424-7
-[research_kljajevic_erramuzpe_2019]: https://doi.org/10.2174/1874609812666190614110214
 [research_knox_2019]: https://doi.org/10.2139/ssrn.3528533
 [research_kobayashi_niimi]: https://doi.org/10.1109/icassp.1985.1168199
 [research_kocour_vesely_2021]: https://doi.org/10.21437/interspeech.2021-1619
 [research_koehler_lloyd_1994]: https://doi.org/10.1080/07434619412331276790
-[research_kohli_buller_2013]: https://doi.org/10.1097/smj.0b013e3182804c58
 [research_komatsu_okuta_2014]: https://doi.org/10.1007/978-3-319-04298-5_32
 [research_kondrak_2003]: https://doi.org/10.1023/a:1025071200644
 [research_kondrak_2005]: https://doi.org/10.1007/11575832_13
@@ -4171,11 +3600,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_kondrak_dorr_2006]: https://doi.org/10.1016/j.artmed.2005.07.005
 [research_kondrak_sherif_2006]: https://doi.org/10.3115/1641976.1641983
 [research_koneru_pulla_2016]: https://doi.org/10.5220/0005926300570064
-[research_kong_2008]: https://doi.org/10.1002/hec.1392
-[research_konshina_2026]: https://doi.org/10.20913/script-2025-1-06
 [research_kontorovich_trachtenberg_2012]: https://doi.org/10.1109/isit.2012.6284024
 [research_koo_2012]: https://doi.org/10.5124/jkma.2012.55.9.835
-[research_korenari_matsutera_1993]: https://doi.org/10.3379/jmsjmag.17.s2_109
 [research_korotkov_2010]: https://doi.org/10.15514/syrcose-2010-4-27
 [research_koshevoy_shishkin_2013]: https://doi.org/10.1201/b14962-49
 [research_kovacic_chambers_2010]: https://doi.org/10.1177/1078155209354135
@@ -4185,7 +3611,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_krauthgamer_2013]: https://doi.org/10.1007/978-3-319-02432-5_3
 [research_kristanto_indriyanto_2024]: https://doi.org/10.25104/warlit.v35i2.2308
 [research_kronrod_lowrey_2016]: https://doi.org/10.1016/j.jbusres.2015.09.015
-[research_kruger_vargas_2006]: https://doi.org/10.2139/ssrn.946238
 [research_kuboi_baba_2014]: https://doi.org/10.1109/miceei.2014.7067327
 [research_kucherov_salikhov_2014]: https://doi.org/10.1007/978-3-319-07566-2_23
 [research_kucherov_salikhov_2016]: https://doi.org/10.1016/j.tcs.2015.10.043
@@ -4197,7 +3622,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_kunchukuttan_bhattacharyya_2021]: https://doi.org/10.1201/9781003096771-9
 [research_kunchukuttan_khapra_2018]: https://doi.org/10.1162/tacl_a_00022
 [research_kundig_2011]: https://doi.org/10.53738/revmed.2011.7.312.1955
-[research_kwon_shin_2024]: https://doi.org/10.1016/j.fsigen.2024.103096
 [research_kysela_2018]: https://doi.org/10.1007/978-3-319-94544-6_12
 [research_laarni_1999]: https://doi.org/10.1016/s0001-6918(99)00045-1
 [research_ladefoged_1969]: https://doi.org/10.3115/990403.990460
@@ -4214,7 +3638,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_lambert_schroeder_2015]: https://doi.org/10.1136/bmjqs-2015-004929
 [research_lamonica_2014]: https://doi.org/10.1121/1.4878047
 [research_landau_vishkin_1989]: https://doi.org/10.1016/0196-6774(89)90010-2
-[research_lapshin_2000]: https://doi.org/10.1063/1.1322575
 [research_larsonm_r_2026]: https://doi.org/10.1109/ic3et64989.2026.11467238
 [research_lau_2001]: https://doi.org/10.1300/j234v01n02_06
 [research_laustsen_2019]: https://doi.org/10.1007/978-3-030-26350-8_9
@@ -4222,15 +3645,11 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_laustsen_2019_c]: https://doi.org/10.1007/978-3-030-26350-8_7
 [research_laustsen_2020]: https://doi.org/10.1007/978-3-030-26350-8
 [research_law_2002]: https://doi.org/10.1509/jmkr.39.3.366.19104
-[research_layne_2023]: https://doi.org/10.1201/9781003344117-11
-[research_lazerpankiv_pysmenna_2021]: https://doi.org/10.2478/sm-2021-0018
 [research_leach_mealling_2005]: https://doi.org/10.17487/rfc4122
 [research_lebiedz]: https://doi.org/10.1007/1-4020-4179-9_5
 [research_leblouch_collen_2008]: https://doi.org/10.1109/icme.2008.4607660
 [research_lee_2008]: https://doi.org/10.2139/ssrn.1319409
 [research_lee_2016]: https://doi.org/10.1093/intqhc/mzw058
-[research_lee_2019]: https://doi.org/10.1108/ijoem-10-2018-0543
-[research_lee_2023]: https://doi.org/10.1080/08961530.2023.2243643
 [research_lee_taft_2010]: https://doi.org/10.3758/s13423-010-0028-y
 [research_leek_kun_2006]: https://doi.org/10.1108/10610420610668621
 [research_lees_williamson_2020]: https://doi.org/10.4324/9781315766393-7
@@ -4240,8 +3659,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_legibility_of_2006]: https://doi.org/10.1201/9780849375477-305
 [research_lehnert_klump_2019]: https://doi.org/10.3897/biss.3.37334
 [research_lehto_sestorp_2021]: https://doi.org/10.1109/icns52807.2021.9441649
-[research_leiwang_shaopingli]: https://doi.org/10.1109/intmag.2002.1001170
-[research_leiwang_shaopingli_2002]: https://doi.org/10.1109/tmag.2002.801836
 [research_lemieux_2014]: https://doi.org/10.17487/rfc7302
 [research_lemieux_2016]: https://doi.org/10.17487/rfc7972
 [research_lemley_mckenna_2026]: https://doi.org/10.2139/ssrn.6122326
@@ -4256,15 +3673,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_li_deng_2013]: https://doi.org/10.1145/2487259.2487261
 [research_li_feng_2024]: https://doi.org/10.1117/12.3028967
 [research_li_jia_2025]: https://doi.org/10.1109/raiie65740.2025.11139929
-[research_li_li_2020]: https://doi.org/10.1016/j.jecp.2020.104913
 [research_li_liu_2013]: https://doi.org/10.3724/sp.j.1041.2012.01571
 [research_li_lo_2000]: https://doi.org/10.1145/355214.355227
-[research_li_schwarz_2016]: https://doi.org/10.1109/iccd.2016.7753342
 [research_li_wang_2014]: https://doi.org/10.1145/2590989.2590994
-[research_li_wang_2017]: https://doi.org/10.1109/phm.2017.8079218
-[research_li_wang_2018]: https://doi.org/10.1016/j.cognition.2018.02.025
 [research_li_wu_2023]: https://doi.org/10.1109/iciea58696.2023.10241828
-[research_li_xiao_2021]: https://doi.org/10.1111/1467-9817.12379
 [research_li_yoshikawa_2016]: https://doi.org/10.1007/978-3-319-48051-0_32
 [research_li_zheng_2023]: https://doi.org/10.1109/globecom54140.2023.10437476
 [research_liang_cheng_2023]: https://doi.org/10.3390/app13064061
@@ -4277,7 +3689,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_lilley_guanci_1997]: https://doi.org/10.1097/00000446-199711000-00006
 [research_lilley_guanci_1997_b]: https://doi.org/10.2307/3465239
 [research_lilley_guanci_1997_c]: https://doi.org/10.1097/00000446-199709000-00007
-[research_lim_wilson_2010]: https://doi.org/10.1109/tmag.2009.2038281
 [research_lin_chen_2002]: https://doi.org/10.3115/1118853.1118870
 [research_lin_chen_2014]: https://doi.org/10.3758/s13421-014-0495-x
 [research_lin_liang_2024]: https://doi.org/10.1109/icce-asia63397.2024.10773632
@@ -4303,7 +3714,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_liu_tsai_2025]: https://doi.org/10.1016/j.ergon.2025.103794
 [research_liu_wan_2026]: https://doi.org/10.1016/j.ergon.2026.103959
 [research_liu_wei_2025]: https://doi.org/10.2139/ssrn.5095777
-[research_liuguixi_yangwanhai_2000]: https://doi.org/10.1109/isape.2000.894827
 [research_local_legibility_2017]: https://doi.org/10.7551/mitpress/10453.003.0011
 [research_loken_ross_1986]: https://doi.org/10.1177/074391568600500114
 [research_lomax_sherski_1999]: https://doi.org/10.1057/bm.1999.45
@@ -4312,7 +3722,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_loo_2026]: https://doi.org/10.37134/perspektif.vol18.1.3.2026
 [research_look_alike_and_1976]: https://doi.org/10.1177/002204267600600308
 [research_look_alike_and_1997]: https://doi.org/10.1016/s0002-8177(15)60418-4
-[research_look_alike_drugs_2013]: https://doi.org/10.4324/9780203727195-12
 [research_look_alike_sound_alike_2026]: https://doi.org/10.4018/979-8-3373-5478-1.ch005
 [research_look_alike_sound_alike_2026_b]: https://doi.org/10.4018/979-8-3373-5478-1.ch011
 [research_look_alike_sound_alike_2026_c]: https://doi.org/10.4018/979-8-3373-5478-1.ch008
@@ -4322,33 +3731,26 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_lou_2024]: https://doi.org/10.54254/2753-7048/69/20240157
 [research_loucks_1944]: https://doi.org/10.21236/ad0038561
 [research_lowrey_shrum_2007]: https://doi.org/10.1086/518530
-[research_lu_2020]: https://doi.org/10.1109/isec49744.2020.9397816
 [research_lu_du_2014]: https://doi.org/10.1109/tkde.2014.2309131
 [research_lu_lin_2013]: https://doi.org/10.1145/2463676.2465313
 [research_lu_shi_2016]: https://doi.org/10.1109/icdsp.2016.7868592
 [research_lu_su_2001]: https://doi.org/10.1007/3-540-44679-6_37
 [research_lucia_bainotti_2022]: https://doi.org/10.4135/9781529608397.n3
 [research_lujanmora_palomar_2001]: https://doi.org/10.1007/3-540-47714-4_18
-[research_luniku_2015]: https://doi.org/10.5901/ajis.2015.v4n1s2p183
 [research_lunsford_1949]: https://doi.org/10.2307/1069224
 [research_lupker_1982]: https://doi.org/10.1037/h0080652
-[research_lusk_2001]: https://doi.org/10.1016/s1096-7508(02)00065-4
 [research_lutzker_2002]: https://doi.org/10.1016/b978-0-240-80484-2.50018-6
 [research_lynn]: https://doi.org/10.31979/etd.rrmb-f3h4
-[research_lyu_cui_2024]: https://doi.org/10.1007/s00426-024-02005-z
 [research_ma_2026]: https://doi.org/10.1504/ijict.2026.10076951
 [research_ma_liu_2013]: https://doi.org/10.4304/jsw.8.3.746-753
 [research_machine_readable]: https://doi.org/10.3403/01234750u
 [research_mackintosh_lozito_1999]: https://doi.org/10.4271/1999-01-5507
 [research_magare_2026]: https://doi.org/10.2139/ssrn.6245878
-[research_maheswaran_mackie_1992]: https://doi.org/10.1207/s15327663jcp0104_02
-[research_maheswaran_mackie_1992_b]: https://doi.org/10.1016/s1057-7408(08)80058-7
 [research_mahmood_2022]: https://doi.org/10.47191/ijsshr/v5-i10-18
 [research_maidment_thorn_2005]: https://doi.org/10.1192/pb.29.8.298
 [research_major_improvement_2005]: https://doi.org/10.1108/aeat.2005.12777cab.010
 [research_makinen]: https://doi.org/10.1109/spire.2001.989751
 [research_maksurov_2021]: https://doi.org/10.36074/logos-10.12.2021.v1.34
-[research_malai_speece_2005]: https://doi.org/10.1300/j046v17n04_02
 [research_malle]: https://doi.org/10.32469/10355/5733
 [research_mamou_ramabhadran_2008]: https://doi.org/10.21437/interspeech.2008-546
 [research_mamunuwa_jayamanne_2023]: https://doi.org/10.1002/ccr3.7795
@@ -4360,12 +3762,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_marappa_rehamallika_2020]: https://doi.org/10.1016/j.jval.2020.08.737
 [research_marovino_morgillo_2022]: https://doi.org/10.9734/jpri/2022/v34i48a36409
 [research_martinek_fucik_2007]: https://doi.org/10.1109/ddecs.2007.4295281
-[research_marvin_ward_2019]: https://doi.org/10.1136/ejhpharm-2019-eahpconf.387
 [research_marzal_mollineda_2003]: https://doi.org/10.1007/978-1-4613-0231-5_19
 [research_masihi_charkari_2005]: https://doi.org/10.1109/eurcon.2005.1630196
 [research_masmali_maashi_2020]: https://doi.org/10.24911/ijmdc.51-1577306617
 [research_massah_mohammadi_2021]: https://doi.org/10.4103/jehp.jehp_1025_20
-[research_mast_carrard_2017]: https://doi.org/10.1093/med/9780198736134.003.0006
 [research_material_identifier_2020]: https://doi.org/10.32388/ri24i1
 [research_mathew_thomas_2021]: https://doi.org/10.5530/ajphs.2021.11.8
 [research_matsumoto_kida]: https://doi.org/10.1109/spire.2000.878198
@@ -4403,13 +3803,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_medication_safety_2020]: https://doi.org/10.4135/9781529728569
 [research_mednis_aurich_2012]: https://doi.org/10.11592/bit.121102
 [research_mehanna_elgerges_2024]: https://doi.org/10.1136/bmjoq-2024-002994
-[research_mehdiyeva_2025]: https://doi.org/10.62837/2025.9.56
-[research_melas_arnett_1990]: https://doi.org/10.1109/icc.1990.117353
 [research_melichar_1995]: https://doi.org/10.1007/3-540-60268-2_315
 [research_menneer_godwin_2014]: https://doi.org/10.1167/14.10.1201
 [research_menouar_filali_2011]: https://doi.org/10.1109/itst.2011.6060084
 [research_mergen_2022]: https://doi.org/10.1007/s42979-022-01502-5
-[research_merriman_white_1947]: https://doi.org/10.1049/ji-3a-2.1947.0081
 [research_metals_and_2017]: https://doi.org/10.4271/0768084210
 [research_metals_and_2025]: https://doi.org/10.4271/9781468609493
 [research_mezl_1996]: https://doi.org/10.1016/0307-4412(95)00159-x
@@ -4424,10 +3821,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_miller_2006]: https://doi.org/10.1136/qshc.2005.016733
 [research_miller_2007]: https://doi.org/10.1002/cncr.23178
 [research_milton_washington_2015]: https://doi.org/10.9740/mhc.2015.07.174
-[research_minuhin]: https://doi.org/10.1109/napmrc.2003.1177044
-[research_minuhin_1985]: https://doi.org/10.1109/tmag.1985.1064224
-[research_minuhin_1986]: https://doi.org/10.1109/tmag.1986.1064392
-[research_minuhin_2004]: https://doi.org/10.1109/tmag.2003.819453
 [research_mishina_kojima]: https://doi.org/10.1109/iccd.1993.393345
 [research_mishra_gandhi_2013]: https://doi.org/10.1145/2457317.2457387
 [research_mishra_r_2026]: https://doi.org/10.2139/ssrn.6989939
@@ -4450,7 +3843,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_montgomery_osullivan_2014]: https://doi.org/10.2118/170820-ms
 [research_moody]: https://doi.org/10.17918/00003782
 [research_moon_2018]: https://doi.org/10.34122/jip.2018.12.13.4.63
-[research_moore_seyler_1947]: https://doi.org/10.1109/ee.1947.6443462
 [research_more_on_1995]: https://doi.org/10.1056/nejm199503163321118
 [research_moreau_kim_2004]: https://doi.org/10.21437/interspeech.2004-44
 [research_moreau_yvon_2008]: https://doi.org/10.3115/1599081.1599156
@@ -4467,7 +3859,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_moser_michel_1961]: https://doi.org/10.21236/ad0260556
 [research_moss_2008]: https://doi.org/10.1016/j.ipl.2008.02.002
 [research_mostafa_ali_2021]: https://doi.org/10.33545/nursing.2021.v4.i2e.217
-[research_moulypotluri_zulpaidar_2024]: https://doi.org/10.21511/im.20(3).2024.06
 [research_mountstephens_2013]: https://doi.org/10.1109/aims.2013.45
 [research_moureaud_hertig_2020]: https://doi.org/10.1177/0018578720931752
 [research_muchu_2024]: https://doi.org/10.46795/ijhcbs.v5i1.609
@@ -4478,7 +3869,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_munawaroh_siahaan_2020]: https://doi.org/10.1109/icoris50180.2020.9320764
 [research_munshi_tople_2019]: https://doi.org/10.18203/2319-2003.ijbcp20193176
 [research_mupangavanhu_vuke_2023]: https://doi.org/10.47348/jcla/v10/i2a6
-[research_muraoka_sugita_1999]: https://doi.org/10.1109/intmag.1999.837807
 [research_murray_1968]: https://doi.org/10.1037/h0026641
 [research_murry_1970]: https://doi.org/10.21236/ad0718857
 [research_mursiti_mesias_2022]: https://doi.org/10.23917/pharmacon.v19i2.20019
@@ -4486,7 +3876,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_mutalib_noah_2011]: https://doi.org/10.1109/stair.2011.5995776
 [research_muthukrishnan]: https://doi.org/10.1007/bfb0029804
 [research_myers_1998]: https://doi.org/10.1007/bfb0030777
-[research_myint_supnithi_2012]: https://doi.org/10.1109/tmag.2012.2204963
 [research_na_1985]: https://doi.org/10.1097/00152193-198512000-00002
 [research_na_1993]: https://doi.org/10.1097/00152193-199303000-00012
 [research_na_1995]: https://doi.org/10.2165/00042310-199505010-00004
@@ -4503,7 +3892,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_nadeau_1937]: https://doi.org/10.2307/1281772
 [research_nagamotoo_lai_2022]: https://doi.org/10.1093/ijpp/riac089.041
 [research_nagata_kimura_2014]: https://doi.org/10.1016/j.procs.2014.08.235
-[research_nagel_2016]: https://doi.org/10.1111/evo.13130
 [research_nahler_2009]: https://doi.org/10.1007/978-3-211-89836-9_1148
 [research_nahler_2009_b]: https://doi.org/10.1007/978-3-211-89836-9_722
 [research_naik_pranay_2009]: https://doi.org/10.18579/jpcrkc/2009/8/3/79732
@@ -4545,38 +3933,27 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_nguyen]: https://doi.org/10.70675/8a9626c5ze245z4fe5za07czcac6f68fc320
 [research_nguyen_conrad_2014]: https://doi.org/10.5220/0005170005050511
 [research_nguyen_conrad_2015]: https://doi.org/10.1007/978-3-319-25840-9_15
-[research_nguyen_lee_2016]: https://doi.org/10.1049/el.2016.2096
 [research_nguyen_schwartz_1998]: https://doi.org/10.21437/icslp.1998-625
 [research_ni_tang_2023]: https://doi.org/10.1186/s40360-023-00681-y
 [research_nicholls_penel_2015]: https://doi.org/10.64628/aa.3gfpg5h6g
 [research_nickell_2009]: https://doi.org/10.5810/kentucky/9780813125343.003.0011
 [research_nilsson_kaiserman_2004]: https://doi.org/10.1201/9780203490297.ch32
-[research_nishikawa_1970]: https://doi.org/10.1109/tmag.1970.1066986
-[research_nishikawa_komatsu]: https://doi.org/10.1109/intmag.2000.872317
 [research_nitayaphorn]: https://doi.org/10.58837/chula.the.2009.2062
 [research_no_cumulative_2023]: https://doi.org/10.1093/grurint/ikad125
 [research_no_likelihood_2025]: https://doi.org/10.1093/grurint/ikae159
-[research_nogueira_garciaperez_2024]: https://doi.org/10.46298/lmcs-20(4:24)2024
 [research_nogueirasrodriguez_marino]: https://doi.org/10.1109/icassp.1998.674471
 [research_nomenclature_aircraft]: https://doi.org/10.4271/arp171
 [research_nomenclature_aircraft_b]: https://doi.org/10.4271/arp243a
-[research_non_verbal_communication_2007]: https://doi.org/10.4324/9780080473260-17
-[research_non_verbal_communication_2013]: https://doi.org/10.4324/9780203753835-9
-[research_non_verbal_communication_2013_b]: https://doi.org/10.4324/9780203753835-13
-[research_non_verbal_communication_2020]: https://doi.org/10.4135/9781036232481.n39
 [research_none_2021]: https://doi.org/10.2172/1764638
-[research_nooksack_phonemes_2011]: https://doi.org/10.59962/9780774820479-003
 [research_notation_and_1992]: https://doi.org/10.1016/s0076-5392(08)62812-x
 [research_novitra_2023]: https://doi.org/10.47065/jogtc.v2i2.3341
 [research_noviyulianti_hemamalini_2019]: https://doi.org/10.25077/njk.v15i2.178
-[research_novotny_hsiao_1998]: https://doi.org/10.1109/20.706698
 [research_now_that_2017]: https://doi.org/10.26565/2218-2926-2017-15-04
 [research_nowakgruca_2018]: https://doi.org/10.19044/elp.v5no1a1
 [research_nozawa_wayland_2025]: https://doi.org/10.1121/10.0041332
 [research_numbering_system]: https://doi.org/10.4271/j2123_199810
 [research_numbering_system_1996]: https://doi.org/10.1017/cbo9780511983658.001
 [research_numbering_system_2001]: https://doi.org/10.1201/9780824741709.ax2
-[research_numbering_system_2010]: https://doi.org/10.1201/9781439895214-7
 [research_numbering_system_b]: https://doi.org/10.4271/j2124_199011
 [research_numbering_system_c]: https://doi.org/10.4271/j2123_199011
 [research_numbering_system_d]: https://doi.org/10.4271/j2122_199011
@@ -4590,8 +3967,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_oerthel_guerreiro_2020]: https://doi.org/10.1016/j.oxy.2020.10.004
 [research_ogamba_ndukwe_2023]: https://doi.org/10.1504/ijeh.2023.128599
 [research_ogeyik_2022]: https://doi.org/10.4018/978-1-6684-5682-8.ch045
-[research_oggiano_adriani_2023]: https://doi.org/10.1007/978-3-031-43571-3_14
-[research_ogomaka_2005]: https://doi.org/10.4314/ad.v30i3.22228
 [research_ohtake_sekiguchi_2004]: https://doi.org/10.3115/1220355.1220457
 [research_ohtani_takeda_2006]: https://doi.org/10.1248/yakushi.126.349
 [research_ohunyon_ojukwu_2026]: https://doi.org/10.54660/.ijmrge.2021.2.6.792-805
@@ -4599,7 +3974,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_oleary_srivastava_2012]: https://doi.org/10.1145/2402709.2402700
 [research_oliveira_bruno_2020]: https://doi.org/10.1109/icsme46990.2020.00041
 [research_olson_bernstein_1979]: https://doi.org/10.1177/001872087902100202
-[research_omission_in_1978]: https://doi.org/10.1001/archderm.1978.01640190026008
 [research_omoro1_awuor1_2018]: https://doi.org/10.47119/ijrp100151102018396
 [research_on_the_2025]: https://doi.org/10.53796/hnsj66/19
 [research_oppolzer_bestak]: https://doi.org/10.4018/978-1-4666-4888-3.ch019
@@ -4613,17 +3987,13 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_ortolani_2009]: https://doi.org/10.1093/jiplp/jpp031
 [research_orye_visky_2023]: https://doi.org/10.3390/engproc2022028018
 [research_osipova_2016]: https://doi.org/10.18384/2310-712x-2016-6-35-42
-[research_ossart_meunier_1990]: https://doi.org/10.1016/0304-8853(90)90427-r
 [research_ostini_roughead_2012]: https://doi.org/10.1111/j.2042-7174.2012.00210.x
 [research_oswald_maillat_2016]: https://doi.org/10.1515/9783110255478-026
 [research_outline_numbering]: https://doi.org/10.1007/springerreference_20709
 [research_owolabi_ferguson_1988]: https://doi.org/10.1007/3-540-19036-8_54
 [research_owolabi_mcgregor_1988]: https://doi.org/10.1002/spe.4380180407
-[research_ozgunes_eppler_2005]: https://doi.org/10.1016/j.jmmm.2004.10.074
-[research_ozgunes_haciog_1998]: https://doi.org/10.1364/ods.1998.wd.5
 [research_p_2016]: https://doi.org/10.5220/0005752006380644
 [research_package_identifier_2020]: https://doi.org/10.32388/a7tkcm
-[research_paclt_1971]: https://doi.org/10.2307/1218617
 [research_page_2008]: https://doi.org/10.59350/xaevz-82m80
 [research_pal_shira_2025]: https://doi.org/10.1080/00185868.2025.2474756
 [research_palanivelrajan_alli_2018]: https://doi.org/10.26438/ijcse/v6i11.807810
@@ -4639,9 +4009,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_park_gilbert_2007]: https://doi.org/10.1142/9781860947995_0036
 [research_pastoor_1990]: https://doi.org/10.1177/001872089003200204
 [research_patel_2023]: https://doi.org/10.14445/22312803/ijctt-v71i12p111
-[research_patel_gharekhan_2026]: https://doi.org/10.25258/ijddt.16.53s.151
 [research_patrician_brosch_2009]: https://doi.org/10.1097/ncq.0b013e3181afa4cb
-[research_patterson_werker_1998]: https://doi.org/10.1016/s0163-6383(98)91829-x
 [research_pebrianto_2022]: https://doi.org/10.35194/mji.v14i2.2681
 [research_peinado_odonoghue_2024]: https://doi.org/10.1007/s43441-024-00704-8
 [research_pelamatti_umilta_1983]: https://doi.org/10.1016/s0010-9452(83)80008-2
@@ -4652,7 +4020,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_perioperative_medication_2015]: https://doi.org/10.1211/pj.2015.20069670
 [research_perveen_2026]: https://doi.org/10.1016/s2152-2650(26)03106-x
 [research_perveen_2026_b]: https://doi.org/10.1016/s2152-2650(26)01507-7
-[research_peschl_2022]: https://doi.org/10.1163/9789004535312_007
 [research_peshek_cubera_2004]: https://doi.org/10.1177/001857870403900907
 [research_peterson_cunningham_2024]: https://doi.org/10.1504/ijads.2024.10051848
 [research_petrun_hernon_1985]: https://doi.org/10.1177/154193128502901210
@@ -4666,57 +4033,44 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_phillips_2001]: https://doi.org/10.1177/001857870103600507
 [research_phillips_2014]: https://doi.org/10.37573/9781585283583.009
 [research_phipps_2025]: https://doi.org/10.1136/bmjqs-2025-018648
-[research_phonetic_characteristics_2022]: https://doi.org/10.1344/efe2022.vol31.2
 [research_phonetic_features_2019]: https://doi.org/10.17104/9783406736254-340
 [research_phonetic_key_1980]: https://doi.org/10.59962/9780774857857-003
-[research_phonetic_records_1922]: https://doi.org/10.1016/s0140-6736(01)01108-4
 [research_phonetic_similarity_1994]: https://doi.org/10.1017/cbo9781139166621.015
 [research_phonetic_symbols_2014]: https://doi.org/10.2307/jj.30347237.5
 [research_phonetic_transcription_1965]: https://doi.org/10.58837/chula.taic.3976
-[research_phonetic_transcription_2013]: https://doi.org/10.1515/9780748691012-011
 [research_phoophuangpairoj_boonsom_2024]: https://doi.org/10.1109/ieecon60677.2024.10537980
 [research_phowardii_2018]: https://doi.org/10.21105/joss.00480
 [research_phuduhudu_moeti_2025]: https://doi.org/10.23919/ist-africa67297.2025.11060501
 [research_pidlubna_2019]: https://doi.org/10.32841/2409-1154.2019.40.2.15
-[research_pilling_akmal_2020]: https://doi.org/10.1145/3334480.3381820
 [research_pilot_controller_communication_2016]: https://doi.org/10.1201/9781315370460-23
 [research_pilot_controller_communication_2020]: https://doi.org/10.5040/9781350059344.ch-006
 [research_piskorski_wieloch_2009]: https://doi.org/10.1007/s10791-008-9085-5
 [research_pissis_retha_2015]: https://doi.org/10.1109/ipdpsw.2015.106
 [research_plaisant_sears_1992]: https://doi.org/10.1177/154193129203600407
-[research_plumer_vanek]: https://doi.org/10.1109/intmag.2002.1000957
 [research_podgorny_garner_1979]: https://doi.org/10.3758/bf03199860
 [research_policriti_prezza_2015]: https://doi.org/10.1186/1471-2105-16-s9-s4
 [research_polk_2014]: https://doi.org/10.17487/rfc7135
-[research_pollak_cernocky_2004]: https://doi.org/10.63317/2y9gy79ughgj
 [research_polychronakos_2012]: https://doi.org/10.1136/jmedgenet-2012-100736
 [research_poornima_reshma_2015]: https://doi.org/10.5530/jyp.2015.3.15
 [research_position_terms]: https://doi.org/10.4271/arp246a
 [research_post_carrecker_2002]: https://doi.org/10.1023/a:1015213005350
 [research_post_toussaint_2011]: https://doi.org/10.18061/1811/52811
-[research_potter_schmulian_1971]: https://doi.org/10.1109/tmag.1971.1067131
 [research_pouliquen_2008]: https://doi.org/10.1007/978-3-540-85287-2_39
-[research_pozidis_2004]: https://doi.org/10.1109/tmag.2004.830439
 [research_practice_for]: https://doi.org/10.1520/e0527-07
 [research_practice_to]: https://doi.org/10.1520/d6398
 [research_prakash_2010]: https://doi.org/10.4103/2229-5178.73266
 [research_preczewski_fisher_1990]: https://doi.org/10.1177/154193129003400310
 [research_predicting_drug_1997]: https://doi.org/10.1007/bf03315223
-[research_presentation_skills_2017]: https://doi.org/10.4135/9781473978911
 [research_product_identification]: https://doi.org/10.4271/j1360_198709
 [research_prokhozhay_2011]: https://doi.org/10.18500/1817-7115-2011-11-3-52-59
 [research_pronunciation_of_1970]: https://doi.org/10.1136/dtb.8.8.32
 [research_propp_2000]: https://doi.org/10.1111/j.1553-2712.2000.tb00486.x
 [research_proprietary_name_2020]: https://doi.org/10.32388/afc5c8
-[research_pumphrey_1963]: https://doi.org/10.21236/ad0400270
-[research_qinghuazeng_chen_2003]: https://doi.org/10.1109/tmag.2003.816423
 [research_quible_2006]: https://doi.org/10.1177/1080569905285597
 [research_rached]: https://doi.org/10.26756/th.2022.427
 [research_rachkovskij_2019]: https://doi.org/10.1007/s10559-019-00213-9
-[research_rack_1985]: https://doi.org/10.1111/j.2044-8295.1985.tb01956.x
 [research_radack_2002]: https://doi.org/10.1007/bf02709194
 [research_radiotelephony]: https://doi.org/10.1007/springerreference_22817
-[research_radiotelephony_on_1921]: https://doi.org/10.1016/s0016-0032(21)90441-1
 [research_radiotelephony_rt_2013]: https://doi.org/10.4324/9781842145807-15
 [research_radul_2025]: https://doi.org/10.36059/978-966-397-502-3-92
 [research_rahman_parvin_2015]: https://doi.org/10.3329/jemc.v5i2.23385
@@ -4745,10 +4099,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_reichert_2026_c]: https://doi.org/10.2139/ssrn.7045278
 [research_reichert_2026_d]: https://doi.org/10.2139/ssrn.7248286
 [research_reichert_2026_e]: https://doi.org/10.2139/ssrn.6329638
-[research_reiner_1962]: https://doi.org/10.1177/104438946204301003
 [research_reines_2005]: https://doi.org/10.1093/ajhp/62.1.35
-[research_reinhartz_1998]: https://doi.org/10.1093/oso/9780195099706.003.0008
-[research_removal_of_2018]: https://doi.org/10.1001/jama.2018.9636
 [research_revesz_2021]: https://doi.org/10.37394/232018.2021.9.13
 [research_rgd_1926]: https://doi.org/10.1017/s0008197300111766
 [research_rhinoviruses_a_1967]: https://doi.org/10.1038/213761a0
@@ -4772,7 +4123,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_ristad_yianilos_1998]: https://doi.org/10.1109/34.682181
 [research_ritchie_2025]: https://doi.org/10.4337/9781800886926.likelihood.of.confusion
 [research_riva_pesole_2009]: https://doi.org/10.1371/journal.pone.0007631
-[research_rizzo_zeckhauser_2005]: https://doi.org/10.3386/w11431
 [research_robertson_1989]: https://doi.org/10.1108/eum0000000002563
 [research_robins_2001]: https://doi.org/10.1057/9780230522510_11
 [research_robinson_2013]: https://doi.org/10.1179/0027773813z.00000000051
@@ -4790,12 +4140,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_rose_cornog_1967]: https://doi.org/10.6028/nbs.mp.262-2
 [research_rosenshine_1968]: https://doi.org/10.2514/3.43950
 [research_rosmayanti_djokojatmoko_2024]: https://doi.org/10.54147/jpkm.v5i02.1254
-[research_rossi_coppola_2023]: https://doi.org/10.36227/techrxiv.23696706.v1
-[research_round_roper_2015]: https://doi.org/10.1108/ejm-09-2014-0541
 [research_routine_pilot_controller]: https://ntrs.nasa.gov/citations/19910065238
-[research_ruan_jie_2014]: https://doi.org/10.1016/j.microrel.2014.03.017
 [research_ruben_2021]: https://doi.org/10.4135/9781071863688
-[research_rubio_villasenor_2017]: https://doi.org/10.1016/j.jretconser.2016.07.014
 [research_rupa_srivastava_2022]: https://doi.org/10.3389/fpubh.2022.881701
 [research_russo_navarro]: https://doi.org/10.1007/978-3-540-75530-2_24
 [research_russo_navarro_2008]: https://doi.org/10.1007/978-3-540-89097-3_15
@@ -4803,7 +4149,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_rutledge_retrosi_2018]: https://doi.org/10.1111/jocn.14335
 [research_ruutiainen_kallio_2021]: https://doi.org/10.1136/ejhpharm-2020-002531
 [research_ryan_robertson_2025]: https://doi.org/10.1093/intqhc/mzaf018
-[research_s_1916]: https://doi.org/10.1038/097440c0
 [research_saad_bondok_2025]: https://doi.org/10.21203/rs.3.rs-5687396/v1
 [research_saada_2023]: https://doi.org/10.2478/cipms-2023-0015
 [research_saada_morrissey_2023]: https://doi.org/10.51847/nsvledyp4z
@@ -4826,13 +4171,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_sandeepchaware_srikantharao_2011]: https://doi.org/10.5121/cseij.2011.1302
 [research_sanders_shaw_1991]: https://doi.org/10.1016/0140-6736(91)90048-t
 [research_sandlin_2008]: https://doi.org/10.1016/j.jopan.2008.05.007
-[research_sanfilippo_michaud_2021]: https://doi.org/10.3390/jcm10173947
 [research_sangurai_thumsuwan_2024]: https://doi.org/10.1109/jcsse61278.2024.10613631
 [research_sankaran_rajkumar_2016]: https://doi.org/10.17485/ijst/2016/v9i38/97189
 [research_santos_2020]: https://doi.org/10.28971/532020sa57
-[research_santos_2024]: https://doi.org/10.1159/000539161
 [research_sardana_rosemathachan_2023]: https://doi.org/10.25259/ijdvl_72_2023
-[research_sarigoz_kumar_1998]: https://doi.org/10.1364/ods.1998.tud.19
 [research_sariyar_2026]: https://doi.org/10.1016/b978-0-443-26629-4.00057-5
 [research_sarvadikar_prescott_2010]: https://doi.org/10.1007/s00228-010-0838-x
 [research_sastry_ranganathan]: https://doi.org/10.1109/iccd.1993.393344
@@ -4840,25 +4182,21 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_saussure_rocci_2016]: https://doi.org/10.1515/9783110255478-002
 [research_savage_schneider_2005]: https://doi.org/10.2146/ajhp040622
 [research_sawyer_dobres_2017]: https://doi.org/10.1177/1541931213601698
-[research_scalart_benamar_1996]: https://doi.org/10.1016/s0167-6393(96)00056-8
 [research_scarborough_2003]: https://doi.org/10.1121/1.4777975
 [research_scarborough_2003_b]: https://doi.org/10.3765/bls.v29i1.990
 [research_scarrow_routon_2005]: https://doi.org/10.1111/j.1945-1474.2005.tb01114.x
 [research_schachter_1961]: https://doi.org/10.2307/410851
-[research_schafer_argyle_1993]: https://doi.org/10.1109/intmag.1993.642683
 [research_scheirman_2001]: https://doi.org/10.21236/ada420601
 [research_schieber_1994]: https://doi.org/10.1177/154193129403801425
 [research_schieber_1998]: https://doi.org/10.1177/154193129804201610
 [research_schieber_2005]: https://doi.org/10.1177/154193120504902209
 [research_schieber_kline_1994]: https://doi.org/10.1177/154193129403800201
 [research_schlosser_hincapie_2025]: https://doi.org/10.1016/j.japh.2025.102598
-[research_schmalz_rueckl_2024]: https://doi.org/10.31219/osf.io/spvbh
 [research_schmidt_fitt_1993]: https://doi.org/10.21437/eurospeech.1993-85
 [research_schmitt_zhang_2012]: https://doi.org/10.1057/bm.2011.62
 [research_schmitt_zhang_2017]: https://doi.org/10.1057/978-1-352-00011-5_8
 [research_schnell_zwahlen_1999]: https://doi.org/10.1177/154193129904302316
 [research_schraagen_2011]: https://doi.org/10.1109/ictai.2011.116
-[research_schreck_kimball_1998]: https://doi.org/10.1109/20.706703
 [research_schulmeister_2006]: https://doi.org/10.1188/06.cjon.35-41
 [research_schumacher_mayfield_2023]: https://doi.org/10.18653/v1/2023.matching-1.6
 [research_schwarz_pawlik_2017]: https://doi.org/10.1007/978-3-319-68474-1_11
@@ -4869,24 +4207,15 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_schweizer_2005_e]: https://doi.org/10.1007/978-3-322-81977-2
 [research_scott_2013]: https://doi.org/10.1016/j.jretai.2012.11.004
 [research_scott_baddeley_1969]: https://doi.org/10.3758/bf03332782
-[research_scripture_1903]: https://doi.org/10.2307/2918091
-[research_scudder_1875]: https://doi.org/10.5962/bhl.title.9688
-[research_seagle_meininger_1990]: https://doi.org/10.1109/intmag.1990.734614
 [research_sears_generali_2005]: https://doi.org/10.1345/aph.1e369
 [research_sebestyen_vanmeter_1962]: https://doi.org/10.21236/ad0295571
 [research_securities_and]: https://doi.org/10.3403/30181185
-[research_seely_1893]: https://doi.org/10.1126/science.ns-21.529.163
-[research_seffrin_malipatlolla_2010]: https://doi.org/10.1109/fpt.2010.5681483
 [research_seger_jha_2007]: https://doi.org/10.2165/00002018-200730090-00007
-[research_segmental_representations_1998]: https://doi.org/10.1017/cbo9780511519758.003
 [research_segurabedmar_martinez_2008]: https://doi.org/10.1016/j.drudis.2008.06.001
-[research_sen_1999]: https://doi.org/10.1207/s15327663jcp0804_04
-[research_senanan_xue_2002]: https://doi.org/10.1063/1.1452267
 [research_senft_2007]: https://doi.org/10.1016/j.gerinurse.2006.11.001
 [research_sensmeier_carroll_2021]: https://doi.org/10.1097/cin.0000000000000706
 [research_seoanevazquez_rodriguezmonguio_2017]: https://doi.org/10.1080/14740338.2017.1358361
 [research_seongsookjun_2016]: https://doi.org/10.35144/ghn.2016.6.1.1
-[research_seps_2013]: https://doi.org/10.1109/tsp.2013.6613978
 [research_sequential_approximate]: https://doi.org/10.1007/springerreference_57882
 [research_sergent_1983]: https://doi.org/10.1080/14640748308402148
 [research_serial_version_2020]: https://doi.org/10.32388/c9xrz5
@@ -4903,10 +4232,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_shanty]: https://doi.org/10.33915/etd.4787
 [research_shapira_storer_2003]: https://doi.org/10.1007/978-3-540-39984-1_29
 [research_shastay_2023]: https://doi.org/10.1097/nhh.0000000000001170
-[research_shear_2021]: https://doi.org/10.1201/9781003261803-1
 [research_shear_2022]: https://doi.org/10.1201/9781003357728-1488
 [research_shear_2024]: https://doi.org/10.1201/9781032663784-1495
-[research_shear_2024_b]: https://doi.org/10.1201/9781032663784-1496
 [research_sheedy_subbaram_2005]: https://doi.org/10.1518/001872005775570998
 [research_sheff_2024]: https://doi.org/10.2139/ssrn.4903190
 [research_shehabeldin_hamama_2024]: https://doi.org/10.1016/j.heliyon.2024.e24367
@@ -4916,7 +4243,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_shen_wei_2021]: https://doi.org/10.1016/j.icte.2021.01.002
 [research_shetty_helmke_2022]: https://doi.org/10.54941/ahfe1002493
 [research_shi_jia_2024]: https://doi.org/10.1109/icsp62122.2024.10743428
-[research_shi_zhu_1987]: https://doi.org/10.1109/tmag.1987.1064817
 [research_shiima_malik_2022]: https://doi.org/10.2174/1574886316666210423115029
 [research_shilinzhang_bozhang_2010]: https://doi.org/10.1109/cinc.2010.5643895
 [research_shim_sung_2022]: https://doi.org/10.21437/interspeech.2022-422
@@ -4925,9 +4251,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_shishkin_koshevoy_2013]: https://doi.org/10.1201/b14962-48
 [research_shishkin_koshevoy_2021]: https://doi.org/10.12716/1001.15.02.05
 [research_shiu_2021]: https://doi.org/10.1016/j.jretconser.2021.102547
-[research_shivakumar_krauthammer_2009]: https://doi.org/10.1186/1471-2105-10-s9-s17
 [research_shivanandhhonakeri_hemanthck_2026]: https://doi.org/10.65900/jnfcai.2026.v01i02.003
-[research_short_2019]: https://doi.org/10.1007/978-3-030-13807-3_5
 [research_showman_1967]: https://doi.org/10.1002/j.2637-496x.1967.tb01533.x
 [research_shurtleff_1966]: https://doi.org/10.21236/ad0636414
 [research_shurtleff_wuersch_1979]: https://doi.org/10.1177/1071181379023001103
@@ -4935,28 +4259,20 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_siddiqui_2020]: https://doi.org/10.24926/iip.v11i4.3480
 [research_siew_2018]: https://doi.org/10.1007/s41109-018-0068-1
 [research_sihotang_2023]: https://doi.org/10.47065/mis.v2i1.1025
-[research_silva_1969]: https://doi.org/10.1007/bf02404166
 [research_silverman_2022]: https://doi.org/10.4324/9781315782416-285
 [research_silvestri]: https://doi.org/10.1007/978-3-540-71496-5_12
 [research_simanjuntak_hutajulu_2015]: https://doi.org/10.1166/asl.2015.6591
 [research_similar_drug_2004]: https://doi.org/10.1001/jama.291.16.1948
-[research_simmonite_polk_2021]: https://doi.org/10.1101/2021.06.28.449009
 [research_simonsohn_2010]: https://doi.org/10.2139/ssrn.1714599
 [research_simpson_1979]: https://doi.org/10.1136/bmj.2.6200.1297-d
-[research_simpson_persson_1984]: https://doi.org/10.1109/tmag.1984.1063379
 [research_simpson_strassel_2010]: https://doi.org/10.63317/4hxrwhom8hus
 [research_singh_singh_2017]: https://doi.org/10.5005/jp-journals-10035-1071
-[research_siquier_andres_2022]: https://doi.org/10.3389/fpsyg.2022.1051488
-[research_siren_wilcox_1990]: https://doi.org/10.1177/026565909000600202
 [research_sitbon_bellot_2007]: https://doi.org/10.21437/interspeech.2007-676
 [research_sitifitriani_2021]: https://doi.org/10.24164/prosiding.v4i1.17
 [research_sivak_olson_1981]: https://doi.org/10.1177/001872088102300106
-[research_sivakumar_indiran_2020]: https://doi.org/10.1016/j.visj.2020.100878
 [research_skaltsas_rakas_2011]: https://doi.org/10.2514/6.2011-6897
 [research_skaltsas_rakas_2013]: https://doi.org/10.1016/j.jairtraman.2012.11.010
 [research_skurzok_ziolko_2013]: https://doi.org/10.1007/978-94-007-6738-6_19
-[research_slaughter_2007]: https://doi.org/10.5422/fordham/9780823228171.003.0001
-[research_sloane_1991]: https://doi.org/10.2307/309246
 [research_smetzer_2001]: https://doi.org/10.1177/001857870103600602
 [research_smetzer_cohen_2007]: https://doi.org/10.21019/9781582120928.ch19
 [research_smiley_kubler_2017]: https://doi.org/10.18653/v1/w17-5046
@@ -4969,7 +4285,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_snellhornby_2009]: https://doi.org/10.1075/bct.20.08sne
 [research_snyder_1979]: https://doi.org/10.1177/001872087902100408
 [research_sohn_hong_2024]: https://doi.org/10.1177/10711813241275517
-[research_solti_timari_2025]: https://doi.org/10.1007/s40259-025-00734-0
 [research_soman_srivastava_2015]: https://doi.org/10.1109/healthcom.2015.7454507
 [research_some_factors_1981]: https://doi.org/10.1016/0003-6870(81)90057-0
 [research_sorathia_2015]: https://doi.org/10.1080/10588167.2015.995555
@@ -4980,9 +4295,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_specification_for]: https://doi.org/10.3403/00137461u
 [research_specification_for_b]: https://doi.org/10.3403/00116414u
 [research_spiker_rogers_1984]: https://doi.org/10.1177/154193128402801021
-[research_spong_dovek_1994]: https://doi.org/10.1109/20.334019
 [research_spoto_babu_1989]: https://doi.org/10.1177/154193128903300530
-[research_spun_silk_2021]: https://doi.org/10.5040/9781501365072.15498
 [research_srinivasan_petkovic_2000]: https://doi.org/10.1145/345508.345552
 [research_srivastava_2021]: https://doi.org/10.2139/ssrn.3978105
 [research_srivastava_2023]: https://doi.org/10.2308/jeta-2021-043
@@ -4991,17 +4304,10 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_stanchev_wang_2019]: https://doi.org/10.18653/v1/w19-5359
 [research_stanciu_craciun_2014]: https://doi.org/10.1109/optim.2014.6850952
 [research_stanford_homan_1990]: https://doi.org/10.15394/jaaer.1999.1235
-[research_stanton_1990]: https://doi.org/10.1007/978-1-349-20925-5_4
-[research_stanton_1996]: https://doi.org/10.1007/978-1-349-14133-3_4
 [research_starrfelt_lindegaard_2015]: https://doi.org/10.1080/02643294.2015.1061488
 [research_statutory_protection_2019]: https://doi.org/10.37573/9781585286560.167
-[research_stephenson_2000]: https://doi.org/10.1001/jama.283.11.1413-jha00001-3-1
-[research_stewart_1909]: https://doi.org/10.26515/rzsi/v3/i2/1909/163271
 [research_stewart_2005]: https://doi.org/10.1177/171516350513800209
 [research_stiftung_fur_2010]: https://doi.org/10.1016/j.zefq.2010.07.022
-[research_stiles_1911]: https://doi.org/10.1038/088111b0
-[research_stiles_1912]: https://doi.org/10.1126/science.35.891.146.a
-[research_stiles_1912_b]: https://doi.org/10.1126/science.35.891.146
 [research_still_2026]: https://doi.org/10.1177/00187208261470702
 [research_stockbridge_taylor_2015]: https://doi.org/10.1177/2168479015570331
 [research_stolz_1967]: https://doi.org/10.1037/007808
@@ -5012,18 +4318,14 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_string_matching_1994]: https://doi.org/10.1142/9789814317368_0002
 [research_string_matching_2011]: https://doi.org/10.1007/978-0-387-30164-8_791
 [research_string_matching_2017]: https://doi.org/10.1515/9783110522013-040
-[research_stromberg_roach_1993]: https://doi.org/10.1017/s0025100300004850
 [research_structures_that_1993]: https://doi.org/10.1017/cbo9780511551574.005
 [research_study_agent_2020]: https://doi.org/10.32388/vb32et
 [research_study_of_2020]: https://doi.org/10.18231/2454-6712.2018.0005
-[research_study_on_2016]: https://doi.org/10.1201/ebk1439834916-50
-[research_stulberg_2023]: https://doi.org/10.12788/jfp.0647
 [research_stump_2000]: https://doi.org/10.1093/ajhp/57.suppl_4.s10
 [research_stuntz_1963]: https://doi.org/10.21236/ad0402989
 [research_subject_identifier_2020]: https://doi.org/10.32388/sqlxec
 [research_subject_unique_2020]: https://doi.org/10.32388/a4pq8v
 [research_subsequence_string_2015]: https://doi.org/10.1017/cbo9780511843204.008
-[research_sudimac_2020]: https://doi.org/10.22190/full2001109s
 [research_sukharev_zhukov_2014]: https://doi.org/10.1109/icdm.2014.76
 [research_sulastri_salam_2023]: https://doi.org/10.58545/jkki.v3i3.211
 [research_sun_wang_2018]: https://doi.org/10.1007/978-3-030-00006-6_60
@@ -5034,20 +4336,16 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_supapaan_2026]: https://doi.org/10.4018/979-8-3373-5478-1
 [research_supapaan_kamnuek_2024]: https://doi.org/10.18549/pharmpract.2024.3.2955
 [research_supapaan_songmuang_2024]: https://doi.org/10.18549/pharmpract.2024.2.2959
-[research_surono_2016]: https://doi.org/10.20961/prasasti.v2i2.336
 [research_susik_2017]: https://doi.org/10.5604/01.3001.0010.5214
 [research_sutinen_tarhio_1996]: https://doi.org/10.1007/3-540-61258-0_4
 [research_suzuki_2001]: https://doi.org/10.17487/rfc3033
 [research_svahn_1978]: https://doi.org/10.1001/jama.1978.03290220045010
 [research_syaifudin_adiatmaja_2025]: https://doi.org/10.12962/j22759970.v5i1.1226
-[research_syphilis_the_2015]: https://doi.org/10.1093/rheumatology/kev088.008
 [research_tagami_imaizumi_2020]: https://doi.org/10.31234/osf.io/49e6f
 [research_tagliacozzo_kochen_1970]: https://doi.org/10.6017/ital.v3i2.5245
 [research_tai_2018]: https://doi.org/10.1109/icdmw.2018.00081
 [research_takabatake_nakashima_2016]: https://doi.org/10.3390/a9020026
 [research_takabatake_tabei_2014]: https://doi.org/10.1007/978-3-319-11918-2_20
-[research_takano_2013]: https://doi.org/10.1109/tmag.2012.2236542
-[research_takano_muraoka_1994]: https://doi.org/10.3379/jmsjmag.18.s1_203
 [research_takasu]: https://doi.org/10.1109/icdar.2001.953919
 [research_takeda_2001]: https://doi.org/10.1007/3-540-48194-x_13
 [research_takenaka_wakao_2015]: https://doi.org/10.1109/kse.2015.57
@@ -5083,34 +4381,25 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_the_communicative_2023]: https://doi.org/10.25076/vpl.49.02
 [research_the_grex_1944]: https://doi.org/10.1177/004051754401400106
 [research_the_image_confusion_2012]: https://doi.org/10.4156/aiss.vol4.issue20.4
-[research_the_legibility_2022]: https://doi.org/10.1515/9780823291762-002
-[research_the_orthographic_2009]: https://doi.org/10.1515/9783110214475.1.1.70
 [research_the_pharmacy_2014]: https://doi.org/10.1016/s1042-0991(15)31035-5
 [research_the_prescription_2020]: https://doi.org/10.1002/9781119539384.ch2
 [research_the_role_2006]: https://doi.org/10.12927/hcq.2013.18465
 [research_the_role_2019]: https://doi.org/10.31902/ll.2019.6.1.3
 [research_the_system_io]: https://doi.org/10.1007/978-1-4302-0201-1_16
 [research_the_unified_2010]: https://doi.org/10.31399/asm.tb.hss.t52790235
-[research_the_verbal_2002]: https://doi.org/10.4324/9781410606341-6
 [research_thomas_2017]: https://doi.org/10.17487/rfc8069
-[research_thomas_friedmann_1994]: https://doi.org/10.1097/00005082-199410000-00003
 [research_thompson_2008]: https://doi.org/10.2146/news080020
 [research_thompson_panchev_2015]: https://doi.org/10.5220/0005619105770584
 [research_thouvenin_gerber_2025]: https://doi.org/10.2139/ssrn.5282554
 [research_thumsuwan_sangurai_2024]: https://doi.org/10.1109/ri2c64012.2024.10784446
-[research_tian_ballar_2020]: https://doi.org/10.1109/apec39645.2020.9124555
-[research_tight_vigil_2023]: https://doi.org/10.1515/shll-2023-2009
 [research_tisdale_1986]: https://doi.org/10.1093/ajhp/43.2.368
 [research_tissot_dobson_2019]: https://doi.org/10.1186/s13326-019-0216-2
-[research_titarenko_yashchuk_2022]: https://doi.org/10.32589/2311-0821.1.2022.263125
 [research_tkalin_mmolina_2007]: https://doi.org/10.17487/rfc4926
 [research_tobin_tobin_2016]: https://doi.org/10.1080/01612840.2016.1198947
 [research_top_dowla_2007]: https://doi.org/10.1109/cidm.2007.368923
 [research_topolinski_2017]: https://doi.org/10.4324/9781315526935-18
-[research_torrey_1945]: https://doi.org/10.2307/3754861
 [research_tracked_changes]: https://doi.org/10.3403/30432432
 [research_trade_mark_registration_1938]: https://doi.org/10.2307/1068099
-[research_trade_name_2023]: https://doi.org/10.21019/9781582123820.index
 [research_tradename_company_1912]: https://doi.org/10.2307/1104893
 [research_tranchard_hein_2016]: https://doi.org/10.1002/pds.4063
 [research_transposed_letter_confusability_2004]: https://doi.org/10.4324/9780203502846-13
@@ -5118,7 +4407,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_treeratpituk_giles_2021]: https://doi.org/10.1609/aaai.v26i1.8324
 [research_troelsen_2003]: https://doi.org/10.1007/978-1-4302-0667-5_16
 [research_trpkoska_vukikjevikj_2022]: https://doi.org/10.33320/maced.pharm.bull.2022.68.03.035
-[research_trzaska]: https://doi.org/10.1109/ceem.2000.853902
 [research_tseng_chen_2016]: https://doi.org/10.1201/b21811-36
 [research_tseng_wen_2016]: https://doi.org/10.1136/ejhpharm-2016-001019
 [research_tsur_2010]: https://doi.org/10.1016/j.jda.2010.08.002
@@ -5134,8 +4422,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_tumuhaise_namukwaya_2024]: https://doi.org/10.51168/s6cnvm69
 [research_tuncal_2026]: https://doi.org/10.26650/hfaa.2026.1867276
 [research_tuohy_paparella_2005]: https://doi.org/10.1016/j.jen.2005.07.012
-[research_turley_moore_1995]: https://doi.org/10.1108/07363769510095298
-[research_uda_1930]: https://doi.org/10.1109/jrproc.1930.222100
 [research_ukkonen]: https://doi.org/10.1007/bfb0029808
 [research_ukkonen_1983]: https://doi.org/10.1007/3-540-12689-9_129
 [research_ukkonen_1985]: https://doi.org/10.1016/s0019-9958(85)80046-2
@@ -5153,67 +4439,48 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_universally_unique_2020]: https://doi.org/10.32388/va0ly6
 [research_uryupina_2004]: https://doi.org/10.63317/4ewz8ao8chxi
 [research_utilisation_of_2018]: https://doi.org/10.1111/jpc.13882_237
-[research_uwazumi_jinghuanchen]: https://doi.org/10.1109/intmag.1997.597781
-[research_vagasi_2026]: https://doi.org/10.1556/2062.2025.00991
-[research_vaghela_jackson_2022]: https://doi.org/10.1145/3491102.3502059
 [research_vaiwsri_ranbaduge_2024]: https://doi.org/10.1016/j.jisa.2024.103712
 [research_valarakos_paliouras_2004]: https://doi.org/10.1007/978-3-540-24674-9_40
 [research_valentine_1998]: https://doi.org/10.1080/741942072
 [research_vallabhaneni_ahmad_2023]: https://doi.org/10.1136/archdischild-2023-esdppp.28
-[research_vallejoheran_2022]: https://doi.org/10.37390/avancacinema.2022.a414
 [research_vallioor_rakas_2025]: https://doi.org/10.2514/6.2025-3672
-[research_vanbael_vanhalteren_2007]: https://doi.org/10.1007/978-3-540-74122-0_22
 [research_vancourt_herbordt]: https://doi.org/10.1109/asap.2004.1342484
 [research_vancourt_herbordt_2007]: https://doi.org/10.1016/j.micpro.2006.04.001
-[research_vanderslice_1970]: https://doi.org/10.1121/1.1975346
 [research_vanengelenburg_khademi_2023]: https://doi.org/10.1109/iccvw60793.2023.00172
 [research_vannes_1988]: https://doi.org/10.1007/978-3-642-73402-1_2
 [research_vannes_bouma_1980]: https://doi.org/10.1177/001872088002200407
-[research_vanvaerenbergh_2017]: https://doi.org/10.1108/jpbm-05-2016-1167
-[research_vanwinkel]: https://doi.org/10.31274/td-20260812-301
 [research_varol_talburt_2011]: https://doi.org/10.1109/itng.2011.101
 [research_vartabedian_1970]: https://doi.org/10.1109/tmms.1970.299995
 [research_vaughan_glass_1982]: https://doi.org/10.1177/001872088202400205
 [research_vazquez_ledeneva_2020]: https://doi.org/10.3233/jifs-179875
 [research_verbal_and]: https://doi.org/10.1007/978-0-585-30665-0_15
-[research_verbal_and_2012]: https://doi.org/10.4135/9781526401946.n3
-[research_verbal_and_b]: https://doi.org/10.4135/9780857258076.n3
 [research_verbal_communication_2013]: https://doi.org/10.4135/9781506321172
 [research_verbal_communication_2016]: https://doi.org/10.4324/9781315506173-11
 [research_verbal_communication_2022]: https://doi.org/10.5040/9798881828950.ch-002
-[research_vicard_1988]: https://doi.org/10.1016/0167-6393(88)90025-8
 [research_vicory_1968]: https://doi.org/10.21236/ad0676791
-[research_victora_wang_2014]: https://doi.org/10.1109/tmag.2013.2284735
 [research_vilares_ribadas_2004]: https://doi.org/10.1007/978-3-540-30075-5_30
 [research_visual_similarity]: https://doi.org/10.1007/springerreference_66070
 [research_visual_similarity_2009]: https://doi.org/10.1007/978-0-387-39940-9_3970
 [research_visual_similarity_2021]: https://doi.org/10.1007/978-3-319-19650-3_305510
 [research_vladimirov_pirmagomedov_2019]: https://doi.org/10.1109/access.2019.2932804
-[research_voncolln_gonchaaroff_1996]: https://doi.org/10.21236/ada311062
 [research_wackerow_2024]: https://doi.org/10.17487/rfc9517
-[research_waggoner_1984]: https://doi.org/10.2307/3463709
-[research_wallash_salo_1991]: https://doi.org/10.1063/1.348018
 [research_walsh_2023]: https://doi.org/10.18060/27650
 [research_wang]: https://doi.org/10.5353/th_991026390029703414
 [research_wang_2022]: https://doi.org/10.2139/ssrn.4011677
 [research_wang_2024]: https://doi.org/10.2139/ssrn.5032804
 [research_wang_2025]: https://doi.org/10.5220/0014374800004859
 [research_wang_feng_2024]: https://doi.org/10.1007/s44196-024-00549-x
-[research_wang_gao_2024]: https://doi.org/10.1109/jsen.2024.3387082
 [research_wang_hao_2008]: https://doi.org/10.1109/iita.2008.82
 [research_wang_jean_1993]: https://doi.org/10.1016/0031-3203(93)90099-i
 [research_wang_li_2011]: https://doi.org/10.1109/icde.2011.5767865
 [research_wang_li_2014]: https://doi.org/10.1145/2535628
 [research_wang_tao_2021]: https://doi.org/10.1097/qmh.0000000000000303
-[research_wang_vartanov_2026]: https://doi.org/10.2139/ssrn.6237619
 [research_wang_wen_2014]: https://doi.org/10.1007/978-3-662-45563-0_11
-[research_wang_zhu_2021]: https://doi.org/10.2139/ssrn.3958628
 [research_wanniarachchi_2023]: https://doi.org/10.4038/jmtr.v8i1.63
 [research_ward_parkes_1995]: https://doi.org/10.1518/001872095778995625
 [research_warning_highlights_2013]: https://doi.org/10.1211/pj.2013.11120995
 [research_waspada_sarno_2020]: https://doi.org/10.1109/icicos51170.2020.9299037
 [research_watcharapinchai_rujikietgumjorn_2017]: https://doi.org/10.1109/avss.2017.8078538
-[research_wattanaphol_rueangnetr_2026]: https://doi.org/10.1109/tmag.2026.3725267
 [research_weant_cook_2007]: https://doi.org/10.2146/ajhp060001
 [research_weant_humphries_2010]: https://doi.org/10.2146/090579
 [research_weik_2000]: https://doi.org/10.1007/1-4020-0613-6_2147
@@ -5225,36 +4492,25 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_weik_2000_g]: https://doi.org/10.1007/1-4020-0613-6_13305
 [research_weisenberger_1996]: https://doi.org/10.1121/1.416399
 [research_weitz_1960]: https://doi.org/10.2307/1248612
-[research_weizeng_kavcic_2006]: https://doi.org/10.1109/tmag.2005.861756
-[research_wells_1972]: https://doi.org/10.1111/j.1467-968x.1972.tb01152.x
-[research_wells_1984]: https://doi.org/10.1017/s0025100300002735
 [research_wertheimer_2014]: https://doi.org/10.1111/jphs.12064
 [research_west_1954]: https://doi.org/10.1080/08832323.1954.10115718
 [research_westbury_yang_2024]: https://doi.org/10.1075/ml.24006.wes
 [research_wetzel_hernandez_2010]: https://doi.org/10.1177/154193121005402507
 [research_what_s_in_2000]: https://doi.org/10.1016/s1084-628x(00)90057-1
-[research_white_1915]: https://doi.org/10.1038/scientificamerican09041915-146supp
 [research_white_2016]: https://doi.org/10.1515/9783110255478-006
 [research_wieling_margaretha_2012]: https://doi.org/10.1016/j.wocn.2011.12.004
 [research_wierzbicka_2016]: https://doi.org/10.1515/9783110255478-024
 [research_williams_1967]: https://doi.org/10.1177/001872086700900509
 [research_williamson_2009]: https://doi.org/10.1017/cbo9780511642272.011
-[research_wilton_wood]: https://doi.org/10.1109/intmag.2002.1000955
-[research_wilton_wood_2004]: https://doi.org/10.1109/tmag.2003.819475
-[research_wing_1970]: https://doi.org/10.1049/piee.1970.0375
 [research_winkler_2014]: https://doi.org/10.1002/wics.1317
 [research_winter_musliu_2020]: https://doi.org/10.1609/aaai.v34i02.5530
 [research_wisconsin_reviews_1994]: https://doi.org/10.1093/ajhp/51.9.1145a
-[research_withdrawn_visual_2021]: https://doi.org/10.21203/rs.3.rs-223102/v2
 [research_witt_cillessen_2024]: https://doi.org/10.1016/j.japh.2024.102079
 [research_wojnar_mlynkova]: https://doi.org/10.1007/978-3-540-85257-5_21
 [research_wold_2017]: https://doi.org/10.17487/rfc8107
 [research_wolf_1982]: https://doi.org/10.1177/154193128202600625
 [research_wolff_1971]: https://doi.org/10.1037/h0031796
 [research_wong_2014]: https://doi.org/10.1177/1460458214555040
-[research_wood_salo_2012]: https://doi.org/10.1109/tmag.2011.2182200
-[research_wood_wilton_2008]: https://doi.org/10.1109/tmag.2008.920525
-[research_woodward_2012]: https://doi.org/10.2139/ssrn.2049629
 [research_word_similarity_2015]: https://doi.org/10.3745/jips.04.0018
 [research_wright_1994]: https://doi.org/10.1002/spe.4380240402
 [research_wu_liu_2018]: https://doi.org/10.12792/icisip2018.025
@@ -5262,8 +4518,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_wu_sun_2022]: https://doi.org/10.3390/app122010252
 [research_wysocki_grabe_2022]: https://doi.org/10.1016/j.jval.2022.04.1710
 [research_xiang_pan_2012]: https://doi.org/10.4028/www.scientific.net/amr.616-618.2162
-[research_xiangjunfeng_jianglingzhang_1988]: https://doi.org/10.1109/20.92186
-[research_xiao_calvo_2026]: https://doi.org/10.1145/3772363.3798628
 [research_xiao_jia_2022]: https://doi.org/10.1109/icarce55724.2022.10046493
 [research_xu_ma_2024]: https://doi.org/10.3390/aerospace11020164
 [research_xu_metze_2014]: https://doi.org/10.21437/interspeech.2014-530
@@ -5271,24 +4525,17 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_yamashita_2012]: https://doi.org/10.1007/s00426-012-0453-9
 [research_yan_mairano_2026]: https://doi.org/10.3758/s13428-026-02981-7
 [research_yan_mairano_2026_b]: https://doi.org/10.3758/s13428-026-03090-1
-[research_yang_anderson_2024]: https://doi.org/10.18653/v1/2024.nlp4dh-1.3
 [research_yang_chen_2026]: https://doi.org/10.3389/fpsyg.2026.1859283
 [research_yang_zheng_2022]: https://doi.org/10.1109/icde53745.2022.00047
 [research_yanqing_zhang_2025]: https://doi.org/10.2139/ssrn.5607163
-[research_yaowang_erden_2012]: https://doi.org/10.1109/lmag.2012.2226935
 [research_yarkoni_balota_2008]: https://doi.org/10.3758/pbr.15.5.971
 [research_yash_2020]: https://doi.org/10.32841/2307-1745.2020.46.27
 [research_yencken_baldwin_2008]: https://doi.org/10.3115/1599081.1599212
 [research_yenckenlars_baldwintimothy_2008]: https://doi.org/10.3233/978-1-58603-891-5-343
 [research_yigit_2026]: https://doi.org/10.4274/eajem.galenos.2026.05882
-[research_yildiz_jamalova_2025]: https://doi.org/10.32523/2664-5157-2025-3-206-227
-[research_yiminguo_kochanju_1996]: https://doi.org/10.1109/20.538649
 [research_yoneyama_2001]: https://doi.org/10.1121/1.4777515
 [research_yoo_keshavarzi_2020]: https://doi.org/10.5530/ctbp.2020.4s.7
 [research_yoo_kim_2023]: https://doi.org/10.29056/jncist.2023.10.10
-[research_yoon_hwang_2019]: https://doi.org/10.1063/1.5130460
-[research_yoon_hwang_2021]: https://doi.org/10.1109/tmag.2020.3027015
-[research_yoonchunsuk_2015]: https://doi.org/10.18852/bdak.2015.13.3.29
 [research_yoshikawa_kizaki_2023]: https://doi.org/10.1248/bpb.b23-00396
 [research_you_alwan_2007]: https://doi.org/10.1109/icassp.2007.367020
 [research_young_2000]: https://doi.org/10.1067/mhc.2000.hc0050062
@@ -5296,34 +4543,26 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_yu_fang_2025]: https://doi.org/10.1007/s00371-025-03814-y
 [research_yu_wang_2016]: https://doi.org/10.1007/s00778-016-0449-y
 [research_yu_yang_2020]: https://doi.org/10.1007/978-3-030-41579-2_32
-[research_yuan_han_2010]: https://doi.org/10.1109/tmag.2010.2045106
 [research_yuan_shih_2004]: https://doi.org/10.21437/speechprosody.2004-31
 [research_yuan_wang_2014]: https://doi.org/10.4304/jsw.9.10.2721-2731
 [research_yun_choi_2023]: https://doi.org/10.46246/kjasem.230011
 [research_yuniar_febiyanti_2024]: https://doi.org/10.58230/27454312.1295
 [research_yunjusuh_2010]: https://doi.org/10.18855/lisoko.2010.35.4.005
-[research_yusupova_2025]: https://doi.org/10.33619/2414-2948/115/93
 [research_zacher_cunningham_2018]: https://doi.org/10.2146/ajhp170703
-[research_zaharias_antonakopoulos_2013]: https://doi.org/10.1109/icdsp.2013.6622699
 [research_zaijul_nadjamuddin_2026]: https://doi.org/10.56922/quilt.v6i1.2215
 [research_zaini_isnani_2026]: https://doi.org/10.52674/jkikt.v7i2.304
 [research_zee_willems_2026]: https://doi.org/10.1057/s41262-026-00436-0
 [research_zeeabrahamsen_haberman_2018]: https://doi.org/10.3758/s13428-018-1039-2
 [research_zeisel_kaye_1997]: https://doi.org/10.1007/978-1-4612-1824-1_11
 [research_zellmer_1993]: https://doi.org/10.1093/ajhp/50.2.315
-[research_zeng_chen]: https://doi.org/10.1109/intmag.2003.1230265
 [research_zgank_horvat_2005]: https://doi.org/10.1016/j.specom.2005.03.011
 [research_zgank_kacic_2012]: https://doi.org/10.5755/j01.eee.18.8.2628
-[research_zhang_2019]: https://doi.org/10.1109/ccdc.2019.8832780
 [research_zhang_cui_2010]: https://doi.org/10.21437/interspeech.2010-73
 [research_zhang_cui_2022]: https://doi.org/10.1080/19761597.2022.2042704
 [research_zhang_deng_2026]: https://doi.org/10.1016/j.cja.2025.103812
 [research_zhang_hu_2017]: https://doi.org/10.1109/iaeac.2017.8054419
-[research_zhang_huang_2017]: https://doi.org/10.1109/culture.and.computing.2017.13
 [research_zhang_jiang_2009]: https://doi.org/10.1109/icassp.2009.4959832
 [research_zhang_jin_2021]: https://doi.org/10.1115/1.0002073v
-[research_zhang_li_2021]: https://doi.org/10.1111/ijcs.12746
-[research_zhang_liu_2012]: https://doi.org/10.1007/s00542-012-1503-3
 [research_zhang_osth_2023]: https://doi.org/10.31234/osf.io/95hnw
 [research_zhang_osth_2024]: https://doi.org/10.1016/j.cogpsych.2023.101619
 [research_zhang_yu_2014]: https://doi.org/10.1504/ijwmc.2014.058872
@@ -5333,7 +4572,6 @@ The count of cross-series numeric collisions in a system where each mission seri
 [research_zhao_wong_2018]: https://doi.org/10.1155/2018/6275435
 [research_zhao_xiao_2012]: https://doi.org/10.1109/icde.2012.91
 [research_zhao_xiao_2013]: https://doi.org/10.1007/s00778-013-0306-1
-[research_zhaohuifan_zhenyongzhang_2009]: https://doi.org/10.1109/apmrc.2009.4925389
 [research_zheng_song_2002]: https://doi.org/10.21437/icslp.2002-641
 [research_zheng_zou_2013]: https://doi.org/10.1145/2505515.2505723
 [research_zhifengsun_jiehe_2015]: https://doi.org/10.1049/cp.2015.0225

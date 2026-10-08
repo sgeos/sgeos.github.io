@@ -661,6 +661,8 @@ The engineering texts used for the relations above are [Anderson 2001][book_ande
 
 Two collections deserve separate mention. [Donlan 1976][research_donlan_collected_1976] gathers the collected works of one of the engineers closest to the configuration decisions, and the 1949 [NACA transonic conference][research_transonic_conference_1949] records the state of the problem two years after the first supersonic flight, which is a useful check on how much the flight actually settled at the time.
 
+**The research survey was read again in full on 7 October 2026, and the re-reading refused none of its records.** All 166 research works were read by title, the four that the vocabulary screen flagged and the 162 it passed, and each belongs to the transonic aerodynamic, control, structural, measurement or experiment-design literature this article uses, so the total stays at 166 and the estimated remaining contamination is zero.
+
 ## Epistemic State
 
 Established historical fact includes the existence and sponsorship of the programme, the three airframes, the eight-percent and ten-percent wings on the first two aircraft, the XLR11 engine and its propellants, the air launch from a B-29, the all-moving stabilizer, the flight of 14 October 1947 at approximately Mach 1.06, the flight of 26 March 1948 at approximately Mach 1.45, the loss of the third airframe to a ground explosion, and the preservation of the first airframe by the National Air and Space Museum. These are documented in the NACA reports cited and in the standard secondary accounts.

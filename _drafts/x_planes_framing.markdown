@@ -809,6 +809,8 @@ The contemporary record thins sharply. Programmes after roughly 2000 generate pr
 
 Three specific gaps are worth naming in advance. The X-23 attribution conflict has not been resolved in the public literature. The X-42 is described inconsistently across the two sources that mention it at all, one calling it an expendable liquid-propellant upper stage and the other a military spaceplane test vehicle, and no dedicated treatment exists anywhere. The X-44 duplication is documented but the sequence of events that produced it is not.
 
+**The research survey was read again in full on 7 October 2026, and the re-reading refused none of its records.** All 131 research works were read by title, the five that the vocabulary screen flagged and the 126 it passed, and each belongs to the aerodynamic, propulsion, structural, measurement or experiment-design literature this article uses, so the total stays at 131 and the estimated remaining contamination is zero. The one doubtful record is the spinal rod model study of [Nagaraja and Loughran 2020][research_nagaraja_loughran_2020], which is kept because the article cites it for model credibility as a method rather than for its subject.
+
 ## The Contemporary Literature
 
 The historical literature above describes the programmes. A survey that stopped there would misrepresent the field, because most of the questions these aircraft opened are still open and are still being worked. This section reviews where the contemporary literature stands on each of the threads the series follows, and it is written from the position that a reader who wants to act on any of this should be reading the last ten years rather than the archive.

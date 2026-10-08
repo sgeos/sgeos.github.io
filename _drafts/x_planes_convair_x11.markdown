@@ -542,7 +542,7 @@ and at a latent heat of 213 kilojoules per kilogramme the boil-off is
 
 $$\dot{m}_{\text{boil}} = \frac{\dot{Q}}{L_{v}} = \frac{3.45 \times 10^{5}}{2.13 \times 10^{5}} = 1.62 \, \text{kg/s}$$
 
-or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen load every hour**. Liquid oxygen at 90 kelvin against an ambient near 290 therefore boils continuously, the tank must be topped until moments before launch, and the ullage pressure must be regulated throughout. The insulation that reduces the rate appears in [Weiss and Goodman 1960][research_weiss_goodman_1960] and [Walton and Simmons 1962][research_walton_simmons_1962], and the conditioning of the propellant before launch is [Greenfield 1960][research_greenfield_1960]. A pressure regulation failure is a structural failure on this vehicle rather than a propulsion inconvenience, which is the recurring theme of the whole design. [Slider 1967][research_slider_1967] analyses pressure buildup in a cryogenic tank, and two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
+or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen load every hour**. Liquid oxygen at 90 kelvin against an ambient near 290 therefore boils continuously, the tank must be topped until moments before launch, and the ullage pressure must be regulated throughout. The insulation that reduces the rate appears in [Weiss and Goodman 1960][research_weiss_goodman_1960] and [Walton and Simmons 1962][research_walton_simmons_1962], and the conditioning of the propellant before launch is [Greenfield 1960][research_greenfield_1960]. A pressure regulation failure is a structural failure on this vehicle rather than a propulsion inconvenience, which is the recurring theme of the whole design. Two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
 
 ## The Flight Test Record
 
@@ -773,7 +773,7 @@ A pressure-stabilised stage that reaches orbit is a large thin-walled pressure v
 
 ### Reentry, Which the X-11 Did Not Carry
 
-[Morgado et al 2022][research_morgado_2022] and [Sharma et al 2024][research_sharma_2024] take reentry aerothermodynamics, [Appar and Kumar 2021][research_appar_kumar_2021] ablates at the fluid-solid interface, [Ren 2025, Novel insights into flow mechanics][research_ren_2025_2] examines the flow mechanics of it, [Gerasimov 2025][research_gerasimov_2025] takes ablative carbon protection and [Tian et al 2025][research_tian_2025] an aerogel ceramic, aerothermodynamic sensitivity and optimisation belongs to [Horing et al 2025][research_horing_2025], reachability of a manoeuvring body is [Webb et al 2026][research_webb_2026] and [Su et al 2026][research_su_2026], learned guidance is [Marchetti and Minisci 2021][research_marchetti_minisci_2021], covariance propagation for a high-order system is [Chen et al 2025][research_chen_2025], and the defensive problem of identifying what is coming is [Tonko and Lambiase 2024][research_tonko_lambiase_2024]. The uncontrolled case, which is the same physics applied to debris, is [Öztürk et al 2026][research_ozturk_2026], [Fernando and Charalambous 2026][research_fernando_charalambous_2026], and [Bigham and Puri 2025][research_bigham_puri_2025].
+[Morgado et al 2022][research_morgado_2022] and [Sharma et al 2024][research_sharma_2024] take reentry aerothermodynamics, [Appar and Kumar 2021][research_appar_kumar_2021] ablates at the fluid-solid interface, [Ren 2025, Novel insights into flow mechanics][research_ren_2025_2] examines the flow mechanics of it, [Gerasimov 2025][research_gerasimov_2025] takes ablative carbon protection and [Tian et al 2025][research_tian_2025] an aerogel ceramic, aerothermodynamic sensitivity and optimisation belongs to [Horing et al 2025][research_horing_2025], reachability of a manoeuvring body is [Webb et al 2026][research_webb_2026] and [Su et al 2026][research_su_2026], learned guidance is [Marchetti and Minisci 2021][research_marchetti_minisci_2021], and covariance propagation for a high-order system is [Chen et al 2025][research_chen_2025]. The uncontrolled case, which is the same physics applied to debris, is [Öztürk et al 2026][research_ozturk_2026], [Fernando and Charalambous 2026][research_fernando_charalambous_2026], and [Bigham and Puri 2025][research_bigham_puri_2025].
 
 ### Economics, Reuse, and the Argument the Atlas Won and Then Lost
 
@@ -878,11 +878,13 @@ The contrast with the previous article is sharp and it is worth stating as a con
 
 The aerospace archive holds the structural literature rather than the vehicle, which suits this article because the keystone is a structural principle and not a vehicle detail. The shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable.
 
-**The aerospace archive holds the discipline rather than the vehicle**, and for this article that is the right trade. The keystone is a structural principle, and the shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable. Nineteen NTRS records are cited here against eleven before the primary pass, and the ones that matter most, namely the pressurised-cylinder buckling correlation and the imperfection-sensitivity measurements, are exactly the documents a designer of this vehicle would have had on his desk.
+**The aerospace archive holds the discipline rather than the vehicle**, and for this article that is the right trade. The keystone is a structural principle, and the shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable. Twenty records from the Technical Reports Server of the National Aeronautics and Space Administration, the NTRS, are cited here against eleven before the primary pass, and the ones that matter most, namely the pressurised-cylinder buckling correlation and the imperfection-sensitivity measurements, are exactly the documents a designer of this vehicle would have had on his desk.
 
 **What is thin is the X-11 as such.** The designation appears in compilations and the flight record is well attested, but the accessible record concerns the Atlas A rather than a vehicle called X-11, and no document found for this article uses the X designation. That is the fourth consecutive article in which the X number is an administrative label rather than a name anyone used, and the pattern identified in the [previous article][related_post_a307_north_american_x10] now has more instances than the series has counterexamples in this stretch.
 
 **The mass data is the specific gap.** Gross, empty, and propellant masses for the Atlas A itself were not found, so the article uses Atlas D figures throughout and says so wherever they appear. Since the Atlas A was an earlier and heavier article, the structural fraction used here is better than the fraction the X-11 actually achieved, and every range figure derived from it is correspondingly optimistic. The direction of the error is known even though its size is not, which is the most that can be said.
+
+**The research works were re-read on 7 October 2026, and the re-reading refused none of them.** Every one of the 342 research works in the references is cited by name in a sentence of this article, and a reading of every title, the 41 that the screens flagged, a sample of 300 of the rest and the one remaining, found two off topic, a cardiac study of reentry circuits in ventricular tachycardia and a pressure buildup test of a stabilised well, which puts the contamination near 0.7 percent. **Both were then removed by hand**, together with the clause of each sentence that cited them, so the total stands at 340. The nearest calls kept were the bridge, wind turbine and solar panel studies cited for their identification and wind-load methods, and the two studies of deterrence posture.
 
 ## Epistemic State
 
@@ -1228,7 +1230,6 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Shaw et al 1952][research_shaw_1952]
 - [Simon 1965][research_simon_1965]
 - [Singh et al 2026][research_singh_2026]
-- [Slider 1967][research_slider_1967]
 - [Slifka 1960][research_slifka_1960]
 - [Snodgrass 1955][research_snodgrass_1955]
 - [Snyder et al 1974][research_snyder_1974]
@@ -1253,7 +1254,6 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Thomas 2022][research_thomas_2022]
 - [Thompson et al 2025][research_thompson_2025]
 - [Tian et al 2025][research_tian_2025]
-- [Tonko and Lambiase 2024][research_tonko_lambiase_2024]
 - [Tozawa 1969][research_tozawa_1969]
 - [Trushlyakov et al 2024][research_trushlyakov_2024]
 - [Tyzzer and Pernet 1964][research_tyzzer_pernet_1964]
@@ -1572,7 +1572,6 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [research_shaw_1952]: https://doi.org/10.21236/ad0219218
 [research_simon_1965]: https://doi.org/10.2514/6.1965-1146
 [research_singh_2026]: https://doi.org/10.1016/j.ast.2025.111549
-[research_slider_1967]: https://doi.org/10.2118/1765-ms
 [research_slifka_1960]: https://doi.org/10.1109/jrproc.1960.287405
 [research_snodgrass_1955]: https://doi.org/10.2514/8.6860
 [research_snyder_1974]: https://ntrs.nasa.gov/citations/19750032829
@@ -1597,7 +1596,6 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [research_thomas_2022]: https://doi.org/10.1016/j.jmapro.2021.12.037
 [research_thompson_2025]: https://doi.org/10.1080/09349847.2025.2580247
 [research_tian_2025]: https://doi.org/10.1016/j.cej.2025.169346
-[research_tonko_lambiase_2024]: https://doi.org/10.1093/europace/euae102.358
 [research_tozawa_1969]: https://doi.org/10.4262/denkiseiko.40.126
 [research_trushlyakov_2024]: https://doi.org/10.1016/j.cja.2023.09.018
 [research_tyzzer_pernet_1964]: https://doi.org/10.21236/ad0601611

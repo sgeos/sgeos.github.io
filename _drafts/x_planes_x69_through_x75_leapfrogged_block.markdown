@@ -540,7 +540,7 @@ so the unmanned series has followed $\nu^{\mathrm{c}}$ and not $\nu^{\mathrm{hi}
 
 **There is no literature on the X-69 through X-75, and the article says so first.** A block of numbers that was never allocated produces no technical papers, and the sweep found none. **What the sweep maps is the set of fields this question sits in.** They are the engineering literature of designation and identifier allocation, the behavioural literature of why particular numbers are chosen, the statistical literature of inferring unseen counts from numbered items, the humanities and social science literature of commemoration and commemorative naming, and the public administration literature on discretion within rules.
 
-**Two sweeps admitted 2,071 records from a pool of 15,522, and the article cites 1,868 distinct swept works after removing 203 repeat registrations, plus 13 research primaries chosen by hand and verified by title, for 1,881 in all.** The second sweep was aimed at the reports servers in the designation system's own vocabulary and is described under the source base. Of the admitted records, 225 were carried over from the [X-67][related_post_a364_x67_slot_taken_by_xq67] article's designation, identifier and taxonomy clusters rather than harvested again. A work admitted to several clusters is cited once, under the first of them in the order below. **The bookkeeping is a set of identities rather than assertions**, each checked by the verifier.
+**Two sweeps admitted 2,071 records from a pool of 15,522, and the article cites 1,868 distinct swept works after removing 203 repeat registrations, plus 13 research primaries chosen by hand and verified by title, for 1,881 in all, a total the rebuild of 7 October 2026 reduced to 1,650.** The second sweep was aimed at the reports servers in the designation system's own vocabulary and is described under the source base. Of the admitted records, 225 were carried over from the [X-67][related_post_a364_x67_slot_taken_by_xq67] article's designation, identifier and taxonomy clusters rather than harvested again. A work admitted to several clusters is cited once, under the first of them in the order below. **The bookkeeping is a set of identities rather than assertions**, each checked by the verifier.
 
 $$
 15{,}522 \;=\; 11{,}223 + 161 + 1{,}645 + 2{,}493, \qquad 2{,}071 \;=\; 1{,}846 + 225
@@ -558,19 +558,19 @@ $$
 
 | Cluster | Works cited | What it holds |
 |---|---:|---|
-| Designation, nomenclature and configuration identification | 121 | `designation` |
-| Identifier allocation, registries and numbering plans | 262 | `registry` |
-| Version numbering | 32 | `versioning` |
+| Designation, nomenclature and configuration identification | 110 | `designation` |
+| Identifier allocation, registries and numbering plans | 251 | `registry` |
+| Version numbering | 18 | `versioning` |
 | Classification and numerical taxonomy | 51 | `taxonomy` |
-| Why particular numbers are chosen | 303 | `number_choice` |
-| Inferring unseen counts from numbered items | 28 | `serial_inference` |
-| Anniversaries, centennials and bicentennials | 235 | `anniversary` |
-| Commemoration and collective memory | 353 | `memory` |
-| Commemorative naming and critical toponymy | 221 | `toponymy` |
-| Military heritage, tradition and naming | 37 | `military_heritage` |
+| Why particular numbers are chosen | 200 | `number_choice` |
+| Inferring unseen counts from numbered items | 19 | `serial_inference` |
+| Anniversaries, centennials and bicentennials | 216 | `anniversary` |
+| Commemoration and collective memory | 295 | `memory` |
+| Commemorative naming and critical toponymy | 216 | `toponymy` |
+| Military heritage, tradition and naming | 36 | `military_heritage` |
 | Symbolic politics and the politics of naming | 8 | `symbolic_politics` |
 | Discretion within rules | 230 | `discretion` |
-| **All clusters** | **1,881** | |
+| **All clusters** | **1,650** | |
 
 **The shape of that table is the argument restated.** The commemoration clusters together, which are anniversaries, memory, commemorative naming and military heritage, are the largest group, because the X-76's number is an act of commemoration and those fields study such acts. **The literature closest to the X-76's motive is not aeronautical.** One of its founding papers observes that street names are ostensibly visible, quintessentially mundane and seemingly obvious, which it gives as the reason social scientists had hardly studied them as instruments of authority, and it treats the use of street names for commemoration as a fundamental feature of modern political culture \[[Azaryahu 1996][research_azaryahu_1996]]. The same author's titles follow renaming through changes of regime, in Berlin from 1945 to 1948 and in East Berlin after reunification \[[Azaryahu 2011][research_azaryahu_2011]] \[[Azaryahu 1997][research_azaryahu_1997]]. A later review describes the field's critical turn away from etymology and taxonomy toward the politics of place-naming practices \[[Rose-Redwood et al 2009][research_roseredwood_alderman_2009]] \[[Rose-Redwood et al 2008][research_roseredwood_alderman_2008]], and the commemoration of Martin Luther King on American streets is among its cases \[[Alderman 2003][research_alderman_2003]] \[[Alderman and Inwood 2013][research_alderman_inwood_2013]]. Behind it sits the literature of collective memory and commemoration \[[Nora 1989][research_nora_1989]] \[[Schwartz 1982][research_schwartz_1982]], including the shaping of the national holiday calendar \[[Schwartz 2008][research_schwartz_2008]], the invention of traditions \[[Hobsbawm 2012][research_hobsbawm_2012]], and the American bicentennial of 1976 itself \[[Rymsza-Pawlowska 2017][research_rymszapawlowska_2017]] \[[Hattem 2024][research_hattem_2024]]. **A design number is visible, mundane and seemingly obvious in exactly the sense that abstract uses**, which is a reason to read the founding-year class through this literature rather than through aeronautics. The literature of commemorative naming, much of which calls itself critical toponymy, studies who renames streets and squares, when they do it and what the names are made to say. **Of the 243 titles the gate admitted to that cluster, 73 name commemoration or memory, 39 name renaming, and 27 name a regime, a revolution, independence or colonialism.** As shares of the cluster,
 
@@ -584,19 +584,19 @@ That is a measurement of titles and not a reading of findings, and it says that 
 
 **This is the system's own literature.** It covers designation and nomenclature systems for aircraft, missiles and manufactured items, configuration identification, and the history of research aircraft, and most of it was carried over from the [X-67][related_post_a364_x67_slot_taken_by_xq67] article's sweep.
 
-**121 works.** \[[Steven R Hirshorn et al 2024][research_stevenrhirshorn_tiffanylsmith_2024]] \[[Van Dalsem, William R. 2019][research_vandalsemwilliamr_2019]] \[[Garcia, Joseph A. et al 2019][research_garciajosepha_bowlesjeffreyv_2019]] \[[Sterk, Steve et al 2018][research_sterksteve_alexanderolivia_2018]] \[[Cumming, Stephen B. et al 2017][research_cummingstephenb_buitrong_2017]] \[[Lechniak, Jason A. and Melton, John E. 2017][research_lechniakjasona_meltonjohne_2017]] \[[Sterk, Steve et al 2016][research_sterksteve_ogluinanthony_2016]] \[[Cosentino, Gary B. 2008][research_cosentinogaryb_2008]] \[[Cosentino, Gary B. 2007][research_cosentinogaryb_2007]] \[[Jenkins, Dennis R. et al 2003][research_jenkinsdennisr_landistony_2003]] \[[Sligh et al 2002][research_sligh_wong_2002]] \[[Quantick 2001][research_quantick_2001]] \[[Miller, Jay and Jenkins, Dennis R. 2000][research_millerjay_jenkinsdennisr_2000]] \[[Hoek et al 1998][research_hoek_carzaniga_1998]] \[[Tate 1998][research_tate_1998]] \[[Colston 1998][research_colston_1998]] \[[Hoek et al 1998][research_hoek_heimbigner_1998]] \[[Hoek et al 1998][research_hoek_heimbigner_1998_2]] \[[Hicks, John W. and Trippensee, Gary 1997][research_hicksjohnw_trippenseegary_1997]] \[[Hoek et al 1995][research_hoek_heimbigner_1995]] \[[Bright et al 1993][research_bright_humber_1993]] \[[Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]] \[[Wallnau 1992][research_wallnau_1992]] \[[Dart 1992][research_dart_1992]] \[[Smith and Wandelt 1991][research_smith_wandelt_1991]] \[[Wagner and Foster 1990][research_wagner_foster_1990]] \[[Tomayko 1990][research_tomayko_1990]] \[[Feiler and Downey 1990][research_feiler_downey_1990]] \[[Transportation Systems Center Cambridge Ma 1989][research_transportationsystemscentercambridgema_1989]] \[[Missouri Univ-Rolla 1988][research_missouriunivrolla_1988]] \[[Dunleavy 1988][research_dunleavy_1988]] \[[Hood 1987][research_hood_1987]] \[[Harvey 1986][research_harvey_1986]] \[[Tomayko 1986][research_tomayko_1986]] \[[Fabry 1980][research_fabry_1980]] \[[Jucevic 1978][research_jucevic_1978]] \[[Searle 1977][research_searle_1977]] \[[Piligian et al 1968][research_piligian_bashaw_1968]] \[[Wright 1962][research_wright_1962]] \[[Louis M Edelman][research_louismedelman]] \[[Raymond Castner][research_raymondcastner]] \[[Ray Castner][research_raycastner]] \[[Particle Swarm Optimization-Based Hazardous 2026][research_particle_swarm_2026]] \[[Change Control and Configuration 2023][research_change_control_2023]] \[[Kulenkampff et al 2023][research_kulenkampff_duraku_2023]] \[[Lee 2023][research_lee_2023]] \[[Gorn and De Chiara 2021][research_gorn_dechiara_2021]] \[[Borysov 2020][research_borysov_2020]] \[[Registry Nomenclature Information System 2020][research_registry_nomenclature_2020]] \[[Appendix 1 Standard nomenclature 2019][research_appendix_1_2019]] \[[Change management, configuration management 2018][research_change_management_2018]] \[[Masmoudi et al 2017][research_masmoudi_leclaire_2017]] \[[Tang et al 2017][research_tang_yin_2017]] \[[Volobuiev and Fedin 2015][research_volobuiev_fedin_2015]] \[[Rao et al 2014][research_rao_chen_2014]] \[[Fonder and Headley 2013][research_fonder_headley_2013]] \[[Mehmood et al 2013][research_mehmood_shah_2013]] \[[Mathur and Jain 2011][research_mathur_jain_2011]] \[[Hrebeniuk 2010][research_hrebeniuk_2010]] \[[Bryan 2009][research_bryan_2009]] \[[Change Control and Configuration 2008][research_change_control_2008]] \[[Keller 2008][research_keller_2008]] \[[Kögel 2008][research_kogel_2008]] \[[Configuration Management Identification 2007][research_configuration_management_2007]] \[[System Configuration Identification 2005][research_system_configuration_2005]] \[[Configuration Identification 2004][research_configuration_identification_2004]] \[[How Configuration Identification Works 2004][research_how_configuration_2004]] \[[Configuration Identification 2004][research_configuration_identification_2004_2]] \[[Configuration Management and Software 2004][research_configuration_management_2004]] \[[Carnduff 2004][research_carnduff_2004]] \[[Nangia 2004][research_nangia_2004]] \[[Barkstrom 2003][research_barkstrom_2003]] \[[Configuration Control 2002][research_configuration_control_2002]] \[[Configuration Identification 2002][research_configuration_identification_2002]] \[[Kölmel and Eisenbiegler 2001][research_kolmel_eisenbiegler_2001]] \[[Tichy 2001][research_tichy_2001]] \[[Calvo-Manzano et al 2001][research_calvomanzano_garcia_2001]] \[[Weik 2000][research_weik_2000]] \[[Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]] \[[Joeris 1997][research_joeris_1997]] \[[MacKay 1996][research_mackay_1996]] \[[Configuration Identification 1995][research_configuration_identification_1995]] \[[Martinis 1990][research_martinis_1990]] \[[Vines 1989][research_vines_1989]] \[[Young 1989][research_young_1989]] \[[Change Control vs. Change 1987][research_change_control_1987]] \[[Change Control vs. Change 1986][research_change_control_1986]] \[[Buckle 1982][research_buckle_1982]] \[[Nomenclature and symbols inchemical 1980][research_nomenclature_and_1980]] \[[Martin 1956][research_martin_1956]] \[[Nomenclature in Electrical Engineering 1938][research_nomenclature_in_1938]] \[[American engineering standards committee 1925][research_american_engineering_1925]] \[[Illuminating Engineering Nomenclature and 1922][research_illuminating_engineering_1922]] \[[Aircraft Propulsion System Performance][research_aircraft_propulsion]] \[[Aircraft Propulsion System Performance][research_aircraft_propulsion_2]] \[[Aircraft Propulsion System Performance][research_aircraft_propulsion_3]] \[[Carbon fibre. Designation system][research_carbon_fibre]] \[[Configuration Identification][research_configuration_identification]] \[[Configuration Identification for Digital][research_configuration_identification_2]] \[[Configuration-Management][research_configuration_management]] \[[Construction drawings. Designation systems][research_construction_drawings]] \[[Dentistry � Designation system][research_dentistry]] \[[Dentistry. Designation system for][research_dentistry_designation]] \[[Dentistry. Designation system for][research_dentistry_designation_2]] \[[Dentistry. Designation system for][research_dentistry_designation_3]] \[[Dentistry. Vocabulary and designation][research_dentistry_vocabulary]] \[[Designation system for steels][research_designation_system]] \[[Designation system for teeth][research_designation_system_2]] \[[Designation systems for steels][research_designation_systems]] \[[Founding. Designation system for][research_founding_designation]] \[[Glass bulb designation system][research_glass_bulb]] \[[New designation system for][research_new_designation]] \[[Nomenclature for glass bulb][research_nomenclature_for]] \[[Programme Management. Configuration Management][research_programme_management]] \[[Railway applications. Designation system][research_railway_applications]] \[[Recycled carbon fibres �][research_recycled_carbon]] \[[Refrigerants. Designation system][research_refrigerants_designation]] \[[Rolling bearings. Tapered roller][research_rolling_bearings]] \[[Technical product documentation. Reference][research_technical_product]] \[[Titanium and titanium alloys][research_titanium_and]] \[[Welding and allied processes][research_welding_and]]
+**110 works.** \[[Steven R Hirshorn et al 2024][research_stevenrhirshorn_tiffanylsmith_2024]] \[[Van Dalsem, William R. 2019][research_vandalsemwilliamr_2019]] \[[Garcia, Joseph A. et al 2019][research_garciajosepha_bowlesjeffreyv_2019]] \[[Sterk, Steve et al 2018][research_sterksteve_alexanderolivia_2018]] \[[Cumming, Stephen B. et al 2017][research_cummingstephenb_buitrong_2017]] \[[Lechniak, Jason A. and Melton, John E. 2017][research_lechniakjasona_meltonjohne_2017]] \[[Sterk, Steve et al 2016][research_sterksteve_ogluinanthony_2016]] \[[Cosentino, Gary B. 2008][research_cosentinogaryb_2008]] \[[Cosentino, Gary B. 2007][research_cosentinogaryb_2007]] \[[Jenkins, Dennis R. et al 2003][research_jenkinsdennisr_landistony_2003]] \[[Sligh et al 2002][research_sligh_wong_2002]] \[[Quantick 2001][research_quantick_2001]] \[[Miller, Jay and Jenkins, Dennis R. 2000][research_millerjay_jenkinsdennisr_2000]] \[[Hoek et al 1998][research_hoek_carzaniga_1998]] \[[Tate 1998][research_tate_1998]] \[[Colston 1998][research_colston_1998]] \[[Hoek et al 1998][research_hoek_heimbigner_1998]] \[[Hoek et al 1998][research_hoek_heimbigner_1998_2]] \[[Hicks, John W. and Trippensee, Gary 1997][research_hicksjohnw_trippenseegary_1997]] \[[Hoek et al 1995][research_hoek_heimbigner_1995]] \[[Bright et al 1993][research_bright_humber_1993]] \[[Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]] \[[Wallnau 1992][research_wallnau_1992]] \[[Dart 1992][research_dart_1992]] \[[Smith and Wandelt 1991][research_smith_wandelt_1991]] \[[Wagner and Foster 1990][research_wagner_foster_1990]] \[[Tomayko 1990][research_tomayko_1990]] \[[Feiler and Downey 1990][research_feiler_downey_1990]] \[[Transportation Systems Center Cambridge Ma 1989][research_transportationsystemscentercambridgema_1989]] \[[Missouri Univ-Rolla 1988][research_missouriunivrolla_1988]] \[[Dunleavy 1988][research_dunleavy_1988]] \[[Hood 1987][research_hood_1987]] \[[Harvey 1986][research_harvey_1986]] \[[Tomayko 1986][research_tomayko_1986]] \[[Fabry 1980][research_fabry_1980]] \[[Jucevic 1978][research_jucevic_1978]] \[[Searle 1977][research_searle_1977]] \[[Piligian et al 1968][research_piligian_bashaw_1968]] \[[Wright 1962][research_wright_1962]] \[[Louis M Edelman][research_louismedelman]] \[[Raymond Castner][research_raymondcastner]] \[[Ray Castner][research_raycastner]] \[[Change Control and Configuration 2023][research_change_control_2023]] \[[Lee 2023][research_lee_2023]] \[[Gorn and De Chiara 2021][research_gorn_dechiara_2021]] \[[Registry Nomenclature Information System 2020][research_registry_nomenclature_2020]] \[[Appendix 1 Standard nomenclature 2019][research_appendix_1_2019]] \[[Change management, configuration management 2018][research_change_management_2018]] \[[Masmoudi et al 2017][research_masmoudi_leclaire_2017]] \[[Tang et al 2017][research_tang_yin_2017]] \[[Fonder and Headley 2013][research_fonder_headley_2013]] \[[Mehmood et al 2013][research_mehmood_shah_2013]] \[[Mathur and Jain 2011][research_mathur_jain_2011]] \[[Bryan 2009][research_bryan_2009]] \[[Change Control and Configuration 2008][research_change_control_2008]] \[[Keller 2008][research_keller_2008]] \[[Kögel 2008][research_kogel_2008]] \[[Configuration Management Identification 2007][research_configuration_management_2007]] \[[System Configuration Identification 2005][research_system_configuration_2005]] \[[Configuration Identification 2004][research_configuration_identification_2004]] \[[How Configuration Identification Works 2004][research_how_configuration_2004]] \[[Configuration Identification 2004][research_configuration_identification_2004_2]] \[[Configuration Management and Software 2004][research_configuration_management_2004]] \[[Carnduff 2004][research_carnduff_2004]] \[[Nangia 2004][research_nangia_2004]] \[[Barkstrom 2003][research_barkstrom_2003]] \[[Configuration Control 2002][research_configuration_control_2002]] \[[Configuration Identification 2002][research_configuration_identification_2002]] \[[Kölmel and Eisenbiegler 2001][research_kolmel_eisenbiegler_2001]] \[[Tichy 2001][research_tichy_2001]] \[[Calvo-Manzano et al 2001][research_calvomanzano_garcia_2001]] \[[Weik 2000][research_weik_2000]] \[[Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]] \[[Joeris 1997][research_joeris_1997]] \[[MacKay 1996][research_mackay_1996]] \[[Configuration Identification 1995][research_configuration_identification_1995]] \[[Martinis 1990][research_martinis_1990]] \[[Vines 1989][research_vines_1989]] \[[Young 1989][research_young_1989]] \[[Change Control vs. Change 1987][research_change_control_1987]] \[[Change Control vs. Change 1986][research_change_control_1986]] \[[Buckle 1982][research_buckle_1982]] \[[Nomenclature and symbols inchemical 1980][research_nomenclature_and_1980]] \[[Martin 1956][research_martin_1956]] \[[Nomenclature in Electrical Engineering 1938][research_nomenclature_in_1938]] \[[American engineering standards committee 1925][research_american_engineering_1925]] \[[Illuminating Engineering Nomenclature and 1922][research_illuminating_engineering_1922]] \[[Aircraft Propulsion System Performance][research_aircraft_propulsion]] \[[Aircraft Propulsion System Performance][research_aircraft_propulsion_2]] \[[Aircraft Propulsion System Performance][research_aircraft_propulsion_3]] \[[Carbon fibre. Designation system][research_carbon_fibre]] \[[Configuration Identification][research_configuration_identification]] \[[Configuration Identification for Digital][research_configuration_identification_2]] \[[Configuration-Management][research_configuration_management]] \[[Construction drawings. Designation systems][research_construction_drawings]] \[[Dentistry. Designation system for][research_dentistry_designation]] \[[Designation system for steels][research_designation_system]] \[[Designation systems for steels][research_designation_systems]] \[[Founding. Designation system for][research_founding_designation]] \[[Glass bulb designation system][research_glass_bulb]] \[[New designation system for][research_new_designation]] \[[Nomenclature for glass bulb][research_nomenclature_for]] \[[Programme Management. Configuration Management][research_programme_management]] \[[Railway applications. Designation system][research_railway_applications]] \[[Recycled carbon fibres �][research_recycled_carbon]] \[[Refrigerants. Designation system][research_refrigerants_designation]] \[[Rolling bearings. Tapered roller][research_rolling_bearings]] \[[Technical product documentation. Reference][research_technical_product]] \[[Titanium and titanium alloys][research_titanium_and]] \[[Welding and allied processes][research_welding_and]]
 
 ### Identifier allocation, registries and numbering plans
 
 **The questions a designation office faces are better documented for other registries.** Telephone numbering plans, address allocation, registration authorities and persistent identifiers all face the choice between issuing the next number and issuing a meaningful one, and between reclaiming a passed number and retiring it.
 
-**262 works.** \[[Hoffert 1988][research_hoffert_1988]] \[[Fay et al 2026][research_fay_salmen_2026]] \[[Pérez Vera 2026][research_perezvera_2026]] \[[Assessing the Impact of 2026][research_assessing_the_2026]] \[[Chigwada et al 2026][research_chigwada_chiparausha_2026]] \[[Martin et al 2026][research_martin_levett_2026]] \[[Golovachev 2026][research_golovachev_2026]] \[[Liang et al 2026][research_liang_he_2026]] \[[Czerniak et al 2026][research_czerniak_genderjahn_2026]] \[[Hsu and Edmunds 2026][research_hsu_edmunds_2026]] \[[Felix de Moura 2026][research_felixdemoura_2026]] \[[Crossref 2026][research_crossref_2026]] \[[Cebeci 2026][research_cebeci_2026]] \[[Bronselaer 2025][research_bronselaer_2025]] \[[Webster 2025][research_webster_2025]] \[[Carpenter et al 2025][research_carpenter_krishnan_2025]] \[[Hernández Gutierrez et al 2025][research_hernandezgutierrez_aguilar_2025]] \[[Reyes-Lillo et al 2025][research_reyeslillo_rovira_2025]] \[[Yao 2025][research_yao_2025]] \[[Nasrullah et al 2025][research_nasrullah_gondomono_2025]] \[[Abedrapo Rosen and Hartley Belmar 2025][research_abedraporosen_hartleybelmar_2025]] \[[Panter et al 2025][research_panter_hindman_2025]] \[[Kandler 2025][research_kandler_2025]] \[[Fenner 2025][research_fenner_2025]] \[[Stoll and de Lamotte 2025][research_stoll_delamotte_2025]] \[[Review Open Science governance 2025][research_review_open_2025]] \[[Bhirawa 2025][research_bhirawa_2025]] \[[Ajibode et al 2025][research_ajibode_bangash_2025]] \[[Wang et al 2025][research_wang_li_2025]] \[[Iman 2025][research_iman_2025]] \[[Chala et al 2024][research_chala_endresen_2024]] \[[Moshayedi et al 2024][research_moshayedi_yu_2024]] \[[Chodacki et al 2024][research_chodacki_carpenter_2024]] \[[Park et al 2024][research_park_sin_2024]] \[[Nizami 2024][research_nizami_2024]] \[[Chapman 2024][research_chapman_2024]] \[[Mandal and Mandal 2024][research_mandal_mandal_2024]] \[[Riley 2024][research_riley_2024]] \[[Owango et al 2024][research_owango_wyborn_2024]] \[[Pinckney et al 2023][research_pinckney_cassano_2023]] \[[Li et al 2023][research_li_wu_2023]] \[[Tournier 2023][research_tournier_2023]] \[[Rzepa 2023][research_rzepa_2023]] \[[Rzepa 2023][research_rzepa_2023_2]] \[[van Veenendaal 2023][research_vanveenendaal_2023]] \[[Fenner 2023][research_fenner_2023]] \[[Islam 2023][research_islam_2023]] \[[Page 2023][research_page_2023]] \[[Page 2023][research_page_2023_2]] \[[Page 2023][research_page_2023_3]] \[[Page 2023][research_page_2023_4]] \[[Page 2023][research_page_2023_5]] \[[Page 2023][research_page_2023_6]] \[[Page 2023][research_page_2023_7]] \[[Page 2023][research_page_2023_8]] \[[Page 2023][research_page_2023_9]] \[[Page 2023][research_page_2023_10]] \[[Page 2023][research_page_2023_11]] \[[Page 2023][research_page_2023_12]] \[[Page 2023][research_page_2023_13]] \[[Page 2023][research_page_2023_14]] \[[Minihan et al 2023][research_minihan_robinson_2023]] \[[Brower and Narlock 2023][research_brower_narlock_2023]] \[[Murillo-Gonzalez and López 2023][research_murillogonzalez_lopez_2023]] \[[Shu 2023][research_shu_2023]] \[[Burton et al 2023][research_burton_cocks_2023]] \[[Carvalho 2023][research_carvalho_2023]] \[[Page 2023][research_page_2023_15]] \[[Aghassibake et al 2023][research_aghassibake_castello_2023]] \[[Johaadien et al 2022][research_johaadien_endresen_2022]] \[[Ochoa et al 2022][research_ochoa_degueule_2022]] \[[Ziegler and Crettaz 2022][research_ziegler_crettaz_2022]] \[[Zhang et al 2022][research_zhang_liu_2022]] \[[Gould 2022][research_gould_2022]] \[[Hahm 2022][research_hahm_2022]] \[[Winston 2022][research_winston_2022]] \[[Winston 2022][research_winston_2022_2]] \[[Herb 2022][research_herb_2022]] \[[Hisseine et al 2022][research_hisseine_chen_2022]] \[[Islam et al 2022][research_islam_theocharides_2022]] \[[Farach 2022][research_farach_2022]] \[[Hardisty et al 2021][research_hardisty_addink_2021]] \[[Klein and Balakireva 2021][research_klein_balakireva_2021]] \[[Hardisty et al 2021][research_hardisty_addink_2021_2]] \[[Hardisty et al 2021][research_hardisty_addink_2021_3]] \[[Hardisty et al 2021][research_hardisty_addink_2021_4]] \[[Hardisty et al 2021][research_hardisty_addink_2021_5]] \[[Guarddin and Alwan 2021][research_guarddin_alwan_2021]] \[[Opdebeeck et al 2021][research_opdebeeck_zerouali_2021]] \[[Gould and Praetzellis 2021][research_gould_praetzellis_2021]] \[[Mangahis 2021][research_mangahis_2021]] \[[Hahm 2021][research_hahm_2021]] \[[Retteen and Hall 2021][research_retteen_hall_2021]] \[[Goddard 2021][research_goddard_2021]] \[[Mejias 2021][research_mejias_2021]] \[[Herb 2021][research_herb_2021]] \[[Hardisty et al 2021][research_hardisty_addink_2021_6]] \[[Hardisty et al 2021][research_hardisty_addink_2021_7]] \[[Hardisty et al 2021][research_hardisty_addink_2021_8]] \[[Hardisty et al 2021][research_hardisty_addink_2021_9]] \[[Housley 2021][research_housley_2021]] \[[Grenz et al 2021][research_grenz_karsou_2021]] \[[Decan and Mens 2021][research_decan_mens_2021]] \[[Ziedorn 2020][research_ziedorn_2020]] \[[Ananthakrishnan et al 2020][research_ananthakrishnan_chard_2020]] \[[Schirrwagen et al 2020][research_schirrwagen_bardi_2020]] \[[Rzepa 2020][research_rzepa_2020]] \[[Plomp 2020][research_plomp_2020]] \[[Page 2020][research_page_2020]] \[[Lam et al 2020][research_lam_dietrich_2020]] \[[Paglialonga and Schirnick 2020][research_paglialonga_schirnick_2020]] \[[Registration Authority 2020][research_registration_authority_2020]] \[[The Effect of E-Government 2020][research_the_effect_2020]] \[[Madinah 2020][research_madinah_2020]] \[[Rzepa 2020][research_rzepa_2020_2]] \[[Rzepa 2020][research_rzepa_2020_3]] \[[Myrda and Panecki 2020][research_myrda_panecki_2020]] \[[Yanovsky and Smith 2019][research_yanovsky_smith_2019]] \[[Sicilia et al 2019][research_sicilia_garciabarriocanal_2019]] \[[Yun 2019][research_yun_2019]] \[[Wittenburg 2019][research_wittenburg_2019]] \[[Sharan 2019][research_sharan_2019]] \[[Meadows et al 2019][research_meadows_haak_2019]] \[[Lehnert et al 2019][research_lehnert_klump_2019]] \[[Mamman et al 2019][research_mamman_hanapi_2019]] \[[Overton et al 2019][research_overton_cuffaro_2019]] \[[Mainz et al 2019][research_mainz_hess_2019]] \[[Milne and Chan 2019][research_milne_chan_2019]] \[[Chen et al 2019][research_chen_liu_2019]] \[[Thompson and Tong 2018][research_thompson_tong_2018]] \[[Hurley et al 2018][research_hurley_oliver_2018]] \[[Meadows 2018][research_meadows_2018]] \[[Rzepa 2018][research_rzepa_2018]] \[[Meadows and Haak 2018][research_meadows_haak_2018]] \[[Early 2018][research_early_2018]] \[[Parsons and Fox 2018][research_parsons_fox_2018]] \[[Klump and Huber 2017][research_klump_huber_2017]] \[[Berber and Yahyapour 2017][research_berber_yahyapour_2017]] \[[Mayernik and Maull 2017][research_mayernik_maull_2017]] \[[Dappert et al 2017][research_dappert_farquhar_2017]] \[[Berber and Yahyapour 2017][research_berber_yahyapour_2017_2]] \[[Rueda et al 2017][research_rueda_fenner_2017]] \[[Digital Object Identifier DOI® 2017][research_digital_object_2017]] \[[Golodoniuc et al 2017][research_golodoniuc_car_2017]] \[[Klump et al 2017][research_klump_murphy_2017]] \[[Hendricks and Bilder 2017][research_hendricks_bilder_2017]] \[[Erickson and Lannom 2017][research_erickson_lannom_2017]] \[[Hu et al 2017][research_hu_lee_2017]] \[[Rzepa 2017][research_rzepa_2017]] \[[Meadows 2017][research_meadows_2017]] \[[Bangert and Frances 2017][research_bangert_frances_2017]] \[[Wang et al 2017][research_wang_car_2017]] \[[Hewlett 2017][research_hewlett_2017]] \[[Aryani 2017][research_aryani_2017]] \[[Raemaekers et al 2017][research_raemaekers_vandeursen_2017]] \[[Pentz 2017][research_pentz_2017]] \[[Hendricks 2017][research_hendricks_2017]] \[[Klensin and Hakala 2017][research_klensin_hakala_2017]] \[[Duine 2017][research_duine_2017]] \[[Sidi 2017][research_sidi_2017]] \[[Lemieux 2016][research_lemieux_2016]] \[[Kennickell 2016][research_kennickell_2016]] \[[Cook et al 2016][research_cook_vannan_2016]] \[[Wannenwetsch and Majchrzak 2016][research_wannenwetsch_majchrzak_2016]] \[[Duine 2016][research_duine_2016]] \[[Hewlett 2016][research_hewlett_2016]] \[[Bolikowski et al 2015][research_bolikowski_nowiaski_2015]] \[[Schmitt et al 2015][research_schmitt_majchrzak_2015]] \[[Fenner 2015][research_fenner_2015]] \[[Luo et al 2015][research_luo_zhang_2015]] \[[PID Service an 2015][research_pid_service_2015]] \[[Fenner 2015][research_fenner_2015_2]] \[[Fenner 2015][research_fenner_2015_3]] \[[Bunakov 2015][research_bunakov_2015]] \[[Weigel et al 2014][research_weigel_kindermann_2014]] \[[Lemieux 2014][research_lemieux_2014]] \[[Bellini et al 2014][research_bellini_bergamin_2014]] \[[Housley 2014][research_housley_2014]] \[[Housley 2014][research_housley_2014_2]] \[[Bhamare et al 2014][research_bhamare_gumaste_2014]] \[[Van de Sompel et al 2014][research_vandesompel_sanderson_2014]] \[[Haak 2014][research_haak_2014]] \[[Ying et al 2014][research_ying_yirong_2014]] \[[Sugang Xu et al 2013][research_sugangxu_fujikawa_2013]] \[[Bazzanella et al 2013][research_bazzanella_bortoli_2013]] \[[IMF Participation in the 2013][research_imf_participation_2013]] \[[Housley 2013][research_housley_2013]] \[[Simons and Richardson 2013][research_simons_richardson_2013]] \[[RP 2079 2013 Digital 2013][research_rp_2079_2013]] \[[Chan and Milne 2013][research_chan_milne_2013]] \[[Bellini et al 2012][research_bellini_luddi_2012]] \[[Digital Object Identifier DOI® 2011][research_digital_object_2011]] \[[Laibe 2011][research_laibe_2011]] \[[Hoffman 2010][research_hoffman_2010]] \[[Ceravolo and Bellini 2010][research_ceravolo_bellini_2010]] \[[IP Address Allocation 2010][research_ip_address_2010]] \[[Sommer 2010][research_sommer_2010]] \[[Askitas 2010][research_askitas_2010]] \[[Biometric Registration Authority 2009][research_biometric_registration_2009]] \[[Digital Object Identifier DOI® 2009][research_digital_object_2009]] \[[Wang et al 2008][research_wang_zhang_2008]] \[[Cox 2008][research_cox_2008]] \[[Hsia-Ling Chiang et al 2008][research_hsialingchiang_yehshuming_2008]] \[[Finkelstein 2008][research_finkelstein_2008]] \[[Abdallah et al 2008][research_abdallah_jerez_2008]] \[[Jennings and Gurbani 2008][research_jennings_gurbani_2008]] \[[Incorrect Trial Registration Identifier 2007][research_incorrect_trial_2007]] \[[Wang et al 2007][research_wang_dunn_2007]] \[[Bellur and V. 2006][research_bellur_v_2006]] \[[Chandrakar 2006][research_chandrakar_2006]] \[[Camarillo 2006][research_camarillo_2006]] \[[Cashin 2006][research_cashin_2006]] \[[Yuan-Ying Hsu and Chien-Chao Tseng 2005][research_yuanyinghsu_chienchaotseng_2005]] \[[Schroeder 2005][research_schroeder_2005]] \[[Kim and Park 2004][research_kim_park_2004]] \[[Rees and Murray 2004][research_rees_murray_2004]] \[[Camarillo 2004][research_camarillo_2004]] \[[National Registration Authority rechristened 2003][research_national_registration_2003]] \[[Haucap 2003][research_haucap_2003]] \[[Dobrovolskis 2003][research_dobrovolskis_2003]] \[[Hamilton 2002][research_hamilton_2002]] \[[Ricketts 2002][research_ricketts_2002]] \[[Haucap 2002][research_haucap_2002]] \[[McPherson and Dykes 2001][research_mcpherson_dykes_2001]] \[[Jan and Wu 2000][research_jan_wu_2000]] \[[Dagg 2000][research_dagg_2000]] \[[Weik 2000][research_weik_2000_2]] \[[Weik 2000][research_weik_2000_3]] \[[Weik 2000][research_weik_2000_4]] \[[Weik 2000][research_weik_2000_5]] \[[Paskin 1999][research_paskin_1999]] \[[George 1998][research_george_1998]] \[[IPv6 Address Allocation Management 1995][research_ipv6_address_1995]] \[[Butler 1995][research_butler_1995]] \[[Stern and Ladany 1994][research_stern_ladany_1994]] \[[Rekhter and Li 1993][research_rekhter_li_1993]] \[[Cerf 1990][research_cerf_1990]] \[[Donald 1986][research_donald_1986]] \[[Mellichamp 1979][research_mellichamp_1979]] \[[Keevers 1966][research_keevers_1966]] \[[Bergmann and Haferd 1964][research_bergmann_haferd_1964]] \[[Myers 1961][research_myers_1961]] \[[Nunn 1952][research_nunn_1952]] \[[Nunn 1952][research_nunn_1952_2]] \[[DIN 31646 2013-01, Information und][research_din_31646]] \[[Digital Object Identifier DOI][research_digital_object]] \[[Digital Object Identifier system][research_digital_object_2]] \[[Digital token identifier DTI][research_digital_token]] \[[Embossed credit cards. Specifications][research_embossed_credit]] \[[Peter Wittenburg][research_peterwittenburg]] \[[Health informatics. Health cards][research_health_informatics]] \[[Information and documentation. Digital][research_information_and]] \[[Information technology -- Procedures][research_information_technology]] \[[Information technology. Open systems][research_information_technology_2]] \[[Wannenwetsch][research_wannenwetsch]] \[[Procedures for the operation][research_procedures_for]] \[[Registration Authority][research_registration_authority]] \[[de Castro et al][research_decastro_herb]] \[[data numbering plan area][research_data_numbering]] \[[external numbering plan][research_external_numbering]] \[[numbering plan][research_numbering_plan]] \[[numbering plan area][research_numbering_plan_2]]
+**251 works.** \[[Pérez Vera 2026][research_perezvera_2026]] \[[Assessing the Impact of 2026][research_assessing_the_2026]] \[[Chigwada et al 2026][research_chigwada_chiparausha_2026]] \[[Martin et al 2026][research_martin_levett_2026]] \[[Golovachev 2026][research_golovachev_2026]] \[[Liang et al 2026][research_liang_he_2026]] \[[Czerniak et al 2026][research_czerniak_genderjahn_2026]] \[[Hsu and Edmunds 2026][research_hsu_edmunds_2026]] \[[Felix de Moura 2026][research_felixdemoura_2026]] \[[Crossref 2026][research_crossref_2026]] \[[Cebeci 2026][research_cebeci_2026]] \[[Bronselaer 2025][research_bronselaer_2025]] \[[Webster 2025][research_webster_2025]] \[[Carpenter et al 2025][research_carpenter_krishnan_2025]] \[[Hernández Gutierrez et al 2025][research_hernandezgutierrez_aguilar_2025]] \[[Reyes-Lillo et al 2025][research_reyeslillo_rovira_2025]] \[[Yao 2025][research_yao_2025]] \[[Nasrullah et al 2025][research_nasrullah_gondomono_2025]] \[[Abedrapo Rosen and Hartley Belmar 2025][research_abedraporosen_hartleybelmar_2025]] \[[Panter et al 2025][research_panter_hindman_2025]] \[[Kandler 2025][research_kandler_2025]] \[[Fenner 2025][research_fenner_2025]] \[[Stoll and de Lamotte 2025][research_stoll_delamotte_2025]] \[[Review Open Science governance 2025][research_review_open_2025]] \[[Bhirawa 2025][research_bhirawa_2025]] \[[Ajibode et al 2025][research_ajibode_bangash_2025]] \[[Wang et al 2025][research_wang_li_2025]] \[[Iman 2025][research_iman_2025]] \[[Chala et al 2024][research_chala_endresen_2024]] \[[Chodacki et al 2024][research_chodacki_carpenter_2024]] \[[Park et al 2024][research_park_sin_2024]] \[[Nizami 2024][research_nizami_2024]] \[[Chapman 2024][research_chapman_2024]] \[[Mandal and Mandal 2024][research_mandal_mandal_2024]] \[[Riley 2024][research_riley_2024]] \[[Owango et al 2024][research_owango_wyborn_2024]] \[[Pinckney et al 2023][research_pinckney_cassano_2023]] \[[Li et al 2023][research_li_wu_2023]] \[[Tournier 2023][research_tournier_2023]] \[[Rzepa 2023][research_rzepa_2023]] \[[Rzepa 2023][research_rzepa_2023_2]] \[[van Veenendaal 2023][research_vanveenendaal_2023]] \[[Fenner 2023][research_fenner_2023]] \[[Islam 2023][research_islam_2023]] \[[Page 2023][research_page_2023]] \[[Page 2023][research_page_2023_2]] \[[Page 2023][research_page_2023_3]] \[[Page 2023][research_page_2023_4]] \[[Page 2023][research_page_2023_5]] \[[Page 2023][research_page_2023_6]] \[[Page 2023][research_page_2023_7]] \[[Page 2023][research_page_2023_8]] \[[Page 2023][research_page_2023_9]] \[[Page 2023][research_page_2023_10]] \[[Page 2023][research_page_2023_11]] \[[Page 2023][research_page_2023_12]] \[[Page 2023][research_page_2023_13]] \[[Page 2023][research_page_2023_14]] \[[Minihan et al 2023][research_minihan_robinson_2023]] \[[Brower and Narlock 2023][research_brower_narlock_2023]] \[[Murillo-Gonzalez and López 2023][research_murillogonzalez_lopez_2023]] \[[Shu 2023][research_shu_2023]] \[[Burton et al 2023][research_burton_cocks_2023]] \[[Carvalho 2023][research_carvalho_2023]] \[[Page 2023][research_page_2023_15]] \[[Aghassibake et al 2023][research_aghassibake_castello_2023]] \[[Johaadien et al 2022][research_johaadien_endresen_2022]] \[[Ochoa et al 2022][research_ochoa_degueule_2022]] \[[Ziegler and Crettaz 2022][research_ziegler_crettaz_2022]] \[[Zhang et al 2022][research_zhang_liu_2022]] \[[Gould 2022][research_gould_2022]] \[[Hahm 2022][research_hahm_2022]] \[[Winston 2022][research_winston_2022]] \[[Winston 2022][research_winston_2022_2]] \[[Herb 2022][research_herb_2022]] \[[Hisseine et al 2022][research_hisseine_chen_2022]] \[[Islam et al 2022][research_islam_theocharides_2022]] \[[Farach 2022][research_farach_2022]] \[[Hardisty et al 2021][research_hardisty_addink_2021]] \[[Klein and Balakireva 2021][research_klein_balakireva_2021]] \[[Hardisty et al 2021][research_hardisty_addink_2021_2]] \[[Hardisty et al 2021][research_hardisty_addink_2021_3]] \[[Hardisty et al 2021][research_hardisty_addink_2021_4]] \[[Hardisty et al 2021][research_hardisty_addink_2021_5]] \[[Guarddin and Alwan 2021][research_guarddin_alwan_2021]] \[[Opdebeeck et al 2021][research_opdebeeck_zerouali_2021]] \[[Gould and Praetzellis 2021][research_gould_praetzellis_2021]] \[[Mangahis 2021][research_mangahis_2021]] \[[Hahm 2021][research_hahm_2021]] \[[Retteen and Hall 2021][research_retteen_hall_2021]] \[[Goddard 2021][research_goddard_2021]] \[[Mejias 2021][research_mejias_2021]] \[[Herb 2021][research_herb_2021]] \[[Hardisty et al 2021][research_hardisty_addink_2021_6]] \[[Hardisty et al 2021][research_hardisty_addink_2021_7]] \[[Hardisty et al 2021][research_hardisty_addink_2021_8]] \[[Hardisty et al 2021][research_hardisty_addink_2021_9]] \[[Housley 2021][research_housley_2021]] \[[Grenz et al 2021][research_grenz_karsou_2021]] \[[Decan and Mens 2021][research_decan_mens_2021]] \[[Ziedorn 2020][research_ziedorn_2020]] \[[Ananthakrishnan et al 2020][research_ananthakrishnan_chard_2020]] \[[Schirrwagen et al 2020][research_schirrwagen_bardi_2020]] \[[Rzepa 2020][research_rzepa_2020]] \[[Plomp 2020][research_plomp_2020]] \[[Page 2020][research_page_2020]] \[[Lam et al 2020][research_lam_dietrich_2020]] \[[Paglialonga and Schirnick 2020][research_paglialonga_schirnick_2020]] \[[Registration Authority 2020][research_registration_authority_2020]] \[[The Effect of E-Government 2020][research_the_effect_2020]] \[[Madinah 2020][research_madinah_2020]] \[[Rzepa 2020][research_rzepa_2020_2]] \[[Rzepa 2020][research_rzepa_2020_3]] \[[Myrda and Panecki 2020][research_myrda_panecki_2020]] \[[Sicilia et al 2019][research_sicilia_garciabarriocanal_2019]] \[[Yun 2019][research_yun_2019]] \[[Wittenburg 2019][research_wittenburg_2019]] \[[Sharan 2019][research_sharan_2019]] \[[Meadows et al 2019][research_meadows_haak_2019]] \[[Lehnert et al 2019][research_lehnert_klump_2019]] \[[Overton et al 2019][research_overton_cuffaro_2019]] \[[Mainz et al 2019][research_mainz_hess_2019]] \[[Milne and Chan 2019][research_milne_chan_2019]] \[[Chen et al 2019][research_chen_liu_2019]] \[[Thompson and Tong 2018][research_thompson_tong_2018]] \[[Meadows 2018][research_meadows_2018]] \[[Rzepa 2018][research_rzepa_2018]] \[[Meadows and Haak 2018][research_meadows_haak_2018]] \[[Early 2018][research_early_2018]] \[[Parsons and Fox 2018][research_parsons_fox_2018]] \[[Klump and Huber 2017][research_klump_huber_2017]] \[[Berber and Yahyapour 2017][research_berber_yahyapour_2017]] \[[Mayernik and Maull 2017][research_mayernik_maull_2017]] \[[Dappert et al 2017][research_dappert_farquhar_2017]] \[[Berber and Yahyapour 2017][research_berber_yahyapour_2017_2]] \[[Rueda et al 2017][research_rueda_fenner_2017]] \[[Digital Object Identifier DOI® 2017][research_digital_object_2017]] \[[Golodoniuc et al 2017][research_golodoniuc_car_2017]] \[[Klump et al 2017][research_klump_murphy_2017]] \[[Hendricks and Bilder 2017][research_hendricks_bilder_2017]] \[[Erickson and Lannom 2017][research_erickson_lannom_2017]] \[[Hu et al 2017][research_hu_lee_2017]] \[[Rzepa 2017][research_rzepa_2017]] \[[Meadows 2017][research_meadows_2017]] \[[Bangert and Frances 2017][research_bangert_frances_2017]] \[[Wang et al 2017][research_wang_car_2017]] \[[Hewlett 2017][research_hewlett_2017]] \[[Aryani 2017][research_aryani_2017]] \[[Raemaekers et al 2017][research_raemaekers_vandeursen_2017]] \[[Pentz 2017][research_pentz_2017]] \[[Hendricks 2017][research_hendricks_2017]] \[[Klensin and Hakala 2017][research_klensin_hakala_2017]] \[[Duine 2017][research_duine_2017]] \[[Sidi 2017][research_sidi_2017]] \[[Lemieux 2016][research_lemieux_2016]] \[[Kennickell 2016][research_kennickell_2016]] \[[Cook et al 2016][research_cook_vannan_2016]] \[[Wannenwetsch and Majchrzak 2016][research_wannenwetsch_majchrzak_2016]] \[[Duine 2016][research_duine_2016]] \[[Hewlett 2016][research_hewlett_2016]] \[[Bolikowski et al 2015][research_bolikowski_nowiaski_2015]] \[[Schmitt et al 2015][research_schmitt_majchrzak_2015]] \[[Fenner 2015][research_fenner_2015]] \[[Luo et al 2015][research_luo_zhang_2015]] \[[PID Service an 2015][research_pid_service_2015]] \[[Fenner 2015][research_fenner_2015_2]] \[[Fenner 2015][research_fenner_2015_3]] \[[Bunakov 2015][research_bunakov_2015]] \[[Weigel et al 2014][research_weigel_kindermann_2014]] \[[Lemieux 2014][research_lemieux_2014]] \[[Bellini et al 2014][research_bellini_bergamin_2014]] \[[Housley 2014][research_housley_2014]] \[[Housley 2014][research_housley_2014_2]] \[[Bhamare et al 2014][research_bhamare_gumaste_2014]] \[[Van de Sompel et al 2014][research_vandesompel_sanderson_2014]] \[[Haak 2014][research_haak_2014]] \[[Ying et al 2014][research_ying_yirong_2014]] \[[Sugang Xu et al 2013][research_sugangxu_fujikawa_2013]] \[[Bazzanella et al 2013][research_bazzanella_bortoli_2013]] \[[IMF Participation in the 2013][research_imf_participation_2013]] \[[Housley 2013][research_housley_2013]] \[[Simons and Richardson 2013][research_simons_richardson_2013]] \[[RP 2079 2013 Digital 2013][research_rp_2079_2013]] \[[Chan and Milne 2013][research_chan_milne_2013]] \[[Bellini et al 2012][research_bellini_luddi_2012]] \[[Digital Object Identifier DOI® 2011][research_digital_object_2011]] \[[Laibe 2011][research_laibe_2011]] \[[Hoffman 2010][research_hoffman_2010]] \[[Ceravolo and Bellini 2010][research_ceravolo_bellini_2010]] \[[IP Address Allocation 2010][research_ip_address_2010]] \[[Sommer 2010][research_sommer_2010]] \[[Askitas 2010][research_askitas_2010]] \[[Biometric Registration Authority 2009][research_biometric_registration_2009]] \[[Digital Object Identifier DOI® 2009][research_digital_object_2009]] \[[Wang et al 2008][research_wang_zhang_2008]] \[[Cox 2008][research_cox_2008]] \[[Hsia-Ling Chiang et al 2008][research_hsialingchiang_yehshuming_2008]] \[[Finkelstein 2008][research_finkelstein_2008]] \[[Abdallah et al 2008][research_abdallah_jerez_2008]] \[[Jennings and Gurbani 2008][research_jennings_gurbani_2008]] \[[Wang et al 2007][research_wang_dunn_2007]] \[[Bellur and V. 2006][research_bellur_v_2006]] \[[Chandrakar 2006][research_chandrakar_2006]] \[[Camarillo 2006][research_camarillo_2006]] \[[Yuan-Ying Hsu and Chien-Chao Tseng 2005][research_yuanyinghsu_chienchaotseng_2005]] \[[Schroeder 2005][research_schroeder_2005]] \[[Kim and Park 2004][research_kim_park_2004]] \[[Rees and Murray 2004][research_rees_murray_2004]] \[[Camarillo 2004][research_camarillo_2004]] \[[Haucap 2003][research_haucap_2003]] \[[Dobrovolskis 2003][research_dobrovolskis_2003]] \[[Hamilton 2002][research_hamilton_2002]] \[[Ricketts 2002][research_ricketts_2002]] \[[Haucap 2002][research_haucap_2002]] \[[McPherson and Dykes 2001][research_mcpherson_dykes_2001]] \[[Jan and Wu 2000][research_jan_wu_2000]] \[[Weik 2000][research_weik_2000_2]] \[[Weik 2000][research_weik_2000_3]] \[[Weik 2000][research_weik_2000_4]] \[[Weik 2000][research_weik_2000_5]] \[[Paskin 1999][research_paskin_1999]] \[[George 1998][research_george_1998]] \[[IPv6 Address Allocation Management 1995][research_ipv6_address_1995]] \[[Butler 1995][research_butler_1995]] \[[Rekhter and Li 1993][research_rekhter_li_1993]] \[[Cerf 1990][research_cerf_1990]] \[[Donald 1986][research_donald_1986]] \[[Mellichamp 1979][research_mellichamp_1979]] \[[Keevers 1966][research_keevers_1966]] \[[Bergmann and Haferd 1964][research_bergmann_haferd_1964]] \[[Myers 1961][research_myers_1961]] \[[Nunn 1952][research_nunn_1952]] \[[Nunn 1952][research_nunn_1952_2]] \[[DIN 31646 2013-01, Information und][research_din_31646]] \[[Digital Object Identifier DOI][research_digital_object]] \[[Digital Object Identifier system][research_digital_object_2]] \[[Digital token identifier DTI][research_digital_token]] \[[Embossed credit cards. Specifications][research_embossed_credit]] \[[Peter Wittenburg][research_peterwittenburg]] \[[Health informatics. Health cards][research_health_informatics]] \[[Information and documentation. Digital][research_information_and]] \[[Information technology -- Procedures][research_information_technology]] \[[Information technology. Open systems][research_information_technology_2]] \[[Wannenwetsch][research_wannenwetsch]] \[[Procedures for the operation][research_procedures_for]] \[[Registration Authority][research_registration_authority]] \[[de Castro et al][research_decastro_herb]] \[[data numbering plan area][research_data_numbering]] \[[external numbering plan][research_external_numbering]] \[[numbering plan][research_numbering_plan]] \[[numbering plan area][research_numbering_plan_2]]
 
 ### Version numbering
 
 **Software version numbers are a familiar case of a number that is supposed to be an ordinal and is sometimes chosen for what it says.** The literature on semantic versioning and release numbering studies what a number promises and what breaks when the promise is not kept.
 
-**32 works.** \[[Wang et al 2026][research_wang_zhang_2026]] \[[Noguchi 2026][research_noguchi_2026]] \[[Shima 2025][research_shima_2025]] \[[Serbout and Pautasso 2024][research_serbout_pautasso_2024]] \[[Khalfoune and Beghdad 2024][research_khalfoune_beghdad_2024]] \[[Abdalkareem et al 2023][research_abdalkareem_chowdhury_2023]] \[[Abdalkareem 2022][research_abdalkareem_2022]] \[[Version number to be 2022][research_version_number_2022]] \[[Carvalho and Seco 2021][research_carvalho_seco_2021]] \[[Broyles 2020][research_broyles_2020]] \[[Document Version Number Text 2020][research_document_version_2020]] \[[Opdebeeck et al 2020][research_opdebeeck_zerouali_2020]] \[[Ha 2020][research_ha_2020]] \[[Struzik et al 2020][research_struzik_hrybkov_2020]] \[[Version Number Text 2020][research_version_number_2020]] \[[Model name and version 2019][research_model_name_2019]] \[[Vinca 2019][research_vinca_2019]] \[[Model name and version 2018][research_model_name_2018]] \[[Kärnä 2018][research_karna_2018]] \[[Kärnä 2018][research_karna_2018_2]] \[[Huang 2018][research_huang_2018]] \[[Model name and version 2017][research_model_name_2017]] \[[Please include the model 2017][research_please_include_2017]] \[[Harrison and Živanović 2017][research_harrison_zivanovic_2017]] \[[Vion-Dury and Lagos 2016][research_viondury_lagos_2016]] \[[RE Model name and 2016][research_re_model_2016]] \[[Boer 2016][research_boer_2016]] \[[Zheng 2016][research_zheng_2016]] \[[Asif and Karim 2014][research_asif_karim_2014]] \[[Raemaekers et al 2014][research_raemaekers_vandeursen_2014]] \[[Keller and Ullman][research_keller_ullman]] \[[Electronic data interchange for][research_electronic_data]]
+**18 works.** \[[Wang et al 2026][research_wang_zhang_2026]] \[[Noguchi 2026][research_noguchi_2026]] \[[Shima 2025][research_shima_2025]] \[[Serbout and Pautasso 2024][research_serbout_pautasso_2024]] \[[Abdalkareem et al 2023][research_abdalkareem_chowdhury_2023]] \[[Abdalkareem 2022][research_abdalkareem_2022]] \[[Carvalho and Seco 2021][research_carvalho_seco_2021]] \[[Broyles 2020][research_broyles_2020]] \[[Document Version Number Text 2020][research_document_version_2020]] \[[Opdebeeck et al 2020][research_opdebeeck_zerouali_2020]] \[[Struzik et al 2020][research_struzik_hrybkov_2020]] \[[Version Number Text 2020][research_version_number_2020]] \[[Harrison and Živanović 2017][research_harrison_zivanovic_2017]] \[[Vion-Dury and Lagos 2016][research_viondury_lagos_2016]] \[[Asif and Karim 2014][research_asif_karim_2014]] \[[Raemaekers et al 2014][research_raemaekers_vandeursen_2014]] \[[Keller and Ullman][research_keller_ullman]] \[[Electronic data interchange for][research_electronic_data]]
 
 ### Classification and numerical taxonomy
 
@@ -608,37 +608,37 @@ That is a measurement of titles and not a reading of findings, and it says that 
 
 **The behavioural literature on number choice is large and quantitative.** It covers digit preference and heaping in reported figures, the pull of round numbers, lucky and unlucky numbers and the prices paid for them, number symbolism, and the effect of numerals in brand and product names. **A founding-year design number is a case of a number chosen for its symbolism rather than its place**, which is this literature's subject.
 
-**303 works.** \[[Kudtarkar 2026][research_kudtarkar_2026]] \[[Pandit et al 2026][research_pandit_thasineku_2026]] \[[Lee 2026][research_lee_2026]] \[[Han and Lee 2026][research_han_lee_2026]] \[[Roychoudhury 2026][research_roychoudhury_2026]] \[[Kumar and Shah 2026][research_kumar_shah_2026]] \[[Bansiri et al 2026][research_bansiri_anantayasethi_2026]] \[[Choi 2026][research_choi_2026]] \[[Krajcsi 2026][research_krajcsi_2026]] \[[Lau et al 2025][research_lau_kumaresan_2025]] \[[Ferber and Baten 2025][research_ferber_baten_2025]] \[[Mangombe et al 2025][research_mangombe_lwanga_2025]] \[[Yang et al 2025][research_yang_zhao_2025]] \[[Correction to Human capital 2025][research_correction_to_2025]] \[[Abdulkareem et al 2025][research_abdulkareem_abdulmohsin_2025]] \[[Sendjasni and Larabi 2025][research_sendjasni_larabi_2025]] \[[Piotrowicz et al 2025][research_piotrowicz_czesak_2025]] \[[Gómez-i-Aznar 2025][research_gomeziaznar_2025]] \[[Dube et al 2025][research_dube_manning_2025]] \[[Huntington 2025][research_huntington_2025]] \[[Lengerich et al 2025][research_lengerich_caruana_2025]] \[[Chen and Hyde 2025][research_chen_hyde_2025]] \[[Ooe et al 2025][research_ooe_fujita_2025]] \[[Colvin et al 2024][research_colvin_henderson_2024]] \[[Tollnek and Baten 2024][research_tollnek_baten_2024]] \[[Hung et al 2024][research_hung_tang_2024]] \[[Rönnbäck et al 2024][research_ronnback_galli_2024]] \[[Breunig et al 2024][research_breunig_deutscher_2024]] \[[Breunig 2024][research_breunig_2024]] \[[Kossowski et al 2024][research_kossowski_samolej_2024]] \[[Rosen and Spaenjers 2024][research_rosen_spaenjers_2024]] \[[Mielicki et al 2024][research_mielicki_mbarki_2024]] \[[Gu and Feng 2024][research_gu_feng_2024]] \[[Chandel et al 2024][research_chandel_miranda_2024]] \[[Tollnek and Baten 2023][research_tollnek_baten_2023]] \[[Putri et al 2023][research_putri_astuti_2023]] \[[Arshad and Prasanthi 2023][research_arshad_prasanthi_2023]] \[[Pekár et al 2023][research_pekar_hofmann_2023]] \[[Helleringer et al 2023][research_helleringer_lau_2023]] \[[Fitzgerald 2023][research_fitzgerald_2023]] \[[Lucky numbers 2023][research_lucky_numbers_2023]] \[[dos Santos 2023][research_dossantos_2023]] \[[Dubinkina et al 2023][research_dubinkina_sella_2023]] \[[O'Grady 2023][research_ogrady_2023]] \[[Unlucky numbers Fighting murder 2023][research_unlucky_numbers_2023]] \[[O'Halloran et al 2022][research_ohalloran_kramer_2022]] \[[Baten and Nalle 2022][research_baten_nalle_2022]] \[[A'Hearn et al 2022][research_ahearn_delfino_2022]] \[[Luo et al 2022][research_luo_xu_2022]] \[[Dashboard Camera View Vehicle 2022][research_dashboard_camera_2022]] \[[Lengerich et al 2022][research_lengerich_caruana_2022]] \[[Li et al 2022][research_li_walls_2022]] \[[Dahiru and Dikko 2022][research_dahiru_dikko_2022]] \[[License-plate-based driving restrictions Do 2022][research_license_plate_based_driving_2022]] \[[Pollack et al 2022][research_pollack_wilkey_2022]] \[[Basannar et al 2022][research_basannar_singh_2022]] \[[Baten et al 2022][research_baten_benati_2022]] \[[Nguyen et al 2022][research_nguyen_hofman_2022]] \[[O'Halloran et al 2022][research_ohalloran_hughes_2022]] \[[Hassler and Pohle 2022][research_hassler_pohle_2022]] \[[singh et al 2022][research_singh_maheshwari_2022]] \[[Barrett 2021][research_barrett_2021]] \[[Singh et al 2021][research_singh_kashyap_2021]] \[[Malik 2021][research_malik_2021]] \[[Utami et al 2021][research_utami_utaminingsih_2021]] \[[Digit Preference 2021][research_digit_preference_2021]] \[[Lapostolle et al 2021][research_lapostolle_schneider_2021]] \[[Romero Prieto et al 2021][research_romeroprieto_verhulst_2021]] \[[Lindskog and Simms 2021][research_lindskog_simms_2021]] \[[Gómez 2021][research_gomez_2021]] \[[A'Hearn et al 2021][research_ahearn_delfino_2021]] \[[Billig 2021][research_billig_2021]] \[[Dubinkina et al 2021][research_dubinkina_sella_2021]] \[[Beltrán Tapia et al 2021][research_beltrantapia_diezminguela_2021]] \[[Wong and Odic 2021][research_wong_odic_2021]] \[[The Likely Number Thirteen 2020][research_the_likely_2020]] \[[Perangin Angin and Sitorus 2020][research_peranginangin_sitorus_2020]] \[[Lasmana and Amir 2020][research_lasmana_amir_2020]] \[[Foti et al 2020][research_foti_appel_2020]] \[[Sakaguchi et al 2020][research_sakaguchi_gathergood_2020]] \[[Green 2020][research_green_2020]] \[[Guillaume et al 2020][research_guillaume_schiltz_2020]] \[[Novianto 2020][research_novianto_2020]] \[[Gunasti and Ozcan 2020][research_gunasti_ozcan_2020]] \[[Barrett 2019][research_barrett_2019]] \[[Fayehun et al 2019][research_fayehun_ajayi_2019]] \[[Tollnek and Baten 2019][research_tollnek_baten_2019]] \[[Reike and Schwarz 2019][research_reike_schwarz_2019]] \[[Lee 2019][research_lee_2019]] \[[A 2019][research_a_2019]] \[[Lafay et al 2019][research_lafay_stpierre_2019]] \[[Lau et al 2019][research_lau_merkley_2019]] \[[Hawes et al 2019][research_hawes_sokolowski_2019]] \[[Aires and Catarino 2019][research_aires_catarino_2019]] \[[Chow 2019][research_chow_2019]] \[[Suhartini 2019][research_suhartini_2019]] \[[The Law of Round 2019][research_the_law_2019]] \[[Gunasti and Ozcan 2019][research_gunasti_ozcan_2019]] \[[Russo 2018][research_russo_2018]] \[[Nosseir and Roshdy 2018][research_nosseir_roshdy_2018]] \[[Chai and Zuo 2018][research_chai_zuo_2018]] \[[Geary and vanMarle 2018][research_geary_vanmarle_2018]] \[[Dube et al 2018][research_dube_manning_2018]] \[[Cleland et al 2018][research_cleland_corsico_2018]] \[[den Bakker and Damhuis 2018][research_denbakker_damhuis_2018]] \[[Samuel O 2018][research_samuelo_2018]] \[[Gilmore et al 2018][research_gilmore_gobel_2018]] \[[Krajcsi et al 2018][research_krajcsi_lengyel_2018]] \[[Quiros et al 2017][research_quiros_bedruz_2017]] \[[Blum and Krauss 2017][research_blum_krauss_2017]] \[[Szołtysek et al 2017][research_szoltysek_poniat_2017]] \[[Childhood ￭ Behind Prison 2017][research_childhood_2017]] \[[Ismawati 2017][research_ismawati_2017]] \[[Westjohn et al 2017][research_westjohn_roschk_2017]] \[[Calzolari 2017][research_calzolari_2017]] \[[Waring and Penner-Wilger 2017][research_waring_pennerwilger_2017]] \[[Ramos et al 2017][research_ramos_cantillo_2017]] \[[Gideon et al 2017][research_gideon_helppiemcfall_2017]] \[[Wu and Sun 2017][research_wu_sun_2017]] \[[Cappuccini 2017][research_cappuccini_2017]] \[[Baten and Sohn 2017][research_baten_sohn_2017]] \[[Hom 2017][research_hom_2017]] \[[Iqbal et al 2017][research_iqbal_kenney_2017]] \[[Krajcsi et al 2017][research_krajcsi_lengyel_2017]] \[[Starr et al 2017][research_starr_dewind_2017]] \[[Lyons-Amos and Stones 2017][research_lyonsamos_stones_2017]] \[[Sasanguie et al 2017][research_sasanguie_lyons_2017]] \[[Goffin and Ansari 2016][research_goffin_ansari_2016]] \[[Jordan and Dyson 2016][research_jordan_dyson_2016]] \[[Westjohn et al 2016][research_westjohn_roschk_2016]] \[[Camarda et al 2016][research_camarda_eilers_2016]] \[[Hyde and Mou 2016][research_hyde_mou_2016]] \[[Barootes 2016][research_barootes_2016]] \[[Chooi and Chia 2016][research_chooi_chia_2016]] \[[Gao 2016][research_gao_2016]] \[[Plumb et al 2016][research_plumb_nickerson_2016]] \[[Reynvoet et al 2016][research_reynvoet_smets_2016]] \[[Tollnek and Baten 2015][research_tollnek_baten_2015]] \[[Norris et al 2015][research_norris_mcgeown_2015]] \[[Backus et al 2015][research_backus_blake_2015]] \[[Kara et al 2015][research_kara_gunasti_2015]] \[[Pena-Marin and Bhargave 2015][research_penamarin_bhargave_2015]] \[[White 2015][research_white_2015]] \[[Kendrick 2015][research_kendrick_2015]] \[[Tollnek and Baten 2014][research_tollnek_baten_2014]] \[[Gunasti et al 2014][research_gunasti_kara_2014]] \[[Gunasti and Ozcan 2014][research_gunasti_ozcan_2014]] \[[Wagner and Jamsawang 2014][research_wagner_jamsawang_2014]] \[[Munar et al 2014][research_munar_gomezpuerto_2014]] \[[Mission Number Thirteen 2014][research_mission_number_2014]] \[[Slaveva-Griffin 2014][research_slavevagriffin_2014]] \[[Number Preference Model 2014][research_number_preference_2014]] \[[Kettle et al 2014][research_kettle_delvecchio_2014]] \[[Cho et al 2014][research_cho_abidi_2014]] \[[Cho et al 2014][research_cho_abidi_2014_2]] \[[Cantillo and De Dios Ortúzar 2014][research_cantillo_dediosortuzar_2014]] \[[Zhang and Shi 2014][research_zhang_shi_2014]] \[[Mallikarachchi and Dharmaratne 2014][research_mallikarachchi_dharmaratne_2014]] \[[Kara et al 2014][research_kara_gunasti_2014]] \[[Stratford et al 2013][research_stratford_wainwright_2013]] \[[Fares 2013][research_fares_2013]] \[[Shinomiya et al 2013][research_shinomiya_takamura_2013]] \[[Haneda and Hanaizumi 2012][research_haneda_hanaizumi_2012]] \[[Yazdanparast et al 2012][research_yazdanparast_pourhoseingholi_2012]] \[[Bhattacharya et al 2012][research_bhattacharya_holden_2012]] \[[The Likely Number Thirteen 2012][research_the_likely_2012]] \[[Feng et al 2012][research_feng_li_2012]] \[[Manzel et al 2011][research_manzel_baten_2011]] \[[Földvári et al 2011][research_foldvari_vanleeuwen_2011]] \[[Lyons and Beilock 2011][research_lyons_beilock_2011]] \[[Szucs et al 2011][research_szucs_white_2011]] \[[Alsanjari et al 2011][research_alsanjari_delusignan_2011]] \[[Pardeshi 2010][research_pardeshi_2010]] \[[Liu and Luo 2010][research_liu_luo_2010]] \[[Domahs et al 2010][research_domahs_moeller_2010]] \[[Baten et al 2010][research_baten_ma_2010]] \[[Chen-Chung Liu and Zhi-Chun Luo 2010][research_chenchungliu_zhichunluo_2010]] \[[Gunasti and Ross 2010][research_gunasti_ross_2010]] \[[Gunasti and Ross 2010][research_gunasti_ross_2010_2]] \[[Clucas 2010][research_clucas_2010]] \[[Pope and Simonsohn 2010][research_pope_simonsohn_2010]] \[[Pope and Simonsohn 2010][research_pope_simonsohn_2010_2]] \[[Elders 2009][research_elders_2009]] \[[Kang 2009][research_kang_2009]] \[[Bilton 2009][research_bilton_2009]] \[[Number Symbolism 2009][research_number_symbolism_2009]] \[[A'Hearn et al 2009][research_ahearn_baten_2009]] \[[Deb and Jo 2009][research_deb_jo_2009]] \[[Beer 2009][research_beer_2009]] \[[Ahmadyfard and Abolghasemi 2008][research_ahmadyfard_abolghasemi_2008]] \[[Hayes 2008][research_hayes_2008]] \[[Burnier and Gasser 2008][research_burnier_gasser_2008]] \[[Lucky Numbers 2008][research_lucky_numbers_2008]] \[[Camarda et al 2008][research_camarda_eilers_2008]] \[[Johnson et al 2008][research_johnson_johnson_2008]] \[[Woo et al 2008][research_woo_horowitz_2008]] \[[Rousselle and Noël 2007][research_rousselle_noel_2007]] \[[Río Fernández and Sarriá Gandul 2007][research_riofernandez_sarriagandul_2007]] \[[Dudek et al 2007][research_dudek_schrock_2007]] \[[Lucky numbers 2007][research_lucky_numbers_2007]] \[[Johnson et al 2007][research_johnson_johnson_2007]] \[[Renedo and Sobrino 2007][research_renedo_sobrino_2007]] \[[The Carrez Law a 2007][research_the_carrez_2007]] \[[Price and Seaman 2006][research_price_seaman_2006]] \[[Locker and Mason 2006][research_locker_mason_2006]] \[[Nietert et al 2006][research_nietert_wessell_2006]] \[[Lucky numbers 2006][research_lucky_numbers_2006]] \[[Li et al 2005][research_li_liu_2005]] \[[Thirteen is a Lucky 2005][research_thirteen_is_2005]] \[[Doucouliagos 2004][research_doucouliagos_2004]] \[[Abedrabbo 2004][research_abedrabbo_2004]] \[[Akhmanova and Severin 2004][research_akhmanova_severin_2004]] \[[Blais 2003][research_blais_2003]] \[[Wen et al 2002][research_wen_yu_2002]] \[[Crawford 2002][research_crawford_2002]] \[[Beaman 2002][research_beaman_2002]] \[[Miller and Anderson 2002][research_miller_anderson_2002]] \[[Guinnessy 2002][research_guinnessy_2002]] \[[Wingfield et al 2002][research_wingfield_cooke_2002]] \[[Polk et al 2001][research_polk_reed_2001]] \[[Lucky numbers 2001][research_lucky_numbers_2001]] \[[Stein 2001][research_stein_2001]] \[[Jansen and Pollmann 2001][research_jansen_pollmann_2001]] \[[Fricker and Gupta 2001][research_fricker_gupta_2001]] \[[Crockett et al 2001][research_crockett_crockett_2001]] \[[Crawford et al 2000][research_crawford_johannes_2000]] \[[Bieniaszewski et al 2000][research_bieniaszewski_kruszewski_2000]] \[[Dennis 2000][research_dennis_2000]] \[[Al-Haboubi 1999][research_alhaboubi_1999]] \[[Spriet and Dupin-Spriet 1997][research_spriet_dupinspriet_1997]] \[[Salsburg 1997][research_salsburg_1997]] \[[Beaman et al 1997][research_beaman_vaske_1997]] \[[Edouard and Senthilselvan 1997][research_edouard_senthilselvan_1997]] \[[andNa 1995][research_na_1995]] \[[Kaufmann 1995][research_kaufmann_1995]] \[[Ormerod 1994][research_ormerod_1994]] \[[Tarrant and Manfredo 1993][research_tarrant_manfredo_1993]] \[[Duncan 1993][research_duncan_1993]] \[[Baker 1992][research_baker_1992]] \[[Pickering 1992][research_pickering_1992]] \[[CHAPTER IV. Donne and 1991][research_chapter_iv_1991]] \[[Budd and Guinnane 1991][research_budd_guinnane_1991]] \[[Ridout and Morgan 1991][research_ridout_morgan_1991]] \[[Thirteen is Not an 1991][research_thirteen_is_1991]] \[[Heitjan and Rubin 1990][research_heitjan_rubin_1990]] \[[Language Symbolism and Number 1989][research_language_symbolism_1989]] \[[Halpern and Devereaux 1989][research_halpern_devereaux_1989]] \[[Sigurd 1988][research_sigurd_1988]] \[[Hensley 1987][research_hensley_1987]] \[[How to Round Numbers 1986][research_how_to_1986]] \[[Hessel 1986][research_hessel_1986]] \[[Pomerance 1985][research_pomerance_1985]] \[[Russell 1983][research_russell_1983]] \[[Nuessel 1982][research_nuessel_1982]] \[[McCutcheon 1981][research_mccutcheon_1981]] \[[Wells 1981][research_wells_1981]] \[[Brooks-Davies 1980][research_brooksdavies_1980]] \[[Williams 1979][research_williams_1979]] \[[Keh et al 1978][research_keh_russell_1978]] \[[Keh 1978][research_keh_1978]] \[[Makowski and Sinha 1976][research_makowski_sinha_1976]] \[[Wicks 1975][research_wicks_1975]] \[[Wicks and Stockwell 1975][research_wicks_stockwell_1975]] \[[Stockwell and Wicks 1974][research_stockwell_wicks_1974]] \[[Nagi et al 1973][research_nagi_stockwell_1973]] \[[Heninger, 1972][research_heninger_1972]] \[[Davies and Butler 1972][research_davies_butler_1972]] \[[Brown 1972][research_brown_1972]] \[[Heywood 1972][research_heywood_1972]] \[[Baker 1971][research_baker_1971]] \[[Prescott 1969][research_prescott_1969]] \[[Savvides 1969][research_savvides_1969]] \[[Owen 1968][research_owen_1968]] \[[Stockwell 1966][research_stockwell_1966]] \[[S. et al 1965][research_s_stein_1965]] \[[Chapter 7. Adjusting for 1963][research_chapter_7_1963]] \[[Batts 1963][research_batts_1963]] \[[Zelnik 1961][research_zelnik_1961]] \[[Ekvall 1959][research_ekvall_1959]] \[[Clar 1958][research_clar_1958]] \[[Baily 1952][research_baily_1952]] \[[Fox 1947][research_fox_1947]] \[[The Holy Number Thirteen 1947][research_the_holy_1947]] \[[London 1947][research_london_1947]] \[[C. T. S. 1947][research_cts_1947]] \[[Hopper 1940][research_hopper_1940]] \[[Gandz 1939][research_gandz_1939]] \[[Pegis 1939][research_pegis_1939]] \[[I. Elementary Number Symbolism 1938][research_i_elementary_1938]] \[[Rhedecynian 1938][research_rhedecynian_1938]] \[[Hopper 1938][research_hopper_1938]] \[[Mendizabal 1923][research_mendizabal_1923]] \[[Murray 1920][research_murray_1920]] \[[Keith 1916][research_keith_1916]] \[[Jordan 1911][research_jordan_1911]] \[[Winslow 1900][research_winslow_1900]] \[[Penny 1897][research_penny_1897]] \[[Jones 1896][research_jones_1896]] \[[Rand 1875][research_rand_1875]] \[[Walcott 1855][research_walcott_1855]] \[[Figure 11 Recognition effect][research_figure_11]] \[[Figure 3 Map of][research_figure_3]] \[[Number Symbolism][research_number_symbolism]]
+**200 works.** \[[Kudtarkar 2026][research_kudtarkar_2026]] \[[Pandit et al 2026][research_pandit_thasineku_2026]] \[[Lee 2026][research_lee_2026]] \[[Han and Lee 2026][research_han_lee_2026]] \[[Roychoudhury 2026][research_roychoudhury_2026]] \[[Choi 2026][research_choi_2026]] \[[Lau et al 2025][research_lau_kumaresan_2025]] \[[Ferber and Baten 2025][research_ferber_baten_2025]] \[[Mangombe et al 2025][research_mangombe_lwanga_2025]] \[[Correction to Human capital 2025][research_correction_to_2025]] \[[Piotrowicz et al 2025][research_piotrowicz_czesak_2025]] \[[Gómez-i-Aznar 2025][research_gomeziaznar_2025]] \[[Dube et al 2025][research_dube_manning_2025]] \[[Huntington 2025][research_huntington_2025]] \[[Lengerich et al 2025][research_lengerich_caruana_2025]] \[[Colvin et al 2024][research_colvin_henderson_2024]] \[[Tollnek and Baten 2024][research_tollnek_baten_2024]] \[[Rönnbäck et al 2024][research_ronnback_galli_2024]] \[[Breunig et al 2024][research_breunig_deutscher_2024]] \[[Breunig 2024][research_breunig_2024]] \[[Rosen and Spaenjers 2024][research_rosen_spaenjers_2024]] \[[Gu and Feng 2024][research_gu_feng_2024]] \[[Chandel et al 2024][research_chandel_miranda_2024]] \[[Tollnek and Baten 2023][research_tollnek_baten_2023]] \[[Putri et al 2023][research_putri_astuti_2023]] \[[Helleringer et al 2023][research_helleringer_lau_2023]] \[[Fitzgerald 2023][research_fitzgerald_2023]] \[[Lucky numbers 2023][research_lucky_numbers_2023]] \[[O'Grady 2023][research_ogrady_2023]] \[[Unlucky numbers Fighting murder 2023][research_unlucky_numbers_2023]] \[[O'Halloran et al 2022][research_ohalloran_kramer_2022]] \[[Baten and Nalle 2022][research_baten_nalle_2022]] \[[A'Hearn et al 2022][research_ahearn_delfino_2022]] \[[Luo et al 2022][research_luo_xu_2022]] \[[Lengerich et al 2022][research_lengerich_caruana_2022]] \[[Dahiru and Dikko 2022][research_dahiru_dikko_2022]] \[[Basannar et al 2022][research_basannar_singh_2022]] \[[Baten et al 2022][research_baten_benati_2022]] \[[Nguyen et al 2022][research_nguyen_hofman_2022]] \[[O'Halloran et al 2022][research_ohalloran_hughes_2022]] \[[Hassler and Pohle 2022][research_hassler_pohle_2022]] \[[Barrett 2021][research_barrett_2021]] \[[Singh et al 2021][research_singh_kashyap_2021]] \[[Malik 2021][research_malik_2021]] \[[Digit Preference 2021][research_digit_preference_2021]] \[[Lapostolle et al 2021][research_lapostolle_schneider_2021]] \[[Romero Prieto et al 2021][research_romeroprieto_verhulst_2021]] \[[A'Hearn et al 2021][research_ahearn_delfino_2021]] \[[Billig 2021][research_billig_2021]] \[[Beltrán Tapia et al 2021][research_beltrantapia_diezminguela_2021]] \[[The Likely Number Thirteen 2020][research_the_likely_2020]] \[[Foti et al 2020][research_foti_appel_2020]] \[[Sakaguchi et al 2020][research_sakaguchi_gathergood_2020]] \[[Gunasti and Ozcan 2020][research_gunasti_ozcan_2020]] \[[Barrett 2019][research_barrett_2019]] \[[Fayehun et al 2019][research_fayehun_ajayi_2019]] \[[Tollnek and Baten 2019][research_tollnek_baten_2019]] \[[Lee 2019][research_lee_2019]] \[[Chow 2019][research_chow_2019]] \[[Suhartini 2019][research_suhartini_2019]] \[[The Law of Round 2019][research_the_law_2019]] \[[Gunasti and Ozcan 2019][research_gunasti_ozcan_2019]] \[[Dube et al 2018][research_dube_manning_2018]] \[[den Bakker and Damhuis 2018][research_denbakker_damhuis_2018]] \[[Samuel O 2018][research_samuelo_2018]] \[[Blum and Krauss 2017][research_blum_krauss_2017]] \[[Szołtysek et al 2017][research_szoltysek_poniat_2017]] \[[Westjohn et al 2017][research_westjohn_roschk_2017]] \[[Calzolari 2017][research_calzolari_2017]] \[[Gideon et al 2017][research_gideon_helppiemcfall_2017]] \[[Wu and Sun 2017][research_wu_sun_2017]] \[[Cappuccini 2017][research_cappuccini_2017]] \[[Baten and Sohn 2017][research_baten_sohn_2017]] \[[Hom 2017][research_hom_2017]] \[[Lyons-Amos and Stones 2017][research_lyonsamos_stones_2017]] \[[Westjohn et al 2016][research_westjohn_roschk_2016]] \[[Camarda et al 2016][research_camarda_eilers_2016]] \[[Barootes 2016][research_barootes_2016]] \[[Chooi and Chia 2016][research_chooi_chia_2016]] \[[Gao 2016][research_gao_2016]] \[[Plumb et al 2016][research_plumb_nickerson_2016]] \[[Tollnek and Baten 2015][research_tollnek_baten_2015]] \[[Backus et al 2015][research_backus_blake_2015]] \[[Kara et al 2015][research_kara_gunasti_2015]] \[[Pena-Marin and Bhargave 2015][research_penamarin_bhargave_2015]] \[[Tollnek and Baten 2014][research_tollnek_baten_2014]] \[[Gunasti et al 2014][research_gunasti_kara_2014]] \[[Gunasti and Ozcan 2014][research_gunasti_ozcan_2014]] \[[Wagner and Jamsawang 2014][research_wagner_jamsawang_2014]] \[[Mission Number Thirteen 2014][research_mission_number_2014]] \[[Slaveva-Griffin 2014][research_slavevagriffin_2014]] \[[Number Preference Model 2014][research_number_preference_2014]] \[[Kettle et al 2014][research_kettle_delvecchio_2014]] \[[Kara et al 2014][research_kara_gunasti_2014]] \[[Stratford et al 2013][research_stratford_wainwright_2013]] \[[Yazdanparast et al 2012][research_yazdanparast_pourhoseingholi_2012]] \[[Bhattacharya et al 2012][research_bhattacharya_holden_2012]] \[[The Likely Number Thirteen 2012][research_the_likely_2012]] \[[Manzel et al 2011][research_manzel_baten_2011]] \[[Földvári et al 2011][research_foldvari_vanleeuwen_2011]] \[[Alsanjari et al 2011][research_alsanjari_delusignan_2011]] \[[Pardeshi 2010][research_pardeshi_2010]] \[[Baten et al 2010][research_baten_ma_2010]] \[[Gunasti and Ross 2010][research_gunasti_ross_2010]] \[[Gunasti and Ross 2010][research_gunasti_ross_2010_2]] \[[Clucas 2010][research_clucas_2010]] \[[Pope and Simonsohn 2010][research_pope_simonsohn_2010]] \[[Pope and Simonsohn 2010][research_pope_simonsohn_2010_2]] \[[Elders 2009][research_elders_2009]] \[[Number Symbolism 2009][research_number_symbolism_2009]] \[[A'Hearn et al 2009][research_ahearn_baten_2009]] \[[Beer 2009][research_beer_2009]] \[[Hayes 2008][research_hayes_2008]] \[[Burnier and Gasser 2008][research_burnier_gasser_2008]] \[[Lucky Numbers 2008][research_lucky_numbers_2008]] \[[Camarda et al 2008][research_camarda_eilers_2008]] \[[Johnson et al 2008][research_johnson_johnson_2008]] \[[Woo et al 2008][research_woo_horowitz_2008]] \[[Lucky numbers 2007][research_lucky_numbers_2007]] \[[Johnson et al 2007][research_johnson_johnson_2007]] \[[Renedo and Sobrino 2007][research_renedo_sobrino_2007]] \[[The Carrez Law a 2007][research_the_carrez_2007]] \[[Price and Seaman 2006][research_price_seaman_2006]] \[[Locker and Mason 2006][research_locker_mason_2006]] \[[Nietert et al 2006][research_nietert_wessell_2006]] \[[Lucky numbers 2006][research_lucky_numbers_2006]] \[[Li et al 2005][research_li_liu_2005]] \[[Thirteen is a Lucky 2005][research_thirteen_is_2005]] \[[Doucouliagos 2004][research_doucouliagos_2004]] \[[Crawford 2002][research_crawford_2002]] \[[Beaman 2002][research_beaman_2002]] \[[Miller and Anderson 2002][research_miller_anderson_2002]] \[[Wingfield et al 2002][research_wingfield_cooke_2002]] \[[Lucky numbers 2001][research_lucky_numbers_2001]] \[[Jansen and Pollmann 2001][research_jansen_pollmann_2001]] \[[Crockett et al 2001][research_crockett_crockett_2001]] \[[Crawford et al 2000][research_crawford_johannes_2000]] \[[Bieniaszewski et al 2000][research_bieniaszewski_kruszewski_2000]] \[[Spriet and Dupin-Spriet 1997][research_spriet_dupinspriet_1997]] \[[Salsburg 1997][research_salsburg_1997]] \[[Beaman et al 1997][research_beaman_vaske_1997]] \[[Edouard and Senthilselvan 1997][research_edouard_senthilselvan_1997]] \[[andNa 1995][research_na_1995]] \[[Kaufmann 1995][research_kaufmann_1995]] \[[Ormerod 1994][research_ormerod_1994]] \[[Tarrant and Manfredo 1993][research_tarrant_manfredo_1993]] \[[Duncan 1993][research_duncan_1993]] \[[Baker 1992][research_baker_1992]] \[[Pickering 1992][research_pickering_1992]] \[[CHAPTER IV. Donne and 1991][research_chapter_iv_1991]] \[[Budd and Guinnane 1991][research_budd_guinnane_1991]] \[[Ridout and Morgan 1991][research_ridout_morgan_1991]] \[[Thirteen is Not an 1991][research_thirteen_is_1991]] \[[Heitjan and Rubin 1990][research_heitjan_rubin_1990]] \[[Language Symbolism and Number 1989][research_language_symbolism_1989]] \[[Halpern and Devereaux 1989][research_halpern_devereaux_1989]] \[[Sigurd 1988][research_sigurd_1988]] \[[Hessel 1986][research_hessel_1986]] \[[Russell 1983][research_russell_1983]] \[[Nuessel 1982][research_nuessel_1982]] \[[McCutcheon 1981][research_mccutcheon_1981]] \[[Wells 1981][research_wells_1981]] \[[Brooks-Davies 1980][research_brooksdavies_1980]] \[[Williams 1979][research_williams_1979]] \[[Wicks 1975][research_wicks_1975]] \[[Wicks and Stockwell 1975][research_wicks_stockwell_1975]] \[[Stockwell and Wicks 1974][research_stockwell_wicks_1974]] \[[Nagi et al 1973][research_nagi_stockwell_1973]] \[[Heninger, 1972][research_heninger_1972]] \[[Davies and Butler 1972][research_davies_butler_1972]] \[[Brown 1972][research_brown_1972]] \[[Heywood 1972][research_heywood_1972]] \[[Baker 1971][research_baker_1971]] \[[Prescott 1969][research_prescott_1969]] \[[Owen 1968][research_owen_1968]] \[[Stockwell 1966][research_stockwell_1966]] \[[Chapter 7. Adjusting for 1963][research_chapter_7_1963]] \[[Batts 1963][research_batts_1963]] \[[Zelnik 1961][research_zelnik_1961]] \[[Ekvall 1959][research_ekvall_1959]] \[[Clar 1958][research_clar_1958]] \[[Baily 1952][research_baily_1952]] \[[The Holy Number Thirteen 1947][research_the_holy_1947]] \[[London 1947][research_london_1947]] \[[C. T. S. 1947][research_cts_1947]] \[[Hopper 1940][research_hopper_1940]] \[[Gandz 1939][research_gandz_1939]] \[[Pegis 1939][research_pegis_1939]] \[[I. Elementary Number Symbolism 1938][research_i_elementary_1938]] \[[Rhedecynian 1938][research_rhedecynian_1938]] \[[Hopper 1938][research_hopper_1938]] \[[Mendizabal 1923][research_mendizabal_1923]] \[[Murray 1920][research_murray_1920]] \[[Keith 1916][research_keith_1916]] \[[Jordan 1911][research_jordan_1911]] \[[Winslow 1900][research_winslow_1900]] \[[Penny 1897][research_penny_1897]] \[[Jones 1896][research_jones_1896]] \[[Walcott 1855][research_walcott_1855]] \[[Number Symbolism][research_number_symbolism]]
 
 ### Inferring unseen counts from numbered items
 
 **This is among the smallest clusters and it is the most directly applicable.** It covers the German tank problem, estimation from serial numbers, and the estimation of unseen classes, all of which assume that numbers are issued without choice. **A chosen number violates that assumption**, which is why the article's ordinal section reaches this literature.
 
-**28 works.** \[[Ruggles and Brodie 1947][research_ruggles_brodie_1947]] \[[Good 1953][research_good_1953]] \[[Efron and Thisted 1976][research_efron_thisted_1976]] \[[Miller et al 2024][research_miller_sharma_2024]] \[[Simon 2023][research_simon_2023]] \[[Anthony Lee and Steven Miller 2023][research_anthonylee_stevenmiller_2023]] \[[Russia ponders response to 2023][research_russia_ponders_2023]] \[[Clark et al 2021][research_clark_gonye_2021]] \[[Serial Number Production Identifier 2020][research_serial_number_2020]] \[[Westaway 2018][research_westaway_2018]] \[[Qiu et al 2018][research_qiu_zhang_2018]] \[[Roy et al 2018][research_roy_eli_2018]] \[[Thomopoulos 2017][research_thomopoulos_2017]] \[[Discrete Uniform Distribution 2016][research_discrete_uniform_2016]] \[[German TANK Strengths 2014][research_german_tank_2014]] \[[Raths 2013][research_raths_2013]] \[[Raths 2012][research_raths_2012]] \[[Sharma and Sharma 2012][research_sharma_sharma_2012]] \[[Raths 2011][research_raths_2011]] \[[Briliandt 2011][research_briliandt_2011]] \[[Discrete Uniform Distribution 2008][research_discrete_uniform_2008]] \[[Çalik and Güngör 2004][research_calik_gungor_2004]] \[[Discrete Uniform Distribution 2003][research_discrete_uniform_2003]] \[[Goodman 1954][research_goodman_1954]] \[[Goodman 1952][research_goodman_1952]] \[[McEWEN 1946][research_mcewen_1946]] \[[Perkins 1903][research_perkins_1903]] \[[Discrete Uniform Distribution][research_discrete_uniform]]
+**19 works.** \[[Ruggles and Brodie 1947][research_ruggles_brodie_1947]] \[[Good 1953][research_good_1953]] \[[Efron and Thisted 1976][research_efron_thisted_1976]] \[[Miller et al 2024][research_miller_sharma_2024]] \[[Simon 2023][research_simon_2023]] \[[Anthony Lee and Steven Miller 2023][research_anthonylee_stevenmiller_2023]] \[[Clark et al 2021][research_clark_gonye_2021]] \[[Serial Number Production Identifier 2020][research_serial_number_2020]] \[[Qiu et al 2018][research_qiu_zhang_2018]] \[[Roy et al 2018][research_roy_eli_2018]] \[[Thomopoulos 2017][research_thomopoulos_2017]] \[[Discrete Uniform Distribution 2016][research_discrete_uniform_2016]] \[[Sharma and Sharma 2012][research_sharma_sharma_2012]] \[[Discrete Uniform Distribution 2008][research_discrete_uniform_2008]] \[[Çalik and Güngör 2004][research_calik_gungor_2004]] \[[Discrete Uniform Distribution 2003][research_discrete_uniform_2003]] \[[Goodman 1954][research_goodman_1954]] \[[Goodman 1952][research_goodman_1952]] \[[Discrete Uniform Distribution][research_discrete_uniform]]
 
 ### Anniversaries, centennials and bicentennials
 
 **The X-76's occasion is an anniversary, and anniversaries have their own literature.** It covers national centennials and bicentennials, the Centennial Exhibition of 1876, the American Revolution Bicentennial of 1976, and the uses states make of round-number years. **The 76 in the X-76 is the last two digits of all three American years.**
 
-**235 works.** \[[Hobsbawm 2012][research_hobsbawm_2012]] \[[Hattem 2024][research_hattem_2024]] \[[National Aeronautics and Space 1983][research_national_aeronautics_1983]] \[[Schneider, W. C. 1977][research_schneiderwc_1977]] \[[Emme, E. M. 1977][research_emmeem_1977]] \[[Lundin, B. T. 1975][research_lundinbt_1975]] \[[Rymsza-Pawlowska 2026][research_rymszapawlowska_2026]] \[[Gabilliet 2026][research_gabilliet_2026]] \[[Coleman 2026][research_coleman_2026]] \[[Enzerink and King-Savic 2026][research_enzerink_kingsavic_2026]] \[[Newman 2026][research_newman_2026]] \[[Revisiting the Northwest Ordinance 2026][research_revisiting_the_2026]] \[[Burns 2026][research_burns_2026]] \[[Reyes 2026][research_reyes_2026]] \[[Hart 2026][research_hart_2026]] \[[Young and Cordova 2026][research_young_cordova_2026]] \[[xheritye 2026][research_xheritye_2026]] \[[Lin 2025][research_lin_2025]] \[[Johnson 2025][research_johnson_2025]] \[[Johnson 2025][research_johnson_2025_2]] \[[Jagielski and Węgrzyn 2025][research_jagielski_wegrzyn_2025]] \[[Lee 2025][research_lee_2025]] \[[Spitzer 2025][research_spitzer_2025]] \[[Colman 2024][research_colman_2024]] \[[Drzewiecka 2024][research_drzewiecka_2024]] \[[M. Hendershot and Marsh 2024][research_mhendershot_marsh_2024]] \[[Anniversaries, Ceremonies and Creative 2023][research_anniversaries_ceremonies_2023]] \[[Kennedy 2023][research_kennedy_2023]] \[[Byrd 2023][research_byrd_2023]] \[[Kinslow 2023][research_kinslow_2023]] \[[Kryńska 2023][research_krynska_2023]] \[[Appendix 2 Ludlow Centennial 2022][research_appendix_2_2022]] \[[Kontou et al 2022][research_kontou_mills_2022]] \[[Kontou et al 2022][research_kontou_mills_2022_2]] \[[Power and Posterity American 2022][research_power_and_2022]] \[[Souvenir from the Centennial 2022][research_souvenir_from_2022]] \[[Gordon 2021][research_gordon_2021]] \[[Madeira 2021][research_madeira_2021]] \[[Kis 2021][research_kis_2021]] \[[Easter et al 2021][research_easter_fairbanks_2021]] \[[Tsoukalas 2021][research_tsoukalas_2021]] \[[The Philadelphia Centennial The 2020][research_the_philadelphia_2020]] \[[Budrina 2020][research_budrina_2020]] \[[Inventing America at the 2020][research_inventing_america_2020]] \[[The Bicentennial Commemoration Imagining 2020][research_the_bicentennial_2020]] \[[An 2020][research_an_2020]] \[[National Symbols and Commemorations 2018][research_national_symbols_2018]] \[["Fit for Citizenship" Scouting 2018][research_fit_for_2018]] \[[A Continental Centennial Situating 2018][research_a_continental_2018]] \[[New Nationalism in the 2018][research_new_nationalism_2018]] \[[Children of a Common 2018][research_children_of_2018]] \[[Rouleau 2018][research_rouleau_2018]] \[[King 2018][research_king_2018]] \[[Introduction. Celebrating Canada Commemorations 2018][research_introduction_celebrating_2018]] \[[Love and Shafer 2018][research_love_shafer_2018]] \[[Brune 2018][research_brune_2018]] \[[The National Academy of 2018][research_the_national_2018]] \[[Aguirre 2017][research_aguirre_2017]] \[[Conclusion Canada's 1967 Centennial 2017][research_conclusion_canada_s_2017]] \[[Liu 2017][research_liu_2017]] \[[Introduction Canada's 1967 Centennial 2017][research_introduction_canada_s_2017]] \[[Memorial Hall, Centennial Exhibition 2017][research_memorial_hall_2017]] \[[National Identity and Its 2017][research_national_identity_2017]] \[[Uy 2017][research_uy_2017]] \[[Ulysses S. Grant's Speech 2017][research_ulysses_s_2017]] \[[Uslenghi 2016][research_uslenghi_2016]] \[[Rezende 2016][research_rezende_2016]] \[[Noe 2016][research_noe_2016]] \[[Mead 2015][research_mead_2015]] \[[Kremer 2014][research_kremer_2014]] \[[Watson 2014][research_watson_2014]] \[[Riccucci and Thompson 2013][research_riccucci_thompson_2013]] \[[Visser 2013][research_visser_2013]] \[[Sygkelos 2013][research_sygkelos_2013]] \[[Guidotti-Hernández 2011][research_guidottihernandez_2011]] \[[Bause 2011][research_bause_2011]] \[[Schleifer 2010][research_schleifer_2010]] \[[Fergus 2010][research_fergus_2010]] \[[Woods 2009][research_woods_2009]] \[[Shank 2009][research_shank_2009]] \[[Judging the Progress of 2009][research_judging_the_2009]] \[[Sygkelos 2009][research_sygkelos_2009]] \[[Gold 2008][research_gold_2008]] \[[Franklin 2008][research_franklin_2008]] \[[Burger, Warren Earl, 17 2007][research_burger_warren_2007]] \[[Finley 2006][research_finley_2006]] \[[Ihalainen 2005][research_ihalainen_2005]] \[[Robey 2004][research_robey_2004]] \[[Rydell 2003][research_rydell_2003]] \[[Johnson and Reisa 2003][research_johnson_reisa_2003]] \[[Yanni 2003][research_yanni_2003]] \[[Pitman 2002][research_pitman_2002]] \[[Designing the centennial a 2002][research_designing_the_2002]] \[[Dunkerly 2001][research_dunkerly_2001]] \[[Findling 2000][research_findling_2000]] \[[Hering 2000][research_hering_2000]] \[[Cole 1999][research_cole_1999]] \[[Giberti 1999][research_giberti_1999]] \[[To remind ourselves that 1997][research_to_remind_1997]] \[[Kramer 1996][research_kramer_1996]] \[[Censer 1992][research_censer_1992]] \[[Redfield 1992][research_redfield_1992]] \[[Scott 1991][research_scott_1991]] \[[Kafker 1991][research_kafker_1991]] \[[Michele Bossi, Pasquale Tucci 1991][research_michele_bossi_1991]] \[[Bickford 1990][research_bickford_1990]] \[[Mongeau 1990][research_mongeau_1990]] \[[Philosophical reflections on the 1990][research_philosophical_reflections_1990]] \[[Miniati 1989][research_miniati_1989]] \[[Maniquis 1989][research_maniquis_1989]] \[[Miller 1989][research_miller_1989]] \[[Berens 1988][research_berens_1988]] \[[Berens and Korshin 1988][research_berens_korshin_1988]] \[[Bicentennial commemoration of R 1987][research_bicentennial_commemoration_1987]] \[[Marshall 1987][research_marshall_1987]] \[[Cayton and Korshin 1987][research_cayton_korshin_1987]] \[[Arndt 1985][research_arndt_1985]] \[[A Centennial Celebration in 1984][research_a_centennial_1984]] \[[Appendix B Resolutions in 1984][research_appendix_b_1984]] \[[Mullen 1984][research_mullen_1984]] \[[Yoshikawa 1983][research_yoshikawa_1983]] \[[Taylor 1982][research_taylor_1982]] \[[Baer 1982][research_baer_1982]] \[[Lederer 1981][research_lederer_1981]] \[[Destler 1981][research_destler_1981]] \[[Lewis 1981][research_lewis_1981]] \[[Wallace 1981][research_wallace_1981]] \[[Billias 1981][research_billias_1981]] \[[Stark 1981][research_stark_1981]] \[[Holistic-medical foundations of American 1981][research_holistic_medical_foundations_1981]] \[[Tate 1979][research_tate_1979]] \[[Wolfe 1979][research_wolfe_1979]] \[[Schaefer 1979][research_schaefer_1979]] \[[Winters and Johnson 1979][research_winters_johnson_1979]] \[[Evans 1978][research_evans_1978]] \[[Stout 1978][research_stout_1978]] \[[Stout and Suggs 1978][research_stout_suggs_1978]] \[[McKevitt 1978][research_mckevitt_1978]] \[[United States Bicentennial exhibition 1978][research_united_states_1978]] \[[Longmire 1977][research_longmire_1977]] \[[Farrell and Elliott 1977][research_farrell_elliott_1977]] \[[Rodnan 1977][research_rodnan_1977]] \[[Kurutz 1977][research_kurutz_1977]] \[[Tucker 1977][research_tucker_1977]] \[[Goetzmann 1977][research_goetzmann_1977]] \[[Greene 1977][research_greene_1977]] \[[Morris 1977][research_morris_1977]] \[[Mason 1976][research_mason_1976]] \[[Freidel 1976][research_freidel_1976]] \[[American History for Young 1976][research_american_history_1976]] \[[Belcher 1976][research_belcher_1976]] \[[Owsley and Dibble 1976][research_owsley_dibble_1976]] \[[Schroeder 1976][research_schroeder_1976]] \[[C. S. Peirce bicentennial 1976][research_c_s_1976]] \[[Parish 1976][research_parish_1976]] \[[Price 1976][research_price_1976]] \[[Hydrospheric Sciences in America 1976][research_hydrospheric_sciences_1976]] \[[Calkin 1976][research_calkin_1976]] \[[MENC Bicentennial Commission Selective 1976][research_menc_bicentennial_1976]] \[[Mining and minerals policy 1976][research_mining_and_1976]] \[[Harken 1976][research_harken_1976]] \[[McKeachie 1976][research_mckeachie_1976]] \[[Launitz-Schurer and Siracusa 1976][research_launitzschurer_siracusa_1976]] \[[Lemisch 1976][research_lemisch_1976]] \[[Wishnow and Steinfeld 1976][research_wishnow_steinfeld_1976]] \[[Oedel 1976][research_oedel_1976]] \[[Goodman et al 1976][research_goodman_parker_1976]] \[[Baker 1976][research_baker_1976]] \[[The New York Botanical 1976][research_the_new_1976]] \[[Barton 1976][research_barton_1976]] \[[Prance 1976][research_prance_1976]] \[[Stool et al 1975][research_stool_kemper_1975]] \[[American Pharmacy and the 1975][research_american_pharmacy_1975]] \[[Murray 1975][research_murray_1975]] \[[Llewellyn 1975][research_llewellyn_1975]] \[[The New York Botanical 1975][research_the_new_1975]] \[[Greening 1974][research_greening_1974]] \[[America's Bicentennial 1974][research_america_s_bicentennial_1974]] \[[Ames 1974][research_ames_1974]] \[[Zeichner 1974][research_zeichner_1974]] \[[Cohen and Maass 1974][research_cohen_maass_1974]] \[[Weaver 1973][research_weaver_1973]] \[[Brown and Morris 1972][research_brown_morris_1972]] \[[Peter 1967][research_peter_1967]] \[[Two Divisions Celebrate Golden 1963][research_two_divisions_1963]] \[[A. C. Hunold, The 1955][research_a_c_1955]] \[[Doreen Warriner Land 1955][research_doreen_warriner_1955]] \[[Goodrich et al 1944][research_goodrich_marceau_1944]] \[[The Bicentennial Commemoration of 1901][research_the_bicentennial_1901]] \[[Norton 1877][research_norton_1877]] \[[Vasey 1876][research_vasey_1876]] \[[American Centennial Celebration 1876][research_american_centennial_1876]] \[[Sears 1876][research_sears_1876]] \[[C. 1876][research_c_1876]] \[[Carriage Wheels at the 1876][research_carriage_wheels_1876]] \[[Centennial Exhibition 1876][research_centennial_exhibition_1876]] \[[Centennial Exhibition U 1876][research_centennial_exhibition_1876_2]] \[[Centennial Exhibition. United States Department 1876][research_centennial_exhibition_1876_3]] \[[Westcott 1876][research_westcott_1876]] \[[Closing Ceremonies of the 1876][research_closing_ceremonies_1876]] \[[Ericsson 1876][research_ericsson_1876]] \[[Curious Boats at the 1876][research_curious_boats_1876]] \[[Dimmock 1876][research_dimmock_1876]] \[[Glass Making at the 1876][research_glass_making_1876]] \[[C. 1876][research_c_1876_2]] \[[C. 1876][research_c_1876_3]] \[[Photographs at the Centennial 1876][research_photographs_at_1876]] \[[Progress of the Centennial 1876][research_progress_of_1876]] \[[The American Society of 1876][research_the_american_1876]] \[[Morford 1876][research_morford_1876]] \[[The Centennial Commissioners 1876][research_the_centennial_1876]] \[[The Centennial Exhibition 1876][research_the_centennial_1876_2]] \[[The Centennial Exhibition 1876][research_the_centennial_1876_3]] \[[The Centennial Exhibition. The Campbell 1876][research_the_centennial_1876_4]] \[[The Centennial Exhibition. The Great 1876][research_the_centennial_1876_5]] \[[The Centennial Exhibition-The State 1876][research_the_centennial_1876_6]] \[[The Centennial Exposition 1876][research_the_centennial_1876_7]] \[[The Centennial Exposition guide 1876][research_the_centennial_1876_8]] \[[The Centennial International Exhibition 1876][research_the_centennial_1876_9]] \[[The Close of the 1876][research_the_close_1876]] \[[The Exhibition of Fish 1876][research_the_exhibition_1876]] \[[The Horticultural Hall at 1876][research_the_horticultural_1876]] \[[Shinn et al 1876][research_shinn_smith_1876]] \[[Trial of Steak Fire 1876][research_trial_of_1876]] \[[Webster 1875][research_webster_1875]] \[[The Proposed Centennial Exhibition 1871][research_the_proposed_1871]] \[[A Bilateral Bicentennial A][research_a_bilateral]] \[[Designing the Centennial A][research_designing_the]] \[[Judaic Needlework. The Continuing][research_judaic_needlework]] \[[Symbols of Faith. Menorah][research_symbols_of]] \[[The American Revolution in][research_the_american]] \[[The Story of the][research_the_story]] \[[The United States and][research_the_united]] \[[Morse][research_morse]] \[[‮מאה שנים של ספרים][research_anon]]
+**216 works.** \[[Hobsbawm 2012][research_hobsbawm_2012]] \[[Hattem 2024][research_hattem_2024]] \[[National Aeronautics and Space 1983][research_national_aeronautics_1983]] \[[Schneider, W. C. 1977][research_schneiderwc_1977]] \[[Emme, E. M. 1977][research_emmeem_1977]] \[[Lundin, B. T. 1975][research_lundinbt_1975]] \[[Rymsza-Pawlowska 2026][research_rymszapawlowska_2026]] \[[Gabilliet 2026][research_gabilliet_2026]] \[[Coleman 2026][research_coleman_2026]] \[[Enzerink and King-Savic 2026][research_enzerink_kingsavic_2026]] \[[Newman 2026][research_newman_2026]] \[[Revisiting the Northwest Ordinance 2026][research_revisiting_the_2026]] \[[Burns 2026][research_burns_2026]] \[[Reyes 2026][research_reyes_2026]] \[[Hart 2026][research_hart_2026]] \[[Young and Cordova 2026][research_young_cordova_2026]] \[[xheritye 2026][research_xheritye_2026]] \[[Lin 2025][research_lin_2025]] \[[Johnson 2025][research_johnson_2025]] \[[Johnson 2025][research_johnson_2025_2]] \[[Lee 2025][research_lee_2025]] \[[Spitzer 2025][research_spitzer_2025]] \[[Colman 2024][research_colman_2024]] \[[Drzewiecka 2024][research_drzewiecka_2024]] \[[M. Hendershot and Marsh 2024][research_mhendershot_marsh_2024]] \[[Anniversaries, Ceremonies and Creative 2023][research_anniversaries_ceremonies_2023]] \[[Kennedy 2023][research_kennedy_2023]] \[[Byrd 2023][research_byrd_2023]] \[[Kinslow 2023][research_kinslow_2023]] \[[Kryńska 2023][research_krynska_2023]] \[[Appendix 2 Ludlow Centennial 2022][research_appendix_2_2022]] \[[Kontou et al 2022][research_kontou_mills_2022]] \[[Kontou et al 2022][research_kontou_mills_2022_2]] \[[Power and Posterity American 2022][research_power_and_2022]] \[[Souvenir from the Centennial 2022][research_souvenir_from_2022]] \[[Gordon 2021][research_gordon_2021]] \[[Madeira 2021][research_madeira_2021]] \[[Kis 2021][research_kis_2021]] \[[Tsoukalas 2021][research_tsoukalas_2021]] \[[The Philadelphia Centennial The 2020][research_the_philadelphia_2020]] \[[Budrina 2020][research_budrina_2020]] \[[Inventing America at the 2020][research_inventing_america_2020]] \[[The Bicentennial Commemoration Imagining 2020][research_the_bicentennial_2020]] \[[An 2020][research_an_2020]] \[[National Symbols and Commemorations 2018][research_national_symbols_2018]] \[["Fit for Citizenship" Scouting 2018][research_fit_for_2018]] \[[A Continental Centennial Situating 2018][research_a_continental_2018]] \[[New Nationalism in the 2018][research_new_nationalism_2018]] \[[Children of a Common 2018][research_children_of_2018]] \[[Rouleau 2018][research_rouleau_2018]] \[[King 2018][research_king_2018]] \[[Introduction. Celebrating Canada Commemorations 2018][research_introduction_celebrating_2018]] \[[Love and Shafer 2018][research_love_shafer_2018]] \[[Brune 2018][research_brune_2018]] \[[Aguirre 2017][research_aguirre_2017]] \[[Conclusion Canada's 1967 Centennial 2017][research_conclusion_canada_s_2017]] \[[Liu 2017][research_liu_2017]] \[[Introduction Canada's 1967 Centennial 2017][research_introduction_canada_s_2017]] \[[Memorial Hall, Centennial Exhibition 2017][research_memorial_hall_2017]] \[[National Identity and Its 2017][research_national_identity_2017]] \[[Uy 2017][research_uy_2017]] \[[Ulysses S. Grant's Speech 2017][research_ulysses_s_2017]] \[[Uslenghi 2016][research_uslenghi_2016]] \[[Rezende 2016][research_rezende_2016]] \[[Noe 2016][research_noe_2016]] \[[Mead 2015][research_mead_2015]] \[[Kremer 2014][research_kremer_2014]] \[[Watson 2014][research_watson_2014]] \[[Riccucci and Thompson 2013][research_riccucci_thompson_2013]] \[[Visser 2013][research_visser_2013]] \[[Sygkelos 2013][research_sygkelos_2013]] \[[Guidotti-Hernández 2011][research_guidottihernandez_2011]] \[[Bause 2011][research_bause_2011]] \[[Schleifer 2010][research_schleifer_2010]] \[[Fergus 2010][research_fergus_2010]] \[[Woods 2009][research_woods_2009]] \[[Shank 2009][research_shank_2009]] \[[Judging the Progress of 2009][research_judging_the_2009]] \[[Sygkelos 2009][research_sygkelos_2009]] \[[Gold 2008][research_gold_2008]] \[[Franklin 2008][research_franklin_2008]] \[[Burger, Warren Earl, 17 2007][research_burger_warren_2007]] \[[Finley 2006][research_finley_2006]] \[[Ihalainen 2005][research_ihalainen_2005]] \[[Robey 2004][research_robey_2004]] \[[Rydell 2003][research_rydell_2003]] \[[Yanni 2003][research_yanni_2003]] \[[Pitman 2002][research_pitman_2002]] \[[Designing the centennial a 2002][research_designing_the_2002]] \[[Dunkerly 2001][research_dunkerly_2001]] \[[Cole 1999][research_cole_1999]] \[[Giberti 1999][research_giberti_1999]] \[[To remind ourselves that 1997][research_to_remind_1997]] \[[Kramer 1996][research_kramer_1996]] \[[Censer 1992][research_censer_1992]] \[[Redfield 1992][research_redfield_1992]] \[[Scott 1991][research_scott_1991]] \[[Kafker 1991][research_kafker_1991]] \[[Bickford 1990][research_bickford_1990]] \[[Mongeau 1990][research_mongeau_1990]] \[[Philosophical reflections on the 1990][research_philosophical_reflections_1990]] \[[Maniquis 1989][research_maniquis_1989]] \[[Berens 1988][research_berens_1988]] \[[Berens and Korshin 1988][research_berens_korshin_1988]] \[[Marshall 1987][research_marshall_1987]] \[[Cayton and Korshin 1987][research_cayton_korshin_1987]] \[[Arndt 1985][research_arndt_1985]] \[[Appendix B Resolutions in 1984][research_appendix_b_1984]] \[[Yoshikawa 1983][research_yoshikawa_1983]] \[[Taylor 1982][research_taylor_1982]] \[[Baer 1982][research_baer_1982]] \[[Lederer 1981][research_lederer_1981]] \[[Destler 1981][research_destler_1981]] \[[Lewis 1981][research_lewis_1981]] \[[Wallace 1981][research_wallace_1981]] \[[Billias 1981][research_billias_1981]] \[[Stark 1981][research_stark_1981]] \[[Holistic-medical foundations of American 1981][research_holistic_medical_foundations_1981]] \[[Tate 1979][research_tate_1979]] \[[Wolfe 1979][research_wolfe_1979]] \[[Schaefer 1979][research_schaefer_1979]] \[[Winters and Johnson 1979][research_winters_johnson_1979]] \[[Evans 1978][research_evans_1978]] \[[Stout 1978][research_stout_1978]] \[[Stout and Suggs 1978][research_stout_suggs_1978]] \[[McKevitt 1978][research_mckevitt_1978]] \[[United States Bicentennial exhibition 1978][research_united_states_1978]] \[[Longmire 1977][research_longmire_1977]] \[[Farrell and Elliott 1977][research_farrell_elliott_1977]] \[[Rodnan 1977][research_rodnan_1977]] \[[Kurutz 1977][research_kurutz_1977]] \[[Tucker 1977][research_tucker_1977]] \[[Goetzmann 1977][research_goetzmann_1977]] \[[Greene 1977][research_greene_1977]] \[[Morris 1977][research_morris_1977]] \[[Mason 1976][research_mason_1976]] \[[Freidel 1976][research_freidel_1976]] \[[American History for Young 1976][research_american_history_1976]] \[[Belcher 1976][research_belcher_1976]] \[[Owsley and Dibble 1976][research_owsley_dibble_1976]] \[[Schroeder 1976][research_schroeder_1976]] \[[C. S. Peirce bicentennial 1976][research_c_s_1976]] \[[Price 1976][research_price_1976]] \[[Hydrospheric Sciences in America 1976][research_hydrospheric_sciences_1976]] \[[Calkin 1976][research_calkin_1976]] \[[MENC Bicentennial Commission Selective 1976][research_menc_bicentennial_1976]] \[[Harken 1976][research_harken_1976]] \[[McKeachie 1976][research_mckeachie_1976]] \[[Launitz-Schurer and Siracusa 1976][research_launitzschurer_siracusa_1976]] \[[Lemisch 1976][research_lemisch_1976]] \[[Wishnow and Steinfeld 1976][research_wishnow_steinfeld_1976]] \[[Oedel 1976][research_oedel_1976]] \[[Goodman et al 1976][research_goodman_parker_1976]] \[[Baker 1976][research_baker_1976]] \[[The New York Botanical 1976][research_the_new_1976]] \[[Barton 1976][research_barton_1976]] \[[Prance 1976][research_prance_1976]] \[[Stool et al 1975][research_stool_kemper_1975]] \[[American Pharmacy and the 1975][research_american_pharmacy_1975]] \[[Murray 1975][research_murray_1975]] \[[Llewellyn 1975][research_llewellyn_1975]] \[[The New York Botanical 1975][research_the_new_1975]] \[[Greening 1974][research_greening_1974]] \[[America's Bicentennial 1974][research_america_s_bicentennial_1974]] \[[Ames 1974][research_ames_1974]] \[[Zeichner 1974][research_zeichner_1974]] \[[Cohen and Maass 1974][research_cohen_maass_1974]] \[[Weaver 1973][research_weaver_1973]] \[[Brown and Morris 1972][research_brown_morris_1972]] \[[Peter 1967][research_peter_1967]] \[[Goodrich et al 1944][research_goodrich_marceau_1944]] \[[Norton 1877][research_norton_1877]] \[[Vasey 1876][research_vasey_1876]] \[[American Centennial Celebration 1876][research_american_centennial_1876]] \[[Sears 1876][research_sears_1876]] \[[C. 1876][research_c_1876]] \[[Carriage Wheels at the 1876][research_carriage_wheels_1876]] \[[Centennial Exhibition 1876][research_centennial_exhibition_1876]] \[[Centennial Exhibition U 1876][research_centennial_exhibition_1876_2]] \[[Centennial Exhibition. United States Department 1876][research_centennial_exhibition_1876_3]] \[[Westcott 1876][research_westcott_1876]] \[[Closing Ceremonies of the 1876][research_closing_ceremonies_1876]] \[[Ericsson 1876][research_ericsson_1876]] \[[Curious Boats at the 1876][research_curious_boats_1876]] \[[Dimmock 1876][research_dimmock_1876]] \[[Glass Making at the 1876][research_glass_making_1876]] \[[C. 1876][research_c_1876_2]] \[[C. 1876][research_c_1876_3]] \[[Photographs at the Centennial 1876][research_photographs_at_1876]] \[[Progress of the Centennial 1876][research_progress_of_1876]] \[[The American Society of 1876][research_the_american_1876]] \[[Morford 1876][research_morford_1876]] \[[The Centennial Commissioners 1876][research_the_centennial_1876]] \[[The Centennial Exhibition 1876][research_the_centennial_1876_2]] \[[The Centennial Exhibition 1876][research_the_centennial_1876_3]] \[[The Centennial Exhibition. The Campbell 1876][research_the_centennial_1876_4]] \[[The Centennial Exhibition. The Great 1876][research_the_centennial_1876_5]] \[[The Centennial Exhibition-The State 1876][research_the_centennial_1876_6]] \[[The Centennial Exposition 1876][research_the_centennial_1876_7]] \[[The Centennial Exposition guide 1876][research_the_centennial_1876_8]] \[[The Centennial International Exhibition 1876][research_the_centennial_1876_9]] \[[The Close of the 1876][research_the_close_1876]] \[[The Exhibition of Fish 1876][research_the_exhibition_1876]] \[[The Horticultural Hall at 1876][research_the_horticultural_1876]] \[[Shinn et al 1876][research_shinn_smith_1876]] \[[Trial of Steak Fire 1876][research_trial_of_1876]] \[[Webster 1875][research_webster_1875]] \[[The Proposed Centennial Exhibition 1871][research_the_proposed_1871]] \[[A Bilateral Bicentennial A][research_a_bilateral]] \[[Designing the Centennial A][research_designing_the]] \[[Judaic Needlework. The Continuing][research_judaic_needlework]] \[[Symbols of Faith. Menorah][research_symbols_of]] \[[The American Revolution in][research_the_american]] \[[The Story of the][research_the_story]] \[[The United States and][research_the_united]] \[[Morse][research_morse]]
 
 ### Commemoration and collective memory
 
 **Commemoration is studied as something institutions do on purpose and for reasons.** This cluster covers collective and public memory, the politics of memory, and national and military commemoration.
 
-**353 works.** \[[Nora 1989][research_nora_1989]] \[[Zerubavel 2014][research_zerubavel_2014]] \[[Bineham 2013][research_bineham_2013]] \[[Cook, Jerry R. and Willis, Martha 2009][research_cookjerryr_willismartha_2009]] \[[Renstrom, Arthur George 2003][research_renstromarthurgeorge_2003]] \[[Renstrom, Arthur G. et al 2002][research_renstromarthurg_goldblattrobertaw_2002]] \[[Harley A Thronson Jr and Edwin F Erickson 1984][research_harleyathronsonjr_edwinferickson_1984]] \[[Chapter 5 The Making 2026][research_chapter_5_2026]] \[[Scates 2026][research_scates_2026]] \[[Commemorative Memorialization 2026][research_commemorative_memorialization_2026]] \[[Park and Roy 2026][research_park_roy_2026]] \[[Bellisari 2026][research_bellisari_2026]] \[[Füssel 2026][research_fussel_2026]] \[[Valk 2026][research_valk_2026]] \[[An 2026][research_an_2026]] \[[Xu et al 2026][research_xu_hong_2026]] \[[Fourneir-Peneff 2026][research_fourneirpeneff_2026]] \[[Elbourne 2025][research_elbourne_2025]] \[[Obelisk The Worth Monument 2025][research_obelisk_the_2025]] \[[Harrison 2025][research_harrison_2025]] \[[Kivimäe 2025][research_kivimae_2025]] \[[Borisova and Misnikov 2025][research_borisova_misnikov_2025]] \[[Tixell 2025][research_tixell_2025]] \[[Georgakis 2025][research_georgakis_2025]] \[[CHAPTER 1 Commemoration and 2025][research_chapter_1_2025]] \[[CHAPTER 2 National and 2025][research_chapter_2_2025]] \[[Tyrała 2025][research_tyrala_2025]] \[[Commemoration and National Identity 2025][research_commemoration_and_2025]] \[[Marutyan 2025][research_marutyan_2025]] \[[Salchinkina 2025][research_salchinkina_2025]] \[[Schlott 2025][research_schlott_2025]] \[[Adamczyk and Rosner-Leszczyński 2025][research_adamczyk_rosnerleszczynski_2025]] \[[Wien 2025][research_wien_2025]] \[[Muzaini 2025][research_muzaini_2025]] \[[National and Transnational Commemoration 2025][research_national_and_2025]] \[[Soyer and Tunca 2025][research_soyer_tunca_2025]] \[[Vdovenko and Gusev 2025][research_vdovenko_gusev_2025]] \[[Special Section on Recent 2025][research_special_section_2025]] \[[Kenar 2025][research_kenar_2025]] \[[The Settler Politics of 2024][research_the_settler_2024]] \[[Commemoration and Creating Identity 2024][research_commemoration_and_2024]] \[[Bekliamishev 2024][research_bekliamishev_2024]] \[[Brunssen 2024][research_brunssen_2024]] \[[Maasing 2024][research_maasing_2024]] \[[Voytekhovsky 2024][research_voytekhovsky_2024]] \[[Johansen and Bauer 2024][research_johansen_bauer_2024]] \[[Krzyżanowska 2024][research_krzyzanowska_2024]] \[[Al Nashmi 2024][research_alnashmi_2024]] \[[Gyollai 2024][research_gyollai_2024]] \[[Tiede 2024][research_tiede_2024]] \[[Voytekhovsky 2024][research_voytekhovsky_2024_2]] \[[Walden and Makhortykh 2023][research_walden_makhortykh_2023]] \[[Lincoln 2023][research_lincoln_2023]] \[[Sonvilla-Weiss 2023][research_sonvillaweiss_2023]] \[[Duthille 2023][research_duthille_2023]] \[[Fihurnyi 2023][research_fihurnyi_2023]] \[[Commemoration of the seventieth 2023][research_commemoration_of_2023]] \[[Ebury 2023][research_ebury_2023]] \[[Adeogun 2023][research_adeogun_2023]] \[[Oktaviana and Junawaroh 2023][research_oktaviana_junawaroh_2023]] \[[Guthrie 2023][research_guthrie_2023]] \[[Šveikauskienė 2023][research_sveikauskiene_2023]] \[[Deputies of the State 2023][research_deputies_of_2023]] \[[Kraev 2023][research_kraev_2023]] \[[Rhyder 2023][research_rhyder_2023]] \[[Ngoaketsi 2023][research_ngoaketsi_2023]] \[[Fridman and Gensburger 2023][research_fridman_gensburger_2023]] \[[Palinhos and Vanhaesebrouck 2023][research_palinhos_vanhaesebrouck_2023]] \[[Fewsmith and Hearst 2023][research_fewsmith_hearst_2023]] \[[Moliner and Bovina 2023][research_moliner_bovina_2023]] \[[Philips and Savelsberg 2023][research_philips_savelsberg_2023]] \[[Sorokin 2023][research_sorokin_2023]] \[[Martin 2023][research_martin_2023]] \[[McNeilly 2023][research_mcneilly_2023]] \[[THE AESTHETICS OF RELATEDNESS 2022][research_the_aesthetics_2022]] \[["We Died There, Too" 2022][research_we_died_2022]] \[[Lee 2022][research_lee_2022]] \[[M. 2022][research_m_2022]] \[[Malyk 2022][research_malyk_2022]] \[[Langenbacher 2022][research_langenbacher_2022]] \[[Chapter 7 Memorializing Immortality 2022][research_chapter_7_2022]] \[[McAuliffe et al 2022][research_mcauliffe_sharp_2022]] \[[Jaśniewicz-Downes 2022][research_jasniewiczdownes_2022]] \[[Commemoration of an Epoch 2022][research_commemoration_of_2022]] \[[Wang and Johannessen 2022][research_wang_johannessen_2022]] \[[Discussion Nationalism, Friendship, and 2022][research_discussion_nationalism_2022]] \[[Malone 2022][research_malone_2022]] \[[Lipiński and Szabo 2022][research_lipinski_szabo_2022]] \[[Aoki 2022][research_aoki_2022]] \[[Politics in the Pantheon 2022][research_politics_in_2022]] \[[Steeves 2022][research_steeves_2022]] \[[Stibbe et al 2022][research_stibbe_sharp_2022]] \[[Mačiulis 2022][research_maciulis_2022]] \[[Jørgensen 2021][research_jorgensen_2021]] \[[Moulton 2021][research_moulton_2021]] \[[Jensen 2021][research_jensen_2021]] \[[Fekete-Nagy 2021][research_feketenagy_2021]] \[[Xu and Ji 2021][research_xu_ji_2021]] \[[Silletti 2021][research_silletti_2021]] \[[Korhonen 2021][research_korhonen_2021]] \[[Forster 2021][research_forster_2021]] \[[Fando 2021][research_fando_2021]] \[[Haji Ingiriis 2021][research_hajiingiriis_2021]] \[[Acosta and Braun 2021][research_acosta_braun_2021]] \[[Fitzpatrick 2021][research_fitzpatrick_2021]] \[[Maurantonio 2021][research_maurantonio_2021]] \[[Jethro 2020][research_jethro_2020]] \[[Lipatov 2020][research_lipatov_2020]] \[[Hill 2020][research_hill_2020]] \[[Chupriy and Den Sik 2020][research_chupriy_densik_2020]] \[[Holocaust, Independence, and Remembrance 2020][research_holocaust_independence_2020]] \[[In Commemoration of the 2020][research_in_commemoration_2020]] \[[In Commemoration of the 2020][research_in_commemoration_2020_2]] \[[Riotto 2020][research_riotto_2020]] \[[Williams 2020][research_williams_2020]] \[[Kabakchieva 2020][research_kabakchieva_2020]] \[[Sharma 2020][research_sharma_2020]] \[[Izumi 2020][research_izumi_2020]] \[[Nayar 2020][research_nayar_2020]] \[[Ivashkiv 2020][research_ivashkiv_2020]] \[[Klymenko 2020][research_klymenko_2020]] \[[Khrushcheva 2020][research_khrushcheva_2020]] \[[Women and War Commemoration 2020][research_women_and_2020]] \[[Molloy 2019][research_molloy_2019]] \[[Harkavyi 2019][research_harkavyi_2019]] \[[Murphy 2019][research_murphy_2019]] \[[Jensen 2019][research_jensen_2019]] \[[Commemoration of the seventieth 2019][research_commemoration_of_2019]] \[[Rozhdestvenskaya 2019][research_rozhdestvenskaya_2019]] \[[Anagnostopoulos 2019][research_anagnostopoulos_2019]] \[[Heath-Kelly 2019][research_heathkelly_2019]] \[[Baggiarini 2019][research_baggiarini_2019]] \[[Navickienė 2019][research_navickiene_2019]] \[[Korhonen 2019][research_korhonen_2019]] \[[Mountford 2019][research_mountford_2019]] \[[Bergman 2019][research_bergman_2019]] \[[Vilyaninov and Popova 2019][research_vilyaninov_popova_2019]] \[[Simov 2019][research_simov_2019]] \[[Árvay and Foote 2019][research_arvay_foote_2019]] \[[Nichols 2019][research_nichols_2019]] \[[Conclusion The Importance of 2018][research_conclusion_the_2018]] \[[Chielens 2018][research_chielens_2018]] \[[Competing Pasts, Multiple Identities 2018][research_competing_pasts_2018]] \[[Kaplan 2018][research_kaplan_2018]] \[[Valentina Rozas-Krause 2018][research_valentinarozaskrause_2018]] \[[Shub 2018][research_shub_2018]] \[[Kenaga 2018][research_kenaga_2018]] \[[Schaff 2018][research_schaff_2018]] \[[Hakim and Adams 2018][research_hakim_adams_2018]] \[[Brown and Arriaza Ibarra 2018][research_brown_arriazaibarra_2018]] \[[Barrett 2018][research_barrett_2018]] \[[Kennell et al 2018][research_kennell_suligoj_2018]] \[[Brown 2018][research_brown_2018]] \[[Moazzen 2018][research_moazzen_2018]] \[[Arnason 2018][research_arnason_2018]] \[[Mangena 2018][research_mangena_2018]] \[[Mamvura et al 2018][research_mamvura_muwati_2018]] \[[Peleggi 2017][research_peleggi_2017]] \[[Chapter 6 Monuments, Commemoration 2017][research_chapter_6_2017]] \[[Collective Memory 2017][research_collective_memory_2017]] \[[Beiner 2017][research_beiner_2017]] \[[Courtly Traditions and National 2017][research_courtly_traditions_2017]] \[[Qasmi 2017][research_qasmi_2017]] \[[Rendle and Lively 2017][research_rendle_lively_2017]] \[[Museums, Monuments, and Memory 2017][research_museums_monuments_2017]] \[[Lapp 2017][research_lapp_2017]] \[[Statement by the Prime 2017][research_statement_by_2017]] \[[The Commemoration Industry and 2017][research_the_commemoration_2017]] \[[Rymsza-Pawlowska 2017][research_rymszapawlowska_2017]] \[[Jisun Yee 2017][research_jisunyee_2017]] \[[Duncan 2017][research_duncan_2017]] \[[Merrill 2017][research_merrill_2017]] \[[Sériot 2017][research_seriot_2017]] \[[Zhang 2016][research_zhang_2016]] \[[Stubbs 2016][research_stubbs_2016]] \[[Celebrating the Medieval Past 2016][research_celebrating_the_2016]] \[[McHugh 2016][research_mchugh_2016]] \[[Lee and Chan 2016][research_lee_chan_2016]] \[[Chan-Seung Park 2016][research_chanseungpark_2016]] \[[Gough 2016][research_gough_2016]] \[[D'ascenzo 2016][research_dascenzo_2016]] \[[Dma 2016][research_dma_2016]] \[[In commemoration of the 2016][research_in_commemoration_of_2016]] \[[Mascall-Dare 2016][research_mascalldare_2016]] \[[Chaniotis 2016][research_chaniotis_2016]] \[[Post 2016][research_post_2016]] \[[Ramsey 2016][research_ramsey_2016]] \[[Smith 2016][research_smith_2016]] \[[Moazzen 2016][research_moazzen_2016]] \[[Troublesome Anniversary The Rise 2016][research_troublesome_anniversary_2016]] \[[West 2016][research_west_2016]] \[[West 2016][research_west_2016_2]] \[[McQuaid 2015][research_mcquaid_2015]] \[[Reeves et al 2015][research_reeves_bird_2015]] \[[Logan 2015][research_logan_2015]] \[[Lorenzo-Dus 2015][research_lorenzodus_2015]] \[[The Politics and Rhetoric 2015][research_the_politics_2015]] \[[Nationality, Memory and Commemoration 2014][research_nationality_memory_2014]] \[['If They Were Rebels 2014][research_if_they_2014]] \[[Tomsky 2014][research_tomsky_2014]] \[[Conn 2014][research_conn_2014]] \[[Amarilyo 2014][research_amarilyo_2014]] \[[Otsuki and Katoh 2014][research_otsuki_katoh_2014]] \[[Schudson 2014][research_schudson_2014]] \[[Üngör 2014][research_ungor_2014]] \[[Coombes 2014][research_coombes_2014]] \[[Coleman 2014][research_coleman_2014]] \[[Vlossak 2014][research_vlossak_2014]] \[[Revolution and Commemoration －the 2014][research_revolution_and_commemoration_2014]] \[[Wolffe 2014][research_wolffe_2014]] \[[Vassallo 2014][research_vassallo_2014]] \[[A British Dimension to 2013][research_a_british_2013]] \[[Pustz 2013][research_pustz_2013]] \[[Commemoration of the 400th 2013][research_commemoration_of_2013]] \[[Casquete 2013][research_casquete_2013]] \[[Stephens 2013][research_stephens_2013]] \[[Dwyer et al 2013][research_dwyer_butler_2013]] \[[Commemorative and 'historical event' 2013][research_commemorative_and_2013]] \[[Commemorative landscapes the politics 2013][research_commemorative_landscapes_2013]] \[[In commemoration of the 2013][research_in_commemoration_of_2013]] \[[Involuntary commemorations post-traumatic stress 2013][research_involuntary_commemorations_2013]] \[[Monuments, commemorative space and 2013][research_monuments_commemorative_2013]] \[[National narratives, war commemoration 2013][research_national_narratives_2013]] \[[Alderman and Inwood 2013][research_alderman_inwood_2013]] \[[Prescott 2013][research_prescott_2013]] \[[Marschall 2013][research_marschall_2013]] \[[The politics of war 2013][research_the_politics_2013]] \[[War commemoration in Western 2013][research_war_commemoration_2013]] \[[Al'bitskii et al 2012][research_albitskii_sher_2012]] \[[Mikirtichan 2012][research_mikirtichan_2012]] \[[Jeff Fortney 2012][research_jefffortney_2012]] \[[Carr 2012][research_carr_2012]] \[[Azaryahu 2012][research_azaryahu_2012]] \[[Oppelland 2012][research_oppelland_2012]] \[[Dupuy 2012][research_dupuy_2012]] \[[Chaniotis 2012][research_chaniotis_2012]] \[[Historical Linkage and Political 2011][research_historical_linkage_2011]] \[[Cash 2011][research_cash_2011]] \[[Commemoration, monument and identity 2011][research_commemoration_monument_2011]] \[[Harada 2011][research_harada_2011]] \[[Burlakova and Naidich 2011][research_burlakova_naidich_2011]] \[[Azaryahu 2011][research_azaryahu_2011]] \[[From collective memory to 2010][research_from_collective_2010]] \[[Landscape of memory commemorative 2010][research_landscape_of_2010]] \[[Conway 2010][research_conway_2010]] \[[Marchione 2009][research_marchione_2009]] \[[In commemoration of 90th 2009][research_in_commemoration_of_2009]] \[[Snitkuvienė 2009][research_snitkuviene_2009]] \[[Pelageya Yakovlevna Polubarinova-Kochina in 2009][research_pelageya_yakovlevna_2009]] \[[The Two World Wars 2009][research_the_two_world_2009]] \[[Collective Memory 2008][research_collective_memory_2008]] \[[Schwartz 2008][research_schwartz_2008]] \[[Hyder 2008][research_hyder_2008]] \[[Jones 2008][research_jones_2008]] \[[Palonen 2008][research_palonen_2008]] \[[Tileagă 2008][research_tileaga_2008]] \[[Collective memory 2007][research_collective_memory_2007]] \[[History, Commemoration and National 2007][research_history_commemoration_2007]] \[[Jui-te 2007][research_juite_2007]] \[[White 2007][research_white_2007]] \[[Seraphim 2006][research_seraphim_2006]] \[[Beattie 2006][research_beattie_2006]] \[[Social Memory and Commemoration 2005][research_social_memory_2005]] \[[Ben-Amos and Bet-El 2004][research_benamos_betel_2004]] \[[Blair 2004][research_blair_2004]] \[[In commemoration of the 2004][research_in_commemoration_of_2004]] \[[Alderman and Dwyer 2004][research_alderman_dwyer_2004]] \[[Social memory, commemoration and 2004][research_social_memory_2004]] \[[Freestone and Veale 2004][research_freestone_veale_2004]] \[[Announcement of the Winners 2003][research_announcement_of_2003]] \[[Vandkilde 2003][research_vandkilde_2003]] \[[Brog 2003][research_brog_2003]] \[["Blood-Bought Fame" National Identity 2002][research_blood_bought_fame_2002]] \[[Lloyd 2002][research_lloyd_2002]] \[[Dolan 2002][research_dolan_2002]] \[[Scope of the "Tsukuba 2002][research_scope_of_2002]] \[[Ngai 2002][research_ngai_2002]] \[[Peifer 2001][research_peifer_2001]] \[[International Space Forum in 2001][research_international_space_2001]] \[[Meigs 2001][research_meigs_2001]] \[[Finch 2000][research_finch_2000]] \[[Korean War 50th Anniversary 2000][research_korean_war_2000]] \[[Bol'shakov 2000][research_bolshakov_2000]] \[[Commemorative naming in the 1999][research_commemorative_naming_1999]] \[[Casertano 1999][research_casertano_1999]] \[[Commemorative Naming in the 1998][research_commemorative_naming_1998]] \[[Weiss 1997][research_weiss_1997]] \[[Schudson 1997][research_schudson_1997]] \[[Spillman 1997][research_spillman_1997]] \[[Boguslavsky 1996][research_boguslavsky_1996]] \[[Berg 1995][research_berg_1995]] \[[Orentreich 1995][research_orentreich_1995]] \[[Bodnar 1994][research_bodnar_1994]] \[[Piehler 1994][research_piehler_1994]] \[[Gergely 1994][research_gergely_1994]] \[[Mangina 1994][research_mangina_1994]] \[[Tannen 1993][research_tannen_1993]] \[[Boyer and Bodnar 1993][research_boyer_bodnar_1993]] \[[Schama and Hoffmann 1990][research_schama_hoffmann_1990]] \[[French Revolution Commemoration 1789-1989 1988][research_french_revolution_1988]] \[[Stump 1988][research_stump_1988]] \[[Thomas 1987][research_thomas_1987]] \[[The 75TH Anniversary Commemoration 1985][research_the_75th_1985]] \[[125th anniversary commemoration 1984][research_125th_anniversary_1984]] \[[Catherine Genovese Twentieth anniversary 1984][research_catherine_genovese_1984]] \[[Yang 1984][research_yang_1984]] \[[Schwartz 1982][research_schwartz_1982]] \[[Gohberg 1981][research_gohberg_1981]] \[[Gold and Warsaw 1980][research_gold_warsaw_1980]] \[[Betteridge 1980][research_betteridge_1980]] \[[Adam 1980][research_adam_1980]] \[[In Commemoration of the 1979][research_in_commemoration_1979]] \[[Commemoration in Geneva of 1978][research_commemoration_in_1978]] \[[Commemoration in the world 1978][research_commemoration_in_1978_2]] \[[150th Anniversary Commemoration April 1975][research_150th_anniversary_1975]] \[[Chih-Szu 1975][research_chihszu_1975]] \[[In commemoration of the 1973][research_in_commemoration_1973]] \[[Donne 1967][research_donne_1967]] \[[A Dante Symposium in 1967][research_a_dante_1967]] \[[Kotov 1967][research_kotov_1967]] \[[Commemoration of the fiftieth 1963][research_commemoration_of_1963]] \[[Yakovlev 1961][research_yakovlev_1961]] \[[Lindgren 1960][research_lindgren_1960]] \[[Pinkus 1954][research_pinkus_1954]] \[[History of the American 1953][research_history_of_1953]] \[[A History of the 1952][research_a_history_1952]] \[[Dummer 1946][research_dummer_1946]] \[[Academy of Sciences of 1945][research_academy_of_1945]] \[[The Discovery of X 1945][research_the_discovery_1945]] \[[Commemoration of Copernicus in 1943][research_commemoration_of_1943]] \[[Commemoration of the 450th 1943][research_commemoration_of_1943_2]] \[[Commemoration of the Two 1907][research_commemoration_of_1907]] \[[Wood][research_wood]] \[[Chapter 13 Commemoration and][research_chapter_13]] \[[Chapter 6, Figure 33][research_chapter_6]] \[[Chapter Four National commemoration][research_chapter_four]] \[[Commemoration of the 25th][research_commemoration_of]] \[[Contested Sites of Memory][research_contested_sites]] \[[Murray][research_murray]] \[[Fig. 3. Colonel of][research_fig_3]] \[[Hare][research_hare]] \[[Saito][research_saito]] \[[Schudson][research_schudson]] \[[Todd][research_todd]] \[[Bolinger][research_bolinger]] \[[National Commemoration after the][research_national_commemoration]] \[[Bodnar][research_bodnar]] \[[Browness][research_browness]] \[[The Entangled Politics of][research_the_entangled]] \[[Wars Afterwards The Repression][research_wars_afterwards]] \[[commemoration-of-the-fifth-anniversary-of-the-un-declaration-on-the-rights-of-indigenous-peoples][research_commemoration_of_the_fifth_anniversary_of_the_un_declaration_on_the_rights_of_indigenous_peoples]] \[[human-rights-of-minorities-in-asiapacific-in-commemoration-of-the-41st-anniversary-of-the-universal-declaration-of-human-rights-mar-1990-127-pp][research_human_rights_of_minorities_in_asiapacific_in_commemoration_of_the_41st_anniversary_of_the_universal_declaration_of_human_rights_mar_1990_127_pp]] \[[plebiscite-on-new-chilean-constitution-a-sad-but-appropriate-commemoration-of-seven-years-of-military-rule-sept-11-1980-2-pp][research_plebiscite_on_new_chilean_constitution_a_sad_but_appropriate_commemoration_of_seven_years_of_military_rule_sept_11_1980_2_pp]]
+**295 works.** \[[Nora 1989][research_nora_1989]] \[[Zerubavel 2014][research_zerubavel_2014]] \[[Bineham 2013][research_bineham_2013]] \[[Cook, Jerry R. and Willis, Martha 2009][research_cookjerryr_willismartha_2009]] \[[Renstrom, Arthur George 2003][research_renstromarthurgeorge_2003]] \[[Renstrom, Arthur G. et al 2002][research_renstromarthurg_goldblattrobertaw_2002]] \[[Harley A Thronson Jr and Edwin F Erickson 1984][research_harleyathronsonjr_edwinferickson_1984]] \[[Chapter 5 The Making 2026][research_chapter_5_2026]] \[[Scates 2026][research_scates_2026]] \[[Commemorative Memorialization 2026][research_commemorative_memorialization_2026]] \[[Park and Roy 2026][research_park_roy_2026]] \[[Bellisari 2026][research_bellisari_2026]] \[[Füssel 2026][research_fussel_2026]] \[[Valk 2026][research_valk_2026]] \[[An 2026][research_an_2026]] \[[Xu et al 2026][research_xu_hong_2026]] \[[Fourneir-Peneff 2026][research_fourneirpeneff_2026]] \[[Elbourne 2025][research_elbourne_2025]] \[[Obelisk The Worth Monument 2025][research_obelisk_the_2025]] \[[Harrison 2025][research_harrison_2025]] \[[Kivimäe 2025][research_kivimae_2025]] \[[Tixell 2025][research_tixell_2025]] \[[Georgakis 2025][research_georgakis_2025]] \[[CHAPTER 1 Commemoration and 2025][research_chapter_1_2025]] \[[CHAPTER 2 National and 2025][research_chapter_2_2025]] \[[Tyrała 2025][research_tyrala_2025]] \[[Commemoration and National Identity 2025][research_commemoration_and_2025]] \[[Marutyan 2025][research_marutyan_2025]] \[[Salchinkina 2025][research_salchinkina_2025]] \[[Schlott 2025][research_schlott_2025]] \[[Adamczyk and Rosner-Leszczyński 2025][research_adamczyk_rosnerleszczynski_2025]] \[[Wien 2025][research_wien_2025]] \[[Muzaini 2025][research_muzaini_2025]] \[[National and Transnational Commemoration 2025][research_national_and_2025]] \[[Soyer and Tunca 2025][research_soyer_tunca_2025]] \[[Kenar 2025][research_kenar_2025]] \[[The Settler Politics of 2024][research_the_settler_2024]] \[[Commemoration and Creating Identity 2024][research_commemoration_and_2024]] \[[Bekliamishev 2024][research_bekliamishev_2024]] \[[Brunssen 2024][research_brunssen_2024]] \[[Maasing 2024][research_maasing_2024]] \[[Johansen and Bauer 2024][research_johansen_bauer_2024]] \[[Krzyżanowska 2024][research_krzyzanowska_2024]] \[[Al Nashmi 2024][research_alnashmi_2024]] \[[Gyollai 2024][research_gyollai_2024]] \[[Tiede 2024][research_tiede_2024]] \[[Walden and Makhortykh 2023][research_walden_makhortykh_2023]] \[[Lincoln 2023][research_lincoln_2023]] \[[Sonvilla-Weiss 2023][research_sonvillaweiss_2023]] \[[Duthille 2023][research_duthille_2023]] \[[Fihurnyi 2023][research_fihurnyi_2023]] \[[Commemoration of the seventieth 2023][research_commemoration_of_2023]] \[[Ebury 2023][research_ebury_2023]] \[[Oktaviana and Junawaroh 2023][research_oktaviana_junawaroh_2023]] \[[Guthrie 2023][research_guthrie_2023]] \[[Šveikauskienė 2023][research_sveikauskiene_2023]] \[[Deputies of the State 2023][research_deputies_of_2023]] \[[Kraev 2023][research_kraev_2023]] \[[Rhyder 2023][research_rhyder_2023]] \[[Ngoaketsi 2023][research_ngoaketsi_2023]] \[[Fridman and Gensburger 2023][research_fridman_gensburger_2023]] \[[Palinhos and Vanhaesebrouck 2023][research_palinhos_vanhaesebrouck_2023]] \[[Fewsmith and Hearst 2023][research_fewsmith_hearst_2023]] \[[Moliner and Bovina 2023][research_moliner_bovina_2023]] \[[Philips and Savelsberg 2023][research_philips_savelsberg_2023]] \[[Sorokin 2023][research_sorokin_2023]] \[[Martin 2023][research_martin_2023]] \[[McNeilly 2023][research_mcneilly_2023]] \[[THE AESTHETICS OF RELATEDNESS 2022][research_the_aesthetics_2022]] \[["We Died There, Too" 2022][research_we_died_2022]] \[[Lee 2022][research_lee_2022]] \[[Langenbacher 2022][research_langenbacher_2022]] \[[Chapter 7 Memorializing Immortality 2022][research_chapter_7_2022]] \[[McAuliffe et al 2022][research_mcauliffe_sharp_2022]] \[[Jaśniewicz-Downes 2022][research_jasniewiczdownes_2022]] \[[Commemoration of an Epoch 2022][research_commemoration_of_2022]] \[[Discussion Nationalism, Friendship, and 2022][research_discussion_nationalism_2022]] \[[Malone 2022][research_malone_2022]] \[[Lipiński and Szabo 2022][research_lipinski_szabo_2022]] \[[Politics in the Pantheon 2022][research_politics_in_2022]] \[[Stibbe et al 2022][research_stibbe_sharp_2022]] \[[Mačiulis 2022][research_maciulis_2022]] \[[Jørgensen 2021][research_jorgensen_2021]] \[[Moulton 2021][research_moulton_2021]] \[[Jensen 2021][research_jensen_2021]] \[[Fekete-Nagy 2021][research_feketenagy_2021]] \[[Silletti 2021][research_silletti_2021]] \[[Korhonen 2021][research_korhonen_2021]] \[[Forster 2021][research_forster_2021]] \[[Haji Ingiriis 2021][research_hajiingiriis_2021]] \[[Acosta and Braun 2021][research_acosta_braun_2021]] \[[Fitzpatrick 2021][research_fitzpatrick_2021]] \[[Maurantonio 2021][research_maurantonio_2021]] \[[Jethro 2020][research_jethro_2020]] \[[Hill 2020][research_hill_2020]] \[[Chupriy and Den Sik 2020][research_chupriy_densik_2020]] \[[Holocaust, Independence, and Remembrance 2020][research_holocaust_independence_2020]] \[[In Commemoration of the 2020][research_in_commemoration_2020]] \[[In Commemoration of the 2020][research_in_commemoration_2020_2]] \[[Riotto 2020][research_riotto_2020]] \[[Williams 2020][research_williams_2020]] \[[Kabakchieva 2020][research_kabakchieva_2020]] \[[Sharma 2020][research_sharma_2020]] \[[Izumi 2020][research_izumi_2020]] \[[Nayar 2020][research_nayar_2020]] \[[Klymenko 2020][research_klymenko_2020]] \[[Women and War Commemoration 2020][research_women_and_2020]] \[[Molloy 2019][research_molloy_2019]] \[[Murphy 2019][research_murphy_2019]] \[[Jensen 2019][research_jensen_2019]] \[[Commemoration of the seventieth 2019][research_commemoration_of_2019]] \[[Rozhdestvenskaya 2019][research_rozhdestvenskaya_2019]] \[[Anagnostopoulos 2019][research_anagnostopoulos_2019]] \[[Heath-Kelly 2019][research_heathkelly_2019]] \[[Baggiarini 2019][research_baggiarini_2019]] \[[Korhonen 2019][research_korhonen_2019]] \[[Mountford 2019][research_mountford_2019]] \[[Bergman 2019][research_bergman_2019]] \[[Simov 2019][research_simov_2019]] \[[Árvay and Foote 2019][research_arvay_foote_2019]] \[[Conclusion The Importance of 2018][research_conclusion_the_2018]] \[[Chielens 2018][research_chielens_2018]] \[[Competing Pasts, Multiple Identities 2018][research_competing_pasts_2018]] \[[Kaplan 2018][research_kaplan_2018]] \[[Valentina Rozas-Krause 2018][research_valentinarozaskrause_2018]] \[[Shub 2018][research_shub_2018]] \[[Kenaga 2018][research_kenaga_2018]] \[[Schaff 2018][research_schaff_2018]] \[[Hakim and Adams 2018][research_hakim_adams_2018]] \[[Brown and Arriaza Ibarra 2018][research_brown_arriazaibarra_2018]] \[[Barrett 2018][research_barrett_2018]] \[[Kennell et al 2018][research_kennell_suligoj_2018]] \[[Brown 2018][research_brown_2018]] \[[Moazzen 2018][research_moazzen_2018]] \[[Arnason 2018][research_arnason_2018]] \[[Mangena 2018][research_mangena_2018]] \[[Mamvura et al 2018][research_mamvura_muwati_2018]] \[[Peleggi 2017][research_peleggi_2017]] \[[Chapter 6 Monuments, Commemoration 2017][research_chapter_6_2017]] \[[Collective Memory 2017][research_collective_memory_2017]] \[[Beiner 2017][research_beiner_2017]] \[[Courtly Traditions and National 2017][research_courtly_traditions_2017]] \[[Qasmi 2017][research_qasmi_2017]] \[[Rendle and Lively 2017][research_rendle_lively_2017]] \[[Museums, Monuments, and Memory 2017][research_museums_monuments_2017]] \[[Lapp 2017][research_lapp_2017]] \[[Statement by the Prime 2017][research_statement_by_2017]] \[[The Commemoration Industry and 2017][research_the_commemoration_2017]] \[[Rymsza-Pawlowska 2017][research_rymszapawlowska_2017]] \[[Jisun Yee 2017][research_jisunyee_2017]] \[[Duncan 2017][research_duncan_2017]] \[[Merrill 2017][research_merrill_2017]] \[[Sériot 2017][research_seriot_2017]] \[[Zhang 2016][research_zhang_2016]] \[[Stubbs 2016][research_stubbs_2016]] \[[Celebrating the Medieval Past 2016][research_celebrating_the_2016]] \[[McHugh 2016][research_mchugh_2016]] \[[Lee and Chan 2016][research_lee_chan_2016]] \[[Chan-Seung Park 2016][research_chanseungpark_2016]] \[[Gough 2016][research_gough_2016]] \[[D'ascenzo 2016][research_dascenzo_2016]] \[[Mascall-Dare 2016][research_mascalldare_2016]] \[[Chaniotis 2016][research_chaniotis_2016]] \[[Post 2016][research_post_2016]] \[[Ramsey 2016][research_ramsey_2016]] \[[Smith 2016][research_smith_2016]] \[[Moazzen 2016][research_moazzen_2016]] \[[Troublesome Anniversary The Rise 2016][research_troublesome_anniversary_2016]] \[[West 2016][research_west_2016]] \[[West 2016][research_west_2016_2]] \[[McQuaid 2015][research_mcquaid_2015]] \[[Reeves et al 2015][research_reeves_bird_2015]] \[[Logan 2015][research_logan_2015]] \[[Lorenzo-Dus 2015][research_lorenzodus_2015]] \[[The Politics and Rhetoric 2015][research_the_politics_2015]] \[[Nationality, Memory and Commemoration 2014][research_nationality_memory_2014]] \[['If They Were Rebels 2014][research_if_they_2014]] \[[Tomsky 2014][research_tomsky_2014]] \[[Conn 2014][research_conn_2014]] \[[Amarilyo 2014][research_amarilyo_2014]] \[[Schudson 2014][research_schudson_2014]] \[[Üngör 2014][research_ungor_2014]] \[[Coombes 2014][research_coombes_2014]] \[[Coleman 2014][research_coleman_2014]] \[[Vlossak 2014][research_vlossak_2014]] \[[Revolution and Commemoration －the 2014][research_revolution_and_commemoration_2014]] \[[Wolffe 2014][research_wolffe_2014]] \[[Vassallo 2014][research_vassallo_2014]] \[[A British Dimension to 2013][research_a_british_2013]] \[[Pustz 2013][research_pustz_2013]] \[[Casquete 2013][research_casquete_2013]] \[[Stephens 2013][research_stephens_2013]] \[[Dwyer et al 2013][research_dwyer_butler_2013]] \[[Commemorative and 'historical event' 2013][research_commemorative_and_2013]] \[[Commemorative landscapes the politics 2013][research_commemorative_landscapes_2013]] \[[Involuntary commemorations post-traumatic stress 2013][research_involuntary_commemorations_2013]] \[[Monuments, commemorative space and 2013][research_monuments_commemorative_2013]] \[[National narratives, war commemoration 2013][research_national_narratives_2013]] \[[Alderman and Inwood 2013][research_alderman_inwood_2013]] \[[Prescott 2013][research_prescott_2013]] \[[Marschall 2013][research_marschall_2013]] \[[The politics of war 2013][research_the_politics_2013]] \[[War commemoration in Western 2013][research_war_commemoration_2013]] \[[Jeff Fortney 2012][research_jefffortney_2012]] \[[Carr 2012][research_carr_2012]] \[[Azaryahu 2012][research_azaryahu_2012]] \[[Oppelland 2012][research_oppelland_2012]] \[[Dupuy 2012][research_dupuy_2012]] \[[Chaniotis 2012][research_chaniotis_2012]] \[[Historical Linkage and Political 2011][research_historical_linkage_2011]] \[[Cash 2011][research_cash_2011]] \[[Commemoration, monument and identity 2011][research_commemoration_monument_2011]] \[[Burlakova and Naidich 2011][research_burlakova_naidich_2011]] \[[Azaryahu 2011][research_azaryahu_2011]] \[[From collective memory to 2010][research_from_collective_2010]] \[[Landscape of memory commemorative 2010][research_landscape_of_2010]] \[[Conway 2010][research_conway_2010]] \[[Marchione 2009][research_marchione_2009]] \[[The Two World Wars 2009][research_the_two_world_2009]] \[[Collective Memory 2008][research_collective_memory_2008]] \[[Schwartz 2008][research_schwartz_2008]] \[[Hyder 2008][research_hyder_2008]] \[[Jones 2008][research_jones_2008]] \[[Palonen 2008][research_palonen_2008]] \[[Tileagă 2008][research_tileaga_2008]] \[[Collective memory 2007][research_collective_memory_2007]] \[[History, Commemoration and National 2007][research_history_commemoration_2007]] \[[Jui-te 2007][research_juite_2007]] \[[White 2007][research_white_2007]] \[[Seraphim 2006][research_seraphim_2006]] \[[Beattie 2006][research_beattie_2006]] \[[Social Memory and Commemoration 2005][research_social_memory_2005]] \[[Ben-Amos and Bet-El 2004][research_benamos_betel_2004]] \[[Blair 2004][research_blair_2004]] \[[Alderman and Dwyer 2004][research_alderman_dwyer_2004]] \[[Social memory, commemoration and 2004][research_social_memory_2004]] \[[Freestone and Veale 2004][research_freestone_veale_2004]] \[[Vandkilde 2003][research_vandkilde_2003]] \[[Brog 2003][research_brog_2003]] \[["Blood-Bought Fame" National Identity 2002][research_blood_bought_fame_2002]] \[[Lloyd 2002][research_lloyd_2002]] \[[Dolan 2002][research_dolan_2002]] \[[Ngai 2002][research_ngai_2002]] \[[Peifer 2001][research_peifer_2001]] \[[International Space Forum in 2001][research_international_space_2001]] \[[Meigs 2001][research_meigs_2001]] \[[Finch 2000][research_finch_2000]] \[[Korean War 50th Anniversary 2000][research_korean_war_2000]] \[[Commemorative naming in the 1999][research_commemorative_naming_1999]] \[[Commemorative Naming in the 1998][research_commemorative_naming_1998]] \[[Weiss 1997][research_weiss_1997]] \[[Schudson 1997][research_schudson_1997]] \[[Spillman 1997][research_spillman_1997]] \[[Berg 1995][research_berg_1995]] \[[Bodnar 1994][research_bodnar_1994]] \[[Piehler 1994][research_piehler_1994]] \[[Boyer and Bodnar 1993][research_boyer_bodnar_1993]] \[[Schama and Hoffmann 1990][research_schama_hoffmann_1990]] \[[French Revolution Commemoration 1789-1989 1988][research_french_revolution_1988]] \[[Stump 1988][research_stump_1988]] \[[Thomas 1987][research_thomas_1987]] \[[Catherine Genovese Twentieth anniversary 1984][research_catherine_genovese_1984]] \[[Yang 1984][research_yang_1984]] \[[Schwartz 1982][research_schwartz_1982]] \[[Adam 1980][research_adam_1980]] \[[In Commemoration of the 1979][research_in_commemoration_1979]] \[[Commemoration in Geneva of 1978][research_commemoration_in_1978]] \[[Commemoration in the world 1978][research_commemoration_in_1978_2]] \[[150th Anniversary Commemoration April 1975][research_150th_anniversary_1975]] \[[Chih-Szu 1975][research_chihszu_1975]] \[[In commemoration of the 1973][research_in_commemoration_1973]] \[[Donne 1967][research_donne_1967]] \[[A Dante Symposium in 1967][research_a_dante_1967]] \[[Commemoration of Copernicus in 1943][research_commemoration_of_1943]] \[[Commemoration of the 450th 1943][research_commemoration_of_1943_2]] \[[Wood][research_wood]] \[[Chapter 13 Commemoration and][research_chapter_13]] \[[Chapter 6, Figure 33][research_chapter_6]] \[[Chapter Four National commemoration][research_chapter_four]] \[[Commemoration of the 25th][research_commemoration_of]] \[[Contested Sites of Memory][research_contested_sites]] \[[Murray][research_murray]] \[[Hare][research_hare]] \[[Saito][research_saito]] \[[Schudson][research_schudson]] \[[Todd][research_todd]] \[[Bolinger][research_bolinger]] \[[National Commemoration after the][research_national_commemoration]] \[[Bodnar][research_bodnar]] \[[Browness][research_browness]] \[[The Entangled Politics of][research_the_entangled]] \[[Wars Afterwards The Repression][research_wars_afterwards]] \[[commemoration-of-the-fifth-anniversary-of-the-un-declaration-on-the-rights-of-indigenous-peoples][research_commemoration_of_the_fifth_anniversary_of_the_un_declaration_on_the_rights_of_indigenous_peoples]] \[[human-rights-of-minorities-in-asiapacific-in-commemoration-of-the-41st-anniversary-of-the-universal-declaration-of-human-rights-mar-1990-127-pp][research_human_rights_of_minorities_in_asiapacific_in_commemoration_of_the_41st_anniversary_of_the_universal_declaration_of_human_rights_mar_1990_127_pp]] \[[plebiscite-on-new-chilean-constitution-a-sad-but-appropriate-commemoration-of-seven-years-of-military-rule-sept-11-1980-2-pp][research_plebiscite_on_new_chilean_constitution_a_sad_but_appropriate_commemoration_of_seven_years_of_military_rule_sept_11_1980_2_pp]]
 
 ### Commemorative naming and critical toponymy
 
 **This is the literature closest to the founding-year class.** It studies the naming and renaming of places, streets, buildings and institutions as political and commemorative acts.
 
-**221 works.** \[[Azaryahu 1996][research_azaryahu_1996]] \[[Azaryahu 1997][research_azaryahu_1997]] \[[Rose-Redwood et al 2009][research_roseredwood_alderman_2009]] \[[Rose-Redwood et al 2008][research_roseredwood_alderman_2008]] \[[Alderman 2003][research_alderman_2003]] \[[The Politics and Phenomenology 2026][research_the_politics_2026]] \[[Kim 2026][research_kim_2026]] \[[Strenga 2026][research_strenga_2026]] \[[Peteshova 2026][research_peteshova_2026]] \[[Shorer and Mahat-Shamir 2026][research_shorer_mahatshamir_2026]] \[[Firdaus et al 2026][research_firdaus_fitriyah_2026]] \[[Gnatiuk and Basik 2026][research_gnatiuk_basik_2026]] \[[Theocharous et al 2026][research_theocharous_panos_2026]] \[[Gender Naming and Symbolism 2026][research_gender_naming_2026]] \[[Mutangadura and Mahlangu 2026][research_mutangadura_mahlangu_2026]] \[[Kárníková 2026][research_karnikova_2026]] \[[Names, Naming, Diversity, and 2026][research_names_naming_2026]] \[[Nkama 2026][research_nkama_2026]] \[[Rocha 2026][research_rocha_2026]] \[[Oddo 2026][research_oddo_2026]] \[[Peteshova 2026][research_peteshova_2026_2]] \[[Ndlovu and Erasmus 2026][research_ndlovu_erasmus_2026]] \[[Behrens 2026][research_behrens_2026]] \[[Tian 2026][research_tian_2026]] \[[Turai 2026][research_turai_2026]] \[[Tahereen 2026][research_tahereen_2026]] \[[Bouviet 2026][research_bouviet_2026]] \[[Aso et al 2026][research_aso_konisi_2026]] \[[Zulfugarova et al 2025][research_zulfugarova_ayuksel_2025]] \[[de Montety 2025][research_demontety_2025]] \[[Kim 2025][research_kim_2025]] \[[Zymovets 2025][research_zymovets_2025]] \[[Ramutsindela 2025][research_ramutsindela_2025]] \[[Chidora and Tivenga 2025][research_chidora_tivenga_2025]] \[[Caballero-Cordero et al 2025][research_caballerocordero_carmonaderqui_2025]] \[[Kim 2025][research_kim_2025_2]] \[[Dickinson 2025][research_dickinson_2025]] \[[Jordan 2025][research_jordan_2025]] \[[Burdin et al 2025][research_burdin_salnikova_2025]] \[[Petković 2025][research_petkovic_2025]] \[[Palonen 2025][research_palonen_2025]] \[[West 2025][research_west_2025]] \[[Rodionov 2025][research_rodionov_2025]] \[[Madlome 2025][research_madlome_2025]] \[[Evstifeev and Evstifeeva 2025][research_evstifeev_evstifeeva_2025]] \[[Felecan 2024][research_felecan_2024]] \[[Domby 2024][research_domby_2024]] \[[The Colonial Politics of 2024][research_the_colonial_2024]] \[[Nkansah and Bonsu 2024][research_nkansah_bonsu_2024]] \[[Lytvynovska and Olitskyi 2024][research_lytvynovska_olitskyi_2024]] \[[Fabiszak et al 2024][research_fabiszak_buchstaller_2024]] \[[Carter 2024][research_carter_2024]] \[[Renaming Cities in the 2024][research_renaming_cities_in_2024]] \[[Theocharous 2024][research_theocharous_2024]] \[[Theocharous 2024][research_theocharous_2024_2]] \[[Ramón 2024][research_ramon_2024]] \[[Theocharous 2024][research_theocharous_2024_3]] \[[Theocharous 2024][research_theocharous_2024_4]] \[[Infante Batiste 2024][research_infantebatiste_2024]] \[[Hanafi 2024][research_hanafi_2024]] \[['Acts of communal memory' 2023][research_acts_of_2023]] \[[Family Politics Revealed Through 2023][research_family_politics_2023]] \[[Doss 2023][research_doss_2023]] \[[Girma 2023][research_girma_2023]] \[[Choo 2023][research_choo_2023]] \[[Dalgıç and Yildirim Okta 2023][research_dalgic_yildirimokta_2023]] \[[Jethro and Merrill 2023][research_jethro_merrill_2023]] \[[Annabell 2023][research_annabell_2023]] \[[Paul 2023][research_paul_2023]] \[[Scates and Yu 2023][research_scates_yu_2023]] \[[Soloviova and Koloiz 2023][research_soloviova_koloiz_2023]] \[[Munnik 2023][research_munnik_2023]] \[[Nick 2023][research_nick_2023]] \[[Chandrashekar 2023][research_chandrashekar_2023]] \[[Tkachenko 2023][research_tkachenko_2023]] \[[Bulgarova 2023][research_bulgarova_2023]] \[[Schenk 2023][research_schenk_2023]] \[[Schembri and Gauci 2023][research_schembri_gauci_2023]] \[[Yankson 2023][research_yankson_2023]] \[[The Colonial Politics of 2023][research_the_colonial_2023]] \[[Wijeyesinghe 2023][research_wijeyesinghe_2023]] \[[Perera 2023][research_perera_2023]] \[[Mamvura and Marowa 2023][research_mamvura_marowa_2023]] \[[Brunila et al 2023][research_brunila_laviolette_2023]] \[[Barrett 2023][research_barrett_2023]] \[[Szuba 2023][research_szuba_2023]] \[[Manning et al 2022][research_manning_ingram_2022]] \[[Alderman 2022][research_alderman_2022]] \[[Shivan 2022][research_shivan_2022]] \[[Basik 2022][research_basik_2022]] \[[Masters 2022][research_masters_2022]] \[[Masters 2022][research_masters_2022_2]] \[[Matiossian 2022][research_matiossian_2022]] \[[Giraut and Houssay-Holzschuch 2022][research_giraut_houssayholzschuch_2022]] \[[Bitušíková 2022][research_bitusikova_2022]] \[[Ben Arrous and Bigon 2022][research_benarrous_bigon_2022]] \[[Sysiö et al 2021][research_sysio_ulker_2021]] \[[Conclusions The Vedii A 2021][research_conclusions_the_2021]] \[[Mamvura 2021][research_mamvura_2021]] \[[Kapalka Richerme 2021][research_kapalkaricherme_2021]] \[[Nick 2021][research_nick_2021]] \[[Larionova/Ларионова and Tsareva/Царёва 2021][research_larionova_tsareva_2021]] \[[Barratt and Ranjitsingh 2021][research_barratt_ranjitsingh_2021]] \[[Paschalidou 2021][research_paschalidou_2021]] \[[Mann 2021][research_mann_2021]] \[[Seits 2021][research_seits_2021]] \[[Vishal Surbun 2021][research_vishalsurbun_2021]] \[[The Politics of Naming 2021][research_the_politics_2021]] \[[Düzgün 2021][research_duzgun_2021]] \[[Rose-Redwood 2021][research_roseredwood_2021]] \[[Viala-Gaudefroy and Lindaman 2020][research_vialagaudefroy_lindaman_2020]] \[[Vivant 2020][research_vivant_2020]] \[[Rose-Redwood and Kim 2020][research_roseredwood_kim_2020]] \[[Ćwiek-Rogalska 2020][research_cwiekrogalska_2020]] \[[Mamvura 2020][research_mamvura_2020]] \[[Mamvura 2020][research_mamvura_2020_2]] \[[Havryliuk 2019][research_havryliuk_2019]] \[[Webster 2019][research_webster_2019]] \[[Balogun and Fasanu 2019][research_balogun_fasanu_2019]] \[[Duncan 2019][research_duncan_2019]] \[[Brocket 2019][research_brocket_2019]] \[[Kapur 2019][research_kapur_2019]] \[[Stolberg 2019][research_stolberg_2019]] \[[Eyben 2019][research_eyben_2019]] \[[Obasi et al 2019][research_obasi_mocarski_2019]] \[[Landqvist 2019][research_landqvist_2019]] \[[Basik 2019][research_basik_2019]] \[[Bernasconi et al 2019][research_bernasconi_lopez_2019]] \[[Riazi 2019][research_riazi_2019]] \[[Gjesdal 2019][research_gjesdal_2019]] \[[Kachalkova and Ruth 2019][research_kachalkova_ruth_2019]] \[[Allums 2018][research_allums_2018]] \[[Webster 2018][research_webster_2018]] \[[Commemorative Groups and Commemorative 2018][research_commemorative_groups_2018]] \[[Çetin 2018][research_cetin_2018]] \[[Atencio 2018][research_atencio_2018]] \[[Dube 2018][research_dube_2018]] \[[Bass and Houghton 2018][research_bass_houghton_2018]] \[[Gnatiuk 2018][research_gnatiuk_2018]] \[[McAuley 2018][research_mcauley_2018]] \[[Bartolini 2017][research_bartolini_2017]] \[[Choi 2017][research_choi_2017]] \[[Wideman and Masuda 2017][research_wideman_masuda_2017]] \[[Smith 2017][research_smith_2017]] \[[Yeoh 2017][research_yeoh_2017]] \[[Vuolteenaho 2017][research_vuolteenaho_2017]] \[[Dietze-Schirdewahn 2017][research_dietzeschirdewahn_2017]] \[[Hui 2017][research_hui_2017]] \[[Mayer and Tiberj 2017][research_mayer_tiberj_2017]] \[[Golomidova 2017][research_golomidova_2017]] \[[Palonen 2017][research_palonen_2017]] \[[Różycki 2017][research_rozycki_2017]] \[[Alderman and Inwood 2017][research_alderman_inwood_2017]] \[[Duminy 2017][research_duminy_2017]] \[[Light and Young 2017][research_light_young_2017]] \[[Ndlovu 2017][research_ndlovu_2017]] \[[Kank 2016][research_kank_2016]] \[[Bigon 2016][research_bigon_2016]] \[[Power, politics, and naming 2016][research_power_politics_2016]] \[[Bigon 2016][research_bigon_2016_2]] \[[Bigon 2016][research_bigon_2016_3]] \[[Duduciuc and Ivan 2015][research_duduciuc_ivan_2015]] \[[Lucas 2015][research_lucas_2015]] \[[Creţan and Matthews 2015][research_cretan_matthews_2015]] \[[Hanna and Hodder 2015][research_hanna_hodder_2015]] \[[Myong and Chun 2015][research_myong_chun_2015]] \[[Mitchell and Alderman 2014][research_mitchell_alderman_2014]] \[[Anger and the Politics 2014][research_anger_and_2014]] \[[Machar 2014][research_machar_2014]] \[[Orel 2014][research_orel_2014]] \[[Naming China-political art as 2014][research_naming_china_political_2014]] \[[Arrington 2014][research_arrington_2014]] \[[Wills 2014][research_wills_2014]] \[[Jelaska Marijan 2014][research_jelaskamarijan_2014]] \[[The Politics of Naming 2014][research_the_politics_2014]] \[[Warman 2013][research_warman_2013]] \[[Boonprong 2013][research_boonprong_2013]] \[[Gabor 2013][research_gabor_2013]] \[[Terrorism and the Politics 2013][research_terrorism_and_2013]] \[[Waller 2013][research_waller_2013]] \[[Oliver 2012][research_oliver_2012]] \[[Azaryahu 2012][research_azaryahu_2012_2]] \[[Ochonu 2011][research_ochonu_2011]] \[[Rom and Benjamin 2011][research_rom_benjamin_2011]] \[[Blankenship 2011][research_blankenship_2011]] \[[Meeropol 2011][research_meeropol_2011]] \[[Fearn 2010][research_fearn_2010]] \[[Hart 2009][research_hart_2009]] \[[Chapter Two. The Naming 2009][research_chapter_two_2009]] \[[Naming, identity, and the 2009][research_naming_identity_2009]] \[[Kirk 2007][research_kirk_2007]] \[[Vivian 2007][research_vivian_2007]] \[[Minow 2007][research_minow_2007]] \[[Howard-Hassmann 2007][research_howardhassmann_2007]] \[[Alia 2007][research_alia_2007]] \[[Tarpley 2006][research_tarpley_2006]] \[[Miller and Goldblum 2006][research_miller_goldblum_2006]] \[[The Politics of Naming 2006][research_the_politics_2006]] \[[Aboriginal place names charting 2004][research_aboriginal_place_2004]] \[[CHAPTER 3 Naming, Identity 2004][research_chapter_3_2004]] \[[Castillo 2003][research_castillo_2003]] \[[Wilks and Brick 2001][research_wilks_brick_2001]] \[[Galasiński, Katarzyna Skowronek 2001][research_galasinskikatarzynaskowronek_2001]] \[[Alderman 2000][research_alderman_2000]] \[[Alderman 2000][research_alderman_2000_2]] \[[Kelly 1999][research_kelly_1999]] \[[Herbert 1997][research_herbert_1997]] \[[Andrews 1996][research_andrews_1996]] \[[Nash 1993][research_nash_1993]] \[[O'Brien 1993][research_obrien_1993]] \[[Azaryahu 1992][research_azaryahu_1992]] \[[Diament 1991][research_diament_1991]] \[[Wilson and Wood 1989][research_wilson_wood_1989]] \[[Renaming the Streets 1986][research_renaming_the_1986]] \[[Krumpelmann 1951][research_krumpelmann_1951]] \[[Jones 1914][research_jones_1914]] \[[Silverman][research_silverman]] \[[Chapter 5. The Politics][research_chapter_5]] \[[Radovic][research_radovic]] \[[Yang][research_yang]] \[[Laqueur][research_laqueur]]
+**216 works.** \[[Azaryahu 1996][research_azaryahu_1996]] \[[Azaryahu 1997][research_azaryahu_1997]] \[[Rose-Redwood et al 2009][research_roseredwood_alderman_2009]] \[[Rose-Redwood et al 2008][research_roseredwood_alderman_2008]] \[[Alderman 2003][research_alderman_2003]] \[[The Politics and Phenomenology 2026][research_the_politics_2026]] \[[Kim 2026][research_kim_2026]] \[[Strenga 2026][research_strenga_2026]] \[[Peteshova 2026][research_peteshova_2026]] \[[Shorer and Mahat-Shamir 2026][research_shorer_mahatshamir_2026]] \[[Firdaus et al 2026][research_firdaus_fitriyah_2026]] \[[Gnatiuk and Basik 2026][research_gnatiuk_basik_2026]] \[[Theocharous et al 2026][research_theocharous_panos_2026]] \[[Mutangadura and Mahlangu 2026][research_mutangadura_mahlangu_2026]] \[[Kárníková 2026][research_karnikova_2026]] \[[Nkama 2026][research_nkama_2026]] \[[Rocha 2026][research_rocha_2026]] \[[Oddo 2026][research_oddo_2026]] \[[Peteshova 2026][research_peteshova_2026_2]] \[[Ndlovu and Erasmus 2026][research_ndlovu_erasmus_2026]] \[[Tian 2026][research_tian_2026]] \[[Turai 2026][research_turai_2026]] \[[Tahereen 2026][research_tahereen_2026]] \[[Bouviet 2026][research_bouviet_2026]] \[[Aso et al 2026][research_aso_konisi_2026]] \[[Zulfugarova et al 2025][research_zulfugarova_ayuksel_2025]] \[[de Montety 2025][research_demontety_2025]] \[[Kim 2025][research_kim_2025]] \[[Zymovets 2025][research_zymovets_2025]] \[[Ramutsindela 2025][research_ramutsindela_2025]] \[[Chidora and Tivenga 2025][research_chidora_tivenga_2025]] \[[Caballero-Cordero et al 2025][research_caballerocordero_carmonaderqui_2025]] \[[Kim 2025][research_kim_2025_2]] \[[Dickinson 2025][research_dickinson_2025]] \[[Jordan 2025][research_jordan_2025]] \[[Burdin et al 2025][research_burdin_salnikova_2025]] \[[Petković 2025][research_petkovic_2025]] \[[Palonen 2025][research_palonen_2025]] \[[West 2025][research_west_2025]] \[[Rodionov 2025][research_rodionov_2025]] \[[Madlome 2025][research_madlome_2025]] \[[Evstifeev and Evstifeeva 2025][research_evstifeev_evstifeeva_2025]] \[[Felecan 2024][research_felecan_2024]] \[[Domby 2024][research_domby_2024]] \[[The Colonial Politics of 2024][research_the_colonial_2024]] \[[Nkansah and Bonsu 2024][research_nkansah_bonsu_2024]] \[[Lytvynovska and Olitskyi 2024][research_lytvynovska_olitskyi_2024]] \[[Fabiszak et al 2024][research_fabiszak_buchstaller_2024]] \[[Carter 2024][research_carter_2024]] \[[Renaming Cities in the 2024][research_renaming_cities_in_2024]] \[[Theocharous 2024][research_theocharous_2024]] \[[Theocharous 2024][research_theocharous_2024_2]] \[[Ramón 2024][research_ramon_2024]] \[[Theocharous 2024][research_theocharous_2024_3]] \[[Theocharous 2024][research_theocharous_2024_4]] \[[Infante Batiste 2024][research_infantebatiste_2024]] \[[Hanafi 2024][research_hanafi_2024]] \[['Acts of communal memory' 2023][research_acts_of_2023]] \[[Family Politics Revealed Through 2023][research_family_politics_2023]] \[[Doss 2023][research_doss_2023]] \[[Girma 2023][research_girma_2023]] \[[Choo 2023][research_choo_2023]] \[[Dalgıç and Yildirim Okta 2023][research_dalgic_yildirimokta_2023]] \[[Jethro and Merrill 2023][research_jethro_merrill_2023]] \[[Annabell 2023][research_annabell_2023]] \[[Paul 2023][research_paul_2023]] \[[Scates and Yu 2023][research_scates_yu_2023]] \[[Soloviova and Koloiz 2023][research_soloviova_koloiz_2023]] \[[Munnik 2023][research_munnik_2023]] \[[Nick 2023][research_nick_2023]] \[[Chandrashekar 2023][research_chandrashekar_2023]] \[[Tkachenko 2023][research_tkachenko_2023]] \[[Bulgarova 2023][research_bulgarova_2023]] \[[Schenk 2023][research_schenk_2023]] \[[Schembri and Gauci 2023][research_schembri_gauci_2023]] \[[Yankson 2023][research_yankson_2023]] \[[The Colonial Politics of 2023][research_the_colonial_2023]] \[[Wijeyesinghe 2023][research_wijeyesinghe_2023]] \[[Perera 2023][research_perera_2023]] \[[Mamvura and Marowa 2023][research_mamvura_marowa_2023]] \[[Brunila et al 2023][research_brunila_laviolette_2023]] \[[Barrett 2023][research_barrett_2023]] \[[Szuba 2023][research_szuba_2023]] \[[Manning et al 2022][research_manning_ingram_2022]] \[[Alderman 2022][research_alderman_2022]] \[[Shivan 2022][research_shivan_2022]] \[[Basik 2022][research_basik_2022]] \[[Masters 2022][research_masters_2022]] \[[Masters 2022][research_masters_2022_2]] \[[Matiossian 2022][research_matiossian_2022]] \[[Giraut and Houssay-Holzschuch 2022][research_giraut_houssayholzschuch_2022]] \[[Bitušíková 2022][research_bitusikova_2022]] \[[Ben Arrous and Bigon 2022][research_benarrous_bigon_2022]] \[[Sysiö et al 2021][research_sysio_ulker_2021]] \[[Conclusions The Vedii A 2021][research_conclusions_the_2021]] \[[Mamvura 2021][research_mamvura_2021]] \[[Nick 2021][research_nick_2021]] \[[Larionova/Ларионова and Tsareva/Царёва 2021][research_larionova_tsareva_2021]] \[[Barratt and Ranjitsingh 2021][research_barratt_ranjitsingh_2021]] \[[Paschalidou 2021][research_paschalidou_2021]] \[[Mann 2021][research_mann_2021]] \[[Seits 2021][research_seits_2021]] \[[Vishal Surbun 2021][research_vishalsurbun_2021]] \[[The Politics of Naming 2021][research_the_politics_2021]] \[[Düzgün 2021][research_duzgun_2021]] \[[Rose-Redwood 2021][research_roseredwood_2021]] \[[Viala-Gaudefroy and Lindaman 2020][research_vialagaudefroy_lindaman_2020]] \[[Vivant 2020][research_vivant_2020]] \[[Rose-Redwood and Kim 2020][research_roseredwood_kim_2020]] \[[Ćwiek-Rogalska 2020][research_cwiekrogalska_2020]] \[[Mamvura 2020][research_mamvura_2020]] \[[Mamvura 2020][research_mamvura_2020_2]] \[[Havryliuk 2019][research_havryliuk_2019]] \[[Webster 2019][research_webster_2019]] \[[Balogun and Fasanu 2019][research_balogun_fasanu_2019]] \[[Duncan 2019][research_duncan_2019]] \[[Brocket 2019][research_brocket_2019]] \[[Kapur 2019][research_kapur_2019]] \[[Stolberg 2019][research_stolberg_2019]] \[[Eyben 2019][research_eyben_2019]] \[[Obasi et al 2019][research_obasi_mocarski_2019]] \[[Landqvist 2019][research_landqvist_2019]] \[[Basik 2019][research_basik_2019]] \[[Bernasconi et al 2019][research_bernasconi_lopez_2019]] \[[Riazi 2019][research_riazi_2019]] \[[Gjesdal 2019][research_gjesdal_2019]] \[[Kachalkova and Ruth 2019][research_kachalkova_ruth_2019]] \[[Allums 2018][research_allums_2018]] \[[Webster 2018][research_webster_2018]] \[[Commemorative Groups and Commemorative 2018][research_commemorative_groups_2018]] \[[Çetin 2018][research_cetin_2018]] \[[Atencio 2018][research_atencio_2018]] \[[Dube 2018][research_dube_2018]] \[[Bass and Houghton 2018][research_bass_houghton_2018]] \[[Gnatiuk 2018][research_gnatiuk_2018]] \[[McAuley 2018][research_mcauley_2018]] \[[Bartolini 2017][research_bartolini_2017]] \[[Choi 2017][research_choi_2017]] \[[Wideman and Masuda 2017][research_wideman_masuda_2017]] \[[Smith 2017][research_smith_2017]] \[[Yeoh 2017][research_yeoh_2017]] \[[Vuolteenaho 2017][research_vuolteenaho_2017]] \[[Dietze-Schirdewahn 2017][research_dietzeschirdewahn_2017]] \[[Hui 2017][research_hui_2017]] \[[Mayer and Tiberj 2017][research_mayer_tiberj_2017]] \[[Golomidova 2017][research_golomidova_2017]] \[[Palonen 2017][research_palonen_2017]] \[[Różycki 2017][research_rozycki_2017]] \[[Alderman and Inwood 2017][research_alderman_inwood_2017]] \[[Duminy 2017][research_duminy_2017]] \[[Light and Young 2017][research_light_young_2017]] \[[Ndlovu 2017][research_ndlovu_2017]] \[[Kank 2016][research_kank_2016]] \[[Bigon 2016][research_bigon_2016]] \[[Power, politics, and naming 2016][research_power_politics_2016]] \[[Bigon 2016][research_bigon_2016_2]] \[[Bigon 2016][research_bigon_2016_3]] \[[Duduciuc and Ivan 2015][research_duduciuc_ivan_2015]] \[[Lucas 2015][research_lucas_2015]] \[[Creţan and Matthews 2015][research_cretan_matthews_2015]] \[[Hanna and Hodder 2015][research_hanna_hodder_2015]] \[[Myong and Chun 2015][research_myong_chun_2015]] \[[Mitchell and Alderman 2014][research_mitchell_alderman_2014]] \[[Anger and the Politics 2014][research_anger_and_2014]] \[[Machar 2014][research_machar_2014]] \[[Orel 2014][research_orel_2014]] \[[Naming China-political art as 2014][research_naming_china_political_2014]] \[[Arrington 2014][research_arrington_2014]] \[[Wills 2014][research_wills_2014]] \[[Jelaska Marijan 2014][research_jelaskamarijan_2014]] \[[The Politics of Naming 2014][research_the_politics_2014]] \[[Warman 2013][research_warman_2013]] \[[Boonprong 2013][research_boonprong_2013]] \[[Gabor 2013][research_gabor_2013]] \[[Terrorism and the Politics 2013][research_terrorism_and_2013]] \[[Waller 2013][research_waller_2013]] \[[Oliver 2012][research_oliver_2012]] \[[Azaryahu 2012][research_azaryahu_2012_2]] \[[Ochonu 2011][research_ochonu_2011]] \[[Rom and Benjamin 2011][research_rom_benjamin_2011]] \[[Blankenship 2011][research_blankenship_2011]] \[[Meeropol 2011][research_meeropol_2011]] \[[Fearn 2010][research_fearn_2010]] \[[Hart 2009][research_hart_2009]] \[[Chapter Two. The Naming 2009][research_chapter_two_2009]] \[[Naming, identity, and the 2009][research_naming_identity_2009]] \[[Kirk 2007][research_kirk_2007]] \[[Vivian 2007][research_vivian_2007]] \[[Minow 2007][research_minow_2007]] \[[Howard-Hassmann 2007][research_howardhassmann_2007]] \[[Alia 2007][research_alia_2007]] \[[Tarpley 2006][research_tarpley_2006]] \[[Miller and Goldblum 2006][research_miller_goldblum_2006]] \[[The Politics of Naming 2006][research_the_politics_2006]] \[[Aboriginal place names charting 2004][research_aboriginal_place_2004]] \[[CHAPTER 3 Naming, Identity 2004][research_chapter_3_2004]] \[[Castillo 2003][research_castillo_2003]] \[[Wilks and Brick 2001][research_wilks_brick_2001]] \[[Galasiński, Katarzyna Skowronek 2001][research_galasinskikatarzynaskowronek_2001]] \[[Alderman 2000][research_alderman_2000]] \[[Alderman 2000][research_alderman_2000_2]] \[[Kelly 1999][research_kelly_1999]] \[[Herbert 1997][research_herbert_1997]] \[[Andrews 1996][research_andrews_1996]] \[[Nash 1993][research_nash_1993]] \[[O'Brien 1993][research_obrien_1993]] \[[Azaryahu 1992][research_azaryahu_1992]] \[[Diament 1991][research_diament_1991]] \[[Wilson and Wood 1989][research_wilson_wood_1989]] \[[Krumpelmann 1951][research_krumpelmann_1951]] \[[Jones 1914][research_jones_1914]] \[[Silverman][research_silverman]] \[[Chapter 5. The Politics][research_chapter_5]] \[[Radovic][research_radovic]] \[[Yang][research_yang]] \[[Laqueur][research_laqueur]]
 
 ### Military heritage, tradition and naming
 
 **The armed services name bases, ships and camps after people and events, and that practice has a literature of its own.** None of it concerns design numbers.
 
-**37 works.** \[[Department Of The Navy Washington Dc 2012][research_departmentofthenavywashingtondc_2012]] \[[Ihrke 1992][research_ihrke_1992]] \[[Rijnoveanu 2026][research_rijnoveanu_2026]] \[[Starchenko 2023][research_starchenko_2023]] \[[Rijnoveanu 2023][research_rijnoveanu_2023]] \[[Honour and Dishonour in 2022][research_honour_and_2022]] \[[Mazurkiewicz 2022][research_mazurkiewicz_2022]] \[[Kleykamp et al 2021][research_kleykamp_montgomery_2021]] \[[Military Identity Project 2020][research_military_identity_2020]] \[[Mamet 2020][research_mamet_2020]] \[[Wilson-Smith and Corr 2019][research_wilsonsmith_corr_2019]] \[[Kümmel 2018][research_kummel_2018]] \[[Koopman 2017][research_koopman_2017]] \[[Butler 2016][research_butler_2016]] \[[Migliore and Pound 2016][research_migliore_pound_2016]] \[[Tibbitts 2016][research_tibbitts_2016]] \[[Military Identity in Nigeria 2015][research_military_identity_2015]] \[[Forging a Military Identity 2015][research_forging_a_2015]] \[[Lancaster and P. Hart 2015][research_lancaster_phart_2015]] \[[Johansen et al 2013][research_johansen_laberg_2013]] \[[Gerstenblith 2010][research_gerstenblith_2010]] \[[Gerstenblith 2010][research_gerstenblith_2010_2]] \[[Malcomson 2009][research_malcomson_2009]] \[[Modern Military Identity 2009][research_modern_military_2009]] \[[Kirchmeier 2008][research_kirchmeier_2008]] \[[Murdoch 2002][research_murdoch_2002]] \[[Montoya 2002][research_montoya_2002]] \[[Horsbroch 2002][research_horsbroch_2002]] \[[Military Identity Old Ammo 1999][research_military_identity_1999]] \[[Department Of The Air Force Washington Dc 1997][research_departmentoftheairforcewashingtondc_1997]] \[[Echevarria II 1996][research_echevarriaii_1996]] \[[Beckett 1992][research_beckett_1992]] \[[Abend 1977][research_abend_1977]] \[[XIII. In the Mainstream 1966][research_xiii_in_1966]] \[[Naming the New Warships 1899][research_naming_the_1899]] \[[Keeping in Step The][research_keeping_in]] \[[Theodorakis and Constantopoulos][research_theodorakis_constantopoulos]]
+**36 works.** \[[Department Of The Navy Washington Dc 2012][research_departmentofthenavywashingtondc_2012]] \[[Ihrke 1992][research_ihrke_1992]] \[[Rijnoveanu 2026][research_rijnoveanu_2026]] \[[Starchenko 2023][research_starchenko_2023]] \[[Rijnoveanu 2023][research_rijnoveanu_2023]] \[[Honour and Dishonour in 2022][research_honour_and_2022]] \[[Mazurkiewicz 2022][research_mazurkiewicz_2022]] \[[Kleykamp et al 2021][research_kleykamp_montgomery_2021]] \[[Military Identity Project 2020][research_military_identity_2020]] \[[Mamet 2020][research_mamet_2020]] \[[Wilson-Smith and Corr 2019][research_wilsonsmith_corr_2019]] \[[Kümmel 2018][research_kummel_2018]] \[[Koopman 2017][research_koopman_2017]] \[[Butler 2016][research_butler_2016]] \[[Migliore and Pound 2016][research_migliore_pound_2016]] \[[Tibbitts 2016][research_tibbitts_2016]] \[[Military Identity in Nigeria 2015][research_military_identity_2015]] \[[Forging a Military Identity 2015][research_forging_a_2015]] \[[Lancaster and P. Hart 2015][research_lancaster_phart_2015]] \[[Johansen et al 2013][research_johansen_laberg_2013]] \[[Gerstenblith 2010][research_gerstenblith_2010]] \[[Gerstenblith 2010][research_gerstenblith_2010_2]] \[[Malcomson 2009][research_malcomson_2009]] \[[Modern Military Identity 2009][research_modern_military_2009]] \[[Kirchmeier 2008][research_kirchmeier_2008]] \[[Murdoch 2002][research_murdoch_2002]] \[[Montoya 2002][research_montoya_2002]] \[[Horsbroch 2002][research_horsbroch_2002]] \[[Military Identity Old Ammo 1999][research_military_identity_1999]] \[[Department Of The Air Force Washington Dc 1997][research_departmentoftheairforcewashingtondc_1997]] \[[Echevarria II 1996][research_echevarriaii_1996]] \[[Beckett 1992][research_beckett_1992]] \[[Abend 1977][research_abend_1977]] \[[XIII. In the Mainstream 1966][research_xiii_in_1966]] \[[Naming the New Warships 1899][research_naming_the_1899]] \[[Keeping in Step The][research_keeping_in]]
 
 ### Symbolic politics and the politics of naming
 
@@ -670,7 +670,7 @@ That is a measurement of titles and not a reading of findings, and it says that 
 
 **What was read directly for this article**, rather than inherited, is the current register and its archived copies of 19 August 2025, 10 December 2025, 15 January 2026, 1 February 2026 and 12 February 2026, the missing-designations page at its current version and as archived on 12 November 2025, 12 February 2026, 20 February 2026 and 17 May 2026, DARPA's announcement, the contractor's release, the Army's release, the Air Force Reserve Command's announcement of the F-47, and the released public affairs emails in full. **A further ten documents were read directly during the reference review.** They are the 1994 instruction's text, DARPA's announcement of the XRQ-73, the Great Horned Owl programme page, the semiquincentennial statute, the National Archives transcript of the Declaration, the National Security Act of 1947, the Army's history of 14 June 1775, the Air Force Reserve Command's announcement for the President's words, NASA's inventory of the X-vehicles read at its X-39 to X-50 entries, Boeing's release on the X-50A, and the registry records of thirteen research papers, of which three carry an abstract that the prose now follows. **The instruction's clauses are quoted from the copy the [X-67][related_post_a364_x67_slot_taken_by_xq67] article read**, and the quotations were checked against that text for this article.
 
-**The first sweep asked the reports servers in the article's vocabulary and they held almost nothing, so the second was aimed and measured.** It asked twenty questions of the NASA server and twenty of the defence registry in the designation system's own words, mission design series, model designation, nomenclature, X-plane and the services' heritage vocabulary, adding 1,645 and 2,493 records to the pool. The audited gate admitted 30 of them, and reading those found two homonyms the first sweep had never met, laser designation, which is target marking, and report and round numbers, which are identifiers, both now refusal cases. **Report-server citations rose from 41 to 59**, eight to twenty-three from the NASA server and thirty-three to thirty-six from the defence registry.
+**The first sweep asked the reports servers in the article's vocabulary and they held almost nothing, so the second was aimed and measured.** It asked twenty questions of the NASA server and twenty of the defence registry in the designation system's own words, mission design series, model designation, nomenclature, X-plane and the services' heritage vocabulary, adding 1,645 and 2,493 records to the pool. The audited gate admitted 30 of them, and reading those found two homonyms the first sweep had never met, laser designation, which is target marking, and report and round numbers, which are identifiers, both now refusal cases. **Report-server citations rose from 41 to 59**, eight to twenty-three from the NASA server and thirty-three to thirty-six from the defence registry, a count the rebuild of 7 October 2026 left at 58, thirty-five of them from the defence registry.
 
 $$
 \frac{41}{1{,}850} \;=\; 0.0222 \;\;\longrightarrow\;\; \frac{59}{1{,}881} \;=\; 0.0314
@@ -679,6 +679,8 @@ $$
 **The share stays small, and that is the honest result for a subject that is not engineering.** The aim bought the X-plane programme literature and NASA's own inventory, and it could not buy what the servers do not hold. **Two defence-registry documents the sweep found could not be read**, an edition of the designating instruction catalogued in 1997 and the Navy's 2012 report on naming vessels, because the registry's document server returns a refusal page to every client tried. Both are cited as swept records and neither informs a claim.
 
 **The gate was audited in both directions.** It carries 24 keep cases and 33 refusal cases, each retested with its spaces replaced by hyphens, and the refusal cases were taken from what the bare-word queries returned rather than from what the gate admitted. **Two rounds of reading admitted samples found licence-plate recognition, peer-review correspondence and society anniversaries leaking into the number and anniversary clusters**, and each leak became a refusal case. **Residual noise remains in a pool this size**, and it is reported here rather than hidden.
+
+**The gate was rebuilt on 7 October 2026, after the counts first published with this article, and the rebuilt filter refused 231 records.** Each was a homonym that shares a word with a cluster's subject. Forty-three concern vehicle licence plates, from plate recognition to traffic policy, and 35 are numerical cognition studies in which a symbolic number means a numeral rather than a symbol. Seventy-seven are tributes to individual scientists, notices of the anniversaries of journals, societies, laboratories and academies, or records that use a centennial only as a label, among them two people whose middle name was Centennial. Fourteen are peer-review letters about model version numbers or a network protocol's version field, nine concern real tanks rather than the German tank problem, eleven treat round numbers as integers in school mathematics, as smooth numbers in number theory or as rounding, and eight treat lucky numbers as a sieve, a graph labelling or a protein. The remaining 34 are tooth notation, clinical and veterinary registries, radio and robot configuration, military purpose, film and story titles and other subjects found by reading. **The research total fell from 1,881 to 1,650**, with the largest changes in the number-choice cluster, from 303 to 200, the commemoration cluster, from 353 to 295, version numbering, from 32 to 18, and the anniversary cluster, from 235 to 216. Report-server records number 58, or 3.5 percent of the total, the median publication year stays 2016, and 853 of the 1,555 dated records, or 54.9 percent, date from 2015 or later. **A reading of 300 records chosen at random from those the first screening passed found 35 off topic**, 33 of them of kinds the sweeps then removed from the whole article and two found only by reading, which puts the contamination remaining near 0.7 percent.
 
 ## Epistemic State
 
@@ -806,32 +808,23 @@ $$
 - ["We Died There, Too" 2022][research_we_died_2022]
 - ['Acts of communal memory' 2023][research_acts_of_2023]
 - ['If They Were Rebels 2014][research_if_they_2014]
-- [125th anniversary commemoration 1984][research_125th_anniversary_1984]
 - [150th Anniversary Commemoration April 1975][research_150th_anniversary_1975]
-- [A 2019][research_a_2019]
 - [A Bilateral Bicentennial A][research_a_bilateral]
 - [A British Dimension to 2013][research_a_british_2013]
-- [A Centennial Celebration in 1984][research_a_centennial_1984]
 - [A Continental Centennial Situating 2018][research_a_continental_2018]
 - [A Dante Symposium in 1967][research_a_dante_1967]
-- [A History of the 1952][research_a_history_1952]
 - [A'Hearn et al 2009][research_ahearn_baten_2009]
 - [A'Hearn et al 2021][research_ahearn_delfino_2021]
 - [A'Hearn et al 2022][research_ahearn_delfino_2022]
-- [A. C. Hunold, The 1955][research_a_c_1955]
 - [Abdalkareem 2022][research_abdalkareem_2022]
 - [Abdalkareem et al 2023][research_abdalkareem_chowdhury_2023]
 - [Abdallah et al 2008][research_abdallah_jerez_2008]
-- [Abdulkareem et al 2025][research_abdulkareem_abdulmohsin_2025]
-- [Abedrabbo 2004][research_abedrabbo_2004]
 - [Abedrapo Rosen and Hartley Belmar 2025][research_abedraporosen_hartleybelmar_2025]
 - [Abend 1977][research_abend_1977]
 - [Aboriginal place names charting 2004][research_aboriginal_place_2004]
-- [Academy of Sciences of 1945][research_academy_of_1945]
 - [Acosta and Braun 2021][research_acosta_braun_2021]
 - [Adam 1980][research_adam_1980]
 - [Adamczyk and Rosner-Leszczyński 2025][research_adamczyk_rosnerleszczynski_2025]
-- [Adeogun 2023][research_adeogun_2023]
 - [Administrative Discretion 2009][research_administrative_discretion_2009]
 - [Administrative Discretion 2020][research_administrative_discretion_2020]
 - [Administrative Discretion 2021][research_administrative_discretion_2021]
@@ -843,18 +836,13 @@ $$
 - [Administrative Law. Review of 1921][research_administrative_law_1921]
 - [Aghassibake et al 2023][research_aghassibake_castello_2023]
 - [Aguirre 2017][research_aguirre_2017]
-- [Ahmadyfard and Abolghasemi 2008][research_ahmadyfard_abolghasemi_2008]
 - [Ahuja 2025][research_ahuja_2025]
 - [Aircraft Propulsion System Performance][research_aircraft_propulsion]
 - [Aircraft Propulsion System Performance][research_aircraft_propulsion_2]
 - [Aircraft Propulsion System Performance][research_aircraft_propulsion_3]
-- [Aires and Catarino 2019][research_aires_catarino_2019]
 - [Ajibode et al 2025][research_ajibode_bangash_2025]
 - [Akella 2024][research_akella_2024]
-- [Akhmanova and Severin 2004][research_akhmanova_severin_2004]
 - [Al Nashmi 2024][research_alnashmi_2024]
-- [Al'bitskii et al 2012][research_albitskii_sher_2012]
-- [Al-Haboubi 1999][research_alhaboubi_1999]
 - [Alderman 2000][research_alderman_2000]
 - [Alderman 2000][research_alderman_2000_2]
 - [Alderman 2003][research_alderman_2003]
@@ -884,10 +872,8 @@ $$
 - [Anger and the Politics 2014][research_anger_and_2014]
 - [Annabell 2023][research_annabell_2023]
 - [Anniversaries, Ceremonies and Creative 2023][research_anniversaries_ceremonies_2023]
-- [Announcement of the Winners 2003][research_announcement_of_2003]
 - [Anthony Lee and Steven Miller 2023][research_anthonylee_stevenmiller_2023]
 - [Antonelli 2014][research_antonelli_2014]
-- [Aoki 2022][research_aoki_2022]
 - [Appendix 1 Standard nomenclature 2019][research_appendix_1_2019]
 - [Appendix 2 Ludlow Centennial 2022][research_appendix_2_2022]
 - [Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]
@@ -895,7 +881,6 @@ $$
 - [Arnason 2018][research_arnason_2018]
 - [Arndt 1985][research_arndt_1985]
 - [Arrington 2014][research_arrington_2014]
-- [Arshad and Prasanthi 2023][research_arshad_prasanthi_2023]
 - [Aryani 2017][research_aryani_2017]
 - [Asif and Karim 2014][research_asif_karim_2014]
 - [Askitas 2010][research_askitas_2010]
@@ -922,7 +907,6 @@ $$
 - [Balla 2014][research_balla_2014]
 - [Balogun and Fasanu 2019][research_balogun_fasanu_2019]
 - [Bangert and Frances 2017][research_bangert_frances_2017]
-- [Bansiri et al 2026][research_bansiri_anantayasethi_2026]
 - [Barkstrom 2003][research_barkstrom_2003]
 - [Barootes 2016][research_barootes_2016]
 - [Barratt and Ranjitsingh 2021][research_barratt_ranjitsingh_2021]
@@ -951,7 +935,6 @@ $$
 - [Beazer 2012][research_beazer_2012]
 - [Beckett 1992][research_beckett_1992]
 - [Beer 2009][research_beer_2009]
-- [Behrens 2026][research_behrens_2026]
 - [Beiner 2017][research_beiner_2017]
 - [Bekliamishev 2024][research_bekliamishev_2024]
 - [Belcher 1976][research_belcher_1976]
@@ -970,11 +953,9 @@ $$
 - [Bergman 2019][research_bergman_2019]
 - [Bergmann and Haferd 1964][research_bergmann_haferd_1964]
 - [Bernasconi et al 2019][research_bernasconi_lopez_2019]
-- [Betteridge 1980][research_betteridge_1980]
 - [Bhamare et al 2014][research_bhamare_gumaste_2014]
 - [Bhattacharya et al 2012][research_bhattacharya_holden_2012]
 - [Bhirawa 2025][research_bhirawa_2025]
-- [Bicentennial commemoration of R 1987][research_bicentennial_commemoration_1987]
 - [Bickford 1990][research_bickford_1990]
 - [Bidwell and Hole 1964][research_bidwell_hole_1964]
 - [Bieniaszewski et al 2000][research_bieniaszewski_kruszewski_2000]
@@ -983,31 +964,23 @@ $$
 - [Bigon 2016][research_bigon_2016_3]
 - [Billias 1981][research_billias_1981]
 - [Billig 2021][research_billig_2021]
-- [Bilton 2009][research_bilton_2009]
 - [Bineham 2013][research_bineham_2013]
 - [Biometric Registration Authority 2009][research_biometric_registration_2009]
 - [Bitušíková 2022][research_bitusikova_2022]
 - [Blair 2004][research_blair_2004]
-- [Blais 2003][research_blais_2003]
 - [Blankenship 2011][research_blankenship_2011]
 - [Blum and Krauss 2017][research_blum_krauss_2017]
 - [Bodnar][research_bodnar]
 - [Bodnar 1994][research_bodnar_1994]
-- [Boer 2016][research_boer_2016]
-- [Boguslavsky 1996][research_boguslavsky_1996]
-- [Bol'shakov 2000][research_bolshakov_2000]
 - [Boland and Godsell 2021][research_boland_godsell_2021]
 - [Bolikowski et al 2015][research_bolikowski_nowiaski_2015]
 - [Bolinger][research_bolinger]
 - [Boonprong 2013][research_boonprong_2013]
-- [Borisova and Misnikov 2025][research_borisova_misnikov_2025]
-- [Borysov 2020][research_borysov_2020]
 - [Bouviet 2026][research_bouviet_2026]
 - [Boyer and Bodnar 1993][research_boyer_bodnar_1993]
 - [Breunig 2024][research_breunig_2024]
 - [Breunig et al 2024][research_breunig_deutscher_2024]
 - [Bright et al 1993][research_bright_humber_1993]
-- [Briliandt 2011][research_briliandt_2011]
 - [Brocket 2019][research_brocket_2019]
 - [Brog 2003][research_brog_2003]
 - [Bronselaer 2025][research_bronselaer_2025]
@@ -1058,7 +1031,6 @@ $$
 - [Camarda et al 2016][research_camarda_eilers_2016]
 - [Camarillo 2004][research_camarillo_2004]
 - [Camarillo 2006][research_camarillo_2006]
-- [Cantillo and De Dios Ortúzar 2014][research_cantillo_dediosortuzar_2014]
 - [Cappuccini 2017][research_cappuccini_2017]
 - [Carbon fibre. Designation system][research_carbon_fibre]
 - [Carey 2011][research_carey_2011]
@@ -1069,9 +1041,7 @@ $$
 - [Carter 2024][research_carter_2024]
 - [Carvalho 2023][research_carvalho_2023]
 - [Carvalho and Seco 2021][research_carvalho_seco_2021]
-- [Casertano 1999][research_casertano_1999]
 - [Cash 2011][research_cash_2011]
-- [Cashin 2006][research_cashin_2006]
 - [Casquete 2013][research_casquete_2013]
 - [Castillo 2003][research_castillo_2003]
 - [Catherine Genovese Twentieth anniversary 1984][research_catherine_genovese_1984]
@@ -1084,7 +1054,6 @@ $$
 - [Centennial Exhibition. United States Department 1876][research_centennial_exhibition_1876_3]
 - [Ceravolo and Bellini 2010][research_ceravolo_bellini_2010]
 - [Cerf 1990][research_cerf_1990]
-- [Chai and Zuo 2018][research_chai_zuo_2018]
 - [Chala et al 2024][research_chala_endresen_2024]
 - [Chan and Milne 2013][research_chan_milne_2013]
 - [Chan-Seung Park 2016][research_chanseungpark_2016]
@@ -1116,17 +1085,12 @@ $$
 - [Chapter VI. the Exercise][research_chapter_vi]
 - [Chapter VII. the Exercise][research_chapter_vii]
 - [Chaudhry 2024][research_chaudhry_2024]
-- [Chen and Hyde 2025][research_chen_hyde_2025]
 - [Chen et al 2019][research_chen_liu_2019]
-- [Chen-Chung Liu and Zhi-Chun Luo 2010][research_chenchungliu_zhichunluo_2010]
 - [Chidora and Tivenga 2025][research_chidora_tivenga_2025]
 - [Chielens 2018][research_chielens_2018]
 - [Chigwada et al 2026][research_chigwada_chiparausha_2026]
 - [Chih-Szu 1975][research_chihszu_1975]
-- [Childhood ￭ Behind Prison 2017][research_childhood_2017]
 - [Children of a Common 2018][research_children_of_2018]
-- [Cho et al 2014][research_cho_abidi_2014]
-- [Cho et al 2014][research_cho_abidi_2014_2]
 - [Chodacki et al 2024][research_chodacki_carpenter_2024]
 - [Choi 2017][research_choi_2017]
 - [Choi 2018][research_choi_2018]
@@ -1138,7 +1102,6 @@ $$
 - [Chupriy and Den Sik 2020][research_chupriy_densik_2020]
 - [Clar 1958][research_clar_1958]
 - [Clark et al 2021][research_clark_gonye_2021]
-- [Cleland et al 2018][research_cleland_corsico_2018]
 - [Closing Ceremonies of the 1876][research_closing_ceremonies_1876]
 - [Clucas 2010][research_clucas_2010]
 - [Cohen and Maass 1974][research_cohen_maass_1974]
@@ -1158,12 +1121,9 @@ $$
 - [Commemoration of an Epoch 2022][research_commemoration_of_2022]
 - [Commemoration of Copernicus in 1943][research_commemoration_of_1943]
 - [Commemoration of the 25th][research_commemoration_of]
-- [Commemoration of the 400th 2013][research_commemoration_of_2013]
 - [Commemoration of the 450th 1943][research_commemoration_of_1943_2]
-- [Commemoration of the fiftieth 1963][research_commemoration_of_1963]
 - [Commemoration of the seventieth 2019][research_commemoration_of_2019]
 - [Commemoration of the seventieth 2023][research_commemoration_of_2023]
-- [Commemoration of the Two 1907][research_commemoration_of_1907]
 - [Commemoration, monument and identity 2011][research_commemoration_monument_2011]
 - [commemoration-of-the-fifth-anniversary-of-the-un-declaration-on-the-rights-of-indigenous-peoples][research_commemoration_of_the_fifth_anniversary_of_the_un_declaration_on_the_rights_of_indigenous_peoples]
 - [Commemorative and 'historical event' 2013][research_commemorative_and_2013]
@@ -1211,34 +1171,25 @@ $$
 - [Czerniak et al 2026][research_czerniak_genderjahn_2026]
 - [D'Agostino and Russell 2005][research_dagostino_russell_2005]
 - [D'ascenzo 2016][research_dascenzo_2016]
-- [Dagg 2000][research_dagg_2000]
 - [Dahiru and Dikko 2022][research_dahiru_dikko_2022]
 - [Daintith 2005][research_daintith_2005]
 - [Dale et al 1989][research_dale_mcbratney_1989]
 - [Dalgıç and Yildirim Okta 2023][research_dalgic_yildirimokta_2023]
 - [Dappert et al 2017][research_dappert_farquhar_2017]
 - [Dart 1992][research_dart_1992]
-- [Dashboard Camera View Vehicle 2022][research_dashboard_camera_2022]
 - [data numbering plan area][research_data_numbering]
 - [Davies and Butler 1972][research_davies_butler_1972]
 - [de Castro et al][research_decastro_herb]
 - [de Montety 2025][research_demontety_2025]
-- [Deb and Jo 2009][research_deb_jo_2009]
 - [Decan and Mens 2021][research_decan_mens_2021]
 - [Deliberate discretion? the institutional 2003][research_deliberate_discretion_2003]
 - [den Bakker and Damhuis 2018][research_denbakker_damhuis_2018]
-- [Dennis 2000][research_dennis_2000]
-- [Dentistry � Designation system][research_dentistry]
 - [Dentistry. Designation system for][research_dentistry_designation]
-- [Dentistry. Designation system for][research_dentistry_designation_2]
-- [Dentistry. Designation system for][research_dentistry_designation_3]
-- [Dentistry. Vocabulary and designation][research_dentistry_vocabulary]
 - [Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]
 - [Department Of The Air Force Washington Dc 1997][research_departmentoftheairforcewashingtondc_1997]
 - [Department Of The Navy Washington Dc 2012][research_departmentofthenavywashingtondc_2012]
 - [Deputies of the State 2023][research_deputies_of_2023]
 - [Designation system for steels][research_designation_system]
-- [Designation system for teeth][research_designation_system_2]
 - [Designation systems for steels][research_designation_systems]
 - [Designing the Centennial A][research_designing_the]
 - [Designing the centennial a 2002][research_designing_the_2002]
@@ -1262,16 +1213,12 @@ $$
 - [Discrete Uniform Distribution 2008][research_discrete_uniform_2008]
 - [Discrete Uniform Distribution 2016][research_discrete_uniform_2016]
 - [Discussion Nationalism, Friendship, and 2022][research_discussion_nationalism_2022]
-- [Dma 2016][research_dma_2016]
 - [Dobrovolskis 2003][research_dobrovolskis_2003]
 - [Document Version Number Text 2020][research_document_version_2020]
 - [Dolan 2002][research_dolan_2002]
-- [Domahs et al 2010][research_domahs_moeller_2010]
 - [Domby 2024][research_domby_2024]
 - [Donald 1986][research_donald_1986]
 - [Donne 1967][research_donne_1967]
-- [Doreen Warriner Land 1955][research_doreen_warriner_1955]
-- [dos Santos 2023][research_dossantos_2023]
 - [Doss 2023][research_doss_2023]
 - [Doucouliagos 2004][research_doucouliagos_2004]
 - [Drescher et al 2020][research_drescher_sabean_2020]
@@ -1279,14 +1226,10 @@ $$
 - [Dube 2018][research_dube_2018]
 - [Dube et al 2018][research_dube_manning_2018]
 - [Dube et al 2025][research_dube_manning_2025]
-- [Dubinkina et al 2021][research_dubinkina_sella_2021]
-- [Dubinkina et al 2023][research_dubinkina_sella_2023]
-- [Dudek et al 2007][research_dudek_schrock_2007]
 - [Duduciuc and Ivan 2015][research_duduciuc_ivan_2015]
 - [Duine 2016][research_duine_2016]
 - [Duine 2017][research_duine_2017]
 - [Duminy 2017][research_duminy_2017]
-- [Dummer 1946][research_dummer_1946]
 - [Duncan 1993][research_duncan_1993]
 - [Duncan 2017][research_duncan_2017]
 - [Duncan 2019][research_duncan_2019]
@@ -1301,7 +1244,6 @@ $$
 - [Dwyer et al 2013][research_dwyer_butler_2013]
 - [Düzgün 2021][research_duzgun_2021]
 - [Early 2018][research_early_2018]
-- [Easter et al 2021][research_easter_fairbanks_2021]
 - [Ebury 2023][research_ebury_2023]
 - [Echevarria II 1996][research_echevarriaii_1996]
 - [Edouard and Senthilselvan 1997][research_edouard_senthilselvan_1997]
@@ -1329,18 +1271,14 @@ $$
 - [Fabiszak et al 2024][research_fabiszak_buchstaller_2024]
 - [Fabry 1980][research_fabry_1980]
 - [Family Politics Revealed Through 2023][research_family_politics_2023]
-- [Fando 2021][research_fando_2021]
 - [Farach 2022][research_farach_2022]
-- [Fares 2013][research_fares_2013]
 - [Farrell and Elliott 1977][research_farrell_elliott_1977]
-- [Fay et al 2026][research_fay_salmen_2026]
 - [Fayehun et al 2019][research_fayehun_ajayi_2019]
 - [Fearn 2010][research_fearn_2010]
 - [Feiler and Downey 1990][research_feiler_downey_1990]
 - [Fekete-Nagy 2021][research_feketenagy_2021]
 - [Felecan 2024][research_felecan_2024]
 - [Felix de Moura 2026][research_felixdemoura_2026]
-- [Feng et al 2012][research_feng_li_2012]
 - [Fenner 2015][research_fenner_2015]
 - [Fenner 2015][research_fenner_2015_2]
 - [Fenner 2015][research_fenner_2015_3]
@@ -1351,12 +1289,8 @@ $$
 - [Ferrey 2025][research_ferrey_2025]
 - [Fewsmith and Hearst 2023][research_fewsmith_hearst_2023]
 - [Fiala 1983][research_fiala_1983]
-- [Fig. 3. Colonel of][research_fig_3]
-- [Figure 11 Recognition effect][research_figure_11]
-- [Figure 3 Map of][research_figure_3]
 - [Fihurnyi 2023][research_fihurnyi_2023]
 - [Finch 2000][research_finch_2000]
-- [Findling 2000][research_findling_2000]
 - [Finkelstein 2008][research_finkelstein_2008]
 - [Finley 2006][research_finley_2006]
 - [Firdaus et al 2026][research_firdaus_fitriyah_2026]
@@ -1369,14 +1303,12 @@ $$
 - [Foti et al 2020][research_foti_appel_2020]
 - [Founding. Designation system for][research_founding_designation]
 - [Fourneir-Peneff 2026][research_fourneirpeneff_2026]
-- [Fox 1947][research_fox_1947]
 - [Fox 1996][research_fox_1996]
 - [Franklin 2008][research_franklin_2008]
 - [Freeman 2026][research_freeman_2026]
 - [Freestone and Veale 2004][research_freestone_veale_2004]
 - [Freidel 1976][research_freidel_1976]
 - [French Revolution Commemoration 1789-1989 1988][research_french_revolution_1988]
-- [Fricker and Gupta 2001][research_fricker_gupta_2001]
 - [Fridman and Gensburger 2023][research_fridman_gensburger_2023]
 - [From collective memory to 2010][research_from_collective_2010]
 - [Furlong 2007][research_furlong_2007]
@@ -1392,19 +1324,14 @@ $$
 - [Garcia, Joseph A. et al 2019][research_garciajosepha_bowlesjeffreyv_2019]
 - [Gardner 1983][research_gardner_1983]
 - [Garner 1949][research_garner_1949]
-- [Geary and vanMarle 2018][research_geary_vanmarle_2018]
 - [Gegenava 2025][research_gegenava_2025]
-- [Gender Naming and Symbolism 2026][research_gender_naming_2026]
 - [Georgakis 2025][research_georgakis_2025]
 - [George 1998][research_george_1998]
-- [Gergely 1994][research_gergely_1994]
-- [German TANK Strengths 2014][research_german_tank_2014]
 - [Gerstenblith 2010][research_gerstenblith_2010]
 - [Gerstenblith 2010][research_gerstenblith_2010_2]
 - [Giberti 1999][research_giberti_1999]
 - [Gideon et al 2017][research_gideon_helppiemcfall_2017]
 - [Gilmartin 1983][research_gilmartin_1983]
-- [Gilmore et al 2018][research_gilmore_gobel_2018]
 - [Ginther and Heggeness 2020][research_ginther_heggeness_2020]
 - [Giovannoni 2004][research_giovannoni_2004]
 - [Giraut and Houssay-Holzschuch 2022][research_giraut_houssayholzschuch_2022]
@@ -1417,10 +1344,7 @@ $$
 - [Goddard 2021][research_goddard_2021]
 - [Goetzmann 1977][research_goetzmann_1977]
 - [Gofen et al 2019][research_gofen_sella_2019]
-- [Goffin and Ansari 2016][research_goffin_ansari_2016]
-- [Gohberg 1981][research_gohberg_1981]
 - [Gold 2008][research_gold_2008]
-- [Gold and Warsaw 1980][research_gold_warsaw_1980]
 - [Golodoniuc et al 2017][research_golodoniuc_car_2017]
 - [Golomidova 2017][research_golomidova_2017]
 - [Golovachev 2026][research_golovachev_2026]
@@ -1439,15 +1363,12 @@ $$
 - [Government Liability, Administrative Discretion 1959][research_government_liability_1959]
 - [Government Liability, Administrative Discretion 2023][research_government_liability_2023]
 - [Grady and Simon 2002][research_grady_simon_2002]
-- [Green 2020][research_green_2020]
 - [Greene 1977][research_greene_1977]
 - [Greening 1974][research_greening_1974]
 - [Grenz et al 2021][research_grenz_karsou_2021]
 - [Gu and Feng 2024][research_gu_feng_2024]
 - [Guarddin and Alwan 2021][research_guarddin_alwan_2021]
 - [Guidotti-Hernández 2011][research_guidottihernandez_2011]
-- [Guillaume et al 2020][research_guillaume_schiltz_2020]
-- [Guinnessy 2002][research_guinnessy_2002]
 - [Gunasti and Ozcan 2014][research_gunasti_ozcan_2014]
 - [Gunasti and Ozcan 2019][research_gunasti_ozcan_2019]
 - [Gunasti and Ozcan 2020][research_gunasti_ozcan_2020]
@@ -1457,9 +1378,7 @@ $$
 - [Guthrie 2023][research_guthrie_2023]
 - [Gyllenberg and Koski 1996][research_gyllenberg_koski_1996]
 - [Gyollai 2024][research_gyollai_2024]
-- [Gómez 2021][research_gomez_2021]
 - [Gómez-i-Aznar 2025][research_gomeziaznar_2025]
-- [Ha 2020][research_ha_2020]
 - [Haak 2014][research_haak_2014]
 - [Hahm 2021][research_hahm_2021]
 - [Hahm 2022][research_hahm_2022]
@@ -1469,10 +1388,8 @@ $$
 - [Hamilton 2002][research_hamilton_2002]
 - [Han and Lee 2026][research_han_lee_2026]
 - [Hanafi 2024][research_hanafi_2024]
-- [Haneda and Hanaizumi 2012][research_haneda_hanaizumi_2012]
 - [Hanna and Hodder 2015][research_hanna_hodder_2015]
 - [Happaerts 2012][research_happaerts_2012]
-- [Harada 2011][research_harada_2011]
 - [Hardisty et al 2021][research_hardisty_addink_2021]
 - [Hardisty et al 2021][research_hardisty_addink_2021_2]
 - [Hardisty et al 2021][research_hardisty_addink_2021_3]
@@ -1483,7 +1400,6 @@ $$
 - [Hardisty et al 2021][research_hardisty_addink_2021_8]
 - [Hardisty et al 2021][research_hardisty_addink_2021_9]
 - [Hare][research_hare]
-- [Harkavyi 2019][research_harkavyi_2019]
 - [Harken 1976][research_harken_1976]
 - [Harley A Thronson Jr and Edwin F Erickson 1984][research_harleyathronsonjr_edwinferickson_1984]
 - [Harrison][research_harrison]
@@ -1501,7 +1417,6 @@ $$
 - [Haucap 2002][research_haucap_2002]
 - [Haucap 2003][research_haucap_2003]
 - [Havryliuk 2019][research_havryliuk_2019]
-- [Hawes et al 2019][research_hawes_sokolowski_2019]
 - [Hayes 2008][research_hayes_2008]
 - [Health informatics. Health cards][research_health_informatics]
 - [Heath-Kelly 2019][research_heathkelly_2019]
@@ -1511,11 +1426,9 @@ $$
 - [Hendricks 2017][research_hendricks_2017]
 - [Hendricks and Bilder 2017][research_hendricks_bilder_2017]
 - [Heninger, 1972][research_heninger_1972]
-- [Hensley 1987][research_hensley_1987]
 - [Herb 2021][research_herb_2021]
 - [Herb 2022][research_herb_2022]
 - [Herbert 1997][research_herbert_1997]
-- [Hering 2000][research_hering_2000]
 - [Hernández Gutierrez et al 2025][research_hernandezgutierrez_aguilar_2025]
 - [Hessel 1986][research_hessel_1986]
 - [Hewlett 2016][research_hewlett_2016]
@@ -1528,7 +1441,6 @@ $$
 - [Hill and Varone 2021][research_hill_varone_2021]
 - [Hisseine et al 2022][research_hisseine_chen_2022]
 - [Historical Linkage and Political 2011][research_historical_linkage_2011]
-- [History of the American 1953][research_history_of_1953]
 - [History, Commemoration and National 2007][research_history_commemoration_2007]
 - [Ho][research_ho]
 - [Hobsbawm 2012][research_hobsbawm_2012]
@@ -1536,7 +1448,6 @@ $$
 - [Hoek et al 1998][research_hoek_carzaniga_1998]
 - [Hoek et al 1998][research_hoek_heimbigner_1998]
 - [Hoek et al 1998][research_hoek_heimbigner_1998_2]
-- [Hoffert 1988][research_hoffert_1988]
 - [Hoffman 2010][research_hoffman_2010]
 - [Holistic-medical foundations of American 1981][research_holistic_medical_foundations_1981]
 - [Holmberg and Nord 1984][research_holmberg_nord_1984]
@@ -1554,18 +1465,14 @@ $$
 - [Housley 2014][research_housley_2014_2]
 - [Housley 2021][research_housley_2021]
 - [How Configuration Identification Works 2004][research_how_configuration_2004]
-- [How to Round Numbers 1986][research_how_to_1986]
 - [Howard-Hassmann 2007][research_howardhassmann_2007]
-- [Hrebeniuk 2010][research_hrebeniuk_2010]
 - [Hsia-Ling Chiang et al 2008][research_hsialingchiang_yehshuming_2008]
 - [Hsu and Edmunds 2026][research_hsu_edmunds_2026]
 - [Hu et al 2017][research_hu_lee_2017]
 - [Huang 2010][research_huang_2010]
-- [Huang 2018][research_huang_2018]
 - [Hubac 1983][research_hubac_1983]
 - [Hui 2017][research_hui_2017]
 - [human-rights-of-minorities-in-asiapacific-in-commemoration-of-the-41st-anniversary-of-the-universal-declaration-of-human-rights-mar-1990-127-pp][research_human_rights_of_minorities_in_asiapacific_in_commemoration_of_the_41st_anniversary_of_the_universal_declaration_of_human_rights_mar_1990_127_pp]
-- [Hung et al 2024][research_hung_tang_2024]
 - [Hunold and Peter 2004][research_hunold_peter_2004]
 - [Hunold and Peter 2008][research_hunold_peter_2008]
 - [Huntington 2025][research_huntington_2025]
@@ -1578,8 +1485,6 @@ $$
 - [Hupe and Keiser 2019][research_hupe_keiser_2019]
 - [Hupe et al 2015][research_hupe_hill_2015]
 - [Hupe et al 2015][research_hupe_hill_2015_2]
-- [Hurley et al 2018][research_hurley_oliver_2018]
-- [Hyde and Mou 2016][research_hyde_mou_2016]
 - [Hyder 2008][research_hyder_2008]
 - [Hydrospheric Sciences in America 1976][research_hydrospheric_sciences_1976]
 - [Høybye-Mortensen 2019][research_hoybyemortensen_2019]
@@ -1589,15 +1494,10 @@ $$
 - [Illuminating Engineering Nomenclature and 1922][research_illuminating_engineering_1922]
 - [Iman 2025][research_iman_2025]
 - [IMF Participation in the 2013][research_imf_participation_2013]
-- [In commemoration of 90th 2009][research_in_commemoration_of_2009]
 - [In commemoration of the 1973][research_in_commemoration_1973]
 - [In Commemoration of the 1979][research_in_commemoration_1979]
-- [In commemoration of the 2004][research_in_commemoration_of_2004]
-- [In commemoration of the 2013][research_in_commemoration_of_2013]
-- [In commemoration of the 2016][research_in_commemoration_of_2016]
 - [In Commemoration of the 2020][research_in_commemoration_2020]
 - [In Commemoration of the 2020][research_in_commemoration_2020_2]
-- [Incorrect Trial Registration Identifier 2007][research_incorrect_trial_2007]
 - [Infante Batiste 2024][research_infantebatiste_2024]
 - [Information and documentation. Digital][research_information_and]
 - [Information technology -- Procedures][research_information_technology]
@@ -1609,15 +1509,11 @@ $$
 - [Involuntary commemorations post-traumatic stress 2013][research_involuntary_commemorations_2013]
 - [IP Address Allocation 2010][research_ip_address_2010]
 - [IPv6 Address Allocation Management 1995][research_ipv6_address_1995]
-- [Iqbal et al 2017][research_iqbal_kenney_2017]
 - [Iskandar and Alwi 2021][research_iskandar_alwi_2021]
 - [Islam 2023][research_islam_2023]
 - [Islam et al 2022][research_islam_theocharides_2022]
-- [Ismawati 2017][research_ismawati_2017]
-- [Ivashkiv 2020][research_ivashkiv_2020]
 - [Izumi 2020][research_izumi_2020]
 - [Jacquin 2024][research_jacquin_2024]
-- [Jagielski and Węgrzyn 2025][research_jagielski_wegrzyn_2025]
 - [James 1964][research_james_1964]
 - [Jan and Wu 2000][research_jan_wu_2000]
 - [Janowitz 1996][research_janowitz_1996]
@@ -1640,7 +1536,6 @@ $$
 - [Johansen et al 2013][research_johansen_laberg_2013]
 - [Johnson 2025][research_johnson_2025]
 - [Johnson 2025][research_johnson_2025_2]
-- [Johnson and Reisa 2003][research_johnson_reisa_2003]
 - [Johnson et al 2007][research_johnson_johnson_2007]
 - [Johnson et al 2008][research_johnson_johnson_2008]
 - [Joint 1996 Annual Meeting 1995][research_joint_1996_1995]
@@ -1649,7 +1544,6 @@ $$
 - [Jones 2008][research_jones_2008]
 - [Jordan 1911][research_jordan_1911]
 - [Jordan 2025][research_jordan_2025]
-- [Jordan and Dyson 2016][research_jordan_dyson_2016]
 - [Jucevic 1978][research_jucevic_1978]
 - [Judaic Needlework. The Continuing][research_judaic_needlework]
 - [Judging the Progress of 2009][research_judging_the_2009]
@@ -1661,9 +1555,7 @@ $$
 - [Kachalkova and Ruth 2019][research_kachalkova_ruth_2019]
 - [Kafker 1991][research_kafker_1991]
 - [Kandler 2025][research_kandler_2025]
-- [Kang 2009][research_kang_2009]
 - [Kank 2016][research_kank_2016]
-- [Kapalka Richerme 2021][research_kapalkaricherme_2021]
 - [Kaplan 2018][research_kaplan_2018]
 - [Kapur 2019][research_kapur_2019]
 - [Kara et al 2014][research_kara_gunasti_2014]
@@ -1671,8 +1563,6 @@ $$
 - [Kaufmann 1995][research_kaufmann_1995]
 - [Keeping in Step The][research_keeping_in]
 - [Keevers 1966][research_keevers_1966]
-- [Keh 1978][research_keh_1978]
-- [Keh et al 1978][research_keh_russell_1978]
 - [Keith 1916][research_keith_1916]
 - [Kekez 2019][research_kekez_2019]
 - [Keller 2008][research_keller_2008]
@@ -1680,7 +1570,6 @@ $$
 - [Kelly 1999][research_kelly_1999]
 - [Kenaga 2018][research_kenaga_2018]
 - [Kenar 2025][research_kenar_2025]
-- [Kendrick 2015][research_kendrick_2015]
 - [Kennedy 2023][research_kennedy_2023]
 - [Kennell et al 2018][research_kennell_suligoj_2018]
 - [Kennickell 2016][research_kennickell_2016]
@@ -1688,9 +1577,7 @@ $$
 - [Kessy 2023][research_kessy_2023]
 - [Kettle et al 2014][research_kettle_delvecchio_2014]
 - [Khair and Shahan 2020][research_khair_shahan_2020]
-- [Khalfoune and Beghdad 2024][research_khalfoune_beghdad_2024]
 - [Khare 2009][research_khare_2009]
-- [Khrushcheva 2020][research_khrushcheva_2020]
 - [Kim 2025][research_kim_2025]
 - [Kim 2025][research_kim_2025_2]
 - [Kim 2026][research_kim_2026]
@@ -1717,13 +1604,8 @@ $$
 - [Korean War 50th Anniversary 2000][research_korean_war_2000]
 - [Korhonen 2019][research_korhonen_2019]
 - [Korhonen 2021][research_korhonen_2021]
-- [Kossowski et al 2024][research_kossowski_samolej_2024]
-- [Kotov 1967][research_kotov_1967]
 - [Koven 2019][research_koven_2019]
 - [Kraev 2023][research_kraev_2023]
-- [Krajcsi 2026][research_krajcsi_2026]
-- [Krajcsi et al 2017][research_krajcsi_lengyel_2017]
-- [Krajcsi et al 2018][research_krajcsi_lengyel_2018]
 - [Kramer 1996][research_kramer_1996]
 - [Kremer 2014][research_kremer_2014]
 - [Krumpelmann 1951][research_krumpelmann_1951]
@@ -1731,19 +1613,14 @@ $$
 - [Krzyżanowska 2024][research_krzyzanowska_2024]
 - [Kudtarkar 2026][research_kudtarkar_2026]
 - [Kuhlmann 2019][research_kuhlmann_2019]
-- [Kulenkampff et al 2023][research_kulenkampff_duraku_2023]
-- [Kumar and Shah 2026][research_kumar_shah_2026]
 - [Kurutz 1977][research_kurutz_1977]
 - [Kydland and Prescott 1977][research_kydland_prescott_1977]
 - [Kárníková 2026][research_karnikova_2026]
-- [Kärnä 2018][research_karna_2018]
-- [Kärnä 2018][research_karna_2018_2]
 - [Kögel 2008][research_kogel_2008]
 - [Kölmel and Eisenbiegler 2001][research_kolmel_eisenbiegler_2001]
 - [Kühn et al 2025][research_kuhn_radlick_2025]
 - [Kümmel 2018][research_kummel_2018]
 - [LaFave 1990][research_lafave_1990]
-- [Lafay et al 2019][research_lafay_stpierre_2019]
 - [Lagrotta 2026][research_lagrotta_2026]
 - [Lai][research_lai]
 - [Laibe 2011][research_laibe_2011]
@@ -1761,8 +1638,6 @@ $$
 - [Laqueur][research_laqueur]
 - [Larionova/Ларионова and Tsareva/Царёва 2021][research_larionova_tsareva_2021]
 - [Laski 1923][research_laski_1923]
-- [Lasmana and Amir 2020][research_lasmana_amir_2020]
-- [Lau et al 2019][research_lau_merkley_2019]
 - [Lau et al 2025][research_lau_kumaresan_2025]
 - [Launitz-Schurer and Siracusa 1976][research_launitzschurer_siracusa_1976]
 - [Lechniak, Jason A. and Melton, John E. 2017][research_lechniakjasona_meltonjohne_2017]
@@ -1787,10 +1662,8 @@ $$
 - [Lewis 1981][research_lewis_1981]
 - [Leys 1943][research_leys_1943]
 - [Li et al 2005][research_li_liu_2005]
-- [Li et al 2022][research_li_walls_2022]
 - [Li et al 2023][research_li_wu_2023]
 - [Liang et al 2026][research_liang_he_2026]
-- [License-plate-based driving restrictions Do 2022][research_license_plate_based_driving_2022]
 - [Lieberherr and Thomann 2019][research_lieberherr_thomann_2019]
 - [Light and Young 2017][research_light_young_2017]
 - [Lima 1983][research_lima_1983]
@@ -1798,12 +1671,8 @@ $$
 - [Lin and Chen 2018][research_lin_chen_2018]
 - [Lin and Chen 2022][research_lin_chen_2022]
 - [Lincoln 2023][research_lincoln_2023]
-- [Lindgren 1960][research_lindgren_1960]
-- [Lindskog and Simms 2021][research_lindskog_simms_2021]
-- [Lipatov 2020][research_lipatov_2020]
 - [Lipiński and Szabo 2022][research_lipinski_szabo_2022]
 - [Liu 2017][research_liu_2017]
-- [Liu and Luo 2010][research_liu_luo_2010]
 - [Liu et al 2013][research_liu_knox_2013]
 - [Llewellyn 1975][research_llewellyn_1975]
 - [Lloyd 2002][research_lloyd_2002]
@@ -1832,10 +1701,8 @@ $$
 - [Luo et al 2022][research_luo_xu_2022]
 - [Luparev 2026][research_luparev_2026]
 - [Lutsukh 2026][research_lutsukh_2026]
-- [Lyons and Beilock 2011][research_lyons_beilock_2011]
 - [Lyons-Amos and Stones 2017][research_lyonsamos_stones_2017]
 - [Lytvynovska and Olitskyi 2024][research_lytvynovska_olitskyi_2024]
-- [M. 2022][research_m_2022]
 - [M. Hendershot and Marsh 2024][research_mhendershot_marsh_2024]
 - [Maasing 2024][research_maasing_2024]
 - [MacDonald and Franko 2007][research_macdonald_franko_2007]
@@ -1849,14 +1716,10 @@ $$
 - [Mainz et al 2019][research_mainz_hess_2019]
 - [Majumdar and Marcus 2001][research_majumdar_marcus_2001]
 - [Mak][research_mak]
-- [Makowski and Sinha 1976][research_makowski_sinha_1976]
 - [Malcomson 2009][research_malcomson_2009]
 - [Malik 2021][research_malik_2021]
-- [Mallikarachchi and Dharmaratne 2014][research_mallikarachchi_dharmaratne_2014]
 - [Malone 2022][research_malone_2022]
-- [Malyk 2022][research_malyk_2022]
 - [Mamet 2020][research_mamet_2020]
-- [Mamman et al 2019][research_mamman_hanapi_2019]
 - [Mamvura 2020][research_mamvura_2020]
 - [Mamvura 2020][research_mamvura_2020_2]
 - [Mamvura 2021][research_mamvura_2021]
@@ -1865,7 +1728,6 @@ $$
 - [Mandal and Mandal 2024][research_mandal_mandal_2024]
 - [Mangahis 2021][research_mangahis_2021]
 - [Mangena 2018][research_mangena_2018]
-- [Mangina 1994][research_mangina_1994]
 - [Mangombe et al 2025][research_mangombe_lwanga_2025]
 - [Maniquis 1989][research_maniquis_1989]
 - [Mann 2021][research_mann_2021]
@@ -1896,7 +1758,6 @@ $$
 - [McAuley 2018][research_mcauley_2018]
 - [McAuliffe et al 2022][research_mcauliffe_sharp_2022]
 - [McCutcheon 1981][research_mccutcheon_1981]
-- [McEWEN 1946][research_mcewen_1946]
 - [McHarg 2017][research_mcharg_2017]
 - [McHugh 2016][research_mchugh_2016]
 - [McKeachie 1976][research_mckeachie_1976]
@@ -1924,32 +1785,23 @@ $$
 - [Merrill 2017][research_merrill_2017]
 - [Methodological issues in street-level 2019][research_methodological_issues_2019]
 - [Meza et al 2024][research_meza_perezchiques_2024]
-- [Michele Bossi, Pasquale Tucci 1991][research_michele_bossi_1991]
 - [Middleton and Wigginton 2026][research_middleton_wigginton_2026]
-- [Mielicki et al 2024][research_mielicki_mbarki_2024]
 - [Migliore and Pound 2016][research_migliore_pound_2016]
-- [Mikirtichan 2012][research_mikirtichan_2012]
 - [Military Identity in Nigeria 2015][research_military_identity_2015]
 - [Military Identity Old Ammo 1999][research_military_identity_1999]
 - [Military Identity Project 2020][research_military_identity_2020]
-- [Miller 1989][research_miller_1989]
 - [Miller and Anderson 2002][research_miller_anderson_2002]
 - [Miller and Goldblum 2006][research_miller_goldblum_2006]
 - [Miller et al 2024][research_miller_sharma_2024]
 - [Miller, Jay and Jenkins, Dennis R. 2000][research_millerjay_jenkinsdennisr_2000]
 - [Milne and Chan 2019][research_milne_chan_2019]
-- [Miniati 1989][research_miniati_1989]
 - [Minihan et al 2023][research_minihan_robinson_2023]
-- [Mining and minerals policy 1976][research_mining_and_1976]
 - [Minow 2007][research_minow_2007]
 - [Mission Number Thirteen 2014][research_mission_number_2014]
 - [Missouri Univ-Rolla 1988][research_missouriunivrolla_1988]
 - [Mitchell and Alderman 2014][research_mitchell_alderman_2014]
 - [Moazzen 2016][research_moazzen_2016]
 - [Moazzen 2018][research_moazzen_2018]
-- [Model name and version 2017][research_model_name_2017]
-- [Model name and version 2018][research_model_name_2018]
-- [Model name and version 2019][research_model_name_2019]
 - [Modern Military Identity 2009][research_modern_military_2009]
 - [Moliner and Bovina 2023][research_moliner_bovina_2023]
 - [Molloy 2019][research_molloy_2019]
@@ -1961,11 +1813,8 @@ $$
 - [Morford 1876][research_morford_1876]
 - [Morris 1977][research_morris_1977]
 - [Morse][research_morse]
-- [Moshayedi et al 2024][research_moshayedi_yu_2024]
 - [Moulton 2021][research_moulton_2021]
 - [Mountford 2019][research_mountford_2019]
-- [Mullen 1984][research_mullen_1984]
-- [Munar et al 2014][research_munar_gomezpuerto_2014]
 - [Munir 2024][research_munir_2024]
 - [Munnik 2023][research_munnik_2023]
 - [Murdoch 2002][research_murdoch_2002]
@@ -1984,7 +1833,6 @@ $$
 - [M�ller and Peroni 1968][research_mller_peroni_1968]
 - [Nagi et al 1973][research_nagi_stockwell_1973]
 - [Nalubolu 2026][research_nalubolu_2026]
-- [Names, Naming, Diversity, and 2026][research_names_naming_2026]
 - [Naming China-political art as 2014][research_naming_china_political_2014]
 - [Naming the New Warships 1899][research_naming_the_1899]
 - [Naming, identity, and the 2009][research_naming_identity_2009]
@@ -1997,10 +1845,8 @@ $$
 - [National Commemoration after the][research_national_commemoration]
 - [National Identity and Its 2017][research_national_identity_2017]
 - [National narratives, war commemoration 2013][research_national_narratives_2013]
-- [National Registration Authority rechristened 2003][research_national_registration_2003]
 - [National Symbols and Commemorations 2018][research_national_symbols_2018]
 - [Nationality, Memory and Commemoration 2014][research_nationality_memory_2014]
-- [Navickienė 2019][research_navickiene_2019]
 - [Nayar 2020][research_nayar_2020]
 - [Ndlovu 2017][research_ndlovu_2017]
 - [Ndlovu and Erasmus 2026][research_ndlovu_erasmus_2026]
@@ -2011,7 +1857,6 @@ $$
 - [Ngai 2002][research_ngai_2002]
 - [Ngoaketsi 2023][research_ngoaketsi_2023]
 - [Nguyen et al 2022][research_nguyen_hofman_2022]
-- [Nichols 2019][research_nichols_2019]
 - [Nick 2021][research_nick_2021]
 - [Nick 2023][research_nick_2023]
 - [Nietert et al 2006][research_nietert_wessell_2006]
@@ -2024,10 +1869,7 @@ $$
 - [Nomenclature for glass bulb][research_nomenclature_for]
 - [Nomenclature in Electrical Engineering 1938][research_nomenclature_in_1938]
 - [Nora 1989][research_nora_1989]
-- [Norris et al 2015][research_norris_mcgeown_2015]
 - [Norton 1877][research_norton_1877]
-- [Nosseir and Roshdy 2018][research_nosseir_roshdy_2018]
-- [Novianto 2020][research_novianto_2020]
 - [Nuessel 1982][research_nuessel_1982]
 - [Number Preference Model 2014][research_number_preference_2014]
 - [Number Symbolism][research_number_symbolism]
@@ -2064,16 +1906,13 @@ $$
 - [Ohemeng 2013][research_ohemeng_2013]
 - [Oktaviana and Junawaroh 2023][research_oktaviana_junawaroh_2023]
 - [Oliver 2012][research_oliver_2012]
-- [Ooe et al 2025][research_ooe_fujita_2025]
 - [Opdebeeck et al 2020][research_opdebeeck_zerouali_2020]
 - [Opdebeeck et al 2021][research_opdebeeck_zerouali_2021]
 - [Oppelland 2012][research_oppelland_2012]
 - [Orel 2014][research_orel_2014]
-- [Orentreich 1995][research_orentreich_1995]
 - [Ormerod 1994][research_ormerod_1994]
 - [Osiander and Steinke][research_osiander_steinke]
 - [Osiander and Steinke 2015][research_osiander_steinke_2015]
-- [Otsuki and Katoh 2014][research_otsuki_katoh_2014]
 - [Overton et al 2019][research_overton_cuffaro_2019]
 - [Owango et al 2024][research_owango_wyborn_2024]
 - [Owen 1968][research_owen_1968]
@@ -2104,27 +1943,21 @@ $$
 - [Pardeshi 2010][research_pardeshi_2010]
 - [Parinandi 2012][research_parinandi_2012]
 - [Parinandi 2013][research_parinandi_2013]
-- [Parish 1976][research_parish_1976]
 - [Park 2017][research_park_2017]
 - [Park and Roy 2026][research_park_roy_2026]
 - [Park et al 2024][research_park_sin_2024]
 - [Parsons and Fox 2018][research_parsons_fox_2018]
-- [Particle Swarm Optimization-Based Hazardous 2026][research_particle_swarm_2026]
 - [Paschalidou 2021][research_paschalidou_2021]
 - [Paskin 1999][research_paskin_1999]
 - [Paul 2023][research_paul_2023]
 - [Pechsri][research_pechsri]
 - [Pegis 1939][research_pegis_1939]
 - [Peifer 2001][research_peifer_2001]
-- [Pekár et al 2023][research_pekar_hofmann_2023]
-- [Pelageya Yakovlevna Polubarinova-Kochina in 2009][research_pelageya_yakovlevna_2009]
 - [Peleggi 2017][research_peleggi_2017]
 - [Pena-Marin and Bhargave 2015][research_penamarin_bhargave_2015]
 - [Penny 1897][research_penny_1897]
 - [Pentz 2017][research_pentz_2017]
-- [Perangin Angin and Sitorus 2020][research_peranginangin_sitorus_2020]
 - [Perera 2023][research_perera_2023]
-- [Perkins 1903][research_perkins_1903]
 - [Peter 1967][research_peter_1967]
 - [Peter Wittenburg][research_peterwittenburg]
 - [Peteshova 2026][research_peteshova_2026]
@@ -2140,18 +1973,13 @@ $$
 - [Piligian et al 1968][research_piligian_bashaw_1968]
 - [Pilowsky et al 1969][research_pilowsky_levine_1969]
 - [Pinckney et al 2023][research_pinckney_cassano_2023]
-- [Pinkus 1954][research_pinkus_1954]
 - [Piotrowicz et al 2025][research_piotrowicz_czesak_2025]
 - [Pitman 2002][research_pitman_2002]
-- [Please include the model 2017][research_please_include_2017]
 - [plebiscite-on-new-chilean-constitution-a-sad-but-appropriate-commemoration-of-seven-years-of-military-rule-sept-11-1980-2-pp][research_plebiscite_on_new_chilean_constitution_a_sad_but_appropriate_commemoration_of_seven_years_of_military_rule_sept_11_1980_2_pp]
 - [Plomp 2020][research_plomp_2020]
 - [Plumb et al 2016][research_plumb_nickerson_2016]
 - [Poelen and Van Oers 2026][research_poelen_vanoers_2026]
 - [Politics in the Pantheon 2022][research_politics_in_2022]
-- [Polk et al 2001][research_polk_reed_2001]
-- [Pollack et al 2022][research_pollack_wilkey_2022]
-- [Pomerance 1985][research_pomerance_1985]
 - [Pope and Simonsohn 2010][research_pope_simonsohn_2010]
 - [Pope and Simonsohn 2010][research_pope_simonsohn_2010_2]
 - [Post 2016][research_post_2016]
@@ -2177,7 +2005,6 @@ $$
 - [Quantick 2001][research_quantick_2001]
 - [Quesne 1969][research_quesne_1969]
 - [Quirk 1988][research_quirk_1988]
-- [Quiros et al 2017][research_quiros_bedruz_2017]
 - [R. Leys 2018][research_rleys_2018]
 - [Raaphorst and Groeneveld 2019][research_raaphorst_groeneveld_2019]
 - [Rabin 2013][research_rabin_2013]
@@ -2185,18 +2012,11 @@ $$
 - [Raemaekers et al 2014][research_raemaekers_vandeursen_2014]
 - [Raemaekers et al 2017][research_raemaekers_vandeursen_2017]
 - [Railway applications. Designation system][research_railway_applications]
-- [Ramos et al 2017][research_ramos_cantillo_2017]
 - [Ramsey 2016][research_ramsey_2016]
 - [Ramutsindela 2025][research_ramutsindela_2025]
 - [Ramón 2024][research_ramon_2024]
-- [Rand 1875][research_rand_1875]
-- [Rao et al 2014][research_rao_chen_2014]
-- [Raths 2011][research_raths_2011]
-- [Raths 2012][research_raths_2012]
-- [Raths 2013][research_raths_2013]
 - [Ray Castner][research_raycastner]
 - [Raymond Castner][research_raymondcastner]
-- [RE Model name and 2016][research_re_model_2016]
 - [Recycled carbon fibres �][research_recycled_carbon]
 - [Redfield 1992][research_redfield_1992]
 - [Rees and Murray 2004][research_rees_murray_2004]
@@ -2205,11 +2025,9 @@ $$
 - [Registration Authority][research_registration_authority]
 - [Registration Authority 2020][research_registration_authority_2020]
 - [Registry Nomenclature Information System 2020][research_registry_nomenclature_2020]
-- [Reike and Schwarz 2019][research_reike_schwarz_2019]
 - [Rek-Woźniak 2011][research_rekwozniak_2011]
 - [Rekhter and Li 1993][research_rekhter_li_1993]
 - [Renaming Cities in the 2024][research_renaming_cities_in_2024]
-- [Renaming the Streets 1986][research_renaming_the_1986]
 - [Renan Barzilay et al 2025][research_renanbarzilay_benjamin_2025]
 - [Rendle and Lively 2017][research_rendle_lively_2017]
 - [Renedo and Sobrino 2007][research_renedo_sobrino_2007]
@@ -2222,7 +2040,6 @@ $$
 - [Revolution and Commemoration －the 2014][research_revolution_and_commemoration_2014]
 - [Reyes 2026][research_reyes_2026]
 - [Reyes-Lillo et al 2025][research_reyeslillo_rovira_2025]
-- [Reynvoet et al 2016][research_reynvoet_smets_2016]
 - [Rezende 2016][research_rezende_2016]
 - [Rhedecynian 1938][research_rhedecynian_1938]
 - [Rhyder 2023][research_rhyder_2023]
@@ -2250,7 +2067,6 @@ $$
 - [Rose-Redwood et al 2009][research_roseredwood_alderman_2009]
 - [Rosen and Spaenjers 2024][research_rosen_spaenjers_2024]
 - [Rouleau 2018][research_rouleau_2018]
-- [Rousselle and Noël 2007][research_rousselle_noel_2007]
 - [Rowe 2024][research_rowe_2024]
 - [Rowe 2024][research_rowe_2024_2]
 - [Rowe 2024][research_rowe_2024_3]
@@ -2263,8 +2079,6 @@ $$
 - [Ruggles and Brodie 1947][research_ruggles_brodie_1947]
 - [Rulemaking and Bureaucratic Discretion 1985][research_rulemaking_and_1985]
 - [Russell 1983][research_russell_1983]
-- [Russia ponders response to 2023][research_russia_ponders_2023]
-- [Russo 2018][research_russo_2018]
 - [Ryan 2023][research_ryan_2023]
 - [Ryan 2023][research_ryan_2023_2]
 - [Rydell 2003][research_rydell_2003]
@@ -2277,10 +2091,8 @@ $$
 - [Rzepa 2020][research_rzepa_2020_3]
 - [Rzepa 2023][research_rzepa_2023]
 - [Rzepa 2023][research_rzepa_2023_2]
-- [Río Fernández and Sarriá Gandul 2007][research_riofernandez_sarriagandul_2007]
 - [Różycki 2017][research_rozycki_2017]
 - [Rönnbäck et al 2024][research_ronnback_galli_2024]
-- [S. et al 1965][research_s_stein_1965]
 - [Saito][research_saito]
 - [Sakaguchi et al 2020][research_sakaguchi_gathergood_2020]
 - [Salah and Alnoor 2026][research_salah_alnoor_2026]
@@ -2288,8 +2100,6 @@ $$
 - [Salsburg 1997][research_salsburg_1997]
 - [Samuel O 2018][research_samuelo_2018]
 - [Sanabria-Pulido and Langbein 2025][research_sanabriapulido_langbein_2025]
-- [Sasanguie et al 2017][research_sasanguie_lyons_2017]
-- [Savvides 1969][research_savvides_1969]
 - [Scates 2026][research_scates_2026]
 - [Scates and Yu 2023][research_scates_yu_2023]
 - [Schaefer 1979][research_schaefer_1979]
@@ -2313,7 +2123,6 @@ $$
 - [Schuppan 2015][research_schuppan_2015]
 - [Schwartz 1982][research_schwartz_1982]
 - [Schwartz 2008][research_schwartz_2008]
-- [Scope of the "Tsukuba 2002][research_scope_of_2002]
 - [Scott 1991][research_scott_1991]
 - [Scourfield 2013][research_scourfield_2013]
 - [Searle 1977][research_searle_1977]
@@ -2321,7 +2130,6 @@ $$
 - [Seidenfeld 1998][research_seidenfeld_1998]
 - [Seits 2021][research_seits_2021]
 - [Selin 2017][research_selin_2017]
-- [Sendjasni and Larabi 2025][research_sendjasni_larabi_2025]
 - [Seraphim 2006][research_seraphim_2006]
 - [Serbout and Pautasso 2024][research_serbout_pautasso_2024]
 - [Serial Number Production Identifier 2020][research_serial_number_2020]
@@ -2333,7 +2141,6 @@ $$
 - [Sharma and Sharma 2012][research_sharma_sharma_2012]
 - [Shima 2025][research_shima_2025]
 - [Shinn et al 1876][research_shinn_smith_1876]
-- [Shinomiya et al 2013][research_shinomiya_takamura_2013]
 - [Shivan 2022][research_shivan_2022]
 - [Shnit 1979][research_shnit_1979]
 - [Shorer and Mahat-Shamir 2026][research_shorer_mahatshamir_2026]
@@ -2352,7 +2159,6 @@ $$
 - [Simpson 1964][research_simpson_1964]
 - [Singh et al 2002][research_singh_singh_2002]
 - [Singh et al 2021][research_singh_kashyap_2021]
-- [singh et al 2022][research_singh_maheshwari_2022]
 - [Slaveva-Griffin 2014][research_slavevagriffin_2014]
 - [Slee 2023][research_slee_2023]
 - [Sligh et al 2002][research_sligh_wong_2002]
@@ -2360,7 +2166,6 @@ $$
 - [Smith 2017][research_smith_2017]
 - [Smith and Wandelt 1991][research_smith_wandelt_1991]
 - [Sneath 1985][research_sneath_1985]
-- [Snitkuvienė 2009][research_snitkuviene_2009]
 - [Social Memory and Commemoration 2005][research_social_memory_2005]
 - [Social memory, commemoration and 2004][research_social_memory_2004]
 - [Social Services-Street-Level Bureaucracies? 2016][research_social_services_street_level_2016]
@@ -2373,21 +2178,16 @@ $$
 - [Souvenir from the Centennial 2022][research_souvenir_from_2022]
 - [Soyer and Tunca 2025][research_soyer_tunca_2025]
 - [Spanou 2020][research_spanou_2020]
-- [Special Section on Recent 2025][research_special_section_2025]
 - [Spillman 1997][research_spillman_1997]
 - [Spitzer 2025][research_spitzer_2025]
 - [Spriet and Dupin-Spriet 1997][research_spriet_dupinspriet_1997]
 - [Starchenko 2023][research_starchenko_2023]
 - [Stark 1981][research_stark_1981]
-- [Starr et al 2017][research_starr_dewind_2017]
 - [Statement by the Prime 2017][research_statement_by_2017]
-- [Steeves 2022][research_steeves_2022]
-- [Stein 2001][research_stein_2001]
 - [Stensöta 2019][research_stensota_2019]
 - [Stephens 2013][research_stephens_2013]
 - [Sterk, Steve et al 2016][research_sterksteve_ogluinanthony_2016]
 - [Sterk, Steve et al 2018][research_sterksteve_alexanderolivia_2018]
-- [Stern and Ladany 1994][research_stern_ladany_1994]
 - [Steven R Hirshorn et al 2024][research_stevenrhirshorn_tiffanylsmith_2024]
 - [Stibbe et al 2022][research_stibbe_sharp_2022]
 - [Stockwell 1966][research_stockwell_1966]
@@ -2417,11 +2217,9 @@ $$
 - [Szot 2019][research_szot_2019]
 - [Szołtysek et al 2017][research_szoltysek_poniat_2017]
 - [Szuba 2023][research_szuba_2023]
-- [Szucs et al 2011][research_szucs_white_2011]
 - [Sériot 2017][research_seriot_2017]
 - [Tahereen 2026][research_tahereen_2026]
 - [Tang et al 2017][research_tang_yin_2017]
-- [Tannen 1993][research_tannen_1993]
 - [Tarpley 2006][research_tarpley_2006]
 - [Tarrant and Manfredo 1993][research_tarrant_manfredo_1993]
 - [Tate 1979][research_tate_1979]
@@ -2429,12 +2227,10 @@ $$
 - [Taylor 1982][research_taylor_1982]
 - [Technical product documentation. Reference][research_technical_product]
 - [Terrorism and the Politics 2013][research_terrorism_and_2013]
-- [The 75TH Anniversary Commemoration 1985][research_the_75th_1985]
 - [THE AESTHETICS OF RELATEDNESS 2022][research_the_aesthetics_2022]
 - [The American Revolution in][research_the_american]
 - [The American Society of 1876][research_the_american_1876]
 - [The Bicentennial Commemoration Imagining 2020][research_the_bicentennial_2020]
-- [The Bicentennial Commemoration of 1901][research_the_bicentennial_1901]
 - [The Carrez Law a 2007][research_the_carrez_2007]
 - [The Centennial Commissioners 1876][research_the_centennial_1876]
 - [The Centennial Exhibition 1876][research_the_centennial_1876_2]
@@ -2450,7 +2246,6 @@ $$
 - [The Colonial Politics of 2024][research_the_colonial_2024]
 - [The Commemoration Industry and 2017][research_the_commemoration_2017]
 - [The Dilemma of Administrative 1985][research_the_dilemma_1985]
-- [The Discovery of X 1945][research_the_discovery_1945]
 - [The educational selectivity effects][research_the_educational]
 - [The Effect of E-Government 2020][research_the_effect_2020]
 - [The Entangled Politics of][research_the_entangled]
@@ -2460,7 +2255,6 @@ $$
 - [The Law of Round 2019][research_the_law_2019]
 - [The Likely Number Thirteen 2012][research_the_likely_2012]
 - [The Likely Number Thirteen 2020][research_the_likely_2020]
-- [The National Academy of 2018][research_the_national_2018]
 - [The New York Botanical 1975][research_the_new_1975]
 - [The New York Botanical 1976][research_the_new_1976]
 - [The Philadelphia Centennial The 2020][research_the_philadelphia_2020]
@@ -2483,7 +2277,6 @@ $$
 - [Theocharous 2024][research_theocharous_2024_3]
 - [Theocharous 2024][research_theocharous_2024_4]
 - [Theocharous et al 2026][research_theocharous_panos_2026]
-- [Theodorakis and Constantopoulos][research_theodorakis_constantopoulos]
 - [Theoretical issues in street-level 2019][research_theoretical_issues_2019]
 - [Thies 2004][research_thies_2004]
 - [Thirteen is a Lucky 2005][research_thirteen_is_2005]
@@ -2521,7 +2314,6 @@ $$
 - [Tucker 1977][research_tucker_1977]
 - [Tummers and Bekkers 2013][research_tummers_bekkers_2013]
 - [Turai 2026][research_turai_2026]
-- [Two Divisions Celebrate Golden 1963][research_two_divisions_1963]
 - [Tyrała 2025][research_tyrala_2025]
 - [Ulysses S. Grant's Speech 2017][research_ulysses_s_2017]
 - [Umorin 2002][research_umorin_2002]
@@ -2529,7 +2321,6 @@ $$
 - [United States Bicentennial exhibition 1978][research_united_states_1978]
 - [Unlucky numbers Fighting murder 2023][research_unlucky_numbers_2023]
 - [Uslenghi 2016][research_uslenghi_2016]
-- [Utami et al 2021][research_utami_utaminingsih_2021]
 - [Uy 2017][research_uy_2017]
 - [Valentina Rozas-Krause 2018][research_valentinarozaskrause_2018]
 - [Valk 2026][research_valk_2026]
@@ -2541,14 +2332,10 @@ $$
 - [Vandkilde 2003][research_vandkilde_2003]
 - [Vasey 1876][research_vasey_1876]
 - [Vassallo 2014][research_vassallo_2014]
-- [Vdovenko and Gusev 2025][research_vdovenko_gusev_2025]
 - [Velázquez-López Velarde 2015][research_velazquezlopezvelarde_2015]
 - [Verma 2026][research_verma_2026]
 - [Version Number Text 2020][research_version_number_2020]
-- [Version number to be 2022][research_version_number_2022]
 - [Viala-Gaudefroy and Lindaman 2020][research_vialagaudefroy_lindaman_2020]
-- [Vilyaninov and Popova 2019][research_vilyaninov_popova_2019]
-- [Vinca 2019][research_vinca_2019]
 - [Vines 1989][research_vines_1989]
 - [Vion-Dury and Lagos 2016][research_viondury_lagos_2016]
 - [Vishal Surbun 2021][research_vishalsurbun_2021]
@@ -2556,9 +2343,6 @@ $$
 - [Vivant 2020][research_vivant_2020]
 - [Vivian 2007][research_vivian_2007]
 - [Vlossak 2014][research_vlossak_2014]
-- [Volobuiev and Fedin 2015][research_volobuiev_fedin_2015]
-- [Voytekhovsky 2024][research_voytekhovsky_2024]
-- [Voytekhovsky 2024][research_voytekhovsky_2024_2]
 - [Vredenburgh 2023][research_vredenburgh_2023]
 - [Vuolteenaho 2017][research_vuolteenaho_2017]
 - [Wagner and Foster 1990][research_wagner_foster_1990]
@@ -2568,7 +2352,6 @@ $$
 - [Wallace 1981][research_wallace_1981]
 - [Waller 2013][research_waller_2013]
 - [Wallnau 1992][research_wallnau_1992]
-- [Wang and Johannessen 2022][research_wang_johannessen_2022]
 - [Wang et al 2007][research_wang_dunn_2007]
 - [Wang et al 2008][research_wang_zhang_2008]
 - [Wang et al 2017][research_wang_car_2017]
@@ -2578,7 +2361,6 @@ $$
 - [Wannenwetsch][research_wannenwetsch]
 - [Wannenwetsch and Majchrzak 2016][research_wannenwetsch_majchrzak_2016]
 - [War commemoration in Western 2013][research_war_commemoration_2013]
-- [Waring and Penner-Wilger 2017][research_waring_pennerwilger_2017]
 - [Warman 2013][research_warman_2013]
 - [Wars Afterwards The Repression][research_wars_afterwards]
 - [Watson 2014][research_watson_2014]
@@ -2598,16 +2380,13 @@ $$
 - [Weiss 1997][research_weiss_1997]
 - [Welding and allied processes][research_welding_and]
 - [Wells 1981][research_wells_1981]
-- [Wen et al 2002][research_wen_yu_2002]
 - [West 2016][research_west_2016]
 - [West 2016][research_west_2016_2]
 - [West 2025][research_west_2025]
-- [Westaway 2018][research_westaway_2018]
 - [Westcott 1876][research_westcott_1876]
 - [Westjohn et al 2016][research_westjohn_roschk_2016]
 - [Westjohn et al 2017][research_westjohn_roschk_2017]
 - [White 2007][research_white_2007]
-- [White 2015][research_white_2015]
 - [Wicks 1975][research_wicks_1975]
 - [Wicks and Stockwell 1975][research_wicks_stockwell_1975]
 - [Wideman and Masuda 2017][research_wideman_masuda_2017]
@@ -2634,7 +2413,6 @@ $$
 - [Wolfe 1979][research_wolfe_1979]
 - [Wolffe 2014][research_wolffe_2014]
 - [Women and War Commemoration 2020][research_women_and_2020]
-- [Wong and Odic 2021][research_wong_odic_2021]
 - [Woo et al 2008][research_woo_horowitz_2008]
 - [Wood][research_wood]
 - [Woods 2009][research_woods_2009]
@@ -2643,15 +2421,11 @@ $$
 - [Wu and Sun 2017][research_wu_sun_2017]
 - [xheritye 2026][research_xheritye_2026]
 - [XIII. In the Mainstream 1966][research_xiii_in_1966]
-- [Xu and Ji 2021][research_xu_ji_2021]
 - [Xu et al 2026][research_xu_hong_2026]
-- [Yakovlev 1961][research_yakovlev_1961]
 - [Yang][research_yang]
 - [Yang 1984][research_yang_1984]
-- [Yang et al 2025][research_yang_zhao_2025]
 - [Yankson 2023][research_yankson_2023]
 - [Yanni 2003][research_yanni_2003]
-- [Yanovsky and Smith 2019][research_yanovsky_smith_2019]
 - [Yao 2025][research_yao_2025]
 - [Yazdanparast et al 2012][research_yazdanparast_pourhoseingholi_2012]
 - [Yeoh 2017][research_yeoh_2017]
@@ -2667,9 +2441,7 @@ $$
 - [Zelnik 1961][research_zelnik_1961]
 - [Zerubavel 2014][research_zerubavel_2014]
 - [Zhang 2016][research_zhang_2016]
-- [Zhang and Shi 2014][research_zhang_shi_2014]
 - [Zhang et al 2022][research_zhang_liu_2022]
-- [Zheng 2016][research_zheng_2016]
 - [Ziedorn 2020][research_ziedorn_2020]
 - [Ziegler and Crettaz 2022][research_ziegler_crettaz_2022]
 - [Zulfugarova et al 2025][research_zulfugarova_ayuksel_2025]
@@ -2681,32 +2453,22 @@ $$
 - [Üngör 2014][research_ungor_2014]
 - [Ćwiek-Rogalska 2020][research_cwiekrogalska_2020]
 - [Šveikauskienė 2023][research_sveikauskiene_2023]
-- [‮מאה שנים של ספרים][research_anon]
 
-[research_125th_anniversary_1984]: https://doi.org/10.14219/jada.archive.1984.0380
 [research_150th_anniversary_1975]: https://doi.org/10.3828/bj.1975.5
-[research_a_2019]: https://doi.org/10.26782/jmcms.2019.06.00034
 [research_a_bilateral]: https://doi.org/10.1163/2468-1733_shafr_sim040140491
 [research_a_british_2013]: https://doi.org/10.5040/9780755623778.ch-005
-[research_a_c_1955]: https://doi.org/10.1017/s1373971900069717
-[research_a_centennial_1984]: https://doi.org/10.1111/j.1532-950x.1984.tb00761.x
 [research_a_continental_2018]: https://doi.org/10.3138/9781442621558-013
 [research_a_dante_1967]: https://doi.org/10.2307/2856140
-[research_a_history_1952]: https://doi.org/10.1001/jama.1952.03680100098047
 [research_abdalkareem_2022]: https://doi.org/10.2139/ssrn.4082606
 [research_abdalkareem_chowdhury_2023]: https://doi.org/10.21203/rs.3.rs-3369458/v1
 [research_abdallah_jerez_2008]: https://doi.org/10.1201/9781420066043.ch10
-[research_abdulkareem_abdulmohsin_2025]: https://doi.org/10.70470/edraak/2025/014
-[research_abedrabbo_2004]: https://doi.org/10.1063/1.1766686
 [research_abedraporosen_hartleybelmar_2025]: https://doi.org/10.31219/osf.io/9h564_v3
 [research_abend_1977]: https://doi.org/10.1093/milmed/142.7.556
 [research_aboriginal_place_2004]: https://doi.org/10.4095/327547
-[research_academy_of_1945]: https://doi.org/10.1038/155691b0
 [research_acosta_braun_2021]: https://doi.org/10.1093/sf/soab050
 [research_acts_of_2023]: https://doi.org/10.1515/9781474484220-007
 [research_adam_1980]: https://doi.org/10.1111/j.1468-0033.1980.tb01911.x
 [research_adamczyk_rosnerleszczynski_2025]: https://doi.org/10.11649/sn.3580
-[research_adeogun_2023]: https://doi.org/10.55668/igpf6697
 [research_administrative_discretion_1969]: https://doi.org/10.2307/1339401
 [research_administrative_discretion_1999]: https://doi.org/10.3138/9781442602601-021
 [research_administrative_discretion_2009]: https://doi.org/10.4135/9781412972024.n52
@@ -2721,16 +2483,12 @@ $$
 [research_ahearn_baten_2009]: https://doi.org/10.1017/s0022050709001120
 [research_ahearn_delfino_2021]: https://doi.org/10.1111/ehr.13087
 [research_ahearn_delfino_2022]: https://doi.org/10.1111/ehr.13140
-[research_ahmadyfard_abolghasemi_2008]: https://doi.org/10.1109/istel.2008.4651410
 [research_ahuja_2025]: https://doi.org/10.2139/ssrn.5651552
 [research_aircraft_propulsion]: https://doi.org/10.4271/as6502
 [research_aircraft_propulsion_2]: https://doi.org/10.4271/as755g
 [research_aircraft_propulsion_3]: https://doi.org/10.4271/as755d
-[research_aires_catarino_2019]: https://doi.org/10.21125/iceri.2019.1089
 [research_ajibode_bangash_2025]: https://doi.org/10.1007/s10664-025-10631-3
 [research_akella_2024]: https://doi.org/10.4324/9781003426806-5
-[research_akhmanova_severin_2004]: https://doi.org/10.1016/j.devcel.2004.06.011
-[research_albitskii_sher_2012]: https://doi.org/10.15690/vsp.v11i6.509
 [research_alderman_2000]: https://doi.org/10.1111/0033-0124.00256
 [research_alderman_2000_2]: https://doi.org/10.1080/00330124.2000.9628411
 [research_alderman_2003]: https://doi.org/10.1111/1475-4762.00250
@@ -2739,7 +2497,6 @@ $$
 [research_alderman_inwood_2013]: https://doi.org/10.1080/14649365.2012.754488
 [research_alderman_inwood_2017]: https://doi.org/10.4324/9781315554464-15
 [research_alexander_richmond_2007]: https://doi.org/10.1177/0275074006287919
-[research_alhaboubi_1999]: https://doi.org/10.1016/s0003-6870(98)00051-9
 [research_alia_2007]: https://doi.org/10.1179/nam.2007.55.4.457
 [research_allums_2018]: https://doi.org/10.18737/atls20180130
 [research_alnashmi_2024]: https://doi.org/10.1177/14648849241272147
@@ -2761,11 +2518,8 @@ $$
 [research_anger_and_2014]: https://doi.org/10.4324/9781315831855-11
 [research_annabell_2023]: https://doi.org/10.1515/9781805391081-012
 [research_anniversaries_ceremonies_2023]: https://doi.org/10.30546/2702-0034.2023.2.25.122
-[research_announcement_of_2003]: https://doi.org/10.1111/j.1600-0765.2003.v38_i3_announce.x
-[research_anon]: https://doi.org/10.1163/9789004444522_coco_cc1198
 [research_anthonylee_stevenmiller_2023]: https://doi.org/10.46787/pump.v6i0.3547
 [research_antonelli_2014]: https://doi.org/10.2139/ssrn.2407429
-[research_aoki_2022]: https://doi.org/10.2463/mrms.con.2021-1000
 [research_appendix_1_2019]: https://doi.org/10.1515/9783110640281-013
 [research_appendix_2_2022]: https://doi.org/10.5876/9781646422289.c016
 [research_appendix_a_1997]: https://doi.org/10.2514/5.9781600861529.0297.0308
@@ -2773,7 +2527,6 @@ $$
 [research_arnason_2018]: https://doi.org/10.14712/23363525.2018.35
 [research_arndt_1985]: https://doi.org/10.17161/ygas.v20i.19361
 [research_arrington_2014]: https://doi.org/10.1093/acprof:oso/9780199369072.003.0004
-[research_arshad_prasanthi_2023]: https://doi.org/10.22214/ijraset.2023.49682
 [research_arvay_foote_2019]: https://doi.org/10.4324/9780815354260-16
 [research_aryani_2017]: https://doi.org/10.59350/kzpfj-gjn24
 [research_asif_karim_2014]: https://doi.org/10.1007/978-3-642-55032-4_12
@@ -2800,7 +2553,6 @@ $$
 [research_balla_2014]: https://doi.org/10.1111/padm.12137
 [research_balogun_fasanu_2019]: https://doi.org/10.3390/genealogy3020018
 [research_bangert_frances_2017]: https://doi.org/10.1109/jcdl.2017.7991610
-[research_bansiri_anantayasethi_2026]: https://doi.org/10.3390/axioms15060448
 [research_barkstrom_2003]: https://doi.org/10.1007/3-540-39195-9_9
 [research_barootes_2016]: https://doi.org/10.1080/00393274.2016.1209426
 [research_barratt_ranjitsingh_2021]: https://doi.org/10.14325/mississippi/9781496833709.003.0006
@@ -2830,7 +2582,6 @@ $$
 [research_beazer_2012]: https://doi.org/10.1017/s0022381612000205
 [research_beckett_1992]: https://doi.org/10.1093/oso/9780192853332.003.0018
 [research_beer_2009]: https://doi.org/10.1136/jcp.2008.061721
-[research_behrens_2026]: https://doi.org/10.5040/9798881899530.ch-004
 [research_beiner_2017]: https://doi.org/10.4324/9781315251820-2
 [research_bekliamishev_2024]: https://doi.org/10.55959/msu0868-4871-12-2024-2-5-07-19
 [research_belcher_1976]: https://doi.org/10.1016/s0003-2670(01)83011-7
@@ -2849,11 +2600,9 @@ $$
 [research_bergman_2019]: https://doi.org/10.4324/9780203705193
 [research_bergmann_haferd_1964]: https://doi.org/10.1109/tcom.1964.1088961
 [research_bernasconi_lopez_2019]: https://doi.org/10.1007/978-3-030-17046-2_6
-[research_betteridge_1980]: https://doi.org/10.21423/bovine-vol1980no15p4-7
 [research_bhamare_gumaste_2014]: https://doi.org/10.1109/tnsm.2014.022614.120358
 [research_bhattacharya_holden_2012]: https://doi.org/10.1287/mnsc.1110.1364
 [research_bhirawa_2025]: https://doi.org/10.59350/43arz-v7m09
-[research_bicentennial_commemoration_1987]: https://doi.org/10.1016/0315-0860(87)90051-6
 [research_bickford_1990]: https://doi.org/10.2307/3378322
 [research_bidwell_hole_1964]: https://doi.org/10.1097/00010694-196401000-00009
 [research_bieniaszewski_kruszewski_2000]: https://doi.org/10.1097/00004872-200006001-00163
@@ -2862,32 +2611,24 @@ $$
 [research_bigon_2016_3]: https://doi.org/10.7228/manchester/9780719099359.003.0003
 [research_billias_1981]: https://doi.org/10.2307/44369177
 [research_billig_2021]: https://doi.org/10.1177/09579265211013115
-[research_bilton_2009]: https://doi.org/10.12968/nuwa.2009.17.2.1092414
 [research_bineham_2013]: https://doi.org/10.21236/ada592740
 [research_biometric_registration_2009]: https://doi.org/10.1007/978-0-387-73003-5_2063
 [research_bitusikova_2022]: https://doi.org/10.15201/hungeobull.71.4.6
 [research_blair_2004]: https://doi.org/10.5149/9780807876237_blair.5
-[research_blais_2003]: https://doi.org/10.1088/0031-9120/38/6/004
 [research_blankenship_2011]: https://doi.org/10.5040/9798216496960.ch07a
 [research_blood_bought_fame_2002]: https://doi.org/10.9783/9780812203028.11
 [research_blum_krauss_2017]: https://doi.org/10.1111/ehr.12615
 [research_bodnar]: https://doi.org/10.2307/j.ctv39x64g.9
 [research_bodnar_1994]: https://doi.org/10.1515/9780691186658-007
-[research_boer_2016]: https://doi.org/10.5194/gmd-2016-78-ac1
-[research_boguslavsky_1996]: https://doi.org/10.1007/bf02509818
 [research_boland_godsell_2021]: https://doi.org/10.1016/j.aos.2020.101173
 [research_bolikowski_nowiaski_2015]: https://doi.org/10.2218/ijdc.v10i1.368
 [research_bolinger]: https://doi.org/10.15760/honors.1191
-[research_bolshakov_2000]: https://doi.org/10.1007/bf02764050
 [research_boonprong_2013]: https://doi.org/10.12778/235108618x15452373185129
-[research_borisova_misnikov_2025]: https://doi.org/10.17580/gzh.2025.12.12
-[research_borysov_2020]: https://doi.org/10.32838/2663-6069/2020.2-1/27
 [research_bouviet_2026]: https://doi.org/10.2139/ssrn.6581598
 [research_boyer_bodnar_1993]: https://doi.org/10.2307/2166547
 [research_breunig_2024]: https://doi.org/10.64628/aa.vamfwtyqm
 [research_breunig_deutscher_2024]: https://doi.org/10.1016/j.jpubeco.2024.105195
 [research_bright_humber_1993]: https://doi.org/10.21236/ada283294
-[research_briliandt_2011]: https://doi.org/10.4016/35881.01
 [research_brocket_2019]: https://doi.org/10.1080/14650045.2019.1590341
 [research_brog_2003]: https://doi.org/10.1353/is.2004.0001
 [research_bronselaer_2025]: https://doi.org/10.1145/3743145
@@ -2938,7 +2679,6 @@ $$
 [research_camarda_eilers_2016]: https://doi.org/10.1111/rssc.12205
 [research_camarillo_2004]: https://doi.org/10.17487/rfc3969
 [research_camarillo_2006]: https://doi.org/10.17487/rfc4569
-[research_cantillo_dediosortuzar_2014]: https://doi.org/10.15446/dyna.v81n188.40081
 [research_cappuccini_2017]: https://doi.org/10.1007/978-3-319-64128-7_5
 [research_carbon_fibre]: https://doi.org/10.3403/01577716
 [research_carey_2011]: https://doi.org/10.1177/02610183110310030704
@@ -2949,9 +2689,7 @@ $$
 [research_carter_2024]: https://doi.org/10.1007/978-3-031-60688-5_4
 [research_carvalho_2023]: https://doi.org/10.1145/3618305.3623589
 [research_carvalho_seco_2021]: https://doi.org/10.1145/3479394.3479416
-[research_casertano_1999]: https://doi.org/10.4401/ag-3740
 [research_cash_2011]: https://doi.org/10.2307/j.ctt6wq7fz.22
-[research_cashin_2006]: https://doi.org/10.1071/py06041
 [research_casquete_2013]: https://doi.org/10.1080/21567689.2012.739968
 [research_castillo_2003]: https://doi.org/10.1017/s0269889703000930
 [research_catherine_genovese_1984]: https://doi.org/10.1037/e423242005-012
@@ -2965,7 +2703,6 @@ $$
 [research_ceravolo_bellini_2010]: https://doi.org/10.1007/978-3-642-16961-8_87
 [research_cerf_1990]: https://doi.org/10.17487/rfc1174
 [research_cetin_2018]: https://doi.org/10.5505/megaron.2018.05826
-[research_chai_zuo_2018]: https://doi.org/10.1007/978-3-030-03405-4_52
 [research_chala_endresen_2024]: https://doi.org/10.20944/preprints202407.1673.v1
 [research_chan_milne_2013]: https://doi.org/10.2139/ssrn.2325889
 [research_chandel_miranda_2024]: https://doi.org/10.3390/jcm13226846
@@ -2997,17 +2734,12 @@ $$
 [research_chapter_vi]: https://doi.org/10.4159/harvard.9780674493841.c7
 [research_chapter_vii]: https://doi.org/10.4159/harvard.9780674493841.c8
 [research_chaudhry_2024]: https://doi.org/10.2139/ssrn.4956290
-[research_chen_hyde_2025]: https://doi.org/10.1016/j.cognition.2025.106226
 [research_chen_liu_2019]: https://doi.org/10.1109/access.2019.2903476
-[research_chenchungliu_zhichunluo_2010]: https://doi.org/10.1049/cp.2010.0559
 [research_chidora_tivenga_2025]: https://doi.org/10.1163/9789004744493_011
 [research_chielens_2018]: https://doi.org/10.1007/978-3-319-73685-3_11
 [research_chigwada_chiparausha_2026]: https://doi.org/10.1080/0361526x.2026.2662865
 [research_chihszu_1975]: https://doi.org/10.1007/bf00244601
-[research_childhood_2017]: https://doi.org/10.5040/9780571343591.0007
 [research_children_of_2018]: https://doi.org/10.3138/9781442621558-005
-[research_cho_abidi_2014]: https://doi.org/10.1109/isce.2014.6884430
-[research_cho_abidi_2014_2]: https://doi.org/10.1109/isce.2014.6884441
 [research_chodacki_carpenter_2024]: https://doi.org/10.54900/c3hdq-0ev76
 [research_choi_2017]: https://doi.org/10.29349/jchg.2017.29.4.78
 [research_choi_2018]: https://doi.org/10.35979/alj.2018.02.52.131
@@ -3019,7 +2751,6 @@ $$
 [research_chupriy_densik_2020]: https://doi.org/10.24195/2414-9616.2020-3.24
 [research_clar_1958]: https://doi.org/10.2307/1496200
 [research_clark_gonye_2021]: https://doi.org/10.1007/s00283-021-10082-w
-[research_cleland_corsico_2018]: https://doi.org/10.31234/osf.io/24y6k
 [research_closing_ceremonies_1876]: https://doi.org/10.1038/scientificamerican12021876-769supp
 [research_clucas_2010]: https://doi.org/10.1163/156798910x520575
 [research_cohen_maass_1974]: https://doi.org/10.2307/3102934
@@ -3038,11 +2769,8 @@ $$
 [research_commemoration_in_1978_2]: https://doi.org/10.1017/s0020860400018155
 [research_commemoration_monument_2011]: https://doi.org/10.2307/j.ctt5vjnd2.8
 [research_commemoration_of]: https://doi.org/10.1163/2210-7975_hrd-5555-2016022
-[research_commemoration_of_1907]: https://doi.org/10.1126/science.25.643.676
 [research_commemoration_of_1943]: https://doi.org/10.1038/151221c0
 [research_commemoration_of_1943_2]: https://doi.org/10.1215/00182168-23.2.373a
-[research_commemoration_of_1963]: https://doi.org/10.1016/0042-207x(63)91481-7
-[research_commemoration_of_2013]: https://doi.org/10.3828/blr.2013.26.1.7
 [research_commemoration_of_2019]: https://doi.org/10.18356/a0b137b2-en
 [research_commemoration_of_2022]: https://doi.org/10.24926/24716839.12556
 [research_commemoration_of_2023]: https://doi.org/10.18356/9789210014151c014
@@ -3092,7 +2820,6 @@ $$
 [research_curious_boats_1876]: https://doi.org/10.1038/scientificamerican11041876-287
 [research_cwiekrogalska_2020]: https://doi.org/10.1177/0888325420902811
 [research_czerniak_genderjahn_2026]: https://doi.org/10.5334/dsj-2026-028
-[research_dagg_2000]: https://doi.org/10.1111/j.1751-0813.2000.tb10526.x
 [research_dagostino_russell_2005]: https://doi.org/10.1002/0470011815.b2a13059
 [research_dahiru_dikko_2022]: https://doi.org/10.2427/8843
 [research_daintith_2005]: https://doi.org/10.1111/j.1468-2230.2005.00551.x
@@ -3101,27 +2828,19 @@ $$
 [research_dappert_farquhar_2017]: https://doi.org/10.5334/dsj-2017-028
 [research_dart_1992]: https://doi.org/10.21236/ada254175
 [research_dascenzo_2016]: https://doi.org/10.14516/fdp.2016.007.001.015
-[research_dashboard_camera_2022]: https://doi.org/10.33168/liss.2022.0404
 [research_data_numbering]: https://doi.org/10.1007/springerreference_11736
 [research_davies_butler_1972]: https://doi.org/10.2307/3722319
-[research_deb_jo_2009]: https://doi.org/10.5772/7536
 [research_decan_mens_2021]: https://doi.org/10.1109/tse.2019.2918315
 [research_decastro_herb]: https://doi.org/10.29007/97w6
 [research_deliberate_discretion_2003]: https://doi.org/10.5860/choice.41-0598
 [research_demontety_2025]: https://doi.org/10.5194/gh-80-1-2025
 [research_denbakker_damhuis_2018]: https://doi.org/10.1111/his.13640
-[research_dennis_2000]: https://doi.org/10.15760/etd.6460
-[research_dentistry]: https://doi.org/10.3403/30451041u
 [research_dentistry_designation]: https://doi.org/10.3403/30297353u
-[research_dentistry_designation_2]: https://doi.org/10.3403/30160011
-[research_dentistry_designation_3]: https://doi.org/10.3403/30429510u
-[research_dentistry_vocabulary]: https://doi.org/10.3403/30331614u
 [research_departmentofdefensewashingtondc_1993]: https://doi.org/10.21236/ada297556
 [research_departmentoftheairforcewashingtondc_1997]: https://doi.org/10.21236/ada339210
 [research_departmentofthenavywashingtondc_2012]: https://doi.org/10.21236/ada569699
 [research_deputies_of_2023]: https://doi.org/10.31249/poln/2023.01.05
 [research_designation_system]: https://doi.org/10.3403/30031438
-[research_designation_system_2]: https://doi.org/10.3403/00165902
 [research_designation_systems]: https://doi.org/10.3403/30286146
 [research_designing_the]: https://doi.org/10.1163/2468-1733_shafr_sim270040342
 [research_designing_the_2002]: https://doi.org/10.5860/choice.40-1981
@@ -3145,31 +2864,23 @@ $$
 [research_discrete_uniform_2008]: https://doi.org/10.1007/978-0-387-32833-1_116
 [research_discrete_uniform_2016]: https://doi.org/10.1201/b19191-11
 [research_discussion_nationalism_2022]: https://doi.org/10.1515/9781782389378-013
-[research_dma_2016]: https://doi.org/10.26641/2307-0404.2016.1.64273
 [research_dobrovolskis_2003]: https://doi.org/10.5755/j02.eie.11274
 [research_document_version_2020]: https://doi.org/10.32388/a65ejt
 [research_dolan_2002]: https://doi.org/10.1007/978-0-230-62938-7_12
-[research_domahs_moeller_2010]: https://doi.org/10.1016/j.cognition.2010.05.007
 [research_domby_2024]: https://doi.org/10.1515/9781531505028-017
 [research_donald_1986]: https://doi.org/10.17660/actahortic.1986.182.47
 [research_donne_1967]: https://doi.org/10.1093/oseo/instance.00006143
-[research_doreen_warriner_1955]: https://doi.org/10.5652/kokusaikeizai.1955.7_211
 [research_doss_2023]: https://doi.org/10.4324/9781003121800-24
-[research_dossantos_2023]: https://doi.org/10.5964/jnc.10215
 [research_doucouliagos_2004]: https://doi.org/10.1080/0960310042000164211
 [research_drescher_sabean_2020]: https://doi.org/10.1201/9781003070276-1
 [research_drzewiecka_2024]: https://doi.org/10.17846/cl.2024.17.1.122-131
 [research_dube_2018]: https://doi.org/10.2989/na.2018.32.2.1.1325
 [research_dube_manning_2018]: https://doi.org/10.3386/w24991
 [research_dube_manning_2025]: https://doi.org/10.1257/aer.20200678
-[research_dubinkina_sella_2021]: https://doi.org/10.5334/joc.157
-[research_dubinkina_sella_2023]: https://doi.org/10.1080/02699931.2023.2175795
-[research_dudek_schrock_2007]: https://doi.org/10.3141/2012-08
 [research_duduciuc_ivan_2015]: https://doi.org/10.29358/sceco.v0i20.275
 [research_duine_2016]: https://doi.org/10.59350/amh00-33v23
 [research_duine_2017]: https://doi.org/10.59350/s9ed3-a7x90
 [research_duminy_2017]: https://doi.org/10.4324/9781315554464-14
-[research_dummer_1946]: https://doi.org/10.1086/617287
 [research_duncan_1993]: https://doi.org/10.2307/202144
 [research_duncan_2017]: https://doi.org/10.4324/9781315249186-14
 [research_duncan_2019]: https://doi.org/10.1080/00277738.2017.1415529
@@ -3184,7 +2895,6 @@ $$
 [research_dvorak_civinskas_2021]: https://doi.org/10.14267/cjssp.2021.1.1
 [research_dwyer_butler_2013]: https://doi.org/10.1080/14616688.2012.699091
 [research_early_2018]: https://doi.org/10.36591/se-4101-23
-[research_easter_fairbanks_2021]: https://doi.org/10.1016/s1096-7192(21)00539-4
 [research_ebury_2023]: https://doi.org/10.1080/0950236x.2023.2287360
 [research_echevarriaii_1996]: https://doi.org/10.55540/0031-1723.1766
 [research_edouard_senthilselvan_1997]: https://doi.org/10.1038/sj.ph.1900313
@@ -3212,18 +2922,14 @@ $$
 [research_fabiszak_buchstaller_2024]: https://doi.org/10.4324/9781003311621-11
 [research_fabry_1980]: https://doi.org/10.21236/ada094691
 [research_family_politics_2023]: https://doi.org/10.7312/jank15020-010
-[research_fando_2021]: https://doi.org/10.31857/s020596060017407-9
 [research_farach_2022]: https://doi.org/10.32614/cran.package.npi
-[research_fares_2013]: https://doi.org/10.1109/icoia.2013.6650221
 [research_farrell_elliott_1977]: https://doi.org/10.2307/1901838
-[research_fay_salmen_2026]: https://doi.org/10.1007/s00403-026-04903-1
 [research_fayehun_ajayi_2019]: https://doi.org/10.1017/s0021932019000348
 [research_fearn_2010]: https://doi.org/10.1093/acprof:oso/9780199546510.003.0006
 [research_feiler_downey_1990]: https://doi.org/10.21236/ada235510
 [research_feketenagy_2021]: https://doi.org/10.32803/rise.v4i2.2827
 [research_felecan_2024]: https://doi.org/10.30816/iconn6/2023/24
 [research_felixdemoura_2026]: https://doi.org/10.2139/ssrn.7067898
-[research_feng_li_2012]: https://doi.org/10.1061/9780784412442.014
 [research_fenner_2015]: https://doi.org/10.53731/sn6hp-46x03
 [research_fenner_2015_2]: https://doi.org/10.53731/69avh-zkp66
 [research_fenner_2015_3]: https://doi.org/10.53731/r796skh-97aq74v-ag4gb
@@ -3234,12 +2940,8 @@ $$
 [research_ferrey_2025]: https://doi.org/10.2139/ssrn.5375635
 [research_fewsmith_hearst_2023]: https://doi.org/10.4324/9781315719436-290
 [research_fiala_1983]: https://doi.org/10.1007/978-3-642-69024-2_11
-[research_fig_3]: https://doi.org/10.17816/brmma630033-4206246
-[research_figure_11]: https://doi.org/10.7717/peerj-cs.2989/fig-11
-[research_figure_3]: https://doi.org/10.7717/peerj-cs.3673/fig-3
 [research_fihurnyi_2023]: https://doi.org/10.30840/2413-7065.2(87).2023.281258
 [research_finch_2000]: https://doi.org/10.30861/9781841712093
-[research_findling_2000]: https://doi.org/10.1093/anb/9780198606697.article.1900281
 [research_finkelstein_2008]: https://doi.org/10.1016/s0270-6644(08)70519-8
 [research_finley_2006]: https://doi.org/10.3167/jys.2006.070202
 [research_firdaus_fitriyah_2026]: https://doi.org/10.51817/jpdr.v6i2.2525
@@ -3254,14 +2956,12 @@ $$
 [research_foti_appel_2020]: https://doi.org/10.1093/ajh/hpaa196
 [research_founding_designation]: https://doi.org/10.3403/01158946
 [research_fourneirpeneff_2026]: https://doi.org/10.32920/32677935
-[research_fox_1947]: https://doi.org/10.1093/nq/192.20.438d
 [research_fox_1996]: https://doi.org/10.2307/976449
 [research_franklin_2008]: https://doi.org/10.1086/jaahv93n4p543
 [research_freeman_2026]: https://doi.org/10.1016/j.acalib.2026.103346
 [research_freestone_veale_2004]: https://doi.org/10.1080/1460894042000312321
 [research_freidel_1976]: https://doi.org/10.2307/1908987
 [research_french_revolution_1988]: https://doi.org/10.1111/j.1944-9720.1988.tb03129.x
-[research_fricker_gupta_2001]: https://doi.org/10.5703/1288284314212
 [research_fridman_gensburger_2023]: https://doi.org/10.1007/978-3-031-34597-5_1
 [research_from_collective_2010]: https://doi.org/10.4324/9780203891377-77
 [research_furlong_2007]: https://doi.org/10.1201/noe1420052756.ch45
@@ -3276,19 +2976,14 @@ $$
 [research_garciajosepha_bowlesjeffreyv_2019]: https://ntrs.nasa.gov/citations/20190027157
 [research_gardner_1983]: https://doi.org/10.1007/978-3-642-69024-2_16
 [research_garner_1949]: https://doi.org/10.1111/j.1467-9299.1949.tb02677.x
-[research_geary_vanmarle_2018]: https://doi.org/10.1016/j.cognition.2018.04.002
 [research_gegenava_2025]: https://doi.org/10.2139/ssrn.5201970
-[research_gender_naming_2026]: https://doi.org/10.55057/ajress.2026.8.2.11
 [research_georgakis_2025]: https://doi.org/10.1007/978-981-95-3121-9_9
 [research_george_1998]: https://doi.org/10.5594/j04414
-[research_gergely_1994]: https://doi.org/10.1016/0042-207x(94)90197-x
-[research_german_tank_2014]: https://doi.org/10.4324/9781315063515-43
 [research_gerstenblith_2010]: https://doi.org/10.1515/9781846158742-003
 [research_gerstenblith_2010_2]: https://doi.org/10.1017/9781846158742.002
 [research_giberti_1999]: https://doi.org/10.22439/asca.v31i1.1108
 [research_gideon_helppiemcfall_2017]: https://doi.org/10.17016/feds.2017.006
 [research_gilmartin_1983]: https://doi.org/10.1007/978-3-642-69024-2_57
-[research_gilmore_gobel_2018]: https://doi.org/10.4324/9781315684758-3
 [research_ginther_heggeness_2020]: https://doi.org/10.3386/w26841
 [research_giovannoni_2004]: https://doi.org/10.1111/j.0013-0133.2004.191_6.x
 [research_giraut_houssayholzschuch_2022]: https://doi.org/10.1002/9781394188307
@@ -3301,14 +2996,10 @@ $$
 [research_goddard_2021]: https://doi.org/10.54590/pop.2021.006
 [research_goetzmann_1977]: https://doi.org/10.1007/978-3-476-99335-9_13
 [research_gofen_sella_2019]: https://doi.org/10.4337/9781786437631.00033
-[research_goffin_ansari_2016]: https://doi.org/10.1016/j.cognition.2016.01.018
-[research_gohberg_1981]: https://doi.org/10.1007/bf01702385
 [research_gold_2008]: https://doi.org/10.1353/cwh.0.0022
-[research_gold_warsaw_1980]: https://doi.org/10.1007/978-1-4613-8090-0_37
 [research_golodoniuc_car_2017]: https://doi.org/10.5334/dsj-2017-034
 [research_golomidova_2017]: https://doi.org/10.30816/iconn4/2017/51
 [research_golovachev_2026]: https://doi.org/10.18535/ijecs/v15i03.5486
-[research_gomez_2021]: https://doi.org/10.1017/s0140525x21001175
 [research_gomeziaznar_2025]: https://doi.org/10.1093/ereh/heaf002
 [research_gong_liu_2025]: https://doi.org/10.1016/j.bar.2025.101806
 [research_good_1953]: https://doi.org/10.1093/biomet/40.3-4.237
@@ -3325,15 +3016,12 @@ $$
 [research_government_liability_1959]: https://doi.org/10.1525/9780520345355-016
 [research_government_liability_2023]: https://doi.org/10.2307/jj.8501442.18
 [research_grady_simon_2002]: https://doi.org/10.1111/j.1747-1346.2002.tb00139.x
-[research_green_2020]: https://doi.org/10.1037/t78620-000
 [research_greene_1977]: https://doi.org/10.1093/milmed/142.7.511
 [research_greening_1974]: https://doi.org/10.1177/002216787401400304
 [research_grenz_karsou_2021]: https://doi.org/10.26226/morressier.614c9b8c87a68d83cb5d59b0
 [research_gu_feng_2024]: https://doi.org/10.18063/ijps.v5i1.979
 [research_guarddin_alwan_2021]: https://doi.org/10.33633/tc.v20i4.5284
 [research_guidottihernandez_2011]: https://doi.org/10.1111/j.1557-203x.2011.01107.x
-[research_guillaume_schiltz_2020]: https://doi.org/10.5964/jnc.v6i1.231
-[research_guinnessy_2002]: https://doi.org/10.1063/1.1496369
 [research_gunasti_kara_2014]: https://doi.org/10.1037/e509992015-009
 [research_gunasti_ozcan_2014]: https://doi.org/10.1007/s11002-014-9337-7
 [research_gunasti_ozcan_2019]: https://doi.org/10.1007/s11002-019-09492-w
@@ -3343,7 +3031,6 @@ $$
 [research_guthrie_2023]: https://doi.org/10.1007/978-3-031-28609-4_17
 [research_gyllenberg_koski_1996]: https://doi.org/10.1007/bf01246099
 [research_gyollai_2024]: https://doi.org/10.1177/17506980241283893
-[research_ha_2020]: https://doi.org/10.5194/gmd-2020-335-ac1
 [research_haak_2014]: https://doi.org/10.3233/isu-140736
 [research_hahm_2021]: https://doi.org/10.1007/978-3-319-32001-4_549-1
 [research_hahm_2022]: https://doi.org/10.1007/978-3-319-32010-6_549
@@ -3353,10 +3040,8 @@ $$
 [research_hamilton_2002]: https://doi.org/10.21236/ada404459
 [research_han_lee_2026]: https://doi.org/10.1016/j.qref.2026.102163
 [research_hanafi_2024]: https://doi.org/10.1017/s0021875824000331
-[research_haneda_hanaizumi_2012]: https://doi.org/10.1109/icit.2012.6209923
 [research_hanna_hodder_2015]: https://doi.org/10.4324/9781315797915-12
 [research_happaerts_2012]: https://doi.org/10.1111/j.1754-7121.2012.00237.x
-[research_harada_2011]: https://doi.org/10.1093/jmicro/dfr045
 [research_hardisty_addink_2021]: https://doi.org/10.3897/rio.7.e67379
 [research_hardisty_addink_2021_2]: https://doi.org/10.3897/rio.7.e67379.figure1
 [research_hardisty_addink_2021_3]: https://doi.org/10.3897/rio.7.e67379.figure2
@@ -3367,7 +3052,6 @@ $$
 [research_hardisty_addink_2021_8]: https://doi.org/10.3897/rio.7.e67379.suppl3
 [research_hardisty_addink_2021_9]: https://doi.org/10.3897/rio.7.e67379.suppl4
 [research_hare]: https://doi.org/10.1057/9781137450159.0009
-[research_harkavyi_2019]: https://doi.org/10.32402/hygiene2019.69.003
 [research_harken_1976]: https://doi.org/10.1097/00000658-197611000-00021
 [research_harleyathronsonjr_edwinferickson_1984]: https://ntrs.nasa.gov/citations/19850009539
 [research_harrison]: https://doi.org/10.2307/j.ctt1t89bw0.8
@@ -3385,7 +3069,6 @@ $$
 [research_haucap_2002]: https://doi.org/10.2139/ssrn.308003
 [research_haucap_2003]: https://doi.org/10.1023/a:1021845814871
 [research_havryliuk_2019]: https://doi.org/10.18524/2410-3373.2018.21.155183
-[research_hawes_sokolowski_2019]: https://doi.org/10.31234/osf.io/dyqrx
 [research_hayes_2008]: https://doi.org/10.1136/jcp.2008.057851
 [research_health_informatics]: https://doi.org/10.3403/30084399
 [research_heathkelly_2019]: https://doi.org/10.1080/23337486.2019.1677041
@@ -3395,11 +3078,9 @@ $$
 [research_hendricks_2017]: https://doi.org/10.64000/g3cwt-4nj38
 [research_hendricks_bilder_2017]: https://doi.org/10.64000/b9kbd-qrh24
 [research_heninger_1972]: https://doi.org/10.2307/2859025
-[research_hensley_1987]: https://doi.org/10.1112/plms/s3-54.3.412
 [research_herb_2021]: https://doi.org/10.59350/r9by3-jw679
 [research_herb_2022]: https://doi.org/10.59350/6thth-24k31
 [research_herbert_1997]: https://doi.org/10.1179/nam.1997.45.1.3
-[research_hering_2000]: https://doi.org/10.1093/anb/9780198606697.article.1802172
 [research_hernandezgutierrez_aguilar_2025]: https://doi.org/10.2139/ssrn.5025589
 [research_hessel_1986]: https://doi.org/10.1093/ije/15.1.122
 [research_hewlett_2016]: https://doi.org/10.59350/0vm23-k4320
@@ -3413,14 +3094,12 @@ $$
 [research_hisseine_chen_2022]: https://doi.org/10.1109/iccece54139.2022.9712843
 [research_historical_linkage_2011]: https://doi.org/10.1355/9789814345477-015
 [research_history_commemoration_2007]: https://doi.org/10.5871/bacad/9780197264065.001.0001
-[research_history_of_1953]: https://doi.org/10.1001/archderm.1953.01540030078009
 [research_ho]: https://doi.org/10.5353/th_b3197379
 [research_hobsbawm_2012]: https://doi.org/10.1017/cbo9781107295636.001
 [research_hoek_carzaniga_1998]: https://doi.org/10.21236/ada454726
 [research_hoek_heimbigner_1995]: https://doi.org/10.21236/ada454619
 [research_hoek_heimbigner_1998]: https://doi.org/10.21236/ada453899
 [research_hoek_heimbigner_1998_2]: https://doi.org/10.21236/ada452470
-[research_hoffert_1988]: https://doi.org/10.21236/ada338958
 [research_hoffman_2010]: https://doi.org/10.17487/rfc6014
 [research_holistic_medical_foundations_1981]: https://doi.org/10.1176/ajp.138.7.888
 [research_holmberg_nord_1984]: https://doi.org/10.1016/s0580-9517(08)70399-4
@@ -3438,19 +3117,15 @@ $$
 [research_housley_2014_2]: https://doi.org/10.17487/rfc7107
 [research_housley_2021]: https://doi.org/10.17487/rfc9158
 [research_how_configuration_2004]: https://doi.org/10.1201/9780203496114-8
-[research_how_to_1986]: https://doi.org/10.1137/1.9781611970203.ch1
 [research_howardhassmann_2007]: https://doi.org/10.56902/hrhw.2007.7.4.2
 [research_hoybyemortensen_2019]: https://doi.org/10.4337/9781786437631.00021
-[research_hrebeniuk_2010]: https://doi.org/10.33577/2312-4458.3.2010.41-44
 [research_hsialingchiang_yehshuming_2008]: https://doi.org/10.1109/ccst.2008.4751270
 [research_hsu_edmunds_2026]: https://doi.org/10.11141/ia.72.4
 [research_hu_lee_2017]: https://doi.org/10.23919/i-society.2017.8354667
 [research_huang_2010]: https://doi.org/10.4337/9781849808101.00038
-[research_huang_2018]: https://doi.org/10.5194/gmd-2018-76-ac1
 [research_hubac_1983]: https://doi.org/10.1007/978-3-642-69024-2_39
 [research_hui_2017]: https://doi.org/10.1080/14650045.2017.1413644
 [research_human_rights_of_minorities_in_asiapacific_in_commemoration_of_the_41st_anniversary_of_the_universal_declaration_of_human_rights_mar_1990_127_pp]: https://doi.org/10.1163/2210-7975_hrd-2957-0012
-[research_hung_tang_2024]: https://doi.org/10.1016/j.cogdev.2024.101507
 [research_hunold_peter_2004]: https://doi.org/10.4018/978-1-59140-130-8.ch007
 [research_hunold_peter_2008]: https://doi.org/10.4018/978-1-59904-947-2.ch255
 [research_huntington_2025]: https://doi.org/10.18737/0607811237
@@ -3463,8 +3138,6 @@ $$
 [research_hupe_hill_2015_2]: https://doi.org/10.46692/9781447313281.002
 [research_hupe_hill_2019]: https://doi.org/10.4337/9781786437631.00011
 [research_hupe_keiser_2019]: https://doi.org/10.4337/9781786437631.00022
-[research_hurley_oliver_2018]: https://doi.org/10.1371/journal.pone.0199815
-[research_hyde_mou_2016]: https://doi.org/10.1016/b978-0-12-801871-2.00003-4
 [research_hyder_2008]: https://doi.org/10.1093/acprof:oso/9780195373028.003.0004
 [research_hydrospheric_sciences_1976]: https://doi.org/10.1029/sp006
 [research_i_elementary_1938]: https://doi.org/10.7312/hopp91968-003
@@ -3478,11 +3151,6 @@ $$
 [research_in_commemoration_1979]: https://doi.org/10.2753/csh0009-4633120336
 [research_in_commemoration_2020]: https://doi.org/10.2307/j.ctv131bwrj.219
 [research_in_commemoration_2020_2]: https://doi.org/10.2307/j.ctv131bwrj.269
-[research_in_commemoration_of_2004]: https://doi.org/10.17816/vto200411289-89
-[research_in_commemoration_of_2009]: https://doi.org/10.17816/vto200916296-96
-[research_in_commemoration_of_2013]: https://doi.org/10.17816/vto20130293-93
-[research_in_commemoration_of_2016]: https://doi.org/10.17816/vto201623193-93
-[research_incorrect_trial_2007]: https://doi.org/10.1001/archpedi.161.2.130
 [research_infantebatiste_2024]: https://doi.org/10.1080/07352166.2024.2374786
 [research_information_and]: https://doi.org/10.3403/30177056
 [research_information_technology]: https://doi.org/10.3403/00305898u
@@ -3494,15 +3162,11 @@ $$
 [research_involuntary_commemorations_2013]: https://doi.org/10.4324/9780203770115-16
 [research_ip_address_2010]: https://doi.org/10.1002/9780470880654.ch3
 [research_ipv6_address_1995]: https://doi.org/10.17487/rfc1881
-[research_iqbal_kenney_2017]: https://doi.org/10.5220/0006470000770080
 [research_iskandar_alwi_2021]: https://doi.org/10.2991/assehr.k.210629.051
 [research_islam_2023]: https://doi.org/10.3233/fc-230001
 [research_islam_theocharides_2022]: https://doi.org/10.3897/biss.6.91168
-[research_ismawati_2017]: https://doi.org/10.30997/dt.v2i2.305
-[research_ivashkiv_2020]: https://doi.org/10.15407/nz2020.01.093
 [research_izumi_2020]: https://doi.org/10.4157/ejgeo.15.74
 [research_jacquin_2024]: https://doi.org/10.1332/policypress/9781447368748.003.0003
-[research_jagielski_wegrzyn_2025]: https://doi.org/10.1093/femsre/fuaf026
 [research_james_1964]: https://doi.org/10.1111/j.1558-5646.1964.tb01630.x
 [research_jan_wu_2000]: https://doi.org/10.1016/s0140-3664(99)00151-6
 [research_janowitz_1996]: https://doi.org/10.1007/bf01246107
@@ -3527,14 +3191,12 @@ $$
 [research_johnson_2025_2]: https://doi.org/10.1515/9781836951025-014
 [research_johnson_johnson_2007]: https://doi.org/10.2139/ssrn.972802
 [research_johnson_johnson_2008]: https://doi.org/10.2139/ssrn.1108214
-[research_johnson_reisa_2003]: https://doi.org/10.1080/10807030390247132
 [research_joint_1996_1995]: https://doi.org/10.1006/jmps.1995.1040
 [research_jones_1896]: https://doi.org/10.2307/2276195
 [research_jones_1914]: https://doi.org/10.1093/nq/s11-x.252.333d
 [research_jones_2008]: https://doi.org/10.1353/scu.0.0033
 [research_jordan_1911]: https://doi.org/10.1126/science.33.845.370.b
 [research_jordan_2025]: https://doi.org/10.64449/9781997468639-01
-[research_jordan_dyson_2016]: https://doi.org/10.1016/b978-0-12-801637-4.00003-2
 [research_jorgensen_2021]: https://doi.org/10.2979/histmemo.33.1.03
 [research_jucevic_1978]: https://doi.org/10.21236/ada076542
 [research_judaic_needlework]: https://doi.org/10.1163/9789004444522_coco_cc0744
@@ -3546,21 +3208,15 @@ $$
 [research_kachalkova_ruth_2019]: https://doi.org/10.15826/vopr_onom.2019.16.3.038
 [research_kafker_1991]: https://doi.org/10.1086/ahr/96.4.1205-a
 [research_kandler_2025]: https://doi.org/10.59350/7196k-8c597
-[research_kang_2009]: https://doi.org/10.1007/s12239-009-0024-2
 [research_kank_2016]: https://doi.org/10.34158/onoma.51/2016/4
-[research_kapalkaricherme_2021]: https://doi.org/10.3102/1683050
 [research_kaplan_2018]: https://doi.org/10.1007/978-3-319-78402-1_9
 [research_kapur_2019]: https://doi.org/10.4324/9780429057687-7
 [research_kara_gunasti_2014]: https://doi.org/10.1037/e509992015-269
 [research_kara_gunasti_2015]: https://doi.org/10.1057/bm.2015.28
-[research_karna_2018]: https://doi.org/10.5194/gmd-2017-292-ac1
-[research_karna_2018_2]: https://doi.org/10.5194/gmd-2017-292-ac2
 [research_karnikova_2026]: https://doi.org/10.31235/osf.io/brj6e_v1
 [research_kaufmann_1995]: https://doi.org/10.1557/s0883769400035016
 [research_keeping_in]: https://doi.org/10.3726/978-3-0353-0604-0/21
 [research_keevers_1966]: https://doi.org/10.1109/tcom.1966.1089389
-[research_keh_1978]: https://doi.org/10.3109/00313027809063484
-[research_keh_russell_1978]: https://doi.org/10.3109/00313027809063474
 [research_keith_1916]: https://doi.org/10.1017/s0035869x00067381
 [research_kekez_2019]: https://doi.org/10.4337/9781786437631.00032
 [research_keller_2008]: https://doi.org/10.1145/3260623
@@ -3568,7 +3224,6 @@ $$
 [research_kelly_1999]: https://doi.org/10.1179/nam.1999.47.1.3
 [research_kenaga_2018]: https://doi.org/10.7765/9781526137531.00008
 [research_kenar_2025]: https://doi.org/10.21488/jocas.1648977
-[research_kendrick_2015]: https://doi.org/10.64628/aai.k53sxx7kf
 [research_kennedy_2023]: https://doi.org/10.4324/9781003127550-80
 [research_kennell_suligoj_2018]: https://doi.org/10.3727/152599518x15346132863247
 [research_kennickell_2016]: https://doi.org/10.17016/feds.2016.103
@@ -3576,9 +3231,7 @@ $$
 [research_kessy_2023]: https://doi.org/10.1016/j.ssaho.2023.100684
 [research_kettle_delvecchio_2014]: https://doi.org/10.1037/e509992015-057
 [research_khair_shahan_2020]: https://doi.org/10.4324/9781003088165-13
-[research_khalfoune_beghdad_2024]: https://doi.org/10.18267/j.aip.234
 [research_khare_2009]: https://doi.org/10.2139/ssrn.1465519
-[research_khrushcheva_2020]: https://doi.org/10.31857/s020596060008418-1
 [research_kim_2025]: https://doi.org/10.14772/cscck.2025.41.151
 [research_kim_2025_2]: https://doi.org/10.14772/cscck.2025.43.71
 [research_kim_2026]: https://doi.org/10.46346/tjhs.143..3
@@ -3607,13 +3260,8 @@ $$
 [research_korean_war_2000]: https://doi.org/10.1037/e511362006-004
 [research_korhonen_2019]: https://doi.org/10.1080/23745118.2019.1645423
 [research_korhonen_2021]: https://doi.org/10.4324/9781003231370-3
-[research_kossowski_samolej_2024]: https://doi.org/10.3390/electronics13040683
-[research_kotov_1967]: https://doi.org/10.1007/bf00737613
 [research_koven_2019]: https://doi.org/10.1007/978-3-030-05779-4
 [research_kraev_2023]: https://doi.org/10.25136/2409-7144.2023.2.39834
-[research_krajcsi_2026]: https://doi.org/10.31234/osf.io/6m4zw_v1
-[research_krajcsi_lengyel_2017]: https://doi.org/10.31234/osf.io/dmau5
-[research_krajcsi_lengyel_2018]: https://doi.org/10.3389/fpsyg.2018.00124
 [research_kramer_1996]: https://doi.org/10.1086/ahr/101.5.1555
 [research_kremer_2014]: https://doi.org/10.1163/9789004264403_007
 [research_krumpelmann_1951]: https://doi.org/10.2307/453407
@@ -3622,13 +3270,10 @@ $$
 [research_kudtarkar_2026]: https://doi.org/10.3389/fams.2026.1811182
 [research_kuhlmann_2019]: https://doi.org/10.4337/9781786437631.00026
 [research_kuhn_radlick_2025]: https://doi.org/10.1002/rhc3.70014
-[research_kulenkampff_duraku_2023]: https://doi.org/10.7759/cureus.48660
-[research_kumar_shah_2026]: https://doi.org/10.3126/ta.v6i1.90323
 [research_kummel_2018]: https://doi.org/10.1007/978-3-319-71602-2_25
 [research_kurutz_1977]: https://doi.org/10.2307/25157692
 [research_kydland_prescott_1977]: https://doi.org/10.1086/260580
 [research_lafave_1990]: https://doi.org/10.2307/1289383
-[research_lafay_stpierre_2019]: https://doi.org/10.5964/jnc.v5i1.177
 [research_lagrotta_2026]: https://doi.org/10.31219/osf.io/dq3rk_v1
 [research_lai]: https://doi.org/10.5353/th_b4212820
 [research_laibe_2011]: https://doi.org/10.1038/npre.2011.6479.1
@@ -3646,9 +3291,7 @@ $$
 [research_laqueur]: https://doi.org/10.2307/j.ctv39x64g.13
 [research_larionova_tsareva_2021]: https://doi.org/10.2139/ssrn.3958813
 [research_laski_1923]: https://doi.org/10.1111/j.1467-9299.1923.tb02532.x
-[research_lasmana_amir_2020]: https://doi.org/10.21070/icecrs2020435
 [research_lau_kumaresan_2025]: https://doi.org/10.29115/sp-2024-0030
-[research_lau_merkley_2019]: https://doi.org/10.31234/osf.io/xpe9c
 [research_launitzschurer_siracusa_1976]: https://doi.org/10.1111/j.1467-8497.1976.tb00908.x
 [research_lechniakjasona_meltonjohne_2017]: https://ntrs.nasa.gov/citations/20170010152
 [research_lederer_1981]: https://doi.org/10.2307/44369180
@@ -3672,10 +3315,8 @@ $$
 [research_lewis_1981]: https://doi.org/10.2307/44369173
 [research_leys_1943]: https://doi.org/10.2307/973098
 [research_li_liu_2005]: https://doi.org/10.1016/j.mehy.2005.02.001
-[research_li_walls_2022]: https://doi.org/10.2139/ssrn.4119549
 [research_li_wu_2023]: https://doi.org/10.1109/ase56229.2023.00140
 [research_liang_he_2026]: https://doi.org/10.1016/j.jer.2025.04.007
-[research_license_plate_based_driving_2022]: https://doi.org/10.32907/ro-130-2718578741
 [research_lieberherr_thomann_2019]: https://doi.org/10.4337/9781786437631.00025
 [research_light_young_2017]: https://doi.org/10.4324/9781315554464-11
 [research_lima_1983]: https://doi.org/10.1007/978-3-642-69024-2_67
@@ -3683,13 +3324,9 @@ $$
 [research_lin_chen_2018]: https://doi.org/10.1007/978-3-319-31816-5_3600-1
 [research_lin_chen_2022]: https://doi.org/10.1007/978-3-030-66252-3_3600
 [research_lincoln_2023]: https://doi.org/10.1080/1461670x.2023.2230316
-[research_lindgren_1960]: https://doi.org/10.3109/00016926009172554
-[research_lindskog_simms_2021]: https://doi.org/10.31234/osf.io/v835g
-[research_lipatov_2020]: https://doi.org/10.11621/vsp.2020.01.08
 [research_lipinski_szabo_2022]: https://doi.org/10.1080/14782804.2022.2130190
 [research_liu_2017]: https://doi.org/10.1080/25723618.2017.1339516
 [research_liu_knox_2013]: https://doi.org/10.2146/ajhp130127
-[research_liu_luo_2010]: https://doi.org/10.1109/3ca.2010.5533838
 [research_llewellyn_1975]: https://doi.org/10.3776/ncl.v33i4.3129
 [research_lloyd_2002]: https://doi.org/10.1353/bio.2002.0008
 [research_locker_mason_2006]: https://doi.org/10.1097/01.mej.0000195677.23780.fa
@@ -3717,10 +3354,8 @@ $$
 [research_luo_zhang_2015]: https://doi.org/10.1109/dcabes.2015.13
 [research_luparev_2026]: https://doi.org/10.18572/2071-1166-2026-10-16-19
 [research_lutsukh_2026]: https://doi.org/10.5564/mjls.v1i115.5526
-[research_lyons_beilock_2011]: https://doi.org/10.1016/j.cognition.2011.07.009
 [research_lyonsamos_stones_2017]: https://doi.org/10.1186/s13104-017-3091-x
 [research_lytvynovska_olitskyi_2024]: https://doi.org/10.32782/2663-5984.2024/2.9
-[research_m_2022]: https://doi.org/10.26226/m.6317aafb7e215f5e7f384ece
 [research_maasing_2024]: https://doi.org/10.22364/lviz.122.09
 [research_macdonald_franko_2007]: https://doi.org/10.1177/1532673x07301654
 [research_machar_2014]: https://doi.org/10.14712/23361980.2014.6
@@ -3734,14 +3369,10 @@ $$
 [research_mainz_hess_2019]: https://doi.org/10.1093/intqhc/mzz008
 [research_majumdar_marcus_2001]: https://doi.org/10.2307/3069344
 [research_mak]: https://doi.org/10.5353/th_b3197554
-[research_makowski_sinha_1976]: https://doi.org/10.1016/0041-1647(76)90049-6
 [research_malcomson_2009]: https://doi.org/10.25071/2561-5467.394
 [research_malik_2021]: https://doi.org/10.1080/23737484.2021.1952492
-[research_mallikarachchi_dharmaratne_2014]: https://doi.org/10.1145/2636240.2636867
 [research_malone_2022]: https://doi.org/10.1007/978-3-030-89858-8_8
-[research_malyk_2022]: https://doi.org/10.46299/isg.2022.mono.med.2.3.1
 [research_mamet_2020]: https://doi.org/10.1007/978-3-030-58551-8_11
-[research_mamman_hanapi_2019]: https://doi.org/10.1371/journal.pone.0210310
 [research_mamvura_2020]: https://doi.org/10.1007/s12132-020-09408-2
 [research_mamvura_2020_2]: https://doi.org/10.1080/14725843.2020.1813554
 [research_mamvura_2021]: https://doi.org/10.1007/s12132-021-09433-9
@@ -3750,7 +3381,6 @@ $$
 [research_mandal_mandal_2024]: https://doi.org/10.48165/lt.2024.10.2.3
 [research_mangahis_2021]: https://doi.org/10.59350/esgcv-gaw55
 [research_mangena_2018]: https://doi.org/10.1080/14650045.2018.1508017
-[research_mangina_1994]: https://doi.org/10.1016/0167-8760(94)90279-8
 [research_mangombe_lwanga_2025]: https://doi.org/10.64754/thedyke.v18i1.374
 [research_maniquis_1989]: https://doi.org/10.1068/d070363
 [research_mann_2021]: https://doi.org/10.32920/ryerson.14648385
@@ -3780,7 +3410,6 @@ $$
 [research_mcauley_2018]: https://doi.org/10.25162/historia-2018-0019
 [research_mcauliffe_sharp_2022]: https://doi.org/10.5040/9781350110373.ch-006
 [research_mccutcheon_1981]: https://doi.org/10.3366/more.1981.18.2.6
-[research_mcewen_1946]: https://doi.org/10.4271/460119
 [research_mcharg_2017]: https://doi.org/10.2139/ssrn.3044092
 [research_mchugh_2016]: https://doi.org/10.1080/23337486.2016.1224055
 [research_mckeachie_1976]: https://doi.org/10.1037//0003-066x.31.12.819
@@ -3809,23 +3438,17 @@ $$
 [research_methodological_issues_2019]: https://doi.org/10.4337/9781786437631.00028
 [research_meza_perezchiques_2024]: https://doi.org/10.1332/policypress/9781447368748.003.0004
 [research_mhendershot_marsh_2024]: https://doi.org/10.1162/jcws_a_01196
-[research_michele_bossi_1991]: https://doi.org/10.1016/0315-0860(91)90606-x
 [research_middleton_wigginton_2026]: https://doi.org/10.2139/ssrn.7308838
-[research_mielicki_mbarki_2024]: https://doi.org/10.3389/fpsyg.2024.1175591
 [research_migliore_pound_2016]: https://doi.org/10.1080/21635781.2015.1133351
-[research_mikirtichan_2012]: https://doi.org/10.15690/vsp.v11i2.236
 [research_military_identity_1999]: https://doi.org/10.5040/9798216000556.ch-003
 [research_military_identity_2015]: https://doi.org/10.5771/9781498507448-35
 [research_military_identity_2020]: https://doi.org/10.31525/ct1-nct04261842
-[research_miller_1989]: https://doi.org/10.70359/bhc1989n05p003
 [research_miller_anderson_2002]: https://doi.org/10.1080/108712002753574783
 [research_miller_goldblum_2006]: https://doi.org/10.1037/e587712007-001
 [research_miller_sharma_2024]: https://doi.org/10.46787/pump.v7i0.4249
 [research_millerjay_jenkinsdennisr_2000]: https://ntrs.nasa.gov/citations/20010072175
 [research_milne_chan_2019]: https://doi.org/10.20944/preprints201902.0075.v1
-[research_miniati_1989]: https://doi.org/10.1163/182539189x00608
 [research_minihan_robinson_2023]: https://doi.org/10.1109/jcdl57899.2023.00072
-[research_mining_and_1976]: https://doi.org/10.2172/7132081
 [research_minow_2007]: https://doi.org/10.1353/gsp.2011.0047
 [research_mission_number_2014]: https://doi.org/10.2307/j.ctt1d9nkpm.5
 [research_missouriunivrolla_1988]: https://doi.org/10.21236/ada385568
@@ -3833,9 +3456,6 @@ $$
 [research_mller_peroni_1968]: https://doi.org/10.1007/bf00234215
 [research_moazzen_2016]: https://doi.org/10.1080/00210862.2015.1030985
 [research_moazzen_2018]: https://doi.org/10.1163/9789004356559_005
-[research_model_name_2017]: https://doi.org/10.5194/gmd-2016-307-sc2
-[research_model_name_2018]: https://doi.org/10.5194/gmd-2018-7-ac3
-[research_model_name_2019]: https://doi.org/10.5194/gmd-2019-86-ac1
 [research_modern_military_2009]: https://doi.org/10.5040/9798400672057.ch-008
 [research_moliner_bovina_2023]: https://doi.org/10.1177/17506980231170351
 [research_moller_2019]: https://doi.org/10.4337/9781786437631.00017
@@ -3848,11 +3468,8 @@ $$
 [research_morford_1876]: https://doi.org/10.2307/20637305
 [research_morris_1977]: https://doi.org/10.1086/ahr/82.1.1
 [research_morse]: https://doi.org/10.12794/metadc984246
-[research_moshayedi_yu_2024]: https://doi.org/10.1109/cisce62493.2024.10653444
 [research_moulton_2021]: https://doi.org/10.1111/soc4.12944
 [research_mountford_2019]: https://doi.org/10.24908/fede.v21i1.13840
-[research_mullen_1984]: https://doi.org/10.1002/ajmg.1320180405
-[research_munar_gomezpuerto_2014]: https://doi.org/10.1037/e554452014-001
 [research_munir_2024]: https://doi.org/10.2139/ssrn.4916498
 [research_munnik_2023]: https://doi.org/10.1007/978-3-031-37462-3_6
 [research_murdoch_2002]: https://doi.org/10.1163/9789004474307_008
@@ -3870,7 +3487,6 @@ $$
 [research_na_1995]: https://doi.org/10.1097/00001648-199503000-00029
 [research_nagi_stockwell_1973]: https://doi.org/10.2307/1402833
 [research_nalubolu_2026]: https://doi.org/10.2139/ssrn.7397018
-[research_names_naming_2026]: https://doi.org/10.5040/9798881899530
 [research_naming_china_political_2014]: https://doi.org/10.4324/9780203362044-7
 [research_naming_identity_2009]: https://doi.org/10.1037/e620772011-064
 [research_naming_the_1899]: https://doi.org/10.1038/scientificamerican04221899-244b
@@ -3883,10 +3499,8 @@ $$
 [research_national_commemoration]: https://doi.org/10.3726/978-3-0353-0604-0/12
 [research_national_identity_2017]: https://doi.org/10.4324/9781315081632-3
 [research_national_narratives_2013]: https://doi.org/10.4324/9780203770115-10
-[research_national_registration_2003]: https://doi.org/10.1111/j.1751-0813.2003.tb12561.x
 [research_national_symbols_2018]: https://doi.org/10.3138/9781442621558-003
 [research_nationality_memory_2014]: https://doi.org/10.1515/9780748676910-003
-[research_navickiene_2019]: https://doi.org/10.15388/knygotyra.2019.72.18
 [research_nayar_2020]: https://doi.org/10.5958/0976-1748.2020.00006.5
 [research_ndlovu_2017]: https://doi.org/10.1007/978-3-319-60555-5_18
 [research_ndlovu_erasmus_2026]: https://doi.org/10.1007/s12132-026-09568-7
@@ -3897,7 +3511,6 @@ $$
 [research_ngai_2002]: https://doi.org/10.17953/amer.28.3.am6642766781502h
 [research_ngoaketsi_2023]: https://doi.org/10.1007/978-3-031-34597-5_10
 [research_nguyen_hofman_2022]: https://doi.org/10.1145/3491102.3501852
-[research_nichols_2019]: https://doi.org/10.1111/nbfr.12460
 [research_nick_2021]: https://doi.org/10.5195/names.2021.2312
 [research_nick_2023]: https://doi.org/10.4324/9781003431510-1
 [research_nietert_wessell_2006]: https://doi.org/10.1016/j.amjhyper.2005.08.016
@@ -3910,10 +3523,7 @@ $$
 [research_nomenclature_for]: https://doi.org/10.3403/00199448u
 [research_nomenclature_in_1938]: https://doi.org/10.1038/142506c0
 [research_nora_1989]: https://doi.org/10.2307/2928520
-[research_norris_mcgeown_2015]: https://doi.org/10.3389/fpsyg.2015.00999
 [research_norton_1877]: https://doi.org/10.5479/sil.778938.39088011386901
-[research_nosseir_roshdy_2018]: https://doi.org/10.1145/3220267.3220276
-[research_novianto_2020]: https://doi.org/10.20961/shes.v3i3.46654
 [research_nuessel_1982]: https://doi.org/10.2307/454626
 [research_number_preference_2014]: https://doi.org/10.4324/9781315806181-14
 [research_number_symbolism]: https://doi.org/10.1163/1873-8338_dgwe_dgwe_263
@@ -3950,16 +3560,13 @@ $$
 [research_oktaviana_junawaroh_2023]: https://doi.org/10.14710/humanika.v30i2.58513
 [research_oliver_2012]: https://doi.org/10.5871/bacad/9780197264669.003.0006
 [research_oneill_1988]: https://doi.org/10.2307/3234868
-[research_ooe_fujita_2025]: https://doi.org/10.3169/mta.13.119
 [research_opdebeeck_zerouali_2020]: https://doi.org/10.1109/scam51674.2020.00032
 [research_opdebeeck_zerouali_2021]: https://doi.org/10.1016/j.jss.2021.111059
 [research_oppelland_2012]: https://doi.org/10.1080/09644008.2012.739613
 [research_orel_2014]: https://doi.org/10.1163/9789401210393_008
-[research_orentreich_1995]: https://doi.org/10.1111/j.1524-4725.1995.tb00216.x
 [research_ormerod_1994]: https://doi.org/10.1093/nq/41-1-30
 [research_osiander_steinke]: https://doi.org/10.2307/j.ctt1t89bw0.21
 [research_osiander_steinke_2015]: https://doi.org/10.46692/9781447313281.018
-[research_otsuki_katoh_2014]: https://doi.org/10.1007/s12199-014-0435-1
 [research_overton_cuffaro_2019]: https://doi.org/10.3233/ds-190022
 [research_owango_wyborn_2024]: https://doi.org/10.21428/359fb1d2.9da22319
 [research_owen_1968]: https://doi.org/10.1177/036985646800500314
@@ -3990,28 +3597,22 @@ $$
 [research_pardeshi_2010]: https://doi.org/10.4103/0970-0218.69256
 [research_parinandi_2012]: https://doi.org/10.2139/ssrn.2058155
 [research_parinandi_2013]: https://doi.org/10.1177/1532440013484477
-[research_parish_1976]: https://doi.org/10.1111/j.1365-4362.1976.tb01831.x
 [research_park_2017]: https://doi.org/10.35979/alj.2017.08.50.29
 [research_park_roy_2026]: https://doi.org/10.1177/01968599261491735
 [research_park_sin_2024]: https://doi.org/10.47116/apjcri.2024.01.04
 [research_parsons_fox_2018]: https://doi.org/10.1002/essoar.8b2d342cd994acc5.f4070afc84c54a65.1
-[research_particle_swarm_2026]: https://doi.org/10.18178/ijmerr.15.1.38-49
 [research_paschalidou_2021]: https://doi.org/10.22501/kmd-ar.1197726
 [research_paskin_1999]: https://doi.org/10.1108/02641619910255829
 [research_paul_2023]: https://doi.org/10.1093/ahr/rhad358
 [research_pechsri]: https://doi.org/10.58837/chula.the.2002.1070
 [research_pegis_1939]: https://doi.org/10.5840/thought193914424
 [research_peifer_2001]: https://doi.org/10.2307/2677627
-[research_pekar_hofmann_2023]: https://doi.org/10.3390/brainsci13050702
-[research_pelageya_yakovlevna_2009]: https://doi.org/10.1134/s0097807809050145
 [research_peleggi_2017]: https://doi.org/10.21313/hawaii/9780824866068.003.0002
 [research_penamarin_bhargave_2015]: https://doi.org/10.1016/j.jcps.2015.11.004
 [research_penny_1897]: https://doi.org/10.1093/nq/s8-xi.282.406c
 [research_pentz_2017]: https://doi.org/10.64000/g720f-z9z14
-[research_peranginangin_sitorus_2020]: https://doi.org/10.24114/jh.v11i1.19015
 [research_perera_2023]: https://doi.org/10.1007/978-3-031-21510-0_24
 [research_perezvera_2026]: https://doi.org/10.1016/j.softx.2026.103023
-[research_perkins_1903]: https://doi.org/10.1038/scientificamerican02281903-22702asupp
 [research_peter_1967]: https://doi.org/10.2307/2612853
 [research_peterwittenburg]: https://doi.org/10.11922/sciencedb.j00104.00019
 [research_peteshova_2026]: https://doi.org/10.47475/1994-2796-2026-508-2-20-27
@@ -4027,18 +3628,13 @@ $$
 [research_piligian_bashaw_1968]: https://doi.org/10.21236/ad0666652
 [research_pilowsky_levine_1969]: https://doi.org/10.1192/bjp.115.525.937
 [research_pinckney_cassano_2023]: https://doi.org/10.1109/msr59073.2023.00073
-[research_pinkus_1954]: https://doi.org/10.1093/ajcp/24.7.751
 [research_piotrowicz_czesak_2025]: https://doi.org/10.1038/s41598-025-22575-1
 [research_pitman_2002]: https://doi.org/10.1086/studdecoarts.10.1.40662992
-[research_please_include_2017]: https://doi.org/10.5194/gmd-2017-188-ec1
 [research_plebiscite_on_new_chilean_constitution_a_sad_but_appropriate_commemoration_of_seven_years_of_military_rule_sept_11_1980_2_pp]: https://doi.org/10.1163/2210-7975_hrd-1224-0099
 [research_plomp_2020]: https://doi.org/10.5334/dsj-2020-046
 [research_plumb_nickerson_2016]: https://doi.org/10.1055/s-0042-108727
 [research_poelen_vanoers_2026]: https://doi.org/10.17645/si.10879
 [research_politics_in_2022]: https://doi.org/10.24926/24716839.11802
-[research_polk_reed_2001]: https://doi.org/10.1006/brcg.2001.1486
-[research_pollack_wilkey_2022]: https://doi.org/10.5964/jnc.8069
-[research_pomerance_1985]: https://doi.org/10.1007/bfb0075761
 [research_pope_simonsohn_2010]: https://doi.org/10.1037/e722992011-103
 [research_pope_simonsohn_2010_2]: https://doi.org/10.1177/0956797610391098
 [research_post_2016]: https://doi.org/10.1080/14649365.2016.1260186
@@ -4063,7 +3659,6 @@ $$
 [research_quantick_2001]: https://doi.org/10.21236/ada393005
 [research_quesne_1969]: https://doi.org/10.2307/2412604
 [research_quirk_1988]: https://doi.org/10.2307/2151217
-[research_quiros_bedruz_2017]: https://doi.org/10.1109/tencon.2017.8228018
 [research_raaphorst_groeneveld_2019]: https://doi.org/10.4337/9781786437631.00018
 [research_rabin_2013]: https://doi.org/10.2139/ssrn.2310125
 [research_radovic]: https://doi.org/10.2298/bg20121103radovic
@@ -4071,17 +3666,10 @@ $$
 [research_raemaekers_vandeursen_2017]: https://doi.org/10.1016/j.jss.2016.04.008
 [research_railway_applications]: https://doi.org/10.3403/30141897
 [research_ramon_2024]: https://doi.org/10.1017/s0022216x24000397
-[research_ramos_cantillo_2017]: https://doi.org/10.1016/j.tranpol.2017.09.012
 [research_ramsey_2016]: https://doi.org/10.4324/9781315238319-4
 [research_ramutsindela_2025]: https://doi.org/10.4324/9781351122795-6
-[research_rand_1875]: https://doi.org/10.5479/sil.266719.39088005794854
-[research_rao_chen_2014]: https://doi.org/10.3724/sp.j.1146.2013.00188
-[research_raths_2011]: https://doi.org/10.1179/204243410x12880157235369
-[research_raths_2012]: https://doi.org/10.29311/mas.v10i3.213
-[research_raths_2013]: https://doi.org/10.14361/transcript.9783839423066.83
 [research_raycastner]: https://ntrs.nasa.gov/citations/20220005771
 [research_raymondcastner]: https://ntrs.nasa.gov/citations/20220000038
-[research_re_model_2016]: https://doi.org/10.5194/gmd-2016-136-ac1
 [research_recycled_carbon]: https://doi.org/10.3403/30500708
 [research_redfield_1992]: https://doi.org/10.1525/var.1992.8.2.58
 [research_rees_murray_2004]: https://doi.org/10.1037/e509012013-221
@@ -4090,11 +3678,9 @@ $$
 [research_registration_authority]: https://doi.org/10.1007/springerreference_452
 [research_registration_authority_2020]: https://doi.org/10.32388/bw85ho
 [research_registry_nomenclature_2020]: https://doi.org/10.32388/angtcq
-[research_reike_schwarz_2019]: https://doi.org/10.1037/pag0000272
 [research_rekhter_li_1993]: https://doi.org/10.17487/rfc1518
 [research_rekwozniak_2011]: https://doi.org/10.18778/1733-8077.07.1.06
 [research_renaming_cities_in_2024]: https://doi.org/10.21267/aquilo.2024.87.87.013
-[research_renaming_the_1986]: https://doi.org/10.7326/0003-4819-104-5-734_4
 [research_renanbarzilay_benjamin_2025]: https://doi.org/10.2139/ssrn.5249553
 [research_rendle_lively_2017]: https://doi.org/10.1111/1468-2281.12177
 [research_renedo_sobrino_2007]: https://doi.org/10.1016/j.fss.2007.02.008
@@ -4107,7 +3693,6 @@ $$
 [research_revolution_and_commemoration_2014]: https://doi.org/10.30760/inakos.2014..16.007
 [research_reyes_2026]: https://doi.org/10.1111/cura.70055
 [research_reyeslillo_rovira_2025]: https://doi.org/10.3145/cuvicom.09.eng
-[research_reynvoet_smets_2016]: https://doi.org/10.1016/b978-0-12-801637-4.00009-3
 [research_rezende_2016]: https://doi.org/10.5040/9781472596154-bed-p038
 [research_rhedecynian_1938]: https://doi.org/10.1093/nq/175.27.477l
 [research_rhyder_2023]: https://doi.org/10.1163/9789004683181_006
@@ -4120,7 +3705,6 @@ $$
 [research_rijnoveanu_2023]: https://doi.org/10.1007/978-3-030-02866-4_92-1
 [research_rijnoveanu_2026]: https://doi.org/10.1007/978-3-030-27279-1_92
 [research_riley_2024]: https://doi.org/10.22541/essoar.173343486.67496144/v1
-[research_riofernandez_sarriagandul_2007]: https://doi.org/10.5821/iwp.2006.5.15860
 [research_riotto_2020]: https://doi.org/10.1007/978-3-030-37647-5_7
 [research_rispail_leger_1998]: https://doi.org/10.1590/s0074-02761998000600016
 [research_rleys_2018]: https://doi.org/10.4324/9780429501555-3
@@ -4138,7 +3722,6 @@ $$
 [research_roseredwood_alderman_2009]: https://doi.org/10.1177/0309132509351042
 [research_roseredwood_kim_2020]: https://doi.org/10.1016/b978-0-08-102295-5.10868-6
 [research_rouleau_2018]: https://doi.org/10.1057/978-1-349-95269-4_4
-[research_rousselle_noel_2007]: https://doi.org/10.1016/j.cognition.2006.01.005
 [research_rowe_2024]: https://doi.org/10.4324/9781003292845-1
 [research_rowe_2024_2]: https://doi.org/10.4324/9781003292845
 [research_rowe_2024_3]: https://doi.org/10.4324/9781003292845-3
@@ -4152,8 +3735,6 @@ $$
 [research_ruggles_brodie_1947]: https://doi.org/10.1080/01621459.1947.10501915
 [research_rulemaking_and_1985]: https://doi.org/10.5040/9798400606915.0006
 [research_russell_1983]: https://doi.org/10.1061/(asce)1052-3928(1983)109:4(274)
-[research_russia_ponders_2023]: https://doi.org/10.1108/oxan-es275582
-[research_russo_2018]: https://doi.org/10.5951/teacchilmath.24.6.0378
 [research_ryan_2023]: https://doi.org/10.5771/9781538165256-1
 [research_ryan_2023_2]: https://doi.org/10.5771/9781538165256
 [research_rydell_2003]: https://doi.org/10.1353/tech.2003.0088
@@ -4166,7 +3747,6 @@ $$
 [research_rzepa_2020_3]: https://doi.org/10.59350/s35hr-k3s48
 [research_rzepa_2023]: https://doi.org/10.59350/rbz4s-dng05
 [research_rzepa_2023_2]: https://doi.org/10.59350/rr5k8-d1p52
-[research_s_stein_1965]: https://doi.org/10.2307/2003363
 [research_saito]: https://doi.org/10.4324/9780203891377.ch60
 [research_sakaguchi_gathergood_2020]: https://doi.org/10.2139/ssrn.3564728
 [research_salah_alnoor_2026]: https://doi.org/10.1080/01900692.2025.2605225
@@ -4174,8 +3754,6 @@ $$
 [research_salsburg_1997]: https://doi.org/10.1080/09332480.1997.10542065
 [research_samuelo_2018]: https://doi.org/10.19080/arr.2018.01.555556
 [research_sanabriapulido_langbein_2025]: https://doi.org/10.1080/10999922.2025.2520710
-[research_sasanguie_lyons_2017]: https://doi.org/10.1016/j.cognition.2017.04.007
-[research_savvides_1969]: https://doi.org/10.15209/offset.v0i13.497
 [research_scates_2026]: https://doi.org/10.1515/9781478062318-010
 [research_scates_yu_2023]: https://doi.org/10.4324/9781003397458-3
 [research_schaefer_1979]: https://doi.org/10.1017/s0034670500028734
@@ -4199,7 +3777,6 @@ $$
 [research_schuppan_2015]: https://doi.org/10.46692/9781447313281.015
 [research_schwartz_1982]: https://doi.org/10.2307/2578232
 [research_schwartz_2008]: https://doi.org/10.1353/sor.2008.0042
-[research_scope_of_2002]: https://doi.org/10.1016/s0921-4526(02)01491-6
 [research_scott_1991]: https://doi.org/10.1086/ahr/96.3.884
 [research_scourfield_2013]: https://doi.org/10.1093/bjsw/bct175
 [research_searle_1977]: https://doi.org/10.21236/ada047308
@@ -4207,7 +3784,6 @@ $$
 [research_seidenfeld_1998]: https://doi.org/10.2139/ssrn.140431
 [research_seits_2021]: https://doi.org/10.1201/9780429297786-9
 [research_selin_2017]: https://doi.org/10.1177/0275074017701225
-[research_sendjasni_larabi_2025]: https://doi.org/10.2139/ssrn.5084517
 [research_seraphim_2006]: https://doi.org/10.1163/9781684174478_007
 [research_serbout_pautasso_2024]: https://doi.org/10.1007/978-3-031-62362-2_25
 [research_serial_number_2020]: https://doi.org/10.32388/0l1etx
@@ -4220,7 +3796,6 @@ $$
 [research_sharma_sharma_2012]: https://doi.org/10.15415/mjis.2012.11003
 [research_shima_2025]: https://doi.org/10.32614/cran.package.smvr
 [research_shinn_smith_1876]: https://doi.org/10.5479/sil.17815.39088006007942
-[research_shinomiya_takamura_2013]: https://doi.org/10.3169/mta.1.271
 [research_shivan_2022]: https://doi.org/10.1177/2455328x211069492
 [research_shnit_1979]: https://doi.org/10.1300/j147v02n04_06
 [research_shorer_mahatshamir_2026]: https://doi.org/10.1111/famp.70140
@@ -4238,7 +3813,6 @@ $$
 [research_simov_2019]: https://doi.org/10.31168/2619-0877.2018.1.4
 [research_simpson_1964]: https://doi.org/10.1126/science.144.3619.712
 [research_singh_kashyap_2021]: https://doi.org/10.1017/s0021932021000249
-[research_singh_maheshwari_2022]: https://doi.org/10.2139/ssrn.4160465
 [research_singh_singh_2002]: https://doi.org/10.1080/15325000252888407
 [research_slavevagriffin_2014]: https://doi.org/10.1017/s0009840x14001334
 [research_slee_2023]: https://doi.org/10.1086/726528
@@ -4247,7 +3821,6 @@ $$
 [research_smith_2017]: https://doi.org/10.25071/1916-4467.40297
 [research_smith_wandelt_1991]: https://doi.org/10.21236/ada267845
 [research_sneath_1985]: https://doi.org/10.1016/b978-0-12-289665-1.50022-8
-[research_snitkuviene_2009]: https://doi.org/10.15388/aov.2009.3664
 [research_social_memory_2004]: https://doi.org/10.1017/cbo9780511617003.008
 [research_social_memory_2005]: https://doi.org/10.1163/9789004213739_015
 [research_social_services_street_level_2016]: https://doi.org/10.4324/9781315602325-3
@@ -4260,21 +3833,16 @@ $$
 [research_souvenir_from_2022]: https://doi.org/10.5040/9798216183945.ch-012
 [research_soyer_tunca_2025]: https://doi.org/10.1016/j.cities.2025.105851
 [research_spanou_2020]: https://doi.org/10.2139/ssrn.3656402
-[research_special_section_2025]: https://doi.org/10.23919/transcom.2024yuf0001
 [research_spillman_1997]: https://doi.org/10.1017/cbo9780511520938
 [research_spitzer_2025]: https://doi.org/10.2139/ssrn.5667130
 [research_spriet_dupinspriet_1997]: https://doi.org/10.1177/009286159703100337
 [research_starchenko_2023]: https://doi.org/10.18384/2310-712x-2023-3-72-84
 [research_stark_1981]: https://doi.org/10.2307/44369181
-[research_starr_dewind_2017]: https://doi.org/10.1016/j.cognition.2017.07.004
 [research_statement_by_2017]: https://doi.org/10.1515/9781772123111-012
-[research_steeves_2022]: https://doi.org/10.2172/1885715
-[research_stein_2001]: https://doi.org/10.1097/00005373-200104000-00032
 [research_stensota_2019]: https://doi.org/10.4337/9781786437631.00039
 [research_stephens_2013]: https://doi.org/10.1080/01426397.2012.756862
 [research_sterksteve_alexanderolivia_2018]: https://ntrs.nasa.gov/citations/20180006109
 [research_sterksteve_ogluinanthony_2016]: https://ntrs.nasa.gov/citations/20160012681
-[research_stern_ladany_1994]: https://doi.org/10.1007/bf01748485
 [research_stevenrhirshorn_tiffanylsmith_2024]: https://ntrs.nasa.gov/citations/20230008230
 [research_stibbe_sharp_2022]: https://doi.org/10.5040/9781350110373.ch-001
 [research_stockwell_1966]: https://doi.org/10.1080/19485565.1966.9987668
@@ -4305,10 +3873,8 @@ $$
 [research_szot_2018]: https://doi.org/10.2139/ssrn.3127470
 [research_szot_2019]: https://doi.org/10.3726/b15364
 [research_szuba_2023]: https://doi.org/10.3366/edinburgh/9781474484206.003.0006
-[research_szucs_white_2011]: https://doi.org/10.1037/e512592013-030
 [research_tahereen_2026]: https://doi.org/10.1080/14631369.2026.2734913
 [research_tang_yin_2017]: https://doi.org/10.1007/978-981-10-5077-0_6
-[research_tannen_1993]: https://doi.org/10.1681/asn.v3101639
 [research_tarpley_2006]: https://doi.org/10.1179/nam.2006.54.2.91
 [research_tarrant_manfredo_1993]: https://doi.org/10.1080/01490409309513202
 [research_tate_1979]: https://doi.org/10.1086/ahr/84.1.251
@@ -4316,11 +3882,9 @@ $$
 [research_taylor_1982]: https://doi.org/10.1017/s0022050700028588
 [research_technical_product]: https://doi.org/10.3403/30190714u
 [research_terrorism_and_2013]: https://doi.org/10.4324/9781315869490
-[research_the_75th_1985]: https://doi.org/10.1080/00253359.1985.10656034
 [research_the_aesthetics_2022]: https://doi.org/10.1515/9781501764967-009
 [research_the_american]: https://doi.org/10.1163/2468-1733_shafr_sim020040014
 [research_the_american_1876]: https://doi.org/10.1016/s0016-0032(76)90403-8
-[research_the_bicentennial_1901]: https://doi.org/10.1126/science.14.357.700
 [research_the_bicentennial_2020]: https://doi.org/10.1355/9789814881319-018
 [research_the_carrez_2007]: https://doi.org/10.15396/eres2007_405
 [research_the_centennial_1876]: https://doi.org/10.1038/scientificamerican05201876-324asupp
@@ -4337,7 +3901,6 @@ $$
 [research_the_colonial_2024]: https://doi.org/10.1515/9780824896201-006
 [research_the_commemoration_2017]: https://doi.org/10.4324/9781315081632-4
 [research_the_dilemma_1985]: https://doi.org/10.5040/9798400606915.0005
-[research_the_discovery_1945]: https://doi.org/10.1259/0007-1285-18-215-367
 [research_the_educational]: https://doi.org/10.3726/978-3-0353-0688-0/12
 [research_the_effect_2020]: https://doi.org/10.7176/ejbm/12-18-15
 [research_the_entangled]: https://doi.org/10.5040/9781474295697.0020
@@ -4347,7 +3910,6 @@ $$
 [research_the_law_2019]: https://doi.org/10.1090/spec/019/11
 [research_the_likely_2012]: https://doi.org/10.1215/9780822394594-009
 [research_the_likely_2020]: https://doi.org/10.1515/9780822394594-011
-[research_the_national_2018]: https://doi.org/10.15407/akademperiodyka.366.332
 [research_the_new_1975]: https://doi.org/10.1007/bf02860834
 [research_the_new_1976]: https://doi.org/10.1007/bf02860864
 [research_the_philadelphia_2020]: https://doi.org/10.36019/9780813546483-017
@@ -4370,7 +3932,6 @@ $$
 [research_theocharous_2024_3]: https://doi.org/10.1007/978-3-031-54415-6_6
 [research_theocharous_2024_4]: https://doi.org/10.1007/978-3-031-54415-6_2
 [research_theocharous_panos_2026]: https://doi.org/10.1016/j.jhg.2026.05.002
-[research_theodorakis_constantopoulos]: https://doi.org/10.1109/coopis.1997.613811
 [research_theoretical_issues_2019]: https://doi.org/10.4337/9781786437631.00013
 [research_thies_2004]: https://doi.org/10.1017/s002238160000428x
 [research_thirteen_is_1991]: https://doi.org/10.1177/000313139104100422
@@ -4408,7 +3969,6 @@ $$
 [research_tucker_1977]: https://doi.org/10.2307/44370338
 [research_tummers_bekkers_2013]: https://doi.org/10.1080/14719037.2013.841978
 [research_turai_2026]: https://doi.org/10.13060/gav.2026.005
-[research_two_divisions_1963]: https://doi.org/10.1021/cen-v041n039.p060
 [research_tyrala_2025]: https://doi.org/10.7494/human.2024.23.2.6654
 [research_ulysses_s_2017]: https://doi.org/10.5040/9798400626784.0069
 [research_umorin_2002]: https://doi.org/10.1023/a:1015620011281
@@ -4417,7 +3977,6 @@ $$
 [research_united_states_1978]: https://doi.org/10.3828/blr.1978.9.6.315b
 [research_unlucky_numbers_2023]: https://doi.org/10.1126/science.adg7536
 [research_uslenghi_2016]: https://doi.org/10.1057/9781137553966_2
-[research_utami_utaminingsih_2021]: https://doi.org/10.24176/jino.v4i2.6552
 [research_uy_2017]: https://doi.org/10.5406/americanmusic.35.1.0075
 [research_valentinarozaskrause_2018]: https://doi.org/10.2979/histmemo.30.2.03
 [research_valk_2026]: https://doi.org/10.30965/9783657705399-011
@@ -4429,14 +3988,10 @@ $$
 [research_vanveenendaal_2023]: https://doi.org/10.7207/twgn23-02
 [research_vasey_1876]: https://doi.org/10.5962/bhl.title.19456
 [research_vassallo_2014]: https://doi.org/10.1080/09639489.2013.875988
-[research_vdovenko_gusev_2025]: https://doi.org/10.35177/1994-5191-2025-2-15
 [research_velazquezlopezvelarde_2015]: https://doi.org/10.22136/est002015704
 [research_verma_2026]: https://doi.org/10.2139/ssrn.7484061
 [research_version_number_2020]: https://doi.org/10.32388/sbayw7
-[research_version_number_2022]: https://doi.org/10.5194/gmd-2021-404-ec1
 [research_vialagaudefroy_lindaman_2020]: https://doi.org/10.64628/aak.qtvw3xrgs
-[research_vilyaninov_popova_2019]: https://doi.org/10.17816/brmma25955
-[research_vinca_2019]: https://doi.org/10.5194/gmd-2019-134-ac1
 [research_vines_1989]: https://doi.org/10.2514/6.1989-2994
 [research_viondury_lagos_2016]: https://doi.org/10.1007/978-3-319-30142-6_3
 [research_vishalsurbun_2021]: https://doi.org/10.17159/obiter.v32i3.12247
@@ -4444,9 +3999,6 @@ $$
 [research_vivant_2020]: https://doi.org/10.4000/echogeo.21369
 [research_vivian_2007]: https://doi.org/10.2307/25655287
 [research_vlossak_2014]: https://doi.org/10.5040/9781474210843.0017
-[research_volobuiev_fedin_2015]: https://doi.org/10.33577/2312-4458.12.2015.13-22
-[research_voytekhovsky_2024]: https://doi.org/10.62139/2949-608x-2024-2-3-191-196
-[research_voytekhovsky_2024_2]: https://doi.org/10.62139/2949-608x-2024-2-2-178-203
 [research_vredenburgh_2023]: https://doi.org/10.1080/0020174x.2023.2261468
 [research_vuolteenaho_2017]: https://doi.org/10.4324/9781315258843
 [research_wagner_foster_1990]: https://doi.org/10.21236/ada250110
@@ -4458,7 +4010,6 @@ $$
 [research_wallnau_1992]: https://doi.org/10.21236/ada253323
 [research_wang_car_2017]: https://doi.org/10.5334/dsj-2017-020
 [research_wang_dunn_2007]: https://doi.org/10.1109/icccn.2007.4317847
-[research_wang_johannessen_2022]: https://doi.org/10.1016/j.aosl.2022.100151
 [research_wang_li_2025]: https://doi.org/10.1109/ai3e69313.2025.00107
 [research_wang_zhang_2008]: https://doi.org/10.1109/icicta.2008.419
 [research_wang_zhang_2026]: https://doi.org/10.1109/ecnct70535.2026.11661501
@@ -4466,7 +4017,6 @@ $$
 [research_wannenwetsch]: https://doi.org/10.53846/goediss-6205
 [research_wannenwetsch_majchrzak_2016]: https://doi.org/10.15439/2016f87
 [research_war_commemoration_2013]: https://doi.org/10.4324/9780203770115-18
-[research_waring_pennerwilger_2017]: https://doi.org/10.5964/jnc.v2i3.9
 [research_warman_2013]: https://doi.org/10.1179/0263990413z.00000000051
 [research_wars_afterwards]: https://doi.org/10.3726/978-3-0353-0604-0/28
 [research_watson_2014]: https://doi.org/10.5040/9781350214583.ch-009
@@ -4487,16 +4037,13 @@ $$
 [research_weiss_1997]: https://doi.org/10.2307/3317509
 [research_welding_and]: https://doi.org/10.3403/03100348u
 [research_wells_1981]: https://doi.org/10.1093/earlyj/9.1.32
-[research_wen_yu_2002]: https://doi.org/10.1520/jfs15298j
 [research_west_2016]: https://doi.org/10.4324/9781315572802
 [research_west_2016_2]: https://doi.org/10.4324/9781315572802-1
 [research_west_2025]: https://doi.org/10.53974/unza.jlss.6.2.1300
-[research_westaway_2018]: https://doi.org/10.64628/aa.9enm37m49
 [research_westcott_1876]: https://doi.org/10.5479/sil.245175.39088012405650
 [research_westjohn_roschk_2016]: https://doi.org/10.1509/jim.16.022
 [research_westjohn_roschk_2017]: https://doi.org/10.1509/jim.16.0022
 [research_white_2007]: https://doi.org/10.5871/bacad/9780197264065.003.0003
-[research_white_2015]: https://doi.org/10.64628/aai.d3e6d4wce
 [research_wicks_1975]: https://doi.org/10.3758/bf03201546
 [research_wicks_stockwell_1975]: https://doi.org/10.1080/19485565.1975.9988177
 [research_wideman_masuda_2017]: https://doi.org/10.1080/02723638.2017.1360038
@@ -4523,7 +4070,6 @@ $$
 [research_wolfe_1979]: https://doi.org/10.2307/1954004
 [research_wolffe_2014]: https://doi.org/10.7227/bjrl.90.1.3
 [research_women_and_2020]: https://doi.org/10.1017/9781108691512.015
-[research_wong_odic_2021]: https://doi.org/10.1037/xlm0000803
 [research_woo_horowitz_2008]: https://doi.org/10.1016/j.joep.2007.03.002
 [research_wood]: https://doi.org/10.14264/347147
 [research_woods_2009]: https://doi.org/10.2979/mer.2008.9.1.62
@@ -4533,14 +4079,10 @@ $$
 [research_xheritye_2026]: https://doi.org/10.55277/researchhub.m4wk413h.1
 [research_xiii_in_1966]: https://doi.org/10.1515/9781400878390-014
 [research_xu_hong_2026]: https://doi.org/10.1080/24694452.2026.2696836
-[research_xu_ji_2021]: https://doi.org/10.1016/s1002-0160(20)60060-1
-[research_yakovlev_1961]: https://doi.org/10.1007/bf00757528
 [research_yang]: https://doi.org/10.58837/chula.the.2025.1035
 [research_yang_1984]: https://doi.org/10.2753/clg0009-460917010281
-[research_yang_zhao_2025]: https://doi.org/10.2139/ssrn.5158386
 [research_yankson_2023]: https://doi.org/10.1080/07352166.2023.2166839
 [research_yanni_2003]: https://doi.org/10.2307/3592484
-[research_yanovsky_smith_2019]: https://doi.org/10.25251/skin.3.5.6
 [research_yao_2025]: https://doi.org/10.59350/4rmj5-7za85
 [research_yazdanparast_pourhoseingholi_2012]: https://doi.org/10.2427/5630
 [research_yeoh_2017]: https://doi.org/10.4324/9781315554464-3
@@ -4557,8 +4099,6 @@ $$
 [research_zerubavel_2014]: https://doi.org/10.2979/histmemo.26.1.5
 [research_zhang_2016]: https://doi.org/10.1515/9780295998480-008
 [research_zhang_liu_2022]: https://doi.org/10.1145/3551349.3556956
-[research_zhang_shi_2014]: https://doi.org/10.1061/9780784413623.061
-[research_zheng_2016]: https://doi.org/10.5194/gmd-2016-289-ac1
 [research_ziedorn_2020]: https://doi.org/10.65527/5q66r-9cx05
 [research_ziegler_crettaz_2022]: https://doi.org/10.1007/978-3-031-09901-4_4
 [research_zulfugarova_ayuksel_2025]: https://doi.org/10.1080/08961530.2025.2594791
