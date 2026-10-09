@@ -11,18 +11,17 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `75b9d99`
-- **Written**: 2026-10-09, by the X-Planes line, after the two repair cycles of 7 and 8 October.
+- **Parent commit** (the repository state this handoff describes): `f5f4639`
+- **Written**: 2026-10-09, by the X-Planes line, after the two repair cycles of 7 and 8 October and the
+  closing of the last two repair items on 9 October.
 - **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
   not be committed by it.
-- **PUSH STATE. NINE COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES TEN.** `origin/master` is at
-  `7721013`. The unpushed commits are, oldest first, `95dae6e`, `e59f20f`, `da1b458`, `ed93496`,
-  `c6112fa`, `15dbdbb`, `c72ec7d`, `dea95a8` and `75b9d99`. **The pilot instructed that the Open Library
-  repairs to PUBLISHED posts (`c6112fa`) be published, and the push was attempted and DENIED by the
-  permission classifier as a production deploy.** `./_check.sh` passed immediately before. **The push is
-  the pilot's to run**, as `! git push origin master`. The X-Planes drafts in those commits stay
-  unpublished, because drafts do not build. More than ten unpushed commits, or a different
-  `origin/master`, is a divergence worth reporting.
+- **PUSH STATE. ONE COMMIT IS UNPUSHED, AND THIS FILE'S COMMIT MAKES TWO.** On 9 October the pilot
+  instructed the push, `_check.sh` passed, and `origin/master` moved from `7721013` to `5acace6`, so the
+  Open Library repairs to published posts in `c6112fa` are live. The unpushed commit is `f5f4639`, the last
+  two X-Planes repair items. It touches drafts and status files only, so pushing it publishes nothing.
+  **Push only on the pilot's instruction.** More than two unpushed commits, or an `origin/master` other
+  than `5acace6`, is a divergence worth reporting.
 - **THE X-PLANES SERIES IS COMPLETE IN DRAFT AND HAS BEEN THROUGH TWO FULL REPAIR CYCLES.** All seventy-two
   articles, A297 through A368, have all four passes, and then the pilot's six decisions (7 October) and the
   completeness cycle (8 October). **Nothing in the series is published. The pilot's instruction is to hold
@@ -223,7 +222,15 @@ dump the heading list and read it**, and check for repeated headings programmati
 **Every survey figure in Where the Series Stands below is the figure at the end of drafting and is now
 stale.** The live figures are in each article and in `_drafts/draft_summary.md`, and the per-article
 record of what changed and why is in `tmp/fix5/<ART>/` (gitignored, so it does not survive a clean
-checkout) and in the two channel reports dated 2026-10-07 and 2026-10-08.
+checkout) and in the three channel reports dated 2026-10-07, 2026-10-08 and 2026-10-09.
+
+**9 October, `f5f4639`, the last two repair items closed.** No X-Planes draft carries an Open Library search
+link. 27 definitions were repointed by hand, Jenkins 2007 to NASA's Technical Reports Server record
+20080008340, and A322's clause citing an unidentifiable Bensen book was removed. A332's thin-subject table
+is recounted over the cited records under a stated title-phrase rule. The recount found 14 off-topic records,
+which were removed, taking A332 from 8,220 to 8,206 research records and **the series from 267,455 to
+267,441**. A332's equation-pass Before and After table still gives August harvest-pool counts, and is kept as
+past-tense drafting history under the history rule.
 
 **7 October, the pilot's six decisions, all executed.**
 - **Decision 1, `95dae6e`.** A297's function, injectivity, monotonicity and cluster claims are corrected,
@@ -452,26 +459,23 @@ the designation sequence as its subject.
 
 ## Open Items
 
-**Nothing the pilot has decided is unexecuted.** What remains:
+**Every repair item that needed no decision is closed.** What remains is the pilot's:
 
-1. **The push.** Nine commits are unpushed and the classifier blocks the agent. The pilot runs
-   `! git push origin master`. `c6112fa` repairs published posts and goes live on that push.
-2. **Publication of the series**, held by the pilot until the series is ready. **No agent publishes
+1. **Publication of the series**, held by the pilot until the series is ready. **No agent publishes
    without an explicit instruction.** When it comes:
    - observe the two-commit publication pattern;
    - run a production build check before any publishing push;
    - remember that forward `post_url` references are acceptable per the pilot but must resolve at build
      time, so the whole series publishes together or in index order.
-3. **Twenty-eight Open Library search links remain**, in 8 queries, where no clear title and author match
-   exists. Chambers *Radical Wings* holds 8, Winchester 8, Jenkins *X-15, Extending the Frontiers* 6,
-   Rotundo 2, and Godwin and Bensen 1 each. See `tmp/fix7/ol_review.json`.
-4. **A332's thin-subject table counts the harvest pool**, and the cited set cannot reproduce it.
-5. **Judgement calls the pilot may review**, each recorded per article:
+2. **Judgement calls the pilot may review**, each recorded per article:
    - generated citation lists inside sentences were spliced;
    - A368 lost four Military Balance designation tables as non-works;
    - editorials and discussion items were kept as works;
-   - the doubtful classes kept are in each `tmp/fix5/<ART>/filter.json`.
-6. **From before, not in X-Planes scope and not decided:**
+   - the doubtful classes kept are in each `tmp/fix5/<ART>/filter.json`;
+   - Winchester's book is matched to a work whose catalogue title is truncated, and A322's Bensen book
+     clause was removed rather than replaced.
+3. **The unpushed commit**, pushed only on instruction.
+4. **From before, not in X-Planes scope and not decided:**
    - the caps and shouted-title spans on published compiler posts;
    - the eight 2126 drafts' intent;
    - A369's factor-of-thirty claim, which awaits another repository.
@@ -483,7 +487,7 @@ the designation sequence as its subject.
 **Validate this file, re-read the three channels, report the state in a few lines, and wait for the
 pilot.** Do not start work unprompted. The likely next instructions are a push confirmation, a
 publication instruction for the series, or work on another line. **If the pilot asks to publish the
-series, read Open Items 2 first.** If the pilot asks for more X-Planes repair, the tools are these:
+series, read Open Items 1 first.** If the pilot asks for more X-Planes repair, the tools are these:
 - `tmp/fix5/survey_tool.py`: candidates, grep, apply, stats, find and resample.
 - `tmp/fix5/check5.py`: the per-article hard checks.
 - `tmp/fix5/flagfix.py`: a logged exact replacement.
