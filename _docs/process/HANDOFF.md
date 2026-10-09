@@ -11,14 +11,14 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `46a8524`
+- **Parent commit** (the repository state this handoff describes): `285f7c0`
 - **Written**: 2026-10-09, by the X-Planes line, after the drafting-process removal cycle that followed the
   repair cycles of 7 and 8 October.
 - **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
   not be committed by it.
-- **PUSH STATE. TWO COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES THREE.** `origin/master` is at `573c583`.
-  The unpushed commits are `3cf97f7`, the drafts, and `46a8524`, the status files. Both touch drafts and process
-  files only, so pushing publishes nothing. **Push only on the pilot's instruction.**
+- **PUSH STATE. FOUR COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES FIVE.** `origin/master` is at `573c583`.
+  The unpushed commits are `3cf97f7` (drafts), `46a8524` (status files), `59c83ca` (the earlier handoff) and `285f7c0`
+  (drafting notes and the style rule). None publishes anything. **Push only on the pilot's instruction.**
 - **THE X-PLANES SERIES IS COMPLETE IN DRAFT AND HAS BEEN THROUGH TWO FULL REPAIR CYCLES.** All seventy-two
   articles, A297 through A368, have all four passes, and then the pilot's six decisions (7 October) and the
   completeness cycle (8 October). **Nothing in the series is published. The pilot's instruction is to hold
@@ -237,6 +237,8 @@ the pilot run" are the working definition of what counts as process.
   negative test confirms it.
 - **Thirteen ledger `article_class` values are now "unstated".** Nine quoted sentences this cycle removed, and four
   were unsourced.
+- **Drafting notes live in process files, never in article prose, per the pilot.** The passages removed in this cycle
+  are tracked per article in `_docs/process/x_planes_drafting_notes/`, and the rule is in the style guide's Prose Rules.
 - **Gates at `46a8524`:**
   - check5 passes on all 72 articles;
   - all 72 drafts build in full, with no rendered-audit findings across 544 pages;
