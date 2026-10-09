@@ -18,6 +18,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Research Sweep Store](../../_research/README.md) | Durable rejection records and homonym patterns for literature sweeps |
 | [Article Tooling Library](../../_lib/README.md) | Shared fetch, edit, reference, reflow and lint mechanism for article scripts |
 | [Style Verification](./STYLE_VERIFICATION.md) | Verification scripts for style, references, math, and URLs |
+| [X-Planes Drafting Notes](./x_planes_drafting_notes/README.md) | Drafting notes removed from the X-Planes articles, per article, kept in process files rather than in article prose |
 | [Verification Traps](./VERIFICATION_TRAPS.md) | Mistakes the working method has actually made, and the observation that caught each one |
 | [Work Durability](./WORK_DURABILITY.md) | Keeping a long turn's work when the turn does not survive to deliver it |
 | [Sister Session](./SISTER_SESSION.md) | Coordination when a second session drafts in parallel |

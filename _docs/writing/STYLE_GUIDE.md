@@ -18,6 +18,7 @@ These rules are enforced both by the global CLAUDE.md and by the publication rev
 - **No prose parentheticals.** Mathematical notation parentheses are allowed inside equations and decibel unit annotations. Standard Wikipedia URL disambiguators such as `(spacecraft)` or `(airship)` are allowed as part of URLs.
 - **Broken-phrase line structure.** Each phrase or clause on its own line. This affects diffs and review without changing the rendered output.
 - **Spell out acronyms on first use.** See [Acronym Handling](./ACRONYM_HANDLING.md) for the rule and the exemption list.
+- **Article prose does not report on its own drafting process.** Drafting notes may live in process files but not in the article. That covers named passes, search and harvest histories, before and after counts, dated repair notes, corrections told as events, the article's own verification scripts, and the series' internal writing rules. The article states its sources, its method and its findings in the present tense, and a corrected claim is simply stated correctly. The X-Planes notes removed under this rule are kept per article in [X-Planes Drafting Notes](../process/x_planes_drafting_notes/README.md).
 
 ## Diction and Repetition
 
