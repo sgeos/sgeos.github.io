@@ -101,8 +101,7 @@ rescue. A parachute descends where the wind puts it. If that place is defended, 
 decided the outcome, and the crewman is a passenger in the decision.
 
 [Igor Bensen][ref_bensen_igor] had spent since 1953 building single-seat autogyros for the amateur market
-from his company in Raleigh, North Carolina,
-and set out his own account of the type in [his book on rotary wing flight][book_bensen_1957]. The
+from his company in Raleigh, North Carolina. The
 [B-8][ref_bensen_b8] family was sold as plans and as kits, it was simple enough to be built in a garage, and
 by 1968 Bensen himself held a substantial number of light-rotorcraft records.
 **The Air Force did not commission a new aircraft. It bought an existing civil design and gave it an X-designation**,
@@ -3180,7 +3179,6 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Brooks on the Cierva autogiros][book_brooks_1988]
 - [Charnov's account of the type][book_charnov_2003]
 - [Gessow and Myers][book_gessow_myers_1952]
-- [his book on rotary wing flight][book_bensen_1957]
 - [Hoerner's drag compendium][book_hoerner_1965]
 - [Jenkins, Landis and Miller on the American X-vehicles][book_jenkins_landis_miller_2003]
 - [Johnson's helicopter theory][book_johnson_1980]
@@ -3188,7 +3186,6 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Leishman's helicopter aerodynamics][book_leishman_2006]
 - [Prouty on helicopter performance, stability and control][book_prouty_1986]
 
-[book_bensen_1957]: https://openlibrary.org/search?q=Igor+Bensen+Rotary+Wing+Flight
 [book_brooks_1988]: https://openlibrary.org/works/OL5067183W
 [book_charnov_2003]: https://openlibrary.org/works/OL16917309W
 [book_gessow_myers_1952]: https://openlibrary.org/works/OL6781873W

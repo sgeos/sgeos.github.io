@@ -4,6 +4,33 @@
 
 ## Last Updated
 
+**Date**: 2026-10-09
+**Task**: **THE LAST TWO X-PLANES REPAIR ITEMS CLOSED: THE 28 OPEN LIBRARY SEARCH LINKS AND A332'S THIN-SUBJECT TABLE.** Committed, NOT pushed, NOT published.
+
+**PUSH.** On the pilot's instruction the ten earlier commits were pushed on 9 October after `_check.sh` passed, so `origin/master` reached `5acace6` and the Open Library repairs to published posts are live. This commit is not pushed.
+
+**OPEN LIBRARY.** No X-Planes draft now carries an Open Library search link.
+- 27 definitions in 9 articles across 7 books were repointed by hand to the specific record, each confirmed by the catalogue's author, title, publisher and year (`tmp/fix7/ol_manual_apply.py`, log `ol_manual_apply_log.json`).
+- Jenkins, *X-15, Extending the Frontiers of Flight*, is NASA SP-2007-562 and now points at NASA's Technical Reports Server record 20080008340, because Open Library does not hold it.
+- Winchester resolves to the 2005 Grange Books work whose catalogue title is truncated to "X Planes Prototypes/Experimental Aircraf".
+- **A322's clause saying Bensen "set out his own account of the type in his book on rotary wing flight" was removed.** The link named no title, and neither the article nor its sources identifies such a book. Open Library's only Bensen work is a 2004 memoir that cannot support the clause (`tmp/fix7/mopup/A322_bensen_book.md`).
+
+**A332.**
+- **The thin-subject table now counts the records the article cites**, under a stated rule and a new column of the title phrases counted, so anyone can repeat it. The old counts came from the unpublished August harvest pool, and two of its rows no longer reproduced even from that pool.
+- Stagnation temperature is now 28 records, eighteen modern, and standard atmosphere is 4, one modern. The unverifiable "took it from 9 to 35" claim was replaced.
+- **The recount read every matched title and found 14 off topic**, among them a monsoon simulation, photoflash compositions, arc discharges, radio scattering and Mars atmosphere guides. Their kinds were swept, and all 14 were removed.
+- Research records 8,220 to 8,206, so the series total is 267,441. A new Source Base paragraph dated 9 October records the removal. Logged in `tmp/fix5/A332/pass2.md`, with `filter.json` key `pass4`.
+
+**GATES.**
+- check5 passes on the ten touched articles, `tmp/a332/verify.py` passes 115 of 115, and `tmp/a322/verify_numbers.py` passes 71.
+- The ledger has 70 records with 0 failed quotes, and `verify368` passes 1,847 checks with 0 failures.
+- `_verify.py` reports 0 errors and 0 warnings.
+- The stub build of the ten touched drafts succeeded, and the rendered audit has no findings across 544 pages.
+
+**REMAINING, ALL THE PILOT'S.** Publication of the series, and the recorded judgement calls.
+
+---
+
 **Date**: 2026-10-08
 **Task**: **THE X-PLANES COMPLETENESS CYCLE: SECOND SAMPLING PASS, FULL READS, DOI AND OPEN LIBRARY REPAIRS, AND EVERY KNOWN DEFECT.** `dea95a8`, NOT pushed, NOT published.
 

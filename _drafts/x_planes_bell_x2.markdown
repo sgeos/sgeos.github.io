@@ -1143,7 +1143,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
 [book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
 [book_carslaw_jaeger_1959]: https://openlibrary.org/works/OL34686169W
-[book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
+[book_chambers_2008_radical_wings]: https://openlibrary.org/works/OL5834577W
 [book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
 [book_dowell_2014]: https://openlibrary.org/works/OL20677670W
 [book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
@@ -1163,7 +1163,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
 [book_incropera_heat_transfer]: https://openlibrary.org/works/OL2975219W
 [book_jenkins_2000_hypersonics]: https://openlibrary.org/works/OL813290W
-[book_jenkins_2007_x15]: https://openlibrary.org/search?q=Jenkins+X-15+Extending+the+Frontiers+of+Flight
+[book_jenkins_2007_x15]: https://ntrs.nasa.gov/citations/20080008340
 [book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
 [book_kimberlin_2003]: https://openlibrary.org/works/OL8874080W
 [book_kuchemann_1978]: https://openlibrary.org/works/OL22640504W
@@ -1195,7 +1195,7 @@ The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was bui
 [book_ward_strganac_niewoehner_2006]: https://openlibrary.org/works/OL19810630W
 [book_white_2006_viscous]: https://openlibrary.org/works/OL1911849W
 [book_whitford_1987]: https://openlibrary.org/works/OL5054670W
-[book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
+[book_winchester_2005_x_planes]: https://openlibrary.org/works/OL8492617W
 [book_wolfe_1979_right_stuff]: https://openlibrary.org/works/OL1925474W
 [ref_accelerometer]: https://en.wikipedia.org/wiki/Accelerometer
 [ref_aerodynamic_center]: https://en.wikipedia.org/wiki/Aerodynamic_center

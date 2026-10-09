@@ -1368,7 +1368,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
 [book_chambers_2000_partners]: https://openlibrary.org/works/OL33867704W
 [book_chambers_2005_innovation]: https://openlibrary.org/works/OL40097313W
-[book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
+[book_chambers_2008_radical_wings]: https://openlibrary.org/works/OL5834577W
 [book_constant_1980]: https://openlibrary.org/works/OL6325070W
 [book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
 [book_crossfield_blair_1960]: https://openlibrary.org/works/OL29040763W
@@ -1378,7 +1378,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [book_ferguson_1992]: https://openlibrary.org/works/OL4119982W
 [book_fung_1955]: https://openlibrary.org/works/OL2655267W
 [book_gelman_et_al_2013]: https://openlibrary.org/works/OL12630389W
-[book_godwin_2000_x15]: https://openlibrary.org/search?q=Godwin+X-15+The+NASA+Mission+Reports
+[book_godwin_2000_x15]: https://openlibrary.org/works/OL2881994W
 [book_gorn_1992_universal_man]: https://openlibrary.org/works/OL4400575W
 [book_gorn_2001_expanding_envelope]: https://openlibrary.org/works/OL4400572W
 [book_gunston_1992_faster_than_sound]: https://openlibrary.org/works/OL774338W
@@ -1391,14 +1391,14 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/works/OL39929219W
 [book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
 [book_hodges_pierce_2011]: https://openlibrary.org/works/OL16972710W
-[book_houchin_2006_dyna_soar]: https://openlibrary.org/search?q=Houchin+Hypersonic+Research+Rise+and+Fall+of+Dyna-Soar
+[book_houchin_2006_dyna_soar]: https://openlibrary.org/works/OL21244606W
 [book_hurt_1965]: https://openlibrary.org/works/OL4297319W
 [book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
 [book_jaynes_2003]: https://openlibrary.org/works/OL5911565W
 [book_jenkins_2000_hypersonics]: https://openlibrary.org/works/OL813290W
 [book_jenkins_2001_space_shuttle]: https://openlibrary.org/works/OL813312W
-[book_jenkins_2007_x15]: https://openlibrary.org/search?q=Jenkins+X-15+Extending+the+Frontiers+of+Flight
-[book_jenkins_landis_2003_hypersonic]: https://openlibrary.org/search?q=Jenkins+Landis+Hypersonic+The+Story+of+the+North+American+X-15
+[book_jenkins_2007_x15]: https://ntrs.nasa.gov/citations/20080008340
+[book_jenkins_landis_2003_hypersonic]: https://openlibrary.org/works/OL813289W
 [book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
 [book_johnson_smith_1985]: https://openlibrary.org/works/OL5461367W
 [book_jones_1998_composites]: https://openlibrary.org/works/OL1876296W
@@ -1431,7 +1431,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [book_regan_anandakrishnan_1993]: https://openlibrary.org/works/OL4305679W
 [book_rich_janos_1994]: https://openlibrary.org/works/OL3466236W
 [book_roskam_1985]: https://openlibrary.org/works/OL6612019W
-[book_rotundo_1994_into_the_unknown]: https://openlibrary.org/search?q=Rotundo+Into+the+Unknown+The+X-1+Story
+[book_rotundo_1994_into_the_unknown]: https://openlibrary.org/works/OL3920129W
 [book_sagan_1993]: https://openlibrary.org/works/OL3492159W
 [book_schlichting_gersten_2017]: https://openlibrary.org/works/OL20524688W
 [book_shapiro_1953]: https://openlibrary.org/works/OL5908243W
@@ -1451,7 +1451,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [book_ward_strganac_niewoehner_2006]: https://openlibrary.org/works/OL19810630W
 [book_white_2006_viscous]: https://openlibrary.org/works/OL1911849W
 [book_whitford_1987]: https://openlibrary.org/works/OL5054670W
-[book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
+[book_winchester_2005_x_planes]: https://openlibrary.org/works/OL8492617W
 [book_wolfe_1979_right_stuff]: https://openlibrary.org/works/OL1925474W
 [book_wright_cooper_2014]: https://openlibrary.org/works/OL12439109W
 [book_yeager_janos_1985]: https://openlibrary.org/works/OL4628050W

@@ -1065,7 +1065,7 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
 [book_brown_1988_wings_on_my_sleeve]: https://openlibrary.org/works/OL8273515W
 [book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
-[book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
+[book_chambers_2008_radical_wings]: https://openlibrary.org/works/OL5834577W
 [book_constant_1980]: https://openlibrary.org/works/OL6325070W
 [book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
 [book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
@@ -1101,7 +1101,7 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [book_pope_goin_1965]: https://openlibrary.org/works/OL3791131W
 [book_raymer_2018]: https://openlibrary.org/works/OL17855977W
 [book_roskam_1985]: https://openlibrary.org/works/OL6612019W
-[book_rotundo_1994_into_the_unknown]: https://openlibrary.org/search?q=Rotundo+Into+the+Unknown+The+X-1+Story
+[book_rotundo_1994_into_the_unknown]: https://openlibrary.org/works/OL3920129W
 [book_schlichting_gersten_2017]: https://openlibrary.org/works/OL20524688W
 [book_shapiro_1953]: https://openlibrary.org/works/OL5908243W
 [book_stengel_2004]: https://openlibrary.org/works/OL3486012W
@@ -1115,7 +1115,7 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 [book_ward_strganac_niewoehner_2006]: https://openlibrary.org/works/OL19810630W
 [book_white_2006_viscous]: https://openlibrary.org/works/OL1911849W
 [book_whitford_1987]: https://openlibrary.org/works/OL5054670W
-[book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
+[book_winchester_2005_x_planes]: https://openlibrary.org/works/OL8492617W
 [book_wolfe_1979_right_stuff]: https://openlibrary.org/works/OL1925474W
 [book_wood_1975_project_cancelled]: https://openlibrary.org/works/OL4333017W
 [book_yeager_janos_1985]: https://openlibrary.org/works/OL4628050W

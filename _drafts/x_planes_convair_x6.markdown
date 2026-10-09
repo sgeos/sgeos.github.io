@@ -1094,7 +1094,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
 [book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
 [book_carslaw_jaeger_1959]: https://openlibrary.org/works/OL34686169W
-[book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
+[book_chambers_2008_radical_wings]: https://openlibrary.org/works/OL5834577W
 [book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
 [book_ferguson_1992]: https://openlibrary.org/works/OL4119982W
 [book_gelman_et_al_2013]: https://openlibrary.org/works/OL12630389W
@@ -1126,7 +1126,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [book_torenbeek_1982]: https://openlibrary.org/works/OL9096469W
 [book_vaughan_1996]: https://openlibrary.org/works/OL2962391W
 [book_vincenti_1990]: https://openlibrary.org/works/OL4805206W
-[book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
+[book_winchester_2005_x_planes]: https://openlibrary.org/works/OL8492617W
 [ref_absorbed_dose]: https://en.wikipedia.org/wiki/Absorbed_dose
 [ref_accelerometer]: https://en.wikipedia.org/wiki/Accelerometer
 [ref_aec]: https://en.wikipedia.org/wiki/United_States_Atomic_Energy_Commission
