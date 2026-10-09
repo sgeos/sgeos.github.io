@@ -762,7 +762,7 @@ The precedent the X-15 inherited is [Day 1953][research_day_1953], on the glide-
 
 The X-15's calibration exercise was repeated on its successors, and the results are worth naming because they show the problem did not go away.
 
-[Richardson 1976][research_richardson_1976] compares flight test and wind tunnel performance characteristics for the X-24B, [Armstrong 1977][research_armstrong_1977] describes the flight planning that programme required, and [Neumann et al 1978][research_neumann_1978] treats the aerodynamic heating expected of the X-24C. The hypersonic research airplane concepts studied through the 1970s, which are the X-15's institutional descendants, are [Penland et al 1974][research_penland_1974], [Penland 1975][research_penland_1975], [Penland et al 1975, Aerodynamic characteristics of a h][research_penland_1975_2], [Penland et al 1978][research_penland_1978], and [Penland et al 1978, An aerodynamic analysis of several][research_penland_1978_2], with the propulsion in [Camp and Williams 1974][research_camp_williams_1974] and the scramjet integration that motivated them in [Weidner et al 1976][research_weidner_1976], [Small et al 1974][research_small_1974], and [Edwards 1976][research_edwards_1976]. The X-15's own installed engine experiment is [Andrews and Mackley 1976][research_andrews_mackley_1976].
+[Richardson 1976][research_richardson_1976] compares flight test and wind tunnel performance characteristics for the X-24B, [Armstrong 1977][research_armstrong_1977] describes the flight planning that programme required, and [Neumann et al 1978][research_neumann_1978] treats the aerodynamic heating expected of the X-24C. The hypersonic research airplane concepts studied through the 1970s, which are the X-15's institutional descendants, are [Penland et al 1974][research_penland_1974], [Penland 1975][research_penland_1975], [Penland et al 1975, Aerodynamic characteristics of a h][research_penland_1975_2], [Penland et al 1978][research_penland_1978], and [Penland et al 1978, An aerodynamic analysis of several][research_penland_1978_2], with the propulsion in [Van Camp and Williams 1974][research_camp_williams_1974] and the scramjet integration that motivated them in [Weidner et al 1976][research_weidner_1976], [Small et al 1974][research_small_1974], and [Edwards 1976][research_edwards_1976]. The X-15's own installed engine experiment is [Andrews and Mackley 1976][research_andrews_mackley_1976].
 
 **None of those aircraft was built.** The X-15 remains the only crewed vehicle to have flown the regime, which is why its calibration data were still being used decades later.
 
@@ -916,7 +916,7 @@ Attitude control through the same regime is [Wang et al 2025, Robust attitude co
 
 The article's Comparison section found that no facility of the 1960s could match Mach number, Reynolds number, and enthalpy at once. That has not been fixed. It has been managed.
 
-The facilities themselves continue in [Sudarshan et al 2023][research_sudarshan_2023], [Yuan and Jiang 2021][research_yuan_jiang_2021], [Malekipour et al 2021][research_malekipour_2021], and [Shen et al 2023][research_shen_2023]. **What is new is quantifying the resulting ignorance rather than arguing about it.** [Khoury and Hickey 2026][research_khoury_hickey_2026] and [Li et al 2025, Application of Uncertainty Quantif][research_li_2025_4] apply uncertainty quantification to turbulence models in this regime, [Koch et al 2025][research_koch_2025] to the probabilistic design of a thermal protection system, and [Ding et al 2025, Sensitivity analysis and uncertain][research_ding_2025_2] to a rarefied case. [Horing et al 2025][research_horing_2025] does sensitivity analysis on an entry vehicle directly.
+The facilities themselves continue in [Sudarshan et al 2023][research_sudarshan_2023], [Yuan and Jiang 2021][research_yuan_jiang_2021], [Malekipour et al 2021][research_malekipour_2021], and [Shen et al 2023][research_shen_2023]. **What is new is quantifying the resulting ignorance rather than arguing about it.** [El Khoury and Hickey 2026][research_khoury_hickey_2026] and [Li et al 2025, Application of Uncertainty Quantif][research_li_2025_4] apply uncertainty quantification to turbulence models in this regime, [Koch et al 2025][research_koch_2025] to the probabilistic design of a thermal protection system, and [Ding et al 2025, Sensitivity analysis and uncertain][research_ding_2025_2] to a rarefied case. [Horing et al 2025][research_horing_2025] does sensitivity analysis on an entry vehicle directly.
 
 Prediction of where such a vehicle will go, which is a different problem from flying it, is [Zhou et al 2026, Physics-Informed Ensemble Informer][research_zhou_2026_2], [He et al 2026][research_he_2026], and [Cai et al 2026][research_cai_2026]. The vehicles being designed against all of this are surveyed in [Long et al 2026][research_long_2026], [Nagata and Yamada 2026][research_nagata_yamada_2026], [MacLeod 2026][research_macleod_2026], [Paramadhayalan et al 2026][research_paramadhayalan_2026], and [Avasali Dineshkumar et al 2026][research_dineshkumar_2026]. **And a crewed suborbital industry now exists**, with the regulatory questions the X-15's programme met privately now met publicly in [Antonaros and Curran 2026][research_antonaros_curran_2026].
 
@@ -1099,7 +1099,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Bueche 1966][research_bueche_1966]
 - [Cai et al 2026][research_cai_2026]
 - [Cai et al 2026, Improved two-phase sequential conv][research_cai_2026_2]
-- [Camp and Williams 1974][research_camp_williams_1974]
+- [Van Camp and Williams 1974][research_camp_williams_1974]
 - [Cattrell 1955][research_cattrell_1955]
 - [Cerminara et al 2026][research_cerminara_2026]
 - [Chang 1966][research_chang_1966]
@@ -1206,7 +1206,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Keener and Polek 1972][research_keener_polek_1972]
 - [Kendall 1974][research_kendall_1974]
 - [Kessler et al 1971][research_kessler_1971]
-- [Khoury and Hickey 2026][research_khoury_hickey_2026]
+- [El Khoury and Hickey 2026][research_khoury_hickey_2026]
 - [Kim and Choi 2026][research_kim_choi_2026]
 - [Kind and Orlik-rueckemann 1966][research_kind_orlik_rueckemann_1966]
 - [Klett 1964][research_klett_1964]

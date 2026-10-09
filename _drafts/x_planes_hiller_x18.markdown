@@ -37,11 +37,11 @@ So the configuration divides the wing into two parts that behave completely diff
 
 The alternatives were understood and each had a known defect. A helicopter has a low disc loading and cannot cruise efficiently. A tail-sitter, as the [X-13][related_post_a310_ryan_x13] showed, asks the pilot to land looking over his shoulder. A deflected-jet aircraft, as the [X-14][related_post_a311_bell_x14] showed, spends an enormous fraction of its thrust simply on being controllable.
 
-**A tilt-wing promised a genuine transport aircraft**, one that hovers like a helicopter and then cruises like an aeroplane with the whole wing working. Design studies of the period compare the options directly, in [IRVIN and SWAN 1956][research_irvin_swan_1956] and [Boeing Co Morton Pa Vertol Div 1956][research_div_1956], and the tilt-wing's commercial case is argued in [Mazzitelli 1957][research_mazzitelli_1957].
+**A tilt-wing promised a genuine transport aircraft**, one that hovers like a helicopter and then cruises like an aeroplane with the whole wing working. Design studies of the period compare the options directly, in [Irvin and Swan 1956][research_irvin_swan_1956] and [Boeing Co Morton Pa Vertol Div 1956][research_div_1956], and the tilt-wing's commercial case is argued in [Mazzitelli 1957][research_mazzitelli_1957].
 
-The configuration's own design requirements were being written at the same time, in [Stuart III 1956][research_iii_1956], [DALLAS and IRVIN 1956][research_dallas_irvin_1956], and the successive treatments of [McCormick and Mallen 1957][research_mccormick_mallen_1957]. Earlier convertiplane flight experience is recorded in [Marks 1956][research_marks_1956] and the critical advance ratio problem in [DOETSCH and MARK 1953][research_doetsch_mark_1953].
+The configuration's own design requirements were being written at the same time, in [Stuart, III 1956][research_iii_1956], [Dallas and Irvin 1956][research_dallas_irvin_1956], and the successive treatments of [McCormick and Mallen 1957][research_mccormick_mallen_1957]. Earlier convertiplane flight experience is recorded in [Marks 1956][research_marks_1956] and the critical advance ratio problem in [Doetsch and Mark 1953][research_doetsch_mark_1953].
 
-The tilt-wing and its relatives were studied continuously from the mid-1950s to the present, across [McCormick and W. 1956, Comparative Study of Various Types][research_mccormick_w_1956_2], [FELDMAN 1956][research_feldman_1956], [Stepniewski 1957][research_stepniewski_1957], [Stuart 1957][research_stuart_1957], [Stuart 1957, Tilt Wing Propelloplane Design Req][research_stuart_1957_2], [Ward 1960][research_ward_1960], [Koenig and Quigley 1960][research_koenig_quigley_1960], [Quigley and Koenig 1960][research_quigley_koenig_1960], [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960], [Tosti 1961][research_tosti_1961], [O'ROURKE and RUTHERFORD 1991][research_o_rourke_rutherford_1991], [Totah 1992][research_totah_1992], [RUTHERFORD and BASS 1992][research_rutherford_bass_1992], [Sullivan 1993][research_sullivan_1993], [Harris 2003][research_harris_2003], [Armutcuoglu et al 2004][research_armutcuoglu_2004], [de Madrid et al 2007][research_madrid_2007], [Holsten et al 2011][research_holsten_2011], [Cui et al 2019][research_cui_2019], [Rohr et al 2019][research_rohr_2019], [Binz et al 2019][research_binz_2019], [Geuther et al 2020][research_geuther_2020].
+The tilt-wing and its relatives were studied continuously from the mid-1950s to the present, across [McCormick 1956, Comparative Study of Various Types][research_mccormick_w_1956_2], [Feldman 1956][research_feldman_1956], [Stepniewski 1957][research_stepniewski_1957], [Stuart 1957][research_stuart_1957], [Stuart 1957, Tilt Wing Propelloplane Design Req][research_stuart_1957_2], [Ward 1960][research_ward_1960], [Koenig and Quigley 1960][research_koenig_quigley_1960], [Quigley and Koenig 1960][research_quigley_koenig_1960], [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960], [Tosti 1961][research_tosti_1961], [O'Rourke and Rutherford 1991][research_o_rourke_rutherford_1991], [Totah 1992][research_totah_1992], [Rutherford and Bass 1992][research_rutherford_bass_1992], [Sullivan 1993][research_sullivan_1993], [Harris 2003][research_harris_2003], [Armutcuoglu et al 2004][research_armutcuoglu_2004], [de Madrid et al 2007][research_madrid_2007], [Holsten et al 2011][research_holsten_2011], [Cui et al 2019][research_cui_2019], [Rohr et al 2019][research_rohr_2019], [Binz et al 2019][research_binz_2019], [Geuther et al 2020][research_geuther_2020].
 
 What nobody had was flight evidence that the conversion was flyable at full scale. **That is what the X-18 was built to obtain, and it is what the X-18 failed to obtain.**
 
@@ -97,7 +97,7 @@ $$\frac{90 - 15}{90} = 0.833$$
 
 Maximum lift and stalling behaviour of full-scale wings had been catalogued since [Sweberg and Dingeldein 1945][research_sweberg_dingeldein_1945], and the leading-edge stall mechanism at high incidence in [Black 1956][research_black_1956], so the designers were not working blind about the stall itself. They were working blind about what a propeller does to it.
 
-Stall and maximum lift on wings of this kind were catalogued extensively over the same decades, across [SHARP 1950][research_sharp_1950], [Hickey and Aoyagi 1960][research_hickey_aoyagi_1960], [Feistel et al 1978][research_feistel_1978], [Nelson and Mouch 1978][research_nelson_mouch_1978], [Wang 1979][research_wang_1979], [VINCENT et al 1979][research_vincent_1979], [Smith and Levin 1981][research_smith_levin_1981], [BENNETT et al 1983][research_bennett_1983], [Anderson and Cho 1984][research_anderson_cho_1984], [Bartlett 1985][research_bartlett_1985], [Hoadley and Pederson 2001][research_hoadley_pederson_2001], [Catalano 2004][research_catalano_2004], [Delamore-Sutcliffe and Greenwell 2006][research_delamore_sutcliffe_greenwell_2006], [Uhlig and Selig 2008][research_uhlig_selig_2008], [Fan et al 2019][research_fan_2019], [S.P et al 2022][research_s_p_2022], [Xiao et al 2022][research_xiao_2022], [Goharshadi and Mirzaei 2022][research_goharshadi_mirzaei_2022].
+Stall and maximum lift on wings of this kind were catalogued extensively over the same decades, across [Sharp 1950][research_sharp_1950], [Hickey and Aoyagi 1960][research_hickey_aoyagi_1960], [Feistel et al 1978][research_feistel_1978], [Nelson and Mouch 1978][research_nelson_mouch_1978], [Wang 1979][research_wang_1979], [Vincent et al 1979][research_vincent_1979], [Smith and Levin 1981][research_smith_levin_1981], [Bennett et al 1983][research_bennett_1983], [Anderson and Cho 1984][research_anderson_cho_1984], [Bartlett 1985][research_bartlett_1985], [Hoadley and Pederson 2001][research_hoadley_pederson_2001], [Catalano 2004][research_catalano_2004], [Delamore-Sutcliffe and Greenwell 2006][research_delamore_sutcliffe_greenwell_2006], [Uhlig and Selig 2008][research_uhlig_selig_2008], [Fan et al 2019][research_fan_2019], [S.P et al 2022][research_s_p_2022], [Xiao et al 2022][research_xiao_2022], [Goharshadi and Mirzaei 2022][research_goharshadi_mirzaei_2022].
 
 **The outer wing is stalled for five sixths of the conversion.** That is geometric and not aerodynamic, and no amount of section design removes it, because the wing is pointed away from the oncoming air by construction. The stall behaviour of exactly this configuration was measured, in [Giulianetti and Weiberg 1964][research_giulianetti_weiberg_1964], and the prediction of span loading on a propeller-blown wing up to stall is the subject of [McVeigh et al 1975][research_mcveigh_1975].
 
@@ -155,7 +155,7 @@ For the un-immersed panel $v_s = 0$ and this collapses to $\alpha = i_w$, which 
 | 30 m/s | 5.0 | 9.9 | 14.6 | 19.1 | 23.1 | 26.5 |
 | 60 m/s | 7.5 | 15.0 | 22.5 | 30.0 | 37.5 | 45.0 |
 
-The interference this relation idealises is the configuration's central aerodynamic subject and has its own long literature, in [THOREN and JOHNSON 1940][research_thoren_johnson_1940], [Stiesz 1940][research_stiesz_1940], [BRENCKMANN 1958][research_brenckmann_1958], [Kuhn 1959][research_kuhn_1959], [VIDAL et al 1960][research_vidal_1960], [Grunwald 1961][research_grunwald_1961], [Weiberg and Holzhauser 1961][research_weiberg_holzhauser_1961], [Kuhn and Grunwald 1961][research_kuhn_grunwald_1961], [Rizk 1980][research_rizk_1980], [RIZK 1980, Propeller slipstream/wing interact][research_rizk_1980_2], [KATZ et al 1980][research_katz_1980], [Welge et al 1981][research_welge_1981], [Moens and Gardarein 2001][research_moens_gardarein_2001], [Renooij and Slingerland 2004][research_renooij_slingerland_2004], [Wang et al 2019][research_wang_2019], [Wang et al 2019, Aerodynamic design of multi-propel][research_wang_2019_3], [Mikhalyov et al 2019][research_mikhalyov_2019], [Xue and Zhou 2020][research_xue_zhou_2020].
+The interference this relation idealises is the configuration's central aerodynamic subject and has its own long literature, in [Thoren and Johnson 1940][research_thoren_johnson_1940], [Stiesz 1940][research_stiesz_1940], [Brenckmann 1958][research_brenckmann_1958], [Kuhn 1959][research_kuhn_1959], [Vidal et al 1960][research_vidal_1960], [Grunwald 1961][research_grunwald_1961], [Weiberg and Holzhauser 1961][research_weiberg_holzhauser_1961], [Kuhn and Grunwald 1961][research_kuhn_grunwald_1961], [Rizk 1980][research_rizk_1980], [Rizk 1980, Propeller slipstream/wing interact][research_rizk_1980_2], [Katz et al 1980][research_katz_1980], [Welge et al 1981][research_welge_1981], [Moens and Gardarein 2001][research_moens_gardarein_2001], [Renooij and Slingerland 2004][research_renooij_slingerland_2004], [Wang et al 2019][research_wang_2019], [Wang et al 2019, Aerodynamic design of multi-propel][research_wang_2019_3], [Mikhalyov et al 2019][research_mikhalyov_2019], [Xue and Zhou 2020][research_xue_zhou_2020].
 
 **At zero forward speed the immersed wing is at exactly zero angle of attack, at any tilt whatever.** The only flow it sees comes straight down its own chord. It is not stalled, not marginal, and needs no high-lift device to be unstalled. The un-immersed panel meanwhile sits at the full tilt angle at every speed in the table.
 
@@ -206,7 +206,7 @@ Solving for the tilt that balances weight at each speed, and setting it beside t
 | 50 m/s | 20.5° | 33.1° | 12.6° |
 | 60 m/s | 17.0° | 30.0° | 13.1° |
 
-The transition problem and the corridor concept were the central preoccupation of the powered-lift community for decades, across [Boeing Co Morton Pa Vertol Div 1956, Comparative Study of Various Type][research_div_1956_2], [Smith 1958][research_smith_1958], [Loewy and Yntema 1958][research_loewy_yntema_1958], [BAXTER and FINVOLD 1958][research_baxter_finvold_1958], [Mallen and Dancik 1959][research_mallen_dancik_1959], [NACA 1960][research_naca_1960], [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], [Tapscott 1960][research_tapscott_1960], [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2], [Anderson 1960][research_anderson_1960], [Stapleford 1980][research_stapleford_1980], [Roberts et al 1981][research_roberts_1981], [FLUK 1981][research_fluk_1981], [HILL 1981][research_hill_1981], [Verma and Junkins 2000][research_verma_junkins_2000], [Kahne 2000][research_kahne_2000], [Kahne 2000, Research Issues in the Transition][research_kahne_2000_2], [Chana 2002][research_chana_2002], [Ng and Datta 2019][research_ng_datta_2019], [Biyela and Rawatlal 2019][research_biyela_rawatlal_2019], [Wang et al 2019, Research on Dynamic Modeling and T][research_wang_2019_2], [Wang et al 2019, Stability Analysis of Tailsitters][research_wang_2019_4].
+The transition problem and the corridor concept were the central preoccupation of the powered-lift community for decades, across [Boeing Co Morton Pa Vertol Div 1956, Comparative Study of Various Type][research_div_1956_2], [Smith 1958][research_smith_1958], [Loewy and Yntema 1958][research_loewy_yntema_1958], [Baxter and Finvold 1958][research_baxter_finvold_1958], [Mallen and Dancik 1959][research_mallen_dancik_1959], [NACA 1960][research_naca_1960], [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], [Tapscott 1960][research_tapscott_1960], [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2], [Anderson 1960][research_anderson_1960], [Stapleford 1980][research_stapleford_1980], [Roberts et al 1981][research_roberts_1981], [Fluk 1981][research_fluk_1981], [Hill 1981][research_hill_1981], [Verma and Junkins 2000][research_verma_junkins_2000], [Kahne 2000][research_kahne_2000], [Kahne 2000, Research Issues in the Transition][research_kahne_2000_2], [Chana 2002][research_chana_2002], [Ng and Datta 2019][research_ng_datta_2019], [Biyela and Rawatlal 2019][research_biyela_rawatlal_2019], [Wang et al 2019, Research on Dynamic Modeling and T][research_wang_2019_2], [Wang et al 2019, Stability Analysis of Tailsitters][research_wang_2019_4].
 
 **A corridor exists at every speed.** That is worth stating plainly, because the argument so far has emphasised what is stalled and could leave the impression that the configuration is marginal. **It is not. The tilt-wing works, with a margin of between twelve and thirty-eight degrees of tilt throughout.** The X-18 was under-equipped for the configuration, not attempting an impossible one.
 
@@ -228,7 +228,7 @@ so **a tilt-wing can be stalled by its own rate of descent at constant tilt and 
 | 50 m/s | 4.99 m/s, or 983 ft/min |
 | 60 m/s | 6.87 m/s, or 1,351 ft/min |
 
-**This is not a novel observation and the literature confirms it directly.** The descent capability of two-propeller tilt-wing configurations, which is the X-18's exact arrangement, was measured and reported in [James L. Hassell 1966][research_james_l_hassell_1966]. The wider subject, including the vortex ring state that a lifting rotor meets in descent and its modern computational treatment, runs through [James L. Hassell 1966][research_james_l_hassell_1966], [Johnson 1977][research_johnson_1977], [Lee 1985][research_lee_1985], [Inoue et al 1997][research_inoue_1997], [Johnson 2004][research_johnson_2004], [Johnson 2005][research_johnson_2005], [Prasad and Chen 2006][research_prasad_chen_2006], [Young 2010][research_young_2010], [Yan et al 2012][research_yan_2012], [Stalewski and Surmacz 2019][research_stalewski_surmacz_2019], [Stalewski and Surmacz 2020][research_stalewski_surmacz_2020], [Makeev et al 2021][research_makeev_2021], [MAKEEV et al 2021, Numerical investigation of full sc][research_makeev_2021_2], [Sridharan and Govindarajan 2022][research_sridharan_govindarajan_2022].
+**This is not a novel observation and the literature confirms it directly.** The descent capability of two-propeller tilt-wing configurations, which is the X-18's exact arrangement, was measured and reported in [James L. Hassell 1966][research_james_l_hassell_1966]. The wider subject, including the vortex ring state that a lifting rotor meets in descent and its modern computational treatment, runs through [James L. Hassell 1966][research_james_l_hassell_1966], [Johnson 1977][research_johnson_1977], [Lee 1985][research_lee_1985], [Inoue et al 1997][research_inoue_1997], [Johnson 2004][research_johnson_2004], [Johnson 2005][research_johnson_2005], [Prasad and Chen 2006][research_prasad_chen_2006], [Young 2010][research_young_2010], [Yan et al 2012][research_yan_2012], [Stalewski and Surmacz 2019][research_stalewski_surmacz_2019], [Stalewski and Surmacz 2020][research_stalewski_surmacz_2020], [Makeev et al 2021][research_makeev_2021], [Makeev et al 2021, Numerical investigation of full sc][research_makeev_2021_2], [Sridharan and Govindarajan 2022][research_sridharan_govindarajan_2022].
 
 **Two hundred and eighty-four feet per minute at the slow end is a gentle descent by any normal standard**, and it exhausts the margin. That is the tilt-wing descent problem, it is why these aircraft carried restricted descent envelopes, and it explains why the approach and not the take-off was the difficult half of the flight.
 
@@ -258,9 +258,9 @@ At a tail arm of 8.64 metres, a thousand pounds force of deflected jet gives 38.
 
 $$V_{\text{cross}} = \sqrt{\frac{2 M_{\text{jet}}}{\rho S \bar{c}\, C_{m\delta_e} \delta_e}} = 30.2\ \text{m/s} = 58.6\ \text{kt}$$
 
-The control-power requirement that makes such a system necessary was being established across the same years, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958], [Slaughter 1958][research_slaughter_1958], and [Crim 1959][research_crim_1959], with the underlying hovering-stability question in [McCaskill 1953][research_mccaskill_1953] and the variable-stability technique that produced much of it in [Harper and P. 1955][research_harper_p_1955].
+The control-power requirement that makes such a system necessary was being established across the same years, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958], [Slaughter 1958][research_slaughter_1958], and [Crim 1959][research_crim_1959], with the underlying hovering-stability question in [McCaskill 1953][research_mccaskill_1953] and the variable-stability technique that produced much of it in [Harper 1955][research_harper_p_1955].
 
-The control-power and handling-qualities literature that establishes how much authority is enough runs through [Gray et al 1953][research_gray_1953], [DAUGHADAY and DUWALDT 1955][research_daughaday_duwaldt_1955], [Anderson 1960, Highlights of Handling Qualities C][research_anderson_1960_2], [Anderson 1960, Highlights of handling qualities c][research_anderson_1960_3], [BULL 1960][research_bull_1960], [Newsom 1962][research_newsom_1962], [Newsom 1962, Force-test Investigation of the St][research_newsom_1962_2], [Van Dam et al 1980][research_dam_1980], [HESS 1981][research_hess_1981], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983], [Harris et al 2000][research_harris_2000], [Teofilatto 2001][research_teofilatto_2001], [Srinathkumar 2011][research_srinathkumar_2011], [Baughman and Longeauay 2015][research_baughman_longeauay_2015], [Portapas and Cooke 2020][research_portapas_cooke_2020], [Humphreys-Jennings et al 2020][research_humphreys_jennings_2020], [Campos and Marques 2021][research_campos_marques_2021], [Guo 2021][research_guo_2021].
+The control-power and handling-qualities literature that establishes how much authority is enough runs through [Gray et al 1953][research_gray_1953], [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955], [Anderson 1960, Highlights of Handling Qualities C][research_anderson_1960_2], [Anderson 1960, Highlights of handling qualities c][research_anderson_1960_3], [Bull 1960][research_bull_1960], [Newsom 1962][research_newsom_1962], [Newsom 1962, Force-test Investigation of the St][research_newsom_1962_2], [Van Dam et al 1980][research_dam_1980], [Hess 1981][research_hess_1981], [Goldstein 1982][research_goldstein_1982], [NACA 1982][research_naca_1982], [Corless and Blanken 1983][research_corless_blanken_1983], [Harris et al 2000][research_harris_2000], [Teofilatto 2001][research_teofilatto_2001], [Srinathkumar 2011][research_srinathkumar_2011], [Baughman and Longeauay 2015][research_baughman_longeauay_2015], [Portapas and Cooke 2020][research_portapas_cooke_2020], [Humphreys-Jennings et al 2020][research_humphreys_jennings_2020], [Campos and Marques 2021][research_campos_marques_2021], [Guo 2021][research_guo_2021].
 
 **Below about sixty knots the jet is doing the work.** That is the third time in this series that a vertical take-off aircraft has had to carry a separate thrust-based control system for exactly this reason, and it is the clearest recurring result the series has produced.
 
@@ -281,7 +281,7 @@ $$L_{\delta_a} = q S b\, C_{l\delta_a} \delta_a$$
 | 20 m/s | 4.9 kN m | 1.83 percent |
 | 30 m/s | 11.0 kN m | 4.12 percent |
 
-**The ailerons supply under one percent of what is needed in hover and still only four percent at thirty metres per second.** The statement in the sources that losing an engine meant losing the aircraft is therefore not a caution. **It is arithmetic**, and cross-shafting is not a refinement but the only available fix. The problem was recognised in the period literature for turboprops generally, in [KIRCHNER 1955][research_kirchner_1955], and engine failure, drive systems and the interconnecting shafting that mitigates them are treated across [Holzhauser et al 1964][research_holzhauser_1964], [Overfield and Crawford 1967][research_overfield_crawford_1967], [Bucsek 1974][research_bucsek_1974], [Johnson 1975][research_johnson_1975], [GROSVELD 1983][research_grosveld_1983], [Stewart 1987][research_stewart_1987], [Arnold et al 1987][research_arnold_1987], [Carlson et al 1999][research_carlson_1999], [Schroijen and Slingerland 2007][research_schroijen_slingerland_2007], [Wandini et al 2016][research_wandini_2016], [Harish et al 2018][research_harish_2018], [Casadei et al 2019][research_casadei_2019], [Leelaburanathanakul et al 2021][research_leelaburanathanakul_2021], [Hoogreef and Soikkeli 2022][research_hoogreef_soikkeli_2022]. The powerplant itself, including the propeller governing that failed on the final flight, appears in [Zucrow 1949][research_zucrow_1949], [MOCK 1951][research_mock_1951], [RICE 1955][research_rice_1955], [Hooker 1956][research_hooker_1956], [RASMUSSEN 1960][research_rasmussen_1960], [NACA 1978][research_naca_1978], [Hirschkron et al 1979][research_hirschkron_1979], [Hirschkron et al 1979, MARITIME Patrol Aircraft Engine St][research_hirschkron_1979_2], [BANACH and REYNOLDS 1981][research_banach_reynolds_1981], [Wynn 1982][research_wynn_1982], [STOTEN 1983][research_stoten_1983], [Scott 2009][research_scott_2009].
+**The ailerons supply under one percent of what is needed in hover and still only four percent at thirty metres per second.** The statement in the sources that losing an engine meant losing the aircraft is therefore not a caution. **It is arithmetic**, and cross-shafting is not a refinement but the only available fix. The problem was recognised in the period literature for turboprops generally, in [Kirchner 1955][research_kirchner_1955], and engine failure, drive systems and the interconnecting shafting that mitigates them are treated across [Holzhauser et al 1964][research_holzhauser_1964], [Overfield and Crawford 1967][research_overfield_crawford_1967], [Bucsek 1974][research_bucsek_1974], [Johnson 1975][research_johnson_1975], [Grosveld 1983][research_grosveld_1983], [Stewart 1987][research_stewart_1987], [Arnold et al 1987][research_arnold_1987], [Carlson et al 1999][research_carlson_1999], [Schroijen and Slingerland 2007][research_schroijen_slingerland_2007], [Wandini et al 2016][research_wandini_2016], [Harish et al 2018][research_harish_2018], [Casadei et al 2019][research_casadei_2019], [Leelaburanathanakul et al 2021][research_leelaburanathanakul_2021], [Hoogreef and Soikkeli 2022][research_hoogreef_soikkeli_2022]. The powerplant itself, including the propeller governing that failed on the final flight, appears in [Zucrow 1949][research_zucrow_1949], [Mock 1951][research_mock_1951], [Rice 1955][research_rice_1955], [Hooker 1956][research_hooker_1956], [Rasmussen 1960][research_rasmussen_1960], [NACA 1978][research_naca_1978], [Hirschkron et al 1979][research_hirschkron_1979], [Hirschkron et al 1979, MARITIME Patrol Aircraft Engine St][research_hirschkron_1979_2], [Banach and Reynolds 1981][research_banach_reynolds_1981], [Wynn 1982][research_wynn_1982], [Stoten 1983][research_stoten_1983], [Scott 2009][research_scott_2009].
 
 ### The Wing and Its Devices
 
@@ -289,7 +289,7 @@ A tilt-wing's outer panel is stalled through most of the conversion, so every de
 
 Free-floating and stall-flutter behaviour of tilt-wing models was investigated later, in [Ormiston 1972][research_ormiston_1972].
 
-High-lift and boundary-layer-control devices are the standard remedy and were investigated for exactly this application, in [Passamanick 1948][research_passamanick_1948], [Cook et al 1958][research_cook_1958], [Kelly et al 1958][research_kelly_1958], [Aoyagi and Hickey 1959][research_aoyagi_hickey_1959], [Maki 1959][research_maki_1959], [Aoyagi and Hickey 1963][research_aoyagi_hickey_1963], [Fink 1967][research_fink_1967], [Phelps et al 1973][research_phelps_1973], [Quigley et al 1974][research_quigley_1974], [CARUSO et al 1988][research_caruso_1988], [Lee and Roberts 1990][research_lee_roberts_1990], [Kondor et al 2003][research_kondor_2003], [Beck et al 2014][research_beck_2014]. The effectiveness of blowing is measured by a momentum coefficient,
+High-lift and boundary-layer-control devices are the standard remedy and were investigated for exactly this application, in [Passamanick 1948][research_passamanick_1948], [Cook et al 1958][research_cook_1958], [Kelly et al 1958][research_kelly_1958], [Aoyagi and Hickey 1959][research_aoyagi_hickey_1959], [Maki 1959][research_maki_1959], [Aoyagi and Hickey 1963][research_aoyagi_hickey_1963], [Fink 1967][research_fink_1967], [Phelps et al 1973][research_phelps_1973], [Quigley et al 1974][research_quigley_1974], [Caruso et al 1988][research_caruso_1988], [Lee and Roberts 1990][research_lee_roberts_1990], [Kondor et al 2003][research_kondor_2003], [Beck et al 2014][research_beck_2014]. The effectiveness of blowing is measured by a momentum coefficient,
 
 $$C_\mu = \frac{\dot{m} V_j}{q_\infty S}$$
 
@@ -299,21 +299,21 @@ and at the low freestream dynamic pressures of a conversion even a modest jet is
 
 ### The Propellers
 
-Propeller behaviour at zero and low forward speed is its own subject, and static thrust in particular is not simply the cruise propeller evaluated at zero advance ratio, as [Webb and Willer 1952][research_webb_willer_1952] sets out, with later estimation methods in [Brusse and Cronk 1965][research_brusse_cronk_1965]. Propeller design for this class of aircraft is treated in [BIERMANN 1954][research_biermann_1954] and the ducted alternative in [ZABINSKY and LASZEWSKI 1956][research_zabinsky_laszewski_1956]. The propeller also has to work across an enormous range of advance ratio,
+Propeller behaviour at zero and low forward speed is its own subject, and static thrust in particular is not simply the cruise propeller evaluated at zero advance ratio, as [Webb and Willer 1952][research_webb_willer_1952] sets out, with later estimation methods in [Brusse and Cronk 1965][research_brusse_cronk_1965]. Propeller design for this class of aircraft is treated in [Biermann 1954][research_biermann_1954] and the ducted alternative in [Zabinsky and Laszewski 1956][research_zabinsky_laszewski_1956]. The propeller also has to work across an enormous range of advance ratio,
 
 $$J = \frac{V}{n D}$$
 
-which is zero in hover and of order one in cruise. At 1,100 revolutions per minute on a 4.877 metre diameter, $J$ runs from 0 to 1.12 between hover and 100 metres per second, so **the same blades meet the flow at completely different angles at the two ends of the conversion.** Propeller behaviour across that range, including static thrust, blade design and contra-rotating arrangements, is treated in [Gray and Biermann 1941][research_gray_biermann_1941], [LERBS 1955][research_lerbs_1955], [Reynolds et al 1957][research_reynolds_1957], [Tosti 1962][research_tosti_1962], [Deckert et al 1964][research_deckert_1964], [Blaurock 1975][research_blaurock_1975], [Jeracki and Mitchell 1981][research_jeracki_mitchell_1981], [HANSON 1986][research_hanson_1986], [Applin et al 1994][research_applin_1994], [Campos and Lau 2006][research_campos_lau_2006], [Envia 2014][research_envia_2014], [Sree and Stephens 2014][research_sree_stephens_2014], [Ferraro et al 2014][research_ferraro_2014], [Huo et al 2019][research_huo_2019]. That is why contra-rotating variable-pitch units were used and why the pitch control system was as complex as it was, which matters because the pitch control system is what failed. **The pitch-change mechanism is a subject in its own right**, because twisting a loaded blade against its own aerodynamic and centrifugal moments is a structural problem and not an aerodynamic one. The coupled behaviour of a turbine and its propeller under pitch control is treated in [Oppenheimer and Jacques 1951][research_oppenheimer_jacques_1951], and the actuator and control design problem in [Steinetz et al 1986][research_steinetz_1986] and [Schwartz et al 1986][research_schwartz_1986], the latter two from the propfan era rather than this one. Helical tip Mach number at cruise is
+which is zero in hover and of order one in cruise. At 1,100 revolutions per minute on a 4.877 metre diameter, $J$ runs from 0 to 1.12 between hover and 100 metres per second, so **the same blades meet the flow at completely different angles at the two ends of the conversion.** Propeller behaviour across that range, including static thrust, blade design and contra-rotating arrangements, is treated in [Gray and Biermann 1941][research_gray_biermann_1941], [Lerbs 1955][research_lerbs_1955], [Reynolds et al 1957][research_reynolds_1957], [Tosti 1962][research_tosti_1962], [Deckert et al 1964][research_deckert_1964], [Blaurock 1975][research_blaurock_1975], [Jeracki and Mitchell 1981][research_jeracki_mitchell_1981], [Hanson 1986][research_hanson_1986], [Applin et al 1994][research_applin_1994], [Campos and Lau 2006][research_campos_lau_2006], [Envia 2014][research_envia_2014], [Sree and Stephens 2014][research_sree_stephens_2014], [Ferraro et al 2014][research_ferraro_2014], [Huo et al 2019][research_huo_2019]. That is why contra-rotating variable-pitch units were used and why the pitch control system was as complex as it was, which matters because the pitch control system is what failed. **The pitch-change mechanism is a subject in its own right**, because twisting a loaded blade against its own aerodynamic and centrifugal moments is a structural problem and not an aerodynamic one. The coupled behaviour of a turbine and its propeller under pitch control is treated in [Oppenheimer and Jacques 1951][research_oppenheimer_jacques_1951], and the actuator and control design problem in [Steinetz et al 1986][research_steinetz_1986] and [Schwartz et al 1986][research_schwartz_1986], the latter two from the propfan era rather than this one. Helical tip Mach number at cruise is
 
 $$M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = 0.844$$
 
-so the blade tips are transonic while the aircraft is not. The interference between a propeller and the wing behind it is the configuration's defining aerodynamic problem and was measured directly, in [Winston and Huston 1962][research_winston_huston_1962], [GOLAND et al 1964][research_goland_1964], and [Butler et al 1966][research_butler_1966].
+so the blade tips are transonic while the aircraft is not. The interference between a propeller and the wing behind it is the configuration's defining aerodynamic problem and was measured directly, in [Winston and Huston 1962][research_winston_huston_1962], [Goland et al 1964][research_goland_1964], and [Butler et al 1966][research_butler_1966].
 
 ### The Downwash, Which the Article Has Not Mentioned
 
 A disc loading of 82.1 pounds per square foot is seven times a helicopter's, and the slipstream leaving the propellers at eighty metres per second has to go somewhere. Near the ground it strikes the surface, spreads, and recirculates, which changes the lift, erodes unprepared surfaces, and can ingest debris.
 
-**This article computes none of that and should say so.** Ground effect for a configuration of this disc loading is its own subject, in [Schuldenfrei 1942][research_schuldenfrei_1942], [Huston and Winston 1960][research_huston_winston_1960], [Obryan 1960][research_obryan_1960], [MORSE and NEWHOUSE 1960][research_morse_newhouse_1960], [Curtiss et al 1985][research_curtiss_1985], [ESHLEMEN 1985][research_eshlemen_1985], [Eshleman et al 1986][research_eshleman_1986], [Allen 2004][research_allen_2004], [Radhakrishnan and Schmitz 2005][research_radhakrishnan_schmitz_2005], [Radhakrishnan and Schmitz 2006][research_radhakrishnan_schmitz_2006], [Hwang and Kwon 2019][research_hwang_kwon_2019], [Greene 2020][research_greene_2020], and the [X-13][related_post_a310_ryan_x13] article met the same problem from the jet-lift side. **A tilt-wing at this disc loading needs a prepared surface for the same reason a tail-sitting jet does**, which is a constraint the transport mission the X-18 was built to prove would have inherited.
+**This article computes none of that and should say so.** Ground effect for a configuration of this disc loading is its own subject, in [Schuldenfrei 1942][research_schuldenfrei_1942], [Huston and Winston 1960][research_huston_winston_1960], [Obryan 1960][research_obryan_1960], [Morse and Newhouse 1960][research_morse_newhouse_1960], [Curtiss et al 1985][research_curtiss_1985], [Eshlemen 1985][research_eshlemen_1985], [Eshleman et al 1986][research_eshleman_1986], [Allen 2004][research_allen_2004], [Radhakrishnan and Schmitz 2005][research_radhakrishnan_schmitz_2005], [Radhakrishnan and Schmitz 2006][research_radhakrishnan_schmitz_2006], [Hwang and Kwon 2019][research_hwang_kwon_2019], [Greene 2020][research_greene_2020], and the [X-13][related_post_a310_ryan_x13] article met the same problem from the jet-lift side. **A tilt-wing at this disc loading needs a prepared surface for the same reason a tail-sitting jet does**, which is a constraint the transport mission the X-18 was built to prove would have inherited.
 
 ## The Flight Test Record
 
@@ -389,19 +389,19 @@ The propeller and wing interference that the X-18 could only obtain from wind tu
 
 ### The Corridor Is an Optimisation Problem
 
-This article computes a corridor by hand at six speeds and reports a margin. The modern treatment optimises the trajectory through it, in [Cheng et al 2022][research_cheng_2022], [Cong et al 2024][research_cong_2024], [Filho and Belo 2024][research_filho_belo_2024], [Hsu et al 2024][research_hsu_2024], [Li et al 2024, Short Takeoff and Vertical Landing][research_li_2024_2], [Jin and Zhao 2025][research_jin_zhao_2025], [Panish and Bacic 2025][research_panish_bacic_2025], [Farid and Jungers 2026][research_farid_jungers_2026], [Lee et al 2026][research_lee_2026].
+This article computes a corridor by hand at six speeds and reports a margin. The modern treatment optimises the trajectory through it, in [Cheng et al 2022][research_cheng_2022], [Cong et al 2024][research_cong_2024], [Daud Filho and Belo 2024][research_filho_belo_2024], [Hsu et al 2024][research_hsu_2024], [Li et al 2024, Short Takeoff and Vertical Landing][research_li_2024_2], [Jin and Zhao 2025][research_jin_zhao_2025], [Panish and Bacic 2025][research_panish_bacic_2025], [Farid and Jungers 2026][research_farid_jungers_2026], [Lee et al 2026][research_lee_2026].
 
 **The shape of the answer is unchanged and the method is unrecognisable.** A conversion schedule is now the output of a constrained optimisation rather than a line on a pilot's card.
 
 ### Descent Is Still the Hard Part
 
-This is the strongest continuity in this survey. This article finds that descent closes the corridor at 284 feet per minute at the slow end, and the modern literature is still working on descent, the vortex ring state, and steep approach, in [Efimov and Chernigin 2022][research_efimov_chernigin_2022], [Pickles et al 2023][research_pickles_2023], [Pickles et al 2023, The vortex ring state of a rotor a][research_pickles_2023_2], [G and Mukherjee 2024][research_g_mukherjee_2024], [Makeev et al 2024][research_makeev_2024], [Xu et al 2024][research_xu_2024], [Zeng et al 2024][research_zeng_2024], [Macit et al 2025][research_macit_2025], [Qi et al 2025][research_qi_2025], [Tran and Lopez 2025][research_tran_lopez_2025], [Wang et al 2025, Aerodynamic Characteristics and Me][research_wang_2025_2], [Jeong et al 2026][research_jeong_2026], [Ma et al 2026][research_ma_2026], [Makeev 2026][research_makeev_2026].
+This is the strongest continuity in this survey. This article finds that descent closes the corridor at 284 feet per minute at the slow end, and the modern literature is still working on descent, the vortex ring state, and steep approach, in [Efimov and Chernigin 2022][research_efimov_chernigin_2022], [Pickles et al 2023][research_pickles_2023], [Pickles et al 2023, The vortex ring state of a rotor a][research_pickles_2023_2], [Kumar G and Mukherjee 2024][research_g_mukherjee_2024], [Makeev et al 2024][research_makeev_2024], [Xu et al 2024][research_xu_2024], [Zeng et al 2024][research_zeng_2024], [Macit et al 2025][research_macit_2025], [Qi et al 2025][research_qi_2025], [Tran and Lopez 2025][research_tran_lopez_2025], [Wang et al 2025, Aerodynamic Characteristics and Me][research_wang_2025_2], [Jeong et al 2026][research_jeong_2026], [Ma et al 2026][research_ma_2026], [Makeev 2026][research_makeev_2026].
 
 **Seventy years on, the approach is still the difficult half of a powered-lift flight.** That is not a failure of the intervening work. It is a statement that the underlying problem, which is a lifting surface meeting air that arrives from below, has no configuration-level fix.
 
 ### Redundancy Replaced Cross-Shafting
 
-The X-18's fatal deficiency was two engines with no interconnection. The XC-142 answered with cross-shafting. **The modern answer is neither**, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Du et al 2024, Experimental and numerical investi][research_du_2024_2], [Kang et al 2024][research_kang_2024], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Liao et al 2025][research_liao_2025], [Luo et al 2025][research_luo_2025], [Dastgerdi and Nabavi-Chashmi 2026][research_dastgerdi_nabavi_chashmi_2026], [Krug et al 2026][research_krug_2026], [May et al 2026][research_may_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026], [Cui et al 2027][research_cui_2027].
+The X-18's fatal deficiency was two engines with no interconnection. The XC-142 answered with cross-shafting. **The modern answer is neither**, in [Antonakis and Biannic 2024][research_antonakis_biannic_2024], [Du et al 2024][research_du_2024], [Du et al 2024, Experimental and numerical investi][research_du_2024_2], [Kang et al 2024][research_kang_2024], [Hung and Dai 2025][research_hung_dai_2025], [Jing and Ma 2025][research_jing_ma_2025], [Liao et al 2025][research_liao_2025], [Luo et al 2025][research_luo_2025], [Ahmadi Dastgerdi and Nabavi-Chashmi 2026][research_dastgerdi_nabavi_chashmi_2026], [Krug et al 2026][research_krug_2026], [May et al 2026][research_may_2026], [Strampe and Klingauf 2026][research_strampe_klingauf_2026], [Cui et al 2027][research_cui_2027].
 
 With enough independent motors the loss of one is a control-allocation problem rather than a catastrophe, and the rolling moment this article computes at 268 kilonewton metres for a two-propeller aircraft becomes a small perturbation for an eight-motor one. **The engine-out case stopped being an aerodynamic problem and became a redundancy-architecture problem**, which is a change in the kind of engineering required rather than in its difficulty.
 
@@ -433,7 +433,7 @@ The downwash this article raises and does not compute is now an infrastructure q
 
 ### Methods and Autonomy
 
-Surrogate modelling, reduced-order rotor aerodynamics, multidisciplinary optimisation and autonomous trajectory planning are the current toolset, in [Baldan and Guardone 2024][research_baldan_guardone_2024], [Cornelius and Schmitz 2024][research_cornelius_schmitz_2024], [H. Dabaghian et al 2025][research_dabaghian_2025], [Doran et al 2025][research_doran_2025], [Liu et al 2025, Supersonic aircraft aerodynamic pe][research_liu_2025_2], [Lopez and Biancolini 2025][research_lopez_biancolini_2025], [Sterpu et al 2025][research_sterpu_2025], [Wang et al 2025][research_wang_2025], [Yan and Shi 2025][research_yan_shi_2025], [Yang et al 2025, Fully autonomous anti-interference][research_yang_2025_3], [Fernandez et al 2026][research_fernandez_2026], [WANG et al 2026, A quantitative evaluation method f][research_wang_2026_3], [ZHANG et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_2]. **The trade this article performs by hand across six speeds is now a computed surface.**
+Surrogate modelling, reduced-order rotor aerodynamics, multidisciplinary optimisation and autonomous trajectory planning are the current toolset, in [Baldan and Guardone 2024][research_baldan_guardone_2024], [Cornelius and Schmitz 2024][research_cornelius_schmitz_2024], [H. Dabaghian et al 2025][research_dabaghian_2025], [Doran et al 2025][research_doran_2025], [Liu et al 2025, Supersonic aircraft aerodynamic pe][research_liu_2025_2], [Lopez and Biancolini 2025][research_lopez_biancolini_2025], [Sterpu et al 2025][research_sterpu_2025], [Wang et al 2025][research_wang_2025], [Yan and Shi 2025][research_yan_shi_2025], [Yang et al 2025, Fully autonomous anti-interference][research_yang_2025_3], [Fernandez et al 2026][research_fernandez_2026], [Wang et al 2026, A quantitative evaluation method f][research_wang_2026_3], [Zhang et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_2]. **The trade this article performs by hand across six speeds is now a computed surface.**
 
 ### The Configuration Returned Because the Constraint Changed
 
@@ -589,25 +589,25 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Armutcuoglu et al 2004][research_armutcuoglu_2004]
 - [Arnold et al 1987][research_arnold_1987]
 - [Baldan and Guardone 2024][research_baldan_guardone_2024]
-- [BANACH and REYNOLDS 1981][research_banach_reynolds_1981]
+- [Banach and Reynolds 1981][research_banach_reynolds_1981]
 - [Barsotti et al 2026][research_barsotti_2026]
 - [Bartlett 1985][research_bartlett_1985]
 - [W. Bauer 2025][research_bauer_2025]
 - [Baughman and Longeauay 2015][research_baughman_longeauay_2015]
-- [BAXTER and FINVOLD 1958][research_baxter_finvold_1958]
+- [Baxter and Finvold 1958][research_baxter_finvold_1958]
 - [Beak and Kim 2026][research_beak_kim_2026]
 - [Beck et al 2014][research_beck_2014]
-- [BENNETT et al 1983][research_bennett_1983]
-- [BIERMANN 1954][research_biermann_1954]
+- [Bennett et al 1983][research_bennett_1983]
+- [Biermann 1954][research_biermann_1954]
 - [Binz et al 2019][research_binz_2019]
 - [Biyela and Rawatlal 2019][research_biyela_rawatlal_2019]
 - [Black 1956][research_black_1956]
 - [Blaurock 1975][research_blaurock_1975]
 - [Bosch et al 2026][research_bosch_2026]
-- [BRENCKMANN 1958][research_brenckmann_1958]
+- [Brenckmann 1958][research_brenckmann_1958]
 - [Brusse and Cronk 1965][research_brusse_cronk_1965]
 - [Bucsek 1974][research_bucsek_1974]
-- [BULL 1960][research_bull_1960]
+- [Bull 1960][research_bull_1960]
 - [Burton et al 2026][research_burton_2026]
 - [Butler et al 1966][research_butler_1966]
 - [Böhnisch et al 2026][research_bohnisch_2026]
@@ -618,7 +618,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Carlson 1958][research_carlson_1958]
 - [Carlson et al 1999][research_carlson_1999]
 - [Cartile et al 2025][research_cartile_2025]
-- [CARUSO et al 1988][research_caruso_1988]
+- [Caruso et al 1988][research_caruso_1988]
 - [Casadei et al 2019][research_casadei_2019]
 - [Catalano 2004][research_catalano_2004]
 - [Cavalcanti et al 2026][research_cavalcanti_2026]
@@ -644,10 +644,10 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Curtiss et al 1985][research_curtiss_1985]
 - [Czech et al 2026][research_czech_2026]
 - [H. Dabaghian et al 2025][research_dabaghian_2025]
-- [DALLAS and IRVIN 1956][research_dallas_irvin_1956]
+- [Dallas and Irvin 1956][research_dallas_irvin_1956]
 - [Van Dam et al 1980][research_dam_1980]
-- [Dastgerdi and Nabavi-Chashmi 2026][research_dastgerdi_nabavi_chashmi_2026]
-- [DAUGHADAY and DUWALDT 1955][research_daughaday_duwaldt_1955]
+- [Ahmadi Dastgerdi and Nabavi-Chashmi 2026][research_dastgerdi_nabavi_chashmi_2026]
+- [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955]
 - [Deckert et al 1964][research_deckert_1964]
 - [Delamore-Sutcliffe and Greenwell 2006][research_delamore_sutcliffe_greenwell_2006]
 - [Deng et al 2024][research_deng_2024]
@@ -656,7 +656,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [DiMaggio et al 2026][research_dimaggio_2026]
 - [Boeing Co Morton Pa Vertol Div 1956][research_div_1956]
 - [Boeing Co Morton Pa Vertol Div 1956, Comparative Study of Various Type][research_div_1956_2]
-- [DOETSCH and MARK 1953][research_doetsch_mark_1953]
+- [Doetsch and Mark 1953][research_doetsch_mark_1953]
 - [Doran et al 2025][research_doran_2025]
 - [Du et al 2024][research_du_2024]
 - [Du et al 2024, Experimental and numerical investi][research_du_2024_2]
@@ -665,50 +665,50 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Efimov and Chernigin 2022][research_efimov_chernigin_2022]
 - [Envia 2014][research_envia_2014]
 - [Eshleman et al 1986][research_eshleman_1986]
-- [ESHLEMEN 1985][research_eshlemen_1985]
+- [Eshlemen 1985][research_eshlemen_1985]
 - [Fan et al 2019][research_fan_2019]
 - [Farid and Jungers 2026][research_farid_jungers_2026]
 - [Farooqui 2025][research_farooqui_2025]
 - [Fei 2019][research_fei_2019]
 - [Feistel et al 1978][research_feistel_1978]
-- [FELDMAN 1956][research_feldman_1956]
+- [Feldman 1956][research_feldman_1956]
 - [Fernandez et al 2026][research_fernandez_2026]
 - [Ferraro et al 2014][research_ferraro_2014]
-- [Filho and Belo 2024][research_filho_belo_2024]
+- [Daud Filho and Belo 2024][research_filho_belo_2024]
 - [Fink 1967][research_fink_1967]
-- [FLUK 1981][research_fluk_1981]
-- [G and Mukherjee 2024][research_g_mukherjee_2024]
+- [Fluk 1981][research_fluk_1981]
+- [Kumar G and Mukherjee 2024][research_g_mukherjee_2024]
 - [Gandhi et al 2026][research_gandhi_2026]
 - [Georgiou et al 2026][research_georgiou_2026]
 - [Geuther et al 2020][research_geuther_2020]
 - [Gholamian and Beik 2026][research_gholamian_beik_2026]
 - [Giulianetti and Weiberg 1964][research_giulianetti_weiberg_1964]
 - [Goharshadi and Mirzaei 2022][research_goharshadi_mirzaei_2022]
-- [GOLAND et al 1964][research_goland_1964]
+- [Goland et al 1964][research_goland_1964]
 - [Goldschmidt and Ukeiley 2025][research_goldschmidt_ukeiley_2025]
 - [Goldstein 1982][research_goldstein_1982]
 - [Golombek et al 2026][research_golombek_2026]
 - [Gray and Biermann 1941][research_gray_biermann_1941]
 - [Gray et al 1953][research_gray_1953]
 - [Greene 2020][research_greene_2020]
-- [GROSVELD 1983][research_grosveld_1983]
+- [Grosveld 1983][research_grosveld_1983]
 - [Grunwald 1961][research_grunwald_1961]
 - [Guo 2021][research_guo_2021]
 - [Guo et al 2025, Data-driven vertiport siting][research_guo_2025_2]
 - [Guo et al 2025, Research of Hierarchical Vertiport][research_guo_2025_3]
 - [Han and Pei 2026][research_han_pei_2026]
-- [HANSON 1986][research_hanson_1986]
+- [Hanson 1986][research_hanson_1986]
 - [Harish et al 2018][research_harish_2018]
-- [Harper and P. 1955][research_harper_p_1955]
+- [Harper 1955][research_harper_p_1955]
 - [Harris 2003][research_harris_2003]
 - [Harris et al 2000][research_harris_2000]
 - [Hasselmann 2026][research_hasselmann_2026]
 - [He et al 2024][research_he_2024]
-- [HESS 1981][research_hess_1981]
+- [Hess 1981][research_hess_1981]
 - [Hickey 1956][research_hickey_1956]
 - [Hickey and Aoyagi 1960][research_hickey_aoyagi_1960]
 - [Hieke et al 2025][research_hieke_2025]
-- [HILL 1981][research_hill_1981]
+- [Hill 1981][research_hill_1981]
 - [Hirschkron et al 1979][research_hirschkron_1979]
 - [Hirschkron et al 1979, MARITIME Patrol Aircraft Engine St][research_hirschkron_1979_2]
 - [Hoadley and Pederson 2001][research_hoadley_pederson_2001]
@@ -725,10 +725,10 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Huo et al 2019][research_huo_2019]
 - [Huston and Winston 1960][research_huston_winston_1960]
 - [Hwang and Kwon 2019][research_hwang_kwon_2019]
-- [Stuart III 1956][research_iii_1956]
+- [Stuart, III 1956][research_iii_1956]
 - [Inoue et al 1997][research_inoue_1997]
 - [Ioannis and Ioannis 2026][research_ioannis_ioannis_2026]
-- [IRVIN and SWAN 1956][research_irvin_swan_1956]
+- [Irvin and Swan 1956][research_irvin_swan_1956]
 - [James L. Hassell 1966][research_james_l_hassell_1966]
 - [Janetzko et al 2026][research_janetzko_2026]
 - [Jeong et al 2026][research_jeong_2026]
@@ -749,13 +749,13 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Kahne 2000, Research Issues in the Transition][research_kahne_2000_2]
 - [Kang et al 2024][research_kang_2024]
 - [Kang et al 2026][research_kang_2026]
-- [KATZ et al 1980][research_katz_1980]
+- [Katz et al 1980][research_katz_1980]
 - [Kekus-Kumor and Sieradzki 2025][research_kekus_kumor_sieradzki_2025]
 - [Keller 2026][research_keller_2026]
 - [Kelly et al 1958][research_kelly_1958]
 - [Kim et al 2025, Low-noise trajectory optimization][research_kim_2025_3]
 - [Kirby 1956][research_kirby_1956]
-- [KIRCHNER 1955][research_kirchner_1955]
+- [Kirchner 1955][research_kirchner_1955]
 - [Ko et al 2024][research_ko_2024]
 - [Koch 2026][research_koch_2026]
 - [Koenig and Quigley 1960][research_koenig_quigley_1960]
@@ -776,7 +776,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Lee et al 2026, Aerodynamic effects of rotor-rotor][research_lee_2026_2]
 - [Leelaburanathanakul et al 2021][research_leelaburanathanakul_2021]
 - [Lei 2026][research_lei_2026]
-- [LERBS 1955][research_lerbs_1955]
+- [Lerbs 1955][research_lerbs_1955]
 - [Li et al 2024][research_li_2024]
 - [Li et al 2024, Short Takeoff and Vertical Landing][research_li_2024_2]
 - [Li et al 2025][research_li_2025]
@@ -797,7 +797,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [de Madrid et al 2007][research_madrid_2007]
 - [Makeev 2026][research_makeev_2026]
 - [Makeev et al 2021][research_makeev_2021]
-- [MAKEEV et al 2021, Numerical investigation of full sc][research_makeev_2021_2]
+- [Makeev et al 2021, Numerical investigation of full sc][research_makeev_2021_2]
 - [Makeev et al 2024][research_makeev_2024]
 - [Maki 1959][research_maki_1959]
 - [Mallen and Dancik 1959][research_mallen_dancik_1959]
@@ -807,15 +807,15 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [McCaskill 1953][research_mccaskill_1953]
 - [McCormick and Mallen 1956][research_mccormick_mallen_1956]
 - [McCormick and Mallen 1957][research_mccormick_mallen_1957]
-- [McCormick and W. 1956, Comparative Study of Various Types][research_mccormick_w_1956_2]
+- [McCormick 1956, Comparative Study of Various Types][research_mccormick_w_1956_2]
 - [McVeigh et al 1975][research_mcveigh_1975]
 - [Mikhalyov et al 2019][research_mikhalyov_2019]
 - [Mirković et al 2026][research_mirkovic_2026]
-- [MOCK 1951][research_mock_1951]
+- [Mock 1951][research_mock_1951]
 - [Moens and Gardarein 2001][research_moens_gardarein_2001]
 - [Mohamed and Nabawy 2026][research_mohamed_nabawy_2026]
 - [Mokotoff et al 2026][research_mokotoff_2026]
-- [MORSE and NEWHOUSE 1960][research_morse_newhouse_1960]
+- [Morse and Newhouse 1960][research_morse_newhouse_1960]
 - [NACA 1960][research_naca_1960]
 - [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2]
 - [NACA 1978][research_naca_1978]
@@ -828,7 +828,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Ng and Datta 2019][research_ng_datta_2019]
 - [Ni and Lee 2025][research_ni_lee_2025]
 - [Niu et al 2026][research_niu_2026]
-- [O'ROURKE and RUTHERFORD 1991][research_o_rourke_rutherford_1991]
+- [O'Rourke and Rutherford 1991][research_o_rourke_rutherford_1991]
 - [Obryan 1960][research_obryan_1960]
 - [Okawa et al 2025][research_okawa_2025]
 - [Oppenheimer and Jacques 1951][research_oppenheimer_jacques_1951]
@@ -854,19 +854,19 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Quigley et al 1974][research_quigley_1974]
 - [Radhakrishnan and Schmitz 2005][research_radhakrishnan_schmitz_2005]
 - [Radhakrishnan and Schmitz 2006][research_radhakrishnan_schmitz_2006]
-- [RASMUSSEN 1960][research_rasmussen_1960]
+- [Rasmussen 1960][research_rasmussen_1960]
 - [Reeder 1958][research_reeder_1958]
 - [Renooij and Slingerland 2004][research_renooij_slingerland_2004]
 - [Reynolds et al 1957][research_reynolds_1957]
-- [RICE 1955][research_rice_1955]
+- [Rice 1955][research_rice_1955]
 - [Rizk 1980][research_rizk_1980]
-- [RIZK 1980, Propeller slipstream/wing interact][research_rizk_1980_2]
+- [Rizk 1980, Propeller slipstream/wing interact][research_rizk_1980_2]
 - [Rizzi et al 2026][research_rizzi_2026]
 - [Roberts et al 1981][research_roberts_1981]
 - [Rohr et al 2019][research_rohr_2019]
 - [Rohrmeier et al 2026][research_rohrmeier_2026]
 - [Ruggia 2025][research_ruggia_2025]
-- [RUTHERFORD and BASS 1992][research_rutherford_bass_1992]
+- [Rutherford and Bass 1992][research_rutherford_bass_1992]
 - [S.P et al 2022][research_s_p_2022]
 - [Saetti 2025][research_saetti_2025]
 - [Saetti et al 2026][research_saetti_2026]
@@ -878,7 +878,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Scott 2009][research_scott_2009]
 - [Shah and Ansell 2026][research_shah_ansell_2026]
 - [Shang et al 2025][research_shang_2025]
-- [SHARP 1950][research_sharp_1950]
+- [Sharp 1950][research_sharp_1950]
 - [Shen et al 2026][research_shen_2026]
 - [Shubert et al 2026][research_shubert_2026]
 - [Slaughter 1958][research_slaughter_1958]
@@ -897,7 +897,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Sterpu et al 2025][research_sterpu_2025]
 - [Stewart 1987][research_stewart_1987]
 - [Stiesz 1940][research_stiesz_1940]
-- [STOTEN 1983][research_stoten_1983]
+- [Stoten 1983][research_stoten_1983]
 - [Strampe and Klingauf 2026][research_strampe_klingauf_2026]
 - [Stuart 1957][research_stuart_1957]
 - [Stuart 1957, Tilt Wing Propelloplane Design Req][research_stuart_1957_2]
@@ -908,15 +908,15 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Tapscott 1960][research_tapscott_1960]
 - [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2]
 - [Teofilatto 2001][research_teofilatto_2001]
-- [THOREN and JOHNSON 1940][research_thoren_johnson_1940]
+- [Thoren and Johnson 1940][research_thoren_johnson_1940]
 - [Tosti 1961][research_tosti_1961]
 - [Tosti 1962][research_tosti_1962]
 - [Totah 1992][research_totah_1992]
 - [Tran and Lopez 2025][research_tran_lopez_2025]
 - [Uhlig and Selig 2008][research_uhlig_selig_2008]
 - [Verma and Junkins 2000][research_verma_junkins_2000]
-- [VIDAL et al 1960][research_vidal_1960]
-- [VINCENT et al 1979][research_vincent_1979]
+- [Vidal et al 1960][research_vidal_1960]
+- [Vincent et al 1979][research_vincent_1979]
 - [Wandini et al 2016][research_wandini_2016]
 - [Wang 1979][research_wang_1979]
 - [Wang et al 2019][research_wang_2019]
@@ -925,7 +925,7 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Wang et al 2019, Stability Analysis of Tailsitters][research_wang_2019_4]
 - [Wang et al 2025][research_wang_2025]
 - [Wang et al 2025, Aerodynamic Characteristics and Me][research_wang_2025_2]
-- [WANG et al 2026, A quantitative evaluation method f][research_wang_2026_3]
+- [Wang et al 2026, A quantitative evaluation method f][research_wang_2026_3]
 - [Wang et al 2026, Analytical propulsion-Aerodynamic][research_wang_2026_2]
 - [Ward 1960][research_ward_1960]
 - [Webb and Willer 1952][research_webb_willer_1952]
@@ -946,10 +946,10 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 - [Yang et al 2026, Phase-segmented feature extraction][research_yang_2026_6]
 - [Yang et al 2026, Structural Parameter Optimization][research_yang_2026_5]
 - [Young 2010][research_young_2010]
-- [ZABINSKY and LASZEWSKI 1956][research_zabinsky_laszewski_1956]
+- [Zabinsky and Laszewski 1956][research_zabinsky_laszewski_1956]
 - [Zeng et al 2024][research_zeng_2024]
 - [Zhang and Hwang 2025][research_zhang_hwang_2025]
-- [ZHANG et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_2]
+- [Zhang et al 2026, Optimization of rotor aerodynamic][research_zhang_2026_2]
 - [Zizkovsky and Klesa 2019][research_zizkovsky_klesa_2019]
 - [Zucrow 1949][research_zucrow_1949]
 - [Özer 2025][research_ozer_2025]

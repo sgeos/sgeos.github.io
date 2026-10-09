@@ -1324,7 +1324,7 @@ The next article returns to a vehicle designed to be shot down.
 - [1997, Estimation and reduction of aerodynamic noise by motor-cycle scale model testing Fujita Susumu, Gotou Kazuhiro, Hayashi Tsuneo Yamaha Motor Co., Ltd][research_estimation_and_1997]
 - [1997, Inertial Navigation With External Measurements][research_inertial_navigation_1997]
 - [1997, Part I Inertial Navigation][research_part_i_1997]
-- [1997, Part Ii Inertial Navigation With Aids][research_part_ii_1997]
+- [1997, Part II Inertial Navigation With Aids][research_part_ii_1997]
 - [1998, Control and Guidance System Modeling][research_control_and_1998]
 - [1998, Dimensional Analysis and Dynamic Scaling][research_dimensional_analysis_1998]
 - [1998, Space launch vehicles configured as gliders][research_space_launch_1998]

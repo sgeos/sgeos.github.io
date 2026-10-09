@@ -8313,6 +8313,10 @@ Part two back-references part one, which is legal because 2026-01-27 precedes 20
 makes no forward reference. Both dates have passed, so batch publication resolves the internal
 cross-reference immediately.
 
+## X-Planes Remaining Repairs Closed 2026-10-09
+
+789 more citation labels were corrected against the registry, and the A313 to A317 checkers were brought up to date. Front-matter records left A356 and A331, so the series holds 267,359 research references. A364's survey figures are recomputed over its cited records. Publication is still held.
+
 ## X-Planes Drafting-Process Narrative Removed 2026-10-09
 
 **Per the pilot, no X-Planes article reports how it was drafted.** Every Source Base now carries a present-tense methods statement and an honest contamination statement. A319 and A325 were read in full, so the series holds 267,363 research references. Citation labels were cleaned, and the Walker Atlas book was corrected in A308 and A309. Logs are in `tmp/fix7/process/`. Publication is still held.

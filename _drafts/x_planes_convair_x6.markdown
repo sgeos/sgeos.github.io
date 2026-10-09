@@ -932,7 +932,7 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Han et al 2025 Optimization of Radiation Shielding Composite Materials][research_han_2025_2]
 - [Hashim et al 2026 Multilayer Shields Buildup Factor for Gamma Ray Exposure][research_hashim_2026]
 - [Hedden 1962 Design Criteria For Lithium-Cooled Reactor Experiment (Lcre) At Nrts][research_hedden_1962]
-- [Henry 1958 Multilayer Shield Experiment Iv, Otf Iii][research_henry_1958]
+- [Henry 1958 Multilayer Shield Experiment Iv, Otf III][research_henry_1958]
 - [Hobbs et al 1948 Lexington Project Report #129, Aircraft Configuration][research_hobbs_1948]
 - [Holcomb 2025 Disruptive Thermal-Spectrum Molten Salt Breeder Reactor Fuel Cycle Technology][research_holcomb_2025]
 - [Huang et al 2025 Shielding Optimization of a Heat Pipe Cooled Reactor][research_huang_2025]

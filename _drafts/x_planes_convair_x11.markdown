@@ -224,7 +224,7 @@ which for the heavy gauge at a Young's modulus of 193 gigapascals gives
 
 $$\sigma_{cr} = \frac{193 \times 10^{9} \times 0.000940}{1.524 \times 1.652} = 72.0 \, \text{MPa}$$
 
-and for the light gauge 27.3 megapascals. **That figure is not what a real shell achieves.** Thin cylinders buckle far below the classical value because the post-buckling equilibrium path falls away steeply and any small imperfection lets the shell find it, which is the result of [Karman and Tsien 1941][research_karman_tsien_1941] and the post-buckling behaviour of [Michielsen 1948][research_michielsen_1948]. Design practice applies a knockdown factor, and at the radius-to-thickness ratios here a factor of 0.2 to 0.3 is representative, giving an allowable of
+and for the light gauge 27.3 megapascals. **That figure is not what a real shell achieves.** Thin cylinders buckle far below the classical value because the post-buckling equilibrium path falls away steeply and any small imperfection lets the shell find it, which is the result of [von Karman and Tsien 1941][research_karman_tsien_1941] and the post-buckling behaviour of [Michielsen 1948][research_michielsen_1948]. Design practice applies a knockdown factor, and at the radius-to-thickness ratios here a factor of 0.2 to 0.3 is representative, giving an allowable of
 
 $$\sigma_{\text{allow}} = 0.2 \times 72.0 = 14.4 \, \text{MPa}$$
 
@@ -611,7 +611,7 @@ which no ballistic missile programme was ever going to fly as development articl
 
 The Atlas structure was tested on the ground more thoroughly than most, because a pressure-stabilised tank can be proof-tested to its actual failure mode simply by pressurising it, which is not true of a stiffened shell whose failure mode is compressive buckling under a load that is hard to apply. **The design is unusually testable on the ground for the same reason it is unusual in flight.**
 
-The gap between ground and flight is therefore not in the structure but in the combined environment. A tank can be pressure-tested, a shell can be buckling-tested, and neither test applies the acoustic field, the vibration, the thermal gradient, and the axial acceleration at once. [Nickell 1961][research_nickell_1961] and [Leaumont 1965][research_leaumont_1965] carry the period's shell-buckling experiment, and the standing difficulty that experiments scatter far below theory is the subject of [Karman and Tsien 1941][research_karman_tsien_1941] and remains the reason a knockdown factor exists at all.
+The gap between ground and flight is therefore not in the structure but in the combined environment. A tank can be pressure-tested, a shell can be buckling-tested, and neither test applies the acoustic field, the vibration, the thermal gradient, and the axial acceleration at once. [Nickell 1961][research_nickell_1961] and [Leaumont 1965][research_leaumont_1965] carry the period's shell-buckling experiment, and the standing difficulty that experiments scatter far below theory is the subject of [von Karman and Tsien 1941][research_karman_tsien_1941] and remains the reason a knockdown factor exists at all.
 
 The scatter deserves a number, because it is the largest single uncertainty in the article. Experimental buckling loads for cylinders in this range of radius to thickness fall between roughly fifteen and sixty percent of the classical value,
 
@@ -671,7 +671,7 @@ The pressure-stabilised structure did not become the standard way to build launc
 
 ### Shell Buckling, Where the Knockdown Factor Is Finally Being Dismantled
 
-The design allowable used above is a blanket factor applied to a classical result, which is an admission that the theory does not predict the experiment. That has been the state of the art since [Karman and Tsien 1941][research_karman_tsien_1941] and it is now being replaced by methods that model the imperfection rather than hide behind a factor.
+The design allowable used above is a blanket factor applied to a classical result, which is an admission that the theory does not predict the experiment. That has been the state of the art since [von Karman and Tsien 1941][research_karman_tsien_1941] and it is now being replaced by methods that model the imperfection rather than hide behind a factor.
 
 [Evkin 2026][research_evkin_2026] computes imperfection sensitivity rather than assuming it, [Ventura et al 2023][research_ventura_2023] takes the asymptotic numerical route to pressurised-cylinder buckling, and stochastic and dynamic treatments are [Yu et al 2024][research_yu_2024] and [Ozoigbo et al 2025][research_ozoigbo_2025]. [Jiao et al 2023][research_jiao_2023] takes thin-walled behaviour under combined loading, and gauge-sensitivity methods are [Zhang 2022][research_zhang_2022]. **The most directly relevant modern paper derives knockdown factors for common-bulkhead structures**, which is this configuration exactly, in [Lee et al 2024][research_lee_2024].
 
@@ -1099,7 +1099,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Juarez 1961][research_juarez_1961]
 - [Kamenskii and Martirosov 2021][research_kamenskii_martirosov_2021]
 - [Kaplan 1961][research_kaplan_1961]
-- [Karman and Tsien 1941][research_karman_tsien_1941]
+- [von Karman and Tsien 1941][research_karman_tsien_1941]
 - [Kaufman 1958][research_kaufman_1958]
 - [Keast 1961][research_keast_1961]
 - [Kempner and Chen 1974][research_kempner_chen_1974]

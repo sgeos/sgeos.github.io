@@ -435,7 +435,7 @@ which tightens rapidly with flight Mach number and is the reason fixed-geometry 
 
 $$\tau_{\text{res}} = \frac{L_c}{u_c} > \tau_{\text{ign}}$$
 
-with $L_c$ the combustor length and $u_c$ the internal flow velocity, and at Mach 7 the internal flow crosses a combustor of realistic length in under a millisecond. The experimental programme behind that inequality is surveyed by [Billig 1993][research_billig_1993] and, across four decades, by [Curran 2001][research_curran_2001], with the X-51 flight demonstration reported by [Hank Murphy and Mutzman 2008][research_hank_2008_x51a]. That inequality is the keystone of the entire [hypersonic][ref_hypersonic_flight] airbreathing branch of the series, and it is developed in [Heiser and Pratt 1994][book_heiser_pratt_1994] Hypersonic Airbreathing Propulsion and [Curran and Murthy 2000][book_curran_murthy_2000] Scramjet Propulsion.
+with $L_c$ the combustor length and $u_c$ the internal flow velocity, and at Mach 7 the internal flow crosses a combustor of realistic length in under a millisecond. The experimental programme behind that inequality is surveyed by [Billig 1993][research_billig_1993] and, across four decades, by [Curran 2001][research_curran_2001], with the X-51 flight demonstration reported by [Hank et al 2008][research_hank_2008_x51a]. That inequality is the keystone of the entire [hypersonic][ref_hypersonic_flight] airbreathing branch of the series, and it is developed in [Heiser and Pratt 1994][book_heiser_pratt_1994] Hypersonic Airbreathing Propulsion and [Curran and Murthy 2000][book_curran_murthy_2000] Scramjet Propulsion.
 
 ### Structures and Aeroelasticity
 
@@ -1230,7 +1230,7 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [Gera and Bosworth 1989 A Design Procedure for the Handling Qualities Optimization of the X-29A][research_gera_bosworth_1987]
 - [Glauert 1928 The Effect of Compressibility on the Lift of an Aerofoil][research_glauert_1928]
 - [Grauer and Morelli 2023 Advances in Aircraft System Identification][research_grauer_morelli_2023]
-- [Hank Murphy and Mutzman 2008 The X-51A Scramjet Engine Flight Demonstration Program][research_hank_2008_x51a]
+- [Hank et al 2008 The X-51A Scramjet Engine Flight Demonstration Program][research_hank_2008_x51a]
 - [Hicks 1989 Preliminary Flight-Determined Subsonic Lift and Drag Characteristics of the X-29A][research_hicks_1989_x29]
 - [Hoey and Day 1961 X-15 Mission Planning and Operational Procedures][research_hoey_day_1961]
 - [Ji and Li 2019 Development and Testing of Hypersonic Flutter Test Capability][research_ji_li_2019]

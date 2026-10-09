@@ -1456,7 +1456,7 @@ outcome is intended.
 
 **A recovery system on a vehicle meant to be expended is a test-programme artefact**, and the parachute and decelerator literature is where its sizing lives.
 
-**21 records.** \[[Drag and Performance Characteristics][research_drag_and]\] \[[To 2024][research_to_2024]\] \[[Dinh 2024][research_dinh_2024]\] \[[Drynan 2024][research_drynan_2024]\] \[[Pepermans et al 2018][research_pepermans_rozemeijer_2018]\] \[[Clark et al 2015][research_clark_gallon_2015]\] \[[Gallon and Witkowski 2015][research_gallon_witkowski_2015]\] \[[Cook 2013][research_cook_2013]\] \[[Guidotti et al 2012][research_guidotti_richiello_2012]\] \[[Wolf and Fallon 2011][research_wolf_fallon_2011]\] \[[Morris and Olson 2011][research_morris_olson_2011]\] \[[Witkowski 1999][research_witkowski_1999]\] \[[Behr 1989][research_behr_1989]\] \[[Pepper 1984][research_pepper_1984]\] \[[Pepper 1980][research_pepper_1980]\] \[[Pepper, Jr. 1979][research_pepperjr_1979]\] \[[Pepper 1977][research_pepper_1977]\] \[[Whalley 1973][research_whalley_1973]\] \[[Flatau and Miller 1970][research_flatau_miller_1970]\] \[[Babish Iii 1966][research_babishiii_1966]\] \[[Ericksen et al 1966][research_ericksen_guiteras_1966]\]
+**21 records.** \[[Drag and Performance Characteristics][research_drag_and]\] \[[To 2024][research_to_2024]\] \[[Dinh 2024][research_dinh_2024]\] \[[Drynan 2024][research_drynan_2024]\] \[[Pepermans et al 2018][research_pepermans_rozemeijer_2018]\] \[[Clark et al 2015][research_clark_gallon_2015]\] \[[Gallon and Witkowski 2015][research_gallon_witkowski_2015]\] \[[Cook 2013][research_cook_2013]\] \[[Guidotti et al 2012][research_guidotti_richiello_2012]\] \[[Wolf and Fallon 2011][research_wolf_fallon_2011]\] \[[Morris and Olson 2011][research_morris_olson_2011]\] \[[Witkowski 1999][research_witkowski_1999]\] \[[Behr 1989][research_behr_1989]\] \[[Pepper 1984][research_pepper_1984]\] \[[Pepper 1980][research_pepper_1980]\] \[[Pepper, Jr. 1979][research_pepperjr_1979]\] \[[Pepper 1977][research_pepper_1977]\] \[[Whalley 1973][research_whalley_1973]\] \[[Flatau and Miller 1970][research_flatau_miller_1970]\] \[[Babish III 1966][research_babishiii_1966]\] \[[Ericksen et al 1966][research_ericksen_guiteras_1966]\]
 
 ### Demonstrator practice
 
@@ -1883,7 +1883,7 @@ to carry a weapon it is barely larger than.
 - [Artificial Intelligence Techniques for][research_artificial_intelligence]
 - [Atwood 1995][research_atwood_1995]
 - [Babcock 2007][research_babcock_2007]
-- [Babish Iii 1966][research_babishiii_1966]
+- [Babish III 1966][research_babishiii_1966]
 - [Bardell 2000][research_bardell_2000]
 - [Barnett 1962][research_barnett_1962]
 - [Barnett 1966][research_barnett_1966]

@@ -53,7 +53,7 @@ This is the first designation in the series where the number describes the class
 
 ### What the Programme Was Competing Against
 
-The X-16 was not only competing with two other aeroplanes. It was competing with balloons. Unmanned high-altitude photographic balloons were a serious and contemporaneously funded alternative, and the research is in the archive where the aeroplane is not, as in [BARTHOLOMEW 1954][research_bartholomew_1954]. It was also competing with a family of much more ambitious reconnaissance weapon system studies that were running at the same time and that did leave documents, including the MX-2276 system described in [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955] and [NY 1955, MX-2276 Reconnaissance Aircraft We][research_ny_1955_2], the Brass Bell study in [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957], and the Weapon System 118P characteristics in [North American Aviation Inc Los Angeles Ca 1956][research_ca_1956]. A contemporaneous high altitude and high speed study is recorded in [MORRIS 1954][research_morris_1954].
+The X-16 was not only competing with two other aeroplanes. It was competing with balloons. Unmanned high-altitude photographic balloons were a serious and contemporaneously funded alternative, and the research is in the archive where the aeroplane is not, as in [Bartholomew 1954][research_bartholomew_1954]. It was also competing with a family of much more ambitious reconnaissance weapon system studies that were running at the same time and that did leave documents, including the MX-2276 system described in [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955] and [Bell Aerospace Co Buffalo Ny 1955, MX-2276 Reconnaissance Aircraft We][research_ny_1955_2], the Brass Bell study in [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957], and the Weapon System 118P characteristics in [North American Aviation Inc Los Angeles Ca 1956][research_ca_1956]. A contemporaneous high altitude and high speed study is recorded in [Morris 1954][research_morris_1954].
 
 That context matters for judging the cancellation. The X-16 was not cancelled because reconnaissance from altitude was abandoned. It was cancelled because the same requirement had four other suitors.
 
@@ -232,7 +232,7 @@ which in true airspeed is $\Delta M \cdot a = 118.1$ knots. That is not a corner
 
 ### The Buffet Boundary Is a Measured Surface and Not a Number
 
-Treating $M_{\text{buffet}}$ as a single constant is a convenience this article adopts and should not defend. The buffet boundary is a surface in Mach number and lift coefficient, it moves with wing geometry and with Reynolds number, and it was established by flight measurement and not by prediction throughout the period the X-16 belongs to and for decades afterward. The line of work runs [Huston and Skopinski 1955][research_huston_skopinski_1955], [Rainey and Igoe 1958][research_rainey_igoe_1958], [Cornette 1961][research_cornette_1961], [BARNARD 1969][research_barnard_1969], [MAYES et al 1970][research_mayes_1970], [Levy and Bailey 1981][research_levy_bailey_1981], [Coe 1981][research_coe_1981], [Lee 1984][research_lee_1984], [Rumsey et al 2001][research_rumsey_2001], [Chung et al 2002][research_chung_2002], [Rumsey et al 2003][research_rumsey_2003], [Sugioka et al 2021][research_sugioka_2021], [Soranna et al 2023][research_soranna_2023], [Zahn and Breitsamter 2023][research_zahn_breitsamter_2023].
+Treating $M_{\text{buffet}}$ as a single constant is a convenience this article adopts and should not defend. The buffet boundary is a surface in Mach number and lift coefficient, it moves with wing geometry and with Reynolds number, and it was established by flight measurement and not by prediction throughout the period the X-16 belongs to and for decades afterward. The line of work runs [Huston and Skopinski 1955][research_huston_skopinski_1955], [Rainey and Igoe 1958][research_rainey_igoe_1958], [Cornette 1961][research_cornette_1961], [Barnard 1969][research_barnard_1969], [Mayes et al 1970][research_mayes_1970], [Levy and Bailey 1981][research_levy_bailey_1981], [Coe 1981][research_coe_1981], [Lee 1984][research_lee_1984], [Rumsey et al 2001][research_rumsey_2001], [Chung et al 2002][research_chung_2002], [Rumsey et al 2003][research_rumsey_2003], [Sugioka et al 2021][research_sugioka_2021], [Soranna et al 2023][research_soranna_2023], [Zahn and Breitsamter 2023][research_zahn_breitsamter_2023].
 
 Two things in that sequence matter here. **The boundary was being measured in flight at exactly the time the X-16 was designed**, which means the number the designers used was empirical and specific to a wing nobody had built. And **the subject did not close**, since onset prediction is still an active computational problem seventy years later, which is why this article's single assumed value carries the sensitivity it does.
 
@@ -351,13 +351,13 @@ The aerodynamics of a long wing were well understood by the time the requirement
 
 $$W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}$$
 
-so weight grows with the cube of span at fixed area. Weight estimation of this kind became a formal subject with its own methods, in [TORENBEEK 1972][research_torenbeek_1972], [Hayase 1974][research_hayase_1974], [Hayase 1974, A Structural Weight Estimation Pro][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Delgado Regis et al 2004][research_regis_2004], [Matsuda et al 2026][research_matsuda_2026]. **Aspect ratio pays under a square root and charges under a cube.** That is the entire reason these aeroplanes converged on a particular slenderness, not simply growing wings without limit, and it is why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
+so weight grows with the cube of span at fixed area. Weight estimation of this kind became a formal subject with its own methods, in [Torenbeek 1972][research_torenbeek_1972], [Hayase 1974][research_hayase_1974], [Hayase 1974, A Structural Weight Estimation Pro][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Delgado Regis et al 2004][research_regis_2004], [Matsuda et al 2026][research_matsuda_2026]. **Aspect ratio pays under a square root and charges under a cube.** That is the entire reason these aeroplanes converged on a particular slenderness, not simply growing wings without limit, and it is why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
 
 ### The Wing Is Flexible Enough That Its Shape Is a Variable
 
 A wing of aspect ratio 12 built as light as this one was does not hold its shape. The X-16's structure is described in secondary accounts as significantly lighter and more flexible than jet practice of the period allowed, and that flexibility is not a detail of construction but a change in what the aeroplane is. A flexible wing redistributes its own load, changes its effective incidence under bending, and can lose control effectiveness or diverge outright.
 
-None of that can be computed here, because no stiffness distribution for this aircraft survives. What can be said is that the problem was recognised and worked continuously, in [Unangst 1959][research_unangst_1959], [ICHIKAWA 1960][research_ichikawa_1960], [Hancock 1961][research_hancock_1961], [Hancock 1963][research_hancock_1963], [ERICSSON 1966][research_ericsson_1966], [Bland 1980][research_bland_1980], [RUHLIN and MURPHY 1981][research_ruhlin_murphy_1981], [Gern et al 2000][research_gern_2000], [Loewy 2000][research_loewy_2000], [Farhat 2001][research_farhat_2001], [Patil et al 2001][research_patil_2001], [Ouellette 2019][research_ouellette_2019], [TSUSHIMA et al 2019, Geometrically nonlinear electro-ae][research_tsushima_2019_2], [Hilger and Ritter 2021][research_hilger_ritter_2021].
+None of that can be computed here, because no stiffness distribution for this aircraft survives. What can be said is that the problem was recognised and worked continuously, in [Unangst 1959][research_unangst_1959], [Ichikawa 1960][research_ichikawa_1960], [Hancock 1961][research_hancock_1961], [Hancock 1963][research_hancock_1963], [Ericsson 1966][research_ericsson_1966], [Bland 1980][research_bland_1980], [Ruhlin and Murphy 1981][research_ruhlin_murphy_1981], [Gern et al 2000][research_gern_2000], [Loewy 2000][research_loewy_2000], [Farhat 2001][research_farhat_2001], [Patil et al 2001][research_patil_2001], [Ouellette 2019][research_ouellette_2019], [Tsushima et al 2019, Geometrically nonlinear electro-ae][research_tsushima_2019_2], [Hilger and Ritter 2021][research_hilger_ritter_2021].
 
 **This is the largest unquantifiable risk in the design.** The article's aerodynamic estimates all assume a rigid wing at its drawn shape. A wing built to the lightness the mission demanded would not have flown at that shape, and whether the difference was small or fatal is not recoverable from the public record.
 
@@ -393,7 +393,7 @@ Evaluating that ratio directly against the fighter,
 
 $$\frac{\Delta n_{\text{X-16}}}{\Delta n_{\text{fighter}}} = \frac{5.386 / 1{,}573.8}{3.623 / 3{,}613.6} = 3.41$$
 
-**The X-16 at gross weight sees 3.41 times the gust load increment of a contemporary fighter, and 4.74 times it when light.** The gust environment these aircraft had to survive is documented in [COLEMAN and STEINER 1953][research_coleman_steiner_1953], the effect of wing twist on the resulting loads in [Hoblit 1954][research_hoblit_1954], the turbulence itself in [Breuhaus 1961][research_breuhaus_1961], and the earliest attempt to design the sensitivity out in [Shufflebarger 1941][research_shufflebarger_1941]. The subject grew from the sharp-edged gust used above into a statistical description of continuous turbulence and then into a design discipline, across [Diederich 1956][research_diederich_1956], [Cooney and Schott 1956][research_cooney_schott_1956], [Croom and Huffman 1957][research_croom_huffman_1957], [Diederich 1957][research_diederich_1957], [LAPPE 1965][research_lappe_1965], [Austin and H. 1967][research_austin_h_1967], [Houbolt 1967][research_houbolt_1967], [GANGSAAS et al 1981][research_gangsaas_1981], [Rao 1985][research_rao_1985], [LIEBST et al 1986][research_liebst_1986], [Hoppe 2000][research_hoppe_2000], [Haddadpour et al 2005][research_haddadpour_2005], [Fritts 2008][research_fritts_2008], [Stanford 2020][research_stanford_2020], [Khalil and Fezans 2021][research_khalil_fezans_2021], [Li and Qin 2021][research_li_qin_2021]. **The relation this article uses is the crudest member of that family and is used deliberately, because the alleviation factor a better model would supply scales the answer without changing the inverse dependence on wing loading that the argument rests on.**
+**The X-16 at gross weight sees 3.41 times the gust load increment of a contemporary fighter, and 4.74 times it when light.** The gust environment these aircraft had to survive is documented in [Coleman and Steiner 1953][research_coleman_steiner_1953], the effect of wing twist on the resulting loads in [Hoblit 1954][research_hoblit_1954], the turbulence itself in [Breuhaus 1961][research_breuhaus_1961], and the earliest attempt to design the sensitivity out in [Shufflebarger 1941][research_shufflebarger_1941]. The subject grew from the sharp-edged gust used above into a statistical description of continuous turbulence and then into a design discipline, across [Diederich 1956][research_diederich_1956], [Cooney and Schott 1956][research_cooney_schott_1956], [Croom and Huffman 1957][research_croom_huffman_1957], [Diederich 1957][research_diederich_1957], [Lappe 1965][research_lappe_1965], [Austin 1967][research_austin_h_1967], [Houbolt 1967][research_houbolt_1967], [Gangsaas et al 1981][research_gangsaas_1981], [Rao 1985][research_rao_1985], [Liebst et al 1986][research_liebst_1986], [Hoppe 2000][research_hoppe_2000], [Haddadpour et al 2005][research_haddadpour_2005], [Fritts 2008][research_fritts_2008], [Stanford 2020][research_stanford_2020], [Khalil and Fezans 2021][research_khalil_fezans_2021], [Li and Qin 2021][research_li_qin_2021]. **The relation this article uses is the crudest member of that family and is used deliberately, because the alleviation factor a better model would supply scales the answer without changing the inverse dependence on wing loading that the argument rests on.**
 
 This is not an abstract concern. Martin designed the RB-57D wing for 500 flight hours. A full-radius sortie out and back at the quoted radius is
 
@@ -425,7 +425,7 @@ and expressing that as an effective exponent on the density ratio alone,
 
 $$n_{\text{ram}} = \frac{\ln 0.08120}{\ln 0.05934} = 0.8889$$
 
-The relation above assumes perfect recovery, which no real inlet achieves. Subsonic inlet and diffuser performance is its own measured subject, in [Conrad and Sobolewski 1950][research_conrad_sobolewski_1950], [Connors and Woollett 1952][research_connors_woollett_1952], [Allen and Beke 1953][research_allen_beke_1953], [FOX 1971][research_fox_1971], [STULL and VELKOFF 1972][research_stull_velkoff_1972], [GLASGOW et al 1980][research_glasgow_1980], [Peacock 1981][research_peacock_1981], [KERKAM 1982][research_kerkam_1982], [Wendt 2000][research_wendt_2000], [Carlin et al 2003][research_carlin_2003], [Baydar et al 2017][research_baydar_2017], and a recovery below unity moves the prediction toward the observed value from the same direction as the compressor losses discussed next. **Ram recovery alone predicts 0.8889 against the 0.9378 the three aircraft actually require, so it over-explains the effect.** The realised benefit is
+The relation above assumes perfect recovery, which no real inlet achieves. Subsonic inlet and diffuser performance is its own measured subject, in [Conrad and Sobolewski 1950][research_conrad_sobolewski_1950], [Connors and Woollett 1952][research_connors_woollett_1952], [Allen and Beke 1953][research_allen_beke_1953], [Fox 1971][research_fox_1971], [Stull and Velkoff 1972][research_stull_velkoff_1972], [Glasgow et al 1980][research_glasgow_1980], [Peacock 1981][research_peacock_1981], [Kerkam 1982][research_kerkam_1982], [Wendt 2000][research_wendt_2000], [Carlin et al 2003][research_carlin_2003], [Baydar et al 2017][research_baydar_2017], and a recovery below unity moves the prediction toward the observed value from the same direction as the compressor losses discussed next. **Ram recovery alone predicts 0.8889 against the 0.9378 the three aircraft actually require, so it over-explains the effect.** The realised benefit is
 
 $$\frac{1 - 0.9378}{1 - 0.8889} = 0.560$$
 
@@ -433,7 +433,7 @@ or 56.0 percent of the ideal, which means **44 percent of the ram benefit is con
 
 $$Re_{\text{blade}} = \frac{\rho_{t} V_{a} c_{\text{blade}}}{\mu} = 6.16 \times 10^{5}\ \text{at sea level}$$
 
-falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably below roughly $2 \times 10^{5}$, and the design-altitude value is well under that**, so a substantial loss is exactly what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Skoch and Moore 1987][research_skoch_moore_1987], [Skoch and Moore 1987, Performance of two 10-lb/sec centr][research_skoch_moore_1987_2]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the altitude wind tunnel series of the National Advisory Committee for Aeronautics, the NACA, which measured what engines actually did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. That programme and its successors are the reason the lapse exponent is an empirical quantity rather than a derived one, and the run of it is [Hawkins and Meyer 1948, Altitude-Wind-Tunnel Investigation][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and McAulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and McAulay 1951][research_conrad_mcaulay_1951], [Milligan and Perrone 1966][research_milligan_perrone_1966], [BRAITHWAITE et al 1973][research_braithwaite_1973], [Davenport et al 1974][research_davenport_1974], [Roberts et al 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al 1976][research_roberts_1976], [Tian-yu et al 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [BAER-RIEDHART 1982][research_baer_riedhart_1982], [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983], [Kowalski 1988][research_kowalski_1988], [Cyrus et al 1999][research_cyrus_1999], [Tagashira et al 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011], [Misté and Benini 2013][research_miste_benini_2013], [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]. **The X-16 was designed in the middle of that measurement campaign rather than after it.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al 1948][research_manganiello_1948].
+falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably below roughly $2 \times 10^{5}$, and the design-altitude value is well under that**, so a substantial loss is exactly what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Skoch and Moore 1987][research_skoch_moore_1987], [Skoch and Moore 1987, Performance of two 10-lb/sec centr][research_skoch_moore_1987_2]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the altitude wind tunnel series of the National Advisory Committee for Aeronautics, the NACA, which measured what engines actually did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. That programme and its successors are the reason the lapse exponent is an empirical quantity rather than a derived one, and the run of it is [Hawkins and Meyer 1948, Altitude-Wind-Tunnel Investigation][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and McAulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and McAulay 1951][research_conrad_mcaulay_1951], [Milligan and Perrone 1966][research_milligan_perrone_1966], [Braithwaite et al 1973][research_braithwaite_1973], [Davenport et al 1974][research_davenport_1974], [Roberts et al 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al 1976][research_roberts_1976], [Tian-yu et al 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [Baer-Riedhart 1982][research_baer_riedhart_1982], [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983], [Kowalski 1988][research_kowalski_1988], [Cyrus et al 1999][research_cyrus_1999], [Tagashira et al 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011], [Misté and Benini 2013][research_miste_benini_2013], [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]. **The X-16 was designed in the middle of that measurement campaign rather than after it.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al 1948][research_manganiello_1948].
 
 **The X-16 programme is recorded as the driving force behind the high-altitude J57 development that then powered the U-2.** Pratt and Whitney compressed what would normally be a three-year engine programme into twelve months. Given that the exponent dominates the ceiling calculation by a factor of four over every aerodynamic assumption, this is not a consolation prize. **The X-16 paid for the one thing that decided whether the requirement was achievable at all, and then the aeroplane that beat it used that thing.**
 
@@ -459,7 +459,7 @@ The ratio across the flight is
 
 $$\frac{Re_{\text{SL}}}{Re_{\text{design}}} = \frac{1.997 \times 10^{7}}{2.969 \times 10^{6}} = 6.73$$
 
-**The wing operates at design altitude in air giving 6.73 times less Reynolds number than at sea level.** That matters because both maximum lift and profile drag degrade as Reynolds number falls. Low Reynolds number aerodynamics became a design discipline in its own right precisely because high-altitude and small-scale aircraft forced it, and the line of work runs [Klein 1945][research_klein_1945], [Pardee and Heaslet 1946][research_pardee_heaslet_1946], [McGhee and Bingham 1972][research_mcghee_bingham_1972], [McGhee and Beasley 1973][research_mcghee_beasley_1973], [McGhee et al 1975][research_mcghee_1975], [Mueller and Batill 1980][research_mueller_batill_1980], [NAGAMATSU 1980][research_nagamatsu_1980], [Carmichael 1981][research_carmichael_1981], [Levin and Shyy 2001][research_levin_shyy_2001], [Tang 2006][research_tang_2006], [Kerho 2007][research_kerho_2007], [Broeren et al 2019][research_broeren_2019], [Harris 2020][research_harris_2020], [Liu et al 2021][research_liu_2021]. Laminar behaviour and the drag it buys or loses is the closely related subject, in [Wentz and Nagati 1975][research_wentz_nagati_1975], [Kohlman 1975][research_kohlman_1975], [Runyan and Steers 1980][research_runyan_steers_1980], [Mueller 1984][research_mueller_1984], [Milholen and Owens 2005][research_milholen_owens_2005], [Milholen and Owens 2005, On the Application of Contour Bump][research_milholen_owens_2005_2], [Somers 2019][research_somers_2019], [Somers and Maughmer 2022][research_somers_maughmer_2022]. The period evidence for how much degradation to expect is in [Tucker and Quinn 1944][research_tucker_quinn_1944] and, for the interaction with Mach number that governs the corner, in [Stack et al 1943][research_stack_1943], [Nissen and Gadeberg 1944][research_nissen_gadeberg_1944], [West 1945][research_west_1945], [Spreiter and Steffen 1946][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947]. Sections designed to behave well near the critical Mach number are treated in [Graham 1948][research_graham_1948].
+**The wing operates at design altitude in air giving 6.73 times less Reynolds number than at sea level.** That matters because both maximum lift and profile drag degrade as Reynolds number falls. Low Reynolds number aerodynamics became a design discipline in its own right precisely because high-altitude and small-scale aircraft forced it, and the line of work runs [Klein 1945][research_klein_1945], [Pardee and Heaslet 1946][research_pardee_heaslet_1946], [McGhee and Bingham 1972][research_mcghee_bingham_1972], [McGhee and Beasley 1973][research_mcghee_beasley_1973], [McGhee et al 1975][research_mcghee_1975], [Mueller and Batill 1980][research_mueller_batill_1980], [Nagamatsu 1980][research_nagamatsu_1980], [Carmichael 1981][research_carmichael_1981], [Levin and Shyy 2001][research_levin_shyy_2001], [Tang 2006][research_tang_2006], [Kerho 2007][research_kerho_2007], [Broeren et al 2019][research_broeren_2019], [Harris 2020][research_harris_2020], [Liu et al 2021][research_liu_2021]. Laminar behaviour and the drag it buys or loses is the closely related subject, in [Wentz and Nagati 1975][research_wentz_nagati_1975], [Kohlman 1975][research_kohlman_1975], [Runyan and Steers 1980][research_runyan_steers_1980], [Mueller 1984][research_mueller_1984], [Milholen and Owens 2005][research_milholen_owens_2005], [Milholen and Owens 2005, On the Application of Contour Bump][research_milholen_owens_2005_2], [Somers 2019][research_somers_2019], [Somers and Maughmer 2022][research_somers_maughmer_2022]. The period evidence for how much degradation to expect is in [Tucker and Quinn 1944][research_tucker_quinn_1944] and, for the interaction with Mach number that governs the corner, in [Stack et al 1943][research_stack_1943], [Nissen and Gadeberg 1944][research_nissen_gadeberg_1944], [West 1945][research_west_1945], [Spreiter and Steffen 1946][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947]. Sections designed to behave well near the critical Mach number are treated in [Graham 1948][research_graham_1948].
 
 The assumed $C_{D0}$ of 0.018 used throughout is therefore optimistic at altitude and pessimistic at sea level, and the article's ceiling estimate inherits that.
 
@@ -477,7 +477,7 @@ and setting the atmosphere's pressure equal to that gives
 
 $$z_{\text{Armstrong}} = 19{,}150\ \text{m} = 62{,}829\ \text{ft}$$
 
-**That is 90.4 percent of the design altitude, so the aeroplane spends its entire working cruise above the limit**, and the cockpit or the suit becomes the only thing between the pilot and immediate incapacitation. Cabin pressurisation experience of the period is recorded in [DIETZ 1952][research_dietz_1952], the physiological envelope in [RAEKE 1958][research_raeke_1958], decompression sickness and the denitrogenation procedures used against it in [Middleton 1959][research_middleton_1959], and suit evaluation in [Games et al 1954][research_games_1954]. The suit, mask, and cabin systems that make flight above the Armstrong limit survivable have a continuous development record of their own, in [Echols 1953][research_echols_1953], [SCHROEDER 1956][research_schroeder_1956], [Clark David Co Inc Worcester Ma 1960][research_ma_1960], [REDDEN 1961][research_redden_1961], [Furry et al 1962][research_furryy_1962], [Shanahan and Barker 1962][research_shanahan_barker_1962], [Hendler et al 1964][research_hendler_1964], [Siegel and Lanterman 1968][research_siegel_lanterman_1968], [Taylor 1980][research_taylor_1980], [Reynolds et al 2001][research_reynolds_2001], [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2], [Kelly and Pettit 2003][research_kelly_pettit_2003]. **The aeroplane's most demanding subsystem by this measure is the one keeping the pilot conscious, and it is the only one whose failure is immediately fatal rather than merely mission-ending.**
+**That is 90.4 percent of the design altitude, so the aeroplane spends its entire working cruise above the limit**, and the cockpit or the suit becomes the only thing between the pilot and immediate incapacitation. Cabin pressurisation experience of the period is recorded in [Dietz 1952][research_dietz_1952], the physiological envelope in [Raeke 1958][research_raeke_1958], decompression sickness and the denitrogenation procedures used against it in [Middleton 1959][research_middleton_1959], and suit evaluation in [Games et al 1954][research_games_1954]. The suit, mask, and cabin systems that make flight above the Armstrong limit survivable have a continuous development record of their own, in [Echols 1953][research_echols_1953], [Schroeder 1956][research_schroeder_1956], [Clark David Co Inc Worcester Ma 1960][research_ma_1960], [Redden 1961][research_redden_1961], [Furry et al 1962][research_furryy_1962], [Shanahan and Barker 1962][research_shanahan_barker_1962], [Hendler et al 1964][research_hendler_1964], [Siegel and Lanterman 1968][research_siegel_lanterman_1968], [Taylor 1980][research_taylor_1980], [Reynolds et al 2001][research_reynolds_2001], [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2], [Kelly and Pettit 2003][research_kelly_pettit_2003]. **The aeroplane's most demanding subsystem by this measure is the one keeping the pilot conscious, and it is the only one whose failure is immediately fatal rather than merely mission-ending.**
 
 The flight is also long. At 430 knots the X-16's quoted range of 2,867 nautical miles is 6.67 hours in one direction. A single pilot in a partial pressure suit, breathing oxygen, unable to reach most of the aeroplane, for the better part of a working day. Navigation over territory without cooperative aids fell back on celestial methods of the kind described in [Korger 1957][research_korger_1957].
 
@@ -507,7 +507,7 @@ so holding smear below one ground sample distance requires
 
 $$t_{\text{exp}} < \frac{0.106}{202.6} = 0.52\ \text{ms}$$
 
-**Every foot of altitude is paid for in resolution, and the payment is linear while the survivability benefit is not.** The photographic problem at these altitudes is treated in [Nelson and Hamsher 1950][research_nelson_hamsher_1950], the materials in [Mallios 1952][research_mallios_1952], the assessment methods in [TOTH and WHITE 1949][research_toth_white_1949], and the later formalisation of image quality in [Roetling et al 1963][research_roetling_1963]. Sensing from an aeroplane developed continuously from film through electro-optical systems to modern remote sensing, and the sequence is [Mignery et al 1951][research_mignery_1951], [LUEDER and BELCHER 1954][research_lueder_belcher_1954], [Pearce 1954][research_pearce_1954], [TAFEL 1960][research_tafel_1960], [Kuzina et al 1962][research_kuzina_1962], [Petroski 1981][research_petroski_1981], [Allario and Sokolski 1988][research_allario_sokolski_1988], [Goodin and Henebry 2002][research_goodin_henebry_2002], [Kozoderov and Egorov 2019][research_kozoderov_egorov_2019]. **The relation is unchanged across all of it. Only the angular resolution improved, and the linear penalty for altitude did not go away.**
+**Every foot of altitude is paid for in resolution, and the payment is linear while the survivability benefit is not.** The photographic problem at these altitudes is treated in [Nelson and Hamsher 1950][research_nelson_hamsher_1950], the materials in [Mallios 1952][research_mallios_1952], the assessment methods in [Toth and White 1949][research_toth_white_1949], and the later formalisation of image quality in [Roetling et al 1963][research_roetling_1963]. Sensing from an aeroplane developed continuously from film through electro-optical systems to modern remote sensing, and the sequence is [Mignery et al 1951][research_mignery_1951], [Lueder and Belcher 1954][research_lueder_belcher_1954], [Pearce 1954][research_pearce_1954], [Tafel 1960][research_tafel_1960], [Kuzina et al 1962][research_kuzina_1962], [Petroski 1981][research_petroski_1981], [Allario and Sokolski 1988][research_allario_sokolski_1988], [Goodin and Henebry 2002][research_goodin_henebry_2002], [Kozoderov and Egorov 2019][research_kozoderov_egorov_2019]. **The relation is unchanged across all of it. Only the angular resolution improved, and the linear penalty for altitude did not go away.**
 
 ### Range, Which Is the One Quoted Figure That Survives an Independent Check
 
@@ -593,7 +593,7 @@ What follows is a survey rather than a gesture at one. The organising observatio
 
 ### The Question Did Not Lapse Between 1956 and the Present
 
-**The X-16's question was worked continuously between the 1950s and the present**, most visibly by the high-altitude long-endurance programmes of the 1980s and 1990s, which asked exactly what Bell had asked and had better tools for it. The line runs [OKRESS and SOBERMAN 1981][research_okress_soberman_1981], [Youngblood and Talay 1982][research_youngblood_talay_1982], [Maughmer and Somers 1987, An airfoil designed for a high-alt][research_maughmer_somers_1987_2], [Hall and Rogan 1988][research_hall_rogan_1988], [Andrews et al 1988][research_andrews_1988], [HALL and ROGAN 1988, Development of a micro-computer ba][research_hall_rogan_1988_2], [Hall and Rogan 1989][research_hall_rogan_1989], [Thornton 2002][research_thornton_2002], [Colozza and Dolce 2003][research_colozza_dolce_2003], [Jenkinson and Marchman 2003][research_jenkinson_marchman_2003], [Shibata et al 2003][research_shibata_2003], [Colozza and Landis 2004][research_colozza_landis_2004], [Donohue 2004][research_donohue_2004], [Biber and Tilmann 2004][research_biber_tilmann_2004], [Fladeland et al 2019][research_fladeland_2019], [Fladeland et al 2019, Supporting NASA Science with High-][research_fladeland_2019_2], [Li 2021][research_li_2021], [Ahmed and Alhuwaishel 2021][research_ahmed_alhuwaishel_2021], [Wang et al 2021][research_wang_2021], [Chen et al 2021][research_chen_2021].
+**The X-16's question was worked continuously between the 1950s and the present**, most visibly by the high-altitude long-endurance programmes of the 1980s and 1990s, which asked exactly what Bell had asked and had better tools for it. The line runs [Okress and Soberman 1981][research_okress_soberman_1981], [Youngblood and Talay 1982][research_youngblood_talay_1982], [Maughmer and Somers 1987, An airfoil designed for a high-alt][research_maughmer_somers_1987_2], [Hall and Rogan 1988][research_hall_rogan_1988], [Andrews et al 1988][research_andrews_1988], [Hall and Rogan 1988, Development of a micro-computer ba][research_hall_rogan_1988_2], [Hall and Rogan 1989][research_hall_rogan_1989], [Thornton 2002][research_thornton_2002], [Colozza and Dolce 2003][research_colozza_dolce_2003], [Jenkinson and Marchman 2003][research_jenkinson_marchman_2003], [Shibata et al 2003][research_shibata_2003], [Colozza and Landis 2004][research_colozza_landis_2004], [Donohue 2004][research_donohue_2004], [Biber and Tilmann 2004][research_biber_tilmann_2004], [Fladeland et al 2019][research_fladeland_2019], [Fladeland et al 2019, Supporting NASA Science with High-][research_fladeland_2019_2], [Li 2021][research_li_2021], [Ahmed and Alhuwaishel 2021][research_ahmed_alhuwaishel_2021], [Wang et al 2021][research_wang_2021], [Chen et al 2021][research_chen_2021].
 
 Two entries in that list deserve naming. **The airfoil work of the late 1980s was done for an aircraft with the X-16's problem and not merely a similar one**, since a section designed for high-altitude long-endurance flight is a section designed to work at the Reynolds numbers this article computes. And **the integrated sizing systems of the same period automate exactly the trade this article performs by hand**, which is the ceiling against weight against wing loading against structural mass.
 
@@ -619,7 +619,7 @@ What replaces it is energy storage over the night, and the modern literature on 
 
 The X-16's wing was described as lighter and more flexible than jet practice allowed, and the modern field treats that flexibility as the central design difficulty rather than a side effect. Geometrically nonlinear aeroelastic analysis is now standard, in [Tsushima et al 2019][research_tsushima_2019] and [Lei et al 2020][research_lei_2020]. Propeller and structure interaction on high-altitude long-endurance aircraft is treated in [Teixeira and Cesnik 2019][research_teixeira_cesnik_2019] and its effect on aeroelastic stability in [Teixeira and Cesnik 2020][research_teixeira_cesnik_2020]. Parametric optimisation of high aspect ratio composite wings appears in [Meng et al 2019][research_meng_2019] and coupled aeroelastic tailoring in [Kirsch et al 2020][research_kirsch_2020].
 
-The field has grown well past what the article could apply, into geometrically exact formulations, aeroelastic scaling for wind-tunnel models, body-freedom flutter, and coupled flight-dynamic and aeroelastic analysis, across [Hillebrand et al 2025][research_hillebrand_2025], [Jayatilake et al 2025][research_jayatilake_2025], [Kheiri and Riazat 2025][research_kheiri_riazat_2025], [Liu et al 2025][research_liu_2025], [Luo et al 2025][research_luo_2025], [Onkar et al 2025][research_onkar_2025], [Sharifi et al 2025][research_sharifi_2025], [Sharqi and Cesnik 2025][research_sharqi_cesnik_2025], [Düssler et al 2026][research_dussler_2026], [Peng et al 2026][research_peng_2026], [Santos and Marques 2026][research_santos_marques_2026], [Song et al 2026][research_song_2026], [Tian et al 2026][research_tian_2026], [Xiong et al 2026][research_xiong_2026].
+The field has grown well past what the article could apply, into geometrically exact formulations, aeroelastic scaling for wind-tunnel models, body-freedom flutter, and coupled flight-dynamic and aeroelastic analysis, across [Hillebrand et al 2025][research_hillebrand_2025], [Jayatilake et al 2025][research_jayatilake_2025], [Kheiri and Riazat 2025][research_kheiri_riazat_2025], [Liu et al 2025][research_liu_2025], [Luo et al 2025][research_luo_2025], [Onkar et al 2025][research_onkar_2025], [Sharifi et al 2025][research_sharifi_2025], [Sharqi and Cesnik 2025][research_sharqi_cesnik_2025], [Düssler et al 2026][research_dussler_2026], [Peng et al 2026][research_peng_2026], [dos Santos and Marques 2026][research_santos_marques_2026], [Song et al 2026][research_song_2026], [Tian et al 2026][research_tian_2026], [Xiong et al 2026][research_xiong_2026].
 
 **The RB-57D's 500-hour wing is the historical case these methods exist to prevent.** And the article's own confessed gap, that no stiffness distribution for the X-16 survives and so its flexibility cannot be quantified, is exactly the input that all of this work takes as given. **A modern analysis of the X-16 is impossible for want of one table that was never published.**
 
@@ -651,7 +651,7 @@ This article's reconciliation of the thrust-limited ceiling with the U-2's reput
 
 ### Propulsion at Altitude Is Still Measured Rather Than Predicted
 
-The article's headline result is that a lapse exponent had to be inferred from outcomes because it could not be derived. That has not fundamentally changed for air-breathing engines, and altitude performance modelling, compressor behaviour at low Reynolds number, inlet recovery and propeller performance in thin air remain measured subjects, in [Kruger and Uranga 2024][research_kruger_uranga_2024], [Lee and Yee 2024][research_lee_yee_2024], [Oğur et al 2024][research_ogur_2024], [Shi et al 2024][research_shi_2024], [Almutairi et al 2025][research_almutairi_2025], [Dai et al 2025][research_dai_2025], [Priya and Arora 2025][research_priya_arora_2025], [Riccio et al 2025][research_riccio_2025], [Sarup 2025][research_sarup_2025], [Shan et al 2025][research_shan_2025], [Shang et al 2025][research_shang_2025], [Koshel et al 2026][research_koshel_2026], [LIU et al 2026, Consideration for the development][research_liu_2026_3].
+The article's headline result is that a lapse exponent had to be inferred from outcomes because it could not be derived. That has not fundamentally changed for air-breathing engines, and altitude performance modelling, compressor behaviour at low Reynolds number, inlet recovery and propeller performance in thin air remain measured subjects, in [Kruger and Uranga 2024][research_kruger_uranga_2024], [Lee and Yee 2024][research_lee_yee_2024], [Oğur et al 2024][research_ogur_2024], [Shi et al 2024][research_shi_2024], [Almutairi et al 2025][research_almutairi_2025], [Dai et al 2025][research_dai_2025], [Priya and Arora 2025][research_priya_arora_2025], [Riccio et al 2025][research_riccio_2025], [Sarup 2025][research_sarup_2025], [Shan et al 2025][research_shan_2025], [Shang et al 2025][research_shang_2025], [Koshel et al 2026][research_koshel_2026], [Liu et al 2026, Consideration for the development][research_liu_2026_3].
 
 **The turbocharger failure literature for high-altitude long-endurance aircraft is the closest modern analogue to the X-16's problem**, because a turbocharged piston or small turbine engine at seventy thousand feet faces the same thin-air component-efficiency question the J57 faced, at a smaller scale and with better instrumentation.
 
@@ -681,7 +681,7 @@ The trade this article performs by hand, ceiling against weight against wing loa
 
 ### The Mission Moved to Other Vehicles
 
-Station keeping is now a competing-platform question rather than an aeroplane question, with underactuated stratospheric airships in [Zhou et al 2019][research_zhou_2019], balloon guidance by aerodynamic sails in [Waghela et al 2019][research_waghela_2019], propulsion-assisted balloon station keeping in [Kayhan 2020][research_kayhan_2020], and communications payloads treating the platform as a pseudo-satellite in [Sirigina et al 2021][research_sirigina_2021]. **The balloon that competed with the X-16 in 1954 is still competing with its descendants**, which is a continuity worth noting given that [BARTHOLOMEW 1954][research_bartholomew_1954] sits in the same archive.
+Station keeping is now a competing-platform question rather than an aeroplane question, with underactuated stratospheric airships in [Zhou et al 2019][research_zhou_2019], balloon guidance by aerodynamic sails in [Waghela et al 2019][research_waghela_2019], propulsion-assisted balloon station keeping in [Kayhan 2020][research_kayhan_2020], and communications payloads treating the platform as a pseudo-satellite in [Sirigina et al 2021][research_sirigina_2021]. **The balloon that competed with the X-16 in 1954 is still competing with its descendants**, which is a continuity worth noting given that [Bartholomew 1954][research_bartholomew_1954] sits in the same archive.
 
 The mission itself largely left aircraft altogether. Overhead reconnaissance moved to satellites, and the remaining aeroplane role is the one the [ER-2][ref_er2] fills, which is atmospheric science rather than intelligence.
 
@@ -834,14 +834,14 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Anderson et al 1984][research_anderson_1984]
 - [Andrews et al 1988][research_andrews_1988]
 - [Ardohain and Fei 2025][research_ardohain_fei_2025]
-- [Austin and H. 1967][research_austin_h_1967]
-- [BAER-RIEDHART 1982][research_baer_riedhart_1982]
+- [Austin 1967][research_austin_h_1967]
+- [Baer-Riedhart 1982][research_baer_riedhart_1982]
 - [Bagarić et al 2025][research_bagaric_2025]
 - [Bai et al 2025][research_bai_2025]
 - [Barker et al 1972][research_barker_1972]
-- [BARNARD 1969][research_barnard_1969]
+- [Barnard 1969][research_barnard_1969]
 - [Barrett et al 2026][research_barrett_2026]
-- [BARTHOLOMEW 1954][research_bartholomew_1954]
+- [Bartholomew 1954][research_bartholomew_1954]
 - [Baydar et al 2017][research_baydar_2017]
 - [Beyer et al 2024][research_beyer_2024]
 - [Biber and Tilmann 2004][research_biber_tilmann_2004]
@@ -849,7 +849,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Bland 1980][research_bland_1980]
 - [Boddy 1946][research_boddy_1946]
 - [Borgmann et al 2025][research_borgmann_2025]
-- [BRAITHWAITE et al 1973][research_braithwaite_1973]
+- [Braithwaite et al 1973][research_braithwaite_1973]
 - [Breuhaus 1961][research_breuhaus_1961]
 - [Broeren et al 2019][research_broeren_2019]
 - [Brown and Leidich 2025][research_brown_leidich_2025]
@@ -874,7 +874,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Clarenc D. Cone 1961][research_clarenc_d_cone_1961]
 - [Coe 1981][research_coe_1981]
 - [Cole and Holleman 1958][research_cole_holleman_1958]
-- [COLEMAN and STEINER 1953][research_coleman_steiner_1953]
+- [Coleman and Steiner 1953][research_coleman_steiner_1953]
 - [Colozza and Dolce 2003][research_colozza_dolce_2003]
 - [Colozza and Landis 2004][research_colozza_landis_2004]
 - [Connors and Woollett 1952][research_connors_woollett_1952]
@@ -895,7 +895,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Davison and Chishty 2011][research_davison_chishty_2011]
 - [Diederich 1956][research_diederich_1956]
 - [Diederich 1957][research_diederich_1957]
-- [DIETZ 1952][research_dietz_1952]
+- [Dietz 1952][research_dietz_1952]
 - [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947]
 - [Dommasch et al 1959][research_dommasch_1959]
 - [Donohue 2004][research_donohue_2004]
@@ -906,7 +906,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Düssler et al 2026][research_dussler_2026]
 - [Echols 1953][research_echols_1953]
 - [Edi 2026][research_edi_2026]
-- [ERICSSON 1966][research_ericsson_1966]
+- [Ericsson 1966][research_ericsson_1966]
 - [Fan et al 2025][research_fan_2025]
 - [Farhat 2001][research_farhat_2001]
 - [Farsadi et al 2026][research_farsadi_2026]
@@ -915,7 +915,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Fladeland et al 2019, Supporting NASA Science with High-][research_fladeland_2019_2]
 - [Foster and Cunningham 2010][research_foster_cunningham_2010]
 - [Fournier et al 2022][research_fournier_2022]
-- [FOX 1971][research_fox_1971]
+- [Fox 1971][research_fox_1971]
 - [Francis et al 2026][research_francis_2026]
 - [Friedlander et al 2023][research_friedlander_2023]
 - [Fritts 2008][research_fritts_2008]
@@ -924,14 +924,14 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Furry et al 1962][research_furryy_1962]
 - [Furuse and Tran 2025][research_furuse_tran_2025]
 - [Games et al 1954][research_games_1954]
-- [GANGSAAS et al 1981][research_gangsaas_1981]
+- [Gangsaas et al 1981][research_gangsaas_1981]
 - [Gann and Yiğit 2026][research_gann_yigit_2026]
 - [Ge et al 2025][research_ge_2025]
 - [Gern et al 2000][research_gern_2000]
 - [Ghonem 1987][research_ghonem_1987]
 - [Giacomini and Westerberg 2025][research_giacomini_westerberg_2025]
 - [Gillespie 1960][research_gillespie_1960]
-- [GLASGOW et al 1980][research_glasgow_1980]
+- [Glasgow et al 1980][research_glasgow_1980]
 - [Goc et al 2025][research_goc_2025]
 - [Goodin and Henebry 2002][research_goodin_henebry_2002]
 - [Gracey et al 1960][research_gracey_1960]
@@ -943,7 +943,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Haddadpour et al 2005][research_haddadpour_2005]
 - [Haider 2025][research_haider_2025]
 - [Hall and Rogan 1988][research_hall_rogan_1988]
-- [HALL and ROGAN 1988, Development of a micro-computer ba][research_hall_rogan_1988_2]
+- [Hall and Rogan 1988, Development of a micro-computer ba][research_hall_rogan_1988_2]
 - [Hall and Rogan 1989][research_hall_rogan_1989]
 - [Hammer and Shumway 2026][research_hammer_shumway_2026]
 - [Han et al 2024][research_han_2024]
@@ -975,7 +975,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Hudson 1980][research_hudson_1980]
 - [Huston 1948][research_huston_1948]
 - [Huston and Skopinski 1955][research_huston_skopinski_1955]
-- [ICHIKAWA 1960][research_ichikawa_1960]
+- [Ichikawa 1960][research_ichikawa_1960]
 - [Irps and Kanjirakkad 2025][research_irps_kanjirakkad_2025]
 - [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]
 - [Jansen and Thorman 1950][research_jansen_thorman_1950]
@@ -994,7 +994,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Kayhan 2020][research_kayhan_2020]
 - [Kelly and Pettit 2003][research_kelly_pettit_2003]
 - [Kerho 2007][research_kerho_2007]
-- [KERKAM 1982][research_kerkam_1982]
+- [Kerkam 1982][research_kerkam_1982]
 - [Keçeci and Oktal 2026][research_kececi_oktal_2026]
 - [Khalil and Fezans 2021][research_khalil_fezans_2021]
 - [Kheiri and Riazat 2025][research_kheiri_riazat_2025]
@@ -1016,7 +1016,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Kumar et al 2026][research_kumar_2026]
 - [Kuzina et al 1962][research_kuzina_1962]
 - [Lange et al 2026][research_lange_2026]
-- [LAPPE 1965][research_lappe_1965]
+- [Lappe 1965][research_lappe_1965]
 - [Larson and Webb 1963][research_larson_webb_1963]
 - [Larson et al 1980][research_larson_1980]
 - [Lee 1984][research_lee_1984]
@@ -1033,7 +1033,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Li et al 2022, Enhancement of Insensitivity for P][research_li_2022_3]
 - [Li et al 2025, Experimental study of the multiple][research_li_2025_2]
 - [Li et al 2026][research_li_2026]
-- [LIEBST et al 1986][research_liebst_1986]
+- [Liebst et al 1986][research_liebst_1986]
 - [Lina and Ricker 1952][research_lina_ricker_1952]
 - [Liu and Hu 2026][research_liu_hu_2026]
 - [Liu et al 2021][research_liu_2021]
@@ -1042,10 +1042,10 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Liu et al 2024, Simulation on Buffet Response and][research_liu_2024_3]
 - [Liu et al 2025][research_liu_2025]
 - [Liu et al 2026][research_liu_2026]
-- [LIU et al 2026, Consideration for the development][research_liu_2026_3]
+- [Liu et al 2026, Consideration for the development][research_liu_2026_3]
 - [Liu et al 2026, Critical Reynolds number for the i][research_liu_2026_2]
 - [Loewy 2000][research_loewy_2000]
-- [LUEDER and BELCHER 1954][research_lueder_belcher_1954]
+- [Lueder and Belcher 1954][research_lueder_belcher_1954]
 - [Luo et al 2025][research_luo_2025]
 - [Clark David Co Inc Worcester Ma 1960][research_ma_1960]
 - [Maghrabi et al 2026][research_maghrabi_2026]
@@ -1056,7 +1056,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Mason and Iglesias 2001][research_mason_iglesias_2001]
 - [Matsuda et al 2026][research_matsuda_2026]
 - [Maughmer and Somers 1987, An airfoil designed for a high-alt][research_maughmer_somers_1987_2]
-- [MAYES et al 1970][research_mayes_1970]
+- [Mayes et al 1970][research_mayes_1970]
 - [McDonnell and Ning 2020][research_mcdonnell_ning_2020]
 - [McGhee and Beasley 1973][research_mcghee_beasley_1973]
 - [McGhee and Bingham 1972][research_mcghee_bingham_1972]
@@ -1074,23 +1074,23 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Miura and Shyu 1986][research_miura_shyu_1986]
 - [Moore and Cutright 2019][research_moore_cutright_2019]
 - [de Arruda Moreira et al 2026][research_moreira_2026]
-- [MORRIS 1954][research_morris_1954]
+- [Morris 1954][research_morris_1954]
 - [Morris 1981, Analytical study of the cruise per][research_morris_1981_2]
 - [Mueller 1984][research_mueller_1984]
 - [Mueller and Batill 1980][research_mueller_batill_1980]
 - [Mueller and Torres 2001][research_mueller_torres_2001]
 - [Murzello et al 2020][research_murzello_2020]
 - [NACA 1962][research_naca_1962]
-- [NAGAMATSU 1980][research_nagamatsu_1980]
+- [Nagamatsu 1980][research_nagamatsu_1980]
 - [Narimani et al 2025][research_narimani_2025]
 - [Nelson and Hamsher 1950][research_nelson_hamsher_1950]
 - [Nissen and Gadeberg 1944][research_nissen_gadeberg_1944]
 - [Nordby and Crisman 1964][research_nordby_crisman_1964]
 - [Nrangwesti et al 2025][research_nrangwesti_2025]
 - [Bell Aerospace Co Buffalo Ny 1955][research_ny_1955]
-- [NY 1955, MX-2276 Reconnaissance Aircraft We][research_ny_1955_2]
+- [Bell Aerospace Co Buffalo Ny 1955, MX-2276 Reconnaissance Aircraft We][research_ny_1955_2]
 - [Bell Aerospace Co Buffalo Ny 1957][research_ny_1957]
-- [OKRESS and SOBERMAN 1981][research_okress_soberman_1981]
+- [Okress and Soberman 1981][research_okress_soberman_1981]
 - [Onkar et al 2025][research_onkar_2025]
 - [Ouellette 2019][research_ouellette_2019]
 - [Oğur et al 2024][research_ogur_2024]
@@ -1115,14 +1115,14 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Qin 2026][research_qin_2026]
 - [Qu and Li 2022][research_qu_li_2022]
 - [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983]
-- [RAEKE 1958][research_raeke_1958]
+- [Raeke 1958][research_raeke_1958]
 - [Rainey and Igoe 1958][research_rainey_igoe_1958]
 - [Raj 2019][research_raj_2019]
 - [Randieri et al 2025][research_randieri_2025]
 - [Rao 1985][research_rao_1985]
 - [Rathert et al 1949][research_rathert_1949]
 - [Rathnasabapathy et al 2025][research_rathnasabapathy_2025]
-- [REDDEN 1961][research_redden_1961]
+- [Redden 1961][research_redden_1961]
 - [Delgado Regis et al 2004][research_regis_2004]
 - [Reynolds et al 2001][research_reynolds_2001]
 - [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2]
@@ -1136,7 +1136,7 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Rochford et al 2026][research_rochford_2026]
 - [Roetling et al 1963][research_roetling_1963]
 - [Romeo et al 2004][research_romeo_2004]
-- [RUHLIN and MURPHY 1981][research_ruhlin_murphy_1981]
+- [Ruhlin and Murphy 1981][research_ruhlin_murphy_1981]
 - [Rumsey et al 2001][research_rumsey_2001]
 - [Rumsey et al 2003][research_rumsey_2003]
 - [Runyan and Steers 1980][research_runyan_steers_1980]
@@ -1146,13 +1146,13 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Sanchez 1986][research_sanchez_1986]
 - [Sanders 1957][research_sanders_1957]
 - [Sanders and Palasics 1948][research_sanders_palasics_1948]
-- [Santos and Marques 2026][research_santos_marques_2026]
+- [dos Santos and Marques 2026][research_santos_marques_2026]
 - [Sarup 2025][research_sarup_2025]
 - [Sarup 2026][research_sarup_2026]
 - [Sawake 2026][research_sawake_2026]
 - [Schmidlin et al 1981][research_schmidlin_1981]
 - [Schollmeier and Wiesche 2022][research_schollmeier_wiesche_2022]
-- [SCHROEDER 1956][research_schroeder_1956]
+- [Schroeder 1956][research_schroeder_1956]
 - [Schulderfrei et al 1951][research_schulderfrei_1951]
 - [Shah and Ansell 2026][research_shah_ansell_2026]
 - [Shan et al 2025][research_shan_2025]
@@ -1183,9 +1183,9 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Stack et al 1943][research_stack_1943]
 - [Stanford 2020][research_stanford_2020]
 - [Straight and Cullom 1982][research_straight_cullom_1982]
-- [STULL and VELKOFF 1972][research_stull_velkoff_1972]
+- [Stull and Velkoff 1972][research_stull_velkoff_1972]
 - [Sugioka et al 2021][research_sugioka_2021]
-- [TAFEL 1960][research_tafel_1960]
+- [Tafel 1960][research_tafel_1960]
 - [Tagashira et al 2007][research_tagashira_2007]
 - [Tang 2006][research_tang_2006]
 - [Tantaroudas and Karachalios 2026][research_tantaroudas_karachalios_2026]
@@ -1197,11 +1197,11 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 - [Thornton 2002][research_thornton_2002]
 - [Tian et al 2026][research_tian_2026]
 - [Tian-yu et al 1981][research_tian_yu_1981]
-- [TORENBEEK 1972][research_torenbeek_1972]
-- [TOTH and WHITE 1949][research_toth_white_1949]
+- [Torenbeek 1972][research_torenbeek_1972]
+- [Toth and White 1949][research_toth_white_1949]
 - [Traub and Coffman 2019][research_traub_coffman_2019]
 - [Tsushima et al 2019][research_tsushima_2019]
-- [TSUSHIMA et al 2019, Geometrically nonlinear electro-ae][research_tsushima_2019_2]
+- [Tsushima et al 2019, Geometrically nonlinear electro-ae][research_tsushima_2019_2]
 - [Tucker and Quinn 1944][research_tucker_quinn_1944]
 - [Turriziani et al 1980][research_turriziani_1980]
 - [Unangst 1959][research_unangst_1959]

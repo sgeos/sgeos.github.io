@@ -4,6 +4,39 @@
 
 ## Last Updated
 
+**Date**: 2026-10-09 (third entry)
+**Task**: **REMAINING X-PLANES REPAIR ITEMS CLOSED: CITATION LABELS, STALE CHECKERS, FRONT MATTER, AND A364 AND A332 FIGURES.** NOT pushed, NOT published.
+
+**CITATION LABELS, 789 OCCURRENCES MORE.** The rules are in `tmp/fix7/label_fix.py`, and generators apply them through `labelnorm.py`.
+- **Labels in capitals:** "BARTHOLOMEW 1954" became "Bartholomew 1954", with acronyms such as NASA, NACA and AIAA excluded.
+- **Initials parsed as a second author:** "Burdett and H. W. 1956" became "Burdett 1956".
+- **A suffix parsed as an author:** "Luce and Jr 1949" became "Luce, Jr. 1949".
+- **Suffix casing without a comma:** "Cornish Iii" became "Cornish III".
+- **Dropped particles and truncated compound surnames, checked against the registry:** Van Camp, El Khoury, dos Santos, Di Clemente, von Karman, Miró Miró, Daud Filho, Ahmadi Dastgerdi and Kumar G.
+- **Misread author lists, checked against Crossref:** "Engineu 2019" became "Dzhandzhgava et al 2019", "Hank Murphy and Mutzman 2008" became "Hank et al 2008", "Jong-Ho Park 2016" became "Jeon et al 2016" because the first author is 전민경, and "P. and V. 2022" became "Vibin Antony and Sajith 2022".
+- **The "Given Surname et al" class was settled by evidence.** Crossref was queried for all 2,570 such records, and 2,516 answered. For every decidable record, 2,003 in all, Crossref's own family field holds both words, so the labels follow the registry and none was changed (`tmp/fix7/given_name_decide.py`).
+- **Audit.** A series-wide check of 50,024 author-year labels against the registry's first author and year leaves 11 differences, each explained. Examples are a transliteration, a registry typo, an online-versus-print year and a registry affiliation listed as an author.
+
+**STALE CHECKERS FIXED.** The `check.py` scripts for A313 to A317 compared labels against harvest-time display names that the 11 August repair superseded.
+- Each now checks lead author and year against the cached registry record (`tmp/fix7/label_expect.py`).
+- Four records where the registry lists an affiliation first are documented exceptions.
+- All five pass with 0 failures.
+
+**FRONT MATTER REMOVED.**
+- A356 lost a table of contents, so it now holds 3,885 records.
+- A331 lost three subject indexes, so it now holds 5,402 records, with 2,046 through 2001 and 910 report-server records at 16.8 percent.
+- **The series now holds 267,359 research references.** Prefaces and forewords stay under the pilot's ruling on editorials.
+
+**A364.** Its cluster table and survey figures counted 1,251 admitted records, not the 1,173 the article cites. All of them were recomputed over the cited records under a stated title-phrase rule, and the internal cluster keys became names. A stale symbol row and drafting wording on two reference lines were removed.
+
+**A332.** Two cluster counts from an unstated script rule now point at the sections where that literature is listed.
+
+**Settled with no change:** A324's reclined-seat study is about seats in air-to-air combat aircraft, so it is on topic.
+
+**DRAFTING NOTES.** Every change is appended to `_docs/process/x_planes_drafting_notes/<ART>.md`.
+
+---
+
 **Date**: 2026-10-09 (second entry)
 **Task**: **THE X-PLANES ARTICLES NO LONGER REPORT THEIR DRAFTING PROCESS.** `3cf97f7` and the commit recording it. NOT pushed, NOT published.
 

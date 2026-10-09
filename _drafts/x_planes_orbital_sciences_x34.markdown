@@ -4779,16 +4779,16 @@ attempting a flight profile within reach of existing practice.
 
 ## The Source Base
 
-**This article rests on 2,049 references published through 2001, when the programme was cancelled, and 3,010 published from 2015 onward.**
+**This article rests on 2,046 references published through 2001, when the programme was cancelled, and 3,010 published from 2015 onward.**
 
 ### Both Halves, Counted and Not Only Divided
 
-**The research survey holds 5,405 records, and every share given here is given with its count, because a share alone moves whenever anything else in the survey grows.**
-Of those records, 2,049, or 37.9 percent, were published through 2001, 3,010, or 55.7 percent, from 2015
+**The research survey holds 5,402 records, and every share given here is given with its count, because a share alone moves whenever anything else in the survey grows.**
+Of those records, 2,046, or 37.9 percent, were published through 2001, 3,010, or 55.7 percent, from 2015
 onward, and 1,524, or 28.2 percent, from 2022 onward. The report literature is counted as every record whose
 address resolves to a report server, meaning the Technical Reports Server of the National Aeronautics and Space
 Administration, the Defense Technical Information Center or the Office of Scientific and Technical
-Information, and it comes to 911 records, or 16.9 percent.
+Information, and it comes to 910 records, or 16.8 percent.
 
 **The survey admits a record only when a person reading its title finds it on this article's subject.** Its
 records come from those report servers and from the journal literature. Many words this subject depends on
@@ -5497,7 +5497,6 @@ means everything published before 2015, and the contemporary half is listed in t
 - [Reliability analysis of parallel processing systems][research_harper_1988]
 - [Reliability in fiber optic cable harness manufacturing][research_mccoy_1988]
 - [Monte Carlo Reliability Analysis][research_lewis_1989]
-- [Reliability Analysis Center Griffiss Afb Ny 1989][research_reliabilityanalysiscentergriffissafbny_1989]
 - [Effects of redundancy management on reliability modeling][research_effects_of_1990]
 - [Scalable avionics architecture using common modules for lunar...][research_karas_1990]
 - [Software reliability and redundancy optimization][research_software_reliability_1990]
@@ -5918,7 +5917,6 @@ means everything published before 2015, and the contemporary half is listed in t
 - [Material evaluation under direct rocket exhaust impingement][research_fredericks_shorr_1972]
 - [Nonuniform Propellant Distribution in Multiple Tank Rocket...][research_pasley_1972]
 - [Prediction of Tank Pressure History in a Blowdown Propellant...][research_pasley_1972_b]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1972]
 - [Coolant-side heat-transfer rates for a hydrogen-oxygen rocket...][research_schachtrl_quentmeyerrj_1973]
 - [Cost - The emerging aerospace technology][research_jorden_siegel_1973]
 - [Feasibility study of an Integrated Program for Aerospace...][research_millerrejr_southalljw_1973]
@@ -5927,7 +5925,6 @@ means everything published before 2015, and the contemporary half is listed in t
 - [Launch Vehicle and Missile Lv/M Technology Subject Index][research_launch_vehicle_1973]
 - [Launch vehicle propulsion achievements and technology status][research_larson_1973]
 - [Nonlinear longitudinal combustion instability in rocket motors][research_lores_zinn_1973]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1973]
 - [A digital fly-by-wire technology development program using an...][research_jarvis_1974]
 - [Automatic Control of Adverse Yaw in the Landing Environment...][research_bischoff_duffy_1974]
 - [Aircraft antenna analysis for microwave landing system][research_balanis_cheng_1975]
@@ -6615,7 +6612,7 @@ Of the four it is the only one that was ready.
 - [Alawadhi et al 2025][research_alawadhi_vabithadevi_2025]
 - [Albanese et al 2012][research_albanese_meyers_2012]
 - [Alexander and Fournier 1963][research_alexander_fournier_1963]
-- [Alexander and T. M. 1978][research_alexander_tm_1978]
+- [Alexander 1978][research_alexander_tm_1978]
 - [Alexander et al 1996][research_alexander_tzeng_1996]
 - [Alexanderian et al 2021][research_alexanderian_petra_2021]
 - [Alexandrov 2026][research_alexandrov_2026]
@@ -7152,7 +7149,7 @@ Of the four it is the only one that was ready.
 - [Cardillo et al 2023][research_cardillo_battista_2023]
 - [Carico 1998][research_carico_1998]
 - [Carlson et al 1995][research_carlson_king_1995]
-- [Carman and J. B. 1966][research_carman_jb_1966]
+- [Carman 1966][research_carman_jb_1966]
 - [Carneiro et al 2020][research_carneiro_rawson_2020]
 - [Carpenter and Jeffus 1962][research_carpenter_jeffus_1962]
 - [Carpenter and Jeffus 1963][research_carpenter_jeffus_1963]
@@ -8500,7 +8497,7 @@ Of the four it is the only one that was ready.
 - [Iii 2024][research_iii_2024]
 - [Ikenson 2025][research_ikenson_2025]
 - [Il'Yashenko 1963][research_ilyashenko_1963]
-- [Ilango and R. 2020][research_ilango_r_2020]
+- [Ilango 2020][research_ilango_r_2020]
 - [Ilegbusi 1996][research_ilegbusi_1996]
 - [Ilie and Sullivan 2022][research_ilie_sullivan_2022]
 - [Imai and Wada 2025][research_imai_wada_2025]
@@ -10020,7 +10017,7 @@ Of the four it is the only one that was ready.
 - [Parkinson and Fitzgibbon 1989][research_parkinson_fitzgibbon_1989]
 - [Parks and Tubb 1970][research_parks_tubb_1970]
 - [Parmenter et al 2001][research_parmenter_shuman_2001]
-- [Parrish and Jr 1978][research_parrish_jr_1978]
+- [Parrish, Jr. 1978][research_parrish_jr_1978]
 - [Parsons 1970][research_parsons_1970]
 - [Parsons Engineering Sciences Inc Pasadena Ca 1991][research_parsonsengineeringsciencesincpasadenaca_1991]
 - [Pasciuti et al 2025][research_pasciuti_acampa_2025]
@@ -10346,7 +10343,6 @@ Of the four it is the only one that was ready.
 - [Reitan and Saib 1976][research_reitan_saib_1976]
 - [Reitmann and Schultz 2022][research_reitmann_schultz_2022]
 - [Reliability Analysis Center Griffiss Afb Ny 1981][research_reliabilityanalysiscentergriffissafbny_1981]
-- [Reliability Analysis Center Griffiss Afb Ny 1989][research_reliabilityanalysiscentergriffissafbny_1989]
 - [Reliability and redundancy 1968][research_reliability_and_1968]
 - [Reliability and redundancy considerations in selecting spacecraft batteries 1964][research_reliability_and_1964]
 - [Reliability enhancement of submodule redundancy 1991][research_reliability_enhancement_1991]
@@ -10958,8 +10954,6 @@ Of the four it is the only one that was ready.
 - [Su et al 2022][research_su_zha_2022]
 - [Su et al 2025][research_su_qian_2025]
 - [Subaschandar 2019][research_subaschandar_2019]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE (LV/M) TECHNOLOGY 1972][research_subject_index_1972]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE (LV/M) TECHNOLOGY 1973][research_subject_index_1973]
 - [Success for SpaceX reusable rocket 2017][research_success_for_2017]
 - [Sudarshan et al 2021][research_sudarshan_jagadeesh_2021]
 - [Sudol et al 2018][research_sudol_edwards_2018]
@@ -15763,7 +15757,6 @@ Of the four it is the only one that was ready.
 [research_reliability_through_1964]: https://doi.org/10.1016/0026-2714(64)90207-0
 [research_reliability_tradeoff_1964]: https://doi.org/10.1016/0026-2714(64)90259-8
 [research_reliabilityanalysiscentergriffissafbny_1981]: https://doi.org/10.21236/ada113992
-[research_reliabilityanalysiscentergriffissafbny_1989]: https://doi.org/10.21236/ada220599
 [research_reliable_interconnections_1972]: https://doi.org/10.1016/0026-2714(72)90386-1
 [research_remiddi_indelicato_2022]: https://doi.org/10.2514/6.2022-2119
 [research_ren_tang_1997]: https://doi.org/10.2514/6.1997-2578
@@ -16368,8 +16361,6 @@ Of the four it is the only one that was ready.
 [research_su_wang_2022]: https://doi.org/10.1109/icus55513.2022.9986540
 [research_su_zha_2022]: https://doi.org/10.3390/aerospace9110701
 [research_subaschandar_2019]: https://doi.org/10.24321/2349.7661.201802
-[research_subject_index_1972]: https://doi.org/10.2514/3.62912
-[research_subject_index_1973]: https://doi.org/10.2514/3.62959
 [research_success_for_2017]: https://doi.org/10.1088/2058-7058/30/5/20
 [research_sudarshan_jagadeesh_2021]: https://doi.org/10.1016/j.actaastro.2021.04.036
 [research_sudol_edwards_2018]: https://doi.org/10.2514/6.2018-5415

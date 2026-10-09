@@ -202,7 +202,7 @@ descent-state framework it sits in is [Lundberg 1937][research_lundberg_1937], [
 [Fetter 1974][research_fetter_1974],
 [Sallet 1975][research_sallet_1975],
 [Pullin 1979][research_pullin_1979], [Shi-cun 1990][research_shicun_1990], [Lucey and Jasper
-1998][research_lucey_jasper_1998], [Lucey and Jr 2000][research_lucey_jr_2000], [Johnson
+1998][research_lucey_jasper_1998], [Lucey, Jr. 2000][research_lucey_jr_2000], [Johnson
 2004][research_johnson_2004], [Johnson 2005][research_johnson_2005].
 
 ### The Reference Speed
@@ -371,7 +371,7 @@ Garrard 1982][research_konicke_garrard_1982], [Peterson and Johnson 1983][resear
 1985][research_knacke_1985], [Garrard et al 1987][research_garrard_1987], [Nix and Jack P.
 1989][research_nix_jack_p_1989], [Ludtke 1991][research_ludtke_1991], [Shpund and Levin
 1991][research_shpund_levin_1991], [Brinkman 1992][research_brinkman_1992], [Hogan
-1992][research_hogan_1992], [Niemi and Jr 1992][research_niemi_jr_1992], [Sahu et al
+1992][research_hogan_1992], [Niemi, Jr. 1992][research_niemi_jr_1992], [Sahu et al
 1997][research_sahu_1997], [Bement 2000][research_bement_2000], [Accorsi and Leonard
 2002][research_accorsi_leonard_2002], [Johari and Desabrais 2002][research_johari_desabrais_2002], [Stein
 2005][research_stein_2005], [Sengupta et al 2008][research_sengupta_2008], [Sengupta et al
@@ -429,7 +429,7 @@ Garrard 1982][research_konicke_garrard_1982], [Peterson and Johnson 1983][resear
 1985][research_knacke_1985], [Garrard et al 1987][research_garrard_1987], [Nix and Jack P.
 1989][research_nix_jack_p_1989], [Ludtke 1991][research_ludtke_1991], [Shpund and Levin
 1991][research_shpund_levin_1991], [Brinkman 1992][research_brinkman_1992], [Hogan
-1992][research_hogan_1992], [Niemi and Jr 1992][research_niemi_jr_1992], [Sahu et al
+1992][research_hogan_1992], [Niemi, Jr. 1992][research_niemi_jr_1992], [Sahu et al
 1997][research_sahu_1997], [Bement 2000][research_bement_2000], [Accorsi and Leonard
 2002][research_accorsi_leonard_2002], [Johari and Desabrais 2002][research_johari_desabrais_2002], [Stein
 2005][research_stein_2005], [Sengupta et al 2008][research_sengupta_2008], [Sengupta et al
@@ -2408,7 +2408,7 @@ JET 1956][research_downwards_escape_1956], [Doblhoff 1956][research_doblhoff_195
 1956][research_dunlap_1956], [Gessow 1956][research_gessow_1956], [Gessow and Tapscott
 1956][research_gessow_tapscott_1956], [Goland 1956][research_goland_1956], [Gray 1956][research_gray_1956],
 [Hart 1956][research_hart_1956], [Irvin and Swan 1956][research_irvin_swan_1956], [Martin
-1956][research_martin_1956], [McCormick and B. W. 1956][research_mccormick_b_w_1956], [Morse
+1956][research_martin_1956], [McCormick 1956][research_mccormick_b_w_1956], [Morse
 1956][research_morse_1956], [Muzzey 1956][research_muzzey_1956], [Perrin 1956][research_perrin_1956],
 [Shulman 1956][research_shulman_1956], [Allen and White 1957][research_allen_white_1957], [Army Aviation
 Board Fort Rucker Al 1957][research_army_aviation_board_fort_rucker_al_1957], [Hohenemser
@@ -2959,7 +2959,7 @@ of the Unsteady][research_rosen_isser_1995_2], [Rosen and Isser 1995, A New Mode
 Dynamics][research_rosen_isser_1995], [Strawn and Biswas 1995][research_strawn_biswas_1995], [Tang and
 Dowell 1995][research_tang_dowell_1995], [Traven and Whitley 1995][research_traven_whitley_1995], [Wang
 1995][research_wang_1995], [Wentworth et al 1995][research_wentworth_1995], [Brender et al
-1996][research_brender_1996], [Burke and Jr 1996][research_burke_jr_1996], [Cole 1996][research_cole_1996],
+1996][research_brender_1996], [Burke, Jr. 1996][research_burke_jr_1996], [Cole 1996][research_cole_1996],
 [Fries 1996][research_fries_1996], [George 1996][research_george_1996], [Gorton et al
 1996][research_gorton_1996], [Martin
 1996][research_martin_1996], [McKillip 1996][research_mckillip_1996],
@@ -3667,7 +3667,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Bucklew 2009][research_bucklew_2009]
 - [Budd Co Fort Washington Pa Technical Center 1978][research_budd_co_fort_washington_pa_technical_center_1978]
 - [Buller 2017][research_buller_2017]
-- [Burke and Jr 1996][research_burke_jr_1996]
+- [Burke, Jr. 1996][research_burke_jr_1996]
 - [Burkhardt 1985][research_burkhardt_1985]
 - [Burns 1974][research_burns_1974]
 - [Burns and Barker 1966][research_burns_barker_1966]
@@ -4629,7 +4629,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Ignatkin et al 2020][research_ignatkin_2020]
 - [Ignatyev et al 2020][research_ignatyev_2020]
 - [Ikeda et al 2015][research_ikeda_2015]
-- [Ilango and R. 2020][research_ilango_r_2020]
+- [Ilango 2020][research_ilango_r_2020]
 - [Iliev 2025][research_iliev_2025]
 - [Immersion and Invariance Adaptive Fault-Tolerant Attitude Control for a Coaxial Tilt-Rotor eVTOL Aircraft 2026][research_immersion_and_2026]
 - [Impact tests of a graphite-epoxy helicopter tail rotor blade 1975][research_impact_tests_1975]
@@ -5121,7 +5121,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Lu et al 2026][research_lu_2026]
 - [Luan et al 2026][research_luan_2026]
 - [Lucey and Jasper 1998][research_lucey_jasper_1998]
-- [Lucey and Jr 2000][research_lucey_jr_2000]
+- [Lucey, Jr. 2000][research_lucey_jr_2000]
 - [Luchinsky et al 2017][research_luchinsky_2017]
 - [Luckring 1979][research_luckring_1979]
 - [Lucrezia 2023][research_lucrezia_2023]
@@ -5246,7 +5246,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [McConnell and Das 2022][research_mcconnell_das_2022]
 - [McConnell and Das 2023][research_mcconnell_das_2023]
 - [McCormack 1972][research_mccormack_1972]
-- [McCormick and B. W. 1956][research_mccormick_b_w_1956]
+- [McCormick 1956][research_mccormick_b_w_1956]
 - [McDonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950]
 - [McDougall 1965][research_mcdougall_1965]
 - [McElreath et al 2020][research_mcelreath_2020]
@@ -5439,7 +5439,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Nie et al 2023][research_nie_2023]
 - [Niederer and Mihora 1972][research_niederer_mihora_1972]
 - [Niemi and Bevillard 2015][research_niemi_bevillard_2015]
-- [Niemi and Jr 1992][research_niemi_jr_1992]
+- [Niemi, Jr. 1992][research_niemi_jr_1992]
 - [Nik Mohd 2017][research_nik_mohd_2017]
 - [Nikolsky 1959][research_nikolsky_1959]
 - [Nikolsky and Seckel 1949, An analysis of the transition of][research_nikolsky_seckel_1949_2]
@@ -5589,7 +5589,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Peters 1985][research_peters_1985]
 - [Peters 1988][research_peters_1988]
 - [Peters and Chen 1982][research_peters_chen_1982]
-- [Peters and Jr 1977][research_peters_jr_1977]
+- [Peters, Jr. 1977][research_peters_jr_1977]
 - [Peters and Schrage 1978][research_peters_schrage_1978]
 - [Peters et al 1982][research_peters_1982]
 - [Peters et al 1983][research_peters_1983]
@@ -5968,7 +5968,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Sheng 2018][research_sheng_2018]
 - [Shenoy 1984][research_shenoy_1984]
 - [Shepardson 1954][research_shepardson_1954]
-- [Sherer and Jr. 1945][research_sherer_jr_1945]
+- [Sherer, Jr. 1945][research_sherer_jr_1945]
 - [Sheridan et al 1982][research_sheridan_1982]
 - [Shi 2024, Aviation Safety for Urban Air][research_shi_2024_2]
 - [Shi and Eckstein 1966][research_shi_eckstein_1966]

@@ -6140,8 +6140,8 @@ heading, which is what the last column records.
 | Subject | Title phrases counted | Records | Which kind of thin |
 |---|---|---|---|
 | Ground roll and takeoff distance | ground roll, takeoff distance, take-off distance, rolling friction | 1, none modern | **Settled.** A closed-form result in every performance textbook, and this article derives it in two lines |
-| Disc loading | disc loading, disk loading | 2, both modern | **Wrong heading.** The subject sits inside momentum theory work, the survey cluster that holds 129 of the cited records |
-| Jet footprint and ground erosion | ground erosion, surface erosion, deck heating, jet footprint, impingement pressure | 3, one modern | **Wrong heading.** It lives inside impingement and ground environment work, the survey cluster that holds 622 of the cited records |
+| Disc loading | disc loading, disk loading | 2, both modern | **Wrong heading.** The subject sits inside momentum theory and lift fan work, listed under The Lift Fan Itself and Powered Lift Moved to Electric Aircraft and Took the Physics With It |
+| Jet footprint and ground erosion | ground erosion, surface erosion, deck heating, jet footprint, impingement pressure | 3, one modern | **Wrong heading.** It lives inside impingement and ground environment work, listed under The Ground Environment, Which Became a Computational Subject |
 | Rotor spin-up and inertia | spin-up, spin up, spinup, rotational inertia, polar moment, flywheel | 3, two modern | **Wrong heading.** It lives inside drive system transient work |
 | Thrust lapse with altitude | thrust lapse, installed thrust, altitude performance | 10, two modern | **Wrong heading.** It lives inside installed performance and engine decks |
 | Stagnation temperature and kinetic heating | stagnation temperature, recovery temperature, kinetic heating, aerodynamic heating | 28, eighteen modern | **Moved.** The ten older records date from 1949 to 1987, and by title the eighteen modern ones concern re-entry, hypersonic and other high-speed vehicles rather than the transonic case |
@@ -10425,7 +10425,7 @@ nobody remembers the date.
 - [Bangert et al 1983][research_bangert_henke_1983]
 - [Bangert et al 2017][research_bangert_davies_2017]
 - [Bangwen 2020][research_bangwen_2020]
-- [Banham and J.W. 1963][research_banham_jw_1963]
+- [Banham 1963][research_banham_jw_1963]
 - [Bao et al 2020][research_bao_zhang_2020]
 - [Bao et al 2021][research_bao_kong_2021]
 - [Baojun et al 2022][research_baojun_jiong_2022]
@@ -10896,7 +10896,7 @@ nobody remembers the date.
 - [Burcham, Frank W., Jr. et al 1990][research_burchamfrankwjr_gilyardglennb_1990]
 - [Burcham, Frank W., Jr. et al 1990][research_burchamfrankwjr_gilyardglennb_1990_b]
 - [Burcham, Jr. and Batterton 1976][research_burchamjr_batterton_1976]
-- [Burdett and H. W. 1956][research_burdett_hw_1956]
+- [Burdett 1956][research_burdett_hw_1956]
 - [Burdun 2003][research_burdun_2003]
 - [Burgan 1984][research_burgan_1984]
 - [Burger 1983][research_burger_1983]
@@ -10957,7 +10957,7 @@ nobody remembers the date.
 - [Calarese and Walterick 1979][research_calarese_walterick_1979]
 - [Calder and Gupta 1978][research_calder_gupta_1978]
 - [Caldwell and Lafavor 1980][research_caldwell_lafavor_1980]
-- [Calhoon and Jr 1998][research_calhoon_jr_1998]
+- [Calhoon, Jr. 1998][research_calhoon_jr_1998]
 - [California Inst Of Tech Pasadena 1951][research_californiainstoftechpasadena_1951]
 - [Caliskan and Hajiyev 2003][research_caliskan_hajiyev_2003]
 - [Callaway 2015][research_callaway_2015]
@@ -11502,7 +11502,7 @@ nobody remembers the date.
 - [Curtiss 1970][research_curtiss_1970]
 - [Curtiss 1971][research_curtiss_1971]
 - [Curtiss 1973][research_curtiss_1973]
-- [Curtiss and H. C. 1965][research_curtiss_hc_1965]
+- [Curtiss 1965][research_curtiss_hc_1965]
 - [Curtiss and Howard C. 1969][research_curtiss_howardc_1969]
 - [Cusanelli and Slutsky 2008][research_cusanelli_slutsky_2008]
 - [Cusati et al 2023][research_cusati_corcione_2023]
@@ -12882,7 +12882,7 @@ nobody remembers the date.
 - [Heinlein et al 2019][research_heinlein_bakhle_2019]
 - [Heinlein et al 2020][research_heinlein_chen_2020]
 - [Heinlein et al 2024][research_heinlein_dumlupinar_2024]
-- [Heins and Jr 1955][research_heins_jr_1955]
+- [Heins, Jr. 1955][research_heins_jr_1955]
 - [Heiran et al 2017][research_heiran_abadi_2017]
 - [Heister 2016][research_heister_2016]
 - [Heit and Liscouet-Hanke 2023][research_heit_liscouethanke_2023]
@@ -13113,7 +13113,7 @@ nobody remembers the date.
 - [Huebner, Lawrence D. et al 2001][research_huebnerlawrenced_rockkennethe_2001]
 - [Huelsmann and Thole 2020][research_huelsmann_thole_2020]
 - [Huete and Singh 1997][research_huete_singh_1997]
-- [Huff and W. W. 1949][research_huff_ww_1949]
+- [Huff 1949][research_huff_ww_1949]
 - [Huggett 1959][research_huggett_1959]
 - [Hughes et al 2002][research_hughes_jeracki_2002]
 - [Hughes Tool Co Culver City Ca 1963][research_hughestoolcoculvercityca_1963]
@@ -13758,7 +13758,7 @@ nobody remembers the date.
 - [Konar et al 1974][research_konar_mahesh_1974]
 - [Koncsek 1981][research_koncsek_1981]
 - [Koncsek and Syberg 1977][research_koncsek_syberg_1977]
-- [Konda and A. 2023][research_konda_a_2023]
+- [Konda 2023][research_konda_a_2023]
 - [Kondo et al 2003][research_kondo_yang_2003]
 - [Kondoleon 1968][research_kondoleon_1968]
 - [Kong 2000][research_kong_2000]
@@ -14423,7 +14423,7 @@ nobody remembers the date.
 - [Lubrication of supersonic aircraft 1968][research_lubrication_of_1968]
 - [Lucas 1978][research_lucas_1978]
 - [Lucas, J. G. et al 1978][research_lucasjg_woodwardrp_1978]
-- [Luce and Jr 1949][research_luce_jr_1949]
+- [Luce, Jr. 1949][research_luce_jr_1949]
 - [Luce and Moore 1963][research_luce_moore_1963]
 - [Luchini 1982][research_luchini_1982]
 - [Ludwig et al 2017][research_ludwig_gote_2017]
@@ -15300,7 +15300,7 @@ nobody remembers the date.
 - [Owens, D. Bruce et al 2004][research_owensdbruce_mcconnelljeffreyk_2004]
 - [Oz 1998][research_oz_1998]
 - [Oğur et al 2024][research_ogur_koc_2024]
-- [P. and V. 2022][research_p_v_2022]
+- [Vibin Antony and Sajith 2022][research_p_v_2022]
 - [P. Chiozzotto 2017][research_pchiozzotto_2017]
 - [Paar and Muetze 2015][research_paar_muetze_2015]
 - [Paar and Muetze 2017][research_paar_muetze_2017]
@@ -15393,7 +15393,7 @@ nobody remembers the date.
 - [Parker and Simonson 1982][research_parker_simonson_1982_c]
 - [Paroubek and Kynčl 1998][research_paroubek_kyncl_1998]
 - [Paroubek et al 1996][research_paroubek_cyrus_1996]
-- [Parrish and Jr 1978][research_parrish_jr_1978]
+- [Parrish, Jr. 1978][research_parrish_jr_1978]
 - [Parsi et al 2025][research_parsi_biglari_2025]
 - [Parsons Engineering Sciences Inc Pasadena Ca 1991][research_parsonsengineeringsciencesincpasadenaca_1991]
 - [Parsons et al 1996][research_parsons_han_1996]

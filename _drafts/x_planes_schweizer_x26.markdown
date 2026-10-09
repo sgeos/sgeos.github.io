@@ -2196,7 +2196,7 @@ Operational Suitability Test of][research_air_proving_ground_center_eglin_afb_fl
 Buffalo Ny 1955, MX-2276 Reconnaissance Aircraft][research_bell_aerospace_co_buffalo_ny_1955], [Bell
 Aerospace Co Buffalo Ny 1955, MX-2276 Reconnaissance
 Aircraft][research_bell_aerospace_co_buffalo_ny_1955_2], [Coward 1955][research_coward_1955], [Dailey
-1955][research_dailey_1955], [Heins and Jr 1955][research_heins_jr_1955], [Lerbs 1955][research_lerbs_1955],
+1955][research_dailey_1955], [Heins, Jr. 1955][research_heins_jr_1955], [Lerbs 1955][research_lerbs_1955],
 [MacAllister 1955][research_macallister_1955], [McCarthy et al 1955][research_mccarthy_1955], [Poor
 1955][research_poor_1955], [Randall 1955][research_randall_1955], [Strier et al 1955][research_strier_1955],
 [Townsend and Phillips 1955][research_townsend_phillips_1955], [Bell Aerospace Co Buffalo Ny 1956, Ducted
@@ -2278,7 +2278,7 @@ and Hove 1963][research_waller_hove_1963], [White 1963][research_white_1963], [W
 1963][research_widger_1963], [Wilson Committee Report on Noise 1963][research_wilson_committee_1963], [Army Arctic
 Test Center Fort Greely Ak 1964][research_army_arctic_test_center_fort_greely_ak_1964], [Cape Town to
 McMurdo 1964][research_cape_town_1964], [Cook 1964][research_cook_1964],
-[Culbertson and Jr 1964][research_culbertson_jr_1964], [Dusterberry 1964][research_dusterberry_1964],
+[Culbertson, Jr. 1964][research_culbertson_jr_1964], [Dusterberry 1964][research_dusterberry_1964],
 [Flight Sciences Lab Inc Buffalo Ny 1964][research_flight_sciences_lab_inc_buffalo_ny_1964], [Fulton Robert
 Co Newtown Ct 1964][research_fulton_robert_co_newtown_ct_1964], [General Electric Co Cincinnati Oh
 1964][research_general_electric_co_cincinnati_oh_1964], [Jones 1964][research_jones_1964], [Kilgore and
@@ -2497,7 +2497,7 @@ and Daniels 1981][research_willis_daniels_1981], [Winther et al
 1982][research_miller_1982], [Nash 1982][research_nash_1982], [Ollerhead 1982][research_ollerhead_1982],
 [Reinhart and Crocker 1982][research_reinhart_crocker_1982], [Reiquam 1982][research_reiquam_1982], [Revell
 et al 1982, Analysis of Interior][research_revell_1982_2], [Revell et al 1982, Interior Noise Control
-by][research_revell_1982], [Strike and W. T. 1982][research_strike_w_t_1982], [Taylor and Miller
+by][research_revell_1982], [Strike 1982][research_strike_w_t_1982], [Taylor and Miller
 1982][research_taylor_miller_1982], [Thomas and Jones 1982][research_thomas_jones_1982], [Trinks and
 Haseborg 1982][research_trinks_haseborg_1982], [Watson 1982][research_watson_1982], [Wells et al
 1982][research_wells_1982], [van Gool
@@ -3379,7 +3379,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Clark 1982][research_clark_1982]
 - [Clark 1983][research_clark_1983]
 - [Clark 2013][research_clark_2013]
-- [Clark and Jr 1953][research_clark_jr_1953]
+- [Clark, Jr. 1953][research_clark_jr_1953]
 - [Clark et al 1973][research_clark_1973]
 - [Clarke O Manning et al 1992][research_clarke_o_manning_1992]
 - [Clarkson and Mead 1973][research_clarkson_mead_1973]
@@ -3451,14 +3451,14 @@ The next article in this series takes up the Lockheed X-27.
 - [Croom and Huffman 1957][research_croom_huffman_1957]
 - [Cross and Ryley 2024][research_cross_ryley_2024]
 - [Crother et al 1973][research_crother_1973]
-- [Culbertson and Jr 1964][research_culbertson_jr_1964]
+- [Culbertson, Jr. 1964][research_culbertson_jr_1964]
 - [Culver 2016][research_culver_2016]
 - [Cummings 1929][research_cummings_1929]
 - [Cummings 1968][research_cummings_1968]
 - [Cuppoletti et al 2024][research_cuppoletti_2024]
 - [Curry et al 1965][research_curry_1965]
 - [Curtis 1977][research_curtis_1977]
-- [Curtiss and H. C. 1965][research_curtiss_h_c_1965]
+- [Curtiss 1965][research_curtiss_h_c_1965]
 - [Cusati et al 2023][research_cusati_2023]
 - [Czarnecki and Davis 1948][research_czarnecki_davis_1948]
 - [Czysz 1963][research_czysz_1963]
@@ -3958,7 +3958,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Hegyi and Jósvai 2019][research_hegyi_josvai_2019]
 - [Heidelberg and Woodward 1989][research_heidelberg_woodward_1989]
 - [Heidenreich 1947][research_heidenreich_1947]
-- [Heins and Jr 1955][research_heins_jr_1955]
+- [Heins, Jr. 1955][research_heins_jr_1955]
 - [Heitman and Mixson 1986][research_heitman_mixson_1986]
 - [Helgesen 1962][research_helgesen_1962]
 - [Helicopter flight to Thule, 1953 1954][research_helicopter_flight_1954]
@@ -4053,7 +4053,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Huang et al 2025][research_huang_2025]
 - [Hubbard 1993][research_hubbard_1993]
 - [Huber 1976][research_huber_1976]
-- [Huff and W. W. 1949][research_huff_w_w_1949]
+- [Huff 1949][research_huff_w_w_1949]
 - [Hui and Chen 2023][research_hui_chen_2023]
 - [Hukuda 1962][research_hukuda_1962]
 - [Hultgren 2015][research_hultgren_2015]
@@ -4569,7 +4569,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Mange 1978][research_mange_1978]
 - [Mangold and Strohmayer 2025][research_mangold_strohmayer_2025]
 - [Manickam et al 2020][research_manickam_2020]
-- [Maniet and Jr 2001][research_maniet_jr_2001]
+- [Maniet, Jr. 2001][research_maniet_jr_2001]
 - [Mansour 1985][research_mansour_1985]
 - [Mao and Zhao 1990][research_mao_zhao_1990]
 - [Marchman and Abtahi 1985][research_marchman_abtahi_1985]
@@ -4617,7 +4617,7 @@ The next article in this series takes up the Lockheed X-27.
 - [McCleary 1992][research_mccleary_1992]
 - [McCormick 1959][research_mccormick_1959]
 - [McCormick 1969][research_mccormick_1969]
-- [McCormick and B. W. 1956][research_mccormick_b_w_1956]
+- [McCormick 1956][research_mccormick_b_w_1956]
 - [McCoy 1992][research_mccoy_1992]
 - [McCracken 1979][research_mccracken_1979]
 - [McCurdy 1984][research_mccurdy_1984]
@@ -5433,7 +5433,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Strelkov and Kharlamov 1967][research_strelkov_kharlamov_1967]
 - [Stresses in a rotating propeller blade 1938][research_stresses_in_1938]
 - [Strier et al 1955][research_strier_1955]
-- [Strike and W. T. 1982][research_strike_w_t_1982]
+- [Strike 1982][research_strike_w_t_1982]
 - [Stuart 1943][research_stuart_1943]
 - [Stutz 1952][research_stutz_1952]
 - [Su et al 2025, An aircraft noise prediction][research_su_2025]

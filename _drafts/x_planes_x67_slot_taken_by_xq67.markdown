@@ -2021,7 +2021,6 @@ it, and each such collision is noted below.
 | $\kappa$ | fleet-average unit cost factor against bespoke designs | dimensionless |
 | $a$ | sharing slope, equal to $S$ to the minus $b$ less one, always negative | dimensionless |
 | $\eta$ | sharing penalty coefficient on delivered capability | dimensionless |
-| $\Delta$ | discriminant of the first-order condition for the optimum | dimensionless |
 | $\phi^{\ast}$ | the shared fraction minimising effective cost | dimensionless |
 | $\mathcal{C}_g$ | non-recurring cost of developing the genus | dollar |
 | $c_s$ | non-recurring cost of one species on the genus | dollar |
@@ -2082,44 +2081,45 @@ product families, component commonality and modular architecture. **That literat
 engineering and management science, which is why most of the survey comes from a journal index rather
 than from a report archive.**
 
-**The survey admits 1,251 records and assigns them across fifteen clusters, all of them non-empty.**
-A record may belong to more than one cluster, so the assignments exceed the record count and the mean is the quantity that says by how
-much.
+**The survey's 1,173 research records fall across fifteen clusters, all of them non-empty.** Each
+record is assigned to every cluster whose characteristic phrases its title contains, and every record
+contains at least one. A record may therefore belong to more than one cluster, so the assignments exceed
+the record count and the mean is the quantity that says by how much.
 
 $$
 \bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
 $$
 
-**That is 1.0576 clusters per record across 1,323 assignments.** A
+**That is 1.0614 clusters per record across 1,245 assignments.** A
 mean barely above one says the clusters are nearly disjoint, **which is a property of the admission rule rather
 than of the field**, since each cluster admits on compound nouns the others do not use.
 
 | Cluster | Records | What it holds |
 |---|---:|---|
-| `commonality` | 223 | component commonality, part sharing, commonality indices and metrics |
-| `product_family` | 364 | product families, product platforms, platform-based design, mass customisation |
-| `modularity` | 175 | modular architecture, module boundaries, design structure matrices, the theory of modularity |
-| `open_arch` | 50 | the modular open systems approach, open mission systems, integrated modular avionics |
-| `variety_cost` | 67 | the cost of variety, economies of scope, learning curves, development-cost estimation |
-| `flexibility` | 40 | real options in design, design flexibility, technology refresh and obsolescence |
-| `acp` | 84 | autonomous collaborative platforms, collaborative combat aircraft, crewed and uncrewed teaming |
-| `attritable` | 4 | attritability and affordable mass, which the X-58 article surveyed in full |
-| `autonomy` | 15 | autonomy architecture, reference autonomy, tactical datalinks, trust in automation |
-| `designation` | 97 | designation and nomenclature systems, part numbering, configuration identification |
-| `identifier` | 86 | identifier allocation, namespaces, persistent identifiers, versioning and compatibility |
-| `taxonomy` | 36 | classification of artefacts, numerical taxonomy, engineering ontologies, identity criteria |
-| `uav_design` | 21 | conceptual design and sizing of unmanned aircraft |
-| `demonstrator` | 33 | flight demonstrators, rapid prototyping, prototype competitions, readiness levels |
-| `digital_eng` | 28 | digital engineering, model-based systems engineering, virtual prototyping |
+| Commonality | 216 | component commonality, part sharing, commonality indices and metrics |
+| Product families | 356 | product families, product platforms, platform-based design, mass customisation |
+| Modularity | 171 | modular architecture, module boundaries, design structure matrices, the theory of modularity |
+| Open architecture | 47 | the modular open systems approach, open mission systems, integrated modular avionics |
+| Cost of variety | 63 | the cost of variety, economies of scope, learning curves, development-cost estimation |
+| Flexibility | 34 | real options in design, design flexibility, technology refresh and obsolescence |
+| Autonomous collaborative platforms | 83 | autonomous collaborative platforms, collaborative combat aircraft, crewed and uncrewed teaming |
+| Attritability | 4 | attritability and affordable mass, which the X-58 article surveyed in full |
+| Autonomy | 14 | autonomy architecture, reference autonomy, tactical datalinks, trust in automation |
+| Designation | 71 | designation and nomenclature systems, part numbering, configuration identification |
+| Identifiers | 73 | identifier allocation, namespaces, persistent identifiers, versioning and compatibility |
+| Taxonomy | 33 | classification of artefacts, numerical taxonomy, engineering ontologies, identity criteria |
+| Unmanned aircraft design | 21 | conceptual design and sizing of unmanned aircraft |
+| Demonstrators | 31 | flight demonstrators, rapid prototyping, prototype competitions, readiness levels |
+| Digital engineering | 28 | digital engineering, model-based systems engineering, virtual prototyping |
 
 **The shape of that table is the article's subject restated.** The three largest clusters are
-product_family at 364, commonality at 223 and modularity at
-175, which together are the engineering literature of when a thing is a new thing. **The
-designation and identifier clusters, at 97 and 86, are the literature of
-how such things are named and numbered.** The taxonomy cluster at 36 is the literature of
+product families at 356, commonality at 216 and modularity at
+171, which together are the engineering literature of when a thing is a new thing. **The
+designation and identifier clusters, at 71 and 73, are the literature of
+how such things are named and numbered.** The taxonomy cluster at 33 is the literature of
 classifying artefacts at all.
 
-**The smallest cluster is attritable at four records and that is deliberate
+**The smallest cluster is attritability at four records and that is deliberate
 rather than a failure.** Attritability is the [X-58][related_post_a355_x58_slot_taken_by_xq58] article's
 keystone and that article surveyed it at length, including the arithmetic of a cost per sortie and a
 break-even survival probability. **Repeating the survey here would be padding.** The cluster exists so
@@ -2144,7 +2144,7 @@ right before any aeroplane had a design number.
 
 **There is no literature on the X-67 and the article states that rather than implying coverage.** The
 survey holds no record whose subject is this designation, because a designation that was never
-allocated produces nothing. **The 1,251 records map the field the question sits in and not the
+allocated produces nothing. **The 1,173 research records map the field the question sits in and not the
 question**, and the only sources that speak to the X-67 directly are the register, the compilation of
 missing designations and the instruction.
 
@@ -2247,11 +2247,11 @@ $$
 \varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
 $$
 
-Of the 1,251 admitted records, 156 come from the reports server or the defence registry,
-so $\varpi$ is **12.5 percent**, split 48 from the reports server and
-108 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
+Of the 1,173 research records, 136 are reports held by the reports server or the defence registry,
+so $\varpi$ is **11.6 percent**, split 42 from the reports server and
+94 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
 percent on the same definition, and those four figures are what those articles reported at the time,
-quoted rather than recomputed here.** This one reports 12.5.
+quoted rather than recomputed here.** This one reports 11.6.
 
 **That is a finding about the subject.** Commonality and product family design are a manufacturing and
 management literature, and a research agency that builds aeroplanes publishes about aeroplanes.
@@ -2271,8 +2271,8 @@ $$
 
 **Nineteen are hand-written primary sources, four are hand-written theory sources,
 67 are the prior articles of this series, and 1,169 are research
-records from the three archives.** **Of the 1,251 admitted records
-1,095 came from the bibliographic index**, which is the proportion the subject dictates rather
+records from the three archives.** **Of the 1,173 research records
+the 1,037 that are not reports carry bibliographic-index identifiers**, which is the proportion the subject dictates rather
 than a choice.
 
 **The period profile is reported beside the fraction because the two move independently.** Of the
@@ -2775,7 +2775,7 @@ rebuilt because the official one was withdrawn.**
 - [Baker 1985][research_baker_1985]
 - [Baker et al 1986][research_baker_magazine_1986]
 - [Baldwin and Clark, Design Rules, Volume 1, The Power of Modularity, MIT Press, 2000, the chapters on what modularity is and on splitting and substitution known from the registry record and from the index entries returned by the sweep][research_baldwin_clark_2000]
-- [Baldwin and Clark, The Value of Modularity, Splitting and Substitution, chapter in Design Rules Volume 1, The Power of Modularity, MIT Press, 2000, registry record only, and the title the first version of this article's subject gate REFUSED][research_baldwin_clark_splitting]
+- [Baldwin and Clark, The Value of Modularity, Splitting and Substitution, chapter in Design Rules Volume 1, The Power of Modularity, MIT Press, 2000, registry record only][research_baldwin_clark_splitting]
 - [Baldwin and Clark, What Is Modularity?, chapter in Design Rules Volume 1, The Power of Modularity, MIT Press, 2000, registry record only][research_baldwin_clark_modularity]
 - [Banas et al 2020][research_banas_mehling_2020]
 - [Bangert and Frances 2017][research_bangert_frances_2017]
@@ -2789,7 +2789,7 @@ rebuilt because the official one was withdrawn.**
 - [Baylis et al 2018][research_baylis_zhang_2018]
 - [Bedford 1933][research_bedford_1933]
 - [Bellini et al 2014][research_bellini_bergamin_2014]
-- [Bellur and V. 2006][research_bellur_v_2006]
+- [Bellur 2006][research_bellur_v_2006]
 - [Beltramo, M. N. and Anderson, J. L. 1977][research_beltramomn_andersonjl_1977]
 - [Beltramo, M. N. et al 1979][research_beltramomn_morrisma_1979]
 - [Benkoczi et al 2018][research_benkoczi_gaur_2018]
@@ -3066,7 +3066,7 @@ rebuilt because the official one was withdrawn.**
 - [Gerchak and Henig 1989][research_gerchak_henig_1989]
 - [Gerchak et al 1988][research_gerchak_magazine_1988]
 - [Gershenson et al 2003][research_gershenson_prasad_2003]
-- [Gershenson, Prasad and Zhang, Product modularity, measures and design methods, Journal of Engineering Design, 2004, registry record only, surfaced by the REFUSED sample rather than by the kept one][research_product_modularity_measures]
+- [Gershenson, Prasad and Zhang, Product modularity, measures and design methods, Journal of Engineering Design, 2004, registry record only][research_product_modularity_measures]
 - [Gilbert 1933][research_gilbert_1933]
 - [Golovachev 2026][research_golovachev_2026]
 - [Gong et al 2017][research_gong_liu_2017]
@@ -3508,7 +3508,7 @@ rebuilt because the official one was withdrawn.**
 - [Park and Simpson 2006][research_park_simpson_2006]
 - [Park et al 2008][research_park_shin_2008]
 - [Park et al 2022][research_park_yoo_2022]
-- [Parrish and Jr 1978][research_parrish_jr_1978]
+- [Parrish, Jr. 1978][research_parrish_jr_1978]
 - [Pasche and Sköld 2012][research_pasche_skold_2012]
 - [Paskin 1999][research_paskin_1999]
 - [Patria 2013][research_patria_2013]

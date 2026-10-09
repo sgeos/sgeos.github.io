@@ -145,7 +145,7 @@ $$\frac{L}{D} = \frac{\cos\alpha}{\sin\alpha} = \cot\alpha = 1.273$$
 
 **Against the 1.245 that 1,700 nautical miles of crossrange requires, that is agreement to 2.3 percent**, reached from two directions that share nothing. One is a mission requirement inverted through an orbital mechanics approximation. The other is impact theory applied to a flat plate.
 
-That the check works at all rests on Newtonian theory being a good approximation in this regime, which is a question with its own literature, in [Dyke 1951][research_dyke_1951], [HAYES 1959][research_hayes_1959], [Freeman 1960][research_freeman_1960], [Freeman 1960, A Note on the Explosion Solution o][research_freeman_1960_2], [Freeman 1962][research_freeman_1962], [Lunev and Pavlov 1966][research_lunev_pavlov_1966], [DSOUZA 1970][research_dsouza_1970], [Barren and Mandl 1978][research_barren_mandl_1978], [Verhoff et al 1990][research_verhoff_1990]. The theory is exact only in the limit of infinite Mach number and zero shock standoff, and its accuracy on real bodies at finite Mach number is what those papers establish. The wind-tunnel record for such shapes is extensive, in [Bernot and Robinson 1958][research_bernot_robinson_1958], [Robinson and Bernot 1958][research_robinson_bernot_1958], [Kaufman and G. 1963][research_kaufman_g_1963], [Meckler 1965][research_meckler_1965], [Giles and Thomas 1966][research_giles_thomas_1966], [Graves and Carmel 1968][research_graves_carmel_1968], [Merz 1968][research_merz_1968], [Pfaff 1968][research_pfaff_1968], [Goldberg et al 1969][research_goldberg_1969].
+That the check works at all rests on Newtonian theory being a good approximation in this regime, which is a question with its own literature, in [Dyke 1951][research_dyke_1951], [Hayes 1959][research_hayes_1959], [Freeman 1960][research_freeman_1960], [Freeman 1960, A Note on the Explosion Solution o][research_freeman_1960_2], [Freeman 1962][research_freeman_1962], [Lunev and Pavlov 1966][research_lunev_pavlov_1966], [Dsouza 1970][research_dsouza_1970], [Barren and Mandl 1978][research_barren_mandl_1978], [Verhoff et al 1990][research_verhoff_1990]. The theory is exact only in the limit of infinite Mach number and zero shock standoff, and its accuracy on real bodies at finite Mach number is what those papers establish. The wind-tunnel record for such shapes is extensive, in [Bernot and Robinson 1958][research_bernot_robinson_1958], [Robinson and Bernot 1958][research_robinson_bernot_1958], [Kaufman 1963][research_kaufman_g_1963], [Meckler 1965][research_meckler_1965], [Giles and Thomas 1966][research_giles_thomas_1966], [Graves and Carmel 1968][research_graves_carmel_1968], [Merz 1968][research_merz_1968], [Pfaff 1968][research_pfaff_1968], [Goldberg et al 1969][research_goldberg_1969].
 
 ### The Trade, Which Is Not the Trade It Appears to Be
 
@@ -177,7 +177,7 @@ What lift-to-drag ratio changes is the time spent near that rate, through the de
 
 $$Q = \int \dot{q} \, dt = \int \frac{\dot{q}}{|dV/dt|} \, dV \propto \frac{L}{D}$$
 
-The heating correlation underneath all of this is itself a fitted result and not a derivation, and the measurement programme behind it ran for two decades, in [Luce and Jr 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [SNODGRASS 1955][research_snodgrass_1955], [BUDIANSKY and MAYERS 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [VANDREY 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [MIELE 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
+The heating correlation underneath all of this is itself a fitted result and not a derivation, and the measurement programme behind it ran for two decades, in [Luce, Jr. 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [Snodgrass 1955][research_snodgrass_1955], [Budiansky and Mayers 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [Vandrey 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [Miele 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
 
 So the three quantities scale in three different ways, and setting them beside each other is the whole argument of this article.
 
@@ -211,7 +211,7 @@ $$\beta = \frac{W}{C_D A}$$
 
 At 50 pounds per square foot and a five degree path angle, the peak stagnation heating is 1,247 British thermal units per square foot second at about 87,000 feet, against 47.8 for the glider.
 
-The ballistic entry problem was worked thoroughly in exactly these years, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [PHILLIPS and COHEN 1959][research_phillips_cohen_1959], [Foster 1960][research_foster_1960], [Schweppe 1964][research_schweppe_1964], [REINIKKA and SARTELL 1965][research_reinikka_sartell_1965], [Platus 1980][research_platus_1980], [Vinh and Lin 1982][research_vinh_lin_1982], [Hough 1982][research_hough_1982], [HOUGH 1982, Ballistic entry motion using a gen][research_hough_1982_2], [Zimmermann et al 1996][research_zimmermann_1996], [Tillier 1998][research_tillier_1998], and one of those addresses **drag modulation to reduce deceleration loads**, which is the ballistic vehicle's own attempt at the softening that lift provides for free.
+The ballistic entry problem was worked thoroughly in exactly these years, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Phillips and Cohen 1959][research_phillips_cohen_1959], [Foster 1960][research_foster_1960], [Schweppe 1964][research_schweppe_1964], [Reinikka and Sartell 1965][research_reinikka_sartell_1965], [Platus 1980][research_platus_1980], [Vinh and Lin 1982][research_vinh_lin_1982], [Hough 1982][research_hough_1982], [Hough 1982, Ballistic entry motion using a gen][research_hough_1982_2], [Zimmermann et al 1996][research_zimmermann_1996], [Tillier 1998][research_tillier_1998], and one of those addresses **drag modulation to reduce deceleration loads**, which is the ballistic vehicle's own attempt at the softening that lift provides for free.
 
 $$\frac{\dot{q}_{\text{ballistic}}}{\dot{q}_{\text{glide}}} = \frac{1{,}247}{47.8} = 26.1$$
 
@@ -241,11 +241,11 @@ $$T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \
 
 **The fourth root is what makes the structure possible.** An eightfold reduction in heating buys only a 1,357 degree reduction in temperature, but it is the reduction that puts the primary structure inside a superalloy's range.
 
-**The emissivity in that expression is doing real work and is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 250 degrees hotter, and the measurement of emissivity on refractory metals and oxides at these temperatures was an active subject, not a settled one, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [WANG et al 2011][research_wang_2011].
+**The emissivity in that expression is doing real work and is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 250 degrees hotter, and the measurement of emissivity on refractory metals and oxides at these temperatures was an active subject, not a settled one, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [Wang et al 2011][research_wang_2011].
 
-**Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. The radiatively cooled structure was studied as a class and not only as a Dyna-Soar component, in [Jenness 1958][research_jenness_1958], [HOVEY 1965][research_hovey_1965], [STRAUSS 1967][research_strauss_1967], [RIVERS 1968][research_rivers_1968], [BAUER and KUMMER 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating, not the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the coating literature of 1960 to 1965 is correspondingly dense, in [McDonnell Aircraft Corp St Louis Mo 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
+**Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. The radiatively cooled structure was studied as a class and not only as a Dyna-Soar component, in [Jenness 1958][research_jenness_1958], [Hovey 1965][research_hovey_1965], [Strauss 1967][research_strauss_1967], [Rivers 1968][research_rivers_1968], [Bauer and Kummer 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001, Evaluation of Advanced Thermal Pro][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating, not the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the coating literature of 1960 to 1965 is correspondingly dense, in [McDonnell Aircraft Corp St Louis Mo 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
 
-The hot-structure experiments of the period are in [Pride et al 1960][research_pride_1960], [Baird 1964][research_baird_1964], [Brunner 1966][research_brunner_1966], [Brunner et al 1966, Study of thermal protection requir][research_brunner_1966_2], [Avery 1981][research_avery_1981], [Ko and Fields 1987][research_ko_fields_1987], [Blosser 1988][research_blosser_1988], [Goldstein 1992][research_goldstein_1992], [Carroll et al 1995][research_carroll_1995], [Blosser 1996][research_blosser_1996] and the materials work in [Maxwell 1952][research_maxwell_1952], [Mathauser et al 1960][research_mathauser_1960], [Peters and Rasnick 1961][research_peters_rasnick_1961], [Pride et al 1962][research_pride_1962], [Gangler 1963][research_gangler_1963], [Bliton and Rausch 1963][research_bliton_rausch_1963], [Bowers 1963][research_bowers_1963], [Bowers and Esch 1963][research_bowers_esch_1963], [Leeds 1963][research_leeds_1963], [HUGILL and GAIENNIE 1963][research_hugill_gaiennie_1963].
+The hot-structure experiments of the period are in [Pride et al 1960][research_pride_1960], [Baird 1964][research_baird_1964], [Brunner 1966][research_brunner_1966], [Brunner et al 1966, Study of thermal protection requir][research_brunner_1966_2], [Avery 1981][research_avery_1981], [Ko and Fields 1987][research_ko_fields_1987], [Blosser 1988][research_blosser_1988], [Goldstein 1992][research_goldstein_1992], [Carroll et al 1995][research_carroll_1995], [Blosser 1996][research_blosser_1996] and the materials work in [Maxwell 1952][research_maxwell_1952], [Mathauser et al 1960][research_mathauser_1960], [Peters and Rasnick 1961][research_peters_rasnick_1961], [Pride et al 1962][research_pride_1962], [Gangler 1963][research_gangler_1963], [Bliton and Rausch 1963][research_bliton_rausch_1963], [Bowers 1963][research_bowers_1963], [Bowers and Esch 1963][research_bowers_esch_1963], [Leeds 1963][research_leeds_1963], [Hugill and Gaiennie 1963][research_hugill_gaiennie_1963].
 
 ### Why the Wing Loading Is Low
 
@@ -287,7 +287,7 @@ $$\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \
 
 **The problem is not strength but accommodation.** Every shingle must be free to slide against its frame while remaining gas-tight.
 
-The thermal stress problem in a hot structure was recognised early and worked continuously, in [GOLDBERG 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958, Closure to “Discussion of ‘Transie][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
+The thermal stress problem in a hot structure was recognised early and worked continuously, in [Goldberg 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958, Closure to “Discussion of ‘Transie][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
 
 ### Why Not Ablation
 
@@ -327,9 +327,9 @@ $$h_e = 240{,}000 + \frac{21{,}174^{2}}{2(32.174)} = 7.20 \times 10^{6} \ \text{
 
 or about 1,365 statute miles of energy height, all of which must be disposed of before touchdown.
 
-**The topic is narrow in the literature and the reason is instructive.** Terminal energy management for an unpowered orbital vehicle became a subject only once such a vehicle was actually going to be flown, in [MORTH 1972][research_morth_1972], [Tsukamoto et al 1999][research_tsukamoto_1999], [Jiang and Yang 2014][research_jiang_yang_2014], [Yang et al 2016][research_yang_2016]. The X-20 posed the problem and the Space Shuttle is where it was solved. **Too much on arrival and the vehicle overshoots with no way to slow down, too little and it lands short.** The pilot's task and the automation that supports it are the subject of [Lee and Mason 1960][research_lee_mason_1960] and [Young and Goode 1962][research_young_goode_1962], and the modern descendants of that problem are in [Fine 1967][research_fine_1967], [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973], [Lu 1996, Entry guidance and trajectory cont][research_lu_1996_2], [Lu 1997][research_lu_1997], [Hanson et al 1998][research_hanson_1998], [Fuhry 1999][research_fuhry_1999], [Calhoun 2000][research_calhoun_2000], [Burchett 2003][research_burchett_2003].
+**The topic is narrow in the literature and the reason is instructive.** Terminal energy management for an unpowered orbital vehicle became a subject only once such a vehicle was actually going to be flown, in [Morth 1972][research_morth_1972], [Tsukamoto et al 1999][research_tsukamoto_1999], [Jiang and Yang 2014][research_jiang_yang_2014], [Yang et al 2016][research_yang_2016]. The X-20 posed the problem and the Space Shuttle is where it was solved. **Too much on arrival and the vehicle overshoots with no way to slow down, too little and it lands short.** The pilot's task and the automation that supports it are the subject of [Lee and Mason 1960][research_lee_mason_1960] and [Young and Goode 1962][research_young_goode_1962], and the modern descendants of that problem are in [Fine 1967][research_fine_1967], [Kryvoruka and Ashurst 1973][research_kryvoruka_ashurst_1973], [Lu 1996, Entry guidance and trajectory cont][research_lu_1996_2], [Lu 1997][research_lu_1997], [Hanson et al 1998][research_hanson_1998], [Fuhry 1999][research_fuhry_1999], [Calhoun 2000][research_calhoun_2000], [Burchett 2003][research_burchett_2003].
 
-Attitude control at the top of the glide is reaction jets, because there is no air to work against. Control blends to aerodynamic surfaces as the vehicle descends, and [Fine 1967][research_fine_1967] treats the case where attitude is used specifically to hold skin temperature down. The wider control problem is treated in [Chowdhry et al 2001][research_chowdhry_2001], [Hanson and Jones 2004][research_hanson_jones_2004], [Janardanan and Jayakumar 2006][research_janardanan_jayakumar_2006], [NING et al 2007][research_ning_2007], [Morio et al 2009][research_morio_2009], [Halbe et al 2010][research_halbe_2010], [Matsumoto et al 2015][research_matsumoto_2015], [Zhi et al 2015][research_zhi_2015], [Jie Gu et al 2016][research_gu_2016], [Xudong Liu et al 2016][research_liu_2016].
+Attitude control at the top of the glide is reaction jets, because there is no air to work against. Control blends to aerodynamic surfaces as the vehicle descends, and [Fine 1967][research_fine_1967] treats the case where attitude is used specifically to hold skin temperature down. The wider control problem is treated in [Chowdhry et al 2001][research_chowdhry_2001], [Hanson and Jones 2004][research_hanson_jones_2004], [Janardanan and Jayakumar 2006][research_janardanan_jayakumar_2006], [Ning et al 2007][research_ning_2007], [Morio et al 2009][research_morio_2009], [Halbe et al 2010][research_halbe_2010], [Matsumoto et al 2015][research_matsumoto_2015], [Zhi et al 2015][research_zhi_2015], [Jie Gu et al 2016][research_gu_2016], [Xudong Liu et al 2016][research_liu_2016].
 
 ### Landing on Skids
 
@@ -365,7 +365,7 @@ The launch side is comparatively thin here, because the vehicle never reached it
 
 The comparison cannot be made, and that is the finding rather than an omission.
 
-**Every number in this article is a prediction against which no X-20 measurement exists**, because the vehicle never left the ground. The wind tunnel record for the configuration is extensive, in [Lovelace 1961][research_lovelace_1961], [Meckler 1964][research_meckler_1964], [Kaufman and G. 1964][research_kaufman_g_1964], [Murphy and Rubesin 1965][research_murphy_rubesin_1965], [Rochelle et al 1972][research_rochelle_1972], [Stainback et al 1972][research_stainback_1972], [Meng 1973][research_meng_1973], [Rosner and Cibrian 1974][research_rosner_cibrian_1974], [Sherman 1978][research_sherman_1978], [Baker and Kramer 1982][research_baker_kramer_1982], and none of it is flight data for this airframe. The configuration's aerodynamics were measured extensively in ground facilities, in [Luther Neal 1963][research_luther_neal_1963], [Ellison and Spencer 1971][research_ellison_spencer_1971], [Nelms and Thomas 1971][research_nelms_thomas_1971], [Arrington and Ashby 1972][research_arrington_ashby_1972], [Nelms 1972][research_nelms_1972], [Clark 1973][research_clark_1973], [Spencer and Fournier 1973][research_spencer_fournier_1973], [Dziubala et al 1973][research_dziubala_1973], [Penland et al 1974][research_penland_1974], [Creel and Penland 1974][research_creel_penland_1974], [Clark and Richie 1977][research_clark_richie_1977], [NACA 1981][research_naca_1981], [Air Force Test Pilot School Edwards Afb Ca 1987][research_ca_1987], [Anderson and Jr 1988][research_anderson_jr_1988], [Anderson and D. 1991][research_anderson_d_1991], [Cockrell et al 1996][research_cockrell_1996], and the lifting-entry trajectory work that framed them is in [TERASAKI 1963][research_terasaki_1963], [CLAPP 1965][research_clapp_1965], [ZVARA 1966][research_zvara_1966], [GOLDBERG 1966][research_goldberg_1966], [MASAKI and YAKURA 1968][research_masaki_yakura_1968], [Townend 1979][research_townend_1979], [Johnson et al 1982][research_johnson_1982], [Spearman 1984][research_spearman_1984], [Ling et al 1991][research_ling_1991], [Ishimoto 1995][research_ishimoto_1995], [Yu Li and Nai-gang Cui 2008][research_li_cui_2008], [Wu et al 2009][research_wu_2009], [Ping Li et al 2010][research_li_2010], [Chao et al 2010][research_chao_2010].
+**Every number in this article is a prediction against which no X-20 measurement exists**, because the vehicle never left the ground. The wind tunnel record for the configuration is extensive, in [Lovelace 1961][research_lovelace_1961], [Meckler 1964][research_meckler_1964], [Kaufman 1964][research_kaufman_g_1964], [Murphy and Rubesin 1965][research_murphy_rubesin_1965], [Rochelle et al 1972][research_rochelle_1972], [Stainback et al 1972][research_stainback_1972], [Meng 1973][research_meng_1973], [Rosner and Cibrian 1974][research_rosner_cibrian_1974], [Sherman 1978][research_sherman_1978], [Baker and Kramer 1982][research_baker_kramer_1982], and none of it is flight data for this airframe. The configuration's aerodynamics were measured extensively in ground facilities, in [Luther Neal 1963][research_luther_neal_1963], [Ellison and Spencer 1971][research_ellison_spencer_1971], [Nelms and Thomas 1971][research_nelms_thomas_1971], [Arrington and Ashby 1972][research_arrington_ashby_1972], [Nelms 1972][research_nelms_1972], [Clark 1973][research_clark_1973], [Spencer and Fournier 1973][research_spencer_fournier_1973], [Dziubala et al 1973][research_dziubala_1973], [Penland et al 1974][research_penland_1974], [Creel and Penland 1974][research_creel_penland_1974], [Clark and Richie 1977][research_clark_richie_1977], [NACA 1981][research_naca_1981], [Air Force Test Pilot School Edwards Afb Ca 1987][research_ca_1987], [Anderson, Jr. 1988][research_anderson_jr_1988], [Anderson 1991][research_anderson_d_1991], [Cockrell et al 1996][research_cockrell_1996], and the lifting-entry trajectory work that framed them is in [Terasaki 1963][research_terasaki_1963], [Clapp 1965][research_clapp_1965], [Zvara 1966][research_zvara_1966], [Goldberg 1966][research_goldberg_1966], [Masaki and Yakura 1968][research_masaki_yakura_1968], [Townend 1979][research_townend_1979], [Johnson et al 1982][research_johnson_1982], [Spearman 1984][research_spearman_1984], [Ling et al 1991][research_ling_1991], [Ishimoto 1995][research_ishimoto_1995], [Yu Li and Nai-gang Cui 2008][research_li_cui_2008], [Wu et al 2009][research_wu_2009], [Ping Li et al 2010][research_li_2010], [Chao et al 2010][research_chao_2010].
 
 What partially substitutes is ASSET, which flew the structure without the vehicle, and later the [Space Shuttle][ref_shuttle], which flew the trajectory with a different structure. **Between them they tested both halves of the X-20's answer separately and neither tested it together.**
 
@@ -387,7 +387,7 @@ The X-20 asked three questions at once, whether a vehicle can return from orbit 
 
 ### The Glide and Its Guidance Became Standard
 
-The equilibrium glide with bank modulation for crossrange is simply how a winged vehicle returns from orbit, and the guidance problem the X-20 posed is worked continuously to this day, in [Castaldi et al 2023][research_castaldi_2023], [Das et al 2023][research_das_2023], [Joshi et al 2023, Analytical Sensitivity based Guida][research_joshi_2023_2], [Das et al 2024][research_das_2024], [Huang et al 2024][research_huang_2024], [Nugroho et al 2024][research_nugroho_2024], [Kim and Jung 2025][research_kim_jung_2025], [Lee et al 2025][research_lee_2025], [Liu et al 2025, Entry Guidance for Hypersonic Glid][research_liu_2025_2], [McEowen et al 2025][research_mceowen_2025], [Shi et al 2025, Real-Time Lateral Predictor-Correc][research_shi_2025_2], [TANG et al 2025][research_tang_2025], [Giraldo-Grueso et al 2026][research_giraldo_grueso_2026], [Sonandres et al 2026][research_sonandres_2026], [Sun et al 2026][research_sun_2026], [Wang et al 2026, Analytical nonlinear time-optimal][research_wang_2026_3].
+The equilibrium glide with bank modulation for crossrange is simply how a winged vehicle returns from orbit, and the guidance problem the X-20 posed is worked continuously to this day, in [Castaldi et al 2023][research_castaldi_2023], [Das et al 2023][research_das_2023], [Joshi et al 2023, Analytical Sensitivity based Guida][research_joshi_2023_2], [Das et al 2024][research_das_2024], [Huang et al 2024][research_huang_2024], [Nugroho et al 2024][research_nugroho_2024], [Kim and Jung 2025][research_kim_jung_2025], [Lee et al 2025][research_lee_2025], [Liu et al 2025, Entry Guidance for Hypersonic Glid][research_liu_2025_2], [McEowen et al 2025][research_mceowen_2025], [Shi et al 2025, Real-Time Lateral Predictor-Correc][research_shi_2025_2], [Tang et al 2025][research_tang_2025], [Giraldo-Grueso et al 2026][research_giraldo_grueso_2026], [Sonandres et al 2026][research_sonandres_2026], [Sun et al 2026][research_sun_2026], [Wang et al 2026, Analytical nonlinear time-optimal][research_wang_2026_3].
 
 **The relations in this article's own sizing section are the first two terms of what those papers now solve numerically.** A conversion from a closed-form glide to a constrained trajectory optimisation is a change of method rather than of physics, and the centrifugal relief term is still there in every one of them.
 
@@ -399,7 +399,7 @@ The quantity the X-20 was designed around remains the reason a returning vehicle
 
 ### The Trade Is Now Computed Rather Than Argued
 
-This article estimates peak heating from a correlation and total load from a one-dimensional integral. The modern treatment resolves both from the flow field, in [Barone et al 2022][research_barone_2022], [CUI et al 2022][research_cui_2022], [Morgado et al 2022][research_morgado_2022], [He et al 2023][research_he_2023], [Liu and Bao 2023][research_liu_bao_2023], [Shivank et al 2023][research_shivank_2023], [Zhang et al 2023][research_zhang_2023], [Liang et al 2024][research_liang_2024], [Sharma et al 2024][research_sharma_2024], [Appar and Kumar 2025][research_appar_kumar_2025], [Chen and He 2025][research_chen_he_2025], [Horing et al 2025][research_horing_2025], [Duan et al 2026][research_duan_2026], [M et al 2026][research_m_2026], [Sabapathy 2026][research_sabapathy_2026], [Turchi and Persis 2026][research_turchi_persis_2026].
+This article estimates peak heating from a correlation and total load from a one-dimensional integral. The modern treatment resolves both from the flow field, in [Barone et al 2022][research_barone_2022], [Cui et al 2022][research_cui_2022], [Morgado et al 2022][research_morgado_2022], [He et al 2023][research_he_2023], [Liu and Bao 2023][research_liu_bao_2023], [Shivank et al 2023][research_shivank_2023], [Zhang et al 2023][research_zhang_2023], [Liang et al 2024][research_liang_2024], [Sharma et al 2024][research_sharma_2024], [Appar and Kumar 2025][research_appar_kumar_2025], [Chen and He 2025][research_chen_he_2025], [Horing et al 2025][research_horing_2025], [Duan et al 2026][research_duan_2026], [M et al 2026][research_m_2026], [Sabapathy 2026][research_sabapathy_2026], [Turchi and Persis 2026][research_turchi_persis_2026].
 
 **What has not changed is which quantity binds.** Peak rate still selects the material and total load still selects its thickness, and the separation this article derives by algebra is the separation those analyses find numerically.
 
@@ -429,7 +429,7 @@ This article checks its own keystone with impact theory, which is a 1687 idea ap
 
 ### Thermal Stress Is Still the Structural Problem
 
-The 5.09 inches of growth this article computes for a René 41 airframe, and the 0.270 inch mismatch against a molybdenum shingle, are the same class of problem modern hot structures still have, in [Martin and Reese 2019][research_martin_reese_2019], [LI et al 2020][research_li_2020], [Li and Wang 2020][research_li_wang_2020], [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021], [SEBATA and USHIJIMA 2021][research_sebata_ushijima_2021], [SEBATA and USHIJIMA 2022][research_sebata_ushijima_2022], [Wang et al 2023, Dynamic and Thermal Buckling Behav][research_wang_2023_4], [Thawait et al 2024][research_thawait_2024].
+The 5.09 inches of growth this article computes for a René 41 airframe, and the 0.270 inch mismatch against a molybdenum shingle, are the same class of problem modern hot structures still have, in [Martin and Reese 2019][research_martin_reese_2019], [LI et al 2020][research_li_2020], [Li and Wang 2020][research_li_wang_2020], [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021], [Sebata and Ushijima 2021][research_sebata_ushijima_2021], [Sebata and Ushijima 2022][research_sebata_ushijima_2022], [Wang et al 2023, Dynamic and Thermal Buckling Behav][research_wang_2023_4], [Thawait et al 2024][research_thawait_2024].
 
 **Coupled fluid, thermal and structural analysis is now a named discipline**, which is what happens when three fields that used to be checked in sequence turn out to need solving together. The X-20 met that coupling and had to handle it by allowing everything to slide.
 
@@ -615,8 +615,8 @@ The contemporary literature adds a closing observation that is harder on the pro
 
 - [Ai et al 2022][research_ai_2022]
 - [Alexander and Stanley 1999][research_alexander_stanley_1999]
-- [Anderson and D. 1991][research_anderson_d_1991]
-- [Anderson and Jr 1988][research_anderson_jr_1988]
+- [Anderson 1991][research_anderson_d_1991]
+- [Anderson, Jr. 1988][research_anderson_jr_1988]
 - [Appar and Kumar 2025][research_appar_kumar_2025]
 - [Aprovitola et al 2019][research_aprovitola_2019]
 - [Armstrong et al 1961][research_armstrong_1961]
@@ -630,7 +630,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Barone et al 2022][research_barone_2022]
 - [Barren and Mandl 1978][research_barren_mandl_1978]
 - [Barret 1999][research_barret_1999]
-- [BAUER and KUMMER 1970][research_bauer_kummer_1970]
+- [Bauer and Kummer 1970][research_bauer_kummer_1970]
 - [Bell 1965][research_bell_1965]
 - [Benson et al 1993][research_benson_1993]
 - [Bernot and Robinson 1958][research_bernot_robinson_1958]
@@ -644,7 +644,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Brunner et al 1966, Study of thermal protection requir][research_brunner_1966_2]
 - [Bryson 1952][research_bryson_1952]
 - [Bryson et al 1968][research_bryson_1968]
-- [BUDIANSKY and MAYERS 1956][research_budiansky_mayers_1956]
+- [Budiansky and Mayers 1956][research_budiansky_mayers_1956]
 - [Burchett 2003][research_burchett_2003]
 - [Air Force Test Pilot School Edwards Afb Ca 1987][research_ca_1987]
 - [Cai and Zhuang 2025][research_cai_zhuang_2025]
@@ -665,14 +665,14 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Chern and Vinh 1980][research_chern_vinh_1980]
 - [Chourushi et al 2021][research_chourushi_2021]
 - [Chowdhry et al 2001][research_chowdhry_2001]
-- [CLAPP 1965][research_clapp_1965]
+- [Clapp 1965][research_clapp_1965]
 - [Clark 1973][research_clark_1973]
 - [Clark and Richie 1977][research_clark_richie_1977]
 - [Clarke 2008][research_clarke_2008]
 - [Cockrell et al 1996][research_cockrell_1996]
 - [Creel and Penland 1974][research_creel_penland_1974]
 - [Criscione et al 1964][research_criscione_1964]
-- [CUI et al 2022][research_cui_2022]
+- [Cui et al 2022][research_cui_2022]
 - [Czarnecki and Davison 1960][research_czarnecki_davison_1960]
 - [Daryabeigi et al 2006][research_daryabeigi_2006]
 - [Das et al 2023][research_das_2023]
@@ -685,7 +685,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Dix et al 1967][research_dix_1967]
 - [Doggett 1959][research_doggett_1959]
 - [Doronzo 2026][research_doronzo_2026]
-- [DSOUZA 1970][research_dsouza_1970]
+- [Dsouza 1970][research_dsouza_1970]
 - [Duan et al 2026][research_duan_2026]
 - [Dubey et al 2025][research_dubey_2025]
 - [Dumbacher 2004][research_dumbacher_2004]
@@ -715,8 +715,8 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Giraldo-Grueso et al 2026][research_giraldo_grueso_2026]
 - [Glass 2008][research_glass_2008]
 - [Glass and Camarda 1990][research_glass_camarda_1990]
-- [GOLDBERG 1956][research_goldberg_1956]
-- [GOLDBERG 1966][research_goldberg_1966]
+- [Goldberg 1956][research_goldberg_1956]
+- [Goldberg 1966][research_goldberg_1966]
 - [Goldberg et al 1969][research_goldberg_1969]
 - [Goldstein 1992][research_goldstein_1992]
 - [Gonçalves et al 2020][research_goncalves_2020]
@@ -727,7 +727,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Halbe et al 2010][research_halbe_2010]
 - [Hanson and Jones 2004][research_hanson_jones_2004]
 - [Hanson et al 1998][research_hanson_1998]
-- [HAYES 1959][research_hayes_1959]
+- [Hayes 1959][research_hayes_1959]
 - [He et al 2023][research_he_2023]
 - [He et al 2025, A Trajectory Prediction Method for][research_he_2025_2]
 - [He et al 2026][research_he_2026]
@@ -737,13 +737,13 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021]
 - [Horing et al 2025][research_horing_2025]
 - [Hough 1982][research_hough_1982]
-- [HOUGH 1982, Ballistic entry motion using a gen][research_hough_1982_2]
+- [Hough 1982, Ballistic entry motion using a gen][research_hough_1982_2]
 - [Houser and Runciman 1971][research_houser_runciman_1971]
-- [HOVEY 1965][research_hovey_1965]
+- [Hovey 1965][research_hovey_1965]
 - [Huang et al 2024][research_huang_2024]
 - [Hudson and Stephens 2006][research_hudson_stephens_2006]
 - [Hughes 1956][research_hughes_1956]
-- [HUGILL and GAIENNIE 1963][research_hugill_gaiennie_1963]
+- [Hugill and Gaiennie 1963][research_hugill_gaiennie_1963]
 - [Ishimoto 1995][research_ishimoto_1995]
 - [Jacobson 2004][research_jacobson_2004]
 - [Jacobson 2004, X-37 Flight Demonstrator][research_jacobson_2004_2]
@@ -756,8 +756,8 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Johnson et al 1998][research_johnson_1998]
 - [Joshi et al 2023, Analytical Sensitivity based Guida][research_joshi_2023_2]
 - [Kaplow et al 1964][research_kaplow_1964]
-- [Kaufman and G. 1963][research_kaufman_g_1963]
-- [Kaufman and G. 1964][research_kaufman_g_1964]
+- [Kaufman 1963][research_kaufman_g_1963]
+- [Kaufman 1964][research_kaufman_g_1964]
 - [Kavoosi et al 2026][research_kavoosi_2026]
 - [Kelly 1958][research_kelly_1958]
 - [Kempel et al 1971][research_kempel_1971]
@@ -769,7 +769,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Kondrashov 2023][research_kondrashov_2023]
 - [Kowal 2011][research_kowal_2011]
 - [Krusos 1967][research_krusos_1967]
-- [KRYVORUKA and ASHURST 1973][research_kryvoruka_ashurst_1973]
+- [Kryvoruka and Ashurst 1973][research_kryvoruka_ashurst_1973]
 - [Lakshmi et al 2026][research_lakshmi_2026]
 - [Le and Goo 2020][research_le_goo_2020]
 - [Le and Goo 2021][research_le_goo_2021]
@@ -797,7 +797,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Lovelace 1961][research_lovelace_1961]
 - [Lu 1996, Entry guidance and trajectory cont][research_lu_1996_2]
 - [Lu 1997][research_lu_1997]
-- [Luce and Jr 1949][research_luce_jr_1949]
+- [Luce, Jr. 1949][research_luce_jr_1949]
 - [Lunev and Pavlov 1966][research_lunev_pavlov_1966]
 - [Luo et al 2025][research_luo_2025]
 - [Luther Neal 1963][research_luther_neal_1963]
@@ -808,7 +808,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Maloney 2011][research_maloney_2011]
 - [Manley et al 2000][research_manley_2000]
 - [Martin and Reese 2019][research_martin_reese_2019]
-- [MASAKI and YAKURA 1968][research_masaki_yakura_1968]
+- [Masaki and Yakura 1968][research_masaki_yakura_1968]
 - [Maslen and Ostrach 1957][research_maslen_ostrach_1957]
 - [Masters and Cohen 1957][research_masters_cohen_1957]
 - [Mathauser et al 1960][research_mathauser_1960]
@@ -820,13 +820,13 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Meckler 1965][research_meckler_1965]
 - [Meng 1973][research_meng_1973]
 - [Merz 1968][research_merz_1968]
-- [MIELE 1957][research_miele_1957]
+- [Miele 1957][research_miele_1957]
 - [Miller 1990][research_miller_1990]
 - [Miller et al 1983][research_miller_1983]
 - [McDonnell Aircraft Corp St Louis Mo 1963][research_mo_1963]
 - [Morgado et al 2022][research_morgado_2022]
 - [Morio et al 2009][research_morio_2009]
-- [MORTH 1972][research_morth_1972]
+- [Morth 1972][research_morth_1972]
 - [Mullen and Reed 2022][research_mullen_reed_2022]
 - [Murphy and Rubesin 1965][research_murphy_rubesin_1965]
 - [NACA 1967, Study of the influence of size of][research_naca_1967_2]
@@ -835,7 +835,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Naftel and Powell 1993][research_naftel_powell_1993]
 - [Nelms 1972][research_nelms_1972]
 - [Nelms and Thomas 1971][research_nelms_thomas_1971]
-- [NING et al 2007][research_ning_2007]
+- [Ning et al 2007][research_ning_2007]
 - [Niu et al 2019][research_niu_2019]
 - [Nugroho et al 2024][research_nugroho_2024]
 - [Bell Aerospace Co Buffalo Ny 1959][research_ny_1959]
@@ -853,7 +853,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Peterson and Winter 1970][research_peterson_winter_1970]
 - [Pfaff 1968][research_pfaff_1968]
 - [Phillips 1970][research_phillips_1970]
-- [PHILLIPS and COHEN 1959][research_phillips_cohen_1959]
+- [Phillips and Cohen 1959][research_phillips_cohen_1959]
 - [Platus 1980][research_platus_1980]
 - [Powell and Cruz 1991][research_powell_cruz_1991]
 - [Pride et al 1960][research_pride_1960]
@@ -862,10 +862,10 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Rasky 1996][research_rasky_1996]
 - [Reba 1964][research_reba_1964]
 - [Reed et al 2016][research_reed_2016]
-- [REINIKKA and SARTELL 1965][research_reinikka_sartell_1965]
+- [Reinikka and Sartell 1965][research_reinikka_sartell_1965]
 - [Repic et al 1974][research_repic_1974]
 - [Ricciardi et al 2019][research_ricciardi_2019]
-- [RIVERS 1968][research_rivers_1968]
+- [Rivers 1968][research_rivers_1968]
 - [Robinson and Bernot 1958][research_robinson_bernot_1958]
 - [Rochelle et al 1972][research_rochelle_1972]
 - [Rock 1964][research_rock_1964]
@@ -876,8 +876,8 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Scherberg and Rubin 1953][research_scherberg_rubin_1953]
 - [Schweppe 1964][research_schweppe_1964]
 - [Scott 1972][research_scott_1972]
-- [SEBATA and USHIJIMA 2021][research_sebata_ushijima_2021]
-- [SEBATA and USHIJIMA 2022][research_sebata_ushijima_2022]
+- [Sebata and Ushijima 2021][research_sebata_ushijima_2021]
+- [Sebata and Ushijima 2022][research_sebata_ushijima_2022]
 - [Seiff and Wilkins 1961][research_seiff_wilkins_1961]
 - [Sharma et al 2024][research_sharma_2024]
 - [Sherman 1978][research_sherman_1978]
@@ -886,7 +886,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Shivank et al 2023][research_shivank_2023]
 - [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024]
 - [Smeggil 1981][research_smeggil_1981]
-- [SNODGRASS 1955][research_snodgrass_1955]
+- [Snodgrass 1955][research_snodgrass_1955]
 - [Sonandres et al 2026][research_sonandres_2026]
 - [Song et al 2024][research_song_2024]
 - [Spearman 1984][research_spearman_1984]
@@ -899,14 +899,14 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Stetson and Wimber 1967][research_stetson_wimber_1967]
 - [Stofan 1973][research_stofan_1973]
 - [Strangman and Neumann 1985][research_strangman_neumann_1985]
-- [STRAUSS 1967][research_strauss_1967]
+- [Strauss 1967][research_strauss_1967]
 - [Sully et al 1952][research_sully_1952]
 - [Sun and Zhu 2019][research_sun_zhu_2019]
 - [Sun et al 2026][research_sun_2026]
-- [TANG et al 2025][research_tang_2025]
+- [Tang et al 2025][research_tang_2025]
 - [Tarabini et al 2013][research_tarabini_2013]
 - [Taylor 2004][research_taylor_2004]
-- [TERASAKI 1963][research_terasaki_1963]
+- [Terasaki 1963][research_terasaki_1963]
 - [Thawait et al 2024][research_thawait_2024]
 - [Tian et al 2025][research_tian_2025]
 - [Tillier 1998][research_tillier_1998]
@@ -915,7 +915,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Tsukamoto et al 1999][research_tsukamoto_1999]
 - [Turchi and Persis 2026][research_turchi_persis_2026]
 - [Turns and Hildebrand 1964][research_turns_hildebrand_1964]
-- [VANDREY 1957][research_vandrey_1957]
+- [Vandrey 1957][research_vandrey_1957]
 - [Vanmol and Anderson 1992][research_vanmol_anderson_1992]
 - [Verhoff et al 1990][research_verhoff_1990]
 - [Vertogradskii 1969][research_vertogradskii_1969]
@@ -923,7 +923,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Boeing Co Seattle Wa 1963][research_wa_1963]
 - [Walker 1962][research_walker_1962]
 - [Wang and Luo 2022][research_wang_luo_2022]
-- [WANG et al 2011][research_wang_2011]
+- [Wang et al 2011][research_wang_2011]
 - [Wang et al 2020, An Engineering Method for Computin][research_wang_2020_2]
 - [Wang et al 2023, Dynamic and Thermal Buckling Behav][research_wang_2023_4]
 - [Wang et al 2026, Analytical nonlinear time-optimal][research_wang_2026_3]
@@ -949,7 +949,7 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Zhi et al 2015][research_zhi_2015]
 - [Zhou et al 2026][research_zhou_2026]
 - [Zimmermann et al 1996][research_zimmermann_1996]
-- [ZVARA 1966][research_zvara_1966]
+- [Zvara 1966][research_zvara_1966]
 
 [research_ai_2022]: https://doi.org/10.1016/j.compstruct.2022.116073
 [research_alexander_stanley_1999]: https://ntrs.nasa.gov/citations/19990116055
