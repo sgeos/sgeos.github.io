@@ -4,6 +4,65 @@
 
 ## Last Updated
 
+**Date**: 2026-10-08
+**Task**: **THE X-PLANES COMPLETENESS CYCLE: SECOND SAMPLING PASS, FULL READS, DOI AND OPEN LIBRARY REPAIRS, AND EVERY KNOWN DEFECT.** `dea95a8`, NOT pushed, NOT published.
+
+**PUSH NEEDED FROM THE PILOT.** The classifier denied `git push` as a production deploy. The deploy gate (`_check.sh`) passed before the attempt. The Open Library repairs to published posts (`c6112fa`) go live on push, and the X-Planes drafts stay unpublished.
+
+**SURVEYS.**
+- **Second sampling pass.** Every article read a fresh seeded sample of up to 300 records no earlier reading had seen, swept each homonym found, and recorded the result in its Source Base.
+- **Full reads.** Where the sample still found 3.3 percent or more off topic, every remaining title was read: A320, A323, A330, A331, A346 and A348. The early articles A297 to A317 had every title read in the first pass.
+- **Records that are not works were removed series-wide.** These were errata, corrigenda, withdrawal and retraction notices, figure and supplementary DOIs, peer-review letters, front matter, and seven retracted articles.
+- **Count.** 3,989 records left in this cycle, taking the series from 271,444 to 267,455 research references.
+
+**NUMBERS.** Every present-state number was recomputed by a stated rule. Numbers that no rule reproduces were recomputed under a stated rule or reworded without the number, per the pilot's instruction. Rules and scripts are in `tmp/fix5/<ART>/`.
+
+**CORRECTNESS.** Every article was read in full, and each changed line is logged in `tmp/fix5/<ART>/pass2.md` and `tmp/fix7/mopup/`. The reading covered:
+- wrong-vehicle text;
+- contradictions;
+- position words;
+- acronyms;
+- formatting;
+- arithmetic.
+
+Examples of what it found:
+- A311 carried X-13 ground-observer text.
+- A305's reconstruction burned 45 s of propellant against a 40 s burn.
+- A308 now gives Atlas A as three successes of eight by its own flight sequence, with the summary count of four noted.
+- A299's X-2 flight count is now twenty flights, glides included, per its reference.
+- A344's X-47B catapult date was restored to 29 November 2012 after an agent changed it from memory.
+- A303's reactor cooling description was reconciled with its source.
+
+Internal article codes in prose and link text now name the article.
+
+**DOIS.** Of 149,374 distinct DOIs, 149,373 were registered at the handle service. The anomaly, in A339, lacked the trailing full stop its registered DOI carries, and it is fixed.
+
+**OPEN LIBRARY.**
+- 700 of 728 search-results links now point at specific works.
+- 20 off-topic books were removed: A334 eight, A335 ten, A332 one, A333 one.
+- 28 definitions across 8 queries remain search links, because no clear title and author match exists.
+
+**GATES.**
+- `_verify.py` reports 0 errors and 0 warnings.
+- All 72 drafts were built in full, and the rendered audit has no findings.
+- The A368 ledger has 70 records and 0 failed quotes, with 177 relocated and 14 re-quoted with repair notes.
+- `verify368` passes 1,847 checks with 0 failures.
+- check5 passes on all 72 articles, and every offline article verifier passes.
+- Several verifiers had checks that could not fail, or that tested stale typed-in values. Each was fixed to recompute, and each fix was confirmed to fail on the old value.
+
+**DECISIONS TAKEN, FOR THE PILOT'S REVIEW.**
+- Generated citation lists inside sentences were spliced.
+- A368 lost four Military Balance designation tables as non-works.
+- "Comment", "Reply" and "Closure" discussion items, editorials and book reviews were kept as works.
+- Doubtful classes kept are listed per article in `filter.json`.
+
+**REMAINING.**
+- 28 Open Library search links.
+- A332's thin-subject table counts the harvest pool, and the cited set cannot reproduce it.
+- The handoff is not rewritten, per the pilot.
+
+---
+
 **Date**: 2026-10-07
 **Task**: **DECISION 5 REBUILT ARTICLE BY ARTICLE, DECISION 6 REPAIRED, AND THE KNOWN EXISTING DEFECTS FIXED.** Committed, NOT pushed, NOT published.
 
