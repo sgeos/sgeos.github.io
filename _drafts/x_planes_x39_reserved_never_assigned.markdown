@@ -405,7 +405,7 @@ $$t_c(39) = \infty \quad \implies \quad \operatorname{recoverable}(39) = \text{f
 
 **The dated part of the argument is the ordering of the passage against the cancellation of the
 programme.** The X-40A allocation places the passage inside 1997, and the Phase I studies ran to
-30 October 1997 with their results feeding the successor programme, so the cut came later.
+30 October 1997 with their results feeding the successor programme, so the cut came later, at a time written $t_{\text{cut}}$.
 
 $$\tau_{39} \leq \text{31 December 1997} < t_{\text{cut}}$$
 
@@ -414,7 +414,7 @@ proposal, so **by the time the reservation became pointless the number it held w
 A cancellation filed in the summer of 1997 would have kept the sequence intact. A cancellation filed after
 the programme was cut would have achieved nothing. The number was lost before the programme was.
 
-**Note what the inequality does not assert.** It says nothing about where $t_{\text{res}}$ falls relative
+**Note what the inequality does not assert.** It says nothing about where the reservation time $t_{\text{res}}$ of 23 April 1997 falls relative
 to $\tau_{39}$, because the X-40A allocation is dated to 1997 without a month.
 **Both orderings remain open and the conclusion holds under either**, since a cancellation time of infinity
 fails the condition regardless of when the passage occurred.
@@ -448,7 +448,7 @@ reactor \[[Bernier 2025][research_bernier_2025]\]. They were operated against th
 Heat Transfer Reactor Experiments numbered one, two and three, under the
 [Aircraft Nuclear Propulsion][ref_anp] programme established by the Air Force and the Atomic Energy
 Commission in 1951 \[[General Electric J47][ref_j47]\].
-**The X-6 is the sixth article in this series**, and it is the aircraft that would have flown them had the
+**The X-6 is the seventh article in this series**, and it is the aircraft that would have flown them had the
 programme survived.
 
 **The two sources disagree on what counted as one engine and the disagreement is left standing.** The
@@ -477,7 +477,7 @@ was never sent to undo the first.**
 
 **This section exists because an earlier version of this article decided against it, and that decision was half right.** The reasoning was that a harvested survey of the aerospace literature would measure nothing relevant to whether a letter was written in 1997. **That remains true, and the conclusion drawn from it was wrong**, because this article's subject is not an aircraft. It is what a gap in an official register means, and there is a large and current literature on exactly that question, spread across archival science, infrastructure studies, identifier administration and the logic of inference from absence.
 
-**The survey below holds 1,864 records** retrieved from the scholarly registry across 8 clusters. **None of them is cited as evidence for any claim about the X-39**, and none of them was read. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start, and the hand-selected sources remain the only ones the argument rests on.
+**The survey below holds 1,855 records** retrieved from the scholarly registry across 8 clusters. **None of them is cited as evidence for any claim about the X-39**, and no paper among them was read, although every title was read by 8 October 2026 to refuse records that share only a word with the subject. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start, and the hand-selected sources remain the only ones the argument rests on.
 
 ### Archival Silence and the Record That Was Never Made
 
@@ -561,7 +561,7 @@ was never sent to undo the first.**
 
 **The rule that consumed the X-39 is a live design question in every modern identifier system.** Whether an identifier may ever be reused, and what happens to references to it if it is, is settled explicitly by the scholarly and web identifier communities, and their usual answer is that reuse is forbidden outright. **The Mission Design Series reached the same answer by accident**, through a practice with no rule attached.
 
-**The harvest returned 268 records here, and the 19 most recent are listed. The remainder appear in the references.**
+**The harvest returned 260 records here, and the 18 most recent are listed. The remainder appear in the references.**
 
 - [Cronk and Pitblado, 2026, Downloading images from GBIF Licenses, citation and link rot][research_cronk_pitblado_2026]
 - [Sadatmoosavi and others, 2026, Link rot in LIS literature a 20-year study of web citation decay, recovery and preservation challenges][research_sadatmoosavi_khasseh_2026]
@@ -571,7 +571,6 @@ was never sent to undo the first.**
 - [Castanha and Franco, 2025, Algoritmo para análise de presença online de pesquisadores da base ORCID][research_castanha_franco_2025]
 - [TSYBENKO and others, 2025, Analysis of Ukrainian Scientists' Migration Using Analytical Tools of the National Electronic Research Information System and the ORCID Identifier][research_tsybenko_zherebchuk_2025]
 - [Hisseine and others, 2025, Blockchain-based handle-research data sharing a blockchain-based handle system to enhance the privacy and security of research data sharing][research_hisseine_chen_2025]
-- [Porter and others, 2025, Correction to Understanding ORCID adoption among academic researchers][research_porter_umbach_2025_b]
 - [Arroyo-Machado and others, 2025, Exploring ORCID adoption and metadata presence in Spain's research landscape][research_arroyomachado_vargasquesada_2025]
 - [Owango, 2025, Introducing the Digital Object Container Identifier A F.A.I.R Multilinear PID Approach for assigning bioimages][research_owango_2025]
 - [Bouchard and Boudry, 2025, Knowledge and Use of the ORCID Author Identifier in France A National Survey][research_bouchard_boudry_2025]
@@ -645,7 +644,7 @@ was never sent to undo the first.**
 
 **A register is not a document but a process, and the maintenance literature is about that process.** Curation, deprecation, authority control and the withdrawal of obsolete entries are the operations by which a list stays true to the world. **The Mission Design Series list acquired a retirement procedure only recently**, and had none at all when the X-39 was lost.
 
-**The harvest returned 149 records here, and the 12 most recent are listed. The remainder appear in the references.**
+**The harvest returned 148 records here, and the 12 most recent are listed. The remainder appear in the references.**
 
 - [Mai and Li, 2026, PhyloRef A Semi-Automated Workflow for eDNA Reference Database Curation via Phylogenetic Anomaly Detection][research_mai_li_2026]
 - [Deng and others, 2026, A Two-Layer Structural Key Framework for Linking Compound Identifiers and MS/MS Evidence in Spectral Database Curation][research_deng_liu_2026]
@@ -694,32 +693,34 @@ designation as a unique name for one thing breaks at this number.
 
 ## The Source Base
 
-**The sixteen sources that carry the argument and the 1,864 that map the field are different things,
+**The sixteen sources that carry the argument and the 1,855 that map the field are different things,
 and the article keeps them apart on purpose.**
 
-**The evidentiary base is small because the subject is.** Sixteen entries carry every claim made here,
+**The evidentiary base is small because the subject is.** Sixteen entries carry the argument,
 being two designation surveys, three versions of the joint instruction, two Department-level issuances,
 four parts of the Lockheed Martin Phase I briefing, the Boeing technical report, one trade report of the
 cancellation, one account of the X-40 allocation and two of the nuclear turbojet. **Ten of those sixteen
 are primary documents**, which is an unusually high share and a consequence of the subject being
 administrative. The governing instructions are not commentary on the evidence. **They are the evidence.**
 
-**The survey base was harvested and none of it was read.** 23,114 records were retrieved from the
-scholarly registry across 2,550 that passed the subject gate, and 2,452 reached the reference list after
-duplicate registrations were removed, of which 1,864 remain after the 7 October 2026 rebuild. **Not one of them is cited in support of any claim about the
+**The survey base was harvested, and no paper in it was read.** 23,114 records were retrieved from the
+scholarly registry, 2,550 passed the subject gate, and 2,452 reached the reference list after
+duplicate registrations were removed, of which 1,855 remain after the 7 October 2026 rebuild and the second reading and non-work removal of 8 October 2026. **Not one of them is cited in support of any claim about the
 X-39**, and the article would say exactly the same things if the survey were deleted.
 
 **The gate was audited by reading samples of both sides, and reading changed it twice.** A first sample of
 the kept records exposed that the qualifier helper had a grouping defect, so every multi-alternative
 qualifier silently became a disjunction of bare words, admitting building-information-modelling standards
-maintenance and hydraulic preventive maintenance while refusing `Domain Name System`. **Correcting it moved
-the military designation cluster from 7 records to 132.** A second sample found four further collisions,
+maintenance and hydraulic preventive maintenance while refusing `Domain Name System`. **Correcting it enlarged
+the military designation cluster.** The gate as finally run assigned 41 records to that cluster, of which 40 reached the reference list and 6 survive the 7 October 2026 rebuild. A second sample found four further collisions,
 being the boundary-object concept as it is now used in education research, spectrum allocation as a
 radio-network algorithm rather than a regulatory act, biological nomenclature, and the phrase
 `sorting things out` as a pun in cell biology. **A third sample is what a fourth would have found**, and
 the article claims a clean corpus nowhere.
 
-**The gate was rebuilt on 7 October 2026, after the counts first published with this article.** Every harvested title was read against the subject its cluster defines, although no paper was read, and the rebuilt filter refused 588 records that share a word with a cluster and not its subject. The largest groups were engineering infrastructure and its technical standards, category theory in mathematics, machine-learning classification into categories, clinical and software documentation practice, asset maintenance data quality, control laws of low or full authority, identifier naming in source code, and the nomenclature of alloys, hydrocarbons and other disciplines. The survey fell from 2,452 records to 1,864. **Classification Systems as Infrastructure changed most**, from 470 records to 169, and Military Designation and Nomenclature Practice fell from 40 to 6, which leaves the narrowest cluster narrower than the earlier count implied. Recordkeeping, Retention and the Administrative Trace remains the largest cluster, at 425 records. A reading of 300 records that neither screen had flagged found 89 off topic, which put the contamination the screens missed near 30 percent. All 89 are among those refused, and the remaining titles were read as well, so the residual is a set of doubtful records kept by judgement, chiefly applications of the maxim that absence of evidence is not evidence of absence and engineering studies of the Domain Name System.
+**The gate was rebuilt on 7 October 2026, after the counts first published with this article.** Every harvested title but one was read against the subject its cluster defines, although no paper was read, and the rebuilt filter refused 588 records that share a word with a cluster and not its subject. The largest groups were engineering infrastructure and its technical standards, category theory in mathematics, machine-learning classification into categories, clinical and software documentation practice, asset maintenance data quality, control laws of low or full authority, identifier naming in source code, and the nomenclature of alloys, hydrocarbons and other disciplines. The survey fell from 2,452 records to 1,864. **Classification Systems as Infrastructure changed most**, from 470 records to 169, and Military Designation and Nomenclature Practice fell from 40 to 6, which leaves the narrowest cluster narrower than the earlier count implied. Recordkeeping, Retention and the Administrative Trace remains the largest cluster, at 425 records. A reading of 300 records that neither screen had flagged found 89 off topic, which put the contamination the screens missed near 30 percent. All 89 are among those refused, and the remaining titles were read as well, so the residual is a set of doubtful records kept by judgement, chiefly applications of the maxim that absence of evidence is not evidence of absence and engineering studies of the Domain Name System.
+
+**A second reading on 8 October 2026 refused 3 more records, leaving 1,861.** It drew a seeded sample of 300 records that the sampling tool counted as unread, but 299 of them had already been read by the first pass, so the sample measures a second reader against the first rather than records nobody had seen. The one exception, an epilogue on the colonial archive, was the title the first reading had missed, and it was kept. The sample found 2 off topic, a deposit whose only title is a test of the Open Researcher and Contributor ID service and a deposit under the Crossref test prefix, and a sweep for registry test deposits removed 1 more of that kind. All 3 sat in Identifier Assignment, Persistence and Reuse, which then held 265 records. Two in 300 is about 0.7 percent, but the sweep that the sample drove removed what it found, so that figure does not measure what remains. The records a second reader would most often question are kept by judgement, chiefly market studies of mobile number portability, transition mechanisms between the two versions of the Internet Protocol, and curation studies of biological databases. **Six more records were removed on 8 October 2026 because they are notices about works and not works**, being five errata and correction notices, four of them correcting a Digital Object Identifier, and one notice withdrawing two published standards, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the survey from 1,861 to 1,855, Identifier Assignment, Persistence and Reuse from 265 to 260 and Maintaining a Register Over Decades from 149 to 148.
 
 **One residual limitation is stated rather than estimated away.** The clusters are assigned by first
 anchor match, so a record answering two clusters is counted once and in the earlier one. The cluster sizes
@@ -740,7 +741,7 @@ and the Uninhabited Combat Air Vehicle Advanced Technology Demonstration replace
 X-40A designation was allocated in 1997. Air Force Joint Instruction 16-401 of 9 September 1994 required a
 written request for assignment and directed that designators not be used before approval.
 
-**Separately and unrelatedly, General Electric applied the designation X-39 to a pair of modified J47
+**Separately and unrelatedly, General Electric applied the designation X-39 to modified J47
 turbojets** adapted to run on reactor heat under the Aircraft Nuclear Propulsion programme. Those engines
 were operated on a ground test stand with the Heat Transfer Reactor Experiments one, two and three, and were
 intended for the Convair X-6. **This is an engine designation and has no connection to the aircraft
@@ -856,8 +857,8 @@ loosely.
 reason.** Sixteen of the entries below carry the argument, being the two designation surveys, the three
 versions of the joint instruction, the two Department-level issuances, the four parts of the Lockheed
 Martin briefing, the Boeing technical report, the trade report of the cancellation, the account of the
-X-40 allocation, and the two accounts of the nuclear turbojet. A further fourteen define terms rather than
-support claims. **Everything beyond those thirty is the harvested survey**, which is a map of the
+X-40 allocation, and the two accounts of the nuclear turbojet. A further sixteen name, define or give context rather than
+carry the argument. **Apart from the related posts in this series, everything beyond those thirty-two is the harvested survey**, which is a map of the
 surrounding field and not evidence, and the Source Base section above says so at length.
 
 **Ten of those sixteen are primary documents**, being the three instructions, the two Department-level
@@ -883,8 +884,8 @@ The reservation happened anyway, through a channel with no rule attached, which 
 releasing it either. **A register maintained this way is a record of correspondence**, and reading it as a
 record of aircraft, which is what a gap invites, gets the artefact wrong.
 
-**The sharpest evidence for that is a coincidence of naming.** An X-39 does exist and did run, being the pair
-of nuclear-heated J47 turbojets built for the [X-6][related_post_a303_convair_x6] under a different
+**The sharpest evidence for that is a coincidence of naming.** An X-39 does exist and did run, being the
+nuclear-heated J47 turbojets built for the [X-6][related_post_a303_convair_x6] under a different
 designation series entirely. **One register holds a number with no hardware and the other holds hardware
 under the same number**, and nothing connects them except the string.
 
@@ -1008,7 +1009,6 @@ The next article returns to a vehicle that was built and flown.
 - [2002, Artemisia Gentileschi and the Authority of Art Critical Reading and Catalogue Raisonné review][research_artemisia_gentileschi_2002]
 - [2002, Data Quality and Quality Management][research_data_quality_2002]
 - [2002, Domain Name System][research_domain_name_2002]
-- [2002, Erratum Math. Ann. 323, 55-79 2002 Digital Object Identifier DOI 10.1007/s002080100296 Math. Ann. 323, 351-375 2002 Digital Object Identifier DOI 10.1007/s002080100307][research_erratum_math_2002]
 - [2002, Key Documents and Decisions Concerning Local Number Portability][research_key_documents_2002]
 - [2002, Quality Management, Data Quality and Users, metadata for geographical information][research_quality_management_2002]
 - [2002, Six. The Imperial Archive Colonial Knowledge and Colonial Rule][research_six_the_2002]
@@ -1088,8 +1088,6 @@ The next article returns to a vehicle that was built and flown.
 - [2013, Quality Improvement and Data Quality][research_quality_improvement_2013]
 - [2013, Records and Information Management][research_records_and_2013]
 - [2014, Archives and Recordkeeping Theory into Practice][research_archives_and_2014]
-- [2014, Correction Incorrect DOI Digital Object Identifier in Hepatitis C Virus Screening Article][research_correction_incorrect_2014_b]
-- [2014, Correction Incorrect DOI Digital Object Identifier in HIV Screening Article][research_correction_incorrect_2014]
 - [2014, Documentation and Recordkeeping][research_documentation_and_2014]
 - [2014, Extending Curation Profiles to Study Enterprise-level Data Practices][research_extending_curation_2014]
 - [2014, Meeting Data Workforce Needs Indicators Based on Recent Data Curation Placements][research_meeting_data_2014]
@@ -1144,7 +1142,6 @@ The next article returns to a vehicle that was built and flown.
 - [2021, State Legibility and Mind Legibility in the Original Political Society][research_state_legibility_2021]
 - [2021, The Colonial Government Archive and the Triantafyllides Case][research_the_colonial_2021]
 - [2021, The Colonial Newspaper Archive and the Triantafyllides Case][research_the_colonial_2021_b]
-- [2021, Withdrawal of EPPO Standards PM 3/32 and PM 3/33][research_withdrawal_of_2021]
 - [2022, 1 Colonial Listening and the Making of a Sound Archive][research_1_colonial_2022]
 - [2022, CHAPTER 1 Introduction Categories, Classification and Cognitive Anthropology][research_chapter_1_2022]
 - [2023, Categories of Review Classification of Your Protocol][research_categories_of_2023]
@@ -1755,7 +1752,6 @@ The next article returns to a vehicle that was built and flown.
 - [Han and others, 2015, A scalable and efficient IPv4 address sharing approach in IPv6 transition scenarios][research_han_bao_2015]
 - [Han and others, 2024, Tracing the Contours of Archival Silences A Case Study of Critical Collection Building on the Rock Springs Massacre][research_han_han_2024]
 - [Hananto and others, 2018, Detecting Network Security Threats Using Domain Name System and NetFlow Traffic][research_hananto_lim_2018]
-- [Hanna, 2021, orcid roundtrip journal article test][research_hanna_2021]
 - [Haraldsdottir and Gunnlaugsdottir, 2018, The missing link in information and records management personal knowledge registration][research_haraldsdottir_gunnlaugsdottir_2018]
 - [Hardisty and others, 2019, 'The Last Mile' The registry behind the identifier][research_hardisty_lannom_2019]
 - [Hardisty and others, 2021, A choice of persistent identifier schemes for the Distributed System of Scientific Collections DiSSCo][research_hardisty_addink_2021]
@@ -2178,7 +2174,6 @@ The next article returns to a vehicle that was built and flown.
 - [Min and others, 2021, Impact of free trade agreements on Internet domain name arbitration cases A cross-national comparison of the Uniform Dispute Resolution Policy][research_min_wang_2021]
 - [Min, 2015, Management System of Personnel Records][research_min_2015]
 - [Minisola and others, 2014, Vitamin D is evidence of absence, absence of evidence?][research_minisola_pepe_2014]
-- [Mitchel, 2021, journal article using orcid][research_mitchel_2021]
 - [Mitchell, 1966, Retention of Medical Records][research_mitchell_1966]
 - [Mithal and Paul, 2024, Locating Inaccuracies, Fallacies, and Biases in the Colonial Archive][research_mithal_paul_2024_b]
 - [Mithal and Paul, 2024, Queering the Colonial Archive][research_mithal_paul_2024]
@@ -2248,7 +2243,6 @@ The next article returns to a vehicle that was built and flown.
 - [Nixon, 2005, Legal and Familial Recordkeeping Chancery Court Records and Charlotte Smith's The Old Manor House][research_nixon_2005]
 - [Noor and others, 2025, Digital management of legal records analyzing user acceptance of digital land management][research_noor_parulian_2025]
 - [Norimatsu and others, 2015, Standardization Efforts in IP Number Portability Specifications][research_norimatsu_arai_2015]
-- [Not Available, 2003, Errata DOI Digital Object Identifier 10.1007/s005260100129][research_notavailable_2003]
 - [Nougué and others, 2024, Veno-arterial ECMO support in ischemic cardiogenic shock Absence of evidence is not evidence of absence][research_nougue_martin_2024]
 - [Novytska and Marchenko, 2016, ІНТЕГРАЦІЯ ІДЕНТИФІКАТОРІВ ORCID З ІНСТИТУЦІЙНИМИ СИСТЕМАМИ ПІДТРИМКИ НАУКОВО-ДОСЛІДНОЇ ДІЯЛЬНОСТІ][research_novytska_marchenko_2016]
 - [Nunes da Silva and Parrela, 2022, The practices of archival appraisal in two National Archives in North and South America][research_nunesdasilva_parrela_2022]
@@ -2353,7 +2347,6 @@ The next article returns to a vehicle that was built and flown.
 - [Poolsappasit and Ray, 2007, Enhancing Internet Domain Name System Availability by Building Rings of Cooperation Among Cache Resolvers][research_poolsappasit_ray_2007]
 - [Popoola, 2009, Organizational commitment of records management personnel in Nigerian private universities][research_popoola_2009]
 - [Popovici, 2015, Electronic Records Management in Romania More Electronic-, Less Records-Management][research_popovici_2015]
-- [Porter and others, 2025, Correction to Understanding ORCID adoption among academic researchers][research_porter_umbach_2025_b]
 - [Porter and others, 2025, Understanding ORCID adoption among academic researchers][research_porter_umbach_2025]
 - [Poso and others, 2024, Making Sense of Bureaucratic Documents Named Entity Recognition for State Authority Archives][research_poso_lipsanen_2024]
 - [Possamai, 2011, Gramsci, Jediism, the Standardization of Popular Religion and the State][research_possamai_2011]
@@ -2453,7 +2446,6 @@ The next article returns to a vehicle that was built and flown.
 - [Sampson, 2016, The no-nonsense guide to archives and recordkeeping][research_sampson_2016]
 - [Sang-Woo Lee and others, 2004, Demand for number portability in the Korean mobile telecommunications market contingent valuation approach][research_sangwoolee_kim_2004]
 - [Sansone and Rocca-Serra, 2009, Standards and infrastructure for managing experimental metadata][research_sansone_roccaserra_2009]
-- [Sant'Anna, 2007, TESTE ORCID][research_santanna_2007]
 - [Sarin and Lynch, 1987, Discarding Obsolete Information in a Replicated Database System][research_sarin_lynch_1987]
 - [Sartorius and Maric, 2017, How many categories in a classification of psychiatric disorders do we need?][research_sartorius_maric_2017]
 - [Sarıbaş, 2025, Cinema as Counter-archive in Ridley Scott's the Last Duel Historical Silence and Ethical Memory][research_saribas_2025]
@@ -3269,8 +3261,6 @@ The next article returns to a vehicle that was built and flown.
 [research_cooper_2015]: https://doi.org/10.1525/aft.2015.42.6.8
 [research_cooper_coil_2010]: https://doi.org/10.1111/j.1365-2966.2010.17312.x
 [research_cornwell_2019]: https://doi.org/10.29173/cais1104
-[research_correction_incorrect_2014]: https://doi.org/10.7326/l14-5011-9
-[research_correction_incorrect_2014_b]: https://doi.org/10.7326/l14-5011-10
 [research_corry_2026]: https://doi.org/10.1017/cfc.2026.10025
 [research_corujo_2018]: https://doi.org/10.14195/2182-7974_31_1_7
 [research_costello_buraglio_2024]: https://doi.org/10.1109/scw63240.2024.00112
@@ -3431,7 +3421,6 @@ The next article returns to a vehicle that was built and flown.
 [research_equipoeditorial_2017]: https://doi.org/10.22585/hospdomic.v1i4.30
 [research_erickson_lannom_2017]: https://doi.org/10.5334/dsj-2017-040
 [research_ernst_2019]: https://doi.org/10.14361/9783839446560-004
-[research_erratum_math_2002]: https://doi.org/10.1007/s00208-002-0369-6
 [research_espeland_1993]: https://doi.org/10.1007/bf00990103
 [research_estimation_of_2019]: https://doi.org/10.18469/ikt.2019.17.2.05
 [research_eunyoungpark_jaehwoonlee_2004]: https://doi.org/10.1109/icc.2004.1312656
@@ -3601,7 +3590,6 @@ The next article returns to a vehicle that was built and flown.
 [research_han_han_2024]: https://doi.org/10.1002/pra2.1143
 [research_han_noh_2015]: https://doi.org/10.14404/jksarm.2015.15.4.125
 [research_hananto_lim_2018]: https://doi.org/10.1145/3199478.3199505
-[research_hanna_2021]: https://doi.org/10.5555/journal-article-orcid-sandbox-001
 [research_haraldsdottir_gunnlaugsdottir_2018]: https://doi.org/10.1108/rmj-05-2017-0013
 [research_hardisty_addink_2021]: https://doi.org/10.3897/rio.7.e67379
 [research_hardisty_lannom_2019]: https://doi.org/10.3897/biss.3.37034
@@ -4046,7 +4034,6 @@ The next article returns to a vehicle that was built and flown.
 [research_min_wang_2019]: https://doi.org/10.2139/ssrn.3427427
 [research_min_wang_2021]: https://doi.org/10.1002/poi3.252
 [research_minisola_pepe_2014]: https://doi.org/10.1007/s00198-014-2841-z
-[research_mitchel_2021]: https://doi.org/10.5555/journal-article-orcid-001
 [research_mitchell_1966]: https://doi.org/10.1016/s0140-6736(66)92581-5
 [research_mithal_paul_2024]: https://doi.org/10.4324/9781003370635-5
 [research_mithal_paul_2024_b]: https://doi.org/10.4324/9781003370635-6
@@ -4121,7 +4108,6 @@ The next article returns to a vehicle that was built and flown.
 [research_nixon_2005]: https://doi.org/10.1111/j.1741-4113.2005.00155.x
 [research_noor_parulian_2025]: https://doi.org/10.1108/rmj-11-2024-0051
 [research_norimatsu_arai_2015]: https://doi.org/10.53829/ntr201512gls
-[research_notavailable_2003]: https://doi.org/10.1007/s00526-002-0183-8
 [research_nougue_martin_2024]: https://doi.org/10.1016/j.accpm.2023.101335
 [research_novytska_marchenko_2016]: https://doi.org/10.33407/itlt.v56i6.1495
 [research_number_portability_2003]: https://doi.org/10.1049/pbte050e_ch7
@@ -4240,7 +4226,6 @@ The next article returns to a vehicle that was built and flown.
 [research_popoola_2009]: https://doi.org/10.1108/09565690910999193
 [research_popovici_2015]: https://doi.org/10.33700/2670-451x.25.1.183-192(2015)
 [research_porter_umbach_2025]: https://doi.org/10.1007/s11192-025-05300-7
-[research_porter_umbach_2025_b]: https://doi.org/10.1007/s11192-025-05364-5
 [research_poso_lipsanen_2024]: https://doi.org/10.2352/issn.2168-3204.2024.21.1.2
 [research_possamai_2011]: https://doi.org/10.7135/upo9780857288073.012
 [research_poulter_1996]: https://doi.org/10.1108/eb027089
@@ -4366,7 +4351,6 @@ The next article returns to a vehicle that was built and flown.
 [research_sanchezramon_cominsboo_2015]: https://doi.org/10.1093/humrep/dev289
 [research_sangwoolee_kim_2004]: https://doi.org/10.1109/hicss.2004.1265501
 [research_sansone_roccaserra_2009]: https://doi.org/10.1038/npre.2009.3145.1
-[research_santanna_2007]: https://doi.org/10.20911/21768757v39n107p500/2007
 [research_saribas_2025]: https://doi.org/10.52122/nisantasisbd.1748790
 [research_sarin_lynch_1987]: https://doi.org/10.1109/tse.1987.232564
 [research_sartorius_maric_2017]: https://doi.org/10.5937/mp68-14245
@@ -4701,7 +4685,6 @@ The next article returns to a vehicle that was built and flown.
 [research_willis_1993]: https://doi.org/10.1093/acprof:oso/9780198203209.003.0006
 [research_wing_2010]: https://doi.org/10.1109/mic.2010.96
 [research_wisniewskadrewniak_2022]: https://doi.org/10.14220/9783737014724.197
-[research_withdrawal_of_2021]: https://doi.org/10.1111/epp.12823
 [research_wloskowicz_2023]: https://doi.org/10.17651/onomast.67.3
 [research_wojtkiewicz_2025]: https://doi.org/10.15290/bsp.2025.30.04.12
 [research_wolf_2018]: https://doi.org/10.16995/ntn.841

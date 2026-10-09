@@ -18,7 +18,7 @@ This is the sixty-ninth article in the [X-Planes series][related_post_a297_frami
 a sponsor, and one name. What the aircraft is for has no official word at all.**
 
 The X-68A was allocated on 20 August 2025 to General Atomics, with an engine cell reading
-`1 Williams WJ38-15`, a sponsor cell reading DARPA, and a description that the register itself
+`1 Williams WJ38-15`, a sponsor cell reading DARPA, the Defense Advanced Research Projects Agency, and a description that the register itself
 marks as only partly official \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 > Longshot; Experimental air-launched UCAV for air-to-air engagements.
@@ -48,7 +48,7 @@ three readings of why the government issued 68 belong to that article and not to
 
 **The binding unknown is a mass ratio, and the government named it.**
 
-Four budget justification books running, PB2023 through
+Four budget justification books running, the President's Budget books PB2023 through
 PB2026, carry the same sentence in the LongShot entry, and the
 fifth book, which falls outside this article's date, carries it too \[[DARPA PB2023 justification][ref_darpa_pb2023]\]
 \[[DARPA PB2024 justification][ref_darpa_pb2024]\] \[[DARPA PB2025 justification][ref_darpa_pb2025]\]
@@ -148,7 +148,7 @@ dimensions, which is the practice the [X-64][related_post_a361_invocon_x64] and
 [X-65][related_post_a362_aurora_x65_crane] articles adopted for the same reason. The sweep runs from
 1,000 to 3,000 kilograms, which gives $\mu$ from
 32.3 percent down to 10.8 percent for a pair of missiles, and the
-brackets are justified in the propulsion section from the one published anchor this aircraft has.
+brackets are justified under Dependent Systems from the one published anchor this aircraft has.
 
 ## The Register Row, and the One Official Word in Its Description
 
@@ -234,7 +234,7 @@ the one nobody else uses.
 
 ## Programme Origin, Which the Award Record Tells Better Than the Press Does
 
-**five awards in the federal award record carry this programme \[[USAspending federal award record][ref_usaspending]\], and together they say things
+**Five awards in the federal award record carry this programme \[[USAspending federal award record][ref_usaspending]\], and together they say things
 no press item says.** The [X-65][related_post_a362_aurora_x65_crane] article found the same, and the
 practice of reading the record rather than the coverage is adopted here for the same reason.
 
@@ -253,7 +253,7 @@ covers the early work and the demonstration phase alike.
 ### The Sponsor Holds Five Research Rows and Four Are Recent
 
 **DARPA appears in the sponsor cell of 8 well-formed rows in the register
-and 5 of them are research allocations**, being the X-50A, the X-61A, the X-65A, the X-68A, the X-76A.
+and 5 of them are research allocations**, being the X-50A, the X-61A, the X-65A, the X-68A and the X-76A.
 **4 of those five are among the last eight research allocations by date**, so an
 agency sponsoring five of the register's 31 research rows overall, which is about a sixth,
 holds half of the recent ones.
@@ -396,8 +396,8 @@ award record are separate systems maintained by separate offices for separate pu
 agree on what this programme was at the start. **That is corroboration and not repetition.**
 
 **And the engine is the physical trace of the change.** A vehicle whose concept is multi-mode
-propulsion does not fly on one cruise-missile turbojet. The engine in the register's cell is single
-mode, and the propulsion section below takes that as the strongest available evidence that the change
+propulsion does not fly on one cruise-missile engine. The engine in the register's cell is single
+mode, and this article takes that as the strongest available evidence that the change
 in the books was a change in the aircraft and not in the prose describing it.
 
 ### The Later Changes Are Vocabulary and Not Concept
@@ -427,7 +427,7 @@ the latest book hides every restatement.
 | 2026 | 52.660, 76.900 | 24.240 | 46.0 percent |
 
 **4 fiscal years are restated and 2 are not.** The stable pair,
-FY2022 and FY2023, each hold 36.000 million dollars across three books without moving, which
+FY2022 and FY2023 in the books' abbreviation for fiscal year, each hold 36.000 million dollars across three books without moving, which
 is worth stating because it establishes that the restatements elsewhere are not an artefact of how
 the books are compiled.
 
@@ -466,6 +466,7 @@ programme's. This article made that error and corrected it.
 | $\mu$ | Store mass fraction, the keystone | dimensionless |
 | $\alpha$ | Release amplification factor $\mu/(1-\mu)$ | dimensionless |
 | $n$ | Number of stores carried | dimensionless |
+| $n_z$ | Load factor at release, lift divided by weight | dimensionless |
 | $x$ | Longitudinal station, measured positive aft | m |
 | $x_s$ | Station of the store's centre of mass | m |
 | $x_{cg}$ | Station of the vehicle's centre of gravity | m |
@@ -669,14 +670,14 @@ releasing one is left with a lateral mass asymmetry whose rolling moment the lat
 hold against.
 
 $$
-M_x \;=\; m_s\, g_0\, n\, y_s
+M_x \;=\; m_s\, g_0\, n_z\, y_s
 $$
 
 Setting that against the roll control's authority at the current dynamic pressure gives the deflection
 required to hold the wings level.
 
 $$
-\delta_{\text{roll}} \;=\; \frac{\mu\, m_0\, g_0\, n\, y_s}{q\,S\,b\,C_{l\delta}}
+\delta_{\text{roll}} \;=\; \frac{\mu\, m_0\, g_0\, n_z\, y_s}{q\,S\,b\,C_{l\delta}}
 $$
 
 **This scales with $\mu$ directly rather than with $\alpha$**, because the asymmetry is a weight and
@@ -694,7 +695,7 @@ $$
 $$
 
 **and no roll inertia for this vehicle is published, so $I_x$ is estimated as $m_1 k_x^2$ with the
-radius of gyration swept and the estimate labelled as one.** At $k_x$ of 0.4 metres and a
+radius of gyration swept and the estimate labelled as one.** At a load factor $n_z$ of one, which is level flight, at $k_x$ of 0.4 metres and a
 lateral arm of 0.3 metres the kept missile's moment is 475 newton metres, the open
 loop acceleration is 1.8 radians per second squared, **and the bank angle half a second
 after release is about 13 degrees**, the sweep across the stated brackets running from
@@ -981,7 +982,7 @@ bounded by the missile's own reach, and the unbounded version of it is an artefa
 
 ### Reaction Time Is the Same Exponential Read Differently
 
-The third stated benefit follows from integrating the decaying speed over the fly-out.
+The reduced reaction time, which the second stated benefit also claims, follows from integrating the decaying speed over the fly-out.
 
 $$
 t \;=\; \int_0^{s}\frac{ds'}{V_b\, e^{-s'/\ell}}
@@ -1024,7 +1025,7 @@ source however many places it appears.
 ### The Same Engine Maker Appears on Three Consecutive Subjects of This Series
 
 **13 well-formed rows in the register name Williams in their engine cell and
-4 of those are research allocations**, being the X-48A, the X-50A, the X-65A, the X-68A. So this
+4 of those are research allocations**, being the X-48A, the X-50A, the X-65A and the X-68A. So this
 aircraft, the [X-65][related_post_a362_aurora_x65_crane], and the unmanned allocation that took the
 number the [X-67][related_post_a364_x67_slot_taken_by_xq67] article is about, all carry an engine
 from one maker.
@@ -1401,13 +1402,13 @@ outcome is intended.
 
 ## The Contemporary Literature
 
-**This article's subject sits across 11 bodies of work and each is cited as a body and not through an exemplar**, which is the practice this series has followed since the contemporary-survey directive. The counts beside each heading are what the audited gate admitted, and two of them are small enough that the article says so in the heading itself.
+**This article's subject sits across 11 bodies of work and each is cited as a body and not through an exemplar**, which is the practice this series has followed since the contemporary-survey directive. The counts beside each heading are what the audited gate admitted, less repeated registrations of one work and the 27 records the filter rebuilt on 7 October 2026 refused, and each work is counted once, under the first cluster it matches in this section's order. Two of them are small enough that the article says so in the cluster's opening sentence.
 
 ### Store separation, which is the keystone's own discipline
 
 **This is the keystone's own discipline and it is old, large and quantitative.** The question of what a store does when it leaves an aeroplane has its own wind tunnel techniques, its own captive trajectory rigs, its own validation literature and its own flight clearance practice, and it is the body of work a programme releasing a missile from a small vehicle inherits whole.
 
-**209 records.** \[[Store Separation Testing Techniques][research_store_separation]\] \[[Investigation of Cavity Flow][research_investigation_of]\] \[[Application of Photogrammetry of][research_application_of]\] \[[Computational Fluid Dynamics Capability][research_computational_fluid]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid]\] \[[Computational Simulation of Unsteady][research_computational_simulation]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid_2]\] \[[A Method for Predicting][research_a_method]\] \[[Prediction of Six-Degree-of-Freedom Store][research_prediction_of]\] \[[Transonic Wind Tunnel Tests][research_transonic_wind]\] \[[CFD Wing/Pylon/Finned Store Mutual][research_cfd_wing_pylon_finned]\] \[[Aeroacoustic Environment of a][research_aeroacoustic_environment]\] \[[Aircraft Store Trajectories Predicted][research_aircraft_store]\] \[[Transonic Wing/Store Flow-Field Measurement][research_transonic_wing_store]\] \[[Wing/Store Flow-Field Measurement at][research_wing_store_flow_field]\] \[[Dynamic Aeroelastic Instabilities of][research_dynamic_aeroelastic]\] \[[Comparison of Wind Tunnel][research_comparison_of]\] \[[The Rapid Prediction of][research_the_rapid]\] \[[A Comprehensive Rapid-Assessment-Of-Flutter/Ejection-Loads RAFEL][research_a_comprehensive]\] \[[Effects of Inlet Spillage][research_effects_of]\] \[[Captive Trajectory System Test][research_captive_trajectory]\] \[[User Requirements and Information][research_user_requirements]\] \[[Comparison of Store Trajectory][research_comparison_of_2]\] \[[Trajectory Equations for a][research_trajectory_equations]\] \[[Insensitive Munitions Technology Transition][research_insensitive_munitions]\] \[[Trajectory Equations for a][research_trajectory_equations_2]\] \[[The Aerodynamic Influence of][research_the_aerodynamic]\] \[[Water Discriminating Electric Bomb][research_water_discriminating]\] \[[Viscous flow simulations of][research_viscous_flow]\] \[[TranAir applications to predicting][research_tranair_applications]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged_2]\] \[[New test techniques to][research_new_test]\] \[[Navier-Stokes Solutions for Flows][research_navier_stokes_solutions]\] \[[Zhang et al 2026][research_zhang_wang_2026]\] \[[Das et al 2026][research_das_hale_2026]\] \[[Türk and Güleren 2025][research_turk_guleren_2025]\] \[[Vishwajeet et al 2025][research_vishwajeet_mulik_2025]\] \[[Liu et al 2025][research_liu_wang_2025]\] \[[S. Subchan 2025][research_ssubchan_2025]\] \[[Cenko 2025][research_cenko_2025]\] \[[Coley 2024][research_coley_2024]\] \[[Ahn et al 2024][research_ahn_park_2024]\] \[[Smith et al 2024][research_smith_kumar_2024]\] \[[Savery and Coder 2024][research_savery_coder_2024]\] \[[Campbell 2024][research_campbell_2024]\] \[[Pandey et al 2023][research_pandey_tembhare_2023]\] \[[Ailneni et al 2023][research_ailneni_kashyap_2023]\] \[[Interface Standard, Miniature Mission 2023][research_interface_standard_2023]\] \[[Shin et al 2023][research_shin_jo_2023]\] \[[Gothard and Granlund 2022][research_gothard_granlund_2022]\] \[[Song 2021][research_song_2021]\] \[[Tamer 2021][research_tamer_2021]\] \[[Fontanella et al 2021][research_fontanella_bindi_2021]\] \[[Song and Ai 2021][research_song_ai_2021]\] \[[Mizrahi and Raveh 2019][research_mizrahi_raveh_2019]\] \[[Toor et al 2019][research_toor_masud_2019]\] \[[Toor et al 2019][research_toor_masud_2019_2]\] \[[Gong and Wang 2019][research_gong_wang_2019]\] \[[Dansie 2019][research_dansie_2019]\] \[[Zaikang and Defu 2019][research_zaikang_defu_2019]\] \[[Schoppert 2019][research_schoppert_2019]\] \[[de Vasconcelos et al 2019][research_devasconcelos_leite_2019]\] \[[Sinha and Garg 2018][research_sinha_garg_2018]\] \[[Guigue 2018][research_guigue_2018]\] \[[Mahmood et al 2018][research_mahmood_masud_2018]\] \[[Mahmood et al 2018][research_mahmood_masud_2018_2]\] \[[Unal and Baran 2018][research_unal_baran_2018]\] \[[Demir 2018][research_demir_2018]\] \[[Mizrahi and Raveh 2018][research_mizrahi_raveh_2018]\] \[[Khaware et al 2018][research_khaware_shivanandham_2018]\] \[[Khaware et al 2018][research_khaware_shivanandham_2018_2]\] \[[Generic Aircraft-Store Interface Framework 2017][research_generic_aircraft_store_2017]\] \[[Aircraft/Store Common Interface Control 2017][research_aircraft_store_common_2017]\] \[[Hiwale et al 2017][research_hiwale_parkhi_2017]\] \[[Masud et al 2017][research_masud_mahmood_2017]\] \[[Demir et al 2017][research_demir_erdem_2017]\] \[[Interface Standard, Miniature Mission 2017][research_interface_standard_2017]\] \[[Zhang et al 2017][research_zhang_sun_2017]\] \[[Özgür et al 2016][research_ozgur_cetiner_2016]\] \[[Lei and Zheng-yin 2016][research_lei_zhengyin_2016]\] \[[Osman et al 2016][research_osman_aly_2016]\] \[[Padmanabhan et al 2016][research_padmanabhan_dowell_2016]\] \[[Warchulski and Warchulski 2016][research_warchulski_warchulski_2016]\] \[[Osman et al 2015][research_osman_aly_2015]\] \[[Kim et al 2015][research_kim_choi_2015]\] \[[Simulation of Store Separation 2014][research_simulation_of_2014]\] \[[Barone and Arunajatesan 2014][research_barone_arunajatesan_2014]\] \[[Flora et al 2014][research_flora_reeder_2014]\] \[[Ruchała and Placek 2013][research_ruchala_placek_2013]\] \[[Di et al 2013][research_di_gao_2013]\] \[[Carter and Lind 2012][research_carter_lind_2012]\] \[[Binkley and Vanderwyst 2012][research_binkley_vanderwyst_2012]\] \[[Carter and Lind 2012][research_carter_lind_2012_2]\] \[[Carter 2012][research_carter_2012]\] \[[Hallberg et al 2011][research_hallberg_snyder_2011]\] \[[Berglind and Tysell 2011][research_berglind_tysell_2011]\] \[[Rusong et al 2011][research_rusong_fei_2011]\] \[[Kraft and Lofthouse 2011][research_kraft_lofthouse_2011]\] \[[Subchan 2011][research_subchan_2011]\] \[[Berglind and Tysell 2010][research_berglind_tysell_2010]\] \[[Smith et al 2010][research_smith_morgret_2010]\] \[[Finney 2010][research_finney_2010]\] \[[Cureton et al 2010][research_cureton_power_2010]\] \[[Morgret et al 2009][research_morgret_smith_2009]\] \[[Keen et al 2009][research_keen_morgret_2009]\] \[[Oktay et al 2009][research_oktay_merttopcuoglu_2009]\] \[[Roughen et al 2009][research_roughen_wang_2009]\] \[[Nelson and Cain 2009][research_nelson_cain_2009]\] \[[Perillo et al 2009][research_perillo_atkins_2009]\] \[[zhang et al 2008][research_zhang_meganathan_2008]\] \[[Johnson et al 2008][research_johnson_stanek_2008]\] \[[Hallberg et al 2008][research_hallberg_cenko_2008]\] \[[Spinetti and Jolly 2008][research_spinetti_jolly_2008]\] \[[Charlton and Davis 2008][research_charlton_davis_2008]\] \[[Vaughn and Milton E. 2008][research_vaughn_miltone_2008]\] \[[Harding and Barton 2007][research_harding_barton_2007]\] \[[Prananta et al 2007][research_prananta_soemarwoto_2007]\] \[[Sickles et al 2007][research_sickles_power_2007]\] \[[Babcock 2007][research_babcock_2007]\] \[[Hallberg and Godiksen 2007][research_hallberg_godiksen_2007]\] \[[Cenko et al 2007][research_cenko_lee_2007]\] \[[Harish et al 2006][research_harish_pavanakumar_2006]\] \[[Hallberg et al 2006][research_hallberg_ray_2006]\] \[[Guigue et al 2006][research_guigue_ahmadi_2006]\] \[[Mani et al 2006][research_mani_cary_2006]\] \[[Freeman 2006][research_freeman_2006]\] \[[Freeman 2006][research_freeman_2006_2]\] \[[Jiang et al 2005][research_jiang_tang_2005]\] \[[Gleissl and Deslandes 2005][research_gleissl_deslandes_2005]\] \[[Malmuth et al 2005][research_malmuth_shalaev_2005]\] \[[Dudley and Westmoreland 2004][research_dudley_westmoreland_2004]\] \[[Martel 2004][research_martel_2004]\] \[[Freeman and Jolly 2004][research_freeman_jolly_2004]\] \[[Noel et al 2003][research_noel_niewoehner_2003]\] \[[Liu 2003][research_liu_2003]\] \[[Shamma and Cloutier 2003][research_shamma_cloutier_2003]\] \[[Lesieutre et al 2002][research_lesieutre_dillenius_2002]\] \[[Chen et al 2002][research_chen_sulaeman_2002]\] \[[Raivio and Ranta 2002][research_raivio_ranta_2002]\] \[[Davids and Cenko 2001][research_davids_cenko_2001]\] \[[Marcum 2001][research_marcum_2001]\] \[[Ching 2000][research_ching_2000]\] \[[Deslandes and Seifert 2000][research_deslandes_seifert_2000]\] \[[Pan et al 2000][research_pan_sarin_2000]\] \[[Kim and Lee 2000][research_kim_lee_2000]\] \[[Tekinalp and Utalay 2000][research_tekinalp_utalay_2000]\] \[[Nichols and Denny 1999][research_nichols_denny_1999]\] \[[Chan and Zhu 1999][research_chan_zhu_1999]\] \[[Cavallo et al 1999][research_cavallo_lee_1999]\] \[[Hoffren and Salminen 1999][research_hoffren_salminen_1999]\] \[[Garrell et al 1999][research_garrell_nowakowski_1999]\] \[[Stokes et al 1999][research_stokes_chappell_1999]\] \[[Tomaro et al 1999][research_tomaro_witzeman_1999]\] \[[Lijewski and Lijewski 1997][research_lijewski_lijewski_1997]\] \[[Cline et al 1996][research_cline_riner_1996]\] \[[Welterlen and Leone 1996][research_welterlen_leone_1996]\] \[[Coleman et al 1996][research_coleman_jolly_1996]\] \[[Herrmann 1996][research_herrmann_1996]\] \[[Nasuti and Innocenti 1996][research_nasuti_innocenti_1996]\] \[[Holley et al 1996][research_holley_render_1996]\] \[[Kaykayoglu 1996][research_kaykayoglu_1996]\] \[[Carlson et al 1995][research_carlson_king_1995]\] \[[Atwood 1995][research_atwood_1995]\] \[[Moyer et al 1995][research_moyer_richardson_1995]\] \[[New applications of engineering 1994][research_new_applications_1994]\] \[[Cenko et al 1994][research_cenko_phillips_1994]\] \[[Lijewski and Suhs 1994][research_lijewski_suhs_1994]\] \[[Lan et al 1994][research_lan_luo_1994]\] \[[Ferguson and Getson 1994][research_ferguson_getson_1994]\] \[[Kraft 1994][research_kraft_1994]\] \[[Ahmad et al 1993][research_ahmad_shanks_1993]\] \[[Cenko and Madson 1993][research_cenko_madson_1993]\] \[[Massengill, Jr. 1993][research_massengilljr_1993]\] \[[Newman et al 1992][research_newman_fulcher_1992]\] \[[Lijewski and Suhs 1992][research_lijewski_suhs_1992]\] \[[Chakravarthy and Szema 1991][research_chakravarthy_szema_1991]\] \[[Szymkowiak and Silver 1990][research_szymkowiak_silver_1990]\] \[[Cliff and Kelley 1989][research_cliff_kelley_1989]\] \[[Formaggia et al 1988][research_formaggia_peraire_1988]\] \[[Cenko et al 1986][research_cenko_meyer_1986]\] \[[Sorrells et al 1985][research_sorrells_towne_1985]\] \[[Sorrells et al 1984][research_sorrells_towne_1984]\] \[[Triplett 1984][research_triplett_1984]\] \[[Turner 1982][research_turner_1982]\] \[[Stallings, Jr. 1982][research_stallingsjr_1982]\] \[[A new approach to 1981][research_a_new_1981]\] \[[Aircraft store separation motion 1980][research_aircraft_store_1980]\] \[[Maddox 1980][research_maddox_1980]\] \[[Carman et al 1980][research_carman_jb_1980]\] \[[Billingsley et al 1979][research_billingsley_burt_1979]\] \[[Maddox et al 1979][research_maddox_dix_1979]\] \[[Kiber 1977][research_kiber_1977]\] \[[Spahr 1975][research_spahr_1975]\] \[[Dillenius et al 1975][research_dillenius_goodwin_1975]\] \[[Spahr 1974][research_spahr_1974]\] \[[Daniels and Clare 1973][research_daniels_clare_1973]\] \[[Burkhard 1973][research_burkhard_1973]\] \[[Brooks 1971][research_brooks_1971]\] \[[Markarian 1971][research_markarian_1971]\] \[[Black and Picklesimer 1971][research_black_picklesimer_1971]\] \[[Henton 1971][research_henton_1971]\] \[[Anderson 1970][research_anderson_1970]\] \[[Steinmetz 1970][research_steinmetz_1970]\] \[[Black 1969][research_black_1969]\] \[[Black 1968][research_black_1968]\] \[[Barnett 1966][research_barnett_1966]\] \[[Kearney and Holliday 1963][research_kearney_holliday_1963]\] \[[Barnett 1962][research_barnett_1962]\]
+**206 records.** \[[Store Separation Testing Techniques][research_store_separation]\] \[[Investigation of Cavity Flow][research_investigation_of]\] \[[Application of Photogrammetry of][research_application_of]\] \[[Computational Fluid Dynamics Capability][research_computational_fluid]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid]\] \[[Computational Simulation of Unsteady][research_computational_simulation]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid_2]\] \[[A Method for Predicting][research_a_method]\] \[[Prediction of Six-Degree-of-Freedom Store][research_prediction_of]\] \[[Transonic Wind Tunnel Tests][research_transonic_wind]\] \[[CFD Wing/Pylon/Finned Store Mutual][research_cfd_wing_pylon_finned]\] \[[Aeroacoustic Environment of a][research_aeroacoustic_environment]\] \[[Aircraft Store Trajectories Predicted][research_aircraft_store]\] \[[Transonic Wing/Store Flow-Field Measurement][research_transonic_wing_store]\] \[[Wing/Store Flow-Field Measurement at][research_wing_store_flow_field]\] \[[Dynamic Aeroelastic Instabilities of][research_dynamic_aeroelastic]\] \[[Comparison of Wind Tunnel][research_comparison_of]\] \[[The Rapid Prediction of][research_the_rapid]\] \[[A Comprehensive Rapid-Assessment-Of-Flutter/Ejection-Loads RAFEL][research_a_comprehensive]\] \[[Effects of Inlet Spillage][research_effects_of]\] \[[Captive Trajectory System Test][research_captive_trajectory]\] \[[User Requirements and Information][research_user_requirements]\] \[[Comparison of Store Trajectory][research_comparison_of_2]\] \[[Trajectory Equations for a][research_trajectory_equations]\] \[[Insensitive Munitions Technology Transition][research_insensitive_munitions]\] \[[Trajectory Equations for a][research_trajectory_equations_2]\] \[[The Aerodynamic Influence of][research_the_aerodynamic]\] \[[Water Discriminating Electric Bomb][research_water_discriminating]\] \[[Viscous flow simulations of][research_viscous_flow]\] \[[TranAir applications to predicting][research_tranair_applications]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged_2]\] \[[New test techniques to][research_new_test]\] \[[Navier-Stokes Solutions for Flows][research_navier_stokes_solutions]\] \[[Zhang et al 2026][research_zhang_wang_2026]\] \[[Das et al 2026][research_das_hale_2026]\] \[[Türk and Güleren 2025][research_turk_guleren_2025]\] \[[Vishwajeet et al 2025][research_vishwajeet_mulik_2025]\] \[[Liu et al 2025][research_liu_wang_2025]\] \[[S. Subchan 2025][research_ssubchan_2025]\] \[[Cenko 2025][research_cenko_2025]\] \[[Coley 2024][research_coley_2024]\] \[[Ahn et al 2024][research_ahn_park_2024]\] \[[Smith et al 2024][research_smith_kumar_2024]\] \[[Savery and Coder 2024][research_savery_coder_2024]\] \[[Campbell 2024][research_campbell_2024]\] \[[Pandey et al 2023][research_pandey_tembhare_2023]\] \[[Ailneni et al 2023][research_ailneni_kashyap_2023]\] \[[Interface Standard, Miniature Mission 2023][research_interface_standard_2023]\] \[[Shin et al 2023][research_shin_jo_2023]\] \[[Gothard and Granlund 2022][research_gothard_granlund_2022]\] \[[Song 2021][research_song_2021]\] \[[Tamer 2021][research_tamer_2021]\] \[[Fontanella et al 2021][research_fontanella_bindi_2021]\] \[[Song and Ai 2021][research_song_ai_2021]\] \[[Mizrahi and Raveh 2019][research_mizrahi_raveh_2019]\] \[[Toor et al 2019][research_toor_masud_2019]\] \[[Gong and Wang 2019][research_gong_wang_2019]\] \[[Dansie 2019][research_dansie_2019]\] \[[Zaikang and Defu 2019][research_zaikang_defu_2019]\] \[[Schoppert 2019][research_schoppert_2019]\] \[[de Vasconcelos et al 2019][research_devasconcelos_leite_2019]\] \[[Sinha and Garg 2018][research_sinha_garg_2018]\] \[[Guigue 2018][research_guigue_2018]\] \[[Mahmood et al 2018][research_mahmood_masud_2018]\] \[[Unal and Baran 2018][research_unal_baran_2018]\] \[[Demir 2018][research_demir_2018]\] \[[Mizrahi and Raveh 2018][research_mizrahi_raveh_2018]\] \[[Khaware et al 2018][research_khaware_shivanandham_2018]\] \[[Generic Aircraft-Store Interface Framework 2017][research_generic_aircraft_store_2017]\] \[[Aircraft/Store Common Interface Control 2017][research_aircraft_store_common_2017]\] \[[Hiwale et al 2017][research_hiwale_parkhi_2017]\] \[[Masud et al 2017][research_masud_mahmood_2017]\] \[[Demir et al 2017][research_demir_erdem_2017]\] \[[Interface Standard, Miniature Mission 2017][research_interface_standard_2017]\] \[[Zhang et al 2017][research_zhang_sun_2017]\] \[[Özgür et al 2016][research_ozgur_cetiner_2016]\] \[[Lei and Zheng-yin 2016][research_lei_zhengyin_2016]\] \[[Osman et al 2016][research_osman_aly_2016]\] \[[Padmanabhan et al 2016][research_padmanabhan_dowell_2016]\] \[[Warchulski and Warchulski 2016][research_warchulski_warchulski_2016]\] \[[Osman et al 2015][research_osman_aly_2015]\] \[[Kim et al 2015][research_kim_choi_2015]\] \[[Simulation of Store Separation 2014][research_simulation_of_2014]\] \[[Barone and Arunajatesan 2014][research_barone_arunajatesan_2014]\] \[[Flora et al 2014][research_flora_reeder_2014]\] \[[Ruchała and Placek 2013][research_ruchala_placek_2013]\] \[[Di et al 2013][research_di_gao_2013]\] \[[Carter and Lind 2012][research_carter_lind_2012]\] \[[Binkley and Vanderwyst 2012][research_binkley_vanderwyst_2012]\] \[[Carter and Lind 2012][research_carter_lind_2012_2]\] \[[Carter 2012][research_carter_2012]\] \[[Hallberg et al 2011][research_hallberg_snyder_2011]\] \[[Berglind and Tysell 2011][research_berglind_tysell_2011]\] \[[Rusong et al 2011][research_rusong_fei_2011]\] \[[Kraft and Lofthouse 2011][research_kraft_lofthouse_2011]\] \[[Subchan 2011][research_subchan_2011]\] \[[Berglind and Tysell 2010][research_berglind_tysell_2010]\] \[[Smith et al 2010][research_smith_morgret_2010]\] \[[Finney 2010][research_finney_2010]\] \[[Cureton et al 2010][research_cureton_power_2010]\] \[[Morgret et al 2009][research_morgret_smith_2009]\] \[[Keen et al 2009][research_keen_morgret_2009]\] \[[Oktay et al 2009][research_oktay_merttopcuoglu_2009]\] \[[Roughen et al 2009][research_roughen_wang_2009]\] \[[Nelson and Cain 2009][research_nelson_cain_2009]\] \[[Perillo et al 2009][research_perillo_atkins_2009]\] \[[zhang et al 2008][research_zhang_meganathan_2008]\] \[[Johnson et al 2008][research_johnson_stanek_2008]\] \[[Hallberg et al 2008][research_hallberg_cenko_2008]\] \[[Spinetti and Jolly 2008][research_spinetti_jolly_2008]\] \[[Charlton and Davis 2008][research_charlton_davis_2008]\] \[[Vaughn and Milton E. 2008][research_vaughn_miltone_2008]\] \[[Harding and Barton 2007][research_harding_barton_2007]\] \[[Prananta et al 2007][research_prananta_soemarwoto_2007]\] \[[Sickles et al 2007][research_sickles_power_2007]\] \[[Babcock 2007][research_babcock_2007]\] \[[Hallberg and Godiksen 2007][research_hallberg_godiksen_2007]\] \[[Cenko et al 2007][research_cenko_lee_2007]\] \[[Harish et al 2006][research_harish_pavanakumar_2006]\] \[[Hallberg et al 2006][research_hallberg_ray_2006]\] \[[Guigue et al 2006][research_guigue_ahmadi_2006]\] \[[Mani et al 2006][research_mani_cary_2006]\] \[[Freeman 2006][research_freeman_2006]\] \[[Freeman 2006][research_freeman_2006_2]\] \[[Jiang et al 2005][research_jiang_tang_2005]\] \[[Gleissl and Deslandes 2005][research_gleissl_deslandes_2005]\] \[[Malmuth et al 2005][research_malmuth_shalaev_2005]\] \[[Dudley and Westmoreland 2004][research_dudley_westmoreland_2004]\] \[[Martel 2004][research_martel_2004]\] \[[Freeman and Jolly 2004][research_freeman_jolly_2004]\] \[[Noel et al 2003][research_noel_niewoehner_2003]\] \[[Liu 2003][research_liu_2003]\] \[[Shamma and Cloutier 2003][research_shamma_cloutier_2003]\] \[[Lesieutre et al 2002][research_lesieutre_dillenius_2002]\] \[[Chen et al 2002][research_chen_sulaeman_2002]\] \[[Raivio and Ranta 2002][research_raivio_ranta_2002]\] \[[Davids and Cenko 2001][research_davids_cenko_2001]\] \[[Marcum 2001][research_marcum_2001]\] \[[Ching 2000][research_ching_2000]\] \[[Deslandes and Seifert 2000][research_deslandes_seifert_2000]\] \[[Pan et al 2000][research_pan_sarin_2000]\] \[[Kim and Lee 2000][research_kim_lee_2000]\] \[[Tekinalp and Utalay 2000][research_tekinalp_utalay_2000]\] \[[Nichols and Denny 1999][research_nichols_denny_1999]\] \[[Chan and Zhu 1999][research_chan_zhu_1999]\] \[[Cavallo et al 1999][research_cavallo_lee_1999]\] \[[Hoffren and Salminen 1999][research_hoffren_salminen_1999]\] \[[Garrell et al 1999][research_garrell_nowakowski_1999]\] \[[Stokes et al 1999][research_stokes_chappell_1999]\] \[[Tomaro et al 1999][research_tomaro_witzeman_1999]\] \[[Lijewski and Lijewski 1997][research_lijewski_lijewski_1997]\] \[[Cline et al 1996][research_cline_riner_1996]\] \[[Welterlen and Leone 1996][research_welterlen_leone_1996]\] \[[Coleman et al 1996][research_coleman_jolly_1996]\] \[[Herrmann 1996][research_herrmann_1996]\] \[[Nasuti and Innocenti 1996][research_nasuti_innocenti_1996]\] \[[Holley et al 1996][research_holley_render_1996]\] \[[Kaykayoglu 1996][research_kaykayoglu_1996]\] \[[Carlson et al 1995][research_carlson_king_1995]\] \[[Atwood 1995][research_atwood_1995]\] \[[Moyer et al 1995][research_moyer_richardson_1995]\] \[[New applications of engineering 1994][research_new_applications_1994]\] \[[Cenko et al 1994][research_cenko_phillips_1994]\] \[[Lijewski and Suhs 1994][research_lijewski_suhs_1994]\] \[[Lan et al 1994][research_lan_luo_1994]\] \[[Ferguson and Getson 1994][research_ferguson_getson_1994]\] \[[Kraft 1994][research_kraft_1994]\] \[[Ahmad et al 1993][research_ahmad_shanks_1993]\] \[[Cenko and Madson 1993][research_cenko_madson_1993]\] \[[Massengill, Jr. 1993][research_massengilljr_1993]\] \[[Newman et al 1992][research_newman_fulcher_1992]\] \[[Lijewski and Suhs 1992][research_lijewski_suhs_1992]\] \[[Chakravarthy and Szema 1991][research_chakravarthy_szema_1991]\] \[[Szymkowiak and Silver 1990][research_szymkowiak_silver_1990]\] \[[Cliff and Kelley 1989][research_cliff_kelley_1989]\] \[[Formaggia et al 1988][research_formaggia_peraire_1988]\] \[[Cenko et al 1986][research_cenko_meyer_1986]\] \[[Sorrells et al 1985][research_sorrells_towne_1985]\] \[[Sorrells et al 1984][research_sorrells_towne_1984]\] \[[Triplett 1984][research_triplett_1984]\] \[[Turner 1982][research_turner_1982]\] \[[Stallings, Jr. 1982][research_stallingsjr_1982]\] \[[A new approach to 1981][research_a_new_1981]\] \[[Aircraft store separation motion 1980][research_aircraft_store_1980]\] \[[Maddox 1980][research_maddox_1980]\] \[[Carman et al 1980][research_carman_jb_1980]\] \[[Billingsley et al 1979][research_billingsley_burt_1979]\] \[[Maddox et al 1979][research_maddox_dix_1979]\] \[[Kiber 1977][research_kiber_1977]\] \[[Spahr 1975][research_spahr_1975]\] \[[Dillenius et al 1975][research_dillenius_goodwin_1975]\] \[[Spahr 1974][research_spahr_1974]\] \[[Daniels and Clare 1973][research_daniels_clare_1973]\] \[[Burkhard 1973][research_burkhard_1973]\] \[[Brooks 1971][research_brooks_1971]\] \[[Markarian 1971][research_markarian_1971]\] \[[Black and Picklesimer 1971][research_black_picklesimer_1971]\] \[[Henton 1971][research_henton_1971]\] \[[Anderson 1970][research_anderson_1970]\] \[[Steinmetz 1970][research_steinmetz_1970]\] \[[Black 1969][research_black_1969]\] \[[Black 1968][research_black_1968]\] \[[Barnett 1966][research_barnett_1966]\] \[[Kearney and Holliday 1963][research_kearney_holliday_1963]\] \[[Barnett 1962][research_barnett_1962]\]
 
 ### Carriage loads and the weapons bay
 
@@ -1536,19 +1537,19 @@ claims more loosely than the programme-level ones.
 
 **Two sweeps retrieved 4,711 records and the audited subject gate admitted
 471**, which is 10.0 percent. After deduplication on normalised title and
-year that is 458 distinct works, of which 431 remain cited across 11 clusters alongside
+year that is 458 distinct works, of which 428 remain cited across 11 clusters alongside
 23 primary sources read directly.
 
-**66 of the 431 are research reports rather than journal or conference
-papers, which is 15.3 percent.** That share is lower than several recent articles in this
+**66 of the 428 were harvested from the two report servers, which is 15.4 percent, and 87, or 20.3 percent, are research reports rather than journal or conference
+papers by their address**, counting every definition whose address is a report server or a report-server DOI, which adds the defence and energy department reports the article registries returned. That share is lower than several recent articles in this
 series and the reason is a property of the subject rather than of the sweep. **Store separation is
 an aerospace engineering discipline published mainly through one professional society's conferences
 and journals**, so its literature sits in the article registries and not on the government
-report servers. **The period count is 351**, with a median year of 2009 and
+report servers. **362 of the 428 carry a year and 348 of those are dated 2025 or earlier**, with a median year of 2009 and
 a range from 1960 to 2026, and the count is reported beside the fraction because
 adding contemporary work lowers the fraction while leaving the count unchanged.
 
-**The filter was rebuilt on 7 October 2026, after the counts first published with this article, and it refused 27 records that had entered on a shared word.** Thirteen were strategic missile flight trajectories admitted to the store separation cluster by the word trajectory, among them ballistic missile trajectories from burnout to impact, missile range trajectory tables, boost-glide trajectories and missile defence planning. Five entered on the name Breguet and concern the watchmaker or the firm's aeroplanes rather than the range equation, three concern specific impulse in spacecraft electric and laser propulsion, two are oceanographic instruments dropped from aircraft, and one each is about economic geography, the memory cost of an external store in cognitive psychology, the storeys of a building and the ground equipment that loads an aircraft gun. **The research set went from 458 to 431**, the store separation cluster from 222 to 209 and the propulsion premise cluster from 49 to 41, and the figures above are the rebuilt ones. A reading of 300 records the screens did not flag found 19 off topic, about 6.3 percent, and every one of them is among the 27, because each was traced to its homonym and the homonym was then swept across all 458 titles.
+**The filter was rebuilt on 7 October 2026, after the counts first published with this article, and it refused 27 records that had entered on a shared word.** Thirteen were strategic missile flight trajectories admitted to the store separation cluster by the word trajectory, among them ballistic missile trajectories from burnout to impact, missile range trajectory tables, boost-glide trajectories and missile defence planning. Five entered on the name Breguet and concern the watchmaker or the firm's aeroplanes rather than the range equation, three concern specific impulse in spacecraft electric and laser propulsion, two are oceanographic instruments dropped from aircraft, and one each is about economic geography, the memory cost of an external store in cognitive psychology, the storeys of a building and the ground equipment that loads an aircraft gun. **The research set went from 458 to 431**, the store separation cluster from 222 to 209 and the propulsion premise cluster from 49 to 41. A reading of 300 records the screens did not flag found 19 off topic, about 6.3 percent, and every one of them is among the 27, because each was traced to its homonym and the homonym was then swept across all 458 titles. **A second pass on 8 October 2026 refused none, and the research set stayed at 431.** A second seeded sample drew the 121 records that neither the screens nor the first sample had logged as read, which is every such record and not a sample of them, and it found none off topic. Those 121 had already been read once during the first pass, outside its sample, so this second reading is a re-reading and not an independent measurement. The second sample therefore measures the remaining contamination among those 121 at none found, and no sweep followed it because it found nothing to sweep. A further sweep for registry test deposits, a test-prefix DOI or a placeholder title, found none. **On 8 October 2026 a further 3 records were removed because they are notices rather than works**, being one correction notice and two withdrawal notices for store separation conference papers, which took the research set from 431 to 428 and the store separation cluster from 209 to 206, and the figures above are recomputed on that set.
 
 ### The Reports Server Is the Wrong Server for This Subject
 
@@ -1614,7 +1615,7 @@ centrally, to every pattern and not written into each.
 
 **Four clusters came back from the first sweep thin enough to target, and the second sweep
 asked each in its own literature's vocabulary and not in this article's.** The result was
-measured afterwards against a recorded before-state and not declared.
+measured afterwards against a recorded before-state and not declared. **The table is that measurement as it stood after the second sweep, and it counts something different from the cluster rows.** It counts gated records before repeated registrations were merged, with a record counted in every cluster its title matches, while each cluster row cites a work once, under the first cluster it matches. The four rows now cite 7, 23, 3 and 4 works, in the table's order.
 
 | Cluster | Before | After |
 |---|---:|---:|
@@ -1682,7 +1683,7 @@ in this article rests on either document's content.**
 The X-68A designation was allocated on 20 August 2025 to General Atomics, with the engine, sponsor
 and description cells as quoted, and the description carries a span-level officiality mark whose
 effect is that the name is official Department wording and the mission sentence is not. The
-programme is LongShot, sponsored by the Defense Advanced Research Projects Agency. five
+programme is LongShot, sponsored by the Defense Advanced Research Projects Agency. Five
 awards in the federal award record carry it, totalling 148,305,710.65 dollars, with the parties,
 dates, amounts, offer counts and product codes as tabulated. Seven budget justification books
 carry a programme entry, the funding figures and restatements are as tabulated, and the programme
@@ -2117,7 +2118,6 @@ to carry a weapon it is barely larger than.
 - [Kearney and Holliday 1963][research_kearney_holliday_1963]
 - [Keen et al 2009][research_keen_morgret_2009]
 - [Khaware et al 2018][research_khaware_shivanandham_2018]
-- [Khaware et al 2018][research_khaware_shivanandham_2018_2]
 - [Kholodar 2016][research_kholodar_2016]
 - [Kiber 1977][research_kiber_1977]
 - [Kim and Lee 2000][research_kim_lee_2000]
@@ -2153,7 +2153,6 @@ to carry a weapon it is barely larger than.
 - [Maddox 1980][research_maddox_1980]
 - [Maddox et al 1979][research_maddox_dix_1979]
 - [Mahmood et al 2018][research_mahmood_masud_2018]
-- [Mahmood et al 2018][research_mahmood_masud_2018_2]
 - [Malmuth et al 2005][research_malmuth_shalaev_2005]
 - [Mani et al 2006][research_mani_cary_2006]
 - [Marcum 2001][research_marcum_2001]
@@ -2280,7 +2279,6 @@ to carry a weapon it is barely larger than.
 - [To 2024][research_to_2024]
 - [Tomaro et al 1999][research_tomaro_witzeman_1999]
 - [Toor et al 2019][research_toor_masud_2019]
-- [Toor et al 2019][research_toor_masud_2019_2]
 - [Trajectory Equations for a][research_trajectory_equations]
 - [Trajectory Equations for a][research_trajectory_equations_2]
 - [TranAir applications to predicting][research_tranair_applications]
@@ -2549,7 +2547,6 @@ to carry a weapon it is barely larger than.
 [research_kearney_holliday_1963]: https://doi.org/10.2514/6.1963-1037
 [research_keen_morgret_2009]: https://doi.org/10.2514/6.2009-99
 [research_khaware_shivanandham_2018]: https://doi.org/10.2514/6.2018-1272
-[research_khaware_shivanandham_2018_2]: https://doi.org/10.2514/6.2018-1272.c1
 [research_kholodar_2016]: https://doi.org/10.2514/1.c033772
 [research_kiber_1977]: https://doi.org/10.21236/adb016616
 [research_kim_choi_2015]: https://doi.org/10.1016/j.compfluid.2015.07.022
@@ -2585,7 +2582,6 @@ to carry a weapon it is barely larger than.
 [research_maddox_1980]: https://doi.org/10.2514/3.44686
 [research_maddox_dix_1979]: https://doi.org/10.2514/3.58521
 [research_mahmood_masud_2018]: https://doi.org/10.2514/6.2018-1273
-[research_mahmood_masud_2018_2]: https://doi.org/10.2514/6.2018-1273.c1
 [research_malmuth_shalaev_2005]: https://doi.org/10.21236/ada434694
 [research_mani_cary_2006]: https://doi.org/10.1007/3-540-31801-1_38
 [research_marcum_2001]: https://doi.org/10.21236/ada387492
@@ -2713,7 +2709,6 @@ to carry a weapon it is barely larger than.
 [research_to_2024]: https://doi.org/10.14264/345621
 [research_tomaro_witzeman_1999]: https://doi.org/10.2514/6.1999-122
 [research_toor_masud_2019]: https://doi.org/10.2514/6.2019-0601
-[research_toor_masud_2019_2]: https://doi.org/10.2514/6.2019-0601.c1
 [research_trajectory_equations]: https://doi.org/10.21236/ad0634267
 [research_trajectory_equations_2]: https://doi.org/10.21236/ad0615569
 [research_tranair_applications]: https://ntrs.nasa.gov/citations/19930040922

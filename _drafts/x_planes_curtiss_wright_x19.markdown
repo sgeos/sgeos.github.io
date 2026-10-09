@@ -61,7 +61,7 @@ The X-19 did not begin as a military aircraft and did not begin with that design
 
 Before the transport there was a demonstrator. The [Curtiss-Wright X-100][ref_x100] was built to test two things at once, the radial lift force itself and the gimballed nacelles a tilt-propeller needs. Construction began in February 1958. Tethered hovering started on 20 April 1959, free hover followed in September 1959, and **the first and only transition from vertical to high-speed flight was made on 13 April 1960**. Curtiss-Wright declared the concept proven, handed the aircraft to the National Aeronautics and Space Administration, hereafter NASA, in October 1960 for tests at Langley, and it went afterward to the Smithsonian, where [Smithsonian National Air and Space Museum, Curtiss-Wright X-100][ref_si_x100] and [Vertipedia, Curtiss-Wright X-100][ref_vertipedia_x100] record it.
 
-Then the company's management changed and the new management declined to keep spending research funds on it. The two aircraft were offered to the Tri-Service vertical take-off and landing programme, hereafter VTOL, a joint Army, Navy and Air Force office, and the Air Force contracted for conversion of two prototypes to military standard under the Tri-Service Assault Transport programme. The changes were substantial and none of them were aerodynamic. Ejection seats, a rescue hoist, a mock refuelling probe, and a fuselage stretch for passenger access.
+Then the company's management changed and the new management declined to keep spending research funds on it. The two aircraft were offered to the Tri-Service vertical take-off and landing programme, hereafter VTOL, a joint Army, Navy and Air Force office, and the Air Force contracted for conversion of two prototypes to military standard under the Tri-Service Assault Transport programme. The changes were substantial and none of them were aerodynamic. They were ejection seats, a rescue hoist, a mock refuelling probe, and a fuselage stretch for passenger access.
 
 **The sequence is worth stating plainly because it is unusual.** A company proved a concept on a small demonstrator with its own money, lost interest, and sold the follow-on to a government that wanted a transport. The aircraft that resulted was heavier than the one the concept had been proven on and carried equipment the proof never involved.
 
@@ -493,7 +493,7 @@ $$\frac{P_{\text{ideal}}}{W} = v_i = \sqrt{\frac{1}{2\rho} \cdot \frac{W}{A}}$$
 
 $$\frac{W}{P_{\text{req}}} = \frac{13{,}660}{3{,}145} = 4.34 \ \text{lb/hp}$$
 
-Pitch control of the blades is the mechanism every axis depends on, and the blade forces that mechanism must overcome are treated in [Valentine and Kader 1976][research_valentine_kader_1976], with static thrust estimation in [COWARD 1955][research_coward_1955] and [Brusse and Cronk 1965][research_brusse_cronk_1965].
+Pitch control of the blades is the mechanism every axis depends on, and static thrust estimation is treated in [COWARD 1955][research_coward_1955] and [Brusse and Cronk 1965][research_brusse_cronk_1965].
 
 ## The Flight Test Record
 
@@ -509,7 +509,7 @@ $$\frac{645}{50} = 12.9 \ \text{days per flight}, \qquad \frac{4.0}{645/30.44} =
 
 A programme averaging eleven minutes of flight per calendar month is not a flight test programme in any ordinary sense.
 
-**The X-19 never transitioned.** The crew was lost before the transition could be attempted, so the aircraft never once demonstrated the capability the whole configuration existed to provide. Every number in the sizing section above describes an aircraft that did not fly the regime it was sized for.
+**The X-19 never transitioned.** The aircraft was lost before the transition could be attempted, so the aircraft never once demonstrated the capability the whole configuration existed to provide. Every number in the sizing section above describes an aircraft that did not fly the regime it was sized for.
 
 ### The Final Flight
 
@@ -617,9 +617,9 @@ The wide blade this article derives from a capped tip speed is a design problem 
 
 The X-19 was destroyed by a gearbox. The gearbox existed because two engines had to drive four propellers, which requires an interconnected transmission with a combining box, a cross-shaft and a reduction gearbox at every propeller. This article computes the torque that shaft carries and observes that the interconnection was not optional, since losing one side is 1.67 times full roll control.
 
-**Electric propulsion does not improve that transmission. It removes it.** Each rotor takes its own motor, there is no cross-shaft, there is no combining gearbox, and there is no propeller reduction box to fail. The literature reflects the change, in [Bai and Zhou 2024][research_bai_zhou_2024], [Lee et al 2024][research_lee_2024], [Lee and Yee 2024][research_lee_yee_2024], [Lee and Yee 2024, Novel Electric Propulsion System A][research_lee_yee_2024_2], [Li et al 2024, Research on Cogging Torque Reducti][research_li_2024_5], [Chen et al 2025][research_chen_2025], [Machado et al 2025][research_machado_2025], [Nguyen et al 2025, Comprehensive Modeling of Electric][research_nguyen_2025_2], [Ni and Lee 2025][research_ni_lee_2025], [Shang et al 2025][research_shang_2025], [Yu et al 2025][research_yu_2025], [Böhnisch et al 2026][research_bohnisch_2026], [Granata et al 2026][research_granata_2026], [Koshel et al 2026][research_koshel_2026].
+**Electric propulsion does not improve that transmission. It removes it.** Each rotor takes its own motor, there is no cross-shaft, there is no combining gearbox, and there is no propeller reduction box to fail. The literature reflects the change, in [Bai and Zhou 2024][research_bai_zhou_2024], [Lee et al 2024][research_lee_2024], [Lee and Yee 2024, Novel Electric Propulsion System A][research_lee_yee_2024_2], [Li et al 2024, Research on Cogging Torque Reducti][research_li_2024_5], [Chen et al 2025][research_chen_2025], [Machado et al 2025][research_machado_2025], [Nguyen et al 2025, Comprehensive Modeling of Electric][research_nguyen_2025_2], [Ni and Lee 2025][research_ni_lee_2025], [Shang et al 2025][research_shang_2025], [Yu et al 2025][research_yu_2025], [Böhnisch et al 2026][research_bohnisch_2026], [Granata et al 2026][research_granata_2026], [Koshel et al 2026][research_koshel_2026].
 
-**The cure that killed this aircraft is absent from the modern configuration rather than better engineered within it.** That is a different kind of progress from the one the X-18 article described, and it is worth naming the difference. A315's keystone was dissolved by a technology that made its central quantity irrelevant. A316's keystone survives untouched and its cause of death was designed out.
+**The cure that killed this aircraft is absent from the modern configuration rather than better engineered within it.** That is a different kind of progress from the one the X-18 article described, and it is worth naming the difference. The X-18 article's keystone was dissolved by a technology that made its central quantity irrelevant. The X-19 article's keystone survives untouched and its cause of death was designed out.
 
 ### Redundancy Replaced Mechanical Interconnection
 
@@ -635,7 +635,7 @@ The yaw authority this article finds an order of magnitude short would today be 
 
 ### Certification Is Where the Constraint Now Lives
 
-The largest single difference between the X-19's world and the present. A 1963 research aircraft needed to fly. A modern powered-lift aircraft needs to fly, to be certified against a category that had to be invented for it, and to operate in shared airspace, in [DUDZIAK et al 2020][research_dudziak_2020], [Feng 2022][research_feng_2022], [Schweiger and Preis 2022][research_schweiger_preis_2022], [Takacs and Haidegger 2022][research_takacs_haidegger_2022], [Zhou 2022][research_zhou_2022], [Kim et al 2023][research_kim_2023], [Park et al 2023][research_park_2023], [Dong et al 2024][research_dong_2024], [Zhang and Zhou 2024][research_zhang_zhou_2024], [Chen et al 2025, Model-free adaptive flow control o][research_chen_2025_2], [Farooqui 2025][research_farooqui_2025], [Lee and Ko 2025][research_lee_ko_2025], [Laplante et al 2026][research_laplante_2026], [Park 2026][research_park_2026].
+This is the largest single difference between the X-19's world and the present. A 1963 research aircraft needed to fly. A modern powered-lift aircraft needs to fly, to be certified against a category that had to be invented for it, and to operate in shared airspace, in [DUDZIAK et al 2020][research_dudziak_2020], [Feng 2022][research_feng_2022], [Schweiger and Preis 2022][research_schweiger_preis_2022], [Takacs and Haidegger 2022][research_takacs_haidegger_2022], [Zhou 2022][research_zhou_2022], [Kim et al 2023][research_kim_2023], [Park et al 2023][research_park_2023], [Dong et al 2024][research_dong_2024], [Zhang and Zhou 2024][research_zhang_zhou_2024], [Chen et al 2025, Model-free adaptive flow control o][research_chen_2025_2], [Farooqui 2025][research_farooqui_2025], [Lee and Ko 2025][research_lee_ko_2025], [Laplante et al 2026][research_laplante_2026], [Park 2026][research_park_2026].
 
 **The X-19 was destroyed by a gearbox and cancelled four months later.** Its descendants are more often delayed by a means-of-compliance document, and an article treating only the aerodynamics would miss where the difficulty now lies.
 
@@ -679,11 +679,11 @@ Three things, and the third is the one worth keeping.
 
 $$\alpha_d = i + \alpha \le 60^{\circ}$$
 
-**Five of the ten corridor rows above violate it**, reaching 89.5 degrees at the hover end, so the low-speed half of the corridor should be read as indicative rather than quantitative. This is the same discipline A312 applied when it found its own perfect-gas arithmetic valid to Mach 7.06 against an aircraft that flew at 6.70.
+**Five of the ten corridor rows above violate it**, reaching 89.5 degrees at the hover end, so the low-speed half of the corridor should be read as indicative rather than quantitative. This is the same discipline the X-15 article applied when it found its own perfect-gas arithmetic valid to Mach 7.06 against an aircraft that flew at 6.70.
 
 ## The Source Base
 
-The vehicle's own literature is thin and mostly encyclopaedic. The keystone's literature is the opposite, being deep, primary, and forty years older than the aircraft.
+The vehicle's own literature is thin and mostly encyclopaedic. The keystone's literature is the opposite, being deep, primary, and two decades older than the aircraft.
 
 That inversion is the defining feature here. [Ribner 1943][research_ribner_1943], [Ribner 1943, Formulas for propellers in yaw and][research_ribner_1943_2], [Ribner 1943, Proposal for a propeller side-forc][research_ribner_1943_3], [Ribner 1945][research_ribner_1945] and [Ribner 1945, Propellers in yaw][research_ribner_1945_2] are wartime and immediately post-war work on a stability nuisance, and they are the strongest citations in this article. The X-19 exists because someone read that literature and asked whether the nuisance could be a feature.
 
@@ -693,21 +693,21 @@ The tilt-wing and convertiplane design literature of the late 1950s is well popu
 
 ### The Shape of the Reference Base
 
-The coverage audit that preceded this pass found **both kinds of gap at once, in different topics**, which has not happened before in this series. A314's audit found a genuine shortage of material and A315's found a pool holding everything while the draft used only its earliest part. A316 has both, and they have opposite fixes.
+The coverage audit that preceded this pass found **both kinds of gap at once, in different topics**, which has not happened before in this series. The X-17 article's audit found a genuine shortage of material and the X-18 article's found a pool holding everything while the draft used only its earliest part. The X-19 article has both, and they have opposite fixes.
 
-**Five topics were genuinely thin because the draft harvest was never aimed at them, and all five carry relations the equation pass added.** High advance ratio propellers stood at seven records, blade loading and solidity at five, ejection systems at two, aircraft inertias at two, and drag at twelve with none cited. A targeted harvest took the first four to 29, 31, 25 and five. **That is the inter-pass dependency A315 identified, arriving on schedule rather than as a surprise.**
+**Five topics were genuinely thin because the draft harvest was never aimed at them, and all five carry relations the equation pass added.** They were high advance ratio propellers, blade loading and solidity, ejection systems, aircraft inertias, and drag, the last with none of its records cited. A targeted harvest enlarged the first four. **That is the inter-pass dependency the X-18 article identified, arriving on schedule rather than as a surprise.**
 
-**The remaining topics were deep and barely used, which no search would have fixed.** Transition held 268 records against 18 cited, the slipstream 96 against eight, the tandem wing 69 against six, control power 71 against four. Spreading the selection was the whole of the work there.
+**The remaining topics were deep and barely used, which no search would have fixed.** Transition, the slipstream, the tandem wing and control power each held many times more records than the draft cited. Spreading the selection was the whole of the work there.
 
-**Two references were removed after the sweep rather than added by it, and the reason is worth stating.** A propeller in oblique inflow is a live research subject in naval architecture, where it means a ship screw meeting the wake of a hull at an angle, and that literature uses the same words as this article. The first selection run returned eight candidates for the keystone topic and **all eight were marine**. Filtering on the journal rather than the title removed them, and one of them, a paper on the normal force of a rudder behind a controllable-pitch propeller, carries no marine word in its title at all.
+**Two references were removed after the sweep rather than added by it, and the reason is worth stating.** A propeller in oblique inflow is a live research subject in naval architecture, where it means a ship screw meeting the wake of a hull at an angle, and that literature uses the same words as this article. The first selection run returned several candidates for the keystone topic and **all of them were marine**. Filtering on the journal rather than the title removed them, and one of them, a paper on the normal force of a rudder behind a controllable-pitch propeller, carries no marine word in its title at all.
 
-**Two still got through, and both were caught by reading rather than by any rule.** A method for calculating the spindle torque of a controllable-pitch propeller is David Taylor Model Basin work on ship propellers, and a report on four-quadrant open-water characteristics concerns propeller 4739 designed for LSD-41, a dock landing ship. The second reached a section on vertical-flight handling qualities because the selection pattern for controllability matched the phrase controllable pitch. **Archive records carry no journal name, so the venue filter that caught the other eight could not see these two.**
+**Two still got through, and both were caught by reading rather than by any rule.** A method for calculating the spindle torque of a controllable-pitch propeller is David Taylor Model Basin work on ship propellers, and a report on four-quadrant open-water characteristics concerns propeller 4739 designed for LSD-41, a dock landing ship. The second reached a section on vertical-flight handling qualities because the selection pattern for controllability matched the phrase controllable pitch. **Archive records carry no journal name, so the venue filter that caught the others could not see these two.**
 
 **The contemporary sweep found the keystone's modern literature to be small, and that is a result rather than a gap.** Transition corridors return hundreds of recent papers and propeller normal force returns a handful. A quantity that is settled stops generating publications, so the thinness is evidence that Curtiss-Wright's aerodynamic claim is no longer contested.
 
-**One topic remains genuinely thin and is reported rather than padded.** Aircraft moments of inertia and radii of gyration returned five records after a targeted search, because mass-properties reports are working documents that archives rarely index. The three inertias in this article therefore rest on radii of gyration assumed as fractions of length and span, and that assumption is named in the Epistemic State rather than supported by citation.
+**One topic remains genuinely thin and is reported rather than padded.** Aircraft moments of inertia and radii of gyration returned only a handful of records after a targeted search, because mass-properties reports are working documents that archives rarely index. The three inertias in this article therefore rest on radii of gyration assumed as fractions of length and span, and that assumption is named in the Epistemic State rather than supported by citation.
 
-**The survey was re-read on 7 October 2026, and the rebuilt filter found two records that do not belong to it.** One is a biomechanics essay on redundancy and one concerns a road vehicle with a motor fault, and both reached the section on redundancy through that word. The filter removed neither, because both are cited in a sentence of this article rather than in a list, and that sentence was left for a hand edit. **Both were then removed by hand** from that sentence, which keeps its other sources, so the total falls from 399 to 397. A reading of 300 unflagged records found none off topic, which puts the contamination the screens miss near zero, and the two removed records were 0.5 percent of the base.
+**The survey was re-read on 7 October 2026, and the rebuilt filter found two records that do not belong to it.** One is a biomechanics essay on redundancy and one concerns a road vehicle with a motor fault, and both reached the section on redundancy through that word. The filter removed neither, because both are cited in a sentence of this article rather than in a list, and that sentence was left for a hand edit. **Both were then removed by hand** from that sentence, which keeps its other sources, so the total falls from 399 to 397. A reading of 300 unflagged records found none off topic, which put the contamination the screens missed near zero at that time, and the two removed records were 0.5 percent of the base. **A second reading on 8 October 2026 removed one more record.** It covered the 87 records that the first reading's log did not show as read and found none of them off topic and no registry test deposits. The record removed was one the first reading had kept as doubtful, a report on the unsteady bearing forces a propeller transmits to its shaft, which this article had cited for the blade forces a pitch-change mechanism must overcome. Its title does not support that claim, so the clause and the record were removed, and the total falls from 397 to 396. The 87-record sample found no contamination remaining, but a sample of that size cannot rule out a rate of a few percent. A check on 8 October 2026 for records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter removed one, a correction notice for a paper on electric propulsion analysis for vertical-takeoff aircraft, from a generated list that keeps the corrected paper itself, so the research total is now 395.
 
 ## Epistemic State
 
@@ -721,15 +721,15 @@ The coverage audit that preceded this pass found **both kinds of gap at once, in
 
 **A model inconsistency found and fixed rather than carried.** An earlier version of the calculation used a figure of merit of 0.70 in one place and a propeller efficiency of 0.80 in another for what the momentum model treats as a single quantity. The corridor is now reported across both values, and the low-speed boundaries are identical while the high-speed boundaries move by about 5 percent.
 
-**Two errors the equation review exposed, both in the drafted text.** The pitch-moment relation was displayed as $M = fT\ell$, which evaluates to twice the 15,467 foot-pounds quoted in the prose beside it. The quoted value was right and the displayed algebra carried a spurious factor of two, so the article contradicted itself in a way every automated check passed. The yaw inertia was transcribed as 100,565 slug feet squared against a computed 100,690, which left the acceleration built on it correct and the stated inertia wrong. **Writing the relation down has now caught a wrong claim in twelve consecutive articles in this series.** A third defect was introduced by the review itself, an unterminated display block that would have rendered as broken mathematics, and the style checker was extended to catch that class.
+**Two errors the equation review exposed, both in the drafted text.** The pitch-moment relation was displayed as $M = fT\ell$, which evaluates to twice the 15,467 foot-pounds quoted in the prose beside it. The quoted value was right and the displayed algebra carried a spurious factor of two, so the article contradicted itself in a way every automated check passed. The yaw inertia was transcribed as 100,565 slug feet squared against a computed 100,690, which left the acceleration built on it correct and the stated inertia wrong. **Writing the relation down caught a wrong claim here, as it has in earlier articles of this series.** A third defect was introduced by the review itself, an unterminated display block that would have rendered as broken mathematics, and the style checker was extended to catch that class.
 
-**A defect that no automated check would have caught.** The first corridor formulation solved the vertical equilibrium equation for thrust and then tested the same equation, which is satisfied identically at any speed down to zero. It returned 0.6 knots at every nacelle angle below 60 degrees. Nothing flagged it. It was caught by reading the output and finding it absurd, which is the same way A315's 454-knot crossover speed was caught.
+**A defect that no automated check would have caught.** The first corridor formulation solved the vertical equilibrium equation for thrust and then tested the same equation, which is satisfied identically at any speed down to zero. It returned 0.6 knots at every nacelle angle below 60 degrees. Nothing flagged it. It was caught by reading the output and finding it absurd, which is the same way the X-18 article's 454-knot crossover speed was caught.
 
 **A structural defect from the draft pass, found in the publication review.** The research-aircraft genre carries three sections beyond the standard twelve, and this article was drafted with only two. **The Contemporary Literature section was missing entirely** and every automated check passed the article, because sections were counted rather than identified. The section is now present and the checker now names the three it requires.
 
-**Three acronyms were used before being expanded**, namely NACA, NASA and the vertical take-off and landing abbreviation, the last used some thirty thousand characters before its expansion. All three are corrected.
+**Three acronyms were used before being expanded**, namely NACA, NASA and the vertical take-off and landing abbreviation, the last used long before its expansion. All three are corrected.
 
-**A false-positive family this article had to learn.** The naval architecture literature on propellers in oblique inflow uses this article's exact vocabulary, and it contaminated the keystone topic completely on the first pass. Eight candidates were removed by filtering on journal name and two more by reading. **No pattern over titles would have found the last two**, because archive records carry no journal and the titles contain no marine word.
+**A false-positive family this article had to learn.** The naval architecture literature on propellers in oblique inflow uses this article's exact vocabulary, and it contaminated the keystone topic completely on the first pass. Several candidates were removed by filtering on journal name and two more by reading. **No pattern over titles would have found the last two**, because archive records carry no journal and the titles contain no marine word.
 
 **Inference, not established.** That the wide blade was forced by hover at a capped tip speed rather than chosen for radial lift is an inference from the arithmetic, not a statement from any Curtiss-Wright document. That weak yaw control contributed to the recorded control system problems is a candidate explanation only, and the alternative that differential nacelle tilt supplied yaw authority is not excluded by anything here.
 
@@ -762,8 +762,8 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
 
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_miller_2001]: https://openlibrary.org/search?q=Miller+The+X+Planes+X-1+to+X-45
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_miller_2001]: https://openlibrary.org/works/OL7006680W
 
 ### Reference
 
@@ -1043,7 +1043,6 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Latham 1957][research_latham_1957]
 - [Lee and Kim 2026][research_lee_kim_2026]
 - [Lee and Ko 2025][research_lee_ko_2025]
-- [Lee and Yee 2024][research_lee_yee_2024]
 - [Lee and Yee 2024, Novel Electric Propulsion System A][research_lee_yee_2024_2]
 - [Lee et al 2024][research_lee_2024]
 - [Lee et al 2026][research_lee_2026]
@@ -1190,7 +1189,6 @@ The contemporary literature adds a final observation that changes the verdict on
 - [Townsend et al 1976][research_townsend_1976]
 - [Trenka 1967][research_trenka_1967]
 - [Vaicaitis 1980][research_vaicaitis_1980]
-- [Valentine and Kader 1976][research_valentine_kader_1976]
 - [Velkoff 1981][research_velkoff_1981]
 - [VIDAL et al 1960][research_vidal_1960]
 - [VOLLO and BRASSAW 1956][research_vollo_brassaw_1956]
@@ -1443,7 +1441,6 @@ The contemporary literature adds a final observation that changes the verdict on
 [research_lee_2026]: https://doi.org/10.1109/taes.2026.3714382
 [research_lee_kim_2026]: https://doi.org/10.1109/access.2026.3698794
 [research_lee_ko_2025]: https://doi.org/10.31818/jknst.2025.12.8.4.803
-[research_lee_yee_2024]: https://doi.org/10.2514/1.c037225.c1
 [research_lee_yee_2024_2]: https://doi.org/10.2514/1.c037225
 [research_leishman_1966]: https://doi.org/10.21236/ad0638632
 [research_leonard_iii_2001]: https://doi.org/10.21236/ada430859
@@ -1588,7 +1585,6 @@ The contemporary literature adds a final observation that changes the verdict on
 [research_townsend_1976]: https://ntrs.nasa.gov/citations/19760008977
 [research_trenka_1967]: https://doi.org/10.21236/ad0661087
 [research_vaicaitis_1980]: https://doi.org/10.2514/3.57877
-[research_valentine_kader_1976]: https://doi.org/10.21236/ada035756
 [research_velkoff_1981]: https://ntrs.nasa.gov/citations/19820010285
 [research_vidal_1960]: https://doi.org/10.21236/ad0246522
 [research_vollo_brassaw_1956]: https://doi.org/10.21236/ad0102193

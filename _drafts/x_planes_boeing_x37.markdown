@@ -219,7 +219,8 @@ continuous sunlight, during which its batteries are not cycled at all.
 
 **Whether it can reach it is fixed by the inclination and by nothing else.** The largest beta angle
 available at inclination $i$ is $i$ plus the Earth's obliquity of 23.44 degrees. For the first four
-missions, flown near 40 degrees, that ceiling is **63.44 degrees**, which is below the threshold.
+missions, numbered OTV-1 to OTV-4 in the programme's Orbital Test Vehicle designation and flown near 40
+degrees, that ceiling is **63.44 degrees**, which is below the threshold.
 
 | Mission group | Inclination | Largest reachable beta | Full-sun threshold | Verdict |
 |---|---|---|---|---|
@@ -2008,7 +2009,6 @@ which applies here to completed ones.
 - [A Stochastic Drag Model for Improved Uncertainty Realism of...][research_palmer_2024]
 - [An introductory review of swarm technology for spacecraft...][research_asri_zhu_2024]
 - [Concept of operations for increasingly autonomous space...][research_beard_2024]
-- [Correction A Stochastic Drag Model for Improved Uncertainty...][research_palmer_2024_b]
 - [Density-based in-orbit collision risk model valid for any...][research_giudici_gonzalo_2024]
 - [GEO satellite on-orbit refueling and debris removal hybrid...][research_liang_zhi_2024]
 - [Impulsive maneuver strategy for multi-agent orbital...][research_wang_zhang_2024]
@@ -2094,8 +2094,8 @@ measured a kilowatt.
 ### The Drag Area Is Assumed
 
 The ballistic coefficient of 500 kilograms per square metre rests on an assumed drag area of 8 square metres
-and an assumed on-orbit mass of 4,000 kilograms. **Neither is published.** The second table in the drag
-section shows the effect of nearly doubling the area, which roughly doubles every velocity increment, and
+and an assumed on-orbit mass of 4,000 kilograms. **Neither is published.** The makeup requirement in the drag
+section is linear in the drag area, so nearly doubling the area roughly doubles every velocity increment, and
 the qualitative conclusion survives that. **The altitude floor does not survive it unchanged**, and a reader
 should treat 254.4 kilometres as an order rather than a number.
 
@@ -2140,10 +2140,10 @@ it.
 
 ### The Vehicle's Own Cluster Is Thin, Which Is the Fifth Instance and the Fifth Reason
 
-**Seventeen records in a harvested pool of 13,351 carry the X-37 designation or the words orbital test vehicle, and fourteen survive into the cited base.**
-Twelve of the fourteen are dated between 2000 and 2005 and every one of those is a space agency document.
-**The remaining two are outside analyses**, an infrared observability study and a flow-field reconstruction,
-written by people with no access to the programme.
+**Seventeen records in a harvested pool of 13,351 carry the X-37 designation or the words orbital test vehicle, and fifteen survive into the cited base.**
+Twelve of the fifteen are space agency documents, eleven dated between 2000 and 2005 and one undated.
+**Two of the remaining three are outside analyses**, an infrared observability study and a flow-field reconstruction,
+written by people with no access to the programme, and the third is a 2015 news item announcing a launch.
 
 **The programme's own literature stops in 2005**, one year after the transfer to the defence research
 agency, and **not one record in the entire base describes a flown mission.** The vehicle has operated for
@@ -2151,11 +2151,11 @@ fifteen years and generated no citable engineering at all.
 
 | Article | Vehicle | Why its cluster is thin |
 |---|---|---|
-| A330 | X-33 | **Cancelled.** Sixty records, every one predating 2002 |
-| A331 | X-34 | **Cancelled.** The same shape, and two instances made it a pattern |
-| A332 | X-35 | **It won**, and contractor demonstrators flown for a source selection do not produce reports |
-| A333 | X-36 | **It produced a technique rather than a vehicle**, so its contribution is filed under the names of its methods |
-| A334 | X-37 | **It became classified.** It did not stop existing and it did not stop working. It stopped being publishable |
+| the X-33 article | X-33 | **Cancelled.** Sixty records, every one predating 2002 |
+| the X-34 article | X-34 | **Cancelled.** The same shape, and two instances made it a pattern |
+| the X-35 article | X-35 | **It won**, and contractor demonstrators flown for a source selection do not produce reports |
+| the X-36 article | X-36 | **It produced a technique rather than a vehicle**, so its contribution is filed under the names of its methods |
+| the X-37 article | X-37 | **It became classified.** It did not stop existing and it did not stop working. It stopped being publishable |
 
 **The five reasons are entirely distinct and the conclusion is not that thin clusters mean failure.** The
 X-37 is the most operationally successful vehicle in the last ten articles of this series and has the
@@ -2169,12 +2169,12 @@ Both are given.
 
 | Half | Count | Share of dated |
 |---|---|---|
-| Period, through 2011 | 2,793 | 55.7 percent |
-| Contemporary, 2012 onward | 2,222 | 44.3 percent |
+| Period, through 2011 | 2,775 | 55.6 percent |
+| Contemporary, 2012 onward | 2,215 | 44.4 percent |
 | Undated | 55 | |
-| **Total research records** | **5,070** | |
+| **Total research records** | **5,045** | |
 
-**The period count is 2,793 and the contemporary count is 2,222.** Both are given because a contemporary
+**The period count is 2,775 and the contemporary count is 2,215.** Both are given because a contemporary
 survey lowers the period **share** while leaving the period **count** untouched, and reporting the share
 alone reads as a regression when it is the directive working.
 
@@ -2184,12 +2184,14 @@ together, so the report share is the closest available proxy for how much of the
 
 | Measure | Count | Share |
 |---|---|---|
-| Technical reports, all eras | 1,086 | 21.4 percent |
-| Technical reports at or before 2011 | 893 | 17.6 percent |
-| Journal and conference records | 3,984 | 78.6 percent |
+| Technical reports, all eras | 1,086 | 21.5 percent |
+| Technical reports at or before 2011 | 893 | 17.7 percent |
+| Journal and conference records | 3,959 | 78.5 percent |
 
-A further **148** reference works are listed below, and they carry the relations that no journal article
+A further **140** reference works are listed below, and they carry the relations that no journal article
 states because every textbook does.
+The count is the number of entries in that list, and it fell from 148 to 140 on 8 October 2026, when eight
+books unrelated to the vehicle were removed.
 
 **The survey was rebuilt on 7 October 2026, after the counts first published with this article, and the rebuilt filter refused 475 records.**
 Every one of the 5,545 research titles was read against the subject it had been admitted under, and each
@@ -2214,17 +2216,29 @@ albedo and Earth infrared lost half its contemporary records. A reading of 300 u
 before the rebuild found 18 off topic, which put the contamination the screens missed near 6.0 percent, and
 the full reading that followed removed them.
 
+**A second sampling pass on 8 October 2026 refused one more record, and the total became 5,069.**
+A second seeded sample of 300 records, drawn from those neither flagged nor sampled before the rebuild, found
+1 off topic, an aerothermal analysis of a gas turbine disc cavity, and a sweep of the whole base for turbine,
+compressor and engine homonyms found no other. Every record in that sample had already been read once in the
+full reading, so the sample measures what that reading missed, 1 in 300 or 0.33 percent. It drove its own
+sweep, so it does not measure what remains after the sweep. The entry aerothermodynamics records then numbered
+181 and the contemporary half 2,221.
+**A further 24 records were removed on 8 October 2026 because they are notices about works and not works**, being 17 errata and correction notices, 1 retraction notice and 6 journal subject indexes, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the total from 5,069 to 5,045, the entry aerothermodynamics records to 179 and the contemporary half to 2,215, and the tables in this section give the present figures.
+
 ### Which Subjects Are Genuinely Thin, and Why Each One Is
 
 **The subjects a technical argument rests on are not the subjects its vocabulary names**, and the gap
 between the two is where a literature search fails. This article displays relations drawn from the second
-zonal harmonic, the solar aspect angle, the square-cube law and the energy state approximation. None of
-those four phrases appears anywhere in the article's own prose.
+zonal harmonic, the solar aspect angle, the square-cube law and the energy state approximation. Outside this
+section the article's prose names the first and third where it uses them and never names the other two.
 **A search built from what an article says will not find the literature the article depends on.**
 
 Measured against the list of subjects the arguments actually use,
-**twenty of thirty-seven are thin or absent in the source base assembled here.** Each is named below,
-because a bare count invites the reader to assume the worst explanation.
+**twenty of thirty-seven are thin or absent in the source base assembled here.** A subject counts as thin
+when fewer than twelve dated records match its search terms or either half holds fewer than five. Fourteen are
+named below, because a bare count invites the reader to assume the worst explanation. The other six, orbital
+decay, plane change, bank angle modulation, radiative equilibrium wall temperature, reusable tile protection
+and space-based solar power, meet the same count and are not classified here.
 
 **A subject can be thin for three reasons and a count cannot tell them apart.** Naming which applies is the
 whole of the work.
@@ -2261,11 +2275,12 @@ subject list falls into it.
 | Kepler and the orbital period | 1 | 2 | **Settled**, and the relation is from 1619 |
 | Energy height | 3 | 0 | **Settled.** The method is named after a 1954 paper and is textbook thereafter |
 | The beta angle, period half | 0 | 1 | **Thin heading, and no rephrasing cured it.** The period documented the same geometry inside thermal design reports that name neither the angle nor its modern synonyms |
-| Aerobraking corridor control | 1 | 0 | **Thin heading.** The subject is covered at 191 records under aerobraking, periapsis management and density reconstruction |
+| Aerobraking corridor control | 1 | 0 | **Thin heading.** The subject is covered by 237 dated records whose title or venue names aerobraking, aerocapture or aeroassist |
 | Stagnation heating, contemporary half | 74 | 0 | **Thin heading.** Modern work computes the same quantity and does not cite the correlations by name |
 | Manoeuvre detection, period half | 0 | 20 | **Genuinely modern.** The capability to detect a manoeuvre from the ground is recent |
-| Debris disposal, period half | 4 | 65 | **Genuinely modern.** Disposal became an obligation in this century, having been a courtesy before it |
-| **The X-37 itself, contemporary half** | 11 | 2 | **Classification**, which is this article's subject |
+| Debris disposal, period half | 4 | 63 | **Genuinely modern.** Disposal became an obligation in this century, having been a courtesy before it |
+| Albedo and Earth infrared, contemporary half | 15 | 4 | **Thinned by the 7 October 2026 rebuild.** Four of its eight contemporary records measured the albedo of Mars and were refused as off topic |
+| **The X-37 itself, contemporary half** | 12 | 3 | **Classification**, which is this article's subject |
 
 **The last row is the article rather than a footnote to it.** Every other thin subject here has an ordinary
 explanation. The vehicle's own is the only one whose cause is that somebody decided the work should not be
@@ -2294,16 +2309,12 @@ The article computes bounds precisely because none of these exists.
 - [Hypersonic and High Temperature Gas Dynamics][book_hypersonic_and]
 - [Introduction to space dynamics][book_williamtyrrellthomson]
 - [methods of orbit determination][book_methods_of]
-- [Roman art][book_franzwickhoff_1900]
 - [A short method of determining orbits from three observations][book_arminottoleuschner_1902]
-- [Advanced Algebra School Mathematics Project][book_senk_1920]
 - [Rocket propulsion elements][book_georgepaulsutton_1949]
 - [Fundamentals of astrodynamics][book_robertmlbaker_1959]
 - [Méthode numérique de calcul des perturbations générales][book_jeankovalevsky_1959]
 - [Introduction to space dynamics][book_williamtyrrellthomson_1961]
 - [Methods of orbit determination][book_pedroramonescobal_1965]
-- [Introduction to operations research][book_frederickshillier_1967]
-- [First-year calculus][book_einarhille_1968]
 - [Thermal radiation heat transfer][book_siegelrobert_1968]
 - [A numerical evaluation of preliminary orbit determination...][book_williamfhuseonica_1970]
 - [Fundamentals of astrodynamics][book_rogerrbate_1971]
@@ -2329,7 +2340,6 @@ The article computes bounds precisely because none of these exists.
 - [NASA/DoD aerospace knowledge diffusion research project][book_thomasepinelli_1990]
 - [Nonequilibrium hypersonic aerothermodynamics][book_chulpark_1990]
 - [Physics for scientists and engineers][book_paulatipler_genemosca_1990]
-- [Uranus][book_ellisdminer_1990]
 - [Methods of orbit determination for the microcomputer][book_danlboulet_1991]
 - [Space mission analysis and design][book_jamesrwertz_wileyjlarson_1991]
 - [Spacecraft systems engineering][book_peterwfortescue_1991]
@@ -2377,7 +2387,6 @@ The article computes bounds precisely because none of these exists.
 - [Transistor circuits for spacecraft power system][book_kengcwu_2002]
 - [Spacecraft systems engineering][book_johnstark_grahamswinerd_2003]
 - [Spacecraft thermal control handbook][book_spacecraft_thermal_2003]
-- [Winsor McCay][book_winsormccay_2003]
 - [Basics Of Aerothermodynamics][book_ernstheinrichhirschel_2004]
 - [Spacecraft Power Systems][book_mukundrpatel_2004]
 - [Hypersonics Before the Shuttle][book_dennisrjenkins_nationalaeronauticsandspaceadministr_2005]
@@ -2390,7 +2399,6 @@ The article computes bounds precisely because none of these exists.
 - [Handbook of Battery Materials][book_jobesenhard_2007]
 - [Hypersonics Before the Shuttle a Concise History of the X-15...][book_dennisjenkins_2008]
 - [Rocket Propulsion Elements][book_georgepsutton_oscarbiblarz_2008]
-- [Eloquent Javascript][book_marijnhaverbeke_2009]
 - [Facing the Heat Barrier A History of Hypersonics The Nasa...][book_taheppenheimer_2009]
 - [Orbital Mechanics for Engineering Students][book_howardcurtis_2009]
 - [Bomb power][book_garrywills_2010]
@@ -2414,7 +2422,6 @@ The article computes bounds precisely because none of these exists.
 - [Facing the Heat Barrier][book_taheppenheimer_2013]
 - [Fundamentals of Astrodynamics and Applications, 4th ed][book_davidavallado_jameswertz_2013]
 - [Hypersonics Before the Shuttle][book_administrationnationalaeronauticsandspacejenkinsdennisr_2013]
-- [Introduction to C Programming][book_reemathareja_2013]
 - [Nanomaterials for Lithium-Ion Batteries][book_rachidyazami_2013]
 - [Orbital Mechanics For Engineering Students][book_howardcurtis_2013]
 - [Fundamentals and Applications of Lithium-Ion Batteries in...][book_jiuchunjiang_caipingzhang_2015]
@@ -2656,17 +2663,11 @@ The article computes bounds precisely because none of these exists.
 - [Analog sensitivity design of Saturn V launch vehicle][research_rillings_roy_1970]
 - [Nonlinear analysis of a launch vehicle attitude control system][research_seltzer_1970]
 - [Reduction of Launch Vehicle Injection Errors by Trajectory...][research_rosenbaum_1971]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1972]
-- [Launch Vehicle and Missile Lv/M Technology Subject Index][research_launch_vehicle_1973]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1973]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE LV/M TECHNOLOGY][research_subject_index_1974]
 - [Determination of optimal trajectory under design constraints...][research_shrivastava_reddy_1976]
 - [Launch vehicle trajectory optimization including rotational...][research_adimurthy_1976]
 - [Firing-tests of a model of the Ariane launch vehicle][research_dordain_1977]
 - [Launch, A Computer Code for Determining Launch Vehicle...][research_thornton_1977]
 - [Trajectory optimization for the Atlas/Centaur launch vehicle][research_brusch_1977]
-- [Subject Index Launch Vehicle and Missile Lv/M Technology][research_subject_index_1978]
-- [Subject Index Launch Vehicle and Missile Lv/M Technology][research_subject_index_1979]
 - [Large Delta Wings for Earth-to-Orbit Transports][research_macconochie_lemessurier_1980]
 - [The second stage propulsion system for N-launch vehicle][research_kayama_takenaka_1980]
 - [Optimal air-breathing launch vehicle design][research_hattis_1981]
@@ -2694,7 +2695,6 @@ The article computes bounds precisely because none of these exists.
 - [Development status of Japan's new launch vehicle H-II rocket][research_miyazawa_fukushima_1991]
 - [The Delta II launch vehicle][research_meyers_1991]
 - [ATLAS Mission Planner's Guide for the ATLAS Launch Vehicle...][research_generaldynamicscorpsandiegoca_1992]
-- [Errata Finite Element Method for Optimal Guidance of an...][research_hodges_calise_1992]
 - [Finite element method for optimal guidance of an advanced...][research_hodges_bless_1992]
 - [Information systems applied to launch vehicle processing][research_portanova_aaron_1992]
 - [The Aquila launch vehicle][research_flittie_estey_1992]
@@ -2908,7 +2908,6 @@ The article computes bounds precisely because none of these exists.
 - [Relativistic effects for near-earth satellite orbit...][research_huang_ries_1990]
 - [Comparison of TOPEX/Poseidon orbit determination solutions...][research_dollc_mistrettag_1993]
 - [Parallelization of the Naval Space Surveillance Satellite...][research_phipps_warrene_1993]
-- [Erratum-Modeling Radiation Forces Acting on Topex/Poseidon...][research_marshall_luthcke_1994_b]
 - [Improved solution accuracy for TDRSS-based TOPEX/Poseidon...][research_dollce_mistrettagd_1994]
 - [Introduction of empirical parameters deduced from the Hill's...][research_cretaux_nouel_1994]
 - [Modeling radiation forces acting on Topex/Poseidon for...][research_marshall_luthcke_1994]
@@ -2987,7 +2986,6 @@ The article computes bounds precisely because none of these exists.
 - [The Energetic Radiation Environment in a Highly Elliptical...][research_blake_1992]
 - [Thermal distortion analysis of an antenna-support truss in...][research_farmer_wahls_1992]
 - [Determining Mars parking orbits that ensure tangential...][research_desai_buglia_1993]
-- [Errata-Low Earth Orbit Simulation and Materials...][research_synowicki_hale_1993]
 - [Evaluation of geostationary orbit determination accuracy by...][research_cot_1993]
 - [Status of the Air Force nickel hydrogen low earth orbit life...][research_house_hill_1993]
 - [Effects of 69 months in low Earth orbit on Kapton antenna...][research_whiteside_kamykowski_1994]
@@ -3359,7 +3357,6 @@ The article computes bounds precisely because none of these exists.
 - [The Interaction of a Hypersonic Plume with an External...][research_kelly_1973]
 - [Research on Hypersonic Stability Problems][research_walchner_1974]
 - [Aerodynamic characteristics of the planetary atmosphere...][research_sammonds_kruse_1975]
-- [Errata-Low Reynolds Number Effect on Hypersonic Lifting...][research_adams_1975_b]
 - [Results of investigations on the 0.004-scale model 74-0 of...][research_nicholsme_1975]
 - [Terminal area energy management regime investigations...][research_hawthornepj_1976]
 - [The radiation field of a hypersonic nozzle flow][research_logan_stalker_1977]
@@ -3388,7 +3385,6 @@ The article computes bounds precisely because none of these exists.
 - [Stability of Boundary Layers at High Supersonic and...][research_herbert_1992]
 - [A hypersonic vehicle approach to planetary exploration][research_murbachmarcuss_1993]
 - [Book Review Computational Methods in Hypersonic Aerodynamics][research_candler_1993]
-- [Errata Review of Computational Methods in Hypersonic...][research_candler_1993_b]
 - [Experimental aerodynamic characteristics of a generic...][research_walkeriraj_covellpeterf_1993]
 - [Modern gas-dynamic models in problems of super-and hypersonic...][research_tirskii_1993]
 - [266 On ascent guidance of hypersonic vehicle][research_266_on_1994]
@@ -4032,7 +4028,6 @@ The article computes bounds precisely because none of these exists.
 - [Temperature field of radiative equilibrium in a...][research_huang_xia_2002]
 - [Thermal Analysis and Design Optimization of Multilayer...][research_daryabeigi_2002]
 - [Approach for Combining Spacecraft Attitude and Thermal...][research_varatharajoo_kahle_2003]
-- [Corrigendum to "Temperature field of radiative equilibrium in...][research_huang_xia_2003]
 - [NASA thermal control technologies for robotic spacecraft][research_swanson_birur_2003]
 - [Thermal Design for Satellite Propulsion System by Thermal...][research_thermal_design_2003]
 - [A comparative analysis of loop heat pipe based thermal...][research_paukenmike_birurgaj_2004]
@@ -4183,7 +4178,6 @@ The article computes bounds precisely because none of these exists.
 - [Multijunction Solar Cell Development and Production at...][research_fetzerchris_kingrr_2007]
 - [Photovoltaic power generation using albedo and thermal...][research_girish_aranya_2007]
 - [Analysis of the UNISAT-3 Solar Array In-Orbit Performance][research_santoni_piergentili_2008]
-- [Erratum on "Analysis of the UNISAT-3 Solar Array In-Orbit...][research_santoni_piergentili_2008_b]
 - [Solar Array Plasma Interaction Influence of Interconnect...][research_likar_bogorad_2008]
 - [Electrochromic emissivity modulator for spacecraft thermal...][research_demiryont_moorehead_2009]
 - [Electrostatic Discharge Test on Cu In, Ga Se2 Solar Cell Array][research_okumura_toyoda_2009]
@@ -4316,7 +4310,6 @@ The article computes bounds precisely because none of these exists.
 - [Reconstruction of travelling ionospheric disturbances...][research_terekhov_1992]
 - [Solar F10.7 radiation - A short-term statistical model][research_vedder_tabor_1992]
 - [Solar cycle dependence of spacecraft charging in low Earth...][research_frooninckx_sojka_1992]
-- [Errata Refinements in Determining Satellite Drag Coefficients...][research_moe_wallace_1993_b]
 - [Refinements in determining satellite drag coefficients...][research_moe_wallace_1993]
 - [Change in the radiative output of the Sun in 1992 and its...][research_whiteor_rottmangj_1994]
 - [Ionospheric tomography its limitations and reconstruction...][research_raymond_franke_1994]
@@ -4440,7 +4433,6 @@ The article computes bounds precisely because none of these exists.
 - [Determination of thermal radiation incident upon the surfaces...][research_determination_of_1960]
 - [Earth Satellite Observations and the Upper Atmosphere Diurnal...][research_priester_martin_1960]
 - [Effect of precession and nutation on the orbital elements of...][research_kozai_1960]
-- [Erratum United States Satellite Launched into Orbit around Sun][research_erratum_united_1960]
 - [On Mr King-Hele's Theory of the Effect of the Earth's...][research_message_1960]
 - [Optimum Orbital Transfer by Impulses][research_ting_1960]
 - [Properties of the Upper Atmosphere. Rocketsonde and Satellite...][research_sciencecommunicationincmcleanva_1960]
@@ -4485,7 +4477,6 @@ The article computes bounds precisely because none of these exists.
 - [Comment on "Orbit Decay Characteristics Due to Drag"][research_wu_1963]
 - [Derivation of Nodal Period of an Earth Satellite and...][research_kalil_martikan_1963]
 - [Entry into elliptic orbits round the moon][research_hiller_1963]
-- [Errata and Addendum "A Second-Order Theory of Entry Mechanics...][research_loh_1963]
 - [Helium in the upper atmosphere][research_shefov_1963]
 - [Hydroxyl emission in the upper atmosphere][research_krassovsky_1963]
 - [Orbital Transfer in Minimum Time][research_bleick_1963]
@@ -4591,7 +4582,6 @@ The article computes bounds precisely because none of these exists.
 - [Minimum Fuel Continuous Low Thrust Orbital Transfer][research_smith_1974]
 - [Venus Orbital Radar Mapping in the 1980s - Mission Design and...][research_asnin_1974]
 - [Bounds for the Solar Scatter Angle Observed from Earth Orbit][research_bounds_for_1975]
-- [Correction to "Application of the Conjugate Gradient Method...][research_correction_to_1975]
 - [Design for a Venus Orbital Imaging Radar Mission][research_rose_friedman_1975]
 - [Development and Fabrication of a Space Hardened Nd 3+ YAG...][research_wargo_1975]
 - [Dynamics of the Space Shuttle during Entry into Earth's...][research_ramnath_sinha_1975]
@@ -4866,7 +4856,6 @@ The article computes bounds precisely because none of these exists.
 - [Applying Rule Markup Language in the Military Space Domain][research_stoutenburg_2003]
 - [Compilation of wind data for the Upper Atmosphere Research...][research_swinbank_ortland_2003]
 - [Control-Theoretic Analysis of Low-Thrust Orbital Transfer...][research_gurfil_2003]
-- [Correction to the paper "Analytical Solutions for Averaged...][research_correction_to_2003]
 - [Decay of satellite orbits using K-S elements in an oblate...][research_nair_sharma_2003]
 - [Forecast E for Improved Low-Earth-Orbit Satellite Operations][research_tobiska_2003]
 - [Information Support for a Low-Orbit Spacecraft Using...][research_tkachenko_2003]
@@ -5488,7 +5477,6 @@ The article computes bounds precisely because none of these exists.
 - [Low earth orbit satellite short-term orbit prediction using...][research_yang_zheng_2026]
 - [Low-Thrust Propulsion and Drift Orbit Optimization for...][research_apa_hudson_2026]
 - [On-orbit refueling robust mission scheduling with uncertain...][research_yin_li_2026]
-- [Retraction Lifecycle assessment of carbon emissions from low...][research_retraction_lifecycle_2026]
 - [Retrieval of orbital maneuver information of Starlink...][research_liu_yuan_2026]
 - [Stabilization of Low Earth Orbit Satellite Attitude Control...][research_stabilization_of_2026]
 
@@ -5634,7 +5622,6 @@ The article computes bounds precisely because none of these exists.
 - [Effects of roughness on a turbulent boundary layer in...][research_williams_sahoo_2021]
 - [Electron heating and cooling in hypersonic flows][research_parent_2021]
 - [Shock interaction induced heat flux augmentation in...][research_gulhan_willems_2021]
-- [Erratum "Electron heating and cooling in hypersonic flows"...][research_parent_2022]
 - [Experimental Investigation of a Roughness Element Wake on a...][research_han_he_2022]
 - [Internal energy balance and aerodynamic heating predictions...][research_barone_nicholson_2022]
 - [Lift Augmentation at Subsonic Speeds by Lateral Jets for a...][research_wang_liu_2022]
@@ -5702,16 +5689,13 @@ The article computes bounds precisely because none of these exists.
 - [Aerothermodynamics of Combined Spike and Counterflow Jet...][research_dharmesh_kumar_2023]
 - [Aerothermodynamic analysis of Neptune ballistic entry and...][research_coelho_linodasilva_2023]
 - [Analysis of Mars 2020 Entry Vehicle Aerothermal Flight Data][research_edquist_west_2023]
-- [Erratum to "Aerothermodynamic analysis of Neptune ballistic...][research_coelho_linodasilva_2023_b]
 - [Non-equilibrium modeling on the aerothermodynamic...][research_he_sun_2023]
 - [Novel Engineering Methodology for Decoupled Aerothermal...][research_cooper_martin_2023]
 - [Aerothermal characterization of the CALLISTO vehicle during...][research_ecker_ertl_2024]
-- [An optimized time-adaptive aerothermal coupling calculation...][research_bi_mao_2024]
 - [Influence of magnetohydrodynamics configuration on...][research_sharma_giangaspero_2024]
 - [Real Gas Effects on Receptivity to Roughness in Hypersonic...][research_yin_lu_2024]
 - [Aerothermodynamic Sensitivity Analysis and Optimization of...][research_horing_maute_2025]
 - [Comparison of models for aerothermal load prediction using...][research_franze_barz_2025_b]
-- [Correction Comparison of models for aerothermal load...][research_franze_barz_2025]
 - [Electrodynamic Plasma System for Active Space Debris...][research_karimov_buyanov_2025]
 - [Investigation of shock structure and aerothermodynamics of...][research_g_g_2025]
 - [Numerical Analysis of the Influence of Material Catalytic...][research_shi_wang_2025_b]
@@ -5791,7 +5775,6 @@ The article computes bounds precisely because none of these exists.
 - [A hybrid particle swarm optimization-gauss pseudo method for...][research_wu_deng_2021]
 - [Aerodynamic/reaction-jet compound control of hypersonic...][research_shou_xu_2021]
 - [Analysis of Propellant Weight under Re-Entry Conditions for a...][research_kim_lee_2021]
-- [Correction to A hybrid parallel Harris hawks optimization...][research_su_dai_2021_c]
 - [Development of a Software for Re-Entry Prediction of Space...][research_choi_2021]
 - [Hybrid multi-objective control allocation strategy for...][research_zhang_mu_2021]
 - [Kinetic comparative study on aerodynamic characteristics of...][research_li_jiang_2021]
@@ -6696,8 +6679,8 @@ budget being small at the altitudes flown. That heat rejection binds more tightl
 an inference from two bounds whose ranges overlap at the low end. That the aerobraking campaign required a
 perigee near 100 kilometres is an inference from a walk-down calculation using an assumed ballistic
 coefficient. That the programme's documentary silence is caused by classification rather than by inactivity
-is an inference from the pattern of the fourteen records that do exist, all of which predate the transfer to
-the defence research agency.
+is an inference from the pattern of the programme's own twelve records, which stop in 2005, the year after the
+transfer to the defence research agency.
 
 ### What the Record Does Not Settle
 
@@ -6747,7 +6730,7 @@ turnaround that the record mission conceals.
 
 **The third answer is about the record itself, and it is uncomfortable.** This is the most successful
 vehicle in the last ten articles of this series and it has left the thinnest documentary trace of any of
-them. Fourteen records in a base of 5,070, none describing a flown mission, and the programme's own
+them. Fifteen records in a base of 5,045, none describing a flown mission, and the programme's own
 publications stop in 2005 while the vehicle went on flying for twenty years after that.
 **Four previous articles found a thin cluster for four different reasons, all of which were forms of the programme ending. This one is thin because the programme succeeded and was classified.**
 
@@ -6787,16 +6770,12 @@ summary of what classification achieves and what it costs.
 - [Dennis R. Jenkins 2001][book_dennisrjenkins_2001]
 - [Dennis R. Jenkins and National Aeronautics And Space Administr 2005][book_dennisrjenkins_nationalaeronauticsandspaceadministr_2005]
 - [Earl H. Dudgeon 1994][book_earlhdudgeon_1994]
-- [Einar Hille 1968][book_einarhille_1968]
-- [Ellis D. Miner 1990][book_ellisdminer_1990]
 - [Ernst Heinrich Hirschel 2004][book_ernstheinrichhirschel_2004]
 - [European Space Research and Technology Centre. Thermal Control and Life Support Division et al 1989][book_europeanspaceresearchandtechnologycentrethermalcontrollifesupportdivision_europeanspaceagency_1989]
 - [Experimental Aerothermodynamic Research of Hypersonic Aircraft 2018][book_experimental_aerothermodynamic_2018]
 - [F. Landis Landis Markley and John L. Crassidis 2016][book_flandislandismarkley_johnlcrassidis_2016]
 - [Frank J. Regan 1984][book_frankjregan_1984]
 - [Frank J. Regan 1993][book_frankjregan_1993]
-- [Franz Wickhoff 1900][book_franzwickhoff_1900]
-- [Frederick S. Hillier 1967][book_frederickshillier_1967]
 - [Garry Wills 2010][book_garrywills_2010]
 - [George P. Sutton and Oscar Biblarz 2008][book_georgepsutton_oscarbiblarz_2008]
 - [George P. Sutton and Oscar Biblarz 2017][book_georgepsutton_oscarbiblarz_2017]
@@ -6849,7 +6828,6 @@ summary of what classification achieves and what it costs.
 - [Kirby W. Beard 2019][book_kirbywbeard_2019]
 - [Lei Zhang et al 2018][book_leizhang_davidpwilkinson_2018]
 - [Leonardo de Olivé Ferreira 1995][book_leonardodeoliveferreira_1995]
-- [Marijn Haverbeke 2009][book_marijnhaverbeke_2009]
 - [methods of orbit determination][book_methods_of]
 - [Michael Paluszek 2023][book_michaelpaluszek_2023]
 - [Mukund R. Patel 2004][book_mukundrpatel_2004]
@@ -6869,7 +6847,6 @@ summary of what classification achieves and what it costs.
 - [Progressive Management 2012][book_progressivemanagement_2012]
 - [Qi Chen et al 2020][book_qichen_zhigangliu_2020]
 - [Rachid Yazami 2013][book_rachidyazami_2013]
-- [Reema Thareja 2013][book_reemathareja_2013]
 - [Richard Alexander Otto 2017][book_richardalexanderotto_2017]
 - [Richard V. Damms 2015][book_richardvdamms_2015]
 - [Robert M. L. Baker 1959][book_robertmlbaker_1959]
@@ -6880,7 +6857,6 @@ summary of what classification achieves and what it costs.
 - [Roger R. Bate 1971][book_rogerrbate_1971]
 - [Ronald Humble 1995][book_ronaldhumble_1995]
 - [Scott Horton 2015][book_scotthorton_2015]
-- [Senk 1920][book_senk_1920]
 - [Siegel, Robert 1968][book_siegelrobert_1968]
 - [Siegel, Robert 1972][book_siegelrobert_1972]
 - [Spacecraft thermal control handbook 2003][book_spacecraft_thermal_2003]
@@ -6904,7 +6880,6 @@ summary of what classification achieves and what it costs.
 - [William Tyrrell Thomson][book_williamtyrrellthomson]
 - [William Tyrrell Thomson 1961][book_williamtyrrellthomson_1961]
 - [William W. Saylor 2020][book_williamwsaylor_2020]
-- [Winsor McCay 2003][book_winsormccay_2003]
 - [World Spaceflight News and Dennis R. Jenkins 2018][book_worldspaceflightnews_dennisrjenkins_2018]
 - [World Spaceflight News et al 2017][book_worldspaceflightnews_charlessheldon_2017]
 - [World Spaceflight News et al 2017][book_worldspaceflightnews_charlessheldon_2017_b]
@@ -6934,18 +6909,14 @@ summary of what classification achieves and what it costs.
 [book_dennisrjenkins_1992]: https://openlibrary.org/works/OL813315W
 [book_dennisrjenkins_2000]: https://openlibrary.org/works/OL813290W
 [book_dennisrjenkins_2001]: https://openlibrary.org/works/OL813312W
-[book_dennisrjenkins_nationalaeronauticsandspaceadministr_2005]: https://openlibrary.org/works/OL8425282M
+[book_dennisrjenkins_nationalaeronauticsandspaceadministr_2005]: https://openlibrary.org/books/OL8425282M
 [book_earlhdudgeon_1994]: https://openlibrary.org/works/OL12875999W
-[book_einarhille_1968]: https://openlibrary.org/works/OL2617168W
-[book_ellisdminer_1990]: https://openlibrary.org/works/OL3356705W
 [book_ernstheinrichhirschel_2004]: https://openlibrary.org/works/OL8874089W
 [book_europeanspaceresearchandtechnologycentrethermalcontrollifesupportdivision_europeanspaceagency_1989]: https://openlibrary.org/works/OL42812597W
 [book_experimental_aerothermodynamic_2018]: https://openlibrary.org/works/OL40261030W
 [book_flandislandismarkley_johnlcrassidis_2016]: https://openlibrary.org/works/OL20681098W
 [book_frankjregan_1984]: https://openlibrary.org/works/OL4305680W
 [book_frankjregan_1993]: https://openlibrary.org/works/OL4305679W
-[book_franzwickhoff_1900]: https://openlibrary.org/works/OL7838292W
-[book_frederickshillier_1967]: https://openlibrary.org/works/OL3528088W
 [book_garrywills_2010]: https://openlibrary.org/works/OL15212256W
 [book_georgepaulsutton_1949]: https://openlibrary.org/works/OL4095814W
 [book_georgepaulsutton_2010]: https://openlibrary.org/works/OL15452452W
@@ -6955,7 +6926,7 @@ summary of what classification achieves and what it costs.
 [book_gordoncoates_1984]: https://openlibrary.org/works/OL2752750W
 [book_gordoncoates_1985]: https://openlibrary.org/works/OL16955216W
 [book_gordoncoates_1988]: https://openlibrary.org/works/OL2752748W
-[book_high_performance_parallel_1994]: https://openlibrary.org/works/OL15397158M
+[book_high_performance_parallel_1994]: https://openlibrary.org/books/OL15397158M
 [book_hjfincannon_1995]: https://openlibrary.org/works/OL11566407W
 [book_howardcurtis_2009]: https://openlibrary.org/works/OL25258577W
 [book_howardcurtis_2013]: https://openlibrary.org/works/OL17466264W
@@ -6998,8 +6969,7 @@ summary of what classification achieves and what it costs.
 [book_kirbywbeard_2019]: https://openlibrary.org/works/OL20521143W
 [book_leizhang_davidpwilkinson_2018]: https://openlibrary.org/works/OL21340491W
 [book_leonardodeoliveferreira_1995]: https://openlibrary.org/works/OL45565064W
-[book_marijnhaverbeke_2009]: https://openlibrary.org/works/OL15444205W
-[book_methods_of]: https://openlibrary.org/works/OL19167073M
+[book_methods_of]: https://openlibrary.org/books/OL19167073M
 [book_michaelpaluszek_2023]: https://openlibrary.org/works/OL26351323W
 [book_mukundrpatel_2004]: https://openlibrary.org/works/OL21435627W
 [book_nguyenxvinh_1980]: https://openlibrary.org/works/OL4092275W
@@ -7013,12 +6983,11 @@ summary of what classification achieves and what it costs.
 [book_peterwfortescue_1995]: https://openlibrary.org/works/OL19387783W
 [book_peterwfortescue_grahamswinerd_2011]: https://openlibrary.org/works/OL15933889W
 [book_philiphmelanson_2002]: https://openlibrary.org/works/OL3919289W
-[book_probabilistic_structural_1999]: https://openlibrary.org/works/OL15548014M
+[book_probabilistic_structural_1999]: https://openlibrary.org/books/OL15548014M
 [book_progressivemanagement_2011]: https://openlibrary.org/works/OL39864394W
 [book_progressivemanagement_2012]: https://openlibrary.org/works/OL39755394W
 [book_qichen_zhigangliu_2020]: https://openlibrary.org/works/OL22057821W
 [book_rachidyazami_2013]: https://openlibrary.org/works/OL25132612W
-[book_reemathareja_2013]: https://openlibrary.org/works/OL21090538W
 [book_richardalexanderotto_2017]: https://openlibrary.org/works/OL27800645W
 [book_richardvdamms_2015]: https://openlibrary.org/works/OL44748341W
 [book_robertmlbaker_1959]: https://openlibrary.org/works/OL13039798W
@@ -7029,7 +6998,6 @@ summary of what classification achieves and what it costs.
 [book_rogerrbate_1971]: https://openlibrary.org/works/OL7217951W
 [book_ronaldhumble_1995]: https://openlibrary.org/works/OL4635852W
 [book_scotthorton_2015]: https://openlibrary.org/works/OL19991315W
-[book_senk_1920]: https://openlibrary.org/works/OL8274522W
 [book_siegelrobert_1968]: https://openlibrary.org/works/OL4283615W
 [book_siegelrobert_1972]: https://openlibrary.org/works/OL4283614W
 [book_spacecraft_thermal_2003]: https://openlibrary.org/works/OL19903170W
@@ -7049,11 +7017,10 @@ summary of what classification achieves and what it costs.
 [book_williamfhuseonica_1970]: https://openlibrary.org/works/OL7190116W
 [book_williamlko_1986]: https://openlibrary.org/works/OL126627W
 [book_williamlko_1986_b]: https://openlibrary.org/works/OL11303405W
-[book_williamlko_1988]: https://openlibrary.org/works/OL15280875M
+[book_williamlko_1988]: https://openlibrary.org/books/OL15280875M
 [book_williamtyrrellthomson]: https://openlibrary.org/works/OL13456535W
 [book_williamtyrrellthomson_1961]: https://openlibrary.org/works/OL2690308W
 [book_williamwsaylor_2020]: https://openlibrary.org/works/OL25636524W
-[book_winsormccay_2003]: https://openlibrary.org/works/OL696097W
 [book_worldspaceflightnews_charlessheldon_2017]: https://openlibrary.org/works/OL29530326W
 [book_worldspaceflightnews_charlessheldon_2017_b]: https://openlibrary.org/works/OL29617781W
 [book_worldspaceflightnews_dennisrjenkins_2018]: https://openlibrary.org/works/OL29753196W
@@ -7254,7 +7221,6 @@ summary of what classification achieves and what it costs.
 - [Adamov et al 2014][research_adamov_puzyrev_2014]
 - [Adams 1969][research_adams_1969]
 - [Adams 1975][research_adams_1975]
-- [Adams 1975][research_adams_1975_b]
 - [Adams, L. R. and Hedgepeth, J. M. 1981][research_adamslr_hedgepethjm_1981]
 - [Adaptive In-Orbit Servicing of Altered Satellite Components, Adaptive gripper placement on altered components for servicing in-orbit satellites 2025][research_adaptive_in_orbit_2025]
 - [Adilov et al 2020][research_adilov_alexander_2020]
@@ -7560,7 +7526,6 @@ summary of what classification achieves and what it costs.
 - [Bhattacharya et al 2017][research_bhattacharya_kota_2017]
 - [Bhattad and Aneesha 2025][research_bhattad_aneesha_2025]
 - [Bhusal and Subbarao 2019][research_bhusal_subbarao_2019]
-- [Bi et al 2024][research_bi_mao_2024]
 - [Biamino et al 2008][research_biamino_liedtke_2008]
 - [Biamino et al 2010][research_biamino_antonini_2010]
 - [Bian et al 2018][research_bian_xu_2018]
@@ -7795,7 +7760,6 @@ summary of what classification achieves and what it costs.
 - [Campbell, Charles H. et al 2006][research_campbellcharlesh_andersonbrian_2006]
 - [Candan Kadem and Kadem 2026][research_candankadem_kadem_2026]
 - [Candler 1993][research_candler_1993]
-- [Candler 1993][research_candler_1993_b]
 - [Cang et al 2016][research_cang_xue_2016]
 - [Cano et al 2023][research_cano_pastor_2023]
 - [Cano et al 2025][research_cano_sanjurjorivo_2025]
@@ -8010,7 +7974,6 @@ summary of what classification achieves and what it costs.
 - [Cockrell, Charles E., Jr. et al 1996][research_cockrellcharlesejr_huebnerlawrenced_1996]
 - [Coder and Holzinger 2016][research_coder_holzinger_2016]
 - [Coelho and Lino da Silva 2023][research_coelho_linodasilva_2023]
-- [Coelho and Lino da Silva 2023][research_coelho_linodasilva_2023_b]
 - [Cognata, Thomas J. et al 2014][research_cognatathomasj_hartldarrenj_2014]
 - [Cognata, Thomas J. et al 2015][research_cognatathomasj_hardtldarren_2015]
 - [Cohen and Dalton 1996][research_cohen_dalton_1996]
@@ -8053,8 +8016,6 @@ summary of what classification achieves and what it costs.
 - [Cordes and Hertzfeld 1997][research_cordes_hertzfeld_1997]
 - [Corley 2005][research_corley_2005]
 - [Corneliussen 2014][research_corneliussen_2014]
-- [Correction to "Application of the Conjugate Gradient Method to a Problem on Minimum Time Orbit Transfer" 1975][research_correction_to_1975]
-- [Correction to the paper "Analytical Solutions for Averaged Equations of Optimal Orbit-to-orbit Transfer with a Thrust of Constant Magnitude in a Strong Gravity Field" "Journal of Automation and Information Sciences", 2002, No. 34(4) 2003][research_correction_to_2003]
 - [COSPAR International Reference Atmosphere: 0-120 km (1986) 1992][research_cospar_international_1992]
 - [Costello 2004][research_costello_2004]
 - [Cot 1993][research_cot_1993]
@@ -8379,7 +8340,6 @@ summary of what classification achieves and what it costs.
 - [Ericsson and Reding 1978][research_ericsson_reding_1978]
 - [Eriksson 2025][research_eriksson_2025]
 - [Ernst, D. M. 1979][research_ernstdm_1979]
-- [Erratum United States Satellite 1960][research_erratum_united_1960]
 - [Escobar et al 2016][research_escobar_diaz_2016]
 - [Esper, Jaime et al 2018][research_esperjaime_wudong_2018]
 - [Essay Military Space in 2004][research_essay_military_2004]
@@ -8511,7 +8471,6 @@ summary of what classification achieves and what it costs.
 - [Franciamore and Tumuklu 2026][research_franciamore_tumuklu_2026]
 - [Frankenthal 1964][research_frankenthal_1964]
 - [Franklin et al 1986][research_franklin_hynes_1986]
-- [Franze and Barz 2025][research_franze_barz_2025]
 - [Franze and Barz 2025][research_franze_barz_2025_b]
 - [Fredrick et al 2025][research_fredrick_hong_2025]
 - [Freeborn et al 2005][research_freeborn_kinnersley_2005]
@@ -8915,7 +8874,6 @@ summary of what classification achieves and what it costs.
 - [Ho et al 2020][research_ho_wang_2020]
 - [Hoang, Bao et al 2010][research_hoangbao_wongfrankie_2010]
 - [Hodges et al 1992][research_hodges_bless_1992]
-- [Hodges et al 1992][research_hodges_calise_1992]
 - [Hodot et al 2014][research_hodot_sartre_2014]
 - [Hoerber 2018][research_hoerber_2018]
 - [Hoffman, David J. and Scheiman, David A. 1997][research_hoffmandavidj_scheimandavida_1997]
@@ -8989,7 +8947,6 @@ summary of what classification achieves and what it costs.
 - [Huang and Yao 2020][research_huang_yao_2020]
 - [Huang et al 1990][research_huang_ries_1990]
 - [Huang et al 2002][research_huang_xia_2002]
-- [Huang et al 2003][research_huang_xia_2003]
 - [Huang et al 2009][research_huang_liu_2009]
 - [Huang et al 2009][research_huang_zhu_2009]
 - [Huang et al 2012][research_huang_hu_2012]
@@ -9561,7 +9518,6 @@ summary of what classification achieves and what it costs.
 - [Larson et al 1991][research_larson_pogorele_1991]
 - [Lass and Lorell 1961][research_lass_lorell_1961]
 - [Lassudrie-Duchesne et al 1986][research_lassudrieduchesne_fleury_1986]
-- [LAUNCH VEHICLE AND MISSILE (LV/M) TECHNOLOGY (SUBJECT INDEX) 1973][research_launch_vehicle_1973]
 - [Launch vehicle booster avionics 2000][research_launch_vehicle_2000]
 - [Launius 2013][research_launius_2013]
 - [Lawing, P. L. and Nystrom, D. M. 1980][research_lawingpl_nystromdm_1980]
@@ -9820,7 +9776,6 @@ summary of what classification achieves and what it costs.
 - [Logan and Stalker 1977][research_logan_stalker_1977]
 - [Logsdon and Williamson 1997][research_logsdon_williamson_1997]
 - [Loh 1962][research_loh_1962]
-- [Loh 1963][research_loh_1963]
 - [Lohar et al 1998][research_lohar_sherwani_1998]
 - [Lohmeyer et al 2018][research_lohmeyer_aniceto_2018]
 - [Lomas, James J. et al 2001][research_lomasjamesj_mitchelldanielw_2001]
@@ -9992,7 +9947,6 @@ summary of what classification achieves and what it costs.
 - [Marshall 1988][research_marshall_1988]
 - [Marshall and Breuch 1968][research_marshall_breuch_1968]
 - [Marshall and Luthcke 1994][research_marshall_luthcke_1994]
-- [Marshall and Luthcke 1994][research_marshall_luthcke_1994_b]
 - [Marshall et al 2021][research_marshall_sun_2021]
 - [Marshburn, J. P. and Mcintosh, R., Jr. 1978][research_marshburnjp_mcintoshrjr_1978]
 - [Martikan 1965][research_martikan_1965]
@@ -10185,7 +10139,6 @@ summary of what classification achieves and what it costs.
 - [Moe 1968][research_moe_1968]
 - [Moe et al 1976][research_moe_debra_1976]
 - [Moe et al 1993][research_moe_wallace_1993]
-- [Moe et al 1993][research_moe_wallace_1993_b]
 - [Moe et al 1998][research_moe_moe_1998]
 - [Mohamed and Rihan 2024][research_mohamed_rihan_2024]
 - [Mohammed et al 2010][research_mohammed_salleh_2010]
@@ -10463,7 +10416,6 @@ summary of what classification achieves and what it costs.
 - [Palanisamy et al 2020][research_palanisamy_parekh_2020_b]
 - [Pallix, Joan 1994][research_pallixjoan_1994]
 - [Palmer 2024][research_palmer_2024]
-- [Palmer 2024][research_palmer_2024_b]
 - [Palmer 2025][research_palmer_2025]
 - [Palmer et al 1997][research_palmer_henline_1997]
 - [Palmer et al 1999][research_palmer_kontinos_1999]
@@ -10490,7 +10442,6 @@ summary of what classification achieves and what it costs.
 - [Pardini et al 2006][research_pardini_tobiska_2006]
 - [Pardini et al 2012][research_pardini_moe_2012]
 - [Parent 2021][research_parent_2021]
-- [Parent 2022][research_parent_2022]
 - [Parent et al 2025][research_parent_rodriguezfuentes_2025]
 - [Parisi 2023][research_parisi_2023]
 - [Park 1983][research_park_1983]
@@ -10761,7 +10712,6 @@ summary of what classification achieves and what it costs.
 - [Reshotko 1987][research_reshotko_1987]
 - [Resnik 2006][research_resnik_2006]
 - [Restrepo, Carolina I. et al 2018][research_restrepocarolinai_sostaricronald_2018]
-- [Retraction Lifecycle assessment of 2026][research_retraction_lifecycle_2026]
 - [Reul et al 2014][research_reul_dupmeier_2014]
 - [Review on Techniques for Power Battery State of Health Estimation Driven by Big Data Methods 2023][research_review_on_2023]
 - [Reyes, Jacqueline A. et al 2019][research_reyesjacquelinea_ryanhoffmann_2019]
@@ -10906,7 +10856,6 @@ summary of what classification achieves and what it costs.
 - [Sanson et al 2017][research_sanson_villedieu_2017]
 - [Santhosh et al 2011][research_santhosh_nandakumar_2011]
 - [Santoni and Piergentili 2008][research_santoni_piergentili_2008]
-- [Santoni and Piergentili 2008][research_santoni_piergentili_2008_b]
 - [Santos et al 2012][research_santos_oliveira_2012]
 - [Santos et al 2021][research_santos_hosder_2021]
 - [Sapkota et al 2014][research_sapkota_fischer_2014]
@@ -11302,13 +11251,7 @@ summary of what classification achieves and what it costs.
 - [Su and Wang 2015][research_su_wang_2015]
 - [Su et al 2021][research_su_dai_2021]
 - [Su et al 2021][research_su_dai_2021_b]
-- [Su et al 2021][research_su_dai_2021_c]
 - [Su et al 2024][research_su_zhao_2024]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE (LV/M) TECHNOLOGY 1972][research_subject_index_1972]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE (LV/M) TECHNOLOGY 1973][research_subject_index_1973]
-- [Subject Index - LAUNCH VEHICLE AND MISSILE (LV/M) TECHNOLOGY 1974][research_subject_index_1974]
-- [SUBJECT INDEX LAUNCH VEHICLE 1978][research_subject_index_1978]
-- [SUBJECT INDEX LAUNCH VEHICLE 1979][research_subject_index_1979]
 - [Subramanian et al 2004][research_subramanian_sonney_2004]
 - [Sudarshan et al 2025][research_sudarshan_vajja_2025]
 - [Sugimoto and Van Der Ha 2012][research_sugimoto_vanderha_2012]
@@ -11376,7 +11319,6 @@ summary of what classification achieves and what it costs.
 - [Symposium on Reusable Surface 1973][research_symposium_on_1973]
 - [Symposium on Reusable Surface 1973][research_symposium_on_1973_b]
 - [Synder and Cross 1960][research_synder_cross_1960]
-- [Synowicki et al 1993][research_synowicki_hale_1993]
 - [Synowicki et al 1995][research_synowicki_hale_1995]
 - [Szalai et al 2005][research_szalai_chen_2005]
 - [T. C. Thomas et al 2021][research_tcthomas_sbluthcke_2021]
@@ -12324,7 +12266,6 @@ summary of what classification achieves and what it costs.
 [research_adamov_puzyrev_2014]: https://doi.org/10.1134/s0021894414050162
 [research_adams_1969]: https://doi.org/10.2514/3.5366
 [research_adams_1975]: https://doi.org/10.2514/3.27820
-[research_adams_1975_b]: https://doi.org/10.2514/3.56999
 [research_adamslr_hedgepethjm_1981]: https://ntrs.nasa.gov/citations/19820008619
 [research_adaptive_in_orbit_2025]: https://doi.org/10.30844/i4se.25.6.10
 [research_adilov_alexander_2020]: https://doi.org/10.1016/j.jsse.2020.07.016
@@ -12633,7 +12574,6 @@ summary of what classification achieves and what it costs.
 [research_bhattacharya_kota_2017]: https://doi.org/10.1002/aenm.201770092
 [research_bhattad_aneesha_2025]: https://doi.org/10.1007/s10973-025-14987-y
 [research_bhusal_subbarao_2019]: https://doi.org/10.1007/s40295-019-00176-1
-[research_bi_mao_2024]: https://doi.org/10.1016/j.cja.2024.06.017
 [research_biamino_antonini_2010]: https://doi.org/10.1016/j.jeurceramsoc.2010.01.040
 [research_biamino_liedtke_2008]: https://doi.org/10.1016/j.jeurceramsoc.2008.04.006
 [research_bian_sun_2026]: https://doi.org/10.2514/1.a36319
@@ -12865,7 +12805,6 @@ summary of what classification achieves and what it costs.
 [research_campbellcharlesh_andersonbrian_2006]: https://ntrs.nasa.gov/citations/20060020704
 [research_candankadem_kadem_2026]: https://doi.org/10.7717/peerj-cs.3497
 [research_candler_1993]: https://doi.org/10.2514/3.59985
-[research_candler_1993_b]: https://doi.org/10.2514/3.49026
 [research_cang_xue_2016]: https://doi.org/10.11728/cjss2016.02.188
 [research_cano_pastor_2023]: https://doi.org/10.1016/j.asr.2022.08.001
 [research_cano_sanjurjorivo_2025]: https://doi.org/10.1016/j.asr.2025.04.018
@@ -13082,7 +13021,6 @@ summary of what classification achieves and what it costs.
 [research_cockrellcharlesejr_huebnerlawrenced_1996]: https://ntrs.nasa.gov/citations/19960045290
 [research_coder_holzinger_2016]: https://doi.org/10.1016/j.actaastro.2016.07.008
 [research_coelho_linodasilva_2023]: https://doi.org/10.1016/j.asr.2022.12.024
-[research_coelho_linodasilva_2023_b]: https://doi.org/10.1016/j.asr.2023.03.037
 [research_cognatathomasj_hardtldarren_2015]: https://ntrs.nasa.gov/citations/20140017124
 [research_cognatathomasj_hartldarrenj_2014]: https://ntrs.nasa.gov/citations/20140006701
 [research_cohen_dalton_1996]: https://doi.org/10.2514/3.24118
@@ -13125,8 +13063,6 @@ summary of what classification achieves and what it costs.
 [research_cordes_hertzfeld_1997]: https://doi.org/10.1016/s0265-9646(97)00006-4
 [research_corley_2005]: https://doi.org/10.21236/ada463405
 [research_corneliussen_2014]: https://doi.org/10.1063/pt.5.8033
-[research_correction_to_1975]: https://doi.org/10.1109/taes.1975.308145
-[research_correction_to_2003]: https://doi.org/10.1615/jautomatinfscien.v35.i4.80
 [research_cospar_international_1992]: https://doi.org/10.1016/0032-0633(92)90206-4
 [research_costello_2004]: https://doi.org/10.21236/ada423321
 [research_cot_1993]: https://doi.org/10.1007/bf03655308
@@ -13450,7 +13386,6 @@ summary of what classification achieves and what it costs.
 [research_ericsson_reding_1978]: https://doi.org/10.2514/3.28006
 [research_eriksson_2025]: https://doi.org/10.1016/j.spacepol.2025.101691
 [research_ernstdm_1979]: https://ntrs.nasa.gov/citations/19790067972
-[research_erratum_united_1960]: https://doi.org/10.1126/science.131.3408.1200-b
 [research_escobar_diaz_2016]: https://doi.org/10.1016/j.applthermaleng.2016.03.024
 [research_esperjaime_wudong_2018]: https://ntrs.nasa.gov/citations/20180005634
 [research_essay_military_2004]: https://doi.org/10.1080/725292358
@@ -13582,7 +13517,6 @@ summary of what classification achieves and what it costs.
 [research_franciamore_tumuklu_2026]: https://doi.org/10.2514/1.j065579
 [research_frankenthal_1964]: https://doi.org/10.21236/ad0610257
 [research_franklin_hynes_1986]: https://doi.org/10.2514/3.20146
-[research_franze_barz_2025]: https://doi.org/10.1007/s12567-025-00610-1
 [research_franze_barz_2025_b]: https://doi.org/10.1007/s12567-024-00588-2
 [research_fredrick_hong_2025]: https://doi.org/10.1029/2025sw004374
 [research_freeborn_kinnersley_2005]: https://doi.org/10.1016/j.actaastro.2004.09.020
@@ -13986,7 +13920,6 @@ summary of what classification achieves and what it costs.
 [research_ho_wang_2020]: https://doi.org/10.2514/1.a34663
 [research_hoangbao_wongfrankie_2010]: https://ntrs.nasa.gov/citations/20100040602
 [research_hodges_bless_1992]: https://doi.org/10.2514/3.20889
-[research_hodges_calise_1992]: https://doi.org/10.2514/3.56576
 [research_hodot_sartre_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.370
 [research_hoerber_2018]: https://doi.org/10.1016/j.spacepol.2018.02.001
 [research_hoffmandavidj_scheimandavida_1997]: https://ntrs.nasa.gov/citations/19970028356
@@ -14068,7 +14001,6 @@ summary of what classification achieves and what it costs.
 [research_huang_ries_1990]: https://doi.org/10.1007/bf00049512
 [research_huang_wang_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130883
 [research_huang_xia_2002]: https://doi.org/10.1016/s0022-4073(01)00238-2
-[research_huang_xia_2003]: https://doi.org/10.1016/s0022-4073(02)00228-5
 [research_huang_xu_2023]: https://doi.org/10.2514/1.a35673
 [research_huang_yao_2020]: https://doi.org/10.1016/j.actaastro.2020.01.033
 [research_huang_yu_2024]: https://doi.org/10.1016/j.ast.2024.109636
@@ -14633,7 +14565,6 @@ summary of what classification achieves and what it costs.
 [research_lass_lorell_1961]: https://doi.org/10.2514/8.5375
 [research_lassudrieduchesne_fleury_1986]: https://doi.org/10.1016/0273-1177(86)90370-4
 [research_lastovicka_1975]: https://doi.org/10.1016/0021-9169(75)90120-8
-[research_launch_vehicle_1973]: https://doi.org/10.2514/3.50713
 [research_launch_vehicle_2000]: https://doi.org/10.1109/62.879411
 [research_launius_2013]: https://doi.org/10.1111/1600-0498.12037
 [research_lawingpl_nystromdm_1980]: https://ntrs.nasa.gov/citations/19800024952
@@ -14891,7 +14822,6 @@ summary of what classification achieves and what it costs.
 [research_logan_stalker_1977]: https://doi.org/10.1016/0022-4073(77)90070-x
 [research_logsdon_williamson_1997]: https://doi.org/10.1016/s0265-9646(97)00010-6
 [research_loh_1962]: https://doi.org/10.2514/8.9761
-[research_loh_1963]: https://doi.org/10.2514/3.54858
 [research_lohar_sherwani_1998]: https://doi.org/10.2514/2.4333
 [research_lohmeyer_aniceto_2018]: https://doi.org/10.1504/ijspacese.2018.090549
 [research_lomasjamesj_mitchelldanielw_2001]: https://ntrs.nasa.gov/citations/20010019998
@@ -15064,7 +14994,6 @@ summary of what classification achieves and what it costs.
 [research_marshall_1988]: https://doi.org/10.1126/science.239.4838.347.a
 [research_marshall_breuch_1968]: https://doi.org/10.2514/3.29420
 [research_marshall_luthcke_1994]: https://doi.org/10.2514/3.26408
-[research_marshall_luthcke_1994_b]: https://doi.org/10.2514/3.55671
 [research_marshall_sun_2021]: https://doi.org/10.1016/j.arcontrol.2021.10.013
 [research_marshburnjp_mcintoshrjr_1978]: https://ntrs.nasa.gov/citations/19780051696
 [research_martikan_1965]: https://doi.org/10.2514/3.28137
@@ -15258,7 +15187,6 @@ summary of what classification achieves and what it costs.
 [research_moe_debra_1976]: https://doi.org/10.1029/ja081i022p03753
 [research_moe_moe_1998]: https://doi.org/10.2514/2.3350
 [research_moe_wallace_1993]: https://doi.org/10.2514/3.21029
-[research_moe_wallace_1993_b]: https://doi.org/10.2514/3.56614
 [research_mohamed_rihan_2024]: https://doi.org/10.1016/j.dsp.2024.104546
 [research_mohammed_salleh_2010]: https://doi.org/10.1134/s0020441210010288
 [research_mohan_tamma_1996]: https://doi.org/10.1080/10407799608915075
@@ -15536,7 +15464,6 @@ summary of what classification achieves and what it costs.
 [research_palanisamy_parekh_2020_b]: https://doi.org/10.1149/ma2020-022278mtgabs
 [research_pallixjoan_1994]: https://ntrs.nasa.gov/citations/19940029557
 [research_palmer_2024]: https://doi.org/10.1007/s40295-024-00441-y
-[research_palmer_2024_b]: https://doi.org/10.1007/s40295-024-00443-w
 [research_palmer_2025]: https://doi.org/10.1016/j.eng.2025.01.009
 [research_palmer_henline_1997]: https://doi.org/10.2514/2.3261
 [research_palmer_kontinos_1999]: https://doi.org/10.2514/2.3522
@@ -15563,7 +15490,6 @@ summary of what classification achieves and what it costs.
 [research_pardini_moe_2012]: https://doi.org/10.1016/j.pss.2012.03.004
 [research_pardini_tobiska_2006]: https://doi.org/10.1016/j.asr.2004.10.009
 [research_parent_2021]: https://doi.org/10.1063/5.0046197
-[research_parent_2022]: https://doi.org/10.1063/5.0090887
 [research_parent_rodriguezfuentes_2025]: https://doi.org/10.2514/1.j064125
 [research_parisi_2023]: https://doi.org/10.3847/psj/ace7ce
 [research_park_1983]: https://doi.org/10.2514/3.8293
@@ -15833,7 +15759,6 @@ summary of what classification achieves and what it costs.
 [research_reshotko_1987]: https://doi.org/10.21236/ada185764
 [research_resnik_2006]: https://doi.org/10.3366/epi.2005.2.3.135
 [research_restrepocarolinai_sostaricronald_2018]: https://ntrs.nasa.gov/citations/20180007604
-[research_retraction_lifecycle_2026]: https://doi.org/10.1080/17583004.2026.2690314
 [research_reul_dupmeier_2014]: https://doi.org/10.1615/heatpipescietech.v5.i1-4.700
 [research_review_on_2023]: https://doi.org/10.3901/jme.2023.02.151
 [research_reyesjacquelinea_ryanhoffmann_2019]: https://ntrs.nasa.gov/citations/20190033991
@@ -15979,7 +15904,6 @@ summary of what classification achieves and what it costs.
 [research_sanson_villedieu_2017]: https://doi.org/10.1016/j.expthermflusci.2016.11.013
 [research_santhosh_nandakumar_2011]: https://doi.org/10.4273/ijvss.3.4.03
 [research_santoni_piergentili_2008]: https://doi.org/10.2514/1.32392
-[research_santoni_piergentili_2008_b]: https://doi.org/10.2514/1.37409
 [research_santos_hosder_2021]: https://doi.org/10.2514/1.a34752
 [research_santos_oliveira_2012]: https://doi.org/10.1615/heatpipescietech.2013006753
 [research_sapkota_fischer_2014]: https://doi.org/10.1016/j.solmat.2013.10.021
@@ -16371,18 +16295,12 @@ summary of what classification achieves and what it costs.
 [research_stultz_1977]: https://doi.org/10.2514/3.57196
 [research_su_dai_2021]: https://doi.org/10.1016/j.ast.2021.107200
 [research_su_dai_2021_b]: https://doi.org/10.1007/s00500-021-06039-y
-[research_su_dai_2021_c]: https://doi.org/10.1007/s00500-021-06287-y
 [research_su_dong_2012]: https://doi.org/10.11728/cjss2012.03.412
 [research_su_kiang_2022]: https://doi.org/10.3390/rs14236092
 [research_su_liu_2025]: https://doi.org/10.1016/j.asoc.2024.112637
 [research_su_liu_2025_b]: https://doi.org/10.1016/j.ast.2024.109839
 [research_su_wang_2015]: https://doi.org/10.1016/j.neucom.2015.03.063
 [research_su_zhao_2024]: https://doi.org/10.1088/1742-6596/2764/1/012069
-[research_subject_index_1972]: https://doi.org/10.2514/3.62912
-[research_subject_index_1973]: https://doi.org/10.2514/3.62959
-[research_subject_index_1974]: https://doi.org/10.2514/3.63001
-[research_subject_index_1978]: https://doi.org/10.2514/3.55816
-[research_subject_index_1979]: https://doi.org/10.2514/3.55931
 [research_subramanian_sonney_2004]: https://doi.org/10.2514/1.13101
 [research_sudarshan_vajja_2025]: https://doi.org/10.1149/ma2025-018828mtgabs
 [research_sugimoto_vanderha_2012]: https://doi.org/10.2322/tastj.10.pd_33
@@ -16450,7 +16368,6 @@ summary of what classification achieves and what it costs.
 [research_symposium_on_1973]: https://ntrs.nasa.gov/citations/19730024757
 [research_symposium_on_1973_b]: https://ntrs.nasa.gov/citations/19730024728
 [research_synder_cross_1960]: https://doi.org/10.21236/ada451853
-[research_synowicki_hale_1993]: https://doi.org/10.2514/3.55661
 [research_synowicki_hale_1995]: https://doi.org/10.2514/3.26580
 [research_szalai_chen_2005]: https://doi.org/10.2514/1.3637
 [research_taff_1979]: https://doi.org/10.21236/ada073776

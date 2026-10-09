@@ -166,7 +166,8 @@ $$
 
 **So 98 of the 532 well-formed rows carry a mark of some kind.** The
 distinction between the second state and the fourth is the one this article leans on, and merging them
-would destroy the comparison the next section makes. **The verifier asserts the identity**, so a row
+would destroy the comparison the subsection headed The Second Case Falls on the Far Side of a Line the
+First Did Not makes. **The verifier asserts the identity**, so a row
 falling into none of the four or into two of them would fail the build rather than quietly change a
 total.
 
@@ -193,8 +194,8 @@ A \;=\; A_{\mathrm{out}} \,\sqcup\, A_{\mathrm{in}}
 $$
 
 **The register opens on 19 August 1998, so a designation allocated before that date is absent from it
-for a reason that has nothing to do with being skipped.** **five of the
-fifteen absences fall in that category**, being 38, 39, 41, 42 and 43. **ten fall
+for a reason that has nothing to do with being skipped.** **Five of the
+fifteen absences fall in that category**, being 38, 39, 41, 42 and 43. **Ten fall
 inside the window**, being 52, 58, 67, 69, 70, 71, 72, 73, 74 and 75, and for those the absence is informative because
 their neighbours are in the same document.
 
@@ -374,7 +375,7 @@ recorded and which this article confirms by recomputing it.
 across five articles states the research series' officiality split as twenty-one official, nine wholly
 unofficial and one partly. **Recomputing it gives 21 official, nine wholly
 unofficial and one partly**, which agrees exactly, **provided that wholly unofficial merges
-two different claims.** two of the nine are rows absent from officially released data
+two different claims.** Two of the nine are rows absent from officially released data
 altogether and seven are official allocations whose stated purpose is the compiler's. **The
 recorded figure is right and the category is too coarse for this article's use**, because the XQ-67A
 falls in the second group and the distinction is the whole of the comparison above.
@@ -571,7 +572,8 @@ This series has recorded five already.
 | The number allocated and no aeroplane ever built | the [X-54][related_post_a351_gulfstream_x54] |
 | The number following first flight by months | the [X-55][related_post_a352_lockheed_martin_x55] |
 | The number following first flight by twenty-nine years | the [X-62][related_post_a359_lockheed_martin_x62_vista] |
- **The sixth is the number
+
+**The sixth is the number
 arriving mid-build, after the design is committed and before it flies.** It is probably the ordinary case
 for a modern demonstrator rather than an anomaly, and it is recorded because **an ordinary case is the
 baseline the five unusual ones are unusual against**, which is a thing a list of exceptions does not
@@ -797,7 +799,7 @@ figures follow neither cleanly, because he excludes the allocations he judges ou
 applying the first. **And his derivation for the FQ-48 follows the third**, since the fighter numbers
 reach 117 while he reads the 48 as following the 47.
 
-**The second definition cannot be computed from any public document this article has found, and a first
+**The second definition cannot be computed from any public document this article has found, and an
 earlier wording claimed it could not be computed from the public record at all, which is a
 different and larger claim.** Evaluating the lowest never-allocated number over the register returns
 1, because the register opens on 19 August 1998 and carries no row for the X-1 through the
@@ -891,7 +893,7 @@ about why the X-67 is empty passes through that reconstruction**, and this artic
 too.
 
 **The Department's own portal still refuses the document, which is recorded here rather than
-glossed.** The address for DoD 4120.15-L on the issuance portal returns HTTP 403 to every client this
+glossed.** The address for DoD 4120.15-L on the issuance portal returns HTTP 403, the Hypertext Transfer Protocol's refusal status, to every client this
 article has tried \[[DoD 4120.15-L at the Department's portal][ref_dod_412015l_2018]]. **The document
 was read from a public web archive snapshot instead**, and the October 1998 edition's front matter from
 the compiler's scan of it \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]
@@ -1076,7 +1078,7 @@ earns a new letter. **The instruction of 2020 does not say how to tell one from 
 
 ### The Founding Document Did Say, and the Test It Gave Has Been Deleted
 
-**The sentence this article quoted two sections ago names three documents, and a primary-reference pass
+**The instruction names three founding documents, and a primary-reference pass
 that leaves them unread has stopped one step short.** The instruction states that the designator format
 was established by the Department on 18 September 1962 with the publishing of Air Force Regulation
 66-11, Army Regulation 700-26 and Bureau of Naval Weapons Instruction 13100.7
@@ -1089,8 +1091,9 @@ is public, and it has been read in full for this pass
 > Design Number. The sequence number of each new design of the same basic mission or type aircraft.
 
 **The founding definition does not say that a design number identifies major design changes. It says the
-design number is a sequence number**, which is the claim the increment test above was built to check and
-which the register now fails in nearly three quarters of its steps.
+design number is a sequence number**, which is the claim the increment test in the subsection headed The Instruction's Claim Has a Testable
+Consequence and the Register Fails It was built to check, and which the register now fails in nearly
+half of its steps, since 67 of its 133 pointer advances are exactly one.
 
 **And where the modern instruction offers no test for what counts as a new design, the founding document
 offers three worked examples.**
@@ -1262,15 +1265,16 @@ own table of contents.**
 **And the one advance of zero is the one number that came back.** The X-49A was allocated on 2003-05-23,
 464 days after the X-50A had passed it, filling a gap the pointer had already crossed
 \[[DOD 4120.15-L Addendum][ref_mds_addendum]]. **So the register contains exactly
-one research-series number that was skipped and later recovered**, and the next section is
-about why that number could be recovered and the X-67 cannot.
+one research-series number that was skipped and later recovered**, and the subsection headed The Rule
+Changed, and the Register Holds the Before-Case in the Same Series is about why that number could be
+recovered and the X-67 cannot.
 
 ### Six Pairs of Numbers in the Register Carry the Same Official Sentence
 
 **If the design number were an ordinal over designs, two different numbers should not describe the same
 design.** The register can be asked. Stripping the note references, which differ between two rows by
 construction, the register's 532 well-formed rows carry 490 distinct
-descriptions of twenty characters or more. **sixteen of those descriptions are shared by more than
+descriptions of twenty characters or more. **Sixteen of those descriptions are shared by more than
 one designation, and six of the shared ones span more than one design number**, the
 other ten being series letters of a single number, which is exactly what series letters are
 for.
@@ -1289,7 +1293,7 @@ for.
 **In five of the six the contractor is the only field that differs, and
 three of the six were allocated on the same day.** In the remaining
 one the contractor is the same firm and the register offers nothing to
-distinguish the two numbers. **two of the six are research-series pairs**, which is a third
+distinguish the two numbers. **Two of the six are research-series pairs**, which is a third
 of the set from one basic mission out of twenty, and this series has already written about both
 of them \[[DOD 4120.15-L Addendum][ref_mds_addendum]] \[[X-Planes: Invocon X-64][related_post_a361_invocon_x64]].
 
@@ -1959,7 +1963,7 @@ allocated to General Atomics on 2025-08-20
 
 **The register holds sixteen rows for that firm**, being eleven in the unmanned series,
 four in the unmanned-control series and one in the research series. **The one research row is the
-X-68A.** For scale, the register's row counts by leading firm name run 86 for boeing, 81 for lockheed, 77 for raytheon, 33 for northrop, 24 for sikorsky and 16 for general.
+X-68A.** For scale, the register's row counts by leading firm name run 86 for Boeing, 81 for Lockheed, 77 for Raytheon, 33 for Northrop, 24 for Sikorsky and 16 for General Atomics.
 
 **The article claims no intent and the coincidence is probably just a coincidence**, since a firm holding
 this much of the unmanned register will appear on both sides of most things. **It is recorded because the
@@ -2101,8 +2105,8 @@ product families, component commonality and modular architecture. **That literat
 engineering and management science, which is why the sweep's two registries returned numbers that differ
 by an order of magnitude.**
 
-**The sweep admitted 1,310 records from a pool of 14,384, the rebuild of 7 October 2026 refused 46 of
-them, and the 1,264 that remain are assigned across fifteen clusters, of which fifteen are non-empty.**
+**The sweep admitted 1,310 records from a pool of 14,384, the rebuild of 7 October 2026 refused 51 of
+them, the removal of 8 October 2026 took out 8 records that are parts of works, and the 1,251 that remain are assigned across fifteen clusters, of which fifteen are non-empty.**
 A record may belong to more than one cluster, so the assignments exceed the record count and the mean is the quantity that says by how
 much.
 
@@ -2110,15 +2114,15 @@ $$
 \bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
 $$
 
-**That is 1.0570 clusters per record across 1,336 assignments.** A
+**That is 1.0576 clusters per record across 1,323 assignments.** A
 mean barely above one says the clusters are nearly disjoint, **which is a property of the gate rather
 than of the field**, since each cluster admits on compound nouns the others do not use.
 
 | Cluster | Records | What it holds |
 |---|---:|---|
-| `commonality` | 224 | component commonality, part sharing, commonality indices and metrics |
+| `commonality` | 223 | component commonality, part sharing, commonality indices and metrics |
 | `product_family` | 364 | product families, product platforms, platform-based design, mass customisation |
-| `modularity` | 176 | modular architecture, module boundaries, design structure matrices, the theory of modularity |
+| `modularity` | 175 | modular architecture, module boundaries, design structure matrices, the theory of modularity |
 | `open_arch` | 50 | the modular open systems approach, open mission systems, integrated modular avionics |
 | `variety_cost` | 67 | the cost of variety, economies of scope, learning curves, development-cost estimation |
 | `flexibility` | 40 | real options in design, design flexibility, technology refresh and obsolescence |
@@ -2126,16 +2130,16 @@ than of the field**, since each cluster admits on compound nouns the others do n
 | `attritable` | 4 | attritability and affordable mass, which the X-58 article surveyed in full |
 | `autonomy` | 15 | autonomy architecture, reference autonomy, tactical datalinks, trust in automation |
 | `designation` | 97 | designation and nomenclature systems, part numbering, configuration identification |
-| `identifier` | 95 | identifier allocation, namespaces, persistent identifiers, versioning and compatibility |
+| `identifier` | 86 | identifier allocation, namespaces, persistent identifiers, versioning and compatibility |
 | `taxonomy` | 36 | classification of artefacts, numerical taxonomy, engineering ontologies, identity criteria |
 | `uav_design` | 21 | conceptual design and sizing of unmanned aircraft |
-| `demonstrator` | 35 | flight demonstrators, rapid prototyping, prototype competitions, readiness levels |
+| `demonstrator` | 33 | flight demonstrators, rapid prototyping, prototype competitions, readiness levels |
 | `digital_eng` | 28 | digital engineering, model-based systems engineering, virtual prototyping |
 
 **The shape of that table is the article's subject restated.** The three largest clusters are
-product_family at 364, commonality at 224 and modularity at
-176, which together are the engineering literature of when a thing is a new thing. **The
-designation and identifier clusters, at 97 and 95, are the literature of
+product_family at 364, commonality at 223 and modularity at
+175, which together are the engineering literature of when a thing is a new thing. **The
+designation and identifier clusters, at 97 and 86, are the literature of
 how such things are named and numbered.** The taxonomy cluster at 36 is the literature of
 classifying artefacts at all.
 
@@ -2165,7 +2169,7 @@ right before any aeroplane had a design number.
 
 **There is no literature on the X-67 and the article states that rather than implying coverage.** The
 sweep returned no record whose subject is this designation, because a designation that was never
-allocated produces nothing. **The 1,264 records map the field the question sits in and not the
+allocated produces nothing. **The 1,251 records map the field the question sits in and not the
 question**, and the only sources that speak to the X-67 directly are the register, the compilation of
 missing designations and the instruction.
 
@@ -2217,8 +2221,8 @@ instruction. Everything about the aeroplane comes from two press releases and th
 
 **The first sweep asked 62 questions of the reports server, fifteen clusters' worth of
 questions of the defence registry and the bibliographic index, and it recorded what each server said it
-held.** A third sweep followed in the primary-reference pass and the subsection after next measures what
-it bought. The reports server reported 745 matching records across the
+held.** A third sweep followed in the primary-reference pass and the subsection headed The Aimed Sweep, and
+What It Bought measures what it bought. The reports server reported 745 matching records across the
 62 questions and returned 745, which is 100.0 percent. **That is
 complete coverage of what the first sweep asked for**, and the reason is not thoroughness. The reason is
 that the server holds very little under those questions. **The third sweep, which asks in the server's
@@ -2249,7 +2253,8 @@ $$
 verifier asserts the identity so that a record silently lost between the three stages would fail the
 build rather than shrink a reported total.
 
-**Coverage is the second relation and it is the one the next subsection turns on.**
+**Coverage is the second relation and it is the one the subsection headed The Reports Server Holds
+Almost None of This turns on.**
 
 $$
 \varkappa \;=\; \frac{\sum_q R_q}{\sum_q N_q}
@@ -2279,7 +2284,9 @@ than a journal index.
 **So the third sweep asked 53 questions of the reports server in the server's own words**,
 together with fifteen clusters' worth of the defence registry and the bibliographic index. The
 server reported 2,966 records and returned 1,795, with
-two questions hitting the retrieval bound and eight returning nothing.
+two questions hitting the retrieval bound and eight returning nothing. **The table and every count in
+this subsection are the third sweep's, before the rebuild of 7 October 2026**, which the subsection
+headed The Gate, and What Auditing It Both Ways Found records with the present counts.
 
 | Cluster | Records before | Primaries before | Share before | Records after | Primaries after | Share after |
 |---|---:|---:|---:|---:|---:|---:|
@@ -2305,13 +2312,13 @@ moving from 9.5 to 12.1 percent. **The largest single gain is
 `commonality` at 12 primaries**, from 1.8 to 6.3 percent.
 
 **And the honest result is in the row the sweep was aimed at hardest.** Product families, the largest
-cluster at 366 records, went from 0 report primaries to
+cluster at 366 records after the third sweep, went from 0 report primaries to
 1. **Questions asked in the server's own words about families of vehicles, derivative
 designs, growth versions and common airframes bought one record.** Product family design is a
 manufacturing and management literature, **and no amount of rephrasing moves it into a reports server
 that does not hold it.**
 
-**four clusters gained no primaries at all**, being `acp`, `attritable`, `taxonomy` and `uav_design`. Two of those are
+**Four clusters gained no primaries at all**, being `acp`, `attritable`, `taxonomy` and `uav_design`. Two of those are
 deliberate, since attritability belongs to the
 [X-58][related_post_a355_x58_slot_taken_by_xq58] article and the taxonomy cluster exists because the
 programme borrowed a biological metaphor rather than because a report literature discusses it. **The
@@ -2332,11 +2339,11 @@ $$
 \varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
 $$
 
-Of the 1,264 gated records, 159 come from the reports server or the defence registry,
-so $\varpi$ is **12.6 percent**, split 49 from the reports server and
-110 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
-percent on the same definition, and those four figures are quoted from those articles rather than
-recomputed here.** This one reports 12.6.
+Of the 1,251 gated records, 156 come from the reports server or the defence registry,
+so $\varpi$ is **12.5 percent**, split 48 from the reports server and
+108 from the defence registry. **The preceding four articles reported 30.6, 45.0, 39.5 and 28.3
+percent on the same definition, and those four figures are what those articles reported at the time,
+quoted rather than recomputed here.** This one reports 12.5.
 
 **That is a finding about the subject and it is also a target for the next pass.** Commonality and product
 family design are a manufacturing and management literature, and a research agency that builds aeroplanes
@@ -2345,7 +2352,7 @@ programme documents exist in the report literature under names the sweep did not
 Attritable Aircraft Technologies initiative and the Low-Cost Attritable Strike Demonstrator being two
 such names, together with the Broad Agency Announcement the trade coverage dates to September 2020.
 
-**The reference base as a whole is 1,272 definitions and it partitions four ways.**
+**The reference base as a whole is 1,259 definitions and it partitions four ways.**
 
 $$
 \lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
@@ -2354,17 +2361,17 @@ $$
 + \lvert \mathcal{B}_{\mathrm{res}} \rvert
 $$
 
-**nineteen are hand-written primary sources, four are hand-written theory sources,
-67 are the prior articles of this series, and 1,182 are harvested research
-records.** **Of the harvested records
-1,105 came from the bibliographic index**, which is the proportion the subject dictates rather
+**Nineteen are hand-written primary sources, four are hand-written theory sources,
+67 are the prior articles of this series, and 1,169 are harvested research
+records.** **Of the 1,251 gated records
+1,095 came from the bibliographic index**, which is the proportion the subject dictates rather
 than a choice.
 
 **The period profile is reported beside the fraction because the two move independently.** Of the
-1,182 research definitions, 1,125 carry a year and 57 do not. **The
+1,169 research definitions, 1,114 carry a year and 55 do not. **The
 median year is 2011, the range runs from 1900 to 2026,
-401 records are from 2015 onward at 35.6 percent, and
-199 predate 2000.**
+393 records are from 2015 onward at 35.3 percent, and
+198 predate 2000.**
 
 ### The Programme's Own Words Are Unsearchable
 
@@ -2418,14 +2425,14 @@ hyphen that defeats it admits rather than refuses.
 **The refused sample found more than the kept sample did, for the second article running.** Reading
 thirty random refusals at seed 20251212 surfaced a paper titled *Product modularity, measures and design
 methods*, which is a core reference for the modularity cluster and which no pattern admitted, because
-`modular` had to sit beside an engineering noun and `product modularity` was not itself a pattern. **nine
+`modular` had to sit beside an engineering noun and `product modularity` was not itself a pattern. **Nine
 patterns were added on that evidence** and the gate's kept count rose accordingly.
 
 **And one keep case was the article's own foundational source, refused by the first version of the
 gate.** *The Value of Modularity, Splitting and Substitution* carries no engineering noun at all, because
 it states the theory rather than an application of it
 \[[The Value of Modularity, Splitting and Substitution][research_baldwin_clark_splitting]]. **A gate tested only on applied titles rejects the
-work the applications cite**, which is the defect A333 shipped in the opposite subject, and the theory
+work the applications cite**, which is the defect the X-36 article shipped in the opposite subject, and the theory
 literature is now admitted by its own distinctive phrases with the cognitive, neural and graph senses of
 the word guarded out.
 
@@ -2435,7 +2442,7 @@ with a capital asset pricing model beta, because its context list contained the 
 an engineering object.
 
 **The gate was rebuilt on 7 October 2026, after the counts first published with this article, and it
-refused 46 records the original gate had kept.** Eighteen were applications of numerical taxonomy to
+refused 51 records the original gate had kept.** The first reading refused 46. Eighteen were applications of numerical taxonomy to
 plants, microorganisms, earthworms, sandflies, soils, wines, chromatographic phases, water bodies and
 psychiatric diagnoses, which are other sciences using the method rather than the method itself. Nine
 more were medical, psychological or biomedical, among them two surgical learning curves and a standard
@@ -2443,10 +2450,17 @@ for chemotherapy protocols. Five were standardisation of cheese, Ayurvedic prepa
 products, five were finance or welfare economics sharing the words commonality, learning curve and
 product variety, three used modularity in the graph sense, and six were further homonyms, being a radio
 and a robot configuration identification, an isotope identifier, petroleum loss accounting, street art
-policy and a study of education terminology. **The gated corpus went from 1,310 to 1,264 and the
-harvested research definitions from 1,228 to 1,182.** The taxonomy cluster changed most, from 54 to 36,
-followed by commonality from 237 to 224, while no report primary was refused. A reading of 300 unflagged
-records found three off topic, which puts the remaining contamination near 1.0 percent.
+policy and a study of education terminology. That reading's sample of 300 unflagged records found three off topic, 1.0 percent, and it refused no
+report primary. **A second seeded sample of 300 of the 702 records no earlier reading had seen found four
+off topic, all removed with one more of their kind**, being a tutorial on two-phase flow that shares
+the word commonality, a chemistry deposit on porous frameworks, a cost study of the Navy's aerobatic
+display team and band, and a report on space power conversion that was the only report primary the
+identifier cluster held, with a welding experiment flown on a parabolic flight found by sweeping for
+the flight-demonstration homonym. Three of those five were report primaries. **The gated corpus went
+from 1,310 to 1,259 and the harvested research definitions from 1,228 to 1,177.** The taxonomy cluster
+changed most, from 54 to 36, followed by commonality from 237 to 223. The second sample puts
+contamination among the records it was drawn from at four in 300, or 1.3 percent, before its own sweep,
+and because that sweep was driven by the sample, it does not measure what remains after it. **On 8 October 2026 a further 8 records were removed because they are parts of a work rather than works**, being the four figures and four supplementary files that the registry gave identifiers of their own under one 2021 paper on persistent identifiers, whose own record stays, which took the gated corpus from 1,259 to 1,251, the harvested research definitions from 1,177 to 1,169 and the identifier cluster from 94 to 86.
 
 ### An Address That Returns a 404 Page Under a 200 Status
 
@@ -2465,7 +2479,7 @@ supports.
 ### The Addresses, Swept
 
 **Every hand-written address in the article was fetched and what each returned is recorded.** There are
-23 of them. **eighteen returned a document, four were refused by a
+23 of them. **Eighteen returned a document, four were refused by a
 publisher that declines automated clients and were instead confirmed against the bibliographic index by
 author and title, and one returned neither.** The one that returned neither is the
 Department's own cancelled list, and the article says in its own definition that it was not read.
@@ -2590,7 +2604,7 @@ parses it the same way.
 - **21 research rows are fully official, seven have an unofficial description,
   one is partly unofficial and two are entirely unofficial rows.** The XQ-58A's
   description is official and the XQ-67A's is not.
-- **six pairs of design numbers in the whole register carry identical official descriptions,
+- **Six pairs of design numbers in the whole register carry identical official descriptions,
   and in five of them the contractor is the only differing field.**
 - **27 design numbers carry rows naming more than one leading firm, and the missile design
   number 88 carries ten series letters across seven firms.**
@@ -2768,7 +2782,7 @@ the airframe and none is the mission equipment.** A genus holds exactly those th
 exactly what the 1962 test ignores. **The system that wrote the definition would have refused a species a
 number of its own, and the system that inherited the definition without the examples gave one.**
 
-**The register shows the same thing from the other side and shows it twice.** six pairs of
+**The register shows the same thing from the other side and shows it twice.** Six pairs of
 design numbers carry identical official descriptions, and in five of them the
 contractor is the only field that differs, so the number does not index the stated purpose. **Yet
 27 design numbers survive a change of leading firm, one of them across
@@ -3108,7 +3122,6 @@ rebuilt because the official one was withdrawn.**
 - [de Weck 2006][research_deweck_2006]
 - [de Weck et al 2003][research_deweck_suh_2003]
 - [Decan and Mens 2021][research_decan_mens_2021]
-- [Delil 2002][research_delil_2002]
 - [DeMinico et al 2022][research_deminico_mastandrea_2022]
 - [Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]
 - [Department Of Defense Washington Dc 1998][research_departmentofdefensewashingtondc_1998]
@@ -3157,7 +3170,6 @@ rebuilt because the official one was withdrawn.**
 - [Ertas and Gulbulak 2021][research_ertas_gulbulak_2021]
 - [Essers][research_essers]
 - [Ettlie and Penner-Hahn 1994][research_ettlie_pennerhahn_1994]
-- [Eugene Choi et al][research_eugenechoi_aaronbrimmer]
 - [Evaluating Product Family Development 2009][research_evaluating_product_2009]
 - [Ewing 2022][research_ewing_2022]
 - [Eynan and Fouque 2005][research_eynan_fouque_2005]
@@ -3179,7 +3191,6 @@ rebuilt because the official one was withdrawn.**
 - [Fellini et al 2006][research_fellini_kokkolaras_2006]
 - [Fellini et al 2006][research_fellini_kokkolaras_2006_b]
 - [Fiala 1983][research_fiala_1983]
-- [Fields et al 2012][research_fields_gardner_2012]
 - [Finch 1999][research_finch_1999]
 - [Firms and Trade Economies 2025][research_firms_and_2025]
 - [Fischetti, T. L. 1974][research_fischettitl_1974]
@@ -3254,14 +3265,6 @@ rebuilt because the official one was withdrawn.**
 - [Han et al 2025][research_han_nan_2025]
 - [Hanratty et al 1999][research_hanratty_lightsey_1999]
 - [Hardisty et al 2021][research_hardisty_addink_2021]
-- [Hardisty et al 2021][research_hardisty_addink_2021_b]
-- [Hardisty et al 2021][research_hardisty_addink_2021_c]
-- [Hardisty et al 2021][research_hardisty_addink_2021_d]
-- [Hardisty et al 2021][research_hardisty_addink_2021_e]
-- [Hardisty et al 2021][research_hardisty_addink_2021_f]
-- [Hardisty et al 2021][research_hardisty_addink_2021_g]
-- [Hardisty et al 2021][research_hardisty_addink_2021_h]
-- [Hardisty et al 2021][research_hardisty_addink_2021_i]
 - [Harland and Uddin 2014][research_harland_uddin_2014]
 - [Harofteh and Saljooghi 2023][research_harofteh_saljooghi_2023]
 - [Hartel et al 1977][research_hartel_witt_1977]
@@ -3296,7 +3299,6 @@ rebuilt because the official one was withdrawn.**
 - [Hoek et al 1998][research_hoek_carzaniga_1998]
 - [Hoek et al 1998][research_hoek_heimbigner_1998]
 - [Hoek et al 1998][research_hoek_heimbigner_1998_b]
-- [Hoffert 1988][research_hoffert_1988]
 - [Hoffman 2010][research_hoffman_2010]
 - [Hogan et al 2020][research_hogan_elshaw_2020]
 - [Hogan et al 2022][research_hogan_elshaw_2022]
@@ -3594,7 +3596,6 @@ rebuilt because the official one was withdrawn.**
 - [Motzet, Guenter et al 2006][research_motzetguenter_gwaltneydavida_2006]
 - [Mukhtar and Agarwal 2009][research_mukhtar_agarwal_2009]
 - [Multiple-View Requirements Models for 2009][research_multiple_view_requirements_2009]
-- [Multivariable Modular Design of][research_multivariable_modular]
 - [Murmann and Frenken 2005][research_murmann_frenken_2005]
 - [Murmann and Frenken 2006][research_murmann_frenken_2006]
 - [Myrodia et al 2021][research_myrodia_hvam_2021]
@@ -4286,7 +4287,6 @@ rebuilt because the official one was withdrawn.**
 [research_davishubertp_johnsonroberte_1986]: https://ntrs.nasa.gov/citations/19870008371
 [research_decan_mens_2021]: https://doi.org/10.1109/tse.2019.2918315
 [research_delange_2002]: https://doi.org/10.1007/3-540-47833-7_18
-[research_delil_2002]: https://doi.org/10.1063/1.1449702
 [research_delit_delchambre_2003]: https://doi.org/10.1007/978-1-4615-0417-7_3
 [research_delit_delchambre_2003_b]: https://doi.org/10.1007/978-1-4615-0417-7_5
 [research_delit_delchambre_2003_c]: https://doi.org/10.1007/978-1-4615-0417-7_4
@@ -4344,7 +4344,6 @@ rebuilt because the official one was withdrawn.**
 [research_ertas_gulbulak_2021]: https://doi.org/10.22545/2021b/m5
 [research_essers]: https://doi.org/10.3990/1.9789036540674
 [research_ettlie_pennerhahn_1994]: https://doi.org/10.1016/1047-8310(94)90012-4
-[research_eugenechoi_aaronbrimmer]: https://ntrs.nasa.gov/citations/20250008897
 [research_evaluating_product_2009]: https://doi.org/10.1201/9781420068429-7
 [research_ewing_2022]: https://doi.org/10.1117/12.2608578
 [research_eynan_fouque_2005]: https://doi.org/10.1504/ijsom.2005.006320
@@ -4366,7 +4365,6 @@ rebuilt because the official one was withdrawn.**
 [research_fellini_kokkolaras_2006]: https://doi.org/10.1007/0-387-29197-0_9
 [research_fellini_kokkolaras_2006_b]: https://doi.org/10.1080/09544820500287797
 [research_fiala_1983]: https://doi.org/10.1007/978-3-642-69024-2_11
-[research_fields_gardner_2012]: https://doi.org/10.21236/ada562768
 [research_finch_1999]: https://doi.org/10.1115/detc99/dtm-8763
 [research_firms_and_2025]: https://doi.org/10.1017/9781009397698.009
 [research_fischettitl_1974]: https://ntrs.nasa.gov/citations/19750041962
@@ -4440,14 +4438,6 @@ rebuilt because the official one was withdrawn.**
 [research_han_nan_2025]: https://doi.org/10.2514/6.2025-3795
 [research_hanratty_lightsey_1999]: https://doi.org/10.21236/ada372015
 [research_hardisty_addink_2021]: https://doi.org/10.3897/rio.7.e67379
-[research_hardisty_addink_2021_b]: https://doi.org/10.3897/rio.7.e67379.figure1
-[research_hardisty_addink_2021_c]: https://doi.org/10.3897/rio.7.e67379.figure4
-[research_hardisty_addink_2021_d]: https://doi.org/10.3897/rio.7.e67379.figure3
-[research_hardisty_addink_2021_e]: https://doi.org/10.3897/rio.7.e67379.figure2
-[research_hardisty_addink_2021_f]: https://doi.org/10.3897/rio.7.e67379.suppl3
-[research_hardisty_addink_2021_g]: https://doi.org/10.3897/rio.7.e67379.suppl2
-[research_hardisty_addink_2021_h]: https://doi.org/10.3897/rio.7.e67379.suppl4
-[research_hardisty_addink_2021_i]: https://doi.org/10.3897/rio.7.e67379.suppl1
 [research_harland_uddin_2014]: https://doi.org/10.1504/ijpd.2014.064881
 [research_harofteh_saljooghi_2023]: https://doi.org/10.1007/s44196-023-00340-4
 [research_hartel_witt_1977]: https://doi.org/10.21236/ada042768
@@ -4481,7 +4471,6 @@ rebuilt because the official one was withdrawn.**
 [research_hoek_heimbigner_1995]: https://doi.org/10.21236/ada454619
 [research_hoek_heimbigner_1998]: https://doi.org/10.21236/ada453899
 [research_hoek_heimbigner_1998_b]: https://doi.org/10.21236/ada452470
-[research_hoffert_1988]: https://doi.org/10.21236/ada338958
 [research_hoffman_2010]: https://doi.org/10.17487/rfc6014
 [research_hogan_elshaw_2020]: https://doi.org/10.3390/forecast2040023
 [research_hogan_elshaw_2022]: https://doi.org/10.1201/9781003220978-8
@@ -4781,7 +4770,6 @@ rebuilt because the official one was withdrawn.**
 [research_mukhtar_agarwal_2009]: https://doi.org/10.2139/ssrn.1491475
 [research_muller_segor_2023]: https://doi.org/10.1117/12.2663145
 [research_multiple_view_requirements_2009]: https://doi.org/10.1201/9781420068429-16
-[research_multivariable_modular]: https://doi.org/10.1021/jacs.6b07901.s001
 [research_murmann_frenken_2005]: https://doi.org/10.2139/ssrn.737063
 [research_murmann_frenken_2006]: https://doi.org/10.1016/j.respol.2006.04.011
 [research_myrodia_hvam_2021]: https://doi.org/10.1016/j.jmsy.2021.04.017

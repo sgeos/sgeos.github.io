@@ -39,7 +39,7 @@ The unknown was not whether lift produces crossrange. It obviously does. **The u
 
 ## Programme Origin
 
-The lineage runs back to the Sänger and Bredt antipodal bomber study, whose report circulated widely after 1945 and whose skip-glide trajectory is the ancestor of every boost-glide proposal that followed. It reappeared in the United States as a family of separate programmes. BOMI for bomber missile, Brass Bell for reconnaissance, ROBO for rocket bomber, and HYWARDS, the hypersonic weapon and research and development system.
+The lineage runs back to the Sänger and Bredt antipodal bomber study, whose report circulated widely after 1945 and whose skip-glide trajectory is the ancestor of every boost-glide proposal that followed. It reappeared in the United States as a family of separate programmes, namely BOMI for bomber missile, Brass Bell for reconnaissance, ROBO for rocket bomber, and HYWARDS, the hypersonic weapon and research and development system.
 
 On 10 October 1957 the Air Research and Development Command consolidated HYWARDS, Brass Bell and ROBO into a single three-step programme, System 464L, under the name Dyna-Soar, a contraction of dynamic soaring. **That was six days after Sputnik.**
 
@@ -143,9 +143,9 @@ At that angle the drag coefficient is 0.4712, and the lift-to-drag ratio is a re
 
 $$\frac{L}{D} = \frac{\cos\alpha}{\sin\alpha} = \cot\alpha = 1.273$$
 
-**Against the 1.245 that 1,700 nautical miles of crossrange requires, that is agreement to 2.3 percent**, reached from two directions that share nothing.
+**Against the 1.245 that 1,700 nautical miles of crossrange requires, that is agreement to 2.3 percent**, reached from two directions that share nothing. One is a mission requirement inverted through an orbital mechanics approximation. The other is impact theory applied to a flat plate.
 
-That the check works at all rests on Newtonian theory being a good approximation in this regime, which is a question with its own literature, in [Dyke 1951][research_dyke_1951], [HAYES 1959][research_hayes_1959], [Freeman 1960][research_freeman_1960], [Freeman 1960, A Note on the Explosion Solution o][research_freeman_1960_2], [Freeman 1962][research_freeman_1962], [Lunev and Pavlov 1966][research_lunev_pavlov_1966], [DSOUZA 1970][research_dsouza_1970], [Barren and Mandl 1978][research_barren_mandl_1978], [Verhoff et al 1990][research_verhoff_1990]. The theory is exact only in the limit of infinite Mach number and zero shock standoff, and its accuracy on real bodies at finite Mach number is what those papers establish. One is a mission requirement inverted through an orbital mechanics approximation. The other is impact theory applied to a flat plate. The wind-tunnel record for such shapes is extensive, in [Bernot and Robinson 1958][research_bernot_robinson_1958], [Robinson and Bernot 1958][research_robinson_bernot_1958], [Kaufman and G. 1963][research_kaufman_g_1963], [Meckler 1965][research_meckler_1965], [Giles and Thomas 1966][research_giles_thomas_1966], [Graves and Carmel 1968][research_graves_carmel_1968], [Merz 1968][research_merz_1968], [Pfaff 1968][research_pfaff_1968], [Goldberg et al 1969][research_goldberg_1969].
+That the check works at all rests on Newtonian theory being a good approximation in this regime, which is a question with its own literature, in [Dyke 1951][research_dyke_1951], [HAYES 1959][research_hayes_1959], [Freeman 1960][research_freeman_1960], [Freeman 1960, A Note on the Explosion Solution o][research_freeman_1960_2], [Freeman 1962][research_freeman_1962], [Lunev and Pavlov 1966][research_lunev_pavlov_1966], [DSOUZA 1970][research_dsouza_1970], [Barren and Mandl 1978][research_barren_mandl_1978], [Verhoff et al 1990][research_verhoff_1990]. The theory is exact only in the limit of infinite Mach number and zero shock standoff, and its accuracy on real bodies at finite Mach number is what those papers establish. The wind-tunnel record for such shapes is extensive, in [Bernot and Robinson 1958][research_bernot_robinson_1958], [Robinson and Bernot 1958][research_robinson_bernot_1958], [Kaufman and G. 1963][research_kaufman_g_1963], [Meckler 1965][research_meckler_1965], [Giles and Thomas 1966][research_giles_thomas_1966], [Graves and Carmel 1968][research_graves_carmel_1968], [Merz 1968][research_merz_1968], [Pfaff 1968][research_pfaff_1968], [Goldberg et al 1969][research_goldberg_1969].
 
 ### The Trade, Which Is Not the Trade It Appears to Be
 
@@ -235,7 +235,7 @@ At the peak rate of 47.8 British thermal units per square foot second and an emi
 
 $$T = 2{,}837 \ ^\circ\text{F} = 1{,}831 \ \text{K}$$
 
-The flat lower surface sees far less, because it is neither stagnating the flow nor sitting behind the strongest part of the shock. Taking it at a twelfth of the stagnation value,
+The flat lower surface sees far less, because it is neither stagnating the flow nor sitting behind the strongest part of the shock. Taking it at 12 percent of the stagnation value,
 
 $$T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \sigma} \right)^{1/4} = 1{,}480 \ ^\circ\text{F}$$
 
@@ -357,7 +357,7 @@ $$\frac{660 \times 10^{6}}{6.13} = 108 \ \text{million dollars per year}, \qquad
 
 **Fifty-eight thousand dollars for every pound of a glider that did not exist**, in 1963 dollars.
 
-What did fly was the instrumentation. [ASSET][ref_asset] flew sub-scale radiatively cooled structures on Thor boosters between 1963 and 1965 and returned data on exactly the panels the X-20 would have used. The programme's own engineering record survives in unusual depth for a cancelled aircraft, and the wider boost-glide line it belongs to is documented alongside it, in [Boeing Co Seattle Wa 1963][research_wa_1963], [Rock 1964][research_rock_1964], [NACA 1967, Study of the influence of size of][research_naca_1967_2], [Bryson et al 1968][research_bryson_1968], [Kempel et al 1971][research_kempel_1971], [Repic et al 1974][research_repic_1974], [Garcia 1975][research_garcia_1975], [Powell and Cruz 1991][research_powell_cruz_1991], [Kempel et al 1994][research_kempel_1994], [Barret 1999][research_barret_1999], [Scallion 1999][research_scallion_1999], [Chaudhary et al 2001][research_chaudhary_2001], [Taylor 2004][research_taylor_2004], [Dumbacher 2004][research_dumbacher_2004], [Jacobson 2004][research_jacobson_2004], [Jacobson 2004, X-37 Flight Demonstrator][research_jacobson_2004_2].
+What did fly was the instrumentation. [ASSET][ref_asset], the Aerothermodynamic Elastic Structural Systems Environmental Tests, flew sub-scale radiatively cooled structures on Thor boosters between 1963 and 1965 and returned data on exactly the panels the X-20 would have used. The programme's own engineering record survives in unusual depth for a cancelled aircraft, and the wider boost-glide line it belongs to is documented alongside it, in [Boeing Co Seattle Wa 1963][research_wa_1963], [Rock 1964][research_rock_1964], [NACA 1967, Study of the influence of size of][research_naca_1967_2], [Bryson et al 1968][research_bryson_1968], [Kempel et al 1971][research_kempel_1971], [Repic et al 1974][research_repic_1974], [Garcia 1975][research_garcia_1975], [Powell and Cruz 1991][research_powell_cruz_1991], [Kempel et al 1994][research_kempel_1994], [Barret 1999][research_barret_1999], [Scallion 1999][research_scallion_1999], [Chaudhary et al 2001][research_chaudhary_2001], [Taylor 2004][research_taylor_2004], [Dumbacher 2004][research_dumbacher_2004], [Jacobson 2004][research_jacobson_2004], [Jacobson 2004, X-37 Flight Demonstrator][research_jacobson_2004_2].
 
 The launch side is comparatively thin here, because the vehicle never reached it, and what exists concerns the booster rather than the glider, in [Houser and Runciman 1971][research_houser_runciman_1971], [Stofan 1973][research_stofan_1973], [Lofland 1980][research_lofland_1980], [Benson et al 1993][research_benson_1993], [Hoffman 1996][research_hoffman_1996], [Maloney 2011][research_maloney_2011], [Dittemore and Harding 2011][research_dittemore_harding_2011], [Tarabini et al 2013][research_tarabini_2013], [Reed et al 2016][research_reed_2016].
 
@@ -381,7 +381,7 @@ A programme that produced no data still changed things, which is a distinction w
 
 ## The Contemporary Literature
 
-The X-20 asked three questions at once. Whether a vehicle can return from orbit by flying rather than falling. Whether it can do so behind a structure that radiates its heat away instead of burning away. And whether it can then be used again.
+The X-20 asked three questions at once, whether a vehicle can return from orbit by flying rather than falling, whether it can do so behind a structure that radiates its heat away instead of burning away, and whether it can then be used again.
 
 **Its descendants split those questions up and answered them separately, decades apart.** The survey below follows that division, because it is the honest shape of the vehicle's influence.
 
@@ -417,7 +417,7 @@ It is not one now, in [Aprovitola et al 2019][research_aprovitola_2019], [Sun an
 
 The X-20's nose and leading edges needed coated molybdenum, graphite and zirconia, and the coating rather than the metal was the pacing item, because an uncoated refractory metal oxidises catastrophically at the temperatures that make it worth using.
 
-**That problem was solved by changing materials rather than by improving coatings**, in [Backman et al 2024][research_backman_2024], [Förster et al 2024][research_forster_2024], [Prokvolit et al 2024][research_prokvolit_2024], [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024], [Dubey et al 2025][research_dubey_2025], [Long et al 2025][research_long_2025], [Luo et al 2025][research_luo_2025], [Shi et al 2025][research_shi_2025], [Tian et al 2025][research_tian_2025], [Kavoosi et al 2026][research_kavoosi_2026], [Lakshmi et al 2026][research_lakshmi_2026], [Lee et al 2026][research_lee_2026], [Lin et al 2026][research_lin_2026], [Lin et al 2026, Oxidation fronts and oxide scale g][research_lin_2026_2], [Zhang and Han 2026][research_zhang_han_2026].
+**That problem was solved by changing materials rather than by improving coatings**, in [Backman et al 2024][research_backman_2024], [Förster et al 2024][research_forster_2024], [Prokvolit et al 2024][research_prokvolit_2024], [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024], [Dubey et al 2025][research_dubey_2025], [Long et al 2025][research_long_2025], [Luo et al 2025][research_luo_2025], [Shi et al 2025][research_shi_2025], [Tian et al 2025][research_tian_2025], [Kavoosi et al 2026][research_kavoosi_2026], [Lakshmi et al 2026][research_lakshmi_2026], [Lin et al 2026][research_lin_2026], [Lin et al 2026, Oxidation fronts and oxide scale g][research_lin_2026_2], [Zhang and Han 2026][research_zhang_han_2026].
 
 Zirconium and hafnium diborides, carbon-carbon composites and silicide coatings occupy the temperature range the X-20 needed, and they are ceramics that oxidise into protective scales rather than metals that need protecting. **The X-20's most intractable materials problem was not overcome so much as sidestepped.**
 
@@ -451,11 +451,11 @@ The largest contemporary literature touching this article is not about spaceplan
 
 The [X-37][ref_x37] is a small, unmanned, reusable orbital spaceplane that launches on an expendable booster, stays in orbit for extended periods, and returns to a runway. **That is the X-20's specification with the pilot removed**, in [Niu et al 2019][research_niu_2019], [Ricciardi et al 2019][research_ricciardi_2019], [Gonçalves et al 2020][research_goncalves_2020], [Ashikhmina et al 2021][research_ashikhmina_2021], [Ashikhmina and Prosuntsov 2021][research_ashikhmina_prosuntsov_2021], [Kondrashov 2023][research_kondrashov_2023], [Song et al 2024][research_song_2024], [Zhang et al 2024, Active learning for efficient data][research_zhang_2024_3], [MacLeod 2026][research_macleod_2026].
 
-It is the first vehicle to hold all three of the X-20's answers together. Lifting entry, a reusable thermal protection system, and a runway landing on a vehicle sized for a military orbital mission.
+It is the first vehicle to hold all three of the X-20's answers together, namely lifting entry, a reusable thermal protection system, and a runway landing on a vehicle sized for a military orbital mission.
 
 ### What the Survey Shows
 
-**Every one of the X-20's three answers was eventually adopted, and no two of them were adopted at the same time by the same vehicle until forty years later.**
+**Every one of the X-20's three answers was eventually adopted, and no single vehicle adopted all three together until forty years later.**
 
 The trajectory went to the Shuttle in 1981 and to hypersonic glide weapons after 2010. The hot structure was rejected in 1972 and returned as a research subject after 1995. Reuse went to the Shuttle and was found to cost more than anyone expected.
 
@@ -483,17 +483,17 @@ The Dyna-Soar engineering reports are the backbone, covering configuration evolu
 
 The coverage audit that preceded this pass produced the clearest instance in this series of a dependency between passes. **Five topics were thin in the pool, and they were exactly the five the equation pass had promoted.**
 
-**Newtonian impact theory stood at zero records.** The article's independent cross-check on its own keystone had no reference base whatever, for the straightforward reason that the draft harvest could not know the cross-check would come to exist. Thermal expansion stood at eleven, emissivity at one, the ballistic coefficient at six, and energy management at four. A targeted search took them to fifteen, forty-seven, twenty-eight, twelve and seventeen.
+**Newtonian impact theory was absent from the pool.** The article's independent cross-check on its own keystone had no reference base whatever, for the straightforward reason that the draft harvest could not know the cross-check would come to exist. Thermal expansion, emissivity, the ballistic coefficient and energy management were thin as well, and a targeted search enlarged all five.
 
-**Everything the draft was already about was deep and under-used**, which is the opposite problem and admits no search-based fix. Radiative cooling held seventy-eight records against ten cited, refractory coatings seventy-three against seven, and launch seventy-nine against fifteen. Spreading the selection was the whole of the work there.
+**Everything the draft was already about was deep and under-used**, which is the opposite problem and admits no search-based fix. Radiative cooling, refractory coatings and launch each held several times more records than the draft cited. Spreading the selection was the whole of the work there.
 
 **Three homonym families had to be learned by reading**, and none was caught by any rule. In spectroscopy an impact theory is a model of collisional line broadening and has nothing to do with hypersonic flow. In aviation the terminal area is the airspace around an airport, so a search for terminal energy management returns air traffic control including a paper on Orly. And thermal expansion is a materials-science subject in plutonium, phthalocyanines and lithium hydride, none of which this article has any use for. A high-emissivity coating for television picture tubes was also returned and rejected.
 
-**A process defect was found in this pass and is worth recording.** Four references rejected by reading during the draft pass reappeared in this one, because each pass rebuilds its rejection list from scratch rather than carrying forward decisions already made. Among them was a study of the thermal protection capacity of aviator's textiles, meaning clothing rather than vehicle structure. **The exclusion rule that should have caught it used a word boundary, and the word boundary is what let the plural through**, which is the opposite failure from the substring matching this series has documented three times. The rejection list is now written to a file so that later passes inherit it.
+**A process defect was found in this pass and is worth recording.** References rejected by reading during the draft pass reappeared in this one, because each pass rebuilds its rejection list from scratch rather than carrying forward decisions already made. Among them was a study of the thermal protection capacity of aviator's textiles, meaning clothing rather than vehicle structure. **The exclusion rule that should have caught it used a word boundary, and the word boundary is what let the plural through**, which is the opposite failure from the substring matching this series has documented before. The rejection list is now written to a file so that later passes inherit it.
 
-**One topic stays genuinely narrow and is reported rather than padded.** Terminal energy management for an unpowered orbital vehicle has four usable period references, because the subject did not exist until a vehicle was actually going to fly it.
+**One topic stays genuinely narrow and is reported rather than padded.** Terminal energy management for an unpowered orbital vehicle has only the four references cited for it in Guidance and Energy Management, because the subject did not exist until a vehicle was actually going to fly it.
 
-**The survey was re-read on 7 October 2026, and the rebuilt filter found fourteen records that do not belong to it.** Two concern the thermal protection of electrical transformers and one the protection of a chemical from ionising radiation. Three are microelectronics papers on refractory metal silicides, and one is solid state physics on thermal expansion. Two concern the tempering of glass, one a solar collector, and one the wear of an aluminium composite. Two treat reuse as logistics, in packaging supply chains and in fleet sizing, and one is a review of privacy in wireless health monitoring. The filter removed none, because every one is cited in a sentence of this article rather than in a list, and those sentences were left for a hand edit. **All fourteen were then removed by hand**, eleven from lists of citations that keep their other sources, six of them from the passage in Sizing From First Principles that selects the two materials, and three with the one sentence on the worth of reuse that rested on them alone, so the total falls from 352 to 338. A reading of 300 unflagged records found 10 off topic, which puts the contamination the screens miss near 3.3 percent, and the fourteen removed records were 4.0 percent of the base.
+**The survey was re-read on 7 October 2026, and the rebuilt filter found fourteen records that do not belong to it.** Two concern the thermal protection of electrical transformers and one the protection of a chemical from ionising radiation. Three are microelectronics papers on refractory metal silicides, and one is solid state physics on thermal expansion. Two concern the tempering of glass, one a solar collector, and one the wear of an aluminium composite. Two treat reuse as logistics, in packaging supply chains and in fleet sizing, and one is a review of privacy in wireless health monitoring. The filter removed none, because every one is cited in a sentence of this article rather than in a list, and those sentences were left for a hand edit. **All fourteen were then removed by hand**, eleven from lists of citations that keep their other sources, six of them from the passage in Sizing From First Principles that selects the two materials, and three with the one sentence on the worth of reuse that rested on them alone, so the total falls from 352 to 338. A reading of 300 unflagged records found 10 off topic, which put the contamination the screens missed near 3.3 percent before the removals, and the fourteen removed records were 4.0 percent of the base. That sample drove the sweep that followed it, so it does not measure what remained afterward. **A second reading on 8 October 2026 found nothing further to remove.** It covered the 28 records that the first reading's log did not show as read, found none off topic and no registry test deposits, and the total stayed at 338 after that reading. That sample found no contamination remaining, but 28 records are far too few to rule out a rate of several percent. A check on 8 October 2026 for records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter removed one, a correction notice for a paper on the thermal conductivity of a carbon composite, from a generated list that keeps its other sources, so the research total is now 337.
 
 ## Epistemic State
 
@@ -513,13 +513,13 @@ The coverage audit that preceded this pass produced the clearest instance in thi
 
 A selector script left in the working directory from the previous article shared its name with a Python standard library module, was imported in place of it, executed on import, and overwrote this article's reference selection with output computed for a tilt-propeller aircraft. It was caught because the replacement contained propeller buckets for a spaceplane. **Nothing in the checking apparatus would have found it.**
 
-The corpus verifier then reported zero errors and **zero warnings**, where the established baseline is zero errors and twenty-one warnings. It had inherited a scratch working directory and found nothing to check. **It was caught only because the expected number was known**, which is the argument for recording baselines rather than reading checks as pass or fail.
+The corpus verifier then reported zero errors and **zero warnings**, where the established baseline at the time was zero errors and a known, nonzero number of warnings. It had inherited a scratch working directory and found nothing to check. **It was caught only because the expected number was known**, which is the argument for recording baselines rather than reading checks as pass or fail.
 
-**Acronym and prose checks in the publication review.** NACA and NASA appear in this article only inside generated citation labels and never in its prose, which is the word-frequency artifact this series has documented before, where link text is counted as prose. The programme acronyms of the 1950s are expanded where they are introduced.
+**Acronym and prose checks in the publication review.** The abbreviations for the National Advisory Committee for Aeronautics and the National Aeronautics and Space Administration appear in this article only inside generated citation labels and nowhere else in its prose, which is the word-frequency artifact this series has documented before, where link text is counted as prose. The programme acronyms of the 1950s are expanded where they are introduced.
 
 **Four homonym families this article had to learn, none caught by any rule.** In spectroscopy an impact theory is a model of collisional line broadening. In aviation the terminal area is the airspace around an airport, so a search for terminal energy management returns air traffic control. **Passive daytime radiative cooling** is a large modern field about emitting to the sky to cool buildings, and it uses this article's exact vocabulary for the opposite purpose. And **cellular structure** means honeycomb core in aerospace and means cells in biology, which is how a paper on thermal stress and cell function reached a section about airframes. **The last was caught during the final registry check rather than by any scan.**
 
-**A rejection carried across passes rather than repeated.** Thirty-five candidate references were rejected after being read rather than by any rule, across four passes, and the list is now persisted so that a later pass cannot reselect them. Four had already slipped back once before that was done.
+**A rejection carried across passes rather than repeated.** Thirty-five candidate references were rejected after being read rather than by any rule, across several passes, and the list is now persisted so that a later pass cannot reselect them. Some had already slipped back once before that was done.
 
 **Written from present knowledge.** Material postdating the editorial date is used and identified as such.
 
@@ -551,9 +551,9 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
 - [Vinh Busemann and Culp 1980 Hypersonic and Planetary Entry Flight Mechanics][book_vinh_1980]
 
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_miller_2001]: https://openlibrary.org/search?q=Miller+The+X+Planes+X-1+to+X-45
-[book_vinh_1980]: https://openlibrary.org/search?q=Vinh+Hypersonic+and+Planetary+Entry+Flight+Mechanics
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_miller_2001]: https://openlibrary.org/works/OL7006680W
+[book_vinh_1980]: https://openlibrary.org/works/OL4092275W
 
 ### Reference
 
@@ -791,7 +791,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Le and Goo 2021][research_le_goo_2021]
 - [Lee and Mason 1960][research_lee_mason_1960]
 - [Lee et al 2025][research_lee_2025]
-- [Lee et al 2026][research_lee_2026]
 - [Leeds 1963][research_leeds_1963]
 - [Leng et al 2025][research_leng_2025]
 - [Yu Li and Nai-gang Cui 2008][research_li_cui_2008]
@@ -1129,7 +1128,6 @@ The contemporary literature adds a closing observation that is harder on the pro
 [research_le_goo_2020]: https://doi.org/10.3390/s20247185
 [research_le_goo_2021]: https://doi.org/10.2514/1.a34908
 [research_lee_2025]: https://doi.org/10.1007/s42405-024-00882-7
-[research_lee_2026]: https://doi.org/10.1007/s42823-026-01033-6
 [research_lee_mason_1960]: https://ntrs.nasa.gov/citations/19720063138
 [research_leeds_1963]: https://doi.org/10.21236/ad0400921
 [research_leng_2025]: https://doi.org/10.1016/j.energy.2025.134730

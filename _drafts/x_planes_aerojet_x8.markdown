@@ -77,7 +77,7 @@ $$\tau = \sigma N = (1.15 \times 10^{-21})(8 \times 10^{22}) = 92$$
 
 The layer is opaque by a factor of $e^{92}$ and its top is near 40 kilometres, so the measurement requires only that the rocket climb through it while watching the sun, which is precisely how [Johnson et al 1952][research_johnson_1952] made it. Ozone's absorption structure and its consequences for what reaches the ground are set out in [Ozone Layer][ref_ozone_layer], and the resonance line whose transmission fixes the 80 kilometre figure is [Lyman-alpha][ref_lyman_alpha].
 
-**Three phenomena, three altitudes, spanning 40 to 110 kilometres.** The X-8's design apogee of about 116 kilometres is not a round number chosen for its own sake. It is the smallest altitude that clears all three with margin, and the fact that it barely clears the third is the reason [X-ray astronomy][ref_xray_astronomy] waited for a larger vehicle.
+**Three phenomena, three altitudes, spanning 40 to 110 kilometres.** The X-8's design apogee of about 116 kilometres is not a round number chosen for its own sake. It is the smallest altitude that clears all three with margin, and the fact that it barely clears the highest of them is the reason [X-ray astronomy][ref_xray_astronomy] waited for a larger vehicle.
 
 ### The Figure of Merit Is Time, Not Altitude
 
@@ -165,7 +165,7 @@ so **precision improves as the inverse square root of unit cost at fixed budget*
 
 The origin is unusually well documented because the man who instigated it wrote it down at the time.
 
-In late 1945 [James Van Allen][ref_van_allen] was supervising the High Altitude Research Group at the [Applied Physics Laboratory][ref_apl] of [Johns Hopkins University][ref_jhu], and was asked to survey what upper-atmosphere research actually required. The available options were unsatisfactory in opposite directions. The captured [V-2][ref_v2] was capable but heavy, complex, in finite supply, and shared among many claimants under the Army's [Project Hermes][ref_hermes]. The scientific use of those vehicles, the immediate predecessor of everything in this article, is [V-2 Sounding Rocket][ref_v2_sounding], and the rocket-powered flight lineage the X-series came from is surveyed in [A96][related_post_a96_history_rocketplanes]. The [WAC Corporal][ref_wac_corporal], developed by the [Jet Propulsion Laboratory][ref_jpl] and the first American vehicle designed as a sounding rocket, was cheap but too small, carrying a payload measured in single kilogrammes. The V-2 research programme that both were meant to succeed is described by [Newell 1959 Sounding Rockets][book_newell_1959] and, from the German side of the lineage, by [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995] and [Ley 1968 Rockets, Missiles, and Space Travel][book_ley_1968].
+In late 1945 [James Van Allen][ref_van_allen] was supervising the High Altitude Research Group at the [Applied Physics Laboratory][ref_apl] of [Johns Hopkins University][ref_jhu], and was asked to survey what upper-atmosphere research actually required. The available options were unsatisfactory in opposite directions. The captured [V-2][ref_v2] was capable but heavy, complex, in finite supply, and shared among many claimants under the Army's [Project Hermes][ref_hermes]. The scientific use of those vehicles, the immediate predecessor of everything in this article, is [V-2 Sounding Rocket][ref_v2_sounding], and the rocket-powered flight lineage the X-series came from is surveyed in [History of Rocketplanes][related_post_a96_history_rocketplanes]. The [WAC Corporal][ref_wac_corporal], developed by the [Jet Propulsion Laboratory][ref_jpl] and the first American vehicle designed as a sounding rocket, was cheap but too small, carrying a payload measured in single kilogrammes. The V-2 research programme that both were meant to succeed is described by [Newell 1959 Sounding Rockets][book_newell_1959] and, from the German side of the lineage, by [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995] and [Ley 1968 Rockets, Missiles, and Space Travel][book_ley_1968].
 
 Van Allen's conclusion was that the requirement fell between them and that neither existing vehicle could be stretched to meet it. In 1946 he visited Aerojet, which was then producing WAC Corporal motors and developing the thrust chamber for the [Nike Ajax][ref_nike_ajax] surface-to-air missile, and concluded that the Nike chamber scaled to a sounding rocket. He was simultaneously responsible for the sounding-rocket portion of the Applied Physics Laboratory's Bumblebee programme, and the name Aerobee is his contraction of the two.
 
@@ -201,15 +201,15 @@ with $R_u$ the universal gas constant, $p_c$ the chamber pressure, and $p_e$ the
 
 $$c = \sqrt{ \frac{2 \times 1.22}{0.22} \cdot \frac{(8.314)(2900)}{0.025} \left[ 1 - \left( \frac{0.1}{2.8} \right)^{0.180} \right] }$$
 
-The bracketed term evaluates to $1 - 0.5445 = 0.4555$, the leading factor is 11.09, and the specific gas term is $9.644 \times 10^{5}$, so
+The bracketed term evaluates to $1 - 0.549 = 0.451$, the leading factor is 11.09, and the specific gas term is $9.644 \times 10^{5}$, so
 
-$$c = \sqrt{ (11.09)(9.644 \times 10^{5})(0.4555) } = \sqrt{4.872 \times 10^{6}} = 2207 \, \text{m/s}$$
+$$c = \sqrt{ (11.09)(9.644 \times 10^{5})(0.451) } = \sqrt{4.82 \times 10^{6}} = 2196 \, \text{m/s}$$
 
 corresponding to a theoretical specific impulse, being the exhaust velocity divided by standard gravity,
 
-$$I_{sp} = \frac{c}{g_0} = \frac{2207}{9.81} = 225 \, \text{s}$$
+$$I_{sp} = \frac{c}{g_0} = \frac{2196}{9.81} = 224 \, \text{s}$$
 
-Real engines of the period delivered roughly 88 to 92 percent of the theoretical figure, so the working value used throughout this article is 200 seconds of [specific impulse][ref_specific_impulse], giving an effective exhaust velocity of 1,962 metres per second. The full tradeoff space this choice sits in is the subject of [A217][related_post_a217_rocket_propellant_chemistry]. The thermochemistry behind the figure is the equilibrium calculation of [Gordon and McBride 1959][research_gordon_1959], whose method underlies every performance table of the period, and the propellant class itself is surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and [Sutton 2006 History of Liquid Propellant Rocket Engines][book_sutton_2006]. **This is a poor propellant by any modern standard and it was chosen anyway.** Liquid oxygen and alcohol, flown on the V-2, gives a higher figure, and the reason for rejecting it is not performance.
+Real engines of the period delivered roughly 88 to 92 percent of the theoretical figure, so the working value used throughout this article is 200 seconds of [specific impulse][ref_specific_impulse], giving an effective exhaust velocity of 1,962 metres per second. The full tradeoff space this choice sits in is the subject of [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry]. The thermochemistry behind the figure is the equilibrium calculation of [Gordon and McBride 1959][research_gordon_1959], whose method underlies every performance table of the period, and the propellant class itself is surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and [Sutton 2006 History of Liquid Propellant Rocket Engines][book_sutton_2006]. **This is a poor propellant by any modern standard and it was chosen anyway.** Liquid oxygen and alcohol, flown on the V-2, gives a higher figure, and the reason for rejecting it is not performance.
 
 The reason is that liquid oxygen boils at 90 kelvin. A cryogenic vehicle must be loaded shortly before launch, must be topped continuously until it flies, and cannot be held on the tower while a cloud crosses the field of view or a telemetry station reports a fault. The rate at which that matters is computable. Heat leaking into a tank at $\dot{Q}$ boils propellant off at
 
@@ -381,7 +381,7 @@ with $\gamma$ the angle between the velocity vector and the vertical, which for 
 
 $$\Delta v_g = (9.75)(42.5) = 414 \, \text{m/s}$$
 
-**Gravity loss is 31 percent of the useful burnout velocity**, and it is the reason a sounding rocket burns hard and briefly rather than gently and long. Drag loss over the same interval is estimated below at roughly 130 metres per second, so the ideal velocity increment required is
+**Gravity loss is 31 percent of the useful burnout velocity**, and it is the reason a sounding rocket burns hard and briefly rather than gently and long. Drag loss over the same interval is taken here as roughly 130 metres per second, inside the range of 60 to 150 that the drag section estimates, so the ideal velocity increment required is
 
 $$\Delta v_{\text{ideal}} = 1347 + 414 + 130 = 1891 \, \text{m/s}$$
 
@@ -413,15 +413,15 @@ $$\Delta v_1 = \frac{F_b}{\dot{m}_b} \ln \frac{745}{648} = \frac{80100}{38.8} \l
 
 less a gravity loss of 24 metres per second, leaving 264 metres per second at booster separation. Jettisoning 150 kilogrammes of spent booster leaves a sustainer stage of 498 kilogrammes, and **this figure is an independent confirmation**, because the sustainer stage mass is separately reported as approximately 1,100 pounds, which is 499 kilogrammes.
 
-The sustainer then burns 266 kilogrammes of propellant, giving
+The sustainer then burns, at 11.6 kilonewtons for 40 seconds and the same exhaust velocity, 236.5 kilogrammes of propellant, leaving 261.5 kilogrammes at burnout and giving
 
-$$\Delta v_2 = 1962 \ln \frac{498}{232} = (1962)(0.764) = 1499 \, \text{m/s}$$
+$$\Delta v_2 = 1962 \ln \frac{498}{261.5} = (1962)(0.644) = 1264 \, \text{m/s}$$
 
 less a gravity loss of $(9.75)(40) = 390$ metres per second, so the burnout velocity is
 
-$$v_b = 264 + 1499 - 390 - \Delta v_{\text{drag}} = 1373 - \Delta v_{\text{drag}}$$
+$$v_b = 264 + 1264 - 390 - \Delta v_{\text{drag}} = 1138 - \Delta v_{\text{drag}}$$
 
-Against the reported 1,347 metres per second this leaves 26 metres per second for drag, which is too little by roughly a factor of five. **The reconstruction is within 2 percent of the reported burnout velocity and its residual is the wrong size**, which means one or more of the assumed values is off by a few percent in a compensating direction. The candidates are the booster inert mass, which is assumed rather than reported, the sustainer burn time, which sources give variously as 40 and 51.5 seconds, and the specific impulse, which is inferred rather than measured. This is stated here rather than tuned away, and it is carried into the Epistemic State.
+Against the reported 1,347 metres per second this leaves no velocity for drag at all, and the reconstruction falls 209 metres per second short before any drag is counted. **The staged reconstruction does not reproduce the reported burnout velocity at a 40 second burn**, which means one or more of the assumed values is off. The candidates are the booster inert mass, which is assumed rather than reported, the sustainer burn time, which sources give variously as 40 and 51.5 seconds, and the specific impulse, which is inferred rather than measured. The burn time alone can carry the discrepancy. At 51.5 seconds the same reconstruction gives 1,616 metres per second less drag, and with a drag loss between 60 and 150 metres per second it reaches the reported figure at a burn between 47 and 49 seconds, which lies between the two published values. This is stated here rather than tuned away, and it is carried into the Epistemic State.
 
 ### The Tower, and Why It Is 143 Feet Tall
 
@@ -491,7 +491,7 @@ which at a 5.4 second period is about three minutes, longer than the powered fli
 
 $$\zeta \propto \sqrt{\rho}$$
 
-**The vehicle leaving the tower has a pitch period five times longer than the time it spent on the tower.** The tower does not make it stable. It holds the attitude until the restoring moment is merely nonzero, after which the acceleration does the rest, since the dynamic pressure at 300 metres per second is nine times higher and the frequency three times higher.
+**The vehicle leaving the tower has a pitch period six times longer than the time it spent on the tower.** The tower does not make it stable. It holds the attitude until the restoring moment is merely nonzero, after which the acceleration does the rest, since the dynamic pressure at 300 metres per second is nine times higher and the frequency three times higher.
 
 ### Static Margin and Where the Fins Must Go
 
@@ -525,7 +525,7 @@ For the values above that is
 
 $$\tau_{\text{div}} = \sqrt{\frac{3000}{4061}} = 0.86 \, \text{s}$$
 
-**A statically unstable vehicle of this size departs in under a second and is unrecoverable in three.** The first complete Aerobee was terminated 35 seconds into flight with the tail yawing, which is forty time constants, so whatever went wrong was not marginal. The centre of pressure sits close to the fins, since they dominate the sum, and the centre of gravity moves forward as propellant is consumed from tanks that straddle it. The static margin therefore changes throughout the burn, and the requirement is that it stay positive and bounded at every instant rather than at any single one. The formulation used here is the one set out for finned vehicles by [Barrowman 1967][research_barrowman_1967], whose later treatment aimed specifically at this vehicle class is [Barrowman 1982][research_barrowman_1982]. Its textbook forms are [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2001 Fundamentals of Aerodynamics][book_anderson_2001_fundamentals]. The free-flight rocket-model technique that NACA developed in exactly this period, and that [Stone and Sandahl 1951][research_stone_1951] and [Gillis and Mitchell 1957][research_gillis_1957] describe, was the standard means of measuring these coefficients before wind tunnels reached the relevant Mach numbers, with the fin-configuration measurements of [Keynton 1961][research_keynton_1961], [Jaquet 1961][research_jaquet_1961], and [Robinson 1961][research_robinson_1961] filling in the cases the theory did not cover. Thick-wedge fins with swept leading edges, which is the Aerobee planform, were measured directly by [Yuska 1966][research_yuska_1966], and the effect of planform on a wingless missile of the same general shape is [Trescot et al 1973][research_trescot_1973]. The body contribution that the fin terms are added to, across the full speed range this vehicle passes through, is [Moore 1972][research_moore_1972].
+**A statically unstable vehicle of this size departs in under a second and is unrecoverable in three.** The first complete Aerobee was terminated 35 seconds into flight with the tail yawing, which is forty time constants, so whatever went wrong was not marginal. The centre of pressure sits close to the fins, since they dominate the sum, and the centre of gravity moves forward as propellant is consumed from tanks that straddle it. The static margin therefore changes throughout the burn, and the requirement is that it stay positive and bounded at every instant rather than at any single one. The formulation used here is the one set out for finned vehicles by [Barrowman 1967][research_barrowman_1967], whose later treatment aimed specifically at this vehicle class is [Barrowman 1982][research_barrowman_1982]. Its textbook forms are [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2001 Fundamentals of Aerodynamics][book_anderson_2001_fundamentals]. The free-flight rocket-model technique that the National Advisory Committee for Aeronautics, abbreviated NACA, developed in exactly this period, and that [Stone and Sandahl 1951][research_stone_1951] and [Gillis and Mitchell 1957][research_gillis_1957] describe, was the standard means of measuring these coefficients before wind tunnels reached the relevant Mach numbers, with the fin-configuration measurements of [Keynton 1961][research_keynton_1961], [Jaquet 1961][research_jaquet_1961], and [Robinson 1961][research_robinson_1961] filling in the cases the theory did not cover. Thick-wedge fins with swept leading edges, which is the Aerobee planform, were measured directly by [Yuska 1966][research_yuska_1966], and the effect of planform on a wingless missile of the same general shape is [Trescot et al 1973][research_trescot_1973]. The body contribution that the fin terms are added to, across the full speed range this vehicle passes through, is [Moore 1972][research_moore_1972].
 
 ### Dispersion Without Guidance
 
@@ -541,7 +541,7 @@ The second is thrust misalignment. A lateral thrust component arising from a noz
 
 $$\Delta v_{\perp} = \int_0^{t_b} \frac{F \epsilon}{m} \, \mathrm{d}t \approx \epsilon \, \Delta v$$
 
-so a misalignment of one milliradian against an ideal increment of 1,900 metres per second gives 1.9 metres per second of lateral velocity, which over a 400 second flight is 760 metres of impact displacement. **A tenth of a degree of nozzle misalignment moves the impact point by nearly a kilometre.**
+so a misalignment of one milliradian against an ideal increment of 1,900 metres per second gives 1.9 metres per second of lateral velocity, which over a 400 second flight is 760 metres of impact displacement. **A tenth of a degree of nozzle misalignment moves the impact point by more than a kilometre.**
 
 The third is wind. A statically stable rocket weathercocks into the relative wind, so a wind layer of speed $w$ encountered while the vehicle is still slow turns the velocity vector rather than merely displacing it, and the resulting dispersion is far larger than the wind speed alone suggests. The correction, called wind weighting, computes a launcher setting that cancels the integrated effect of the measured wind profile. The size of the effect is worth deriving rather than asserting, because it is larger than intuition suggests. A statically stable vehicle holds its axis along the relative wind, so every increment of speed it gains is added along an axis tilted by $w/v$ from the vertical. Integrating that tilt over the burn gives a lateral velocity
 
@@ -643,13 +643,13 @@ The descent speed of a body falling through an atmosphere is governed by its [ba
 
 $$\beta = \frac{m}{C_D A}$$
 
-A stable finned body at supersonic speed has a drag coefficient near 0.25 on a frontal area of 0.1134 square metres, so for a 232 kilogramme burnout mass
+A stable finned body at supersonic speed has a drag coefficient near 0.25 on a frontal area of 0.1134 square metres, so for a 261.5 kilogramme burnout mass
 
-$$\beta_{\text{stable}} = \frac{232}{(0.25)(0.1134)} = 8180 \, \text{kg/m}^{2}$$
+$$\beta_{\text{stable}} = \frac{261.5}{(0.25)(0.1134)} = 9220 \, \text{kg/m}^{2}$$
 
 A tumbling cylinder presents a mean projected area between its frontal area and its full side profile of $7.9 \times 0.38 = 3.0$ square metres, with a mean of roughly 1.5 square metres, at a drag coefficient near 1.2, giving
 
-$$\beta_{\text{tumble}} = \frac{232}{(1.2)(1.5)} = 129 \, \text{kg/m}^{2}$$
+$$\beta_{\text{tumble}} = \frac{261.5}{(1.2)(1.5)} = 145 \, \text{kg/m}^{2}$$
 
 a reduction of a factor of 63. Since the terminal velocity at any density scales as the square root of the ballistic coefficient,
 
@@ -657,9 +657,9 @@ $$v_t = \sqrt{\frac{2 \beta g}{\rho}}$$
 
 the tumbling body descends about $\sqrt{63} = 7.9$ times more slowly, and the dynamic pressure at parachute deployment is lower by the full factor of 63. **Blowing the fins off reduces the parachute opening load by a factor of sixty.** That is the entire justification, and it is why a 1949 vehicle used a technique that looks like damage.
 
-The parachute itself follows from the landing speed. For a nose cone of 100 kilogrammes descending at 8 metres per second at the 1,200 metre range elevation where the density is 1.09 kilogrammes per cubic metre,
+The parachute itself follows from the landing speed. For a nose cone of 100 kilogrammes descending at 8 metres per second at the 1,200 metre range elevation where the density is 1.06 kilogrammes per cubic metre, the value used for tower exit,
 
-$$A_c = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{2 (100)(9.81)}{(1.09)(1.4)(64)} = 20.1 \, \text{m}^{2}$$
+$$A_c = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{2 (100)(9.81)}{(1.06)(1.4)(64)} = 20.7 \, \text{m}^{2}$$
 
 which is a canopy of diameter
 
@@ -671,9 +671,9 @@ $$F_{\text{open}} = C_x \, q_d \, C_D A_c$$
 
 At a deployment altitude of 6 kilometres, where the density is 0.66 kilogrammes per cubic metre, and a speed of 100 metres per second, the steady drag alone is
 
-$$q_d C_D A_c = \tfrac{1}{2}(0.66)(100)^{2}(1.4)(20.1) = 92.9 \, \text{kN}$$
+$$q_d C_D A_c = \tfrac{1}{2}(0.66)(100)^{2}(1.4)(20.7) = 95.6 \, \text{kN}$$
 
-which on a 100 kilogramme payload is 95 times gravity before any opening-shock factor is applied. **That load destroys the instrument**, which is why the tumbling phase must bleed the speed first, and why the deployment happens low, at about 6 kilometres, rather than high. Deploying at the same speed at 30 kilometres, where the density is 0.018, would give only 2.5 kilonewtons, but the body would not have slowed to 100 metres per second there in the first place. The ballistic descent itself, in which a body of fixed ballistic coefficient decelerates in an exponential atmosphere, is the problem [Eggers and Wong 1961][research_eggers_1961] set out for entry vehicles and which applies unchanged to a nose cone returning from 116 kilometres. The design relations used here are those of [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992], with the dynamics and stability treatment of [Ibrahim and Engdahl 1974][research_ibrahim_1974]. Period recovery practice is [Downing et al 1956][research_downing_1956], and the deployment-altitude measurement that this analysis turns on was made by telemetry in [Smollett 1955][research_smollett_1955]. The recovery pack itself went through repeated modification, recorded by [Flynn and Groves 1964][research_flynn_1964], and the alternative of controlling the descent attitude by shifting the centre of gravity rather than by jettisoning fins is [Mcgarvey 1973][research_mcgarvey_1973]. A later mechanism for the same problem is [Flores 1986][research_flores_1986], and the recovery system of the largest family member is [Aerobee 350 recovery system Final project report][research_ntrs_19710016407_1970]. The general behaviour of a decelerating body under a canopy is surveyed in [Parachute][ref_parachute].
+which on a 100 kilogramme payload is 97 times gravity before any opening-shock factor is applied. **That load destroys the instrument**, which is why the tumbling phase must bleed the speed first, and why the deployment happens low, at about 6 kilometres, rather than high. Deploying at the same speed at 30 kilometres, where the density is 0.018, would give only 2.6 kilonewtons, but the body would not have slowed to 100 metres per second there in the first place. The ballistic descent itself, in which a body of fixed ballistic coefficient decelerates in an exponential atmosphere, is the problem [Eggers and Wong 1961][research_eggers_1961] set out for entry vehicles and which applies unchanged to a nose cone returning from 116 kilometres. The design relations used here are those of [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992], with the dynamics and stability treatment of [Ibrahim and Engdahl 1974][research_ibrahim_1974]. Period recovery practice is [Downing et al 1956][research_downing_1956], and the deployment-altitude measurement that this analysis turns on was made by telemetry in [Smollett 1955][research_smollett_1955]. The recovery pack itself went through repeated modification, recorded by [Flynn and Groves 1964][research_flynn_1964], and the alternative of controlling the descent attitude by shifting the centre of gravity rather than by jettisoning fins is [Mcgarvey 1973][research_mcgarvey_1973]. A later mechanism for the same problem is [Flores 1986][research_flores_1986], and the recovery system of the largest family member is [Aerobee 350 recovery system Final project report][research_ntrs_19710016407_1970]. The general behaviour of a decelerating body under a canopy is surveyed in [Parachute][ref_parachute].
 
 ### The Data Return Argument
 
@@ -717,7 +717,7 @@ and at six bits of usable density range this is $5.2 \times 10^{7}$ bits per fra
 
 $$t = \frac{5.2 \times 10^{7}}{4.2 \times 10^{3}} = 1.24 \times 10^{4} \, \text{s} = 3.4 \, \text{hours}$$
 
-The bound is [Shannon 1948][ref_shannon_1948], with the treatments of [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and the modulation scheme the vehicle actually used is [Pulse-Position Modulation][ref_ppm]. **The flight lasts about eight minutes.** A single photographic frame therefore contains three orders of magnitude more information than the entire telemetry budget of the flight, and spectrographs, nuclear emulsions, and cameras are consequently not telemeterable at all. They must come back physically or they are lost.
+The bound is [Shannon 1948][ref_shannon_1948], with the treatments of [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and the modulation scheme the vehicle actually used is [Pulse-Position Modulation][ref_ppm]. **The flight lasts about eight minutes.** A single photographic frame therefore contains about twenty-five times more information than the entire telemetry budget of an eight-minute flight, and spectrographs, nuclear emulsions, and cameras are consequently not telemeterable at all. They must come back physically or they are lost.
 
 This is why the parachute failures on the first five Air Force flights were catastrophic rather than inconvenient, and it is the sharpest illustration in this article of the difference between a vehicle that is its own experiment and a vehicle that is carrying somebody else's. Rocket instrumentation practice of the following decade is described by [Anderson 1972][research_anderson_1972], and the tracking and telemetry ground segment by [Hudgins and Lease 1969][research_hudgins_1969].
 
@@ -845,7 +845,7 @@ Integrating a triangular approximation over the roughly 20 seconds during which 
 
 $$\Delta v_{\text{drag}} \approx \tfrac{1}{2}(7.7)(20) \approx 77 \, \text{m/s}$$
 
-with a plausible range of 60 to 150 metres per second depending on the drag coefficient assumed. **The reconstruction earlier assumed 130 and the residual demanded 26**, and this independent estimate lands between them without settling the question, which is the honest outcome. The drag data for bodies of this class come from the same free-flight programme, including [Mitcham et al 1952][research_mitcham_1952] and [Bond and Swanson 1953][research_bond_1953], and the compressible relations are [Liepmann and Roshko 1957 Elements of Gasdynamics][book_liepmann_roshko_1957].
+with a plausible range of 60 to 150 metres per second depending on the drag coefficient assumed. **The trajectory check assumed 130, and the staged reconstruction at a 40 second burn left no velocity for drag at all**, so this independent estimate bounds the drag loss without settling which published burn time is right, which is the honest outcome. The drag data for bodies of this class come from the same free-flight programme, including [Mitcham et al 1952][research_mitcham_1952] and [Bond and Swanson 1953][research_bond_1953], and the compressible relations are [Liepmann and Roshko 1957 Elements of Gasdynamics][book_liepmann_roshko_1957].
 
 ### Instrumentation and the Absence of Attitude Control
 
@@ -857,11 +857,11 @@ $$\tan \theta_c = \frac{I_y \omega_t}{I_x p}$$
 
 in which $I_x$ is the roll inertia, $I_y$ the transverse inertia, $p$ the roll rate, and $\omega_t$ the transverse rate left over when the aerodynamic moments vanish. For a slender vehicle the roll inertia is small,
 
-$$I_x \approx \frac{m r^{2}}{2} = \frac{(232)(0.19)^{2}}{2} = 4.2 \, \text{kg} \cdot \text{m}^{2}$$
+$$I_x \approx \frac{m r^{2}}{2} = \frac{(261.5)(0.19)^{2}}{2} = 4.7 \, \text{kg} \cdot \text{m}^{2}$$
 
-against a transverse inertia of order 1,200, so the ratio $I_y / I_x$ is nearly 300 and even a small residual rate produces a large cone. At a residual transverse rate of 0.1 radians per second and a roll rate of 13.8,
+against a transverse inertia of order 1,200, so the ratio $I_y / I_x$ is about 250 and even a small residual rate produces a large cone. At a residual transverse rate of 0.1 radians per second and a roll rate of 13.8,
 
-$$\theta_c = \arctan \frac{(1200)(0.1)}{(4.2)(13.8)} = 64^{\circ}$$
+$$\theta_c = \arctan \frac{(1200)(0.1)}{(4.7)(13.8)} = 62^{\circ}$$
 
 **A tenth of a radian per second at burnout puts the instrument axis through a sixty-degree cone for the whole of the observing window.** This is the single most important fact about pointing on an uncontrolled sounding rocket, it is a consequence of slenderness and not of poor workmanship, and it is why the aspect had to be recorded and not commanded. For an instrument that needs to know where it was looking, this creates a measurement problem that is solved not by controlling the attitude but by recording it.
 
@@ -959,7 +959,7 @@ Two flights outside the instrumentation programme are worth recording because th
 
 Counts are given inconsistently across sources. One accounting gives sixty X-8 flights comprising 28 X-8, 30 X-8A, 1 X-8B, and 1 X-8C. Another gives deliveries of 30 X-8, 30 X-8A, 1 X-8B, 2 X-8C, and 3 X-8D. A launch-by-launch table gives 28 RTV-A-1, 31 RTV-A-1a, 1 RTV-A-1b, and 1 RTV-A-1c. The three X-8D were never flown. These are reconcilable as a distinction between vehicles delivered and vehicles launched, but no source consulted here states which figure is which, and the discrepancy is recorded in the Epistemic State.
 
-The wider family record dwarfs it. A total of 1,037 Aerobees of all variants were launched with a success rate above 97 percent, more than half of them Aerobee 150 and 150A vehicles, from White Sands, Holloman, [Wallops Island][ref_wallops], Eglin, Fort Churchill, [Woomera][ref_woomera], Natal, Barking Sands, Nouadhibou, Vandenberg, Walker's Cay, and the deck of the research vessel [*Norton Sound*][ref_norton_sound]. Reliability across the family was reassessed formally by [Hisler 1964][research_hisler_1964], and the vehicle's own place in the wider programme is [Newell 1965][research_newell_1965], [Newell 1964][research_newell_1964], and the flight summaries of [Sterhardt 1965][research_sterhardt_1965]. Per-flight documentation of the kind the X-8 era did not leave behind exists for the later vehicles, including [Hoidale 1963, Ne 3.127][research_hoidale_1963] and [Hoidale 1963][research_hoidale_1963_2] for individual meteorological rounds and [Fortney 1965][research_fortney_1965] for an instrumented Aerobee 150 pair. Where the family went next is [Richards 1967][research_richards_1967]. The last flight was an airglow payload on an Aerobee 150 MI at White Sands on 17 January 1985, thirty-eight years after the first. The compendia of [Busse and Leffler 1966][research_busse_1966], [Bushnell et al 1965][research_bushnell_1965], and [Bushnell et al 1967][research_bushnell_1967_2] record the NASA-era launches flight by flight, and [Corliss 1971][research_corliss_1971] gives the historical summary of the whole sounding-rocket programme through 1968.
+The wider family record dwarfs it. A total of 1,037 Aerobees of all variants were launched with a success rate above 97 percent, more than half of them Aerobee 150 and 150A vehicles, from White Sands, Holloman, [Wallops Island][ref_wallops], Eglin, Fort Churchill, [Woomera][ref_woomera], Natal, Barking Sands, Nouadhibou, Vandenberg, Walker's Cay, and the deck of the research vessel [*Norton Sound*][ref_norton_sound]. Reliability across the family was reassessed formally by [Hisler 1964][research_hisler_1964], and the vehicle's own place in the wider programme is [Newell 1965][research_newell_1965], [Newell 1964][research_newell_1964], and the flight summaries of [Sterhardt 1965][research_sterhardt_1965]. Per-flight documentation of the kind the X-8 era did not leave behind exists for the later vehicles, including [Hoidale 1963, Ne 3.127][research_hoidale_1963] and [Hoidale 1963][research_hoidale_1963_2] for individual meteorological rounds and [Fortney 1965][research_fortney_1965] for an instrumented Aerobee 150 pair. Where the family went next is [Richards 1967][research_richards_1967]. The last flight was an airglow payload on an Aerobee 150 MI at White Sands on 17 January 1985, thirty-eight years after the first. The compendia of [Busse and Leffler 1966][research_busse_1966], [Bushnell et al 1965][research_bushnell_1965], and [Bushnell et al 1967][research_bushnell_1967_2] record the launches of the era of the National Aeronautics and Space Administration, abbreviated NASA, flight by flight, and [Corliss 1971][research_corliss_1971] gives the historical summary of the whole sounding-rocket programme through 1968.
 
 ## Comparison With Ground Prediction
 
@@ -1085,7 +1085,7 @@ For a five-sigma detection of a source giving one count per second against a bac
 
 $$t_{\min} = \frac{25 (1 + 5)}{1^{2}} = 150 \, \text{s}$$
 
-**which fits inside the observing window with room to spare**, while a source ten times fainter would require 12,700 seconds and is out of reach of any ballistic flight. The relation partitions the sky sharply into what a sounding rocket can find and what it cannot, and the reason X-ray astronomy began on a rocket rather than a satellite is that the brightest sources fall on the accessible side of that line. Nothing about the argument requires the flight to be long. It requires the source to be bright, and the observing-time relation derived at the beginning of this article is what makes five minutes available at all. Giacconi's own account of the episode is [Giacconi 2008 Secrets of the Hoary Deep][book_giacconi_2008], the source itself is [Scorpius X-1][ref_sco_x1], and the recognition is [Nobel Prize in Physics 2002][ref_nobel_2002]. [Rossi 1967][research_rossi_1967], who was one of the four authors of the discovery paper, reviewed the field it opened five years later. The instrumentation lineage that followed within the sounding-rocket programme is [Fisher 1966][research_fisher_1966], [Davis et al 1973][research_davis_1973], and [Kestenbaum et al 1971][research_kestenbaum_1971], with the detector development that made the flights possible in [Baily and Cleary 1962][research_baily_1962] and solar-radiation instrumentation generally in [Marchgraber and Armstrong 1962][research_marchgraber_1962]. The same argument carried into the infrared in [Harwit et al 1970][research_harwit_1970_2]. A source bright enough to detect at all was detectable in the time available, and the sky survey that followed was a matter of flying repeatedly rather than of flying longer.
+**which fits inside the observing window with room to spare**, while a source ten times fainter would require 12,750 seconds and is out of reach of any ballistic flight. The relation partitions the sky sharply into what a sounding rocket can find and what it cannot, and the reason X-ray astronomy began on a rocket rather than a satellite is that the brightest sources fall on the accessible side of that line. Nothing about the argument requires the flight to be long. It requires the source to be bright, and the observing-time relation derived at the beginning of this article is what makes five minutes available at all. Giacconi's own account of the episode is [Giacconi 2008 Secrets of the Hoary Deep][book_giacconi_2008], the source itself is [Scorpius X-1][ref_sco_x1], and the recognition is [Nobel Prize in Physics 2002][ref_nobel_2002]. [Rossi 1967][research_rossi_1967], who was one of the four authors of the discovery paper, reviewed the field it opened five years later. The instrumentation lineage that followed within the sounding-rocket programme is [Fisher 1966][research_fisher_1966], [Davis et al 1973][research_davis_1973], and [Kestenbaum et al 1971][research_kestenbaum_1971], with the detector development that made the flights possible in [Baily and Cleary 1962][research_baily_1962] and solar-radiation instrumentation generally in [Marchgraber and Armstrong 1962][research_marchgraber_1962]. The same argument carried into the infrared in [Harwit et al 1970][research_harwit_1970_2]. A source bright enough to detect at all was detectable in the time available, and the sky survey that followed was a matter of flying repeatedly rather than of flying longer.
 
 ### The Ionosphere and the Neutral Atmosphere
 
@@ -1131,9 +1131,9 @@ The X-8 is seventy-five years old and every problem it solved is still being wor
 
 ### Sounding Rockets, Which Did Not Stop
 
-The suborbital research vehicle remains a category with an active literature, and its justification is still the one derived above, which is that a short exposure obtained often is worth more than a long exposure obtained once. Microgravity research on suborbital vehicles is the clearest modern case, with [Ferl et al 2026][research_ferl_2026] reporting rapid gene-expression changes across a suborbital profile, [Padilla et al 2025][research_padilla_2025] adapting microelectrode-array electrophysiology to the environment, and [Quadrini et al 2026][research_quadrini_2026] foaming composite cellular structures during a suborbital flight, and [Perumbil et al 2025][research_perumbil_2025] proposing an atom interferometer for the same profile. The human-rating question that a carrier of people rather than instruments raises is [Schroeder et al 2021][research_schroeder_2021]. [Silvani et al 2022][research_silvani_2022] test a printed biological platform against the profile, and [Garcia et al 2023][research_garcia_2023] follow tumour stem cells through one. **Every one of those experiments is constrained by exactly the relation between mass ratio and observing time derived at the start of this article.** Student and institutional programmes fly the same profile for the same reason, as [Dąbrowski et al 2020][research_dabrowski_2020] report from a European sounding-rocket campaign, and the operational and regulatory shape of suborbital flight is examined by [Zahari and Romli 2019][research_zahari_2019] and, for the return leg specifically, by [Kwiek et al 2023][research_kwiek_2023].
+The suborbital research vehicle remains a category with an active literature, and its justification is still the one derived above, which is that a short exposure obtained often is worth more than a long exposure obtained once. Microgravity research on suborbital vehicles is the clearest modern case, with [Ferl et al 2026][research_ferl_2026] reporting rapid gene-expression changes across a suborbital profile, [Padilla et al 2025][research_padilla_2025] adapting microelectrode-array electrophysiology to the environment, [Quadrini et al 2026][research_quadrini_2026] foaming composite cellular structures during a suborbital flight, and [Perumbil et al 2025][research_perumbil_2025] proposing an atom interferometer for the same profile. The human-rating question that a carrier of people rather than instruments raises is [Schroeder et al 2021][research_schroeder_2021]. [Silvani et al 2022][research_silvani_2022] test a printed biological platform against the profile, and [Garcia et al 2023][research_garcia_2023] follow tumour stem cells through one. **Every one of those experiments is constrained by exactly the relation between mass ratio and observing time derived at the start of this article.** Student and institutional programmes fly the same profile for the same reason, as [Dąbrowski et al 2020][research_dabrowski_2020] report from a European sounding-rocket campaign, and the operational and regulatory shape of suborbital flight is examined by [Zahari and Romli 2019][research_zahari_2019] and, for the return leg specifically, by [Kwiek et al 2023][research_kwiek_2023].
 
-The instrument side has moved further. Modern sounding rockets carry X-ray microcalorimeter spectrometers, extreme-ultraviolet spectrographs, and imaging telescopes whose pointing requirements would have been inconceivable in 1949. The flight opportunity is now often justified as technology maturation for an orbital mission rather than as science in its own right, a path [Miles 2025][research_miles_2025] traces through the development of the great observatories. Far-ultraviolet spectroscopy on a rocket is [Hoadley et al 2020][research_hoadley_2020]. Solar extreme-ultraviolet instruments continue in [Telikicherla et al 2026][research_telikicherla_2026], [Feng et al 2024][research_feng_2024], and [Calcines Rosario et al 2024][research_calcines_rosario_2024], with the calibration problem that a five-minute flight makes acute treated by [Vigil et al 2021][research_vigil_2021]. The microcalorimeter detectors that now fly on such payloads bring their own difficulties, including the blocking filters of [Eckart and Yoon 2019][research_eckart_2019] and the in-orbit gain tracking of [Sawada et al 2025][research_sawada_2025]. Detectors built specifically for the sounding-rocket environment continue in [Wang et al 2022][research_wang_2022], with the background modelling that the counting-statistics argument above depends on in [Roy et al 2021][research_roy_2021] and a modern flight data system in [Nagasawa et al 2026][research_nagasawa_2026]. The vibration qualification that any of them must survive is [Eun and Han 2022][research_eun_2022]. The programme that supplies it descends directly from the one the Aerobee served, described at [NASA Sounding Rocket Program][ref_nasa_sounding_rocket_program]. The broader context of what suborbital access is for is [A90][related_post_a90_intro_space_studies].
+The instrument side has moved further. Modern sounding rockets carry X-ray microcalorimeter spectrometers, extreme-ultraviolet spectrographs, and imaging telescopes whose pointing requirements would have been inconceivable in 1949. The flight opportunity is now often justified as technology maturation for an orbital mission rather than as science in its own right, a path [Miles 2025][research_miles_2025] traces through the development of the great observatories. Far-ultraviolet spectroscopy on a rocket is [Hoadley et al 2020][research_hoadley_2020]. Solar extreme-ultraviolet instruments continue in [Telikicherla et al 2026][research_telikicherla_2026], [Feng et al 2024][research_feng_2024], and [Calcines Rosario et al 2024][research_calcines_rosario_2024], with the calibration problem that a five-minute flight makes acute treated by [Vigil et al 2021][research_vigil_2021]. The microcalorimeter detectors that now fly on such payloads bring their own difficulties, including the blocking filters of [Eckart and Yoon 2019][research_eckart_2019] and the in-orbit gain tracking of [Sawada et al 2025][research_sawada_2025]. Detectors built specifically for the sounding-rocket environment continue in [Wang et al 2022][research_wang_2022], with the background modelling that the counting-statistics argument above depends on in [Roy et al 2021][research_roy_2021] and a modern flight data system in [Nagasawa et al 2026][research_nagasawa_2026]. The vibration qualification that any of them must survive is [Eun and Han 2022][research_eun_2022]. The programme that supplies it descends directly from the one the Aerobee served, described at [NASA Sounding Rocket Program][ref_nasa_sounding_rocket_program]. The broader context of what suborbital access is for is [Introduction to Space Studies][related_post_a90_intro_space_studies].
 
 ### Dispersion and Stability, Still Unsolved in the General Case
 
@@ -1145,7 +1145,7 @@ Roll resonance, the hazard that the density-scaling argument above shows to be u
 
 The X-8's propellant choice was hypergolic storable, and the modern field is the same choice with the toxicity removed. The literature on green hypergolic replacements is large and active, with [Yilmaz et al 2025][research_yilmaz_2025] surveying current developments and future direction, [Zhang et al 2025, Hydrogen Peroxide Ignition][research_zhang_2025] testing 90 percent hydrogen peroxide ignition, [Mendoza et al 2025][research_mendoza_2025] optimising a monoethanolamine-based green propellant, [Cardoso et al 2026][research_cardoso_2026] developing a green hypergolic gel, and [Caffiero et al 2026][research_caffiero_2026] reviewing catalytic and reactive high-test-peroxide ignition, with the monopropellant alternative in [Kokal et al 2025][research_kokal_2025]. The underlying chemistry is being resolved at the mechanistic level by [Biswas et al 2025, Atmospheric Ignition Chemistry][research_biswas_2025] and [Biswas et al 2025, Hydrogen Peroxide Hypergols][research_biswas_2025_2]. Ionic liquids are the most-explored replacement family, and their ignition delay, which is the property the aniline blend was chosen for, is measured by [Fareghi‐Alamdari et al 2019][research_fareghi_alamdari_2019], shortened by [Sun and Tang 2020][research_sun_2020] and [Sun and Tang 2021][research_sun_2021], promoted with additives by [Bhosale et al 2020][research_bhosale_2020], and pushed toward practical fuels by [Wang et al 2021, Ionic Liquid Fuels][research_wang_2021]. A complete thruster running such a propellant was fired by [Negri and Lauck 2022][research_negri_2022], and the instability that appears when it is scaled up is [Gao et al 2022][research_gao_2022].
 
-**The property being preserved is the one the X-8 chose it for**, which is that the vehicle can be loaded and then left alone, and the property being discarded is the one the X-8 accepted, which is that touching the propellant is dangerous. Pressure-fed architecture likewise persists where the same logic applies, with [Montaini and Carlotti 2026][research_montaini_2026] giving a modular design and optimisation framework for pressure-fed upper stages, and pressurisation-system analysis in [Puccinelli et al 2025][research_puccinelli_2025] and [Teia 2025][research_teia_2025]. Injector design as a discipline is reviewed by [Li et al 2026, Injector Review][research_li_2026_3], with the pintle case in [Cha et al 2023][research_cha_2023]. Combustion instability, which the Aerobee's low chamber pressure spared it, is now attacked analytically by [Liang et al 2022][research_liang_2022_2] through bifurcation, experimentally by [Umeoka et al 2021][research_umeoka_2021], and numerically by [Xiong et al 2020][research_xiong_2020] and [Liu et al 2023][research_liu_2023], with the feed-coupled case in [Jin et al 2024][research_jin_2024] and the tank-side dynamics in [Wang et al 2021, Tank Pressurization][research_wang_2021_2].
+**The property being preserved is the one the X-8 chose it for**, which is that the vehicle can be loaded and then left alone, and the property being discarded is the one the X-8 accepted, which is that touching the propellant is dangerous. Pressure-fed architecture likewise persists where the same logic applies, with [Montaini and Carlotti 2026][research_montaini_2026] giving a modular design and optimisation framework for pressure-fed upper stages, and pressurisation-system analysis in [Puccinelli et al 2025][research_puccinelli_2025] and [Teia 2025][research_teia_2025]. Injector design as a discipline is reviewed by [Li et al 2026, Injector Review][research_li_2026_3], with the pintle case in [Cha et al 2023][research_cha_2023]. Combustion instability, which the Aerobee's low chamber pressure spared it, is now attacked analytically by [Liang et al 2022][research_liang_2022_2] through bifurcation, experimentally by [Umeoka et al 2021][research_umeoka_2021], and numerically by [Xiong et al 2020][research_xiong_2020] and [Liu et al 2023][research_liu_2023], with the feed-coupled case in [Jin et al 2024][research_jin_2024].
 
 ### The Motor the Aerobee Would Use Today
 
@@ -1173,7 +1173,7 @@ Thermosphere density, which the rocket panel first measured, is still being pred
 
 The cost relation derived at the start of this article, in which a cheaper flight buys precision through sample size, has become the explicit subject of a literature rather than an implicit assumption. [Wilken 2024][research_wilken_2024] builds cost estimates for launch vehicle families under market uncertainty, and [Niederstrasser 2022][research_niederstrasser_2022] surveys the small launch vehicles that exist because the same argument was made about orbit. Reusability is the alternative route to the same end, pursued by [Guadagnini et al 2023][research_guadagnini_2023] and [Long et al 2026][research_long_2026], and it is the route the X-8 explicitly rejected.
 
-Sensor placement, which is where an experimenter spends the precision that cheapness buys, is now posed as an optimisation in [An et al 2022][research_an_2022] and [Dai et al 2025][research_dai_2025]. **The X-8's answer to all of these questions was to make the vehicle cheap enough that the questions did not need answering**, and that answer is still the one a sounding rocket gives.
+**The X-8's answer to all of these questions was to make the vehicle cheap enough that the questions did not need answering**, and that answer is still the one a sounding rocket gives.
 
 ### Thermal Protection, Which the X-8 Barely Needed
 
@@ -1207,15 +1207,17 @@ Reports held by the Defense Technical Information Center are registered with Cro
 
 The bias that remains is narrower than it first appeared but it is real. **The Aerobee 150 and 350 are still better documented than the X-8 itself**, because the later vehicles were flown under an agency that published, and the Applied Physics Laboratory material of the earliest years survives mainly through the report series and through journal publication.
 
-Three consequences follow for this article. Vehicle parameters are drawn from secondary compilations rather than from primary specifications, and where those compilations disagree the disagreement is reported. Flight-by-flight detail for the X-8 proper rests on a narrower base than the analysis built on it, and the counts in the flight-test section are the visible symptom of that. The science results are the best-documented part of the whole subject, because they were published in the open literature at the time, which is why that section carries more references than any other.
+Three consequences follow for this article. Vehicle parameters are drawn from secondary compilations rather than from primary specifications, and where those compilations disagree the disagreement is reported. Flight-by-flight detail for the X-8 proper rests on a narrower base than the analysis built on it, and the counts in the flight-test section are the visible symptom of that. The science results are the best-documented part of the whole subject, because they were published in the open literature at the time, which is why What the Data Changed cites 97 research works, more than any section except The Contemporary Literature.
 
-**The survey was re-read on 7 October 2026, and the rebuilt filter refused none of it.** All 368 research records were read against the subject of this article, which is the sounding rocket, its propulsion, its dispersion and recovery, and the upper-atmosphere and astronomical science it carried, and the filter left the total at 368 with no section of the survey changed. Every record is cited in a sentence of the body, so each is a hand-chosen source. **One of them was then removed by hand**, a study of cosmic-ray flux measured by the Alpha Magnetic Spectrometer that the suborbital passage had described as an experiment on bacterial cultures, so the total stands at 367. The works furthest from the vehicle, on gene expression, tumour cells and neuronal cultures flown on suborbital profiles, are kept because the passage citing them uses them as the modern case of the short and frequent exposure the Aerobee pioneered. A reading of 300 records that neither screen flagged found none off topic, which puts the remaining contamination near zero.
+**The survey was re-read on 7 October 2026, and the rebuilt filter refused none of it.** All 368 research records were read against the subject of this article, which is the sounding rocket, its propulsion, its dispersion and recovery, and the upper-atmosphere and astronomical science it carried, and the filter left the total at 368 with no section of the survey changed. Every record is cited in a sentence of the body, so each is a hand-chosen source. **One of them was then removed by hand**, a study of cosmic-ray flux measured by the Alpha Magnetic Spectrometer that the suborbital passage had described as an experiment on bacterial cultures, so the total stood at 367. The works furthest from the vehicle, on gene expression, tumour cells and neuronal cultures flown on suborbital profiles, were kept at that reading because the passage citing them uses them as the modern case of the short and frequent exposure the Aerobee pioneered. A reading of 300 records that neither screen flagged found none off topic.
+
+**The second sampling pass of 8 October 2026 found two records that no earlier reading had seen, and neither was off topic.** They are a survey of instrumentation for balloon and rocket experiments and an analysis of the motion of a spinning vehicle of varying mass, and with them every title in the survey has now been read. A full reading of the body on the same day removed three records that earlier readings had kept as doubtful, two studies of optimal sensor placement for structural health monitoring and for rotating machinery, cited together as the modern form of an experimenter's sensor placement, and a study of liquefied natural gas tank pressurisation on ships, cited as the tank-side dynamics of rocket combustion instability. The sentence resting on the first two was removed and the clause citing the third was cut, so the total now stands at 364. Because every title has been read, no sample measures the contamination that remains, and what remains is whatever a reader of titles alone could misjudge. A check on 8 October 2026 for records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, and journal front matter such as covers, contents lists, reviewer lists and indexes, found none and removed none, so the total stays at 364.
 
 ## Epistemic State
 
 **Historical fact, well documented.** The Aerobee originated in a 1946 Naval Research Laboratory contract to Aerojet instigated by Van Allen at the Applied Physics Laboratory. The name is a contraction of Aerojet and Bumblebee. The first dummy flight was 25 September 1947 and the first fully successful flight 5 March 1948. The first Air Force flight was USAF-1 from Holloman on 2 December 1949, reaching 96.1 kilometres, and its nose cone was lost until July 1950 with the film destroyed. The Aerobee family flew 1,037 times, ending on 17 January 1985. The Scorpius X-1 detection was made from an Aerobee 150 on 19 June 1962 and reported by Giacconi and colleagues.
 
-**Engineering analysis, computed here.** The optical-depth altitudes of 80 and 110 kilometres, the observing-time relation and its 400 second coefficient, the theoretical specific impulse of 225 seconds, the nozzle throat and exit dimensions recovered from the thrust difference, the exit Mach number of 2.76 and the thrust coefficients of 1.624 in vacuum and 1.409 at sea level, the chamber pressure of 2.16 megapascals recovered jointly with those coefficients, the measured characteristic velocity of 1,393 metres per second against an ideal 1,505 and the resulting 93 percent combustion efficiency, the throat heat flux of 9.3 megawatts per square metre, the booster web and burning area, the cryogenic boil-off rate of 18 percent per hour, the tank mass fraction, the helium against air pressurant comparison, the net axial tension that keeps the shell out of compression, the radiation equilibrium wall temperature of 943 kelvin, the tower exit velocity of 99 metres per second, the pitch natural frequency of 1.16 radians per second, the damping ratio of 0.0033 and the 0.86 second divergence time constant, the fin normal-force slope, the seven kilometre wind displacement, the two-dimensional containment radii, the 64 degree coning half-angle, the turbopause density criterion, the photon-counting exposure of 150 seconds, the roll-resonance density scaling and its critical densities, the tumbling ballistic-coefficient reduction of a factor of 63, the parachute sizing and opening load, the telemetry link budget and the photographic comparison, the buckling and thermal calculations, and the drag-loss estimate are all derived in this article from the stated inputs. **Each depends on assumed values that are named where they are used**, and a reader substituting different assumptions will get different numbers.
+**Engineering analysis, computed here.** The optical-depth altitudes of 80 and 110 kilometres, the observing-time relation and its 400 second coefficient, the theoretical specific impulse of 224 seconds, the nozzle throat and exit dimensions recovered from the thrust difference, the exit Mach number of 2.76 and the thrust coefficients of 1.624 in vacuum and 1.409 at sea level, the chamber pressure of 2.16 megapascals recovered jointly with those coefficients, the measured characteristic velocity of 1,393 metres per second against an ideal 1,505 and the resulting 93 percent combustion efficiency, the throat heat flux of 9.3 megawatts per square metre, the booster web and burning area, the cryogenic boil-off rate of 18 percent per hour, the tank mass fraction, the helium against air pressurant comparison, the net axial tension that keeps the shell out of compression, the radiation equilibrium wall temperature of 943 kelvin, the tower exit velocity of 99 metres per second, the pitch natural frequency of 1.16 radians per second, the damping ratio of 0.0033 and the 0.86 second divergence time constant, the fin normal-force slope, the seven kilometre wind displacement, the two-dimensional containment radii, the 62 degree coning half-angle, the turbopause density criterion, the photon-counting exposure of 150 seconds, the roll-resonance density scaling and its critical densities, the tumbling ballistic-coefficient reduction of a factor of 63, the parachute sizing and opening load, the telemetry link budget and the photographic comparison, the buckling and thermal calculations, and the drag-loss estimate are all derived in this article from the stated inputs. **Each depends on assumed values that are named where they are used**, and a reader substituting different assumptions will get different numbers.
 
 **Inference, stated as such.** That the propellant was chosen for operational tempo rather than performance is an inference from the trade rather than a documented decision. That the fins were jettisoned specifically to reduce parachute opening load is an inference from the physics, since the sources record the practice without stating the reason. That the X-8 designation reflects administrative convenience rather than a decision to broaden the X-series is an inference from the absence of any recorded decision.
 
@@ -1227,13 +1229,13 @@ The date the X-8 designation was applied. One source dates the redesignation of 
 
 The relationship between X-8 and RM-84. One source states the vehicle was renamed RM-84 after being X-8, and another applies RM-84 and XRM-84 to the Aerobee-Hi, which is a different vehicle. Both cannot be right as stated.
 
-The flown and delivered counts. Sixty X-8 flights are reported in one place, with a breakdown that sums to sixty, and deliveries of 67 vehicles in another, with a launch table giving 61. The distinction between delivered and flown accounts for part of it and is not stated by any source consulted.
+The flown and delivered counts. Sixty X-8 flights are reported in one place, with a breakdown that sums to sixty, and deliveries of 66 vehicles in another, with a launch table giving 61. The distinction between delivered and flown accounts for part of it and is not stated by any source consulted.
 
 The last X-8A flight date, given as 11/12/1956 in a source using an ambiguous numeric format, which is either 12 November or 11 December 1956. The launch table's 12 November 1956 for the RTV-A-1a is consistent with the first reading.
 
 The launch tower height. The White Sands installation is reported at 143 feet, which is 43.6 metres, and another compilation gives 53 metres for Aerobee towers generally. The tower-exit calculation in this article uses 43.6 metres and would give 110 metres per second at 53.
 
-The internal consistency of the published performance figures. The staged reconstruction reproduces the reported burnout velocity to within 2 percent but leaves only 26 metres per second for drag, against an independent drag-loss estimate of 60 to 150. One or more of the booster inert mass, the sustainer burn time, and the specific impulse is therefore off by a few percent, and the record does not say which.
+The internal consistency of the published performance figures. The staged reconstruction at the 40 second sustainer burn falls 209 metres per second short of the reported burnout velocity before any drag is counted, against an independent drag-loss estimate of 60 to 150. One or more of the booster inert mass, the sustainer burn time, and the specific impulse is therefore off, a burn between 47 and 49 seconds would close the figures on its own, and the record does not say which.
 
 Whether the reported five percent design conservatism reflects physical margin or numerical error in the hand integration. The Euler truncation error of a one-second step is 3.8 percent, which is the same size, and the two cannot be separated from the public record.
 
@@ -1255,7 +1257,7 @@ Sounding rockets of other nations, including the British Skylark, the Japanese K
 
 The X-8 is the first vehicle in this series that was not built to be studied. It was built to carry, and everything unusual about it follows from that.
 
-The requirement was set by optical depth, not by ambition, and the figure of merit was observing time, not altitude. Both are logarithmic in the quantity a programme actually pays for, which is mass ratio, and the consequence is that a sounding-rocket programme buys precision by flying often rather than by flying high. The vehicle was therefore optimised for cheapness and repeatability at every point where those competed with performance. It burned a mediocre storable propellant so it could sit on the tower. It used pressurised tanks so it needed no turbopump. It made the tanks the structure so it needed no airframe. It had no guidance, so it needed a tower and a desert. It rolled to average out its own manufacturing errors, and accepted a resonance hazard in exchange. It threw its fins away so the parachute would survive, and it recovered its nose cone physically because the information in a photographic plate exceeded the entire telemetry capacity of the flight by three orders of magnitude.
+The requirement was set by optical depth, not by ambition, and the figure of merit was observing time, not altitude. Both are logarithmic in the quantity a programme actually pays for, which is mass ratio, and the consequence is that a sounding-rocket programme buys precision by flying often rather than by flying high. The vehicle was therefore optimised for cheapness and repeatability at every point where those competed with performance. It burned a mediocre storable propellant so it could sit on the tower. It used pressurised tanks so it needed no turbopump. It made the tanks the structure so it needed no airframe. It had no guidance, so it needed a tower and a desert. It rolled to average out its own manufacturing errors, and accepted a resonance hazard in exchange. It threw its fins away so the parachute would survive, and it recovered its nose cone physically because the information in a photographic plate exceeded the entire telemetry capacity of the flight by a factor of about twenty-five.
 
 **None of these are good engineering in the abstract and all of them are correct for the use.** That is the lesson the vehicle carries, and it is the same lesson the X-7 carried in a different currency.
 
@@ -1371,7 +1373,6 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Aerobee 350 recovery system Final project report][research_ntrs_19710016407_1970]
 - [Aikin et al 1964][research_aikin_1964]
 - [Alford et al 1972][research_alford_1972]
-- [An et al 2022][research_an_2022]
 - [Anderson 1972][research_anderson_1972]
 - [Armendariz et al 1963][research_armendariz_1963]
 - [Arnoult et al 2020][research_arnoult_2020]
@@ -1454,7 +1455,6 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Corman and Guarino 1965][research_corman_1965]
 - [Coulbert 1963][research_coulbert_1963]
 - [Cox 1948][research_cox_1948]
-- [Dai et al 2025][research_dai_2025]
 - [Davis et al 1973][research_davis_1973]
 - [Dayton 1963][research_dayton_1963]
 - [de Mendonça et al 1969][research_de_mendonca_1969]
@@ -1701,7 +1701,6 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [Walker 1954][research_walker_1954]
 - [Walters 1967][research_walters_1967]
 - [Wang et al 2021, Ionic Liquid Fuels][research_wang_2021]
-- [Wang et al 2021, Tank Pressurization][research_wang_2021_2]
 - [Wang et al 2022][research_wang_2022]
 - [Warner et al 2026][research_warner_2026]
 - [Warwick and Zirin 1957][research_warwick_1957]
@@ -1750,48 +1749,48 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 - [A90 Introduction to Space Studies][related_post_a90_intro_space_studies]
 - [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
 
-[book_alway_1999]: https://openlibrary.org/search?q=Alway+Rockets+of+the+World
-[book_anderson_2001_fundamentals]: https://openlibrary.org/search?q=Anderson+Fundamentals+of+Aerodynamics
-[book_anderson_2002_modern_compressible]: https://openlibrary.org/search?q=Anderson+Modern+Compressible+Flow
-[book_anderson_2006_hypersonic]: https://openlibrary.org/search?q=Anderson+Hypersonic+and+High+Temperature+Gas+Dynamics
-[book_baals_corliss_1981]: https://openlibrary.org/search?q=Baals+Corliss+Wind+Tunnels+of+NASA
-[book_banks_kockarts_1973]: https://openlibrary.org/search?q=Banks+Kockarts+Aeronomy
-[book_bertin_1994_hypersonic]: https://openlibrary.org/search?q=Bertin+Hypersonic+Aerothermodynamics
-[book_box_hunter_hunter_2005]: https://openlibrary.org/search?q=Box+Hunter+Statistics+for+Experimenters
-[book_bruhn_1973]: https://openlibrary.org/search?q=Bruhn+Analysis+and+Design+of+Flight+Vehicle+Structures
-[book_carslaw_jaeger_1959]: https://openlibrary.org/search?q=Carslaw+Jaeger+Conduction+of+Heat+in+Solids
-[book_chamberlain_1961]: https://openlibrary.org/search?q=Chamberlain+Physics+of+the+Aurora+and+Airglow
-[book_clark_1972]: https://openlibrary.org/search?q=Clark+Ignition+Informal+History+Liquid+Rocket+Propellants
-[book_cohen_1988]: https://openlibrary.org/search?q=Cohen+Statistical+Power+Analysis
-[book_cover_thomas_2006]: https://openlibrary.org/search?q=Cover+Thomas+Elements+of+Information+Theory
-[book_devorkin_1992]: https://openlibrary.org/search?q=DeVorkin+Science+With+a+Vengeance
-[book_etkin_reid_1996]: https://openlibrary.org/search?q=Etkin+Reid+Dynamics+of+Flight+Stability+and+Control
-[book_giacconi_2008]: https://openlibrary.org/search?q=Giacconi+Secrets+of+the+Hoary+Deep
-[book_gorn_2001_expanding_envelope]: https://openlibrary.org/search?q=Gorn+Expanding+the+Envelope+Flight+Research
-[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/search?q=Hansen+Engineer+in+Charge+Langley
-[book_hill_peterson_1991]: https://openlibrary.org/search?q=Hill+Peterson+Mechanics+and+Thermodynamics+of+Propulsion
-[book_hirsh_1983]: https://openlibrary.org/search?q=Hirsh+Glimpsing+an+Invisible+Universe
-[book_huzel_huang_1992]: https://openlibrary.org/search?q=Huzel+Huang+Design+of+Liquid+Propellant+Rocket+Engines
-[book_incropera_heat_transfer]: https://openlibrary.org/search?q=Incropera+DeWitt+Fundamentals+of+Heat+and+Mass+Transfer
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_jursa_1985]: https://openlibrary.org/search?q=Jursa+Handbook+of+Geophysics+and+the+Space+Environment
-[book_knacke_1992]: https://openlibrary.org/search?q=Knacke+Parachute+Recovery+Systems+Design+Manual
-[book_ley_1968]: https://openlibrary.org/search?q=Ley+Rockets+Missiles+and+Space+Travel
-[book_liepmann_roshko_1957]: https://openlibrary.org/search?q=Liepmann+Roshko+Elements+of+Gasdynamics
-[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
-[book_newell_1959]: https://openlibrary.org/search?q=Newell+Sounding+Rockets
-[book_newell_1980]: https://openlibrary.org/search?q=Newell+Beyond+the+Atmosphere+Early+Years+of+Space+Science
-[book_nielsen_1960]: https://openlibrary.org/search?q=Nielsen+Missile+Aerodynamics
-[book_ordway_wakeford_1960]: https://openlibrary.org/search?q=Ordway+Wakeford+International+Missile+and+Spacecraft+Guide
-[book_rees_1989]: https://openlibrary.org/search?q=Rees+Physics+and+Chemistry+of+the+Upper+Atmosphere
-[book_regan_anandakrishnan_1993]: https://openlibrary.org/search?q=Regan+Anandakrishnan+Dynamics+of+Atmospheric+Re+Entry
-[book_sklar_2001]: https://openlibrary.org/search?q=Sklar+Digital+Communications+Fundamentals+and+Applications
-[book_sutton_2006]: https://openlibrary.org/search?q=Sutton+History+of+Liquid+Propellant+Rocket+Engines
-[book_sutton_biblarz_2016]: https://openlibrary.org/search?q=Sutton+Biblarz+Rocket+Propulsion+Elements
-[book_timoshenko_gere_1961]: https://openlibrary.org/search?q=Timoshenko+Gere+Theory+of+Elastic+Stability
-[book_van_allen_1983]: https://openlibrary.org/search?q=Van+Allen+Origins+of+Magnetospheric+Physics
-[book_vinh_busemann_culp_1980]: https://openlibrary.org/search?q=Vinh+Busemann+Culp+Hypersonic+and+Planetary+Entry+Flight+Mechanics
-[book_wertz_1978]: https://openlibrary.org/search?q=Wertz+Spacecraft+Attitude+Determination+and+Control
+[book_alway_1999]: https://openlibrary.org/works/OL8798657W
+[book_anderson_2001_fundamentals]: https://openlibrary.org/works/OL3232211W
+[book_anderson_2002_modern_compressible]: https://openlibrary.org/works/OL1993329W
+[book_anderson_2006_hypersonic]: https://openlibrary.org/works/OL1993330W
+[book_baals_corliss_1981]: https://openlibrary.org/works/OL31504107W
+[book_banks_kockarts_1973]: https://openlibrary.org/works/OL8622002W
+[book_bertin_1994_hypersonic]: https://openlibrary.org/works/OL3287053W
+[book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
+[book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
+[book_carslaw_jaeger_1959]: https://openlibrary.org/works/OL34686169W
+[book_chamberlain_1961]: https://openlibrary.org/works/OL2937888W
+[book_clark_1972]: https://openlibrary.org/works/OL7159231W
+[book_cohen_1988]: https://openlibrary.org/works/OL27071941W
+[book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
+[book_devorkin_1992]: https://openlibrary.org/works/OL4122795W
+[book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
+[book_giacconi_2008]: https://openlibrary.org/works/OL8298362W
+[book_gorn_2001_expanding_envelope]: https://openlibrary.org/works/OL4400572W
+[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/works/OL37594565W
+[book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
+[book_hirsh_1983]: https://openlibrary.org/works/OL4796255W
+[book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
+[book_incropera_heat_transfer]: https://openlibrary.org/works/OL2975219W
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_jursa_1985]: https://openlibrary.org/works/OL42794282W
+[book_knacke_1992]: https://openlibrary.org/works/OL4121303W
+[book_ley_1968]: https://openlibrary.org/works/OL5276326W
+[book_liepmann_roshko_1957]: https://openlibrary.org/works/OL13214987W
+[book_neufeld_1995]: https://openlibrary.org/works/OL3501503W
+[book_newell_1959]: https://openlibrary.org/works/OL6429349W
+[book_newell_1980]: https://openlibrary.org/works/OL27998105W
+[book_nielsen_1960]: https://openlibrary.org/works/OL4626547W
+[book_ordway_wakeford_1960]: https://openlibrary.org/works/OL5900152W
+[book_rees_1989]: https://openlibrary.org/works/OL4621295W
+[book_regan_anandakrishnan_1993]: https://openlibrary.org/works/OL4305679W
+[book_sklar_2001]: https://openlibrary.org/works/OL10516432W
+[book_sutton_2006]: https://openlibrary.org/works/OL8227967W
+[book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
+[book_timoshenko_gere_1961]: https://openlibrary.org/works/OL19820477W
+[book_van_allen_1983]: https://openlibrary.org/works/OL3931274W
+[book_vinh_busemann_culp_1980]: https://openlibrary.org/works/OL4092275W
+[book_wertz_1978]: https://openlibrary.org/works/OL8362000W
 [ref_aerobee]: https://en.wikipedia.org/wiki/Aerobee
 [ref_aerojet]: https://en.wikipedia.org/wiki/Aerojet
 [ref_aerojet_x8]: https://en.wikipedia.org/wiki/Aerojet_General_X-8
@@ -1858,7 +1857,6 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [research_aikin_1964]: https://ntrs.nasa.gov/citations/19640022727
 [research_alford_1972]: https://doi.org/10.21236/ad0753089
-[research_an_2022]: https://doi.org/10.1016/j.measurement.2022.112102
 [research_anderson_1972]: https://ntrs.nasa.gov/citations/19720057951
 [research_armendariz_1963]: https://doi.org/10.21236/ad0295599
 [research_arnoult_2020]: https://doi.org/10.2514/1.j058323
@@ -1942,7 +1940,6 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_coulbert_1963]: https://ntrs.nasa.gov/citations/19630023320
 [research_cox_1948]: https://doi.org/10.1119/1.1991145
 [research_dabrowski_2020]: https://doi.org/10.1016/j.actaastro.2020.07.016
-[research_dai_2025]: https://doi.org/10.1016/j.measurement.2025.117983
 [research_davis_1973]: https://ntrs.nasa.gov/citations/19730017122
 [research_dayton_1963]: https://doi.org/10.21236/ad0404815
 [research_de_mendonca_1969]: https://doi.org/10.1029/rs004i009p00741
@@ -2189,7 +2186,6 @@ The designation is the loose end. The X-8 is an X-plane by administrative act ra
 [research_walker_1954]: https://doi.org/10.21236/ad0039981
 [research_walters_1967]: https://doi.org/10.21236/ad0658064
 [research_wang_2021]: https://doi.org/10.1016/j.combustflame.2021.111597
-[research_wang_2021_2]: https://doi.org/10.1016/j.energy.2021.121029
 [research_wang_2022]: https://doi.org/10.1142/s2251171722500076
 [research_warner_2026]: https://doi.org/10.2514/1.j066279
 [research_warwick_1957]: https://doi.org/10.1038/180500b0

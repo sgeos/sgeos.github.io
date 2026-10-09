@@ -73,7 +73,7 @@ The contrast with the [X-13][related_post_a310_ryan_x13] is instructive. Ryan bu
 
 The programme has a clean division. The Air Force paid for an aircraft that could hover and transition, and Bell delivered one. What the aircraft then did for twenty-two years was decided elsewhere.
 
-The aircraft was assigned to the NASA Ames Research Center at Moffett Field on 2 October 1959 and stayed there until it was destroyed. **Ames was not interested in the X-14 as a vertical take-off aeroplane.** It was interested in it as a flying laboratory for handling qualities, which is a subject Ames had already been pursuing with fixed-wing aircraft. [Creer et al 1959][research_creer_1959] is a pilot-opinion study of lateral control requirements for fighters published the same year the X-14 arrived, and it is the methodological ancestor of everything the X-14 subsequently did. The method was established. What was missing was a vehicle that could apply it to hovering.
+The aircraft was assigned to the Ames Research Center of NASA, the National Aeronautics and Space Administration, at Moffett Field on 2 October 1959 and stayed there until it was destroyed. **Ames was not interested in the X-14 as a vertical take-off aeroplane.** It was interested in it as a flying laboratory for handling qualities, which is a subject Ames had already been pursuing with fixed-wing aircraft. [Creer et al 1959][research_creer_1959] is a pilot-opinion study of lateral control requirements for fighters published the same year the X-14 arrived, and it is the methodological ancestor of everything the X-14 subsequently did. The method was established. What was missing was a vehicle that could apply it to hovering.
 
 ### The Aircraft Was Not Alone
 
@@ -93,7 +93,7 @@ The helicopter branch of the same family is reviewed in [Hindson 1982][research_
 
 It is worth recording what was and was not available when Bell began, because the X-14's contribution is easy to overstate.
 
-The configuration question had been worked over thoroughly. [Boeing Co Morton Pa Vertol Div 1956][research_div_1956] and [Irvin and Swan 1956][research_irvin_swan_1956] compare types and estimate weights for competing vertical take-off transport layouts, and [McCormick and Mallen 1956][research_mccormick_mallen_1956] treats tilt-wing design considerations. The field had a textbook within a few years in [Campbell 1962][research_campbell_1962], a conference series of which [NACA 1960][research_naca_1960] is one volume, and survey treatments in [Kirby 1961][research_kirby_1961] on propeller-driven configurations and [Brown 1965][research_brown_1965] on low-disc-loading designs. The tilt-wing branch alone supported [Nichols 1963][research_nichols_1963], [Martin 1963][research_martin_1963], [Tosti 1961][research_tosti_1961], and [Longhurst 1966][research_longhurst_1966]. **Everyone knew how to lay out a vertical take-off aircraft. Nobody knew how to size its control system.**
+The configuration question had been worked over thoroughly. [Boeing Co Morton Pa Vertol Div 1956][research_div_1956] and [Irvin and Swan 1956][research_irvin_swan_1956] compare types and estimate weights for competing vertical take-off transport layouts, and [McCormick and Mallen 1956][research_mccormick_mallen_1956] treats tilt-wing design considerations. The field had a textbook within a few years in [Campbell 1962][research_campbell_1962], a conference series of which [NASA 1960][research_naca_1960] is one volume, and survey treatments in [Kirby 1961][research_kirby_1961] on propeller-driven configurations and [Brown 1965][research_brown_1965] on low-disc-loading designs. The tilt-wing branch alone supported [Nichols 1963][research_nichols_1963], [Martin 1963][research_martin_1963], [Tosti 1961][research_tosti_1961], and [Longhurst 1966][research_longhurst_1966]. **Everyone knew how to lay out a vertical take-off aircraft. Nobody knew how to size its control system.**
 
 The hovering-stability problem had also been posed cleanly, though for rotorcraft rather than for jets. [Miller 1948][research_miller_1948] treats helicopter control and stability in hovering flight, and the subject was worked over through [Payne 1955][research_payne_1955] and [Bramwell 1956][research_bramwell_1956]. The flying-platform experiments of [Albachten 1956][research_albachten_1956] and [Sissingh 1956][research_sissingh_1956] address hovering stability for a vehicle with no wing at all. **What none of these could supply is the jet-lift case, in which there is no rotor to provide damping and no propeller slipstream to provide control.**
 
@@ -211,7 +211,7 @@ so producing the 150 pounds of thrust the wingtip station needed requires
 
 $$\dot{m} = \frac{667}{409} = 1.63 \text{ kg/s}$$
 
-**A J85 passes roughly twenty kilogrammes per second, so one wingtip station at full deflection is asking for something like four percent of one engine's entire airflow.** That is an order-of-magnitude figure rather than a measurement, and it is offered only because it lands in the same region as the bleed penalty measured below, which is the point of computing it.
+**A J85 passes roughly twenty kilogrammes per second, so one wingtip station at full deflection is asking for something like eight percent of one engine's entire airflow.** That is an order-of-magnitude figure rather than a measurement, and it is offered only because it lands in the same region as the bleed penalty measured below, which is the point of computing it.
 
 **The important point is not how the nozzle works but where the mass flow comes from.** It comes out of the engine, and the engine was going to use it to make lift.
 
@@ -475,7 +475,7 @@ At a turning efficiency of 0.95 and the measured bleed fraction, the J85-GE-5 in
 
 $$\frac{T_{\text{lift}}}{W} = 0.95 \times 0.9259 \times \frac{5{,}360}{3{,}700} = 1.274$$
 
-against a reported available ratio of 1.1 to 1.2. **The two agree to within about six to fifteen percent**, and the residual is what one would expect from inlet losses, ambient conditions, and the accessory loads not accounted for here. That the simple product of two efficiencies lands this close to the reported figure is a check that the bleed fraction inverted from the fan report is of the right size.
+against a reported available ratio of 1.1 to 1.2. **The two agree to within about six to sixteen percent**, and the residual is what one would expect from inlet losses, ambient conditions, and the accessory loads not accounted for here. That the simple product of two efficiencies lands this close to the reported figure is a check that the bleed fraction inverted from the fan report is of the right size.
 
 The same arithmetic applied to the later engines shows what the second re-engining bought. The J85-GE-19 installation gives an uninstalled ratio of
 
@@ -653,11 +653,11 @@ $$\frac{0.6}{1.4} = 0.429, \qquad \frac{0.6}{2.0} = 0.300$$
 
 The rating scale treats the pilot as an oracle who returns a number. A parallel literature, running through exactly the same years and the same institutions, treats the pilot as a dynamic system to be identified.
 
-[Elkind and Forgie 1959][research_elkind_forgie_1959] characterises the human operator in simple manual control systems, and the subject was developed continuously through a long conference series, of which [NACA 1966, Second Annual NASA-University Conf][research_naca_1966_2], [NACA 1967][research_naca_1967], [NACA 1969][research_naca_1969], [NACA 1970][research_naca_1970], and [NACA 1972][research_naca_1972] are successive proceedings. [Mitchell 1964][research_mitchell_1964] surveys the operator models available, [Young et al 1964][research_young_1964] treats the operator's adaptive response, and [Costello 1968][research_costello_1968] proposes a specific model form.
+[Elkind and Forgie 1959][research_elkind_forgie_1959] characterises the human operator in simple manual control systems, and the subject was developed continuously through a long conference series, of which [NASA 1966, Second Annual NASA-University Conference][research_naca_1966_2], [NASA 1967][research_naca_1967], [NASA 1969][research_naca_1969], [NASA 1970][research_naca_1970], and [NASA 1972][research_naca_1972] are successive proceedings. [Mitchell 1964][research_mitchell_1964] surveys the operator models available, [Young et al 1964][research_young_1964] treats the operator's adaptive response, and [Costello 1968][research_costello_1968] proposes a specific model form.
 
 **The most directly relevant of these is [Smith 1966][research_smith_1966], which measured human describing functions in flight and on simulators**, because that is the comparison the X-14A's whole justification rested on. [Mooij 1973][research_mooij_1973] measured the pitch-axis describing function and remnant in flight.
 
-**The hovering case was singled out for this treatment**, which matters because the loop structure derived above says hovering should be the hardest case for an adaptive operator. [Vinje 1968][research_vinje_1968] analyses pilot adaptation in a simulated multiloop vertical take-off hovering task, and [Andrisani 1982][research_andrisani_1982] determines pilot models experimentally from hovering flight data rather than from a simulator. The identification methods themselves developed through [Washizu et al 1978][research_washizu_1978] on the effect of forcing-function characteristics, [Tomizuka and Whitney 1976][research_tomizuka_whitney_1976] on preview tracking, [Dey 1972][research_dey_1972] on prediction displays, and [Biezad and Schmidt 1984][research_biezad_schmidt_1984] on time-series modelling, with the field's proceedings continuing through [NACA 1975][research_naca_1975], [NACA 1977][research_naca_1977], and [NACA 1981][research_naca_1981].
+**The hovering case was singled out for this treatment**, which matters because the loop structure derived above says hovering should be the hardest case for an adaptive operator. [Vinje 1968][research_vinje_1968] analyses pilot adaptation in a simulated multiloop vertical take-off hovering task, and [Andrisani 1982][research_andrisani_1982] determines pilot models experimentally from hovering flight data rather than from a simulator. The identification methods themselves developed through [Washizu et al 1978][research_washizu_1978] on the effect of forcing-function characteristics, [Tomizuka and Whitney 1976][research_tomizuka_whitney_1976] on preview tracking, [Dey 1972][research_dey_1972] on prediction displays, and [Biezad and Schmidt 1984][research_biezad_schmidt_1984] on time-series modelling, with the field's proceedings continuing through [NASA 1975][research_naca_1975], [NASA 1977][research_naca_1977], and [NASA 1981][research_naca_1981].
 
 The two literatures met in [Hess 1977][research_hess_1977], which predicts pilot opinion ratings using an optimal pilot model. **If that programme had fully succeeded, the variable-stability aircraft would have become unnecessary**, because a rating could be computed from the dynamics rather than obtained from a person. It did not fully succeed, and the reason it did not is the reason a Cooper-Harper rating is still collected by asking someone.
 
@@ -735,9 +735,9 @@ This section usually asks whether an aircraft's data mattered. In the X-14's cas
 
 Military Specification MIL-F-83300, Flying Qualities of Piloted V/STOL Aircraft, was adopted in December 1970. It is the document that turned handling-qualities research on vertical take-off aircraft into a contractual obligation on manufacturers, and its hovering requirements descend from the flight and simulator work of the preceding decade, of which the X-14A's is the principal flight component.
 
-**The generation of the specification has its own account.** [Key 1971][research_key_1971] describes how MIL-F-83300 was produced, published the year after adoption, and it is the primary source for the lineage this section claims. The conventional-aircraft counterpart is documented the same way in [Chalk et al 1969][research_chalk_1969], the background and user guide for MIL-F-8785B. The specification then attracted the work any specification attracts: [Vinje and Miller 1973][research_vinje_miller_1973] reports flight simulator experiments in support of its further development, [Hutchings 1977][research_hutchings_1977] reviews the Navy requirements against it, [Anderson 1979][research_anderson_1979] compares an actual aircraft's handling qualities against both it and the corresponding AGARD report, and [Goldstein 1982][research_goldstein_1982] gives an overview of where the specifications stood a decade on. The short take-off case followed in [Hoh and Mitchell 1983][research_hoh_mitchell_1983]. **A research aircraft whose output can be traced into a numbered document that contractors must satisfy has had an unusual kind of effect**, and among the fifteen aircraft this series has covered only this one has it.
+**The generation of the specification has its own account.** [Key 1971][research_key_1971] describes how MIL-F-83300 was produced, published the year after adoption, and it is the primary source for the lineage this section claims. The conventional-aircraft counterpart is documented the same way in [Chalk et al 1969][research_chalk_1969], the background and user guide for MIL-F-8785B. The specification then attracted the work any specification attracts. [Vinje and Miller 1973][research_vinje_miller_1973] reports flight simulator experiments in support of its further development, [Hutchings 1977][research_hutchings_1977] reviews the Navy requirements against it, [Anderson 1979][research_anderson_1979] compares an actual aircraft's handling qualities against both it and the corresponding report of the Advisory Group for Aerospace Research and Development, and [Goldstein 1982][research_goldstein_1982] gives an overview of where the specifications stood a decade on. The short take-off case followed in [Hoh and Mitchell 1983][research_hoh_mitchell_1983]. **A research aircraft whose output can be traced into a numbered document that contractors must satisfy has had an unusual kind of effect**, and among the fourteen aircraft this series has covered only this one has it.
 
-**This is rare among X-planes.** The [X-1][related_post_a298_bell_x1] changed what engineers believed about transonic drag. The [X-5][related_post_a302_bell_x5] changed what they believed about variable sweep. Belief is the usual output. A number in a military specification that a contractor must demonstrate compliance with is a different kind of output, and among the fifteen aircraft this series has covered, only the X-14 produced one directly.
+**This is rare among X-planes.** The [X-1][related_post_a298_bell_x1] changed what engineers believed about transonic drag. The [X-5][related_post_a302_bell_x5] changed what they believed about variable sweep. Belief is the usual output. A number in a military specification that a contractor must demonstrate compliance with is a different kind of output, and among the fourteen aircraft this series has covered, only the X-14 produced one directly.
 
 ### It Set the Range Everyone Else Worked In
 
@@ -867,7 +867,7 @@ The X-14A's criterion assumed a pilot in the seat. A large part of the modern li
 
 Where a human remains in the loop, the question has become how authority is shared rather than how much of it there is.
 
-[Xu et al 2025, Modeling Shared Control System Bet][research_xu_2025_2] models shared control between a human pilot and an autopilot for a carrier landing, which is structurally the X-14A's problem with a second controller added. Allocation of authority between the two is [Liu et al 2026][research_liu_2026], [Chen et al 2026, Robust and dynamic control authori][research_chen_2026_2], and [Liu and Kaber 2025][research_liu_kaber_2025], with haptic implementations in [Qin et al 2025][research_qin_2025], [Sato and Wada 2025][research_sato_wada_2025], and [Turco et al 2026][research_turco_2026]. **The ground observer who talked the X-14's pilot onto his spot was an early and unusually literal instance of shared control with a transport delay**, and the modern treatment of that arrangement, in [Liu et al 2026, Delay-Aware Shared Control for Tel][research_liu_2026_3], [Prakash et al 2026][research_prakash_2026], [Zhang et al 2026, Mitigating delay and poor transpar][research_zhang_2026_2], and [Li et al 2026, Design and evaluation of Avatar][research_li_2026_5], says the delay is the thing to attack.
+[Xu et al 2025, Modeling Shared Control System Bet][research_xu_2025_2] models shared control between a human pilot and an autopilot for a carrier landing, which is structurally the X-14A's problem with a second controller added. Allocation of authority between the two is [Liu et al 2026][research_liu_2026], [Chen et al 2026, Robust and dynamic control authori][research_chen_2026_2], and [Liu and Kaber 2025][research_liu_kaber_2025], with haptic implementations in [Qin et al 2025][research_qin_2025], [Sato and Wada 2025][research_sato_wada_2025], and [Turco et al 2026][research_turco_2026]. **The X-14A's variable-stability system was an early and unusually literal instance of shared control**, since its synthesised damping and its pilot drew on one fixed budget of nozzle moment, and the modern treatment of shared control when the second controller is remote and delayed, in [Liu et al 2026, Delay-Aware Shared Control for Tel][research_liu_2026_3], [Prakash et al 2026][research_prakash_2026], [Zhang et al 2026, Mitigating delay and poor transpar][research_zhang_2026_2], and [Li et al 2026, Design and evaluation of Avatar][research_li_2026_5], says the delay is the thing to attack.
 
 Workload, which the Cooper scale summarised as an integer, is now instrumented directly in [Xu et al 2026][research_xu_2026], [Procházková and Juračka 2026][research_prochazkova_juracka_2026], [Mohan et al 2025][research_mohan_2025], and [Stephenson et al 2026][research_stephenson_2026]. **None of this has removed the rating**, which is still collected by asking a person.
 
@@ -1071,7 +1071,7 @@ The other primary documents are complete and were read. [Gerdes and Rolls 1969][
 
 The vehicle specifications come from secondary compilations and **they disagree with each other** on the Viper engine rating and on the date of the first hover. Both disagreements are reported in the text rather than resolved. The 1981 accident cause is given by secondary sources and was not confirmed against a primary investigation report.
 
-**The research list was read again in full on 7 October 2026, and the re-reading refused none of its 361 records.** Every research work in this article is cited in a sentence of the body, so the total stands at 361. The road vehicle, robotics and satellite control studies among them are not homonym admissions, because the contemporary section cites them on purpose as the same allocation and shared control mathematics outside aviation. The twelve titles a screen flagged are multirotor and display studies the same section cites, and a reading of 300 records that no screen flagged found none off topic, which puts the remaining contamination near zero.
+**The research list was read again in full on 7 October 2026, and the re-reading refused none of its 361 records.** Every research work in this article is cited in a sentence of the body, so the total stands at 361. The road vehicle, robotics and satellite control studies among them are not homonym admissions, because the contemporary section cites them on purpose as the same allocation and shared control mathematics outside aviation. The twelve titles a screen flagged are multirotor and display studies the same section cites, and a reading of 300 records that no screen flagged found none off topic, which put the contamination near zero. A second seeded sample on 8 October 2026 took the 49 records that no earlier reading had seen, which were all that remained unread, and found none off topic, so the total remains 361. A check on 8 October 2026 for records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter found none, so the total is unchanged. Every research title in the article has now been read at least once and none was found outside the subject, although a reading of titles alone cannot rule out a work whose title is on topic and whose content is not.
 
 ## Epistemic State
 
@@ -1111,7 +1111,7 @@ The aircraft also demonstrated the limits of its own criterion. **The tip-turbin
 
 And it could not simulate gravity. That single unadjustable parameter bounds what any Earth-based hovering simulator can teach about landing anywhere else, by a factor of 2.46 in the translational timescale, and it is why a far more dangerous vehicle had to be built to finish the job.
 
-**What the X-14 is worth is not what it did but what was done with it.** It was built as an instrument, kept for twenty-four years, reprogrammed twice, and used for experiments nobody had conceived when it was ordered. Among the fifteen aircraft this series has examined, it is the only one whose principal output was a number that a contractor was later obliged to meet.
+**What the X-14 is worth is not what it did but what was done with it.** It was built as an instrument, kept for twenty-four years, reprogrammed twice, and used for experiments nobody had conceived when it was ordered. Among the fourteen aircraft this series has examined, it is the only one whose principal output was a number that a contractor was later obliged to meet.
 
 The next article takes up the [North American X-15][ref_x15], which is the opposite of this aircraft in every respect that matters.
 
@@ -1123,9 +1123,9 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
 - [Rogers 1989 VTOL, Military Research Aircraft][book_rogers_1989]
 
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_miller_2001]: https://openlibrary.org/search?q=Miller+The+X+Planes+X-1+to+X-45
-[book_rogers_1989]: https://openlibrary.org/search?q=Rogers+VTOL+Military+Research+Aircraft
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_miller_2001]: https://openlibrary.org/works/OL7006680W
+[book_rogers_1989]: https://openlibrary.org/works/OL4784139W
 
 ### Reference
 
@@ -1408,15 +1408,15 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Morse and Newhouse 1961][research_morse_newhouse_1961]
 - [Motyka 1975][research_motyka_1975]
 - [Mourtos et al 1995][research_mourtos_1995]
-- [NACA 1960][research_naca_1960]
-- [NACA 1966, Second Annual NASA-University Conf][research_naca_1966_2]
-- [NACA 1967][research_naca_1967]
-- [NACA 1969][research_naca_1969]
-- [NACA 1970][research_naca_1970]
-- [NACA 1972][research_naca_1972]
-- [NACA 1975][research_naca_1975]
-- [NACA 1977][research_naca_1977]
-- [NACA 1981][research_naca_1981]
+- [NASA 1960][research_naca_1960]
+- [NASA 1966, Second Annual NASA-University Conference][research_naca_1966_2]
+- [NASA 1967][research_naca_1967]
+- [NASA 1969][research_naca_1969]
+- [NASA 1970][research_naca_1970]
+- [NASA 1972][research_naca_1972]
+- [NASA 1975][research_naca_1975]
+- [NASA 1977][research_naca_1977]
+- [NASA 1981][research_naca_1981]
 - [Nakayama et al 2026][research_nakayama_2026]
 - [Newell et al 1963][research_newell_1963]
 - [Newton and Kroo 2025][research_newton_kroo_2025]

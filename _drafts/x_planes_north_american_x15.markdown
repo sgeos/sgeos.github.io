@@ -13,7 +13,7 @@ series_index: 16
 <!-- A312 -->
 <script>console.log("A312");</script>
 
-The [North American X-15][ref_x15] is the most heavily documented aircraft in this series and that is the problem with writing about it. Two hundred flights, nine years, three airframes, twelve pilots, and a literature large enough that any account can be assembled from primary sources without ever deciding what the aircraft was for. **Every previous article in this series found its keystone by looking for the one binding unknown. Here the unknown is not scarce but abundant**, and the keystone has to be chosen and defended rather than discovered. This article is the sixteenth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], and the [X-14][related_post_a311_bell_x14].
+The [North American X-15][ref_x15] is the most heavily documented aircraft in this series and that is the problem with writing about it. Nearly two hundred flights, nine years, three airframes, twelve pilots, and a literature large enough that any account can be assembled from primary sources without ever deciding what the aircraft was for. **Every previous article in this series found its keystone by looking for the one binding unknown. Here the unknown is not scarce but abundant**, and the keystone has to be chosen and defended rather than discovered. This article is the sixteenth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], and the [X-14][related_post_a311_bell_x14].
 
 The choice made here is **energy**, and specifically one fact about it. At the speed the X-15 reached, **the kinetic energy of every kilogramme of the aircraft was more than twice the energy needed to melt that kilogramme**. Flight at that speed is therefore not fast flight with heating added. It is the problem of carrying an amount of energy that would destroy the vehicle if it went to the wrong place, and then disposing of all of it before landing. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the programme's own conference record is [NACA 1958][research_naca_1958] and [Beeler 1961][research_beeler_1961].
 
@@ -81,11 +81,11 @@ holds here unchanged, and the X-15 drives $q$ to zero by making $\rho$ vanish ra
 
 ## Programme Origin
 
-The X-15 originates in a request rather than in a proposal. In 1954 the NACA Committee on Aerodynamics recommended a research aircraft for flight at very high speed and altitude, the Air Force and Navy agreed to fund it jointly with the NACA directing the research, and North American Aviation won the airframe contract in 1955 against competing designs.
+The X-15 originates in a request rather than in a proposal. In 1954 the Committee on Aerodynamics of the National Advisory Committee for Aeronautics, the NACA, recommended a research aircraft for flight at very high speed and altitude, the Air Force and Navy agreed to fund it jointly with the NACA directing the research, and North American Aviation won the airframe contract in 1955 against competing designs.
 
 ### The Institutional Arrangement Was the Unusual Part
 
-The X-15 was a genuinely tripartite programme. The NACA, and from 1958 NASA, specified the research and analysed the results. The Air Force and Navy paid. North American built the aircraft and Reaction Motors built the engine. The flight programme was run from Edwards with government and contractor pilots.
+The X-15 was a genuinely tripartite programme. The NACA, and from 1958 its successor the National Aeronautics and Space Administration, NASA, specified the research and analysed the results. The Air Force and Navy paid. North American built the aircraft and Reaction Motors built the engine. The flight programme was run from Edwards with government and contractor pilots.
 
 **This is the arrangement the [X-1][related_post_a298_bell_x1] established, scaled up by an order of magnitude in cost and duration**, and the X-15 is the last research aircraft for which it worked at this scale. The conference reports, of which [NACA 1958][research_naca_1958] and [Beeler 1961][research_beeler_1961] are two, are the visible product of it, and they are unusual documents because they record a programme reporting on itself to its sponsors while it was still running.
 
@@ -153,7 +153,7 @@ $$h_{e,\text{apogee}} = 107.96 + 92.36 = 200.32 \text{ km}$$
 
 which agrees with the burnout value to ten metres in two hundred kilometres. **The coast above 53 kilometres is drag free to within the precision of the input data**, which retrospectively justifies treating it that way.
 
-**The two flights are eighty-seven percent alike in the quantity that matters and utterly different in how it is arranged.** One put 87 percent of its energy into speed, the other 73 percent.
+**The two flights are eighty-four percent alike in the quantity that matters and utterly different in how it is arranged.** One put 87 percent of its energy into speed, the other 73 percent.
 
 $$\frac{2.347}{1.964} = 1.195$$
 
@@ -189,7 +189,7 @@ $$\frac{T}{W} = \frac{253{,}500}{15{,}195 \times 9.807} = 1.70$$
 
 which gets the aircraft out of the dense air quickly.
 
-### Where the Energy Goes, and What Reaches the Structure
+## Where the Energy Goes, and What Reaches the Structure
 
 ### The Temperature the Air Arrives At
 
@@ -271,7 +271,7 @@ The model can be checked. The radiative equilibrium temperature at that heating 
 
 $$T = \left(\frac{6.48 \times 10^{5}}{0.8 \times 5.670 \times 10^{-8}}\right)^{1/4} = 1{,}944 \text{ K} = 3{,}040\ ^{\circ}\text{F}$$
 
-against leading-edge temperatures reported near 2,700 degrees Fahrenheit on that flight. **The correlation overshoots the measurement by 12.7 percent**, which is close agreement for a relation carrying one assumed length scale, and the conclusion is insensitive to that scale because doubling the assumed nose radius changes the equilibrium temperature by only 8.3 percent.
+against leading-edge temperatures reported near 2,700 degrees Fahrenheit on that flight. **The correlation overshoots the measurement by 12.6 percent**, which is close agreement for a relation carrying one assumed length scale, and the conclusion is insensitive to that scale because doubling the assumed nose radius changes the equilibrium temperature by only 8.3 percent.
 
 ### How Much of It Actually Reaches the Structure
 
@@ -311,7 +311,7 @@ gives
 | 922 K, the design limit | 27.7 percent |
 | 1,755 K, Knight's leading edges | 7.2 percent |
 
-**A hot wall absorbs a smaller fraction than a cold one, and it is not a small difference.** Going from cold metal to the design limit cuts the fraction by more than a third, and at the temperature Knight's leading edges actually reached the wall was taking barely a seventh of what a cold wall would have taken.
+**A hot wall absorbs a smaller fraction than a cold one, and it is not a small difference.** Going from cold metal to the design limit cuts the fraction by more than a third, and at the temperature Knight's leading edges actually reached the wall was taking barely a sixth of what a cold wall would have taken.
 
 This is the part the keystone framing did not anticipate. **A hot structure is not merely a structure that tolerates being hot. Running hot is part of the mechanism by which it protects itself**, because the driving temperature difference is what pushes heat into it, and a hot wall has less of one. The design is self-limiting in a way that an insulated cold structure is not.
 
@@ -349,7 +349,7 @@ so the ratio is
 
 $$\frac{0.56}{1.10} = 0.51$$
 
-and across the whole range of friction fractions it runs from 0.27 to 0.68. **The total heat load is comfortably within what the structure can hold, with roughly a factor of two in hand.**
+and across the whole range of friction fractions it runs from 0.27 to 0.88. **The total heat load is comfortably within what the structure can hold, with roughly a factor of two in hand.**
 
 That is worth sitting with, because it says the X-15's thermal problem is not a global energy problem at all. **The aircraft could absorb its entire heat load in its own thermal mass and still be below its design temperature.** Radiation, which over a five-minute descent from a hundred square metres at the design temperature rejects
 
@@ -535,7 +535,7 @@ $$\sigma_{\text{thermal}} = E \, \alpha \, \Delta T$$
 
 which for a nickel alloy with a Young's modulus near 214 gigapascals and an expansion coefficient near $1.3 \times 10^{-5}$ per kelvin reaches yield over a temperature difference of only a couple of hundred kelvin.
 
-**The problem was recognised well before there was an aircraft that had it.** [Luce and Jr 1949][research_luce_jr_1949] computes the deflection of a supersonic wing due to aerodynamic heating, [Loveless and Boswell 1954][research_loveless_boswell_1954] and [Parkes 1954][research_parkes_1954] state the thermal-stress problem for aircraft structures generally, the second under repeated cycles, and [Sprague and Huang 1958][research_sprague_huang_1958] treats structural behaviour under it. [Rendel 1954][research_rendel_1954] surveys the thermal problems of high-performance flight as a whole. The design techniques that followed are [Gellatly and Gallagher 1964][research_gellatly_gallagher_1964].
+**The problem was recognised well before there was an aircraft that had it.** [Luce, Jr. 1949][research_luce_jr_1949] computes the deflection of a supersonic wing due to aerodynamic heating, [Loveless and Boswell 1954][research_loveless_boswell_1954] and [Parkes 1954][research_parkes_1954] state the thermal-stress problem for aircraft structures generally, the second under repeated cycles, and [Sprague and Huang 1958][research_sprague_huang_1958] treats structural behaviour under it. [Rendel 1954][research_rendel_1954] surveys the thermal problems of high-performance flight as a whole. The design techniques that followed are [Gellatly and Gallagher 1964][research_gellatly_gallagher_1964].
 
 The material behaviour under the relevant histories was also being established rather than assumed. [Roe and Kattus 1957][research_roe_kattus_1957] measured tensile properties of aircraft structural metals after rapid heating, which is the loading path a hypersonic vehicle actually imposes, and [Fortney and Avery 1957][research_fortney_avery_1957] the effects of temperature, time, and stress histories together. [Levy 1955][research_levy_1955], [Bhat 1961][research_bhat_1961], [Masterson 1963][research_masterson_1963], [Hildebrand 1963][research_hildebrand_1963], [Cox and Erbin 1965][research_cox_erbin_1965], and [Ault 1965][research_ault_1965] cover the wider search for materials that keep their strength hot, with [Brownfield and Badger 1960][research_brownfield_badger_1960] on the combined histories again and [Sandstrom and White 1961][research_sandstrom_white_1961] on evaluating a conventional aircraft at high temperature.
 
@@ -688,7 +688,7 @@ Extracting coefficients from what the instruments recorded is a discipline in it
 
 ### The Pilot, Who Is a Component of the Thermal System
 
-The pilot wore a full pressure suit, which is a spacecraft in the sense that it must maintain pressure and remove heat independently of the cabin. The suit development literature is substantial, including [Games et al 1954][research_games_1954], [Rosenbaum 1957][research_rosenbaum_1957], [FurryY et al 1962][research_furryy_1962], and [Hendler et al 1964][research_hendler_1964], the last on the metabolic cost of working in one.
+The pilot wore a full pressure suit, which is a spacecraft in the sense that it must maintain pressure and remove heat independently of the cabin. The suit development literature is substantial, including [Games et al 1954][research_games_1954], [Rosenbaum 1957][research_rosenbaum_1957], [Furry et al 1962][research_furryy_1962], and [Hendler et al 1964][research_hendler_1964], the last on the metabolic cost of working in one.
 
 **The cabin is a pressure vessel inside a structure at several hundred degrees**, which makes cooling a design problem rather than a comfort one, and the physiological effects of the flight regime are treated in [Raeke 1958][research_raeke_1958]. **The programme had a medical support effort of its own**, described in [Rowen 1958][research_rowen_1958], which is a reminder that an aircraft flown to the edge of the atmosphere by a person is a life-support problem as much as an aerodynamic one. The suit's less discussed subsystems are [Redden 1961][research_redden_1961] and [Shanahan and Barker 1962][research_shanahan_barker_1962], the problem of measuring whether a person can still work in one is [Siegel and Lanterman 1968][research_siegel_lanterman_1968] and [Owen and Bellhouse 1970][research_owen_bellhouse_1970], and the pilot's own account of flying the aircraft is [Holleman 1976][research_holleman_1976].
 
@@ -856,7 +856,7 @@ The article found that a hot wall absorbs a smaller fraction of the friction dis
 
 $$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} \longrightarrow \frac{r}{2} \quad \text{as} \quad V \rightarrow \infty$$
 
-because the adiabatic wall temperature itself grows as $V^{2}$, so the wall temperature becomes negligible in the difference and the ratio tends to the recovery factor over two, or about 44.5 percent. Evaluating the ideal-gas form at increasing speed gives 27.4 percent at the X-15's record, 36.7 at three kilometres per second, and 41.7 at five.
+because the adiabatic wall temperature itself grows as $V^{2}$, so the wall temperature becomes negligible in the difference and the ratio tends to the recovery factor over two, or about 44.5 percent. Evaluating the ideal-gas form at increasing speed gives 27.4 percent at the X-15's record speed, against the 27.7 in the table of The Result, Which Explains Why a Hot Structure Runs Hot, which took the adiabatic wall temperature at a rounded Mach 6.7, then 36.7 at three kilometres per second, and 41.7 at five.
 
 **A faster vehicle gives a larger share of its friction dissipation to its own structure, not a smaller one**, and the hot-wall protection the X-15 enjoyed is a low-speed luxury that fades exactly where it would be most wanted. **[Lushchik et al 2026][research_lushchik_2026] treats the Reynolds analogy factor in a compressible turbulent boundary layer on a cooled wall**, which is this article's relation at this article's condition, published sixty years after the aircraft flew.
 
@@ -870,7 +870,7 @@ Measuring it remains hard and remains a subject. [Kaneider and Rödiger 2026][re
 
 The article flagged boundary-layer transition as the largest single uncertainty in its own heating numbers, and that has not changed.
 
-The instability mechanism is treated in [Tian and Liu 2026][research_tian_liu_2026] and [Park et al 2026][research_park_2026] on the Mack second mode, [Varma and Zhong 2026][research_varma_zhong_2026] on receptivity with nonequilibrium effects, [Zhang et al 2026, Effect of wall mass injection on r][research_zhang_2026_5] on wall mass injection, and [Zeng et al 2026][research_zeng_2026] on rarefaction. Roughness, which is what a real vehicle has, is [Xu et al 2026][research_xu_2026] and [Guo and Cao 2026][research_guo_cao_2026]. Prediction and control are [Peng and Wang 2026][research_peng_wang_2026], and geometry effects are [Zhang et al 2026][research_zhang_2026] and [Hossein et al 2025][research_hossein_2025]. The wider modelling problem is [Zhu et al 2025][research_zhu_2025], [Guo et al 2025][research_guo_2025], and [Tang et al 2024][research_tang_2024], with the rarefied and low-density limits in [Pu et al 2026][research_pu_2026] and [Gao et al 2026][research_gao_2026].
+The instability mechanism is treated in [Tian and Liu 2026][research_tian_liu_2026] and [Park et al 2026][research_park_2026] on the Mack second mode, [Zhang et al 2026, Effect of wall mass injection on r][research_zhang_2026_5] on wall mass injection, and [Zeng et al 2026][research_zeng_2026] on rarefaction. Roughness, which is what a real vehicle has, is [Xu et al 2026][research_xu_2026] and [Guo and Cao 2026][research_guo_cao_2026]. Prediction and control are [Peng and Wang 2026][research_peng_wang_2026], and geometry effects are [Zhang et al 2026][research_zhang_2026] and [Hossein et al 2025][research_hossein_2025]. The wider modelling problem is [Zhu et al 2025][research_zhu_2025], [Guo et al 2025][research_guo_2025], and [Tang et al 2024][research_tang_2024], with the rarefied and low-density limits in [Pu et al 2026][research_pu_2026] and [Gao et al 2026][research_gao_2026].
 
 **The strongest evidence that the problem is unsolved is that it is still being flown.** [Johnston et al 2026][research_johnston_2026] reports transition on BOLT-1B at flight conditions, which is a flight experiment for the same reason the X-15 was one, seventy years later.
 
@@ -968,7 +968,7 @@ One archive quirk is worth recording because a reader checking the citation will
 
 **Two limitations should be stated.** The article's heating numbers are computed rather than taken from the flight record, because the flight heating data are distributed across many reports and figures that did not survive text extraction. And the vehicle specifications come from secondary compilations, which agree with each other more than the sources for earlier articles in this series did, but are still secondary.
 
-**The research works were re-read against the article's subject on 7 October 2026, and the re-reading refused none of them.** Every one of the 331 research records was read by title, including the eleven that the refusal and vocabulary screens flagged, and none proved to be about anything outside hypersonic flight, its structures, its test facilities, or the pilot who flew it. The research total therefore stays at 331, and a reading of 300 unflagged records found none off topic, which puts the remaining contamination near zero.
+**The research works were re-read against the article's subject on 7 October 2026, and the re-reading refused none of them.** Every one of the 331 research records was read by title, including the eleven that the refusal and vocabulary screens flagged, and none proved to be about anything outside hypersonic flight, its structures, its test facilities, or the pilot who flew it. The research total therefore stayed at 331, and a reading of 300 unflagged records found none off topic, which puts the remaining contamination near zero. A second seeded sample on 8 October 2026 took the 20 records that the first reading had read but not listed in its sample, all of them cited on prose lines, and found none off topic and none a registry test deposit. That sample is the whole unlisted remainder, so the title reading then covered all 331 records and left none it judged off topic, which bounds the remaining contamination only as far as a title can show a record's subject. A check on 8 October 2026 for records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter found one, a corrigendum to a paper on hypersonic boundary-layer receptivity, and removed it together with the clause of The Contemporary Literature that cited it as that paper, so the research total is now 330.
 
 ## Epistemic State
 
@@ -1011,8 +1011,8 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
 
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_miller_2001]: https://openlibrary.org/search?q=Miller+The+X+Planes+X-1+to+X-45
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_miller_2001]: https://openlibrary.org/works/OL7006680W
 
 ### Reference
 
@@ -1149,7 +1149,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Fortney and Avery 1957][research_fortney_avery_1957]
 - [Foudriat and Wingrove 1961][research_foudriat_wingrove_1961]
 - [Fujio and Taguchi 2026][research_fujio_taguchi_2026]
-- [FurryY et al 1962][research_furryy_1962]
+- [Furry et al 1962][research_furryy_1962]
 - [Games et al 1954][research_games_1954]
 - [Gao et al 2026][research_gao_2026]
 - [Garringer and Saltzman 1966][research_garringer_saltzman_1966]
@@ -1228,7 +1228,7 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Long et al 2026][research_long_2026]
 - [Loveless and Boswell 1954][research_loveless_boswell_1954]
 - [Lu et al 2025, Design, Fabrication, and Performan][research_lu_2025_2]
-- [Luce and Jr 1949][research_luce_jr_1949]
+- [Luce, Jr. 1949][research_luce_jr_1949]
 - [Lunev and Khramov 1970][research_lunev_khramov_1970]
 - [Luo et al 2026][research_luo_2026]
 - [Lushchik et al 2026][research_lushchik_2026]
@@ -1336,7 +1336,6 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 - [Tian et al 2025][research_tian_2025]
 - [Tong et al 2026][research_tong_2026]
 - [Trimmer 1968][research_trimmer_1968]
-- [Varma and Zhong 2026][research_varma_zhong_2026]
 - [Venegas et al 2026][research_venegas_2026]
 - [Vicente and Foy 1963][research_vicente_foy_1963]
 - [Vinokur 1970][research_vinokur_1970]
@@ -1668,7 +1667,6 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 [research_tian_liu_2026]: https://doi.org/10.2514/1.j066483
 [research_tong_2026]: https://doi.org/10.1016/j.actaastro.2026.04.010
 [research_trimmer_1968]: https://doi.org/10.21236/ad0669378
-[research_varma_zhong_2026]: https://doi.org/10.1017/jfm.2026.11430
 [research_venegas_2026]: https://doi.org/10.1007/s00158-026-04258-1
 [research_vicente_foy_1963]: https://doi.org/10.21236/ad0405493
 [research_vinokur_1970]: https://doi.org/10.1017/s0022112070002239

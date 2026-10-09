@@ -129,11 +129,11 @@ so the angular error degrades as $R^{2}$ once noise dominates rather than as $R$
 
 $$P_{r,\text{beacon}} = \frac{P_b G_b G \lambda^{2}}{\left( 4\pi R \right)^{2}}$$
 
-and is the reason command systems track beacons rather than skin returns. The improvement is enormous. At eighty kilometres against a one square metre target, the ratio of the two received powers is
+and is the reason command systems track beacons rather than skin returns. The improvement is large. At eighty kilometres against a one square metre target, the ratio of the two received powers is
 
 $$\frac{P_{r,\text{beacon}}}{P_{r,\text{skin}}} = \frac{P_b G_b \left( 4\pi \right) R^{2}}{P_t G \sigma_t}$$
 
-which for a one watt beacon against a hundred kilowatt radar is still a factor of $8 \times 10^{5}$ in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and that is the single most consequential design decision in a command-guidance system. The beacon as an engineered subsystem, including the decoder that lets the same link carry commands, is [Feldman et al 1962][research_feldman_1962] and [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963], and the later strapdown tracker that removes the launcher entirely is [Savage 1969][research_savage_1969].
+which for a one watt beacon against a hundred kilowatt radar is $8 \times 10^{5}$ divided by the radar antenna gain $G$. For the one metre X-band antenna assumed earlier, whose gain $4\pi/\theta^{2}$ at the 0.030 radian beamwidth is about $1.4 \times 10^{4}$, that still leaves a factor of about 60 in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and that is the single most consequential design decision in a command-guidance system. The beacon as an engineered subsystem, including the decoder that lets the same link carry commands, is [Feldman et al 1962][research_feldman_1962] and [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963], and the later strapdown tracker that removes the launcher entirely is [Savage 1969][research_savage_1969].
 
 The second is scintillation, the fluctuation of the return as the target's aspect changes. [Brockner 1951][research_brockner_1951] measured the angular jitter it produces in conical-scanning trackers, and [Dunn et al 1959][research_dunn_1959] give the general treatment.
 
@@ -231,7 +231,7 @@ Reported parameters for the X-9 are a length of 6.93 metres, a wingspan of 2.39 
 
 ### The Rocket, and Why It Has Two Chambers
 
-The propellant load follows from the two masses, at 624 kilogrammes. Taking an effective exhaust velocity of 2,157 metres per second, corresponding to a specific impulse of 220 seconds for a storable propellant of the period, which is the class surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and treated in [A217][related_post_a217_rocket_propellant_chemistry], the total impulse is
+The propellant load follows from the two masses, at 624 kilogrammes. Taking an effective exhaust velocity of 2,157 metres per second, corresponding to a specific impulse of 220 seconds for a storable propellant of the period, which is the class surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and treated in [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry], the total impulse is
 
 $$I_{\text{tot}} = m_p c = (624)(2157) = 1.35 \times 10^{6} \, \text{N} \cdot \text{s}$$
 
@@ -411,7 +411,7 @@ $$R_m \ge R_d + v_{\text{ac}} \, t_{\text{turn}}$$
 
 with the second term the distance flown while turning away. The 1945 requirement's hundred miles was set against the expected reach of Soviet interceptors and early surface-to-air systems, and the X-9's demonstrated fifty miles would have placed the bomber inside a defence of any depth.
 
-That is the second reason the X-9 was not adopted as an interim weapon, and it is quantitative rather than qualitative. **The range shortfall was not a performance disappointment but an operational disqualification**, since a standoff weapon that does not stand off far enough has no role at all. The tactical-analysis machinery for evaluating exactly this trade is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964], and the probability calculation for an air-launched weapon against a defended target is [Jacobs et al 1961][research_jacobs_1961].
+Range is one of the two grounds, with payload, on which the X-9 was not adopted as an interim weapon, and it is quantitative rather than qualitative. **The range shortfall was not a performance disappointment but an operational disqualification**, since a standoff weapon that does not stand off far enough has no role at all. The tactical-analysis machinery for evaluating exactly this trade is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964], and the probability calculation for an air-launched weapon against a defended target is [Jacobs et al 1961][research_jacobs_1961].
 
 ### Canard Control, and the Price of It
 
@@ -433,7 +433,7 @@ and the power required to move it at the rate the autopilot demands is
 
 $$P = H \, \dot{\delta} = (268)(5) = 1.3 \, \text{kW}$$
 
-**A kilowatt and a half of hydraulic power is a substantial installation on a 1,588 kilogramme vehicle**, and it is why aerodynamic balance of the surface, which reduces $C_h$ without reducing effectiveness, was worth as much effort as it received. The technique goes back to [Harris 1935][research_harris_1935] and the actuator that must supply whatever balance does not remove is [Scott 1966][research_scott_1966]. An all-moving surface also brings a flutter boundary that a fixed surface does not, measured for half-scale models by [Ruhlin and Tuovila 1961][research_ruhlin_1961]. That is the point developed for all-moving surfaces by [Kleckner 1946][research_kleckner_1946] and [Mungall 1948][research_mungall_1948], and measured for this configuration class by [Pfenneberger 1966][research_pfenneberger_1966]. The [canard][ref_canard] arrangement in its aircraft form is surveyed by [Sleeman 1957][research_sleeman_1957], [Driver 1958][research_driver_1958], and [Spearman and Driver 1959][research_spearman_1959].
+**More than a kilowatt of hydraulic power is a substantial installation on a 1,588 kilogramme vehicle**, and it is why aerodynamic balance of the surface, which reduces $C_h$ without reducing effectiveness, was worth as much effort as it received. The technique goes back to [Harris 1935][research_harris_1935] and the actuator that must supply whatever balance does not remove is [Scott 1966][research_scott_1966]. An all-moving surface also brings a flutter boundary that a fixed surface does not, measured for half-scale models by [Ruhlin and Tuovila 1961][research_ruhlin_1961]. That is the point developed for all-moving surfaces by [Kleckner 1946][research_kleckner_1946] and [Mungall 1948][research_mungall_1948], and measured for this configuration class by [Pfenneberger 1966][research_pfenneberger_1966]. The [canard][ref_canard] arrangement in its aircraft form is surveyed by [Sleeman 1957][research_sleeman_1957], [Driver 1958][research_driver_1958], and [Spearman and Driver 1959][research_spearman_1959].
 
 The compensating advantage is that the trim penalty reverses sign. A tail-controlled vehicle deflects its tail downward to pitch up, losing lift, so the surface fights the manoeuvre before assisting it. A canard adds lift where it is wanted. The trim lift for a given manoeuvre is
 
@@ -473,7 +473,7 @@ which over 80 kilometres gives
 
 $$\Delta y (1^{\circ}) = (8 \times 10^{4})(0.01745) = 1.4 \, \text{km}$$
 
-**One degree of release error is fourteen times the entire error budget.** The guidance loop must therefore remove essentially all of it, and the loop's authority is finite. A vehicle correcting a lateral offset $\Delta y$ over a remaining range $R_r$ at a normal acceleration $a_n$ needs
+**One degree of release error is fifteen times the entire error budget.** The guidance loop must therefore remove essentially all of it, and the loop's authority is finite. A vehicle correcting a lateral offset $\Delta y$ over a remaining range $R_r$ at a normal acceleration $a_n$ needs
 
 $$\Delta y \le \tfrac{1}{2} a_n \left( \frac{R_r}{v} \right)^{2}$$
 
@@ -577,7 +577,7 @@ which for the X-9's 0.28 metre radius and a three millimetre wall gives $2.1 \ti
 
 $$\omega_1 = \left( \frac{4.730}{6.93} \right)^{2} \sqrt{\frac{(70 \times 10^{9})(2.1 \times 10^{-4})}{229}} = 117 \, \text{rad/s}$$
 
-which is 19 hertz. **The bending mode sits about sixteen times above the rigid-body natural frequency**, which is a comfortable separation and is why a short, fat missile is easier to control than a long thin one. The vehicles that made this hard were the boosters, which are long and slender and whose first mode falls close to the control bandwidth, and that is why the treatments cited above address launch vehicles rather than missiles. The problem was treated for missiles of this generation by [Lukens et al 1961][research_lukens_1961] and [Freed and Miller 1961][research_freed_1961], and it remains the reason missile autopilot bandwidth is bounded from above by structure rather than by actuators.
+which is 19 hertz. **The bending mode sits about sixteen times above the rigid-body natural frequency**, which is a comfortable separation and is why a short, fat missile is easier to control than a long thin one. The vehicles that made this hard were the boosters, which are long and slender and whose first mode falls close to the control bandwidth. The problem was treated for missiles of this generation by [Lukens et al 1961][research_lukens_1961] and [Freed and Miller 1961][research_freed_1961], and it remains the reason missile autopilot bandwidth is bounded from above by structure rather than by actuators.
 
 ### The Launch Aircraft Is Part of the Weapon
 
@@ -603,7 +603,7 @@ and a reversal takes
 
 $$t_{180} = \frac{\pi R_t}{v} = \frac{\pi (5.1 \times 10^{3})}{236} = 68 \, \text{s}$$
 
-during which the antenna sweeps through the whole of its gimbal range and past it. The turn-performance analysis for exactly this manoeuvre, in which an aircraft must reverse as quickly as its structure allows, is [Wrestler 1965][research_wrestler_1965]. **The bomber spends more than two minutes committed and closes half the standoff distance it just bought unless it turns away**, and turning away costs the antenna its look angle. The engagement geometry is therefore a constraint on the aircraft, not only on the missile, and it is a large part of why the operational concept eventually failed. The general form of the problem, in which a weapon's guidance requirement dictates the delivery aircraft's flight path, is treated by [Smyth 1972][research_smyth_1972], and the tactical-analysis machinery for evaluating such an engagement is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964].
+during which the antenna sweeps through the whole of its gimbal range and past it. The turn-performance analysis for exactly this manoeuvre, in which an aircraft must reverse as quickly as its structure allows, is [Wrestler 1965][research_wrestler_1965]. **The bomber spends more than two minutes committed and closes two fifths of the standoff distance it just bought unless it turns away**, and turning away costs the antenna its look angle. The engagement geometry is therefore a constraint on the aircraft, not only on the missile, and it is a large part of why the operational concept eventually failed. The general form of the problem, in which a weapon's guidance requirement dictates the delivery aircraft's flight path, is treated by [Smyth 1972][research_smyth_1972], and the tactical-analysis machinery for evaluating such an engagement is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964].
 
 Bell was thinking about the successor problem before the X-9 stopped flying. [Ehricke 1955][research_ehricke_1955] and [Bell Aerospace Co Buffalo Ny 1955][research_bell_aerospace_co_buffalo_ny_1955] describe the MX-2276 advanced strategic weapon system, a boost-glide vehicle that removes the launching aircraft from the engagement entirely by not needing one, and the same company produced both studies.
 
@@ -691,7 +691,7 @@ $$n = \frac{\ln \alpha}{\ln p}$$
 
 so demonstrating 90 percent reliability at 95 percent confidence needs
 
-$$n = \frac{\ln 0.05}{\ln 0.90} = 28 \ \text{consecutive successes}$$
+$$n = \frac{\ln 0.05}{\ln 0.90} = 28.4, \ \text{so 29 consecutive successes}$$
 
 against a programme total of thirty-one vehicles. **The X-9 could not have demonstrated its own reliability to any useful confidence even if every flight had succeeded**, which is a general property of small flight-test programmes and not a criticism of this one.
 
@@ -705,7 +705,7 @@ The comparison available here is unusually good, because the configuration the X
 
 The prediction problem is correspondingly easier and the article should say so. What the X-9 had to determine for itself was not the aerodynamics but the closed-loop behaviour, and no wind tunnel produces a miss distance.
 
-The one place where prediction was genuinely hard is the interaction between the guidance loop and the airframe under realistic noise, and the analytical apparatus for that arrived after the X-9 finished flying. [Abramovitz 1952][research_abramovitz_1952] and [Abramovitz 1953][research_abramovitz_1953] treat the speed of response of proportional navigation systems and the effect of missile configuration on it, [Stewart and Smith 1959][research_stewart_1959] synthesise optimum homing guidance with statistical inputs, and [Stewart 1961][research_stewart_1961] gives an explicit linear filtering solution for the same problem. **All three postdate the X-9's last flight**, and the X-9's guidance was designed and flown without them. The line continues through the three-dimensional formulation of [Adler 1956][research_adler_1956], the final-value formulation of [Abzug 1967][research_abzug_1967], the closed-form solution of [Guelman 1974][research_guelman_1974], and the comparative evaluation of [Price and Warren 1973][research_price_1973]. The separation of guidance from navigation that makes any of it tractable is [Potter 1964][research_potter_1964], and the state estimation that modern guidance assumes is [Aldrich and Krabill 1972][research_aldrich_1972].
+The one place where prediction was genuinely hard is the interaction between the guidance loop and the airframe under realistic noise, and the analytical apparatus for that arrived after the X-9 finished flying. [Abramovitz 1952][research_abramovitz_1952] and [Abramovitz 1953][research_abramovitz_1953] treat the speed of response of proportional navigation systems and the effect of missile configuration on it, [Stewart and Smith 1959][research_stewart_1959] synthesise optimum homing guidance with statistical inputs, and [Stewart 1961][research_stewart_1961] gives an explicit linear filtering solution for the same problem. **The two Stewart reports postdate the X-9's last flight and the two Abramovitz reports appeared as it was ending**, and the X-9's guidance was designed and flown without them. The line continues through the three-dimensional formulation of [Adler 1956][research_adler_1956], the final-value formulation of [Abzug 1967][research_abzug_1967], the closed-form solution of [Guelman 1974][research_guelman_1974], and the comparative evaluation of [Price and Warren 1973][research_price_1973]. The separation of guidance from navigation that makes any of it tractable is [Potter 1964][research_potter_1964], and the state estimation that modern guidance assumes is [Aldrich and Krabill 1972][research_aldrich_1972].
 
 **A programme that finished in January 1953 was using none of this**, and the gap between what the X-9 flew and what the theory would later say it should have flown is a fair measure of how far ahead of its analysis the practice ran.
 
@@ -815,7 +815,7 @@ A weapon programme reports to a service, and the service keeps the reports. The 
 
 **Neither archive holds much about the guidance system**, which is the vehicle's actual subject, and that is not an accident. Guidance was the classified part.
 
-**The research works were re-read on 7 October 2026, and the re-reading refused none of them.** Every one of the 269 research works in the references is cited by name in a sentence of this article, and a reading of every title, the 20 that a screen for missing engineering vocabulary flagged and the 249 it did not, found none outside the subject. The total therefore stands at 269 before and after. The nearest calls were a flutter study of a piezoelectric plate, a fault-tolerance study for aeroengines, a latency study of remote driving and a study of silos under blast, and each was kept because the sentence citing it uses it for exactly that neighbouring point.
+**The research works were re-read on 7 October 2026, and the re-reading refused none of them.** Every one of the 269 research works in the references is cited by name in a sentence of this article, and a reading of every title, the 20 that a screen for missing engineering vocabulary flagged and the 249 it did not, found none outside the subject. The total therefore stands at 269 before and after. The nearest calls were a flutter study of a piezoelectric plate, a fault-tolerance study for aeroengines, a latency study of remote driving and a study of silos under blast, and each was kept because the sentence citing it uses it for exactly that neighbouring point. A second sampling pass on 8 October 2026 found no record that the first reading had not already seen, so no second sample could be drawn, and the reading of all 269 titles, which found none off topic, remains the only measure of contamination. A sweep of the same 269 for registry test deposits found none. A check on 8 October 2026 for records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, and journal front matter such as covers, contents lists, reviewer lists and indexes, found none and removed none, so the total stays at 269.
 
 ## Epistemic State
 
@@ -823,7 +823,7 @@ A weapon programme reports to a service, and the service keeps the reports. The 
 
 **Engineering analysis, computed here.** The conversion of the accuracy requirement into an axis standard deviation of 91.5 metres and a circular error probable of 108 metres, the equal-share error budget, the radar cross-range resolution and the resulting launcher-guided range limit, the opposite error gradients of the two architectures, the operator crossover frequency, the airframe short-period frequency, the propellant load and burn time, the cruise-drag argument for two chambers, the air-launch energy credit, the glide ratio, the canard trim relations and the acceleration per degree, the release-error propagation, the separation time, the command link budget and data rate, the autopilot damping requirement, the recovery temperature and skin time constant, the canopy sizing, and the kill-probability inversion. **Each depends on assumed values stated where they are used.**
 
-**Inference, stated as such.** That the launcher-guided range limit derived from a beamwidth explains the X-9's demonstrated range is a correspondence between two numbers and not a documented rationale, and the period sources compare guidance architectures on tactical grounds without ever performing this calculation. That the two-chamber engine existed to match cruise drag is inferred from the arithmetic and not from a source. That the trapeze exists to remove release-condition variance rather than merely to provide clearance is inferred the same way. That the launcher-guided range limit explains the X-9's demonstrated range is a correspondence, not a documented design rationale.
+**Inference, stated as such.** That the launcher-guided range limit derived from a beamwidth explains the X-9's demonstrated range is a correspondence between two numbers and not a documented rationale, and the period sources compare guidance architectures on tactical grounds without ever performing this calculation. That the two-chamber engine existed to match cruise drag is inferred from the arithmetic and not from a source. That the trapeze exists to remove release-condition variance rather than merely to provide clearance is inferred the same way.
 
 **Not settled by the record consulted here.**
 
@@ -1213,41 +1213,41 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [A304 X-Planes, Lockheed X-7][related_post_a304_lockheed_x7]
 - [A305 X-Planes, Aerojet X-8 Aerobee][related_post_a305_aerojet_x8]
 
-[book_anderson_2002_modern_compressible]: https://openlibrary.org/search?q=Anderson+Modern+Compressible+Flow
-[book_ball_2003]: https://openlibrary.org/search?q=Ball+Fundamentals+of+Aircraft+Combat+Survivability
-[book_barton_2004]: https://openlibrary.org/search?q=Barton+Radar+System+Analysis+and+Modeling
-[book_blakelock_1991]: https://openlibrary.org/search?q=Blakelock+Automatic+Control+of+Aircraft+and+Missiles
-[book_bruhn_1973]: https://openlibrary.org/search?q=Bruhn+Analysis+and+Design+of+Flight+Vehicle+Structures
-[book_bryson_ho_1975]: https://openlibrary.org/search?q=Bryson+Ho+Applied+Optimal+Control
-[book_clark_1972]: https://openlibrary.org/search?q=Clark+Ignition+Informal+History+Liquid+Rocket+Propellants
-[book_cover_thomas_2006]: https://openlibrary.org/search?q=Cover+Thomas+Elements+of+Information+Theory
-[book_dornberger_1954]: https://openlibrary.org/search?q=Dornberger+V-2
-[book_driels_2013]: https://openlibrary.org/search?q=Driels+Weaponeering+Conventional+Weapon+System+Effectiveness
-[book_etkin_reid_1996]: https://openlibrary.org/search?q=Etkin+Reid+Dynamics+of+Flight+Stability+and+Control
-[book_franklin_2019]: https://openlibrary.org/search?q=Franklin+Powell+Emami+Naeini+Feedback+Control+of+Dynamic+Systems
-[book_garnell_1980]: https://openlibrary.org/search?q=Garnell+Guided+Weapon+Control+Systems
-[book_glasstone_dolan_1977]: https://openlibrary.org/search?q=Glasstone+Dolan+Effects+of+Nuclear+Weapons
-[book_hill_peterson_1991]: https://openlibrary.org/search?q=Hill+Peterson+Mechanics+and+Thermodynamics+of+Propulsion
-[book_huzel_huang_1992]: https://openlibrary.org/search?q=Huzel+Huang+Design+of+Liquid+Propellant+Rocket+Engines
-[book_incropera_heat_transfer]: https://openlibrary.org/search?q=Incropera+DeWitt+Fundamentals+of+Heat+and+Mass+Transfer
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_knacke_1992]: https://openlibrary.org/search?q=Knacke+Parachute+Recovery+Systems+Design+Manual
-[book_mcruer_krendel_1974]: https://openlibrary.org/search?q=McRuer+Krendel+Mathematical+Models+of+Human+Pilot+Behavior
-[book_miller_2001]: https://openlibrary.org/search?q=Miller+The+X+Planes+X-1+to+X-45
-[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
-[book_nielsen_1960]: https://openlibrary.org/search?q=Nielsen+Missile+Aerodynamics
-[book_ordway_wakeford_1960]: https://openlibrary.org/search?q=Ordway+Wakeford+International+Missile+and+Spacecraft+Guide
-[book_papoulis_2002]: https://openlibrary.org/search?q=Papoulis+Probability+Random+Variables+and+Stochastic+Processes
-[book_przemieniecki_2000]: https://openlibrary.org/search?q=Przemieniecki+Mathematical+Methods+in+Defense+Analyses
-[book_sheridan_ferrell_1974]: https://openlibrary.org/search?q=Sheridan+Ferrell+Man+Machine+Systems
-[book_sherman_2011]: https://openlibrary.org/search?q=Sherman+Monopulse+Principles+and+Techniques
-[book_siouris_2004]: https://openlibrary.org/search?q=Siouris+Missile+Guidance+and+Control+Systems
-[book_sklar_2001]: https://openlibrary.org/search?q=Sklar+Digital+Communications+Fundamentals+and+Applications
-[book_skolnik_2008]: https://openlibrary.org/search?q=Skolnik+Radar+Handbook
-[book_sutton_biblarz_2016]: https://openlibrary.org/search?q=Sutton+Biblarz+Rocket+Propulsion+Elements
-[book_van_trees_2001]: https://openlibrary.org/search?q=Van+Trees+Detection+Estimation+and+Modulation+Theory
-[book_werrell_1985]: https://openlibrary.org/search?q=Werrell+The+Evolution+of+the+Cruise+Missile
-[book_zarchan_2012]: https://openlibrary.org/search?q=Zarchan+Tactical+and+Strategic+Missile+Guidance
+[book_anderson_2002_modern_compressible]: https://openlibrary.org/works/OL1993329W
+[book_ball_2003]: https://openlibrary.org/works/OL5099643W
+[book_barton_2004]: https://openlibrary.org/works/OL13634896W
+[book_blakelock_1991]: https://openlibrary.org/works/OL4449715W
+[book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
+[book_bryson_ho_1975]: https://openlibrary.org/works/OL12859817W
+[book_clark_1972]: https://openlibrary.org/works/OL7159231W
+[book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
+[book_dornberger_1954]: https://openlibrary.org/works/OL6160912W
+[book_driels_2013]: https://openlibrary.org/works/OL3471401W
+[book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
+[book_franklin_2019]: https://openlibrary.org/works/OL18666743W
+[book_garnell_1980]: https://openlibrary.org/works/OL6338950W
+[book_glasstone_dolan_1977]: https://openlibrary.org/works/OL37590915W
+[book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
+[book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
+[book_incropera_heat_transfer]: https://openlibrary.org/works/OL2975219W
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_knacke_1992]: https://openlibrary.org/works/OL4121303W
+[book_mcruer_krendel_1974]: https://openlibrary.org/works/OL6476637W
+[book_miller_2001]: https://openlibrary.org/works/OL7006680W
+[book_neufeld_1995]: https://openlibrary.org/works/OL3501503W
+[book_nielsen_1960]: https://openlibrary.org/works/OL4626547W
+[book_ordway_wakeford_1960]: https://openlibrary.org/works/OL5900152W
+[book_papoulis_2002]: https://openlibrary.org/works/OL4455624W
+[book_przemieniecki_2000]: https://openlibrary.org/works/OL3494463W
+[book_sheridan_ferrell_1974]: https://openlibrary.org/works/OL39139905W
+[book_sherman_2011]: https://openlibrary.org/works/OL2417266W
+[book_siouris_2004]: https://openlibrary.org/works/OL3746989W
+[book_sklar_2001]: https://openlibrary.org/works/OL10516432W
+[book_skolnik_2008]: https://openlibrary.org/works/OL11286925W
+[book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
+[book_van_trees_2001]: https://openlibrary.org/works/OL4282773W
+[book_werrell_1985]: https://openlibrary.org/works/OL2937070W
+[book_zarchan_2012]: https://openlibrary.org/works/OL19905556W
 [ref_aerojet]: https://en.wikipedia.org/wiki/Aerojet
 [ref_alcm]: https://en.wikipedia.org/wiki/Air-launched_ballistic_missile
 [ref_b29]: https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress

@@ -26,7 +26,8 @@ that a specification table would otherwise carry.**
 **The finding is that classification hides the design and not the physics.** A published range, a published
 mass and a published lift to drag ratio bound the problem tightly enough to show where it becomes
 impossible, and **the place it becomes impossible is the leading edge.** When the vehicle finally flew,
-twice, it failed at the leading edge both times, and the official failure report says so.
+twice, both flights were lost, and the official failure report on the second attributes its loss to
+degradation of the aeroshell.
 
 ## The Research Question
 
@@ -223,11 +224,11 @@ the weight, taking the published mass of about **900 kilograms**
 
 $$\rho = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{V^{2} S C_{L}}$$
 
-At 7,000 metres per second and an assumed $S C_{L}$ of 0.45 square metres this gives
-
-where the weight follows from the published mass.
+The weight follows from the published mass.
 
 $$W = m g = (900)(9.80665) = 8{,}826 \ \text{N}$$
+
+At 7,000 metres per second and an assumed $S C_{L}$ of 0.45 square metres this gives
 
 $$\rho = \frac{2 (8{,}826)(0.2157)}{(7{,}000)^{2}(0.45)} = 1.73 \times 10^{-4} \ \text{kg/m}^{3}$$
 
@@ -426,8 +427,8 @@ it until the aerodynamic moments exceeded its control authority
 
 **The board's two conclusions are the ones this article's derivation predicts.** It found that
 **the aerodynamic design was validated** and that what the flight actually taught concerned
-**the thermal material properties** \[[Engineering review board concludes review of the second test
-flight][ref_erb]\]. The shape worked. The edge did not.
+**the thermal material properties**
+\[[Engineering review board concludes review of the second test flight][ref_erb]\]. The shape worked. The edge did not.
 
 **The board's third conclusion is the general one and it is the most important.** It found that
 extrapolating from known flight regimes, relying on thermal modelling and ground testing alone, **could not
@@ -447,13 +448,13 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 ## The Contemporary Literature
 
-**The survey below holds 4,455 records** across 8 clusters, retrieved from the scholarly registry. **None of them is cited as evidence for any claim about the X-41** and none was read. They map the fields the vehicle sits in, and the 34 curated sources remain the only ones the argument rests on.
+**The survey below holds 4,422 records** across 8 clusters, retrieved from the scholarly registry. **None of them is cited as evidence for any claim about the X-41** and none was read beyond its title. They map the fields the vehicle sits in, and the 34 curated sources remain the only ones the argument rests on.
 
 ### Boost-Glide Trajectories and Gliding Range
 
 **This is the article's keystone and it is an old subject.** The equilibrium glide relation, the skip trajectory and the range available to a lifting entry body have been studied continuously since the 1950s, and the recurring result is the one derived here, that range is bought with aerodynamic efficiency and with entry speed and with nothing else.
 
-**The harvest returned 1,093 records here, and the 23 most recent are listed. The remainder appear in the references.**
+**This cluster holds 1,087 records, and the 23 most recent are listed. The remainder appear in the references.**
 
 - [Liu and others, 2026, A Skip Trajectory Optimization Method for High-Speed Boost-Glide Flight Test Vehicles Based on IAPSO-NLP][research_liu_liu_2026]
 - [Miao and others, 2026, A trajectory optimization method of hypersonic gliding vehicle based on differential flatness][research_miao_wang_2026]
@@ -483,7 +484,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **The largest cluster covers the constraint that makes the mission hard.** Waverider design, hypersonic configuration optimisation and the empirical ceiling on lift to drag are the literature of trying to beat a limit that this article uses as a bound.
 
-**The harvest returned 2,090 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 2,079 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Dodge and others, 2026, A Comparative Evaluation of Engineering-Level and RANS-Based Aerodynamic Models on the Flight Dynamics of a Generic Hypersonic Vehicle][research_dodge_lindorfer_2026]
 - [Brindha and others, 2026, A comprehensive review of waverider configurations Advances in design, performance, and applications across wide-speed ranges][research_brindha_das_2026]
@@ -515,7 +516,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **The heating correlation used in the sizing section comes from this literature.** Stagnation-point heat transfer, shock-layer radiation and aerodynamic heating prediction are what turn a trajectory into a temperature, and the temperature is what decided this vehicle.
 
-**The harvest returned 413 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 408 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Maione and others, 2026, Aerothermodynamic Analysis of a Blended Wing Body Re-entry Vehicle][research_maione_aprovitola_2026]
 - [Hoter and others, 2026, Aerothermodynamic Analysis of a Flexible Thermal Protection System Under Reentry Loads][research_hoter_nastac_2026]
@@ -547,7 +548,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **The binding constraint has its own field.** Ultra-high temperature ceramics, carbon composites and sharp leading-edge cooling are the technologies that would have to advance for the sizing section's contradiction to be resolved, and the failure report says they had not.
 
-**The harvest returned 334 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 328 records, and the 23 most recent are listed. The remainder appear in the references.**
 
 - [Chen and others, 2026, Ablation resistance and high-temperature bending properties of free-standing ultra-high-temperature ceramics ZrB2-SiC-ZrC coating][research_chen_zhou_2026]
 - [Hoffert and Wen, 2026, Approaching Experimental Conditions for Molecular Simulations of Phenol-Based Thermal Protection Materials][research_hoffert_wen_2026]
@@ -569,8 +570,6 @@ facilities run out**, and the programme paid two vehicles to establish it.
 - [Zhang and others, 2026, Research Progress on Supercritical CO2 Brayton Cycle System and Compressor for Thermal Protection of Hypersonic Aircraft][research_zhang_yu_2026]
 - [Zhao and others, 2026, Tailoring layer architecture to enhance the toughness of ZrB2-ZrC-SiC/C laminated ultra-high temperature ceramics][research_zhao_bai_2026]
 - [Kashyap and Mitra, 2026, Thermophysical and electrical properties of spark plasma sintered ZrB2-SiC-LaB6 ultra-high temperature ceramic composites][research_kashyap_mitra_2026]
-- [Aljbour, 2026, WITHDRAWAL Investigation of Roughness Induced Transition and Heating Amplification on Hypersonic Reusable Leading Edges][research_aljbour_2026]
-- [Aljbour, 2026, WITHDRAWN Investigation of Roughness Induced Transition and Heating Amplification on Hypersonic Reusable Leading Edges][research_aljbour_2026_b]
 - [Pang and others, 2025, Aerospace Vehicle Engine Nozzle External Thermal Protection System Design Factor Analysis][research_pang_du_2025]
 - [Monroe and Boyd, 2025, Circuit Analysis of an Electron Transpiration Cooling System for Hypersonic Leading Edges][research_monroe_boyd_2025]
 - [Carpman and others, 2025, Corrosion of Ultra-High Temperature Ceramics in Molten Chloride Salt][research_carpman_kelly_2025]
@@ -579,7 +578,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **A glider that cannot be steered is a ballistic reentry vehicle.** Entry guidance, trajectory planning and manoeuvring reentry are the literature of the capability that distinguished the concept from the missile it was meant to replace.
 
-**The harvest returned 346 records here, and the 23 most recent are listed. The remainder appear in the references.**
+**This cluster holds 341 records, and the 23 most recent are listed. The remainder appear in the references.**
 
 - [Thien, 2026, Adaptive Guidance and Optimal Trajectory Generation for Highly Maneuvering UAVs][research_thien_2026]
 - [Arai and Matsumoto, 2026, Convexification of Aerodynamic-Constraints for Reusable-Rockets Reentry-Burn Guidance][research_arai_matsumoto_2026]
@@ -609,7 +608,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **The boost requirement derived here is most of a space launch.** Small and responsive launch vehicles and the separation problem are the other half of the programme, and the smaller cluster.
 
-**The harvest returned 86 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 86 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Long and others, 2026, Multidisciplinary modeling and dynamic Kriging assisted optimization for suborbital reusable launch vehicle][research_long_li_2026]
 - [Tatsuta and others, 2025, Aerothermal Environment Prediction of Reentry Capsule With Deployable Aeroshell in Suborbital Reentry Flight Test][research_tatsuta_nagata_2025]
@@ -641,7 +640,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **Whether such a vehicle can be seen is a separate question from whether it can fly.** This cluster is surveyed and not analysed, since the article makes no claim about it.
 
-**The harvest returned 54 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 54 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Walenczykowska and others, 2024, Ballistic Missile Threat Modeling and VHF Radar Detection Performance Analysis for Tactical-Level Air Defense Simulator][research_walenczykowska_buzantowicz_2024]
 - [Molchanov, 2024, Fast Radar for the Detection of Hypersonic Missiles and UASs][research_molchanov_2024]
@@ -673,7 +672,7 @@ facilities run out**, and the programme paid two vehicles to establish it.
 
 **The smallest cluster, and small for a reason.** Open scholarship on prompt global strike as a policy question is thin next to the engineering literature, which is itself a fact about how this vehicle was discussed.
 
-**The harvest returned 39 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 39 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Singh, 2026, Technological Innovation and Future Security-Impact of Supersonic and Hypersonic Weapon Systems on Air and Missile Defence][research_singh_2026]
 - [Zhang and others, 2025, Enhanced Control System for Morphing Hypersonic Aircraft Based on an Improved Proximal Policy Optimization Algorithm][research_zhang_tang_2025]
@@ -723,7 +722,7 @@ rather than hidden inside a single number.
 
 ## The Source Base
 
-**34 curated sources carry the argument and 4,455 harvested records map the field, and the article
+**34 curated sources carry the argument and 4,422 harvested records map the field, and the article
 keeps them apart.**
 
 **The curated set began with no primary sources at all, which was indefensible.** Eight reference works,
@@ -748,8 +747,9 @@ analysis of sharp nosecaps and leading edges works the sharp-versus-blunt trade 
 and a flight experiment programme was built to attack it. **The contradiction derived here is a recognised
 design problem with its own literature**, which is a stronger position than deriving it alone.
 
-**The harvested set was never read.** 15,209 records were retrieved and 4,470 passed the subject gate, of
-which 4,326 reach the reference list after duplicates and three homonym families were removed.
+**No harvested record was read beyond its title.** The first harvest retrieved 15,209 records, of which
+4,470 passed the subject gate and 4,326 reached the reference list after duplicates and three homonym
+families were removed.
 **Not one is cited in support of a claim about the X-41.**
 
 **The gate was audited by reading random samples of both sides, which is the return protocol rather than a
@@ -770,11 +770,15 @@ and it is now part of the routine rather than a lucky catch. **The article claim
 **The publication pass audited the survey against the article's own subjects and found two thin.**
 **The entry corridor measured nine records while the corridor is this article's central construct**, and
 cross-range stood at fourteen against a paragraph that leans on it. A supplementary harvest of 3,075
-records closed both, taking the corridor and footprint literature from single figures to several hundred.
-**The supplementary set was audited by reading a sample of its own**, which is the process gap A337
-recorded after auditing only its first harvest, and the sample came back clean.
+records was added to fill both. Counting survey titles after the 7 October 2026 rebuild, 18 contain the
+word corridor and 21 contain cross-range in any spelling or footprint. The earlier nine and fourteen were
+counted under a rule that was not recorded, so the two pairs of figures cannot be compared exactly.
+**The supplementary set was audited by reading a sample of its own**, which is the
+process gap the X-40 article recorded after auditing only its first harvest. That sample of twenty-four records found
+none off topic at the time, and the 7 October 2026 rebuild later refused forty-nine records from this
+harvest, so a clean sample of that size did not show the harvest to be clean.
 
-**One inherited defect is absent because A336 paid for it.** The qualifier helper wraps each part in a
+**One inherited defect is absent because the X-39 article paid for it.** The qualifier helper wraps each part in a
 non-capturing group, so an alternation cannot escape its lookahead and turn a conjunction into a
 disjunction of bare words.
 
@@ -801,6 +805,12 @@ whose sample had come back clean.
 **A reading of 300 unflagged records found seven off topic**, every one of them in a family the sweep then
 removed. The sample therefore measured 2.3 percent before the sweep, and the contamination remaining after
 it is lower by an amount the reading cannot measure.
+
+**A second seeded sample of 300 records that no earlier reading had seen, read on 8 October 2026, found
+none off topic, so nothing was removed and the survey still held 4,455 records.** That sample drove no
+sweep, so it does measure what remains after the rebuild. Finding none in 300 bounds the remaining
+off-topic share below about 1 percent at 95 percent confidence and does not show it to be zero.
+**Thirty-two more records were removed on 8 October 2026 because they are notices about works and not works**, being 24 errata, correction and addendum notices and 8 retraction or withdrawal notices, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the survey from 4,455 to 4,423, hypersonic aerodynamics from 2,090 to 2,079 and boost-glide trajectories from 1,093 to 1,087, and left the corridor and cross-range title counts at 18 and 21. On 8 October one retracted article was also removed, which took the survey from 4,423 to 4,422 and thermal protection from 329 to 328.
 
 ## Epistemic State
 
@@ -906,7 +916,8 @@ exceed the design temperature.**
 aeroshell degradation, larger than expected skin loss, and roll upsets beyond the vehicle's control
 authority. **It also found that the aerodynamic design was validated and that the surprise was thermal.**
 
-**The shape was never the problem. The edge was**, and the arithmetic said so before the vehicle flew.
+**The shape was never the problem. The edge was**, and the relations that say so were all published
+before the vehicle flew.
 
 The next article returns to a vehicle whose designation is not in doubt.
 
@@ -1114,8 +1125,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Alexander and T. M, 1978, Explicit Guidance Equations for a Variable Trim Reentry Vehicle][research_alexander_tm_1978]
 - [Alexander, 1970, A Transducer for Controlling Simulated Aerodynamic Heating][research_alexander_1970]
 - [Alferov and Marchenko, 2012, Erbium oxide aerodynamic models in the hypersonic flow][research_alferov_marchenko_2012]
-- [Aljbour, 2026, WITHDRAWAL Investigation of Roughness Induced Transition and Heating Amplification on Hypersonic Reusable Leading Edges][research_aljbour_2026]
-- [Aljbour, 2026, WITHDRAWN Investigation of Roughness Induced Transition and Heating Amplification on Hypersonic Reusable Leading Edges][research_aljbour_2026_b]
 - [Alkandry and others, 2014, Comparison of Transport Properties Models for Flowfield Simulations of Ablative Heat Shields][research_alkandry_boyd_2014]
 - [Alkaya and others, 2018, Conceptual Advanced Transport Aircraft Design Configuration for Sustained Hypersonic Flight][research_alkaya_alexsam_2018]
 - [Allegre and others, 1992, TEST CASE VTI-5 Aerodynamic Forces Applied to a Delta Wing Located in Rarefied Hypersonic Flows][research_allegre_heriarddubreuilh_1992]
@@ -1270,7 +1279,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Beresh, 2022, Ground Testing of Unsteady Aerodynamic Environments in Hypersonic Flight][research_beresh_2022]
 - [Bergen and others, 2024, Simulations of Slender Hypersonic Geometries with Blunt Leading Edges Using rhoCentralFoam][research_bergen_chan_2024]
 - [Berger and others, 2008, Aerothermodynamic Testing and Boundary-Layer Trip Sizing of the HIFiRE Flight 1 Vehicle][research_berger_greene_2008]
-- [Berger and others, 2009, Erratum on "Aerothermodynamic Testing and Boundary-Layer Trip Sizing of the HIFire Flight 1 Vehicle"][research_berger_greene_2009]
 - [Berger, 2009, Aerothermodynamic Testing of the Crew Exploration Vehicle at Mach 6 and Mach 10][research_berger_2009]
 - [Berlin and others, 1989, Analysis of the expansion-fan flowfield for holes in a hypersonic configuration][research_berlin_tedeschi_1989]
 - [BERNHART, 1995, Materials requirements for the thermal protection system of Hermes and related testing requirements][research_bernhart_1995]
@@ -1422,7 +1430,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Butt and others, 2013, Adaptive integral dynamic surface control of a hypersonic flight vehicle][research_butt_yan_2013]
 - [Butt, 2013, Observer Based Dynamic Surface Control of A Hypersonic Flight Vehicle][research_butt_2013]
 - [Buyanbaatar and others, 2022, Aerodynamic Study of Cone-Derived Waverider as Supersonic Transport][research_buyanbaatar_ishikawa_2022]
-- [Byczkowski and Rao, 2023, Correction Reusable Entry Vehicle Trajectory Optimization Using Multiple-Domain Radau Collocation][research_byczkowski_rao_2023_b]
 - [Byczkowski and Rao, 2023, Reusable Entry Vehicle Trajectory Optimization Using Multiple-Domain Radau Collocation][research_byczkowski_rao_2023]
 - [Byczkowski and Rao, 2024, Constrained Hypersonic Reentry Trajectory Optimization Using A Multiple-Domain Direct Collocation Method][research_byczkowski_rao_2024]
 - [Byczkowski and Rao, 2026, Numerical Optimization Study of a Constrained Hypersonic Reentry Vehicle][research_byczkowski_rao_2026]
@@ -1703,8 +1710,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Couture and others, 2008, Comparison of Scramjet and Shcramjet Propulsion for an Hypersonic Waverider Configuration][research_couture_dechamplain_2008]
 - [COVELL and others, 1988, Configuration trade and code validation study on a conical hypersonic vehicle][research_covell_wood_1988]
 - [Covington and others, 2004, Performance of a Low Density Ablative Heat Shield Material][research_covington_balboni_2004]
-- [Covington and others, 2008, Erratum on "Erratum on 'Performance of a Low Density Ablative Heat Shield Material'"][research_covington_heinemann_2008_c]
-- [Covington and others, 2008, Erratum on "Performance of a Low Density Ablative Heat Shield Material"][research_covington_heinemann_2008_b]
 - [Covington and others, 2008, Performance of a Low Density Ablative Heat Shield Material][research_covington_heinemann_2008]
 - [CRAMER and others, 1988, NLP reentry guidance - Developing a strategy for low L/D vehicles][research_cramer_bradt_1988]
 - [Cremaschi, 2012, Trajectory Optimization for Launchers and Re-entry Vehicles][research_cremaschi_2012]
@@ -1814,7 +1819,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Deng and Zhao, 2026, High-precision trajectory planning method for hypersonic glide vehicles based on sequential convex optimization][research_deng_zhao_2026]
 - [Deng, 2026, Hypersonic glide trajectory planning with sequential convex optimization and hp pseudospectral discretization][research_deng_2026]
 - [Dennis M Bushnell, 1997, Hypersonic Flight Experimentation - Status and Shortfalls][research_bushnell_1997]
-- [DERIENZO and PALLONE, 1967, Addendum Wonvective Stagnation-Point Heating for Re-Entry Speeds up to 70,000 fps Including Effects of Large Blowing Rates"][research_derienzo_pallone_1967_b]
 - [DERIENZO and PALLONE, 1967, Convective stagnation-point heating for re- entry speeds up to 70,000 fps including effects of large blowing rates][research_derienzo_pallone_1967]
 - [Derollez and others, 2021, Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels][research_derollez_cleach_2021]
 - [Desai and Knocke, 2004, Mars Exploration Rovers Entry, Descent, and Landing Trajectory Analysis][research_desai_knocke_2004]
@@ -1986,7 +1990,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [FAULDERS and others, 1967, Aerodynamic requirements for flare and landing of low-L/D glide vehicles][research_faulders_lekawa_1967]
 - [Faulwasser and others, 2014, Constrained reachability and trajectory generation for flat systems][research_faulwasser_hagenmeyer_2014]
 - [Fawley and Putnam, 2020, Comparison of Real-time Guidance Options for Drag-Modulation Entry at Mars][research_fawley_putnam_2020]
-- [Fawley and Putnam, 2020, Correction Comparison of Real-time Guidance Options for Drag-Modulation Entry at Mars][research_fawley_putnam_2020_b]
 - [Fay and Kemp, 1963, Theory of Stagnation-point Heat Transfer in a Partially Ionized Diatomic Gas][research_fay_kemp_1963]
 - [Fedele and others, 2014, Online parameters estimation for reentry vehicle in the hypersonic regime][research_fedele_romagnoli_2014]
 - [Fedele and others, 2020, Aerothermodynamics and thermal design for on-ground and in-flight testing of a deployable heat shield capsule][research_fedele_gardi_2020]
@@ -2135,7 +2138,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Geshele and others, 2013, Ways to increase the flight velocity of a hypersonic vehicle][research_geshele_polezhaev_2013]
 - [Ghaffari and others, 1991, Transonic Navier-Stokes solutions about a generic hypersonic configuration][research_ghaffari_luckring_1991]
 - [Ghori and others, 2023, Thermo-Structural Response Prediction of UHTCC Control Surface for Hypersonic Cruise Vehicle][research_ghori_narendar_2023]
-- [Ghosh and Ogawa, 2022, Correction Design and Numerical Investigation of a Hypersonic Waverider based Entry, Descent, and Landing Architecture Assisted by Supersonic Retro-Propulsion][research_ghosh_ogawa_2022_b]
 - [Ghosh and Ogawa, 2022, Design and Numerical Investigation of a Hypersonic Waverider based Entry, Descent, and Landing Architecture Assisted by Supersonic Retro-Propulsion][research_ghosh_ogawa_2022]
 - [Ghosh and others, 2009, Room-temperature dislocation activity during mechanical deformation of polycrystalline ultra-high-temperature ceramics][research_ghosh_subhash_2009]
 - [Ghosh and others, 2023, Effect of Leading Edge Bluntness on Aerothermal Characteristics of Osculating Cone Waveriders][research_ghosh_rao_2023]
@@ -2190,8 +2192,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Goulard, 1961, A Comment on "Radiation From Hot Air and Its Effect on Stagnation-Point Heating"][research_goulard_1961]
 - [Govinda and others, 2017, Design of Optimized Two-Dimensional Scramjet Nozzle Contour for Hypersonic Vehicle Using Evolutionary Algorithms][research_govinda_devaraj_2017]
 - [Goyal and others, 2023, Aerodynamic Shape Optimization of a Hypersonic Missile Geometry][research_goyal_prasad_2023]
-- [Goyal and others, 2023, Correction Aerodynamic Shape Optimization of a Hypersonic Missile Geometry][research_goyal_prasad_2023_c]
-- [Goyal and others, 2023, Withdrawal Aerodynamic Shape Optimization of a Hypersonic Missile Geometry][research_goyal_prasad_2023_b]
 - [Goyer and Tallon, 2023, Exploring new solvent mixtures for near-net shaping of Ultra-High Temperature Ceramics via colloidal processing][research_goyer_tallon_2023]
 - [Goz and Theodoulis, 2025, Robust Multi-Objective H∞ Control of GHAME Hypersonic Vehicle in Subsonic Flight][research_goz_theodoulis_2025]
 - [Gracey and others, 1982, Fixed-trim re-entry guidance analysis][research_gracey_cliff_1982]
@@ -2382,7 +2382,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [He and others, 2026, Intelligent Trajectory Prediction Algorithm for Reentry Glide Vehicle via Physics-Informed Constraints and State Predictive Control][research_he_li_2026]
 - [He and others, 2026, Reentry Glide Vehicle Intent Inference Method via Multidimensional Intention Fusion][research_he_li_2026_c]
 - [He and Yan, 2018, Adaptive Terminal Guidance Law for Spiral-Diving Maneuver Based on Virtual Sliding Targets][research_he_yan_2018]
-- [He and Yan, 2020, Correction Adaptive Terminal Guidance Law for Spiral-Diving Maneuver Based on Virtual Sliding Targets][research_he_yan_2020]
 - [He, 2015, Progress in Waverider Inlet Integration Study][research_he_2015_b]
 - [He, 2015, Target Tracking Algorithm of Ballistic Missile in Boost Phase Based on Ground-based Radar Systems][research_he_2015]
 - [HEATHMAN and KELLY, 1966, Hydrogen Tankage for Hypersonic Cruise Vehicles][research_heathman_kelly_1966]
@@ -2440,7 +2439,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Holden, 1986, Aerothermal Problems Associated with Viscous/Inviscid Interaction over Hypersonic Flight Vehicles][research_holden_1986]
 - [HOLDSWORTH and LEONDES, 1990, Computational Methods for Decoy Discrimination and Optimal Targeting in Ballistic Missile Defense][research_holdsworth_leondes_1990]
 - [HOLGUIN and LABBEE, 1988, Launch vehicle to payload interface standardization - The quest for a low cost launch system][research_holguin_labbee_1988]
-- [Holifield and Tufts, 2024, Correction Uncertainty Quantification of Hypersonic Aerodynamic Heating][research_holifield_tufts_2024_b]
 - [Holifield and Tufts, 2024, Uncertainty Quantification of Hypersonic Aerodynamic Heating][research_holifield_tufts_2024]
 - [HOLLANDERS and others, 1992, Some aspects of the aerodynamic methodology in hypersonic vehicle concept studies][research_hollanders_laval_1992]
 - [Hollis and Hollingsworth, 2012, Laminar, Transitional, and Turbulent Heating on Mid Lift-to-Drag Ratio Entry Vehicles][research_hollis_hollingsworth_2012]
@@ -2635,7 +2633,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Jian-bo and others, 2017, Initial descent phase guidance for hypersonic glide vehicle][research_jianbo_xinghua_2017]
 - [Jianan and others, 2025, Investigation on Intelligent Dynamic Inverse Control Method for Hypersonic Vehicle][research_jianan_weidong_2025]
 - [Jiang and Bu, 2022, Adaptive fuzzy finite-time control with prescribed performance for waverider vehicles][research_jiang_bu_2022]
-- [Jiang and Li, 2018, Correction Robust Flight Envelope Generation Approach for Mars Entry using Uncertainty Quantification and Reachable Controllable Sets][research_jiang_li_2018_b]
 - [Jiang and Li, 2018, Robust Flight Envelope Generation Approach for Mars Entry using Uncertainty Quantification and Reachable Controllable Sets][research_jiang_li_2018]
 - [Jiang and Li, 2019, Mars entry trajectory planning using robust optimization and uncertainty quantification][research_jiang_li_2019]
 - [Jiang and Luo, 2019, A Multi-space Interrelation Theory for Correlating Aerodynamic Data from Hypersonic Ground Testing][research_jiang_luo_2019]
@@ -2652,7 +2649,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Jiang and others, 2025, Obstacle Avoidance Terminal Guidance Law Design Considering Terminal Angle][research_jiang_zhou_2025]
 - [Jiang and others, 2026, Long-range masked autoencoder for pre-extraction of trajectory features in within-visual-range maneuver recognition][research_jiang_cui_2026]
 - [Jiang and Yu, 2019, Aerodynamic Testing at Duplicating Hypersonic Flight Conditions with Hyper-Dragon][research_jiang_yu_2019]
-- [Jiang, 2018, Correction Robust Optimization of Mars Entry Trajectory under Uncertainty][research_jiang_2018_b]
 - [Jiang, 2018, Robust Optimization of Mars Entry Trajectory under Uncertainty][research_jiang_2018]
 - [Jianguo and others, 2018, Finite time control for generic hypersonic vehicle][research_jianguo_yifei_2018]
 - [Jianjun Luo, 2003, An Integrated Optimization of RLV Reentry Trajectory][research_jianjunluo_2003]
@@ -2758,7 +2754,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Kavoosi and others, 2026, Effect of Si3N4 addition on erosion and oxidation resistance of ZrB2-SiC-ZrC ultra-high temperature ceramic composite Experimental and numerical investigation][research_kavoosi_mashhadi_2026]
 - [Ke and others, 2025, Research on the performance of active-passive combined thermal control for external thermal protection structure of hypersonic aircraft][research_ke_wang_2025]
 - [KEEL and others, 1971, Hypersonic low density cone drag][research_keeljr_kraige_1971]
-- [Keely and others, 2026, Correction Development of a Computational Tool for Generating Hypersonic Waverider Geometries Using an Approximate Solution to the Taylor-Maccoll Equation][research_keely_thombs_2026]
 - [Keely and others, 2026, Development of a Computational Tool for Generating Hypersonic Waverider Geometries Using an Approximate Solution to the Taylor-Maccoll Equation][research_keely_thombs_2026_b]
 - [Kelkar and others, 2009, Modeling and Analysis Framework for Early Stage Trade-off Studies for Scramjet-Powered Hypersonic Vehicles][research_kelkar_vogel_2009]
 - [KELLEY and others, 1981, Boost-glide range-optimal guidance][research_kelley_cliff_1981]
@@ -3128,7 +3123,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Liaoni Wu and others, 2008, Reusable Launch Vehicle lateral control design on suborbital reentry][research_liaoniwu_yiminhuang_2008]
 - [LICATA, 1977, Reentry vehicle tracking problem][research_licata_1977]
 - [Licheri and others, 2009, Spark plasma sintering of ZrB2- and HfB2-based Ultra High Temperature Ceramics prepared by SHS][research_licheri_orru_2009]
-- [Licheri and others, 2010, Erratum to "Spark Plasma Sintering of ZrB2- and HfB2-Based Ultra High Temperature Ceramics Prepared by SHS"][research_licheri_orru_2010]
 - [Licheri and others, 2010, Processing and Characterization of Zr-, Hf- and Ta-Based Ultra High Temperature Ceramics][research_licheri_orru_2010_b]
 - [Lichodziejewski and others, 2013, Ground and Flight Testing of a Stacked Torus Hypersonic Inflatable Aerodynamic Decelerator Configuration][research_lichodziejewski_dillman_2013]
 - [Liechty, 2008, Aerothermodynamic Testing of Protuberances and Penetrations on the NASA Crew Exploration Vehicle Heat Shield][research_liechty_2008]
@@ -3502,7 +3496,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Minwen and Dayi, 2014, Guidance law for low-lift skip reentry subject to control saturation based on nonlinear predictive control][research_minwen_dayi_2014]
 - [MIRELS and ELLINWOOD, 1970, Slender bodies of minimum drag in hypersonic viscous flow][research_mirels_ellinwood_1970]
 - [MIRELS and MULLEN, 1965, Aerodynamic blast simulation in hypersonic tunnels][research_mirels_mullen_1965]
-- [MIRELS and MULLEN, 1966, Errata "Aerodynamic Blast Simulation in Hypersonic Tunnels"][research_mirels_mullen_1966]
 - [Mirmirani and others, 2005, Modeling for Control of a Generic Airbreathing Hypersonic Vehicle][research_mirmirani_wu_2005]
 - [Mirmirani and others, 2009, Flight dynamic characteristics of a scramjet-powered generic hypersonic vehicle][research_mirmirani_kuipers_2009]
 - [Mishra and Sushnigdha, 2025, Comparison of Nonlinear Control Techniques Utilized for Re-Entry Trajectory Tracking][research_mishra_sushnigdha_2025]
@@ -3525,7 +3518,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Molvik and others, 1993, A hypersonic waverider research vehicle with hydrocarbon scramjet propulsion - Design and analysis][research_molvik_bowles_1993]
 - [MOLVIK and others, 1993, Analysis of a hypersonic waverider research vehicle with a hydrocarbon scramjet engine][research_molvik_bowles_1993_b]
 - [Mondal and Padhi, 2018, Angle-Constrained Terminal Guidance Using Quasi-Spectral Model Predictive Static Programming][research_mondal_padhi_2018]
-- [Mondal and Padhi, 2020, Correction Angle-Constrained Terminal Guidance Using Quasi-Spectral Model Predictive Static Programming][research_mondal_padhi_2020]
 - [Mongibello and de Luca, 2008, Critical Discharge in Actively Cooled Wing Leading Edge of a Reentry Vehicle][research_mongibello_deluca_2008]
 - [MONNOYER, 1993, Hypersonic configuration optimization with an Euler/boundary layer coupling technique][research_monnoyer_1993]
 - [Monroe and Boyd, 2025, Circuit Analysis of an Electron Transpiration Cooling System for Hypersonic Leading Edges][research_monroe_boyd_2025]
@@ -3540,7 +3532,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Mooij, 2004, Model Reference Adaptive Guidance for Re-entry Trajectory Tracking][research_mooij_2004]
 - [Mooij, 2004, Parametric Control-Variable Analysis in Support of Re-entry Trajectory Optimisation][research_mooij_2004_b]
 - [Mooij, 2017, Re-entry Guidance for Path-Constraint Tracking][research_mooij_2017]
-- [Mooij, 2018, Correction Simple Adaptive Re-entry Guidance for Path-Constraint Tracking][research_mooij_2018_b]
 - [Mooij, 2018, Simple Adaptive Re-entry Guidance for Path-Constraint Tracking][research_mooij_2018]
 - [Mooij, 2023, Dynamic Inversion Heat-Flux Tracking for Hypersonic Entry][research_mooij_2023]
 - [Moorhouse and Suchomel, 2001, Exergy methods applied to the hypersonic vehicle challenge][research_moorhouse_suchomel_2001]
@@ -3603,7 +3594,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Musa and others, 2022, Assessment of new pressure-corrected design method for hypersonic internal waverider intake][research_musa_huang_2022]
 - [Musa and others, 2024, Isolator shape transition impact on hypersonic internal waverider intake flow distortion][research_musa_huang_2024]
 - [Musa and others, 2024, Startability analysis of hypersonic overboard spillage internal waverider intake based on new basic flowfield][research_musa_huang_2024_b]
-- [Musa and others, 2025, Withdrawn Effect of Isolator Shape Transition on Hypersonic Internal Waverider Intake Performance][research_musa_huang_2025]
 - [MUSAL, 1962, Plasma Frequency and Electron Collision Frequency Charts for Hypersonic Vehicle Equilibrium Flow Fields in Air][research_musal_1962]
 - [Müller and Petervari, 2025, Tracking of Hypersonic Glide Vehicles Radar Resource Load Reduction by using a Non-Ballistic Reentry Process Model][research_muller_petervari_2025]
 - [Nagai and others, 2011, Experimental Study of Heat Transfer Measurement using Temperature-Sensitive Paint for High-Temperature Application in Hypersonic Flow][research_nagai_swamura_2011]
@@ -3668,7 +3658,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Nishio and Hagiwara, 1998, Investigation of wake behind hypersonic vehicle by electric discharge method][research_nishio_hagiwara_1998]
 - [Nishio and others, 2001, Experimental study of wake behind hypersonic vehicle utilizing the electric discharge method][research_nishio_nakamura_2001]
 - [Nithin Chandran and others, 2019, Synthesis of Zirconium diboride based ultra high temperature ceramics via preceramic route][research_nithinchandran_devapal_2019]
-- [Niu and others, 2017, WITHDRAWN Effects of angle of attack on IR radiation for a hypersonic boost-glide vehicle][research_niu_yuan_2017]
 - [Niu and others, 2018, Nonlinear fuzzy fault-tolerant control of hypersonic flight vehicle with parametric uncertainty and actuator fault][research_niu_chen_2018]
 - [NIU and others, 2019, Infrared radiation characteristics of a hypersonic vehicle under time-varying angles of attack][research_niu_yuan_2019]
 - [Niu and others, 2019, Target Detection Algorithm for Hypersonic Vehicle Based on Wideband Radar Echo Model][research_niu_su_2019]
@@ -3778,7 +3767,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Pelton and Madry, 2020, Global Launch Vehicle Systems for Potential Small Satellite Deployment][research_pelton_madry_2020]
 - [Peng and others, 2014, A new dynamic calibration method for IMU deterministic errors of the INS on the Hypersonic Cruise Vehicles][research_peng_zhi_2014]
 - [Peng and others, 2014, Backstepping control for longitudinal dynamics of hypersonic flight vehicle][research_peng_peng_2014]
-- [Peng and others, 2015, RETRACTED Thermal protection mechanism of heat pipe in leading edge under hypersonic conditions][research_peng_he_2015]
 - [Peng and others, 2019, Adaptive Fault Tolerant Control of Hypersonic Flight Vehicle with State Constraints using Barrier Lyapunov Function][research_peng_qi_2019]
 - [Peng and others, 2019, Analysis of Morphing Modes of Hypersonic Morphing Aircraft and Multiobjective Trajectory Optimization][research_peng_yang_2019]
 - [Peng and others, 2019, Rapid Aerodynamic Shape Optimization With Payload Size Constraints for Hypersonic Vehicle][research_peng_feng_2019]
@@ -3822,7 +3810,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Ping Li and others, 2010, Quasi-equilibrium glide trajectory design of waverider-based hypersonic vehicle][research_pingli_wanchunchen_2010]
 - [Pinto and others, 2023, Representation of hypersonic glide vehicles as fluctuating radar targets][research_pinto_whyman_2023_b]
 - [Pinto and others, 2023, Statistical analysis of hypersonic glide vehicle radar cross section][research_pinto_whyman_2023]
-- [Pionessa and Kinzel, 2024, Correction Understanding Heat Transfer Effects on Hypersonic Flow Implications for Aerodynamic Design][research_pionessa_kinzel_2024_b]
 - [Pionessa and Kinzel, 2024, Understanding Heat Transfer Effects on Hypersonic Flow Implications for Aerodynamic Design][research_pionessa_kinzel_2024]
 - [Pisano and Whitfield, 2024, Characterization of a Hypersonic Waverider in Low-Speed Flight][research_pisano_whitfield_2024]
 - [Pittman and Dillon, 1977, Vortex lattice prediction of subsonic aerodynamics of hypersonic vehicle concepts][research_pittman_dillon_1977]
@@ -3906,7 +3893,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [R C and others, 2023, Assessment of Modified 𝛾-model for Hypersonic Boundary Layer Transition Prediction Considering Leading Edge Bluntness][research_rc_k_2023]
 - [Rafique and LinShu, 2009, Effect of Aerodynamic Enhancements on Flight Performance of Air Launched Satellite Launch Vehicle][research_rafique_linshu_2009]
 - [Rafla, 2019, Aerodynamic Heating Coupled with Structural Temperature Response Analysis for Hypersonic Flight Vehicles][research_rafla_2019]
-- [Rafla, 2019, Correction Aerodynamic Heating Coupled with Structural Temperature Response Analysis for Hypersonic Flight Vehicles][research_rafla_2019_b]
 - [Ragnoli and others, 2024, Hypersonic boost-glide systems Flight mechanics and plasma parameters evaluation through aero-thermo-chemical computational fluid dynamics][research_ragnoli_savino_2024]
 - [Rahimi and others, 2013, Particle Swarm Optimization Applied to Spacecraft Reentry Trajectory][research_rahimi_devkumar_2013]
 - [Rahimi and others, 2026, Functionally graded ultra-high temperature ceramics for hypersonic applications A numerical study of fracture under high-temperature extremes][research_rahimi_svolos_2026]
@@ -3944,7 +3930,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Ravi and others, 2025, Computational Investigation of Aerothermodynamic Characteristics of Spherical and Flat Disc Spiked Blunt Body at Hypersonic Flow][research_ravi_oda_2025]
 - [Ravichandran and others, 2023, Aerodynamic Effects and Heat Flux Augmentation of a Transpiration Cooled Hypersonic Sharp Leading Edge][research_ravichandran_doherty_2023]
 - [Ravichandran and others, 2023, Boundary Layer Transition Studies on a Winged Body Reentry Vehicle through Heat Flux Measurements in Shock Tunnel][research_ravichandran_ahmed_2023]
-- [Ravichandran and others, 2023, Correction Aerodynamic Effects and Heat Flux Augmentation of a Transpiration Cooled Hypersonic Sharp Leading Edge][research_ravichandran_doherty_2023_b]
 - [Ray and De, 2022, Video Leading edge bluntness effects on double-wedge configuration in low enthalpy hypersonic flow][research_ray_de_2022]
 - [Ray and De, 2025, Role of Gas Models on Aerothermodynamic Heating Over Double-Wedge in Hypersonic Stream][research_ray_de_2025]
 - [Ray, 2021, Mars Entry, Descent, and Landing Spacecraft Design to Trajectory Simulation][research_ray_2021]
@@ -4185,7 +4170,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Seo and others, 2022, Staging and Mission Design of a Two-Staged Small Launch Vehicle Based on the Liquid Rocket Engine Technology][research_seo_lee_2022]
 - [Serrani, 2010, Nonlinear Flight Control Systems Design for Hypersonic Vehicles Results and Open Problems][research_serrani_2010]
 - [Sforza, 2020, Bluntness Effects on the Lift to Drag Ratio of Slender Bodies in Hypersonic Flight][research_sforza_2020]
-- [Sforza, 2020, Correction Bluntness Effects on the Lift to Drag Ratio of Slender Bodies in Hypersonic Flight][research_sforza_2020_b]
 - [Sforza, 2026, Normal Shock Wave Approximations for Flight at Hypersonic Mach Numbers][research_sforza_2026]
 - [Shachar and others, 2025, Optimal Trajectory for a Hypersonic Cruise Missile with a Nonconvex Control Set][research_shachar_benasher_2025]
 - [Shaferman and Shima, 2008, Linear Quadratic Guidance Laws for Imposing a Terminal Intercept Angle][research_shaferman_shima_2008]
@@ -4689,7 +4673,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Wang and Grant, 2017, Constrained Trajectory Optimization for Planetary Entry via Sequential Convex Programming][research_wang_grant_2017_b]
 - [Wang and Grant, 2017, Hypersonic Trajectory Optimization by Sequential Semidefinite Programming][research_wang_grant_2017]
 - [Wang and Grant, 2018, Autonomous Entry Guidance for Hypersonic Vehicles by Convex Optimization][research_wang_grant_2018]
-- [Wang and Grant, 2018, Correction Near-Optimal Entry Guidance for Reference Trajectory Tracking via Convex Optimization][research_wang_grant_2018_c]
 - [Wang and Grant, 2018, Near-Optimal Entry Guidance for Reference Trajectory Tracking via Convex Optimization][research_wang_grant_2018_b]
 - [Wang and Grant, 2019, Improved Sequential Convex Programming Algorithms for Entry Trajectory Optimization][research_wang_grant_2019]
 - [Wang and Li, 2015, A Model for Determining Strength for Embedded Elliptical Crack in Ultra-high-temperature Ceramics][research_wang_li_2015]
@@ -4839,7 +4822,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Wei and others, 2019, Fault-tolerant Control for Disturbed Hypersonic Vehicle Based on Tube-MPC][research_wei_hu_2019]
 - [Wei and others, 2023, Detection of hypersonic weak targets by high pulse repetition frequency radar based on multi-hypothesis fuzzy-matching radon transform][research_wei_dandan_2023]
 - [Wei and others, 2024, Research on the Zooming Method for Determining the Flow, Heat Transfer, and Infrared Radiation of an Air-Breathing Hypersonic Vehicle Powered by a Scramjet][research_wei_shi_2024]
-- [Wei and others, 2024, WITHDRAWN Reentry vehicle fixed-time terminal guidance and attitude control with impact angle constraints][research_wei_li_2024]
 - [Wei and others, 2025, Aerodynamic shape optimization for a hypersonic vehicle flying over a range of speeds][research_wei_li_2025]
 - [Wei and others, 2025, Composite Actuation and Adaptive Control for Hypersonic Reentry Vehicles Mitigating Aerodynamic Ablation via Moving Mass-Aileron Integration][research_wei_cui_2025]
 - [Wei and others, 2025, Parameter Analysis and Design for Coupled-Proportional Guidance-Based Glide Slope Capture of Commercial Aircraft][research_wei_kang_2025]
@@ -4866,7 +4848,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Wenkai and others, 2017, Heat-augmented Trajectory Optimization of Hypersonic Cruise Vehicle][research_wenkai_hou_2017]
 - [Wenkai and others, 2017, Optimal periodic control of hypersonic cruise vehicle][research_wenkai_zhongxi_2017]
 - [Wenkai and others, 2017, Range Extension of Hypersonic Cruise Vehicle with Lowest Technical Merit][research_wenkai_hou_2017_b]
-- [West and Brandis, 2018, Correction Updated Stagnation Point Aeroheating Correlations for Mars Entry][research_west_brandis_2018_b]
 - [West and Brandis, 2018, Updated Stagnation Point Aeroheating Correlations for Mars Entry][research_west_brandis_2018]
 - [West, 2012, Minority Report Potential Challenges in Employing Global Strike Against Violent Non-State Actors in 2035][research_west_2012]
 - [Westin and others, 2003, Active control of infrared signature system implementation in a ground vehicle][research_westin_olsson_2003]
@@ -5052,7 +5033,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Yadhukulakrishnan and others, 2013, Spark plasma sintering of graphene reinforced zirconium diboride ultra-high temperature ceramic composites][research_yadhukulakrishnan_karumuri_2013]
 - [Yakubayev and others, 2026, Towards Selection of a Hypersonic Glide Vehicle Aerothermal Common Research Model Configuration][research_yakubayev_gschwend_2026]
 - [Yamada, 2022, Best Estimated Trajectory and Attitude Motion of Hayabusa2 SRC Reentry Flight][research_yamada_2022]
-- [Yamada, 2022, Correction Best Estimated Trajectory and Attitude Motion of Hayabusa2 SRC Reentry Flight][research_yamada_2022_b]
 - [YAMAMOTO and others, 1989, Numerical simulation of hypersonic viscous perfect gas flow for the aerothermodynamic design of space planes at low angles of attack][research_yamamoto_arakawa_1989]
 - [Yamamoto and others, 1995, Hypersonic CFD analysis for the aerothermodynamic design of HOPE][research_yamamoto_wada_1995]
 - [Yamasaki and Balakrishnan, 2012, Terminal intercept guidance and autopilot for aircraft defense against an attacking missile via 3D sliding mode approach][research_yamasaki_balakrishnan_2012]
@@ -5131,8 +5111,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [Ye and others, 2022, Initial value selection strategy of glide trajectory based on Legendre pseudospectral method][research_ye_liu_2022]
 - [Ye and others, 2024, Multiscale coupling simulation of surface catalytic effect on hypersonic aerothermodynamic environment][research_ye_zhao_2024]
 - [Ye and others, 2025, A Novel Approach for Optimizing the Trajectory of Glide-Guided Projectiles Using the GWO-hpRPM Algorithm][research_ye_guan_2025]
-- [Yee and Koo, 2021, Withdrawal Review of Ablative Polymer Nanocomposites and Ultra High Temperature Ceramics for Hypersonic Applications][research_yee_koo_2021_b]
-- [Yee and Koo, 2021, Withdrawn Review of Ablative Polymer Nanocomposites and Ultra High Temperature Ceramics for Hypersonic Applications][research_yee_koo_2021]
 - [Yen, 1986, Thermal nonequilibrium hypersonic shock layer near the stagnation point][research_yen_1986]
 - [Yeo and Sng, 1980, Numerical Solution of the Constrained Re-entry Vehicle Trajectory Problem via Quasilinearization][research_yeo_sng_1980]
 - [Yi and others, 2021, Adaptive Terminal Sliding Mode Guidance Law with Impact Angle Constraint][research_yi_li_2021]
@@ -5560,8 +5538,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_alexander_1970]: https://doi.org/10.21236/ad0875525
 [research_alexander_tm_1978]: https://doi.org/10.21236/ada063655
 [research_alferov_marchenko_2012]: https://doi.org/10.1134/s0018151x12040013
-[research_aljbour_2026]: https://doi.org/10.2514/6.2026-5070.c1
-[research_aljbour_2026_b]: https://doi.org/10.2514/6.2026-5070
 [research_alkandry_boyd_2014]: https://doi.org/10.2514/1.t4233
 [research_alkaya_alexsam_2018]: https://doi.org/10.3390/aerospace5030091
 [research_allegre_heriarddubreuilh_1992]: https://doi.org/10.1007/978-3-642-77922-0_61
@@ -5726,7 +5702,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_bergen_chan_2024]: https://doi.org/10.2514/6.2024-0669
 [research_berger_2009]: https://doi.org/10.2514/1.39247
 [research_berger_greene_2008]: https://doi.org/10.2514/1.38722
-[research_berger_greene_2009]: https://doi.org/10.2514/1.43927
 [research_berlin_tedeschi_1989]: https://doi.org/10.2514/3.10251
 [research_bernhart_1995]: https://doi.org/10.1533/9780857093219.7
 [research_berry_berger_2015]: https://doi.org/10.2514/6.2015-0213
@@ -5882,7 +5857,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_butt_yan_2013]: https://doi.org/10.1080/00207721.2013.828798
 [research_buyanbaatar_ishikawa_2022]: https://doi.org/10.1007/978-981-19-2689-1_55
 [research_byczkowski_rao_2023]: https://doi.org/10.2514/6.2023-1168
-[research_byczkowski_rao_2023_b]: https://doi.org/10.2514/6.2023-1168.c1
 [research_byczkowski_rao_2024]: https://doi.org/10.2514/6.2024-1457
 [research_byczkowski_rao_2026]: https://doi.org/10.1007/s40295-026-00589-9
 [research_bykerk_verstraete_2020]: https://doi.org/10.1016/j.ast.2020.105709
@@ -6171,8 +6145,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_covell_wood_1988]: https://doi.org/10.2514/6.1988-4505
 [research_covington_balboni_2004]: https://doi.org/10.2514/6.2004-2273
 [research_covington_heinemann_2008]: https://doi.org/10.2514/1.12403
-[research_covington_heinemann_2008_b]: https://doi.org/10.2514/1.38249
-[research_covington_heinemann_2008_c]: https://doi.org/10.2514/1.40598
 [research_cramer_bradt_1988]: https://doi.org/10.2514/6.1988-4123
 [research_cremaschi_2012]: https://doi.org/10.1007/978-1-4614-4469-5_7
 [research_cristillo_scigliano_2019]: https://doi.org/10.1115/imece2019-10577
@@ -6270,7 +6242,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_deqing_yiyin_2019]: https://doi.org/10.1109/icus48101.2019.8996033
 [research_deqing_yiyin_2021]: https://doi.org/10.1007/978-981-15-8155-7_41
 [research_derienzo_pallone_1967]: https://doi.org/10.2514/3.3942
-[research_derienzo_pallone_1967_b]: https://doi.org/10.2514/3.55354
 [research_derollez_cleach_2021]: https://doi.org/10.1109/aero50100.2021.9438259
 [research_desai_brahmachary_2019]: https://doi.org/10.1061/(asce)as.1943-5525.0001085
 [research_desai_knocke_2004]: https://doi.org/10.2514/6.2004-5092
@@ -6463,7 +6434,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_faulders_lekawa_1967]: https://doi.org/10.2514/6.1967-575
 [research_faulwasser_hagenmeyer_2014]: https://doi.org/10.1016/j.automatica.2014.02.011
 [research_fawley_putnam_2020]: https://doi.org/10.2514/6.2020-0848
-[research_fawley_putnam_2020_b]: https://doi.org/10.2514/6.2020-0848.c1
 [research_fay_kemp_1963]: https://doi.org/10.21236/ad0405723
 [research_fedele_gardi_2020]: https://doi.org/10.1007/s12567-020-00312-w
 [research_fedele_romagnoli_2014]: https://doi.org/10.1109/chicc.2014.6896120
@@ -6613,7 +6583,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_ghaffari_luckring_1991]: https://doi.org/10.2514/3.46038
 [research_ghori_narendar_2023]: https://doi.org/10.4028/p-oah3jt
 [research_ghosh_ogawa_2022]: https://doi.org/10.2514/6.2022-2734
-[research_ghosh_ogawa_2022_b]: https://doi.org/10.2514/6.2022-2734.c1
 [research_ghosh_rao_2023]: https://doi.org/10.2514/6.2023-3051
 [research_ghosh_rao_2025]: https://doi.org/10.1007/978-981-96-4771-2_44
 [research_ghosh_subhash_2009]: https://doi.org/10.1016/j.scriptamat.2009.08.038
@@ -6667,8 +6636,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_goulard_1961]: https://doi.org/10.2514/8.8893
 [research_govinda_devaraj_2017]: https://doi.org/10.1007/978-3-319-46213-4_19
 [research_goyal_prasad_2023]: https://doi.org/10.2514/6.2023-3022
-[research_goyal_prasad_2023_b]: https://doi.org/10.2514/6.2023-3022.c2
-[research_goyal_prasad_2023_c]: https://doi.org/10.2514/6.2023-3022.c1
 [research_goyer_tallon_2023]: https://doi.org/10.1016/j.ceramint.2023.04.055
 [research_goz_theodoulis_2025]: https://doi.org/10.2514/6.2025-2266
 [research_gracey_cliff_1982]: https://doi.org/10.2514/3.19789
@@ -6857,7 +6824,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_he_sun_2023]: https://doi.org/10.1016/j.ast.2023.108524
 [research_he_tang_2024]: https://doi.org/10.1109/tgrs.2024.3459951
 [research_he_yan_2018]: https://doi.org/10.2514/1.g003424
-[research_he_yan_2020]: https://doi.org/10.2514/1.g003424.c1
 [research_he_zhang_2012]: https://doi.org/10.1016/j.ceramint.2012.03.051
 [research_he_zhao_2025]: https://doi.org/10.3390/en18133417
 [research_he_zuo_2022]: https://doi.org/10.1016/j.actaastro.2021.09.030
@@ -6918,7 +6884,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_holdsworth_leondes_1990]: https://doi.org/10.1016/b978-0-12-012732-0.50014-8
 [research_holguin_labbee_1988]: https://doi.org/10.2514/6.1988-165
 [research_holifield_tufts_2024]: https://doi.org/10.2514/6.2024-0672
-[research_holifield_tufts_2024_b]: https://doi.org/10.2514/6.2024-0672.c1
 [research_hollanders_laval_1992]: https://doi.org/10.2514/6.1992-5027
 [research_hollis_2017]: https://doi.org/10.2514/6.2017-3122
 [research_hollis_hollingsworth_2012]: https://doi.org/10.2514/6.2012-3063
@@ -7118,14 +7083,12 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_jianan_weidong_2025]: https://doi.org/10.1007/978-981-96-2236-8_37
 [research_jianbo_xinghua_2017]: https://doi.org/10.23919/chicc.2017.8028297
 [research_jiang_2018]: https://doi.org/10.2514/6.2018-0721
-[research_jiang_2018_b]: https://doi.org/10.2514/6.2018-0721.c1
 [research_jiang_bu_2022]: https://doi.org/10.1177/00202940221114893
 [research_jiang_chen_2018]: https://doi.org/10.1109/gncc42960.2018.9018655
 [research_jiang_cui_2026]: https://doi.org/10.1016/j.dt.2025.07.020
 [research_jiang_dong_2024]: https://doi.org/10.1007/s10409-024-24259-x
 [research_jiang_ge_2021]: https://doi.org/10.1088/1742-6596/1986/1/012114
 [research_jiang_li_2018]: https://doi.org/10.2514/6.2018-3160
-[research_jiang_li_2018_b]: https://doi.org/10.2514/6.2018-3160.c1
 [research_jiang_li_2019]: https://doi.org/10.1016/j.actaastro.2019.05.033
 [research_jiang_liu_2009]: https://doi.org/10.1007/s10409-009-0252-8
 [research_jiang_liu_2024]: https://doi.org/10.23919/ccc63176.2024.10661464
@@ -7240,7 +7203,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_kavoosi_mashhadi_2026]: https://doi.org/10.1016/j.ceramint.2026.07.429
 [research_ke_wang_2025]: https://doi.org/10.1016/j.applthermaleng.2025.126835
 [research_keeljr_kraige_1971]: https://doi.org/10.2514/6.1971-133
-[research_keely_thombs_2026]: https://doi.org/10.2514/6.2026-1092.c1
 [research_keely_thombs_2026_b]: https://doi.org/10.2514/6.2026-1092
 [research_kelkar_vogel_2009]: https://doi.org/10.2514/6.2009-7325
 [research_kelley_cliff_1981]: https://doi.org/10.2514/6.1981-1781
@@ -7609,7 +7571,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_liaoniwu_yiminhuang_2008]: https://doi.org/10.1109/isscaa.2008.4776287
 [research_licata_1977]: https://doi.org/10.2514/6.1977-1089
 [research_licheri_orru_2009]: https://doi.org/10.3103/s106138620901004x
-[research_licheri_orru_2010]: https://doi.org/10.3103/s1061386210040096
 [research_licheri_orru_2010_b]: https://doi.org/10.4028/www.scientific.net/ast.65.118
 [research_lichodziejewski_dillman_2013]: https://doi.org/10.2514/6.2013-1864
 [research_liechty_2008]: https://doi.org/10.2514/6.2008-1240
@@ -7986,7 +7947,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_minwen_dayi_2014]: https://doi.org/10.1016/j.ast.2014.05.004
 [research_mirels_ellinwood_1970]: https://doi.org/10.2514/3.6002
 [research_mirels_mullen_1965]: https://doi.org/10.2514/3.3321
-[research_mirels_mullen_1966]: https://doi.org/10.2514/3.55254
 [research_mirmirani_kuipers_2009]: https://doi.org/10.1109/acc.2009.5160500
 [research_mirmirani_wu_2005]: https://doi.org/10.2514/6.2005-6256
 [research_mishra_sushnigdha_2025]: https://doi.org/10.1109/spert67079.2025.11469624
@@ -8010,7 +7970,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_molvik_bowles_1993]: https://doi.org/10.2514/6.1993-5097
 [research_molvik_bowles_1993_b]: https://doi.org/10.2514/6.1993-509
 [research_mondal_padhi_2018]: https://doi.org/10.2514/1.g002893
-[research_mondal_padhi_2020]: https://doi.org/10.2514/1.g002893.c1
 [research_mongibello_deluca_2008]: https://doi.org/10.2514/1.33824
 [research_monnoyer_1993]: https://doi.org/10.2514/6.1993-3116
 [research_monroe_boyd_2025]: https://doi.org/10.2514/6.2025-0556
@@ -8024,7 +7983,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_mooij_2004_b]: https://doi.org/10.2514/6.2004-5186
 [research_mooij_2017]: https://doi.org/10.2514/6.2017-1265
 [research_mooij_2018]: https://doi.org/10.2514/6.2018-1318
-[research_mooij_2018_b]: https://doi.org/10.2514/6.2018-1318.c1
 [research_mooij_2023]: https://doi.org/10.2514/6.2023-2499
 [research_mooij_barkana_2005]: https://doi.org/10.2514/6.2005-6290
 [research_mooij_hanninen_2009]: https://doi.org/10.2514/6.2009-5770
@@ -8091,7 +8049,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_musa_huang_2022]: https://doi.org/10.1016/j.actaastro.2022.09.001
 [research_musa_huang_2024]: https://doi.org/10.1063/5.0239660
 [research_musa_huang_2024_b]: https://doi.org/10.1063/5.0205193
-[research_musa_huang_2025]: https://doi.org/10.2514/6.2025-0753
 [research_musal_1962]: https://doi.org/10.21236/ad0294472
 [research_nagai_swamura_2011]: https://doi.org/10.2514/6.2011-850
 [research_nagamatsu_li_1960]: https://doi.org/10.1063/1.1705993
@@ -8157,7 +8114,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_nithinchandran_devapal_2019]: https://doi.org/10.1016/j.ceramint.2019.05.253
 [research_niu_chen_2018]: https://doi.org/10.1007/s11071-018-4127-z
 [research_niu_su_2019]: https://doi.org/10.1109/access.2018.2886243
-[research_niu_yuan_2017]: https://doi.org/10.1016/j.ast.2017.10.026
 [research_niu_yuan_2019]: https://doi.org/10.1016/j.cja.2019.01.003
 [research_noftz_shuck_2023]: https://doi.org/10.2514/6.2023-2352
 [research_nomura_1983]: https://doi.org/10.2514/3.8296
@@ -8272,7 +8228,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_pelton_madry_2019]: https://doi.org/10.1007/978-3-030-20707-6_82-1
 [research_pelton_madry_2020]: https://doi.org/10.1007/978-3-030-36308-6_82
 [research_peng_feng_2019]: https://doi.org/10.1109/access.2019.2923014
-[research_peng_he_2015]: https://doi.org/10.1016/j.cja.2014.12.018
 [research_peng_peng_2014]: https://doi.org/10.1109/cgncc.2014.7007351
 [research_peng_qi_2019]: https://doi.org/10.1109/ccdc.2019.8832538
 [research_peng_qi_2019_b]: https://doi.org/10.1109/safeprocess45799.2019.9213337
@@ -8319,7 +8274,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_pinto_whyman_2023]: https://doi.org/10.1049/rsn2.12432
 [research_pinto_whyman_2023_b]: https://doi.org/10.1049/icp.2023.1256
 [research_pionessa_kinzel_2024]: https://doi.org/10.2514/6.2024-1971
-[research_pionessa_kinzel_2024_b]: https://doi.org/10.2514/6.2024-1971.c1
 [research_pisano_whitfield_2024]: https://doi.org/10.2514/6.2024-2330
 [research_pittman_dillon_1977]: https://doi.org/10.2514/3.44633
 [research_platus_1983]: https://doi.org/10.2514/6.1983-2111
@@ -8405,7 +8359,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_radiative_transport_1969]: https://doi.org/10.2514/5.9781600864957.0075.0114
 [research_rafique_linshu_2009]: https://doi.org/10.2514/6.2009-7246
 [research_rafla_2019]: https://doi.org/10.2514/6.2019-3132
-[research_rafla_2019_b]: https://doi.org/10.2514/6.2019-3132.c1
 [research_ragnoli_savino_2024]: https://doi.org/10.1016/j.ast.2024.109092
 [research_rahimi_devkumar_2013]: https://doi.org/10.2514/1.56387
 [research_rahimi_svolos_2026]: https://doi.org/10.1016/j.engfracmech.2025.111794
@@ -8444,7 +8397,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_ravi_oda_2025]: https://doi.org/10.1007/s42405-025-00953-3
 [research_ravichandran_ahmed_2023]: https://doi.org/10.2514/6.2023-3060
 [research_ravichandran_doherty_2023]: https://doi.org/10.2514/6.2023-0437
-[research_ravichandran_doherty_2023_b]: https://doi.org/10.2514/6.2023-0437.c1
 [research_ray_2021]: https://doi.org/10.2514/6.2021-1159
 [research_ray_de_2022]: https://doi.org/10.1103/aps.dfd.2022.gfm.v0051
 [research_ray_de_2025]: https://doi.org/10.1007/978-981-97-6783-0_25
@@ -8692,7 +8644,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_seo_lee_2022]: https://doi.org/10.5139/jksas.2022.50.4.277
 [research_serrani_2010]: https://doi.org/10.3182/20100901-3-it-2016.00307
 [research_sforza_2020]: https://doi.org/10.2514/6.2020-0281
-[research_sforza_2020_b]: https://doi.org/10.2514/6.2020-0281.c1
 [research_sforza_2026]: https://doi.org/10.3390/aerospace13020115
 [research_shachar_benasher_2025]: https://doi.org/10.2514/1.g008439
 [research_shaferman_shima_2008]: https://doi.org/10.2514/1.32836
@@ -9246,7 +9197,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_wang_grant_2017_b]: https://doi.org/10.2514/1.g002150
 [research_wang_grant_2018]: https://doi.org/10.2514/1.a34102
 [research_wang_grant_2018_b]: https://doi.org/10.2514/6.2018-0013
-[research_wang_grant_2018_c]: https://doi.org/10.2514/6.2018-0013.c1
 [research_wang_grant_2019]: https://doi.org/10.2514/6.2019-0667
 [research_wang_han_2013]: https://doi.org/10.1016/j.proeng.2013.12.020
 [research_wang_he_2025]: https://doi.org/10.1109/ieeeconf65522.2025.11137177
@@ -9372,7 +9322,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_wei_huang_2015]: https://doi.org/10.1051/matecconf/20152203016
 [research_wei_huang_2026]: https://doi.org/10.3390/aerospace13070600
 [research_wei_kang_2025]: https://doi.org/10.1007/978-981-96-2248-1_16
-[research_wei_li_2024]: https://doi.org/10.1016/j.asr.2024.10.035
 [research_wei_li_2025]: https://doi.org/10.1088/1742-6596/3006/1/012043
 [research_wei_liu_2018]: https://doi.org/10.1155/2018/8793908
 [research_wei_peers_2012]: https://doi.org/10.2514/6.2012-4581
@@ -9402,7 +9351,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_wenkai_zhongxi_2017]: https://doi.org/10.23919/chicc.2017.8027732
 [research_west_2012]: https://doi.org/10.21236/ada568300
 [research_west_brandis_2018]: https://doi.org/10.2514/6.2018-3767
-[research_west_brandis_2018_b]: https://doi.org/10.2514/6.2018-3767.c1
 [research_westin_olsson_2003]: https://doi.org/10.1117/12.487079
 [research_weston_cesnik_2024]: https://doi.org/10.2514/6.2024-1045
 [research_wexler_idan_2026]: https://doi.org/10.2514/6.2026-5048
@@ -9585,7 +9533,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_yadhukulakrishnan_karumuri_2013]: https://doi.org/10.1016/j.ceramint.2013.01.101
 [research_yakubayev_gschwend_2026]: https://doi.org/10.2514/6.2026-1095
 [research_yamada_2022]: https://doi.org/10.2514/6.2022-3801
-[research_yamada_2022_b]: https://doi.org/10.2514/6.2022-3801.c1
 [research_yamamoto_arakawa_1989]: https://doi.org/10.2514/6.1989-1699
 [research_yamamoto_wada_1995]: https://doi.org/10.2514/6.1995-1770
 [research_yamasaki_balakrishnan_2012]: https://doi.org/10.1109/acc.2012.6315051
@@ -9664,8 +9611,6 @@ The next article returns to a vehicle whose designation is not in doubt.
 [research_ye_zhang_2016]: https://doi.org/10.1109/ibcast.2016.7429922
 [research_ye_zhao_2024]: https://doi.org/10.1016/j.ijheatmasstransfer.2023.125152
 [research_ye_zong_2017]: https://doi.org/10.1016/j.isatra.2017.07.019
-[research_yee_koo_2021]: https://doi.org/10.2514/6.2021-1586
-[research_yee_koo_2021_b]: https://doi.org/10.2514/6.2021-1586.c1
 [research_yen_1986]: https://doi.org/10.1063/1.865958
 [research_yeo_sng_1980]: https://doi.org/10.2514/3.56012
 [research_yi_li_2021]: https://doi.org/10.1109/cac53003.2021.9728169

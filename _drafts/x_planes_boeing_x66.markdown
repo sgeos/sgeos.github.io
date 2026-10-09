@@ -20,7 +20,7 @@ The X-66A was allocated on 3 May 2023 to Boeing, with the engines cell reading `
 
 > Transonic Truss-Braced Wing demonstrator, a highly modified MD-90 for Sustainable Flight Demonstrator project
 
-That much is widely reported. What is not reported is that the wing the demonstrator exists to prove folds at **118 feet of span**, and that **118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**. The International Civil Aviation Organization, hereafter ICAO, states the equivalent line in metres
+That much is widely reported. What is not reported is that the wing the demonstrator exists to prove folds at **118 feet of span**, and that **118 feet is exactly where Airplane Design Group III of the Federal Aviation Administration, hereafter FAA, ends**. The International Civil Aviation Organization, hereafter ICAO, states the equivalent line in metres
 at **36**, which is **118.1102 feet**, and the FAA's own circular prints
 both while declaring that the customary value governs. **The two renderings differ by
 1.3228 inch and the fold station sits inside that rounding.** Unfolded the span is **170 feet**, which clears the next boundary up by **12 inch** by the FAA's reckoning and **7.24 inch** by ICAO's. Both figures come from the final reports of Subsonic Ultra Green Aircraft Research, the research programme whose acronym is SUGAR and which this article cites repeatedly by that short form \[[SUGAR Phase IV final report][ref_cr_phase4]\] \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\].
@@ -359,14 +359,14 @@ The drag at cruise is bookkept in the report in four parts, being parasite drag,
 
 $$ C_D = C_{D,0} + C_{D,i} + C_{D,c} + C_{D,t} $$
 
-The published values at Mach **0.80** and a lift coefficient of **0.695** are $C_{D,0}$ of 0.01880, $C_{D,i}$ of 0.00903, $C_{D,c}$ of -0.00143 and $C_{D,t}$ of 0.00054, totalling 0.02695. Summing them reproduces that total, and the lift-to-drag ratio is the quotient.
+The published values at Mach **0.80** and a lift coefficient of **0.695** are $C_{D,0}$ of 0.01880, $C_{D,i}$ of 0.00903, $C_{D,c}$ of -0.00143 and $C_{D,t}$ of 0.00054, totalling 0.02695. Summing them gives 0.02694, which differs from the printed total only in the last digit, as rounding of four printed terms allows, and the lift-to-drag ratio is the quotient of the lift coefficient and the printed total.
 
 $$ \frac{L}{D} = \frac{C_L}{C_D} $$
 
 That gives **25.788**, which is what the report prints.
 
 **The parasite term can be checked too, because the report publishes the equivalent flat plate area
-it was built from.** An equivalent flat plate area $f$ is the area that would produce the same drag
+it was built from.** An equivalent flat plate area $\mathcal{F}$ is the area that would produce the same drag
 at unit drag coefficient, so dividing it by the reference area returns the coefficient.
 
 $$ C_{D,0} = \frac{\mathcal{F}}{S} $$
@@ -428,7 +428,7 @@ $$ \mathcal{M}(0) = \frac{L}{2}\cdot\frac{4}{3\pi}\cdot\frac{b}{2} = \frac{Lb}{3
 
 The closed form was also integrated numerically at the root and at five interior stations and the two routes agree to better than one part in a million, which is reported because **a closed form derived by hand and never checked against quadrature is a closed form nobody has verified**.
 
-Now the structure. A wing box resists bending with material concentrated top and bottom at a separation $h$, and if the allowable stress is $\sigma$ then each cap needs a cross-sectional area of $\mathcal{M}/(\sigma h)$.
+Now the structure. A wing box resists bending with material concentrated top and bottom at a separation $h_c$, and if the allowable stress is $\sigma$ then each cap needs a cross-sectional area of $\mathcal{M}/(\sigma h_c)$.
 
 $$ \mathcal{A}_c(u) = \frac{\mathcal{M}(u)}{\sigma h_c(u)}, \qquad h_c(u) = \kappa_h \, \tau \, c(u) $$
 
@@ -463,7 +463,7 @@ trusting one interval.
 
 ### The Absolute Weight the Model Predicts, and Why It Is Wrong
 
-The report's group weight statement is unusually generous. It does not merely give a wing weight. It breaks the wing group of **16,095 pound** into bending material, spar webs, ribs and bulkheads, aerodynamic surfaces and secondary structure, and gives the bending material as **7,488 pound**, which is **46.5 percent** of the group and **11.10 percent** of a take-off weight of 145,000 pound against an operating empty weight of 85,172 \[[SUGAR Phase IV final report][ref_cr_phase4]\]. **So the model above can be tested against the one number it actually predicts.**
+The report's group weight statement is unusually generous. It does not merely give a wing weight. It breaks the wing group of **16,095 pound** into bending material, spar webs, ribs and bulkheads, aerodynamic surfaces and secondary structure, and gives the bending material as **7,488 pound**, which is **46.5 percent** of a group that is itself **11.10 percent** of a take-off weight of 145,000 pound against an operating empty weight of 85,172 \[[SUGAR Phase IV final report][ref_cr_phase4]\]. **So the model above can be tested against the one number it actually predicts.**
 
 **Sweep enters before the model can be evaluated, and it enters twice.** A swept wing's structural
 beam is longer than its projected semispan by the secant of the sweep angle, and the moment arm from
@@ -623,7 +623,7 @@ $$ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\righ
 | 10 percent | 0.3066 |
 | 20 percent | 1.226 |
 
-**Being 28.3 percent below optimum costs 1.90 percent in cruise fuel.** That is the number that changes the meaning of everything above, and the subsection after next revises it downward again by dropping the linearisation it rests on.
+**Being 28.3 percent below optimum costs 1.90 percent in cruise fuel.** That is the number that changes the meaning of everything above, and the subsection headed Dropping the Linearisation revises it downward again by dropping the linearisation it rests on.
 
 ### Dropping the Linearisation, Because This Aeroplane's Fuel Fraction Is Twenty Percent
 
@@ -635,7 +635,7 @@ direction that strengthens the article's conclusion rather than weakening it.**
 The aeroplane's usable fuel is **29,028 pound** of a take-off weight of 145,000, so the
 fuel fraction and the Breguet exponent are fixed by the published weights alone.
 
-$$ f = \frac{m_f}{W} = 0.200193, \qquad X = -\ln\left(1 - f\right) = 0.223385 $$
+$$ \zeta = \frac{m_f}{W} = 0.200193, \qquad X = -\ln\left(1 - \zeta\right) = 0.223385 $$
 
 **The linearisation replaces $1 - e^{-X}$ by $X$, and at this fuel fraction it overstates the fuel by
 11.585 percent.**
@@ -842,7 +842,7 @@ $$ \left.\frac{L}{D}\right|_{\mathrm{folded}} = \frac{C_L}{C_{D,0} + C_{D,c} + C
 
 **The fold is worth 36.0 percent in lift-to-drag ratio.** The remaining gain beyond it, all the way to the stationary aspect ratio located in the previous section, is **0.9481 percent in fuel** on the exact Breguet treatment and 1.90 percent on the linearised one.
 
-**Set those two numbers beside one another and the shape of the whole programme appears.** A mechanism that lets the wing exceed the gate box is worth roughly thirty-six percent in cruise efficiency. Everything the aerodynamic optimum has left to give beyond that point is worth about two percent. **The folding wingtip is not a detail of this configuration. It is where almost all of the value is**, and it is a mechanism rather than an aerodynamic insight.
+**Set those two numbers beside one another and the shape of the whole programme appears.** A mechanism that lets the wing exceed the gate box is worth roughly thirty-six percent in cruise efficiency. Everything the aerodynamic optimum has left to give beyond that point is worth under two percent. **The folding wingtip is not a detail of this configuration. It is where almost all of the value is**, and it is a mechanism rather than an aerodynamic insight.
 
 The fold itself is not small.
 
@@ -1030,7 +1030,7 @@ $$ M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\tau}{\cos^2 \Lambda} - \frac{
 
 The constant is conventionally taken near 0.87 for a six-series section and near 0.95 for a supercritical one. The Phase IV report states that both of its configurations use supercritical sections with divergent trailing edges, so 0.95 is the value used here and the margin it predicts is then a test of that choice rather than an assumption.
 
-The two configurations differ in exactly the way this section is about. The Mach 0.745 predecessor has **12.58 degrees** of sweep and an average thickness ratio of **0.120**, and the Mach 0.80 configuration has **22.46 degrees** and **0.104**. The report describes the change in one sentence and makes clear that nothing else moved.
+The two configurations differ in exactly the way this section is about. The Mach 0.745 predecessor has **12.58 degrees** of sweep and an average thickness ratio of **0.120**, and the Mach 0.80 configuration has **22.46 degrees**, the sweep its drag buildup carries against the 22.47 its geometry table gives, and **0.104**. The report describes the change in one sentence and makes clear that nothing else moved.
 
 > The wing is derived from the Mach 0.745 wing by adding 10 degrees sweep and reduced thickness-to-chord ratio. The chord distribution is identical to the Mach 0.745 wing.
 
@@ -1237,8 +1237,8 @@ the height.
 
 $$ \Sigma = \frac{b}{2h} $$
 
-**For this aeroplane at a given wheel height that group is roughly twice a conventional narrowbody's**,
-because the span is roughly twice as large. A larger favourable interference at touchdown lengthens a
+**For this aeroplane at a given wheel height that group is roughly one and a half times a conventional narrowbody's**,
+because the span of 170 feet is roughly half as large again as the 118-foot Code C limit at which the conventional fleet sits. A larger favourable interference at touchdown lengthens a
 flare and a larger one at rotation shortens a take-off, and whether the net is helpful depends on
 which the field length is sized by.
 
@@ -1309,7 +1309,7 @@ of them is what an airline pays, **and they differ by exactly the factor above**
 
 ## The Flight Test Record, Which Is Empty
 
-**No X-66A has flown and none exists.** The record at the article's dateline consists of a donor airframe, a modification programme stopped before its wing was committed to fabrication, and an agreement with almost two thirds of its milestones unexercised.
+**No X-66A has flown and none exists.** The record at the article's dateline consists of a donor airframe, a modification programme stopped before its wing was committed to fabrication, and an agreement with two thirds of its milestones unexercised.
 
 What was actually accomplished is nonetheless substantial and is not flight test. **The donor MD-90 was reactivated and ferried from Victorville to Palmdale in August 2023**, which is the agreement's Milestone 5, named *Aircraft Reactivation* and due February 2024, so that step ran roughly six months ahead of its milestone date \[[Boeing arrival release][ref_boeing_arrival_2023]\] \[[Funded Space Act Agreement][ref_fsaa]\]. The wings and nineteen fuselage sections were to be removed and the fuselage shortened. Through the February 2025 milestone the agreement had reached **nine of 27 milestones** and **36.00 percent** of its value.
 
@@ -1457,7 +1457,7 @@ aeroplane at aspect ratio 19.57 weighs less than the cantilever at aspect ratio
 
 **An apparent elasticity from a pair is not a derivative** and this article does not treat it as
 one, because the two aeroplanes differ in span, area, thrust and altitude as well as in aspect
-ratio. **What it establishes is magnitude, and the magnitude agrees with the three readings this
+ratio. **What it establishes is magnitude, and the magnitude agrees with the four readings this
 article computed from the Phase IV group weight statement**, which ran from 0.0775 to
 0.2749. **Four routes, one conclusion.**
 
@@ -1490,31 +1490,31 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 **This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
 
-**The sweep behind this article admitted 4,744 records from a pool of 18,863, 4,645 after the 7 October rebuild, and assigned them across seventeen clusters, of which seventeen are non-empty.** The clusters are the shape of the field as this sweep found it.
+**The sweep behind this article admitted 4,744 records from a pool of 18,863, 4,641 after the 7 October rebuild and its 8 October second sampling pass and 4,595 after the 8 October removal of notices and parts of works, and assigned them across seventeen clusters, of which seventeen are non-empty.** The clusters are the shape of the field as this sweep found it.
 
 | Cluster | Records | What it holds |
 |---|---|---|
-| braced_wing | 307 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
-| aspect_ratio | 696 | the span and induced-drag trade, span loading, span efficiency |
-| alt_config | 522 | the joined wing, the box wing, the tandem wing, the blended wing body |
+| braced_wing | 300 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
+| aspect_ratio | 689 | the span and induced-drag trade, span loading, span efficiency |
+| alt_config | 519 | the joined wing, the box wing, the tandem wing, the blended wing body |
 | wing_weight | 104 | weight estimation, bending material, structural sizing and optimisation |
-| thin_transonic | 317 | thickness, sweep, drag divergence, supercritical sections |
-| aeroelastic | 1,192 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
-| gust_loads | 397 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
-| span_constraint | 38 | folding wingtips, airport compatibility, span limits |
-| laminar | 327 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
-| high_lift | 244 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
-| prop_integration | 246 | nacelle and wing interference, high bypass ratio, geared turbofans |
-| fuel_burn | 151 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
+| thin_transonic | 314 | thickness, sweep, drag divergence, supercritical sections |
+| aeroelastic | 1,183 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
+| gust_loads | 392 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
+| span_constraint | 36 | folding wingtips, airport compatibility, span limits |
+| laminar | 326 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
+| high_lift | 242 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
+| prop_integration | 244 | nacelle and wing interference, high bypass ratio, geared turbofans |
+| fuel_burn | 148 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
 | demonstrator | 159 | flight demonstrators, testbed aircraft, technology readiness |
-| ground_test | 218 | static and full-scale test, ground vibration, loads calibration, strain sensing |
-| mdo | 259 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
-| emissions | 236 | aviation emissions, net-zero targets, noise, contrails |
+| ground_test | 217 | static and full-scale test, ground vibration, loads calibration, strain sensing |
+| mdo | 254 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
+| emissions | 222 | aviation emissions, net-zero targets, noise, contrails |
 | named | 41 | the programme and configuration designations themselves |
 
-**The largest cluster is aeroelasticity at 1,192 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 38 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-eight records against 1,192 for the thing that is not binding is a ratio worth sitting with.
+**The largest cluster is aeroelasticity at 1,183 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 36 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-six records against 1,183 for the thing that is not binding is a ratio worth sitting with.
 
-**The weight cluster is also thin at 104 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,192 papers on flutter and 104 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
+**The weight cluster is also thin at 104 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,183 papers on flutter and 104 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
 
 ## Where the Framing Breaks Down
 
@@ -1561,10 +1561,10 @@ reason to think the gate box is negotiable for an aeroplane worth negotiating fo
 
 ## The Source Base
 
-**The reference base behind this article is 4,438 definitions**, of which
+**The reference base behind this article is 4,388 definitions**, of which
 **21** are primary documents written by hand after reading,
 **fourteen** are research records cited by hand with their depth of reading recorded,
-**66** are the prior articles of this series, and **4,337** are the gated
+**66** are the prior articles of this series, and **4,287** are the gated
 research records.
 
 **Eight documents were located and read in the primary-reference review and they are the reason this
@@ -1587,10 +1587,10 @@ mean the directive is working.
 $$ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{reports}, \text{defence}\}\right\}\right|}{\left|\mathcal{R}\right|}, \qquad \text{period count} = \left|\left\{r : \mathrm{year}(r) \ge 2015\right\}\right| $$
 
 **The survey statistics are recomputed from the reference data and are not matched against a stored
-string.** Of the 4,337 research records, **1,247 come from report servers rather than journal indices, which is 28.8 percent**. **4,110 carry a resolved publication year**, their median is **2011** and they run from **1921 to 2026**. **1,742 are from 2015 onward, which is 42.4 percent**, and **1,350 predate 2000, which is 32.8 percent**.
+string.** Of the 4,287 research records, **1,247 come from report servers rather than journal indices, which is 29.1 percent**. **4,074 carry a resolved publication year**, their median is **2011** and they run from **1921 to 2026**. **1,712 are from 2015 onward, which is 42.0 percent**, and **1,346 predate 2000, which is 33.0 percent**.
 
-**The primary fraction of 28.8 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent, those being their own recorded
-figures rather than anything recomputed here. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,742 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
+**The primary fraction of 29.1 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent, those being the figures they recorded
+at the time rather than anything recomputed here. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,712 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
 
 ### How the Sweep Was Run, and What It Measured About Itself
 
@@ -1615,15 +1615,15 @@ asks about multidisciplinary optimisation and a report names its code.
 | alt_config | 12.1 | 12.5 | 54 | 65 |
 | span_constraint | 0.0 | 0.0 | 0 | 0 |
 
-**Overall the gated pool went from 4,238 records with 1,144 report primaries
-to 4,744 with 1,380, a share rising from 27.0 to 29.1 percent**,
+**Overall the third sweep took the gated pool from 4,238 records with 1,144 report primaries
+to 4,744 with 1,380, a share rising from 27.0 to 29.1 percent**, before the 7 October 2026 rebuild that closes The Source Base,
 with the aspect-ratio cluster nearly doubling its share and more than doubling its count. **The
 lifting-line and span-loading vocabulary was what reached it**, since a report from 1976 does not
 use the phrase this subject's contemporary literature uses.
 
 **And the cluster that matters most bought nothing, which is a measurement and not a failure.**
-**fourteen** questions were written in the airport-planning vocabulary and aimed at
-`span_constraint`, the cluster carrying this article's own keystone. **nine of
+**Fourteen** questions were written in the airport-planning vocabulary and aimed at
+`span_constraint`, the cluster carrying this article's own keystone. **Nine of
 the fourteen returned no records at all.** The cluster grew by **one** record and its report primaries remain at **zero**.
 
 **The honest reading is that the report literature does not contain airport-compatibility work**,
@@ -1633,8 +1633,8 @@ reports. **The constraint this article argues is binding has no research literat
 not a research question.** That is the same shape of finding as the previous article's thirty-five
 air-budget questions buying three records, and it belongs in the article for the same reason.
 
-**nine of the first sweep's questions returned nothing at all, and
-seven of those nine were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since A355, and the rephrasings were written in the vocabulary the registry's own titles use. **seven questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
+**Nine of the first sweep's questions returned nothing at all, and
+seven of those nine were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since the X-58 article, and the rephrasings were written in the vocabulary the registry's own titles use. **Seven questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
 
 **The homonym measurements carry outside this subject, because the registries do not change
 between articles, and they are measurements rather than guesses.**
@@ -1654,17 +1654,17 @@ between articles, and they are measurements rather than guesses.**
 
 ### The Gate, and What Auditing It Both Ways Found
 
-The shared homonym store refused **1,196** of the 18,863 pooled records, leaving **17,667**, and the subject gate then kept **4,744** and refused **12,923**. The gate carries 139 patterns behind nine exclusion families, and
+The shared homonym store refused **1,196** of the 18,863 pooled records, leaving **17,667**, and the subject gate, as first run, kept **4,744** and refused **12,923**, before the 7 October 2026 rebuild that closes this section. The gate carries 139 patterns behind nine exclusion families, and
 its regression test checks 29 titles that must be admitted and
 43 that must be refused, with the audit sample drawn against seed 20251211, which is the article's own editorial date so that the sample is reproducible, **with every refusal re-tested with its internal spaces hyphenated**, which is the repair the previous article earned after a guard was defeated by a hyphen.
 
 **The two-sided audit changed the gate in both directions and that is the only reason it is reported.** Reading thirty admitted records found six that should not have been there, being rotorcraft flight simulation with an aeroelastic rotor, a rotary-wing simulation paper, the damage detection of an aeroelastic **panel**, a methanol-economy net-zero study, an open-rotor shield impact test, and a rotorcraft vibration paper. **A bare `aeroelastic` does not name a wing, a bare `net zero` does not name aviation, and a bare `open rotor` does not name an airframe**, so all three now require a qualifier and a rotary-wing exclusion family was added.
 
-**Reading thirty refused records found three the gate should have kept and they were an entire missing cluster.** A joined-wing research aircraft configuration, a tandem-wing spacing study and a blended-wing-body structural pre-design are the braced wing's own adjacent configurations, and **no existing pattern admitted any of them.** The `alt_config` cluster exists because of that sample and now holds **522** records, which is the third largest in the article. **A gate audited only on what it keeps would never have found an absence**, and this is the clearest instance of that the series has produced.
+**Reading thirty refused records found three the gate should have kept and they were an entire missing cluster.** A joined-wing research aircraft configuration, a tandem-wing spacing study and a blended-wing-body structural pre-design are the braced wing's own adjacent configurations, and **no existing pattern admitted any of them.** The `alt_config` cluster exists because of that sample and now holds **519** records, which is the third largest in the article. **A gate audited only on what it keeps would never have found an absence**, and this is the clearest instance of that the series has produced.
 
 **One tightening took two attempts and the second failure is instructive.** Narrowing `aeroelastic` to require an aeronautical noun left the aeroelastic-panel paper admitted, because a different pattern matched `aeroelastic` and then `limit cycle oscillation` within forty-five characters. **The qualifier list had included the words `model` and `analysis`, which qualify nothing**, and removing them was not enough because the leak was in a second pattern entirely. **A panel, a plate and a shell are aeroelastic and are not wings**, so they went into the exclusion family. The regression test failed twice before it passed, both times on the same title, and both times because the fix addressed the pattern the author was looking at rather than the pattern that matched.
 
-**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article, and it refused 99 gated records that share a word with the subject and nothing else.** The largest homonym was full-scale testing, which had admitted 39 records from outside aeronautics, being 24 full-scale tests of buildings, piers, concrete members and rock works, five fire and smoke tests, and ten from other industries such as utility boilers, a snowboard and a shipping container. Fibre-optic strain sensing had admitted 33 more, being 15 on pipelines, bridges, levees and concrete, 11 on carbon dioxide storage, shale, wells and seismic inversion, and seven applying the same sensors in other industries. The rest were nine biology papers on the wings of damselflies, hawkmoths, bats and birds, three racing-car wings, two otter boards from fishing gear, two papers on bridge aeroelasticity, two on braced civil structures, five aspect-ratio homonyms in windows, geocells, heat-transfer channels, microactuators and crystal growth, and single papers on coal-slurry burners, a transmission tower, electrochemistry and a popular-science article. **The gated research records went from 4,436 to 4,337 and the admitted pool from 4,744 to 4,645**, and the clusters most changed were `ground_test`, which fell from 292 to 218, and `aspect_ratio`, which fell from 713 to 696. A reading of 300 unflagged records found five off topic, which put the contamination the screens missed near 1.7 percent before the sweep those five prompted, and every survey figure above is recomputed on the rebuilt set.
+**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article, and it refused 99 gated records that share a word with the subject and nothing else.** The largest homonym was full-scale testing, which had admitted 39 records from outside aeronautics, being 24 full-scale tests of buildings, piers, concrete members and rock works, five fire and smoke tests, and ten from other industries such as utility boilers, a snowboard and a shipping container. Fibre-optic strain sensing had admitted 33 more, being 15 on pipelines, bridges, levees and concrete, 11 on carbon dioxide storage, shale, wells and seismic inversion, and seven applying the same sensors in other industries. The rest were nine biology papers on the wings of damselflies, hawkmoths, bats and birds, three racing-car wings, two otter boards from fishing gear, two papers on bridge aeroelasticity, two on braced civil structures, five aspect-ratio homonyms in windows, geocells, heat-transfer channels, microactuators and crystal growth, and single papers on coal-slurry burners, a transmission tower, electrochemistry and a popular-science article. **The gated research records went from 4,436 to 4,337 and the admitted pool from 4,744 to 4,645**, and the clusters most changed were `ground_test`, which fell from 292 to 218, and `aspect_ratio`, which fell from 713 to 696. A reading of 300 unflagged records found five off topic, which put the contamination the screens missed near 1.7 percent before the sweep those five prompted. **A second seeded sample of 300 records that no earlier reading had seen, read on 8 October 2026, found two off topic, both removed with two more of their kind.** The two were a design for a spent-fuel transport flask and a wind-tunnel test of bundled power-transmission conductors, and sweeping their homonyms found a fuel burn-up monitor for a pebble-bed reactor and a full-scale test of a six-storey building frame. **The gated research records then numbered 4,333 and the admitted pool 4,641**, with `ground_test` at 217 and `aeroelastic` at 1,191. Two in 300 is 0.7 percent, but that sample drove its own sweep, so it measures the contamination before that sweep and not what remains after it, and no unread sample has been drawn since to measure the remainder. **On 8 October 2026 a further 46 records were removed because they are notices or parts of works rather than works**, being 25 correction and erratum notices, 7 withdrawal notices and 14 supplementary-material files registered under their parent papers' titles, which took the gated research records from 4,333 to 4,287 and the admitted pool from 4,641 to 4,595, with `aeroelastic` at 1,183 and `span_constraint` at 36, and every survey figure above is recomputed on that set.
 
 ## Epistemic State
 
@@ -1777,13 +1777,13 @@ drawn from them here are limited to what Volume I quotes.
 The answer is that it comes from an airport. **The wing folds at 118 feet and 118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**, with a margin of zero inches against a bound that is exclusive. ICAO states the same line in metres, which is 118.1102 feet, and the FAA circular prints
 both renderings while declaring that the customary one governs, **so the two differ by
 1.3228 inch and the fold station sits inside a rounding the circular itself says does
-not govern**. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported nine years earlier. **The mechanism is worth more than the optimum.**
+not govern**. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported in April 2015. **The mechanism is worth more than the optimum.**
 
 **The optimality condition itself turned out to be two conditions, and that is the analytical result this article would keep if it could keep only one.** At fixed wing area and cruise condition the fuel-burn-optimal aspect ratio is where a one percent gain in aspect ratio costs exactly half a percent in weight, and **no other quantity in the problem appears**. At fixed cruise lift coefficient it is where the weight elasticity equals the induced-drag fraction of drag. **The curvature at the second stationary point is exactly $\delta(n+1-2\delta)$**, which is why a design can sit 21.41 percent below its optimum and pay 0.9481 percent for it, and why an infrastructural constraint can bind without visible cost. **Carrying the Breguet exponential rather than linearising it generalises both conditions by a single factor and makes the optimum flatter still**, and it was the equation-density review that found the linearisation was not free at a twenty percent fuel fraction.
 
 **The truss turned out to buy a coefficient and not a power.** A geometrically similar truss leaves the three-halves exponent exactly where a cantilever leaves it, and since the optimum moves only as $k_w^{-2/5}$, no plausible structural achievement moves it far. **So the value of this configuration is not in the truss as a weight-saving device.** It is in the thin wing the truss makes affordable, which raises the drag-divergence Mach number, which permits less sweep, which permits laminar flow. **That chain is what Boeing kept when it stopped the aeroplane**, and on this article's reading the chain is where the fuel was all along.
 
-**What the programme bought for 153 million dollar was nine design reviews and a very good report.** The agreement would have paid **98.824 percent** of its total before the aeroplane flew, so the public money was never mostly about the flying. It stopped between the February 2025 milestone and the May 2025 Wing and Strut Critical Design Review, which is the gate at which a wing becomes a thing to be built rather than a thing to be studied. **The instrument that funded it has no pause in it**, offering termination for a missed milestone instead, and the federal award record holds, under the project's own name, a single contract for **41,198.00 dollar** worth of desk models.
+**What the programme bought for 153 million dollar was nine milestones, four of them design reviews, and a very good report.** The agreement would have paid **98.824 percent** of its total before the aeroplane flew, so the public money was never mostly about the flying. It stopped between the February 2025 milestone and the May 2025 Wing and Strut Critical Design Review, which is the gate at which a wing becomes a thing to be built rather than a thing to be studied. **The instrument that funded it has no pause in it**, offering termination for a missed milestone instead, and the federal award record holds, under the project's own name, a single contract for **41,198.00 dollar** worth of desk models.
 
 **And the number everybody quotes is not in the document that funds it.** The agreement states no percentage. The wing alone is worth **7.2 percent** against an advanced conventional aeroplane of aspect ratio 13, by the contractor's own calculation and explicitly independent of other technologies. The whole package against a 2005 aeroplane is **55.86 percent**. **Thirty percent is between them**, and the clause that makes it true, which attributes it to the configuration combined with additional technologies, appeared in January 2023, vanished in June 2023 and returned in the 2026 budget supplement. **The figure never changed and the sentence that earned it came and went twice.**
 
@@ -1841,8 +1841,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 ### Research
 
 - [A Comparison of Different 2022][research_a_comparison_2022]
-- [A Comprehensive Analysis of][research_a_comprehensive]
-- [A Dual-Engine Artificial Intelligence][research_a_dual_engine]
 - [A New Steady Approach 2006][research_a_new_2006]
 - [A study of the 1973][research_a_study_1973]
 - [A-7 Transonic Wing Designs 1982][research_a_7_transonic_1982]
@@ -1856,7 +1854,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Abel, I. et al 1977][research_abeli_perrybiii_1977]
 - [Abnous et al 2017][research_abnous_zheng_2017]
 - [Abouhamzeh et al 2022][research_abouhamzeh_ma_2022]
-- [Abouhamzeh et al 2022][research_abouhamzeh_ma_2022_b]
 - [Abramovich et al 2005][research_abramovich_weller_2005]
 - [Abrudan et al 2023][research_abrudan_dragulinescu_2023]
 - [Abulibdeh 2026][research_abulibdeh_2026]
@@ -2082,7 +2079,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Bartels 2023][research_bartels_2023]
 - [Bartels and Stanford 2018][research_bartels_stanford_2018]
 - [Bartels et al 2017][research_bartels_funk_2017]
-- [Bartels et al 2019][research_bartels_stanford_2019]
 - [Bartels, Robert E. 2013][research_bartelsroberte_2013]
 - [Bartels, Robert E. and Stanford, Bret K. 2017][research_bartelsroberte_stanfordbretk_2017]
 - [Bartels, Robert E. et al 2014][research_bartelsroberte_scottrobertc_2014]
@@ -2226,7 +2222,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Bons and Martins 2020][research_bons_martins_2020]
 - [Bons and Martins 2020][research_bons_martins_2020_b]
 - [Bontoft et al 2026][research_bontoft_bhuwal_2026]
-- [Bontoft et al 2026][research_bontoft_bhuwal_2026_b]
 - [Boo et al 2015][research_boo_mansor_2015]
 - [Boozer et al 2017][research_boozer_vantooren_2017]
 - [Borer et al 2019][research_borer_cox_2019]
@@ -2261,7 +2256,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Braune and Hebler 2018][research_braune_hebler_2018]
 - [Bravo et al 2026][research_bravo_bras_2026]
 - [Breitbach, E. J. 1979][research_breitbachej_1979]
-- [Breitenstein and Radespiel 2021][research_breitenstein_radespiel_2021]
 - [Breitenstein et al 2023][research_breitenstein_muller_2023]
 - [Breitenstein et al 2024][research_breitenstein_muller_2024]
 - [Breitsamter 2005][research_breitsamter_2005]
@@ -2474,7 +2468,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Chen et al 2003][research_chen_fu_2003_b]
 - [Chen et al 2006][research_chen_wickramasinghe_2006]
 - [Chen et al 2006][research_chen_zha_2006]
-- [Chen et al 2007][research_chen_matsumori_2007]
 - [Chen et al 2009][research_chen_fan_2009]
 - [Chen et al 2009][research_chen_ulker_2009]
 - [Chen et al 2010][research_chen_wu_2010]
@@ -2504,7 +2497,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Chepurnykh 2015][research_chepurnykh_2015]
 - [Cheung et al 2018][research_cheung_rezgui_2018]
 - [Cheung et al 2019][research_cheung_rezgui_2019]
-- [Cheung et al 2019][research_cheung_rezgui_2019_b]
 - [Cheung et al 2020][research_cheung_rezgui_2020]
 - [Cheung et al 2020][research_cheung_rezgui_2020_b]
 - [Chi et al 2019][research_chi_han_2019]
@@ -2545,7 +2537,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Chung et al 2002][research_chung_lee_2002]
 - [Chung et al 2003][research_chung_lee_2003]
 - [Chung et al 2024][research_chung_alsamri_2024]
-- [Chung et al 2024][research_chung_alsamri_2024_b]
 - [Chung et al 2025][research_chung_alsamri_2025]
 - [Chung, Y. T. et al 2005][research_chungyt_fowlersamuelb_2005]
 - [Chwalowski et al 2022][research_chwalowski_massey_2022]
@@ -2611,7 +2602,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Correction of model deformation 2017][research_correction_of_2017]
 - [Corsia and Sustainable Aviation][research_corsia_and]
 - [Corsiglia et al 1976][research_corsiglia_rossow_1976]
-- [Cost and Carbon Intensity][research_cost_and]
 - [Coupe, William J. 2019][research_coupewilliamj_2019]
 - [Cox, T. H. and Gilyard, G. B. 1986][research_coxth_gilyardgb_1986]
 - [Cramer, Nick and Nguyen, Nhan 2020][research_cramernick_nguyennhan_2020]
@@ -2715,7 +2705,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Demasi et al 2018][research_demasi_monegato_2018]
 - [Demasi et al 2019][research_demasi_monegato_2019]
 - [Demasi et al 2022][research_demasi_monegato_2022]
-- [Demasi et al 2022][research_demasi_monegato_2022_b]
 - [Demele, Fred A 1958][research_demelefreda_1958]
 - [Demele, Fred A and Powell K Harmon 1958][research_demelefreda_powellkharmon_1958]
 - [Demenkov and Goman 2009][research_demenkov_goman_2009]
@@ -2867,7 +2856,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Ellison, J. F. 1986][research_ellisonjf_1986]
 - [Elsayed 2011][research_elsayed_2011]
 - [Emero and Spunt 1966][research_emero_spunt_1966]
-- [Emmerton 1982][research_emmerton_1982]
 - [Emory and Patil 2011][research_emory_patil_2011]
 - [Emory and Patil 2013][research_emory_patil_2013]
 - [Engelbrecht 2017][research_engelbrecht_2017]
@@ -2914,7 +2902,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Fauci et al 2006][research_fauci_nicoli_2006]
 - [Faïsse et al 2021][research_faisse_vernay_2021]
 - [Faïsse et al 2022][research_faisse_vernay_2022]
-- [Faïsse et al 2022][research_faisse_vernay_2022_b]
 - [Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]
 - [Fehrs et al 2021][research_fehrs_helm_2021]
 - [Feistel, T. W. 1985][research_feisteltw_1985]
@@ -2987,7 +2974,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Freudinger, Lawrence C. and Kehoe, Michael W. 1990][research_freudingerlawrencec_kehoemichaelw_1990]
 - [Friedewald et al 2017][research_friedewald_thormann_2017]
 - [Friedmann 1998][research_friedmann_1998]
-- [From CO2 to Sustainable][research_from_co2]
 - [Frost and Rutherford 1963][research_frost_rutherford_1963]
 - [Frost et al 2012][research_frost_taylor_2012]
 - [Frulla 2021][research_frulla_2021]
@@ -2996,7 +2982,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Fu et al 2023][research_fu_sun_2023]
 - [Fu et al 2024][research_fu_shi_2024]
 - [Fu et al 2026][research_fu_xu_2026]
-- [Fuel Effects on Aviation][research_fuel_effects]
 - [Fuel efficiency and laminar][research_fuel_efficiency]
 - [Fugate, Jason et al 2019][research_fugatejason_nguyennhant_2019]
 - [Fuglsang and Williams 1985][research_fuglsang_williams_1985]
@@ -3171,7 +3156,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Gu et al 2022][research_gu_healy_2022]
 - [Gu et al 2022][research_gu_zhang_2022]
 - [Gu et al 2023][research_gu_cheung_2023]
-- [Gu et al 2023][research_gu_cheung_2023_b]
 - [Gu et al 2023][research_gu_healy_2023]
 - [Gu et al 2023][research_gu_zhang_2023]
 - [Gu et al 2024][research_gu_healy_2024]
@@ -3249,7 +3233,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Hajela and Chen 1986][research_hajela_chen_1986]
 - [Hajj 2004][research_hajj_2004]
 - [Hall et al 2024][research_hall_lynch_2024]
-- [Hall et al 2024][research_hall_lynch_2024_b]
 - [Hall, Albert W and Mckay, James M 1952][research_hallalbertw_mckayjamesm_1952]
 - [Halle E. Buescher and Joseph W. Connolly][research_halleebuescher_josephwconnolly]
 - [Haller, William et al 2012][research_hallerwilliam_guynnmark_2012]
@@ -3283,7 +3266,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Hanman et al 2025][research_hanman_yao_2025]
 - [Hansen et al 2007][research_hansen_heinze_2007]
 - [Hansen et al 2020][research_hansen_duan_2020]
-- [Hansen et al 2020][research_hansen_duan_2020_b]
 - [Hansen et al 2022][research_hansen_duan_2022]
 - [Hansman and Barsotti 1985][research_hansman_barsotti_1985]
 - [Hansmann and Stumpf 2025][research_hansmann_stumpf_2025]
@@ -3423,7 +3405,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Hoffmann et al 2011][research_hoffmann_loftfield_2011]
 - [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960]
 - [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960_b]
-- [Holistic Methodology to Guide][research_holistic_methodology]
 - [Holmes and Obara 1983][research_holmes_obara_1983]
 - [Holmes and Obara 1992][research_holmes_obara_1992]
 - [Honda et al 2023][research_honda_sato_2023]
@@ -3443,7 +3424,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Hoshi et al 2020][research_hoshi_kuya_2020]
 - [Hospodář et al 2020][research_hospodar_hanzal_2020]
 - [Hosseini and Vaziri-Zanjani 2020][research_hosseini_vazirizanjani_2020]
-- [Hosseini and Vaziri-Zanjani 2020][research_hosseini_vazirizanjani_2020_b]
 - [Hosseini et al 2020][research_hosseini_alivazirizanjani_2020]
 - [Hosseini et al 2024][research_hosseini_vaziryzanjany_2024]
 - [Hosseini et al 2024][research_hosseini_vaziryzanjany_2024_b]
@@ -3720,7 +3700,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Kang et al 2024][research_kang_chen_2024]
 - [Kang Ning and Shi YouMin 2018][research_kangning_shiyoumin_2018]
 - [Kano et al 2025][research_kano_ryuzono_2025]
-- [Kant and Abe 2025][research_kant_abe_2025]
 - [Kao et al 2018][research_kao_white_2018]
 - [Kapania et al 1991][research_kapania_eldred_1991]
 - [Kapania et al 1993][research_kapania_eldred_1993]
@@ -3780,7 +3759,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Kennelly, Jr. 1983][research_kennellyjr_1983]
 - [Kenny et al 2026][research_kenny_kamath_2026]
 - [Kenter Ahrazoğlu et al 2025][research_kenterahrazoglu_ahrazoglu_2025]
-- [Kenter Ahrazoğlu et al 2025][research_kenterahrazoglu_ahrazoglu_2025_b]
 - [Kentfield 2005][research_kentfield_2005]
 - [Ketola 1964][research_ketola_1964]
 - [Ketola 1965][research_ketola_1965]
@@ -3794,7 +3772,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Khalid et al 2010][research_khalid_sokhey_2010]
 - [Khalil and Bauknecht 2024][research_khalil_bauknecht_2024]
 - [Khalil and Fezans 2019][research_khalil_fezans_2019]
-- [Khalil and Fezans 2019][research_khalil_fezans_2019_b]
 - [Khalil and Fezans 2020][research_khalil_fezans_2020]
 - [Khalil and Fezans 2021][research_khalil_fezans_2021]
 - [Khalil et al 2020][research_khalil_asaro_2020]
@@ -3847,7 +3824,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Kleemann et al 2020][research_kleemann_karpuk_2020]
 - [Klein and Viswanathan 1973][research_klein_viswanathan_1973]
 - [Klein and Viswanathan 1975][research_klein_viswanathan_1975]
-- [Klein and Viswanathan 1975][research_klein_viswanathan_1975_b]
 - [Klepl 1990][research_klepl_1990]
 - [Klug et al 2020][research_klug_radespiel_2020]
 - [Klug et al 2021][research_klug_naik_2021]
@@ -3988,7 +3964,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Layton 1996][research_layton_1996]
 - [Lazic et al 2023][research_lazic_grujic_2023]
 - [Leader et al 2024][research_leader_aretskinhariton_2024]
-- [Leader et al 2024][research_leader_aretskinhariton_2024_b]
 - [Lebofsky et al 2014][research_lebofsky_ting_2014]
 - [Lebofsky, Sonia et al 2015][research_lebofskysonia_tingeric_2015]
 - [Lecordix et al 1992][research_lecordix_gippet_1992]
@@ -4004,7 +3979,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Lee and Eyi 1993][research_lee_eyi_1993]
 - [Lee and Jameson 2009][research_lee_jameson_2009]
 - [Lee and Ohman 1984][research_lee_ohman_1984]
-- [Lee and Ohman 1984][research_lee_ohman_1984_b]
 - [Lee and Palazotto 2019][research_lee_palazotto_2019]
 - [Lee and Tang 1989][research_lee_tang_1989]
 - [Lee E Boddy 1946][research_leeeboddy_1946]
@@ -4049,7 +4023,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Li et al 2017][research_li_cao_2017]
 - [Li et al 2017][research_li_zhao_2017]
 - [Li et al 2018][research_li_huang_2018]
-- [Li et al 2019][research_li_bai_2019]
 - [Li et al 2019][research_li_zhang_2019]
 - [Li et al 2020][research_li_ji_2020]
 - [Li et al 2020][research_li_wang_2020]
@@ -4087,7 +4060,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Liebst et al 1988][research_liebst_garrard_1988]
 - [Liem et al 2015][research_liem_kenway_2015]
 - [Liersch et al 2009][research_liersch_streit_2009]
-- [Life-Cycle Assessment of Sustainable][research_life_cycle_assessment]
 - [Lijewski 1987][research_lijewski_1987]
 - [Lin 2025][research_lin_2025]
 - [Lin et al 1989][research_lin_jhou_1989]
@@ -4164,7 +4136,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Lovejoy, Andrew E. 2006][research_lovejoyandrewe_2006]
 - [Lovell, W. A. et al 1978][research_lovellwa_priceje_1978]
 - [Lowson 1990][research_lowson_1990]
-- [Lowson 1992][research_lowson_1992]
 - [Lu and Lu 1997][research_lu_lu_1997]
 - [Lu et al 2016][research_lu_cui_2016]
 - [Lucas et al 2009][research_lucas_valasek_2009]
@@ -4459,7 +4430,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Multidisciplinary Design Optimization 2021][research_multidisciplinary_design_2021]
 - [Multidisciplinary Design Optimization Architectures 2015][research_multidisciplinary_design_2015]
 - [Multidisciplinary design optimization of 1994][research_multidisciplinary_design_1994]
-- [Multiliter-Scale Photosensitized Dimerization of][research_multiliter_scale_photosensitized]
 - [Mulyanto and Nurhakim 2015][research_mulyanto_nurhakim_2015]
 - [Muraca, R. J. 1978][research_muracarj_1978]
 - [Muradas Odriozola][research_muradasodriozola]
@@ -4839,8 +4809,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Present Place of Discrete-Gust 1988][research_present_place_1988]
 - [Price and Paul 2022][research_price_paul_2022]
 - [Procedure for the Calculation][research_procedure_for]
-- [Production of a Sustainable][research_production_of]
-- [Prospective Life Cycle Assessment][research_prospective_life]
 - [Prouty 1975][research_prouty_1975]
 - [Pruett, C. David 1995][research_pruettcdavid_1995]
 - [Purohit 2013][research_purohit_2013]
@@ -4887,7 +4855,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Radespiel et al 1990][research_radespiel_horstmann_1990]
 - [Radovcich, N. A. 1984][research_radovcichna_1984]
 - [Rahman and Akbar 2026][research_rahman_akbar_2026]
-- [Rahman and Akbar 2026][research_rahman_akbar_2026_b]
 - [Rahman and Li 2013][research_rahman_li_2013]
 - [Rahman and Whidborne 2010][research_rahman_whidborne_2010]
 - [Rahman et al 2015][research_rahman_hasan_2015]
@@ -4990,7 +4957,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Ritter et al 2021][research_ritter_hilger_2021]
 - [Rivera, Jose A., Jr. 1989][research_riverajoseajr_1989]
 - [Rivera, Jose A., Jr. et al 1992][research_riverajoseajr_dansberrybryane_1992]
-- [Rivers et al 2019][research_rivers_lynde_2019]
 - [Rivers, Melissa B. et al 2019][research_riversmelissab_lyndemichelle_2019]
 - [Rizk, M. H. 1980][research_rizkmh_1980]
 - [Rizzetta 1977][research_rizzetta_1977]
@@ -5344,7 +5310,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Song et al][research_song_li]
 - [Song et al 2011][research_song_lu_2011]
 - [Song et al 2014][research_song_yang_2014]
-- [Song et al 2022][research_song_liang_2022]
 - [Song et al 2025][research_song_gao_2025]
 - [Song et al 2026][research_song_fang_2026]
 - [Soni et al 2023][research_soni_ewert_2023]
@@ -5384,7 +5349,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Srinivasan, G. R. and Mccroskey, W. J. 1986][research_srinivasangr_mccroskeywj_1986]
 - [Sriram and Narahari 2020][research_sriram_narahari_2020]
 - [Srivastava et al 2019][research_srivastava_damodaran_2019]
-- [Srivastava et al 2019][research_srivastava_damodaran_2019_b]
 - [Stack, John and Lindsey, W F 1949][research_stackjohn_lindseywf_1949]
 - [Stagliano and Hornung 2012][research_stagliano_hornung_2012]
 - [Stahle, C. V. and Forlifer, W. R. 1975][research_stahlecv_forliferwr_1975]
@@ -5450,7 +5414,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Su 2017][research_su_2017]
 - [Su and Cesnik 2009][research_su_cesnik_2009]
 - [Su and Cesnik 2010][research_su_cesnik_2010]
-- [Su and Hawari 2004][research_su_hawari_2004]
 - [Su et al 2016][research_su_swei_2016]
 - [Su et al 2017][research_su_huang_2017]
 - [Subbaraman and Sun][research_subbaraman_sun]
@@ -5489,8 +5452,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Supercritical wing][research_supercritical_wing]
 - [Surwase and Kumar 2025][research_surwase_kumar_2025]
 - [Sustainable aviation 2003][research_sustainable_aviation_2003]
-- [Sustainable Aviation Fuel Deployment][research_sustainable_aviation_b]
-- [Sustainable Aviation Fuel Molecules][research_sustainable_aviation]
 - [Sustainable Aviation Fuel The 2024][research_sustainable_aviation_fuel_2024]
 - [Sustainable Aviation unveils path 2009][research_sustainable_aviation_2009]
 - [Suzuki and Yonezawa 1993][research_suzuki_yonezawa_1993]
@@ -5509,7 +5470,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Sóbester 2010][research_sobester_2010]
 - [Taflan and Gulum 2026][research_taflan_gulum_2026]
 - [Taflan et al 2023][research_taflan_smith_2023]
-- [Taflan et al 2023][research_taflan_smith_2023_b]
 - [Taflan et al 2026][research_taflan_smith_2026]
 - [Tafti et al 2014][research_tafti_viswanath_2014]
 - [Tahir et al 2026][research_tahir_maqsood_2026]
@@ -5548,7 +5508,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Tao et al 2018][research_tao_zhao_2018]
 - [Tao et al 2019][research_tao_sun_2019]
 - [Tao et al 2025][research_tao_mukarakate_2025]
-- [Targeted Use of Sustainable][research_targeted_use]
 - [Tasca et al 2021][research_tasca_cipolla_2021]
 - [Tausif Jamal et al][research_tausifjamal_sethkelly]
 - [Tausif Jamal et al][research_tausifjamal_sethkelly_b]
@@ -5629,7 +5588,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Toosi et al 2024][research_toosi_peplinski_2024]
 - [Torenbeek 2016][research_torenbeek_2016]
 - [Toulorge et al 2007][research_toulorge_ponsin_2007]
-- [Trading off Aircraft Fuel][research_trading_off]
 - [Tranen 1974][research_tranen_1974]
 - [Transonic Airfoil Design by 2011][research_transonic_airfoil_2011]
 - [Transonic Buffet Simulation of Mach 0.8 Transonic Truss-Braced Wing Aircraft, AIAA Aviation Forum and Ascend 2024, registry record only][research_buffet_2024]
@@ -5653,7 +5611,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Trobaugh et al 1980][research_trobaugh_lee_1980]
 - [Tsatsas et al 2022][research_tsatsas_pontillo_2022]
 - [Tsatsas et al 2025][research_tsatsas_sticchi_2025]
-- [Tsatsas et al 2025][research_tsatsas_sticchi_2025_b]
 - [Tsoi et al 2014][research_tsoi_reynolds_2014]
 - [Tsushima et al 2018][research_tsushima_yokozeki_2018]
 - [Tsushima et al 2019][research_tsushima_arizono_2019]
@@ -5729,7 +5686,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Variyar et al 2014][research_variyar_lukaczyk_2014]
 - [Variyar et al 2016][research_variyar_economon_2016]
 - [Varshney et al 2019][research_varshney_varshney_2019]
-- [Varshney et al 2019][research_varshney_varshney_2019_b]
 - [Varshney et al 2022][research_varshney_varshney_2022]
 - [Vartio et al 2005][research_vartio_shimko_2005]
 - [Vartio et al 2008][research_vartio_shaw_2008]
@@ -5758,7 +5714,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Vio et al 2002][research_vio_cooper_2002]
 - [Vio et al 2007][research_vio_dimitriadis_2007]
 - [Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019]
-- [Virgilio Pereira et al 2019][research_virgiliopereira_kolmanovsky_2019_b]
 - [Visbal 2011][research_visbal_2011]
 - [Visbal 2012][research_visbal_2012]
 - [Visbal 2017][research_visbal_2017]
@@ -5821,7 +5776,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Wang et al 2019][research_wang_tang_2019]
 - [Wang et al 2019][research_wang_vankampen_2019]
 - [Wang et al 2019][research_wang_wan_2019]
-- [Wang et al 2019][research_wang_wan_2019_b]
 - [Wang et al 2019][research_wang_yang_2019]
 - [Wang et al 2021][research_wang_mkhoyan_2021]
 - [Wang et al 2021][research_wang_mkhoyan_2021_b]
@@ -5922,7 +5876,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Wintzer 2010][research_wintzer_2010]
 - [Wisniewski and Van Treuren 2022][research_wisniewski_vantreuren_2022]
 - [Wisniewski and Van Treuren 2022][research_wisniewski_vantreuren_2022_b]
-- [Withdrawal Notice Design Optimization 2020][research_withdrawal_notice_2020]
 - [Woan, Chung-Jin et al 1991][research_woanchungjin_gingrichphilipb_1991]
 - [Woehler et al 2023][research_woehler_burschyk_2023]
 - [Woeldgen et al 2026][research_woeldgen_allroggen_2026]
@@ -6071,7 +6024,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Young et al 2001][research_young_humphreys_2001]
 - [Youngren 2008][research_youngren_2008]
 - [Yu and Bernal 2016][research_yu_bernal_2016]
-- [Yu and Bose 2026][research_yu_bose_2026_b]
 - [Yu and Campbell 1992][research_yu_campbell_1992]
 - [Yu and Du 2006][research_yu_du_2006]
 - [Yu and Hornung 2026][research_yu_hornung_2026]
@@ -6126,7 +6078,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Zhang et al 2018][research_zhang_duan_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018_b]
-- [Zhang et al 2018][research_zhang_zhou_2018_c]
 - [Zhang et al 2020][research_zhang_chen_2020]
 - [Zhang et al 2020][research_zhang_yan_2020]
 - [Zhang et al 2021][research_zhang_guo_2021]
@@ -6152,7 +6103,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Zhao et al 2020][research_zhao_dai_2020]
 - [Zhao et al 2022][research_zhao_zhang_2022]
 - [Zhao et al 2023][research_zhao_yang_2023]
-- [Zhao et al 2023][research_zhao_zhang_2023]
 - [Zhao et al 2025][research_zhao_prince_2025]
 - [Zheng 2010][research_zheng_2010]
 - [Zheng and Xu 2013][research_zheng_xu_2013]
@@ -6194,8 +6144,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 
 [research_a_7_transonic_1982]: https://doi.org/10.2514/5.9781600865558.0431.0450
 [research_a_comparison_2022]: https://doi.org/10.14529/jsfi220401
-[research_a_comprehensive]: https://doi.org/10.1021/acs.est.5c02371.s001
-[research_a_dual_engine]: https://doi.org/10.1021/jacs.5c22256.s001
 [research_a_new_2006]: https://doi.org/10.5139/jksas.2006.34.5.012
 [research_a_study_1973]: https://ntrs.nasa.gov/citations/19730009309
 [research_aarons_canfield_2011]: https://doi.org/10.2514/6.2011-2011
@@ -6208,7 +6156,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_abeli_perrybiii_1977]: https://ntrs.nasa.gov/citations/19770059921
 [research_abnous_zheng_2017]: https://doi.org/10.2514/6.2017-4150
 [research_abouhamzeh_ma_2022]: https://doi.org/10.2514/6.2022-0724
-[research_abouhamzeh_ma_2022_b]: https://doi.org/10.2514/6.2022-0724.c1
 [research_abramovich_weller_2005]: https://doi.org/10.1177/1045389x05053149
 [research_abrudan_dragulinescu_2023]: https://doi.org/10.1117/12.2643287
 [research_abulibdeh_2026]: https://doi.org/10.1016/j.jclepro.2026.149589
@@ -6434,7 +6381,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_bartels_2023]: https://doi.org/10.2514/6.2023-3240
 [research_bartels_funk_2017]: https://doi.org/10.2514/1.c034064
 [research_bartels_stanford_2018]: https://doi.org/10.2514/1.c034675
-[research_bartels_stanford_2019]: https://doi.org/10.2514/6.2019-2035.c1
 [research_bartelsrobert_chwalowskipawel_2015]: https://ntrs.nasa.gov/citations/20160006014
 [research_bartelsrobert_scottrob_2015]: https://ntrs.nasa.gov/citations/20160007043
 [research_bartelsroberte_2013]: https://ntrs.nasa.gov/citations/20140000339
@@ -6579,7 +6525,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_bons_martins_2020]: https://doi.org/10.3390/aerospace7080118
 [research_bons_martins_2020_b]: https://doi.org/10.2514/6.2020-0544
 [research_bontoft_bhuwal_2026]: https://doi.org/10.2514/6.2026-4425
-[research_bontoft_bhuwal_2026_b]: https://doi.org/10.2514/6.2026-4425.c1
 [research_boo_mansor_2015]: https://doi.org/10.2514/6.2015-2250
 [research_boozer_vantooren_2017]: https://doi.org/10.2514/6.2017-0128
 [research_borer_cox_2019]: https://doi.org/10.2514/6.2019-2855
@@ -6616,7 +6561,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_breitbachej_1979]: https://ntrs.nasa.gov/citations/19790018907
 [research_breitenstein_muller_2023]: https://doi.org/10.2514/6.2023-3953
 [research_breitenstein_muller_2024]: https://doi.org/10.2514/1.c037648
-[research_breitenstein_radespiel_2021]: https://doi.org/10.1017/aer.2021.116
 [research_breitsamter_2005]: https://doi.org/10.2514/1.8174
 [research_brendel_sulaeman_1994]: https://doi.org/10.2514/6.1994-1890
 [research_brennan_mcdaniel_1994]: https://doi.org/10.21236/ada284253
@@ -6825,7 +6769,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_chen_khalid_2001]: https://doi.org/10.2514/6.2001-2485
 [research_chen_li_2011]: https://doi.org/10.1142/s0219876211002435
 [research_chen_liu_2019]: https://doi.org/10.1109/i2mtc.2019.8826827
-[research_chen_matsumori_2007]: https://doi.org/10.1061/40944(249)9
 [research_chen_sarhaddi_1999]: https://doi.org/10.21236/ada370436
 [research_chen_sarhaddi_1999_b]: https://doi.org/10.21236/ada370434
 [research_chen_sarhaddi_1999_c]: https://doi.org/10.21236/ada370435
@@ -6859,7 +6802,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_chepurnykh_2015]: https://doi.org/10.17084/2015.i-1(21).2
 [research_cheung_rezgui_2018]: https://doi.org/10.2514/1.c034811
 [research_cheung_rezgui_2019]: https://doi.org/10.2514/6.2019-1863
-[research_cheung_rezgui_2019_b]: https://doi.org/10.2514/6.2019-1863.c1
 [research_cheung_rezgui_2020]: https://doi.org/10.2514/6.2020-2290
 [research_cheung_rezgui_2020_b]: https://doi.org/10.2514/1.c035732
 [research_chi_han_2019]: https://doi.org/10.2514/6.2019-1475
@@ -6898,7 +6840,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_chukwu_stephan_2026]: https://doi.org/10.2514/6.2026-4777
 [research_chung_2017]: https://doi.org/10.5139/ijass.2017.18.1.1
 [research_chung_alsamri_2024]: https://doi.org/10.2514/6.2024-3664
-[research_chung_alsamri_2024_b]: https://doi.org/10.2514/6.2024-3664.c1
 [research_chung_alsamri_2025]: https://doi.org/10.2514/1.c038174
 [research_chung_lee_2002]: https://doi.org/10.2514/6.2002-2934
 [research_chung_lee_2003]: https://doi.org/10.2514/2.3160
@@ -6966,7 +6907,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_correction_of_2017]: https://doi.org/10.17559/tv-20160525142932
 [research_corsia_and]: https://doi.org/10.1163/9789004322714_cclc_2022-0137-0413
 [research_corsiglia_rossow_1976]: https://doi.org/10.2514/3.58737
-[research_cost_and]: https://doi.org/10.1021/acs.est.5c17540.s001
 [research_coupewilliamj_2019]: https://ntrs.nasa.gov/citations/20190027495
 [research_coxth_gilyardgb_1986]: https://ntrs.nasa.gov/citations/19860009841
 [research_cpvandam_seyedehsheidahosseini]: https://ntrs.nasa.gov/citations/20240007745
@@ -7065,7 +7005,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_demasi_monegato_2018]: https://doi.org/10.2514/6.2018-1790
 [research_demasi_monegato_2019]: https://doi.org/10.2514/6.2019-2301
 [research_demasi_monegato_2022]: https://doi.org/10.1007/s42496-022-00110-z
-[research_demasi_monegato_2022_b]: https://doi.org/10.1007/s42496-022-00114-9
 [research_demelefreda_1958]: https://ntrs.nasa.gov/citations/19930090339
 [research_demelefreda_powellkharmon_1958]: https://ntrs.nasa.gov/citations/19930085266
 [research_demelo_bussamra_2024]: https://doi.org/10.21203/rs.3.rs-3761279/v1
@@ -7222,7 +7161,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_ellisonjf_1986]: https://ntrs.nasa.gov/citations/19870003995
 [research_elsayed_2011]: https://doi.org/10.21608/asat.2011.27154
 [research_emero_spunt_1966]: https://doi.org/10.2514/3.43717
-[research_emmerton_1982]: https://doi.org/10.1680/frfc.01572.0040
 [research_emory_patil_2011]: https://doi.org/10.2514/6.2011-1742
 [research_emory_patil_2013]: https://doi.org/10.2514/1.c031668
 [research_engelbrecht_2017]: https://doi.org/10.5162/sensor2017/b6.1
@@ -7256,7 +7194,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_fagley_seidel_2016]: https://doi.org/10.1016/j.jfluidstructs.2016.07.021
 [research_faisse_vernay_2021]: https://doi.org/10.2514/6.2021-0892
 [research_faisse_vernay_2022]: https://doi.org/10.2514/6.2022-2243
-[research_faisse_vernay_2022_b]: https://doi.org/10.2514/6.2022-2243.c1
 [research_fan_he_2004]: https://doi.org/10.1117/12.568733
 [research_fan_liu_2017]: https://doi.org/10.2514/6.2017-1721
 [research_fan_song_2017]: https://doi.org/10.2514/6.2017-3061
@@ -7342,7 +7279,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_freudingerlawrencec_kehoemichaelw_1990]: https://ntrs.nasa.gov/citations/19900015819
 [research_friedewald_thormann_2017]: https://doi.org/10.1007/s13272-017-0273-0
 [research_friedmann_1998]: https://doi.org/10.21236/ada351094
-[research_from_co2]: https://doi.org/10.1021/acssuschemeng.4c03939.s001
 [research_frost_rutherford_1963]: https://doi.org/10.2514/3.1680
 [research_frost_taylor_2012]: https://doi.org/10.2514/6.2012-4858
 [research_frulla_2021]: https://doi.org/10.37394/232010.2021.18.7
@@ -7351,7 +7287,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_fu_sun_2023]: https://doi.org/10.2514/1.j061340
 [research_fu_xu_2026]: https://doi.org/10.1063/5.0304437
 [research_fu_yang_2021]: https://doi.org/10.1038/s41598-021-95187-0
-[research_fuel_effects]: https://doi.org/10.1021/acs.energyfuels.5c05727.s001
 [research_fuel_efficiency]: https://doi.org/10.1036/1097-8542.yb150705
 [research_fugatejason_nguyennhant_2019]: https://ntrs.nasa.gov/citations/20190027167
 [research_fuglsang_williams_1985]: https://doi.org/10.2514/6.1985-600
@@ -7522,7 +7457,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_grossmanb_kapaniark_2000]: https://ntrs.nasa.gov/citations/20000032960
 [research_ground_testing_2007]: https://doi.org/10.1108/aeat.2007.12779bab.029
 [research_gu_cheung_2023]: https://doi.org/10.2514/6.2023-0402
-[research_gu_cheung_2023_b]: https://doi.org/10.2514/6.2023-0402.c1
 [research_gu_ciampa_2017]: https://doi.org/10.2514/6.2017-1603
 [research_gu_cooper_2025]: https://doi.org/10.2514/6.2025-0900
 [research_gu_healy_2022]: https://doi.org/10.2514/6.2022-0723
@@ -7603,7 +7537,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_hajela_chen_1986]: https://doi.org/10.2514/6.1986-2653
 [research_hajj_2004]: https://doi.org/10.21236/ada428596
 [research_hall_lynch_2024]: https://doi.org/10.2514/6.2024-2528
-[research_hall_lynch_2024_b]: https://doi.org/10.2514/6.2024-2528.c1
 [research_hallalbertw_mckayjamesm_1952]: https://ntrs.nasa.gov/citations/19930087023
 [research_halleebuescher_josephwconnolly]: https://ntrs.nasa.gov/citations/20240007306
 [research_hallerwilliam_guynnmark_2012]: https://ntrs.nasa.gov/citations/20150010337
@@ -7636,7 +7569,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_hanin_barsonynagy_1983]: https://doi.org/10.2514/3.8147
 [research_hanman_yao_2025]: https://doi.org/10.3390/fluids10020027
 [research_hansen_duan_2020]: https://doi.org/10.2514/6.2020-1186
-[research_hansen_duan_2020_b]: https://doi.org/10.2514/6.2020-1186.c1
 [research_hansen_duan_2022]: https://doi.org/10.2514/1.g006577
 [research_hansen_heinze_2007]: https://doi.org/10.1007/s00158-007-0161-z
 [research_hansman_barsotti_1985]: https://doi.org/10.2514/3.45248
@@ -7779,7 +7711,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_hoffmann_loftfield_2011]: https://doi.org/10.1007/978-3-642-19817-5_25
 [research_holdawaygeorgeh_mellenthinjacka_1960]: https://ntrs.nasa.gov/citations/19980227180
 [research_holdawaygeorgeh_mellenthinjacka_1960_b]: https://ntrs.nasa.gov/citations/19980235518
-[research_holistic_methodology]: https://doi.org/10.1021/acs.energyfuels.4c02795.s001
 [research_holmes_obara_1983]: https://doi.org/10.2514/3.48203
 [research_holmes_obara_1992]: https://doi.org/10.1007/978-1-4612-2872-1_3
 [research_honda_sato_2023]: https://doi.org/10.2514/6.2023-4315
@@ -7800,7 +7731,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_hospodar_hanzal_2020]: https://doi.org/10.21495/5896-3-202
 [research_hosseini_alivazirizanjani_2020]: https://doi.org/10.1177/0954410020923060
 [research_hosseini_vazirizanjani_2020]: https://doi.org/10.2514/6.2020-0010
-[research_hosseini_vazirizanjani_2020_b]: https://doi.org/10.2514/6.2020-0010.c1
 [research_hosseini_vaziryzanjany_2024]: https://doi.org/10.1177/09544100241278997
 [research_hosseini_vaziryzanjany_2024_b]: https://doi.org/10.3390/aerospace11040273
 [research_hotate_abe_2005]: https://doi.org/10.1117/12.624279
@@ -8075,7 +8005,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_kang_chen_2024]: https://doi.org/10.3390/aerospace11090722
 [research_kangning_shiyoumin_2018]: https://doi.org/10.1049/cp.2018.0154
 [research_kano_ryuzono_2025]: https://doi.org/10.2514/6.2025-0002
-[research_kant_abe_2025]: https://doi.org/10.2514/6.2025-0363
 [research_kao_white_2018]: https://doi.org/10.2514/6.2018-3877
 [research_kapania_eldred_1991]: https://doi.org/10.2514/6.1991-1103
 [research_kapania_eldred_1993]: https://doi.org/10.2514/3.46371
@@ -8135,7 +8064,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_kennellyjr_1983]: https://doi.org/10.2514/6.1983-1864
 [research_kenny_kamath_2026]: https://doi.org/10.2514/6.2026-2127
 [research_kenterahrazoglu_ahrazoglu_2025]: https://doi.org/10.2514/6.2025-1619
-[research_kenterahrazoglu_ahrazoglu_2025_b]: https://doi.org/10.2514/6.2025-1619.c1
 [research_kentfield_2005]: https://doi.org/10.2514/6.2005-811
 [research_ketola_1964]: https://doi.org/10.2514/6.1964-444
 [research_ketola_1965]: https://doi.org/10.2514/3.43675
@@ -8151,7 +8079,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_khalil_asaro_2022]: https://doi.org/10.2514/1.c036426
 [research_khalil_bauknecht_2024]: https://doi.org/10.2514/1.c037503
 [research_khalil_fezans_2019]: https://doi.org/10.2514/6.2019-0822
-[research_khalil_fezans_2019_b]: https://doi.org/10.2514/6.2019-0822.c1
 [research_khalil_fezans_2020]: https://doi.org/10.1017/aer.2020.85
 [research_khalil_fezans_2021]: https://doi.org/10.1007/s13272-021-00503-z
 [research_khan_kapania_2023]: https://doi.org/10.2514/6.2023-3944
@@ -8203,7 +8130,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_kleemann_karpuk_2020]: https://doi.org/10.2514/6.2020-0008
 [research_klein_viswanathan_1973]: https://doi.org/10.1007/bf01590797
 [research_klein_viswanathan_1975]: https://doi.org/10.2514/3.44425
-[research_klein_viswanathan_1975_b]: https://doi.org/10.2514/3.59866
 [research_klepl_1990]: https://doi.org/10.23919/acc.1990.4790836
 [research_klopotowski_cwojdzinski_2022]: https://doi.org/10.35117/a_eng_22_08_09_07
 [research_klug_naik_2021]: https://doi.org/10.2514/6.2021-1649
@@ -8342,7 +8268,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_layton_1996]: https://doi.org/10.2514/6.1996-1442
 [research_lazic_grujic_2023]: https://doi.org/10.20858/sjsutst.2023.119.6
 [research_leader_aretskinhariton_2024]: https://doi.org/10.2514/6.2024-4294
-[research_leader_aretskinhariton_2024_b]: https://doi.org/10.2514/6.2024-4294.c1
 [research_lebofsky_ting_2014]: https://doi.org/10.2514/6.2014-2443
 [research_lebofskysonia_tingeric_2015]: https://ntrs.nasa.gov/citations/20190028855
 [research_lecordix_gippet_1992]: https://doi.org/10.1017/s0001924000025082
@@ -8365,7 +8290,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_lee_miura_1991]: https://doi.org/10.2514/3.46100
 [research_lee_nam_2017]: https://doi.org/10.5139/ijass.2017.18.4.651
 [research_lee_ohman_1984]: https://doi.org/10.2514/3.44987
-[research_lee_ohman_1984_b]: https://doi.org/10.2514/3.56742
 [research_lee_palazotto_2019]: https://doi.org/10.2514/6.2019-0513
 [research_lee_tan_2018]: https://doi.org/10.2514/6.2018-3814
 [research_lee_tang_1989]: https://doi.org/10.2514/3.45785
@@ -8388,7 +8312,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_lewerenz_1987]: https://doi.org/10.2514/6.1987-1732
 [research_leyds_1956]: https://doi.org/10.1108/eb032680
 [research_li_2026]: https://doi.org/10.54254/2753-8818/2026.dl34268
-[research_li_bai_2019]: https://doi.org/10.1016/j.ast.2019.105338
 [research_li_bai_2022]: https://doi.org/10.2514/1.c036413
 [research_li_cao_2017]: https://doi.org/10.1007/s13042-017-0644-1
 [research_li_dai_2025]: https://doi.org/10.1016/j.taml.2024.100554
@@ -8437,7 +8360,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_liebst_garrard_1988]: https://doi.org/10.2514/3.20297
 [research_liem_kenway_2015]: https://doi.org/10.2514/1.j052940
 [research_liersch_streit_2009]: https://doi.org/10.2514/6.2009-898
-[research_life_cycle_assessment]: https://doi.org/10.1021/acssuschemeng.4c00795.s001
 [research_lifei_choudharimeelanm_2011]: https://ntrs.nasa.gov/citations/20110008274
 [research_lifei_choudharimeelanm_2016]: https://ntrs.nasa.gov/citations/20160006029
 [research_lijewski_1987]: https://doi.org/10.2514/6.1987-2273
@@ -8519,7 +8441,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_lovejoyandrewe_2006]: https://ntrs.nasa.gov/citations/20060051803
 [research_lovellwa_priceje_1978]: https://ntrs.nasa.gov/citations/19780022102
 [research_lowson_1990]: https://doi.org/10.2514/3.25332
-[research_lowson_1992]: https://doi.org/10.2514/3.56861
 [research_lu_cui_2016]: https://doi.org/10.2514/6.2016-1226
 [research_lu_lu_1997]: https://doi.org/10.2514/6.1997-324
 [research_lucas_valasek_2009]: https://doi.org/10.2514/6.2009-2536
@@ -8816,7 +8737,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_multidisciplinary_design_1994]: https://doi.org/10.2514/6.1994-4305
 [research_multidisciplinary_design_2015]: https://doi.org/10.1002/9781118897072.ch8
 [research_multidisciplinary_design_2021]: https://doi.org/10.1017/9781108980647.014
-[research_multiliter_scale_photosensitized]: https://doi.org/10.1021/acssuschemeng.4c08755.s001
 [research_mulyanto_nurhakim_2015]: https://doi.org/10.5604/12314005.1137630
 [research_muracarj_1978]: https://ntrs.nasa.gov/citations/19780019123
 [research_muradasodriozola]: https://doi.org/10.70675/2bd250f4zf819z440dz95c5z16c5e9b49af1
@@ -9196,8 +9116,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_present_place_1988]: https://doi.org/10.2514/5.9781600861888.0197.0202
 [research_price_paul_2022]: https://doi.org/10.2514/6.2022-2609
 [research_procedure_for]: https://doi.org/10.4271/air5715
-[research_production_of]: https://doi.org/10.1021/acssuschemeng.4c06748.s001
-[research_prospective_life]: https://doi.org/10.1021/acs.est.5c09113.s001
 [research_prouty_1975]: https://doi.org/10.4050/sm_aero_1975-1330
 [research_pruettcdavid_1995]: https://ntrs.nasa.gov/citations/19960012495
 [research_purohit_2013]: https://doi.org/10.2514/6.2013-3671
@@ -9242,7 +9160,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_radespiel_horstmann_1990]: https://doi.org/10.2514/3.45966
 [research_radovcichna_1984]: https://ntrs.nasa.gov/citations/19870002314
 [research_rahman_akbar_2026]: https://doi.org/10.2514/6.2026-4063
-[research_rahman_akbar_2026_b]: https://doi.org/10.2514/6.2026-4063.c1
 [research_rahman_hasan_2015]: https://doi.org/10.1016/j.proeng.2015.05.021
 [research_rahman_labib_2015]: https://doi.org/10.4236/ojfd.2015.54031
 [research_rahman_labib_2016]: https://doi.org/10.1063/1.4958385
@@ -9345,7 +9262,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_ritter_teixeira_2018]: https://doi.org/10.2514/6.2018-1953
 [research_riverajoseajr_1989]: https://ntrs.nasa.gov/citations/19890006534
 [research_riverajoseajr_dansberrybryane_1992]: https://ntrs.nasa.gov/citations/19920024903
-[research_rivers_lynde_2019]: https://doi.org/10.2514/6.2019-2189.c1
 [research_riversmelissab_lyndemichelle_2019]: https://ntrs.nasa.gov/citations/20200002396
 [research_rizkmh_1980]: https://ntrs.nasa.gov/citations/19810009504
 [research_rizzetta_1977]: https://doi.org/10.21236/ada057505
@@ -9699,7 +9615,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_song_fang_2026]: https://doi.org/10.1016/j.advengsoft.2026.104119
 [research_song_gao_2025]: https://doi.org/10.1007/s10409-025-24113-x
 [research_song_li]: https://doi.org/10.4203/ccc.9.3.2
-[research_song_liang_2022]: https://doi.org/10.1016/j.engstruct.2022.114011
 [research_song_lu_2011]: https://doi.org/10.2514/1.c031038
 [research_song_yang_2014]: https://doi.org/10.1016/j.cja.2014.08.003
 [research_soni_ewert_2023]: https://doi.org/10.2514/6.2023-4477
@@ -9741,7 +9656,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_srinivasangr_mccroskeywj_1986]: https://ntrs.nasa.gov/citations/19870002266
 [research_sriram_narahari_2020]: https://doi.org/10.1007/978-981-15-5432-2_6
 [research_srivastava_damodaran_2019]: https://doi.org/10.2514/6.2019-1527
-[research_srivastava_damodaran_2019_b]: https://doi.org/10.2514/6.2019-1527.c1
 [research_stackjohn_lindseywf_1949]: https://ntrs.nasa.gov/citations/19930091987
 [research_stagliano_hornung_2012]: https://doi.org/10.2514/6.2012-5587
 [research_stahlecv_forliferwr_1975]: https://ntrs.nasa.gov/citations/19760003018
@@ -9806,7 +9720,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_su_2017]: https://doi.org/10.2514/6.2017-1351
 [research_su_cesnik_2009]: https://doi.org/10.2514/6.2009-2402
 [research_su_cesnik_2010]: https://doi.org/10.2514/1.47317
-[research_su_hawari_2004]: https://doi.org/10.2172/822595
 [research_su_huang_2017]: https://doi.org/10.2514/6.2017-1353
 [research_su_swei_2016]: https://doi.org/10.2514/6.2016-1095
 [research_subbaraman_sun]: https://doi.org/10.17918/00008475
@@ -9844,10 +9757,8 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_supercritical_airfoil]: https://doi.org/10.1007/3-540-11499-8_5
 [research_supercritical_wing]: https://doi.org/10.1036/1097-8542.668800
 [research_surwase_kumar_2025]: https://doi.org/10.1186/s44147-025-00749-y
-[research_sustainable_aviation]: https://doi.org/10.1021/acssuschemeng.4c04199.s001
 [research_sustainable_aviation_2003]: https://doi.org/10.1108/aeat.2003.12775eac.001
 [research_sustainable_aviation_2009]: https://doi.org/10.1108/aeat.2009.12781baf.002
-[research_sustainable_aviation_b]: https://doi.org/10.1021/acs.est.5c02364.s001
 [research_sustainable_aviation_fuel_2024]: https://doi.org/10.36948/ijfmr.2024.v06i04.25755
 [research_suzuki_yonezawa_1993]: https://doi.org/10.2514/3.48276
 [research_swinfordgr_1976]: https://ntrs.nasa.gov/citations/19760018058
@@ -9864,7 +9775,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_szubert_grossi_2015]: https://doi.org/10.1016/j.jfluidstructs.2015.03.005
 [research_taflan_gulum_2026]: https://doi.org/10.20319/stra.2026.1726
 [research_taflan_smith_2023]: https://doi.org/10.2514/6.2023-1554
-[research_taflan_smith_2023_b]: https://doi.org/10.2514/6.2023-1554.c1
 [research_taflan_smith_2026]: https://doi.org/10.2514/1.c038402
 [research_tafti_viswanath_2014]: https://doi.org/10.21236/ada603589
 [research_tahir_maqsood_2026]: https://doi.org/10.2514/1.c038034
@@ -9903,7 +9813,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_tao_mukarakate_2025]: https://doi.org/10.1007/978-3-031-83721-0_2
 [research_tao_sun_2019]: https://doi.org/10.1016/j.ast.2019.06.041
 [research_tao_zhao_2018]: https://doi.org/10.1142/s0217984918400407
-[research_targeted_use]: https://doi.org/10.1021/acs.est.2c05781.s001
 [research_tasca_cipolla_2021]: https://doi.org/10.3390/su13063282
 [research_tausifjamal_sethkelly]: https://ntrs.nasa.gov/citations/20250006616
 [research_tausifjamal_sethkelly_b]: https://ntrs.nasa.gov/citations/20250006121
@@ -9984,7 +9893,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_toosi_peplinski_2024]: https://doi.org/10.1017/jfm.2024.667
 [research_torenbeek_2016]: https://doi.org/10.1002/9780470686652.eae1003
 [research_toulorge_ponsin_2007]: https://doi.org/10.2514/6.2007-1086
-[research_trading_off]: https://doi.org/10.1021/acs.est.7b05719.s001
 [research_tranen_1974]: https://doi.org/10.2514/6.1974-501
 [research_transonic_airfoil_2011]: https://doi.org/10.5220/0003646204740482
 [research_transonic_correction_2021]: https://doi.org/10.2514/6.2021-2574
@@ -10007,7 +9915,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_trobaugh_lee_1980]: https://doi.org/10.21236/ada087768
 [research_tsatsas_pontillo_2022]: https://doi.org/10.1061/(asce)as.1943-5525.0001390
 [research_tsatsas_sticchi_2025]: https://doi.org/10.2514/6.2025-0281
-[research_tsatsas_sticchi_2025_b]: https://doi.org/10.2514/6.2025-0281.c1
 [research_tsoi_reynolds_2014]: https://doi.org/10.2514/6.2014-2598
 [research_tsushima_arizono_2019]: https://doi.org/10.1299/transjsme.18-00506
 [research_tsushima_nakakita_2022]: https://doi.org/10.2514/6.2022-3418
@@ -10085,7 +9992,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_variyar_economon_2016]: https://doi.org/10.2514/6.2016-2000
 [research_variyar_lukaczyk_2014]: https://doi.org/10.2514/6.2014-0181
 [research_varshney_varshney_2019]: https://doi.org/10.2514/6.2019-3599
-[research_varshney_varshney_2019_b]: https://doi.org/10.2514/6.2019-3599.c1
 [research_varshney_varshney_2022]: https://doi.org/10.2514/6.2022-1333
 [research_vartio_shaw_2008]: https://doi.org/10.2514/6.2008-7192
 [research_vartio_shimko_2005]: https://doi.org/10.2514/6.2005-1946
@@ -10114,7 +10020,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_vio_cooper_2002]: https://doi.org/10.2514/6.2002-1413
 [research_vio_dimitriadis_2007]: https://doi.org/10.1016/j.jfluidstructs.2007.03.006
 [research_virgiliopereira_kolmanovsky_2019]: https://doi.org/10.2514/6.2019-1591
-[research_virgiliopereira_kolmanovsky_2019_b]: https://doi.org/10.2514/6.2019-1591.c1
 [research_visbal_2011]: https://doi.org/10.2514/6.2011-219
 [research_visbal_2012]: https://doi.org/10.2514/6.2012-3279
 [research_visbal_2017]: https://doi.org/10.1103/physrevfluids.2.024703
@@ -10186,7 +10091,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_wang_vankampen_2018]: https://doi.org/10.2514/6.2018-0774
 [research_wang_vankampen_2019]: https://doi.org/10.2514/1.g003980
 [research_wang_wan_2019]: https://doi.org/10.2514/6.2019-0004
-[research_wang_wan_2019_b]: https://doi.org/10.2514/6.2019-0004.c1
 [research_wang_wan_2021]: https://doi.org/10.1016/j.compstruct.2020.113201
 [research_wang_wang_2012]: https://doi.org/10.2991/iccasm.2012.209
 [research_wang_wynn_2018]: https://doi.org/10.2514/1.c034684
@@ -10279,7 +10183,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_wintzer_2010]: https://doi.org/10.2514/1.c031049
 [research_wisniewski_vantreuren_2022]: https://doi.org/10.1115/gt2022-81579
 [research_wisniewski_vantreuren_2022_b]: https://doi.org/10.1115/1.4056015
-[research_withdrawal_notice_2020]: https://doi.org/10.4271/2020-01-0472.1
 [research_woanchungjin_gingrichphilipb_1991]: https://ntrs.nasa.gov/citations/19910034548
 [research_woehler_burschyk_2023]: https://doi.org/10.2514/6.2023-3229
 [research_woeldgen_allroggen_2026]: https://doi.org/10.2139/ssrn.7451473
@@ -10429,7 +10332,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_youngren_2008]: https://doi.org/10.2514/6.2008-293
 [research_yu_bernal_2016]: https://doi.org/10.2514/6.2016-1066
 [research_yu_bose_2026]: https://doi.org/10.2514/6.2026-1052
-[research_yu_bose_2026_b]: https://doi.org/10.2514/6.2026-4664.c1
 [research_yu_campbell_1992]: https://doi.org/10.2514/6.1992-2651
 [research_yu_du_2006]: https://doi.org/10.1080/15732470600590333
 [research_yu_hornung_2026]: https://doi.org/10.2139/ssrn.7180118
@@ -10495,7 +10397,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_zhang_zhao_2026]: https://doi.org/10.1007/s42405-026-01144-4
 [research_zhang_zhou_2018]: https://doi.org/10.2514/6.2018-3574
 [research_zhang_zhou_2018_b]: https://doi.org/10.2514/1.j056804
-[research_zhang_zhou_2018_c]: https://doi.org/10.2514/6.2018-3574.c1
 [research_zhang_zhou_2025]: https://doi.org/10.1016/j.ast.2025.110655
 [research_zhang_zhou_2026]: https://doi.org/10.1016/j.ast.2025.110831
 [research_zhao_2009]: https://doi.org/10.1016/j.jsv.2009.02.026
@@ -10509,7 +10410,6 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [research_zhao_yue_2016]: https://doi.org/10.2514/1.c033713
 [research_zhao_zhang_2016]: https://doi.org/10.1016/j.ast.2016.07.010
 [research_zhao_zhang_2022]: https://doi.org/10.3390/aerospace9110704
-[research_zhao_zhang_2023]: https://doi.org/10.1016/j.ast.2023.108460
 [research_zhao_zhu_2012]: https://doi.org/10.1016/j.compfluid.2012.01.002
 [research_zheng_2010]: https://doi.org/10.1007/s10409-009-0328-5
 [research_zheng_dai_2026]: https://doi.org/10.1016/j.ast.2026.113066

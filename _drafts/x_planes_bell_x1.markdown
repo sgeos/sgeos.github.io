@@ -79,7 +79,7 @@ The question the X-1 was built to answer was therefore not whether an aircraft c
 
 ## Programme Origin
 
-The programme originated in a 1944 agreement between the Army Air Forces and the NACA to build a research aircraft dedicated to the transonic problem, with the Navy pursuing a parallel and partly overlapping effort that produced the Douglas D-558 series, whose transonic handling qualities [NACA 1954][research_d558_handling_1954] reports, its slat loads in [NACA 1953][research_d558_slat_1953], and the drag penalty of external stores measured by [NACA 1957][research_d558_stores_1957]. The two programmes are best read together, because the Navy aircraft was turbojet-powered and runway-launched where the X-1 was rocket-powered and air-launched, so the pair brackets the design space rather than duplicating a point in it. The rationale for a dedicated research aircraft, as opposed to instrumenting a service type, was argued in print by the people who built it in [Williams and Drake][research_williams_drake_1948], which remains the clearest contemporary statement of why the flight-only residual justified the expense. The division of labour matters for reading the record. The NACA specified the research programme and the instrumentation and wanted an aircraft that could be flown repeatedly at incrementally increasing Mach number. The Army Air Forces wanted a demonstration. Those two objectives are not the same and they produced visible friction over the flight programme, which is treated below.
+The programme originated in a 1944 agreement between the Army Air Forces and the NACA to build a research aircraft dedicated to the transonic problem, with the Navy pursuing a parallel and partly overlapping effort that produced the Douglas D-558 series, whose transonic handling qualities [NACA 1954][research_d558_handling_1954] reports, its slat loads in [NACA 1953][research_d558_slat_1953], and the drag penalty of external stores measured by [NACA 1957][research_d558_stores_1957]. The two programmes are best read together, because the Navy aircraft was turbojet-powered and runway-launched where the X-1 was rocket-powered and air-launched, so the pair brackets the design space rather than duplicating a point in it. The rationale for a dedicated research aircraft, as opposed to instrumenting a service type, was argued in print by the people who built it in [Williams and Drake 1948][research_williams_drake_1948], which remains the clearest contemporary statement of why the flight-only residual justified the expense. The division of labour matters for reading the record. The NACA specified the research programme and the instrumentation and wanted an aircraft that could be flown repeatedly at incrementally increasing Mach number. The Army Air Forces wanted a demonstration. Those two objectives are not the same and they produced visible friction over the flight programme, which is treated below.
 
 Bell Aircraft received the airframe contract in March 1945 for what was then designated the XS-1, for Experimental Supersonic, later shortened to X-1. Three airframes were built, and the fleet size agrees with the attrition sizing derived in the [series opener][related_post_a297_xplanes_framing]. Three is also close to the worst possible quantity from a unit-cost standpoint, because the learning effects quantified for airframe manufacture by [Wright 1936][research_wright_1936],
 
@@ -197,7 +197,7 @@ Wave drag reinforces the same conclusion. For a slender body the minimum wave dr
 
 $$\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L} \right)^2$$
 
-so thickness enters quadratically rather than linearly. The [area rule][ref_whitcomb_area_rule] that follows from the same reasoning, established by [Whitcomb][research_whitcomb_1952] several years later, was not available to the X-1 designers, and the aircraft carries no waisting. The experimental route to it is visible in the intervening literature. [NACA 1948][research_transonic_drag_wingbody_1948] measured the transonic drag of a wing-body combination, [NACA 1949][research_comparative_drag_1949] and [NACA 1950][research_comparative_drag_1950] compared rectangular against sweptback sections at the same conditions, [NACA 1954][research_fuselage_mods_drag_1954] examined what fuselage modification alone could achieve, and [NACA 1954][research_drag_rise_reduction_1954] investigated reducing the zero-lift drag rise by adding volume in the right place, which is the area rule stated experimentally. Separation-controlled variants of the same idea were still being tried two decades later by [NASA 1971][research_drag_rise_notches_1971].
+so thickness enters quadratically rather than linearly. The [area rule][ref_whitcomb_area_rule] that follows from the same reasoning, established by [Whitcomb 1952][research_whitcomb_1952] several years later, was not available to the X-1 designers, and the aircraft carries no waisting. The experimental route to it is visible in the intervening literature. [NACA 1948][research_transonic_drag_wingbody_1948] measured the transonic drag of a wing-body combination, [NACA 1949][research_comparative_drag_1949] and [NACA 1950][research_comparative_drag_1950] compared rectangular against sweptback sections at the same conditions, [NACA 1954][research_fuselage_mods_drag_1954] examined what fuselage modification alone could achieve, and [NACA 1954][research_drag_rise_reduction_1954] investigated reducing the zero-lift drag rise by adding volume in the right place, which is the area rule stated experimentally. Separation-controlled variants of the same idea were still being tried two decades later by [NASA 1971][research_drag_rise_notches_1971].
 
 Lift at the test condition follows from the [lift coefficient][ref_lift_coefficient],
 
@@ -239,7 +239,7 @@ The formal basis for asking which groups must match is the theorem of [Buckingha
 
 $$Re = \frac{\rho V L}{\mu}$$
 
-with the [viscosity][ref_position_error] following from the relation of [Sutherland 1893][research_sutherland_1893],
+with the viscosity following from the relation of [Sutherland 1893][research_sutherland_1893],
 
 $$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
 
@@ -275,7 +275,7 @@ so the aircraft crossed the drag rise slowly enough for the instrumentation to r
 
 $$a_x = \frac{T - D}{m} - g \sin \gamma$$
 
-and at the 7.3 degree climb angle computed below the entire excess goes into potential energy and none into acceleration. The pilot chose between them, which is exactly what specific excess power expresses. That is the operational reason the quantization was tolerable.
+and at the 7.3 degree climb angle computed in Sizing From First Principles the entire excess goes into potential energy and none into acceleration. The pilot chose between them, which is exactly what specific excess power expresses. That is the operational reason the quantization was tolerable.
 
 Thrust itself follows from the momentum and pressure terms,
 
@@ -329,7 +329,7 @@ where the elliptic distribution assumed is the minimum-induced-drag case of [Mun
 
 $$\ell(y) = \frac{4 L}{\pi b} \sqrt{1 - \left( \frac{2 y}{b} \right)^2}$$
 
-which is also the distribution that puts the least bending moment at the root for a given lift, so the assumption is conservative in the right direction. The required spar cap area for an allowable stress $\sigma_{\text{allow}}$ and structural depth $h_s$ is
+The required spar cap area for an allowable stress $\sigma_{\text{allow}}$ and structural depth $h_s$ is
 
 $$A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}$$
 
@@ -389,7 +389,7 @@ with $C_{L\alpha_t}$ the tail lift-curve slope and $\eta_t$ the tail efficiency.
 
 $$C_{m \delta_e} = -V_H \, C_{L \alpha_t} \, \eta_t \, \tau$$
 
-where $\tau$ is the elevator effectiveness parameter, a function of the ratio of elevator chord to tail chord, Thin-airfoil theory gives it explicitly as
+where $\tau$ is the elevator effectiveness parameter, a function of the ratio of elevator chord to tail chord. Thin-airfoil theory gives it explicitly as
 
 $$\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c_t} - 1$$
 
@@ -507,7 +507,7 @@ as described in [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington an
 
 $$D = T - m a_x$$
 
-amplifies relative uncertainty by approximately the thrust-to-drag ratio, which at the test condition is about 3.5, so a three percent thrust calibration error becomes a ten percent drag uncertainty. The technique and its error budget were set out by [Beeler Bellman and Saltzman 1956][research_beeler_1956], Sampling imposed its own limit. Resolving a structural mode at frequency $f_{\max}$ requires
+amplifies relative uncertainty by approximately the thrust-to-drag ratio, which at the test condition is about 3.5, so a three percent thrust calibration error becomes a ten percent drag uncertainty. The technique and its error budget were set out by [Beeler Bellman and Saltzman 1956][research_beeler_1956]. Sampling imposed its own limit. Resolving a structural mode at frequency $f_{\max}$ requires
 
 $$f_s > 2 f_{\max}$$
 
@@ -661,7 +661,7 @@ The engineering texts used for the relations above are [Anderson 2001][book_ande
 
 Two collections deserve separate mention. [Donlan 1976][research_donlan_collected_1976] gathers the collected works of one of the engineers closest to the configuration decisions, and the 1949 [NACA transonic conference][research_transonic_conference_1949] records the state of the problem two years after the first supersonic flight, which is a useful check on how much the flight actually settled at the time.
 
-**The research survey was read again in full on 7 October 2026, and the re-reading refused none of its records.** All 166 research works were read by title, the four that the vocabulary screen flagged and the 162 it passed, and each belongs to the transonic aerodynamic, control, structural, measurement or experiment-design literature this article uses, so the total stays at 166 and the estimated remaining contamination is zero.
+**The research survey was read again in full on 7 October 2026, and the re-reading refused none of its records.** All 166 research works were read by title, the four that the vocabulary screen flagged and the 162 it passed, and each belongs to the transonic aerodynamic, control, structural, measurement or experiment-design literature this article uses, so the total stays at 166 and the estimated remaining contamination is zero. **No second seeded sample could be drawn on 8 October 2026, because every research title had already been read.** The survey therefore still holds 166 research works, and that complete reading leaves none known to be off topic, which is a statement about titles rather than about the substance of each work. A check on 8 October 2026 for records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, and journal front matter such as covers, contents lists, reviewer lists and indexes, found none and removed none, so the total stays at 166.
 
 ## Epistemic State
 
@@ -1050,75 +1050,75 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 - [A90 Introduction to Space Studies][related_post_a90_intro_space_studies]
 - [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
 
-[book_anderson_1997_history_aerodynamics]: https://openlibrary.org/search?q=Anderson+A+History+of+Aerodynamics
-[book_anderson_2001_fundamentals]: https://openlibrary.org/search?q=Anderson+Fundamentals+of+Aerodynamics
-[book_anderson_2002_modern_compressible]: https://openlibrary.org/search?q=Anderson+Modern+Compressible+Flow
-[book_anderson_2012_aircraft_performance]: https://openlibrary.org/search?q=Anderson+Aircraft+Performance+and+Design
-[book_anderson_2012_introduction_flight]: https://openlibrary.org/search?q=Anderson+Introduction+to+Flight
-[book_ashley_landahl_1965]: https://openlibrary.org/search?q=Ashley+Landahl+Aerodynamics+of+Wings+and+Bodies
-[book_baals_corliss_1981]: https://openlibrary.org/search?q=Baals+Corliss+Wind+Tunnels+of+NASA
-[book_barlow_rae_pope_1999]: https://openlibrary.org/search?q=Barlow+Rae+Pope+Low+Speed+Wind+Tunnel+Testing
-[book_bertin_cummings_2013]: https://openlibrary.org/search?q=Bertin+Cummings+Aerodynamics+for+Engineers
-[book_bevington_robinson_2002]: https://openlibrary.org/search?q=Bevington+Robinson+Data+Reduction+and+Error+Analysis
-[book_bilstein_1989_orders]: https://openlibrary.org/search?q=Bilstein+Orders+of+Magnitude+NACA+NASA
-[book_bisplinghoff_ashley_halfman_1955]: https://openlibrary.org/search?q=Bisplinghoff+Ashley+Halfman+Aeroelasticity
-[book_box_hunter_hunter_2005]: https://openlibrary.org/search?q=Box+Hunter+Statistics+for+Experimenters
-[book_brown_1988_wings_on_my_sleeve]: https://openlibrary.org/search?q=Eric+Brown+Wings+on+My+Sleeve
-[book_bruhn_1973]: https://openlibrary.org/search?q=Bruhn+Analysis+and+Design+of+Flight+Vehicle+Structures
+[book_anderson_1997_history_aerodynamics]: https://openlibrary.org/works/OL1993322W
+[book_anderson_2001_fundamentals]: https://openlibrary.org/works/OL3232211W
+[book_anderson_2002_modern_compressible]: https://openlibrary.org/works/OL1993329W
+[book_anderson_2012_aircraft_performance]: https://openlibrary.org/works/OL1993317W
+[book_anderson_2012_introduction_flight]: https://openlibrary.org/works/OL1993331W
+[book_ashley_landahl_1965]: https://openlibrary.org/works/OL42971075W
+[book_baals_corliss_1981]: https://openlibrary.org/works/OL31504107W
+[book_barlow_rae_pope_1999]: https://openlibrary.org/works/OL1921571W
+[book_bertin_cummings_2013]: https://openlibrary.org/works/OL21437883W
+[book_bevington_robinson_2002]: https://openlibrary.org/works/OL44935135W
+[book_bilstein_1989_orders]: https://openlibrary.org/works/OL18823771W
+[book_bisplinghoff_ashley_halfman_1955]: https://openlibrary.org/works/OL3240762W
+[book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
+[book_brown_1988_wings_on_my_sleeve]: https://openlibrary.org/works/OL8273515W
+[book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
 [book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
-[book_constant_1980]: https://openlibrary.org/search?q=Constant+The+Origins+of+the+Turbojet+Revolution
-[book_cover_thomas_2006]: https://openlibrary.org/search?q=Cover+Thomas+Elements+of+Information+Theory
-[book_etkin_reid_1996]: https://openlibrary.org/search?q=Etkin+Reid+Dynamics+of+Flight+Stability+and+Control
-[book_ferguson_1992]: https://openlibrary.org/search?q=Ferguson+Engineering+and+the+Mind+s+Eye
-[book_fung_1955]: https://openlibrary.org/search?q=Fung+Introduction+to+the+Theory+of+Aeroelasticity
-[book_gelman_et_al_2013]: https://openlibrary.org/search?q=Gelman+Bayesian+Data+Analysis
-[book_gorn_1992_universal_man]: https://openlibrary.org/search?q=Gorn+The+Universal+Man+von+Karman
-[book_gorn_2001_expanding_envelope]: https://openlibrary.org/search?q=Gorn+Expanding+the+Envelope+Flight+Research
-[book_gunston_1992_faster_than_sound]: https://openlibrary.org/search?q=Gunston+Faster+Than+Sound
-[book_hallion_1972_supersonic_flight]: https://openlibrary.org/search?q=Hallion+Supersonic+Flight+Breaking+the+Sound+Barrier
-[book_hallion_1981_on_the_frontier]: https://openlibrary.org/search?q=Hallion+On+the+Frontier+Flight+Research+Dryden
-[book_hallion_1981_test_pilots]: https://openlibrary.org/search?q=Hallion+Test+Pilots+The+Frontiersmen+of+Flight
-[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/search?q=Hansen+Engineer+in+Charge+Langley
-[book_hansen_2004_bird_on_the_wing]: https://openlibrary.org/search?q=Hansen+The+Bird+Is+on+the+Wing+Aerodynamics
-[book_hill_peterson_1991]: https://openlibrary.org/search?q=Hill+Peterson+Mechanics+and+Thermodynamics+of+Propulsion
-[book_hurt_1965]: https://openlibrary.org/search?q=Hurt+Aerodynamics+for+Naval+Aviators
-[book_huzel_huang_1992]: https://openlibrary.org/search?q=Huzel+Huang+Design+of+Liquid+Propellant+Rocket+Engines
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X-Vehicles+Inventory
-[book_kimberlin_2003]: https://openlibrary.org/search?q=Kimberlin+Flight+Testing+of+Fixed+Wing+Aircraft
-[book_kuchemann_1978]: https://openlibrary.org/search?q=Kuchemann+The+Aerodynamic+Design+of+Aircraft
-[book_kuethe_chow_1998]: https://openlibrary.org/search?q=Kuethe+Chow+Foundations+of+Aerodynamics
-[book_liepmann_roshko_1957]: https://openlibrary.org/search?q=Liepmann+Roshko+Elements+of+Gasdynamics
-[book_mcruer_ashkenas_graham_1973]: https://openlibrary.org/search?q=McRuer+Ashkenas+Graham+Aircraft+Dynamics+and+Automatic+Control
-[book_megson_2016]: https://openlibrary.org/search?q=Megson+Aircraft+Structures+for+Engineering+Students
-[book_miller_2001_x_planes]: https://openlibrary.org/search?q=Jay+Miller+The+X-Planes+X-1+to+X-45
-[book_nelson_1998]: https://openlibrary.org/search?q=Nelson+Flight+Stability+and+Automatic+Control
-[book_nicolai_carichner_2010]: https://openlibrary.org/search?q=Nicolai+Carichner+Fundamentals+of+Aircraft+and+Airship+Design
-[book_niu_1988_airframe]: https://openlibrary.org/search?q=Niu+Airframe+Structural+Design
-[book_peebles_2014_probing_the_sky]: https://openlibrary.org/search?q=Peebles+Probing+the+Sky+NACA+Research+Airplanes
-[book_perrow_1984]: https://openlibrary.org/search?q=Perrow+Normal+Accidents
-[book_petroski_1985]: https://openlibrary.org/search?q=Petroski+To+Engineer+Is+Human
-[book_pisano_et_al_2006]: https://openlibrary.org/search?q=Pisano+Chuck+Yeager+and+the+Bell+X-1
-[book_pope_goin_1965]: https://openlibrary.org/search?q=Pope+Goin+High+Speed+Wind+Tunnel+Testing
-[book_raymer_2018]: https://openlibrary.org/search?q=Raymer+Aircraft+Design+A+Conceptual+Approach
-[book_roskam_1985]: https://openlibrary.org/search?q=Roskam+Airplane+Design
+[book_constant_1980]: https://openlibrary.org/works/OL6325070W
+[book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
+[book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
+[book_ferguson_1992]: https://openlibrary.org/works/OL4119982W
+[book_fung_1955]: https://openlibrary.org/works/OL2655267W
+[book_gelman_et_al_2013]: https://openlibrary.org/works/OL12630389W
+[book_gorn_1992_universal_man]: https://openlibrary.org/works/OL4400575W
+[book_gorn_2001_expanding_envelope]: https://openlibrary.org/works/OL4400572W
+[book_gunston_1992_faster_than_sound]: https://openlibrary.org/works/OL774338W
+[book_hallion_1972_supersonic_flight]: https://openlibrary.org/works/OL2688456W
+[book_hallion_1981_on_the_frontier]: https://openlibrary.org/works/OL2688458W
+[book_hallion_1981_test_pilots]: https://openlibrary.org/works/OL2688457W
+[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/works/OL37594565W
+[book_hansen_2004_bird_on_the_wing]: https://openlibrary.org/works/OL3492401W
+[book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
+[book_hurt_1965]: https://openlibrary.org/works/OL4297319W
+[book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_kimberlin_2003]: https://openlibrary.org/works/OL8874080W
+[book_kuchemann_1978]: https://openlibrary.org/works/OL22640504W
+[book_kuethe_chow_1998]: https://openlibrary.org/works/OL2661785W
+[book_liepmann_roshko_1957]: https://openlibrary.org/works/OL13214987W
+[book_mcruer_ashkenas_graham_1973]: https://openlibrary.org/works/OL13424815W
+[book_megson_2016]: https://openlibrary.org/works/OL4809615W
+[book_miller_2001_x_planes]: https://openlibrary.org/works/OL7006680W
+[book_nelson_1998]: https://openlibrary.org/works/OL11288560W
+[book_nicolai_carichner_2010]: https://openlibrary.org/works/OL15909375W
+[book_niu_1988_airframe]: https://openlibrary.org/works/OL19561185W
+[book_peebles_2014_probing_the_sky]: https://openlibrary.org/works/OL23215820W
+[book_perrow_1984]: https://openlibrary.org/works/OL4468929W
+[book_petroski_1985]: https://openlibrary.org/works/OL112186W
+[book_pisano_et_al_2006]: https://openlibrary.org/works/OL4301215W
+[book_pope_goin_1965]: https://openlibrary.org/works/OL3791131W
+[book_raymer_2018]: https://openlibrary.org/works/OL17855977W
+[book_roskam_1985]: https://openlibrary.org/works/OL6612019W
 [book_rotundo_1994_into_the_unknown]: https://openlibrary.org/search?q=Rotundo+Into+the+Unknown+The+X-1+Story
-[book_schlichting_gersten_2017]: https://openlibrary.org/search?q=Schlichting+Gersten+Boundary+Layer+Theory
-[book_shapiro_1953]: https://openlibrary.org/search?q=Shapiro+Dynamics+and+Thermodynamics+of+Compressible+Fluid+Flow
-[book_stengel_2004]: https://openlibrary.org/search?q=Stengel+Flight+Dynamics
-[book_stinton_2001]: https://openlibrary.org/search?q=Stinton+The+Design+of+the+Aeroplane
-[book_sutton_biblarz_2016]: https://openlibrary.org/search?q=Sutton+Biblarz+Rocket+Propulsion+Elements
-[book_taylor_1997_error_analysis]: https://openlibrary.org/search?q=Taylor+An+Introduction+to+Error+Analysis
-[book_torenbeek_1982]: https://openlibrary.org/search?q=Torenbeek+Synthesis+of+Subsonic+Airplane+Design
-[book_vaughan_1996]: https://openlibrary.org/search?q=Vaughan+The+Challenger+Launch+Decision
-[book_vincenti_1990]: https://openlibrary.org/search?q=Vincenti+What+Engineers+Know+and+How+They+Know+It
-[book_von_karman_edson_1967]: https://openlibrary.org/search?q=von+Karman+The+Wind+and+Beyond
-[book_ward_strganac_niewoehner_2006]: https://openlibrary.org/search?q=Ward+Strganac+Introduction+to+Flight+Test+Engineering
-[book_white_2006_viscous]: https://openlibrary.org/search?q=Frank+White+Viscous+Fluid+Flow
-[book_whitford_1987]: https://openlibrary.org/search?q=Whitford+Design+for+Air+Combat
+[book_schlichting_gersten_2017]: https://openlibrary.org/works/OL20524688W
+[book_shapiro_1953]: https://openlibrary.org/works/OL5908243W
+[book_stengel_2004]: https://openlibrary.org/works/OL3486012W
+[book_stinton_2001]: https://openlibrary.org/works/OL1911152W
+[book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
+[book_taylor_1997_error_analysis]: https://openlibrary.org/works/OL3232610W
+[book_torenbeek_1982]: https://openlibrary.org/works/OL9096469W
+[book_vaughan_1996]: https://openlibrary.org/works/OL2962391W
+[book_vincenti_1990]: https://openlibrary.org/works/OL4805206W
+[book_von_karman_edson_1967]: https://openlibrary.org/works/OL7117470W
+[book_ward_strganac_niewoehner_2006]: https://openlibrary.org/works/OL19810630W
+[book_white_2006_viscous]: https://openlibrary.org/works/OL1911849W
+[book_whitford_1987]: https://openlibrary.org/works/OL5054670W
 [book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
-[book_wolfe_1979_right_stuff]: https://openlibrary.org/search?q=Tom+Wolfe+The+Right+Stuff
-[book_wood_1975_project_cancelled]: https://openlibrary.org/search?q=Derek+Wood+Project+Cancelled
-[book_yeager_janos_1985]: https://openlibrary.org/search?q=Yeager+An+Autobiography
+[book_wolfe_1979_right_stuff]: https://openlibrary.org/works/OL1925474W
+[book_wood_1975_project_cancelled]: https://openlibrary.org/works/OL4333017W
+[book_yeager_janos_1985]: https://openlibrary.org/works/OL4628050W
 [ref_accelerometer]: https://en.wikipedia.org/wiki/Accelerometer
 [ref_aerodynamic_center]: https://en.wikipedia.org/wiki/Aerodynamic_center
 [ref_aeroelasticity]: https://en.wikipedia.org/wiki/Aeroelasticity

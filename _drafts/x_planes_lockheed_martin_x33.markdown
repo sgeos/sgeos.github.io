@@ -501,20 +501,15 @@ per unit mass.
 **And the aluminium-lithium tank that was built to replace the composite one after the failure is reported to have weighed less.**
 Whatever the shape and the manufacture cost, they cost more than a factor of two.
 
-- [Pathfinder Atomic Power Plant Conceptual Design Study of Crbr...][research_michel_1950]
 - [Thermal Stress in the Ishr Pressure Vessel][research_spiewak_1952]
-- [Heating and Thermal Stress in Hrt Pressure Vessel During a...][research_wood_1954]
-- [The Effect of Gamma Heating on the APPR-1 Pressure...][research_kroeger_1956]
 - [Photoelastic Study of Stress in Perforated Hemispherical...][research_sampson_leven_1957]
 - [Pressure Vessel Fabrication Using T-1 Steel][research_francoferreira_1957]
-- [Steady-state Pressure and Thermal Stresses in the Hrt...][research_cheverton_volk_1958]
 - [Reflector and Pressure Vessel Cooling and Thermal Stress...][research_love_caton_1959]
 - [A Pressure Vessel Test Program for the Evaluation of Rocket...][research_haynes_valdez_1960]
 - [Design of Thin-walled Torispherical and Toriconical Pressure...][research_shield_drucker_1960]
 - [The Effect of Extraneous Branch Pipe Loads on the...][research_hardenbergh_edmonson_1960]
 - [Photoelastic study KIWI-B pressure vessel nozzle end][research_smith_1961]
 - [An Ibm 7090 Fortran Program for ASME Unfired Pressure Vessel...][research_prince_milford_1962]
-- [Preliminary Design of the Hfir Core and Pressure Vessel...][research_mcwhorter_1962]
 - [Regular Prepreg, Wide Band Prepreg and Ordinary Wet Wound...][research_outwater_seibert_1962]
 - [Membrane Analysis of Filament Wound Structures][research_hartung_1963]
 - [Nonlinear pressure vessel stress analysis using the optimum...][research_hwang_1963]
@@ -782,7 +777,6 @@ neighbouring literature on producibility, tolerance and the scale-up of large co
 since [the agency's retrospective review][ref_cryotank_review] records that the manufacturing process
 revealed complexities in the scale-up of large composite structures that had not been understood before.
 
-- [Effects of Composite Laminate Lay-Up Configuration of a...][research_fagan_aberman_1994]
 - [Manufacturing Tolerance Incorporated in Minimum Weight Design...][research_gutkowski_bauer_1999]
 - [Manufacturing Process Simulation of Large-Scale Cryotanks][research_babaimajid_phillipssteven_2002]
 - [Manufacturing Process Simulation of Large-Scale Cryotanks][research_babaimajid_phillipssteven_2003]
@@ -836,7 +830,6 @@ revealed complexities in the scale-up of large composite structures that had not
 - [Rapid Prototyping of Wind Tunnel Blade Geometry for Composite...][research_halbritter_harik_2019]
 - [Two-level layup optimization of composite laminate using...][research_liu_featherston_2019]
 - [Anisogrid thermoplastic composite lattice structure by...][research_santoro_bellisario_2020]
-- [Correction Influence of Automated Fiber Placement AFP...][research_nguyen_davidson_2020_b]
 - [Effect of tow gaps on impact strength of thin composite...][research_ghayour_hojjati_2020]
 - [Flexural response of composite beams made by Automated Fiber...][research_ghayour_ganesan_2020]
 - [Geometrical modeling of tow wrinkles in automated fiber...][research_wehbe_tatting_2020]
@@ -849,7 +842,6 @@ revealed complexities in the scale-up of large composite structures that had not
 - [Residual deformation analysis in composite shell structures...][research_jamora_wu_2020]
 - [Study of integral hat-stiffened composite structures...][research_zhao_wang_2020]
 - [A Digital Twin for Automated Layup of Prepreg Composite Sheets][research_chen_joseph_2021]
-- [Application analysis of measurement technology in machinery...][research_guoming_2021]
 - [Automated fiber placement path generation method based on...][research_qu_gao_2021]
 - [Bulk factor characterization of heated debulked autoclave and...][research_liu_hubert_2021]
 - [Computer Aided Process Planning for Automated Fiber Placement][research_joshua_ramy_2021]
@@ -927,7 +919,6 @@ revealed complexities in the scale-up of large composite structures that had not
 - [Mechanical characterization at room and cryogenic temperature...][research_merzkirch_marklund_2025]
 - [Ply Surface Modeling and Path Planning for Automated Fiber...][research_yang_xiao_2025]
 - [Simulation and Stress Modeling of Tow-steered Thermoset...][research_enos_raje_2025]
-- [Correction Towpreg-wise Modeling for Composite Laminates...][research_prince_zhao_2026_b]
 - [Development of compaction rollers for improved pressure...][research_yas_hojjati_2026]
 - [Expanding Automated Fiber Placement Beyond Aerospace...][research_harik_2026]
 - [Multiphysics mechanism analysis and prediction of wrinkle...][research_lv_wang_2026]
@@ -1004,11 +995,8 @@ and belong to the sandwich structures literature rather than to this article.
 - [Quartz Lamp Radiant Heat Brazing of Large Refractory Metal...][research_hugill_gaiennie_1963]
 - [Tests of Ring-stiffened and Sandwich Composite Cylinders...][research_krenzke_kiernan_1963]
 - [569. Thin oxide film sandwich structure photo cell][research_569_thin_1964]
-- [896. Thin oxide film sandwich structure photocell][research_896_thin_1964]
 - [An analytical model for predicting thermal response in...][research_gonzalez_1964]
 - [Research in the Field of Fiberglassreinforced Sandwich...][research_nordby_noyes_1964]
-- [Thin oxide film sandwich structure photocell][research_thin_oxide_1964_b]
-- [Thin oxide films sandwich structure photocell][research_thin_oxide_1964]
 - [Strength Properties and Relationships Associated with Various...][research_nordby_crisman_1965]
 - [General instability and face wrinkling of sandwich plates...][research_benson_mayers_1966]
 
@@ -1158,7 +1146,7 @@ The tanks together weigh 9,200 pounds against a burnout mass of 75,000, so
 
 $$\frac{9{,}200}{75{,}000} = 0.1227$$
 
-**One subsystem holding one seventh of the propellant by mass accounts for 12.27 percent of everything the vehicle has left at burnout.**
+**One subsystem holding 15.4 percent of the propellant by mass accounts for 12.27 percent of everything the vehicle has left at burnout.**
 
 - [Liquid crystal polymer cryogenic storage tank with reduced...][research_guiles_1995]
 - [Measurement of Transient Discharge Mass Flow Rate From a...][research_akyuzlu_arves_1995]
@@ -1244,7 +1232,6 @@ properties, so the remedy is not a process change. It is a different resin syste
 design that tolerates a cracked laminate.
 
 - [Permeability of various polymers to 90% hydrogen peroxide][research_dietrick_meeks_1959]
-- [L41012 Effect of Methyltrichlorosilane on Permeability of...][research_schmidt_walker_1960]
 - [Basic Research in Thermionics. Part I. Cesium Permeation...][research_chapman_peterman_1963]
 - [Purification of Organic Compounds by Membrane Permeation][research_eisenmann_1963]
 - [Gas permeability apparatus for films and sheets][research_huldy_1964]
@@ -1254,7 +1241,6 @@ design that tolerates a cracked laminate.
 - [Isobaric measurement of gas permeability of polymers][research_yasuda_rosengren_1970]
 - [Vapor and gas permeability of asymmetric membranes][research_peterlin_1971]
 - [Mass-spectrometric method for investigating gas permeability...][research_ivaschenko_krotov_1972]
-- [Permeability and solubility of gases for FFTF/CRBRP...][research_darnell_1974]
 - [Electron microscopic observations of microcracking about...][research_hockey_lawn_1975]
 - [Hydrogen permeability of plasma-sprayed composite...][research_parkheta_zilberberg_1976]
 - [The Effect of Microcracking in Martensite on the Deformation...][research_krauss_1977]
@@ -1509,7 +1495,6 @@ Sweeping the one assumed quantity confirms that the conclusion does not rest on 
 - [Supersonic Nozzle Design][research_crown_1950]
 - [Chemical Kinetics and Rocket Nozzle Design][research_krieger_1951]
 - [An Analysis of the Gas Flow from a Very High Pressure Nozzle][research_kelber_jarvis_1952]
-- [The Effect of Circulating Media and Nozzle Design on Rock Bit...][research_payne_1952]
 - [On the Performance Efficiencies of Multi-Nozzle Steam...][research_matsunaga_1953]
 - [Some Experiments on Flow Separation in Rocket Nozzles][research_scheller_bierlein_1953]
 - [Wind Tunnel Investigations of Transonic Test Sections. Phase...][research_chew_1953]
@@ -1533,7 +1518,6 @@ The Where the Framing Breaks Down section returns to the tension between the ope
 fraction requirement, which pull in opposite directions more often than the programme's own statements
 acknowledge.
 
-- [Thermal Protection Capacity of Aviator's Textiles][research_stoll_1961]
 - [Thermal Protection for Spacecraft Entering at Escape Velocity][research_brooks_swann_1962]
 - [Cork thermal protection design data for aerospace vehicle...][research_hovey_1964]
 - [Reentry Heating and Thermal Protection of a Mars-mission...][research_chin_hearne_1964]
@@ -1604,7 +1588,6 @@ the requirement that the guidance and control system be right the first time.
 - [Automatic Navigation of a Long Range Rocket Vehicle][research_tsien_adamson_1952]
 - [A New Approach to Steepest-ascent Trajectory Optimization][research_stancil_1963]
 - [A new approach to steepest-ascent trajectory optimization][research_stancil_1964]
-- [Advanced Land Navigation Development and Evaluation of a...][research_powers_1964]
 - [Optimization of thrust direction histories and vehicle...][research_battle_gottlieb_1964]
 - [Optimization of thrust direction histories and vehicle...][research_battle_gottlieb_1966]
 - [Ascent trajectory of a superpressure balloon][research_french_1967]
@@ -1668,7 +1651,6 @@ an internal problem for an external one.
 - [Hydrogen embrittlement of a commercial alpha-beta titanium...][research_hydrogen_embrittlement_1956]
 - [A Study of the Mechanism of the Action of Inhibitors Which...][research_dauerman_1960]
 - [Synthesis of Compounds of Value in Studying the Mechanism of...][research_denney_rosen_1960]
-- [Effect of Controlled Weld Defects on the Ballistic...][research_kasen_1961]
 - [Strain-induced diffusion and precipitation in...][research_marshall_1961]
 - [Contrl of zinc electrodeposition to decrease hydrogen...][research_dingley_bednar_1963]
 - [Effects of Weld Pool Agitation on Weld Properties and...][research_buginas_1963]
@@ -1680,7 +1662,6 @@ an internal problem for an external one.
 - [A study of hydrogen embrittlement of various alloys Annual...][research_elseaar_fletcheree_1967]
 
 - [Aluminum Alloy Pistons][research_gruenewald_1915]
-- [Aluminum Alloy Armor][research_navalprovinggrounddahlgrenva_1945]
 - [SANDWICH MATERIALS Metal Faces Stabilized by Honeycomb Cores][research_troxell_engel_1947]
 - [Atmospheric corrosion of aluminum jacketed 10% lithium...][research_fazia_1951_b]
 - [Discussion-meeting - Normal hydrogen analysis and tritium...][research_fazia_1951_c]
@@ -1778,7 +1759,6 @@ between the earlier unfuelled mass of 63,000 pounds and the later gross-minus-pr
 - [Integrated operations/payloads/fleet analysis. Volume 3...][research_integrated_operations_payloads_fleet_1971_b]
 - [Integrated operations/payloads/fleet analysis. Volume 5...][research_integrated_operations_payloads_fleet_1971]
 - [Integrated operations/payloads/fleet analysis executive...][research_integrated_operations_payloads_fleet_1972]
-- [Cost analysis of inland water transportation systems for...][research_cost_analysis_1977]
 - [Uncertainties in airport cost analysis and their effect on...][research_uncertainties_in_1977]
 - [On Space Warfare Military Strategy for Space Operations][research_chisholm_1984]
 - [An adhesively sealed, composite skinned wing fuel tank][research_logan_1985]
@@ -2154,7 +2134,6 @@ at scales larger than anything the X-33 attempted.
 - [Axisymmetric Two-Dimensional Modeling of No Vent Filling of a...][research_majumdar_leclair_2023]
 - [CFD Model Development of a Cryogenic Storage Tank...][research_kartuzova_kassemi_2023_b]
 - [CFD simulation of heat transfer and phase change...][research_jiang_yu_2023]
-- [Correction Validation of Cryogenic Propellant Tank...][research_yang_patel_2023_b]
 - [Crashworthiness Study of a Newly Developed Civil Aircraft...][research_rayhan_pu_2023]
 - [Design optimization of multi-functional multi-lobe cryogenic...][research_rodriguezsegade_steelant_2023]
 - [Experiment on transient thermodynamic behavior of a cryogenic...][research_yang_jiang_2023]
@@ -2169,7 +2148,6 @@ at scales larger than anything the X-33 attempted.
 - [Validation of Cryogenic Propellant Tank Self-Pressurization][research_yang_patel_2023]
 - [A Novel Approach to Linerless Composite Tank Design][research_yoon_yi_2024]
 - [A Review The Effect of Laminate Parameters on the Performance...][research_wu_chen_2024]
-- [Correction Design and Integration of a Liquid Hydrogen Tank...][research_parello_defoort_2024_b]
 - [Determination of Operating Parameters of a Cryogenic Tank for...][research_protozanov_shestakov_2024]
 - [Design and Integration of a Liquid Hydrogen Tank on an...][research_parello_defoort_2024]
 - [Design and analysis of hydrogen storage pressure vessel using...][research_kamble_raykar_2024]
@@ -2204,7 +2182,6 @@ at scales larger than anything the X-33 attempted.
 - [Conceptual Co-Design of Cryogenic Storage and Ballast Systems...][research_antonakis_glenis_2025]
 - [Cryogenic tank configuration and capacity of centrifugal...][research_kazantsev_fateeva_2025]
 - [Current progress, challenges, and future prospects in...][research_mukwanje_faik_2025]
-- [Long-term thermo-mechanical response of surrounding rock in...][research_lu_wu_2025]
 - [Modeling Self-Pressurization and Spray Bar Pressure Control...][research_soriano_kartuzova_2025]
 - [Multi-objective optimization for a composite pressure vessel...][research_rozova_meemary_2025]
 - [Non-Equilibrium Liquid Hydrogen Tank Modeling When Thermal...][research_wang_jordan_2025]
@@ -2265,7 +2242,6 @@ at scales larger than anything the X-33 attempted.
 - [Mechanical behaviour of hybrid FFRP/aluminium honeycomb...][research_rizzo_epasto_2023]
 - [On influence of face sheet distributions on low-velocity...][research_qin_chen_2023]
 - [Blast-Induced Failure Analysis of Liquid Ammonia Storage Tank][research_slovenec_wood_2024]
-- [Correction The impact of micro- and mesoscale spatial...][research_vanbavel_vandepitte_2024_b]
 - [Failure analysis of titanium honeycomb sandwich structures...][research_wu_wang_2024]
 - [The impact of micro- and mesoscale spatial variability on...][research_vanbavel_vandepitte_2024]
 - [A Failure Criteria for Honeycomb Core Under Multiaxial Loading][research_ocallaghan_roberson_2026]
@@ -2287,8 +2263,6 @@ microcracking.
 - [Deuterium permeation of Al2O3/Cr2O3 composite film on 316L...][research_he_lei_2015]
 - [Hydrogen Permeation of Pipeline Steel under Sour Condensate...][research_liu_zhang_2015]
 - [Influence of AC on Hydrogen Permeation at Steel under...][research_schmitt_schoeneich_2015]
-- [Low-Volatility Agent Permeation LVAP Verification and...][research_donofrio_davies_2015]
-- [Physics-Based Modeling of Permeation Simulation of...][research_mantooth_donofrio_2015]
 - [Deuterium permeation properties of Y2O3/Cr2O3 composite...][research_wu_he_2016]
 - [Effect of Cr2O3 layer on the deuterium permeation properties...][research_wu_jiang_2016]
 - [Hydrogen Permeation through Porous Stainless Steel for...][research_s_2016]
@@ -2306,9 +2280,7 @@ microcracking.
 - [Distributed microcracking process of WC/Co cermet under...][research_postek_sadowski_2018]
 - [Effect of Pd overlayer and mixed gases on hydrogen permeation...][research_yan_huang_2018]
 - [Hydrogen permeation properties of CrxCy@Cr2O3/Al2O3 composite...][research_wang_lu_2018]
-- [Novel composite films based on cellulose reinforced with...][research_cazon_vazquez_2018]
 - [An integrated macro/micro-scale approach for in situ...][research_ren_zhang_2019]
-- [Calculation Model of Hydrogen Permeation in Copper Cooling...][research_guo_li_2019]
 - [Effect of Phenolic Matrix Microcracking on the Structural...][research_langston_peterson_2019]
 - [Matrix and interface microcracking in carbon fiber/polymer...][research_xu_varna_2019]
 - [Use of laser spot thermography for the non-destructive...][research_archer_beauchene_2019]
@@ -2336,7 +2308,6 @@ microcracking.
 - [Hydrogen Permeation Behavior of the Liner of Type IV Hydrogen...][research_qi_shi_2024]
 - [Hydrogen Permeation Setup for Coated TZM Substrates][research_cheu_shivprasad_2024]
 - [Hydrogen permeability testing of fibre reinforced...][research_just_will_2024]
-- [Measuring Hydrogen Permeability of Salt Rock for Applications...][research_yuan_najafimarghmaleki_2024]
 - [Microcracking resistance of 3D printed fibre composites at...][research_huang_chang_2024]
 - [Optimizing hydrogen permeation properties of WS2-Ni composite...][research_zhou_dai_2024]
 - [Research on fence protection for liquid hydrogen leakage in...][research_jiang_xing_2024]
@@ -2428,9 +2399,6 @@ including detection methods the programme did not have.
 - [Dynamic characteristics of sandwich composite with debonding][research_idriss_elmahi_2018]
 - [Implementation of Fiber Optic Sensing System on Sandwich...][research_pena_richards_2018]
 - [Linear and Nonlinear Dynamic Analyses of Sandwich Panels with...][research_burlayenko_sadowski_2018]
-- [Polypropylene and polyvinyl chloride sandwich structure for...][research_odabasi_saygili_2018]
-- [Retracted Design of Buckling-Critical Large-Scale Sandwich...][research_przekop_schultz_2018]
-- [Retraction Design of Buckling-Critical Large-Scale Sandwich...][research_przekop_schultz_2018_b]
 - [Test and Analysis of a Buckling-Critical Large-Scale Sandwich...][research_schultz_sleight_2018]
 - [Ultrasonic Lamb wave‐based debonding monitoring of advanced...][research_sikdar_ostachowicz_2018]
 - [A Model for the Equilibrated Co-Cure of Honeycomb Core...][research_kermani_simacek_2019]
@@ -2483,8 +2451,6 @@ including detection methods the programme did not have.
 - [Fusion Bonding of Thermoplastic Mono-material Sandwich...][research_weber_voelkle_2023]
 - [Hot-Zone Design of Carbon/Carbon-Metal Sandwich Structure...][research_huang_zhang_2023]
 - [Investigation of SPH Modelling Technique for Nomex Honeycomb...][research_sancaktar_2023]
-- [Lightweight Protective Sandwich Structure with UHPC Core][research_hala_kheml_2023]
-- [Analysis of Lithium Niobate Xbar Resonator with Sandwich...][research_liu_yang_2024]
 - [Analysis of torsional buckling of a cylindrical sandwich...][research_kashipazha_kheirikhah_2024]
 - [Double-side debonding detection of honeycomb sandwich...][research_zong_liu_2024]
 - [Fluid-based honeycomb sandwich panel core structure for blast...][research_alahmed_hassan_2024]
@@ -2529,8 +2495,8 @@ replace an empirical lower bound with analysis that uses measured or modelled im
 factor the structure has actually earned.
 
 **What that conservatism is worth on this vehicle depends entirely on whether the wall is a sandwich, and the difference between the two answers is a factor of 38.1.**
-Moving the knockdown from 0.2 to 0.5 takes the buckling-equivalent thickness from 3.657 millimetres to
-2.313. On the composite sandwich, where bending stiffness is bought with core separation rather than with
+Moving the knockdown from 0.2 to 0.5 takes the buckling-equivalent thickness from 3.656 millimetres to
+2.312. On the composite sandwich, where bending stiffness is bought with core separation rather than with
 material, the core needed for stiffness parity falls from 2.99 millimetres to 1.51 and the saving across
 both tanks is
 
@@ -2568,7 +2534,6 @@ existed.
 - [Creep buckling of shell structures][research_miyazaki_hagihara_2015]
 - [Imperfection sensitivity analysis of laminated folded plates][research_barbero_madeo_2015]
 - [Imperfection sensitivity and geometric effects in stiffened...][research_wadee_farsi_2015]
-- [Investigation of the Behaviour of the Lateral Buckling...][research_teigen_ibrahim_2015]
 - [Mechanical buckling of curvilinear fibre composite laminate...][research_venkatachari_natarajan_2015]
 - [Nonlinear elastic buckling and postbuckling analysis of...][research_zhou_stanciulescu_2015]
 - [Nonlocal scale effects on buckling, vibration and wave...][research_bahrami_teimourian_2015]
@@ -2591,11 +2556,8 @@ existed.
 - [Constant single-buckle imperfection principle to determine a...][research_wagner_huhne_2016]
 - [Creep Buckling and Post Buckling Behaviors of Stainless Steel...][research_jo_okamoto_2016]
 - [Effects of variable thickness and imperfection on nonlinear...][research_thang_duc_2016]
-- [Elastic buckling and load resistance of a single cross-arm...][research_guo_fu_2016]
 - [Experimental Test of Compressive Strength after Impact Damage...][research_park_2016]
 - [Finite Element Buckling Analysis of Composite Cylindrical...][research_gangadhar_kumar_2016]
-- [Gasoline Engine Connecting Rod Buckling Load and Post...][research_yadav_karthikeyan_2016]
-- [HP/HT Flowline Lateral Buckling and Walking Design for 40...][research_sicilia_khalkho_2016]
 - [Helical buckling and postbuckling of pre-stressed cylindrical...][research_rodriguez_merodio_2016]
 - [Imperfection sensitivity of pressured buckling of biopolymer...][research_zhang_ru_2016]
 - [Mixed shell element for static and buckling analysis of...][research_zucco_groh_2016]
@@ -2620,9 +2582,7 @@ existed.
 - [Free-form reticulated shell structures searched for maximum...][research_takiuchi_kato_2017]
 - [Imperfection sensitivity of thermal post-buckling behaviour...][research_wu_kitipornchai_2017]
 - [Large-deflection and post-buckling analyses of laminated...][research_pagani_carrera_2017]
-- [Lateral buckling and post-buckling response based on a...][research_zhang_an_2017]
 - [Nonlinear Buckling Analysis of Cylindrical Shell With Normal...][research_shi_wang_2017]
-- [Numerical study on lateral buckling of pipelines with...][research_wang_chen_2017]
 - [On Vibration and Buckling Behaviors of Statically...][research_suzuki_2017]
 - [Optimal design of hierarchical grid-stiffened cylindrical...][research_zhao_chen_2017]
 - [Reduced-order modeling analysis of shell structures buckling...][research_liang_sun_2017]
@@ -2648,7 +2608,6 @@ existed.
 - [Effect of load eccentricity on the buckling of thin-walled...][research_wysmulski_teter_2018]
 - [Finite Element Based Buckling Cross-Sectional Optimization...][research_srinivas_dancila_2018]
 - [Imperfection sensitivity analysis of steel columns at...][research_kala_vales_2018]
-- [Lateral global buckling high-order mode analysis of a...][research_liu_wang_2018]
 - [Optimum Buckling Design of Cylindrical Stiffener Shell Under...][research_alkalali_2018]
 - [On Establishing Buckling Knockdowns for...][research_gerasimidis_virot_2018]
 - [On the Development of Shell Buckling Knockdown Factors for...][research_hilburger_2018]
@@ -2663,13 +2622,11 @@ existed.
 - [Buckling analysis of an imperfection-insensitive hybrid...][research_wagner_petersen_2019]
 - [Buckling analysis of sandwich orthotropic cylindrical shells...][research_ahmadi_pashaei_2019]
 - [Buckling and free vibration analysis of high speed rotating...][research_safarpour_ghanbari_2019]
-- [Buckling load of an infinitely long cylindrical shell...][research_kosytsyn_akulich_2019]
 - [Computation of worst geometric imperfection profiles of...][research_dey_ramachandra_2019]
 - [Critical buckling load prediction of axially compressed...][research_fan_2019]
 - [Decision tree-based machine learning to optimize the laminate...][research_wagner_koke_2019]
 - [Design and Buckling Analysis of a Multi-Shell Blended Wing...][research_muley_2019]
 - [Dynamic Buckling of a Cylindrical Shell with a General...][research_dynamic_buckling_2019]
-- [Effect of Seabed Imperfection on the Buckling of Buried...][research_sureshkumar_sunny_2019]
 - [Efficient post-buckling analysis of variable-stiffness plates...][research_vescovini_spigarolo_2019]
 - [Elastic buckling of cylindrical shell under pressure load...][research_yamamoto_yamada_2019]
 - [Elastic-Plastic Buckling Analysis of Spherical Latticed Shell...][research_tang_shi_2019]
@@ -2690,7 +2647,6 @@ existed.
 - [Spatial chaos as a governing factor for imperfection...][research_groh_pirrera_2019]
 - [Study on Buckling Strength Reduction Factor for Vertical...][research_takahashi_kataoka_2019]
 - [Thermomechanical Coupling Damage and Analysis of Buckling...][research_xing_guo_2019]
-- [Train-Induced Load Effects on the Thermal Track Buckling][research_pucillo_2019]
 - [An Overview of Buckling and Imperfection of Cone-Cylinder...][research_ifayefunmi_ismail_2020]
 - [An efficient approach for prediction of the nonlocal critical...][research_timesli_2020]
 - [Boundary Collocation Methodology for Buckling of Composite...][research_russell_2020]
@@ -2704,7 +2660,6 @@ existed.
 - [Dynamic buckling analysis of bi-directional functionally...][research_allahkarami_ghassabzadehsaryazdi_2020]
 - [Elastic local shell and stiffener-tripping buckling strength...][research_shiomitsu_yanagihara_2020_b]
 - [Elasto-Visco-Plastic Buckling of Thick Anisotropic Shells...][research_jacquet_tardif_2020]
-- [Evaluation of Load Factor to Be Applied in Buckling Design of...][research_kato_niho_2020]
 - [Experimental and Numerical Investigation of Large Scale...][research_zhang_tan_2020]
 - [Experimental and numerical buckling analysis of toroidal...][research_zhang_wang_2020]
 - [Higher‐mode buckling and friction in long and large‐scale...][research_sitler_takeuchi_2020]
@@ -2715,17 +2670,13 @@ existed.
 - [Modal analysis and imperfection sensitivity of the...][research_martins_silvestre_2020]
 - [Modeling of elastoplastic buckling of a cylindrical shell...][research_bazhenov_nagornykh_2020]
 - [Modeling the buckling characteristics of the metal-FRP hybrid...][research_vamsikrishna_narayanamurthy_2020]
-- [Multi-body rope approach for grid shells Form-finding and...][research_manuello_2020]
 - [Non-linear bending compliance of thin ply composite beams by...][research_schadt_rueppel_2020]
 - [Nonlinear analysis of buckling and postbuckling of...][research_thinh_bich_2020]
-- [Nonlinear stability analysis of steel cooling towers...][research_wu_zhu_2020]
-- [Numerical study on upheaval buckling for surface laid subsea...][research_chen_yang_2020]
 - [On the Classical Buckling Load of a Toroidal Shell Segment][research_amette_juchukwuchekwa_2020]
 - [Optimization of Dynamic and Buckling Behavior of Thin-Walled...][research_miller_ziemianski_2020]
 - [Perturbation Approach to Dynamic Buckling of a Statically...][research_perturbation_approach_2020]
 - [Ring Buckling Analysis Based on the Toroidal Shell Theory][research_senjanovic_cakmak_2020]
 - [Slender metal web stability analysis Impact of initial...][research_psotny_2020]
-- [Snap behaviour in the upheaval buckling of subsea pipelines...][research_wang_vanderheijden_2020]
 - [Thermo-elastic buckling and post-buckling analysis of...][research_trabelsi_zghal_2020]
 - [Ultimate Strength and Collapse Behavior of Ring-Stiffened...][research_shiomitsu_yanagihara_2020]
 - [A Buckling Analysis and Optimization Method for a Variable...][research_yang_cao_2021]
@@ -2738,13 +2689,11 @@ existed.
 - [Buckling Analysis of Stiffened Plate with Varying Stifenner...][research_maurya_2021]
 - [Buckling Analysis of Torpedo’s Cylindrical Shell][research_sivasankararao_mallikarjunarao_2021]
 - [Buckling Behavior of Nose Cone Type Steel Tanks Including...][research_kilic_2021]
-- [Buckling Load Estimation of Two-way Grid Domes Stiffened by...][research_kato_nakazawa_2021]
 - [Buckling Sensitivity of Three-Layered Annular Plate in...][research_pawlus_2021]
 - [Buckling Test of Composite Cylindrical Shells with Large...][research_takano_kitamura_2021]
 - [Buckling Testing of a Subscale Composite Cylinder][research_rudd_schultz_2021]
 - [Buckling analysis of axially compressed CFRR cylindrical...][research_he_dai_2021]
 - [Buckling analysis of ring stiffened thin cylindrical shell...][research_rathinam_prabu_2021]
-- [Buckling and post-buckling analyses of composite cellular...][research_ferreira_tsavdaridis_2021]
 - [Buckling and strain response of filament winding composite...][research_shen_pan_2021]
 - [Buckling of a Clamped Stiffened Cylindrical Shell][research_nesterchuk_2021]
 - [Buckling of a Toroidal Shell with Varying Wall Thickness...][research_wang_zhang_2021]
@@ -2755,8 +2704,6 @@ existed.
 - [Effect of distributed piezoelectric segments on the buckling...][research_heidari_arefi_2021]
 - [Estimation of ultimate strength of ring-stiffened cylindrical...][research_shiomitsu_yanagihara_2021]
 - [Generation of buckling and wrinkling in elastic films The...][research_zhang_shui_2021]
-- [Imperfection study on lateral thermal buckling of subsea...][research_wang_tang_2021]
-- [Linear Buckling Analysis Considering No-compression Property...][research_yamamoto_utebi_2021]
 - [New method for metal beams sensitive to lateral torsional...][research_aguero_balaz_2021]
 - [Nonlinear stress analysis of shell structures in buckling and...][research_kulikov_bohlooly_2021]
 - [Post-buckling and large-deflection analysis of a sandwich FG...][research_foroutan_carrera_2021]
@@ -2795,15 +2742,12 @@ existed.
 - [Post-buckling analysis of shell-like structures using an...][research_boutagouga_mamouri_2022]
 - [Prediction of buckling capacity of liquid-filled steel...][research_zhang_elansary_2022]
 - [Reliability evaluation of critical local buckling load on the...][research_solazzi_2022]
-- [Reliability of Residual Curvature Method Used in Deepwater...][research_lee_2022]
-- [Revision of EN 1993‐1‐1 Design rules for structural analysis...][research_revision_of_2022]
 - [Sensitivity analysis to geometrical imperfections in shell...][research_magisano_garcea_2022]
 - [Shell buckling simulations of suction buckets with stochastic...][research_bohm_schaumann_2022]
 - [Study on Deriving the Buckling Knockdown Factor of a Common...][research_lee_son_2022]
 - [Thermal stability and buckling analyses of novel encased...][research_zhang_luo_2022]
 - [A novel model for buckling of composite shell Ring stiffened...][research_zhao_wu_2023]
 - [Analytical Solution and Buckling of Hemi-Ellipsoidal Shell...][research_chanto_pulngern_2023]
-- [Analytical Study of Lateral Buckling of Pipelines with...][research_wang_li_2023_b]
 - [Buckling Analysis of Conical Shell Openings with Reinforced...][research_yue_pan_2023]
 - [Buckling Analysis of Filament-Wound Cylindrical Shells...][research_ozaslan_yetgin_2023]
 - [Buckling Analysis of Grid-stiffened Composite Cylindrical...][research_velmurugan_buragohain_2023]
@@ -2821,9 +2765,7 @@ existed.
 - [Determination of local buckling resistance of Fiber-reinfoced...][research_determination_of_2023]
 - [Dynamic Buckling Analysis of the Cylindrical Shell with...][research_gui_xu_2023]
 - [Effect of interaction of gaps on compressive strength of...][research_suemasu_aoki_2023]
-- [Eigenvalue-based approach for buckling analysis of metre...][research_machan_tangwongwan_2023]
 - [Experimental and numerical investigation of large-scale...][research_zhang_tan_2023]
-- [Experimentation to Test Buckling of Hydraulic Cylinder][research_khandekar_tamhankar_2023]
 - [High Buckling Strength of Auxetic Carbon Fiber Composite...][research_tricarico_lin_2023]
 - [Harnessing buckling response to design lattice structures...][research_viswanath_khalil_2023]
 - [Imperfection Sensitivity of Plastic Shear Buckling Behavior...][research_amani_alemrani_2023]
@@ -2867,7 +2809,6 @@ existed.
 - [Nonlinear in-plane buckling of small-curved and large-curved...][research_sahmani_safaei_2024]
 - [Optimal thickness distribution design for blending composite...][research_huynh_lee_2024]
 - [Optimal thickness distribution design for blending hybrid...][research_huynh_lee_2024_b]
-- [Severe Sour Pipeline Lateral Buckling Mitigation Design...][research_shariff_bezensek_2024]
 - [Shape and loading imperfection sensitivity of the...][research_baciu_franzoni_2024]
 - [Stochastic Dynamic Buckling Analysis of Cylindrical Shell...][research_yu_liu_2024_b]
 - [Strength and buckling analysis for cylindrical shell panels...][research_semenov_2024]
@@ -2875,14 +2816,12 @@ existed.
 - [The influence of R/t-ratio on the imperfection sensitivity of...][research_hartwich_panek_2024]
 - [A process modelling approach for the mitigation of in-plane...][research_miris_ravandi_2025]
 - [Application of the RRD Concept from Shell Buckling to Plate...][research_timmers_lang_2025]
-- [Combined Effect of Initial Misalignment and Deviation on the...][research_sahu_sharma_2025]
 - [Dynamic Buckling Analysis of a Cylindrical Shell Pressurized...][research_ozoigbo_chukwuchekwal_2025]
 - [Dynamic buckling behaviour of aluminum alloy thin cylindrical...][research_zhang_zhang_2025]
 - [Elastoplastic lower-bound buckling design method for...][research_jiao_xu_2025]
 - [Explicit dynamics and buckling simulations with 7-p shell...][research_chau_brun_2025]
 - [Fast Buckling Analysis of Stiffened Composite Structures for...][research_stamatelos_labeas_2025]
 - [Finite Element Modeling and Analysis for Creep Buckling of a...][research_chen_wu_2025_b]
-- [Fire performance of steel-concrete composite girders in web...][research_numanovic_knobloch_2025_b]
 - [Friction influence on the Compression-After-Impact test...][research_olivaresferrer_linke_2025]
 - [Interaction of stress distribution and stringer slenderness...][research_poorveis_khajehdezfuly_2025]
 - [Investigating Mesh Sensitivity in Linear and Non-Linear...][research_chatha_ali_2025]
@@ -2894,17 +2833,14 @@ existed.
 - [Revisiting Spherical Shell Knockdown Factors Used for Design...][research_kuscu_singh_2025]
 - [Simplified Approach for Equiv. Geom. Imperfections to...][research_schonfeld_ludwig_2025]
 - [Stepped Column Critical Buckling Load Estimation][research_alseid_2025]
-- [Success Factors and Design Challenges for Subsea Pipelines...][research_hakim_2025]
 - [Sustainable Shell Structures A Bibliometric and Critical...][research_veres_tanase_2025]
 - [Torsional Buckling and Post-Buckling Behavior of Sandwich FG...][research_foroutan_torabi_2025]
 - [Vibration Damping of Thin-Shell Deployable Structures Through...][research_augello_pellegrino_2025]
 - [Vibration and Buckling Analysis of Stiffened Porous...][research_truong_2025]
-- [Web Shear Buckling of Steel-Concrete Composite Girders...][research_numanovic_knobloch_2025]
 - [A novel positive-curvature composite vessel concept for...][research_jaber_jaber_2026]
 - [A novel stability-preserving load regulation for coupled...][research_banh_trinh_2026]
 - [Buckling analysis of a lattice anisogrid cylindrical shell...][research_lopatin_shatov_2026]
 - [Evaluating buckling stability in multiscale design a...][research_liu_lu_2026]
-- [Exact approach for evaluating the buckling load of...][research_kocman_planinc_2026]
 - [Imperfection sensitivity of cylindrical shell under external...][research_evkin_2026]
 - [Isogeometric solid-shell framework for nonlinear buckling...][research_miao_jiao_2026]
 - [Macro-meso-scale fusion modeling based stochastic multi-scale...][research_song_feng_2026]
@@ -2914,7 +2850,6 @@ existed.
 - [Nonlinear Dynamic Response Characterization of hemispherical...][research_dibajian_mohseni_2026]
 - [On the Buckling of a Compressed Elastic Shallow Cylindrical...][research_peshkhoev_2026]
 - [Pre-buckling stress distribution and buckling load prediction...][research_du_groh_2026]
-- [Prediction of bending buckling in subsea lined pipes using...][research_gu_han_2026]
 - [Study of Fabric Draping Induced Non-parallel Discontinuity on...][research_gupta_nimje_2026]
 - [Second order buckling load of underwater composite cylinder][research_zhu_2026]
 - [Simple methods for imperfection sensitivity analysis of...][research_xu_zhang_2026]
@@ -2934,7 +2869,6 @@ existed.
 - [Numerical modeling of stress-strain behavior of composite...][research_moskvichev_2016_b]
 - [Probabilistic Non-Linear Cumulative Fatigue Damage of the...][research_fonsecadeoliveiracorreia_jesus_2016]
 - [The mechanical testing of composite shell material of...][research_moskvichev_2016]
-- [Buckling and Reliability Analysis of Single Layer Grid Dome...][research_kato_iwamoto_2017]
 - [Buckling of Cylindrical Steel Tanks With Oblique Body...][research_rastgar_showkati_2017]
 - [Burst Pressure Prediction and Structure Reliability Analysis...][research_zhang_zhao_2017]
 - [Calculation of Pressure Vessel for Storage of Hydrogen Gas][research_badidova_2017]
@@ -2985,7 +2919,6 @@ existed.
 - [Simulation and burst validation of 70 MPa type IV hydrogen...][research_hu_chen_2021]
 - [Analysis of Damage Causes and Prevention of Pressure Vessel...][research_analysis_of_2022]
 - [Composite Overwrapped Pressure Vessel Design Optimization...][research_regassa_gari_2022]
-- [Damage Mechanism Analysis and Risk Assessment of Pressure...][research_leuvinadrie_2022]
 - [Developing Technologies for Composite Overwrapped Pressure...][research_moore_nelson_2022]
 - [Development of a Pressure Vessel Qualification Methodology...][research_josodipuro_2022]
 - [Fuzzy estimation for transient distribution of internal...][research_wang_mao_2022]
@@ -3136,7 +3069,6 @@ friction stir welding and hydrogen compatibility of metals.
 - [Friction stir welding of fillet joints of aluminum alloys...][research_friction_stir_2022]
 - [Hydrogen Embrittlement Failure of Nickel Alloy UNS N07716-140...][research_alburaiki_alhassan_2022]
 - [Microstructural Thermal Stability of Aluminum Alloy Friction...][research_microstructural_thermal_2022]
-- [Numerical Study of Hydrogen Storage in Lined Rock Cavern and...][research_sun_wu_2022]
 - [Research on friction stir welding technology for aluminum...][research_wang_2022]
 - [Response of Hydrogen Diffusion and Hydrogen Embrittlement to...][research_wang_xu_2022_b]
 - [Corrosion-Induced Hydrogen Entry to Steel and a Risk of...][research_rudomilova_luckeneder_2023]
@@ -3191,7 +3123,6 @@ friction stir welding and hydrogen compatibility of metals.
 - [Prediction of Tribological Properties of Aluminum Welded by...][research_alsammarraie_salamyobaid_2025]
 - [Solid-State Welding of Thin Aluminum Sheets A Case Study of...][research_patsalias_sofias_2025]
 - [Study on Hydrogen Embrittlement Behavior and Mechanism of TC4...][research_dong_miao_2025]
-- [RETRACTED Insights into Hydrogen Embrittlement of Nickel...][research_gangavarapu_makineni_2025]
 - [Deciphering Hydrogen Uptake Behavior and Its Effect on...][research_liu_tong_2026]
 - [Evaluation of Hydrogen Embrittlement Susceptibility in...][research_alexandrov_consuegra_2026]
 - [Hybrid Weld-Bonded Joints A Critical Comparative Review of...][research_krawczuk_2026]
@@ -3239,7 +3170,6 @@ least.
 - [A voyage optimization model of LNG carriers considering...][research_jeong_jeong_2019]
 - [CFD Jet Mixing Model Validation against Zero-Boil-Off Tank...][research_kartuzova_kassemi_2019]
 - [Case Study on Boil-Off Gas BOG Minimization for LNG Bunkering...][research_kim_park_2019]
-- [Correction Thermal Modeling of Zero Boil Off Tank Experiment][research_tesny_hauser_2019]
 - [Electrostatic Testing of Multilayer Insulation for In-Space...][research_vayner_galofaro_2019]
 - [Heat Transfer Behaviors on Combinational Insulation of...][research_chen_jin_2019_b]
 - [Rigid Polyurethane Foams as External Tank Cryogenic...][research_cabulis_yakushin_2019]
@@ -3271,7 +3201,6 @@ least.
 - [Study on the Performance of Variable Density Multilayer...][research_li_chen_2022]
 - [A quasi-2D thermodynamic model for performance analysis and...][research_sun_li_2023]
 - [Boil-Off Rate In LNG Storage Tanks As A Function Of Initial...][research_nerheim_hennum_2023]
-- [Correction Insulation Design for Liquid Cryogenic Hydrogen...][research_shank_thomas_2023_b]
 - [Experimental Study on the Factors Affecting the Insulation...][research_ma_chen_2023_b]
 - [Experimental evidence of enhanced boil-off in isobaric mobile...][research_nitin_sandilya_2023]
 - [Experimental investigation on the discharge and suction gas...][research_yu_xie_2023_b]
@@ -3296,7 +3225,6 @@ least.
 - [Strategies for improving the thermal insulation performance...][research_chen_lv_2024]
 - [Superconducting Self-Shielded and Zero-Boil-Off...][research_tanaka_tsukahara_2024]
 - [The effect of insulation on boil-off gas in liquid air...][research_park_kim_2024]
-- [Two-Phase Flow Distribution in 5 × 5 Rod Bundle During...][research_ueda_arai_2024]
 - [A cryogenic CO2 capture system coupled with boil-off gas...][research_shu_liu_2025]
 - [Analysis of Insulation Materials for Cryogenic Hydrogen...][research_aimanhakiminazri_nurmarianimohdyunos_2025]
 - [Analysis of discharging characteristics of the storage system...][research_yang_zheng_2025_b]
@@ -3388,7 +3316,6 @@ similar enough that the literatures are converging.
 - [Blister Damage Evolution in Plastic Liner of Type IV Hydrogen...][research_shi_peng_2023]
 - [CFD Thermo-Hydraulic Evaluation of a Liquid Hydrogen Storage...][research_jeong_lee_2023]
 - [Conceptual Design Optimization of Liquid-Hydrogen-Fueled...][research_vanlandingham_hall_2023]
-- [Correction Conceptual Design Optimization of...][research_vanlandingham_hall_2023_b]
 - [Design and Assessment of Long Range Aircraft Concepts with...][research_woehler_burschyk_2023]
 - [Design of a Hydrogen Aircraft for Zero Persistent Contrails][research_barton_hall_2023]
 - [Evaluation of Sustainable Transonic Truss-Braced Wing...][research_thomas_agarwal_2023]
@@ -3560,8 +3487,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Aerospike Nozzle Design with Passive Cooling System for...][research_paramo_arizpe_2024]
 - [Aerospike nozzle contour design using Angelino’s method and...][research_silva_brojo_2024]
 - [Assessment of Mission Capabilities of a Reusable Heavy-lift...][research_scarlatella_guadagnini_2024]
-- [Correction Temperature Impact on an Aerospike Nozzle Jet, a...][research_golliard_mihaescu_2024_c]
-- [Correction Thrust Vectoring using Differential Throttling in...][research_marsilio_resta_2024]
 - [Design of Aerospike Nozzles for Rotating Detonation Engines...][research_wilson_piparava_2024]
 - [Development and Numerical validation of an Aerospike nozzle...][research_a_sampathkumar_2024]
 - [Investigation of the Various Taper Angle of the Tip and Angle...][research_bayir_akbiyik_2024]
@@ -3608,7 +3533,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Fuel-rich Combustion Characteristics of Hybrid Rocket Engine][research_lee_lee_2015]
 - [Managing Rocket Engine Complexity A Phenomenological Study of...][research_freeman_2015]
 - [Numerical Simulation and Optimization of High Performance...][research_numerical_simulation_and_2015]
-- [Numerical Simulation Study of Influence of Nozzle Entrance...][research_guan_deng_2015]
 - [Numerical Simulation of a New Nozzle Based on the Principle...][research_zhao_yang_2015]
 - [Study of Liquid Breakup Process in Solid Rocket Motor Nozzle][research_amano_yen_2015]
 - [Water Performance Test of Pumps for a 7 Ton Class Rocket...][research_hong_kim_2015]
@@ -3656,7 +3580,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Liquid Rocket Engine Component Water-Flow Test Stand][research_moruzzi_fessl_2018]
 - [Nonlinear Combustion Instability in a Multi-Injector Rocket...][research_xiong_2018]
 - [Numerical Simulation Of An Over-Expanded Supersonic Nozzle...][research_qurooni_vakil_2018]
-- [Numerical Simulation of the Influence of Nozzle on the...][research_li_zhou_2018]
 - [Numerical simulation of nozzle flow for design of the devices...][research_kimura_imai_2018]
 - [Optimal nozzle Mach number for maximizing altitude of...][research_lee_2018]
 - [Optimization of Nozzle Shape of Hydrogen-Oxygen Rocket Engine][research_matveev_zubanov_2018]
@@ -3669,7 +3592,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Design and Additive Manufacturing Considerations for Liquid...][research_patel_standbridge_2019]
 - [Evaluation of the Reliability Test Results of a Rocket Engine...][research_podolchak_2019]
 - [Effect of Aft Chamber Volume on Hybrid Rocket Combustion...][research_kageyama_kamps_2019]
-- [Effects of combustion chamber profile on direct injection...][research_kumar_chandrashekar_2019]
 - [Experimental demonstration of an end-burning swirling flow...][research_lestrade_anthoine_2019]
 - [Flowfield analysis of a 3D simulation of a rotating...][research_lietz_desai_2019]
 - [Influence Study of Gas Pressure on the Volume Measurement of...][research_chen_jin_2019]
@@ -3677,7 +3599,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Numerical Prediction of Cooling Performance Sensitivity of...][research_prapamonthon_yin_2019]
 - [Numerical Simulation Research on Flow and Heat Transfer...][research_zhang_men_2019]
 - [Numerical Tool Optimization for Advanced Rocket Nozzle...][research_conte_ferrero_2019]
-- [Numerical simulation of the effect of flow field in swirl...][research_yan_qiu_2019]
 - [Numerical study on the effect of rocket plume to the jet flow...][research_ding_liu_2019]
 - [Performance analysis of turbofan engine with additional...][research_marszaek_2019]
 - [The Effect of Surface Roughness on LCH4 Boiling Heat Transfer...][research_hernandez_palacios_2019]
@@ -3712,7 +3633,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Study of the Helicon Injected Inertial Plasma Electrostatic...][research_miley_puri_2020]
 - [Testing and Verification of an Additively Manufactured Liquid...][research_ang_alexandi_2020]
 - [Validation of a simplified model for liquid propellant rocket...][research_hegazy_belal_2020]
-- [Withdrawal Testing and Verification of an Additively...][research_ang_alexandi_2020_b]
 - [A Review Towards the Design Optimization of High Performance...][research_teasley_protz_2021]
 - [A Simple Model for Rotating Detonation Rocket Engine Sizing...][research_paxson_perkins_2021]
 - [A novel compound mechanical seal of reusable rocket turbopump...][research_xu_wu_2021]
@@ -3734,7 +3654,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Numerical Analysis of New Rocket Nozzle in Low Altitude][research_koyagi_tsuru_2021]
 - [Numerical investigation on performance of convergent...][research_bhaskar_sahu_2021]
 - [Numerical modelling of the hybrid rocket engine performance][research_gieras_gorgeri_2021]
-- [Numerical simulation and industrial application of nozzle...][research_hua_bao_2021]
 - [Process Development and Hot-fire Testing of Additively...][research_gradl_teasley_2021]
 - [Remaining Useful Life Prediction for Liquid Propulsion Rocket...][research_chelouati_jha_2021]
 - [Rotating detonation of hypergolic space-storable rocket...][research_nair_morrow_2021]
@@ -3759,8 +3678,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Influence of Channel Geometry Micro-Deviation on the Life...][research_chen_jin_2022]
 - [Life Analysis of Reusable Liquid Rocket Engine Thrust Chamber][research_qi_cheng_2022]
 - [Model-based fault detection with uncertainties in a reusable...][research_omata_tsutsumi_2022]
-- [Novel design for an additively manufactured nozzle to produce...][research_shaqour_gorecka_2022]
-- [Numerical Simulation of the Tobacco Flavoring Nozzle by CFD][research_zhu_xu_2022]
 - [Numerical simulation of internal flow field in a precision...][research_he_dong_2022]
 - [Numerical study on jet noise suppression with water injection...][research_xing_le_2022]
 - [On the Cyclic Deformation of the Shell of the Combustion...][research_zarubin_zimin_2022]
@@ -3777,9 +3694,7 @@ problem was understood better. The aerospike came back because the machine tools
 - [Design and development of mechanical processing technology to...][research_yukhnevich_ryazantsev_2023]
 - [Effect of Nozzle Pressure and Shape Ratios on Gas Flow of a...][research_chaiaiad_thongsri_2023]
 - [Effect of distance of vertical barrier wall to the release...][research_gong_han_2023]
-- [Effects of combustion chamber structure on combustion and...][research_effects_of_2023]
 - [Green Run Test of the Ablative Chambered Engine on the Mobile...][research_chandler_2023]
-- [Highly Reinforced Acrylic Resins for Hard Tissue Engineering...][research_gallicchio_spinelli_2023]
 - [Improvement in Identification Accuracy of a Failure...][research_nagashima_mori_2023]
 - [Multi-phase Flow Simulation of a Solid Rocket Motor with a...][research_srivastava_jayachandran_2023]
 - [Multiphase Effects on Solid Rocket Nozzle Performance][research_grossi_sereno_2023]
@@ -3848,7 +3763,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Cold flow modeling of the combustion chamber for a multi-fuel...][research_dopieralski_polak_2025]
 - [Conceptual Study on a Scramjet External Nozzle in a...][research_isono_fujikawa_2025]
 - [Design And Structural Analysis Of Rocket Convergent Divergent...][research_gummadidala_krishna_2025]
-- [Design and Optimization Analysis of Combustion Chamber for...][research_chen_li_2025]
 - [Design of a Low Barrier to Entry Reusable Rocket Engine and...][research_zimmerli_arkwright_2025]
 - [Dynamics modeling and simulation analysis of a reusable...][research_liu_cheng_2025]
 - [Effect of Nozzle Throat Diameters on Kerosene-NOS Liquid...][research_patel_bassett_2025]
@@ -3974,7 +3888,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [A model for thermal protection ablative material with local...][research_li_huang_2021]
 - [A novel mechanical-thermal-electrical thermal protection...][research_gao_gou_2021]
 - [An inverse method for real-time estimation of aerothermal...][research_uyanna_najafi_2021]
-- [Correction Recent Developments of Ablative Thermal Protection...][research_fahy_chang_2021_b]
 - [Evaluation on Two Thermodynamic Systems Integrated Thermal...][research_ma_xie_2021]
 - [Experimental Studies of Resin Systems for Ablative Thermal...][research_mishra_rao_2021]
 - [Hypersonic foldable Aeroshell for THermal protection using...][research_odriscoll_bruce_2021]
@@ -4120,7 +4033,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Analysis of Mars 2020 Entry Vehicle Aerothermal Flight Data][research_edquist_west_2023]
 - [Assessment of Modified 𝛾-model for Hypersonic Boundary Layer...][research_rc_k_2023]
 - [Computation of Hypersonic Boundary Layer Transition behind...][research_sakamoto_sato_2023]
-- [Correction Computation of Hypersonic Boundary Layer...][research_sakamoto_sato_2023_b]
 - [Direct numerical simulations of hypersonic boundary layer...][research_direct_numerical_2023]
 - [Effects of Multi-layer Insulation Design on the Insulation...][research_kang_choi_2023]
 - [Effects of Aerothermal Shape Distortion on Hypersonic Vehicle...][research_pollock_moran_2023]
@@ -4145,7 +4057,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Aerothermodynamic Sensitivity Analysis and Optimization of...][research_horing_maute_2025]
 - [Analysis of Aerodynamic Heating Modes in Thermochemical...][research_he_zhao_2025]
 - [Comparison of models for aerothermal load prediction using...][research_franze_barz_2025_b]
-- [Correction Comparison of models for aerothermal load...][research_franze_barz_2025]
 - [Direct numerical simulation of hypersonic boundary layer...][research_yang_li_2025_b]
 - [Effect of the Tank Volume and Aspect Ratios on the Storage...][research_barbieri_stefanizzi_2025]
 - [Experimental Visualization of Hypersonic Boundary Layer...][research_kim_lee_2025_c]
@@ -4173,7 +4084,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Staggered versus aligned how wavy wall topology governs...][research_yang_gao_2026]
 - [The Aerothermal, and Structural Design of the Common Front...][research_smith_handford_2026]
 - [Towards Selection of a Hypersonic Glide Vehicle Aerothermal...][research_yakubayev_gschwend_2026]
-- [Transient aerothermal behavior and windage heating effects in...][research_li_ding_2026]
 
 ### Reusability and the Economics That Actually Changed
 
@@ -4181,14 +4091,11 @@ problem was understood better. The aerospike came back because the machine tools
 
 - [The Effect of Reusability in Cost-Constrained Human Lunar...][research_akin_2016]
 - [Success for SpaceX reusable rocket][research_success_for_2017]
-- [A Pattern Oriented Approach for Software Design Reusability...][research_srinivasan_2018]
 - [Correlated reliability and an application Propulsive landing...][research_sarper_2019]
 - [Reusability Analysis for Lunar Landers][research_defreitasbart_hoffman_2021]
 - [Empirical Evaluation of Reusability Models][research_lung_motogna_2022]
 - [Analysis of Processability and Reusability of Ti6Al4V Powder...][research_cordova_bahbou_2023]
 - [Online Trajectory Optimization Method for Large Attitude Flip...][research_chen_ma_2023]
-- [Preparation and characterization of low-cost adsorbents for...][research_moustafa_2023]
-- [Sustainable Low-Cost Phosphorus Recovery Using Nanostructured...][research_gomezcarnota_barriada_2023]
 - [Analysis of Approaches to Ensure Reusability of Heat...][research_leonov_kremnev_2025]
 - [Analysis of cost-efficient launcher family composition under...][research_wilken_2025]
 - [Developer Productivity and Project Cost Savings Through...][research_kumar_2025]
@@ -4209,21 +4116,15 @@ problem was understood better. The aerospike came back because the machine tools
 - [Coupling of Turnaround and Trajectory Optimization Based on...][research_rosenow_schultz_2018]
 - [Impact of Lower Launch Cost on Space Life Support][research_jones_2018]
 - [Launch Cost Thresholds for Economic Activity][research_boone_shelley_2018]
-- [Test Cost Reduction for X-Value Elimination By Scan Slice...][research_chae_yang_2018]
-- [Test cost reduction for X -value elimination by scan slice...][research_chae_yang_2018_b]
 - [Launch Cost Analysis and Optimization Based on Analysis of...][research_xu_hollingsworth_2019]
 - [Bayesian Reliability Analysis with Slice Sampling in Launch...][research_ireland_gonzales_2020]
 - [Fleet sizing of reusable articles under uncertain demand and...][research_vanga_venkateswaran_2020]
 - [Sensitivity Analysis of Major Cost Parameters on the Launch...][research_yang_2020]
 - [Cost Analysis for Mass Customized Production of Satellites...][research_wang_zhang_2021_b]
-- [Energy consumption analysis and cutting cost reduction...][research_energy_consumption_2021]
 - [Integrated Framework for Staging and Trajectory Optimization...][research_cho_jo_2021]
 - [Parametric Cost Analysis of Expendable vs. Reusable Refueling...][research_tiffin_friz_2021]
 - [A data-driven trajectory optimization framework for terminal...][research_gui_zhang_2022]
 - [An Improved Cost Analysis of the Apollo Program][research_dreier_2022]
-- [Analysis on Human Resources Management and Cost Reduction and...][research_analysis_on_2022]
-- [Enterprise Cost Analysis and Cost Reduction Strategy][research_enterprise_cost_2022]
-- [Factors Affecting the Cost Reduction of Private Universities][research_factors_affecting_2022]
 - [Optimal staging of reusable launch vehicles for minimum life...][research_jo_ahn_2022]
 - [Synthesis and Cost Analysis of the SpaceX Starship Launch...][research_harris_ledford_2022]
 - [The Space Superhighway A Cost Analysis of an In-Space...][research_friz_tiffin_2022]
@@ -4233,17 +4134,14 @@ problem was understood better. The aerospike came back because the machine tools
 - [A Study of LTC410 Composite Mold System to Improve Mold...][research_jittamai_rungrattanachavala_2024]
 - [Considerations for Using Autonomous Flight Termination...][research_lorraineeprokop_2024]
 - [Counting Stars and Costs An Empirical Examination of Space...][research_kim_2024]
-- [Energy Storage System Enables Operations with Zero Generators...][research_vanwissenkerke_harrist_2024]
 - [Gap Analysis of Coating and Liner for Hydrogen Pipeline][research_li_huard_2024]
 - [Ground Up Launch Services How Facility-Related Operations and...][research_schneider_breda_2024]
 - [Terminal Maneuvering Area Design Tool Translational Research...][research_jackson_antunesribeiro_2024]
-- [Computational Cost Analysis and Reduction of VVC Multiple...][research_camargo_silveira_2025]
 - [Counting stars and costs An empirical examination of space...][research_kim_2025]
 - [Lessons Learned in an Aerospace Design for Reliability Program][research_hatfield_honecker_2025]
 - [Reliability and Maintainability Analysis of UAV Systems An...][research_selvamuthu_singla_2025]
 - [Simulation-Based Two-Stage Scheduling Optimization Method for...][research_liu_wang_2025]
 - [3D Modeling and Design of a Tilt-Rotor UAV for Trajectory...][research_alsharif_sameersharbaji_2026]
-- [Commentary The Impact of Breast Reduction Practice Variation...][research_brown_2026]
 - [Launch Cost Deflation and the Economics of Satellite...][research_christie_2026]
 - [Physics-Based Reliability Discussions and Case Studies in...][research_safie_2026]
 
@@ -4299,7 +4197,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Research on Guidance Method of Hypersonic Vehicle Based on...][research_diao_lu_2022]
 - [Aerodynamic performance improvement of a blended wing-body...][research_hossan_srinivas_2023]
 - [Control System Design for a Hypersonic Re-entry Vehicle][research_stokes_lombaerts_2023]
-- [Correction Reusable Entry Vehicle Trajectory Optimization...][research_byczkowski_rao_2023_b]
 - [Design of Hypersonic Vehicle Time-Delay Compensation...][research_zhou_2023]
 - [Exergy-based Sensitivity Analysis of the Generic Hypersonic...][research_novotny_rumpfkeil_2023]
 - [Performance Analysis of Kriging and Neural Network Modelling...][research_jones_cesnik_2023]
@@ -4368,13 +4265,11 @@ problem was understood better. The aerospike came back because the machine tools
 - [Study of reentry guidance based on analytical...][research_liu_he_2017]
 - [Successive Convexification for Mars 6-DoF Powered Descent...][research_szmuk_eren_2017]
 - [Trajectory design for a Mars Ascent Vehicle concept...][research_benito_shotwell_2017]
-- [UAV-Enabled Wireless Power Transfer Trajectory Design and...][research_xu_zeng_2017]
 - [Unity Decision Guidance Management System Analytics Engine...][research_nachawati_brodsky_2017]
 - [A Convex Approach to Minimum-Time Low-Thrust Trajectory...][research_wang_grant_2018]
 - [A Pseudospectral-Convex Optimization Algorithm for Rocket...][research_wang_cui_2018]
 - [Adaptive Powered Descent Initiation and Fuel-Optimal Guidance...][research_lu_sostaric_2018]
 - [Computational guidance for planetary powered descent using...][research_jiang_li_2018]
-- [Energy-Constrained UAV Trajectory Design for Ground Node...][research_sallouha_azari_2018]
 - [Extended State Observer-Based Model Predictive Control in...][research_ge_cui_2018]
 - [Generalized hp Pseudospectral Convex Programming for Powered...][research_sagliano_2018_b]
 - [Hazard avoidance guidance for planetary landing using a...][research_yuan_zhu_2018]
@@ -4395,7 +4290,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Ascent Trajectory Optimization of Launch Vehicles with...][research_mukundan_maity_2019_b]
 - [Ascent trajectory optimization for air‐breathing vehicles in...][research_zhou_wang_2019]
 - [Augmented Apollo Powered Descent Guidance][research_lu_2019]
-- [Automatic Ultrasound Guidance Based on Deep Reinforcement...][research_jarosik_lewandowski_2019]
 - [Cross-cycle iterative unmanned aerial vehicle reentry...][research_cheng_shui_2019]
 - [Design of Integrated Navigation Algorithm of First Sub-Stage...][research_li_bai_2019]
 - [Fuel-Optimal Rocket Landing with Aerodynamic Controls][research_liu_2019]
@@ -4411,12 +4305,10 @@ problem was understood better. The aerospike came back because the machine tools
 - [Rocket Powered Landing Guidance Using Proximal Policy...][research_chen_ma_2019_b]
 - [Structural, Propulsion, Mechanical, and Dynamics Guidance for...][research_fusselman_goyal_2019]
 - [Super-Twisting Fast Sliding Mode Guidance for Rocket Powered...][research_chen_ma_2019]
-- [Trajectory Design for Energy Savings in Redundant Robotic...][research_boscariol_richiedei_2019]
 - [Trajectory Optimization and Guidance for Solid Motor...][research_mukundan_maity_2019]
 - [A Real-Time Algorithm for Non-Convex Powered Descent Guidance][research_reynolds_malyuta_2020]
 - [An engineering algorithm for SINS navigation based on launch...][research_zhiguo_2020]
 - [Approach and Landing Guidance for an Unpowered Gliding Vehicle][research_albakri_albakri_2020]
-- [Artificial Neural Networks and Reinforcement Learning for...][research_yarom_scherler_2020]
 - [Ascent Guidance for Launch Vehicle Based on Receding Horizon...][research_he_yang_2020]
 - [Ascent trajectory design of small-lift launch vehicle using...][research_zheng_fu_2020]
 - [Conjugate gradient method with pseudospectral collocation...][research_li_chen_2020_b]
@@ -4465,7 +4357,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Trajectory Design via Convex Optimization for...][research_zhang_huang_2021]
 - [Trajectory reconstruction algorithm for powered landing of...][research_wei_shao_2021]
 - [Two-Phase Zero-Effort-Miss/Zero-Effort-Velocity Guidance for...][research_wang_guo_2021]
-- [Weights-varying MPC for Autonomous Vehicle Guidance a Deep...][research_zarrouki_klos_2021]
 - [A Policy-Reuse Algorithm Based on Destination Position...][research_wang_ai_2022]
 - [All-aspect attack guidance law for agile missiles based on...][research_gong_chen_2022]
 - [Analytic and Computational Guidance Strategies for the...][research_kunhippurayil_harris_2022]
@@ -4474,8 +4365,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Customized First Order Convex Optimization Algorithm for...][research_ma_wang_2022]
 - [Deep reinforcement learning for rendezvous guidance with...][research_yuan_li_2022_b]
 - [Design of the landing guidance for the retro-propulsive...][research_botelho_martinez_2022]
-- [Energy Efficient UAV Trajectory Design for Hovering-Flying...][research_chen_guo_2022]
-- [Evolving Praxis in Design Management The transdisciplinary...][research_miller_palsikar_2022]
 - [Fault-Tolerant Guidance of Rocket Vertical Landing Phase...][research_li_long_2022]
 - [Flight Guidance for Vision-Augmented Automatic Landing of...][research_krammer_rosenbauer_2022]
 - [Flight Testing Automatic Landing Control for Unmanned...][research_sedlmair_theis_2022]
@@ -4504,7 +4393,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Ascent Trajectory Optimization Design of Solid Launch Vehicle...][research_zhang_yang_2023]
 - [Ascent Trajectory Optimization of Launch Vehicle Using...][research_gilson_a_2023]
 - [Convex Optimization-Based Techniques for Trajectory Design...][research_jansson_harris_2023]
-- [Dynamic Route Guidance System Based on Real-time Vehicle-Road...][research_su_li_2023]
 - [Energy-Constrained UAV Trajectory Design for Sensing...][research_wang_xiang_2023]
 - [Finite-Horizon Near-Optimal Approach and Landing Planning of...][research_yao_xin_2023]
 - [Fuel-Optimal Powered Descent Guidance for Hazardous Terrain][research_basar_ghosh_2023]
@@ -4548,7 +4436,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Fuel-Optimal Trajectory Planning for Lunar Vertical Landing][research_wang_chen_2024]
 - [Full-Envelope Flight Control for Compound Vertical Takeoff...][research_kai_2024]
 - [Integrated architecture for navigation and attitude control...][research_santos_oliveira_2024]
-- [Intelligent toy tracking trajectory design based on mobile...][research_zhang_zhang_2024_b]
 - [Landing Guidance Control Combining Powered Descending with...][research_nakatsuka_satoh_2024]
 - [Meta-Reinforcement Learning with Transformer Networks for...][research_federici_furfaro_2024]
 - [Neural-Network-Based Optimal Guidance for Lunar Vertical...][research_wang_chen_2024_b]
@@ -4576,13 +4463,11 @@ problem was understood better. The aerospike came back because the machine tools
 - [Biased-Proportional-Navigation-Based Predictor Corrector...][research_yang_2025_b]
 - [Constant Thrust Adaptive Convex Programming Guidance for...][research_zhang_wang_2025]
 - [Coordinated Reentry Guidance with A* and Deep Reinforcement...][research_bao_li_2025]
-- [Correction Rethinking Propellant-Optimal Powered Descent...][research_lu_davami_2025]
 - [Data-Driven Robust Model Predictive Control of Tiltwing...][research_doffsotta_cannon_2025]
 - [Deep Reinforcement Learning-Based Guidance Law for...][research_zhu_xu_2025]
 - [Deep Reinforcement Learning-Based Online Guidance Strategy...][research_wang_qu_2025]
 - [Energy Optimization Strategies for Automatic Tiltrotor...][research_kang_lu_2025]
 - [Energy-Optimal Guidance Law Design With Terminal Impact Angle...][research_li_zhang_2025]
-- [Energy-efficient trajectory design of connected automated...][research_jiang_huangfu_2025]
 - [Evolutionary Optimization Based Augmentation of Lunar Powered...][research_anand_jl_2025]
 - [Fast Desensitized Optimal Control for Rocket-Powered Descent...][research_robbiani_sagliano_2025]
 - [Fuel Optimal, Explicit Guidance Law for Powered Descent...][research_lona_swaminathan_2025]
@@ -4614,7 +4499,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Constrained Fuel- and Time-Optimal Six-Degree-of-Freedom...][research_nurre_taheri_2026]
 - [Convex programming based method for stochastic optimal...][research_su_gui_2026_b]
 - [Convexification of Aerodynamic-Constraints for...][research_arai_matsumoto_2026]
-- [Correction Implementable Epsilon-Propellant-Optimal Powered...][research_lu_2026_b]
 - [Deep Reinforcement Learning Guidance Law with Impact Angle...][research_zhao_yang_2026]
 - [Distributionally robust trajectory convex optimization with...][research_su_gui_2026]
 - [Disturbance rejection and convex optimization-based guidance...][research_wang_zhang_2026]
@@ -4652,7 +4536,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Optimum Group Size Selection for Launch Vehicle Sections...][research_nmanickam_taraknathde_2015]
 - [Particle Swarm Optimization Applied to Ascent Phase Launch...][research_dileep_kamath_2015]
 - [Parts, Materials, and Processes Control Program for...][research_davis_awwad_2015]
-- [Reverse Innovation Strategy Local Technology Production...][research_incekara_haykirhobikoglu_2015]
 - [Robust trajectory optimization of space launch vehicle using...][research_bataleblu_roshanian_2015]
 - [Scenario Planning Based Strategy for Research and Development...][research_hong_ahn_2015]
 - [Space Shuttle Stiffener Ring Foam Failure Analysis, a...][research_howardphilipm_2015]
@@ -4741,9 +4624,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Three-dimensional trajectory optimization for multi-stage...][research_hwang_2019]
 - [Verification of Calculation Procedure for Unsteady...][research_panda_2019]
 - [Wind Tunnel Flow Field Visualizations of the Space Launch...][research_garbeff_baerny_2019]
-- [Withdrawal Measurement and Analysis of Terminal Shock...][research_piatak_sekula_2019_b]
-- [Withdrawal Verification of Calculation Procedure for Unsteady...][research_panda_2019_b]
-- [Withdrawal Wind Tunnel Flow Field Visualizations of the Space...][research_garbeff_baerny_2019_b]
 - [Analysis Ballistic Flight and Design of Control System...][research_haqq_2020]
 - [Application of a Neural Network for the Analysis of the...][research_matushin_makhalov_2020]
 - [Attitude Control for Rocket Main-stage-booster Recovery with...][research_li_xing_2020]
@@ -4788,7 +4668,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Research on attitude control strategy of single engine...][research_liao_liu_2021]
 - [Test Design of Small Sample Launch Vehicle Based on Composite...][research_huangpeng_duan_2021]
 - [The concept of the auxiliary propulsion system of the III...][research_gorokhov_fomin_2021]
-- [Thermoeconomic analysis of improved exhaust waste heat...][research_maestrecambronel_guzmanbarros_2021]
 - [Uncertainty quantification for multidisciplinary launch...][research_brevault_balesdent_2021]
 - [VERA A Launch Vehicle Simulation Tool and Its Application to...][research_oakes_2021]
 - [A Liquid Launch Vehicle Safety Assessment Model Based on...][research_cheng_qian_2022]
@@ -4798,7 +4677,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Analysis of Mechanical Stress and Vibration Reduction of...][research_chi_yan_2022]
 - [Common Bulkhead Tank Design for Cryogenic Stage of an Indian...][research_singh_singh_2022]
 - [Comparing Large versus Small Launch Vehicle in an Exploration...][research_haws_bowman_2022]
-- [Correction Quantification of Launch Vehicle Subsystem Design...][research_harris_cox_2022_b]
 - [Development of Launch Vehicle Shape Design Software Based on...][research_xie_liu_2022]
 - [Launch Vehicle Structural Analysis LVSA A Multifidelity...][research_cox_harris_2022]
 - [Low-Cost Satellite Launch System Aerodynamic Feasibility Study][research_olejnik_kiszkowiak_2022]
@@ -4847,7 +4725,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Study on geosynchronous satellite launch vehicle propellants...][research_sangwan_banik_2023]
 - [System Design Review SDR - Concept Generation for a Cost...][research_kruse_kurian_2023]
 - [System Engineering Challenges in Development of LOX-Isrosene...][research_system_engineering_2023]
-- [Thermodynamic performance analysis of air-to-air hybrid heat...][research_zhou_li_2023]
 - [Three-Dimensional Stress-Strain State Analysis of the...][research_gontarovskyi_smetankina_2023]
 - [Trajectory Optimization of a Partially Reusable Rocket...][research_forbesspyratos_smart_2023]
 - [Trajectory optimization of the Brazilian multistage launch...][research_dasilveira_dasilvafernandes_2023]
@@ -4860,17 +4737,14 @@ problem was understood better. The aerospike came back because the machine tools
 - [Conceptual Design of a Small Launch Vehicle for CubeSats The...][research_gomezfernandez_2024]
 - [Configuration Design and Application of Lm-2d Launch Vehicle...][research_li_zhao_2024]
 - [Conversion of a Two-Stage Expendable Rocket into a Reusable...][research_mazzone_chiarelli_2024]
-- [Correction Post-Flight Estimation of Aerodynamic Angles for a...][research_dantuono_zavoli_2024]
 - [Cost estimation for launch vehicle families considering...][research_wilken_2024]
 - [Design and Progress of a LOX/methane Reusable Commercial...][research_jiawei_2024]
 - [Design of Open Modular Avionics for Launch Vehicle Test and...][research_xu_ling_2024]
 - [Design optimization of a low-cost three-stage launch vehicle...][research_wenzhi_hao_2024]
 - [Development of FPGA Based Automated System for Testing Launch...][research_ravindran_kumar_2024]
 - [Development of a Lox/Methane intact impact yield curve for a...][research_berkowitz_titulaer_2024]
-- [Electron Cloud Simulations in the Fermilab Booster][research_wijethunga_schreckenberger_2024]
 - [Enhanced PSO-Integrated Machine Learning for Launch Vehicle...][research_balavani_akshara_2024]
 - [Fuel Efficiency Analysis of the Jet Engine and...][research_kim_woldeyohannis_2024]
-- [Full Cycle Simulations of The Fermilab Booster][research_ostiguy_bhat_2024]
 - [Inserting a Maximum-Mass Spacecraft into a Target Orbit Using...][research_grigoriev_proskuryakov_2024]
 - [Launch Dynamics Analysis of Amphibious Launch Vehicle on the...][research_cai_ren_2024]
 - [Launch Vehicle Ascent Computational Fluid Dynamics for the...][research_dalle_rogers_2024]
@@ -4878,7 +4752,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Method for passivation of propellant residues in orbital...][research_trushlyakov_lesnyak_2024]
 - [Mid-air capture of rocket booster towards reusable rocket...][research_allard_2024]
 - [Moon Road - the Student Rocket Approach to Autonomous...][research_imhuelse_zydel_2024]
-- [Observation of a Synchro-Betatron Instability in Fermilab...][research_balcewicz_2024]
 - [Optimal Orbit Populating Strategy of a Versatile...][research_bourgeois_dupuis_2024]
 - [Optimization Method for Launch Vehicle Attitude Control...][research_tianpeng_jiarun_2024]
 - [Optimization of Modular Update Strategy for Launch Platform...][research_qi_jiang_2024]
@@ -4898,7 +4771,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Application of Machine Learning for Real-Time Fault Detection...][research_v_sonkar_2025]
 - [Case Studies on Safety Criticality Review in Launch Vehicle...][research_lee_2025]
 - [Construction of a mathematical model of the heat and mass...][research_biliaiev_biliaieva_2025]
-- [Correction Wargaming Space Rapid Transit as a Dual-Use...][research_magistro_zhang_2025_b]
 - [Cost Effectiveness of Reusable Launch Vehicles Depending on...][research_kang_jo_2025]
 - [Coupled hydrodynamic-structural analysis on reuseable launch...][research_nargolkar_vijayan_2025]
 - [Development, Manufacturing, and Operational Costs of a...][research_cruz_ueda_2025]
@@ -5021,7 +4893,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [CACLA-Based Trajectory Tracking Guidance for RLV in Terminal...][research_lan_tan_2021]
 - [Composite Damage Tolerance Approach for Reusable Launch...][research_goyal_babuska_2021]
 - [Control of an Underactuated Reusable Launch Vehicle by...][research_ye_li_2021]
-- [Correction to A hybrid parallel Harris hawks optimization...][research_su_dai_2021_c]
 - [Hybrid multi-objective control allocation strategy for...][research_zhang_mu_2021]
 - [Inverse Optimal Control Via Diagonal Stabilization Applied to...][research_parvathy_jacob_2021]
 - [Predefined-time control for a horizontal takeoff and...][research_zhang_jing_2021]
@@ -5131,7 +5002,6 @@ problem was understood better. The aerospike came back because the machine tools
 - [Effect of air mass fraction on transient pressure and...][research_hadjtaieb_bettaieb_2021]
 - [Single-stage to orbit ascent trajectory optimisation with...][research_marchetti_minisci_2021]
 - [Formulation and Experimental design of Reusable launchers...][research_lakshminarayana_chiarelli_2022]
-- [Correction In Silico Studies on Truncated Aerospike Nozzle...][research_sundaria_bhagat_2023_b]
 - [In Silico Studies on Truncated Aerospike Nozzle with Optimum...][research_sundaria_bhagat_2023]
 - [Lucrative Thrust Vectoring using Variable Area Ratio Altitude...][research_swaraj_deshpande_2023]
 - [Development of Tri-Propellant Rocket Engine for Reusable SSTO][research_shoyama_hirakawa_2024]
@@ -5145,7 +5015,7 @@ problem was understood better. The aerospike came back because the machine tools
 - [Development of an Aerospace Engine with Single Stage to Orbit...][research_wu_2026]
 
 **The vehicle's own cluster holds no contemporary records at all, and that is a finding rather than a gap in the harvest.**
-Sixty records carry the X-33 designation and every one of them predates 2002.
+Sixty records carry the X-33 designation, fifty-seven of them predate 2002, and the latest is dated 2011.
 **A cancelled programme stops generating literature under its own name**, which is the documentary
 consequence of cancellation and the mirror image of the finding in the previous article, where a losing
 competitor stopped generating literature the moment it lost.
@@ -5178,46 +5048,32 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Evaluation of particle motion sensitivity and energy...][research_yao_wang_2026]
 - [RANS structural uncertainty quantification of transonic...][research_wang_wang_2026]
 
-- [Evaluation of Machine Learning Method for Intrusion Detection...][research_ogino_2015]
-- [Probability estimation for Predicted-Occupancy Grids in...][research_nadarajan_botsch_2016]
 - [The Air Force Digital Thread/Digital Twin - Life Cycle...][research_kraft_2016]
 - [Research on attitude control of re-entry for reusable launch...][research_dou_mao_2017]
 - [Structural Health Management of Damaged Aircraft Structures...][research_seshadri_krishnamurthy_2017]
 - [A Digital Twin Concept for Manufacturing Systems][research_ellgass_holt_2018]
 - [A digital twin for composite parts manufacturing Effects of...][research_zambal_eitzinger_2018]
 - [Foundations for model‐based systems engineering and...][research_rauzy_haskins_2018]
-- [Reinforcement Learning Scheduler for Vehicle-to-Vehicle...][research_sahin_khalili_2018]
 - [The Digital Twin, Demonstrating the Potentials of Monitoring...][research_nzetchou_durupt_2018]
 - [Towards a Digital Twin for Cloud Manufacturing Case Study][research_ngo_guerrazubiaga_2018]
 - [the Digital Twin in Aerospace][research_the_digital_2018]
 - [Best Structural Theories for Free Vibrations of Sandwich...][research_petrolo_carrera_2019]
 - [Developing knowledge on Digital Manufacturing to Digital Twin...][research_kruger_borsato_2019]
-- [Hyperparameter Optimization for Deep Reinforcement Learning...][research_liessner_schmitt_2019]
 - [Machine learning approach for risk-based inspection screening...][research_rachman_ratnayake_2019]
 - [Multi-failure probabilistic design for turbine bladed disks...][research_song_bai_2019]
-- [Vehicle energy consumption estimation using large scale...][research_yao_moawad_2019]
 - [A Case Study of Digital Twin for a Manufacturing Process...][research_latif_shao_2020]
-- [Angle-of-Arrival Estimation for Vehicle-to-vehicle...][research_yang_ai_2020]
-- [Child Identification Optimization Algorithm for AEB System of...][research_child_identification_2020]
-- [Convolutional Recurrent Machine Learning for OSNR and Launch...][research_cho_varughese_2020]
 - [Digital Engineering and U.S. Army Air Vehicle Technical...][research_calvert_2020]
 - [Digital Twin for Smart Manufacturing The Practitioner’s...][research_barring_johansson_2020]
 - [Digital twin of composite assembly manufacturing process][research_polini_corrado_2020]
-- [Harmonic Structure-Based Neural Network Model for Music Pitch...][research_wang_liu_2020]
-- [In-Vehicle Speech Text Classification based on Multiple...][research_in_vehicle_speech_2020]
 - [Manufacturing Process Control Through a Digital Twin Encoding...][research_papacharalampopoulos_michail_2020]
 - [Neural network for mechanical property estimation of...][research_barbosa_upadhyaya_2020]
-- [Visual Inspection of Collective Protection Equipment...][research_ferreira_lima_2020]
-- [A Digital Twin for Holistic Autonomous Vehicle Development][research_kochhar_2021]
 - [An AR based Digital Twin for Laser based manufacturing...][research_stavropoulos_papacharalampopoulos_2021]
 - [Development of a Digital Twin for Additive Manufacturing][research_machado_oliveira_2021]
 - [Digital Twin-driven machining process for thin-walled part...][research_zhu_xi_2021]
 - [Digital twin technology - external data resources in creating...][research_ruzsa_2021]
 - [Digital twin-driven complexity management in intelligent...][research_wang_wang_2021]
 - [Generic Framework for Developing Process Digital Twin...][research_jose_vivek_2021]
-- [LongiControl A Reinforcement Learning Environment for...][research_dohmen_liessner_2021]
 - [Machine learning and knowledge graph based design rule...][research_ko_witherell_2021]
-- [Road angle estimation for a vehicle-trailer with machine...][research_habibnejadkorayem_khajepour_2021]
 - [Subsystem selection for digital twin development A case study...][research_kutzke_carter_2021]
 - [The Use of Machine Learning for the Prediction of the...][research_lin_guan_2021]
 - [Towards the implementation of the Digital Twin in CMM...][research_gaha_durupt_2021]
@@ -5226,26 +5082,19 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [A Data-driven Mechanical Property Prediction in Epoxy/Glass...][research_rabby_vadlamudi_2022]
 - [A Digital Twin-enabled Framework for Aircraft Overhaul...][research_chang_jia_2022]
 - [Design and testing of a digital twin for monitoring and...][research_corradini_silvestri_2022]
-- [Digital Twin-Based Tool State Prognosis Model for Drilling...][research_dayam_desai_2022]
 - [Digital Twin-Driven Reconfigurable Fixturing Optimization for...][research_hu_2022_b]
 - [Digital twin-driven multi-variable process control of thermal...][research_stavropoulos_papacharalampopoulos_2022]
 - [Energy Consumption Evaluation on Robotic Drilling Process...][research_cardoso_lozan_2022]
 - [Integrating Model-Based Systems and Digital Engineering for...][research_kirshner_valerdi_2022]
-- [Machine Learning Based Estimation of Residual Useful Life of...][research_tang_dai_2022]
 - [Mechanical properties prediction of composite laminate with...][research_zhang_li_2022_b]
 - [Model Based Systems Engineering MBSE Applied to Fault...][research_mahmood_cimtalay_2022]
 - [Model‐based systems engineering for a small‐lift launch...][research_taraila_asundi_2022]
 - [Motion-Primitive based Deep Reinforcement Learning for High...][research_levin_nolan_2022]
-- [Personnel status detection model suitable for vertical...][research_ji_yan_2022]
-- [Phishing Attacks Detection using Machine Learning and Deep...][research_aljabri_mirza_2022]
 - [Probabilistic Digital Twin for Additive Manufacturing Process...][research_nath_mahadevan_2022]
 - [Structural Damage Localization via Deep Learning and IoT...][research_parola_galatolo_2022]
 - [Study and Evaluation of Machine Learning algorithms for...][research_jain_j_2022]
-- [The 3D Position Estimation and Tracking of a Surface Vehicle...][research_wang_choi_2022]
 - [Towards a Digital Twin Simulation and Residual Stress...][research_lutz_yue_2022]
-- [Vehicle Fuel Emission Efficiency Estimation Using...][research_egi_2022]
 - [A Reinforcement Learning Method Based on an Improved Sampling...][research_wang_li_2023_d]
-- [A digital twin model of hot rolling process based on CGAN][research_jiang_lv_2023]
 - [An Orchestration Method for Integrated Multi-Disciplinary...][research_brusa_dagna_2023]
 - [Applying a Model-Based Systems Engineering Approach to Model...][research_badra_aiello_2023]
 - [Digital Twin Modeling and Simulation of Computer Aided Design...][research_digital_twin_2023]
@@ -5258,47 +5107,28 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Industry 4.0 An innovative manufacturing process on a Digital...][research_fajardopruna_lopezestrada_2023]
 - [Intelligent design of assembly process based on digital twin][research_hao_li_2023]
 - [Machine Learning based reduced models for the...][research_schouler_prevereaud_2023]
-- [Machine learning-based estimation of gaseous and particulate...][research_seo_lim_2023]
 - [Megatrends of Digital Engineering Technologies Analysis of...][research_platunina_salutina_2023]
 - [Motion-Primitive based Deep Reinforcement Learning for High...][research_levin_nolan_2023]
 - [Optimizing Heterogeneous Platform Allocation Using...][research_brumwell_kitchen_2023]
 - [Prediction of the Debonding Failure of Beams Strengthened...][research_hu_zhang_2023]
-- [Real-Fake Face Detection Based on Joint Multi-Layer CNN...][research_bian_2023]
 - [Research on aerodynamic shape optimization of reentry vehicle...][research_zhu_sun_2023]
-- [Safe Autonomous Vehicle Cooperative Cruise Control With Deep...][research_yang_negash_2023]
 - [A Deep-Reinforcement-Learning-Based Digital Twin for...][research_khdoudi_masrour_2024]
 - [A Digital Twin Platform Integrating Process Parameter...][research_wang_yang_2024]
-- [A Hybrid Approach of Air Mass Trajectory Modeling and Machine...][research_wei_huang_2024]
 - [A digital twin-oriented lightweight modeling approach for gas...][research_liu_jiang_2024]
-- [A systematic review of Kansei engineering in vehicle design][research_lu_ye_2024]
-- [Advanced Scientometric Analysis of Scientific Machine...][research_emmertstreib_tripathi_2024]
 - [An Intelligent Bait Delivery Control Method for Flight...][research_xue_wang_2024_b]
-- [Applications of machine learning in surge prediction for...][research_saito_kanzaki_2024]
-- [Bridging Safety and Technology Deep Learning Innovations in...][research_kaur_2024]
 - [Comparative Analysis of Deep Reinforcement Learning...][research_akhtar_maqsood_2024]
 - [Digital Twin Study of a Controlled Vertical Take-Off and...][research_serceoglu_2024]
-- [Digital Twin in Architectural Design Process Foetal Twin Test...][research_emirisik_isik_2024]
 - [Digital Twin-Enabled Real-Time Ultrasonic Assessment for...][research_pozhanka_stidham_2024]
 - [Digital optics and machine learning algorithms for aircraft...][research_merola_2024]
 - [Digital transformation in aviation an end-to-end digital twin...][research_reitenbach_ebel_2024]
-- [Dynamic Performance and Structural Integrity Monitoring of...][research_liu_qin_2024]
-- [Enhancing Power System Protection with Machine Learning A...][research_gulzar_urrehman_2024]
 - [Extending the Digital Twin Ecosystem A real-time Digital Twin...][research_pantelidakis_mykoniatis_2024]
 - [Implementing a Student Rover Design Exercise in the Digital...][research_gregory_salado_2024]
-- [Knowledge-data Collaborated Digital Twin Model of Papermaking...][research_liu_hong_2024]
 - [Lattice Structure Design Using Machine Learning and...][research_mahdi_crick_2024]
 - [Machine Learning-Based Models for Delamination Detection in a...][research_chaurasia_najafi_2024]
-- [Mass Estimation of Heavy-Duty Vehicle Using Machine Learning...][research_bilgin_tuncer_2024]
-- [Miniature Autonomous Vehicle Environment for Sim-to-Real...][research_pareigis_riege_2024]
-- [Night Time Vehicle Detection Using Machine Learning][research_aaminakhadri_ramacharan_2024]
 - [Operational Reliability Analysis of Turbine Blisk Using an...][research_liang_sun_2024]
 - [Performance Evaluation of Advanced Machine Learning...][research_zhu_2024]
-- [Reinforcement Learning-Based Robust Vehicle Control for...][research_lelko_nemeth_2024]
 - [Service oriented digital twin for additive manufacturing...][research_chen_surendraarcharyagie_2024]
 - [Structure Design of Adaptive Probabilistic Modular Neural...][research_zhang_yang_2024]
-- [Surface Performance of Titanium Alloy Brake Shell Polished by...][research_zhang_chen_2024]
-- [Technology Application of Autonomous Vehicle in Machine...][research_shang_2024]
-- [The Combination and Application of Vehicle-Connected Vehicle...][research_lu_2024]
 - [Vehicle Detection and Speed Estimation Using Deep Learning][research_mishra_mishra_2024]
 - [Zero-bias deep neural network for defect detection in...][research_phillips_kumar_2024]
 - [A Machine Learning Rapid Prediction of the Aerothermodynamic...][research_chen_fan_2025]
@@ -5313,7 +5143,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Digital Twin-Driven Design of an Ice Prediction Model][research_serino_dagna_2025]
 - [Digital twin is revolutionising manufacturing industry][research_tao_qi_2025]
 - [Digital twins in manufacturing a taxonomy for manufacturing...][research_aurich_mertes_2025]
-- [Dynamic solar irradiance estimation for vehicle thermal...][research_rajagukguk_lee_2025]
 - [Explainability for Unmanned Aerial Vehicle Control via...][research_clark_albarado_2025]
 - [Improve Manufacturing Quality with Digital Twin Technology][research_improve_manufacturing_2025]
 - [Integrating Digital Engineering in Emerging Aerospace...][research_colvin_lynch_2025]
@@ -5321,13 +5150,10 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Machine learning and digital twin assisted temperature...][research_lin_lu_2025]
 - [Model-Based Systems Engineering Approach for Requirements...][research_borio_fusaro_2025]
 - [Multi-objective optimization for impact resistance of...][research_chen_xiao_2025]
-- [Real-time dynamic thermal analysis of vehicle brakes A...][research_fereydoonpour_hodges_2025]
-- [Systematic Literature Review on Digital Twin-enabled Process...][research_thennakoon_2025]
 - [Systematic selection framework for digital twin development...][research_dodero_mccormick_2025]
 - [Temporal-Sequence Offline Reinforcement Learning for...][research_jin_zhao_2025]
 - [Trajectory optimization for vertical take-off and landing...][research_barzegar_deniz_2025]
 - [Transformer-Diffusion Hybrid for Enhancing Digital Twin...][research_r_nandhakumar_2025]
-- [Vision Based Vehicle Tracking Network and Counting Using Deep...][research_k_muthukumaravel_2025]
 - [A Case for Causal Reinforcement Learning in Longitudinal...][research_schmidt_tao_2026]
 - [A Data-efficient Machine Learning Framework for Uncertainty...][research_johnson_preedy_2026]
 - [A Data-Driven Digital Twin for Predicting Manufacturing...][research_uddin_lora_2026]
@@ -5341,7 +5167,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Digital Twin-Based Quality Inspection and Process...][research_wei_geng_2026]
 - [Digital twin for early-stage fault detection in a hybrid...][research_tsakalos_krimpas_2026]
 - [Digital twin model for performance analysis and manufacturing...][research_masar_mahmood_2026]
-- [Evaluating the Performance of Multiple Machine Learning and...][research_liao_liu_2026]
 - [Fastener Flexibility Analysis of Metal-Composite Hybrid Joint...][research_niu_zhang_2026]
 - [Flight demonstration of closed-loop skin-friction drag...][research_fang_zong_2026]
 - [From Physical Realm to Digital Twin An Additive Manufacturing...][research_khatouri_sahebsara_2026]
@@ -5354,7 +5179,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Optimization of Mechanical Manufacturing Process Based on...][research_fu_2026]
 - [Reinforcement learning-based morphing decision and...][research_cui_han_2026]
 - [SMARTCLAVE A High-Fidelity Digital Twin for Predicting...][research_shrestha_karuppiah_2026]
-- [STCM Structure-Temporal Collaborative Modeling for...][research_liu_li_2026_b]
 - [Safety-constrained start-up control of reusable LOX/Kerosene...][research_liu_cheng_2026]
 - [Semantic Factor-Space Architecture for Aerospace and Defense...][research_gardberg_2026]
 - [Structural damage diagnosis and prognosis with fleet digital...][research_xu_dai_2026]
@@ -5371,7 +5195,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Uncertainty Quantification for Joint Input-state Estimation...][research_maes_smyth_2015]
 - [Uncertainty Quantification in Nonlinear Structural Dynamics...][research_capiezlernout_soize_2015]
 - [Path-Space Information Bounds for Uncertainty Quantification...][research_dupuis_katsoulakis_2016]
-- [Sensitivity analysis of land cover change prediction model in...][research_ayadi_boulila_2016]
 - [A New Approach of Mixed Uncertainty Quantification and its...][research_xie_li_2017]
 - [An Improvement of the Uncertainty Quantification in...][research_capiezlernout_soize_2017]
 - [Flutter Uncertainty Quantification for the S4T Model][research_tartaruga_cooper_2017]
@@ -5392,7 +5215,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Efficient numerical algorithm of profust reliability analysis...][research_feng_lu_2018]
 - [Uncertainty Quantification for Free Stream Turbulence...][research_salahudeen_baeder_2018]
 - [Sensitivity analysis of launch activities in Low Earth Orbit][research_somma_lewis_2019]
-- [Uncertainty Quantification for Spectral Fractional Diffusion...][research_herrmann_schwab_2019]
 - [Uncertainty Quantification of the Effects of Small...][research_shi_chen_2019]
 - [Uncertainty quantification of planetary entry technologies][research_brune_west_2019]
 - [Aerospace Electronics Reliability Must be Quantified to be...][research_suhir_2020]
@@ -5421,7 +5243,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Fatigue Reliability Analysis of Composite Material...][research_gao_heng_2023]
 - [Investigation on high-dimensional uncertainty quantification...][research_huang_zhou_2023]
 - [Probabilistic approach to safety factor evaluation for...][research_kalyagin_safronov_2023]
-- [Reliability Analysis of Passenger Elevator Block Brake Based...][research_li_chen_2023]
 - [Sensitivity Analysis of Geometric Imperfection Sources in...][research_rivera_venkataraman_2023]
 - [Uncertainty Quantification and Sensitivity Analysis of...][research_song_liu_2023]
 - [Uncertainty quantification and sensitivity analysis on the...][research_cheng_zhou_2023]
@@ -5429,7 +5250,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Dimensional tolerance optimization of SAR antennas with...][research_yu_zhao_2024]
 - [Finite Element Model Validation of Cryogenic DOT-113 Tank Car...][research_eshraghi_carolan_2024]
 - [Finite-Dimensional Models for Response Analysis][research_xu_grigoriu_2024]
-- [Modeling and material uncertainty quantification of RC...][research_haririardebili_segura_2024]
 - [Multi-DORGP for fast uncertainty quantification of...][research_cheng_rabczuk_2024]
 - [Multi-Fidelity Adaptive Sampling for Surrogate-Based...][research_garbo_parekh_2024]
 - [Non-probabilistic credible reliability analysis of the...][research_niu_yan_2024]
@@ -5452,7 +5272,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Unified Framework for Probabilistic Modeling and Uncertainty...][research_fan_giovanis_2025]
 - [Vibrations Analysis of Structural Properties with...][research_hildebrand_klinge_2025]
 - [A Multi-Scale Spatiotemporal Uncertainty Quantification...][research_qian_jin_2026]
-- [Correction Solver and Modeling Sensitivity Analysis of a...][research_erol_unsal_2026_b]
 - [Local Sensitivity Analysis for Bayesian Inverse Problems][research_dolz_ebert_2026]
 - [Reduced-order reconstruction and uncertainty quantification...][research_liang_pan_2026]
 - [Solver and Modeling Sensitivity Analysis of a Four-Engine...][research_erol_unsal_2026]
@@ -5470,11 +5289,8 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Damage tolerance of an impacted composite laminate][research_dubary_bouvet_2018]
 - [Demonstration of array eddy current technology for real-time...][research_todorov_boulware_2018]
 - [In-situ thermography of automated fiber placement parts][research_gregory_juarez_2018]
-- [A Digital Twin of Bridges for Structural Health Monitoring][research_ye_butler_2019]
 - [Guided Wave Propagation Based Analysis of Non-linear...][research_sikdar_ostachowicz_2019]
-- [On the Integration of SHM and Digital Twin for the Fatigue...][research_mondoro_grisso_2019]
 - [Structural Health Monitoring for Aerospace Composite...][research_hadjria_dalmeida_2019]
-- [Unmanned Vehicles for Lightning Protection System Inspection...][research_mascarenas_liao_2019]
 - [Application of Structural Health Monitoring for Structural...][research_liu_liu_2020]
 - [Detection of manufacturing defects in ceramic matrix...][research_gaverina_debarre_2020]
 - [Dynamic Characteristics and Damage Detection of a Metallic...][research_le_goo_2020]
@@ -5487,15 +5303,11 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Infrared thermography of hypersonic boundary layer transition...][research_liu_wang_2021]
 - [Sensor Fault Identification for Robust Structural Health...][research_oncescu_cicirello_2021]
 - [Acoustic digital twin for passive structural health monitoring][research_sternini_bottero_2022]
-- [Convolutional Neural Networks for vehicle damage detection][research_vanruitenbeek_bhulai_2022]
 - [Damage detection and classification for sandwich composites...][research_bj_mr_2022]
-- [Digital Twin Based Structural Health Monitoring of Offshore...][research_rolvag_stranden_2022]
 - [Hierarchical structural health monitoring for health...][research_takeda_kameyama_2022]
 - [Multi step structural health monitoring approaches in...][research_balasubramaniam_sikdar_2022]
 - [Multi-level damage diagnosis on stiffened composite panels...][research_milanoski_galanopoulos_2022]
-- [A Reduced-order Digital Twin for Structural Health Monitoring...][research_brenner_thiele_2023]
 - [Digital Thread Roadmap for Manufacturing and Health...][research_eskue_2023]
-- [Digital twin of wooden heritage through multidimensional...][research_ma_zhao_2024]
 - [Digital twin enabling technology for future aircraft health...][research_yuan_2024]
 - [Enhancing sensor data reliability in structural health...][research_manocha_sood_2024]
 - [Guided Wave-Based Early-Stage Debonding Detection and...][research_kumar_banerjee_2024]
@@ -5503,11 +5315,8 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Physics-Based Digital Twin for Structural Health Monitoring...][research_aguilera_condemine_2024]
 - [Preliminary Nose Landing Gear Digital Twin for Damage...][research_pinello_hassan_2024]
 - [A digital twin-driven machine learning framework for...][research_karyofyllas_giagopoulos_2025]
-- [AI-Driven Structural Health Monitoring and Digital Twin...][research_gunaware_2025]
 - [Advanced NeRF ABM-Nerfacto for High-Definition Digital Twin...][research_kim_cha_2025]
-- [Application of Digital Twin in Structural Health Monitoring...][research_mengesha_2025]
 - [Balanced fidelity digital twin for structural damage...][research_huang_qing_2025]
-- [Development of a Structural Monitoring System for the Digital...][research_mikami_murayama_2025]
 - [Digital Twin System for Structural Damage Monitoring Based on...][research_huang_yu_2025]
 - [Digital Twin for Health Monitoring of Plate Structures Using...][research_harikumar_cr_2025]
 - [Digital Twinning of Aerospace Structures][research_camuz_yilmaz_2025]
@@ -5516,12 +5325,10 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Physics-Informed Machine Learning-Driven Structural Digital...][research_acharya_wang_2025]
 - [Structural Digital Twin for the Health Monitoring of Aircraft...][research_hu_wang_2025]
 - [Structural Health Monitoring for Launch Vehicle Reusability...][research_colicci_noonan_2025]
-- [Structural Stress Health Monitoring of Jacket Platforms Based...][research_zou_2025]
 - [Towards an Efficient Digital Twin Framework for Fiber...][research_sanmugadas_kapania_2025]
 - [An intelligent design of distributed sensor networks for...][research_yan_wang_2026]
 - [Characterisation of composite damage based on acoustic...][research_wu_cui_2026]
 - [Digital Twin Technology for Structural Lifecycle Management...][research_elsisi_cabage_2026]
-- [Digital twin for large span cable-stayed bridges, integrating...][research_chen_chen_2026]
 - [Digital twin-driven dual-stage domain adaptation feature...][research_fan_liu_2026]
 - [Effect of cryogenic temperature, direction, and piezo sensor...][research_scheerer_simon_2026]
 - [High-Temperature Guided Wave Sensing for Thermal Protection...][research_bano_fraser_2026]
@@ -5534,14 +5341,12 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Adsorption hydrogen storage at cryogenic temperature Material...][research_schlemminger_naess_2015]
 - [Aluminum Metal Matrix Composite Liner Testing][research_hansen_fetty_2015]
 - [Characterization of sandwich beams with debonding by linear...][research_idriss_elmahi_2015]
-- [Converse magnetoelectric effect in Pb In1/2Nb1/2...][research_kumar_ramesh_2015]
 - [Design of metal matrix composite with particle reinforcement...][research_vahdat_niaki_2015]
 - [Design-oriented strength of mechanical joints in composite...][research_nakayama_uda_2015]
 - [Effect of laminate edge conditions on the formation of...][research_anderson_altan_2015]
 - [Fabrication and Tensile Property Analysis of a Composite...][research_fabrication_and_tensile_2015]
 - [Fatigue Performance of Hybrid Adhesive Dissimilar Joint][research_hafizan_afendi_2015]
 - [Free vibration analysis of angle-ply composite plates with...][research_adhikari_2015]
-- [Full-scale field test for buried glass-fiber reinforced...][research_lee_kim_2015]
 - [Manufacturing of Triaxial Quasi-three-dimensional Composite...][research_peterson_liu_2015]
 - [Mini 3D printed jet engine can reach 33,000 RPM][research_mini_3d_2015]
 - [Nano-Zirconium Tungstate Reinforced Liquid Crystalline...][research_kessler_li_2015]
@@ -5553,7 +5358,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [The mechanical property prediction of fibre-reinforced...][research_huang_zhao_2015]
 - [Unsteady Thermal Simulations of Wing Ice Protection Systems...][research_henno_2015]
 - [A Component-Wise Approach to Analyse a Composite Launcher...][research_cavallo_pagani_2016]
-- [A DC current sensor based on disk-type magnetoelectric...][research_lou_yu_2016]
 - [A new cost effective composite getter for application in...][research_wang_zhan_2016]
 - [Adhesive Improvement of Different Materials Joint Exposed to...][research_murakami_yonemoto_2016]
 - [Analysis of Curved Composite Structures Through Refined 1D...][research_carrera_garciademiguel_2016]
@@ -5572,13 +5376,10 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Imaging defects in laminate composite plates using focused...][research_kim_in_2016]
 - [Impact Analysis of Composite Repair Patches of Different...][research_s_sv_2016]
 - [Imperfection Insensitivity Analyses of Advanced Composite...][research_wu_farrokh_2016]
-- [Laminate and non-laminate resin composite restorations][research_laminate_and_2016]
 - [Laminate damage model for composite structures][research_mandel_taubert_2016]
-- [Large-Scale Test of a Modular Steel Plate Shear Wall with...][research_dastfan_driver_2016]
 - [Lightweight multilayer composite structure for hydrogen...][research_he_yu_2016]
 - [Mesoscale finite element model for calculating deformations...][research_stadnicki_tokarz_2016]
 - [Orbital ATK tests 3D printed hypersonic engine combustor][research_orbital_atk_2016]
-- [Performance of Anisotropically Conductive Adhesive...][research_lahokallio_frisk_2016]
 - [Peridynamic simulation to impacting damage in composite...][research_sun_huang_2016]
 - [Qualification of Composite Pipe][research_wilkins_2016]
 - [Redesigning a Reaction Control Thruster for Metal-Based...][research_woods_meisel_2016]
@@ -5587,7 +5388,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Stiffness control in adaptive thin-walled laminate composite...][research_rivas_barbero_2016]
 - [Stochastic-Strength-Based Damage Simulation Tool for Ceramic...][research_nemethnoeln_bednarcykbretta_2016]
 - [Stochastic-Strength-Based Damage Simulation of Ceramic Matrix...][research_nemethnoeln_mitalsubodhk_2016]
-- [The Examination of the Aluminum Alloy 7017 as a Replacement...][research_jones_placzankis_2016]
 - [A review on the manufacturing defects of complex-shaped...][research_hassan_othman_2017]
 - [A test rig for analysis of adhesive tapes at 4 K cryogenic...][research_funke_germer_2017]
 - [Aerospace composite cured by quickstep and autoclave...][research_khan_kausar_2017]
@@ -5613,7 +5413,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Process Modelling of Curing Process-Induced Internal Stress...][research_li_li_2017]
 - [Spring-in prediction for carbon/epoxy aerospace composite...][research_fiorina_seman_2017]
 - [Stress redistribution as an effect of non-uniform in-plane...][research_fukada_2017]
-- [The use of principal component analysis in creating an...][research_tatyana_german_2017]
 - [Thermal Inspection of a Composite Fuselage Section Using a...][research_zalamedajosephn_bolducsean_2017]
 - [Thermoelastic Stress Analysis and Modelling for Mechanical...][research_harman_rajic_2017]
 - [Transient Analysis of Anti-symmetric Cross-Ply and Angle-Ply...][research_gupta_ghosh_2017]
@@ -5627,7 +5426,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Characterization of Composite Laminate Lightning Strike...][research_xiao_yin_2018]
 - [Characterization of Polymer Matrix Composite Ply Thickness][research_imel_criner_2018]
 - [Composite Springs for Suspension Vehicles, Spacecraft Stage...][research_sardou_2018]
-- [DC Water at Work Using a Composite Liner Design to Rejuvenate...][research_bian_zhao_2018]
 - [Design and Manufacturing Process of a UAV Composite Wing Spar][research_araujo_costa_2018]
 - [Damage sensing and mechanical properties of laminate...][research_albahrani_aljuboury_2018]
 - [Debonding of Sandwich Panels and Solid Laminates Exhibiting...][research_hower_jois_2018]
@@ -5645,7 +5443,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Influence of the Vacuum Bag Process on The Strength of...][research_hidayat_2018]
 - [Integrated Fiber-Optic Sensor Network System Reliability...][research_black_moslehi_2018]
 - [Investigation on Standards on Hydrogen Cycle of Composite...][research_du_wang_2018]
-- [Low and cryogenic temperature mechanical performance and...][research_li_zhang_2018]
 - [Manufacturing and Evaluation of an Optimized Composite Panel...][research_aoki_sugimoto_2018]
 - [Mechanical performance of composite bonded joints in the...][research_nezhad_stratakis_2018]
 - [Mode-II interlaminar fracture and crack-jump phenomenon in...][research_rkoloor_tamin_2018]
@@ -5688,7 +5485,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Modern Laminate Composite Designed for Aircraft Construction][research_korzec_czarnigowski_2019]
 - [Manufacturing and Burning of Composite AP/HTPB/AP Laminate...][research_thomas_rodriguez_2019]
 - [Manufacturing process and mechanical properties...][research_quagliato_jang_2019]
-- [Methodology for the analysis of post-tensioned structures...][research_barbu_cornejo_2019]
 - [Micromechanical Modeling of High-Strain Thin-Ply Composites][research_yapahamillage_kwok_2019]
 - [Mitigating the weak impact response of thin-ply based thin...][research_sasikumar_trias_2019]
 - [Notched Composite Laminate Design for Improved Compression...][research_yu_batra_2019]
@@ -5759,10 +5555,8 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [An innovative digital image correlation technique for in-situ...][research_spencer_hassen_2021]
 - [Bearing strength performance of mixed thin/thick-ply...][research_cameron_larsson_2021]
 - [Characterization of composite laminate with copper and...][research_vigraman_2021]
-- [Comparison of conventional ceramic laminate veneers, partial...][research_gresnigt_sugii_2021]
 - [Concurrent topology and stacking sequence optimization of...][research_bohrer_kim_2021]
 - [Cryogenic Fuel Storage Modelling and Optimisation for...][research_rompokos_rolt_2021]
-- [Design and Digital Performance of Steel Composite Liner SCL...][research_alavi_bell_2021]
 - [Design of a AB5-metal hydride cylindrical tank for hydrogen...][research_li_teliz_2021]
 - [Development and analysis of composite overwrapped pressure...][research_kartav_kangal_2021]
 - [Dynamic Combustion of Functionally Graded Additively...][research_mcclain_afriat_2021]
@@ -5849,7 +5643,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Analysis of technological parameters of hydroabrasive cutting...][research_lelen_jozwik_2023]
 - [Bird-Strike Analysis on Hybrid Composite Fan Blade...][research_yella_jadhav_2023]
 - [Bonded flush repairs for aerospace composite structures A...][research_orsatelli_paroissien_2023]
-- [Corrosion-resistant facing material with serogypse composite][research_tarasevych_gasan_2023]
 - [Cryogenic mechanical and hydrogen-barrier properties of...][research_zhang_lei_2023]
 - [Damage and failure mechanisms of CFRP due to manufacturing...][research_chen_miao_2023]
 - [Design of a Magnetic Array for Engine Order Excitation of...][research_debrett_schwingshackl_2023]
@@ -5890,7 +5683,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Optical performance of additive manufactured aluminum...][research_eng_casstevens_2023]
 - [Optimization of the Winding Layer Structure of High-Pressure...][research_di_zhu_2023]
 - [Performance evaluation of Raman scattering-based distributed...][research_yang_tao_2023]
-- [Physical overloading test for 3D printed caverns Failure...][research_liu_jiang_2023]
 - [Progressive damage and residual strength of open-hole...][research_aoki_higuchi_2023]
 - [Progressive failure analysis of anisogrid cylindrical...][research_jeon_kim_2023]
 - [Reduction in Computational Cost of Progressive Failure...][research_drake_carvalho_2023]
@@ -5904,7 +5696,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Unconservatism of Linear-Elastic Fracture Mechanics LEFM...][research_heatherkhickman_davidsdawicke_2023]
 - [3D Printing of Carbon Fiber Composite Material Mechanical...][research_kawasaki_2024]
 - [Analysis of Modern Technologies for the Manufacture of...][research_manko_khoroshilov_2024]
-- [An Analysis Method for Fatigue Dynamic Reliability of Ship...][research_zhen_zhou_2024]
 - [Analysis and Testing of a Launch-Vehicle-Like Composite...][research_tillotsonrudd_schultz_2024]
 - [Analysis of thermoplastic composite cap long truss hot...][research_xu_cao_2024]
 - [Broadband Low-frequency Sound Attenuation by Composite...][research_wang_ren_2024]
@@ -5935,19 +5726,14 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Optimisation Design of Thermal Test System for Metal Fibre...][research_qi_a_2024]
 - [Physical storage in conformal composite tanks presents clear...][research_boretti_huang_2024]
 - [Quasi-static compression tests of overwrapped composite...][research_mohammed_raghupathy_2024]
-- [Research on Accurate Friction Characteristics Test Method of...][research_research_on_2024]
 - [Simulation of fiber-induced melt pressure fluctuations within...][research_awenlimobor_smith_2024]
-- [Tailoring Large Scale Manufacturing of MCF to High-Capacity...][research_bennett_2024]
 - [Task incremental learning-driven Digital-Twin predictive...][research_li_wang_2024_c]
-- [Towards composite suspension control arm Conceptual design...][research_komurcu_kefal_2024]
 - [Unleashing the potential of CFRP laminate enhancing...][research_lim_kim_2024]
 - [Use of Electrical Resistance to Assess Damage Development in...][research_morscher_elrassi_2024]
 - [A New Inverse Method for the Determination of Mechanical...][research_tanaya_deb_2025]
 - [A Novel Low NOx Hydrogen Micromix Combustion Arrangement...][research_funke_vierkotter_2025]
 - [A flutter reliability optimization approach for aerospace...][research_lin_feng_2025]
 - [A multi‑scale modeling approach for the deformation and...][research_qu_zhao_2025]
-- [A simple and powerful method for large-scale composite null...][research_liu_2025_b]
-- [Adaptive distributed smooth composite quantile regression...][research_wang_zhang_2025_b]
 - [Additively Manufactured Tooling Mold for Liquid Composite...][research_aldhahri_young_2025]
 - [Adhesive bonding of CFRP with a 3D-printed short-fiber...][research_pizzorni_benvenuto_2025]
 - [Autoclave molding scheduling in aerospace composite materials...][research_xu_xie_2025]
@@ -5958,7 +5744,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Composite Habitat Evolutionary Path Propellant Tank to Crewed...][research_ziglar_2025_b]
 - [Composite Materials and Manufacturing Methods for Hydrogen...][research_savci_emmis_2025]
 - [Conceptual Design Exploration of Hydrogen Enhanced...][research_milten_jonsson_2025]
-- [Correction Composite Habitat Evolutionary Path Propellant...][research_ziglar_2025_c]
 - [Design and Additive Manufacturing of Metamaterial Enabling...][research_wang_song_2025]
 - [Development of High-Performance Composite Materials for...][research_almajali_maaith_2025]
 - [Enhancing Composite Micrograph Analysis with Semantic...][research_naumann_appels_2025]
@@ -6035,8 +5820,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Aeroservoelastic Response of A Typical Lifting Type Reentry...][research_joshi_mujumdar_2015]
 - [Dynamic analysis of a laminated cylindrical shell with...][research_saviz_2015]
 - [Propagation behaviour of guided waves in tapered sandwich...][research_mustapha_ye_2015]
-- [Shell PCA Statistical Shape Modelling in Shell Space][research_zhang_heeren_2015]
-- [A Static Analysis of Uplift During Strong Earthquakes of...][research_nakashima_taniguchi_2016]
 - [A pattern recognition approach for identification of...][research_arun_sathyanarayana_2016]
 - [Design of cylindrical shells using the Single Perturbation...][research_kriegesmann_jansen_2016]
 - [Development of 3D Finite Element Model for Predicting...][research_hussain_elgizawy_2016]
@@ -6068,9 +5851,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Numerical Algorithm for Wing-Structure Design][research_taylor_hunsaker_2018]
 - [Optimal design of stiffened cylindrical shell with...][research_adamovich_2018]
 - [Optimization Design of Nonuniform Cellular Structures for...][research_han_lu_2018]
-- [Probabilistic Load Margin Analysis Considering Stochastic...][research_liu_chu_2018]
-- [Stability of Thin-Shell Wormholes][research_sharif_mumtaz_2018]
-- [Structural design and analysis on a large span dry-coal-shed...][research_wang_2018]
 - [Technology Demonstration Mission TDM evolvable Cryogenics...][research_josephpowell_2018]
 - [The crack detection and evaluation by elastic wave...][research_barski_stawiarski_2018]
 - [Design Equation for Minimum Required Thickness of a...][research_lu_millet_2019]
@@ -6096,18 +5876,13 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Simulated analysis of forming imperfection for micro shell...][research_chen_xi_2020]
 - [The effect of concave roughness on the hypersonic flat-plate...][research_chen_2020]
 - [A New Response Surface Stochastic Analysis Method for Spatial...][research_liu_tondini_2021]
-- [A Probabilistic Margin Assessment of the ASME Section III...][research_nicolas_messner_2021]
-- [Additively Manufactured Ti6Al4V Lattice Structures for...][research_sagbas_gurkan_2021]
 - [Experimental and Finite Element Analysis of Single Stage...][research_experimental_and_2021]
 - [Leaf Vein-Inspired Bionic Design Method for Heat Exchanger...][research_deng_zhao_2021]
-- [New Approach for Single Sign-on Improvement using Load...][research_chitpinityon_tossa_2021]
 - [Novel Structure and Thermal Design and Analysis for CubeSats...][research_park_kim_2021_b]
 - [Numerical study of aerodynamic characteristics of the reentry...][research_kalugin_lutsenko_2021]
 - [Optimisation of Imperfection-Insensitive Continuous Tow...][research_lincoln_weaver_2021]
-- [Shear‐Wave Velocity Structure of Sediments on Cascadia's...][research_mosher_audet_2021]
 - [Support point determination for support structure design in...][research_wang_zhang_2021_d]
 - [The application of differential geometry to parametric...][research_koncul_2021]
-- [Analysis of Air-Gap Magnetic Field and Structure Optimization...][research_sun_ren_2022]
 - [Analysis of Crash Characteristics of Hydrogen Storage...][research_zhang_wang_2022]
 - [Analysis of emergency landing load of civil aircraft with...][research_wang_2022_b]
 - [Bionic Design Method of a Non-Uniform Lattice Structure for a...][research_deng_zhao_2022]
@@ -6116,7 +5891,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Multistage rocket preliminary design and trajectory...][research_morgado_marta_2022]
 - [On the Elastoplastic Dynamic Response of Steel Belt Staggered...][research_liu_du_2022]
 - [On the design optimisation of direct energy deposited support...][research_dsouza_ravichandran_2022]
-- [Probabilistic structural reliability assessment of...][research_jakubowski_fiolek_2022]
 - [Research on simulation modeling and test verification of...][research_jing_2022]
 - [Simulations of Hypersonic Boundary-Layer Transition over a...][research_chen_gibbons_2022]
 - [Stability of Circular Toroidal Shell Subjected to Uniform...][research_zhou_su_2022]
@@ -6127,28 +5901,21 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Impulsive Load Destructive Effects Reduction in Launch...][research_kashani_2023]
 - [Landing Impact Load Analysis and Validation of a Civil...][research_liu_wang_2023]
 - [Modeling Process, Structure, and Assumptions for Rapid...][research_zusack_murphy_2023]
-- [Modelling Agents in Industry 4.0 Applications Using Asset...][research_nikolova_rongen_2023]
 - [Neck Structure Optimal Design of the Turbine Wheel for...][research_chen_xuan_2023]
-- [The Design of Precise Control System to Power Load for...][research_yanpeng_ling_2023]
-- [A new type of time-varying terminal load energy harvester...][research_cong_dong_2024]
 - [Advanced virtual modelling aided stochastic nonlinear dynamic...][research_bo_zhang_2024]
 - [Aeroelastic Structural Analysis to Calculate Symmetrical...][research_awadallaalihajahmed_2024]
 - [Approaches Used to Design Support Structures for Ceramic...][research_ma_liu_2024]
 - [Deep-sea implosion of spherical pressure shell considering...][research_yang_liu_2024]
-- [Enhancing Multi-Area Load Frequency Control with...][research_roy_maungthanoo_2024]
 - [Estimate Anti-symmetrical Divergence Modes of an Aircraft...][research_awadallaalihajahmed_2024_b]
 - [Global interactive-mode imperfection generation for K6...][research_wu_zhang_2024]
-- [Interoperable information modelling leveraging asset...][research_shi_liedl_2024]
 - [Large Openings on Cylindrical Shell Subject to Axial...][research_lu_millet_2024]
 - [Multi-objective optimization design of NPR protection shell...][research_zhou_niu_2024]
 - [Novel Design Optimization of Tail Beam Structure in Unmanned...][research_chinhua_2024]
 - [Novel Microturbine Engine Test Stand for Rapid Assessment of...][research_krizak_scottemuakpor_2024]
 - [Numerical Study of Low Engine Order Excitations due to...][research_gallardo_perezescobar_2024]
 - [Optimization Design of Honeycomb Absorbing Structure and Its...][research_xiang_shi_2024]
-- [Perturbation attenuation in Load Frequency Control][research_dritsas_tzes_2024]
 - [Research on the structure design of self-tightening pipe seal...][research_zhou_niu_2024_b]
 - [Review on the Structure Design of Morphing Winglets][research_wang_yuan_2024]
-- [Single-stage spin-orbit Laguerre-Gaussian modal beam shaping...][research_hakobyan_singh_2024]
 - [Stochastic Vibration Responses of Functionally Graded...][research_ni_xi_2024]
 - [Stress Analysis in Multi-head Large Scale Additive...][research_ghungrad_haghighi_2024]
 - [Characterisation of process-induced defects in polymeric...][research_amirian_battley_2025]
@@ -6160,18 +5927,14 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [High-Order Vibroacoustic Modal Analysis Framework for...][research_magliacano_2025]
 - [Influence shape imperfections on stochastic stability of...][research_lukianchenko_geraschenko_2025]
 - [Lightning Ignition Source Control Technology for Aircraft...][research_guo_dai_2025]
-- [Multi-objective optimization research on the sleeve structure...][research_shen_jiang_2025]
 - [Nonlinear Thermomechanical Transient Response of Initially...][research_tung_thinh_2025]
 - [RBF-Learning-Based Many-Objective Metaheuristic for Robust...][research_ruenruedeepan_bureerat_2025]
 - [Rapid Aerodynamic Load Predictions on an Orbital Reentry...][research_enriquez_2025]
 - [Research on an Intelligent Design Method for the Geometric...][research_lei_chao_2025]
 - [Stability and transition for long-duration hypersonic...][research_gai_cao_2025]
-- [Stress Inversion and Stochastic Wellbore Stability Modelling...][research_talreja_bahuguna_2025]
 - [Tensegrity Structures for Energy Absorption in Aerospace...][research_romarubi_kuo_2025]
 - [Advancing Circular Economy with Additively Manufactured Heat...][research_mathiazhagan_vegini_2026]
-- [Analysis of the correlation between lower limb muscle synergy...][research_bi_wei_2026]
 - [Conceptual Design of CFRP Sandwich Structures Interfacing...][research_bhalerao_gupta_2026]
-- [Decision Tree Model based Fault Diagnosis Method for New...][research_lin_2026]
 - [Dynamic modelling and stability analysis of thin shell...][research_sun_tang_2026]
 - [Efficient reliability-based design optimization for...][research_chen_xie_2026]
 - [Fluid Structure Interaction Modeling of Sloshing Dynamics...][research_biagioli_serraino_2026]
@@ -6179,7 +5942,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Multifidelity Fluid-Structure Coupled Shape Optimization of a...][research_barz_2026]
 - [Quality factor analysis of cylindrical shell resonators...][research_gao_wen_2026]
 - [SEP-MRS Synchronous enhanced PCE combining moving regression...][research_teng_lu_2026]
-- [Structural and Thermal Behavior of Multilayer Wall Systems...][research_omarov_kopzhasarov_2026]
 - [Stochastic stability and multi-physics response of an axially...][research_gu_wu_2026]
 - [Stochastic stability of a coupled circular cylindrical shell...][research_stojanovic_deng_2026]
 - [Volume-constrained multiphysics topology optimization of fin...][research_ding_kang_2026]
@@ -6210,7 +5972,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Effect of atmosphere parameter oscillation at high altitude...][research_chen_du_2016]
 - [Evaluation of Skin Friction Drag for Liner Applications in...][research_gerhold_brown_2016]
 - [Future Vertical Lift Airworthiness Certification - Should it...][research_schrage_arterburn_2016]
-- [High fidelity quasi steady-state aerodynamic model effects on...][research_mohrfeldhalterman_uddin_2016]
 - [Multi-disciplinary Design Optimization of Hypersonic...][research_wu_tang_2016]
 - [The Effects of Chemical Nonequilibrium and Surface...][research_chen_chen_2016]
 - [Transition Prediction in Hypersonic Boundary Layers Using...][research_balakumar_chou_2016]
@@ -6244,7 +6005,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Transition Delay via Vortex Generators in a Hypersonic...][research_paredes_choudhari_2018]
 - [Transition Prediction in Hypersonic Boundary Layers Using...][research_balakumar_chou_2018]
 - [A New Non-Linear Lifting Line Method for 3D Analysis of Wing...][research_karali_yukselen_2019]
-- [Aerodynamic Analysis on under Body Drag and Vehicle...][research_chaudhary_krishnasamy_2019]
 - [Aerodynamic Design and Assessment of a Compact, Single Stage...][research_kessler_giesecke_2019]
 - [Aerothermodynamic analyses and redesign of GHIBLI Plasma Wind...][research_agostinelli_trifoni_2019]
 - [An aerothermodynamic design optimization framework for...][research_digiorgio_quagliarella_2019]
@@ -6268,7 +6028,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Experimental Investigation of Aerothermodynamic...][research_brazhko_davletkildeev_2020]
 - [Multidisciplinary Design Optimization of Reusable Launch...][research_cusick_kontis_2020]
 - [Numerical Study of Hypersonic Boundary-Layer Transition Delay...][research_fievet_deniau_2020]
-- [Vehicle Body Design and Analysis Aerodynamic by Flow...][research_nguyen_do_2020]
 - [Withdrawal Notice Design Optimization and Aerodynamic...][research_withdrawal_notice_2020]
 - [Adding-Point Strategy for Surrogate-Based Reduced-Order...][research_chen_cao_2021]
 - [Aerodynamic/reaction-jet compound control of hypersonic...][research_shou_xu_2021]
@@ -6276,7 +6035,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Direct Numerical Simulations of Hypersonic Boundary-Layer...][research_hader_fasel_2021]
 - [Effect of Two-Dimensional Short Rectangular Indentations on...][research_dong_li_2021]
 - [Effects of corner rounding on aerothermodynamic properties in...][research_jin_wang_2021]
-- [Flow analysis of rear end body shape of the vehicle for...][research_sivaraj_parammasivam_2021]
 - [Hypersonic Boundary-Layer Transition on Blunted Cones at...][research_paredes_scholten_2021]
 - [Hypersonic Trajectory Optimization with High-Fidelity...][research_coulter_wang_2021]
 - [Kinetic comparative study on aerodynamic characteristics of...][research_li_jiang_2021]
@@ -6314,14 +6072,11 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [DNS Study of Enthalpy Effects on Hypersonic Boundary-Layer...][research_matsuyama_2024]
 - [Development of combined hypersonic test facility for...][research_yang_choi_2024]
 - [Dynamic Simulation of Reusable Rocket Aerodynamics Turning...][research_hara_mamashita_2024]
-- [Exploring the Influence of Vehicle Body Designs on...][research_zhang_2024]
 - [Leading Edge Effects on Hypersonic Boundary Layer Receptivity...][research_hoskin_nguyen_2024]
 - [Multiscale coupling simulation of surface catalytic effect on...][research_ye_zhao_2024]
 - [Numerical Investigation of Hypersonic Boundary-Layer...][research_hader_fasel_2024]
 - [Stabilities and transition of a hypersonic boundary layer...][research_wang_chen_2024_d]
 - [Aerodynamic Optimisation and Stability Analysis of...][research_haider_2025]
-- [Aerodynamic Analysis of Diesel Engine Prototype Vehicle Body...][research_dinul_putra_2025]
-- [Aerodynamic Considerations and Optimization in Vehicle Body...][research_pan_2025]
 - [Control of hypersonic boundary-layer transition by...][research_ji_dong_2025]
 - [Evaluating the influence of double curvature BOLT-2 versus...][research_hossein_rabiee_2025]
 - [Multidisciplinary Design and Analysis of a Hypersonic Glide...][research_herrmann_cox_2025]
@@ -6330,14 +6085,12 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Porous Surface Design with Stability Analysis for Turbulent...][research_kim_jeong_2025]
 - [Thermal optical coupling analysis of aero-optical imaging...][research_zhang_xu_2025_b]
 - [Aerodynamic Analysis and Database Development of a Deployable...][research_hoter_nastac_2026_b]
-- [Aerodynamic Stability Analysis of Vehicles under Vehicle...][research_zhao_wang_2026]
 - [Aerothermodynamic Analysis and High-Speed Schlieren Imaging...][research_matheny_smith_2026]
 - [Aerothermodynamic Parametric Analysis of Hypersonic Re-entry...][research_aldamook_shaban_2026]
 - [Application of Ground Vehicle Testing to Reentry Vehicle...][research_machin_daum_2026]
 - [Comparing Aerothermodynamic Models With Emission Spectroscopy...][research_rao_crespo_2026]
 - [Conceptual Study of Reusable Sounding Rocket with Air-Turbo...][research_maru_kobayashi_2026]
 - [Control of Laminar-to-Turbulent Transition in Hypersonic...][research_jeong_cho_2026]
-- [Correction Control of Laminar-to-Turbulent Transition in...][research_jeong_cho_2026_b]
 - [Design and Performance Analysis of Tachyon A Low-Altitude...][research_dendy_hayes_2026]
 - [Flight Stability and Control Effectiveness Assessment of a...][research_chang_seo_2026]
 - [HIFiRE-1 Flight Assessment Using MARSHAL Multiphysics...][research_joseph_whitside_2026]
@@ -6351,15 +6104,11 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Study on aerodynamic characteristics and overall scheme...][research_sun_chang_2026]
 - [Time-Resolved Schlieren Analysis of Boundary-Layer Transition...][research_gajoni_grossir_2026]
 - [Variable-gravity tank self-pressurization research on the...][research_zhang_liu_2026_b]
-- [WITHDRAWAL Investigation of Roughness Induced Transition and...][research_aljbour_2026]
-- [WITHDRAWN Investigation of Roughness Induced Transition and...][research_aljbour_2026_b]
 
-- [A new risk assessment method of power system distance...][research_dai_liu_2015]
 - [Adapting the Systems Engineering Paradigm to Revitalize...][research_flores_2015]
 - [Technology Readiness Level Assessment Process as Applied to...][research_leete_romero_2015]
 - [Transitioning Science and Technology into Acquisition...][research_bonano_magidson_2015]
 - [A Process of the Risk Management for a Space Launch Vehicle...][research_cho_yoo_2016]
-- [A Study of Army Civilian Entry Level and Mid-Level Program...][research_maurice_2016]
 - [Benchmarking assessment for technology readiness in SpaceBot][research_insaurralde_kaupisch_2016]
 - [Cryogenic Hydrogen Cooling of Heated Moderator Vessel][research_nilsson_pucilowski_2016]
 - [Design Lessons Learned from Temperature Management of...][research_gounley_2016]
@@ -6367,7 +6116,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [JPL technology readiness assessment guideline][research_frerking_beauchamp_2016]
 - [A multi-dimensional assessment system for technology...][research_li_xing_2017]
 - [Hydrodynamic model of screen channel liquid acquisition...][research_darr_camarotti_2017]
-- [Risk Assessment of Isolated Single-Wall Orbit Fractures and...][research_thurston_jackson_2018]
 - [Design and Testing of a Small Launch Vehicle with Lessons...][research_chandler_2019]
 - [Lessons learned on design][research_johnson_2019]
 - [A Supplemental Reporting Tool for Assessing Technology...][research_thompson_2020]
@@ -6379,7 +6127,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [A Preliminary Technology Readiness Assessment of Morphing...][research_miceli_ameduri_2023]
 - [An Assessment of the Technology Readiness Level TRL and...][research_lisy_chang_2023]
 - [Debris Risk Assessment for Mega-Constellations in Low and...][research_canoy_bettinger_2023]
-- [Sampling NARCliM factored stochastic data for infrastructure...][research_sampling_narclim_2023]
 - [Technology readiness level of hydrogen storage technologies...][research_boretti_2023]
 - [Enhancing Technology Readiness Assessment The Engineering...][research_jones_2024_c]
 - [Habitability to the Moon and Beyond “Lessons Learned from the...][research_schlacht_foing_2024]
@@ -6402,9 +6149,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Advanced Launch Technology Life Cycle Analysis Using the...][research_mccleskeycareym_2015]
 - [Advisory system development for reliable FEM modelling in...][research_hetey_campbell_2015]
 - [Affordable Development and Demonstration of a Small NTR...][research_borowskisk_sefcikrj_2015]
-- [Agent model of multi-agent system for area power system...][research_halinka_rzepka_2015]
-- [Analysis of the Change and Trend of Enterprise Production...][research_xiao_2015]
-- [Comparison of wavelet and fourier analysis in harmonics in...][research_zhang_zhang_2015]
 - [Demonstration of a Conceptual Design Tool for Multiple...][research_bissonnette_bramesfeld_2015]
 - [Design and Testing of an Additively Manufactured Advanced...][research_mcknight_boyer_2015]
 - [Design and manufacture of high performance hollow engine...][research_cooper_thornby_2015]
@@ -6413,26 +6157,20 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Evaluation of Shear Debonding in Double Lap Joints of...][research_apostol_constantinescu_2015]
 - [Experiment Design for Measuring Accommodation Coefficients...][research_alberts_srikanth_2015]
 - [Exploration of a Design Framework for Large-scale Model...][research_sass_2015]
-- [Improving Weather Research and Forecasting Model Initial...][research_reen_2015]
 - [Multi-Objective Design and Maintenance Optimization of the...][research_zhang_li_2015]
 - [Non-Linear Slosh Damping Model Development and Validation][research_yanghq_westjeff_2015]
-- [Piloting online WellnessRx learning modules Demonstration of...][research_kovacsburns_gramlich_2015]
 - [Problem of intensity reduction of acoustic fields generated...][research_vorobyov_abdurashidov_2015]
 - [Propulsion Technology Assessment Science and Enabling...][research_hopkinsrandallc_thomasherbertd_2015_b]
 - [Propulsion Technology Assessment Science and Enabling...][research_hopkinsrandallc_thomasherbertd_2015]
 - [Reachability analysis of landing sites for forced landing of...][research_coombes_chen_2015]
 - [Research on the reliability model of the underwater vehicle...][research_chen_zhao_2015]
-- [Seismic Analysis of Cylindrical Liquid Storage Tank][research_seismic_analysis_2015]
 - [Sequential Cooperative Robust Optimization SCRO for...][research_hamel_2015]
 - [Space-Based Solar Power A Technical, Economic, and...][research_caton_2015]
-- [Stability of stochastic Richards growth model][research_lv_wang_2015]
-- [Stochastic subspace identification based modelling scheme for...][research_xinzexi_gengyang_2015]
 - [The Liquid Nitrogen Level Measurement for Cryogenic Fuel Tank][research_wang_wang_2015]
 - [Thermal performance analysis of cryogenic system for cooling...][research_vaghela_sarkar_2015]
 - [Trade Space Analysis Rotational Analyst Research Project][research_smead_2015]
 - [United Launch Alliance announces new Vulcan reusable rocket][research_united_launch_2015]
 - [United Launch Alliance rideshare capabilities for providing...][research_karuntzos_2015]
-- [Using Evidence Theory in Land Cover Change Prediction to...][research_ferchichi_boulila_2015]
 - [3D Printing and Additive Manufacturing Capability Modelling][research_michell_2016]
 - [A Strategic Roadmap for Commercializing Low-Cost Beamed...][research_coopersmith_davis_2016]
 - [A design of conformal dipole array for aircraft applications][research_yunfeiqiang_linguo_2016]
@@ -6444,15 +6182,12 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Design of Avionics System and Control Scenario of Small...][research_hadi_kusnaedi_2016]
 - [Designated Cost-Reduction Measures for Enabling...][research_gohardani_2016]
 - [Determination of Space Debris Coordinates by Means of a Space...][research_kondratiuk_kovalevskiy_2016]
-- [Dynamic protection security assessment influences of...][research_romeis_eberle_2016]
 - [Electronic Nose Cone Separation Ring eNSR for Deployment of...][research_roland_edwards_2016]
 - [Enabling Long Duration Spaceflight via an Integrated Vehicle...][research_holguin_2016]
 - [Fast Modeling for Lunar Landing Dynamics Analysis][research_ding_wang_2016]
 - [Fuzzy Rule Base Design With Probabilistic Weights][research_melo_lucas_2016]
 - [Helicopter blade reliability Statistical data analysis and...][research_shahani_babaei_2016]
-- [Impact of wind power generation on a large scale power system...][research_verdejo_escudero_2016]
 - [Launch Model Based Systems Model of NASA Launch Vehicles][research_singhderewa_srivastava_2016]
-- [Long Duration Space Flight Exposed Whole Human Spine...][research_townsend_sarigulklijn_2016]
 - [Long Duration Test Runs of a Highly Throttleable Gelled...][research_pinto_ramsel_2016]
 - [Multi-Objective Shape Optimization Design for LNG Cryogenic...][research_yang_yan_2016]
 - [NASA Space Flight Instruments Cost Time Trends][research_mrozinski_dinicola_2016]
@@ -6463,7 +6198,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Performance Analysis of Single Stage Centifugalompressor by...][research_performance_analysis_2016]
 - [Performance analysis of IMU-augmented GNSS tracking systems...][research_braun_markgraf_2016]
 - [Propulsion Technology Assessment Science and Enabling...][research_hopkinsrandallc_thomasherbertd_2016]
-- [Quantification and Analysis of Propulsive Wake Topologies in...][research_li_dong_2016]
 - [Robust adaptive backstepping control for reentry reusable...][research_wang_wu_2016]
 - [Simulating Long Duration Deep Space Missions][research_morgan_2016]
 - [Single event effect vulnerability analysis and on-orbit error...][research_wei_yueke_2016]
@@ -6473,11 +6207,7 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Top Down Design Applied to the Aerospace Engineering Senior...][research_gielda_lee_2016]
 - [Trajectory Optimization for a Mars Ascent Vehicle][research_benito_johnson_2016]
 - [Two Stage to Orbit Conceptual Vehicle Designs using the SABRE...][research_hellman_bradford_2016]
-- [Understanding and Optimizing Vessel Propulsive Power and Fuel...][research_understanding_and_2016]
-- [Virtual reality as trend contextualising an emerging consumer...][research_jarvinen_2016]
 - [Wave Amplitude Dependent Engineering Model of Propellant...][research_brodnickjacob_westradouglasg_2016]
-- [Weapon systems accuracy evaluation using the error spectrum][research_peng_fang_2016]
-- [3D-DPE A 3D high-bandwidth dot-product engine for...][research_lastrasmontano_chakrabarti_2017]
 - [A Design Strategy Based on Topology Optimization Techniques...][research_barbieri_giacopini_2017]
 - [A design method for constellation of lifting reentry vehicles][research_xiang_kun_2017]
 - [A probabilistic time variant sensor accuracy model and GUI in...][research_liaghati_miller_2017]
@@ -6487,7 +6217,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Ascent phase trajectory optimization for vehicle with...][research_zhou_wang_2017]
 - [Ballistic Reentry of Lifting Capsules at Earth Using Bank...][research_heidrich_braun_2017]
 - [Conceptual Design Solution Space Identification and...][research_rana_mccall_2017]
-- [Delay_dependent H∞ stochastic stability analysis for...][research_lu_liu_2017]
 - [Design and Performance of Modular 3-D Printed...][research_hernandez_singh_2017]
 - [Design and control of a cryogenic multi-stage compression...][research_johnson_baltrusaitis_2017]
 - [Design of a Modular Vortex Tube Engine Air Particle Separator...][research_crumpacker_2017]
@@ -6495,38 +6224,25 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Development of Vehicle Component Sizing Process Using...][research_lee_cha_2017]
 - [Development of a Space Vehicle CONOPS Using SysML and the...][research_gans_2017]
 - [Electro-Mechanical Impedance Measurements as a Possible SHM...][research_kralovec_schagerl_2017]
-- [Failure to Launch The Institutional Defects of the...][research_cost_herzberg_2017]
 - [Hercules Single-Stage Reusable Vehicle supporting a Safe...][research_komar_2017]
-- [Hydrogen-cooled generator hydrogen quality cloud monitoring...][research_wang_li_2017]
-- [Impact of cryogenic temperature operation on static and low...][research_nafaa_cretu_2017]
-- [Implementation of the modified cross-section racking...][research_lu_hwang_2017]
 - [Interaction of the Gas-vapor Mixture and Air on the Condition...][research_trushlyakov_zharikov_2017]
 - [Mars2020 Entry, Descent, and Landing Instrumentation 2 MEDLI2...][research_swansongregory_santosjose_2017]
 - [Multi-Objective Shape Optimization Design for Liquefied...][research_yang_yan_2017]
 - [Multiple subgradient descent bundle method for convex...][research_montonen_karmitsa_2017]
-- [Optimization Design of the Level of 70T Concentrated Nitric...][research_cang_2017]
-- [Optimization-based design of innovative grating-lobe free...][research_tenuti_rocca_2017]
-- [Optimized Test compression for Ultra- large-Scale SoC...][research_optimized_test_2017]
 - [Paradigm Shift in the Development of Innovative Products from...][research_romanov_2017]
 - [Reliability-based design optimization of rotating FGM...][research_safaeianhamzehkolaei_miri_2017]
-- [Research on control strategy of cloud-based terminal user...][research_xu_fu_2017]
-- [Ship Hull Optimization using Modal Shape Design Variables][research_mavridou_pennington_2017]
 - [Special Section Designing for Additive Manufacturing Recent...][research_special_section_2017]
 - [Stability Analysis of Columns with Imperfection][research_sotoudeh_hosking_2017]
 - [The Lunar Space Elevator, a Near Term Means to Reduce Cost of...][research_radley_2017]
 - [The ORBIT Self-Assessment Tool][research_stahl_2017]
 - [Trajectory optimization for a ramjet-powered vehicle in...][research_yang_cui_2017]
-- [Trend Analysis of Fragmented Time Series for mHealth Apps...][research_dai_bikdash_2017]
 - [Wing Fuel-Tank Heat-Sink Calculation for Conceptual Aircraft...][research_roland_rumpfkeil_2017]
-- [Additive Manufacturing for Civil Infrastructure Design and...][research_bhardwaj_zou_2018]
 - [Advanced modeling and trajectory optimization framework for...][research_briese_schnepper_2018]
 - [An efficient single-loop strategy for reliability-based...][research_wang_wang_2018_b]
 - [An offset hub active vibration control system for mitigating...][research_kakaley_jolly_2018]
-- [Analysis of Process Variations, Defects, and Design-Induced...][research_chaudhuri_chakrabarty_2018]
 - [Analysis of biomimetic caudal fin shapes for optimal...][research_krishnadas_ravichandran_2018]
 - [Convex Model Predictive Control for Rocket Vertical Landing][research_wang_song_2018_b]
 - [Cooling and Heating Tests][research_cooling_and_2018]
-- [Correction Uncertainty-Based Design Optimization and...][research_roelofs_vos_2018_b]
 - [Current Status, Development Trend and Key Technology Analysis...][research_zhong_2018]
 - [Design Optimization of Fuel Sensor Location in Aircraft...][research_jung_yang_2018]
 - [Design approach for additive manufacturing employing...][research_kamps_biedermann_2018]
@@ -6543,44 +6259,32 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Surface Access Architecture Modeling Trend Analysis and...][research_isaji_maynard_2018]
 - [Systems-Theoretic Process Analysis of space launch vehicles][research_rising_leveson_2018]
 - [Thermal Insulation Design of the Optical Measurement Device...][research_li_wu_2018]
-- [Tracked vehicle movement modelling][research_sojka_cornak_2018]
 - [Uncertainty-Based Design Optimization and Technology...][research_roelofs_vos_2018]
-- [Vulnerability analysis of critical infrastructures in the...][research_zimmermann_winker_2018]
-- [A Non-Stationary Geometry-Based Cooperative Scattering...][research_a_non_stationary_2019]
 - [A Value Assessment Engine for the International Space Station...][research_alexander_anderson_2019]
 - [Additive Manufacturing of Ceramics][research_slowik_2019]
 - [Aero-Propulsive Analysis for Contemporary Conceptual Design][research_ahuja_chakraborty_2019]
 - [An Analysis of Factors Affecting Software Safety in the...][research_li_li_2019]
-- [An optimization model for siting and sizing of...][research_mortaz_vinel_2019]
 - [Analysis of Parachute Recovery Process for UAV based on...][research_li_chen_2019]
 - [Categorization of Design for Additive Manufacturing Concepts][research_chekurov_2019]
 - [Cost estimating of commercial smallsat launch vehicles][research_drenthe_zandbergen_2019]
 - [Design against distortion for additive manufacturing][research_yaghi_ayvarsoberanis_2019]
-- [Development for Vehicle Thin Ceiling Circulator to Enhance...][research_ochiai_oda_2019]
 - [Evaluation method of riblets effects and application on a...][research_li_liu_2019]
 - [Integration methods for aircraft scheduling and trajectory...][research_sama_dariano_2019]
 - [JAXA Space Education Program for Informal Education A Case...][research_miyata_2019]
 - [Laboratory scale testing of ignition overpressure for space...][research_tinney_valdez_2019]
-- [Mittag-leffler string stability of singularly perturbed...][research_sayevand_2019]
-- [Model Checking is Possible to Verify Large-scale Vehicle...][research_zhang_tuo_2019]
 - [Multi-mission Multi-objective Optimization in Commercial...][research_cai_rajaram_2019]
 - [Numerical evaluation of aerodome and cooling jet for...][research_qin_xu_2019]
 - [Performance Analysis of Liquid Propellant Micro-propulsion...][research_edalatpour_ommi_2019]
 - [Preliminary safety assessment of the DLR SpaceLiner vehicle][research_lariviere_kezirian_2019]
 - [Preliminary study on a new cryogenic energy storage system...][research_liu_tan_2019]
 - [Probabilistic Safety Assessment for UAS Separation Assurance...][research_tabassum_sabatini_2019]
-- [Propulsive Performance Analysis of Underwater Flapping...][research_wang_du_2019]
 - [Rocket Propulsion Classification of Different Types of Rocket...][research_rocket_propulsion_2019]
 - [Remotely piloted aircraft system air vehicle type selection][research_glizde_urbaha_2019]
 - [Research of dynamics of double helicoidal vehicle in granular...][research_eimanis_auzins_2019]
-- [Research on Location Method of Vehicle Trajectory based on...][research_he_wang_2019]
 - [Research on optimization of index system design and its...][research_kedong_zhou_2019]
-- [Study on the Method of Terminal Trajectory to External...][research_li_qu_2019]
-- [System allowing adhesion force change of road vehicle][research_jilek_sefcik_2019]
 - [Thrust Augmentation of an Additively Manufactured Hybrid...][research_whitmore_heiner_2019]
 - [Towards an Enhanced Data- and Knowledge Management Capability...][research_maindze_skaf_2019]
 - [Towards automated test program development with integrated...][research_khaldarov_shalumov_2019]
-- [Vehicle speed measurement model for video-based systems][research_javadi_dahl_2019]
 - [A Convex Programming Method for Rocket Powered Landing With...][research_xie_zhang_2020]
 - [A Design of Bandwidth-Enhanced Conformal Antenna for Aircraft...][research_monica_jothilakshmi_2020]
 - [A Mechanical Test Frame for Property Evaluations at Cryogenic][research_clelland_petrossian_2020]
@@ -6589,14 +6293,8 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [A Trajectory Tracking Method Using Convex Optimization][research_an_xiong_2020]
 - [Additive manufacturing of high modulus steels New...][research_springer_baron_2020]
 - [Additive manufacturing-enabled design, manufacturing, and...][research_peng_zhu_2020]
-- [An Extended Kalman Filter implementation for estimating the...][research_ljgalvao_mfontes_2020]
 - [An Iterative Convex Programming Method for Rocket Landing...][research_wang_li_2020]
-- [Approximate analytical characterization and multi-parametric...][research_chang_li_2020]
-- [Cluster ion concentration in vehicle exhaust gases][research_skromulis_2020]
-- [Computer-Aided Design and Additive Manufacturing of Custom...][research_chen_plott_2020]
 - [Control System for Vertical Take-Off and Landing Vehicle’s...][research_tang_zhang_2020]
-- [Cost Benefit Analysis of Leakage Reduction Methods in Water...][research_ahopelto_vahala_2020]
-- [Digital Vehicle Security Platform Proposal][research_paulort_lepikson_2020]
 - [Design and Construction of a Cryogenic LNG Tank on Permafrost][research_design_and_2020]
 - [Design and characterisation of an additive manufacturing...][research_rivassantos_thompson_2020]
 - [Design for additive manufacturing process for a lightweight...][research_diegel_schutte_2020]
@@ -6608,8 +6306,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [FEM analysis of interaction between skid landing gear on the...][research_ahsaei_rezaeizadeh_2020]
 - [Finite Time Horizon Analysis of Launch Vehicles Under Mass...][research_biertumpfel_bennani_2020]
 - [Flying Robot Production Program for Comprehensive...][research_hara_2020]
-- [Initial acoustic assessment of long underground enclosures...][research_nowicka_2020]
-- [Investment Game Model Analysis of Emission-Reduction...][research_yu_hou_2020]
 - [Mathematical modeling of processes of heatand mass transfer...][research_pegov_moshkin_2020]
 - [Multi-Mission Space Exploration Vehicle MMSEV Nosecone Design...][research_bhattacharya_jung_2020]
 - [Numerical Investigation of a Noise Reduction Strategy for...][research_yenigelen_morris_2020]
@@ -6619,67 +6315,45 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Probabilistic Model for Aero-Engines Fleet Condition...][research_zaccaria_fentaye_2020]
 - [Remotely piloted aircraft system air vehicle wing airfoil...][research_glizde_urbaha_2020]
 - [Simulating cyber-physical systems Identifying vulnerabilities...][research_mahan_menold_2020]
-- [Simulation Analysis of Vehicle Body Overvoltage Caused by EMU...][research_zhang_feng_2020]
-- [Software tool development for estimating forces acting on a...][research_madhu_aravindjr_2020]
-- [Stochastic semidiscretization method Second moment stability...][research_sykora_bachrathy_2020]
 - [Study on Scattering Correction of the 60Co Gantry-Movable...][research_ni_li_2020]
 - [Thermodynamic model of cryogenic fuel tank processes][research_cherkasov_laptev_2020]
 - [Trends in the development of a digital quality management...][research_kovrigin_vasiliev_2020]
 - [Use of cryogenic components of propellants for...][research_orlin_2020]
 - [A Low-Cost Aero-Propulsive Analysis of Distributed Electric...][research_erhard_clarke_2021]
-- [A Reusable Unit Process Life Cycle Inventory Model for Infeed...][research_glisic_veluri_2021]
-- [A Self-learning Scheme to Detect and Mitigate the Impact of...][research_baker_althuwaini_2021]
 - [A constructive solid geometry-based generative design method...][research_wang_zhang_2021_c]
 - [A convex approach to trajectory optimization for boost back...][research_li_wei_2021]
 - [Advanced design for additive manufacturing][research_simpson_2021]
 - [Aerothermodynamic study of Two-Stage-To-Orbit system composed...][research_cheng_chen_2021]
 - [An advanced probability safety margin analysis approach...][research_sun_li_2021]
-- [Analysis of Hydraulic Lifting Device for Wind Power Tower...][research_analysis_of_2021_b]
 - [Analysis of Terminal Area Airspace Operation Status Based on...][research_zhong_liu_2021]
 - [Assessment of single-difference and track-to-track ambiguity...][research_zhou_chen_2021]
 - [Augmented Design with Additive Manufacturing Methodology...][research_lang_segonds_2021]
 - [CONVEX CONtinuously Varied EXtrusion A new scale of design...][research_moetazedian_budisuharto_2021]
-- [Chassis durability and comfort trade-off at early stage of...][research_gao_jezequel_2021]
 - [Conceptual design and optimization of a general aviation...][research_nicolay_karpuk_2021]
 - [DEM-FEM Coupling Analysis of Safe Landing of Reentry Capsule...][research_liang_ji_2021]
 - [DEM-FEM-MBD coupling analysis of landing process of lunar...][research_ji_liang_2021]
-- [Design and Application of Space Saving Vehicle LPG Tank][research_kartal_2021]
 - [Design and additive manufacturing of thermal metamaterial...][research_you_park_2021]
 - [Design and manufacturing of monolithic mechanical...][research_muhammad_2021]
 - [Design framework for optimizing waypoints of vehicle...][research_kim_cho_2021]
 - [Design of particle dampers for additive manufacturing][research_ehlers_tatzko_2021]
-- [Development and Application of Digital Human Models in the...][research_wang_lou_2021]
-- [Development of Contents Model for Mathematics Experience...][research_kwak_kwon_2021]
 - [Development of a Gimbal Actuated Powered Descent Vehicle][research_vredevoogd_thompson_2021]
 - [Development of an Advanced Hydrogen Energy Storage System...][research_schmitt_2021]
-- [Development of an Automated Delivery Vehicle][research_liyanage_2021]
 - [Failure analysis of aircraft main landing gear cylinder...][research_diltemiz_2021]
 - [Fermilab’s Horizontal Test Stand Cryogenic System Upgrade and...][research_rabehl_alatassi_2021]
 - [From the Martian Surface to Its Low Orbit in a Reusable...][research_gaffarel_kadhum_2021]
 - [FullControl GCode Designer Open-source software for...][research_gleadall_2021]
-- [Modification and Analysis of Twin Screw Ship Stern for...][research_rulianto_indiaryanto_2021]
-- [Multi-Stream Attention Learning for Monocular Vehicle...][research_huang_huang_2021]
 - [Multidisciplinary Analysis of Propulsive Electric Motors...][research_babcock_bedonian_2021]
-- [Novel low cost launch for measuring via-to-cavity coupling][research_deek_piketmay_2021]
 - [On-Orbit Robotic Grasping of a Spent Rocket Stage Grasp...][research_mavrakis_hao_2021]
 - [Optimal Sensor Deployment to Diagnose Large-Scale...][research_singhania_sawkar_2021]
 - [Optimized Launch to Rendezvous Trajectories for a Mars Ascent...][research_sosa_tuminello_2021]
-- [Process Enabler and Design Opportunities for Fully...][research_sheng_2021]
 - [Pulse Performance Analysis of a 45 Newton Additively...][research_bangalorevenkatesh_osborne_2021]
 - [Recurrence network analysis of design-quality interactions in...][research_chen_rao_2021]
-- [Stability of solutions of Caputo fractional stochastic...][research_xiao_wang_2021]
 - [Stochastic Exponential Stability of Nonlinear Stochastic...][research_mcallister_rawlings_2021]
-- [Student test-taking effort in low-stakes assessments evidence...][research_pools_monseur_2021]
-- [The design space for long-duration energy storage in...][research_sepulveda_jenkins_2021]
-- [The flexural-wave-based lens design for energy focusing via...][research_li_qian_2021]
-- [Vehicle Reliability Test in Vehicle Development][research_vehicle_reliability_2021]
 - [Vulcan Centaur Next Generation Multi-Manifesting for Low-Cost...][research_bair_reed_2021]
 - [A Parametric Analysis of Dynamic Tensile Extrusion Using...][research_coppinger_2022]
 - [A Review on Trajectory Optimisation Techniques for Launch...][research_siby_s_2022]
 - [Adaptive Stochastic Gradient Descent Method for Convex and...][research_chen_tang_2022]
 - [Application of Probabilistic Set-Based Design Exploration on...][research_spinelli_enalou_2022]
-- [Boost, sustain, orbit the multi-stage launch of new energy][research_abdeligalinier_2022]
-- [Computational analysis on propulsive characteristic of...][research_li_pan_2022]
 - [Degradation assessment of solar cell array of low orbit...][research_hui_yanhui_2022]
 - [Design and Analysis of a Small Unmanned Aerial System UAS...][research_webb_2022]
 - [Design and Implement an Additive Manufacturing Injection Mold][research_alsayyed_foland_2022]
@@ -6688,24 +6362,14 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Design-Technology Co-optimization for Cryogenic Tensor...][research_kang_yu_2022]
 - [Designing And Simulation Analysis of A Rocket In Ansys][research_designing_and_2022]
 - [Development of a Liquid Hydrogen Combustion High Bypass...][research_carter_agarwal_2022]
-- [Effective, Efficient, and Meaningful Program Assessment Using...][research_shen_2022]
 - [Electromagnetic Space Launch Infrastructure A Techno-Economic...][research_swan_2022]
 - [Exploring Augmented Reality for Teaching Design for Additive...][research_melo_ravi_2022]
 - [Final testing, pre-launch activities, launch and post-launch...][research_badiarifa_cantosgalvez_2022]
-- [Fonts That Fit the Music A Multimodal Design Trend Analysis...][research_haraguchi_sakaguchi_2022]
-- [Hydrogen Cooled Generator Fast Degas Purge System Benefits...][research_tucker_warren_2022]
-- [Integrated Model of Professional Creative Development of...][research_shimichev_rotanova_2022]
 - [Intelligent additive manufacturing and design state of the...][research_xiong_tang_2022]
-- [Large-scale wind power grid modelling and stability...][research_attachie_amuzuvi_2022]
 - [Liquid-solid Coupling Analysis and Optimization Design of...][research_liquid_solid_coupling_2022]
 - [Nonlinear Model-Assisted Control for Autonomous Parachute...][research_gao_han_2022]
-- [Numerical Analysis of the Effect of the Non-Sinusoidal...][research_numerical_analysis_2022]
-- [Optimal Design and Operation Planning of VPPs Based on...][research_castelli_pilotti_2022]
-- [Price and Quality Analysis of Purchasing Decision Making at...][research_putra_chumaidi_2022]
 - [Raw Scanned Point Cloud Registration with Repetition for...][research_cao_gong_2022]
 - [Research on an abnormal heating fault of main hydraulic oil...][research_tang_lu_2022]
-- [Retrospection and trend analysis of comprehensive quality...][research_fang_gu_2022]
-- [Significance and Role of Industrial Inputs in Productivity of...][research_iqbal_mahar_2022]
 - [Single-tank storage versus multi-tank cascade system in...][research_caponi_ferrario_2022]
 - [Space Environment Evaluation and Low-Earth-Orbit...][research_kameda_nagata_2022]
 - [Stability analysis of Mars soft landing under uncertain...][research_ding_liu_2022]
@@ -6722,26 +6386,19 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Analysis of Technology, Economic, and Legislation Readiness...][research_srivastava_pradhan_2023]
 - [Analysis of influencing factors of aircraft fuel tank...][research_geng_zhang_2023]
 - [Approaches for automated wiring harness manufacturing...][research_lorenz_mayer_2023]
-- [Aspect-Based Sentiment Analysis of Twitter Influencers to...][research_jahanbin_chahooki_2023]
 - [Assessing Configurations for a Cryogenic Propellant Depot][research_perrin_2023]
-- [Assessment System of Natural Environment Protection Based on...][research_assessment_system_2023]
-- [Assessment of Lightning Protection System in University Campus][research_assessment_of_2023]
 - [Basic aspects of topological technology of automated on-board...][research_belyakov_shulepov_2023]
 - [Behavior of Barrier Wall under Hydrogen Storage Tank...][research_kim_jang_2023]
 - [Bio-inspired design and performance evaluation of a novel...][research_wu_wu_2023]
-- [Brownfields, Environmental Stability and Renewable Energy...][research_dregulo_2023]
 - [Business Case Study for the Cycler A Circumlunar Vehicle for...][research_lemarquis_welch_2023]
-- [Current Issues of Critical Infrastructure Protection System...][research_trushkina_2023]
 - [Combined Cycles for Reusable and Cost-Efficient Space Flight][research_roddy_2023]
 - [Commercial Space Rescue Vehicle Reentry Concepts of Operation...][research_johnis_2023]
-- [Comprehensive assessment of thermal characteristics, kinetics...][research_zhao_zhao_2023]
 - [Cooling effect analysis on para-ortho hydrogen conversion...][research_meng_qin_2023]
 - [Coupled Modeling and Prediction of Cryogenic Propellant...][research_lan_shi_2023]
 - [Cryogenic and safety design of the future High Field Cable...][research_bruce_tope_2023]
 - [Demonstration And Analysis of The Guiding Control System for...][research_chen_2023]
 - [Design Optimization of Hexacopter Frame Using Generative...][research_azhaganm_shanmugam_2023]
 - [Design and Optimization of the Insulation Performance of a...][research_yu_xie_2023]
-- [Design and operational management of sustainable Multi...][research_khare_chaturvedi_2023]
 - [Design and optimization of a type-C tank for liquid hydrogen...][research_liu_zhou_2023]
 - [Design optimization of hot stamping tooling produced by...][research_chantzis_tracy_2023]
 - [Designing immersive experiences in virtual reality for design...][research_mathur_miller_2023]
@@ -6751,12 +6408,8 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Engine cycle design and Integration of Component Interfaces...][research_creese_vuppala_2023]
 - [Features of the Development of Additive Manufacturing Methods...][research_features_of_the_2023]
 - [Feasibility Analysis of Autonomous Orbit Determination and...][research_li_hou_2023]
-- [Feasibility Analysis of Integrating Single-Phase Electrical...][research_erden_kabalci_2023]
 - [Feasible options for point-to-point passenger transport with...][research_callsen_wilken_2023]
-- [Hybrid model predictive control on lifting and dropping...][research_yao_cai_2023]
-- [Identifying stochastic model parameter non-stationarity over...][research_identifying_stochastic_2023]
 - [Improvement of the DDPG algorithm via twin delayed DDPG TD3...][research_maz_prajitno_2023]
-- [Influence of highway space alignment continuous degradation...][research_wang_coulibaly_2023]
 - [Manufacture of Hybrid Standard-Ply/Thin-Ply Carbon/Epoxy...][research_lovejoy_cardona_2023]
 - [Multi-Material and Multi-Joint Topology Optimization...][research_kim_huang_2023]
 - [Novel STL-Free Design Paradigm for High-Resolution...][research_rastegarzadeh_huang_2023]
@@ -6767,20 +6420,14 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Predicting aircraft trajectory uncertainties for terminal...][research_zhu_hong_2023]
 - [Pressure safety approach for PIP-II cryogenic distribution...][research_soyars_banaszkiewicz_2023]
 - [Probabilistic Risk Analysis Methods for Nuclear Launch Safety][research_makinson_morrison_2023]
-- [Razumikhin and Krasovskii stability of impulsive stochastic...][research_pan_hu_2023]
-- [Research in vehicle exhaust gas compliance with Euro standard][research_jokubyniene_liebuviene_2023]
 - [Safety Margin Quantification by Integrating Probabilistic and...][research_yu_labeau_2023]
 - [Sandwich Face Layer Debonding Detection and Size Estimation...][research_kralovec_lehner_2023]
 - [Simulated Design of an MPC Controller for Rocket Vertical...][research_agarwal_2023]
 - [Size Design of the Storage Tank in Liquid Hydrogen...][research_wang_li_2023]
 - [Space vehicle docking system standardization][research_lewis_donahoe_2023]
-- [Streamflow-based evaluation highlights discrepancies in...][research_streamflow_based_evaluation_2023]
 - [Teoretical-experimental Comparison of the Models of...][research_teoretical_experimental_comparison_of_2023]
 - [The importance of dissimilar redundancy for safety in future...][research_ryan_granger_2023]
 - [Trajectory Optimization of Long-Range Guided Rocket-Propelled...][research_sun_zhang_2023]
-- [Vehicle Health Inspections in the Digital Age Harnessing Auto...][research_agarwal_2023_b]
-- [Vehicle slalom passage analysis][research_blatnicky_molnar_2023]
-- [Waste heat recovery and reuse for ship hydraulic oil...][research_chen_2023_b]
 - [A Cost and Benefit Analysis of Orbital Debris Remediation...][research_colvin_locke_2024]
 - [A Cost-Equity Tradeoff for Space Launch Airspace Allocation][research_oneill_hansman_2024]
 - [A general inspection and replacement policy for protection...][research_rodrigues_cavalcante_2024]
@@ -6788,7 +6435,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [ACP-Based Space Systems Design, Development, and Operation][research_cai_meng_2024]
 - [Adaptive Sequential Convex Programming for Mars Ascent...][research_li_guo_2024]
 - [Additive manufacturing of functionally graded foams Material...][research_kalia_ameli_2024]
-- [An Analysis of No-Cost Solutions for Toxic Waste Reduction in...][research_konstanciak_nogala_2024]
 - [An Assessment of the Radiation Risk in Orbit Around Mars...][research_an_assessment_2024]
 - [Analysis and Management of Large-Scale Programs Under...][research_akinfiev_2024]
 - [Analysis of the Preparation-Storage-Use of Hydrogen][research_ma_2024]
@@ -6796,24 +6442,19 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Battery Knockdown Factors for Conceptual Design][research_mcdonald_2024]
 - [China Aerospace Systems Engineering Method in the Digital Age][research_china_aerospace_2024]
 - [Cold energy utilization analysis of cryogenic dual-energy...][research_wang_zhu_2024]
-- [Conduction Lead Design and Optimization for Cryogenic...][research_qiu_zhang_2024]
 - [Consequence analysis of vapour cloud explosion from the...][research_sun_loughnan_2024]
 - [Continuity risk evaluation of the Bayesian posterior...][research_liu_okeefe_2024]
 - [Convex Optimization-Based Trajectory Planning for Quadrotors...][research_shen_zhou_2024]
-- [Corrosion inspection of the water circulation cooling system...][research_anufriev_kuzenkov_2024]
 - [Cryogenic propellant management in space open challenges and...][research_simonini_dreyer_2024]
 - [Design Optimization and study of Fluid Dynamics for the...][research_srinivasan_preethisai_2024]
 - [Design and Experiment of Cryogenic Steel Used for Liquid...][research_yan_zhang_2024_b]
 - [Design and optimization of a high-density cryogenic...][research_song_xu_2024]
 - [Design of Low-Cost Simulation Space Micro Debris Launch Device][research_yang_tang_2024]
-- [Design of a Multi-loop PI Controller for Minimum Phase System...][research_g_dhanalakshmi_2024]
 - [Design space exploration through liquid H2 tank preliminary...][research_mazzoni_biga_2024]
 - [Design, modeling and feedforward control of a hybrid extruder...][research_wu_qian_2024]
 - [Development of an Aerospace Spray Characterization Program...][research_sforzo_kimber_2024]
 - [Digital Curation for Aerospace System Product Development in...][research_graves_henderson_2024]
-- [Enhancing Student Engagement with Authentic Assessment in...][research_luan_narayanan_2024]
 - [Entry trajectory optimization of lifting-body vehicle by...][research_deng_liu_2024]
-- [Evaluating large-language-model chatbots to engage...][research_dortheimer_martelaro_2024]
 - [Evaluating the Effectiveness of APSCO Projects in Expanding...][research_villanuevajustino_2024]
 - [Failure analysis of additively manufactured AuxHex and...][research_ulhaq_kumarreddynarala_2024]
 - [Feasibility Analysis of 3D-Printed Solid Rocket Motors with...][research_hu_hui_2024]
@@ -6824,7 +6465,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Integrated NASA and Private Astronaut Crews Readiness Needs...][research_landon_2024]
 - [Integrated Vehicle and Subsystems Sizing and Optimization for...][research_bhandari_putra_2024]
 - [Interactive Temporal Convolutional Network for...][research_liu_ng_2024]
-- [Low-cost Badminton Trajectory Recognition and Landing Point...][research_wang_2024_b]
 - [MOMVO for cost and reliability optimization of vehicle fuel...][research_choudhary_ram_2024]
 - [Math is Instrumental An Analysis of Multi-Decade Space Flight...][research_sholder_plumer_2024]
 - [Mobile Autonomous Recovery Landing Principle and Control...][research_mobile_autonomous_2024]
@@ -6832,10 +6472,7 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Navigating the Depths The Impact on Space Cost Drivers of...][research_figueroa_2024]
 - [Optimal shape design of printing nozzles for extrusion-based...][research_schuller_jalaal_2024]
 - [Optimal thermal management on the storage vessle for...][research_xu_zhang_2024]
-- [PLC failure program analysis and countermeasure research][research_wang_2024]
-- [Performance management and policy evaluation of information...][research_kang_park_2024]
 - [Performance test results of Twin-TQCM under cryogenic...][research_miyazaki_kimura_2024]
-- [Pilot-Scale Demonstration of New Compact CO2-Capture...][research_isdahl_shamshiri_2024]
 - [Precise Modeling and Analysis of Aviation Power System...][research_wang_wang_2024_b]
 - [Probabilistic Approach to Assessing CCRS Capture System...][research_yew_cataldo_2024]
 - [Prognostics Aware Control Design for Extended Remaining...][research_thuillier_jha_2024]
@@ -6847,8 +6484,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Research on Low Earth Orbit Satellite Orbit Prediction Based...][research_yuan_zhang_2024]
 - [Research on the Construction and Application of Simulation...][research_zhang_wu_2024]
 - [Resource-Aware Multi-Fidelity Multi-Objective...][research_tao_sharma_2024]
-- [Safety margin quantification by integrating probabilistic and...][research_yu_zhang_2024]
-- [Setting The Standard for e-Mobility Heating Applications][research_setting_the_2024]
 - [Single track orbit determination analysis for low Earth orbit...][research_montilla_siminski_2024]
 - [Small Solid-Model Rocket Design and Soft Landing Trajectory...][research_chen_liu_2024]
 - [Stratasys to test 3D-printed material performance on moon][research_stratasys_to_2024]
@@ -6873,9 +6508,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Aircraft safety and space vehicle hazards How safe from space...][research_wilde_2025]
 - [Ambiguity Remediation in Launch Vehicles and...][research_matthewmichaelwittal_brennanmccann_2025]
 - [Analysis of the Mechanically Choked Ram Accelerator...][research_clevenger_knowlen_2025]
-- [Application and Development of In-Vehicle Digital...][research_yin_kang_2025]
-- [Application of Artificial Intelligence in Quality Assessment...][research_shi_zhang_2025]
-- [Application of Improved Multi-Fractal Trend Removing Wave...][research_wen_2025]
 - [Boeing's Marketing Strategies in the Context of Global...][research_ocheretyanyi_2025]
 - [Characterizing the Ignition Boundaries of a Gaseous...][research_hamid_ash_2025]
 - [Cross-scale strength analysis of cryogenic compressed...][research_zhou_han_2025]
@@ -6884,17 +6516,10 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Design and Modeling of a Scaled Drone Prototype for...][research_dazaflorez_payanenezambrano_2025]
 - [Design and Operational Feasibility Study of Quasi-Recurrent...][research_takeshita_inoue_2025]
 - [Design of Hydrogen Solid Oxide Fuel Cells in Blended-Wing...][research_chung_alsamri_2025]
-- [Design of University Asset Procurement Optimization Scheme...][research_jian_yihan_2025]
-- [Design of a Terminal Sliding Mode Controller for Trajectory...][research_telmoudi_saidi_2025]
 - [Design of an Ammonia-fed Nuclear Thermal Propulsion System...][research_puccinelli_giusti_2025]
-- [Designing Fault-Tolerant Test Infrastructure for Large-Scale...][research_lulla_2025]
 - [Designing for Reuse Technical Challenges and Performance...][research_etzenbach_hussein_2025]
 - [Detectable Inspection Propeller Nick Detection Model...][research_ha_yother_2025]
-- [Development of Digital-based Program Evaluation Model McIPP A...][research_anlianna_2025]
-- [Dynamically optimized fixed‐time fast terminal sliding...][research_li_cui_2025]
 - [Energy storage system at NPP based on cryogenic hydrogen tank...][research_testov_morzhukhina_2025]
-- [Energy-Efficient Target Area Imaging for UAV-SAR-Based ISAC...][research_zhou_zhang_2025]
-- [Energy-Efficient UAV-SAR Based ISAC Target Area Imaging with...][research_zhou_zhang_2025_b]
 - [Enhancing Engine Mount Design through Topology Optimization...][research_ntintakis_stavroulakis_2025]
 - [Establishment and History of the Georgia Tech Graduate...][research_schrage_2025]
 - [Evaluating and Minimizing Cost Estimating Bias Early in...][research_malone_snyder_2025]
@@ -6902,14 +6527,10 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Experimental investigations of fluid-to-vehicle interactions...][research_kramer_witte_2025]
 - [Experimental study on the evolution mechanism of the...][research_wang_shi_2025_c]
 - [Fast Prediction of Reachable Area for Reusable Vehicle Under...][research_zhou_wang_2025]
-- [Foundation model-assisted interpretable vehicle behavior...][research_meng_wang_2025]
 - [Genetic programming method for satellite optimization design...][research_xie_dong_2025]
 - [Guidelines for In-Space Cryogenic Propellant Transfer][research_kenny_eddleman_2025]
 - [High-Efficiency Reduced Sequential Convex Programming for...][research_liu_haoyuan_2025]
-- [High-Resolution Apparatus and Method for Hydrogen Sorption...][research_he_liu_2025]
 - [Improved Probabilistic Analytical Target Cascading for...][research_cao_chen_2025]
-- [Influences of Thermal Energy Storage Systems on the...][research_zhao_liu_2025]
-- [Integration of Renewable Energy and Dynamic Demand in...][research_kumar_anilkumar_2025]
 - [Joint design, safety margin, and ground experiments of an...][research_jiang_zhang_2025]
 - [LIDAR based site assessment for rendezvous, docking and...][research_mohan_s_2025]
 - [LSTM-Based Post-Mission Assessment of Reusable Rocket Engines][research_li_zhao_2025]
@@ -6917,7 +6538,6 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Maintenance policies for protection systems with imperfect...][research_tekin_bakir_2025]
 - [Mechanical Evaluation of Selected Standard Oilfield...][research_tetteh_ugarte_2025]
 - [Methods for Analyzing Avionics Reliability Reflecting...][research_lee_na_2025]
-- [Mirroring Reality The Rise of Digital Twins in Vehicle...][research_tone_pavaloiu_2025]
 - [Model predictive attitude control for CubeSats feasibility...][research_turnwald_scharnagl_2025]
 - [Neuroeconomic Optimisation of In-Situ Resource Utilisation...][research_muraliparthasarathy_cs_2025]
 - [Performance Analysis of In-Orbit Space Debris Tracking Using...][research_bansode_kardassi_2025]
@@ -6928,29 +6548,21 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Preserving Spaceflight Films Through High Quality...][research_tsahelnik_grimsley_2025]
 - [Pressurization Analysis of Cryogenic Propellant Tanks...][research_budak_kural_2025]
 - [Quantitative Evaluation Process for Reliability Optimization...][research_zhou_2025]
-- [Reconstruction of Highway Vehicle Paths Using a Two-Stage...][research_yin_zhai_2025]
-- [Research hotspots and trend analysis of per- and...][research_yang_li_2025]
 - [Research on Development of a Simulation Model for an Aircraft...][research_choi_lee_2025]
 - [Reusable Launch Vehicles Designing Legs for Propulsive Rocket...][research_purcell_wicklund_2025]
 - [SDR-based Sequential Convex Programming Method for 6-DoF...][research_hu_li_2025]
 - [Second Law Analysis of an Electrochemical Ammonia Production...][research_reynamartinez_pope_2025]
 - [Space vehicle reliability assessment for selected medium...][research_norris_bettinger_2025]
-- [Stochastic stability of an elastically constrained wheelset...][research_wang_zhang_2025]
 - [Thermal Simulation and Analysis of The Small Unmanned Aerial...][research_guo_meng_2025]
 - [Thermal insulation performance evaluation of liquid helium...][research_wang_zhu_2025]
 - [Thermo-Hydraulic Leaky-Tank Model for Inventory Analysis of...][research_civan_2025]
 - [Trajectory Convex Optimization Method for Enhancing...][research_guo_li_2025]
-- [A dynamic multi-method decision framework for evaluating...][research_mahmoodian_zandi_2026]
 - [A fully-actuated system approach to adaptive prescribed...][research_chen_wu_2026_b]
 - [A multi-fidelity MBSE FEA framework for comparative and...][research_kalampoukas_gkesoulis_2026]
-- [A single two-stage network DEA model ensuring feasibility and...][research_khezrimotlagh_shvartsman_2026]
 - [A stochastic nonlinear model of influence in synchronisation...][research_a_stochastic_2026]
 - [Adsorption-based hydrogen Storage A comprehensive review and...][research_gunther_yang_2026]
 - [Advanced nonlinear modeling and control stability analysis of...][research_maceshernandez_2026]
 - [Aeroelastic Design Analysis of a LH2 Blended Wing Body...][research_ranjan_ongole_2026]
-- [An Uncertainty-Gated Neuro-Symbolic Framework for...][research_demir_saran_2026]
-- [Assessment of marine inspection--China’s marine management...][research_miao_xue_2026]
-- [Automated Test Specification Revision Comparison A...][research_boo_ng_2026]
 - [Chance-Constrained Trajectory Optimization for Mars Ascent...][research_guo_wang_2026]
 - [Combined axial-centrifugal compressor performance evaluation...][research_anjomrouz_karimi_2026]
 - [Comparative Performance Assessment of Insulative Coating...][research_kuang_mcmanus_2026]
@@ -6958,18 +6570,14 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Comparison of Second-Stage Recovery Methods for Reusable...][research_lee_jo_2026]
 - [Conceptual Study on a Passive Thermodynamic Vent System for...][research_jun_seo_2026]
 - [Conditioned Sequence Models for Warm-Starting Sequential...][research_dambrosio_silvestrini_2026]
-- [Digital Vehicle Management System Motorhub][research_digital_vehicle_2026]
 - [Design for tape-reinforced additive manufacturing using...][research_jansari_ybarra_2026]
 - [Design of rotating heat storage tank filled with unevenly...][research_yang_li_2026]
-- [Design of single ended 9T SRAM cell with improved read...][research_bansal_tomar_2026]
 - [Design, Fabrication, and Testing of a 3D-Printed Model Rocket...][research_moschidis_bithas_2026]
 - [Design, optimization, and fabrication of a leaf-inspired...][research_chai_lu_2026]
-- [Drone Inspection and Management System for Railway Protection...][research_zhu_2026_b]
 - [Dynamic mesh-based investigation of thermal environment...][research_sun_che_2026]
 - [Enabling interlocking joint design for multi-material...][research_sung_to_2026]
 - [Energy Recovery Adaptive Landing Device Optimization Design...][research_han_2026]
 - [Enhancing Multi-Fidelity Bayesian Optimization for...][research_charayron_bartoli_2026]
-- [Evaluation of thermal stability in ammonium nitrate systems...][research_kaniewski_2026]
 - [Heat Exchange and Gas Leakage Effects on Hydrogen Storage in...][research_civan_2026]
 - [Impact of Thermal Management System Design on Aircraft...][research_nicolosi_melone_2026]
 - [Inverse design of aero-engine nacelles using conditional...][research_tao_li_2026]
@@ -6988,16 +6596,13 @@ failure mode would have been any more visible to a modern analysis than to a per
 - [Probabilistic Connectivity Analysis of Recursive Satellite...][research_yoshikado_takahashi_2026]
 - [Probabilistic Meteoroid Hazard Analysis for Lunar South Pole...][research_palacios_calonge_2026]
 - [Process Optimization and Automated Manufacturing of Type V...][research_shimpi_gomes_2026]
-- [Real-time vision-based defect detection for large-scale...][research_benz_nguyentrong_2026]
 - [Reentry Vehicle Intelligent Trajectory Convex Optimization...][research_yang_tian_2026]
 - [Reliability-driven adaptive multi-level pre-optimization...][research_huang_2026]
 - [Solar Assisted Reusable Rocket System][research_dandappanavar_manoj_2026]
-- [Stability Analysis of a Stochastic Unemployment Model][research_aarabate_balatif_2026]
 - [System Architecture of a Reusable N2O/Paraffin-ABS Hybrid...][research_chen_rumpf_2026]
 - [The Impact of Dispatch Weight Restrictions on Derivative...][research_takahashi_2026]
 - [The Variable-Pitch Screw Launcher Infrastructure for...][research_swan_2026]
 - [Thermo-fluidic parametric study of cryogenic hydrogen storage...][research_belfkira_gautam_2026]
-- [Thermodynamic analysis of an athlete’s body heat recovery and...][research_zhou_2026]
 - [Trend extrapolation for technology forecasting Leveraging...][research_tsai_berleant_2026]
 - [Using ICME to Design a Novel High-Strength, Printable, and...][research_whelan_saboo_2026]
 - [Variational mixed state and sizing optimization of primal...][research_alduncin_2026]
@@ -7063,8 +6668,6 @@ It did not, so the tank mass figure that carries the verdict sits inside a set o
 consistent. **That is corroboration and not proof, and it is stated as the former.**
 
 - [A Monte Carlo Calculation of Neutron Heating in a Nuclear...][research_streetman_graves_1963]
-- [Sensitivity Analysis of Civil Defense Systems and Components...][research_neblett_willis_1965]
-- [Demonstration of Improved Monte Carlo Simulation Techniques...][research_mcgrath_irving_1973]
 - [Reliability analysis of continuous fiber composite laminates][research_thomasdavidj_wetherholdrobertc_1990]
 - [Reliability analysis of continuous fiber composite laminates][research_thomasdavidj_wetherholdrobertc_1991]
 - [A Probabilistic Method to Establish the Reliability of...][research_heller_thangjitham_1992]
@@ -7077,9 +6680,10 @@ consistent. **That is corroboration and not proof, and it is stated as the forme
 
 ## The Source Base
 
-**This article rests on 3,747 references published through 2001, when the programme was cancelled, and 4,933 published from 2015 onward, out of the full set listed below.**
-**Every harvested record is cited.** A source retrieved and never used is work done and discarded, so the
-survey below carries the whole of what the harvests returned rather than a selection from it.
+**This article rests on 3,491 references published through 2001, when the programme was cancelled, and 4,555 published from 2015 onward, out of the full set listed below.**
+**Every harvested record that the rebuilt survey filter admitted is cited.** A source retrieved and never used is work done and discarded, so the
+survey below carries the whole of what the harvests returned rather than a selection from it, less the 1,435
+records refused as off topic, the 36 notices removed as not works and the 2 retracted articles removed in October 2026.
 
 ### Both Halves, Counted and Not Only Divided
 
@@ -7098,7 +6702,7 @@ pass added 1,530 period records and the contemporary count rose by twenty-three 
 **while the contemporary fraction fell by nine points.** The contemporary pass then added 3,228 modern
 records and **the period count did not move at all**, while the period fraction fell by eighteen.
 
-**Nothing was ever removed. In both directions it was the denominator that moved.** Saying only that
+**Nothing was removed in either pass. In both directions it was the denominator that moved.** Saying only that
 contemporary coverage fell by nine points would have described a loss that never occurred, and saying only
 that the period share fell by eighteen would describe another one.
 **The report literature is the clearest case**, holding at 1,692 records across the final pass while its
@@ -7113,27 +6717,73 @@ nuclear power plants and the drying of spent fuel, thirty-six organisational rea
 thirty-two on petroleum reservoirs and underground gas storage that entered on the word permeability,
 twenty-eight on medicine, twenty-one on battle tanks and artillery that entered on the word tank, eighteen
 on the electrical insulation of cryogenic cables and magnets, and eleven on the bond strength of dental
-adhesives. **The research set went from 10,186 to 9,389 records.** The period base through 2001 now holds
-3,747, or 39.9 percent, the contemporary half from 2015 holds 4,933, or 52.5 percent, and 2,579, or 27.5
-percent, were published in 2022 or later. Records hosted on the agency's technical reports server, the
-Defense Technical Information Center and the Office of Scientific and Technical Information number 1,628,
-or 17.3 percent. That rule gives 1,759 rather than 1,692 for the set as first published, so the report row
-in the table above rests on an earlier counting rule that could not be recovered.
+adhesives. **The research set went from 10,186 to 9,389 records.** The period base through 2001 then held
+3,747, or 39.9 percent, the contemporary half from 2015 held 4,933, or 52.5 percent, and 2,579, or 27.5
+percent, were published in 2022 or later. The table counts a record by the harvest record the article was
+generated from, taking its year from that record and counting it as report literature when that record
+places it in the harvest of the agency's technical reports server or of the Defense Technical Information
+Center. That rule reproduces every cell of the table, the 1,692 included, and after this rebuild it gave
+1,565 report records, or 16.7 percent. A broader rule counting every record whose link points at either of
+those servers or at the Office of Scientific and Technical Information gives 1,759 for the set as first
+published and gave 1,628, or 17.3 percent, after this rebuild.
 
 **The clusters most changed were Structures, Materials and Systems Generally, which lost 328 records, the period list, which lost 297, and Reusability and the Economics That Actually Changed, which lost thirty-six of its 102.**
 The statements above that every harvested record is cited now hold for every record the rebuilt filter
 admitted. Three readings of 300 records each, one drawn before the sweep and two drawn after successive
 sweeps, found twenty-five, sixteen and fourteen off topic, and each finding became a new pattern swept
 across the whole set. The last reading puts the contamination remaining near 4.7 percent before its own
-sweep and somewhat lower after it, a residual that was not measured again.
+sweep and somewhat lower after it, a residual that the second sampling pass of 8 October 2026 measured again.
+
+**A second sampling pass on 8 October 2026 found that the first rebuild had left more homonyms than its last reading suggested.**
+A second seeded sample of 300 records that no earlier reading had seen found twenty-seven off topic, and all
+twenty-seven were removed with 124 more that sweeps of the whole set found, first for their kinds and then
+for further homonyms those sweeps turned up, 151 in all. The largest groups were twenty-eight records on
+coal, gas sands, rock and underground works, sixteen of them with permeability in the title, twenty-six on
+road and rail vehicles, seventeen on electric power grids and energy storage, thirteen on the lateral
+buckling of subsea pipelines, which share the word buckling, thirteen on ordnance and military organisation,
+and thirteen on consumer technology, bibliometrics and social media. Structures, Materials and Systems
+Generally lost fifty-eight records, the period list lost fifty-two and the buckling cluster lost eighteen.
+**The research set went from 9,389 to 9,238 records.** Counted as the table counts them, the period base
+through 2001 then held 3,697, or 40.0 percent, the contemporary half from 2015 held 4,839, or 52.4 percent,
+2,529, or 27.4 percent, were published in 2022 or later, and the report literature held 1,537, or 16.6
+percent. The broader server rule gave 1,600, or 17.3 percent. Before its own sweep the second sample puts
+the contamination among the 7,872 records that no reading had seen at 9.0 percent, which scales to about 708
+records and is higher than the 4.7 percent the first pass's last reading suggested. That sample drove its
+own sweep, so it does not measure what remains after the sweep, and no further sample was drawn. Every sweep
+in this pass still turned up a kind of homonym that the one before it had not, so the remaining
+contamination was then to be presumed well above zero.
+
+**A third pass on 8 October 2026 read every title that no earlier reading had seen, so every record in the survey has now been read at least once.**
+The second sample's result made sampling insufficient, and the 7,463 records outside every earlier reading
+were read one by one. The reading found 466 off topic, and sweeps of the whole set for the kinds it turned up
+found twenty-one more, nine of them among the titles this reading had passed and twelve among titles earlier
+readings had kept, so 475 of the 7,463 read were off topic and 487 records were removed. The largest groups
+were eighty-five records on road and rail vehicles and traffic, fifty-six on economics, education, social
+science, environmental assessment, geoscience and mathematics, fifty-three on ordnance, military ground
+vehicles and military organisation, fifty on civil engineering, building services and building fire
+safety, thirty-seven on electronics, microelectronics and batteries, thirty-one on medicine,
+dentistry and biology, and twenty-nine on nuclear power plants. The period list lost 223 records, Structures,
+Materials and Systems Generally lost 151 and Computation, Surrogates and Uncertainty lost forty-two.
+**The research set went from 9,238 to 8,751 records.** Counted as the table counts them, the period base
+through 2001 then held 3,495, or 39.9 percent, the contemporary half from 2015 held 4,589, or 52.4 percent,
+2,396, or 27.4 percent, were published in 2022 or later, and the report literature held 1,428, or 16.3
+percent. The broader server rule gave 1,488, or 17.0 percent. A further pass on 8 October 2026 removed 36 records that are notices rather than works, namely 28 corrections and errata, 6 withdrawn papers and withdrawal notices, 1 addendum and 1 retraction notice, under the rule that correction, erratum, addendum, retraction and withdrawal notices, figure, table and supplement records, review reports and journal front matter are parts of works or editorial events and not works. Two records marked as retracted were kept, because each is the retracted paper itself rather than a notice. **The research set went from 8,751 to 8,715 records**, and counted as the table counts them the period base through 2001 then held 3,491, or 40.1 percent, the contemporary half from 2015 held 4,557, or 52.3 percent, 2,374, or 27.2 percent, were published in 2022 or later, and the report literature held 1,428, or 16.4 percent. The broader server rule gave 1,488, or 17.1 percent. On 8 October 2026 those 2 retracted articles were removed as well, taking the research set from 8,715 to 8,713 records, and counted as the table counts them the period base through 2001 now holds 3,491, or 40.1 percent, the contemporary half from 2015 holds 4,555, or 52.3 percent, 2,373, or 27.2 percent, were published in 2022 or later, and the report literature holds 1,428, or 16.4 percent. The broader server rule gives 1,488, or 17.1 percent.
+**Because every title has now been read, whatever off-topic share remains is a matter of reading judgement and not of sampling, and no figure for it is offered.**
+The judgement kept doubtful classes where the engineering in the title is the article's own, namely hydrogen
+embrittlement of steels and nickel alloys in oil, gas, subsea and refinery service, storage tanks and pressure
+vessels from chemical, petrochemical and nuclear plant, the cryogenic systems of particle accelerators and of
+medical magnets, sandwich panels built for road vehicles, ships and buildings, the buckling of thin civil and
+offshore shells such as storage tanks, reticulated roofs and suction buckets, the hypersonic aerodynamics of
+gun-launched projectiles, hydrogen storage for road vehicles and refuelling stations, and gas permeation
+through polymer membranes.
 
 ### What Counts as Primary Here
 
 **A primary source is one contemporary with the work, and for this article the work has an unusually clean boundary.**
 The X-33 programme ran from the Phase II award on 2 July 1996 to cancellation in early 2001, and the reports
 server holds the programme's own documents from that window in quantity.
-**That is the opposite of the previous article's situation and the contrast is measurable.** The X-32 left
-exactly one title carrying its designation in a pool of 4,412 harvested records.
+**That is the opposite of the previous article's situation and the contrast is measurable.** The X-32 article
+reported exactly one title carrying the designation in a pool of 4,412 harvested records when it was written, and it still finds exactly one among the 5,016 records it now cites.
 **The X-33 pool returns sixty records whose titles carry the designation**, and three harvests later it
 still returns sixty, because the vehicle's own documentation was never the thin part.
 
@@ -7184,7 +6834,7 @@ the reported role of the joints,
 
 ### The Period Base in Full
 
-**Every record harvested for this article is cited, and the ones the argument did not reach individually are listed here by subject rather than discarded.**
+**Every record harvested for this article that the rebuilt survey filter admitted is cited, and the ones the argument did not reach individually are listed here by subject rather than discarded.**
 A harvested source that is never cited is work done and thrown away, and the sections above draw on the
 curated front of each subject while the body of it sits below.
 
@@ -7223,7 +6873,6 @@ in the section headed The Contemporary Literature.
 - [On the Prediction of Damping in Composite and Sandwich...][research_birman_byrd_2001]
 - [Indentation Failure in Composite Sandwich Structures][research_gdoutos_daniel_2002]
 - [Wrinkling and Compression Failure Transition in Sandwich...][research_fagerberg_2004]
-- [Impulse Flashover Tests at Edgar Beauchamp High Voltage Test...][research_hansen_dann_2006]
 
 - [Process Modeling of Composite Materials Residual Stress...][research_white_hahn_1992]
 - [The transverse coefficient of thermal expansion of a...][research_the_transverse_1992]
@@ -7273,12 +6922,6 @@ in the section headed The Contemporary Literature.
 
 - [On multiple transverse cracking in glass fibre epoxy...][research_on_multiple_1979]
 - [Gas permeability of chlorinated polyvinyl trimethylsilane][research_yampolskii_krentsel_1980]
-- [Evidence of Permeability Enhancement Through Cyclic Dry Gas...][research_branagan_cotner_1981]
-- [Gas Resources in Low Permeability Formations and The Effect...][research_baker_1981]
-- [Nmr Determination of Porosity and Permeability of Western...][research_cowgill_pitman_1981]
-- [The Relationship of Permeability to Confining Pressure in Low...][research_jennings_carroll_1981]
-- [Permeability of stemming materials for prompt gas sampling][research_beiriger_trimmer_1982]
-- [Study of sonic, neutron, and density logging of...][research_osoba_1982]
 - [The Use of the Electrochemical Permeation Technique to Study...][research_bernstein_thompson_1982]
 - [Characteristics of thermally-induced transverse cracks in...][research_adamsds_bowlesde_1983]
 - [Gas permeability of oriented polyethylene films][research_budtov_vorobev_1983]
@@ -7286,13 +6929,10 @@ in the section headed The Contemporary Literature.
 - [Measurements of Hypergolic Fuels' and Oxidants' Permeation...][research_abernathy_cohen_1983]
 - [Selectivity of gas permeability of polymers][research_volkov_durgaryan_1983]
 - [Correlation analysis of the gas permeability parameters of...][research_teplyakov_durgaryan_1984_b]
-- [Relationship of pore structure to fluid behavior in low...][research_morrow_1984]
 - [Temperature parameters of the gas permeability of polymers][research_teplyakov_durgaryan_1984]
 - [A comparative study of approaches applied to the permeability...][research_petropoulos_1985]
-- [Capillary Pressure and Permeability Relationships in Tight...][research_wells_amaefule_1985]
 - [Fracture Analysis of Matrix Cracking in Laminated Composites][research_wang_1985]
 - [Matrix cracking and stiffness reduction during the fatigue of...][research_matrix_cracking_1985]
-- [Permeability Modification Using Aluminum Citrate/Polymer...][research_ghazali_willhite_1985]
 - [The gas permeability of copolymers][research_teplyakov_ievlev_1985]
 - [Gas permeability of composite membranes][research_lai_yamada_1986]
 - [Gas permeability of polyvinyltrimethylsilane modified by the...][research_starannikova_teplyakov_1986]
@@ -7304,37 +6944,26 @@ in the section headed The Contemporary Literature.
 - [Polymer permeability][research_huglin_1987]
 - [Gas permeability of hydrogen-bonding interpolymer complex and...][research_yun_huang_1988]
 - [Gas permeability through composite materials][research_evans_morgan_1988]
-- [Natural Gas From Low Permeability Formations][research_kuuskraa_haas_1988]
 - [Nature of the selective gas permeability of polymeric...][research_krykin_timashev_1988]
 - [A Theory for Progressive Matrix Cracking in Composite...][research_tan_nuismer_1989]
 - [Amplitude and counts per event analysis of the acoustic...][research_favre_laizet_1989]
-- [Averaging of Relative Permeability in Composite Cores][research_dale_1989]
 - [Gas permeability of block copolymers of styrene and butadiene][research_ferdinand_springer_1989]
 - [Microcracking and Toughness of Ceramic-Fiber/Ceramic-Matrix...][research_delale_liaw_1989]
 - [Oxygen gas permeability of poly organophosphazene membranes...][research_kajiwara_1989]
-- [Permeability changes in coal resulting from gas desorption][research_levine_tsay_1989]
 - [Prediction of Transverse Cracking and Stiffness Reduction in...][research_lim_hong_1989]
 - [Structure and permeability of composite carboxyl membranes...][research_tishchenko_shatayeva_1989]
 - [The Strain Energy Release Rate of Composite Microcracking A...][research_nairn_1989]
 - [A theory for progressive matrix cracking in composite...][research_a_theory_1990]
 - [Amplitude and counts per event analysis of the acoustic...][research_amplitude_and_1990]
-- [Permeability changes in coal resulting from gas desorption][research_levine_tsay_1990]
 - [Stress Concentration after Transverse Cracking of a GFRP...][research_ohira_shono_1990]
 - [The strain energy release rate of composite microcracking a...][research_the_strain_1990]
 - [Analysis of delamination in cross ply laminates initiating...][research_salpekarsa_1991]
-- [Permeability changes in coal resulting from gas desorption][research_levine_1991]
-- [Permeability changes in coal resulting from gas desorption...][research_levine_1991_b]
-- [Permeability changes in coal resulting from gas desorption...][research_levine_1991_c]
 - [Permeability of silicone polymers to hydrogen][research_bhide_stern_1991]
 - [Synthesis and analysis of novel polymers with high...][research_koros_paul_1991]
 - [Analytical and numerical analyses of transverse cracking in a...][research_rebiere_gamby_1992]
 - [Effect of ion/plasma-assisted treatment of polymer membranes...][research_alimova_djamaletdinova_1992]
 - [Estimation of the 90° ply strength distribution and shear lag...][research_ochiai_osamura_1992]
 - [Numerical Verification of a Procedure for Calculation of...][research_gudmundson_ostlund_1992]
-- [Permeability changes in coal resulting from gas desorption][research_levine_johnson_1992]
-- [Permeability changes in coal resulting from gas desorption...][research_levine_johnson_1992_d]
-- [Permeability changes in coal resulting from gas desorption...][research_levine_johnson_1992_b]
-- [Permeability changes in coal resulting from gas desorption...][research_levine_johnson_1992_c]
 - [Relation between gas permselectivity and permeability in a...][research_ashworth_1992]
 - [Tritium permeation model for plasma facing components][research_longhurst_1992]
 - [Analysis of delamination in cross-ply laminates initiating...][research_salpekarsa_1993]
@@ -7365,7 +6994,6 @@ in the section headed The Contemporary Literature.
 - [Fracture analysis of matrix microcracking in composite...][research_chen_1996]
 - [In‐plane permeability determination for simulation of liquid...][research_rudd_long_1996]
 - [Non-axisymmetric matrix cracking and interface debonding with...][research_ji_dharani_1996]
-- [Permeability to hydrogen ions of an enteric coating polymer...][research_raffin_1996]
 - [Structural effects on free volume distribution in glassy...][research_niemela_leppanen_1996]
 - [Structure and gas permeability of microporous films prepared...][research_chu_kimura_1996]
 - [Transverse cracking of cross-ply laminates Part 1. Analysis][research_berthelot_leblond_1996]
@@ -7396,7 +7024,6 @@ in the section headed The Contemporary Literature.
 - [A model for transverse cracking and delamination in cross-ply...][research_berthelot_lecorre_2000_b]
 - [Crack propogation in bimaterial multilayered periodically...][research_muju_2000]
 - [Experimental and Analytical Characterization of Matrix...][research_kobayashi_ogihara_2000]
-- [Gas Production from Low Permeability Carbonates Enhanced...][research_metcalf_lopez_2000]
 - [Matrix cracking behavior of K3B/IM7 composite laminates...][research_huang_gillespie_2000]
 - [Permeability and morphology of poly cis-butadiene...][research_zhang_2000]
 - [Prediction of the gas permeability of heterogeneous polymer...][research_kolarik_fambri_2000]
@@ -7413,20 +7040,17 @@ in the section headed The Contemporary Literature.
 - [Modeling of time-dependent behavior of deformation and...][research_ogi_takao_2001]
 - [Permeability characterisation of solvent treated polymer...][research_galic_cikovic_2001]
 - [The Effects of Poisson Contraction on Matrix Cracking in...][research_chiang_2001]
-- [Applying MAK Gas-Water Relative Permeability Correlations to...][research_mulyadi_mason_2002]
 - [Characterisation of Transverse Cracking in a Quasi-Isotropic...][research_ogi_smith_2002]
 - [Detection of Hydrogen Leakage in a Composite Sandwich...][research_rivers_sikora_2002]
 - [Modeling Matrix Cracking in Composite Laminates Under...][research_zhang_herrmann_2002]
 - [Modeling creep and recovery behavior of a quasi-isotropic...][research_ogi_smith_2002_b]
 - [Nanoclay reinforcement effects on the cryogenic microcracking...][research_timmerman_hayes_2002]
-- [Relative Permeability Measurements of Composite Cores, an...][research_zekri_almehaideb_2002]
 - [Transverse Cracking in CFRP Laminates with Angled Plies][research_yokozeki_aoki_2002]
 - [Combined Delamination and Matrix Cracking in Adaptive...][research_thornburgh_chattopadhyay_2003]
 - [Cryogenic Microcracking of Carbon Fiber/Epoxy Composites...][research_timmerman_hayes_2003]
 - [Cryogenic microcracking of rubber toughened composites][research_nobelen_hayes_2003]
 - [Cure temperature effects on cryogenic microcracking of...][research_timmerman_hayes_2003_b]
 - [Gas Permeability of Microcracked Laminates Under Cryogenic...][research_yokozeki_aoki_2003]
-- [The Different Condensate Gas Recovery Using Gas Oil...][research_chang_ping_2003]
 - [Thermo-Micromechanics of Microcracking in a Cryogenic...][research_mallick_tupper_2003]
 - [Transverse cracking and delamination in cross-ply glass-fiber...][research_berthelot_2003]
 - [Hydrogen Permeability of Polymer Based Composites Under...][research_stokes_2004]
@@ -7443,18 +7067,14 @@ in the section headed The Contemporary Literature.
 - [Summary of Data and Design Evaluation of Sandwich...][research_reynolds_1966]
 - [Diffusion Bonding of Titanium Sandwich Structure for Saturn...][research_huffman_laiacona_1967]
 - [Determination of the complex shear modulus of a filled...][research_nicholas_heller_1967]
-- [Fire performance characteristics of a glass fiber sandwich...][research_gross_1967]
 - [General instability and face wrinkling of sandwich plates...][research_benson_mayers_1967]
 - [Honeycomb as Core Material for Sandwich Construction][research_fukino_1968]
 - [Welded honeycomb sandwich - An optimum structure for severe...][research_kolom_1968]
 - [Sandwich Structure - An Evolving Concept][research_riel_1970]
-- [Evaluation of the fire performance of sandwich panel used in...][research_gross_1971]
 - [Face Wrinkling of Sandwich Plates and Cylinders][research_wong_hoadley_1971]
 - [A sandwich plate with a part-through and a debonding crack][research_erdogan_arin_1972]
 - [Environmental evaluation of polyurethane foam core sandwich...][research_shaver_masters_1972]
-- [Fire endurance tests of steel sandwich panel exterior wall...][research_son_1972]
 - [Paper honeycomb sandwich panels as lightweight structural...][research_reichard_1972]
-- [Fire endurance test of a steel sandwich panel floor...][research_son_1973]
 - [On the wrinkling of honeycomb sandwich columns with laminated...][research_webber_kyriakides_1976]
 - [The Use of Honeycomb Sandwich Construction in Recreational...][research_brentjes_1977]
 - [An orthotropic sandwich plate containing a part-through crack...][research_ko_1978]
@@ -7471,7 +7091,6 @@ in the section headed The Contemporary Literature.
 - [High-capacity honeycomb panel heat pipes for space radiators][research_tanzer_1983]
 - [Method for manufacturing a sandwich panel structure][research_method_for_1984]
 - [Buckling Analysis of FRP‐Faced Anisotropic Cylindrical...][research_rao_1985]
-- [Furnace Exposure of Insulated Sandwich Panel Systems][research_dowling_martin_1985]
 - [Honeycomb panel heat pipe development for space radiators][research_tanzer_fleischman_1985]
 - [Selection of the optimum parameters for sandwich construction...][research_zhulin_1985]
 - [Stress analysis of a SPF/DB composite sandwich panel][research_kim_ueng_1985]
@@ -7535,7 +7154,6 @@ in the section headed The Contemporary Literature.
 - [Elastic-Plastic Analysis of Honeycomb Sandwich Panel by Using...][research_ogasawara_shiratori_1999]
 - [Experimental Measurement of Compressional Damping in an...][research_sisemore_smaili_1999]
 - [Post-buckling behavior of debonded sandwich composite beams...][research_sankar_narayanan_1999]
-- [Structural behaviour of sandwich panel shear walls An...][research_dematteis_landolfo_1999]
 - [Analysis of debonding fracture in a sandwich plate with...][research_goswami_becker_2000]
 - [Damage Analysis of Honeycomb Core Composite Sandwich Plate...][research_zheng_li_2000]
 - [Dynamic Behavior of Truss-Core Sandwich Panel as an...][research_lok_cheng_2000_b]
@@ -7640,7 +7258,6 @@ in the section headed The Contemporary Literature.
 - [Development of Fatigue Design Curves for Pressure Vessel...][research_diercks_1979]
 - [Pressure Vessels of Noncircular Cross Section Commentary on...][research_faupel_1979]
 - [Acoustic Emission Testing During a Burst Test of a...][research_tsukikawa_yamamoto_1980]
-- [Rybicki and Stonesifer 1980][research_rybicki_stonesifer_1980]
 - [Influence of Flaw Shapes on Stress Intensity Factors for...][research_atluri_kathiresan_1980]
 - [Stress-Intensity Factors for Internal Surface Cracks in...][research_newman_raju_1980]
 - [Thermal protection system for filament wound pressure vessels][research_thermal_protection_1980]
@@ -7654,7 +7271,6 @@ in the section headed The Contemporary Literature.
 - [New design concepts for filament-wound pressure vessel with...][research_denost_1982]
 - [PVP-57 Pressure Vessel Design][research_widera_1982]
 - [Submerged Shock Response of a Linearly Elastic Shell of...][research_vasudevan_ranlet_1982]
-- [Corrosion Fatigue of Pressure Vessel Steels in LWR...][research_scott_truswell_1983]
 - [Crack tip stress fields under complex loads Application to...][research_smith_1983_b]
 - [Discussion “The Stress Analysis of Rectangular Structures...][research_gilbert_1983]
 - [Expanded Fermilab Pressure Vessel Directory Program][research_tanner_1983]
@@ -7712,7 +7328,6 @@ in the section headed The Contemporary Literature.
 - [Sensitivity analysis in shape optimization design for a...][research_li_1992]
 - [Stress Analysis of Pressure Vessel With Wound-Flat Steel...][research_huang_zhu_1992]
 - [Acoustic emission results in pressure test to failure of a...][research_acoustic_emission_1993]
-- [Acoustic emission test of WWER-440 pressure vessel][research_acoustic_emission_1993_b]
 - [Analysis and test of low profile aluminum aerospace tank dome][research_ahmedr_wilhelmjm_1993]
 - [Pressure Vessel and Piping Technology][research_cheung_ong_1993]
 - [Pressure vessel burst test program - Progress paper No. 4][research_cain_sharp_1993]
@@ -7739,10 +7354,7 @@ in the section headed The Contemporary Literature.
 - [Buckling of filament wound composite conical shells under...][research_tong_1998]
 - [Characteristics Marks and Production Methods of Hic Resistant...][research_schwinn_streisselberger_1998]
 - [Finite element analysis of pressure vessel using beam on...][research_huang_shi_1998]
-- [H.B. Robinson-2 pressure vessel benchmark][research_remec_kam_1998]
-- [90 Ah Dependent Pressure Vessel DPV Nickel Hydrogen Battery...][research_garner_braun_1999]
 - [Analytical Solutions of Openings Formed by Intersection of a...][research_cai_sun_1999]
-- [Artery as a Pressure Vessel Correlation Between Stress...][research_thubrikar_robicsek_1999]
 - [Elastic-Plastic Failure Analysis of Pressure Burst Tests of...][research_jones_holliday_1999]
 - [Prediction of Failure Behavior of a Welded Pressure Vessel...][research_bhuyan_sperling_1999]
 - [Residual Stress Analysis by Simplified Inherent Strain at...][research_mochizuki_hayashi_1999]
@@ -7767,18 +7379,14 @@ in the section headed The Contemporary Literature.
 - [An Overview of the New ASME Section VIII, Division 2 Pressure...][research_osage_2003]
 - [Design Criterion of Fatigue Analysis on Plastic Basis by ASME...][research_kalnins_dowling_2003]
 - [Development of JIS Standards B8265 Harmonizing Japanese...][research_tahara_2003]
-- [Effect of Strain Rate on Low Cycle Fatigue Behavior of...][research_wu_katada_2003]
 - [FEM Stress Analysis and Sealing Performance in Bolted Flange...][research_sawa_higuchi_2003]
 - [Fatigue Crack Initiation in Pressure Vessel Steels Using a...][research_chattopadhyay_2003]
 - [Finite Element Analysis and Design of an Annular Tank][research_hari_2003]
 - [Observations on the Evolution of Design Rules Considering the...][research_becht_2003]
 - [Review of Margins Needed to Develop Fatigue Design Curves...][research_vandersluys_2003]
 - [Safety Assessment of the Junction Between a Thick Pressure...][research_wang_zheng_2003]
-- [Section III and Section XI Integration in the Design...][research_land_2003]
-- [Statistical Analyses of In-Air and In-Water Fatigue Test Data...][research_takahashi_nakamura_2003]
 - [The European Pressure Equipment Directive 97/23/EC PED An...][research_garbolevsky_2003]
 - [A Method for Applying Automatic Temperature Control to the...][research_sciascia_2004]
-- [Corrosion Fatigue Behavior of Low-Alloy Pressure Vessel...][research_wu_katada_2004]
 - [Design Criteria for Biaxial/Multiaxial Low Cycle Fatigue][research_itoh_sakane_2004]
 - [Efficient Assembly of Pressure Vessel Bolted Joints][research_brown_2004]
 - [FEM Stress Analysis and Sealing Performance in Bolted Flange...][research_sawa_higuchi_2004]
@@ -7881,7 +7489,6 @@ in the section headed The Contemporary Literature.
 - [Development of a new fastener alloy resistant to hydrogen...][research_clark_driscoll_1992]
 - [Environmental fatigue in aluminum-lithium alloys][research_piascikroberts_1992]
 - [Environmental fatigue of an Al-Li-Cu alloy. Part 2...][research_robertspiascik_richardpgangloff_1992]
-- [Hydrogen Embrittlement of High Strength Low Alloy Steel...][research_festy_tigges_1992]
 - [Effect of cryogenic temperatures and high vacuum on the...][research_grinberg_aleksenko_1993]
 - [Effect of high-temperature thermomechanical treatment on...][research_lapina_smirnov_1993]
 - [Electron-beam weld microstructures and properties of...][research_ravindra_dwarakadasa_1993]
@@ -7905,7 +7512,6 @@ in the section headed The Contemporary Literature.
 - [Hydrogen Embrittlement of Ni-Based Superalloys][research_desai_scammon_1995]
 - [Hydrogen embrittlement in pre-deformed Ni3Al alloy][research_li_chaki_1995]
 - [Numerical Simulations and Predictions of Spot-Weld/Weld-Bond...][research_barbat_prasad_1995]
-- [Stress-Corrosion Crack Initiation Process for Alloy 182 Weld...][research_nakayama_akashi_1995]
 - [Structure and properties of ingots and plates of type 1450...][research_elagin_rostova_1995]
 - [A Method to Predict the Precipitation Hardening Response of a...][research_fragomeni_hillberry_1996]
 - [Dislocation mechanism of hydrogen embrittlement of metals and...][research_tkachenko_1996]
@@ -7949,7 +7555,6 @@ in the section headed The Contemporary Literature.
 - [Microstructures and hydrogen embrittlement of Ti 49Al alloy][research_gao_nakamura_2000]
 - [Residual strength of aluminum lithium alloy center surface...][research_govindanpotti_nageswararao_2000]
 - [The Effect of Aging on the Microstructure and Precipitation...][research_fragomeni_2000]
-- [Cathodic Protection of Steel in Deep Sea Hydrogen...][research_festy_2001]
 - [Corrosion Behavior of Weld Overlays of the New Alloy 50][research_brill_grossmann_2001]
 - [Effects of welding and weld heat-affected zone simulation on...][research_chen_chaturvedi_2001]
 - [Fluid Flow of LD10CS Aluminum Alloy Weld Pools in Gtaw with...][research_luo_2001]
@@ -7969,7 +7574,6 @@ in the section headed The Contemporary Literature.
 - [Optimized Conditions for Tensile Residual Stress Reducing...][research_yanagida_enomoto_2003]
 - [Self-Reacting Friction Stir Welding for Aluminum Alloy...][research_bjorkmangerry_cantrellmark_2003]
 - [Self-Reacting Friction Stir Welding for Aluminum Complex...][research_brownrandyj_martinw_2003]
-- [A Study on the Hydrogen Embrittlement Mitigation of Carbon...][research_park_kim_2004]
 - [Effect of precipitates on hydrogen transport and hydrogen...][research_lunarska_chernyaeva_2004]
 - [Effects of Co and Al Contents on Cryogenic Mechanical...][research_li_2004]
 - [Fatigue Crack Growth Rate Behavior in Titanium Alloy Ti-5111...][research_stauffer_czyryca_2004]
@@ -8009,7 +7613,6 @@ in the section headed The Contemporary Literature.
 - [Buckling of circular conical shells under uniform axial...][research_singer_1965]
 - [Collapse, Buckling and Post Failure Behavior of Cylindrical...][research_greenspon_1965]
 - [Discussion of “Face-Wrinkling Mode of Buckling of Sandwich...][research_fan_1965]
-- [Errata "Plastic Buckling of Axially Compressed Cylindrical...][research_batterman_1965]
 - [Face-Wrinkling Mode of Buckling of Sandwich Panels][research_harris_crisman_1965]
 - [Inelastic Buckling Tests of Ring-stiffened Cylinders Under...][research_boichot_reynolds_1965]
 - [Juncture stress fields in multicellular shell structures...][research_almrothbo_pittnerev_1965]
@@ -8094,7 +7697,6 @@ in the section headed The Contemporary Literature.
 - [Tests on interactive buckling of stiffened plates][research_ellinas_kaoulla_1977]
 - [Effect of prebuckling deformations on buckling of laminated...][research_jones_hennemann_1978]
 - [Experiments on the buckling under internal pressure of thin...][research_patel_gill_1978]
-- [Axial Buckling Stability of Cemented Pipe][research_wilson_perkins_1979]
 - [Buckling Analysis of Laminated Composite Circular Cylindrical...][research_harper_palazotto_1979]
 - [Dynamic Buckling of a Damped Externally Pressurized Imperfect...][research_lockhart_1979]
 - [Dynamic buckling of a rigid-plastic cylindrical shell a...][research_zak_veluswami_1979]
@@ -8209,7 +7811,6 @@ in the section headed The Contemporary Literature.
 - [Sensitivity analysis of nonlinear shell structures and its...][research_yamazaki_kobayashi_1995]
 - [Stochastic imperfection modelling in shell buckling studies][research_chryssanthopoulos_poggi_1995]
 - [Understanding imperfection-sensitivity in the buckling of...][research_calladine_1995]
-- [Buckling of Ship Grillages][research_danielson_1996]
 - [Buckling of cylindrical shells under external pressure...][research_araar_jullien_1996]
 - [Dynamic buckling of imperfect cylindrical shells under axial...][research_huyan_simitses_1996]
 - [Elastic buckling of cone-cylinder intersection under...][research_teng_1996]
@@ -8225,7 +7826,6 @@ in the section headed The Contemporary Literature.
 - [Post-buckling analysis of a delaminated composite plate under...][research_gaudenzi_perugini_1997]
 - [Scaled down imperfection sensitive composite cylindrical...][research_tabiei_simitses_1997]
 - [Buckling and Stable Tearing Responses of Unstiffened Aluminum...][research_starnesjameshjr_rosecheryla_1998_b]
-- [Dynamic Compression Buckling in Flexible Riser][research_ribeiro_roveri_1998]
 - [Stable Tearing and Buckling Responses of Unstiffened Aluminum...][research_starnesjameshjr_rosecheryla_1998]
 - [A Hierarchical Approach to Buckling Load Calculations][research_arboczjohann_starnesjamesh_1999]
 - [An assessment of shell theories for buckling ofcircular...][research_jaunky_knightjr_1999]
@@ -8268,10 +7868,8 @@ in the section headed The Contemporary Literature.
 - [Subscale and Full-Scale Testing of Buckling-Critical Launch...][research_hilburgermarkw_hayniewaddyt_2012]
 - [Buckling Design and Analysis of a Payload Fairing One-Sixth...][research_kosareodanieln_oliverstanleyt_2013]
 
-- [Bond Strength at the Cord-Impregnant Adhesive -Rubber...][research_uzina_dostyan_1959]
 - [Effect of Heating Aluminum Alloy Wing Structure to 325 F on...][research_bergstedt_turner_1959]
 - [Titanium - 6% Aluminum - 4% Vanadium Alloy Effects of Sponge...][research_croan_rizzitano_1959]
-- [Fabrication of Aluminum Clad Plutonium-aluminum Alloy Pin...][research_lemon_ross_1960]
 - [A Study of the Short Time Elevated Temperature Properties of...][research_mahorter_robertg_1961]
 - [Sea-level and High-altitude Performance of Experimental...][research_lopatin_1961]
 - [Study in Welding High Strength Aluminum Alloys, and Study of...][research_hess_1961]
@@ -8293,7 +7891,6 @@ in the section headed The Contemporary Literature.
 - [Hydrostatic Tensile Fracture of a Polyurethane Elastomer][research_lindsey_1966]
 - [The Effect of Explosive Deformation on the Stress-corrosion...][research_jacobs_1966]
 - [Time-dependent Compression Properties of Aluminum Alloy...][research_papirno_1966]
-- [A First- and Second-Order Matrix Theory for the Design of...][research_brown_1967]
 - [Corrosion-resistant Cladding for 7075-T6 Aluminum Alloy][research_lowe_1967]
 - [Effects of 450 deg F and 600 deg F exposures on the...][research_pride_1967]
 - [Experimental determination of shear modulus of laminated...][research_whitney_1967]
@@ -8313,7 +7910,6 @@ in the section headed The Contemporary Literature.
 - [Analysis and design of structural sandwich panels][research_ogorkiewicz_1970]
 - [Bright Aluminum Trim Alloy and Process Developments][research_bolmer_1970]
 - [Composite Polymer Systems][research_composite_polymer_1970]
-- [Composite plastics materials used to produce a...][research_composite_plastics_1970]
 - [Elastic-Plastic Fracture Mechanics][research_hahn_rosenfield_1970]
 - [Environmental Sensitivity of Structural Metals Liquid Metal...][research_gordon_breyer_1970]
 - [Experimental verification of fatigue strength criteria under...][research_shkanov_1970]
@@ -8325,7 +7921,6 @@ in the section headed The Contemporary Literature.
 - [Three-Dimensional Laminate Moduli][research_enie_rizzo_1970]
 - [A preliminary report on the effect of elevated temperature...][research_balestt_cainrl_1971]
 - [Determination of Physical and Structural Properties of...][research_pinckney_freeman_1971]
-- [First- and Second-order Matrix Theory for the Design of Beam...][research_brown_1971]
 - [Longitudinal shear deformation of composites effective shear...][research_longitudinal_shear_1971]
 - [Elastic--plastic Fracture Mechanics][research_rice_1972]
 - [Molding of Oriented Short Fiber Composites. I. Ultimate...][research_goettler_1972]
@@ -8388,7 +7983,6 @@ in the section headed The Contemporary Literature.
 - [Measurement of the time-temperature dependent dynamic...][research_dicarloja_maiselje_1978]
 - [Polyester, fibreglass-reinforced composite laminate][research_polyester_fibreglass_reinforced_1978]
 - [Cohesive Bond Strength Prediction for Adhesive Joints][research_flynn_1979]
-- [Design Feasibility Analysis of Fiber Reinforced Composite...][research_smith_bourland_1979]
 - [Dynamics of Composite Materials and Elastic Structural...][research_nematnasser_1979]
 - [Elevated-temperature application of the IITRI compression...][research_rajubb_camardacj_1979]
 - [Fatigue Failure of Composite Laminates][research_nguyen_kardos_1979]
@@ -8407,7 +8001,6 @@ in the section headed The Contemporary Literature.
 - [The structure and properties of splat-quenched aluminum alloy...][research_sankaran_grant_1980]
 - [Thermal Degradation of Graphite/Epoxy Composite][research_pritt_1980]
 - [Thermal expansion of composites using Moire interferometry][research_bowlesde_postd_1980]
-- [ChemInform Abstract DEPOSITION AND DISSOLUTION OF...][research_carpio_king_1981]
 - [Edge effect in laminate composite materials][research_mikhailov_1981]
 - [Finite Element Techniques for Static Stress and Free...][research_brockman_1981]
 - [Fracture mechanics of cellular glass][research_zwissler_adams_1981]
@@ -8416,7 +8009,6 @@ in the section headed The Contemporary Literature.
 - [Nonlinear laminate analysis for metal matrix fiber composites][research_chamis_sinclair_1981]
 - [Probabilistic Burst Strength of Filament-Wound Cylinders...][research_uemura_fukunaga_1981]
 - [Residual thermal stresses in an unsymmetrical cross-ply...][research_harper_weitsman_1981]
-- [Statistical fracture mechanics approach to the strength of...][research_ratigan_1981]
 - [Supersaturated Aluminum Alloy Powders][research_shechtman_1981]
 - [The Effect of Primer Thickness and Cure on the Bond Strength...][research_depalo_kodali_1981]
 - [Advanced manufacturing development of a composite empennage...][research_alvat_henkelj_1982]
@@ -8424,8 +8016,6 @@ in the section headed The Contemporary Literature.
 - [Develop, demonstrate, and verify large area composite...][research_bhombalbd_wykesdh_1982]
 - [Dynamics of Composite Materials and Elastic Structural...][research_nematnasser_1982]
 - [Effect of radius on material properties of cylindrically...][research_effect_of_1982]
-- [Embrittlement of LaNi5-type alloy electrodes during the...][research_kitamura_iwakura_1982]
-- [Fabrication of T142 Tank Track Pads for Evaluation of a...][research_lentz_1982]
 - [Fracture Mechanics Analysis of the Effects of Residual Stress...][research_throop_1982]
 - [Interfacial fracture of space-shuttle thermal-protection...][research_komine_kobayashi_1982]
 - [Laminate Analyses, Micromechanical Creep Response, and...][research_adams_1982]
@@ -8437,7 +8027,6 @@ in the section headed The Contemporary Literature.
 - [Thermal Shock Resistance and Thermal Expansion Coefficient of...][research_miyazaki_kobayashi_1983]
 - [Thermal coupling on aluminum alloy surfaces in vacuum at 10.6...][research_bouveret_1983]
 - [Ultrasonic Measurement of Residual Deformation Stress in Thin...][research_allison_heyman_1983]
-- [An Investigation of a Cryogenic Matrix Isolation Approach for...][research_snelson_1984]
 - [Embrittlement of FeSi alloy crystals by hydrogen glow...][research_narita_1984]
 - [Loss Factors Measured in Metal Matrix Composite Materials][research_timmerman_doherty_1984]
 - [Modeling Localized Stress Fields in Composite Laminates][research_johnson_1984]
@@ -8445,7 +8034,6 @@ in the section headed The Contemporary Literature.
 - [Select fiber composites for space applications - A...][research_gintyca_chamiscc_1984]
 - [A ceramic matrix composite based on polymerization and...][research_hurwitzfi_1985]
 - [A computerized fracture mechanics database for oxide glasses][research_freiman_1985]
-- [ChemInform Abstract STUDY OF THE FORMATION OF...][research_lantelme_1985]
 - [Failure Analysis of a Graphite/Epoxy Laminate Subjected to...][research_chen_sun_1985]
 - [Fracture Mechanics of Multiple Crack Initiations. An...][research_cowles_thakker_1985]
 - [Grain refinement of high strength steels to improve cryogenic...][research_rush_1985]
@@ -8462,18 +8050,14 @@ in the section headed The Contemporary Literature.
 - [Fundamental Studies in Fatigue and Fracture Mechanics. Phase 1][research_sinclair_1986]
 - [High modulus composite properties][research_michnojr_1986]
 - [Mechanical properties characterization of composite sandwich...][research_bowleskennethj_vannucciraymondd_1986]
-- [Method of making multi-layer metal core circuit board...][research_method_of_1986]
-- [PR-138-162-R05 Test Method for Adhesive Bond Strength of...][research_unknown_1986]
 - [Reinforcement of composite laminate free edges with U-shaped...][research_howard_gossardjr_1986]
 - [Residual Stress in a 3D Carbon-Carbon Composite][research_feldman_1986]
 - [Stress analysis of a debonding and a crack around a circular...][research_hasebe_okumura_1986]
-- [Synthesis and structure of large boron cages and multi-decker...][research_grimes_1986]
 - [Thermally induced stresses in cross-ply composite tubes][research_hyer_cooper_1986]
 - [A post first-ply failure analysis of composite laminates][research_pandey_reddy_1987]
 - [Analysis of a buffer strip laminate with fiber and matrix...][research_dharani_seaton_1987]
 - [Behavior of Metal Matrix Composites at Cryogenic Temperatures][research_altshuler_1987]
 - [Compendium of Post-Failure Analysis Techniques for Composite...][research_grove_smith_1987]
-- [Composite leafsprings for tank trailer suspensions][research_composite_leafsprings_1987]
 - [Debonding and friction at fibre-polymer interfaces. I...][research_piggott_1987]
 - [Determination of calibration constants for the hole-drilling...][research_prasad_prabhakaran_1987]
 - [Fracture Mechanics Analysis for Short Cracks][research_annigeri_1987]
@@ -8482,7 +8066,6 @@ in the section headed The Contemporary Literature.
 - [Optimal cure cycle design of a resin-fiber composite laminate][research_hou_hou_1987]
 - [Rapid Thermal Loading of Delaminated Composite Structures...][research_artley_arnold_1987]
 - [Residual Stress and High-Temperature Creep Behavior in...][research_feldman_1987]
-- [Thermal Cracking of Heavy Oil/Mineral Matrix Systems][research_monin_audibert_1987]
 - [Thermal residual stress in metal matrix composite][research_thermal_residual_1987]
 - [Transverse ply cracking strains in 0°, 90° and ± θ°/90°...][research_transverse_ply_1987]
 - [Young's modulus and shear modulus of a composite shaft from...][research_young_s_modulus_1987]
@@ -8492,7 +8075,6 @@ in the section headed The Contemporary Literature.
 - [Fundamentals of Fatigue and Fracture Mechanics][research_sinclair_1988]
 - [Industry workshop on polymer composite processing][research_beardmore_hunston_1988]
 - [Inelastic Deformation and Failure Analysis of Filament-Wound...][research_wempner_yin_1988]
-- [Influence of material properties and particle geometry on the...][research_naylor_1988]
 - [Influence of temperature and strain-rate on liquid metal...][research_pepovic_weatherly_1988]
 - [New methods of increasing adhesive bond strength][research_kestelman_negmatov_1988]
 - [Optimal stacking sequences of composite faces for various...][research_vinson_1988]
@@ -8515,7 +8097,6 @@ in the section headed The Contemporary Literature.
 - [Development of a Progressive Failure Model for Strength of...][research_tang_1989]
 - [Effect of Varying Aluminum and Columbium Content on Hardness...][research_widge_rehrer_1989]
 - [Effect of pre-aging strain on mercury embrittlement of 2024...][research_reynolds_stoner_1989]
-- [Fabrication of a laminate structure for a geophysical...][research_baca_smith_1989]
 - [Fiber Reinforced Structural Ceramics for Construction][research_li_leung_1989]
 - [High Quality Adhesive Analysis][research_lorang_1989]
 - [Laminate ply stacking sequence and ply termination selection][research_wang_twu_1989]
@@ -8540,7 +8121,6 @@ in the section headed The Contemporary Literature.
 - [Cryogenic material properties of stainless steel...][research_siewert_mccowan_1990]
 - [Design and analysis of composite primary structures for...][research_rixc_1990]
 - [Durability of Polymer Based Composite Systems for Structural...][research_vrijeunivbrusselsbelgium_1990]
-- [Early marginal leakage and shear bond strength of adhesive...][research_prati_nucci_1990]
 - [Eighth DOD/NASA/FAA Conference on Fibrous Composites in...][research_jameshstarnesjr_hermanlbohon_1990]
 - [Evaluation of Thermal and Mechanical Loading Effects on the...][research_grady_lerch_1990]
 - [Extrema and Zeros of Coefficients of Thermal Expansion of a...][research_pramila_1990]
@@ -8568,12 +8148,10 @@ in the section headed The Contemporary Literature.
 - [One mode of cracking of a composite laminate in shear][research_tvardovskii_1991]
 - [Optimisation of the bending stiffness and strength of...][research_optimisation_of_1991]
 - [Optimization of the bending stiffness and strength of...][research_theulen_peijs_1991]
-- [Polymer and Polymer Composites in Construction][research_marshall_1991]
 - [Rate-Temperature Dependence of Bond Strength Properties of...][research_turreda_hatano_1991]
 - [Strength of sandwich beams with interface debondings][research_strength_of_1991]
 - [The Influence of Water on the Mechanical Properties of a...][research_stoudt_escalante_1991]
 - [The design of doubly curved sandwich panels with honeycomb...][research_the_design_1991]
-- [A new light-activated adhesive composite shear bond strength...][research_tsunekawa_setcos_1992]
 - [Application of Reliability and Fiber Probabilistic Strength...][research_cohen_1992]
 - [Constitutive Modeling of Composite Laminates With Progressive...][research_hahn_kiusalaas_1992]
 - [Coupled bending-torsional dynamic stiffness matrix for...][research_banerjee_williams_1992]
@@ -8583,7 +8161,6 @@ in the section headed The Contemporary Literature.
 - [Effect of fiber coating and interfacial debonding on crack...][research_popejoy_dharani_1992]
 - [Exact stiffness matrix of a nonuniform beam I. Extension...][research_friedman_kosmatka_1992]
 - [Fracture Mechanics Approaches to Modeling the Pullout of...][research_fracture_mechanics_1992]
-- [MBE Grown Copper-Aluminum Alloy Films][research_kornreich_1992]
 - [Microstructural Development in a Spray Formed...][research_howell_1992_b]
 - [Near-tip dual-length scale mechanics of mode-I cracking in...][research_ballarini_islam_1992]
 - [Ninth DOD/NASA/FAA Conference on Fibrous Composites in...][research_soderquistjosephr_nerilawrencem_1992]
@@ -8660,7 +8237,6 @@ in the section headed The Contemporary Literature.
 - ['Mechanical Behavior Investigation of Advanced Ceramic Matrix...][research_sankar_kelkar_1995]
 - [A general doubly curved laminate shell theory][research_ossadzow_muller_1995]
 - [An Inverse Method to Measure the Axial Modulus of Composite...][research_hull_1995]
-- [Application of Fracture Mechanics in High Performance...][research_kamath_1995]
 - [Bending Deformation Increase of Bending-Extension Coupled...][research_tang_1995]
 - [Composite sealing material with improved sealing properties][research_composite_sealing_1995]
 - [Corrosion Performance of Mechanically Fastened Aluminum/Steel...][research_gunkel_moran_1995]
@@ -8682,7 +8258,6 @@ in the section headed The Contemporary Literature.
 - [Indicating cure and stress in composite containers using...][research_suopajaervi_1995]
 - [Influence of Interfacial Properties on Fiber Debonding in...][research_tamin_osborne_1995]
 - [Internal friction of composite polymer materials Plastic foams][research_stegniy_1995]
-- [Is Fracture Mechanics the Method for Electronic Packaging?][research_mirman_friedman_1995]
 - [Isothermal Fatigue Behavior of a Cross-Ply SCS-6/Ti-15-3...][research_sanders_mall_1995]
 - [Processing and Miniaturized Disk-Bend Testing of TiAl/NiAl...][research_mcminn_mao_1995]
 - [Relationship between transverse residual stress and...][research_hongyun_hongjun_1995]
@@ -8703,7 +8278,6 @@ in the section headed The Contemporary Literature.
 - [Exact dynamic stiffness matrix of a bending-torsion coupled...][research_banerjee_guo_1996]
 - [Fatigue Life Assessment of Steel Pressure Vessels with...][research_underwood_parker_1996]
 - [Finite Element Analysis of a Biaxially Loaded Woven Fabric...][research_kelkar_chaphalkar_1996]
-- [Fracture Mechanics Analysis of Vehicle Body Panel Fatigue...][research_xia_draper_1996]
 - [Fracture mechanics analyses for skin-stiffener debonding][research_raju_sistla_1996]
 - [Measurement of the Degree of Cure of Carbon Fiber Epoxy...][research_kim_lee_1996]
 - [Mechanical properties of a new type super hybrid material][research_haga_koyama_1996]
@@ -8731,13 +8305,11 @@ in the section headed The Contemporary Literature.
 - [Evaluation of mechanical properties of laser-welded aluminum...][research_katayama_yamaguchi_1997]
 - [Experimental Assessment of Four Composite Material Shear Test...][research_adams_lewis_1997]
 - [Free-edge stress singularity in a bimaterial laminate][research_chaudhuri_xie_1997]
-- [HFIR vessel probabilistic fracture mechanics analysis][research_cheverton_dickson_1997]
 - [Hydrogen-Induced Embrittlement Wear of a High-Strength...][research_zhang_jiang_1997]
 - [In Situ Observation and Modeling of Damage Modes in Cross-Ply...][research_kim_tandon_1997]
 - [In-Plane Bending Modal Analysis of Circular Rings and Ring...][research_azimi_1997]
 - [Localized bending effects in sandwich panels photoelastic...][research_thomsen_frostig_1997]
 - [Material Modeling for Cross-Ply Ceramic Matrix Laminates With...][research_yen_jones_1997]
-- [Nickel-aluminum alloy clusters -- structural and dynamical...][research_jellinek_krissinel_1997]
 - [Numerical analysis of dynamic debonding under anti-plane...][research_geubelle_breitenfeld_1997]
 - [On the Optimization of Composite Cylindrical Sandwich Shells...][research_vinson_1997]
 - [Optimum design via PANDA2 of composite sandwich panels with...][research_bushnell_bushnell_1997]
@@ -8791,7 +8363,6 @@ in the section headed The Contemporary Literature.
 - [The Effects of Critical Stitching Parameters on a Stitched...][research_pan_herrington_1998]
 - [The response of composite cylindrical shells with cutouts and...][research_hilburger_starnesjr_1998]
 - [Waveform Analysis of AE in Composites][research_prosserwilliamh_1998]
-- [99/02586 Development of prismatic lithium-ion cells using...][research_99_02586_development_1999]
 - [A nonlinear ultrasonic approach to evaluate adhesive bond...][research_berndt_green_1999]
 - [Analysis of sandwich panels with multiple-site damage][research_razi_sergeev_1999]
 - [Analytical prediction of damage growth in notched composite...][research_davila_ambur_1999]
@@ -8828,7 +8399,6 @@ in the section headed The Contemporary Literature.
 - [Debonding of stitched composite sandwich structures][research_glaessgen_raju_2000]
 - [Debonding of the interface as 'crack arrestor'][research_li_2000]
 - [Determination of the Elastic Properties of Composite...][research_mistou_karama_2000]
-- [Developing design rules to avert cracking and debonding in...][research_liu_suo_2000]
 - [Development of Benson Mayers theory on the wrinkling of...][research_hadi_matthews_2000]
 - [Development of Self-Healing Structural Composite Materials][research_shang_2000]
 - [Elasto-Plastic Finite Element Stress Analysis of...][research_arslan_turgut_2000]
@@ -8839,7 +8409,6 @@ in the section headed The Contemporary Literature.
 - [Loading Rate Effect on Translaminar Fracture Toughness of...][research_moy_tzeng_2000]
 - [Material characterization of laminated composite plates via...][research_wang_kam_2000]
 - [Mechanical Characterization of Composites and Foams for...][research_veaziedr_glinseyc_2000]
-- [Nitramine-Based High Energy Propellant Compositions for Tank...][research_damse_singh_2000]
 - [Nonlinear analysis of the cured shape and residual stress of...][research_cho_yoo_2000]
 - [On Mode I Fatigue Crack Growth in Foam Core Materials for...][research_shipsha_burman_2000]
 - [On crack-wake debonding in fiber reinforced ceramics][research_chiang_2000]
@@ -8860,7 +8429,6 @@ in the section headed The Contemporary Literature.
 - [Characterization of adhesive bond properties with Lamb waves][research_seifried_2001]
 - [Cryogenic mechanical properties of CF/polymer composites for...][research_aoki_ishikawa_2001]
 - [Damage Evolution and Failure Modeling in Unidirectional...][research_tandon_kim_2001]
-- [Debonding Failures in FRP-Strengthened RC Beams Failure...][research_teng_chen_2001]
 - [Deformation of antisymmetric laminate under centrifugal force...][research_zhou_ogawa_2001]
 - [Derived Interaction Parameters for the TSAI-WU Tensor...][research_deteresa_larsen_2001]
 - [Design Study of Composite Sandwich Truck Tank Using a...][research_thomsen_vinson_2001]
@@ -8889,7 +8457,6 @@ in the section headed The Contemporary Literature.
 - [Polyimide-coated small-diameter optical fiber sensors for...][research_satori_fukuchi_2001]
 - [Processing and Testing of Thermoplastic Composite Cylindrical...][research_hulcheranthonybruce_mcgowandavidm_2001]
 - [Progressive Damage Simulation of Thick Viscoelastic Laminate...][research_noh_whitcomb_2001]
-- [Residual Stress Development during Relamination of Woven...][research_shrotriya_sottos_2001]
 - [Stability analysis of laminated cylindrical panels with...][research_singh_yadav_2001_b]
 - [Stiffness evaluation of elliptical laminated composite tube...][research_lin_chan_2001]
 - [Structural acoustic optimization in the design of a multi-ply...][research_johnson_cunefare_2001]
@@ -8913,7 +8480,6 @@ in the section headed The Contemporary Literature.
 - [Effect of Compositional Short Range Order on Glass Formation...][research_chen_khantha_2002]
 - [Effect of Laminate Design and Loads on Crack Opening Volume...][research_noh_whitcomb_2002]
 - [Effects of the structure of styrene-co-maleic anhydride...][research_devaux_pak_2002]
-- [Experimental Determination of Adhesive-Cohesive Bond Strength...][research_amanullah_2002]
 - [Free Vibrations of Composite Shallow Circular Cylindrical...][research_ozerciyes_yuceoglu_2002]
 - [Free vibration of composite cylindrical panels with random...][research_singh_yadav_2002]
 - [High Temperature Tensile Properties and Fatigue Behavior of a...][research_kallurisreeramesh_calominoanthonym_2002]
@@ -8934,7 +8500,6 @@ in the section headed The Contemporary Literature.
 - [An integrated approach to improving the adhesive bond...][research_thomas_antony_2003]
 - [Composite fuel tank reduces emissions][research_composite_fuel_2003]
 - [Cracking paths at the ply interface in a cross-ply laminate][research_hoiseth_qu_2003]
-- [Debonding Failure of RC Structural Members Strengthened with...][research_camata_spacone_2003]
 - [Development of Light Metal Matrix Composite Coatings Using...][research_bach_engl_2003]
 - [Dynamic Analysis of Cross-ply Composite Laminates with...][research_kim_chattopadhyay_2003]
 - [Effects of adhesive composition on bond strength of green...][research_gao_2003]
@@ -8962,7 +8527,6 @@ in the section headed The Contemporary Literature.
 - [A Two-Tier Estimation of Distribution Algorithm for Composite...][research_grosset_leriche_2004]
 - [Adhesion and corrosion studies of a lithium based conversion...][research_castro_2004]
 - [Analysis of Stainless Steel Sandwich Panels with a Metal Foam...][research_minjamesb_ghosnlouisj_2004]
-- [Analysis of all aluminum conductor AAC and all aluminum alloy...][research_mohtar_jamal_2004]
 - [Carbon-Carbon Composite Radiator Development for the EO-1...][research_vaughnwallace_shinnelizabeth_2004]
 - [Composite fuel tank passes NASA tests][research_composite_fuel_2004]
 - [Cryogenic Mode-II Fracture Behaviors of Film Adhesive in...][research_cryogenic_mode_ii_2004]
@@ -8971,7 +8535,6 @@ in the section headed The Contemporary Literature.
 - [Dissimilar Girth Joints Under Combined Cyclic Thermal and...][research_mohrmann_denner_2004]
 - [Dynamic Properties of Nickel-Aluminum Alloy][research_mcclellan_2004]
 - [Effect of Bead Deposition by Repair Welding on Residual...][research_mochizuki_toyoda_2004_c]
-- [Embedded Crack Treatments and Fracture Toughness Evaluation...][research_onizawa_shibata_2004]
 - [Experimental Investigation of Compression Failure Mechanisms...][research_vadakke_carlsson_2004]
 - [Finite Element Stress Analysis and Strength Evaluation of...][research_katsuo_sawa_2004]
 - [Free Asymmetric Vibrations of Composite Full Circular...][research_yuceoglu_ozerciyes_2004]
@@ -9005,7 +8568,6 @@ in the section headed The Contemporary Literature.
 - [Multiscale Modeling for the Design of Autonomic Healing...][research_kieffer_2006]
 - [Nano-Particle Control of Void Formation and Expansion in...][research_seferis_2006]
 - [Progressive Failure Analysis of Thin Walled Composite Tubes...][research_yen_cassin_2007]
-- [Residual Stress and Fracture of PECVD Thick Oxide Films for...][research_zhang_2007]
 - [Composite Materials for Low-Temperature Applications][research_composite_materials_2008]
 - [Effects of Subzero Temperatures and Seawater Immersion on...][research_davidson_2008]
 - [Foreign Object Damage by Steel Ball Projectiles in a SiC/SiC...][research_choi_alexander_2008]
@@ -9037,7 +8599,6 @@ in the section headed The Contemporary Literature.
 - [Thermal Inspection of Composite Honeycomb Structures][research_zalamedajosephn_parkerfraymond_2014]
 
 - [Paint as a Protection to Metallic Structures][research_paint_as_1897]
-- [Stability of 90 mm Shell T3][research_hitchcock_1939]
 - [Philosophy For Design Of Sandwich Type Structure][research_korsberg_1947]
 - [Characteristics and Behavior of Bonded Wire Resistance Strain...][research_goodman_1950]
 - [Plasticity of Metals - Mathematical Theory and Structural...][research_drucker_1950]
@@ -9050,16 +8611,9 @@ in the section headed The Contemporary Literature.
 - [Weight, Balance and Moment of Inertia Calculations for...][research_wickman_1953]
 - [A Study of the Structural Damping of a Simple Built-up Beam...][research_pian_1954]
 - [An Engineering Evaluation of Residual Stress Effects OSRD...][research_palme_udin_1954]
-- [Aerodynamic Characteristics of the 175MM T203 Shell and the...][research_karpov_skegas_1955]
-- [Comparison of Aerodynamic Characteristics of 20MM, Hei...][research_boyer_1955]
-- [Drag Coefficient, Kd, and Siacci Functions for a Folding Fin...][research_odom_1955]
 - [Measurement of Residual Stress in Review][research_halgren_huang_1955]
 - [Symmetrically Loaded Cylindrical Shell with Fixed Ends][research_anderson_1955]
-- [The Drag and Stability Properties of the Hemispherical Base...][research_roschke_1955]
-- [The Effect of Gamma Heating on the APPR-1 Pressure Shell][research_kroeger_neou_1956]
 - [Thermal Expansion Stress in Clad Spherical Shells][research_hughes_1956]
-- [Drag and Stability Properties of the 37-Mm T324-E22 Shell][research_boyer_1957]
-- [Static Penetration Tests of 120MM, T153, Heat Shell][research_nelson_1957]
 - [The Dynamics of Shell][research_reed_harryl_1957]
 - [The Engineering Behavior of Structural Metals under Slow and...][research_massard_collins_1958]
 - [Effects of Concentrated Hydrogen Peroxide on Mechanical and...][research_gillig_1959]
@@ -9082,7 +8636,6 @@ in the section headed The Contemporary Literature.
 - [Shell Mode Coupling][research_mcgrattan_north_1963]
 - [Structural optimization and design based on a reliability...][research_broding_diederich_1963]
 - [Structural synthesis capability for integrally stiffened...][research_schmitjr_kicher_1963]
-- [Thermal Stress on Cellular Structure and Function][research_buchsbaum_1963]
 - [Thermal Stress in Cone Elements][research_meyer_1963]
 - [W2SD-18 - Structural Development Test Case M215.02][research_lester_1963]
 - [Dynamic response of a cylinder to a side pressure pulse...][research_humphreys_winter_1964]
@@ -9093,7 +8646,6 @@ in the section headed The Contemporary Literature.
 - [Residual Bore Stress in an Autofrettaged Cylinder Constructed...][research_dawson_1964_b]
 - [Thermal Stress Determination Techniques for Supersonic...][research_gellatly_gallagher_1964]
 - [Axisymmetric reinforced viscoelastic cylindrical shell][research_shinozuka_spillers_1965]
-- [Hydrofoil Ship Structural Design Criteria Study][research_martincobaltimoremd_1965]
 - [Influence of shell inertia and bending stiffness on the...][research_beal_coale_1965]
 - [Method for weight optimization of a two-material shield for...][research_sasse_1965]
 - [Solid Propellant Structural Integrity Investigations Dynamic...][research_cantey_1965]
@@ -9111,7 +8663,6 @@ in the section headed The Contemporary Literature.
 - [Structural Optimization of Flat, Corrugated Core and Web-core...][research_vinson_shore_1967]
 - [Thermal Stability of a Reactive Spherical Shell][research_rosser_jr_1967]
 - [Ultrahigh Vacuum Cold Welding in a Dynamic Load Elevated...][research_ohno_1967]
-- [Design of Three Bending Magnets for Use with Beam from Target...][research_filler_1968]
 - [Effect of bond shear deformation on the dynamics of a...][research_jones_whittier_1968]
 - [Minimum weight design of aircraft landing gear reinforcement...][research_ridha_1968]
 - [Aerodynamic characteristics of a flat plate at the angle of...][research_galkin_zhbakova_1969]
@@ -9128,7 +8679,6 @@ in the section headed The Contemporary Literature.
 - [Nonlinear finite element analysis of sandwich shells of...][research_sharifi_popov_1972]
 - [Review of Candidate Structural Materials for an Arctic...][research_morton_silvergleit_1972]
 - [Scattering from an Elastic Spherical Shell][research_fender_1972]
-- [Structure, Properties and Radiation Sensitivity of...][research_dove_loehman_1972]
 - [Thermal stress analysis of reentry vehicle nosetips at angle...][research_crose_mckinley_1972]
 - [Advanced Metallic Structure Air Superiority Fighter Wing...][research_figge_1973]
 - [Advanced Metallic Structure Cargo Fuselage Design for...][research_mccarty_1973]
@@ -9137,7 +8687,6 @@ in the section headed The Contemporary Literature.
 - [Gradient optimization of structural weight for specified...][research_simodynes_1973]
 - [Incremental Analysis of Nonlinear Structural Mechanics...][research_jones_rembertf_1973]
 - [Minimum weight design of finite element structures][research_switzky_1973]
-- [Test methods for determining coaxial cable response to...][research_mayowells_edelman_1973]
 - [A Structural Weight Estimation Program SWEEP for Aircraft...][research_ascani_1974]
 - [A Structural Weight Estimation Program SWEEP for Aircraft...][research_wildermuth_rothammer_1974_b]
 - [A Structural Weight Estimation Program SWEEP for Aircraft...][research_wildermuth_rothammer_1974]
@@ -9146,13 +8695,11 @@ in the section headed The Contemporary Literature.
 - [A Structural Weight Estimation Program SWEEP for Aircraft...][research_hiyama_1974]
 - [Design, fabrication and test of graphite/epoxy metering truss...][research_design_fabrication_1974]
 - [High-Strength, Heat-Resistant and Structural Alloys of...][research_altman_1974]
-- [The Thermal Expansion of Rubidium Bromide by the Shell Model][research_pandey_dayal_1974]
 - [Thermal Expansion and Crystal Structure][research_rao_1974]
 - [Utilization of Foil Resistance Strain Gages to Measure the...][research_kinan_1974]
 - [A Structural Optimization Technique][research_komkov_haug_1975]
 - [Minimum weight design of the F-15 empennage for flutter][research_shelton_tucker_1975]
 - [Plastic wave propagation in an axially symmetric circular...][research_lin_1975]
-- [Structural analysis and optimization procedure of the TFTR...][research_driesen_1975]
 - [Analysis of a cylindrical shell vibrating in a cylindrical...][research_chung_turula_1976]
 - [Current Practice on Estimating Crack Growth Damage...][research_wood_gallagher_1976]
 - [Elastic Plates and Shells and the Stability of Thin-Walled...][research_rauch_1976]
@@ -9166,10 +8713,8 @@ in the section headed The Contemporary Literature.
 - [Comparison of optimality criteria algorithms for minimum...][research_khot_berke_1978]
 - [Ductile growth of a longitudinal flaw in a cylindrical shell...][research_ruiz_1978]
 - [Dynamic reponse of a cylindrical shell immersed in a...][research_cummings_1978]
-- [Experimental Determination of Residual Molded-in Stress Level...][research_askins_1978]
 - [Minimum-Weight Design of Multipurpose Tie-Beam of Solid...][research_karihaloo_1978]
 - [An improved analysis/synthesis capability based on dual...][research_schmit_1979]
-- [Analytical Modelling of Load-Deflection Behavior of...][research_burns_1979]
 - [Anomalies in X-Ray Residual Stress Measurements in...][research_doelle_cohen_1979]
 - [Distribution of steady state temperatures and thermoelastic...][research_melesedhospital_1979]
 - [Elastic constants for superplastically...][research_ko_1979]
@@ -9190,7 +8735,6 @@ in the section headed The Contemporary Literature.
 - [Structural properties of superplastically...][research_kowl_1980]
 - [The Aerospace Thermal Model HFLUX --Its Structure and Utility][research_dodd_1980]
 - [Algorithms Based on Optimality Criteria to Design Minimum...][research_khot_1981]
-- [Experimental Study On The Effect Of Axial Tension Load On The...][research_kyogoku_tokimasa_1981]
 - [Some aspects of algorithm performance and modeling in...][research_adelmanhm_robinsonjc_1981]
 - [Structural Optimization with Alternate Materials Minimum Mass...][research_fenyes_1981]
 - [Beam bending-torsion dynamic stiffness method for calculation...][research_hallauer_liu_1982]
@@ -9209,18 +8753,14 @@ in the section headed The Contemporary Literature.
 - [Optimization of superplasticity formed sandwich core][research_ueng_1984]
 - [Sandwich For The Body Structure][research_vogt_1984]
 - [Structural Optimization and Other Large-Scale Processes][research_plemmons_1984]
-- [Theory Support of Pulsed Power Experiments. Volume 3. E-Beam...][research_wilson_parks_1984]
 - [A nonlinear analysis of infinitely long graphite-epoxy...][research_boitnott_johnson_1985]
-- [Algebraic theory of beam-beam interaction in the thin lens...][research_forest_furman_1985]
 - [Fast Algorithms for Structural Optimization, Least Squares...][research_plemmons_1985]
 - [Minimum Weight Beam-columns of Given Compliance][research_karihaloo_1985]
 - [PR-164-170-R01 Residual Stress Measurements at Pipeline Girth...][research_leggatt_1985]
 - [Random vibration analysis of stiffened honeycomb panels with...][research_soovere_1985]
 - [Residual Stress Measurements on M1 Tank Weldments][research_catalano_1985]
-- [Theory and simulations of current drive via injection of an...][research_okuda_horton_1985]
 - [Vibratory Response of a Cylindrical Shell with Fixed Ends...][research_krupka_1985]
 - [Arbitrarily laminated, anisotropic cylindrical shell under...][research_chaudhuri_balaramant_1986]
-- [IR-laser induced interconversions of hydrogen-bonded dimers...][research_schrems_1986]
 - [Identification of Large Space Structures on Orbit][research_denman_hasselman_1986]
 - [Investigation of ultrasonic methods for residual stress...][research_swanson_1986]
 - [Minimum weight design of a structure with dynamic constraints...][research_hanagud_smithjr_1986]
@@ -9240,7 +8780,6 @@ in the section headed The Contemporary Literature.
 - [A C Superscript -Anisoparametric Three-Node Shallow Shell...][research_tessler_1989]
 - [Beam-like bending of variable-thickness sandwich plates][research_libove_lu_1989]
 - [Debonding in foam-core sandwich panels][research_triantafillou_gibson_1989]
-- [Electronic absorption spectra of cryogenic systems with...][research_meister_zelikina_1989]
 - [Least-weight design of frameworks under multiple dynamic loads][research_ohno_kramer_1989]
 - [Residual stress measurement][research_ometronltd_1989]
 - [Shape optimization of satellite tanks for minimum weight and...][research_eschenauer_1989]
@@ -9262,10 +8801,7 @@ in the section headed The Contemporary Literature.
 - [A variable stiffness strut using strain induced bending for...][research_pokines_belvin_1992]
 - [Formulation of equivalent uniform beam elements from...][research_baumann_1992]
 - [High-temperature strain measurement techniques Current...][research_lemcoemm_1992]
-- [Infrared spectra of weak hydrogen-bonded complexes in...][research_tokhadze_tkhorzhevskaya_1992]
 - [On the convergence quality of minimum-weight design of large...][research_mcgee_phan_1992]
-- [Special theme Panel data and structural change analysis][research_special_theme_1992]
-- [Structure-Based Design and Analysis for Concurrent Error...][research_fuchs_lau_1992]
 - [Supersonic transport wing minimum weight design integrating...][research_supersonic_transport_1992]
 - [The Large Space Structures Technology Program][research_gordon_1992]
 - [Variable-complexity aerodynamic optimization of an HSCT wing...][research_hutchison_unger_1992]
@@ -9274,7 +8810,6 @@ in the section headed The Contemporary Literature.
 - [Elastic Wrinkling of a Tensioned Circular Plate Using von...][research_adams_1993]
 - [Exact least-weight truss layouts for rectangular domains with...][research_lewinski_zhou_1993]
 - [Hanging cables with small bending stiffness][research_wolfe_1993]
-- [On a theory of two-beam mechanisms of charged particle...][research_ostrovsky_1993]
 - [Stresses Induced by Cryogenic Fluids in an Anisotropic Hollow...][research_nakhoul_boehman_1993]
 - [Shell Designs][research_crosier_1993]
 - [Structural Crashworthiness and Failure][research_jones_wierzbicki_1993]
@@ -9288,7 +8823,6 @@ in the section headed The Contemporary Literature.
 - [New non-destructive photothermal measurement of...][research_yarai_yokoyama_1994]
 - [Residual stresses and stress corrosion cracking in pipe...][research_parrington_scott_1994]
 - [Some unexpected properties of exact least-weight plane truss...][research_rozvany_birker_1994]
-- [Static internal pressure capacity of Hanford Single-Shell...][research_julyk_1994]
 - [Stress Analysis and Optimal Cross-Section Design of...][research_le_lin_1994]
 - [Test Plan. GCPS Task 4, subtask 4.2 thrust structure...][research_greenberghs_1994]
 - [Tôles sandwich amortissantes influence de la structure...][research_mercier_1994]
@@ -9296,16 +8830,12 @@ in the section headed The Contemporary Literature.
 - [Variable-complexity interlacing of weight equation and...][research_variable_complexity_interlacing_1994]
 - [A two-step procedure for discrete minimization of truss weight][research_bouzy_abel_1995]
 - [Analysis of stress concentration in the Dutton groove regions...][research_ahmedr_1995_b]
-- [Global Wave Statistics for Structural Design Assessments][research_lee_1995]
-- [Influence of Vessel Wall Motion and Phase Angle Between...][research_lee_tarbell_1995]
-- [Limiting Detection Performance for Random Signals of Unknown...][research_nuttall_1995]
 - [Minimum weight design of symmetric angle-ply laminates under...][research_adali_richter_1995]
 - [Residual stress depth profiles of ausrolled 9310 gear steel][research_paliani_queeney_1995]
 - [Shape optimization of elastic axisymmetric plate on an...][research_salac_1995]
 - [Structural Domain Modeling for Understanding Equipment...][research_wauchope_1995]
 - [Structural Hierarchy in Materials Processing and Property...][research_aksay_1995]
 - [The Relationship between Residual Stress and Hardness and the...][research_schroeder_frankel_1995]
-- [Weight Reduction of Cab-white Using Structural Optimization...][research_matsuuki_1995]
 - [High-resolution real-time adaptive optic microsensor for...][research_dovgalenko_loutchkina_1996]
 - [A Two-Wave Empirical Model of the Pressure Field in a...][research_hull_1996]
 - [Bifurcation Theory for a Rod with Small Bending Stiffness][research_wolfe_1996]
@@ -9313,13 +8843,11 @@ in the section headed The Contemporary Literature.
 - [Development of a pressure box to evaluate...][research_ambur_sikora_1996]
 - [Failure mechanisms around the interface between a sandwich...][research_minguet_obrien_1996]
 - [Geodesic Wing Structural Optimization and Dynamic Analysis][research_moon_1996]
-- [Near-Optimum Detection Performance of Power-Law Processors...][research_nuttall_1996]
 - [On design of joint positions for minimum mass 3D frames][research_sergeyev_pedersen_1996]
 - [Optimal design of a cylindrical shell loaded by internal...][research_magnucki_szyc_1996]
 - [Rapid Measurement of Residual Stress by Computerized...][research_hung_long_1996]
 - [Ratcheting limit of flat end cylindrical shell connections...][research_zeman_1996]
 - [Sound transmission through cylindrical shell structures...][research_tang_silcox_1996]
-- [The Effect of Strain Rate on the Axial Stress-Strain Response...][research_duncan_ashford_1996]
 - [The point force response of sandwich panels and its...][research_lin_1996]
 - [Thermal-structural materials solutions for spacecraft][research_finley_1996]
 - [A multi-mode random imperfection model in shell stability...][research_stam_stam_1997]
@@ -9332,7 +8860,6 @@ in the section headed The Contemporary Literature.
 - [On honeycomb-type core moduli][research_nast_nast_1997]
 - [Residual stress measurement by successive extension of a slot...][research_prime_1997]
 - [Stress concentration factors of flat end to cylindrical shell...][research_preiss_1997]
-- [Structural properties and surface characteristics of cesiated...][research_structural_properties_1997]
 - [Upper limits on the number of elements in elastic structures...][research_mckeown_1997]
 - [Vibratory States in and Radiation From a Framed Cylindrical...][research_houston_photiadis_1997]
 - [Finite Element Analysis of Laser Residual Stress Analysis for...][research_gong_1998]
@@ -9342,13 +8869,11 @@ in the section headed The Contemporary Literature.
 - [Minimum weight shape and size optimization of truss...][research_barbieri_lombardi_1998]
 - [On optimality conditions for least-weight truss layouts][research_yam_li_1998]
 - [Optimal joint positions and stiffness distribution for...][research_sergeyev_mroz_1998]
-- [Structural Degradation of a Tank Cannon due to Hole Damage][research_burton_1998]
 - [Travelling Wave Packets in an Infinite Thin Cylindrical Shell...][research_mikhasev_1998]
 - [Three-Dimensional Analysis of Acoustic Scattering from a...][research_ko_sandman_1998]
 - [A smoothing scheme for a minimum weight problem in structural...][research_tinloi_1999]
 - [An evolutionary method for optimal design of plates with...][research_nhachu_xie_1999]
 - [Bending of Curved Sandwich Panels with a Transversely...][research_frostig_1999]
-- [Biphasic Poroviscoelastic Model Simultaneously Predicts Axial...][research_disilvestro_zhu_1999]
 - [Crack formation on the cylindrical shell damaged by inner...][research_sun_yuan_1999]
 - [Issues in parachute structural modeling - Damping and...][research_accorsi_lu_1999]
 - [Mechanical residual stress measurement for chromium...][research_grantpeng_fangwu_1999]
@@ -9376,9 +8901,7 @@ in the section headed The Contemporary Literature.
 - [A new approach to wrinkling prediction for space membrane...][research_yang_ding_2001]
 - [Chemical Design of Structural Ceramics][research_rajan_2001]
 - [Discrete minimum weight design of steel structures using EC3...][research_guerlement_targowski_2001]
-- [Expansion of Open-Ocean Profiling Capabilities for the...][research_cowles_2001]
 - [Finite element formulation for thick sandwich plates on...][research_perel_palazotto_2001]
-- [MULTOPS A Data-Structure for Bandwidth Attack Detection][research_gil_poletto_2001]
 - [Non-linear constraints and stiffness representations in...][research_haering_2001]
 - [On the Elastic Stiffnesses of Corrugated Core Sandwich][research_carlsson_nordstrand_2001]
 - [On the Role of the Shell Theory in Analyzing the Sensitivity...][research_sheinman_goldfeld_2001]
@@ -9389,7 +8912,6 @@ in the section headed The Contemporary Literature.
 - [Thin films residual stress measurement by optical profilometry][research_costa_2001]
 - [Wrinkling of elastic-linear strain-hardening annular plates...][research_xu_2001_b]
 - [Design optimization by response surface methodology...][research_avalle_chiandussi_2002]
-- [Efficient optimization of a noise transfer function by...][research_marburg_hardtke_2002]
 - [European cryogenic material testing program for ITER coils...][research_nyilas_2002]
 - [Innovative Local-Global Methods for Wing Structural Design][research_gurdal_2002]
 - [Investigation of the Cellular Structure in Detonation of a...][research_zhdan_prokhorov_2002]
@@ -9417,10 +8939,8 @@ in the section headed The Contemporary Literature.
 - [Collected Papers in Structural Mechanics Honoring Dr. James...][research_knightnormanfjr_nemethmichaelp_2006]
 - [Structural Design and Analysis of Un-pressurized Cargo...][research_martinoviczorann_2007]
 - [Evaluation of Residual Stress Relaxation in Surface-Treated...][research_nagy_2008]
-- [Evaluation of a Test Article in the Salmonella...][research_song_2008]
 - [Fundamental Electronic Structure Characteristics and...][research_freeman_kontsevoi_2008]
 - [Structural Design of a NPS CubeSat Launcher][research_rossberg_2008]
-- [Evaluation of a Test Article in the Salmonella...][research_song_kirby_2009]
 - [Risk Quantified Structural Design and Evaluation][research_tuegel_2009]
 - [Use of Raman Spectroscopy and Delta Volume Growth from Void...][research_kezirianmichaelt_phoenixsleigh_2009]
 - [Flight Test Results for the Motions and Aerodynamics of a...][research_cicolani_lusardi_2010]
@@ -9442,7 +8962,6 @@ in the section headed The Contemporary Literature.
 - [A Parametric Study of a Plug Nozzle, Using the Liquid...][research_dunnstuarts_coatsdouglase_1996]
 - [An experimental evaluation of plug nozzle flow field][research_tomita_tamura_1996]
 - [Flutter analysis of the Linear Aerospike SR-71 Experiment...][research_goforth_1996]
-- [Some effects of ground clearance and ground plane boundary...][research_garry_1996]
 - [Wind-tunnel development of an SR-71 aerospike rocket flight...][research_smithstephenc_shirakatanorm_1996]
 - [A numerical analysis of a three dimensional aerospike][research_ruf_mcconaughey_1997_b]
 - [Linear aerospike engine performance evaluation][research_fick_schmucker_1997]
@@ -9582,7 +9101,6 @@ in the section headed The Contemporary Literature.
 - [Mission performance of a 360 mw nuclear rocket engine][research_balcomb_1972]
 - [Nuclear Rocket uncooled nozzle study program. Phase III][research_nuclear_rocket_1972]
 - [Review of nozzle damping in solid rocket instabilities][research_zinn_1972]
-- [Die physikalischen Grundlagen der Uran 235 -Anreicherung nach...][research_bley_durr_1973]
 - [Experimental Study of the Effect of Subsonic Exhaust Gas...][research_taylor_simmons_1973]
 - [Experimental investigation of combustor effects on rocket...][research_nurickwh_hinesws_1973]
 - [Integrated airframe-nozzle performance for designing...][research_glasgow_1973]
@@ -9608,7 +9126,6 @@ in the section headed The Contemporary Literature.
 - [Lip noise generated by flow separation from nozzle surfaces][research_olsen_karchmer_1976]
 - [Nozzle selection for optimized single-stage shuttles][research_eldredch_rehderjj_1976]
 - [An advanced tubular nozzle extension for liquid rocket engines][research_brunner_buse_1977]
-- [LLL total flow geothermal program summary of two-phase nozzle...][research_lll_total_1977]
 - [NAP a computer program for the computation of...][research_cline_1977]
 - [Nozzle contour optimization for solid-propellant rocket motors][research_daines_boyd_1977]
 - [Nozzle flow of laser-heated radiating hydrogen with...][research_kemp_root_1977]
@@ -9640,7 +9157,6 @@ in the section headed The Contemporary Literature.
 - [Investigation of optimization techniques for solid rocket...][research_davis_1982]
 - [Performance of a 2D-CD nonaxisymmetric exhaust nozzle on a...][research_straight_cullom_1982]
 - [Aeroacoustics of supersonic porous plug-nozzle flows][research_dosanjh_1983]
-- [BWR spray-nozzle performance in steam environment][research_richter_durkee_1983]
 - [Improvements in rocket engine nozzle and high altitude plume...][research_smith_1983]
 - [Nozzle contour optimization for nonuniform rocket flow][research_boraas_1983]
 - [Shock-induced flow separation and the orbiter thermal...][research_waiter_1983]
@@ -9654,7 +9170,6 @@ in the section headed The Contemporary Literature.
 - [Rocket nozzle lip flow by direct simulation Monte Carlo method][research_hueser_brock_1985]
 - [Space Shuttle Main Engine nozzle thermal protection system][research_nordlund_1985]
 - [Aeroacoustics of contoured plug-nozzle supersonic jet flows][research_dosanjh_das_1986]
-- [Mechanics of a Single Nozzle Air-Jet Filling Insertion System...][research_mohamed_salama_1986]
 - [Rocket nozzle lip flow by direct simulation Monte Carlo method][research_hueser_melfi_1986]
 - [Test Cryostat Nozzle][research_wintercorn_1986]
 - [The flow generated by ramp tabs in a rocket nozzle exhaust][research_simmons_1986]
@@ -9666,7 +9181,6 @@ in the section headed The Contemporary Literature.
 - [Performance of high-area-ratio nozzle for a small rocket...][research_kushida_hermel_1987]
 - [Two-phase chamber and nozzle flow in solid rocket motor][research_desnoyer_1987]
 - [Aeroacoustics of supersonic jet flows from a contoured...][research_dosanjh_das_1988]
-- [Classification performance of a rectangular jet virtual...][research_masuda_nakasita_1988]
 - [Numerical study of gas-particle flow in a solid rocket nozzle][research_hwang_chang_1988]
 - [PNS simulation of rocket exhaust nozzle flows][research_gregg_1988]
 - [Semiempirical method of calculating overexpanded turbulent...][research_malik_tagirov_1988]
@@ -9677,8 +9191,6 @@ in the section headed The Contemporary Literature.
 - [A CFD analysis of a scarfed plugged nozzle to determine...][research_galambos_1990]
 - [Computation of vectoring nozzle performance][research_cheatham_walker_1990]
 - [Flow Visualization of Four-Inlet Ducted Rocket Engine...][research_brophy_hawk_1990]
-- [Observed and expected powder plug densities obtained by a...][research_tan_newton_1990]
-- [Performance Comparison of Rolling-Cutter Bits With...][research_moffitt_mcgehee_1990]
 - [Radiation effect on rocket engine performance][research_chiu_kross_1990]
 - [Application of a chemically reacting Navier-Stokes code for...][research_mcamis_lankford_1991]
 - [Design of a high performance bell rocket nozzle for a high...][research_dunn_kaith_1991]
@@ -9717,7 +9229,6 @@ in the section headed The Contemporary Literature.
 - [Fluidic Control of Nozzle Flow Some Performance Measurements][research_federspieljohn_bangertlinda_1995]
 - [High performance Earth Storable Rocket Engine][research_campbell_riccio_1995]
 - [Performance analysis of an axisymmetric thrust-vectoring...][research_matesanz_velazquez_1995]
-- [Performance and Exhaust Emissions in a Glow-assisted Methanol...][research_kusaka_1995]
 - [Performance variation of scramjet nozzle at various nozzle...][research_hiraiwa_tomioka_1995]
 - [Roll torques produced by fixed nozzle solid rocket motors][research_knauber_1995_b]
 - [Simulation of overexpanded low-density nozzle plume flow][research_chung_dewitt_1995]
@@ -9733,15 +9244,12 @@ in the section headed The Contemporary Literature.
 - [The effects of the Hartman cavity on the performance of the...][research_mansour_chigier_1996]
 - [Validation of High Aspect Ratio Cooling in a 89 kN 20,000 lb...][research_wadelmaryf_meyermichaell_1996]
 - [A Computational Study of Contoured Plug-nozzle Jet Noise][research_das_khavaran_1997]
-- [Filter minimises risk of coolant nozzle blockage][research_filter_minimises_1997]
 - [Gas-Solid Suspension Flow in a Nozzle and the Overexpanded...][research_bendor_elperin_1997]
-- [High product recovery using vortex-nozzle centrifuge][research_high_product_1997]
 - [Numerical simulation of flow separation in rocket nozzle][research_hadjadj_nebbache_1997]
 - [Overexpanded Two-Dimensional-Convergent-Divergent Nozzle Flow...][research_hamed_vogiatzis_1997]
 - [Performance enhancements for the reusable solid rocket motor...][research_cook_walters_1997]
 - [Turbine Engine Installed Performance Optimisation With a...][research_ulizar_1997]
 - [A fast algorithm to solve viscous two-phase flow in an...][research_mehta_jayachandran_1998]
-- [Impactor performance at small nozzle to collector distances][research_gomezmoreno_1998]
 - [Jetevator for rocket engine][research_jetevator_for_1998]
 - [Nozzle Flow Separation][research_romine_1998]
 - [Numerical Investigation of Twin-Nozzle Rocket Plume...][research_ebrahimi_levine_1998]
@@ -9755,9 +9263,7 @@ in the section headed The Contemporary Literature.
 - [Downstream gas effect on nozzle flow-separation location][research_murdock_welle_1999]
 - [Flow separation and side-loads in rocket nozzles][research_frey_hagemann_1999]
 - [Reusable Rocket Engine Advanced Health Management System...][research_pettitcd_barkhoudarians_1999]
-- [Comparison of Nozzle and Flow Straighteners for Tank Waste...][research_mullen_jackson_2000]
 - [Numerical Study of the Aeroelastic Stability of an...][research_lefrancois_dhatt_2000]
-- [Design of Nozzle for UV Fluorescence Detector][research_ramamurti_2001]
 - [Downstream Gas Effect on Nozzle Flow-Separation Location][research_murdock_welle_2001]
 - [Flow separation and side-load behavior of truncated ideal...][research_terhardt_hagemann_2001]
 - [Flow separation experimental analysis in overexpanded...][research_reijasse_morzenski_2001]
@@ -9773,7 +9279,6 @@ in the section headed The Contemporary Literature.
 - [Performance Analysis of Thermal Protection System of a Solid...][research_jones_shukla_2002]
 - [Performance Analysis of a Nonequilibrium Hypersonic Nozzle][research_human_2002]
 - [Status of Nozzle Aerodynamic Technology at MSFC][research_rufjosephh_mcdanielsdavidm_2002]
-- [Study of nozzle characteristics on the performance of a...][research_lyu_shin_2002]
 - [Analysis of Nozzle and Ejector Effects on Pulse Detonation...][research_yungster_2003]
 - [Boeing to Test Oxidizer Pump for Advanced Rocket Engine][research_beck_beach_2003]
 - [Fatigue failure of a fillet welded nozzle joint][research_das_bhaduri_2003]
@@ -9788,7 +9293,6 @@ in the section headed The Contemporary Literature.
 - [Liquid-Propellant Rocket Engine Injector Dynamics and...][research_yang_2004]
 - [Multidimensional Unstructured-Grid Liquid Rocket Engine...][research_wang_2004]
 - [Numerical Analysis of Performance of DF Chemical Laser With a...][research_park_baek_2004]
-- [Water Mist Suppression of PMMA Boundary Layer Combustion - A...][research_ndubizu_ananth_2004]
 - [Flow Separation Side Loads Excitation of Rocket Nozzle FEM][research_smalleykurtb_brownandrew_2007]
 - [Extended Radar Return from a Rocket Engine A Thermal Model][research_burrows_2008]
 - [Modeling Liquid Rocket Engine Atomization and Swirl/Coaxial...][research_heister_2008]
@@ -9821,13 +9325,11 @@ in the section headed The Contemporary Literature.
 - [Design and fabrication of a super alloy thermal protection...][research_variscoa_wolterw_1978]
 - [Hypervelocity impact tests on Space Shuttle Orbiter RCC...][research_humes_1978]
 - [Design and fabrication of titanium multi-wall Thermal...][research_blairw_meaneyjejr_1980]
-- [Thermal Protection of Commercial Dry Suit Diving Systems][research_bogart_breckenridge_1981]
 - [Coupled reentry vehicle heatshield/antenna window ablation][research_moody_groener_1982]
 - [Nonlinear Dynamic Phenomena in the Space Shuttle Thermal...][research_housner_edighoffer_1982]
 - [Preliminary design of the thermal protection system for solar...][research_dirlingjr_loomis_1982]
 - [Space Shuttle Orbiter - Reusable surface insulation flight...][research_dottsrl_tilliandj_1982]
 - [Vibroacoustic Modeling for Space Shuttle Orbiter Thermal...][research_doyle_1982]
-- [Development of Passive Diver Thermal Protection System][research_lippitt_jr_1983]
 - [Advanced leading edge thermal-structure concept. Direct bond...][research_riccitiellosr_figueroah_1984]
 - [High temperature performance of flexible thermal protection...][research_savage_love_1984]
 - [Mechanical properties of the Shuttle Orbiter thermal...][research_sawyer_1984]
@@ -10038,7 +9540,6 @@ in the section headed The Contemporary Literature.
 - [NACA Conference on High-speed Aerodynamics. a Compilation of...][research_naca_conference_1958]
 - [The Free Flight Aerodynamics Range][research_braun_1958]
 - [Overexpanded Performance of Conical Nozzles with Area Ratios...][research_musialnormant_wardjamesj_1959]
-- [Addendum and Errata - "Viscous Aerodynamic Characteristics in...][research_probstein_kemp_1960_b]
 - [Aerodynamic Characteristics of a Model of an...][research_rossbrobinson_odellamorris_1960]
 - [Hypersonic Flow Theory and Hypersonic Aerodynamics][research_hayes_probstein_1960]
 - [Some Studies of the Flow Pattern at the Base of Missiles with...][research_goethert_barnes_1960]
@@ -10080,10 +9581,8 @@ in the section headed The Contemporary Literature.
 - [Aerodynamic characteristics of the hemisphere at supersonic...][research_clark_1969]
 - [IFR experience with unpowered, low-lift-drag- ratio landing...][research_peterchoag_blyleschofield_1970]
 - [Statics and aerodynamics of lifting decelerators][research_townend_1970]
-- [Aerodynamic characteristics of a slender body traveling in a...][research_goodman_1971]
 - [Aerodynamic characteristics of slender wedge- wings in...][research_rodkiewicz_chattopadhyay_1971]
 - [Aerodynamic characteristics of wing-body and lifting-body...][research_jernellls_1971]
-- [Aerodynamic analysis of tube vehicle systems][research_hammitt_1972]
 - [Analysis of a supersonic-combustion rocket concept][research_franciscuslc_1972]
 - [Body Alone Aerodynamics of Guided and Unguided Projectiles at...][research_moore_1972]
 - [Hypersonic aerodynamics and entry-maneuver Aerothermodynamic...][research_arringtonjp_woodswc_1972]
@@ -10119,12 +9618,9 @@ in the section headed The Contemporary Literature.
 - [Experimental investigation of the interference-free flow...][research_nyberg_sorensen_1980]
 - [Ground and flight test investigations of reentry vehicle...][research_groener_stetson_1980]
 - [Reentry vehicle state and aerodynamic coefficient estimation...][research_mcdowell_williamsonjr_1980]
-- [Review Bluff Body Flows Applicable to Vehicle Aerodynamics][research_bearman_1980]
 - [Trim aerodynamics of a warped reentry vehicle][research_barbera_1980]
 - [Acoustic and aerodynamic performance investigation of...][research_knottpr_blozyjt_1981]
 - [Aerodynamic and Inlet Flow Characteristics of Several...][research_dillon_marcum_1981]
-- [Drag Reduction Obtained by the Addition of a Boattail to a...][research_petersonrl_1981]
-- [Fourth colloquium on industrial aerodynamics, Aachen, June 18...][research_garry_1981]
 - [A comparison of reentry vehicle dynamic models for the...][research_mcdowell_williamsonjr_1982]
 - [Aerodynamic characteristics of hypersonic spin stabilized...][research_milton_daniel_1982]
 - [Discussion of session 15 Fundamentals of bluff body...][research_discussion_of_1983]
@@ -10139,8 +9635,6 @@ in the section headed The Contemporary Literature.
 - [Experimental aerodynamic coefficients on a Shuttle-like...][research_micol_weilmuenster_1985]
 - [Supersonic aerodynamic characteristics of some reentry...][research_spearman_1985]
 - [The Design and Testing of Pneumatic Systems for Measuring Low...][research_wagner_dale_1985]
-- [Vehicle forward lighting concept integrates aerodynamic...][research_vehicle_forward_1985]
-- [Aerodynamics of vehicle cooling systems][research_renn_gilhaus_1986]
 - [The accuracy problem of airplane development force testing in...][research_ewald_krenz_1986]
 - [Aerodynamic and thermal characteristics of a body of complex...][research_peigin_postnikov_1987]
 - [An aerodynamic model for a hemispherically-capped biconic...][research_jordan_buffington_1987]
@@ -10176,9 +9670,7 @@ in the section headed The Contemporary Literature.
 - [Aerodynamic design of a hypersonic body with a constant...][research_shope_spinetti_1993]
 - [Air/helium ground-test simulation pertinent to the definition...][research_woods_thompson_1993]
 - [Bluff-body aerodynamics and turbulence][research_nakamura_1993]
-- [Bluff-body aerodynamics as applied to vehicles][research_cooper_1993]
 - [Book Review Computational Methods in Hypersonic Aerodynamics][research_candler_1993]
-- [Errata Review of Computational Methods in Hypersonic...][research_candler_1993_b]
 - [Perspectives on bluff body aerodynamics][research_roshko_1993]
 - [Aerodynamic characteristics of a delta wing in hypersonic flow][research_kiselev_maslov_1994]
 - [Aerothermodynamics of Pyrolizing Surfaces in Hypersonic...][research_haasbrianl_milosfranks_1994]
@@ -10187,26 +9679,20 @@ in the section headed The Contemporary Literature.
 - [Calculation of the viscosity effect on the aerodynamic...][research_gorenbukh_provotorov_1995]
 - [Experimental and Computational Analysis of Shuttle Orbiter...][research_brauckmanngregoryj_paulsonjohnwjr_1995]
 - [Lifting wings of optimum shape in a viscous hypersonic stream][research_golubkin_1995]
-- [The influence of body shapes upon vehicle aerodynamic noise][research_nagayoshi_1995]
 - [Advanced Reusable Transportation Technologies Project overview][research_hueter_1996]
-- [Aerodynamic Effects on Ride Comfort and Road Holding of...][research_doniselli_mastinu_1996]
 - [Aerodynamic characteristics evaluation of the Hypersonic...][research_watanabe_ishimoto_1996]
 - [Aerodynamic characteristics of sharp elliptic cones in a...][research_gorenbukh_korolev_1996]
 - [Ascent Aerodynamic Pressure Distributions on WB001][research_vub_rufj_1996]
 - [Base cavity effects on the aerodynamic characteristics of a...][research_fournier_dupuis_1996]
 - [Control effectiveness of a jet-slender body combination at...][research_kontis_stollery_1996]
-- [Gas-bubble snap-off under pressure driven flow in constricted...][research_kovscek_radke_1996]
-- [Role of flow shear in enhanced core confinement regimes][research_hahm_burrell_1996]
 - [Russian Aerospace Literature This month Hypersonic...][research_russian_aerospace_1996]
 - [Aerodynamic Characteristics Evaluation of Hypersonic Flight...][research_watanabe_ishimoto_1997]
 - [Base Cavity Effects on the Aerodynamic Characteristics of a...][research_fournier_dupuis_1997]
 - [Computational and experimental investigation of hypersonic...][research_qin_stollery_1997]
 - [Discussions of bluff body aerodynamics][research_discussions_of_1997_b]
-- [Discussions of vehicle aerodynamics and dispersion][research_discussions_of_1997]
 - [NASA Hypersonic X-Plane Flight Development of Technologies...][research_hicksjohnw_trippenseegary_1997]
 - [Extrapolation From Wind Tunnel to Flight Shuttle Orbiter...][research_jmuylaert_lwalpot_1998]
 - [The Hypersonic Revolution Case Studies in the History of...][research_hallion_1998]
-- [Application of Aerodynamic Actuators to Improve Vehicle...][research_chou_savkoor_1999]
 - [Cost effectiveness estimates of the partially reusable...][research_kostromin_1999]
 - [Lightweight low cost KLIN cycle derivative for a small...][research_balepin_hendrick_1999]
 - [The Atmospheric Reentry Demonstrator ARD - A successful...][research_leveugle_reinhard_1999]
@@ -10224,7 +9710,6 @@ in the section headed The Contemporary Literature.
 - [Species separation in rocket exhaust plumes and analytic...][research_koppenwallner_2001]
 - [The effects of attack angle on side jet aerodynamic...][research_kurita_okada_2001]
 - [Thin film membrane wrinkling due to mechanical and thermal...][research_blandinao_johnston_2001]
-- [Transient aerodynamics of vehicle platoons during in-line...][research_tsuei_savas_2001]
 - [Wind-Tunnel Investigations of Blunt-Body Drag Reduction Using...][research_whitmorestephena_spraguestephanie_2001]
 - [A Study on Aerodynamic Performances of Lifting-body...][research_kawato_watanabe_2002]
 - [Flight Vehicle Performance and Aerodynamic Control][research_smetana_covert_2002]
@@ -10239,7 +9724,6 @@ in the section headed The Contemporary Literature.
 - [Energy-Based Design Methodology for Air Vehicle Systems...][research_figliola_2005]
 - [Time-Accurate Numerical Prediction of Free Flight...][research_sahu_2005]
 - [Planar laser-induced fluorescence PLIF investigation of...][research_danehypaulm_wilkesjennifera_2006]
-- [Flow Model Study for Section 227 Demonstration Project in...][research_hansen_howington_2007]
 - [Unsteady Flow Computations of a Finned Body in Supersonic...][research_sahu_2007]
 - [Final Environmental Assessment for Hypersonic Technology...][research_huynh_kriz_2009]
 - [Integrated Aero-Servo-Thermo-Propulso-Elasticity ASTPE for...][research_chen_starkey_2009]
@@ -10268,16 +9752,13 @@ in the section headed The Contemporary Literature.
 - [Engineering, construction, and operations in space - III...][research_willyzsadeh_steinsture_1992]
 - [Launch winds operations for the Delta launch vehicle][research_winchell_1992]
 - [A responsive launch vehicle should trade weight for cost and...][research_browning_1993]
-- [Grounds Management Cost Reduction Strategies][research_fordham_1993]
 - [Life cycle cost modeling of conceptual space vehicles][research_ebelingcharles_1993]
 - [The X-15/HL-20 operations support comparison][research_morriswdouglas_1993]
 - [Thrust augmentation options for the Beta two-stage to orbit...][research_snyder_1993]
 - [Future launch vehicle propulsion systems operability analysis][research_christenson_holt_1995]
-- [Applying Benefit/Cost Analysis To Identify and Measure the...][research_brand_1998]
 - [Life cycle cost impacts of reusable vehicles and their role...][research_eisman_1999]
 - [Space Launch Operations and the Lean Aerospace Initiative][research_endicott_1999]
 - [Approximation Model Building for Reliability and...][research_unalresit_morriswdouglas_2000]
-- [Combining LPD and Aircraft-Carrier Capabilities A New Italian...][research_barbato_belga_2000]
 - [Operations Assessment of Launch Vehicle Architectures using...][research_ruiztorresalexj_mccleskeycarey_2000]
 - [Reusable expendable launcher cost analysis][research_pempie_vernin_2000]
 - [Arms Control Implications for Military Operations in Space][research_billick_2001]
@@ -10288,7 +9769,6 @@ in the section headed The Contemporary Literature.
 - [Behavior of Honeycomb FRP Sandwich Sinusoidal Core Panels...][research_chen_davalos_2004]
 - [Modeling and Simulation of Reliability and Maintainability...][research_unalresit_morriswdouglas_2004]
 - [Turnaround Time Modeling for Conceptual Rocket Engines][research_nixmichael_statonericj_2004]
-- [Issues Facing Weapons Systems Contractors Deployed in Support...][research_harrington_2005]
 - [A Discrete-Event Simulation Model for Evaluating Air Force...][research_martindale_2006]
 - [High Operations Tempo Energetic Access to Globe and Launch...][research_raymer_2006]
 - [Building Operations Efficiencies into NASA's Ares I Crew...][research_dumbacherdaniell_davisstephanr_2007]
@@ -10300,7 +9780,6 @@ in the section headed The Contemporary Literature.
 - [General Purpose Data-Driven System Monitoring for Space...][research_davidliverson_rodneymartin_2012]
 - [Making the Case for Reusable Booster Systems The Operations...][research_zapataedgar_2012]
 - [Autonomous Cryogenic Leak Detector for Improving Launch Site...][research_goswamikisholoy_2013]
-- [A Cost Analysis of Space Available Travel][research_rupp_2014]
 - [Cost Analysis in a Multi-Mission Operations Environment][research_feltonlarry_newhousemarilyn_2014]
 
 - [A launch vehicle stability analysis using the parameter plane...][research_seltzer_1970]
@@ -10487,17 +9966,12 @@ in the section headed The Contemporary Literature.
 
 
 
-- [Metallurgical Evaluation of a Method of Anti-Personnel...][research_hurlich_1945]
 - [Design and Construction of Crystal Transducers][research_kurie_1946]
 - [Analysis of the Inelastic Behavior of Transversely Reinforced...][research_kempner_salerno_1950]
-- [Design Information for Construction of Light Personnel Armor][research_beye_1950]
 - [Design and Construction Project Model 309][research_heinrich_1951]
-- [AIRCRAFT ROCKET FUZE SYSTEMS. PARTIAL REPT. NO. 20. T-2023...][research_navalweaponslabdahlgrenva_1952]
 - [Linear Bending Theory of Isotropic Sandwich Plates by an...][research_gerard_1952_b]
 - [MX-2276 Reconnaissance Aircraft Weapon System. System Design][research_bellaerospacecobuffalony_1955]
-- [Tank Fire Control Systems Study. Evaluation of Some...][research_brown_1955]
 - [Derivation of Weight RF Terms of Parametric Design Analysis...][research_feldman_1956]
-- [Bond strength evaluation of the brittle bond problem in...][research_tverberg_1958]
 - [Draft Military Characteristics, Flying Crane Vehicle][research_armyaviationboardfortruckeral_1958]
 - [Methods of Flight Vehicle Noise Prediction][research_franken_kerwin_1958]
 - [Altitude Performance Evaluation of Two Afterburner Fuel...][research_ward_neeley_1959]
@@ -10508,12 +9982,9 @@ in the section headed The Contemporary Literature.
 - [Analysis of Cryogenic Propellant Feed Systems for...][research_ekehat_babuffham_1961]
 - [Design of a Power System for a Lunar Mobile Surface Vehicle][research_brody_1961]
 - [Double Block Shear Test for Foil Honeycomb Cores][research_osullivan_1961]
-- [Evaluation Test of Antiseize Compound for Tank and Vehicle...][research_crox_johnf_1961]
 - [Minimum Weight Analyses for Four Types of Stiffened, Flat...][research_burns_crawford_1961]
 - [Optimum Propellant Loading and Propellant Utilization System...][research_whitcombe_1961]
-- [Technical Evaluation of the Zuni Rocket Base Fuze MK 191 Mod 1][research_shkolnik_1961]
 - [An Explicit Solution to the Powered Flight Dynamics of a...][research_macpherson_1962]
-- [Design of an Optical Insert, Type 2, for the Tank Cbr...][research_colman_1962]
 - [Detection and Evaluation of Interface Separations in Rocket...][research_bujes_1962]
 - [Development and Evaluation of the USAF Ballistic Test...][research_gale_1962]
 - [Investigation of High Temperature Thermal Expansion Devices...][research_folweiler_1962]
@@ -10524,12 +9995,10 @@ in the section headed The Contemporary Literature.
 - [Analysis - Effect of Depth Increase, Launch Tube, Wing V][research_barber_1963]
 - [Cooling and Performance Characteristics of the XM-551 Armored...][research_jaeger_1963]
 - [Design of Equipment to Optimize Reliability for...][research_kececioglu_hughes_1963]
-- [Engineering Design Handbook. Fire Control Series Compensating...][research_armymaterielcommandalexandriava_1963]
 - [Firefly 3, Sounding Rocket Launching Report. Launch Facility...][research_vickery_1963]
 - [Ground Electronics System for WS-133B Minuteman - Facilities...][research_levin_1963]
 - [Review of Fire and Explosion Hazards of Flight Vehicle...][research_perlee_liebman_1963]
 - [Small Probe Vehicle Study Performance Summary, Volume 1][research_officeofresearchanalyseshollomanafbnm_1963]
-- [Terrain Criteria in Vehicle Design][research_hanamoto_liston_1963]
 - [The NOL 10,000 ATM. Ballistic Piston Compressor. 1. Design...][research_lalos_1963]
 - [An Evaluation of Radiation Compensating Thermocouple...][research_carlson_1964]
 - [Classification Space Analysis][research_ossorio_1964]
@@ -10538,7 +10007,6 @@ in the section headed The Contemporary Literature.
 - [Recirculation Principle for Ground Effect Machine Preliminary...][research_cossairt_1964]
 - [Analysis of Advanced Flight Vehicle Heat Exchanger Fire and...][research_furno_bartkowiak_1965]
 - [Analysis of cryogenic propellant logistics][research_drew_1965]
-- [Military Vehicle Testing][research_sissom_1965]
 - [Project Rover Cryogenic Evaluation Laboratory][research_stokes_1965]
 - [Saturn S-IV Cryogenic Weigh System Part I Propellant...][research_nichols_hendee_1965]
 - [Test Program for Automatic Light Aircraft Readiness Monitor...][research_butler_salomonsky_1965]
@@ -10547,7 +10015,6 @@ in the section headed The Contemporary Literature.
 - [Aircraft Fuel Tank Design Criteria][research_robertson_turnbow_1966]
 - [Design and Construction of a Cryogenic Liquid...][research_alexander_1966]
 - [Exponential Life Test Procedures When the Distribution Has...][research_barlow_proschan_1966]
-- [Spectrum and Octave Band Analysis of Pressure Pulses from...][research_genau_1966]
 - [The economic impact of reusable orbital transports on the...][research_dreyfuss_1966]
 - [1756. Cryogenic propellant fluid, properties report for data...][research_1756_cryogenic_1967]
 - [A Method for Weight Optimization of Flat Truss-core Sandwich...][research_mccoy_shore_1967]
@@ -10565,7 +10032,6 @@ in the section headed The Contemporary Literature.
 - [Test Program on Durability of Aircraft Coatings][research_putscher_1967]
 - [Behavior of Stiffened Plates. Volume 2. Optimum Design][research_heller_1968]
 - [Creeping-wave Analysis of Acoustic Scattering by Elastic...][research_uginicius_1968]
-- [Design and Analysis of a Statistical Experiment on High...][research_chrepta_zinn_1968]
 - [Design and Development of a Servocontrolled Gas Inbleed...][research_mathews_shofner_1968]
 - [Inspection, Repairs and Modifications, and Flight Test of the...][research_irvine_1968]
 - [Optimal control of a reentry vehicle in the presence of...][research_deyst_1968]
@@ -10574,7 +10040,6 @@ in the section headed The Contemporary Literature.
 - [Rocket Vehicle Surface Reflectance Measurement during...][research_adams_1968]
 - [System Analysis Manpower Resources/System Design Integration...][research_weisz_1968]
 - [Synthesis of calculational methods for the design and...][research_woodsum_rowland_1968]
-- [An Analysis and Simulation of the M60AIE2 Tank Main Gun's...][research_pastrick_1969]
 - [Emulsified Fuel System Design Study][research_hollinger_1969]
 - [Failure Analysis of Initially Imperfect, Axially Compressed...][research_wesenberg_mayers_1969]
 - [Optimal Design of Elastic Circular Sandwich Beams for Minimum...][research_huang_sheu_1969]
@@ -10585,13 +10050,10 @@ in the section headed The Contemporary Literature.
 - [Aeroelastic bending of a sounding rocket vehicle][research_matejka_1970]
 - [Analysis of Measured Helicopter Rotor Pressure Distributions][research_tung_duwaldt_1970]
 - [Closed Loop Seal Creep Compensating Connector Evaluation][research_kreiter_meyers_1970]
-- [Design of Portable Strainmeter System][research_shopland_1970]
 - [Evaluation of insulation materials and components for use in...][research_evaluation_of_1970]
 - [The Prediction of Internal Vibration Levels of Flight Vehicle...][research_sevy_earls_1970]
-- [The drawbar pull-weight ratio as a measure of vehicle...][research_the_drawbar_1970]
 - [Thermal testing of inflatable solar shields for cryogenic...][research_doughty_jones_1970]
 - [A comparison of several nonlinear filters for reentry vehicle...][research_mehra_1971]
-- [Analysis of Preventive Maintenance Policies for Navy...][research_jokubaitis_1971]
 - [Fully reusable shuttle][research_hello_1971]
 - [Space vehicle reentry and thermal effects of high winds][research_plumb_1971]
 - [A nonlinear programming approach for optimizing two-stage...][research_kamm_johnson_1973]
@@ -10603,23 +10065,16 @@ in the section headed The Contemporary Literature.
 - [Nonstationary ascent wind analysis][research_howelllj_kuchtabj_1973]
 - [Observations of Surface Effect Vehicle Performance][research_liston_1973]
 - [An Airborne Telescope-Camera System for High-Resolution...][research_daniels_dryden_1974]
-- [Analytical Performance of Steel, Aluminum and Plastic for a...][research_gold_1974]
 - [Dynamic and Static Evaluation of Experimental Integral Fuel...][research_baker_1974]
 - [Ground Vibration Test of OH-58A Tailboom Failure during...][research_baker_1974_b]
 - [Minimum weight design of stiffened cylinders under axial...][research_simitses_1974]
 - [On reentry vehicle tracking in various coordinate systems][research_fitzgerald_1974]
-- [Recommended Vehicle Concepts for Waterjet Propelled...][research_ravenscroft_jr_1974]
 - [Solid propellant sandwich deflagration analysis][research_strahle_1974]
 - [Star Tracker/Mapper System Design Parameters][research_schenkel_1974]
 - [A Linear Analysis of the Deformation of Pressure Stabilized...][research_steeves_1975]
-- [CARETS A prototype regional environmental information system...][research_peterjbuzzanell_1975]
 - [Chronology and Analysis of the Development of Altitude...][research_tate_gillard_1975]
-- [Design and Evaluation of a Towed AC Magnetic Source Vehicle][research_sieber_1975]
 - [Development of Technology for Assessment of Electromagnetic...][research_mcdonnelldouglasastronauticscostlouismo_1975]
-- [Effects of Variation in Drawbar Hitch Location on Vehicle...][research_hanamoto_1975]
-- [Engineering Design Handbook. Military Vehicle Power Plant...][research_armymaterielcommandalexandriava_1975]
 - [Evaluation of an Airborne Thrust Computing System. Volume I...][research_gravelle_1975]
-- [High Energy Laser Technology Assessment Volume 1. The...][research_brown_jones_1975]
 - [Jobstream Separator System Design][research_schacht_1975]
 - [One-dimensional model for low-altitude rocket exhaust plumes][research_woodroffe_1975]
 - [Optimum Design of Stiffened Shear Webs with Supplementary...][research_richards_1975]
@@ -10628,20 +10083,14 @@ in the section headed The Contemporary Literature.
 - [TARTARUS Model Sensitivity Experiment][research_thomas_1975]
 - [Utilization of the Bend Test for Determining Tensile...][research_campo_1975]
 - [Design and Testing of the H-53, 450-Gallon Auxiliary Fuel...][research_gibbons_1976]
-- [A Mobility Analysis of Vehicles Participating in S-Tank...][research_martin_niemeyer_1977]
 - [Advanced high pressure engine study for mixed-mode vehicle...][research_luscherwp_mellishja_1977]
 - [Cadmium telluride detector development and use in reentry...][research_lyons_1977]
 - [Cryogenic design and safety review NASA-Langley Research...][research_voth_strobridge_1977]
-- [Design of Minimum Noise Digital Filters Using a Mixed Norm][research_cooper_levasseur_1977]
-- [End Use Space Conditioning Equipment Cost Data for Use in...][research_goldman_best_1977]
-- [Independent Production Cost Estimate XM1 Tank Main Armament...][research_johnston_kalal_1977]
 - [MILES Pressure/Seismic Response-Initial Study and Analysis][research_starr_ludwig_1977]
 - [An Analysis of the Pressure Dependence of Nitrate Ester...][research_adams_1978]
 - [Comparison of reusable insulation systems for...][research_sumnerie_barberjr_1978]
 - [Design Fabricate and Test Instrumentation for Rocketborne...][research_huber_1978]
-- [Development of a Systematic and Quantitative Method for...][research_perkins_jamesc_1978]
 - [Electronic system thermal design for reliability][research_electronic_system_1978]
-- [LOFT Calibration Tube Thermal Expansion Analysis][research_tatar_1978]
 - [Minimum-weight Design of Multi-purpose Tie-column of Solid...][research_karihaloo_1978_b]
 - [Reentry-vehicle dispersion from entry angular misalignment][research_platus_1978]
 - [VOLAR A Digital Computer Program for Simulating VSTOL...][research_wolkovitch_brassell_1978]
@@ -10650,23 +10099,16 @@ in the section headed The Contemporary Literature.
 - [An engineering model for reentry vehicle turbulent wakes...][research_lin_fedele_1979]
 - [Basic Results in the Development of Sensitivity and Stability...][research_fiacco_hutzler_1979]
 - [Dynamic Evaluation of Experimental Integral Fuel-Tank...][research_isom_1979]
-- [Evaluation of LVA Full-Scale Hydrodynamic Vehicle Motion...][research_stinson_1979]
-- [Evaluation of an 'Isopod' Reusable Shipping Container for the...][research_jarvis_1979]
 - [Evaluation of the thermal stability of cryogenic vessels...][research_kuranov_samarin_1979]
 - [Feedback System Design][research_horowitz_1979]
 - [Hydrogen-fueled postal vehicle performance evaluation][research_hall_1979]
-- [IEE to launch electric-vehicle journal][research_iee_to_1979]
 - [Is a versatile orbit transfer stage feasible Orbit Transfer...][research_heald_1979]
-- [Near Term Hybrid Passenger Vehicle Development Program. Phase...][research_traversi_barbarek_1979]
 - [New Remotely Piloted Vehicle Launch and Recovery Concepts...][research_baumgartner_yurczyk_1979]
 - [Nonlinear elastic analysis of panelized shear sandwich walls][research_nonlinear_elastic_1979]
 - [The Accelerometer Methods of Obtaining Aircraft Performance...][research_simpson_1979]
-- [The cost/benefit analysis it can be a misleading tool for...][research_oleary_1979]
 - [Cyclic pressure test of a filament-wound vessel containing...][research_conder_newhouse_1980]
 - [Investigation of Performance, Noise, and Detectability...][research_janakiram_1980]
-- [Mass-reduction effort of the electric and hybrid vehicle][research_freeman_jahnle_1980]
 - [On the performance of explicit and implicit algorithms for...][research_adelmanhm_haftkart_1980]
-- [Energy Engineering Analysis Program, Lima Army Tank Plant...][research_nuscorprockvillemd_1981]
 - [Evaluating the effect of static tension on the dissipative...][research_matveev_shlak_1981]
 - [Helicopter Landing Gear Design and Test Criteria Investigation][research_crist_symes_1981]
 - [Integration of energy management concepts into the flight deck][research_morellosa_1981]
@@ -10677,9 +10119,6 @@ in the section headed The Contemporary Literature.
 - [Aircrew Windblast Protection Concepts, Development and...][research_cummings_adams_1982]
 - [Design of 50,000G Accelerometer Calibration System][research_kornhauser_1982]
 - [Solid Rocket and Space Propulsion Studies][research_glick_osborn_1982]
-- [A Theoretical Analysis of the Railway Vehicle Vibrations...][research_matsui_1983]
-- [Approximation Methods in Multidimensional Filter Design and...][research_bose_1983]
-- [Evaluation of the Erosion Potential of Embankment Core...][research_sanchez_strutynsky_1983]
 - [Minimum Weight Design of Tapered Steel I-columns][research_azad_baluch_1983]
 - [Model of a cryogenic liquid-hydrogen pipeline for an airport...][research_jones_wuschke_1983]
 - [Selection and Evaluation of High Strength Steel for Hutton...][research_salama_tetlow_1983]
@@ -10687,15 +10126,12 @@ in the section headed The Contemporary Literature.
 - [Design and qualification of the Arabsat propellant tank][research_rollins_grove_1984]
 - [Energy Efficient Engine high pressure turbine component test...][research_timkolp_1984]
 - [Error Analysis of Vapor Pressure Measurements][research_celmins_1984]
-- [Prediction of In-Sand Tire and Wheeled Vehicle Drawbar...][research_turnage_1984]
 - [A parallel quasi-linearization algorithm for air vehicle...][research_menon_lehman_1985]
 - [An Analysis of Three Post Launch Evasion Strategies. Revised][research_forrest_1985]
-- [An Assessment of the STARS Software Technology for Adaptable...][research_bailey_kramer_1985]
 - [Design and performance analysis of an aeromaneuvering...][research_meneesgp_1985]
 - [Reusable launch vehicles][research_ruppe_1985]
 - [The application of some lifting-body reentry concepts to...][research_spearmanml_1985]
 - [Thermal analysis techniques for design of VSTOL aircraft...][research_peterson_1985]
-- [Tray Pack Improved Durability Packaging Rough Handling Test...][research_cummings_1985]
 - [Computer-aided Minimum-weight Design of Statically...][research_karihaloo_kanagasundaram_1986]
 - [Comparison of thermal stability of ion-implanted amorphous...][research_hamlyn_john_1986]
 - [Design and qualification of the EUROSTAR propellant tank][research_rollins_grove_1986]
@@ -10707,15 +10143,10 @@ in the section headed The Contemporary Literature.
 - [Computer diagnosis system for thermal analysis by BEM aided...][research_computer_diagnosis_1987]
 - [Design and Development of an Inertial Frame Displacement Gauge][research_ford_vincent_1987]
 - [Space environmental effects on graphite-epoxy compressive...][research_foxderekj_sykesgeorgefjr_1987]
-- [Studies on the Testing and Analysis of T156 Tank-Track Shoes][research_goldberg_chinn_1987]
 - [The optimization of earth orbit reentry vehicle configurations][research_zhou_wang_1987]
-- [Thermal Stability of Staphylococcal Enterotoxins A, B and C...][research_tibana_rayman_1987]
 - [Advanced Durability Analysis. Volume 4. Executive Summary][research_manning_yang_1988]
 - [Environmental Impact Analysis Process. Preliminary Draft...][research_departmentoftheairforcewashingtondc_1988_c]
 - [Fighter Aircraft Design System User's Manual][research_schwartz_1988]
-- [Subsystem Evaluation Report Spectrum Mfg., Inc. Data...][research_schneider_crescenzi_1988]
-- [Taylor-Leaver FSC Family Service Center A Prototype for...][research_kerce_1988]
-- [Technology Assessment in Ship Production The National...][research_iverson_1988]
 - [Bibliography of Testing and Evaluation Reference Material][research_brykczynski_youngblut_1989]
 - [Cryogenic Control System][research_goloborodko_1989]
 - [Environmental Impact Analysis Process. Preliminary Draft...][research_departmentoftheairforcewashingtondc_1989]
@@ -10724,119 +10155,87 @@ in the section headed The Contemporary Literature.
 - [Noise and Sonic Boom Impact Technology. Initial Development...][research_fidell_reddingius_1989]
 - [Prediction of forces and moments for flight vehicle control...][research_maughmermarkd_1989]
 - [Static Turning Analysis of Vehicles Subject to Externally...][research_macadam_1989]
-- [Tactical Technology Center Columbus Oh 1990][research_tacticaltechnologycentercolumbusoh_1990]
-- [CALS Infrastructure Analysis. Draft. Volume 21][research_transportationsystemscentercambridgema_1990]
 - [Cryogenic liquid hydrogen reorientation activated by constant...][research_hung_shyu_1990]
 - [Design and Construction of Apparatus for Optical Switch...][research_chaiken_1990]
-- [Digital SPC Switching Technology--Foreign Technology...][research_fischman_jorstad_1990]
-- [Engineering and Design. Construction with Large Stone][research_corpsofengineerswashingtondc_1990]
-- [Improved plug valve computer-aided design of plug element][research_wordin_1990]
-- [Integrated Information Support System IISS . Volume 4. IISS...][research_althoff_barker_1990]
 - [Launch test vehicle flight dispersion and impact footprint...][research_white_1990]
 - [Methodology Investigation, Aviation Test Management System...][research_wise_1990]
-- [Surface Versus Air Transportation Analysis Automatic...][research_shaw_iii_1990]
 - [Systems engineering and integration Cost estimation and...][research_deaned_fridgeernie_1990]
 - [The Importance of the Measurement of the Unsteady Wake of the...][research_strawaaw_parkc_1990]
 - [The Problems of Counteracting Arm System Design][research_yunchun_1990]
 - [Two Fringe Evaluation Methods Applied To Thermal Expansion...][research_koulev_aswendt_1990]
-- [A Model of a Range-Angle of Arrival Sensor System for an...][research_thompson_andrewa_1991]
 - [Cryogenic Creep Testing][research_mcdonald_hartwig_1991]
 - [Cryogenic piping material selection for the Component Test...][research_stcyr_1991]
 - [Cryogenic propellant management system requirements for Space...][research_saucillo_stevenson_1991]
 - [D0 Cryogenic System Operator Training][research_markley_1991]
 - [Design, development, and test of the Atlas liquid hydrogen...][research_gruszczynski_thorp_1991]
-- [Effect of Gasoline Octane Quality on Vehicle Acceleration...][research_coordinatingresearchcouncilincatlantaga_1991]
 - [Global Minimum Solution of Engineering Design Problems][research_rosen_1991]
 - [In-situ propellant rocket engines for Mars missions ascent...][research_roncace_1991]
 - [Maximum Frequency Design of Prestressed Symmetric, Cross-Ply...][research_duffy_adali_1991]
 - [Quench Behavior of MAGCOOL Cryogenic System with an Inline...][research_wu_1991]
 - [Space transfer vehicle concepts and requirements study...][research_peffleyalf_1991]
 - [Trajectory Optimization of a Transatmospheric Vehicle][research_jansch_schnepper_1991]
-- [An Evaluation of the Usability of the MEPSS Prototype...][research_chouinard_1992]
 - [Design and Construction of a Helmholtz Coil Magnetic Test Cell][research_holder_1992]
 - [Effect of inert propellant injection on Mars ascent vehicle...][research_colvinjamese_landisgeoffreya_1992]
-- [Engineering and Design Information Systems Design in Support...][research_corpsofengineerswashingtondc_1992]
-- [Evaluation of a Lightweight Protective Mask Concept for...][research_carpenter_1992]
-- [Evaluation of an Electronics System Concept for Respiratory...][research_byrne_huck_1992]
 - [Experimental performance of three design factors for ventral...][research_eskerbarbaras_perusekgailp_1992]
-- [First Article Test and Evaluation. M-16 Weapons Container][research_vossler_1992]
 - [Mission and sizing analysis for the Beta 2 two-stage-to-orbit...][research_nadellsharibeth_baumgartenwilliamj_1992_b]
 - [Mission and sizing analysis for the Beta II...][research_nadellsharibeth_baumgartenwilliamj_1992]
-- [PHALANX CIWS Control System Stability, Aim Bias Compensation...][research_serakos_1992]
 - [Ply-orientation as a variable in multidisciplinary...][research_tischler_venkayya_1992]
 - [SPEAR II Space Power Data Analysis][research_bayless_1992]
 - [Spirit II Vehicle A26.780 . Post Flight Report][research_chalfant_1992]
 - [Tethered Satellite System Tip Canister - Thermal design and...][research_chapter_1992]
 - [Thermal analyses of reusable surface insulations][research_chiu_1992]
 - [Analysis and Design of Weight Balancing System for Laser...][research_lee_1993]
-- [Analysis of volatile headspace gases sampled by cryogenic...][research_lucke_clauss_1993]
 - [Application of dual-fuel propulsion to a single stage AMLS...][research_lepschrogerajr_stanleydouglaso_1993]
 - [Conceptual design of a two stage to orbit spacecraft][research_armigerscottc_kwartajennifers_1993]
 - [Cryogenic propellant thermal control system design...][research_plachtadavidw_tuckerstephen_1993]
 - [Electric orbit transfer vehicle cryogenic propellant system][research_schuster_huynh_1993]
-- [Evaluation of Oxygen Levels Within the Diving Unlimited...][research_russell_1993]
-- [Extending the Rule Space Model to a Semantically-Rich Domain...][research_katz_martinez_1993]
 - [Honeycomb spacer crush stength test results][research_leader_1993]
 - [Lifting-body reentry vehicle][research_stadler_1993]
 - [Test results from a simple, low-cost, pressure-fed liquid...][research_dresslerga_stoddardfj_1993]
 - [The Mechanical Property Data Base from an Air Force/Industry...][research_phillips_thompson_1993]
 - [Analysis for Integrated Development Planning Industry and...][research_campanile_forker_1994]
-- [Design and Construction of a Ka-band Scatterometer][research_zoll_1994]
 - [Evaluation of Commercial Fuel Tank Water Absorbers][research_williams_1994]
-- [Evaluation of the Airland Battle Management Advanced...][research_flanagan_1994]
 - [Military Standard Test Requirements for Launch, Upper-Stage...][research_departmentofdefensewashingtondc_1994]
 - [Systems Design Factors The Essential Ingredients of System...][research_nguyen_howell_1994]
 - [Tagging RDTandE. Volume 1. Technology Assessment and...][research_hill_dressel_1994]
 - [Vehicle and trajectory optimization of nuclear electric...][research_kluever_pierson_1994]
-- [2-Phase Vacuum Extraction and Vapor Phase Biotreatment...][research_radiancorpoakridgetn_1995]
 - [A Study of Optimization Technique for Vehicle Design Weight...][research_tsuzuki_1995]
 - [Dual Fuel Solar Thermal Propulsion for LEO to GEO Transfer...][research_stewart_martin_1995]
 - [Exploratory Analysis of Helium Layer Usage for Dynamic...][research_schraml_1995]
 - [Task 4 supporting technology. Part 1 Detailed test plan for...][research_hogensonpa_staszakpaul_1995]
-- [Ultra Wide Band UWB Radar Detection Analysis and...][research_weiner_sarkar_1995]
 - [Vehicle-and-trajectory optimization of nuclear electric...][research_kluever_pierson_1995]
 - [An analysis of first-order singular thrust-arcs in rocket...][research_ross_1996]
 - [Analysis and Tests of Reinforced Carbon-Epoxy/Foam-Core...][research_bakerdonaldj_rogerscharles_1996]
 - [Design of robust vehicle launch control system][research_slicker_loh_1996]
 - [Development of testing techniques and cryogenic model...][research_price_schimanski_1996]
-- [Digital Mapping, Charting, and Geodesy Analysis Program...][research_carter_guidry_1996]
 - [Final Report, Methodology Investigation, Global Positioning...][research_martin_1996]
 - [Launch Area Toxic Risk Analysis Program LATRA Toxicology...][research_prince_sterner_1996]
 - [Measurement techniques for evaluating encapsulant...][research_adolf_1996]
 - [Transparency Durability Test Criteria][research_whitney_bowman_1996]
 - [A Shot to the Space Brain The Vulnerability of Command and...][research_carter_1997]
-- [Applying Knowledge Engine Technology in The Military, or How...][research_sargent_1997]
 - [Bending of Curved Sandwich Panels With Transversely Flexible...][research_frostig_1997]
-- [Cost of Speed Analysis of Capital Cost Estimates for...][research_harrison_1997]
 - [NASA University Research Centers Technical Advances in...][research_jamshidim_lumiar_1997]
 - [Near-Optimal Re-Entry Trajectories for Reusable Launch...][research_chouhc_ardemamd_1997]
 - [Prediction of Changeover Performance Operational Test OT...][research_gaver_jacobs_1997]
 - [Proceedings of the Eighth Annual Thermal and Fluids Analysis...][research_peterstodd_saizjohn_1997]
 - [The Pioneer Pathfinder - A low-cost solution for near-term...][research_zubrin_clapp_1997]
-- [A Military/Civilian Dual-Use Visual Perception Laboratory for...][research_meitzler_bryk_1998]
 - [Analysis of a Rocket Based Combined Cycle Engine during...][research_smithtd_steffencjjr_1998]
 - [Comparison of Response Surface and Kriging Models for...][research_simpsontimothyw_kortejohnj_1998]
 - [Cost-benefit analysis of on-orbit satellite servicing][research_davinic_arkus_1998]
-- [Deep Ocean Unmanned Vehicle Program][research_vonalt_purcell_1998]
 - [Design and Performance of the Cryogenic Flexible Diode Heat...][research_thienel_lewis_1998]
 - [Large Scale Testing of a Foam/Multilayer Insulation Thermal...][research_hastingsleon_martinjames_1998]
-- [Laser Weapons in Space A Critical Assessment][research_possel_1998]
 - [Lightcraft Propulsion Technology for Low Cost Access to Space][research_carrick_mead_1998]
 - [Macroeconomic Benefits of Low-Cost Reusable Launch Vehicles][research_shawericj_greenbergjoel_1998]
 - [Model to Predict the Effect of Through-Thickness Loading on...][research_mccartney_1998]
-- [Next Generation Cargo Movement System Analysis, Volume 1...][research_evers_kuper_1998]
 - [Performance of an Axisymmetric Rocket Based Combined Cycle...][research_smithtimothyd_steffenchristopherjjr_1998]
 - [Probabilistic Rotor Design System PRDS -- Gas Turbine Engine...][research_roth_1998]
 - [Risk Analysis and the Regulation of Reusable Launch Vehicles][research_moore_1998]
 - [Spaceplane Trajectory Optimization with Vehicle Size Analysis][research_tsuchiya_suzuki_1998]
 - [Stability Analysis of Plates and Shells][research_knightnormanfjr_nemethmichaelp_1998]
-- [Verification of Fire Models for Fire Safety System Design][research_mingchunluo_yapinghe_1998]
 - [AEDC simulated altitude rocket test capabilities][research_thompson_1999]
 - [Common Analysis Tool Being Developed for Aeropropulsion The...][research_follengregoryj_naimancynthiag_1999]
-- [Design of a Power Bus for a New Autonomous Underwater Vehicle...][research_lalaque_1999]
 - [Design, Construction and Analysis of a Flat Heat Pipe][research_boughey_1999]
 - [Developing a Fundamental Model for an Integrated GPS/INS...][research_canfieldstephen_1999]
-- [Dynamic Modeling and its Solving Method of Elastic Foundation...][research_liao_huang_1999]
 - [Evaluation of Insulated Pressure Vessels for Cryogenic...][research_aceves_martinezfrias_1999]
 - [Exergy analysis of a cryogenic hydrogen fuel power plant][research_fiaschi_1999]
 - [National Cycle Program NCP Common Analysis Tool for...][research_folleng_naimanc_1999]
@@ -10847,29 +10246,21 @@ in the section headed The Contemporary Literature.
 - [Space Environment Network Display SEND Limited Military...][research_alvarex_1999]
 - [Testing of Densified Liquid Hydrogen Stratification in a...][research_greenewd_1999]
 - [The reusable first stage RFS vehicle-an enabler for future...][research_spencer_1999]
-- [2.75-Inch Rocket Hydra Pallet MIL-STD-1660 First Article Test][research_meyer_2000]
 - [Analytical and experimental evaluation of insulated pressure...][research_aceves_2000]
 - [Cryogenic optical testing at the Marshall Space Flight Center][research_eng_stahl_2000]
-- [Designing a More Survivable Seat System The Test and...][research_reed_gedeon_2000]
 - [Dynamic Analysis of Sandwich Cylindrical Shells][research_cabantildeskaplaczkiewicz_2000]
-- [HFIR Vessel Pressure/Temperature Limits Corresponding to the...][research_cheverton_bryson_2000]
 - [Integrated trajectory analysis for transatmospheric vehicle...][research_stevenson_bhungalia_2000]
 - [Joint Integration Test Facility JITF Performance Measurement...][research_boucher_2000]
 - [Mathematical Model of In-Flight Oxidation of Metallic...][research_ahmed_rangel_2000]
 - [Safe Life Propulsion Design Technologies 3rd Generation...][research_ellisrod_2000]
-- [Terra Nova Vessel Design and Construction][research_doyle_leitch_2000]
 - [The cost-optimal size of future reusable launch vehicles][research_koelle_2000]
 - [“Paradoxes” of optimal solutions in problems of space vehicle...][research_filatyev_2000]
 - [5700A/AN Failure Analysis][research_abercrombie_2001]
-- [Analysis of the Thermal Performance of Tierra I--A Low-Energy...][research_smith_2001]
-- [Construction of an Advanced Vacuum Deposition System for...][research_dynes_2001]
 - [Crew Transfer Vehicle trajectory optimization][research_saunders_allenjr_2001]
 - [Design and evaluation of a microrocket propellant tank][research_mcelwain_noonan_2001]
 - [Experimental Investigation of Reentry Vehicle...][research_gulhan_esser_2001]
 - [Joint Integration Test Facility JITF Engineering II...][research_boucher_2001]
-- [Logistic Vehicle System LVS Mod Demo Vehicle Armour...][research_ashmore_2001]
 - [Microgravity propellant tank geyser analysis and prediction][research_thornton_hochstein_2001]
-- [NAVSEA OOC5 Designed Ground Fault Interrupter First Article...][research_pelton_2001]
 - [Numerical analysis for propellant management in liquid rocket...][research_himeno_watanabe_2001]
 - [Overview of Fluid Dynamic Activities at the Marshall Space...][research_garciaroberto_griffinlisa_2001]
 - [Process for filling vehicle hydrogen storage tank][research_process_for_2001]
@@ -10877,11 +10268,9 @@ in the section headed The Contemporary Literature.
 - [Testing of Densified Liquid Hydrogen Stratification in a...][research_jurnsjohnm_tomsikthomasm_2001]
 - [Two Reconfigurable Flight-Control Design Methods Robust...][research_burkenjohnj_luping_2001]
 - [Cryogenic system design for a hydrogen sorption cooler][research_sirbi_2002]
-- [Design and Construction of a Ground-Source Heat Engine][research_stevens_2002]
 - [Development costs of reusable launch vehicles][research_koelle_2002]
 - [First-Stage Design Variations of Partially Reusable Launch...][research_sippel_atanassov_2002]
 - [Friction-Stir Welding of Aluminum For the Space Program][research_jonesclydes_smelserjerryw_2002]
-- [Joint C4ISR Architecture Planning/Analysis System JCAPS][research_wostbrock_2002]
 - [Mission and Trajectory Optimization of the Air-Launching...][research_lee_2002]
 - [Preliminary Sizing Completed for Single- Stage-To-Orbit...][research_rochejosephm_2002]
 - [Stabilization of a Reentry Vehicle by a Partial Spin-up...][research_aslanov_doroshin_2002]
@@ -10890,14 +10279,11 @@ in the section headed The Contemporary Literature.
 - [Cost Engineering Principles for Reusable Launch Systems][research_koelle_2003]
 - [Coupled Simulation of Vehicle Dynamics and Tank Slosh][research_thomassy_wendel_2003]
 - [Cryogenic Insulation Bondline Studies for Reusable Launch...][research_johnsontf_weiseres_2003]
-- [Design and Construction of Genetic Applets][research_collins_2003]
 - [Dynamical thermal model for thin metallic film substrate...][research_aviles_oliva_2003]
 - [Kistler reusable vehicle facility design and operational...][research_fagan_mcinerney_2003]
 - [Scale-Model Vehicle Analysis for the Design of a Steering...][research_hoblet_2003]
-- [A Computational Approach for Evaluating the Probability of...][research_hong_vlahopoulos_2004]
 - [Analysis of Shells of Noncircular Cross Section][research_helms_guillot_2004]
 - [Autonomous Flight Safety System][research_ferrellbob_santurosteve_2004]
-- [Computer-Aided Design and Optimization of High-Performance...][research_deford_held_2004]
 - [Corbett in Orbit A Maritime Model for Strategic Space Theory][research_klein_2004]
 - [Design of Experiments for the Thermal Characterization of...][research_crittenden_cole_2004]
 - [Generalized Vehicle Performance Closure Model for...][research_qu_sohn_2004]
@@ -10905,26 +10291,20 @@ in the section headed The Contemporary Literature.
 - [Optimal Conceptual Design of Two-Stage Reusable Rocket...][research_tsuchiya_mori_2004]
 - [Propulsion Integrated Vehicle Health Management Technology...][research_maulwilliama_chicatelliamyk_2004]
 - [The Development of a Hands-On Unmanned Aerial...][research_adelgren_minor_2004]
-- [The Monitoring, Detection, Isolation and Assessment of...][research_ye_2004]
 - [Three-Dimensional Analysis of Crack in Centrally Perforated...][research_liu_smith_2004]
 - [Transient Analysis of Pressure-Induced Transfer of Cryogenic...][research_mahmoud_lear_2004]
 - [Autonomous Flight Safety System Road Test][research_simpsonjamesc_zoemerrogerd_2005]
 - [Autonomous Flight Safety System September 27, 2005, Aircraft...][research_simpsonjamesc_2005]
-- [Computer-Aided Design and Optimization of High-Performance...][research_deford_held_2005]
-- [Development of a Prototype Self-Assessment Program in Support...][research_keenan_campbell_2005]
 - [IVHM Framework for Intelligent Integration for Vehicle Health...][research_parisdeidre_trevinoluisc_2005]
 - [Intelligent Vehicle Health Management][research_parisdeidree_trevinoluis_2005]
 - [NASA Integrated Vehicle Health Management NIVHM A New...][research_sheppardgene_2005]
 - [Operational Assessment of Space Toward Efficiency and...][research_lindsay_2005]
 - [Simulation and Analyses of Stage Separation Two-Stage...][research_pamadibandun_neirynckthomasa_2005]
 - [Technology Assessment for the Future Aeronautical...][research_budingerjamesm_2005]
-- [Unmanned Surface Sea Vehicle Power System Design and Modeling][research_pritpal_2005]
 - [Assessment of Bulk Absorber Properties for Multi-Layer...][research_jonesmichaelg_parrotttonyl_2006]
 - [Comprehensive Environmental Informatics System CEIS...][research_nallmarke_2006]
-- [Computer-Aided Design and Optimization of High-Performance...][research_deford_held_2006]
 - [Configuration and Sizing of a Test Fixture for Panels Under...][research_lovejoyandrewe_2006]
 - [Importance Of Quality Control in Reducing System Risk, a...][research_safiefayssalm_messerbradleyp_2006]
-- [Computer-Aided Design and Optimization of High-Performance...][research_deford_held_2007]
 - [Defense Industrial Base Assessment U.S. Space Industry][research_danafarbercancerinstbostonma_2007]
 - [Power and Thermal Technologies for Air and Space. Delivery...][research_xiao_reitz_2007]
 - [Simulation and Analyses of Stage Separation of Two-Stage...][research_pamadibandun_neirynckthomasa_2007]
@@ -10940,28 +10320,20 @@ in the section headed The Contemporary Literature.
 - [Reliability and Confidence Interval Analysis of a CMC Turbine...][research_murthypappuln_gyekenyesijohnp_2008]
 - [Reusable Military Launch Systems RMLS][research_moster_2008]
 - [Science Underpinning TBC Design for Durability in Aggressive...][research_levi_2008]
-- [Test for Chemical Induction of Chromosome Aberration in...][research_song_2008_b]
-- [Test for Chemical Induction of Chromosome Aberrations in...][research_song_2008_c]
 - [Turbine Engine Research Center TERC Data System Enhancement...][research_teets_2008]
 - [Unique Stealth Unmanned Aerial Vehicle UAV Houck Aircraft...][research_fry_2008]
 - [Design Analysis of the Ares 1 Pogo Accumulator][research_swansonlukea_gielthomasv_2009]
 - [Explosion/Blast Dynamics for Constellation Launch Vehicles...][research_baermel_crawforddave_2009]
-- [In Vivo Test for Chemical Induction of Micronucleated...][research_shore_kirby_2009]
-- [Strategic Mobility 21. Service Oriented Architecture SOA...][research_hwang_savacool_2009]
 - [Subcooling Cryogenic Propellants for Long Duration Space...][research_mustafishuvo_canavanedgar_2009]
-- [Analysis of the PhilEx Moored Velocity and Pressure Gauge...][research_sprintall_2010]
 - [Autonomous Flight Safety System][research_simpsonjames_2010]
-- [Experiments in Weight Design for a Sombrero Array Pattern][research_mcphail_coleman_2010]
 - [Assessing Chinese Intentions for the Military Use of the...][research_oh_2011]
 - [Detailed Uncertainty Analysis of the Ares I A106...][research_hankejeremyl_2011]
 - [From Paper to Production to Test An Update on NASA's J-2X...][research_kynardmichael_2011]
 - [Limiting Future Collision Risk to Spacecraft An Assessment of...][research_limiting_future_2011]
 - [Multidisciplinary Modeling Software for Analysis, Design, and...][research_spradleylawrencew_lohnerrainald_2011]
-- [Analysis Of Humanitarian Assistance Cargo Transportation][research_dozier_dimitrov_2012]
 - [Design and Fabrication of a Tank-Applied Broad Area Cooling...][research_woodjj_middlemasmr_2012]
 - [Environmental Assessment of the Long Endurance...][research_peterson_taboada_2012]
 - [Evaluation of Analysis Techniques for Fluted-Core Sandwich...][research_lovejoyandrewe_schultzmarcr_2012]
-- [Kendall Analysis of Cannon Pressure Vessels][research_underwood_2012]
 - [Mars Ascent Vehicle Development Status][research_dankanichjohnw_kleineric_2012]
 - [Noncircular Gears Geometry and Visualization MODEL Development][research_stringer_2012]
 - [System Design for FEC in Aeronautical Telemetry][research_perrins_2012]
@@ -10969,7 +10341,6 @@ in the section headed The Contemporary Literature.
 - [Spectrum Savings from High Performance Recording and Playback...][research_wigent_mazzario_2013]
 - [Combining Risk Analysis and Slicing for Test Reduction in...][research_berzins_2014]
 - [Information Theoretic Studies and Assessment of Space Object...][research_prasad_2014]
-- [NGIPS Early Design Space Assessment][research_cramer_2014]
 - [Air Force Space Command Space Missile Sys Ctr 2014][research_airforcespacecommandspacemissilesysctr_2014]
 
 ## Epistemic State
@@ -11244,26 +10615,20 @@ This series has now met a designation marking an absence of demand in the
 - [4880. Pumping efficiencies of three-dimensional cryopumping structures 1982][research_4880_pumping_1982]
 - [5451015 Crashworthy composite aircraft structure with integral fuel tank 1996][research_5451015_crashworthy_1996]
 - [569. Thin oxide film sandwich structure photo cell 1964][research_569_thin_1964]
-- [896. Thin oxide film sandwich structure photocell 1964][research_896_thin_1964]
 - [902. Stirling cryogenerators and cryopumping 1975][research_902_stirling_1975]
 - [96/01065 Cryogenic properties of composite materials 1996][research_96_01065_cryogenic_1996]
-- [99/02586 Development of prismatic lithium-ion cells using aluminum alloy casing 1999][research_99_02586_development_1999]
 - [A et al 2024][research_a_sampathkumar_2024]
 - [A M et al 2019][research_am_ju_2019]
 - [A M Swanger 2026][research_amswanger_2026]
 - [A method for stabilising thick honeycomb core composite articles 1988][research_a_method_1988]
-- [A Non-Stationary Geometry-Based Cooperative Scattering Channel Model for MIMO Vehicle-to-Vehicle Communication Systems 2019][research_a_non_stationary_2019]
 - [A sandwich structure and a method of manufacturing a sandwich structure 1991][research_a_sandwich_1991]
 - [A stochastic nonlinear model of influence in synchronisation dynamics 2026][research_a_stochastic_2026]
 - [A theory for progressive matrix cracking in composite laminates 1990][research_a_theory_1990]
 - [A. M. Ette et al 2020][research_amette_juchukwuchekwa_2020]
 - [Aadhari and Malkapuram 2018][research_aadhari_malkapuram_2018]
-- [Aamina Khadri and Ramacharan 2024][research_aaminakhadri_ramacharan_2024]
-- [Aarabate and Balatif 2026][research_aarabate_balatif_2026]
 - [Aasen et al 2025][research_aasen_blakseth_2025]
 - [Abada et al 2024][research_abada_kbab_2024]
 - [Abadi et al 2026][research_abadi_hattel_2026]
-- [Abdeli-Galinier 2022][research_abdeligalinier_2022]
 - [Abdo et al 2001][research_abdo_farhang_2001]
 - [Abercrombie 2001][research_abercrombie_2001]
 - [Abernathy et al 1983][research_abernathy_cohen_1983]
@@ -11281,7 +10646,6 @@ This series has now met a designation marking an absence of demand in the
 - [Acharya et al 2025][research_acharya_wang_2025]
 - [Ackermann 1979][research_ackermann_1979]
 - [Acoustic emission results in pressure test to failure of a large-size pressure vessel 1993][research_acoustic_emission_1993]
-- [Acoustic emission test of WWER-440 pressure vessel 1993][research_acoustic_emission_1993_b]
 - [Acoustoelastic wave velocity in metal matrix composite under thermal loading 1989][research_acoustoelastic_wave_1989]
 - [Acquatella B et al 2020][research_acquatellab_briese_2020]
 - [Adali et al 1995][research_adali_richter_1995]
@@ -11328,7 +10692,6 @@ This series has now met a designation marking an absence of demand in the
 - [Afanasenko and Gulevich 1981][research_afanasenko_gulevich_1981]
 - [Afshari and Widera 2000][research_afshari_widera_2000]
 - [Agarwal 2023][research_agarwal_2023]
-- [Agarwal 2023][research_agarwal_2023_b]
 - [Agarwal, B. and Davis, R. C. 1974][research_agarwalb_davisrc_1974]
 - [Aggarwal, Pravin 2007][research_aggarwalpravin_2007]
 - [Agius and Fox 2015][research_agius_fox_2015]
@@ -11345,7 +10708,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ahmed, R. 1995][research_ahmedr_1995]
 - [Ahmed, R. 1995][research_ahmedr_1995_b]
 - [Ahmed, R. and Wilhelm, J. M. 1993][research_ahmedr_wilhelmjm_1993]
-- [Ahopelto and Vahala 2020][research_ahopelto_vahala_2020]
 - [Ahsaei and Rezaeizadeh 2020][research_ahsaei_rezaeizadeh_2020]
 - [Ahuja et al 2019][research_ahuja_chakraborty_2019]
 - [Ai et al 2022][research_ai_wang_2022]
@@ -11382,7 +10744,6 @@ This series has now met a designation marking an absence of demand in the
 - [Alam et al 2026][research_alam_karim_2026]
 - [Alam Towhid and Hossain 2026][research_alamtowhid_hossain_2026]
 - [Alanyalioglu 2017][research_alanyalioglu_2017]
-- [Alavi and Bell 2021][research_alavi_bell_2021]
 - [Alberti et al 2018][research_alberti_cavalcante_2018]
 - [Alberts et al 1999][research_alberts_behrens_1999]
 - [Alberts et al 2015][research_alberts_srikanth_2015]
@@ -11411,9 +10772,6 @@ This series has now met a designation marking an absence of demand in the
 - [Alili et al 2024][research_alili_kaddouri_2024]
 - [Alimova et al 1992][research_alimova_djamaletdinova_1992]
 - [Alique et al 2016][research_alique_imperatore_2016]
-- [Aljabri and Mirza 2022][research_aljabri_mirza_2022]
-- [Aljbour 2026][research_aljbour_2026]
-- [Aljbour 2026][research_aljbour_2026_b]
 - [All Shuttle Centaur engine 1987][research_all_shuttle_1987]
 - [Allahkarami et al 2020][research_allahkarami_ghassabzadehsaryazdi_2020]
 - [Allard 2024][research_allard_2024]
@@ -11440,7 +10798,6 @@ This series has now met a designation marking an absence of demand in the
 - [Alsayyed and Foland 2022][research_alsayyed_foland_2022]
 - [Alseid 2025][research_alseid_2025]
 - [Alsharif et al 2026][research_alsharif_sameersharbaji_2026]
-- [Althoff and Barker 1990][research_althoff_barker_1990]
 - [Altman 1974][research_altman_1974]
 - [Altman 2008][research_altman_2008]
 - [Altman and Penner 1949][research_altman_penner_1949]
@@ -11453,7 +10810,6 @@ This series has now met a designation marking an absence of demand in the
 - [Alvord et al 2024][research_alvord_arias_2024]
 - [Amani et al 2023][research_amani_alemrani_2023]
 - [Amano et al 2015][research_amano_yen_2015]
-- [Amanullah 2002][research_amanullah_2002]
 - [Amateau et al 1975][research_amateau_harrigan_1975]
 - [Amato et al 2016][research_amato_leylegian_2016]
 - [Amaya et al 2019][research_amaya_fahimi_2019]
@@ -11476,11 +10832,9 @@ This series has now met a designation marking an absence of demand in the
 - [An et al 2025][research_an_park_2025]
 - [An ideal clamping analysis for a cross-ply laminate 1988][research_an_ideal_1988]
 - [Analysis of Damage Causes and Prevention of Pressure Vessel of Chemical Equipment 2022][research_analysis_of_2022]
-- [Analysis of Hydraulic Lifting Device for Wind Power Tower Loading and Unloading Vehicle 2021][research_analysis_of_2021_b]
 - [Analysis of Quasi-three-dimensional Landing Dynamics and Attenuation Performance under Extreme Conditions for Launch Vehicle 2021][research_analysis_of_2021]
 - [Analysis of the Influence of Mechanical Couplings in Laminate Beams on the Adherence of the Assumed Boundary Conditions in the DCB Test Configuration 2019][research_analysis_of_2019]
 - [Analysis of the relationship between mass, speed and cost of an unmanned aircraft 2024][research_analysis_of_2024]
-- [Analysis on Human Resources Management and Cost Reduction and Efficiency Increase of Public Transport Enterprises 2022][research_analysis_on_2022]
 - [Anand et al 2025][research_anand_jl_2025]
 - [Anastasiadis and Simitses 1993][research_anastasiadis_simitses_1993]
 - [Anders et al 2017][research_anders_zebrine_2017]
@@ -11505,12 +10859,10 @@ This series has now met a designation marking an absence of demand in the
 - [André et al 2015][research_andre_durant_2015]
 - [Anfimov 1995][research_anfimov_1995]
 - [Ang et al 2020][research_ang_alexandi_2020]
-- [Ang et al 2020][research_ang_alexandi_2020_b]
 - [Angel and Hill 1983][research_angel_hill_1983]
 - [Angelino 1964][research_angelino_1964]
 - [Anjomrouz and Karimi 2026][research_anjomrouz_karimi_2026]
 - [Anju et al 2017][research_anju_mayadevi_2017]
-- [Anlianna 2025][research_anlianna_2025]
 - [Annigeri 1987][research_annigeri_1987]
 - [Ansari and Bajodah 2016][research_ansari_bajodah_2016]
 - [Ansari and Bajodah 2016][research_ansari_bajodah_2016_b]
@@ -11518,7 +10870,6 @@ This series has now met a designation marking an absence of demand in the
 - [Anthony, F. M. et al 1972][research_anthonyfm_helenbrookrg_1972]
 - [Antonakis and Glenis 2025][research_antonakis_glenis_2025]
 - [Antonakis and Glenis 2026][research_antonakis_glenis_2026]
-- [Anufriev, and Kuzenkov 2024][research_anufriev_kuzenkov_2024]
 - [Anzalone et al 2020][research_anzalone_erickson_2020]
 - [Aogaki et al 2017][research_aogaki_kitamura_2017]
 - [Aoki et al 2000][research_aoki_kumazawa_2000]
@@ -11554,8 +10905,6 @@ This series has now met a designation marking an absence of demand in the
 - [Armstrong and Lorentzen 1996][research_armstrong_lorentzen_1996]
 - [Armstrong and Lorentzen 2000][research_armstrong_lorentzen_2000]
 - [Army Aviation Board Fort Rucker Al 1958][research_armyaviationboardfortruckeral_1958]
-- [Army Materiel Command Alexandria Va 1963][research_armymaterielcommandalexandriava_1963]
-- [Army Materiel Command Alexandria Va 1975][research_armymaterielcommandalexandriava_1975]
 - [Arnold 1972][research_arnold_1972]
 - [Arnold and Parekh 1986][research_arnold_parekh_1986]
 - [Arnold, Steven M. et al 2007][research_arnoldstevenm_bednarcykbretta_2007]
@@ -11574,17 +10923,13 @@ This series has now met a designation marking an absence of demand in the
 - [Ascani 1974][research_ascani_1974]
 - [Ascione et al 2015][research_ascione_berardi_2015]
 - [Asher 2025][research_asher_2025]
-- [Ashmore 2001][research_ashmore_2001]
 - [Ashworth 1992][research_ashworth_1992]
-- [Askins 1978][research_askins_1978]
 - [Aslan et al 2026][research_aslan_kara_2026]
 - [Aslanov and Doroshin 2002][research_aslanov_doroshin_2002]
 - [aslmahmoudi et al 2022][research_aslmahmoudi_omidbakhsh_2022]
 - [Aso et al 2004][research_aso_tani_2004]
 - [Asraf et al 2025][research_asraf_purwoko_2025]
-- [Assessment of Lightning Protection System in University Campus 2023][research_assessment_of_2023]
 - [Assessment of the status of cryogenic insulation development 1968][research_assessment_of_1968]
-- [Assessment System of Natural Environment Protection Based on Energy Efficiency 2023][research_assessment_system_2023]
 - [Assonitis et al 2024][research_assonitis_orlandini_2024]
 - [Ataalp et al 2019][research_ataalp_usta_2019]
 - [Ataei and Niazy 2015][research_ataei_niazy_2015]
@@ -11596,7 +10941,6 @@ This series has now met a designation marking an absence of demand in the
 - [Atli-Veltin 2018][research_atliveltin_2018]
 - [Atluri and Kathiresan 1980][research_atluri_kathiresan_1980]
 - [Atluri et al 1981][research_atluri_bass_1981]
-- [Attachie et al 2022][research_attachie_amuzuvi_2022]
 - [Attukur Nandagopal et al 2020][research_attukurnandagopal_chai_2020]
 - [Atul et al 2016][research_atul_bhat_2016]
 - [Atutis 2024][research_atutis_2024]
@@ -11624,7 +10968,6 @@ This series has now met a designation marking an absence of demand in the
 - [Awais et al 2024][research_awais_kim_2024]
 - [Awenlimobor et al 2024][research_awenlimobor_smith_2024]
 - [Axi-Symmetric Thermal Analysis of Regenerative Cooled Cryogenic Engine Nozzle Using Fem 2017][research_axi_symmetric_thermal_2017]
-- [Ayadi et al 2016][research_ayadi_boulila_2016]
 - [Ayanoglu et al 2026][research_ayanoglu_carlsson_2026]
 - [Ayers and Fletcher 1996][research_ayers_fletcher_1996]
 - [Ayran and Bayezit 2025][research_ayran_bayezit_2025]
@@ -11647,7 +10990,6 @@ This series has now met a designation marking an absence of demand in the
 - [Babcock et al 2021][research_babcock_bedonian_2021]
 - [Babcock, C. D. and Sechler, E. E. 1963][research_babcockcd_sechleree_1963]
 - [Babilon et al 1973][research_babilon_wygonik_1973]
-- [Baca and Smith 1989][research_baca_smith_1989]
 - [Bach et al 2003][research_bach_babiak_2003]
 - [Bach et al 2003][research_bach_engl_2003]
 - [Bachrtel, F. D. et al 1985][research_bachrtelfd_vanimanjl_1985]
@@ -11678,7 +11020,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bai et al 2024][research_bai_yang_2024]
 - [Baik and Grant 1998][research_baik_grant_1998]
 - [Bailey et al 1963][research_bailey_vandekoppel_1963]
-- [Bailey et al 1985][research_bailey_kramer_1985]
 - [Bailey, W. J. et al 1983][research_baileywj_festerda_1983]
 - [Baillif et al 1995][research_baillif_bodepudi_1995]
 - [Bainum, Peter M. and Reiss, Robert 1995][research_bainumpeterm_reissrobert_1995]
@@ -11686,9 +11027,7 @@ This series has now met a designation marking an absence of demand in the
 - [Baker 1969][research_baker_1969]
 - [Baker 1974][research_baker_1974]
 - [Baker 1974][research_baker_1974_b]
-- [Baker 1981][research_baker_1981]
 - [Baker and Kramer 1982][research_baker_kramer_1982]
-- [Baker et al 2021][research_baker_althuwaini_2021]
 - [Baker et al 2025][research_baker_bartels_2025]
 - [Baker, Donald J. and Rogers, Charles 1996][research_bakerdonaldj_rogerscharles_1996]
 - [Baker, Robert L. 1993][research_bakerrobertl_1993]
@@ -11704,7 +11043,6 @@ This series has now met a designation marking an absence of demand in the
 - [Balasubramaniam 1997][research_balasubramaniam_1997]
 - [Balasubramaniam et al 2022][research_balasubramaniam_sikdar_2022]
 - [Balavani et al 2024][research_balavani_akshara_2024]
-- [Balcewicz 2024][research_balcewicz_2024]
 - [Balcomb 1972][research_balcomb_1972]
 - [Baldus et al 2013][research_baldus_yoshimoto_2013]
 - [Baldwin et al 2023][research_baldwin_majumdar_2023]
@@ -11735,7 +11073,6 @@ This series has now met a designation marking an absence of demand in the
 - [Banks and Bihari 2001][research_banks_bihari_2001]
 - [Banks et al 1989][research_banks_tooth_1989]
 - [Bano et al 2026][research_bano_fraser_2026]
-- [Bansal and Tomar 2026][research_bansal_tomar_2026]
 - [Bansode et al 2025][research_bansode_kardassi_2025]
 - [Bao and McMeeking 1995][research_bao_mcmeeking_1995]
 - [Bao et al 2002][research_bao_su_2002]
@@ -11746,7 +11083,6 @@ This series has now met a designation marking an absence of demand in the
 - [Barannikova and Nikonova 2024][research_barannikova_nikonova_2024]
 - [Barba et al 2023][research_barba_hansen_2023]
 - [Barbat and Prasad 1995][research_barbat_prasad_1995]
-- [Barbato et al 2000][research_barbato_belga_2000]
 - [Barber 1963][research_barber_1963]
 - [Barber and Schultheiss 1967][research_barber_schultheiss_1967]
 - [Barbera 1980][research_barbera_1980]
@@ -11755,7 +11091,6 @@ This series has now met a designation marking an absence of demand in the
 - [Barbieri et al 2017][research_barbieri_giacopini_2017]
 - [Barbieri et al 2025][research_barbieri_stefanizzi_2025]
 - [Barbosa et al 2020][research_barbosa_upadhyaya_2020]
-- [Barbu et al 2019][research_barbu_cornejo_2019]
 - [Barca 1978][research_barca_1978]
 - [Barlow and Proschan 1966][research_barlow_proschan_1966]
 - [Baron et al 1995][research_baron_smith_1995]
@@ -11776,7 +11111,6 @@ This series has now met a designation marking an absence of demand in the
 - [Batenin et al 2001][research_batenin_bitjurin_2001]
 - [Batista et al 2026][research_batista_ross_2026]
 - [Battegazzore et al 2024][research_battegazzore_perko_2024]
-- [Batterman 1965][research_batterman_1965]
 - [Battle and Gottlieb 1964][research_battle_gottlieb_1964]
 - [Battle and Gottlieb 1966][research_battle_gottlieb_1966]
 - [Baucom et al 2001][research_baucom_zikry_2001]
@@ -11800,7 +11134,6 @@ This series has now met a designation marking an absence of demand in the
 - [Beal et al 1965][research_beal_coale_1965]
 - [Beans 1979][research_beans_1979]
 - [Beardmore and Hunston 1988][research_beardmore_hunston_1988]
-- [Bearman 1980][research_bearman_1980]
 - [Becher and Pedersen 1974][research_becher_pedersen_1974]
 - [Becht 2003][research_becht_2003]
 - [Beck and Beach 2003][research_beck_beach_2003]
@@ -11814,7 +11147,6 @@ This series has now met a designation marking an absence of demand in the
 - [Behera et al 2026][research_behera_khare_2026]
 - [Beilin and Figovsky 1995][research_beilin_figovsky_1995]
 - [Beina 2023][research_beina_2023]
-- [Beiriger and Trimmer 1982][research_beiriger_trimmer_1982]
 - [Bekey, Ivan 1994][research_bekeyivan_1994]
 - [Bekka et al 2015][research_bekka_sellam_2015]
 - [Belal et al 2019][research_belal_makled_2019]
@@ -11842,13 +11174,11 @@ This series has now met a designation marking an absence of demand in the
 - [Benito and Shotwell 2017][research_benito_shotwell_2017]
 - [Benkoski 2012][research_benkoski_2012]
 - [Bennaceur et al 2026][research_bennaceur_badis_2026]
-- [Bennett 2024][research_bennett_2024]
 - [Bennett and Anderson 1978][research_bennett_anderson_1978]
 - [Benson and Mayers 1966][research_benson_mayers_1966]
 - [Benson and Mayers 1967][research_benson_mayers_1967]
 - [Benson, Thomas J. 2014][research_bensonthomasj_2014]
 - [Bentley et al 2023][research_bentley_bolshinskiy_2023]
-- [Benz et al 2026][research_benz_nguyentrong_2026]
 - [Berg 1968][research_berg_1968]
 - [Berger et al 2015][research_berger_richard_2015]
 - [Bergmayr et al 2020][research_bergmayr_kralovec_2020]
@@ -11878,7 +11208,6 @@ This series has now met a designation marking an absence of demand in the
 - [Berzins 2014][research_berzins_2014]
 - [Besnard et al 2002][research_besnard_chen_2002]
 - [Besuner 1975][research_besuner_1975]
-- [Beye 1950][research_beye_1950]
 - [Beylich 1996][research_beylich_1996]
 - [Beziers and Denost 1989][research_beziers_denost_1989]
 - [Bhaba R. Sarker 2002][research_bhabarsarker_2002]
@@ -11886,7 +11215,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bhalerao et al 2026][research_bhalerao_gupta_2026]
 - [Bhandari and Gaur 2022][research_bhandari_gaur_2022]
 - [Bhandari et al 2024][research_bhandari_putra_2024]
-- [Bhardwaj et al 2018][research_bhardwaj_zou_2018]
 - [Bhasin et al 2022][research_bhasin_keshavanarayana_2022]
 - [Bhasin et al 2023][research_bhasin_konaravi_2023]
 - [Bhasin et al 2024][research_bhasin_keshavanarayana_2024]
@@ -11902,11 +11230,8 @@ This series has now met a designation marking an absence of demand in the
 - [Bhutiani 1980][research_bhutiani_1980]
 - [Bhuyan et al 1999][research_bhuyan_sperling_1999]
 - [Bi and Zhang 2026][research_bi_zhang_2026]
-- [Bi et al 2026][research_bi_wei_2026]
 - [Biagioli et al 2026][research_biagioli_serraino_2026]
 - [Biagioni 2000][research_biagioni_2000]
-- [Bian 2023][research_bian_2023]
-- [Bian et al 2018][research_bian_zhao_2018]
 - [Bibb, Karen L. et al 2011][research_bibbkarenl_walkerericl_2011]
 - [Bibeau and Rubinstein 2000][research_bibeau_rubinstein_2000]
 - [Bibin et al 2022][research_bibin_kumar_2022]
@@ -11916,7 +11241,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bigelow, C. A. 1992][research_bigelowca_1992]
 - [Bigert 1994][research_bigert_1994]
 - [Bilardo 2026][research_bilardo_2026]
-- [Bilgin and Tuncer 2024][research_bilgin_tuncer_2024]
 - [Biliaiev et al 2024][research_biliaiev_biliaieva_2024]
 - [Biliaiev et al 2025][research_biliaiev_biliaieva_2025]
 - [Billah et al 2020][research_billah_hassen_2020]
@@ -11956,10 +11280,8 @@ This series has now met a designation marking an absence of demand in the
 - [Blakseth et al 2025][research_blakseth_aasen_2025]
 - [Blandinao et al 2001][research_blandinao_johnston_2001]
 - [Blankson, Isaiah M. and Hagseth, Paul 1993][research_blanksonisaiahm_hagsethpaul_1993]
-- [Blatnicky et al 2023][research_blatnicky_molnar_2023]
 - [Bleich and Dimaggio 1952][research_bleich_dimaggio_1952]
 - [Blelloch and Coe 2000][research_blelloch_coe_2000]
-- [Bley et al 1973][research_bley_durr_1973]
 - [Blosser 1997][research_blosser_1997]
 - [Blosser 2002][research_blosser_2002]
 - [Blosser 2004][research_blosser_2004]
@@ -11972,7 +11294,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bock et al 1970][research_bock_peters_1970]
 - [Bodan-Sanders, Patricia and Bouvier, Carl 1998][research_bodansanderspatricia_bouviercarl_1998]
 - [Bogar et al 1996][research_bogar_alberico_1996]
-- [Bogart et al 1981][research_bogart_breckenridge_1981]
 - [Bogdanovich and Yushanov 1982][research_bogdanovich_yushanov_1982]
 - [Boglis and Stoica 2019][research_boglis_stoica_2019]
 - [Bogner and Soni 1981][research_bogner_soni_1981]
@@ -11998,7 +11319,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bondyra et al 2015][research_bondyra_klasztorny_2015]
 - [Boni 2023][research_boni_2023]
 - [Boniface et al 1997][research_boniface_smith_1997]
-- [Boo and Ng 2026][research_boo_ng_2026]
 - [Boone and Miller 2016][research_boone_miller_2016]
 - [Boone and Miller 2017][research_boone_miller_2017]
 - [Boone et al 2018][research_boone_shelley_2018]
@@ -12017,8 +11337,6 @@ This series has now met a designation marking an absence of demand in the
 - [Borovik et al 2019][research_borovik_strokach_2019]
 - [Borowski, S. K. et al 2015][research_borowskisk_sefcikrj_2015]
 - [Bortoloto et al 2023][research_bortoloto_bizarria_2023]
-- [Boscariol and Richiedei 2019][research_boscariol_richiedei_2019]
-- [Bose 1983][research_bose_1983]
 - [Botelho 1995][research_botelho_1995]
 - [Botelho et al 2022][research_botelho_martinez_2022]
 - [Botila et al 2024][research_botila_perianu_2024]
@@ -12045,8 +11363,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bowles, David E. and Griffin, O. H., Jr. 1989][research_bowlesdavide_griffinohjr_1989]
 - [Bowles, Kenneth J. and Vannucci, Raymond D. 1986][research_bowleskennethj_vannucciraymondd_1986]
 - [Bowles, Kenneth J. and Vannucci, Raymond D. 1989][research_bowleskennethj_vannucciraymondd_1989]
-- [Boyer 1955][research_boyer_1955]
-- [Boyer 1957][research_boyer_1957]
 - [Boyer 1965][research_boyer_1965]
 - [Boylan 1963][research_boylan_1963]
 - [Bozich 1967][research_bozich_1967]
@@ -12056,8 +11372,6 @@ This series has now met a designation marking an absence of demand in the
 - [Bradstreet et al 1972][research_bradstreet_davis_1972]
 - [Bragaglia et al 2023][research_bragaglia_cecchini_2023]
 - [Braman, Kalen et al 2015][research_bramankalen_garciachristian_2015]
-- [Branagan et al 1981][research_branagan_cotner_1981]
-- [Brand 1998][research_brand_1998]
 - [Brandmaier 1969][research_brandmaier_1969]
 - [Brandon et al 1978][research_brandon_britt_1978]
 - [Branets 2020][research_branets_2020]
@@ -12073,7 +11387,6 @@ This series has now met a designation marking an absence of demand in the
 - [Brazhko et al 2020][research_brazhko_davletkildeev_2020]
 - [Brazzel 1963][research_brazzel_1963]
 - [Breitenfeld and Geubelle 1998][research_breitenfeld_geubelle_1998]
-- [Brenner et al 2023][research_brenner_thiele_2023]
 - [Brentjes 1977][research_brentjes_1977]
 - [Bresnahan, D. L. 1972][research_bresnahandl_1972]
 - [Brevault and Balesdent 2021][research_brevault_balesdent_2021]
@@ -12105,14 +11418,9 @@ This series has now met a designation marking an absence of demand in the
 - [Broomby and Trifoni 2024][research_broomby_trifoni_2024]
 - [Brophy and Hawk 1990][research_brophy_hawk_1990]
 - [Brophy et al 1985][research_brophy_pivirotto_1985]
-- [Brown 1955][research_brown_1955]
-- [Brown 1967][research_brown_1967]
-- [Brown 1971][research_brown_1971]
 - [Brown 2004][research_brown_2004]
-- [Brown 2026][research_brown_2026]
 - [Brown and Baldwin 1953][research_brown_baldwin_1953]
 - [Brown and Heald, Jr. 1966][research_brown_healdjr_1966]
-- [Brown and Jones 1975][research_brown_jones_1975]
 - [Brown et al 1966][research_brown_heald_1966]
 - [Brown et al 1974][research_brown_jr_1974]
 - [Brown, Andrew M. et al 2011][research_brownandrewm_dehayemichael_2011]
@@ -12138,7 +11446,6 @@ This series has now met a designation marking an absence of demand in the
 - [Brykczynski and Youngblut 1989][research_brykczynski_youngblut_1989]
 - [Bucaro et al 1997][research_bucaro_romano_1997]
 - [Bucharskyi and Ponomarov 2025][research_bucharskyi_ponomarov_2025]
-- [Buchsbaum 1963][research_buchsbaum_1963]
 - [Bucinell, Ronald B. 1996][research_bucinellronaldb_1996]
 - [Buckling analysis of geometrically imperfect stiffened cylinders under axial compression 1977][research_buckling_analysis_1977]
 - [Buckling behavior and imperfection sensitivity of composite panels 1983][research_buckling_behavior_1983]
@@ -12169,7 +11476,6 @@ This series has now met a designation marking an absence of demand in the
 - [Burmeister 2015][research_burmeister_2015]
 - [Burmeister 2017][research_burmeister_2017]
 - [Burnette, M. F. and Sturm, R. G. 1968][research_burnettemf_sturmrg_1968]
-- [Burns 1979][research_burns_1979]
 - [Burns and Crawford 1961][research_burns_crawford_1961]
 - [Burolia et al 2026][research_burolia_kamble_2026]
 - [Burov 2016][research_burov_2016]
@@ -12180,7 +11486,6 @@ This series has now met a designation marking an absence of demand in the
 - [Burrows 2008][research_burrows_2008]
 - [Burschyk et al 2023][research_burschyk_silberhorn_2023]
 - [Burst et al 2025][research_burst_li_2025]
-- [Burton 1998][research_burton_1998]
 - [Burton and Noor 1997][research_burton_noor_1997]
 - [Burton and Noor 1997][research_burton_noor_1997_b]
 - [Burwell and Hofland, Jr. 1965][research_burwell_hoflandjr_1965]
@@ -12197,9 +11502,7 @@ This series has now met a designation marking an absence of demand in the
 - [Buzuluk et al 2020][research_buzuluk_plokhikh_2020]
 - [Buzzatto 2015][research_buzzatto_2015]
 - [Byczkowski and Rao 2023][research_byczkowski_rao_2023]
-- [Byczkowski and Rao 2023][research_byczkowski_rao_2023_b]
 - [Byerly and Hennig 2024][research_byerly_hennig_2024]
-- [Byrne et al 1992][research_byrne_huck_1992]
 - [Bärring et al 2020][research_barring_johansson_2020]
 - [Bätzel et al 2023][research_batzel_bohm_2023]
 - [Böhm and Schaumann 2022][research_bohm_schaumann_2022]
@@ -12233,9 +11536,7 @@ This series has now met a designation marking an absence of demand in the
 - [Calvert 2020][research_calvert_2020]
 - [Calvignac et al 2003][research_calvignac_tramel_2003]
 - [Calvignac, Jacky and Tramel, Terri 2003][research_calvignacjacky_tramelterri_2003]
-- [Camargo et al 2025][research_camargo_silveira_2025]
 - [Camarotti et al 2022][research_camarotti_hartwig_2022]
-- [Camata et al 2003][research_camata_spacone_2003]
 - [Cameron 2017][research_cameron_2017]
 - [Cameron et al 2021][research_cameron_larsson_2021]
 - [Cameselle-Molares et al 2019][research_camesellemolares_vassilopoulos_2019]
@@ -12254,10 +11555,8 @@ This series has now met a designation marking an absence of demand in the
 - [Can and Meram 2022][research_can_meram_2022]
 - [Canary 1972][research_canary_1972]
 - [Candler 1993][research_candler_1993]
-- [Candler 1993][research_candler_1993_b]
 - [Candler 2001][research_candler_2001]
 - [Canfield, Stephen 1999][research_canfieldstephen_1999]
-- [Cang 2017][research_cang_2017]
 - [Canham et al 2021][research_canham_podlaski_2021]
 - [Canoy and Bettinger 2023][research_canoy_bettinger_2023]
 - [Cantey 1965][research_cantey_1965]
@@ -12289,8 +11588,6 @@ This series has now met a designation marking an absence of demand in the
 - [Carman, G. L. 1980][research_carmangl_1980]
 - [Caron and Hibner 2017][research_caron_hibner_2017]
 - [Carosiello 1963][research_carosiello_1963]
-- [Carpenter 1992][research_carpenter_1992]
-- [Carpio and King 1981][research_carpio_king_1981]
 - [Carradori et al 2026][research_carradori_sagliano_2026]
 - [Carrera et al 2016][research_carrera_garciademiguel_2016]
 - [Carrick et al 1998][research_carrick_mead_1998]
@@ -12303,11 +11600,9 @@ This series has now met a designation marking an absence of demand in the
 - [Carter 2000][research_carter_2000]
 - [Carter and Agarwal 2022][research_carter_agarwal_2022]
 - [Carter et al 1995][research_carter_paine_1995]
-- [Carter et al 1996][research_carter_guidry_1996]
 - [Carvelli et al 2001][research_carvelli_panzeri_2001]
 - [Castaldi et al 2023][research_castaldi_emami_2023]
 - [Castel and Trameçon 2025][research_castel_tramecon_2025]
-- [Castelli et al 2022][research_castelli_pilotti_2022]
 - [Castro 2004][research_castro_2004]
 - [Castro and Bustamante 1993][research_castro_bustamante_1993]
 - [Caswell and Muggeridge 1971][research_caswell_muggeridge_1971]
@@ -12318,7 +11613,6 @@ This series has now met a designation marking an absence of demand in the
 - [Cau et al 2024][research_cau_borio_2024]
 - [Cavallo et al 2016][research_cavallo_pagani_2016]
 - [Cavdar and Mooij 2024][research_cavdar_mooij_2024]
-- [Cazón et al 2018][research_cazon_vazquez_2018]
 - [Celebi et al 2017][research_celebi_gurdal_2017]
 - [Celmins 1984][research_celmins_1984]
 - [Cen et al 2019][research_cen_tsang_2019]
@@ -12333,8 +11627,6 @@ This series has now met a designation marking an absence of demand in the
 - [Cesta and McLouth 1969][research_cesta_mclouth_1969]
 - [Cestino et al 2016][research_cestino_romeo_2016]
 - [Ch et al 2024][research_ch_sp_2024]
-- [Chae and Yang 2018][research_chae_yang_2018]
-- [Chae and Yang 2018][research_chae_yang_2018_b]
 - [Chai 1990][research_chai_1990]
 - [Chai et al 2020][research_chai_liu_2020]
 - [Chai et al 2026][research_chai_lu_2026]
@@ -12362,8 +11654,6 @@ This series has now met a designation marking an absence of demand in the
 - [Chang 1980][research_chang_1980]
 - [Chang and Jia 2022][research_chang_jia_2022]
 - [Chang et al 1989][research_chang_shen_1989]
-- [Chang et al 2003][research_chang_ping_2003]
-- [Chang et al 2020][research_chang_li_2020]
 - [Chang et al 2022][research_chang_huang_2022]
 - [Chang et al 2026][research_chang_seo_2026]
 - [Chang, Chau-Lyan et al 2010][research_changchaulyan_choudharimeelanm_2010]
@@ -12394,8 +11684,6 @@ This series has now met a designation marking an absence of demand in the
 - [Chaturvedi and Chen 2000][research_chaturvedi_chen_2000]
 - [Chau et al 2025][research_chau_brun_2025]
 - [Chaudhari 2017][research_chaudhari_2017]
-- [Chaudhary et al 2019][research_chaudhary_krishnasamy_2019]
-- [Chaudhuri and Chakrabarty 2018][research_chaudhuri_chakrabarty_2018]
 - [Chaudhuri and Xie 1997][research_chaudhuri_xie_1997]
 - [Chaudhuri et al 1986][research_chaudhuri_balaramant_1986]
 - [Chaumette and Cretenet 1987][research_chaumette_cretenet_1987]
@@ -12415,7 +11703,6 @@ This series has now met a designation marking an absence of demand in the
 - [Chen 2019][research_chen_2019]
 - [Chen 2020][research_chen_2020]
 - [Chen 2023][research_chen_2023]
-- [Chen 2023][research_chen_2023_b]
 - [Chen and Blosser 2002][research_chen_blosser_2002]
 - [Chen and Chaturvedi 2001][research_chen_chaturvedi_2001]
 - [Chen and Chen 1987][research_chen_chen_1987]
@@ -12458,16 +11745,13 @@ This series has now met a designation marking an absence of demand in the
 - [Chen et al 2019][research_chen_ma_2019]
 - [Chen et al 2019][research_chen_poursartip_2019]
 - [Chen et al 2019][research_chen_xing_2019]
-- [Chen et al 2020][research_chen_plott_2020]
 - [Chen et al 2020][research_chen_xi_2020]
-- [Chen et al 2020][research_chen_yang_2020]
 - [Chen et al 2020][research_chen_yang_2020_b]
 - [Chen et al 2021][research_chen_cao_2021]
 - [Chen et al 2021][research_chen_joseph_2021]
 - [Chen et al 2021][research_chen_rao_2021]
 - [Chen et al 2021][research_chen_xing_2021]
 - [Chen et al 2022][research_chen_chen_2022]
-- [Chen et al 2022][research_chen_guo_2022]
 - [Chen et al 2022][research_chen_jin_2022]
 - [Chen et al 2022][research_chen_tang_2022]
 - [Chen et al 2022][research_chen_wang_2022]
@@ -12483,13 +11767,11 @@ This series has now met a designation marking an absence of demand in the
 - [Chen et al 2024][research_chen_lv_2024]
 - [Chen et al 2024][research_chen_surendraarcharyagie_2024]
 - [Chen et al 2024][research_chen_ye_2024]
-- [Chen et al 2025][research_chen_li_2025]
 - [Chen et al 2025][research_chen_wu_2025]
 - [Chen et al 2025][research_chen_wu_2025_b]
 - [Chen et al 2025][research_chen_xiao_2025]
 - [Chen et al 2025][research_chen_yang_2025]
 - [Chen et al 2025][research_chen_zhu_2025]
-- [Chen et al 2026][research_chen_chen_2026]
 - [Chen et al 2026][research_chen_mao_2026]
 - [Chen et al 2026][research_chen_rumpf_2026]
 - [Chen et al 2026][research_chen_song_2026]
@@ -12522,9 +11804,6 @@ This series has now met a designation marking an absence of demand in the
 - [Cheu et al 2024][research_cheu_shivprasad_2024]
 - [Cheung 2015][research_cheung_2015]
 - [Cheung and Ong 1993][research_cheung_ong_1993]
-- [Cheverton and Bryson 2000][research_cheverton_bryson_2000]
-- [Cheverton and Dickson 1997][research_cheverton_dickson_1997]
-- [Cheverton and Volk 1958][research_cheverton_volk_1958]
 - [Chew 1953][research_chew_1953]
 - [Chhallani and Nemati 2025][research_chhallani_nemati_2025]
 - [Chi et al 2022][research_chi_yan_2022]
@@ -12533,7 +11812,6 @@ This series has now met a designation marking an absence of demand in the
 - [Chiang 2001][research_chiang_2001]
 - [Chien and Yu 1988][research_chien_yu_1988]
 - [Chien Do 2019][research_chiendo_2019]
-- [Child Identification Optimization Algorithm for AEB System of Autonomous Vehicle based on Machine Learning 2020][research_child_identification_2020]
 - [Chimonas 1986][research_chimonas_1986]
 - [Chin et al 1964][research_chin_hearne_1964]
 - [Chin Hua 2024][research_chinhua_2024]
@@ -12547,7 +11825,6 @@ This series has now met a designation marking an absence of demand in the
 - [Chirehdast and Jiang 1996][research_chirehdast_jiang_1996]
 - [Chisholm 1984][research_chisholm_1984]
 - [Chiswik et al 1952][research_chiswik_lehrer_1952]
-- [Chitpinityon and Tossa 2021][research_chitpinityon_tossa_2021]
 - [Chiu 1992][research_chiu_1992]
 - [Chiu et al 1990][research_chiu_kross_1990]
 - [Cho 2016][research_cho_2016]
@@ -12555,7 +11832,6 @@ This series has now met a designation marking an absence of demand in the
 - [Cho and Lee 1998][research_cho_lee_1998]
 - [Cho and Yoo 2000][research_cho_yoo_2000]
 - [Cho and Yoo 2016][research_cho_yoo_2016]
-- [Cho et al 2020][research_cho_varughese_2020]
 - [Cho et al 2021][research_cho_jo_2021]
 - [Cho et al 2024][research_cho_shin_2024]
 - [Choe and Choe 2003][research_choe_choe_2003]
@@ -12575,16 +11851,13 @@ This series has now met a designation marking an absence of demand in the
 - [Chong et al 2017][research_chong_victor_2017]
 - [Choo, Yung K. 1995][research_chooyungk_1995]
 - [Chou and Flis 1998][research_chou_flis_1998]
-- [Chou and Savkoor 1999][research_chou_savkoor_1999]
 - [Chou, H.-C. et al 1997][research_chouhc_ardemamd_1997]
 - [Choudhary et al 2024][research_choudhary_ram_2024]
-- [Chouinard 1992][research_chouinard_1992]
 - [Chow and Chang 1972][research_chow_chang_1972]
 - [Chow and Jin 1991][research_chow_jin_1991]
 - [Chowdhary et al 2021][research_chowdhary_tafesse_2021]
 - [Chowdhury et al 2022][research_chowdhury_li_2022]
 - [Chowdhury et al 2026][research_chowdhury_joshi_2026]
-- [Chrepta et al 1968][research_chrepta_zinn_1968]
 - [Christensen and DeTeresa 2000][research_christensen_deteresa_2000]
 - [Christensen and Hill 1985][research_christensen_hill_1985]
 - [Christensen, H. E. and Osborne, D. A. 1973][research_christensenhe_osborneda_1973]
@@ -12660,8 +11933,6 @@ This series has now met a designation marking an absence of demand in the
 - [Coley et al 2018][research_coley_seyedalavi_2018]
 - [Colicci et al 2025][research_colicci_noonan_2025]
 - [Collier 1993][research_collier_1993]
-- [Collins 2003][research_collins_2003]
-- [Colman 1962][research_colman_1962]
 - [Colvin and Locke 2024][research_colvin_locke_2024]
 - [Colvin and Lynch 2025][research_colvin_lynch_2025]
 - [Colvin, James E. and Landis, Geoffrey A. 1992][research_colvinjamese_landisgeoffreya_1992]
@@ -12671,13 +11942,11 @@ This series has now met a designation marking an absence of demand in the
 - [Comparison of statistical weight equations with structural optimization for supersonic transport wings 1994][research_comparison_of_1994]
 - [Composite fuel tank passes NASA tests 2004][research_composite_fuel_2004]
 - [Composite fuel tank reduces emissions 2003][research_composite_fuel_2003]
-- [Composite leafsprings for tank trailer suspensions 1987][research_composite_leafsprings_1987]
 - [Composite material bears superior wear properties 1999][research_composite_material_1999]
 - [Composite material with improved properties 1989][research_composite_material_1989]
 - [Composite Materials for Low-Temperature 2008][research_composite_materials_2008]
 - [Composite materials with sandwich structure 1990][research_composite_materials_1990]
 - [Composite moulding apparatus for high pressure co-cure moulding of lighweight honeycomb core composite articles having ramped surfaces utilising low density, stabilised ramped honeycomb cores 1995][research_composite_moulding_1995]
-- [Composite plastics materials used to produce a self-insulating water tank 1970][research_composite_plastics_1970]
 - [Composite Polymer Systems 1970][research_composite_polymer_1970]
 - [Composite sealing material with improved sealing properties 1995][research_composite_sealing_1995]
 - [Composite sintered material having sandwich structure 1991][research_composite_sintered_1991]
@@ -12688,7 +11957,6 @@ This series has now met a designation marking an absence of demand in the
 - [Concio et al 2023][research_concio_tindaromigliorino_2023]
 - [Conder and Newhouse 1980][research_conder_newhouse_1980]
 - [Conference on Aircraft Aerodynamics 1966][research_conference_on_1966]
-- [Cong et al 2024][research_cong_dong_2024]
 - [Conroy 1969][research_conroy_1969]
 - [Conte et al 2019][research_conte_ferrero_2019]
 - [Cook 1966][research_cook_1966]
@@ -12702,11 +11970,8 @@ This series has now met a designation marking an absence of demand in the
 - [Cooling and Heating Tests 2018][research_cooling_and_2018]
 - [Coombes et al 2015][research_coombes_chen_2015]
 - [Cooper 1968][research_cooper_1968]
-- [Cooper 1993][research_cooper_1993]
-- [Cooper et al 1977][research_cooper_levasseur_1977]
 - [Cooper et al 2015][research_cooper_thornby_2015]
 - [Coopersmith and Davis 2016][research_coopersmith_davis_2016]
-- [Coordinating Research Council Inc Atlanta Ga 1991][research_coordinatingresearchcouncilincatlantaga_1991]
 - [Copenhaver et al 1997][research_copenhaver_scott_1997]
 - [Copenhaver et al 1998][research_copenhaver_scott_1998]
 - [Coppa and Nash 1962][research_coppa_nash_1962]
@@ -12717,14 +11982,10 @@ This series has now met a designation marking an absence of demand in the
 - [Cordiano 1963][research_cordiano_1963]
 - [Cordova et al 2023][research_cordova_bahbou_2023]
 - [Corke and Bowersox 2018][research_corke_bowersox_2018]
-- [Corps Of Engineers Washington Dc 1990][research_corpsofengineerswashingtondc_1990]
-- [Corps Of Engineers Washington Dc 1992][research_corpsofengineerswashingtondc_1992]
 - [Corradini and Silvestri 2022][research_corradini_silvestri_2022]
 - [Corson, Blake W., Jr. and Mercer, Charles E. 1960][research_corsonblakewjr_mercercharlese_1960]
 - [Cortial et al 1994][research_cortial_corrieu_1994]
 - [Cossairt 1964][research_cossairt_1964]
-- [Cost analysis of inland water transportation systems for developing countries 1977][research_cost_analysis_1977]
-- [Cost and Herzberg 2017][research_cost_herzberg_2017]
 - [Costa 2001][research_costa_2001]
 - [Costa 2025][research_costa_2025]
 - [Cotting, M. Christopher and Burken, John J. 2001][research_cottingmchristopher_burkenjohnj_2001]
@@ -12733,8 +11994,6 @@ This series has now met a designation marking an absence of demand in the
 - [Couto and Mantelli 2000][research_couto_mantelli_2000]
 - [Covington 1975][research_covington_1975]
 - [Cowart and Olds 2000][research_cowart_olds_2000]
-- [Cowgill et al 1981][research_cowgill_pitman_1981]
-- [Cowles 2001][research_cowles_2001]
 - [Cowles et al 1985][research_cowles_thakker_1985]
 - [Cowles, Frederick B. and Foster, Charles R. 1949][research_cowlesfrederickb_fostercharlesr_1949]
 - [Cowling, Adam L. 2011][research_cowlingadaml_2011]
@@ -12743,7 +12002,6 @@ This series has now met a designation marking an absence of demand in the
 - [Cox, Timothy H. and Cotting, Christopher 2005][research_coxtimothyh_cottingchristopher_2005]
 - [Cozier et al 2015][research_cozier_harned_2015]
 - [Cozzolino 2024][research_cozzolino_2024]
-- [Cramer 2014][research_cramer_2014]
 - [Cramer and Rummler 1975][research_cramer_rummler_1975]
 - [Creech, Dennis M. et al 2011][research_creechdennism_threetgradyejr_2011]
 - [Creese et al 2023][research_creese_vuppala_2023]
@@ -12764,7 +12022,6 @@ This series has now met a designation marking an absence of demand in the
 - [Crowe and Willoughby 1967][research_crowe_willoughby_1967]
 - [Crowe et al 1968][research_crowe_babcock_1968]
 - [Crown 1950][research_crown_1950]
-- [Crox and John F. 1961][research_crox_johnf_1961]
 - [Crumpacker 2017][research_crumpacker_2017]
 - [Cruz and Ware 1992][research_cruz_ware_1992]
 - [Cruz et al 2025][research_cruz_ueda_2025]
@@ -12782,7 +12039,6 @@ This series has now met a designation marking an absence of demand in the
 - [Cui et al 2025][research_cui_zhang_2025]
 - [Cui et al 2026][research_cui_han_2026]
 - [Cummings 1978][research_cummings_1978]
-- [Cummings 1985][research_cummings_1985]
 - [Cummings and Adams 1982][research_cummings_adams_1982]
 - [Cunningham 1972][research_cunningham_1972]
 - [Cunningham 1987][research_cunningham_1987]
@@ -12796,17 +12052,13 @@ This series has now met a designation marking an absence of demand in the
 - [Cyrus J R Kosztowny et al 2024][research_cyrusjrkosztowny_kyongchansong_2024]
 - [Czapski 2020][research_czapski_2020]
 - [D 1996][research_d_1996]
-- [D'Antuono et al 2024][research_dantuono_zavoli_2024]
 - [D'Antuono et al 2024][research_dantuono_zavoli_2024_b]
 - [D'Onofrio 2013][research_donofrio_2013]
-- [D'Onofrio et al 2015][research_donofrio_davies_2015]
 - [D'Souza et al 2022][research_dsouza_mcguire_2022]
 - [da Silva et al 2021][research_dasilva_domiciano_2021]
 - [da Silveira and da Silva Fernandes 2023][research_dasilveira_dasilvafernandes_2023]
 - [Daghighi and Weaver 2024][research_daghighi_weaver_2024]
 - [DAgostino, Mark G. et al 2001][research_dagostinomarkg_leeyoungc_2001]
-- [Dai and Bikdash 2017][research_dai_bikdash_2017]
-- [Dai and Liu 2015][research_dai_liu_2015]
 - [Dai and Xiao 2020][research_dai_xiao_2020]
 - [Dai et al 2017][research_dai_liu_2017]
 - [Dai et al 2023][research_dai_webb_2023]
@@ -12815,13 +12067,11 @@ This series has now met a designation marking an absence of demand in the
 - [Daimon et al 2017][research_daimon_negishi_2017]
 - [Daines and Boyd 1977][research_daines_boyd_1977]
 - [Dakka and Dennison 2021][research_dakka_dennison_2021]
-- [Dale 1989][research_dale_1989]
 - [Dalla Vecchia de Lima et al 2025][research_dallavecchiadelima_cavalheiro_2025]
 - [Dalle et al 2023][research_dalle_rogers_2023]
 - [Dalle et al 2024][research_dalle_rogers_2024]
 - [Dalle, Derek J. et al 2018][research_dallederekj_rogersstuarte_2018]
 - [Damane and Pitot 2024][research_damane_pitot_2024]
-- [Damse and Singh 2000][research_damse_singh_2000]
 - [Dana-Farber Cancer Inst Boston Ma 2007][research_danafarbercancerinstbostonma_2007]
 - [Dancy et al 1955][research_dancy_jr_1955]
 - [Dandappanavar et al 2026][research_dandappanavar_manoj_2026]
@@ -12833,13 +12083,11 @@ This series has now met a designation marking an absence of demand in the
 - [Daniel et al 2001][research_daniel_gdoutos_2001]
 - [Daniel et al 2001][research_daniel_gdoutos_2001_b]
 - [Daniels and Dryden 1974][research_daniels_dryden_1974]
-- [Danielson 1996][research_danielson_1996]
 - [Dankanich, John W. and Klein, Eric 2012][research_dankanichjohnw_kleineric_2012]
 - [Dao et al 2016][research_dao_dinh_2016]
 - [Dardouri et al 2017][research_dardouri_abba_2017]
 - [Darevskii 1961][research_darevskii_1961]
 - [Darmadi et al 2018][research_darmadi_setiawan_2018]
-- [Darnell 1974][research_darnell_1974]
 - [Darr et al 2017][research_darr_camarotti_2017]
 - [Daryabeigi 2001][research_daryabeigi_2001]
 - [Daryabeigi 2002][research_daryabeigi_2002]
@@ -12850,7 +12098,6 @@ This series has now met a designation marking an absence of demand in the
 - [Das et al 1997][research_das_khavaran_1997]
 - [Das et al 2003][research_das_bhaduri_2003]
 - [Das et al 2025][research_das_jiang_2025]
-- [Dastfan and Driver 2016][research_dastfan_driver_2016]
 - [Daudeville and Ladevèze 1993][research_daudeville_ladeveze_1993]
 - [Dauerman 1960][research_dauerman_1960]
 - [Dauskardt et al 1998][research_dauskardt_lane_1998]
@@ -12883,7 +12130,6 @@ This series has now met a designation marking an absence of demand in the
 - [Dawe et al 2026][research_dawe_frey_2026]
 - [Dawson 1964][research_dawson_1964]
 - [Dawson 1964][research_dawson_1964_b]
-- [Dayam and Desai 2022][research_dayam_desai_2022]
 - [Daza Flórez et al 2025][research_dazaflorez_payanenezambrano_2025]
 - [De Almeida Souza et al 2022][research_dealmeidasouza_silva_2022]
 - [de Boer et al 2026][research_deboer_benoy_2026]
@@ -12893,7 +12139,6 @@ This series has now met a designation marking an absence of demand in the
 - [de Freitas Bart and Hoffman 2021][research_defreitasbart_hoffman_2021]
 - [De Luca et al 2026][research_deluca_neri_2026]
 - [de Lumley et al 2019][research_delumley_mathieu_2019]
-- [De Matteis and Landolfo 1999][research_dematteis_landolfo_1999]
 - [de Moura and Ribeiro 2026][research_demoura_ribeiro_2026]
 - [de Moura and Ribeiro 2026][research_demoura_ribeiro_2026_b]
 - [De Prisco et al 2026][research_deprisco_infante_2026]
@@ -12905,14 +12150,9 @@ This series has now met a designation marking an absence of demand in the
 - [DeBonis et al 1999][research_debonis_trefny_1999]
 - [Dec and Mitcheltree 2002][research_dec_mitcheltree_2002]
 - [Decker and Laschka 2001][research_decker_laschka_2001]
-- [Deek et al 2021][research_deek_piketmay_2021]
 - [Deep and Jagadeesh 2018][research_deep_jagadeesh_2018]
 - [Dees and Stockard 2023][research_dees_stockard_2023]
 - [Defense Acquisition Univ Ft Belvoir Va 2007][research_defenseacquisitionunivftbelvoirva_2007]
-- [Deford et al 2004][research_deford_held_2004]
-- [DeFord et al 2005][research_deford_held_2005]
-- [DeFord et al 2006][research_deford_held_2006]
-- [DeFord et al 2007][research_deford_held_2007]
 - [Degraff et al 2022][research_degraff_liang_2022]
 - [Dehpanah and Nejat 2015][research_dehpanah_nejat_2015]
 - [Dehsaraji et al 2021][research_dehsaraji_arefi_2021]
@@ -12925,7 +12165,6 @@ This series has now met a designation marking an absence of demand in the
 - [Delserro 1987][research_delserro_1987]
 - [Demakos 2002][research_demakos_2002]
 - [Demidovich 2017][research_demidovich_2017]
-- [Demir and Saran 2026][research_demir_saran_2026]
 - [Demircioglu and Cakır 2024][research_demircioglu_cakir_2024]
 - [Deml and Wunderlich 1997][research_deml_wunderlich_1997]
 - [Demonstration of manufacturing techniques 1968][research_demonstration_of_1968]
@@ -13007,7 +12246,6 @@ This series has now met a designation marking an absence of demand in the
 - [Diercks 1979][research_diercks_1979]
 - [Dietrick and Meeks 1959][research_dietrick_meeks_1959]
 - [Digital Twin Modeling and Simulation of Computer Aided Design and Manufacturing Structure: Case Study 2023][research_digital_twin_2023]
-- [DIGITAL VEHICLE MANAGEMENT SYSTEM MOTORHUB 2026][research_digital_vehicle_2026]
 - [Diharjo et al 2016][research_diharjo_anwar_2016]
 - [Dileep et al 2015][research_dileep_kamath_2015]
 - [Dileep et al 2016][research_dileep_surekha_2016]
@@ -13025,13 +12263,10 @@ This series has now met a designation marking an absence of demand in the
 - [Ding et al 2023][research_ding_liu_2023]
 - [Ding et al 2026][research_ding_kang_2026]
 - [Dingley and Bednar 1963][research_dingley_bednar_1963]
-- [Dinul et al 2025][research_dinul_putra_2025]
 - [Direct numerical simulations of hypersonic boundary layer transition over a hypersonic transition research vehicle model lifting body at different angles of attack 2023][research_direct_numerical_2023]
 - [Dirling, Jr. et al 1982][research_dirlingjr_loomis_1982]
 - [Discussion of session 15, Fundamentals of bluff body aerodynamics 1983][research_discussion_of_1983]
 - [Discussions of bluff body aerodynamics 1997][research_discussions_of_1997_b]
-- [Discussions of vehicle aerodynamics and dispersion 1997][research_discussions_of_1997]
-- [DiSilvestro et al 1999][research_disilvestro_zhu_1999]
 - [Ditcher and Webber 1982][research_ditcher_webber_1982]
 - [Dix et al 1996][research_dix_saigal_1996]
 - [Dixon 1997][research_dixon_1997]
@@ -13043,7 +12278,6 @@ This series has now met a designation marking an absence of demand in the
 - [Dodero et al 2025][research_dodero_mccormick_2025]
 - [Doelle and Cohen 1979][research_doelle_cohen_1979]
 - [Doff-Sotta et al 2025][research_doffsotta_cannon_2025]
-- [Dohmen et al 2021][research_dohmen_liessner_2021]
 - [Doihara and Nishida 2002][research_doihara_nishida_2002]
 - [Dokuchaev 2018][research_dokuchaev_2018]
 - [Doman 2004][research_doman_2004]
@@ -13060,7 +12294,6 @@ This series has now met a designation marking an absence of demand in the
 - [Dong et al 2021][research_dong_ren_2021]
 - [Dong et al 2023][research_dong_wu_2023]
 - [Dongpo et al 2025][research_dongpo_aiying_2025]
-- [Doniselli et al 1996][research_doniselli_mastinu_1996]
 - [Doos and Makki 2023][research_doos_makki_2023]
 - [Dopieralski and Polak 2025][research_dopieralski_polak_2025]
 - [Dordan and Silva 2025][research_dordan_silva_2025]
@@ -13069,7 +12302,6 @@ This series has now met a designation marking an absence of demand in the
 - [Dorsey and Gibbs 1977][research_dorsey_gibbs_1977]
 - [Dorsey et al 2002][research_dorsey_poteet_2002]
 - [Dorsey et al 2004][research_dorsey_poteet_2004]
-- [Dortheimer et al 2024][research_dortheimer_martelaro_2024]
 - [Dosanjh 1983][research_dosanjh_1983]
 - [Dosanjh and Das 1986][research_dosanjh_das_1986]
 - [Dosanjh and Das 1988][research_dosanjh_das_1988]
@@ -13079,27 +12311,20 @@ This series has now met a designation marking an absence of demand in the
 - [Doughty and Jones 1970][research_doughty_jones_1970]
 - [Douglas 1969][research_douglas_1969]
 - [Douglas Aircraft Co Long Beach Ca 1963][research_douglasaircraftcolongbeachca_1963]
-- [Dove and Loehman 1972][research_dove_loehman_1972]
 - [Dove et al 1960][research_dove_baker_1960]
 - [Dovgalenko and Loutchkina 1996][research_dovgalenko_loutchkina_1996]
-- [Dowling and Martin 1985][research_dowling_martin_1985]
 - [Doyle 1982][research_doyle_1982]
 - [Doyle 1988][research_doyle_1988]
-- [Doyle and Leitch 2000][research_doyle_leitch_2000]
-- [Dozier and Dimitrov 2012][research_dozier_dimitrov_2012]
 - [Dragone 2000][research_dragone_2000]
 - [Drake et al 2023][research_drake_carvalho_2023]
-- [Dregulo 2023][research_dregulo_2023]
 - [Dreier 2022][research_dreier_2022]
 - [Drenthe et al 2019][research_drenthe_zandbergen_2019]
 - [Dressler, G. A. et al 1993][research_dresslerga_stoddardfj_1993]
 - [Drew 1965][research_drew_1965]
 - [Dreyer et al 2021][research_dreyer_grier_2021]
 - [Dreyfuss 1966][research_dreyfuss_1966]
-- [Driesen 1975][research_driesen_1975]
 - [Driessen, Brian J. 2005][research_driessenbrianj_2005]
 - [Driggers 1975][research_driggers_1975]
-- [Dritsas and Tzes 2024][research_dritsas_tzes_2024]
 - [Drobyshev 2026][research_drobyshev_2026]
 - [Dron et al 2025][research_dron_lapkhanov_2025]
 - [Droździel et al 2021][research_drozdziel_jakubczak_2021]
@@ -13130,7 +12355,6 @@ This series has now met a designation marking an absence of demand in the
 - [Dumbacher, Daniel L. and Davis, Stephan R. 2007][research_dumbacherdaniell_davisstephanr_2007]
 - [Dumbacher, Daniel L. and Reuter, James L. 2007][research_dumbacherdaniell_reuterjamesl_2007]
 - [Dumbacher, Daniel L. and Rogacki, John R. 2001][research_dumbacherdaniell_rogackijohnr_2001]
-- [Duncan et al 1996][research_duncan_ashford_1996]
 - [Dunfee and Oss 1967][research_dunfee_oss_1967]
 - [Dunn 2018][research_dunn_2018]
 - [Dunn et al 1991][research_dunn_kaith_1991]
@@ -13147,7 +12371,6 @@ This series has now met a designation marking an absence of demand in the
 - [Dym 1973][research_dym_1973]
 - [Dym and Hoff 1966][research_dym_hoff_1966]
 - [Dynamic Buckling of a Cylindrical Shell with a General Boundary Condition under an Axial Impact 2019][research_dynamic_buckling_2019]
-- [Dynes 2001][research_dynes_2001]
 - [Dziubek et al 2026][research_dziubek_budzik_2026]
 - [Dölz and Ebert 2026][research_dolz_ebert_2026]
 - [D’Ambrosio et al 2024][research_dambrosio_capra_2024]
@@ -13185,7 +12408,6 @@ This series has now met a designation marking an absence of demand in the
 - [Effect of Layering on Dynamic Mechanical Property of Glass Fibre Reinforced Epoxy Composite 2016][research_effect_of_2016]
 - [Effect of radius on material properties of cylindrically reinforced composite sheets: an experimental investigation 1982][research_effect_of_1982]
 - [Effect of scratches on the fatigue behavior of an aluminum lithium alloy 1995][research_effect_of_1995_b]
-- [Effects of combustion chamber structure on combustion and emission of diesel engine 2023][research_effects_of_2023]
 - [Egan et al 2025][research_egan_angilella_2025]
 - [Eggers 1961][research_eggers_1961]
 - [Egorov 2020][research_egorov_2020]
@@ -13235,12 +12457,9 @@ This series has now met a designation marking an absence of demand in the
 - [Emanuel 1964][research_emanuel_1964]
 - [Emerson et al 2012][research_emerson_cain_2012]
 - [Emery and Zisk 1995][research_emery_zisk_1995]
-- [Emir Isik et al 2024][research_emirisik_isik_2024]
-- [Emmert-Streib et al 2024][research_emmertstreib_tripathi_2024]
 - [Emmons 1951][research_emmons_1951]
 - [Emtiaz et al 2026][research_emtiaz_shepherd_2026]
 - [Endicott 1999][research_endicott_1999]
-- [Energy consumption analysis and cutting cost reduction strategies in granite cutting operations 2021][research_energy_consumption_2021]
 - [Eng 2018][research_eng_2018]
 - [Eng et al 2000][research_eng_stahl_2000]
 - [Eng et al 2023][research_eng_casstevens_2023]
@@ -13250,10 +12469,8 @@ This series has now met a designation marking an absence of demand in the
 - [Ennix, Kimberly A. et al 1999][research_ennixkimberlya_corpeninggriffinp_1999]
 - [Enos et al 2025][research_enos_raje_2025]
 - [Enriquez 2025][research_enriquez_2025]
-- [Enterprise Cost Analysis and Cost Reduction Strategy 2022][research_enterprise_cost_2022]
 - [Environmental testing of the third stage of the European Launch Vehicle 1968][research_environmental_testing_1968]
 - [Ercole et al 2017][research_ercole_garofalo_2017]
-- [Erden et al 2023][research_erden_kabalci_2023]
 - [Erdogan and Arin 1972][research_erdogan_arin_1972]
 - [Eremin 2018][research_eremin_2018]
 - [Eremin 2021][research_eremin_2021]
@@ -13270,7 +12487,6 @@ This series has now met a designation marking an absence of demand in the
 - [Eringen 1951][research_eringen_1951]
 - [Erives et al 2023][research_erives_sorensen_2023]
 - [Erol and Ünsal 2026][research_erol_unsal_2026]
-- [Erol and Ünsal 2026][research_erol_unsal_2026_b]
 - [Erturan et al 2019][research_erturan_yurdakul_2019]
 - [Escartí-Guillem et al 2022][research_escartiguillem_garciaraffi_2022]
 - [Eschenauer 1989][research_eschenauer_1989]
@@ -13295,7 +12511,6 @@ This series has now met a designation marking an absence of demand in the
 - [Evans and Morgan 1988][research_evans_morgan_1988]
 - [Evans and Walton 2017][research_evans_walton_2017]
 - [Evans, Steven W. and Dukeman, Greg A. 1993][research_evansstevenw_dukemangrega_1993]
-- [Evers and Kuper 1998][research_evers_kuper_1998]
 - [Evgrafov and Patriksson 2003][research_evgrafov_patriksson_2003]
 - [Evkin 2026][research_evkin_2026]
 - [Evkin et al 2018][research_evkin_kolesnikov_2018]
@@ -13306,16 +12521,12 @@ This series has now met a designation marking an absence of demand in the
 - [Experimental Study on Bond Strength of Continuous Carbon Fiber Sheet 1999][research_experimental_study_1999]
 - [Eyi et al 2018][research_eyi_hanquist_2018]
 - [Eyi et al 2019][research_eyi_hanquist_2019]
-- [Eği̇ 2022][research_egi_2022]
 - [Fabrication and Tensile Property Analysis of a Composite Laminate with Different Diameter Holes 2015][research_fabrication_and_tensile_2015]
-- [Factors Affecting the Cost Reduction of Private Universities 2022][research_factors_affecting_2022]
-- [Fagan et al 1994][research_fagan_aberman_1994]
 - [Fagan et al 2003][research_fagan_mcinerney_2003]
 - [Fagerberg 2004][research_fagerberg_2004]
 - [Fahrenthold 1989][research_fahrenthold_1989]
 - [Fahrenthold et al 1990][research_fahrenthold_price_1990]
 - [Fahy et al 2021][research_fahy_chang_2021]
-- [Fahy et al 2021][research_fahy_chang_2021_b]
 - [Failure of a composite laminate under biaxial loading 1990][research_failure_of_1990]
 - [Fajardo-Pruna et al 2023][research_fajardopruna_lopezestrada_2023]
 - [Falck, Robert D. and Gefert, Leon P. 2007][research_falckrobertd_gefertleonp_2007]
@@ -13332,7 +12543,6 @@ This series has now met a designation marking an absence of demand in the
 - [Fan et al 2023][research_fan_dou_2023]
 - [Fan et al 2025][research_fan_giovanis_2025]
 - [Fan et al 2026][research_fan_liu_2026]
-- [Fang and Gu 2022][research_fang_gu_2022]
 - [Fang and Ji 2023][research_fang_ji_2023]
 - [Fang and Wang 2022][research_fang_wang_2022]
 - [Fang et al 2017][research_fang_ying_2017]
@@ -13391,10 +12601,8 @@ This series has now met a designation marking an absence of demand in the
 - [Feng et al 2024][research_feng_shi_2024]
 - [Feng et al 2026][research_feng_lang_2026]
 - [Fenyes 1981][research_fenyes_1981]
-- [Ferchichi et al 2015][research_ferchichi_boulila_2015]
 - [Ferdinand and Springer 1989][research_ferdinand_springer_1989]
 - [Fereidouni and Hoa 2024][research_fereidouni_hoa_2024]
-- [Fereydoonpour et al 2025][research_fereydoonpour_hodges_2025]
 - [Ferguson and Agarwal 2018][research_ferguson_agarwal_2018]
 - [Ferguson et al 2015][research_ferguson_dasque_2015]
 - [Ferguson et al 2015][research_ferguson_dasque_2015_b]
@@ -13403,8 +12611,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ferlauto et al 2020][research_ferlauto_ferrero_2020]
 - [Fernandez Villace and Steelant 2015][research_fernandezvillace_steelant_2015]
 - [Ferrandon 1997][research_ferrandon_1997]
-- [Ferreira et al 2020][research_ferreira_lima_2020]
-- [Ferreira et al 2021][research_ferreira_tsavdaridis_2021]
 - [Ferrell, Bob et al 2004][research_ferrellbob_santurosteve_2004]
 - [Ferretto et al 2022][research_ferretto_fusaro_2022]
 - [Ferro et al 2023][research_ferro_pietrangelo_2023]
@@ -13414,8 +12620,6 @@ This series has now met a designation marking an absence of demand in the
 - [Fesmire and Johnson 2018][research_fesmire_johnson_2018]
 - [Fesmire, J. E. and Sass, J. 2007][research_fesmireje_sassj_2007]
 - [Fesmire, J. E. et al 2011][research_fesmireje_cofmanbe_2011]
-- [Festy 2001][research_festy_2001]
-- [Festy and Tigges 1992][research_festy_tigges_1992]
 - [Fiacco and Hutzler 1979][research_fiacco_hutzler_1979]
 - [Fiaschi 1999][research_fiaschi_1999]
 - [Fibre reinforced ceramic glass composites having tailored coefficient of thermal expansion 1995][research_fibre_reinforced_1995]
@@ -13436,8 +12640,6 @@ This series has now met a designation marking an absence of demand in the
 - [Filippenko 2016][research_filippenko_2016]
 - [Filippov 2015][research_filippov_2015]
 - [Filippov 2019][research_filippov_2019]
-- [Filler 1968][research_filler_1968]
-- [Filter minimises risk of coolant nozzle blockage 1997][research_filter_minimises_1997]
 - [Findikyan et al 1966][research_findikyan_duke_1966]
 - [Finley 1996][research_finley_1996]
 - [Finson 1973][research_finson_1973]
@@ -13446,7 +12648,6 @@ This series has now met a designation marking an absence of demand in the
 - [Fischer 2002][research_fischer_2002]
 - [Fischer 2004][research_fischer_2004]
 - [Fischer et al 2003][research_fischer_mueller_2003]
-- [Fischman and Jorstad 1990][research_fischman_jorstad_1990]
 - [Fisher et al 1992][research_fisher_schmidt_1992]
 - [Fitzgerald 1974][research_fitzgerald_1974]
 - [Fitzgerald and Brewster 2003][research_fitzgerald_brewster_2003]
@@ -13454,7 +12655,6 @@ This series has now met a designation marking an absence of demand in the
 - [Flaggs and Vinson 1977][research_flaggs_vinson_1977]
 - [Flaman et al 1987][research_flaman_mills_1987]
 - [Flamm et al 2016][research_flamm_james_2016]
-- [Flanagan 1994][research_flanagan_1994]
 - [Flanagan et al 2017][research_flanagan_goggins_2017]
 - [Flanigan 1989][research_flanigan_1989]
 - [Fleck, R. W. and Lehman, J. K. 1973][research_fleckrw_lehmanjk_1973]
@@ -13479,8 +12679,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ford et al 1987][research_ford_vincent_1987]
 - [Ford et al 2024][research_ford_heider_2024]
 - [Ford et al 2025][research_ford_alipourbonab_2025]
-- [Fordham 1993][research_fordham_1993]
-- [Forest and Furman 1985][research_forest_furman_1985]
 - [Forman 1990][research_forman_1990]
 - [Foroni and Malara 2021][research_foroni_malara_2021]
 - [Foroutan and Torabi 2025][research_foroutan_torabi_2025]
@@ -13524,7 +12722,6 @@ This series has now met a designation marking an absence of demand in the
 - [Frankenthal 1964][research_frankenthal_1964]
 - [Franklin 1991][research_franklin_1991]
 - [Franklin and Tinsley 1970][research_franklin_tinsley_1970]
-- [Franze and Barz 2025][research_franze_barz_2025]
 - [Franze and Barz 2025][research_franze_barz_2025_b]
 - [Fraunhofer IGCV sets up AI-based fiber placement automated composite manufacturing 2023][research_fraunhofer_igcv_2023]
 - [Frayssinet 2019][research_frayssinet_2019]
@@ -13532,7 +12729,6 @@ This series has now met a designation marking an absence of demand in the
 - [Freeman 1967][research_freeman_1967]
 - [Freeman 2015][research_freeman_2015]
 - [Freeman 2024][research_freeman_2024]
-- [Freeman and Jahnle 1980][research_freeman_jahnle_1980]
 - [Freeman and Powell 1980][research_freeman_powell_1980]
 - [Freeman et al 1995][research_freeman_stanley_1995]
 - [Freeman et al 1996][research_freeman_talay_1996]
@@ -13577,7 +12773,6 @@ This series has now met a designation marking an absence of demand in the
 - [Fu et al 2021][research_fu_bose_2021]
 - [Fu et al 2023][research_fu_chen_2023]
 - [Fu et al 2026][research_fu_su_2026]
-- [Fuchs and Lau 1992][research_fuchs_lau_1992]
 - [Fuchs et al 1994][research_fuchs_starnes_1994]
 - [Fuchs et al 2018][research_fuchs_haskell_2018]
 - [Fuhrmann 2003][research_fuhrmann_2003]
@@ -13612,7 +12807,6 @@ This series has now met a designation marking an absence of demand in the
 - [Furuhama et al 1993][research_furuhama_sakurai_1993]
 - [Fusaro and Viola 2020][research_fusaro_viola_2020]
 - [Fusselman et al 2019][research_fusselman_goyal_2019]
-- [G et al 2024][research_g_dhanalakshmi_2024]
 - [G P Szatkowski and Barry E Levin 1991][research_gpszatkowski_barryelevin_1991]
 - [Gabaldo et al 2016][research_gabaldo_barros_2016]
 - [Gabetta et al 2018][research_gabetta_cioffi_2018]
@@ -13634,7 +12828,6 @@ This series has now met a designation marking an absence of demand in the
 - [Galkin et al 1969][research_galkin_zhbakova_1969]
 - [Gallagher et al 2023][research_gallagher_stuart_2023]
 - [Gallardo and Pérez Escobar 2024][research_gallardo_perezescobar_2024]
-- [Gallicchio et al 2023][research_gallicchio_spinelli_2023]
 - [Gallois et al 2024][research_gallois_giannopoulos_2024]
 - [Galos 2020][research_galos_2020]
 - [Gamal et al 2018][research_gamal_matusiewicz_2018]
@@ -13644,7 +12837,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ganesan and Kadoli 2003][research_ganesan_kadoli_2003]
 - [Gangadhar and Kumar 2016][research_gangadhar_kumar_2016]
 - [Gangadharan and Kirk 2017][research_gangadharan_kirk_2017]
-- [Gangavarapu and Makineni 2025][research_gangavarapu_makineni_2025]
 - [Gans 2017][research_gans_2017]
 - [Gao 1996][research_gao_1996]
 - [Gao 2003][research_gao_2003]
@@ -13655,7 +12847,6 @@ This series has now met a designation marking an absence of demand in the
 - [Gao et al 2015][research_gao_wei_2015]
 - [Gao et al 2015][research_gao_wu_2015]
 - [Gao et al 2021][research_gao_gou_2021]
-- [Gao et al 2021][research_gao_jezequel_2021]
 - [Gao et al 2022][research_gao_han_2022]
 - [Gao et al 2023][research_gao_heng_2023]
 - [Gao et al 2023][research_gao_xu_2023]
@@ -13666,7 +12857,6 @@ This series has now met a designation marking an absence of demand in the
 - [Gao et al 2026][research_gao_guo_2026]
 - [Gao et al 2026][research_gao_wen_2026]
 - [Garbeff et al 2019][research_garbeff_baerny_2019]
-- [Garbeff et al 2019][research_garbeff_baerny_2019_b]
 - [Garbo et al 2024][research_garbo_parekh_2024]
 - [Garbolevsky 2003][research_garbolevsky_2003]
 - [Garbos, Raymond J. and Mouyos, William 1998][research_garbosraymondj_mouyoswilliam_1998]
@@ -13680,10 +12870,7 @@ This series has now met a designation marking an absence of demand in the
 - [Gardner 1964][research_gardner_1964]
 - [Gardner, Nathaniel W. et al 2018][research_gardnernathanielw_hilburgermarkw_2018]
 - [Garg et al 2026][research_garg_neves_2026]
-- [Garner et al 1999][research_garner_braun_1999]
 - [Garnier et al 2002][research_garnier_dupuis_2002]
-- [Garry 1981][research_garry_1981]
-- [Garry 1996][research_garry_1996]
 - [Gates and Cochran 1961][research_gates_cochran_1961]
 - [Gates and Herring 2001][research_gates_herring_2001]
 - [Gates et al 2004][research_gates_grenoble_2004]
@@ -13711,7 +12898,6 @@ This series has now met a designation marking an absence of demand in the
 - [Geier and Zimmermann 1994][research_geier_zimmermann_1994]
 - [Gellatly and Gallagher 1964][research_gellatly_gallagher_1964]
 - [Gellin 1979][research_gellin_1979]
-- [Genau 1966][research_genau_1966]
 - [Gendron and Newman 1994][research_gendron_newman_1994]
 - [General Dynamics Corp San Diego Ca 1992][research_generaldynamicscorpsandiegoca_1992]
 - [General Electric Co Cincinnati Oh 1962][research_generalelectriccocincinnatioh_1962]
@@ -13739,7 +12925,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ghayour et al 2020][research_ghayour_hojjati_2020]
 - [Ghayour et al 2021][research_ghayour_hojjati_2021]
 - [Ghayour et al 2023][research_ghayour_ganesan_2023]
-- [Ghazali and Willhite 1985][research_ghazali_willhite_1985]
 - [Ghiglino and Lappas 2015][research_ghiglino_lappas_2015]
 - [Ghorai 1968][research_ghorai_1968]
 - [Ghorbani and Assempour 2002][research_ghorbani_assempour_2002]
@@ -13759,7 +12944,6 @@ This series has now met a designation marking an absence of demand in the
 - [Giel, Jr. and Mueller 1975][research_gieljr_mueller_1975]
 - [Gielda et al 2016][research_gielda_lee_2016]
 - [Gieras and Gorgeri 2021][research_gieras_gorgeri_2021]
-- [Gil and Poletto 2001][research_gil_poletto_2001]
 - [Gilat and Aboudi 1994][research_gilat_aboudi_1994]
 - [Gilbert 1983][research_gilbert_1983]
 - [Gillig 1959][research_gillig_1959]
@@ -13787,7 +12971,6 @@ This series has now met a designation marking an absence of demand in the
 - [Gliszczynski et al 2026][research_gliszczynski_franzoni_2026]
 - [Glizde and Urbaha 2019][research_glizde_urbaha_2019]
 - [Glizde and Urbaha 2020][research_glizde_urbaha_2020]
-- [Glišić et al 2021][research_glisic_veluri_2021]
 - [Glogowski et al 2023][research_glogowski_wozniak_2023]
 - [Glynn, J. L. and Poucher, D. E. 1988][research_glynnjl_poucherde_1988]
 - [Glynn, J. L. and Poucher, D. E. 1988][research_glynnjl_poucherde_1988_b]
@@ -13804,17 +12987,13 @@ This series has now met a designation marking an absence of demand in the
 - [Gohardani 2017][research_gohardani_2017]
 - [Gojié and Kosec 1997][research_gojie_kosec_1997]
 - [Gokcen, Tahir and Skokova, Kristina A. 2017][research_gokcentahir_skokovakristinaa_2017]
-- [Gold 1974][research_gold_1974]
 - [Goldberg 1961][research_goldberg_1961]
 - [Goldberg and Scala 1965][research_goldberg_scala_1965]
-- [Goldberg et al 1987][research_goldberg_chinn_1987]
-- [Goldman et al 1977][research_goldman_best_1977]
 - [Goldmanis and Riekstinsh 1994][research_goldmanis_riekstinsh_1994]
 - [Golinveaux et al 2022][research_golinveaux_patel_2022]
 - [Golliard and Mihaescu 2023][research_golliard_mihaescu_2023]
 - [Golliard and Mihaescu 2024][research_golliard_mihaescu_2024]
 - [Golliard and Mihaescu 2024][research_golliard_mihaescu_2024_b]
-- [Golliard and Mihaescu 2024][research_golliard_mihaescu_2024_c]
 - [Golliard and Mihaescu 2024][research_golliard_mihaescu_2024_d]
 - [Golliard and Mihaescu 2025][research_golliard_mihaescu_2025]
 - [Golliard and Mihaescu 2025][research_golliard_mihaescu_2025_b]
@@ -13826,7 +13005,6 @@ This series has now met a designation marking an absence of demand in the
 - [Golubkin and Negoda 1995][research_golubkin_negoda_1995]
 - [Gomez Fernandez 2024][research_gomezfernandez_2024]
 - [Gomez-Delrio and Kwok 2020][research_gomezdelrio_kwok_2020]
-- [Gomez-Moreno 1998][research_gomezmoreno_1998]
 - [Gomez-Vega et al 2025][research_gomezvega_prashanth_2025]
 - [Gomez-Vega et al 2025][research_gomezvega_tan_2025]
 - [Gomez-Vega et al 2026][research_gomezvega_tan_2026]
@@ -13848,7 +13026,6 @@ This series has now met a designation marking an absence of demand in the
 - [Gonçalves et al 2024][research_goncalves_arteiro_2024]
 - [Good 1975][research_good_1975]
 - [Goodman 1950][research_goodman_1950]
-- [Goodman 1971][research_goodman_1971]
 - [Goodyer and Kilgore 1972][research_goodyer_kilgore_1972]
 - [Gopal et al 2000][research_gopal_adali_2000]
 - [Goracke et al 1997][research_goracke_levack_1997]
@@ -13929,13 +13106,11 @@ This series has now met a designation marking an absence of demand in the
 - [Grenoble et al 2019][research_grenoble_harik_2019]
 - [Grenoble, Ray W. and Gates, Thomas S 2005][research_grenoblerayw_gatesthomass_2005]
 - [Greshnyakov 2016][research_greshnyakov_2016]
-- [Gresnigt et al 2021][research_gresnigt_sugii_2021]
 - [Greszczuk and Miller 1970][research_greszczuk_miller_1970]
 - [Griffin et al 2022][research_griffin_takahashi_2022]
 - [Griffith 1993][research_griffith_1993]
 - [Griffith et al 2025][research_griffith_wang_2025]
 - [Grigoriev and Proskuryakov 2024][research_grigoriev_proskuryakov_2024]
-- [Grimes 1986][research_grimes_1986]
 - [Grimm 1992][research_grimm_1992]
 - [Grimsley et al 2023][research_grimsley_dolph_2023]
 - [Grimsley, Brian W. et al 2001][research_grimsleybrianw_canorobertoj_2001]
@@ -13949,8 +13124,6 @@ This series has now met a designation marking an absence of demand in the
 - [Grogan et al 2015][research_grogan_obradaigh_2015]
 - [Grogan et al 2015][research_grogan_obradaigh_2015_b]
 - [Groh and Pirrera 2019][research_groh_pirrera_2019]
-- [Gross 1967][research_gross_1967]
-- [Gross 1971][research_gross_1971]
 - [Grossbeck and Odom 1998][research_grossbeck_odom_1998]
 - [Grosset et al 2002][research_grosset_venkataraman_2002]
 - [Grosset et al 2004][research_grosset_leriche_2004]
@@ -13973,11 +13146,9 @@ This series has now met a designation marking an absence of demand in the
 - [Gu and Chattopadhyay 1995][research_gu_chattopadhyay_1995]
 - [Gu et al 2017][research_gu_wettermark_2017]
 - [Gu et al 2026][research_gu_chen_2026]
-- [Gu et al 2026][research_gu_han_2026]
 - [Gu et al 2026][research_gu_tan_2026]
 - [Gu et al 2026][research_gu_wu_2026]
 - [Guadagnini et al 2023][research_guadagnini_dezaiacomo_2023]
-- [Guan et al 2015][research_guan_deng_2015]
 - [Guan et al 2024][research_guan_chen_2024]
 - [Guan et al 2024][research_guan_chi_2024]
 - [Guang-Yuan et al 1984][research_guangyuan_zhengyuan_1984]
@@ -14001,16 +13172,12 @@ This series has now met a designation marking an absence of demand in the
 - [Gulczyński et al 2024][research_gulczynski_hahn_2024]
 - [Gulli and Maddalena 2015][research_gulli_maddalena_2015]
 - [Gulliver et al 2017][research_gulliver_lemon_2017]
-- [Gulzar et al 2024][research_gulzar_urrehman_2024]
 - [Gummadidala et al 2025][research_gummadidala_krishna_2025]
-- [Gunaware 2025][research_gunaware_2025]
 - [Gunkel and Moran 1995][research_gunkel_moran_1995]
 - [Gunnink 1988][research_gunnink_1988]
 - [Guo and Dai 2025][research_guo_dai_2025]
 - [Guo and Ruess 2015][research_guo_ruess_2015]
-- [Guo et al 2016][research_guo_fu_2016]
 - [Guo et al 2016][research_guo_zhang_2016]
-- [Guo et al 2019][research_guo_li_2019]
 - [Guo et al 2019][research_guo_saida_2019]
 - [Guo et al 2019][research_guo_shen_2019]
 - [Guo et al 2019][research_guo_wang_2019]
@@ -14025,7 +13192,6 @@ This series has now met a designation marking an absence of demand in the
 - [Guo et al 2026][research_guo_wang_2026]
 - [Guo et al 2026][research_guo_xie_2026]
 - [Guoliang and Guiqing 2004][research_guoliang_guiqing_2004]
-- [Guoming 2021][research_guoming_2021]
 - [Gupta and Ghosh 2017][research_gupta_ghosh_2017]
 - [Gupta and Hall 1977][research_gupta_hall_1977]
 - [Gupta and Kundu 2026][research_gupta_kundu_2026]
@@ -14039,7 +13205,6 @@ This series has now met a designation marking an absence of demand in the
 - [Gutkowski and Bauer 1999][research_gutkowski_bauer_1999]
 - [Guvvaala et al 2023][research_guvvaala_cheetham_2023]
 - [Gyftos et al 2026][research_gyftos_sioutis_2026]
-- [Gómez-Carnota et al 2023][research_gomezcarnota_barriada_2023]
 - [Gülgönül and Sözbir 2018][research_gulgonul_sozbir_2018]
 - [Gülhan et al 2001][research_gulhan_esser_2001]
 - [Günther et al 2026][research_gunther_yang_2026]
@@ -14053,7 +13218,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ha et al 2024][research_ha_noh_2024]
 - [Haas, Brian L. et al 1994][research_haasbrianl_milosfranks_1994]
 - [Haas, D. W. and Gerler, V. M. 1972][research_haasdw_gerlervm_1972]
-- [Habibnejad Korayem et al 2021][research_habibnejadkorayem_khajepour_2021]
 - [Hader and Fasel 2021][research_hader_fasel_2021]
 - [Hader and Fasel 2024][research_hader_fasel_2024]
 - [Hader et al 2020][research_hader_leinemann_2020]
@@ -14076,7 +13240,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hagopian 1996][research_hagopian_1996]
 - [Hagopian 1996][research_hagopian_1996_b]
 - [Hagopian 2002][research_hagopian_2002]
-- [Hahm and Burrell 1996][research_hahm_burrell_1996]
 - [Hahn and Kim 1976][research_hahn_kim_1976]
 - [Hahn et al 1970][research_hahn_rosenfield_1970]
 - [Hahn et al 1992][research_hahn_kiusalaas_1992]
@@ -14084,14 +13247,11 @@ This series has now met a designation marking an absence of demand in the
 - [Haif et al 2023][research_haif_kbab_2023]
 - [Hajikazemi and Van Paepegem 2018][research_hajikazemi_vanpaepegem_2018]
 - [Hajlaoui et al 2016][research_hajlaoui_wali_2016]
-- [Hakim 2025][research_hakim_2025]
-- [Hakobyan et al 2024][research_hakobyan_singh_2024]
 - [Halbritter et al 2019][research_halbritter_harik_2019]
 - [Hald 2003][research_hald_2003]
 - [Hald and Thyregod 1965][research_hald_thyregod_1965]
 - [Hale, Joseph P. 1997][research_halejosephp_1997]
 - [Halgren et al 1955][research_halgren_huang_1955]
-- [Halinka et al 2015][research_halinka_rzepka_2015]
 - [Hall 1979][research_hall_1979]
 - [Hall 1996][research_hall_1996]
 - [Hall and Mudawar 1994][research_hall_mudawar_1994]
@@ -14118,7 +13278,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hamilton, T. 1972][research_hamiltont_1972]
 - [Hamling and Lin 1994][research_hamling_lin_1994]
 - [Hamlyn et al 1986][research_hamlyn_john_1986]
-- [Hammitt 1972][research_hammitt_1972]
 - [Hammond 1981][research_hammond_1981]
 - [Hammond, M. B., Jr. 1966][research_hammondmbjr_1966]
 - [Hamori et al 2020][research_hamori_kumazawa_2020]
@@ -14137,8 +13296,6 @@ This series has now met a designation marking an absence of demand in the
 - [Han et al 2024][research_han_yuan_2024]
 - [Hanagud 2021][research_hanagud_2021]
 - [Hanagud and Smith, Jr. 1986][research_hanagud_smithjr_1986]
-- [Hanamoto 1975][research_hanamoto_1975]
-- [Hanamoto et al 1963][research_hanamoto_liston_1963]
 - [Haney 1997][research_haney_1997]
 - [Hanford 1969][research_hanford_1969]
 - [Hank et al 2022][research_hank_lee_2022]
@@ -14147,8 +13304,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hanna and Stephens 1991][research_hanna_stephens_1991]
 - [Hannah and Muessig 1970][research_hannah_muessig_1970]
 - [Hannigan 1965][research_hannigan_1965]
-- [Hansen and Dann 2006][research_hansen_dann_2006]
-- [Hansen et al 2007][research_hansen_howington_2007]
 - [Hansen et al 2015][research_hansen_fetty_2015]
 - [Hansen, C. F. 1982][research_hansencf_1982]
 - [Hantos 2008][research_hantos_2008]
@@ -14162,7 +13317,6 @@ This series has now met a designation marking an absence of demand in the
 - [Haqq 2020][research_haqq_2020]
 - [Hara 2020][research_hara_2020]
 - [Hara et al 2024][research_hara_mamashita_2024]
-- [Haraguchi et al 2022][research_haraguchi_sakaguchi_2022]
 - [Hardenbergh and Edmonson 1960][research_hardenbergh_edmonson_1960]
 - [Hardgrove and Krieg, Jr. 1984][research_hardgrove_kriegjr_1984]
 - [Hardie and Liu 1996][research_hardie_liu_1996]
@@ -14177,7 +13331,6 @@ This series has now met a designation marking an absence of demand in the
 - [Harikrishnan and Lokavarapu 2021][research_harikrishnan_lokavarapu_2021]
 - [Harikumar and C. R. 2025][research_harikumar_cr_2025]
 - [Harikumar and C. R. 2025][research_harikumar_cr_2025_b]
-- [Hariri-Ardebili et al 2024][research_haririardebili_segura_2024]
 - [Harloff 1987][research_harloff_1987]
 - [Harman et al 2017][research_harman_rajic_2017]
 - [Harmon and Dieterich 1991][research_harmon_dieterich_1991]
@@ -14186,18 +13339,15 @@ This series has now met a designation marking an absence of demand in the
 - [Harper and Weitsman 1981][research_harper_weitsman_1981]
 - [Harpold, J. C. 1980][research_harpoldjc_1980]
 - [Harpold, J. C. and Gavert, D. E. 1982][research_harpoldjc_gavertde_1982]
-- [Harrington 2005][research_harrington_2005]
 - [Harris and Clatworthy 1986][research_harris_clatworthy_1986]
 - [Harris and Crisman 1965][research_harris_crisman_1965]
 - [Harris and Crisman 1966][research_harris_crisman_1966]
 - [Harris and Nordby 1969][research_harris_nordby_1969]
 - [Harris et al 1980][research_harris_hall_1980]
 - [Harris et al 2022][research_harris_cox_2022]
-- [Harris et al 2022][research_harris_cox_2022_b]
 - [Harris et al 2022][research_harris_ledford_2022]
 - [Harris, C. D. and Luoma, A. A. 1967][research_harriscd_luomaaa_1967]
 - [Harris, Charles E. et al 2003][research_harrischarlese_starnesjameshjr_2003]
-- [Harrison 1997][research_harrison_1997]
 - [Harroun et al 2019][research_harroun_heister_2019]
 - [Harroun et al 2020][research_harroun_heister_2020]
 - [Harroun et al 2021][research_harroun_heister_2021]
@@ -14236,7 +13386,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hayner et al 2025][research_hayner_pavlasek_2025]
 - [Haynes and Valdez 1960][research_haynes_valdez_1960]
 - [Hays et al 2022][research_hays_dsouza_2022]
-- [He and Liu 2025][research_he_liu_2025]
 - [He and Yin 2026][research_he_yin_2026]
 - [He et al 2001][research_he_chiang_2001]
 - [He et al 2015][research_he_lei_2015]
@@ -14244,7 +13393,6 @@ This series has now met a designation marking an absence of demand in the
 - [He et al 2016][research_he_yu_2016]
 - [He et al 2017][research_he_zhang_2017]
 - [He et al 2018][research_he_li_2018]
-- [He et al 2019][research_he_wang_2019]
 - [He et al 2020][research_he_yang_2020]
 - [He et al 2021][research_he_chen_2021]
 - [He et al 2021][research_he_dai_2021]
@@ -14308,7 +13456,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hernandez et al 2020][research_hernandez_rodriguezsegade_2020]
 - [Herrera and Seifert 2024][research_herrera_seifert_2024]
 - [Herrera et al 2023][research_herrera_niederhofer_2023]
-- [Herrmann et al 2019][research_herrmann_schwab_2019]
 - [Herrmann et al 2025][research_herrmann_cox_2025]
 - [Hertzberg 1986][research_hertzberg_1986]
 - [Hertzfeld 2000][research_hertzfeld_2000]
@@ -14329,7 +13476,6 @@ This series has now met a designation marking an absence of demand in the
 - [Higashimura et al 1983][research_higashimura_masuda_1983]
 - [Higby et al 1989][research_higby_askins_1989]
 - [Higdon and Landrum 2003][research_higdon_landrum_2003]
-- [High product recovery using vortex-nozzle centrifuge 1997][research_high_product_1997]
 - [High temperature design data for ferritic pressure vessel steels 1984][research_high_temperature_1984]
 - [Higuchi et al 2020][research_higuchi_aoki_2020]
 - [Hilado 1979][research_hilado_1979]
@@ -14360,7 +13506,6 @@ This series has now met a designation marking an absence of demand in the
 - [Himeno et al 2001][research_himeno_watanabe_2001]
 - [Hinckel 1995][research_hinckel_1995]
 - [Hiraiwa et al 1995][research_hiraiwa_tomioka_1995]
-- [Hitchcock 1939][research_hitchcock_1939]
 - [Hiyama 1974][research_hiyama_1974]
 - [Ho and de Croon 2016][research_ho_decroon_2016]
 - [Ho et al 1993][research_ho_logan_1993]
@@ -14407,7 +13552,6 @@ This series has now met a designation marking an absence of demand in the
 - [Honeycutt 1970][research_honeycutt_1970]
 - [Hong and Ahn 2015][research_hong_ahn_2015]
 - [Hong and Jeong 1985][research_hong_jeong_1985]
-- [Hong et al 2004][research_hong_vlahopoulos_2004]
 - [Hong et al 2015][research_hong_kim_2015]
 - [Hong et al 2016][research_hong_song_2016]
 - [Hongbo and Yongyuan 2016][research_hongbo_yongyuan_2016]
@@ -14503,7 +13647,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hu et al 2025][research_hu_li_2025]
 - [Hu et al 2025][research_hu_wang_2025]
 - [Hu et al 2026][research_hu_zong_2026]
-- [Hua et al 2021][research_hua_bao_2021]
 - [Huang 1963][research_huang_1963]
 - [Huang 1974][research_huang_1974]
 - [Huang 1974][research_huang_1974_b]
@@ -14527,7 +13670,6 @@ This series has now met a designation marking an absence of demand in the
 - [Huang et al 2015][research_huang_zhang_2015]
 - [Huang et al 2015][research_huang_zhao_2015]
 - [Huang et al 2019][research_huang_yao_2019_b]
-- [Huang et al 2021][research_huang_huang_2021]
 - [Huang et al 2022][research_huang_long_2022]
 - [Huang et al 2023][research_huang_fey_2023]
 - [Huang et al 2023][research_huang_zhou_2023]
@@ -14573,7 +13715,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hunt, James L. 1995][research_huntjamesl_1995]
 - [Huo and Yang 2017][research_huo_yang_2017]
 - [Huo et al 2026][research_huo_ding_2026]
-- [Hurlich 1945][research_hurlich_1945]
 - [Hurwitz, F. I. 1985][research_hurwitzfi_1985]
 - [Husby 2025][research_husby_2025]
 - [Husby et al 2023][research_husby_kulbotten_2023]
@@ -14601,7 +13742,6 @@ This series has now met a designation marking an absence of demand in the
 - [Hwang and Chou 1997][research_hwang_chou_1997]
 - [Hwang and Huh 2016][research_hwang_huh_2016]
 - [Hwang and Liu 2001][research_hwang_liu_2001]
-- [Hwang and Savacool 2009][research_hwang_savacool_2009]
 - [Hwang et al 2024][research_hwang_woo_2024]
 - [Hyatt 1969][research_hyatt_1969]
 - [Hybrid composite laminate structures 1978][research_hybrid_composite_1978]
@@ -14611,18 +13751,15 @@ This series has now met a designation marking an absence of demand in the
 - [Hyer et al 1986][research_hyer_cooper_1986]
 - [Hypersonic Materials for Thermal Protection 2023][research_hypersonic_materials_2023]
 - [Hyun et al 1988][research_hyun_senoo_1988]
-- [Hála et al 2023][research_hala_kheml_2023]
 - [Hübner et al 2022][research_hubner_hoffmann_2022]
 - [Iacoviello et al 2019][research_iacoviello_cocco_2019]
 - [Icardi 1994][research_icardi_1994]
 - [Idarraga et al 2021][research_idarraga_jalalvand_2021]
 - [Iddings 1988][research_iddings_1988]
 - [Ide et al 1989][research_ide_armstrong_1989]
-- [Identifying stochastic model parameter non-stationarity over multi-centennial timescales 2023][research_identifying_stochastic_2023]
 - [Idriss and El Mahi 2016][research_idriss_elmahi_2016]
 - [Idriss and El Mahi 2018][research_idriss_elmahi_2018]
 - [Idriss et al 2015][research_idriss_elmahi_2015]
-- [IEE to launch electric-vehicle journal 1979][research_iee_to_1979]
 - [Ifayefunmi and Błachut 2018][research_ifayefunmi_blachut_2018]
 - [Ifayefunmi and Ismail 2020][research_ifayefunmi_ismail_2020]
 - [Ifenna Okoli et al 2021][research_ifennaokoli_samuelsholiyi_2021]
@@ -14641,7 +13778,6 @@ This series has now met a designation marking an absence of demand in the
 - [Improve Manufacturing Quality with Digital Twin Technology 2025][research_improve_manufacturing_2025]
 - [Improving thermal protection of spacecraft 2001][research_improving_thermal_2001]
 - [In-chamber vacuum gauge calibration method and its application to cryopumping measurements 1967][research_in_chamber_vacuum_1967]
-- [In-Vehicle Speech Text Classification based on Multiple Machine Learning Algorithms 2020][research_in_vehicle_speech_2020]
 - [Inatomi et al 2019][research_inatomi_kitamura_2019]
 - [India to launch prototype of reusable launch vehicle 2015][research_india_to_2015]
 - [INFLUENCE OF THE CHOICE OF THE DESIGN PARAMETERS ON THE ROCKET ENGINE CHAMBER EFFICIENCY 2024][research_influence_of_the_2024]
@@ -14664,13 +13800,11 @@ This series has now met a designation marking an absence of demand in the
 - [Investigation into the flammability properties of honeycomb composites 1994][research_investigation_into_1994]
 - [Iorio et al 2023][research_iorio_quadrini_2023]
 - [Iqbal and Akbar 2026][research_iqbal_akbar_2026]
-- [Iqbal and Mahar 2022][research_iqbal_mahar_2022]
 - [Ireland and Gonzales 2020][research_ireland_gonzales_2020]
 - [Irven et al 2023][research_irven_carolan_2023]
 - [Irvine 1968][research_irvine_1968]
 - [Isaacs et al 2025][research_isaacs_trotsky_2025]
 - [Isaji et al 2018][research_isaji_maynard_2018]
-- [Isdahl and Shamshiri 2024][research_isdahl_shamshiri_2024]
 - [Ishai and Mazor 1975][research_ishai_mazor_1975]
 - [Ishii 1985][research_ishii_1985]
 - [Ishikawa and Tsuya 1977][research_ishikawa_tsuya_1977]
@@ -14699,11 +13833,9 @@ This series has now met a designation marking an absence of demand in the
 - [Ivanco et al 2021][research_ivanco_keller_2021]
 - [Ivaschenko et al 1972][research_ivaschenko_krotov_1972]
 - [Ivashov et al 2015][research_ivashov_razevig_2015]
-- [Iverson 1988][research_iverson_1988]
 - [Iwadate et al 1994][research_iwadate_tanaka_1994]
 - [Iwata 2024][research_iwata_2024]
 - [Izzawati et al 2015][research_izzawati_afendi_2015]
-- [İncekara and Haykır Hobikoğlu 2015][research_incekara_haykirhobikoglu_2015]
 - [J et al 2022][research_j_chaurasia_2022]
 - [J et al 2025][research_j_kartheekeyan_2025]
 - [J Muylaert et al 1998][research_jmuylaert_lwalpot_1998]
@@ -14727,14 +13859,12 @@ This series has now met a designation marking an absence of demand in the
 - [Jagadish et al 2021][research_jagadish_sivaramakrishna_2021]
 - [Jaggers 1977][research_jaggers_1977]
 - [Jagtap et al 2024][research_jagtap_childs_2024]
-- [Jahanbin and Chahooki 2023][research_jahanbin_chahooki_2023]
 - [Jahanian 1994][research_jahanian_1994]
 - [Jain and J 2022][research_jain_j_2022]
 - [Jain and Kumar 2022][research_jain_kumar_2022]
 - [Jaiswal et al 2017][research_jaiswal_hirulkar_2017]
 - [Jakeman 2024][research_jakeman_2024]
 - [Jakubczak 2021][research_jakubczak_2021]
-- [Jakubowski and Fiołek 2022][research_jakubowski_fiolek_2022]
 - [Jamalabdollahi and Zekavat 2015][research_jamalabdollahi_zekavat_2015]
 - [Jambunathan and Levin 2016][research_jambunathan_levin_2016]
 - [James E Fesmire 2017][research_jamesefesmire_2017]
@@ -14757,14 +13887,10 @@ This series has now met a designation marking an absence of demand in the
 - [Jansch et al 1991][research_jansch_schnepper_1991]
 - [Jansen and Rahman 2022][research_jansen_rahman_2022]
 - [Jansson and Harris 2023][research_jansson_harris_2023]
-- [Jarosik and Lewandowski 2019][research_jarosik_lewandowski_2019]
-- [Jarvinen 2016][research_jarvinen_2016]
-- [Jarvis 1979][research_jarvis_1979]
 - [Jaske and Leis 1979][research_jaske_leis_1979]
 - [Jaske and O’Donnell 1977][research_jaske_odonnell_1977]
 - [Jasri et al 2015][research_jasri_afendi_2015]
 - [Jaunky and Knight Jr 1999][research_jaunky_knightjr_1999]
-- [Javadi et al 2019][research_javadi_dahl_2019]
 - [Jawad et al 2019][research_jawad_wang_2019]
 - [Jayanthi and Jain 2019][research_jayanthi_jain_2019]
 - [Jayaprakash et al 2022][research_jayaprakash_dhinarakaran_2022]
@@ -14772,12 +13898,10 @@ This series has now met a designation marking an absence of demand in the
 - [Jayaraman et al 2022][research_jayaraman_pandey_2022]
 - [Jayasree et al 2020][research_jayasree_omairey_2020]
 - [Jegley 1987][research_jegley_1987]
-- [Jellinek and Krissinel 1997][research_jellinek_krissinel_1997]
 - [Jen et al 1994][research_jen_kau_1994]
 - [Jenie et al 2018][research_jenie_asyary_2018]
 - [Jenke 1979][research_jenke_1979]
 - [Jenkins et al 2000][research_jenkins_fitzgerald_2000]
-- [Jennings et al 1981][research_jennings_carroll_1981]
 - [Jeon et al 2023][research_jeon_kim_2023]
 - [Jeon et al 2024][research_jeon_jeong_2024]
 - [Jeon et al 2025][research_jeon_kim_2025]
@@ -14785,7 +13909,6 @@ This series has now met a designation marking an absence of demand in the
 - [Jeong et al 2019][research_jeong_jeong_2019]
 - [Jeong et al 2023][research_jeong_lee_2023]
 - [Jeong et al 2026][research_jeong_cho_2026]
-- [Jeong et al 2026][research_jeong_cho_2026_b]
 - [Jere et al 2025][research_jere_faik_2025]
 - [Jernell, L. S. 1971][research_jernellls_1971]
 - [Jetevator for rocket engine 1998][research_jetevator_for_1998]
@@ -14798,13 +13921,11 @@ This series has now met a designation marking an absence of demand in the
 - [Ji et al 1998][research_ji_dharani_1998]
 - [Ji et al 2016][research_ji_zhang_2016]
 - [Ji et al 2021][research_ji_jia_2021]
-- [Ji et al 2022][research_ji_yan_2022]
 - [Ji et al 2025][research_ji_dong_2025]
 - [Jia et al 2020][research_jia_fu_2020]
 - [Jia et al 2021][research_jia_chen_2021]
 - [Jia et al 2021][research_jia_gong_2021]
 - [Jia et al 2025][research_jia_liu_2025]
-- [Jian and Yihan 2025][research_jian_yihan_2025]
 - [Jiandong et al 2020][research_jiandong_qiang_2020]
 - [Jiang et al 2015][research_jiang_tu_2015]
 - [Jiang et al 2018][research_jiang_li_2018]
@@ -14818,13 +13939,11 @@ This series has now met a designation marking an absence of demand in the
 - [Jiang et al 2021][research_jiang_sun_2021]
 - [Jiang et al 2022][research_jiang_nan_2022]
 - [Jiang et al 2022][research_jiang_zuo_2022]
-- [Jiang et al 2023][research_jiang_lv_2023]
 - [Jiang et al 2023][research_jiang_tian_2023]
 - [Jiang et al 2023][research_jiang_yang_2023]
 - [Jiang et al 2023][research_jiang_yu_2023]
 - [Jiang et al 2024][research_jiang_dong_2024]
 - [Jiang et al 2024][research_jiang_xing_2024]
-- [Jiang et al 2025][research_jiang_huangfu_2025]
 - [Jiang et al 2025][research_jiang_zhang_2025]
 - [Jianguo et al 2016][research_jianguo_guoqing_2016]
 - [Jianguo et al 2019][research_jianguo_shengjiang_2019]
@@ -14833,7 +13952,6 @@ This series has now met a designation marking an absence of demand in the
 - [Jiao et al 2023][research_jiao_chen_2023]
 - [Jiao et al 2025][research_jiao_xu_2025]
 - [Jiawei 2024][research_jiawei_2024]
-- [Jilek et al 2019][research_jilek_sefcik_2019]
 - [Jiménez et al 2017][research_jimenez_marthelot_2017]
 - [Jin and Batra 1999][research_jin_batra_1999]
 - [Jin and Mai 1997][research_jin_mai_1997]
@@ -14889,10 +14007,7 @@ This series has now met a designation marking an absence of demand in the
 - [Johnson, Theodore F. et al 1998][research_johnsontheodoref_natividadroderick_1998]
 - [Johnson, Theodore F. et al 2005][research_johnsontheodoref_natividadroderick_2005]
 - [Johnson, Wesley L. et al 2014][research_johnsonwesleyl_valenzuelajuang_2014]
-- [Johnston et al 1977][research_johnston_kalal_1977]
 - [Johnston et al 2026][research_johnston_bitter_2026]
-- [Jokubaitis 1971][research_jokubaitis_1971]
-- [Jokubyniene and Liebuviene 2023][research_jokubyniene_liebuviene_2023]
 - [Jon S Pyle and Lawrence G Ash 1970][research_jonspyle_lawrencegash_1970]
 - [Jones 1967][research_jones_1967]
 - [Jones 1973][research_jones_1973]
@@ -14907,7 +14022,6 @@ This series has now met a designation marking an absence of demand in the
 - [Jones and Cesnik 2023][research_jones_cesnik_2023]
 - [Jones and Hennemann 1978][research_jones_hennemann_1978]
 - [Jones and Morgan 1974][research_jones_morgan_1974]
-- [Jones and Placzankis 2016][research_jones_placzankis_2016]
 - [Jones and Rembert F. 1973][research_jones_rembertf_1973]
 - [Jones and Shukla 2002][research_jones_shukla_2002]
 - [Jones and Shukla 2003][research_jones_shukla_2003]
@@ -14948,7 +14062,6 @@ This series has now met a designation marking an absence of demand in the
 - [Juarez et al 2019][research_juarez_gregory_2019]
 - [Jugade 2023][research_jugade_2023]
 - [Juliyana and Santhana Krishnan 2019][research_juliyana_santhanakrishnan_2019]
-- [Julyk 1994][research_julyk_1994]
 - [Jumel 2001][research_jumel_2001]
 - [Jun and Hong 1988][research_jun_hong_1988]
 - [Jun and Seo 2026][research_jun_seo_2026]
@@ -14965,7 +14078,6 @@ This series has now met a designation marking an absence of demand in the
 - [Justin et al 2019][research_justin_gangloff_2019]
 - [Justus et al 2018][research_justus_p_2018]
 - [Jutty K et al 2000][research_juttyk_bhat_2000]
-- [K and Muthukumaravel 2025][research_k_muthukumaravel_2025]
 - [K. C. and Ghosh 2025][research_kc_ghosh_2025]
 - [K. R. et al 2025][research_kr_goel_2025]
 - [Kabashima and Ozaki 2000][research_kabashima_ozaki_2000]
@@ -14997,7 +14109,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kalyagin et al 2023][research_kalyagin_safronov_2023]
 - [Kam and Gage 2004][research_kam_gage_2004]
 - [Kamat 2025][research_kamat_2025]
-- [Kamath 1995][research_kamath_1995]
 - [Kamaya 2021][research_kamaya_2021]
 - [Kamble et al 2024][research_kamble_raykar_2024]
 - [Kamdar 1977][research_kamdar_1977]
@@ -15014,7 +14125,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kaneda 2023][research_kaneda_2023]
 - [Kaneda et al 2017][research_kaneda_nakagawa_2017]
 - [Kang and Lee 2024][research_kang_lee_2024]
-- [Kang and Park 2024][research_kang_park_2024]
 - [Kang and Young 2015][research_kang_young_2015]
 - [Kang and Yu 2022][research_kang_yu_2022]
 - [Kang et al 2022][research_kang_yun_2022]
@@ -15026,7 +14136,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kang et al 2025][research_kang_lu_2025]
 - [Kangal et al 2019][research_kangal_kartav_2019]
 - [Kangwanpongpan et al 2024][research_kangwanpongpan_makarov_2024]
-- [Kaniewski 2026][research_kaniewski_2026]
 - [Kannan and Katte 2018][research_kannan_katte_2018]
 - [Kannappan and Saunders 1988][research_kannappan_saunders_1988]
 - [Kanso et al 2022][research_kanso_jha_2022]
@@ -15053,10 +14162,8 @@ This series has now met a designation marking an absence of demand in the
 - [Karkkainen and Sankar 2006][research_karkkainen_sankar_2006]
 - [Karlsson 1999][research_karlsson_1999]
 - [Karnesky et al 2017][research_karnesky_chao_2017]
-- [Karpov et al 1955][research_karpov_skegas_1955]
 - [Karr, Katherine L. et al 2003][research_karrkatherinel_poteetcarlc_2003]
 - [Karrech et al 2017][research_karrech_elchalakani_2017]
-- [Kartal 2021][research_kartal_2021]
 - [Kartav et al 2021][research_kartav_kangal_2021]
 - [Kartuzova and Kassemi 2019][research_kartuzova_kassemi_2019]
 - [Kartuzova et al 2023][research_kartuzova_kassemi_2023]
@@ -15064,7 +14171,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kartuzova et al 2026][research_kartuzova_kassemi_2026]
 - [Karuntzos 2015][research_karuntzos_2015]
 - [Karyofyllas et al 2025][research_karyofyllas_giagopoulos_2025]
-- [Kasen 1961][research_kasen_1961]
 - [Kashani 2023][research_kashani_2023]
 - [Kashipazha et al 2024][research_kashipazha_kheirikhah_2024]
 - [Kassapoglou 1988][research_kassapoglou_1988]
@@ -15074,16 +14180,11 @@ This series has now met a designation marking an absence of demand in the
 - [Kassemi et al 2018][research_kassemi_hylton_2018]
 - [Kataoka 2018][research_kataoka_2018]
 - [Katayama et al 1997][research_katayama_yamaguchi_1997]
-- [Kato and Iwamoto 2017][research_kato_iwamoto_2017]
-- [Kato and Niho 2020][research_kato_niho_2020]
-- [Kato et al 2021][research_kato_nakazawa_2021]
 - [Katsuo and Sawa 2004][research_katsuo_sawa_2004]
 - [Katsurayama et al 2003][research_katsurayama_hirooka_2003]
 - [Katsurayama et al 2004][research_katsurayama_hirooka_2004]
 - [Katz 1965][research_katz_1965]
-- [Katz et al 1993][research_katz_martinez_1993]
 - [Kaufman 1970][research_kaufman_1970]
-- [Kaur 2024][research_kaur_2024]
 - [Kaur et al 2016][research_kaur_anandan_2016]
 - [Kavalli et al 2026][research_kavalli_kumar_2026]
 - [Kaveh et al 2025][research_kaveh_razzaghi_2025]
@@ -15102,7 +14203,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kececioglu and Hughes 1963][research_kececioglu_hughes_1963]
 - [Kedong et al 2019][research_kedong_zhou_2019]
 - [Keel 1988][research_keel_1988]
-- [Keenan and Campbell 2005][research_keenan_campbell_2005]
 - [Keener 1974][research_keener_1974]
 - [Keeney and Bass 1995][research_keeney_bass_1995]
 - [Kegley, Jeffrey et al 2005][research_kegleyjeffrey_haightharlan_2005]
@@ -15130,7 +14230,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kennedy et al 2025][research_kennedy_ghafafian_2025_b]
 - [Kenny et al 2025][research_kenny_eddleman_2025]
 - [Kepple et al 2015][research_kepple_herath_2015]
-- [Kerce 1988][research_kerce_1988]
 - [Kerlin et al 1968][research_kerlin_elliott_1968]
 - [Kerlin et al 1969][research_kerlin_elliott_1969]
 - [Kermani et al 2018][research_kermani_simacek_2018]
@@ -15151,14 +14250,11 @@ This series has now met a designation marking an absence of demand in the
 - [Khan and Chakraborty 2023][research_khan_chakraborty_2023]
 - [Khan and Kumar 2024][research_khan_kumar_2024]
 - [Khan et al 2017][research_khan_kausar_2017]
-- [Khandekar et al 2023][research_khandekar_tamhankar_2023]
 - [Khanna et al 1998][research_khanna_he_1998]
-- [Khare et al 2023][research_khare_chaturvedi_2023]
 - [Khare et al 2026][research_khare_coltharp_2026]
 - [Khasim Sharif et al 2020][research_khasimsharif_shikkeri_2020]
 - [Khatouri et al 2026][research_khatouri_sahebsara_2026]
 - [Khdoudi et al 2024][research_khdoudi_masrour_2024]
-- [Khezrimotlagh et al 2026][research_khezrimotlagh_shvartsman_2026]
 - [Khot 1968][research_khot_1968]
 - [Khot 1969][research_khot_1969]
 - [Khot 1970][research_khot_1970]
@@ -15250,7 +14346,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kirshner and Valerdi 2022][research_kirshner_valerdi_2022]
 - [Kiselev et al 1994][research_kiselev_maslov_1994]
 - [Kisioglu et al 2000][research_kisioglu_brevick_2000]
-- [Kitamura et al 1982][research_kitamura_iwakura_1982]
 - [Kitaygorsky 2020][research_kitaygorsky_2020]
 - [Kiter and Chalob 2021][research_kiter_chalob_2021]
 - [Kittel et al 2016][research_kittel_feaugas_2016]
@@ -15302,7 +14397,6 @@ This series has now met a designation marking an absence of demand in the
 - [Koch 1999][research_koch_1999]
 - [Koch 2023][research_koch_2023]
 - [Koch et al 2025][research_koch_wilken_2025]
-- [Kochhar 2021][research_kochhar_2021]
 - [Kochunni and Chowdhury 2020][research_kochunni_chowdhury_2020]
 - [Koeble and Schmid 1993][research_koeble_schmid_1993]
 - [Koelle 1984][research_koelle_1984]
@@ -15331,7 +14425,6 @@ This series has now met a designation marking an absence of demand in the
 - [Komine and Kobayashi 1982][research_komine_kobayashi_1982]
 - [Komkov et al 1975][research_komkov_haug_1975]
 - [Komurasaki and Tabata 2018][research_komurasaki_tabata_2018]
-- [Komurcu et al 2024][research_komurcu_kefal_2024]
 - [Koncul 2021][research_koncul_2021]
 - [Kondratiev 2019][research_kondratiev_2019]
 - [Kondratiuk et al 2016][research_kondratiuk_kovalevskiy_2016]
@@ -15339,7 +14432,6 @@ This series has now met a designation marking an absence of demand in the
 - [Konopka 2018][research_konopka_2018]
 - [Konopka et al 2024][research_konopka_winkert_2024]
 - [Konopka et al 2024][research_konopka_winkert_2024_b]
-- [Konstanciak and Nogała 2024][research_konstanciak_nogala_2024]
 - [Konstantinidis and Förstner 2020][research_konstantinidis_forstner_2020]
 - [Konstantinov and Svotina 2017][research_konstantinov_svotina_2017]
 - [Kontinos 1996][research_kontinos_1996]
@@ -15351,7 +14443,6 @@ This series has now met a designation marking an absence of demand in the
 - [Koord et al 2026][research_koord_kumazawa_2026]
 - [Koppenwallner 2001][research_koppenwallner_2001]
 - [Kornhauser 1982][research_kornhauser_1982]
-- [Kornreich 1992][research_kornreich_1992]
 - [Koros and Paul 1991][research_koros_paul_1991]
 - [Korsberg 1947][research_korsberg_1947]
 - [Korst 1974][research_korst_1974]
@@ -15368,20 +14459,16 @@ This series has now met a designation marking an absence of demand in the
 - [Kosovova and Reitlinger 1967][research_kosovova_reitlinger_1967]
 - [Koss 1994][research_koss_1994]
 - [Kostromin 1999][research_kostromin_1999]
-- [Kosytsyn and Akulich 2019][research_kosytsyn_akulich_2019]
 - [Kotanchik et al 1964][research_kotanchik_witmer_1964]
 - [Kottman et al 2019][research_kottman_douglass_2019]
 - [Koudounas et al 2025][research_koudounas_renuke_2025]
 - [Koulev et al 1990][research_koulev_aswendt_1990]
-- [Kovacs Burns et al 2015][research_kovacsburns_gramlich_2015]
 - [Kovrigin and Vasiliev 2020][research_kovrigin_vasiliev_2020]
-- [Kovscek and Radke 1996][research_kovscek_radke_1996]
 - [Koyagi et al 2021][research_koyagi_tsuru_2021]
 - [Koyama et al 2019][research_koyama_ichii_2019]
 - [Kozedra et al 2021][research_kozedra_matveev_2021]
 - [Kozlov et al 1996][research_kozlov_hinckel_1996]
 - [Kozo et al 2021][research_kozo_hidetoshi_2021]
-- [Kočman et al 2026][research_kocman_planinc_2026]
 - [Kraft 2016][research_kraft_2016]
 - [Kraiko and Tillyayeva 2000][research_kraiko_tillyayeva_2000]
 - [Kralovec and Schagerl 2017][research_kralovec_schagerl_2017]
@@ -15418,8 +14505,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kriz, R. D. and Stinchcomb, W. W. 1982][research_krizrd_stinchcombww_1982]
 - [Kriz, R. D. et al 1980][research_krizrd_stinchcombww_1980]
 - [Krizak et al 2024][research_krizak_scottemuakpor_2024]
-- [Kroeger 1956][research_kroeger_1956]
-- [Kroeger et al 1956][research_kroeger_neou_1956]
 - [Kronberg 2022][research_kronberg_2022]
 - [Krumins 1966][research_krumins_1966]
 - [Krupka 1985][research_krupka_1985]
@@ -15454,7 +14539,6 @@ This series has now met a designation marking an absence of demand in the
 - [Kumar 2002][research_kumar_2002]
 - [Kumar 2024][research_kumar_2024]
 - [Kumar 2025][research_kumar_2025]
-- [Kumar and Anil Kumar 2025][research_kumar_anilkumar_2025]
 - [Kumar and Arularasu 2016][research_kumar_arularasu_2016]
 - [Kumar and Chatterjee 2019][research_kumar_chatterjee_2019]
 - [Kumar and Gururaja 2020][research_kumar_gururaja_2020]
@@ -15464,9 +14548,7 @@ This series has now met a designation marking an absence of demand in the
 - [Kumar and Mahulikar 2017][research_kumar_mahulikar_2017]
 - [Kumar and Patel 2021][research_kumar_patel_2021]
 - [Kumar et al 1999][research_kumar_pradhan_1999]
-- [Kumar et al 2015][research_kumar_ramesh_2015]
 - [Kumar et al 2017][research_kumar_gopalsamy_2017]
-- [Kumar et al 2019][research_kumar_chandrashekar_2019]
 - [Kumar et al 2020][research_kumar_collini_2020]
 - [Kumar et al 2020][research_kumar_kulkarni_2020]
 - [Kumar et al 2020][research_kumar_thomas_2020]
@@ -15494,28 +14576,23 @@ This series has now met a designation marking an absence of demand in the
 - [Kurudimath et al 2026][research_kurudimath_jalan_2026]
 - [Kurutz and Gáspár 2000][research_kurutz_gaspar_2000]
 - [Kuryachii 1995][research_kuryachii_1995]
-- [Kusaka 1995][research_kusaka_1995]
 - [Kuscu and Singh 2025][research_kuscu_singh_2025]
 - [Kushida et al 1987][research_kushida_hermel_1987]
 - [Kutscha 1962][research_kutscha_1962]
 - [Kutz et al 2018][research_kutz_otremba_2018]
 - [Kutzke et al 2021][research_kutzke_carter_2021]
-- [Kuuskraa and Haas 1988][research_kuuskraa_haas_1988]
 - [Kuznetsov 1980][research_kuznetsov_1980]
 - [Kuznetsov 1989][research_kuznetsov_1989]
 - [Kuznetsov 2023][research_kuznetsov_2023]
 - [Kuznetsov and Ukraintsev 2016][research_kuznetsov_ukraintsev_2016]
-- [Kwak and Kwon 2021][research_kwak_kwon_2021]
 - [Kwon 1992][research_kwon_1992]
 - [Kwon 1993][research_kwon_1993]
 - [Kwon and Fuller 1994][research_kwon_fuller_1994]
 - [Kwon et al 2021][research_kwon_jung_2021]
 - [Kynard, Michael 2011][research_kynardmichael_2011]
-- [Kyogoku et al 1981][research_kyogoku_tokimasa_1981]
 - [Kyongchan Song et al 2021][research_kyongchansong_arunkumarsatyanarayana_2021]
 - [Kyungpyo Kim 2018][research_kyungpyokim_2018]
 - [Kılıç 2021][research_kilic_2021]
-- [L. J. Galvão et al 2020][research_ljgalvao_mfontes_2020]
 - [L51413 Study of the Effect of Residual Stress on Fracture Behavior 1981][research_l51413_study_1981]
 - [La et al 1993][research_la_shivananda_1993]
 - [Labans and Bisagni 2020][research_labans_bisagni_2020]
@@ -15526,17 +14603,14 @@ This series has now met a designation marking an absence of demand in the
 - [Ladyzhenskij 1963][research_ladyzhenskij_1963]
 - [Lagace and Chambers 2011][research_lagace_chambers_2011]
 - [Lagace and Mamorini 2000][research_lagace_mamorini_2000]
-- [Lahokallio and Frisk 2016][research_lahokallio_frisk_2016]
 - [Lai et al 1986][research_lai_yamada_1986]
 - [Lai et al 1997][research_lai_khomami_1997]
 - [Lai et al 2018][research_lai_wei_2018]
 - [Lakshminarayana and Chiarelli 2022][research_lakshminarayana_chiarelli_2022]
 - [Lakshmipuram Raghu et al 2024][research_lakshmipuramraghu_rawlins_2024]
-- [Lalaque 1999][research_lalaque_1999]
 - [Lalithambika et al 2001][research_lalithambika_dasgupta_2001]
 - [Lalos 1963][research_lalos_1963]
 - [Lambert and Silverman 1986][research_lambert_silverman_1986]
-- [Laminate and non-laminate resin composite restorations 2016][research_laminate_and_2016]
 - [Lampropoulos et al 2025][research_lampropoulos_vouros_2025]
 - [Lan and Li 2022][research_lan_li_2022]
 - [Lan and Shi 2023][research_lan_shi_2023]
@@ -15544,7 +14618,6 @@ This series has now met a designation marking an absence of demand in the
 - [Lan et al 2016][research_lan_liu_2016]
 - [Lan et al 2020][research_lan_xu_2020]
 - [Lan et al 2021][research_lan_tan_2021]
-- [Land 2003][research_land_2003]
 - [Landon 2024][research_landon_2024]
 - [Landrum et al 1995][research_landrum_beard_1995]
 - [Lane and Chalfant 1967][research_lane_chalfant_1967]
@@ -15554,7 +14627,6 @@ This series has now met a designation marking an absence of demand in the
 - [Langner et al 2022][research_langner_gupta_2022]
 - [Langston et al 2019][research_langston_peterson_2019]
 - [Lankford 1987][research_lankford_1987]
-- [Lantelme 1985][research_lantelme_1985]
 - [Lantz 1969][research_lantz_1969]
 - [Lanzi, Raymond J. and Simpson, James C. 2010][research_lanziraymondj_simpsonjamesc_2010]
 - [Lapina et al 1993][research_lapina_smirnov_1993]
@@ -15566,7 +14638,6 @@ This series has now met a designation marking an absence of demand in the
 - [Larsen and Hovanski 2020][research_larsen_hovanski_2020]
 - [Larson, Richard R. 1999][research_larsonrichardr_1999]
 - [Lash and Moeller 2015][research_lash_moeller_2015]
-- [Lastras-Montano et al 2017][research_lastrasmontano_chakrabarti_2017]
 - [Latif et al 2020][research_latif_shao_2020]
 - [Latsuzbaya et al 2024][research_latsuzbaya_middendorf_2024]
 - [Latzko 1974][research_latzko_1974]
@@ -15604,14 +14675,12 @@ This series has now met a designation marking an absence of demand in the
 - [Lee 1969][research_lee_1969]
 - [Lee 1973][research_lee_1973]
 - [Lee 1993][research_lee_1993]
-- [Lee 1995][research_lee_1995]
 - [Lee 1998][research_lee_1998]
 - [Lee 2000][research_lee_2000]
 - [Lee 2002][research_lee_2002]
 - [Lee 2002][research_lee_2002_b]
 - [Lee 2018][research_lee_2018]
 - [Lee 2019][research_lee_2019]
-- [Lee 2022][research_lee_2022]
 - [Lee 2025][research_lee_2025]
 - [Lee and Chan 1989][research_lee_chan_1989]
 - [Lee and Chen 2018][research_lee_chen_2018]
@@ -15623,14 +14692,12 @@ This series has now met a designation marking an absence of demand in the
 - [Lee and Mall 1989][research_lee_mall_1989]
 - [Lee and Na 2025][research_lee_na_2025]
 - [Lee and Sanders 2002][research_lee_sanders_2002]
-- [Lee and Tarbell 1995][research_lee_tarbell_1995]
 - [Lee and Yang 2023][research_lee_yang_2023]
 - [Lee and Yoon 2021][research_lee_yoon_2021]
 - [Lee et al 1994][research_lee_wang_1994]
 - [Lee et al 1997][research_lee_mignosa_1997]
 - [Lee et al 2003][research_lee_zhong_2003]
 - [Lee et al 2011][research_lee_kovar_2011]
-- [Lee et al 2015][research_lee_kim_2015]
 - [Lee et al 2016][research_lee_yoon_2016]
 - [Lee et al 2017][research_lee_cha_2017]
 - [Lee et al 2017][research_lee_wei_2017]
@@ -15663,7 +14730,6 @@ This series has now met a designation marking an absence of demand in the
 - [Leigh and Tafreshi 2004][research_leigh_tafreshi_2004]
 - [Leiser, D. B. et al 1973][research_leiserdb_stewartda_1973]
 - [Leleń and Józwik 2023][research_lelen_jozwik_2023]
-- [Lelkó et al 2024][research_lelko_nemeth_2024]
 - [Lemarquis et al 2023][research_lemarquis_welch_2023]
 - [LeMay 2019][research_lemay_2019]
 - [LeMay and Askari 2018][research_lemay_askari_2018]
@@ -15671,12 +14737,10 @@ This series has now met a designation marking an absence of demand in the
 - [Leming 1990][research_leming_1990]
 - [Lemke 1963][research_lemke_1963]
 - [Lemoine 1975][research_lemoine_1975]
-- [Lemon and Ross 1960][research_lemon_ross_1960]
 - [Leng et al 2024][research_leng_zhang_2024]
 - [Leng et al 2025][research_leng_zhang_2025]
 - [Lenhart et al 1992][research_lenhart_halbach_1992]
 - [Lent 1944][research_lent_1944]
-- [Lentz 1982][research_lentz_1982]
 - [Leonardi 2023][research_leonardi_2023]
 - [Leondes and Volgenau 1967][research_leondes_volgenau_1967]
 - [Leonhard, K. E. 1972][research_leonhardke_1972]
@@ -15689,7 +14753,6 @@ This series has now met a designation marking an absence of demand in the
 - [Lester 1963][research_lester_1963]
 - [Lestrade et al 2019][research_lestrade_anthoine_2019]
 - [Letchworth, Gary F. 2011][research_letchworthgaryf_2011]
-- [Leuvinadrie 2022][research_leuvinadrie_2022]
 - [Levensteins and Krumins 1967][research_levensteins_krumins_1967]
 - [Leveugle and Reinhard 1999][research_leveugle_reinhard_1999]
 - [Levi 2008][research_levi_2008]
@@ -15697,15 +14760,6 @@ This series has now met a designation marking an absence of demand in the
 - [Levin 1993][research_levin_1993]
 - [Levin et al 2022][research_levin_nolan_2022]
 - [Levin et al 2023][research_levin_nolan_2023]
-- [Levine 1991][research_levine_1991]
-- [Levine 1991][research_levine_1991_b]
-- [Levine 1991][research_levine_1991_c]
-- [Levine and Johnson 1992][research_levine_johnson_1992]
-- [Levine and Johnson 1992][research_levine_johnson_1992_b]
-- [Levine and Johnson 1992][research_levine_johnson_1992_c]
-- [Levine and Johnson 1992][research_levine_johnson_1992_d]
-- [Levine and Tsay 1989][research_levine_tsay_1989]
-- [Levine and Tsay 1990][research_levine_tsay_1990]
 - [Levoy 1995][research_levoy_1995]
 - [Levy and Hubert 2019][research_levy_hubert_2019]
 - [Lewellen and Mirels 1966][research_lewellen_mirels_1966]
@@ -15725,7 +14779,6 @@ This series has now met a designation marking an absence of demand in the
 - [Li and Chang 2004][research_li_chang_2004]
 - [Li and Chen 2019][research_li_chen_2019]
 - [Li and Cook 2002][research_li_cook_2002]
-- [Li and Dong 2016][research_li_dong_2016]
 - [Li and Gong 2022][research_li_gong_2022]
 - [Li and Hou 2023][research_li_hou_2023]
 - [Li and Hu 2018][research_li_hu_2018]
@@ -15735,7 +14788,6 @@ This series has now met a designation marking an absence of demand in the
 - [Li and Wang 2020][research_li_wang_2020_b]
 - [Li and Wisnom 1997][research_li_wisnom_1997]
 - [Li and Wu 2015][research_li_wu_2015]
-- [Li and Zhang 2018][research_li_zhang_2018]
 - [Li and Zhang 2022][research_li_zhang_2022]
 - [Li and Zhou 2019][research_li_zhou_2019]
 - [Li et al 1994][research_li_elishakoff_1994]
@@ -15747,14 +14799,12 @@ This series has now met a designation marking an absence of demand in the
 - [Li et al 2017][research_li_xing_2017]
 - [Li et al 2018][research_li_bao_2018]
 - [Li et al 2018][research_li_wu_2018]
-- [Li et al 2018][research_li_zhou_2018]
 - [Li et al 2019][research_li_bai_2019]
 - [Li et al 2019][research_li_guan_2019]
 - [Li et al 2019][research_li_liang_2019]
 - [Li et al 2019][research_li_liu_2019]
 - [Li et al 2019][research_li_pan_2019]
 - [Li et al 2019][research_li_peng_2019]
-- [Li et al 2019][research_li_qu_2019]
 - [Li et al 2019][research_li_sun_2019]
 - [Li et al 2019][research_li_wu_2019]
 - [Li et al 2020][research_li_chen_2020]
@@ -15768,7 +14818,6 @@ This series has now met a designation marking an absence of demand in the
 - [Li et al 2021][research_li_huang_2021]
 - [Li et al 2021][research_li_jiang_2021]
 - [Li et al 2021][research_li_pasternak_2021]
-- [Li et al 2021][research_li_qian_2021]
 - [Li et al 2021][research_li_teliz_2021]
 - [Li et al 2021][research_li_wei_2021]
 - [Li et al 2021][research_li_wu_2021]
@@ -15779,9 +14828,7 @@ This series has now met a designation marking an absence of demand in the
 - [Li et al 2022][research_li_feng_2022]
 - [Li et al 2022][research_li_li_2022]
 - [Li et al 2022][research_li_long_2022]
-- [Li et al 2022][research_li_pan_2022]
 - [Li et al 2022][research_li_yan_2022]
-- [Li et al 2023][research_li_chen_2023]
 - [Li et al 2023][research_li_guo_2023]
 - [Li et al 2023][research_li_huang_2023]
 - [Li et al 2023][research_li_li_2023]
@@ -15813,7 +14860,6 @@ This series has now met a designation marking an absence of demand in the
 - [Li et al 2024][research_li_zhao_2024]
 - [Li et al 2024][research_li_zou_2024]
 - [Li et al 2025][research_li_bando_2025]
-- [Li et al 2025][research_li_cui_2025]
 - [Li et al 2025][research_li_liu_2025]
 - [Li et al 2025][research_li_niu_2025]
 - [Li et al 2025][research_li_wei_2025]
@@ -15824,7 +14870,6 @@ This series has now met a designation marking an absence of demand in the
 - [Li et al 2025][research_li_zhao_2025]
 - [Li et al 2025][research_li_zhao_2025_b]
 - [Li et al 2025][research_li_zhou_2025]
-- [Li et al 2026][research_li_ding_2026]
 - [Li et al 2026][research_li_fan_2026]
 - [Li et al 2026][research_li_ji_2026]
 - [Li et al 2026][research_li_liu_2026]
@@ -15843,12 +14888,10 @@ This series has now met a designation marking an absence of demand in the
 - [Liang et al 2022][research_liang_xu_2022]
 - [Liang et al 2024][research_liang_sun_2024]
 - [Liang et al 2026][research_liang_pan_2026]
-- [Liao et al 1999][research_liao_huang_1999]
 - [Liao et al 2021][research_liao_liu_2021]
 - [Liao et al 2023][research_liao_chu_2023]
 - [Liao et al 2023][research_liao_song_2023]
 - [Liao et al 2024][research_liao_tian_2024]
-- [Liao et al 2026][research_liao_liu_2026]
 - [Liavåg et al 2024][research_liavag_graciagarcialisbona_2024]
 - [Liberson et al 2009][research_liberson_walsh_2009]
 - [Libove and Lu 1989][research_libove_lu_1989]
@@ -15859,7 +14902,6 @@ This series has now met a designation marking an absence of demand in the
 - [Liebenberg 1966][research_liebenberg_1966]
 - [Lieberman 2002][research_lieberman_2002]
 - [Liekhus and Peterson 1995][research_liekhus_peterson_1995]
-- [Liessner et al 2019][research_liessner_schmitt_2019]
 - [Lietz et al 2019][research_lietz_desai_2019]
 - [Liffring 2002][research_liffring_2002]
 - [Lifshitz and Dayan 1995][research_lifshitz_dayan_1995]
@@ -15874,7 +14916,6 @@ This series has now met a designation marking an absence of demand in the
 - [Lin 1975][research_lin_1975]
 - [Lin 1989][research_lin_1989]
 - [Lin 1996][research_lin_1996]
-- [Lin 2026][research_lin_2026]
 - [Lin and Akers 1988][research_lin_akers_1988]
 - [Lin and Chan 2001][research_lin_chan_2001]
 - [Lin and Guan 2021][research_lin_guan_2021]
@@ -15903,7 +14944,6 @@ This series has now met a designation marking an absence of demand in the
 - [Lintvedt et al 1958][research_lintvedt_picotte_1958]
 - [Linul et al 2019][research_linul_marsavina_2019]
 - [Lipetzky et al 1993][research_lipetzky_schmauder_1993]
-- [Lippitt et al 1983][research_lippitt_jr_1983]
 - [Liquid-solid Coupling Analysis and Optimization Design of Tank Vehicle 2022][research_liquid_solid_coupling_2022]
 - [Lisiecki et al 2019][research_lisiecki_slizak_2019]
 - [Liston 1973][research_liston_1973]
@@ -15919,11 +14959,9 @@ This series has now met a designation marking an absence of demand in the
 - [Liu 2019][research_liu_2019]
 - [Liu 2024][research_liu_2024]
 - [Liu 2025][research_liu_2025]
-- [Liu 2025][research_liu_2025_b]
 - [Liu and Case 2021][research_liu_case_2021]
 - [Liu and Chang 1992][research_liu_chang_1992]
 - [Liu and Chen 2023][research_liu_chen_2023]
-- [Liu and Chu 2018][research_liu_chu_2018]
 - [Liu and David 1982][research_liu_david_1982]
 - [Liu and He 2017][research_liu_he_2017]
 - [Liu and Hubert 2021][research_liu_hubert_2021]
@@ -15931,22 +14969,18 @@ This series has now met a designation marking an absence of demand in the
 - [Liu and Liu 2017][research_liu_liu_2017]
 - [Liu and O'Keefe 2024][research_liu_okeefe_2024]
 - [Liu and Qi 2026][research_liu_qi_2026]
-- [Liu and Qin 2024][research_liu_qin_2024]
 - [Liu and Qizhi 1996][research_liu_qizhi_1996]
 - [Liu and Sawa 1998][research_liu_sawa_1998]
 - [Liu and Sawa 1999][research_liu_sawa_1999]
 - [Liu and Smith 2004][research_liu_smith_2004]
 - [Liu and Tan 2019][research_liu_tan_2019]
-- [Liu and Wang 2018][research_liu_wang_2018]
 - [Liu and Wang 2025][research_liu_wang_2025]
 - [Liu and Wu 2024][research_liu_wu_2024]
-- [Liu and Yang 2024][research_liu_yang_2024]
 - [Liu and Zhao 2001][research_liu_zhao_2001]
 - [Liu and Zhao 2002][research_liu_zhao_2002]
 - [Liu and Zhao 2002][research_liu_zhao_2002_b]
 - [Liu and Zhu 1994][research_liu_zhu_1994]
 - [Liu et al 1999][research_liu_su_1999]
-- [Liu et al 2000][research_liu_suo_2000]
 - [Liu et al 2001][research_liu_zhang_2001]
 - [Liu et al 2002][research_liu_chen_2002]
 - [Liu et al 2015][research_liu_li_2015]
@@ -15981,14 +15015,12 @@ This series has now met a designation marking an absence of demand in the
 - [Liu et al 2022][research_liu_wang_2022]
 - [Liu et al 2022][research_liu_yang_2022]
 - [Liu et al 2023][research_liu_cui_2023]
-- [Liu et al 2023][research_liu_jiang_2023]
 - [Liu et al 2023][research_liu_luo_2023]
 - [Liu et al 2023][research_liu_wang_2023]
 - [Liu et al 2023][research_liu_yan_2023]
 - [Liu et al 2023][research_liu_zhang_2023]
 - [Liu et al 2023][research_liu_zhou_2023]
 - [Liu et al 2023][research_liu_zhou_2023_b]
-- [Liu et al 2024][research_liu_hong_2024]
 - [Liu et al 2024][research_liu_jiang_2024]
 - [Liu et al 2024][research_liu_ng_2024]
 - [Liu et al 2024][research_liu_shen_2024]
@@ -16008,13 +15040,10 @@ This series has now met a designation marking an absence of demand in the
 - [Liu et al 2026][research_liu_guo_2026_b]
 - [Liu et al 2026][research_liu_guo_2026_c]
 - [Liu et al 2026][research_liu_li_2026]
-- [Liu et al 2026][research_liu_li_2026_b]
 - [Liu et al 2026][research_liu_li_2026_c]
 - [Liu et al 2026][research_liu_lu_2026]
 - [Liu et al 2026][research_liu_tong_2026]
-- [Liyanage 2021][research_liyanage_2021]
 - [Lizcano et al 2026][research_lizcano_martinez_2026]
-- [LLL total flow geothermal program: summary of two-phase nozzle tests for scale control and materials performance 1977][research_lll_total_1977]
 - [Llorente and Mar 1989][research_llorente_mar_1989]
 - [Llosa Tanco et al 2021][research_llosatanco_medrano_2021]
 - [Lo 1999][research_lo_1999]
@@ -16056,7 +15085,6 @@ This series has now met a designation marking an absence of demand in the
 - [Losch et al 1998][research_losch_lyonsiii_1998]
 - [Lotfollahi et al 2017][research_lotfollahi_alinia_2017]
 - [Lou and Yaniv 1991][research_lou_yaniv_1991]
-- [Lou et al 2016][research_lou_yu_2016]
 - [Lou et al 2025][research_lou_yang_2025]
 - [Loughlan 1996][research_loughlan_1996]
 - [Louthan and Dexter 1975][research_louthan_dexter_1975]
@@ -16082,18 +15110,12 @@ This series has now met a designation marking an absence of demand in the
 - [Lu 2019][research_lu_2019]
 - [Lu 2020][research_lu_2020]
 - [Lu 2020][research_lu_2020_b]
-- [Lu 2024][research_lu_2024]
 - [Lu 2026][research_lu_2026]
-- [Lu 2026][research_lu_2026_b]
 - [Lu and Callan 2023][research_lu_callan_2023]
 - [Lu and Davami 2024][research_lu_davami_2024]
-- [Lu and Davami 2025][research_lu_davami_2025]
-- [Lu and Hwang 2017][research_lu_hwang_2017]
 - [Lu and Sandoval 2021][research_lu_sandoval_2021]
 - [Lu and Terrier 2003][research_lu_terrier_2003]
 - [Lu and Terrier 2003][research_lu_terrier_2003_b]
-- [Lu and Wu 2025][research_lu_wu_2025]
-- [Lu et al 2017][research_lu_liu_2017]
 - [Lu et al 2018][research_lu_sostaric_2018]
 - [Lu et al 2019][research_lu_millet_2019]
 - [Lu et al 2021][research_lu_davidson_2021]
@@ -16101,7 +15123,6 @@ This series has now met a designation marking an absence of demand in the
 - [Lu et al 2023][research_lu_xu_2023]
 - [Lu et al 2024][research_lu_millet_2024]
 - [Lu et al 2024][research_lu_sandoval_2024]
-- [Lu et al 2024][research_lu_ye_2024]
 - [Lu et al 2025][research_lu_chen_2025]
 - [Lu et al 2025][research_lu_luo_2025]
 - [Lu et al 2025][research_lu_shi_2025]
@@ -16112,14 +15133,11 @@ This series has now met a designation marking an absence of demand in the
 - [Lu, Ping 1999][research_luping_1999]
 - [Lu, Ping 1999][research_luping_1999_b]
 - [Lu, Ping et al 2002][research_luping_sunhongsheng_2002]
-- [Luan and Narayanan 2024][research_luan_narayanan_2024]
 - [Lubert 2017][research_lubert_2017]
 - [Lucas 1978][research_lucas_1978]
-- [Lucke and Clauss 1993][research_lucke_clauss_1993]
 - [Luke 1989][research_luke_1989]
 - [Lukianchenko et al 2025][research_lukianchenko_geraschenko_2025]
 - [Lulay et al 2002][research_lulay_khan_2002]
-- [Lulla 2025][research_lulla_2025]
 - [Lum 1966][research_lum_1966]
 - [Lunarska and Chernyaeva 2004][research_lunarska_chernyaeva_2004]
 - [Lunchick 1963][research_lunchick_1963]
@@ -16139,7 +15157,6 @@ This series has now met a designation marking an absence of demand in the
 - [Luttrell and Henderson 1974][research_luttrell_henderson_1974]
 - [Lutz et al 2022][research_lutz_yue_2022]
 - [Lv and Ren 2023][research_lv_ren_2023]
-- [Lv et al 2015][research_lv_wang_2015]
 - [Lv et al 2024][research_lv_zhang_2024]
 - [Lv et al 2025][research_lv_wang_2025]
 - [Lv et al 2026][research_lv_wang_2026]
@@ -16153,7 +15170,6 @@ This series has now met a designation marking an absence of demand in the
 - [Lyons 1977][research_lyons_1977]
 - [Lysandrou and Braun 2021][research_lysandrou_braun_2021]
 - [Lyssakow et al 2021][research_lyssakow_yang_2021]
-- [Lyu and Shin 2002][research_lyu_shin_2002]
 - [M Y Chen and S T Korfhagen 2003][research_mychen_stkorfhagen_2003]
 - [Ma 1989][research_ma_1989]
 - [Ma 2024][research_ma_2024]
@@ -16175,7 +15191,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ma et al 2023][research_ma_jiao_2023]
 - [Ma et al 2024][research_ma_li_2024]
 - [Ma et al 2024][research_ma_liu_2024]
-- [Ma et al 2024][research_ma_zhao_2024]
 - [Ma et al 2025][research_ma_ding_2025]
 - [Ma et al 2025][research_ma_wang_2025]
 - [Maack 2024][research_maack_2024]
@@ -16188,7 +15203,6 @@ This series has now met a designation marking an absence of demand in the
 - [Machado et al 2021][research_machado_oliveira_2021]
 - [Machak et al 2023][research_machak_donabedian_2023]
 - [Machalek et al 2021][research_machalek_brananleu_2021]
-- [Machan et al 2023][research_machan_tangwongwan_2023]
 - [Machin and Daum 2026][research_machin_daum_2026]
 - [Mackall, D. et al 1998][research_mackalld_sakaharar_1998]
 - [Macpherson 1962][research_macpherson_1962]
@@ -16198,15 +15212,12 @@ This series has now met a designation marking an absence of demand in the
 - [Maddocks, Jason R. 1995][research_maddocksjasonr_1995]
 - [Maddocks, Jason R. and Mcmanus, Hugh L. 1995][research_maddocksjasonr_mcmanushughl_1995]
 - [Madhavan Nair 2023][research_madhavannair_2023]
-- [Madhu and Aravind J R 2020][research_madhu_aravindjr_2020]
 - [Madhusanka et al 2019][research_madhusanka_hamillage_2019]
 - [Madni et al 2021][research_madni_erwin_2021]
 - [Maes et al 2015][research_maes_smyth_2015]
 - [Maes et al 2022][research_maes_radhakrishnan_2022]
-- [Maestre-Cambronel et al 2021][research_maestrecambronel_guzmanbarros_2021]
 - [Magisano and Garcea 2022][research_magisano_garcea_2022]
 - [Magistro et al 2025][research_magistro_zhang_2025]
-- [Magistro et al 2025][research_magistro_zhang_2025_b]
 - [Magliacano 2025][research_magliacano_2025]
 - [Magnani et al 2026][research_magnani_sozio_2026]
 - [Magness 1990][research_magness_1990]
@@ -16227,7 +15238,6 @@ This series has now met a designation marking an absence of demand in the
 - [Mahfuz et al 2000][research_mahfuz_islam_2000]
 - [Mahin 1980][research_mahin_1980]
 - [Mahmood et al 2022][research_mahmood_cimtalay_2022]
-- [Mahmoodian and Zandi 2026][research_mahmoodian_zandi_2026]
 - [Mahmoud et al 2004][research_mahmoud_lear_2004]
 - [Mahmoud et al 2017][research_mahmoud_hao_2017]
 - [Mahorter and Robert G. 1961][research_mahorter_robertg_1961]
@@ -16282,11 +15292,8 @@ This series has now met a designation marking an absence of demand in the
 - [Manson and Seferis 1992][research_manson_seferis_1992]
 - [Mansour et al 1996][research_mansour_chigier_1996]
 - [Mansourinik and Taheri-Behrooz 2018][research_mansourinik_taheribehrooz_2018]
-- [Mantooth et al 2015][research_mantooth_donofrio_2015]
-- [Manuello 2020][research_manuello_2020]
 - [Mao et al 2018][research_mao_dou_2018]
 - [Mao et al 2023][research_mao_yu_2023]
-- [Marburg and Hardtke 2002][research_marburg_hardtke_2002]
 - [Marc R Schultz 2016][research_marcrschultz_2016]
 - [March and Kuenzi 1957][research_march_kuenzi_1957]
 - [Marchetti et al 2021][research_marchetti_minisci_2021]
@@ -16306,10 +15313,8 @@ This series has now met a designation marking an absence of demand in the
 - [Marlowe and Sushinsky 1974][research_marlowe_sushinsky_1974]
 - [Marsh et al 2004][research_marsh_walsh_2004]
 - [Marshall 1961][research_marshall_1961]
-- [Marshall 1991][research_marshall_1991]
 - [Marsilio 2001][research_marsilio_2001]
 - [Marsilio et al 2020][research_marsilio_ferlauto_2020]
-- [Marsilio et al 2024][research_marsilio_resta_2024]
 - [Marszałek 2019][research_marszaek_2019]
 - [Martin 1978][research_martin_1978]
 - [Martin 1982][research_martin_1982]
@@ -16317,9 +15322,7 @@ This series has now met a designation marking an absence of demand in the
 - [Martin 1994][research_martin_1994]
 - [Martin 1995][research_martin_1995]
 - [Martin 1996][research_martin_1996]
-- [Martin and Niemeyer 1977][research_martin_niemeyer_1977]
 - [Martin Co Baltimore Md 1963][research_martincobaltimoremd_1963]
-- [Martin Co Baltimore Md 1965][research_martincobaltimoremd_1965]
 - [Martin et al 2024][research_martin_stay_2024]
 - [Martin, C. Wayne et al 1989][research_martincwayne_lungsf_1989]
 - [Martin, J. A. 1977][research_martinja_1977]
@@ -16338,7 +15341,6 @@ This series has now met a designation marking an absence of demand in the
 - [Maru et al 2026][research_maru_kobayashi_2026]
 - [Masaki and Yakura 1968][research_masaki_yakura_1968]
 - [Masar and Mahmood 2026][research_masar_mahmood_2026]
-- [Mascareñas et al 2019][research_mascarenas_liao_2019]
 - [Masdari et al 2018][research_masdari_tahani_2018]
 - [Mason 1991][research_mason_1991]
 - [Mason 1998][research_mason_1998]
@@ -16346,7 +15348,6 @@ This series has now met a designation marking an absence of demand in the
 - [Masouri 2003][research_masouri_2003]
 - [Massard and Collins 1958][research_massard_collins_1958]
 - [Masters and Cohen 1957][research_masters_cohen_1957]
-- [Masuda and Nakasita 1988][research_masuda_nakasita_1988]
 - [Matejka 1970][research_matejka_1970]
 - [Matemilola and Stronge 1997][research_matemilola_stronge_1997]
 - [Matesanz et al 1995][research_matesanz_velazquez_1995]
@@ -16361,13 +15362,11 @@ This series has now met a designation marking an absence of demand in the
 - [Matienzo et al 1985][research_matienzo_shah_1985]
 - [Matos et al 2022][research_matos_chaudhary_2022]
 - [Matrix cracking and stiffness reduction during the fatigue of a (0/90)9 GFRP laminate 1985][research_matrix_cracking_1985]
-- [Matsui 1983][research_matsui_1983]
 - [Matsumoto 1988][research_matsumoto_1988]
 - [Matsumoto et al 2023][research_matsumoto_arai_2023]
 - [Matsunaga 1953][research_matsunaga_1953]
 - [Matsunaga et al 2017][research_matsunaga_takahashi_2017]
 - [Matsuo and Kawaguchi 1995][research_matsuo_kawaguchi_1995]
-- [Matsuuki 1995][research_matsuuki_1995]
 - [Matsuyama 2024][research_matsuyama_2024]
 - [Matthew et al 2021][research_matthew_thomas_2021]
 - [Matthew Michael Wittal et al 2025][research_matthewmichaelwittal_brennanmccann_2025]
@@ -16379,17 +15378,14 @@ This series has now met a designation marking an absence of demand in the
 - [Maughmer, Mark D. 1989][research_maughmermarkd_1989]
 - [Maul, William A. et al 2004][research_maulwilliama_chicatelliamyk_2004]
 - [Maurer et al 2016][research_maurer_sierra_2016]
-- [Maurice 2016][research_maurice_2016]
 - [Maurya 2021][research_maurya_2021]
 - [Mavrakis et al 2021][research_mavrakis_hao_2021]
-- [Mavridou et al 2017][research_mavridou_pennington_2017]
 - [Maxwell and Hoang 2016][research_maxwell_hoang_2016]
 - [May and Kilchert 2025][research_may_kilchert_2025]
 - [Maye and Habip 1969][research_maye_habip_1969]
 - [Mayes et al 2003][research_mayes_nickerson_2003]
 - [Mayhew and Norden 1995][research_mayhew_norden_1995]
 - [Mayo 1967][research_mayo_1967]
-- [Mayo-Wells and Edelman 1973][research_mayowells_edelman_1973]
 - [Maz et al 2023][research_maz_prajitno_2023]
 - [Mazarire et al 2026][research_mazarire_galloway_2026]
 - [Mazlan et al 2024][research_mazlan_musa_2024]
@@ -16433,7 +15429,6 @@ This series has now met a designation marking an absence of demand in the
 - [McGhee, David S. 2000][research_mcgheedavids_2000]
 - [McGhee, David S. et al 2012][research_mcgheedavids_peckjeffa_2012]
 - [McGill, Preston and Gentz, Steve 2001][research_mcgillpreston_gentzsteve_2001]
-- [McGrath and Irving 1973][research_mcgrath_irving_1973]
 - [McGrattan and North 1963][research_mcgrattan_north_1963]
 - [McGrory 2001][research_mcgrory_2001]
 - [McGuire et al 2004][research_mcguire_gage_2004]
@@ -16446,11 +15441,9 @@ This series has now met a designation marking an absence of demand in the
 - [McLellan 1955][research_mclellan_1955]
 - [Mcmanus, Hugh L. 1994][research_mcmanushughl_1994]
 - [McMinn and Mao 1995][research_mcminn_mao_1995]
-- [McPhail et al 2010][research_mcphail_coleman_2010]
 - [Mcpherson, William B. and Kuruvilla, A. K. 1994][research_mcphersonwilliamb_kuruvillaak_1994]
 - [McQuellin et al 2020][research_mcquellin_neely_2020]
 - [McVay, Eric S. et al 2016][research_mcvayerics_joneschristophera_2016]
-- [McWhorter 1962][research_mcwhorter_1962]
 - [Meadows et al 2016][research_meadows_sullivan_2016]
 - [Mease, Kenneth D. and Vanburen, Mark A. 1989][research_measekennethd_vanburenmarka_1989]
 - [Measurement of heat flow in the insulation of cryogenic fuel tanks 1968][research_measurement_of_1968]
@@ -16468,8 +15461,6 @@ This series has now met a designation marking an absence of demand in the
 - [Mehta and Jayachandran 1998][research_mehta_jayachandran_1998]
 - [Meier and Key 2025][research_meier_key_2025]
 - [Meisinger 2008][research_meisinger_2008]
-- [Meister et al 1989][research_meister_zelikina_1989]
-- [Meitzler et al 1998][research_meitzler_bryk_1998]
 - [Melander and Candler 2024][research_melander_candler_2024]
 - [Melese d'Hospital 1979][research_melesedhospital_1979]
 - [Melideo et al 2025][research_melideo_ferrari_2025]
@@ -16483,8 +15474,6 @@ This series has now met a designation marking an absence of demand in the
 - [Menendez and Guemes 2000][research_menendez_guemes_2000]
 - [Meng et al 2022][research_meng_wang_2022]
 - [Meng et al 2023][research_meng_qin_2023]
-- [Meng et al 2025][research_meng_wang_2025]
-- [Mengesha 2025][research_mengesha_2025]
 - [Menon 2016][research_menon_2016]
 - [Menon and Lehman 1985][research_menon_lehman_1985]
 - [Menon et al 1992][research_menon_mueller_1992]
@@ -16503,15 +15492,12 @@ This series has now met a designation marking an absence of demand in the
 - [Merzkirch et al 2025][research_merzkirch_marklund_2025]
 - [Mescall 1961][research_mescall_1961]
 - [Messinger and Pulley 2003][research_messinger_pulley_2003]
-- [Metcalf et al 2000][research_metcalf_lopez_2000]
 - [Metghalchi 2009][research_metghalchi_2009]
 - [Method for manufacturing a sandwich panel structure 1984][research_method_for_1984]
 - [Method for stabilizing thick honeycomb core composite articles 1988][research_method_for_1988]
 - [Method of making a thermally stable composite honeycomb panel 1988][research_method_of_1988]
-- [Method of making multi-layer metal core circuit board laminate with a controlled thermal coefficient of expansion 1986][research_method_of_1986]
 - [Meyer 1959][research_meyer_1959]
 - [Meyer 1963][research_meyer_1963]
-- [Meyer 2000][research_meyer_2000]
 - [Meyer and Katayanagi 1977][research_meyer_katayanagi_1977]
 - [Meyer and Rose 1976][research_meyer_rose_1976]
 - [Meyer et al 1999][research_meyer_pittman_1999]
@@ -16522,7 +15508,6 @@ This series has now met a designation marking an absence of demand in the
 - [Meyerson 1998][research_meyerson_1998]
 - [Mi et al 2025][research_mi_wang_2025]
 - [Miao and Fan 2021][research_miao_fan_2021]
-- [Miao and Xue 2026][research_miao_xue_2026]
 - [Miao et al 2022][research_miao_song_2022]
 - [Miao et al 2024][research_miao_jiao_2024]
 - [Miao et al 2025][research_miao_yue_2025]
@@ -16530,7 +15515,6 @@ This series has now met a designation marking an absence of demand in the
 - [Micci 1975][research_micci_1975]
 - [Miceli et al 2023][research_miceli_ameduri_2023]
 - [Michael N Olaya et al 2026][research_michaelnolaya_trentonmricks_2026]
-- [Michel 1950][research_michel_1950]
 - [Michel et al 2000][research_michel_gusic_2000]
 - [Michell 2016][research_michell_2016]
 - [Michno, Jr. 1986][research_michnojr_1986]
@@ -16543,7 +15527,6 @@ This series has now met a designation marking an absence of demand in the
 - [Miele and Wang 2003][research_miele_wang_2003]
 - [Mignolet and Soize 2020][research_mignolet_soize_2020]
 - [Mihara 1988][research_mihara_1988]
-- [Mikami and Murayama 2025][research_mikami_murayama_2025]
 - [Mikhail 1979][research_mikhail_1979]
 - [Mikhailov 1981][research_mikhailov_1981]
 - [Mikhasev 1998][research_mikhasev_1998]
@@ -16557,7 +15540,6 @@ This series has now met a designation marking an absence of demand in the
 - [Miller 1990][research_miller_1990]
 - [Miller 1998][research_miller_1998]
 - [Miller and Ziemiański 2020][research_miller_ziemianski_2020]
-- [Miller et al 2022][research_miller_palsikar_2022]
 - [Miller et al 2026][research_miller_jones_2026]
 - [Miller, C. G. 2000][research_millercg_2000]
 - [Miller, Sandi et al 2006][research_millersandi_leventisnicholas_2006]
@@ -16575,7 +15557,6 @@ This series has now met a designation marking an absence of demand in the
 - [Minakuchi et al 2024][research_minakuchi_simacek_2024]
 - [Minardi 1966][research_minardi_1966]
 - [Minaz and Meram 2025][research_minaz_meram_2025]
-- [Mingchun Luo and Yaping He 1998][research_mingchunluo_yapinghe_1998]
 - [Minguella-Canela et al 2023][research_minguellacanela_rabassamanzano_2023]
 - [Minguet and O'Brien 1996][research_minguet_obrien_1996]
 - [Minguet et al 1987][research_minguet_dugundji_1987]
@@ -16586,7 +15567,6 @@ This series has now met a designation marking an absence of demand in the
 - [Miotto and LePome 2003][research_miotto_lepome_2003]
 - [Mireles et al 2020][research_mireles_tilson_2020]
 - [Miris et al 2025][research_miris_ravandi_2025]
-- [Mirman and Friedman 1995][research_mirman_friedman_1995]
 - [Mirza and Gupgupoglu 1988][research_mirza_gupgupoglu_1988]
 - [Mirzabayova and Rustamov 2024][research_mirzabayova_rustamov_2024]
 - [Miró Miró and Pinna 2018][research_miromiro_pinna_2018]
@@ -16632,21 +15612,17 @@ This series has now met a designation marking an absence of demand in the
 - [Modifications to beam theory for bending and twisting of open-section composite beams 1991][research_modifications_to_1991]
 - [Moes et al 1998][research_moes_cobleigh_1998]
 - [Moetazedian et al 2021][research_moetazedian_budisuharto_2021]
-- [Moffitt and McGehee 1990][research_moffitt_mcgehee_1990]
 - [Moger and Ramsay 1964][research_moger_ramsay_1964]
 - [Moghadasi et al 2018][research_moghadasi_dewit_2018]
 - [Mogi et al 2016][research_mogi_kuwahara_2016]
-- [Mohamed and Salama 1986][research_mohamed_salama_1986]
 - [Mohammed et al 2024][research_mohammed_raghupathy_2024]
 - [Mohan et al 2016][research_mohan_alshahrani_2016]
 - [Mohan et al 2025][research_mohan_s_2025]
 - [Mohan Ramu and Poovathingal 2024][research_mohanramu_poovathingal_2024]
 - [Moharana and S 2019][research_moharana_s_2019]
 - [Mohd and Dawe 1993][research_mohd_dawe_1993]
-- [Mohrfeld-Halterman and Uddin 2016][research_mohrfeldhalterman_uddin_2016]
 - [Mohrmann et al 2004][research_mohrmann_denner_2004]
 - [Mohseni et al 2020][research_mohseni_zobeiry_2020]
-- [Mohtar et al 2004][research_mohtar_jamal_2004]
 - [Moini and Mitchell 1991][research_moini_mitchell_1991]
 - [Moise, M. C. et al 2000][research_moisemc_mccarterjw_2000]
 - [Mokhefi et al 2026][research_mokhefi_rossidischio_2026]
@@ -16654,9 +15630,7 @@ This series has now met a designation marking an absence of demand in the
 - [Molinari et al 2024][research_molinari_borio_2024]
 - [Mondal et al 2020][research_mondal_smith_2020]
 - [Monday Ette et al 2020][research_mondayette_ulummachukwuchekwa_2020]
-- [Mondoro and Grisso 2019][research_mondoro_grisso_2019]
 - [Monica and Jothilakshmi 2020][research_monica_jothilakshmi_2020]
-- [Monin and Audibert 1987][research_monin_audibert_1987]
 - [Monk, Jan C. 2002][research_monkjanc_2002]
 - [Monokrousos et al 2024][research_monokrousos_konozsy_2024]
 - [Monroe 1945][research_monroe_1945]
@@ -16708,14 +15682,11 @@ This series has now met a designation marking an absence of demand in the
 - [Morrisette, E. L. and Goldberg, T. J. 1978][research_morrisetteel_goldbergtj_1978]
 - [Morrison et al 2017][research_morrison_garnich_2017]
 - [Morrissey and Nakhla 2021][research_morrissey_nakhla_2021]
-- [Morrow 1984][research_morrow_1984]
 - [Morscher and El Rassi 2024][research_morscher_elrassi_2024]
-- [Mortaz et al 2019][research_mortaz_vinel_2019]
 - [Morton and Silvergleit 1972][research_morton_silvergleit_1972]
 - [Moruzzi et al 2018][research_moruzzi_fessl_2018]
 - [Moschidis et al 2026][research_moschidis_bithas_2026]
 - [Moser and Keith 1992][research_moser_keith_1992]
-- [Mosher et al 2021][research_mosher_audet_2021]
 - [Moskvichev 2016][research_moskvichev_2016]
 - [Moskvichev 2016][research_moskvichev_2016_b]
 - [Mossman and Perkins 2001][research_mossman_perkins_2001]
@@ -16725,7 +15696,6 @@ This series has now met a designation marking an absence of demand in the
 - [Mountain and Cooper 1989][research_mountain_cooper_1989]
 - [Moura and Borges Ribeiro 2025][research_moura_borgesribeiro_2025]
 - [Moura and Ribeiro 2024][research_moura_ribeiro_2024]
-- [Moustafa 2023][research_moustafa_2023]
 - [Mouthanna et al 2018][research_mouthanna_hasan_2018]
 - [Mow and Sadowsky 1962][research_mow_sadowsky_1962]
 - [Moy and Tzeng 2000][research_moy_tzeng_2000]
@@ -16756,9 +15726,7 @@ This series has now met a designation marking an absence of demand in the
 - [Mukundan et al 2022][research_mukundan_maity_2022]
 - [Mukwanje et al 2025][research_mukwanje_faik_2025]
 - [Muley 2019][research_muley_2019]
-- [Mullen and Jackson 2000][research_mullen_jackson_2000]
 - [Multi-layered, unbalanced sandwich panel 1998][research_multi_layered_unbalanced_1998]
-- [Mulyadi et al 2002][research_mulyadi_mason_2002]
 - [Mumford et al 1982][research_mumford_hopkins_1982]
 - [Munipalli et al 2005][research_munipalli_subbarao_2005]
 - [Munusamy et al 2022][research_munusamy_stephen_2022]
@@ -16797,14 +15765,12 @@ This series has now met a designation marking an absence of demand in the
 - [NACA Conference on High-speed 1958][research_naca_conference_1958]
 - [Nachawati et al 2017][research_nachawati_brodsky_2017]
 - [Nadarajah et al 2017][research_nadarajah_hantz_2017]
-- [Nadarajan and Botsch 2016][research_nadarajan_botsch_2016]
 - [Nadell, Shari-Beth et al 1992][research_nadellsharibeth_baumgartenwilliamj_1992]
 - [Nadell, Shari-Beth et al 1992][research_nadellsharibeth_baumgartenwilliamj_1992_b]
 - [Naderi and Iyyer 2020][research_naderi_iyyer_2020]
 - [Naderi et al 2026][research_naderi_pan_2026]
 - [Nadler 2003][research_nadler_2003]
 - [Nae et al 2020][research_nae_andrei_2020]
-- [Nafaa et al 2017][research_nafaa_cretu_2017]
 - [Naftel et al 1986][research_naftel_wilhite_1986]
 - [Naftel, J. C. and Powell, R. W. 1983][research_nafteljc_powellrw_1983]
 - [Nag et al 2023][research_nag_senthil_2023]
@@ -16813,7 +15779,6 @@ This series has now met a designation marking an absence of demand in the
 - [Nagaraju and Chokka 2023][research_nagaraju_chokka_2023]
 - [Nagaral et al 2023][research_nagaral_r_2023]
 - [Nagashima et al 2023][research_nagashima_mori_2023]
-- [Nagayoshi 1995][research_nagayoshi_1995]
 - [Nagy 2008][research_nagy_2008]
 - [Nahas 1993][research_nahas_1993]
 - [Nair and Dollar 1997][research_nair_dollar_1997]
@@ -16828,9 +15793,7 @@ This series has now met a designation marking an absence of demand in the
 - [Nakakita and Asai 2002][research_nakakita_asai_2002]
 - [Nakamura 1993][research_nakamura_1993]
 - [Nakamura and Larsen 1974][research_nakamura_larsen_1974]
-- [Nakashima and Taniguchi 2016][research_nakashima_taniguchi_2016]
 - [Nakatsuka et al 2024][research_nakatsuka_satoh_2024]
-- [Nakayama and Akashi 1995][research_nakayama_akashi_1995]
 - [Nakayama et al 2015][research_nakayama_uda_2015]
 - [Nakhoul and Boehman 1993][research_nakhoul_boehman_1993]
 - [Nakisa et al 2016][research_nakisa_behrouzi_2016]
@@ -16854,20 +15817,14 @@ This series has now met a designation marking an absence of demand in the
 - [Naumann et al 2025][research_naumann_appels_2025]
 - [Naval Air Systems Command Patuxent River Md 1999][research_navalairsystemscommandpatuxentrivermd_1999]
 - [Naval Air Systems Command Patuxent River Md 2000][research_navalairsystemscommandpatuxentrivermd_2000]
-- [Naval Proving Ground Dahlgren Va 1945][research_navalprovinggrounddahlgrenva_1945]
-- [Naval Weapons Lab Dahlgren Va 1952][research_navalweaponslabdahlgrenva_1952]
 - [Navaneetha Raj et al 1998][research_navaneetharaj_iyengar_1998]
 - [Nayeb-Hashemi and Yang 1997][research_nayebhashemi_yang_1997]
 - [Nayebi et al 2018][research_nayebi_surmiri_2018]
-- [Naylor 1988][research_naylor_1988]
 - [Nazario et al 2017][research_nazario_ramirez_2017]
 - [NDT of adhesive bond strength 1970][research_ndt_of_1970]
-- [Ndubizu et al 2004][research_ndubizu_ananth_2004]
-- [Neblett and Willis 1965][research_neblett_willis_1965]
 - [Neigh et al 2025][research_neigh_kapania_2025]
 - [Neiss and Brown 1967][research_neiss_brown_1967]
 - [Nele et al 2016][research_nele_caggiano_2016]
-- [Nelson 1957][research_nelson_1957]
 - [Nelson 1964][research_nelson_1964]
 - [Nelson 1973][research_nelson_1973]
 - [Nemat-Nasser 1979][research_nematnasser_1979]
@@ -16897,7 +15854,6 @@ This series has now met a designation marking an absence of demand in the
 - [Nguyen 1991][research_nguyen_1991]
 - [Nguyen 2004][research_nguyen_2004]
 - [Nguyen 2026][research_nguyen_2026]
-- [Nguyen and Do 2020][research_nguyen_do_2020]
 - [Nguyen and Howell 1994][research_nguyen_howell_1994]
 - [Nguyen and Kardos 1979][research_nguyen_kardos_1979]
 - [Nguyen Dinh and Vu Duc 2025][research_nguyendinh_vuduc_2025]
@@ -16907,7 +15863,6 @@ This series has now met a designation marking an absence of demand in the
 - [Nguyen et al 2019][research_nguyen_davidson_2019]
 - [Nguyen et al 2019][research_nguyen_vijayachandran_2019]
 - [Nguyen et al 2020][research_nguyen_davidson_2020]
-- [Nguyen et al 2020][research_nguyen_davidson_2020_b]
 - [Nguyen et al 2023][research_nguyen_terrana_2023]
 - [Nguyen et al 2025][research_nguyen_pham_2025]
 - [Nguyen et al 2026][research_nguyen_kiely_2026]
@@ -16923,7 +15878,6 @@ This series has now met a designation marking an absence of demand in the
 - [Nichols and Hendee 1965][research_nichols_hendee_1965]
 - [Nichols, Charles T. and Roth, Don J. 2013][research_nicholscharlest_rothdonj_2013]
 - [Nickell 1961][research_nickell_1961]
-- [Nicolas et al 2021][research_nicolas_messner_2021]
 - [Nicolay et al 2021][research_nicolay_karpuk_2021]
 - [Nicolosi et al 2022][research_nicolosi_marciello_2022]
 - [Nicolosi et al 2026][research_nicolosi_melone_2026]
@@ -16940,7 +15894,6 @@ This series has now met a designation marking an absence of demand in the
 - [Nikitin and Sazonov 1990][research_nikitin_sazonov_1990]
 - [Niknafs Kermani et al 2019][research_niknafskermani_simacek_2019]
 - [Nikolayev et al 2026][research_nikolayev_bashlii_2026]
-- [Nikolova and Rongen 2023][research_nikolova_rongen_2023]
 - [Nikonchuk 2026][research_nikonchuk_2026]
 - [Nilakantan and Nutt 2017][research_nilakantan_nutt_2017]
 - [Nilsson et al 2016][research_nilsson_pucilowski_2016]
@@ -16991,17 +15944,13 @@ This series has now met a designation marking an absence of demand in the
 - [Novikov et al 2020][research_novikov_lubyanskiy_2020]
 - [Novotny et al 2023][research_novotny_rumpfkeil_2023]
 - [Novotny et al 2024][research_novotny_neiferd_2024]
-- [Nowicka 2020][research_nowicka_2020]
 - [Nowka et al 2025][research_nowka_ruge_2025]
 - [Nozzle failure sets back solid-propellant rocket program 1967][research_nozzle_failure_1967]
 - [Ntintakis et al 2025][research_ntintakis_stavroulakis_2025]
 - [Nubli and Wen 2025][research_nubli_wen_2025]
 - [Nuclear Rocket uncooled nozzle study program. Phase III 1972][research_nuclear_rocket_1972]
 - [Nugroho et al 2024][research_nugroho_andiarti_2024]
-- [Numanović and Knobloch 2025][research_numanovic_knobloch_2025]
-- [Numanović and Knobloch 2025][research_numanovic_knobloch_2025_b]
 - [Numerical analysis of initial imperfection influence on the performance of buckling-restrained brace 2015][research_numerical_analysis_2015]
-- [Numerical Analysis of the Effect of the Non-Sinusoidal Trajectories on the Propulsive Performance of a Bionic Hydrofoil 2022][research_numerical_analysis_2022]
 - [Numerical Optimization on Approach and Landing for Reusable Launch Vehicle 2016][research_numerical_optimization_2016]
 - [Numerical Simulation and Optimization of High Performance Supersonic Nozzle at Different Conical Angles 2015][research_numerical_simulation_and_2015]
 - [Numerical Simulation of 2024 Aluminum Rod by Friction Stir Welding 2016][research_numerical_simulation_2016]
@@ -17009,16 +15958,12 @@ This series has now met a designation marking an absence of demand in the
 - [Numerical Simulation Study on Flow Field of Aerospike Rocket Engine Nozzle 2025][research_numerical_simulation_2025]
 - [Nurick, W. H. and Hines, W. S. 1973][research_nurickwh_hinesws_1973]
 - [Nurre and Taheri 2026][research_nurre_taheri_2026]
-- [Nus Corp Rockville Md 1981][research_nuscorprockvillemd_1981]
 - [Nutt 1970][research_nutt_1970]
-- [Nuttall 1995][research_nuttall_1995]
-- [Nuttall 1996][research_nuttall_1996]
 - [Nyberg and Sorensen 1980][research_nyberg_sorensen_1980]
 - [Nyilas 2002][research_nyilas_2002]
 - [Nzetchou et al 2018][research_nzetchou_durupt_2018]
 - [O and Lewis 2001][research_o_lewis_2001]
 - [O'Driscoll et al 2021][research_odriscoll_bruce_2021]
-- [O'leary 1979][research_oleary_1979]
 - [O'Neill and Hansman 2024][research_oneill_hansman_2024]
 - [O'Neill et al 2026][research_oneill_goodman_2026]
 - [O'Sullivan 1961][research_osullivan_1961]
@@ -17031,12 +15976,9 @@ This series has now met a designation marking an absence of demand in the
 - [Obrien, C. J. and Ewen, R. L. 1981][research_obriencj_ewenrl_1981]
 - [Ocheretyanyi 2025][research_ocheretyanyi_2025]
 - [Ochiai et al 1992][research_ochiai_osamura_1992]
-- [Ochiai et al 2019][research_ochiai_oda_2019]
 - [Oconnor 1966][research_oconnor_1966]
-- [Odabaşı et al 2018][research_odabasi_saygili_2018]
 - [Odessa et al 2018][research_odessa_frostig_2018]
 - [Odessa et al 2020][research_odessa_frostig_2020]
-- [Odom 1955][research_odom_1955]
 - [Oestlund et al 2001][research_oestlund_damgaard_2001]
 - [Office Of Research Analyses Holloman Afb Nm 1963][research_officeofresearchanalyseshollomanafbnm_1963]
 - [Ogasawara et al 1999][research_ogasawara_shiratori_1999]
@@ -17047,7 +15989,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ogi and Takao 1999][research_ogi_takao_1999]
 - [Ogi and Takao 2001][research_ogi_takao_2001]
 - [Ogihara et al 1998][research_ogihara_takeda_1998]
-- [Ogino 2015][research_ogino_2015]
 - [Ogorkiewicz 1970][research_ogorkiewicz_1970]
 - [Oguri and Lantoine 2025][research_oguri_lantoine_2025]
 - [Oguri and McMahon 2020][research_oguri_mcmahon_2020]
@@ -17067,7 +16008,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ojalvo 1977][research_ojalvo_1977]
 - [Okabe et al 1998][research_okabe_takeda_1998]
 - [Okada and Chen 2022][research_okada_chen_2022]
-- [Okuda et al 1985][research_okuda_horton_1985]
 - [Okumuş et al 1999][research_okumus_turgut_1999]
 - [Olds 1988][research_olds_1988]
 - [Olds, John R. and Bellini, Peter X. 1998][research_oldsjohnr_bellinipeterx_1998]
@@ -17085,7 +16025,6 @@ This series has now met a designation marking an absence of demand in the
 - [Olsson et al 2024][research_olsson_cameron_2024]
 - [Olynick 1998][research_olynick_1998]
 - [Olynick and Henline 1996][research_olynick_henline_1996]
-- [Omarov et al 2026][research_omarov_kopzhasarov_2026]
 - [Omata and Tsutsumi 2022][research_omata_tsutsumi_2022_b]
 - [Omata et al 2022][research_omata_tsutsumi_2022]
 - [Ometron Ltd 1989][research_ometronltd_1989]
@@ -17093,7 +16032,6 @@ This series has now met a designation marking an absence of demand in the
 - [Oncescu and Cicirello 2021][research_oncescu_cicirello_2021]
 - [Ong 1995][research_ong_1995]
 - [Onipede, Jr. 1992][research_onipedejr_1992]
-- [Onizawa et al 2004][research_onizawa_shibata_2004]
 - [Onkar and Yadav 2003][research_onkar_yadav_2003]
 - [Onoda 1985][research_onoda_1985]
 - [Onodera and Okabe 2018][research_onodera_okabe_2018]
@@ -17101,7 +16039,6 @@ This series has now met a designation marking an absence of demand in the
 - [Oosthuizen and Stone 1997][research_oosthuizen_stone_1997]
 - [Opdahl and Jensen 2021][research_opdahl_jensen_2021]
 - [Optimisation of the bending stiffness and strength of composite sandwich panels 1991][research_optimisation_of_1991]
-- [Optimized Test compression for Ultra- large-Scale SoC Architectures performing Scan Test Bandwidth Management 2017][research_optimized_test_2017]
 - [Orbital ATK awarded contract for launch vehicle parts 2016][research_orbital_atk_2016_b]
 - [Orbital ATK tests 3D printed hypersonic engine combustor 2016][research_orbital_atk_2016]
 - [Orlandini et al 2026][research_orlandini_paciorri_2026]
@@ -17119,13 +16056,10 @@ This series has now met a designation marking an absence of demand in the
 - [Osipov 1986][research_osipov_1986]
 - [Oskay 2012][research_oskay_2012]
 - [Osman et al 2004][research_osman_atalla_2004]
-- [Osoba 1982][research_osoba_1982]
 - [Ossadzow et al 1995][research_ossadzow_muller_1995]
 - [Ossorio 1964][research_ossorio_1964]
 - [Ostapenko 1993][research_ostapenko_1993]
-- [Ostiguy and Bhat 2024][research_ostiguy_bhat_2024]
 - [Ostlund and Jaran 1999][research_ostlund_jaran_1999]
-- [Ostrovsky 1993][research_ostrovsky_1993]
 - [Osweiller 1992][research_osweiller_1992]
 - [Otsu 2016][research_otsu_2016]
 - [Otsu 2018][research_otsu_2018]
@@ -17187,19 +16121,15 @@ This series has now met a designation marking an absence of demand in the
 - [Pamadi, Bandu N. et al 2004][research_pamadibandun_covellpeterf_2004]
 - [Pamadi, Bandu N. et al 2005][research_pamadibandun_neirynckthomasa_2005]
 - [Pamadi, Bandu N. et al 2007][research_pamadibandun_neirynckthomasa_2007]
-- [Pan 2025][research_pan_2025]
 - [Pan and Herrington 1998][research_pan_herrington_1998]
 - [Pan et al 2000][research_pan_liang_2000]
 - [Pan et al 2002][research_pan_hu_2002]
 - [Pan et al 2019][research_pan_jiang_2019]
 - [Pan et al 2020][research_pan_chen_2020]
-- [Pan et al 2023][research_pan_hu_2023]
 - [Panchagnula et al 2022][research_panchagnula_sharma_2022]
 - [Panda 2019][research_panda_2019]
-- [Panda 2019][research_panda_2019_b]
 - [Panda et al 2004][research_panda_shah_2004]
 - [Pande 1994][research_pande_1994]
-- [Pandey and Dayal 1974][research_pandey_dayal_1974]
 - [Pandey and Narayanan 2020][research_pandey_narayanan_2020]
 - [Pandey and Reddy 1987][research_pandey_reddy_1987]
 - [Pandow and Pratt 1965][research_pandow_pratt_1965]
@@ -17223,9 +16153,7 @@ This series has now met a designation marking an absence of demand in the
 - [Paredes et al 2018][research_paredes_choudhari_2018]
 - [Paredes et al 2019][research_paredes_choudhari_2019]
 - [Paredes et al 2021][research_paredes_scholten_2021]
-- [Pareigis et al 2024][research_pareigis_riege_2024]
 - [Parello et al 2024][research_parello_defoort_2024]
-- [Parello et al 2024][research_parello_defoort_2024_b]
 - [Parello et al 2024][research_parello_gourinat_2024]
 - [Pareyns et al 2021][research_pareyns_bisagni_2021]
 - [Paris, Deidre E. et al 2005][research_parisdeidree_trevinoluis_2005]
@@ -17239,7 +16167,6 @@ This series has now met a designation marking an absence of demand in the
 - [Park et al 1994][research_park_marcus_1994]
 - [Park et al 1995][research_park_menees_1995]
 - [Park et al 1996][research_park_menees_1996]
-- [Park et al 2004][research_park_kim_2004]
 - [Park et al 2020][research_park_yoon_2020]
 - [Park et al 2021][research_park_jang_2021]
 - [Park et al 2021][research_park_kim_2021]
@@ -17260,7 +16187,6 @@ This series has now met a designation marking an absence of demand in the
 - [Parvizi and Bailey 1978][research_parvizi_bailey_1978]
 - [Pascucci et al 2015][research_pascucci_bennani_2015]
 - [Passarani et al 2026][research_passarani_grossi_2026]
-- [Pastrick 1969][research_pastrick_1969]
 - [Patel 2026][research_patel_2026]
 - [Patel 2026][research_patel_2026_b]
 - [Patel and Acharya 2023][research_patel_acharya_2023]
@@ -17281,13 +16207,11 @@ This series has now met a designation marking an absence of demand in the
 - [Paul and Sinha 1992][research_paul_sinha_1992]
 - [Paul et al 2021][research_paul_andrea_2021]
 - [Paula et al 2026][research_paula_bizarria_2026]
-- [Paulo R. T. and Lepikson 2020][research_paulort_lepikson_2020]
 - [Pavanasam et al 2024][research_pavanasam_anil_2024]
 - [Pavlov 2019][research_pavlov_2019]
 - [Pawar et al 2018][research_pawar_gilke_2018]
 - [Pawlus 2021][research_pawlus_2021]
 - [Paxson and Perkins 2021][research_paxson_perkins_2021]
-- [Payne 1952][research_payne_1952]
 - [Payton 2017][research_payton_2017]
 - [Pearson 2003][research_pearson_2003]
 - [Pearson et al 1996][research_pearson_landrum_1996]
@@ -17304,12 +16228,10 @@ This series has now met a designation marking an absence of demand in the
 - [Peksen and Wen 2025][research_peksen_wen_2025]
 - [Pelaccio, Dennis G. et al 1991][research_pelacciodennisg_scheilchristinem_1991]
 - [Pelamatti et al 2019][research_pelamatti_brevault_2019]
-- [Pelton 2001][research_pelton_2001]
 - [Pempie and Vernin 2000][research_pempie_vernin_2000]
 - [Pena et al 2018][research_pena_richards_2018]
 - [Pendhari et al 2015][research_pendhari_sawarkar_2015]
 - [Peng and Wang 2026][research_peng_wang_2026]
-- [Peng et al 2016][research_peng_fang_2016]
 - [Peng et al 2020][research_peng_zhu_2020]
 - [Peng et al 2022][research_peng_ma_2022]
 - [Penland, J. A. 1975][research_penlandja_1975]
@@ -17331,7 +16253,6 @@ This series has now met a designation marking an absence of demand in the
 - [Performance/design and qualification requirements for nozzle assembly subsystem 1969][research_performance_design_and_1969_c]
 - [Perigo and Qin 2001][research_perigo_qin_2001]
 - [Perkins and Brice 1966][research_perkins_brice_1966]
-- [Perkins and James C. 1978][research_perkins_jamesc_1978]
 - [Perl 1997][research_perl_1997]
 - [Perl and Nachum 2000][research_perl_nachum_2000]
 - [Perlee and Liebman 1963][research_perlee_liebman_1963]
@@ -17348,7 +16269,6 @@ This series has now met a designation marking an absence of demand in the
 - [Peschke et al 2022][research_peschke_naik_2022]
 - [Peshkhoev 2026][research_peshkhoev_2026]
 - [Peter C Hoag and B Lyle Schofield 1970][research_peterchoag_blyleschofield_1970]
-- [Peter J Buzzanell 1975][research_peterjbuzzanell_1975]
 - [Peter Spaeth et al 2021][research_peterspaeth_petertakunju_2021]
 - [Peterlin 1971][research_peterlin_1971]
 - [Peters 2001][research_peters_2001]
@@ -17360,7 +16280,6 @@ This series has now met a designation marking an absence of demand in the
 - [Peterson 1985][research_peterson_1985]
 - [Peterson and Liu 2015][research_peterson_liu_2015]
 - [Peterson and Taboada 2012][research_peterson_taboada_2012]
-- [Peterson, R. L. 1981][research_petersonrl_1981]
 - [Petitpas and Aceves 2018][research_petitpas_aceves_2018]
 - [Petitpas et al 2018][research_petitpas_morenoblanco_2018]
 - [Petras and Sutcliffe 1999][research_petras_sutcliffe_1999]
@@ -17390,7 +16309,6 @@ This series has now met a designation marking an absence of demand in the
 - [Piascik, Robert S. and Gangloff, Richard P. 1989][research_piascikroberts_gangloffrichardp_1989]
 - [Piatak and Sekula 2019][research_piatak_sekula_2019_c]
 - [Piatak et al 2019][research_piatak_sekula_2019]
-- [Piatak et al 2019][research_piatak_sekula_2019_b]
 - [Picot et al 2017][research_picot_gueydan_2017]
 - [Piedra et al 2019][research_piedra_torres_2019]
 - [Piggott 1987][research_piggott_1987]
@@ -17446,14 +16364,12 @@ This series has now met a designation marking an absence of demand in the
 - [Polyester, fibreglass-reinforced composite laminate 1978][research_polyester_fibreglass_reinforced_1978]
 - [Ponraj et al 2026][research_ponraj_abdullah_2026]
 - [Ponti et al 2021][research_ponti_mini_2021]
-- [Pools and Monseur 2021][research_pools_monseur_2021]
 - [Poorveis et al 2025][research_poorveis_khajehdezfuly_2025]
 - [Popejoy and Dharani 1992][research_popejoy_dharani_1992]
 - [Popplewell and Ford 1974][research_popplewell_ford_1974]
 - [Porr, William C., Jr. et al 1991][research_porrwilliamcjr_lengyang_1991]
 - [Porter 1994][research_porter_1994]
 - [Posmyk 2003][research_posmyk_2003]
-- [Possel 1998][research_possel_1998]
 - [Postek and Sadowski 2018][research_postek_sadowski_2018]
 - [Poteet 1998][research_poteet_1998]
 - [Poteet and Blosser 2002][research_poteet_blosser_2002]
@@ -17467,7 +16383,6 @@ This series has now met a designation marking an absence of demand in the
 - [Powell and Northcutt 1985][research_powell_northcutt_1985]
 - [Powell et al 1991][research_powell_naftel_1991]
 - [Powell, Richard W. et al 1998][research_powellrichardw_cookstephena_1998]
-- [Powers 1964][research_powers_1964]
 - [Powley 1974][research_powley_1974]
 - [Pozhanka et al 2024][research_pozhanka_stidham_2024]
 - [Prabhakar and Quinn 1994][research_prabhakar_quinn_1994]
@@ -17483,7 +16398,6 @@ This series has now met a designation marking an absence of demand in the
 - [Prasad and Simha 2003][research_prasad_simha_2003]
 - [Prasad et al 1987][research_prasad_prabhakaran_1987]
 - [Pratama 2017][research_pratama_2017]
-- [Prati et al 1990][research_prati_nucci_1990]
 - [Pratt and Whitney supplies 2015][research_pratt_and_2015]
 - [Praveen et al 2022][research_praveen_choubey_2022]
 - [Predicting burst pressures in filament-wound composite pressure vessels by using acoustic emission data 1993][research_predicting_burst_1993]
@@ -17497,14 +16411,11 @@ This series has now met a designation marking an absence of demand in the
 - [Prime 1997][research_prime_1997]
 - [Prince and Milford 1962][research_prince_milford_1962]
 - [Prince and Zhao 2026][research_prince_zhao_2026]
-- [Prince and Zhao 2026][research_prince_zhao_2026_b]
 - [Prince et al 1996][research_prince_sterner_1996]
 - [Prince, Frank A. and Hamaker, Joseph W. 2001][research_princefranka_hamakerjosephw_2001]
-- [Pritpal 2005][research_pritpal_2005]
 - [Pritt 1980][research_pritt_1980]
 - [Priyadarshi et al 2020][research_priyadarshi_joseph_2020]
 - [Probstein and Kemp 1960][research_probstein_kemp_1960]
-- [Probstein and Kemp 1960][research_probstein_kemp_1960_b]
 - [Process for filling vehicle hydrogen storage tank 2001][research_process_for_2001]
 - [Progar, D. 1979][research_progard_1979]
 - [Prosser, W. H. 2003][research_prosserwh_2003]
@@ -17513,14 +16424,11 @@ This series has now met a designation marking an absence of demand in the
 - [Prozan and Luke 1999][research_prozan_luke_1999]
 - [Prucz et al 1991][research_prucz_dacquisto_1991]
 - [Pryce and Smith 1994][research_pryce_smith_1994]
-- [Przekop et al 2018][research_przekop_schultz_2018]
-- [Przekop et al 2018][research_przekop_schultz_2018_b]
 - [Psotny and Havran 2017][research_psotny_havran_2017]
 - [Psotný 2020][research_psotny_2020]
 - [Ptáček 1989][research_ptacek_1989]
 - [Pu et al 2026][research_pu_kuzhandaivel_2026]
 - [Puccinelli et al 2025][research_puccinelli_giusti_2025]
-- [Pucillo 2019][research_pucillo_2019]
 - [Puertolas and Perraud 2019][research_puertolas_perraud_2019]
 - [Puettmann 1999][research_puettmann_1999]
 - [Pugazhenthi et al 2018][research_pugazhenthi_gopalakannan_2018]
@@ -17532,7 +16440,6 @@ This series has now met a designation marking an absence of demand in the
 - [Purtscher et al 1992][research_purtscher_austin_1992]
 - [Purwar and Basu 2017][research_purwar_basu_2017]
 - [Pustovyi 2026][research_pustovyi_2026]
-- [Putra et al 2022][research_putra_chumaidi_2022]
 - [Putscher 1967][research_putscher_1967]
 - [Puukko et al 2024][research_puukko_hepooja_2024]
 - [PVC sandwich core materials: Mode I fracture toughness 1989][research_pvc_sandwich_1989]
@@ -17562,7 +16469,6 @@ This series has now met a designation marking an absence of demand in the
 - [Qing et al 2016][research_qing_xuelei_2016]
 - [Qiu and Gao 2024][research_qiu_gao_2024]
 - [Qiu et al 2024][research_qiu_shi_2024]
-- [Qiu et al 2024][research_qiu_zhang_2024]
 - [Qu and Hoiseth 1998][research_qu_hoiseth_1998]
 - [Qu et al 2000][research_qu_venkatararaman_2000]
 - [Qu et al 2001][research_qu_venkataraman_2001]
@@ -17605,11 +16511,9 @@ This series has now met a designation marking an absence of demand in the
 - [Radhakrishnan 1972][research_radhakrishnan_1972]
 - [Radhakrishnan et al 2023][research_radhakrishnan_hari_2023]
 - [Radhakrishnan et al 2024][research_radhakrishnan_hari_2024]
-- [Radian Corp Oak Ridge Tn 1995][research_radiancorpoakridgetn_1995]
 - [Radley 2017][research_radley_2017]
 - [Radwan and Kövesdi 2024][research_radwan_kovesdi_2024]
 - [Raffa and Pizzuto 2024][research_raffa_pizzuto_2024]
-- [Raffin 1996][research_raffin_1996]
 - [Rafique 2024][research_rafique_2024]
 - [Rafique 2024][research_rafique_2024_b]
 - [Rafique 2024][research_rafique_2024_c]
@@ -17623,7 +16527,6 @@ This series has now met a designation marking an absence of demand in the
 - [Raible and Jacob 2003][research_raible_jacob_2003]
 - [Raichur 2026][research_raichur_2026]
 - [Rainey 1964][research_rainey_1964]
-- [Rajagukguk et al 2025][research_rajagukguk_lee_2025]
 - [Rajan 2001][research_rajan_2001]
 - [Rajappan. and Kumar 2019][research_rajappan_kumar_2019]
 - [Rajasekaran and Shadmehri 2020][research_rajasekaran_shadmehri_2020]
@@ -17632,7 +16535,6 @@ This series has now met a designation marking an absence of demand in the
 - [Raju et al 1993][research_raju_sistla_1993]
 - [Raju et al 1996][research_raju_sistla_1996]
 - [Raju, B. B. et al 1979][research_rajubb_camardacj_1979]
-- [Ramamurti 2001][research_ramamurti_2001]
 - [Ramarathnam et al 2024][research_ramarathnam_jain_2024]
 - [Ramesh et al 2000][research_ramesh_vasudevan_2000]
 - [Ramm et al 2024][research_ramm_pohya_2024]
@@ -17673,7 +16575,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ratcliffe, James G. 2010][research_ratcliffejamesg_2010]
 - [Rathinam et al 2021][research_rathinam_prabu_2021]
 - [Rathod and Deng 2019][research_rathod_deng_2019]
-- [Ratigan 1981][research_ratigan_1981]
 - [Rau and Avery 2024][research_rau_avery_2024]
 - [Rau et al 2024][research_rau_stumpf_2024]
 - [Rauch 1976][research_rauch_1976]
@@ -17682,7 +16583,6 @@ This series has now met a designation marking an absence of demand in the
 - [Rault 1994][research_rault_1994]
 - [Rauzy and Haskins 2018][research_rauzy_haskins_2018]
 - [Ravenhall 1963][research_ravenhall_1963]
-- [Ravenscroft et al 1974][research_ravenscroft_jr_1974]
 - [Ravi et al 2025][research_ravi_oda_2025]
 - [Ravichandran and Cavaliere 2025][research_ravichandran_cavaliere_2025]
 - [Ravindra et al 1993][research_ravindra_dwarakadasa_1993]
@@ -17708,8 +16608,6 @@ This series has now met a designation marking an absence of demand in the
 - [Reed and Golda 1997][research_reed_golda_1997]
 - [Reed and Harry L. 1957][research_reed_harryl_1957]
 - [Reed and Munson 1972][research_reed_munson_1972]
-- [Reed et al 2000][research_reed_gedeon_2000]
-- [Reen 2015][research_reen_2015]
 - [Reentry Maneuvering Vehicle Ascent Phase Trajectory Design 2025][research_reentry_maneuvering_2025]
 - [Reeves and Hoeppner 1978][research_reeves_hoeppner_1978]
 - [Reeves et al 2024][research_reeves_bougrat_2024]
@@ -17733,7 +16631,6 @@ This series has now met a designation marking an absence of demand in the
 - [Reitenbach et al 2024][research_reitenbach_ebel_2024]
 - [Reitinger and Ramm 1994][research_reitinger_ramm_1994]
 - [Reitinger and Ramm 1995][research_reitinger_ramm_1995]
-- [Remec and Kam 1998][research_remec_kam_1998]
 - [Rempt 2003][research_rempt_2003]
 - [Ren 1989][research_ren_1989]
 - [Ren 2025][research_ren_2025]
@@ -17744,9 +16641,7 @@ This series has now met a designation marking an absence of demand in the
 - [Ren et al 2025][research_ren_ma_2025]
 - [Renganathan and Mavris 2015][research_renganathan_mavris_2015]
 - [Renitha P and Sivaramapandian J 2016][research_renithap_sivaramapandianj_2016]
-- [Renn and Gilhaus 1986][research_renn_gilhaus_1986]
 - [Renuke et al 2025][research_renuke_kyprianidis_2025]
-- [Research on Accurate Friction Characteristics Test Method of Composite Servo Hydraulic Cylinder 2024][research_research_on_2024]
 - [Research Progress in Double-sided Friction Stir Welding of Aluminum Alloy 2024][research_research_progress_2024]
 - [Residual stresses and stress-strain behaviour of the WC-Co composite material 1972][research_residual_stresses_1972]
 - [Reske and Brodnick 2024][research_reske_brodnick_2024]
@@ -17757,7 +16652,6 @@ This series has now met a designation marking an absence of demand in the
 - [Reusable single-state-to-orbit vehicle concept utilizing composite engines 1984][research_reusable_single_state_to_orbit_1984]
 - [Rev et al 2020][research_rev_leone_2020]
 - [Review and progress of the autonomous guidance method for Long March launch vehicle ascent flight 2021][research_review_and_progress_2021]
-- [Revision of EN 1993‐1‐1, Design rules for structural analysis, cross‐sectional resistance and member buckling 2022][research_revision_of_2022]
 - [Rey 2000][research_rey_2000]
 - [Reyna-Martinez et al 2025][research_reynamartinez_pope_2025]
 - [Reynolds 1960][research_reynolds_1960]
@@ -17772,7 +16666,6 @@ This series has now met a designation marking an absence of demand in the
 - [Rhisat and Molki 2023][research_rhisat_molki_2023]
 - [Rhodes 1975][research_rhodes_1975]
 - [Rhodes, M. D. and Mikulas, M. M., Jr. 1975][research_rhodesmd_mikulasmmjr_1975]
-- [Ribeiro et al 1998][research_ribeiro_roveri_1998]
 - [Ribeiro et al 2019][research_ribeiro_machado_2019]
 - [Riccio et al 2017][research_riccio_raimondo_2017]
 - [Riccitiello, S. R. et al 1984][research_riccitiellosr_figueroah_1984]
@@ -17785,7 +16678,6 @@ This series has now met a designation marking an absence of demand in the
 - [Richards et al 1997][research_richards_vonderwell_1997]
 - [Richardson, Erin et al 2014][research_richardsonerin_jacksonaustin_2014]
 - [Richardson, J. and Townsend, J. S. 1993][research_richardsonj_townsendjs_1993]
-- [Richter and Durkee 1983][research_richter_durkee_1983]
 - [Ridderhof and Tsiotras 2018][research_ridderhof_tsiotras_2018]
 - [Ridderhof and Tsiotras 2021][research_ridderhof_tsiotras_2021]
 - [Ridha 1968][research_ridha_1968]
@@ -17847,7 +16739,6 @@ This series has now met a designation marking an absence of demand in the
 - [Rodríguez-Segade et al 2022][research_rodriguezsegade_hernandez_2022]
 - [Rodríguez-Segade et al 2023][research_rodriguezsegade_steelant_2023]
 - [Roelofs and Vos 2018][research_roelofs_vos_2018]
-- [Roelofs and Vos 2018][research_roelofs_vos_2018_b]
 - [Rogers and Dragone 1996][research_rogers_dragone_1996]
 - [Roh and Kim 2002][research_roh_kim_2002]
 - [Rohrschneider and Olds 2001][research_rohrschneider_olds_2001]
@@ -17858,7 +16749,6 @@ This series has now met a designation marking an absence of demand in the
 - [Roma Rubi et al 2025][research_romarubi_kuo_2025]
 - [Romano et al 2024][research_romano_cecchetti_2024]
 - [Romanov 2017][research_romanov_2017]
-- [Romeis et al 2016][research_romeis_eberle_2016]
 - [Romesis et al 2024][research_romesis_aretakis_2024]
 - [Romine 1998][research_romine_1998]
 - [Rommel et al 1997][research_rommel_hagemann_1997]
@@ -17870,7 +16760,6 @@ This series has now met a designation marking an absence of demand in the
 - [Rong et al 2016][research_rong_wei_2016]
 - [Ronquillo and Williams 1984][research_ronquillo_williams_1984]
 - [Rosch, Gene and Schor, Andrei L. 1990][research_roschgene_schorandreil_1990]
-- [Roschke 1955][research_roschke_1955]
 - [Rose 1958][research_rose_1958]
 - [Rose 1987][research_rose_1987]
 - [Rose et al 1982][research_rose_nestleroth_1982]
@@ -17902,7 +16791,6 @@ This series has now met a designation marking an absence of demand in the
 - [Rouse et al 1998][research_rouse_ambur_1998]
 - [Rovelstad et al 2025][research_rovelstad_kassem_2025]
 - [Roy 2025][research_roy_2025]
-- [Roy and Maung Than Oo 2024][research_roy_maungthanoo_2024]
 - [Roy and Tsai 1988][research_roy_tsai_1988]
 - [Roy et al 1997][research_roy_donaldson_1997]
 - [Roy et al 2004][research_roy_utturkar_2004]
@@ -17935,13 +16823,10 @@ This series has now met a designation marking an absence of demand in the
 - [Ruiz 1978][research_ruiz_1978]
 - [Ruiz and Razzitte 2016][research_ruiz_razzitte_2016]
 - [Ruiz-Torres, Alex J. and McCleskey, Carey 2000][research_ruiztorresalexj_mccleskeycarey_2000]
-- [Rulianto et al 2021][research_rulianto_indiaryanto_2021]
 - [Rupert and King 2025][research_rupert_king_2025]
-- [Rupp 2014][research_rupp_2014]
 - [Ruppe 1985][research_ruppe_1985]
 - [Rush 1985][research_rush_1985]
 - [Rusnak and Schleicher 1989][research_rusnak_schleicher_1989]
-- [Russell 1993][research_russell_1993]
 - [Russell 2020][research_russell_2020]
 - [Russell et al 2000][research_russell_madhukar_2000]
 - [Russell, Carolyn et al 2000][research_russellcarolyn_bjorkmangerry_2000]
@@ -17953,10 +16838,8 @@ This series has now met a designation marking an absence of demand in the
 - [Ryan and Verderaime 1993][research_ryan_verderaime_1993]
 - [Ryan, Shannon et al 2009][research_ryanshannon_christianseneric_2009]
 - [Ryazantsev et al 2023][research_ryazantsev_yukhnevich_2023]
-- [Rybicki and Stonesifer 1980][research_rybicki_stonesifer_1980]
 - [Rzeszut and Garstecki 2016][research_rzeszut_garstecki_2016]
 - [Rzeszut et al 2018][research_rzeszut_folta_2018]
-- [Rølvåg and Stranden 2022][research_rolvag_stranden_2022]
 - [S 2016][research_s_2016]
 - [S and K 2024][research_s_k_2024]
 - [S and Padhi 2017][research_s_padhi_2017]
@@ -18000,19 +16883,16 @@ This series has now met a designation marking an absence of demand in the
 - [Saha and Sullivan 2022][research_saha_sullivan_2022]
 - [Saha and Sullivan 2022][research_saha_sullivan_2022_b]
 - [Saha and Sullivan 2024][research_saha_sullivan_2024]
-- [Sahin et al 2018][research_sahin_khalili_2018]
 - [Sahmani et al 2024][research_sahmani_safaei_2024]
 - [Sahoo et al 2025][research_sahoo_swain_2025]
 - [Sahu 2005][research_sahu_2005]
 - [Sahu 2007][research_sahu_2007]
-- [Sahu et al 2025][research_sahu_sharma_2025]
 - [Sai Krupa et al 2025][research_saikrupa_chandramohanreddy_2025]
 - [Sai Naga Bharghava et al 2024][research_sainagabharghava_krishnatmali_2024]
 - [Sai Ram 2023][research_sairam_2023]
 - [Said Khoudiri 2025][research_saidkhoudiri_2025]
 - [Saigal et al 1986][research_saigal_yang_1986]
 - [Saigal et al 1987][research_saigal_yang_1987]
-- [Saito et al 2024][research_saito_kanzaki_2024]
 - [Sakaguchi 1993][research_sakaguchi_1993]
 - [Sakai and Park 2019][research_sakai_park_2019]
 - [Sakai et al 2024][research_sakai_miyagawa_2024]
@@ -18020,7 +16900,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sakamoto et al 1999][research_sakamoto_takahashi_1999]
 - [Sakamoto et al 2016][research_sakamoto_nakayama_2016]
 - [Sakamoto et al 2023][research_sakamoto_sato_2023]
-- [Sakamoto et al 2023][research_sakamoto_sato_2023_b]
 - [Sakovsky and Mihaly 2023][research_sakovsky_mihaly_2023]
 - [Sakowski et al 2019][research_sakowski_hauser_2019]
 - [Saksonov 1970][research_saksonov_1970]
@@ -18031,7 +16910,6 @@ This series has now met a designation marking an absence of demand in the
 - [Salatino et al 1999][research_salatino_volpicelli_1999]
 - [Salač 1995][research_salac_1995]
 - [Sallam and Simitses 1987][research_sallam_simitses_1987]
-- [Sallouha et al 2018][research_sallouha_azari_2018]
 - [Salmon and Einea 1995][research_salmon_einea_1995]
 - [Salpekar, S. A. 1991][research_salpekarsa_1991]
 - [Salpekar, S. A. 1993][research_salpekarsa_1993]
@@ -18039,7 +16917,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sam Daliri et al 2019][research_samdaliri_farahani_2019]
 - [Samaratunga et al 2021][research_samaratunga_severino_2021]
 - [Sambamurthi et al 1989][research_sambamurthi_warmbrod_1989]
-- [Sampling NARCliM factored stochastic data for infrastructure risk assessment 2023][research_sampling_narclim_2023]
 - [Sampson and Leven 1957][research_sampson_leven_1957]
 - [Samsudin et al 2026][research_samsudin_mdnordin_2026]
 - [Samuelson 1966][research_samuelson_1966]
@@ -18052,7 +16929,6 @@ This series has now met a designation marking an absence of demand in the
 - [San and Yin 2017][research_san_yin_2017]
 - [Sancaktar 2023][research_sancaktar_2023]
 - [Sances, Dillon J. et al 2010][research_sancesdillonj_gangadharansathyan_2010]
-- [Sanchez et al 1983][research_sanchez_strutynsky_1983]
 - [Sanchez, Christopher M. 2011][research_sanchezchristopherm_2011]
 - [Sanders 1973][research_sanders_1973]
 - [Sanders and Jr 1985][research_sanders_jr_1985]
@@ -18083,7 +16959,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sarbayev et al 2021][research_sarbayev_konovalov_2021]
 - [Sardou 2018][research_sardou_2018]
 - [Sardou 2019][research_sardou_2019]
-- [Sargent 1997][research_sargent_1997]
 - [Sarkar et al 2021][research_sarkar_amrr_2021]
 - [Sarkar et al 2021][research_sarkar_mukherjee_2021]
 - [Sarma and Adeli 1996][research_sarma_adeli_1996]
@@ -18117,8 +16992,6 @@ This series has now met a designation marking an absence of demand in the
 - [Saxena 2024][research_saxena_2024]
 - [Saxena et al 2023][research_saxena_soni_2023]
 - [Sayer 1986][research_sayer_1986]
-- [Sayevand 2019][research_sayevand_2019]
-- [Sağbaş and Gürkan 2021][research_sagbas_gurkan_2021]
 - [Scarlatella et al 2024][research_scarlatella_guadagnini_2024]
 - [Scarpa and Tomlin 2000][research_scarpa_tomlin_2000]
 - [Schacht 1975][research_schacht_1975]
@@ -18146,7 +17019,6 @@ This series has now met a designation marking an absence of demand in the
 - [Schlothauer et al 2020][research_schlothauer_schwob_2020]
 - [Schmidt and Mann 1996][research_schmidt_mann_1996]
 - [Schmidt and Velapoldi 1996][research_schmidt_velapoldi_1996]
-- [Schmidt and Walker 1960][research_schmidt_walker_1960]
 - [Schmidt et al 2026][research_schmidt_tao_2026]
 - [Schmit 1979][research_schmit_1979]
 - [Schmit, Jr. 1977][research_schmitjr_1977]
@@ -18165,7 +17037,6 @@ This series has now met a designation marking an absence of demand in the
 - [Schnabel and Brophy 2018][research_schnabel_brophy_2018]
 - [Schneider 1978][research_schneider_1978]
 - [Schneider and Breda 2024][research_schneider_breda_2024]
-- [Schneider et al 1988][research_schneider_crescenzi_1988]
 - [Schnell 1974][research_schnell_1974]
 - [Schoeler 1978][research_schoeler_1978]
 - [Schoenman, L. 1982][research_schoenmanl_1982]
@@ -18184,7 +17055,6 @@ This series has now met a designation marking an absence of demand in the
 - [Schrage and Arterburn 2016][research_schrage_arterburn_2016]
 - [Schraml 1995][research_schraml_1995]
 - [Schreiber and Ouhlal 2003][research_schreiber_ouhlal_2003]
-- [Schrems 1986][research_schrems_1986]
 - [Schroeder et al 1995][research_schroeder_frankel_1995]
 - [Schubbe and Mall 1999][research_schubbe_mall_1999]
 - [Schuecker, Clara et al 2008][research_schueckerclara_davilacarlosg_2008]
@@ -18212,7 +17082,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sclafani and Shankar 2015][research_sclafani_shankar_2015]
 - [Scott 1963][research_scott_1963]
 - [Scott and Perlee 1962][research_scott_perlee_1962]
-- [Scott et al 1983][research_scott_truswell_1983]
 - [Scully 2013][research_scully_2013]
 - [Scully and Moran 1986][research_scully_moran_1986]
 - [Scutaru et al 2018][research_scutaru_mihalcica_2018]
@@ -18232,7 +17101,6 @@ This series has now met a designation marking an absence of demand in the
 - [Seide 1974][research_seide_1974]
 - [Seide et al 1960][research_seide_weingarten_1960]
 - [Seifried 2001][research_seifried_2001]
-- [Seismic Analysis of Cylindrical Liquid Storage Tank 2015][research_seismic_analysis_2015]
 - [Seitz and Gerlinger 2021][research_seitz_gerlinger_2021]
 - [Sekar and Vasanthakumar 2020][research_sekar_vasanthakumar_2020]
 - [Selbmann et al 2024][research_selbmann_gruber_2024]
@@ -18253,11 +17121,8 @@ This series has now met a designation marking an absence of demand in the
 - [Sensburg et al 1988][research_sensburg_fuellhas_1988]
 - [Senthilkumar et al 2026][research_senthilkumar_prathapaneni_2026]
 - [Seo et al 2023][research_seo_lee_2023]
-- [Seo et al 2023][research_seo_lim_2023]
 - [Seong et al 2016][research_seong_jin_2016]
 - [Sepka and Samareh 2015][research_sepka_samareh_2015]
-- [Sepulveda et al 2021][research_sepulveda_jenkins_2021]
-- [Serakos 1992][research_serakos_1992]
 - [Sergeyev and Mróz 1998][research_sergeyev_mroz_1998]
 - [Sergeyev and Pedersen 1996][research_sergeyev_pedersen_1996]
 - [Sergi et al 2025][research_sergi_ierardo_2025]
@@ -18269,7 +17134,6 @@ This series has now met a designation marking an absence of demand in the
 - [Seshadri and Krishnamurthy 2017][research_seshadri_krishnamurthy_2017]
 - [Sessim et al 2024][research_sessim_shi_2024]
 - [Sethuraman and Maiti 1989][research_sethuraman_maiti_1989]
-- [Setting The Standard for e-Mobility Heating Applications 2024][research_setting_the_2024]
 - [Sever et al 2025][research_sever_demir_2025]
 - [Sevy and Earls 1970][research_sevy_earls_1970]
 - [Sewell 1966][research_sewell_1966]
@@ -18289,17 +17153,12 @@ This series has now met a designation marking an absence of demand in the
 - [Shalkhauser, Kurt A. et al 2014][research_shalkhauserkurta_youngdanielp_2014]
 - [Shams et al 2020][research_shams_shah_2020]
 - [Shang 2000][research_shang_2000]
-- [Shang 2024][research_shang_2024]
 - [Shang and Hsu 1984][research_shang_hsu_1984]
 - [Shank et al 2023][research_shank_thomas_2023]
-- [Shank et al 2023][research_shank_thomas_2023_b]
 - [Shao et al 2016][research_shao_nie_2016]
 - [Shao et al 2024][research_shao_wang_2024]
-- [Shaqour et al 2022][research_shaqour_gorecka_2022]
 - [Sharan et al 2025][research_sharan_srivastava_2025]
-- [Sharif and Mumtaz 2018][research_sharif_mumtaz_2018]
 - [Sharif et al 2020][research_sharif_sun_2020]
-- [Shariff and Bezensek 2024][research_shariff_bezensek_2024]
 - [Sharifi and Popov 1972][research_sharifi_popov_1972]
 - [Sharma 2026][research_sharma_2026]
 - [Sharma and Singh 2023][research_sharma_singh_2023]
@@ -18309,7 +17168,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sharp et al 1992][research_sharp_coleman_1992]
 - [Sharpe, E. L. and Jackson, L. R. 1975][research_sharpeel_jacksonlr_1975]
 - [Shaver et al 1972][research_shaver_masters_1972]
-- [Shaw and Iii 1990][research_shaw_iii_1990]
 - [Shaw and Womack 1984][research_shaw_womack_1984]
 - [Shaw and Womack 1984][research_shaw_womack_1984_b]
 - [Shaw et al 1952][research_shaw_bodner_1952]
@@ -18323,7 +17181,6 @@ This series has now met a designation marking an absence of demand in the
 - [Shechtman 1981][research_shechtman_1981]
 - [Sheinman and Goldfeld 2001][research_sheinman_goldfeld_2001]
 - [Shelton and Tucker 1975][research_shelton_tucker_1975]
-- [Shen 2022][research_shen_2022]
 - [Shen 2024][research_shen_2024]
 - [Shen and Liu 2020][research_shen_liu_2020]
 - [Shen and Pan 2021][research_shen_pan_2021]
@@ -18334,9 +17191,7 @@ This series has now met a designation marking an absence of demand in the
 - [Shen et al 2023][research_shen_zhou_2023]
 - [Shen et al 2024][research_shen_li_2024]
 - [Shen et al 2024][research_shen_zhou_2024]
-- [Shen et al 2025][research_shen_jiang_2025]
 - [Shen et al 2025][research_shen_zhou_2025]
-- [Sheng 2021][research_sheng_2021]
 - [Sheng et al 2021][research_sheng_lu_2021]
 - [Sheppard, Gene 2005][research_sheppardgene_2005]
 - [Sherman 1974][research_sherman_1974]
@@ -18354,9 +17209,7 @@ This series has now met a designation marking an absence of demand in the
 - [Shi et al 2022][research_shi_cheng_2022]
 - [Shi et al 2023][research_shi_peng_2023]
 - [Shi et al 2023][research_shi_zhu_2023]
-- [Shi et al 2024][research_shi_liedl_2024]
 - [Shi et al 2025][research_shi_yang_2025]
-- [Shi et al 2025][research_shi_zhang_2025]
 - [Shiao, Michael C. et al 1996][research_shiaomichaelc_singhalsurendran_1996]
 - [Shiau 1988][research_shiau_1988]
 - [Shibafuji 1997][research_shibafuji_1997]
@@ -18370,7 +17223,6 @@ This series has now met a designation marking an absence of demand in the
 - [Shilwant and Mahulikar 2024][research_shilwant_mahulikar_2024]
 - [Shim and Lee 2025][research_shim_lee_2025]
 - [Shimakawa et al 2004][research_shimakawa_nakamura_2004]
-- [Shimichev and Rotanova 2022][research_shimichev_rotanova_2022]
 - [Shimizu and Qu 2026][research_shimizu_qu_2026]
 - [Shimmy 2026][research_shimmy_2026]
 - [Shimoda et al 2001][research_shimoda_morimoto_2001]
@@ -18391,7 +17243,6 @@ This series has now met a designation marking an absence of demand in the
 - [Shivakumar and Whitcomb 1985][research_shivakumar_whitcomb_1985]
 - [Shivank et al 2023][research_shivank_harshul_2023]
 - [Shkanov 1970][research_shkanov_1970]
-- [Shkolnik 1961][research_shkolnik_1961]
 - [Shoales and Fawaz 2004][research_shoales_fawaz_2004]
 - [Shockey et al 2003][research_shockey_simons_2003]
 - [Shoji, J. M. 1981][research_shojijm_1981]
@@ -18399,8 +17250,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sholder et al 2024][research_sholder_plumer_2024]
 - [Shope 1991][research_shope_1991]
 - [Shope and Spinetti 1993][research_shope_spinetti_1993]
-- [Shopland 1970][research_shopland_1970]
-- [Shore and Kirby 2009][research_shore_kirby_2009]
 - [Short 1987][research_short_1987]
 - [Shou et al 2021][research_shou_xu_2021]
 - [Should Design Codes Consider Fracture Mechanics Size Effect? 1992][research_should_design_1992]
@@ -18410,7 +17259,6 @@ This series has now met a designation marking an absence of demand in the
 - [Shrestha et al 2026][research_shrestha_karuppiah_2026]
 - [Shrimpton and Angus 1988][research_shrimpton_angus_1988]
 - [Shrivastava and Reddy 1976][research_shrivastava_reddy_1976]
-- [Shrotriya et al 2001][research_shrotriya_sottos_2001]
 - [Shtessel et al 2000][research_shtessel_hall_2000]
 - [Shtessel, Yuri 1999][research_shtesselyuri_1999]
 - [Shtessel, Yuri B. and Hall, Charles E. 2000][research_shtesselyurib_hallcharlese_2000]
@@ -18429,12 +17277,10 @@ This series has now met a designation marking an absence of demand in the
 - [Shyr and Pan 2004][research_shyr_pan_2004]
 - [Siby and S 2022][research_siby_s_2022]
 - [Sichel and Yin 1966][research_sichel_yin_1966]
-- [Sicilia et al 2016][research_sicilia_khalkho_2016]
 - [Siddharth et al 2026][research_siddharth_saxena_2026]
 - [Siddique et al 2024][research_siddique_sinha_2024]
 - [Sidharth and Dwivedi 2026][research_sidharth_dwivedi_2026]
 - [Sidor et al 2017][research_sidor_braun_2017]
-- [Sieber 1975][research_sieber_1975]
 - [Sieder et al 2019][research_sieder_propst_2019]
 - [Sielemann et al 2025][research_sielemann_renuke_2025]
 - [Sieradzki and Ficalora 1980][research_sieradzki_ficalora_1980]
@@ -18514,13 +17360,11 @@ This series has now met a designation marking an absence of demand in the
 - [Sirenko 2025][research_sirenko_2025]
 - [Sisak et al 1991][research_sisak_ayer_1991]
 - [Sisemore et al 1999][research_sisemore_smaili_1999]
-- [Sissom 1965][research_sissom_1965]
 - [Siswanti et al 2025][research_siswanti_zubaydi_2025]
 - [Sithara and Shenil 2022][research_sithara_shenil_2022]
 - [Sitler and Takeuchi 2020][research_sitler_takeuchi_2020]
 - [Siva Sankara Rao et al 2021][research_sivasankararao_mallikarjunarao_2021]
 - [Sivan and Pandian 2018][research_sivan_pandian_2018]
-- [Sivaraj et al 2021][research_sivaraj_parammasivam_2021]
 - [Sivells 1963][research_sivells_1963]
 - [Sjoberg and Cornu 2001][research_sjoberg_cornu_2001]
 - [Skalden et al 2025][research_skalden_ehresmann_2025]
@@ -18529,7 +17373,6 @@ This series has now met a designation marking an absence of demand in the
 - [Skolnik and Putnam 2022][research_skolnik_putnam_2022_b]
 - [Skopinsky 1997][research_skopinsky_1997]
 - [Skordahl and Mahinfalah 1996][research_skordahl_mahinfalah_1996]
-- [Skromulis 2020][research_skromulis_2020]
 - [Skvortsov et al 2003][research_skvortsov_bozhevolnaya_2003]
 - [Slankard and Nash 1953][research_slankard_nash_1953]
 - [Slattery et al 2016][research_slattery_mccarthy_2016]
@@ -18555,11 +17398,9 @@ This series has now met a designation marking an absence of demand in the
 - [Smith 1980][research_smith_1980]
 - [Smith 1983][research_smith_1983]
 - [Smith 1983][research_smith_1983_b]
-- [Smith 2001][research_smith_2001]
 - [Smith 2002][research_smith_2002]
 - [Smith and Shivakumar 2000][research_smith_shivakumar_2000]
 - [Smith and Shivakumar 2001][research_smith_shivakumar_2001]
-- [Smith et al 1979][research_smith_bourland_1979]
 - [Smith et al 1998][research_smith_amitay_1998]
 - [Smith et al 2021][research_smith_bagliani_2021]
 - [Smith et al 2026][research_smith_handford_2026]
@@ -18567,7 +17408,6 @@ This series has now met a designation marking an absence of demand in the
 - [Smith, Stephen C. et al 1996][research_smithstephenc_shirakatanorm_1996]
 - [Smith, T. D. et al 1998][research_smithtd_steffencjjr_1998]
 - [Smith, Timothy D. et al 1998][research_smithtimothyd_steffenchristopherjjr_1998]
-- [Snelson 1984][research_snelson_1984]
 - [Snyder 1965][research_snyder_1965]
 - [Snyder 1993][research_snyder_1993]
 - [Snyder and Schultz 1973][research_snyder_schultz_1973]
@@ -18581,23 +17421,16 @@ This series has now met a designation marking an absence of demand in the
 - [Soderquist, Joseph R. et al 1992][research_soderquistjosephr_nerilawrencem_1992_b]
 - [Sofiyev 2002][research_sofiyev_2002]
 - [Software for pressure vessel design is upgraded 1996][research_software_for_1996]
-- [Sojka and Cornak 2018][research_sojka_cornak_2018]
 - [Solanyk, Jr. 1993][research_solanykjr_1993]
 - [Solazzi 2022][research_solazzi_2022]
 - [Solazzi and Vaccari 2022][research_solazzi_vaccari_2022]
 - [Soler 1975][research_soler_1975]
 - [Somma et al 2019][research_somma_lewis_2019]
-- [Son 1972][research_son_1972]
-- [Son 1973][research_son_1973]
 - [Son 2026][research_son_2026]
 - [Sonawane and Daniel Otero 2024][research_sonawane_danielotero_2024]
-- [Song 2008][research_song_2008]
-- [Song 2008][research_song_2008_b]
-- [Song 2008][research_song_2008_c]
 - [Song 2017][research_song_2017]
 - [Song 2023][research_song_2023]
 - [Song and Choi 2016][research_song_choi_2016]
-- [Song and Kirby 2009][research_song_kirby_2009]
 - [Song and Sun 2017][research_song_sun_2017]
 - [Song and Vinson 2002][research_song_vinson_2002]
 - [Song et al 2016][research_song_cho_2016]
@@ -18637,7 +17470,6 @@ This series has now met a designation marking an absence of demand in the
 - [Spearman, M. L. 1985][research_spearmanml_1985]
 - [Spearman, M. Leroy and Torres, Abel O. 1994][research_spearmanmleroy_torresabelo_1994]
 - [Special Section Designing for 2017][research_special_section_2017]
-- [Special theme Panel data 1992][research_special_theme_1992]
 - [Specker and Brinkley 1983][research_specker_brinkley_1983]
 - [Spencer 1987][research_spencer_1987]
 - [Spencer 1999][research_spencer_1999]
@@ -18656,7 +17488,6 @@ This series has now met a designation marking an absence of demand in the
 - [Springer 1996][research_springer_1996]
 - [Springer et al 2020][research_springer_baron_2020]
 - [Sprinks 1963][research_sprinks_1963]
-- [Sprintall 2010][research_sprintall_2010]
 - [Spurlock 1966][research_spurlock_1966]
 - [Squib et al 2021][research_squib_shirodkar_2021]
 - [Sreeyesunath and Sugathan 1994][research_sreeyesunath_sugathan_1994]
@@ -18666,7 +17497,6 @@ This series has now met a designation marking an absence of demand in the
 - [Srinaga Nikhil N and Vinoy 2015][research_srinaganikhiln_vinoy_2015]
 - [Srinivas and Dancila 2018][research_srinivas_dancila_2018]
 - [Srinivasan 1998][research_srinivasan_1998]
-- [Srinivasan 2018][research_srinivasan_2018]
 - [Srinivasan and Lehnhoff 2001][research_srinivasan_lehnhoff_2001]
 - [Srinivasan et al 2023][research_srinivasan_lakshmi_2023]
 - [Srinivasan et al 2024][research_srinivasan_preethisai_2024]
@@ -18731,7 +17561,6 @@ This series has now met a designation marking an absence of demand in the
 - [Stephens and Hanna 1991][research_stephens_hanna_1991]
 - [Sternini et al 2022][research_sternini_bottero_2022]
 - [Stetson and Lewis 1977][research_stetson_lewis_1977]
-- [Stevens 2002][research_stevens_2002]
 - [Stevens 2023][research_stevens_2023]
 - [Stevenson et al 2000][research_stevenson_bhungalia_2000]
 - [Steward 1975][research_steward_1975]
@@ -18746,13 +17575,11 @@ This series has now met a designation marking an absence of demand in the
 - [Stickler and Keller 1998][research_stickler_keller_1998]
 - [Stickley and Brownhill 1964][research_stickley_brownhill_1964]
 - [Stiftinger and Rammerstorfer 1997][research_stiftinger_rammerstorfer_1997]
-- [Stinson 1979][research_stinson_1979]
 - [Stojanović et al 2026][research_stojanovic_deng_2026]
 - [Stokes 1965][research_stokes_1965]
 - [Stokes 2004][research_stokes_2004]
 - [Stokes and Lombaerts 2023][research_stokes_lombaerts_2023]
 - [Stokes, Eric H. 2003][research_stokeserich_2003]
-- [Stoll 1961][research_stoll_1961]
 - [Stoloff et al 1976][research_stoloff_klein_1976]
 - [Stone, Howard W. and Piland, William M. 1993][research_stonehowardw_pilandwilliamm_1993]
 - [Story et al 2019][research_story_schnell_2019]
@@ -18770,7 +17597,6 @@ This series has now met a designation marking an absence of demand in the
 - [Strauss 1975][research_strauss_1975]
 - [Strauss and Bzik 1992][research_strauss_bzik_1992]
 - [Strawa, A. W. et al 1990][research_strawaaw_parkc_1990]
-- [Streamflow-based evaluation highlights discrepancies in stochastic rainfall model performance 2023][research_streamflow_based_evaluation_2023]
 - [Streetman and Graves 1963][research_streetman_graves_1963]
 - [Strength and Vibration Characteristic of Aluminum Honeycomb Sandwich Panel Structure 2002][research_strength_and_2002]
 - [Strength of sandwich beams with interface debondings 1991][research_strength_of_1991]
@@ -18784,7 +17610,6 @@ This series has now met a designation marking an absence of demand in the
 - [Stroud, W. J. et al 1977][research_stroudwj_agranoffn_1977]
 - [Strouhal, G. and Tillian, D. J. 1973][research_strouhalg_tilliandj_1973]
 - [Structural design aspects of reusable surface insulation thermal protection systems 1972][research_structural_design_1972]
-- [Structural properties and surface characteristics of cesiated carbon nitride thin films for cold electron emitter 1997][research_structural_properties_1997]
 - [Strutz, L. W. 1972][research_strutzlw_1972]
 - [Stryczniewicz et al 2025][research_stryczniewicz_chmielewski_2025]
 - [Stubbs 1964][research_stubbs_1964]
@@ -18792,13 +17617,11 @@ This series has now met a designation marking an absence of demand in the
 - [Study on Microstructure and Properties of Friction Stir Welding Aluminum-Lithium Alloy in Lapped Joints 2017][research_study_on_microstructure_2017]
 - [Stulen 1981][research_stulen_1981]
 - [Su 2017][research_su_2017]
-- [Su and Li 2023][research_su_li_2023]
 - [Su and Liu 2025][research_su_liu_2025]
 - [Su and Liu 2025][research_su_liu_2025_b]
 - [Su and Wang 2015][research_su_wang_2015]
 - [Su et al 2021][research_su_dai_2021]
 - [Su et al 2021][research_su_dai_2021_b]
-- [Su et al 2021][research_su_dai_2021_c]
 - [Su et al 2023][research_su_gui_2023]
 - [Su et al 2023][research_su_wang_2023]
 - [Su et al 2026][research_su_gui_2026]
@@ -18837,8 +17660,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sun et al 2020][research_sun_yang_2020]
 - [Sun et al 2021][research_sun_han_2021]
 - [Sun et al 2021][research_sun_li_2021]
-- [Sun et al 2022][research_sun_ren_2022]
-- [Sun et al 2022][research_sun_wu_2022]
 - [Sun et al 2023][research_sun_li_2023]
 - [Sun et al 2023][research_sun_zhang_2023]
 - [Sun et al 2023][research_sun_zhu_2023]
@@ -18851,7 +17672,6 @@ This series has now met a designation marking an absence of demand in the
 - [Sun et al 2026][research_sun_li_2026]
 - [Sun et al 2026][research_sun_sun_2026]
 - [Sundaria et al 2023][research_sundaria_bhagat_2023]
-- [Sundaria et al 2023][research_sundaria_bhagat_2023_b]
 - [Sundberg, Gale R. 1990][research_sundberggaler_1990]
 - [Sundberg, Gale R. 1990][research_sundberggaler_1990_b]
 - [Sundstrand Aviation-Denver Pacoima Ca 1966][research_sundstrandaviationdenverpacoimaca_1966]
@@ -18863,7 +17683,6 @@ This series has now met a designation marking an absence of demand in the
 - [Support to X-33/Reusable Launch 2000][research_support_to_2000]
 - [Surender et al 2021][research_surender_sudhakarareddy_2021]
 - [Suresh et al 2021][research_suresh_mark_2021]
-- [Suresh Kumar et al 2019][research_sureshkumar_sunny_2019]
 - [Suryanarayana and Sivaramakrishnan 2023][research_suryanarayana_sivaramakrishnan_2023]
 - [Suryolaksono and Bramantya 2023][research_suryolaksono_bramantya_2023]
 - [Sushchikh and Pogorelov 1970][research_sushchikh_pogorelov_1970]
@@ -18898,7 +17717,6 @@ This series has now met a designation marking an absence of demand in the
 - [Switzky 1964][research_switzky_1964]
 - [Switzky 1973][research_switzky_1973]
 - [Swope 1970][research_swope_1970]
-- [Sykora and Bachrathy 2020][research_sykora_bachrathy_2020]
 - [Symons and Thompson 1994][research_symons_thompson_1994]
 - [Symposium on Reusable Surface 1973][research_symposium_on_1973]
 - [Symposium on Reusable Surface 1973][research_symposium_on_1973_b]
@@ -18927,7 +17745,6 @@ This series has now met a designation marking an absence of demand in the
 - [Tabiei et al 2000][research_tabiei_tanov_2000]
 - [Tack, Steve et al 2010][research_tacksteve_tomekdeborahm_2010]
 - [Tackett et al 1984][research_tackett_merrell_1984]
-- [Tactical Technology Center Columbus Oh 1990][research_tacticaltechnologycentercolumbusoh_1990]
 - [Tafreshi 2004][research_tafreshi_2004]
 - [Tagscherer et al 2022][research_tagscherer_bar_2022]
 - [Taguchi et al 1993][research_taguchi_yano_1993]
@@ -18939,7 +17756,6 @@ This series has now met a designation marking an absence of demand in the
 - [Takagaki et al 2016][research_takagaki_hisada_2016]
 - [Takagi et al 2019][research_takagi_tanaka_2019]
 - [Takahashi 2026][research_takahashi_2026]
-- [Takahashi and Nakamura 2003][research_takahashi_nakamura_2003]
 - [Takahashi et al 1997][research_takahashi_mizobata_1997]
 - [Takahashi et al 2015][research_takahashi_yamada_2015]
 - [Takahashi et al 2019][research_takahashi_kataoka_2019]
@@ -18960,11 +17776,9 @@ This series has now met a designation marking an absence of demand in the
 - [Talib et al 2024][research_talib_ameen_2024]
 - [Talreja 2001][research_talreja_2001]
 - [Talreja 2018][research_talreja_2018]
-- [Talreja et al 2025][research_talreja_bahuguna_2025]
 - [Tam et al 1996][research_tam_ballinger_1996]
 - [Tamang 2025][research_tamang_2025]
 - [Tamin et al 1995][research_tamin_osborne_1995]
-- [Tan and Newton 1990][research_tan_newton_1990]
 - [Tan and Nuismer 1989][research_tan_nuismer_1989]
 - [Tan et al 2021][research_tan_jingxin_2021]
 - [Tan et al 2021][research_tan_wen_2021]
@@ -18977,7 +17791,6 @@ This series has now met a designation marking an absence of demand in the
 - [Tang 1989][research_tang_1989]
 - [Tang 1995][research_tang_1995]
 - [Tang and Burns 2000][research_tang_burns_2000]
-- [Tang and Dai 2022][research_tang_dai_2022]
 - [Tang et al 1996][research_tang_robinson_1996]
 - [Tang et al 1996][research_tang_silcox_1996]
 - [Tang et al 2018][research_tang_chen_2018]
@@ -19009,7 +17822,6 @@ This series has now met a designation marking an absence of demand in the
 - [Tapeinos et al 2019][research_tapeinos_zarouchas_2019]
 - [Tara et al 2021][research_tara_marta_2021]
 - [Taraila and Asundi 2022][research_taraila_asundi_2022]
-- [Tarasevych and Gasan 2023][research_tarasevych_gasan_2023]
 - [Tarasov et al 2015][research_tarasov_rubtsov_2015]
 - [Tariq et al 2026][research_tariq_wasim_2026]
 - [Tarmizi et al 2019][research_tarmizi_wahid_2019]
@@ -19017,13 +17829,11 @@ This series has now met a designation marking an absence of demand in the
 - [Tartabini et al 2000][research_tartabini_lepsch_2000]
 - [Tartaruga et al 2017][research_tartaruga_cooper_2017]
 - [Tasi 1966][research_tasi_1966]
-- [Tatar 1978][research_tatar_1978]
 - [Tate 1964][research_tate_1964]
 - [Tate 1969][research_tate_1969]
 - [Tate and Gillard 1975][research_tate_gillard_1975]
 - [Tatry et al 1997][research_tatry_deneu_1997]
 - [Tatsuta et al 2025][research_tatsuta_nagata_2025]
-- [Tatyana and German 2017][research_tatyana_german_2017]
 - [Tauchert 1981][research_tauchert_1981]
 - [Tauchert 1997][research_tauchert_1997]
 - [Tauhiduzzaman and Carlsson 2020][research_tauhiduzzaman_carlsson_2020]
@@ -19043,13 +17853,10 @@ This series has now met a designation marking an absence of demand in the
 - [Tayon, Wesley A. et al 2013][research_tayonwesleya_domackmarcias_2013]
 - [Teasley et al 2021][research_teasley_protz_2021]
 - [Teets 2008][research_teets_2008]
-- [Teigen and Ibrahim 2015][research_teigen_ibrahim_2015]
 - [Tekin et al 2025][research_tekin_bakir_2025]
 - [Tellier 1964][research_tellier_1964]
-- [Telmoudi and Saidi 2025][research_telmoudi_saidi_2025]
 - [Tembare et al 2025][research_tembare_salunke_2025]
 - [Teng 1996][research_teng_1996]
-- [Teng et al 2001][research_teng_chen_2001]
 - [Teng et al 2026][research_teng_lu_2026]
 - [Tenney et al 1965][research_tenney_fried_1965]
 - [Tennyson 1964][research_tennyson_1964]
@@ -19057,7 +17864,6 @@ This series has now met a designation marking an absence of demand in the
 - [Tennyson and Muggeridge 1972][research_tennyson_muggeridge_1972]
 - [Tennyson et al 1971][research_tennyson_muggeridge_1971]
 - [TENSILE BEHAVIOUR OF 3-PLY LAMINATE COMPOSITE OF SHEET METALS 2015][research_tensile_behaviour_2015]
-- [Tenuti et al 2017][research_tenuti_rocca_2017]
 - [Teoretical-experimental Comparison of the Models of Additively Manufactured Swirl Injectors Based on the Hydraulic Testing Results 2023][research_teoretical_experimental_comparison_of_2023]
 - [Teplyakov and Durgar'yan 1984][research_teplyakov_durgaryan_1984]
 - [Teplyakov and Durgar'yan 1984][research_teplyakov_durgaryan_1984_b]
@@ -19065,7 +17871,6 @@ This series has now met a designation marking an absence of demand in the
 - [Terhardt et al 2001][research_terhardt_hagemann_2001]
 - [Terzi and Nicoli 2026][research_terzi_nicoli_2026]
 - [Teschner 1983][research_teschner_1983]
-- [Tesny and Hauser 2019][research_tesny_hauser_2019]
 - [Tesny and Hauser 2019][research_tesny_hauser_2019_b]
 - [Tessler 1989][research_tessler_1989]
 - [Testov et al 2025][research_testov_morzhukhina_2025]
@@ -19084,7 +17889,6 @@ This series has now met a designation marking an absence of demand in the
 - [The design of doubly curved sandwich panels with honeycomb cores 1991][research_the_design_1991]
 - [The Development of Thermal Protection System of \Shenzohou\" Manned Spacecraft" 2004][research_the_development_2004]
 - [the Digital Twin in Aerospace 2018][research_the_digital_2018]
-- [The drawbar pull-weight ratio as a measure of vehicle performance 1970][research_the_drawbar_1970]
 - [The Flight of Rocket No. 4: 600 Mile An Hour Speed Attained By Multi-Nozzle Tandem Tank Rocket 1934][research_the_flight_1934]
 - [The strain energy release rate of composite microcracking: a variational approach 1990][research_the_strain_1990]
 - [The transverse coefficient of thermal expansion of a unidirectional composite 1992][research_the_transverse_1992]
@@ -19092,7 +17896,6 @@ This series has now met a designation marking an absence of demand in the
 - [Thebault and Designolle 2022][research_thebault_designolle_2022]
 - [Thebault et al 2023][research_thebault_designolle_2023]
 - [Theiler, Geraldine and Gradt, Thomas 2010][research_theilergeraldine_gradtthomas_2010]
-- [Thennakoon 2025][research_thennakoon_2025]
 - [Theodore F Johnson et al 2003][research_theodorefjohnson_eriksweiser_2003]
 - [Theoretical Analysis on Large-Stroke Dry Friction Vibration and Shock Isolation Composite Structure for Satellite Launch Environment 2026][research_theoretical_analysis_2026]
 - [Theriault et al 1999][research_theriault_osswald_1999]
@@ -19104,8 +17907,6 @@ This series has now met a designation marking an absence of demand in the
 - [Thibaudeau and Whitmore 2026][research_thibaudeau_whitmore_2026]
 - [Thienel et al 1998][research_thienel_lewis_1998]
 - [Thilker et al 2024][research_thilker_tramposch_2024]
-- [Thin oxide film sandwich structure photocell 1964][research_thin_oxide_1964_b]
-- [Thin oxide films sandwich structure photocell 1964][research_thin_oxide_1964]
 - [Thinh et al 2020][research_thinh_bich_2020]
 - [Third Conference on Fibrous 1976][research_third_conference_1976]
 - [Third International Conference on Pressure Vessel Technology 1976][research_third_international_1976]
@@ -19127,7 +17928,6 @@ This series has now met a designation marking an absence of demand in the
 - [Thompson 1999][research_thompson_1999]
 - [Thompson 2020][research_thompson_2020]
 - [Thompson 2022][research_thompson_2022]
-- [Thompson and Andrew A. 1991][research_thompson_andrewa_1991]
 - [Thompson and Epstein 1977][research_thompson_epstein_1977]
 - [Thompson and Hrubecky 1965][research_thompson_hrubecky_1965]
 - [Thompson et al 2026][research_thompson_sitter_2026]
@@ -19144,10 +17944,8 @@ This series has now met a designation marking an absence of demand in the
 - [Thornton and Hochstein 2001][research_thornton_hochstein_2001]
 - [Throckmorton, D. A. 1981][research_throckmortonda_1981]
 - [Throop 1982][research_throop_1982]
-- [Thubrikar and Robicsek 1999][research_thubrikar_robicsek_1999]
 - [Thuillier et al 2024][research_thuillier_jha_2024]
 - [Thurman and Ingram 1969][research_thurman_ingram_1969]
-- [Thurston et al 2018][research_thurston_jackson_2018]
 - [Tian 2025][research_tian_2025]
 - [Tian et al 2015][research_tian_fan_2015]
 - [Tian et al 2020][research_tian_guo_2020]
@@ -19157,7 +17955,6 @@ This series has now met a designation marking an absence of demand in the
 - [Tian et al 2025][research_tian_zhang_2025]
 - [Tian et al 2026][research_tian_xu_2026]
 - [Tianpeng et al 2024][research_tianpeng_jiarun_2024]
-- [Tibana et al 1987][research_tibana_rayman_1987]
 - [Tien and Cunnington 1972][research_tien_cunnington_1972]
 - [Tien and Cunnington 1976][research_tien_cunnington_1976]
 - [Tiffin and Friz 2021][research_tiffin_friz_2021]
@@ -19189,7 +17986,6 @@ This series has now met a designation marking an absence of demand in the
 - [Tohgo et al 2001][research_tohgo_sugiyama_2001]
 - [Tohgo et al 2001][research_tohgo_sugiyama_2001_b]
 - [Tohgo et al 2002][research_tohgo_sugiyama_2002]
-- [Tokhadze and Tkhorzhevskaya 1992][research_tokhadze_tkhorzhevskaya_1992]
 - [Tokunaga et al 2024][research_tokunaga_imura_2024]
 - [Tolstykh 1969][research_tolstykh_1969]
 - [Tomek, D. and Boyden, R. 2000][research_tomekd_boydenr_2000]
@@ -19219,7 +18015,6 @@ This series has now met a designation marking an absence of demand in the
 - [Toward in situ testing of the mechanical properties of composite panels 1989][research_toward_in_1989]
 - [Townend 1970][research_townend_1970]
 - [Townley 1968][research_townley_1968]
-- [Townsend and Sarigul-Klijn 2016][research_townsend_sarigulklijn_2016]
 - [Trabelsi et al 2019][research_trabelsi_frikha_2019]
 - [Trabelsi et al 2020][research_trabelsi_zghal_2020]
 - [Tracy 2009][research_tracy_2009]
@@ -19229,10 +18024,8 @@ This series has now met a designation marking an absence of demand in the
 - [Trajectory Shaping Guidance for Vertical Landing of Launch Vehicle Stage 2025][research_trajectory_shaping_2025]
 - [Tramposch et al 2024][research_tramposch_angermayr_2024]
 - [Tran et al 2023][research_tran_congiardo_2023]
-- [Transportation Systems Center Cambridge Ma 1990][research_transportationsystemscentercambridgema_1990]
 - [Transverse ply cracking strains in (0°, 90°) and ± θ°/90°) laminates 1987][research_transverse_ply_1987]
 - [Traudt 2024][research_traudt_2024]
-- [Traversi and Barbarek 1979][research_traversi_barbarek_1979]
 - [Trawny et al 2015][research_trawny_huertas_2015]
 - [Trefny 1999][research_trefny_1999]
 - [Trefny, Charles J. 2003][research_trefnycharlesj_2003]
@@ -19250,7 +18043,6 @@ This series has now met a designation marking an absence of demand in the
 - [Troxell and Engel 1947][research_troxell_engel_1947]
 - [Trujillo 1970][research_trujillo_1970]
 - [Truong 2025][research_truong_2025]
-- [Trushkina 2023][research_trushkina_2023]
 - [Trushlyakov and Zharikov 2017][research_trushlyakov_zharikov_2017]
 - [Trushlyakov et al 2024][research_trushlyakov_lesnyak_2024]
 - [Ts 2025][research_ts_2025]
@@ -19265,11 +18057,9 @@ This series has now met a designation marking an absence of demand in the
 - [Tsuboi et al 2018][research_tsuboi_jourdaine_2018]
 - [Tsuchiya and Mori 2004][research_tsuchiya_mori_2004]
 - [Tsuchiya and Suzuki 1998][research_tsuchiya_suzuki_1998]
-- [Tsuei and Savaş 2001][research_tsuei_savas_2001]
 - [Tsujii et al 1995][research_tsujii_tanaka_1995]
 - [Tsukahara et al 2001][research_tsukahara_yamao_2001]
 - [Tsukikawa et al 1980][research_tsukikawa_yamamoto_1980]
-- [Tsunekawa et al 1992][research_tsunekawa_setcos_1992]
 - [Tsunekawa et al 1998][research_tsunekawa_hiromura_1998]
 - [Tsurumi et al 2017][research_tsurumi_saito_2017]
 - [Tsurumoto et al 2018][research_tsurumoto_takahashi_2018]
@@ -19278,20 +18068,17 @@ This series has now met a designation marking an absence of demand in the
 - [Tu et al 2023][research_tu_yao_2023]
 - [Tuck et al 1994][research_tuck_xianhua_1994]
 - [Tucker and Schmidt 2016][research_tucker_schmidt_2016]
-- [Tucker and Warren 2022][research_tucker_warren_2022]
 - [Tuegel 2009][research_tuegel_2009]
 - [Tung and DuWaldt 1970][research_tung_duwaldt_1970]
 - [Tung and Thinh 2025][research_tung_thinh_2025]
 - [Tungikar and Rao 1994][research_tungikar_rao_1994]
 - [Tuohy 1998][research_tuohy_1998]
 - [Turhan et al 2025][research_turhan_yesilbicer_2025]
-- [Turnage 1984][research_turnage_1984]
 - [Turnaround operations analysis for 1988][research_turnaround_operations_1988]
 - [Turnwald et al 2025][research_turnwald_scharnagl_2025]
 - [Turon et al 2023][research_turon_otero_2023]
 - [Turreda et al 1991][research_turreda_hatano_1991]
 - [Tvardovskii 1991][research_tvardovskii_1991]
-- [Tverberg 1958][research_tverberg_1958]
 - [Tvergaard and Needleman 2000][research_tvergaard_needleman_2000]
 - [Tymoshenko 2026][research_tymoshenko_2026]
 - [Tzoumakis et al 2024][research_tzoumakis_fotopoulos_2024]
@@ -19301,7 +18088,6 @@ This series has now met a designation marking an absence of demand in the
 - [Udd et al 2003][research_udd_kreger_2003]
 - [Udd et al 2005][research_udd_winz_2005]
 - [Uddin et al 2026][research_uddin_lora_2026]
-- [Ueda et al 2024][research_ueda_arai_2024]
 - [Uemura and Fukunaga 1981][research_uemura_fukunaga_1981]
 - [Uemura and Morita 1971][research_uemura_morita_1971]
 - [Ueng 1984][research_ueng_1984]
@@ -19323,13 +18109,10 @@ This series has now met a designation marking an absence of demand in the
 - [Unal, Resit et al 2000][research_unalresit_morriswdouglas_2000]
 - [Unal, Resit et al 2004][research_unalresit_morriswdouglas_2004]
 - [Uncertainties in airport cost analysis and their effect on site selection 1977][research_uncertainties_in_1977]
-- [Understanding and Optimizing Vessel Propulsive Power and Fuel Use Using Duty Cycle Analysis Computations 2016][research_understanding_and_2016]
-- [Underwood 2012][research_underwood_2012]
 - [Underwood and Parker 1996][research_underwood_parker_1996]
 - [Underwood and Parker 2004][research_underwood_parker_2004]
 - [Ungar 1967][research_ungar_1967]
 - [United Launch Alliance announces new Vulcan reusable rocket 2015][research_united_launch_2015]
-- [Unknown 1986][research_unknown_1986]
 - [Unnikrishnan and Gaitonde 2018][research_unnikrishnan_gaitonde_2018]
 - [Unsteady interaction mechanism of transverse stage separation in hypersonic flow for a two-stage-to-orbit vehicle 2023][research_unsteady_interaction_2023]
 - [Uperchuk and Kurenkov 2026][research_uperchuk_kurenkov_2026]
@@ -19340,7 +18123,6 @@ This series has now met a designation marking an absence of demand in the
 - [Ustinova et al 2023][research_ustinova_siuskina_2023]
 - [Uyanna et al 2021][research_uyanna_najafi_2021]
 - [Uzair et al 2026][research_uzair_castro_2026]
-- [Uzina and Dostyan 1959][research_uzina_dostyan_1959]
 - [Uzun et al 2025][research_uzun_acikmese_2025]
 - [V and K Maharana 2022][research_v_kmaharana_2022]
 - [V and Sonkar 2025][research_v_sonkar_2025]
@@ -19359,20 +18141,16 @@ This series has now met a designation marking an absence of demand in the
 - [Valvano et al 2019][research_valvano_alaimo_2019]
 - [Vamsi Krishna et al 2020][research_vamsikrishna_narayanamurthy_2020]
 - [Van Bavel et al 2024][research_vanbavel_vandepitte_2024]
-- [Van Bavel et al 2024][research_vanbavel_vandepitte_2024_b]
 - [Van Den Berghe et al 2020][research_vandenberghe_antony_2020]
 - [van den Oever and Peijs 1994][research_vandenoever_peijs_1994]
 - [Van Der Sluys 2003][research_vandersluys_2003]
 - [Van Ghele et al 2018][research_vanghele_reulet_2018]
-- [van Ruitenbeek and Bhulai 2022][research_vanruitenbeek_bhulai_2022]
-- [van Wissenkerke et al 2024][research_vanwissenkerke_harrist_2024]
 - [van Zyl 2025][research_vanzyl_2025]
 - [Vanarelli and Gillespie Jr. 2022][research_vanarelli_gillespiejr_2022]
 - [Vander Kooi et al 1999][research_vanderkooi_park_1999]
 - [VanDerMeer, Frans P. and Davila, Carlos G. 2013][research_vandermeerfransp_davilacarlosg_2013]
 - [Vanga and Venkateswaran 2020][research_vanga_venkateswaran_2020]
 - [VanLandingham and Hall 2023][research_vanlandingham_hall_2023]
-- [VanLandingham and Hall 2023][research_vanlandingham_hall_2023_b]
 - [Vargas et al 2022][research_vargas_simoes_2022]
 - [Vargas Venegas and Huang 2021][research_vargasvenegas_huang_2021]
 - [Vargas Venegas et al 2026][research_vargasvenegas_huang_2026]
@@ -19389,8 +18167,6 @@ This series has now met a designation marking an absence of demand in the
 - [Vdovin and Reshetnikov 2000][research_vdovin_reshetnikov_2000]
 - [Veazie, D. R. et al 2000][research_veaziedr_glinseyc_2000]
 - [Veerasamy et al 2025][research_veerasamy_balakrishnan_2025]
-- [Vehicle forward lighting concept integrates aerodynamic components 1985][research_vehicle_forward_1985]
-- [Vehicle Reliability Test in Vehicle Development 2021][research_vehicle_reliability_2021]
 - [Velea and Lache 2018][research_velea_lache_2018]
 - [Velmurugan and Buragohain 2023][research_velmurugan_buragohain_2023]
 - [Venkatachari et al 2015][research_venkatachari_natarajan_2015]
@@ -19402,7 +18178,6 @@ This series has now met a designation marking an absence of demand in the
 - [Venkateswara Rao et al 1989][research_venkateswararao_yu_1989]
 - [Venter et al 1997][research_venter_haftka_1997]
 - [Ventres 1975][research_ventres_1975]
-- [Verdejo et al 2016][research_verdejo_escudero_2016]
 - [Verderaime and Vaughan 1996][research_verderaime_vaughan_1996]
 - [Veres and Tănase 2025][research_veres_tanase_2025]
 - [Verma et al 2020][research_verma_kumar_2020]
@@ -19451,7 +18226,6 @@ This series has now met a designation marking an absence of demand in the
 - [Volkov and Durgar'yan 1983][research_volkov_durgaryan_1983]
 - [Volz, M. P. et al 2014][research_volzmp_chenps_2014]
 - [Volz, Martin 2015][research_volzmartin_2015]
-- [VON Alt and Purcell 1998][research_vonalt_purcell_1998]
 - [von Bremen et al 2004][research_vonbremen_sokolinsky_2004]
 - [Von Eckartsberg et al 2025][research_voneckartsberg_goldman_2025]
 - [Vonach and Rammerstorfer 2001][research_vonach_rammerstorfer_2001]
@@ -19459,7 +18233,6 @@ This series has now met a designation marking an absence of demand in the
 - [Voon and Austin 1991][research_voon_austin_1991]
 - [Vorobyov et al 2015][research_vorobyov_abdurashidov_2015]
 - [Voss et al 2026][research_voss_frohler_2026]
-- [Vossler 1992][research_vossler_1992]
 - [Voth and Strobridge 1977][research_voth_strobridge_1977]
 - [Voth et al 1974][research_voth_steward_1974]
 - [Vrchota et al 2020][research_vrchota_prachar_2020]
@@ -19520,11 +18293,8 @@ This series has now met a designation marking an absence of demand in the
 - [Wang 2015][research_wang_2015_b]
 - [Wang 2015][research_wang_2015_c]
 - [Wang 2015][research_wang_2015_d]
-- [Wang 2018][research_wang_2018]
 - [Wang 2022][research_wang_2022]
 - [Wang 2022][research_wang_2022_b]
-- [Wang 2024][research_wang_2024]
-- [Wang 2024][research_wang_2024_b]
 - [Wang 2025][research_wang_2025]
 - [Wang and Chen 2026][research_wang_chen_2026]
 - [Wang and Croll 2015][research_wang_croll_2015]
@@ -19542,7 +18312,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wang and Song 2018][research_wang_song_2018_b]
 - [Wang and Song 2025][research_wang_song_2025]
 - [Wang and Trapp 1958][research_wang_trapp_1958]
-- [Wang and van der Heijden 2020][research_wang_vanderheijden_2020]
 - [Wang and Wang 2018][research_wang_wang_2018]
 - [Wang and Wang 2024][research_wang_wang_2024]
 - [Wang and Xia 2022][research_wang_xia_2022]
@@ -19570,9 +18339,7 @@ This series has now met a designation marking an absence of demand in the
 - [Wang et al 2016][research_wang_li_2016_b]
 - [Wang et al 2016][research_wang_wu_2016]
 - [Wang et al 2016][research_wang_zhan_2016]
-- [Wang et al 2017][research_wang_chen_2017]
 - [Wang et al 2017][research_wang_huang_2017]
-- [Wang et al 2017][research_wang_li_2017]
 - [Wang et al 2017][research_wang_liu_2017]
 - [Wang et al 2018][research_wang_cao_2018]
 - [Wang et al 2018][research_wang_gao_2018]
@@ -19586,26 +18353,21 @@ This series has now met a designation marking an absence of demand in the
 - [Wang et al 2018][research_wang_zhu_2018]
 - [Wang et al 2019][research_wang_cui_2019]
 - [Wang et al 2019][research_wang_cui_2019_b]
-- [Wang et al 2019][research_wang_du_2019]
 - [Wang et al 2019][research_wang_wang_2019]
 - [Wang et al 2019][research_wang_yi_2019]
 - [Wang et al 2019][research_wang_zhang_2019]
 - [Wang et al 2020][research_wang_chen_2020]
 - [Wang et al 2020][research_wang_duan_2020]
 - [Wang et al 2020][research_wang_li_2020]
-- [Wang et al 2020][research_wang_liu_2020]
 - [Wang et al 2021][research_wang_guo_2021]
 - [Wang et al 2021][research_wang_li_2021]
-- [Wang et al 2021][research_wang_lou_2021]
 - [Wang et al 2021][research_wang_luo_2021]
-- [Wang et al 2021][research_wang_tang_2021]
 - [Wang et al 2021][research_wang_wang_2021]
 - [Wang et al 2021][research_wang_zhang_2021]
 - [Wang et al 2021][research_wang_zhang_2021_c]
 - [Wang et al 2021][research_wang_zhang_2021_d]
 - [Wang et al 2021][research_wang_zhu_2021]
 - [Wang et al 2022][research_wang_ai_2022]
-- [Wang et al 2022][research_wang_choi_2022]
 - [Wang et al 2022][research_wang_hao_2022]
 - [Wang et al 2022][research_wang_liu_2022]
 - [Wang et al 2022][research_wang_mao_2022]
@@ -19618,9 +18380,7 @@ This series has now met a designation marking an absence of demand in the
 - [Wang et al 2022][research_wang_zhang_2022]
 - [Wang et al 2022][research_wang_zhao_2022]
 - [Wang et al 2022][research_wang_zhou_2022_b]
-- [Wang et al 2023][research_wang_coulibaly_2023]
 - [Wang et al 2023][research_wang_li_2023]
-- [Wang et al 2023][research_wang_li_2023_b]
 - [Wang et al 2023][research_wang_li_2023_c]
 - [Wang et al 2023][research_wang_li_2023_d]
 - [Wang et al 2023][research_wang_tang_2023]
@@ -19660,8 +18420,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wang et al 2025][research_wang_su_2025]
 - [Wang et al 2025][research_wang_sun_2025]
 - [Wang et al 2025][research_wang_wu_2025]
-- [Wang et al 2025][research_wang_zhang_2025]
-- [Wang et al 2025][research_wang_zhang_2025_b]
 - [Wang et al 2025][research_wang_zhu_2025]
 - [Wang et al 2026][research_wang_bai_2026]
 - [Wang et al 2026][research_wang_ding_2026]
@@ -19715,7 +18473,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wehbe et al 2019][research_wehbe_tatting_2019]
 - [Wehbe et al 2020][research_wehbe_tatting_2020]
 - [Wehofer and Matz 1973][research_wehofer_matz_1973]
-- [Wei and Huang 2024][research_wei_huang_2024]
 - [Wei and Mao 2025][research_wei_mao_2025]
 - [Wei and Shao 2021][research_wei_shao_2021]
 - [Wei and Zhang 2020][research_wei_zhang_2020]
@@ -19730,7 +18487,6 @@ This series has now met a designation marking an absence of demand in the
 - [Weilmuenster et al 1996][research_weilmuenster_gnoffo_1996]
 - [Weilmuenster et al 1996][research_weilmuenster_gnoffo_1996_b]
 - [Weilmuenster et al 1997][research_weilmuenster_gnoffo_1997]
-- [Weiner et al 1995][research_weiner_sarkar_1995]
 - [Weingarten 1962][research_weingarten_1962]
 - [Weingarten 1964][research_weingarten_1964]
 - [Weinmeister et al 2018][research_weinmeister_xie_2018]
@@ -19740,11 +18496,9 @@ This series has now met a designation marking an absence of demand in the
 - [Weiwei et al 2022][research_weiwei_runde_2022]
 - [Well 1989][research_well_1989]
 - [Weller et al 1970][research_weller_baruch_1970]
-- [Wells and Amaefule 1985][research_wells_amaefule_1985]
 - [Weltner 1990][research_weltner_1990]
 - [Weltner 1990][research_weltner_1990_b]
 - [Wempner and Yin 1988][research_wempner_yin_1988]
-- [Wen 2025][research_wen_2025]
 - [Wen et al 2021][research_wen_huang_2021]
 - [Wen et al 2025][research_wen_dong_2025]
 - [Wen et al 2025][research_wen_zheng_2025]
@@ -19791,7 +18545,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wignall and Houlden 2020][research_wignall_houlden_2020]
 - [Wijayatunga et al 2025][research_wijayatunga_armellin_2025]
 - [Wijayatunga et al 2026][research_wijayatunga_wallace_2026]
-- [Wijethunga et al 2024][research_wijethunga_schreckenberger_2024]
 - [Wilde 2025][research_wilde_2025]
 - [Wilden et al 2001][research_wilden_wank_2001]
 - [Wilden, K. S. et al 1997][research_wildenks_harriscg_1997]
@@ -19835,8 +18588,6 @@ This series has now met a designation marking an absence of demand in the
 - [Willy Z. Sadeh et al 1992][research_willyzsadeh_steinsture_1992]
 - [Wilson and Comparin 1970][research_wilson_comparin_1970]
 - [Wilson and Spier 1963][research_wilson_spier_1963]
-- [Wilson et al 1979][research_wilson_perkins_1979]
-- [Wilson et al 1984][research_wilson_parks_1984]
 - [Wilson et al 2002][research_wilson_adler_2002]
 - [Wilson et al 2002][research_wilson_olssonjacques_2002]
 - [Wilson et al 2016][research_wilson_currens_2016]
@@ -19874,7 +18625,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wong 1968][research_wong_1968]
 - [Wong and Brown 1965][research_wong_brown_1965]
 - [Wong and Hoadley 1971][research_wong_hoadley_1971]
-- [Wood 1954][research_wood_1954]
 - [Wood et al 1976][research_wood_gallagher_1976]
 - [Wood, J. J. and Middlemas, M. R. 2012][research_woodjj_middlemasmr_2012]
 - [Woodroffe 1975][research_woodroffe_1975]
@@ -19885,9 +18635,7 @@ This series has now met a designation marking an absence of demand in the
 - [Woolley 2015][research_woolley_2015]
 - [Woollin and Murphy 2001][research_woollin_murphy_2001]
 - [Wooten et al 1984][research_wooten_blozy_1984]
-- [Wordin 1990][research_wordin_1990]
 - [World's largest sandwich structure 2001][research_world_s_largest_2001]
-- [Wostbrock 2002][research_wostbrock_2002]
 - [Wouters et al 1991][research_wouters_doe_1991]
 - [Wowogno et al 2025][research_wowogno_tretiak_2025]
 - [Wrenn, G. et al 2001][research_wrenng_frameb_2001]
@@ -19900,8 +18648,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wu and Hao 2004][research_wu_hao_2004]
 - [Wu and Hsu 1993][research_wu_hsu_1993]
 - [Wu and Ju 2026][research_wu_ju_2026]
-- [Wu and Katada 2003][research_wu_katada_2003]
-- [Wu and Katada 2004][research_wu_katada_2004]
 - [Wu and Lepsch 2000][research_wu_lepsch_2000]
 - [Wu and Webber 1991][research_wu_webber_1991]
 - [Wu and Yu 2018][research_wu_yu_2018]
@@ -19923,7 +18669,6 @@ This series has now met a designation marking an absence of demand in the
 - [Wu et al 2019][research_wu_li_2019]
 - [Wu et al 2020][research_wu_tian_2020]
 - [Wu et al 2020][research_wu_yu_2020]
-- [Wu et al 2020][research_wu_zhu_2020]
 - [Wu et al 2021][research_wu_zhao_2021]
 - [Wu et al 2023][research_wu_wu_2023]
 - [Wu et al 2024][research_wu_chen_2024]
@@ -19951,7 +18696,6 @@ This series has now met a designation marking an absence of demand in the
 - [Xi and Cai 2024][research_xi_cai_2024]
 - [Xia and Chen 2015][research_xia_chen_2015]
 - [Xia et al 1993][research_xia_carr_1993]
-- [Xia et al 1996][research_xia_draper_1996]
 - [Xia et al 2000][research_xia_cheng_2000]
 - [Xia et al 2022][research_xia_xie_2022]
 - [Xia et al 2023][research_xia_li_2023]
@@ -19962,10 +18706,8 @@ This series has now met a designation marking an absence of demand in the
 - [Xiang et al 2025][research_xiang_zhang_2025]
 - [Xiangjun et al 2019][research_xiangjun_bingquan_2019]
 - [Xiangyang et al 2021][research_xiangyang_john_2021]
-- [Xiao 2015][research_xiao_2015]
 - [Xiao and Cinnella 2019][research_xiao_cinnella_2019]
 - [Xiao and Reitz 2007][research_xiao_reitz_2007]
-- [Xiao and Wang 2021][research_xiao_wang_2021]
 - [Xiao et al 2016][research_xiao_chen_2016]
 - [Xiao et al 2018][research_xiao_yin_2018]
 - [Xiao et al 2025][research_xiao_gong_2025]
@@ -19994,7 +18736,6 @@ This series has now met a designation marking an absence of demand in the
 - [Xing et al 2022][research_xing_le_2022]
 - [Xinguo et al 2024][research_xinguo_ting_2024]
 - [Xinyu et al 2025][research_xinyu_kelong_2025]
-- [Xinze Xi et al 2015][research_xinzexi_gengyang_2015]
 - [Xiong 1998][research_xiong_1998]
 - [Xiong 2002][research_xiong_2002]
 - [Xiong 2018][research_xiong_2018]
@@ -20018,8 +18759,6 @@ This series has now met a designation marking an absence of demand in the
 - [Xu et al 1995][research_xu_zhang_1995]
 - [Xu et al 2001][research_xu_qiao_2001]
 - [Xu et al 2015][research_xu_li_2015]
-- [Xu et al 2017][research_xu_fu_2017]
-- [Xu et al 2017][research_xu_zeng_2017]
 - [Xu et al 2018][research_xu_yang_2018]
 - [Xu et al 2019][research_xu_hollingsworth_2019]
 - [Xu et al 2019][research_xu_li_2019]
@@ -20060,7 +18799,6 @@ This series has now met a designation marking an absence of demand in the
 - [Yadav and Verma 1997][research_yadav_verma_1997]
 - [Yadav and Verma 1998][research_yadav_verma_1998]
 - [Yadav and Verma 2001][research_yadav_verma_2001]
-- [Yadav et al 2016][research_yadav_karthikeyan_2016]
 - [Yaddala Somasekhar 2024][research_yaddalasomasekhar_2024]
 - [Yaghi et al 2019][research_yaghi_ayvarsoberanis_2019]
 - [Yagodnikov 2022][research_yagodnikov_2022]
@@ -20076,7 +18814,6 @@ This series has now met a designation marking an absence of demand in the
 - [Yamada et al 2020][research_yamada_yamamoto_2020]
 - [Yamada et al 2022][research_yamada_nagata_2022]
 - [Yamakawa et al 1976][research_yamakawa_yamamoto_1976]
-- [Yamamoto and Utebi 2021][research_yamamoto_utebi_2021]
 - [Yamamoto and Yamada 2019][research_yamamoto_yamada_2019]
 - [Yamamoto et al 1969][research_yamamoto_watanabe_1969]
 - [Yamashiro et al 2024][research_yamashiro_munenaga_2024]
@@ -20085,7 +18822,6 @@ This series has now met a designation marking an absence of demand in the
 - [Yamazaki and Tsubosaka 1997][research_yamazaki_tsubosaka_1997]
 - [Yampol'skii et al 1980][research_yampolskii_krentsel_1980]
 - [Yan and Li 2026][research_yan_li_2026]
-- [Yan and Qiu 2019][research_yan_qiu_2019]
 - [Yan et al 2018][research_yan_huang_2018]
 - [Yan et al 2020][research_yan_wang_2020]
 - [Yan et al 2022][research_yan_liu_2022]
@@ -20105,9 +18841,7 @@ This series has now met a designation marking an absence of demand in the
 - [Yang 2022][research_yang_2022]
 - [Yang 2025][research_yang_2025_b]
 - [Yang 2025][research_yang_2025_c]
-- [Yang and Li 2025][research_yang_li_2025]
 - [Yang and Liu 2020][research_yang_liu_2020]
-- [Yang and Negash 2023][research_yang_negash_2023]
 - [Yang and West 2015][research_yang_west_2015]
 - [Yang et al 2001][research_yang_ding_2001]
 - [Yang et al 2003][research_yang_chang_2003]
@@ -20118,13 +18852,11 @@ This series has now met a designation marking an absence of demand in the
 - [Yang et al 2017][research_yang_yan_2017]
 - [Yang et al 2019][research_yang_xiang_2019]
 - [Yang et al 2019][research_yang_yu_2019]
-- [Yang et al 2020][research_yang_ai_2020]
 - [Yang et al 2021][research_yang_cao_2021]
 - [Yang et al 2021][research_yang_li_2021]
 - [Yang et al 2023][research_yang_jiang_2023]
 - [Yang et al 2023][research_yang_liu_2023]
 - [Yang et al 2023][research_yang_patel_2023]
-- [Yang et al 2023][research_yang_patel_2023_b]
 - [Yang et al 2023][research_yang_tao_2023]
 - [Yang et al 2024][research_yang_chen_2024]
 - [Yang et al 2024][research_yang_choi_2024]
@@ -20149,17 +18881,14 @@ This series has now met a designation marking an absence of demand in the
 - [Yang, H. Q. and West, Jeff 2015][research_yanghq_westjeff_2015]
 - [Yang, H. Q. and West, Jeff 2016][research_yanghq_westjeff_2016]
 - [Yano and Yamaoka 1995][research_yano_yamaoka_1995]
-- [Yanpeng et al 2023][research_yanpeng_ling_2023]
 - [Yao 1962][research_yao_1962]
 - [Yao 1965][research_yao_1965]
-- [Yao and Moawad 2019][research_yao_moawad_2019]
 - [Yao and Qu 2022][research_yao_qu_2022]
 - [Yao and Xia 2023][research_yao_xia_2023]
 - [Yao and Xia 2024][research_yao_xia_2024]
 - [Yao and Xin 2023][research_yao_xin_2023]
 - [Yao and Yang 2022][research_yao_yang_2022]
 - [Yao et al 2022][research_yao_qi_2022]
-- [Yao et al 2023][research_yao_cai_2023]
 - [Yao et al 2025][research_yao_wu_2025]
 - [Yao et al 2026][research_yao_wang_2026]
 - [Yap et al 2023][research_yap_yeilaghitamijani_2023]
@@ -20167,16 +18896,13 @@ This series has now met a designation marking an absence of demand in the
 - [Yapa Hamillage et al 2022][research_yapahamillage_klimm_2022]
 - [Yapa Hamillage et al 2022][research_yapahamillage_leung_2022]
 - [Yarai et al 1994][research_yarai_yokoyama_1994]
-- [Yarom et al 2020][research_yarom_scherler_2020]
 - [Yas and Hojjati 2026][research_yas_hojjati_2026]
 - [Yassin and Hojjati 2017][research_yassin_hojjati_2017]
 - [Yasuda and Rosengren 1970][research_yasuda_rosengren_1970]
 - [Yasui et al 2020][research_yasui_ogura_2020]
 - [Yau et al 2025][research_yau_lai_2025]
 - [Yazdani Sarvestani 2015][research_yazdanisarvestani_2015]
-- [Ye 2004][research_ye_2004]
 - [Ye et al 2017][research_ye_schrijer_2017]
-- [Ye et al 2019][research_ye_butler_2019]
 - [Ye et al 2021][research_ye_li_2021]
 - [Ye et al 2024][research_ye_zhao_2024]
 - [Ye et al 2025][research_ye_hu_2025]
@@ -20196,11 +18922,9 @@ This series has now met a designation marking an absence of demand in the
 - [Yi et al 2025][research_yi_ruedigerflore_2025]
 - [Yilbas 1998][research_yilbas_1998]
 - [Yin 1986][research_yin_1986]
-- [Yin and Kang 2025][research_yin_kang_2025]
 - [Yin et al 2022][research_yin_wang_2022]
 - [Yin et al 2023][research_yin_jiang_2023]
 - [Yin et al 2025][research_yin_sun_2025]
-- [Yin et al 2025][research_yin_zhai_2025]
 - [Yin et al 2026][research_yin_chen_2026]
 - [Yiğid and Şen 2025][research_yigid_sen_2025]
 - [Yokozeki et al 2002][research_yokozeki_aoki_2002]
@@ -20233,7 +18957,6 @@ This series has now met a designation marking an absence of demand in the
 - [Yu and Yuan 2016][research_yu_yuan_2016]
 - [Yu et al 2018][research_yu_tian_2018]
 - [Yu et al 2019][research_yu_batra_2019]
-- [Yu et al 2020][research_yu_hou_2020]
 - [Yu et al 2020][research_yu_zhang_2020]
 - [Yu et al 2021][research_yu_wahls_2021]
 - [Yu et al 2023][research_yu_chen_2023]
@@ -20248,7 +18971,6 @@ This series has now met a designation marking an absence of demand in the
 - [Yu et al 2024][research_yu_liu_2024]
 - [Yu et al 2024][research_yu_liu_2024_b]
 - [Yu et al 2024][research_yu_yu_2024]
-- [Yu et al 2024][research_yu_zhang_2024]
 - [Yu et al 2024][research_yu_zhao_2024]
 - [Yu et al 2025][research_yu_choi_2025]
 - [Yu et al 2025][research_yu_huang_2025]
@@ -20266,7 +18988,6 @@ This series has now met a designation marking an absence of demand in the
 - [Yuan et al 2018][research_yuan_zhu_2018]
 - [Yuan et al 2022][research_yuan_thomson_2022]
 - [Yuan et al 2023][research_yuan_li_2023]
-- [Yuan et al 2024][research_yuan_najafimarghmaleki_2024]
 - [Yuan et al 2025][research_yuan_cheng_2025]
 - [Yuan et al 2026][research_yuan_liu_2026]
 - [Yuceoglu and O¨zerciyes 2004][research_yuceoglu_ozerciyes_2004]
@@ -20315,7 +19036,6 @@ This series has now met a designation marking an absence of demand in the
 - [Zappino et al 2019][research_zappino_zobeiry_2019]
 - [Zappino et al 2026][research_zappino_filippi_2026]
 - [Zarader and Ning 2023][research_zarader_ning_2023]
-- [Zarrouki et al 2021][research_zarrouki_klos_2021]
 - [Zarubin and Zimin 2022][research_zarubin_zimin_2022]
 - [Zarubin et al 2016][research_zarubin_zimin_2016]
 - [Zarubin et al 2018][research_zarubin_zimin_2018]
@@ -20325,7 +19045,6 @@ This series has now met a designation marking an absence of demand in the
 - [Zebrine et al 2022][research_zebrine_anders_2022]
 - [Zeiler et al 1999][research_zeiler_mcghee_1999]
 - [Zeiler, Thomas A. 1998][research_zeilerthomasa_1998]
-- [Zekri and Almehaideb 2002][research_zekri_almehaideb_2002]
 - [Zeman 1996][research_zeman_1996]
 - [Zeman 2002][research_zeman_2002]
 - [Zemzemoglu and Unel 2024][research_zemzemoglu_unel_2024]
@@ -20339,10 +19058,8 @@ This series has now met a designation marking an absence of demand in the
 - [Zhai et al 2016][research_zhai_qi_2016]
 - [Zhan et al 2024][research_zhan_nguyen_2024]
 - [Zhang 2000][research_zhang_2000]
-- [Zhang 2007][research_zhang_2007]
 - [Zhang 2023][research_zhang_2023]
 - [Zhang 2023][research_zhang_2023_b]
-- [Zhang 2024][research_zhang_2024]
 - [Zhang 2025][research_zhang_2025]
 - [Zhang and Herrmann 2002][research_zhang_herrmann_2002]
 - [Zhang and Li 2015][research_zhang_li_2015]
@@ -20356,16 +19073,12 @@ This series has now met a designation marking an absence of demand in the
 - [Zhang and Wang 2024][research_zhang_wang_2024_b]
 - [Zhang and Yang 2020][research_zhang_yang_2020]
 - [Zhang and Zhang 2020][research_zhang_zhang_2020]
-- [Zhang and Zhang 2024][research_zhang_zhang_2024_b]
 - [Zhang et al 1986][research_zhang_lin_1986]
 - [Zhang et al 1995][research_zhang_delale_1995]
 - [Zhang et al 1997][research_zhang_jiang_1997]
-- [Zhang et al 2015][research_zhang_heeren_2015]
 - [Zhang et al 2015][research_zhang_yang_2015]
-- [Zhang et al 2015][research_zhang_zhang_2015]
 - [Zhang et al 2016][research_zhang_wang_2016]
 - [Zhang et al 2016][research_zhang_zhang_2016]
-- [Zhang et al 2017][research_zhang_an_2017]
 - [Zhang et al 2017][research_zhang_fu_2017]
 - [Zhang et al 2017][research_zhang_huang_2017]
 - [Zhang et al 2017][research_zhang_li_2017]
@@ -20382,10 +19095,8 @@ This series has now met a designation marking an absence of demand in the
 - [Zhang et al 2017][research_zhang_zong_2017]
 - [Zhang et al 2019][research_zhang_feng_2019]
 - [Zhang et al 2019][research_zhang_sun_2019]
-- [Zhang et al 2019][research_zhang_tuo_2019]
 - [Zhang et al 2019][research_zhang_wei_2019]
 - [Zhang et al 2020][research_zhang_chen_2020]
-- [Zhang et al 2020][research_zhang_feng_2020]
 - [Zhang et al 2020][research_zhang_wang_2020]
 - [Zhang et al 2020][research_zhang_wei_2020]
 - [Zhang et al 2020][research_zhang_zhang_2020_b]
@@ -20417,7 +19128,6 @@ This series has now met a designation marking an absence of demand in the
 - [Zhang et al 2023][research_zhang_yan_2023]
 - [Zhang et al 2023][research_zhang_yang_2023]
 - [Zhang et al 2023][research_zhang_zhou_2023]
-- [Zhang et al 2024][research_zhang_chen_2024]
 - [Zhang et al 2024][research_zhang_fan_2024]
 - [Zhang et al 2024][research_zhang_gu_2024]
 - [Zhang et al 2024][research_zhang_gu_2024_b]
@@ -20471,21 +19181,17 @@ This series has now met a designation marking an absence of demand in the
 - [Zhao et al 2022][research_zhao_yan_2022]
 - [Zhao et al 2023][research_zhao_donough_2023]
 - [Zhao et al 2023][research_zhao_wu_2023]
-- [Zhao et al 2023][research_zhao_zhao_2023]
 - [Zhao et al 2024][research_zhao_han_2024]
 - [Zhao et al 2024][research_zhao_liu_2024]
 - [Zhao et al 2025][research_zhao_dong_2025]
-- [Zhao et al 2025][research_zhao_liu_2025]
 - [Zhao et al 2025][research_zhao_xuan_2025]
 - [Zhao et al 2026][research_zhao_chen_2026]
 - [Zhao et al 2026][research_zhao_lin_2026]
 - [Zhao et al 2026][research_zhao_shi_2026]
-- [Zhao et al 2026][research_zhao_wang_2026]
 - [Zhao et al 2026][research_zhao_wu_2026]
 - [Zhao et al 2026][research_zhao_yang_2026]
 - [Zhao et al 2026][research_zhao_zhou_2026]
 - [Zhdan and Prokhorov 2002][research_zhdan_prokhorov_2002]
-- [Zhen et al 2024][research_zhen_zhou_2024]
 - [Zheng and Liu 2018][research_zheng_liu_2018]
 - [Zheng and Xiang 2025][research_zheng_xiang_2025]
 - [Zheng et al 2000][research_zheng_li_2000]
@@ -20506,7 +19212,6 @@ This series has now met a designation marking an absence of demand in the
 - [Zhong et al 2021][research_zhong_liu_2021]
 - [Zhou 2023][research_zhou_2023]
 - [Zhou 2025][research_zhou_2025]
-- [Zhou 2026][research_zhou_2026]
 - [Zhou and Chen 2018][research_zhou_chen_2018]
 - [Zhou and Davies 1994][research_zhou_davies_1994]
 - [Zhou and Jiang 2026][research_zhou_jiang_2026]
@@ -20532,7 +19237,6 @@ This series has now met a designation marking an absence of demand in the
 - [Zhou et al 2022][research_zhou_du_2022]
 - [Zhou et al 2022][research_zhou_wang_2022]
 - [Zhou et al 2023][research_zhou_kong_2023]
-- [Zhou et al 2023][research_zhou_li_2023]
 - [Zhou et al 2023][research_zhou_li_2023_b]
 - [Zhou et al 2023][research_zhou_yi_2023]
 - [Zhou et al 2024][research_zhou_bai_2024]
@@ -20542,13 +19246,10 @@ This series has now met a designation marking an absence of demand in the
 - [Zhou et al 2024][research_zhou_niu_2024_b]
 - [Zhou et al 2025][research_zhou_han_2025]
 - [Zhou et al 2025][research_zhou_wang_2025]
-- [Zhou et al 2025][research_zhou_zhang_2025]
-- [Zhou et al 2025][research_zhou_zhang_2025_b]
 - [Zhou et al 2026][research_zhou_xia_2026]
 - [Zhu 2022][research_zhu_2022]
 - [Zhu 2024][research_zhu_2024]
 - [Zhu 2026][research_zhu_2026]
-- [Zhu 2026][research_zhu_2026_b]
 - [Zhu and Sankar 2004][research_zhu_sankar_2004]
 - [Zhu and Shah 2004][research_zhu_shah_2004]
 - [Zhu et al 2015][research_zhu_dong_2015]
@@ -20561,7 +19262,6 @@ This series has now met a designation marking an absence of demand in the
 - [Zhu et al 2021][research_zhu_wang_2021]
 - [Zhu et al 2021][research_zhu_xi_2021]
 - [Zhu et al 2022][research_zhu_liu_2022]
-- [Zhu et al 2022][research_zhu_xu_2022]
 - [Zhu et al 2023][research_zhu_guan_2023]
 - [Zhu et al 2023][research_zhu_hong_2023]
 - [Zhu et al 2023][research_zhu_li_2023]
@@ -20576,22 +19276,18 @@ This series has now met a designation marking an absence of demand in the
 - [Ziegler 1963][research_ziegler_1963]
 - [Ziglar 2025][research_ziglar_2025]
 - [Ziglar 2025][research_ziglar_2025_b]
-- [Ziglar 2025][research_ziglar_2025_c]
 - [Ziglar 2026][research_ziglar_2026]
 - [Ziglar and Elsperman 2026][research_ziglar_elsperman_2026]
 - [Zimmerli et al 2025][research_zimmerli_arkwright_2025]
-- [Zimmermann et al 2018][research_zimmermann_winker_2018]
 - [Zimpfer 1999][research_zimpfer_1999]
 - [Zinn 1972][research_zinn_1972]
 - [Zinn 1973][research_zinn_1973]
 - [Zmijanovic et al 2016][research_zmijanovic_leger_2016]
-- [Zoll 1994][research_zoll_1994]
 - [Zolla et al 2025][research_zolla_mendes_2025]
 - [Zolla et al 2026][research_zolla_zavoli_2026]
 - [Zollfrank et al 1989][research_zollfrank_friedrich_1989]
 - [Zong et al 2024][research_zong_liu_2024]
 - [Zotov et al 2022][research_zotov_pashkov_2022]
-- [Zou 2025][research_zou_2025]
 - [Zou et al 2015][research_zou_wang_2015]
 - [Zubrin and Clapp 1996][research_zubrin_clapp_1996]
 - [Zubrin et al 1997][research_zubrin_clapp_1997]
@@ -20613,7 +19309,6 @@ This series has now met a designation marking an absence of demand in the
 - [Özerciyes and Yuceoglu 2002][research_ozerciyes_yuceoglu_2002]
 - [Śliwa-Wieczorek and Zając 2021][research_sliwawieczorek_zajac_2021]
 - [Şenalp 2015][research_senalp_2015]
-- [Țone and Păvăloiu 2025][research_tone_pavaloiu_2025]
 - [Сagle 2026][research_agle_2026]
 - [“Plug nozzle” rocket engine 1961][research_plug_nozzle_1961]
 
@@ -20634,23 +19329,17 @@ This series has now met a designation marking an absence of demand in the
 [research_4880_pumping_1982]: https://doi.org/10.1016/0042-207x(82)90022-7
 [research_5451015_crashworthy_1996]: https://doi.org/10.1016/1359-835x(96)81202-4
 [research_569_thin_1964]: https://doi.org/10.1016/0042-207x(64)90353-7
-[research_896_thin_1964]: https://doi.org/10.1016/0042-207x(64)90210-6
 [research_902_stirling_1975]: https://doi.org/10.1016/0042-207x(75)90068-8
 [research_96_01065_cryogenic_1996]: https://doi.org/10.1016/0140-6701(96)87171-2
-[research_99_02586_development_1999]: https://doi.org/10.1016/s0140-6701(99)98355-8
 [research_a_method_1988]: https://doi.org/10.1016/0010-4361(88)90056-0
-[research_a_non_stationary_2019]: https://doi.org/10.3837/tiis.2019.06.004
 [research_a_sampathkumar_2024]: https://doi.org/10.1051/matecconf/202439303004
 [research_a_sandwich_1991]: https://doi.org/10.1016/0010-4361(91)90259-j
 [research_a_stochastic_2026]: https://doi.org/10.36334/modsim2025.i03.gallant
 [research_a_theory_1990]: https://doi.org/10.1016/0010-4361(90)90391-9
 [research_aadhari_malkapuram_2018]: https://doi.org/10.4271/2018-28-0051
-[research_aaminakhadri_ramacharan_2024]: https://doi.org/10.21275/sr24817100208
-[research_aarabate_balatif_2026]: https://doi.org/10.1051/mmnp/2026003
 [research_aasen_blakseth_2025]: https://doi.org/10.1016/j.ijhydene.2025.05.134
 [research_abada_kbab_2024]: https://doi.org/10.13111/2066-8201.2024.16.2.1
 [research_abadi_hattel_2026]: https://doi.org/10.1016/j.jmsy.2026.05.003
-[research_abdeligalinier_2022]: https://doi.org/10.1071/aj21458
 [research_abdo_farhang_2001]: https://doi.org/10.1115/detc2001/vib-21499
 [research_abercrombie_2001]: https://doi.org/10.21236/ada390041
 [research_abernathy_cohen_1983]: https://doi.org/10.21236/ada134714
@@ -20668,7 +19357,6 @@ This series has now met a designation marking an absence of demand in the
 [research_acharya_wang_2025]: https://doi.org/10.12783/shm2025/37488
 [research_ackermann_1979]: https://doi.org/10.21236/ada071162
 [research_acoustic_emission_1993]: https://doi.org/10.1016/0963-8695(93)90113-9
-[research_acoustic_emission_1993_b]: https://doi.org/10.1016/0963-8695(93)90121-a
 [research_acoustoelastic_wave_1989]: https://doi.org/10.1016/0308-9126(89)91175-9
 [research_acquatellab_briese_2020]: https://doi.org/10.1016/j.actaastro.2020.04.002
 [research_adali_richter_1995]: https://doi.org/10.1007/bf01758825
@@ -20715,7 +19403,6 @@ This series has now met a designation marking an absence of demand in the
 [research_afanasenko_gulevich_1981]: https://doi.org/10.1007/bf00822121
 [research_afshari_widera_2000]: https://doi.org/10.1115/1.556198
 [research_agarwal_2023]: https://doi.org/10.2514/6.2023-71342
-[research_agarwal_2023_b]: https://doi.org/10.55640/ijre-03-04-01
 [research_agarwalb_davisrc_1974]: https://ntrs.nasa.gov/citations/19750002425
 [research_aggarwalpravin_2007]: https://ntrs.nasa.gov/citations/20070032031
 [research_agius_fox_2015]: https://doi.org/10.1016/j.compositesa.2015.02.023
@@ -20733,7 +19420,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ahmedr_1995]: https://ntrs.nasa.gov/citations/19950024192
 [research_ahmedr_1995_b]: https://ntrs.nasa.gov/citations/19950023907
 [research_ahmedr_wilhelmjm_1993]: https://ntrs.nasa.gov/citations/19940018821
-[research_ahopelto_vahala_2020]: https://doi.org/10.3390/w12010195
 [research_ahsaei_rezaeizadeh_2020]: https://doi.org/10.1016/j.engfailanal.2020.104967
 [research_ahuja_chakraborty_2019]: https://doi.org/10.2514/6.2019-3019
 [research_ai_wang_2022]: https://doi.org/10.1016/j.compstruct.2022.116073
@@ -20765,7 +19451,6 @@ This series has now met a designation marking an absence of demand in the
 [research_alam_yandek_2020]: https://doi.org/10.1016/j.jcomc.2020.100045
 [research_alamtowhid_hossain_2026]: https://doi.org/10.1016/j.rser.2026.116850
 [research_alanyalioglu_2017]: https://doi.org/10.2514/6.2017-4860
-[research_alavi_bell_2021]: https://doi.org/10.1061/9780784483626.025
 [research_albahrani_aljuboury_2018]: https://doi.org/10.1088/2053-1591/aaf6fe
 [research_albakri_albakri_2020]: https://doi.org/10.2514/1.g004934
 [research_albarrak_alkhalil_2018]: https://doi.org/10.1109/icoase.2018.8548795
@@ -20799,9 +19484,6 @@ This series has now met a designation marking an absence of demand in the
 [research_alili_kaddouri_2024]: https://doi.org/10.13111/2066-8201.2024.16.1.1
 [research_alimova_djamaletdinova_1992]: https://doi.org/10.1016/0042-207x(92)90129-k
 [research_alique_imperatore_2016]: https://doi.org/10.1016/j.ijhydene.2016.06.128
-[research_aljabri_mirza_2022]: https://doi.org/10.1109/cdma54072.2022.00034
-[research_aljbour_2026]: https://doi.org/10.2514/6.2026-5070.c1
-[research_aljbour_2026_b]: https://doi.org/10.2514/6.2026-5070
 [research_alkalali_2018]: https://doi.org/10.32852/iqjfmme.vol18.iss2.91
 [research_all_shuttle_1987]: https://ntrs.nasa.gov/citations/19910004172
 [research_allahkarami_ghassabzadehsaryazdi_2020]: https://doi.org/10.1016/j.compstruct.2020.112680
@@ -20829,7 +19511,6 @@ This series has now met a designation marking an absence of demand in the
 [research_alsayyed_foland_2022]: https://doi.org/10.1115/imece2022-88593
 [research_alseid_2025]: https://doi.org/10.52460/issc.2025.066
 [research_alsharif_sameersharbaji_2026]: https://doi.org/10.46254/gc03.20250218
-[research_althoff_barker_1990]: https://doi.org/10.21236/ada250123
 [research_altman_1974]: https://doi.org/10.21236/ada005977
 [research_altman_2008]: https://doi.org/10.21236/ada494088
 [research_altman_penner_1949]: https://doi.org/10.1063/1.1747053
@@ -20843,7 +19524,6 @@ This series has now met a designation marking an absence of demand in the
 [research_am_ju_2019]: https://doi.org/10.14445/22315373/ijmtt-v65i10p503
 [research_amani_alemrani_2023]: https://doi.org/10.1002/cepa.2498
 [research_amano_yen_2015]: https://doi.org/10.2514/6.2015-1442
-[research_amanullah_2002]: https://doi.org/10.2118/77198-ms
 [research_amateau_harrigan_1975]: https://doi.org/10.21236/ada007779
 [research_amato_leylegian_2016]: https://doi.org/10.2514/6.2016-4672
 [research_amaya_fahimi_2019]: https://doi.org/10.5006/c2019-12785
@@ -20869,10 +19549,8 @@ This series has now met a designation marking an absence of demand in the
 [research_an_xiong_2020]: https://doi.org/10.23919/ccc50068.2020.9188469
 [research_analysis_of_2019]: https://doi.org/10.21741/9781644900215-6
 [research_analysis_of_2021]: https://doi.org/10.3901/jme.2021.21.022
-[research_analysis_of_2021_b]: https://doi.org/10.47939/et.v2i12.328
 [research_analysis_of_2022]: https://doi.org/10.47939/et.v3i3(03).43
 [research_analysis_of_2024]: https://doi.org/10.36652/0869-4931-2024-78-7-329-331
-[research_analysis_on_2022]: https://doi.org/10.47939/em.v3i3(01).25
 [research_anand_jl_2025]: https://doi.org/10.52202/080560-0001
 [research_anastasiadis_simitses_1993]: https://doi.org/10.1016/0263-8223(93)90224-e
 [research_anders_nutt_2022]: https://doi.org/10.33599/nasampe/c.22.0047
@@ -20897,12 +19575,10 @@ This series has now met a designation marking an absence of demand in the
 [research_andrewsharkey_2026]: https://ntrs.nasa.gov/citations/20260006299
 [research_anfimov_1995]: https://doi.org/10.2514/6.1995-6003
 [research_ang_alexandi_2020]: https://doi.org/10.2514/6.2020-3784
-[research_ang_alexandi_2020_b]: https://doi.org/10.2514/6.2020-3784.c1
 [research_angel_hill_1983]: https://doi.org/10.1117/12.937976
 [research_angelino_1964]: https://doi.org/10.2514/3.2682
 [research_anjomrouz_karimi_2026]: https://doi.org/10.1016/j.ast.2026.112775
 [research_anju_mayadevi_2017]: https://doi.org/10.1109/icicict1.2017.8342656
-[research_anlianna_2025]: https://doi.org/10.52783/jisem.v10i49s.9951
 [research_annigeri_1987]: https://doi.org/10.21236/ada192002
 [research_ansari_bajodah_2016]: https://doi.org/10.2316/p.2016.841-007
 [research_ansari_bajodah_2016_b]: https://doi.org/10.1109/ceit.2016.7929018
@@ -20910,7 +19586,6 @@ This series has now met a designation marking an absence of demand in the
 [research_anthonyfm_helenbrookrg_1972]: https://ntrs.nasa.gov/citations/19720041746
 [research_antonakis_glenis_2025]: https://doi.org/10.2514/6.2025-1245
 [research_antonakis_glenis_2026]: https://doi.org/10.2514/1.c038389
-[research_anufriev_kuzenkov_2024]: https://doi.org/10.61852/2949-3412-2024-2-1-75-86
 [research_anzalone_erickson_2020]: https://doi.org/10.1109/aero47225.2020.9172543
 [research_aogaki_kitamura_2017]: https://doi.org/10.2514/6.2017-1212
 [research_aoki_higuchi_2022]: https://doi.org/10.1016/j.compstruct.2021.114926
@@ -20946,8 +19621,6 @@ This series has now met a designation marking an absence of demand in the
 [research_armstrong_lorentzen_1996]: https://doi.org/10.1115/imece1996-0668
 [research_armstrong_lorentzen_2000]: https://doi.org/10.1115/imece2000-1703
 [research_armyaviationboardfortruckeral_1958]: https://doi.org/10.21236/ada029807
-[research_armymaterielcommandalexandriava_1963]: https://doi.org/10.21236/ad0830275
-[research_armymaterielcommandalexandriava_1975]: https://doi.org/10.21236/ada013769
 [research_arnold_1972]: https://doi.org/10.2172/4659252
 [research_arnold_parekh_1986]: https://doi.org/10.2514/6.1986-1027
 [research_arnoldstevenm_bednarcykbretta_2007]: https://ntrs.nasa.gov/citations/20070030205
@@ -20966,17 +19639,13 @@ This series has now met a designation marking an absence of demand in the
 [research_ascani_1974]: https://doi.org/10.21236/ada002850
 [research_ascione_berardi_2015]: https://doi.org/10.1016/j.compositesb.2014.12.014
 [research_asher_2025]: https://doi.org/10.52202/083092-0055
-[research_ashmore_2001]: https://doi.org/10.21236/ada401565
 [research_ashworth_1992]: https://doi.org/10.1016/0376-7388(92)85016-c
-[research_askins_1978]: https://doi.org/10.21236/ada068007
 [research_aslan_kara_2026]: https://doi.org/10.1016/j.ijhydene.2026.153819
 [research_aslanov_doroshin_2002]: https://doi.org/10.1023/a:1015153521409
 [research_aslmahmoudi_omidbakhsh_2022]: https://doi.org/10.2139/ssrn.4115228
 [research_aso_tani_2004]: https://doi.org/10.2514/6.2004-2536
 [research_asraf_purwoko_2025]: https://doi.org/10.1557/s43580-025-01358-w
 [research_assessment_of_1968]: https://doi.org/10.1016/0042-207x(68)91080-4
-[research_assessment_of_2023]: https://doi.org/10.59287/icias.1478
-[research_assessment_system_2023]: https://doi.org/10.38007/nep.2023.040102
 [research_assmann_barfuss_2023]: https://doi.org/10.33599/nasampe/c.23.0198
 [research_assonitis_orlandini_2024]: https://doi.org/10.52202/078373-0007
 [research_ataalp_usta_2019]: https://doi.org/10.1109/rast.2019.8767782
@@ -20989,7 +19658,6 @@ This series has now met a designation marking an absence of demand in the
 [research_atliveltin_2018]: https://doi.org/10.2514/6.2018-0099
 [research_atluri_bass_1981]: https://doi.org/10.2172/5097523
 [research_atluri_kathiresan_1980]: https://doi.org/10.1115/1.3263332
-[research_attachie_amuzuvi_2022]: https://doi.org/10.11591/ijape.v11.i3.pp237-250
 [research_attukurnandagopal_chai_2020]: https://doi.org/10.1016/j.compstruct.2020.112845
 [research_atul_bhat_2016]: https://doi.org/10.1109/icacci.2016.7732083
 [research_atutis_2024]: https://doi.org/10.1115/omae2024-122123
@@ -21017,7 +19685,6 @@ This series has now met a designation marking an absence of demand in the
 [research_awais_kim_2024]: https://doi.org/10.11159/enfht24.299
 [research_awenlimobor_smith_2024]: https://doi.org/10.1016/j.addma.2024.103980
 [research_axi_symmetric_thermal_2017]: https://doi.org/10.21275/art20171281
-[research_ayadi_boulila_2016]: https://doi.org/10.1109/atsip.2016.7523142
 [research_ayanoglu_carlsson_2026]: https://doi.org/10.1177/07316844261428804
 [research_ayers_fletcher_1996]: https://doi.org/10.2514/6.1996-1830
 [research_ayran_bayezit_2025]: https://doi.org/10.23919/iccas66577.2025.11301301
@@ -21038,7 +19705,6 @@ This series has now met a designation marking an absence of demand in the
 [research_babcock_bedonian_2021]: https://doi.org/10.2514/6.2021-1778
 [research_babcockcd_sechleree_1963]: https://ntrs.nasa.gov/citations/19630008791
 [research_babilon_wygonik_1973]: https://doi.org/10.21236/ad0766335
-[research_baca_smith_1989]: https://doi.org/10.2172/5422134
 [research_bach_babiak_2003]: https://doi.org/10.31399/asm.cp.itsc2003p0249
 [research_bach_engl_2003]: https://doi.org/10.31399/asm.cp.itsc2003p0769
 [research_bachrtelfd_vanimanjl_1985]: https://ntrs.nasa.gov/citations/19850008668
@@ -21068,7 +19734,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bahtui_kidykas_2019]: https://doi.org/10.1115/omae2019-95274
 [research_bai_yang_2024]: https://doi.org/10.1016/j.ijhydene.2024.05.161
 [research_baik_grant_1998]: https://doi.org/10.31399/asm.cp.itsc1998p1193
-[research_bailey_kramer_1985]: https://doi.org/10.21236/ada186409
 [research_bailey_vandekoppel_1963]: https://doi.org/10.2514/3.1875
 [research_baileywj_festerda_1983]: https://ntrs.nasa.gov/citations/19830051564
 [research_baillif_bodepudi_1995]: https://doi.org/10.2514/6.1995-1330
@@ -21077,8 +19742,6 @@ This series has now met a designation marking an absence of demand in the
 [research_baker_1969]: https://doi.org/10.2514/3.29848
 [research_baker_1974]: https://doi.org/10.21236/ada015802
 [research_baker_1974_b]: https://doi.org/10.21236/ada036487
-[research_baker_1981]: https://doi.org/10.2118/10359-ms
-[research_baker_althuwaini_2021]: https://doi.org/10.1109/compel52922.2021.9646062
 [research_baker_bartels_2025]: https://doi.org/10.52202/083091-0059
 [research_baker_kramer_1982]: https://doi.org/10.21236/ada114013
 [research_bakerdonaldj_rogerscharles_1996]: https://ntrs.nasa.gov/citations/19960020487
@@ -21095,7 +19758,6 @@ This series has now met a designation marking an absence of demand in the
 [research_balasubramaniam_1997]: https://doi.org/10.1016/s0925-8388(96)02940-4
 [research_balasubramaniam_sikdar_2022]: https://doi.org/10.1016/j.measurement.2022.111057
 [research_balavani_akshara_2024]: https://doi.org/10.1109/icccnt61001.2024.10725589
-[research_balcewicz_2024]: https://doi.org/10.2172/2377356
 [research_balcomb_1972]: https://doi.org/10.2514/6.1972-1064
 [research_baldus_yoshimoto_2013]: https://doi.org/10.21236/ada586477
 [research_baldwin_majumdar_2023]: https://doi.org/10.2514/6.2023-0847
@@ -21126,7 +19788,6 @@ This series has now met a designation marking an absence of demand in the
 [research_banks_bihari_2001]: https://doi.org/10.21236/ada453822
 [research_banks_tooth_1989]: https://doi.org/10.1115/1.3265644
 [research_bano_fraser_2026]: https://doi.org/10.2514/6.2026-5113
-[research_bansal_tomar_2026]: https://doi.org/10.1016/j.microrel.2026.115998
 [research_bansode_kardassi_2025]: https://doi.org/10.52202/083079-0160
 [research_bao_ding_2019]: https://doi.org/10.23940/ijpe.19.02.p4.387396
 [research_bao_li_2025]: https://doi.org/10.3390/aerospace12070591
@@ -21137,7 +19798,6 @@ This series has now met a designation marking an absence of demand in the
 [research_barannikova_nikonova_2024]: https://doi.org/10.1016/j.prostr.2024.11.003
 [research_barba_hansen_2023]: https://doi.org/10.2172/1989925
 [research_barbat_prasad_1995]: https://doi.org/10.1115/imece1995-0043
-[research_barbato_belga_2000]: https://doi.org/10.3940/rina.ws.2000.04
 [research_barber_1963]: https://doi.org/10.21236/ad0407476
 [research_barber_schultheiss_1967]: https://doi.org/10.21236/ad0651429
 [research_barbera_1980]: https://doi.org/10.2514/6.1980-1576
@@ -21146,7 +19806,6 @@ This series has now met a designation marking an absence of demand in the
 [research_barbieri_lombardi_1998]: https://doi.org/10.1007/s001580050015
 [research_barbieri_stefanizzi_2025]: https://doi.org/10.1115/gt2025-153962
 [research_barbosa_upadhyaya_2020]: https://doi.org/10.1016/j.matpr.2019.12.336
-[research_barbu_cornejo_2019]: https://doi.org/10.1016/j.compstruct.2019.02.092
 [research_barca_1978]: https://doi.org/10.21236/ada070917
 [research_barlow_proschan_1966]: https://doi.org/10.21236/ad0636125
 [research_baron_smith_1995]: https://doi.org/10.2514/6.1995-1324
@@ -21168,7 +19827,6 @@ This series has now met a designation marking an absence of demand in the
 [research_batenin_bitjurin_2001]: https://doi.org/10.2514/6.2001-495
 [research_batista_ross_2026]: https://doi.org/10.1080/00102202.2026.2696819
 [research_battegazzore_perko_2024]: https://doi.org/10.52202/078371-0144
-[research_batterman_1965]: https://doi.org/10.2514/3.55203
 [research_battle_gottlieb_1964]: https://doi.org/10.2514/6.1964-663
 [research_battle_gottlieb_1966]: https://doi.org/10.2514/3.28503
 [research_batzel_bohm_2023]: https://doi.org/10.7712/150123.9802.444217
@@ -21193,7 +19851,6 @@ This series has now met a designation marking an absence of demand in the
 [research_beal_coale_1965]: https://doi.org/10.2514/6.1965-412
 [research_beans_1979]: https://doi.org/10.1115/79-gt-145
 [research_beardmore_hunston_1988]: https://doi.org/10.6028/nbs.ir.87-3686
-[research_bearman_1980]: https://doi.org/10.1115/1.3240679
 [research_becher_pedersen_1974]: https://doi.org/10.1016/0029-5493(74)90184-8
 [research_becht_2003]: https://doi.org/10.1115/pvp2003-1795
 [research_beck_beach_2003]: https://doi.org/10.21236/ada412349
@@ -21207,7 +19864,6 @@ This series has now met a designation marking an absence of demand in the
 [research_behera_khare_2026]: https://doi.org/10.2514/6.2026-1045
 [research_beilin_figovsky_1995]: https://doi.org/10.1016/0263-8223(95)80019-0
 [research_beina_2023]: https://doi.org/10.1109/icrms59672.2023.00146
-[research_beiriger_trimmer_1982]: https://doi.org/10.2172/5217353
 [research_bekeyivan_1994]: https://ntrs.nasa.gov/citations/19950036755
 [research_bekka_sellam_2015]: https://doi.org/10.1007/s00193-015-0575-2
 [research_belal_makled_2019]: https://doi.org/10.1088/1757-899x/610/1/012088
@@ -21235,13 +19891,11 @@ This series has now met a designation marking an absence of demand in the
 [research_benito_shotwell_2017]: https://doi.org/10.1109/aero.2017.7943663
 [research_benkoski_2012]: https://doi.org/10.21236/ada566925
 [research_bennaceur_badis_2026]: https://doi.org/10.1016/j.ast.2026.112235
-[research_bennett_2024]: https://doi.org/10.1364/ofc.2024.th3e.5
 [research_bennett_anderson_1978]: https://doi.org/10.1115/1.3454465
 [research_benson_mayers_1966]: https://doi.org/10.2514/6.1966-138
 [research_benson_mayers_1967]: https://doi.org/10.2514/3.4054
 [research_bensonthomasj_2014]: https://ntrs.nasa.gov/citations/20140016827
 [research_bentley_bolshinskiy_2023]: https://doi.org/10.2514/6.2023-1784
-[research_benz_nguyentrong_2026]: https://doi.org/10.1016/j.autcon.2025.106666
 [research_berg_1968]: https://doi.org/10.21236/ad0833157
 [research_berger_richard_2015]: https://doi.org/10.1115/gt2015-42457
 [research_bergmayr_kralovec_2020]: https://doi.org/10.3390/app11010211
@@ -21271,7 +19925,6 @@ This series has now met a designation marking an absence of demand in the
 [research_berzins_2014]: https://doi.org/10.21236/ada624722
 [research_besnard_chen_2002]: https://doi.org/10.2514/6.2002-4038
 [research_besuner_1975]: https://doi.org/10.2172/7138348
-[research_beye_1950]: https://doi.org/10.21236/ada954904
 [research_beylich_1996]: https://doi.org/10.2514/3.13173
 [research_beziers_denost_1989]: https://doi.org/10.2514/6.1989-2868
 [research_bhabarsarker_2002]: https://ntrs.nasa.gov/citations/20020068832
@@ -21279,7 +19932,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bhalerao_moon_1994]: https://doi.org/10.1115/imece1994-1330
 [research_bhandari_gaur_2022]: https://doi.org/10.1016/j.addma.2022.103227
 [research_bhandari_putra_2024]: https://doi.org/10.2514/6.2024-1085
-[research_bhardwaj_zou_2018]: https://doi.org/10.1115/msec2018-6688
 [research_bhasin_keshavanarayana_2022]: https://doi.org/10.12783/asc37/36389
 [research_bhasin_keshavanarayana_2024]: https://doi.org/10.2514/6.2024-1404
 [research_bhasin_konaravi_2023]: https://doi.org/10.2514/6.2023-2595
@@ -21294,12 +19946,9 @@ This series has now met a designation marking an absence of demand in the
 [research_bhupendrakumar_mohdshoaib_2022]: https://doi.org/10.34293/acsjse.v2i2.38
 [research_bhutiani_1980]: https://doi.org/10.2514/6.1980-1007
 [research_bhuyan_sperling_1999]: https://doi.org/10.1115/1.2883699
-[research_bi_wei_2026]: https://doi.org/10.1038/s41598-026-44108-0
 [research_bi_zhang_2026]: https://doi.org/10.4271/2026-99-0731
 [research_biagioli_serraino_2026]: https://doi.org/10.2514/6.2026-0807
 [research_biagioni_2000]: https://doi.org/10.2514/6.2000-3418
-[research_bian_2023]: https://doi.org/10.5220/0012800300003885
-[research_bian_zhao_2018]: https://doi.org/10.1061/9780784481660.010
 [research_bibbkarenl_walkerericl_2011]: https://ntrs.nasa.gov/citations/20110013644
 [research_bibeau_rubinstein_2000]: https://doi.org/10.2514/6.2000-4262
 [research_bibin_kumar_2022]: https://doi.org/10.1063/5.0074284
@@ -21309,7 +19958,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bigelowca_1992]: https://ntrs.nasa.gov/citations/19930001884
 [research_bigert_1994]: https://doi.org/10.2514/6.1994-3380
 [research_bilardo_2026]: https://doi.org/10.1109/aero66936.2026.11519896
-[research_bilgin_tuncer_2024]: https://doi.org/10.1109/eleco64362.2024.10847077
 [research_biliaiev_biliaieva_2024]: https://doi.org/10.5755/e01.2351-7034.2024.p299-304
 [research_biliaiev_biliaieva_2025]: https://doi.org/10.15587/1729-4061.2025.347454
 [research_billah_hassen_2020]: https://doi.org/10.1115/imece2020-23730
@@ -21351,10 +19999,8 @@ This series has now met a designation marking an absence of demand in the
 [research_blakseth_aasen_2025]: https://doi.org/10.1016/j.cryogenics.2025.104065
 [research_blandinao_johnston_2001]: https://doi.org/10.2514/6.2001-1345
 [research_blanksonisaiahm_hagsethpaul_1993]: https://ntrs.nasa.gov/citations/19930041536
-[research_blatnicky_molnar_2023]: https://doi.org/10.22616/erdev.2023.22.tf009
 [research_bleich_dimaggio_1952]: https://doi.org/10.21236/ad0001720
 [research_blelloch_coe_2000]: https://doi.org/10.2514/6.2000-1774
-[research_bley_durr_1973]: https://doi.org/10.1515/zna-1973-0806
 [research_blosser_1997]: https://doi.org/10.1063/1.51930
 [research_blosser_2002]: https://doi.org/10.2514/6.2002-503
 [research_blosser_2004]: https://doi.org/10.2514/1.9182
@@ -21367,7 +20013,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bock_peters_1970]: https://doi.org/10.2514/6.1970-268
 [research_bodansanderspatricia_bouviercarl_1998]: https://ntrs.nasa.gov/citations/19980069722
 [research_bogar_alberico_1996]: https://doi.org/10.2514/6.1996-4592
-[research_bogart_breckenridge_1981]: https://doi.org/10.21236/ada106728
 [research_bogdanovich_yushanov_1982]: https://doi.org/10.1007/bf00605254
 [research_boglis_stoica_2019]: https://doi.org/10.1109/ehb47216.2019.8970009
 [research_bogner_soni_1981]: https://doi.org/10.21236/ada107096
@@ -21394,7 +20039,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bondyra_klasztorny_2015]: https://doi.org/10.1016/j.compstruct.2015.07.008
 [research_boni_2023]: https://doi.org/10.21741/9781644902813-93
 [research_boniface_smith_1997]: https://doi.org/10.1177/002199839703101102
-[research_boo_ng_2026]: https://doi.org/10.1109/asmc69324.2026.11551246
 [research_boone_miller_2016]: https://doi.org/10.1089/space.2016.0011
 [research_boone_miller_2017]: https://doi.org/10.1089/space.2016.0026
 [research_boone_shelley_2018]: https://doi.org/10.1089/space.2017.0042
@@ -21413,8 +20057,6 @@ This series has now met a designation marking an absence of demand in the
 [research_borovik_strokach_2019]: https://doi.org/10.3390/aerospace6120129
 [research_borowskisk_sefcikrj_2015]: https://ntrs.nasa.gov/citations/20190004970
 [research_bortoloto_bizarria_2023]: https://doi.org/10.3390/aerospace10030212
-[research_boscariol_richiedei_2019]: https://doi.org/10.3390/robotics8010015
-[research_bose_1983]: https://doi.org/10.21236/ada131316
 [research_botelho_1995]: https://doi.org/10.1364/ofc.1995.thh6
 [research_botelho_martinez_2022]: https://doi.org/10.1007/s12567-022-00423-6
 [research_botila_perianu_2024]: https://doi.org/10.4028/p-7gaorq
@@ -21441,8 +20083,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bowlesde_postd_1980]: https://ntrs.nasa.gov/citations/19800020928
 [research_bowleskennethj_vannucciraymondd_1986]: https://ntrs.nasa.gov/citations/19880000739
 [research_bowleskennethj_vannucciraymondd_1989]: https://ntrs.nasa.gov/citations/19890045514
-[research_boyer_1955]: https://doi.org/10.21236/ad0084726
-[research_boyer_1957]: https://doi.org/10.21236/ad0156717
 [research_boyer_1965]: https://doi.org/10.21236/ad0621447
 [research_boylan_1963]: https://doi.org/10.21236/ad0402935
 [research_bozich_1967]: https://doi.org/10.21236/ad0656302
@@ -21452,8 +20092,6 @@ This series has now met a designation marking an absence of demand in the
 [research_bradstreet_davis_1972]: https://doi.org/10.1063/1.2948568
 [research_bragaglia_cecchini_2023]: https://doi.org/10.1016/j.compstruct.2023.117379
 [research_bramankalen_garciachristian_2015]: https://ntrs.nasa.gov/citations/20150016366
-[research_branagan_cotner_1981]: https://doi.org/10.2118/9854-ms
-[research_brand_1998]: https://doi.org/10.3141/1651-04
 [research_brandmaier_1969]: https://doi.org/10.1177/002199836900300418
 [research_brandon_britt_1978]: https://doi.org/10.2514/6.1978-841
 [research_branets_2020]: https://doi.org/10.3103/s0025654420080051
@@ -21469,7 +20107,6 @@ This series has now met a designation marking an absence of demand in the
 [research_brazhko_davletkildeev_2020]: https://doi.org/10.1615/tsagiscij.2020034055
 [research_brazzel_1963]: https://doi.org/10.21236/ad0423963
 [research_breitenfeld_geubelle_1998]: https://doi.org/10.1023/a:1007535703095
-[research_brenner_thiele_2023]: https://doi.org/10.12783/shm2023/36798
 [research_brentjes_1977]: https://doi.org/10.4271/770425
 [research_bresnahandl_1972]: https://ntrs.nasa.gov/citations/19720019044
 [research_brevault_balesdent_2017]: https://doi.org/10.1177/1063293x17737131
@@ -21501,15 +20138,10 @@ This series has now met a designation marking an absence of demand in the
 [research_broomby_trifoni_2024]: https://doi.org/10.2514/6.2024-1214
 [research_brophy_hawk_1990]: https://doi.org/10.21236/ada378098
 [research_brophy_pivirotto_1985]: https://doi.org/10.2514/6.1985-2016
-[research_brown_1955]: https://doi.org/10.21236/ad0065653
-[research_brown_1967]: https://doi.org/10.2172/4496097
-[research_brown_1971]: https://doi.org/10.2172/4742148
 [research_brown_2004]: https://doi.org/10.1115/pvp2004-2635
-[research_brown_2026]: https://doi.org/10.1177/22925503261460025
 [research_brown_baldwin_1953]: https://doi.org/10.21236/ad0014013
 [research_brown_heald_1966]: https://doi.org/10.21236/ad0641388
 [research_brown_healdjr_1966]: https://doi.org/10.2514/6.1966-2218
-[research_brown_jones_1975]: https://doi.org/10.21236/ada010100
 [research_brown_jr_1974]: https://doi.org/10.21236/ad0783851
 [research_brownandrewm_dehayemichael_2011]: https://ntrs.nasa.gov/citations/20110014607
 [research_brownhill_babilon_1969]: https://doi.org/10.21236/ad0855004
@@ -21534,7 +20166,6 @@ This series has now met a designation marking an absence of demand in the
 [research_brykczynski_youngblut_1989]: https://doi.org/10.21236/ada216862
 [research_bucaro_romano_1997]: https://doi.org/10.1115/imece1997-1024
 [research_bucharskyi_ponomarov_2025]: https://doi.org/10.15421/472503
-[research_buchsbaum_1963]: https://doi.org/10.21236/ad0402905
 [research_bucinellronaldb_1996]: https://ntrs.nasa.gov/citations/19980206156
 [research_buckling_analysis_1977]: https://doi.org/10.2514/3.7331
 [research_buckling_behavior_1983]: https://doi.org/10.2514/6.1983-877
@@ -21565,7 +20196,6 @@ This series has now met a designation marking an absence of demand in the
 [research_burmeister_2015]: https://doi.org/10.26649/musci.2015.067
 [research_burmeister_2017]: https://doi.org/10.1007/s10999-017-9390-5
 [research_burnettemf_sturmrg_1968]: https://ntrs.nasa.gov/citations/19680015750
-[research_burns_1979]: https://doi.org/10.21236/ada071019
 [research_burns_crawford_1961]: https://doi.org/10.21236/ad0267626
 [research_burolia_kamble_2026]: https://doi.org/10.1002/app.71087
 [research_burov_2016]: https://doi.org/10.1063/1.4967068
@@ -21576,7 +20206,6 @@ This series has now met a designation marking an absence of demand in the
 [research_burrows_2008]: https://doi.org/10.21236/ada492443
 [research_burschyk_silberhorn_2023]: https://doi.org/10.2514/6.2023-3522
 [research_burst_li_2025]: https://doi.org/10.3390/membranes15030068
-[research_burton_1998]: https://doi.org/10.21236/ada354763
 [research_burton_noor_1997]: https://doi.org/10.1016/s0168-874x(96)00081-9
 [research_burton_noor_1997_b]: https://doi.org/10.1016/s0045-7825(96)01196-6
 [research_burwell_hoflandjr_1965]: https://doi.org/10.2514/6.1965-554
@@ -21593,9 +20222,7 @@ This series has now met a designation marking an absence of demand in the
 [research_buzuluk_plokhikh_2020]: https://doi.org/10.48023/2411-7943_2020_8_3_4_25
 [research_buzzatto_2015]: https://doi.org/10.2514/6.2015-4675
 [research_byczkowski_rao_2023]: https://doi.org/10.2514/6.2023-1168
-[research_byczkowski_rao_2023_b]: https://doi.org/10.2514/6.2023-1168.c1
 [research_byerly_hennig_2024]: https://doi.org/10.1109/aero58975.2024.10521305
-[research_byrne_huck_1992]: https://doi.org/10.21236/ada253394
 [research_cabantildeskaplaczkiewicz_2000]: https://doi.org/10.1023/a:1026669004842
 [research_cabulis_yakushin_2019]: https://doi.org/10.1088/1757-899x/500/1/012009
 [research_cadieu_kopp_2021]: https://doi.org/10.1016/j.compstruct.2020.112907
@@ -21625,9 +20252,7 @@ This series has now met a designation marking an absence of demand in the
 [research_calvignac_tramel_2003]: https://doi.org/10.2514/6.2003-4922
 [research_calvignacjacky_tramelterri_2003]: https://ntrs.nasa.gov/citations/20030065957
 [research_cam_ozkol_2023]: https://doi.org/10.1109/rast57548.2023.10197666
-[research_camargo_silveira_2025]: https://doi.org/10.1109/lascas64004.2025.10966277
 [research_camarotti_hartwig_2022]: https://doi.org/10.1063/5.0119031
-[research_camata_spacone_2003]: https://doi.org/10.1142/9789812704863_0023
 [research_cameron_2017]: https://doi.org/10.2514/6.2017-5226
 [research_cameron_larsson_2021]: https://doi.org/10.1016/j.compstruct.2020.113312
 [research_camesellemolares_vassilopoulos_2019]: https://doi.org/10.1016/j.compstruct.2019.02.077
@@ -21646,10 +20271,8 @@ This series has now met a designation marking an absence of demand in the
 [research_can_meram_2022]: https://doi.org/10.1016/j.jmapro.2022.01.016
 [research_canary_1972]: https://doi.org/10.2172/4596262
 [research_candler_1993]: https://doi.org/10.2514/3.59985
-[research_candler_1993_b]: https://doi.org/10.2514/3.49026
 [research_candler_2001]: https://doi.org/10.21236/ada387503
 [research_canfieldstephen_1999]: https://ntrs.nasa.gov/citations/20020043249
-[research_cang_2017]: https://doi.org/10.2991/iceat-16.2017.54
 [research_canham_podlaski_2021]: https://doi.org/10.3384/ecp21181171
 [research_canoy_bettinger_2023]: https://doi.org/10.2514/6.2023-2287
 [research_cantey_1965]: https://doi.org/10.21236/ad0610615
@@ -21681,8 +20304,6 @@ This series has now met a designation marking an absence of demand in the
 [research_carmangl_1980]: https://ntrs.nasa.gov/citations/19800018908
 [research_caron_hibner_2017]: https://doi.org/10.5006/c2017-09479
 [research_carosiello_1963]: https://doi.org/10.21236/ad0406931
-[research_carpenter_1992]: https://doi.org/10.21236/ada253085
-[research_carpio_king_1981]: https://doi.org/10.1002/chin.198143015
 [research_carradori_sagliano_2026]: https://doi.org/10.2514/1.g009331
 [research_carrera_garciademiguel_2016]: https://doi.org/10.1115/imece2016-65644
 [research_carrick_mead_1998]: https://doi.org/10.21236/ada386697
@@ -21694,12 +20315,10 @@ This series has now met a designation marking an absence of demand in the
 [research_carter_1997]: https://doi.org/10.21236/ada388510
 [research_carter_2000]: https://doi.org/10.1115/1.1319662
 [research_carter_agarwal_2022]: https://doi.org/10.2514/6.2022-3431
-[research_carter_guidry_1996]: https://doi.org/10.21236/ada306358
 [research_carter_paine_1995]: https://doi.org/10.2514/6.1995-1276
 [research_carvelli_panzeri_2001]: https://doi.org/10.1115/imece2001/amd-25419
 [research_castaldi_emami_2023]: https://doi.org/10.1016/j.ifacol.2023.10.654
 [research_castel_tramecon_2025]: https://doi.org/10.2514/6.2025-2665
-[research_castelli_pilotti_2022]: https://doi.org/10.1115/gt2022-82609
 [research_castro_2004]: https://doi.org/10.1016/s0040-6090(03)01402-0
 [research_castro_bustamante_1993]: https://doi.org/10.2514/6.1993-2135
 [research_caswell_muggeridge_1971]: https://doi.org/10.2514/6.1971-145
@@ -21710,7 +20329,6 @@ This series has now met a designation marking an absence of demand in the
 [research_cau_borio_2024]: https://doi.org/10.52202/078373-0096
 [research_cavallo_pagani_2016]: https://doi.org/10.1115/imece2016-66696
 [research_cavdar_mooij_2024]: https://doi.org/10.2514/6.2024-1458
-[research_cazon_vazquez_2018]: https://doi.org/10.1016/j.polymertesting.2018.06.016
 [research_cdbabcock_eesechler_1962]: https://ntrs.nasa.gov/citations/19630000943
 [research_celebi_gurdal_2017]: https://doi.org/10.2514/6.2017-0433
 [research_celik_demirezen_2024]: https://doi.org/10.1109/access.2024.3359417
@@ -21729,8 +20347,6 @@ This series has now met a designation marking an absence of demand in the
 [research_cetinkaya_korkmaz_2026]: https://doi.org/10.1002/est2.70475
 [research_cevik_coker_2023]: https://doi.org/10.1115/imece2023-112524
 [research_ch_sp_2024]: https://doi.org/10.1109/space63117.2024.10667772
-[research_chae_yang_2018]: https://doi.org/10.1109/dac.2018.8465568
-[research_chae_yang_2018_b]: https://doi.org/10.1145/3195970.3196127
 [research_chai_1990]: https://doi.org/10.1007/bf00037155
 [research_chai_liu_2020]: https://doi.org/10.1115/pvp2020-21117
 [research_chai_lu_2026]: https://doi.org/10.1016/j.enconman.2026.121183
@@ -21758,8 +20374,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chang_1980]: https://doi.org/10.21236/ada085806
 [research_chang_huang_2022]: https://doi.org/10.3390/aerospace10010001
 [research_chang_jia_2022]: https://doi.org/10.1109/icimibd58123.2022.00026
-[research_chang_li_2020]: https://doi.org/10.1016/j.applthermaleng.2020.116010
-[research_chang_ping_2003]: https://doi.org/10.2118/80519-ms
 [research_chang_seo_2026]: https://doi.org/10.2514/6.2026-5119
 [research_chang_shen_1989]: https://doi.org/10.5006/c1989-89574
 [research_changchaulyan_choudharimeelanm_2010]: https://ntrs.nasa.gov/citations/20100002818
@@ -21790,9 +20404,7 @@ This series has now met a designation marking an absence of demand in the
 [research_chaturvedi_chen_2000]: https://doi.org/10.4028/www.scientific.net/msf.331-337.1769
 [research_chau_brun_2025]: https://doi.org/10.1016/j.finel.2025.104346
 [research_chaudhari_2017]: https://doi.org/10.22214/ijraset.2017.10144
-[research_chaudhary_krishnasamy_2019]: https://doi.org/10.4271/2019-28-0025
 [research_chaudhuri_balaramant_1986]: https://doi.org/10.2514/3.9534
-[research_chaudhuri_chakrabarty_2018]: https://doi.org/10.1109/test.2018.8624819
 [research_chaudhuri_xie_1997]: https://doi.org/10.1016/s0263-8223(97)00152-9
 [research_chaumette_cretenet_1987]: https://doi.org/10.1016/0094-5765(87)90127-5
 [research_chaurasia_najafi_2024]: https://doi.org/10.33599/nasampe/s.24.0086
@@ -21811,7 +20423,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chen_2019]: https://doi.org/10.2514/6.2019-3837
 [research_chen_2020]: https://doi.org/10.1142/s0217979220400913
 [research_chen_2023]: https://doi.org/10.54097/hset.v38i.5970
-[research_chen_2023_b]: https://doi.org/10.2298/tsci2302257c
 [research_chen_blosser_2002]: https://doi.org/10.2514/6.2002-501
 [research_chen_boelitz_1993]: https://doi.org/10.2514/6.1993-3713
 [research_chen_cao_2021]: https://doi.org/10.2514/1.a34813
@@ -21821,12 +20432,10 @@ This series has now met a designation marking an absence of demand in the
 [research_chen_chen_2016]: https://doi.org/10.2514/6.2016-1252
 [research_chen_chen_2022]: https://doi.org/10.1063/5.0113570
 [research_chen_chen_2023]: https://doi.org/10.1063/5.0146348
-[research_chen_chen_2026]: https://doi.org/10.1177/14759217251407692
 [research_chen_davalos_2004]: https://doi.org/10.1061/40722(153)87
 [research_chen_du_2016]: https://doi.org/10.1360/n972016-00194
 [research_chen_fan_2025]: https://doi.org/10.26599/tst.2024.9010018
 [research_chen_gibbons_2022]: https://doi.org/10.3390/math10193431
-[research_chen_guo_2022]: https://doi.org/10.1109/gcwkshps56602.2022.10008716
 [research_chen_huang_1989]: https://doi.org/10.1016/0045-7949(89)90305-2
 [research_chen_jin_2018]: https://doi.org/10.1615/heattransres.2018025490
 [research_chen_jin_2019]: https://doi.org/10.1115/imece2019-10822
@@ -21838,7 +20447,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chen_legrand_2023]: https://doi.org/10.1016/j.compstruct.2022.116594
 [research_chen_li_1993]: https://doi.org/10.2514/6.1993-3231
 [research_chen_li_2024]: https://doi.org/10.32604/icces.2024.011004
-[research_chen_li_2025]: https://doi.org/10.53941/ijamm.2025.100017
 [research_chen_liu_2015]: https://doi.org/10.1016/j.cja.2015.06.024
 [research_chen_liu_2016]: https://doi.org/10.1115/msec2016-8589
 [research_chen_liu_2017]: https://doi.org/10.1115/msec2017-2803
@@ -21852,7 +20460,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chen_mei_2021]: https://doi.org/10.1109/iaecst54258.2021.9695525
 [research_chen_miao_2023]: https://doi.org/10.1016/j.compstruct.2023.117624
 [research_chen_mu_2018]: https://doi.org/10.1117/12.2317531
-[research_chen_plott_2020]: https://doi.org/10.1115/msec2020-8420
 [research_chen_poursartip_2019]: https://doi.org/10.12783/asc34/31316
 [research_chen_qiao_2016]: https://doi.org/10.1061/9780784479971.083
 [research_chen_rao_2021]: https://doi.org/10.1016/j.addma.2021.101861
@@ -21884,7 +20491,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chen_xu_2003]: https://doi.org/10.1142/9789812705198_0051
 [research_chen_xuan_2023]: https://doi.org/10.3390/aerospace10090802
 [research_chen_yang_1993]: https://doi.org/10.1016/0263-8223(93)90229-j
-[research_chen_yang_2020]: https://doi.org/10.1016/j.apor.2020.102232
 [research_chen_yang_2020_b]: https://doi.org/10.1109/icpai51961.2020.00059
 [research_chen_yang_2025]: https://doi.org/10.34133/space.0260
 [research_chen_ye_2024]: https://doi.org/10.1016/j.compstruct.2023.117721
@@ -21918,9 +20524,6 @@ This series has now met a designation marking an absence of demand in the
 [research_cheu_shivprasad_2024]: https://doi.org/10.13182/nets24-43925
 [research_cheung_2015]: https://doi.org/10.1109/aero.2015.7119220
 [research_cheung_ong_1993]: https://doi.org/10.1142/9789814535632
-[research_cheverton_bryson_2000]: https://doi.org/10.2172/757396
-[research_cheverton_dickson_1997]: https://doi.org/10.2172/654200
-[research_cheverton_volk_1958]: https://doi.org/10.2172/4333124
 [research_chew_1953]: https://doi.org/10.21236/ad0026928
 [research_chhallani_nemati_2025]: https://doi.org/10.52202/080554-0010
 [research_chi_wei_2024]: https://doi.org/10.59782/aai.v1i3.339
@@ -21929,7 +20532,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chiang_2001]: https://doi.org/10.1023/a:1010638400547
 [research_chien_yu_1988]: https://doi.org/10.1016/0308-0161(88)90017-8
 [research_chiendo_2019]: https://doi.org/10.26480/jmerd.01.2019.74.80
-[research_child_identification_2020]: https://doi.org/10.38007/ml.2020.010301
 [research_chimonas_1986]: https://doi.org/10.1029/jd091id13p14557
 [research_chin_hearne_1964]: https://doi.org/10.2514/6.1964-1311
 [research_china_achieves_2026]: https://doi.org/10.1016/j.xinn.2026.101526
@@ -21943,7 +20545,6 @@ This series has now met a designation marking an absence of demand in the
 [research_chirehdast_jiang_1996]: https://doi.org/10.4271/960812
 [research_chisholm_1984]: https://doi.org/10.21236/ada215911
 [research_chiswik_lehrer_1952]: https://doi.org/10.2172/4183646
-[research_chitpinityon_tossa_2021]: https://doi.org/10.1109/ri2c51727.2021.9559786
 [research_chiu_1992]: https://doi.org/10.2514/6.1992-852
 [research_chiu_kross_1990]: https://doi.org/10.2514/6.1990-44
 [research_cho_2016]: https://doi.org/10.14775/ksmpe.2016.15.1.050
@@ -21951,7 +20552,6 @@ This series has now met a designation marking an absence of demand in the
 [research_cho_jo_2021]: https://doi.org/10.1007/s42405-020-00348-6
 [research_cho_lee_1998]: https://doi.org/10.1177/002199839803201205
 [research_cho_shin_2024]: https://doi.org/10.2514/1.g007234
-[research_cho_varughese_2020]: https://doi.org/10.1364/ofc.2020.m2j.5
 [research_cho_yoo_2000]: https://doi.org/10.2514/6.2000-1477
 [research_cho_yoo_2016]: https://doi.org/10.14248/jkosse.2016.12.2.019
 [research_choe_choe_2003]: https://doi.org/10.5139/jksas.2003.31.1.085
@@ -21971,16 +20571,13 @@ This series has now met a designation marking an absence of demand in the
 [research_chong_victor_2017]: https://doi.org/10.1117/12.2258574
 [research_chooyungk_1995]: https://ntrs.nasa.gov/citations/19950022302
 [research_chou_flis_1998]: https://doi.org/10.1115/imece1998-1189
-[research_chou_savkoor_1999]: https://doi.org/10.1076/vesd.32.4.345.2081
 [research_choudhary_ram_2024]: https://doi.org/10.1007/s41872-024-00263-9
 [research_chouhc_ardemamd_1997]: https://ntrs.nasa.gov/citations/19970040167
-[research_chouinard_1992]: https://doi.org/10.21236/ada259388
 [research_chow_chang_1972]: https://doi.org/10.2514/3.50368
 [research_chow_jin_1991]: https://doi.org/10.2514/6.1991-2432
 [research_chowdhary_tafesse_2021]: https://doi.org/10.1063/5.0050712
 [research_chowdhury_joshi_2026]: https://doi.org/10.5220/0014326200004052
 [research_chowdhury_li_2022]: https://doi.org/10.1115/smasis2022-90215
-[research_chrepta_zinn_1968]: https://doi.org/10.21236/ad0668241
 [research_christensen_deteresa_2000]: https://doi.org/10.1115/imece2000-2029
 [research_christensen_hill_1985]: https://doi.org/10.5006/c1985-85241
 [research_christensenhe_osborneda_1973]: https://ntrs.nasa.gov/citations/19730024744
@@ -22056,8 +20653,6 @@ This series has now met a designation marking an absence of demand in the
 [research_coley_seyedalavi_2018]: https://doi.org/10.2514/6.2018-5234
 [research_colicci_noonan_2025]: https://doi.org/10.2514/6.2025-0113
 [research_collier_1993]: https://doi.org/10.2514/6.1993-1569
-[research_collins_2003]: https://doi.org/10.21236/ada417910
-[research_colman_1962]: https://doi.org/10.21236/ad0287134
 [research_colvin_locke_2024]: https://doi.org/10.52202/078360-0094
 [research_colvin_lynch_2025]: https://doi.org/10.52202/085364-0004
 [research_colvinjamese_landisgeoffreya_1992]: https://ntrs.nasa.gov/citations/19930002964
@@ -22067,13 +20662,11 @@ This series has now met a designation marking an absence of demand in the
 [research_comparison_of_1994]: https://doi.org/10.2514/6.1994-4379
 [research_composite_fuel_2003]: https://doi.org/10.1016/s0034-3617(03)00809-9
 [research_composite_fuel_2004]: https://doi.org/10.1016/s0034-3617(04)00122-5
-[research_composite_leafsprings_1987]: https://doi.org/10.1016/0010-4361(87)90375-2
 [research_composite_material_1989]: https://doi.org/10.1016/0010-4361(89)90463-1
 [research_composite_material_1999]: https://doi.org/10.1016/s0262-1762(00)87666-x
 [research_composite_materials_1990]: https://doi.org/10.1016/0306-3747(90)90185-5
 [research_composite_materials_2008]: https://ntrs.nasa.gov/citations/20090022212
 [research_composite_moulding_1995]: https://doi.org/10.1016/0010-4361(95)92627-o
-[research_composite_plastics_1970]: https://doi.org/10.1016/0010-4361(70)90496-9
 [research_composite_polymer_1970]: https://doi.org/10.1177/002199837000400204
 [research_composite_sealing_1995]: https://doi.org/10.1016/s1350-4789(00)90031-x
 [research_composite_sintered_1991]: https://doi.org/10.1016/0010-4361(91)90179-k
@@ -22084,7 +20677,6 @@ This series has now met a designation marking an absence of demand in the
 [research_concio_tindaromigliorino_2023]: https://doi.org/10.2514/1.b38811
 [research_conder_newhouse_1980]: https://doi.org/10.1016/0011-2275(80)90023-5
 [research_conference_on_1966]: https://ntrs.nasa.gov/citations/19750065506
-[research_cong_dong_2024]: https://doi.org/10.1016/j.energy.2024.133882
 [research_conroy_1969]: https://doi.org/10.2514/6.1969-90
 [research_conte_ferrero_2019]: https://doi.org/10.2514/6.2019-4115
 [research_cook_1966]: https://doi.org/10.21236/ad0642507
@@ -22098,11 +20690,8 @@ This series has now met a designation marking an absence of demand in the
 [research_cooling_and_2018]: https://doi.org/10.12968/s1467-5560(22)60350-6
 [research_coombes_chen_2015]: https://doi.org/10.1109/icuas.2015.7152276
 [research_cooper_1968]: https://doi.org/10.1109/taes.1968.5408937
-[research_cooper_1993]: https://doi.org/10.1016/0167-6105(93)90003-7
-[research_cooper_levasseur_1977]: https://doi.org/10.21236/ada043381
 [research_cooper_thornby_2015]: https://doi.org/10.1016/j.matdes.2014.11.017
 [research_coopersmith_davis_2016]: https://doi.org/10.2514/6.2016-5555
-[research_coordinatingresearchcouncilincatlantaga_1991]: https://doi.org/10.21236/ada240433
 [research_copenhaver_scott_1997]: https://doi.org/10.2514/6.1997-2455
 [research_copenhaver_scott_1998]: https://doi.org/10.2514/2.3364
 [research_coppa_nash_1962]: https://doi.org/10.21236/ad0295491
@@ -22113,14 +20702,10 @@ This series has now met a designation marking an absence of demand in the
 [research_cordiano_1963]: https://doi.org/10.21236/ad0410504
 [research_cordova_bahbou_2023]: https://doi.org/10.59499/ep235765563
 [research_corke_bowersox_2018]: https://doi.org/10.2514/6.2018-0352
-[research_corpsofengineerswashingtondc_1990]: https://doi.org/10.21236/ada402849
-[research_corpsofengineerswashingtondc_1992]: https://doi.org/10.21236/ada404012
 [research_corradini_silvestri_2022]: https://doi.org/10.1016/j.addma.2022.102633
 [research_corsonblakewjr_mercercharlese_1960]: https://ntrs.nasa.gov/citations/19980227877
 [research_cortial_corrieu_1994]: https://doi.org/10.7449/1994/superalloys_1994_859_870
 [research_cossairt_1964]: https://doi.org/10.21236/ad0608523
-[research_cost_analysis_1977]: https://doi.org/10.1016/0041-1647(77)90118-6
-[research_cost_herzberg_2017]: https://doi.org/10.2139/ssrn.3066304
 [research_costa_2001]: https://doi.org/10.1117/12.447335
 [research_costa_2025]: https://doi.org/10.21741/9781644903599-219
 [research_cottingmchristopher_burkenjohnj_2001]: https://ntrs.nasa.gov/citations/20010081320
@@ -22129,8 +20714,6 @@ This series has now met a designation marking an absence of demand in the
 [research_couto_mantelli_2000]: https://doi.org/10.2514/6.2000-2508
 [research_covington_1975]: https://doi.org/10.5006/c1975-75059
 [research_cowart_olds_2000]: https://doi.org/10.2514/6.2000-5265
-[research_cowgill_pitman_1981]: https://doi.org/10.2523/9875-ms
-[research_cowles_2001]: https://doi.org/10.21236/ada628001
 [research_cowles_thakker_1985]: https://doi.org/10.21236/ada162998
 [research_cowlesfrederickb_fostercharlesr_1949]: https://ntrs.nasa.gov/citations/19630039654
 [research_cowlingadaml_2011]: https://ntrs.nasa.gov/citations/20110010980
@@ -22139,7 +20722,6 @@ This series has now met a designation marking an absence of demand in the
 [research_coxtimothyh_cottingchristopher_2005]: https://ntrs.nasa.gov/citations/20050029393
 [research_cozier_harned_2015]: https://doi.org/10.1115/imece2015-51592
 [research_cozzolino_2024]: https://doi.org/10.21741/9781644903131-307
-[research_cramer_2014]: https://doi.org/10.21236/ada611879
 [research_cramer_rummler_1975]: https://doi.org/10.2514/6.1975-814
 [research_creechdennism_threetgradyejr_2011]: https://ntrs.nasa.gov/citations/20120001581
 [research_creese_vuppala_2023]: https://doi.org/10.2514/6.2023-1465
@@ -22160,7 +20742,6 @@ This series has now met a designation marking an absence of demand in the
 [research_crowe_babcock_1968]: https://doi.org/10.21236/ad0850098
 [research_crowe_willoughby_1967]: https://doi.org/10.2514/3.4187
 [research_crown_1950]: https://doi.org/10.21236/ad0062509
-[research_crox_johnf_1961]: https://doi.org/10.21236/ad0259833
 [research_crumpacker_2017]: https://doi.org/10.2514/6.2017-1235
 [research_cruz_ueda_2025]: https://doi.org/10.29327/9786527220794.1443153
 [research_cruz_ware_1992]: https://doi.org/10.2514/6.1992-3941
@@ -22178,7 +20759,6 @@ This series has now met a designation marking an absence of demand in the
 [research_cui_zhao_2017]: https://doi.org/10.1016/j.applthermaleng.2017.06.113
 [research_cui_zhao_2022]: https://doi.org/10.1016/j.actaastro.2022.07.046
 [research_cummings_1978]: https://doi.org/10.2172/7101498
-[research_cummings_1985]: https://doi.org/10.21236/ada160816
 [research_cummings_adams_1982]: https://doi.org/10.21236/ada115424
 [research_cunningham_1972]: https://doi.org/10.2514/3.50310
 [research_cunningham_1987]: https://doi.org/10.2514/3.25879
@@ -22194,8 +20774,6 @@ This series has now met a designation marking an absence of demand in the
 [research_d_1996]: https://doi.org/10.2514/6.1996-1352
 [research_daghighi_weaver_2024]: https://doi.org/10.1016/j.compstruct.2024.117970
 [research_dagostinomarkg_leeyoungc_2001]: https://ntrs.nasa.gov/citations/20020017580
-[research_dai_bikdash_2017]: https://doi.org/10.1109/access.2017.2696502
-[research_dai_liu_2015]: https://doi.org/10.1002/etep.2058
 [research_dai_liu_2017]: https://doi.org/10.23919/chicc.2017.8027911
 [research_dai_webb_2023]: https://doi.org/10.2514/6.2023-0516
 [research_dai_webb_2024]: https://doi.org/10.2514/6.2024-1219
@@ -22204,7 +20782,6 @@ This series has now met a designation marking an absence of demand in the
 [research_daimon_negishi_2017]: https://doi.org/10.2514/6.2017-4919
 [research_daines_boyd_1977]: https://doi.org/10.2514/6.1977-944
 [research_dakka_dennison_2021]: https://doi.org/10.15394/ijaaa.2021.1601
-[research_dale_1989]: https://doi.org/10.3997/2214-4609.201411332
 [research_dallavecchiadelima_cavalheiro_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-1600
 [research_dalle_rogers_2023]: https://doi.org/10.2514/6.2023-0237
 [research_dalle_rogers_2024]: https://doi.org/10.2514/1.a35809
@@ -22212,7 +20789,6 @@ This series has now met a designation marking an absence of demand in the
 [research_damane_pitot_2024]: https://doi.org/10.2514/6.2024-1400
 [research_dambrosio_capra_2024]: https://doi.org/10.3390/aerospace11050341
 [research_dambrosio_silvestrini_2026]: https://doi.org/10.3390/aerospace13020137
-[research_damse_singh_2000]: https://doi.org/10.14429/dsj.50.3352
 [research_danafarbercancerinstbostonma_2007]: https://doi.org/10.21236/ada485990
 [research_dancy_jr_1955]: https://doi.org/10.21236/ada954214
 [research_dandappanavar_manoj_2026]: https://doi.org/10.33130/ajct.2026v1201.056
@@ -22224,15 +20800,12 @@ This series has now met a designation marking an absence of demand in the
 [research_daniel_gdoutos_2001]: https://doi.org/10.1115/imece2001/amd-25412
 [research_daniel_gdoutos_2001_b]: https://doi.org/10.1115/imece2001/ad-23776
 [research_daniels_dryden_1974]: https://doi.org/10.1117/12.7971680
-[research_danielson_1996]: https://doi.org/10.21236/ada316711
 [research_dankanichjohnw_kleineric_2012]: https://ntrs.nasa.gov/citations/20120018045
-[research_dantuono_zavoli_2024]: https://doi.org/10.2514/6.2024-2121.c1
 [research_dantuono_zavoli_2024_b]: https://doi.org/10.2514/6.2024-2121
 [research_dao_dinh_2016]: https://doi.org/10.1061/(asce)em.1943-7889.0000964
 [research_dardouri_abba_2017]: https://doi.org/10.5220/0006434203720381
 [research_darevskii_1961]: https://doi.org/10.2514/8.5394
 [research_darmadi_setiawan_2018]: https://doi.org/10.1063/1.5046259
-[research_darnell_1974]: https://doi.org/10.2172/5277310
 [research_darr_camarotti_2017]: https://doi.org/10.1063/1.4973671
 [research_daryabeigi_2001]: https://doi.org/10.2514/6.2001-2825
 [research_daryabeigi_2002]: https://doi.org/10.2514/2.3863
@@ -22245,7 +20818,6 @@ This series has now met a designation marking an absence of demand in the
 [research_das_khavaran_1997]: https://doi.org/10.1006/jsvi.1997.1038
 [research_dasilva_domiciano_2021]: https://doi.org/10.1177/00219983211047693
 [research_dasilveira_dasilvafernandes_2023]: https://doi.org/10.1007/s40430-023-04490-6
-[research_dastfan_driver_2016]: https://doi.org/10.1061/(asce)st.1943-541x.0001424
 [research_daudeville_ladeveze_1993]: https://doi.org/10.1016/0263-8223(93)90203-3
 [research_dauerman_1960]: https://doi.org/10.21236/ad0260400
 [research_dauskardt_lane_1998]: https://doi.org/10.1016/s0013-7944(98)00052-6
@@ -22278,7 +20850,6 @@ This series has now met a designation marking an absence of demand in the
 [research_dawe_frey_2026]: https://doi.org/10.2514/6.2026-2320
 [research_dawson_1964]: https://doi.org/10.2514/6.1964-1404
 [research_dawson_1964_b]: https://doi.org/10.21236/ad0626927
-[research_dayam_desai_2022]: https://doi.org/10.1115/msec2022-85449
 [research_dazaflorez_payanenezambrano_2025]: https://doi.org/10.3390/hardware3030010
 [research_dealmeidasouza_silva_2022]: https://doi.org/10.1109/lars/sbr/wre56824.2022.9995921
 [research_dean_2000]: https://doi.org/10.2514/6.2000-3791
@@ -22288,16 +20859,11 @@ This series has now met a designation marking an absence of demand in the
 [research_debrett_schwingshackl_2023]: https://doi.org/10.1115/gt2023-103729
 [research_dec_mitcheltree_2002]: https://doi.org/10.2514/6.2002-910
 [research_decker_laschka_2001]: https://doi.org/10.2514/6.2001-1852
-[research_deek_piketmay_2021]: https://doi.org/10.1109/edaps53774.2021.9657023
 [research_deep_jagadeesh_2018]: https://doi.org/10.1063/1.5046191
 [research_dees_stockard_2023]: https://doi.org/10.2514/6.2023-4693
 [research_defaria_hansen_2000]: https://doi.org/10.2514/6.2000-1341
 [research_defariagonzalesleal_depaulasantos_2024]: https://doi.org/10.1080/10426914.2024.2334679
 [research_defenseacquisitionunivftbelvoirva_2007]: https://doi.org/10.21236/ada470388
-[research_deford_held_2004]: https://doi.org/10.21236/ada428963
-[research_deford_held_2005]: https://doi.org/10.21236/ada434968
-[research_deford_held_2006]: https://doi.org/10.21236/ada444752
-[research_deford_held_2007]: https://doi.org/10.21236/ada469433
 [research_defreitasbart_hoffman_2021]: https://doi.org/10.1109/aero50100.2021.9438228
 [research_degraff_liang_2022]: https://doi.org/10.33599/nasampe/c.22.0102
 [research_dehpanah_nejat_2015]: https://doi.org/10.1016/j.ast.2015.02.015
@@ -22312,9 +20878,7 @@ This series has now met a designation marking an absence of demand in the
 [research_deluca_neri_2026]: https://doi.org/10.1016/j.tws.2026.115232
 [research_delumley_mathieu_2019]: https://doi.org/10.33599/nasampe/s.19.1409
 [research_demakos_2002]: https://doi.org/10.1016/s0266-3538(01)00179-8
-[research_dematteis_landolfo_1999]: https://doi.org/10.1007/bf02479624
 [research_demidovich_2017]: https://doi.org/10.1109/icnsurv.2017.8012003
-[research_demir_saran_2026]: https://doi.org/10.1109/access.2026.3687277
 [research_demircioglu_cakir_2024]: https://doi.org/10.62753/ctp.2024.06.1.1
 [research_deml_wunderlich_1997]: https://doi.org/10.1016/s0045-7825(97)00055-8
 [research_demonstration_of_1968]: https://ntrs.nasa.gov/citations/19690017520
@@ -22400,7 +20964,6 @@ This series has now met a designation marking an absence of demand in the
 [research_difiore_ariyaratnam_2026]: https://doi.org/10.1007/s00158-026-04324-8
 [research_digiorgio_quagliarella_2019]: https://doi.org/10.1016/j.ast.2018.09.042
 [research_digital_twin_2023]: https://doi.org/10.23977/dmpm.2023.030101
-[research_digital_vehicle_2026]: https://doi.org/10.56726/irjmets86859
 [research_digiuseppe_mouvand_2023]: https://doi.org/10.2514/6.2023-4546
 [research_diharjo_anwar_2016]: https://doi.org/10.1063/1.4941496
 [research_dileep_kamath_2015]: https://doi.org/10.1016/j.procs.2015.06.059
@@ -22420,13 +20983,10 @@ This series has now met a designation marking an absence of demand in the
 [research_ding_wang_2016]: https://doi.org/10.2514/6.2016-1191
 [research_ding_wang_2022]: https://doi.org/10.1016/j.ymssp.2021.108458
 [research_dingley_bednar_1963]: https://doi.org/10.4095/299934
-[research_dinul_putra_2025]: https://doi.org/10.24036/vomek.v7i1.780
 [research_direct_numerical_2023]: https://doi.org/10.1063/5.0146651
 [research_dirlingjr_loomis_1982]: https://doi.org/10.2514/6.1982-897
 [research_discussion_of_1983]: https://doi.org/10.1016/0167-6105(83)90042-9
-[research_discussions_of_1997]: https://doi.org/10.1016/s0167-6105(97)00138-4
 [research_discussions_of_1997_b]: https://doi.org/10.1016/s0167-6105(97)00136-0
-[research_disilvestro_zhu_1999]: https://doi.org/10.1115/imece1999-0452
 [research_ditcher_webber_1982]: https://doi.org/10.1017/s0001925900009276
 [research_dix_saigal_1996]: https://doi.org/10.1115/imece1996-0653
 [research_dixon_1997]: https://doi.org/10.1049/ic:19970053
@@ -22438,7 +20998,6 @@ This series has now met a designation marking an absence of demand in the
 [research_dodero_mccormick_2025]: https://doi.org/10.1080/27525783.2025.2565246
 [research_doelle_cohen_1979]: https://doi.org/10.21236/ada074802
 [research_doffsotta_cannon_2025]: https://doi.org/10.2514/1.g008315
-[research_dohmen_liessner_2021]: https://doi.org/10.5220/0010305210301037
 [research_doihara_nishida_2002]: https://doi.org/10.1007/s001930200119
 [research_dokuchaev_2018]: https://doi.org/10.1088/1757-899x/468/1/012011
 [research_dolz_ebert_2026]: https://doi.org/10.1137/25m1745350
@@ -22456,9 +21015,7 @@ This series has now met a designation marking an absence of demand in the
 [research_dong_zhang_2017]: https://doi.org/10.1016/j.compstruct.2017.02.093
 [research_dong_zong_2017]: https://doi.org/10.1061/(asce)as.1943-5525.0000670
 [research_dongpo_aiying_2025]: https://doi.org/10.52202/083092-0006
-[research_doniselli_mastinu_1996]: https://doi.org/10.1080/00423119608969190
 [research_donofrio_2013]: https://doi.org/10.21236/ada583691
-[research_donofrio_davies_2015]: https://doi.org/10.21236/ada621479
 [research_doos_makki_2023]: https://doi.org/10.31026/j.eng.2014.10.09
 [research_dopieralski_polak_2025]: https://doi.org/10.19206/ce-208516
 [research_dordan_silva_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-1235
@@ -22468,7 +21025,6 @@ This series has now met a designation marking an absence of demand in the
 [research_dorsey_gibbs_1977]: https://doi.org/10.4271/770204
 [research_dorsey_poteet_2002]: https://doi.org/10.2514/6.2002-502
 [research_dorsey_poteet_2004]: https://doi.org/10.2514/1.9173
-[research_dortheimer_martelaro_2024]: https://doi.org/10.1017/s0890060424000027
 [research_dosanjh_1983]: https://doi.org/10.2514/6.1983-775
 [research_dosanjh_das_1986]: https://doi.org/10.2514/6.1986-1946
 [research_dosanjh_das_1988]: https://doi.org/10.2514/3.9992
@@ -22479,27 +21035,20 @@ This series has now met a designation marking an absence of demand in the
 [research_douglas_1969]: https://doi.org/10.2514/3.5330
 [research_douglasaircraftcolongbeachca_1963]: https://doi.org/10.21236/ad0425406
 [research_dove_baker_1960]: https://doi.org/10.21236/ada307467
-[research_dove_loehman_1972]: https://doi.org/10.21236/ad0752993
 [research_dovgalenko_loutchkina_1996]: https://doi.org/10.1117/12.248497
-[research_dowling_martin_1985]: https://doi.org/10.1177/109719638500900106
 [research_doyle_1982]: https://doi.org/10.2514/3.62248
 [research_doyle_1988]: https://doi.org/10.1177/002199838802200503
-[research_doyle_leitch_2000]: https://doi.org/10.4043/11920-ms
-[research_dozier_dimitrov_2012]: https://doi.org/10.21236/ada555957
 [research_dragone_2000]: https://doi.org/10.2514/6.2000-5309
 [research_drake_carvalho_2023]: https://doi.org/10.12783/asc38/36515
-[research_dregulo_2023]: https://doi.org/10.3390/en16176218
 [research_dreier_2022]: https://doi.org/10.1016/j.spacepol.2022.101476
 [research_drenthe_zandbergen_2019]: https://doi.org/10.1016/j.actaastro.2018.11.054
 [research_dresslerga_stoddardfj_1993]: https://ntrs.nasa.gov/citations/19950009913
 [research_drew_1965]: https://doi.org/10.2514/6.1965-259
 [research_dreyer_grier_2021]: https://doi.org/10.2514/1.c035969
 [research_dreyfuss_1966]: https://doi.org/10.2514/6.1966-862
-[research_driesen_1975]: https://doi.org/10.2172/5318743
 [research_driessenbrianj_2005]: https://ntrs.nasa.gov/citations/20050215313
 [research_driggers_1975]: https://doi.org/10.2514/6.1975-818
 [research_drimalova_2023]: https://doi.org/10.21741/9781644902691-8
-[research_dritsas_tzes_2024]: https://doi.org/10.1109/med61351.2024.10566128
 [research_drobyshev_2026]: https://doi.org/10.62717/3083-7057-2026-1-024
 [research_dron_lapkhanov_2025]: https://doi.org/10.15587/1729-4061.2025.319437
 [research_drozdziel_jakubczak_2021]: https://doi.org/10.1016/j.compstruct.2020.113083
@@ -22531,7 +21080,6 @@ This series has now met a designation marking an absence of demand in the
 [research_dumbacherdaniell_reuterjamesl_2007]: https://ntrs.nasa.gov/citations/20070036792
 [research_dumbacherdaniell_rogackijohnr_2001]: https://ntrs.nasa.gov/citations/20010059347
 [research_dumbacherdanl_smithdennise_2002]: https://ntrs.nasa.gov/citations/20030013452
-[research_duncan_ashford_1996]: https://doi.org/10.1115/imece1996-1284
 [research_dunfee_oss_1967]: https://doi.org/10.2514/6.1967-1331
 [research_dunn_2018]: https://doi.org/10.4050/f-0074-2018-12805
 [research_dunn_kaith_1991]: https://doi.org/10.2514/6.1991-3627
@@ -22548,7 +21096,6 @@ This series has now met a designation marking an absence of demand in the
 [research_dym_1973]: https://doi.org/10.1115/1.3423024
 [research_dym_hoff_1966]: https://doi.org/10.21236/ad0642939
 [research_dynamic_buckling_2019]: https://doi.org/10.15372/pmtf20190416
-[research_dynes_2001]: https://doi.org/10.21236/ada388202
 [research_dziubek_budzik_2026]: https://doi.org/10.24867/atm-2026-1-003
 [research_eastmond_daly_1999]: https://doi.org/10.1016/s0032-3861(98)00539-4
 [research_eastmond_page_1993]: https://doi.org/10.1016/0032-3861(93)90571-q
@@ -22579,11 +21126,9 @@ This series has now met a designation marking an absence of demand in the
 [research_effect_of_2017]: https://doi.org/10.15372/fgv20170605
 [research_effect_of_2018]: https://doi.org/10.21608/ejmtc.2018.2748.1074
 [research_effect_of_2025]: https://doi.org/10.3901/jme.2025.04.127
-[research_effects_of_2023]: https://doi.org/10.24214/jecet.c.12.1.02231
 [research_egan_angilella_2025]: https://doi.org/10.1016/j.compstruct.2025.118968
 [research_egcarnoy_gpanosyan_1984]: https://ntrs.nasa.gov/citations/19850002085
 [research_eggers_1961]: https://doi.org/10.21236/ad0256165
-[research_egi_2022]: https://doi.org/10.31590/ejosat.1076596
 [research_egorov_2020]: https://doi.org/10.4271/01-13-01-0005
 [research_ehlers_tatzko_2021]: https://doi.org/10.1016/j.addma.2020.101752
 [research_eidinoffhl_rosel_1974]: https://ntrs.nasa.gov/citations/19740026287
@@ -22632,12 +21177,9 @@ This series has now met a designation marking an absence of demand in the
 [research_emanuel_1964]: https://doi.org/10.21236/ad0428563
 [research_emerson_cain_2012]: https://doi.org/10.21236/ada568531
 [research_emery_zisk_1995]: https://doi.org/10.2514/6.1995-1073
-[research_emirisik_isik_2024]: https://doi.org/10.35199/norddesign2024.19
-[research_emmertstreib_tripathi_2024]: https://doi.org/10.1109/access.2024.3481671
 [research_emmons_1951]: https://doi.org/10.1090/qam/38773
 [research_emtiaz_shepherd_2026]: https://doi.org/10.1016/j.compositesb.2026.113572
 [research_endicott_1999]: https://doi.org/10.21236/ada361554
-[research_energy_consumption_2021]: https://doi.org/10.56042/ijems.v28i5.42957
 [research_eng_2018]: https://doi.org/10.1117/12.2322736
 [research_eng_casstevens_2023]: https://doi.org/10.1117/12.2676844
 [research_eng_stahl_2000]: https://doi.org/10.1364/oft.2000.omd4
@@ -22647,10 +21189,8 @@ This series has now met a designation marking an absence of demand in the
 [research_ennixkimberlya_corpeninggriffinp_1999]: https://ntrs.nasa.gov/citations/19990113121
 [research_enos_raje_2025]: https://doi.org/10.33599/nasampe/s.25.0199
 [research_enriquez_2025]: https://doi.org/10.2514/6.2025-0878
-[research_enterprise_cost_2022]: https://doi.org/10.47939/em.v3i8(02).06
 [research_environmental_testing_1968]: https://doi.org/10.1016/0042-207x(68)91176-7
 [research_ercole_garofalo_2017]: https://doi.org/10.2514/6.2017-4979
-[research_erden_kabalci_2023]: https://doi.org/10.1109/gpecom58364.2023.10175763
 [research_erdogan_arin_1972]: https://doi.org/10.1016/0013-7944(72)90057-4
 [research_eremin_2018]: https://doi.org/10.31772/2587-6066-2018-19-2-346-354
 [research_eremin_2021]: https://doi.org/10.1088/1757-899x/1023/1/012010
@@ -22667,7 +21207,6 @@ This series has now met a designation marking an absence of demand in the
 [research_eringen_1951]: https://doi.org/10.1115/1.4010275
 [research_erives_sorensen_2023]: https://doi.org/10.1016/j.compositesa.2022.107346
 [research_erol_unsal_2026]: https://doi.org/10.2514/6.2026-4763
-[research_erol_unsal_2026_b]: https://doi.org/10.2514/6.2026-4763.c1
 [research_erturan_yurdakul_2019]: https://doi.org/10.33599/nasampe/s.19.1413
 [research_escartiguillem_garciaraffi_2022]: https://doi.org/10.3390/app12073356
 [research_eschenauer_1989]: https://doi.org/10.1007/bf01637337
@@ -22692,7 +21231,6 @@ This series has now met a designation marking an absence of demand in the
 [research_evans_morgan_1988]: https://doi.org/10.1016/0011-2275(88)90015-x
 [research_evans_walton_2017]: https://doi.org/10.1016/j.apm.2017.07.024
 [research_evansstevenw_dukemangrega_1993]: https://ntrs.nasa.gov/citations/19950049813
-[research_evers_kuper_1998]: https://doi.org/10.21236/ada379139
 [research_evgrafov_patriksson_2003]: https://doi.org/10.1007/s00158-003-0291-x
 [research_evkin_2026]: https://doi.org/10.1016/j.tws.2025.114153
 [research_evkin_kolesnikov_2018]: https://doi.org/10.1177/1081286517753277
@@ -22704,14 +21242,11 @@ This series has now met a designation marking an absence of demand in the
 [research_eyi_hanquist_2018]: https://doi.org/10.2514/6.2018-3108
 [research_eyi_hanquist_2019]: https://doi.org/10.2514/1.t5523
 [research_fabrication_and_tensile_2015]: https://doi.org/10.15623/ijret.2015.0407047
-[research_factors_affecting_2022]: https://doi.org/10.47176/tdass/2023.185
-[research_fagan_aberman_1994]: https://doi.org/10.1115/imece1994-0998
 [research_fagan_mcinerney_2003]: https://doi.org/10.1016/s0094-5765(01)00221-1
 [research_fagerberg_2004]: https://doi.org/10.1177/1099636204030475
 [research_fahrenthold_1989]: https://doi.org/10.1115/1.3265683
 [research_fahrenthold_price_1990]: https://doi.org/10.1115/1.2928606
 [research_fahy_chang_2021]: https://doi.org/10.2514/6.2021-1474
-[research_fahy_chang_2021_b]: https://doi.org/10.2514/6.2021-1474.c1
 [research_failure_of_1990]: https://doi.org/10.1016/0010-4361(90)90260-4
 [research_fajardopruna_lopezestrada_2023]: https://doi.org/10.53591/easi.v2i1.2176
 [research_falckrobertd_gefertleonp_2007]: https://ntrs.nasa.gov/citations/20080006650
@@ -22729,7 +21264,6 @@ This series has now met a designation marking an absence of demand in the
 [research_fan_liu_2026]: https://doi.org/10.1177/14759217261449556
 [research_fan_wu_1988]: https://doi.org/10.1016/0263-8223(88)90008-6
 [research_fang_chen_2026]: https://doi.org/10.3390/a19070503
-[research_fang_gu_2022]: https://doi.org/10.1109/icekim55072.2022.00109
 [research_fang_ji_2023]: https://doi.org/10.1016/j.mtcomm.2023.106302
 [research_fang_shi_2022]: https://doi.org/10.1115/pvp2022-84473
 [research_fang_wang_2022]: https://doi.org/10.3390/ma15196880
@@ -22787,10 +21321,8 @@ This series has now met a designation marking an absence of demand in the
 [research_feng_xu_2017]: https://doi.org/10.1061/(asce)em.1943-7889.0001181
 [research_feng_zhang_2019]: https://doi.org/10.1109/icisce48695.2019.00213
 [research_fenyes_1981]: https://doi.org/10.4271/810228
-[research_ferchichi_boulila_2015]: https://doi.org/10.5220/0005595800470056
 [research_ferdinand_springer_1989]: https://doi.org/10.1007/bf01496925
 [research_fereidouni_hoa_2024]: https://doi.org/10.1177/08927057241251837
-[research_fereydoonpour_hodges_2025]: https://doi.org/10.1016/j.procs.2025.08.180
 [research_ferguson_agarwal_2018]: https://doi.org/10.2514/6.2018-1792
 [research_ferguson_dasque_2015]: https://doi.org/10.2514/6.2015-3839
 [research_ferguson_dasque_2015_b]: https://doi.org/10.2514/6.2015-1008
@@ -22799,8 +21331,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ferlauto_ferrero_2020]: https://doi.org/10.2514/6.2020-3777
 [research_fernandezvillace_steelant_2015]: https://doi.org/10.2514/6.2015-3643
 [research_ferrandon_1997]: https://doi.org/10.1016/s0265-9646(97)00008-8
-[research_ferreira_lima_2020]: https://doi.org/10.5220/0009834600760083
-[research_ferreira_tsavdaridis_2021]: https://doi.org/10.1016/j.compstruct.2021.113616
 [research_ferrellbob_santurosteve_2004]: https://ntrs.nasa.gov/citations/20120003350
 [research_ferretto_fusaro_2022]: https://doi.org/10.2514/6.2022-3381
 [research_ferrin_perezperez_2020]: https://doi.org/10.1016/j.compchemeng.2020.106840
@@ -22810,8 +21340,6 @@ This series has now met a designation marking an absence of demand in the
 [research_fesmire_johnson_2018]: https://doi.org/10.1016/j.cryogenics.2017.11.004
 [research_fesmireje_cofmanbe_2011]: https://ntrs.nasa.gov/citations/20110014400
 [research_fesmireje_sassj_2007]: https://ntrs.nasa.gov/citations/20120000650
-[research_festy_2001]: https://doi.org/10.5006/c2001-01011
-[research_festy_tigges_1992]: https://doi.org/10.5006/c1992-92421
 [research_fiacco_hutzler_1979]: https://doi.org/10.21236/ada076486
 [research_fiaschi_1999]: https://doi.org/10.1016/s0360-3199(98)00126-8
 [research_fibre_reinforced_1995]: https://doi.org/10.1016/s0010-4361(06)80089-3
@@ -22832,8 +21360,6 @@ This series has now met a designation marking an absence of demand in the
 [research_filippenko_2016]: https://doi.org/10.1109/dd.2016.7756831
 [research_filippov_2015]: https://doi.org/10.1063/1.4912545
 [research_filippov_2019]: https://doi.org/10.7712/120119.7171.18876
-[research_filler_1968]: https://doi.org/10.2172/1157343
-[research_filter_minimises_1997]: https://doi.org/10.1016/s0015-1882(97)91480-4
 [research_findikyan_duke_1966]: https://doi.org/10.21236/ad0681038
 [research_finley_1996]: https://doi.org/10.1063/1.49981
 [research_finson_1973]: https://doi.org/10.2514/3.50559
@@ -22842,7 +21368,6 @@ This series has now met a designation marking an absence of demand in the
 [research_fischer_2002]: https://doi.org/10.4271/2002-01-2548
 [research_fischer_2004]: https://doi.org/10.4271/2004-01-2566
 [research_fischer_mueller_2003]: https://doi.org/10.4271/2003-01-2469
-[research_fischman_jorstad_1990]: https://doi.org/10.21236/ada237258
 [research_fisher_schmidt_1992]: https://doi.org/10.1016/0011-2275(92)90272-c
 [research_fitzgerald_1974]: https://doi.org/10.1109/tac.1974.1100653
 [research_fitzgerald_brewster_2003]: https://doi.org/10.2514/6.2003-4628
@@ -22850,7 +21375,6 @@ This series has now met a designation marking an absence of demand in the
 [research_flaggs_vinson_1977]: https://doi.org/10.2514/6.1977-419
 [research_flaman_mills_1987]: https://doi.org/10.1111/j.1747-1567.1987.tb00422.x
 [research_flamm_james_2016]: https://doi.org/10.2514/6.2016-0007
-[research_flanagan_1994]: https://doi.org/10.21236/ada280431
 [research_flanagan_goggins_2017]: https://doi.org/10.1063/1.5008001
 [research_flanigan_1989]: https://doi.org/10.2514/6.1989-1336
 [research_fleckrw_lehmanjk_1973]: https://ntrs.nasa.gov/citations/19730024761
@@ -22875,8 +21399,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ford_heider_2024]: https://doi.org/10.33599/nasampe/s.24.0009
 [research_ford_mitchell_1989]: https://doi.org/10.5006/c1989-89189
 [research_ford_vincent_1987]: https://doi.org/10.21236/ada189693
-[research_fordham_1993]: https://doi.org/10.21236/ada268510
-[research_forest_furman_1985]: https://doi.org/10.2172/7019665
 [research_forman_1990]: https://doi.org/10.1117/12.55717
 [research_foroni_malara_2021]: https://doi.org/10.5006/c2021-16673
 [research_foroutan_carrera_2021]: https://doi.org/10.1016/j.compstruct.2021.114189
@@ -22920,7 +21442,6 @@ This series has now met a designation marking an absence of demand in the
 [research_frankenthal_1964]: https://doi.org/10.21236/ad0610257
 [research_franklin_1991]: https://doi.org/10.1002/j.1551-8701.1991.tb00267.x
 [research_franklin_tinsley_1970]: https://doi.org/10.21236/ad0867628
-[research_franze_barz_2025]: https://doi.org/10.1007/s12567-025-00610-1
 [research_franze_barz_2025_b]: https://doi.org/10.1007/s12567-024-00588-2
 [research_fraunhofer_igcv_2023]: https://doi.org/10.12968/s0306-3747(23)70201-7
 [research_frayssinet_2019]: https://doi.org/10.2514/6.2019-3224
@@ -22928,7 +21449,6 @@ This series has now met a designation marking an absence of demand in the
 [research_freeman_1967]: https://doi.org/10.21236/ad0645509
 [research_freeman_2015]: https://doi.org/10.2514/6.2015-4550
 [research_freeman_2024]: https://doi.org/10.70156/1754-2383.1491
-[research_freeman_jahnle_1980]: https://doi.org/10.2172/5185810
 [research_freeman_kontsevoi_2008]: https://doi.org/10.21236/ada480633
 [research_freeman_powell_1980]: https://doi.org/10.2514/3.57743
 [research_freeman_stanley_1995]: https://doi.org/10.1016/0094-5765(95)00087-g
@@ -22974,7 +21494,6 @@ This series has now met a designation marking an absence of demand in the
 [research_fu_su_2026]: https://doi.org/10.1016/j.est.2026.121943
 [research_fu_wang_2019]: https://doi.org/10.1109/access.2019.2947297
 [research_fuchs_haskell_2018]: https://doi.org/10.2514/6.2018-0084
-[research_fuchs_lau_1992]: https://doi.org/10.21236/ada257790
 [research_fuchs_starnes_1994]: https://doi.org/10.1115/imece1994-1274
 [research_fuhrmann_2003]: https://doi.org/10.2514/6.2003-3807
 [research_fuhs_grabowsky_1966]: https://doi.org/10.2514/6.1966-1633
@@ -23008,7 +21527,6 @@ This series has now met a designation marking an absence of demand in the
 [research_furuhama_sakurai_1993]: https://doi.org/10.1016/0360-3199(93)90099-v
 [research_fusaro_viola_2020]: https://doi.org/10.2514/6.2020-1106
 [research_fusselman_goyal_2019]: https://doi.org/10.2514/6.2019-4144
-[research_g_dhanalakshmi_2024]: https://doi.org/10.37391/ijeer.120315
 [research_gabaldo_barros_2016]: https://doi.org/10.2514/6.2016-5323
 [research_gabetta_cioffi_2018]: https://doi.org/10.1016/j.prostr.2018.06.038
 [research_gabetta_pagliari_2018]: https://doi.org/10.1016/j.prostr.2018.12.124
@@ -23029,7 +21547,6 @@ This series has now met a designation marking an absence of demand in the
 [research_galkin_zhbakova_1969]: https://doi.org/10.1007/bf01032385
 [research_gallagher_stuart_2023]: https://doi.org/10.2514/6.2023-4301
 [research_gallardo_perezescobar_2024]: https://doi.org/10.1115/gt2024-126570
-[research_gallicchio_spinelli_2023]: https://doi.org/10.3390/ma17010037
 [research_gallois_giannopoulos_2024]: https://doi.org/10.1088/1742-6596/2692/1/012049
 [research_galos_2020]: https://doi.org/10.1016/j.compstruct.2020.111920
 [research_gamal_matusiewicz_2018]: https://doi.org/10.2514/6.2018-4666
@@ -23039,7 +21556,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ganesan_kadoli_2003]: https://doi.org/10.1016/s0263-8223(02)00230-1
 [research_gangadhar_kumar_2016]: https://doi.org/10.14257/ijast.2016.89.06
 [research_gangadharan_kirk_2017]: https://doi.org/10.2514/6.2017-1330
-[research_gangavarapu_makineni_2025]: https://doi.org/10.14293/apmc13-2025-0389
 [research_gans_2017]: https://doi.org/10.2514/6.2017-5298
 [research_gao_1996]: https://doi.org/10.1115/imece1996-0862
 [research_gao_2003]: https://doi.org/10.1016/s1359-6462(03)00359-2
@@ -23050,7 +21566,6 @@ This series has now met a designation marking an absence of demand in the
 [research_gao_guo_2026]: https://doi.org/10.1016/j.cja.2025.103914
 [research_gao_han_2022]: https://doi.org/10.23919/sice56594.2022.9905766
 [research_gao_heng_2023]: https://doi.org/10.3390/aerospace10090785
-[research_gao_jezequel_2021]: https://doi.org/10.1080/00423114.2021.1896011
 [research_gao_lau_1994]: https://doi.org/10.1016/0167-8442(94)90012-4
 [research_gao_li_2002]: https://doi.org/10.2514/6.2002-1617
 [research_gao_li_2015]: https://doi.org/10.1360/n092014-00472
@@ -23061,7 +21576,6 @@ This series has now met a designation marking an absence of demand in the
 [research_gao_xu_2023]: https://doi.org/10.1088/1742-6596/2460/1/012001
 [research_gao_zhang_2023]: https://doi.org/10.1108/mmms-02-2023-0044
 [research_garbeff_baerny_2019]: https://doi.org/10.2514/6.2019-2125
-[research_garbeff_baerny_2019_b]: https://doi.org/10.2514/6.2019-2125.c1
 [research_garbo_parekh_2024]: https://doi.org/10.3390/aerospace11060448
 [research_garbolevsky_2003]: https://doi.org/10.1115/pvp2003-1792
 [research_garbosraymondj_mouyoswilliam_1998]: https://ntrs.nasa.gov/citations/19980073196
@@ -23075,10 +21589,7 @@ This series has now met a designation marking an absence of demand in the
 [research_gardner_1964]: https://doi.org/10.21236/ad0608653
 [research_gardnernathanielw_hilburgermarkw_2018]: https://ntrs.nasa.gov/citations/20180006177
 [research_garg_neves_2026]: https://doi.org/10.2514/6.2026-4178
-[research_garner_braun_1999]: https://doi.org/10.4271/1999-01-2590
 [research_garnier_dupuis_2002]: https://doi.org/10.1615/ihtc12.360
-[research_garry_1981]: https://doi.org/10.1016/0167-6105(81)90073-8
-[research_garry_1996]: https://doi.org/10.1016/s0167-6105(96)00054-2
 [research_gasior_malesa_2018]: https://doi.org/10.1016/j.compstruct.2018.07.060
 [research_gates_cochran_1961]: https://doi.org/10.21236/ad0260144
 [research_gates_grenoble_2004]: https://doi.org/10.2514/6.2004-1859
@@ -23107,7 +21618,6 @@ This series has now met a designation marking an absence of demand in the
 [research_geier_zimmermann_1994]: https://doi.org/10.1115/detc1994-0133
 [research_gellatly_gallagher_1964]: https://doi.org/10.21236/ad0431959
 [research_gellin_1979]: https://doi.org/10.1115/1.3424483
-[research_genau_1966]: https://doi.org/10.21236/ad0643053
 [research_gendron_newman_1994]: https://doi.org/10.5006/c1994-94227
 [research_generaldynamicscorpsandiegoca_1992]: https://doi.org/10.21236/ada258845
 [research_generalelectriccocincinnatioh_1962]: https://doi.org/10.21236/ad0297932
@@ -23135,7 +21645,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ghayour_ganesan_2023]: https://doi.org/10.1016/j.compstruct.2023.116986
 [research_ghayour_hojjati_2020]: https://doi.org/10.1016/j.compstruct.2020.112536
 [research_ghayour_hojjati_2021]: https://doi.org/10.1177/00219983211031649
-[research_ghazali_willhite_1985]: https://doi.org/10.2118/13583-ms
 [research_ghiglino_lappas_2015]: https://doi.org/10.2514/6.2015-1998
 [research_ghorai_1968]: https://doi.org/10.2514/3.29319
 [research_ghorbani_assempour_2002]: https://doi.org/10.4271/2002-01-0387
@@ -23155,7 +21664,6 @@ This series has now met a designation marking an absence of demand in the
 [research_gielda_lee_2016]: https://doi.org/10.2514/6.2016-1804
 [research_gieljr_mueller_1975]: https://doi.org/10.2514/6.1975-886
 [research_gieras_gorgeri_2021]: https://doi.org/10.1016/j.jppr.2021.03.001
-[research_gil_poletto_2001]: https://doi.org/10.21236/ada401819
 [research_gilat_aboudi_1994]: https://doi.org/10.1016/0263-8223(94)90126-0
 [research_gilbert_1983]: https://doi.org/10.1115/1.3264273
 [research_gillig_1959]: https://doi.org/10.21236/ad0214856
@@ -23181,7 +21689,6 @@ This series has now met a designation marking an absence of demand in the
 [research_glebocki_jacewicz_2020]: https://doi.org/10.3390/aerospace7120168
 [research_gleich_1988]: https://doi.org/10.2514/6.1988-2849
 [research_glick_osborn_1982]: https://doi.org/10.21236/ada122239
-[research_glisic_veluri_2021]: https://doi.org/10.1115/detc2021-69609
 [research_gliszczynski_franzoni_2026]: https://doi.org/10.1016/j.compositesb.2025.113201
 [research_glizde_urbaha_2019]: https://doi.org/10.22616/erdev2019.18.n241
 [research_glizde_urbaha_2020]: https://doi.org/10.22616/erdev.2020.19.tf379
@@ -23201,17 +21708,13 @@ This series has now met a designation marking an absence of demand in the
 [research_gohardani_2017]: https://doi.org/10.2514/6.2017-5176
 [research_gojie_kosec_1997]: https://doi.org/10.2355/isijinternational.37.412
 [research_gokcentahir_skokovakristinaa_2017]: https://ntrs.nasa.gov/citations/20160014906
-[research_gold_1974]: https://doi.org/10.21236/ad0787306
 [research_goldberg_1961]: https://doi.org/10.21236/ad0686493
-[research_goldberg_chinn_1987]: https://doi.org/10.21236/ada190475
 [research_goldberg_scala_1965]: https://doi.org/10.21236/ad0623553
-[research_goldman_best_1977]: https://doi.org/10.21236/ada042851
 [research_goldmanis_riekstinsh_1994]: https://doi.org/10.1016/0263-8223(94)90114-7
 [research_golinveaux_patel_2022]: https://doi.org/10.2514/6.2022-1630
 [research_golliard_mihaescu_2023]: https://doi.org/10.1115/1.4063877
 [research_golliard_mihaescu_2024]: https://doi.org/10.2514/6.2024-3032
 [research_golliard_mihaescu_2024_b]: https://doi.org/10.2514/6.2024-2100
-[research_golliard_mihaescu_2024_c]: https://doi.org/10.2514/6.2024-2100.c1
 [research_golliard_mihaescu_2024_d]: https://doi.org/10.1115/gt2024-126691
 [research_golliard_mihaescu_2025]: https://doi.org/10.1063/5.0300850
 [research_golliard_mihaescu_2025_b]: https://doi.org/10.1115/1.4067383
@@ -23221,10 +21724,8 @@ This series has now met a designation marking an absence of demand in the
 [research_golubkin_1978]: https://doi.org/10.1007/bf01091689
 [research_golubkin_1995]: https://doi.org/10.1007/bf02078211
 [research_golubkin_negoda_1995]: https://doi.org/10.1007/bf00312398
-[research_gomezcarnota_barriada_2023]: https://doi.org/10.3390/nano13071167
 [research_gomezdelrio_kwok_2020]: https://doi.org/10.2514/6.2020-0205
 [research_gomezfernandez_2024]: https://doi.org/10.52202/078373-0057
-[research_gomezmoreno_1998]: https://doi.org/10.1016/s0021-8502(98)00589-8
 [research_gomezvega_prashanth_2025]: https://doi.org/10.2514/6.2025-0089
 [research_gomezvega_tan_2025]: https://doi.org/10.2514/6.2025-1243
 [research_gomezvega_tan_2026]: https://doi.org/10.2514/1.c038773
@@ -23246,7 +21747,6 @@ This series has now met a designation marking an absence of demand in the
 [research_gonzalezcanche_floresjohnson_2017]: https://doi.org/10.1016/j.compstruct.2017.02.100
 [research_good_1975]: https://doi.org/10.1080/00423117508968466
 [research_goodman_1950]: https://doi.org/10.2172/4396685
-[research_goodman_1971]: https://doi.org/10.2514/3.6252
 [research_goodyer_kilgore_1972]: https://doi.org/10.2514/6.1972-995
 [research_gopal_adali_2000]: https://doi.org/10.1016/s0263-8223(99)00080-x
 [research_goracke_levack_1997]: https://doi.org/10.2514/2.3281
@@ -23328,13 +21828,11 @@ This series has now met a designation marking an absence of demand in the
 [research_grenoble_harik_2019]: https://doi.org/10.33599/nasampe/s.19.1574
 [research_grenoblerayw_gatesthomass_2005]: https://ntrs.nasa.gov/citations/20050199401
 [research_greshnyakov_2016]: https://doi.org/10.18287/2412-7329-2016-15-1-151-162
-[research_gresnigt_sugii_2021]: https://doi.org/10.1016/j.jmbbm.2020.104172
 [research_greszczuk_miller_1970]: https://doi.org/10.2514/6.1970-101
 [research_griffin_takahashi_2022]: https://doi.org/10.2514/6.2022-3657
 [research_griffith_1993]: https://doi.org/10.2172/10122649
 [research_griffith_wang_2025]: https://doi.org/10.1016/j.compositesa.2025.109190
 [research_grigoriev_proskuryakov_2024]: https://doi.org/10.31857/s0005231024010025
-[research_grimes_1986]: https://doi.org/10.1063/1.35608
 [research_grimm_1992]: https://doi.org/10.1016/s1474-6670(17)49694-7
 [research_grimsley_dolph_2023]: https://doi.org/10.33599/nasampe/s.23.0101
 [research_grimsleybrianw_canorobertoj_2001]: https://ntrs.nasa.gov/citations/20040086019
@@ -23348,8 +21846,6 @@ This series has now met a designation marking an absence of demand in the
 [research_grogan_obradaigh_2015]: https://doi.org/10.1016/j.compstruct.2014.09.068
 [research_grogan_obradaigh_2015_b]: https://doi.org/10.1016/j.compositesa.2015.08.037
 [research_groh_pirrera_2019]: https://doi.org/10.1103/physreve.100.032205
-[research_gross_1967]: https://doi.org/10.6028/nbs.rpt.9505
-[research_gross_1971]: https://doi.org/10.6028/nbs.rpt.10469
 [research_grossbeck_odom_1998]: https://doi.org/10.2172/654030
 [research_grosset_leriche_2004]: https://doi.org/10.2514/6.2004-4529
 [research_grosset_leriche_2004_b]: https://doi.org/10.2514/6.2004-1910
@@ -23371,14 +21867,12 @@ This series has now met a designation marking an absence of demand in the
 [research_gruszczynski_thorp_1991]: https://doi.org/10.2514/6.1991-1438
 [research_gu_chattopadhyay_1995]: https://doi.org/10.2514/6.1995-1499
 [research_gu_chen_2026]: https://doi.org/10.1016/j.ijhydene.2026.153876
-[research_gu_han_2026]: https://doi.org/10.1016/j.oceaneng.2026.127274
 [research_gu_tan_2026]: https://doi.org/10.3724/zrht.1674-5825.2025077
 [research_gu_wettermark_2017]: https://doi.org/10.1016/j.addma.2017.07.002
 [research_gu_wu_2026]: https://doi.org/10.1016/j.apm.2026.117243
 [research_guadagnini_dezaiacomo_2023]: https://doi.org/10.3390/aerospace11010035
 [research_guan_chen_2024]: https://doi.org/10.1145/3669721.3674524
 [research_guan_chi_2024]: https://doi.org/10.1002/pc.28233
-[research_guan_deng_2015]: https://doi.org/10.1142/9789814733878_0010
 [research_guangyuan_zhengyuan_1984]: https://doi.org/10.1080/03052158408902480
 [research_guarino_gulizzi_2022]: https://doi.org/10.2514/1.j061933
 [research_gubertov_borisov_1996]: https://doi.org/10.2514/6.1996-4520
@@ -23402,17 +21896,13 @@ This series has now met a designation marking an absence of demand in the
 [research_gulhan_esser_2001]: https://doi.org/10.2514/2.3729
 [research_gulli_maddalena_2015]: https://doi.org/10.2514/6.2015-3554
 [research_gulliver_lemon_2017]: https://doi.org/10.2514/6.2017-5261
-[research_gulzar_urrehman_2024]: https://doi.org/10.1109/iceet65156.2024.10913692
 [research_gummadidala_krishna_2025]: https://doi.org/10.55248/gengpi.6.0925.3327
-[research_gunaware_2025]: https://doi.org/10.47760/oajmr.2025.v01i07.001
 [research_gunkel_moran_1995]: https://doi.org/10.5006/c1995-95377
 [research_gunnink_1988]: https://doi.org/10.1016/0263-8223(88)90062-1
 [research_gunther_yang_2026]: https://doi.org/10.1016/j.ijhydene.2026.156054
 [research_guo_chen_2023]: https://doi.org/10.2514/1.j063273
 [research_guo_chow_2024]: https://doi.org/10.1088/1742-6596/2882/1/012022
 [research_guo_dai_2025]: https://doi.org/10.1109/iceaai64185.2025.10957313
-[research_guo_fu_2016]: https://doi.org/10.1016/j.engstruct.2016.08.013
-[research_guo_li_2019]: https://doi.org/10.7449/2019/mst_2019_388_395
 [research_guo_li_2020]: https://doi.org/10.1016/j.ast.2020.106234
 [research_guo_li_2025]: https://doi.org/10.52202/083087-0051
 [research_guo_liang_2025]: https://doi.org/10.1109/taes.2025.3591088
@@ -23427,7 +21917,6 @@ This series has now met a designation marking an absence of demand in the
 [research_guo_zhang_2016]: https://doi.org/10.1016/j.ast.2016.09.020
 [research_guo_zhao_2023]: https://doi.org/10.23919/ccc58697.2023.10240040
 [research_guoliang_guiqing_2004]: https://doi.org/10.1016/s0094-5765(03)00035-3
-[research_guoming_2021]: https://doi.org/10.1109/ecie52353.2021.00044
 [research_gupta_ding_2026]: https://doi.org/10.1016/j.engfailanal.2026.111206
 [research_gupta_ghosh_2017]: https://doi.org/10.2514/6.2017-1980
 [research_gupta_hall_1977]: https://doi.org/10.1109/cdc.1977.271658
@@ -23449,7 +21938,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ha_yother_2025]: https://doi.org/10.1155/ijae/9213357
 [research_haasbrianl_milosfranks_1994]: https://ntrs.nasa.gov/citations/20010047000
 [research_haasdw_gerlervm_1972]: https://ntrs.nasa.gov/citations/19720020272
-[research_habibnejadkorayem_khajepour_2021]: https://doi.org/10.1080/00423114.2021.1969416
 [research_hader_fasel_2021]: https://doi.org/10.2514/6.2021-2865
 [research_hader_fasel_2024]: https://doi.org/10.2514/6.2024-1569
 [research_hader_leinemann_2020]: https://doi.org/10.2514/6.2020-2993
@@ -23472,7 +21960,6 @@ This series has now met a designation marking an absence of demand in the
 [research_hagopian_1996]: https://doi.org/10.1117/12.254149
 [research_hagopian_1996_b]: https://doi.org/10.1117/12.254148
 [research_hagopian_2002]: https://doi.org/10.2514/6.2002-t3-55
-[research_hahm_burrell_1996]: https://doi.org/10.2172/220600
 [research_hahn_kim_1976]: https://doi.org/10.1177/002199837601000205
 [research_hahn_kiusalaas_1992]: https://doi.org/10.1115/cie1992-0108
 [research_hahn_rosenfield_1970]: https://doi.org/10.21236/ad0866080
@@ -23480,15 +21967,11 @@ This series has now met a designation marking an absence of demand in the
 [research_haif_kbab_2023]: https://doi.org/10.13111/2066-8201.2023.15.2.4
 [research_hajikazemi_vanpaepegem_2018]: https://doi.org/10.1016/j.compstruct.2017.10.012
 [research_hajlaoui_wali_2016]: https://doi.org/10.1051/meca/2015106
-[research_hakim_2025]: https://doi.org/10.2118/229857-ms
-[research_hakobyan_singh_2024]: https://doi.org/10.1103/physrevapplied.21.064003
-[research_hala_kheml_2023]: https://doi.org/10.21838/uhpc.16647
 [research_halbritter_harik_2019]: https://doi.org/10.14733/cadconfp.2019.298-302
 [research_hald_2003]: https://doi.org/10.1016/s1270-9638(03)00054-3
 [research_hald_thyregod_1965]: https://doi.org/10.21236/ad0615797
 [research_halejosephp_1997]: https://ntrs.nasa.gov/citations/19990107378
 [research_halgren_huang_1955]: https://doi.org/10.4271/550005
-[research_halinka_rzepka_2015]: https://doi.org/10.1109/meps.2015.7477185
 [research_hall_1979]: https://doi.org/10.2172/5951478
 [research_hall_1996]: https://doi.org/10.1177/002199839603001705
 [research_hall_mudawar_1994]: https://doi.org/10.1115/imece1994-0338
@@ -23515,7 +21998,6 @@ This series has now met a designation marking an absence of demand in the
 [research_hamiltont_1972]: https://ntrs.nasa.gov/citations/19720014239
 [research_hamling_lin_1994]: https://doi.org/10.2514/6.1994-1397
 [research_hamlyn_john_1986]: https://doi.org/10.1016/0261-3069(86)90067-1
-[research_hammitt_1972]: https://doi.org/10.2514/3.6577
 [research_hammond_1981]: https://doi.org/10.2172/5291278
 [research_hammondmbjr_1966]: https://ntrs.nasa.gov/citations/19660060602
 [research_hamori_kumazawa_2020]: https://doi.org/10.1016/j.compstruct.2020.112326
@@ -23534,8 +22016,6 @@ This series has now met a designation marking an absence of demand in the
 [research_han_yuan_2024]: https://doi.org/10.1115/omae2024-127548
 [research_hanagud_2021]: https://doi.org/10.1115/imece2021-70469
 [research_hanagud_smithjr_1986]: https://doi.org/10.2514/6.1986-928
-[research_hanamoto_1975]: https://doi.org/10.21236/ada016911
-[research_hanamoto_liston_1963]: https://doi.org/10.21236/ad0488300
 [research_haney_1997]: https://doi.org/10.1063/1.51914
 [research_hanford_1969]: https://doi.org/10.2514/6.1969-441
 [research_hank_lee_2022]: https://doi.org/10.2514/6.2022-1094
@@ -23544,9 +22024,7 @@ This series has now met a designation marking an absence of demand in the
 [research_hanna_stephens_1991]: https://doi.org/10.2514/6.1991-4007
 [research_hannah_muessig_1970]: https://doi.org/10.21236/ada955972
 [research_hannigan_1965]: https://doi.org/10.21236/ad0620144
-[research_hansen_dann_2006]: https://doi.org/10.21236/ada456144
 [research_hansen_fetty_2015]: https://doi.org/10.4050/f-0071-2015-10248
-[research_hansen_howington_2007]: https://doi.org/10.21236/ada472127
 [research_hansencf_1982]: https://ntrs.nasa.gov/citations/19840055387
 [research_hantos_2008]: https://doi.org/10.21236/ada484526
 [research_hao_li_2023]: https://doi.org/10.1117/12.2688875
@@ -23559,7 +22037,6 @@ This series has now met a designation marking an absence of demand in the
 [research_haqq_2020]: https://doi.org/10.30536/j.jtd.2020.v18.a3438
 [research_hara_2020]: https://doi.org/10.1109/tale48869.2020.9368371
 [research_hara_mamashita_2024]: https://doi.org/10.2514/6.2024-3504
-[research_haraguchi_sakaguchi_2022]: https://doi.org/10.1109/access.2022.3184028
 [research_hardenbergh_edmonson_1960]: https://doi.org/10.2172/4106005
 [research_hardgrove_kriegjr_1984]: https://doi.org/10.2514/6.1984-1254
 [research_hardie_liu_1996]: https://doi.org/10.1016/0010-938x(96)00161-8
@@ -23574,7 +22051,6 @@ This series has now met a designation marking an absence of demand in the
 [research_harikrishnan_lokavarapu_2021]: https://doi.org/10.1016/j.matpr.2020.10.370
 [research_harikumar_cr_2025]: https://doi.org/10.1115/imece-india2025-161239
 [research_harikumar_cr_2025_b]: https://doi.org/10.1117/12.3050835
-[research_haririardebili_segura_2024]: https://doi.org/10.1016/j.strusafe.2023.102401
 [research_harloff_1987]: https://doi.org/10.2514/6.1987-2548
 [research_harman_rajic_2017]: https://doi.org/10.12783/asc2017/15396
 [research_harmon_dieterich_1991]: https://doi.org/10.21236/ada241540
@@ -23583,10 +22059,8 @@ This series has now met a designation marking an absence of demand in the
 [research_harper_weitsman_1981]: https://doi.org/10.2514/6.1981-580
 [research_harpoldjc_1980]: https://ntrs.nasa.gov/citations/19800016873
 [research_harpoldjc_gavertde_1982]: https://ntrs.nasa.gov/citations/19820055448
-[research_harrington_2005]: https://doi.org/10.21236/ada431830
 [research_harris_clatworthy_1986]: https://doi.org/10.5006/c1986-86150
 [research_harris_cox_2022]: https://doi.org/10.2514/6.2022-0658
-[research_harris_cox_2022_b]: https://doi.org/10.2514/6.2022-0658.c1
 [research_harris_crisman_1965]: https://doi.org/10.1061/jmcea3.0000629
 [research_harris_crisman_1966]: https://doi.org/10.1061/jmcea3.0000760
 [research_harris_hall_1980]: https://doi.org/10.2514/6.1980-1609
@@ -23594,7 +22068,6 @@ This series has now met a designation marking an absence of demand in the
 [research_harris_nordby_1969]: https://doi.org/10.1061/jsdeag.0002239
 [research_harriscd_luomaaa_1967]: https://ntrs.nasa.gov/citations/19670029918
 [research_harrischarlese_starnesjameshjr_2003]: https://ntrs.nasa.gov/citations/20030059016
-[research_harrison_1997]: https://doi.org/10.3141/1584-03
 [research_harroun_heister_2019]: https://doi.org/10.2514/6.2019-0197
 [research_harroun_heister_2020]: https://doi.org/10.2514/6.2020-0198
 [research_harroun_heister_2021]: https://doi.org/10.2514/1.b38244
@@ -23640,11 +22113,9 @@ This series has now met a designation marking an absence of demand in the
 [research_he_huang_2022]: https://doi.org/10.3390/buildings12050615
 [research_he_lei_2015]: https://doi.org/10.1016/j.ijhydene.2014.12.058
 [research_he_li_2018]: https://doi.org/10.1109/gncc42960.2018.9018857
-[research_he_liu_2025]: https://doi.org/10.2118/226254-ms
 [research_he_qin_2015]: https://doi.org/10.1016/j.cja.2015.06.016
 [research_he_shin_2021]: https://doi.org/10.2514/1.i010970
 [research_he_sun_2023]: https://doi.org/10.1016/j.ast.2023.108524
-[research_he_wang_2019]: https://doi.org/10.5220/0008869900970101
 [research_he_yang_2020]: https://doi.org/10.23919/ccc50068.2020.9188647
 [research_he_yin_2026]: https://doi.org/10.1016/j.est.2025.119195
 [research_he_yu_2016]: https://doi.org/10.1016/j.ijhydene.2016.04.184
@@ -23706,7 +22177,6 @@ This series has now met a designation marking an absence of demand in the
 [research_herrera_niederhofer_2023]: https://doi.org/10.5006/c2023-19269
 [research_herrera_seifert_2024]: https://doi.org/10.5006/c2024-20800
 [research_herrmann_cox_2025]: https://doi.org/10.2514/6.2025-1338
-[research_herrmann_schwab_2019]: https://doi.org/10.1137/18m1176063
 [research_hertzberg_1986]: https://doi.org/10.21236/ada173064
 [research_hertzfeld_2000]: https://doi.org/10.2514/6.2000-5113
 [research_herup_palazotto_1996]: https://doi.org/10.2514/6.1996-1519
@@ -23726,7 +22196,6 @@ This series has now met a designation marking an absence of demand in the
 [research_higashimura_masuda_1983]: https://doi.org/10.1007/bf00263249
 [research_higby_askins_1989]: https://doi.org/10.1117/12.948179
 [research_higdon_landrum_2003]: https://doi.org/10.2514/6.2003-4908
-[research_high_product_1997]: https://doi.org/10.1016/s0015-1882(97)90597-8
 [research_high_temperature_1984]: https://doi.org/10.1016/0261-3069(84)90088-8
 [research_higuchi_aoki_2020]: https://doi.org/10.12783/asc35/34946
 [research_hilado_1979]: https://doi.org/10.1177/109719637900300103
@@ -23757,7 +22226,6 @@ This series has now met a designation marking an absence of demand in the
 [research_himeno_watanabe_2001]: https://doi.org/10.2514/6.2001-3822
 [research_hinckel_1995]: https://doi.org/10.2514/6.1995-3094
 [research_hiraiwa_tomioka_1995]: https://doi.org/10.2514/3.23858
-[research_hitchcock_1939]: https://doi.org/10.21236/ad0491819
 [research_hiyama_1974]: https://doi.org/10.21236/ada002867
 [research_ho_decroon_2016]: https://doi.org/10.2514/6.2016-0106
 [research_ho_logan_1993]: https://doi.org/10.21236/ada264725
@@ -23805,7 +22273,6 @@ This series has now met a designation marking an absence of demand in the
 [research_hong_jeong_1985]: https://doi.org/10.1016/0013-7944(85)90017-7
 [research_hong_kim_2015]: https://doi.org/10.6108/kspe.2015.19.3.089
 [research_hong_song_2016]: https://doi.org/10.7234/composres.2016.29.5.315
-[research_hong_vlahopoulos_2004]: https://doi.org/10.21236/ada637003
 [research_hongbo_yongyuan_2016]: https://doi.org/10.1504/ijscom.2016.076405
 [research_hongpeng_weiqiang_2016]: https://doi.org/10.1016/j.actaastro.2016.05.014
 [research_honguyen_hoonkim_2022]: https://doi.org/10.1016/j.apenergy.2022.118552
@@ -23900,7 +22367,6 @@ This series has now met a designation marking an absence of demand in the
 [research_hu_zhan_2020]: https://doi.org/10.1088/1742-6596/1549/3/032086
 [research_hu_zhang_2023]: https://doi.org/10.3390/buildings13030608
 [research_hu_zong_2026]: https://doi.org/10.1016/j.ijhydene.2026.153801
-[research_hua_bao_2021]: https://doi.org/10.1016/j.powtec.2021.07.070
 [research_huang_1963]: https://doi.org/10.21236/ad0409599
 [research_huang_1974]: https://doi.org/10.2514/6.1974-1080
 [research_huang_1974_b]: https://doi.org/10.2514/6.1974-34
@@ -23914,7 +22380,6 @@ This series has now met a designation marking an absence of demand in the
 [research_huang_funk_1973]: https://doi.org/10.21236/ad0764085
 [research_huang_gillespie_1997]: https://doi.org/10.1016/s1359-8368(96)00062-5
 [research_huang_gillespie_2000]: https://doi.org/10.1016/s0263-8223(00)00078-7
-[research_huang_huang_2021]: https://doi.org/10.5244/c.35.170
 [research_huang_li_2025]: https://doi.org/10.2514/1.a36290
 [research_huang_liu_1994]: https://doi.org/10.1016/0167-8442(94)90031-0
 [research_huang_long_2022]: https://doi.org/10.1177/10996362221131274
@@ -23971,7 +22436,6 @@ This series has now met a designation marking an absence of demand in the
 [research_huntjl_1973]: https://ntrs.nasa.gov/citations/19730009273
 [research_huo_ding_2026]: https://doi.org/10.2514/1.j066540
 [research_huo_yang_2017]: https://doi.org/10.2514/6.2017-2106
-[research_hurlich_1945]: https://doi.org/10.21236/ada954960
 [research_hurwitzfi_1985]: https://ntrs.nasa.gov/citations/19860028431
 [research_husby_2025]: https://doi.org/10.5006/c2025-00025
 [research_husby_kulbotten_2023]: https://doi.org/10.5006/c2023-18763
@@ -23999,7 +22463,6 @@ This series has now met a designation marking an absence of demand in the
 [research_hwang_chou_1997]: https://doi.org/10.1016/s1359-6462(97)00472-7
 [research_hwang_huh_2016]: https://doi.org/10.6108/kspe.2016.20.3.087
 [research_hwang_liu_2001]: https://doi.org/10.1016/s0263-8223(01)00007-1
-[research_hwang_savacool_2009]: https://doi.org/10.21236/ada525840
 [research_hwang_woo_2024]: https://doi.org/10.3390/en17102341
 [research_hyatt_1969]: https://doi.org/10.21236/ad0709051
 [research_hybrid_composite_1978]: https://doi.org/10.1016/0010-4361(78)90462-7
@@ -24014,11 +22477,9 @@ This series has now met a designation marking an absence of demand in the
 [research_idarraga_jalalvand_2021]: https://doi.org/10.1016/j.compstruct.2021.114128
 [research_iddings_1988]: https://doi.org/10.21236/ada210061
 [research_ide_armstrong_1989]: https://doi.org/10.2514/6.1989-2182
-[research_identifying_stochastic_2023]: https://doi.org/10.36334/modsim.2023.armstrong537
 [research_idriss_elmahi_2015]: https://doi.org/10.1016/j.compstruct.2014.09.036
 [research_idriss_elmahi_2016]: https://doi.org/10.1177/0021998316663292
 [research_idriss_elmahi_2018]: https://doi.org/10.1177/0892705718797162
-[research_iee_to_1979]: https://doi.org/10.1049/ep.1979.0007
 [research_ifayefunmi_blachut_2018]: https://doi.org/10.1115/1.4039695
 [research_ifayefunmi_ismail_2020]: https://doi.org/10.1590/1679-78256197
 [research_ifennaokoli_samuelsholiyi_2021]: https://doi.org/10.7753/ijsea1004.1002
@@ -24037,9 +22498,7 @@ This series has now met a designation marking an absence of demand in the
 [research_improve_manufacturing_2025]: https://doi.org/10.12968/s1478-2774(25)50044-3
 [research_improving_thermal_2001]: https://doi.org/10.1108/aeat.2001.12773aab.005
 [research_in_chamber_vacuum_1967]: https://doi.org/10.1016/0042-207x(67)91162-1
-[research_in_vehicle_speech_2020]: https://doi.org/10.38007/ml.2020.010102
 [research_inatomi_kitamura_2019]: https://doi.org/10.2322/tastj.17.439
-[research_incekara_haykirhobikoglu_2015]: https://doi.org/10.36880/c06.01381
 [research_india_to_2015]: https://doi.org/10.1063/pt.5.028943
 [research_influence_of_2017]: https://doi.org/10.15593/2224-9982/2017.49.03
 [research_influence_of_the_2024]: https://doi.org/10.62717/2221-4550-2024-1-027
@@ -24061,13 +22520,11 @@ This series has now met a designation marking an absence of demand in the
 [research_investigation_into_1994]: https://doi.org/10.6028/nist.ir.5509
 [research_iorio_quadrini_2023]: https://doi.org/10.1177/00219983231204117
 [research_iqbal_akbar_2026]: https://doi.org/10.1016/j.icheatmasstransfer.2025.110032
-[research_iqbal_mahar_2022]: https://doi.org/10.52763/pjsir.phys.sci.65.1.2022.80.86
 [research_ireland_gonzales_2020]: https://doi.org/10.1109/rams48030.2020.9153710
 [research_irven_carolan_2023]: https://doi.org/10.1016/j.compstruct.2023.117148
 [research_irvine_1968]: https://doi.org/10.21236/ad0680316
 [research_isaacs_trotsky_2025]: https://doi.org/10.2514/6.2025-0323
 [research_isaji_maynard_2018]: https://doi.org/10.2514/6.2018-5131
-[research_isdahl_shamshiri_2024]: https://doi.org/10.4043/35219-ms
 [research_ishai_mazor_1975]: https://doi.org/10.1177/002199837500900406
 [research_ishii_1985]: https://doi.org/10.1627/jpi1958.28.191
 [research_ishikawa_tsuya_1977]: https://doi.org/10.1016/0011-2275(77)90199-0
@@ -24096,7 +22553,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ivanco_keller_2021]: https://doi.org/10.2514/6.2021-1072
 [research_ivaschenko_krotov_1972]: https://doi.org/10.1016/0032-3950(72)90037-8
 [research_ivashov_razevig_2015]: https://doi.org/10.1016/j.ndteint.2014.10.002
-[research_iverson_1988]: https://doi.org/10.21236/ada454151
 [research_iwadate_tanaka_1994]: https://doi.org/10.1115/1.2929601
 [research_iwata_2024]: https://doi.org/10.1016/j.ijadhadh.2024.103790
 [research_izzawati_afendi_2015]: https://doi.org/10.4028/www.scientific.net/msf.819.443
@@ -24121,14 +22577,12 @@ This series has now met a designation marking an absence of demand in the
 [research_jagadish_sivaramakrishna_2021]: https://doi.org/10.1088/1757-899x/1185/1/012031
 [research_jaggers_1977]: https://doi.org/10.2514/6.1977-1051
 [research_jagtap_childs_2024]: https://doi.org/10.1016/j.ijhydene.2024.11.331
-[research_jahanbin_chahooki_2023]: https://doi.org/10.1109/access.2023.3327060
 [research_jahanian_1994]: https://doi.org/10.1115/imece1994-1339
 [research_jain_j_2022]: https://doi.org/10.1109/icares56907.2022.9993608
 [research_jain_kumar_2022]: https://doi.org/10.2514/6.2022-3861
 [research_jaiswal_hirulkar_2017]: https://doi.org/10.1109/icicict1.2017.8342557
 [research_jakeman_2024]: https://doi.org/10.2172/2540434
 [research_jakubczak_2021]: https://doi.org/10.1016/j.compstruct.2020.113151
-[research_jakubowski_fiolek_2022]: https://doi.org/10.1016/j.tust.2022.104755
 [research_jamalabdollahi_zekavat_2015]: https://doi.org/10.1109/wisee.2015.7393094
 [research_jambunathan_levin_2016]: https://doi.org/10.2514/6.2016-3387
 [research_jamesefesmire_2017]: https://ntrs.nasa.gov/citations/20180006604
@@ -24151,14 +22605,10 @@ This series has now met a designation marking an absence of demand in the
 [research_jansch_schnepper_1991]: https://doi.org/10.23919/acc.1991.4791798
 [research_jansen_rahman_2022]: https://doi.org/10.2514/6.2022-0257
 [research_jansson_harris_2023]: https://doi.org/10.3390/aerospace10010071
-[research_jarosik_lewandowski_2019]: https://doi.org/10.1109/ultsym.2019.8926041
-[research_jarvinen_2016]: https://doi.org/10.1109/ftc.2016.7821735
-[research_jarvis_1979]: https://doi.org/10.21236/adb036730
 [research_jaske_leis_1979]: https://doi.org/10.5006/c1979-79131
 [research_jaske_odonnell_1977]: https://doi.org/10.1115/1.3454577
 [research_jasri_afendi_2015]: https://doi.org/10.1063/1.4915820
 [research_jaunky_knightjr_1999]: https://doi.org/10.1016/s0020-7683(98)00177-2
-[research_javadi_dahl_2019]: https://doi.org/10.1016/j.compeleceng.2019.04.001
 [research_jawad_wang_2019]: https://doi.org/10.1115/1.4044164
 [research_jayanthi_jain_2019]: https://doi.org/10.12783/ballistics2019/33142
 [research_jayaprakash_dhinarakaran_2022]: https://doi.org/10.53730/ijhs.v6ns5.9404
@@ -24166,17 +22616,14 @@ This series has now met a designation marking an absence of demand in the
 [research_jayaraman_pandey_2022]: https://doi.org/10.2514/6.2022-4038
 [research_jayasree_omairey_2020]: https://doi.org/10.1515/secm-2020-0033
 [research_jegley_1987]: https://doi.org/10.2514/6.1987-729
-[research_jellinek_krissinel_1997]: https://doi.org/10.2172/541878
 [research_jen_kau_1994]: https://doi.org/10.1016/0263-8223(94)90039-6
 [research_jenie_asyary_2018]: https://doi.org/10.1088/1742-6596/1130/1/012035
 [research_jenke_1979]: https://doi.org/10.2514/3.61189
 [research_jenkins_fitzgerald_2000]: https://doi.org/10.2514/6.2000-1727
-[research_jennings_carroll_1981]: https://doi.org/10.2523/9870-ms
 [research_jeon_jeong_2024]: https://doi.org/10.1016/j.oceaneng.2024.117173
 [research_jeon_kim_2023]: https://doi.org/10.1016/j.compstruct.2023.117237
 [research_jeon_kim_2025]: https://doi.org/10.1016/j.ijhydene.2025.05.106
 [research_jeong_cho_2026]: https://doi.org/10.2514/6.2026-0729
-[research_jeong_cho_2026_b]: https://doi.org/10.2514/6.2026-0729.c1
 [research_jeong_jeong_2019]: https://doi.org/10.23919/oceans40490.2019.8962881
 [research_jeong_ko_2026]: https://doi.org/10.1016/j.ast.2026.113111
 [research_jeong_lee_2023]: https://doi.org/10.3390/fluids8090239
@@ -24192,19 +22639,15 @@ This series has now met a designation marking an absence of demand in the
 [research_ji_dong_2025]: https://doi.org/10.1017/jfm.2025.10378
 [research_ji_jia_2021]: https://doi.org/10.1115/pvp2021-61901
 [research_ji_liang_2021]: https://doi.org/10.1016/j.asr.2021.03.034
-[research_ji_yan_2022]: https://doi.org/10.1145/3523150.3523166
 [research_ji_zhang_2016]: https://doi.org/10.1115/imece2016-66381
 [research_jia_chen_2021]: https://doi.org/10.1115/pvp2021-60601
 [research_jia_fu_2020]: https://doi.org/10.1016/j.actaastro.2020.07.022
 [research_jia_gong_2021]: https://doi.org/10.1109/cac53003.2021.9727835
 [research_jia_liu_2025]: https://doi.org/10.1063/5.0271760
-[research_jian_yihan_2025]: https://doi.org/10.5220/0013543500004664
 [research_jiandong_qiang_2020]: https://doi.org/10.1109/aiam50918.2020.00093
 [research_jiang_dong_2024]: https://doi.org/10.1007/s10409-024-24259-x
 [research_jiang_he_2021]: https://doi.org/10.1016/j.compstruct.2020.113101
-[research_jiang_huangfu_2025]: https://doi.org/10.1016/j.energy.2024.134292
 [research_jiang_li_2018]: https://doi.org/10.1016/j.ast.2018.02.009
-[research_jiang_lv_2023]: https://doi.org/10.1109/icmtim58873.2023.10246544
 [research_jiang_nan_2022]: https://doi.org/10.3390/aerospace9080424
 [research_jiang_sun_2021]: https://doi.org/10.1016/j.energy.2021.120859
 [research_jiang_tian_2023]: https://doi.org/10.1109/icmae59650.2023.10424660
@@ -24227,7 +22670,6 @@ This series has now met a designation marking an absence of demand in the
 [research_jiao_chen_2023]: https://doi.org/10.1142/s0219455423501973
 [research_jiao_xu_2025]: https://doi.org/10.1016/j.ijpvp.2025.105616
 [research_jiawei_2024]: https://doi.org/10.52202/078373-0005
-[research_jilek_sefcik_2019]: https://doi.org/10.22616/erdev2019.18.n051
 [research_jimenez_marthelot_2017]: https://doi.org/10.1115/1.4035665
 [research_jin_batra_1999]: https://doi.org/10.1016/s0013-7944(98)00112-x
 [research_jin_mai_1997]: https://doi.org/10.1177/002199839703100801
@@ -24285,9 +22727,6 @@ This series has now met a designation marking an absence of demand in the
 [research_johnsontheodoref_natividadroderick_2005]: https://ntrs.nasa.gov/citations/20050217094
 [research_johnsonwesleyl_valenzuelajuang_2014]: https://ntrs.nasa.gov/citations/20140016533
 [research_johnston_bitter_2026]: https://doi.org/10.2514/6.2026-0737
-[research_johnston_kalal_1977]: https://doi.org/10.21236/adb026310
-[research_jokubaitis_1971]: https://doi.org/10.21236/ad0727582
-[research_jokubyniene_liebuviene_2023]: https://doi.org/10.22616/erdev.2023.22.tf048
 [research_jones_1967]: https://doi.org/10.21236/ad0660535
 [research_jones_1973]: https://doi.org/10.2514/6.1973-368
 [research_jones_1973_b]: https://doi.org/10.21236/ad0773559
@@ -24302,7 +22741,6 @@ This series has now met a designation marking an absence of demand in the
 [research_jones_hennemann_1978]: https://doi.org/10.2514/6.1978-516
 [research_jones_holliday_1999]: https://doi.org/10.1115/1.2883678
 [research_jones_morgan_1974]: https://doi.org/10.2514/6.1974-33
-[research_jones_placzankis_2016]: https://doi.org/10.21236/ad1012477
 [research_jones_rembertf_1973]: https://doi.org/10.21236/ad0769465
 [research_jones_shukla_2002]: https://doi.org/10.2514/6.2002-4196
 [research_jones_shukla_2003]: https://doi.org/10.2514/2.3965
@@ -24344,7 +22782,6 @@ This series has now met a designation marking an absence of demand in the
 [research_juarez_gunther_1990]: https://doi.org/10.2514/6.1990-1807
 [research_jugade_2023]: https://doi.org/10.2514/6.2023-69397
 [research_juliyana_santhanakrishnan_2019]: https://doi.org/10.1016/j.matpr.2019.05.151
-[research_julyk_1994]: https://doi.org/10.2172/10181881
 [research_jumel_2001]: https://doi.org/10.1063/1.1373869
 [research_jun_hong_1988]: https://doi.org/10.1016/0045-7949(88)90400-2
 [research_jun_seo_2026]: https://doi.org/10.2514/6.2026-2383
@@ -24361,7 +22798,6 @@ This series has now met a designation marking an absence of demand in the
 [research_justin_gangloff_2019]: https://doi.org/10.33599/nasampe/s.19.1536
 [research_justus_p_2018]: https://doi.org/10.1615/ihmtc-2017.1460
 [research_juttyk_bhat_2000]: https://doi.org/10.1023/a:1011536324041
-[research_k_muthukumaravel_2025]: https://doi.org/10.1504/ijsse.2025.10058951
 [research_kabashima_ozaki_2000]: https://doi.org/10.1163/15685510052000101
 [research_kachel_kozakiewicz_2015]: https://doi.org/10.4028/www.scientific.net/ssp.220-221.802
 [research_kacynskikennethj_hoffmanjoed_1993]: https://ntrs.nasa.gov/citations/19950009924
@@ -24391,7 +22827,6 @@ This series has now met a designation marking an absence of demand in the
 [research_kalyagin_safronov_2023]: https://doi.org/10.1007/s42401-023-00226-5
 [research_kam_gage_2004]: https://doi.org/10.2514/1.6324
 [research_kamat_2025]: https://doi.org/10.2514/6.2025-100084
-[research_kamath_1995]: https://doi.org/10.1115/imece1995-0550
 [research_kamaya_2021]: https://doi.org/10.1115/1.4052878
 [research_kamble_raykar_2024]: https://doi.org/10.1063/5.0205014
 [research_kamdar_1977]: https://doi.org/10.21236/ada037720
@@ -24413,14 +22848,12 @@ This series has now met a designation marking an absence of demand in the
 [research_kang_kim_2025]: https://doi.org/10.3390/aerospace12121055
 [research_kang_lee_2024]: https://doi.org/10.1016/j.ijmecsci.2024.109458
 [research_kang_lu_2025]: https://doi.org/10.2514/1.g008466
-[research_kang_park_2024]: https://doi.org/10.1016/j.evalprogplan.2024.102401
 [research_kang_young_2015]: https://doi.org/10.1115/pvp2015-45316
 [research_kang_yu_2022]: https://doi.org/10.1109/apccas55924.2022.10090326
 [research_kang_yun_2022]: https://doi.org/10.3390/en15124357
 [research_kangal_kartav_2019]: https://doi.org/10.1177/0021998319870588
 [research_kangwanpongpan_makarov_2024]: https://doi.org/10.1016/j.ijhydene.2023.07.126
 [research_kanhanpin_1992]: https://ntrs.nasa.gov/citations/19950022020
-[research_kaniewski_2026]: https://doi.org/10.1016/j.psep.2025.108346
 [research_kannan_katte_2018]: https://doi.org/10.1016/j.tsep.2018.07.008
 [research_kannappan_saunders_1988]: https://doi.org/10.1115/1.3265613
 [research_kanso_jha_2022]: https://doi.org/10.1016/j.ifacol.2022.07.112
@@ -24447,10 +22880,8 @@ This series has now met a designation marking an absence of demand in the
 [research_karkkainen_sankar_2006]: https://doi.org/10.21236/ada455158
 [research_karlsson_1999]: https://doi.org/10.1115/imece1999-0517
 [research_karnesky_chao_2017]: https://doi.org/10.1115/pvp2017-65857
-[research_karpov_skegas_1955]: https://doi.org/10.21236/ad0086528
 [research_karrech_elchalakani_2017]: https://doi.org/10.1016/j.compstruct.2017.04.029
 [research_karrkatherinel_poteetcarlc_2003]: https://ntrs.nasa.gov/citations/20030079974
-[research_kartal_2021]: https://doi.org/10.31031/eme.2021.03.000566
 [research_kartav_kangal_2021]: https://doi.org/10.1177/00219983211033568
 [research_kartuzova_kassemi_2019]: https://doi.org/10.2514/6.2019-4282
 [research_kartuzova_kassemi_2023]: https://doi.org/10.2514/6.2023-1414
@@ -24458,7 +22889,6 @@ This series has now met a designation marking an absence of demand in the
 [research_kartuzova_kassemi_2026]: https://doi.org/10.2514/6.2026-0569
 [research_karuntzos_2015]: https://doi.org/10.1109/aero.2015.7119014
 [research_karyofyllas_giagopoulos_2025]: https://doi.org/10.1177/14759217251324110
-[research_kasen_1961]: https://doi.org/10.21236/ad0258094
 [research_kashani_2023]: https://doi.org/10.30699/jsst.2023.1436
 [research_kashipazha_kheirikhah_2024]: https://doi.org/10.1088/1361-665x/ad2aa8
 [research_kassapoglou_1988]: https://doi.org/10.1016/0263-8223(88)90004-9
@@ -24468,16 +22898,11 @@ This series has now met a designation marking an absence of demand in the
 [research_kassemi_hylton_2018]: https://doi.org/10.2514/6.2018-4940
 [research_kataoka_2018]: https://doi.org/10.1115/pvp2018-84571
 [research_katayama_yamaguchi_1997]: https://doi.org/10.2351/1.5059742
-[research_kato_iwamoto_2017]: https://doi.org/10.20898/j.iass.2017.193.862
-[research_kato_nakazawa_2021]: https://doi.org/10.20898/j.iass.2021.001
-[research_kato_niho_2020]: https://doi.org/10.20898/j.iass.2020.005
 [research_katsuo_sawa_2004]: https://doi.org/10.1115/imece2004-59502
 [research_katsurayama_hirooka_2003]: https://doi.org/10.2514/6.2003-497
 [research_katsurayama_hirooka_2004]: https://doi.org/10.2514/6.2004-653
 [research_katz_1965]: https://doi.org/10.21236/ad0465716
-[research_katz_martinez_1993]: https://doi.org/10.21236/ada273789
 [research_kaufman_1970]: https://doi.org/10.2514/6.1970-278
-[research_kaur_2024]: https://doi.org/10.1109/iceca63461.2024.10800950
 [research_kaur_anandan_2016]: https://doi.org/10.1117/12.2219492
 [research_kavalli_kumar_2026]: https://doi.org/10.1063/5.0317441
 [research_kaveh_razzaghi_2025]: https://doi.org/10.1007/s42401-025-00390-w
@@ -24497,7 +22922,6 @@ This series has now met a designation marking an absence of demand in the
 [research_kececioglu_hughes_1963]: https://doi.org/10.21236/ad0400281
 [research_kedong_zhou_2019]: https://doi.org/10.1108/maem-10-2019-0010
 [research_keel_1988]: https://doi.org/10.2514/6.1988-2343
-[research_keenan_campbell_2005]: https://doi.org/10.21236/ada440050
 [research_keener_1974]: https://doi.org/10.1090/qam/441055
 [research_keeney_bass_1995]: https://doi.org/10.2172/73016
 [research_kegleyjeffrey_haightharlan_2005]: https://ntrs.nasa.gov/citations/20060024812
@@ -24525,7 +22949,6 @@ This series has now met a designation marking an absence of demand in the
 [research_kennedy_ghafafian_2025_b]: https://doi.org/10.33599/nasampe/s.25.0213
 [research_kenny_eddleman_2025]: https://doi.org/10.2514/6.2025-4122
 [research_kepple_herath_2015]: https://doi.org/10.1016/j.compstruct.2015.02.063
-[research_kerce_1988]: https://doi.org/10.21236/ada197536
 [research_kerlin_elliott_1968]: https://doi.org/10.2172/4201318
 [research_kerlin_elliott_1969]: https://doi.org/10.2172/4239956
 [research_kermani_simacek_2018]: https://doi.org/10.12783/asc33/25991
@@ -24546,14 +22969,11 @@ This series has now met a designation marking an absence of demand in the
 [research_khan_chakraborty_2023]: https://doi.org/10.2514/1.j063120
 [research_khan_kausar_2017]: https://doi.org/10.1016/j.ast.2017.02.014
 [research_khan_kumar_2024]: https://doi.org/10.1002/pc.29208
-[research_khandekar_tamhankar_2023]: https://doi.org/10.1109/globconet56651.2023.10150052
 [research_khanna_he_1998]: https://doi.org/10.1115/imece1998-0890
-[research_khare_chaturvedi_2023]: https://doi.org/10.1016/j.matpr.2023.05.575
 [research_khare_coltharp_2026]: https://doi.org/10.2514/6.2026-1782
 [research_khasimsharif_shikkeri_2020]: https://doi.org/10.1016/j.matpr.2019.12.379
 [research_khatouri_sahebsara_2026]: https://doi.org/10.2514/6.2026-2122
 [research_khdoudi_masrour_2024]: https://doi.org/10.3390/systems12020038
-[research_khezrimotlagh_shvartsman_2026]: https://doi.org/10.1080/01605682.2026.2616413
 [research_khot_1968]: https://doi.org/10.21236/ad0680014
 [research_khot_1969]: https://doi.org/10.2514/6.1969-93
 [research_khot_1970]: https://doi.org/10.2514/3.5648
@@ -24646,7 +23066,6 @@ This series has now met a designation marking an absence of demand in the
 [research_kirshner_valerdi_2022]: https://doi.org/10.2514/1.i010986
 [research_kiselev_maslov_1994]: https://doi.org/10.1007/bf02369177
 [research_kisioglu_brevick_2000]: https://doi.org/10.1115/1.1357158
-[research_kitamura_iwakura_1982]: https://doi.org/10.1016/0013-4686(82)80169-2
 [research_kitaygorsky_2020]: https://doi.org/10.1109/emcsi38923.2020.9191528
 [research_kiter_chalob_2021]: https://doi.org/10.32441/jaset.02.01.04
 [research_kittel_feaugas_2016]: https://doi.org/10.5006/c2016-07211
@@ -24695,9 +23114,7 @@ This series has now met a designation marking an absence of demand in the
 [research_koch_1999]: https://doi.org/10.5006/c1999-99516
 [research_koch_2023]: https://doi.org/10.2514/6.2023-0846
 [research_koch_wilken_2025]: https://doi.org/10.1007/s12567-025-00597-9
-[research_kochhar_2021]: https://doi.org/10.1007/s38314-020-0579-2
 [research_kochunni_chowdhury_2020]: https://doi.org/10.1016/j.jclepro.2020.121037
-[research_kocman_planinc_2026]: https://doi.org/10.1016/j.istruc.2026.112064
 [research_koeble_schmid_1993]: https://doi.org/10.2514/6.1993-5083
 [research_koelle_1984]: https://doi.org/10.1016/0094-5765(84)90100-0
 [research_koelle_1986]: https://doi.org/10.1016/0094-5765(86)90118-9
@@ -24725,7 +23142,6 @@ This series has now met a designation marking an absence of demand in the
 [research_komine_kobayashi_1982]: https://doi.org/10.1007/bf02325423
 [research_komkov_haug_1975]: https://doi.org/10.21236/ada363330
 [research_komurasaki_tabata_2018]: https://doi.org/10.1155/2018/9247429
-[research_komurcu_kefal_2024]: https://doi.org/10.1016/j.compstruct.2023.117704
 [research_koncul_2021]: https://doi.org/10.5592/co/zt.2021.08
 [research_kondratiev_2019]: https://doi.org/10.15587/1729-4061.2019.184551
 [research_kondratiuk_kovalevskiy_2016]: https://doi.org/10.1515/tae-2016-0004
@@ -24733,7 +23149,6 @@ This series has now met a designation marking an absence of demand in the
 [research_konopka_2018]: https://doi.org/10.2514/6.2018-1818
 [research_konopka_winkert_2024]: https://doi.org/10.2514/6.2024-1902
 [research_konopka_winkert_2024_b]: https://doi.org/10.2514/1.t6914
-[research_konstanciak_nogala_2024]: https://doi.org/10.3390/proceedings2024108012
 [research_konstantinidis_forstner_2020]: https://doi.org/10.2514/1.g004760
 [research_konstantinov_svotina_2017]: https://doi.org/10.1016/j.proeng.2017.03.308
 [research_kontinos_1996]: https://doi.org/10.2514/6.1996-1808
@@ -24745,7 +23160,6 @@ This series has now met a designation marking an absence of demand in the
 [research_koord_kumazawa_2026]: https://doi.org/10.1016/j.compositesb.2026.113580
 [research_koppenwallner_2001]: https://doi.org/10.1063/1.1407640
 [research_kornhauser_1982]: https://doi.org/10.21236/ada119173
-[research_kornreich_1992]: https://doi.org/10.21236/ada252486
 [research_koros_paul_1991]: https://doi.org/10.2172/6923140
 [research_korsberg_1947]: https://doi.org/10.4271/470228
 [research_korst_1974]: https://doi.org/10.21236/ada001238
@@ -24762,14 +23176,11 @@ This series has now met a designation marking an absence of demand in the
 [research_kosovova_reitlinger_1967]: https://doi.org/10.1016/0032-3950(67)90226-2
 [research_koss_1994]: https://doi.org/10.21236/ada280754
 [research_kostromin_1999]: https://doi.org/10.2514/6.1999-4887
-[research_kosytsyn_akulich_2019]: https://doi.org/10.1088/1742-6596/1425/1/012078
 [research_kotanchik_witmer_1964]: https://doi.org/10.21236/ad0614711
 [research_kottman_douglass_2019]: https://doi.org/10.5006/mpwt19-15370
 [research_koudounas_renuke_2025]: https://doi.org/10.1115/gt2025-153593
 [research_koulev_aswendt_1990]: https://doi.org/10.1117/12.963840
-[research_kovacsburns_gramlich_2015]: https://doi.org/10.1016/j.evalprogplan.2014.11.009
 [research_kovrigin_vasiliev_2020]: https://doi.org/10.1088/1757-899x/868/1/012011
-[research_kovscek_radke_1996]: https://doi.org/10.2172/212582
 [research_kowilliaml_2004]: https://ntrs.nasa.gov/citations/20040058113
 [research_kowilliaml_2004_b]: https://ntrs.nasa.gov/citations/20040073179
 [research_kowl_1980]: https://ntrs.nasa.gov/citations/19800034135
@@ -24816,8 +23227,6 @@ This series has now met a designation marking an absence of demand in the
 [research_krizak_scottemuakpor_2024]: https://doi.org/10.1115/gt2024-125114
 [research_krizrd_stinchcombww_1980]: https://ntrs.nasa.gov/citations/19800012968
 [research_krizrd_stinchcombww_1982]: https://ntrs.nasa.gov/citations/19830033338
-[research_kroeger_1956]: https://doi.org/10.2172/4350828
-[research_kroeger_neou_1956]: https://doi.org/10.2172/4353718
 [research_kronberg_2022]: https://doi.org/10.3389/fspas.2022.1008888
 [research_kruger_borsato_2019]: https://doi.org/10.1016/j.promfg.2020.01.207
 [research_krumins_1966]: https://doi.org/10.2514/6.1966-53
@@ -24851,10 +23260,8 @@ This series has now met a designation marking an absence of demand in the
 [research_kumar_2002]: https://doi.org/10.2514/2.3858
 [research_kumar_2024]: https://doi.org/10.1016/j.ijpvp.2024.105150
 [research_kumar_2025]: https://doi.org/10.70924/f83n6wqz/udcxlrcw
-[research_kumar_anilkumar_2025]: https://doi.org/10.1109/icees67011.2025.11212966
 [research_kumar_arularasu_2016]: https://doi.org/10.5958/2249-7315.2016.01265.x
 [research_kumar_banerjee_2024]: https://doi.org/10.1115/1.4064612
-[research_kumar_chandrashekar_2019]: https://doi.org/10.1063/1.5117973
 [research_kumar_chatterjee_2019]: https://doi.org/10.1115/1.4042117
 [research_kumar_collini_2020]: https://doi.org/10.1016/j.addma.2020.101168
 [research_kumar_gopalsamy_2017]: https://doi.org/10.1109/icraae.2017.8297246
@@ -24867,7 +23274,6 @@ This series has now met a designation marking an absence of demand in the
 [research_kumar_mahulikar_2017]: https://doi.org/10.2514/1.a33688
 [research_kumar_patel_2021]: https://doi.org/10.1016/j.matpr.2020.07.525
 [research_kumar_pradhan_1999]: https://doi.org/10.1177/073168449901800901
-[research_kumar_ramesh_2015]: https://doi.org/10.1063/1.4918258
 [research_kumar_rjustus_2023]: https://doi.org/10.61653/joast.v74i4.2022.45
 [research_kumar_swaminathan_2025]: https://doi.org/10.1088/1757-899x/1327/1/012225
 [research_kumar_thomas_2020]: https://doi.org/10.2514/6.2020-3840
@@ -24891,24 +23297,20 @@ This series has now met a designation marking an absence of demand in the
 [research_kurudimath_jalan_2026]: https://doi.org/10.4271/2026-26-0741
 [research_kurutz_gaspar_2000]: https://doi.org/10.1142/9781848160095_0003
 [research_kuryachii_1995]: https://doi.org/10.1007/bf02029922
-[research_kusaka_1995]: https://doi.org/10.1016/0389-4304(95)94785-l
 [research_kuscu_singh_2025]: https://doi.org/10.1115/pvp2025-154167
 [research_kushida_hermel_1987]: https://doi.org/10.2514/3.22994
 [research_kutscha_1962]: https://doi.org/10.21236/ad0640857
 [research_kutz_otremba_2018]: https://doi.org/10.1115/imece2018-86365
 [research_kutzke_carter_2021]: https://doi.org/10.1016/j.oceaneng.2021.108629
-[research_kuuskraa_haas_1988]: https://doi.org/10.2523/17746-ms
 [research_kuznetsov_1980]: https://doi.org/10.21236/ada113588
 [research_kuznetsov_1989]: https://doi.org/10.2514/6.1989-1262
 [research_kuznetsov_2023]: https://doi.org/10.34759/trd-2023-129-25
 [research_kuznetsov_ukraintsev_2016]: https://doi.org/10.18287/2412-7329-2016-15-1-73-80
-[research_kwak_kwon_2021]: https://doi.org/10.29056/jdaem.2021.06.03
 [research_kwon_1992]: https://doi.org/10.1115/1.2929052
 [research_kwon_1993]: https://doi.org/10.1007/bf02954361
 [research_kwon_fuller_1994]: https://doi.org/10.1115/imece1994-1387
 [research_kwon_jung_2021]: https://doi.org/10.1016/j.asr.2021.08.033
 [research_kynardmichael_2011]: https://ntrs.nasa.gov/citations/20120014523
-[research_kyogoku_tokimasa_1981]: https://doi.org/10.4043/4108-ms
 [research_kyongchansong_arunkumarsatyanarayana_2021]: https://ntrs.nasa.gov/citations/20210013939
 [research_kyungpyokim_2018]: https://doi.org/10.17958/ksmt.20.3.201806.333
 [research_l51413_study_1981]: https://doi.org/10.55274/r0010205
@@ -24921,17 +23323,14 @@ This series has now met a designation marking an absence of demand in the
 [research_ladyzhenskij_1963]: https://doi.org/10.21236/ad0295787
 [research_lagace_chambers_2011]: https://doi.org/10.21236/ada542901
 [research_lagace_mamorini_2000]: https://doi.org/10.1106/9a4y-db9d-qlum-g6kk
-[research_lahokallio_frisk_2016]: https://doi.org/10.1557/adv.2016.447
 [research_lai_khomami_1997]: https://doi.org/10.1002/pc.10288
 [research_lai_wei_2018]: https://doi.org/10.1017/jmech.2018.18
 [research_lai_yamada_1986]: https://doi.org/10.1002/app.1986.070320427
 [research_lakshminarayana_chiarelli_2022]: https://doi.org/10.1109/metroaerospace54187.2022.9856148
 [research_lakshmipuramraghu_rawlins_2024]: https://doi.org/10.2514/6.2024-2051
-[research_lalaque_1999]: https://doi.org/10.21236/ada369170
 [research_lalithambika_dasgupta_2001]: https://doi.org/10.1016/s1474-6670(17)40782-8
 [research_lalos_1963]: https://doi.org/10.21236/ad0417224
 [research_lambert_silverman_1986]: https://doi.org/10.21236/ada174455
-[research_laminate_and_2016]: https://doi.org/10.1016/j.denabs.2016.03.018
 [research_lampropoulos_vouros_2025]: https://doi.org/10.3390/fluids10030054
 [research_lan_li_2022]: https://doi.org/10.1088/1742-6596/2364/1/012013
 [research_lan_liu_2016]: https://doi.org/10.1016/j.actaastro.2015.10.019
@@ -24939,7 +23338,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lan_shi_2024]: https://doi.org/10.13182/nets24-43755
 [research_lan_tan_2021]: https://doi.org/10.3390/s21155062
 [research_lan_xu_2020]: https://doi.org/10.1061/(asce)as.1943-5525.0001112
-[research_land_2003]: https://doi.org/10.1115/pvp2003-1797
 [research_landon_2024]: https://doi.org/10.1016/j.jsse.2024.08.011
 [research_landrum_beard_1995]: https://doi.org/10.2514/6.1995-2635
 [research_lane_chalfant_1967]: https://doi.org/10.2514/6.1967-1305
@@ -24949,7 +23347,6 @@ This series has now met a designation marking an absence of demand in the
 [research_langner_gupta_2022]: https://doi.org/10.2514/6.2022-0642
 [research_langston_peterson_2019]: https://doi.org/10.2514/6.2019-0162
 [research_lankford_1987]: https://doi.org/10.2514/6.1987-2129
-[research_lantelme_1985]: https://doi.org/10.1002/chin.198549021
 [research_lantz_1969]: https://doi.org/10.1177/002199836900300405
 [research_lanziraymondj_simpsonjamesc_2010]: https://ntrs.nasa.gov/citations/20100024424
 [research_lapina_smirnov_1993]: https://doi.org/10.1007/bf00558665
@@ -24961,7 +23358,6 @@ This series has now met a designation marking an absence of demand in the
 [research_larsen_hovanski_2020]: https://doi.org/10.4271/2020-01-0224
 [research_larsonrichardr_1999]: https://ntrs.nasa.gov/citations/19990090017
 [research_lash_moeller_2015]: https://doi.org/10.2514/6.2015-3979
-[research_lastrasmontano_chakrabarti_2017]: https://doi.org/10.23919/date.2017.7927183
 [research_latif_shao_2020]: https://doi.org/10.1109/wsc48552.2020.9383897
 [research_latsuzbaya_middendorf_2024]: https://doi.org/10.3390/jcs8010018
 [research_latzko_1974]: https://doi.org/10.1115/1.3454139
@@ -24997,14 +23393,12 @@ This series has now met a designation marking an absence of demand in the
 [research_lee_1969]: https://doi.org/10.2514/3.5214
 [research_lee_1973]: https://doi.org/10.2514/6.1973-363
 [research_lee_1993]: https://doi.org/10.21236/ada271171
-[research_lee_1995]: https://doi.org/10.21236/ada286856
 [research_lee_1998]: https://doi.org/10.1615/ihtc11.3690
 [research_lee_2000]: https://doi.org/10.1016/s0266-3538(00)00023-3
 [research_lee_2002]: https://doi.org/10.2514/6.2002-5492
 [research_lee_2002_b]: https://doi.org/10.3141/1812-25
 [research_lee_2018]: https://doi.org/10.1016/j.ast.2017.12.019
 [research_lee_2019]: https://doi.org/10.6108/kspe.2019.23.6.072
-[research_lee_2022]: https://doi.org/10.4043/32106-ms
 [research_lee_2025]: https://doi.org/10.52202/083095-0045
 [research_lee_ahmed_2020]: https://doi.org/10.1016/j.compstruct.2020.111871
 [research_lee_cha_2017]: https://doi.org/10.1109/vppc.2017.8330941
@@ -25015,7 +23409,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lee_guzik_2026]: https://doi.org/10.13182/nets26-10403
 [research_lee_jang_2024]: https://doi.org/10.6108/kspe.2024.28.2.097
 [research_lee_jo_2026]: https://doi.org/10.3390/aerospace13010079
-[research_lee_kim_2015]: https://doi.org/10.1016/j.compstruct.2014.10.002
 [research_lee_kim_2015_b]: https://doi.org/10.1121/1.4933452
 [research_lee_kim_2024]: https://doi.org/10.1115/omae2024-127261
 [research_lee_kim_2025]: https://doi.org/10.1016/j.ijhydene.2024.11.387
@@ -25034,7 +23427,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lee_seo_2024]: https://doi.org/10.52202/078373-0110
 [research_lee_sim_2023]: https://doi.org/10.5139/jksas.2023.51.4.227
 [research_lee_son_2022]: https://doi.org/10.6108/kspe.2022.26.3.010
-[research_lee_tarbell_1995]: https://doi.org/10.1115/imece1995-0165
 [research_lee_wang_1994]: https://doi.org/10.1007/bf00032286
 [research_lee_wei_2017]: https://doi.org/10.2514/6.2017-2407
 [research_lee_yang_2023]: https://doi.org/10.1115/msec2023-105613
@@ -25058,7 +23450,6 @@ This series has now met a designation marking an absence of demand in the
 [research_leigh_tafreshi_2004]: https://doi.org/10.1115/esda2004-58578
 [research_leiserdb_stewartda_1973]: https://ntrs.nasa.gov/citations/19730024755
 [research_lelen_jozwik_2023]: https://doi.org/10.1109/metroaerospace57412.2023.10189961
-[research_lelko_nemeth_2024]: https://doi.org/10.3390/engproc2024079030
 [research_lemarquis_welch_2023]: https://doi.org/10.1089/space.2021.0030
 [research_lemay_2019]: https://doi.org/10.33599/nasampe/c.19.0760
 [research_lemay_askari_2018]: https://doi.org/10.1177/0021998318781887
@@ -25066,12 +23457,10 @@ This series has now met a designation marking an absence of demand in the
 [research_leming_1990]: https://doi.org/10.1117/12.22345
 [research_lemke_1963]: https://doi.org/10.2514/6.1963-233
 [research_lemoine_1975]: https://doi.org/10.2514/6.1975-1339
-[research_lemon_ross_1960]: https://doi.org/10.2172/4102458
 [research_leng_zhang_2024]: https://doi.org/10.1016/j.enconman.2024.119068
 [research_leng_zhang_2025]: https://doi.org/10.1016/j.energy.2025.138896
 [research_lenhart_halbach_1992]: https://doi.org/10.4271/929109
 [research_lent_1944]: https://doi.org/10.2514/8.10385
-[research_lentz_1982]: https://doi.org/10.21236/ada132415
 [research_leonardi_2023]: https://doi.org/10.21741/9781644902813-134
 [research_leondes_volgenau_1967]: https://doi.org/10.2514/3.29141
 [research_leonhardke_1972]: https://ntrs.nasa.gov/citations/19730003879
@@ -25084,7 +23473,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lester_1963]: https://doi.org/10.21236/ad0410507
 [research_lestrade_anthoine_2019]: https://doi.org/10.1016/j.ast.2019.05.057
 [research_letchworthgaryf_2011]: https://ntrs.nasa.gov/citations/20110016255
-[research_leuvinadrie_2022]: https://doi.org/10.29118/ipa22-o-25
 [research_levensteins_krumins_1967]: https://doi.org/10.2514/3.4256
 [research_leveugle_reinhard_1999]: https://doi.org/10.2514/6.1999-1705
 [research_levi_2008]: https://doi.org/10.21236/ada487221
@@ -25092,15 +23480,6 @@ This series has now met a designation marking an absence of demand in the
 [research_levin_1993]: https://doi.org/10.1007/bf00624686
 [research_levin_nolan_2022]: https://doi.org/10.2172/2006220
 [research_levin_nolan_2023]: https://doi.org/10.2514/6.2023-2667
-[research_levine_1991]: https://doi.org/10.2172/6012022
-[research_levine_1991_b]: https://doi.org/10.2172/10123963
-[research_levine_1991_c]: https://doi.org/10.2172/10123490
-[research_levine_johnson_1992]: https://doi.org/10.2172/6951777
-[research_levine_johnson_1992_b]: https://doi.org/10.2172/10126556
-[research_levine_johnson_1992_c]: https://doi.org/10.2172/10113863
-[research_levine_johnson_1992_d]: https://doi.org/10.2172/10113874
-[research_levine_tsay_1989]: https://doi.org/10.2172/7080892
-[research_levine_tsay_1990]: https://doi.org/10.2172/7080900
 [research_levoy_1995]: https://doi.org/10.21236/ada289519
 [research_levy_hubert_2019]: https://doi.org/10.1016/j.compositesa.2019.105568
 [research_lewellen_mirels_1966]: https://doi.org/10.2514/3.3803
@@ -25126,13 +23505,9 @@ This series has now met a designation marking an absence of demand in the
 [research_li_chen_2020]: https://doi.org/10.1016/j.matdes.2020.109028
 [research_li_chen_2020_b]: https://doi.org/10.1016/j.ast.2020.105999
 [research_li_chen_2022]: https://doi.org/10.3390/en15249267
-[research_li_chen_2023]: https://doi.org/10.1109/phm-hangzhou58797.2023.10482559
 [research_li_chen_2024]: https://doi.org/10.1115/pvp2024-123121
 [research_li_cook_2002]: https://doi.org/10.1115/1.1430671
 [research_li_cui_2024]: https://doi.org/10.1016/j.ijhydene.2024.10.092
-[research_li_cui_2025]: https://doi.org/10.1002/asjc.3713
-[research_li_ding_2026]: https://doi.org/10.1016/j.applthermaleng.2026.130058
-[research_li_dong_2016]: https://doi.org/10.2514/6.2016-4339
 [research_li_dong_2024]: https://doi.org/10.1016/j.ijhydene.2024.11.375
 [research_li_elishakoff_1994]: https://doi.org/10.1115/imece1994-1275
 [research_li_fan_2026]: https://doi.org/10.1016/j.applthermaleng.2026.131139
@@ -25170,15 +23545,12 @@ This series has now met a designation marking an absence of demand in the
 [research_li_mao_2023]: https://doi.org/10.1016/j.compstruct.2022.116578
 [research_li_niu_2025]: https://doi.org/10.1063/5.0278111
 [research_li_pan_2019]: https://doi.org/10.1177/1687814019889743
-[research_li_pan_2022]: https://doi.org/10.1016/j.oceaneng.2022.111300
 [research_li_pang_1999]: https://doi.org/10.1002/pc.10386
 [research_li_pang_2023]: https://doi.org/10.3390/aerospace10020191
 [research_li_pasternak_2021]: https://doi.org/10.1016/j.tws.2021.107888
 [research_li_peng_2019]: https://doi.org/10.1109/icus48101.2019.8996088
-[research_li_qian_2021]: https://doi.org/10.1016/j.energy.2020.119716
 [research_li_qiao_2023]: https://doi.org/10.3390/aerospace10070603
 [research_li_qin_2024]: https://doi.org/10.1016/j.est.2024.110538
-[research_li_qu_2019]: https://doi.org/10.12783/ballistics2019/33155
 [research_li_sun_2019]: https://doi.org/10.1016/j.jallcom.2018.10.074
 [research_li_sun_2024]: https://doi.org/10.1016/j.tws.2024.111679
 [research_li_tan_2026]: https://doi.org/10.1016/j.eml.2025.102437
@@ -25209,7 +23581,6 @@ This series has now met a designation marking an absence of demand in the
 [research_li_yu_2025]: https://doi.org/10.52202/083090-0097
 [research_li_yuan_2020]: https://doi.org/10.1016/j.addma.2020.101406
 [research_li_yuan_2023]: https://doi.org/10.1016/j.eml.2023.102054
-[research_li_zhang_2018]: https://doi.org/10.1109/icept.2018.8480659
 [research_li_zhang_2021]: https://doi.org/10.23919/ccc52363.2021.9550381
 [research_li_zhang_2022]: https://doi.org/10.1016/j.ymssp.2021.108104
 [research_li_zhang_2023]: https://doi.org/10.3390/met13010174
@@ -25221,7 +23592,6 @@ This series has now met a designation marking an absence of demand in the
 [research_li_zhao_2024]: https://doi.org/10.52202/078365-0049
 [research_li_zhao_2025]: https://doi.org/10.52202/083090-0094
 [research_li_zhao_2025_b]: https://doi.org/10.1016/j.ast.2025.110226
-[research_li_zhou_2018]: https://doi.org/10.2991/iceesd-18.2018.104
 [research_li_zhou_2019]: https://doi.org/10.3390/app9020283
 [research_li_zhou_2021]: https://doi.org/10.3390/app11209565
 [research_li_zhou_2025]: https://doi.org/10.1016/j.asr.2024.11.074
@@ -25238,9 +23608,7 @@ This series has now met a designation marking an absence of demand in the
 [research_liang_wang_2023]: https://doi.org/10.1016/j.tws.2022.110224
 [research_liang_xu_2022]: https://doi.org/10.1016/j.ast.2022.107855
 [research_liao_chu_2023]: https://doi.org/10.1016/j.cja.2023.11.020
-[research_liao_huang_1999]: https://doi.org/10.1115/detc99/vib-8123
 [research_liao_liu_2021]: https://doi.org/10.1051/matecconf/202133602001
-[research_liao_liu_2026]: https://doi.org/10.3390/sym18050873
 [research_liao_song_2023]: https://doi.org/10.1061/jaeeez.aseng-4668
 [research_liao_tian_2024]: https://doi.org/10.1016/j.dt.2023.05.008
 [research_liavag_graciagarcialisbona_2024]: https://doi.org/10.52202/078371-0003
@@ -25253,7 +23621,6 @@ This series has now met a designation marking an absence of demand in the
 [research_liebenberg_1966]: https://doi.org/10.2172/4571370
 [research_lieberman_2002]: https://doi.org/10.21236/ada399777
 [research_liekhus_peterson_1995]: https://doi.org/10.2172/114587
-[research_liessner_schmitt_2019]: https://doi.org/10.5220/0007364701340144
 [research_lietz_desai_2019]: https://doi.org/10.2514/6.2019-1009
 [research_liffring_2002]: https://doi.org/10.4271/2002-01-3207
 [research_lifshitz_dayan_1995]: https://doi.org/10.1016/0263-8223(95)00089-5
@@ -25268,7 +23635,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lin_1975]: https://doi.org/10.2172/4235313
 [research_lin_1989]: https://doi.org/10.2514/6.1989-3193
 [research_lin_1996]: https://doi.org/10.2514/6.1996-1414
-[research_lin_2026]: https://doi.org/10.4273/ijvss.18.2.07
 [research_lin_akers_1988]: https://doi.org/10.23919/acc.1988.4790043
 [research_lin_carpenter_2020]: https://doi.org/10.2514/6.2020-0160
 [research_lin_chan_2001]: https://doi.org/10.2514/6.2001-1336
@@ -25297,7 +23663,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lintvedt_picotte_1958]: https://doi.org/10.21236/ad0401331
 [research_linul_marsavina_2019]: https://doi.org/10.1016/j.compstruct.2018.11.006
 [research_lipetzky_schmauder_1993]: https://doi.org/10.1016/0927-0256(93)90028-l
-[research_lippitt_jr_1983]: https://doi.org/10.21236/ada130685
 [research_liquid_solid_coupling_2022]: https://doi.org/10.3901/jme.2022.22.321
 [research_lisiecki_slizak_2019]: https://doi.org/10.1520/mpc20190069
 [research_liston_1973]: https://doi.org/10.21236/ad0762169
@@ -25313,7 +23678,6 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_2019]: https://doi.org/10.2514/1.g003537
 [research_liu_2024]: https://doi.org/10.2514/6.2024-83778
 [research_liu_2025]: https://doi.org/10.1515/tjj-2025-0054
-[research_liu_2025_b]: https://doi.org/10.1093/biomtc/ujaf011
 [research_liu_cai_2020]: https://doi.org/10.1016/j.ijhydene.2020.02.134
 [research_liu_case_2021]: https://doi.org/10.5006/c2021-16329
 [research_liu_chang_1992]: https://doi.org/10.2514/6.1992-2554
@@ -25323,7 +23687,6 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_cheng_2022]: https://doi.org/10.1016/j.ast.2021.107300
 [research_liu_cheng_2025]: https://doi.org/10.1016/j.actaastro.2025.03.028
 [research_liu_cheng_2026]: https://doi.org/10.1016/j.ast.2026.113303
-[research_liu_chu_2018]: https://doi.org/10.1109/ias.2018.8544713
 [research_liu_cui_2023]: https://doi.org/10.1109/icfeict59519.2023.00076
 [research_liu_dai_2016]: https://doi.org/10.1016/j.ceramint.2016.01.036
 [research_liu_dai_2017]: https://doi.org/10.2514/6.2017-2284
@@ -25338,9 +23701,7 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_guo_2026_c]: https://doi.org/10.3390/aerospace13040365
 [research_liu_haoyuan_2025]: https://doi.org/10.52202/083076-0122
 [research_liu_he_2017]: https://doi.org/10.23919/chicc.2017.8028281
-[research_liu_hong_2024]: https://doi.org/10.35534/amsm.2023.10003
 [research_liu_hubert_2021]: https://doi.org/10.1016/j.compositesb.2021.108940
-[research_liu_jiang_2023]: https://doi.org/10.1016/j.tafmec.2022.103743
 [research_liu_jiang_2024]: https://doi.org/10.33737/gpps24-tc-198
 [research_liu_li_1991]: https://doi.org/10.1016/0045-7949(91)90148-f
 [research_liu_li_2015]: https://doi.org/10.1016/j.proeng.2014.12.521
@@ -25353,7 +23714,6 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_li_2025]: https://doi.org/10.1016/j.ijhydene.2025.150335
 [research_liu_li_2025_b]: https://doi.org/10.1063/5.0267979
 [research_liu_li_2026]: https://doi.org/10.1063/5.0303394
-[research_liu_li_2026_b]: https://doi.org/10.1109/cacml68972.2026.11506837
 [research_liu_li_2026_c]: https://doi.org/10.2514/1.g009183
 [research_liu_liu_2016]: https://doi.org/10.1016/j.apenergy.2015.01.104
 [research_liu_liu_2017]: https://doi.org/10.1063/1.4982445
@@ -25365,7 +23725,6 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_ng_2024]: https://doi.org/10.2514/6.2024-4550
 [research_liu_okeefe_2024]: https://doi.org/10.1016/j.ast.2024.109531
 [research_liu_qi_2026]: https://doi.org/10.2514/6.2026-1275
-[research_liu_qin_2024]: https://doi.org/10.1109/phm-beijing63284.2024.10874785
 [research_liu_qizhi_1996]: https://doi.org/10.2514/6.1996-3214
 [research_liu_sawa_1998]: https://doi.org/10.1115/imece1998-1118
 [research_liu_sawa_1999]: https://doi.org/10.1115/imece1999-1186
@@ -25374,14 +23733,12 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_smith_2004]: https://doi.org/10.21236/ada423355
 [research_liu_song_2025]: https://doi.org/10.1016/j.ijhydene.2025.151250
 [research_liu_su_1999]: https://doi.org/10.5006/1.3284041
-[research_liu_suo_2000]: https://doi.org/10.1016/s0013-7944(00)00024-2
 [research_liu_tan_2019]: https://doi.org/10.1109/iciea.2019.8833884
 [research_liu_tan_2025]: https://doi.org/10.1016/j.ijhydene.2025.04.254
 [research_liu_tao_2017]: https://doi.org/10.18178/ijmmm.2017.5.2.299
 [research_liu_tondini_2021]: https://doi.org/10.3390/buildings11120669
 [research_liu_tong_2026]: https://doi.org/10.5006/c2026-00144
 [research_liu_wang_2015]: https://doi.org/10.1016/j.ijhydene.2015.09.039
-[research_liu_wang_2018]: https://doi.org/10.1016/j.apor.2018.01.014
 [research_liu_wang_2021]: https://doi.org/10.1142/s021798492150500x
 [research_liu_wang_2022]: https://doi.org/10.1117/12.2617560
 [research_liu_wang_2023]: https://doi.org/10.3390/aerospace10110953
@@ -25392,7 +23749,6 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_yan_2023]: https://doi.org/10.1109/itoec57671.2023.10291601
 [research_liu_yan_2025]: https://doi.org/10.5006/c2025-00093
 [research_liu_yang_2022]: https://doi.org/10.1016/j.ijhydene.2022.02.205
-[research_liu_yang_2024]: https://doi.org/10.1109/spawda63926.2024.10878849
 [research_liu_yang_2025]: https://doi.org/10.1016/j.compositesa.2025.109123
 [research_liu_yu_2019]: https://doi.org/10.23919/chicc.2019.8865199
 [research_liu_zhang_2001]: https://doi.org/10.2514/6.2001-3704
@@ -25406,11 +23762,8 @@ This series has now met a designation marking an absence of demand in the
 [research_liu_zhou_2023]: https://doi.org/10.1016/j.ijhydene.2023.05.102
 [research_liu_zhou_2023_b]: https://doi.org/10.1016/j.tws.2022.110214
 [research_liu_zhu_1994]: https://doi.org/10.1115/imece1994-0206
-[research_liyanage_2021]: https://doi.org/10.47191/etj/v6i9.02
 [research_lizcano_martinez_2026]: https://doi.org/10.1016/j.ast.2026.113253
 [research_lizhixian_arbegastwilliamj_1997]: https://ntrs.nasa.gov/citations/19990064464
-[research_ljgalvao_mfontes_2020]: https://doi.org/10.48011/asba.v2i1.1520
-[research_lll_total_1977]: https://doi.org/10.2172/5198041
 [research_llorente_mar_1989]: https://doi.org/10.2514/6.1989-1275
 [research_llosatanco_medrano_2021]: https://doi.org/10.1016/j.ijhydene.2020.05.088
 [research_lo_1999]: https://doi.org/10.1117/12.2302060
@@ -25453,7 +23806,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lotfollahi_alinia_2017]: https://doi.org/10.1002/cepa.454
 [research_lou_yang_2025]: https://doi.org/10.52202/083090-0113
 [research_lou_yaniv_1991]: https://doi.org/10.1177/002199839102500203
-[research_lou_yu_2016]: https://doi.org/10.1109/icsens.2016.7808506
 [research_loughlan_1996]: https://doi.org/10.1016/0263-8223(96)00027-x
 [research_louthan_dexter_1975]: https://doi.org/10.1007/bf02641980
 [research_love_1963]: https://doi.org/10.2514/6.1963-2919
@@ -25478,17 +23830,12 @@ This series has now met a designation marking an absence of demand in the
 [research_lu_2019]: https://doi.org/10.2514/1.g004048
 [research_lu_2020]: https://doi.org/10.2514/1.g004556
 [research_lu_2020_b]: https://doi.org/10.2514/6.2020-0845
-[research_lu_2024]: https://doi.org/10.54097/6h176694
 [research_lu_2026]: https://doi.org/10.2514/6.2026-0967
-[research_lu_2026_b]: https://doi.org/10.2514/6.2026-0967.c1
 [research_lu_callan_2023]: https://doi.org/10.2514/1.g007214
 [research_lu_chen_2025]: https://doi.org/10.3390/pr13082574
 [research_lu_davami_2024]: https://doi.org/10.2514/1.g008343
-[research_lu_davami_2025]: https://doi.org/10.2514/1.g008343.c1
 [research_lu_davidson_2021]: https://doi.org/10.2514/6.2021-1510
-[research_lu_hwang_2017]: https://doi.org/10.1016/j.tust.2017.05.014
 [research_lu_liao_2026]: https://doi.org/10.3390/en19092109
-[research_lu_liu_2017]: https://doi.org/10.23919/chicc.2017.8027641
 [research_lu_luo_2025]: https://doi.org/10.1115/pvp2025-154370
 [research_lu_millet_2019]: https://doi.org/10.1115/pvp2019-93155
 [research_lu_millet_2024]: https://doi.org/10.1115/pvp2024-122532
@@ -25498,21 +23845,16 @@ This series has now met a designation marking an absence of demand in the
 [research_lu_sostaric_2018]: https://doi.org/10.2514/6.2018-0616
 [research_lu_terrier_2003]: https://doi.org/10.2514/2.6162
 [research_lu_terrier_2003_b]: https://doi.org/10.2514/6.2003-184
-[research_lu_wu_2025]: https://doi.org/10.1016/j.enggeo.2025.108178
 [research_lu_xu_2023]: https://doi.org/10.1016/j.compstruct.2022.116613
 [research_lu_xu_2025]: https://doi.org/10.1016/j.ijhydene.2025.151958
 [research_lu_yang_2025]: https://doi.org/10.1016/j.compstruct.2025.119577
-[research_lu_ye_2024]: https://doi.org/10.1016/j.dte.2024.100022
 [research_lu_yu_2026]: https://doi.org/10.2514/1.j066921
 [research_lu_zheng_2021]: https://doi.org/10.1115/1.4049874
-[research_luan_narayanan_2024]: https://doi.org/10.35631/ijmoe.621048
 [research_lubert_2017]: https://doi.org/10.1121/2.0000704
 [research_lucas_1978]: https://doi.org/10.21236/adb028240
-[research_lucke_clauss_1993]: https://doi.org/10.2172/10189213
 [research_luke_1989]: https://doi.org/10.2514/6.1989-3446
 [research_lukianchenko_geraschenko_2025]: https://doi.org/10.32347/2410-2547.2025.114.23-34
 [research_lulay_khan_2002]: https://doi.org/10.1361/105994902770343683
-[research_lulla_2025]: https://doi.org/10.55640/ijvsli-05-01-04
 [research_lum_1966]: https://doi.org/10.2514/6.1966-970
 [research_lunarska_chernyaeva_2004]: https://doi.org/10.1007/s11003-005-0009-x
 [research_lunchick_1963]: https://doi.org/10.21236/ad0417045
@@ -25535,7 +23877,6 @@ This series has now met a designation marking an absence of demand in the
 [research_luttrell_henderson_1974]: https://doi.org/10.2514/6.1974-364
 [research_lutz_yue_2022]: https://doi.org/10.1115/msec2022-85439
 [research_lv_ren_2023]: https://doi.org/10.1016/j.ast.2023.108582
-[research_lv_wang_2015]: https://doi.org/10.1016/j.apm.2015.04.016
 [research_lv_wang_2025]: https://doi.org/10.1016/j.cryogenics.2025.104202
 [research_lv_wang_2026]: https://doi.org/10.1016/j.compstruct.2026.120240
 [research_lv_zhang_2024]: https://doi.org/10.1016/j.ijhydene.2023.09.290
@@ -25549,7 +23890,6 @@ This series has now met a designation marking an absence of demand in the
 [research_lyons_1977]: https://doi.org/10.1051/rphysap:01977001202038500
 [research_lysandrou_braun_2021]: https://doi.org/10.2514/6.2021-0861
 [research_lyssakow_yang_2021]: https://doi.org/10.1016/j.tws.2020.107221
-[research_lyu_shin_2002]: https://doi.org/10.1243/14680870260127864
 [research_ma_1989]: https://doi.org/10.2514/6.1989-1172
 [research_ma_2024]: https://doi.org/10.5220/0013850700004914
 [research_ma_bi_1994]: https://doi.org/10.1016/0956-716x(94)90355-7
@@ -25571,7 +23911,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ma_wang_2025]: https://doi.org/10.1016/j.ijhydene.2025.152239
 [research_ma_xie_2021]: https://doi.org/10.2139/ssrn.3983112
 [research_ma_zhang_2017]: https://doi.org/10.1177/0021998317748202
-[research_ma_zhao_2024]: https://doi.org/10.1177/14759217241262969
 [research_ma_zhou_2019]: https://doi.org/10.1061/(asce)as.1943-5525.0000950
 [research_maack_2024]: https://doi.org/10.1177/00219983241242898
 [research_macadam_1989]: https://doi.org/10.1080/00423118908968926
@@ -25584,7 +23923,6 @@ This series has now met a designation marking an absence of demand in the
 [research_machadodesouza_marconilicks_2026]: https://doi.org/10.18372/kai.2026.conf02.a15
 [research_machak_donabedian_2023]: https://doi.org/10.12783/asc38/36650
 [research_machalek_brananleu_2021]: https://doi.org/10.2172/1887049
-[research_machan_tangwongwan_2023]: https://doi.org/10.1016/j.treng.2023.100209
 [research_machin_daum_2026]: https://doi.org/10.2514/6.2026-3852
 [research_mackalld_sakaharar_1998]: https://ntrs.nasa.gov/citations/19990102220
 [research_macpherson_1962]: https://doi.org/10.21236/ad0293892
@@ -25593,15 +23931,12 @@ This series has now met a designation marking an absence of demand in the
 [research_maddocksjasonr_1995]: https://ntrs.nasa.gov/citations/19960008935
 [research_maddocksjasonr_mcmanushughl_1995]: https://ntrs.nasa.gov/citations/19960008696
 [research_madhavannair_2023]: https://doi.org/10.61653/joast.v56i2.2004.819
-[research_madhu_aravindjr_2020]: https://doi.org/10.1016/j.treng.2020.100016
 [research_madhusanka_hamillage_2019]: https://doi.org/10.12783/asc34/31427
 [research_madni_erwin_2021]: https://doi.org/10.1109/aero50100.2021.9438439
 [research_maes_radhakrishnan_2022]: https://doi.org/10.1016/j.compositesa.2022.107172
 [research_maes_smyth_2015]: https://doi.org/10.7712/120215.4260.548
-[research_maestrecambronel_guzmanbarros_2021]: https://doi.org/10.1016/j.seta.2021.101355
 [research_magisano_garcea_2022]: https://doi.org/10.1016/j.tws.2021.108643
 [research_magistro_zhang_2025]: https://doi.org/10.2514/6.2025-4138
-[research_magistro_zhang_2025_b]: https://doi.org/10.2514/6.2025-4138.c1
 [research_magliacano_2025]: https://doi.org/10.3390/aerospace12110994
 [research_magnani_sozio_2026]: https://doi.org/10.2514/6.2026-5053
 [research_magness_1990]: https://doi.org/10.2172/6334940
@@ -25622,7 +23957,6 @@ This series has now met a designation marking an absence of demand in the
 [research_mahfuz_islam_2000]: https://doi.org/10.1115/imece2000-2032
 [research_mahin_1980]: https://doi.org/10.2172/5281622
 [research_mahmood_cimtalay_2022]: https://doi.org/10.1109/aero53065.2022.9843533
-[research_mahmoodian_zandi_2026]: https://doi.org/10.1016/j.est.2026.122878
 [research_mahmoud_hao_2017]: https://doi.org/10.1109/iccairo.2017.35
 [research_mahmoud_lear_2004]: https://doi.org/10.2514/6.2004-480
 [research_mahorter_robertg_1961]: https://doi.org/10.21236/ad0266590
@@ -25677,11 +24011,8 @@ This series has now met a designation marking an absence of demand in the
 [research_manson_seferis_1992]: https://doi.org/10.1177/002199839202600305
 [research_mansour_chigier_1996]: https://doi.org/10.2172/436337
 [research_mansourinik_taheribehrooz_2018]: https://doi.org/10.1177/1099636218781981
-[research_mantooth_donofrio_2015]: https://doi.org/10.21236/ada622995
-[research_manuello_2020]: https://doi.org/10.1016/j.engstruct.2020.111029
 [research_mao_dou_2018]: https://doi.org/10.1002/rnc.4349
 [research_mao_yu_2023]: https://doi.org/10.3934/jimo.2022026
-[research_marburg_hardtke_2002]: https://doi.org/10.1007/s00158-002-0214-2
 [research_march_kuenzi_1957]: https://doi.org/10.21236/ad0217226
 [research_marchetti_minisci_2021]: https://doi.org/10.1007/s11081-021-09698-w
 [research_marcrschultz_2016]: https://ntrs.nasa.gov/citations/20200009116
@@ -25701,10 +24032,8 @@ This series has now met a designation marking an absence of demand in the
 [research_marlowe_sushinsky_1974]: https://doi.org/10.6028/nbs.ir.74-572
 [research_marsh_walsh_2004]: https://doi.org/10.5006/c2004-04104
 [research_marshall_1961]: https://doi.org/10.1016/0001-6160(61)90116-x
-[research_marshall_1991]: https://doi.org/10.1016/0263-8223(91)90016-r
 [research_marsilio_2001]: https://doi.org/10.2514/6.2001-670
 [research_marsilio_ferlauto_2020]: https://doi.org/10.1063/5.0026531
-[research_marsilio_resta_2024]: https://doi.org/10.2514/6.2024-1617.c1
 [research_marszaek_2019]: https://doi.org/10.19206/ce-2019-441
 [research_martin_1978]: https://doi.org/10.2514/3.57314
 [research_martin_1982]: https://doi.org/10.2514/3.62253
@@ -25712,10 +24041,8 @@ This series has now met a designation marking an absence of demand in the
 [research_martin_1994]: https://doi.org/10.1364/oft.1994.owb1
 [research_martin_1995]: https://doi.org/10.2514/3.23845
 [research_martin_1996]: https://doi.org/10.21236/ada315263
-[research_martin_niemeyer_1977]: https://doi.org/10.21236/ada053731
 [research_martin_stay_2024]: https://doi.org/10.1115/imece2024-142760
 [research_martincobaltimoremd_1963]: https://doi.org/10.21236/ad0404730
-[research_martincobaltimoremd_1965]: https://doi.org/10.21236/ad0469181
 [research_martincwayne_lungsf_1989]: https://ntrs.nasa.gov/citations/19890017842
 [research_martindale_2006]: https://doi.org/10.21236/ada457121
 [research_martindale_rockwell_1974]: https://doi.org/10.21236/ada002869
@@ -25733,7 +24060,6 @@ This series has now met a designation marking an absence of demand in the
 [research_maru_kobayashi_2026]: https://doi.org/10.2514/6.2026-5032
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
 [research_masar_mahmood_2026]: https://doi.org/10.1556/606.2025.01511
-[research_mascarenas_liao_2019]: https://doi.org/10.12783/shm2019/32343
 [research_masdari_tahani_2018]: https://doi.org/10.24200/sci.2018.5065.1072
 [research_mason_1991]: https://doi.org/10.2514/6.1991-3325
 [research_mason_1998]: https://doi.org/10.21236/ada351990
@@ -25741,7 +24067,6 @@ This series has now met a designation marking an absence of demand in the
 [research_masouri_2003]: https://doi.org/10.5006/c2003-03133
 [research_massard_collins_1958]: https://doi.org/10.21236/ad0210240
 [research_masters_cohen_1957]: https://doi.org/10.1063/1.1715801
-[research_masuda_nakasita_1988]: https://doi.org/10.1016/0021-8502(88)90226-1
 [research_matejka_1970]: https://doi.org/10.2514/6.1970-1400
 [research_matemilola_stronge_1997]: https://doi.org/10.1115/1.2842327
 [research_matesanz_velazquez_1995]: https://doi.org/10.2514/6.1995-2743
@@ -25756,13 +24081,11 @@ This series has now met a designation marking an absence of demand in the
 [research_matienzo_shah_1985]: https://doi.org/10.1177/109719638500900104
 [research_matos_chaudhary_2022]: https://doi.org/10.1115/1.4055159
 [research_matrix_cracking_1985]: https://doi.org/10.1016/0010-4361(85)90361-1
-[research_matsui_1983]: https://doi.org/10.1080/00423118308968705
 [research_matsumoto_1988]: https://doi.org/10.4271/880871
 [research_matsumoto_arai_2023]: https://doi.org/10.5270/esa-gnc-icatt-2023-204
 [research_matsunaga_1953]: https://doi.org/10.1252/kakoronbunshu1953.17.448
 [research_matsunaga_takahashi_2017]: https://doi.org/10.2514/6.2017-0263
 [research_matsuo_kawaguchi_1995]: https://doi.org/10.1016/0094-5765(94)00227-d
-[research_matsuuki_1995]: https://doi.org/10.1016/0389-4304(95)94764-e
 [research_matsuyama_2024]: https://doi.org/10.2514/6.2024-1568
 [research_matthew_thomas_2021]: https://doi.org/10.33599/nasampe/s.21.0581
 [research_matthewmichaelwittal_brennanmccann_2025]: https://ntrs.nasa.gov/citations/20250003113
@@ -25774,17 +24097,14 @@ This series has now met a designation marking an absence of demand in the
 [research_maughmermarkd_1989]: https://ntrs.nasa.gov/citations/19890005751
 [research_maulwilliama_chicatelliamyk_2004]: https://ntrs.nasa.gov/citations/20050195875
 [research_maurer_sierra_2016]: https://doi.org/10.1115/gt2016-57458
-[research_maurice_2016]: https://doi.org/10.21236/ad1011617
 [research_maurya_2021]: https://doi.org/10.21275/sr21408203246
 [research_mavrakis_hao_2021]: https://doi.org/10.3389/frobt.2021.652681
-[research_mavridou_pennington_2017]: https://doi.org/10.5957/attc-2017-0031
 [research_maxwell_hoang_2016]: https://doi.org/10.2514/6.2016-4149
 [research_may_kilchert_2025]: https://doi.org/10.1115/ssdm2025-152420
 [research_maye_habip_1969]: https://doi.org/10.21236/ad0709103
 [research_mayes_nickerson_2003]: https://doi.org/10.2514/6.2003-6321
 [research_mayhew_norden_1995]: https://doi.org/10.2514/6.1995-2748
 [research_mayo_1967]: https://doi.org/10.2514/6.1967-1323
-[research_mayowells_edelman_1973]: https://doi.org/10.6028/nbs.ir.73-418
 [research_maz_prajitno_2023]: https://doi.org/10.1063/5.0181658
 [research_mazarire_galloway_2026]: https://doi.org/10.3390/hydrogen7010033
 [research_mazlan_musa_2024]: https://doi.org/10.37934/sej.5.1.2228b
@@ -25828,7 +24148,6 @@ This series has now met a designation marking an absence of demand in the
 [research_mcgheedavids_peckjeffa_2012]: https://ntrs.nasa.gov/citations/20120014367
 [research_mcgheeds_1999]: https://ntrs.nasa.gov/citations/19990028385
 [research_mcgillpreston_gentzsteve_2001]: https://ntrs.nasa.gov/citations/20020022666
-[research_mcgrath_irving_1973]: https://doi.org/10.21236/ad0762720
 [research_mcgrattan_north_1963]: https://doi.org/10.21236/ad0409454
 [research_mcgrory_2001]: https://doi.org/10.21236/ada399497
 [research_mcguire_gage_2004]: https://doi.org/10.2514/6.2004-4490
@@ -25841,11 +24160,9 @@ This series has now met a designation marking an absence of demand in the
 [research_mclellan_1955]: https://doi.org/10.1115/1.4014486
 [research_mcmanushughl_1994]: https://ntrs.nasa.gov/citations/19940020106
 [research_mcminn_mao_1995]: https://doi.org/10.1115/imece1995-0310
-[research_mcphail_coleman_2010]: https://doi.org/10.21236/ada523317
 [research_mcphersonwilliamb_kuruvillaak_1994]: https://ntrs.nasa.gov/citations/19950013652
 [research_mcquellin_neely_2020]: https://doi.org/10.2514/6.2020-2419
 [research_mcvayerics_joneschristophera_2016]: https://ntrs.nasa.gov/citations/20160011470
-[research_mcwhorter_1962]: https://doi.org/10.2172/4798920
 [research_meadows_sullivan_2016]: https://doi.org/10.2514/6.2016-0239
 [research_measekennethd_vanburenmarka_1989]: https://ntrs.nasa.gov/citations/19900004053
 [research_measurement_of_1968]: https://doi.org/10.1016/0042-207x(68)91081-6
@@ -25863,8 +24180,6 @@ This series has now met a designation marking an absence of demand in the
 [research_mehta_jayachandran_1998]: https://doi.org/10.1002/(sici)1097-0363(19980315)26:5<501::aid-fld642>3.0.co;2-u
 [research_meier_key_2025]: https://doi.org/10.1115/gt2025-151261
 [research_meisinger_2008]: https://doi.org/10.21236/ada494213
-[research_meister_zelikina_1989]: https://doi.org/10.1016/0022-2860(89)85016-1
-[research_meitzler_bryk_1998]: https://doi.org/10.21236/ada576436
 [research_melander_candler_2024]: https://doi.org/10.2514/6.2024-0701
 [research_melesedhospital_1979]: https://doi.org/10.2172/5765913
 [research_melideo_ferrari_2025]: https://doi.org/10.1016/j.ijhydene.2025.04.426
@@ -25878,8 +24193,6 @@ This series has now met a designation marking an absence of demand in the
 [research_menendez_guemes_2000]: https://doi.org/10.1117/12.388115
 [research_meng_qin_2023]: https://doi.org/10.1016/j.ijhydene.2023.01.043
 [research_meng_wang_2022]: https://doi.org/10.1063/5.0124608
-[research_meng_wang_2025]: https://doi.org/10.1016/j.knosys.2025.113868
-[research_mengesha_2025]: https://doi.org/10.2139/ssrn.5238524
 [research_menon_2016]: https://doi.org/10.4028/www.scientific.net/aef.16.91
 [research_menon_ck_2025]: https://doi.org/10.1007/s11038-025-09574-y
 [research_menon_lehman_1985]: https://doi.org/10.2514/6.1985-498
@@ -25898,15 +24211,12 @@ This series has now met a designation marking an absence of demand in the
 [research_merzkirch_marklund_2025]: https://doi.org/10.1177/00219983251344249
 [research_mescall_1961]: https://doi.org/10.21236/ad0254653
 [research_messinger_pulley_2003]: https://doi.org/10.2514/6.2003-1766
-[research_metcalf_lopez_2000]: https://doi.org/10.2118/59756-ms
 [research_metghalchi_2009]: https://doi.org/10.21236/ada516408
 [research_method_for_1984]: https://doi.org/10.1016/0010-4361(84)90401-4
 [research_method_for_1988]: https://doi.org/10.1016/0010-4361(88)90106-1
-[research_method_of_1986]: https://doi.org/10.1016/0010-4361(86)90453-2
 [research_method_of_1988]: https://doi.org/10.1016/0010-4361(88)90230-3
 [research_meyer_1959]: https://doi.org/10.2514/8.4717
 [research_meyer_1963]: https://doi.org/10.21236/ada376769
-[research_meyer_2000]: https://doi.org/10.21236/ada391402
 [research_meyer_garber_2023]: https://doi.org/10.33599/nasampe/s.23.0349
 [research_meyer_johnson_2025]: https://doi.org/10.1088/1757-899x/1327/1/012156
 [research_meyer_katayanagi_1977]: https://doi.org/10.1520/jte10534j
@@ -25920,12 +24230,10 @@ This series has now met a designation marking an absence of demand in the
 [research_miao_jiao_2024]: https://doi.org/10.1016/j.tws.2024.112085
 [research_miao_jiao_2026]: https://doi.org/10.1016/j.tws.2026.114736
 [research_miao_song_2022]: https://doi.org/10.1109/taes.2021.3133310
-[research_miao_xue_2026]: https://doi.org/10.1016/j.marpol.2025.106998
 [research_miao_yue_2025]: https://doi.org/10.1016/j.compstruct.2025.118924
 [research_micci_1975]: https://doi.org/10.2514/6.1975-219
 [research_miceli_ameduri_2023]: https://doi.org/10.3390/biomimetics8010024
 [research_michaelnolaya_trentonmricks_2026]: https://ntrs.nasa.gov/citations/20250010463
-[research_michel_1950]: https://doi.org/10.2172/4143409
 [research_michel_gusic_2000]: https://doi.org/10.1142/9781848160095_0048
 [research_michell_2016]: https://doi.org/10.5220/0006222400730083
 [research_michnojr_1986]: https://doi.org/10.2514/6.1986-1187
@@ -25938,7 +24246,6 @@ This series has now met a designation marking an absence of demand in the
 [research_miele_wang_2003]: https://doi.org/10.1023/a:1022154001343
 [research_mignolet_soize_2020]: https://doi.org/10.1137/20m1322029
 [research_mihara_1988]: https://doi.org/10.21236/ada202014
-[research_mikami_murayama_2025]: https://doi.org/10.12783/shm2025/37547
 [research_mikhail_1979]: https://doi.org/10.21236/ada076116
 [research_mikhailov_1981]: https://doi.org/10.1007/bf01039127
 [research_mikhasev_1998]: https://doi.org/10.1006/jsvi.1996.1259
@@ -25952,7 +24259,6 @@ This series has now met a designation marking an absence of demand in the
 [research_miller_1990]: https://doi.org/10.2514/6.1990-1376
 [research_miller_1998]: https://doi.org/10.21236/ada409501
 [research_miller_jones_2026]: https://doi.org/10.1117/12.3109107
-[research_miller_palsikar_2022]: https://doi.org/10.1111/dmj.12081
 [research_miller_ziemianski_2020]: https://doi.org/10.3390/ma13235414
 [research_millercg_2000]: https://ntrs.nasa.gov/citations/20000061448
 [research_millersandi_leventisnicholas_2006]: https://ntrs.nasa.gov/citations/20060005182
@@ -25969,7 +24275,6 @@ This series has now met a designation marking an absence of demand in the
 [research_minakuchi_simacek_2024]: https://doi.org/10.1016/j.compositesa.2024.108054
 [research_minardi_1966]: https://doi.org/10.2514/3.3475
 [research_minaz_meram_2025]: https://doi.org/10.56753/asrel.2025.1.4
-[research_mingchunluo_yapinghe_1998]: https://doi.org/10.1177/104239159800900201
 [research_minguellacanela_rabassamanzano_2023]: https://doi.org/10.4028/p-w0vpah
 [research_minguet_dugundji_1987]: https://doi.org/10.2514/6.1987-795
 [research_minguet_obrien_1996]: https://doi.org/10.2514/6.1996-1353
@@ -25981,7 +24286,6 @@ This series has now met a designation marking an absence of demand in the
 [research_miotto_lepome_2003]: https://doi.org/10.2514/6.2003-5360
 [research_mireles_tilson_2020]: https://doi.org/10.2514/6.2020-3501
 [research_miris_ravandi_2025]: https://doi.org/10.1016/j.compstruct.2025.119356
-[research_mirman_friedman_1995]: https://doi.org/10.1115/imece1995-0541
 [research_miromiro_pinna_2018]: https://doi.org/10.1063/1.5043353
 [research_miromiro_pinna_2020]: https://doi.org/10.1017/jfm.2020.129
 [research_mirza_gupgupoglu_1988]: https://doi.org/10.1115/1.3265571
@@ -26027,21 +24331,17 @@ This series has now met a designation marking an absence of demand in the
 [research_modifications_to_1991]: https://doi.org/10.1016/0010-4361(91)90129-5
 [research_moes_cobleigh_1998]: https://doi.org/10.2514/6.1998-4340
 [research_moetazedian_budisuharto_2021]: https://doi.org/10.1016/j.addma.2020.101576
-[research_moffitt_mcgehee_1990]: https://doi.org/10.2118/18630-pa
 [research_moger_ramsay_1964]: https://doi.org/10.21236/ad0601589
 [research_moghadasi_dewit_2018]: https://doi.org/10.1108/aeat-01-2017-0036
 [research_mogi_kuwahara_2016]: https://doi.org/10.2322/tastj.14.pf_61
-[research_mohamed_salama_1986]: https://doi.org/10.1177/004051758605601106
 [research_mohammed_raghupathy_2024]: https://doi.org/10.1016/j.compstruct.2023.117662
 [research_mohan_alshahrani_2016]: https://doi.org/10.1177/0021998316635238
 [research_mohan_s_2025]: https://doi.org/10.1016/j.jsse.2025.10.004
 [research_mohanramu_poovathingal_2024]: https://doi.org/10.2514/6.2024-4031
 [research_moharana_s_2019]: https://doi.org/10.1109/iyce45807.2019.8991595
 [research_mohd_dawe_1993]: https://doi.org/10.1016/0263-8223(93)90182-p
-[research_mohrfeldhalterman_uddin_2016]: https://doi.org/10.1080/00423114.2016.1175648
 [research_mohrmann_denner_2004]: https://doi.org/10.1115/pvp2004-2657
 [research_mohseni_zobeiry_2020]: https://doi.org/10.1016/j.compositesa.2020.106007
-[research_mohtar_jamal_2004]: https://doi.org/10.1109/tencon.2004.1414794
 [research_moini_mitchell_1991]: https://doi.org/10.1016/0308-0161(91)90069-e
 [research_moisemc_mccarterjw_2000]: https://ntrs.nasa.gov/citations/20000013348
 [research_mokhefi_rossidischio_2026]: https://doi.org/10.1016/j.est.2026.122547
@@ -26049,9 +24349,7 @@ This series has now met a designation marking an absence of demand in the
 [research_molinari_borio_2024]: https://doi.org/10.52202/078372-0131
 [research_mondal_smith_2020]: https://doi.org/10.2514/6.2020-3503
 [research_mondayette_ulummachukwuchekwa_2020]: https://doi.org/10.11648/j.ajmcm.20200501.11
-[research_mondoro_grisso_2019]: https://doi.org/10.12783/shm2019/32203
 [research_monica_jothilakshmi_2020]: https://doi.org/10.1080/03772063.2020.1829507
-[research_monin_audibert_1987]: https://doi.org/10.2118/16269-ms
 [research_monkjanc_2002]: https://ntrs.nasa.gov/citations/20020029297
 [research_monokrousos_konozsy_2024]: https://doi.org/10.35925/j.multi.2024.3.9
 [research_monroe_1945]: https://doi.org/10.2514/8.4058
@@ -26103,14 +24401,11 @@ This series has now met a designation marking an absence of demand in the
 [research_morrison_garnich_2017]: https://doi.org/10.1177/0021998317696343
 [research_morrissey_nakhla_2021]: https://doi.org/10.32393/csme.2021.59
 [research_morriswdouglas_1993]: https://ntrs.nasa.gov/citations/19930023190
-[research_morrow_1984]: https://doi.org/10.2172/6711802
 [research_morscher_elrassi_2024]: https://doi.org/10.33599/nasampe/s.24.0176
-[research_mortaz_vinel_2019]: https://doi.org/10.1016/j.apenergy.2019.03.131
 [research_morton_silvergleit_1972]: https://doi.org/10.21236/ad0782519
 [research_moruzzi_fessl_2018]: https://doi.org/10.2514/6.2018-4599
 [research_moschidis_bithas_2026]: https://doi.org/10.3390/s26165022
 [research_moser_keith_1992]: https://doi.org/10.2514/6.1992-3708
-[research_mosher_audet_2021]: https://doi.org/10.1029/2021gc009720
 [research_moskvichev_2016]: https://doi.org/10.1063/1.4967098
 [research_moskvichev_2016_b]: https://doi.org/10.1016/j.prostr.2016.06.314
 [research_mossinger_raps_2024]: https://doi.org/10.1177/00219983241244882
@@ -26121,7 +24416,6 @@ This series has now met a designation marking an absence of demand in the
 [research_mountain_cooper_1989]: https://doi.org/10.1117/12.952909
 [research_moura_borgesribeiro_2025]: https://doi.org/10.26678/abcm.cobem2025.cob2025-1499
 [research_moura_ribeiro_2024]: https://doi.org/10.26678/abcm.encit2024.cit24-0501
-[research_moustafa_2023]: https://doi.org/10.1038/s41598-023-31391-4
 [research_mouthanna_hasan_2018]: https://doi.org/10.1109/dese.2018.00057
 [research_mow_sadowsky_1962]: https://doi.org/10.21236/ad0286039
 [research_moy_tzeng_2000]: https://doi.org/10.1115/imece2000-1960
@@ -26152,10 +24446,8 @@ This series has now met a designation marking an absence of demand in the
 [research_mukundan_maity_2022]: https://doi.org/10.1016/j.ifacol.2023.03.007
 [research_mukwanje_faik_2025]: https://doi.org/10.1002/pc.29872
 [research_muley_2019]: https://doi.org/10.22214/ijraset.2019.5019
-[research_mullen_jackson_2000]: https://doi.org/10.2172/902972
 [research_muller_palardy_2017]: https://doi.org/10.1177/0021998317727592
 [research_multi_layered_unbalanced_1998]: https://doi.org/10.1108/aeat.1998.12770cad.016
-[research_mulyadi_mason_2002]: https://doi.org/10.2118/77935-ms
 [research_mumford_hopkins_1982]: https://doi.org/10.2514/6.1982-1069
 [research_munipalli_subbarao_2005]: https://doi.org/10.21236/ada435356
 [research_munusamy_stephen_2022]: https://doi.org/10.13111/2066-8201.2022.14.3.3
@@ -26192,14 +24484,12 @@ This series has now met a designation marking an absence of demand in the
 [research_naca_conference_1958]: https://ntrs.nasa.gov/citations/19710069971
 [research_nachawati_brodsky_2017]: https://doi.org/10.5220/0006338703120323
 [research_nadarajah_hantz_2017]: https://doi.org/10.1115/pvp2017-65212
-[research_nadarajan_botsch_2016]: https://doi.org/10.1109/ivs.2016.7535556
 [research_nadellsharibeth_baumgartenwilliamj_1992]: https://ntrs.nasa.gov/citations/19920053244
 [research_nadellsharibeth_baumgartenwilliamj_1992_b]: https://ntrs.nasa.gov/citations/19920012304
 [research_naderi_iyyer_2020]: https://doi.org/10.1016/j.compstruct.2019.111659
 [research_naderi_pan_2026]: https://doi.org/10.1016/j.prostr.2026.02.008
 [research_nadler_2003]: https://doi.org/10.21236/ada420247
 [research_nae_andrei_2020]: https://doi.org/10.37358/rc.20.1.7872
-[research_nafaa_cretu_2017]: https://doi.org/10.1109/ulis.2017.7962610
 [research_naftel_wilhite_1986]: https://doi.org/10.2514/6.1986-195
 [research_nafteljc_powellrw_1983]: https://ntrs.nasa.gov/citations/19830060721
 [research_nag_senthil_2023]: https://doi.org/10.61653/joast.v65i2.2013.721
@@ -26208,7 +24498,6 @@ This series has now met a designation marking an absence of demand in the
 [research_nagaraju_chokka_2023]: https://doi.org/10.1063/5.0146818
 [research_nagaral_r_2023]: https://doi.org/10.2514/6.2023-3101
 [research_nagashima_mori_2023]: https://doi.org/10.36001/phmap.2023.v4i1.3637
-[research_nagayoshi_1995]: https://doi.org/10.1016/0389-4304(95)95138-k
 [research_nagy_2008]: https://doi.org/10.21236/ada494489
 [research_nahas_1993]: https://doi.org/10.1163/156855193x00089
 [research_nair_dollar_1997]: https://doi.org/10.1115/1.2842315
@@ -26223,9 +24512,7 @@ This series has now met a designation marking an absence of demand in the
 [research_nakakita_asai_2002]: https://doi.org/10.2514/6.2002-2911
 [research_nakamura_1993]: https://doi.org/10.1016/0167-6105(93)90006-a
 [research_nakamura_larsen_1974]: https://doi.org/10.1063/1.2945916
-[research_nakashima_taniguchi_2016]: https://doi.org/10.1115/pvp2016-63928
 [research_nakatsuka_satoh_2024]: https://doi.org/10.20965/jrm.2024.p1110
-[research_nakayama_akashi_1995]: https://doi.org/10.5006/c1995-95406
 [research_nakayama_uda_2015]: https://doi.org/10.1016/j.compstruct.2015.04.044
 [research_nakhoul_boehman_1993]: https://doi.org/10.2514/6.1993-1568
 [research_nakisa_behrouzi_2016]: https://doi.org/10.11113/.v78.9064
@@ -26249,20 +24536,14 @@ This series has now met a designation marking an absence of demand in the
 [research_naumann_appels_2025]: https://doi.org/10.33599/nasampe/s.25.0098
 [research_navalairsystemscommandpatuxentrivermd_1999]: https://doi.org/10.21236/ada384654
 [research_navalairsystemscommandpatuxentrivermd_2000]: https://doi.org/10.21236/ada384646
-[research_navalprovinggrounddahlgrenva_1945]: https://doi.org/10.21236/ad0310024
-[research_navalweaponslabdahlgrenva_1952]: https://doi.org/10.21236/ad0491357
 [research_navaneetharaj_iyengar_1998]: https://doi.org/10.1163/156855198x00165
 [research_nayebhashemi_yang_1997]: https://doi.org/10.1115/imece1997-0678
 [research_nayebi_surmiri_2018]: https://doi.org/10.1115/pvp2018-84065
-[research_naylor_1988]: https://doi.org/10.1364/nlopm.1988.mf16
 [research_nazario_ramirez_2017]: https://doi.org/10.2514/6.2017-5198
 [research_ndt_of_1970]: https://doi.org/10.1016/0029-1021(70)90145-3
-[research_ndubizu_ananth_2004]: https://doi.org/10.21236/ada426605
-[research_neblett_willis_1965]: https://doi.org/10.21236/ad0624703
 [research_neigh_kapania_2025]: https://doi.org/10.2514/6.2025-2522
 [research_neiss_brown_1967]: https://doi.org/10.21236/ad0662886
 [research_nele_caggiano_2016]: https://doi.org/10.1016/j.procir.2016.11.042
-[research_nelson_1957]: https://doi.org/10.21236/ad0146463
 [research_nelson_1964]: https://doi.org/10.2514/6.1964-438
 [research_nelson_1973]: https://doi.org/10.1007/bf02649639
 [research_nematnasser_1979]: https://doi.org/10.21236/ada074592
@@ -26294,8 +24575,6 @@ This series has now met a designation marking an absence of demand in the
 [research_nguyen_2026]: https://doi.org/10.21660/2026.143.5469
 [research_nguyen_davidson_2019]: https://doi.org/10.12783/asc34/31340
 [research_nguyen_davidson_2020]: https://doi.org/10.2514/6.2020-0473
-[research_nguyen_davidson_2020_b]: https://doi.org/10.2514/6.2020-0473.c1
-[research_nguyen_do_2020]: https://doi.org/10.1109/gtsd50082.2020.9303092
 [research_nguyen_howell_1994]: https://doi.org/10.21236/ada277702
 [research_nguyen_ju_2018]: https://doi.org/10.1016/j.compstruct.2017.03.078
 [research_nguyen_kardos_1979]: https://doi.org/10.21236/ada073899
@@ -26318,7 +24597,6 @@ This series has now met a designation marking an absence of demand in the
 [research_nichols_hendee_1965]: https://doi.org/10.1109/ta.1965.4319795
 [research_nicholscharlest_rothdonj_2013]: https://ntrs.nasa.gov/citations/20140001456
 [research_nickell_1961]: https://doi.org/10.21236/ad0619097
-[research_nicolas_messner_2021]: https://doi.org/10.1115/pvp2021-61570
 [research_nicolay_karpuk_2021]: https://doi.org/10.1016/j.ijhydene.2021.07.127
 [research_nicolosi_marciello_2022]: https://doi.org/10.2514/6.2022-3205
 [research_nicolosi_melone_2026]: https://doi.org/10.2514/6.2026-1384
@@ -26335,7 +24613,6 @@ This series has now met a designation marking an absence of demand in the
 [research_nikitin_sazonov_1990]: https://doi.org/10.1007/bf00774983
 [research_niknafskermani_simacek_2019]: https://doi.org/10.33599/nasampe/s.19.1432
 [research_nikolayev_bashlii_2026]: https://doi.org/10.1007/s42401-026-00507-9
-[research_nikolova_rongen_2023]: https://doi.org/10.5220/0011746100003393
 [research_nikonchuk_2026]: https://doi.org/10.15407/pmach2026.02.022
 [research_nilakantan_nutt_2017]: https://doi.org/10.1177/0021998317707253
 [research_nilsson_pucilowski_2016]: https://doi.org/10.1115/icone24-60722
@@ -26387,17 +24664,13 @@ This series has now met a designation marking an absence of demand in the
 [research_novikov_lubyanskiy_2020]: https://doi.org/10.1088/1757-899x/934/1/012052
 [research_novotny_neiferd_2024]: https://doi.org/10.2514/6.2024-1800
 [research_novotny_rumpfkeil_2023]: https://doi.org/10.2514/6.2023-1843
-[research_nowicka_2020]: https://doi.org/10.1016/j.tust.2020.103577
 [research_nowka_ruge_2025]: https://doi.org/10.1108/rpj-01-2025-0014
 [research_nozzle_failure_1967]: https://doi.org/10.1021/cen-v045n027.p009
 [research_ntintakis_stavroulakis_2025]: https://doi.org/10.23967/simam.2025.006
 [research_nubli_wen_2025]: https://doi.org/10.1016/j.ijhydene.2025.152373
 [research_nuclear_rocket_1972]: https://doi.org/10.2172/4229914
 [research_nugroho_andiarti_2024]: https://doi.org/10.1371/journal.pone.0292539
-[research_numanovic_knobloch_2025]: https://doi.org/10.1061/jsendh.steng-13998
-[research_numanovic_knobloch_2025_b]: https://doi.org/10.1016/j.jcsr.2025.109693
 [research_numerical_analysis_2015]: https://doi.org/10.17559/tv-20151026094554
-[research_numerical_analysis_2022]: https://doi.org/10.47176/jafm.15.03.32911
 [research_numerical_optimization_2016]: https://doi.org/10.21275/v5i6.nov164465
 [research_numerical_simulation_2016]: https://doi.org/10.18494/sam.2016.1296
 [research_numerical_simulation_2020]: https://doi.org/10.15372/fgv20200311
@@ -26405,10 +24678,7 @@ This series has now met a designation marking an absence of demand in the
 [research_numerical_simulation_and_2015]: https://doi.org/10.15623/ijret.2015.0409049
 [research_nurickwh_hinesws_1973]: https://ntrs.nasa.gov/citations/19740010285
 [research_nurre_taheri_2026]: https://doi.org/10.2514/1.a36497
-[research_nuscorprockvillemd_1981]: https://doi.org/10.21236/ada330641
 [research_nutt_1970]: https://doi.org/10.21236/ad0869613
-[research_nuttall_1995]: https://doi.org/10.21236/ada292389
-[research_nuttall_1996]: https://doi.org/10.21236/ada309568
 [research_nyberg_sorensen_1980]: https://doi.org/10.2514/6.1980-444
 [research_nyilas_2002]: https://doi.org/10.1063/1.1472534
 [research_nzetchou_durupt_2018]: https://doi.org/10.14733/cadconfp.2018.377-381
@@ -26423,13 +24693,10 @@ This series has now met a designation marking an absence of demand in the
 [research_obriencj_ewenrl_1981]: https://ntrs.nasa.gov/citations/19810014653
 [research_ocallaghan_roberson_2026]: https://doi.org/10.33599/nasampe/s.26.171
 [research_ocheretyanyi_2025]: https://doi.org/10.62717/2221-4550-2025-1-134
-[research_ochiai_oda_2019]: https://doi.org/10.1299/jsmefed.2019.is-12
 [research_ochiai_osamura_1992]: https://doi.org/10.1016/0921-5093(92)90135-n
 [research_oconnor_1966]: https://doi.org/10.2514/6.1966-840
-[research_odabasi_saygili_2018]: https://doi.org/10.1063/1.5045903
 [research_odessa_frostig_2018]: https://doi.org/10.1016/j.ijsolstr.2017.10.014
 [research_odessa_frostig_2020]: https://doi.org/10.1016/j.compositesb.2019.107733
-[research_odom_1955]: https://doi.org/10.21236/ad0062388
 [research_odowd_nikbin_2004]: https://doi.org/10.1115/pvp2004-2658
 [research_odriscoll_bruce_2021]: https://doi.org/10.2514/6.2021-1031
 [research_oestlund_damgaard_2001]: https://doi.org/10.2514/6.2001-3684
@@ -26442,7 +24709,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ogi_takao_1999]: https://doi.org/10.1163/156855199x00191
 [research_ogi_takao_2001]: https://doi.org/10.1163/15685510152546358
 [research_ogihara_takeda_1998]: https://doi.org/10.1163/156855198x00246
-[research_ogino_2015]: https://doi.org/10.7763/ijmlc.2015.v5.497
 [research_ogorkiewicz_1970]: https://doi.org/10.1016/0010-4361(70)90244-2
 [research_oguri_lantoine_2025]: https://doi.org/10.2514/1.g008361
 [research_oguri_mcmahon_2020]: https://doi.org/10.2514/1.g004489
@@ -26462,11 +24728,9 @@ This series has now met a designation marking an absence of demand in the
 [research_ojalvo_1977]: https://doi.org/10.2514/3.7449
 [research_okabe_takeda_1998]: https://doi.org/10.4028/www.scientific.net/kem.164-165.221
 [research_okada_chen_2022]: https://doi.org/10.1017/s1431927622012296
-[research_okuda_horton_1985]: https://doi.org/10.2172/6117352
 [research_okumus_turgut_1999]: https://doi.org/10.1115/imece1999-1182
 [research_olds_1988]: https://doi.org/10.2514/6.1988-89
 [research_oldsjohnr_bellinipeterx_1998]: https://ntrs.nasa.gov/citations/19980202962
-[research_oleary_1979]: https://doi.org/10.1080/03081067908717163
 [research_olejnik_kiszkowiak_2022]: https://doi.org/10.3390/aerospace9060284
 [research_olhoff_akesson_1991]: https://doi.org/10.1007/bf01743073
 [research_olivaresferrer_linke_2025]: https://doi.org/10.1016/j.compstruct.2025.119331
@@ -26481,7 +24745,6 @@ This series has now met a designation marking an absence of demand in the
 [research_olsson_cameron_2024]: https://doi.org/10.1007/s10443-024-10219-y
 [research_olynick_1998]: https://doi.org/10.2514/2.3338
 [research_olynick_henline_1996]: https://doi.org/10.2514/3.26842
-[research_omarov_kopzhasarov_2026]: https://doi.org/10.55956/usrd2485
 [research_omata_tsutsumi_2022]: https://doi.org/10.1109/aero53065.2022.9843212
 [research_omata_tsutsumi_2022_b]: https://doi.org/10.23919/sice56594.2022.9905859
 [research_ometronltd_1989]: https://doi.org/10.1016/0308-9126(89)91552-6
@@ -26491,7 +24754,6 @@ This series has now met a designation marking an absence of demand in the
 [research_oneill_hansman_2024]: https://doi.org/10.2514/6.2024-4541
 [research_ong_1995]: https://doi.org/10.1115/1.2842128
 [research_onipedejr_1992]: https://doi.org/10.2514/6.1992-2427
-[research_onizawa_shibata_2004]: https://doi.org/10.1115/pvp2004-2720
 [research_onkar_yadav_2003]: https://doi.org/10.1016/s0263-8223(03)00049-7
 [research_onoda_1985]: https://doi.org/10.2514/6.1985-800
 [research_onodera_okabe_2018]: https://doi.org/10.12783/asc33/25954
@@ -26499,7 +24761,6 @@ This series has now met a designation marking an absence of demand in the
 [research_oosthuizen_stone_1997]: https://doi.org/10.1016/s0263-8223(97)00123-2
 [research_opdahl_jensen_2021]: https://doi.org/10.2514/6.2021-0700
 [research_optimisation_of_1991]: https://doi.org/10.1016/0010-4361(91)90387-v
-[research_optimized_test_2017]: https://doi.org/10.21884/ijmter.2017.4334.5hyq5
 [research_orbital_atk_2016]: https://doi.org/10.1016/j.mprp.2016.04.028
 [research_orbital_atk_2016_b]: https://doi.org/10.1016/j.repl.2016.02.019
 [research_orlandini_paciorri_2026]: https://doi.org/10.2514/6.2026-5116
@@ -26517,13 +24778,10 @@ This series has now met a designation marking an absence of demand in the
 [research_osipov_1986]: https://doi.org/10.1016/0032-3950(86)90323-0
 [research_oskay_2012]: https://doi.org/10.21236/ada572212
 [research_osman_atalla_2004]: https://doi.org/10.2514/6.2004-2821
-[research_osoba_1982]: https://doi.org/10.2172/5307128
 [research_ossadzow_muller_1995]: https://doi.org/10.1016/0263-8223(95)00032-1
 [research_ossorio_1964]: https://doi.org/10.21236/ad0608034
 [research_ostapenko_1993]: https://doi.org/10.1007/bf01342691
-[research_ostiguy_bhat_2024]: https://doi.org/10.2172/2397316
 [research_ostlund_jaran_1999]: https://doi.org/10.2514/6.1999-2583
-[research_ostrovsky_1993]: https://doi.org/10.2172/10105731
 [research_osullivan_1961]: https://doi.org/10.1108/eb033382
 [research_osweiller_1992]: https://doi.org/10.1115/1.2929003
 [research_otsu_2016]: https://doi.org/10.2322/tastj.14.pe_7
@@ -26585,19 +24843,15 @@ This series has now met a designation marking an absence of demand in the
 [research_pamadibandun_covellpeterf_2004]: https://ntrs.nasa.gov/citations/20040095937
 [research_pamadibandun_neirynckthomasa_2005]: https://ntrs.nasa.gov/citations/20050212103
 [research_pamadibandun_neirynckthomasa_2007]: https://ntrs.nasa.gov/citations/20080000856
-[research_pan_2025]: https://doi.org/10.54254/2755-2721/2026.mh30842
 [research_pan_chen_2020]: https://doi.org/10.1016/j.compstruct.2020.112371
 [research_pan_herrington_1998]: https://doi.org/10.1115/imece1998-0905
 [research_pan_hu_2002]: https://doi.org/10.1142/9789812776228_0151
-[research_pan_hu_2023]: https://doi.org/10.15388/namc.2023.28.33475
 [research_pan_jiang_2019]: https://doi.org/10.1016/j.compstruct.2019.111158
 [research_pan_liang_2000]: https://doi.org/10.1002/pc.10253
 [research_panchagnula_sharma_2022]: https://doi.org/10.1007/s12008-022-00894-1
 [research_panda_2019]: https://doi.org/10.2514/6.2019-3504
-[research_panda_2019_b]: https://doi.org/10.2514/6.2019-2317.c1
 [research_panda_shah_2004]: https://doi.org/10.2514/6.2004-1994
 [research_pande_1994]: https://doi.org/10.21236/ada413742
-[research_pandey_dayal_1974]: https://doi.org/10.1063/1.2945932
 [research_pandey_narayanan_2020]: https://doi.org/10.1063/5.0024507
 [research_pandey_reddy_1987]: https://doi.org/10.2514/6.1987-898
 [research_pandow_pratt_1965]: https://doi.org/10.21236/ad0364369
@@ -26621,9 +24875,7 @@ This series has now met a designation marking an absence of demand in the
 [research_paredes_choudhari_2018]: https://doi.org/10.2514/6.2018-3217
 [research_paredes_choudhari_2019]: https://doi.org/10.2514/6.2019-3215
 [research_paredes_scholten_2021]: https://doi.org/10.2514/6.2021-2886
-[research_pareigis_riege_2024]: https://doi.org/10.5220/0012944400003822
 [research_parello_defoort_2024]: https://doi.org/10.2514/6.2024-2638
-[research_parello_defoort_2024_b]: https://doi.org/10.2514/6.2024-2638.c1
 [research_parello_gourinat_2024]: https://doi.org/10.1088/1742-6596/2716/1/012040
 [research_pareyns_bisagni_2021]: https://doi.org/10.12783/asc36/35769
 [research_parisdeidre_trevinoluisc_2005]: https://ntrs.nasa.gov/citations/20050092389
@@ -26635,7 +24887,6 @@ This series has now met a designation marking an absence of demand in the
 [research_park_baek_2004]: https://doi.org/10.1115/esda2004-58089
 [research_park_jang_2021]: https://doi.org/10.1007/s12206-021-0723-9
 [research_park_kim_2000]: https://doi.org/10.2514/6.2000-1536
-[research_park_kim_2004]: https://doi.org/10.1115/icone12-49368
 [research_park_kim_2021]: https://doi.org/10.3390/ma14195547
 [research_park_kim_2021_b]: https://doi.org/10.3390/aerospace8060150
 [research_park_kim_2024]: https://doi.org/10.1016/j.energy.2024.130265
@@ -26658,7 +24909,6 @@ This series has now met a designation marking an absence of demand in the
 [research_parvizi_bailey_1978]: https://doi.org/10.1007/bf00541666
 [research_pascucci_bennani_2015]: https://doi.org/10.1109/ecc.2015.7330732
 [research_passarani_grossi_2026]: https://doi.org/10.2514/6.2026-1270
-[research_pastrick_1969]: https://doi.org/10.21236/ad0865530
 [research_patel_2026]: https://doi.org/10.2514/6.2026-0568
 [research_patel_2026_b]: https://doi.org/10.2514/6.2026-0567
 [research_patel_acharya_2023]: https://doi.org/10.1016/j.ijhydene.2022.11.304
@@ -26679,13 +24929,11 @@ This series has now met a designation marking an absence of demand in the
 [research_paul_andrea_2021]: https://doi.org/10.33599/nasampe/s.21.0629
 [research_paul_sinha_1992]: https://doi.org/10.1016/0263-8223(92)90049-i
 [research_paula_bizarria_2026]: https://doi.org/10.3390/aerospace13080696
-[research_paulort_lepikson_2020]: https://doi.org/10.5151/siintec2020-digitalvehicle
 [research_pavanasam_anil_2024]: https://doi.org/10.4271/2024-26-0447
 [research_pavlov_2019]: https://doi.org/10.18698/0236-3941-2019-4-20-30
 [research_pawar_gilke_2018]: https://doi.org/10.1109/icscan.2018.8541144
 [research_pawlus_2021]: https://doi.org/10.2139/ssrn.3868222
 [research_paxson_perkins_2021]: https://doi.org/10.2514/6.2021-0192
-[research_payne_1952]: https://doi.org/10.2118/144-g
 [research_payton_2017]: https://doi.org/10.1115/imece2017-71411
 [research_pearson_2003]: https://doi.org/10.1038/news030203-5
 [research_pearson_landrum_1996]: https://doi.org/10.1115/1.2870944
@@ -26703,11 +24951,9 @@ This series has now met a designation marking an absence of demand in the
 [research_peksen_wen_2025]: https://doi.org/10.1016/j.ijhydene.2025.150028
 [research_pelacciodennisg_scheilchristinem_1991]: https://ntrs.nasa.gov/citations/19910059486
 [research_pelamatti_brevault_2019]: https://doi.org/10.2514/6.2019-1971
-[research_pelton_2001]: https://doi.org/10.21236/ada399663
 [research_pempie_vernin_2000]: https://doi.org/10.2514/6.2000-3738
 [research_pena_richards_2018]: https://doi.org/10.2514/6.2018-1695
 [research_pendhari_sawarkar_2015]: https://doi.org/10.1016/j.compstruct.2014.10.018
-[research_peng_fang_2016]: https://doi.org/10.1016/j.ast.2016.08.032
 [research_peng_ma_2022]: https://doi.org/10.1088/1742-6596/2181/1/012021
 [research_peng_wang_2026]: https://doi.org/10.1088/1742-6596/3256/1/012063
 [research_peng_zhu_2020]: https://doi.org/10.1016/j.addma.2020.101646
@@ -26730,7 +24976,6 @@ This series has now met a designation marking an absence of demand in the
 [research_performance_optimization_2017]: https://doi.org/10.21090/ijaerd.34721
 [research_perigo_qin_2001]: https://doi.org/10.2514/6.2001-2417
 [research_perkins_brice_1966]: https://doi.org/10.21236/ad0632829
-[research_perkins_jamesc_1978]: https://doi.org/10.21236/ada056473
 [research_perl_1997]: https://doi.org/10.4271/972612
 [research_perl_nachum_2000]: https://doi.org/10.1115/1.1310163
 [research_perlee_liebman_1963]: https://doi.org/10.21236/ad0417126
@@ -26747,7 +24992,6 @@ This series has now met a designation marking an absence of demand in the
 [research_peschke_naik_2022]: https://doi.org/10.1115/gt2022-82864
 [research_peshkhoev_2026]: https://doi.org/10.32326/1814-9146-2026-88-1-48-57
 [research_peterchoag_blyleschofield_1970]: https://ntrs.nasa.gov/citations/19710000636
-[research_peterjbuzzanell_1975]: https://ntrs.nasa.gov/citations/19770003660
 [research_peterlin_1971]: https://doi.org/10.1002/app.1971.070151220
 [research_peters_2001]: https://doi.org/10.1063/1.1373868
 [research_peters_springer_1986]: https://doi.org/10.21236/ada174160
@@ -26757,7 +25001,6 @@ This series has now met a designation marking an absence of demand in the
 [research_peterson_1985]: https://doi.org/10.2514/6.1985-340
 [research_peterson_liu_2015]: https://doi.org/10.2514/6.2015-0003
 [research_peterson_taboada_2012]: https://doi.org/10.21236/ada610335
-[research_petersonrl_1981]: https://ntrs.nasa.gov/citations/19810020556
 [research_peterspaeth_petertakunju_2021]: https://ntrs.nasa.gov/citations/20210020841
 [research_peterstodd_saizjohn_1997]: https://ntrs.nasa.gov/citations/19970040111
 [research_petitpas_aceves_2018]: https://doi.org/10.1016/j.ijhydene.2018.08.097
@@ -26788,7 +25031,6 @@ This series has now met a designation marking an absence of demand in the
 [research_piascikroberts_1992]: https://ntrs.nasa.gov/citations/19920023179
 [research_piascikroberts_gangloffrichardp_1989]: https://ntrs.nasa.gov/citations/19900054273
 [research_piatak_sekula_2019]: https://doi.org/10.2514/6.2019-2308
-[research_piatak_sekula_2019_b]: https://doi.org/10.2514/6.2019-2308.c1
 [research_piatak_sekula_2019_c]: https://doi.org/10.2514/6.2019-3302
 [research_picot_gueydan_2017]: https://doi.org/10.1063/1.5008053
 [research_piedra_torres_2019]: https://doi.org/10.3390/aerospace6090097
@@ -26846,14 +25088,12 @@ This series has now met a designation marking an absence of demand in the
 [research_polyester_fibreglass_reinforced_1978]: https://doi.org/10.1016/0010-4361(78)90633-x
 [research_ponraj_abdullah_2026]: https://doi.org/10.1177/10996362261425430
 [research_ponti_mini_2021]: https://doi.org/10.1615/intjenergeticmaterialschemprop.2021038491
-[research_pools_monseur_2021]: https://doi.org/10.1186/s40536-021-00104-6
 [research_poorveis_khajehdezfuly_2025]: https://doi.org/10.1080/15397734.2025.2585351
 [research_popejoy_dharani_1992]: https://doi.org/10.1016/0167-8442(92)90008-l
 [research_popplewell_ford_1974]: https://doi.org/10.1007/bf02643882
 [research_porrwilliamcjr_lengyang_1991]: https://ntrs.nasa.gov/citations/19920033583
 [research_porter_1994]: https://doi.org/10.4271/940877
 [research_posmyk_2003]: https://doi.org/10.1016/s0043-1648(03)00130-3
-[research_possel_1998]: https://doi.org/10.21236/ada397229
 [research_postek_sadowski_2018]: https://doi.org/10.1016/j.compstruct.2018.04.014
 [research_poteet_1998]: https://doi.org/10.2514/6.1998-1611
 [research_poteet_abukhajeel_2004]: https://doi.org/10.2514/1.9174
@@ -26867,7 +25107,6 @@ This series has now met a designation marking an absence of demand in the
 [research_powell_naftel_1991]: https://doi.org/10.2514/3.26227
 [research_powell_northcutt_1985]: https://doi.org/10.1016/0022-3115(85)90392-7
 [research_powellrichardw_cookstephena_1998]: https://ntrs.nasa.gov/citations/19980237259
-[research_powers_1964]: https://doi.org/10.21236/ad0600749
 [research_powley_1974]: https://doi.org/10.1016/0010-4485(74)90158-4
 [research_pozhanka_stidham_2024]: https://doi.org/10.1115/imece2024-145165
 [research_prabhakar_quinn_1994]: https://doi.org/10.2514/6.1994-1702
@@ -26883,7 +25122,6 @@ This series has now met a designation marking an absence of demand in the
 [research_prasad_prabhakaran_1987]: https://doi.org/10.1016/0263-8223(87)90007-9
 [research_prasad_simha_2003]: https://doi.org/10.1016/s0013-7944(02)00026-7
 [research_pratama_2017]: https://doi.org/10.2118/186394-ms
-[research_prati_nucci_1990]: https://doi.org/10.1016/0109-5641(90)90029-e
 [research_pratt_and_2015]: https://doi.org/10.1016/j.mprp.2015.04.014
 [research_praveen_choubey_2022]: https://doi.org/10.1615/ihmtc-2021.2100
 [research_predicting_burst_1993]: https://doi.org/10.1016/0963-8695(93)90021-l
@@ -26898,13 +25136,10 @@ This series has now met a designation marking an absence of demand in the
 [research_prince_milford_1962]: https://doi.org/10.2172/4775983
 [research_prince_sterner_1996]: https://doi.org/10.21236/ada332950
 [research_prince_zhao_2026]: https://doi.org/10.2514/6.2026-1079
-[research_prince_zhao_2026_b]: https://doi.org/10.2514/6.2026-1079.c1
 [research_princefranka_hamakerjosephw_2001]: https://ntrs.nasa.gov/citations/20010067489
-[research_pritpal_2005]: https://doi.org/10.21236/ada442011
 [research_pritt_1980]: https://doi.org/10.21236/ada106425
 [research_priyadarshi_joseph_2020]: https://doi.org/10.1007/s12046-020-01420-3
 [research_probstein_kemp_1960]: https://doi.org/10.2514/8.8468
-[research_probstein_kemp_1960_b]: https://doi.org/10.2514/8.8638
 [research_process_for_2001]: https://doi.org/10.1016/s1464-2859(01)80317-5
 [research_progard_1979]: https://ntrs.nasa.gov/citations/19790022134
 [research_prosserwh_2003]: https://ntrs.nasa.gov/citations/20040003713
@@ -26913,14 +25148,11 @@ This series has now met a designation marking an absence of demand in the
 [research_prozan_luke_1999]: https://doi.org/10.2514/6.1999-2645
 [research_prucz_dacquisto_1991]: https://doi.org/10.1115/1.2928732
 [research_pryce_smith_1994]: https://doi.org/10.1016/0956-7151(94)90281-x
-[research_przekop_schultz_2018]: https://doi.org/10.2514/6.2018-1694
-[research_przekop_schultz_2018_b]: https://doi.org/10.2514/6.2018-1694.c1
 [research_psotny_2020]: https://doi.org/10.1051/matecconf/202031300006
 [research_psotny_havran_2017]: https://doi.org/10.1051/matecconf/201710700052
 [research_ptacek_1989]: https://doi.org/10.1080/09534962.1989.11819008
 [research_pu_kuzhandaivel_2026]: https://doi.org/10.1016/j.addma.2026.105132
 [research_puccinelli_giusti_2025]: https://doi.org/10.13182/xyz-47430
-[research_pucillo_2019]: https://doi.org/10.1115/jrc2019-1276
 [research_puertolas_perraud_2019]: https://doi.org/10.23919/aeroemc.2019.8788953
 [research_puettmann_1999]: https://doi.org/10.2514/6.1999-4927
 [research_pugazhenthi_gopalakannan_2018]: https://doi.org/10.1109/icscan.2018.8541192
@@ -26932,7 +25164,6 @@ This series has now met a designation marking an absence of demand in the
 [research_purtscher_austin_1992]: https://doi.org/10.6028/nist.ir.3986
 [research_purwar_basu_2017]: https://doi.org/10.1111/jace.14750
 [research_pustovyi_2026]: https://doi.org/10.62717/3083-7057-2026-1-031
-[research_putra_chumaidi_2022]: https://doi.org/10.32764/income.v1i3.1829
 [research_putscher_1967]: https://doi.org/10.21236/ad0654743
 [research_puukko_hepooja_2024]: https://doi.org/10.1038/s41598-024-73201-5
 [research_pvc_sandwich_1989]: https://doi.org/10.1016/0010-4361(89)90952-x
@@ -26961,7 +25192,6 @@ This series has now met a designation marking an absence of demand in the
 [research_qing_xuelei_2016]: https://doi.org/10.1016/j.engfailanal.2015.11.056
 [research_qiu_gao_2024]: https://doi.org/10.1016/j.ast.2024.109616
 [research_qiu_shi_2024]: https://doi.org/10.1017/jfm.2024.42
-[research_qiu_zhang_2024]: https://doi.org/10.1109/ecce55643.2024.10861754
 [research_qu_gao_2021]: https://doi.org/10.1016/j.compstruct.2020.112940
 [research_qu_guo_2016]: https://doi.org/10.2991/icmmse-16.2016.56
 [research_qu_he_2021]: https://doi.org/10.1016/j.compstruct.2021.113608
@@ -27002,11 +25232,9 @@ This series has now met a designation marking an absence of demand in the
 [research_radhakrishnan_1972]: https://doi.org/10.63898/xunu3075
 [research_radhakrishnan_hari_2023]: https://doi.org/10.1007/s40435-023-01126-4
 [research_radhakrishnan_hari_2024]: https://doi.org/10.1007/s40435-024-01477-6
-[research_radiancorpoakridgetn_1995]: https://doi.org/10.21236/ada584967
 [research_radley_2017]: https://doi.org/10.2514/6.2017-5372
 [research_radwan_kovesdi_2024]: https://doi.org/10.1016/j.jcsr.2023.108374
 [research_raffa_pizzuto_2024]: https://doi.org/10.52202/078363-0037
-[research_raffin_1996]: https://doi.org/10.1016/s0378-5173(96)04758-8
 [research_rafique_2024]: https://doi.org/10.1115/pvp2024-123209
 [research_rafique_2024_b]: https://doi.org/10.2139/ssrn.4741347
 [research_rafique_2024_c]: https://doi.org/10.2139/ssrn.4651981
@@ -27020,7 +25248,6 @@ This series has now met a designation marking an absence of demand in the
 [research_raible_jacob_2003]: https://doi.org/10.2514/6.2003-6955
 [research_raichur_2026]: https://doi.org/10.2514/6.2026-114164
 [research_rainey_1964]: https://doi.org/10.2514/6.1964-1016
-[research_rajagukguk_lee_2025]: https://doi.org/10.1038/s41598-025-31719-2
 [research_rajan_2001]: https://doi.org/10.21236/ada418023
 [research_rajappan_kumar_2019]: https://doi.org/10.1063/1.5120233
 [research_rajasekaran_shadmehri_2020]: https://doi.org/10.12783/asc35/34869
@@ -27029,7 +25256,6 @@ This series has now met a designation marking an absence of demand in the
 [research_raju_sistla_1993]: https://doi.org/10.2514/6.1993-1502
 [research_raju_sistla_1996]: https://doi.org/10.1016/0013-7944(95)00184-0
 [research_rajubb_camardacj_1979]: https://ntrs.nasa.gov/citations/19790024106
-[research_ramamurti_2001]: https://doi.org/10.21236/ada389799
 [research_ramarathnam_jain_2024]: https://doi.org/10.4271/2024-26-0417
 [research_ramesh_vasudevan_2000]: https://doi.org/10.1017/s0001924000096846
 [research_ramm_pohya_2024]: https://doi.org/10.1016/j.ijhydene.2024.04.157
@@ -27070,7 +25296,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ratcliffejamesg_2010]: https://ntrs.nasa.gov/citations/20100024225
 [research_rathinam_prabu_2021]: https://doi.org/10.1016/j.joes.2021.03.002
 [research_rathod_deng_2019]: https://doi.org/10.1117/12.2514393
-[research_ratigan_1981]: https://doi.org/10.2172/5170897
 [research_rau_avery_2024]: https://doi.org/10.33599/nasampe/s.24.0171
 [research_rau_stumpf_2024]: https://doi.org/10.2514/6.2024-4322
 [research_rauch_1976]: https://doi.org/10.21236/ada033837
@@ -27079,7 +25304,6 @@ This series has now met a designation marking an absence of demand in the
 [research_rault_1994]: https://doi.org/10.2514/3.26504
 [research_rauzy_haskins_2018]: https://doi.org/10.1002/sys.21469
 [research_ravenhall_1963]: https://doi.org/10.2514/6.1963-2904
-[research_ravenscroft_jr_1974]: https://doi.org/10.21236/ada004621
 [research_ravi_oda_2025]: https://doi.org/10.1007/s42405-025-00953-3
 [research_ravichandran_cavaliere_2025]: https://doi.org/10.1016/j.ijhydene.2025.04.275
 [research_ravindra_dwarakadasa_1993]: https://doi.org/10.1007/bf00354233
@@ -27103,11 +25327,9 @@ This series has now met a designation marking an absence of demand in the
 [research_reddy_sai_2023]: https://doi.org/10.1063/5.0168236
 [research_redondogutierrez_seelbinder_2022]: https://doi.org/10.2514/6.2022-1842
 [research_reed_1971]: https://doi.org/10.6028/nbs.tn.609
-[research_reed_gedeon_2000]: https://doi.org/10.21236/ada457928
 [research_reed_golda_1997]: https://doi.org/10.1016/s0011-2275(97)00004-0
 [research_reed_harryl_1957]: https://doi.org/10.21236/ad0156640
 [research_reed_munson_1972]: https://doi.org/10.1177/002199837200600204
-[research_reen_2015]: https://doi.org/10.21236/ada621305
 [research_reentry_maneuvering_2025]: https://doi.org/10.37285/bsp.sacad2025.03
 [research_reeves_bougrat_2024]: https://doi.org/10.2514/6.2024-85366
 [research_reeves_hoeppner_1978]: https://doi.org/10.1016/0013-7944(78)90066-8
@@ -27131,7 +25353,6 @@ This series has now met a designation marking an absence of demand in the
 [research_reitenbach_ebel_2024]: https://doi.org/10.33737/gpps24-tc-206
 [research_reitinger_ramm_1994]: https://doi.org/10.2514/6.1994-4390
 [research_reitinger_ramm_1995]: https://doi.org/10.1016/0263-8231(95)00010-b
-[research_remec_kam_1998]: https://doi.org/10.2172/576068
 [research_rempt_2003]: https://doi.org/10.21236/ada425565
 [research_ren_1989]: https://doi.org/10.1016/0263-8223(89)90092-5
 [research_ren_2025]: https://doi.org/10.1016/j.cja.2025.103621
@@ -27142,9 +25363,7 @@ This series has now met a designation marking an absence of demand in the
 [research_ren_zhang_2021]: https://doi.org/10.1016/j.applthermaleng.2021.116677
 [research_renganathan_mavris_2015]: https://doi.org/10.2514/6.2015-3980
 [research_renithap_sivaramapandianj_2016]: https://doi.org/10.1109/iceets.2016.7583878
-[research_renn_gilhaus_1986]: https://doi.org/10.1016/0167-6105(86)90096-6
 [research_renuke_kyprianidis_2025]: https://doi.org/10.1115/gt2025-152664
-[research_research_on_2024]: https://doi.org/10.3901/jme.2024.16.338
 [research_research_progress_2024]: https://doi.org/10.3901/jme.2024.14.077
 [research_residual_stresses_1972]: https://doi.org/10.1016/0010-4361(72)90529-0
 [research_reske_brodnick_2024]: https://doi.org/10.2514/6.2024-0545
@@ -27155,7 +25374,6 @@ This series has now met a designation marking an absence of demand in the
 [research_reusable_single_state_to_orbit_1984]: https://doi.org/10.2514/6.1984-1498
 [research_rev_leone_2020]: https://doi.org/10.12783/asc35/34887
 [research_review_and_progress_2021]: https://doi.org/10.1360/ssi-2021-0196
-[research_revision_of_2022]: https://doi.org/10.1002/stab.202271204
 [research_rey_2000]: https://doi.org/10.1063/1.1290921
 [research_reynamartinez_pope_2025]: https://doi.org/10.1115/omae2025-157529
 [research_reynolds_1960]: https://doi.org/10.21236/ad0491094
@@ -27171,7 +25389,6 @@ This series has now met a designation marking an absence of demand in the
 [research_rhodes_1975]: https://doi.org/10.2514/6.1975-748
 [research_rhodesmd_mikulasmmjr_1975]: https://ntrs.nasa.gov/citations/19750024087
 [research_ribeiro_machado_2019]: https://doi.org/10.26678/abcm.cobem2019.cob2019-0704
-[research_ribeiro_roveri_1998]: https://doi.org/10.4043/8606-ms
 [research_riccio_raimondo_2017]: https://doi.org/10.1016/j.applthermaleng.2017.03.053
 [research_riccitiellosalvatorer_smithmarnell_1986]: https://ntrs.nasa.gov/citations/19880009244
 [research_riccitiellosr_figueroah_1984]: https://ntrs.nasa.gov/citations/19840015597
@@ -27183,7 +25400,6 @@ This series has now met a designation marking an absence of demand in the
 [research_richards_vonderwell_1997]: https://doi.org/10.2514/6.1997-3223
 [research_richardsonerin_jacksonaustin_2014]: https://ntrs.nasa.gov/citations/20150002633
 [research_richardsonj_townsendjs_1993]: https://ntrs.nasa.gov/citations/19930046994
-[research_richter_durkee_1983]: https://doi.org/10.2172/5931889
 [research_ridderhof_tsiotras_2018]: https://doi.org/10.2514/6.2018-0611
 [research_ridderhof_tsiotras_2021]: https://doi.org/10.2514/1.g005400
 [research_ridha_1968]: https://doi.org/10.2514/6.1968-328
@@ -27246,7 +25462,6 @@ This series has now met a designation marking an absence of demand in the
 [research_rodriguezsegade_hernandez_2022]: https://doi.org/10.1016/j.ast.2022.107514
 [research_rodriguezsegade_steelant_2023]: https://doi.org/10.1007/s12567-023-00486-z
 [research_roelofs_vos_2018]: https://doi.org/10.2514/6.2018-2029
-[research_roelofs_vos_2018_b]: https://doi.org/10.2514/6.2018-2029.c1
 [research_rogers_dragone_1996]: https://doi.org/10.2514/6.1996-1228
 [research_roh_kim_2002]: https://doi.org/10.1080/03052150210912
 [research_rohrschneider_olds_2001]: https://doi.org/10.2514/6.2001-4542
@@ -27254,11 +25469,9 @@ This series has now met a designation marking an absence of demand in the
 [research_roland_rumpfkeil_2017]: https://doi.org/10.2514/1.c033958
 [research_rollins_grove_1984]: https://doi.org/10.2514/6.1984-1480
 [research_rollins_grove_1986]: https://doi.org/10.2514/6.1986-1659
-[research_rolvag_stranden_2022]: https://doi.org/10.1115/omae2022-85896
 [research_romano_cecchetti_2024]: https://doi.org/10.52202/078372-0079
 [research_romanov_2017]: https://doi.org/10.17238/issn2409-0239.2017.2.68
 [research_romarubi_kuo_2025]: https://doi.org/10.2514/6.2025-97105
-[research_romeis_eberle_2016]: https://doi.org/10.1049/cp.2016.0077
 [research_romesis_aretakis_2024]: https://doi.org/10.3390/aerospace11110913
 [research_romine_1998]: https://doi.org/10.2514/2.588
 [research_rommel_hagemann_1997]: https://doi.org/10.2514/2.5227
@@ -27270,7 +25483,6 @@ This series has now met a designation marking an absence of demand in the
 [research_rong_wei_2016]: https://doi.org/10.1051/matecconf/20166104008
 [research_ronquillo_williams_1984]: https://doi.org/10.1177/109719638400700307
 [research_roschgene_schorandreil_1990]: https://ntrs.nasa.gov/citations/19910063936
-[research_roschke_1955]: https://doi.org/10.21236/ad0079488
 [research_rose_1958]: https://doi.org/10.21236/ad0218493
 [research_rose_1987]: https://doi.org/10.1016/0167-8442(87)90026-7
 [research_rose_medina_2019]: https://doi.org/10.2514/6.2019-2027
@@ -27303,7 +25515,6 @@ This series has now met a designation marking an absence of demand in the
 [research_rovelstad_kassem_2025]: https://doi.org/10.3384/wcc215.1177
 [research_roy_2025]: https://doi.org/10.1016/j.respol.2024.105151
 [research_roy_donaldson_1997]: https://doi.org/10.2514/6.1997-1121
-[research_roy_maungthanoo_2024]: https://doi.org/10.1109/kpec61529.2024.10676082
 [research_roy_tsai_1988]: https://doi.org/10.1115/1.3265597
 [research_roy_utturkar_2004]: https://doi.org/10.2514/6.2004-1860
 [research_rozova_meemary_2025]: https://doi.org/10.1016/j.compstruct.2024.118594
@@ -27335,13 +25546,10 @@ This series has now met a designation marking an absence of demand in the
 [research_ruiz_1978]: https://doi.org/10.1016/0020-7403(78)90089-9
 [research_ruiz_razzitte_2016]: https://doi.org/10.1109/gemccon.2016.7797315
 [research_ruiztorresalexj_mccleskeycarey_2000]: https://ntrs.nasa.gov/citations/20010068377
-[research_rulianto_indiaryanto_2021]: https://doi.org/10.1088/1757-899x/1052/1/012057
 [research_rupert_king_2025]: https://doi.org/10.2514/6.2025-98301
-[research_rupp_2014]: https://doi.org/10.21236/ada602592
 [research_ruppe_1985]: https://doi.org/10.1016/0265-9646(85)90034-7
 [research_rush_1985]: https://doi.org/10.2514/6.1985-749
 [research_rusnak_schleicher_1989]: https://doi.org/10.2514/6.1989-1458
-[research_russell_1993]: https://doi.org/10.21236/ada277327
 [research_russell_2020]: https://doi.org/10.2514/6.2020-0966
 [research_russell_madhukar_2000]: https://doi.org/10.1106/uy9u-f2qw-2fkk-91kg
 [research_russellcarolyn_bjorkmangerry_2000]: https://ntrs.nasa.gov/citations/20000112954
@@ -27353,7 +25561,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ryan_verderaime_1993]: https://doi.org/10.2514/6.1993-1140
 [research_ryanshannon_christianseneric_2009]: https://ntrs.nasa.gov/citations/20090023410
 [research_ryazantsev_yukhnevich_2023]: https://doi.org/10.1051/e3sconf/202339801046
-[research_rybicki_stonesifer_1980]: https://doi.org/10.1115/1.3263342
 [research_rzeszut_folta_2018]: https://doi.org/10.1063/1.5019156
 [research_rzeszut_garstecki_2016]: https://doi.org/10.7712/100016.2147.11151
 [research_s_2016]: https://doi.org/10.4172/2321-6212.1000138
@@ -27387,7 +25594,6 @@ This series has now met a designation marking an absence of demand in the
 [research_safyari_moshtaghi_2021]: https://doi.org/10.3390/hydrogen2030020
 [research_safyari_moshtaghi_2021_b]: https://doi.org/10.1016/j.ijhydene.2021.09.013
 [research_sagala_liscouethanke_2026]: https://doi.org/10.3390/aerospace13020142
-[research_sagbas_gurkan_2021]: https://doi.org/10.46519/ij3dptdi.953315
 [research_sager_1995]: https://doi.org/10.2514/6.1995-3859
 [research_sagliano_2018]: https://doi.org/10.2514/1.g002818
 [research_sagliano_2018_b]: https://doi.org/10.2514/6.2018-1870
@@ -27398,26 +25604,22 @@ This series has now met a designation marking an absence of demand in the
 [research_saha_sullivan_2022]: https://doi.org/10.2514/6.2022-1607
 [research_saha_sullivan_2022_b]: https://doi.org/10.12783/asc37/36416
 [research_saha_sullivan_2024]: https://doi.org/10.1177/00219983241228550
-[research_sahin_khalili_2018]: https://doi.org/10.1109/vnc.2018.8628366
 [research_sahmani_safaei_2024]: https://doi.org/10.1016/j.compstruct.2024.117969
 [research_sahoo_swain_2025]: https://doi.org/10.1177/10996362251317109
 [research_sahu_2005]: https://doi.org/10.21236/ada438422
 [research_sahu_2007]: https://doi.org/10.21236/ada471736
-[research_sahu_sharma_2025]: https://doi.org/10.1115/imece-india2025-160800
 [research_saidkhoudiri_2025]: https://doi.org/10.52783/jisem.v10i4.10106
 [research_saigal_yang_1986]: https://doi.org/10.2514/6.1986-966
 [research_saigal_yang_1987]: https://doi.org/10.2514/3.45512
 [research_saikrupa_chandramohanreddy_2025]: https://doi.org/10.24425/amm.2025.152529
 [research_sainagabharghava_krishnatmali_2024]: https://doi.org/10.1016/j.ijheatfluidflow.2024.109413
 [research_sairam_2023]: https://doi.org/10.61653/joast.v57i2.2005.763
-[research_saito_kanzaki_2024]: https://doi.org/10.1016/j.mlwa.2024.100560
 [research_sakaguchi_1993]: https://doi.org/10.1016/0032-3861(93)90551-k
 [research_sakai_miyagawa_2024]: https://doi.org/10.52202/078371-0017
 [research_sakai_miyagawa_2025]: https://doi.org/10.1063/5.0256908
 [research_sakai_park_2019]: https://doi.org/10.1115/pvp2019-93816
 [research_sakamoto_nakayama_2016]: https://doi.org/10.1016/j.ijhydene.2015.11.039
 [research_sakamoto_sato_2023]: https://doi.org/10.2514/6.2023-1233
-[research_sakamoto_sato_2023_b]: https://doi.org/10.2514/6.2023-1233.c1
 [research_sakamoto_takahashi_1999]: https://doi.org/10.2514/6.1999-2761
 [research_sakovsky_mihaly_2023]: https://doi.org/10.1016/j.matlet.2022.133201
 [research_sakowski_hauser_2019]: https://doi.org/10.2514/6.2019-4281
@@ -27429,7 +25631,6 @@ This series has now met a designation marking an absence of demand in the
 [research_salamo_1996]: https://doi.org/10.21236/ada313729
 [research_salatino_volpicelli_1999]: https://doi.org/10.1205/095758299530279
 [research_sallam_simitses_1987]: https://doi.org/10.1016/0263-8223(87)90001-8
-[research_sallouha_azari_2018]: https://doi.org/10.1109/glocom.2018.8647530
 [research_salmon_einea_1995]: https://doi.org/10.1061/(asce)0733-9445(1995)121:4(778)
 [research_salpekarsa_1991]: https://ntrs.nasa.gov/citations/19920006183
 [research_salpekarsa_1993]: https://ntrs.nasa.gov/citations/19930065235
@@ -27438,7 +25639,6 @@ This series has now met a designation marking an absence of demand in the
 [research_samaratunga_severino_2021]: https://doi.org/10.32548/2021.me-04198
 [research_sambamurthi_warmbrod_1989]: https://doi.org/10.2514/6.1989-1732
 [research_samdaliri_farahani_2019]: https://doi.org/10.5267/j.esm.2018.12.001
-[research_sampling_narclim_2023]: https://doi.org/10.36334/modsim.2023.beecham
 [research_sampson_leven_1957]: https://doi.org/10.2172/4314812
 [research_samsudin_mdnordin_2026]: https://doi.org/10.4028/p-rjzge0
 [research_samuelson_1966]: https://doi.org/10.2172/4305247
@@ -27450,7 +25650,6 @@ This series has now met a designation marking an absence of demand in the
 [research_san_yin_2017]: https://doi.org/10.2991/iccte-17.2017.63
 [research_sancaktar_2023]: https://doi.org/10.2514/6.2023-1712
 [research_sancesdillonj_gangadharansathyan_2010]: https://ntrs.nasa.gov/citations/20110002866
-[research_sanchez_strutynsky_1983]: https://doi.org/10.21236/ada130977
 [research_sanchezcarmona_correa_2023]: https://doi.org/10.1016/j.compstruct.2022.116564
 [research_sanchezchristopherm_2011]: https://ntrs.nasa.gov/citations/20110016193
 [research_sanders_1973]: https://doi.org/10.21236/ada036519
@@ -27482,7 +25681,6 @@ This series has now met a designation marking an absence of demand in the
 [research_sarbayev_konovalov_2021]: https://doi.org/10.52190/2073-2562_2021_4_3
 [research_sardou_2018]: https://doi.org/10.4271/2018-01-0150
 [research_sardou_2019]: https://doi.org/10.4271/2019-01-1276
-[research_sargent_1997]: https://doi.org/10.21236/ada326356
 [research_sarkar_amrr_2021]: https://doi.org/10.1109/med51440.2021.9480343
 [research_sarkar_mukherjee_2021]: https://doi.org/10.1016/j.asr.2020.10.006
 [research_sarma_adeli_1996]: https://doi.org/10.1080/03052159608941400
@@ -27516,7 +25714,6 @@ This series has now met a designation marking an absence of demand in the
 [research_saxena_2024]: https://doi.org/10.21608/ijmti.2024.331423.1113
 [research_saxena_soni_2023]: https://doi.org/10.34049/bcc.55.a.0037
 [research_sayer_1986]: https://doi.org/10.2514/6.1986-941
-[research_sayevand_2019]: https://doi.org/10.3846/mma.2019.020
 [research_scarlatella_guadagnini_2024]: https://doi.org/10.2514/6.2024-2122
 [research_scarpa_tomlin_2000]: https://doi.org/10.1046/j.1460-2695.2000.00278.x
 [research_schacht_1975]: https://doi.org/10.21236/ada016403
@@ -27545,7 +25742,6 @@ This series has now met a designation marking an absence of demand in the
 [research_schmidt_mann_1996]: https://doi.org/10.2514/6.1996-1199
 [research_schmidt_tao_2026]: https://doi.org/10.5220/0014324600004052
 [research_schmidt_velapoldi_1996]: https://doi.org/10.2514/6.1996-3904
-[research_schmidt_walker_1960]: https://doi.org/10.55274/r0010075
 [research_schmit_1979]: https://doi.org/10.2514/6.1979-721
 [research_schmitjr_1977]: https://doi.org/10.2514/6.1977-373
 [research_schmitjr_kicher_1963]: https://doi.org/10.2514/6.1963-2894
@@ -27563,7 +25759,6 @@ This series has now met a designation marking an absence of demand in the
 [research_schnabel_brophy_2018]: https://doi.org/10.2514/6.2018-1626
 [research_schneider_1978]: https://doi.org/10.2514/6.1978-816
 [research_schneider_breda_2024]: https://doi.org/10.52202/078373-0016
-[research_schneider_crescenzi_1988]: https://doi.org/10.21236/ada208029
 [research_schnell_1974]: https://doi.org/10.2514/6.1974-1099
 [research_schoeler_1978]: https://doi.org/10.2514/6.1978-777
 [research_schoenmanl_1982]: https://ntrs.nasa.gov/citations/19840055370
@@ -27583,7 +25778,6 @@ This series has now met a designation marking an absence of demand in the
 [research_schrage_arterburn_2016]: https://doi.org/10.4050/f-0072-2016-11533
 [research_schraml_1995]: https://doi.org/10.21236/ada299609
 [research_schreiber_ouhlal_2003]: https://doi.org/10.1080/00218460309572
-[research_schrems_1986]: https://doi.org/10.1016/0022-2860(86)80367-2
 [research_schroeder_frankel_1995]: https://doi.org/10.21236/ada302173
 [research_schubbe_mall_1999]: https://doi.org/10.1016/s0013-7944(99)00032-6
 [research_schueckerclara_davilacarlosg_2008]: https://ntrs.nasa.gov/citations/20080030371
@@ -27610,7 +25804,6 @@ This series has now met a designation marking an absence of demand in the
 [research_sclafani_shankar_2015]: https://doi.org/10.2514/6.2015-1774
 [research_scott_1963]: https://doi.org/10.21236/ad0410255
 [research_scott_perlee_1962]: https://doi.org/10.21236/ad0284399
-[research_scott_truswell_1983]: https://doi.org/10.5006/c1983-83133
 [research_scully_2013]: https://doi.org/10.21236/ada579023
 [research_scully_moran_1986]: https://doi.org/10.5006/c1986-86264
 [research_scutaru_mihalcica_2018]: https://doi.org/10.1016/j.promfg.2018.03.007
@@ -27630,7 +25823,6 @@ This series has now met a designation marking an absence of demand in the
 [research_seide_1974]: https://doi.org/10.2514/6.1974-408
 [research_seide_weingarten_1960]: https://doi.org/10.21236/ad0490800
 [research_seifried_2001]: https://doi.org/10.1063/1.1373874
-[research_seismic_analysis_2015]: https://doi.org/10.21275/v4i12.nov151906
 [research_seitz_gerlinger_2021]: https://doi.org/10.2514/6.2021-1543
 [research_sekar_vasanthakumar_2020]: https://doi.org/10.4028/www.scientific.net/msf.979.124
 [research_selbmann_gruber_2024]: https://doi.org/10.2351/7.0001121
@@ -27652,11 +25844,8 @@ This series has now met a designation marking an absence of demand in the
 [research_sensburg_fuellhas_1988]: https://doi.org/10.2514/6.1988-2302
 [research_senthilkumar_prathapaneni_2026]: https://doi.org/10.2514/6.2026-111941
 [research_seo_lee_2023]: https://doi.org/10.7316/jhne.2023.34.6.650
-[research_seo_lim_2023]: https://doi.org/10.1016/j.uclim.2023.101734
 [research_seong_jin_2016]: https://doi.org/10.20910/jase.2016.10.2.34
 [research_sepka_samareh_2015]: https://doi.org/10.2514/6.2015-2507
-[research_sepulveda_jenkins_2021]: https://doi.org/10.1038/s41560-021-00796-8
-[research_serakos_1992]: https://doi.org/10.21236/ada264733
 [research_serceoglu_2024]: https://doi.org/10.52202/078357-0174
 [research_sergeyev_mroz_1998]: https://doi.org/10.1007/s001580050024
 [research_sergeyev_pedersen_1996]: https://doi.org/10.1007/bf01376851
@@ -27668,7 +25857,6 @@ This series has now met a designation marking an absence of demand in the
 [research_seshadri_krishnamurthy_2017]: https://doi.org/10.2514/6.2017-1675
 [research_sessim_shi_2024]: https://doi.org/10.1016/j.commatsci.2023.112713
 [research_sethuraman_maiti_1989]: https://doi.org/10.1016/0013-7944(89)90086-6
-[research_setting_the_2024]: https://doi.org/10.12968/s1471-115x(24)70102-0
 [research_sever_demir_2025]: https://doi.org/10.1016/j.ast.2024.109682
 [research_sevy_earls_1970]: https://doi.org/10.21236/ad0865731
 [research_sewell_1966]: https://doi.org/10.2118/1399-ms
@@ -27689,17 +25877,12 @@ This series has now met a designation marking an absence of demand in the
 [research_shameed_gr_2021]: https://doi.org/10.1016/j.ast.2021.106777
 [research_shams_shah_2020]: https://doi.org/10.1109/ibcast47879.2020.9044523
 [research_shang_2000]: https://doi.org/10.21236/ada424277
-[research_shang_2024]: https://doi.org/10.5220/0013525800004619
 [research_shang_hsu_1984]: https://doi.org/10.1115/1.3264364
 [research_shank_thomas_2023]: https://doi.org/10.2514/6.2023-3803
-[research_shank_thomas_2023_b]: https://doi.org/10.2514/6.2023-3803.c1
 [research_shao_nie_2016]: https://doi.org/10.1016/j.ast.2016.02.005
 [research_shao_wang_2024]: https://doi.org/10.3390/wevj15060261
-[research_shaqour_gorecka_2022]: https://doi.org/10.1016/j.addma.2021.102467
 [research_sharan_srivastava_2025]: https://doi.org/10.1115/imece-india2025-161518
-[research_sharif_mumtaz_2018]: https://doi.org/10.1142/9789813224971_0007
 [research_sharif_sun_2020]: https://doi.org/10.1109/icmeas51739.2020.00011
-[research_shariff_bezensek_2024]: https://doi.org/10.4043/34666-ms
 [research_sharifi_popov_1972]: https://doi.org/10.2514/6.1972-356
 [research_sharma_2026]: https://doi.org/10.46632/aae/3/3/4
 [research_sharma_gupta_2023]: https://doi.org/10.5958/2349-2120.2023.00004.1
@@ -27710,7 +25893,6 @@ This series has now met a designation marking an absence of demand in the
 [research_sharpeel_jacksonlr_1975]: https://ntrs.nasa.gov/citations/19750010039
 [research_shaver_masters_1972]: https://doi.org/10.6028/nbs.ir.73-105
 [research_shaw_bodner_1952]: https://doi.org/10.21236/ad0219218
-[research_shaw_iii_1990]: https://doi.org/10.21236/ada222661
 [research_shaw_shen_1993]: https://doi.org/10.1016/0045-7949(93)90323-6
 [research_shaw_taylor_1997]: https://doi.org/10.1016/s0265-9646(97)00007-6
 [research_shaw_womack_1984]: https://doi.org/10.2172/10183802
@@ -27723,9 +25905,7 @@ This series has now met a designation marking an absence of demand in the
 [research_shechtman_1981]: https://doi.org/10.21236/ada102746
 [research_sheinman_goldfeld_2001]: https://doi.org/10.1115/imece2001/ad-23772
 [research_shelton_tucker_1975]: https://doi.org/10.2514/6.1975-777
-[research_shen_2022]: https://doi.org/10.31274/itaa.15761
 [research_shen_2024]: https://doi.org/10.21741/9781644903131-189
-[research_shen_jiang_2025]: https://doi.org/10.1080/0305215x.2025.2460509
 [research_shen_li_2024]: https://doi.org/10.1115/pvp2024-123233
 [research_shen_lin_1996]: https://doi.org/10.1117/12.254154
 [research_shen_liu_2020]: https://doi.org/10.1016/j.applthermaleng.2019.114513
@@ -27736,7 +25916,6 @@ This series has now met a designation marking an absence of demand in the
 [research_shen_zhou_2023]: https://doi.org/10.1109/iccsse59359.2023.10245228
 [research_shen_zhou_2024]: https://doi.org/10.1109/tiv.2023.3327263
 [research_shen_zhou_2025]: https://doi.org/10.52202/083090-0109
-[research_sheng_2021]: https://doi.org/10.1109/asmc51741.2021.9435679
 [research_sheng_lu_2021]: https://doi.org/10.1109/icmae52228.2021.9522459
 [research_sheppardgene_2005]: https://ntrs.nasa.gov/citations/20050215334
 [research_sherman_1974]: https://doi.org/10.2514/6.1974-753
@@ -27746,7 +25925,6 @@ This series has now met a designation marking an absence of demand in the
 [research_shi_cheng_2022]: https://doi.org/10.1115/pvp2022-84610
 [research_shi_dai_2015]: https://doi.org/10.2514/6.2015-3553
 [research_shi_deng_2022]: https://doi.org/10.1016/j.compstruct.2022.115587
-[research_shi_liedl_2024]: https://doi.org/10.1016/j.jmsy.2024.10.011
 [research_shi_peng_2023]: https://doi.org/10.1115/pvp2023-106995
 [research_shi_pottsepp_1969]: https://doi.org/10.2514/3.5521
 [research_shi_tong_2022]: https://doi.org/10.3390/aerospace9020059
@@ -27755,7 +25933,6 @@ This series has now met a designation marking an absence of demand in the
 [research_shi_yang_2025]: https://doi.org/10.1115/pvp2025-154501
 [research_shi_yee_1994]: https://doi.org/10.1016/0263-8223(94)90025-6
 [research_shi_zha_2021]: https://doi.org/10.1016/j.jeurceramsoc.2021.03.015
-[research_shi_zhang_2025]: https://doi.org/10.1109/ricai68060.2025.11385031
 [research_shi_zhu_2023]: https://doi.org/10.1016/j.ijhydene.2022.10.154
 [research_shiaomichaelc_singhalsurendran_1996]: https://ntrs.nasa.gov/citations/19970010117
 [research_shiau_1988]: https://doi.org/10.2514/6.1988-2267
@@ -27770,7 +25947,6 @@ This series has now met a designation marking an absence of demand in the
 [research_shilwant_mahulikar_2024]: https://doi.org/10.1017/aer.2024.27
 [research_shim_lee_2025]: https://doi.org/10.52202/083092-0086
 [research_shimakawa_nakamura_2004]: https://doi.org/10.1115/pvp2004-2258
-[research_shimichev_rotanova_2022]: https://doi.org/10.1109/comsds55328.2022.9768947
 [research_shimizu_qu_2026]: https://doi.org/10.2514/6.2026-1465
 [research_shimmy_2026]: https://doi.org/10.22214/ijraset.2026.77238
 [research_shimoda_morimoto_2001]: https://doi.org/10.2514/6.2001-1598
@@ -27791,7 +25967,6 @@ This series has now met a designation marking an absence of demand in the
 [research_shivakumar_whitcomb_1985]: https://doi.org/10.1177/002199838501900101
 [research_shivank_harshul_2023]: https://doi.org/10.1134/s0869864323030046
 [research_shkanov_1970]: https://doi.org/10.1007/bf01527271
-[research_shkolnik_1961]: https://doi.org/10.21236/ad0463359
 [research_shoales_fawaz_2004]: https://doi.org/10.21236/ada430477
 [research_shockey_simons_2003]: https://doi.org/10.21236/ada427340
 [research_shojijm_1981]: https://ntrs.nasa.gov/citations/19810012596
@@ -27799,8 +25974,6 @@ This series has now met a designation marking an absence of demand in the
 [research_sholder_plumer_2024]: https://doi.org/10.1109/aero58975.2024.10521408
 [research_shope_1991]: https://doi.org/10.2514/6.1991-3319
 [research_shope_spinetti_1993]: https://doi.org/10.2514/6.1993-3444
-[research_shopland_1970]: https://doi.org/10.21236/ad0869021
-[research_shore_kirby_2009]: https://doi.org/10.21236/ada518233
 [research_short_1987]: https://doi.org/10.1115/1.3264937
 [research_shou_xu_2021]: https://doi.org/10.1016/j.ast.2021.106564
 [research_should_design_1992]: https://doi.org/10.14359/3045
@@ -27810,7 +25983,6 @@ This series has now met a designation marking an absence of demand in the
 [research_shrestha_nichols_2017]: https://doi.org/10.2514/6.2017-4513
 [research_shrimpton_angus_1988]: https://doi.org/10.4271/881404
 [research_shrivastava_reddy_1976]: https://doi.org/10.1016/0094-5765(76)90140-5
-[research_shrotriya_sottos_2001]: https://doi.org/10.1106/68xm-y59m-txqa-2rv2
 [research_shtessel_hall_2000]: https://doi.org/10.2514/2.4669
 [research_shtesselyuri_1999]: https://ntrs.nasa.gov/citations/20020043222
 [research_shtesselyurib_hallcharlese_2000]: https://ntrs.nasa.gov/citations/20000072424
@@ -27829,12 +26001,10 @@ This series has now met a designation marking an absence of demand in the
 [research_shyr_pan_2004]: https://doi.org/10.1016/j.compstruct.2003.08.006
 [research_siby_s_2022]: https://doi.org/10.1109/indicon56171.2022.10039742
 [research_sichel_yin_1966]: https://doi.org/10.21236/ad0636253
-[research_sicilia_khalkho_2016]: https://doi.org/10.4043/26780-ms
 [research_siddharth_saxena_2026]: https://doi.org/10.1615/interjenercleanenv.2025057305
 [research_siddique_sinha_2024]: https://doi.org/10.2514/6.2024-0957
 [research_sidharth_dwivedi_2026]: https://doi.org/10.2514/6.2026-1149
 [research_sidor_braun_2017]: https://doi.org/10.2514/6.2017-5199
-[research_sieber_1975]: https://doi.org/10.21236/ada021132
 [research_sieder_propst_2019]: https://doi.org/10.1051/eucass/201911529
 [research_sielemann_renuke_2025]: https://doi.org/10.2514/6.2025-0504
 [research_sieradzki_ficalora_1980]: https://doi.org/10.1016/0036-9748(80)90014-9
@@ -27914,12 +26084,10 @@ This series has now met a designation marking an absence of demand in the
 [research_sirenko_2025]: https://doi.org/10.62717/2221-4550-2025-1-093
 [research_sisak_ayer_1991]: https://doi.org/10.7449/1991/superalloys_1991_803_820
 [research_sisemore_smaili_1999]: https://doi.org/10.1115/imece1999-0202
-[research_sissom_1965]: https://doi.org/10.21236/ada396358
 [research_siswanti_zubaydi_2025]: https://doi.org/10.1088/1755-1315/1473/1/012014
 [research_sithara_shenil_2022]: https://doi.org/10.1109/icccis56430.2022.10037641
 [research_sitler_takeuchi_2020]: https://doi.org/10.1002/tal.1812
 [research_sivan_pandian_2018]: https://doi.org/10.18520/cs/v114/i01/38-47
-[research_sivaraj_parammasivam_2021]: https://doi.org/10.1016/j.matpr.2021.05.521
 [research_sivasankararao_mallikarjunarao_2021]: https://doi.org/10.1115/omae2021-63423
 [research_sivells_1963]: https://doi.org/10.21236/ad0299774
 [research_sjoberg_cornu_2001]: https://doi.org/10.7449/2001/superalloys_2001_679_690
@@ -27929,7 +26097,6 @@ This series has now met a designation marking an absence of demand in the
 [research_skolnik_putnam_2022_b]: https://doi.org/10.2514/6.2022-2287
 [research_skopinsky_1997]: https://doi.org/10.1115/1.2842306
 [research_skordahl_mahinfalah_1996]: https://doi.org/10.1115/imece1996-0491
-[research_skromulis_2020]: https://doi.org/10.22616/erdev.2020.19.tf456
 [research_skvortsov_bozhevolnaya_2003]: https://doi.org/10.1177/109963603026482
 [research_slankard_nash_1953]: https://doi.org/10.21236/ad0015517
 [research_slattery_mccarthy_2016]: https://doi.org/10.1016/j.compstruct.2016.03.036
@@ -27957,11 +26124,9 @@ This series has now met a designation marking an absence of demand in the
 [research_smith_1980]: https://doi.org/10.2172/5293732
 [research_smith_1983]: https://doi.org/10.2514/6.1983-1547
 [research_smith_1983_b]: https://doi.org/10.1016/0308-0161(83)90007-8
-[research_smith_2001]: https://doi.org/10.2172/783392
 [research_smith_2002]: https://doi.org/10.1115/pvp2002-1282
 [research_smith_amitay_1998]: https://doi.org/10.2514/6.1998-209
 [research_smith_bagliani_2021]: https://doi.org/10.5006/c2021-16564
-[research_smith_bourland_1979]: https://doi.org/10.21236/ada075374
 [research_smith_handford_2026]: https://doi.org/10.2514/6.2026-0105
 [research_smith_shivakumar_2000]: https://doi.org/10.2514/6.2000-1493
 [research_smith_shivakumar_2001]: https://doi.org/10.2514/6.2001-1221
@@ -27969,7 +26134,6 @@ This series has now met a designation marking an absence of demand in the
 [research_smithstephenc_shirakatanorm_1996]: https://ntrs.nasa.gov/citations/19960038443
 [research_smithtd_steffencjjr_1998]: https://ntrs.nasa.gov/citations/19980237203
 [research_smithtimothyd_steffenchristopherjjr_1998]: https://ntrs.nasa.gov/citations/19980233245
-[research_snelson_1984]: https://doi.org/10.21236/ada146188
 [research_snyder_1965]: https://doi.org/10.2514/6.1965-590
 [research_snyder_1993]: https://doi.org/10.2514/6.1993-4014
 [research_snyder_schultz_1973]: https://doi.org/10.21236/ad0915599
@@ -27983,19 +26147,13 @@ This series has now met a designation marking an absence of demand in the
 [research_soderquistjosephr_nerilawrencem_1992_b]: https://ntrs.nasa.gov/citations/19950021845
 [research_sofiyev_2002]: https://doi.org/10.12989/sem.2002.14.6.661
 [research_software_for_1996]: https://doi.org/10.1016/s0261-3069(96)90033-3
-[research_sojka_cornak_2018]: https://doi.org/10.22616/erdev2018.17.n358
 [research_solanykjr_1993]: https://doi.org/10.2514/6.1993-757
 [research_solazzi_2022]: https://doi.org/10.1016/j.compstruct.2021.115163
 [research_solazzi_vaccari_2022]: https://doi.org/10.1016/j.compstruct.2021.114726
 [research_soler_1975]: https://doi.org/10.1115/1.3454245
 [research_somma_lewis_2019]: https://doi.org/10.1016/j.actaastro.2018.05.043
-[research_son_1972]: https://doi.org/10.6028/nbs.ir.73-135
-[research_son_1973]: https://doi.org/10.6028/nbs.ir.73-164
 [research_son_2026]: https://doi.org/10.6108/kspe.2026.30.3.058
 [research_sonawane_danielotero_2024]: https://doi.org/10.1109/syscon61195.2024.10553580
-[research_song_2008]: https://doi.org/10.21236/ada518833
-[research_song_2008_b]: https://doi.org/10.21236/ada519474
-[research_song_2008_c]: https://doi.org/10.21236/ada518834
 [research_song_2017]: https://doi.org/10.12783/dtetr/apetc2017/11059
 [research_song_2023]: https://doi.org/10.2514/6.2023-4753
 [research_song_ai_2020]: https://doi.org/10.1016/j.ast.2020.106001
@@ -28003,7 +26161,6 @@ This series has now met a designation marking an absence of demand in the
 [research_song_cho_2016]: https://doi.org/10.1016/j.asr.2016.01.007
 [research_song_choi_2016]: https://doi.org/10.1155/2016/9319282
 [research_song_feng_2026]: https://doi.org/10.1016/j.ress.2026.112294
-[research_song_kirby_2009]: https://doi.org/10.21236/ada518253
 [research_song_lee_2026]: https://doi.org/10.1007/s42405-025-01121-3
 [research_song_liu_2023]: https://doi.org/10.1061/(asce)as.1943-5525.0001496
 [research_song_luong_2021]: https://doi.org/10.1016/j.ijimpeng.2021.103817
@@ -28039,7 +26196,6 @@ This series has now met a designation marking an absence of demand in the
 [research_spearmanml_1985]: https://ntrs.nasa.gov/citations/19850037640
 [research_spearmanmleroy_torresabelo_1994]: https://ntrs.nasa.gov/citations/19940022190
 [research_special_section_2017]: https://doi.org/10.1115/1.4037555
-[research_special_theme_1992]: https://doi.org/10.1016/0954-349x(92)90007-s
 [research_specker_brinkley_1983]: https://doi.org/10.21236/ada360100
 [research_spencer_1987]: https://doi.org/10.21236/ada188972
 [research_spencer_1999]: https://doi.org/10.1063/1.57511
@@ -28059,7 +26215,6 @@ This series has now met a designation marking an absence of demand in the
 [research_springer_1996]: https://doi.org/10.2514/6.1996-196
 [research_springer_baron_2020]: https://doi.org/10.1016/j.addma.2019.101033
 [research_sprinks_1963]: https://doi.org/10.2514/3.1586
-[research_sprintall_2010]: https://doi.org/10.21236/ada542596
 [research_spurlock_1966]: https://doi.org/10.2514/6.1966-92
 [research_squib_shirodkar_2021]: https://doi.org/10.2514/6.2021-1621
 [research_sreeyesunath_sugathan_1994]: https://doi.org/10.2514/6.1994-3973
@@ -28069,7 +26224,6 @@ This series has now met a designation marking an absence of demand in the
 [research_srinaganikhiln_vinoy_2015]: https://doi.org/10.1109/aemc.2015.7509236
 [research_srinivas_dancila_2018]: https://doi.org/10.12783/asc33/26163
 [research_srinivasan_1998]: https://doi.org/10.5006/1.3284863
-[research_srinivasan_2018]: https://doi.org/10.14419/ijet.v7i3.34.18964
 [research_srinivasan_lakshmi_2023]: https://doi.org/10.14429/dsj.73.17690
 [research_srinivasan_lehnhoff_2001]: https://doi.org/10.1115/1.1379530
 [research_srinivasan_preethisai_2024]: https://doi.org/10.5958/2349-2120.2024.00002.1
@@ -28133,7 +26287,6 @@ This series has now met a designation marking an absence of demand in the
 [research_stephens_hanna_1991]: https://doi.org/10.2514/6.1991-1383
 [research_sternini_bottero_2022]: https://doi.org/10.1121/10.0009610
 [research_stetson_lewis_1977]: https://doi.org/10.2514/6.1977-1161
-[research_stevens_2002]: https://doi.org/10.21236/ada414544
 [research_stevens_2023]: https://doi.org/10.1109/aero55745.2023.10115665
 [research_stevenson_bhungalia_2000]: https://doi.org/10.2514/6.2000-4817
 [research_steward_1975]: https://doi.org/10.6028/nbs.ir.75-820
@@ -28148,14 +26301,12 @@ This series has now met a designation marking an absence of demand in the
 [research_stickler_keller_1998]: https://doi.org/10.1063/1.54717
 [research_stickley_brownhill_1964]: https://doi.org/10.21236/ad0602083
 [research_stiftinger_rammerstorfer_1997]: https://doi.org/10.1016/s0263-8231(97)00018-9
-[research_stinson_1979]: https://doi.org/10.21236/ada068683
 [research_stlaurentrecoura_wolforth_2024]: https://doi.org/10.52202/078373-0061
 [research_stojanovic_deng_2026]: https://doi.org/10.1016/j.mechrescom.2026.104698
 [research_stokes_1965]: https://doi.org/10.2172/4584472
 [research_stokes_2004]: https://doi.org/10.2514/6.2004-1858
 [research_stokes_lombaerts_2023]: https://doi.org/10.2514/6.2023-1638
 [research_stokeserich_2003]: https://ntrs.nasa.gov/citations/20040084042
-[research_stoll_1961]: https://doi.org/10.21236/ad0259076
 [research_stoloff_klein_1976]: https://doi.org/10.1016/0036-9748(76)90207-6
 [research_stonehowardw_pilandwilliamm_1993]: https://ntrs.nasa.gov/citations/19930069738
 [research_storakers_nilsson_1993]: https://doi.org/10.1016/0020-7683(93)90003-p
@@ -28173,7 +26324,6 @@ This series has now met a designation marking an absence of demand in the
 [research_strauss_1975]: https://doi.org/10.2514/3.56986
 [research_strauss_bzik_1992]: https://doi.org/10.1520/jte11894j
 [research_strawaaw_parkc_1990]: https://ntrs.nasa.gov/citations/20000021400
-[research_streamflow_based_evaluation_2023]: https://doi.org/10.36334/modsim.2023.nguyen509
 [research_streetman_graves_1963]: https://doi.org/10.2172/4645719
 [research_strength_and_2002]: https://doi.org/10.3796/ksft.2002.38.2.101
 [research_strength_of_1991]: https://doi.org/10.1016/0010-4361(91)90238-c
@@ -28187,7 +26337,6 @@ This series has now met a designation marking an absence of demand in the
 [research_stroudwj_agranoffn_1977]: https://ntrs.nasa.gov/citations/19770021580
 [research_strouhalg_tilliandj_1973]: https://ntrs.nasa.gov/citations/19730024756
 [research_structural_design_1972]: https://doi.org/10.2514/6.1972-372
-[research_structural_properties_1997]: https://doi.org/10.1109/ivmc.1997.627647
 [research_strutzlw_1972]: https://ntrs.nasa.gov/citations/19720023253
 [research_stryczniewicz_chmielewski_2025]: https://doi.org/10.1016/j.applthermaleng.2025.127661
 [research_stubbs_1964]: https://doi.org/10.2172/1545348
@@ -28197,11 +26346,9 @@ This series has now met a designation marking an absence of demand in the
 [research_su_2017]: https://doi.org/10.2514/6.2017-2297
 [research_su_dai_2021]: https://doi.org/10.1016/j.ast.2021.107200
 [research_su_dai_2021_b]: https://doi.org/10.1007/s00500-021-06039-y
-[research_su_dai_2021_c]: https://doi.org/10.1007/s00500-021-06287-y
 [research_su_gui_2023]: https://doi.org/10.1109/cac59555.2023.10451466
 [research_su_gui_2026]: https://doi.org/10.1016/j.cja.2026.104210
 [research_su_gui_2026_b]: https://doi.org/10.1016/j.asr.2026.01.060
-[research_su_li_2023]: https://doi.org/10.1109/vtc2023-fall60731.2023.10333741
 [research_su_liu_2025]: https://doi.org/10.1016/j.asoc.2024.112637
 [research_su_liu_2025_b]: https://doi.org/10.1016/j.ast.2024.109839
 [research_su_wang_2015]: https://doi.org/10.1016/j.neucom.2015.03.063
@@ -28238,11 +26385,9 @@ This series has now met a designation marking an absence of demand in the
 [research_sun_loughnan_2024]: https://doi.org/10.1016/j.ijhydene.2024.07.207
 [research_sun_lv_2018]: https://doi.org/10.1109/imccc.2018.00198
 [research_sun_mao_1993]: https://doi.org/10.1016/0263-8223(93)90074-z
-[research_sun_ren_2022]: https://doi.org/10.3390/aerospace9100549
 [research_sun_sun_2026]: https://doi.org/10.1016/j.proci.2026.106141
 [research_sun_tang_2026]: https://doi.org/10.1016/j.ast.2026.112127
 [research_sun_wang_2017]: https://doi.org/10.1016/j.compstruct.2017.09.018
-[research_sun_wu_2022]: https://doi.org/10.3997/2214-4609.202221046
 [research_sun_xu_2015]: https://doi.org/10.15632/jtam-pl.54.3.705
 [research_sun_yang_2020]: https://doi.org/10.12783/dtcse/cmso2019/33628
 [research_sun_yuan_1999]: https://doi.org/10.2514/6.1999-3548
@@ -28254,7 +26399,6 @@ This series has now met a designation marking an absence of demand in the
 [research_sun_zhu_2023_b]: https://doi.org/10.1109/icmae59650.2023.10424611
 [research_sun_zhu_2025]: https://doi.org/10.1016/j.ast.2024.109777
 [research_sundaria_bhagat_2023]: https://doi.org/10.2514/6.2023-3105
-[research_sundaria_bhagat_2023_b]: https://doi.org/10.2514/6.2023-3105.c1
 [research_sundberggaler_1990]: https://ntrs.nasa.gov/citations/19900065900
 [research_sundberggaler_1990_b]: https://ntrs.nasa.gov/citations/19900011955
 [research_sundstrandaviationdenverpacoimaca_1966]: https://doi.org/10.21236/ad0803559
@@ -28266,7 +26410,6 @@ This series has now met a designation marking an absence of demand in the
 [research_support_to_2000_b]: https://ntrs.nasa.gov/citations/20010000337
 [research_surender_sudhakarareddy_2021]: https://doi.org/10.1088/1742-6596/1804/1/012168
 [research_suresh_mark_2021]: https://doi.org/10.33599/nasampe/s.21.0600
-[research_sureshkumar_sunny_2019]: https://doi.org/10.1115/omae2019-95409
 [research_suryanarayana_sivaramakrishnan_2023]: https://doi.org/10.61653/joast.v71i1.2019.118
 [research_suryolaksono_bramantya_2023]: https://doi.org/10.21070/pels.v4i0.1381
 [research_sushchikh_pogorelov_1970]: https://doi.org/10.1007/bf00828773
@@ -28301,7 +26444,6 @@ This series has now met a designation marking an absence of demand in the
 [research_switzky_1964]: https://doi.org/10.2514/6.1964-1031
 [research_switzky_1973]: https://doi.org/10.2514/6.1973-343
 [research_swope_1970]: https://doi.org/10.2172/4219120
-[research_sykora_bachrathy_2020]: https://doi.org/10.1016/j.apm.2020.06.078
 [research_symons_thompson_1994]: https://doi.org/10.2172/10195863
 [research_symposium_on_1973]: https://ntrs.nasa.gov/citations/19730024742
 [research_symposium_on_1973_b]: https://ntrs.nasa.gov/citations/19730024757
@@ -28328,7 +26470,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tabiei_tanov_2000_b]: https://doi.org/10.1115/imece2000-2038
 [research_tackett_merrell_1984]: https://doi.org/10.2514/6.1984-1351
 [research_tacksteve_tomekdeborahm_2010]: https://ntrs.nasa.gov/citations/20100022052
-[research_tacticaltechnologycentercolumbusoh_1990]: https://doi.org/10.21236/ada233624
 [research_tafreshi_2004]: https://doi.org/10.1016/j.compstruct.2003.09.050
 [research_tagscherer_bar_2022]: https://doi.org/10.3390/jmmp6020036
 [research_taguchi_yano_1993]: https://doi.org/10.1002/polb.1993.090310312
@@ -28342,7 +26483,6 @@ This series has now met a designation marking an absence of demand in the
 [research_takahashi_2026]: https://doi.org/10.3390/aerospace13050480
 [research_takahashi_kataoka_2019]: https://doi.org/10.1115/pvp2019-93517
 [research_takahashi_mizobata_1997]: https://doi.org/10.2514/2.3280
-[research_takahashi_nakamura_2003]: https://doi.org/10.1115/pvp2003-1775
 [research_takahashi_yamada_2015]: https://doi.org/10.2514/1.a33170
 [research_takano_kitamura_2021]: https://doi.org/10.3390/app11020854
 [research_takasawa_nishimoto_2023]: https://doi.org/10.1016/j.ijhydene.2023.05.354
@@ -28361,12 +26501,10 @@ This series has now met a designation marking an absence of demand in the
 [research_talib_ameen_2024]: https://doi.org/10.1063/5.0212295
 [research_talreja_2001]: https://doi.org/10.21236/ada395562
 [research_talreja_2018]: https://doi.org/10.12783/asc33/26037
-[research_talreja_bahuguna_2025]: https://doi.org/10.2118/225101-ms
 [research_tam_ballinger_1996]: https://doi.org/10.2514/6.1996-2752
 [research_tamang_2025]: https://doi.org/10.52202/083092-0069
 [research_tamin_osborne_1995]: https://doi.org/10.1115/imece1995-0419
 [research_tan_jingxin_2021]: https://doi.org/10.1080/00218464.2021.1950537
-[research_tan_newton_1990]: https://doi.org/10.1016/0378-5173(90)90409-w
 [research_tan_nuismer_1989]: https://doi.org/10.1177/002199838902301006
 [research_tan_wen_2021]: https://doi.org/10.1109/iciea51954.2021.9516169
 [research_tanaka_tsukahara_2024]: https://doi.org/10.3390/s24186044
@@ -28379,7 +26517,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tang_1995]: https://doi.org/10.21236/ada302002
 [research_tang_burns_2000]: https://doi.org/10.21236/ada389314
 [research_tang_chen_2018]: https://doi.org/10.1016/j.ast.2018.05.027
-[research_tang_dai_2022]: https://doi.org/10.1115/jrc2022-79365
 [research_tang_hu_2025]: https://doi.org/10.1108/gs-07-2025-0099
 [research_tang_li_2026]: https://doi.org/10.1016/j.ast.2025.111386
 [research_tang_lu_2022]: https://doi.org/10.1117/12.2638629
@@ -28410,7 +26547,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tapeinos_zarouchas_2019]: https://doi.org/10.1016/j.ijhydene.2018.12.118
 [research_tara_marta_2021]: https://doi.org/10.33599/nasampe/s.21.0574
 [research_taraila_asundi_2022]: https://doi.org/10.1002/sys.21634
-[research_tarasevych_gasan_2023]: https://doi.org/10.1063/5.0120377
 [research_tarasov_rubtsov_2015]: https://doi.org/10.1063/1.4932921
 [research_tariq_wasim_2026]: https://doi.org/10.3390/pr14152458
 [research_tarmizi_wahid_2019]: https://doi.org/10.14203/metalurgi.v34i1.448
@@ -28418,13 +26554,11 @@ This series has now met a designation marking an absence of demand in the
 [research_tartabini_lepsch_2000]: https://doi.org/10.2514/6.2000-1045
 [research_tartaruga_cooper_2017]: https://doi.org/10.2514/6.2017-1653
 [research_tasi_1966]: https://doi.org/10.2514/6.1966-140
-[research_tatar_1978]: https://doi.org/10.2172/12129936
 [research_tate_1964]: https://doi.org/10.2514/6.1964-1114
 [research_tate_1969]: https://doi.org/10.21236/ad0696063
 [research_tate_gillard_1975]: https://doi.org/10.21236/ada018691
 [research_tatry_deneu_1997]: https://doi.org/10.1016/s0094-5765(97)00194-x
 [research_tatsuta_nagata_2025]: https://doi.org/10.2514/6.2025-0644
-[research_tatyana_german_2017]: https://doi.org/10.1109/mlsd.2017.8109716
 [research_tauchert_1981]: https://doi.org/10.1177/002199838101500501
 [research_tauchert_1997]: https://doi.org/10.1016/s0263-8223(97)00126-8
 [research_tauhiduzzaman_carlsson_2020]: https://doi.org/10.1177/1099636219896859
@@ -28444,13 +26578,10 @@ This series has now met a designation marking an absence of demand in the
 [research_tayonwesleya_domackmarcias_2013]: https://ntrs.nasa.gov/citations/20140001083
 [research_teasley_protz_2021]: https://doi.org/10.2514/6.2021-3655
 [research_teets_2008]: https://doi.org/10.21236/ada493268
-[research_teigen_ibrahim_2015]: https://doi.org/10.1115/omae2015-41848
 [research_tekin_bakir_2025]: https://doi.org/10.1016/j.ress.2025.110798
 [research_tellier_1964]: https://doi.org/10.21236/ad0600420
-[research_telmoudi_saidi_2025]: https://doi.org/10.1109/codit66093.2025.11321735
 [research_tembare_salunke_2025]: https://doi.org/10.52202/080554-0005
 [research_teng_1996]: https://doi.org/10.1016/0141-0296(95)00114-3
-[research_teng_chen_2001]: https://doi.org/10.1061/40596(264)16
 [research_teng_lu_2026]: https://doi.org/10.1016/j.ast.2025.111230
 [research_tenney_fried_1965]: https://doi.org/10.2514/6.1965-1404
 [research_tennyson_1964]: https://doi.org/10.2514/3.2556
@@ -28458,7 +26589,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tennyson_muggeridge_1971]: https://doi.org/10.2514/3.6297
 [research_tennyson_muggeridge_1972]: https://doi.org/10.2514/6.1972-139
 [research_tensile_behaviour_2015]: https://doi.org/10.16962/elkapj/si.arimpie-2015.2
-[research_tenuti_rocca_2017]: https://doi.org/10.23919/ropaces.2017.7916343
 [research_teoretical_experimental_comparison_of_2023]: https://doi.org/10.15421/452319
 [research_teplyakov_durgaryan_1984]: https://doi.org/10.1016/0032-3950(84)90155-2
 [research_teplyakov_durgaryan_1984_b]: https://doi.org/10.1016/s0032-3950(84)80058-1
@@ -28466,7 +26596,6 @@ This series has now met a designation marking an absence of demand in the
 [research_terhardt_hagemann_2001]: https://doi.org/10.2514/6.2001-3686
 [research_terzi_nicoli_2026]: https://doi.org/10.1016/j.econlet.2026.113182
 [research_teschner_1983]: https://doi.org/10.1080/03601218308907454
-[research_tesny_hauser_2019]: https://doi.org/10.2514/6.2019-4280.c1
 [research_tesny_hauser_2019_b]: https://doi.org/10.2514/6.2019-4280
 [research_tessler_1989]: https://doi.org/10.21236/ada212094
 [research_testov_morzhukhina_2025]: https://doi.org/10.1016/j.ijhydene.2024.11.467
@@ -28485,7 +26614,6 @@ This series has now met a designation marking an absence of demand in the
 [research_the_design_2025]: https://doi.org/10.17758/eares22.f0825104
 [research_the_development_2004]: https://doi.org/10.2514/6.iac-04-i.6.02
 [research_the_digital_2018]: https://doi.org/10.12968/s1478-2774(23)50102-2
-[research_the_drawbar_1970]: https://doi.org/10.1016/0022-4898(70)90022-4
 [research_the_flight_1934]: https://doi.org/10.2514/8.10118
 [research_the_strain_1990]: https://doi.org/10.1016/0010-4361(90)90385-a
 [research_the_transverse_1992]: https://doi.org/10.1016/0010-4361(92)90206-a
@@ -28493,7 +26621,6 @@ This series has now met a designation marking an absence of demand in the
 [research_thebault_designolle_2022]: https://doi.org/10.2118/211275-ms
 [research_thebault_designolle_2023]: https://doi.org/10.5006/c2023-19050
 [research_theilergeraldine_gradtthomas_2010]: https://ntrs.nasa.gov/citations/20100021916
-[research_thennakoon_2025]: https://doi.org/10.64920/icbi25049
 [research_theodorefjohnson_eriksweiser_2003]: https://ntrs.nasa.gov/citations/20040001153
 [research_theoretical_analysis_2026]: https://doi.org/10.23977/jemm.2026.110203
 [research_theriault_osswald_1999]: https://doi.org/10.1002/pc.10373
@@ -28505,8 +26632,6 @@ This series has now met a designation marking an absence of demand in the
 [research_thibaudeau_whitmore_2026]: https://doi.org/10.3390/aerospace13070575
 [research_thienel_lewis_1998]: https://doi.org/10.21236/ada373637
 [research_thilker_tramposch_2024]: https://doi.org/10.1115/gt2024-123206
-[research_thin_oxide_1964]: https://doi.org/10.1016/0042-207x(64)90245-3
-[research_thin_oxide_1964_b]: https://doi.org/10.1016/0042-207x(64)90393-8
 [research_thinh_bich_2020]: https://doi.org/10.1016/j.compstruct.2020.112173
 [research_third_conference_1976]: https://ntrs.nasa.gov/citations/19780010190
 [research_third_international_1976]: https://doi.org/10.1016/0029-5493(76)90151-5
@@ -28528,7 +26653,6 @@ This series has now met a designation marking an absence of demand in the
 [research_thompson_1999]: https://doi.org/10.2514/6.1999-4543
 [research_thompson_2020]: https://doi.org/10.33599/nasampe/s.20.0024
 [research_thompson_2022]: https://doi.org/10.1063/10.0009660
-[research_thompson_andrewa_1991]: https://doi.org/10.21236/ada238386
 [research_thompson_epstein_1977]: https://doi.org/10.21236/ada042231
 [research_thompson_hrubecky_1965]: https://doi.org/10.21236/ad0625566
 [research_thompson_sitter_2026]: https://doi.org/10.2514/6.2026-116347
@@ -28545,10 +26669,8 @@ This series has now met a designation marking an absence of demand in the
 [research_thornton_hochstein_2001]: https://doi.org/10.2514/6.2001-1132
 [research_throckmortonda_1981]: https://ntrs.nasa.gov/citations/19820030332
 [research_throop_1982]: https://doi.org/10.21236/ada119400
-[research_thubrikar_robicsek_1999]: https://doi.org/10.1115/imece1999-0383
 [research_thuillier_jha_2024]: https://doi.org/10.36001/ijphm.2024.v15i1.3789
 [research_thurman_ingram_1969]: https://doi.org/10.2514/3.29593
-[research_thurston_jackson_2018]: https://doi.org/10.1097/scs.0000000000004412
 [research_tian_2025]: https://doi.org/10.1109/iceace67491.2025.11439089
 [research_tian_dong_2025]: https://doi.org/10.1016/j.cej.2025.169346
 [research_tian_fan_2015]: https://doi.org/10.1007/s11071-014-1877-0
@@ -28558,7 +26680,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tian_xu_2026]: https://doi.org/10.1016/j.ast.2026.111766
 [research_tian_zhang_2025]: https://doi.org/10.1109/icmtae66890.2025.11427989
 [research_tianpeng_jiarun_2024]: https://doi.org/10.1109/ccdc62350.2024.10588209
-[research_tibana_rayman_1987]: https://doi.org/10.4315/0362-028x-50.3.239
 [research_tien_cunnington_1972]: https://doi.org/10.1016/0011-2275(72)90024-0
 [research_tien_cunnington_1976]: https://doi.org/10.1016/0011-2275(76)90187-9
 [research_tiffin_friz_2021]: https://doi.org/10.2514/6.2021-4066
@@ -28590,7 +26711,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tohgo_sugiyama_2001]: https://doi.org/10.1299/jsmeatemapcfs.2.01.03.0_633
 [research_tohgo_sugiyama_2001_b]: https://doi.org/10.1299/jsmea.44.282
 [research_tohgo_sugiyama_2002]: https://doi.org/10.1299/jsmea.45.545
-[research_tokhadze_tkhorzhevskaya_1992]: https://doi.org/10.1016/0022-2860(92)85039-j
 [research_tokunaga_imura_2024]: https://doi.org/10.2514/6.2024-1215
 [research_tolstykh_1969]: https://doi.org/10.1007/bf01032489
 [research_tomekd_boydenr_2000]: https://ntrs.nasa.gov/citations/20040086749
@@ -28600,7 +26720,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tomlinson_1959]: https://doi.org/10.2172/1023273
 [research_tompkinsstephens_1994]: https://ntrs.nasa.gov/citations/19940033295
 [research_tompkinsstephens_driesgregorya_1988]: https://ntrs.nasa.gov/citations/19890028369
-[research_tone_pavaloiu_2025]: https://doi.org/10.56177/12icmie2025.174
 [research_toner_1981]: https://doi.org/10.2172/6004753
 [research_tong_1991]: https://doi.org/10.2514/6.1991-865
 [research_tong_1994]: https://doi.org/10.1016/0020-7683(94)90059-0
@@ -28621,7 +26740,6 @@ This series has now met a designation marking an absence of demand in the
 [research_toward_in_1989]: https://doi.org/10.1016/0010-4361(89)90380-7
 [research_townend_1970]: https://doi.org/10.2514/3.6028
 [research_townley_1968]: https://doi.org/10.1016/0022-3107(68)90016-6
-[research_townsend_sarigulklijn_2016]: https://doi.org/10.2514/6.2016-5358
 [research_trabelsi_frikha_2019]: https://doi.org/10.1016/j.engstruct.2018.10.047
 [research_trabelsi_zghal_2020]: https://doi.org/10.1007/s40430-020-02314-5
 [research_tracy_2009]: https://doi.org/10.21236/ada522328
@@ -28631,10 +26749,8 @@ This series has now met a designation marking an absence of demand in the
 [research_trajectory_shaping_2025]: https://doi.org/10.37285/bsp.sacad2025.24
 [research_tramposch_angermayr_2024]: https://doi.org/10.2514/6.2024-4034
 [research_tran_congiardo_2023]: https://doi.org/10.1115/gt2023-101467
-[research_transportationsystemscentercambridgema_1990]: https://doi.org/10.21236/ada265327
 [research_transverse_ply_1987]: https://doi.org/10.1016/0010-4361(87)90527-1
 [research_traudt_2024]: https://doi.org/10.52202/078371-0005
-[research_traversi_barbarek_1979]: https://doi.org/10.2172/5069193
 [research_trawny_huertas_2015]: https://doi.org/10.2514/6.2015-0326
 [research_trefny_1999]: https://doi.org/10.2514/6.1999-2730
 [research_trefnycharlesj_2003]: https://ntrs.nasa.gov/citations/20050214850
@@ -28652,7 +26768,6 @@ This series has now met a designation marking an absence of demand in the
 [research_troxell_engel_1947]: https://doi.org/10.4271/470230
 [research_trujillo_1970]: https://doi.org/10.2514/3.30096
 [research_truong_2025]: https://doi.org/10.1142/s0219455427501707
-[research_trushkina_2023]: https://doi.org/10.36074/logos-26.05.2023.008
 [research_trushlyakov_lesnyak_2024]: https://doi.org/10.1016/j.cja.2023.09.018
 [research_trushlyakov_zharikov_2017]: https://doi.org/10.1016/j.proeng.2017.01.131
 [research_ts_2025]: https://doi.org/10.52202/080556-0023
@@ -28667,12 +26782,10 @@ This series has now met a designation marking an absence of demand in the
 [research_tsuboi_jourdaine_2018]: https://doi.org/10.2514/6.2018-1885
 [research_tsuchiya_mori_2004]: https://doi.org/10.2514/1.1082
 [research_tsuchiya_suzuki_1998]: https://doi.org/10.1016/s1474-6670(17)41115-3
-[research_tsuei_savas_2001]: https://doi.org/10.1016/s0167-6105(01)00073-3
 [research_tsujii_tanaka_1995]: https://doi.org/10.1299/kikaia.61.1608
 [research_tsukahara_yamao_2001]: https://doi.org/10.2514/6.2001-1909
 [research_tsukikawa_yamamoto_1980]: https://doi.org/10.1115/1.3263345
 [research_tsunekawa_hiromura_1998]: https://doi.org/10.31399/asm.cp.itsc1998p1143
-[research_tsunekawa_setcos_1992]: https://doi.org/10.1016/0109-5641(92)90091-p
 [research_tsurumi_saito_2017]: https://doi.org/10.1115/pvp2017-65726
 [research_tsurumoto_takahashi_2018]: https://doi.org/10.1299/jsmefed.2018.os9-13
 [research_tsutsumi_hirabayashi_2021]: https://doi.org/10.1016/j.actaastro.2020.11.035
@@ -28680,7 +26793,6 @@ This series has now met a designation marking an absence of demand in the
 [research_tu_yao_2023]: https://doi.org/10.3390/s23063008
 [research_tuck_xianhua_1994]: https://doi.org/10.1179/000705994798268051
 [research_tucker_schmidt_2016]: https://doi.org/10.2514/6.2016-5405
-[research_tucker_warren_2022]: https://doi.org/10.1115/power2022-86567
 [research_tuegel_2009]: https://doi.org/10.21236/ada506510
 [research_tung_duwaldt_1970]: https://doi.org/10.21236/ad0877463
 [research_tung_thinh_2025]: https://doi.org/10.1061/jaeeez.aseng-6120
@@ -28688,13 +26800,11 @@ This series has now met a designation marking an absence of demand in the
 [research_tuohy_1998]: https://doi.org/10.2514/6.1998-4177
 [research_turhan_yesilbicer_2025]: https://doi.org/10.1016/j.est.2025.118998
 [research_turk_ebnother_2018]: https://doi.org/10.1115/1.4040428
-[research_turnage_1984]: https://doi.org/10.21236/adp004265
 [research_turnaround_operations_1988]: https://ntrs.nasa.gov/citations/19880010956
 [research_turnwald_scharnagl_2025]: https://doi.org/10.1117/12.3062770
 [research_turon_otero_2023]: https://doi.org/10.1016/j.compstruct.2023.117343
 [research_turreda_hatano_1991]: https://doi.org/10.1515/hfsg.1991.45.5.371
 [research_tvardovskii_1991]: https://doi.org/10.1007/bf00614737
-[research_tverberg_1958]: https://doi.org/10.2172/10175938
 [research_tvergaard_needleman_2000]: https://doi.org/10.2514/6.2000-1462
 [research_tymoshenko_2026]: https://doi.org/10.62717/3083-7057-2026-1-128
 [research_tzoumakis_fotopoulos_2024]: https://doi.org/10.3390/aerospace11020161
@@ -28703,7 +26813,6 @@ This series has now met a designation marking an absence of demand in the
 [research_udd_kreger_2003]: https://doi.org/10.21236/ada416764
 [research_udd_winz_2005]: https://doi.org/10.21236/ada444111
 [research_uddin_lora_2026]: https://doi.org/10.1109/icit64854.2026.11490172
-[research_ueda_arai_2024]: https://doi.org/10.1115/icone31-124804
 [research_uemura_fukunaga_1981]: https://doi.org/10.1177/002199838101500505
 [research_uemura_morita_1971]: https://doi.org/10.1299/kikai1938.37.1100
 [research_ueng_1984]: https://doi.org/10.2514/6.1984-934
@@ -28725,13 +26834,10 @@ This series has now met a designation marking an absence of demand in the
 [research_unalresit_morriswdouglas_2000]: https://ntrs.nasa.gov/citations/20000115873
 [research_unalresit_morriswdouglas_2004]: https://ntrs.nasa.gov/citations/20040095930
 [research_uncertainties_in_1977]: https://doi.org/10.1016/0041-1647(77)90115-0
-[research_understanding_and_2016]: https://doi.org/10.5957/jspd.32.2.150008
-[research_underwood_2012]: https://doi.org/10.21236/ada586513
 [research_underwood_parker_1996]: https://doi.org/10.21236/ada317116
 [research_underwood_parker_2004]: https://doi.org/10.1115/1.1811109
 [research_ungar_1967]: https://doi.org/10.1126/science.158.3802.740
 [research_united_launch_2015]: https://doi.org/10.1063/pt.5.028795
-[research_unknown_1986]: https://doi.org/10.55274/r0011837
 [research_unnikrishnan_gaitonde_2018]: https://doi.org/10.2514/6.2018-2086
 [research_unsteady_interaction_2023]: https://doi.org/10.1063/5.0151663
 [research_uperchuk_kurenkov_2026]: https://doi.org/10.18287/2541-7533-2026-25-2-49-63
@@ -28742,7 +26848,6 @@ This series has now met a designation marking an absence of demand in the
 [research_ustinova_siuskina_2023]: https://doi.org/10.18698/0536-1044-2023-3-90-100
 [research_uyanna_najafi_2021]: https://doi.org/10.1016/j.ijheatmasstransfer.2021.121482
 [research_uzair_castro_2026]: https://doi.org/10.1016/j.compstruc.2026.108141
-[research_uzina_dostyan_1959]: https://doi.org/10.5254/1.3542455
 [research_uzun_acikmese_2025]: https://doi.org/10.2514/6.2025-1895
 [research_v_kmaharana_2022]: https://doi.org/10.21275/sr22430140225
 [research_v_kr_2025]: https://doi.org/10.1109/iceca66444.2025.11382712
@@ -28761,7 +26866,6 @@ This series has now met a designation marking an absence of demand in the
 [research_vamsikrishna_narayanamurthy_2020]: https://doi.org/10.1016/j.compstruct.2020.112505
 [research_vanarelli_gillespiejr_2022]: https://doi.org/10.33599/nasampe/s.22.0772
 [research_vanbavel_vandepitte_2024]: https://doi.org/10.2514/6.2024-1232
-[research_vanbavel_vandepitte_2024_b]: https://doi.org/10.2514/6.2024-1232.c1
 [research_vandenberghe_antony_2020]: https://doi.org/10.2514/6.2020-3506
 [research_vandenoever_peijs_1994]: https://doi.org/10.1177/096369359400300505
 [research_vanderkooi_park_1999]: https://doi.org/10.1016/s1359-6462(99)00264-x
@@ -28770,9 +26874,6 @@ This series has now met a designation marking an absence of demand in the
 [research_vanga_venkateswaran_2020]: https://doi.org/10.1016/j.ejor.2020.02.004
 [research_vanghele_reulet_2018]: https://doi.org/10.1615/ihtc16.cip.024117
 [research_vanlandingham_hall_2023]: https://doi.org/10.2514/6.2023-3228
-[research_vanlandingham_hall_2023_b]: https://doi.org/10.2514/6.2023-3228.c1
-[research_vanruitenbeek_bhulai_2022]: https://doi.org/10.1016/j.mlwa.2022.100332
-[research_vanwissenkerke_harrist_2024]: https://doi.org/10.2118/217708-ms
 [research_vanzyl_2025]: https://doi.org/10.1115/pvp2025-154603
 [research_vargas_simoes_2022]: https://doi.org/10.3390/materproc2022008144
 [research_vargasvenegas_huang_2021]: https://doi.org/10.2514/6.2021-1707
@@ -28790,8 +26891,6 @@ This series has now met a designation marking an absence of demand in the
 [research_vdovin_reshetnikov_2000]: https://doi.org/10.1007/bf02758408
 [research_veaziedr_glinseyc_2000]: https://ntrs.nasa.gov/citations/20010012152
 [research_veerasamy_balakrishnan_2025]: https://doi.org/10.1115/imece-india2025-161568
-[research_vehicle_forward_1985]: https://doi.org/10.1016/0261-3069(85)90077-9
-[research_vehicle_reliability_2021]: https://doi.org/10.47939/et.v2i7.69
 [research_velea_lache_2018]: https://doi.org/10.1063/1.5024172
 [research_velmurugan_buragohain_2023]: https://doi.org/10.61653/joast.v59i4.2007.584
 [research_venkatachari_natarajan_2015]: https://doi.org/10.1016/j.compstruct.2015.05.080
@@ -28803,7 +26902,6 @@ This series has now met a designation marking an absence of demand in the
 [research_venkateswararao_yu_1989]: https://doi.org/10.1007/bf02653929
 [research_venter_haftka_1997]: https://doi.org/10.2514/6.1997-1053
 [research_ventres_1975]: https://doi.org/10.2514/3.6969
-[research_verdejo_escudero_2016]: https://doi.org/10.1016/j.apm.2016.04.020
 [research_verderaime_vaughan_1996]: https://doi.org/10.2514/6.1996-1576
 [research_veres_tanase_2025]: https://doi.org/10.3390/app15179394
 [research_verma_kumar_2020]: https://doi.org/10.1016/j.mfglet.2020.04.010
@@ -28854,14 +26952,12 @@ This series has now met a designation marking an absence of demand in the
 [research_volzmartin_2015]: https://ntrs.nasa.gov/citations/20160008018
 [research_volzmp_chenps_2014]: https://ntrs.nasa.gov/citations/20140011616
 [research_vonach_rammerstorfer_2001]: https://doi.org/10.12989/sem.2001.12.4.363
-[research_vonalt_purcell_1998]: https://doi.org/10.21236/ada333996
 [research_vonbremen_sokolinsky_2004]: https://doi.org/10.2514/6.2004-1537
 [research_voneckartsberg_goldman_2025]: https://doi.org/10.52202/083090-0116
 [research_vongchanh_szarski_2019]: https://doi.org/10.4271/2019-01-1388
 [research_voon_austin_1991]: https://doi.org/10.21236/ada454846
 [research_vorobyov_abdurashidov_2015]: https://doi.org/10.1016/j.actaastro.2014.10.028
 [research_voss_frohler_2026]: https://doi.org/10.2514/6.2026-4001
-[research_vossler_1992]: https://doi.org/10.21236/ada259794
 [research_voth_steward_1974]: https://doi.org/10.6028/nbs.ir.74-366
 [research_voth_strobridge_1977]: https://doi.org/10.6028/nbs.ir.77-857
 [research_vrchota_prachar_2020]: https://doi.org/10.23967/emus.2019.003
@@ -28919,30 +27015,23 @@ This series has now met a designation marking an absence of demand in the
 [research_wang_2015_b]: https://doi.org/10.3901/jme.2015.02.007
 [research_wang_2015_c]: https://doi.org/10.7463/0115.0755072
 [research_wang_2015_d]: https://doi.org/10.1109/icicse.2015.33
-[research_wang_2018]: https://doi.org/10.2991/iceesd-18.2018.220
 [research_wang_2022]: https://doi.org/10.1117/12.2638753
 [research_wang_2022_b]: https://doi.org/10.1049/icp.2022.1550
-[research_wang_2024]: https://doi.org/10.1117/12.3055464
-[research_wang_2024_b]: https://doi.org/10.31449/inf.v48i23.6741
 [research_wang_2025]: https://doi.org/10.1117/12.3084779
 [research_wang_ai_2022]: https://doi.org/10.3390/aerospace9110632
 [research_wang_bai_2026]: https://doi.org/10.1016/j.ast.2026.113169
 [research_wang_cao_2018]: https://doi.org/10.12783/dtetr/icmeit2018/23399
 [research_wang_chang_2024]: https://doi.org/10.1016/j.compscitech.2024.110548
-[research_wang_chen_2017]: https://doi.org/10.1016/j.apor.2017.08.010
 [research_wang_chen_2020]: https://doi.org/10.3390/sym12091572
 [research_wang_chen_2024]: https://doi.org/10.1142/s2737480724500110
 [research_wang_chen_2024_b]: https://doi.org/10.1109/icca62789.2024.10591829
 [research_wang_chen_2024_d]: https://doi.org/10.1063/5.0221690
 [research_wang_chen_2026]: https://doi.org/10.1016/j.asr.2026.06.014
-[research_wang_choi_2022]: https://doi.org/10.3390/electronics11142141
-[research_wang_coulibaly_2023]: https://doi.org/10.48130/dts-2023-0007
 [research_wang_croll_2015]: https://doi.org/10.1016/j.compstruct.2015.08.018
 [research_wang_cui_2018]: https://doi.org/10.2514/6.2018-1871
 [research_wang_cui_2019]: https://doi.org/10.2514/1.g003518
 [research_wang_cui_2019_b]: https://doi.org/10.1108/aeat-06-2018-0159
 [research_wang_ding_2026]: https://doi.org/10.1109/ccdc69976.2026.11560758
-[research_wang_du_2019]: https://doi.org/10.1109/oceanse.2019.8867579
 [research_wang_duan_2020]: https://doi.org/10.1115/pvp2020-21103
 [research_wang_feng_2016]: https://doi.org/10.1115/pvp2016-63371
 [research_wang_gan_2025]: https://doi.org/10.1109/comea66280.2025.11241251
@@ -28968,23 +27057,19 @@ This series has now met a designation marking an absence of demand in the
 [research_wang_kim_2025]: https://doi.org/10.6108/kspe.2025.29.3.009
 [research_wang_li_2016]: https://doi.org/10.1016/j.ijhydene.2015.11.042
 [research_wang_li_2016_b]: https://doi.org/10.1115/imece2016-66041
-[research_wang_li_2017]: https://doi.org/10.1109/cac.2017.8242931
 [research_wang_li_2018]: https://doi.org/10.1109/gncc42960.2018.9019210
 [research_wang_li_2020]: https://doi.org/10.1007/s40295-020-00235-y
 [research_wang_li_2021]: https://doi.org/10.1016/j.icarus.2021.114596
 [research_wang_li_2021_b]: https://doi.org/10.1016/j.compositesb.2021.108918
 [research_wang_li_2023]: https://doi.org/10.1109/ispec58282.2023.10402913
-[research_wang_li_2023_b]: https://doi.org/10.3390/app13053227
 [research_wang_li_2023_c]: https://doi.org/10.1016/j.engappai.2022.105497
 [research_wang_li_2023_d]: https://doi.org/10.3390/aerospace10070642
 [research_wang_li_2025]: https://doi.org/10.1109/bdee67464.2025.00008
 [research_wang_ling_2016]: https://doi.org/10.1115/pvp2016-63320
 [research_wang_liu_1993]: https://doi.org/10.1016/0013-7944(93)90293-2
 [research_wang_liu_2017]: https://doi.org/10.1016/j.ast.2017.08.011
-[research_wang_liu_2020]: https://doi.org/10.1109/icmla51294.2020.00023
 [research_wang_liu_2022]: https://doi.org/10.1115/pvp2022-84489
 [research_wang_liu_2024]: https://doi.org/10.1016/j.ijhydene.2024.08.496
-[research_wang_lou_2021]: https://doi.org/10.1007/s10439-021-02794-z
 [research_wang_lu_2018]: https://doi.org/10.1016/j.ijhydene.2018.08.192
 [research_wang_lu_2018_b]: https://doi.org/10.1109/cpem.2018.8500851
 [research_wang_luo_2021]: https://doi.org/10.1016/j.applthermaleng.2021.116569
@@ -29013,13 +27098,11 @@ This series has now met a designation marking an absence of demand in the
 [research_wang_song_2026_b]: https://doi.org/10.1016/j.cja.2026.104219
 [research_wang_su_2025]: https://doi.org/10.3390/aerospace12060467
 [research_wang_sun_2025]: https://doi.org/10.1002/acs.4006
-[research_wang_tang_2021]: https://doi.org/10.1016/j.marstruc.2020.102916
 [research_wang_tang_2023]: https://doi.org/10.3390/ma16186123
 [research_wang_tian_2022]: https://doi.org/10.1016/j.ijhydene.2021.12.198
 [research_wang_trapp_1958]: https://doi.org/10.21236/ada290447
 [research_wang_twu_1989]: https://doi.org/10.2514/6.1989-1295
 [research_wang_vaccaro_1953]: https://doi.org/10.21236/ad0013969
-[research_wang_vanderheijden_2020]: https://doi.org/10.1016/j.marstruc.2019.102674
 [research_wang_wang_2015]: https://doi.org/10.2991/tmcm-15.2015.15
 [research_wang_wang_2018]: https://doi.org/10.1063/1.5039082
 [research_wang_wang_2018_b]: https://doi.org/10.1016/j.ast.2017.11.046
@@ -29057,8 +27140,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wang_zhang_2022_b]: https://doi.org/10.2139/ssrn.4201874
 [research_wang_zhang_2024]: https://doi.org/10.3390/aerospace11060431
 [research_wang_zhang_2024_b]: https://doi.org/10.1016/j.actaastro.2024.07.051
-[research_wang_zhang_2025]: https://doi.org/10.1016/j.apm.2025.116120
-[research_wang_zhang_2025_b]: https://doi.org/10.1016/j.csda.2024.108110
 [research_wang_zhang_2026]: https://doi.org/10.1016/j.ast.2026.111917
 [research_wang_zhang_2026_b]: https://doi.org/10.1108/rpj-10-2025-0537
 [research_wang_zhao_2018]: https://doi.org/10.1016/j.jmst.2017.11.041
@@ -29116,7 +27197,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wehbe_tatting_2020]: https://doi.org/10.1016/j.compstruct.2020.112394
 [research_wehofer_matz_1973]: https://doi.org/10.2514/6.1973-1302
 [research_wei_geng_2026]: https://doi.org/10.1109/ima68480.2026.11517804
-[research_wei_huang_2024]: https://doi.org/10.3390/w16233429
 [research_wei_mao_2025]: https://doi.org/10.14733/cadconfp.2025.24-28
 [research_wei_pan_2018]: https://doi.org/10.1109/oceanskobe.2018.8559357
 [research_wei_shao_2021]: https://doi.org/10.1109/cac53003.2021.9727820
@@ -29130,7 +27210,6 @@ This series has now met a designation marking an absence of demand in the
 [research_weilmuenster_gnoffo_1996]: https://doi.org/10.2514/3.26786
 [research_weilmuenster_gnoffo_1996_b]: https://doi.org/10.2514/6.1996-609
 [research_weilmuenster_gnoffo_1997]: https://doi.org/10.2514/2.3282
-[research_weiner_sarkar_1995]: https://doi.org/10.21236/ada298115
 [research_weingarten_1962]: https://doi.org/10.2514/8.9608
 [research_weingarten_1964]: https://doi.org/10.2514/6.1964-1024
 [research_weinmeister_xie_2018]: https://doi.org/10.2514/6.2018-0911
@@ -29140,11 +27219,9 @@ This series has now met a designation marking an absence of demand in the
 [research_weiwei_runde_2022]: https://doi.org/10.1109/cac57257.2022.10055554
 [research_well_1989]: https://doi.org/10.1016/b978-0-08-037869-5.50008-x
 [research_weller_baruch_1970]: https://doi.org/10.21236/ad0721473
-[research_wells_amaefule_1985]: https://doi.org/10.2523/13879-ms
 [research_weltner_1990]: https://doi.org/10.1119/1.2342944
 [research_weltner_1990_b]: https://doi.org/10.1119/1.2342945
 [research_wempner_yin_1988]: https://doi.org/10.21236/ada203382
-[research_wen_2025]: https://doi.org/10.1109/access.2025.3560381
 [research_wen_dong_2025]: https://doi.org/10.3390/surfaces8030041
 [research_wen_huang_2021]: https://doi.org/10.1109/icetci53161.2021.9563541
 [research_wen_zheng_2025]: https://doi.org/10.1016/j.ast.2025.110257
@@ -29191,7 +27268,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wignall_houlden_2020]: https://doi.org/10.2514/6.2020-1521
 [research_wijayatunga_armellin_2025]: https://doi.org/10.1016/j.ast.2025.109996
 [research_wijayatunga_wallace_2026]: https://doi.org/10.1109/aero66936.2026.11520115
-[research_wijethunga_schreckenberger_2024]: https://doi.org/10.2172/2376209
 [research_wilde_2025]: https://doi.org/10.1016/j.jsse.2025.03.006
 [research_wilden_wank_2001]: https://doi.org/10.31399/asm.cp.itsc2001p0683
 [research_wildenks_harriscg_1997]: https://ntrs.nasa.gov/citations/19970016010
@@ -29237,8 +27313,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wilson_comparin_1970]: https://doi.org/10.2514/3.29987
 [research_wilson_currens_2016]: https://doi.org/10.1017/s143192761601000x
 [research_wilson_olssonjacques_2002]: https://doi.org/10.1117/12.469047
-[research_wilson_parks_1984]: https://doi.org/10.21236/ada158417
-[research_wilson_perkins_1979]: https://doi.org/10.2523/8254-ms
 [research_wilson_piparava_2024]: https://doi.org/10.2514/6.2024-85937
 [research_wilson_spier_1963]: https://doi.org/10.21236/ada376772
 [research_winchell_1992]: https://doi.org/10.2514/6.1992-717
@@ -29276,7 +27350,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wong_1968]: https://doi.org/10.2514/6.1968-655
 [research_wong_brown_1965]: https://doi.org/10.21236/ad0626273
 [research_wong_hoadley_1971]: https://doi.org/10.1061/jmcea3.0001433
-[research_wood_1954]: https://doi.org/10.2172/4357065
 [research_wood_gallagher_1976]: https://doi.org/10.21236/ada025499
 [research_woodjj_middlemasmr_2012]: https://ntrs.nasa.gov/citations/20130000537
 [research_woodroffe_1975]: https://doi.org/10.2514/6.1975-244
@@ -29287,9 +27360,7 @@ This series has now met a designation marking an absence of demand in the
 [research_woolley_2015]: https://doi.org/10.1109/aero.2015.7119232
 [research_woollin_murphy_2001]: https://doi.org/10.5006/c2001-01018
 [research_wooten_blozy_1984]: https://doi.org/10.4271/841557
-[research_wordin_1990]: https://doi.org/10.2172/6561235
 [research_world_s_largest_2001]: https://doi.org/10.1016/s0034-3617(01)80325-8
-[research_wostbrock_2002]: https://doi.org/10.21236/ada406771
 [research_wouters_doe_1991]: https://doi.org/10.2172/10186732
 [research_wowogno_tretiak_2025]: https://doi.org/10.1177/14658011251341398
 [research_wrenng_frameb_2001]: https://ntrs.nasa.gov/citations/20010067316
@@ -29310,8 +27381,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wu_jameswang_1994]: https://doi.org/10.1002/pc.750150407
 [research_wu_jiang_2016]: https://doi.org/10.1016/j.ijhydene.2016.04.226
 [research_wu_ju_2026]: https://doi.org/10.1016/j.ijhydene.2026.154724
-[research_wu_katada_2003]: https://doi.org/10.1115/pvp2003-1773
-[research_wu_katada_2004]: https://doi.org/10.1115/pvp2004-2676
 [research_wu_kitipornchai_2017]: https://doi.org/10.1016/j.apm.2016.10.045
 [research_wu_lepsch_2000]: https://doi.org/10.2514/2.3534
 [research_wu_li_2019]: https://doi.org/10.1016/j.compstruct.2019.111342
@@ -29337,7 +27406,6 @@ This series has now met a designation marking an absence of demand in the
 [research_wu_zhang_2025]: https://doi.org/10.1016/j.jgsce.2025.205765
 [research_wu_zhao_2021]: https://doi.org/10.1016/j.ijhydene.2021.06.177
 [research_wu_zhou_2020]: https://doi.org/10.1177/1687814020915367
-[research_wu_zhu_2020]: https://doi.org/10.1016/j.tws.2019.106448
 [research_wukchauncey_wallacematthewl_2012]: https://ntrs.nasa.gov/citations/20130002605
 [research_wunderlin_martin_2018]: https://doi.org/10.2514/6.2018-4462
 [research_wung_chatterjee_1992]: https://doi.org/10.1177/002199839202601302
@@ -29354,7 +27422,6 @@ This series has now met a designation marking an absence of demand in the
 [research_xia_carr_1993]: https://doi.org/10.1016/0956-7151(93)90316-k
 [research_xia_chen_2015]: https://doi.org/10.1016/j.proeng.2015.11.214
 [research_xia_cheng_2000]: https://doi.org/10.1117/12.377082
-[research_xia_draper_1996]: https://doi.org/10.1115/imece1996-0916
 [research_xia_li_2023]: https://doi.org/10.1016/j.ijhydene.2023.01.046
 [research_xia_xie_2022]: https://doi.org/10.1002/apj.2759
 [research_xiang_cheng_2023]: https://doi.org/10.32604/csse.2023.037892
@@ -29364,13 +27431,11 @@ This series has now met a designation marking an absence of demand in the
 [research_xiang_zhang_2025]: https://doi.org/10.25144/24744
 [research_xiangjun_bingquan_2019]: https://doi.org/10.3901/jme.2019.14.060
 [research_xiangyang_john_2021]: https://doi.org/10.33599/nasampe/s.21.0607
-[research_xiao_2015]: https://doi.org/10.2991/essaeme-15.2015.108
 [research_xiao_chen_2016]: https://doi.org/10.1117/12.2219274
 [research_xiao_cinnella_2019]: https://doi.org/10.1016/j.paerosci.2018.10.001
 [research_xiao_gong_2025]: https://doi.org/10.1016/j.ast.2025.109999
 [research_xiao_qu_2025]: https://doi.org/10.1016/j.compstruct.2025.119112
 [research_xiao_reitz_2007]: https://doi.org/10.21236/ada476885
-[research_xiao_wang_2021]: https://doi.org/10.15388/namc.2021.26.22421
 [research_xiao_xu_2026]: https://doi.org/10.1016/j.jer.2025.08.006
 [research_xiao_yin_2018]: https://doi.org/10.2991/iceesd-18.2018.333
 [research_xiao_zhao_2025]: https://doi.org/10.3390/aerospace12100886
@@ -29396,7 +27461,6 @@ This series has now met a designation marking an absence of demand in the
 [research_xing_li_2020]: https://doi.org/10.1109/ccdc49329.2020.9163957
 [research_xinguo_ting_2024]: https://doi.org/10.1109/ccdc62350.2024.10587450
 [research_xinyu_kelong_2025]: https://doi.org/10.1016/j.ifacol.2025.11.202
-[research_xinzexi_gengyang_2015]: https://doi.org/10.1049/cp.2015.0401
 [research_xiong_1998]: https://doi.org/10.1115/1.2789131
 [research_xiong_2002]: https://doi.org/10.1063/1.1472527
 [research_xiong_2018]: https://doi.org/10.2514/6.2018-4676
@@ -29412,7 +27476,6 @@ This series has now met a designation marking an absence of demand in the
 [research_xu_dai_2026]: https://doi.org/10.1016/j.ast.2025.110983
 [research_xu_fang_2022]: https://doi.org/10.1145/3547578.3547593
 [research_xu_fang_2025]: https://doi.org/10.3390/aerospace12070567
-[research_xu_fu_2017]: https://doi.org/10.1109/ei2.2017.8245421
 [research_xu_grigoriu_2024]: https://doi.org/10.1137/24m1651745
 [research_xu_guan_2022]: https://doi.org/10.3390/app12157436
 [research_xu_guan_2023]: https://doi.org/10.1016/j.actaastro.2022.12.044
@@ -29442,7 +27505,6 @@ This series has now met a designation marking an absence of demand in the
 [research_xu_yang_2020]: https://doi.org/10.1038/s41598-020-58173-6
 [research_xu_ye_2026]: https://doi.org/10.1063/5.0316185
 [research_xu_yi_2022]: https://doi.org/10.1063/5.0094755
-[research_xu_zeng_2017]: https://doi.org/10.1109/glocomw.2017.8269097
 [research_xu_zhai_2026]: https://doi.org/10.1016/j.engfailanal.2026.111284
 [research_xu_zhang_1995]: https://doi.org/10.1016/0956-716x(95)00154-n
 [research_xu_zhang_2024]: https://doi.org/10.1109/vppc63154.2024.10755391
@@ -29457,7 +27519,6 @@ This series has now met a designation marking an absence of demand in the
 [research_xue_xie_2025]: https://doi.org/10.3390/aerospace12020141
 [research_xue_zhang_2025]: https://doi.org/10.1088/1742-6596/3026/1/012058
 [research_xuxibao_guojifeng_2016]: https://doi.org/10.1109/cgncc.2016.7829158
-[research_yadav_karthikeyan_2016]: https://doi.org/10.4271/2016-01-1343
 [research_yadav_verma_1997]: https://doi.org/10.1016/s0263-8223(97)00032-9
 [research_yadav_verma_1998]: https://doi.org/10.1016/s0263-8223(98)80009-3
 [research_yadav_verma_2001]: https://doi.org/10.1016/s0263-8223(00)00152-5
@@ -29476,7 +27537,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yamada_nagata_2022]: https://doi.org/10.2514/6.2022-2712
 [research_yamada_yamamoto_2020]: https://doi.org/10.6089/jscm.46.21
 [research_yamakawa_yamamoto_1976]: https://doi.org/10.1021/ma60053a013
-[research_yamamoto_utebi_2021]: https://doi.org/10.20898/j.iass.2021.010
 [research_yamamoto_watanabe_1969]: https://doi.org/10.1299/jsme1958.12.1249
 [research_yamamoto_yamada_2019]: https://doi.org/10.1299/mej.19-00113
 [research_yamashiro_munenaga_2024]: https://doi.org/10.52202/078371-0012
@@ -29491,7 +27551,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yan_li_2026]: https://doi.org/10.1016/j.tws.2026.115007
 [research_yan_li_2026_b]: https://doi.org/10.1016/j.renene.2025.124497
 [research_yan_liu_2022]: https://doi.org/10.1016/j.coco.2022.101220
-[research_yan_qiu_2019]: https://doi.org/10.35530/it.070.06.1422
 [research_yan_shen_2022]: https://doi.org/10.1109/cac57257.2022.10055112
 [research_yan_wang_2020]: https://doi.org/10.3390/app10217457
 [research_yan_wang_2026]: https://doi.org/10.1177/14759217261433896
@@ -29504,7 +27563,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yang_2022]: https://doi.org/10.1177/10812865221084105
 [research_yang_2025_b]: https://doi.org/10.2514/1.g008911
 [research_yang_2025_c]: https://doi.org/10.1109/taes.2024.3462376
-[research_yang_ai_2020]: https://doi.org/10.1109/wcsp49889.2020.9299773
 [research_yang_bo_2026]: https://doi.org/10.1016/j.ijhydene.2026.154191
 [research_yang_cao_2021]: https://doi.org/10.3390/jmse9060637
 [research_yang_chang_2003]: https://doi.org/10.1177/1475921703002002003
@@ -29518,7 +27576,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yang_jiang_2023]: https://doi.org/10.1016/j.energy.2023.126929
 [research_yang_li_2021]: https://doi.org/10.1115/1.4052976
 [research_yang_li_2024]: https://doi.org/10.1088/1742-6596/2775/1/012011
-[research_yang_li_2025]: https://doi.org/10.1016/j.emcon.2024.100464
 [research_yang_li_2025_b]: https://doi.org/10.1063/5.0258378
 [research_yang_li_2026]: https://doi.org/10.1016/j.energy.2026.141381
 [research_yang_liu_2020]: https://doi.org/10.1016/j.actaastro.2020.03.025
@@ -29526,9 +27583,7 @@ This series has now met a designation marking an absence of demand in the
 [research_yang_liu_2024]: https://doi.org/10.1016/j.oceaneng.2024.118162
 [research_yang_liu_2024_b]: https://doi.org/10.2514/1.g007706
 [research_yang_liu_2025]: https://doi.org/10.1016/j.ijhydene.2025.150550
-[research_yang_negash_2023]: https://doi.org/10.1115/detc2023-113683
 [research_yang_patel_2023]: https://doi.org/10.2514/6.2023-1411
-[research_yang_patel_2023_b]: https://doi.org/10.2514/6.2023-1411.c1
 [research_yang_qiu_2016]: https://doi.org/10.1109/cgncc.2016.7829103
 [research_yang_tang_2024]: https://doi.org/10.3390/aerospace11070577
 [research_yang_tao_2023]: https://doi.org/10.1117/12.3003943
@@ -29548,12 +27603,9 @@ This series has now met a designation marking an absence of demand in the
 [research_yanghq_westjeff_2016]: https://ntrs.nasa.gov/citations/20160009746
 [research_yangliu_wanchunchen_2016]: https://doi.org/10.1109/imcec.2016.7867346
 [research_yano_yamaoka_1995]: https://doi.org/10.1016/0079-6700(95)00003-x
-[research_yanpeng_ling_2023]: https://doi.org/10.1109/icpics58376.2023.10235480
 [research_yanzhang_yongwang_2016]: https://doi.org/10.1109/cgncc.2016.7828925
 [research_yao_1962]: https://doi.org/10.21236/ad0296755
 [research_yao_1965]: https://doi.org/10.1115/1.3625704
-[research_yao_cai_2023]: https://doi.org/10.1080/00423114.2022.2163667
-[research_yao_moawad_2019]: https://doi.org/10.1016/j.trc.2019.02.012
 [research_yao_qi_2022]: https://doi.org/10.3390/aerospace10010032
 [research_yao_qu_2022]: https://doi.org/10.1115/omae2022-79142
 [research_yao_wang_2026]: https://doi.org/10.1016/j.ast.2025.111614
@@ -29567,15 +27619,12 @@ This series has now met a designation marking an absence of demand in the
 [research_yapahamillage_kwok_2019]: https://doi.org/10.2514/6.2019-1751
 [research_yapahamillage_leung_2022]: https://doi.org/10.1016/j.compstruct.2021.114901
 [research_yarai_yokoyama_1994]: https://doi.org/10.1109/ultsym.1994.401740
-[research_yarom_scherler_2020]: https://doi.org/10.5220/0008995407250733
 [research_yas_hojjati_2026]: https://doi.org/10.1177/00219983261428772
 [research_yassin_hojjati_2017]: https://doi.org/10.1177/0892705717738305
 [research_yasuda_rosengren_1970]: https://doi.org/10.1002/app.1970.070141117
 [research_yasui_ogura_2020]: https://doi.org/10.1115/lemp2020-8594
 [research_yau_lai_2025]: https://doi.org/10.1016/j.tsep.2025.103451
 [research_yazdanisarvestani_2015]: https://doi.org/10.1615/intjmultcompeng.2015014848
-[research_ye_2004]: https://doi.org/10.21236/ada421322
-[research_ye_butler_2019]: https://doi.org/10.12783/shm2019/32287
 [research_ye_hu_2025]: https://doi.org/10.1016/j.ifacol.2025.11.183
 [research_ye_li_2021]: https://doi.org/10.23919/ccc52363.2021.9549314
 [research_ye_schrijer_2017]: https://doi.org/10.2514/6.2017-4512
@@ -29599,10 +27648,8 @@ This series has now met a designation marking an absence of demand in the
 [research_yin_1986]: https://doi.org/10.2514/6.1986-883
 [research_yin_chen_2026]: https://doi.org/10.1016/j.est.2026.123579
 [research_yin_jiang_2023]: https://doi.org/10.3390/app132413302
-[research_yin_kang_2025]: https://doi.org/10.1109/comsds65569.2025.10971291
 [research_yin_sun_2025]: https://doi.org/10.1016/j.compstruct.2024.118517
 [research_yin_wang_2022]: https://doi.org/10.1016/j.measurement.2022.110810
-[research_yin_zhai_2025]: https://doi.org/10.3390/math13040618
 [research_ymkoo_dkkuhlman_1993]: https://doi.org/10.13031/2013.28385
 [research_ymkoo_dkkuhlman_1993_b]: https://doi.org/10.13031/2013.28386
 [research_yokozeki_aoki_2002]: https://doi.org/10.2514/6.2002-1255
@@ -29636,7 +27683,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yu_chen_2024]: https://doi.org/10.1016/j.cja.2024.06.006
 [research_yu_choi_2025]: https://doi.org/10.1016/j.ijhydene.2024.11.334
 [research_yu_gao_2023]: https://doi.org/10.53954/9785605098669_237
-[research_yu_hou_2020]: https://doi.org/10.3390/su12062203
 [research_yu_huan_2024]: https://doi.org/10.1016/j.aets.2024.12.002
 [research_yu_huang_2025]: https://doi.org/10.1088/1742-6596/2951/1/012063
 [research_yu_jang_2025]: https://doi.org/10.1016/j.tca.2025.180108
@@ -29655,7 +27701,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yu_yu_2024]: https://doi.org/10.1016/j.fpc.2023.10.001
 [research_yu_yuan_2016]: https://doi.org/10.1016/j.taml.2016.02.003
 [research_yu_zhang_2020]: https://doi.org/10.1109/icmeas51739.2020.00025
-[research_yu_zhang_2024]: https://doi.org/10.1016/j.nucengdes.2024.113121
 [research_yu_zhao_2024]: https://doi.org/10.1016/j.ast.2024.109412
 [research_yuan_2002]: https://doi.org/10.21236/ada413356
 [research_yuan_2024]: https://doi.org/10.1117/12.3017847
@@ -29664,7 +27709,6 @@ This series has now met a designation marking an absence of demand in the
 [research_yuan_li_2022_b]: https://doi.org/10.1016/j.ast.2022.107812
 [research_yuan_li_2023]: https://doi.org/10.1016/j.ast.2023.108666
 [research_yuan_liu_2026]: https://doi.org/10.59400/sv2029
-[research_yuan_najafimarghmaleki_2024]: https://doi.org/10.2118/221005-ms
 [research_yuan_thomson_2022]: https://doi.org/10.3390/aerospace9050271
 [research_yuan_wang_2017]: https://doi.org/10.1016/j.compstruct.2017.08.070
 [research_yuan_yao_2017]: https://doi.org/10.1016/j.compstruct.2017.06.005
@@ -29717,7 +27761,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zappino_filippi_2026]: https://doi.org/10.2514/6.2026-5026
 [research_zappino_zobeiry_2019]: https://doi.org/10.1115/imece2019-11261
 [research_zarader_ning_2023]: https://doi.org/10.2514/6.2023-0939
-[research_zarrouki_klos_2021]: https://doi.org/10.23919/ecc54610.2021.9655042
 [research_zarubin_zimin_2016]: https://doi.org/10.7463/aersp.0516.0848243
 [research_zarubin_zimin_2018]: https://doi.org/10.3103/s1068799818030169
 [research_zarubin_zimin_2022]: https://doi.org/10.3103/s0025654422010174
@@ -29727,7 +27770,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zebrine_centea_2019]: https://doi.org/10.33599/nasampe/c.19.0750
 [research_zeiler_mcghee_1999]: https://doi.org/10.2514/2.3434
 [research_zeilerthomasa_1998]: https://ntrs.nasa.gov/citations/19990010052
-[research_zekri_almehaideb_2002]: https://doi.org/10.2523/77939-ms
 [research_zeman_1996]: https://doi.org/10.1016/0308-0161(95)00068-2
 [research_zeman_2002]: https://doi.org/10.1115/pvp2002-1219
 [research_zemzemoglu_unel_2024]: https://doi.org/10.1109/iecon55916.2024.10905789
@@ -29741,29 +27783,23 @@ This series has now met a designation marking an absence of demand in the
 [research_zhai_qi_2016]: https://doi.org/10.1109/chicc.2016.7554394
 [research_zhan_nguyen_2024]: https://doi.org/10.1016/j.combustflame.2024.113538
 [research_zhang_2000]: https://doi.org/10.1002/1099-0488(20000715)38:14<1833::aid-polb10>3.0.co;2-x
-[research_zhang_2007]: https://doi.org/10.21236/ada470256
 [research_zhang_2023]: https://doi.org/10.1117/12.2692081
 [research_zhang_2023_b]: https://doi.org/10.1117/12.2691594
-[research_zhang_2024]: https://doi.org/10.54097/wxzrzs08
 [research_zhang_2025]: https://doi.org/10.54254/2755-2721/2026.ka29021
-[research_zhang_an_2017]: https://doi.org/10.1201/9781315157368-94
 [research_zhang_bai_2022]: https://doi.org/10.1142/s0219455422501383
 [research_zhang_budiawan_2021]: https://doi.org/10.1109/icitisee53823.2021.9655980
 [research_zhang_chen_2020]: https://doi.org/10.1016/j.tws.2020.106925
 [research_zhang_chen_2023]: https://doi.org/10.1063/5.0137819
-[research_zhang_chen_2024]: https://doi.org/10.1155/2024/6130930
 [research_zhang_delale_1995]: https://doi.org/10.1115/imece1995-0315
 [research_zhang_elansary_2022]: https://doi.org/10.1016/j.engstruct.2022.114351
 [research_zhang_fan_2024]: https://doi.org/10.1115/pvp2024-123074
 [research_zhang_fan_2025]: https://doi.org/10.1115/pvp2025-154285
 [research_zhang_feng_2019]: https://doi.org/10.1109/access.2019.2945082
-[research_zhang_feng_2020]: https://doi.org/10.5220/0010057400570063
 [research_zhang_fu_2017]: https://doi.org/10.23919/chicc.2017.8027650
 [research_zhang_gu_2024]: https://doi.org/10.1016/j.ijpvp.2024.105335
 [research_zhang_gu_2024_b]: https://doi.org/10.1016/j.est.2024.113130
 [research_zhang_hao_2026]: https://doi.org/10.1016/j.est.2026.122701
 [research_zhang_he_2026]: https://doi.org/10.1016/j.ast.2026.111717
-[research_zhang_heeren_2015]: https://doi.org/10.1109/iccv.2015.195
 [research_zhang_herrmann_2002]: https://doi.org/10.1002/1617-7061(200203)1:1<203::aid-pamm203>3.0.co;2-z
 [research_zhang_hu_2023]: https://doi.org/10.1115/1.4062276
 [research_zhang_hu_2026]: https://doi.org/10.2514/1.j066725
@@ -29804,7 +27840,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zhang_tan_2020]: https://doi.org/10.12783/asc35/34861
 [research_zhang_tan_2023]: https://doi.org/10.1016/j.tws.2023.110708
 [research_zhang_tang_2017]: https://doi.org/10.1016/j.isatra.2017.08.012
-[research_zhang_tuo_2019]: https://doi.org/10.23919/date.2019.8714795
 [research_zhang_wang_2016]: https://doi.org/10.1142/9789814740135_0025
 [research_zhang_wang_2017]: https://doi.org/10.1201/9781315116259-54
 [research_zhang_wang_2017_b]: https://doi.org/10.1016/j.compstruct.2017.01.020
@@ -29836,7 +27871,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zhang_yang_2024]: https://doi.org/10.1109/icairc64177.2024.10900304
 [research_zhang_yang_2025]: https://doi.org/10.1016/j.matchar.2025.115502
 [research_zhang_yu_2024]: https://doi.org/10.1016/j.renene.2024.120541
-[research_zhang_zhang_2015]: https://doi.org/10.1109/icma.2015.7237719
 [research_zhang_zhang_2016]: https://doi.org/10.2514/6.2016-4926
 [research_zhang_zhang_2017]: https://doi.org/10.1177/0954410017703148
 [research_zhang_zhang_2020]: https://doi.org/10.1016/j.actaastro.2019.11.012
@@ -29844,7 +27878,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zhang_zhang_2022]: https://doi.org/10.1016/j.isatra.2021.04.031
 [research_zhang_zhang_2022_b]: https://doi.org/10.1109/icus55513.2022.9986708
 [research_zhang_zhang_2024]: https://doi.org/10.1016/j.cryogenics.2024.103943
-[research_zhang_zhang_2024_b]: https://doi.org/10.7717/peerj-cs.2187
 [research_zhang_zhang_2025]: https://doi.org/10.1016/j.tws.2024.112889
 [research_zhang_zhao_2017]: https://doi.org/10.1007/s10443-017-9665-x
 [research_zhang_zhao_2025]: https://doi.org/10.3390/aerospace12050400
@@ -29866,14 +27899,12 @@ This series has now met a designation marking an absence of demand in the
 [research_zhao_lin_2026]: https://doi.org/10.1016/j.measurement.2026.122217
 [research_zhao_liu_2019]: https://doi.org/10.1063/1.5125116
 [research_zhao_liu_2024]: https://doi.org/10.1177/00219983241259849
-[research_zhao_liu_2025]: https://doi.org/10.1115/imece2025-165862
 [research_zhao_mahdi_2023]: https://doi.org/10.2514/6.2023-4380
 [research_zhao_mo_2000]: https://doi.org/10.2514/6.2000-3849
 [research_zhao_shao_2022]: https://doi.org/10.3390/aerospace9120742
 [research_zhao_shi_2026]: https://doi.org/10.1088/1742-6596/3215/1/012016
 [research_zhao_tan_2026]: https://doi.org/10.1016/j.actaastro.2026.01.008
 [research_zhao_wang_2020]: https://doi.org/10.1016/j.compstruct.2020.112427
-[research_zhao_wang_2026]: https://doi.org/10.47176/jafm.19.3.3927
 [research_zhao_wu_2023]: https://doi.org/10.1016/j.oceaneng.2023.115423
 [research_zhao_wu_2026]: https://doi.org/10.1016/j.engfailanal.2026.111262
 [research_zhao_xu_2019]: https://doi.org/10.1115/pvp2019-93382
@@ -29883,11 +27914,9 @@ This series has now met a designation marking an absence of demand in the
 [research_zhao_yang_2026]: https://doi.org/10.1016/j.ast.2026.112880
 [research_zhao_yu_2017]: https://doi.org/10.12783/asc2017/15171
 [research_zhao_yu_2021]: https://doi.org/10.1109/icmeas54189.2021.00051
-[research_zhao_zhao_2023]: https://doi.org/10.1016/j.psep.2023.05.074
 [research_zhao_zhou_2026]: https://doi.org/10.2514/1.a36602
 [research_zhao_zhu_2021]: https://doi.org/10.1590/1679-78256473
 [research_zhdan_prokhorov_2002]: https://doi.org/10.1023/a:1020398703839
-[research_zhen_zhou_2024]: https://doi.org/10.1115/omae2024-127811
 [research_zheng_chang_2024]: https://doi.org/10.1080/09243046.2024.2313251
 [research_zheng_chen_2019]: https://doi.org/10.1007/s11708-019-0642-y
 [research_zheng_chen_2019_b]: https://doi.org/10.1088/1757-899x/502/1/012080
@@ -29908,7 +27937,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zhong_liu_2021]: https://doi.org/10.1109/access.2021.3053012
 [research_zhou_2023]: https://doi.org/10.4273/ijvss.15.2.22
 [research_zhou_2025]: https://doi.org/10.1109/aaac66612.2025.11427469
-[research_zhou_2026]: https://doi.org/10.2298/tsci2601097z
 [research_zhou_bai_2024]: https://doi.org/10.1109/iditr62018.2024.10554322
 [research_zhou_cao_2015]: https://doi.org/10.1115/detc2015-47724
 [research_zhou_chen_2018]: https://doi.org/10.1109/oceans.2018.8604516
@@ -29923,7 +27951,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zhou_jiang_2026]: https://doi.org/10.1016/j.ijrefrig.2026.01.024
 [research_zhou_kong_2023]: https://doi.org/10.1007/s40571-022-00488-4
 [research_zhou_li_2016]: https://doi.org/10.1109/cgncc.2016.7828833
-[research_zhou_li_2023]: https://doi.org/10.1016/j.jobe.2023.107494
 [research_zhou_li_2023_b]: https://doi.org/10.1109/icus58632.2023.10318310
 [research_zhou_liang_2020]: https://doi.org/10.2514/1.a34492
 [research_zhou_niu_2024]: https://doi.org/10.1080/15376494.2024.2382360
@@ -29944,13 +27971,10 @@ This series has now met a designation marking an absence of demand in the
 [research_zhou_yan_2015]: https://doi.org/10.4028/www.scientific.net/amm.798.627
 [research_zhou_yan_2016]: https://doi.org/10.1016/j.ijheatmasstransfer.2015.11.048
 [research_zhou_yi_2023]: https://doi.org/10.2514/1.j062455
-[research_zhou_zhang_2025]: https://doi.org/10.3390/rs17122082
-[research_zhou_zhang_2025_b]: https://doi.org/10.1109/ainit65432.2025.11035366
 [research_zhou_zhao_2018]: https://doi.org/10.1016/j.ast.2017.12.002
 [research_zhu_2022]: https://doi.org/10.1186/s42774-022-00117-x
 [research_zhu_2024]: https://doi.org/10.1109/icaml64299.2024.00063
 [research_zhu_2026]: https://doi.org/10.1016/j.marstruc.2025.103904
-[research_zhu_2026_b]: https://doi.org/10.54097/a68hkj21
 [research_zhu_dong_2015]: https://doi.org/10.1016/j.proeng.2015.12.229
 [research_zhu_guan_2023]: https://doi.org/10.1016/j.engstruct.2023.116848
 [research_zhu_hong_2023]: https://doi.org/10.1016/j.jairtraman.2023.102473
@@ -29966,7 +27990,6 @@ This series has now met a designation marking an absence of demand in the
 [research_zhu_wang_2019]: https://doi.org/10.1016/j.cja.2019.04.009
 [research_zhu_wang_2021]: https://doi.org/10.1155/2021/5574436
 [research_zhu_xi_2021]: https://doi.org/10.1016/j.jmsy.2021.03.015
-[research_zhu_xu_2022]: https://doi.org/10.1109/ahpcai57455.2022.10087756
 [research_zhu_xu_2025]: https://doi.org/10.3390/aerospace12110968
 [research_zhu_yao_2016]: https://doi.org/10.1088/1757-899x/129/1/012053
 [research_zhu_zhao_2016]: https://doi.org/10.1016/j.actaastro.2016.01.028
@@ -29978,22 +28001,18 @@ This series has now met a designation marking an absence of demand in the
 [research_ziegler_1963]: https://doi.org/10.21236/ad0405158
 [research_ziglar_2025]: https://doi.org/10.52202/083083-0019
 [research_ziglar_2025_b]: https://doi.org/10.2514/6.2025-4032
-[research_ziglar_2025_c]: https://doi.org/10.2514/6.2025-4032.c1
 [research_ziglar_2026]: https://doi.org/10.1109/aero66936.2026.11519840
 [research_ziglar_elsperman_2026]: https://doi.org/10.1109/aero66936.2026.11519818
 [research_zimmerli_arkwright_2025]: https://doi.org/10.2514/6.2025-0121
-[research_zimmermann_winker_2018]: https://doi.org/10.1016/j.ijcip.2018.04.003
 [research_zimpfer_1999]: https://doi.org/10.2514/6.1999-4210
 [research_zinn_1972]: https://doi.org/10.2514/6.1972-1050
 [research_zinn_1973]: https://doi.org/10.2514/3.50616
 [research_zmijanovic_leger_2016]: https://doi.org/10.2514/1.b35721
-[research_zoll_1994]: https://doi.org/10.21236/ada286296
 [research_zolla_mendes_2025]: https://doi.org/10.2514/6.2025-2785
 [research_zolla_zavoli_2026]: https://doi.org/10.3390/aerospace13040374
 [research_zollfrank_friedrich_1989]: https://doi.org/10.1016/0032-3861(89)90110-9
 [research_zong_liu_2024]: https://doi.org/10.1088/1742-6596/2822/1/012139
 [research_zotov_pashkov_2022]: https://doi.org/10.1134/s0036029522100299
-[research_zou_2025]: https://doi.org/10.1109/aemcse65292.2025.11042619
 [research_zou_wang_2015]: https://doi.org/10.1177/1687814015606308
 [research_zubrin_clapp_1996]: https://doi.org/10.2514/6.1996-4605
 [research_zubrin_clapp_1997]: https://doi.org/10.2514/6.1997-3121

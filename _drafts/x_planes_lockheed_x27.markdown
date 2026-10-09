@@ -79,7 +79,7 @@ Take the stated question at face value and it names one thing that had never bee
 So the binding unknown is a single compound question.
 **Can a turbofan be fed at Mach 2.6 through an inlet descended from a Mach 2.0 turbojet installation, in an airframe built of aluminium alloy?**
 
-Three sections below answer the three halves of that, and two of the answers are negative.
+Three sections below answer the three parts of that, and two of the answers are negative.
 
 ### Why This Is the Right Keystone and Not the Obvious One
 
@@ -210,7 +210,7 @@ difference in physical envelope is not incidental.
 | Difference | +33.01 in | +9.84 in | +150 lb | +52.9 percent |
 
 **The fuselage was stretched 30 inches**, which the record attributes to a 46 percent increase in internal
-fuel. **The engine that had to go inside it is 33.01 inches longer than the one it replaced.** The article
+fuel. **The engine that had to go inside it is 33.01 inches longer than the J79-GE-17.** The comparison table uses the J79-GE-17 because those are the J79 dimensions the article holds, while the F-104G column above names the J79-GE-11A, so the differences are measured against a sister variant of the engine the F-104G carried and not against that engine itself. The article
 notes that the stretch is within three inches of the engine length difference and declines to claim which
 consideration drove it, because the record states only the fuel figure.
 
@@ -253,8 +253,8 @@ Above the tropopause it is constant, and the pressure falls exponentially.
 
 $$ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) $$
 
-The density follows from the equation of state rather than from the pressure directly, and the draft quotes
-it without showing where it comes from.
+The density follows from the equation of state rather than from the pressure directly, and an earlier version of this
+article quoted it without showing where it comes from.
 
 $$ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} $$
 
@@ -733,7 +733,9 @@ where the tabulations that made the integration usable before computers were pub
 - [Simple Formulae for Supersonic Flow past a Cone][research_hui_1975]
 - [A Numerical Method for Supersonic Conical Flow without Axial...][research_isugiyama_1976]
 - [A Numerical Method for Supersonic Conical Flow Without Axial...][research_sugiyama_1977]
-- [Supersonic Laminar Viscous Flow Past a Cone at Angle of...][research_agarwal_rakich_1982] The governing relation is the
+- [Supersonic Laminar Viscous Flow Past a Cone at Angle of...][research_agarwal_rakich_1982]
+
+The governing relation is the
 [Taylor-Maccoll equation][ref_taylor_maccoll], written here for the velocity components normalised by the
 maximum adiabatic velocity.
 
@@ -805,7 +807,7 @@ normal shock.
 
 $$ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} $$
 
-**The result that says how to divide the compression is [Oswatitsch's][ref_oswatitsch], and the draft named it without writing it down.**
+**The result that says how to divide the compression is [Oswatitsch's][ref_oswatitsch], and an earlier version of this article named it without writing it down.**
 For a given number of oblique shocks the recovery is greatest when they are of equal strength, meaning equal
 normal Mach components.
 
@@ -880,7 +882,6 @@ half of this subject and is equally large.
 - [Analysis of inlet flow distortion and turbulence effects on...][research_melickhcjr_1973]
 - [Development of Sonic Inlets for Turbofan Engines][research_klujber_1973]
 - [Distortion Data Analysis][research_moore_1973]
-- [Errata-Analytical Method for Combining the Interaction of...][research_panton_1973]
 - [Experimental Verification of a Technique for Testing...][research_palko_1973]
 - [Experimental evaluation of a TF30-P-3 turbofan engine in an...][research_braithwaitewm_1973]
 - [Some aspects of inlet/engine flow compatibility][research_williams_yost_1973]
@@ -1027,8 +1028,8 @@ $$ \Delta L = r\left(\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}\right) $$
 The shock-on-lip condition and the capture-area bookkeeping that follows it are set out in
 [Seddon and Goldsmith][book_seddon_goldsmith].
 
-**The record gives the travel and not the radius.** Four inches of movement is documented; the diameter of
-the Lancer's inlets is not. **So the relation is inverted**, which is the honest move when a parameter is
+**The record gives the travel and not the radius.** Four inches of movement is documented, but the diameter
+of the Lancer's inlets is not. **So the relation is inverted**, which is the honest move when a parameter is
 unknown, and it turns a quoted number into a checkable one.
 
 $$ r = \frac{\Delta L}{\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}} $$
@@ -1150,13 +1151,12 @@ with [John Boyd][ref_boyd] and [Thomas Christie][ref_christie], which asks not h
 but how much energy it can gain or hold while turning.
 
 The framework's primitive is energy height, the altitude an aircraft would reach if it traded all its speed
-for height without loss, and the draft named it without writing it. The treatment followed here is
+for height without loss, and an earlier version of this article named it without writing it. The treatment followed here is
 [Whitford][book_whitford], with the equations of motion behind it in
 [Stevens and Lewis][book_stevens_lewis].
 
-**This heading is thinner than any other in the article and the thinness is a finding.** Of the same 6,518
-records, seven carry energy height, energy state or minimum time to climb in their titles, and all seven are
-cited here. **The subject is not small. It is indexed elsewhere**, inside trajectory optimisation and inside
+**This heading is among the thinnest in the article and the thinness is a finding.** Of the research records
+the article cites, one carries energy height, energy state or minimum time to climb in its title. **The subject is not small. It is indexed elsewhere**, inside trajectory optimisation and inside
 the optimum-climb literature, and its foundational documents are Air Force internal reports that no journal
 indexed.
 
@@ -1178,8 +1178,8 @@ The central quantity is [specific excess power][ref_specific_excess_power],
 
 $$ P_s = \frac{dh_e}{dt} = V\,\frac{T - D}{W} $$
 
-**The thrust-to-weight ratio is the other term the comparison turns on**, and it is tabulated below without
-ever being written.
+**The thrust-to-weight ratio is the other term the comparison turns on**, and the table in What Changed From
+the F-104 gives it without writing it out.
 
 $$ \frac{T}{W} = \frac{25{,}000\ \mathrm{lbf}}{24{,}385\ \mathrm{lb}} = 1.025 $$
 
@@ -1331,7 +1331,6 @@ area rule underpins every line of that table.
 - [Force and Pressure Tests on a Semi-span Delta Wing at...][research_pfaff_1965]
 - [The Marvel Project. Part E. a Unique Solution to the Problem...][research_roberts_1965]
 - [A concept of the vortex lift of sharp-edge delta wings based...][research_polhamusec_1966]
-- [Errata "Hypersonic Flow over a Delta Wing of Moderate Aspect...][research_malmuth_1966_b]
 - [Hypersonic flow over a delta wing of moderate aspect ratio][research_malmuth_1966]
 - [Wind Tunnel Investigation of an Aspect Ratio 10 Tandem Wing...][research_harry_trobaugh_1966]
 - [Static aerodynamic characteristics of three ram-air-inflated...][research_burksmjr_waregm_1967]
@@ -1660,7 +1659,7 @@ follows from the manoeuvre requirement that the engine change made reachable.
 
 Treated at length above.
 **The summary is that the engine change is the largest single change in the aircraft and the one that drives most of the others.**
-It is 33.01 inches longer, 9.84 inches wider, and it swallows 52.9 percent more air. The fuselage stretch,
+Against the J79-GE-17 it is 33.01 inches longer, 9.84 inches wider, and it swallows 52.9 percent more air. The fuselage stretch,
 the redesigned centre and rear fuselage, the enlarged intakes and the translating cones all follow from it.
 
 - [Theoretical evaluation of the ducted-fan turbojet engine][research_parisenrichardb_armstrongjohnc_1948]
@@ -1777,9 +1776,9 @@ the redesigned centre and rear fuselage, the enlarged intakes and the translatin
 **An engine at high Mach spends a large part of its gross thrust cancelling the momentum of the air it swallowed.**
 Net thrust is the difference between what leaves and what arrived.
 
-**The literature under this heading is genuinely thin and the reason is worth stating.** Of 6,518 records
-harvested for this article, thirteen carry ram drag, momentum drag or installed performance in their titles,
-and nine of those are cited here. **The subject is not thin. The heading is.** Thrust and drag bookkeeping
+**The literature under this heading is genuinely thin and the reason is worth stating.** Of the research records
+the article cites, three carry ram drag, momentum drag or installed performance in their titles, all of them
+in the contemporary survey and none in the list under this heading. **The subject is not thin. The heading is.** Thrust and drag bookkeeping
 is settled inside the papers on inlet additive drag and spillage already cited above, because deciding what
 counts as inlet drag and what counts as lost thrust is the same accounting question.
 
@@ -1889,7 +1888,6 @@ relations below are mostly period work.
 - [Hovering Static Stability and Performance Experiments on...][research_carmichael_mcnay_1961]
 - [Investigation of Static Stability and Aerodynamic Effects of...][research_anderson_1961]
 - [Aerodynamic Processes in the Downwash-Impingement Problem][research_vidal_1962]
-- [Corrections and Comments on "Aerodynamic Processes in the...][research_vidal_1963]
 - [Static Stability Tests on a 0.098 Scale Standard Launch...][research_ziegler_1963]
 - [Downwash Impingement Design Criteria for VTOL Aircraft][research_george_perlmutter_1964]
 - [Comment on "The Neutral Point in Stability and Control...][research_roache_1965]
@@ -2054,9 +2052,10 @@ number while the strength curve falls steeply through the same range.
 ### Armament and Stores
 
 Nine stations, one on the fuselage centreline, three under each wing and one at each wingtip. The gun is the
-20 millimetre [M61][ref_m61] with 725 rounds, with a 30 millimetre [DEFA][ref_defa] offered as an
-alternative for customers already equipped for it. Up to 12,000 pounds of ordnance on short-range missions,
-a maximum of four [AIM-7][ref_aim7] or typically six and up to ten [AIM-9][ref_aim9].
+20 millimetre [M61][ref_m61] with 725 rounds, with a 30 millimetre [DEFA][ref_defa] cannon of the French Direction des Études et Fabrications
+d'Armement offered as an alternative for customers already equipped for it. Up to 12,000 pounds of ordnance on short-range missions,
+a maximum of four [AIM-7][ref_aim7] or typically six and up to ten [AIM-9][ref_aim9] air intercept
+missiles.
 
 **The wingtip stations are inherited thinking.** The F-104 carried tip tanks and tip-mounted missiles
 because it had almost no wing to hang anything under. On a wing half again as large the tip station is a
@@ -2100,7 +2099,7 @@ share a truth. The section is written to make the weakness explicit rather than 
 | Claim | Independent estimate | Verdict |
 |---|---|---|
 | 1,700 mph at 35,000 ft | Mach 2.563 by definition | Internally consistent |
-| Initial climb 60,000 ft/min | Best sea-level $P_s$ 48,585 ft/min | **Claim exceeds the estimate by 23.5 percent** |
+| Initial climb 60,000 ft/min | Best sea-level $P_s$ 49,332 ft/min | **Claim exceeds the estimate by 21.6 percent** |
 | Takeoff run 1,450 ft | 1,078 ft at $C_{L_{\max}}$ 1.2 | Claim is conservative |
 | Combat radius 367 nmi | 0.171 of still-air range | Consistent with practice |
 | Fuel increase 46 percent | Weights imply 29 to 33 percent | **Mild internal inconsistency** |
@@ -2239,7 +2238,7 @@ reserves, and an outbound leg flown with stores hung on it. The ratio runs about
 
 That sentence is the finding rather than an admission. Every other article in this series can point to a
 measurement that entered the literature.
-**This one cannot, and the reason is worth stating: the programme was cancelled at precisely the point where it would have begun producing evidence.**
+**This one cannot, and the reason is worth stating. The programme was cancelled at precisely the point where it would have begun producing evidence.**
 
 What the *programme* changed is a different question and the answer is small but not zero.
 
@@ -2365,7 +2364,7 @@ designation and the programme coming apart.
 
 **This article does not claim the designation system was abused.** The number was allocated for a proposed
 research aircraft with a stated research purpose, which is what the system is for.
-**The observation is narrower: by 1971 an X-designation could be allocated to an aeroplane whose primary purpose was commercial, and the allocation could precede any commitment to build it.**
+**The observation is narrower. By 1971 an X-designation could be allocated to an aeroplane whose primary purpose was commercial, and the allocation could precede any commitment to build it.**
 That is a fact about what the system had come to permit, and it belongs with the evidence the closing
 article of this series assembles.
 
@@ -2944,7 +2943,6 @@ aerospace alloys.
 
 - [Elevated temperature creep deformation of a single crystal...][research_jeffs_lancaster_2015]
 - [Aerodynamic Heating of a Hypersonic Projectile with...][research_yadav_guven_2015]
-- [Experimental and Numerical Heat Transfer Analyses of Exhaust...][research_dincer_sarioglu_2015]
 - [Creep behaviour characterisation of a ferritic steel alloy...][research_alipour_nejad_2016]
 - [Optimised Cockpit Heat Load Analysis using Skin Temperature...][research_gupta_rajput_2015]
 - [Cryogenic hardening and its effect on properties of an...][research_cryogenic_hardening_2016]
@@ -2966,7 +2964,6 @@ aerospace alloys.
 - [Disappearance of Strengthening Structure at Elevated...][research_shinozaki_suzuki_2017]
 - [Experimental Study on Aerodynamic Heating Induced by Dual...][research_taguchi_mori_2017]
 - [Effect of Temperature Field on Formation of Friction Stir...][research_yue_wen_2017]
-- [Increasing the heat transfer in intercooler of a two stage...][research_narendhiran_2017]
 - [Fatigue life of EN AW-2024 alloy accounting for creep...][research_tomczyk_seweryn_2017]
 - [Study of predicting aerodynamic heating for hypersonic...][research_liu_cao_2017]
 - [High Temperature Oxidation and Wear Behaviors of Ti V Cr...][research_mi_yao_2017]
@@ -3000,7 +2997,6 @@ aerospace alloys.
 - [Isothermal fatigue damage mechanisms at ambient and elevated...][research_wilson_saintier_2019]
 - [Shock-stable flux scheme for predicting aerodynamic heating...][research_qu_kong_2019]
 - [Multi-Scale Microstructure Regulation Technology of Near-α...][research_qiao_li_2019]
-- [Efficiency and effectiveness enhancement of an intercooler of...][research_chintala_s_2020]
 - [Analysis of Resistance of Clad Composite of Structural Steel...][research_sikora_2020]
 - [ILES of an array of three subsonic counter-flow jets issuing...][research_shimada_ohwada_2020]
 - [Degradation Mechanism of the Strength of a Grain Boundary of...][research_suzuki_suzuki_2020]
@@ -3057,7 +3053,6 @@ aerospace alloys.
 - [Numerical investigation on fatigue life of aluminum brazing...][research_ma_jia_2022]
 - [Thermal modal analysis of hypersonic composite wing on...][research_wang_wang_2024]
 - [Study on Tensile Fracture Behavior of New Type High...][research_fang_zhang_2022]
-- [Transient heat transfer and deformation characteristics of a...][research_zhang_huang_2024]
 - [A Study on the High-Temperature Molten Salt Corrosion...][research_wang_li_2023]
 - [A Control Method for Thermal Structural Tests of Hypersonic...][research_lu_zhang_2025]
 - [Composition and morphology of oxide films formed on PT-7M...][research_composition_and_2023]
@@ -3581,7 +3576,6 @@ have had to settle.
 - [Enhanced cruise range prediction for narrow-body turbofan...][research_atasoy_cetek_2020]
 - [Thrust Vectoring of a Supersonic Rectangular Nozzle by Using...][research_thrust_vectoring_2020]
 - [Underexpanded Supersonic Jets from Elliptical Nozzle with Aft...][research_nageswararao_kushari_2020]
-- [WITHDRAWN Effect of reacting gas on the fluidic thrust...][research_chouicha_sellam_2020]
 - [Estimation of aircraft turbofan engine exhaust emissions with...][research_akdeniz_2021]
 - [Evaluation of Injection Strategies in Supersonic Nozzle Flow][research_semlitsch_mihaescu_2021]
 - [Examination of parametric cycle analysis of a turbofan engine...][research_dislitas_albayrakceper_2021]
@@ -3667,7 +3661,6 @@ high Mach the structure's deformation changes the flow that is heating it.
 - [Multifidelity Data Fusion Method for Aerodynamic Heating...][research_duan_zhao_2026]
 - [Thermal stress analysis of PCM containers for temperature...][research_dalmagro_benasciutti_2016]
 - [Numerical analysis of thermal response and failure threshold...][research_he_zhang_2026]
-- [Analysis of thermal temperature fields and thermal stress...][research_lu_zhang_2017]
 - [Numerical investigation of aerodynamic heating by electron...][research_gao_he_2026]
 - [Exact solution of thermal buckling and post buckling of...][research_bayat_ekhteraeitoussi_2017]
 - [Investigations on the influences of elastic foundations on...][research_chai_song_2017]
@@ -3867,7 +3860,6 @@ consistency check a modern framework automates.
 - [Influence of the at "Winglets" Type on the Longitudinal...][research_malikov_miltsov_2019]
 - [Aerodynamic Performance Enhancement of Low Aspect Ratio...][research_anon_2024]
 - [Improved design of an active landing gear for a passenger...][research_zarchi_attaran_2018]
-- [Effects of downwash during unmanned aircraft system‐assisted...][research_miura_kohzu_2020]
 - [Bifurcation analysis of wing rock and routes to chaos of a...][research_jiang_li_2024]
 - [Nacelle Strake Design for Short Takeoff and Landing...][research_keller_hasan_2018]
 - [Low speed longitudinal aerodynamic, static stability and...][research_bykerk_verstraete_2020]
@@ -3980,7 +3972,7 @@ reports rather than resolves.
 **The physics comes from primary literature about everything except the vehicle.** Supersonic inlet design,
 conical flow, compressor stall, elevated-temperature alloy behaviour and fighter performance analysis are
 all richly documented in period reports and journals, and the article is built on those.
-**That is the methodological move this subject requires: harvest the physics rather than the vehicle.**
+**That is the methodological move this subject requires. Harvest the physics rather than the vehicle.**
 
 **The engine and airframe numbers are the load-bearing figures and they come from reference sources rather than from documents.**
 The 260 pounds per second, the four inches of spike travel, the 896 gallons and the weight breakdown are
@@ -3988,25 +3980,25 @@ each stated in secondary literature without a cited primary source.
 **The inlet agreement computed above is a check on their mutual consistency and is offered as partial corroboration of figures that are otherwise uncorroborated.**
 
 **Period coverage, and both figures are given because either alone misleads.** Of the research references
-cited, **876 date from 1982 or earlier and 1,413 from 2015 or later**, and 1,143 are primary in the sense of
+cited, **873 date from 1982 or earlier and 1,406 from 2015 or later**, and 1,140 are primary in the sense of
 an original report or a paper contemporary with the work.
 
 | | Count | Fraction of cited research |
 |---|---|---|
-| Primary | 1,143 | 45.1 percent |
-| Period, through 1982 | 876 | 34.6 percent |
-| Contemporary, 2015 onward | 1,413 | 55.7 percent |
+| Primary | 1,140 | 45.1 percent |
+| Period, through 1982 | 873 | 34.6 percent |
+| Contemporary, 2015 onward | 1,406 | 55.7 percent |
 
-**Read those fractions without the counts and this article looks as though it lost most of its period base. It lost none of it.**
-The period count was 912 before the contemporary survey was written and 912 after it, and is 876 after the 7 October rebuild.
-**The primary count rose, from 1,176 to 1,188, and is 1,143 after the 7 October rebuild.** Both fractions fell only because the denominator grew by
+**Read those fractions without the counts and this article looks as though it lost most of its period base. It lost none of it to the contemporary survey.**
+The period count was 912 before the contemporary survey was written and 912 after it, and is 876 after the 7 October rebuild, which refused 36 period records as homonym admissions, and 873 after the 8 October removal of three period errata and correction notices.
+**The primary count rose, from 1,176 to 1,188, and was 1,143 after the 7 October rebuild and is 1,140 after the 8 October removal of non-work records.** Both fractions fell only because the denominator grew by
 more than a thousand contemporary references, which is the survey directive working rather than a
 regression.
 
 **The same trap runs in the other direction and this article has now been caught by both ends of it.** At
 the reference pass the contemporary count sat unchanged while its fraction fell, because the period base was
-growing. At this pass the period count sits unchanged while its fraction falls, because the contemporary
-base is growing. **Neither movement is a fact about coverage. Both are facts about the denominator**, which
+growing. At the contemporary-survey pass the period count sat unchanged while its fraction fell, because the
+contemporary base was growing. **Neither movement is a fact about coverage. Both are facts about the denominator**, which
 is why every figure in this article is given as a count and a fraction together.
 
 **The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
@@ -4022,13 +4014,22 @@ research total fell from 2,700 to 2,535. The clusters most changed were the agil
 the distortion cluster, from 214 to 190, the hot-structures cluster, from 262 to 240, and the procurement
 list under What the Data Changed, from 112 to 92. A seeded sample of 300 records that neither automatic
 screen had flagged held 13 of the refused records, which puts the contamination those screens missed near
-4.3 percent. Because every title was read rather than only the sample, what remains is a short list of
-doubtful records kept, such as creep studies of power-plant steels.
+4.3 percent. Because every title was read rather than only the sample, that reading judged what remained to be a short list of
+doubtful records kept, such as creep studies of power-plant steels. A second seeded sample of 300 records
+that no earlier sample had drawn, read on 8 October 2026, found 2 off topic, an intercooler for a two-stage
+air compressor and a study of the water mass beneath a drone taking water samples, so that reading had missed
+at least these. Both were removed with 4 more of their kind, another compressor intercooler, two reciprocating
+compressor studies and a diesel engine piston, and the research total fell from 2,535 to 2,529. The
+hot-structures cluster fell from 240 to 236. The second sample measures the contamination remaining before its
+own sweep at 2 records in 300, or 0.7 percent. That sample drove the sweep that followed it, so it does not
+measure what remains after the sweep. On 8 October 2026 four more records were removed under the rule that a survey counts research works and not notices attached to them, three errata or correction notices and one withdrawal notice, and the research total fell from 2,529 to 2,525.
 
 **The rebuild moves the period table above in the direction this section has already described.** It removed
 36 period records, every one of them a homonym admission such as the procurement of medical officers, so the
 period count fell from 912 to 876 while its fraction rose from 33.8 to 34.6 percent, and the primary fraction
-rose from 44.0 to 45.1 percent on the same smaller denominator.
+rose from 44.0 to 45.1 percent on the same smaller denominator. The second sample removed only records from 2015
+or later, so the period and primary counts stood at 876 and 1,143 while the contemporary count fell from 1,413
+to 1,407 and the primary fraction rose to 45.2 percent. The removal of the four non-work records then took the period, primary and contemporary counts to 873, 1,140 and 1,406, and the primary fraction to 45.1 percent.
 
 ## Epistemic State
 
@@ -4714,14 +4715,12 @@ broke, namely an aircraft that existed and flew.
 - [Chima, Rodrick V. et al 2011][research_chimarodrickv_hirtstefaniem_2011]
 - [Chin 1977][research_chin_1977]
 - [Chin 1978][research_chin_1978]
-- [Chintala et al 2020][research_chintala_s_2020]
 - [Chippa 2010][research_chippa_2010]
 - [Choe et al 2020][research_choe_kim_2020]
 - [Choi 2024][research_choi_2024]
 - [Choi 2026][research_choi_2026]
 - [Choi et al 2026][research_choi_choi_2026]
 - [Chou and Smith 1974][research_chou_smith_1974]
-- [Chouicha et al 2020][research_chouicha_sellam_2020]
 - [Christian Psenica et al 2026][research_christianpsenica_leanfang_2026]
 - [Chun and Burr 1969][research_chun_burr_1969]
 - [Ciepluch, Carl C. 1948][research_ciepluchcarlc_1948]
@@ -4867,7 +4866,6 @@ broke, namely an aircraft that existed and flew.
 - [Diekmann 2019][research_diekmann_2019]
 - [Dieter Reich and Josef Wimbauer 1975][research_dieterreich_josefwimbauer_1975]
 - [Diggins 1951][research_diggins_1951]
-- [Dincer et al 2015][research_dincer_sarioglu_2015]
 - [Ding 2023][research_ding_2023]
 - [Ding et al 2015][research_ding_shen_2015]
 - [Ding et al 2020][research_ding_wang_2020]
@@ -5662,7 +5660,6 @@ broke, namely an aircraft that existed and flew.
 - [Lovell, J Calvin and Wilson, Herbert A JR 1947][research_lovelljcalvin_wilsonherbertajr_1947]
 - [Lowe 1967][research_lowe_1967]
 - [Lowe 2020][research_lowe_2020]
-- [Lu et al 2017][research_lu_zhang_2017]
 - [Lu et al 2019][research_lu_yang_2019]
 - [Lu et al 2025][research_lu_li_2025]
 - [Lu et al 2025][research_lu_wang_2025]
@@ -5718,7 +5715,6 @@ broke, namely an aircraft that existed and flew.
 - [Malikov and Miltsov 2019][research_malikov_miltsov_2019]
 - [Mallik et al 2015][research_mallik_kapania_2015]
 - [Malmuth 1966][research_malmuth_1966]
-- [Malmuth 1966][research_malmuth_1966_b]
 - [Malone, Michael B. and Peavey, Charles C. 1999][research_malonemichaelb_peaveycharlesc_1999]
 - [Malvi and Roy 2021][research_malvi_roy_2021]
 - [Mamonova et al 2019][research_mamonova_soudakov_2019]
@@ -5811,7 +5807,6 @@ broke, namely an aircraft that existed and flew.
 - [Minnicino et al 2009][research_minnicino_gray_2009]
 - [Mirzaei and Kiani 2015][research_mirzaei_kiani_2015]
 - [Mitsuyasu 1956][research_mitsuyasu_1956]
-- [Miura and Kohzu 2020][research_miura_kohzu_2020]
 - [Miura et al 2021][research_miura_yamashita_2021]
 - [Miyashita et al 2025][research_miyashita_sugihara_2025]
 - [Mizobata et al 2024][research_mizobata_mio_2024]
@@ -5865,7 +5860,6 @@ broke, namely an aircraft that existed and flew.
 - [Nagler 2026][research_nagler_2026]
 - [Nam and Mavris 2018][research_nam_mavris_2018]
 - [Narayan 1975][research_narayan_1975]
-- [Narendhiran 2017][research_narendhiran_2017]
 - [Naruse et al 2022][research_naruse_ishii_2022]
 - [Naseri et al 2016][research_naseri_boroomand_2016]
 - [Naval Proving Ground Dahlgren Va 1945][research_navalprovinggrounddahlgrenva_1945]
@@ -5949,7 +5943,6 @@ broke, namely an aircraft that existed and flew.
 - [Panov and Shvets 1967][research_panov_shvets_1967]
 - [Panov et al 1966][research_panov_shvets_1966]
 - [Panton 1972][research_panton_1972]
-- [Panton 1973][research_panton_1973]
 - [Panzeri et al 2018][research_panzeri_savelyev_2018]
 - [Pao and Banerjee 1978][research_pao_banerjee_1978]
 - [Papadales and Basil S. 1979][research_papadales_basils_1979]
@@ -6518,7 +6511,6 @@ broke, namely an aircraft that existed and flew.
 - [Verma et al 2020][research_verma_singh_2020]
 - [Victor Antonio and Yan 2023][research_victorantonio_yan_2023]
 - [Vidal 1962][research_vidal_1962]
-- [Vidal 1963][research_vidal_1963]
 - [Vieira et al 2020][research_vieira_koch_2020]
 - [Vijayakumar et al 2015][research_vijayakumar_senthilvelan_2015]
 - [Vinogradov et al 2017][research_vinogradov_makarov_2017]
@@ -6811,7 +6803,6 @@ broke, namely an aircraft that existed and flew.
 - [Zhang et al 2024][research_zhang_an_2024]
 - [Zhang et al 2024][research_zhang_chen_2024]
 - [Zhang et al 2024][research_zhang_dong_2024]
-- [Zhang et al 2024][research_zhang_huang_2024]
 - [Zhang et al 2024][research_zhang_liu_2024]
 - [Zhang et al 2024][research_zhang_wang_2024]
 - [Zhang et al 2024][research_zhang_zhang_2024]
@@ -7250,14 +7241,12 @@ broke, namely an aircraft that existed and flew.
 [research_chimarodrickv_hirtstefaniem_2011]: https://ntrs.nasa.gov/citations/20110023762
 [research_chin_1977]: https://doi.org/10.2514/3.60721
 [research_chin_1978]: https://doi.org/10.2514/3.7537
-[research_chintala_s_2020]: https://doi.org/10.1002/htj.21735
 [research_chippa_2010]: https://doi.org/10.21236/ada517278
 [research_choe_kim_2020]: https://doi.org/10.2514/1.b37474
 [research_choi_2024]: https://doi.org/10.1007/s12206-024-0533-y
 [research_choi_2026]: https://doi.org/10.2139/ssrn.6742239
 [research_choi_choi_2026]: https://doi.org/10.1016/j.ast.2026.113190
 [research_chou_smith_1974]: https://doi.org/10.21236/ada001135
-[research_chouicha_sellam_2020]: https://doi.org/10.1016/j.jppr.2020.04.002
 [research_christianpsenica_leanfang_2026]: https://ntrs.nasa.gov/citations/20260000381
 [research_chun_burr_1969]: https://doi.org/10.2514/3.44056
 [research_ciepluchcarlc_1948]: https://ntrs.nasa.gov/citations/20050040787
@@ -7404,7 +7393,6 @@ broke, namely an aircraft that existed and flew.
 [research_dieterreich_josefwimbauer_1975]: https://ntrs.nasa.gov/citations/19750013149
 [research_diggins_1951]: https://doi.org/10.21236/ad0895227
 [research_dimarco_jacob_2023]: https://doi.org/10.1016/j.ast.2023.108333
-[research_dincer_sarioglu_2015]: https://doi.org/10.7763/ijmmm.2015.v3.157
 [research_ding_2023]: https://doi.org/10.1088/1742-6596/2457/1/012003
 [research_ding_chen_2024]: https://doi.org/10.1016/j.ast.2024.109505
 [research_ding_shen_2015]: https://doi.org/10.1017/s0001924000010721
@@ -8203,7 +8191,6 @@ broke, namely an aircraft that existed and flew.
 [research_lu_li_2025]: https://doi.org/10.1063/5.0288892
 [research_lu_wang_2025]: https://doi.org/10.1177/09576509251317280
 [research_lu_yang_2019]: https://doi.org/10.1016/j.ast.2019.06.015
-[research_lu_zhang_2017]: https://doi.org/10.1016/j.applthermaleng.2016.11.070
 [research_lu_zhang_2025]: https://doi.org/10.3390/math13030380
 [research_lucas_1978]: https://doi.org/10.21236/adb028240
 [research_luce_jr_1949]: https://doi.org/10.21236/ada278113
@@ -8255,7 +8242,6 @@ broke, namely an aircraft that existed and flew.
 [research_malikov_miltsov_2019]: https://doi.org/10.18372/2310-5461.40.13278
 [research_mallik_kapania_2015]: https://doi.org/10.2514/1.c033096
 [research_malmuth_1966]: https://doi.org/10.2514/3.3483
-[research_malmuth_1966_b]: https://doi.org/10.2514/3.55271
 [research_malonemichaelb_peaveycharlesc_1999]: https://ntrs.nasa.gov/citations/20000044629
 [research_malvi_roy_2021]: https://doi.org/10.1007/s11666-021-01189-9
 [research_mamonova_soudakov_2019]: https://doi.org/10.1088/1742-6596/1268/1/012067
@@ -8352,7 +8338,6 @@ broke, namely an aircraft that existed and flew.
 [research_mintint_2018]: https://doi.org/10.47119/ijrp10020112019484
 [research_mirzaei_kiani_2015]: https://doi.org/10.1016/j.ast.2015.09.011
 [research_mitsuyasu_1956]: https://doi.org/10.2322/jjsass1953.4.131
-[research_miura_kohzu_2020]: https://doi.org/10.1002/lom3.10367
 [research_miura_yamashita_2021]: https://doi.org/10.1115/1.4050439
 [research_miyashita_sugihara_2025]: https://doi.org/10.1063/5.0250348
 [research_mizobata_mio_2024]: https://doi.org/10.3390/aerospace11090777
@@ -8402,7 +8387,6 @@ broke, namely an aircraft that existed and flew.
 [research_nagler_2026]: https://doi.org/10.1177/15485129261459679
 [research_nam_mavris_2018]: https://doi.org/10.2514/1.c032099
 [research_narayan_1975]: https://doi.org/10.1017/s0001925900007332
-[research_narendhiran_2017]: https://doi.org/10.26808/rs.ed.i7v6.10
 [research_naruse_ishii_2022]: https://doi.org/10.1299/transjsme.21-00357
 [research_naseri_boroomand_2016]: https://doi.org/10.1007/s11630-016-0891-6
 [research_navalprovinggrounddahlgrenva_1945]: https://doi.org/10.21236/ad0310024
@@ -8486,7 +8470,6 @@ broke, namely an aircraft that existed and flew.
 [research_panov_shvets_1966]: https://doi.org/10.1007/bf01022287
 [research_panov_shvets_1967]: https://doi.org/10.1007/bf01015152
 [research_panton_1972]: https://doi.org/10.2514/3.59052
-[research_panton_1973]: https://doi.org/10.2514/3.60212
 [research_panzeri_savelyev_2018]: https://doi.org/10.1016/j.trpro.2018.02.026
 [research_pao_banerjee_1978]: https://doi.org/10.1080/01495737808926934
 [research_papadales_basils_1979]: https://doi.org/10.21236/ada073100
@@ -9060,7 +9043,6 @@ broke, namely an aircraft that existed and flew.
 [research_verma_singh_2020]: https://doi.org/10.1177/0954410020909190
 [research_victorantonio_yan_2023]: https://doi.org/10.3844/jastsp.2023.8.16
 [research_vidal_1962]: https://doi.org/10.2514/8.9698
-[research_vidal_1963]: https://doi.org/10.2514/3.54857
 [research_vieira_koch_2020]: https://doi.org/10.2514/1.c035847
 [research_vijayakumar_senthilvelan_2015]: https://doi.org/10.4028/www.scientific.net/amm.813-814.252
 [research_vinogradov_makarov_2017]: https://doi.org/10.1615/tsagiscij.2017022808
@@ -9332,7 +9314,6 @@ broke, namely an aircraft that existed and flew.
 [research_zhang_dong_2024]: https://doi.org/10.1109/access.2024.3510723
 [research_zhang_du_2021]: https://doi.org/10.1016/j.cja.2020.08.019
 [research_zhang_hou_2015]: https://doi.org/10.1177/0954406215623978
-[research_zhang_huang_2024]: https://doi.org/10.1016/j.applthermaleng.2024.123083
 [research_zhang_ji_2025]: https://doi.org/10.1016/j.ast.2025.110315
 [research_zhang_li_2020]: https://doi.org/10.1088/1742-6596/1600/1/012036
 [research_zhang_li_2021]: https://doi.org/10.1007/s11630-021-1489-1

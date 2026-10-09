@@ -973,7 +973,6 @@ trade between length, weight and cooling area.
 - [Airframe Aerodynamic Noise- Total Radiated Acoustic Power...][research_shaw_1978]
 - [Airframe-integrated propulsion system for hypersonic cruise...][research_jonesra_huberpw_1978]
 - [Engine/Airframe/Drive Train Dynamic Interface Documentation][research_bowes_1978]
-- [Errata-Integrated Scramjet Installation Effect on the...][research_johnston_pittman_1978]
 - [Integrated Scramjet Installation Effect on the Subsonic...][research_johnston_pittman_1978_b]
 - [Review of Engine/Airframe/Drive Train Dynamic Interface...][research_twomey_ham_1978]
 - [Study of hypersonic propulsion/airframe integration technology][research_hartillwr_goebeltp_1978]
@@ -1570,7 +1569,6 @@ trajectory that strays high loses the air it needs, and one that strays low melt
 - [Control of hypersonic aerodynamic forces with surface blowing][research_matarrese_messiter_1991]
 - [Supersonic/hypersonic aerodynamic methods for aircraft design...][research_torresabelo_1992]
 - [Book Review Computational Methods in Hypersonic Aerodynamics][research_candler_1993]
-- [Errata Review of Computational Methods in Hypersonic...][research_candler_1993_b]
 - [Russian Aerospace Literature This month Hypersonic...][research_russian_aerospace_1996]
 - [Aerodynamic Characteristics Evaluation of Hypersonic Flight...][research_watanabe_ishimoto_1997]
 - [Investigation of Combined Low-Angled Jets and Variable Wall...][research_bowersox_fan_2000]
@@ -1598,7 +1596,6 @@ trajectory that strays high loses the air it needs, and one that strays low melt
 - [Influence of the unit Reynolds number on transition in a...][research_kharitonov_chernykh_1974]
 - [Correlation of transition Reynolds number with aerodynamic...][research_dougherty_1975]
 - [Development of a High Reynolds Number Quiet Tunnel for...][research_beckwith_1975]
-- [Errata-Low Reynolds Number Effect on Hypersonic Lifting...][research_adams_1975_b]
 - [Low Reynolds number effect on hypersonic lifting body...][research_adams_1975]
 - [Influence of tangential injection on heat transfer to a cone...][research_vasilev_petrov_1977]
 - [Vibrational nonequilibrium stagnation shock layers at...][research_schubert_1978]
@@ -3720,7 +3717,6 @@ leaving the physics exactly where it was.
 - [Modular, Fast Model for Design and Optimization of Hypersonic...][research_mogavero_brown_2018]
 - [Numerical analysis and design optimization of supersonic...][research_candon_ogawa_2018]
 - [Preliminary Kinetic Characterization of Lithium Aluminum...][research_boiocchi_galfetti_2018]
-- [Correction to Thermofluidic compression effects to achieve...][research_moura_wheatley_2019]
 - [Development of a Skeletal Mechanism for Aviation Kerosene...][research_zhong_peng_2019]
 - [Effects of endothermic hydrocarbon fuel composition on the...][research_sun_li_2019]
 - [Experimental Hypersonic Scramjet Sets Thrust Record][research_experimental_hypersonic_2019]
@@ -3856,7 +3852,7 @@ contemporary sources that had been harvested and left unused.
 **The publication pass then did the reverse.** The period count sits essentially unchanged at 1,103 while
 its fraction falls, because a further thousand contemporary sources arrived underneath it.
 
-**Nothing was removed in either pass**, and every one of the 2,738 records that remain after the 7 October 2026 rebuild is now cited.
+**Nothing was removed in either pass**, and every one of the 2,734 records that remain after the 7 October 2026 rebuild and the 8 October 2026 removal of four notices is now cited.
 
 ### What the Primary Pass Was Aimed At
 
@@ -3891,29 +3887,33 @@ thrown it away.
 
 **One subject stays genuinely thin and is reported rather than padded.** Mass capture and capture area
 returns two records from five targeted queries, because the quantity is discussed **inside** the inlet
-literature, which this article cites 268 times, rather than under a heading of its own.
+literature, to which 281 of this article's research records belong by the plain test of carrying the word
+inlet or intake in their titles, rather than under a heading of its own.
 
 **And one homonym was found that was not predicted.** The energy-to-orbit vocabulary collides with
 **oceanographic and meteorological energy budgets**, and eleven of the sixteen matching records were
 internal waves in the South China Sea, stratospheric budgets and surface energy balance. The anchor gate
-rejected every one, which is the gate working.
+was written to reject that homonym, but the only surface phrase among its patterns was surface energy
+budget, so three studies titled The Energy Budget at the Earth's Surface passed it and stayed in the survey
+until the 7 October 2026 rebuild refused them.
 
 **Period coverage, with counts alongside fractions because either alone misleads.**
 
 | | Count | Fraction of cited research |
 |---|---|---|
-| Period, through 1999 | 984 | |
-| Contemporary, 2015 onward | 1,605 | |
+| Period, through 1999 | 981 | 35.9 percent |
+| Contemporary, 2015 onward | 1,604 | 58.7 percent |
 
 **The survey was refiltered on 7 October 2026, after the counts first published with this article.** A
 title-by-title reading of all 3,062 research records refused 324 that share a word with the subject and
-nothing else. The largest groups were 36 papers on road vehicles, railways and bridges, 32 on the inlets of
-mass spectrometers and chromatographs, 29 on electric power generation, 25 on civil hydrogen aviation, fuel
-cells and sustainable fuel, 22 on nuclear reactors, 21 on electronics, 18 on ships and underwater vehicles,
-17 on piston engines, 13 on civil engineering cooling towers and seven on coastal tidal inlets, with smaller
-numbers from medicine, finance, fire science and geophysics. **Three of the refused records were studies of
-the energy budget at the Earth's surface**, the homonym the anchor gate is said above to have rejected in
-full, so that gate was less complete than the earlier paragraph records.
+nothing else. Grouped by a keyword match on the reason recorded against each refused record, the largest
+groups were 34 papers on road vehicles, railways and bridges, 32 on the inlets of mass spectrometers and
+chromatographs, 26 on civil hydrogen aviation, fuel cells and sustainable fuel, 20 on nuclear reactors, 17
+each on electric power generation, on ships and underwater vehicles and on piston engines, 13 on civil
+engineering cooling towers, 11 on electronics and seven on coastal tidal inlets, and the remaining 130 were
+of many other kinds, among them medicine, finance, fire science and geophysics. **Three of the refused
+records were studies of the energy budget at the Earth's surface**, the three the anchor gate had failed to
+catch.
 **The research base falls from 3,062 to 2,738 records**, the period count from 1,103 to 984 and the
 contemporary count from 1,784 to 1,605, while report-server records number 688, or 25.1 percent, and the
 median publication year stays at 2017. The clusters most changed are Why Unstart Cannot Be Undone at Speed,
@@ -3921,8 +3921,11 @@ from 273 to 218, Combined cycles and the reusable launch question, from 251 to 2
 moved on, from 247 to 215, and Why Milliseconds Are Not Enough, from 108 to 77. A reading of 300 records the
 screens had not flagged found 31 off topic, or 10.3 percent, and all 31 are among those refused. Because
 every title was then read rather than sampled, what remains is the doubtful kind kept on the rule that doubt
-keeps, such as general reviews of hydrogen as an aviation fuel, and a count kept during the reading puts it
-near one hundred records, or under 4 percent.
+keeps, such as general reviews of hydrogen as an aviation fuel. Those doubtful records were not listed as
+they were read, so their number is not stated here. **No second sample could be drawn on 8 October 2026**,
+because that reading had already covered every one of the 2,738 remaining titles. No sample therefore
+measures the contamination that remains, and the 10.3 percent of the first sample measured the base before
+the refusals rather than after them. **Four more records were removed on 8 October 2026**, three errata notices and one correction notice, on the rule that a notice correcting a work, or announcing its retraction or withdrawal, is a part of that work rather than a research work of its own, which leaves 2,734 records, a period count of 981, a contemporary count of 1,604 and 688 report-server records, or 25.2 percent, with the median publication year still 2017.
 
 ## Epistemic State
 
@@ -4024,7 +4027,7 @@ uncertainty.
 **The materials worked, the computational methods advanced, and the people trained on the programme went on to fly scramjets on cheaper vehicles.**
 A programme can succeed at every subsystem and fail, and this one did.
 
-**The X-30 is the second designation in two articles to go to an aircraft that was never built, and the two failures are opposites.**
+**The X-30 is the second designation in four articles to go to an aircraft that was never built, after the X-27, and the two failures are opposites.**
 The X-27 was not built because nobody bought it.
 **The X-30 was not built because the thing it was meant to prove could not be shown to be provable in advance.**
 
@@ -4189,7 +4192,6 @@ available.
 - [Acharya 2025][research_acharya_2025]
 - [Adam Khan 2024][research_adamkhan_2024]
 - [Adams 1975][research_adams_1975]
-- [Adams 1975][research_adams_1975_b]
 - [Adams and Probstein 1958][research_adams_probstein_1958]
 - [Adams, J. C., Jr. et al 1976][research_adamsjcjr_martindalewr_1976]
 - [Adams, J. C., Jr. et al 1984][research_adamsjcjr_martindalewr_1984]
@@ -4435,7 +4437,6 @@ available.
 - [Camarda, Charles J. and Murrow, Harold N. 1990][research_camardacharlesj_murrowharoldn_1990]
 - [Campbell, Charles H. et al 2010][research_campbellcharlesh_kingrudolpha_2010]
 - [Candler 1993][research_candler_1993]
-- [Candler 1993][research_candler_1993_b]
 - [Candler and Leyva 2022][research_candler_leyva_2022]
 - [Candon and Ogawa 2018][research_candon_ogawa_2018]
 - [Cantu, Luca M. L. et al 2015][research_cantulucaml_galloemanuelaca_2015]
@@ -5163,7 +5164,6 @@ available.
 - [Johnson, Theodore F. et al 1998][research_johnsontheodoref_natividadroderick_1998]
 - [Johnson, Theodore F. et al 2005][research_johnsontheodoref_natividadroderick_2005]
 - [Johnston et al 1971][research_johnston_cubbage_1971]
-- [Johnston et al 1978][research_johnston_pittman_1978]
 - [Johnston et al 1978][research_johnston_pittman_1978_b]
 - [Johnston, Patrick J. et al 1987][research_johnstonpatrickj_whiteheadallenhjr_1987]
 - [Jones 2011][research_jones_2011]
@@ -5710,7 +5710,6 @@ available.
 - [Morris, S. J., Jr. et al 1976][research_morrissjjr_nelmswpjr_1976]
 - [Moses, P. L. et al 1999][research_mosespl_bouchardka_1999]
 - [Moss, James N. et al 1987][research_mossjamesn_simmondsannl_1987]
-- [Moura et al 2019][research_moura_wheatley_2019]
 - [Mueller 1985][research_mueller_1985]
 - [Mukundan et al 2022][research_mukundan_maity_2022]
 - [Munk et al 2016][research_munk_vio_2016]
@@ -6927,7 +6926,6 @@ available.
 [research_acharya_2025]: https://doi.org/10.3390/aerospace12060503
 [research_adamkhan_2024]: https://doi.org/10.1007/s11085-024-10239-w
 [research_adams_1975]: https://doi.org/10.2514/3.27820
-[research_adams_1975_b]: https://doi.org/10.2514/3.56999
 [research_adams_probstein_1958]: https://doi.org/10.2514/8.7237
 [research_adamsjcjr_martindalewr_1976]: https://ntrs.nasa.gov/citations/19760054044
 [research_adamsjcjr_martindalewr_1984]: https://ntrs.nasa.gov/citations/19840035307
@@ -7173,7 +7171,6 @@ available.
 [research_camardacharlesj_murrowharoldn_1990]: https://ntrs.nasa.gov/citations/19910035185
 [research_campbellcharlesh_kingrudolpha_2010]: https://ntrs.nasa.gov/citations/20100003360
 [research_candler_1993]: https://doi.org/10.2514/3.59985
-[research_candler_1993_b]: https://doi.org/10.2514/3.49026
 [research_candler_leyva_2022]: https://doi.org/10.1080/08929882.2022.2145777
 [research_candon_ogawa_2018]: https://doi.org/10.1016/j.actaastro.2018.04.012
 [research_cantulucaml_galloemanuelaca_2015]: https://ntrs.nasa.gov/citations/20160005909
@@ -7902,7 +7899,6 @@ available.
 [research_johnsontheodoref_natividadroderick_1998]: https://ntrs.nasa.gov/citations/19980107885
 [research_johnsontheodoref_natividadroderick_2005]: https://ntrs.nasa.gov/citations/20050217094
 [research_johnston_cubbage_1971]: https://doi.org/10.2514/3.59129
-[research_johnston_pittman_1978]: https://doi.org/10.2514/3.58421
 [research_johnston_pittman_1978_b]: https://doi.org/10.2514/3.58365
 [research_johnstonpatrickj_whiteheadallenhjr_1987]: https://ntrs.nasa.gov/citations/19880023141
 [research_jones_2011]: https://doi.org/10.21236/ada552062
@@ -8450,7 +8446,6 @@ available.
 [research_morrissjjr_nelmswpjr_1976]: https://ntrs.nasa.gov/citations/19770009073
 [research_mosespl_bouchardka_1999]: https://ntrs.nasa.gov/citations/19990115467
 [research_mossjamesn_simmondsannl_1987]: https://ntrs.nasa.gov/citations/19870035337
-[research_moura_wheatley_2019]: https://doi.org/10.1007/s00193-019-00908-0
 [research_mueller_1985]: https://doi.org/10.2514/3.45199
 [research_mukundan_maity_2022]: https://doi.org/10.1016/j.ifacol.2023.03.007
 [research_munk_vio_2016]: https://doi.org/10.4028/www.scientific.net/amm.846.494

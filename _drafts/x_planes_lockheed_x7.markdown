@@ -135,11 +135,11 @@ $$\Delta V_{\text{drag}} \approx \frac{D}{m} t_b = \frac{8.5 \times 10^{3}}{3600
 
 **Nine metres per second out of 575.** The estimate stands.
 
-taking the vehicle to
+The increment takes the vehicle to
 
 $$M_{\text{burnout}} = \frac{134 + 575}{299.5} = 2.37$$
 
-**The booster is sized to deliver exactly the Mach number at which the ramjet becomes worth having**, which is the cleanest possible statement of what a booster is for. The NACA had flown the same architecture on a smaller scale by 1953, and [Disher et al 1953][research_disher_1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch ramjet, which is the X-7's operating concept in miniature and the closest thing in the open literature to a direct antecedent. The engine cycle behind it is charted in [Karp 1947][research_karp_1947] for the turbojet case and summarized for the ramjet by [Cervenko and Friedman 1956][research_cervenko_1956]. Gravity and drag losses reduce this somewhat and the real burnout Mach number is nearer 2, which is still above the threshold.
+**The booster is sized to deliver exactly the Mach number at which the ramjet becomes worth having**, which is the cleanest possible statement of what a booster is for. The NACA had flown the same architecture on a smaller scale by 1953, and [Disher et al 1953][research_disher_1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch ramjet, which is the X-7's operating concept in miniature and the closest thing in the open literature to a direct antecedent. The engine cycle behind it is charted in [Karp 1947][research_karp_1947] for the turbojet case and summarized for the ramjet by [Cervenko and Friedman 1956][research_cervenko_1956]. The drag loss computed above takes about nine metres per second from the increment, which leaves the burnout Mach number near 2.34 and still above the threshold.
 
 The price is an acceleration no crewed vehicle could accept,
 
@@ -149,7 +149,7 @@ rising as propellant burns away to about 16 g at burnout. **A pilot would be unc
 
 $$a = \frac{I}{m \, t_b}$$
 
-so the only way to reduce the acceleration is to burn longer, which means carrying the booster further and losing more of the impulse to drag. **A crewed version of this vehicle would need a booster burning four times as long for a quarter of the acceleration, and would arrive slower for having carried it.** The tolerable limit for a seated and restrained pilot is of order 6 g sustained, which sets
+so the only way to reduce the acceleration is to burn longer, which means carrying the booster further and losing more of the impulse to drag. **A crewed version of this vehicle would need a booster burning more than twice as long for less than half the acceleration, and would arrive slower for having carried it.** The tolerable limit for a seated and restrained pilot is of order 6 g sustained, which sets
 
 $$t_{b,\min} = \frac{I}{m \, a_{\max}} = \frac{1.87 \times 10^{6}}{3600 \times 58.8} = 8.8 \ \text{seconds}$$
 
@@ -167,7 +167,7 @@ Evaluating,
 
 $$\frac{p_{t2}}{p_{t1}}(M = 2) = 0.72, \qquad \frac{p_{t2}}{p_{t1}}(M = 3) = 0.33, \qquad \frac{p_{t2}}{p_{t1}}(M = 4.31) = 0.107$$
 
-**A normal shock at Mach 4.31 destroys ninety percent of the total pressure the flight condition supplied.** The ram compression derived above is 228 to one at that Mach number, and a single normal shock throws away all but a tenth of it, leaving less than the vehicle would have had at Mach 2. An engine so arranged does not merely perform poorly. It stops being an engine.
+**A normal shock at Mach 4.31 destroys ninety percent of the total pressure the flight condition supplied.** The ram compression derived above is 228 to one at that Mach number, and a single normal shock throws away all but a tenth of it, leaving about 24 to one. An engine so arranged does not merely perform poorly. It stops being an engine.
 
 The remedy is to decelerate through a sequence of weaker oblique shocks before the terminal normal shock, and a cone projecting ahead of the cowl produces exactly that. An [oblique shock][ref_oblique_shock] behaves as a normal shock to the velocity component perpendicular to it,
 
@@ -207,7 +207,7 @@ Stagnation temperature rises with the square of Mach number and it does not care
 
 At 32 kilometres the ambient temperature is about 229 kelvin, so at Mach 4.31
 
-$$T_t = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) = 229 \times 4.72 = 1078 \ \text{kelvin}$$
+$$T_t = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) = 228.7 \times 4.715 = 1078 \ \text{kelvin}$$
 
 That is the temperature of the air arriving at the combustor before any fuel is burned. The skin sees slightly less, because a boundary layer recovers only part of the stagnation temperature,
 
@@ -215,7 +215,7 @@ $$T_r = T \left( 1 + r \, \frac{\gamma - 1}{2} M^{2} \right), \qquad r \approx \
 
 giving
 
-$$T_r = 229 \times \left( 1 + 0.89 \times 3.72 \right) = 985 \ \text{kelvin} = 712 \ ^\circ\text{C}$$
+$$T_r = 228.7 \times \left( 1 + 0.89 \times 3.715 \right) = 985 \ \text{kelvin} = 712 \ ^\circ\text{C}$$
 
 **Seven hundred degrees on the skin.** Aluminium retains almost no useful strength above 200 degrees, so the choice of [stainless steel][ref_stainless] and nickel alloy is not conservatism but arithmetic.
 
@@ -287,7 +287,7 @@ $$I_{sp} = \frac{F}{\dot{m}_f \, g_0} = \frac{V_0}{f \, g_0} \left( \sqrt{\frac{
 
 and evaluating at Mach 4.31 gives
 
-$$I_{sp} = \frac{1306}{0.026 \times 9.807} \times 0.443 = 1.85 \times 10^{3} \ \text{seconds}$$
+$$I_{sp} = \frac{1306}{0.026 \times 9.807} \times 0.362 = 1.85 \times 10^{3} \ \text{seconds}$$
 
 against 250 to 450 seconds for a chemical rocket. **The ramjet delivers four to seven times the specific impulse of the rocket that starts it**, which is the entire reason for the architecture and the reason the booster is discarded the moment it has done its job.
 
@@ -581,7 +581,7 @@ which is the thrust pinch every combined-cycle programme has to design around. *
 
 ### Heat, Structure, and Sensing
 
-The recovery temperature relation is unchanged and the materials response is better understood. Heating prediction is [Duan et al 2026][research_duan_2026] and [Chen and He 2025][research_chen_2025], thermal protection structures are [Sun et al 2026][research_sun_2026] and [Zhang et al 2026][research_zhang_2026_2], the aeroelastic consequence of a hot structure is [Sun et al 2026][research_sun_2026_2], and steel qualification for the same service is [Emele et al 2026][research_emele_2026]. Air data sensing on a hypersonic experimental vehicle, which is the X-7's telemetry problem with sixty years of electronics, is [Takahashi et al 2026][research_takahashi_2026] and [Wang et al 2026][research_wang_2026_5]. The instruments themselves have improved in exactly the places the X-7 was weakest, with thermocouple correction for fast transients in [Huang and Wang 2026][research_huang_2026] and optical pressure measurement in [Sandri et al 2026][research_sandri_2026]. The bandwidth constraint derived above is now met by compression rather than by allocation, as [Kochetova and Levenets 2026][research_kochetova_2026] describe.
+The recovery temperature relation is unchanged and the materials response is better understood. Heating prediction is [Duan et al 2026][research_duan_2026] and [Chen and He 2025][research_chen_2025], thermal protection structures are [Sun et al 2026][research_sun_2026] and [Zhang et al 2026][research_zhang_2026_2], the aeroelastic consequence of a hot structure is [Sun et al 2026][research_sun_2026_2], and a qualification workflow for stainless steels of the kind the X-7's wings used is [Emele et al 2026][research_emele_2026]. Air data sensing on a hypersonic experimental vehicle, which is the X-7's telemetry problem with sixty years of electronics, is [Takahashi et al 2026][research_takahashi_2026] and [Wang et al 2026][research_wang_2026_5]. The instruments themselves have improved in exactly the places the X-7 was weakest, with thermocouple correction for fast transients in [Huang and Wang 2026][research_huang_2026] and optical pressure measurement in [Sandri et al 2026][research_sandri_2026]. The bandwidth constraint derived above is now met by compression rather than by allocation, as [Kochetova and Levenets 2026][research_kochetova_2026] describe.
 
 The thermal environment itself is computed rather than correlated. Non-equilibrium effects that the recovery-factor relation ignores are treated by [Gao et al 2025][research_gao_2025], [Chinnappan and Kim 2026][research_chinnappan_2026], [Han et al 2026][research_han_2026_2], and [Aiken et al 2025][research_aiken_2025], with structural cooling concepts in [Zhang and Xia 2026][research_zhang_2026_4], and the aeroelastic consequence of a breathing hot structure in [Guruswamy 2025][research_guruswamy_2025].
 
@@ -593,7 +593,7 @@ Extrapolation reliability is now a named subject. [Kaneko 2026][research_kaneko_
 
 The Fisher information argument has an entire modern discipline behind it. Optimal experimental design is now posed as an explicit optimization over where to place observations, with [Zhong et al 2026][research_zhong_2026] treating the goal-oriented Bayesian case, [Attia et al 2025][research_attia_2025] the robust A-optimal placement problem, and [Coons and Huan 2025][research_coons_2025] the estimation of expected information gain across model fidelities. **What all three formalize is the statement this article makes about the X-7, which is that the value of an observation depends on where it is taken and that the most valuable places are the ones a cautious programme excludes.** Calibrating a model against such observations is [Kahol et al 2026][research_kahol_2026] and [As'ad et al 2025][research_asad_2025].
 
-The cost side has caught up as well. [Xiao et al 2026][research_xiao_2026] apply physics-informed learning to cost estimation for low-cost vehicles, which is the modern form of the learning curve computed above, and [Mada and Gutierrez 2026][research_mada_2026] examine the human learning that underlies it. Reliability sampling, which is how a programme decides how many articles to test rather than how many to fly, is [Prakash et al 2026][research_prakash_2026] and [An et al 2025][research_an_2025].
+The cost side has caught up as well. [Mada and Gutierrez 2026][research_mada_2026] examine the systemic factors behind the learning curve of aerospace engineers, which is the human learning that underlies the production curve computed above. Reliability sampling, which is how a programme decides how many articles to test rather than how many to fly, is [Prakash et al 2026][research_prakash_2026] and [An et al 2025][research_an_2025].
 
 Flight test as an activity has been reorganized around the same insight, and [Xu et al 2026][research_xu_2026] design flight test methods around a digital twin, which is an attempt to substitute a model for the flights nobody can afford. Air-launched vehicles remain a category, as [Stewart et al 2026][research_stewart_2026] show, and the boost problem persists in [Hu et al 2026][research_hu_2026], [Wang et al 2026][research_wang_2026_4], and [Hussain and An 2026][research_hussain_2026], with solid motor grain characterization in [Fan et al 2025][research_fan_2025] and [Peng et al 2026][research_peng_2026].
 
@@ -619,13 +619,15 @@ The primary record divides awkwardly, and saying how is useful to anyone retraci
 
 **The vehicle itself is not.** The X-7 was an Air Force programme executed by Lockheed under MX-883, and its own reports are not in the NASA archive. That is the same structural problem the [X-6][related_post_a303_convair_x6] presented, with a different owner, and the consequence is that the aerodynamic and propulsion physics of this article rest on excellent primary sources while the programme narrative rests on secondary ones. The distinction is flagged in the Epistemic State section and should be kept in view.
 
-The free-flight and rocket-model literature, which is the methodological ancestor, is represented by [Mitchell and Peck 1950][research_mitchell_1950], [Niewald and Moul 1950][research_niewald_1950], [Denardo and Canning 1952][research_denardo_1952], [Moul and Wineman 1952][research_moul_1952], [Blanchard 1953][research_blanchard_1953], [Wallskog 1954][research_wallskog_1954], [Wallskog 1954][research_wallskog_1954_2], [Stephens 1959][research_stephens_1959], and the missile configuration studies of [Gloria 1958][research_gloria_1958], [Robinson 1958][research_robinson_1958], [Robinson 1958][research_robinson_1958], [Bernot and Robinson 1958][research_bernot_1958], [Hunt 1960][research_hunt_1960], and [Wornom 1961][research_wornom_1961], with the heating measurements of [Stephens 1959][research_stephens_1959] and the conical pressure work of [Maslen 1948][research_maslen_1948] and [Lin et al 1951][research_lin_1951]. Institutional gatherings appear in [NACA 1958][research_naca_1958] and [NACA 1962][research_naca_1962].
+The free-flight and rocket-model literature, which is the methodological ancestor, is represented by [Mitchell and Peck 1950][research_mitchell_1950], [Niewald and Moul 1950][research_niewald_1950], [Denardo and Canning 1952][research_denardo_1952], [Moul and Wineman 1952][research_moul_1952], [Blanchard 1953][research_blanchard_1953], [Wallskog 1954][research_wallskog_1954], [Wallskog 1954][research_wallskog_1954_2], [Stephens 1959][research_stephens_1959], and the missile configuration studies of [Gloria 1958][research_gloria_1958], [Robinson 1958][research_robinson_1958], [Bernot and Robinson 1958][research_bernot_1958], [Hunt 1960][research_hunt_1960], and [Wornom 1961][research_wornom_1961], with the heating measurements of [Stephens 1959][research_stephens_1959] and the conical pressure work of [Maslen 1948][research_maslen_1948] and [Lin et al 1951][research_lin_1951]. Institutional gatherings appear in [NACA 1958][research_naca_1958] and [NACA 1962][research_naca_1962].
 
 The secondary literature on the vehicle is thin. [Miller 2001][book_miller_2001_x_planes], [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003], [Winchester 2005][book_winchester_2005_x_planes], and [Peebles 2014][book_peebles_2014_probing_the_sky] give roster treatments, with [Hallion 1972][book_hallion_1972_supersonic_flight], [Hallion 1981][book_hallion_1981_on_the_frontier], [Gorn 2001][book_gorn_2001_expanding_envelope], and [Bilstein 1989][book_bilstein_1989_orders] for institutional context, [Gunston 1992][book_gunston_1992_faster_than_sound] for the wider framing, and [Merlin 2009][book_merlin_2009_blackbird] for the Lockheed lineage this vehicle begins.
 
-The engineering texts behind the relations are [Hill and Peterson 1991][book_hill_peterson_1991] and [Sutton and Biblarz 2016][book_sutton_biblarz_2016] for propulsion, [Anderson 2002][book_anderson_2002_modern_compressible], [Shapiro 1953][book_shapiro_1953], and [Liepmann and Roshko 1957][book_liepmann_roshko_1957] for compressible flow and shock relations, [Anderson 2006][book_anderson_2006_hypersonic] and [Bertin 1994][book_bertin_1994_hypersonic] for the hypersonic end, [Anderson 2001][book_anderson_2001_fundamentals], [Anderson 2012][book_anderson_2012_aircraft_performance], and [Bertin and Cummings 2013][book_bertin_cummings_2013] for the aerodynamics, and [Schlichting and Gersten 2017][book_schlichting_gersten_2017] and [White 2006][book_white_2006_viscous] for the boundary layer. Heat transfer is [Incropera and DeWitt][book_incropera_heat_transfer], [Carslaw and Jaeger 1959][book_carslaw_jaeger_1959], and [Boley and Weiner 1960][book_boley_weiner_1960]. Design method is [Raymer 2018][book_raymer_2018], [Nicolai and Carichner 2010][book_nicolai_carichner_2010], [Torenbeek 1982][book_torenbeek_1982], and [Whitford 1987][book_whitford_1987], flight dynamics [Etkin and Reid 1996][book_etkin_reid_1996] and [Nelson 1998][book_nelson_1998], and structures [Bruhn 1973][book_bruhn_1973], [Niu 1988][book_niu_1988_airframe], and [Megson 2016][book_megson_2016]. Flight test practice is [Kimberlin 2003][book_kimberlin_2003] and [Ward Strganac and Niewoehner 2006][book_ward_strganac_niewoehner_2006], with error analysis in [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington and Robinson 2002][book_bevington_robinson_2002], and the experimental design that this article's keystone rests on in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005], [Gelman et al 2013][book_gelman_et_al_2013], [Lindley 1956][research_lindley_1956], and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]. The epistemology is [Vincenti 1990][book_vincenti_1990], [Petroski 1985][book_petroski_1985], and [Ferguson 1992][book_ferguson_1992], the organizational reading [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Sagan 1993][book_sagan_1993], and [Reason 1990][book_reason_1990_human_error], and the information accounting [Cover and Thomas 2006][book_cover_thomas_2006] with [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948] behind the telemetry relation. Institutional histories are [Baals and Corliss 1981][book_baals_corliss_1981], [Hansen 1987][book_hansen_1987_engineer_in_charge], and [Chambers and Chambers 2008][book_chambers_2008_radical_wings], with [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier], [Jenkins 2000][book_jenkins_2000_hypersonics], [Jenkins 2007][book_jenkins_2007_x15], [Launius and Jenkins 2012][book_launius_jenkins_2012], and [Truitt 1960][book_truitt_1960] on the high-speed thread. Foundational primaries bearing on the arguments are [Buckingham 1914][research_buckingham_1914] on similarity, [Ackeret 1925][research_ackeret_1925] on supersonic lift, [Jones 1947][research_jones_1947] on planform, [NACA Report 1135][research_naca_1135] for the compressible relations used throughout, [Sutherland 1893][research_sutherland_1893] on viscosity, and [Williams and Drake][research_williams_drake_1948] on the research airplane rationale. Related work on this blog appears in [A96][related_post_a96_history_rocketplanes], [A106][related_post_a106_two_stage_delta_wing], [A217][related_post_a217_rocket_propellant_chemistry], [A237][related_post_a237_aerospace_framing], [A241][related_post_a241_aerospace_simulation], and [A90][related_post_a90_intro_space_studies]. The [NASA Technical Reports Server][ref_ntrs] holds the engine record and the [Armstrong Flight Research Center][ref_nasa_armstrong] the institutional succession.
+The engineering texts behind the relations are [Hill and Peterson 1991][book_hill_peterson_1991] and [Sutton and Biblarz 2016][book_sutton_biblarz_2016] for propulsion, [Anderson 2002][book_anderson_2002_modern_compressible], [Shapiro 1953][book_shapiro_1953], and [Liepmann and Roshko 1957][book_liepmann_roshko_1957] for compressible flow and shock relations, [Anderson 2006][book_anderson_2006_hypersonic] and [Bertin 1994][book_bertin_1994_hypersonic] for the hypersonic end, [Anderson 2001][book_anderson_2001_fundamentals], [Anderson 2012][book_anderson_2012_aircraft_performance], and [Bertin and Cummings 2013][book_bertin_cummings_2013] for the aerodynamics, and [Schlichting and Gersten 2017][book_schlichting_gersten_2017] and [White 2006][book_white_2006_viscous] for the boundary layer. Heat transfer is [Incropera and DeWitt][book_incropera_heat_transfer], [Carslaw and Jaeger 1959][book_carslaw_jaeger_1959], and [Boley and Weiner 1960][book_boley_weiner_1960]. Design method is [Raymer 2018][book_raymer_2018], [Nicolai and Carichner 2010][book_nicolai_carichner_2010], [Torenbeek 1982][book_torenbeek_1982], and [Whitford 1987][book_whitford_1987], flight dynamics [Etkin and Reid 1996][book_etkin_reid_1996] and [Nelson 1998][book_nelson_1998], and structures [Bruhn 1973][book_bruhn_1973], [Niu 1988][book_niu_1988_airframe], and [Megson 2016][book_megson_2016]. Flight test practice is [Kimberlin 2003][book_kimberlin_2003] and [Ward Strganac and Niewoehner 2006][book_ward_strganac_niewoehner_2006], with error analysis in [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington and Robinson 2002][book_bevington_robinson_2002], and the experimental design that this article's keystone rests on in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005], [Gelman et al 2013][book_gelman_et_al_2013], [Lindley 1956][research_lindley_1956], and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]. The epistemology is [Vincenti 1990][book_vincenti_1990], [Petroski 1985][book_petroski_1985], and [Ferguson 1992][book_ferguson_1992], the organizational reading [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Sagan 1993][book_sagan_1993], and [Reason 1990][book_reason_1990_human_error], and the information accounting [Cover and Thomas 2006][book_cover_thomas_2006] with [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948] behind the telemetry relation. Institutional histories are [Baals and Corliss 1981][book_baals_corliss_1981], [Hansen 1987][book_hansen_1987_engineer_in_charge], and [Chambers and Chambers 2008][book_chambers_2008_radical_wings], with [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier], [Jenkins 2000][book_jenkins_2000_hypersonics], [Jenkins 2007][book_jenkins_2007_x15], [Launius and Jenkins 2012][book_launius_jenkins_2012], and [Truitt 1960][book_truitt_1960] on the high-speed thread. Foundational primaries bearing on the arguments are [Buckingham 1914][research_buckingham_1914] on similarity, [Ackeret 1925][research_ackeret_1925] on supersonic lift, [Jones 1947][research_jones_1947] on planform, [NACA Report 1135][research_naca_1135] for the compressible relations used throughout, [Sutherland 1893][research_sutherland_1893] on viscosity, and [Williams and Drake][research_williams_drake_1948] on the research airplane rationale. Related work on this blog appears in [History of Rocketplanes][related_post_a96_history_rocketplanes], [Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications][related_post_a106_two_stage_delta_wing], [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry], [Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism][related_post_a237_aerospace_framing], [Aerospace, Programming Languages, and Information Technology Co-Development: Aerospace Simulation and Real-Time Systems][related_post_a241_aerospace_simulation], and [Introduction to Space Studies][related_post_a90_intro_space_studies]. The [NASA Technical Reports Server][ref_ntrs] holds the engine record and the [Armstrong Flight Research Center][ref_nasa_armstrong] the institutional succession.
 
 **The survey was re-read on 7 October 2026, and the rebuilt filter refused none of it.** All 212 research records were read against the subject of this article, which is the ramjet test vehicle, its inlet, its combustion, its heating and the expendable method it stood for, and the filter left the total at 212 with no cluster changed. Every record is cited in a sentence of the body, which makes each a hand-chosen source that the filter does not overrule. Two of those sentences cited works whose titles place them in other industries, a study of tool wear in milling and a heat sink for electronic chips, and **both were then removed by hand** together with the words that described them, so the total stands at 210. A reading of all 206 records that neither screen flagged found one off topic, the heat sink, which put the contamination before that removal near half a percent.
+
+**The second sampling pass of 8 October 2026 had nothing left to sample.** The first reading had already covered every title, so no record remained unread and no second sample could be drawn. A full reading of the body on the same day removed one more record, a study of cost estimation for low-thrust orbital transfers that had been cited as estimating the cost of low-cost vehicles, and the total now stands at 209. It kept a study of uncertainty in the full-scale extrapolation procedures of ship model testing, because the sentence citing it concerns the reliability of extrapolation, which is what that study quantifies. Because every title has been read, no sample measures the contamination that remains. The census found one off topic in 206 unflagged records at the first reading and one misapplied citation at the second, and what it leaves is whatever a reader of titles alone could misjudge. A check on 8 October 2026 for records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, and journal front matter such as covers, contents lists, reviewer lists and indexes, found none and removed none, so the total stays at 209.
 
 ## Epistemic State
 
@@ -657,7 +659,7 @@ The Lockheed X-7 flew 130 times, reached Mach 4.31, and was never intended to su
 
 Its engine explains its operating concept completely. A ramjet's compression ratio is one at rest, 7.8 at Mach 2, and 152 at Mach 4, so the engine is worthless standing still and unmatched at speed. The vehicle must therefore be thrown, and the booster that throws it delivers 1.87 million newton seconds, a velocity increment near 575 metres per second, and a burnout Mach number of 2.37, which is precisely where the engine becomes worth having. It does so at 13 g rising to 16, which is the first place where having no pilot is not a convenience but a requirement.
 
-The spike is the second. A single normal shock at Mach 4.31 keeps a tenth of the total pressure, throwing away nine tenths of what the flight condition supplied, and a properly staged conical shock system keeps roughly half. **That factor of five is the difference between an engine and a duct**, and it is why the most conspicuous feature of the aircraft is a piece of pointed metal doing nothing visible.
+The spike is the second. A single normal shock at Mach 4.31 keeps a tenth of the total pressure, throwing away nine tenths of what the flight condition supplied, and a properly staged conical shock system keeps roughly forty percent. **That factor of nearly four is the difference between an engine and a duct**, and it is why the most conspicuous feature of the aircraft is a piece of pointed metal doing nothing visible.
 
 Heat chooses the material without consultation. At Mach 4.31 the skin sits at 985 kelvin, or 712 degrees, which excludes aluminium and specifies steel. The same temperature rise that heats the structure also arrives at the combustor, leaving 922 kelvin of useful heat addition where a Mach 2 engine has 1600, and that shrinking allowance is the ceiling on the subsonic-combustion ramjet rather than any deficiency of the inlet.
 
@@ -1003,7 +1005,6 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [Wu et al 2026 Dynamic combustion characteristics of solid fuel ramjet engine based on transient solid fuel regression simulations][research_wu_2026]
 - [Xia et al 2026 Mode Transition and Combustion Characteristics of a Dual-Mode Scramjet][research_xia_2026]
 - [Xiao et al 2026 An approach to fault detection and dynamic fault tolerance for flush air data sensing system with multiple faults][research_xiao_2026_2]
-- [Xiao et al 2026 Physics-Informed Residual Learning for Cost Estimation in Low-Thrust Orbital Transfer Missions][research_xiao_2026]
 - [Xu et al 2026 Digital Twin-Enabled Flight Test Method Design][research_xu_2026]
 - [Yang et al 2026 Beyond iterative solvers, Physics-informed instantaneous modeling of supersonic combustion in a kerosene-fueled scramjet][research_yang_2026_2]
 - [Yang et al 2026 Effects of jet exhaust on engine inlet distortion during carrier-based aircraft takeoff][research_yang_2026]
@@ -1035,61 +1036,61 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [A90 Introduction to Space Studies][related_post_a90_intro_space_studies]
 - [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
 
-[book_anderson_2001_fundamentals]: https://openlibrary.org/search?q=Anderson+Fundamentals+of+Aerodynamics
-[book_anderson_2002_modern_compressible]: https://openlibrary.org/search?q=Anderson+Modern+Compressible+Flow
-[book_anderson_2006_hypersonic]: https://openlibrary.org/search?q=Anderson+Hypersonic+and+High+Temperature+Gas+Dynamics
-[book_anderson_2012_aircraft_performance]: https://openlibrary.org/search?q=Anderson+Aircraft+Performance+and+Design
-[book_baals_corliss_1981]: https://openlibrary.org/search?q=Baals+Corliss+Wind+Tunnels+of+NASA
-[book_bertin_1994_hypersonic]: https://openlibrary.org/search?q=Bertin+Hypersonic+Aerothermodynamics
-[book_bertin_cummings_2013]: https://openlibrary.org/search?q=Bertin+Cummings+Aerodynamics+for+Engineers
-[book_bevington_robinson_2002]: https://openlibrary.org/search?q=Bevington+Robinson+Data+Reduction+and+Error+Analysis
-[book_bilstein_1989_orders]: https://openlibrary.org/search?q=Bilstein+Orders+of+Magnitude+NACA+NASA
-[book_boley_weiner_1960]: https://openlibrary.org/search?q=Boley+Weiner+Theory+of+Thermal+Stresses
-[book_box_hunter_hunter_2005]: https://openlibrary.org/search?q=Box+Hunter+Statistics+for+Experimenters
-[book_bruhn_1973]: https://openlibrary.org/search?q=Bruhn+Analysis+and+Design+of+Flight+Vehicle+Structures
-[book_carslaw_jaeger_1959]: https://openlibrary.org/search?q=Carslaw+Jaeger+Conduction+of+Heat+in+Solids
+[book_anderson_2001_fundamentals]: https://openlibrary.org/works/OL3232211W
+[book_anderson_2002_modern_compressible]: https://openlibrary.org/works/OL1993329W
+[book_anderson_2006_hypersonic]: https://openlibrary.org/works/OL1993330W
+[book_anderson_2012_aircraft_performance]: https://openlibrary.org/works/OL1993317W
+[book_baals_corliss_1981]: https://openlibrary.org/works/OL31504107W
+[book_bertin_1994_hypersonic]: https://openlibrary.org/works/OL3287053W
+[book_bertin_cummings_2013]: https://openlibrary.org/works/OL21437883W
+[book_bevington_robinson_2002]: https://openlibrary.org/works/OL44935135W
+[book_bilstein_1989_orders]: https://openlibrary.org/works/OL18823771W
+[book_boley_weiner_1960]: https://openlibrary.org/works/OL19334049W
+[book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
+[book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
+[book_carslaw_jaeger_1959]: https://openlibrary.org/works/OL34686169W
 [book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
-[book_cover_thomas_2006]: https://openlibrary.org/search?q=Cover+Thomas+Elements+of+Information+Theory
-[book_etkin_reid_1996]: https://openlibrary.org/search?q=Etkin+Reid+Dynamics+of+Flight+Stability+and+Control
-[book_ferguson_1992]: https://openlibrary.org/search?q=Ferguson+Engineering+and+the+Mind+s+Eye
-[book_gelman_et_al_2013]: https://openlibrary.org/search?q=Gelman+Bayesian+Data+Analysis
-[book_gorn_2001_expanding_envelope]: https://openlibrary.org/search?q=Gorn+Expanding+the+Envelope+Flight+Research
-[book_gunston_1992_faster_than_sound]: https://openlibrary.org/search?q=Gunston+Faster+Than+Sound
-[book_hallion_1972_supersonic_flight]: https://openlibrary.org/search?q=Hallion+Supersonic+Flight+Breaking+the+Sound+Barrier
-[book_hallion_1981_on_the_frontier]: https://openlibrary.org/search?q=Hallion+On+the+Frontier+Flight+Research+Dryden
-[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/search?q=Hansen+Engineer+in+Charge+Langley
-[book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/search?q=Heppenheimer+Facing+the+Heat+Barrier+Hypersonics
-[book_hill_peterson_1991]: https://openlibrary.org/search?q=Hill+Peterson+Mechanics+and+Thermodynamics+of+Propulsion
-[book_incropera_heat_transfer]: https://openlibrary.org/search?q=Incropera+Fundamentals+of+Heat+and+Mass+Transfer
-[book_jenkins_2000_hypersonics]: https://openlibrary.org/search?q=Jenkins+Hypersonics+Before+the+Shuttle+X-15
+[book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
+[book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
+[book_ferguson_1992]: https://openlibrary.org/works/OL4119982W
+[book_gelman_et_al_2013]: https://openlibrary.org/works/OL12630389W
+[book_gorn_2001_expanding_envelope]: https://openlibrary.org/works/OL4400572W
+[book_gunston_1992_faster_than_sound]: https://openlibrary.org/works/OL774338W
+[book_hallion_1972_supersonic_flight]: https://openlibrary.org/works/OL2688456W
+[book_hallion_1981_on_the_frontier]: https://openlibrary.org/works/OL2688458W
+[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/works/OL37594565W
+[book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/works/OL39929219W
+[book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
+[book_incropera_heat_transfer]: https://openlibrary.org/works/OL2975219W
+[book_jenkins_2000_hypersonics]: https://openlibrary.org/works/OL813290W
 [book_jenkins_2007_x15]: https://openlibrary.org/search?q=Jenkins+X-15+Extending+the+Frontiers+of+Flight
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X-Vehicles+Inventory
-[book_kimberlin_2003]: https://openlibrary.org/search?q=Kimberlin+Flight+Testing+of+Fixed+Wing+Aircraft
-[book_launius_jenkins_2012]: https://openlibrary.org/search?q=Launius+Jenkins+Coming+Home+Reentry+and+Recovery+from+Space
-[book_liepmann_roshko_1957]: https://openlibrary.org/search?q=Liepmann+Roshko+Elements+of+Gasdynamics
-[book_megson_2016]: https://openlibrary.org/search?q=Megson+Aircraft+Structures+for+Engineering+Students
-[book_merlin_2009_blackbird]: https://openlibrary.org/search?q=Merlin+Design+and+Development+of+the+Blackbird
-[book_miller_2001_x_planes]: https://openlibrary.org/search?q=Jay+Miller+The+X-Planes+X-1+to+X-45
-[book_nelson_1998]: https://openlibrary.org/search?q=Nelson+Flight+Stability+and+Automatic+Control
-[book_nicolai_carichner_2010]: https://openlibrary.org/search?q=Nicolai+Carichner+Fundamentals+of+Aircraft+and+Airship+Design
-[book_niu_1988_airframe]: https://openlibrary.org/search?q=Niu+Airframe+Structural+Design
-[book_peebles_2014_probing_the_sky]: https://openlibrary.org/search?q=Peebles+Probing+the+Sky+NACA+Research+Airplanes
-[book_perrow_1984]: https://openlibrary.org/search?q=Perrow+Normal+Accidents
-[book_petroski_1985]: https://openlibrary.org/search?q=Petroski+To+Engineer+Is+Human
-[book_raymer_2018]: https://openlibrary.org/search?q=Raymer+Aircraft+Design+A+Conceptual+Approach
-[book_reason_1990_human_error]: https://openlibrary.org/search?q=James+Reason+Human+Error
-[book_sagan_1993]: https://openlibrary.org/search?q=Sagan+The+Limits+of+Safety
-[book_schlichting_gersten_2017]: https://openlibrary.org/search?q=Schlichting+Gersten+Boundary+Layer+Theory
-[book_shapiro_1953]: https://openlibrary.org/search?q=Shapiro+Dynamics+and+Thermodynamics+of+Compressible+Fluid+Flow
-[book_sutton_biblarz_2016]: https://openlibrary.org/search?q=Sutton+Biblarz+Rocket+Propulsion+Elements
-[book_taylor_1997_error_analysis]: https://openlibrary.org/search?q=Taylor+An+Introduction+to+Error+Analysis
-[book_torenbeek_1982]: https://openlibrary.org/search?q=Torenbeek+Synthesis+of+Subsonic+Airplane+Design
-[book_truitt_1960]: https://openlibrary.org/search?q=Truitt+Fundamentals+of+Aerodynamic+Heating
-[book_vaughan_1996]: https://openlibrary.org/search?q=Vaughan+The+Challenger+Launch+Decision
-[book_vincenti_1990]: https://openlibrary.org/search?q=Vincenti+What+Engineers+Know+and+How+They+Know+It
-[book_ward_strganac_niewoehner_2006]: https://openlibrary.org/search?q=Ward+Strganac+Introduction+to+Flight+Test+Engineering
-[book_white_2006_viscous]: https://openlibrary.org/search?q=Frank+White+Viscous+Fluid+Flow
-[book_whitford_1987]: https://openlibrary.org/search?q=Whitford+Design+for+Air+Combat
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_kimberlin_2003]: https://openlibrary.org/works/OL8874080W
+[book_launius_jenkins_2012]: https://openlibrary.org/works/OL39998199W
+[book_liepmann_roshko_1957]: https://openlibrary.org/works/OL13214987W
+[book_megson_2016]: https://openlibrary.org/works/OL4809615W
+[book_merlin_2009_blackbird]: https://openlibrary.org/works/OL11706498W
+[book_miller_2001_x_planes]: https://openlibrary.org/works/OL7006680W
+[book_nelson_1998]: https://openlibrary.org/works/OL11288560W
+[book_nicolai_carichner_2010]: https://openlibrary.org/works/OL15909375W
+[book_niu_1988_airframe]: https://openlibrary.org/works/OL19561185W
+[book_peebles_2014_probing_the_sky]: https://openlibrary.org/works/OL23215820W
+[book_perrow_1984]: https://openlibrary.org/works/OL4468929W
+[book_petroski_1985]: https://openlibrary.org/works/OL112186W
+[book_raymer_2018]: https://openlibrary.org/works/OL17855977W
+[book_reason_1990_human_error]: https://openlibrary.org/works/OL9006915W
+[book_sagan_1993]: https://openlibrary.org/works/OL3492159W
+[book_schlichting_gersten_2017]: https://openlibrary.org/works/OL20524688W
+[book_shapiro_1953]: https://openlibrary.org/works/OL5908243W
+[book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
+[book_taylor_1997_error_analysis]: https://openlibrary.org/works/OL3232610W
+[book_torenbeek_1982]: https://openlibrary.org/works/OL9096469W
+[book_truitt_1960]: https://openlibrary.org/works/OL178473W
+[book_vaughan_1996]: https://openlibrary.org/works/OL2962391W
+[book_vincenti_1990]: https://openlibrary.org/works/OL4805206W
+[book_ward_strganac_niewoehner_2006]: https://openlibrary.org/works/OL19810630W
+[book_white_2006_viscous]: https://openlibrary.org/works/OL1911849W
+[book_whitford_1987]: https://openlibrary.org/works/OL5054670W
 [book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
 [ref_a12]: https://en.wikipedia.org/wiki/Lockheed_A-12
 [ref_accelerometer]: https://en.wikipedia.org/wiki/Accelerometer
@@ -1375,7 +1376,6 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [research_wright_1936]: https://doi.org/10.2514/8.155
 [research_wu_2026]: https://doi.org/10.1016/j.ast.2025.111055
 [research_xia_2026]: https://doi.org/10.1063/5.0332049
-[research_xiao_2026]: https://doi.org/10.1016/j.ast.2026.113419
 [research_xiao_2026_2]: https://doi.org/10.1038/s41598-026-60028-5
 [research_xu_2026]: https://doi.org/10.1088/1742-6596/3175/1/012147
 [research_yang_2026]: https://doi.org/10.2298/tsci250222228y

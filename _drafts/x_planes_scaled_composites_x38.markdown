@@ -35,7 +35,7 @@ an emergency, and it flew the [X-24A][related_post_a321_martin_marietta_x24] sha
 [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the
 [X-36][related_post_a333_mcdonnell_douglas_x36], and the [X-37][related_post_a334_boeing_x37].
 
-**Six vehicles in this series have been built around a horizontal landing and this one was built to abandon it.**
+**Five vehicles earlier in this series led up to the horizontal landing and this one was built to abandon it.**
 The [X-23][related_post_a320_martin_marietta_x23] proved a lifting entry could be steered to a point. The
 [X-24][related_post_a321_martin_marietta_x24] spent its entire life characterising the unpowered approach.
 The [X-33][related_post_a330_lockheed_martin_x33] and [X-34][related_post_a331_orbital_sciences_x34] were
@@ -675,7 +675,6 @@ only reach a chosen field and then flare, and the guidance problem is the one th
 - [Global Rescue Response to a Multivehicle Deorbit from the...][research_travislevonhouser_rebeccasuzanneblue]
 - [Landing site coverage for orbital lifting re- entry vehicles][research_stern_chu_1964]
 - [Calldown frequencies from circular orbits to a specified...][research_martikan_1965]
-- [Erratum Minimum Energy Deorbit][research_galman_1966_b]
 - [Minimum energy deorbit][research_galman_1966]
 - [Determination of gravity at Apollo 14 landing site][research_amand_goodwin_1971]
 - [Minimum range-sensitivity deorbit][research_galman_1971]
@@ -1017,7 +1016,6 @@ the suspension lines, which is where the stage count actually comes from.
 
 ### Landing Loads and Impact Attenuation
 
-- [The influence of seat structure and passenger weight on the...][research_guler_elitok_2007]
 - [Airbag Landing Impact Performance Optimization for the Orion...][research_leetimothyj_mckinneyjohn_2008]
 - [A Summary of the Development of a Nominal Land Landing Airbag...][research_tuttben_gillsusannah_2009]
 - [Crashworthy Seats Would Afford Superior Protection][research_gohmertdustin_2009]
@@ -1031,7 +1029,6 @@ the suspension lines, which is where the stage count actually comes from.
 - [New Solutions for Energy Absorbing Materials][research_haberman_seepersad_2012]
 - [Crashworthy Component Design of an Ultra-light Helicopter...][research_yan_wang_2014]
 - [Design and verification of the landing impact attenuation...][research_yang_zhu_2014]
-- [Influence of Material Properties on Automobile...][research_jie_lin_2014]
 
 ### Human Tolerance, Deconditioning and the Medical Constraint
 
@@ -1053,7 +1050,6 @@ directly on the entry profile a lifeboat should fly.
 
 - [Computational Analysis of Automated Transfer Vehicle Reentry...][research_boutamine_reynier_2007]
 - [Determination of Atmospheric Densities from Reentry Flight...][research_zurnieden_olivier_2007]
-- [Erratum on Laminar-Turbulent Transition on Reentry Capsules...][research_schneider_2007]
 - [In-Flight Subsonic Lift and Drag Characteristics Unique to...][research_saltzmanedwinj_wangkcharles_2007]
 - [Initial Sizing and Reentry Trajectory Design Methodologies...][research_tormo_serghides_2007]
 - [Lunar Return Reentry Thermal Analysis of a Generic Crew...][research_kowilliaml_tranvant_2007]
@@ -1117,7 +1113,6 @@ directly on the entry profile a lifeboat should fly.
 - [Hypersonic Vehicle Telemetry Blackout Analysis][research_starkey_2015]
 - [Numerical exploration on jet oscillation mechanism of...][research_deng_xie_2017]
 - [Bluntness Parameter for Hypersonic Vehicle Design][research_sforza_2021]
-- [Correction Bluntness Parameter for Hypersonic Vehicle Design][research_sforza_2021_b]
 - [Direct numerical simulation of hypersonic boundary layer...][research_qi_li_2021]
 
 ### Crew Safety, Escape and Risk
@@ -1254,7 +1249,7 @@ and the deployment speed itself is taken from a loosely reported figure.
 
 ### The Scaling Comparison Puts Two Unlike Machines Side by Side
 
-The X-24A was a piloted rocket research aircraft and the X-38 was an uncrewed lifeboat carrying seven.
+The X-24A was a piloted rocket research aircraft and the X-38 was a lifeboat designed for seven crew whose test vehicles flew under autonomous guidance.
 **Measuring an exponent between them is legitimate as a description and misleading as an explanation**, and
 the article says which it means.
 
@@ -1281,12 +1276,12 @@ here anchors on decelerator terms as heavily as on the programme.
 
 | Half | Count | Share of dated |
 |---|---|---|
-| Period, 1995 through 2006 | 789 | 48.7 percent |
-| Contemporary, 2007 onward | 831 | 51.3 percent |
+| Period, 1995 through 2006 | 784 | 49.5 percent |
+| Contemporary, 2007 onward | 799 | 50.5 percent |
 | Undated | 14 | |
-| **Total research records** | **1,634** | |
+| **Total research records** | **1,597** | |
 
-**The period count is 789 and the contemporary count is 831.** Both are given because a contemporary survey
+**The period count is 784 and the contemporary count is 799.** Both are given because a contemporary survey
 lowers the period **share** while leaving the period **count** untouched, and reporting the share alone
 reads as a regression when it is the directive working.
 
@@ -1296,12 +1291,14 @@ together, so the report share is the closest available proxy for how much of the
 
 | Measure | Count | Share |
 |---|---|---|
-| Technical reports, all eras | 476 | 29.1 percent |
-| Technical reports at or before 2006 | 333 | 20.4 percent |
-| Journal and conference records | 1,158 | 70.9 percent |
+| Technical reports, all eras | 474 | 29.7 percent |
+| Technical reports at or before 2006 | 331 | 20.7 percent |
+| Journal and conference records | 1,123 | 70.3 percent |
 
-A further **112** reference works are listed below, and they carry the relations that no journal article
+A further **102** reference works are listed below, and they carry the relations that no journal article
 states because every textbook does.
+The count is the number of entries in that list, and it fell from 112 to 102 on 8 October 2026, when ten
+books unrelated to the vehicle were removed.
 
 **The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
 reading of every title the screens flagged, followed by a sweep for each homonym it exposed, refused 134
@@ -1320,6 +1317,16 @@ thin as before. A reading of 300 unflagged records found sixteen off topic, whic
 the screens missed near 5.3 percent before the rebuild, and every one of the sixteen fell to the homonym
 sweeps that followed.
 
+**A second seeded sample of 300 records that no earlier reading had seen, drawn on 8 October 2026, found nine
+off topic, and the sweeps they prompted removed thirty-one records in all.** Twenty-six were crashworthiness
+studies of trains, subway vehicles, automobiles, an intercity coach and a sports helmet, four were guidance
+and control of underwater vehicles and ships, and one concerned an oil shale plant at Parachute Creek.
+**The research total then stood at 1,603.** The landing loads cluster changed most, from 119 records to 93,
+followed by airdrop and guidance from 93 to 89, and no subject became thin, so nine of twenty-eight remain
+thin. Nine in 300 puts the contamination that survived the first rebuild at 3.0 percent. That sample drove
+its own sweep, so it does not measure what remains after the sweep, and no reading has yet estimated that.
+**Six more records were removed on 8 October 2026 because they are notices about works and not works**, being six errata, correction and clarification notices, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the research total from 1,603 to 1,597, with two of the six from parachute systems and one each from the parafoil, entry trajectory, hypersonic aerodynamics and deorbit clusters, and no subject became thin.
+
 ### Which Subjects Are Thin, and Why Each One Is
 
 **The subjects an argument rests on are not the subjects its vocabulary names.** This article displays
@@ -1328,7 +1335,7 @@ drogue sizing condition, and not one of those four phrases appears in the articl
 **A search built from what an article says will not find the literature the article depends on.**
 
 Measured against the subjects the arguments actually use,
-**nine of twenty-eight are thin in the source base assembled here.** Each is named below, because a bare
+**nine of twenty-eight are thin in the source base assembled here.** The reasons are set out below, because a bare
 count invites the reader to assume the worst explanation.
 
 **The heading is wrong, which is the commonest kind and the only curable one.** The field does not say
@@ -1341,7 +1348,7 @@ the thin list entirely.
 **The clearest case is the canopy lift coefficient, which stands at one record and is not thin at all.** The
 number is the article's single most load-bearing assumption, and the papers that measure it are titled as
 aerodynamic characterisations rather than as coefficient measurements.
-**The parafoil cluster holds 142 records, seven of them under characterisation headings, including a 1964 study of the parafoil glider and other gliding parachutes and a 1971 report of parafoil wind tunnel tests.**
+**The parafoil cluster holds 141 records, six of them titled as aerodynamic characteristics or wind tunnel tests, including a 1964 study of the parafoil glider and other gliding parachutes and a 1971 report of parafoil wind tunnel tests.**
 Those are the primary sources. **The heading was thin and the subject was not**, and a count alone could not
 have said so.
 
@@ -1388,19 +1395,14 @@ of it was ninety percent complete when the programme stopped.
 - [Hypersonic and High Temperature Gas Dynamics][book_hypersonic_and]
 - [Reference Guide to the International Space Station][book_reference_guide]
 - [Aeronautica][book_monckmason_1838]
-- [Roman art][book_franzwickhoff_1900]
-- [Advanced Algebra School Mathematics Project][book_senk_1920]
 - [Aviation from the ground up][book_gardenerburnellmanly_1929]
-- [Adventures in Time and Space][book_raymondjhealy_jfrancismccomas_1946]
 - [Fluid-dynamic drag][book_sighardfhoerner_1958]
 - [Fundamentals of astrodynamics][book_robertmlbaker_1959]
 - [Fluid dynamic drag][book_sfhoerner_1965]
-- [First-year calculus][book_einarhille_1968]
 - [Fundamentals of astrodynamics][book_rogerrbate_1971]
 - [The parachute manual][book_danpoynter_1977]
 - [Recovery system design guide][book_egewing_1979]
 - [Space physiology and medicine][book_arnauldenicogossian_1982]
-- [the New Quick Job-Hunting Map][book_richardnelsonbolles_1983]
 - [Fundamentals of aerospace medicine][book_fundamentals_of_1985]
 - [Mechanical Qualification of Large Flexible Spacecraft...][book_northatlantictreatyorganizationadvisorygroupforaerospaceresearchanddevelopment_1985]
 - [Aircraft Design][book_danielpraymer_1989]
@@ -1427,7 +1429,6 @@ of it was ninety percent complete when the programme stopped.
 - [Spacecraft systems engineering][book_peterwfortescue_1995]
 - [A dynamic response model for pressure sensors in continuum...][book_stephenawhitmore_1996]
 - [Fundamentals of aerospace medicine][book_fundamentals_of_1996]
-- [The 1996 what colour is your parachute?][book_richardnelsonbolles_1996]
 - [14th Aiaa Aerodynamic Decelerator Systems Technology...][book_americaninstituteofaeronauticsandas_1997]
 - [Atmospheric Chemistry and Dynamics Branch][book_goddardspaceflightcenter_1997]
 - [Fundamentals of Astrodynamics and Applications][book_davidavallado_1997]
@@ -1442,11 +1443,9 @@ of it was ninety percent complete when the programme stopped.
 - [The X-Planes X-1 to X-45][book_jaymiller_2001]
 - [Fundamentals of aerospace medicine][book_jeffreyrdavis_2002]
 - [Wingless Flight][book_rdalereed_darlenelister_2002]
-- [Avian migration][book_pberthold_eberhardgwinner_2003]
 - [Parachuting][book_danpoynter_miketuroff_2003]
 - [Space Physiology And Medicine][book_arnauldenicogossian_samlpool_2003]
 - [Spacecraft systems engineering][book_johnstark_grahamswinerd_2003]
-- [Winsor McCay][book_winsormccay_2003]
 - [Mechanics of flight][book_warrenfphillips_2004]
 - [Trauma Biomechanics][book_kaiuweschmitt_peterfniederer_2004]
 - [Hang tian qi jie gou yu ji gou =][book_lieminchen_2005]
@@ -1464,11 +1463,9 @@ of it was ninety percent complete when the programme stopped.
 - [Facing the Heat Barrier A History of Hypersonics The Nasa...][book_taheppenheimer_2009]
 - [Injury biomechanics and control][book_walterdpilkey_2009]
 - [Orbital Mechanics for Engineering Students][book_howardcurtis_2009]
-- [The 2009 What color is your parachute?][book_richardnelsonbolles_2009]
 - [Orbital mechanics for engineering students][book_howarddcurtis_2010]
 - [Principles of clinical medicine for space flight][book_michaelrbarratt_samlpool_2010]
 - [Reference guide to the International Space Station][book_unitedstatesnationalaeronauticsandspaceadministration_2010]
-- [The wonderful future that never was flying cars, mail...][book_gregorybenford_2010]
 - [Wings in orbit][book_waynehale_helenwlane_2010]
 - [Space mission engineering][book_jamesrichardwertz_davidfeverett_2011]
 - [Spacecraft systems engineering][book_peterwfortescue_grahamswinerd_2011]
@@ -1626,7 +1623,6 @@ of it was ninety percent complete when the programme stopped.
 - [A General Theory of Parachute Opening][research_ross_1972]
 - [A linearised theory of parachute opening dynamics][research_heinrich_1972]
 - [Aerodynamic Characteristics of Disk-Gap-Band Parachutes in...][research_reichenau_1972]
-- [Errata "Parachute Critical Opening Velocity"][research_french_1972]
 - [Internal Parachute Flows][research_klimas_1972]
 - [Structural Considerations in the Development of an Extremely...][research_niederer_1972]
 - [Subsonic pressure distributions around a solid model of an...][research_sawyerjw_1972]
@@ -1678,7 +1674,6 @@ of it was ninety percent complete when the programme stopped.
 - [Reductions in parachute drag due to forebody wake effects][research_peterson_johnson_1983]
 - [Shock absorbing mechanism for a parachute supported load][research_acker_1983]
 - [Galileo Parachute System modification program][research_mcmenaminhj_pochettinolr_1984]
-- [Problems at Parachute Creek][research_marshall_1984]
 - [Transonic wind-tunnel investigation of the Galileo Probe...][research_corridanre_givensjg_1984]
 - [Comparison of theoretical and experimental performance of a...][research_pepper_1985]
 - [Dynamics of a parachute panel on opening][research_vasilochenko_ponomarev_1985]
@@ -1750,12 +1745,10 @@ of it was ninety percent complete when the programme stopped.
 - [Navigation, Guidance and Control of Hypersonic Flight...][research_suzuki_ishimoto_1997]
 - [Rethinking Strategic Brigade Airdrop][research_beaubien_1997]
 - [Optical guidance for autonomous landing of spacecraft][research_miso_hashimoto_1999]
-- [Decentralized Guidance, Navigation, and Control for Platoons...][research_stilwell_bishop_2001]
 - [Personnel Airdrop Simulation][research_fox_bailey_2001]
 - [Simulation and Modeling of Wind Effects on Airdrop Systems][research_accorsi_leonard_2001]
 - [Study of Advanced Slider Concepts for Precision Cargo Airdrop...][research_potvin_2001_b]
 - [The EFIGENIA EJ-1 An S/VTOL Autonomous Unmanned Aerial...][research_marioandrescordoba_2001]
-- [Decentralized Guidance, Navigation, and Control for Platoons...][research_bishop_2002]
 - [Direct Fault Tolerant RLV Altitude Control A Singular...][research_zhujj_lawrenceda_2002]
 - [Evaluation of Static Line Webbing Materials Subjected to...][research_dooley_kaste_2002]
 - [Guidance and Control of Affordable Guided Airdrop System][research_yakimenko_dobrokhodov_2002]
@@ -2119,7 +2112,6 @@ of it was ninety percent complete when the programme stopped.
 - [Research on the Aerodynamic Characteristics of Leading Edge...][research_ding_chen_2023]
 - [Trajectory tracking control of powered parafoil without...][research_tan_chen_2023]
 - [Autonomous Steerable Ram-Air Type Load Parachute System...][research_civelek_kivrak_2024]
-- [Clarification Autonomous Parafoil Guidance in High Winds][research_chiel_dever_2024]
 - [Dynamic-model-based closed-loop guidance and control for...][research_wei_gao_2024]
 - [Finite-Time Backstepping Attitude Controller for First-Stage...][research_xing_feng_2024]
 - [Simulation Training System for Parafoil Motion Controller...][research_he_liu_2024]
@@ -2340,7 +2332,6 @@ of it was ninety percent complete when the programme stopped.
 - [Parachute deployment system for safe recovery of a drone][research_kumar_singh_2023]
 - [Design and Development of Miniature Measuring Instrument for...][research_liang_zhao_2024]
 - [Design and Implementation of A Low-Cost Parachute Landing...][research_yildirimdalkiran_kirteke_2024]
-- [Erratum to "Numerical Study on Aerodynamic Characteristics of...][research_jia_bao_2024_b]
 - [In Situ Imaging of Parachute Textile Micromechanics Under...][research_phillippe_panerai_2024]
 - [Modeling and Prediction of Deformation Properties of Polymer...][research_kozlov_kiselev_2024]
 - [Numerical Study on Aerodynamic Characteristics of Parachute...][research_jia_bao_2024]
@@ -2388,9 +2379,7 @@ of it was ninety percent complete when the programme stopped.
 - [A Review and Analysis of Existing Guided Precision Airdrop...][research_vambol_kaluzhynov_2023]
 - [Modeling and Application of Out-of-Cabin and Extra-Vehicular...][research_wang_yang_2023]
 - [Tianwen-1 Entry, Descent, and Landing Guidance, Navigation...][research_huang_xu_2023]
-- [A multi-platform Guidance, Navigation and Control system for...][research_fenucci_fanelli_2024]
 - [Challenges in the Guidance, Navigation and Control of...][research_horri_holderbaum_2024]
-- [Temporal mission planning for autonomous ships Design and...][research_hinostroza_lekkas_2024]
 - [Application of Reinforcement Learning to Precision Aerial...][research_zarbock_2025]
 - [Full Process Dynamics and HIL Simulation of Precise Airdrop...][research_zou_cui_2025]
 - [Rapid in-flight alignment method for precision airdrop with...][research_cui_jiang_2025]
@@ -2400,39 +2389,27 @@ of it was ninety percent complete when the programme stopped.
 - [Numerical investigation of the energy absorption...][research_hu_meng_2014]
 - [A new landing impact attenuation seat in manned spacecraft...][research_yu_zhang_2015]
 - [Aerodynamic Heating Around Flare-Type Membrane Inflatable...][research_takahashi_yamada_2015]
-- [Automobile crashworthiness improvement by energy-absorbing...][research_ma_lan_2015]
 - [Effects of different roll angles on civil aircraft fuselage...][research_mou_du_2015]
 - [Landing Gear Concept and Dynamic Landing Loads of the...][research_paletta_dmytriv_2015]
 - [Reentry spacecraft integrated structural design and test for...][research_lu_tian_2015]
-- [Cut-out grooves optimization to improve crashworthiness of a...][research_xu_yang_2016]
-- [Influence of repair cost on different front energy absorbing...][research_yanjie_2016]
 - [Reliable optimisation design of vehicle structure...][research_gu_dai_2016]
 - [Space vehicle landing dynamics at failure of landing gear][research_bakulin_borzykh_2016]
 - [A novel aircraft energy absorption strut system with...][research_ren_zhang_2017]
-- [Crashworthiness analysis and optimization of a cutting-style...][research_peng_wang_2017]
-- [Crashworthiness optimisation of a composite energy-absorbing...][research_xie_li_2017]
 - [Investigation of combined effects of cross section, taper...][research_altin_kilinckaya_2017]
 - [Optimisation for bending crashworthiness of functionally...][research_yin_chen_2017]
 - [Simulation study on gender differences in occupant dynamic...][research_fu_zhang_2017]
-- [A Consideration on Automobile Energy Absorbing Structure][research_hagiwara_zhao_2018]
 - [An Efficient Energy Absorbing Structure Inspired by Energy...][research_dong_yang_2018]
-- [Crashworthiness optimisation of a composite energy-absorbing...][research_xie_li_2018]
 - [A Neural Network Based Landing Method for an Unmanned Aerial...][research_luo_zhao_2019]
-- [Conceptual design of the front-end structure of automobile...][research_zhang_wang_2019]
 - [Control strategy of launch vehicle and lander with adaptive...][research_huang_2019]
-- [Crashworthiness of Nomex ® honeycomb-filled anti-climbing...][research_xie_du_2019]
-- [Crashworthiness optimisation of a step-like bi-tubular energy...][research_xing_xu_2019]
 - [Crashworthiness study on hybrid energy absorbers as vertical...][research_pazmendez_diazgarcia_2019]
 - [Crushing behavior of honeycomb structure a review][research_thomas_tiwari_2019]
 - [Impact vibration response attenuation using four-bar linkage...][research_son_huda_2019]
 - [Crashworthiness performance of green composite energy...][research_isaac_2020]
 - [Crushing analysis and crashworthiness optimisation for a...][research_deng_cao_2020]
 - [Energy-absorbing mechanisms and crashworthiness design of...][research_zhu_yu_2020]
-- [The multi-objective structural optimisation design to improve...][research_chen_xu_2020]
 - [A multi-finger robot system for adaptive landing gear and...][research_liu_zhang_2021]
 - [A review of the crashworthiness performance of energy...][research_isaac_ezekwem_2021]
 - [Crashworthiness analysis and optimization design of...][research_yin_tan_2021]
-- [Crashworthiness design of car threshold based on aluminium...][research_zhang_wang_2021]
 - [Crashworthiness parameters and their improvement using tubes...][research_bhutada_goel_2021]
 - [Effect of fiber angle alignment on energy absorbing behavior...][research_meric_gedikli_2021]
 - [On energy-absorbing mechanisms and structural crashworthiness...][research_zhu_zhao_2021]
@@ -2441,38 +2418,26 @@ of it was ninety percent complete when the programme stopped.
 - [Current trends in additively manufactured 3D printed energy...][research_isaac_duddeck_2022]
 - [Energy absorber selection specifics for shock-absorbing of...][research_petrov_sergeev_2022]
 - [Energy-absorbing mechanism and crashworthiness performance of...][research_wang_zhang_2022]
-- [On Crashworthiness and Energy-Absorbing Mechanisms of Thick...][research_chen_sun_2022]
 - [A self-constrained energy-absorbing structure with robust...][research_xing_zhao_2023]
 - [Crashworthiness of nested corrugation square energy-absorbing...][research_zhang_yu_2023]
 - [Crashworthiness optimization for cutting energy-absorbing...][research_guo_yang_2023]
-- [Crashworthiness performance of gradient energy-absorbing...][research_wang_xu_2023]
 - [Experimental Testing of Energy-Absorbing Structures Used to...][research_jackowski_posuniak_2023]
-- [Machine learning-based crashworthiness optimization for the...][research_guo_xu_2023]
 - [Multi-objective crashworthiness optimization of...][research_xie_wang_2023]
 - [Multi-objective crashworthiness optimization of square...][research_baykasoglu_baykasoglu_2023]
 - [Tailoring the impact response of a spaceframe vehicle...][research_ofochebe_nwigbo_2023]
-- [Crashworthiness analysis of bumper structures with bionic...][research_wei_zhou_2024]
 - [Crashworthiness of Energy Absorbing Structures Under Combined...][research_hwang_han_2024]
 - [Design principles of energy absorbing structures subjected to...][research_hwang_lee_2024]
 - [Effects of Propellant Slosh on Touchdown Stability for...][research_roithmayr_pei_2024]
-- [Experimental study on crashworthiness and lightweight of...][research_li_peng_2024]
 - [Multi-Objective Optimization of Crashworthiness of Shrink...][research_zou_yao_2024]
 - [On crashworthiness and energy-absorbing mechanisms of...][research_chen_wang_2024]
 - [Porous material energy absorbing structure based on spider...][research_zhang_wang_2024]
 - [Study on crashworthiness of square frustum lattice structure...][research_zhou_yao_2024]
-- [The Designs and Testing of Biodegradable Energy-Absorbing...][research_kaczynski_skwarski_2024]
 - [The crashworthiness prediction and deformation constraint...][research_he_xu_2024]
 - [Crashworthiness analysis and multi-objective optimisation of...][research_yan_huang_2025]
-- [Crashworthiness analysis of Al6061 aluminum alloy shrinking...][research_zhan_yu_2025]
 - [Design and crashworthiness behaviors of novel 3D printed...][research_zhu_wu_2025]
 - [Design of Lattice-Based Energy-Absorbing Structure for...][research_cho_lee_2025]
-- [Design of a New Energy Absorbing Box with Honeycomb Structure...][research_wang_wang_2025]
-- [Energy-absorbing structures based on staggered composite...][research_wang_xie_2025]
-- [Multi-dimensional crashworthiness performance prediction and...][research_xing_xu_2025]
 - [Crashworthiness Design and Geometric Optimization of...][research_zeb_wang_2026]
 - [Crashworthiness Design of Bidirectional Pyramidal...][research_bie_guo_2026]
-- [Crashworthiness Optimization of Double-Arrow Auxetic...][research_yang_2026]
-- [Crashworthiness analysis and multi-objective optimization of...][research_zhu_li_2026]
 - [Crashworthiness and multi-scenario applications of a...][research_xu_wang_2026]
 - [Crashworthiness similarity of complex cross sectional...][research_zhu_yao_2026]
 - [Study on Crashworthiness and Structural Optimization Design...][research_wang_he_2026]
@@ -2783,14 +2748,11 @@ distinct reason for a thin record and a different one again from the five the pr
 - [David A. Vallado 1997][book_davidavallado_1997]
 - [David A. Vallado and James Wertz 2013][book_davidavallado_jameswertz_2013]
 - [E. G. Ewing 1979][book_egewing_1979]
-- [Einar Hille 1968][book_einarhille_1968]
-- [Franz Wickhoff 1900][book_franzwickhoff_1900]
 - [Fundamentals of aerospace medicine 1985][book_fundamentals_of_1985]
 - [Fundamentals of aerospace medicine 1996][book_fundamentals_of_1996]
 - [Gardener Burnell Manly 1929][book_gardenerburnellmanly_1929]
 - [Gary Kitmacher 2006][book_garykitmacher_2006]
 - [Goddard Space Flight Center 1997][book_goddardspaceflightcenter_1997]
-- [Gregory Benford 2010][book_gregorybenford_2010]
 - [Hoerner 1993][book_hoerner_1993]
 - [Howard Curtis 2009][book_howardcurtis_2009]
 - [Howard Curtis 2013][book_howardcurtis_2013]
@@ -2821,7 +2783,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Michael R. Barratt and Sam L. Pool 2010][book_michaelrbarratt_samlpool_2010]
 - [Monck Mason 1838][book_monckmason_1838]
 - [North Atlantic Treaty Organization. Advisory Group for Aerospace Research and Development. 1985][book_northatlantictreatyorganizationadvisorygroupforaerospaceresearchanddevelopment_1985]
-- [P. Berthold and Eberhard Gwinner 2003][book_pberthold_eberhardgwinner_2003]
 - [Paul A. Tipler and Gene Mosca 1990][book_paulatipler_genemosca_1990]
 - [Peter W. Fortescue 1991][book_peterwfortescue_1991]
 - [Peter W. Fortescue 1992][book_peterwfortescue_1992]
@@ -2832,11 +2793,7 @@ distinct reason for a thin record and a different one again from the five the pr
 - [R. Dale Reed and Darlene Lister 2002][book_rdalereed_darlenelister_2002]
 - [R. Dale Reed and Darlene Lister 2011][book_rdalereed_darlenelister_2011]
 - [R. Dale Reed et al 2005][book_rdalereed_darlenelister_2005]
-- [Raymond J. Healy et al 1946][book_raymondjhealy_jfrancismccomas_1946]
 - [Reference Guide to the International Space Station][book_reference_guide]
-- [Richard Nelson Bolles 1983][book_richardnelsonbolles_1983]
-- [Richard Nelson Bolles 1996][book_richardnelsonbolles_1996]
-- [Richard Nelson Bolles 2009][book_richardnelsonbolles_2009]
 - [Robert Johnson 2008][book_robertjohnson_2008]
 - [Robert M. L. Baker 1959][book_robertmlbaker_1959]
 - [Roger D. Launius 2012][book_rogerdlaunius_2012]
@@ -2845,7 +2802,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Roger R. Bate 1971][book_rogerrbate_1971]
 - [Roy L. DeHart 1995][book_royldehart_1995]
 - [S F. Hoerner 1965][book_sfhoerner_1965]
-- [Senk 1920][book_senk_1920]
 - [Sighard F. Hoerner 1958][book_sighardfhoerner_1958]
 - [Stanley H. Backaitis 1993][book_stanleyhbackaitis_1993]
 - [Stanley H. Backaitis 1995][book_stanleyhbackaitis_1995]
@@ -2871,9 +2827,8 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Wiley J. Larson and James Richard Wertz 1992][book_wileyjlarson_jamesrichardwertz_1992]
 - [Wiley J. Larson and Linda K. Pranke 1999][book_wileyjlarson_lindakpranke_1999]
 - [William W. Saylor 2020][book_williamwsaylor_2020]
-- [Winsor McCay 2003][book_winsormccay_2003]
 
-[book_a_second_1998]: https://openlibrary.org/works/OL11849968M
+[book_a_second_1998]: https://openlibrary.org/books/OL11849968M
 [book_aiaaamericaninstituteofaeronautics_2001]: https://openlibrary.org/works/OL8874027W
 [book_ajoykumarkundu_markaprice_2018]: https://openlibrary.org/works/OL20520739W
 [book_alanmnahum_1993]: https://openlibrary.org/works/OL19823541W
@@ -2896,14 +2851,11 @@ distinct reason for a thin record and a different one again from the five the pr
 [book_davidavallado_2001]: https://openlibrary.org/works/OL8892628W
 [book_davidavallado_jameswertz_2013]: https://openlibrary.org/works/OL27967365W
 [book_egewing_1979]: https://openlibrary.org/works/OL36989141W
-[book_einarhille_1968]: https://openlibrary.org/works/OL2617168W
-[book_franzwickhoff_1900]: https://openlibrary.org/works/OL7838292W
 [book_fundamentals_of_1985]: https://openlibrary.org/works/OL16536527W
 [book_fundamentals_of_1996]: https://openlibrary.org/works/OL19511838W
 [book_gardenerburnellmanly_1929]: https://openlibrary.org/works/OL7422982W
 [book_garykitmacher_2006]: https://openlibrary.org/works/OL8914876W
 [book_goddardspaceflightcenter_1997]: https://openlibrary.org/works/OL18441987W
-[book_gregorybenford_2010]: https://openlibrary.org/works/OL15091351W
 [book_hoerner_1993]: https://openlibrary.org/works/OL9270107W
 [book_howardcurtis_2009]: https://openlibrary.org/works/OL25258577W
 [book_howardcurtis_2013]: https://openlibrary.org/works/OL17466264W
@@ -2935,21 +2887,16 @@ distinct reason for a thin record and a different one again from the five the pr
 [book_monckmason_1838]: https://openlibrary.org/works/OL7651699W
 [book_northatlantictreatyorganizationadvisorygroupforaerospaceresearchanddevelopment_1985]: https://openlibrary.org/works/OL4387484W
 [book_paulatipler_genemosca_1990]: https://openlibrary.org/works/OL1984422W
-[book_pberthold_eberhardgwinner_2003]: https://openlibrary.org/works/OL18412457W
 [book_peterwfortescue_1991]: https://openlibrary.org/works/OL23095262W
 [book_peterwfortescue_1992]: https://openlibrary.org/works/OL18935740W
 [book_peterwfortescue_1995]: https://openlibrary.org/works/OL19387783W
 [book_peterwfortescue_grahamswinerd_2011]: https://openlibrary.org/works/OL15933889W
 [book_progressivemanagement_2011]: https://openlibrary.org/works/OL39864394W
-[book_raymondjhealy_jfrancismccomas_1946]: https://openlibrary.org/works/OL18150316W
 [book_rdalereed_1997]: https://openlibrary.org/works/OL2729081W
 [book_rdalereed_darlenelister_2002]: https://openlibrary.org/works/OL31222675W
-[book_rdalereed_darlenelister_2005]: https://openlibrary.org/works/OL8424994M
+[book_rdalereed_darlenelister_2005]: https://openlibrary.org/books/OL8424994M
 [book_rdalereed_darlenelister_2011]: https://openlibrary.org/works/OL20339072W
 [book_reference_guide]: https://openlibrary.org/works/OL36501454W
-[book_richardnelsonbolles_1983]: https://openlibrary.org/works/OL8216194W
-[book_richardnelsonbolles_1996]: https://openlibrary.org/works/OL15860369W
-[book_richardnelsonbolles_2009]: https://openlibrary.org/works/OL3333117W
 [book_robertjohnson_2008]: https://openlibrary.org/works/OL18616489W
 [book_robertmlbaker_1959]: https://openlibrary.org/works/OL13039798W
 [book_rogerdlaunius_2012]: https://openlibrary.org/works/OL16726335W
@@ -2957,13 +2904,12 @@ distinct reason for a thin record and a different one again from the five the pr
 [book_rogerlaunius_dennisjenkins_2013]: https://openlibrary.org/works/OL39998199W
 [book_rogerrbate_1971]: https://openlibrary.org/works/OL7217951W
 [book_royldehart_1995]: https://openlibrary.org/works/OL40017515W
-[book_senk_1920]: https://openlibrary.org/works/OL8274522W
 [book_sfhoerner_1965]: https://openlibrary.org/works/OL10414729W
 [book_sighardfhoerner_1958]: https://openlibrary.org/works/OL5289632W
 [book_stanleyhbackaitis_1993]: https://openlibrary.org/works/OL19211512W
 [book_stanleyhbackaitis_1995]: https://openlibrary.org/works/OL18852885W
 [book_stephenawhitmore_1996]: https://openlibrary.org/works/OL11508909W
-[book_structures_des_1994]: https://openlibrary.org/works/OL17342054M
+[book_structures_des_1994]: https://openlibrary.org/books/OL17342054M
 [book_taheppenheimer_2006]: https://openlibrary.org/works/OL2929213W
 [book_taheppenheimer_2009]: https://openlibrary.org/works/OL18922896W
 [book_taheppenheimer_2013]: https://openlibrary.org/works/OL20598387W
@@ -2983,7 +2929,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [book_wileyjlarson_jamesrichardwertz_1992]: https://openlibrary.org/works/OL19620727W
 [book_wileyjlarson_lindakpranke_1999]: https://openlibrary.org/works/OL19479444W
 [book_williamwsaylor_2020]: https://openlibrary.org/works/OL25636524W
-[book_winsormccay_2003]: https://openlibrary.org/works/OL696097W
 [book_wrburke_1989]: https://openlibrary.org/works/OL23081902W
 
 ### Reference
@@ -3213,7 +3158,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Bhutada and Goel 2021][research_bhutada_goel_2021]
 - [Bie et al 2026][research_bie_guo_2026]
 - [Bihrle et al 1989][research_bihrle_jr_1989]
-- [Bishop 2002][research_bishop_2002]
 - [Bishop et al 2008][research_bishop_meloni_2008]
 - [Biswal M 2023][research_biswalm_2023]
 - [Blaber et al 2004][research_blaber_bondar_2004]
@@ -3312,9 +3256,7 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Chen and Zhang 2012][research_chen_zhang_2012]
 - [Chen et al 2017][research_chen_duan_2017]
 - [Chen et al 2020][research_chen_guo_2020]
-- [Chen et al 2020][research_chen_xu_2020]
 - [Chen et al 2021][research_chen_wang_2021]
-- [Chen et al 2022][research_chen_sun_2022]
 - [Chen et al 2024][research_chen_wang_2024]
 - [Chen et al 2026][research_chen_mao_2026]
 - [Chen, George et al 2007][research_chengeorge_dejongchristian_2007]
@@ -3324,7 +3266,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Chern, J. S. and Vinh, N. X. 1978][research_chernjs_vinhnx_1978]
 - [Chester 2002][research_chester_2002]
 - [Chiel and Dever 2015][research_chiel_dever_2015]
-- [Chiel and Dever 2024][research_chiel_dever_2024]
 - [Childress et al 2023][research_childress_williams_2023]
 - [Cho et al 2025][research_cho_lee_2025]
 - [Christensen 2017][research_christensen_2017]
@@ -3466,7 +3407,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Faulders et al 1968][research_faulders_lekawa_1968]
 - [Feng et al 2015][research_feng_zhao_2015]
 - [Feng et al 2025][research_feng_zhang_2025]
-- [Fenucci et al 2024][research_fenucci_fanelli_2024]
 - [Fernandez-Gonzalo et al 2025][research_fernandezgonzalo_schneider_2025]
 - [Fields 2016][research_fields_2016]
 - [Figucia and McCafferty 1966][research_figucia_mccafferty_1966]
@@ -3501,7 +3441,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [French 1969][research_french_1969_b]
 - [French 1971][research_french_1971]
 - [French 1971][research_french_1971_b]
-- [French 1972][research_french_1972]
 - [French 1980][research_french_1980]
 - [Freudenburg 1984][research_freudenburg_1984]
 - [Freudenburg 1988][research_freudenburg_1988]
@@ -3519,7 +3458,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Galigher 1969][research_galigher_1969]
 - [Gallon, John C. et al 2013][research_gallonjohnc_clarkiang_2013]
 - [Galman 1966][research_galman_1966]
-- [Galman 1966][research_galman_1966_b]
 - [Galman 1971][research_galman_1971]
 - [Gang 2015][research_gang_2015]
 - [Gao and Tao 2022][research_gao_tao_2022]
@@ -3590,13 +3528,11 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Guglielmo et al 2019][research_guglielmo_omar_2019]
 - [Guglieri 2012][research_guglieri_2012]
 - [Guidotti et al 2012][research_guidotti_richiello_2012]
-- [Guler et al 2007][research_guler_elitok_2007]
 - [Gunasinghe et al 2017][research_gunasinghe_dias_2017]
 - [Guo and Zhan 2026][research_guo_zhan_2026]
 - [Guo et al 2012][research_guo_xia_2012]
 - [Guo et al 2021][research_guo_yan_2021]
 - [Guo et al 2023][research_guo_xing_2023]
-- [Guo et al 2023][research_guo_xu_2023]
 - [Guo et al 2023][research_guo_yan_2023]
 - [Guo et al 2023][research_guo_yang_2023]
 - [Guo et al 2026][research_guo_gao_2026]
@@ -3609,7 +3545,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Haberman et al 2012][research_haberman_seepersad_2012]
 - [Hackenberger and Mattenson 1965][research_hackenberger_mattenson_1965]
 - [Hacker 1992][research_hacker_1992]
-- [Hagiwara and Zhao 2018][research_hagiwara_zhao_2018]
 - [Hainsworth 1998][research_hainsworth_1998]
 - [Hall and Nowlan 1978][research_hall_nowlan_1978]
 - [Hamilton et al 2011][research_hamilton_sargsyan_2011]
@@ -3642,7 +3577,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Hershman 2005][research_hershman_2005]
 - [High Drag Rotating Parachute Developed and Tested 1985][research_high_drag_1985]
 - [Hinghofer-Szalkay and Rossler 2005][research_hinghoferszalkay_rossler_2005]
-- [Hinostroza and Lekkas 2024][research_hinostroza_lekkas_2024]
 - [Hodell and Rosner 1957][research_hodell_rosner_1957]
 - [Hoffman 1999][research_hoffman_1999]
 - [Hoffman, E. L. et al 1961][research_hoffmanel_mcgheejr_1961]
@@ -3720,11 +3654,9 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Jernell, L. S. 1971][research_jernellls_1971]
 - [Jia et al 2014][research_jia_wang_2014]
 - [Jia et al 2024][research_jia_bao_2024]
-- [Jia et al 2024][research_jia_bao_2024_b]
 - [Jiang et al 2022][research_jiang_jia_2022]
 - [Jiang et al 2023][research_jiang_tian_2023]
 - [Jiang et al 2025][research_jiang_cai_2025]
-- [Jie and Lin 2014][research_jie_lin_2014]
 - [Jin et al 2026][research_jin_zeng_2026]
 - [Jits et al 2005][research_jits_wright_2005]
 - [Johari and Desabrais 2002][research_johari_desabrais_2002]
@@ -3743,7 +3675,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Jóźko and Włodarczyk 2020][research_jozko_wlodarczyk_2020]
 - [Jóźwiak and Kurzawiński 2019][research_jozwiak_kurzawinski_2019]
 - [Kachadourian 1970][research_kachadourian_1970]
-- [Kaczyński et al 2024][research_kaczynski_skwarski_2024]
 - [Kallay 1966][research_kallay_1966]
 - [Kalro and Tezduyar 2000][research_kalro_tezduyar_2000]
 - [Kanai et al 2018][research_kanai_takizawa_2018]
@@ -3875,7 +3806,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Li et al 2021][research_li_cao_2021]
 - [Li et al 2023][research_li_hou_2023]
 - [Li et al 2023][research_li_qu_2023]
-- [Li et al 2024][research_li_peng_2024]
 - [Li et al 2024][research_li_wang_2024]
 - [Li et al 2025][research_li_jiang_2025]
 - [Li et al 2025][research_li_sun_2025]
@@ -3925,7 +3855,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Lv et al 2022][research_lv_bai_2022]
 - [Lykoudis 1964][research_lykoudis_1964]
 - [Lyons 1977][research_lyons_1977]
-- [Ma et al 2015][research_ma_lan_2015]
 - [Ma et al 2015][research_ma_zhang_2015]
 - [Ma et al 2021][research_ma_li_2021]
 - [MacConochie, Ian O. 2000][research_macconochieiano_2000]
@@ -3945,7 +3874,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Mano and Iwase 2003][research_mano_iwase_2003]
 - [March 1988][research_march_1988]
 - [Mario Andres Cordoba 2001][research_marioandrescordoba_2001]
-- [Marshall 1984][research_marshall_1984]
 - [Marshall et al 2021][research_marshall_sun_2021]
 - [Martikan 1965][research_martikan_1965]
 - [Martin 1996][research_martin_1996]
@@ -4141,7 +4069,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Pei, Jing 2019][research_peijing_2019]
 - [Peigin and Postnikov 1987][research_peigin_postnikov_1987]
 - [Pence and Mohaghegh 2020][research_pence_mohaghegh_2020]
-- [Peng et al 2017][research_peng_wang_2017]
 - [Peng, Chia-Yen and Ortiz, Gary 2006][research_pengchiayen_ortizgary_2006]
 - [Penland, J. A. 1975][research_penlandja_1975]
 - [Penzo 1990][research_penzo_1990]
@@ -4312,7 +4239,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Schlegel, T. T. et al 2001][research_schlegeltt_brownte_2001]
 - [Schlegel, Todd T. et al 1999][research_schlegeltoddt_browntroye_1999]
 - [Schneider 2002][research_schneider_2002]
-- [Schneider 2007][research_schneider_2007]
 - [Schoenenberger et al 2014][research_schoenenberger_norman_2014]
 - [Schonberg and Squire 2024][research_schonberg_squire_2024]
 - [Schondorf et al 2001][research_schondorf_benoit_2001]
@@ -4323,7 +4249,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Sepka, Steven A. et al 2013][research_sepkastevena_zarchikerry_2013]
 - [Serrador et al 2000][research_serrador_shoemaker_2000]
 - [Sforza 2021][research_sforza_2021]
-- [Sforza 2021][research_sforza_2021_b]
 - [Sgobba and Kezirian 2016][research_sgobba_kezirian_2016]
 - [Shaffer and Brinkley 1974][research_shaffer_brinkley_1974]
 - [Shang and Surzhikov 2010][research_shang_surzhikov_2010]
@@ -4407,7 +4332,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Stern and Chu 1964][research_stern_chu_1964]
 - [Stewart 2000][research_stewart_2000]
 - [Stewart, Christine E. 2013][research_stewartchristinee_2013]
-- [Stilwell and Bishop 2001][research_stilwell_bishop_2001]
 - [Strahan, Alan 2001][research_strahanalan_2001]
 - [Streeten 1992][research_streeten_1992]
 - [Streeten 1999][research_streeten_1999]
@@ -4545,9 +4469,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Wang et al 2016][research_wang_li_2016]
 - [Wang et al 2021][research_wang_wang_2021]
 - [Wang et al 2022][research_wang_zhang_2022]
-- [Wang et al 2023][research_wang_xu_2023]
-- [Wang et al 2025][research_wang_wang_2025]
-- [Wang et al 2025][research_wang_xie_2025]
 - [Wang et al 2026][research_wang_he_2026]
 - [Wang et al 2026][research_wang_li_2026]
 - [Ward and Costello 2013][research_ward_costello_2013]
@@ -4561,7 +4482,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Wei and Nie 2005][research_wei_nie_2005]
 - [Wei and Pearson 1974][research_wei_pearson_1974]
 - [Wei et al 2024][research_wei_gao_2024]
-- [Wei et al 2024][research_wei_zhou_2024]
 - [Wei et al 2026][research_wei_wang_2026]
 - [Weilmuenster, K. James et al 1990][research_weilmuensterkjames_smithroberte_1990]
 - [Weilmuenster, K. James et al 1991][research_weilmuensterkjames_smithrobertejr_1991]
@@ -4612,19 +4532,13 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Wyllie 2001][research_wyllie_2001]
 - [Xia et al 2009][research_xia_tian_2009]
 - [Xie et al 2015][research_xie_zhou_2015]
-- [Xie et al 2017][research_xie_li_2017]
-- [Xie et al 2018][research_xie_li_2018]
-- [Xie et al 2019][research_xie_du_2019]
 - [Xie et al 2023][research_xie_wang_2023]
 - [Xing and Liang 2025][research_xing_liang_2025]
-- [Xing et al 2019][research_xing_xu_2019]
 - [Xing et al 2023][research_xing_gong_2023]
 - [Xing et al 2023][research_xing_zhao_2023]
 - [Xing et al 2024][research_xing_feng_2024]
-- [Xing et al 2025][research_xing_xu_2025]
 - [Xu and Wang 2026][research_xu_wang_2026]
 - [Xu et al 2011][research_xu_geng_2011]
-- [Xu et al 2016][research_xu_yang_2016]
 - [Xu et al 2025][research_xu_li_2025]
 - [Xue and Nakamura 2011][research_xue_nakamura_2011]
 - [Xue and Nakamura 2013][research_xue_nakamura_2013]
@@ -4644,7 +4558,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Yan et al 2026][research_yan_song_2026]
 - [Yanaga et al 2014][research_yanaga_murata_2014]
 - [Yang 2021][research_yang_2021]
-- [Yang 2026][research_yang_2026]
 - [Yang and Jeon 2019][research_yang_jeon_2019]
 - [Yang et al 2014][research_yang_choi_2014]
 - [Yang et al 2014][research_yang_zhu_2014]
@@ -4657,7 +4570,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Yang et al 2022][research_yang_feng_2022]
 - [Yang et al 2025][research_yang_tan_2025]
 - [Yang et al 2026][research_yang_sun_2026]
-- [Yanjie 2016][research_yanjie_2016]
 - [Yasumura and Kitamura 2021][research_yasumura_kitamura_2021]
 - [Yates et al 2003][research_yates_holmes_2003]
 - [Yates, B. J. and Kerman, I. A. 1998][research_yatesbj_kermania_1998]
@@ -4687,15 +4599,12 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Zarriello et al 1958][research_zarriello_norsworthy_1958]
 - [Zeb et al 2026][research_zeb_wang_2026]
 - [Zeng et al 2026][research_zeng_he_2026]
-- [Zhan et al 2025][research_zhan_yu_2025]
 - [Zhang and Wang 2024][research_zhang_wang_2024]
 - [Zhang et al 2004][research_zhang_xu_2004]
 - [Zhang et al 2006][research_zhang_accorsi_2006]
 - [Zhang et al 2012][research_zhang_gao_2012]
 - [Zhang et al 2013][research_zhang_cheng_2013]
 - [Zhang et al 2018][research_zhang_zhao_2018]
-- [Zhang et al 2019][research_zhang_wang_2019]
-- [Zhang et al 2021][research_zhang_wang_2021]
 - [Zhang et al 2021][research_zhang_yu_2021]
 - [Zhang et al 2022][research_zhang_yu_2022]
 - [Zhang et al 2023][research_zhang_yu_2023]
@@ -4730,7 +4639,6 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Zhu et al 2023][research_zhu_tao_2023]
 - [Zhu et al 2024][research_zhu_voo_2024]
 - [Zhu et al 2025][research_zhu_wu_2025]
-- [Zhu et al 2026][research_zhu_li_2026]
 - [Zhu et al 2026][research_zhu_yao_2026]
 - [Zhu, J. J. et al 2002][research_zhujj_lawrenceda_2002]
 - [Zhurin 2019][research_zhurin_2019]
@@ -4848,7 +4756,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_bhutada_goel_2021]: https://doi.org/10.1080/13588265.2021.1969845
 [research_bie_guo_2026]: https://doi.org/10.3390/biomimetics11010046
 [research_bihrle_jr_1989]: https://doi.org/10.21236/ada216582
-[research_bishop_2002]: https://doi.org/10.21236/ada627048
 [research_bishop_meloni_2008]: https://doi.org/10.21236/ada489743
 [research_biswalm_2023]: https://doi.org/10.61359/11.2106-2303
 [research_blaber_bondar_2004]: https://doi.org/10.1186/1472-6793-4-6
@@ -4947,10 +4854,8 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_chen_duan_2017]: https://doi.org/10.1117/1.oe.56.12.124105
 [research_chen_guo_2020]: https://doi.org/10.35530/it.071.06.1708
 [research_chen_mao_2026]: https://doi.org/10.1063/5.0335632
-[research_chen_sun_2022]: https://doi.org/10.3390/polym14224795
 [research_chen_wang_2021]: https://doi.org/10.1007/s12650-021-00797-5
 [research_chen_wang_2024]: https://doi.org/10.1080/15376494.2024.2312451
-[research_chen_xu_2020]: https://doi.org/10.1080/13588265.2020.1773739
 [research_chen_zhang_2012]: https://doi.org/10.4028/www.scientific.net/amm.200.617
 [research_cheng_chen_2016]: https://doi.org/10.1177/1528083716661203
 [research_cheng_yu_2012]: https://doi.org/10.3846/16487788.2012.753676
@@ -4959,7 +4864,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_chernjs_vinhnx_1978]: https://ntrs.nasa.gov/citations/19790013968
 [research_chester_2002]: https://doi.org/10.2514/2.2964
 [research_chiel_dever_2015]: https://doi.org/10.2514/1.g000676
-[research_chiel_dever_2024]: https://doi.org/10.2514/1.g000676.c1
 [research_childress_williams_2023]: https://doi.org/10.1038/s41526-023-00275-2
 [research_cho_lee_2025]: https://doi.org/10.3390/aerospace12040332
 [research_christensen_2017]: https://doi.org/10.1016/j.actaastro.2017.07.012
@@ -5101,7 +5005,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_faulders_lekawa_1968]: https://doi.org/10.2514/3.29388
 [research_feng_zhang_2025]: https://doi.org/10.3390/aerospace12090810
 [research_feng_zhao_2015]: https://doi.org/10.4028/www.scientific.net/amm.713-715.274
-[research_fenucci_fanelli_2024]: https://doi.org/10.1016/j.conengprac.2024.105902
 [research_fernandezgonzalo_schneider_2025]: https://doi.org/10.1113/ep091737
 [research_fields_2016]: https://doi.org/10.2514/1.c033524
 [research_figucia_jr_1968]: https://doi.org/10.21236/ad0668910
@@ -5136,7 +5039,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_french_1969_b]: https://doi.org/10.2514/3.44070
 [research_french_1971]: https://doi.org/10.2514/3.44290
 [research_french_1971_b]: https://doi.org/10.2514/3.30220
-[research_french_1972]: https://doi.org/10.2514/3.58985
 [research_french_1980]: https://doi.org/10.2514/3.57735
 [research_freudenburg_1984]: https://doi.org/10.1080/07349165.1984.9725524
 [research_freudenburg_1988]: https://doi.org/10.1126/science.3175635
@@ -5154,7 +5056,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_galigher_1969]: https://doi.org/10.21236/ad0861437
 [research_gallonjohnc_clarkiang_2013]: https://ntrs.nasa.gov/citations/20150007471
 [research_galman_1966]: https://doi.org/10.2514/3.28592
-[research_galman_1966_b]: https://doi.org/10.2514/3.61608
 [research_galman_1971]: https://doi.org/10.2514/3.30243
 [research_gang_2015]: https://doi.org/10.1016/j.proeng.2014.12.614
 [research_gao_charles_2017]: https://doi.org/10.2514/1.j054997
@@ -5226,12 +5127,10 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_guglielmo_omar_2019]: https://doi.org/10.2514/1.a34218
 [research_guglieri_2012]: https://doi.org/10.1155/2012/182907
 [research_guidotti_richiello_2012]: https://doi.org/10.2514/1.a32163
-[research_guler_elitok_2007]: https://doi.org/10.1080/13588260701485297
 [research_gunasinghe_dias_2017]: https://doi.org/10.5815/ijitcs.2017.03.03
 [research_guo_gao_2026]: https://doi.org/10.1371/journal.pone.0343305
 [research_guo_xia_2012]: https://doi.org/10.1016/j.proeng.2012.01.241
 [research_guo_xing_2023]: https://doi.org/10.1007/s11071-023-08570-z
-[research_guo_xu_2023]: https://doi.org/10.1007/s00158-023-03629-2
 [research_guo_yan_2021]: https://doi.org/10.1007/s10846-021-01339-9
 [research_guo_yan_2023]: https://doi.org/10.3390/aerospace10040348
 [research_guo_yang_2023]: https://doi.org/10.1016/j.aej.2023.04.004
@@ -5244,7 +5143,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_haberman_seepersad_2012]: https://doi.org/10.21236/ada582743
 [research_hackenberger_mattenson_1965]: https://doi.org/10.21236/ad0614231
 [research_hacker_1992]: https://doi.org/10.1177/030631292022002012
-[research_hagiwara_zhao_2018]: https://doi.org/10.1299/jsmedmc.2018.245
 [research_hainsworth_1998]: https://doi.org/10.1093/qjmed/91.11.715
 [research_hall_nowlan_1978]: https://doi.org/10.2514/3.57288
 [research_hamilton_sargsyan_2011]: https://doi.org/10.1111/j.1540-8175.2011.01385.x
@@ -5277,7 +5175,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_hershman_2005]: https://doi.org/10.21236/ada431814
 [research_high_drag_1985]: https://doi.org/10.1108/eb036185
 [research_hinghoferszalkay_rossler_2005]: https://doi.org/10.2174/1389201054553707
-[research_hinostroza_lekkas_2024]: https://doi.org/10.1016/j.oceaneng.2024.117104
 [research_hodell_rosner_1957]: https://doi.org/10.21236/ad0142103
 [research_hoffman_1999]: https://doi.org/10.21236/ada631462
 [research_hoffmanel_mcgheejr_1961]: https://ntrs.nasa.gov/citations/20070030968
@@ -5354,12 +5251,10 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_jeong_suzuki_2009]: https://doi.org/10.2514/1.36302
 [research_jernellls_1971]: https://ntrs.nasa.gov/citations/19710019385
 [research_jia_bao_2024]: https://doi.org/10.34133/space.0116
-[research_jia_bao_2024_b]: https://doi.org/10.34133/space.0177
 [research_jia_wang_2014]: https://doi.org/10.1360/092014-16
 [research_jiang_cai_2025]: https://doi.org/10.1088/1742-6596/3041/1/012016
 [research_jiang_jia_2022]: https://doi.org/10.34133/2022/9851982
 [research_jiang_tian_2023]: https://doi.org/10.1007/s11517-023-02913-z
-[research_jie_lin_2014]: https://doi.org/10.2174/1874155x20140501002
 [research_jin_zeng_2026]: https://doi.org/10.1016/j.ast.2026.113411
 [research_jits_wright_2005]: https://doi.org/10.2514/1.13428
 [research_johari_desabrais_2002]: https://doi.org/10.21236/ada411095
@@ -5378,7 +5273,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_jung_koo_2016]: https://doi.org/10.7746/jkros.2016.11.4.262
 [research_justinlittell_jacobputnam]: https://ntrs.nasa.gov/citations/20230002572
 [research_kachadourian_1970]: https://doi.org/10.1121/1.1974183
-[research_kaczynski_skwarski_2024]: https://doi.org/10.3390/ma17174407
 [research_kallay_1966]: https://doi.org/10.2514/3.28549
 [research_kalro_tezduyar_2000]: https://doi.org/10.1016/s0045-7825(00)00204-8
 [research_kanai_takizawa_2018]: https://doi.org/10.1007/s00466-018-1595-4
@@ -5510,7 +5404,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_li_huang_2012]: https://doi.org/10.4028/www.scientific.net/amm.200.3
 [research_li_jiang_2020]: https://doi.org/10.1155/2020/2361534
 [research_li_jiang_2025]: https://doi.org/10.1007/s40435-025-01630-9
-[research_li_peng_2024]: https://doi.org/10.1016/j.engstruct.2023.117287
 [research_li_qu_2023]: https://doi.org/10.3390/aerospace10010051
 [research_li_sun_2025]: https://doi.org/10.23967/j.rimni.2025.10.65194
 [research_li_teng_2016]: https://doi.org/10.1007/s11771-016-3285-8
@@ -5560,7 +5453,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_lv_he_2020]: https://doi.org/10.1109/access.2020.2977535
 [research_lykoudis_1964]: https://doi.org/10.2514/3.2253
 [research_lyons_1977]: https://doi.org/10.1051/rphysap:01977001202038500
-[research_ma_lan_2015]: https://doi.org/10.1179/1432891715z.0000000001379
 [research_ma_li_2021]: https://doi.org/10.1080/13588265.2021.1889234
 [research_ma_zhang_2015]: https://doi.org/10.1016/j.proeng.2015.08.1075
 [research_macconochieiano_2000]: https://ntrs.nasa.gov/citations/20000115607
@@ -5580,7 +5472,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_mano_iwase_2003]: https://doi.org/10.1046/j.1365-201x.2003.01081.x
 [research_march_1988]: https://doi.org/10.1016/0265-9646(88)90009-4
 [research_marioandrescordoba_2001]: https://doi.org/10.1016/s1474-6670(17)40758-0
-[research_marshall_1984]: https://doi.org/10.1126/science.223.4640.1042
 [research_marshall_sun_2021]: https://doi.org/10.1016/j.arcontrol.2021.10.013
 [research_martikan_1965]: https://doi.org/10.2514/3.28137
 [research_martin_1996]: https://doi.org/10.21236/ada315263
@@ -5776,7 +5667,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_peigin_postnikov_1987]: https://doi.org/10.1007/bf00872030
 [research_peijing_2019]: https://ntrs.nasa.gov/citations/20200002651
 [research_pence_mohaghegh_2020]: https://doi.org/10.1111/risa.13468
-[research_peng_wang_2017]: https://doi.org/10.1016/j.tws.2017.09.006
 [research_pengchiayen_ortizgary_2006]: https://ntrs.nasa.gov/citations/20070021683
 [research_penlandja_1975]: https://ntrs.nasa.gov/citations/19750007539
 [research_penzo_1990]: https://doi.org/10.2514/3.26160
@@ -5947,7 +5837,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_schlegeltoddt_browntroye_1999]: https://ntrs.nasa.gov/citations/20000085869
 [research_schlegeltt_brownte_2001]: https://ntrs.nasa.gov/citations/20040112643
 [research_schneider_2002]: https://doi.org/10.1016/s0951-8320(01)00135-1
-[research_schneider_2007]: https://doi.org/10.2514/1.30727
 [research_schoenenberger_norman_2014]: https://doi.org/10.2514/1.a32794
 [research_schonberg_squire_2024]: https://doi.org/10.1016/j.jsse.2023.11.007
 [research_schondorf_benoit_2001]: https://doi.org/10.1111/j.1749-6632.2001.tb03702.x
@@ -5958,7 +5847,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_sepkastevena_zarchikerry_2013]: https://ntrs.nasa.gov/citations/20140000205
 [research_serrador_shoemaker_2000]: https://doi.org/10.1016/s0361-9230(00)00315-4
 [research_sforza_2021]: https://doi.org/10.2514/1.a35011
-[research_sforza_2021_b]: https://doi.org/10.2514/1.a35011.c1
 [research_sgobba_kezirian_2016]: https://doi.org/10.1016/s2468-8967(16)30002-7
 [research_shaffer_brinkley_1974]: https://doi.org/10.21236/ada459005
 [research_shang_surzhikov_2010]: https://doi.org/10.2514/1.49923
@@ -6042,7 +5930,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_stern_chu_1964]: https://doi.org/10.2514/3.27674
 [research_stewart_2000]: https://doi.org/10.1300/j092v08n02_05
 [research_stewartchristinee_2013]: https://ntrs.nasa.gov/citations/20140003545
-[research_stilwell_bishop_2001]: https://doi.org/10.21236/ada625233
 [research_strahanalan_2001]: https://ntrs.nasa.gov/citations/20100033368
 [research_streeten_1992]: https://doi.org/10.1001/archinte.1992.00400170138025
 [research_streeten_1999]: https://doi.org/10.1016/s0002-9629(15)40481-1
@@ -6179,9 +6066,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_wang_li_2026]: https://doi.org/10.1088/1742-6596/3240/1/012007
 [research_wang_ozawa_2013]: https://doi.org/10.2514/1.j051627
 [research_wang_wang_2021]: https://doi.org/10.2514/1.a34918
-[research_wang_wang_2025]: https://doi.org/10.1007/s40997-025-00877-z
-[research_wang_xie_2025]: https://doi.org/10.1080/15397734.2025.2498087
-[research_wang_xu_2023]: https://doi.org/10.3934/era.2023181
 [research_wang_yang_2023]: https://doi.org/10.3390/aerospace10100905
 [research_wang_zhang_2022]: https://doi.org/10.1016/j.compstruct.2022.116149
 [research_ward_costello_2012]: https://doi.org/10.2514/1.53364
@@ -6196,7 +6080,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_wei_nie_2005]: https://doi.org/10.2514/1.6801
 [research_wei_pearson_1974]: https://doi.org/10.21236/ada013009
 [research_wei_wang_2026]: https://doi.org/10.1016/j.asr.2026.02.059
-[research_wei_zhou_2024]: https://doi.org/10.1080/15376494.2024.2376342
 [research_weilmuensterkjames_smithroberte_1990]: https://ntrs.nasa.gov/citations/19900032688
 [research_weilmuensterkjames_smithrobertejr_1991]: https://ntrs.nasa.gov/citations/19920000943
 [research_welgekirsten_moorealicia_2000]: https://ntrs.nasa.gov/citations/20010000880
@@ -6246,21 +6129,15 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_wurster_riley_1999]: https://doi.org/10.2514/2.3452
 [research_wyllie_2001]: https://doi.org/10.1108/00022660110696696
 [research_xia_tian_2009]: https://doi.org/10.1142/s0217984909018266
-[research_xie_du_2019]: https://doi.org/10.1080/13588265.2019.1688506
-[research_xie_li_2017]: https://doi.org/10.1007/s00158-017-1829-7
-[research_xie_li_2018]: https://doi.org/10.1007/s00158-018-2022-3
 [research_xie_wang_2023]: https://doi.org/10.1016/j.apm.2023.05.001
 [research_xie_zhou_2015]: https://doi.org/10.4028/www.scientific.net/amm.742.608
 [research_xing_feng_2024]: https://doi.org/10.1061/jaeeez.aseng-5340
 [research_xing_gong_2023]: https://doi.org/10.1061/jaeeez.aseng-4856
 [research_xing_liang_2025]: https://doi.org/10.3724/j.issn.2096-9287.2025.20250045
-[research_xing_xu_2019]: https://doi.org/10.1080/13588265.2019.1577522
-[research_xing_xu_2025]: https://doi.org/10.1016/j.engstruct.2025.120603
 [research_xing_zhao_2023]: https://doi.org/10.1016/j.compstruct.2023.117193
 [research_xu_geng_2011]: https://doi.org/10.4028/www.scientific.net/amr.328-330.2198
 [research_xu_li_2025]: https://doi.org/10.1007/s42405-025-01049-8
 [research_xu_wang_2026]: https://doi.org/10.1016/j.tws.2025.114382
-[research_xu_yang_2016]: https://doi.org/10.1016/j.matdes.2016.04.059
 [research_xue_jia_2022]: https://doi.org/10.1016/j.cja.2021.05.006
 [research_xue_koyama_2013]: https://doi.org/10.2322/tastj.11.33
 [research_xue_nakamura_2011]: https://doi.org/10.3850/s2010428611000122
@@ -6279,7 +6156,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_yan_wang_2014]: https://doi.org/10.1016/j.proeng.2014.09.091
 [research_yanaga_murata_2014]: https://doi.org/10.1299/jsmekyushu.2014.67._823-1_
 [research_yang_2021]: https://doi.org/10.3846/aviation.2021.15131
-[research_yang_2026]: https://doi.org/10.1088/1742-6596/3254/3/032010
 [research_yang_choi_2014]: https://doi.org/10.12673/jant.2014.18.3.215
 [research_yang_feng_2022]: https://doi.org/10.1088/1742-6596/2383/1/012078
 [research_yang_jeon_2019]: https://doi.org/10.2514/1.g003944
@@ -6292,7 +6168,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_yang_yu_2019]: https://doi.org/10.1177/1528083719844605
 [research_yang_yu_2020]: https://doi.org/10.1016/j.cja.2020.03.005
 [research_yang_zhu_2014]: https://doi.org/10.1360/092014-46
-[research_yanjie_2016]: https://doi.org/10.15407/fm23.01.146
 [research_yasumura_kitamura_2021]: https://doi.org/10.1299/jsmemecj.2021.s191-01
 [research_yates_holmes_2003]: https://doi.org/10.3233/ves-2003-134-621
 [research_yatesbj_kermania_1998]: https://ntrs.nasa.gov/citations/20040142190
@@ -6322,7 +6197,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_zarriello_norsworthy_1958]: https://doi.org/10.21236/ad0468310
 [research_zeb_wang_2026]: https://doi.org/10.3390/buildings16122349
 [research_zeng_he_2026]: https://doi.org/10.1007/s11071-026-12921-x
-[research_zhan_yu_2025]: https://doi.org/10.1080/15376494.2025.2489139
 [research_zhang_accorsi_2006]: https://doi.org/10.2514/1.14933
 [research_zhang_cheng_2013]: https://doi.org/10.4028/www.scientific.net/amm.390.33
 [research_zhang_gao_2012]: https://doi.org/10.1007/s11071-012-0586-9
@@ -6330,8 +6204,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_zhang_hu_2026]: https://doi.org/10.2514/1.j066725
 [research_zhang_liu_2025]: https://doi.org/10.1016/j.ast.2025.110487
 [research_zhang_pu_2024]: https://doi.org/10.1186/s42774-023-00162-0
-[research_zhang_wang_2019]: https://doi.org/10.1080/13588265.2018.1550911
-[research_zhang_wang_2021]: https://doi.org/10.1080/13588265.2021.1914978
 [research_zhang_wang_2024]: https://doi.org/10.1051/mfreview/2024011
 [research_zhang_xu_2004]: https://doi.org/10.1504/ijvas.2004.006108
 [research_zhang_yu_2021]: https://doi.org/10.1016/j.ast.2020.106400
@@ -6352,7 +6224,6 @@ distinct reason for a thin record and a different one again from the five the pr
 [research_zhou_wang_1987]: https://doi.org/10.1016/0094-5765(87)90016-6
 [research_zhou_yao_2024]: https://doi.org/10.1080/13588265.2024.2423450
 [research_zhou_zhang_2025]: https://doi.org/10.1088/1742-6596/3067/1/012029
-[research_zhu_li_2026]: https://doi.org/10.1016/j.engstruct.2026.122771
 [research_zhu_shi_2025]: https://doi.org/10.54097/ha1h9s67
 [research_zhu_sun_2014]: https://doi.org/10.1007/s11071-014-1690-9
 [research_zhu_sun_2021]: https://doi.org/10.1007/s11071-021-06486-0

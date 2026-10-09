@@ -531,7 +531,7 @@ with $R_n$ the effective nose radius in metres and $k = 1.7415 \times 10^{-4}$ i
 
 $$\dot{q}_s = 1.7415 \times 10^{-4} \times \sqrt{\frac{0.0157}{0.10}} \times 2021^3 = 5.7 \times 10^{5} \ \text{watts per square metre}$$
 
-or 569 kilowatts per square metre. Whether the structure can be treated as isothermal through its thickness is decided by the Biot number
+or 570 kilowatts per square metre. Whether the structure can be treated as isothermal through its thickness is decided by the Biot number
 
 $$Bi = \frac{h_c t_w}{k_w}$$
 
@@ -599,7 +599,7 @@ and it is fast enough to be handled by the pilot as an immediate response. The p
 
 $$\omega_{ph} \approx \frac{g \sqrt{2}}{V}$$
 
-which for an aircraft at 300 metres per second gives a period of about 44 seconds. Its damping ratio depends only on the aerodynamic efficiency,
+which for an aircraft at 300 metres per second gives a period of about 136 seconds. Its damping ratio depends only on the aerodynamic efficiency,
 
 $$\zeta_{ph} \approx \frac{1}{\sqrt{2}} \frac{1}{L / D}$$
 
@@ -743,7 +743,7 @@ $$\eta = \frac{|D| - |U|}{|D|} = \frac{76 - 11}{76} = 0.855$$
 
 so roughly one designation in seven in the nominal range corresponds to nothing.
 
-The relation fails to be a function at the X-44, which was applied both to the tailless delta derivative of the F-22 known as the [Lockheed Martin X-44 MANTA][ref_lm_x44] and to a separate unmanned programme, and at the X-42, which the two sources that mention it describe as two different vehicles. A number with two vehicles is a record-keeping collision. The assignment is contested at the X-23, which is generally attributed to the Martin Marietta SV-5D PRIME while United States Air Force nomenclature records reportedly show that X-23A was never formally assigned. The series states that conflict rather than resolving it. The [X-41 Common Aero Vehicle][ref_x41_cav] of the Falcon Project run by the Defense Advanced Research Projects Agency, or [DARPA][ref_darpa_falcon], is a third kind of gap, being assigned to a vehicle whose specifications have never been released.
+The relation fails to be a function at the X-44, which was applied both to the tailless delta derivative of the F-22 known as the [Lockheed Martin X-44 MANTA][ref_lm_x44] and to a separate unmanned programme, and at the X-42, which the two sources that mention it describe as two different vehicles. A number with two vehicles is a record-keeping collision. The assignment is contested at the X-23, which is generally attributed to the Martin Marietta SV-5D of the Precision Recovery Including Maneuvering Entry programme, or PRIME, while United States Air Force nomenclature records reportedly show that X-23A was never formally assigned. The series states that conflict rather than resolving it. The [X-41 Common Aero Vehicle][ref_x41_cav] of the Falcon Project run by the Defense Advanced Research Projects Agency, or [DARPA][ref_darpa_falcon], is a third kind of gap, being assigned to a vehicle whose specifications have never been released.
 
 Injectivity fails at four pairs, each a single programme holding two numbers. The X-11 and X-12 were both [Atlas][ref_sm65_atlas] development vehicles. The X-32 and X-35 were the [Boeing][ref_boeing_x32] and [Lockheed Martin][ref_lm_x35] demonstrators of the Joint Strike Fighter concept demonstration. The X-46 and X-47 were the [Boeing][ref_boeing_x46] and [Northrop Grumman][ref_ng_x47b] demonstrators for the Navy unmanned combat air vehicle. The X-63 and X-64 were allocated on the same day in 2022 to the Aerospike Rocket Integration and Suborbital Experiment, as the register of allocations records in the [Department of Defense 4120.15-L Addendum][ref_mds_addendum]. A programme with two numbers is the system counting something other than programmes, and the individual articles say what.
 
@@ -777,7 +777,7 @@ The seventy-two articles divide by what the record supports rather than by what 
 
 Full treatments cover aircraft that flew, generated public technical reports, and for which a keystone can be identified and its consequences traced through the design. The primary flight literature for the modern members of this class is thinner than for the early ones but it is not absent, and it includes the reusable launch vehicle technology reports covering the X-33 in [NASA 1995][research_x33_rlv_1995] and the X-34 in [NASA 1997][research_x34_rlv_1997], the approach and landing test results for the X-37 in [NASA 2004][research_x37_alt_2004], the parachute qualification for the X-38 in [NASA 2005][research_x38_parachute_2005], the Hyper-X programme status of [Rausch 2001][research_rausch_2001_hyper_x] with the aerodynamic database of [Engelund 2000][research_engelund_2000_x43], the technology summary of [Voland Huebner and McClinton 2005][research_voland_2005_x43], the flight-determined forces and moments of [NASA 2008][research_x43a_forces_2008], the transonic flight loads on the Active Aeroelastic Wing in [NASA 2005][research_x53_aaw_2005], the X-56A account of [Beranek 2019][research_beranek_2019_x56a], the distributed electric propulsion design of [Borer 2016][research_borer_2016_x57], and the inlet distortion testing for the X-59 in [NASA 2022][research_x59_inlet_2022]. This class includes the X-1, the X-2, the X-3, the [Northrop X-4 Bantam][ref_northrop_x4], the [Bell X-5][ref_bell_x5], the [Ryan X-13 Vertijet][ref_ryan_x13], the [Bell X-14][ref_bell_x14], the X-15, the [Hiller X-18][ref_hiller_x18], the [Curtiss-Wright X-19][ref_curtiss_wright_x19], the X-21, the [Bell X-22][ref_bell_x22], the X-24, the X-29, the X-31, the X-32, the [Lockheed Martin X-33][ref_lm_x33], the X-35, the [McDonnell Douglas X-36][ref_mcdonnell_x36], the X-38, the X-43, the [Boeing X-45][ref_boeing_x45], the [Northrop Grumman X-47B][ref_ng_x47b], the X-48, the X-51, the [Boeing X-53 Active Aeroelastic Wing][ref_boeing_x53], the X-56, the [NASA X-57 Maxwell][ref_nasa_x57], the [Lockheed Martin X-59 Quesst][ref_lm_x59], and the X-62. These articles carry the full twelve-section order.
 
-Documentation-poor treatments cover aircraft that existed but generated little surviving public record, aircraft cancelled before flight, and aircraft whose programmes remain partly classified. This class includes the [Convair X-6][ref_convair_x6] nuclear-powered bomber testbed, the [Lockheed X-7][ref_lockheed_x7] and [Lockheed X-17][ref_lockheed_x17] propulsion and reentry testbeds, the [Aerobee][ref_aerobee] sounding rocket designated X-8, the [Bell X-9 Shrike][ref_bell_x9] and [North American X-10][ref_na_x10] missile development airframes, the X-11 and X-12 [Atlas][ref_sm65_atlas] development vehicles, the [Bell X-16][ref_bell_x16] reconnaissance aircraft cancelled in favour of the [Lockheed U-2][ref_lockheed_u2], the X-20, the [Bensen X-25][ref_bensen_x25], the [Schweizer X-26 Frigate][ref_schweizer_x26], the [Lockheed X-27][ref_lockheed_x27], the [Osprey flown as the X-28A][ref_pereira_x28], the X-30, the [Orbital Sciences X-34][ref_orbital_x34], the [Boeing X-40][ref_boeing_x40], the [Boeing X-46][ref_boeing_x46], the [Piasecki X-49][ref_piasecki_x49], the [Boeing X-50 Dragonfly][ref_boeing_x50], the [Lockheed Martin X-55][ref_lm_x55], the [Gulfstream X-54][ref_gulfstream_x54], the [Generation Orbit X-60][ref_generation_orbit_x60], the [Dynetics X-61 Gremlins][ref_dynetics_x61], the [Aurora X-65 CRANE][ref_aurora_x65], and the [Boeing X-66][ref_boeing_x66]. These articles keep the full section order but run short, and they state explicitly what the record does not contain.
+Documentation-poor treatments cover aircraft that existed but generated little surviving public record, aircraft cancelled before flight, and aircraft whose programmes remain partly classified. This class includes the [Convair X-6][ref_convair_x6] nuclear-powered bomber testbed, the [Lockheed X-7][ref_lockheed_x7] and [Lockheed X-17][ref_lockheed_x17] propulsion and reentry testbeds, the [Aerobee][ref_aerobee] sounding rocket designated X-8, the [Bell X-9 Shrike][ref_bell_x9] and [North American X-10][ref_na_x10] missile development airframes, the X-11 and X-12 [Atlas][ref_sm65_atlas] development vehicles, the [Bell X-16][ref_bell_x16] reconnaissance aircraft cancelled in favour of the [Lockheed U-2][ref_lockheed_u2], the X-20, the [Bensen X-25][ref_bensen_x25], the [Schweizer X-26 Frigate][ref_schweizer_x26], the [Lockheed X-27][ref_lockheed_x27], the [Osprey flown as the X-28A][ref_pereira_x28], the X-30, the [Orbital Sciences X-34][ref_orbital_x34], the [Boeing X-40][ref_boeing_x40], the [Boeing X-46][ref_boeing_x46], the [Piasecki X-49][ref_piasecki_x49], the [Boeing X-50 Dragonfly][ref_boeing_x50], the [Gulfstream X-54][ref_gulfstream_x54], the [Lockheed Martin X-55][ref_lm_x55], the [Generation Orbit X-60][ref_generation_orbit_x60], the [Dynetics X-61 Gremlins][ref_dynetics_x61], the [Aurora X-65 CRANE][ref_aurora_x65], and the [Boeing X-66][ref_boeing_x66]. These articles keep the full section order but run short, and they state explicitly what the record does not contain.
 
 Designation-anomaly treatments cover the nine cases where the subject is the number rather than an aircraft. These are the X-23 contested assignment, the X-39 reservation that was never formalized, the classified X-41, the contradictory X-42, the duplicated X-44, the refused X-52, the skipped X-58 and X-67, and the leapfrogged X-69 through X-75 block. These articles are short by design, and padding them would obscure the point. An article establishing that the X-52 designation was requested in 2006, was refused because of possible confusion with the B-52, and that the programme continued as the X-53 has said everything the record supports.
 
@@ -793,7 +793,7 @@ The fixed-wing uncrewed aircraft series supplies the sizing machinery in a moder
 
 The aerospace and information technology co-development series, beginning at [A237 Framing and the Co-Development Mechanism][related_post_a237_aerospace_framing], treats the computing side of the same institutions, and its later articles on [A247 Software-Defined Aerospace and Autonomy][related_post_a247_software_defined_aerospace] cover the transition to the unmanned demonstrators that dominate the late X-series.
 
-The [A281 History of SpaceX][related_post_a281_spacex_framing] series treats the institutional and capital-formation questions that the closing article of this series raises about the modern designations, particularly the shift from service sponsorship to laboratory and commercial sponsorship, and its treatment of commercial spinoff dynamics in [A291][related_post_a291_spacex_spinoff] bears directly on the reusable launch demonstrators covered here.
+The [A281 History of SpaceX][related_post_a281_spacex_framing] series treats the institutional and capital-formation questions that the closing article of this series raises about the modern designations, particularly the shift from service sponsorship to laboratory and commercial sponsorship, and its treatment of commercial spinoff dynamics in [History of SpaceX: The Category-Dominating Commercial Spinoff and the Internalization of Anchor Demand][related_post_a291_spacex_spinoff] bears directly on the reusable launch demonstrators covered here.
 
 ## Historiographical Situation and the Source Base
 
@@ -809,7 +809,7 @@ The contemporary record thins sharply. Programmes after roughly 2000 generate pr
 
 Three specific gaps are worth naming in advance. The X-23 attribution conflict has not been resolved in the public literature. The X-42 is described inconsistently across the two sources that mention it at all, one calling it an expendable liquid-propellant upper stage and the other a military spaceplane test vehicle, and no dedicated treatment exists anywhere. The X-44 duplication is documented but the sequence of events that produced it is not.
 
-**The research survey was read again in full on 7 October 2026, and the re-reading refused none of its records.** All 131 research works were read by title, the five that the vocabulary screen flagged and the 126 it passed, and each belongs to the aerodynamic, propulsion, structural, measurement or experiment-design literature this article uses, so the total stays at 131 and the estimated remaining contamination is zero. The one doubtful record is the spinal rod model study of [Nagaraja and Loughran 2020][research_nagaraja_loughran_2020], which is kept because the article cites it for model credibility as a method rather than for its subject.
+**The research survey was read again in full on 7 October 2026, and the re-reading refused none of its records.** All 131 research works were read by title, the five that the vocabulary screen flagged and the 126 it passed, and that reading kept every one. The one doubtful record was a 2020 study of spinal rod computational models, kept at the time because the article cited it for model credibility as a method rather than for its subject. **A review on 8 October 2026 judged that study off topic and removed it, so the survey now holds 130 research works.** Its subject is a surgical implant rather than any vehicle or flight-test method this article treats, and the paragraph on experiment design now cites only the aerospace validation study for model credibility. No second seeded sample could be drawn, because every research title had already been read in full, and that complete reading leaves no record known to be off topic. A reading of titles cannot show that a work is relevant in substance, so this is a statement about titles only. A check on 8 October 2026 for records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, and journal front matter such as covers, contents lists, reviewer lists and indexes, found none and removed none, so the total stays at 130.
 
 ## The Contemporary Literature
 
@@ -835,7 +835,7 @@ This is the thread where the contemporary literature has moved furthest from the
 
 ### Configuration and Propulsion Integration
 
-The two most recent designations in the series sit directly on active literatures. The X-66 truss-braced wing has a design literature of its own, including the slotted-cruise optimization of [Chau and Piotrowski 2026][research_chau_piotrowski_2026] and the stability-margin study of [Li and Qiao 2023][research_li_qiao_2023]. The X-57 distributed electric propulsion concept is now a design discipline rather than a demonstration, with structural modelling in [Alonso Castilla and Lutz 2021][research_castilla_lutz_2021], propeller design for the high-disc-loading case in [Shi and Huo 2024][research_shi_huo_2024], and hybrid architectures in [Xiao and Tan 2024][research_xiao_tan_2024]. The adjacent electric vertical takeoff and landing sector described in [NASA 2021][research_evtol_2021] inherits the vertical-flight questions that the X-13 through X-22 block opened and never resolved, which is one of the more striking continuities in the whole series.
+Two recent designations in the series sit directly on active literatures. The X-66 truss-braced wing has a design literature of its own, including the slotted-cruise optimization of [Chau and Piotrowski 2026][research_chau_piotrowski_2026] and the stability-margin study of [Li and Qiao 2023][research_li_qiao_2023]. The X-57 distributed electric propulsion concept is now a design discipline rather than a demonstration, with structural modelling in [Alonso Castilla and Lutz 2021][research_castilla_lutz_2021], propeller design for the high-disc-loading case in [Shi and Huo 2024][research_shi_huo_2024], and hybrid architectures in [Xiao and Tan 2024][research_xiao_tan_2024]. The adjacent electric vertical takeoff and landing sector described in [NASA 2021][research_evtol_2021] inherits the vertical-flight questions that the X-13 through X-22 block opened and never resolved, which is one of the more striking continuities in the whole series.
 
 ### Sonic Boom and the Supersonic Transport Question
 
@@ -843,7 +843,7 @@ The X-59 exists because the overland supersonic ban is a regulatory fact rather 
 
 ### Experiment Design, System Identification, and Uncertainty
 
-The Bayesian framing this article opens with is itself an active field. [Kennamer and Walton 2023][research_kennamer_walton_2023] address the computational cost of optimal design directly through amortization, and [Zemplenyi and Miller 2023][research_zemplenyi_miller_2023] extend optimal design to structural inference. On the flight-test side, [Grauer and Morelli 2023][research_grauer_morelli_2023] introduce a collection surveying advances in aircraft system identification, which is the discipline that turns the measurements of the previous section into the derivatives of the section before it. Model credibility has become a formal subject in its own right through [Nagaraja and Loughran 2020][research_nagaraja_loughran_2020] and [Liu and Li 2026][research_liu_li_2026], and parameter identification for unconventional configurations is treated by [Wang and Tai 2022][research_wang_tai_2022] and [Wang and Zhao 2022][research_wang_zhao_2022]. The measurement side has advanced too, with [Ahlefeldt 2017][research_ahlefeldt_2017] describing microphone array measurement in a transonic tunnel.
+The Bayesian framing this article opens with is itself an active field. [Kennamer and Walton 2023][research_kennamer_walton_2023] address the computational cost of optimal design directly through amortization, and [Zemplenyi and Miller 2023][research_zemplenyi_miller_2023] extend optimal design to structural inference. On the flight-test side, [Grauer and Morelli 2023][research_grauer_morelli_2023] introduce a collection surveying advances in aircraft system identification, which is the discipline that turns the measurements of Instrumentation and Data Reduction into the derivatives of Stability and Control. Model credibility has become a formal subject in its own right through [Liu and Li 2026][research_liu_li_2026], and parameter identification for unconventional configurations is treated by [Wang and Tai 2022][research_wang_tai_2022] and [Wang and Zhao 2022][research_wang_zhao_2022]. The measurement side has advanced too, with [Ahlefeldt 2017][research_ahlefeldt_2017] describing microphone array measurement in a transonic tunnel.
 
 Two adjacent literatures now bear on all of the above. Machine learning has entered fluid mechanics as a modelling tool rather than a curiosity, surveyed by [Brunton and Noack 2020][research_brunton_noack_2020] and constrained toward physical realisability by [McConkey and Kalia 2025][research_mcconkey_kalia_2025]. And the certification of autonomy, treated for the unmanned case by [NASA 2017][research_uas_nas_2017], is the question the X-62 exists to address in the manned case.
 
@@ -1259,7 +1259,6 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [NACA 1953 Measurements Obtained During the Glide-Flight Program of the Bell X-2][research_x2_glide_1953]
 - [NACA 1953 Measurements of Maximum Lift and Buffeting Intensities Obtained on the Northrop X-4][research_x4_buffet_1953]
 - [NACA 1954 Flight-Determined Pressure Measurements over the Wing of the Douglas D-558][research_d558_pressures_1954]
-- [Nagaraja and Loughran 2020 Verification, Validation, and Uncertainty Quantification][research_nagaraja_loughran_2020]
 - [NASA 1958 Research-Airplane-Committee Report on the Conference on the Progress of the X-15 Project][research_x15_conference_1958]
 - [NASA 1973 Flight-Measured X-24A Lifting Body Control Surface Hinge Moments][research_x24a_hinge_1973]
 - [NASA 1992 Laminar Flow Flight Experiments, A Review][research_laminar_flow_review_1992]
@@ -1347,115 +1346,115 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 - [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
 - [A97 What Does the United States Space Force Do][related_post_a97_us_space_force]
 
-[book_anderson_1997_history_aerodynamics]: https://openlibrary.org/search?q=Anderson+A+History+of+Aerodynamics
-[book_anderson_2001_fundamentals]: https://openlibrary.org/search?q=Anderson+Fundamentals+of+Aerodynamics
-[book_anderson_2002_airplane_history]: https://openlibrary.org/search?q=Anderson+The+Airplane+A+History+of+Its+Technology
-[book_anderson_2002_modern_compressible]: https://openlibrary.org/search?q=Anderson+Modern+Compressible+Flow
-[book_anderson_2006_hypersonic]: https://openlibrary.org/search?q=Anderson+Hypersonic+and+High+Temperature+Gas+Dynamics
-[book_anderson_2012_aircraft_performance]: https://openlibrary.org/search?q=Anderson+Aircraft+Performance+and+Design
-[book_anderson_2012_introduction_flight]: https://openlibrary.org/search?q=Anderson+Introduction+to+Flight
-[book_ashley_landahl_1965]: https://openlibrary.org/search?q=Ashley+Landahl+Aerodynamics+of+Wings+and+Bodies
-[book_atkinson_donev_1992]: https://openlibrary.org/search?q=Atkinson+Donev+Optimum+Experimental+Designs
-[book_baals_corliss_1981]: https://openlibrary.org/search?q=Baals+Corliss+Wind+Tunnels+of+NASA
-[book_barlow_rae_pope_1999]: https://openlibrary.org/search?q=Barlow+Rae+Pope+Low+Speed+Wind+Tunnel+Testing
-[book_bertin_1994_hypersonic]: https://openlibrary.org/search?q=Bertin+Hypersonic+Aerothermodynamics
-[book_bertin_cummings_2013]: https://openlibrary.org/search?q=Bertin+Cummings+Aerodynamics+for+Engineers
-[book_bevington_robinson_2002]: https://openlibrary.org/search?q=Bevington+Robinson+Data+Reduction+and+Error+Analysis
-[book_bilstein_1989_orders]: https://openlibrary.org/search?q=Bilstein+Orders+of+Magnitude+NACA+NASA
-[book_bilstein_2001_flight_america]: https://openlibrary.org/search?q=Bilstein+Flight+in+America
-[book_bisplinghoff_ashley_halfman_1955]: https://openlibrary.org/search?q=Bisplinghoff+Ashley+Halfman+Aeroelasticity
-[book_box_hunter_hunter_2005]: https://openlibrary.org/search?q=Box+Hunter+Statistics+for+Experimenters
-[book_boyd_vandenberghe_2004]: https://openlibrary.org/search?q=Boyd+Vandenberghe+Convex+Optimization
-[book_bruhn_1973]: https://openlibrary.org/search?q=Bruhn+Analysis+and+Design+of+Flight+Vehicle+Structures
-[book_chambers_2000_partners]: https://openlibrary.org/search?q=Chambers+Partners+in+Freedom+Langley
-[book_chambers_2005_innovation]: https://openlibrary.org/search?q=Chambers+Innovation+in+Flight+Langley
+[book_anderson_1997_history_aerodynamics]: https://openlibrary.org/works/OL1993322W
+[book_anderson_2001_fundamentals]: https://openlibrary.org/works/OL3232211W
+[book_anderson_2002_airplane_history]: https://openlibrary.org/works/OL3232201W
+[book_anderson_2002_modern_compressible]: https://openlibrary.org/works/OL1993329W
+[book_anderson_2006_hypersonic]: https://openlibrary.org/works/OL1993330W
+[book_anderson_2012_aircraft_performance]: https://openlibrary.org/works/OL1993317W
+[book_anderson_2012_introduction_flight]: https://openlibrary.org/works/OL1993331W
+[book_ashley_landahl_1965]: https://openlibrary.org/works/OL42971075W
+[book_atkinson_donev_1992]: https://openlibrary.org/works/OL4280715W
+[book_baals_corliss_1981]: https://openlibrary.org/works/OL31504107W
+[book_barlow_rae_pope_1999]: https://openlibrary.org/works/OL1921571W
+[book_bertin_1994_hypersonic]: https://openlibrary.org/works/OL3287053W
+[book_bertin_cummings_2013]: https://openlibrary.org/works/OL21437883W
+[book_bevington_robinson_2002]: https://openlibrary.org/works/OL44935135W
+[book_bilstein_1989_orders]: https://openlibrary.org/works/OL18823771W
+[book_bilstein_2001_flight_america]: https://openlibrary.org/works/OL2856898W
+[book_bisplinghoff_ashley_halfman_1955]: https://openlibrary.org/works/OL3240762W
+[book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
+[book_boyd_vandenberghe_2004]: https://openlibrary.org/works/OL25692727W
+[book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
+[book_chambers_2000_partners]: https://openlibrary.org/works/OL33867704W
+[book_chambers_2005_innovation]: https://openlibrary.org/works/OL40097313W
 [book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
-[book_constant_1980]: https://openlibrary.org/search?q=Constant+The+Origins+of+the+Turbojet+Revolution
-[book_cover_thomas_2006]: https://openlibrary.org/search?q=Cover+Thomas+Elements+of+Information+Theory
-[book_crossfield_blair_1960]: https://openlibrary.org/search?q=Crossfield+Always+Another+Dawn
-[book_curran_murthy_2000]: https://openlibrary.org/search?q=Curran+Murthy+Scramjet+Propulsion
-[book_dowell_2014]: https://openlibrary.org/search?q=Dowell+A+Modern+Course+in+Aeroelasticity
-[book_etkin_reid_1996]: https://openlibrary.org/search?q=Etkin+Reid+Dynamics+of+Flight+Stability+and+Control
-[book_ferguson_1992]: https://openlibrary.org/search?q=Ferguson+Engineering+and+the+Mind+s+Eye
-[book_fung_1955]: https://openlibrary.org/search?q=Fung+Introduction+to+the+Theory+of+Aeroelasticity
-[book_gelman_et_al_2013]: https://openlibrary.org/search?q=Gelman+Bayesian+Data+Analysis
+[book_constant_1980]: https://openlibrary.org/works/OL6325070W
+[book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
+[book_crossfield_blair_1960]: https://openlibrary.org/works/OL29040763W
+[book_curran_murthy_2000]: https://openlibrary.org/works/OL23791670W
+[book_dowell_2014]: https://openlibrary.org/works/OL20677670W
+[book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
+[book_ferguson_1992]: https://openlibrary.org/works/OL4119982W
+[book_fung_1955]: https://openlibrary.org/works/OL2655267W
+[book_gelman_et_al_2013]: https://openlibrary.org/works/OL12630389W
 [book_godwin_2000_x15]: https://openlibrary.org/search?q=Godwin+X-15+The+NASA+Mission+Reports
-[book_gorn_1992_universal_man]: https://openlibrary.org/search?q=Gorn+The+Universal+Man+von+Karman
-[book_gorn_2001_expanding_envelope]: https://openlibrary.org/search?q=Gorn+Expanding+the+Envelope+Flight+Research
-[book_gunston_1992_faster_than_sound]: https://openlibrary.org/search?q=Gunston+Faster+Than+Sound
-[book_hallion_1972_supersonic_flight]: https://openlibrary.org/search?q=Hallion+Supersonic+Flight+Breaking+the+Sound+Barrier
-[book_hallion_1981_on_the_frontier]: https://openlibrary.org/search?q=Hallion+On+the+Frontier+Flight+Research+Dryden
-[book_hallion_1981_test_pilots]: https://openlibrary.org/search?q=Hallion+Test+Pilots+The+Frontiersmen+of+Flight
-[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/search?q=Hansen+Engineer+in+Charge+Langley
-[book_hansen_2004_bird_on_the_wing]: https://openlibrary.org/search?q=Hansen+The+Bird+Is+on+the+Wing+Aerodynamics
-[book_heiser_pratt_1994]: https://openlibrary.org/search?q=Heiser+Pratt+Hypersonic+Airbreathing+Propulsion
-[book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/search?q=Heppenheimer+Facing+the+Heat+Barrier+Hypersonics
-[book_hill_peterson_1991]: https://openlibrary.org/search?q=Hill+Peterson+Mechanics+and+Thermodynamics+of+Propulsion
-[book_hodges_pierce_2011]: https://openlibrary.org/search?q=Hodges+Pierce+Structural+Dynamics+and+Aeroelasticity
+[book_gorn_1992_universal_man]: https://openlibrary.org/works/OL4400575W
+[book_gorn_2001_expanding_envelope]: https://openlibrary.org/works/OL4400572W
+[book_gunston_1992_faster_than_sound]: https://openlibrary.org/works/OL774338W
+[book_hallion_1972_supersonic_flight]: https://openlibrary.org/works/OL2688456W
+[book_hallion_1981_on_the_frontier]: https://openlibrary.org/works/OL2688458W
+[book_hallion_1981_test_pilots]: https://openlibrary.org/works/OL2688457W
+[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/works/OL37594565W
+[book_hansen_2004_bird_on_the_wing]: https://openlibrary.org/works/OL3492401W
+[book_heiser_pratt_1994]: https://openlibrary.org/works/OL3932490W
+[book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/works/OL39929219W
+[book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
+[book_hodges_pierce_2011]: https://openlibrary.org/works/OL16972710W
 [book_houchin_2006_dyna_soar]: https://openlibrary.org/search?q=Houchin+Hypersonic+Research+Rise+and+Fall+of+Dyna-Soar
-[book_hurt_1965]: https://openlibrary.org/search?q=Hurt+Aerodynamics+for+Naval+Aviators
-[book_huzel_huang_1992]: https://openlibrary.org/search?q=Huzel+Huang+Design+of+Liquid+Propellant+Rocket+Engines
-[book_jaynes_2003]: https://openlibrary.org/search?q=Jaynes+Probability+Theory+The+Logic+of+Science
-[book_jenkins_2000_hypersonics]: https://openlibrary.org/search?q=Jenkins+Hypersonics+Before+the+Shuttle+X-15
-[book_jenkins_2001_space_shuttle]: https://openlibrary.org/search?q=Jenkins+Space+Shuttle+History+National+Space+Transportation+System
+[book_hurt_1965]: https://openlibrary.org/works/OL4297319W
+[book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
+[book_jaynes_2003]: https://openlibrary.org/works/OL5911565W
+[book_jenkins_2000_hypersonics]: https://openlibrary.org/works/OL813290W
+[book_jenkins_2001_space_shuttle]: https://openlibrary.org/works/OL813312W
 [book_jenkins_2007_x15]: https://openlibrary.org/search?q=Jenkins+X-15+Extending+the+Frontiers+of+Flight
 [book_jenkins_landis_2003_hypersonic]: https://openlibrary.org/search?q=Jenkins+Landis+Hypersonic+The+Story+of+the+North+American+X-15
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X-Vehicles+Inventory
-[book_johnson_smith_1985]: https://openlibrary.org/search?q=Kelly+Johnson+More+Than+My+Share+of+It+All
-[book_jones_1998_composites]: https://openlibrary.org/search?q=Jones+Mechanics+of+Composite+Materials
-[book_kimberlin_2003]: https://openlibrary.org/search?q=Kimberlin+Flight+Testing+of+Fixed+Wing+Aircraft
-[book_kuchemann_1978]: https://openlibrary.org/search?q=Kuchemann+The+Aerodynamic+Design+of+Aircraft
-[book_kuethe_chow_1998]: https://openlibrary.org/search?q=Kuethe+Chow+Foundations+of+Aerodynamics
-[book_launius_jenkins_2012]: https://openlibrary.org/search?q=Launius+Jenkins+Coming+Home+Reentry+and+Recovery+from+Space
-[book_liepmann_roshko_1957]: https://openlibrary.org/search?q=Liepmann+Roshko+Elements+of+Gasdynamics
-[book_loh_1963]: https://openlibrary.org/search?q=Loh+Dynamics+and+Thermodynamics+of+Planetary+Entry
-[book_lukasiewicz_1973]: https://openlibrary.org/search?q=Lukasiewicz+Experimental+Methods+of+Hypersonics
-[book_mackay_2003]: https://openlibrary.org/search?q=MacKay+Information+Theory+Inference+and+Learning+Algorithms
-[book_mattingly_2006]: https://openlibrary.org/search?q=Mattingly+Elements+of+Propulsion+Gas+Turbines+and+Rockets
-[book_mcruer_ashkenas_graham_1973]: https://openlibrary.org/search?q=McRuer+Ashkenas+Graham+Aircraft+Dynamics+and+Automatic+Control
-[book_megson_2016]: https://openlibrary.org/search?q=Megson+Aircraft+Structures+for+Engineering+Students
-[book_merlin_2009_blackbird]: https://openlibrary.org/search?q=Merlin+Design+and+Development+of+the+Blackbird
-[book_miller_2001_x_planes]: https://openlibrary.org/search?q=Jay+Miller+The+X-Planes+X-1+to+X-45
-[book_nelson_1998]: https://openlibrary.org/search?q=Nelson+Flight+Stability+and+Automatic+Control
-[book_nicolai_carichner_2010]: https://openlibrary.org/search?q=Nicolai+Carichner+Fundamentals+of+Aircraft+and+Airship+Design
-[book_niu_1988_airframe]: https://openlibrary.org/search?q=Niu+Airframe+Structural+Design
-[book_niu_1992_composite_airframe]: https://openlibrary.org/search?q=Niu+Composite+Airframe+Structures
-[book_nocedal_wright_2006]: https://openlibrary.org/search?q=Nocedal+Wright+Numerical+Optimization
-[book_peebles_2008_road_to_mach_10]: https://openlibrary.org/search?q=Peebles+Road+to+Mach+10+X-43A
-[book_peebles_2014_probing_the_sky]: https://openlibrary.org/search?q=Peebles+Probing+the+Sky+NACA+Research+Airplanes
-[book_perrow_1984]: https://openlibrary.org/search?q=Perrow+Normal+Accidents
-[book_petroski_1985]: https://openlibrary.org/search?q=Petroski+To+Engineer+Is+Human
-[book_pisano_et_al_2006]: https://openlibrary.org/search?q=Pisano+Chuck+Yeager+and+the+Bell+X-1
-[book_pope_goin_1965]: https://openlibrary.org/search?q=Pope+Goin+High+Speed+Wind+Tunnel+Testing
-[book_raymer_2018]: https://openlibrary.org/search?q=Raymer+Aircraft+Design+A+Conceptual+Approach
-[book_reed_lister_1997_wingless]: https://openlibrary.org/search?q=Reed+Wingless+Flight+The+Lifting+Body+Story
-[book_regan_anandakrishnan_1993]: https://openlibrary.org/search?q=Regan+Dynamics+of+Atmospheric+Re-Entry
-[book_rich_janos_1994]: https://openlibrary.org/search?q=Rich+Janos+Skunk+Works+A+Personal+Memoir
-[book_roskam_1985]: https://openlibrary.org/search?q=Roskam+Airplane+Design
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_johnson_smith_1985]: https://openlibrary.org/works/OL5461367W
+[book_jones_1998_composites]: https://openlibrary.org/works/OL1876296W
+[book_kimberlin_2003]: https://openlibrary.org/works/OL8874080W
+[book_kuchemann_1978]: https://openlibrary.org/works/OL22640504W
+[book_kuethe_chow_1998]: https://openlibrary.org/works/OL2661785W
+[book_launius_jenkins_2012]: https://openlibrary.org/works/OL39998199W
+[book_liepmann_roshko_1957]: https://openlibrary.org/works/OL13214987W
+[book_loh_1963]: https://openlibrary.org/works/OL7075585W
+[book_lukasiewicz_1973]: https://openlibrary.org/works/OL6954489W
+[book_mackay_2003]: https://openlibrary.org/works/OL8325677W
+[book_mattingly_2006]: https://openlibrary.org/works/OL3739227W
+[book_mcruer_ashkenas_graham_1973]: https://openlibrary.org/works/OL13424815W
+[book_megson_2016]: https://openlibrary.org/works/OL4809615W
+[book_merlin_2009_blackbird]: https://openlibrary.org/works/OL11706498W
+[book_miller_2001_x_planes]: https://openlibrary.org/works/OL7006680W
+[book_nelson_1998]: https://openlibrary.org/works/OL11288560W
+[book_nicolai_carichner_2010]: https://openlibrary.org/works/OL15909375W
+[book_niu_1988_airframe]: https://openlibrary.org/works/OL19561185W
+[book_niu_1992_composite_airframe]: https://openlibrary.org/works/OL32576700W
+[book_nocedal_wright_2006]: https://openlibrary.org/works/OL16972382W
+[book_peebles_2008_road_to_mach_10]: https://openlibrary.org/works/OL2653134W
+[book_peebles_2014_probing_the_sky]: https://openlibrary.org/works/OL23215820W
+[book_perrow_1984]: https://openlibrary.org/works/OL4468929W
+[book_petroski_1985]: https://openlibrary.org/works/OL112186W
+[book_pisano_et_al_2006]: https://openlibrary.org/works/OL4301215W
+[book_pope_goin_1965]: https://openlibrary.org/works/OL3791131W
+[book_raymer_2018]: https://openlibrary.org/works/OL17855977W
+[book_reed_lister_1997_wingless]: https://openlibrary.org/works/OL20339072W
+[book_regan_anandakrishnan_1993]: https://openlibrary.org/works/OL4305679W
+[book_rich_janos_1994]: https://openlibrary.org/works/OL3466236W
+[book_roskam_1985]: https://openlibrary.org/works/OL6612019W
 [book_rotundo_1994_into_the_unknown]: https://openlibrary.org/search?q=Rotundo+Into+the+Unknown+The+X-1+Story
-[book_sagan_1993]: https://openlibrary.org/search?q=Sagan+The+Limits+of+Safety
-[book_schlichting_gersten_2017]: https://openlibrary.org/search?q=Schlichting+Gersten+Boundary+Layer+Theory
-[book_shapiro_1953]: https://openlibrary.org/search?q=Shapiro+Dynamics+and+Thermodynamics+of+Compressible+Fluid+Flow
-[book_stengel_2004]: https://openlibrary.org/search?q=Stengel+Flight+Dynamics
-[book_stevens_lewis_2015]: https://openlibrary.org/search?q=Stevens+Lewis+Aircraft+Control+and+Simulation
-[book_stinton_2001]: https://openlibrary.org/search?q=Stinton+The+Design+of+the+Aeroplane
-[book_sutton_biblarz_2016]: https://openlibrary.org/search?q=Sutton+Biblarz+Rocket+Propulsion+Elements
-[book_taylor_1997_error_analysis]: https://openlibrary.org/search?q=Taylor+An+Introduction+to+Error+Analysis
-[book_thompson_1992_edge_of_space]: https://openlibrary.org/search?q=Milton+Thompson+At+the+Edge+of+Space+X-15
-[book_torenbeek_1982]: https://openlibrary.org/search?q=Torenbeek+Synthesis+of+Subsonic+Airplane+Design
-[book_truitt_1960]: https://openlibrary.org/search?q=Truitt+Fundamentals+of+Aerodynamic+Heating
-[book_tsai_hahn_1980]: https://openlibrary.org/search?q=Tsai+Hahn+Introduction+to+Composite+Materials
-[book_vaughan_1996]: https://openlibrary.org/search?q=Vaughan+The+Challenger+Launch+Decision
-[book_vincenti_1990]: https://openlibrary.org/search?q=Vincenti+What+Engineers+Know+and+How+They+Know+It
-[book_vinh_busemann_culp_1980]: https://openlibrary.org/search?q=Vinh+Busemann+Culp+Hypersonic+and+Planetary+Entry+Flight+Mechanics
-[book_von_karman_edson_1967]: https://openlibrary.org/search?q=von+Karman+The+Wind+and+Beyond
-[book_ward_strganac_niewoehner_2006]: https://openlibrary.org/search?q=Ward+Strganac+Introduction+to+Flight+Test+Engineering
-[book_white_2006_viscous]: https://openlibrary.org/search?q=Frank+White+Viscous+Fluid+Flow
-[book_whitford_1987]: https://openlibrary.org/search?q=Whitford+Design+for+Air+Combat
+[book_sagan_1993]: https://openlibrary.org/works/OL3492159W
+[book_schlichting_gersten_2017]: https://openlibrary.org/works/OL20524688W
+[book_shapiro_1953]: https://openlibrary.org/works/OL5908243W
+[book_stengel_2004]: https://openlibrary.org/works/OL3486012W
+[book_stevens_lewis_2015]: https://openlibrary.org/works/OL21570717W
+[book_stinton_2001]: https://openlibrary.org/works/OL1911152W
+[book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
+[book_taylor_1997_error_analysis]: https://openlibrary.org/works/OL3232610W
+[book_thompson_1992_edge_of_space]: https://openlibrary.org/works/OL1994111W
+[book_torenbeek_1982]: https://openlibrary.org/works/OL9096469W
+[book_truitt_1960]: https://openlibrary.org/works/OL178473W
+[book_tsai_hahn_1980]: https://openlibrary.org/works/OL6341234W
+[book_vaughan_1996]: https://openlibrary.org/works/OL2962391W
+[book_vincenti_1990]: https://openlibrary.org/works/OL4805206W
+[book_vinh_busemann_culp_1980]: https://openlibrary.org/works/OL4092275W
+[book_von_karman_edson_1967]: https://openlibrary.org/works/OL7117470W
+[book_ward_strganac_niewoehner_2006]: https://openlibrary.org/works/OL19810630W
+[book_white_2006_viscous]: https://openlibrary.org/works/OL1911849W
+[book_whitford_1987]: https://openlibrary.org/works/OL5054670W
 [book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
-[book_wolfe_1979_right_stuff]: https://openlibrary.org/search?q=Tom+Wolfe+The+Right+Stuff
-[book_wright_cooper_2014]: https://openlibrary.org/search?q=Wright+Cooper+Aircraft+Aeroelasticity+and+Loads
-[book_yeager_janos_1985]: https://openlibrary.org/search?q=Yeager+An+Autobiography
+[book_wolfe_1979_right_stuff]: https://openlibrary.org/works/OL1925474W
+[book_wright_cooper_2014]: https://openlibrary.org/works/OL12439109W
+[book_yeager_janos_1985]: https://openlibrary.org/works/OL4628050W
 [ref_ablation]: https://en.wikipedia.org/wiki/Ablation
 [ref_aerobee]: https://en.wikipedia.org/wiki/Aerobee
 [ref_aerodynamic_center]: https://en.wikipedia.org/wiki/Aerodynamic_center
@@ -1706,7 +1705,6 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 [research_mcconkey_kalia_2025]: https://doi.org/10.1017/jfm.2025.10618
 [research_munk_1921]: https://ntrs.nasa.gov/citations/19800006779
 [research_naca_1135]: https://ntrs.nasa.gov/citations/19930091059
-[research_nagaraja_loughran_2020]: https://doi.org/10.1115/1.4046329
 [research_niu_su_2023]: https://doi.org/10.1063/5.0141000
 [research_nonweiler_1959]: https://doi.org/10.1017/s0368393100071662
 [research_nyquist_1928]: https://doi.org/10.1109/T-AIEE.1928.5055024

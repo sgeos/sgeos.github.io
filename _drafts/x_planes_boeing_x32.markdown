@@ -249,7 +249,7 @@ separated the two aircraft follows from it.
 The relation is more useful expressed through the area the flow passes through, and the
 [local momentum theory][research_azuma_kawachi_1975] that governs it has been the standard treatment of a
 static disc since the 1970s, with the [actuator-disc optimum in hover][research_modarres_peters_2015] worked
-out more recently. It is the [disc loading][ref_disc_loading] and which
+out more recently. It is the [disc loading][ref_disc_loading], which
 [momentum theory][ref_momentum_theory] relates to the induced velocity. The relations used here are the
 standard ones set out in [Leishman on helicopter aerodynamics][book_leishman] and in
 [Hill and Peterson on propulsion][book_hill_peterson]. For a disc of area $A$ producing thrust $T$ in still
@@ -931,7 +931,6 @@ aeroplanes.
 - [A hierarchical aircraft life cycle cost analysis model][research_marx_mavris_1995]
 - [Schedule Estimating Relationships for the Engineering and...][research_boyd_mundt_1995]
 - [Clausewitz at Armageddon A 19th Century Perspective on...][research_bartlett_1996]
-- [Operational Protection of Information Technology Assets. A...][research_hamby_1997]
 
 ## What the Data Changed
 
@@ -939,25 +938,27 @@ aeroplanes.
 
 **This article's second finding came out of building its own reference set, and it is measurable.**
 
-The reference pool assembled for this article holds 4,412 harvested records across the NASA reports server,
-the Defense Technical Information Center and the Crossref registry, gathered by queries aimed directly at
-both aircraft and at the programme. Counting titles gives the following.
+The reference set this article cites holds 5,016 research records from the NASA reports server, the Defense
+Technical Information Center and the Crossref registry, gathered by queries aimed directly at both aircraft
+and at the programme. Counting the titles of those records that contain each term gives the following. The
+counts first published here were taken from a harvest pool that was not preserved, so they are recounted on
+the cited set, where anyone can repeat them.
 
 | Term in the title | Records |
 |---|---|
 | **X-32** | **1** |
-| X-35 | 3 |
-| F-35 | 29 |
-| Joint Strike Fighter | 70 |
-| Harrier or Pegasus | 7 |
+| X-35 | 6 |
+| F-35 | 32 |
+| Joint Strike Fighter | 67 |
+| Harrier or Pegasus | 6 |
 
-**Exactly one record in four thousand four hundred carries the X-32 in its title, and it was written by the engine supplier rather than the airframer.**
+**Exactly one of those 5,016 records carries the X-32 in its title, and it was written by the engine supplier rather than the airframer.**
 It reports testing of the Rolls-Royce lift system for the X-32B, in 2002, after the competition was over.
 
-**The winner's record runs continuously from 2002 to 2020.** The loser's stops at one. Writing the asymmetry
+**The winner's record runs from 2002 to 2022.** The loser's stops at one. Writing the asymmetry
 as a ratio,
 
-$$R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{29}{1} = 29$$
+$$R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{32}{1} = 32$$
 
 against two aircraft that flew in the same years, under the same programme, for the same customer.
 
@@ -1097,7 +1098,6 @@ and it is the same relation.
 - [Co-design of aircraft vertical tail and control laws using...][research_van_alazard_2019]
 - [Conceptual Design Study of Hybrid-Electric Aircraft Using...][research_silva_acerragil_2019]
 - [Conceptual Design Study on Electrical Vertical Take Off and...][research_kraenzler_schmitt_2019]
-- [Correction Aircraft Conceptual Design Including Powertrain...][research_orefice_dellavecchia_2019_b]
 - [Design of a Distributed Hybrid Electric Propulsion System for...][research_economou_tsourdos_2019]
 - [Electric Propulsion System Optimization for Long-Endurance...][research_dantsker_imtiaz_2019]
 - [Enhancements in conceptual electric aircraft design][research_mieloszyk_tarnowski_2019]
@@ -1112,7 +1112,6 @@ and it is the same relation.
 - [Commercial Hybrid Electric Aircraft Thermal Management...][research_rheaume_lents_2020]
 - [Comparative Assessment of Parallel-Hybrid-Electric Propulsion...][research_finger_braun_2020]
 - [Conceptual design of small aircraft with hybrid-electric...][research_sziroczak_jankovics_2020]
-- [Correction Large-scale multidisciplinary optimization under...][research_ha_lee_2020_b]
 - [Development of a Portable Electric Ducted Fan Engine Lab for...][research_salazar_liou_2020]
 - [Effects of Distributed Electric Propulsion on the Performance...][research_gallani_sandovalgoes_2020]
 - [Electric Propulsion Component Sizing for Optimal Aircraft...][research_ricci_myers_2020]
@@ -1197,7 +1196,6 @@ and it is the same relation.
 - [Considering Turbofan Operability in Hybrid Electric Aircraft...][research_chapman_2023]
 - [Control Power Margin as a Certification Consideration for...][research_jr_hansman_2023]
 - [Control Strategy for High Lift Motors in Distributed Electric...][research_wang_li_2023]
-- [Correction Wake Vortex Effects Between Urban Air Mobility...][research_baculi_nguyen_2023_b]
 - [Development of Electric Propulsion System for Aircraft using...][research_iwakuma_izumi_2023]
 - [Distributed Hybrid-Electric Propulsion Benefits for...][research_bonnin_hoogreef_2023]
 - [Electric Aircraft Performance Analysis Utilizing Simplified...][research_diecke_2023]
@@ -1231,9 +1229,6 @@ and it is the same relation.
 - [An aerodynamic parametric study of large aspect-ratio wings...][research_fossati_jones_2024]
 - [Comparative Analysis Validating FlightStream® With...][research_gothow_felicia_2024]
 - [Consumer Willingness to Fly on Advanced Air Mobility AAM...][research_ison_2024]
-- [Correction A Comprehensive Study on Hydrogen and Hybrid...][research_nishikawa_rinoie_2024_b]
-- [Correction Design and Analysis of Contra-Rotating Permanent...][research_chung_2024_b]
-- [Correction Novel Electric Propulsion System Analysis Method...][research_lee_yee_2024_b]
 - [De-centralized Control for Distributed Electric Propulsion...][research_huangfu_yu_2024]
 - [Design and Analysis of Contra-Rotating Permanent Magnet...][research_chung_2024]
 - [Distributed Hybrid Electric Propulsion Aircraft Design Based...][research_xiao_tan_2024]
@@ -1308,7 +1303,6 @@ and it is the same relation.
 - [Battery degradation-aware vehicle routing problem for...][research_jiang_ren_2026]
 - [Collaborative Propulsion System Design A Framework for the...][research_weber_burschyk_2026]
 - [Conceptual Sizing of Hybrid-Electric Propulsion Systems for...][research_trivedi_munshi_2026]
-- [Correction Advanced Air Mobility Infrastructure With...][research_wilhelms_sun_2026_b]
 - [DOCeV A New Holistic Model for Direct Operating Cost...][research_muller_barke_2026]
 - [Data-driven energy efficiency estimation of battery powering...][research_jiao_yang_2026]
 - [Design Improvement of a Distributed Propulsion System in...][research_sarikaya_lutz_2026]
@@ -1344,7 +1338,6 @@ Reynolds numbers do not scale together.
 
 - [Design and Optimization of a Supersonic Business Jet][research_kiyici_aradag_2015]
 - [Jet pump optimization through Reynolds averaged Navier-Stokes...][research_gherman_malael_2015]
-- [Large Eddy Simulation of Turbulent Heat Transfer in...][research_kang_yang_2015]
 - [Modification of the k-kl Two Equation Turbulence Model for...][research_smith_2015]
 - [Numerical Analysis of Synthetic Jet in Crossflow][research_gupte_pradeep_2015]
 - [Simulation of a MW rotor equipped with vortex generators...][research_troldborg_sorensen_2015]
@@ -1363,7 +1356,6 @@ Reynolds numbers do not scale together.
 - [Efficient Design of Viscous Waveriders with CFD Verification...][research_maxwell_2017]
 - [Experimental study and large Eddy simulation of a coaxial jet...][research_kok_varol_2017]
 - [Large Eddy Simulation of Flow and Heat Transfer Mechanism in...][research_luan_yang_2017]
-- [Large Eddy Simulation of Heat Transfer Over In-Line Flat-Tube...][research_taghizadeh_acharya_2017]
 - [Large Eddy Simulation of a Compressor Stage][research_mondal_mathew_2017]
 - [Large Eddy Simulation of multiple impinging jets in hexagonal...][research_draksler_koncar_2017]
 - [Prediction of Turbulent Temperature Fluctuations in Hot Jets][research_debonis_2017]
@@ -1393,7 +1385,6 @@ Reynolds numbers do not scale together.
 - [Combat Aircraft Vortex Interaction - Design, Physics and...][research_hitzel_2022]
 - [Ducted Fan Experimental Investigation and Shape Optimization...][research_aboelezz_abdulrahman_2022]
 - [Jet Erosion of Particle Beds Projecting Critical Suspension...][research_pease_bamberger_2022]
-- [Large Eddy Simulation on the Turbulent Heat Transfer of...][research_zhang_zou_2022]
 - [Mesh Adaptability Technique for Canonical Turbulent Jet Flows...][research_paez_rodriguez_2022]
 - [Numerical Simulation of Bird Strike on Jet Engine Considering...][research_li_lou_2022]
 - [On the Transition Between Re-Entrant Jet and Condensation...][research_vacarevelo_gnanaskandan_2022]
@@ -1412,7 +1403,6 @@ Reynolds numbers do not scale together.
 - [Validation of a Computational Fluid Dynamics Model of Axial...][research_reske_brodnick_2024]
 - [Wall-Modeled Large Eddy Simulation and Conjugate Heat...][research_ansari_arguinzoni_2024]
 - [CFD Study of an Electric Ducted Fan Thrust System on...][research_wahid_purwanto_2025]
-- [Correction RANS Mesh Adaption and WFLES Simulations for High...][research_aliaga_zore_2025_b]
 - [Heat Transfer Enhancement in Double-Wall Blade Suction Side...][research_wang_deng_2025]
 - [Impact of Shift in Frequency of Online Water Washes on...][research_saroosh_janjua_2025]
 - [Large eddy simulation and analysis of inclined film cooling...][research_yang_hu_2025]
@@ -1422,7 +1412,6 @@ Reynolds numbers do not scale together.
 - [Analysis of HVAB Rotor Hover Performance with Uncertainty in...][research_schaefer_abras_2026]
 - [CFD-DEM Coupled Simulation for Plume Surface Interaction and...][research_davanlou_bolar_2026]
 - [Computational fluid dynamics for K-defense aircraft gas...][research_kim_you_2026]
-- [Correction Towards CFD-CAA Simulation of Jet Near-Field...][research_megat_ewert_2026_b]
 - [Gas-Granular Computational Fluid Dynamics Simulation of...][research_knickerbocker_west_2026]
 - [Numerical Sensitivity of the Slat Brackets Wake on Fixed Grid...][research_kojima_murayama_2026]
 - [Numerical Simulation of Jet-Wall Impingement Liquid Film...][research_poudevigne_wu_2026]
@@ -1456,7 +1445,6 @@ Reynolds numbers do not scale together.
 - [Numerical Simulation of Fountain formation due to Twin-Jet...][research_zhang_agarwal_2019]
 - [Study of Round Jet Impingement in Proximity of Ground and...][research_gao_liu_2019]
 - [A comparative turbulent flow study of unconfined orthogonal...][research_pawar_patel_2020]
-- [Correction Numerical Simulation of Fountain formation due to...][research_zhang_agarwal_2020_b]
 - [Effect of impingement height on the enhancement of heat...][research_pratap_baghel_2020]
 - [Experimental and Numerical Investigation of Thermal...][research_singh_kothari_2020]
 - [Experimental and Numerical Study of Array Jet Impingement...][research_torres_zawati_2020]
@@ -1542,7 +1530,6 @@ grounds with the deck consequence following.
 - [The virtual landing pad facilitating rotary-wing landing...][research_stanton_plant_2018]
 - [An Onboard Vision-Based System for Autonomous Landing of a...][research_liu_zhang_2019]
 - [Atmospheric Boundary Layer Turbulence Simulation for Ship...][research_shipman_bin_2021]
-- [Correction Atmospheric Boundary Layer Turbulence Simulation...][research_shipman_bin_2021_b]
 - [Analysis of Sintered Hawaiian Basalt Building Blocks for...][research_dickson_suermann_2023]
 - [Demonstration and Evaluation of an Automated Construction...][research_stephans_wagner_2023]
 - [A Comprehensive Analysis of Autonomous Construction of a...][research_muniyasamy_oneillcler_2024]
@@ -1560,7 +1547,6 @@ grounds with the deck consequence following.
 - [Fire performance, microstructure and thermal degradation of...][research_aziz_ahmad_2015]
 - [Polymer composite curing degree evaluation by thermal...][research_antyufeeva_aleksashin_2015]
 - [Structured approach for design reuse decisions in...][research_milford_pena_2015]
-- [A Water Lubricated Hybrid Thrust Bearing Measurements and...][research_sanandres_phillips_2016]
 - [Composite Cycle Engine Concept with Hectopressure Ratio][research_kaiser_seitz_2016]
 - [Conceptual Design and Structural Optimization of NASA...][research_quinlan_gern_2016]
 - [Heat Transfer Process in Jet Turbine Blade with Functionally...][research_sadowski_pietras_2016]
@@ -1579,7 +1565,6 @@ grounds with the deck consequence following.
 - [Study of coupled effect of impingement jet cooling of...][research_du_zhong_2019]
 - [Developing airframe structure of a modern airplane for...][research_shevchenko_pasichnaya_2020]
 - [Digital Twin For Fatigue Analysis][research_chabod_baron_2020]
-- [Static Performance of a Hydrostatic Thrust Foil Bearing for...][research_latray_kim_2020]
 - [Structural degradation of electric ARC thermal-barrier...][research_golovach_dmitrieva_2020]
 - [Structure of the Ship Airwake in a Simulated Atmospheric...][research_gnanamanickam_zhang_2020]
 - [Toward Structural Modelling Strategies for Characterization...][research_colbert_quinn_2020]
@@ -1610,7 +1595,6 @@ grounds with the deck consequence following.
 - [Structural Requirements for Design and Analysis of 25% Scale...][research_miller_jansen_2023]
 - [Towards Multi-Level Structuring of Goal-Oriented Models for...][research_ponsard_darimont_2023]
 - [A fast prediction method for bearing strength of aircraft...][research_lin_zhao_2024]
-- [Analytical Study on Hybrid Thrust Foil Bearing, Structural...][research_ebewele_kim_2024]
 - [Comparison of Vortex Structures and Turbulent Heat Transport...][research_hu_onishi_2024]
 - [Design and Experiment on Heat Dissipation Structures of...][research_li_li_2024]
 - [Digital Thread-Based Optimisation Framework for Aeronautical...][research_delongueville_bouvet_2024]
@@ -1625,7 +1609,6 @@ grounds with the deck consequence following.
 - [Effects of coating and spallation of low emissivity material...][research_chen_hui_2025]
 - [Inverse design of adaptive flexible structures using...][research_mohammadi_kouzani_2025]
 - [Low-observable Geometric Structure Design of Screw Slot][research_liu_xiang_2025]
-- [Passively Enhancing Gas Thrust Bearing Performance Through an...][research_triebwasser_eickhoff_2025]
 - [Probabilistic Gas Turbine Rotor Disk Forging Flaw Crack...][research_yang_amann_2025]
 - [A Unified Multi-Fidelity Aero-Structural Design Framework for...][research_shubham_sharma_2026]
 - [Design-Oriented Multi-Load Stiffness Assessment of Composite...][research_stamatelos_2026]
@@ -1714,7 +1697,6 @@ and this competition is the case that shows why neither alone is sufficient.
 - [Set-Based Design Space Exploration to Investigate the Effect...][research_spinelli_krupa_2023]
 - [VR Virtual Prototyping Application for Airplane Cockpit A...][research_nunes_silva_2023]
 - [A Systems Model for the World’s Largest Pulsed Power Machine...][research_blaha_halford_2024]
-- [A tradespace exploration approach for changeability...][research_machchhar_tollermelen_2024]
 - [Design improvement of component parameters by virtual...][research_kamberov_ivanov_2024]
 - [Early Risk Quantification Strategy for Design Space Reduction...][research_houten_kana_2024]
 - [Early concurrent engineering in the aerospace industry...][research_duverger_aubry_2024]
@@ -1852,7 +1834,6 @@ cited on both sides of the argument about whether fly-offs are worth their cost.
 - [An Assessment of the Technology Readiness Level TRL and...][research_lisy_chang_2023]
 - [NASA Technology Readiness Level Assessment Using a...][research_hawkins_mulholland_2023]
 - [Enhancing Technology Readiness Assessment The Engineering...][research_jones_2024]
-- [Alignment of Risk Attitudes in AI Risk Management Systems...][research_patecornell_2025]
 - [Assessing the Complete Lifecycle of Space Systems Using the...][research_nilchiani_caddell_2025]
 - [The Impact of Turbine Inlet Temperature on Life Cycle Cost...][research_cao_fu_2025]
 - [Fission Surface Power Technology Readiness Assessment - An...][research_bilardo_2026]
@@ -1928,7 +1909,6 @@ value it is meant to stand for.
 - [Skills, Efficiency, and Timing in a Simple Attack and Defense...][research_dimitri_2020]
 - [A simulation and analytic hierarchy process based decision...][research_sencer_karaismailoglu_2021]
 - [Aircraft Mission Reliability Evaluation Based on Monte Carlo...][research_wang_li_2022]
-- [Correction One Dimensional Modelling and Sensitivity Analysis...][research_kuppa_rostkowski_2022_b]
 - [Multi-Fidelity Low-Rank Approximations for Uncertainty...][research_yildiz_pehlivansolak_2022]
 - [One Dimensional Modelling and Sensitivity Analysis for the...][research_kuppa_rostkowski_2022]
 - [Criteria preprocessing in multi‐actor multi‐criteria analysis][research_huang_canoy_2023]
@@ -1943,6 +1923,8 @@ value it is meant to stand for.
 - [Hover Performance and Uncertainty Quantification of a...][research_mihaila_fuiorea_2026]
 
 ### Propulsion, nozzles and integration since
+
+**The direct-lift arrangement made the propulsion system the centre of the competition, and its components are still being studied.** The X-32B diverted its core stream through a butterfly valve to a pair of thrust-vectoring nozzles near the centre of gravity, which is what forced the chin inlet, and the winner added a lift fan, a three-bearing swivel module and roll posts. This heading holds the modern work on those components and their neighbours, namely fluidic and mechanical thrust vectoring, aerospike and other nozzle designs, supersonic inlets and their bleed systems, and the coupling of engine and airframe performance.
 
 - [2A2-F03 Development of Tail-sitter type VTOL aircraft with...][research_marubashi_miwa_2015]
 - [Integration of Electric Propulsion in Efficient Heavy-Lift...][research_demersbouchard_rancourt_2015]
@@ -1998,7 +1980,6 @@ value it is meant to stand for.
 - [Parametric Study on Thrust Vectoring with a Secondary...][research_chen_liao_2020]
 - [Thrust Vectoring of a Supersonic Rectangular Nozzle by Using...][research_thrust_vectoring_2020]
 - [Thrust vectoring control of vertical/short takeoff and...][research_wang_zhu_2020]
-- [WITHDRAWN Effect of reacting gas on the fluidic thrust...][research_chouicha_sellam_2020]
 - [Development of a One Axis Thrust Vectoring Control System...][research_farras_jenie_2021]
 - [Distributed Electric Propulsion and Flight Control Concept to...][research_darmstadt_mistry_2021]
 - [Modeling and Multi-modal Aerodynamic Characteristics Analysis...][research_song_qu_2021]
@@ -2042,7 +2023,6 @@ value it is meant to stand for.
 - [Computational and Experimental Analysis of Optimized Dual...][research_computational_and_2024]
 - [Computational investigation of both geometric and fluidic...][research_nayebi_taeibirahni_2024]
 - [Construction and stability analysis of STOVL engine...][research_yang_dong_2024]
-- [Correction Thrust Vectoring using Differential Throttling in...][research_marsilio_resta_2024]
 - [Design optimization of a fluidic thrust vectoring system...][research_kara_kurtulus_2024]
 - [Dynamic characteristics and application of dual throat...][research_xu_hu_2024]
 - [Effect of Bypass Duct on the Thrust Vectoring Performance of...][research_afridi_khan_2024]
@@ -2122,8 +2102,6 @@ value it is meant to stand for.
 - [Concentration Profiles of High Pressure Nozzle Underexpanded...][research_hu_christopher_2018]
 - [Cold Gas Nozzle Testing for Aerospace Education][research_salamon_2018]
 - [Computational Investigation of the Flow Distortions in a Mach...][research_shenoy_drozda_2018]
-- [Correction Analysis of Pulsed and Steady-State...][research_winterling_cassibry_2018_b]
-- [Correction Nozzle design of oblique detonation wave engine][research_kumar_omprakas_2018_b]
 - [Design Optimization of a Truncated Aero Spike Nozzle...][research_baskaran_harisrinivasan_2018_b]
 - [Large-Eddy Simulation of Supersonic Turbulent Flow in...][research_kumar_ghosh_2018]
 - [Numerical Analysis of Thermal Flow Field According to Shape...][research_lee_lee_2018]
@@ -2260,7 +2238,6 @@ value it is meant to stand for.
 - [Acoustic Radiation of Supersonic Inlet with Auxiliary Door...][research_brown_slaboch_2019]
 - [Buzz flow diversity in a supersonic inlet ingesting strong...][research_chen_tan_2019]
 - [Control Law for an Aircraft Supersonic Air Inlet with...][research_tudosie_dumitru_2019]
-- [Correction Effect of Side Gust on the Performance of...][research_halwas_aggarwal_2019_b]
 - [Design of Inward-Turning External Compression Supersonic...][research_utomo_bura_2019]
 - [Effect of Geometric Modification on Flow and Performance...][research_alikhan_hasan_2019]
 - [Effect of Side Gust on the Performance of Supersonic Inlet...][research_halwas_aggarwal_2019]
@@ -2275,7 +2252,6 @@ value it is meant to stand for.
 - [Propulsion Aerodynamics Workshop Special topics Supersonic...][research_braun_podleski_2019]
 - [Refinement of Vortex Generators in a Streamline-Traced...][research_slater_2019]
 - [Supersonic Compressor Cascade Shape Optimization under...][research_casoni_magrini_2019]
-- [Withdrawal Refinement of Vortex Generators in a...][research_slater_2019_b]
 - [Acoustic Modeling and Vibration Characteristics of Supersonic...][research_zhu_luo_2020]
 - [Active Flow Control in a Compact High-Speed Inlet/Diffuser...][research_oneill_2020]
 - [Axisymmetric and three-dimensional flow simulation of a mixed...][research_abedi_askari_2020]
@@ -2309,7 +2285,6 @@ value it is meant to stand for.
 - [Adaptive Design Method for a Tilt-Rotor Engine Inlet Duct...][research_soemarwoto_habing_2022]
 - [Axis-symmetric Mixed-Compression Supersonic Inlet Bleed via a...][research_lei_zha_2022]
 - [Control Law for the Air Inlet of a Supersonic Drone][research_tudosie_2022]
-- [Correction Axis-symmetric Mixed-Compression Supersonic Inlet...][research_lei_zha_2022_b]
 - [Inlet Diffusor Buoyancy Its Historical Use in Supersonic...][research_chaudhari_takahashi_2022]
 - [Investigation of Shock Wave Oscillation Suppression by...][research_cai_huang_2022]
 - [Joint discriminative learning and classification for...][research_wu_zhao_2022]
@@ -2397,7 +2372,6 @@ value it is meant to stand for.
 - [Numerical investigation of the aerodynamic performance and...][research_fan_yang_2024]
 - [A multi-fidelity simulation approach for adaptive cycle...][research_zou_yang_2025]
 - [Analysis of Jet Engine Performance in Multisine Tests][research_nguyenhuy_hoangnhat_2025]
-- [Correction Systems Identification and Next-Generation...][research_wright_variny_2025_b]
 - [Engine Cycle Analysis and Configuration Studies for a Nuclear...][research_chandra_varrier_2025]
 - [Systems Identification and Next-Generation Reservoir...][research_wright_variny_2025]
 - [Teaching Aero-Engine Performance Performance Analysis of...][research_weintraub_klumpp_2025]
@@ -2528,10 +2502,8 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Hover Control of New type ducted aircraft][research_liu_deng_2019]
 - [MPPI Parallel Trajectory Optimization for Guidance in...][research_comandur_walters_2019]
 - [Visual Servoing with Feed-Forward for Precision Shipboard...][research_wynn_mclain_2019]
-- [Withdrawal Finite-time Autonomous Shipboard Landing Control...][research_huang_zhu_2019_b]
 - [Hover-to-Cruise Transition Control for High-Speed Level...][research_cheng_pei_2020]
 - [Reaction Control System Performance Characterization using...][research_colas_valenzuela_2020]
-- [Withdrawal Reaction Control System Performance...][research_colas_valenzuela_2020_b]
 - [A Deep Reinforcement Learning Control Strategy for...][research_lee_saj_2021]
 - [Development of a Reset Algorithm for a Helicopter Shipboard...][research_frost_walters_2021]
 - [Flight Transition Control for Ducted Fan UAV with Saturation...][research_cheng_pei_2021]
@@ -2577,7 +2549,6 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Method to assess lateral handling qualities of aircraft with...][research_dussart_yusuf_2018]
 - [Pilot workload and fatigue on four intra-European routes a...][research_bennett_2018]
 - [A Comparison of Control Activity and Heart Rate as Measures...][research_law_jennings_2019]
-- [Addendum Defining Flight Envelope Requirements and Handling...][research_abdulrahim_bates_2019_b]
 - [Analysis of Stability Margins w.r.t Aircraft Dynamics and...][research_prabhakar_prazenica_2019]
 - [Augmented flight dynamics model for pilot workload evaluation...][research_yan_chen_2019]
 - [Defining Flight Envelope Requirements and Handling Qualities...][research_abdulrahim_bates_2019]
@@ -2609,7 +2580,6 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Online evaluation of helicopter pilot workload during flight...][research_zanoni_garbo_2022]
 - [A Theoretical Basis for Adverse Aircraft-Pilot Coupling][research_bachelder_aponso_2023]
 - [ADS-33 Handling Qualities Requirements in Design][research_lusardi_2023]
-- [Correction Experimental Study of the Impact of Folding...][research_gu_cheung_2023_b]
 - [Experimental Study of the Impact of Folding Wingtip Devices...][research_gu_cheung_2023]
 - [Investigation of Pilot Inceptor Metrics as Correlates to...][research_paul_rhinehart_2023]
 - [MIL-DTL-32726 Detail Specification Handling Qualities for...][research_smith_2023]
@@ -2637,7 +2607,6 @@ which changes what the pilot has to do and therefore what the control power has 
 - [A Data-Driven Handling Qualities Assessment Approach,for a...][research_li_zhang_2026]
 - [Analysis of Structural Flexibility Effects on Handling...][research_cavalcanti_uehara_2026]
 - [Comeau-Duggan Pilot Workload Index Data Analysis][research_duggan_white_2026]
-- [Correction Electric Aircraft Handling Qualities Why Battery...][research_molloy_shekar_2026_b]
 - [Cyclograms as a Novel Analysis Method for Aircraft Handling...][research_musso_vo_2026]
 - [Electric Aircraft Handling Qualities Why Battery Positioning...][research_molloy_shekar_2026]
 - [Euclid sUAV Handling Qualities Evaluation Through Flight...][research_ioannis_ioannis_2026]
@@ -2646,6 +2615,8 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Rethinking the Flying Qualities of the Avro Canada CF-105...][research_takahashi_gaydusek_2026]
 
 ### Machine learning and digital engineering
+
+**The fly-off was partly replaced by simulation, and this heading holds the data-driven tools those simulations are now built from.** The article argues that a model can be made to be the proposal but does not match reality exactly, which is why the X-35B's single sortie still mattered. The records here apply reinforcement learning, deep learning and surrogate modelling to aerodynamic prediction, flight and landing control and design studies, and they extend the heading on simulation-based acquisition rather than replace it.
 
 - [Immersive Visualization And Course-Of-Action Simulation...][research_immersive_visualization_2016]
 - [Track 2 Machine learning and optimization][research_track_2_2016]
@@ -2658,7 +2629,6 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Rocket Engine Digital Twin Modeling and Simulation Benefits][research_jimenezmena_pluchart_2019]
 - [A combination approach to forecast the spare parts faults of...][research_hongqiang_feng_2020]
 - [Challenging Top Level Aircraft Requirements based on...][research_peteilh_klein_2020]
-- [Correction Challenging Top Level Aircraft Requirements based...][research_peteilh_klein_2020_b]
 - [Deep Reinforcement Learning Automatic Landing Control of...][research_tang_lai_2020]
 - [Flight performance analysis with data-driven mission...][research_lyu_liem_2020]
 - [Modeling of a Novel Coaxial Ducted Fan Aerial Robot Combined...][research_ai_xu_2020]
@@ -2675,7 +2645,6 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Analytical Redundancy for Variable Cycle Engine Based on...][research_ran_huang_2023]
 - [Carrier Aircraft Landing Control Technology Based on Deep...][research_liu_jiang_2023]
 - [Digital twin new trend in aircraft maintenance][research_plichta_bugaj_2023]
-- [Modeling and Evaluation of Dynamical Properties of Different...][research_benrabia_soffker_2023]
 - [Optimising the Energy System for Electrified Airport...][research_ferrari_grundstrom_2023]
 - [A Data-Driven Method for Predicting the Overall Performance...][research_yuan_qiu_2024]
 - [Aircraft Engine Maintenance and Digital Twin Technology in...][research_moghtadaei_2024]
@@ -2691,10 +2660,8 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Clustered Robot Cooperative Measurement Digital Twin System...][research_piao_wang_2025]
 - [Data-Driven Robust Model Predictive Control of Tiltwing...][research_doffsotta_cannon_2025]
 - [Development of a Digital Twin Collaborative Testing System...][research_cheng_2025]
-- [Hyperparameter optimization methods in machine learning][research_pozdniakovych_2025]
 - [Improve Manufacturing Quality with Digital Twin Technology][research_improve_manufacturing_2025]
 - [Knowledge and data dual-driven surrogate model for the...][research_jiang_chen_2025]
-- [Machine learning-driven predictive modeling of...][research_kateb_safarian_2025]
 - [Neural Network Assisted Blade Element Model for Rotor...][research_hashemdabaghian_mitsingas_2025]
 - [Review on the establishment and application of digital twin...][research_wang_rao_2025]
 - [SPRP-Based Variable-Fidelity Surrogate Model and Its...][research_lyu_yang_2025]
@@ -2712,6 +2679,8 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Neural Network Research on Tilt-Rotor Hover Performance][research_kozapallis_warmbrodtwilliam_1997]
 
 ### Momentum theory, still
+
+**The relation this article's sizing rests on has been in the textbooks since momentum theory was written, and it is still being refined.** Momentum theory relates disc loading to induced velocity, and through it the power required for a given lift rises as the square root of the disc loading, which is the steep curve that separates the lift fan from a vectoring nozzle. The records here extend actuator-disc and blade-element momentum theory to open rotors, propellers and hovering rotors and, as neighbouring science, to tidal and wind turbines.
 
 - [CFD Analysis of Counter-Rotating Open Rotors Using a Rotating...][research_malick_agarwal_2015]
 - [Computational Fluid Dynamics Analysis of Open-Rotor Engines...][research_farrar_agarwal_2015]
@@ -2733,7 +2702,6 @@ which changes what the pilot has to do and therefore what the control power has 
 - [Power Prediction of Wind Farms via a Simplified Actuator Disk...][research_chiang_hsu_2020]
 - [Prediction of Dual-Rotor-Wing Interaction in Hover Using...][research_chen_hubner_2020]
 - [New Development of Classical Actuator Disk Model for...][research_rubin_zhao_2021]
-- [Correction New Development of Classical Actuator Disk Model...][research_rubin_zhao_2022]
 - [Improved Stall Delay Model for HAWT Performance Predictions...][research_improved_stall_2022]
 - [Actuator Disk Model with Improved Tip Loss Correction for...][research_son_kim_2023]
 - [Exploration of an analytical, linear two-dimensional actuator...][research_aamadsen_2024]
@@ -2796,6 +2764,13 @@ subject.
 
 ### The general literatures
 
+**This heading holds the records that fit none of the narrower headings in this section**, and it is the
+largest, carrying more than half of the reference set. Its titles run from the period reports on powered lift,
+short takeoff and vertical landing and supersonic fighter design to modern work on ducted fans, handling
+qualities, flight test and engine integration, with some cost and acquisition studies that the narrower
+headings did not claim.
+**It is also the heading that lost the most records to the rebuilt filter of 7 October 2026.**
+
 - [Aerodynamic Configuration Design of Flight Demonstrator for...][research_bingyan_zhou_2015]
 - [Aerodynamic blade design with multi-objective optimization...][research_droandi_gibertini_2015]
 - [Assessment of Planform Effects on Rotor Hover Performance][research_sankar_marpu_2015]
@@ -2841,7 +2816,6 @@ subject.
 - [Aerodynamic Design of Integrated Propulsion-Airframe...][research_liou_kim_2017]
 - [Aircraft Lift and Drag Decomposition in Transonic Flows][research_mele_ostieri_2017]
 - [Computational Prediction of Annular Wing Aerodynamic...][research_kanoria_damodaran_2017]
-- [Effect of Foil Geometry on the Static Performance of Thrust...][research_fu_untaroiu_2017]
 - [Flow Analysis for Performance Characteristics with Closed...][research_cho_yoon_2017]
 - [Global Three-Dimensional Surrogate Modeling of Gas Turbine...][research_leylek_neely_2017]
 - [Measured Boundary Layer Transition and Rotor Hover...][research_overmeyer_martin_2017]
@@ -2917,13 +2891,11 @@ subject.
 - [Effect of Ambient and Operating Parameters on the Exergy...][research_sahu_thatoi_2021]
 - [Flight-Test Validation of a Takeoff Performance Uncertainty...][research_sobester_2021]
 - [Investigation of Icing Effects on Aerodynamic Performance for...][research_wang_zhang_2021]
-- [Novel Thrust Foil Bearing With Pocket Grooves for Enhanced...][research_latray_kim_2021_b]
 - [Numerical Virtual Flight Simulation of Quasi-Cobra Maneuver...][research_wang_ma_2021]
 - [Optimized Performance and Acoustic Design for Hover-Propeller][research_gur_silver_2021]
 - [Performance seeking control of minimum infrared...][research_chen_zheng_2021]
 - [Propulsor Models for Computational Analysis of Aircraft...][research_hall_lieu_2021]
 - [Pulse Performance Analysis of a 45 Newton Additively...][research_bangalorevenkatesh_osborne_2021]
-- [Static Performance of a Hydrostatic Thrust Foil Bearing for...][research_latray_kim_2021]
 - [Uncertainty-Dispersion Analysis of SRM Performance Prediction...][research_mancini_neri_2021]
 - [A New Health Evaluation Approach for Gas Turbine Using Its...][research_luan_cao_2022]
 - [Aerodynamic Design of Cooling Guide for Electrical Machine in...][research_hu_qian_2022_b]
@@ -2947,7 +2919,6 @@ subject.
 - [Battery-Powered Helicopter Hover Performance Enhancement...][research_polonsky_oksana_2023]
 - [Conceptual Design Optimization of Liquid-Hydrogen-Fueled...][research_vanlandingham_hall_2023]
 - [Conceptual investigation on performance of short-medium range...][research_palaia_abusalem_2023]
-- [Correction Conceptual Design Optimization of...][research_vanlandingham_hall_2023_b]
 - [Design and Analysis of High-Performance Gas Turbine Blades...][research_design_and_2023_b]
 - [Design of a new sweptback wing for a future supersonic...][research_xu_2023]
 - [Development of a Shipboard Skid-equipped Rotary-wing Aircraft...][research_schock_langlois_2023]
@@ -2957,14 +2928,11 @@ subject.
 - [Effects of Anhedral Tip on Hover Performance][research_shankar_sankar_2023]
 - [Effects of flight configurations on the performance of...][research_kiran_breuer_2023]
 - [Integrated Mission Performance Analysis of Novel Propulsion...][research_pontika_zaghari_2023]
-- [Investigation of the Static Performance of Hydrostatic Thrust...][research_lu_tian_2023]
 - [Leading-Edge Vortex Controller LEVCON Influence on the...][research_malicki_malecha_2023]
 - [Model and Full-Scale Rotor Hover Performance Analysis using...][research_klimchenko_min_2023]
 - [Modeling, Simulation and Performance Comparison of Variable...][research_ma_zhang_2023]
-- [Multi-fidelity aerodynamic performance modeling of...][research_ma_lao_2023]
 - [Nacelle 3D Aerodynamic Design and Airframe Integration for...][research_benjamin_friedrichs_2023]
 - [Performance Prediction Method for Forward Variable Area...][research_zhen_dong_2023]
-- [Static performance analysis of gas foil thrust bearings under...][research_zuo_zong_2023]
 - [What Do a Jet Fighter Trainer, a Drag Car Racer, and a...][research_doyle_2023]
 - [A dual-driven approach for refined modeling and performance...][research_guan_lv_2024]
 - [Analysis on the Influence of Duct Casing Geometry on the...][research_pangaribuan_hartono_2024]
@@ -3252,7 +3220,6 @@ subject.
 - [Convex Model Predictive Control for Rocket Vertical Landing][research_wang_song_2018]
 - [Cooperative Defense Strategy for Active Aircraft Protection...][research_song_lee_2018]
 - [Cooperative Landing Control of Vertical Take Off and Landing...][research_chen_2018]
-- [Correction Non-Equilibrium Effects of Interaction of Laser...][research_kianvashrad_knight_2018_b]
 - [Ground effects on the hypervelocity jet flow and the...][research_li_wang_2018]
 - [High lift control system design for a transport aircraft][research_du_gao_2018]
 - [High-Level Power Extraction from Adaptive Cycle Engine for...][research_meng_yang_2018]
@@ -3323,7 +3290,6 @@ subject.
 - [Results in the Field of Modern Aircraft Control Research...][research_muravyev_2022]
 - [Stability analysis of Mars soft landing under uncertain...][research_ding_liu_2022]
 - [Control Surfaces for Supersonic Airfoil Using Co-flow Jet...][research_lei_zha_2023_b]
-- [Correction Control Surfaces for Supersonic Airfoil Using...][research_lei_zha_2023_c]
 - [Discussion of passenger service unit design requirements in...][research_xulei_yao_2023]
 - [Enhancing Supersonic Rudder Control Surface Using Co-flow Jet...][research_lei_zha_2023]
 - [Estimating Aircraft Landing Weights from Mode S Data][research_holzapfel_rotshteyn_2023]
@@ -3777,8 +3743,6 @@ subject.
 - [Conceptual Design of Electrical Ducted Fan EDF][research_junaidin_cahyono_2019]
 - [Conceptual Multidisciplinary Design and Optimization of...][research_kao_clark_2019]
 - [Conceptual design of an aircraft for Mars mission][research_kwiek_2019]
-- [Correction Experimental and Numerical Evaluation of Boundary...][research_okai_mitani_2019_b]
-- [Correction Parallel Hybrid Propulsion System for a Regional...][research_bertrand_spierling_2019_b]
 - [Design and computational analysis of a closed non-planar wing...][research_bravomosquera_ceronmunoz_2019]
 - [Design and tool anchoring for a 120-kilonewton expander cycle...][research_souverein_maeding_2019]
 - [Design point analysis of two-shaft gas turbine engines topped...][research_fatsis_2019]
@@ -3796,7 +3760,6 @@ subject.
 - [Integrated Sizing and Optimization of Hybrid Wing Body...][research_xie_cai_2019]
 - [Linear Acoustic Analysis of the Preburner of an Oxidizer-Rich...][research_lioi_ku_2019]
 - [Modeling a propulsion system for the trajectory correction of...][research_vera_valencia_2019]
-- [Model‐based protocol specification][research_mordecai_2019]
 - [Multi Objective Design Optimization of an MoM Aircraft using...][research_jansen_perez_2019]
 - [Numerical Analysis of Heat Transfer in a Laminar, Submerged...][research_ragunathan_goering_2019]
 - [Optimization of Multicopter Propulsion System Based on Degree...][research_du_quan_2019]
@@ -3931,7 +3894,6 @@ subject.
 - [Commercial Aircraft 3-DoF Simulation Platform Design with...][research_quan_2023]
 - [Conceptual Design and Analysis of a Combat Aircraft with...][research_finger_quitter_2023]
 - [Conceptual design modeling by the novel aircraft conceptual...][research_unal_oz_2023]
-- [Correction Mission Design Analysis with Centrifugal Nuclear...][research_ziehm_thomas_2023_b]
 - [Defense program quality‐cost‐delay optimization architecture...][research_brisacierporchon_hammami_2023]
 - [Design and Sizing of an Electrified Lift-Plus-Cruise Ducted...][research_chakraborty_amanmishra_2023]
 - [Development of A Sonic Boom Propagation Code For Low-Boom...][research_demiroglu_nikbay_2023]
@@ -4349,7 +4311,6 @@ subject.
 - [A unique applied computational method for vortex lift...][research_dixon_driskill_1985]
 - [Computer-aided manufacturing of prototype parts][research_reidgreen_1985]
 - [Design Approach for an Optimum Prop-Fan Propulsion System][research_brines_1985]
-- [Errata High-Lift Airfoil Design from the Hodograph][research_cohen_1985]
 - [Extension of Training Extension Course Cost and Training...][research_bercos_eakins_1985]
 - [Flowfield investigation of a supercruise fighter model][research_reubush_bare_1985]
 - [Ground-effect analysis of a jet transport airplane][research_curry_bowers_1985]
@@ -4582,7 +4543,6 @@ subject.
 - [Assessment of Aviation Safety Concepts Phase I - Fighter...][research_allen_eveker_2000]
 - [Secretary Of The Air Force Washington Dc 2000][research_secretaryoftheairforcewashingtondc_2000]
 - [Graduate-level design education, based on flight demonstrator...][research_fielding_jones_2000]
-- [Information Assurance Readiness Assessment][research_bartlett_2000]
 - [Integration of Configuration Design and Analysis of Aircraft][research_wu_baik_2000_b]
 - [Integration of configuration design and multidisciplinary...][research_wu_baik_2000]
 - [Integration of the ETF40B Gas Turbine Engine and FADEC System...][research_harris_schneider_2000]
@@ -4739,7 +4699,6 @@ subject.
 - [Ground Test Strategy for a Nuclear Thermal Propulsion Engine][research_coote_rauch_2018]
 - [Oscillation mode flight data analysis based on FFT][research_fu_huang_2018]
 - [Validation and Verification of Flight Test Data on an...][research_olson_2018]
-- [Correction Using Simulated, Unmanned, and Manned Aircraft in...][research_abdulrahim_2019_b]
 - [Determination of Model Structure from Flight Test with...][research_monstein_capone_2019]
 - [Fuel Consumption Model of the Climbing Phase of Departure...][research_zhang_huang_2019]
 - [Measurement and Characterization of Power Lines of Aircraft...][research_camponogara_oliveira_2019]
@@ -5991,20 +5950,20 @@ organised around why it lost risks implying that it should not have been built.
 
 ## The Source Base
 
-**The reference set holds 2,035 records published through 2002 and 2,695 published from 2015 onward**, drawn
+**The reference set holds 2,032 records published through 2002 and 2,642 published from 2015 onward**, drawn
 from a master set assembled from the NASA Technical Reports Server, the Defense Technical Information Center
 through its registered identifiers, and the Crossref registry across journal and conference literature.
 **Every anchored record is cited.**
 
 | Period | Records | Share |
 |---|---|---|
-| Before 1970 | 290 | 5.7 percent |
-| 1970 to 1984 | 620 | 12.2 percent |
-| 1985 to 1995 | 607 | 12.0 percent |
-| **1996 to 2002, the programme window** | **518** | **10.2 percent** |
-| 2003 to 2014 | 342 | 6.7 percent |
-| 2015 onward | 2,695 | 53.1 percent |
-| of which 2022 onward | 1,295 | 25.5 percent |
+| Before 1970 | 290 | 5.8 percent |
+| 1970 to 1984 | 620 | 12.4 percent |
+| 1985 to 1995 | 606 | 12.1 percent |
+| **1996 to 2002, the programme window** | **516** | **10.3 percent** |
+| 2003 to 2014 | 342 | 6.8 percent |
+| 2015 onward | 2,642 | 52.7 percent |
+| of which 2022 onward | 1,267 | 25.3 percent |
 
 **The count and the fraction are reported together**, because adding a contemporary survey holds the period
 count and lowers its fraction while adding period sources does the reverse. Neither movement is a fact about
@@ -6020,7 +5979,17 @@ The general literatures lost 686 records, decision analysis under uncertainty fe
 the list under the sizing relation kept 3 of its 18. A reading of 300 unflagged records drawn at random before
 the rebuild found 36 off topic, which put the contamination the screens missed near 12 percent, so every
 remaining title was then read rather than sampled. About 150 records of neighbouring science, such as tidal
-turbine momentum theory and industrial jet impingement cooling, were kept as doubtful.
+turbine momentum theory and industrial jet impingement cooling, were kept as doubtful. A second seeded sample of
+300 records was read on 8 October 2026. Every one of them had been read once already in the reading of every
+title, so it measures what that reading missed rather than drawing on unread records. It found 8 off topic,
+among them a commander's guide to information technology security, a construction-machinery tradespace study
+and a hydrostatic thrust bearing, and sweeps for their kinds removed 13 more, so 21 went in all. Nine were
+thrust bearings, three were computing, three were heat transfer in tubes, pipes and supercritical fluids, two
+were power generation, two were machine learning with no aircraft subject, one was risk management in
+medicine and sport, and one was the construction-machinery study. The set then held 5,051 records, and the
+share published from 2015 onward was 53.0 percent. Eight in 300 puts what the first reading missed near 2.7
+percent. That sample drove the sweep that followed it, so it does not measure what remains after the sweep,
+and no later sample has. A further pass on 8 October 2026 removed 35 records that are notices rather than works, namely 30 corrections and errata, 4 withdrawal notices and 1 addendum, under the rule that correction, erratum, addendum, retraction and withdrawal notices, figure, table and supplement records, review reports and journal front matter are parts of works or editorial events and not works, so the set now holds 5,016 records and the share published from 2015 onward is 52.7 percent.
 
 ### The Five Equations That Carry No Citation
 
@@ -6041,12 +6010,12 @@ competitive-prototyping case all rest on published work and say whose.
 **A primary source is one contemporary with the work, and for this article the work is two things that happened thirty years apart.**
 
 **The decision is a 1996 to 2002 subject.** Source selection, competitive prototyping, cost estimation and
-requirements commonality are primary in that window and nowhere else, and that band holds 518 records.
+requirements commonality are primary in that window and nowhere else, and that band holds 516 records.
 
 **The physics is not.** The short takeoff and vertical landing research the competition rested on was done
 in the 1970s and 1980s, largely by NASA, and
 **a 1985 report on hot gas ingestion is a primary source for this article's central failure mechanism in a way that a 2019 review is not**.
-That base holds **1,227 records across 1970 to 1995** and is the healthier of the two.
+That base holds **1,226 records across 1970 to 1995** and is the healthier of the two.
 
 **Treating the whole of the pre-2003 material as one undifferentiated period band would hide that distinction**,
 so the table above separates them.
@@ -6059,7 +6028,7 @@ Hot gas ingestion stood at 7 in-window records against the article's central mec
 effects at 6, hover control at 1, momentum theory at 1 against an identity the equation pass had just
 promoted, and the winning aircraft's own cluster at 3.
 
-**A harvest of roughly a hundred and forty narrow queries took the window from 265 to 621 records and the whole set from 2,985 to 4,037.**
+**A harvest of roughly a hundred and forty narrow queries took the window from 265 to more than six hundred records and the whole set from 2,985 to 4,037.**
 Momentum theory went from 22 records to 91, nozzle design from 64 to 130, jet-induced ground effects from
 103 to 127.
 
@@ -6098,9 +6067,10 @@ and this competition is the case that shows why neither alone is sufficient.
 between a turbine rotor disc and its stator are an active field whose papers are titled "hot-gas ingestion"
 exactly as the inlet problem is.
 
-**The pool holds 82 titles containing the words "hot gas" and only 44 belong to this article.** Most of the
-remainder are rim cavities, purge flows and sealing effectiveness, joined by dust, particle and salt
-ingestion, which are a different inlet problem.
+**The reference set first published with this article held 56 titles containing the words "hot gas", and the rebuild of 7 October 2026 refused 16 of them.**
+Fifteen are rim cavities, purge flows and sealing flows in turbines and one is a combustor damper, which
+leaves 40. Dust, particle and salt ingestion, which are a different inlet problem, are refused by pattern
+and no title in the set names them.
 
 **That is the most dangerous class of homonym, because it is internal to the discipline.** It was found by
 reading the discarded records rather than by anticipating it, and the judgement is recorded so it carries
@@ -6172,7 +6142,7 @@ inlet swallowing its own exhaust are the same fluid mechanics.
 - The allowance amplifies a fractional thrust change by 10.11 for direct lift and 2.51 for the lift
   system, so the same physical loss costs the direct-lift aircraft four times as much.
 - The direct-lift allowance vanishes entirely below 25,232 pounds of lift.
-- One record in a pool of 4,412 carries the X-32 in its title, against 29 for the F-35.
+- One record in the cited set of 5,016 carries the X-32 in its title, against 32 for the F-35.
 
 **Inference, where the record supports a conclusion without stating it.**
 
@@ -6202,7 +6172,7 @@ inlet swallowing its own exhaust are the same fluid mechanics.
 
 - The F-35 programme after 2001, including its cost history, its variants and its service entry.
 - The detailed design of the Rolls-Royce lift system beyond the published thrust and power figures.
-- Low-observable design, which shaped both entries and is not an X-32 subject.
+- Low-observable design beyond the thin cluster in The Contemporary Literature, since it shaped both entries decisively but is almost absent from the open literature.
 - The McDonnell Douglas entry eliminated in 1996, which used a gas-coupled lift fan and deserves
   separate treatment.
 - Carrier suitability and the Navy variant's structural requirements.
@@ -6233,11 +6203,12 @@ in the configuration it was offering.
 **A fly-off decides between the things placed in front of it.** When one of those things is not the thing
 being bought, the fly-off has answered a question adjacent to the one asked.
 
-**And the decision determined not only which aircraft was built but which one is known.** In a pool of four
-thousand four hundred harvested records, the winner appears in twenty-nine titles across two decades and the
+**And the decision determined not only which aircraft was built but which one is known.** Among the five
+thousand and sixteen research records this article cites, the winner appears in thirty-two titles across two decades and the
 loser in one, written by its engine supplier, after the result was announced.
 **An aeroplane that flew one hundred and forty-four times, went supersonic, refuelled in the air and landed vertically left almost no public technical trace**,
 and that silence is the last thing the competition decided.
+
 ## References
 
 ### Books
@@ -6393,9 +6364,7 @@ and that silence is the last thing the competition decided.
 - [Abdullah and Miao 2026][research_abdullah_miao_2026]
 - [Abdullah et al 2025][research_abdullah_kashif_2025]
 - [Abdulrahim 2019][research_abdulrahim_2019]
-- [Abdulrahim 2019][research_abdulrahim_2019_b]
 - [Abdulrahim et al 2019][research_abdulrahim_bates_2019]
-- [Abdulrahim et al 2019][research_abdulrahim_bates_2019_b]
 - [Abedi et al 2020][research_abedi_askari_2020]
 - [Aboelezz et al 2022][research_aboelezz_abdulrahman_2022]
 - [Abouamod and Awad 2017][research_abouamod_awad_2017]
@@ -6487,7 +6456,6 @@ and that silence is the last thing the competition decided.
 - [Ali et al 2026][research_ali_floresgovea_2026]
 - [Ali Khan and Hasan 2019][research_alikhan_hasan_2019]
 - [Aliaga et al 2025][research_aliaga_zore_2025]
-- [Aliaga et al 2025][research_aliaga_zore_2025_b]
 - [Aliaga et al 2026][research_aliaga_zore_2026]
 - [Aliyanto et al 2017][research_aliyanto_sarno_2017]
 - [Alkaya et al 2018][research_alkaya_alexsam_2018]
@@ -6619,7 +6587,6 @@ and that silence is the last thing the competition decided.
 - [Bachman et al 1961][research_bachman_wells_1961]
 - [Bacon 1988][research_bacon_1988]
 - [Baculi et al 2023][research_baculi_nguyen_2023]
-- [Baculi et al 2023][research_baculi_nguyen_2023_b]
 - [Baculi et al 2024][research_baculi_nguyen_2024]
 - [Badaliance and Dill 1981][research_badaliance_dill_1981]
 - [Bader et al 2024][research_bader_vereno_2024]
@@ -6687,7 +6654,6 @@ and that silence is the last thing the competition decided.
 - [Barth et al 2019][research_barth_wise_2019]
 - [Barthelemy et al 1994][research_barthelemy_coen_1994]
 - [Bartlett 1996][research_bartlett_1996]
-- [Bartlett 2000][research_bartlett_2000]
 - [Bartone and Kiran 2001][research_bartone_kiran_2001]
 - [Bashkirov et al 1997][research_bashkirov_irodov_1997]
 - [Baskaran et al 2018][research_baskaran_harisrinivasan_2018]
@@ -6756,7 +6722,6 @@ and that silence is the last thing the competition decided.
 - [Bennett et al 1993][research_bennett_raisrohani_1993]
 - [Bennett et al 2017][research_bennett_lawson_2017]
 - [Bennie and Fossati 2024][research_bennie_fossati_2024]
-- [Benrabia and Söffker 2023][research_benrabia_soffker_2023]
 - [Benton et al 2021][research_benton_humphrey_2021]
 - [Benyamen and Keshmiri 2022][research_benyamen_keshmiri_2022]
 - [Benyamen et al 2024][research_benyamen_chowdhury_2024]
@@ -6782,7 +6747,6 @@ and that silence is the last thing the competition decided.
 - [Bertoni et al 2018][research_bertoni_dasari_2018]
 - [Bertram 2016][research_bertram_2016]
 - [Bertrand et al 2019][research_bertrand_spierling_2019]
-- [Bertrand et al 2019][research_bertrand_spierling_2019_b]
 - [Berzins 2014][research_berzins_2014]
 - [Beskar 2004][research_beskar_2004]
 - [Bevilaqua 1996][research_bevilaqua_1996]
@@ -7203,7 +7167,6 @@ and that silence is the last thing the competition decided.
 - [Chopra 1983][research_chopra_1983]
 - [Chopra 2025][research_chopra_2025]
 - [Chouicha et al 2019][research_chouicha_sellam_2019]
-- [Chouicha et al 2020][research_chouicha_sellam_2020]
 - [Chouicha et al 2020][research_chouicha_sellam_2020_b]
 - [Chowdhury et al 2019][research_chowdhury_ali_2019]
 - [Chowhan et al 2019][research_chowhan_arya_2019]
@@ -7214,7 +7177,6 @@ and that silence is the last thing the competition decided.
 - [Chun and Burr 1969][research_chun_burr_1969]
 - [Chun and Swanson 1964][research_chun_swanson_1964]
 - [Chung 2024][research_chung_2024]
-- [Chung 2024][research_chung_2024_b]
 - [Chung et al 1993][research_chung_mcneill_1993]
 - [Chung, W. Y. William et al 1995][research_chungwywilliam_borcherspaulf_1995]
 - [Chuprun, Jr. 1984][research_chuprunjr_1984]
@@ -7240,9 +7202,7 @@ and that silence is the last thing the competition decided.
 - [Coder 2021][research_coder_2021]
 - [Coffee and Maganty 1996][research_coffee_maganty_1996]
 - [Cohen 1984][research_cohen_1984]
-- [Cohen 1985][research_cohen_1985]
 - [Colas and Valenzuela 2020][research_colas_valenzuela_2020]
-- [Colas and Valenzuela 2020][research_colas_valenzuela_2020_b]
 - [Colbacchini et al 2016][research_colbacchini_gahafer_2016]
 - [Colbert et al 2020][research_colbert_quinn_2020]
 - [Colbert et al 2023][research_colbert_quinn_2023]
@@ -7593,7 +7553,6 @@ and that silence is the last thing the competition decided.
 - [Eames 1993][research_eames_1993]
 - [Eames and Mason 1988][research_eames_mason_1988]
 - [Ebert and Manfletti 2025][research_ebert_manfletti_2025]
-- [Ebewele et al 2024][research_ebewele_kim_2024]
 - [Ebrahimi Fakhari et al 2024][research_ebrahimifakhari_moshtaghzadeh_2024]
 - [Ebus et al 2024][research_ebus_dietz_2024]
 - [Eccles 1983][research_eccles_1983]
@@ -7832,7 +7791,6 @@ and that silence is the last thing the competition decided.
 - [Fry 2008][research_fry_2008]
 - [Fröhler et al 2024][research_frohler_iwanizki_2024]
 - [Fu et al 2010][research_fu_sparks_2010]
-- [Fu et al 2017][research_fu_untaroiu_2017]
 - [Fu et al 2018][research_fu_huang_2018]
 - [Fu et al 2019][research_fu_sun_2019]
 - [Fu et al 2023][research_fu_zhao_2023]
@@ -8042,7 +8000,6 @@ and that silence is the last thing the competition decided.
 - [Gros et al 2025][research_gros_cantosgalvez_2025]
 - [Grosse 1965][research_grosse_1965]
 - [Gu et al 2023][research_gu_cheung_2023]
-- [Gu et al 2023][research_gu_cheung_2023_b]
 - [Guajardo 2020][research_guajardo_2020]
 - [Guan et al 2021][research_guan_abbasi_2021]
 - [Guan et al 2024][research_guan_lv_2024]
@@ -8074,7 +8031,6 @@ and that silence is the last thing the competition decided.
 - [Ha 1990][research_ha_1990]
 - [Ha 2023][research_ha_2023]
 - [Ha et al 2020][research_ha_lee_2020]
-- [Ha et al 2020][research_ha_lee_2020_b]
 - [Ha et al 2020][research_ha_roh_2020]
 - [Ha et al 2025][research_ha_kim_2025]
 - [Habib et al 2017][research_habib_iovenitti_2017]
@@ -8093,11 +8049,9 @@ and that silence is the last thing the competition decided.
 - [Hall and Hodder 1971][research_hall_hodder_1971]
 - [Hall and Lieu 2021][research_hall_lieu_2021]
 - [Halwas and Aggarwal 2019][research_halwas_aggarwal_2019]
-- [Halwas and Aggarwal 2019][research_halwas_aggarwal_2019_b]
 - [Hamada 2017][research_hamada_2017]
 - [Hamada 2021][research_hamada_2021]
 - [Hambly, D. 1974][research_hamblyd_1974]
-- [Hamby 1997][research_hamby_1997]
 - [Hamed et al 1997][research_hamed_laskowski_1997]
 - [Hamid et al 2021][research_hamid_tariq_2021]
 - [Hammond et al 1995][research_hammond_lim_1995]
@@ -8335,7 +8289,6 @@ and that silence is the last thing the competition decided.
 - [Huang et al 2003][research_huang_kuo_2003]
 - [Huang et al 2003][research_huang_mostafa_2003]
 - [Huang et al 2019][research_huang_zhu_2019]
-- [Huang et al 2019][research_huang_zhu_2019_b]
 - [Huang et al 2020][research_huang_yao_2020]
 - [Huang et al 2021][research_huang_zhang_2021]
 - [Huang et al 2022][research_huang_xu_2022]
@@ -8595,7 +8548,6 @@ and that silence is the last thing the competition decided.
 - [Kandath et al 2019][research_kandath_hady_2019]
 - [Kane and William D. 1988][research_kane_williamd_1988]
 - [Kaneshige et al 2023][research_kaneshige_lombaerts_2023]
-- [Kang and Yang 2015][research_kang_yang_2015]
 - [Kang et al 2021][research_kang_roumeliotis_2021]
 - [Kang et al 2021][research_kang_yim_2021]
 - [Kang et al 2025][research_kang_lu_2025]
@@ -8622,7 +8574,6 @@ and that silence is the last thing the competition decided.
 - [Kascak et al 2021][research_kascak_dever_2021]
 - [Kasprzak et al 2017][research_kasprzak_lass_2017]
 - [Kasunic 2004][research_kasunic_2004]
-- [Kateb and Safarian 2025][research_kateb_safarian_2025]
 - [Kato et al 2024][research_kato_lee_2024]
 - [Katz and Roglin 2000][research_katz_roglin_2000]
 - [Kawai 1973][research_kawai_1973]
@@ -8664,7 +8615,6 @@ and that silence is the last thing the competition decided.
 - [Ki 2019][research_ki_2019]
 - [Ki-Aries 2018][research_kiaries_2018]
 - [Kianvashrad and Knight 2018][research_kianvashrad_knight_2018]
-- [Kianvashrad and Knight 2018][research_kianvashrad_knight_2018_b]
 - [Kibar 2016][research_kibar_2016]
 - [Kidwell and Rapp 1985][research_kidwell_rapp_1985]
 - [Kidwell, Jr. and Lampkin 1983][research_kidwelljr_lampkin_1983]
@@ -8819,14 +8769,12 @@ and that silence is the last thing the competition decided.
 - [Kumar and Ghosh 2018][research_kumar_ghosh_2018]
 - [Kumar and Ghosh 2023][research_kumar_ghosh_2023]
 - [Kumar et al 2018][research_kumar_omprakas_2018]
-- [Kumar et al 2018][research_kumar_omprakas_2018_b]
 - [Kumar et al 2018][research_kumar_prasad_2018]
 - [Kumar Muduli et al 2023][research_kumarmuduli_mishra_2023]
 - [Kumazaki and Shimamura 2026][research_kumazaki_shimamura_2026]
 - [Kundu et al 1998][research_kundu_watterson_1998]
 - [Kundu et al 2002][research_kundu_curran_2002]
 - [Kuppa et al 2022][research_kuppa_rostkowski_2022]
-- [Kuppa et al 2022][research_kuppa_rostkowski_2022_b]
 - [Kurdyla 1963][research_kurdyla_1963]
 - [Kurosaka 1984][research_kurosaka_1984]
 - [Kursakov et al 2022][research_kursakov_lysenkov_2022]
@@ -8873,9 +8821,6 @@ and that silence is the last thing the competition decided.
 - [Lappos 2020][research_lappos_2020]
 - [LaSarge et al 1996][research_lasarge_ford_1996]
 - [Lateral-Directional Flying Qualities in Hover 2002][research_lateral_directional_flying_2002]
-- [LaTray and Kim 2021][research_latray_kim_2021_b]
-- [LaTray et al 2020][research_latray_kim_2020]
-- [LaTray et al 2021][research_latray_kim_2021]
 - [Lauer and Ansell 2022][research_lauer_ansell_2022]
 - [Laughman 2010][research_laughman_2010]
 - [Lavelle 2017][research_lavelle_2017]
@@ -8899,7 +8844,6 @@ and that silence is the last thing the competition decided.
 - [Lee and Moon 2016][research_lee_moon_2016]
 - [Lee and Park 2022][research_lee_park_2022]
 - [Lee and Yee 2024][research_lee_yee_2024]
-- [Lee and Yee 2024][research_lee_yee_2024_b]
 - [Lee et al 1973][research_lee_davidson_1973]
 - [Lee et al 1977][research_lee_berker_1977]
 - [Lee et al 1988][research_lee_chin_1988]
@@ -8924,10 +8868,8 @@ and that silence is the last thing the competition decided.
 - [Legrand et al 2025][research_legrand_gaillard_2025]
 - [Lei and Zha 2021][research_lei_zha_2021]
 - [Lei and Zha 2022][research_lei_zha_2022]
-- [Lei and Zha 2022][research_lei_zha_2022_b]
 - [Lei and Zha 2023][research_lei_zha_2023]
 - [Lei and Zha 2023][research_lei_zha_2023_b]
-- [Lei and Zha 2023][research_lei_zha_2023_c]
 - [Lei and Zha 2023][research_lei_zha_2023_d]
 - [Lei and Zhao 2023][research_lei_zhao_2023]
 - [Lei and Zhao 2024][research_lei_zhao_2024]
@@ -9143,7 +9085,6 @@ and that silence is the last thing the competition decided.
 - [Lu and Burken 1999][research_lu_burken_1999]
 - [Lu and Terrier 2003][research_lu_terrier_2003]
 - [Lu and Terrier 2003][research_lu_terrier_2003_b]
-- [Lu and Tian 2023][research_lu_tian_2023]
 - [Lu et al 2017][research_lu_harris_2017]
 - [Lu et al 2017][research_lu_yuan_2017]
 - [Lu et al 2019][research_lu_yuan_2019]
@@ -9196,7 +9137,6 @@ and that silence is the last thing the competition decided.
 - [Ma et al 2020][research_ma_zhang_2020]
 - [Ma et al 2022][research_ma_wang_2022]
 - [Ma et al 2022][research_ma_zhang_2022]
-- [Ma et al 2023][research_ma_lao_2023]
 - [Ma et al 2023][research_ma_zhang_2023]
 - [Ma et al 2025][research_ma_ding_2025]
 - [Ma et al 2025][research_ma_he_2025]
@@ -9205,7 +9145,6 @@ and that silence is the last thing the competition decided.
 - [Mabkhot et al 2025][research_mabkhot_kalawsky_2025]
 - [Mace and Nyberg 1992][research_mace_nyberg_1992]
 - [Mace et al 1989][research_mace_smereczniak_1989]
-- [Machchhar et al 2024][research_machchhar_tollermelen_2024]
 - [Machnik et al 2022][research_machnik_decker_2022]
 - [MacKenzie 2003][research_mackenzie_2003]
 - [MacKenzie and Addison 2001][research_mackenzie_addison_2001]
@@ -9272,7 +9211,6 @@ and that silence is the last thing the competition decided.
 - [Marongiu et al 2013][research_marongiu_tognaccini_2013]
 - [Marquiz et al 2025][research_marquiz_white_2025]
 - [Marsh 1978][research_marsh_1978]
-- [Marsilio et al 2024][research_marsilio_resta_2024]
 - [Martin 1977][research_martin_1977]
 - [Martin 1978][research_martin_1978]
 - [Martin 1997][research_martin_1997]
@@ -9355,7 +9293,6 @@ and that silence is the last thing the competition decided.
 - [Medinacelli et al 2023][research_medinacelli_noyrit_2023]
 - [Medlej et al 2017][research_medlej_stuban_2017]
 - [Megat et al 2026][research_megat_ewert_2026]
-- [Megat et al 2026][research_megat_ewert_2026_b]
 - [Mehalic 1988][research_mehalic_1988]
 - [Meharu et al 2013][research_meharu_valsan_2013]
 - [Mehr and Ning 2024][research_mehr_ning_2024]
@@ -9446,7 +9383,6 @@ and that silence is the last thing the competition decided.
 - [Moitra 2002][research_moitra_2002_b]
 - [Moller 1998][research_moller_1998]
 - [Molloy et al 2026][research_molloy_shekar_2026]
-- [Molloy et al 2026][research_molloy_shekar_2026_b]
 - [Mondal and Mathew 2017][research_mondal_mathew_2017]
 - [Monstein et al 2019][research_monstein_capone_2019]
 - [Monteil 2024][research_monteil_2024]
@@ -9461,7 +9397,6 @@ and that silence is the last thing the competition decided.
 - [Moorhouse 1994][research_moorhouse_1994]
 - [Moosavian and Ghassemi 2025][research_moosavian_ghassemi_2025]
 - [Morandini et al 2015][research_morandini_penserini_2015]
-- [Mordecai 2019][research_mordecai_2019]
 - [Morelli 1995][research_morelli_1995]
 - [Morelli 2000][research_morelli_2000]
 - [Morelli 2021][research_morelli_2021]
@@ -9609,7 +9544,6 @@ and that silence is the last thing the competition decided.
 - [Nimbalkar et al 2021][research_nimbalkar_govindaraju_2021]
 - [Nishii et al 1986][research_nishii_bai_1986]
 - [Nishikawa and Rinoie 2024][research_nishikawa_rinoie_2024]
-- [Nishikawa and Rinoie 2024][research_nishikawa_rinoie_2024_b]
 - [Niven 1977][research_niven_1977]
 - [Niwa and Suzuki 1991][research_niwa_suzuki_1991]
 - [Niță et al 2026][research_nita_rosu_2026]
@@ -9650,7 +9584,6 @@ and that silence is the last thing the competition decided.
 - [Okai et al 2016][research_okai_himeno_2016]
 - [Okai et al 2017][research_okai_nomura_2017]
 - [Okai et al 2019][research_okai_mitani_2019]
-- [Okai et al 2019][research_okai_mitani_2019_b]
 - [Okai et al 2020][research_okai_taguchi_2020]
 - [Okai et al 2021][research_okai_masaki_2021]
 - [Okcu 2016][research_okcu_2016]
@@ -9679,7 +9612,6 @@ and that silence is the last thing the competition decided.
 - [Ordaz and Li 2016][research_ordaz_li_2016]
 - [Ordaz et al 2015][research_ordaz_geiselhart_2015]
 - [Orefice et al 2019][research_orefice_dellavecchia_2019]
-- [Orefice et al 2019][research_orefice_dellavecchia_2019_b]
 - [Orme et al 1998][research_orme_hathaway_1998]
 - [Ornob et al 2025][research_ornob_li_2025]
 - [Orrick 2024][research_orrick_2024]
@@ -9773,7 +9705,6 @@ and that silence is the last thing the competition decided.
 - [Patrick and Hardin 2002][research_patrick_hardin_2002]
 - [Patterson et al 2016][research_patterson_derlaga_2016]
 - [Patton 2004][research_patton_2004]
-- [Paté-Cornell 2025][research_patecornell_2025]
 - [Paul et al 2023][research_paul_rhinehart_2023]
 - [Paulson 1981][research_paulson_1981]
 - [Paulson, Jr. 1980][research_paulsonjr_1980]
@@ -9807,7 +9738,6 @@ and that silence is the last thing the competition decided.
 - [Persson and Bull 2016][research_persson_bull_2016]
 - [Perusek 1994][research_perusek_1994]
 - [Peteilh et al 2020][research_peteilh_klein_2020]
-- [Peteilh et al 2020][research_peteilh_klein_2020_b]
 - [Peters 1981][research_peters_1981]
 - [Peters et al 1997][research_peters_andrisaniii_1997]
 - [Peterson 1964][research_peterson_1964]
@@ -9877,7 +9807,6 @@ and that silence is the last thing the competition decided.
 - [Power et al 2021][research_power_wylie_2021]
 - [Powers and Robinson 1992][research_powers_robinson_1992]
 - [Powers et al 1992][research_powers_webb_1992]
-- [Pozdniakovych 2025][research_pozdniakovych_2025]
 - [Prabhakar et al 2019][research_prabhakar_prazenica_2019]
 - [Prajapati et al 2024][research_prajapati_thakar_2024]
 - [Prasad 2025][research_prasad_2025]
@@ -10096,7 +10025,6 @@ and that silence is the last thing the competition decided.
 - [Rs et al 2018][research_rs_a_2018]
 - [Ruan et al 2025][research_ruan_an_2025]
 - [Rubin and Zhao 2021][research_rubin_zhao_2021]
-- [Rubin and Zhao 2022][research_rubin_zhao_2022]
 - [Rubinstein 2014][research_rubinstein_2014]
 - [Rudenko et al 2016][research_rudenko_hromisin_2016]
 - [Rudnick 1998][research_rudnick_1998]
@@ -10158,7 +10086,6 @@ and that silence is the last thing the competition decided.
 - [Samuels and Hahn 1986][research_samuels_hahn_1986]
 - [Samuels, Jeffrey J. 1992][research_samuelsjeffreyj_1992]
 - [Samuels, Jeffrey J. and Payne, Gordon A. 1990][research_samuelsjeffreyj_paynegordona_1990]
-- [San Andrés et al 2016][research_sanandres_phillips_2016]
 - [San Martin and Melnyk 2022][research_sanmartin_melnyk_2022]
 - [Sanal Kumar et al 2021][research_sanalkumar_m_2021]
 - [Sanders 1973][research_sanders_1973]
@@ -10340,7 +10267,6 @@ and that silence is the last thing the competition decided.
 - [Shin and Levis 2000][research_shin_levis_2000]
 - [Shinoda, Patrick M. and Johnson, Wayne 1993][research_shinodapatrickm_johnsonwayne_1993]
 - [Shipman and Bin 2021][research_shipman_bin_2021]
-- [Shipman and Bin 2021][research_shipman_bin_2021_b]
 - [Shirai and Wada 2025][research_shirai_wada_2025]
 - [Shirron and Giddings 2007][research_shirron_giddings_2007]
 - [Shivananda et al 1978][research_shivananda_mcmahon_1978]
@@ -10415,7 +10341,6 @@ and that silence is the last thing the competition decided.
 - [Skelton 1968][research_skelton_1968]
 - [Slater 2016][research_slater_2016]
 - [Slater 2019][research_slater_2019]
-- [Slater 2019][research_slater_2019_b]
 - [Sleesongsom et al 2022][research_sleesongsom_kumar_2022]
 - [Sliwinski et al 2017][research_sliwinski_gardi_2017]
 - [Slongo et al 2020][research_slongo_moraes_2020]
@@ -10644,7 +10569,6 @@ and that silence is the last thing the competition decided.
 - [Tafti and Vanka 1990][research_tafti_vanka_1990]
 - [Tafti and Vanka 1992][research_tafti_vanka_1992]
 - [Taghinia and Rahman 2018][research_taghinia_rahman_2018]
-- [Taghizadeh et al 2017][research_taghizadeh_acharya_2017]
 - [Tahsin et al 2025][research_tahsin_islam_2025]
 - [Tahsini 2020][research_tahsini_2020]
 - [Tai and Vorwald 1993][research_tai_vorwald_1993]
@@ -10766,7 +10690,6 @@ and that silence is the last thing the competition decided.
 - [Trazzi 2004][research_trazzi_2004]
 - [Trepel and Bohmann 1973][research_trepel_bohmann_1973]
 - [Treubig et al 2015][research_treubig_perullo_2015]
-- [Triebwasser et al 2025][research_triebwasser_eickhoff_2025]
 - [Triplett 1980][research_triplett_1980]
 - [Trivedi et al 2026][research_trivedi_munshi_2026]
 - [Troldborg et al 2015][research_troldborg_sorensen_2015]
@@ -10856,7 +10779,6 @@ and that silence is the last thing the competition decided.
 - [Vanka, S. P. 1998][research_vankasp_1998]
 - [Vankadari et al 2018][research_vankadari_das_2018]
 - [VanLandingham and Hall 2023][research_vanlandingham_hall_2023]
-- [VanLandingham and Hall 2023][research_vanlandingham_hall_2023_b]
 - [Vanoverbeke and Holdeman 1988][research_vanoverbeke_holdeman_1988]
 - [VanOverbeke and Holdeman 1990][research_vanoverbeke_holdeman_1990]
 - [Vanoverbeke, Thomas J. and Holdeman, James D. 1989][research_vanoverbekethomasj_holdemanjamesd_1989]
@@ -11083,7 +11005,6 @@ and that silence is the last thing the competition decided.
 - [Wildermuth et al 1974][research_wildermuth_rothammer_1974]
 - [Wilhelm and Schafranek 1986][research_wilhelm_schafranek_1986]
 - [Wilhelms et al 2026][research_wilhelms_sun_2026]
-- [Wilhelms et al 2026][research_wilhelms_sun_2026_b]
 - [Wilken 1991][research_wilken_1991]
 - [Wilkinson et al 1974][research_wilkinson_lerner_1974]
 - [Willan 2011][research_willan_2011]
@@ -11118,7 +11039,6 @@ and that silence is the last thing the competition decided.
 - [Winkler et al 2017][research_winkler_reimann_2017]
 - [Winston et al 1975][research_winston_weston_1975]
 - [Winterling et al 2018][research_winterling_cassibry_2018]
-- [Winterling et al 2018][research_winterling_cassibry_2018_b]
 - [Winters 1996][research_winters_1996]
 - [Wise et al 1999][research_wise_sedwick_1999]
 - [Wisher et al 1997][research_wisher_priest_1997]
@@ -11140,7 +11060,6 @@ and that silence is the last thing the competition decided.
 - [Wright 1966][research_wright_1966]
 - [Wright and Russell 1980][research_wright_russell_1980]
 - [Wright et al 2025][research_wright_variny_2025]
-- [Wright et al 2025][research_wright_variny_2025_b]
 - [Wroblewski and Ansell 2020][research_wroblewski_ansell_2020]
 - [Wu Dan 2018][research_wudan_2018]
 - [Wu et al 1997][research_wu_lu_1997]
@@ -11328,7 +11247,6 @@ and that silence is the last thing the competition decided.
 - [Zha et al 1997][research_zha_smith_1997]
 - [Zhang 2017][research_zhang_2017]
 - [Zhang and Agarwal 2020][research_zhang_agarwal_2020]
-- [Zhang and Agarwal 2020][research_zhang_agarwal_2020_b]
 - [Zhang and Cheng 2024][research_zhang_cheng_2024]
 - [Zhang and Fan 2012][research_zhang_fan_2012]
 - [Zhang and Fu 2024][research_zhang_fu_2024]
@@ -11336,7 +11254,6 @@ and that silence is the last thing the competition decided.
 - [Zhang and Ing 1994][research_zhang_ing_1994]
 - [Zhang and Qi 2024][research_zhang_qi_2024]
 - [Zhang and Tang 2015][research_zhang_tang_2015]
-- [Zhang and Zou 2022][research_zhang_zou_2022]
 - [Zhang et al 2004][research_zhang_myklebust_2004]
 - [Zhang et al 2015][research_zhang_wei_2015]
 - [Zhang et al 2016][research_zhang_jiang_2016]
@@ -11426,7 +11343,6 @@ and that silence is the last thing the competition decided.
 - [Zhu et al 2022][research_zhu_nie_2022]
 - [Zhu et al 2026][research_zhu_sun_2026]
 - [Ziehm and Thomas 2023][research_ziehm_thomas_2023]
-- [Ziehm and Thomas 2023][research_ziehm_thomas_2023_b]
 - [Zilver et al 2025][research_zilver_vanrooij_2025]
 - [Zimbelman and Rouser 2025][research_zimbelman_rouser_2025]
 - [Zimmerman 1958][research_zimmerman_1958]
@@ -11437,7 +11353,6 @@ and that silence is the last thing the competition decided.
 - [Zou et al 2017][research_zou_che_2017]
 - [Zou et al 2025][research_zou_yang_2025]
 - [Zumwalt 1985][research_zumwalt_1985]
-- [Zuo et al 2023][research_zuo_zong_2023]
 - [Zweber et al 2017][research_zweber_kolonay_2017]
 - [Ünal et al 2023][research_unal_oz_2023]
 - [Łapka et al 2019][research_apka_seredynski_2019]
@@ -11465,9 +11380,7 @@ and that silence is the last thing the competition decided.
 [research_abdullah_kashif_2025]: https://doi.org/10.1109/icet64964.2025.11102913
 [research_abdullah_miao_2026]: https://doi.org/10.37256/jeee.5120269903
 [research_abdulrahim_2019]: https://doi.org/10.2514/6.2019-0065
-[research_abdulrahim_2019_b]: https://doi.org/10.2514/6.2019-0065.c1
 [research_abdulrahim_bates_2019]: https://doi.org/10.2514/6.2019-0825
-[research_abdulrahim_bates_2019_b]: https://doi.org/10.2514/6.2019-0825.c1
 [research_abedi_askari_2020]: https://doi.org/10.1016/j.jppr.2020.01.002
 [research_aboelezz_abdulrahman_2022]: https://doi.org/10.2514/6.2022-0304
 [research_abouamod_awad_2017]: https://doi.org/10.1109/ieeegcc.2017.8448054
@@ -11558,7 +11471,6 @@ and that silence is the last thing the competition decided.
 [research_ali_floresgovea_2026]: https://doi.org/10.2514/6.2026-4170
 [research_ali_maqsood_2024]: https://doi.org/10.1109/ibcast61650.2024.10877222
 [research_aliaga_zore_2025]: https://doi.org/10.2514/6.2025-0498
-[research_aliaga_zore_2025_b]: https://doi.org/10.2514/6.2025-0498.c1
 [research_aliaga_zore_2026]: https://doi.org/10.2514/6.2026-4018
 [research_alikhan_hasan_2019]: https://doi.org/10.3850/978-981-11-2730-4_0377-cd
 [research_aliyanto_sarno_2017]: https://doi.org/10.1109/icts.2017.8265650
@@ -11693,7 +11605,6 @@ and that silence is the last thing the competition decided.
 [research_bachman_wells_1961]: https://doi.org/10.21236/ad0268501
 [research_bacon_1988]: https://doi.org/10.21236/ada192789
 [research_baculi_nguyen_2023]: https://doi.org/10.2514/6.2023-1558
-[research_baculi_nguyen_2023_b]: https://doi.org/10.2514/6.2023-1558.c1
 [research_baculi_nguyen_2024]: https://doi.org/10.2514/6.2024-3771
 [research_badaliance_dill_1981]: https://doi.org/10.21236/ada105034
 [research_bader_vereno_2024]: https://doi.org/10.5220/0012623200003645
@@ -11761,7 +11672,6 @@ and that silence is the last thing the competition decided.
 [research_barth_wise_2019]: https://doi.org/10.2514/1.b36794
 [research_barthelemy_coen_1994]: https://doi.org/10.2514/3.46491
 [research_bartlett_1996]: https://doi.org/10.21236/ada441703
-[research_bartlett_2000]: https://doi.org/10.21236/ada398815
 [research_bartone_kiran_2001]: https://doi.org/10.1002/j.2161-4296.2001.tb00226.x
 [research_bashkirov_irodov_1997]: https://doi.org/10.2514/6.1997-5598
 [research_baskaran_harisrinivasan_2018]: https://doi.org/10.2514/6.2018-4206
@@ -11830,7 +11740,6 @@ and that silence is the last thing the competition decided.
 [research_bennett_lawson_2017]: https://doi.org/10.2514/6.2017-3652
 [research_bennett_raisrohani_1993]: https://doi.org/10.4271/931219
 [research_bennie_fossati_2024]: https://doi.org/10.2514/6.2024-4389
-[research_benrabia_soffker_2023]: https://doi.org/10.1109/vppc60535.2023.10403390
 [research_benton_humphrey_2021]: https://doi.org/10.2514/6.2021-0879
 [research_benyamen_chowdhury_2024]: https://doi.org/10.1115/1.4065804
 [research_benyamen_keshmiri_2022]: https://doi.org/10.1109/icuas54217.2022.9836206
@@ -11856,7 +11765,6 @@ and that silence is the last thing the competition decided.
 [research_bertoni_dasari_2018]: https://doi.org/10.21278/idc.2018.0437
 [research_bertram_2016]: https://doi.org/10.1109/syscon.2016.7490562
 [research_bertrand_spierling_2019]: https://doi.org/10.2514/6.2019-4466
-[research_bertrand_spierling_2019_b]: https://doi.org/10.2514/6.2019-4466.c1
 [research_berzins_2014]: https://doi.org/10.21236/ada624722
 [research_beskar_2004]: https://doi.org/10.21236/ada429596
 [research_bevilaqua_1996]: https://doi.org/10.4271/962274
@@ -12277,7 +12185,6 @@ and that silence is the last thing the competition decided.
 [research_chopra_1983]: https://doi.org/10.2514/6.1983-985
 [research_chopra_2025]: https://doi.org/10.4050/f-0081-2025-0213
 [research_chouicha_sellam_2019]: https://doi.org/10.15394/ijaaa.2019.1377
-[research_chouicha_sellam_2020]: https://doi.org/10.1016/j.jppr.2020.04.002
 [research_chouicha_sellam_2020_b]: https://doi.org/10.1007/s13369-020-04350-8
 [research_chowdhury_ali_2019]: https://doi.org/10.36001/phmconf.2019.v11i1.888
 [research_chowhan_arya_2019]: https://doi.org/10.1002/j.2334-5837.2019.00697.x
@@ -12288,7 +12195,6 @@ and that silence is the last thing the competition decided.
 [research_chun_burr_1969]: https://doi.org/10.2514/3.44056
 [research_chun_swanson_1964]: https://doi.org/10.2514/6.1964-598
 [research_chung_2024]: https://doi.org/10.2514/6.2024-4037
-[research_chung_2024_b]: https://doi.org/10.2514/6.2024-4037.c1
 [research_chung_mcneill_1993]: https://doi.org/10.2514/6.1993-4871
 [research_chungwywilliam_borcherspaulf_1995]: https://ntrs.nasa.gov/citations/19950019992
 [research_chuprunjr_1984]: https://doi.org/10.2514/6.1984-2505
@@ -12314,9 +12220,7 @@ and that silence is the last thing the competition decided.
 [research_coder_2021]: https://doi.org/10.2514/1.c035887
 [research_coffee_maganty_1996]: https://doi.org/10.1002/j.2161-4296.1996.tb02577.x
 [research_cohen_1984]: https://doi.org/10.2514/3.45039
-[research_cohen_1985]: https://doi.org/10.2514/3.56757
 [research_colas_valenzuela_2020]: https://doi.org/10.2514/6.2020-3526
-[research_colas_valenzuela_2020_b]: https://doi.org/10.2514/6.2020-3526.c1
 [research_colbacchini_gahafer_2016]: https://doi.org/10.1109/sieds.2016.7489301
 [research_colbert_quinn_2020]: https://doi.org/10.2514/6.2020-2655
 [research_colbert_quinn_2023]: https://doi.org/10.2514/1.c036820
@@ -12667,7 +12571,6 @@ and that silence is the last thing the competition decided.
 [research_eames_1993]: https://doi.org/10.2514/6.1993-4866
 [research_eames_mason_1988]: https://doi.org/10.2514/6.1988-3000
 [research_ebert_manfletti_2025]: https://doi.org/10.52202/083090-0095
-[research_ebewele_kim_2024]: https://doi.org/10.2139/ssrn.4862782
 [research_ebrahimifakhari_moshtaghzadeh_2024]: https://doi.org/10.2514/6.2024-2461
 [research_ebus_dietz_2024]: https://doi.org/10.2514/1.b39046
 [research_eccles_1983]: https://doi.org/10.2514/6.1983-1241
@@ -12909,7 +12812,6 @@ and that silence is the last thing the competition decided.
 [research_fu_huang_2018]: https://doi.org/10.1108/aeat-04-2018-0139
 [research_fu_sparks_2010]: https://doi.org/10.21236/ada523920
 [research_fu_sun_2019]: https://doi.org/10.1109/ccdc.2019.8832706
-[research_fu_untaroiu_2017]: https://doi.org/10.1115/gt2017-64535
 [research_fu_zhao_2023]: https://doi.org/10.3390/drones7050332
 [research_fuel_conservative_guidance_1981]: https://doi.org/10.2514/3.56075
 [research_fuhrman_1999]: https://doi.org/10.21236/ada367459
@@ -13117,7 +13019,6 @@ and that silence is the last thing the competition decided.
 [research_gros_cantosgalvez_2025]: https://doi.org/10.52202/083090-0076
 [research_grosse_1965]: https://doi.org/10.21236/ad0622112
 [research_gu_cheung_2023]: https://doi.org/10.2514/6.2023-0402
-[research_gu_cheung_2023_b]: https://doi.org/10.2514/6.2023-0402.c1
 [research_guajardo_2020]: https://doi.org/10.32567/hm.2020.3.2
 [research_guan_abbasi_2021]: https://doi.org/10.1016/j.dss.2021.113602
 [research_guan_lv_2024]: https://doi.org/10.1016/j.applthermaleng.2024.122710
@@ -13148,7 +13049,6 @@ and that silence is the last thing the competition decided.
 [research_ha_2023]: https://doi.org/10.1615/978-1-56700-099-3.220
 [research_ha_kim_2025]: https://doi.org/10.6108/kspe.2025.29.6.045
 [research_ha_lee_2020]: https://doi.org/10.2514/6.2020-0904
-[research_ha_lee_2020_b]: https://doi.org/10.2514/6.2020-0904.c1
 [research_ha_roh_2020]: https://doi.org/10.6108/kspe.2020.24.5.021
 [research_habib_iovenitti_2017]: https://doi.org/10.1080/17452759.2017.1291354
 [research_hadjkouider_sahraoui_2024]: https://doi.org/10.1109/pais62114.2024.10541218
@@ -13166,11 +13066,9 @@ and that silence is the last thing the competition decided.
 [research_hall_hodder_1971]: https://doi.org/10.2514/6.1971-981
 [research_hall_lieu_2021]: https://doi.org/10.2514/6.2021-0991
 [research_halwas_aggarwal_2019]: https://doi.org/10.2514/6.2019-4422
-[research_halwas_aggarwal_2019_b]: https://doi.org/10.2514/6.2019-4422.c1
 [research_hamada_2017]: https://doi.org/10.1016/j.ifacol.2017.08.2086
 [research_hamada_2021]: https://doi.org/10.4271/2021-01-0026
 [research_hamblyd_1974]: https://ntrs.nasa.gov/citations/19750021044
-[research_hamby_1997]: https://doi.org/10.21236/ada328131
 [research_hamed_laskowski_1997]: https://doi.org/10.2514/6.1997-3154
 [research_hamid_tariq_2021]: https://doi.org/10.1109/ibcast51254.2021.9393201
 [research_hammond_lim_1995]: https://doi.org/10.2514/6.1995-2190
@@ -13420,7 +13318,6 @@ and that silence is the last thing the competition decided.
 [research_huang_yao_2020]: https://doi.org/10.2514/6.2020-2596
 [research_huang_zhang_2021]: https://doi.org/10.23919/icems52562.2021.9634242
 [research_huang_zhu_2019]: https://doi.org/10.2514/6.2019-1422
-[research_huang_zhu_2019_b]: https://doi.org/10.2514/6.2019-1422.c1
 [research_huangfu_yu_2024]: https://doi.org/10.1109/iciea61579.2024.10664970
 [research_hubbard_caldwell_1989]: https://doi.org/10.2514/6.1989-2115
 [research_huber_1976]: https://doi.org/10.21236/ada031202
@@ -13671,7 +13568,6 @@ and that silence is the last thing the competition decided.
 [research_kaneshige_lombaerts_2023]: https://doi.org/10.2514/6.2023-3910
 [research_kang_lu_2025]: https://doi.org/10.2514/1.g008466
 [research_kang_roumeliotis_2021]: https://doi.org/10.1115/gt2021-58655
-[research_kang_yang_2015]: https://doi.org/10.1115/1.4030968
 [research_kang_yim_2021]: https://doi.org/10.5139/jksas.2021.49.3.221
 [research_kangning_shiyoumin_2018]: https://doi.org/10.1049/cp.2018.0154
 [research_kano_ryuzono_2025]: https://doi.org/10.2514/6.2025-0002
@@ -13696,7 +13592,6 @@ and that silence is the last thing the competition decided.
 [research_kascak_dever_2021]: https://doi.org/10.2514/6.2021-3307
 [research_kasprzak_lass_2017]: https://doi.org/10.4050/f-0073-2017-12175
 [research_kasunic_2004]: https://doi.org/10.21236/ada421663
-[research_kateb_safarian_2025]: https://doi.org/10.1016/j.mlwa.2025.100786
 [research_kato_lee_2024]: https://doi.org/10.2514/6.2024-0111
 [research_katz_roglin_2000]: https://doi.org/10.2514/2.2658
 [research_kawai_1973]: https://doi.org/10.2514/6.1973-807
@@ -13737,7 +13632,6 @@ and that silence is the last thing the competition decided.
 [research_khudaybergenov_2021]: https://doi.org/10.1109/icisct52966.2021.9670372
 [research_ki_2019]: https://doi.org/10.6108/kspe.2019.23.3.104
 [research_kianvashrad_knight_2018]: https://doi.org/10.2514/6.2018-3757
-[research_kianvashrad_knight_2018_b]: https://doi.org/10.2514/6.2018-3757.c1
 [research_kiaries_2018]: https://doi.org/10.1109/re.2018.00061
 [research_kibar_2016]: https://doi.org/10.1088/0169-5983/49/1/015502
 [research_kidwell_rapp_1985]: https://doi.org/10.4271/851170
@@ -13894,14 +13788,12 @@ and that silence is the last thing the competition decided.
 [research_kumar_ghosh_2018]: https://doi.org/10.2514/6.2018-2093
 [research_kumar_ghosh_2023]: https://doi.org/10.1108/aeat-09-2019-0179
 [research_kumar_omprakas_2018]: https://doi.org/10.2514/6.2018-0404
-[research_kumar_omprakas_2018_b]: https://doi.org/10.2514/6.2018-0404.c1
 [research_kumar_prasad_2018]: https://doi.org/10.1016/j.jppr.2018.01.002
 [research_kumarmuduli_mishra_2023]: https://doi.org/10.61653/joast.v74i1.2022.15
 [research_kumazaki_shimamura_2026]: https://doi.org/10.2514/6.2026-1104
 [research_kundu_curran_2002]: https://doi.org/10.2514/6.2002-5853
 [research_kundu_watterson_1998]: https://doi.org/10.2514/6.1998-4874
 [research_kuppa_rostkowski_2022]: https://doi.org/10.2514/6.2022-3502
-[research_kuppa_rostkowski_2022_b]: https://doi.org/10.2514/6.2022-3502.c1
 [research_kurdyla_1963]: https://doi.org/10.21236/ad0434421
 [research_kurosaka_1984]: https://doi.org/10.21236/ada147092
 [research_kursakov_lysenkov_2022]: https://doi.org/10.53954/9785604788974_95
@@ -13947,9 +13839,6 @@ and that silence is the last thing the competition decided.
 [research_lappos_2020]: https://doi.org/10.4050/sm_2020_hq-911
 [research_lasarge_ford_1996]: https://doi.org/10.2514/6.1996-2841
 [research_lateral_directional_flying_2002]: https://doi.org/10.2514/5.9781600861758.0069.0074
-[research_latray_kim_2020]: https://doi.org/10.1115/gt2020-15056
-[research_latray_kim_2021]: https://doi.org/10.1115/1.0003233v
-[research_latray_kim_2021_b]: https://doi.org/10.1115/1.4049941
 [research_lauer_ansell_2022]: https://doi.org/10.2514/6.2022-3662
 [research_laughman_2010]: https://doi.org/10.21236/ada520010
 [research_lavelle_2017]: https://doi.org/10.22594/dau.16-762.24.03
@@ -13990,7 +13879,6 @@ and that silence is the last thing the competition decided.
 [research_lee_prasad_2016]: https://doi.org/10.2514/6.2016-3408
 [research_lee_saj_2021]: https://doi.org/10.2514/6.2021-3218
 [research_lee_yee_2024]: https://doi.org/10.2514/1.c037225
-[research_lee_yee_2024_b]: https://doi.org/10.2514/1.c037225.c1
 [research_lee_youssef_1988]: https://doi.org/10.2514/6.1988-4140
 [research_leete_romero_2015]: https://doi.org/10.2514/6.2015-4596
 [research_lefebvre_zha_2016]: https://doi.org/10.2514/6.2016-0570
@@ -14002,10 +13890,8 @@ and that silence is the last thing the competition decided.
 [research_lei_yao_2016]: https://doi.org/10.1080/09544828.2016.1228101
 [research_lei_zha_2021]: https://doi.org/10.2514/6.2021-2591
 [research_lei_zha_2022]: https://doi.org/10.2514/6.2022-2234
-[research_lei_zha_2022_b]: https://doi.org/10.2514/6.2022-2234.c1
 [research_lei_zha_2023]: https://doi.org/10.2514/6.2023-3606
 [research_lei_zha_2023_b]: https://doi.org/10.2514/6.2023-4236
-[research_lei_zha_2023_c]: https://doi.org/10.2514/6.2023-4236.c1
 [research_lei_zha_2023_d]: https://doi.org/10.2514/6.2023-0243
 [research_lei_zhao_2023]: https://doi.org/10.3390/app14010280
 [research_lei_zhao_2024]: https://doi.org/10.3390/aerospace11090737
@@ -14223,7 +14109,6 @@ and that silence is the last thing the competition decided.
 [research_lu_shao_2022]: https://doi.org/10.2112/jcoastres-d-21-00106.1
 [research_lu_terrier_2003]: https://doi.org/10.2514/6.2003-184
 [research_lu_terrier_2003_b]: https://doi.org/10.2514/2.6162
-[research_lu_tian_2023]: https://doi.org/10.3390/lubricants11060267
 [research_lu_wang_2020]: https://doi.org/10.2514/6.2020-3542
 [research_lu_yuan_2017]: https://doi.org/10.1109/icrae.2017.8291352
 [research_lu_yuan_2019]: https://doi.org/10.1109/icsai48974.2019.9010195
@@ -14268,7 +14153,6 @@ and that silence is the last thing the competition decided.
 [research_ma_guan_2018]: https://doi.org/10.23919/chicc.2018.8482717
 [research_ma_he_2025]: https://doi.org/10.52202/083090-0053
 [research_ma_ju_2025]: https://doi.org/10.58286/31026
-[research_ma_lao_2023]: https://doi.org/10.33737/gpps23-tc-193
 [research_ma_li_2018]: https://doi.org/10.1109/gncc42960.2018.9019040
 [research_ma_li_2026]: https://doi.org/10.1016/j.dt.2026.07.017
 [research_ma_wang_2022]: https://doi.org/10.3390/aerospace9110690
@@ -14279,7 +14163,6 @@ and that silence is the last thing the competition decided.
 [research_mabkhot_kalawsky_2025]: https://doi.org/10.3390/systems13080700
 [research_mace_nyberg_1992]: https://doi.org/10.2514/6.1992-3333
 [research_mace_smereczniak_1989]: https://doi.org/10.2514/6.1989-2816
-[research_machchhar_tollermelen_2024]: https://doi.org/10.1017/pds.2024.268
 [research_machnik_decker_2022]: https://doi.org/10.5162/ettc2022/4.2
 [research_mackenzie_2003]: https://doi.org/10.2514/6.2003-6297
 [research_mackenzie_addison_2001]: https://doi.org/10.2514/6.2001-4517
@@ -14347,7 +14230,6 @@ and that silence is the last thing the competition decided.
 [research_marongiu_tognaccini_2013]: https://doi.org/10.2514/1.j052104
 [research_marquiz_white_2025]: https://doi.org/10.22594/dau.24-925.32.01
 [research_marsh_1978]: https://doi.org/10.21236/ada059846
-[research_marsilio_resta_2024]: https://doi.org/10.2514/6.2024-1617.c1
 [research_martin_1977]: https://doi.org/10.2514/6.1977-885
 [research_martin_1978]: https://doi.org/10.21236/ada066904
 [research_martin_1997]: https://doi.org/10.21236/ada629080
@@ -14429,7 +14311,6 @@ and that silence is the last thing the competition decided.
 [research_medinacelli_noyrit_2023]: https://doi.org/10.5220/0012233900003598
 [research_medlej_stuban_2017]: https://doi.org/10.22594/dau.17-774.24.04
 [research_megat_ewert_2026]: https://doi.org/10.2514/6.2026-3592
-[research_megat_ewert_2026_b]: https://doi.org/10.2514/6.2026-3592.c1
 [research_mehalic_1988]: https://doi.org/10.2514/6.1988-3016
 [research_meharu_valsan_2013]: https://doi.org/10.14429/dsj.63.4259
 [research_mehr_ning_2024]: https://doi.org/10.2514/6.2024-4297
@@ -14520,7 +14401,6 @@ and that silence is the last thing the competition decided.
 [research_moitra_2002_b]: https://doi.org/10.2514/6.2002-2718
 [research_moller_1998]: https://doi.org/10.2514/6.1998-5533
 [research_molloy_shekar_2026]: https://doi.org/10.2514/6.2026-2808
-[research_molloy_shekar_2026_b]: https://doi.org/10.2514/6.2026-2808.c1
 [research_mondal_mathew_2017]: https://doi.org/10.1115/gtindia2017-4849
 [research_monstein_capone_2019]: https://doi.org/10.2514/1.c035171
 [research_monteil_2024]: https://doi.org/10.5162/ettc2024/a1.4
@@ -14535,7 +14415,6 @@ and that silence is the last thing the competition decided.
 [research_moorhouse_1994]: https://doi.org/10.2514/6.1994-2106
 [research_moosavian_ghassemi_2025]: https://doi.org/10.1615/atomizspr.2024049889
 [research_morandini_penserini_2015]: https://doi.org/10.1007/s00766-015-0236-0
-[research_mordecai_2019]: https://doi.org/10.1002/sys.21480
 [research_morelli_1995]: https://doi.org/10.2514/3.46778
 [research_morelli_2000]: https://doi.org/10.2514/6.2000-3902
 [research_morelli_2021]: https://doi.org/10.2514/6.2021-1642
@@ -14683,7 +14562,6 @@ and that silence is the last thing the competition decided.
 [research_nimbalkar_govindaraju_2021]: https://doi.org/10.4271/01-14-01-0004
 [research_nishii_bai_1986]: https://doi.org/10.21236/ada186584
 [research_nishikawa_rinoie_2024]: https://doi.org/10.2514/6.2024-2311
-[research_nishikawa_rinoie_2024_b]: https://doi.org/10.2514/6.2024-2311.c1
 [research_nita_rosu_2026]: https://doi.org/10.1002/masy.70370
 [research_niven_1977]: https://doi.org/10.21236/ada050618
 [research_niwa_suzuki_1991]: https://doi.org/10.4271/911995
@@ -14723,7 +14601,6 @@ and that silence is the last thing the competition decided.
 [research_okai_himeno_2016]: https://doi.org/10.2514/6.2016-4713
 [research_okai_masaki_2021]: https://doi.org/10.2514/6.2021-3552
 [research_okai_mitani_2019]: https://doi.org/10.2514/6.2019-3852
-[research_okai_mitani_2019_b]: https://doi.org/10.2514/6.2019-3852.c1
 [research_okai_nomura_2017]: https://doi.org/10.2514/6.2017-4957
 [research_okai_taguchi_2020]: https://doi.org/10.2514/6.2020-3678
 [research_okcu_2016]: https://doi.org/10.18178/jacn.2016.4.1.199
@@ -14753,7 +14630,6 @@ and that silence is the last thing the competition decided.
 [research_ordaz_geiselhart_2015]: https://doi.org/10.2514/1.c033160
 [research_ordaz_li_2016]: https://doi.org/10.2514/1.c033159
 [research_orefice_dellavecchia_2019]: https://doi.org/10.2514/6.2019-4465
-[research_orefice_dellavecchia_2019_b]: https://doi.org/10.2514/6.2019-4465.c1
 [research_orme_hathaway_1998]: https://doi.org/10.2514/6.1998-3871
 [research_ornob_li_2025]: https://doi.org/10.1109/comea66280.2025.11241972
 [research_orrick_2024]: https://doi.org/10.52202/078379-0023
@@ -14838,7 +14714,6 @@ and that silence is the last thing the competition decided.
 [research_passarani_grossi_2026]: https://doi.org/10.2514/6.2026-1270
 [research_pastore_agozzino_2025]: https://doi.org/10.3390/aerospace12090781
 [research_pastrone_sentinella_2009]: https://doi.org/10.2514/1.41327
-[research_patecornell_2025]: https://doi.org/10.1287/deca.2025.0355
 [research_patek_smrcek_1999]: https://doi.org/10.1016/s1369-8869(99)00015-4
 [research_patel_chudoba_2026]: https://doi.org/10.1108/aeat-01-2025-0015
 [research_patel_ergan_2025]: https://doi.org/10.2514/6.2025-0001
@@ -14881,7 +14756,6 @@ and that silence is the last thing the competition decided.
 [research_persson_bull_2016]: https://doi.org/10.2514/1.c033566
 [research_perusek_1994]: https://doi.org/10.2514/6.1994-2560
 [research_peteilh_klein_2020]: https://doi.org/10.2514/6.2020-3171
-[research_peteilh_klein_2020_b]: https://doi.org/10.2514/6.2020-3171.c1
 [research_peters_1981]: https://doi.org/10.21236/ada101614
 [research_peters_andrisaniii_1997]: https://doi.org/10.2514/6.1997-3701
 [research_peterson_1964]: https://doi.org/10.2514/6.1964-196
@@ -14951,7 +14825,6 @@ and that silence is the last thing the competition decided.
 [research_power_wylie_2021]: https://doi.org/10.1109/aero50100.2021.9438152
 [research_powers_robinson_1992]: https://doi.org/10.2514/6.1992-3334
 [research_powers_webb_1992]: https://doi.org/10.2514/6.1992-4101
-[research_pozdniakovych_2025]: https://doi.org/10.33111/mise.104.12
 [research_prabhakar_prazenica_2019]: https://doi.org/10.2514/6.2019-1921
 [research_prajapati_thakar_2024]: https://doi.org/10.1002/adc2.204
 [research_prasad_2025]: https://doi.org/10.1115/1.4069509
@@ -15171,7 +15044,6 @@ and that silence is the last thing the competition decided.
 [research_rs_a_2018]: https://doi.org/10.5539/mas.v12n10p195
 [research_ruan_an_2025]: https://doi.org/10.3390/drones9030167
 [research_rubin_zhao_2021]: https://doi.org/10.2514/1.j059734
-[research_rubin_zhao_2022]: https://doi.org/10.2514/1.j059734.c1
 [research_rubinstein_2014]: https://doi.org/10.21236/ada620879
 [research_rudenko_hromisin_2016]: https://doi.org/10.2514/6.2016-4255
 [research_rudnick_1998]: https://doi.org/10.4271/981851
@@ -15233,7 +15105,6 @@ and that silence is the last thing the competition decided.
 [research_samuelsjeffreyj_1992]: https://ntrs.nasa.gov/citations/19930029332
 [research_samuelsjeffreyj_paynegordona_1990]: https://ntrs.nasa.gov/citations/19910032586
 [research_sanalkumar_m_2021]: https://doi.org/10.2514/6.2021-2940
-[research_sanandres_phillips_2016]: https://doi.org/10.1115/gt2016-56349
 [research_sanders_1973]: https://doi.org/10.21236/ada036519
 [research_sandersnewelld_palasicsjohn_1948]: https://ntrs.nasa.gov/citations/19930093740
 [research_sandstrom_white_1961]: https://doi.org/10.21236/ad0257074
@@ -15415,7 +15286,6 @@ and that silence is the last thing the competition decided.
 [research_shin_levis_2000]: https://doi.org/10.21236/ada388093
 [research_shinodapatrickm_johnsonwayne_1993]: https://ntrs.nasa.gov/citations/19930063214
 [research_shipman_bin_2021]: https://doi.org/10.2514/6.2021-2481
-[research_shipman_bin_2021_b]: https://doi.org/10.2514/6.2021-2481.c1
 [research_shirai_wada_2025]: https://doi.org/10.1109/itec63604.2025.11097949
 [research_shirron_giddings_2007]: https://doi.org/10.21236/ada573120
 [research_shivananda_mcmahon_1978]: https://doi.org/10.2514/3.58391
@@ -15490,7 +15360,6 @@ and that silence is the last thing the competition decided.
 [research_skelton_1968]: https://doi.org/10.21236/ad0679593
 [research_slater_2016]: https://doi.org/10.2514/6.2016-0530
 [research_slater_2019]: https://doi.org/10.2514/6.2019-1447
-[research_slater_2019_b]: https://doi.org/10.2514/6.2019-1447.c1
 [research_sleesongsom_kumar_2022]: https://doi.org/10.3390/sym14102125
 [research_sliwinski_gardi_2017]: https://doi.org/10.1016/j.energy.2017.05.183
 [research_slongo_moraes_2020]: https://doi.org/10.5028/jatm.cab.1150
@@ -15721,7 +15590,6 @@ and that silence is the last thing the competition decided.
 [research_tafti_vanka_1990]: https://doi.org/10.2514/6.1990-2270
 [research_tafti_vanka_1992]: https://doi.org/10.2514/3.46120
 [research_taghinia_rahman_2018]: https://doi.org/10.1016/j.ijheatmasstransfer.2017.09.113
-[research_taghizadeh_acharya_2017]: https://doi.org/10.1115/ht2017-5078
 [research_tahsin_islam_2025]: https://doi.org/10.2514/6.2025-106788
 [research_tahsini_2020]: https://doi.org/10.1108/aeat-12-2019-0268
 [research_tai_vorwald_1993]: https://doi.org/10.2514/6.1993-4878
@@ -15843,7 +15711,6 @@ and that silence is the last thing the competition decided.
 [research_trazzi_2004]: https://doi.org/10.5380/ret.v3i1.3484
 [research_trepel_bohmann_1973]: https://doi.org/10.4271/730890
 [research_treubig_perullo_2015]: https://doi.org/10.2514/6.2015-4025
-[research_triebwasser_eickhoff_2025]: https://doi.org/10.1115/gt2025-151936
 [research_triplett_1980]: https://doi.org/10.2514/3.57932
 [research_trivedi_munshi_2026]: https://doi.org/10.2514/6.2026-4109
 [research_troldborg_sorensen_2015]: https://doi.org/10.2514/6.2015-1035
@@ -15927,7 +15794,6 @@ and that silence is the last thing the competition decided.
 [research_vankadari_das_2018]: https://doi.org/10.1109/icuas.2018.8453468
 [research_vankasp_1998]: https://ntrs.nasa.gov/citations/19980017318
 [research_vanlandingham_hall_2023]: https://doi.org/10.2514/6.2023-3228
-[research_vanlandingham_hall_2023_b]: https://doi.org/10.2514/6.2023-3228.c1
 [research_vanniekerk_1958]: https://doi.org/10.1115/1.4011821
 [research_vannieuwstadt_murray_1998]: https://doi.org/10.2514/2.4202
 [research_vanoverbeke_holdeman_1988]: https://doi.org/10.2514/6.1988-2882
@@ -16161,7 +16027,6 @@ and that silence is the last thing the competition decided.
 [research_wildermuth_rothammer_1974]: https://doi.org/10.21236/ada002873
 [research_wilhelm_schafranek_1986]: https://doi.org/10.2514/3.45377
 [research_wilhelms_sun_2026]: https://doi.org/10.2514/6.2026-2272
-[research_wilhelms_sun_2026_b]: https://doi.org/10.2514/6.2026-2272.c1
 [research_wilken_1991]: https://doi.org/10.2514/6.1991-3186
 [research_wilkinson_lerner_1974]: https://doi.org/10.2514/6.1974-986
 [research_willan_2011]: https://doi.org/10.21236/ada560042
@@ -16196,7 +16061,6 @@ and that silence is the last thing the competition decided.
 [research_winkler_reimann_2017]: https://doi.org/10.2514/6.2017-3034
 [research_winston_weston_1975]: https://doi.org/10.2514/6.1975-1215
 [research_winterling_cassibry_2018]: https://doi.org/10.2514/6.2018-4770
-[research_winterling_cassibry_2018_b]: https://doi.org/10.2514/6.2018-4770.c1
 [research_winters_1996]: https://doi.org/10.2514/6.1996-2745
 [research_wise_sedwick_1999]: https://doi.org/10.21236/ada386935
 [research_wisher_priest_1997]: https://doi.org/10.21236/ada337689
@@ -16218,7 +16082,6 @@ and that silence is the last thing the competition decided.
 [research_wright_1966]: https://doi.org/10.21236/ad0645537
 [research_wright_russell_1980]: https://doi.org/10.1017/s0001924000031304
 [research_wright_variny_2025]: https://doi.org/10.2514/6.2025-0332
-[research_wright_variny_2025_b]: https://doi.org/10.2514/6.2025-0332.c1
 [research_wroblewski_ansell_2020]: https://doi.org/10.2514/6.2020-3579
 [research_wu_baik_2000]: https://doi.org/10.2514/6.2000-5610
 [research_wu_baik_2000_b]: https://doi.org/10.4271/2000-01-5610
@@ -16407,7 +16270,6 @@ and that silence is the last thing the competition decided.
 [research_zhang_2017]: https://doi.org/10.1109/icmcce.2017.9
 [research_zhang_agarwal_2019]: https://doi.org/10.2514/6.2019-3643
 [research_zhang_agarwal_2020]: https://doi.org/10.3390/fluids5030132
-[research_zhang_agarwal_2020_b]: https://doi.org/10.2514/6.2020-3068.c1
 [research_zhang_bhardwaj_2018]: https://doi.org/10.2514/6.2018-3480
 [research_zhang_chen_2023]: https://doi.org/10.1155/2023/5534452
 [research_zhang_cheng_2024]: https://doi.org/10.1088/1742-6596/2879/1/012012
@@ -16452,7 +16314,6 @@ and that silence is the last thing the competition decided.
 [research_zhang_zhen_2026]: https://doi.org/10.1016/j.jppr.2026.02.003
 [research_zhang_zheng_2022]: https://doi.org/10.1016/j.jmsy.2022.10.004
 [research_zhang_zhou_2020]: https://doi.org/10.1115/gt2020-14563
-[research_zhang_zou_2022]: https://doi.org/10.1115/gt2022-82353
 [research_zhao_bil_2008]: https://doi.org/10.2514/6.2008-7516
 [research_zhao_bryson_1990]: https://doi.org/10.1109/cdc.1990.203688
 [research_zhao_chen_2015_b]: https://doi.org/10.2514/6.2015-0516
@@ -16504,7 +16365,6 @@ and that silence is the last thing the competition decided.
 [research_zhu_sun_2026]: https://doi.org/10.1080/27525783.2026.2617706
 [research_zhu_yang_2020]: https://doi.org/10.1016/j.compeleceng.2020.106637
 [research_ziehm_thomas_2023]: https://doi.org/10.2514/6.2023-0153
-[research_ziehm_thomas_2023_b]: https://doi.org/10.2514/6.2023-0153.c1
 [research_zilver_vanrooij_2025]: https://doi.org/10.4050/f-0081-2025-0263
 [research_zimbelman_rouser_2025]: https://doi.org/10.1115/gt2025-153304
 [research_zimmerman_1958]: https://doi.org/10.1017/s2753447200003991
@@ -16515,5 +16375,4 @@ and that silence is the last thing the competition decided.
 [research_zou_meng_2017]: https://doi.org/10.1109/icca.2017.8003156
 [research_zou_yang_2025]: https://doi.org/10.1016/j.applthermaleng.2025.125987
 [research_zumwalt_1985]: https://doi.org/10.2514/6.1985-1118
-[research_zuo_zong_2023]: https://doi.org/10.3397/in_2023_1046
 [research_zweber_kolonay_2017]: https://doi.org/10.2514/6.2017-0875

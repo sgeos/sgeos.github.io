@@ -21,7 +21,7 @@ The keystone question is whether a reactor can be flown. The answer is yes, and 
 
 The keystone is whether the mass of shielding a reactor requires can be carried by an aircraft that still has a reason to fly.
 
-The attraction is easy to state and it is enormous. Fission releases about eighty million times more energy per unit mass than combustion, so an aircraft that heats its air with a reactor rather than by burning fuel is not range-limited in any sense a designer of the 1940s would recognize. Writing the energy released per kilogram of uranium-235 fissioned against the lower heating value of kerosene,
+The attraction is easy to state and it is enormous. Fission releases about two million times more energy per unit mass than combustion, so an aircraft that heats its air with a reactor rather than by burning fuel is not range-limited in any sense a designer of the 1940s would recognize. Writing the energy released per kilogram of uranium-235 fissioned against the lower heating value of kerosene,
 
 $$E_{\text{fission}} \approx 8.2 \times 10^{13} \ \text{joules per kilogram}, \qquad E_{\text{chem}} \approx 4.3 \times 10^{7} \ \text{joules per kilogram}$$
 
@@ -235,19 +235,19 @@ $$r^{*} = \frac{2 \times 11{,}340 \times 14.1}{79.4 \times 400} = 10.1 \ \text{m
 
 With the separation chosen and the thickness computed, the shield mass follows,
 
-$$m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.257 = 4.12 \times 10^{4} \ \text{kilograms}$$
+$$m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.257 = 4.11 \times 10^{4} \ \text{kilograms}$$
 
 or 41 tonnes of lead, which against a gross weight of 186 tonnes is
 
-$$\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{41{,}200}{186{,}000} = 0.221$$
+$$\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{41{,}100}{186{,}000} = 0.221$$
 
 **Twenty-two percent of the aircraft is gamma shielding**, and adding the neutron layer computed above takes the upper bound to
 
-$$\frac{m_{\text{Pb}} + m_{\text{LiH}}}{m_{\text{gross}}} = \frac{41{,}200 + 24{,}500}{186{,}000} = 0.353$$
+$$\frac{m_{\text{Pb}} + m_{\text{LiH}}}{m_{\text{gross}}} = \frac{41{,}100 + 24{,}500}{186{,}000} = 0.353$$
 
 The comparison that matters is not with the gross weight but with the payload, since a B-36 carried a maximum bomb load of about 39,000 kilograms,
 
-$$\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}200}{39{,}000} = 1.06$$
+$$\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}100}{39{,}000} = 1.05$$
 
 **The gamma shield alone weighs slightly more than the entire bomb load, and the full shield weighs about 1.7 times it.** A nuclear bomber buys unlimited range by giving up the payload that made the range worth having, and that sentence is the programme in one line. The trade is not fatal in principle, since a larger aircraft dilutes a fixed shield mass, and this is exactly why the design kept growing and why the follow-on was to be the larger YB-60. It is fatal in practice because the aircraft that dilutes the shield adequately is one nobody wanted to buy.
 
@@ -359,7 +359,7 @@ Effectiveness is itself bought with surface area, through the number of transfer
 
 $$\mathrm{NTU} = \frac{U A_{\text{HX}}}{\left( \dot{m} c_p \right)_{\min}}, \qquad \varepsilon = 1 - e^{-\mathrm{NTU}} \ \text{for a large capacity ratio}$$
 
-so that pushing effectiveness from 0.9 to 0.95 nearly doubles the required area,
+so that pushing effectiveness from 0.9 to 0.95 raises the required area by about thirty percent,
 
 $$\mathrm{NTU} = -\ln \left( 1 - \varepsilon \right) : \quad 2.30 \longrightarrow 3.00$$
 
@@ -401,7 +401,7 @@ and for a five tonne core of specific heat 500 joules per kilogram kelvin at the
 
 $$\frac{dT}{dt} = \frac{1.28 \times 10^{6}}{5000 \times 500} = 0.51 \ \text{kelvin per second}$$
 
-or 31 kelvin per minute, so a core sitting at 1000 kelvin reaches a melting point near 1700 in
+or 31 kelvin per minute, so a core sitting at 1000 kelvin reaches a melting point near 1700 kelvin in
 
 $$t_{\text{melt}} \approx \frac{700}{0.51} = 1.4 \times 10^{3} \ \text{seconds} = 23 \ \text{minutes}$$
 
@@ -453,13 +453,13 @@ The sensitivity is worth writing as a derivative, since it is the quantity a pro
 
 $$\frac{\partial m_{\text{shield}}}{\partial \ln \left( 1 / \dot{D}_0 \right)} = \frac{\rho_s A}{\mu} = \frac{11{,}340 \times 14.1}{79.4} = 2.01 \times 10^{3} \ \text{kilograms per e-fold}$$
 
-so each factor of $e$ in permitted dose is worth two tonnes, and because the dependence is logarithmic, accepting ten times the dose saves only one tenth-value layer of material, which is 2.9 centimetres of lead and about four and a half tonnes on the geometry above. **Relaxing the crew dose limit by a factor of ten buys back about two percent of the aircraft.** That asymmetry is worth stating plainly, because it means the programme could not have been rescued by accepting a more dangerous aircraft. The exponential that makes shielding effective also makes it insensitive to how much risk one is willing to impose on the crew.
+so each factor of $e$ in permitted dose is worth two tonnes, and because the dependence is logarithmic, accepting ten times the dose saves only one tenth-value layer of material, which is 2.9 centimetres of lead and about four and a half tonnes on the geometry above. **Relaxing the crew dose limit by a factor of ten buys back about two and a half percent of the aircraft.** That asymmetry is worth stating plainly, because it means the programme could not have been rescued by accepting a more dangerous aircraft. The exponential that makes shielding effective also makes it insensitive to how much risk one is willing to impose on the crew.
 
 ## The Flight Test Record
 
 One aircraft flew and it was not the X-6.
 
-The [NB-36H][ref_nb36h], a B-36H-20-CF with serial 51-5712 that had been damaged by a tornado at [Carswell Air Force Base][ref_carswell] on 1 September 1952, was rebuilt as the Nuclear Test Aircraft. It carried the Aircraft Shield Test Reactor, abbreviated ASTR, a one megawatt air-cooled reactor of about 16,000 kilograms, hung in a bomb bay on a hook so it could be lowered into a shielded pit between flights. Water served as moderator and coolant and dumped its heat overboard through water-to-air exchangers. **The reactor never powered the aircraft.** Its purpose was to be a source, and the aircraft's purpose was to measure what that source did to a crew compartment and to the equipment around it.
+The [NB-36H][ref_nb36h], a B-36H-20-CF with serial 51-5712 that had been damaged by a tornado at [Carswell Air Force Base][ref_carswell] on 1 September 1952, was rebuilt as the Nuclear Test Aircraft. It carried the Aircraft Shield Test Reactor, abbreviated ASTR, a one megawatt reactor of about 16,000 kilograms, hung in a bomb bay on a hook so it could be lowered into a shielded pit between flights. Water served as moderator and coolant and dumped its heat overboard through water-to-air exchangers, which is the sense in which the [NB-36H][ref_nb36h] entry calls the reactor air-cooled. **The reactor never powered the aircraft.** Its purpose was to be a source, and the aircraft's purpose was to measure what that source did to a crew compartment and to the equipment around it.
 
 The crew section was rebuilt in lead and rubber at a mass variously reported between eleven and twelve tonnes, with leaded glass in the windows. The aircraft flew 47 times between 17 September 1955 and March 1957, accumulating 215 flight hours of which the reactor was operated during 89.
 
@@ -535,7 +535,7 @@ The pivot from aircraft to civilian power is visible in the record as it happens
 
 **That reactor is the ancestor of a technology now under active commercial development.** The molten salt reactor is a serious contemporary subject, and the modern literature is treated below. An aircraft programme that produced no aircraft produced a reactor concept that outlived it by seventy years and is being commercialized as this is written. That is not a consolation prize. It is a better return than most flown programmes achieve.
 
-The second consequence is a design discipline. Shielding analysis as a computational activity, radiation-hardened components, and the practice of validating shield codes against measurement are all recognizable as ANP outputs. When nuclear propulsion returned as a subject it returned for space rather than for air, and it inherited these tools directly. The [NERVA][ref_nerva] programme and its [nuclear thermal rocket][ref_ntr] successors, the [radiation shielding weight problem in space][research_beever_1965], and the [symposia on protection against radiations in space][research_reetz_1965] are the same discipline redirected. That redirection was already under way while ANP ran. [Schreiber 1956][research_schreiber_1956] describes the Los Alamos nuclear rocket programme that became Rover and then NERVA. The crewless branch has its own paper trail, and the [Pluto programme progress reports][research_aec_1957_4] document the nuclear ramjet in period.
+The second consequence is a design discipline. Shielding analysis as a computational activity, radiation-hardened components, and the practice of validating shield codes against measurement are all recognizable as ANP outputs. When nuclear propulsion returned as a subject it returned for space rather than for air, and it inherited these tools directly. The [Nuclear Engine for Rocket Vehicle Application][ref_nerva] programme, abbreviated NERVA, and its [nuclear thermal rocket][ref_ntr] successors, the [radiation shielding weight problem in space][research_beever_1965], and the [symposia on protection against radiations in space][research_reetz_1965] are the same discipline redirected. That redirection was already under way while ANP ran. [Schreiber 1956][research_schreiber_1956] describes the Los Alamos nuclear rocket programme that became Rover and then NERVA. The crewless branch has its own paper trail, and the [Pluto programme progress reports][research_aec_1957_4] document the nuclear ramjet in period.
 
 The Soviet effort was watched. [Butz 1959][research_butz_1959] gives an open-literature assessment of Soviet nuclear plane concepts written while both programmes were live. The American programme's own institutional summary is [Air Force Nuclear Propulsion][research_aec_1959_6]. The [Plum Brook hazards work][research_naca_1963] shows the transition in progress at NASA.
 
@@ -581,7 +581,7 @@ The microreactor is the other descendant, and it inherits the X-6's real problem
 
 The question the X-6 was built to answer, which is how to fly without carrying the energy as chemical fuel, is live again and is being answered differently.
 
-Hydrogen is the leading candidate and it has the same structural character as nuclear propulsion, which is that the energy is cheap and the container is expensive. [Li 2024][research_li_2024] reviews hydrogen-powered aircraft, [Jagtap et al 2024][research_jagtap_2024] and [Wahler et al 2025][research_wahler_2025] work the conceptual design and the aerostructural trade, [Sasi et al 2025][research_sasi_2025] treat hydrogen and ammonia turbofans, [Lu et al 2025][research_lu_2025] recover exhaust heat in a cryogenic installation, and [Zhang et al 2026][research_zhang_2026] address crashworthiness, which is the hydrogen version of the question the [nuclear aircraft safety programme][research_aec_1957_3] asked about dispersing a core. Batteries are the other candidate and their specific energy remains the binding constraint, as [Cetegen et al 2025][research_cetegen_2025] and [Peng et al 2024][research_peng_2024] show. The hydrogen case is surveyed by [Gopalasingam et al 2025][research_gopalasingam_2025], the tank and its ballast consequences are codesigned by [Antonakis and Glenis 2026][research_antonakis_2026], the thermodynamics of the stored liquid are [Li et al 2026][research_li_2026_2], and the drop-in alternative that avoids the tank entirely is the synthetic fuel of [Bardon et al 2025][research_bardon_2025] and [Quiroz et al 2025][research_quiroz_2025]. The same argument is being had at sea, where the mass penalty is affordable, in [Liu and Fu 2025][research_liu_2025_3].
+Hydrogen is the leading candidate and it has the same structural character as nuclear propulsion, which is that the energy is cheap and the container is expensive. [Li 2024][research_li_2024] reviews hydrogen-powered aircraft, [Jagtap et al 2024][research_jagtap_2024] and [Wahler et al 2025][research_wahler_2025] work the conceptual design and the aerostructural trade, [Sasi et al 2025][research_sasi_2025] treat hydrogen and ammonia turbofans, [Lu et al 2025][research_lu_2025] recover exhaust heat in a cryogenic installation, and [Zhang et al 2026][research_zhang_2026] address crashworthiness, which is the hydrogen version of the question the [nuclear aircraft safety programme][research_aec_1957_3] asked about dispersing a core. Batteries are the other candidate, and keeping the cells of an aircraft battery in balance is itself a research subject, as [Peng et al 2024][research_peng_2024] show. The hydrogen case is surveyed by [Gopalasingam et al 2025][research_gopalasingam_2025], the tank and its ballast consequences are codesigned by [Antonakis and Glenis 2026][research_antonakis_2026], the thermodynamics of the stored liquid are [Li et al 2026][research_li_2026_2], and the drop-in alternative that avoids the tank entirely is the synthetic fuel of [Bardon et al 2025][research_bardon_2025] and [Quiroz et al 2025][research_quiroz_2025]. The same argument is being had at sea, where the mass penalty is affordable, in [Liu and Fu 2025][research_liu_2025_3].
 
 **The mission itself has also been answered without any of this.** The X-6 existed to keep an aircraft airborne indefinitely, and that requirement is now met by vehicles with no crew to shield and very little mass to lift. [Jung et al 2025][research_jung_2025] analyse the endurance of a solar-powered high-altitude unmanned aircraft, which achieves persistence by having almost no energy demand rather than by carrying an enormous energy supply, and the structural problems such an airframe meets instead are [Sampath and Kattimani 2025][research_sampath_2025]. **A programme that spent a billion dollars to remove the fuel constraint was eventually answered by removing the crew and most of the aircraft**, which is a solution nobody in 1946 would have accepted and nobody in 2026 finds surprising.
 
@@ -625,9 +625,11 @@ The secondary literature on the aircraft itself is thin, which is the opposite o
 
 The engineering texts behind the relations are [Hill and Peterson 1991][book_hill_peterson_1991] and [Sutton and Biblarz 2016][book_sutton_biblarz_2016] for propulsion, [Incropera and DeWitt][book_incropera_heat_transfer], [Carslaw and Jaeger 1959][book_carslaw_jaeger_1959], and [Boley and Weiner 1960][book_boley_weiner_1960] for heat transfer and thermal stress, [Anderson 2001][book_anderson_2001_fundamentals], [Anderson 2012][book_anderson_2012_aircraft_performance], and [Bertin and Cummings 2013][book_bertin_cummings_2013] for aerodynamics, and [Raymer 2018][book_raymer_2018], [Nicolai and Carichner 2010][book_nicolai_carichner_2010], [Torenbeek 1982][book_torenbeek_1982], and [Roskam 1985][book_roskam_1985] for design method and mass estimation. Structures are [Bruhn 1973][book_bruhn_1973], [Niu 1988][book_niu_1988_airframe], and [Megson 2016][book_megson_2016]. Error analysis is [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington and Robinson 2002][book_bevington_robinson_2002], with design of experiments in [Box Hunter and Hunter 2005][book_box_hunter_hunter_2005] and [Gelman et al 2013][book_gelman_et_al_2013], and information accounting in [Cover and Thomas 2006][book_cover_thomas_2006]. The epistemology is [Vincenti 1990][book_vincenti_1990], [Petroski 1985][book_petroski_1985], and [Ferguson 1992][book_ferguson_1992], and the organizational reading, which this article leans on more than most, is [Perrow 1984][book_perrow_1984], [Vaughan 1996][book_vaughan_1996], [Sagan 1993][book_sagan_1993], and [Reason 1990][book_reason_1990_human_error]. Institutional histories are [Baals and Corliss 1981][book_baals_corliss_1981], [Hansen 1987][book_hansen_1987_engineer_in_charge], and [Chambers and Chambers 2008][book_chambers_2008_radical_wings], with [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] and [Jenkins 2000][book_jenkins_2000_hypersonics] on the high-speed thread and [Launius and Jenkins 2012][book_launius_jenkins_2012] and [Merlin 2009][book_merlin_2009_blackbird] on the successors.
 
-Foundational primaries bearing on the surrounding arguments include [Williams and Drake][research_williams_drake_1948] on the research airplane rationale, [Buckingham 1914][research_buckingham_1914] on similarity, [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948] on sampling and channel capacity, and [Lindley 1956][research_lindley_1956] and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995] on experimental design. Related work on this blog appears in [A96][related_post_a96_history_rocketplanes] on the rocketplane lineage, [A106][related_post_a106_two_stage_delta_wing] on large high-speed configurations, [A217][related_post_a217_rocket_propellant_chemistry] on propellant chemistry, [A237][related_post_a237_aerospace_framing] and [A241][related_post_a241_aerospace_simulation] on the computing and simulation infrastructure, and [A90][related_post_a90_intro_space_studies] on space policy. The [NASA History Office][ref_nasa_x3_factsheet] and the [Armstrong Flight Research Center][ref_nasa_armstrong] hold the aeronautical side of the record, with [Oak Ridge][ref_ornl] and [Idaho][ref_inl] holding the nuclear side.
+Foundational primaries bearing on the surrounding arguments include [Williams and Drake][research_williams_drake_1948] on the research airplane rationale, [Buckingham 1914][research_buckingham_1914] on similarity, [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948] on sampling and channel capacity, and [Lindley 1956][research_lindley_1956] and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995] on experimental design. Related work on this blog appears in [History of Rocketplanes][related_post_a96_history_rocketplanes] on the rocketplane lineage, [Two-Stage Flying Delta Wing Vehicles for Civil and National Security Applications][related_post_a106_two_stage_delta_wing] on large high-speed configurations, [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry] on propellant chemistry, [Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism][related_post_a237_aerospace_framing] and [Aerospace, Programming Languages, and Information Technology Co-Development: Aerospace Simulation and Real-Time Systems][related_post_a241_aerospace_simulation] on the computing and simulation infrastructure, and [Introduction to Space Studies][related_post_a90_intro_space_studies] on space policy. The [NASA History Office][ref_nasa_x3_factsheet] and the [Armstrong Flight Research Center][ref_nasa_armstrong] hold the aeronautical side of the record, with [Oak Ridge][ref_ornl] and [Idaho][ref_inl] holding the nuclear side.
 
-**The survey was re-read on 7 October 2026, and the rebuilt filter refused none of it.** All 256 research records were read against the subject of this article, which is the nuclear aircraft, its reactor, its shield and their descendants, and every one was found to belong, so the total stands at 256 before and after and no cluster changed. Each of them is cited in a sentence of the body, which makes each a hand-chosen source rather than an admission by search. The records that sit furthest from the aircraft, on semiconductor radiation effects, accelerator shielding and grid battery storage, are kept because the passages citing them use them as neighbouring science. A reading of all 221 records that neither screen flagged found none off topic, which puts the remaining contamination near zero.
+**The survey was re-read on 7 October 2026, and the rebuilt filter refused none of it.** All 256 research records were read against the subject of this article, which is the nuclear aircraft, its reactor, its shield and their descendants, and every one was found to belong, so the total stood at 256 before and after and no cluster changed. Each of them is cited in a sentence of the body, which makes each a hand-chosen source rather than an admission by search. The records that sit furthest from the aircraft, on semiconductor radiation effects, accelerator shielding and grid battery storage, were kept at that reading because the passages citing them use them as neighbouring science. A reading of all 221 records that neither screen flagged found none off topic.
+
+**The second sampling pass of 8 October 2026 had nothing left to sample.** The first reading had already covered all 256 titles, so no record remained unread and no second sample could be drawn. A full reading of the body on the same day removed one record, a study of the economic feasibility of lithium-ion battery energy storage that had been cited as showing the specific energy limit of aircraft batteries, a claim its title does not support, and the total now stands at 255. Because every title has been read, no sample measures the contamination that remains. The census found none off topic at the first reading and one misapplied citation at the second, and what it leaves is whatever a reader of titles alone could misjudge. A check on 8 October 2026 for records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, and journal front matter such as covers, contents lists, reviewer lists and indexes, found none and removed none, so the total stays at 255. The 1948 index to the Lexington Project reports is a document issued in its own right and cited for its content, not the front matter of a journal, so it was kept.
 
 ## Epistemic State
 
@@ -657,7 +659,7 @@ The Convair X-6 was never built, and what it would have had to carry can be comp
 
 A B-36 at cruise needs about a hundred megawatts of thermal power, and a reactor supplying it consumes less than half a kilogram of uranium in a hundred hours against 837 tonnes of kerosene for the same energy. That is the entire attraction and it is a factor of nearly two million. Unshielded at ten metres that reactor delivers about ten grays per second, when five grays is a lethal dose, so one second of exposure would kill the crew. Holding them to fifty millisieverts over a hundred-hour flight demands an attenuation of seven times ten to the seventh, which is twenty-six centimetres of lead, and the geometry that minimizes the total mass puts the reactor about ten metres from the crew, which a B-36 fuselage accommodates easily. The gamma shield that results weighs about 41 tonnes, which is twenty-two percent of the aircraft and slightly more than the whole of its bomb load, and the neutron layer takes the upper bound to about 66 tonnes. **A nuclear bomber buys unlimited range by surrendering the payload that made the range worth having.**
 
-The exponential that makes shielding work also makes it stubborn. Shield thickness depends on the logarithm of reactor power, so a thousandfold increase in power costs under nine centimetres of lead, which means the shield is a fixed overhead rather than a proportional cost and small nuclear aircraft are not merely difficult but excluded. The same logarithm means that accepting ten times the crew dose saves about two percent of the aircraft. The programme could not have been rescued by being braver.
+The exponential that makes shielding work also makes it stubborn. Shield thickness depends on the logarithm of reactor power, so a thousandfold increase in power costs under nine centimetres of lead, which means the shield is a fixed overhead rather than a proportional cost and small nuclear aircraft are not merely difficult but excluded. The same logarithm means that accepting ten times the crew dose saves about two and a half percent of the aircraft. The programme could not have been rescued by being braver.
 
 One aircraft flew and it was not the X-6. The NB-36H carried a one megawatt reactor 47 times to measure what shielding actually does, and it established that the shielding worked, for a source a hundred times smaller than the one that would have propelled it. A direct-cycle nuclear turbojet ran on a test stand in Idaho and produced thrust from fission. The programme reached that point and was cancelled in 1961, not because the shield defeated it but because ballistic missiles and aerial refuelling had made an indefinitely loitering bomber a solution without a problem.
 
@@ -864,7 +866,6 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [Cavicchi et al 1959 Design Analysis of a Subsonic Nuclear Powered Logistic Airplane with Helium-Colled Reactor][research_cavicchi_1959]
 - [Cernak 1960 HYDRIDES OF TITANIUM, YTTRIUM, AND ZIRCONIUM, A Bibliography][research_cernak_1960_2]
 - [Cernak 1960 Radiation effects on aluminum, elastomers, and lubricants, A bibliography][research_cernak_1960]
-- [Cetegen et al 2025 Evaluating the Economic Feasibility of Lithium-Ion Battery Energy Storage][research_cetegen_2025]
 - [Chaloner and Verdinelli 1995 Bayesian Experimental Design, A Review][research_chaloner_verdinelli_1995]
 - [Chandler et al 1957 Effect Of Surface Oxidation Of Fuel Elements On Pressure Loss][research_chandler_1957]
 - [Chandler et al 2025 Californium-252 Production at the High Flux Isotope Reactor][research_chandler_2025]
@@ -1083,48 +1084,48 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 - [A90 Introduction to Space Studies][related_post_a90_intro_space_studies]
 - [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
 
-[book_anderson_2001_fundamentals]: https://openlibrary.org/search?q=Anderson+Fundamentals+of+Aerodynamics
-[book_anderson_2012_aircraft_performance]: https://openlibrary.org/search?q=Anderson+Aircraft+Performance+and+Design
-[book_baals_corliss_1981]: https://openlibrary.org/search?q=Baals+Corliss+Wind+Tunnels+of+NASA
-[book_bertin_cummings_2013]: https://openlibrary.org/search?q=Bertin+Cummings+Aerodynamics+for+Engineers
-[book_bevington_robinson_2002]: https://openlibrary.org/search?q=Bevington+Robinson+Data+Reduction+and+Error+Analysis
-[book_bilstein_1989_orders]: https://openlibrary.org/search?q=Bilstein+Orders+of+Magnitude+NACA+NASA
-[book_boley_weiner_1960]: https://openlibrary.org/search?q=Boley+Weiner+Theory+of+Thermal+Stresses
-[book_box_hunter_hunter_2005]: https://openlibrary.org/search?q=Box+Hunter+Statistics+for+Experimenters
-[book_bruhn_1973]: https://openlibrary.org/search?q=Bruhn+Analysis+and+Design+of+Flight+Vehicle+Structures
-[book_carslaw_jaeger_1959]: https://openlibrary.org/search?q=Carslaw+Jaeger+Conduction+of+Heat+in+Solids
+[book_anderson_2001_fundamentals]: https://openlibrary.org/works/OL3232211W
+[book_anderson_2012_aircraft_performance]: https://openlibrary.org/works/OL1993317W
+[book_baals_corliss_1981]: https://openlibrary.org/works/OL31504107W
+[book_bertin_cummings_2013]: https://openlibrary.org/works/OL21437883W
+[book_bevington_robinson_2002]: https://openlibrary.org/works/OL44935135W
+[book_bilstein_1989_orders]: https://openlibrary.org/works/OL18823771W
+[book_boley_weiner_1960]: https://openlibrary.org/works/OL19334049W
+[book_box_hunter_hunter_2005]: https://openlibrary.org/works/OL28985605W
+[book_bruhn_1973]: https://openlibrary.org/works/OL8796483W
+[book_carslaw_jaeger_1959]: https://openlibrary.org/works/OL34686169W
 [book_chambers_2008_radical_wings]: https://openlibrary.org/search?q=Chambers+Radical+Wings+and+Wind+Tunnels
-[book_cover_thomas_2006]: https://openlibrary.org/search?q=Cover+Thomas+Elements+of+Information+Theory
-[book_ferguson_1992]: https://openlibrary.org/search?q=Ferguson+Engineering+and+the+Mind+s+Eye
-[book_gelman_et_al_2013]: https://openlibrary.org/search?q=Gelman+Bayesian+Data+Analysis
-[book_gorn_2001_expanding_envelope]: https://openlibrary.org/search?q=Gorn+Expanding+the+Envelope+Flight+Research
-[book_gunston_1992_faster_than_sound]: https://openlibrary.org/search?q=Gunston+Faster+Than+Sound
-[book_hallion_1972_supersonic_flight]: https://openlibrary.org/search?q=Hallion+Supersonic+Flight+Breaking+the+Sound+Barrier
-[book_hallion_1981_on_the_frontier]: https://openlibrary.org/search?q=Hallion+On+the+Frontier+Flight+Research+Dryden
-[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/search?q=Hansen+Engineer+in+Charge+Langley
-[book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/search?q=Heppenheimer+Facing+the+Heat+Barrier+Hypersonics
-[book_hill_peterson_1991]: https://openlibrary.org/search?q=Hill+Peterson+Mechanics+and+Thermodynamics+of+Propulsion
-[book_incropera_heat_transfer]: https://openlibrary.org/search?q=Incropera+Fundamentals+of+Heat+and+Mass+Transfer
-[book_jenkins_2000_hypersonics]: https://openlibrary.org/search?q=Jenkins+Hypersonics+Before+the+Shuttle+X-15
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X-Vehicles+Inventory
-[book_launius_jenkins_2012]: https://openlibrary.org/search?q=Launius+Jenkins+Coming+Home+Reentry+and+Recovery+from+Space
-[book_megson_2016]: https://openlibrary.org/search?q=Megson+Aircraft+Structures+for+Engineering+Students
-[book_merlin_2009_blackbird]: https://openlibrary.org/search?q=Merlin+Design+and+Development+of+the+Blackbird
-[book_miller_2001_x_planes]: https://openlibrary.org/search?q=Jay+Miller+The+X-Planes+X-1+to+X-45
-[book_nicolai_carichner_2010]: https://openlibrary.org/search?q=Nicolai+Carichner+Fundamentals+of+Aircraft+and+Airship+Design
-[book_niu_1988_airframe]: https://openlibrary.org/search?q=Niu+Airframe+Structural+Design
-[book_peebles_2014_probing_the_sky]: https://openlibrary.org/search?q=Peebles+Probing+the+Sky+NACA+Research+Airplanes
-[book_perrow_1984]: https://openlibrary.org/search?q=Perrow+Normal+Accidents
-[book_petroski_1985]: https://openlibrary.org/search?q=Petroski+To+Engineer+Is+Human
-[book_raymer_2018]: https://openlibrary.org/search?q=Raymer+Aircraft+Design+A+Conceptual+Approach
-[book_reason_1990_human_error]: https://openlibrary.org/search?q=James+Reason+Human+Error
-[book_roskam_1985]: https://openlibrary.org/search?q=Roskam+Airplane+Design
-[book_sagan_1993]: https://openlibrary.org/search?q=Sagan+The+Limits+of+Safety
-[book_sutton_biblarz_2016]: https://openlibrary.org/search?q=Sutton+Biblarz+Rocket+Propulsion+Elements
-[book_taylor_1997_error_analysis]: https://openlibrary.org/search?q=Taylor+An+Introduction+to+Error+Analysis
-[book_torenbeek_1982]: https://openlibrary.org/search?q=Torenbeek+Synthesis+of+Subsonic+Airplane+Design
-[book_vaughan_1996]: https://openlibrary.org/search?q=Vaughan+The+Challenger+Launch+Decision
-[book_vincenti_1990]: https://openlibrary.org/search?q=Vincenti+What+Engineers+Know+and+How+They+Know+It
+[book_cover_thomas_2006]: https://openlibrary.org/works/OL21500808W
+[book_ferguson_1992]: https://openlibrary.org/works/OL4119982W
+[book_gelman_et_al_2013]: https://openlibrary.org/works/OL12630389W
+[book_gorn_2001_expanding_envelope]: https://openlibrary.org/works/OL4400572W
+[book_gunston_1992_faster_than_sound]: https://openlibrary.org/works/OL774338W
+[book_hallion_1972_supersonic_flight]: https://openlibrary.org/works/OL2688456W
+[book_hallion_1981_on_the_frontier]: https://openlibrary.org/works/OL2688458W
+[book_hansen_1987_engineer_in_charge]: https://openlibrary.org/works/OL37594565W
+[book_heppenheimer_2007_heat_barrier]: https://openlibrary.org/works/OL39929219W
+[book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
+[book_incropera_heat_transfer]: https://openlibrary.org/works/OL2975219W
+[book_jenkins_2000_hypersonics]: https://openlibrary.org/works/OL813290W
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_launius_jenkins_2012]: https://openlibrary.org/works/OL39998199W
+[book_megson_2016]: https://openlibrary.org/works/OL4809615W
+[book_merlin_2009_blackbird]: https://openlibrary.org/works/OL11706498W
+[book_miller_2001_x_planes]: https://openlibrary.org/works/OL7006680W
+[book_nicolai_carichner_2010]: https://openlibrary.org/works/OL15909375W
+[book_niu_1988_airframe]: https://openlibrary.org/works/OL19561185W
+[book_peebles_2014_probing_the_sky]: https://openlibrary.org/works/OL23215820W
+[book_perrow_1984]: https://openlibrary.org/works/OL4468929W
+[book_petroski_1985]: https://openlibrary.org/works/OL112186W
+[book_raymer_2018]: https://openlibrary.org/works/OL17855977W
+[book_reason_1990_human_error]: https://openlibrary.org/works/OL9006915W
+[book_roskam_1985]: https://openlibrary.org/works/OL6612019W
+[book_sagan_1993]: https://openlibrary.org/works/OL3492159W
+[book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
+[book_taylor_1997_error_analysis]: https://openlibrary.org/works/OL3232610W
+[book_torenbeek_1982]: https://openlibrary.org/works/OL9096469W
+[book_vaughan_1996]: https://openlibrary.org/works/OL2962391W
+[book_vincenti_1990]: https://openlibrary.org/works/OL4805206W
 [book_winchester_2005_x_planes]: https://openlibrary.org/search?q=Winchester+X-Planes+and+Prototypes
 [ref_absorbed_dose]: https://en.wikipedia.org/wiki/Absorbed_dose
 [ref_accelerometer]: https://en.wikipedia.org/wiki/Accelerometer
@@ -1284,7 +1285,6 @@ The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test v
 [research_cavicchi_1959]: https://ntrs.nasa.gov/citations/19630010644
 [research_cernak_1960]: https://www.osti.gov/biblio/4165502
 [research_cernak_1960_2]: https://www.osti.gov/biblio/4786880
-[research_cetegen_2025]: https://doi.org/10.1016/j.energy.2025.138469
 [research_chaloner_verdinelli_1995]: https://doi.org/10.1214/ss/1177009939
 [research_chandler_1957]: https://www.osti.gov/biblio/4791808
 [research_chandler_2025]: https://doi.org/10.1016/j.anucene.2024.110920

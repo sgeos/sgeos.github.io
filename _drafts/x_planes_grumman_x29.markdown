@@ -13,7 +13,7 @@ series_index: 30
 <script>console.log("A326");</script>
 
 The [Grumman X-29][ref_x29] was built from nothing to answer a question that could not be answered any other
-way, and **after four articles about aircraft that already existed, that sentence is worth pausing on**. The
+way, and **after four articles about aircraft that were not built for research, that sentence is worth pausing on**. The
 [X-25][related_post_a322_bensen_x25] was a catalogue autogyro. The [X-26][related_post_a323_schweizer_x26]
 was a catalogue sailplane, bought twice. The [X-27][related_post_a324_lockheed_x27] was a private-venture
 fighter that was never built at all. The [X-28][related_post_a325_osprey_x28] was a homebuilt flying boat
@@ -372,7 +372,7 @@ $$ \left.\frac{d \ln q_D}{d \ln r}\right|_{r = 1.6} = -\frac{1}{0.6} = -1.667 $$
 the sign is negative, so a ratio that was optimistically low produces a boundary that is optimistically
 high. That elasticity is used again in the section on where the framing breaks down.
 
-**The last two rows are the reason the margin had to be as large as it was.** Between 3,000 and 4,000 pounds
+**The 3,000 and 4,000 rows of the table under What That Margin Actually Was are the reason the margin had to be as large as it was.** Between 3,000 and 4,000 pounds
 per square foot the wing's lift amplification triples, and a design error of ten percent in the predicted
 boundary moves the loads by far more than ten percent.
 **The penalty for being wrong is not proportional to the size of the error.**
@@ -1164,7 +1164,7 @@ $$ C_{m_\alpha} = -C_{L_\alpha}\,\mathrm{SM} = -5.037 \times (-0.35) = 1.763 $$
 **A positive pitching moment derivative is the whole of the aircraft's difficulty**, because it means a
 disturbance in angle of attack produces a moment that increases it.
 
-with $C_{m_\alpha} = -C_{L_\alpha} \cdot \mathrm{SM}$, so that a negative static margin makes the pitching
+Here $C_{m_\alpha} = -C_{L_\alpha} \cdot \mathrm{SM}$, so that a negative static margin makes the pitching
 moment derivative positive and the root real.
 
 **The pitch inertia was never published and is assumed**, bracketed between 35,000 and 60,000 slug square
@@ -1265,7 +1265,6 @@ implementation detail. **It was a design feature.**
 - [130 Sampled-data decentralized controller design][research_130_sampled_data_1994]
 - [185 A fourier series lifting approach to H∞ sampled data...][research_185_a_1994]
 - [Control of asynchronous sampled data systems][research_voulgaris_1994]
-- [PC implementation of optimal sampled-data control for robotic...][research_pc_implementation_1994]
 - [A hybrid adaptive control scheme using sampled data and...][research_a_hybrid_1995]
 - [Robust Optimal Digital Control of Uncertain Multi-Rate...][research_shieh_chen_1998]
 
@@ -1578,7 +1577,6 @@ gain scheduling in every mode except the two reversionary power-approach cases.
 - [Modelling and Control for Nonlinear Time-Delay System Via...][research_zhou_ye_1989]
 - [Results of a parametric aeroelastic stability analysis of a...][research_woodsjessicaa_gilbertmichaelg_1989]
 - [Short-range nonlinear feedback strategies for aircraft...][research_menon_1989]
-- [Span-Ratio Analysis Used to Estimate Effective Lift Drag...][research_pennycuick_1989]
 - [Stability boundaries for aircraft with unstable...][research_shrivastava_stengel_1989]
 - [Stochastic Adaptive Control and Estimation Enhancement][research_barshalom_1989]
 - [Aeroelastic stability of aircraft with circulation control...][research_haas_chopra_1990]
@@ -1799,7 +1797,7 @@ $$ K_\theta^{\mathrm{req}} = q_D\,e\,S_c\,a, \qquad e = \left(x_{\mathrm{axis}} 
 Inverting the relation for the loop stiffness that would place the canard's boundary at the wing's 4,533
 pounds per square foot gives the scale of what was required.
 
-| Torsion axis, percent MAC | Moment arm, ft | Required stiffness, 10⁶ ft·lb/rad |
+| Torsion axis, percent of mean aerodynamic chord | Moment arm, ft | Required stiffness, 10⁶ ft·lb/rad |
 |---|---|---|
 | 30.0 | 0.274 | 0.295 |
 | 37.5 | 0.686 | 0.738 |
@@ -1870,7 +1868,7 @@ $$ \frac{C_{D_i}^{\mathrm{tail}}}{C_{D_i}^{\mathrm{canard}}} = \left(\frac{0.857
 **Trimming with a down load costs about a third more induced drag than trimming with an up load**, at this
 moment and this arm. Neither was published, so both deserve a sensitivity table.
 
-| Section moment $C_{m_{ac}}$ | Arm, MAC | Surface $C_L$ | Wing-referenced $\Delta C_L$ | Drag ratio |
+| Section moment $C_{m_{ac}}$ | Arm, mean aerodynamic chords | Surface $C_L$ | Wing-referenced $\Delta C_L$ | Drag ratio |
 |---|---|---|---|---|
 | −0.05 | 1.50 | 0.167 | 0.0333 | 1.181 |
 | −0.05 | 1.75 | 0.143 | 0.0286 | 1.154 |
@@ -2124,7 +2122,6 @@ rather than to a leading-edge angle.
 - [Transonic pressure distributions on a rectangular...][research_rickettsrh_sandfordmc_1983]
 - [Unsteady Transonic Pressure Measurements on a Semi-Span Wind...][research_hortsen_boer_1983]
 - [Aerodynamic design for improved manueverability by use of...][research_mannmj_campbellrl_1984]
-- [Errata Unsteady Pressures and Forces During Transonic...][research_lee_ohman_1984_b]
 - [Joined Wing Transonic Design and Test Validation][research_clyde_bonner_1984]
 - [Pseudospectral Calculations of Two-Dimensional Transonic Flow...][research_jou_metcalfe_1984]
 - [Supercritical Airfoil and Wing Design][research_sobieczky_1984]
@@ -2209,7 +2206,6 @@ rather than to a leading-edge angle.
 - [Application of Navier-Stokes aeroelastic methods to improve...][research_schuster_1995]
 - [Advanced Technology Composite Fuselage-Structural Performance][research_walkerth_minguetpj_1997]
 - [Performance of Power-Law Processor with Normalization for...][research_nuttall_1997]
-- [Personality Factors Affecting Pilot Combat Performance A...][research_siem_murray_1997]
 - [Robust Gain-Scheduled Nonlinear Control Design for Stability...][research_balakrishnan_2000]
 - [High Performance Power Supply for the More Electric Aircraft][research_yuvarajan_2001]
 - [Performance Analysis of a Wing With Multiple Winglets][research_smith_komerath_2001]
@@ -2786,7 +2782,7 @@ boundary being set by pitch-loop stiffness is a small fact with a large generali
 - **X-29**, an aircraft designed and built to answer a question that could not be answered any other
   way.
 
-**Three of the first four already existed and were bought for properties they already had. The fourth never existed. The fifth had to be created.**
+**Three of the first four already existed and were bought for properties they already had. The X-27 never existed. The fifth had to be created.**
 
 The X-29 is what the X-series was established for. A government agency identified a question, funded a
 purpose-built aeroplane, built two of them, flew them for years, and published the result.
@@ -3020,7 +3016,6 @@ nomenclature list, is the canonical example.
 - [Breaking Through Flutter Barrier of Rigid-Elastic Coupling...][research_zou_huang_2025_b]
 - [Experimental Nonlinear Modal Analysis of an F-16 Aircraft...][research_zhou_raze_2025]
 - [Preliminary aeroelastic optimization of electric aircraft...][research_wang_liuxu_2025]
-- [Research on Semi-active Suppression of Flutter in Robotic...][research_research_on_2025]
 - [Studying body-freedom flutter mechanism via a rigid-elastic...][research_zou_huang_2025]
 - [Theodorsen’s and Garrick’s Flutter Calculations Revisited][research_perry_2025]
 - [Variable-order framework for aeroelastic flutter analysis of...][research_campagna_benedetti_2025]
@@ -3158,7 +3153,6 @@ nomenclature list, is the canonical example.
 - [Structural integrity assessment on cracked composites...][research_abdullah_akbar_2019]
 - [Systematic multiparameter design methodology for an...][research_ochoa_groves_2019]
 - [Thermal buckling optimization of variable angle tow fibre...][research_zhou_ruan_2019]
-- [WITHDRAWN A robust and high-fidelity aerodynamic optimization...][research_li_bai_2019_b]
 - [A critical review of available composite damage growth test...][research_molent_haddad_2020]
 - [A cross-sectional aeroelastic analysis and structural...][research_feil_pflumm_2020]
 - [A single-loop shifting vector method with conjugate gradient...][research_biswas_sharma_2020]
@@ -3213,7 +3207,6 @@ nomenclature list, is the canonical example.
 - [Aerostructural Wing Optimization of a Regional Jet...][research_bons_martins_2022]
 - [Analysis of Damage of Typical Composite/Metal Connecting...][research_wang_zhang_2022_b]
 - [Building block design for composite metamaterial with an...][research_yu_wang_2022]
-- [Correction RANS-Based Aerodynamic Shape Optimization of a...][research_chauhan_martins_2022]
 - [Curvature-Constrained Layup Optimization to Improve Buckling...][research_niu_zhang_2022]
 - [Damage behaviour and failure response of aircraft composite...][research_kalam_seshaiah_2022]
 - [Design and optimization of variable stiffness piezoelectric...][research_cao_huang_2022]
@@ -3274,7 +3267,6 @@ nomenclature list, is the canonical example.
 - [Multidisciplinary analysis and structural optimization for...][research_benaouali_boutemedjet_2024]
 - [Multiobjective aerostructural optimization for efficient...][research_kontogiannis_savill_2024]
 - [Neural Autoencoder-Based Structure-Preserving Model Order...][research_lepri_bacciu_2024]
-- [Nonlinear Dynamic Properties of Rigid Elastic Liquid Coupled...][research_li_yang_2024]
 - [Optimized Design and Test of Geometrically Nonlinear Static...][research_li_qian_2024]
 - [Optimizing fiber paths of tow-steered laminated composites...][research_shafei_faroughi_2024]
 - [Possibilities of the finite element method for the analysis...][research_fedorenko_bondarenko_2024]
@@ -3303,7 +3295,6 @@ nomenclature list, is the canonical example.
 - [Efficient static aeroelastic wing optimization based on PSO...][research_bugala_payenskyy_2025]
 - [Enhanced Airfoil Design Optimization Using Hybrid Geometric...][research_dinler_2025]
 - [Enhancing airfoil design optimization surrogate models using...][research_hu_an_2025]
-- [Evaluation of a Biomathematical Modeling Software Tool for...][research_devine_choynowski_2025]
 - [Flexural free vibration behaviors of bimodular composite...][research_manickam_polit_2025]
 - [Genetic algorithm optimized artificial immune system for...][research_kizildeniz_kiyak_2025]
 - [Geometrically nonlinear high-fidelity aerostructural...][research_gray_kennedy_2025]
@@ -3723,7 +3714,6 @@ are difficult.
 - [Optimal Control of a Small Flexible Aircraft Using an Active...][research_wu_fu_2025]
 - [Optimal Reaching Filter for Sliding Mode Control to Achieve...][research_lu_cao_2025]
 - [Quadratic Programming Approach to Flight Envelope Protection...][research_autenrieb_2025]
-- [RETRACTED ARTICLE Fractional-order fast terminal sliding mode...][research_xu_2025]
 - [Research on Aircraft Control System Fault Risk Assessment...][research_shi_gao_2025]
 - [Robust Cascaded Control with Antisaturation for Fixed-Wing...][research_xiong_xu_2025]
 - [Robust iterative learning control for unstable MIMO systems][research_hodgins_freeman_2025]
@@ -3777,7 +3767,6 @@ are difficult.
 - [Nonlinear Precise Tracking and Regulation for Unmanned...][research_hongyan_xiaoyong_2026]
 - [Nonlinear geometric multivariable control for unmanned...][research_jianhong_yanxiang_2026]
 - [Pneumatic-Based Approach for Flight Control][research_shmilovich_princen_2026]
-- [Retraction Note Fractional-order fast terminal sliding mode...][research_xu_2026]
 - [Separation control and lift enhancement of a conformal-slot...][research_du_zhao_2026]
 - [Set‐Theoretic Safety Control With Formal Guarantees for...][research_liu_yang_2026]
 - [Shock Control on a Double-Fuselage Aircraft with a Natural...][research_deng_yi_2026]
@@ -4063,7 +4052,6 @@ fact that a delay bought to suppress a structural mode is a delay taken from an 
 - [Optimization of an Aeroservoelastic Wing with Distributed...][research_stanford_2016]
 - [Prediction and Simulator Verification of Roll/Lateral Adverse...][research_muscarello_quaranta_2016]
 - [Probabilistic Aeroservoelastic Reliability Assessment...][research_wu_livne_2016]
-- [WITHDRAWN Robust aeroservoelastic design with mixed...][research_dai_wu_2016]
 - [Active Flutter Suppression of Stochastic Airfoil with...][research_wu_tong_2017]
 - [Active aerothermoelastic flutter suppression of composite...][research_chai_song_2017]
 - [Aeroservoelastic modeling with proper orthogonal decomposition][research_carlson_verberg_2017]
@@ -4110,7 +4098,6 @@ fact that a delay bought to suppress a structural mode is a delay taken from an 
 - [H∞ Control Design for Active Flutter Suppression of...][research_waitman_marcos_2020]
 - [Parametric active aeroelastic control of a morphing wing...][research_liu_gao_2020]
 - [Robust Modal Damping Control for Active Flutter Suppression][research_theis_pfifer_2020]
-- [Synchronous vibration control for magnetically suspended...][research_peng_zhu_2020]
 - [Active Flutter Suppression of Smart-Skin Antenna Structures...][research_lee_kim_2021]
 - [Active flutter suppression of wing with morphing flap][research_ouyang_gu_2021]
 - [Gust load alleviation by normal microjet][research_li_qin_2021_b]
@@ -4247,7 +4234,6 @@ and the computational methods that were merely supporting evidence for the X-29 
 - [The leading-edge vortex over a swift-like high-aspect-ratio...][research_bengida_gurka_2022]
 - [Vortex breakdown characteristics of flying wing aircraft...][research_zhu_shi_2022]
 - [Aeroelasticity Model for Highly Flexible Aircraft Based on...][research_dagilis_kilikevicius_2023]
-- [Methodological Proposal for the Selection and Analysis of the...][research_recaluque_aguilartorres_2023]
 - [Numerical Study of Geometrical Properties of Full-Span...][research_numerical_study_2023]
 - [Event-Triggering-Learning-Based ADP Control for Post-Stall...][research_shen_chen_2024]
 - [Extended State Observer Based Generalized Predictive Control...][research_liu_ji_2024]
@@ -4627,7 +4613,6 @@ planform argument was built around is now an output rather than an input.
 - [Aerodynamic Performance of Swayasa Aircraft Wing Model...][research_aerodynamic_performance_2025]
 - [Conceptual Design and Aerostructural Trade-Offs in Hydrogen...][research_wahler_ma_2025]
 - [Low-Speed Airfoil Optimization for Improved Off-Design...][research_pangas_gamboa_2025]
-- [Multi-energy field composite manufacturing of...][research_qian_lu_2025]
 - [Nonlinear dynamic analysis of high aspect ratio wings via IHB...][research_wu_wang_2025]
 - [Novel integrated aerodynamic configuration with ventral and...][research_sun_luo_2025]
 - [Numerical Method for Aeroelastic Simulation of Flexible...][research_chen_he_2025]
@@ -4944,7 +4929,6 @@ knew exactly which approximation they were making.
 - [Multidisciplinary Performance Enhancement on a Fixed-wing...][research_eraslan_oktay_2023]
 - [Novel Approach of Airfoil Shape Representation Using Modified...][research_lendraitis_lukosevicius_2023]
 - [Time-Varying Aeroelastic Modeling and Analysis of a Rapidly...][research_zhang_zhao_2023]
-- [A Structural Design and Motion Characteristics Analysis of an...][research_wei_ke_2024]
 - [A comprehensive review of state-of-art FishBAC fishbone...][research_ozbek_ekici_2024]
 - [Aerodynamic Assessment of a Control Strategy Based on Twist...][research_karimikelayeh_djavareshkian_2024]
 - [Design and rigid-flexible dynamic analysis of a morphing wing...][research_yang_xu_2024]
@@ -5211,10 +5195,10 @@ and the period count from 1,130 to 1,529.
 **The contemporary count did not fall during that pass. It rose, from 850 to 856**, while its fraction fell
 from 39.6 to 33.0 percent, purely because four hundred period sources arrived underneath it.
 
-**The publication pass then did the reverse. The period count sits unchanged at 1,529** while its fraction
-falls, because fifteen hundred contemporary sources arrived underneath that.
+**The publication pass then did the reverse. The period count stayed unchanged at 1,529** while its fraction
+fell, because fifteen hundred contemporary sources arrived underneath that.
 
-**Nothing was removed at any point.** The article's reference base only ever grew, and a reader watching
+**Neither pass removed anything.** The article's reference base only grew during them, and a reader watching
 only the fractions would have seen two apparent regressions where there were none.
 
 ### What the Primary Pass Was Aimed At
@@ -5245,8 +5229,9 @@ vocabulary the period actually used, and once the heading was widened to reach i
 remains the thinnest heading in the article.
 
 **Laminate stiffness and positive definiteness likewise returns one record**, because the mechanics of the
-bend-twist coupling matrix are written up inside the composite structure literature, which this article
-cites 365 times, and inside the aeroelastic tailoring literature, which it cites 108 times.
+bend-twist coupling matrix are written up inside the composite structure literature, where 426 of this
+article's research records carry composite or composites in their titles, and inside the aeroelastic
+tailoring literature, where 75 carry tailored or tailoring in theirs.
 **A paper on tailoring a wing is a paper about that stiffness matrix**, and reporting a gap there would
 misdescribe where the work is.
 
@@ -5254,8 +5239,8 @@ misdescribe where the work is.
 
 | | Count | Fraction of cited research |
 |---|---|---|
-| Period, through 1995 | 1,432 | |
-| Contemporary, 2015 onward | 2,190 | |
+| Period, through 1995 | 1,429 | 37.7 percent |
+| Contemporary, 2015 onward | 2,178 | 57.4 percent |
 
 **The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.**
 A reading of every flagged title, followed by a sweep of the whole reference set for each homonym the
@@ -5271,10 +5256,20 @@ chains, airfares and flight delays.
 
 **The control subsections changed most.** The survey of unstable airframe control fell from 772 records to
 693, the redundancy subsection from 525 to 467, and the machine learning survey from 147 to 109. The table
-above gives the present period and contemporary counts. A seeded reading of 300 unflagged records found 21
+above gives the present period and contemporary counts, each also as a share of every cited research record,
+since every one of them carries a year. A seeded reading of 300 unflagged records found 21
 off topic, which put contamination near seven percent before the rebuild, and every one of the 21 then fell
 to a sweep it had prompted, so that sample cannot measure what remains. Doubtful records were kept,
 including quadrotor flight control, bridge and hydrofoil flutter, and networked control theory.
+
+**A second seeded sample of 300 records that no earlier reading had seen found 6 off topic, and all 6 were removed with 4 more of their kind.**
+The 6 were a study of ball bearing dynamics, a lift-to-drag estimate for the double-crested cormorant, a
+study of pilot personality, vibration control for a magnetically suspended control moment gyroscope, a
+proposal for rigid sails and a soft robot modelled on an inchworm. The sweeps they prompted found bearing
+manufacture, crew fatigue scheduling, robotic grinding and robot manipulator control. That took the cited
+research from 3,808 to 3,798, and the redundancy subsection from 467 to 466. The sample puts the
+contamination it found at 6 in 300, or 2.0 percent, before its own sweep. Because that sample drove the
+sweep, it cannot measure what remains after it. Five more records were then removed under the rule that a survey counts research works and not notices attached to them, two withdrawal notices, one correction notice, one errata notice and one retraction note, and the cited research fell from 3,798 to 3,793. On 8 October one retracted article was removed, which took the cited research from 3,793 to 3,792.
 
 ## Epistemic State
 
@@ -6054,7 +6049,6 @@ than any aircraft in this series and never flew at all.
 - [Chau and Zingg 2023][research_chau_zingg_2023]
 - [Chau et al 2026][research_chau_piotrowski_2026]
 - [Chauhan and Martins 2021][research_chauhan_martins_2021]
-- [Chauhan and Martins 2022][research_chauhan_martins_2022]
 - [Chauhan and Martins 2024][research_chauhan_martins_2024]
 - [Chauhan et al 2023][research_chauhan_praveen_2023]
 - [Chen 1982][research_chen_1982]
@@ -6235,7 +6229,6 @@ than any aircraft in this series and never flew at all.
 - [Dagkolu et al 2021][research_dagkolu_gokdag_2021]
 - [Dai and Yang 2015][research_dai_yang_2015]
 - [Dai and Zhang 2023][research_dai_zhang_2023]
-- [Dai et al 2016][research_dai_wu_2016]
 - [Dai et al 2025][research_dai_hu_2025]
 - [Daken and Mar 1985][research_daken_mar_1985]
 - [Dallas and Irvin 1956][research_dallas_irvin_1956]
@@ -6303,7 +6296,6 @@ than any aircraft in this series and never flew at all.
 - [Deskos et al 2020][research_deskos_delcarre_2020]
 - [DeSpirito 2005][research_despirito_2005]
 - [Devi 2019][research_devi_2019]
-- [Devine et al 2025][research_devine_choynowski_2025]
 - [Dexl et al 2020][research_dexl_hauffe_2020]
 - [Dexter 1993][research_dexter_1993]
 - [Dghim et al 2018][research_dghim_ferchichi_2018]
@@ -7256,7 +7248,6 @@ than any aircraft in this series and never flew at all.
 - [Lee and Lua 2026][research_lee_lua_2026]
 - [Lee and Mall 1989][research_lee_mall_1989]
 - [Lee and Ohman 1984][research_lee_ohman_1984]
-- [Lee and Ohman 1984][research_lee_ohman_1984_b]
 - [Lee and Sheikh 2025][research_lee_sheikh_2025]
 - [Lee and Sheu 1994][research_lee_sheu_1994]
 - [Lee and Singh 2017][research_lee_singh_2017]
@@ -7319,7 +7310,6 @@ than any aircraft in this series and never flew at all.
 - [Li et al 2018][research_li_wang_2018_b]
 - [Li et al 2018][research_li_zhang_2018]
 - [Li et al 2019][research_li_bai_2019]
-- [Li et al 2019][research_li_bai_2019_b]
 - [Li et al 2019][research_li_daronch_2019]
 - [Li et al 2019][research_li_gong_2019]
 - [Li et al 2019][research_li_he_2019]
@@ -7343,7 +7333,6 @@ than any aircraft in this series and never flew at all.
 - [Li et al 2024][research_li_he_2024]
 - [Li et al 2024][research_li_kou_2024]
 - [Li et al 2024][research_li_qian_2024]
-- [Li et al 2024][research_li_yang_2024]
 - [Li et al 2024][research_li_zhang_2024]
 - [Li et al 2024][research_li_zhang_2024_b]
 - [Li et al 2024][research_li_zhang_2024_d]
@@ -7933,7 +7922,6 @@ than any aircraft in this series and never flew at all.
 - [Paulson, J. W., Jr. and Thomas, J. L. 1979][research_paulsonjwjr_thomasjl_1979_b]
 - [Paulson, J. W., Jr. et al 1979][research_paulsonjwjr_thomasjl_1979]
 - [Payton 2017][research_payton_2017]
-- [PC implementation of optimal sampled-data control for robotic manipulators 1994][research_pc_implementation_1994]
 - [Pearson, Henry A and Aiken, William S , Jr 1944][research_pearsonhenrya_aikenwilliamsjr_1944]
 - [Peck and Hudson 1956][research_peck_hudson_1956]
 - [Pedrioli et al 2026][research_pedrioli_vaiuso_2026]
@@ -7944,11 +7932,9 @@ than any aircraft in this series and never flew at all.
 - [Pena, Francisco et al 2018][research_penafrancisco_martinsbenjamin_2018]
 - [Pendem 2023][research_pendem_2023]
 - [Pendleton et al 1995][research_pendleton_moster_1995]
-- [Peng et al 2020][research_peng_zhu_2020]
 - [Peng et al 2026][research_peng_cao_2026]
 - [Peng et al 2026][research_peng_li_2026]
 - [Pengelley and Wilson 1954][research_pengelley_wilson_1954]
-- [Pennycuick 1989][research_pennycuick_1989]
 - [Pereira et al 2021][research_pereira_sales_2021]
 - [Perfect et al 2015][research_perfect_jump_2015]
 - [Perfect et al 2015][research_perfect_jump_2015_b]
@@ -8026,7 +8012,6 @@ than any aircraft in this series and never flew at all.
 - [Qi et al 2018][research_qi_zhao_2018]
 - [Qi et al 2026][research_qi_yuan_2026]
 - [Qian 2018][research_qian_2018]
-- [Qian et al 2025][research_qian_lu_2025]
 - [Qian et al 2025][research_qian_xinhui_2025]
 - [Qian et al 2026][research_qian_gao_2026]
 - [Qiao et al 2018][research_qiao_gao_2018]
@@ -8081,7 +8066,6 @@ than any aircraft in this series and never flew at all.
 - [Rea et al 2018][research_rea_pecora_2018]
 - [Rea J B Co Inc Santa Monica Ca 1957][research_reajbcoincsantamonicaca_1957]
 - [Reader 1976][research_reader_1976]
-- [Reca Luque et al 2023][research_recaluque_aguilartorres_2023]
 - [Reddy 1982][research_reddy_1982]
 - [Reddy 1987][research_reddy_1987]
 - [Redeker and Wichmann 1991][research_redeker_wichmann_1991]
@@ -8109,7 +8093,6 @@ than any aircraft in this series and never flew at all.
 - [Report No. 349. A proof of the theorem regarding the distribution of lift over the span, for minimum induced drag 1930][research_report_no_1930]
 - [Research and Design of Automatic Flight Control System Test System 2022][research_research_and_2022]
 - [Research on flight technology evaluation based on machine learning algorithm 2023][research_research_on_2023]
-- [Research on Semi-active Suppression of Flutter in Robotic Grinding for Aero-engine Blades 2025][research_research_on_2025]
 - [Resta et al 2021][research_resta_marsilio_2021]
 - [Restifo et al 2026][research_restifo_villa_2026]
 - [Review of Fault-tolerant Control for Flight Control System 2024][research_review_of_2024]
@@ -8394,7 +8377,6 @@ than any aircraft in this series and never flew at all.
 - [Sibert 1937][research_sibert_1937]
 - [Sibert 1943][research_sibert_1943]
 - [Siddiqui et al 2016][research_siddiqui_elferik_2016]
-- [Siem and Murray 1997][research_siem_murray_1997]
 - [Silton and Fresconi 2015][research_silton_fresconi_2015]
 - [Silton et al 2014][research_silton_fresconi_2014]
 - [Silva, Walter A. and Bennett, Robert M. 1990][research_silvawaltera_bennettrobertm_1990]
@@ -8940,7 +8922,6 @@ than any aircraft in this series and never flew at all.
 - [Wei et al 2017][research_wei_chen_2017]
 - [Wei et al 2019][research_wei_zhan_2019]
 - [Wei et al 2020][research_wei_xu_2020]
-- [Wei et al 2024][research_wei_ke_2024]
 - [Wei et al 2024][research_wei_meng_2024]
 - [Wei et al 2025][research_wei_cui_2025]
 - [Weidemann and Leondes 1979][research_weidemann_leondes_1979]
@@ -9071,8 +9052,6 @@ than any aircraft in this series and never flew at all.
 - [Xinbing et al 2020][research_xinbing_wen_2020]
 - [Xiong et al 2025][research_xiong_xu_2025]
 - [Xiong et al 2026][research_xiong_tang_2026]
-- [Xu 2025][research_xu_2025]
-- [Xu 2026][research_xu_2026]
 - [Xu and Feng 2025][research_xu_feng_2025]
 - [Xu and Wang 2016][research_xu_wang_2016]
 - [Xu and Xia 2016][research_xu_xia_2016]
@@ -9868,7 +9847,6 @@ than any aircraft in this series and never flew at all.
 [research_chau_zingg_2022]: https://doi.org/10.2514/1.c036389
 [research_chau_zingg_2023]: https://doi.org/10.2514/1.c037158
 [research_chauhan_martins_2021]: https://doi.org/10.2514/1.c035991
-[research_chauhan_martins_2022]: https://doi.org/10.2514/1.c035991.c1
 [research_chauhan_martins_2024]: https://doi.org/10.3390/aerospace11070512
 [research_chauhan_praveen_2023]: https://doi.org/10.61653/joast.v62i4.2010.508
 [research_chen_1982]: https://doi.org/10.2514/3.51069
@@ -10044,7 +10022,6 @@ than any aircraft in this series and never flew at all.
 [research_dagilis_kilikevicius_2023]: https://doi.org/10.3390/aerospace10090801
 [research_dagkolu_gokdag_2021]: https://doi.org/10.1016/j.promfg.2021.07.037
 [research_dai_hu_2025]: https://doi.org/10.1016/j.cja.2024.09.021
-[research_dai_wu_2016]: https://doi.org/10.1016/j.ast.2016.01.019
 [research_dai_yang_2015]: https://doi.org/10.2322/tjsass.58.237
 [research_dai_zhang_2023]: https://doi.org/10.3390/aerospace10060553
 [research_daken_mar_1985]: https://doi.org/10.1016/0263-8223(85)90002-9
@@ -10118,7 +10095,6 @@ than any aircraft in this series and never flew at all.
 [research_desouza_vuillemin_2023]: https://doi.org/10.2514/1.g007153
 [research_despirito_2005]: https://doi.org/10.21236/ada444636
 [research_devi_2019]: https://doi.org/10.21275/sr231208204149
-[research_devine_choynowski_2025]: https://doi.org/10.3390/safety11010004
 [research_dewagter_meulenbeld_2019]: https://doi.org/10.1177/1756829319880302
 [research_dexl_hauffe_2020]: https://doi.org/10.1007/s00158-020-02613-4
 [research_dexter_1993]: https://doi.org/10.1243/pime_proc_1993_207_241_02
@@ -11074,7 +11050,6 @@ than any aircraft in this series and never flew at all.
 [research_lee_mall_1989]: https://doi.org/10.1177/002199838902300403
 [research_lee_mallett_1982]: https://doi.org/10.21236/ada127063
 [research_lee_ohman_1984]: https://doi.org/10.2514/3.44987
-[research_lee_ohman_1984_b]: https://doi.org/10.2514/3.56742
 [research_lee_sheikh_2025]: https://doi.org/10.1093/jcde/qwaf124
 [research_lee_sheu_1994]: https://doi.org/10.1002/oca.4660150204
 [research_lee_singh_2017]: https://doi.org/10.1007/s11071-016-3287-y
@@ -11111,7 +11086,6 @@ than any aircraft in this series and never flew at all.
 [research_li_bai_2016]: https://doi.org/10.1016/j.isatra.2015.12.004
 [research_li_bai_2018]: https://doi.org/10.1007/s42405-018-0046-y
 [research_li_bai_2019]: https://doi.org/10.1016/j.ast.2019.05.067
-[research_li_bai_2019_b]: https://doi.org/10.1016/j.ast.2019.105338
 [research_li_bai_2022]: https://doi.org/10.2514/1.c036413
 [research_li_chen_2016]: https://doi.org/10.1007/s00158-016-1459-5
 [research_li_daronch_2019]: https://doi.org/10.1016/j.ast.2019.105354
@@ -11163,7 +11137,6 @@ than any aircraft in this series and never flew at all.
 [research_li_xu_2026]: https://doi.org/10.3390/vibration9010008
 [research_li_yang_2017]: https://doi.org/10.2514/1.c033670
 [research_li_yang_2023]: https://doi.org/10.3390/aerospace10100866
-[research_li_yang_2024]: https://doi.org/10.1142/s0219455425500853
 [research_li_yoon_2026]: https://doi.org/10.1007/s00158-026-04296-9
 [research_li_yuan_2022]: https://doi.org/10.34133/2022/9790131
 [research_li_zhang_2018]: https://doi.org/10.1109/access.2018.2853145
@@ -11749,7 +11722,6 @@ than any aircraft in this series and never flew at all.
 [research_paulsonjwjr_thomasjl_1979]: https://ntrs.nasa.gov/citations/19790035660
 [research_paulsonjwjr_thomasjl_1979_b]: https://ntrs.nasa.gov/citations/19800004739
 [research_payton_2017]: https://doi.org/10.21660/2017.33.2565
-[research_pc_implementation_1994]: https://doi.org/10.1016/0967-0661(94)90247-x
 [research_pearsonhenrya_aikenwilliamsjr_1944]: https://ntrs.nasa.gov/citations/19930091876
 [research_peck_hudson_1956]: https://doi.org/10.21236/ad0140230
 [research_pedrioli_vaiuso_2026]: https://doi.org/10.1007/s13272-026-00961-3
@@ -11762,9 +11734,7 @@ than any aircraft in this series and never flew at all.
 [research_pendleton_moster_1995]: https://doi.org/10.2514/3.46860
 [research_peng_cao_2026]: https://doi.org/10.1109/tsmc.2026.3657656
 [research_peng_li_2026]: https://doi.org/10.1002/rnc.70594
-[research_peng_zhu_2020]: https://doi.org/10.1049/el.2019.3719
 [research_pengelley_wilson_1954]: https://doi.org/10.21236/ad0061591
-[research_pennycuick_1989]: https://doi.org/10.1242/jeb.142.1.1
 [research_pereira_sales_2021]: https://doi.org/10.1016/j.compstruct.2020.112932
 [research_perez_theodoulis_2022]: https://doi.org/10.1016/j.ifacol.2022.09.057
 [research_perfect_jump_2015]: https://doi.org/10.2514/1.g001073
@@ -11843,7 +11813,6 @@ than any aircraft in this series and never flew at all.
 [research_qi_zhao_2020]: https://doi.org/10.2514/1.g004761
 [research_qian_2018]: https://doi.org/10.1061/(asce)as.1943-5525.0000925
 [research_qian_gao_2026]: https://doi.org/10.1016/j.ast.2025.111115
-[research_qian_lu_2025]: https://doi.org/10.1093/cdm/wqaf016
 [research_qian_xinhui_2025]: https://doi.org/10.65904/3083-3450.2025.01.05
 [research_qiao_gao_2018]: https://doi.org/10.1016/j.jfluidstructs.2018.07.009
 [research_qiao_wu_2018]: https://doi.org/10.1080/21642583.2018.1558421
@@ -11897,7 +11866,6 @@ than any aircraft in this series and never flew at all.
 [research_rea_pecora_2018]: https://doi.org/10.18178/ijmerr.6.6.440-450
 [research_reader_1976]: https://doi.org/10.21236/ada026548
 [research_reajbcoincsantamonicaca_1957]: https://doi.org/10.21236/ad0126837
-[research_recaluque_aguilartorres_2023]: https://doi.org/10.6036/10630
 [research_reddy_1982]: https://doi.org/10.1016/0015-0568(82)90058-6
 [research_reddy_1987]: https://doi.org/10.2514/3.45421
 [research_redeker_wichmann_1991]: https://doi.org/10.2514/3.45997
@@ -11925,7 +11893,6 @@ than any aircraft in this series and never flew at all.
 [research_report_no_1930]: https://doi.org/10.1016/s0016-0032(30)90271-2
 [research_research_and_2022]: https://doi.org/10.47939/et.v3i2.104
 [research_research_on_2023]: https://doi.org/10.23977/acss.2023.070616
-[research_research_on_2025]: https://doi.org/10.3901/jme.2025.05.228
 [research_resta_marsilio_2021]: https://doi.org/10.3390/fluids6120441
 [research_restifo_villa_2026]: https://doi.org/10.1016/j.mlwa.2026.100896
 [research_review_of_2024]: https://doi.org/10.3901/jme.2024.04.050
@@ -12212,7 +12179,6 @@ than any aircraft in this series and never flew at all.
 [research_sibert_1937]: https://doi.org/10.2514/8.367
 [research_sibert_1943]: https://doi.org/10.2514/8.10986
 [research_siddiqui_elferik_2016]: https://doi.org/10.1016/j.ifacol.2016.07.510
-[research_siem_murray_1997]: https://doi.org/10.21236/ada459823
 [research_silton_fresconi_2014]: https://doi.org/10.21236/ada611082
 [research_silton_fresconi_2015]: https://doi.org/10.2514/1.a33219
 [research_silvaleon_cioncolini_2020]: https://doi.org/10.3390/fluids5020090
@@ -12758,7 +12724,6 @@ than any aircraft in this series and never flew at all.
 [research_wei_cui_2025]: https://doi.org/10.3390/aerospace12090773
 [research_wei_du_2019]: https://doi.org/10.1115/1.4045599
 [research_wei_freris_2024]: https://doi.org/10.1007/s00371-024-03402-6
-[research_wei_ke_2024]: https://doi.org/10.3390/act13010043
 [research_wei_meng_2024]: https://doi.org/10.1002/rnc.7526
 [research_wei_xu_2020]: https://doi.org/10.1109/access.2020.2964728
 [research_wei_zhan_2019]: https://doi.org/10.1108/aeat-08-2017-0181
@@ -12890,8 +12855,6 @@ than any aircraft in this series and never flew at all.
 [research_xinbing_wen_2020]: https://doi.org/10.1088/1742-6596/1605/1/012075
 [research_xiong_tang_2026]: https://doi.org/10.1109/taes.2026.3683617
 [research_xiong_xu_2025]: https://doi.org/10.2514/1.c038510
-[research_xu_2025]: https://doi.org/10.1038/s41598-025-06503-x
-[research_xu_2026]: https://doi.org/10.1038/s41598-026-56983-8
 [research_xu_fan_2015]: https://doi.org/10.1016/j.neucom.2015.02.069
 [research_xu_feng_2025]: https://doi.org/10.1016/j.cja.2025.103443
 [research_xu_gao_2015]: https://doi.org/10.1155/2015/258315

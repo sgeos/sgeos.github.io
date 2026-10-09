@@ -41,7 +41,7 @@ Three quantities have to be right at once for a full reproduction.
 
 The ground facilities of the period could not close the gap. A shock tube produces high enthalpy for microseconds, and the expansion tube that improved on it was not proposed until [Trimpi 1962][research_trimpi_1962]. An arc-heated jet can run for minutes but produces a contaminated, non-uniform stream whose enthalpy is hard to know, and calibrating one against material response was still being worked out in [Chapman 1963][research_chapman_1963]. A ballistic range fires a small model at high speed through still air, which is genuinely a re-entry in miniature, but the model is centimetres across and the flight lasts milliseconds, as in [Yee et al 1961][research_yee_1961]. Free-flight technique in a conventional tunnel, treated in [Dayman 1962][research_dayman_1962] and [Levy and Mc Devitt 1964][research_levy_mc_devitt_1964], has the same limitation.
 
-The facilities themselves became a substantial field, and the reason is that none of them ever solved the problem outright. Shock tubes, shock and expansion tunnels, arc-heated jets, ballistic ranges, and ceramic-heated and hotshot tunnels each buy one part of the condition at the cost of another, across [Bleakney et al 1949][research_bleakney_1949], [Lundquist 1952][research_lundquist_1952], [Wegener and Lobb 1952][research_wegener_lobb_1952], [MACK 1954][research_mack_1954], [Walker and Wolowicz 1960][research_walker_wolowicz_1960], [Palmer and Knox 1960][research_palmer_knox_1960], [FILLER 1960][research_filler_1960], [Trimpi 1962, A Preliminary Theoretical Study of][research_trimpi_1962_2], [Bradley et al 1981][research_bradley_1981], [Park and Balakrishnan 1985][research_park_balakrishnan_1985], [Takahashi and Teshima 1985][research_takahashi_teshima_1985], [YANG et al 1985][research_yang_1985], [Hanson 2000][research_hanson_2000], [Yungster and Radhakrishnan 2001][research_yungster_radhakrishnan_2001], [Holden 2004][research_holden_2004], [Balakalyani and Jagadeesh 2019][research_balakalyani_jagadeesh_2019], [Gildfind 2019][research_gildfind_2019], [Wang and Jiang 2020][research_wang_jiang_2020]. **Every one of those is a partial simulation too**, which is worth saying before criticising the X-17 for being one.
+The facilities themselves became a substantial field, and the reason is that none of them ever solved the problem outright. Shock tubes, shock and expansion tunnels, arc-heated jets, ballistic ranges, and ceramic-heated and hotshot tunnels each buy one part of the condition at the cost of another, across [Bleakney et al 1949][research_bleakney_1949], [Lundquist 1952][research_lundquist_1952], [Wegener and Lobb 1952][research_wegener_lobb_1952], [MACK 1954][research_mack_1954], [Palmer and Knox 1960][research_palmer_knox_1960], [FILLER 1960][research_filler_1960], [Trimpi 1962, A Preliminary Theoretical Study of][research_trimpi_1962_2], [Bradley et al 1981][research_bradley_1981], [Park and Balakrishnan 1985][research_park_balakrishnan_1985], [Takahashi and Teshima 1985][research_takahashi_teshima_1985], [YANG et al 1985][research_yang_1985], [Hanson 2000][research_hanson_2000], [Yungster and Radhakrishnan 2001][research_yungster_radhakrishnan_2001], [Holden 2004][research_holden_2004], [Balakalyani and Jagadeesh 2019][research_balakalyani_jagadeesh_2019], [Gildfind 2019][research_gildfind_2019], [Wang and Jiang 2020][research_wang_jiang_2020]. **Every one of those is a partial simulation too**, which is worth saying before criticising the X-17 for being one.
 
 None of that gives a full-scale article, in real air, for tens of seconds. **The X-17 was built to obtain exactly the thing no facility could provide, and the vehicle's peculiar architecture is a direct consequence of that requirement, not of any preference for rockets.**
 
@@ -69,7 +69,7 @@ $$\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759$$
 
 or **63.8 percent propellant by mass** in the descending stack. That is an ordinary figure for a solid motor and is why the architecture was practical at all, not merely conceivable.
 
-**Published apogees disagree, and not slightly.** One account gives about 100 miles, another about 500,000 feet, and a third 250 miles. The first two agree to within five kilometres. The third is two and a half times the first. This article computes across the range where the answer depends on it and says so.
+**Published apogees disagree, and not slightly.** One account gives about 100 miles, another about 500,000 feet, and a third 250 miles. The first two agree to within nine kilometres. The third is two and a half times the first. This article computes across the range where the answer depends on it and says so.
 
 ## Sizing From First Principles
 
@@ -152,7 +152,7 @@ Stagnation-point convective heating is given by the Sutton and Graves correlatio
 
 $$\dot{q} = K \sqrt{\frac{\rho}{R_n}}\, V^{3}$$
 
-where $R_n$ is the nose radius and $K = 1.7415 \times 10^{-4}$ in SI units. That correlation sits on top of a large measurement and analysis programme, since the constant is empirical and the exponents are the result of boundary-layer theory checked against experiment, in [Luce and Jr 1949][research_luce_jr_1949], [Emmons 1951][research_emmons_1951], [Allen and Eggers 1953][research_allen_eggers_1953], [Jonas 1953][research_jonas_1953], [VAGLIG-LAURIN 1960][research_vaglig_laurin_1960], [CRESCI et al 1960][research_cresci_1960], [SEIDMAN 1960][research_seidman_1960], [Neice et al 1960][research_neice_1960], [Gonzales 1981][research_gonzales_1981], [Thornton 1981][research_thornton_1981], [Nomura 1983][research_nomura_1983], [GAI et al 1985][research_gai_1985], [Mizoguchi et al 2006][research_mizoguchi_2006], [Clemente and Ferrarella 2010][research_clemente_ferrarella_2010], [Tashakkor et al 2011][research_tashakkor_2011], [Tauber et al 2012][research_tauber_2012], [Si et al 2019][research_si_2019], [Manjhi and Kumar 2020][research_manjhi_kumar_2020], [Han et al 2020][research_han_2020], [Lefevre et al 2022][research_lefevre_2022]. The structure of that relation is the whole opportunity. **Density enters under a square root and velocity enters cubed**, so a deficit in velocity can be repaid by an excess of density, and the exchange rate is steep. Holding the heating rate fixed,
+where $R_n$ is the nose radius and $K = 1.7415 \times 10^{-4}$ in SI units. That correlation sits on top of a large measurement and analysis programme, since the constant is empirical and the exponents are the result of boundary-layer theory checked against experiment, in [Luce, Jr. 1949][research_luce_jr_1949], [Emmons 1951][research_emmons_1951], [Allen and Eggers 1953][research_allen_eggers_1953], [Jonas 1953][research_jonas_1953], [VAGLIG-LAURIN 1960][research_vaglig_laurin_1960], [CRESCI et al 1960][research_cresci_1960], [SEIDMAN 1960][research_seidman_1960], [Neice et al 1960][research_neice_1960], [Gonzales 1981][research_gonzales_1981], [Thornton 1981][research_thornton_1981], [Nomura 1983][research_nomura_1983], [GAI et al 1985][research_gai_1985], [Mizoguchi et al 2006][research_mizoguchi_2006], [Clemente and Ferrarella 2010][research_clemente_ferrarella_2010], [Tashakkor et al 2011][research_tashakkor_2011], [Tauber et al 2012][research_tauber_2012], [Si et al 2019][research_si_2019], [Manjhi and Kumar 2020][research_manjhi_kumar_2020], [Han et al 2020][research_han_2020], [Lefevre et al 2022][research_lefevre_2022]. The structure of that relation is the whole opportunity. **Density enters under a square root and velocity enters cubed**, so a deficit in velocity can be repaid by an excess of density, and the exchange rate is steep. Holding the heating rate fixed,
 
 $$\rho \propto V^{-6}$$
 
@@ -168,7 +168,7 @@ and that density occurs at **13.97 kilometres**. Evaluating both conditions at a
 
 $$\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.008214}{0.15}} \times 7{,}000^{3} = 1{,}398\ \text{W/cm}^{2}$$
 
-for the intercontinental case and the same 1,398 watts per square centimetre for the X-17, which agrees by construction. **The X-17 could reproduce an intercontinental heating rate at 57 percent of the velocity by flying at a tenth of the altitude, and that is the trick the whole vehicle exists to perform.**
+for the intercontinental case and the same 1,398 watts per square centimetre for the X-17, which agrees by construction. **The X-17 could reproduce an intercontinental heating rate at 57 percent of the velocity by flying at two fifths of the altitude, and that is the trick the whole vehicle exists to perform.**
 
 ### The Reference Condition Is a Choice, and Deriving It Exposes a Limit
 
@@ -241,7 +241,7 @@ $$\left(\frac{7{,}000}{4{,}023}\right)^{8.5} = 110.7$$
 
 so **the X-17 sees roughly one part in 111 of the radiative heating an intercontinental re-entry produces.** Extending the same exponent, lunar return at 11 kilometres per second is 5,162 times the X-17's radiative environment, which is why radiation dominates there and is negligible here.
 
-Shock-layer radiation has its own measurement and modelling literature, developed largely because lunar return made it unavoidable, in [Coulson and Furukawa 1960][research_coulson_furukawa_1960], [Compton and Cooper 1964][research_compton_cooper_1964], [Davis 1964][research_davis_1964], [Moss and Kumar 1981][research_moss_kumar_1981], [GUPTA et al 1990][research_gupta_1990], [Tauber and Sutton 1991][research_tauber_sutton_1991], [Winter et al 2011][research_winter_2011], [Cruden 2011][research_cruden_2011], [Johnston et al 2012][research_johnston_2012], [Collen et al 2023][research_collen_2023], [McGilvray et al 2024][research_mcgilvray_2024], [Ravichandran et al 2025][research_ravichandran_2025].
+Shock-layer radiation has its own measurement and modelling literature, developed largely because lunar return made it unavoidable, in [Compton and Cooper 1964][research_compton_cooper_1964], [Davis 1964][research_davis_1964], [Moss and Kumar 1981][research_moss_kumar_1981], [GUPTA et al 1990][research_gupta_1990], [Tauber and Sutton 1991][research_tauber_sutton_1991], [Winter et al 2011][research_winter_2011], [Cruden 2011][research_cruden_2011], [Johnston et al 2012][research_johnston_2012], [Collen et al 2023][research_collen_2023], [McGilvray et al 2024][research_mcgilvray_2024], [Ravichandran et al 2025][research_ravichandran_2025].
 
 **The X-17's condition is purely convection-dominated and an intercontinental re-entry is beginning not to be.** That is a fourth respect in which the simulation is partial, and unlike the other three it is not a consequence of the density trade. It follows from velocity alone and is therefore unfixable by any choice of altitude.
 
@@ -395,7 +395,7 @@ $$\frac{T}{W} = \frac{48{,}000}{10{,}650} = 4.51$$
 
 which is high and appropriate for a vehicle that must clear the dense atmosphere quickly. The upper stages together develop 137,650 pounds force, or 612 kilonewtons, against a much smaller remaining mass, which is what supplies the 2,339 metres per second of downward velocity computed above.
 
-Solid propellant was the only sensible choice. It requires no pumps, tolerates being stored, and can be fired in any attitude, which matters greatly for a stage that ignites while pointing at the ground after a ballistic coast. Motor design and case work of the period appear in [Bua 1963][research_bua_1963] and [Harris 1963][research_harris_1963], internal insulation in [WALTON and SIMMONS 1962][research_walton_simmons_1962] and [Sale 1964][research_sale_1964], and the ablation problem inside the motor itself in [KUBY et al 1962][research_kuby_1962]. Multistage trajectory optimisation is treated in [Boyce 1963][research_boyce_1963]. Solid motor performance, grain and case design, nozzle erosion, and the staging problem generally are covered by [LAWRENCE 1945][research_lawrence_1945], [Matthews 1957][research_matthews_1957], [CAMPBELL 1962][research_campbell_1962], [KUBY 1964][research_kuby_1964], [PARKER and SUMMERFIELD 1964][research_parker_summerfield_1964], [Horton, Ii 1964][research_horton_1964], [PRICE 1964][research_price_1964], [FONG 1964][research_fong_1964], [Perlmutter and DePierre 1965][research_perlmutter_depierre_1965], [DEMORE 1965][research_demore_1965], [Landers et al 1991][research_landers_1991], [Pamadi et al 2006][research_pamadi_2006], [Clayton 2017][research_clayton_2017], [Clayton 2017, Arc Jet Test and Analysis of Asbes][research_clayton_2017_2].
+Solid propellant was the only sensible choice. It requires no pumps, tolerates being stored, and can be fired in any attitude, which matters greatly for a stage that ignites while pointing at the ground after a ballistic coast. Motor design and case work of the period appear in [Bua 1963][research_bua_1963] and [Harris 1963][research_harris_1963], internal insulation in [WALTON and SIMMONS 1962][research_walton_simmons_1962] and [Sale 1964][research_sale_1964], and the ablation problem inside the motor itself in [KUBY et al 1962][research_kuby_1962]. Multistage trajectory optimisation is treated in [Boyce 1963][research_boyce_1963]. Solid motor performance, grain and case design, nozzle erosion, and the staging problem generally are covered by [CAMPBELL 1962][research_campbell_1962], [KUBY 1964][research_kuby_1964], [PARKER and SUMMERFIELD 1964][research_parker_summerfield_1964], [Horton, Ii 1964][research_horton_1964], [PRICE 1964][research_price_1964], [FONG 1964][research_fong_1964], [Perlmutter and DePierre 1965][research_perlmutter_depierre_1965], [DEMORE 1965][research_demore_1965], [Landers et al 1991][research_landers_1991], [Pamadi et al 2006][research_pamadi_2006], [Clayton 2017][research_clayton_2017], [Clayton 2017, Arc Jet Test and Analysis of Asbes][research_clayton_2017_2].
 
 ### Stability and the Attitude Problem
 
@@ -407,7 +407,7 @@ Spin stabilisation is the usual answer and appears in [Levine et al 1960][resear
 
 The vehicle exists to return numbers, and at these conditions returning numbers is difficult. Thermocouples must survive a surface that is being consumed, telemetry must work through a partially ionised layer, and the whole record must be transmitted before the article is destroyed.
 
-The free-flight heating measurement technique and its interpretation are the direct subject of [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and a closely comparable free-flight heat transfer and ablation measurement on a blunted body appears in [Winters 1964][research_winters_1964]. Comparison of tunnel and flight data for an instrumented hypersonic rocket is in [Maydew 1964][research_maydew_1964]. The technique of measuring aerodynamic heating on a body in free flight, and of extracting a heat transfer coefficient from a temperature history, is its own discipline and runs through [Liddell et al 1947][research_liddell_1947], [Hamaker et al 1953][research_hamaker_1953], [Rogers and K. 1953][research_rogers_k_1953], [Charters et al 1955][research_charters_1955], [Compton et al 1960][research_compton_1960], [Reeves and Threlkeld 1963][research_reeves_threlkeld_1963], [Welton 1965][research_welton_1965], [Dayman 1965][research_dayman_1965], [Development 1984][research_development_1984], [Strawa et al 1990][research_strawa_1990], [Kidner 1993][research_kidner_1993], [Whitmore and Moes 1994][research_whitmore_moes_1994], [Guelhan et al 2012][research_guelhan_2012], [Hergert et al 2017][research_hergert_2017].
+The free-flight heating measurement technique and its interpretation are the direct subject of [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and a closely comparable free-flight heat transfer and ablation measurement on a blunted body appears in [Winters 1964][research_winters_1964]. Comparison of tunnel and flight data for an instrumented hypersonic rocket is in [Maydew 1964][research_maydew_1964]. The technique of measuring aerodynamic heating on a body in free flight, and of extracting a heat transfer coefficient from a temperature history, is its own discipline and runs through [Hamaker et al 1953][research_hamaker_1953], [Rogers and K. 1953][research_rogers_k_1953], [Charters et al 1955][research_charters_1955], [Compton et al 1960][research_compton_1960], [Reeves and Threlkeld 1963][research_reeves_threlkeld_1963], [Welton 1965][research_welton_1965], [Dayman 1965][research_dayman_1965], [Development 1984][research_development_1984], [Strawa et al 1990][research_strawa_1990], [Kidner 1993][research_kidner_1993], [Whitmore and Moes 1994][research_whitmore_moes_1994], [Guelhan et al 2012][research_guelhan_2012], [Hergert et al 2017][research_hergert_2017].
 
 ### Reynolds Number and Transition, Which the Low Altitude Gives Free
 
@@ -474,7 +474,7 @@ That makes this an unusually apt subject for a contemporary survey. The X-17 par
 
 ### Prediction Replaced Measurement as the Primary Tool, and Then Needed Validating
 
-The largest single change is that the heat flux the X-17 went to such lengths to produce is now, in the first instance, computed. Aerothermodynamic prediction for entry and hypersonic vehicles is a mature computational discipline, in [Franze and Barz 2025][research_franze_barz_2025], [Franze and Barz 2025, Correction][research_franze_barz_2025_2], [G and G 2025][research_g_g_2025], [Gokul and Malaikannan 2025][research_gokul_malaikannan_2025], [Horing et al 2025][research_horing_2025], [Huang et al 2025][research_huang_2025], [Jiang and Deng 2025][research_jiang_deng_2025], [Khraibut and Gai 2025][research_khraibut_gai_2025], [Chen et al 2026][research_chen_2026], [He et al 2026][research_he_2026], [Peng and Wang 2026][research_peng_wang_2026], [Rajput et al 2026][research_rajput_2026], [Rataczak et al 2026][research_rataczak_2026], [Rizzi et al 2026][research_rizzi_2026], [Yang et al 2026][research_yang_2026], [Zhang et al 2026, Thermal model test and multi-scale][research_zhang_2026_2].
+The largest single change is that the heat flux the X-17 went to such lengths to produce is now, in the first instance, computed. Aerothermodynamic prediction for entry and hypersonic vehicles is a mature computational discipline, in [Franze and Barz 2025][research_franze_barz_2025], [G and G 2025][research_g_g_2025], [Gokul and Malaikannan 2025][research_gokul_malaikannan_2025], [Horing et al 2025][research_horing_2025], [Huang et al 2025][research_huang_2025], [Jiang and Deng 2025][research_jiang_deng_2025], [Khraibut and Gai 2025][research_khraibut_gai_2025], [Chen et al 2026][research_chen_2026], [He et al 2026][research_he_2026], [Peng and Wang 2026][research_peng_wang_2026], [Rajput et al 2026][research_rajput_2026], [Rataczak et al 2026][research_rataczak_2026], [Rizzi et al 2026][research_rizzi_2026], [Yang et al 2026][research_yang_2026], [Zhang et al 2026, Thermal model test and multi-scale][research_zhang_2026_2].
 
 **That does not remove the need for the X-17's kind of data. It relocates it.** A computed heat flux is only as good as the models inside it, and the field's central activity is now validation against experiment rather than measurement in place of theory. **The X-17 produced numbers because there was no alternative. Its modern equivalent produces numbers to check a code against**, which is a different epistemic role for the same measurement.
 
@@ -486,7 +486,7 @@ Arc-heated facilities remain the workhorse for material screening and are still 
 
 ### The Chemistry the X-17 Missed Is the Modern Subject
 
-The nonequilibrium chemistry the X-17 surrendered is now the central computational difficulty, in [Kline et al 2019][research_kline_2019] and the radiation modelling of [Winter et al 2019][research_winter_2019]. The current work spans vibrational relaxation and two-temperature models, state-to-state kinetics, rarefied and direct-simulation methods, and the catalytic wall boundary condition that decides how much of the dissociation energy is returned to the surface, across [Aiken et al 2025][research_aiken_2025], [Carter and Boyd 2025][research_carter_boyd_2025], [He et al 2025][research_he_2025], [Leonov and Miles 2025][research_leonov_miles_2025], [Li and Jing 2025][research_li_jing_2025], [Melnik et al 2025][research_melnik_2025], [Varma and Zhong 2025][research_varma_zhong_2025], [Wang et al 2025][research_wang_2025], [Chinnappan and Kim 2026][research_chinnappan_kim_2026], [Chu et al 2026][research_chu_2026], [Gao et al 2026][research_gao_2026], [Guo and Cao 2026][research_guo_cao_2026], [Jiang et al 2026][research_jiang_2026], [Liu et al 2026, Flow regimes and transitions in hy][research_liu_2026_2], [Pu et al 2026][research_pu_2026], [Tong et al 2026][research_tong_2026], [Varma and Zhong 2026][research_varma_zhong_2026], [XU Weifeng et al 2026][research_weifeng_2026].
+The nonequilibrium chemistry the X-17 surrendered is now the central computational difficulty, in [Kline et al 2019][research_kline_2019] and the radiation modelling of [Winter et al 2019][research_winter_2019]. The current work spans vibrational relaxation and two-temperature models, state-to-state kinetics, rarefied and direct-simulation methods, and the catalytic wall boundary condition that decides how much of the dissociation energy is returned to the surface, across [Aiken et al 2025][research_aiken_2025], [Carter and Boyd 2025][research_carter_boyd_2025], [He et al 2025][research_he_2025], [Leonov and Miles 2025][research_leonov_miles_2025], [Li and Jing 2025][research_li_jing_2025], [Melnik et al 2025][research_melnik_2025], [Varma and Zhong 2025][research_varma_zhong_2025], [Wang et al 2025][research_wang_2025], [Chinnappan and Kim 2026][research_chinnappan_kim_2026], [Chu et al 2026][research_chu_2026], [Gao et al 2026][research_gao_2026], [Guo and Cao 2026][research_guo_cao_2026], [Jiang et al 2026][research_jiang_2026], [Liu et al 2026, Flow regimes and transitions in hy][research_liu_2026_2], [Pu et al 2026][research_pu_2026], [Tong et al 2026][research_tong_2026], [XU Weifeng et al 2026][research_weifeng_2026].
 
 **What the X-17 gave up because nobody could use it is now the part that is hardest to get right**, which is a reversal worth stating. The vehicle surrendered the chemistry as the cheapest of three requirements to abandon. **It is now the most expensive**, because everything else in a modern prediction is comparatively well posed and the chemistry is where the model form uncertainty lives.
 
@@ -558,7 +558,7 @@ Treating the X-17 through partial simulation misleads in four places.
 
 ## The Source Base
 
-**No primary document about the X-17 was located in any archive this series uses.** The NASA technical reports server returns astronomy false positives for the vehicle name, specifically the X-ray source GX 17+2, and nothing technical. The Defense Technical Information Center holds the surrounding re-entry literature and nothing on this vehicle. It was an Air Force ballistic-missile support programme and its reports are not in the civil archive.
+**No primary document about the X-17 was located in any archive this series uses.** The technical reports server of the National Aeronautics and Space Administration, NASA, returns astronomy false positives for the vehicle name, specifically the X-ray source GX 17+2, and nothing technical. The Defense Technical Information Center holds the surrounding re-entry literature and nothing on this vehicle. It was an Air Force ballistic-missile support programme and its reports are not in the civil archive.
 
 **This is the second consecutive article whose subject has no archival record of its own.** The [X-16][related_post_a313_bell_x16] was cancelled and classified, and the X-17 flew and was classified. In both cases the article is carried by the literature of the question rather than of the vehicle.
 
@@ -568,15 +568,15 @@ What does hold the article up is the re-entry literature itself, which is large,
 
 ### The Shape of the Reference Base
 
-Of 401 research references, **210 predate 2019 and 191 do not**, so the base divides roughly in half. The distribution is 32 documents from before 1960, 93 from the 1960s and 1970s, 42 from the 1980s and 1990s, 43 from 2000 to 2018, and 191 from 2019 onward. The contemporary half is large because **the X-17's question was never answered**, so surveying the present state of it is surveying an open problem rather than an epilogue.
+Of 394 research references, dated by the year in each anchor or label, **205 predate 2019 and 189 do not**, so the base divides roughly in half. The distribution is 29 documents from before 1960, 91 from the 1960s and 1970s, 42 from the 1980s and 1990s, 43 from 2000 to 2018, and 189 from 2019 onward. The contemporary half is large because **the X-17's question was never answered**, so surveying the present state of it is surveying an open problem rather than an epilogue.
 
 **The pre-1960 material was nearly absent until it was looked for.** The first harvest used a 1985 cutoff on its period sweep, which let later work crowd out the contemporaneous literature, and the pool held only twenty records from before 1960 for a vehicle that flew in 1956. A second sweep with a 1960 cutoff took that to 157. **The documents the X-17's own engineers would have been reading are the most valuable primary material this article can have**, and they had to be asked for specifically.
 
 **Thirty candidate references were rejected across the two reference passes after being read rather than matched.** A title search for refractory returned furnace fillers, the mullitization of alumina raw material, silicon carbide power converters, and the near-infrared reflectance of rocks for asteroid science. A search for high temperature air returned a pneumatic air motor. A search for chemical kinetics returned the oxidation of n-butane and chemiluminescence in propane-butane flames. A search for heat flux returned microchannel heat sinks. A search for nonequilibrium returned a two-temperature Ising model. A search for ionisation returned electron impact on krypton. A search for demise, meaning the deliberate destruction of a spacecraft during re-entry, returned a paper on dataveillance and the demise of interpretive flexibility. And a search for thermal protection system returned the development of a passive thermal protection system for **divers**, which is a wetsuit.
 
-**The pattern is the one the previous article recorded, that a keyword diagnostic inside a field is useless outside it**, and the only method that catches it is reading the titles. A counter-observation is worth recording alongside it. An automated relevance scan run after insertion flagged a further ten citations, and **every one proved to be a false positive of the scan's own keyword list**, including a ceramic-heated tunnel, high-emissivity coatings, and expansion-tube flow characterisation. The reading step finds real defects and the automated step generates noise in both directions.
+**The pattern is the one the previous article recorded, that a keyword diagnostic inside a field is useless outside it**, and the only method that catches it is reading the titles. A counter-observation is worth recording alongside it. An automated relevance scan run after insertion flagged a further ten citations, and the reading at the time judged **every one a false positive of the scan's own keyword list**, including a ceramic-heated tunnel, high-emissivity coatings, and expansion-tube flow characterisation. That reading was not a complete check, since the re-reading of 7 October 2026 recorded in the next paragraph found fifteen cited works about something else that it had passed. The reading step finds real defects and the automated step generates noise in both directions.
 
-**The research works were re-read against the article's subject on 7 October 2026, and the re-reading found fifteen that are about something else.** Four are medical ablation, of musculoskeletal tumours, epiglottic cysts, the thyroid and the adenoids, and sit in the ablation survey. Five are sensitivity or uncertainty analyses of district heating networks, a residential heating system, heating-degree-day derivative prices, road-vehicle handling and a gas flow standard, and sit in the uncertainty survey. Four are radiation papers on nanofluid convection in a porous medium, a cryogenic fusion fuel target, convective storm anvils and wind and radiation forecasting. Two are sounding-rocket experiments on alloy solidification and on firework infrasound. Every one of them is cited in a prose sentence of The Contemporary Literature, so the filter removed none of them, since removing a work that a sentence rests on is an editorial decision about that sentence and not a filter decision. **All fifteen were then removed by hand**, each from a list of citations that keeps its other sources, so the research total falls from 416 to 401, and a reading of 300 unflagged records found 8 off topic, which puts the contamination the screens miss near 2.7 percent.
+**The research works were re-read against the article's subject on 7 October 2026, and the re-reading found fifteen that are about something else.** Four are medical ablation, of musculoskeletal tumours, epiglottic cysts, the thyroid and the adenoids, and sit in the ablation survey. Five are sensitivity or uncertainty analyses of district heating networks, a residential heating system, heating-degree-day derivative prices, road-vehicle handling and a gas flow standard, and sit in the uncertainty survey. Four are radiation papers on nanofluid convection in a porous medium, a cryogenic fusion fuel target, convective storm anvils and wind and radiation forecasting. Two are sounding-rocket experiments on alloy solidification and on firework infrasound. Every one of them is cited in a prose sentence of The Contemporary Literature, so the filter removed none of them, since removing a work that a sentence rests on is an editorial decision about that sentence and not a filter decision. **All fifteen were then removed by hand**, each from a list of citations that keeps its other sources, so the research total falls from 416 to 401, and a reading of 300 unflagged records found 8 off topic, which puts the contamination the screens miss near 2.7 percent. A second seeded sample on 8 October 2026 read the 89 records that no earlier reading had listed and found 3 off topic and no registry test deposit. They are a meteorological study of atmospheric radiative heating and cooling cited as shock-layer radiation, theoretical stability derivatives for the X-15 cited as a test facility, and a liquid bipropellant combustion study cited as solid-motor work, and a sweep for their kinds removed a liquid-propellant rocket motor report and a flight measurement of a piston fighter's flying qualities, so the research total falls to 396. That sample was the whole unread remainder, so every research title has now been read, and its rate of 3 in 89, or 3.4 percent, describes what the first pass left before the sweep rather than what remains after it. A check on 8 October 2026 for records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter removed two, a correction notice for a paper on aerothermal load prediction and a corrigendum to a paper on hypersonic boundary-layer receptivity, each from a generated list that keeps its other sources, so the research total is now 394.
 
 ## Epistemic State
 
@@ -615,10 +615,10 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
 - [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
 
-[book_anderson_2019]: https://openlibrary.org/search?q=Anderson+Hypersonic+and+High+Temperature+Gas+Dynamics
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/search?q=Jenkins+Landis+Miller+American+X+Vehicles
-[book_miller_2001]: https://openlibrary.org/search?q=Miller+The+X+Planes+X-1+to+X-45
-[book_neufeld_1990]: https://openlibrary.org/search?q=Neufeld+Development+of+Ballistic+Missiles+United+States+Air+Force
+[book_anderson_2019]: https://openlibrary.org/works/OL1993330W
+[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_miller_2001]: https://openlibrary.org/works/OL7006680W
+[book_neufeld_1990]: https://openlibrary.org/works/OL4810126W
 
 ### Reference
 
@@ -729,7 +729,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Compton et al 1960][research_compton_1960]
 - [Compton et al 1963][research_compton_1963]
 - [Conti 1961][research_conti_1961]
-- [Coulson and Furukawa 1960][research_coulson_furukawa_1960]
 - [CRESCI et al 1960][research_cresci_1960]
 - [Cruden 2011][research_cruden_2011]
 - [Curry 2004][research_curry_2004]
@@ -766,7 +765,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [FONG 1964][research_fong_1964]
 - [Foyle 1963][research_foyle_1963]
 - [Franze and Barz 2025][research_franze_barz_2025]
-- [Franze and Barz 2025, Correction][research_franze_barz_2025_2]
 - [Freno et al 2021][research_freno_2021]
 - [G and G 2025][research_g_g_2025]
 - [Gai and Cao 2025][research_gai_cao_2025]
@@ -849,7 +847,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [KVASHINA and KOROBEINIKOV 1961][research_kvashina_korobeinikov_1961]
 - [Landers et al 1991][research_landers_1991]
 - [Lange and Gieseler 1953][research_lange_gieseler_1953]
-- [LAWRENCE 1945][research_lawrence_1945]
 - [Lee 1953][research_lee_1953]
 - [Lee et al 1994][research_lee_1994]
 - [Lefevre et al 2022][research_lefevre_2022]
@@ -865,7 +862,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Li et al 2025, Ablation resistance evaluation of][research_li_2025_3]
 - [Li et al 2026][research_li_2026]
 - [Li et al 2026, Sequential convex optimization for][research_li_2026_3]
-- [Liddell et al 1947][research_liddell_1947]
 - [Lin 1961][research_lin_1961]
 - [Lin et al 1962][research_lin_1962]
 - [LINCOLN 1981][research_lincoln_1981]
@@ -876,7 +872,7 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Liu et al 2025][research_liu_2025]
 - [Liu et al 2026, Flow regimes and transitions in hy][research_liu_2026_2]
 - [Liu et al 2026, Survivability assessment of conste][research_liu_2026_4]
-- [Luce and Jr 1949][research_luce_jr_1949]
+- [Luce, Jr. 1949][research_luce_jr_1949]
 - [Lundquist 1952][research_lundquist_1952]
 - [Luo et al 2026][research_luo_2026]
 - [Lv et al 2025][research_lv_2025]
@@ -891,7 +887,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [MASAKI and YAKURA 1968][research_masaki_yakura_1968]
 - [Maslov 2001][research_maslov_2001]
 - [Mathauser et al 1960][research_mathauser_1960]
-- [Matthews 1957][research_matthews_1957]
 - [Maydew 1964][research_maydew_1964]
 - [MCDOWELL and WILLIAMSON 1982][research_mcdowell_williamson_1982]
 - [McGilvray et al 2024][research_mcgilvray_2024]
@@ -1008,7 +1003,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Trout 1963][research_trout_1963]
 - [VAGLIG-LAURIN 1960][research_vaglig_laurin_1960]
 - [Varma and Zhong 2025][research_varma_zhong_2025]
-- [Varma and Zhong 2026][research_varma_zhong_2026]
 - [Varma et al 2026][research_varma_2026]
 - [Vasudevan and Leonard 2002][research_vasudevan_leonard_2002]
 - [Venkatapathy and Hash 2026][research_venkatapathy_hash_2026]
@@ -1016,7 +1010,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 - [Viegas and Howe 1962][research_viegas_howe_1962]
 - [Vigil and Pérez 2026][research_vigil_perez_2026]
 - [Vinh and Lin 1982][research_vinh_lin_1982]
-- [Walker and Wolowicz 1960][research_walker_wolowicz_1960]
 - [WALTON and SIMMONS 1962][research_walton_simmons_1962]
 - [Wang and Han 2025][research_wang_han_2025]
 - [Wang and Jiang 2020][research_wang_jiang_2020]
@@ -1131,7 +1124,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_compton_1963]: https://ntrs.nasa.gov/citations/19630015360
 [research_compton_cooper_1964]: https://ntrs.nasa.gov/citations/19640032970
 [research_conti_1961]: https://ntrs.nasa.gov/citations/19980227274
-[research_coulson_furukawa_1960]: https://doi.org/10.21236/ad0251122
 [research_cresci_1960]: https://doi.org/10.2514/8.8571
 [research_cruden_2011]: https://doi.org/10.1063/1.3562792
 [research_curry_2004]: https://ntrs.nasa.gov/citations/20100042593
@@ -1168,7 +1160,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_fong_1964]: https://doi.org/10.2514/6.1964-125
 [research_foyle_1963]: https://ntrs.nasa.gov/citations/19630029160
 [research_franze_barz_2025]: https://doi.org/10.1007/s12567-024-00588-2
-[research_franze_barz_2025_2]: https://doi.org/10.1007/s12567-025-00610-1
 [research_freno_2021]: https://doi.org/10.1016/j.jcp.2020.109752
 [research_g_g_2025]: https://doi.org/10.1063/5.0262265
 [research_gai_1985]: https://doi.org/10.2514/6.1985-973
@@ -1251,7 +1242,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_kvashina_korobeinikov_1961]: https://doi.org/10.2514/8.5699
 [research_landers_1991]: https://ntrs.nasa.gov/citations/19910057071
 [research_lange_gieseler_1953]: https://doi.org/10.21236/ad0015004
-[research_lawrence_1945]: https://doi.org/10.2514/8.4056
 [research_lee_1953]: https://doi.org/10.21236/ad0018796
 [research_lee_1994]: https://ntrs.nasa.gov/citations/19950003738
 [research_lefevre_2022]: https://doi.org/10.2514/1.j061771
@@ -1267,7 +1257,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_li_2026_3]: https://doi.org/10.1088/1742-6596/3207/1/012072
 [research_li_geiger_1957]: https://doi.org/10.2514/8.3759
 [research_li_jing_2025]: https://doi.org/10.1063/5.0272815
-[research_liddell_1947]: https://ntrs.nasa.gov/citations/20050081862
 [research_lin_1961]: https://doi.org/10.1016/0032-0633(61)90008-3
 [research_lin_1962]: https://doi.org/10.1063/1.1706575
 [research_lincoln_1981]: https://doi.org/10.2514/6.1981-1057
@@ -1293,7 +1282,6 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_masaki_yakura_1968]: https://doi.org/10.2514/6.1968-1155
 [research_maslov_2001]: https://doi.org/10.21236/ada408241
 [research_mathauser_1960]: https://ntrs.nasa.gov/citations/19980227836
-[research_matthews_1957]: https://doi.org/10.21236/ad0127419
 [research_maydew_1964]: https://doi.org/10.2172/4000106
 [research_mcdowell_williamson_1982]: https://doi.org/10.2514/6.1982-1376
 [research_mcgilvray_2024]: https://doi.org/10.2514/1.t6892
@@ -1412,14 +1400,12 @@ What it bought with that architecture was a partial simulation, and the partitio
 [research_vaglig_laurin_1960]: https://doi.org/10.2514/8.8369
 [research_varma_2026]: https://doi.org/10.1063/5.0331864
 [research_varma_zhong_2025]: https://doi.org/10.1017/jfm.2025.10230
-[research_varma_zhong_2026]: https://doi.org/10.1017/jfm.2026.11430
 [research_vasudevan_leonard_2002]: https://doi.org/10.21236/ada403745
 [research_venkatapathy_hash_2026]: https://doi.org/10.1177/15311074261464024
 [research_vershinin_2024]: https://doi.org/10.1134/s0018151x2570021x
 [research_viegas_howe_1962]: https://ntrs.nasa.gov/citations/19620006838
 [research_vigil_perez_2026]: https://doi.org/10.1016/j.euromechflu.2026.204537
 [research_vinh_lin_1982]: https://ntrs.nasa.gov/citations/19820019475
-[research_walker_wolowicz_1960]: https://ntrs.nasa.gov/citations/19650014459
 [research_walton_simmons_1962]: https://doi.org/10.21236/ad0286392
 [research_wang_2019]: https://ntrs.nasa.gov/citations/20190025824
 [research_wang_2024]: https://doi.org/10.1016/j.tsep.2023.102256
