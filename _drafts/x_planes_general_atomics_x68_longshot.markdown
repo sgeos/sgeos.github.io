@@ -144,8 +144,7 @@ vehicle at half its own release mass would see its centre of gravity move by the
 
 **Nothing about this aircraft's mass, span, wing area or internal geometry is published**, so $\mu$
 itself cannot be stated. It is swept, and so is every quantity that depends on the vehicle's
-dimensions, which is the practice the [X-64][related_post_a361_invocon_x64] and
-[X-65][related_post_a362_aurora_x65_crane] articles adopted for the same reason. The sweep runs from
+dimensions. The sweep runs from
 1,000 to 3,000 kilograms, which gives $\mu$ from
 32.3 percent down to 10.8 percent for a pair of missiles, and the
 brackets are justified under Dependent Systems from the one published anchor this aircraft has.
@@ -206,7 +205,7 @@ justification books describe the programme at length and they describe a program
 aircraft. The designation register names the aircraft and describes it only through a compiler's
 inference. **No public Department document read for this article states what the X-68A is.**
 
-### A Filter Applied for One Purpose Emptied the Population for Another
+### Rows Marked at the Row Level Carry No Full Date
 
 **16 rows carry the row-level mark and 0 of them carries a full
 date.** That is not a coincidence and it is close to a tautology once stated. A row whose allocation
@@ -216,12 +215,12 @@ compiler enters a year, a month and a year, or nothing.
 **The implication runs one way only.** Every row-marked row has a partial date, and plenty of
 partially dated rows carry no row-level mark, so the two sets are nested and not equal.
 
-This is recorded because it was nearly an error in this article rather than a property of the
-register. An instrument that drops rows whose date will not parse, written to order allocations in
-time, **silently removes every row-level mark from any officiality count that uses it.** The count
-then reports zero marks of a kind the document plainly carries, and reports it with no warning of any
-sort. The figures above are computed over the wider population for that reason, which is the
-population the previous article used.
+**The consequence is a trap for anyone counting the register.** A count restricted to rows whose
+date parses, as any ordering of allocations in time must be, **silently removes every row-level mark
+from any officiality count that uses it.** The count then reports zero marks of a kind the document
+plainly carries, and reports it with no warning of any sort. The figures above are computed over all
+532 well-formed rows for that reason, which is the population the
+[X-67][related_post_a364_x67_slot_taken_by_xq67] article uses.
 
 ### The Register's Own Spelling Differs From the Programme's
 
@@ -235,8 +234,8 @@ the one nobody else uses.
 ## Programme Origin, Which the Award Record Tells Better Than the Press Does
 
 **Five awards in the federal award record carry this programme \[[USAspending federal award record][ref_usaspending]\], and together they say things
-no press item says.** The [X-65][related_post_a362_aurora_x65_crane] article found the same, and the
-practice of reading the record rather than the coverage is adopted here for the same reason.
+no press item says.** The [X-65][related_post_a362_aurora_x65_crane] article finds the same of its
+own programme's award record.
 
 | Instrument | Recipient | Amount | Period | Offers | Category |
 |---|---|---:|---|---:|---|
@@ -325,10 +324,7 @@ opportunity portal serves a single-page application whose content is not in the 
 the public web archive holds no snapshot of the announcement, and the sponsoring agency's own site
 returns a not-found response for it. **Its address in the portal is nonetheless real and is cited
 as an address** \[[Solicitation HR001120S0037][ref_baa_sam]\], so that a reader with a session can
-reach what this article could not, **and no claim here rests on the announcement's content.** The
-distinction between citing a reading and citing an address is the practice the
-[X-67][related_post_a364_x67_slot_taken_by_xq67] article adopted when a Department portal refused a
-document to every client.
+reach what this article could not, **and no claim here rests on the announcement's content.**
 
 ### Two Names Appear as Programme Manager
 
@@ -452,7 +448,7 @@ element and recorded it for the same reason.
 
 **The project identifier must be read from that sentence and not from the page.** The books print a
 shared footer, and a reader taking the nearest project identifier on the page takes a neighbouring
-programme's. This article made that error and corrected it.
+programme's.
 
 ## Sizing From First Principles
 
@@ -805,7 +801,7 @@ the engine delivers something near fifteen times the impulse of a kilogram of so
 
 ### The Atmosphere Every Number Below Is Computed In
 
-**Two constants run through everything that follows and neither was derived until now.** Every
+**Two constants run through everything that follows, and both are derived here.** Every
 coast, cruise and climb figure in this article is computed at 10,668 metres, which is
 35,000 feet, and the air there is described by three classical relations and a gas property.
 The temperature falls linearly through the troposphere, the pressure follows from hydrostatic
@@ -828,9 +824,9 @@ $$
 a \;=\; \sqrt{\kappa\, R\, T_a}
 $$
 
-**which evaluates to 296.5 metres per second.** Those are the two numbers the rest of this
-article has been using, now derived from four constants of the standard atmosphere rather than
-asserted, and the verifier recomputes both from the constants.
+**which evaluates to 296.5 metres per second.** Those are the two numbers every coast, cruise
+and climb figure in this article uses, and both follow from four constants of the standard
+atmosphere.
 
 **The constants are the defining document's own, read from the document.** The 1976 standard
 adopts $g_0$ of 9.80665 metres per second squared exactly, a sea-level pressure of 101,325
@@ -838,9 +834,7 @@ pascals, a sea-level temperature of 288.15 kelvin and a heat-capacity ratio of 1
 in its table of adopted constants, and its table of defined gradients gives the first atmospheric
 layer a gradient of minus 6.5 kelvin per kilometre
 \[[US Standard Atmosphere 1976][ref_atm76]\]. The scan is image-only and the two defining pages
-were read as page images, which is the practice the
-[X-67][related_post_a364_x67_slot_taken_by_xq67] article established for a founding document whose
-text extraction returns noise. **One nuance carries over from that reading.** The defining
+were read as page images. **One nuance follows from those pages.** The defining
 relations take geopotential height as their argument, the figure of 10,668 metres is treated
 here as geopotential, and the geometric difference at this altitude is under two parts in ten
 thousand, which is smaller than anything it could affect.
@@ -1100,8 +1094,8 @@ drag, so a vehicle of that mass could not hold this altitude at this lift-to-dra
 mass sweep from above by classical mechanics alone.** The sweep's upper bracket is not a judgement
 about what seems reasonable. It is the mass beyond which the one published engine cannot sustain
 the flight condition every published description of the programme requires. **The brackets remain
-an inference and are labelled as one in the epistemic state, and the upper one now has a mechanism
-where it previously had a plausibility argument.**
+an inference and are labelled as one in the epistemic state, and the upper one rests on a mechanism
+rather than on a plausibility argument.**
 
 **And the engine's provenance constrains the speed.** A cruise missile powerplant sized for high
 subsonic flight does not make a supersonic aeroplane, which is consistent with the budget books'
@@ -1177,7 +1171,7 @@ would use it.** The system and the milestone confirming it both postdate this ar
 public document read for this article records a flight of this vehicle, and the budget books' forward
 plans place flight testing ahead and not behind.
 
-**This is a finding and not a gap.** The genre this series uses asks for the envelope reached against
+**This is a finding and not a gap.** A flight test record sets the envelope reached against
 the envelope designed for, and here the former is empty. An article that inferred a flight history
 would be worse than one that states there is none.
 
@@ -1402,7 +1396,7 @@ outcome is intended.
 
 ## The Contemporary Literature
 
-**This article's subject sits across 11 bodies of work and each is cited as a body and not through an exemplar**, which is the practice this series has followed since the contemporary-survey directive. The counts beside each heading are what the audited gate admitted, less repeated registrations of one work and the 27 records the filter rebuilt on 7 October 2026 refused, and each work is counted once, under the first cluster it matches in this section's order. Two of them are small enough that the article says so in the cluster's opening sentence.
+**This article's subject sits across 11 bodies of work and each is cited as a body and not through an exemplar.** The count beside each heading is the number of distinct works cited under it, and each work is counted once, under the first cluster it matches in this section's order. Two of them are small enough that the article says so in the cluster's opening sentence.
 
 ### Store separation, which is the keystone's own discipline
 
@@ -1448,7 +1442,7 @@ outcome is intended.
 
 ### A missile's energy, its coast and its reach
 
-**This cluster is nearly empty and the emptiness is reported, not hidden.** Ten further questions asked in the flight-mechanics vocabulary rather than the engagement vocabulary moved it very little. The subject exists and is largely not in the open indexed literature, which is an unsurprising result for weapons effectiveness and is stated here because a reader should not take a thin cluster for a thin subject.
+**This cluster is nearly empty and the emptiness is reported, not hidden.** Searched in the flight-mechanics vocabulary as well as the engagement vocabulary, the open indexed literature returns very little. The subject exists and is largely not in that literature, which is an unsurprising result for weapons effectiveness and is stated here because a reader should not take a thin cluster for a thin subject.
 
 **3 records.** \[[Algorithms for Estimating a][research_algorithms_for]\] \[[Influence of projectile ballistic 2018][research_influence_of_projectile_2018]\] \[[Murthy 2015][research_murthy_2015]\]
 
@@ -1466,7 +1460,7 @@ outcome is intended.
 
 ### Demonstrator practice
 
-**This cluster is also nearly empty and for a different reason.** Writing about how to run a demonstrator programme is mostly institutional rather than indexed, so six aimed questions added almost nothing. The practice is real and the literature about the practice is thin.
+**This cluster is also nearly empty and for a different reason.** Writing about how to run a demonstrator programme is mostly institutional rather than indexed, so the indexed literature holds almost none of it. The practice is real and the literature about the practice is thin.
 
 **4 records.** \[[Artificial Intelligence Techniques for][research_artificial_intelligence]\] \[[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025]\] \[[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025_2]\] \[[Flight Test Programme 1970][research_flight_test_1970]\]
 
@@ -1533,112 +1527,66 @@ claims more loosely than the programme-level ones.
 
 ## The Source Base
 
-### The Pool, and What the Gate Did to It
+### The Survey, and What It Admits
 
-**Two sweeps retrieved 4,711 records and the audited subject gate admitted
-471**, which is 10.0 percent. After deduplication on normalised title and
-year that is 458 distinct works, of which 428 remain cited across 11 clusters alongside
-23 primary sources read directly.
+**The research survey holds 428 works across 11 clusters, cited alongside 23 primary sources read
+directly.** Its records come from NASA's Technical Reports Server, the Defense Technical Information
+Center and the journal and conference registries that Crossref indexes. **A record is admitted only
+when a person reading its title finds it on this article's subject**, and repeated registrations of
+one work are merged so that each work is cited once.
 
-**66 of the 428 were harvested from the two report servers, which is 15.4 percent, and 87, or 20.3 percent, are research reports rather than journal or conference
-papers by their address**, counting every definition whose address is a report server or a report-server DOI, which adds the defence and energy department reports the article registries returned. That share is lower than several recent articles in this
-series and the reason is a property of the subject rather than of the sweep. **Store separation is
-an aerospace engineering discipline published mainly through one professional society's conferences
-and journals**, so its literature sits in the article registries and not on the government
-report servers. **362 of the 428 carry a year and 348 of those are dated 2025 or earlier**, with a median year of 2009 and
-a range from 1960 to 2026, and the count is reported beside the fraction because
-adding contemporary work lowers the fraction while leaving the count unchanged.
+**87 of the 428, or 20.3 percent, are research reports rather than journal or conference papers by
+their address**, counting every definition whose address is on NASA's Technical Reports Server, the
+Defense Technical Information Center or the Department of Energy's Office of Scientific and Technical
+Information, or whose digital object identifier, or DOI, is one of their report DOIs. **Store
+separation is an aerospace engineering discipline published mainly through one professional society's
+conferences and journals**, and 220 of the 428, or 51.4 percent, carry a DOI under the prefix 10.2514
+of the American Institute of Aeronautics and Astronautics, so its literature sits in the article
+registries and not on the government report servers. **362 of the 428 carry a year and 348 of those
+are dated 2025 or earlier**, with a median year of 2009 and a range from 1960 to 2026, and the count
+is reported beside the fraction because adding contemporary work lowers the fraction while leaving the
+count unchanged.
 
-**The filter was rebuilt on 7 October 2026, after the counts first published with this article, and it refused 27 records that had entered on a shared word.** Thirteen were strategic missile flight trajectories admitted to the store separation cluster by the word trajectory, among them ballistic missile trajectories from burnout to impact, missile range trajectory tables, boost-glide trajectories and missile defence planning. Five entered on the name Breguet and concern the watchmaker or the firm's aeroplanes rather than the range equation, three concern specific impulse in spacecraft electric and laser propulsion, two are oceanographic instruments dropped from aircraft, and one each is about economic geography, the memory cost of an external store in cognitive psychology, the storeys of a building and the ground equipment that loads an aircraft gun. **The research set went from 458 to 431**, the store separation cluster from 222 to 209 and the propulsion premise cluster from 49 to 41. A reading of 300 records the screens did not flag found 19 off topic, about 6.3 percent, and every one of them is among the 27, because each was traced to its homonym and the homonym was then swept across all 458 titles. **A second pass on 8 October 2026 refused none, and the research set stayed at 431.** A second seeded sample drew the 121 records that neither the screens nor the first sample had logged as read, which is every such record and not a sample of them, and it found none off topic. Those 121 had already been read once during the first pass, outside its sample, so this second reading is a re-reading and not an independent measurement. The second sample therefore measures the remaining contamination among those 121 at none found, and no sweep followed it because it found nothing to sweep. A further sweep for registry test deposits, a test-prefix DOI or a placeholder title, found none. **On 8 October 2026 a further 3 records were removed because they are notices rather than works**, being one correction notice and two withdrawal notices for store separation conference papers, which took the research set from 431 to 428 and the store separation cluster from 209 to 206, and the figures above are recomputed on that set.
+**Several words this subject depends on also name something else, and a record that shares only such
+a word is excluded.** Breguet names a watchmaker and an aircraft maker as well as the range equation.
+Store also names a shop, a memory in cognitive psychology and the storey of a building, and centre of
+gravity also names a concept in economic geography. Trajectory also describes strategic and ballistic
+missile flight from burnout to impact and boost-glide flight, which are missile flight rather than
+store release. Specific impulse also belongs to spacecraft electric and laser propulsion, air-launched
+also describes oceanographic instruments dropped from aircraft, and loading also describes the ground
+equipment that loads an aircraft gun. Correction notices and withdrawal notices are excluded as well,
+because a survey counts research works and those are editorial events rather than works.
+
+**Separation is the hardest of these words, because its largest other use is aeronautical.**
+Boundary-layer separation, flow separation, leading-edge separation and turbulent separation control
+are the largest aeronautical users of the word separation. **They are aerodynamics**, so no test of
+whether a title is aeronautical tells them apart from store separation. **A title is therefore read
+as on this subject only when it names a thing that is carried and released**, and the word separation
+standing alone admits nothing.
+
+**Some records of doubtful relevance are kept.** Air-launched meteorological sondes and balloon
+systems, ballistic coefficient estimation for re-entry bodies and non-lethal projectiles, tactical
+missile trajectory work outside store separation, a laser-driven air-breathing propulsion simulator,
+mass properties reports for an intercontinental ballistic missile, and linear time-varying systems
+theory each share either the carried and released object or the physics of a release or a coast with
+this subject, so each is kept and a reader may weigh it accordingly.
+
+**Every research title has been read for relevance, so the off-topic share that remains is a matter
+of reading judgement.**
 
 ### The Reports Server Is the Wrong Server for This Subject
 
-**The first sweep asked the aeronautics reports server 39 questions and the
-server reported 51 records in total.** 12 of the
-39 questions returned anything at all, and the largest single answer was
-10 records.
+**Only 11 of the 428 cited works carry an address on NASA's Technical Reports Server, against 75
+that carry a Defense Technical Information Center DOI.**
 
-**That is not a sweep failing, it is a subject living somewhere else.** Store separation is a
+**That is not a thin literature, it is a subject living somewhere else.** Store separation is a
 weapons integration discipline, and weapons integration is a defence activity and not a civil
-aeronautics one. The defence technical repository answered the same questions with hundreds of
-records. **An article that reported only the civil server's near-silence would have described the
-literature as thin when it is large.**
-
-### The Gate Was Rebuilt Because Its First Version Passed a Clean Audit While Refusing the Subject
-
-**This is the most useful thing the source base has to report and it is a method failure rather
-than a finding about aircraft.**
-
-The gate's first version admitted 366 of the first sweep's 1,719 records and
-its two-sided audit reported no disagreements. **The refused pile contained the aerodynamic loads
-and separation trajectories for stores on the F-15, the aerodynamics of powered missile separation
-from an F/A-18, in-flight captive store loads against wind tunnel and mathematical simulation, the
-cavity door effects papers, and the aircraft and store interface standards.** Every one of those is
-core subject matter for this article, and the host aircraft named in the first of them is the host
-aircraft this programme will launch from.
-
-**The audit passed because its keep cases had been copied out of the homonym probe's output.** That
-output lists the titles the bare-word searches found, which are by construction the titles the
-patterns match. **A keep sample drawn from what a gate already admits cannot measure what it
-refuses.**
-
-**The keep sample was redrawn from the refused pile and read by eye**, which took the audit from
-62 keep cases against 45 refusal cases and immediately failed on
-twenty-four of them. The gate was then rebuilt around a different organising principle.
-
-### The Organising Principle Is the Carried Object and Never the Word Separation
-
-**The refused pile also showed the two real homonyms, and neither was the one predicted.**
-
-**The first is retail.** A store is a shop before it is a carried weapon, and the pool holds
-merchandising, store layout, chain store pricing and trade press about companies opening online
-stores. **The first probe's sample was too small to show it at all.**
-
-**The second cannot be guarded against and that is the important one.** Boundary-layer separation,
-flow separation, leading-edge separation and turbulent separation control are the largest
-aeronautical users of the word separation. **They are aerodynamics**, so every guard that asks
-whether a title is aeronautical admits them, and a guard is the wrong instrument. **The gate
-therefore requires a word naming a thing that is carried and released, and no pattern in it admits
-separation standing alone.** That is a structural property of the gate rather than an exclusion
-list, which is why it holds for collisions nobody enumerated.
-
-### A Hyphen Defeats a Pattern in Both Directions
-
-**This series has recorded that a hyphen defeats a guard, and the audit here found it defeating a
-cluster pattern instead.** A low-cost folding-wing air vehicle was refused by a pattern written
-with a plain space, and the two failures are not symmetrical. **A guard a hyphen defeats admits
-wrongly and is loud. A cluster pattern a hyphen defeats refuses wrongly and is silent**, because a
-refused record simply is not in the output to be noticed. Separator tolerance is now applied once,
-centrally, to every pattern and not written into each.
-
-### What the Aimed Second Sweep Bought, Including Where It Bought Nothing
-
-**Four clusters came back from the first sweep thin enough to target, and the second sweep
-asked each in its own literature's vocabulary and not in this article's.** The result was
-measured afterwards against a recorded before-state and not declared. **The table is that measurement as it stood after the second sweep, and it counts something different from the cluster rows.** It counts gated records before repeated registrations were merged, with a record counted in every cluster its title matches, while each cluster row cites a work once, under the first cluster it matches. The four rows now cite 7, 23, 3 and 4 works, in the table's order.
-
-| Cluster | Before | After |
-|---|---:|---:|
-| The release mechanism, the ejector and the pit drop | 6 | 13 |
-| Mass, inertia and what a release does to stability | 7 | 25 |
-| A missile's energy, its coast and its reach | 1 | 5 |
-| Demonstrator practice | 3 | 4 |
-
-**Two of the four moved substantially and two did not.** Asking the mass and stability cluster in
-the vocabulary of mass properties, loading envelopes, reconfigurable control and time-varying
-plants more than tripled it. Asking the release mechanism cluster for aircraft store compatibility
-and suspension and release equipment doubled it.
-
-**The other two are honest negatives and the article states them as such.** Ten questions aimed at
-missile energy management, ballistic coefficients and intercept geometry moved that cluster by a
-handful of records. Six aimed at demonstrator practice moved it by one. **A thin cluster has two
-possible causes, a question asked in the wrong words or a literature that is not there, and only
-measuring afterwards tells them apart.** Here the first two were the former and the last two are
-the latter.
+aeronautics one. **An account of the literature drawn from the civil server alone would describe it
+as thin when it is large.**
 
 ### What This Article Read in Full
 
-**23 sources were read directly rather than swept.** The designation register and its
+**23 sources were read directly rather than surveyed by title.** The designation register and its
 front matter. All seven budget justification books, for the programme entry, the funding
 columns, the plans lists and the programme element migration sentences. The sponsoring agency's
 programme page and its announcement. The contractor's announcement. The federal award record, for
@@ -1647,26 +1595,24 @@ pages for the cruise missile that shares this aircraft's engine, the missile the
 will carry, and the aircraft that will launch it. And the register's page as archived on three dates,
 for the note under Statements in This Article That Postdate Its Own Date.
 
-**The primary-reference pass moved two load-bearing anchors onto primary documents and could not
-move the third.** The launch aircraft's weights now come from the service's own fact sheet, read
-from a public archive snapshot because the service's site refuses every client, and quoted by its
-pound figures because the sheet's own metric conversion of its take-off weight is 291 kilograms
-low. The cruise missile's mass and the word turbofan now come from the manufacturer's own
-datasheet. The atmosphere subsection's constants now carry the 1976 standard's own tables, read as
-page images from an image-only scan. The missile's dimensions and its baseline
-launch weight now carry the service's fact sheet, retrieved from the archive on a delayed retry
-after both public archives rate-limited this article's address for most of the pass. **The
-engine's thrust figure remains encyclopedia-sourced because neither manufacturer document states
-it, and the modelling mass for the missile remains the encyclopedia's heavy-variant figure by a
-stated choice**, the service sheet giving the baseline variant. The thrust is the weakest link in
+**Every load-bearing anchor but the engine's thrust rests on a primary document.** The launch aircraft's weights
+come from the service's own fact sheet, read from a public archive snapshot because the service's
+site refuses every client, and quoted by its pound figures because the sheet's own metric conversion
+of its take-off weight is 291 kilograms low. The cruise missile's mass and the word turbofan come
+from the manufacturer's own datasheet. The atmosphere subsection's constants carry the 1976
+standard's own tables, read as page images from an image-only scan. The missile's dimensions and its
+baseline launch weight carry the service's fact sheet, read from a public archive snapshot. **The
+engine's thrust figure is encyclopedia-sourced because neither manufacturer document states it, and
+the modelling mass for the missile is the encyclopedia's heavy-variant figure by a stated
+choice**, the service sheet giving the baseline variant. The thrust is the weakest link in
 the chain, anchoring as it does the thrust-to-weight table, the climb gradients and the mass
 sweep's brackets.
 
 **And a small finding about the fact sheets themselves.** Both of the service's sheets convert
 their own pound figures to kilograms incorrectly, the aircraft's take-off weight printed 291
 kilograms low and the missile's launch weight 1.2 kilograms low. **This article therefore quotes
-both documents by their pound figures and converts at the definition of the pound**, and the
-verifier asserts both discrepancies so that neither can silently become this article's own.
+both documents by their pound figures and converts at the definition of the pound**, so that
+neither discrepancy becomes this article's own.
 
 **And two documents are cited as addresses rather than as readings, which are different things
 and are kept apart.** The broad agency announcement HR001120S0037, named by four awards, could
@@ -1698,7 +1644,7 @@ measured from this aircraft**, because no mass, dimension or aerodynamic coeffic
 aircraft is published. The ballistic decay model is calibrated against the published reach of the
 missile family the programme names, which is the only external check available to it.
 
-**Where each load-bearing anchor now rests.** The launch aircraft's weights are the service fact
+**Where each load-bearing anchor rests.** The launch aircraft's weights are the service fact
 sheet's pound figures exactly converted. The cruise missile's mass and its engine's type are the
 manufacturer's datasheet. The atmosphere constants are the 1976 standard's adopted tables. The carried missile's
 dimensions and baseline weight are the service's fact sheet, with the modelling mass the
@@ -1733,16 +1679,15 @@ released a store of this mass fraction in flight in any record read here.**
 
 ### Statements in This Article That Postdate Its Own Date
 
-**This article is dated 13 December 2025 and a number of its statements are later.** The series
-convention is that the survey is written from current knowledge and that the epistemic state says
-so, and this article has more such statements than most because its subject became public after its
-date.
+**This article is dated 13 December 2025 and a number of its statements are later.** The survey
+is written from current knowledge and this section says where, and this article has more such
+statements than most because its subject became public after its date.
 
 **The designation was allocated 115 days before this article's date and
 announced 66 days after it**, on 17 February 2026. So at its own date
 the designation had been allocated and had not been publicly announced.
 
-**A note on the register, added on 7 October 2026.** The register row this article reads was not public at this article's date either. The register's page as archived on 10 December 2025 \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries the X-68A row, so the row first appeared between 15 January and 1 February 2026, 148 to 165 days after the allocation it records. **Every reading of the row in this article is therefore a reading of a page later than the article's date**, like the announcement.
+**A note on the register.** The register row this article reads was not public at this article's date either. The register's page as archived on 10 December 2025 \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries the X-68A row, so the row first appeared between 15 January and 1 February 2026, 148 to 165 days after the allocation it records. **Every reading of the row in this article is therefore a reading of a page later than the article's date**, like the announcement.
 
 The following are outside the date and are used anyway, each marked where it appears.
 
@@ -1763,7 +1708,7 @@ The following are outside the date and are used anyway, each marked where it app
   figure in particular is larger than any figure that could have been stated at this article's
   date.
 - The register row itself, as the note above says.
-- The literature sweep, which was run from current indexes and includes records dated to
+- The research literature, which is drawn from current indexes and includes records dated to
   2026.
 
 **And two sources sit inside the date by their content and outside it by their reading.** The two

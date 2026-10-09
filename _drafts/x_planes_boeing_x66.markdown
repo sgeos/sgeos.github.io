@@ -37,7 +37,7 @@ What is in doubt is four things. **Where exactly the crossing lies, under what c
 
 The questions this article asks are therefore these. **What exactly is the condition for a fuel-burn-optimal aspect ratio, and is this aeroplane on the right side of it?** How much of the available benefit does the fold capture, and how much is left beyond it? What does the truss cost, measured against what it saves? And what does it mean that the programme stopped before the review that would have committed its wing to fabrication?
 
-**Three of the four answers were not what this article expected.** The optimality condition turns out to depend on which quantities are held fixed, and the two natural choices give **two different exact conditions**, one of which is a pure number independent of every aerodynamic and structural coefficient in the problem. The configuration sits **below** the stationary point under both conditions, and yet **the penalty for sitting there is under two percent**, because the optimum is extraordinarily flat and the flatness has an exact closed form. And the aspect-ratio exponent a geometrically similar truss delivers is **the same three halves a cantilever delivers**, so the truss buys a coefficient and not a power, which is the opposite of what this article assumed before deriving it.
+**Three of the four answers run against the usual expectation.** The optimality condition turns out to depend on which quantities are held fixed, and the two natural choices give **two different exact conditions**, one of which is a pure number independent of every aerodynamic and structural coefficient in the problem. The configuration sits **below** the stationary point under both conditions, and yet **the penalty for sitting there is under two percent**, because the optimum is extraordinarily flat and the flatness has an exact closed form. And the aspect-ratio exponent a geometrically similar truss delivers is **the same three halves a cantilever delivers**, so the truss buys a coefficient and not a power, which is the opposite of the usual assumption.
 
 ## The Register Row, and a Designation Allocated Before Its Engine Was Chosen
 
@@ -49,7 +49,7 @@ The absence is not carelessness. **The row was allocated on 3 May 2023 and the e
 engineering lives** and where a statement about the X-66A is silently a statement about
 something else.
 
-**And this designation has no entry in the directory this series has leaned on sixty-six times.** Appendix 4 of the Directory of U.S. Military Rockets and Missiles carries the X-63 and the X-64 and the X-65 and stops \[[Aurora X-65 CRANE directory entry][ref_ds_x65]\]. That is correct behaviour rather than a gap, because the X-66A is a civil transport demonstrator sponsored by a civil agency and belongs to no missile directory. **The series has met this before at the X-49 and the handoff predicted it would recur.** It recurred here for a different reason, which is worth separating. The X-49 had no entry because the compiler had not written one. The X-66A has none because it is the wrong kind of aircraft for that volume.
+**And this designation has no entry in the Directory of U.S. Military Rockets and Missiles.** Its Appendix 4 carries the X-63 and the X-64 and the X-65 and stops \[[Aurora X-65 CRANE directory entry][ref_ds_x65]\]. That is correct behaviour rather than a gap, because the X-66A is a civil transport demonstrator sponsored by a civil agency and belongs to no missile directory. **The X-49 also has no entry, for a different reason, which is worth separating.** The X-49 had no entry because the compiler had not written one. The X-66A has none because it is the wrong kind of aircraft for that volume.
 
 ## Programme Origin, and an Agreement With No Pause In It
 
@@ -61,7 +61,7 @@ The narrative account is short. NASA established the Sustainable Flight Demonstr
 
 ### The Milestone Schedule, Which Is the Only Published Spending Profile
 
-Appendix A.2 of the agreement lists **27 funded milestones** with an acceptance criterion, a due date and a payment for each, and states that they total **425 million dollar**. They do, exactly. The parse below was checked against that stated total rather than merely summed, because a parse that silently drops a milestone still sums to something.
+Appendix A.2 of the agreement lists **27 funded milestones** with an acceptance criterion, a due date and a payment for each, and states that they total **425 million dollar**. They do, exactly.
 
 | Milestone | Event | Due | Payment, million dollar |
 |---|---|---|---|
@@ -199,9 +199,7 @@ headline over it.**
 
 ### The Symbols This Article Uses
 
-Every symbol below is declared here and nowhere carries a second meaning. **A declared table is what catches a collision, because a pattern cannot know what a symbol
-means.** The discipline was earned in an earlier article in this series in which one letter
-served as three quantities, and this pass found seven more collisions before they shipped.
+**Every symbol below is declared here and nowhere carries a second meaning.**
 
 | Symbol | Meaning | Unit |
 |---|---|---|
@@ -264,7 +262,7 @@ served as three quantities, and this pass found seven more collisions before the
 | $q$ | free-stream dynamic pressure | pound per square foot |
 | $R$ | cruise range | nautical mile |
 | $R_a$ | specific gas constant for air, 287.05287 | joule per kilogram kelvin |
-| $\mathcal{R}$ | the set of gated research records | dimensionless |
+| $\mathcal{R}$ | the set of research records in the reference survey | dimensionless |
 | $r_i$ | fuel-burn reduction of configuration $i$ against the baseline | dimensionless |
 | $\rho$ | ambient air density | kilogram per cubic metre |
 | $\rho_m$ | density of the cap material | pound per cubic inch |
@@ -301,9 +299,9 @@ Substituting gives **19.5652**, which agrees with the stated 19.565 to the last 
 ### The Cruise Condition, Which Is Not Self-Consistent
 
 **The drag buildup names an altitude, a Mach number and a lift coefficient, and writing down the
-lift equation shows that the three do not hold together at the aeroplane's own weight.** This
-subsection was added by the equation-density review and it is the clearest case in the article of a
-relation that had to be displayed before a defect could be seen.
+lift equation shows that the three do not hold together at the aeroplane's own weight.** It is
+the clearest case in the article of a relation that has to be displayed before a defect can be
+seen.
 
 The standard atmosphere is needed first. Let $h$ be geopotential altitude in metre, $T_{\mathrm{sl}}$
 and $p_{\mathrm{sl}}$ the sea-level standard temperature and pressure, $\lambda_a$ the troposphere
@@ -349,9 +347,7 @@ the altitude printed beside it is not.** That is a bookkeeping entry rather than
 substance, since an aerodynamic buildup is properly a function of Mach number and lift coefficient
 with altitude entering only through Reynolds number. **It is recorded because this article uses that
 lift coefficient in every subsequent calculation**, and a reader is entitled to know which flight
-state it belongs to. **The bisection that found it hit its bracket edge and returned it on the first
-attempt**, with the direction test inverted, which is why the version in this article's numerics
-asserts that the root is bracketed before it searches.
+state it belongs to.
 
 ### The Induced Drag, and a Textbook Relation That Closes on the Report's Own Buildup
 
@@ -426,7 +422,7 @@ same moment.
 
 $$ \mathcal{M}(0) = \frac{L}{2}\cdot\frac{4}{3\pi}\cdot\frac{b}{2} = \frac{Lb}{3\pi} $$
 
-The closed form was also integrated numerically at the root and at five interior stations and the two routes agree to better than one part in a million, which is reported because **a closed form derived by hand and never checked against quadrature is a closed form nobody has verified**.
+Numerical quadrature of the moment integral at the root and at five interior stations agrees with the closed form to better than one part in a million, **which is the second of the two confirmations**.
 
 Now the structure. A wing box resists bending with material concentrated top and bottom at a separation $h_c$, and if the allowable stress is $\sigma$ then each cap needs a cross-sectional area of $\mathcal{M}/(\sigma h_c)$.
 
@@ -455,9 +451,8 @@ logarithmically between two aspect ratios.
 
 $$ n = \frac{\ln\left[W_b(A_2)/W_b(A_1)\right]}{\ln\left(A_2/A_1\right)} $$
 
-Between aspect ratios of ten and thirty that returns **1.5000**, and it returns the same value
-for five hundred randomly drawn pairs, which is how this article's verifier checks it rather than
-trusting one interval.
+Between aspect ratios of ten and thirty that returns **1.5000**, and any other pair returns the
+same value, since the closed form is an exact power law in aspect ratio.
 
 **And the thickness ratio enters as an inverse first power.** Halving the thickness of a wing doubles the material it needs to resist the same moment, which is the fact that makes a thin wing expensive and a truss necessary.
 
@@ -627,8 +622,8 @@ $$ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\righ
 
 ### Dropping the Linearisation, Because This Aeroplane's Fuel Fraction Is Twenty Percent
 
-**Everything above rests on linearising the Breguet exponential, and the equation-density review had
-to ask what that costs.** The answer is that it costs more than it looks, that both conditions
+**Everything above rests on linearising the Breguet exponential, and it is fair to ask what that
+costs.** The answer is that it costs more than it looks, that both conditions
 survive in a modified form, and that **the modified forms move every number in this section in the
 direction that strengthens the article's conclusion rather than weakening it.**
 
@@ -660,8 +655,7 @@ and for the fixed-area case $X$ carries a factor of one over the weight, so
 $$ \frac{d \ln m_f}{d \ln A} = \nu\left(1 - \Phi\right) + \Phi \delta \left(2\nu - 1\right) \qquad \Longrightarrow \qquad \nu^{*} = \frac{\Phi \delta}{1 - \Phi + 2 \Phi \delta} $$
 
 **Both reduce to the results above as the fuel fraction vanishes**, the first to $\delta$ and the
-second to one half, which this article's verifier confirms at two vanishing fuel fractions rather
-than asserting.
+second to one half, since $\Phi \to 1$ in that limit.
 
 | Criterion | Linearised target | Exact target at this fuel fraction |
 |---|---|---|
@@ -678,8 +672,8 @@ $$ \Phi'(X) = \frac{e^{-X}\left[\left(1-X\right)\left(1 - e^{-X}\right) - X e^{-
 **That expression also reduces to $\delta(n+1-2\delta)$ in the limit**, since $\Phi \to 1$ and
 $\Phi' X \to 0$. Evaluated here it gives **0.503772** against the linearised
 0.6131, so **the exact optimum is 17.84 percent flatter still**. The
-closed form was checked against a second difference taken on the exact objective, agreeing to seven
-decimal places, and $\Phi'$ was checked against a central difference.
+closed form agrees to seven decimal places with a second difference taken on the exact objective,
+and $\Phi'$ agrees with a central difference.
 
 **The consequences are collected here because they revise the figures above.**
 
@@ -702,7 +696,7 @@ power. **An article that only reported the linearised numbers would be overstati
 
 ### The Report's Own Predecessor Computed the Same Thing by a Different Method and Got the Same Answer
 
-**This is the strongest corroboration in the article and it was found after the derivation, not before.** The Phase II report's Stage 1 study optimised three truss architectures against a series of span limits with a full multidisciplinary process, and reported the result in one sentence.
+**This is the strongest corroboration in the article.** The Phase II report's Stage 1 study optimised three truss architectures against a series of span limits with a full multidisciplinary process, and reported the result in one sentence.
 
 > Overall, relaxation of the span constraint results in higher fuel efficiency. However, the benefit quickly diminishes after the span reaches 170 ft, offering less than 1.4% fuel burn improvement for any further increase in wing span.
 
@@ -715,12 +709,12 @@ buildup and a group weight statement. The other is a design optimisation sweepin
 **They agree on the sign, they agree on the magnitude, and the computed figure falls inside the
 bound the report states.**
 
-**That agreement is better than the linearised treatment gave and the improvement is worth being
-explicit about, because it is the equation-density review's clearest payoff.** The linearised
-expansion put the penalty at 1.90 percent, which is **above** the report's bound
-and needed an excuse. Carrying the Breguet exponential through takes it to 0.9481
-percent, which is **below** the bound and needs none. **A discrepancy this article was prepared to
-explain away turned out to be an artefact of its own approximation.**
+**That agreement is closer than the linearised treatment gives, and the difference is worth being
+explicit about.** The linearised
+expansion puts the penalty at 1.90 percent, which is **above** the report's bound. Carrying the
+Breguet exponential through takes it to 0.9481
+percent, which is **below** the bound. **The apparent discrepancy between the expansion and the
+optimisation is an artefact of the linearisation.**
 
 What remains is that the Phase II optimisation re-sized the whole aeroplane with the take-off field
 length, the maximum range and in some cases the available fuel volume active as constraints, which a
@@ -749,9 +743,8 @@ report says so in terms.
 
 ICAO classifies aerodromes by a reference code whose letter is set by the wingspan of the aircraft
 the aerodrome is built for, and the FAA carries an equivalent classification into numbered Airplane
-Design Groups. **The primary-reference review went to the FAA's own circular rather than to the
-NASA memorandum that reproduces its table, and the circular settles something the reproduction
-cannot.** Its Table 1-2 gives each bound in both unit systems \[[FAA airport design][ref_faa_ac_airport_design]\].
+Design Groups. **The FAA's own circular, rather than the NASA memorandum that reproduces its table, settles
+something the reproduction cannot.** Its Table 1-2 gives each bound in both unit systems \[[FAA airport design][ref_faa_ac_airport_design]\].
 
 | FAA group | ICAO code | Tail height | Wingspan |
 |---|---|---|---|
@@ -887,9 +880,8 @@ force does not depend on how stiff the wing is, only on where the prop is.
 
 $$ w_{\mathrm{unit}}(\eta) = \frac{\eta^3}{3 E\mathcal{I}}, \qquad P = \frac{w_{\mathrm{load}}}{w_{\mathrm{unit}}} = \frac{3}{\eta^3}\int_0^{\eta} f(u)\left(\eta - u\right) du $$
 
-The numerical quadrature in this article's instruments reproduces $\eta^3/3$ to nine decimal places
-at four stations, which is the check that the influence coefficients were assembled correctly. The
-braced moment is then the cantilever moment less the prop's contribution inboard of the attachment.
+Numerical quadrature of the unit-load integral reproduces $\eta^3/3$ to nine decimal places at four
+stations. The braced moment is then the cantilever moment less the prop's contribution inboard of the attachment.
 
 $$ \mathcal{M}_{\mathrm{braced}}(u) = \mathcal{M}(u) - P \left(\frac{b}{2}\right)\max(\eta - u,\, 0) $$
 
@@ -973,7 +965,7 @@ $$ \frac{P_{\mathrm{cr}}\left(K = \tfrac{1}{2}\right)}{P_{\mathrm{cr}}\left(K = 
 
 ### The Truss Changes the Coefficient and Not the Exponent
 
-**This article expected the truss to lower the aspect-ratio exponent and derived that it does not.** Consider a truss whose attachment station, dihedral and proportions are held fixed as the span grows, which is the natural way to scale a configuration. Then every length in the braced problem scales with the span exactly as it does in the cantilever problem, the relief factor is a pure function of $\eta$ and $\lambda$, and the weight law is the cantilever law multiplied by a constant.
+**A truss might be expected to lower the aspect-ratio exponent, and the derivation shows that it does not.** Consider a truss whose attachment station, dihedral and proportions are held fixed as the span grows, which is the natural way to scale a configuration. Then every length in the braced problem scales with the span exactly as it does in the cantilever problem, the relief factor is a pure function of $\eta$ and $\lambda$, and the weight law is the cantilever law multiplied by a constant.
 
 $$ W_b^{\,\mathrm{braced}} = \text{relief}(\eta, \lambda) \times \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} $$
 
@@ -985,9 +977,9 @@ $$ A^{*} \propto k_w^{-1/(n+1)}, \qquad \left.\frac{d\ln A^{*}}{d\ln k_w}\right|
 
 ### A 1980 Study Picked Aspect Ratio Twenty-Five
 
-**The primary-reference review found that this article's stationary aspect ratio was selected by a
-design study forty-five years earlier, for a different aeroplane, and that the coincidence of
-magnitude is worth recording while the coincidence of reasoning is not available.**
+**This article's stationary aspect ratio was selected by a design study forty-five years earlier,
+for a different aeroplane, and the coincidence of magnitude is worth recording while the coincidence
+of reasoning is not available.**
 
 A study under NASA contract NAS1-16000, reported in October 1980, developed a subsonic business jet
 employing **an aspect ratio 25 strut-braced high wing**, with lifting struts chosen over non-lifting
@@ -1067,8 +1059,7 @@ $$ \tau = \left(\frac{\kappa_A}{\cos \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} 
 number gives 0.0766**, which is a quarter thinner again than the wing actually has and
 well outside anything a transport wing box has been built to.
 
-**The inversion is not single-valued and an assertion in this article's own code caught that.** The Korn relation rises with sweep only up to a turning point, because the leading term grows as the inverse cosine while the thickness and lift terms grow as the inverse square and the inverse cube. **The turning point has a closed form, which the equation-density review found and which the
-drafting pass had located only by scanning.** Substituting $s = \sec \Lambda$ makes the relation a
+**The inversion is not single-valued.** The Korn relation rises with sweep only up to a turning point, because the leading term grows as the inverse cosine while the thickness and lift terms grow as the inverse square and the inverse cube. **The turning point has a closed form.** Substituting $s = \sec \Lambda$ makes the relation a
 cubic in $s$ whose derivative is a quadratic.
 
 $$ M_{dd} = \kappa_A s - \tau s^2 - 0.1\,C_L s^3, \qquad \frac{dM_{dd}}{ds} = \kappa_A - 2\tau s - 0.3\,C_L s^2 $$
@@ -1083,11 +1074,8 @@ At this thickness and lift coefficient that gives **53.8022 degrees** and a peak
 sweep angles, **and the two peak values agree to six decimal places**. For the thicker Phase III
 section the turning point is **52.3000 degrees**.
 
-**That closed form is the repair for a defect in this article's own method.** The first version of
-the inversion searched a bracket from zero to seventy degrees, found the target value below the
-objective at both ends, and **refused to run rather than returning the wrong root**. The docstring it
-refused had claimed the function was monotone. **An assertion caught a wrong sentence written by the person who wrote the assertion**, and the
-inversion now searches only up to $\Lambda^{\*}$ so that the branch is monotone by construction.
+**An inversion of the relation for sweep must therefore stay below $\Lambda^{\*}$**, where the
+branch is monotone, and the 27.32 degrees found above lies well inside that branch.
 
 ### What the Thinning Cost in Structure
 
@@ -1287,8 +1275,8 @@ The report's own comparison table runs the Mach 0.80 configuration against a rep
 
 The cost appears in two places. **Cruise lift-to-drag ratio falls from 24.958 to 24.708, which is 1.00 percent.** And **block fuel per seat rises from 39.31 to 40.39 pound, which is 2.75 percent.**
 
-**The report expresses the same thing as 1.1 percent, and the equation-density review found that
-the relation between the two statements is exact and worth displaying.** Let $\beta_0$ be the baseline
+**The report expresses the same thing as 1.1 percent, and the relation between the two statements
+is exact and worth displaying.** Let $\beta_0$ be the baseline
 block fuel per seat and $\beta_1$ and $\beta_2$ the two configurations.
 
 $$ r_i = 1 - \frac{\beta_i}{\beta_0}, \qquad r_1 - r_2 = \frac{\beta_2 - \beta_1}{\beta_0}, \qquad \frac{\beta_2}{\beta_1} - 1 = \frac{\beta_2 - \beta_1}{\beta_1} $$
@@ -1315,7 +1303,7 @@ What was actually accomplished is nonetheless substantial and is not flight test
 
 **The wind-tunnel record, by contrast, is long and is the programme's real output.** Phase II tested an aeroelastic model in the Transonic Dynamics Tunnel. Phase III tested a transonic performance model in the Ames eleven-foot transonic wind tunnel. Phase IV tested both high-speed and low-speed models from 2019, with the results in volumes this article did not read in full. **The X-66A was to be the end of a fifteen-year test campaign and the campaign is almost all of what exists.**
 
-**The roster this series maintains still carries 2028 as the X-66A's first-flight year**, which the agreement's Milestone 24 gives as **September 2028**. That is the date a reader will find in secondary sources and it is the date the primary instrument gives. **Neither has been revised in public and both are now known to be wrong**, which is a useful reminder that a designation register and a signed schedule are records of intent and not of fact.
+**Secondary sources still carry 2028 as the X-66A's first-flight year**, which the agreement's Milestone 24 gives as **September 2028**, so the secondary date and the primary instrument agree. **Neither has been revised in public and both are now known to be wrong**, which is a useful reminder that a designation register and a signed schedule are records of intent and not of fact.
 
 ## Comparison With Ground Prediction
 
@@ -1362,7 +1350,7 @@ an equal footing, which is a statement that it was not.** The 7.2 and 9.0 percen
 
 ### The Comparison Was Done, and It Quarters the Short-Mission Benefit
 
-**A NASA Ames team did it, and the primary-reference review of this article read the result.** The
+**A NASA Ames team did it.** The
 paper was presented at the January 2025 SciTech forum, five years after the recommendation and three
 months before the pause, and it compares the transonic truss-braced wing with an advanced
 tube-and-wing aeroplane under a single consistent set of assumptions
@@ -1413,9 +1401,9 @@ uncertainty.
 
 > SUGAR reports vs. T&W [...] The TTBW empty weight and fuel burn increase when using the T&W calibration [...] Moderate
 
-**So both of the uncertainties this article named in its drafting pass are exactly the two the fair
-comparison finds to dominate**, and the fuel-volume one is the larger. That is a satisfying outcome
-for an article that had identified them and an uncomfortable one for the seven point two percent.
+**So the two uncertainties this article names above, fuel volume and weight, are exactly the two the
+fair comparison finds to dominate**, and the fuel-volume one is the larger. That is an uncomfortable
+outcome for the seven point two percent.
 
 ### Why the Short Mission Loses It, Which Is Not a Weight Effect
 
@@ -1490,29 +1478,29 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 **This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
 
-**The sweep behind this article admitted 4,744 records from a pool of 18,863, 4,641 after the 7 October rebuild and its 8 October second sampling pass and 4,595 after the 8 October removal of notices and parts of works, and assigned them across seventeen clusters, of which seventeen are non-empty.** The clusters are the shape of the field as this sweep found it.
+**The admitted research records are assigned by title vocabulary to seventeen clusters, all of them non-empty, and a record may fall in more than one.** The clusters are the shape of the field as the reference survey records it.
 
 | Cluster | Records | What it holds |
 |---|---|---|
-| braced_wing | 300 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
-| aspect_ratio | 689 | the span and induced-drag trade, span loading, span efficiency |
-| alt_config | 519 | the joined wing, the box wing, the tandem wing, the blended wing body |
-| wing_weight | 104 | weight estimation, bending material, structural sizing and optimisation |
-| thin_transonic | 314 | thickness, sweep, drag divergence, supercritical sections |
-| aeroelastic | 1,183 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
-| gust_loads | 392 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
-| span_constraint | 36 | folding wingtips, airport compatibility, span limits |
-| laminar | 326 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
-| high_lift | 242 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
-| prop_integration | 244 | nacelle and wing interference, high bypass ratio, geared turbofans |
-| fuel_burn | 148 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
-| demonstrator | 159 | flight demonstrators, testbed aircraft, technology readiness |
-| ground_test | 217 | static and full-scale test, ground vibration, loads calibration, strain sensing |
-| mdo | 254 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
-| emissions | 222 | aviation emissions, net-zero targets, noise, contrails |
-| named | 41 | the programme and configuration designations themselves |
+| Braced wings | 300 | the truss-braced and strut-braced wing proper, the junction, the jury strut |
+| Aspect ratio and span | 689 | the span and induced-drag trade, span loading, span efficiency |
+| Alternative configurations | 519 | the joined wing, the box wing, the tandem wing, the blended wing body |
+| Wing weight | 104 | weight estimation, bending material, structural sizing and optimisation |
+| Thin transonic wings | 314 | thickness, sweep, drag divergence, supercritical sections |
+| Aeroelasticity | 1,183 | flutter, divergence, limit-cycle oscillation, aeroelastic tailoring |
+| Gust and manoeuvre loads | 392 | gust and manoeuvre loads, load alleviation, flexible-aircraft dynamics |
+| Span constraints | 36 | folding wingtips, airport compatibility, span limits |
+| Laminar flow | 326 | natural laminar flow, hybrid laminar flow control, transition, crossflow |
+| High lift | 242 | high-lift systems, buffet, maximum lift, stall, icing, ground effect |
+| Propulsion integration | 244 | nacelle and wing interference, high bypass ratio, geared turbofans |
+| Fuel burn | 148 | fuel burn, Breguet, lift-to-drag ratio, advanced transport concepts |
+| Flight demonstrators | 159 | flight demonstrators, testbed aircraft, technology readiness |
+| Ground testing | 217 | static and full-scale test, ground vibration, loads calibration, strain sensing |
+| Multidisciplinary design | 254 | multidisciplinary optimisation, conceptual design, sizing, aerostructural design |
+| Emissions | 222 | aviation emissions, net-zero targets, noise, contrails |
+| Programme designations | 41 | the programme and configuration designations themselves |
 
-**The largest cluster is aeroelasticity at 1,183 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span_constraint at 36 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-six records against 1,183 for the thing that is not binding is a ratio worth sitting with.
+**The largest cluster is aeroelasticity at 1,183 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span constraints at 36 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-six records against 1,183 for the thing that is not binding is a ratio worth sitting with.
 
 **The weight cluster is also thin at 104 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,183 papers on flutter and 104 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
 
@@ -1526,7 +1514,7 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 article has read**, against the vision aircraft's 170, and **its wing area is not published
 at all**, so **its aspect ratio cannot be computed and is not stated anywhere in this article**. Anyone quoting an aspect ratio for the X-66A itself is quoting the vision aircraft.
 
-**The consequence for the keystone is that the keystone is not about the demonstrator at all.** A demonstrator exists to validate models, not to be optimal, and nothing in the optimality analysis above applies to an aeroplane whose fuselage, tail and payload were chosen by what was available at Victorville. **Treating the X-66A as a small transport aircraft would be the central error available here**, and the series has made the equivalent error before.
+**The consequence for the keystone is that the keystone is not about the demonstrator at all.** A demonstrator exists to validate models, not to be optimal, and nothing in the optimality analysis above applies to an aeroplane whose fuselage, tail and payload were chosen by what was available at Victorville. **Treating the X-66A as a small transport aircraft would be the central error available here.**
 
 ### Fuel Burn Is Not the Objective an Airline Optimises
 
@@ -1562,82 +1550,46 @@ reason to think the gate box is negotiable for an aeroplane worth negotiating fo
 ## The Source Base
 
 **The reference base behind this article is 4,388 definitions**, of which
-**21** are primary documents written by hand after reading,
-**fourteen** are research records cited by hand with their depth of reading recorded,
-**66** are the prior articles of this series, and **4,287** are the gated
-research records.
+**21** are primary documents,
+**fourteen** are research records cited individually with their depth of reading recorded,
+**66** are the prior articles of this series, and **4,287** are the research records of the
+survey.
 
-**Eight documents were located and read in the primary-reference review and they are the reason this
-section changed.** The fair comparison the Phase IV report recommended, which the article had cited
-from a registry entry and now cites from the agency's own deposit. The Phase I final report, which
-contains the planform optimisation every later phase inherited. **The Federal Aviation
-Administration's own airport design circular**, which the article had cited for a table it had read
-in a NASA memorandum and which turned out to settle the unit question the keystone turns on. A 1981
+**Eight of the documents read for this article bear most directly on its argument.** The fair
+comparison the Phase IV report recommended, cited from the agency's own deposit. The Phase I final
+report, which contains the planform optimisation every later phase inherited. **The Federal Aviation
+Administration's own airport design circular**, which settles the unit question the keystone turns
+on. A 1981
 Grumman wing weight methodology, which supplies a primary for the non-optimum factor. A 2016 NASA
 Langley paper on aero-structural efficiency, which states this article's own methodological thesis
 in one sentence. A 1980 strut-braced business jet study at aspect ratio twenty-five. A 1976
 span-distributed-load cargo study. And a 2024 multidisciplinary optimisation of this configuration
 using the Aviary framework.
 
-**The two statistics this genre requires are a fraction and a count, and they are defined here
-because reporting one without the other is the failure the convention exists to prevent.** Adding a
-contemporary survey lowers the fraction while leaving the count unchanged, so a falling fraction can
-mean the directive is working.
+**The survey is summarised by two statistics, a fraction and a count, and they are defined here
+because either one alone misleads.** Adding contemporary records lowers the primary fraction while
+raising the period count, so the two are read together.
 
 $$ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{reports}, \text{defence}\}\right\}\right|}{\left|\mathcal{R}\right|}, \qquad \text{period count} = \left|\left\{r : \mathrm{year}(r) \ge 2015\right\}\right| $$
 
-**The survey statistics are recomputed from the reference data and are not matched against a stored
-string.** Of the 4,287 research records, **1,247 come from report servers rather than journal indices, which is 29.1 percent**. **4,074 carry a resolved publication year**, their median is **2011** and they run from **1921 to 2026**. **1,712 are from 2015 onward, which is 42.0 percent**, and **1,346 predate 2000, which is 33.0 percent**.
+Of the 4,287 research records, **1,247 come from report servers rather than journal indices, which is 29.1 percent**. **4,074 carry a resolved publication year**, their median is **2011** and they run from **1921 to 2026**. **1,712 are from 2015 onward, which is 42.0 percent**, and **1,346 predate 2000, which is 33.0 percent**.
 
-**The primary fraction of 29.1 percent is the lowest this series has reported in four articles and the reason is the subject and not the method.** The three preceding articles reported 30.6, 45.0 and 39.5 percent, those being the figures they recorded
-at the time rather than anything recomputed here. This subject's literature lives in journals and in conference proceedings to a degree the others did not, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,712 is the figure to read beside it**, since adding a contemporary survey lowers a fraction while raising a count, and both moved in the same direction here only because the pool grew.
+**The primary fraction of 29.1 percent reflects the subject.** This subject's literature lives largely in journals and in conference proceedings, because truss-braced wing work has been done largely in universities and published through the American Institute of Aeronautics and Astronautics rather than issued as agency reports. **The period count of 1,712 is the figure to read beside it**, since contemporary records lower the fraction while raising the count.
 
-### How the Sweep Was Run, and What It Measured About Itself
+### What the Archives Hold on This Subject
 
-**Three sweeps across three registries, 230 questions at the reports server in passes of 80, 70 and 80, and the rest at a defence registry and a bibliographic index.** The pool divides as **4,928 records from the reports server, 4,656 from the defence registry and 9,279 from the bibliographic index**, and that last figure being half the pool is the reason the primary fraction stated earlier in The Source Base is what it is. The first sweep's questions reported **3,195 holdings** and returned **3,138**, which is **98.2 percent**, so retrieval was nearly complete and only **one** question hit the retrieval wall.
+**The constraint this article argues is binding has almost no report literature.** All 36 records in
+the span constraints cluster, which carries this article's own keystone, come from the Crossref
+bibliographic index and none comes from a report server. **On the cited records,
+the report literature does not contain airport-compatibility work**, because airport design is a
+regulator's and an airport planner's subject rather than a research agency's, and it is published as advisory
+circulars and aerodrome annexes rather than as technical reports. The two literatures also name
+their subjects differently. A journal paper speaks of airport compatibility and a report of
+*airplane characteristics for airport planning*, and a journal paper speaks of multidisciplinary
+optimisation where a report names its code.
 
-**A third sweep was aimed at the thinnest clusters and its aim was measured rather than guessed.**
-Before writing it, the per-cluster primary share was computed, and the six thinnest substantive
-clusters were taken as the targets. **Its questions were then written in the report literature's own
-vocabulary rather than the subject's**, which is the whole difference between a sweep that buys
-primaries and one that buys more of what the pool already has. A journal asks about airport
-compatibility and a report asks about *airplane characteristics for airport planning*. A journal
-asks about multidisciplinary optimisation and a report names its code.
-
-| Cluster | Primary share before | Primary share after | Primaries before | Primaries after |
-|---|---|---|---|---|
-| aspect_ratio | 11.9 | 23.4 | 64 | 167 |
-| fuel_burn | 28.8 | 36.2 | 38 | 55 |
-| thin_transonic | 24.1 | 30.5 | 64 | 97 |
-| mdo | 17.9 | 20.1 | 40 | 52 |
-| high_lift | 32.2 | 36.1 | 69 | 88 |
-| gust_loads | 17.1 | 15.9 | 56 | 63 |
-| alt_config | 12.1 | 12.5 | 54 | 65 |
-| span_constraint | 0.0 | 0.0 | 0 | 0 |
-
-**Overall the third sweep took the gated pool from 4,238 records with 1,144 report primaries
-to 4,744 with 1,380, a share rising from 27.0 to 29.1 percent**, before the 7 October 2026 rebuild that closes The Source Base,
-with the aspect-ratio cluster nearly doubling its share and more than doubling its count. **The
-lifting-line and span-loading vocabulary was what reached it**, since a report from 1976 does not
-use the phrase this subject's contemporary literature uses.
-
-**And the cluster that matters most bought nothing, which is a measurement and not a failure.**
-**Fourteen** questions were written in the airport-planning vocabulary and aimed at
-`span_constraint`, the cluster carrying this article's own keystone. **Nine of
-the fourteen returned no records at all.** The cluster grew by **one** record and its report primaries remain at **zero**.
-
-**The honest reading is that the report literature does not contain airport-compatibility work**,
-because airport design is a regulator's and an airport planner's subject rather than a research
-agency's, and it is published as advisory circulars and aerodrome annexes rather than as technical
-reports. **The constraint this article argues is binding has no research literature because it is
-not a research question.** That is the same shape of finding as the previous article's thirty-five
-air-budget questions buying three records, and it belongs in the article for the same reason.
-
-**Nine of the first sweep's questions returned nothing at all, and
-seven of those nine were rescued by rephrasing.** A zero from this registry is a statement about phrasing and not about literature, which this series has documented since the X-58 article, and the rephrasings were written in the vocabulary the registry's own titles use. **Seven questions still return nothing after rephrasing** and those are recorded rather than retried, since a third attempt at the same idea tells a reader less than the fact that two failed. The second sweep added **953** records.
-
-**The homonym measurements carry outside this subject, because the registries do not change
-between articles, and they are measurements rather than guesses.**
+**Several of this subject's words are homonyms in the public archives**, and the table gives what a
+sample of ten results for each search contains.
 
 | Query | What the registry actually returns |
 |---|---|
@@ -1650,21 +1602,43 @@ between articles, and they are measurements rather than guesses.**
 | `braced wing` | ten of ten on subject |
 | `truss braced wing` | ten of ten on subject in both registries |
 
-**Adding one word to `SUGAR` took the hit rate from one in ten to ten in ten.** And **`aspect ratio` is aeronautical at the reports server and a nanofabrication term in the bibliographic index**, which makes it the second registry-dependent homonym this series has recorded, the first being `hingeless` in the previous article. **A homonym table built from one registry is not a homonym table.**
+**Adding one word to `SUGAR` takes the hit rate from one in ten to ten in ten.** And **`aspect ratio`
+is aeronautical at the reports server and a nanofabrication term in the bibliographic index**, so
+whether a word is a homonym depends on the archive searched. **A homonym table built from one
+registry is not a homonym table.**
 
-### The Gate, and What Auditing It Both Ways Found
+### How Records Are Admitted, and How Clean the Survey Is
 
-The shared homonym store refused **1,196** of the 18,863 pooled records, leaving **17,667**, and the subject gate, as first run, kept **4,744** and refused **12,923**, before the 7 October 2026 rebuild that closes this section. The gate carries 139 patterns behind nine exclusion families, and
-its regression test checks 29 titles that must be admitted and
-43 that must be refused, with the audit sample drawn against seed 20251211, which is the article's own editorial date so that the sample is reproducible, **with every refusal re-tested with its internal spaces hyphenated**, which is the repair the previous article earned after a guard was defeated by a hyphen.
+**The research records come from three public archives**, being NASA's Technical Reports Server,
+which this article calls the reports server, the Defense Technical Information Center and the
+Crossref bibliographic index. **Records are admitted when their titles match this article's subject
+vocabulary.** A person has read the titles that the exclusion patterns flag and a random sample of
+the rest, and records read as off topic, and others of their kinds, are removed.
 
-**The two-sided audit changed the gate in both directions and that is the only reason it is reported.** Reading thirty admitted records found six that should not have been there, being rotorcraft flight simulation with an aeroelastic rotor, a rotary-wing simulation paper, the damage detection of an aeroelastic **panel**, a methanol-economy net-zero study, an open-rotor shield impact test, and a rotorcraft vibration paper. **A bare `aeroelastic` does not name a wing, a bare `net zero` does not name aviation, and a bare `open rotor` does not name an airframe**, so all three now require a qualifier and a rotary-wing exclusion family was added.
+**Several of the subject's words name other things, and records of those kinds are excluded.** Full-scale
+testing also names tests of buildings, piers, concrete members and rock works, and fire and smoke
+tests. Fibre-optic strain sensing also names the monitoring of pipelines, bridges, levees and wells.
+Wing also names the wings of damselflies, hawkmoths, bats and birds, racing-car wings and the otter
+boards of fishing gear. Aeroelasticity also names bridges, power-transmission conductors, panels,
+plates and shells, and rotary-wing simulation and vibration work is excluded too, since a bare
+aeroelastic does not name a wing. Aspect ratio also names windows, heat-transfer channels,
+microactuators and crystal growth. Correction, erratum and withdrawal notices and
+supplementary-material files are excluded as well, because a survey counts works and not notices or
+parts of works.
 
-**Reading thirty refused records found three the gate should have kept and they were an entire missing cluster.** A joined-wing research aircraft configuration, a tandem-wing spacing study and a blended-wing-body structural pre-design are the braced wing's own adjacent configurations, and **no existing pattern admitted any of them.** The `alt_config` cluster exists because of that sample and now holds **519** records, which is the third largest in the article. **A gate audited only on what it keeps would never have found an absence**, and this is the clearest instance of that the series has produced.
+**Some records of doubtful relevance are kept.** General papers on fibre-optic strain sensing are
+kept because the ground testing cluster covers strain sensing and these papers describe its methods.
+Papers on aviation fuel taxes and fuel marketing are kept because they bear on the emissions
+objective the programme states. Papers on technology readiness for other flight demonstrators are
+kept because the `demonstrator` cluster covers readiness itself. A reader may weigh them
+accordingly.
 
-**One tightening took two attempts and the second failure is instructive.** Narrowing `aeroelastic` to require an aeronautical noun left the aeroelastic-panel paper admitted, because a different pattern matched `aeroelastic` and then `limit cycle oscillation` within forty-five characters. **The qualifier list had included the words `model` and `analysis`, which qualify nothing**, and removing them was not enough because the leak was in a second pattern entirely. **A panel, a plate and a shell are aeroelastic and are not wings**, so they went into the exclusion family. The regression test failed twice before it passed, both times on the same title, and both times because the fix addressed the pattern the author was looking at rather than the pattern that matched.
-
-**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article, and it refused 99 gated records that share a word with the subject and nothing else.** The largest homonym was full-scale testing, which had admitted 39 records from outside aeronautics, being 24 full-scale tests of buildings, piers, concrete members and rock works, five fire and smoke tests, and ten from other industries such as utility boilers, a snowboard and a shipping container. Fibre-optic strain sensing had admitted 33 more, being 15 on pipelines, bridges, levees and concrete, 11 on carbon dioxide storage, shale, wells and seismic inversion, and seven applying the same sensors in other industries. The rest were nine biology papers on the wings of damselflies, hawkmoths, bats and birds, three racing-car wings, two otter boards from fishing gear, two papers on bridge aeroelasticity, two on braced civil structures, five aspect-ratio homonyms in windows, geocells, heat-transfer channels, microactuators and crystal growth, and single papers on coal-slurry burners, a transmission tower, electrochemistry and a popular-science article. **The gated research records went from 4,436 to 4,337 and the admitted pool from 4,744 to 4,645**, and the clusters most changed were `ground_test`, which fell from 292 to 218, and `aspect_ratio`, which fell from 713 to 696. A reading of 300 unflagged records found five off topic, which put the contamination the screens missed near 1.7 percent before the sweep those five prompted. **A second seeded sample of 300 records that no earlier reading had seen, read on 8 October 2026, found two off topic, both removed with two more of their kind.** The two were a design for a spent-fuel transport flask and a wind-tunnel test of bundled power-transmission conductors, and sweeping their homonyms found a fuel burn-up monitor for a pebble-bed reactor and a full-scale test of a six-storey building frame. **The gated research records then numbered 4,333 and the admitted pool 4,641**, with `ground_test` at 217 and `aeroelastic` at 1,191. Two in 300 is 0.7 percent, but that sample drove its own sweep, so it measures the contamination before that sweep and not what remains after it, and no unread sample has been drawn since to measure the remainder. **On 8 October 2026 a further 46 records were removed because they are notices or parts of works rather than works**, being 25 correction and erratum notices, 7 withdrawal notices and 14 supplementary-material files registered under their parent papers' titles, which took the gated research records from 4,333 to 4,287 and the admitted pool from 4,641 to 4,595, with `aeroelastic` at 1,183 and `span_constraint` at 36, and every survey figure above is recomputed on that set.
+**Not every research title has been read for relevance, so the off-topic share that remains is an
+estimate from a sample.** The most recent measurement read 300 records drawn at random from those not
+previously read and found two off topic, or 0.7 percent, being a design for a spent-fuel transport
+flask and a wind-tunnel test of bundled power-transmission conductors. The records that sample
+exposed have been removed, together with others sharing their homonyms, so that figure overstates
+what remains by an unknown amount, and no later unread sample has been drawn.
 
 ## Epistemic State
 
@@ -1672,7 +1646,7 @@ its regression test checks 29 titles that must be admitted and
 
 The X-66A designation was allocated on 3 May 2023 to Boeing with NASA as sponsor and an engines cell reading `2 Pratt & Whitney`, and the register's description names a Transonic Truss-Braced Wing demonstrator built from a highly modified MD-90 \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-The Funded Space Act Agreement numbered PAM 36785 was signed by Boeing on 12 January 2023 and by NASA on 13 January 2023, carries a term of seven years from the later signature, and lists 27 funded milestones totalling 425 million dollar \[[Funded Space Act Agreement][ref_fsaa]\]. Those figures are read from the instrument, and the milestone sum was checked against the appendix's own stated total rather than merely computed.
+The Funded Space Act Agreement numbered PAM 36785 was signed by Boeing on 12 January 2023 and by NASA on 13 January 2023, carries a term of seven years from the later signature, and lists 27 funded milestones totalling 425 million dollar \[[Funded Space Act Agreement][ref_fsaa]\]. Those figures are read from the instrument, and the 27 payments sum exactly to the appendix's own stated total.
 
 NASA announced the selection on 18 January 2023 with a stated NASA contribution of 425 million dollar over seven years and a partner contribution of about 725 million dollar \[[NASA award release][ref_nasa_award_2023]\]. The United States Air Force conferred the designation and NASA announced it on 12 June 2023 \[[NASA X-plane release][ref_nasa_x66_designation]\]. The donor aeroplane arrived at Palmdale from Victorville in August 2023 \[[Boeing arrival release][ref_boeing_arrival_2023]\]. NASA published its account of a revised approach on 24 April 2025 \[[NASA thin-wing item][ref_nasa_thin_wing_2025]\].
 
@@ -1730,8 +1704,8 @@ area, thrust and altitude is not a derivative** and this article does not treat 
 
 **The maximum lift coefficient at flight Reynolds number has not been measured**, and it feeds the field-length constraint that helped set the span.
 
-**The fair cantilever-versus-braced comparison the Phase IV report recommended has now been read
-and it is no longer an open item for this article.** A NASA Ames team published it in January 2025
+**The fair cantilever-versus-braced comparison the Phase IV report recommended exists and settles
+part of the question.** A NASA Ames team published it in January 2025
 and it is read in full \[[Recine and others 2025][ref_recine_2025]\]. **It gives
 1.65 percent at the economic mission against Boeing's 7.2 percent**, a factor
 of 4.36, with fuel volume the dominant cause and the weight calibration second.
@@ -1759,12 +1733,12 @@ climb-inclusive condition.
 **The detailed aerodynamic design of the wing and strut.** Phase IV devotes fifty-six pages to the inverse design of the junction region, the strut planform modifications, the fuselage bump and the twist distribution, using computational tools this article names and does not exercise. **That is a subsystem deep-dive and not a research-aircraft article.**
 
 **The low-speed and high-lift test volumes.** Volumes II, III and IV of the Phase IV final report
-cover the high-speed test, the high-lift system design and the high-lift test. **The
-primary-reference review searched for all three in the reports server and none is held there**, so
+cover the high-speed test, the high-lift system design and the high-lift test. **None of
+the three is held by the reports server**, so
 they are not merely unread but unavailable through the channel this article uses, and the conclusions
 drawn from them here are limited to what Volume I quotes.
 
-**The noise and community-impact question.** The sweep returned a system noise technology roadmap for a truss-braced wing against a conventional peer and an aeroacoustic computation series, and airframe noise from a wing of this planform is a genuine open question. It is a different keystone.
+**The noise and community-impact question.** The reference survey includes a system noise technology roadmap for a truss-braced wing against a conventional peer and an aeroacoustic computation series, and airframe noise from a wing of this planform is a genuine open question. It is a different keystone.
 
 **The certification basis for a folding wing in commercial service.** The Boeing 777X established one and this aeroplane would need another, and the regulatory history is a legal subject rather than an engineering one.
 
@@ -1779,7 +1753,7 @@ both renderings while declaring that the customary one governs, **so the two dif
 1.3228 inch and the fold station sits inside a rounding the circular itself says does
 not govern**. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported in April 2015. **The mechanism is worth more than the optimum.**
 
-**The optimality condition itself turned out to be two conditions, and that is the analytical result this article would keep if it could keep only one.** At fixed wing area and cruise condition the fuel-burn-optimal aspect ratio is where a one percent gain in aspect ratio costs exactly half a percent in weight, and **no other quantity in the problem appears**. At fixed cruise lift coefficient it is where the weight elasticity equals the induced-drag fraction of drag. **The curvature at the second stationary point is exactly $\delta(n+1-2\delta)$**, which is why a design can sit 21.41 percent below its optimum and pay 0.9481 percent for it, and why an infrastructural constraint can bind without visible cost. **Carrying the Breguet exponential rather than linearising it generalises both conditions by a single factor and makes the optimum flatter still**, and it was the equation-density review that found the linearisation was not free at a twenty percent fuel fraction.
+**The optimality condition itself turned out to be two conditions, and that is the analytical result this article would keep if it could keep only one.** At fixed wing area and cruise condition the fuel-burn-optimal aspect ratio is where a one percent gain in aspect ratio costs exactly half a percent in weight, and **no other quantity in the problem appears**. At fixed cruise lift coefficient it is where the weight elasticity equals the induced-drag fraction of drag. **The curvature at the second stationary point is exactly $\delta(n+1-2\delta)$**, which is why a design can sit 21.41 percent below its optimum and pay 0.9481 percent for it, and why an infrastructural constraint can bind without visible cost. **Carrying the Breguet exponential rather than linearising it generalises both conditions by a single factor and makes the optimum flatter still**, because the linearisation is not free at a twenty percent fuel fraction.
 
 **The truss turned out to buy a coefficient and not a power.** A geometrically similar truss leaves the three-halves exponent exactly where a cantilever leaves it, and since the optimum moves only as $k_w^{-2/5}$, no plausible structural achievement moves it far. **So the value of this configuration is not in the truss as a weight-saving device.** It is in the thin wing the truss makes affordable, which raises the drag-divergence Mach number, which permits less sweep, which permits laminar flow. **That chain is what Boeing kept when it stopped the aeroplane**, and on this article's reading the chain is where the fuel was all along.
 
@@ -3233,7 +3207,7 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Hajela and Chen 1986][research_hajela_chen_1986]
 - [Hajj 2004][research_hajj_2004]
 - [Hall et al 2024][research_hall_lynch_2024]
-- [Hall, Albert W and Mckay, James M 1952][research_hallalbertw_mckayjamesm_1952]
+- [Hall, Albert W and McKay, James M 1952][research_hallalbertw_mckayjamesm_1952]
 - [Halle E. Buescher and Joseph W. Connolly][research_halleebuescher_josephwconnolly]
 - [Haller, William et al 2012][research_hallerwilliam_guynnmark_2012]
 - [Hallissy and Cesnik 2011][research_hallissy_cesnik_2011]
@@ -4218,7 +4192,7 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Maraniello and Palacios 2017][research_maraniello_palacios_2017]
 - [Marchese 1963][research_marchese_1963]
 - [Marchetti 2023][research_marchetti_2023]
-- [Marchman, Iii 1985][research_marchmaniii_1985]
+- [Marchman, III 1985][research_marchmaniii_1985]
 - [Mardanpour and Rastkar 2017][research_mardanpour_rastkar_2017]
 - [Mardanpour et al 2013][research_mardanpour_hodges_2013]
 - [Mardanpour et al 2014][research_mardanpour_hodges_2014]
@@ -4271,21 +4245,21 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Mayor and Tol 2007][research_mayor_tol_2007]
 - [Mayor and Tol 2010][research_mayor_tol_2010]
 - [Mayya et al 2023][research_mayya_srivastava_2023]
-- [Mccain, W. E. 1984][research_mccainwe_1984]
+- [McCain, W. E. 1984][research_mccainwe_1984]
 - [McCarthy et al 1955][research_mccarthy_jackf_1955]
-- [Mccarthy et al 1955][research_mccarthy_johnf_1955]
+- [McCarthy et al 1955][research_mccarthy_johnf_1955]
 - [McCarty 2001][research_mccarty_2001]
-- [Mccarty, John E. and Roeseler, William G. 1984][research_mccartyjohne_roeselerwilliamg_1984]
+- [McCarty, John E. and Roeseler, William G. 1984][research_mccartyjohne_roeselerwilliamg_1984]
 - [McComas et al 2025][research_mccomas_burns_2025]
-- [Mccuish and Caldwell 2018][research_mccuish_caldwell_2018]
+- [McCuish and Caldwell 2018][research_mccuish_caldwell_2018]
 - [McCutchen 1989][research_mccutchen_1989]
 - [McCutchen 2006][research_mccutchen_2006]
 - [McDonald 2007][research_mcdonald_2007]
-- [Mcgeer, T. and Kroo, I. 1983][research_mcgeert_krooi_1983]
-- [Mcgehee, C. R. 1986][research_mcgeheecr_1986]
+- [McGeer, T. and Kroo, I. 1983][research_mcgeert_krooi_1983]
+- [McGehee, C. R. 1986][research_mcgeheecr_1986]
 - [McGowan, Anna-Maria Rivas et al 1997][research_mcgowanannamariarivas_wilkiewkeats_1997]
 - [McGowan, Anna-Maria Rivas et al 1998][research_mcgowanannamariarivas_wilkiewkeats_1998]
-- [Mcgrath 1993][research_mcgrath_1993]
+- [McGrath 1993][research_mcgrath_1993]
 - [McGrath 1995][research_mcgrath_1995]
 - [McGurk and Yuan 2025][research_mcgurk_yuan_2025]
 - [McGurk et al 2024][research_mcgurk_stodieck_2024]
@@ -5346,7 +5320,7 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Srilatha et al 1990][research_srilatha_dwarakanath_1990]
 - [Srilatha et al 1990][research_srilatha_dwarakanath_1990_b]
 - [Srinivasan et al 1986][research_srinivasan_mccroskey_1986]
-- [Srinivasan, G. R. and Mccroskey, W. J. 1986][research_srinivasangr_mccroskeywj_1986]
+- [Srinivasan, G. R. and McCroskey, W. J. 1986][research_srinivasangr_mccroskeywj_1986]
 - [Sriram and Narahari 2020][research_sriram_narahari_2020]
 - [Srivastava et al 2019][research_srivastava_damodaran_2019]
 - [Stack, John and Lindsey, W F 1949][research_stackjohn_lindseywf_1949]

@@ -295,11 +295,10 @@ or the vehicle stops accelerating.
 problem stated as a single number, and it is a number no component test can confirm, because it is a
 property of the assembled vehicle in flight.
 
-### A Wrong Answer Worth Recording
+### The Speed at Which Net Thrust Vanishes
 
-The first version of this analysis asked a different question. It searched for the flight speed at which net
-thrust falls to zero, found 16,577 metres per second, and was about to report it as a ceiling set by
-chemistry.
+A natural question is the flight speed at which net thrust falls to zero. With the assumed efficiencies the
+crossing falls at 16,577 metres per second, and it is easily mistaken for a ceiling set by chemistry.
 
 **It is nothing of the kind.** In an ideal engine net thrust never reaches zero at all. For small fuel
 fractions the specific net thrust tends to
@@ -586,8 +585,8 @@ misremember, and it follows [Shapiro][book_shapiro] and [Zucrow and Hoffman][boo
 $$ \frac{T_{0}^{*}}{T_0} = \frac{\left(1 + \gamma M^2\right)^2}{\left(\gamma + 1\right)M^2\left(2 + \left(\gamma - 1\right)M^2\right)} $$
 
 **It equals exactly one at Mach one and grows as the flow moves away from sonic in either direction**,
-because a duct further from choking has more room to accept heat. An earlier version of this article had the
-denominator wrong by a factor and returned 1.108 at Mach one, which that identity exposed immediately.
+because a duct further from choking has more room to accept heat. That identity is also a useful check,
+since a slip in the denominator shows at once as a value other than one at Mach one.
 
 ### Time to Burn
 
@@ -747,7 +746,7 @@ exactly what the flight vehicle was meant to check.
 
 ### Why Unstart Cannot Be Undone at Speed
 
-**The draft of this article asserted that unstart is catastrophic and never said why it is irreversible. The reason is a pair of area ratios that do not overlap.**
+**Unstart is catastrophic because it is irreversible, and the reason is a pair of area ratios that do not overlap.**
 
 A fixed-geometry inlet must swallow its own starting shock. The largest internal contraction at which it can
 do so is the Kantrowitz limit, being the contraction at which the flow behind a normal shock at the entry
@@ -1399,7 +1398,7 @@ undertaking for a fuel.
 
 ### Getting to Orbit, Which Turns Out Not to Be the Problem
 
-**This is the section whose result surprised me most, and it reframes the programme.**
+**This section's result is the most surprising in the article, and it reframes the programme.**
 
 The usual objection to single stage to orbit is the mass fraction, and the rocket relations follow
 [Sutton][book_sutton]. Taking an all-rocket single stage with a specific impulse of 450 seconds and a
@@ -3841,61 +3840,12 @@ decision record, which means
 Supersonic combustion, hypersonic aerothermodynamics, Rayleigh flow and the mass-fraction arithmetic are all
 standard, and the article is built on those rather than on programme documents.
 
-### What the Reference Passes Changed, and the Trap Ran Both Ways
+### How the Research Base Is Drawn
 
-**Two passes moved this article's base in opposite directions, and both movements are recorded because either fraction alone would misdescribe what happened.**
-
-**The primary pass took primary sources from 940 to 1,304** and the period count from 798 to 1,102, while
-the primary **fraction fell** from 71.3 to 64.3 percent, because the same pass also cited seven hundred
-contemporary sources that had been harvested and left unused.
-
-**The publication pass then did the reverse.** The period count sits essentially unchanged at 1,103 while
-its fraction falls, because a further thousand contemporary sources arrived underneath it.
-
-**Nothing was removed in either pass**, and every one of the 2,734 records that remain after the 7 October 2026 rebuild and the 8 October 2026 removal of four notices is now cited.
-
-### What the Primary Pass Was Aimed At
-
-**The primary-reference pass moved this article's base and it moved two numbers in opposite directions, so both are recorded here.**
-
-**The primary count rose from 940 to 1,304**, and the period count from 798 to 1,102.
-**The primary fraction fell**, from 71.3 to 64.3 percent of dated references, because the same pass also
-cited seven hundred contemporary sources that had been harvested and left unused. **Nothing was removed**,
-and a reader watching only the fraction would have seen a regression where the count grew by a third.
-
-**Two causes were at work and only one of them was supply.**
-
-**The first was supply, and the audit said so unambiguously**, because for nine of the ten subjects the
-equation pass promoted, the cited count equalled the pool count exactly. **Three stood at zero.**
-
-| Subject | Before | After |
-|---|---|---|
-| Energy requirements to orbit | 0 | 4 |
-| Mass capture and capture area | 0 | 2 |
-| Stagnation pressure and structural load | 0 | 8 |
-| Normal shock and total pressure recovery | 1 | 16 |
-| Equivalence ratio and fuel-air ratio | 1 | 37 |
-| Reynolds number and transition criteria | 3 | 53 |
-| Ignition delay and chemical kinetics | 4 | 52 |
-| Inlet starting and unstart | 9 | 50 |
-
-**The second was selection, and it was mine.** Two hundred and forty-nine harvested records were sitting
-uncited because the article carried a marker for the period half of several clusters and none for the modern
-half, and one cluster had no marker at all. **That is not a research finding. It is a bookkeeping error**,
-and it is recorded because an article that harvests a record and then never cites it has done the work and
-thrown it away.
-
-**One subject stays genuinely thin and is reported rather than padded.** Mass capture and capture area
-returns two records from five targeted queries, because the quantity is discussed **inside** the inlet
-literature, to which 281 of this article's research records belong by the plain test of carrying the word
-inlet or intake in their titles, rather than under a heading of its own.
-
-**And one homonym was found that was not predicted.** The energy-to-orbit vocabulary collides with
-**oceanographic and meteorological energy budgets**, and eleven of the sixteen matching records were
-internal waves in the South China Sea, stratospheric budgets and surface energy balance. The anchor gate
-was written to reject that homonym, but the only surface phrase among its patterns was surface energy
-budget, so three studies titled The Energy Budget at the Earth's Surface passed it and stayed in the survey
-until the 7 October 2026 rebuild refused them.
+**The research survey admits a record only when a person reading its title finds it on this article's subject.**
+Its 2,734 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
+journal literature. Of these, 688, or 25.2 percent, are report-server records, and their median publication
+year is 2017.
 
 **Period coverage, with counts alongside fractions because either alone misleads.**
 
@@ -3904,28 +3854,24 @@ until the 7 October 2026 rebuild refused them.
 | Period, through 1999 | 981 | 35.9 percent |
 | Contemporary, 2015 onward | 1,604 | 58.7 percent |
 
-**The survey was refiltered on 7 October 2026, after the counts first published with this article.** A
-title-by-title reading of all 3,062 research records refused 324 that share a word with the subject and
-nothing else. Grouped by a keyword match on the reason recorded against each refused record, the largest
-groups were 34 papers on road vehicles, railways and bridges, 32 on the inlets of mass spectrometers and
-chromatographs, 26 on civil hydrogen aviation, fuel cells and sustainable fuel, 20 on nuclear reactors, 17
-each on electric power generation, on ships and underwater vehicles and on piston engines, 13 on civil
-engineering cooling towers, 11 on electronics and seven on coastal tidal inlets, and the remaining 130 were
-of many other kinds, among them medicine, finance, fire science and geophysics. **Three of the refused
-records were studies of the energy budget at the Earth's surface**, the three the anchor gate had failed to
-catch.
-**The research base falls from 3,062 to 2,738 records**, the period count from 1,103 to 984 and the
-contemporary count from 1,784 to 1,605, while report-server records number 688, or 25.1 percent, and the
-median publication year stays at 2017. The clusters most changed are Why Unstart Cannot Be Undone at Speed,
-from 273 to 218, Combined cycles and the reusable launch question, from 251 to 205, Materials and structures
-moved on, from 247 to 215, and Why Milliseconds Are Not Enough, from 108 to 77. A reading of 300 records the
-screens had not flagged found 31 off topic, or 10.3 percent, and all 31 are among those refused. Because
-every title was then read rather than sampled, what remains is the doubtful kind kept on the rule that doubt
-keeps, such as general reviews of hydrogen as an aviation fuel. Those doubtful records were not listed as
-they were read, so their number is not stated here. **No second sample could be drawn on 8 October 2026**,
-because that reading had already covered every one of the 2,738 remaining titles. No sample therefore
-measures the contamination that remains, and the 10.3 percent of the first sample measured the base before
-the refusals rather than after them. **Four more records were removed on 8 October 2026**, three errata notices and one correction notice, on the rule that a notice correcting a work, or announcing its retraction or withdrawal, is a part of that work rather than a research work of its own, which leaves 2,734 records, a period count of 981, a contemporary count of 1,604 and 688 report-server records, or 25.2 percent, with the median publication year still 2017.
+**Many words this subject depends on also name something else, and a record that shares only such a word is excluded.**
+Inlet also names the inlets of mass spectrometers and chromatographs and coastal tidal inlets. Hydrogen also
+names civil hydrogen aviation, fuel cells and sustainable fuel. The vocabulary of the energy needed to reach
+orbit also names **oceanographic and meteorological energy budgets**, among them internal waves, stratospheric
+budgets and the energy budget at the Earth's surface. Cooling also names the cooling towers of civil
+engineering, and records on nuclear reactors, piston engines, ships, road and rail vehicles and electric power
+generation, which share the vocabulary of combustion, heat transfer and propulsion, are excluded for the same
+reason. Correction and erratum notices are excluded as well, because a notice correcting a work, or announcing
+its retraction or withdrawal, is a part of that work rather than a research work of its own.
+
+**Some records of doubtful relevance are kept**, such as general reviews of hydrogen as an aviation fuel, on
+the rule that doubt keeps, and no count of them is given.
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement.**
+
+**One subject is thin in the cited literature.** No research record cited in this article carries mass
+capture or capture area in its title, because the quantity is discussed **inside** the inlet literature, to
+which 281 of this article's research records belong by the plain test of carrying the word inlet or intake
+in their titles, rather than under a heading of its own.
 
 ## Epistemic State
 
@@ -5105,7 +5051,7 @@ available.
 - [J Salva and G Lopez 1993][research_jsalva_glopez_1993]
 - [Jachimowski, C. J. 1974][research_jachimowskicj_1974]
 - [Jachimowski, C. J. 1975][research_jachimowskicj_1975]
-- [Jachimowski, C. J. and Mclain, A. G. 1983][research_jachimowskicj_mclainag_1983]
+- [Jachimowski, C. J. and McLain, A. G. 1983][research_jachimowskicj_mclainag_1983]
 - [Jackson 1978][research_jackson_1978]
 - [Jackson et al 2015][research_jackson_gruber_2015]
 - [Jackson, Karen E. et al 2014][research_jacksonkarene_littelljustind_2014]
@@ -5371,7 +5317,7 @@ available.
 - [Lemcoe, M. M. 1992][research_lemcoemm_1992]
 - [Lepsch and Naftel 1993][research_lepsch_naftel_1993]
 - [Lepsch et al 1991][research_lepsch_stanley_1991]
-- [Lerner, J. I. and Mc Intosh, S. C., Jr. 1968][research_lernerji_mcintoshscjr_1968]
+- [Lerner, J. I. and McIntosh, S. C., Jr. 1968][research_lernerji_mcintoshscjr_1968]
 - [Levensteins and Krumins 1967][research_levensteins_krumins_1967]
 - [Lewis 1979][research_lewis_1979]
 - [Lewis 1993][research_lewis_1993]
@@ -5634,18 +5580,18 @@ available.
 - [Mayer and Paynter 1995][research_mayer_paynter_1995]
 - [Mbagwu et al 2023][research_mbagwu_dalle_2023]
 - [McAnally et al 1970][research_mcanally_williamj_1970]
-- [Mcclinton, C. R. and Anderson, G. Y. 1980][research_mcclintoncr_andersongy_1980]
-- [Mcclinton, C. R. et al 1975][research_mcclintoncr_torrencemg_1975]
+- [McClinton, C. R. and Anderson, G. Y. 1980][research_mcclintoncr_andersongy_1980]
+- [McClinton, C. R. et al 1975][research_mcclintoncr_torrencemg_1975]
 - [McClure and Sirbaugh 1991][research_mcclure_sirbaugh_1991]
-- [Mcdonald et al 1971][research_mcdonald_fox_1971]
+- [McDonald et al 1971][research_mcdonald_fox_1971]
 - [McGann et al 2019][research_mcgann_lee_2019]
 - [McGann et al 2026][research_mcgann_carter_2026]
 - [McGrory 2001][research_mcgrory_2001]
 - [McINTOSH 1973][research_mcintosh_1973]
-- [Mcintosh, S. C., Jr. 1972][research_mcintoshscjr_1972]
+- [McIntosh, S. C., Jr. 1972][research_mcintoshscjr_1972]
 - [McKee 1987][research_mckee_1987]
 - [McLean and Fisher 1977][research_mclean_fisher_1977]
-- [Mcnelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]
+- [McNelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]
 - [McRae and Neaves 1998][research_mcrae_neaves_1998]
 - [McTaggart 1973][research_mctaggart_1973]
 - [McVey et al 1969][research_mcvey_rejeske_1969]

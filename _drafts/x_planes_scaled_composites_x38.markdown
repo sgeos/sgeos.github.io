@@ -912,9 +912,9 @@ round canopies to water or to ground, or lands horizontally on a runway.
 
 ## The Contemporary Literature
 
-**The directive governing this series asks for a comprehensive survey of the contemporary literature.** The
-subjects below are the ones the article's relations depend on, surveyed in their modern form, and the first
-of them is far more active now than when this vehicle flew.
+**This section surveys the contemporary literature.** The subjects below are the ones the article's
+relations depend on, surveyed in their modern form, and the first of them is far more active now than when
+this vehicle flew.
 
 ### Guided Parafoils Became an Industry While the Spacecraft Did Not
 
@@ -1282,8 +1282,8 @@ here anchors on decelerator terms as heavily as on the programme.
 | **Total research records** | **1,597** | |
 
 **The period count is 784 and the contemporary count is 799.** Both are given because a contemporary survey
-lowers the period **share** while leaving the period **count** untouched, and reporting the share alone
-reads as a regression when it is the directive working.
+lowers the period **share** while leaving the period **count** untouched, so the share alone would
+understate the period literature.
 
 **A date is not a measure of primacy and this article reports both.** The technical report servers hold
 original research reports almost exclusively, while a journal index holds originals, reviews and comment
@@ -1297,53 +1297,51 @@ together, so the report share is the closest available proxy for how much of the
 
 A further **102** reference works are listed below, and they carry the relations that no journal article
 states because every textbook does.
-The count is the number of entries in that list, and it fell from 112 to 102 on 8 October 2026, when ten
-books unrelated to the vehicle were removed.
+The count is the number of entries in that list.
 
-**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
-reading of every title the screens flagged, followed by a sweep for each homonym it exposed, refused 134
-records that share a word with the subject and nothing else. Sixty were clinical studies of orthostatic
-intolerance in patients with chronic fatigue, postural tachycardia, bariatric surgery or coronavirus
-infection, thirty-one were probabilistic risk assessments of contaminated soil, drinking water, diet and
-other environmental hazards, and twenty-two used the word parachute for a heart valve, a surgical flap, an
-argument about evidence in medicine, a pre-school game, an art journal or a graph theory result. Seven more
-were reefs in geology and reefing in surgery, four measured the opening force of a jaw, a spun fibre or a
-switch, four were athletic landing studies, three concerned cryptocurrency airdrops, and three were an
-insect's eye, a building evacuation system and a catamaran. **The research total fell from 1,768 to
-1,634.** The miscellaneous cluster changed most, from 132 records to 72, followed by crew safety and risk
-from 142 to 110 and parachute systems from 407 to 385. The deconditioning subject fell from 124 records to
-63 and the risk subject from 81 to 50, and neither became thin, so nine of twenty-eight subjects remain
-thin as before. A reading of 300 unflagged records found sixteen off topic, which puts the contamination
-the screens missed near 5.3 percent before the rebuild, and every one of the sixteen fell to the homonym
-sweeps that followed.
+**Records are admitted when their titles match this article's subject vocabulary.** A person has read the titles that the exclusion patterns flag and a random sample of the rest, and records read as off topic, and others of their kinds, are removed.
+Its 1,597 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
+journal and conference literature. Many words this subject depends on also name something else, and a record
+that shares only such a word is excluded. Parachute also names a heart valve, a surgical flap, an argument
+about evidence in medicine, a pre-school game and a creek with an oil shale plant beside it. Reefing also
+names a surgical technique, and reef also names a geological formation. Opening force also names the force of a jaw, a spun
+fibre or a switch, airdrop also names a distribution of cryptocurrency, and landing also names athletic
+landing. Orthostatic intolerance is also studied as a clinical condition in chronic fatigue, postural
+tachycardia, bariatric surgery and coronavirus infection, probabilistic risk assessment is also applied to
+contaminated soil, drinking water and diet, crashworthiness also concerns trains, subway vehicles,
+automobiles, coaches and sports helmets, and guidance and control also concern ships and underwater
+vehicles. Correction, erratum, clarification, retraction and withdrawal notices, figure and
+supplementary-material records, peer-review reports and front matter are excluded as well, because a survey
+counts research works and those are parts of works or editorial events rather than works.
 
-**A second seeded sample of 300 records that no earlier reading had seen, drawn on 8 October 2026, found nine
-off topic, and the sweeps they prompted removed thirty-one records in all.** Twenty-six were crashworthiness
-studies of trains, subway vehicles, automobiles, an intercity coach and a sports helmet, four were guidance
-and control of underwater vehicles and ships, and one concerned an oil shale plant at Parachute Creek.
-**The research total then stood at 1,603.** The landing loads cluster changed most, from 119 records to 93,
-followed by airdrop and guidance from 93 to 89, and no subject became thin, so nine of twenty-eight remain
-thin. Nine in 300 puts the contamination that survived the first rebuild at 3.0 percent. That sample drove
-its own sweep, so it does not measure what remains after the sweep, and no reading has yet estimated that.
-**Six more records were removed on 8 October 2026 because they are notices about works and not works**, being six errata, correction and clarification notices, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the research total from 1,603 to 1,597, with two of the six from parachute systems and one each from the parafoil, entry trajectory, hypersonic aerodynamics and deorbit clusters, and no subject became thin.
+**Some records of doubtful relevance are kept.** General treatments of orthostatic intolerance, general
+probabilistic risk assessment methodology, generic energy-absorbing and crashworthy structures, injury
+biomechanics in parachute landing and the guidance of small autonomous drones each share the physiology, the
+method, the structure or the guidance problem with this subject, so each is kept and a reader may weigh it
+accordingly.
+
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate
+from a sample.** The most recent measurement read 300 records drawn at random from those not previously read
+and found nine off topic, or 3.0 percent. The records that sample exposed have been removed, together with
+others sharing their homonyms, so that figure overstates what remains by an unknown amount, and no later
+unread sample has been drawn.
 
 ### Which Subjects Are Thin, and Why Each One Is
 
 **The subjects an argument rests on are not the subjects its vocabulary names.** This article displays
 relations drawn from the Allen and Eggers entry peak, the opening-shock factor, the square-cube law and the
 drogue sizing condition, and not one of those four phrases appears in the article's own prose.
-**A search built from what an article says will not find the literature the article depends on.**
+**The literature those relations rest on is filed under other words.**
 
 Measured against the subjects the arguments actually use,
 **nine of twenty-eight are thin in the source base assembled here.** The reasons are set out below, because a bare
 count invites the reader to assume the worst explanation.
 
-**The heading is wrong, which is the commonest kind and the only curable one.** The field does not say
+**The first reason is that a field names a subject in its own words.** The field does not say
 `Allen and Eggers`, it says the motion and aerodynamic heating of ballistic missiles entering the
 atmosphere. It does not say `opening shock factor`, it says opening force. It does not say `deconditioning`,
-it says orthostatic intolerance. Asking again in each field's own words took the entry deceleration subject
-from zero records to five, the risk subject from eight to eighty-one, and the deconditioning subject out of
-the thin list entirely.
+it says orthostatic intolerance. Counted under those words, the deconditioning subject holds sixty-three
+records and the risk subject fifty, and neither is thin.
 
 **The clearest case is the canopy lift coefficient, which stands at one record and is not thin at all.** The
 number is the article's single most load-bearing assumption, and the papers that measure it are titled as
@@ -1359,15 +1357,8 @@ have said so.
 - [Preliminary Experiment for a Guided Flight of Small-seized...][research_inoue_hiraki_2004]
 - [Study on the relative motion of parafoil-load-systems][research_strickert_2004]
 
-**And two clusters measured empty for a third reason that is neither the heading nor the pool.** The
-vehicle-sizing cluster reported zero records and the entry-aerothermodynamics cluster reported four, because
-both sat behind clusters that matched their records first.
-**A thin cluster is a claim about the ordering before it is a claim about the literature**, and correcting
-the order took the second from four to twenty-one without harvesting anything.
-
-**The knowledge is settled and stopped generating papers**, which is not curable and must not be padded. The
-entry peak deceleration relation dates from 1958 and appears in every entry textbook, so five records after
-a harvest aimed directly at it is not a gap.
+**Some knowledge is settled and has stopped generating papers.** The entry peak deceleration relation dates
+from 1958 and appears in every entry textbook, so its five records are not a gap.
 
 **And the last one is the article.** The X-38's own contemporary half stands at three records against fifty
 in the period half. **The programme stopped in 2002 and the literature stopped with it.**
@@ -2649,8 +2640,7 @@ percent completion and never flew. The vehicle was designed for seven crew. The 
 
 ### Engineering Analysis
 
-Every quantitative result here is computed from published dimensions and masses using standard relations,
-and each is reproduced by a verification routine sharing no code with the routine that produced it.
+Every quantitative result here is computed from published dimensions and masses using standard relations.
 **Three sensitivities are computed and none is asserted**, being the lift coefficient through the sizing,
 the fixed mass fraction through the crew argument, and the deployment speed through the reefing argument.
 **The first two leave their conclusions intact and the third narrows one.** The glide speeds, the energy
@@ -3768,7 +3758,7 @@ distinct reason for a thin record and a different one again from the five the pr
 - [Lavrakas and Katz 1955][research_lavrakas_katz_1955]
 - [Law and the space station 1986][research_law_and_1986]
 - [Lawrence, Charles et al 2008][research_lawrencecharles_fasanellaedwinl_2008]
-- [Layton, G. P., Jr. and Mctigue, J. G. 1969][research_laytongpjr_mctiguejg_1969]
+- [Layton, G. P., Jr. and McTigue, J. G. 1969][research_laytongpjr_mctiguejg_1969]
 - [Lazzari et al 2025][research_lazzari_cicchini_2025]
 - [Le and Goo 2025][research_le_goo_2025]
 - [Lebedev and Evseenko 2021][research_lebedev_evseenko_2021]
@@ -3899,10 +3889,10 @@ distinct reason for a thin record and a different one again from the five the pr
 - [McCOWN and Davi 1967][research_mccown_davi_1967]
 - [McCurdy 1988][research_mccurdy_1988]
 - [McElroy 2001][research_mcelroy_2001]
-- [Mcewan, A. J. 1970][research_mcewanaj_1970]
+- [McEwan, A. J. 1970][research_mcewanaj_1970]
 - [McFALL and Murrow 1967][research_mcfall_murrow_1967]
 - [McKenney 1970][research_mckenney_1970]
-- [Mcmenamin, H. J. and Pochettino, L. R. 1984][research_mcmenaminhj_pochettinolr_1984]
+- [McMenamin, H. J. and Pochettino, L. R. 1984][research_mcmenaminhj_pochettinolr_1984]
 - [McPhee and Baumann 2025][research_mcphee_baumann_2025]
 - [McQuilling and Potvin 2012][research_mcquilling_potvin_2012]
 - [McQuilling et al 2011][research_mcquilling_lobosky_2011]

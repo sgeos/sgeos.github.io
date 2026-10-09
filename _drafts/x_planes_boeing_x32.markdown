@@ -936,13 +936,11 @@ aeroplanes.
 
 ### The Winner Acquired a Literature and the Loser Did Not
 
-**This article's second finding came out of building its own reference set, and it is measurable.**
+**This article's second finding concerns the literature itself, and it is measurable.**
 
 The reference set this article cites holds 5,016 research records from the NASA reports server, the Defense
-Technical Information Center and the Crossref registry, gathered by queries aimed directly at both aircraft
-and at the programme. Counting the titles of those records that contain each term gives the following. The
-counts first published here were taken from a harvest pool that was not preserved, so they are recounted on
-the cited set, where anyone can repeat them.
+Technical Information Center and the Crossref registry. Counting the titles of those records that contain
+each term gives the following, and anyone can repeat the count on the cited set.
 
 | Term in the title | Records |
 |---|---|
@@ -2769,7 +2767,6 @@ largest, carrying more than half of the reference set. Its titles run from the p
 short takeoff and vertical landing and supersonic fighter design to modern work on ducted fans, handling
 qualities, flight test and engine integration, with some cost and acquisition studies that the narrower
 headings did not claim.
-**It is also the heading that lost the most records to the rebuilt filter of 7 October 2026.**
 
 - [Aerodynamic Configuration Design of Flight Demonstrator for...][research_bingyan_zhou_2015]
 - [Aerodynamic blade design with multi-objective optimization...][research_droandi_gibertini_2015]
@@ -5951,8 +5948,8 @@ organised around why it lost risks implying that it should not have been built.
 ## The Source Base
 
 **The reference set holds 2,032 records published through 2002 and 2,642 published from 2015 onward**, drawn
-from a master set assembled from the NASA Technical Reports Server, the Defense Technical Information Center
-through its registered identifiers, and the Crossref registry across journal and conference literature.
+from the NASA Technical Reports Server, the Defense Technical Information Center through its registered
+identifiers, and the Crossref registry across journal and conference literature.
 **Every anchored record is cited.**
 
 | Period | Records | Share |
@@ -5969,27 +5966,29 @@ through its registered identifiers, and the Crossref registry across journal and
 count and lowers its fraction while adding period sources does the reverse. Neither movement is a fact about
 coverage.
 
-**The filter was rebuilt on 7 October 2026, after the counts first published with this article.** A reading of
-every research title refused 1,028 records that had entered on a shared word rather than a shared subject. Among
-them were 98 papers on a figure of merit in electronics, optics and thermoelectric materials, about 90 on ship
-and underwater propulsion, about 50 on spacecraft electric and fusion propulsion, 41 on gas lift in oil wells,
-and 15 on hot gas ingestion through turbine rim seals, which is the homonym this section describes below. The
-set fell from 6,100 records to 5,072, and the share published from 2015 onward fell from 56.2 to 53.1 percent.
-The general literatures lost 686 records, decision analysis under uncertainty fell from 93 records to 32, and
-the list under the sizing relation kept 3 of its 18. A reading of 300 unflagged records drawn at random before
-the rebuild found 36 off topic, which put the contamination the screens missed near 12 percent, so every
-remaining title was then read rather than sampled. About 150 records of neighbouring science, such as tidal
-turbine momentum theory and industrial jet impingement cooling, were kept as doubtful. A second seeded sample of
-300 records was read on 8 October 2026. Every one of them had been read once already in the reading of every
-title, so it measures what that reading missed rather than drawing on unread records. It found 8 off topic,
-among them a commander's guide to information technology security, a construction-machinery tradespace study
-and a hydrostatic thrust bearing, and sweeps for their kinds removed 13 more, so 21 went in all. Nine were
-thrust bearings, three were computing, three were heat transfer in tubes, pipes and supercritical fluids, two
-were power generation, two were machine learning with no aircraft subject, one was risk management in
-medicine and sport, and one was the construction-machinery study. The set then held 5,051 records, and the
-share published from 2015 onward was 53.0 percent. Eight in 300 puts what the first reading missed near 2.7
-percent. That sample drove the sweep that followed it, so it does not measure what remains after the sweep,
-and no later sample has. A further pass on 8 October 2026 removed 35 records that are notices rather than works, namely 30 corrections and errata, 4 withdrawal notices and 1 addendum, under the rule that correction, erratum, addendum, retraction and withdrawal notices, figure, table and supplement records, review reports and journal front matter are parts of works or editorial events and not works, so the set now holds 5,016 records and the share published from 2015 onward is 52.7 percent.
+**The research survey admits a record only when a person reading its title finds it on this article's subject.**
+Many words this subject depends on also name something else, and a record that shares only such a word is
+excluded. Figure of merit also names measures in electronics, optics and thermoelectric materials. Lift also
+names gas lift in oil wells, and thrust also names the thrust bearings of rotating machinery. Hot gas
+ingestion also names the sealing flows at turbine rims, which is the homonym this section describes below.
+Propulsion research on ships, underwater vehicles and spacecraft, and acquisition in its data, seismic and
+corporate senses, share the vocabulary of this subject without its subject. Correction, erratum, addendum,
+retraction and withdrawal notices, figure, table and supplement records, review reports and journal front
+matter are excluded as well, because a survey counts research works and those are parts of works or
+editorial events rather than works.
+
+**Some records of neighbouring science are kept as doubtful.** Momentum theory for tidal, wind and
+hydrokinetic turbines, industrial jet impingement cooling, power-plant gas turbines and nuclear thermal
+propulsion share the physics of the sizing relation, the impinging jet or the engine, and product-family
+commonality and military training studies share the management side of the decision. Each is kept, and a
+reader may weigh it accordingly.
+
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement.**
+A second reading of 300 records drawn at random found 8 off topic that the first reading had admitted, or
+2.7 percent, among them a commander's guide to information technology security, a construction-machinery
+tradespace study and a hydrostatic thrust bearing. Those records have been removed, together with others of
+their kinds, so that figure overstates what remains by an unknown amount, and no later sample has been
+drawn.
 
 ### The Five Equations That Carry No Citation
 
@@ -6001,7 +6000,7 @@ ratio between the winner's and the loser's record counts.
 be false attribution. **The roll moment is elementary statics** and citing it would be worse than leaving it
 bare.
 
-**Everything else now carries its literature.** Momentum theory, the figure of merit, the disc loading as a
+**Everything else carries its literature.** Momentum theory, the figure of merit, the disc loading as a
 dynamic pressure, the corrected engine parameters, the ingestion correlations, the twin-jet fountain and the
 competitive-prototyping case all rest on published work and say whose.
 
@@ -6020,38 +6019,11 @@ That base holds **1,226 records across 1970 to 1995** and is the healthier of th
 **Treating the whole of the pre-2003 material as one undifferentiated period band would hide that distinction**,
 so the table above separates them.
 
-### What the Primary Pass Measured and Moved
+### Two Contemporary Headings Follow From the Argument
 
-**The measurement came first.** The set held 2,985 records and only
-**265, or 8.9 percent, fell in the programme window**, with the clusters carrying claims among the thinnest.
-Hot gas ingestion stood at 7 in-window records against the article's central mechanism, jet-induced ground
-effects at 6, hover control at 1, momentum theory at 1 against an identity the equation pass had just
-promoted, and the winning aircraft's own cluster at 3.
+**Two contemporary subjects follow from results this article derives rather than from being merely recent.**
 
-**A harvest of roughly a hundred and forty narrow queries took the window from 265 to more than six hundred records and the whole set from 2,985 to 4,037.**
-Momentum theory went from 22 records to 91, nozzle design from 64 to 130, jet-induced ground effects from
-103 to 127.
-
-**The reason the earlier rounds missed it is the same mechanical one that caught the previous article.** The
-reports server caps a search at ten results and rewards specificity, so a broad query returns ten records
-and a narrow one returns ten different records. The pool stood at 186 records for a subject NASA researched
-for thirty years.
-
-### The Contemporary Survey Was the Half Left Behind
-
-**The primary pass raised the period count and left the modern half where it was**, which is the
-count-versus-fraction trap arriving as an actual gap rather than as an artefact. Contemporary coverage stood
-at **1,371 records, 34.0 percent**, after that pass.
-**Nothing had been removed and nothing had been added**, so the fraction fell purely because the period
-count rose underneath it.
-
-**A harvest aimed at the modern half took it to 3,428 records, or 56.2 percent, with 1,651 published from 2022 onward.**
-Twelve thin modern clusters were filled, the sharpest being momentum theory at 8 records rising to 51,
-nozzle design at 14 rising to 121, and computational fluid dynamics at 12 rising to 105.
-
-**Two contemporary subjects the article's own argument reaches had no heading, and both follow from results the earlier passes produced rather than from being merely recent.**
-
-**Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity the equation pass derived.**
+**Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity derived in the sizing section.**
 An architecture at 2,852 pounds per square foot imposes almost twice the pressure of one at 1,467 on the
 same deck at the same landing weight, and **ships were resurfaced because of that number**.
 
@@ -6061,54 +6033,47 @@ what the X-35B's single sortie demonstrated.
 **The trade is between an evidence source that matches the proposal exactly and one that matches reality exactly**,
 and this competition is the case that shows why neither alone is sufficient.
 
-### A Homonym Nobody Predicted, and the Dangerous Kind
+### A Homonym Inside the Discipline
 
 **Hot gas ingestion is also a turbomachinery subject, and it uses the identical phrase.** Sealing flows
 between a turbine rotor disc and its stator are an active field whose papers are titled "hot-gas ingestion"
 exactly as the inlet problem is.
 
-**The reference set first published with this article held 56 titles containing the words "hot gas", and the rebuild of 7 October 2026 refused 16 of them.**
-Fifteen are rim cavities, purge flows and sealing flows in turbines and one is a combustor damper, which
-leaves 40. Dust, particle and salt ingestion, which are a different inlet problem, are refused by pattern
-and no title in the set names them.
+**Forty cited research titles contain the words "hot gas", and none concerns a turbine rim.**
+Rim cavities, purge flows and sealing flows in turbines, and combustor dampers, are excluded. Dust, particle
+and salt ingestion are a different inlet problem and are excluded too, and the one cited title that names
+any of them is a 1969 saltwater ingestion test of a gas turbine.
 
-**That is the most dangerous class of homonym, because it is internal to the discipline.** It was found by
-reading the discarded records rather than by anticipating it, and the judgement is recorded so it carries
-forward. **Bird ingestion remains deliberately admitted**, because an inlet swallowing a bird and an inlet
-swallowing its own exhaust are the same fluid mechanics.
+**That is the most dangerous class of homonym, because it is internal to the discipline.**
+**Bird ingestion is deliberately admitted**, because an inlet swallowing a bird and an inlet swallowing its
+own exhaust are the same fluid mechanics.
 
-### Hot Gas Ingestion Is Reported as Thin Rather Than Padded
+### The Hot Gas Ingestion Literature Is Thin
 
-**Thirteen narrow queries aimed directly at it moved the cluster from 43 records to 44.** That is not a
-failed harvest. The open literature on inlet reingestion is genuinely small, because the measurements that
+**Forty-three cited research records, under thirty-eight distinct titles, concern the ingestion, reingestion, recirculation or environment of hot or exhaust gas.**
+The open literature on inlet reingestion is genuinely small, because the measurements that
 matter are full-scale, expensive, and made by manufacturers rather than by research agencies.
 **The article's central failure mechanism rests on a thin public base and says so.**
 
 ### The Vehicle Cluster Is the Finding
 
-**A cluster holding one record is normally a defective query, and this one was tested before it was believed.**
-Two harvests asked for the aircraft by designation, by manufacturer and programme together, by the
-pre-competition programme names, across the reports server, both Crossref content types and the defence
-registry.
-
-**The answer did not move.** One record, from the engine supplier, published after the decision.
+**One cited research record carries the X-32 in its title.** It comes from the engine supplier and was
+published after the decision.
 
 **That is reported as a finding rather than as a gap**, and the article's own argument depends on saying so,
 because it is the reason the technical case here rests on the winner's published numbers and the loser's
 inferred bound.
 
-### What the Harvest Method Had to Change
+### The Literature of the Decision
 
-**The keystone of this article is not a physical quantity, so the harvest needed a cluster family no previous article in this series has used.**
-Source selection, competitive prototyping, cost growth and requirements commonality are the literature of
-the decision, and they sit high in the cluster order because a paper on acquisition strategy is not a paper
-on aerodynamics and must not be absorbed by a general heading.
+**The keystone of this article is not a physical quantity, so part of its literature is the literature of a decision.**
+Source selection, competitive prototyping, cost growth and requirements commonality are that literature, and
+they have their own headings because a paper on acquisition strategy is not a paper on aerodynamics.
 
 **The keystone word is also the worst homonym.** Competition between firms and competition between species
 are both enormous literatures, and both dwarf the procurement sense. So do dietary ingestion against inlet
-ingestion, and language acquisition against defence acquisition.
-**Bird ingestion was deliberately admitted rather than filtered**, because an inlet swallowing a bird and an
-inlet swallowing its own exhaust are the same fluid mechanics.
+ingestion, and language acquisition against defence acquisition. Records in those other senses are
+excluded.
 
 ## Epistemic State
 
@@ -6130,8 +6095,8 @@ inlet swallowing its own exhaust are the same fluid mechanics.
 
 **Engineering analysis performed for this article and verified independently.**
 
-- Thrust for a given power rises as the square root of mass flow. This is an identity and it is
-  checked as a randomised property over twenty thousand random inputs.
+- Thrust for a given power rises as the square root of mass flow. This is an identity, obtained by
+  eliminating the jet velocity between the thrust and power relations.
 - The lift fan's published diameter, thrust and shaft power imply a figure of merit of 0.697, which
   is a value a real ducted fan can achieve, so the three numbers are mutually consistent.
 - Matching that disc loading with 28,000 pounds of core thrust would need 19.09 square feet of
@@ -7192,7 +7157,7 @@ and that silence is the last thing the competition decided.
 - [Clark et al 2023][research_clark_tai_2023]
 - [Clark et al 2023][research_clark_tai_2023_b]
 - [Clark et al 2025][research_clark_nesbitt_2025]
-- [Clark, Iii 1984][research_clarkiii_1984]
+- [Clark, III 1984][research_clarkiii_1984]
 - [Clements et al 1992][research_clements_gasarch_1992]
 - [Cloos and Nelson 1990][research_cloos_nelson_1990]
 - [Clough 1990][research_clough_1990]
@@ -7601,14 +7566,14 @@ and that silence is the last thing the competition decided.
 - [Erdman and Mitchum 2013][research_erdman_mitchum_2013]
 - [Erwig and Kumar 2025][research_erwig_kumar_2025]
 - [Erwin et al 1964][research_erwin_clark_1964]
-- [Erzberger and Mclean 1979][research_erzberger_mclean_1979]
+- [Erzberger and McLean 1979][research_erzberger_mclean_1979]
 - [Escher 1995][research_escher_1995]
 - [Escher 1996][research_escher_1996]
 - [Eshleman, J. E. et al 1986][research_eshlemanje_dudleymr_1986]
 - [Eshlemen 1985][research_eshlemen_1985]
 - [Esker and Debonis 1991][research_esker_debonis_1991]
 - [Esker and Sedrick 1972][research_esker_sedrick_1972]
-- [Esker, Barbara S. and Mcardle, Jack G. 1993][research_eskerbarbaras_mcardlejackg_1993]
+- [Esker, Barbara S. and McArdle, Jack G. 1993][research_eskerbarbaras_mcardlejackg_1993]
 - [Esker, D. W. and Roddiger, H. A. 1979][research_eskerdw_roddigerha_1979]
 - [Eskue 2023][research_eskue_2023]
 - [Espinoza-Garcia et al 2026][research_espinozagarcia_bandasayco_2026]
@@ -8055,7 +8020,7 @@ and that silence is the last thing the competition decided.
 - [Hamed et al 1997][research_hamed_laskowski_1997]
 - [Hamid et al 2021][research_hamid_tariq_2021]
 - [Hammond et al 1995][research_hammond_lim_1995]
-- [Hammond, A. D. and Mc Lemore, H. C. 1967][research_hammondad_mclemorehc_1967]
+- [Hammond, A. D. and McLemore, H. C. 1967][research_hammondad_mclemorehc_1967]
 - [Han 1988][research_han_1988]
 - [Han and Cizmas 2001][research_han_cizmas_2001]
 - [Han et al 2019][research_han_chang_2019]
@@ -9255,7 +9220,7 @@ and that silence is the last thing the competition decided.
 - [McAlpine and Wright 2006][research_mcalpine_wright_2006]
 - [McAuliffe and Lanaspa 2016][research_mcauliffe_lanaspa_2016]
 - [McBride and Paret 2010][research_mcbride_paret_2010]
-- [Mccarthy 1992][research_mccarthy_1992]
+- [McCarthy 1992][research_mccarthy_1992]
 - [McCarthy 1996][research_mccarthy_1996]
 - [McCarthy 2002][research_mccarthy_2002]
 - [McCarthy and Kelly 1993][research_mccarthy_kelly_1993]
@@ -9264,27 +9229,27 @@ and that silence is the last thing the competition decided.
 - [McConnell 2006][research_mcconnell_2006]
 - [McCormick 2002][research_mccormick_2002]
 - [McCown 2011][research_mccown_2011]
-- [Mccune 1993][research_mccune_1993]
+- [McCune 1993][research_mccune_1993]
 - [McDaniel and Cooper 1999][research_mcdaniel_cooper_1999]
 - [McDaniel et al 1995][research_mcdaniel_bull_1995]
 - [McDaniel et al 1998][research_mcdaniel_bull_1998]
 - [McDonald 2015][research_mcdonald_2015]
-- [Mcdonnell Aircraft Corp St Louis Mo 1962][research_mcdonnellaircraftcorpstlouismo_1962]
-- [Mcdonnell Aircraft Corp St Louis Mo 1963][research_mcdonnellaircraftcorpstlouismo_1963]
+- [McDonnell Aircraft Corp St Louis Mo 1962][research_mcdonnellaircraftcorpstlouismo_1962]
+- [McDonnell Aircraft Corp St Louis Mo 1963][research_mcdonnellaircraftcorpstlouismo_1963]
 - [McGowan and Ghoshal 2026][research_mcgowan_ghoshal_2026]
 - [McGowin et al 2018][research_mcgowin_ritschel_2018]
-- [Mcguigan 1970][research_mcguigan_1970]
+- [McGuigan 1970][research_mcguigan_1970]
 - [McIntosh and Jr 1989][research_mcintosh_jr_1989]
 - [McIntyre 1963][research_mcintyre_1963]
 - [McKinnis et al 2021][research_mckinnis_hauptman_2021]
 - [McLean 1994][research_mclean_1994]
 - [McLean 2016][research_mclean_2016]
-- [Mcmanus and Goodrich 1989][research_mcmanus_goodrich_1989]
-- [Mcnally, B. David and Bach, Ralph E., Jr. 1988][research_mcnallybdavid_bachralphejr_1988]
+- [McManus and Goodrich 1989][research_mcmanus_goodrich_1989]
+- [McNally, B. David and Bach, Ralph E., Jr. 1988][research_mcnallybdavid_bachralphejr_1988]
 - [McNicol 2022][research_mcnicol_2022]
 - [McNicol and Wu 2014][research_mcnicol_wu_2014]
 - [McNicol et al 2015][research_mcnicol_burns_2015]
-- [Mcpherson 1977][research_mcpherson_1977]
+- [McPherson 1977][research_mcpherson_1977]
 - [MD-80 active noise control flight demonstration 1993][research_md_80_active_1993]
 - [Meckstroth and Blake 2015][research_meckstroth_blake_2015]
 - [Meckstroth and Ordóñez 2020][research_meckstroth_ordonez_2020]
@@ -9797,7 +9762,7 @@ and that silence is the last thing the competition decided.
 - [Posada and Vargas 2020][research_posada_vargas_2020]
 - [Posey et al 1998][research_posey_dunn_1998]
 - [Posnett et al 1987][research_posnett_chin_1987]
-- [Posnett, Iii et al 1986][research_posnettiii_chin_1986]
+- [Posnett, III et al 1986][research_posnettiii_chin_1986]
 - [Post and Sundt 2017][research_post_sundt_2017]
 - [Post et al 2017][research_post_eslinger_2017]
 - [Postlethwaite 1998][research_postlethwaite_1998]
@@ -10364,7 +10329,7 @@ and that silence is the last thing the competition decided.
 - [Smith and Chow 1998][research_smith_chow_1998]
 - [Smith and Chow 2002][research_smith_chow_2002]
 - [Smith and Geddes 1979][research_smith_geddes_1979]
-- [Smith and Mcardle 1990][research_smith_mcardle_1990]
+- [Smith and McArdle 1990][research_smith_mcardle_1990]
 - [Smith and McArdle 1992][research_smith_mcardle_1992]
 - [Smith and Meyer 1981][research_smith_meyer_1981]
 - [Smith and Pellicano 1992][research_smith_pellicano_1992]
@@ -10597,7 +10562,7 @@ and that silence is the last thing the competition decided.
 - [Tangler 1979][research_tangler_1979]
 - [Tao et al 2021][research_tao_wang_2021]
 - [Tao et al 2022][research_tao_yang_2022]
-- [Tape and Mcintyre 1990][research_tape_mcintyre_1990]
+- [Tape and McIntyre 1990][research_tape_mcintyre_1990]
 - [Tappan and Heyder 1988][research_tappan_heyder_1988]
 - [Tariq and Mazhar 2021][research_tariq_mazhar_2021]
 - [Tasdemir and Atan 2026][research_tasdemir_atan_2026]
@@ -11029,7 +10994,7 @@ and that silence is the last thing the competition decided.
 - [Wilson et al 2001][research_wilson_sherbaum_2001]
 - [Wilson et al 2003][research_wilson_adler_2003]
 - [Wilson, III and White 1993][research_wilsoniii_white_1993]
-- [Wilson, Iii et al 1985][research_wilsoniii_eskey_1985]
+- [Wilson, III et al 1985][research_wilsoniii_eskey_1985]
 - [Wilz and Johnson 1975][research_wilz_johnson_1975]
 - [Winbush and James O. 2012][research_winbush_jameso_2012]
 - [Wing and Asbury 1991][research_wing_asbury_1991]

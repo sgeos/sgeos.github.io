@@ -189,8 +189,8 @@ and the angular acceleration ratio is the moment ratio over the inertia ratio,
 
 $$r_{\dot\omega} = \frac{\lambda^{4}}{\lambda^{5}} = \frac{1}{\lambda} = 3.571$$
 
-**Each of those was verified as a randomised property over twenty thousand scale factors and not at 0.28 alone**,
-so a mis-stated exponent would fail everywhere, not nowhere.
+**Each of those is an identity in the scale factor and holds at every value of it, not at 0.28 alone**,
+because each exponent follows from dimensions and not from the particular aircraft.
 
 **Three of them deserve reading slowly.**
 
@@ -328,10 +328,10 @@ $$C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S 
 | 0.80 m³ | 0.1388 | 0.002422 |
 | 1.00 m³ | 0.1734 | 0.003027 |
 
-**The derived value at the middle of the bracket is 0.002422 per degree, which is 2.018 times the 0.0012 this article assumed before deriving it.**
-That matters in a specific and welcome direction. **The assumed figure was the optimistic one**, so the
-aircraft was more unstable than the numbers below first suggested, and
-**every conclusion that survived the optimistic case survives the derived one more comfortably.** Both are
+**The derived value at the middle of the bracket is 0.002422 per degree, which is 2.018 times the assumed value of 0.0012, a figure typical of a tailless configuration.**
+That matters in a specific and welcome direction. **The assumed figure is the optimistic one**, so the
+aircraft was more unstable than the rows computed from it suggest, and
+**every conclusion that survives the optimistic case survives the derived one more comfortably.** Both are
 carried through the tables that follow rather than one replacing the other.
 
 **The wing area is not published, so it is inverted from what is.** The approach speed of 110 knots and a
@@ -372,9 +372,9 @@ because it starts with no yaw rate at all, and needs
 
 $$t_{2}^{\text{rest}} = \frac{\operatorname{arccosh} 2}{\sigma} = 1.900 \, t_{2}$$
 
-**The ratio is arccosh 2 over ln 2, it is 1.900, and it depends on nothing.** It was verified as a
-randomised property across growth rates, and both times were then measured by integrating the equation of
-motion under their own initial conditions rather than by evaluating an exponent.
+**The ratio is arccosh 2 over ln 2, it is 1.900, and it depends on nothing.** The growth rate cancels from
+it, so it holds at every growth rate, and integrating the equation of motion under each of the two initial
+conditions reproduces both times without evaluating an exponent.
 
 | Radius of gyration | Modal, 110 kt | From rest, 110 kt | Modal, 243 kt | From rest, 243 kt |
 |---|---|---|---|---|
@@ -441,7 +441,7 @@ it stood for, while the delay in reacting to it stayed the same.
 
 ### The Delay Budget, Which Turns the Handicap Into Milliseconds
 
-**The draft of this article asserted that a fixed delay is amplified by 1.8898. Control theory turns that into a budget, and the budget is small enough to force a conclusion about the architecture.**
+**A fixed delay is amplified by 1.8898. Control theory turns that amplification into a budget, and the budget is small enough to force a conclusion about the architecture.**
 
 A loop that stabilises an unstable pole must cross over above it, because below the pole the loop gain is
 not yet doing anything. Writing $\omega_c$ for the crossover frequency and taking a multiple $\kappa$ of the
@@ -460,7 +460,7 @@ designer insists on gives the entire delay budget of the loop,
 $$\tau_{\max} = \frac{\phi_m}{\omega_c} = \frac{\phi_m}{\kappa \sigma}$$
 
 **And $\sigma$ scales as one over the square root of the scale factor, so the budget scales as its square root.**
-The amplification the draft asserted is exactly this, expressed in the units a control engineer would use.
+The amplification of 1.8898 is exactly this, expressed in the units a control engineer would use.
 
 At a phase margin of 45 degrees and a crossover three times the growth rate,
 
@@ -596,7 +596,7 @@ split surface can produce, from lightly cracked to fully opened.
 | 0.30 | 66.2 percent | 298.7 kt |
 | 0.60 | 132.4 percent | 211.2 kt |
 
-**This changes what can honestly be said, and the earlier version of this article said more than the arithmetic supports.**
+**This limits what can honestly be said.**
 At the bottom of the bracket the nozzle dominates everywhere and the split ailerons really are margin.
 **At the top they overtake the nozzle inside the flight envelope, at 211.2 knots, and become the primary yaw effector at high speed.**
 
@@ -1016,8 +1016,8 @@ control, weight and the cost of certifying an aircraft that cannot be flown with
 
 ## The Contemporary Literature
 
-The standing directive for this series asks each article to survey the current literature as well as study
-its aircraft. **This subject is unusual in that its centre of gravity moved instead of growing.** Tailless
+This section surveys the current literature on the subjects the aircraft touched as well as on the aircraft
+itself. **This subject is unusual in that its centre of gravity moved instead of growing.** Tailless
 fighters remained a research topic. **Subscale dynamically scaled flight testing became an industry.**
 
 ### The Method Outlived the Aeroplane
@@ -4453,104 +4453,40 @@ Those are not equally solid and the article does not present them as though they
 
 ### Both Halves, Counted and Not Only Divided
 
-The article cites 2,268 records published through 2001 and 3,359 published from 2015 onward.
-**The count and the fraction are reported together throughout this series**, because adding sources on one
-side lowers the other's share without removing anything.
+The article cites 2,268 records published through 2001 and 3,359 published from 2015 onward, which are
+38.1 percent and 56.5 percent of its 5,950 research records. Of the contemporary half, 1,436 records were
+published from 2022 onward.
+**The count and the fraction are reported together**, because adding sources on one side lowers the other's
+share without removing anything.
 
-| | After drafting | After the primary pass | After the publication pass |
-|---|---|---|---|
-| Cited records | 3,352 | 4,948 | **6,581** |
-| Period count, through 2001 | 1,566 | 2,422 | **2,461** |
-| Period fraction | 46.7 percent | 48.9 percent | **37.4 percent** |
-| Contemporary count, 2015 onward | 1,567 | 2,214 | **3,766** |
-| Contemporary fraction | 46.7 percent | 44.7 percent | **57.2 percent** |
+**Records are admitted when their titles match this article's subject vocabulary.** A person has read the titles that the exclusion patterns flag and a random sample of the rest, and records read as off topic, and others of their kinds, are removed.
+Its records come from NASA's Technical Reports Server, the Defense Technical Information Center, the Office of
+Scientific and Technical Information and the journal literature. Of the 5,950, 15.2 percent are report-server
+records, and their median year is 2016. Many words this subject depends on also name something else, and a
+record that shares only such a word is excluded. Moment of inertia also names a property of nuclei, molecules,
+electric motors, beams and classroom pendulums, similitude also names scale modelling in soils, concrete and
+hydraulics, fuel consumption also names diesel engines, tractors and power plants, rudder and roll
+stabilisation also name ship hydrodynamics, delay margin also names power grids and vehicle platoons,
+viscosity also names oils and liquids, subscale also names a part of a psychological questionnaire, and
+drone survey also names the survey of crops, forests, wildlife, pipelines and terrain. Correction, erratum,
+retraction and withdrawal notices, figure and supplementary-material records, peer-review reports and journal
+front matter are excluded as well, because a survey counts research works and those are parts of works or
+editorial events rather than works.
 
-**Read the rows, because the two passes moved them in opposite ways.**
+**Some records of doubtful relevance are kept.** Ship-borne helicopter work, over-actuated underwater vehicles
+in the control allocation literature, Smith predictor and teleoperation control papers from outside aviation,
+and personality studies of drone pilots each share either the control problem or the remote operator with
+this subject, so each is kept and a reader may weigh it accordingly.
 
-The primary pass grew the period base by 856 records and gained it 2.2 points of share, while the
-contemporary base grew by 647 and lost 2.0.
-**The publication pass then raised the period count again, by 39, while its fraction fell 11.5 points.**
-Neither of those passes removed anything from either half.
-
-**A fall of eleven points is not a regression and the count says why.** Neither pass shrank the period base. The
-contemporary survey grew faster, which is the comprehensiveness directive working.
-**This is the whole reason the count and the fraction are printed together**, and all three columns are
-shown rather than the last one. Of the contemporary half, 1,436 records were published from 2022 onward.
-
-**The filter was rebuilt on 7 October 2026, after the counts in the table were first published with this article.**
-A re-reading of every flagged title and of a random sample refused 544 records that had entered on a shared
-word and were about something else. The largest groups were 100 papers on road vehicle handling, tyres,
-suspensions, platoons and trains, 61 on ship hydrodynamics and rudder roll stabilisation, 51 on the fuel
-consumption of diesel engines, tractors and power plants, 47 on crop, forest and terrain survey from drones,
-39 on power grids, converters and electric generators, 35 on similitude in soils, concrete and hydraulics, 27 on
-the viscosity of oils and liquids, and 48 on the moment of inertia of nuclei, molecules, electric motors,
-beams and classroom pendulums. Smaller groups covered bridges and buildings, chemical plant control, CubeSat hardware,
-lasers, economics and public health. The research total fell from 6,581 to 6,037, with 316 of the refusals
-in Method, Computation and the Rest of the Survey and 167 in The Period Base in Full. That rebuild left the
-period count at 2,285, or 37.8 percent, and the contemporary count at 3,428, or 56.8 percent. The table above records
-the passes as they were and is left unchanged, as are the equation pass counts below, which included records
-refused here.
-**A reading of 300 unflagged records found 26 off topic, all of them now refused**, and the patterns built
-from them were swept across the whole pool. That sample put contamination near 8.7 percent before the sweep,
-and a sample that drives its own sweep cannot measure what the sweep leaves behind. Records in doubt, such as ship-borne helicopter work and
-over-actuated underwater vehicles in the control allocation literature, were kept.
-
-**A second seeded sample, drawn on 8 October 2026 from 300 records no earlier reading had seen, found 8 off topic, and all 8 were removed with 46 more of their kind.**
-The eight were a study of photoacoustic imaging, a paper on disaster risk in Timor-Leste, a vehicle model for
-an automotive dynamometer, the sprung mass of road vehicles, a cylinder moving beneath a free water surface, a
-circulation-controlled sail on a submersible, and two surveys flown by drone, one for orphaned wells and
-one of geothermal ground. Sweeping their homonyms through the whole article found the rest. In all, 23 of the
-54 removals were drone applications such as the survey of crops, turfgrass, wildlife, water, pipelines, roads and terrain, 11
-were ship, underwater and ocean studies, 7 were road and rail vehicles, 2 were psychology papers that had
-entered on the word subscale, and 11 were single papers on subjects such as air pollution, sportswear, snow
-drift and a crop pest. The research total fell from 6,037 to 5,983, with 35 of the removals in Method,
-Computation and the Rest of the Survey and 11 in The Period Base in Full. That pass left the period count at
-2,271, or 38.0 percent, and the contemporary count at 3,389, or 56.6 percent.
-**That sample found 8 of 300, or 2.7 percent, off topic in the pool the first rebuild left**, and because it
-drove its own sweep it does not measure what remains after that sweep. Records in doubt were again kept,
-among them Smith predictor and teleoperation control papers from outside aviation, personality studies of
-drone pilots, and over-actuated underwater vehicles in the control allocation literature.
-**A further 33 records were removed on 8 October 2026 because they are notices about works and not works**, being 28 correction notices and 5 withdrawal notices, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the research total from 5,983 to 5,950, with 30 of the removals in Method, Computation and the Rest of the Survey and 3 in The Period Base in Full, and left the period count at 2,268, or 38.1 percent, and the contemporary count at 3,359, or 56.5 percent.
-
-### What the Equation Pass Did to the Reference Base
-
-**An equation pass promotes subjects and this is the sixteenth consecutive article in which the reference base had to follow.**
-Six of the seven subjects the new equations name were thin and two stood at literally zero.
-**The worst was phase margin and delay margin, at zero, although it carries the article's headline result.**
-
-| Newly promoted subject | Before | After |
-|---|---|---|
-| **Phase margin and delay margin** | **0** | **142** |
-| **Specific fuel consumption and engine performance** | **0** | **161** |
-| Munk moment and slender-body theory | 1 | 111 |
-| Turn performance and corner speed | 4 | 10 |
-
-**The After column is history and is not a present count.** It was taken when the equation pass closed. The
-rebuilds of 7 and 8 October 2026 later removed records that the article's selection script had filed under
-all four subjects, 26 under stability margins, 77 under engine performance and fuel consumption, 23 under
-slender bodies and 2 under turn performance, among them delay margins of power grids and vehicle platoons and
-the fuel consumption of diesel engines.
-
-**Three defects in my own search were exposed by this, and all three fail silently.**
-
-**The anchor gate rejected the article's oldest primary source outright.** The 1951 study of viscosity on
-flow over slender inclined bodies of revolution contains no aircraft, no aerodynamics and no design, so a
-gate built from vehicle vocabulary refused it.
-**The gate now admits the vocabulary of the physics as well as that of the machine.**
-
-**A plural boundary refused Munk's paper.** It is titled the aerodynamic forces on airship **hulls**, and a
-pattern written for the singular declined it, sending the oldest source in the article to the catch-all.
-**This is the third time in this project that a plural has done exactly this.**
-
-**And a spelling variant halved a cluster.** British manoeuvrability and American maneuverability are
-different strings, and a pattern built for one silently misses the other.
-
-**None of these produced a wrong answer. All three produced a smaller one**, which reads as a thin
-literature instead of as a bug, and that is why they survive passes.
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate
+from a sample.** The most recent measurement read 300 records drawn at random from those not previously read
+and found 8 off topic, or 2.7 percent. The records that sample exposed have been removed, together with others
+sharing their homonyms, so that figure overstates what remains by an unknown amount, and no later unread
+sample has been drawn.
 
 ### The Vehicle's Own Cluster Is Thin, Which Is the Fourth Instance
 
-**Five research records carry this aircraft's designation in their titles.** The three preceding articles found the same
+**Five research records carry this aircraft's designation in their titles.** The X-33, X-34 and X-35 show the same
 shape for different reasons. The X-33 and X-34 were cancelled and stopped generating literature under their
 own names. The X-35 won and never had a documentary trace at all, because contractor demonstrators flown for
 a source selection do not produce reports.
@@ -4559,8 +4495,8 @@ a source selection do not produce reports.
 competition. It ran to completion, met its objectives, and produced a technique rather than a vehicle.
 **What it contributed is in the literature under the names of its methods rather than under its own**, which
 is why the scaling, control allocation and adaptive control clusters are large while the vehicle cluster is
-not. **Four vehicles, four different reasons for the same thin cluster**, and the pattern belongs in the
-closing article rather than in any one of them.
+not. **Four vehicles, four different reasons for the same thin cluster**, and the pattern is a finding
+about the series of aircraft rather than about any one of them.
 
 ### The Reference Works
 
@@ -6910,8 +6846,8 @@ nose camera.
 
 ### Engineering Analysis
 
-Every scaling ratio follows from the scale factor alone once Froude matching is chosen, and each was
-verified as a randomised property over twenty thousand scale factors. The velocity and time ratios are
+Every scaling ratio follows from the scale factor alone once Froude matching is chosen, and each is an
+identity that holds at every scale factor. The velocity and time ratios are
 0.5292, the frequency ratio 1.8898, the angular acceleration ratio 3.571, the inertia ratio 0.001721 and the
 Reynolds ratio 0.1482, a penalty of 6.749. The implied full-scale weight of 57,853 pounds, length of 19.82
 metres and span of 11.34 metres follow from cube scaling. The wing area of 3.269 square metres and aspect
@@ -6920,9 +6856,9 @@ Mach number of 0.367 at maximum speed follow from the standard atmosphere and Su
 moment from thrust vectoring of 2,364 newton metres and the authority crossover at 342.2 knots follow from
 the moment balance.
 **The identity that a disturbance released from rest doubles in 1.900 times the modal time is exact and depends on nothing.**
-**All 99 checks were reproduced by an independent verifier that does not import the calculation**, using
-randomised property tests, bisection, integration of the yaw equation under two initial conditions, and
-recomputation of the atmosphere from first principles.
+**Every figure in this section can be reproduced from the published specification and the stated assumptions
+with the relations the article displays**, and the doubling times can also be reproduced by integrating the
+yaw equation under its two initial conditions.
 
 ### Inference
 
@@ -7533,7 +7469,7 @@ measured length.
 - [Axelson 1975][research_axelson_1975]
 - [Axelson, John A. and Emerson, Horace F. 1949][research_axelsonjohna_emersonhoracef_1949]
 - [Ayoub and McLachlan 1988][research_ayoub_mclachlan_1988]
-- [Ayoub, A. and Mclachlan, B. G. 1987][research_ayouba_mclachlanbg_1987]
+- [Ayoub, A. and McLachlan, B. G. 1987][research_ayouba_mclachlanbg_1987]
 - [Azarmi and Tavakoli-Kakhki 2020][research_azarmi_tavakolikakhki_2020]
 - [Azimov and Allen 2017][research_azimov_allen_2017]
 - [B B V L and Singh 2016][research_bbvl_singh_2016]
@@ -8931,7 +8867,7 @@ measured length.
 - [Garner and Roozeboom 2021][research_garner_roozeboom_2021]
 - [Garnett et al 1976][research_garnett_jr_1976]
 - [Garrard 1998][research_garrard_1998]
-- [Garretson, Iii 1986][research_garretsoniii_1986]
+- [Garretson, III 1986][research_garretsoniii_1986]
 - [Gates et al 1989][research_gates_winchenbach_1989]
 - [Gaudet and Furfaro 2023][research_gaudet_furfaro_2023]
 - [Gautam et al 2015][research_gautam_sujit_2015]
@@ -10481,7 +10417,7 @@ measured length.
 - [Mara 2015][research_mara_2015]
 - [Marchinski 1974][research_marchinski_1974]
 - [Marchman 1987][research_marchman_1987]
-- [Marchman, Iii 1981][research_marchmaniii_1981]
+- [Marchman, III 1981][research_marchmaniii_1981]
 - [Marcus 2019][research_marcus_2019]
 - [Marella and Udaykumar 2001][research_marella_udaykumar_2001]
 - [Margason and Hoad 1980][research_margason_hoad_1980]
@@ -10559,17 +10495,17 @@ measured length.
 - [McFadyen and Martin 2016][research_mcfadyen_martin_2016_b]
 - [McFadyen et al 2018][research_mcfadyen_martin_2018]
 - [McFarland and D'Souza 1994][research_mcfarland_dsouza_1994]
-- [Mcgee 1977][research_mcgee_1977]
+- [McGee 1977][research_mcgee_1977]
 - [McGeogh and Jensen 1967][research_mcgeogh_jensen_1967]
-- [Mcginnis, R. F. and Eder, F. W. 1971][research_mcginnisrf_ederfw_1971]
+- [McGinnis, R. F. and Eder, F. W. 1971][research_mcginnisrf_ederfw_1971]
 - [McGough et al 1974][research_mcgough_moses_1974]
 - [McGREGOR and Smith 1966][research_mcgregor_smith_1966]
-- [Mcguigan 1970][research_mcguigan_1970]
+- [McGuigan 1970][research_mcguigan_1970]
 - [McInally 1963][research_mcinally_1963]
 - [McInville and Moore 1994][research_mcinville_moore_1994]
 - [McKeehen 1998][research_mckeehen_1998]
 - [McKeehen and Cord 1997][research_mckeehen_cord_1997]
-- [Mckenzie 1973][research_mckenzie_1973]
+- [McKenzie 1973][research_mckenzie_1973]
 - [McKenzie 1999][research_mckenzie_1999]
 - [McKinnis et al 2021][research_mckinnis_hauptman_2021]
 - [McLean 1994][research_mclean_1994]
@@ -10897,7 +10833,7 @@ measured length.
 - [Nelson 1985][research_nelson_1985]
 - [Nelson 2018][research_nelson_2018]
 - [Nelson and Durham 2002][research_nelson_durham_2002]
-- [Nelson and Mccormick 1974][research_nelson_mccormick_1974]
+- [Nelson and McCormick 1974][research_nelson_mccormick_1974]
 - [Nelson and Mouch 1978][research_nelson_mouch_1978]
 - [Nemec et al 2024][research_nemec_bedonian_2024]
 - [Nenadic et al 1997][research_nenadic_debeljkovic_1997]
@@ -12422,7 +12358,7 @@ measured length.
 - [Van Orden 2001][research_vanorden_2001]
 - [van Overeem et al 2022][research_vanovereem_wang_2022]
 - [van Overeem et al 2023][research_vanovereem_wang_2023]
-- [VAN Poppel et al 1998][research_vanpoppel_barton_1998]
+- [Van Poppel et al 1998][research_vanpoppel_barton_1998]
 - [van Rooij and Cummings 2018][research_vanrooij_cummings_2018]
 - [van Rooyen and Eshelby 1981][research_vanrooyen_eshelby_1981]
 - [van Schalkwyk and Smit 2017][research_vanschalkwyk_smit_2017]

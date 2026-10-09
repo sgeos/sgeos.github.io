@@ -743,13 +743,13 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 ## The Contemporary Literature
 
-**The survey below holds 4,203 records** across 9 clusters, retrieved from the scholarly registry. **None of them is cited as evidence for any claim about the X-40A** and none was read. They map the fields the vehicle sits in, and the forty curated sources remain the only ones the argument rests on.
+**The survey below holds 4,203 records** across 9 clusters, retrieved from the scholarly registry. **None of them is cited as evidence for any claim about the X-40A** and none has been read in full. They map the fields the vehicle sits in, and the forty curated sources remain the only ones the argument rests on.
 
 ### Dynamic Similarity and Subscale Free Flight
 
 **This is the article's keystone and it has a literature of its own.** Dynamically scaled free-flight models, Froude similitude, and the correlation of wind tunnel data with flight are a continuous research thread from the earliest drop models onward. **The recurring finding is the one this article reaches independently**, that matching the Froude number and the Reynolds number simultaneously is impossible and that the choice of which to abandon decides what the test can prove.
 
-**The harvest returned 508 records here, and the 12 most recent are listed. The remainder appear in the references.**
+**This cluster holds 508 records, and the 12 most recent are listed. The remainder appear in the references.**
 
 - [Meckelnborg and Hölling, 2026, A High Reynolds number wind tunnel set-up for research on static and oscillating cylinder][research_meckelnborg_holling_2026]
 - [Betin, 2026, Assessment of the Functional Capabilities of Free-Flying Dynamically Similar Aircraft Models][research_betin_2026]
@@ -768,7 +768,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The capability the X-40A existed to demonstrate is now ordinary and was not then.** The literature runs from autoland certification for transport aircraft through precision landing for uncrewed vehicles, and its persistent concern is verification, meaning how a system that must work every time is shown to work at all.
 
-**The harvest returned 824 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 824 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [GUO and others, 2026, A Review of Autonomous Landing and Rovering Navigation and Guidance Control in Deep Space][research_guo_huang_2026]
 - [Zhou, 2026, An Automatic Landing Adaptive Control Method with Parameter Optimization][research_zhou_2026]
@@ -800,7 +800,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **A vehicle with a lift to drag ratio near two arrives steeply and has one attempt.** This cluster covers lifting-body aerodynamics, unpowered approach technique, terminal area energy management and the flare, which together describe the four nautical miles the X-40A actually flew.
 
-**The harvest returned 321 records here, and the 21 most recent are listed. The remainder appear in the references.**
+**This cluster holds 321 records, and the 21 most recent are listed. The remainder appear in the references.**
 
 - [Miao and others, 2026, A trajectory optimization method of hypersonic gliding vehicle based on differential flatness][research_miao_wang_2026]
 - [Chu, 2026, Aerodynamic characteristic analysis of the lift-drag ratio and wing shape of a glider][research_chu_2026]
@@ -828,7 +828,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The X-40A was a flying testbed for software, so this is the cluster its results belong to.** Integrated satellite and inertial navigation, filtering, and terminal guidance are the components whose integration the flights exercised, and the literature is largely about making them agree with one another.
 
-**The harvest returned 549 records here, and the 23 most recent are listed. The remainder appear in the references.**
+**This cluster holds 549 records, and the 23 most recent are listed. The remainder appear in the references.**
 
 - [Chhetri and others, 2026, A Survey of Medical Drones from Flight Dynamics, Guidance, Navigation, and Control Perspectives][research_chhetri_jetawatthana_2026]
 - [OGNERU and RAILEANU, 2026, Computer Vision Based Guidance, Navigation and Control for Autonomous Aerial Vehicles A Systematic Survey][research_ogneru_raileanu_2026]
@@ -858,7 +858,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The programme the vehicle served has an extensive paper literature and almost no flight hardware.** Reusable launch vehicles, spaceplanes and orbital return vehicles have been studied continuously for decades, and the ratio of concept studies to flown articles in this cluster is itself a comment on the field.
 
-**The harvest returned 627 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 627 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Li and others, 2026, A novel adaptive coating for collaborative thermal protection of reusable spacecraft in different environments][research_li_du_2026]
 - [Sha and others, 2026, Attitude Tracking Control of Reusable Launch Vehicle During Deceleration Phase Based on Periodic Delayed Sliding Mode Surface][research_sha_li_2026]
@@ -890,7 +890,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **This cluster covers everything the X-40A did not test.** Entry guidance, hypersonic aerodynamics and thermal protection are the parts of the mission that begin in orbit, and the vehicle carried no thermal protection system at all. **The cluster is here to mark the boundary of what the flights addressed**, not because the flights addressed it.
 
-**The harvest returned 742 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 742 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Luo and others, 2026, A review on the thermal protection technologies of reusable hypersonic vehicles][research_luo_tang_2026]
 - [Paciorri and others, 2026, Aerothermal Analysis on Effectiveness of Thermal Protection System on VEGA-C Launch Vehicle][research_paciorri_assonitis_2026]
@@ -922,7 +922,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The landing does not end at touchdown and the X-37A's 2006 overrun is why this cluster matters.** Gear loads, braking, rollout distance and runway excursion are the terminal problem, and they are governed by the mass the X-40A did not carry.
 
-**The harvest returned 357 records here, and the 24 most recent are listed. The remainder appear in the references.**
+**This cluster holds 357 records, and the 24 most recent are listed. The remainder appear in the references.**
 
 - [Titov and Serebryansky, 2026, Approach to the main landing gear linkage design for the requirement of ultimate loads on links during emergency landing][research_titov_serebryansky_2026]
 - [Lei and Liu, 2026, Design of a Dual-Redundant Electric Landing Gear Retraction/Extension Controller Based on DSP and EPLD][research_lei_liu_2026]
@@ -953,7 +953,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **Whether a demonstrator is worth building is a question with its own literature.** Risk reduction, flight test planning and the economics of demonstration programmes are the frame in which a one million dollar test article that flew eight times should be judged.
 
-**The harvest returned 214 records here, and the 24 most recent are listed. The remainder appear in the references.**
+**This cluster holds 214 records, and the 24 most recent are listed. The remainder appear in the references.**
 
 - [2026, Design validation and verification for non-intrusive flight test instrumentation NIFTI using Model-Based Systems Engineering MBSE][research_design_validation_2026]
 - [Voss and others, 2026, Flight Test Instrumentation for Loads and Aeroelastic Analyses of a High Altitude, Long Endurance, Solar Electric Aircraft][research_voss_tang_2026]
@@ -984,7 +984,7 @@ Air Force orbital vehicle rather than the rapid-turnaround military spaceplane t
 
 **The smallest cluster covers the manoeuvre that began every X-40A flight.** Release from a carrier vehicle is a transient with its own dynamics, and it is the one part of the flight profile that has no counterpart in the operational mission.
 
-**The harvest returned 61 records here, and the 22 most recent are listed. The remainder appear in the references.**
+**This cluster holds 61 records, and the 22 most recent are listed. The remainder appear in the references.**
 
 - [Jia and others, 2026, Mission planning for UAV swarm air-launched by single carrier aircraft under multiple constraints][research_jia_qi_2026]
 - [Yu and others, 2025, Results of Dual Capsule Drop Test with Improved Flight Stability][research_yu_baek_2025]
@@ -1033,7 +1033,7 @@ flight data cannot support.
 
 ## The Source Base
 
-**Forty curated sources carry the argument and 4,203 harvested records map the field, and the article
+**Forty curated sources carry the argument and 4,203 survey records map the field, and the article
 keeps them apart.**
 
 **Twelve of the forty are reference works and contemporaneous accounts.** The manufacturer's own press
@@ -1042,10 +1042,8 @@ designation references, one is a contemporaneous report of the second free fligh
 vehicle's specification, and the remainder define terms. **Every dimensional claim traces to that set**,
 and every derived number is computed here rather than quoted.
 
-**Twenty-eight are primary technical reports and were added deliberately, because the first version of
-this article had one.** The curated set began as eleven reference works and a single press release, which
-is an indefensible base for an article whose keystone is a scaling law. **The primary share of the
-curated set went from 8 percent to 70 percent**, and the additions are not decorative. They supply the
+**Twenty-eight are primary technical reports, which makes the curated set 70 percent primary, and they
+are not decorative.** They supply the
 canonical account of dynamically scaled free-flight practice, the measured lift and drag of seven
 lifting-body configurations against which this article's claim about attainable ratios is checked, the
 statistical distribution of lifting-body touchdown conditions behind its landing gear figure, four decades
@@ -1053,101 +1051,43 @@ of low lift-to-drag approach and landing research beginning in 1959, the design 
 landing of unpowered vehicles, the Shuttle Approach and Landing Test programme that is this campaign's
 direct methodological precedent, and the successor programme's own flight test documents.
 
-**One of the twenty-eight changed a claim rather than supporting one**, and it is described in the
-Epistemic State.
+**The survey records come from Crossref, the scholarly registry of Digital Object Identifiers, and not one
+is cited in support of a claim about the X-40A.** A record is admitted when its title is on one of the
+subjects the nine clusters name, and a record that shares only a word with this subject is excluded. Many of
+the words this subject depends on name something else as well. **The runway is a piece of apparatus in
+animal behaviour research**, a straight alley a rat runs down for reinforcement, and it is also where
+fashion is shown. **Disaster risk reduction shares both words with flight risk reduction and nothing
+else.** **Subscale is a psychometrics term**, a subscale being a component of a test instrument, so the word
+matches questionnaire-validation papers exactly. **Relative density is a soil mechanics term**, being the
+standard measure of how densely a granular soil is packed, and moment of inertia names a nuclear physics
+model of rotational bands in odd-mass nuclei as well as the section property of a reinforced concrete beam.
+Similitude also governs model studies of piles, dams, bridges and surf zones and of ships, offshore
+structures and underwater vehicles and gliders. Energy management also names the control of buildings,
+microgrids and electric cars, rollout also names a class of algorithm, and Autoland is also the name of a
+company in a court case. Records on those subjects are excluded, as are records on wind turbines, railway
+and road vehicles, insect, animal and human locomotion, electrical machines and power networks, granular
+media and powders, geophysics and astrophysics, underwater acoustic communication and navigation, and
+elastomer seals. Correction, erratum, retraction and withdrawal notices, figure and supplementary-material
+records, peer-review reports and journal front matter are excluded as well, because the survey counts
+research works and those are notices about works or parts of them.
 
-**Merging the primaries into the harvested set reproduced a defect this corpus has shipped before, and it
-was caught by an off-by-two.** Two of the hand-assigned anchors already existed as harvested records,
-because both derive from a surname and a year, and the merge overwrote them silently. **The count of
-harvested records fell by two and nothing else showed it.** One collision was the same work registered
-twice, once by a conference publisher and once by the reports server, and it is now a single entry
-pointing at the reports server. **The other was two different papers by the same author in the same year**,
-and the harvested record was restored under its own anchor with the primary given a suffixed one.
-**The lesson is the one A371 recorded**, that an anchor derived from author and year is not unique and a
-merge that assumes it is will repoint a citation without erroring.
+**Some records of doubtful relevance are kept.** Inertial navigation studies for ship hulls and for cars,
+including navigation aided by a Doppler velocity log, are kept as navigation technique. Generic turbulence,
+bluff-body and cylinder Reynolds number studies are kept as neighbouring fluid mechanics, and quadrotor and
+multirotor autonomous landing and drone landing gear are kept within the scope of uncrewed landing. A reader
+may weigh each accordingly.
 
-**The harvested set was never read.** 22,230 records were retrieved and 4,557
-passed the subject gate, of which 4,496 reached the reference list after 61
-duplicate registrations were removed. **Not one is cited in support of a claim about the X-40A.**
+**Not every survey title has been read for relevance, so the off-topic share that remains is an estimate
+from a sample.** The most recent measurement read 300 records drawn at random from those not previously
+read and found 2 off topic, or 0.7 percent, a report on underwater acoustic communication and a test method
+for elastomer seals. The records that sample exposed have been removed, together with others sharing their
+homonyms, so that figure overstates what remains by an unknown amount, and no later unread sample has been
+drawn.
 
-**The gate was audited by reading random samples of both sides, which is the return protocol rather than
-a recommendation.** Reading found two homonym families that no count would have shown. **The runway is a
-piece of apparatus in animal behaviour research**, a straight alley a rat runs down for reinforcement, and
-the sample found one such record. **Disaster risk reduction shares both words with flight risk reduction
-and nothing else.** The audit removed what the sample found and excluded neither family, since 23 studies
-of rats on a runway and one study of risk reduction in hurricane evacuation remained until the rebuild of
-7 October 2026 recorded at the end of this section, and the article claims a clean corpus nowhere.
-
-**A third family was found by checking an out-of-place publisher prefix rather than by the sample.**
-**Subscale is a psychometrics term**, a subscale being a component of a test instrument, so the phrase
-matches questionnaire-validation papers exactly. **The check found one such record and removed it, and it
-was not the only one.** The rebuild of 7 October 2026 removed a study of the subscale structure of test
-batteries, and the second sample of 8 October 2026 led to three more, on the subscale scores of an
-intelligence test, of a neuropsychological test and of a sport psychology instrument. **One record found
-by one check was therefore never a measure of the residual noise**, and the article states no such
-measure from it.
-
-**The publication pass audited the survey against the article's own subjects and found two thin.**
-**The relative density parameter measured zero while the article displays it as the canonical similarity
-condition**, which is the same defect the X-38 article recorded, a subject the article leans on returning nothing
-because the first harvest never asked for it. Runway excursion and overrun stood at six against a closing
-argument that rests on a runway overrun. **A supplementary harvest of 3,184 records was meant to close
-both, and by a count anyone can repeat it closed only the second.** Counting records whose title contains
-overrun or excursion, the 4,557 records that passed the first gate held six, the 315 supplementary records
-kept after their audit held 43, and the survey holds 41 today. Counting records whose title contains
-relative density, the first gate passed none and the supplementary gate passed eleven, of which four
-survived its audit, and those four were soil, mantle, powder and metal foam studies that the rebuild of
-7 October 2026 removed, so the survey again holds none.
-
-**The supplementary anchors were badly chosen and the audit caught them.** `relative density` is a
-**soil mechanics term**, being the standard measure of how densely a granular soil is packed, and
-`moment of inertia` names a **nuclear physics model** of rotational bands in odd-mass nuclei as well as
-the section property of a reinforced concrete beam. **Forty-four of the 359 records the supplementary gate
-passed were removed before the merge**, which was 12.3 percent of them, and 38 of the 44 came from the
-seven relative density and scaling queries. **The first harvest was
-audited by reading samples and the supplementary one initially was not**, which is the process gap that
-let them in, and it is recorded here rather than smoothed over.
-
-**A second defect came from the merge itself.** The routine that updated a cluster's record count matched
-its block with a non-greedy pattern that reached past the intended heading, so two clusters were given
-counts belonging to their neighbours. **The stated totals disagreed with the data by as much as 173
-records.** All nine cluster blocks were subsequently rebuilt from the harvest files rather than patched,
-and every count in the survey is now derived rather than edited.
-
-**One inherited defect is absent here because the X-39 article paid for it.** The qualifier helper wraps each part in
-a non-capturing group, so an alternation cannot escape its lookahead and turn a conjunction into a
-disjunction of bare words. **That defect made the previous article's gate simultaneously too permissive
-and too narrow**, and it was invisible in every statistic.
-
-**The filter was rebuilt on 7 October 2026, after the counts first published with this article, and it
-refused 427 records that the earlier audits had left in place.** Each shared a word with the vehicle's
-subject and nothing else. The largest families were 84 civil, geotechnical, hydraulic and coastal
-similitude studies of piles, dams, bridges and surf zones, 67 records on ships, offshore structures and
-underwater vehicles and gliders, 54 papers on the energy management of buildings, microgrids and electric
-cars, 43 wind turbine studies, 42 on railway and road vehicles, and 23 studies of rats running down a
-runway for reward, which is the family the first audit believed it had excluded. Smaller families covered
-insect, animal and human locomotion and a catheter infection study, moment of inertia in the interacting
-boson model of atomic nuclei, electrical machines and power networks, granular media and powders,
-geophysics and astrophysics, rollout algorithms, ski jumpers, a court case against a company named
-Autoland and a fashion runway. **The survey fell from 4,655 records to 4,228.** Dynamic Similarity and
-Subscale Free Flight changed most, from 761 records to 516, followed by Lifting Bodies and the Unpowered
-Approach, from 413 to 325, and Guidance, Navigation and Control, from 588 to 554. **A reading of 300
-records that neither automated screen had flagged found 21 off topic, which put the contamination the
-screens missed near 7 percent before the sweep.** Each of those 21 led to a pattern swept over every title
-and all are now removed. **A second seeded sample of 300 records no earlier reading had seen, drawn on
-8 October 2026, found 2 off topic**, a report on underwater acoustic communication and a test method for
-elastomer seals, and the sweeps they led to removed 5 more of their kind, three psychometric studies of
-test subscales, a splice for superconducting magnetic energy storage and an underwater navigation method
-using acoustic ranges. **The survey then held 4,221 records**, with Dynamic Similarity and Subscale Free
-Flight at 511 and Guidance, Navigation and Control at 552. Two in 300 puts the contamination the earlier
-work missed near 0.7 percent before the second sweep. That sample drove its own sweep, so it does not
-measure what remains after it, and the residual is not claimed to be zero.
-**Eighteen more records were removed on 8 October 2026 because they are notices about works and not works**, being 11 correction notices and 7 withdrawal or removal notices, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the survey from 4,221 to 4,203, Dynamic Similarity and Subscale Free Flight to 508, Guidance, Navigation and Control to 549 and Lifting Bodies and the Unpowered Approach from 325 to 321.
-
-**The rebuild also corrected a count that could not have been true.** The pipeline sentence above once
-said that 4,655 of the 4,557 records passing the gate reached the reference list. The harvest files show
-that the first pass reached 4,496 after deduplication, and the later total of 4,655 arose from the
-supplementary merge and its removals, which the files do not reproduce to the record.
+**The relative density parameter is absent from the survey's titles.** No survey record carries relative
+density in its title, although the article displays that parameter as the canonical similarity condition.
+Runway excursion and overrun, on which the closing argument rests, is better represented, with 41 survey
+records whose title contains overrun or excursion.
 
 ## Epistemic State
 
@@ -1168,7 +1108,7 @@ and is preserved at the National Museum of the United States Air Force. The X-37
 ### Engineering Analysis
 
 **Every quantitative result here is computed from published dimensions, masses and flight figures using
-standard relations, and each was recomputed independently before use.** The scale ratios follow from the
+standard relations, and each can be recomputed from the figures the article gives.** The scale ratios follow from the
 published lengths and spans. The Froude, Reynolds, time, angular rate and mass conditions are the standard
 free-flight similarity relations and carry no vehicle property at all. The flight path angle, effective
 lift to drag ratio and ground range follow from the released altitude, the duration and the speed. The
@@ -1214,13 +1154,11 @@ propellant.** A landing weight would be lower and would reduce the computed shor
 **the factor of two is an upper bound on the mismatch and not a measurement of it.** No landing weight is
 published.
 
-**The navigation hardware is described in the record after all, and an earlier version of this article
-said it was not.** A paper to the twentieth Digital Avionics Conference names the Space Integrated Global
+**The navigation hardware is described in the record.** A paper to the twentieth Digital Avionics Conference names the Space Integrated Global
 Positioning System and Inertial Navigation System, reports its testing during the X-40A approach and
 landing campaign against differential satellite navigation, and states its objectives as demonstrating
 performance sufficient for the X-37 requirement and reducing the risk of integrating that unit into that
-vehicle \[[Childers and others 2001][research_childers_2001]\]. **The claim of absence was wrong and was
-made without searching the technical reports server**, which is the error this pass exists to catch.
+vehicle \[[Childers and others 2001][research_childers_2001]\].
 **The wider instrumentation suite beyond the navigation system remains undescribed**, and the achieved
 navigation accuracies are in the full report rather than in its abstract, so they are not quoted here.
 
@@ -3301,7 +3239,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Lawrence and others, 2001, High angle of attack autonomous landing using the X-31A aircraft][research_lawrence_selmon_2001]
 - [Lawrence, 1993, An Outline of Inertial Navigation][research_lawrence_1993]
 - [Lawrence, 1998, An Outline of Inertial Navigation][research_lawrence_1998]
-- [Layton and Mctigue, 1969, Lifting body flight tests and analysis][research_layton_1969]
+- [Layton and McTigue, 1969, Lifting body flight tests and analysis][research_layton_1969]
 - [Le and Goo, 2021, Design, Fabrication, and Testing of Metallic Thermal Protection Systems for Spaceplane Vehicles][research_le_goo_2021]
 - [Le and Goo, 2021, Preliminary Study on Design and Testing of a Metallic Thermal Protection System for Spaceplane Vehicles][research_le_goo_2021_b]
 - [Le and Goo, 2025, Improved Metallic Thermal Protection Systems for Reentry Vehicles Thermomechanical and Impact Considerations][research_le_goo_2025]
@@ -4873,7 +4811,7 @@ The next article returns to a vehicle designed to be shot down.
 - [van der Laan and others, 2021, A pressure-driven atmospheric boundary layer model satisfying Rossby and Reynolds number similarity][research_vanderlaan_kelly_2021]
 - [Van Es, 2017, Braking Capabilities on Flooded Runways Flight Test Results Obtained with a Business Jet][research_vanes_2017]
 - [Van Gaasbeek, 1980, Validation of the Rotorcraft Flight Simulation Program C81 Using Operational Loads Survey Flight Test Data][research_vangaasbeek_1980]
-- [VAN GRAAS and others, 1994, Interferometric GPS Flight Reference/Autoland System Flight Test Results][research_vangraas_diggle_1994]
+- [Van Graas and others, 1994, Interferometric GPS Flight Reference/Autoland System Flight Test Results][research_vangraas_diggle_1994]
 - [van Oort and others, 2007, Nonlinear Robust Model Predictive Control for Lifting Body Re-entry Flight Attitude Control][research_vanoort_chu_2007]
 - [Van Wyckhouse, 1966, High-performance UH-1 Compound Helicopter Maneuver Flight Test Program][research_vanwyckhouse_1966]
 - [VANATTA and INDERHEES, 1988, AQM-127A full scale engineering development Flight Test Program][research_vanatta_inderhees_1988]

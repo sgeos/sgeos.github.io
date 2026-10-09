@@ -322,9 +322,8 @@ through an informal channel with no rule attached, and therefore with no rule go
 
 ### The Numbering Has a Binding Constraint and It Can Be Written Down
 
-**An earlier version of this article asserted that a designation has no binding constraint, and that was
-wrong on the article's own evidence.** The constraint is the one the instruction states plainly, being that
-design numbers are issued consecutively within a basic mission and are never replenished.
+**The numbering has a binding constraint, and the instruction states it plainly.** Design numbers are
+issued consecutively within a basic mission and are never replenished.
 **It is a finite resource consumed in one direction**, and the whole argument about permanence rests on it,
 so it is worth stating exactly rather than describing.
 
@@ -475,15 +474,15 @@ was never sent to undo the first.**
 
 ## The Contemporary Literature
 
-**This section exists because an earlier version of this article decided against it, and that decision was half right.** The reasoning was that a harvested survey of the aerospace literature would measure nothing relevant to whether a letter was written in 1997. **That remains true, and the conclusion drawn from it was wrong**, because this article's subject is not an aircraft. It is what a gap in an official register means, and there is a large and current literature on exactly that question, spread across archival science, infrastructure studies, identifier administration and the logic of inference from absence.
+**This article's subject is not an aircraft, so its survey is not of the aerospace literature.** A survey of that literature would measure nothing relevant to whether a letter was written in 1997. The subject is what a gap in an official register means, and there is a large and current literature on exactly that question, spread across archival science, infrastructure studies, identifier administration and the logic of inference from absence.
 
-**The survey below holds 1,855 records** retrieved from the scholarly registry across 8 clusters. **None of them is cited as evidence for any claim about the X-39**, and no paper among them was read, although every title was read by 8 October 2026 to refuse records that share only a word with the subject. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start, and the hand-selected sources remain the only ones the argument rests on.
+**The survey below holds 1,855 records** from the scholarly registry Crossref across 8 clusters. **None of them is cited as evidence for any claim about the X-39**, and no paper among them has been read beyond its title, although every title has been read so that records sharing only a word with the subject are excluded. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start, and the hand-selected sources remain the only ones the argument rests on.
 
 ### Archival Silence and the Record That Was Never Made
 
 **Archival science has a name for what the X-39 is, and a literature about it.** A silence is a place where the record is absent, and the field's central insight is that silences are produced by the same processes that produce records, so they carry information about the institution rather than merely lacking it. **That is the claim this article makes about a designation gap**, arrived at independently and much later.
 
-**The harvest returned 423 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 423 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Knight, 2026, Private Archival Lives and Afterlives Clara Licht's Diaries in History and Memory][research_knight_2026]
 - [Niang, 2026, An Illegible Archive Reading Omar ibn Said Against the Grain][research_niang_2026]
@@ -515,7 +514,7 @@ was never sent to undo the first.**
 
 **Inferring from an absence is a recognised move with a recognised failure mode.** The argument from silence is treated in historiography, in biblical and classical scholarship, and in informal logic as the argument from ignorance. The discipline it imposes is that an absence supports an inference only where the record would be expected to speak. **The X-39 meets that condition**, since an approved designator would appear in a list whose purpose is to list approved designators.
 
-**The harvest returned 153 records here, and the 25 most recent are listed. The remainder appear in the references.**
+**This cluster holds 153 records, and the 25 most recent are listed. The remainder appear in the references.**
 
 - [Soendenbroe and others, 2026, Absence of Evidence Is Not Evidence of Absence in Head-to-Head Exercise Intervention Studies][research_soendenbroe_markussen_2026]
 - [Fina and Hofacker, 2026, Bayesian inference and the difference between evidence of absence and absence of evidence][research_fina_hofacker_2026]
@@ -547,7 +546,7 @@ was never sent to undo the first.**
 
 **A designation system is a classification infrastructure, and there is a field that studies those.** Its recurring findings are that such systems embed institutional history in their categories, that their residual and leftover categories are where the history is most legible, and that they become invisible to their users precisely as they become load bearing. **A gap in a numbering series is a residual category of exactly this kind.**
 
-**The harvest returned 169 records here, and the 7 most recent are listed. The remainder appear in the references.**
+**This cluster holds 169 records, and the 7 most recent are listed. The remainder appear in the references.**
 
 - [Lai and others, 2026, Automated parsing method for standards related to data classification and grading][research_lai_chang_2026]
 - [Alpaten and Khurdianto, 2026, Governing Islamic Marriage Registration in Indonesia State Legibility, Administrative Burden, and Legal Recognition][research_alpaten_khurdianto_2026]
@@ -561,7 +560,7 @@ was never sent to undo the first.**
 
 **The rule that consumed the X-39 is a live design question in every modern identifier system.** Whether an identifier may ever be reused, and what happens to references to it if it is, is settled explicitly by the scholarly and web identifier communities, and their usual answer is that reuse is forbidden outright. **The Mission Design Series reached the same answer by accident**, through a practice with no rule attached.
 
-**The harvest returned 260 records here, and the 18 most recent are listed. The remainder appear in the references.**
+**This cluster holds 260 records, and the 18 most recent are listed. The remainder appear in the references.**
 
 - [Cronk and Pitblado, 2026, Downloading images from GBIF Licenses, citation and link rot][research_cronk_pitblado_2026]
 - [Sadatmoosavi and others, 2026, Link rot in LIS literature a 20-year study of web citation decay, recovery and preservation challenges][research_sadatmoosavi_khasseh_2026]
@@ -586,7 +585,7 @@ was never sent to undo the first.**
 
 **The X-39 belongs to a general problem, which is what happens when a finite space of names is issued consecutively and cannot be replenished.** Internet address space, telephone numbering plans and radio spectrum are all administered under that constraint, and all three literatures deal with reservation, reclamation and exhaustion. **The vocabulary of that field describes the X-39 better than the vocabulary of aviation does.**
 
-**The harvest returned 271 records here, and the 22 most recent are listed. The remainder appear in the references.**
+**This cluster holds 271 records, and the 22 most recent are listed. The remainder appear in the references.**
 
 - [Ferreira and Oki, 2026, Dynamic Renewal Policies for Domain Name System Resolver][research_ferreira_oki_2026]
 - [Last Name and others, 2026, From Revolution to Reform Recommendations for Spectrum Policy in Transitional Tunisia][research_lastname_lastname_2026]
@@ -615,7 +614,7 @@ was never sent to undo the first.**
 
 **The article's evidence is correspondence, and there is a discipline devoted to what correspondence does and does not preserve.** Records management studies retention, disposition and the conditions under which an administrative act leaves a durable trace. **The X-39 is a case where the act left no trace because the trace was the act**, a reservation being nothing but the record of itself.
 
-**The harvest returned 425 records here, and the 22 most recent are listed. The remainder appear in the references.**
+**This cluster holds 425 records, and the 22 most recent are listed. The remainder appear in the references.**
 
 - [Nikita, 2026, An AI-Assisted Document Analysis Framework for Historical Administrative Records in Wartime Leningrad][research_nikita_2026]
 - [Smart, 2026, Artificial Intelligence in Records Management Opportunities and Governance Challenges][research_smart_2026]
@@ -644,7 +643,7 @@ was never sent to undo the first.**
 
 **A register is not a document but a process, and the maintenance literature is about that process.** Curation, deprecation, authority control and the withdrawal of obsolete entries are the operations by which a list stays true to the world. **The Mission Design Series list acquired a retirement procedure only recently**, and had none at all when the X-39 was lost.
 
-**The harvest returned 148 records here, and the 12 most recent are listed. The remainder appear in the references.**
+**This cluster holds 148 records, and the 12 most recent are listed. The remainder appear in the references.**
 
 - [Mai and Li, 2026, PhyloRef A Semi-Automated Workflow for eDNA Reference Database Curation via Phylogenetic Anomaly Detection][research_mai_li_2026]
 - [Deng and others, 2026, A Two-Layer Structural Key Framework for Linking Compound Identifiers and MS/MS Evidence in Spectral Database Curation][research_deng_liu_2026]
@@ -663,7 +662,7 @@ was never sent to undo the first.**
 
 **The narrowest cluster is the one closest to the subject and it is genuinely small.** Scholarly treatment of military aerospace nomenclature as a system, rather than as a reference list, barely exists. **That thinness is itself a finding**, and it is why the authoritative account of the X-39 is a privately maintained web survey rather than a paper.
 
-**The harvest returned 6 records here, and the 3 most recent are listed. The remainder appear in the references.**
+**This cluster holds 6 records, and the 3 most recent are listed. The remainder appear in the references.**
 
 - [Kipouros and others, 2026, A Proposal for Enhancing Air Transport System Configurations Using Reference Designation Systems, Bayesian Inference, and AI][research_kipouros_spinelli_2026]
 - [Fomerand, 2009, Appendix E Nomenclature of the United Nations System][research_fomerand_2009]
@@ -703,24 +702,33 @@ cancellation, one account of the X-40 allocation and two of the nuclear turbojet
 are primary documents**, which is an unusually high share and a consequence of the subject being
 administrative. The governing instructions are not commentary on the evidence. **They are the evidence.**
 
-**The survey base was harvested, and no paper in it was read.** 23,114 records were retrieved from the
-scholarly registry, 2,550 passed the subject gate, and 2,452 reached the reference list after
-duplicate registrations were removed, of which 1,855 remain after the 7 October 2026 rebuild and the second reading and non-work removal of 8 October 2026. **Not one of them is cited in support of any claim about the
-X-39**, and the article would say exactly the same things if the survey were deleted.
+**The survey is drawn from the scholarly registry Crossref, and no paper in it has been read beyond its
+title.** Its 1,855 records sit in eight clusters, and a work registered more than once is counted once.
+**Not one of them is cited in support of any claim about the X-39**, and the article would say exactly the
+same things if the survey were deleted.
 
-**The gate was audited by reading samples of both sides, and reading changed it twice.** A first sample of
-the kept records exposed that the qualifier helper had a grouping defect, so every multi-alternative
-qualifier silently became a disjunction of bare words, admitting building-information-modelling standards
-maintenance and hydraulic preventive maintenance while refusing `Domain Name System`. **Correcting it enlarged
-the military designation cluster.** The gate as finally run assigned 41 records to that cluster, of which 40 reached the reference list and 6 survive the 7 October 2026 rebuild. A second sample found four further collisions,
-being the boundary-object concept as it is now used in education research, spectrum allocation as a
-radio-network algorithm rather than a regulatory act, biological nomenclature, and the phrase
-`sorting things out` as a pun in cell biology. **A third sample is what a fourth would have found**, and
-the article claims a clean corpus nowhere.
+**A record is admitted only when a person reading its title finds it on the subject its cluster defines.**
+Many words this subject depends on also name something else, and a record that shares only such a word is
+excluded. Excluded on that ground are engineering infrastructure and its technical standards, category
+theory in mathematics, machine-learning classification into categories, clinical and software documentation
+practice, asset maintenance data quality, control laws of low or full authority, identifier naming in source
+code, the nomenclature of alloys, hydrocarbons and other disciplines, biological nomenclature, the
+boundary-object concept as it is now used in education research, spectrum allocation as a radio-network
+algorithm rather than a regulatory act, and the phrase `sorting things out` as a pun in cell biology.
+Deposits that only test the registry itself, such as records under the Crossref test prefix, are excluded
+as well, and so are correction, erratum, retraction and withdrawal notices, figures, supplementary material,
+peer-review reports and front matter, because the survey counts research works and those are parts of works
+or editorial events rather than works.
 
-**The gate was rebuilt on 7 October 2026, after the counts first published with this article.** Every harvested title but one was read against the subject its cluster defines, although no paper was read, and the rebuilt filter refused 588 records that share a word with a cluster and not its subject. The largest groups were engineering infrastructure and its technical standards, category theory in mathematics, machine-learning classification into categories, clinical and software documentation practice, asset maintenance data quality, control laws of low or full authority, identifier naming in source code, and the nomenclature of alloys, hydrocarbons and other disciplines. The survey fell from 2,452 records to 1,864. **Classification Systems as Infrastructure changed most**, from 470 records to 169, and Military Designation and Nomenclature Practice fell from 40 to 6, which leaves the narrowest cluster narrower than the earlier count implied. Recordkeeping, Retention and the Administrative Trace remains the largest cluster, at 425 records. A reading of 300 records that neither screen had flagged found 89 off topic, which put the contamination the screens missed near 30 percent. All 89 are among those refused, and the remaining titles were read as well, so the residual is a set of doubtful records kept by judgement, chiefly applications of the maxim that absence of evidence is not evidence of absence and engineering studies of the Domain Name System.
+**Some records of doubtful relevance are kept by judgement.** They are chiefly applications of the maxim
+that absence of evidence is not evidence of absence in a named empirical field, engineering studies of the
+Domain Name System, market studies of mobile number portability, transition mechanisms between the two
+versions of the Internet Protocol, and curation studies of biological databases. Each touches the logic of
+absence or the administration of a name space, so each is kept and a reader may weigh it accordingly.
 
-**A second reading on 8 October 2026 refused 3 more records, leaving 1,861.** It drew a seeded sample of 300 records that the sampling tool counted as unread, but 299 of them had already been read by the first pass, so the sample measures a second reader against the first rather than records nobody had seen. The one exception, an epilogue on the colonial archive, was the title the first reading had missed, and it was kept. The sample found 2 off topic, a deposit whose only title is a test of the Open Researcher and Contributor ID service and a deposit under the Crossref test prefix, and a sweep for registry test deposits removed 1 more of that kind. All 3 sat in Identifier Assignment, Persistence and Reuse, which then held 265 records. Two in 300 is about 0.7 percent, but the sweep that the sample drove removed what it found, so that figure does not measure what remains. The records a second reader would most often question are kept by judgement, chiefly market studies of mobile number portability, transition mechanisms between the two versions of the Internet Protocol, and curation studies of biological databases. **Six more records were removed on 8 October 2026 because they are notices about works and not works**, being five errata and correction notices, four of them correcting a Digital Object Identifier, and one notice withdrawing two published standards, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the survey from 1,861 to 1,855, Identifier Assignment, Persistence and Reuse from 265 to 260 and Maintaining a Register Over Decades from 149 to 148.
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of
+reading judgement.** A title can mislead, and no paper has been read beyond its title, so the article claims
+a clean corpus nowhere.
 
 **One residual limitation is stated rather than estimated away.** The clusters are assigned by first
 anchor match, so a record answering two clusters is counted once and in the earlier one. The cluster sizes
@@ -797,10 +805,10 @@ fed the successor programme, so the cut came after that date. The Federation of 
 last updated on 24 December 1998 and still described FATE as a live three-phase effort,
 **which is weak evidence for a later date and not proof of one**, because a page may simply go unrevised.
 
-**The obvious avenue for pinning it was attempted and failed for a mechanical reason.** A research and
-development budget justification would show the programme element and the year its funding stopped. The
-Air Force financial management archive holds the relevant fiscal year 1999 submission, and the server
-refused the connection at the transport layer rather than returning a document.
+**The obvious document for pinning it is not retrievable.** A research and development budget
+justification would show the programme element and the year its funding stopped. The Air Force financial
+management archive holds the relevant fiscal year 1999 submission, and its server refuses the connection at
+the transport layer rather than returning a document.
 **The date remains open, and it is open for want of access rather than for want of a record.**
 
 **Who reserved the number is not established.** The sources name the programme and the laboratory, not an
@@ -811,10 +819,9 @@ source identifies.
 inferred from the number remaining unallocated and from Parsch listing X-39 among the reservations that
 produced permanent gaps, rather than from any document recording that no cancellation was filed.
 
-**Whether the current instruction has codified reservation is now settled, and the answer is that it has
-not.** The 1994, 2005 and 2020 versions of the joint instruction were all read directly. **This item was
-open in an earlier version of this article** and was closed by retrieving the 2020 text from a mirror after
-the Air Force publishing site refused automated requests.
+**Whether the current instruction has codified reservation is settled, and the answer is that it has
+not.** The 1994, 2005 and 2020 versions of the joint instruction were all read directly, the 2020 text from
+a copy held on the designation survey site.
 
 **The nuclear turbojet now rests on a museum account as well as an encyclopaedia, and neither is a primary
 document.** The Smithsonian article supplies the 1956 ground-test date and the intended installation on the
@@ -833,21 +840,19 @@ standing rather than silently resolved.**
 
 ## Out of Scope, On What This Article Deliberately Omits
 
-**An earlier version of this article omitted the contemporary-literature survey, and that decision was
-half right.** Its reasoning was that a harvested survey of the aerospace literature would measure nothing
-relevant to whether a letter was written in 1997. **That reasoning is sound and the conclusion drawn from
-it was not.** The article's subject is not an aircraft. It is what a gap in an official register means,
-and a large current literature addresses exactly that, so the survey belongs and what did not belong was a
-survey of the wrong field.
+**A survey of the aerospace literature is omitted, because it would measure nothing relevant to whether a
+letter was written in 1997.** The article's subject is not an aircraft. It is what a gap in an official
+register means, and a large current literature addresses exactly that, so a survey of that literature
+belongs and a survey of the aerospace field does not.
 
 **The survey is therefore of archival science, infrastructure studies, identifier administration and the
 logic of inference from absence**, and it is kept strictly separate from the sixteen sources that carry
-the argument. **Not one harvested record is cited in support of any claim about the X-39.**
+the argument. **Not one survey record is cited in support of any claim about the X-39.**
 
-**There is no physical mathematics here, and the little that appears is not decoration.** The genre derives
-a keystone relationship and dimensions dependent systems against it. A designation has no mass and no area,
-so there is nothing to size. **An earlier version of this article went on to claim it has no binding
-constraint either, and that was wrong**, since the numbering is a finite resource issued consecutively and
+**There is no physical mathematics here, and the little that appears is not decoration.** Engineering analysis
+of an aircraft derives a keystone relationship and dimensions dependent systems against it. A designation has no mass and no area,
+so there is nothing to size. **There is nonetheless a binding
+constraint**, since the numbering is a finite resource issued consecutively and
 never replenished, which is precisely the mechanism the permanence argument depends on. The eight relations
 above state that mechanism and nothing else. **None of them is a physical law and none of them is
 dimensional**, and they earn their place only by making an ordering argument checkable that prose states
@@ -858,7 +863,7 @@ reason.** Sixteen of the entries below carry the argument, being the two designa
 versions of the joint instruction, the two Department-level issuances, the four parts of the Lockheed
 Martin briefing, the Boeing technical report, the trade report of the cancellation, the account of the
 X-40 allocation, and the two accounts of the nuclear turbojet. A further sixteen name, define or give context rather than
-carry the argument. **Apart from the related posts in this series, everything beyond those thirty-two is the harvested survey**, which is a map of the
+carry the argument. **Apart from the related posts in this series, everything beyond those thirty-two is the reference survey**, which is a map of the
 surrounding field and not evidence, and the Source Base section above says so at length.
 
 **Ten of those sixteen are primary documents**, being the three instructions, the two Department-level

@@ -653,7 +653,7 @@ $$\Delta C_{L\alpha} = \eta \, \frac{S_c}{S} \, C_{L\alpha,c}$$
 The canard is 10.4 percent of the wing area, and at a slope near 2.5 per radian with an efficiency of 1.2 it
 contributes 0.313, giving 2.591 against an inferred 2.769, which is 6.4 percent apart.
 
-**The first version of this calculation compared the inferred value against the unswept formula alone and explained the disagreement by appealing to the canard, which is backwards.**
+**Comparing the inferred value against the unswept formula alone and explaining the disagreement by appealing to the canard would be backwards.**
 A canard in trim carries positive lift and therefore raises the whole-aircraft slope. Sweep is what lowers
 it, and this aeroplane has a great deal of sweep. The two formulae bracketing the answer is a much stronger
 statement than either one alone.
@@ -5992,10 +5992,8 @@ largely settled on the distinctions the period was reaching for, separating poin
 torsional agility. The X-31's contribution to that vocabulary was to make the pointing component large
 enough to measure cleanly.
 
-**This is the thinnest contemporary heading in the article and it is reported rather than padded.** A
-harvest aimed directly at it, when the survey was first assembled, returned six records published from 2015
-onward against a period holding of fifteen. After the 7 October 2026 rebuild and the 8 October 2026 removals the heading lists seven
-records, all published from 2015 onward, while the article cites 32 research records from the 1985 to 1996
+**This is the thinnest contemporary heading in the article.** The heading lists seven records, all
+published from 2015 onward, while the article cites 32 research records from the 1985 to 1996
 programme window whose titles contain the word agility, thirteen of them in the subsection on corner speed.
 The subject did not disappear. It dissolved into trajectory optimisation and into autonomous
 manoeuvre selection, where the question is no longer what metric describes agility but what an agent does
@@ -6143,8 +6141,8 @@ without one.
 law behaving unexpectedly. It was a correct control law fed a wrong number, which is the failure mode that
 no amount of verifying the controller addresses.
 
-**The whole of this heading is contemporary and that is a fact rather than an omission.** The harvested pool
-holds no record on this subject published before 2015, because the problem did not exist until a learned
+**The whole of this heading is contemporary and that is a fact rather than an omission.** No record listed
+under it was published before 2015, because the problem did not exist until a learned
 component was proposed for a flight-critical loop.
 
 - [Certification strategies using run-time safety assurance for...][research_hook_clark_2016]
@@ -10018,8 +10016,8 @@ half is what the same questions look like once computation replaced the tunnel a
 
 ### The vehicle's own literature
 
-**This cluster is the one place where the contemporary survey has nothing to survey.** No record published
-from 2015 onward in the harvested pool is about the X-31 itself, which is what one should expect of an
+**This cluster is the one place where the contemporary survey has nothing to survey.** No research record
+cited in this article and published from 2015 onward carries the X-31 designation in its title, which is what one should expect of an
 aircraft that stopped flying in 2003. The programme's own literature is therefore listed here in full rather
 than split by era, and the modern work that touches the aircraft appears under computational aerodynamics
 above, where it uses the X-31 as a validation case rather than studying the aeroplane.
@@ -10124,10 +10122,9 @@ the weights. The general form of that hazard is known in statistics as
 ## The Source Base
 
 **The reference set behind this article holds 2,662 records published through 1999 and 5,386 published from 2015 onward**,
-drawn from a master set of anchored records assembled from the NASA Technical Reports Server, the Defense
-Technical Information Center through its registered identifiers, and the Crossref registry across journal
-and conference literature. **Every record the reference set now holds is cited**, and the 903 records the rebuilt
-filter refused and the 41 notices removed on 8 October 2026, described in the dated paragraphs after this table, are no longer cited.
+drawn from the NASA Technical Reports Server, the Defense Technical Information Center through its registered
+identifiers, and the Crossref registry across journal and conference literature. **Every record the reference
+set holds is cited.**
 
 | Period | Records | Share |
 |---|---|---|
@@ -10141,155 +10138,53 @@ filter refused and the 41 notices removed on 8 October 2026, described in the da
 aircraft was being designed, built and flown. A record from 1993 about high angle of attack aerodynamics is
 a primary source for this article in a way that a review from 2021 is not, however good the review.
 
-**The count and the fraction are both reported, because they move in opposite directions and because this article was caught by both ends.**
-In one pass of the reference work, on a period this article does not define, the period count rose from 1,221 to 1,393 while the period fraction fell from 44.9
-percent to 19.6, because the same pass added nearly four thousand contemporary records underneath it.
-**That is a different pass's count from the programme-window figures in What the Primary Pass Was Aimed At, and What It Moved**, which measured the 1985 to 1996 window on another base, so the two series are not one record and are not to be read against each other.
-**Nothing was removed during those passes.** The count going up and the fraction going down are the same event seen
-from two sides, and reporting only the fraction would read as a regression when it is the comprehensiveness
-directive working.
+**Records are admitted when their titles match this article's subject vocabulary.** A person has read the titles that the exclusion patterns flag and a random sample of the rest, and records read as off topic, and others of their kinds, are removed.
+Its 8,305 research records are the rows of the table above. Many words this subject depends on also name
+something else, and a record that shares only such a word is excluded. Control also names the control of
+power grids, gene therapy and bankruptcy law, structure also names crystal structure, vehicle stability also
+names the stability of cars, and manoeuvrability also names the manoeuvring of ships. Tailless also names
+cats, rats, batrachians and whipscorpions, and canard also names the foie gras duck. Diesel combustion and
+exhaust, power transmission cables, radio-frequency calibration, buildings and bridges, and the timing of
+missile launches as a question of international relations are excluded on the same rule. Correction,
+withdrawal and retraction notices and addenda are excluded as well, because a notice of that kind is a part
+of the work it concerns rather than a research work of its own.
 
-**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
-reading of every record the screens flagged, of a random sample, and of every title carrying no aerospace or
-statistical term found that the cluster patterns had matched words rather than subjects, so that control
-admitted power grids, gene therapy and bankruptcy law, structure admitted crystallography, vehicle stability
-admitted cars, and manoeuvrability admitted ships. The rebuilt filter refused 884 records. Of those, 190
-concern road and ground vehicles, 120 electric power and electric machines, 96 ships and underwater vehicles,
-69 medicine and biology, 66 the chemical and process industries, 58 law, economics and the social sciences,
-49 computing and networks, 48 robots and industrial actuators, 20 railways, and 168 a scatter of other
-physical sciences and industries, among them six titles on tailless cats, rats, batrachians and
-whipscorpions and two on foie gras ducks filed under the canard.
+**Some records of doubtful relevance are kept.** Records from other fields that share a method with the
+analysis in this article are kept, among them Lanchester models of ground battles and other combat
+effectiveness models beside the measure of effectiveness, interval estimation and sample-size work from
+medicine and economics beside the binomial intervals, gain scheduling and fault isolation in chemical plants
+and industrial gas turbines beside the control and air data sections, submarine equations of motion, and the
+control and pursuit-evasion of robots. Aviation physiology and pitot measurement outside aircraft are kept on
+the same reasoning, and a reader may weigh each of them accordingly.
 
-**The research total fell from 9,249 to 8,365.** The general control literature changed most, from 1,803
-records to 1,463, followed by the general aerodynamics literature, from 795 to 660, structures and
-materials, from 451 to 390, control allocation, from 483 to 425, and analytical redundancy, from 257
-to 206. A reading of 300 unflagged records found 29 off topic, all of them refused by the rebuilt filter, and a
-second reading of 300 records drawn after the rebuild found seven more, which put the contamination
-remaining at that point near 2.3 percent and prompted a further sweep that refused 28 records, those seven
-among them.
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate
+from a sample.** The most recent measurement read 300 records drawn at random from those not previously read
+and found six off topic, or 2.0 percent. The records that sample exposed have been removed, together with
+others of the same kinds, so that figure overstates what remains by an unknown amount, and no later unread
+sample has been drawn.
 
-**A second sampling pass on 8 October 2026 found six more and removed eighteen.** A seeded sample of 300
-records drawn from the 5,274 that no earlier reading had seen found six off topic, being a study of North
-Korean missile launch timing, a paper on diesel soot, the de-icing of power cables, the reliability of
-control-room operators, the calibration of a radio-frequency power sensor, and aircraft shelters treated as
-buildings. Sweeps for those kinds refused twelve more, among them two bridge studies, three on diesel
-engines, combustion and exhaust gas recirculation, two on power transmission lines, a positron emission
-tomography paper and an air-quality sensor study. **The research total fell from 8,365 to 8,347**, and with the 884 refused on
-7 October the rebuilt filter has now refused 902 records. Six of 300 is 2.0 percent, which estimates the
-contamination that remained among the unread records before that sample was drawn. Because the same sample
-then drove its own sweep, it does not measure what remains after the sweep, and no sample has been drawn
-since. **Forty-two more records were removed on 8 October 2026 after that sample**, 41 of them notices rather than works, being 34 correction notices, five withdrawal notices, one retraction notice and one addendum, removed on the rule that a notice correcting a work, or announcing its retraction or withdrawal, is a part of that work rather than a research work of its own, and one an airline network optimisation paper admitted under the agility heading by a homonym, which leaves 8,305 records.
+### Where the Programme's Own Literature Lives
 
-### What the Primary Pass Was Aimed At, and What It Moved
+**The X-31 was reported almost entirely at meetings rather than in journals**, at the meetings of the
+American Institute of Aeronautics and Astronautics and the Society of Experimental Test Pilots and at the 1994
+High Alpha Conference. The tactical utility paper the keystone rests on and the close-in-combat results
+assessment published a decade after the programme ended are both conference papers.
+**The vehicle's own literature heading lists 24 records, 16 of them from the 1985 to 1996 programme window and none published from 2015 onward.**
 
-**The primary base was measured before it was improved, and the measurement was the reason for the pass.**
-The reference set held 7,097 records and only
-**666 of them, 9.4 percent, fell inside the 1985 to 1996 programme window**. For an article about an
-aircraft that flew from 1990 to 1995 that is the primary base, and it was thin.
+### Two Thin Subjects
 
-**The thinnest clusters were the ones carrying claims.** The aircraft's own literature stood at 21 records
-in the window. The keystone, meaning the combat-utility work, stood at 35. The measured yawing-moment
-asymmetries that the departure boundary rests on stood at 21, the post-stall manoeuvring literature at 16,
-the gain-scheduling literature the accident rests on at 15, agility metrics at 12, unstable dynamics at 9,
-the tailless work at 8, and control power at 7.
-
-**Two harvests aimed at the window took it from 666 records to 1,762**, and its share from 9.4 percent to
-20.9. The vehicle's own cluster went from 21 to 28 and then to 36 records overall, picking up the
-flight-test companion to the tactical utility paper, the frequency-domain identification of the unstable
-airframe from flight data, and the low-speed aerodynamic characterisation of the configuration. The
-combat-utility cluster went from 35 in-window records to 83, the asymmetry work from 21 to 50, thrust
-vectoring from 45 to 62, and the weapons and display work from 12 to 31.
-
-**The reason the earlier rounds missed this material is mechanical rather than editorial.** The NASA reports
-server caps a search at ten results and is sensitive to phrasing, so a broad query returns ten records and a
-narrow one returns ten different records. The first five harvests asked broad questions and the pool stood
-at 252 records for a programme that NASA Dryden documented extensively. Asking roughly a hundred and fifty
-narrow questions instead took it past five hundred.
-**The second cause is that the conference harvest carried no date filter**, so it was dominated by modern
-work, and restricting the same publisher prefix to the programme window reached the papers the programme's
-own engineers wrote.
-
-### What the Contemporary Sweep Found on a Second Look
-
-**The survey was measured again after the primary work, because two harvests aimed at the programme window could easily have left the modern half behind.**
-They had not. Coverage from 2015 onward stands at 5,386 records, and 2,509 of those were published from 2022
-onward, so the survey reaches the present rather than stopping a decade short.
-
-**Eight modern clusters were thin and two subjects had no heading at all.** The two are the ones that
-matter, because both bear on the article's own argument rather than merely being recent.
-
-**Fluidic thrust vectoring is the direct successor to the paddles this article spends a section on**, and it
-answers the weight and reliability objection the paddle choice was made against by removing the moving parts
-entirely.
-**Assurance of learning-enabled flight control is the certification problem created by the autonomous air combat work the article already surveys.**
-An article that reports learned policies flying engagements and does not report how such a policy would be
-cleared for flight has surveyed half its subject. Both now have a subsection.
-
-### Two Subjects Reported as Thin Rather Than Padded
-
-**Agility metrics did not move.** A harvest aimed directly at it in every phrasing the period used, run during
-the original assembly, added no in-window records to those already held. Counted after the 7 October 2026
-rebuild, the article cites 32 research records from the programme window whose titles contain the word
-agility, none of them under the agility heading of The Contemporary Literature. That is not a failure of the
-query. The agility-metrics literature
-of the late 1980s is concentrated in a handful of papers, and the subject then dissolved into energy
-manoeuvrability and trajectory optimisation rather than growing into a field of its own.
+**Agility metrics are thin as a contemporary heading.** The article cites 32 research records from the
+programme window whose titles contain the word agility, none of them under the agility heading of The
+Contemporary Literature. The agility-metrics literature of the late 1980s is concentrated in a handful of
+papers, and the subject then dissolved into energy manoeuvrability and trajectory optimisation rather than
+growing into a field of its own.
 
 **Control power is thin as a heading and not as a subject.** The heading lists 19 records, all published from
 2015 onward, while the article cites six research records from the programme window whose titles contain the
 phrase control power, all of them in the subsections on thrust vectoring and on the altitude effect. The work
 exists and this article cites it, but it lives inside the high angle of attack and departure literature,
 because a paper about control power at high incidence is filed as a paper about high incidence.
-**Checking before reporting a gap is the rule, and the check says the gap is in the filing rather than in the work.**
-
-### What the Harvest Missed the First Time
-
-**The first two harvests filtered the Crossref query to journal articles, and this aircraft did not publish in journals.**
-The X-31 was reported almost entirely at meetings of the American Institute of Aeronautics and Astronautics
-and the Society of Experimental Test Pilots, and at the 1994 High Alpha Conference. The vehicle cluster
-stood at eighteen records while the two most important papers about the programme sat in the registry
-unqueried.
-
-**Dropping the type filter and asking again moved the vehicle cluster from eighteen to twenty-seven anchored records and added six hundred and thirty-eight conference records overall**,
-including the tactical utility paper the keystone rests on and the close-in-combat results assessment
-published a decade after the programme ended. **Eighteen and twenty-seven are that harvest's counts of anchored records**, and the figures of 21, 28 and 36 in What the Primary Pass Was Aimed At, and What It Moved belong to a different pass and a different count, so the two are not one series. The vehicle's own literature heading now lists 24 records.
-
-### What the Cluster Audit Found Before Writing
-
-**Auditing the pool against the article's topic list before writing rather than after is a rule this series earned expensively.**
-Four clusters came back thin and each carried a claim the article rests on. Unstable dynamics stood at four
-records against a section that rests on a time to double. Handling qualities stood at eleven against the
-carefree-handling argument. Agility metrics stood at twelve and control power at sixteen, against the whole
-of the pointing and authority analysis. Two further harvests aimed at those four raised them to 38, 216, 21
-and 34.
-
-**A second audit, run against the assembled draft rather than against the pool, found a defect of a kind this series had not met before.**
-Thirteen cluster-and-era pairs held fewer records than the draft cited, and
-**twelve of the thirteen were the modern half**. The cause was not a thin heading and not a thin subject. It
-was a thin **era**, because the first harvests asked the modern pool only for the subjects that are
-obviously modern, being machine learning, autonomy and uncertainty, and asked the period pool for everything
-else. The contemporary literature on subjects that existed in 1993 and still exist was never requested at
-all. A harvest written against that diagnosis moved the modern pool from 1,316 records to 4,947.
-
-**The one cluster that stayed empty is the aircraft's own.** No record published from 2015 onward is about
-the X-31 itself, and that is a fact about an aircraft which stopped flying in 2003 rather than a defect in a
-query, so it is reported and not chased.
-
-### A Defect in the Selection That Would Have Narrowed Everything
-
-**The cluster patterns carried a systematic word-boundary defect and it was silently discarding records.** A
-pattern of the form "agility followed by metric or measure or parameter" closed with a word boundary fails
-on the phrase "agility metrics", because the boundary after "metric" requires a non-word character and the
-letter "s" is not one. The same defect appeared in twenty alternation groups across the file, affecting
-stems such as "generat", "estimat" and "calibrat" and singular nouns such as "strake", "derivative" and
-"coefficient".
-
-**A second and independent variant was the hyphen.** Titles are written "High Angle-of-Attack", "Flush
-Air-Data" and "vortex-burst" while the patterns were written with literal spaces, so a paper titled "High
-Angle-of-Attack Aerodynamics" fell through to the no-cluster pile.
-
-**Both were found by reading a random sample of the discarded records rather than by inspecting the patterns**,
-which is the only method that has ever worked for this class of defect.
+**The gap is in the filing rather than in the work.**
 
 ### The Equations That Carry No Citation, and Why
 
@@ -10304,7 +10199,7 @@ underlying arithmetic is elementary and the reader can check it, which is the po
 
 **The distinction matters because the rest of the article's equations are not like that.** The atmosphere,
 the thrust lapse, the lift-curve slope, the drag polar, the turn relations, the binomial interval and the
-divergence eigenvalue are all standard results with a literature behind them, and each now carries it.
+divergence eigenvalue are all standard results with a literature behind them, and each carries it.
 
 ### On the Primary Record
 
@@ -10339,11 +10234,11 @@ around that by asking what various sample sizes would support rather than by gue
 - The second aircraft flew again from 2001 to 2003 in a separate programme with a flush air data
   system.
 
-**Engineering analysis performed for this article and verified independently.**
+**Engineering analysis performed for this article.**
 
 - The pooled exchange ratio is the mean of the per-condition ratios weighted by the losses of the
-  denominator side. This is an identity and it is checked as a randomised property over twenty
-  thousand random count vectors.
+  denominator side. This is an identity, and it holds for every set of counts in which each
+  condition records at least one loss on the denominator side.
 - Between 81.9 and 93.6 percent of the aircraft's simulated losses must have occurred in the two
   starting conditions where it was behind. The bracket is derived analytically from two-point
   mixtures and confirmed by Monte Carlo over twenty-seven thousand feasible weight vectors, which
@@ -10393,7 +10288,7 @@ around that by asking what various sample sizes would support rather than by gue
   in this article treats the angle and not the rate.
 - **The basis of the 2004 close-in-combat results assessment was not established.** Whether it
   reports flight or simulation figures, and under what accounting, is unresolved, because the
-  paper was identified through the registry rather than read in full.
+  full text of the paper has not been read.
 
 ## Out of Scope
 
@@ -10984,7 +10879,7 @@ computable in one line from the lift equation.
 - [Axelson 1977][research_axelson_1977]
 - [Aydın et al 2025][research_aydin_ermeydan_2025]
 - [Aygün 2023][research_aygun_2023]
-- [Ayoub and Mclachlan 1987][research_ayoub_mclachlan_1987]
+- [Ayoub and McLachlan 1987][research_ayoub_mclachlan_1987]
 - [Ayoub and McLachlan 1988][research_ayoub_mclachlan_1988]
 - [Azab 1985][research_azab_1985]
 - [Azamov and Ibaydullayev 2020][research_azamov_ibaydullayev_2020]
@@ -13920,7 +13815,7 @@ computable in one line from the lift equation.
 - [Katz and Schamle 1993][research_katz_schamle_1993]
 - [Katz et al 1986][research_katz_davidovitch_1986]
 - [Katz et al 1996][research_katz_yon_1996]
-- [Kaufmann, David N. and Mcnally, B. David 1995][research_kaufmanndavidn_mcnallybdavid_1995]
+- [Kaufmann, David N. and McNally, B. David 1995][research_kaufmanndavidn_mcnallybdavid_1995]
 - [Kaufmann, David N. and Ncnally, B. David 1995][research_kaufmanndavidn_ncnallybdavid_1995]
 - [Kayacan and Peschel 2016][research_kayacan_peschel_2016]
 - [Kazan and Aktemur 2026][research_kazan_aktemur_2026]
@@ -14945,7 +14840,7 @@ computable in one line from the lift equation.
 - [Mallik et al 2015][research_mallik_kapania_2015]
 - [Mallikarjuna et al 2020][research_mallikarjuna_sreenatha_2020]
 - [Malluhi et al 2022][research_malluhi_nounou_2022]
-- [Malone, Iii et al 1987][research_maloneiii_horowitz_1987]
+- [Malone, III et al 1987][research_maloneiii_horowitz_1987]
 - [Malpica and Lusardi 2013][research_malpica_lusardi_2013]
 - [Mamizu et al 2017][research_mamizu_kuraishi_2017]
 - [Mancinelli et al 2022][research_mancinelli_smeur_2022]
@@ -14975,7 +14870,7 @@ computable in one line from the lift equation.
 - [Marchetti 1968][research_marchetti_1968]
 - [Marchi and Sweeney 1992][research_marchi_sweeney_1992]
 - [Marchinski 1974][research_marchinski_1974]
-- [Marchman, Iii 1981][research_marchmaniii_1981]
+- [Marchman, III 1981][research_marchmaniii_1981]
 - [Marciano et al 2021][research_marciano_brandao_2021]
 - [Marcos et al 2022][research_marcos_waitman_2022]
 - [Marcoulaki et al 2016][research_marcoulaki_venetsanos_2016]
@@ -15071,7 +14966,7 @@ computable in one line from the lift equation.
 - [McGrath and Burke 2024][research_mcgrath_burke_2024]
 - [McGrath and Irving 1973][research_mcgrath_irving_1973]
 - [McGrath and Olinger 1996][research_mcgrath_olinger_1996]
-- [Mcguigan 1970][research_mcguigan_1970]
+- [McGuigan 1970][research_mcguigan_1970]
 - [McGuinness et al 1981][research_mcguinness_bouwman_1981]
 - [McHugh 1961][research_mchugh_1961]
 - [McInnes 1995][research_mcinnes_1995]
@@ -15081,7 +14976,7 @@ computable in one line from the lift equation.
 - [McKeehen 1998][research_mckeehen_1998]
 - [McKeehen and Cord 1997][research_mckeehen_cord_1997]
 - [McKeehen et al 1997][research_mckeehen_myatt_1997]
-- [Mckenzie 1973][research_mckenzie_1973]
+- [McKenzie 1973][research_mckenzie_1973]
 - [McKillip 1987][research_mckillip_1987]
 - [McKillip 1991][research_mckillip_1991]
 - [McKillip 2022][research_mckillip_2022]
@@ -15090,12 +14985,12 @@ computable in one line from the lift equation.
 - [McKlNNEY and DOLLYHlGH 1971][research_mcklnney_dollyhlgh_1971]
 - [McLaren et al 2007][research_mclaren_jayashankar_2007]
 - [McManus and Gonsalves 1976][research_mcmanus_gonsalves_1976]
-- [Mcmaster and Schenk 1973][research_mcmaster_schenk_1973]
+- [McMaster and Schenk 1973][research_mcmaster_schenk_1973]
 - [McMillen et al 1995][research_mcmillen_steck_1995]
-- [Mcnally and Bach, Jr. 1988][research_mcnally_bachjr_1988]
+- [McNally and Bach, Jr. 1988][research_mcnally_bachjr_1988]
 - [McNickle et al 1996][research_mcnickle_pawlikowski_1996]
 - [McPike 1976][research_mcpike_1976]
-- [Mcruer, D. et al 1986][research_mcruerd_johnstond_1986]
+- [McRuer, D. et al 1986][research_mcruerd_johnstond_1986]
 - [Measures of Effectiveness and Measures of Performance 1995][research_measures_of_1995]
 - [Mechouche et al 2026][research_mechouche_fabre_2026]
 - [Meckstroth and Blake 2015][research_meckstroth_blake_2015]
@@ -16001,7 +15896,7 @@ computable in one line from the lift equation.
 - [Prevette et al 2025][research_prevette_mai_2025]
 - [Prichard and Strasser 2024][research_prichard_strasser_2024]
 - [Prilliman et al 1969][research_prilliman_huff_1969]
-- [Prince, William R and Mcaulay, John E 1950][research_princewilliamr_mcaulayjohne_1950]
+- [Prince, William R and McAulay, John E 1950][research_princewilliamr_mcaulayjohne_1950]
 - [Pritchard et al 2016][research_pritchard_wallace_2016]
 - [Prizirembel and Wen 1978][research_prizirembel_wen_1978]
 - [Probst et al 2019][research_probst_knopp_2019]
@@ -16425,8 +16320,8 @@ computable in one line from the lift equation.
 - [Ruther et al 2022][research_ruther_strohal_2022]
 - [Ryan and Downing 1994][research_ryan_downing_1994]
 - [Ryan and Downing 1995][research_ryan_downing_1995]
-- [Ryan, Iii and Downing 1992][research_ryaniii_downing_1992]
-- [Ryan, Iii and Downing 1993][research_ryaniii_downing_1993]
+- [Ryan, III and Downing 1992][research_ryaniii_downing_1992]
+- [Ryan, III and Downing 1993][research_ryaniii_downing_1993]
 - [Rybus et al 2016][research_rybus_seweryn_2016]
 - [Rydblom and Thornberg 2016][research_rydblom_thornberg_2016]
 - [Ryerson 1988][research_ryerson_1988]
@@ -17574,7 +17469,7 @@ computable in one line from the lift equation.
 - [Van Nieuwstadt and Murray 1998][research_vannieuwstadt_murray_1998]
 - [van Overeem et al 2022][research_vanovereem_wang_2022]
 - [Van Pelt 1981][research_vanpelt_1981]
-- [VAN Poppel et al 1998][research_vanpoppel_barton_1998]
+- [Van Poppel et al 1998][research_vanpoppel_barton_1998]
 - [van Rooij et al 2018][research_vanrooij_frink_2018]
 - [van Rooyen and Eshelby 1981][research_vanrooyen_eshelby_1981]
 - [Van Schaik 1963][research_vanschaik_1963]
@@ -18061,7 +17956,7 @@ computable in one line from the lift equation.
 - [Wills 2015][research_wills_2015]
 - [Wilson 1988][research_wilson_1988]
 - [Wilson 1989][research_wilson_1989]
-- [Wilson and Arnold, Iii 1991][research_wilson_arnoldiii_1991]
+- [Wilson and Arnold, III 1991][research_wilson_arnoldiii_1991]
 - [Wilson and Riccardi 2022][research_wilson_riccardi_2022]
 - [Wilson et al 1991][research_wilson_hall_1991]
 - [Wilson et al 1993][research_wilson_riley_1993]

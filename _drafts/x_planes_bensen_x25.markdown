@@ -441,7 +441,7 @@ Siacci][research_odom_1955_2], [Hodges 1957][research_hodges_1957], [Odom 1957][
 1965][research_connolly_1965], [Crowe 1967][research_crowe_1967], [Stilley 1967][research_stilley_1967],
 [Crowe et al 1968][research_crowe_1968],
 [Selberg and Nicholls 1968][research_selberg_nicholls_1968], [Squire
-1968][research_squire_1968], [Stengel 1968][research_stengel_1968], [Mclaren et al
+1968][research_squire_1968], [Stengel 1968][research_stengel_1968], [McLaren et al
 1969][research_mclaren_1969], [Schuyler 1969][research_schuyler_1969], [Abraham
 1970][research_abraham_1970], [Crowe and Carlson 1970][research_crowe_carlson_1970], [Hopke and Slattery
 1970][research_hopke_slattery_1970], [Phillips et al 1970][research_phillips_1970], [Rudinger
@@ -730,7 +730,7 @@ Operating tip speed for this class is near 400 feet per second, giving
 
 $$\Omega = \frac{V_{tip}}{R} = \frac{400}{10} = 40 \, \text{rad/s} = 382 \, \text{rpm}$$
 
-which is well below any compressibility concern, in [Mcdonnell Aircraft Corp St Louis Mo
+which is well below any compressibility concern, in [McDonnell Aircraft Corp St Louis Mo
 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950], [Powell 1959][research_powell_1959], [Sissingh
 1964][research_sissingh_1964], [Spencer et al 1969][research_spencer_1969], [Barry and Magliozzi
 1971][research_barry_magliozzi_1971], [Paglino and Beno 1971][research_paglino_beno_1971], [Stockman et al
@@ -1092,7 +1092,7 @@ gyroplane requires.
 That literature begins in the period work on gliding parachutes and flexible wings, in [Rogallo et al
 1960][research_rogallo_1960], [Francis M Rogallo 1962][research_francis_m_rogallo_1962], [Horton
 1962][research_horton_1962], [Ryan Aeronautical Co San Diego Ca
-1962][research_ryan_aeronautical_co_san_diego_ca_1962], [Taylor and Mcnulty
+1962][research_ryan_aeronautical_co_san_diego_ca_1962], [Taylor and McNulty
 1962][research_taylor_mcnulty_1962], [Johnson and Sleeman 1963][research_johnson_sleeman_1963], [Rogallo
 1963][research_rogallo_1963], [Libbey 1964][research_libbey_1964], [Parawing Patent Issued
 1966][research_parawing_patent_1966], [Forehand and Bair 1969][research_forehand_bair_1969], [Nicolaides and
@@ -1414,7 +1414,7 @@ Blade Element Momentum][research_yin_2025_2], [Yushan et al 2025][research_yusha
 
 ### The Rotor at One Percent of Sea Level
 
-**The equation pass added the relation that descent rate goes as one over the square root of density. That relation is now being tested at an extreme no terrestrial machine reaches.**
+**Descent rate goes as one over the square root of density, and that relation is now being tested at an extreme no terrestrial machine reaches.**
 
 A rotorcraft flying on Mars operates in roughly one percent of sea-level density. Everything this article
 derives about disc loading and descent follows the same algebra there, and the consequences are severe and
@@ -2297,10 +2297,9 @@ regardless. **On that accounting the rotor is worse than this article makes it l
 That asymmetry shapes the whole article and is worth stating plainly, so that a reader does not have to
 infer it from the reference list.
 
-**The vehicle itself has essentially no technical literature.** A harvested pool of 6,146
-records, swept across the NASA and Defense Technical Information Center archives and the journal literature,
-contains no title naming the X-25, Bensen or the Discretionary Descent Vehicle and **one** record on the stowable rotor
-seat, which is Hollrock and Barzda on the SAVER rather than on the X-25. There is no flight test
+**The vehicle itself has essentially no technical literature.** No research record cited in
+this article carries the X-25, Bensen or the Discretionary Descent Vehicle in its title, and **one** concerns
+the stowable rotor seat, which is Hollrock and Barzda on the SAVER rather than on the X-25. There is no flight test
 report, no aerodynamic data report and no programme summary in the open literature reached here.
 **The specifications in this article come from museum fact sheets and reference compilations, not from primary documents**,
 and where those disagree the article says so rather than choosing.
@@ -2309,35 +2308,23 @@ and where those disagree the article says so rather than choosing.
 theory, blade element theory, parachutes and escape systems are all well documented from the 1920s onward.
 **The article can derive everything about the concept and can verify almost nothing about the aircraft.**
 
-**The keystone is thin on primary sources and it is not a search failure.** Autorotation carries sixty-nine
+**The keystone is thin on primary sources.** Autorotation carries sixty-nine
 citations and twenty-one of them are primary, which is 30 percent against an article average near 46.
 Here a record is primary when it is a NASA or Defense Technical Information Center report or is dated 1975 or
 earlier, and it is an autorotation record when its title contains a word beginning autorotat, the word auto-rotative, a
-windmill or windmilling brake or rotor, or a power-off descent or rotor. Two
-harvests aimed squarely at the period reports, naming their own subjects instead of describing the topic,
-moved that count from sixteen to twenty-one and then stopped.
+windmill or windmilling brake or rotor, or a power-off descent or rotor.
 
-**The reason is a vocabulary that spans both eras rather than one written in the wrong decade.** The three
-preceding articles in this series each had a keystone cluster that was thin on **count** because the pattern
-used modern words for a period subject. Autorotation is not that case. It is a word the 1930s used and the
-2020s still use, so the query matched happily in both directions and
-**the larger and better-indexed modern computational literature simply crowded the period out**. The query
-succeeded and the balance failed, which is a different defect and is not curable by rephrasing.
-
-**The harvested pool itself is 29 percent primary on this topic and every primary in it is cited.** Of the
-73 autorotation records among its 6,146, 21 are primary and all 21 are cited. The four left uncited are three
-wind-turbine papers from 1985 onward and a wind tunnel study of a plate in autorotation.
-**That is a statement about what these archives contain and not about how they were searched**, and the
-article reports it rather than padding toward a band.
+**The likely reason is a vocabulary that spans both eras.** Autorotation is a word the 1930s used and the
+2020s still use, and on that shared word **the larger and better-indexed modern computational literature
+simply outnumbers the period work**. That is an inference about the literature and not a measurement of it.
 
 **One further topic is genuinely thin and one only appears to be, and the difference is worth stating.**
 
-**Rotor spin-up and prerotation stands at no record** after a harvest aimed at it using period
-vocabulary including prerotation, rotor starting and starting torque. Every title in the harvested pool that
-carries one of those words concerns something else, landing gear wheels, a twisting human trunk, eigenvalues
-or an induction motor. That is an archive limit and not a
-search failure, and it is the reason the spin-up section of this article reasons from energy rather than
-from measurement.
+**Rotor spin-up and prerotation stands at no record.** No research record cited in this article treats
+spinning a rotor up from rest, and no cited title carries the period vocabulary for it, which includes
+prerotation, rotor starting and starting torque. The word prerotation also names the prerotation of landing
+gear wheels and of the human trunk. The absence is the reason the spin-up section of this article reasons
+from energy rather than from measurement.
 
 **Stored rotor energy appears to stand at one record and does not really.** That count is of cited titles
 that join rotor or blade to inertia, kinetic energy or stored energy, or that name the autorotative index or a
@@ -2347,12 +2334,11 @@ paper on autorotative landing is a paper about spending exactly that energy. A d
 nearly empty while the subject is well covered. **A thin heading is not the same thing as a thin subject**,
 and the distinction is easy to get wrong in the direction of claiming a gap that is not there.
 
-One further caution belongs here. A pattern for this topic that included the word flywheel retrieved
+One further caution belongs here. The word flywheel also names
 **flywheel energy storage for spacecraft and power grids**, meaning containment rings and composite burst
 testing, which is a different discipline that happens to store energy in something that spins.
-**That homonym was created by the search rather than found in the archive**, and it was removed by reading
-the records rather than by any check. That first reading missed six of its records, which stayed in the survey
-until the rebuild of 7 October 2026, recorded at the end of this section, removed them.
+**That literature is a homonym of this subject rather than a part of it**, and no record of it is counted
+here.
 
 The period record generally is [B Natalia Perez Perez et al][research_b_natalia_perez_perez], [Brenda S
 Henderson et al][research_brenda_s_henderson], [Brett R. Hiller et al][research_brett_r_hiller], [Caleb Hull
@@ -2458,7 +2444,7 @@ High Performance Tandem][research_boeing_co_morton_pa_vertol_div_1961_3], [Boein
 1961][research_general_dynamics_astronautics_san_diegoca_1961], [Grant 1961][research_grant_1961],
 [Hashimoto 1961][research_hashimoto_1961], [Hausknecht and Vaitys 1961][research_hausknecht_vaitys_1961],
 [Heinrich 1961][research_heinrich_1961], [Ludi 1961][research_ludi_1961], [Marine Corps Equipment Board
-Quantico Va 1961][research_marine_corps_equipment_board_quantico_va_1961], [Mccarroll and Jackel
+Quantico Va 1961][research_marine_corps_equipment_board_quantico_va_1961], [McCarroll and Jackel
 1961][research_mccarroll_jackel_1961], [Neeb
 et al 1961][research_neeb_1961], [Norling 1961][research_norling_1961], [Putman 1961][research_putman_1961],
 [Sinacori and Lange 1961][research_sinacori_lange_1961], [Theodorsen and Nomicos
@@ -2502,7 +2488,7 @@ Rucker Al 1964][research_army_aviation_board_fort_rucker_al_1964], [Baron et al 
 Rotor blade harmonic air loading][research_miller_1964_2], [Miller 1964, Theoretical Determination
 of][research_miller_1964], [Schroers and Antoniou
 1964][research_schroers_antoniou_1964], [Spalding and Chi 1964][research_spalding_chi_1964],
-[VAN Wyckhouse and Cresap 1964][research_van_wyckhouse_cresap_1964],
+[Van Wyckhouse and Cresap 1964][research_van_wyckhouse_cresap_1964],
 [Vagianos and Rooney 1964][research_vagianos_rooney_1964], [Yeates 1964][research_yeates_1964], [Zimmerman
 and Weissenburger 1964][research_zimmerman_weissenburger_1964], [Zwieback 1964][research_zwieback_1964],
 [Aerodynamic Design and Performance 1965][research_aerodynamic_design_1965], [Berman
@@ -2584,7 +2570,7 @@ et al 1970][research_finnestead_1970], [Fosdick 1970][research_fosdick_1970], [G
 1970][research_gasaway_1970], [Harris et al 1970][research_harris_1970],
 [Horikawa 1970][research_horikawa_1970], [Jones 1970][research_jones_1970], [Jones and Rao
 1970][research_jones_rao_1970], [Laschka and Sensburg 1970][research_laschka_sensburg_1970], [Ling
-1970][research_ling_1970], [Lynn et al 1970][research_lynn_1970], [Mccallum 1970][research_mccallum_1970],
+1970][research_ling_1970], [Lynn et al 1970][research_lynn_1970], [McCallum 1970][research_mccallum_1970],
 [Metzger 1970][research_metzger_1970], [Nero 1970][research_nero_1970], [Porterfield and Alexander
 1970][research_porterfield_alexander_1970], [Richardson and Liiva 1970][research_richardson_liiva_1970],
 [Richardson et al 1970][research_richardson_1970], [Rinehart 1970][research_rinehart_1970], [Robinson
@@ -2894,7 +2880,7 @@ Puterbaugh 1988][research_law_puterbaugh_1988], [Nixon 1988][research_nixon_1988
 1988][research_obergefell_kaleps_1988], [Peters
 1988][research_peters_1988], [Reddy 1988][research_reddy_1988], [Schwartz 1988][research_schwartz_1988],
 [Srinivasan and McCroskey 1988, Navier-Stokes calculations of][research_srinivasan_mccroskey_1988_2],
-[Srinivasan and Mccroskey 1988, Navier-Stokes simulations of tip][research_srinivasan_mccroskey_1988],
+[Srinivasan and McCroskey 1988, Navier-Stokes simulations of tip][research_srinivasan_mccroskey_1988],
 [Thompson et al 1988][research_thompson_1988],
 [Amer 1989][research_amer_1989], [Baldwin and Flam
 1989][research_baldwin_flam_1989], [C S Lee 1989][research_c_s_lee_1989],
@@ -2940,8 +2926,8 @@ Flight][research_air_force_test_pilot_school_edwards_afb_ca_1991], [Attachment o
 1992][research_antaran_1992], [Bagai and Leishman 1992][research_bagai_leishman_1992], [Bill
 1992][research_bill_1992], [Britton 1992][research_britton_1992], [Cals Test Network Wright-Patterson Afb Oh
 1992, Technical Publication Transfer][research_cals_test_network_wright_patterson_afb_oh_1992_8],
-[Chattopadhyay and Jones 1992][research_chattopadhyay_jones_1992], [Curtiss and Mckillip
-1992][research_curtiss_mckillip_1992], [Ham and Mckillip
+[Chattopadhyay and Jones 1992][research_chattopadhyay_jones_1992], [Curtiss and McKillip
+1992][research_curtiss_mckillip_1992], [Ham and McKillip
 1992][research_ham_mckillip_1992], [Lake et al
 1992][research_lake_1992], [Noonan et al
 1992][research_noonan_1992], [Prieur
@@ -3059,36 +3045,29 @@ Jr 1977][research_peters_jr_1977], [Appendix Tables of
 1990][research_appendix_1990], [Johnson et al 1991][research_johnson_1991], [Johnson et al
 1993][research_johnson_1993], [Johnson et al 2002][research_johnson_2002].
 
-**The survey was rebuilt on 7 October 2026, because the harvest had admitted records that share a word with this subject and nothing else.**
-A re-reading of every research title refused 373 records, which takes the research set from 3,944 to
-3,571. The largest group is 83 papers on road vehicle occupants and traffic, admitted by the words
-occupant, crash and vehicle, followed by 41 on computing, robotics and industrial control, 36 on electric
-motors, generators and electronics, 36 in medicine, medical training and laboratory biology, among them two
-papers on a cardiac device named Parachute, and 30 on knee and ankle loading in sport, which the word
-landing brought in. Smaller groups include 31 on industrial machinery rotors, 7 papers on quantised vortex
-rings in superfluid helium, a botanical survey of the Samara Region, and 6 records on flywheel energy storage that the reading described in the flywheel caution earlier in this
-section had missed. The two prerotation records beside the spin-up citation were a study of trunk rotation and a
-note on eigenvalues, which is why that topic then stood at one record. The Field Around It lost 222
-records and The Source Base list lost 103, and Escape Systems Now went from 49 to 28. The research set was
-then 34.2 percent report-server records, with a median year of 2009. A reading of 300 unflagged records
-found 42 off topic before the rebuild, and a second reading of 300 further records after it found 11, which
-puts the contamination left by the first sweep near 4 percent. Those 11 and 8 more of their kind were then
-refused.
+**Records are admitted when their titles match this article's subject vocabulary.** A person has read the titles
+that the exclusion patterns flag and a random sample of the rest.
+Its 3,531 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
+journal literature. Of these, 34.5 percent are report-server records, and their median year is 2008. Many
+words this subject depends on also name something else, and a record that shares only such a word is
+excluded. Occupant, crash and vehicle also name road traffic safety, landing also names knee and ankle loading
+in sport, Parachute is also the name of a cardiac device, vortex ring also names the quantised vortex rings of
+superfluid helium, samara also names the Samara Region, prerotation also names the prerotation of landing gear
+wheels and of the human trunk, and rotor also names the rotors of electric machines and industrial machinery.
+Correction, erratum, clarification, retraction and withdrawal notices, figure, table and supplementary-material
+records, peer-review reports and journal front matter are excluded as well, because a survey counts research
+works and those are parts of works or editorial events rather than works.
 
-**A second sampling pass on 8 October 2026 refused 34 more records, which takes the research set from 3,571 to 3,537.**
-A second seeded sample of 300 records that no earlier reading had seen found 8 off topic, and those 8 were
-removed with 26 more found by sweeping each homonym, and the disciplines beside it, through the whole survey.
-The 33 removed from citation runs are 8 papers on sport, among them the long jump, ski jumping and soft tennis
-balls, 4 on industrial machinery rotors, 4 on electric machines, 3 on plant canopies under water, 3 in
-chemistry, among them a paper on propeller-shaped molecules, 3 on satellites and interstellar probes, 2 in
-medicine, one of them a third paper on the cardiac device named Parachute, 2 on air quality and vehicle
-exhaust, and one each on all-terrain vehicle safety, the toxicity of burning aircraft seat cushion material in
-rats, the thermal performance of a traditional house and flight and expulsion in East German prose. The
-thirty-fourth is the one record left beside the spin-up citation, which concerned the prerotation of landing
-gear wheels, so the spin-up topic now stands at no record. Six further records were removed on 8 October 2026 because a survey counts research works, and correction, erratum, clarification, retraction and withdrawal notices, figure, table and supplementary-material records, peer-review reports and journal front matter are parts of works or editorial events rather than works. They were three errata notices, one clarification notice, one withdrawal notice and one preface to a special issue, and the research set now holds 3,531 records, 34.5 percent of them report-server
-records, with a median year of 2008. The second sample found the contamination left by the first rebuild to be
-8 in 300, or 2.7 percent. Because that same sample chose the homonyms the sweep then removed, it does not
-measure what remains after the sweep, and no reading since has measured it.
+**Some records of doubtful relevance are kept.** Injury biomechanics under blunt impact, parachute physiology
+and equipment, helmet-mounted display optics, bird and insect flight aerodynamics, vortex rings in combustion
+and the dynamics of rotor systems in general each share either the physics of a rotor or a descent or the
+human side of an escape with this subject, so each is kept and a reader may weigh it accordingly.
+
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate
+from a sample.** The most recent measurement read 300 records drawn at random from those not previously read
+and found 8 off topic, or 2.7 percent. The records that sample exposed have been removed, together with others
+sharing their homonyms, so that figure overstates what remains by an unknown amount, and no later unread
+sample has been drawn.
 
 ## Epistemic State
 
@@ -3122,7 +3101,7 @@ technique and training requirements, combined with the absence of any aerodynami
 parachute is the historical answer to the Discretionary Descent Vehicle question is an inference from
 capability comparison, not from any documented decision connecting the two.
 
-**Two further inferences were added by the contemporary survey and are labelled here because they are the article's strongest claims and its least documented.**
+**Two further inferences come from the contemporary survey and are labelled here because they are the article's strongest claims and its least documented.**
 That a multirotor cannot autorotate follows from the stored-energy and disc-loading relations this article
 derives, applied to a configuration those relations describe accurately, but
 **no source consulted here states it as a finding and the airworthiness literature treats redundancy as a design choice rather than as a concession**.
@@ -3139,8 +3118,7 @@ engine was 72 or 90 horsepower. What the third ordered aircraft was and what bec
 parachute-cutaway sequence was ever demonstrated at all, as opposed to not being demonstrated at full scale.
 Whether any quantitative descent or glide measurement was taken and survives in a closed report.
 
-**Written from current knowledge.** The contemporary survey postdates the editorial date of this article,
-which is the series convention.
+**Written from current knowledge.** The contemporary survey postdates the editorial date of this article.
 
 ## Out of Scope
 
@@ -3945,7 +3923,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Cui et al 2027][research_cui_2027]
 - [Cummings 1982][research_cummings_1982]
 - [Curtiss 1973][research_curtiss_1973]
-- [Curtiss and Mckillip 1992][research_curtiss_mckillip_1992]
+- [Curtiss and McKillip 1992][research_curtiss_mckillip_1992]
 - [Curtiss et al 1984][research_curtiss_1984]
 - [Cusati et al 2023][research_cusati_2023]
 - [Cuyler Dull et al][research_cuyler_dull]
@@ -4450,7 +4428,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Ham 1984, Helicopter attitude stabilization][research_ham_1984]
 - [Ham 1984, Helicopter stall alleviation][research_ham_1984_2]
 - [Ham and Madden 1965][research_ham_madden_1965]
-- [Ham and Mckillip 1992][research_ham_mckillip_1992]
+- [Ham and McKillip 1992][research_ham_mckillip_1992]
 - [Ham et al 1995][research_ham_1995]
 - [Hammon and Horowitz 1990][research_hammon_horowitz_1990]
 - [Han 2018][research_han_2018]
@@ -5260,8 +5238,8 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Mazelsky 1983][research_mazelsky_1983]
 - [McAlister and Heineck 2002][research_mcalister_heineck_2002]
 - [McAnulty 1986][research_mcanulty_1986]
-- [Mccallum 1970][research_mccallum_1970]
-- [Mccarroll and Jackel 1961][research_mccarroll_jackel_1961]
+- [McCallum 1970][research_mccallum_1970]
+- [McCarroll and Jackel 1961][research_mccarroll_jackel_1961]
 - [McCarthy 1971][research_mccarthy_1971]
 - [McCarty 1978][research_mccarty_1978]
 - [McCarty et al 1959][research_mccarty_1959]
@@ -5269,7 +5247,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [McConnell and Das 2023][research_mcconnell_das_2023]
 - [McCormack 1972][research_mccormack_1972]
 - [McCormick and B. W. 1956][research_mccormick_b_w_1956]
-- [Mcdonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950]
+- [McDonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950]
 - [McDougall 1965][research_mcdougall_1965]
 - [McElreath et al 2020][research_mcelreath_2020]
 - [McEntire and Shanahan 1997][research_mcentire_shanahan_1997]
@@ -5282,7 +5260,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [McKercher et al 2024][research_mckercher_2024]
 - [McKillip 1996][research_mckillip_1996]
 - [McKinnon et al 2017][research_mckinnon_2017]
-- [Mclaren et al 1969][research_mclaren_1969]
+- [McLaren et al 1969][research_mclaren_1969]
 - [McLemore and Peterson 1960][research_mclemore_peterson_1960]
 - [McNulty 1988][research_mcnulty_1988]
 - [McVeigh and McHugh 1984][research_mcveigh_mchugh_1984]
@@ -6121,7 +6099,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Sreenivasulu et al 2021][research_sreenivasulu_2021]
 - [Sridharan and Govindarajan 2022][research_sridharan_govindarajan_2022]
 - [Srinivasan and McCroskey 1988, Navier-Stokes calculations of][research_srinivasan_mccroskey_1988_2]
-- [Srinivasan and Mccroskey 1988, Navier-Stokes simulations of tip][research_srinivasan_mccroskey_1988]
+- [Srinivasan and McCroskey 1988, Navier-Stokes simulations of tip][research_srinivasan_mccroskey_1988]
 - [St. Pierre et al 2015][research_st_pierre_2015]
 - [Stachiw et al 2021][research_stachiw_2021]
 - [Stainback 2001][research_stainback_2001]
@@ -6273,7 +6251,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Tardiff et al 2015][research_tardiff_2015]
 - [Tauby 1979][research_tauby_1979]
 - [Taylor 1958][research_taylor_1958]
-- [Taylor and Mcnulty 1962][research_taylor_mcnulty_1962]
+- [Taylor and McNulty 1962][research_taylor_mcnulty_1962]
 - [Taylor et al 1969][research_taylor_1969]
 - [Taylor et al 2024][research_taylor_2024]
 - [Technical and Economic Assessment 1976][research_technical_and_1976]
@@ -6375,7 +6353,7 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [van Gunsteren 1971][research_van_gunsteren_1971]
 - [van Leeuwen 1960][research_van_leeuwen_1960]
 - [Van Wyckhouse 1966][research_van_wyckhouse_1966]
-- [VAN Wyckhouse and Cresap 1964][research_van_wyckhouse_cresap_1964]
+- [Van Wyckhouse and Cresap 1964][research_van_wyckhouse_cresap_1964]
 - [Van Zante 2013][research_van_zante_2013]
 - [Van Zante and Thomas 2012][research_van_zante_thomas_2012]
 - [Vance 1973][research_vance_1973]

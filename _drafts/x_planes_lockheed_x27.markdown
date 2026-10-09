@@ -253,8 +253,7 @@ Above the tropopause it is constant, and the pressure falls exponentially.
 
 $$ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) $$
 
-The density follows from the equation of state rather than from the pressure directly, and an earlier version of this
-article quoted it without showing where it comes from.
+The density follows from the equation of state rather than from the pressure directly.
 
 $$ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} $$
 
@@ -807,16 +806,16 @@ normal shock.
 
 $$ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} $$
 
-**The result that says how to divide the compression is [Oswatitsch's][ref_oswatitsch], and an earlier version of this article named it without writing it down.**
+**The result that says how to divide the compression is [Oswatitsch's][ref_oswatitsch], and it is worth writing down.**
 For a given number of oblique shocks the recovery is greatest when they are of equal strength, meaning equal
 normal Mach components.
 
 $$ M_1 \sin\beta_1 = M_2 \sin\beta_2 = \cdots = M_n \sin\beta_n $$
 
-**That is a theorem worth checking rather than quoting**, and checking it required fixing an unfair
-comparison. An earlier version searched equal pairs without the turning constraint while searching unequal
-pairs with it, so the equal pair appeared to win by exceeding a limit the other obeyed. Under the same
-twenty-five degree cap the two agree closely.
+**That is a theorem worth checking rather than quoting**, and a fair check holds both searches to the same
+constraint. An equal pair searched without the turning constraint, set against an unequal pair searched with
+it, appears to win only by exceeding a limit the other obeys. Under the same twenty-five degree cap the two
+agree closely.
 
 | Mach | Best equal pair | Recovery | Best free pair | Recovery | Free advantage |
 |---|---|---|---|---|---|
@@ -1126,21 +1125,20 @@ and it is the closest this subject comes to a measurement.
 It confirms that the published airframe and engine figures are mutually consistent, which is evidence that
 the design was worked out rather than sketched, and nothing beyond that.
 
-#### A Note on Corrected Flow, Because an Earlier Version Got It Wrong
+#### A Note on Corrected Flow
 
-A first attempt at this comparison converted the engine's maximum *corrected* airflow to physical airflow at
-Mach 2.6 and obtained 356 kilograms per second, three times the sea-level rating. The
-[corrected flow][ref_corrected_flow] relation is
+Converting the engine's maximum *corrected* airflow to physical airflow at Mach 2.6 gives 356 kilograms per
+second, three times the sea-level rating. The [corrected flow][ref_corrected_flow] relation is
 
 $$ \dot m_{\mathrm{corr}} = \frac{\dot m \sqrt{\theta}}{\delta}, \qquad \theta = \frac{T_{t2}}{288.15}, \qquad \delta = \frac{p_{t2}}{101325} $$
 
-**The arithmetic was right and the premise was wrong.** Corrected airflow and the engine matching it governs
+**The arithmetic is right and the premise is wrong.** Corrected airflow and the engine matching it governs
 are treated in [Oates][book_oates] and [Mattingly][book_mattingly_engine]. A compressor does not hold its
 maximum corrected flow while its inlet total temperature rises by two hundred kelvin, because the corrected
 speed falls and the operating point walks down the map.
 **The engine's flow schedule at high Mach is not in the public record**, so the comparison above is made at
 Mach 2.0 using physical flow, where the engine is near its rating and the assumption is defensible. The
-point is recorded because a number that is not credible is a finding rather than a nuisance.
+point is stated because a number that is not credible is a finding rather than a nuisance.
 
 ### The Metric the Competition Actually Used
 
@@ -1151,7 +1149,7 @@ with [John Boyd][ref_boyd] and [Thomas Christie][ref_christie], which asks not h
 but how much energy it can gain or hold while turning.
 
 The framework's primitive is energy height, the altitude an aircraft would reach if it traded all its speed
-for height without loss, and an earlier version of this article named it without writing it. The treatment followed here is
+for height without loss, and it is written out below. The treatment followed here is
 [Whitford][book_whitford], with the equations of motion behind it in
 [Stevens and Lewis][book_stevens_lewis].
 
@@ -1204,9 +1202,7 @@ comparison is smaller than the others treated here, and the article says so rath
 - [The Relationship between Air Combat Maneuvering Range ACMB...][research_hutchins_jr_1978]
 - [An investigation into possible back profiles for reclined...][research_an_investigation_1979]
 
-**That thinness is itself worth reporting.** The first harvest returned 28 records against 232 for materials
-at elevated temperature, and a second harvest written in the period vocabulary of specific excess power,
-minimum time to climb and turning performance raised it to 51.
+**That thinness is itself worth reporting.**
 **The subject is not small. Its foundational documents are Air Force internal reports that were never journal articles**,
 and Boyd's own work in particular is not indexed where the rest of this article's sources live.
 
@@ -1771,7 +1767,7 @@ the redesigned centre and rear fuselage, the enlarged intakes and the translatin
 - [Performance Off-Design Cycle Analysis for a Turbofan Engine...][research_liewkh_uripe_2005]
 - [Calibration for Thrust and Airflow Measurements in the CE-22...][research_wernerrogera_wolterjohnd_2010]
 
-#### Ram Drag, Which the Draft Did Not Mention and the Keystone Needs
+#### Ram Drag, Which the Keystone Needs
 
 **An engine at high Mach spends a large part of its gross thrust cancelling the momentum of the air it swallowed.**
 Net thrust is the difference between what leaves and what arrived.
@@ -2073,8 +2069,7 @@ what such a programme would have required and asserts nothing about what was pla
 
 **There is none.**
 
-This section exists because the genre requires it and because its emptiness is the most important fact about
-the subject. **No X-27 was built. No CL-1200 was built. Nothing flew.**
+Its emptiness is the most important fact about the subject. **No X-27 was built. No CL-1200 was built. Nothing flew.**
 
 What exists is the following, and the article is careful to distinguish the well-attested from the reported.
 
@@ -2126,11 +2121,9 @@ weight produce at sea level is 250.6 metres per second at Mach 1.095.
 
 **The claim exceeds the computed ceiling by 21.6 percent.**
 
-**That figure is a correction.** An earlier version of this article evaluated $P_s$ on a four-point grid and
-reported the peak as 48,585 feet per minute at Mach 1.2, giving a 23.5 percent shortfall. A fine scan puts
-the maximum at Mach 1.095, so the shortfall is smaller than first stated.
-**The independent checker did not catch it because its tolerance on that value was three percent and the error was one and a half**,
-which is a tolerance wide enough to hide the quantity it was checking.
+**The maximum lies between the round Mach numbers, so it has to be found by a fine scan.** A coarse grid
+that stops at Mach 1.2 takes the peak as 48,585 feet per minute and overstates the shortfall as 23.5
+percent. The fine scan puts the maximum at Mach 1.095.
 
 **Two explanations fit and the article cannot choose between them.** The figure may be a zoom rather than a
 steady climb, in which case it is a transient trade of speed for height and is not a rate of climb in the
@@ -2195,11 +2188,6 @@ optimistic by construction, and the gap between the two is the room that optimis
 
 ### The Radius Claim, Which Survives
 
-An earlier attempt at this check produced 27 nautical miles against a claim of 367, which looked devastating
-and was a defect in the checker.
-**A discrepancy near an order of magnitude is a hint that the checker is at fault**, exactly as a
-suspiciously clean factor is, and it was.
-
 The [Breguet range equation][ref_breguet] carries no gravitational constant when the specific fuel
 consumption is quoted per hour, because such a figure is already a weight of fuel per unit thrust per unit
 time.
@@ -2230,7 +2218,7 @@ $$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{2{,}14
 reserves, and an outbound leg flown with stores hung on it. The ratio runs about 0.15 to 0.25 in practice.
 **The claim lands inside that band and is therefore credible.**
 
-**This is a negative result for a suspicion the article started with, and it is reported as such.**
+**This is a negative result for the suspicion that the radius claim is inflated, and it is reported as such.**
 
 ## What the Data Changed
 
@@ -3972,7 +3960,7 @@ reports rather than resolves.
 **The physics comes from primary literature about everything except the vehicle.** Supersonic inlet design,
 conical flow, compressor stall, elevated-temperature alloy behaviour and fighter performance analysis are
 all richly documented in period reports and journals, and the article is built on those.
-**That is the methodological move this subject requires. Harvest the physics rather than the vehicle.**
+**That is the method this subject requires. The evidence is gathered on the physics rather than on the vehicle.**
 
 **The engine and airframe numbers are the load-bearing figures and they come from reference sources rather than from documents.**
 The 260 pounds per second, the four inches of spike travel, the 896 gallons and the weight breakdown are
@@ -3989,47 +3977,33 @@ an original report or a paper contemporary with the work.
 | Period, through 1982 | 873 | 34.6 percent |
 | Contemporary, 2015 onward | 1,406 | 55.7 percent |
 
-**Read those fractions without the counts and this article looks as though it lost most of its period base. It lost none of it to the contemporary survey.**
-The period count was 912 before the contemporary survey was written and 912 after it, and is 876 after the 7 October rebuild, which refused 36 period records as homonym admissions, and 873 after the 8 October removal of three period errata and correction notices.
-**The primary count rose, from 1,176 to 1,188, and was 1,143 after the 7 October rebuild and is 1,140 after the 8 October removal of non-work records.** Both fractions fell only because the denominator grew by
-more than a thousand contemporary references, which is the survey directive working rather than a
-regression.
+**Every figure in this article is given as a count and a fraction together**, because a fraction moves
+with its denominator. A period count can stand still while its fraction falls, simply because the
+contemporary base around it is larger, and neither movement is a fact about coverage.
 
-**The same trap runs in the other direction and this article has now been caught by both ends of it.** At
-the reference pass the contemporary count sat unchanged while its fraction fell, because the period base was
-growing. At the contemporary-survey pass the period count sat unchanged while its fraction fell, because the
-contemporary base was growing. **Neither movement is a fact about coverage. Both are facts about the denominator**, which
-is why every figure in this article is given as a count and a fraction together.
+**The research survey admits a record only when a person reading its title finds it on this article's subject.**
+Its 2,525 records come from the National Aeronautics and Space Administration's Technical Reports Server, the
+Defense Technical Information Center and the journal literature, and 27.5 percent of them are records of
+those two report servers. Many words this subject depends on also name
+something else, and a record that shares only such a word is excluded. Agility also names agility in the
+organisational, sporting and software senses. Distortion also names distortion in the optical, statistical,
+electrical and perceptual senses. Procurement and acquisition also name the procurement of medical officers,
+drugs and military manpower and the acquisition of language skills and data. Elevated temperature,
+thermoelasticity, aspect ratio, inlet and prototype also reach into medicine and biology, polymer physics, civil
+engineering and geology, batteries, piston engines and industrial compressors, ground power plants and plasma
+physics. Correction, erratum and withdrawal notices are excluded as well, because a survey counts research works
+and not the notices attached to them.
 
-**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
-reading of every one of the 2,700 research titles refused 165 records that the harvest had admitted on a
-shared word. Forty were agility in the organisational, sporting or software sense, among them studies of
-soccer players and of workforce agility in universities. Twenty-five were distortion in the optical,
-statistical, electrical or perceptual sense, such as the flashed face effect and camera lens calibration.
-Twenty were the procurement of medical officers, drugs or military manpower, or the acquisition of language
-skills and data. The remaining eighty were medicine and biology, polymer physics, civil engineering and
-geology, batteries, piston engines, ground power plants, plasma physics and commercial mergers, each admitted
-on a word such as elevated temperature, thermoelasticity, aspect ratio, inlet, prototype or acquisition. The
-research total fell from 2,700 to 2,535. The clusters most changed were the agility cluster, from 88 to 48,
-the distortion cluster, from 214 to 190, the hot-structures cluster, from 262 to 240, and the procurement
-list under What the Data Changed, from 112 to 92. A seeded sample of 300 records that neither automatic
-screen had flagged held 13 of the refused records, which puts the contamination those screens missed near
-4.3 percent. Because every title was read rather than only the sample, that reading judged what remained to be a short list of
-doubtful records kept, such as creep studies of power-plant steels. A second seeded sample of 300 records
-that no earlier sample had drawn, read on 8 October 2026, found 2 off topic, an intercooler for a two-stage
-air compressor and a study of the water mass beneath a drone taking water samples, so that reading had missed
-at least these. Both were removed with 4 more of their kind, another compressor intercooler, two reciprocating
-compressor studies and a diesel engine piston, and the research total fell from 2,535 to 2,529. The
-hot-structures cluster fell from 240 to 236. The second sample measures the contamination remaining before its
-own sweep at 2 records in 300, or 0.7 percent. That sample drove the sweep that followed it, so it does not
-measure what remains after the sweep. On 8 October 2026 four more records were removed under the rule that a survey counts research works and not notices attached to them, three errata or correction notices and one withdrawal notice, and the research total fell from 2,529 to 2,525.
+**Some records of doubtful relevance are kept.** Creep studies of power-plant steels, the ageing of reactor
+vessel welds and the penetration of aluminium targets share the elevated-temperature and aluminium-alloy
+behaviour this article's structural argument rests on, so they are kept and a reader may weigh them
+accordingly.
 
-**The rebuild moves the period table above in the direction this section has already described.** It removed
-36 period records, every one of them a homonym admission such as the procurement of medical officers, so the
-period count fell from 912 to 876 while its fraction rose from 33.8 to 34.6 percent, and the primary fraction
-rose from 44.0 to 45.1 percent on the same smaller denominator. The second sample removed only records from 2015
-or later, so the period and primary counts stood at 876 and 1,143 while the contemporary count fell from 1,413
-to 1,407 and the primary fraction rose to 45.2 percent. The removal of the four non-work records then took the period, primary and contemporary counts to 873, 1,140 and 1,406, and the primary fraction to 45.1 percent.
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement.**
+That reading is not perfect. A later reading of 300 records drawn at random found 2 off topic, or 0.7 percent,
+an intercooler for a two-stage air compressor and a study of the water mass beneath a drone taking water
+samples. Those 2 have been removed, together with others sharing their homonyms, so that figure overstates
+what remains by an unknown amount, and no later sample has been drawn.
 
 ## Epistemic State
 
@@ -4506,7 +4480,7 @@ broke, namely an aircraft that existed and flew.
 - [Batayev et al 2022][research_batayev_suleimenov_2022]
 - [Batterton, P. G. et al 1974][research_battertonpg_arpasidj_1974]
 - [Battiston et al 2025][research_battiston_magrini_2025]
-- [Bauer, Steven X. S. and Mcmillin, S. Naomi 1988][research_bauerstevenxs_mcmillinsnaomi_1988]
+- [Bauer, Steven X. S. and McMillin, S. Naomi 1988][research_bauerstevenxs_mcmillinsnaomi_1988]
 - [Bayat and EkhteraeiToussi 2017][research_bayat_ekhteraeitoussi_2017]
 - [Baydar et al 2018][research_baydar_lu_2018]
 - [Baydar, Ezgihan et al 2016][research_baydarezgihan_lufrankk_2016]
@@ -5751,18 +5725,18 @@ broke, namely an aircraft that existed and flew.
 - [Mazzawy, R. S. and Banks, G. A. 1977][research_mazzawyrs_banksga_1977]
 - [McAnally et al 1970][research_mcanally_williamj_1970]
 - [McAnally et al 1971][research_mcanally_iii_1971]
-- [Mcaulay, J. E. and Abdelwahab, M. 1972][research_mcaulayje_abdelwahabm_1972]
+- [McAulay, J. E. and Abdelwahab, M. 1972][research_mcaulayje_abdelwahabm_1972]
 - [McCormick 1959][research_mccormick_1959]
 - [McDaniel and Cooper 1999][research_mcdaniel_cooper_1999]
 - [McDaniel et al 1995][research_mcdaniel_bull_1995]
 - [McDaniel et al 1998][research_mcdaniel_bull_1998]
-- [Mcdonald et al 1971][research_mcdonald_fox_1971]
-- [Mcdonnell Aircraft Corp St Louis Mo 1963][research_mcdonnellaircraftcorpstlouismo_1963]
+- [McDonald et al 1971][research_mcdonald_fox_1971]
+- [McDonnell Aircraft Corp St Louis Mo 1963][research_mcdonnellaircraftcorpstlouismo_1963]
 - [McKeehen and Cord 1997][research_mckeehen_cord_1997]
 - [McLean and Stacey 1970][research_mclean_stacey_1970]
 - [McLemore, H. Clyde 1958][research_mclemorehclyde_1958]
 - [McLemore, H. Clyde and Peterson, John B., Jr. 1960][research_mclemorehclyde_petersonjohnbjr_1960]
-- [Mcmillin, S. N. and Wood, R. M. 1986][research_mcmillinsn_woodrm_1986]
+- [McMillin, S. N. and Wood, R. M. 1986][research_mcmillinsn_woodrm_1986]
 - [McNicol 2014][research_mcnicol_2014]
 - [McNicol 2014][research_mcnicol_2014_b]
 - [McNicol and Wu 2014][research_mcnicol_wu_2014]

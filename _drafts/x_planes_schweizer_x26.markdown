@@ -163,13 +163,13 @@ coefficient at which it occurs is
 
 $$C_L^{\ast} = \sqrt{\pi (0.90)(18.1)(0.012)} = 0.784$$
 
-**A check on the quoted numbers that initially failed and then did not.** At the 1,430 pound gross weight
+**The quoted numbers agree with the relation once each is paired with the weight it belongs to.** At the 1,430 pound gross weight
 the best-glide speed comes out at 62.9 miles per hour against a quoted 55.9, which is 13 percent adrift. The
 same sources quote a wing loading of 6.0 pounds per square foot, which is about 1,080 pounds and not the
 gross weight at all.
 **At that lighter weight the relation gives 54.7 miles per hour against the quoted 55.9, which is agreement to two percent.**
-The quoted performance is a one-pilot number and the discrepancy was in the reading rather than in the
-aircraft.
+The quoted performance is a one-pilot number, so the discrepancy at gross weight comes from pairing it with
+the wrong weight rather than from the aircraft.
 
 The wing itself, and what a large aspect ratio buys and costs, is [Robert Bartels and Kevin
 Jacobson][research_robert_bartels_kevin_jacobson], [Sibert 1943][research_sibert_1943], [Deyoung and Harper
@@ -195,9 +195,9 @@ By][research_the_art_1939], [Turner 1942][research_turner_1942], [Klemin and Wal
 [Raspet 1952][research_raspet_1952], [Reussner 1953][research_reussner_1953], [Brown
 1954][research_brown_1954], [MacCready 1962][research_maccready_1962], [Quinn 1963][research_quinn_1963],
 [Ryan Aeronautical Co San Diego Ca 1963][research_ryan_aeronautical_co_san_diego_ca_1963], [Sailplane Trip
-Difficult 1963][research_sailplane_trip_1963], [Pennycuick 1972][research_pennycuick_1972], [Mcmasters and
+Difficult 1963][research_sailplane_trip_1963], [Pennycuick 1972][research_pennycuick_1972], [McMasters and
 Palmer 1975][research_mcmasters_palmer_1975], [Pierson 1977][research_pierson_1977], [Bennett 1978, Pilot evaluation of sailplane][research_bennett_1978],
-[Mcmasters 1979][research_mcmasters_1979], [Muser 1979][research_muser_1979], [Pierson and Chen 1979,
+[McMasters 1979][research_mcmasters_1979], [Muser 1979][research_muser_1979], [Pierson and Chen 1979,
 Minimum Altitude-Loss Soaring in][research_pierson_chen_1979], [Pierson and Chen 1979, Minimum
 Landing-Approach Distance][research_pierson_chen_1979_2], [Sliwa and Sliwa 1979][research_sliwa_sliwa_1979],
 [Turriziani 1979][research_turriziani_1979], [Janzen and Precourt 1989][research_janzen_precourt_1989],
@@ -272,7 +272,7 @@ Simplification of Lateral 1936][research_the_simplification_1936], [National Adv
 1937][research_platt_shortal_1937], [Bergen and Arnold 1940][research_bergen_arnold_1940], [Purser
 1941][research_purser_1941], [Wenzinger and Rogallo 1941][research_wenzinger_rogallo_1941], [Arnold
 1942][research_arnold_1942], [Phillips 1942][research_phillips_1942], [Kemp 1943][research_kemp_1943],
-[Krzywoblocki 1943][research_krzywoblocki_1943], [Mckee 1943][research_mckee_1943], [Toll
+[Krzywoblocki 1943][research_krzywoblocki_1943], [McKee 1943][research_mckee_1943], [Toll
 1943][research_toll_1943], [Becker and Korycinski 1944][research_becker_korycinski_1944], [Braslow
 1944][research_braslow_1944], [Christophersen and Spahr 1944][research_christophersen_spahr_1944], [Luoma
 1944][research_luoma_1944], [Murray and Warren 1944][research_murray_warren_1944], [Rosenberg
@@ -341,7 +341,7 @@ Simplification of Lateral 1936][research_the_simplification_1936], [National Adv
 1937][research_platt_shortal_1937], [Bergen and Arnold 1940][research_bergen_arnold_1940], [Purser
 1941][research_purser_1941], [Wenzinger and Rogallo 1941][research_wenzinger_rogallo_1941], [Arnold
 1942][research_arnold_1942], [Phillips 1942][research_phillips_1942], [Kemp 1943][research_kemp_1943],
-[Krzywoblocki 1943][research_krzywoblocki_1943], [Mckee 1943][research_mckee_1943], [Toll
+[Krzywoblocki 1943][research_krzywoblocki_1943], [McKee 1943][research_mckee_1943], [Toll
 1943][research_toll_1943], [Becker and Korycinski 1944][research_becker_korycinski_1944], [Braslow
 1944][research_braslow_1944], [Christophersen and Spahr 1944][research_christophersen_spahr_1944], [Luoma
 1944][research_luoma_1944], [Murray and Warren 1944][research_murray_warren_1944], [Rosenberg
@@ -430,7 +430,7 @@ II. Flying Qualities][research_air_force_test_pilot_school_edwards_afb_ca_1990_5
 Motion Sensitivity to][research_butler_1976_2], [Butler and Langham 1978][research_butler_langham_1978],
 [Velger and Shinar 1983][research_velger_shinar_1983].
 
-### An Index, and the Term That Was Missing From It
+### An Index, and the Term It Cannot Omit
 
 Multiplying the two effects gives a rough index of how observable the phenomenon is, which comes out at
 **seventy-five**. Written as a scaling,
@@ -439,9 +439,9 @@ $$\beta \, t \propto \frac{(W/S) \, b}{V^3 C_{n_\beta}}$$
 
 **The helix angle cancels out of that expression entirely**, which is not obvious and is worth saying,
 because it means the comparison does not depend on how powerful the ailerons are.
-**A first version of this scaling omitted the directional stiffness and disagreed with the worked cases by exactly a factor of two**,
-which is the ratio of the two aircraft's assumed $C_{n_\beta}$ and was the clue that something had been
-dropped.
+**Without the directional stiffness this scaling disagrees with the worked cases by exactly a factor of two**,
+which is the ratio of the two aircraft's assumed $C_{n_\beta}$, so the stiffness is an essential term and
+not a refinement.
 
 ### How Slowly the Demonstration Could Be Flown
 
@@ -474,9 +474,9 @@ Sailplane as a 1948][research_the_sailplane_1948], [Johnson 1949][research_johns
 [Raspet 1952][research_raspet_1952], [Reussner 1953][research_reussner_1953], [Brown
 1954][research_brown_1954], [MacCready 1962][research_maccready_1962], [Quinn 1963][research_quinn_1963],
 [Ryan Aeronautical Co San Diego Ca 1963][research_ryan_aeronautical_co_san_diego_ca_1963], [Sailplane Trip
-Difficult 1963][research_sailplane_trip_1963], [Pennycuick 1972][research_pennycuick_1972], [Mcmasters and
+Difficult 1963][research_sailplane_trip_1963], [Pennycuick 1972][research_pennycuick_1972], [McMasters and
 Palmer 1975][research_mcmasters_palmer_1975], [Pierson 1977][research_pierson_1977], [Bennett 1978, Pilot evaluation of sailplane][research_bennett_1978],
-[Mcmasters 1979][research_mcmasters_1979], [Muser 1979][research_muser_1979], [Pierson and Chen 1979,
+[McMasters 1979][research_mcmasters_1979], [Muser 1979][research_muser_1979], [Pierson and Chen 1979,
 Minimum Altitude-Loss Soaring in][research_pierson_chen_1979], [Pierson and Chen 1979, Minimum
 Landing-Approach Distance][research_pierson_chen_1979_2], [Sliwa and Sliwa 1979][research_sliwa_sliwa_1979],
 [Turriziani 1979][research_turriziani_1979], [Janzen and Precourt 1989][research_janzen_precourt_1989],
@@ -673,12 +673,12 @@ high-rise][research_ko_1975], [Large 1975][research_large_1975], [Morgan and Har
 1981][research_galloway_bennett_1981], [Marsh 1981][research_marsh_1981], [Morfey and Howell
 1981][research_morfey_howell_1981], [Vulkan and Hyde 1981][research_vulkan_hyde_1981], [Knowd
 1982][research_knowd_1982], [Ruijgrok 1983][research_ruijgrok_1983], [Willshire
-1983][research_willshire_1983], [Mccurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
+1983][research_willshire_1983], [McCurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
 [Yeow 1984][research_yeow_1984], [Melton 1985][research_melton_1985], [Raw and Griffiths
 1985][research_raw_griffiths_1985], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987],
 [Ali 1989][research_ali_1989], [Fidell et al 1989, Initial
 Development of an][research_fidell_1989_2], [Fidell et al 1989, Noise and Sonic Boom
-Impact][research_fidell_1989], [Mccurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
+Impact][research_fidell_1989], [McCurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
 [Kelly 1993][research_kelly_1993], [Fidell et al
 1998][research_fidell_1998].
 
@@ -784,7 +784,7 @@ Thai et al][research_austin_d_thai], [Deming 1937][research_deming_1937], [Regie
 1980][research_ruijgrok_1980], [Runyan 1980][research_runyan_1980], [Succi 1981][research_succi_1981],
 [Johnston and Donham 1982][research_johnston_donham_1982], [Šulc et al 1982][research_sulc_1982], [Hanson
 1983][research_hanson_1983], [Hanson 1985][research_hanson_1985], [Hanson and Magliozzi
-1985][research_hanson_magliozzi_1985], [Mccurdy 1985][research_mccurdy_1985], [Block
+1985][research_hanson_magliozzi_1985], [McCurdy 1985][research_mccurdy_1985], [Block
 1986][research_block_1986], [Lester and Fuller 1986][research_lester_fuller_1986], [Fuller and Jones
 1987][research_fuller_jones_1987], [Kallergis 1987][research_kallergis_1987], [Pope et al 1987, Propeller
 aircraft interior noise][research_pope_1987], [Pope et al 1987, Propeller aircraft interior
@@ -797,7 +797,7 @@ noise][research_pope_1987_2], [Amiet 1988][research_amiet_1988], [Chapman 1988][
 1990][research_bullmore_1990], [Elliot et al 1990][research_elliot_1990], [Eversman
 1990][research_eversman_1990], [Salikuddin et al
 1990, Application of active noise][research_salikuddin_1990], [Dittmar and Hall
-1991][research_dittmar_hall_1991], [Mccurdy 1991][research_mccurdy_1991], [Envia 1992][research_envia_1992],
+1991][research_dittmar_hall_1991], [McCurdy 1991][research_mccurdy_1991], [Envia 1992][research_envia_1992],
 [Donald B Hanson and David J Parzych 1993][research_donald_b_hanson_david_j_parzych_1993] and [Rice
 1946][research_rice_1946], [Hanks
 1956][research_hanks_1956], [Kitts and Lucas 1963][research_kitts_lucas_1963], [Bogdanovic et al 1965][research_bogdanovic_1965], [Finnestead and Antoniou
@@ -853,12 +853,12 @@ high-rise][research_ko_1975], [Large 1975][research_large_1975], [Morgan and Har
 1981][research_galloway_bennett_1981], [Marsh 1981][research_marsh_1981], [Morfey and Howell
 1981][research_morfey_howell_1981], [Vulkan and Hyde 1981][research_vulkan_hyde_1981], [Knowd
 1982][research_knowd_1982], [Ruijgrok 1983][research_ruijgrok_1983], [Willshire
-1983][research_willshire_1983], [Mccurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
+1983][research_willshire_1983], [McCurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
 [Yeow 1984][research_yeow_1984], [Melton 1985][research_melton_1985], [Raw and Griffiths
 1985][research_raw_griffiths_1985], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987],
 [Ali 1989][research_ali_1989], [Fidell et al 1989, Initial
 Development of an][research_fidell_1989_2], [Fidell et al 1989, Noise and Sonic Boom
-Impact][research_fidell_1989], [Mccurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
+Impact][research_fidell_1989], [McCurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
 [Kelly 1993][research_kelly_1993], [Fidell et al
 1998][research_fidell_1998]. Independent sources add in power rather than
 in pressure,
@@ -891,7 +891,7 @@ al][research_austin_d_thai], [Deming 1937][research_deming_1937], [Regier and Hu
 1980][research_ruijgrok_1980], [Runyan 1980][research_runyan_1980], [Succi 1981][research_succi_1981],
 [Johnston and Donham 1982][research_johnston_donham_1982], [Šulc et al 1982][research_sulc_1982], [Hanson
 1983][research_hanson_1983], [Hanson 1985][research_hanson_1985], [Hanson and Magliozzi
-1985][research_hanson_magliozzi_1985], [Mccurdy 1985][research_mccurdy_1985], [Block
+1985][research_hanson_magliozzi_1985], [McCurdy 1985][research_mccurdy_1985], [Block
 1986][research_block_1986], [Lester and Fuller 1986][research_lester_fuller_1986], [Fuller and Jones
 1987][research_fuller_jones_1987], [Kallergis 1987][research_kallergis_1987], [Pope et al 1987, Propeller
 aircraft interior noise][research_pope_1987], [Pope et al 1987, Propeller aircraft interior
@@ -904,7 +904,7 @@ noise][research_pope_1987_2], [Amiet 1988][research_amiet_1988], [Chapman 1988][
 1990][research_bullmore_1990], [Elliot et al 1990][research_elliot_1990], [Eversman
 1990][research_eversman_1990], [Salikuddin et al
 1990, Application of active noise][research_salikuddin_1990], [Dittmar and Hall
-1991][research_dittmar_hall_1991], [Mccurdy 1991][research_mccurdy_1991], [Envia 1992][research_envia_1992],
+1991][research_dittmar_hall_1991], [McCurdy 1991][research_mccurdy_1991], [Envia 1992][research_envia_1992],
 [Donald B Hanson and David J Parzych 1993][research_donald_b_hanson_david_j_parzych_1993] and the wider
 aircraft-noise field is [Howard and Lewis 1955][research_howard_lewis_1955], [Tolhurst
 1957][research_tolhurst_1957], [PORTSMOUTH NAVAL SHIPYARD FACILITIES FOR NOISE MEASUREMENT AND REDUCTION 1964][research_portsmouth_naval_shipyard_nh_1964], [Bolt Beranek And Newman Inc Los Angeles Ca
@@ -935,12 +935,12 @@ high-rise][research_ko_1975], [Large 1975][research_large_1975], [Morgan and Har
 1981][research_galloway_bennett_1981], [Marsh 1981][research_marsh_1981], [Morfey and Howell
 1981][research_morfey_howell_1981], [Vulkan and Hyde 1981][research_vulkan_hyde_1981], [Knowd
 1982][research_knowd_1982], [Ruijgrok 1983][research_ruijgrok_1983], [Willshire
-1983][research_willshire_1983], [Mccurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
+1983][research_willshire_1983], [McCurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
 [Yeow 1984][research_yeow_1984], [Melton 1985][research_melton_1985], [Raw and Griffiths
 1985][research_raw_griffiths_1985], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987],
 [Ali 1989][research_ali_1989], [Fidell et al 1989, Initial
 Development of an][research_fidell_1989_2], [Fidell et al 1989, Noise and Sonic Boom
-Impact][research_fidell_1989], [Mccurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
+Impact][research_fidell_1989], [McCurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
 [Kelly 1993][research_kelly_1993], [Fidell et al
 1998][research_fidell_1998].
 
@@ -977,7 +977,7 @@ Acquisition][research_cornell_aeronautical_lab_inc_buffalo_ny_1971], [Cornell Ae
 Ny 1971, Surveillance, Target Acquisition][research_cornell_aeronautical_lab_inc_buffalo_ny_1971_2],
 [Cornell Aeronautical Lab Inc Buffalo Ny 1971, Surveillance, Target
 Acquisition][research_cornell_aeronautical_lab_inc_buffalo_ny_1971_3], [Bailey and McClintic
-1974][research_bailey_mcclintic_1974], [DE Groot 1978][research_de_groot_1978], [Reising et al
+1974][research_bailey_mcclintic_1974], [De Groot 1978][research_de_groot_1978], [Reising et al
 1996][research_reising_1996], [Thorn 1998][research_thorn_1998], [Craig et al 1999][research_craig_1999],
 [Sinai et al 1999][research_sinai_1999], [Pleban and Beal 2002][research_pleban_beal_2002], [Mack
 2003][research_mack_2003], [Miller et al 2005][research_miller_2005], [Fischer 2006][research_fischer_2006].
@@ -1083,10 +1083,10 @@ aircraft returned to the Test Pilot School in 1969 and were redesignated X-26B. 
 forward through the Q-Star to eleven pre-production [YO-3A][ref_yo3a] aircraft, which operated in Southeast
 Asia from mid-1969 to late 1971.
 
-**The whole subject has produced two records in the archives swept for this article, and one of them is the only primary flight-test document in the lineage**,
+**Two research records cited here name a Schweizer aircraft or the YO-3A in their titles, and one of them is the only primary flight-test document in the lineage**,
 being the Army's preliminary evaluation of the YO-3A, in [Condon et al 1970][research_condon_1970], [Kehoe
 and Ellison 1985][research_kehoe_ellison_1985].
-**The QT-2PC itself generated none that this search reached.**
+**No cited record concerns the QT-2PC itself.**
 
 ## Comparison With Ground Prediction
 
@@ -1098,8 +1098,8 @@ percent from an assumed drag coefficient and an assumed span efficiency, and
 reported because it is a consistency check on the geometry, not because it is evidence.
 
 **The reconciliation of the quoted glide speed is worth more.** The relation and the quoted 55.9 miles per
-hour disagreed by 13 percent until the weight was matched, at which point they agreed to two percent.
-**That is a case where the model was right, the sources were right, and the reading was wrong**, and it is
+hour disagree by 13 percent at gross weight and agree to two percent at the one-pilot weight.
+**That is a case where the model and the sources are both right and the conflict lies only in pairing a speed with the wrong weight**, and it is
 the more useful of the two checks because it resolved an apparent conflict rather than confirming an
 expected agreement.
 
@@ -2062,8 +2062,8 @@ should not be presented as fact.
 ## The Source Base
 
 **The aircraft has almost no technical literature and this is the second consecutive article for which that is true.**
-A pool of several thousand harvested records contains **two** matching the X-26, the SGS 2-32, the QT-2 or
-the Q-Star, and **neither is about either X-26**. One is a National Aeronautics and Space Administration
+Of the 3,133 research records in this article's references, **two** carry the X-26, Schweizer, the SGS, the QT-2, the Q-Star
+or the YO-3 in their titles, and **neither is about either X-26**. One is a National Aeronautics and Space Administration
 flutter clearance of a different Schweizer sailplane and the other is the Army's preliminary evaluation of
 the YO-3A, which is the QT-2's operational descendant and
 **the only primary flight-test document this whole lineage has produced in the open literature**. The
@@ -2095,8 +2095,9 @@ Characteristics for][research_underwood_1942], [Crandall 1943][research_crandall
 1957][research_eggleston_diederich_1957], [Hammond and Henderson 1961][research_hammond_henderson_1961],
 [Bischoff et al 1974][research_bischoff_1974], [Weick and Jones 1976][research_weick_jones_1976], and the
 propeller-noise and propagation literature is substantial.
-**The keystone cluster stood at seven records until the queries were rewritten in the 1930s vocabulary of aileron yawing moment and lateral control research, at which point it reached forty-eight.**
-That is the fifth consecutive article in this series in which the keystone was thin for that reason.
+**The keystone enumeration above holds twenty-nine records, and twenty-seven of them date from 1925 to 1961.**
+Every title in it but one is phrased in terms of yawing moment, lateral control or ailerons, and only
+Bischoff and colleagues in 1974 use the bare modern term adverse yaw.
 
 **Three topics are reported as thin rather than padded.** Counting the distinct records in the enumerations
 that name them, roll-yaw coupling holds six, cited as the coupled behaviour under The Magnitude and the Rate,
@@ -2104,8 +2105,7 @@ Which Both Help. The quiet-aircraft literature proper has no enumeration of its 
 power-required treatment holds eleven, cited as the performance literature in the section on best glide and
 minimum power. The first two are genuinely small subjects.
 **The third is a thin heading over a well-covered subject**, since power required is treated inside the
-performance and sailplane literature rather than under its own name, which is a distinction the previous
-article learned to make.
+performance and sailplane literature rather than under its own name.
 
 The period record generally is [Andrew Christian][research_andrew_christian], [Benjamin M Simmons et
 al][research_benjamin_m_simmons], [Brandon L Litherland et al][research_brandon_l_litherland], [Caleb Robb
@@ -2161,7 +2161,7 @@ Aeronautical Lab Inc Buffalo Ny 1947][research_cornell_aeronautical_lab_inc_buff
 [Annand 1950][research_annand_1950], [Berkowitz 1950][research_berkowitz_1950], [Brown
 1950][research_brown_1950], [Calvert 1950][research_calvert_1950], [Deyoung 1950][research_deyoung_1950],
 [Gardner and Downey 1950][research_gardner_downey_1950], [Lush 1950][research_lush_1950], [Luskin
-1950][research_luskin_1950], [Malvestuto et al 1950][research_malvestuto_1950], [Mcdonnell Aircraft Corp St
+1950][research_luskin_1950], [Malvestuto et al 1950][research_malvestuto_1950], [McDonnell Aircraft Corp St
 Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950], [Robinson and Robinson
 1950][research_robinson_robinson_1950], [Snyder 1950][research_snyder_1950], [Adams
 1951][research_adams_1951], [Baxter 1951][research_baxter_1951], [Bird and Jaquet
@@ -2267,7 +2267,7 @@ and Marek 1963][research_dickey_marek_1963], [Douglas Aircraft Co Long Beach Ca
 1963][research_douglas_aircraft_co_long_beach_ca_1963], [Fluegge-Lotz 1963][research_fluegge_lotz_1963],
 [Gasaway and Hatfield 1963][research_gasaway_hatfield_1963], [Government Not Required to Compensate Homeowners When Damage from Airplane Operations Not due to Direct Overflights 1963][research_government_not_1963], [Kohlman
 1963][research_kohlman_1963], [Kurdyla 1963][research_kurdyla_1963], [Linnell 1963][research_linnell_1963],
-[Lorentzen 1963][research_lorentzen_1963], [Mcdonnell Aircraft Corp St Louis Mo 1963, Effects of Texo #502AF
+[Lorentzen 1963][research_lorentzen_1963], [McDonnell Aircraft Corp St Louis Mo 1963, Effects of Texo #502AF
 and][research_mcdonnell_aircraft_corp_st_louis_mo_1963], [Naval Air Test Center Patuxent River Md
 1963][research_naval_air_test_center_patuxent_river_md_1963], [North American Aviation Inc Los Angeles Ca
 1963][research_north_american_aviation_inc_los_angeles_ca_1963], [Pate and Deitering
@@ -2460,7 +2460,7 @@ Structural][research_doherty_butzel_1979_2], [Dooley and Yeary 1979][research_do
 Engine][research_hirschkron_1979], [Hirschkron et al 1979, Maritime Patrol Aircraft
 Engine][research_hirschkron_1979_2], [Hirschkron et al 1979, Maritime Patrol Aircraft
 Engine][research_hirschkron_1979_3], [Howlett 1979][research_howlett_1979], [Hwang and Pi
-1979][research_hwang_pi_1979], [Jenney 1979][research_jenney_1979], [Jones 1979][research_jones_1979], [Mccracken 1979][research_mccracken_1979], [Muhlstein and
+1979][research_hwang_pi_1979], [Jenney 1979][research_jenney_1979], [Jones 1979][research_jones_1979], [McCracken 1979][research_mccracken_1979], [Muhlstein and
 Coe 1979][research_muhlstein_coe_1979], [Newell and Herrick 1979][research_newell_herrick_1979], [Quate
 1979][research_quate_1979], [Rayman 1979][research_rayman_1979], [Royal aircraft establishment technical report 1979][research_royal_aircraft_1979], [Schlinker 1979][research_schlinker_1979], [Shovlin et al
 1979][research_shovlin_1979], [Simpson 1979][research_simpson_1979], [Speed Control for Recorder Chart Drive 1979][research_speed_control_1979], [Sperry 1979][research_sperry_1979], [Taylor et al
@@ -2649,56 +2649,32 @@ Neural][research_burken_2006], [Burken et al 2006, Reconfigurable Control with][
 2009][research_henyey_2009], [Khorrami et al 2009][research_khorrami_2009], [Roth and Barrett
 2009][research_roth_barrett_2009].
 
-**The survey was rebuilt on 7 October 2026, after the counts first published with this article, because its harvest had admitted homonyms.**
-A re-reading of the research records refused 296 of them, and the research total fell from 3,584 to 3,288.
-The largest groups were 67 records from civil, automotive and rail engineering, wind energy, power
-electronics, microwave engineering, plasma physics and optics, 60 on ocean gliders, underwater acoustics,
-ships and marine biology, 37 on school examinations and general education, 18 from medicine and biology,
-16 on road vehicles and road traffic noise, 13 on the startle response in clinical and animal research
-rather than in aviation, and nine on single-event upset in electronic memory, which shares a word with
-aircraft upset recovery. The remainder were noise in the signal and radio sense, electromagnetic and
-optical absorption, high aspect ratio in microfabrication, speech coding, software, displays, audiology
-and a placeholder record titled only test. The enumerations most changed are The Field Around It, which
-lost 146 citations, the period record in this section, which lost 51, The Very Efficient Aeroplane, which
-lost 24, and The X-26A's Argument Became a Regulation, which lost 19.
+**The research survey admits a record only when a person reading its title finds it on this article's subject.**
+Its 3,133 records come from the National Aeronautics and Space Administration's Technical Reports Server, the
+Defense Technical Information Center and the journal literature. Of these, 34.3 percent are report-server
+records, and their median year is 2000. Many words this subject depends on also name something else, and a
+record that shares only such a word is excluded. Upset also names single-event upset in electronic memory,
+startle also names the startle response in clinical and animal research, glider also names the ocean glider,
+propeller also names the ship and marine propeller, noise also names noise in the signal and radio sense,
+absorption also names electromagnetic and optical absorption, aspect ratio also names a property of
+microfabricated structures, cylinders and trawl otter boards, and performance also names aircrew leadership.
+Road and rail vehicles, room and building acoustics, audiology and annoyance from sources other than aircraft
+are excluded for the same reason. A neutral title on propeller theory or blade stress that appears in the
+Journal of Ship Research, International Shipbuilding Progress or the journal of the Japan Society of Naval
+Architects and Ocean Engineers is treated as marine work and excluded. Correction, erratum, clarification,
+retraction and withdrawal notices, figure, table and supplementary-material records, peer-review reports and
+journal front matter are excluded as well, because a survey counts research works and those are parts of
+works or editorial events rather than works.
 
-**The reading also estimates what the rebuild missed.** A reading of 300 records that no screen had
-flagged found 24 off topic before the rebuild, a second reading of 300 found 13 after the first sweeps,
-and a third reading of 300 found seven after the second, which puts the contamination remaining at 7 in
-300, more than 2.3 percent, before those seven and their homonyms were also refused. One off-topic record
-stayed after those readings, a study of radiolarian skeletons among the glide-performance sources under What
-It Gave Up to Carry an Engine, because the rebuild's splicing tool left short citation lists alone.
-**A second seeded sample of 300 records that no earlier reading had seen found 16 off topic on 8 October 2026, and all 16 were removed with 54 more of their kind.**
-The 70 were 22 on ship and marine propellers, ship roll control and underwater acoustics, eight on sound
-propagation in the ocean, seven of them reports titled Predictability Limitations of Long-Range Sound
-Propagation that are judged oceanic by their authors and by the ocean records the same query harvested
-rather than by their neutral title, 11 on road and rail vehicles, 12 on audiology and on annoyance from
-sources other than aircraft, five on room acoustics and office equipment, six on landmine detection,
-seismology and mine blasting, three on river hydraulics and pipelines, and one each on medical ultrasound,
-electronic phase control, and aircrew leadership, which shares the word performance with the
-power-required literature. The radiolarian study and an integral-imaging display paper, both already known
-to be off topic, were removed with them, and the research total fell from 3,288 to 3,216. That sample put
-the contamination at 16 in 300, which is more than 5.3 percent, before its own sweep. Because the sample
-drove the sweep, it does not measure what remains after it, which is why the remaining titles were then read in full.
-**Every research title that no earlier reading had seen was read on 8 October 2026, and 70 of the 1,966 were judged off topic, which is more than 3.5 percent.**
-Sixty were judged on their titles. Ten more carried neutral titles on propeller theory and blade stress and
-were judged marine because they appeared in the Journal of Ship Research, International Shipbuilding Progress
-or the journal of the Japan Society of Naval Architects and Ocean Engineers. Sweeping each kind through the
-whole article found eight more among records read before, one of them a blade-stress paper the second sample
-had kept as doubtful, so 78 were removed. They were 20 on ship and marine propellers, 13 on room, building
-and material acoustics such as a lecture hall, an orchestra and recording booths, eight on road, off-road and
-farm vehicles, seven on hydraulic turbines, pumps and river hydraulics, seven from medicine and biology, six
-on simulator training, logistics and management outside aviation, five on noise from sources other than
-aircraft such as lawn mowers and machine tools, four on cylinders and trawl otter boards that share the term
-aspect ratio with wings, and eight from other disciplines, among them a chemistry abstract on
-propeller-shaped molecules and a polar history in which flight means escape. The research total fell from
-3,216 to 3,138. Five further records were removed on 8 October 2026 because a survey counts research works, and correction, erratum, clarification, retraction and withdrawal notices, figure, table and supplementary-material records, peer-review reports and journal front matter are parts of works or editorial events rather than works. They were four errata notices and one withdrawal notice, and the research total is now 3,133. **Every remaining title has now been read once, so the off-topic share that remains is a
-matter of reading judgement rather than of sampling.** The doubtful classes kept are unmanned aircraft used
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement rather than of sampling.**
+The doubtful classes kept are unmanned aircraft used
 as instruments in wildlife, farming, environmental and wireless-network work, aircraft used as platforms for
 atmospheric and ocean measurement, spacecraft, missiles and ballistic projectiles, propeller theory and
 blade-stress reports whose neutral titles may hide marine work, generic structures, materials and control
 methods that name no application, mufflers for engines other than aircraft engines, aviation law and
 administration, occupational noise measurement and hearing protection, and the wing proportions of bats.
+Each touches aircraft, wings, propellers or noise closely enough that its title alone does not exclude it,
+so each is kept and a reader may weigh it accordingly.
 
 ## Epistemic State
 
@@ -2734,8 +2710,7 @@ weight, drag polar and propeller geometry. What the measured sound level was at 
 opposed to the detection distance. Whether the 1,500 foot specification was ever met by any aircraft in the
 line. How long the X-26A actually remained in service, which sources describe loosely as decades.
 
-**Written from current knowledge.** The contemporary survey postdates the editorial date of this article,
-which is the series convention.
+**Written from current knowledge.** The contemporary survey postdates the editorial date of this article.
 
 ## Out of Scope
 
@@ -3511,7 +3486,7 @@ The next article in this series takes up the Lockheed X-27.
 - [Day and Reisert 1959][research_day_reisert_1959]
 - [De Gaspari and Mantegazza 2024][research_de_gaspari_mantegazza_2024]
 - [De Gaspari et al 2024][research_de_gaspari_2024]
-- [DE Groot 1978][research_de_groot_1978]
+- [De Groot 1978][research_de_groot_1978]
 - [De Luca et al 2025][research_de_luca_2025]
 - [de Macedo et al 2025][research_de_macedo_2025]
 - [de Visser and Pool 2023][research_de_visser_pool_2023]
@@ -4644,20 +4619,20 @@ The next article in this series takes up the Lockheed X-27.
 - [McCormick 1969][research_mccormick_1969]
 - [McCormick and B. W. 1956][research_mccormick_b_w_1956]
 - [McCoy 1992][research_mccoy_1992]
-- [Mccracken 1979][research_mccracken_1979]
-- [Mccurdy 1984][research_mccurdy_1984]
-- [Mccurdy 1985][research_mccurdy_1985]
-- [Mccurdy 1989][research_mccurdy_1989]
-- [Mccurdy 1991][research_mccurdy_1991]
+- [McCracken 1979][research_mccracken_1979]
+- [McCurdy 1984][research_mccurdy_1984]
+- [McCurdy 1985][research_mccurdy_1985]
+- [McCurdy 1989][research_mccurdy_1989]
+- [McCurdy 1991][research_mccurdy_1991]
 - [McCutchen 1989][research_mccutchen_1989]
-- [Mcdonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950]
-- [Mcdonnell Aircraft Corp St Louis Mo 1963, Effects of Texo #502AF and][research_mcdonnell_aircraft_corp_st_louis_mo_1963]
+- [McDonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950]
+- [McDonnell Aircraft Corp St Louis Mo 1963, Effects of Texo #502AF and][research_mcdonnell_aircraft_corp_st_louis_mo_1963]
 - [McDonnell and Ning 2020][research_mcdonnell_ning_2020]
 - [McGREGOR and Smith 1966][research_mcgregor_smith_1966]
 - [McGuire et al 2018][research_mcguire_2018]
-- [Mckee 1943][research_mckee_1943]
-- [Mcmasters 1979][research_mcmasters_1979]
-- [Mcmasters and Palmer 1975][research_mcmasters_palmer_1975]
+- [McKee 1943][research_mckee_1943]
+- [McMasters 1979][research_mcmasters_1979]
+- [McMasters and Palmer 1975][research_mcmasters_palmer_1975]
 - [McNeal 2016][research_mcneal_2016]
 - [McNeill and Vomaske 1959][research_mcneill_vomaske_1959]
 - [McPIKE 1972][research_mcpike_1972]

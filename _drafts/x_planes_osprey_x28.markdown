@@ -351,8 +351,8 @@ is exactly twice the radius. **Every real curve lies below that**, so
 $$ W_{\mathrm{sweep}} = \varphi \cdot 2R_{\max}, \qquad 0 < \varphi \le 1 $$
 
 and $\varphi$ is where the honesty lives.
-**An earlier version of this calculation had that inequality backwards** and returned a sweep width larger
-than twice the sighting range, which inflated every coverage figure that used it.
+**A sweep width larger than twice the sighting range is therefore impossible**, and any coverage figure
+built on one is inflated.
 
 | Maximum sighting range | $\varphi$ | Sweep width | Coverage at 103 kt |
 |---|---|---|---|
@@ -535,31 +535,25 @@ where this comparison's method comes from.
 - [Cost-Benefit Analysis Theory and Practice . Ajit K. Dasgupta...][research_wisecarver_1975]
 - [The Cost-Effectiveness of Inertial Navigation for Civil...][research_edwards_1975]
 - [Comparison of Military and Commercial Design-To-Cost Aircraft...][research_carlyle_1976]
-- [The Acquisition and Retention of Visual Aircraft Recognition...][research_baldwin_cliborn_1976]
-- [Cost-Effectiveness Specification for Computer-Based Training...][research_seidel_wagner_1977]
 - [Cost-Effectiveness of Flight Simulators for Military...][research_orlansky_string_1977]
 - [Evaluation of the Cost Effectiveness of Hybrid Composite...][research_kulkarni_rosen_1977]
 - [Aircraft Transparency Failure and Logistical Cost Analysis...][research_brown_1978]
 - [Aircraft Transparency Failure and Logistical Cost Analysis...][research_brown_1978_b]
-- [Early Formulation of Training Programs for Cost Effectiveness...][research_jorgensen_hoffer_1978]
 - [Operational data acquisition and analysis for monitoring of...][research_sturgeon_1978]
 - [Beginning of Military Cost Analysis 1950-1961][research_novick_1979]
 - [Cost-Effectiveness Analysis][research_na_1979]
-- [Cost-Effectiveness of Computer-Based Instruction in Military...][research_orlansky_string_1979]
 - [Design‐to‐Cost and Aerospatiale's Aircraft Division][research_etesse_1979]
 - [Life-Cycle Cost Analysis of Instruction-Set Architecture...][research_stone_1979]
 - [On Choice Between Cost Benefit and Cost Effectiveness...][research_sassone_1979]
 - [Department Of The Air Force Washington Dc 1980][research_departmentoftheairforcewashingtondc_1980]
 - [New Technology in Commercial Aircraft Design for Minimum...][research_stewart_campion_1980]
 - [Cost-Benefit and Cost-Effectiveness Analysis][research_cost_benefit_and_1981]
-- [Cost-Effectiveness of Maintenance Simulators for Military...][research_orlansky_string_1981]
 - [Comparison of the Marginal Cost-Effectiveness of Various...][research_morey_1982]
 - [Department of the Air Force Justification of Estimates for...][research_stuart_1982]
 - [Cost Analysis for Competitive Major Weapon Systems...][research_greer_willisr_1984]
 - [Procurement, Cost Overruns and Severance. A Study in...][research_tirole_1984]
 - [Department Of The Navy Washington Dc 1985][research_departmentofthenavywashingtondc_1985]
 - [Department Of The Air Force Washington Dc 1986][research_departmentoftheairforcewashingtondc_1986]
-- [Economic Issues in Cost-Effectiveness Analyses of Military...][research_solomon_1986]
 - [Replacement with Non-Constant Operating Cost][research_anderson_1986]
 - [An Analysis of the Productivity and Operating Cost of the...][research_shadow_1987]
 - [Estimating Multiyear Procurement Cost Savings for NDI...][research_nunez_1989]
@@ -570,9 +564,7 @@ where this comparison's method comes from.
 - [Techno-economic requirements for composite aircraft components][research_palmerray_1993]
 - [Department Of The Air Force Washington Dc 1994][research_departmentoftheairforcewashingtondc_1994]
 - [A Search for Understanding. Analysis of Human Performance on...][research_nicoll_hsu_1995]
-- [Cost-Effectiveness Analysis of Training in the Department of...][research_simpson_1995]
 - [Department Of The Air Force Washington Dc 1995, Department of the Air Force, Comm][research_departmentoftheairforcewashingtondc_1995]
-- [Audio Teletraining for Unit Clerks A Cost-Effectiveness...][research_wisher_priest_1997]
 - [Department Of The Army Washington Dc 1998, Department of the Army, Procureme][research_departmentofthearmywashingtondc_1998]
 
 ## Dependent Systems
@@ -836,7 +828,6 @@ in aeronautics, and almost all of it is period work.
 - [Flight Test Evaluation of the Uf-xs Japanese STOL Seaplane][research_vagianos_rooney_1964]
 - [Hydrodynamic Coefficient Calculation Using Douglas Potential...][research_nelson_1965]
 - [On the Hydrodynamic Theory of Water-exit and -Entry][research_moran_1965]
-- [Potential Hull Structures for Rescue and Search Vehicles of...][research_krenzke_hom_1965]
 - [Performance of a Propeller in a Wake and the Interaction of...][research_wald_1965]
 - [Some considerations on the resistance of planing hulls][research_nutku_1965]
 - [A new STOL flying boat design][research_kikuhara_tokuda_1966]
@@ -862,11 +853,9 @@ in aeronautics, and almost all of it is period work.
 - [Fiber-reinforced plastic unitized boat hull frame][research_fiber_reinforced_plastic_1978]
 - [Methods for Predicting Submersible Hydrodynamic...][research_fidler_smith_1978]
 - [Use of a Water Channel for Model Tests on Planing Hulls][research_millward_1978]
-- [Evaluation of LVA Full-Scale Hydrodynamic Vehicle Motion...][research_stinson_1979]
 - [Resistance Measurements of Typical Planing Boat Appendages][research_gregory_beach_1979]
 - [A theoretical investigation of an asymmetric planing hull at...][research_casling_1980]
 - [Re-Evaluation of the Planing Hull Form][research_savitsky_gore_1980]
-- [At-Sea Evaluation of the Hydrodynamic Performance of a...][research_rispin_diggs_1981]
 - [The Normal Force on a Planing Surface][research_payne_1981]
 - [Linearized planing-surface theory with surface tension. Part...][research_tuck_1982]
 - [Linearized planing-surface theory with surface tension. Part...][research_tuck_1982_b]
@@ -875,7 +864,6 @@ in aeronautics, and almost all of it is period work.
 - [The spray volume shed by an uncambered planing hull in steady...][research_payne_1982]
 - [Experimental Evaluation of CTD Package Hydrodynamic Behavior...][research_berteaux_walden_1983]
 - [The Hydrodynamic Wake of a Surface Ship Theoretical Foundatons][research_skop_1984]
-- [Features of Dolphin Skin with Potential Hydrodynamic...][research_ridgway_carder_1993]
 - [San Juan Bay and Estuary Study Hydrodynamic Field Data...][research_fagerburg_1998]
 - [Near-Shore Hydrodynamic Conditions and Chemical Plume Tracking][research_fong_monismith_2004]
 - [Assessing the Hydrodynamic Performance of Fouling-Release...][research_schultz_2007]
@@ -918,9 +906,7 @@ whether a hull could be flown off at all.
 - [Experimental Determination of Hydrodynamic Loading for Ten...][research_folb_1975]
 - [Procedures for Hydrodynamic Evaluation of Planing Hulls in...][research_savitsky_brown_1976]
 - [Results of Rough Water Trials on a FSHV Full Scale...][research_gersten_dixon_1978]
-- [Investigation of the Hydrodynamic Loading on Ribbon Towcable][research_folb_nelligan_1982]
 - [Reconstruction of Sea State One][research_keller_1988]
-- [The Effect of Monomolecular Films on Low Sea State Ambient...][research_rohr_updegraff_1991]
 - [GPS Surface Reflection for Ionosphere and Sea State...][research_katzberg_linstrom_2001]
 - [JHSS Baseline Shaft and Strut BSS Model 5653-3 Added...][research_cusanelli_metcalf_2009]
 - [SWIFT Observations in the Arctic Sea State DRI][research_thomson_2013]
@@ -936,7 +922,6 @@ whether a hull could be flown off at all.
 - [Wave Impact Loads on Cylinders][research_sarpkaya_1979]
 - [A Study of Hydrodynamic Pressures and Wave Loads on...][research_nojiri_1980]
 - [An approach for the determination of hull-girder loads in a...][research_meyerhoff_schlachter_1980]
-- [Hydrodynamic Loads on Flexible Marine Structures due to...][research_every_king_1982]
 - [Acceleration Response Mode Decomposition for Quantifying Wave...][research_riley_coats_2014]
 
 - [An Introduction to Seaplane Porpoising][research_klemin_pierson_1939]
@@ -1260,7 +1245,6 @@ and the twenty-five-foot canal stop binding in the way they did.
 - [Motion Planning, Guidance, and Control System for Autonomous...][research_hinostroza_xu_2020]
 - [Onboard Visual Horizon Detection for Unmanned Aerial Systems...][research_hiba_santha_2020]
 - [Real World Object Detection Dataset for Quadcopter Unmanned...][research_pawelczyk_wojtyra_2020]
-- [Unmanned autonomous ground hybrid vehicle thermal management...][research__allen_2020]
 - [A Hybrid Differential Symbiotic Organisms Search Algorithm...][research_huo_zhu_2021]
 - [A Model for Tacit Communication in Collaborative Human-UAV...][research_hebbar_langbort_2021]
 - [A survey of safe landing zone detection techniques for...][research_shahalam_oluoch_2021]
@@ -1316,7 +1300,6 @@ and the twenty-five-foot canal stop binding in the way they did.
 - [Design and performance assessment of a hydrographic unmanned...][research_design_and_2024]
 - [Dynamic step opposition-based learning sparrow search...][research_he_wang_2024_b]
 - [Intelligent Path Planning with an Improved Sparrow Search...][research_zhang_zhu_2024]
-- [Learnable fusion mechanisms for multimodal object detection...][research_massoud_laganiere_2024]
 - [M-YOLOv8s An improved small target detection algorithm for...][research_duan_wang_2024]
 - [Multi-objective path planning for multi-UAV connectivity and...][research_guven_yanmaz_2024]
 - [Multidisciplinary analysis and structural optimization for...][research_benaouali_boutemedjet_2024]
@@ -1347,7 +1330,6 @@ and the twenty-five-foot canal stop binding in the way they did.
 - [UAV Path Planning for Forest Firefighting Using Optimized...][research_zeng_luo_2025]
 - [A lightweight and robust framework for small object detection...][research_liu_xie_2026]
 - [Adaptive model predictive control with extended state...][research_tian_hu_2026]
-- [Comparative Analysis of Media Coverage of the Turkish Drone...][research_mahdiyar_ghorzang_2026]
 - [Deep Learning-Based Semantic Segmentation Models for Crane...][research_seker_cankaya_2026]
 - [Deep learning and geospatial AI techniques for unauthorized...][research_korde_more_2026]
 - [Dynamic guidance control for UAV landing on autonomous...][research_lin_tseng_2026]
@@ -1606,7 +1588,6 @@ inverts the economics the X-28A was designed around.
 - [Distributed Multi-Agent Persistent Surveillance Under...][research_aksaray_leahy_2015]
 - [Survivability of an ocean patrol vessel Analysis approach and...][research_liwang_2015]
 - [A navigation strategy for an autonomous patrol vehicle based...][research_zaki_dunnigan_2017]
-- [Aircraft Tracking Using Automatic Dependence Surveillance...][research_chithrakkannan_2017]
 - [An algorithm of unmanned aerial vehicle control in search and...][research_bushuev_litvinov_2017]
 - [Cooperative Reactive Persistent Surveillance Algorithm Using...][research_lee_kim_2017]
 - [Distance Identification for Maximum Change in Ship Collision...][research_kim_yim_2017]
@@ -1629,7 +1610,6 @@ inverts the economics the X-28A was designed around.
 - [MILP Formulation for Aircraft Path Planning in Persistent...][research_zuo_tharmarasa_2020]
 - [Maritime Search and Rescue Based on Group Mobile Computing...][research_yang_jiang_2020]
 - [Multi-Robot Persistent Surveillance With Connectivity...][research_scherer_rinner_2020]
-- [Object Detection for Video Surveillance Using Computer Vision][research_object_detection_2020]
 - [Probability of Position and Motion Parameters Estimation for...][research_yukhno_petrov_2020]
 - [Surveillance Aircraft and the Borders of Schengen][research_novotny_2020]
 - [The U.S. National Search and Rescue School Inland][research_rockwood_2020]
@@ -1668,7 +1648,6 @@ inverts the economics the X-28A was designed around.
 - [Human Smuggling in the Philippines-Malaysia Border A case...][research_legarde_2023]
 - [Optical Protective Window Design and Material Selection...][research_vujic_peric_2023]
 - [Optimizing Wilderness Search and Rescue Discovery and Outcome][research_rossmo_velarde_2023]
-- [Simulation-Based Prediction of Departure Aircraft Performance...][research_askari_cremaschi_2023]
 - [Swarm Reconnaissance Drone System for Real-Time Object...][research_moon_jeon_2023]
 - [Use of Unmanned Aerial Vehicles in Wilderness Search and...][research_vincentlambert_pretorius_2023]
 - [Adaptive Sea-Clutter Model Based Detection for Coastal...][research_adaptive_sea_clutter_2024]
@@ -1676,7 +1655,6 @@ inverts the economics the X-28A was designed around.
 - [Collaborative Task Allocation and Optimization Solution for...][research_han_jiang_2024]
 - [Effect Analysis of Adaptive Ant Colony Algorithm with QoS...][research_dou_2024]
 - [Human Detection From Unmanned Aerial Vehicles’ Images for...][research_banyabdelnabi_rabadi_2024]
-- [Microstrip Patch Antenna for Aircraft Surveillance Broadcast...][research_microstrip_patch_2024]
 - [Parameter Tuning of a Vapor Cycle System for a Surveillance...][research_drego_andersson_2024]
 - [Submarine Search and Rescue Study Based on Digital Elevation...][research_submarine_search_2024]
 - [Swarm of drones for surveillance monitoring of a grounded...][research_hashemzadeh_kumbasar_2024]
@@ -1701,9 +1679,7 @@ inverts the economics the X-28A was designed around.
 - [Unmanned aerial systems in search and rescue A global...][research_quero_martinezcarranza_2025]
 - [Vessel detection leveraging satellite imagery and YOLO in...][research_magalhaes_falcao_2025]
 - [A Study on the Technical Trends and Development Directions of...][research_kim_choi_2026]
-- [Accuracy of Flight Parameters Calculated from Automated...][research_jung_greene_2026]
 - [Aerial Imagery‐Based Deep Learning Framework for Vessel...][research_nathisiya_saji_2026]
-- [Aircraft Weight Estimation Using Surveillance Data Based on...][research_matsuda_matsuno_2026]
 - [Autonomous Unmanned Aircraft Systems for Enhanced Search and...][research_zell_schneidereit_2026]
 - [Characterizing Confidence Compression in Cross-Domain Thermal...][research_ahmed_yilmaz_2026]
 - [Deep reinforcement learning-based obstacle avoidance for UAV...][research_longnhatdang_2026]
@@ -1712,12 +1688,9 @@ inverts the economics the X-28A was designed around.
 
 - [A Multirobot Path-Planning Strategy for Autonomous Wilderness...][research_macwan_vilela_2015]
 - [Exergy analysis of a turbofan engine for an unmanned aerial...][research_sohret_dinc_2015]
-- [Improving space domain awareness through unequal-cost...][research_hardy_cain_2015]
 - [Commentary Unmanned Aircraft Systems What Constitutes a...][research_frazier_2016]
 - [Towards heterogeneous robot team path planning in dynamic...][research_lavrenov_gabdullin_2016]
-- [Unequal a priori probability multiple hypothesis testing in...][research_hardy_cain_2016]
 - [Conceptual Design, Analysis and Construction of a Fixed-Wing...][research_kisabo_osheku_2017]
-- [A Low Cost Highly Responsive Motion Sensing Surveillance...][research_a_low_2018]
 - [Adaptive Beamforming for Target Detection and Surveillance...][research_shen_liu_2018]
 - [Adaptive offloading with MPTCP for unmanned aerial vehicle...][research_jung_yim_2018]
 - [Analytics for awareness in maritime surveillance from data to...][research_caelli_mukerjee_2018]
@@ -1739,7 +1712,6 @@ inverts the economics the X-28A was designed around.
 - [A review on object detection in unmanned aerial vehicle...][research_ramachandran_sangaiah_2021]
 - [Autonomous Swarm of Low-Cost Commercial Unmanned Aerial...][research_garate_diaz_2021]
 - [Experimental tests of hybrid VTOL unmanned aerial vehicle...][research_ambroziak_ciezkowski_2021]
-- [Low-cost intelligent surveillance system based on fast CNN][research_sabri_li_2021]
 - [Surveillance using Unmanned Aerial Vehicle][research_mohta_2021]
 - [Unmanned Air Vehicle Path Planning for Maritime Surveillance...][research_suseno_wardana_2021]
 - [Unmanned aerial systems in search and rescue applications...][research_ajith_jolly_2021]
@@ -1807,7 +1779,6 @@ inverts the economics the X-28A was designed around.
 - [Department Of The Army Washington Dc 1980][research_departmentofthearmywashingtondc_1980]
 - [Twin-Rotor Patrol Airship Flying Model Design Rationale][research_eney_1981]
 - [On Mathematical Programs for Optimizing Combat Air Patrol...][research_helmbold_1982]
-- [Officer Career Development Description of Aviation Assignment...][research_morrison_martinez_1984]
 - [Target detection using microwave irradiances from natural...][research_staceyjm_1984]
 - [Ocean Surveillance Detection Studies. Part 1. Detection in...][research_lee_miller_1985]
 - [Combat Search and Rescue - Military Stepchild][research_bone_1988]
@@ -1817,8 +1788,6 @@ inverts the economics the X-28A was designed around.
 - [Coastal, Harbor and Inland Waterway CHI Service Boat Program][research_radianincalexandriava_1993]
 - [Civil Air Patrol Heritage Toolbook][research_brunskole_brunskole_1997]
 - [Maritime Patrol Aircraft in MOOTW Battlespace Awareness for...][research_williams_1997]
-- [Coastal Structure Inspection Technologies Investigation of...][research_prickett_1998]
-- [Civil Air Patrol Senior Member Professional Development Course][research_courville_fox_2000]
 - [Secretary Of The Air Force Washington Dc 2000][research_secretaryoftheairforcewashingtondc_2000]
 - [Identification of Weather Deck Runoff Discharge Constituents...][research_wenzel_2000]
 
@@ -1861,7 +1830,6 @@ dynamometer. **The measurements were right and the difficulty was always on the 
 - [Experimental and numerical study of the slamming load on the...][research_wang_guedessoares_2016]
 - [Inhibition on porpoising instability of high-speed planing...][research_wang_qin_2021]
 - [Evaluation of planing craft maneuverability using...][research_hajizadeh_seif_2017]
-- [Experimental investigation of wave slamming on an open...][research_ren_liu_2016]
 - [Porpoising instability study of the floatplane during take...][research_aliffrananda_sulisetyono_2021]
 - [Statistical analysis of vertical accelerations of planing...][research_vanderwerken_judge_2017]
 - [Numerical Analysis of Floatplane Porpoising Instability in...][research_aliffrananda_sulisetyono_2022]
@@ -1877,7 +1845,6 @@ dynamometer. **The measurements were right and the difficulty was always on the 
 - [Full-scale measurements of slamming loads and responses on...][research_camilleri_taunton_2018]
 - [System identification of porpoising dynamics of high-speed...][research_hamada_miyauchi_2023]
 - [Numerical investigation of the effects of camber ratio on the...][research_mohammadnouri_mohammadi_2018]
-- [Human responses to wave slamming vibration on a polar supply...][research_omer_bekker_2018]
 - [Effect of Hydrofoil Stabilizer Location on Porpoising of...][research_saeedinamini_kohansal_2024]
 - [Seadrome Technologies of Complex Navigation for Amphibious...][research_voloshchenko_2018]
 - [Numerical investigation on the inhibition of porpoising...][research_du_mu_2024]
@@ -2032,7 +1999,6 @@ dynamometer. **The measurements were right and the difficulty was always on the 
 - [Methods to Improve Accuracy of Planing Hull Resistance...][research_huynh_tran_2022]
 - [Numerical Simulation of the Hydrodynamic Performance and...][research_liu_hu_2022]
 - [Numerical Study on the Water Takeoff Performance of Unmanned...][research_wu_wang_2022]
-- [Numerical simulation of hydrodynamic performance of taper...][research_imani_aghaie_2022]
 - [Numerical simulation of unsteady hydrodynamic performance of...][research_hu_li_2022]
 - [Analisis Pengaruh Gaya Angkat Hull Vane terhadap Hambatan...][research_nafirimuhammadkautsar_iketutsuastika_2023]
 - [Failure analysis on wave compensator and hull structure of...][research_qi_hao_2023]
@@ -2115,7 +2081,6 @@ happened to have in his shop.
 - [Testing Propeller Tip Modifications to Reduce Acoustic Noise...][research_treuren_wisniewski_2019]
 - [Aerodynamic Performance Characterization and Static...][research_seeni_2019_b]
 - [Cost-oriented process optimisation through variation...][research_mckenna_jin_2019]
-- [Improved Stall Delay Model for HAWT Performance Predictions...][research_improved_stall_2022]
 - [Computational and Empirical Investigation of Propeller Tip...][research_sezen_bal_2020]
 - [Aerodynamic Performance Characterization of Slotted Propeller...][research_seeni_2019]
 - [Decomposition methods for cost and tardiness reduction in...][research_biele_monch_2019]
@@ -2149,7 +2114,6 @@ happened to have in his shop.
 - [Predicting the fatigue performance of an additively...][research_li_warner_2020]
 - [Simulation of Isolated Propeller Noise Using Acoustic-Vortex...][research_simulation_of_2023]
 - [Dynamic Analysis of Cavitation Tip Vortex of Pump-Jet...][research_yuan_chen_2020]
-- [Applying Simulation Optimization for Agile Vehicle Fleet...][research_chang_cuckler_2021]
 - [Design of Helical Winding for Slotless Partially...][research_alvarez_paredes_2024]
 - [Propeller influence on the aeroelastic stability of High...][research_teixeira_cesnik_2020]
 - [Features of the Cost Management System at Aircraft...][research_features_of_2021]
@@ -2207,7 +2171,6 @@ happened to have in his shop.
 - [Bottom‐Up Design of Composite Supraparticles for Powder‐Based...][research_canziani_chiera_2020]
 - [Design and additive manufacturing of closed cells from...][research_kumar_collini_2020]
 - [Design of a low-cost, high-temperature inverted build...][research_zawaski_williams_2020]
-- [Development, structure and properties of Cu/Mg and Al/Mg...][research_kalonov_glukhov_2020]
 - [Grain refinement in an unalloyed tantalum structure by...][research_marinelli_martina_2020]
 - [Manufacturing of an innovative composite structure Design...][research_viscusi_antonucci_2020]
 - [Structure function analysis of powder beds in additive...][research_kalms_bergmann_2020]
@@ -2225,7 +2188,6 @@ happened to have in his shop.
 - [Heterogeneous quality characterization and modeling of thin...][research_chen_reutzel_2022]
 - [Investigation on manufacturing and low-velocity impact...][research_chen_zeng_2022]
 - [Material-structure Integrated Additive Manufacturing Not a...][research_gu_2022]
-- [Ocular Prosthesis with Cad/ Cam Workflow and Low Cost...][research_ocular_prosthesis_2022]
 - [Printability of low-cost pre-heat-treated ball milled Al7075...][research_prasad_khalik_2022]
 - [Reliability-based bottom-up manufacturing cost optimisation...][research_morse_cartabia_2022]
 - [Comparative Study on the Microstructure Evaluation of Al-Mg...][research_comparative_study_2023]
@@ -2269,7 +2231,6 @@ and the literature on their design, performance and safety is substantial.
 - [An Empirical Study of Overlapping Rotor Interference for a...][research_brazinskas_prior_2016]
 - [Maximum endurance for battery-powered rotary-wing aircraft][research_gatti_giulietti_2015]
 - [General aviation accidents related to exceedance of airplane...][research_boyd_2016]
-- [Medium Altitude Long Endurance Remotely Piloted Aircraft...][research_walker_petros_2016]
 - [Multidisciplinary Design Optimization of Quiet...][research_bryson_marks_2016]
 - [Optimal Battery Weight Fraction for Maximum Aircraft Range...][research_traub_2016_b]
 - [User Interface Design Recommendations for Small Unmanned...][research_jimenez_faerevaag_2016]
@@ -2299,7 +2260,6 @@ and the literature on their design, performance and safety is substantial.
 - [Fatal General Aviation Accidents in Furtherance of Business...][research_burgess_boyd_2018]
 - [Uncertainty-based design optimization of NLF airfoil for high...][research_zhao_gao_2019]
 - [Performance Improvement of Small Unmanned Aerial Vehicles...][research_gavrilovic_benard_2018]
-- [Computer-Assisted Aircraft Anti-Icing Fluids Endurance Time...][research_gagnon_brassard_2020]
 - [Robust Design of Small Unmanned Helicopter for Hover...][research_abhiram_ganguli_2018]
 - [Endurance improvement by battery dumping strategy considering...][research_feng_sun_2020]
 - [Structural model with controls of a very light airplane for...][research_rogolski_olejnik_2018]
@@ -2310,7 +2270,6 @@ and the literature on their design, performance and safety is substantial.
 - [Design-airworthiness integration method for general aviation...][research_tyan_yoon_2019]
 - [Simultaneous determination of maximum acceleration and...][research_konar_2020]
 - [Detection and mitigation of actuator attacks on small...][research_muniraj_farhood_2019]
-- [Topical Issues of Ensuring Advanced Combat Capabilities Level...][research_yuyemaryashin_2020]
 - [Drones on the Rise Societal Misperceptions of Small Unmanned...][research_keilman_2019]
 - [A Hybrid Incremental Nonlinear Dynamic Inversion Control for...][research_ji_kim_2021]
 - [Modeling of Tunable Elastic Ultralight Aircraft][research_cramernicholasb_kimjosephh_2019]
@@ -2318,15 +2277,12 @@ and the literature on their design, performance and safety is substantial.
 - [Using Small Unmanned Aircraft Systems for Early Detection of...][research_using_small_2019]
 - [Performance and size optimization of the turbine-less engine...][research_ji_rokni_2021]
 - [Aerosol optical properties as observed from an ultralight...][research_chazette_2020]
-- [Efficiency and Fatigue/Endurance Laboratory Tests of Aviation...][research_skorupka_2022]
 - [An empirically benchmarked human reliability analysis of...][research_burns_bonaceto_2020]
 - [Fault-Tolerant Control for a High Altitude Long Endurance...][research_weiser_ossmann_2022]
 - [Calculation Method of Take-off Weight for Single-seat...][research_zhang_tong_2020]
 - [Modelling an Aircraft Maximum Endurance Horizontal Flight for...][research_goncharenko_2022]
 - [Calculation of aerodynamic characteristics of light aircraft...][research_vlasov_ovdienko_2020]
-- [Effect of Solidity and Aspect Ratio on the Aerodynamic...][research_masi_danieli_2023]
 - [Conceptual design of small aircraft with hybrid-electric...][research_sziroczak_jankovics_2020]
-- [Endurance Life Estimation of Aircraft Compact Heat Exchanger][research_bhaskar_palanikumar_2023]
 - [Third-Party Risk Analysis of Small Unmanned Aircraft Systems...][research_kim_2020]
 - [Endurance of unmanned aerial vehicles][research_anon_2023]
 - [Aeromechanics of a Coaxial Ultralight Rotorcraft During Turn...][research_feil_hajek_2021]
@@ -2432,7 +2388,6 @@ and the literature on their design, performance and safety is substantial.
 - [Parametric Cost Prediction Models for Light General Aviation...][research_alshamma_ali_2024]
 - [Airworthiness Compliance Methods for Low-Cost Wet Composite...][research_liu_zheng_2025]
 - [Open-Source Framework for Sizing Hybrid and Electric General...][research_lutz_jezegou_2025]
-- [The impact of barometric pressure changes on oral health in...][research_dabrowska_puto_2025]
 - [A Concept Study for the Aerodynamic Performance Enhancement...][research_arshad_wijesingheappuhamilage_2026]
 - [AI-Based Predictive Maintenance for General Aviation Aircraft][research_ai_based_predictive_2026]
 - [An On-Board Shock Absorber Detection Method for General...][research_li_li_2026]
@@ -2545,59 +2500,52 @@ the article reports the disagreements rather than resolving them.
 **The physics comes from primary literature about everything except the aircraft.** The National Advisory
 Committee for Aeronautics tank tests, the search-theory reports, the light-aircraft performance work and the
 cost-analysis literature are all richly documented, and the article is built on those.
-**Harvest the physics rather than the vehicle** is the method this subject requires, for the second
-consecutive article.
+**The evidence for this subject is the physics rather than the vehicle**, as it is for the
+[X-27][related_post_a324_lockheed_x27].
 
 **Period coverage, with counts alongside fractions because either alone misleads.**
 
 | | Count | Fraction of cited research |
 |---|---|---|
-| Primary | 594 | 34.0 percent |
-| Period, through 1982 | 516 | 29.5 percent |
-| Contemporary, 2015 onward | 1,162 | 66.5 percent |
+| Primary | 576 | 33.8 percent |
+| Period, through 1982 | 506 | 29.7 percent |
+| Contemporary, 2015 onward | 1,135 | 66.7 percent |
 
-**This article has now been caught by the count-versus-fraction trap from both ends, and the Source Base records both.**
-At the reference pass the contemporary count sat unchanged at 511 while its fraction fell eleven points,
-because three hundred period sources arrived underneath it. At the publication pass the period count sits
-unchanged at 573 while its fraction falls twenty points, because eight hundred contemporary sources arrived
-underneath that.
+**Every figure in this article is given as a count and a fraction together**, because a fraction moves
+with its denominator and a count does not, so either alone can suggest a change in coverage that is only a
+change in the size of the survey.
 
-**Neither movement is a fact about coverage. Both are facts about the denominator.** The period count rose
-from 355 to 573 across the reference pass and did not move again until the 7 October rebuild took it to 536 and the second sampling pass took it to 518, and the removal of non-work records took it to 516. The primary count rose from 355 to 677, fell to 618 at that rebuild and to 596 after the second sampling pass, and stands at 594 after the removal of non-work records.
-**Nothing was removed before that rebuild**, which is what the fractions alone would fail to convey, and it is why
-every figure in this article is given as a count and a fraction together.
+**A research record belongs in the survey only when its title is on the subject of the section that cites it.**
+The rule is applied by a person reading titles. The 1,702 research records come from the Technical Reports
+Server, the Defense Technical Information Center and the journal literature indexed by Crossref. Many words
+this subject depends on also name something else, and a record that shares only such a word is excluded.
+Cost-effectiveness and affordability also name the pricing of drugs, treatments, diets, housing, schooling
+and public services. Planing also names the surgical planing of skin and teeth and the planing of metal.
+Hydrodynamic also names the physics of bearings, torque converters, blood cells, shock waves and explosives.
+Coverage also names the reach of a wireless network, actuator disc also names a model of turbomachinery
+cascades, probability of detection also names the nondestructive evaluation of materials, random search also
+names an optimisation method, and patrol also names ground robots and police training. Surveillance also
+names the tracking of aircraft by air traffic control, security cameras and alarms, and the watch kept on
+satellites, and endurance also names the fatigue life of a component and the holdover time of a de-icing
+fluid. Studies of personnel training, crew health and towed sonar arrays share only a military or naval
+setting with this subject, and are excluded. Wind turbines, wave energy converters, hydroelectric propeller
+turbines, offshore platforms and coastal hydraulics share the fluid mechanics of a propeller or a hull and
+nothing else, so they are excluded as well. Correction,
+corrigendum and erratum notices are excluded because a survey counts research works, and those notices are
+attached to works rather than works themselves.
 
-**The survey was rebuilt on 7 October 2026, after the counts first published with this article.** A
-re-reading of every research title against the subject its section defines refused 240 records that had
-entered on a shared word rather than a shared subject. Sixty-eight were medical, among them forty-nine
-cost-effectiveness and affordability studies of drugs and treatments, four papers on the surgical planing of
-skin and teeth, and five on the physiology of submariners on patrol. Thirty-one were energy plant and
-offshore structures, among them wind turbines, wave energy converters, platforms and bridge piers, and twelve
-hydroelectric propeller turbines and propeller pumps. Twenty-two priced diets, housing and schooling, and
-twenty-two more applied cost-effectiveness to fire services, substations, family planning and tobacco.
-Eighteen used hydrodynamic in the sense of bearings, torque converters, bioreactors and blood cells. The rest
-were unmanned ground vehicles, random search as an optimisation method, ground patrol robots and police
-training, wildlife detection probability, fibre-optic sensors, disaster-team organisation and a few single
-strays from railways, road trucks and machining. **The research total fell from 2,032 to 1,792.** The
-affordability section changed most, from 111 records to 30, followed by maritime domain awareness at 255 to
-221 and search theory at 162 to 132. A reading of 300 records the screens had not flagged found sixteen off
-topic, or 5.3 percent, and every one of them belonged to a homonym the sweeps then refused. Thirty-six
-doubtful records were kept.
+**Some records of doubtful relevance are kept.** Cost-effectiveness methods stated without a medical subject,
+aerial surveys of wildlife that estimate a probability of detection from an aircraft, marine propeller
+theory and propeller tip-vortex cavitation, the human factors of visual search, coverage path planning for
+ground and indoor robots, the hydrodynamics of underwater vehicles, displacement ships and amphibious ground
+vehicles, additive manufacturing process studies with no stated aircraft application, propeller studies
+cited among the manufacturing literature, and long-endurance and small unmanned aircraft cited among the
+light aircraft each share a method or a mechanism with this subject, so each is kept and a reader may weigh
+it accordingly.
 
-**A second sampling pass on 8 October 2026 refused 39 more.** A second seeded sample of 300 records that no earlier
-reading had seen found eleven off topic, and sweeping the homonyms they revealed removed 38 records in all.
-Ten treated coverage in the wireless sense, with unmanned aircraft as radio relays and base stations. Seven
-used hydrodynamic in the sense of shock physics and explosives, four of them among the doubtful records the
-first rebuild had kept. Seven were civil and coastal hydraulics and gas dispersion, among them stilling basins and breakwaters.
-Four were turbomachinery studies of cascade flutter and rotating stall that had entered on actuator disc, and four more were hydrodynamic
-machinery, bearings and the hydrodynamic ram of a fuel tank. The remaining six were metal planing,
-air-conditioner fans, two on personnel training, air traffic radar and an ultralight aerogel. A thirty-ninth, a
-report on probability of detection in nondestructive evaluation of materials, was refused once the list it
-sat in was separated from the sentence that had run onto it. **The research total fell from 1,792 to 1,753.**
-The hull section changed most, from 238 records to 219, followed by the unmanned patrol section at 237 to
-227. The sample's eleven of 300 is 3.7 percent. Because that same sample drove the sweeps, it measures the
-contamination before them and not what remains after them, and no unread sample has yet measured the
-remainder. The 3.7 percent is therefore the best figure available, and it is an estimate, not a bound. Six more records were then removed under the rule that a survey counts research works and not notices attached to them, four correction or corrigendum notices and two errata or erratum notices, and the research total fell from 1,753 to 1,747.
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of
+reading judgement** rather than an estimate from a sample. The doubtful classes named above are the places
+where that judgement could reasonably have gone the other way.
 
 ## Epistemic State
 
@@ -2820,7 +2768,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [A German Long‐Range Flying‐Boat 1939][research_a_german_1939]
 - [A German Long‐Range Seaplane 1941][research_a_german_1941]
 - [A Long‐Range Seaplane 1935][research_a_longrange_1935]
-- [A Low Cost Highly Responsive Motion Sensing Surveillance System with Active Alerts using GSM Technology 2018][research_a_low_2018]
 - [A Novel Framework to Efficient Path Planning Through Real-time Cost Map Generation Using Neural Networks for Search and Rescue Missions 2024][research_a_novel_2024]
 - [A Review on Properties of Aerospace Materials Through Additive Manufacturing 2017][research_a_review_2017]
 - [A Seaplane Depot Ship 1933][research_a_seaplane_1933]
@@ -2901,7 +2848,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Artyushenko et al 2017][research_artyushenko_volovach_2017]
 - [Ashuev 1978][research_ashuev_1978]
 - [Asiri 2023][research_asiri_2023]
-- [Askari and Cremaschi 2023][research_askari_cremaschi_2023]
 - [Asnaghi et al 2021][research_asnaghi_svennberg_2021]
 - [Astrov and Astrova 2024][research_astrov_astrova_2024]
 - [BAE Systems Glasgow delivers final Offshore Patrol Vessel to Royal Navy 2020][research_bae_systems_2020]
@@ -2914,7 +2860,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Baker 1946][research_baker_1946]
 - [Bal Şahin et al 2026][research_balsahin_erdas_2026]
 - [Baldwin 1973][research_baldwin_1973]
-- [Baldwin et al 1976][research_baldwin_cliborn_1976]
 - [Bales 1975][research_bales_1975]
 - [Ballou 1963][research_ballou_1963]
 - [Ballou 1963][research_ballou_1963_b]
@@ -2956,7 +2901,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Beveridge 1971][research_beveridge_1971]
 - [Bezas et al 2022][research_bezas_tsoumanis_2022]
 - [Bezek and Williams 2023][research_bezek_williams_2023]
-- [Bhaskar et al 2023][research_bhaskar_palanikumar_2023]
 - [Bhuva et al 2024][research_bhuva_devre_2024]
 - [Bi et al 2019][research_bi_shen_2019]
 - [Bi et al 2020][research_bi_zhuang_2020]
@@ -3047,7 +2991,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Cecchini and Yusif 2019][research_cecchini_yusif_2019]
 - [Cecchini et al 2017][research_cecchini_serrano_2017]
 - [Centea and Nutt 2015][research_centea_nutt_2015]
-- [Chang and Cuckler 2021][research_chang_cuckler_2021]
 - [Chang and Lai 2025][research_chang_lai_2025]
 - [Chang and Yu 2015][research_chang_yu_2015]
 - [Chang et al 2024][research_chang_ren_2024]
@@ -3086,7 +3029,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Chiacchia et al 2015][research_chiacchia_houlahan_2015]
 - [Chiacchia et al 2025][research_chiacchia_billings_2025]
 - [Chinnasamy et al 2022][research_chinnasamy_ramachandran_2022]
-- [Chithrakkannan 2017][research_chithrakkannan_2017]
 - [Chittaranjan . V and K. Muni Sekhar 2017][research_chittaranjanv_kmunisekhar_2017]
 - [Cho 2015][research_cho_2015]
 - [Cho et al 2021][research_cho_park_2021]
@@ -3120,7 +3062,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Cost Effectiveness and Cost-benefit Analysis: Session Report 1970][research_cost_effectiveness_1970]
 - [Cost-Benefit and Cost-Effectiveness Analysis 1981][research_cost_benefit_and_1981]
 - [Cost-utility Analysis, Cost-effectiveness Analysis, Budget Impact Analysis 2020][research_cost_utility_analysis_2020]
-- [Courville et al 2000][research_courville_fox_2000]
 - [Coverage Path Planning Method of Unmanned Aerial Vehicle for Aircraft Surface Detection Task 2023][research_coverage_path_2023]
 - [Coward 1955][research_coward_1955]
 - [Cramer, Nicholas B. et al 2019][research_cramernicholasb_kimjosephh_2019]
@@ -3151,7 +3092,7 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Dawson, John R et al 1946][research_dawsonjohnr_mckannrobert_1946]
 - [Dawson, John R et al 1946][research_dawsonjohnr_walterrobertc_1946]
 - [Daynes 2024][research_daynes_2024]
-- [DE Decker 1966][research_dedecker_1966]
+- [De Decker 1966][research_dedecker_1966]
 - [de Marolles 1934][research_demarolles_1934]
 - [Delgado et al 2024][research_delgado_rubio_2024]
 - [Deming 1940][research_deming_1940]
@@ -3214,7 +3155,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Dudziak et al 2020][research_dudziak_buczkowskamurawska_2020]
 - [Duman and Bal 2021][research_duman_bal_2021]
 - [Durkee 1968][research_durkee_1968]
-- [Dąbrowska et al 2025][research_dabrowska_puto_2025]
 - [D’Amato et al 2023][research_damato_notaro_2023]
 - [Edwards 1975][research_edwards_1975]
 - [Efanov et al 2020][research_efanov_zakota_2020]
@@ -3234,12 +3174,10 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Erickson et al 1965][research_erickson_johnc_1965]
 - [Eriksen 1954][research_eriksen_1954]
 - [Ernsthausen, W 1937][research_ernsthausenw_1937]
-- [et al 2020][research__allen_2020]
 - [Et. al. 2021][research_etal_2021]
 - [Etesse 1979][research_etesse_1979]
 - [Evaluating The Use of Manned and Unmanned Aircraft Systems in Strategic Offensive Tasks 2015][research_evaluating_the_2015]
 - [Evans, Albert J and Liner, George 1948][research_evansalbertj_linergeorge_1948]
-- [Every et al 1982][research_every_king_1982]
 - [Evolution and Design Philosophy Performance 1967][research_evolution_and_1967]
 - [Ewers et al 2023][research_ewers_anderson_2023]
 - [Ewers et al 2025][research_ewers_anderson_2025]
@@ -3276,7 +3214,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Flying Boat of Plywood to Be World's Largest 1946][research_flying_boat_1946]
 - [Flying Boat, Skyfarer, and more 1942][research_flying_boat_1942]
 - [Folb 1975][research_folb_1975]
-- [Folb and Nelligan 1982][research_folb_nelligan_1982]
 - [Fong and Monismith 2004][research_fong_monismith_2004]
 - [Forrest 1993][research_forrest_1993]
 - [Forti et al 2022][research_forti_dafflisio_2022]
@@ -3289,7 +3226,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Friedrich and Vollrath 2021][research_friedrich_vollrath_2021]
 - [Fukui et al 2020][research_fukui_harada_2020]
 - [Gabrousenko et al 2015][research_gabrousenko_machalin_2015]
-- [Gagnon et al 2020][research_gagnon_brassard_2020]
 - [Gainer Jr. et al 2018][research_gainerjr_dawkins_2018]
 - [Gan et al 2021][research_gan_fang_2021]
 - [Gan et al 2024][research_gan_zuo_2024]
@@ -3378,8 +3314,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Hansen 2021][research_hansen_2021]
 - [Hanson, D. B. 1986][research_hansondb_1986]
 - [Haq 2024][research_haq_2024]
-- [Hardy et al 2015][research_hardy_cain_2015]
-- [Hardy et al 2016][research_hardy_cain_2016]
 - [Harkins 1979][research_harkins_1979]
 - [Harper 1937][research_harper_1937]
 - [Harper 1938][research_harper_1938]
@@ -3473,8 +3407,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Ikrami 2018][research_ikrami_2018]
 - [Ilcev 2019][research_ilcev_2019]
 - [Imaizumi et al 2024][research_imaizumi_fujita_2024]
-- [Imani et al 2022][research_imani_aghaie_2022]
-- [Improved Stall Delay Model for HAWT Performance Predictions using 3D Navier-Stokes Solver and Actuator Disk Method 2022][research_improved_stall_2022]
 - [Indriyanto and Hartalita 2016][research_indriyanto_hartalita_2016]
 - [Ingraham, Daniel et al 2019][research_ingrahamdaniel_grayjustin_2019]
 - [Internal Model Control Tuned Proportional Integral Derivative for Quadrotor Unmanned Aerial Vehicle Dynamic Model 2020][research_internal_model_2020]
@@ -3522,18 +3454,15 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Jones 1965][research_jones_1965]
 - [Jones 1965][research_jones_1965_b]
 - [Jones et al 1973][research_jones_dalhamer_1973]
-- [Jorgensen and Hoffer 1978][research_jorgensen_hoffer_1978]
 - [Judge and VanDerwerken 2019][research_judge_vanderwerken_2019]
 - [Judge et al 2020][research_judge_mousaviraad_2020]
 - [Judge et al 2020][research_judge_mousaviraad_2020_b]
 - [Junda et al 2015][research_junda_greene_2015]
 - [Jung et al 2018][research_jung_yim_2018]
 - [Jung et al 2019][research_jung_jo_2019]
-- [Jung et al 2026][research_jung_greene_2026]
 - [Junos and Khairuddin 2024][research_junos_khairuddin_2024]
 - [Kalagher et al 2021][research_kalagher_devoogt_2021]
 - [Kalms and Bergmann 2020][research_kalms_bergmann_2020]
-- [Kalonov et al 2020][research_kalonov_glukhov_2020]
 - [Kaneko and Martins 2023][research_kaneko_martins_2023]
 - [Kannan and Bae 2025][research_kannan_bae_2025]
 - [Kapadais et al 2019][research_kapadais_varlamis_2019]
@@ -3595,7 +3524,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Kraemer 1938][research_kraemer_1938]
 - [Krampf 2024][research_krampf_2024]
 - [Kratochvíl and Valenta 2024][research_kratochvil_valenta_2024]
-- [Krenzke et al 1965][research_krenzke_hom_1965]
 - [Krueger 2017][research_krueger_2017]
 - [Krüger et al 2016][research_kruger_kornev_2016]
 - [Ksendzuk 2018][research_ksendzuk_2018]
@@ -3729,7 +3657,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Magionesi et al 2022][research_magionesi_dubbioso_2022]
 - [Mahadik and Masel 2018][research_mahadik_masel_2018]
 - [Mahdi Sajedi et al 2019][research_mahdisajedi_ghadimi_2019]
-- [Mahdiyar and Ghorzang 2026][research_mahdiyar_ghorzang_2026]
 - [Mahendra Indiaryanto Hendra et al 2024][research_mahendraindiaryantohendra_ketutsuastika_2024]
 - [Majeed and Lee 2019][research_majeed_lee_2019]
 - [Majumdar et al 2021][research_majumdar_marais_2021]
@@ -3748,13 +3675,10 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Martin 1978][research_martin_1978]
 - [Maruyama 1970][research_maruyama_1970]
 - [Marín and Cuenca 2015][research_marin_cuenca_2015]
-- [Masi et al 2023][research_masi_danieli_2023]
-- [Massoud and Laganiere 2024][research_massoud_laganiere_2024]
 - [Mastroddi et al 2018][research_mastroddi_travaglini_2018]
 - [Masumi and Nikseresht 2017][research_masumi_nikseresht_2017]
 - [Mathur and Atkins 2023][research_mathur_atkins_2023]
 - [Matlekovic and Schneider-Kamp 2023][research_matlekovic_schneiderkamp_2023]
-- [Matsuda et al 2026][research_matsuda_matsuno_2026]
 - [Matsuo and Kuroiwa 1969][research_matsuo_kuroiwa_1969]
 - [Matt et al 2025][research_matt_chao_2025]
 - [Matveev 2018][research_matveev_2018]
@@ -3762,14 +3686,14 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Matveev and Morabito 2020][research_matveev_morabito_2020]
 - [Mazher et al 2018][research_mazher_ibrahim_2018]
 - [Mazziotti di Celso 2023][research_mazziottidicelso_2023]
-- [Mccarthy et al 1961][research_mccarthy_norley_1961]
+- [McCarthy et al 1961][research_mccarthy_norley_1961]
 - [McCormick and B. W. 1956][research_mccormick_bw_1956]
 - [McCormick and Folsom 1973][research_mccormick_folsom_1973]
 - [McCOY 1939][research_mccoy_1939]
 - [McDonnell and Ning 2020][research_mcdonnell_ning_2020]
 - [McGurk et al 2024][research_mcgurk_stodieck_2024]
 - [McKann, Robert and Suydam, Henry B. 1948][research_mckannrobert_suydamhenryb_1948]
-- [Mckann, Robert E et al 1949][research_mckannroberte_coffeeclaudew_1949]
+- [McKann, Robert E et al 1949][research_mckannroberte_coffeeclaudew_1949]
 - [McKann, Robert et al 1949][research_mckannrobert_coffeeclaudew_1949]
 - [McKann, Robert F. et al 1949][research_mckannrobertf_coffeeclaudew_1949]
 - [McKenna et al 2019][research_mckenna_jin_2019]
@@ -3791,7 +3715,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Meyerhoff and Schlachter 1980][research_meyerhoff_schlachter_1980]
 - [Meyerhoff and Zvengrowski 1962][research_meyerhoff_zvengrowski_1962]
 - [Meyne 1975][research_meyne_1975]
-- [MICROSTRIP PATCH ANTENNA FOR AIRCRAFT SURVEILLANCE BROADCAST APPLICATION 2024][research_microstrip_patch_2024]
 - [Middleton 1965][research_middleton_1965]
 - [Mihalik and Keane 2022][research_mihalik_keane_2022]
 - [Mihalić et al 2024][research_mihalic_kostadin_2024]
@@ -3823,7 +3746,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Morawski et al 2019][research_morawski_glowacki_2019]
 - [Morey 1982][research_morey_1982]
 - [Morin et al 2023][research_morin_abizeid_2023]
-- [Morrison et al 1984][research_morrison_martinez_1984]
 - [Morse 1970][research_morse_1970]
 - [Morse et al 2022][research_morse_cartabia_2022]
 - [Morse, Archibald E , Jr et al 1956][research_morsearchibaldejr_woodwarddavidr_1956]
@@ -3885,8 +3807,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Nutku 1965][research_nutku_1965]
 - [O'Neill et al 1966][research_oneill_westerman_1966]
 - [Oatman 1965][research_oatman_1965]
-- [OBJECT DETECTION FOR VIDEO SURVEILLANCE USING COMPUTER VISION 2020][research_object_detection_2020]
-- [Ocular Prosthesis with Cad/ Cam Workflow and Low Cost Additive Manufacturing 2022][research_ocular_prosthesis_2022]
 - [Odzer et al 2022][research_odzer_brooks_2022]
 - [Oh et al 2025][research_oh_oh_2025]
 - [Ohki et al 2015][research_ohki_itakura_2015]
@@ -3897,14 +3817,11 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Olson, Roland E 1943][research_olsonrolande_1943]
 - [Olson, Roland E and Lina, Lindsay J 1941][research_olsonrolande_linalindsayj_1941]
 - [Omar 2019][research_omar_2019]
-- [Omer and Bekker 2018][research_omer_bekker_2018]
 - [Onuike et al 2018][research_onuike_heer_2018]
 - [Onushkin et al 2022][research_onushkin_sizov_2022]
 - [Optimal coverage path planning and object detection for UAV-based surveillance systems 2025][research_optimal_coverage_2025]
 - [Ordway and Hale 1960][research_ordway_hale_1960]
 - [Orlansky and String 1977][research_orlansky_string_1977]
-- [Orlansky and String 1979][research_orlansky_string_1979]
-- [Orlansky and String 1981][research_orlansky_string_1981]
 - [Oshima and Takano 2024][research_oshima_takano_2024]
 - [Oshin Mittal et al 2024][research_oshinmittal_alokkumarsahu_2024]
 - [Oswald 1927][research_oswald_1927]
@@ -3979,7 +3896,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Posner and Rumsey 1967][research_posner_rumsey_1967]
 - [Prakash 2018][research_prakash_2018]
 - [Prasad et al 2022][research_prasad_khalik_2022]
-- [Prickett 1998][research_prickett_1998]
 - [Priyanto et al 2015][research_priyanto_ahmed_2015]
 - [Propeller Cuffs 1940][research_propeller_cuffs_1940]
 - [Pruitt and McKinnon 2023][research_pruitt_mckinnon_2023]
@@ -4009,7 +3925,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Reif and Guenther 1978][research_reif_guenther_1978]
 - [Reissner 1937][research_reissner_1937]
 - [Reissner 1937][research_reissner_1937_b]
-- [Ren et al 2016][research_ren_liu_2016]
 - [Ren et al 2017][research_ren_qiu_2017]
 - [Ren et al 2025][research_ren_xu_2025]
 - [Rennie 1928][research_rennie_1928]
@@ -4024,20 +3939,17 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Ricci et al 2021][research_ricci_coimbra_2021]
 - [Richardson 1968][research_richardson_1968]
 - [Richardson and Belkin 1972][research_richardson_belkin_1972]
-- [Ridgway and Carder 1993][research_ridgway_carder_1993]
 - [Riebe, John M and Naeseth, Rodger L 1952][research_riebejohnm_naesethrodgerl_1952]
 - [Riebe, John M and Naeseth, Rodger L 1953][research_riebejohnm_naesethrodgerl_1953]
 - [Riebe, John M. and Naeseth, Rodger L. 1947][research_riebejohnm_naesethrodgerl_1947]
 - [Riebe, John M. and Naeseth, Rodger L. 1951][research_riebejohnm_naesethrodgerl_1951]
 - [Riley et al 2014][research_riley_coats_2014]
 - [Rios et al 2025][research_rios_mondal_2025]
-- [Rispin and Diggs 1981][research_rispin_diggs_1981]
 - [Rivers et al 1980][research_rivers_bucknam_1980]
 - [Roberts 1961][research_roberts_1961]
 - [Rockwood 2020][research_rockwood_2020]
 - [Rogers and Fasciano 2016][research_rogers_fasciano_2016]
 - [Rogólski and Olejnik 2018][research_rogolski_olejnik_2018]
-- [Rohr and Updegraff 1991][research_rohr_updegraff_1991]
 - [Rohrbach 1930][research_rohrbach_1930]
 - [Roper 1969][research_roper_1969]
 - [Rosenthal 1949][research_rosenthal_1949]
@@ -4052,7 +3964,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Saari, Martin J. and Wallner, Lewis E. 1946][research_saarimartinj_wallnerlewise_1946]
 - [Sabag et al 2025][research_sabag_pinkovich_2025]
 - [Sabatini et al 2015][research_sabatini_cappello_2015]
-- [Sabri and Li 2021][research_sabri_li_2021]
 - [Sadati 2025][research_sadati_2025]
 - [Sadati and Zeraatgar 2023][research_sadati_zeraatgar_2023]
 - [Sadati et al 2022][research_sadati_zeraatgar_2022]
@@ -4102,7 +4013,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Seeni 2019][research_seeni_2019]
 - [Seeni 2019][research_seeni_2019_b]
 - [Seeni 2020][research_seeni_2020]
-- [Seidel and Wagner 1977][research_seidel_wagner_1977]
 - [Sellars 1976][research_sellars_1976]
 - [Sells and Crossley 2023][research_sells_crossley_2023]
 - [Sendi 2020][research_sendi_2020]
@@ -4149,12 +4059,10 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Simmonds 1967][research_simmonds_1967_b]
 - [Simmonds 1967][research_simmonds_1967_c]
 - [Simmons et al 2019][research_simmons_mcclelland_2019]
-- [Simpson 1995][research_simpson_1995]
 - [Simulation of Isolated Propeller Noise Using Acoustic-Vortex Method 2023][research_simulation_of_2023]
 - [Sinacori and Lange 1961][research_sinacori_lange_1961]
 - [Singh 2021][research_singh_2021]
 - [Skop 1984][research_skop_1984]
-- [Skorupka 2022][research_skorupka_2022]
 - [Smiley, Robert F 1952][research_smileyrobertf_1952]
 - [Smith 1943][research_smith_1943]
 - [Smith 1977][research_smith_1977]
@@ -4162,7 +4070,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Snyder et al 1974][research_snyder_keesee_1974]
 - [Sokolov, N. A. 1950][research_sokolovna_1950]
 - [Solid Fuel Regression Rate Test Device Design and Testing: Developing an Easy-toUse and Affordable Approach 2022][research_solid_fuel_2022]
-- [Solomon 1986][research_solomon_1986]
 - [Son and Kim 2023][research_son_kim_2023]
 - [Son and Lee 2025][research_son_lee_2025]
 - [Son and Yee 2018][research_son_yee_2018]
@@ -4177,7 +4084,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Stentoft et al 2020][research_stentoft_wickstrom_2020]
 - [Sternlicht et al 1959][research_sternlicht_reid_1959]
 - [Stewart and Campion 1980][research_stewart_campion_1980]
-- [Stinson 1979][research_stinson_1979]
 - [Stone 1979][research_stone_1979]
 - [Stone et al 1959][research_stone_brock_1959]
 - [Stresses in a rotating propeller blade 1938][research_stresses_in_1938]
@@ -4333,7 +4239,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [W. and Binney 1926][research_w_binney_1926]
 - [Wadlin, Kenneth L and Christopher, Kenneth W 1958][research_wadlinkennethl_christopherkennethw_1958]
 - [Wald 1965][research_wald_1965]
-- [Walker et al 2016][research_walker_petros_2016]
 - [Wallace and Vance 2019][research_wallace_vance_2019]
 - [Wang 2015][research_wang_2015]
 - [Wang 2023][research_wang_2023]
@@ -4393,7 +4298,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Windsor 1968][research_windsor_1968]
 - [Winslow et al 2018][research_winslow_hrishikeshavan_2018]
 - [Wisecarver 1975][research_wisecarver_1975]
-- [Wisher et al 1997][research_wisher_priest_1997]
 - [Wislicenus 1973][research_wislicenus_1973]
 - [Wood 1973][research_wood_1973]
 - [WOOD AND PLASTICS 1944][research_wood_and_1944]
@@ -4480,7 +4384,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Yu et al 2023][research_yu_zhu_2023]
 - [Yu et al 2024][research_yu_qu_2024]
 - [Yu et al 2025][research_yu_zhang_2025]
-- [Yu.Ye. MARYASHIN 2020][research_yuyemaryashin_2020]
 - [Yuan and Duan 2021][research_yuan_duan_2021]
 - [Yuan et al 2020][research_yuan_chen_2020]
 - [Yuan et al 2024][research_yuan_ma_2024]
@@ -4564,12 +4467,10 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [李 2023][research_anon_2023]
 
 [research___2023]: https://doi.org/10.34925/eip.2022.147.10.197
-[research__allen_2020]: https://doi.org/10.1504/ijvp.2020.109191
 [research_a_flying_1930]: https://doi.org/10.1108/eb029299
 [research_a_german_1939]: https://doi.org/10.1108/eb030544
 [research_a_german_1941]: https://doi.org/10.1108/eb030809
 [research_a_longrange_1935]: https://doi.org/10.1108/eb029904
-[research_a_low_2018]: https://doi.org/10.23883/ijrter.2018.4375.ludhs
 [research_a_novel_2024]: https://doi.org/10.7176/ceis/15-1-10
 [research_a_review_2017]: https://doi.org/10.21884/ijmter.2017.4288.h0fca
 [research_a_seaplane_1933]: https://doi.org/10.1108/eb029672
@@ -4653,7 +4554,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_artyushenko_volovach_2017]: https://doi.org/10.21499/2409-1650-2017-1-25-44
 [research_ashuev_1978]: https://doi.org/10.1007/bf02306144
 [research_asiri_2023]: https://doi.org/10.1016/j.phycom.2023.102079
-[research_askari_cremaschi_2023]: https://doi.org/10.3390/aerospace10060513
 [research_asnaghi_svennberg_2021]: https://doi.org/10.1016/j.apor.2020.102449
 [research_astrov_astrova_2024]: https://doi.org/10.37394/23203.2024.19.14
 [research_bae_systems_2020]: https://doi.org/10.12968/s2514-9768(22)90208-x
@@ -4665,7 +4565,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_bai_zhou_2026]: https://doi.org/10.1007/s10586-026-06339-8
 [research_baker_1946]: https://doi.org/10.1243/pime_proc_1946_155_030_02
 [research_baldwin_1973]: https://doi.org/10.21236/ad0758056
-[research_baldwin_cliborn_1976]: https://doi.org/10.21236/ada035863
 [research_bales_1975]: https://doi.org/10.21236/ada015951
 [research_ballou_1963]: https://doi.org/10.21236/ad0415034
 [research_ballou_1963_b]: https://doi.org/10.21236/ad0414553
@@ -4708,7 +4607,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_beveridge_1971]: https://doi.org/10.21236/ad0883322
 [research_bezas_tsoumanis_2022]: https://doi.org/10.3390/s22197551
 [research_bezek_williams_2023]: https://doi.org/10.1016/j.addma.2023.103640
-[research_bhaskar_palanikumar_2023]: https://doi.org/10.61653/joast.v64i4.2012.469
 [research_bhuva_devre_2024]: https://doi.org/10.1049/icp.2024.0531
 [research_bi_li_2025]: https://doi.org/10.1016/j.measurement.2024.115904
 [research_bi_shen_2019]: https://doi.org/10.1016/j.apor.2019.101863
@@ -4799,7 +4697,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_cecchini_serrano_2017]: https://doi.org/10.3233/isp-160122
 [research_cecchini_yusif_2019]: https://doi.org/10.1016/j.compstruct.2019.111282
 [research_centea_nutt_2015]: https://doi.org/10.1177/0021998315602949
-[research_chang_cuckler_2021]: https://doi.org/10.1142/s0217595921500184
 [research_chang_lai_2025]: https://doi.org/10.1002/asjc.3885
 [research_chang_ren_2024]: https://doi.org/10.1007/s00170-024-14725-y
 [research_chang_yu_2015]: https://doi.org/10.1016/j.proeng.2014.12.522
@@ -4838,7 +4735,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_chiacchia_houlahan_2023]: https://doi.org/10.61618/npen4588
 [research_chiacchia_scelza_2023]: https://doi.org/10.61618/gnln7584
 [research_chinnasamy_ramachandran_2022]: https://doi.org/10.46632/ese/1/1/10
-[research_chithrakkannan_2017]: https://doi.org/10.22214/ijraset.2017.11142
 [research_chittaranjanv_kmunisekhar_2017]: https://doi.org/10.17577/ijertv6is040662
 [research_cho_2015]: https://doi.org/10.12985/ksaa.2015.23.1.096
 [research_cho_park_2021]: https://doi.org/10.1016/j.cie.2021.107612
@@ -4872,7 +4768,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_cost_benefit_and_1981]: https://doi.org/10.1056/nejm198102123040727
 [research_cost_effectiveness_1970]: https://doi.org/10.1057/jors.1970.5
 [research_cost_utility_analysis_2020]: https://doi.org/10.31525/ct1-nct04283565
-[research_courville_fox_2000]: https://doi.org/10.21236/ada388179
 [research_coverage_path_2023]: https://doi.org/10.3901/jme.2023.16.243
 [research_coward_1955]: https://doi.org/10.21236/ad0101718
 [research_cramernicholasb_kimjosephh_2019]: https://ntrs.nasa.gov/citations/20190030305
@@ -4887,7 +4782,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_cummings_1968]: https://doi.org/10.21236/ad0844459
 [research_cusanelli_metcalf_2009]: https://doi.org/10.21236/ada498365
 [research_d_c_system_1956]: https://doi.org/10.1049/jiee-3.1956.0373
-[research_dabrowska_puto_2025]: https://doi.org/10.12775/qs.2025.44.62994
 [research_dacey_whitsed_2022]: https://doi.org/10.47389/37.4.88
 [research_dahal_dura_2021]: https://doi.org/10.1155/2021/6629489
 [research_daily_seaplane_1935]: https://doi.org/10.2307/3912166
@@ -4990,7 +4884,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_etesse_1979]: https://doi.org/10.1108/eb035522
 [research_evaluating_the_2015]: https://doi.org/10.21535/rt4q5x62
 [research_evansalbertj_linergeorge_1948]: https://ntrs.nasa.gov/citations/19930085368
-[research_every_king_1982]: https://doi.org/10.1115/1.3230424
 [research_evolution_and_1967]: https://doi.org/10.1108/eb034275
 [research_ewers_anderson_2023]: https://doi.org/10.1016/j.ifacol.2023.10.1834
 [research_ewers_anderson_2025]: https://doi.org/10.1109/access.2025.3557693
@@ -5027,7 +4920,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_flying_boat_1945]: https://doi.org/10.1109/ee.1945.6441055
 [research_flying_boat_1946]: https://doi.org/10.2307/3922970
 [research_folb_1975]: https://doi.org/10.21236/ada021588
-[research_folb_nelligan_1982]: https://doi.org/10.21236/ada124395
 [research_fong_monismith_2004]: https://doi.org/10.21236/ada426029
 [research_forrest_1993]: https://doi.org/10.21236/ada274563
 [research_forti_dafflisio_2022]: https://doi.org/10.1109/jproc.2022.3194445
@@ -5040,7 +4932,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_friedrich_vollrath_2021]: https://doi.org/10.3390/aerospace8030071
 [research_fukui_harada_2020]: https://doi.org/10.1299/jsmecs.2020.58.10c6
 [research_gabrousenko_machalin_2015]: https://doi.org/10.18372/1990-5548.45.9896
-[research_gagnon_brassard_2020]: https://doi.org/10.3390/aerospace7040039
 [research_gainerjr_dawkins_2018]: https://doi.org/10.3390/robotics8010002
 [research_gan_fang_2021]: https://doi.org/10.3390/app11125445
 [research_gan_zuo_2024]: https://doi.org/10.3390/biomimetics9030181
@@ -5129,8 +5020,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_hansen_2021]: https://doi.org/10.1080/08927022.2021.1975038
 [research_hansondb_1986]: https://ntrs.nasa.gov/citations/19860060766
 [research_haq_2024]: https://doi.org/10.18196/eist.v5i2.24837
-[research_hardy_cain_2015]: https://doi.org/10.1364/ao.54.005481
-[research_hardy_cain_2016]: https://doi.org/10.1364/ao.55.004036
 [research_harkins_1979]: https://doi.org/10.21236/ada078004
 [research_harper_1937]: https://doi.org/10.1080/03071843709424940
 [research_harper_1938]: https://doi.org/10.1080/03071843809422070
@@ -5223,8 +5112,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_ikrami_2018]: https://doi.org/10.1163/15718085-12334092
 [research_ilcev_2019]: https://doi.org/10.2478/pomr-2019-0056
 [research_imaizumi_fujita_2024]: https://doi.org/10.1016/j.addma.2024.104076
-[research_imani_aghaie_2022]: https://doi.org/10.1016/j.anucene.2022.109287
-[research_improved_stall_2022]: https://doi.org/10.47176/jafm.15.01.32651
 [research_indriyanto_hartalita_2016]: https://doi.org/10.4028/www.scientific.net/amm.842.233
 [research_ingrahamdaniel_grayjustin_2019]: https://ntrs.nasa.gov/citations/20190027611
 [research_internal_model_2020]: https://doi.org/10.7176/cti/9-01
@@ -5273,18 +5160,15 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_jones_1965]: https://doi.org/10.21236/ad0624893
 [research_jones_1965_b]: https://doi.org/10.21236/ad0637744
 [research_jones_dalhamer_1973]: https://doi.org/10.21236/ad0773611
-[research_jorgensen_hoffer_1978]: https://doi.org/10.21236/ada115873
 [research_judge_mousaviraad_2020]: https://doi.org/10.1016/j.apor.2020.102059
 [research_judge_mousaviraad_2020_b]: https://doi.org/10.1016/j.apor.2020.102060
 [research_judge_vanderwerken_2019]: https://doi.org/10.5957/jspd.12170059
 [research_junda_greene_2015]: https://doi.org/10.1139/juvs-2015-0003
-[research_jung_greene_2026]: https://doi.org/10.2514/1.c038461
 [research_jung_jo_2019]: https://doi.org/10.3390/en12071323
 [research_jung_yim_2018]: https://doi.org/10.1007/s12243-018-0660-5
 [research_junos_khairuddin_2024]: https://doi.org/10.1007/s00371-024-03689-5
 [research_kalagher_devoogt_2021]: https://doi.org/10.1027/2192-0923/a000207
 [research_kalms_bergmann_2020]: https://doi.org/10.1016/j.addma.2020.101396
-[research_kalonov_glukhov_2020]: https://doi.org/10.1016/j.promfg.2020.08.144
 [research_kaneko_martins_2023]: https://doi.org/10.2514/1.c036921
 [research_kannan_bae_2025]: https://doi.org/10.5772/acrt.20250014
 [research_kapadais_varlamis_2019]: https://doi.org/10.3390/fi11090192
@@ -5347,7 +5231,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_kraemer_1938]: https://doi.org/10.1108/eb030327
 [research_krampf_2024]: https://doi.org/10.14358/pers.90.4.199
 [research_kratochvil_valenta_2024]: https://doi.org/10.1007/s13272-024-00745-7
-[research_krenzke_hom_1965]: https://doi.org/10.21236/ad0614632
 [research_krueger_2017]: https://doi.org/10.1016/j.eng.2017.05.010
 [research_kruger_kornev_2016]: https://doi.org/10.1080/09377255.2016.1205293
 [research_ksendzuk_2018]: https://doi.org/10.21778/2218-5453-2018-3-19-24
@@ -5480,7 +5363,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_magionesi_dubbioso_2022]: https://doi.org/10.1017/jfm.2022.558
 [research_mahadik_masel_2018]: https://doi.org/10.1016/j.promfg.2018.10.014
 [research_mahdisajedi_ghadimi_2019]: https://doi.org/10.1177/0954406219833722
-[research_mahdiyar_ghorzang_2026]: https://doi.org/10.61105/jcr.v2i1.347
 [research_mahendraindiaryantohendra_ketutsuastika_2024]: https://doi.org/10.37934/cfdl.16.7.3953
 [research_majeed_lee_2019]: https://doi.org/10.3390/app9071470
 [research_majumdar_marais_2021]: https://doi.org/10.3846/aviation.2021.15837
@@ -5500,13 +5382,10 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_martin_1976]: https://doi.org/10.21236/ada030218
 [research_martin_1978]: https://doi.org/10.5957/jsr.1978.22.1.32
 [research_maruyama_1970]: https://doi.org/10.21236/ad0715851
-[research_masi_danieli_2023]: https://doi.org/10.1115/1.4057063
-[research_massoud_laganiere_2024]: https://doi.org/10.1049/cvi2.12259
 [research_mastroddi_travaglini_2018]: https://doi.org/10.1007/bf03405802
 [research_masumi_nikseresht_2017]: https://doi.org/10.1016/j.apor.2017.09.002
 [research_mathur_atkins_2023]: https://doi.org/10.2514/1.c036916
 [research_matlekovic_schneiderkamp_2023]: https://doi.org/10.3390/drones7090563
-[research_matsuda_matsuno_2026]: https://doi.org/10.2514/1.c038130
 [research_matsuo_kuroiwa_1969]: https://doi.org/10.1109/tit.1969.1054370
 [research_matt_chao_2025]: https://doi.org/10.2514/1.c038147
 [research_matveev_2018]: https://doi.org/10.1016/j.oceaneng.2018.01.047
@@ -5544,7 +5423,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_meyerhoff_schlachter_1980]: https://doi.org/10.1016/0029-8018(80)90060-8
 [research_meyerhoff_zvengrowski_1962]: https://doi.org/10.21236/ad0647299
 [research_meyne_1975]: https://doi.org/10.3233/isp-1975-2224701
-[research_microstrip_patch_2024]: https://doi.org/10.56726/irjmets59820
 [research_middleton_1965]: https://doi.org/10.2514/3.59262
 [research_mihalic_kostadin_2024]: https://doi.org/10.18690/jet.11.4.29-40.2018
 [research_mihalik_keane_2022]: https://doi.org/10.2514/1.c035944
@@ -5576,7 +5454,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_morawski_glowacki_2019]: https://doi.org/10.2478/fas-2019-0012
 [research_morey_1982]: https://doi.org/10.21236/ada122371
 [research_morin_abizeid_2023]: https://doi.org/10.1016/j.ejor.2022.06.019
-[research_morrison_martinez_1984]: https://doi.org/10.21236/ada139547
 [research_morse_1970]: https://doi.org/10.21236/ad0702920
 [research_morse_cartabia_2022]: https://doi.org/10.1007/s00158-022-03250-9
 [research_morsearchibaldejr_woodwarddavidr_1956]: https://ntrs.nasa.gov/citations/19930089354
@@ -5636,8 +5513,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_nunez_1989]: https://doi.org/10.21236/ada215552
 [research_nutku_1965]: https://doi.org/10.3233/isp-1965-1213402
 [research_oatman_1965]: https://doi.org/10.21236/ad0625230
-[research_object_detection_2020]: https://doi.org/10.37896/aj9.6/028
-[research_ocular_prosthesis_2022]: https://doi.org/10.36266/jodhr/147
 [research_odzer_brooks_2022]: https://doi.org/10.1071/wr20207
 [research_oh_oh_2025]: https://doi.org/10.7780/kjrs.2025.41.6.17
 [research_ohki_itakura_2015]: https://doi.org/10.1299/jsmekyushu.2015.68.323
@@ -5649,15 +5524,12 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_olsonrolande_linalindsayj_1941]: https://ntrs.nasa.gov/citations/19930081590
 [research_omahony_2020]: https://doi.org/10.1007/s40273-020-00931-5
 [research_omar_2019]: https://doi.org/10.1088/1742-6596/1150/1/012067
-[research_omer_bekker_2018]: https://doi.org/10.1016/j.apergo.2017.09.008
 [research_oneill_westerman_1966]: https://doi.org/10.21236/ad0635168
 [research_onuike_heer_2018]: https://doi.org/10.1016/j.addma.2018.02.007
 [research_onushkin_sizov_2022]: https://doi.org/10.3103/s1068799822010135
 [research_optimal_coverage_2025]: https://doi.org/10.57001/huih5804.2025.353
 [research_ordway_hale_1960]: https://doi.org/10.2514/8.8576
 [research_orlansky_string_1977]: https://doi.org/10.21236/ada052801
-[research_orlansky_string_1979]: https://doi.org/10.21236/ada073400
-[research_orlansky_string_1981]: https://doi.org/10.21236/ada108717
 [research_oshima_takano_2024]: https://doi.org/10.1016/j.addma.2024.104090
 [research_oshinmittal_alokkumarsahu_2024]: https://doi.org/10.61359/11.2106-2447
 [research_oswald_1927]: https://doi.org/10.1017/s0368393100139896
@@ -5731,7 +5603,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_posner_rumsey_1967]: https://doi.org/10.2307/3212306
 [research_prakash_2018]: https://doi.org/10.22214/ijraset.2018.6051
 [research_prasad_khalik_2022]: https://doi.org/10.1016/j.addlet.2022.100046
-[research_prickett_1998]: https://doi.org/10.21236/ada345033
 [research_priyanto_ahmed_2015]: https://doi.org/10.7763/ijmo.2015.v5.474
 [research_propeller_cuffs_1940]: https://doi.org/10.1038/scientificamerican1040-189a
 [research_pruitt_mckinnon_2023]: https://doi.org/10.1007/s11457-023-09383-2
@@ -5761,7 +5632,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_reif_guenther_1978]: https://doi.org/10.2514/3.63128
 [research_reissner_1937]: https://doi.org/10.1080/14786443708561954
 [research_reissner_1937_b]: https://doi.org/10.2514/8.496
-[research_ren_liu_2016]: https://doi.org/10.1007/s13344-016-0063-1
 [research_ren_qiu_2017]: https://doi.org/10.3390/ma10050519
 [research_ren_xu_2025]: https://doi.org/10.1051/jnwpu/20254340640
 [research_rennie_1928]: https://doi.org/10.1017/s0368393100137307
@@ -5776,20 +5646,17 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_ricci_coimbra_2021]: https://doi.org/10.1108/aeat-06-2020-0113
 [research_richardson_1968]: https://doi.org/10.21236/ad0677281
 [research_richardson_belkin_1972]: https://doi.org/10.1287/opre.20.4.764
-[research_ridgway_carder_1993]: https://doi.org/10.21236/ada274066
 [research_riebejohnm_naesethrodgerl_1947]: https://ntrs.nasa.gov/citations/20090022391
 [research_riebejohnm_naesethrodgerl_1951]: https://ntrs.nasa.gov/citations/20050019300
 [research_riebejohnm_naesethrodgerl_1952]: https://ntrs.nasa.gov/citations/19930083047
 [research_riebejohnm_naesethrodgerl_1953]: https://ntrs.nasa.gov/citations/19930092173
 [research_riley_coats_2014]: https://doi.org/10.21236/ada621230
 [research_rios_mondal_2025]: https://doi.org/10.3390/s25175220
-[research_rispin_diggs_1981]: https://doi.org/10.21236/ada099764
 [research_rivers_bucknam_1980]: https://doi.org/10.21236/ada081734
 [research_roberts_1961]: https://doi.org/10.21236/ad0263085
 [research_rockwood_2020]: https://doi.org/10.61618/conb4962
 [research_rogers_fasciano_2016]: https://doi.org/10.2514/1.c033430
 [research_rogolski_olejnik_2018]: https://doi.org/10.1108/aeat-01-2018-0059
-[research_rohr_updegraff_1991]: https://doi.org/10.21236/ada240224
 [research_rohrbach_1930]: https://doi.org/10.1115/1.4057297
 [research_roper_1969]: https://doi.org/10.21236/ad0706098
 [research_rosen_garme_2020]: https://doi.org/10.1016/j.oceaneng.2020.107897
@@ -5804,7 +5671,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_saarimartinj_wallnerlewise_1946]: https://ntrs.nasa.gov/citations/20030063991
 [research_sabag_pinkovich_2025]: https://doi.org/10.3390/drones9020098
 [research_sabatini_cappello_2015]: https://doi.org/10.1108/aeat-06-2014-0081
-[research_sabri_li_2021]: https://doi.org/10.7717/peerj-cs.402
 [research_sadati_2025]: https://doi.org/10.1016/j.cie.2025.111087
 [research_sadati_zeraatgar_2022]: https://doi.org/10.2478/pomr-2022-0040
 [research_sadati_zeraatgar_2023]: https://doi.org/10.1016/j.oceaneng.2023.115763
@@ -5854,7 +5720,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_seeni_2019]: https://doi.org/10.13111/2066-8201.2019.11.4.14
 [research_seeni_2019_b]: https://doi.org/10.18280/mmep.060417
 [research_seeni_2020]: https://doi.org/10.13111/2066-8201.2020.12.2.16
-[research_seidel_wagner_1977]: https://doi.org/10.21236/ada080813
 [research_seker_cankaya_2026]: https://doi.org/10.47191/etj/v11i06.55
 [research_sellars_1976]: https://doi.org/10.5957/mt1.1976.13.1.46
 [research_sells_crossley_2023]: https://doi.org/10.2514/1.c036330
@@ -5903,12 +5768,10 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_simmonds_1967_b]: https://doi.org/10.21236/ad0820762
 [research_simmonds_1967_c]: https://doi.org/10.21236/ad0820761
 [research_simmons_mcclelland_2019]: https://doi.org/10.2514/1.c035160
-[research_simpson_1995]: https://doi.org/10.21236/ada302985
 [research_simulation_of_2023]: https://doi.org/10.14529/jsfi230102
 [research_sinacori_lange_1961]: https://doi.org/10.21236/ad0266422
 [research_singh_2021]: https://doi.org/10.22214/ijraset.2021.34026
 [research_skop_1984]: https://doi.org/10.21236/adb084604
-[research_skorupka_2022]: https://doi.org/10.2478/fas-2022-0008
 [research_smileyrobertf_1952]: https://ntrs.nasa.gov/citations/19930083592
 [research_smith_1943]: https://doi.org/10.1017/s0368393100116463
 [research_smith_1977]: https://doi.org/10.21236/ada069198
@@ -5917,7 +5780,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_sohret_dinc_2015]: https://doi.org/10.1016/j.energy.2015.09.081
 [research_sokolovna_1950]: https://ntrs.nasa.gov/citations/20050242060
 [research_solid_fuel_2022]: https://doi.org/10.56452/2023-03/004
-[research_solomon_1986]: https://doi.org/10.21236/ada171106
 [research_son_kim_2023]: https://doi.org/10.3390/aerospace10060494
 [research_son_lee_2025]: https://doi.org/10.31818/jknst.2025.3.8.1.59
 [research_son_yee_2018]: https://doi.org/10.2514/1.c034490
@@ -5932,7 +5794,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_stentoft_wickstrom_2020]: https://doi.org/10.1108/jmtm-07-2019-0283
 [research_sternlicht_reid_1959]: https://doi.org/10.1111/j.1559-3584.1959.tb02335.x
 [research_stewart_campion_1980]: https://doi.org/10.2514/3.57914
-[research_stinson_1979]: https://doi.org/10.21236/ada068683
 [research_stone_1979]: https://doi.org/10.1109/mc.1979.1658693
 [research_stone_brock_1959]: https://doi.org/10.1109/tit.1959.1057483
 [research_stresses_in_1938]: https://doi.org/10.1016/s0016-0032(38)90054-7
@@ -6088,7 +5949,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_w_binney_1926]: https://doi.org/10.2307/1782322
 [research_wadlinkennethl_christopherkennethw_1958]: https://ntrs.nasa.gov/citations/19930085023
 [research_wald_1965]: https://doi.org/10.5957/jsr.1965.9.2.1
-[research_walker_petros_2016]: https://doi.org/10.31356/avi-fac0002
 [research_wallace_vance_2019]: https://doi.org/10.15394/ijaaa.2019.1421
 [research_wang_2015]: https://doi.org/10.4028/www.scientific.net/amm.738-739.775
 [research_wang_2023]: https://doi.org/10.54097/wxfetx68
@@ -6148,7 +6008,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_windsor_1968]: https://doi.org/10.21236/ad0828948
 [research_winslow_hrishikeshavan_2018]: https://doi.org/10.2514/1.c034483
 [research_wisecarver_1975]: https://doi.org/10.1086/260349
-[research_wisher_priest_1997]: https://doi.org/10.21236/ada337689
 [research_wislicenus_1973]: https://doi.org/10.21236/ad0775620
 [research_wood_1973]: https://doi.org/10.1080/00119253.1973.9935675
 [research_wood_and_1944]: https://doi.org/10.1108/eb031131
@@ -6242,7 +6101,6 @@ series to an aircraft built from nothing to answer a question that could not be 
 [research_yuan_yan_2026]: https://doi.org/10.3390/drones10060442
 [research_yukhno_petrov_2020]: https://doi.org/10.37624/ijert/13.11.2020.3710-3717
 [research_yulianti_riqwan_2023]: https://doi.org/10.36647/ijermce/10.04.a007
-[research_yuyemaryashin_2020]: https://doi.org/10.21557/mth.61341419
 [research_zabinsky_laszewski_1956]: https://doi.org/10.21236/ad0102024
 [research_zabransky_hewitt_2016]: https://doi.org/10.1002/jwmg.21143
 [research_zabrina_2025]: https://doi.org/10.33005/sitasi.v5i1.2549

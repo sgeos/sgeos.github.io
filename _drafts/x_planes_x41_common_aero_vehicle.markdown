@@ -18,10 +18,9 @@ problem. This article derives what the vehicle had to be from what it had to do,
 derivation against the one thing that did fly.
 This is the forty-second article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], and the [X-40][related_post_a337_boeing_x40].
 
-**This is the first article in the series to take the documentation-poor class**, which the genre reserves
-for a vehicle whose record will not support the full treatment. The section order is the same as for a
-documented aircraft and the sections are shorter, **with the statement of what is unknown carrying weight
-that a specification table would otherwise carry.**
+**The public record of this vehicle is a mission requirement and a few published performance figures.**
+With no specification released, **the statement of what is unknown carries the weight that a
+specification table would otherwise carry.**
 
 **The finding is that classification hides the design and not the physics.** A published range, a published
 mass and a published lift to drag ratio bound the problem tightly enough to show where it becomes
@@ -589,8 +588,8 @@ facilities run out**, and the programme paid two vehicles to establish it.
 - [Pan and others, 2025, A Novel Attack Missile Guidance Method Considering the Terminal Angle Constraint of the Attack Missile-Target-Defense Missile Game][research_pan_ma_2025]
 - [Cheng and others, 2025, A Parameter Optimization Method for Non-singular Terminal Sliding Mode Guidance Law with Falling Angle Constraint][research_cheng_shen_2025]
 - [Dai and others, 2025, An Adaptive Terminal Guidance Law Based on Deep Reinforcement Learning][research_dai_yang_2025]
-- [Mceowen and others, 2025, Auto-Tuned Primal-Dual Successive Convexification for Hypersonic Reentry Guidance][research_mceowen_calderone_2025_b]
-- [Mceowen and others, 2025, Autotuned Primal-Dual Successive Convexification for Reentry Guidance][research_mceowen_calderone_2025]
+- [McEowen and others, 2025, Auto-Tuned Primal-Dual Successive Convexification for Hypersonic Reentry Guidance][research_mceowen_calderone_2025_b]
+- [McEowen and others, 2025, Autotuned Primal-Dual Successive Convexification for Reentry Guidance][research_mceowen_calderone_2025]
 - [Li and others, 2025, Cooperative Guidance of Glide Bombs Based on Gaussian Pseudo-spectral Method][research_li_mao_2025]
 - [Wang and others, 2025, Desired Impact Angle Identification for An Incoming Aerial Vehicle Using the Trajectory Shaping Guidance Law][research_wang_wang_2025]
 - [Li and others, 2025, Energy-Optimal Guidance Law Design With Terminal Impact Angle Constraints][research_li_zhang_2025]
@@ -722,95 +721,62 @@ rather than hidden inside a single number.
 
 ## The Source Base
 
-**34 curated sources carry the argument and 4,422 harvested records map the field, and the article
+**34 curated sources carry the argument and 4,422 survey records map the field, and the article
 keeps them apart.**
 
-**The curated set began with no primary sources at all, which was indefensible.** Eight reference works,
+**26 of the 34 are primary or canonical technical sources**, being 23 reports from NASA's Technical
+Reports Server and 3 papers, which are 76 percent of the curated set. The other eight are reference works,
 being two designation references, four encyclopaedia articles, one trade report of the failure board and
-one programme overview, supplied every date and dimension. **For an article whose entire argument is a
-derivation, citing an encyclopaedia for the relations being derived is exactly backwards**, and the
-primary-reference pass corrected it.
-
-**26 of the 34 are now primary or canonical technical sources**, being 23 reports from the
-technical reports server and 3 papers the harvest had already found and the prose had not been
-citing. **The primary share of the curated set went from 0 to 76 percent.**
+one programme overview, and they supply every date and dimension of the vehicle. **The relations the
+derivation uses are cited to their primary technical sources rather than to the reference works.**
 
 **Three of them carry relations this article uses numerically.** The equilibrium glide range relation is
 Eggers and colleagues' comparative analysis of long-range hypervelocity vehicles, published in 1955 and
 refined through 1958, **before any such vehicle existed**. The lift to drag ceiling is Küchemann's
 correlation. The stagnation-point heating form belongs to a family running from Fay and Kemp through
-free-flight measurement to modern blunt-body procedures. **The article had been using all three and citing
-none of them.**
+free-flight measurement to modern blunt-body procedures.
 
-**One addition speaks directly to the central contradiction.** An aerothermal performance constraint
+**One source speaks directly to the central contradiction.** An aerothermal performance constraint
 analysis of sharp nosecaps and leading edges works the sharp-versus-blunt trade from the materials side,
 and a flight experiment programme was built to attack it. **The contradiction derived here is a recognised
 design problem with its own literature**, which is a stronger position than deriving it alone.
 
-**No harvested record was read beyond its title.** The first harvest retrieved 15,209 records, of which
-4,470 passed the subject gate and 4,326 reached the reference list after duplicates and three homonym
-families were removed.
-**Not one is cited in support of a claim about the X-41.**
+**The survey records come chiefly from the Crossref scholarly registry**, with smaller numbers from NASA's
+Technical Reports Server and the Defense Technical Information Center. Records are admitted when their
+titles match this article's subject vocabulary. A person has read the titles that the exclusion patterns
+flag and a random sample of the rest, and records read as off topic, and others of their kinds, are removed. **Not one is cited in support of a claim about
+the X-41.**
 
-**The gate was audited by reading random samples of both sides, which is the return protocol rather than a
-recommendation.** Reading found the **underwater glider**, which shares glide, trajectory, range and
-vehicle with a hypersonic glider and shares nothing else, and the **block-glide landslide**, which also
-collects the phrase front range.
+**Many words this subject depends on also name something else, and a record that shares only such a word
+is excluded.** Glide, trajectory, range and vehicle also describe the **underwater oceanographic glider**,
+and block glide and front range describe landslides. Stagnation point and heat transfer also name the
+**nanofluid stagnation-point flow** literature, a large applied-mathematical field concerning flow over
+stretching sheets, spinning spheres and non-Newtonian fluids that shares no physics of interest with
+reentry aerothermodynamics. Corridor and long range also describe road traffic, automated cars and ship
+routing, corridor, terminal guidance and reentry also describe drones, quadrotors and ground robots, and
+Waverider is also the name of an oceanographic wave-measurement buoy. Trajectory also names atmospheric
+pollutant transport, reentry also names a mechanism of cardiac arrhythmia that ablation treats, glide
+also names gliding animals and dislocation glide in metals, and boost, range and entry recur in business news.
+Correction, erratum, addendum, retraction and withdrawal notices, figure and supplementary-material
+records, peer-review reports and journal front matter are excluded as well, because the survey counts
+research works and those are parts of works or editorial events rather than works.
 
-**A third family survived the samples and was found by checking an out-of-place publisher prefix.** A
-condensed-matter physics identifier in the reference list led to the **nanofluid stagnation-point flow**
-literature, a large applied-mathematical field concerning flow over stretching sheets and spinning spheres
-that shares the terms stagnation point and heat transfer with reentry aerothermodynamics and shares no
-physics of interest. **Ninety-seven records had reached the corpus and were removed**, which is 2.2 percent
-of it, and the entry aerothermodynamics cluster fell from 489 records to 401 as a result.
+**Some records of doubtful relevance are kept.** Terminal guidance of drones, mortar projectiles and
+parafoils, aircraft trajectory prediction, reachability and trajectory estimation, and stagnation-point
+heat transfer in flames and impinging jets share the methods of entry guidance or of entry heating with
+this subject, so each is kept and a reader may weigh it accordingly.
 
-**That is the third consecutive article on which a publisher-prefix check has beaten the random sample**,
-and it is now part of the routine rather than a lucky catch. **The article claims a clean corpus nowhere.**
+**The literature is thin on the article's own central construct.** Among the research titles in the
+references, 18 contain the word corridor and 21 contain cross-range in any spelling or footprint, although
+the entry corridor is the construct the sizing argument turns on and cross-range is the quantity the
+guidance paragraph leans on.
 
-**The publication pass audited the survey against the article's own subjects and found two thin.**
-**The entry corridor measured nine records while the corridor is this article's central construct**, and
-cross-range stood at fourteen against a paragraph that leans on it. A supplementary harvest of 3,075
-records was added to fill both. Counting survey titles after the 7 October 2026 rebuild, 18 contain the
-word corridor and 21 contain cross-range in any spelling or footprint. The earlier nine and fourteen were
-counted under a rule that was not recorded, so the two pairs of figures cannot be compared exactly.
-**The supplementary set was audited by reading a sample of its own**, which is the
-process gap the X-40 article recorded after auditing only its first harvest. That sample of twenty-four records found
-none off topic at the time, and the 7 October 2026 rebuild later refused forty-nine records from this
-harvest, so a clean sample of that size did not show the harvest to be clean.
-
-**One inherited defect is absent because the X-39 article paid for it.** The qualifier helper wraps each part in a
-non-capturing group, so an alternation cannot escape its lookahead and turn a conjunction into a
-disjunction of bare words.
-
-**A second inherited defect was present and is recorded.** This section was adapted from the previous
-article's and carried three of its sentences unaltered, including a finding about animal-behaviour
-apparatus that belongs to that article and not this one, and a reference to the wrong vehicle.
-**A template that is edited rather than rewritten will leak**, and it did.
-
-**The filter was rebuilt on 7 October 2026, after the counts first published with this article.** A
-reading of every record the screens flagged, followed by a sweep of the whole set for each homonym the
-reading exposed, refused 127 records that share a word with the subject and nothing else. The largest
-families were twenty-six on road traffic, automated cars and ship routing, eighteen on drones, quadrotors
-and ground robots, twelve on stagnation-point flow over stretching sheets and non-Newtonian fluids, which
-is the family an earlier pass had removed only in part, and eleven on the Waverider wave-measurement buoy
-of oceanography. The rest were ten on atmospheric pollutant transport, ten on medicine and physiotherapy,
-including a study of ablative therapy for reentry arrhythmias of the heart, nine on underwater
-oceanographic gliders, four on gliding animals, and smaller groups on subjects such as business news, perception and
-speech, dislocation glide in metals, education, forensic ballistics and electronics. **The survey went
-from 4,582 records to 4,455.** Boost-glide trajectories changed most, from 1,190 records to 1,093,
-followed by entry aerothermodynamics from 426 to 413, hypersonic aerodynamics from 2,101 to 2,090 and
-entry guidance from 352 to 346. Forty-nine of the refused records came from the supplementary harvest
-whose sample had come back clean.
-
-**A reading of 300 unflagged records found seven off topic**, every one of them in a family the sweep then
-removed. The sample therefore measured 2.3 percent before the sweep, and the contamination remaining after
-it is lower by an amount the reading cannot measure.
-
-**A second seeded sample of 300 records that no earlier reading had seen, read on 8 October 2026, found
-none off topic, so nothing was removed and the survey still held 4,455 records.** That sample drove no
-sweep, so it does measure what remains after the rebuild. Finding none in 300 bounds the remaining
-off-topic share below about 1 percent at 95 percent confidence and does not show it to be zero.
-**Thirty-two more records were removed on 8 October 2026 because they are notices about works and not works**, being 24 errata, correction and addendum notices and 8 retraction or withdrawal notices, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the survey from 4,455 to 4,423, hypersonic aerodynamics from 2,090 to 2,079 and boost-glide trajectories from 1,093 to 1,087, and left the corridor and cross-range title counts at 18 and 21. On 8 October one retracted article was also removed, which took the survey from 4,423 to 4,422 and thermal protection from 329 to 328.
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate
+from a sample.** The most recent measurement read 300 records drawn at random from those not previously
+read and found none off topic. That sample exposed no off-topic record, so no removal followed from it to
+bias the figure, and finding none in 300 bounds the remaining off-topic share below about 1 percent at 95 percent confidence
+without showing it to be zero. No later unread sample has been drawn, and **the article claims a clean
+corpus nowhere.**
 
 ## Epistemic State
 
@@ -832,10 +798,10 @@ glide. No third flight was conducted.
 
 ### Engineering Analysis
 
-**Every quantitative result here is computed from published figures using standard relations, and each was
-recomputed independently before use.** The circular speed, the equilibrium glide condition and the range
-relation carry no vehicle property, and they are now cited to their primary sources rather than treated as
-common knowledge \[[Eggers and others 1955][research_eggers_1955]\]
+**Every quantitative result here is computed from published figures using standard relations, and each can
+be recomputed from the relations and figures shown.** The circular speed, the equilibrium glide condition and
+the range relation carry no vehicle property, and they are cited to their primary sources rather than
+treated as common knowledge \[[Eggers and others 1955][research_eggers_1955]\]
 \[[Eggers and others 1958][research_eggers_1958]\]. The Küchemann correlation is empirical
 \[[Küchemann 1965][research_kuchemann_1965]\] and is used as a bound rather than as a prediction, with the
 configuration measurements it summarises cited separately. The lift condition, the stagnation-point heating correlation
@@ -1791,7 +1757,7 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [de Pasquale and others, 2009, ATV Jules Verne reentry observation Mission design and trajectory analysis][research_depasquale_francillout_2009]
 - [De Prisco and others, 2026, Aerothermodynamic response of ZrB2-based compositionally complex ultra-high-temperature ceramics in hypersonic and supersonic flow conditions][research_deprisco_mungiguerra_2026]
 - [De Vanna and others, 2022, Multi-Objective RANS Aerodynamic Optimization of a Hypersonic Intake Ramp at Mach 5][research_devanna_bof_2022]
-- [DE VIRGILIO and others, 1973, Optimal guidance for aerodynamically controlled reentry vehicles][research_devirgilio_wells_1973]
+- [De Virgilio and others, 1973, Optimal guidance for aerodynamically controlled reentry vehicles][research_devirgilio_wells_1973]
 - [De Vita and others, 2015, Assessment of Hypersonic Flights Operation Scenarios Analysis of Launch and Reentry Trajectories, and Derived Top Level Vehicle System and Support Infrastructure Concepts and Requirements][research_devita_viola_2015]
 - [De Zaiacomo and others, 2009, Robust Skip Entry Guidance and Control for a Capsule Returning from Lunar Orbit][research_dezaiacomo_kerr_2009]
 - [De-qing and others, 2019, Research on Integrated Design of Guidance and Control for Hypersonic Vehicle Based on Trajectory Linearization Control Method][research_deqing_yiyin_2019]
@@ -3427,12 +3393,12 @@ The next article returns to a vehicle whose designation is not in doubt.
 - [McCormick and others, 2010, Uncertainty Quantification and Propagation Methods for Hypersonic Airbreathing Launch Vehicle System Analysis][research_mccormick_wakayama_2010]
 - [McCOWN and DAVI, 1967, Radiative vs ablative heat shield concepts for manned lifting entry vehicles][research_mccown_davi_1967]
 - [McCOWN and others, 1966, Design and testing of a hot redundant structure concept for a hypersonic flight vehicle][research_mccown_barrett_1966]
-- [Mccurry, 1996, Lockheed Martin launch vehicle application to small planetary missions][research_mccurry_1996]
+- [McCurry, 1996, Lockheed Martin launch vehicle application to small planetary missions][research_mccurry_1996]
 - [McDonald and Mavris, 2000, Formulation, realization, and demonstration of a process to generate aerodynamic metamodels for hypersonic cruise vehicle design][research_mcdonald_mavris_2000]
-- [Mceowen and Acikmese, 2022, Hypersonic Entry Trajectory Optimization via Successive Convexification with Abstracted Control][research_mceowen_acikmese_2022]
-- [Mceowen and others, 2023, High-Accuracy 3-DoF Hypersonic Reentry Guidance via Sequential Convex Programming][research_mceowen_kamath_2023]
-- [Mceowen and others, 2025, Auto-Tuned Primal-Dual Successive Convexification for Hypersonic Reentry Guidance][research_mceowen_calderone_2025_b]
-- [Mceowen and others, 2025, Autotuned Primal-Dual Successive Convexification for Reentry Guidance][research_mceowen_calderone_2025]
+- [McEowen and Acikmese, 2022, Hypersonic Entry Trajectory Optimization via Successive Convexification with Abstracted Control][research_mceowen_acikmese_2022]
+- [McEowen and others, 2023, High-Accuracy 3-DoF Hypersonic Reentry Guidance via Sequential Convex Programming][research_mceowen_kamath_2023]
+- [McEowen and others, 2025, Auto-Tuned Primal-Dual Successive Convexification for Hypersonic Reentry Guidance][research_mceowen_calderone_2025_b]
+- [McEowen and others, 2025, Autotuned Primal-Dual Successive Convexification for Reentry Guidance][research_mceowen_calderone_2025]
 - [McFarland, 2001, Hybridizing contemporary glide slopes to provide vertical guidance for GPS approaches][research_mcfarland_2001]
 - [McGrory, 2001, Hypersonic Maneuvering Vehicle Simulations Using Real-Gas, Unstructured Navier-Stokes Software][research_mcgrory_2001]
 - [McINTOSH, 1973, Effect of Hypersonic Nonlinear Aerodynamic Loading on Panel Flutter][research_mcintosh_1973]

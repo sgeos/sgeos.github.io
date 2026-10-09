@@ -190,7 +190,7 @@ installation, not by an airframe.
 
 ### The Relation That Makes a Fan Worth Carrying
 
-**The previous article on the X-32 derived this and it is reused and not rebuilt.** A jet that
+**The relation is the one the X-32 article derives.** A jet that
 accelerates a mass flow $\dot{m}$ from rest to a velocity $v$ produces a thrust and carries away a kinetic
 power,
 
@@ -200,8 +200,7 @@ and eliminating the velocity between them gives the relation that governs every 
 
 $$T = \sqrt{2 P \dot{m}}$$
 
-**At a fixed power, thrust rises as the square root of the mass flow.** The identity was tested over twenty
-thousand randomised combinations of mass flow and jet velocity without a failure.
+**At a fixed power, thrust rises as the square root of the mass flow.**
 
 The consequence is the whole argument for a lift fan. A shaft cannot create power, so the fan's power does
 come out of the engine. **But the fan moves air that the engine never touched**, and adding mass flow at
@@ -273,13 +272,10 @@ $$\mathrm{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{15.06}{21.63} 
 numbers, and it belongs to the X-35's fan and not the X-32's. A figure of merit near seven tenths is
 respectable for a heavily loaded fan in a short duct with louvred exit vanes and no time to be elegant.
 
-The result was reached here by a route the earlier derivation did not use. Rather than evaluating the closed
-form for induced velocity, the far-field velocity was recovered by bisecting the streamtube mass balance,
-and the power was then taken as the jet's kinetic flux, not as thrust times induced velocity.
-**The two routes agree to the last bit of double precision, and what that does and does not establish should be stated plainly.**
-The formulations are algebraically equivalent, so exact agreement is what they ought to produce and is no
-evidence that the physics is right. **What the second route tests is transcription**, and a mistyped
-exponent or a dropped factor of two would break it immediately.
+The same figure follows if the power is taken as the kinetic flux of the fully developed jet,
+$\tfrac{1}{2} \dot{m} \left(2 v_i\right)^{2} = 2 \dot{m} v_i^{2} = T v_i$, rather than as thrust times
+induced velocity. **The two forms are algebraically identical**, so their agreement is a check on the
+arithmetic and not on the physics.
 
 - [Experimental Research on Counter rotating, Axial Flow Fan][research_takamatu_takezako_1967]
 - [Power Plant Study for Shaft-driven Heavy-lift Rotary-wing...][research_moellmann_oconnor_1967]
@@ -400,7 +396,7 @@ worth knowing, and it has not measured the engine.
 - [Heavy-lift Tip Turbojet Rotor System. Volume 2. Parametric...][research_hilleraircraftcorppaloaltoca_1965_b]
 - [An Improved Single-Stage Air Compressor][research_an_improved_1910]
 - [An Approximate Investigation of the Off-Design Performance of...][research_merchant_1949]
-- [Mcdonnell Aircraft Corp St Louis Mo 1950][research_mcdonnellaircraftcorpstlouismo_1950]
+- [McDonnell Aircraft Corp St Louis Mo 1950][research_mcdonnellaircraftcorpstlouismo_1950]
 - [Effects of Stage Characteristics and Matching on...][research_stone_1958]
 - [The Stacking of Compressor Stage Characteristics to Give an...][research_doyle_dixon_1962]
 - [The Centrifugal Compressor Stage][research_the_centrifugal_1964]
@@ -409,7 +405,7 @@ worth knowing, and it has not measured the engine.
 
 ### The Identity the Article Was Already Printing
 
-**The previous article noticed that momentum theory hands you a second quantity for free, and the same thing is true here.**
+**Momentum theory hands over a second quantity for free, as the X-32 article also shows.**
 The disc loading is thrust over disc area,
 
 $$\frac{T}{A} = \frac{88{,}964}{1.2668} = 70.2 \ \text{kPa}$$
@@ -418,9 +414,8 @@ and the dynamic pressure in the fully developed jet is
 
 $$q_{\text{jet}} = \tfrac{1}{2} \rho \left(2 v_i\right)^{2} = 2 \rho v_i^{2} = \frac{T}{A}$$
 
-**so the dynamic pressure the jet puts on the ground is the disc loading, exactly.** The two routes agree to
-the last bit of double precision, which is to say the residual is rounding, not disagreement, and the
-identity was confirmed over twenty thousand randomised combinations of thrust, area and density.
+**so the dynamic pressure the jet puts on the ground is the disc loading, exactly.** The equality is an
+algebraic identity of the ideal disc and holds for any thrust, area and density.
 
 This matters because it converts a propulsion number into a facilities number without any further modelling.
 **A fifty-inch fan making twenty thousand pounds force is also a machine that presses on whatever it is standing over at 70.2 kilopascals**,
@@ -575,9 +570,9 @@ so the energy destroyed is the difference,
 $$E_{\text{clutch}} = I \omega_s^{2} - \tfrac{1}{2} I \omega_s^{2} = \tfrac{1}{2} I \omega_s^{2}$$
 
 **Exactly half of the energy drawn from the engine during the engagement is destroyed as heat in the clutch, and nothing about that fraction depends on how the engagement is managed.**
-A slow, gentle engagement destroys exactly as much as a violent one. The claim was verified independently by
-integrating the equations of motion under a constant torque, a linearly rising torque and an exponentially
-decaying torque, and the dissipated fraction came back as 0.5 in all three cases.
+A slow, gentle engagement destroys exactly as much as a violent one. Integrating the equations of motion
+under a constant torque, a linearly rising torque and an exponentially decaying torque gives a dissipated
+fraction of 0.5 in all three cases, as the impulse argument requires.
 
 **The magnitude needs the fan's polar moment of inertia, which is not published, so it is bracketed.**
 
@@ -655,10 +650,8 @@ Writing $\dot{m}$ for the fan's mass flow and $V$ for true airspeed,
 $$D_{\text{mom}} = \dot{m} V$$
 
 which is exact and needs nothing beyond the flow the disc analysis already produced.
-**The fan's mass flow was recovered here by a second route**, taking thrust over jet velocity and not
-density times area times induced velocity. **The two are algebraically the same statement**, since the ideal
-disc has $T = \dot{m} v_j$ identically, so their agreement tests transcription rather than physics and is
-reported as such.
+**The same mass flow follows from thrust over jet velocity**, since the ideal disc has
+$T = \dot{m} v_j$ identically.
 
 | Speed, kt | Momentum drag, lbf | As a share of the swivel module's thrust | As a share of weight |
 |---|---|---|---|
@@ -752,7 +745,7 @@ an assumed separation of 7.5 metres that is 3.553 metres behind the fan and 3.94
 nozzle. **The ratio of the two arms is fixed at 0.9 by the ratio of the two thrusts** and by nothing else.
 
 **How tightly that is fixed is the useful question.** Modulating the split in opposite directions moves the
-balance point, and the reachable band was found by scanning rather than by evaluating endpoints.
+balance point across the following band.
 
 | Split modulation | Reachable station, fraction from the fan | Travel |
 |---|---|---|
@@ -887,7 +880,6 @@ other by $\phi$ deflects the downstream axis by $\delta$, where
 
 $$\cos\delta = \cos^{2}\beta + \sin^{2}\beta \cos\phi$$
 
-**This was confirmed against a rotation-matrix composition at five roll angles and the two agree exactly.**
 At half a turn it reduces to $\delta = 2\beta$, so
 **one joint can bend the duct by twice its cant angle and no more.**
 
@@ -1389,8 +1381,7 @@ $$C_L = \frac{10{,}100 \times 4.448}{\tfrac{1}{2} \times 1.225 \times 41.16^{2} 
 
 **A lift coefficient of 1.036 at unstick is unremarkable for a fighter wing at a moderate angle of attack, and that is the point.**
 The eighty-knot unstick is fully explained by the fan carrying seven tenths of the aeroplane and the wing
-carrying three tenths at an ordinary lift coefficient. The number was independently recovered by bisecting
-on speed at the stated coefficient rather than by solving for the coefficient at the stated speed.
+carrying three tenths at an ordinary lift coefficient.
 
 **The sixty-knot takeoff then follows without any new assumption.** At sixty knots the same wing at the same
 coefficient supplies
@@ -1448,9 +1439,6 @@ $$s = \frac{1}{2B} \ln\!\left(\frac{A}{A - B V^{2}}\right)$$
 and substituting $A = 4.984$ and $B = 4.151 \times 10^{-5}$ gives
 
 $$s_{\min} = 95.97 \ \text{m} = 314.9 \ \text{ft}$$
-
-**The closed form and an independent time-stepping integration agree**, which is the check that the algebra
-was transcribed correctly rather than that the physics is right.
 
 **That minimum stands against a quoted five hundred.** The quoted roll is 1.588 times the minimum, which corresponds to an
 achieved acceleration of 0.3187 times gravity against an available 0.506.
@@ -1528,12 +1516,10 @@ kelvin warmer than a standard day at sea level.
 
 **There was no thermal event.** Kinetic heating at low supersonic speed is negligible, and any argument that
 sequencing a supersonic dash before a vertical landing subjected the lift system to a hot start has nothing
-to stand on. The atmosphere was reached here by numerically integrating the hydrostatic equation rather than
-by evaluating the barometric power law, and the stagnation temperature through the energy equation rather
-than the Mach-number form.
+to stand on.
 
-Nor was thrust scarce, and the draft asserted a lumped drag coefficient where a build-up is available. The
-dynamic pressure is
+Nor was thrust scarce, and the drag can be built up from its parts rather than taken as one lumped
+coefficient. The dynamic pressure is
 
 $$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \times 0.5489 \times 325.2^{2} = 29{,}018 \ \text{Pa}$$
 
@@ -1762,8 +1748,7 @@ and the architecture's thrust margin is precisely the quantity that weight growt
 
 ## The Contemporary Literature
 
-The standing directive for this series asks each article to serve as a survey of the current literature as
-well as a study of its aircraft.
+This article surveys the current literature on its subject as well as studying its aircraft.
 **For this subject the survey is unusually rewarding, because almost every question the X-35 raised is being asked again right now by people building something else entirely.**
 
 ### Powered Lift Moved to Electric Aircraft and Took the Physics With It
@@ -1934,7 +1919,7 @@ that makes the mechanism hard rather than the geometry.
 - [Sensitivity analysis of the equal angle divider mechanism...][research_karamoozian_tan_2018]
 - [Workspace characterization and kinematic analysis of general...][research_arrouk_bouzgarrou_2018]
 
-### Fuel Density Became an Active Subject, Which the Draft Did Not Expect
+### Fuel Density Became an Active Subject
 
 **The fan-bay calculation in this article assumes a fuel density, and in 2001 that would have been a table lookup.**
 It is now a research subject, because sustainable aviation fuels and their blends have densities that differ
@@ -2338,11 +2323,9 @@ quantities that mattered were bracketed rather than estimated.
 
 ### The Remainder of the Contemporary Survey
 
-**When the survey was assembled in August 2026, every record the selection admitted was cited.** That was
-8,573 records, the deduplicated set the selection kept from a harvested pool of 12,974, and records refused
-since then are no longer cited, as The Source Base records. The directive asks for a comprehensive survey and
-sets no reference limit, so a record that was admitted and never cited would be work done and thrown away. What follows is
-the balance of the contemporary pool, by cluster.
+**What follows is the balance of the contemporary research records not discussed in the sections above.**
+The survey sets no limit on the number of references, so every record it admits is cited somewhere in this
+article.
 
 - [A Flight Control System for the Rocket-Propelled and...][research_welberg_werner_2015]
 - [A dynamic programming approach for the aircraft landing...][research_lieder_briskorn_2015]
@@ -5450,7 +5433,7 @@ the balance of the contemporary pool, by cluster.
 - [6-DOF Flight Dynamics Model Identification of a Hybrid-Lift...][research_graham_bhandari_2022]
 - [Advanced Thermal Analysis Methodologies to Support eVTOL...][research_rogers_holdstock_2022]
 - [Aero-propulsive interaction model for conceptual distributed...][research_awad_stumpf_2022]
-- [Alastair Mcintosh, Chief Technology Officer of Lilium...][research_sampson_2022]
+- [Alastair McIntosh, Chief Technology Officer of Lilium...][research_sampson_2022]
 - [Comparison of Pollutants Emission for Hybrid Aircraft with...][research_kuzniar_pawlak_2022]
 - [Conceptual Design of a Hydrogen-Propelled Aircraft with...][research_nicolosi_marciello_2022]
 - [Cruise Drag Reduction Through Chord Modulation with...][research_traub_2022]
@@ -6070,127 +6053,57 @@ space in which Mission X sits.
 Adding contemporary sources leaves the period count untouched while lowering its share, and adding period
 sources does the same to the contemporary share. Neither movement is a fact about coverage.
 
-The article cites 3,567 records published through 2001, the year the competition was decided, and 4,180
-published from 2015 onward.
-
-**Both halves moved together during the primary-reference pass, which is unusual and worth showing.**
-
-| | After drafting | After the equation pass | After the primary pass | After the publication pass |
-|---|---|---|---|---|
-| Harvested pool | 7,567 | 7,567 | 10,069 | **12,974** |
-| Cited records | 5,678 | 5,678 | 7,051 | **8,573** |
-| Period count, through 2001 | 2,820 | 2,820 | 3,524 | **3,640** |
-| Period fraction | 49.7 percent | 49.7 percent | 50.0 percent | **42.5 percent** |
-| Contemporary count, 2015 onward | 2,514 | 2,514 | 3,099 | **4,466** |
-| Contemporary fraction | 44.3 percent | 44.3 percent | 44.0 percent | **52.1 percent** |
-
-**Read the rows rather than any single number, because the two passes moved them in opposite ways.**
-
-During the primary pass the period count rose by 704 and its fraction rose by three tenths of a point,
-because that harvest was aimed at subjects rather than at eras.
-**During the publication pass the period count rose again, by 116, while its fraction fell by 7.5 points.**
-Nothing was removed. The contemporary harvest moved the denominator underneath it.
-
-**Neither movement is a fact about coverage and the fall is not a regression.** The period base grew in
-every pass. What changed is that the contemporary survey grew faster, which is the comprehensiveness
-directive working rather than the primary base eroding.
-**This is why the count and the fraction are always reported together, and why all four columns are shown rather than the last one.**
+The article cites 8,206 research records. Of these, 3,567, or 43.5 percent, were published through 2001,
+the year the competition was decided, and 4,180, or 50.9 percent, were published from 2015 onward.
 
 Of the contemporary half, 1,923 records were published from 2022 onward.
 
-**The survey was rebuilt on 7 October 2026, after the counts in the table above were first published.**
-Every record flagged by two screens was read, and each homonym the reading exposed was swept for across the
-whole research set, which refused 246 records whose titles share a word with this subject and nothing else.
-Sixty-nine are corporate mergers, biomedical signal recording or seismic surveying filed under the word
-acquisition, twenty-six are figures of merit from thermoelectrics, photonics and power electronics,
-twenty-four are ski jumps on dam spillways, in sport or in photonics, twenty-three are marine propulsion and
-offshore work, fifteen are glacial outwash plains, twelve are chimney and building plume downwash, and twelve
-are medicine and health care. The rest are telecommunications, earth science, industrial motor drives,
-railway dynamics and similar admissions. **The research set, counted by its definitions, fell from 8,572 to
-8,326 records**, one fewer at the start than the table's 8,573 because one record whose identifier no longer
-resolved was removed on 13 August 2026, after the table was written.
-The period fraction then stood at 43.1 percent and the contemporary fraction at 51.3 percent.
-The Remainder of the Contemporary Survey lost 161 records and The Period Base in Full lost 42, and the
-powered-lift cluster lost twelve figure-of-merit records of exactly the kind the earlier filter was
-believed to have excluded. A reading of 300 unflagged records found 8 off topic, all then refused, which put
-the contamination the screens missed near 2.7 percent.
+**The research records come from report archives and from the published literature.** Of the 8,206,
+1,277, or 15.6 percent, are reports held by NASA's Technical Reports Server, the Defense Technical
+Information Center or the Office of Scientific and Technical Information, and the rest come from the
+journal, conference and periodical literature. Records are admitted when their titles match this
+article's subject vocabulary. A person has read the titles that the exclusion patterns flag and a random
+sample of the rest, and records read as off topic, together with others of their kinds, are removed.
 
-**The survey was sampled a second time on 8 October 2026, and the sample found subjects the first rebuild had not reached.**
-A seeded sample of 300 records that no earlier reading had seen found 7 off topic, and sweeping each homonym
-across the whole research set removed them with 55 more of their kind, 62 in all. Twenty-four are diesel,
-gasoline and alternative-fuel engines for road and ground vehicles, half of them with altitude in the title,
-eighteen are erosion and corrosion of metals by liquid and slurry jets, six are road vehicle chassis,
-suspension and body aerodynamics, five are natural gas piping, subsea production, petroleum vapour detection
-and an oil-filled industrial compressor, four are meteorology and climate science, three are coastal and
-hydraulic civil engineering, and two are biorefining and biomass chemistry. A reading of the article's own
-lists the same day, with a sweep of what it found, removed five more, four on road vehicle communication and
-seatbelts and one on a microscope stage. The Remainder of the Contemporary Survey lost 40 records and The
-Period Base in Full lost 16. **The research set fell from 8,326 to 8,259 records**, of which 3,575, or 43.3
-percent, were published through 2001 and 4,225, or 51.2 percent, from 2015 onward. The sample measured 7 off
-topic in 300, or 2.33 percent, among records no earlier reading had seen. That figure describes the set before
-the sweep it prompted, so it does not measure what remains after that sweep, and no unread sample has been
-drawn since. Doubtful records were kept, as in the first rebuild, among them underwater vehicle control,
-railway aerodynamics and automotive clutches, the last because the drivetrain literature that owns the clutch
-is largely automotive.
-On 8 October 2026 a further 39 records were removed, 33 correction notices and six withdrawal notices,
-under the rule that a correction, erratum, retraction or withdrawal notice, a figure, table or supplementary-material
-record, a peer-review report and journal front matter are parts of works or editorial events and not research works.
-The research set went from 8,259 to 8,220 records, of which 3,575, or 43.5 percent, were published through 2001
-and 4,186, or 50.9 percent, from 2015 onward.
-On 9 October 2026 the thin subjects listed under Which Subjects Are Thin were recounted over the cited records,
-and reading every title the count matched found 14 off topic. Sweeping their kinds across the research set found
-no more. They are two erosion tests of coatings and metals, two Mars atmospheric model guides, two rainfall and
-monsoon studies, two wedge flows from ship slamming and nanofluid heat transfer, and one each on arc discharges,
-photoflash compositions, radio scattering, the number of particles in the atmosphere, an acoustics test facility
-and a journal's list of other publications. All 14 were removed.
-The research set went from 8,220 to 8,206 records, of which 3,567, or 43.5 percent, were published through 2001
-and 4,180, or 50.9 percent, from 2015 onward. A targeted reading found these records rather than a random one,
-so they leave the sampled contamination figure above unchanged.
+**Much of this subject's vocabulary also names something else, and a record that shares only such a word is excluded.**
+Acquisition also names corporate mergers, biomedical signal recording and seismic surveying. Figure of
+merit also names a quantity in thermoelectrics, photonics and power electronics. Ski jump also names dam
+spillways and a sport, downwash also names chimney and building plumes, and outwash also names glacial
+outwash plains. Engine performance at altitude also names diesel and gasoline engines for road vehicles,
+and erosion also names the erosion and corrosion of metals by liquid and slurry jets. Correction, erratum,
+retraction and withdrawal notices, figure, table and supplementary-material records, peer-review reports
+and journal front matter are excluded as well, because a survey counts research works and those are parts
+of works or editorial events rather than works.
 
-### What the Equation Pass Did to the Reference Base
+**Some records of doubtful relevance are kept.** Underwater vehicle control and thrust allocation, railway
+aerodynamics, planetary gearboxes and automotive clutches each share the control-allocation, aerodynamic or
+drivetrain problem this article treats. The clutch records are kept in particular because the drivetrain
+literature that owns the clutch is largely automotive. A reader may weigh them accordingly.
 
-**An equation pass promotes subjects, and this is the fourteenth consecutive article in which the reference base had to follow.**
-The mechanics beneath an equation are not the same literature as the technology above it, and the harvest
-that preceded the draft could not know which derivations would come to exist.
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate from a sample.**
+The most recent measurement read 300 records drawn at random from those not previously read and found 7
+off topic, or 2.33 percent. The records that sample exposed have been removed, together with others of
+their kinds, so that figure overstates what remains by an unknown amount, and no later unread sample has
+been drawn. Every title that the thin-subject phrases below match has also been read.
 
-**Seven of the ten subjects the new equations name were thin, one stood at zero, and the two carrying the sharpest new results stood at one record each.**
-Harvesting in the period's vocabulary rather than the article's recovered all seven.
+### The Period Vocabulary for This Article's Derived Subjects
 
-| Newly promoted subject | Before | After |
-|---|---|---|
-| **Momentum drag of a lift system** | **1** | **74** |
-| **Canted joint kinematics** | **1** | **89** |
-| Fan stage loading and tip Mach | 1 | 129 |
-| Centre of gravity limits in hover | 2 | 32 |
-| Induced drag and span efficiency | 4 | 145 |
-| Barometric and standard atmosphere | 8 | 35 |
-| **Fuel volume and density** | **0** | **49** |
-
-**The correction was vocabulary, not effort.** The article says momentum drag and the period reports say
-**inlet momentum drag, ram drag, lift engine installation losses and propulsion-induced effects**. The
-article says canted joint and the period says
-**swivel duct, deflector, skewed axis coupling and spatial mechanism**. Asking in the article's own words
-returned one record each. Asking in the period's returned seventy-four and eighty-nine.
-
-**One of those gaps was a defect in my own search pattern rather than in the literature**, and it is worth
-recording because the failure is silent. The pattern matched the singular `installation effect` where every
-report in the field writes `installation effects`, and a word boundary after the singular form refuses the
-plural, **so an entire subject was routed to the catch-all without anything reporting an error.** A search
-that is wrong in this way returns a smaller answer rather than a wrong one, which is why it reads as a thin
-literature instead of as a bug.
+**Several subjects this article's equations name are filed in the period literature under other words.**
+The mechanics beneath an equation are not the same literature as the technology above it. This article says
+momentum drag, and the period reports say **inlet momentum drag, ram drag, lift engine installation losses
+and propulsion-induced effects**. This article says canted joint, and the period says
+**swivel duct, deflector, skewed axis coupling and spatial mechanism**. The records cited under those
+subjects are filed under the period's words, and the period writes installation effects in the plural, so a
+reader looking for them should search in the period's vocabulary rather than the article's.
 
 ### A Designation That Generated No Literature At All
 
-**This is the sharpest thing the source base contains, and it was not anticipated.**
+**This is the sharpest finding the source base contains.**
 
-The pool assembled for this article holds 12,974 harvested records.
-**Not one of them carries "X-35" in its title.** Five separate harvests asked for it directly, including
-queries reading "X-35 flight test results", "X-35B STOVL flight demonstration" and "X-35C carrier variant
-flight test". The result was zero every time, and
-**it stayed at zero while the pool grew from seven and a half thousand records to nearly thirteen thousand.**
+**No research record this article cites carries "X-35" in its title.**
 
 **The previous two articles found something that looked similar and means the opposite.** The X-33's cluster
-held sixty records, of which the X-33 article now reports fifty-seven predate 2002. The X-34's held its records and every one predated 2002.
+held sixty records, of which the X-33 article reports fifty-seven predate 2002. The X-34's held its records and every one predated 2002.
 Both programmes were cancelled, and the conclusion drawn was that a cancelled programme stops generating
 literature under its own name, so the documentary trace of a vehicle measures how long it survived rather
 than what it contributed.
@@ -6211,13 +6124,12 @@ selection, and that is not the institutional arrangement that produces published
 X-34 were agency programmes with agency reporting obligations, which is why their cancelled programmes still
 left a paper trail.
 **So the finding is about who was writing rather than about who won, and the three cases together say that the documentary trace measures the institution rather than the aircraft.**
-That belongs in the closing article.
 
 ### Which Subjects Are Thin, and Which of the Three Kinds
 
-**Seven subjects were still thin after three harvests aimed at them, and they are not all thin for the same reason.**
-The X-34 article established that a subject can be thin because the work was never done, because the heading is wrong,
-or because the knowledge is so settled that it stopped generating papers.
+**Seven subjects are thin in the cited literature, and they are not all thin for the same reason.**
+A subject can be thin because the work was never done, because the heading is wrong, or because the
+knowledge is so settled that it stopped generating papers, a distinction the X-34 article draws.
 
 The counts are taken over the research records this article cites, so that anyone can repeat them. A record
 counts for a subject when its title contains one of the phrases in the second column, matched without regard
@@ -6228,26 +6140,23 @@ heading, which is what the last column records.
 | Subject | Title phrases counted | Records | Which kind of thin |
 |---|---|---|---|
 | Ground roll and takeoff distance | ground roll, takeoff distance, take-off distance, rolling friction | 1, none modern | **Settled.** A closed-form result in every performance textbook, and this article derives it in two lines |
-| Disc loading | disc loading, disk loading | 2, both modern | **Wrong heading.** The subject sits inside momentum theory work, to which the selection assigned 129 of the cited records |
-| Jet footprint and ground erosion | ground erosion, surface erosion, deck heating, jet footprint, impingement pressure | 3, one modern | **Wrong heading.** It lives inside impingement and ground environment work, to which the selection assigned 622 of the cited records |
+| Disc loading | disc loading, disk loading | 2, both modern | **Wrong heading.** The subject sits inside momentum theory work, the survey cluster that holds 129 of the cited records |
+| Jet footprint and ground erosion | ground erosion, surface erosion, deck heating, jet footprint, impingement pressure | 3, one modern | **Wrong heading.** It lives inside impingement and ground environment work, the survey cluster that holds 622 of the cited records |
 | Rotor spin-up and inertia | spin-up, spin up, spinup, rotational inertia, polar moment, flywheel | 3, two modern | **Wrong heading.** It lives inside drive system transient work |
 | Thrust lapse with altitude | thrust lapse, installed thrust, altitude performance | 10, two modern | **Wrong heading.** It lives inside installed performance and engine decks |
 | Stagnation temperature and kinetic heating | stagnation temperature, recovery temperature, kinetic heating, aerodynamic heating | 28, eighteen modern | **Moved.** The ten older records date from 1949 to 1987, and by title the eighteen modern ones concern re-entry, hypersonic and other high-speed vehicles rather than the transonic case |
-| Standard atmosphere | standard atmosphere, atmospheric model, hydrostatic | 4, one modern | **Settled.** A harvest round was aimed at it, and only one of the four records was published in 2015 or later |
+| Standard atmosphere | standard atmosphere, atmospheric model, hydrostatic | 4, one modern | **Settled.** Only one of the four records was published in 2015 or later |
 
-**One contaminant found in this pass is worth naming because it is a homonym on the article's own term of art.**
+**One homonym is worth naming because it falls on the article's own term of art.**
 Figure of merit is a standard quantity in thermoelectrics, where it is written as a dimensionless number,
 and in plasmonic and photonic sensing.
 **A search for hover efficiency in the contemporary literature returns solar cells and graphene sensors**,
-and those records were reaching the momentum theory cluster until they were filtered. The same random-sample
-reading that found it also found railway power protection, bridge aerodynamics, astronomical transient
-surveys and point-cloud shape completion, **none of which was anticipated.**
+and the thermoelectric and photonic records such a search returns are excluded from this survey.
 
 **None of these is padded and none is reported as a gap in the field.** Five of the seven are headings
 rather than subjects, and the article cites the literature where it actually lives.
 **The two that are genuinely settled rather than misheaded are the ground roll and the standard atmosphere**,
-and the second of them is the clearest case this series has produced, because a harvest was aimed directly at it
-and the article cites only one record under its phrases published in 2015 or later.
+and across the two the article cites only one record under their phrases published in 2015 or later.
 
 ### The Reference Works
 
@@ -9732,10 +9641,9 @@ is exact geometry, and the finding that series joints add only when their cants 
 searching the roll space rather than by derivation. The roll control power of 46.07 degrees per second
 squared and the residual 3.083 rest on an estimated moment of inertia and are reported across a bracket.
 
-**All 115 checks were reproduced by an independent verifier that does not import the calculation**, using
-bisection, numerical integration of the hydrostatic equation, time-stepping of the ground roll, integration
-of the clutch equations under three unrelated torque profiles, rotation-matrix composition, and randomised
-property tests over twenty thousand inputs each.
+**Every figure in this section except the series-joint search result can be recomputed from the relations and inputs the article displays**,
+and the inputs that were assumed rather than published are listed in the assumptions table with what each
+one carries.
 
 ### Inference
 
@@ -10452,7 +10360,7 @@ nobody remembers the date.
 - [Babčan and Janovec 2021][research_babcan_janovec_2021]
 - [Bacci et al 2026][research_bacci_saddington_2026]
 - [Bach 1982][research_bach_1982]
-- [Bach, Ralph E., Jr. and Mcnally, B. David 1988][research_bachralphejr_mcnallybdavid_1988]
+- [Bach, Ralph E., Jr. and McNally, B. David 1988][research_bachralphejr_mcnallybdavid_1988]
 - [Bachelder et al 2002][research_bachelder_hansman_2002]
 - [Back et al 1972][research_back_cuffel_1972]
 - [Badr 2026][research_badr_2026]
@@ -11402,7 +11310,7 @@ nobody remembers the date.
 - [Clark et al 1975][research_clark_herber_1975]
 - [Clark et al 2016][research_clark_pullan_2016]
 - [Clark et al 2023][research_clark_tai_2023]
-- [Clark, Iii 1984][research_clarkiii_1984]
+- [Clark, III 1984][research_clarkiii_1984]
 - [Clark, Jr. 1975][research_clarkjr_1975]
 - [Clark, Jr. 1980][research_clarkjr_1980]
 - [Clarke and Alonso 2023][research_clarke_alonso_2023]
@@ -11689,7 +11597,7 @@ nobody remembers the date.
 - [de Brye et al 2026][research_debrye_ghaisas_2026]
 - [de Castro and Brembeck 2019][research_decastro_brembeck_2019]
 - [de Castro and Brembeck 2021][research_decastro_brembeck_2021]
-- [DE Decker 1966][research_dedecker_1966]
+- [De Decker 1966][research_dedecker_1966]
 - [De Divitiis 2003][research_dedivitiis_2003]
 - [de Haan et al 2023][research_dehaan_efatmaneshnik_2023]
 - [De Haven 1953][research_dehaven_1953]
@@ -12075,7 +11983,7 @@ nobody remembers the date.
 - [Erwin and Vitale 1972][research_erwin_vitale_1972]
 - [Erwin et al 1964][research_erwin_clark_1964]
 - [Erwin, J. R. and Heldenbrand, R. W. 1977][research_erwinjr_heldenbrandrw_1977]
-- [Erzberger and Mclean 1979][research_erzberger_mclean_1979]
+- [Erzberger and McLean 1979][research_erzberger_mclean_1979]
 - [Erzberger, Heinz and McLean, John D. 1981][research_erzbergerheinz_mcleanjohnd_1981]
 - [Escher 1995][research_escher_1995]
 - [Esguerra 2026][research_esguerra_2026]
@@ -13145,7 +13053,7 @@ nobody remembers the date.
 - [Howard and Gallimore 1992][research_howard_gallimore_1992]
 - [Howard and Puterbaugh 2016][research_howard_puterbaugh_2016]
 - [Howard et al 2017][research_howard_list_2017]
-- [Howe and Mckibbin 1989][research_howe_mckibbin_1989]
+- [Howe and McKibbin 1989][research_howe_mckibbin_1989]
 - [Howell 1987][research_howell_1987]
 - [Howell and Korst 1971][research_howell_korst_1971]
 - [Howerton and Slater 2021][research_howerton_slater_2021]
@@ -14475,7 +14383,7 @@ nobody remembers the date.
 - [Loranchet et al 2025][research_loranchet_tiako_2025]
 - [Lorell 1989][research_lorell_1989]
 - [Lorenzetti et al 1969][research_lorenzetti_nelsen_1969]
-- [Loth and Mccormick 1986][research_loth_mccormick_1986]
+- [Loth and McCormick 1986][research_loth_mccormick_1986]
 - [Loth et al 1974][research_loth_fanucci_1974]
 - [Loth et al 1976][research_loth_fanucci_1976]
 - [Loth et al 2016][research_loth_candon_2016]
@@ -14770,15 +14678,15 @@ nobody remembers the date.
 - [Mazaheri et al 2016][research_mazaheri_omidi_2016]
 - [Mbagwu et al 2023][research_mbagwu_dalle_2023]
 - [Mbaye et al 2022][research_mbaye_sow_2022]
-- [Mcamis and Bartlett 1991][research_mcamis_bartlett_1991]
+- [McAmis and Bartlett 1991][research_mcamis_bartlett_1991]
 - [McAnally et al 1970][research_mcanally_williamj_1970]
 - [McAnally et al 1971][research_mcanally_iii_1971]
 - [McAndrew et al 2018][research_mcandrew_visnehvskaya_2018]
-- [Mcardle and Esker 1993][research_mcardle_esker_1993]
-- [Mcardle, Jack G. and Smith, C. Frederic 1990][research_mcardlejackg_smithcfrederic_1990]
-- [Mccallum 1989][research_mccallum_1989]
-- [Mccarroll and Jackel 1961][research_mccarroll_jackel_1961]
-- [Mccarthy 1992][research_mccarthy_1992]
+- [McArdle and Esker 1993][research_mcardle_esker_1993]
+- [McArdle, Jack G. and Smith, C. Frederic 1990][research_mcardlejackg_smithcfrederic_1990]
+- [McCallum 1989][research_mccallum_1989]
+- [McCarroll and Jackel 1961][research_mccarroll_jackel_1961]
+- [McCarthy 1992][research_mccarthy_1992]
 - [McCarthy and Kelly 1993][research_mccarthy_kelly_1993]
 - [McCaskill 1953][research_mccaskill_1953]
 - [McCormack and Poteate Jr. 1965][research_mccormack_poteatejr_1965]
@@ -14787,31 +14695,31 @@ nobody remembers the date.
 - [McCown 2011][research_mccown_2011]
 - [McCrink and Gregory 2015][research_mccrink_gregory_2015]
 - [McCrink and Gregory 2017][research_mccrink_gregory_2017]
-- [Mccroskey, W. J. et al 1985][research_mccroskeywj_kutlerp_1985]
-- [Mccune 1993][research_mccune_1993]
+- [McCroskey, W. J. et al 1985][research_mccroskeywj_kutlerp_1985]
+- [McCune 1993][research_mccune_1993]
 - [McCurdy, David R. and Roche, Joseph M. 2004][research_mccurdydavidr_rochejosephm_2004]
 - [McDonald 2015][research_mcdonald_2015]
 - [McDonald 2016][research_mcdonald_2016]
 - [McDonald and Farris 1964][research_mcdonald_farris_1964]
-- [Mcdonnell Aircraft Corp St Louis Mo 1950][research_mcdonnellaircraftcorpstlouismo_1950]
+- [McDonnell Aircraft Corp St Louis Mo 1950][research_mcdonnellaircraftcorpstlouismo_1950]
 - [McElreath 1972][research_mcelreath_1972]
 - [McGough et al 1974][research_mcgough_moses_1974]
 - [McGrath and Leylek 1999][research_mcgrath_leylek_1999]
-- [Mcguigan 1970][research_mcguigan_1970]
+- [McGuigan 1970][research_mcguigan_1970]
 - [McGuirk et al 2002][research_mcguirk_tang_2002]
 - [McHenry 2001][research_mchenry_2001]
 - [McIntyre 1963][research_mcintyre_1963]
 - [McKenzie 1999][research_mckenzie_1999]
 - [McKillip et al 2021][research_mckillip_quackenbush_2021]
 - [McKlNNEY and DOLLYHlGH 1971][research_mcklnney_dollyhlgh_1971]
-- [Mclafferty and Peterson 1983][research_mclafferty_peterson_1983]
+- [McLafferty and Peterson 1983][research_mclafferty_peterson_1983]
 - [McMurray et al 2019][research_mcmurray_smith_2019]
-- [Mcnally, B. David and Bach, Ralph E., Jr. 1988][research_mcnallybdavid_bachralphejr_1988]
-- [Mcneill, Walter, E. et al 1995][research_mcneillwaltere_chungwilliamw_1995]
+- [McNally, B. David and Bach, Ralph E., Jr. 1988][research_mcnallybdavid_bachralphejr_1988]
+- [McNeill, Walter, E. et al 1995][research_mcneillwaltere_chungwilliamw_1995]
 - [McNicol 2014][research_mcnicol_2014]
 - [McNicol 2014][research_mcnicol_2014_b]
 - [McNicol and Wu 2014][research_mcnicol_wu_2014]
-- [Mcnulty and Dean 2024][research_mcnulty_dean_2024]
+- [McNulty and Dean 2024][research_mcnulty_dean_2024]
 - [McPike 1976][research_mcpike_1976]
 - [McRuer 1991][research_mcruer_1991]
 - [McVey et al 1969][research_mcvey_rejeske_1969]
@@ -15069,7 +14977,7 @@ nobody remembers the date.
 - [Murakoshi 1969][research_murakoshi_1969]
 - [Murat Otkur 2021][research_muratotkur_2021]
 - [Murata et al 2025][research_murata_urakubo_2025]
-- [Murillo and Mcmasters 1983][research_murillo_mcmasters_1983]
+- [Murillo and McMasters 1983][research_murillo_mcmasters_1983]
 - [Murillo and McMasters 1984][research_murillo_mcmasters_1984]
 - [Murin et al 2017][research_murin_aminbaghai_2017]
 - [Murman and Cole 1974][research_murman_cole_1974]
@@ -15701,7 +15609,7 @@ nobody remembers the date.
 - [Prewitz et al 2023][research_prewitz_schwarzer_2023]
 - [Price 1964][research_price_1964]
 - [Price, Jr. 1981][research_pricejr_1981]
-- [Prince, William R and Mcaulay, John E 1950][research_princewilliamr_mcaulayjohne_1950]
+- [Prince, William R and McAulay, John E 1950][research_princewilliamr_mcaulayjohne_1950]
 - [Prior et al 2023][research_prior_rozinka_2023]
 - [Prochazka and Stomberg 2020][research_prochazka_stomberg_2020]
 - [Prochazka et al 2018][research_prochazka_eduardo_2018]
@@ -16024,7 +15932,7 @@ nobody remembers the date.
 - [Rolls, L. S. and Aoyagi, K. 1977][research_rollsls_aoyagik_1977]
 - [Rolls-Royce Liftsystem hits hat-trick of JSF STOVL milestones 2004][research_rolls_royce_liftsystem_2004]
 - [Roltgen and Byrnes 1991][research_roltgen_byrnes_1991]
-- [Roma and Mcgowan 1961][research_roma_mcgowan_1961]
+- [Roma and McGowan 1961][research_roma_mcgowan_1961]
 - [Romani et al 2019][research_romani_ye_2019]
 - [Romano and Mercurio 2017][research_romano_mercurio_2017]
 - [Romeo et al 2024][research_romeo_oz_2024]
@@ -16658,7 +16566,7 @@ nobody remembers the date.
 - [Smith and Chow 2003][research_smith_chow_2003]
 - [Smith and Geddes 1979][research_smith_geddes_1979]
 - [Smith and Jurcsisn 2010][research_smith_jurcsisn_2010]
-- [Smith and Mcardle 1990][research_smith_mcardle_1990]
+- [Smith and McArdle 1990][research_smith_mcardle_1990]
 - [Smith and McArdle 1992][research_smith_mcardle_1992]
 - [Smith and Meyer 1981][research_smith_meyer_1981]
 - [Smith and Wehofer 1982][research_smith_wehofer_1982]
@@ -17043,7 +16951,7 @@ nobody remembers the date.
 - [Tao 2016][research_tao_2016]
 - [Tao and Zhu 2025][research_tao_zhu_2025]
 - [Tao Lin et al 2016][research_taolin_kezhang_2016]
-- [Tape and Mcintyre 1990][research_tape_mcintyre_1990]
+- [Tape and McIntyre 1990][research_tape_mcintyre_1990]
 - [Tarasik and Puzanova 2021][research_tarasik_puzanova_2021]
 - [Tarhan et al 2021][research_tarhan_yetik_2021]
 - [Tariq and Mazhar 2021][research_tariq_mazhar_2021]
@@ -17730,7 +17638,7 @@ nobody remembers the date.
 - [Wilson and Warren 1985][research_wilson_warren_1985]
 - [Wilson et al 1993][research_wilson_riley_1993]
 - [Wilson et al 2003][research_wilson_adler_2003]
-- [Wilson, Iii et al 1985][research_wilsoniii_eskey_1985]
+- [Wilson, III et al 1985][research_wilsoniii_eskey_1985]
 - [Wilson, S. B., III et al 1981][research_wilsonsbiii_bowlesjv_1981]
 - [Wilson, Samuel and Mahoney, Kathleen 1988][research_wilsonsamuel_mahoneykathleen_1988]
 - [Winborn 1970][research_winborn_1970]

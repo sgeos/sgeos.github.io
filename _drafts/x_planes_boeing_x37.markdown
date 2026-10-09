@@ -153,8 +153,7 @@ of writing. There is no single window that is obviously the design era.
 **This article calls the period 1999 through 2011 and the contemporary era everything after.** The choice is
 made on the grounds that 2011 is the last year in which the programme's own engineering was still reaching
 the open literature in any quantity, the second orbital mission having launched in March of that year.
-**The reference counts reported later use exactly this boundary**, and the cutoff in the assembly that
-produced them is set from this sentence rather than the other way round.
+**The reference counts reported later use exactly this boundary.**
 
 ## Sizing From First Principles
 
@@ -1341,7 +1340,7 @@ a reusable entry vehicle since 2010 has had to rediscover, or fail to discover, 
 
 ## The Contemporary Literature
 
-**The directive governing this series asks for a comprehensive survey of the contemporary literature in addition to the historical treatment.**
+**This series surveys the contemporary literature comprehensively, in addition to the historical treatment.**
 The subjects below are the ones the article's own relations depend on, surveyed in their modern form, and
 several of them are far more active now than when this vehicle was designed.
 
@@ -2140,7 +2139,7 @@ it.
 
 ### The Vehicle's Own Cluster Is Thin, Which Is the Fifth Instance and the Fifth Reason
 
-**Seventeen records in a harvested pool of 13,351 carry the X-37 designation or the words orbital test vehicle, and fifteen survive into the cited base.**
+**Fifteen research records cited in this article carry the X-37 designation or the words orbital test vehicle in their titles.**
 Twelve of the fifteen are space agency documents, eleven dated between 2000 and 2005 and one undated.
 **Two of the remaining three are outside analyses**, an infrared observability study and a flow-field reconstruction,
 written by people with no access to the programme, and the third is a 2015 news item announcing a launch.
@@ -2176,7 +2175,7 @@ Both are given.
 
 **The period count is 2,775 and the contemporary count is 2,215.** Both are given because a contemporary
 survey lowers the period **share** while leaving the period **count** untouched, and reporting the share
-alone reads as a regression when it is the directive working.
+alone reads as a regression when it is only the contemporary survey being added.
 
 **A date is not a measure of primacy and this article reports both.** The technical report servers hold
 original research reports almost exclusively, while a journal index holds originals, reviews and comment
@@ -2190,40 +2189,32 @@ together, so the report share is the closest available proxy for how much of the
 
 A further **140** reference works are listed below, and they carry the relations that no journal article
 states because every textbook does.
-The count is the number of entries in that list, and it fell from 148 to 140 on 8 October 2026, when eight
-books unrelated to the vehicle were removed.
+The count is the number of entries in that list.
 
-**The survey was rebuilt on 7 October 2026, after the counts first published with this article, and the rebuilt filter refused 475 records.**
-Every one of the 5,545 research titles was read against the subject it had been admitted under, and each
-homonym found was then swept for by pattern across the whole base. The largest group was 150 records of
-planetary and lunar science, admitted because a title named an orbiter or an orbiter's camera or altimeter,
-among them plasma studies of Venus from the Pioneer Venus Orbiter and dozens of Mars surface studies built
-on its laser altimeter. Next came 64 papers in which an orbital was a molecular or electronic orbital, 40 on
-building, automotive and industrial radiators, 35 environmental life cycle assessments of batteries, 33 in
-astronomy and astrophysics, 25 in which the orbit was the eye socket, 24 on terrestrial photovoltaic arrays
-and power grids, 23 on low-speed stagnation flows and flames, 18 on orthodontic and other medical angles,
-eleven on protective clothing and tankers, and 52 others, among them a study of salmon hearts and a review
-of digital currency.
+**The research survey admits a record only when a person reading its title finds it on this article's subject.**
+Its 5,045 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
+Crossref index of the journal literature. Many words this subject depends on also name something else, and a
+record that shares only such a word is excluded. An orbiter also names the planetary missions whose cameras and
+altimeters map Venus, Mars and the Moon, an orbital also names a molecular or electronic orbital, and an orbit
+also names the eye socket. A radiator also names the radiators of buildings, cars and industry, a battery life
+cycle also names the environmental assessment of a battery, and a solar array also names a terrestrial
+photovoltaic plant. Stagnation flow also names the low-speed flows of flames and stretching sheets, the beta
+angle also names a cephalometric angle of the jaw, and albedo also names the albedo of Mars, so records on each
+of these are excluded. Correction, erratum and retraction notices,
+withdrawal notices, figure and supplementary-material records, peer-review reports and journal front matter
+such as subject indexes are excluded as well, because a survey counts research works and those are parts of
+works or editorial events rather than works.
 
-**The total fell from 5,545 to 5,070, and the period and contemporary halves from 3,061 and 2,428 to 2,793 and 2,222.**
-The clusters most changed were the records the harvest assigned to no subject, which lost 252, eclipse and
-lighting, which fell from 70 to 31, entry aerothermodynamics, from 216 to 182, energy storage, from 311 to
-276, and thermal control, from 463 to 430. The table of thin subjects changed for the same reason. Six of
-the eight contemporary records on the beta angle were cephalometric studies of a jaw angle that shares the
-name and a seventh measured a hip, 23 of the 97 period records on stagnation heating were low-speed flows
-over stretching sheets, flames and blood, and the subjects found thin rose from nineteen to twenty because
-albedo and Earth infrared lost half its contemporary records. A reading of 300 unflagged records sampled
-before the rebuild found 18 off topic, which put the contamination the screens missed near 6.0 percent, and
-the full reading that followed removed them.
+**Some records of doubtful relevance are kept.** Autonomous landing of small uncrewed aircraft, heat pipes and
+loop heat pipes in terrestrial use, radiative equilibrium in participating media, the degradation of
+terrestrial solar cells, the cycle life of electric vehicle and grid storage batteries, and the governance of
+dual-use technology outside space each share a relation or a technique with this subject, so each is kept and
+a reader may weigh it accordingly.
 
-**A second sampling pass on 8 October 2026 refused one more record, and the total became 5,069.**
-A second seeded sample of 300 records, drawn from those neither flagged nor sampled before the rebuild, found
-1 off topic, an aerothermal analysis of a gas turbine disc cavity, and a sweep of the whole base for turbine,
-compressor and engine homonyms found no other. Every record in that sample had already been read once in the
-full reading, so the sample measures what that reading missed, 1 in 300 or 0.33 percent. It drove its own
-sweep, so it does not measure what remains after the sweep. The entry aerothermodynamics records then numbered
-181 and the contemporary half 2,221.
-**A further 24 records were removed on 8 October 2026 because they are notices about works and not works**, being 17 errata and correction notices, 1 retraction notice and 6 journal subject indexes, under the rule that the survey counts research works and leaves out corrections, errata, retractions, withdrawals, figures, supplementary material, peer-review reports and front matter, which took the total from 5,069 to 5,045, the entry aerothermodynamics records to 179 and the contemporary half to 2,215, and the tables in this section give the present figures.
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement.**
+A second reading of 300 records drawn at random found 1 off topic, or 0.33 percent, which measures what a
+single reading misses. That record, an aerothermal analysis of a gas turbine disc cavity, has been removed, so
+the figure overstates what remains by an unknown amount.
 
 ### Which Subjects Are Genuinely Thin, and Why Each One Is
 
@@ -2246,19 +2237,18 @@ whole of the work.
 **The heading is wrong, which is the commonest kind and the only curable one.** The field does not say
 crossrange, it says lateral range and footprint. It does not say equilibrium glide, it says gliding entry
 and cites Eggers and Allen. It did not say beta angle in 1968, it said solar aspect angle and sun incidence.
-Searching in each field's own words rather than in this article's took equilibrium glide from three records
-to eighteen, crossrange from four to eleven and vehicle scaling from nine to twenty-four, the last two reduced to
-eight and ten by the 7 October rebuild,
-**and not one of those records was newly found.** They were present the whole time and the question had been
-put in the wrong language.
+Counted in each field's own words rather than in this article's, equilibrium glide stands at eighteen records,
+crossrange at eight and vehicle scaling at ten.
+**The records are present in the literature under the field's words**, and a question put in the article's
+words does not reach them.
 
 **That is worth stating plainly, because it applies to the instrument as much as to the search.** A count of
 how well a subject is covered is itself a search, and it undercounts for exactly the same reason.
 **A thin result is a claim about the question before it is a claim about the field.**
 
 **The knowledge is settled and stopped generating papers**, which is not curable and must not be padded. The
-vis-viva relation stands at zero records, the rocket equation at one and Kepler's third law at three, after
-searches aimed directly at each. **These are not gaps.** They are relations that appear in every
+vis-viva relation stands at zero records, the rocket equation at one and Kepler's third law at three.
+**These are not gaps.** They are relations that appear in every
 astrodynamics textbook and in no journal article, because nobody has published on them since the seventeenth
 and nineteenth centuries respectively.
 **The reference works section carries them and that is the correct home.**
@@ -2274,12 +2264,12 @@ subject list falls into it.
 | The rocket equation | 0 | 1 | **Settled.** Same, and the [X-34][related_post_a331_orbital_sciences_x34] article found the same |
 | Kepler and the orbital period | 1 | 2 | **Settled**, and the relation is from 1619 |
 | Energy height | 3 | 0 | **Settled.** The method is named after a 1954 paper and is textbook thereafter |
-| The beta angle, period half | 0 | 1 | **Thin heading, and no rephrasing cured it.** The period documented the same geometry inside thermal design reports that name neither the angle nor its modern synonyms |
+| The beta angle, period half | 0 | 1 | **Thin heading, and the period's own words do not find it either.** The period documented the same geometry inside thermal design reports that name neither the angle nor its modern synonyms |
 | Aerobraking corridor control | 1 | 0 | **Thin heading.** The subject is covered by 237 dated records whose title or venue names aerobraking, aerocapture or aeroassist |
 | Stagnation heating, contemporary half | 74 | 0 | **Thin heading.** Modern work computes the same quantity and does not cite the correlations by name |
 | Manoeuvre detection, period half | 0 | 20 | **Genuinely modern.** The capability to detect a manoeuvre from the ground is recent |
 | Debris disposal, period half | 4 | 63 | **Genuinely modern.** Disposal became an obligation in this century, having been a courtesy before it |
-| Albedo and Earth infrared, contemporary half | 15 | 4 | **Thinned by the 7 October 2026 rebuild.** Four of its eight contemporary records measured the albedo of Mars and were refused as off topic |
+| Albedo and Earth infrared, contemporary half | 15 | 4 | **Not classified.** Albedo also names the albedo of Mars, whose records are excluded, and the four that remain do not show which reason applies |
 | **The X-37 itself, contemporary half** | 12 | 3 | **Classification**, which is this article's subject |
 
 **The last row is the article rather than a footnote to it.** Every other thin subject here has an ordinary
@@ -6657,15 +6647,14 @@ by 1.2 metres and a launch mass of 4,990 kilograms.
 ### Engineering Analysis
 
 Every quantitative result in this article is computed from those published figures and from standard
-relations, and each is reproduced independently by a verification routine that shares no code with the
-routine that produced it. The orbital period, circular speed, eclipse fraction, full-sun beta threshold,
+relations. The orbital period, circular speed, eclipse fraction, full-sun beta threshold,
 nodal precession, beta cycle and orbit count follow from the published altitude and inclination alone. The
 scaling exponents and the duty cycle follow from published dimensions, masses and dates, and involve no
 model whatever. The array and radiator bounds follow from the published bay dimensions. The drag figures
 follow from a piecewise exponential atmosphere at nominal solar activity. The aerobraking figures follow
 from the published orbit.
 **The identity showing that entry heading change is independent of mass, area and atmosphere is exact within the equilibrium glide assumption**,
-and was checked against an integration that retains the term it claims cancels.
+and agrees with an integration that retains the term it claims cancels.
 
 ### Inference
 
@@ -7720,7 +7709,7 @@ summary of what classification achieves and what it costs.
 - [Butler et al 2005][research_butler_aboudi_2005]
 - [Butler, D. and Hoang, T. 1991][research_butlerd_hoangt_1991]
 - [Butler, D. and Hoang, T. 1992][research_butlerd_hoangt_1992]
-- [Butler, D. and Mcintosh, R. 1990][research_butlerd_mcintoshr_1990]
+- [Butler, D. and McIntosh, R. 1990][research_butlerd_mcintoshr_1990]
 - [Butler, Dan et al 1995][research_butlerdan_ottensteinlaura_1995]
 - [Byczkowski and Rao 2026][research_byczkowski_rao_2026]
 - [Bykov 1996][research_bykov_1996]
@@ -8387,7 +8376,7 @@ summary of what classification achieves and what it costs.
 - [Federici et al 2023][research_federici_scorsoglio_2023]
 - [Fedorenko et al 2010][research_fedorenko_tyrnov_2010]
 - [Fedotov 2004][research_fedotov_2004]
-- [Feher, S. I. and Mccue, G. A. 1966][research_fehersi_mccuega_1966]
+- [Feher, S. I. and McCue, G. A. 1966][research_fehersi_mccuega_1966]
 - [Feie and Kretz 2008][research_feie_kretz_2008]
 - [Feipeng et al 2001][research_feipeng_cheng_2001]
 - [Felbeck 1995][research_felbeck_1995]
@@ -9948,7 +9937,7 @@ summary of what classification achieves and what it costs.
 - [Marshall and Breuch 1968][research_marshall_breuch_1968]
 - [Marshall and Luthcke 1994][research_marshall_luthcke_1994]
 - [Marshall et al 2021][research_marshall_sun_2021]
-- [Marshburn, J. P. and Mcintosh, R., Jr. 1978][research_marshburnjp_mcintoshrjr_1978]
+- [Marshburn, J. P. and McIntosh, R., Jr. 1978][research_marshburnjp_mcintoshrjr_1978]
 - [Martikan 1965][research_martikan_1965]
 - [Martin 1982][research_martin_1982]
 - [Martin 1983][research_martin_1983]
@@ -10001,24 +9990,24 @@ summary of what classification achieves and what it costs.
 - [McCormick 2015][research_mccormick_2015]
 - [McCUE 1963][research_mccue_1963]
 - [McCurdy, David R. and Roche, Joseph M. 2004][research_mccurdydavidr_rochejosephm_2004]
-- [Mccurry 1996][research_mccurry_1996]
+- [McCurry 1996][research_mccurry_1996]
 - [McDermott 1986][research_mcdermott_1986]
 - [McDonald 1979][research_mcdonald_1979]
 - [McDonnell et al 1996][research_mcdonnell_ratcliff_1996]
 - [McEneaney 1991][research_mceneaney_1991]
 - [McFarland and Calise 1995][research_mcfarland_calise_1995]
 - [McGrory 2001][research_mcgrory_2001]
-- [Mcguire, Melissa L. et al 2014][research_mcguiremelissal_hackkurtj_2014]
+- [McGuire, Melissa L. et al 2014][research_mcguiremelissal_hackkurtj_2014]
 - [McInerny 1996][research_mcinerny_1996]
 - [McKee 1975][research_mckee_1975]
 - [McKenzie, Patrick M. 2003][research_mckenziepatrickm_2003]
-- [Mckim, Stephen A. 2016][research_mckimstephena_2016]
+- [McKim, Stephen A. 2016][research_mckimstephena_2016]
 - [McKnight and Lorenzen 1989][research_mcknight_lorenzen_1989]
 - [McLaughlin et al 2013][research_mclaughlin_krishna_2013]
 - [McLean 2000][research_mclean_2000]
 - [McNamara 2013][research_mcnamara_2013]
 - [McNamara, Luke W. and Braun, Robert D. 2014][research_mcnamaralukew_braunrobertd_2014]
-- [Mcnelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]
+- [McNelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]
 - [McRonald, Angus D. 1995][research_mcronaldangusd_1995]
 - [McRonald, Angus D. 2000][research_mcronaldangusd_2000]
 - [Mease and Vinh 1985][research_mease_vinh_1985]
@@ -10875,7 +10864,7 @@ summary of what classification achieves and what it costs.
 - [Sattar and Wei 2017][research_sattar_wei_2017]
 - [Satterfield 1974][research_satterfield_1974]
 - [Satterthwaite 2000][research_satterthwaite_2000]
-- [Saulsberry, R. L. and Mccartney, P. A. 1993][research_saulsberryrl_mccartneypa_1993]
+- [Saulsberry, R. L. and McCartney, P. A. 1993][research_saulsberryrl_mccartneypa_1993]
 - [Savage et al 1979][research_savage_aalders_1979]
 - [Savino et al 2018][research_savino_mungiguerra_2018]
 - [Sayed and Partain 1975][research_sayed_partain_1975]
@@ -10928,7 +10917,7 @@ summary of what classification achieves and what it costs.
 - [Schwelkart and Hallion 1997][research_schwelkart_hallion_1997]
 - [Schwintzer et al 1995][research_schwintzer_kang_1995]
 - [Schy and White 1969][research_schy_white_1969]
-- [Science Communication Inc Mclean Va 1960][research_sciencecommunicationincmcleanva_1960]
+- [Science Communication Inc McLean Va 1960][research_sciencecommunicationincmcleanva_1960]
 - [Sciré et al 2015][research_scire_santoni_2015]
 - [Sconzo 1966][research_sconzo_1966]
 - [Scorsoglio et al 2025][research_scorsoglio_gaudet_2025]

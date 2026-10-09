@@ -261,8 +261,7 @@ rocket equation sees, is 296.14 seconds against a chamber value of 314, so
 $$\Delta I_{sp} = 314 - 296.14 = 17.86 \ \text{s}$$
 
 **The two percentages are identical and that is not a coincidence.** The fractional impulse the cycle costs
-equals the fractional flow the cycle takes, exactly, because both are one minus the same ratio. The identity
-was tested over twenty thousand randomised combinations of thrust, flow and impulse without a failure.
+equals the fractional flow the cycle takes, exactly, because both are one minus the same ratio.
 
 - [The Critical Flow of a Gas Through a Convergent Nozzle][research_naylor_1951]
 - [Injector Spray and Hydraulic Factors in Rocket Motor Analysis][research_stehling_1952]
@@ -753,7 +752,7 @@ vehicle burning one propellant load with about five percent to spare.
 
 ### What the Vehicle Could Actually Reach
 
-**The draft of this article computed the engine and never asked what the vehicle does with it**, and the
+**The engine's figures do not by themselves say what the vehicle can do with it**, and the
 answer is a check on the published masses. The effective exhaust velocity is the effective impulse times
 standard gravity,
 
@@ -1133,8 +1132,7 @@ so the length and the constant both cancel, leaving
 
 $$\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{4 \rho_w t_{\text{gauge}}}{\rho_p R}$$
 
-**which goes as one over the radius instead of being independent of it.** The scaling was tested as a
-property over twenty thousand random radii and densities.
+**which goes as one over the radius instead of being independent of it.**
 
 | Tank radius | Hydrogen and oxygen | Kerosene and oxygen |
 |---|---|---|
@@ -2510,7 +2508,7 @@ reusability and cost per kilogram is where the argument the programme could not 
 
 ### Air Launch, Which Has Since Been Settled Commercially and Mostly Against Itself
 
-**The draft of this article said the argument for air launch was still being had. That is too kind, because the market has spent the last decade running the experiment.**
+**The argument for air launch is no longer being had, because the market has spent the last decade running the experiment.**
 
 **The operating method the X-34 borrowed was already commercial when the programme started**, and the
 air-launched booster that supplied it flew for decades at a cost per kilogram that never came down to the
@@ -4207,7 +4205,7 @@ because vehicles fly it repeatedly rather than because anybody proved it on pape
 - [The Technique for Performance Verification of Flight...][research_lee_2026_b]
 
 **The vehicle's own cluster holds no contemporary records at all, and this is the second consecutive article for which that is true.**
-Every record carrying the X-34 designation predates 2002, and the X-33 article now reports that fifty-seven of the sixty carrying the X-33's do.
+Every record carrying the X-34 designation predates 2002, and the X-33 article reports that fifty-seven of the sixty carrying the X-33's do.
 **Two instances make it a pattern rather than an anecdote.** A cancelled programme stops generating
 literature under its own name almost immediately, which means the documentary trace of a vehicle is not a
 measure of what it contributed but of how long it survived.
@@ -4782,122 +4780,53 @@ attempting a flight profile within reach of existing practice.
 ## The Source Base
 
 **This article rests on 2,049 references published through 2001, when the programme was cancelled, and 3,010 published from 2015 onward.**
-Every harvested record that the rebuilt filter admitted is cited.
 
 ### Both Halves, Counted and Not Only Divided
 
-**A reference pass that reports fractions alone will misdescribe itself, and this article was built in passes that would have misdescribed themselves in opposite directions.**
+**The research survey holds 5,405 records, and every share given here is given with its count, because a share alone moves whenever anything else in the survey grows.**
+Of those records, 2,049, or 37.9 percent, were published through 2001, 3,010, or 55.7 percent, from 2015
+onward, and 1,524, or 28.2 percent, from 2022 onward. The report literature is counted as every record whose
+address resolves to a report server, meaning the Technical Reports Server of the National Aeronautics and Space
+Administration, the Defense Technical Information Center or the Office of Scientific and Technical
+Information, and it comes to 911 records, or 16.9 percent.
 
-| | After drafting | After the primary pass | After the contemporary pass |
-|---|---|---|---|
-| Research references cited | 3,227 | 4,270 | 6,295 |
-| Period through 2001 | 1,236, 38.3% | 2,227, 52.2% | 2,227, 35.4% |
-| Contemporary 2015 onward | 1,664, 51.6% | 1,673, 39.2% | 3,698, 58.7% |
-| Published 2022 onward | 793, 24.6% | 793, 18.6% | 1,897, 30.1% |
-| Report literature | 661, 20.5% | 884, 20.7% | 884, 14.0% |
+**The survey admits a record only when a person reading its title finds it on this article's subject.** Its
+records come from those report servers and from the journal literature. Many words this subject depends on
+also name something else, and a record that shares only such a word is excluded. Tile also names the ceramic
+tile industry and the tiles of computer memory and maps, reusable also names the revenue management of reusable
+resources, ablation also names laser machining and laser deposition, recession also names the retreat of
+Niagara Falls and of glaciers, vehicle and landing also name road, rail, marine and underwater craft and ground
+robots, and kerosene and combustion also name the piston engine, including kerosene engines described between
+1898 and 1905. Correction, erratum, retraction and withdrawal notices, figure, table and supplementary-material
+records, peer-review reports and journal front matter are excluded as well, because they are parts of works or
+editorial events and not research works.
 
-**Read the counts and the fractions together, because each pass moved one and not the other.** The primary
-pass added 991 period records while the contemporary count rose by nine,
-**and the contemporary fraction fell twelve points.** The contemporary pass then added 2,025 modern records
-and **the period count did not move at all**, while the period fraction fell seventeen.
+**Some classes of doubtful relevance are kept rather than excluded.** They are piston engine studies of
+combustion chamber wall heat transfer and wall coatings, kept because the article uses gas-side heat transfer,
+probabilistic risk assessment and health management of nuclear plants, generic heat transfer and nanofluid
+studies with no aerospace application named, fire science on the charring of wood and of flame-retardant
+polymers, additive manufacturing process studies with no named product, Bayesian experimental design and
+uncertainty quantification on non-aerospace examples, autonomous vehicle titles whose domain is not named,
+atmospheric plume dispersion models, water-jet nozzle studies, and trade-press items on composite tanks that do
+not say what the tank is for. A reader who rules any of those classes out will find the survey that much
+smaller.
 
-**Nothing was removed in either pass. In both directions it was the denominator that moved.** The report literature is
-the clearest case,
-**holding at exactly 884 records across the final pass while its share fell from 20.7 percent to 14.0**,
-which is a fact about how much else was added and about nothing whatever to do with the reports.
-The report row counts the records harvested from the Technical Reports Server of the National Aeronautics and
-Space Administration and from the Defense Technical Information Center, by the source each harvested record is
-labelled with. Counting instead every record whose address resolves to a report server gives 979 for the
-final column, or 15.6 percent, because 95 records found through the general period search also resolve there.
-
-**The survey was re-read on 7 October 2026, and a rebuilt filter refused 609 records that had entered it through a shared word rather than a shared subject.**
-Among them were 58 studies of the ceramic tile industry, 99 on road, rail, underwater and ground robotic vehicles,
-36 on vehicle routing, road transport and car engines, 34 applications of machine learning outside aerospace,
-28 on medicine and biomedical devices, 28 on coal pyrolysis, petroleum reservoirs and geology, 28 on civil
-engineering, 24 evaluations of social programmes, 13 on the revenue management of reusable resources, seven on
-fusion reactor blankets, and four on the recession of Niagara Falls, of a glacier and of the angle of the eye.
-The research references went from 6,295 to 5,686. The period through 2001 went from 2,227 to 2,141, or 37.7
-percent, and the contemporary count from 3,698 to 3,189, or 56.1 percent, while records published from 2022
-onward went from 1,897 to 1,617, or 28.4 percent. The cluster on method, uncertainty and computation lost 259
-records, the cluster on structures, tanks and thermal protection lost 138, and the period base lost 80.
-A reading of 300 records the screens had not flagged found 21 off topic, and the rebuilt filter refused every
-one of them. That reading was then taken to put the remaining contamination below about one percent, an estimate
-the second reading refuted. The refused records are no longer cited, so the statement that every harvested record
-is cited is now false, and it holds only for the harvested records the filter admits.
-
-**A second seeded sample of 300 records that no earlier reading had seen found 16 off topic, and on 8 October 2026 all 16 were removed with 84 more of their kind.**
-The 100 were 26 on underwater, surface and air-cushion craft and marine engines, 17 on road vehicles, trucks
-and road traffic, 16 on armoured and military ground vehicles, guns, rocket artillery and ordnance, 16 on the
-combustion, emissions or performance of piston engines, among them four kerosene engines described between 1898
-and 1905, ten on hydropower, boilers, furnaces, power station cycles and wood pyrolysis, six on civil
-infrastructure, land law, power grids and inspection policy, four on ground robots and small road vehicles, three
-on welding and two on human thermal comfort. Piston engine studies of combustion chamber wall heat transfer were
-kept, as the first reading kept them, because the article uses gas-side heat transfer. The research references
-went from 5,686 to 5,586. The period through 2001 went from 2,141 to 2,106, or 37.7 percent, the contemporary count
-from 3,189 to 3,130, or 56.0 percent, and records published from 2022 onward from 1,617 to 1,591, or 28.5 percent.
-The report row's harvest rule now gives 834 records, or 14.9 percent, and the address rule gives 926, or 16.6
-percent. The period base lost 27 records, the cluster on autonomy, landing and the risk case 24, and the cluster on
-method, uncertainty and computation 22. The second sample measured 16 off topic in 300, or 5.3 percent, before its
-sweep. Because that sample drove its own sweep, it does not measure what remained after the sweep, and no reading
-at that point had measured it, so the contamination that remained was unknown and 5.3 percent was then the latest
-measured rate.
-
-**Later on 8 October 2026 every title that no earlier reading had seen was read, all 4,834 of them, and 146 records were removed.**
-The reading found 144 off topic. The sweeps for their kinds found two more, one among the 4,834 that the reading
-had passed over and one that an earlier reading had kept, so 145 of the 4,834, or 3.0 percent, were off topic.
-The 146 were 22 on industrial manufacturing, processing and instruments, 20 on statistics, operations research,
-economics, computing, law, education, textiles and similar subjects, 18 on power generation, fuels, biomass and
-water treatment, 14 on road and rail vehicles and ground robots, 14 on buildings, civil works, mining, geology and
-the atmosphere, 13 on piston engines, among them Miller cycle gas engines and a two-cycle engine, 10 on boats, divers,
-underwater craft and marine engines, 10 on laser machining and laser deposition, which share the word ablation,
-nine on nuclear power plants, fusion capsules and nuclear materials, nine on medicine and biology, and seven on
-armoured vehicles and ordnance. The research references went from 5,586 to 5,440. The period through 2001 went
-from 2,106 to 2,049, or 37.7 percent, the contemporary count from 3,130 to 3,045, or 56.0 percent, and records
-published from 2022 onward from 1,591 to 1,550, or 28.5 percent. The report row's harvest rule now gives 821
-records, or 15.1 percent, and the address rule gives 911, or 16.7 percent. The period base lost 46 records, the
-cluster on method, uncertainty and computation 26, and the cluster on low-cost propulsion and manufacture 18.
-**Every title in the survey has now been read at least once, so what off-topic share remains is a matter of reading judgement and no longer of sampling.**
-The doubtful classes were kept rather than removed. They are piston engine studies of combustion chamber wall heat
-transfer and wall coatings, probabilistic risk assessment and health management of nuclear plants, generic heat
-transfer and nanofluid studies with no aerospace application named, fire science on the charring of wood and of
-flame-retardant polymers, additive manufacturing process studies with no named product, Bayesian experimental design
-and uncertainty quantification on non-aerospace examples, autonomous vehicle titles whose domain is not named,
-atmospheric plume dispersion models, water-jet nozzle studies, and trade-press items on composite tanks that do not
-say what the tank is for. A reader who rules any of those classes out will find the survey that much smaller.
-On 8 October 2026 a further 35 records were removed, 28 correction notices and seven withdrawal notices,
-under the rule that a correction, erratum, retraction or withdrawal notice, a figure, table or supplementary-material
-record, a peer-review report and journal front matter are parts of works or editorial events and not research works.
-The research references went from 5,440 to 5,405, of which 2,049, or 37.9 percent, were published through 2001,
-3,010, or 55.7 percent, from 2015 onward and 1,524, or 28.2 percent, from 2022 onward, and the report row's harvest
-rule gives 821 records, or 15.2 percent, and the address rule 911, or 16.9 percent.
-
-### What the Equation Pass Did to the Reference Base
-
-**Writing the relations down changed which literature the article needs, and an audit of the seventeen subjects the equations name found thirteen thin and six at zero.**
-Among the zeroes were
-**the convective heat transfer correlation the article displays and the effective heat of ablation it inverts for**,
-which is the central quantity of the whole ablation section.
-
-**None of those was thin because the literature is thin.** The earlier harvests asked for ablative
-materials, low-cost engines and air launch,
-**and before the equations existed the article had no reason to ask for gas-side heat transfer coefficients, transpiration cooling or mass injection into a boundary layer.**
-Harvesting in the period's own vocabulary took the heat transfer heading from one record to twenty-eight and
-the transpiration heading from nine to forty-two.
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement and not of sampling.**
 
 ### Three Subjects That Stay Thin, and Why
 
-**The rocket equation returns nothing at all in a pool of four thousand three hundred, and neither does the ascent loss budget.**
-That is not a gap in the harvest. **It is a thin heading over a subject nobody writes papers about**,
-because both live in every textbook and in no journal article. A search for them is a search for a
-literature that does not exist in that form.
+**No research record cited here takes the rocket equation or the ascent loss budget as its subject.** The one
+cited title that names the rocket equation describes a software tool built on it.
+**Both are thin headings over subjects nobody writes papers about**, because both live in every textbook and
+in no journal article. A search for them is a search for a literature that does not exist in that form.
 
-**The effective heat of ablation returns two records**, which is the same phenomenon in a milder form, since
-the quantity is discussed throughout the ablation literature under the vocabulary of char layers, blowing
+**The effective heat of ablation names two cited records**, which is the same phenomenon in a milder form,
+since the quantity is discussed throughout the ablation literature under the vocabulary of char layers, blowing
 parameters and surface energy balances rather than under its own name.
 
-**Reporting these rather than padding them is the point.** A subject can be thin because the work was never
-done, because the heading is wrong, or because the knowledge is so settled that it stopped generating
-papers. **These three are the third kind**, and the third kind is invisible to a count.
+**A subject can be thin because the work was never done, because the heading is wrong, or because the
+knowledge is so settled that it stopped generating papers.** These three are the third kind, and the third kind
+is invisible to a count.
 
 ### What Counts as Primary Here
 
@@ -4924,9 +4853,8 @@ number that would decide whether the ablative choice was economically right.
 
 ### The Period Base in Full
 
-**Every harvested record that the rebuilt filter admitted is cited, and the ones the argument did not reach individually are listed here by subject rather than discarded.**
-A source retrieved and never used is work done and thrown away. These are the period records, meaning
-everything published before 2015, and the contemporary half is listed in the section headed The Contemporary Literature.
+**The period records the argument did not reach individually are listed here by subject.** The period here
+means everything published before 2015, and the contemporary half is listed in the section headed The Contemporary Literature.
 
 #### The Engine and Its Ablative Chamber
 
@@ -6387,7 +6315,7 @@ private yard and reached a scrapyard before 2020.
 The specific impulse of 296.14 seconds implied by thrust over total flow, the recovered gas generator
 fraction of 5.69 percent, and the 17.86 second impulse penalty are this article's arithmetic on three
 published figures, and the identity that the fractional impulse penalty equals the fractional flow diversion
-is exact and was tested over twenty thousand randomised inputs. The 148 second burn time and its 1.047
+is exact. The 148 second burn time and its 1.047
 margin against the longest published test are arithmetic on published masses and flow. The throat area,
 throat diameter and thrust coefficient depend on an assumed characteristic velocity of 1,780 metres per
 second. The liner recession figures depend on an assumed recession rate and are presented as a range rather
@@ -7983,7 +7911,7 @@ Of the four it is the only one that was ready.
 - [Flanigan 1989][research_flanigan_1989]
 - [Fleming 1965][research_fleming_1965]
 - [Fleurotte et al 2022][research_fleurotte_authier_2022]
-- [Flittie and Mcfarlane 1991][research_flittie_mcfarlane_1991]
+- [Flittie and McFarlane 1991][research_flittie_mcfarlane_1991]
 - [Flittie et al 1992][research_flittie_estey_1992]
 - [Flow Simulation over a Bulbous Heat Shield of a Typical Launch Vehicle 2019][research_flow_simulation_2019]
 - [Flying Controls and Automatic Landing 1963][research_flying_controls_1963]
@@ -9562,35 +9490,35 @@ Of the four it is the only one that was ready.
 - [Mbelekani and Bengler 2023][research_mbelekani_bengler_2023]
 - [Mboyi et al 2015][research_mboyi_ren_2015]
 - [McAfee et al 2025][research_mcafee_alpert_2025]
-- [Mccarty, John P. et al 1990][research_mccartyjohnp_mcconnaugheyhelen_1990]
+- [McCarty, John P. et al 1990][research_mccartyjohnp_mcconnaugheyhelen_1990]
 - [McClain et al 2019][research_mcclain_gunduz_2019]
 - [McClain et al 2019][research_mcclain_gunduz_2019_b]
 - [McClain et al 2021][research_mcclain_bojko_2021]
 - [McCleskey, C. M. et al 2012][research_mccleskeycm_bollotr_2012]
 - [McConaha and Anand 2020][research_mcconaha_anand_2020]
-- [Mccormick and Compton 1986][research_mccormick_compton_1986]
+- [McCormick and Compton 1986][research_mccormick_compton_1986]
 - [McCown 2011][research_mccown_2011]
-- [Mccoy 1988][research_mccoy_1988]
+- [McCoy 1988][research_mccoy_1988]
 - [McCoy et al 2021][research_mccoy_dinicola_2021]
 - [McDaniel 2004][research_mcdaniel_2004]
-- [Mcdonald 1980][research_mcdonald_1980]
+- [McDonald 1980][research_mcdonald_1980]
 - [McDonald, J. P. et al 1998][research_mcdonaldjp_minorrb_1998]
 - [McDowell et al 2025][research_mcdowell_raghu_2025]
-- [Mcgarr 1947][research_mcgarr_1947]
+- [McGarr 1947][research_mcgarr_1947]
 - [McGaughey and Kaviany 2002][research_mcgaughey_kaviany_2002]
-- [Mcgee 1977][research_mcgee_1977]
-- [Mcgee et al 1981][research_mcgee_foster_1981]
+- [McGee 1977][research_mcgee_1977]
+- [McGee et al 1981][research_mcgee_foster_1981]
 - [McGee et al 1984][research_mcgee_foster_1984]
-- [Mcgehee et al 1978][research_mcgehee_carden_1978]
+- [McGehee et al 1978][research_mcgehee_carden_1978]
 - [McGregor 2015][research_mcgregor_2015]
 - [McGuire et al 2004][research_mcguire_gage_2004]
 - [McGuire et al 2018][research_mcguire_bailet_2018]
 - [McGuire, Mary Kathleen 2011][research_mcguiremarykathleen_2011]
-- [Mcguire, Melissa L. et al 2014][research_mcguiremelissal_hackkurtj_2014]
+- [McGuire, Melissa L. et al 2014][research_mcguiremelissal_hackkurtj_2014]
 - [McHenry and Laub 1983][research_mchenry_laub_1983]
 - [McIntyre 1963][research_mcintyre_1963]
 - [McKamey and Landrum 2001][research_mckamey_landrum_2001]
-- [Mckinney 1986][research_mckinney_1986]
+- [McKinney 1986][research_mckinney_1986]
 - [McKnight et al 2015][research_mcknight_boyer_2015]
 - [McLAFFERTY 1970][research_mclafferty_1970]
 - [McLaughlin and Perhinschi 2020][research_mclaughlin_perhinschi_2020]
@@ -10448,7 +10376,7 @@ Of the four it is the only one that was ready.
 - [Rice 1946][research_rice_1946]
 - [Rice 1970][research_rice_1970]
 - [Rice and Locksley 2000][research_rice_locksley_2000]
-- [Rice and Mccorkle 1979][research_rice_mccorkle_1979]
+- [Rice and McCorkle 1979][research_rice_mccorkle_1979]
 - [Rice et al 2022][research_rice_mcdonald_2022]
 - [Rich and Mellor 1995][research_rich_mellor_1995]
 - [Rich et al 2001][research_rich_adamovich_2001]

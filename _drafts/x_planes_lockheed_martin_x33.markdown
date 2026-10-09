@@ -624,8 +624,7 @@ unit enclosed volume is therefore
 $$\frac{m'}{A} = \frac{2 \rho_w p}{\sigma}$$
 
 **which is exactly the value for a cylinder, with the geometry gone.** The residual computed on the X-33
-geometry is zero to machine precision, and the identity was tested as a randomised property over twenty
-thousand admissible geometries without a single failure.
+geometry is zero to machine precision, as the derivation above requires.
 
 **A designer who sizes a conformal tank by membrane stress will therefore find that the shape costs nothing, and will be wrong.**
 The entire cost of conformality lives in the terms the membrane model does not contain, namely the bending
@@ -770,11 +769,10 @@ $$t_{\text{gauge}} = 8 \times 0.125 = 1.000 \ \text{mm}$$
 of them below what can be laid up,
 **so material is carried that no load calls for, and no stress calculation will ever object, because nothing is overstressed.**
 
-**A constraint of that kind belongs to manufacture rather than to mechanics, and this article found it to be the thinnest subject it looked for.**
-A search of the whole harvested pool for minimum gauge as a design driver returns nothing at all, and the
-neighbouring literature on producibility, tolerance and the scale-up of large composite structures is small.
-**That is reported rather than padded.** It is also consistent with what the programme itself concluded,
-since [the agency's retrospective review][ref_cryotank_review] records that the manufacturing process
+**A constraint of that kind belongs to manufacture rather than to mechanics, and its literature is the thinnest this article draws on.**
+No research record cited here carries minimum gauge in its title, and the neighbouring literature on
+producibility, tolerance and the scale-up of large composite structures is small. That thinness is
+consistent with what the programme itself concluded, since [the agency's retrospective review][ref_cryotank_review] records that the manufacturing process
 revealed complexities in the scale-up of large composite structures that had not been understood before.
 
 - [Manufacturing Tolerance Incorporated in Minimum Weight Design...][research_gutkowski_bauer_1999]
@@ -1060,8 +1058,8 @@ pounds and a propellant load of 210,000, so a burnout mass of 75,000. Another gi
 pounds and an unfuelled mass of 63,000, so a propellant load of 209,900.
 
 **The propellant load agrees to within a tenth of a percent and the empty mass differs by 12,000 pounds, which is nineteen percent of the smaller figure.**
-The genre convention of this series is to name a disagreement rather than resolve it silently, and here the
-disagreement is informative. Neither table is wrong.
+The disagreement is worth naming rather than resolving silently, because here it is informative. Neither
+table is wrong.
 **They are two snapshots of a vehicle that was getting heavier**, and the Flight Test Record section derives
 the same growth by a third route that uses neither figure.
 
@@ -5014,8 +5012,9 @@ problem was understood better. The aerospike came back because the machine tools
 - [Nonlinearity-Kept Picard Newton’s Method-Based Ascending...][research_guo_liang_2025]
 - [Development of an Aerospace Engine with Single Stage to Orbit...][research_wu_2026]
 
-**The vehicle's own cluster holds no contemporary records at all, and that is a finding rather than a gap in the harvest.**
-Sixty records carry the X-33 designation, fifty-seven of them predate 2002, and the latest is dated 2011.
+**The vehicle's own cluster holds no contemporary records at all, and that is a finding about the literature.**
+Sixty of the research records cited here carry the X-33 designation in their titles, fifty-seven of them
+predate 2002, and the latest is dated 2011.
 **A cancelled programme stops generating literature under its own name**, which is the documentary
 consequence of cancellation and the mirror image of the finding in the previous article, where a losing
 competitor stopped generating literature the moment it lost.
@@ -6681,95 +6680,30 @@ consistent. **That is corroboration and not proof, and it is stated as the forme
 ## The Source Base
 
 **This article rests on 3,491 references published through 2001, when the programme was cancelled, and 4,555 published from 2015 onward, out of the full set listed below.**
-**Every harvested record that the rebuilt survey filter admitted is cited.** A source retrieved and never used is work done and discarded, so the
-survey below carries the whole of what the harvests returned rather than a selection from it, less the 1,435
-records refused as off topic, the 36 notices removed as not works and the 2 retracted articles removed in October 2026.
 
-### Both Halves, Counted and Not Only Divided
+### What the Research Survey Contains
 
-**A reference pass that reports fractions alone will misdescribe itself, and this article was built in passes that would have misdescribed themselves in opposite directions.**
+**The research survey admits a record only when a person reading its title finds it on this article's subject.**
+Its 8,713 records come from the agency's Technical Reports Server, the Defense Technical Information Center
+and the journal literature. Of these, 3,491, or 40.1 percent, were published through 2001, 4,555, or 52.3
+percent, from 2015 onward, and 2,373, or 27.2 percent, in 2022 or later. A record counts as report
+literature when its link points at the Technical Reports Server, the Defense Technical Information Center
+or the Office of Scientific and Technical Information, and 1,488 records, or 17.1 percent, do so.
 
-| | After drafting | After the primary pass | After the contemporary pass |
-|---|---|---|---|
-| Research references cited | 5,318 | 6,958 | 10,186 |
-| Period through 2001 | 2,488, 46.8% | 4,018, 57.7% | 4,018, 39.4% |
-| Contemporary 2015 onward | 2,156, 40.5% | 2,179, 31.3% | 5,407, 53.1% |
-| Published 2022 onward | 1,141, 21.5% | 1,145, 16.5% | 2,845, 27.9% |
-| Report literature | 1,229, 23.1% | 1,692, 24.3% | 1,692, 16.6% |
+**Many words this subject depends on also name something else, and a record that shares only such a word is excluded.**
+Tank also names battle tanks and artillery, permeability also names petroleum reservoirs, coal seams and
+underground gas storage, buckling also names the lateral buckling of subsea pipelines, and cryogenic
+insulation also names the electrical insulation of cryogenic cables and magnets. Bond strength also names
+the bonding of dental adhesives, and readiness also names organisational readiness assessments. Records on
+concrete and civil engineering, road and rail vehicles, markets and pricing, nuclear power plants, ordnance
+and military organisation, medicine and consumer technology share words with this subject in the same way
+and are excluded as well. Correction, erratum, addendum, retraction and withdrawal notices, figure, table
+and supplement records, review reports and journal front matter are excluded, because a survey counts
+research works and those are parts of works or editorial events rather than works. Retracted papers are
+excluded too.
 
-**Read the counts and the fractions together, because each pass moved one and not the other.** The primary
-pass added 1,530 period records and the contemporary count rose by twenty-three over the same pass,
-**while the contemporary fraction fell by nine points.** The contemporary pass then added 3,228 modern
-records and **the period count did not move at all**, while the period fraction fell by eighteen.
-
-**Nothing was removed in either pass. In both directions it was the denominator that moved.** Saying only that
-contemporary coverage fell by nine points would have described a loss that never occurred, and saying only
-that the period share fell by eighteen would describe another one.
-**The report literature is the clearest case**, holding at 1,692 records across the final pass while its
-share drops from 24.3 percent to 16.6, which is a fact about how much else was added and about nothing
-whatever to do with the reports.
-
-**The survey was rebuilt on 7 October 2026, after the counts first published with this article, and for the first time records were removed.**
-The harvests had admitted homonyms, titles that share a word with the subject and are about something
-else, and the rebuilt filter refused 797 of them. The largest groups were ninety-nine records on concrete
-and other civil engineering, sixty-seven on road vehicles, fifty-five on markets and pricing, fifty-two on
-nuclear power plants and the drying of spent fuel, thirty-six organisational readiness assessments,
-thirty-two on petroleum reservoirs and underground gas storage that entered on the word permeability,
-twenty-eight on medicine, twenty-one on battle tanks and artillery that entered on the word tank, eighteen
-on the electrical insulation of cryogenic cables and magnets, and eleven on the bond strength of dental
-adhesives. **The research set went from 10,186 to 9,389 records.** The period base through 2001 then held
-3,747, or 39.9 percent, the contemporary half from 2015 held 4,933, or 52.5 percent, and 2,579, or 27.5
-percent, were published in 2022 or later. The table counts a record by the harvest record the article was
-generated from, taking its year from that record and counting it as report literature when that record
-places it in the harvest of the agency's technical reports server or of the Defense Technical Information
-Center. That rule reproduces every cell of the table, the 1,692 included, and after this rebuild it gave
-1,565 report records, or 16.7 percent. A broader rule counting every record whose link points at either of
-those servers or at the Office of Scientific and Technical Information gives 1,759 for the set as first
-published and gave 1,628, or 17.3 percent, after this rebuild.
-
-**The clusters most changed were Structures, Materials and Systems Generally, which lost 328 records, the period list, which lost 297, and Reusability and the Economics That Actually Changed, which lost thirty-six of its 102.**
-The statements above that every harvested record is cited now hold for every record the rebuilt filter
-admitted. Three readings of 300 records each, one drawn before the sweep and two drawn after successive
-sweeps, found twenty-five, sixteen and fourteen off topic, and each finding became a new pattern swept
-across the whole set. The last reading puts the contamination remaining near 4.7 percent before its own
-sweep and somewhat lower after it, a residual that the second sampling pass of 8 October 2026 measured again.
-
-**A second sampling pass on 8 October 2026 found that the first rebuild had left more homonyms than its last reading suggested.**
-A second seeded sample of 300 records that no earlier reading had seen found twenty-seven off topic, and all
-twenty-seven were removed with 124 more that sweeps of the whole set found, first for their kinds and then
-for further homonyms those sweeps turned up, 151 in all. The largest groups were twenty-eight records on
-coal, gas sands, rock and underground works, sixteen of them with permeability in the title, twenty-six on
-road and rail vehicles, seventeen on electric power grids and energy storage, thirteen on the lateral
-buckling of subsea pipelines, which share the word buckling, thirteen on ordnance and military organisation,
-and thirteen on consumer technology, bibliometrics and social media. Structures, Materials and Systems
-Generally lost fifty-eight records, the period list lost fifty-two and the buckling cluster lost eighteen.
-**The research set went from 9,389 to 9,238 records.** Counted as the table counts them, the period base
-through 2001 then held 3,697, or 40.0 percent, the contemporary half from 2015 held 4,839, or 52.4 percent,
-2,529, or 27.4 percent, were published in 2022 or later, and the report literature held 1,537, or 16.6
-percent. The broader server rule gave 1,600, or 17.3 percent. Before its own sweep the second sample puts
-the contamination among the 7,872 records that no reading had seen at 9.0 percent, which scales to about 708
-records and is higher than the 4.7 percent the first pass's last reading suggested. That sample drove its
-own sweep, so it does not measure what remains after the sweep, and no further sample was drawn. Every sweep
-in this pass still turned up a kind of homonym that the one before it had not, so the remaining
-contamination was then to be presumed well above zero.
-
-**A third pass on 8 October 2026 read every title that no earlier reading had seen, so every record in the survey has now been read at least once.**
-The second sample's result made sampling insufficient, and the 7,463 records outside every earlier reading
-were read one by one. The reading found 466 off topic, and sweeps of the whole set for the kinds it turned up
-found twenty-one more, nine of them among the titles this reading had passed and twelve among titles earlier
-readings had kept, so 475 of the 7,463 read were off topic and 487 records were removed. The largest groups
-were eighty-five records on road and rail vehicles and traffic, fifty-six on economics, education, social
-science, environmental assessment, geoscience and mathematics, fifty-three on ordnance, military ground
-vehicles and military organisation, fifty on civil engineering, building services and building fire
-safety, thirty-seven on electronics, microelectronics and batteries, thirty-one on medicine,
-dentistry and biology, and twenty-nine on nuclear power plants. The period list lost 223 records, Structures,
-Materials and Systems Generally lost 151 and Computation, Surrogates and Uncertainty lost forty-two.
-**The research set went from 9,238 to 8,751 records.** Counted as the table counts them, the period base
-through 2001 then held 3,495, or 39.9 percent, the contemporary half from 2015 held 4,589, or 52.4 percent,
-2,396, or 27.4 percent, were published in 2022 or later, and the report literature held 1,428, or 16.3
-percent. The broader server rule gave 1,488, or 17.0 percent. A further pass on 8 October 2026 removed 36 records that are notices rather than works, namely 28 corrections and errata, 6 withdrawn papers and withdrawal notices, 1 addendum and 1 retraction notice, under the rule that correction, erratum, addendum, retraction and withdrawal notices, figure, table and supplement records, review reports and journal front matter are parts of works or editorial events and not works. Two records marked as retracted were kept, because each is the retracted paper itself rather than a notice. **The research set went from 8,751 to 8,715 records**, and counted as the table counts them the period base through 2001 then held 3,491, or 40.1 percent, the contemporary half from 2015 held 4,557, or 52.3 percent, 2,374, or 27.2 percent, were published in 2022 or later, and the report literature held 1,428, or 16.4 percent. The broader server rule gave 1,488, or 17.1 percent. On 8 October 2026 those 2 retracted articles were removed as well, taking the research set from 8,715 to 8,713 records, and counted as the table counts them the period base through 2001 now holds 3,491, or 40.1 percent, the contemporary half from 2015 holds 4,555, or 52.3 percent, 2,373, or 27.2 percent, were published in 2022 or later, and the report literature holds 1,428, or 16.4 percent. The broader server rule gives 1,488, or 17.1 percent.
-**Because every title has now been read, whatever off-topic share remains is a matter of reading judgement and not of sampling, and no figure for it is offered.**
-The judgement kept doubtful classes where the engineering in the title is the article's own, namely hydrogen
+**Every research title has been read for relevance, so whatever off-topic share remains is a matter of reading judgement and not of sampling, and no figure for it is offered.**
+The judgement keeps doubtful classes where the engineering in the title is the article's own, namely hydrogen
 embrittlement of steels and nickel alloys in oil, gas, subsea and refinery service, storage tanks and pressure
 vessels from chemical, petrochemical and nuclear plant, the cryogenic systems of particle accelerators and of
 medical magnets, sandwich panels built for road vehicles, ships and buildings, the buckling of thin civil and
@@ -6783,9 +6717,9 @@ through polymer membranes.
 The X-33 programme ran from the Phase II award on 2 July 1996 to cancellation in early 2001, and the reports
 server holds the programme's own documents from that window in quantity.
 **That is the opposite of the previous article's situation and the contrast is measurable.** The X-32 article
-reported exactly one title carrying the designation in a pool of 4,412 harvested records when it was written, and it still finds exactly one among the 5,016 records it now cites.
-**The X-33 pool returns sixty records whose titles carry the designation**, and three harvests later it
-still returns sixty, because the vehicle's own documentation was never the thin part.
+finds exactly one title carrying that designation among the 5,016 research records it cites.
+**Sixty of the 8,713 research records this article cites carry the X-33 designation in their titles**,
+because the vehicle's own documentation was never the thin part.
 
 **The reason is institutional rather than accidental.** A defence competitor is documented by its
 manufacturer and its customer, and a National Aeronautics and Space Administration cooperative agreement is
@@ -6808,22 +6742,14 @@ summary findings are available in secondary and review form and are cited here a
 **The primary investigation documentation is largely presentation material, and the copies that are retrievable are scanned images from which no text can be extracted.**
 That limitation is stated rather than written around.
 
-### What the Equation Pass Did to the Reference Base
+### Two Thin Subjects
 
-**Writing the relations down changed which literature the article needs, and the change was large enough to be worth recording.**
-An audit of the twenty-seven subjects the equations actually name found eighteen thin on period coverage and
-six at zero,
-**including the rocket equation, the ascent loss budget, minimum gauge, integral tank structure, cryopumping and the noncircular pressure vessel.**
-None of those was thin because the literature is thin. They were thin because the earlier harvests asked for
-tanks, composites and aerospikes,
-**and before the equations existed the article had no reason to ask for knockdown factors, face wrinkling or flatwise tension.**
-
-**Two subjects remain genuinely thin after a harvest aimed directly at them, and they are reported rather than padded.**
-A search for minimum gauge as a design driver returns nothing in a pool of nearly seven thousand records,
-and flatwise tensile testing of a core-to-facing bond, which is the literature of the exact failure that
-ended the programme, returns almost nothing retrievable. **The second is the more troubling**, because the
-mechanism is well understood and the test is a standard one, so the absence is more likely an artefact of
-what is indexed than a gap in what was done.
+**Two subjects the equations depend on are thin in the cited literature.** No research record cited in this
+article carries minimum gauge in its title. No cited title concerns flatwise tensile testing of a
+core-to-facing bond, which is the literature of the exact failure that ended the programme, and the only
+cited title with the word flatwise concerns the flatwise compression of honeycomb cores.
+**The second is the more troubling**, because the mechanism is well understood and the test is a standard
+one, so the absence is more likely an artefact of what is indexed than a gap in what was done.
 
 ### The Weakest Link in the Source Chain
 
@@ -6834,9 +6760,8 @@ the reported role of the joints,
 
 ### The Period Base in Full
 
-**Every record harvested for this article that the rebuilt survey filter admitted is cited, and the ones the argument did not reach individually are listed here by subject rather than discarded.**
-A harvested source that is never cited is work done and thrown away, and the sections above draw on the
-curated front of each subject while the body of it sits below.
+**The records the argument does not reach individually are listed here by subject.** The sections above
+draw on the curated front of each subject, and the body of it sits below.
 
 **These are the period records, meaning everything published before 2015.** The contemporary half is listed
 in the section headed The Contemporary Literature.
@@ -10369,7 +10294,7 @@ membrane vessel mass law with shape factors of three halves and two is standard 
 ideal tank fractions of 2.852 and 0.343 percent depend on assumed material allowables and are swept. The web
 tension result, that it equals pressure times centre separation, is derived here and its limiting cases
 check.
-**The identity that the membrane mass per unit enclosed volume of a lobed section equals that of a cylinder exactly is derived here, verified to machine precision on the X-33 geometry, verified against numerically obtained area and arc length rather than closed forms, and tested as a randomised property over twenty thousand admissible geometries.**
+**The identity that the membrane mass per unit enclosed volume of a lobed section equals that of a cylinder exactly is derived here, and it is verified to machine precision on the X-33 geometry against numerically obtained area and arc length rather than closed forms.**
 The cryopumping fill fractions and the constant-volume warming pressure are ideal gas arithmetic. The
 thermal mismatch strain of 1.306 percent and its ratio of 2.18 to the transverse failure strain rest on
 assumed ply properties which are typical rather than measured. The nozzle comparison is ideal
@@ -15210,7 +15135,7 @@ This series has now met a designation marking an absence of demand in the
 - [Macés-Hernández 2026][research_maceshernandez_2026]
 - [Madabhushi et al 1989][research_madabhushi_sabnis_1989]
 - [Maddocks, Jason R. 1995][research_maddocksjasonr_1995]
-- [Maddocks, Jason R. and Mcmanus, Hugh L. 1995][research_maddocksjasonr_mcmanushughl_1995]
+- [Maddocks, Jason R. and McManus, Hugh L. 1995][research_maddocksjasonr_mcmanushughl_1995]
 - [Madhavan Nair 2023][research_madhavannair_2023]
 - [Madhusanka et al 2019][research_madhusanka_hamillage_2019]
 - [Madni et al 2021][research_madni_erwin_2021]
@@ -15399,11 +15324,11 @@ This series has now met a designation marking an absence of demand in the
 - [McAlister 1982][research_mcalister_1982]
 - [McAlister 1984][research_mcalister_1984]
 - [McAllister and Rawlings 2021][research_mcallister_rawlings_2021]
-- [Mcamis et al 1991][research_mcamis_lankford_1991]
-- [Mcamis et al 1992][research_mcamis_lankford_1992]
-- [Mcanally and Engel 1979][research_mcanally_engel_1979]
-- [Mcauliffe, P. S. et al 1986][research_mcauliffeps_davisrc_1986]
-- [Mcbride 1986][research_mcbride_1986]
+- [McAmis et al 1991][research_mcamis_lankford_1991]
+- [McAmis et al 1992][research_mcamis_lankford_1992]
+- [McAnally and Engel 1979][research_mcanally_engel_1979]
+- [McAuliffe, P. S. et al 1986][research_mcauliffeps_davisrc_1986]
+- [McBride 1986][research_mcbride_1986]
 - [McCaig and Paul 1999][research_mccaig_paul_1999]
 - [McCartney 1998][research_mccartney_1998]
 - [McCarty 1973][research_mccarty_1973]
@@ -15417,9 +15342,9 @@ This series has now met a designation marking an absence of demand in the
 - [McDonald 2024][research_mcdonald_2024]
 - [McDonald and Hartwig 1991][research_mcdonald_hartwig_1991]
 - [McDonald, J. P. et al 1998][research_mcdonaldjp_hedayata_1998]
-- [Mcdonnell Douglas Astronautics Co St Louis Mo 1975][research_mcdonnelldouglasastronauticscostlouismo_1975]
-- [Mcdowell and Williamson, Jr. 1980][research_mcdowell_williamsonjr_1980]
-- [Mcdowell and Williamson, Jr. 1982][research_mcdowell_williamsonjr_1982]
+- [McDonnell Douglas Astronautics Co St Louis Mo 1975][research_mcdonnelldouglasastronauticscostlouismo_1975]
+- [McDowell and Williamson, Jr. 1980][research_mcdowell_williamsonjr_1980]
+- [McDowell and Williamson, Jr. 1982][research_mcdowell_williamsonjr_1982]
 - [McDowell et al 2025][research_mcdowell_raghu_2025]
 - [McElroy 2017][research_mcelroy_2017]
 - [McElwain and Noonan 2001][research_mcelwain_noonan_2001]
@@ -15435,13 +15360,13 @@ This series has now met a designation marking an absence of demand in the
 - [McKenzie-Wilson 1974][research_mckenziewilson_1974]
 - [McKeown 1997][research_mckeown_1997]
 - [McKinlay 1993][research_mckinlay_1993]
-- [Mckinney 1986][research_mckinney_1986]
+- [McKinney 1986][research_mckinney_1986]
 - [McKnight et al 2015][research_mcknight_boyer_2015]
 - [McLaughlin et al 1980][research_mclaughlin_dasgupta_1980]
 - [McLellan 1955][research_mclellan_1955]
-- [Mcmanus, Hugh L. 1994][research_mcmanushughl_1994]
+- [McManus, Hugh L. 1994][research_mcmanushughl_1994]
 - [McMinn and Mao 1995][research_mcminn_mao_1995]
-- [Mcpherson, William B. and Kuruvilla, A. K. 1994][research_mcphersonwilliamb_kuruvillaak_1994]
+- [McPherson, William B. and Kuruvilla, A. K. 1994][research_mcphersonwilliamb_kuruvillaak_1994]
 - [McQuellin et al 2020][research_mcquellin_neely_2020]
 - [McVay, Eric S. et al 2016][research_mcvayerics_joneschristophera_2016]
 - [Meadows et al 2016][research_meadows_sullivan_2016]
@@ -17095,7 +17020,7 @@ This series has now met a designation marking an absence of demand in the
 - [Seferis 2006][research_seferis_2006]
 - [Seferis 2009][research_seferis_2009]
 - [Segal 2012][research_segal_2012]
-- [Segenreich and Mcintosh, Jr. 1976][research_segenreich_mcintoshjr_1976]
+- [Segenreich and McIntosh, Jr. 1976][research_segenreich_mcintoshjr_1976]
 - [Seide 1956][research_seide_1956]
 - [Seide 1969][research_seide_1969]
 - [Seide 1974][research_seide_1974]

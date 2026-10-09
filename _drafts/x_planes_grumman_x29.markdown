@@ -464,7 +464,7 @@ $$ (ca)^2 e\,L\cos\Lambda\sin\Lambda\left(-\tfrac{1}{6} + \tfrac{1}{6}\right) = 
 
 identically. This is worth stating because a solver that does not know it will find the cancellation only to
 floating-point precision, take the quadratic branch, and return values with no physical content whatever.
-**The first version of this calculation did exactly that and reported a divergence dynamic pressure of 5.7 × 10²¹ pounds per square foot at twenty degrees of forward sweep.**
+**A solver that takes that branch reports a divergence dynamic pressure many orders of magnitude beyond any physical value.**
 A residue sixteen orders of magnitude below the terms that produced it is enormous in absolute terms, so an
 absolute tolerance cannot catch it and the test has to be made relative to the magnitude of what cancelled.
 
@@ -5161,15 +5161,15 @@ configuration was never adopted.
 
 ## The Source Base
 
-**This is the best-documented subject in this series in a long while, and the contrast with the two articles before it is the point.**
+**This is the best-documented subject in this series in a long while, and the contrast with the X-27 and the X-28 is the point.**
 
 **The vehicle's own record is deep.** The National Aeronautics and Space Administration's Technical Reports
 Server returns a large body of work under the aircraft's own designation, including the preliminary flight
 assessment, the structural loads flight testing, the flight-determined lift and drag characteristics, the
 flight control system lessons learned, the buffet and control system interaction, and the canard and control
-system interaction. **Harvest the vehicle** is the method this subject permits, which reverses the method
-the last two articles required, where the vehicle returned nothing and the physics had to be harvested
-instead.
+system interaction. **This subject's literature is found under the aircraft's own name**, which is the
+reverse of the X-27 and the X-28, whose designations carry essentially no literature of their own and whose
+evidence lies in the physics beneath them.
 
 **Two primary documents carry most of the quantitative content of this article.** The preliminary flight
 assessment supplies the geometry, the control system description, the static margin, the update rate and the
@@ -5186,52 +5186,25 @@ relaxed static stability and digital flight control each have substantial primar
 tunnel divergence experiments on forward-swept wings that the flight programme cites are themselves a
 well-documented body of work.
 
-### What the Reference Passes Changed, and the Trap Ran Both Ways
+### The Mechanics Beneath the Equations
 
-**Two passes moved this article's reference base and they moved it in opposite directions. Both movements are recorded here because either fraction alone would misdescribe what happened.**
+**Writing an equation down creates a citation obligation for the mechanics beneath it, and the mechanics are not the same literature as the technology.**
+The research survey therefore cites, beside the literature of the aircraft's technologies, the literatures of
+the assumed-modes and Rayleigh-Ritz method, the Southwell method, lift-curve slope estimation, unstable roots
+and the time to double, laminate stiffness, torsional divergence of a typical section, wing root bending and
+structural weight, static margin and the neutral point, induced drag and span efficiency, sampled-data control
+and transport delay, and sustained turn and manoeuvre performance.
 
-**The primary-reference pass took primary sources from 1,317 to 1,763, or from 61.4 to 68.0 percent of dated references**,
-and the period count from 1,130 to 1,529.
-**The contemporary count did not fall during that pass. It rose, from 850 to 856**, while its fraction fell
-from 39.6 to 33.0 percent, purely because four hundred period sources arrived underneath it.
+**Two of them are thin, and in both cases the subject exists while the heading does not.**
 
-**The publication pass then did the reverse. The period count stayed unchanged at 1,529** while its fraction
-fell, because fifteen hundred contemporary sources arrived underneath that.
+**No research record cited here carries sustained turn, specific excess power or excess thrust in its title.**
+The work is not missing. It lives under **energy state, energy manoeuvrability and time to climb**, which is
+the vocabulary the period actually used, and the article's records on the subject are written in those terms.
 
-**Neither pass removed anything.** The article's reference base only grew during them, and a reader watching
-only the fractions would have seen two apparent regressions where there were none.
-
-### What the Primary Pass Was Aimed At
-
-**The primary pass was aimed at eleven subjects the equation pass had promoted and the original harvest had never asked for.**
-Writing an equation down creates a citation obligation for the mechanics beneath it, and the mechanics are
-not the same literature as the technology. Five of those subjects stood at zero records before this pass.
-
-| Subject | Before | After |
-|---|---|---|
-| Assumed modes and the Rayleigh-Ritz method | 0 | 39 |
-| The Southwell method | 0 | 19 |
-| Lift-curve slope estimation | 0 | 13 |
-| Time to double and unstable roots | 0 | 4 |
-| Laminate stiffness and positive definiteness | 0 | 1 |
-| Torsional divergence of a typical section | 3 | 14 |
-| Wing root bending and structural weight | 4 | 28 |
-| Static margin and the neutral point | 6 | 10 |
-| Induced drag and span efficiency | 9 | 35 |
-| Sampled-data control and transport delay | 16 | 23 |
-| Sustained turn and manoeuvre performance | 1 | 1 |
-
-**Two of them are reported as thin rather than padded, and in both cases the subject exists while the heading does not.**
-
-**Sustained turn and manoeuvre performance returned one record from six targeted queries across two rounds.**
-The work is not missing. It lives under **energy state, time to climb and excess thrust**, which is the
-vocabulary the period actually used, and once the heading was widened to reach it the records were there. It
-remains the thinnest heading in the article.
-
-**Laminate stiffness and positive definiteness likewise returns one record**, because the mechanics of the
-bend-twist coupling matrix are written up inside the composite structure literature, where 426 of this
-article's research records carry composite or composites in their titles, and inside the aeroelastic
-tailoring literature, where 75 carry tailored or tailoring in theirs.
+**No research record cited here carries positive definite or stiffness matrix in its title either**, because
+the mechanics of the bend-twist coupling matrix are written up inside the composite structure literature,
+where 426 of this article's research records carry composite or composites in their titles, and inside the
+aeroelastic tailoring literature, where 75 carry tailored or tailoring in theirs.
 **A paper on tailoring a wing is a paper about that stiffness matrix**, and reporting a gap there would
 misdescribe where the work is.
 
@@ -5242,34 +5215,35 @@ misdescribe where the work is.
 | Period, through 1995 | 1,429 | 37.7 percent |
 | Contemporary, 2015 onward | 2,178 | 57.4 percent |
 
-**The survey filter was rebuilt on 7 October 2026, after the counts first published with this article.**
-A reading of every flagged title, followed by a sweep of the whole reference set for each homonym the
-reading exposed, refused 309 research records and took the cited research from 4,117 to 3,808. Ten records
-filed under the Southwell method named a different Southwell, among them the poems of the Jesuit Robert
-Southwell, Southwell Cathedral and a cestode parasite of the Indian shad. Seven canard records concerned
-Pekin ducks, foie gras, a duck dish, a correction notice and marine propellers, fourteen agility records
-concerned military doctrine and enterprise management, and nine divergence records concerned intracranial
-pressure, meteorology, statistics, economics and the diet of sea lions. The largest group arrived through the words control, vehicle
-and fault tolerance, and covered automotive suspension, steering and braking, ships and submarines, power
-converters and electric motors, industrial robots and cranes, chemical reactors, civil structures, supply
-chains, airfares and flight delays.
+### How the Survey Admits a Record
 
-**The control subsections changed most.** The survey of unstable airframe control fell from 772 records to
-693, the redundancy subsection from 525 to 467, and the machine learning survey from 147 to 109. The table
-above gives the present period and contemporary counts, each also as a share of every cited research record,
-since every one of them carries a year. A seeded reading of 300 unflagged records found 21
-off topic, which put contamination near seven percent before the rebuild, and every one of the 21 then fell
-to a sweep it had prompted, so that sample cannot measure what remains. Doubtful records were kept,
-including quadrotor flight control, bridge and hydrofoil flutter, and networked control theory.
+**Records are admitted when their titles match this article's subject vocabulary.** A person has read the titles
+that the exclusion patterns flag and a random sample of the rest.
+Its 3,792 records come from the National Aeronautics and Space Administration's Technical Reports Server, the
+Defense Technical Information Center and the journal literature. Of these, 24.5 percent are records of those
+two report servers, and their median year is 2017. Every one of them carries a year, so the shares in
+the table above are shares of every cited research record.
 
-**A second seeded sample of 300 records that no earlier reading had seen found 6 off topic, and all 6 were removed with 4 more of their kind.**
-The 6 were a study of ball bearing dynamics, a lift-to-drag estimate for the double-crested cormorant, a
-study of pilot personality, vibration control for a magnetically suspended control moment gyroscope, a
-proposal for rigid sails and a soft robot modelled on an inchworm. The sweeps they prompted found bearing
-manufacture, crew fatigue scheduling, robotic grinding and robot manipulator control. That took the cited
-research from 3,808 to 3,798, and the redundancy subsection from 467 to 466. The sample puts the
-contamination it found at 6 in 300, or 2.0 percent, before its own sweep. Because that sample drove the
-sweep, it cannot measure what remains after it. Five more records were then removed under the rule that a survey counts research works and not notices attached to them, two withdrawal notices, one correction notice, one errata notice and one retraction note, and the cited research fell from 3,798 to 3,793. On 8 October one retracted article was removed, which took the cited research from 3,793 to 3,792.
+**Several words this subject depends on also name something else, and a record that shares only such a word is excluded.**
+Southwell is also the name of the Jesuit poet Robert Southwell, of Southwell Cathedral and of a cestode
+parasite of the Indian shad. Canard also names the duck, in poultry science and cookery. Agility also names a
+quality of military doctrine and of enterprise management, and divergence names quantities in intracranial
+pressure, meteorology, statistics and economics. Control, vehicle and fault tolerance also name automotive
+suspension, steering and braking, ships and submarines, power converters and electric motors, industrial
+robots and cranes, chemical reactors, civil structures, supply chains, airfares and flight delays. Correction,
+errata, retraction and withdrawal notices, and retracted articles, are excluded as well, because a survey
+counts research works and those are notices attached to works rather than works.
+
+**Some records of doubtful relevance are kept.** Generic control, estimation and optimisation theory,
+structural mechanics theory, quadrotor flight control, bridge and hydrofoil flutter, and networked control
+theory each share the mathematics of the aircraft's structural or control problem, so each is kept and a
+reader may weigh it accordingly.
+
+**Not every research title has been read for relevance, so the off-topic share that remains is an estimate from a sample.**
+The most recent measurement read 300 records drawn at random from those not previously read and found 6 off
+topic, or 2.0 percent. The records that sample exposed have been removed, together with others sharing their
+homonyms, so that figure overstates what remains by an unknown amount, and no later unread sample has been
+drawn.
 
 ## Epistemic State
 
@@ -6971,7 +6945,7 @@ than any aircraft in this series and never flew at all.
 - [Johnson and Nokes 1998][research_johnson_nokes_1998]
 - [Johnson et al 1962][research_johnson_henderson_1962]
 - [Johnson, R. W. and June, R. R. 1972][research_johnsonrw_junerr_1972]
-- [Johnson, R. W. and Mccarty, J. E. 1977][research_johnsonrw_mccartyje_1977]
+- [Johnson, R. W. and McCarty, J. E. 1977][research_johnsonrw_mccartyje_1977]
 - [Johnson, W. 1977][research_johnsonw_1977]
 - [Johnston and Cassarino 1976][research_johnston_cassarino_1976]
 - [Johnston et al 1974][research_johnston_ashkenas_1974]
@@ -7593,8 +7567,8 @@ than any aircraft in this series and never flew at all.
 - [McCutchen 1980][research_mccutchen_1980]
 - [McDonald 2001][research_mcdonald_2001]
 - [McDonald and Farris 1964][research_mcdonald_farris_1964]
-- [Mcdonnell Aircraft Corp St Louis Mo 1962][research_mcdonnellaircraftcorpstlouismo_1962]
-- [Mcdonnell Aircraft Corp St Louis Mo 1963][research_mcdonnellaircraftcorpstlouismo_1963]
+- [McDonnell Aircraft Corp St Louis Mo 1962][research_mcdonnellaircraftcorpstlouismo_1962]
+- [McDonnell Aircraft Corp St Louis Mo 1963][research_mcdonnellaircraftcorpstlouismo_1963]
 - [McDonnell and Ning 2020][research_mcdonnell_ning_2020]
 - [McEneaney 1999][research_mceneaney_1999]
 - [McEneaney 2013][research_mceneaney_2013]
@@ -7608,7 +7582,7 @@ than any aircraft in this series and never flew at all.
 - [McKinney 1972][research_mckinney_1972]
 - [McKlNNEY and DOLLYHlGH 1971][research_mcklnney_dollyhlgh_1971]
 - [McMaster and Schenk 1974][research_mcmaster_schenk_1974]
-- [Mcruer, D. et al 1986][research_mcruerd_johnstond_1986]
+- [McRuer, D. et al 1986][research_mcruerd_johnstond_1986]
 - [McWilliam et al 2018][research_mcwilliam_zahle_2018]
 - [Mefford et al 1948][research_mefford_voss_1948]
 - [Meglinskii 1966][research_meglinskii_1966]
