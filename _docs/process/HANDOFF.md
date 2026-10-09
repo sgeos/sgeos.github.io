@@ -11,17 +11,14 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `f5f4639`
-- **Written**: 2026-10-09, by the X-Planes line, after the two repair cycles of 7 and 8 October and the
-  closing of the last two repair items on 9 October.
+- **Parent commit** (the repository state this handoff describes): `46a8524`
+- **Written**: 2026-10-09, by the X-Planes line, after the drafting-process removal cycle that followed the
+  repair cycles of 7 and 8 October.
 - **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
   not be committed by it.
-- **PUSH STATE. ONE COMMIT IS UNPUSHED, AND THIS FILE'S COMMIT MAKES TWO.** On 9 October the pilot
-  instructed the push, `_check.sh` passed, and `origin/master` moved from `7721013` to `5acace6`, so the
-  Open Library repairs to published posts in `c6112fa` are live. The unpushed commit is `f5f4639`, the last
-  two X-Planes repair items. It touches drafts and status files only, so pushing it publishes nothing.
-  **Push only on the pilot's instruction.** More than two unpushed commits, or an `origin/master` other
-  than `5acace6`, is a divergence worth reporting.
+- **PUSH STATE. TWO COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES THREE.** `origin/master` is at `573c583`.
+  The unpushed commits are `3cf97f7`, the drafts, and `46a8524`, the status files. Both touch drafts and process
+  files only, so pushing publishes nothing. **Push only on the pilot's instruction.**
 - **THE X-PLANES SERIES IS COMPLETE IN DRAFT AND HAS BEEN THROUGH TWO FULL REPAIR CYCLES.** All seventy-two
   articles, A297 through A368, have all four passes, and then the pilot's six decisions (7 October) and the
   completeness cycle (8 October). **Nothing in the series is published. The pilot's instruction is to hold
@@ -216,6 +213,36 @@ FINDS.** A376's reference pass inserted blocks before named headings and produce
 subsections and four blocks filed under an unrelated heading. One duplicate said a quotation
 appeared "earlier" when it appeared forty-six lines later. **After any pass that inserts sections,
 dump the heading list and read it**, and check for repeated headings programmatically.
+
+## The 9 October Cycle: No Article Reports Its Drafting Process
+
+**The pilot's ruling, quoted.** "The articles should not report on the drafting process." All 72 articles were
+rewritten to that rule, `3cf97f7`. **Every dated repair paragraph, survey history and process heading that the
+sections below describe as being in an article has now been removed from it.** The live state is the drafts, the
+logs in `tmp/fix7/process/<ART>.md`, and the briefs `tmp/fix7/BRIEF9.md` and `BRIEF10.md`, whose "Rulings added after
+the pilot run" are the working definition of what counts as process.
+
+- **What each Source Base now holds:** the source facts, a present-tense methods statement, the recomputed survey
+  numbers, and a contamination statement in one of two forms. Where every title has been read, it says so. Where
+  only a sample was read, it gives the sample and its count and says the figure overstates what remains.
+- **A319 and A325 were read in full.** Both had crossed the full-reading threshold in their second samples and had
+  been missed. **The series now holds 267,363 research references.**
+- **A coordinator error, repaired.** `survey_tool.py resample` has no dry run, and it overwrote three
+  `sample_pass2.json` files. All three were regenerated exactly from the seed (`tmp/fix7/restore_pass2_samples.py`).
+  **Never run `resample` to count.**
+- **1,353 citation labels were fixed** (`tmp/fix7/label_fix.py`). The generators for A353 to A357 apply the same
+  rule through `tmp/fix7/labelnorm.py`. **Running an emitter by hand regenerates its blocks from stale harvest
+  data.** Resync with the article's `sync_*` tool instead.
+- **A364's verifier exit code was inverted**, because `sys.exit(C.report())` exits 1 on a pass. It is fixed, and a
+  negative test confirms it.
+- **Thirteen ledger `article_class` values are now "unstated".** Nine quoted sentences this cycle removed, and four
+  were unsourced.
+- **Gates at `46a8524`:**
+  - check5 passes on all 72 articles;
+  - all 72 drafts build in full, with no rendered-audit findings across 544 pages;
+  - every offline X-Planes verifier passes;
+  - the ledger has 0 failed quotes, and `verify368` passes 1,842 checks with 0 failures;
+  - `_verify.py` reports 0 errors and 0 warnings.
 
 ## The 7 and 8 October Repair Cycles, Which Supersede Every Survey Figure Below
 
@@ -459,35 +486,32 @@ the designation sequence as its subject.
 
 ## Open Items
 
-**Every repair item that needed no decision is closed.** What remains is the pilot's:
+**Every repair item that needed no decision is closed.** What remains:
 
-1. **Publication of the series**, held by the pilot until the series is ready. **No agent publishes
+1. **Publication of the series**, held by the pilot until checks and repair are complete. **No agent publishes
    without an explicit instruction.** When it comes:
    - observe the two-commit publication pattern;
    - run a production build check before any publishing push;
-   - remember that forward `post_url` references are acceptable per the pilot but must resolve at build
-     time, so the whole series publishes together or in index order.
-2. **Judgement calls the pilot may review**, each recorded per article:
-   - generated citation lists inside sentences were spliced;
-   - A368 lost four Military Balance designation tables as non-works;
-   - editorials and discussion items were kept as works;
-   - the doubtful classes kept are in each `tmp/fix5/<ART>/filter.json`;
-   - Winchester's book is matched to a work whose catalogue title is truncated, and A322's Bensen book
-     clause was removed rather than replaced.
-3. **The unpushed commit**, pushed only on instruction.
+   - publish the whole series together or in index order, so that forward `post_url` references resolve.
+2. **The unpushed commits**, pushed only on instruction.
+3. **Known limits, recorded rather than fixed:**
+   - About 1,860 labels of the form "Given Surname et al" reproduce the registry's family-name field. They cannot be
+     separated from real compound surnames without guessing.
+   - The `check.py` scripts for A313 to A317 compare labels against harvest-time display names that predate the
+     11 August repair. They are stale and are not gate verifiers.
+   - A324 cites a 1979 study of reclined seat back profiles, which may be off topic, and it was kept.
 4. **From before, not in X-Planes scope and not decided:**
    - the caps and shouted-title spans on published compiler posts;
    - the eight 2126 drafts' intent;
-   - A369's factor-of-thirty claim, which awaits another repository.
-
-   A359's phase-delay disclosure (MIL-STD-1797 unread) stays as an honest disclosure in the article.
+   - A369's factor-of-thirty claim.
 
 ## Resume Prompt
 
 **Validate this file, re-read the three channels, report the state in a few lines, and wait for the
 pilot.** Do not start work unprompted. The likely next instructions are a push confirmation, a
 publication instruction for the series, or work on another line. **If the pilot asks to publish the
-series, read Open Items 1 first.** If the pilot asks for more X-Planes repair, the tools are these:
+series, read Open Items 1 first.** **Any new article text must not report the drafting process; read
+`tmp/fix7/BRIEF9.md` before editing a draft.** If the pilot asks for more X-Planes repair, the tools are these:
 - `tmp/fix5/survey_tool.py`: candidates, grep, apply, stats, find and resample.
 - `tmp/fix5/check5.py`: the per-article hard checks.
 - `tmp/fix5/flagfix.py`: a logged exact replacement.
