@@ -8313,6 +8313,10 @@ Part two back-references part one, which is legal because 2026-01-27 precedes 20
 makes no forward reference. Both dates have passed, so batch publication resolves the internal
 cross-reference immediately.
 
+## X-Planes Drafting-Process Narrative Removed 2026-10-09
+
+**Per the pilot, no X-Planes article reports how it was drafted.** Every Source Base now carries a present-tense methods statement and an honest contamination statement. A319 and A325 were read in full, so the series holds 267,363 research references. Citation labels were cleaned, and the Walker Atlas book was corrected in A308 and A309. Logs are in `tmp/fix7/process/`. Publication is still held.
+
 ## X-Planes Last Repair Items 2026-10-09
 
 **No X-Planes draft carries an Open Library search link.** 27 definitions were repointed to specific records, Jenkins 2007 to NASA's Technical Reports Server, and A322's unidentifiable Bensen book clause was removed. **A332's thin-subject table is recounted over the cited records** under a stated phrase rule. Its recount found 14 off-topic records, which were removed, taking research records from 8,220 to 8,206 and the series to 267,441. Every gate passes. The series stays unpublished pending the pilot.

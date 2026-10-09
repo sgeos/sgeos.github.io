@@ -4,6 +4,58 @@
 
 ## Last Updated
 
+**Date**: 2026-10-09 (second entry)
+**Task**: **THE X-PLANES ARTICLES NO LONGER REPORT THEIR DRAFTING PROCESS.** `3cf97f7` and the commit recording it. NOT pushed, NOT published.
+
+**THE PILOT'S RULING, QUOTED.** "Does drafting refer to an X-plane, or this series? The articles should not report on the drafting process."
+
+**WHAT WAS REMOVED OR RESTATED, ALL 72 ARTICLES.**
+- Removed:
+  - named passes;
+  - harvest and pool histories, and before and after tables;
+  - dated repair and rebuild paragraphs;
+  - correction stories;
+  - mentions of verifiers, scripts and checks;
+  - references to the internal genre note, the directive and the series convention;
+  - openings that classify the article's own length;
+  - internal cluster keys shown to readers.
+- **Kept, in the present tense:**
+  - the source facts;
+  - a methods statement;
+  - every recomputed present-state survey number;
+  - an honest contamination statement.
+- **The contamination statement has two forms.** Where every title has been read, it says so. Where only a sample was read, it gives the latest sample with its size and count, says the exposed records were removed so the figure overstates what remains, and says no later sample was drawn. In sample-case articles the admission sentence no longer claims a person read every title.
+- **Pool-only numbers were dropped,** or restated as counts over cited records, or as what a public archive returns.
+- **Logs.** Every change is logged per article in `tmp/fix7/process/<ART>.md`. The briefs are `tmp/fix7/BRIEF9.md` and `BRIEF10.md`.
+
+**FOUND AND FIXED ALONG THE WAY.**
+- **Two missed full readings.** A319 at 4.0 percent and A325 at 3.7 percent had crossed the threshold for a full reading in their second samples, but were never fully read. Both are now read in full:
+  - A319: 652 titles read, 33 removed, 1,309 to 1,276;
+  - A325: 858 titles read, 45 removed, 1,747 to 1,702.
+- **The series now holds 267,363 research references, down from 267,441.**
+- **A308 and A309 cited the wrong Walker book.** They now cite Walker 2005, *Atlas, The Ultimate Weapon* (OL8914870W), which the anchor and the citing sentences intend.
+- **False or unsupported claims corrected:**
+  - A340's comparison with a "thin" X-42 record;
+  - A362's "no title names the programme";
+  - A356's "Everything the register says ... is in the future tense";
+  - A343's "weight statistics";
+  - A326's figure that only an erroneous calculation produced.
+- **1,353 citation labels fixed** (`tmp/fix7/label_fix.py`): "Iii" casing, split Mc and Mac surnames, all-caps particles, and capitalised family names followed by a given name. The A354 to A357 generators apply the same rule through `tmp/fix7/labelnorm.py`, so byte identity holds.
+- **A364's verifier exit code was inverted.** `sys.exit(C.report())` exited 1 on a pass. It now exits 0 on a pass and non-zero on a corrupted copy.
+- **Coordinator incident.** Running `survey_tool.py resample` to count unread titles overwrote `sample_pass2.json` in A319, A325 and A349. All three were regenerated exactly from the seed, and the unread counts and recorded off-topic anchors match (`tmp/fix7/restore_pass2_samples.py`).
+- **The A368 ledger.** Thirteen `article_class` values are now "unstated" with repair notes. Nine had quoted self-classification sentences that this pass removed, and four held a value with no quotation. One quotation was re-taken, and one was pinned by hand.
+
+**GATES.**
+- check5 passes on all 72 articles, and `_verify.py` reports 0 errors and 0 warnings.
+- The ledger has 70 records with 0 failed quotes, and `verify368` passes 1,842 checks with 0 failures.
+- Offline verifiers: see the commit message for this record.
+
+**LEFT AS THEY ARE, WITH REASONS.**
+- **About 1,860 labels of the form "Given Surname et al".** They reproduce the registry's family-name field, and they cannot be separated from real compound surnames without guessing.
+- **The checkers of A313 to A317 (`check.py`).** They report 51 label mismatches against harvest-time display names that predate the 11 August label repair. They are stale and are not gate verifiers.
+
+---
+
 **Date**: 2026-10-09
 **Task**: **THE LAST TWO X-PLANES REPAIR ITEMS CLOSED: THE 28 OPEN LIBRARY SEARCH LINKS AND A332'S THIN-SUBJECT TABLE.** Committed, NOT pushed, NOT published.
 
