@@ -11,14 +11,13 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `285f7c0`
+- **Parent commit** (the repository state this handoff describes): `9816d0e`
 - **Written**: 2026-10-09, by the X-Planes line, after the drafting-process removal cycle that followed the
   repair cycles of 7 and 8 October.
 - **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
   not be committed by it.
-- **PUSH STATE. FOUR COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES FIVE.** `origin/master` is at `573c583`.
-  The unpushed commits are `3cf97f7` (drafts), `46a8524` (status files), `59c83ca` (the earlier handoff) and `285f7c0`
-  (drafting notes and the style rule). None publishes anything. **Push only on the pilot's instruction.**
+- **PUSH STATE. SIX COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES SEVEN.** `origin/master` is at `573c583`.
+  None publishes anything. **Push only on the pilot's instruction.**
 - **THE X-PLANES SERIES IS COMPLETE IN DRAFT AND HAS BEEN THROUGH TWO FULL REPAIR CYCLES.** All seventy-two
   articles, A297 through A368, have all four passes, and then the pilot's six decisions (7 October) and the
   completeness cycle (8 October). **Nothing in the series is published. The pilot's instruction is to hold
@@ -237,6 +236,10 @@ the pilot run" are the working definition of what counts as process.
   negative test confirms it.
 - **Thirteen ledger `article_class` values are now "unstated".** Nine quoted sentences this cycle removed, and four
   were unsourced.
+- **Follow-up `9816d0e`.** 789 more citation labels were corrected against the registry. The `check.py` scripts for
+  A313 to A317 now test labels against the registry through `tmp/fix7/label_expect.py`. A table of contents left
+  A356 and three subject indexes left A331, so the series holds 267,359. A364's survey is recomputed over its cited
+  records. The "Given Surname" label class was checked against Crossref and needed no change.
 - **Drafting notes live in process files, never in article prose, per the pilot.** The passages removed in this cycle
   are tracked per article in `_docs/process/x_planes_drafting_notes/`, and the rule is in the style guide's Prose Rules.
 - **Gates at `46a8524`:**
@@ -496,12 +499,9 @@ the designation sequence as its subject.
    - run a production build check before any publishing push;
    - publish the whole series together or in index order, so that forward `post_url` references resolve.
 2. **The unpushed commits**, pushed only on instruction.
-3. **Known limits, recorded rather than fixed:**
-   - About 1,860 labels of the form "Given Surname et al" reproduce the registry's family-name field. They cannot be
-     separated from real compound surnames without guessing.
-   - The `check.py` scripts for A313 to A317 compare labels against harvest-time display names that predate the
-     11 August repair. They are stale and are not gate verifiers.
-   - A324 cites a 1979 study of reclined seat back profiles, which may be off topic, and it was kept.
+3. **Known limits, recorded rather than fixed.** About 2,000 "Given Surname et al" labels match Crossref's own
+   family field, so they follow the registry. Eleven author-year labels differ from the registry for documented
+   reasons: a transliteration, a registry typo, an online versus print year, or an affiliation listed as author.
 4. **From before, not in X-Planes scope and not decided:**
    - the caps and shouted-title spans on published compiler posts;
    - the eight 2126 drafts' intent;
