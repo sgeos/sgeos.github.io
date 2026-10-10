@@ -11,12 +11,12 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `9816d0e`
-- **Written**: 2026-10-09, by the X-Planes line, after the drafting-process removal cycle that followed the
-  repair cycles of 7 and 8 October.
+- **Parent commit** (the repository state this handoff describes): `ef43822`
+- **Written**: 2026-10-09, by the X-Planes line, after the series consistency pass that followed the
+  drafting-process removal cycle and the repair cycles of 7 and 8 October.
 - **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
   not be committed by it.
-- **PUSH STATE. SIX COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES SEVEN.** `origin/master` is at `573c583`.
+- **PUSH STATE. EIGHT COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES NINE.** `origin/master` is at `573c583`.
   None publishes anything. **Push only on the pilot's instruction.**
 - **THE X-PLANES SERIES IS COMPLETE IN DRAFT AND HAS BEEN THROUGH TWO FULL REPAIR CYCLES.** All seventy-two
   articles, A297 through A368, have all four passes, and then the pilot's six decisions (7 October) and the
@@ -25,7 +25,7 @@ resuming agent. Read it first, validate it, then read the live channels.
   acceptable.**
 - **THE CORPUS BASELINE IS 0 ERRORS AND 0 WARNINGS ACROSS 305 POSTS.** All 72 drafts build in full and the
   rendered audit has no findings. The A368 ledger holds 70 records with 0 failed quotations, and
-  `verify368.py` passes 1,847 checks with 0 failures. Every article prints `check5.py` RESULT PASS, and
+  `verify368.py` passes 1,864 checks with 0 failures. Every article prints `check5.py` RESULT PASS, and
   every offline article verifier passes.
 - **THE HANDOFF WAS RESTAMPED ON THE PILOT'S INSTRUCTION, "Update and restamp the handoff."**
 
@@ -212,6 +212,44 @@ FINDS.** A376's reference pass inserted blocks before named headings and produce
 subsections and four blocks filed under an unrelated heading. One duplicate said a quotation
 appeared "earlier" when it appeared forty-six lines later. **After any pass that inserts sections,
 dump the heading list and read it**, and check for repeated headings programmatically.
+
+## The 9 October Consistency Pass, Which Supersedes Every Count Below
+
+**The pilot's instruction, quoted.** "Perform a full series consistency pass. Make sure that article scope and
+depth is appropriate given the per article subject matter in the context of the series. There is more to say
+about some X-planes than others, so uniformity is not expected, but when there is more to say about a particular
+X-plane, the expectation is that more will be said. Also check for per article equation and reference density in
+the context of the entire series." Committed as `ef43822`.
+
+- **Method.** The brief is `tmp/fix7/BRIEF11.md`, with work items E (depth), P (primary sourcing), Q (equation
+  coverage) and T (padding). The coordinator log is `tmp/fix7/PROGRESS11.md`. Metrics come from
+  `tmp/fix7/series_metrics.py`, and the baseline on HEAD is `tmp/fix7/series_metrics.head.txt`. Record richness is
+  in `tmp/fix7/record_richness2.json`, which is unreliable for X-1 to X-12, and coverage from
+  `tmp/fix7/eq_coverage.py`.
+- **Totals.** 46 articles changed.
+  - words from 711,904 to 758,580;
+  - display equations from 4,417 to 4,859;
+  - curated references from 3,603 to 3,697;
+  - research references from 267,359 to 267,386.
+- **Every correction is quoted per article** in `_docs/process/x_planes_drafting_notes/<ART>.md`, under
+  "Consistency pass (9 October)".
+- **THE A368 LEDGER CARRIES FACTS, NOT ONLY QUOTES.** A corrected article can change a ledger value even where
+  the quotation still matches. Six agents re-checked all 45 changed records under `tmp/fix7/BRIEF12.md`.
+  - The X-21 and X-32 became crewed.
+  - The X-17 and X-19 ground comparisons became mixed, and the X-18's became confirmed.
+  - Sponsor sets changed.
+  - A368's statistics were recomputed: crewed 71.4 against 26.7 percent, p 0.00138, odds ratio 6.88, and mixed
+    22 of 29.
+  - `verify368.py` now pins its hard-coded shares to `calc368.json`.
+  - The pre-pass copies are in `tmp/fix7/*.pre_cons*` and `tmp/fix7/ledger.pre_cons/`.
+- **Gates at `ef43822`.**
+  - check5 passes on all 72;
+  - `_verify.py` reports 0 and 0;
+  - the full build renders 544 pages with no findings;
+  - the ledger has 0 failed quotes;
+  - `verify368` passes 1,864 of 1,864;
+  - 82 of 84 verifiers pass, and the two failures are the network URL scripts for A305 and A306, on DOI
+    connection resets.
 
 ## The 9 October Cycle: No Article Reports Its Drafting Process
 
@@ -499,10 +537,15 @@ the designation sequence as its subject.
    - run a production build check before any publishing push;
    - publish the whole series together or in index order, so that forward `post_url` references resolve.
 2. **The unpushed commits**, pushed only on instruction.
-3. **Known limits, recorded rather than fixed.** About 2,000 "Given Surname et al" labels match Crossref's own
+3. **Pilot decisions raised by the consistency pass.**
+   - Whether to retrofit contemporary research surveys to A297 to A317. These hold 130 to 427 records each,
+     against thousands from A318 on, so the density is discontinuous where the survey standard arrived.
+   - Whether to give the X-15 a further depth pass. It has 13,440 words, the richest record in the series, and is
+     shorter than several anomaly articles.
+4. **Known limits, recorded rather than fixed.** About 2,000 "Given Surname et al" labels match Crossref's own
    family field, so they follow the registry. Eleven author-year labels differ from the registry for documented
    reasons: a transliteration, a registry typo, an online versus print year, or an affiliation listed as author.
-4. **From before, not in X-Planes scope and not decided:**
+5. **From before, not in X-Planes scope and not decided:**
    - the caps and shouted-title spans on published compiler posts;
    - the eight 2126 drafts' intent;
    - A369's factor-of-thirty claim.
@@ -524,7 +567,9 @@ series, read Open Items 1 first.** **Any new article text must not report the dr
 **After any edit to an X-Planes draft, run in this order:**
 1. `check5.py` on the edited article and its offline verifier;
 2. `tmp/fix6/relocate.py --write` and `relocate_src.py` on `tmp/a368/calc368.py` and
-   `tmp/a368/verify368.py`, then `tmp/a368/ledgercheck.py`, `calc368.py` and `verify368.py`;
+   `tmp/a368/verify368.py`, then `tmp/a368/ledgercheck.py`, `calc368.py` and `verify368.py`. **If the edit
+   corrected a fact, re-check that article's ledger values and notes too**, as `tmp/fix7/BRIEF12.md` describes,
+   and update A368's prose from the recomputed `calc368.json`;
 3. `_verify.py`;
 4. the stub build of the touched drafts, then `_lib/render.py` on its output.
 
