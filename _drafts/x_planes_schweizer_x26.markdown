@@ -77,14 +77,12 @@ first time in a jet is both uninformative and dangerous.
 **The school wanted an aircraft that exhibited the same physics slowly.** Four were ordered as the X-26A.
 
 **The Army's problem was operational and arrived later.** Night observation over the Delta required an
-aircraft that could loiter low without announcing itself, and the specification asked for acoustic
-undetectability at 1,500 feet. Lockheed Missiles and Space Company took two X-26A airframes, serials
-67-15345 and 67-15346, and rebuilt them as the QT-2, which in its Prize Crew form became the QT-2PC.
+aircraft that could loiter low without announcing itself, and the [specification][ref_yo3a] asked for
+acoustic undetectability at 1,500 feet. Lockheed Missiles and Space Company took two X-26A airframes, serials
+67-15345 and 67-15346, and rebuilt them as the QT-2, which in its Prize Crew form became the
+[QT-2PC][ref_x26].
 
 **Neither programme was a Schweizer initiative and neither aircraft was developed as a research vehicle.**
-That is a repetition of what the previous article in this series found about the
-[X-25][related_post_a322_bensen_x25], and the two together are evidence about the designation system and not
-about either aeroplane.
 
 ## The Vehicles
 
@@ -163,31 +161,21 @@ coefficient at which it occurs is
 
 $$C_L^{\ast} = \sqrt{\pi (0.90)(18.1)(0.012)} = 0.784$$
 
-**The quoted numbers agree with the relation once each is paired with the weight it belongs to.** At the 1,430 pound gross weight
-the best-glide speed comes out at 62.9 miles per hour against a quoted 55.9, which is 13 percent adrift. The
-same sources quote a wing loading of 6.0 pounds per square foot, which is about 1,080 pounds and not the
-gross weight at all.
+**The quoted numbers agree with the relation once each is paired with the weight it belongs to.** The
+best-glide speed is the speed at which the wing flies at $C_L^{\ast}$, with sea-level density
+$\rho = 0.0023769$ slug per cubic foot,
+
+$$V_{bg} = \sqrt{\frac{2 (W/S)}{\rho \, C_L^{\ast}}}, \qquad V_{bg}\big|_{7.94} = \sqrt{\frac{2 (7.94)}{(0.0023769)(0.784)}} = 92.3 \, \text{ft/s} = 62.9 \, \text{mph}, \qquad V_{bg}\big|_{6.0} = 80.2 \, \text{ft/s} = 54.7 \, \text{mph}$$
+
+At the 1,430 pound gross weight, a wing loading of 7.94 pounds per square foot, that is 62.9 miles per hour
+against a quoted 55.9, which is 13 percent adrift. The same sources quote a wing loading of 6.0 pounds per
+square foot, which over 180 square feet is 1,080 pounds and not the gross weight at all.
 **At that lighter weight the relation gives 54.7 miles per hour against the quoted 55.9, which is agreement to two percent.**
 The quoted performance is a one-pilot number, so the discrepancy at gross weight comes from pairing it with
 the wrong weight rather than from the aircraft.
 
-The wing itself, and what a large aspect ratio buys and costs, is [Robert Bartels and Kevin
-Jacobson][research_robert_bartels_kevin_jacobson], [Sibert 1943][research_sibert_1943], [Deyoung and Harper
-1948][research_deyoung_harper_1948], [Jones 1950, The spanwise distribution of lift][research_jones_1950],
-[Miles 1953][research_miles_1953], [Morton 1956][research_morton_1956], [Nonweiler
-1960][research_nonweiler_1960], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Farney and
-Fleharty 1969][research_farney_fleharty_1969], [Loth and Boyle 1969][research_loth_boyle_1969], [Hancock
-1972][research_hancock_1972], [Mamada and Ando 1974][research_mamada_ando_1974], [Sears
-1974][research_sears_1974], [Narayan 1975][research_narayan_1975], [Haftka 1977][research_haftka_1977],
-[Lundry 1977][research_lundry_1977], [Kida and Miyai 1978][research_kida_miyai_1978], [Pao and Lan
-1978][research_pao_lan_1978], [Bowers 1979][research_bowers_1979], [Deyoung 1979][research_deyoung_1979],
-[Kuhlman 1979][research_kuhlman_1979], [Bera† 1980][research_bera_1980], [Kida 1982][research_kida_1982],
-[Hanin and Barsony-Nagy 1983][research_hanin_barsony_nagy_1983], [Marchman and Abtahi
-1985][research_marchman_abtahi_1985], [Cole 1986][research_cole_1986], [R L Stallings Jr.
-1986][research_r_l_stallings_jr_1986], [Wilmott 1986][research_wilmott_1986], [Yeh and Plotkin
-1986][research_yeh_plotkin_1986], [Kuhlman and Liaw 1987][research_kuhlman_liaw_1987], [McCutchen
-1989][research_mccutchen_1989], [Rodden 1989][research_rodden_1989], [Sears 1990][research_sears_1990],
-[Smith and Kroo 1990][research_smith_kroo_1990], and the sailplane literature it belongs to is [Lippisch
+The wing itself, and what a large aspect ratio buys and costs, is the induced-drag literature cited above,
+and the sailplane literature it belongs to is [Lippisch
 1930][research_lippisch_1930], [The art of soaring 1939, The art of soaring flight.
 By][research_the_art_1939], [Turner 1942][research_turner_1942], [Klemin and Walling
 1943][research_klemin_walling_1943], [Shenstone 1946][research_shenstone_1946], [The Sailplane as a meteorological probe 1948][research_the_sailplane_1948], [Johnson 1949][research_johnson_1949], [Wiggi
@@ -217,23 +205,8 @@ $$\Delta \alpha = \frac{p \, y}{V}$$
 **That changes the local lift, and through the polar above it changes the local induced drag**, upward on
 the descending wing and downward on the ascending one.
 **Integrating a spanwise load distribution to get a force is the oldest machinery in the subject**,
-descending from lifting-line theory and the downwash it predicts, in [Robert Bartels and Kevin
-Jacobson][research_robert_bartels_kevin_jacobson], [Sibert 1943][research_sibert_1943], [Deyoung and Harper
-1948][research_deyoung_harper_1948], [Jones 1950, The spanwise distribution of lift][research_jones_1950],
-[Miles 1953][research_miles_1953], [Morton 1956][research_morton_1956], [Nonweiler
-1960][research_nonweiler_1960], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Farney and
-Fleharty 1969][research_farney_fleharty_1969], [Loth and Boyle 1969][research_loth_boyle_1969], [Hancock
-1972][research_hancock_1972], [Mamada and Ando 1974][research_mamada_ando_1974], [Sears
-1974][research_sears_1974], [Narayan 1975][research_narayan_1975], [Haftka 1977][research_haftka_1977],
-[Lundry 1977][research_lundry_1977], [Kida and Miyai 1978][research_kida_miyai_1978], [Pao and Lan
-1978][research_pao_lan_1978], [Bowers 1979][research_bowers_1979], [Deyoung 1979][research_deyoung_1979],
-[Kuhlman 1979][research_kuhlman_1979], [Bera† 1980][research_bera_1980], [Kida 1982][research_kida_1982],
-[Hanin and Barsony-Nagy 1983][research_hanin_barsony_nagy_1983], [Marchman and Abtahi
-1985][research_marchman_abtahi_1985], [Cole 1986][research_cole_1986], [R L Stallings Jr.
-1986][research_r_l_stallings_jr_1986], [Wilmott 1986][research_wilmott_1986], [Yeh and Plotkin
-1986][research_yeh_plotkin_1986], [Kuhlman and Liaw 1987][research_kuhlman_liaw_1987], [McCutchen
-1989][research_mccutchen_1989], [Rodden 1989][research_rodden_1989], [Sears 1990][research_sears_1990],
-[Smith and Kroo 1990][research_smith_kroo_1990]. Integrating the asymmetry across an elliptically loaded
+descending from lifting-line theory and the downwash it predicts, in the induced-drag literature cited
+above. Integrating the asymmetry across an elliptically loaded
 span gives the classical result,
 
 $$C_{n_p} = -\frac{C_L}{8}$$
@@ -333,54 +306,7 @@ $$C_{l_{\delta_a}} \delta_a + C_{l_p} \frac{pb}{2V} = 0 \quad \Longrightarrow \q
 
 **There is no speed in that expression and no span either.** The helix angle is fixed by the aileron power
 and the roll damping, both of which are shape properties, and both of which the period measured directly in
-tunnels and in flight, in [Marlyn Andino et al][research_marlyn_andino], [Higgins and Jacobs
-1928][research_higgins_jacobs_1928], [The Pearson Rotary Aileron 1930][research_the_pearson_1930], [Jennings
-1931][research_jennings_1931], [Soule and Wetmore 1933][research_soule_wetmore_1933], [Robert C Platt
-1935][research_robert_c_platt_1935], [Weick and Shortal 1935][research_weick_shortal_1935], [The
-Simplification of Lateral 1936][research_the_simplification_1936], [National Advisory Committee for Aeronautics report No. 570. The effect of lateral controls in producing motion of an airplane as computed from wind-tunnel data 1937][research_national_advisory_1937], [Pearson 1937][research_pearson_1937], [Platt and Shortal
-1937][research_platt_shortal_1937], [Bergen and Arnold 1940][research_bergen_arnold_1940], [Purser
-1941][research_purser_1941], [Wenzinger and Rogallo 1941][research_wenzinger_rogallo_1941], [Arnold
-1942][research_arnold_1942], [Phillips 1942][research_phillips_1942], [Kemp 1943][research_kemp_1943],
-[Krzywoblocki 1943][research_krzywoblocki_1943], [McKee 1943][research_mckee_1943], [Toll
-1943][research_toll_1943], [Becker and Korycinski 1944][research_becker_korycinski_1944], [Braslow
-1944][research_braslow_1944], [Christophersen and Spahr 1944][research_christophersen_spahr_1944], [Luoma
-1944][research_luoma_1944], [Murray and Warren 1944][research_murray_warren_1944], [Rosenberg
-1944][research_rosenberg_1944], [Ivey 1945][research_ivey_1945], [Thomson 1946][research_thomson_1946],
-[Bennett and Johnson 1947][research_bennett_johnson_1947], [Deters and Russell 1947, Investigation of a
-Spoiler-Type][research_deters_russell_1947], [Deters and Russell 1947, Investigation of the Aileron
-and][research_deters_russell_1947_2], [Fischel and Schneiter 1947][research_fischel_schneiter_1947],
-[Schneiter and Watson 1948][research_schneiter_watson_1948], [Braslow and Visconti
-1949][research_braslow_visconti_1949], [Lovell and Stassi 1950][research_lovell_stassi_1950], [Dennis and
-Scherrer 1951][research_dennis_scherrer_1951], [Spearman and Webster 1951][research_spearman_webster_1951],
-[Abichandani and Rosenberg 1952][research_abichandani_rosenberg_1952], [Altman 1952][research_altman_1952],
-[Goland 1952][research_goland_1952], [R G MacLeod 1952][research_r_g_macleod_1952], [Runyan et al
-1952][research_runyan_1952], [Cancro 1953][research_cancro_1953], [Hunn 1953][research_hunn_1953], [Wiley
-and Taylor 1954][research_wiley_taylor_1954], [Croom and Huffman 1957][research_croom_huffman_1957],
-[Childress 1958][research_childress_1958], [Fink 1961][research_fink_1961], [Eckhaus
-1962][research_eckhaus_1962], [Regan 1964][research_regan_1964], [Strelkov and Kharlamov
-1967][research_strelkov_kharlamov_1967], [Walchner 1969, Laminar hypersonic roll
-damping][research_walchner_1969_2], [Walchner et al 1969, Hypersonic Wind Tunnel][research_walchner_1969],
-[D. L. Birdsall 1970][research_d_l_birdsall_1970], [Boyden 1971][research_boyden_1971], [Crenshaw
-1971][research_crenshaw_1971], [Huzita 1971][research_huzita_1971], [Cliff and Lutze
-1972][research_cliff_lutze_1972], [Hall and Boothe 1972][research_hall_boothe_1972], [MACKlNNON and Madden
-1972, Performance Limits of a][research_macklnnon_madden_1972], [Madden 1972][research_madden_1972],
-[Nazarenko and Nevezhina 1972][research_nazarenko_nevezhina_1972], [Esparza 1975][research_esparza_1975],
-[Stengel 1975][research_stengel_1975], [James and Vaughn 1976][research_james_vaughn_1976], [Paulson
-1976][research_paulson_1976], [Shinar and Merhav 1976][research_shinar_merhav_1976], [Hopkins and Lovette
-1977][research_hopkins_lovette_1977], [Kohlman 1977][research_kohlman_1977], [Weisshaar
-1977][research_weisshaar_1977], [Moul and Brown 1979][research_moul_brown_1979], [Kelly and Brown
-1980][research_kelly_brown_1980], [Steger and Bailey 1980][research_steger_bailey_1980], [Jacobs and
-Bartlett 1981][research_jacobs_bartlett_1981], [Kelley and Enevoldson
-1981][research_kelley_enevoldson_1981], [Molchanov 1981][research_molchanov_1981], [Murthy
-1982][research_murthy_1982], [Nagaraja et al 1982][research_nagaraja_1982], [Soovere
-1982][research_soovere_1982], [Chalk 1983][research_chalk_1983], [Jacobs 1983][research_jacobs_1983],
-[Sekaran 1983][research_sekaran_1983], [Gregorek 1984][research_gregorek_1984], [Eastman
-1986][research_eastman_1986], [Gu 1986][research_gu_1986], [Shandling and Platus
-1986][research_shandling_platus_1986], [Subsonic and transonic roll damping measurements on Basic Finner 1986][research_subsonic_and_1986],
-[Tavella et al 1987][research_tavella_1987], [Pushtaev 1989][research_pushtaev_1989], [Mao and
-Zhao 1990][research_mao_zhao_1990], [Weisshaar 1990][research_weisshaar_1990], [Rao
-1992][research_rao_1992], [Arena et al 1993][research_arena_1993], [Gregorek 1995][research_gregorek_1995],
-[Duerksen 1997][research_duerksen_1997]. The roll rate therefore
+tunnels and in flight, in the roll-response literature cited above. The roll rate therefore
 follows,
 
 $$p = \frac{pb}{2V} \cdot \frac{2V}{b}$$
@@ -390,7 +316,6 @@ of that rate, so the time to reach a given attitude is
 
 $$t = \frac{\phi}{p} = \frac{\phi \, b}{2 V \left( pb/2V \right)}$$
 
-**A long span therefore rolls slowly**, and the time to reach a given bank angle is correspondingly long.
 Taking the X-26A at 60 miles per hour and a generic jet trainer at 300, with **every jet quantity assumed**,
 
 | | X-26A | jet trainer, assumed |
@@ -450,39 +375,8 @@ not a refinement.
 $$V_{stall} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L_{max}}}}$$
 
 **This cannot be predicted, because the maximum lift coefficient is not known**, and what a given section
-will actually reach is a measured quantity and not a derived one, in [Robert Bartels and Kevin
-Jacobson][research_robert_bartels_kevin_jacobson], [Sibert 1943][research_sibert_1943], [Deyoung and Harper
-1948][research_deyoung_harper_1948], [Jones 1950, The spanwise distribution of lift][research_jones_1950],
-[Miles 1953][research_miles_1953], [Morton 1956][research_morton_1956], [Nonweiler
-1960][research_nonweiler_1960], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Farney and
-Fleharty 1969][research_farney_fleharty_1969], [Loth and Boyle 1969][research_loth_boyle_1969], [Hancock
-1972][research_hancock_1972], [Mamada and Ando 1974][research_mamada_ando_1974], [Sears
-1974][research_sears_1974], [Narayan 1975][research_narayan_1975], [Haftka 1977][research_haftka_1977],
-[Lundry 1977][research_lundry_1977], [Kida and Miyai 1978][research_kida_miyai_1978], [Pao and Lan
-1978][research_pao_lan_1978], [Bowers 1979][research_bowers_1979], [Deyoung 1979][research_deyoung_1979],
-[Kuhlman 1979][research_kuhlman_1979], [Bera† 1980][research_bera_1980], [Kida 1982][research_kida_1982],
-[Hanin and Barsony-Nagy 1983][research_hanin_barsony_nagy_1983], [Marchman and Abtahi
-1985][research_marchman_abtahi_1985], [Cole 1986][research_cole_1986], [R L Stallings Jr.
-1986][research_r_l_stallings_jr_1986], [Wilmott 1986][research_wilmott_1986], [Yeh and Plotkin
-1986][research_yeh_plotkin_1986], [Kuhlman and Liaw 1987][research_kuhlman_liaw_1987], [McCutchen
-1989][research_mccutchen_1989], [Rodden 1989][research_rodden_1989], [Sears 1990][research_sears_1990],
-[Smith and Kroo 1990][research_smith_kroo_1990] and [Lippisch 1930][research_lippisch_1930], [The art of
-soaring 1939, The art of soaring flight. By][research_the_art_1939], [Turner 1942][research_turner_1942],
-[Klemin and Walling 1943][research_klemin_walling_1943], [Shenstone 1946][research_shenstone_1946], [The
-Sailplane as a 1948][research_the_sailplane_1948], [Johnson 1949][research_johnson_1949], [Wiggi
-1949][research_wiggi_1949], [Yates 1949][research_yates_1949], [Reussner 1950][research_reussner_1950],
-[Raspet 1952][research_raspet_1952], [Reussner 1953][research_reussner_1953], [Brown
-1954][research_brown_1954], [MacCready 1962][research_maccready_1962], [Quinn 1963][research_quinn_1963],
-[Ryan Aeronautical Co San Diego Ca 1963][research_ryan_aeronautical_co_san_diego_ca_1963], [Sailplane Trip
-Difficult 1963][research_sailplane_trip_1963], [Pennycuick 1972][research_pennycuick_1972], [McMasters and
-Palmer 1975][research_mcmasters_palmer_1975], [Pierson 1977][research_pierson_1977], [Bennett 1978, Pilot evaluation of sailplane][research_bennett_1978],
-[McMasters 1979][research_mcmasters_1979], [Muser 1979][research_muser_1979], [Pierson and Chen 1979,
-Minimum Altitude-Loss Soaring in][research_pierson_chen_1979], [Pierson and Chen 1979, Minimum
-Landing-Approach Distance][research_pierson_chen_1979_2], [Sliwa and Sliwa 1979][research_sliwa_sliwa_1979],
-[Turriziani 1979][research_turriziani_1979], [Janzen and Precourt 1989][research_janzen_precourt_1989],
-[Robert G Hoey 1992][research_robert_g_hoey_1992], [Allen 2006][research_allen_2006], [Allen
-2007, Guidance and Control of an][research_allen_2007], [Allen 2007, Guidance and Control of
-an][research_allen_2007_2], [Lin 2007][research_lin_2007]. The relation is therefore inverted instead. The
+will actually reach is a measured quantity and not a derived one, in the induced-drag and sailplane
+literature cited above. The relation is therefore inverted instead. The
 quoted 46 mile per hour stall implies
 
 $$C_{L_{max}} = \frac{2 (W/S)}{\rho V_{stall}^2} = 1.11$$
@@ -493,9 +387,13 @@ which is a third piece of evidence that the quoted performance figures belong to
 agreeing with what the glide speed already suggested.
 
 Taking the light-weight value, the 60 mile per hour training case sits about thirty percent above the stall,
-**which is close enough to make the phenomenon large and far enough to make it safe.** Flown at the stall
-itself the sideslip would be about half again as large, and unrecoverable inattention would cost rather more
-than a lesson.
+**which is close enough to make the phenomenon large and far enough to make it safe.** At a fixed weight the
+sideslip scales as $C_L$ and therefore as $1/V^2$, so
+
+$$\frac{V}{V_{stall}} = \frac{60}{46} = 1.30, \qquad \frac{\beta_{stall}}{\beta_{60}} = \left( \frac{60}{46} \right)^2 = 1.70$$
+
+Flown at the stall itself the sideslip would be about seventy percent larger, and unrecoverable inattention
+would cost rather more than a lesson.
 
 **Neither aircraft is more badly behaved than the other in any dimensionless sense.** They are the same
 physics. The sailplane simply runs it slowly and at large amplitude, which is the entire pedagogical
@@ -553,12 +451,7 @@ $$10 \log_{10} \frac{1}{0.877} = 0.57 \text{ dB}$$
 **Half a decibel. The loiter speed was chosen for endurance and not for quiet.** An engine asked for a fifth
 of its rating can be throttled deep, wrapped in mufflers that would strangle it at full power, and geared
 down to a large slow propeller. **None of that is available to an aircraft that needs its engine.** The
-performance literature is [Rice 1946][research_rice_1946], [Hanks 1956][research_hanks_1956], [Kitts and Lucas
-1963][research_kitts_lucas_1963], [Bogdanovic et al
-1965][research_bogdanovic_1965], [Finnestead and Antoniou 1965][research_finnestead_antoniou_1965], [Bert
-1981][research_bert_1981], [Laine 1982][research_laine_1982], [Torenbeek and Wittenberg
-1983][research_torenbeek_wittenberg_1983], [Ross 1984][research_ross_1984], [Hall and Rogan
-1988][research_hall_rogan_1988], [Hall and Rogan 1989][research_hall_rogan_1989] and the silencing practice
+silencing practice
 is [Ohta 1935][research_ohta_1935], [Nelson 1938][research_nelson_1938], [Czarnecki and Davis
 1948][research_czarnecki_davis_1948], [Davis et al 1953][research_davis_1953], [Stokes and Davis
 1953][research_stokes_davis_1953], [Tyler and Towle 1955][research_tyler_towle_1955], [Dyer
@@ -591,7 +484,7 @@ $$I = \frac{W_{ac}}{4 \pi r^2}$$
 **Intensity goes as the inverse square of range and pressure as the inverse first power**, which is where
 the twenty in front of the logarithm comes from rather than a ten.
 
-Sound from a compact source spreads over a sphere, so the level falls with the logarithm of distance,
+The level therefore falls with the logarithm of distance,
 
 $$\text{SPL}(r) = \text{SPL}(r_0) - 20 \log_{10} \frac{r}{r_0}$$
 
@@ -689,8 +582,12 @@ The aircraft was detectable at 750 feet and missions were flown no lower than 80
 ground at all, so the 800 foot floor is exactly the rule that the sphere must stay clear of the listener,
 with fifty feet of margin.
 
-**The aircraft's usable altitude is set by how quiet the night is, and not by the aircraft alone.** A five
-decibel change in ambient moves the detection range by 78 percent.
+**The aircraft's usable altitude is set by how quiet the night is, and not by the aircraft alone.** From the
+range relation above, a change $\Delta L_{amb}$ in ambient scales the detection range by
+
+$$\frac{r_{max}(L_{amb} - \Delta L_{amb})}{r_{max}(L_{amb})} = 10^{\Delta L_{amb}/20} = 10^{5/20} = 1.78$$
+
+so a five decibel change in ambient moves the detection range by 78 percent.
 **The specification was always partly about the weather.** Detection as a subject is [Schriever
 1952][research_schriever_1952], [Bellucci 1963][research_bellucci_1963], [Chew and Chapin
 1963][research_chew_chapin_1963], [Ollerhead
@@ -702,40 +599,15 @@ decibel change in ambient moves the detection range by 78 percent.
 
 ### Why the Simple Model Is the Right One
 
-**Atmospheric absorption is strongly frequency dependent and is negligible here**, which the article states
-plainly so that a reader does not have to wonder what was neglected. A slow propeller radiates at low
+**Atmospheric absorption is strongly frequency dependent and is negligible here.** A slow propeller
+radiates at low
 frequency,
 
 $$f = \frac{N_b \, \text{rpm}}{60}$$
 
 which for four blades at 1,000 revolutions per minute is 67 hertz.
 **How much sound the air itself absorbs, and how strongly that depends on frequency and humidity, is a measured subject with a long history**,
-in [Stenzel 1947][research_stenzel_1947], [Groves 1955][research_groves_1955], [Nyborg and Mintzer
-1955][research_nyborg_mintzer_1955], [Groves 1956, Introductory theory for upper][research_groves_1956_2],
-[Groves 1956, Theory of the rocket-grenade][research_groves_1956], [Sabine and Burkhard
-1959][research_sabine_burkhard_1959], [Takeya and Okumoto 1959][research_takeya_okumoto_1959], [Mechel
-1962][research_mechel_1962], [Pridmore-Brown 1962][research_pridmore_brown_1962], [Diamond
-1963][research_diamond_1963], [Mechel et al 1963][research_mechel_1963], [Bolt Beranek And Newman Inc
-Cambridge Ma 1964][research_bolt_beranek_and_newman_inc_cambridge_ma_1964], [Diamond and Lee
-1965][research_diamond_lee_1965], [Pena and Diamond 1965][research_pena_diamond_1965], [Polly 1969][research_polly_1969], [Burrin 1970][research_burrin_1970], [Doak
-and Vaidya 1970][research_doak_vaidya_1970], [Cole and Dobbins 1971][research_cole_dobbins_1971], [Pao and
-Evans 1971][research_pao_evans_1971], [Bass et al 1972][research_bass_1972], [Evans et al 1972, Atmospheric Absorption of Sound][research_evans_1972],
-[Evans et al 1972, Atmospheric Absorption of Sound][research_evans_1972_2], [Kriebel
-1972][research_kriebel_1972], [Tester 1973, Ray models for sound propagation][research_tester_1973_2],
-[Tester 1973, The propagation and attenuation][research_tester_1973], [Davidson
-1975][research_davidson_1975], [DeLoach 1975][research_deloach_1975], [Evans 1975][research_evans_1975],
-[Bass 1976, Study of Sound Propagation in Air][research_bass_1976_2], [Lee
-and Sutherland 1976][research_lee_sutherland_1976], [André 1977][research_andre_1977], [Shields and Bass
-1977][research_shields_bass_1977], [Yamashita and Matsui 1978][research_yamashita_matsui_1978], [Foss
-1979][research_foss_1979], [Soom and Gu 1981][research_soom_gu_1981], [Rasmussen 1986][research_rasmussen_1986], [Richards and Attenborough
-1986][research_richards_attenborough_1986], [Wolf and Raspet 1986][research_wolf_raspet_1986], [Almgren
-1987][research_almgren_1987], [Weslet and Sutherland
-1987][research_weslet_sutherland_1987], [Zorumski and Willshire 1989][research_zorumski_willshire_1989],
-[Albert 1990][research_albert_1990], [Bass et al 1990][research_bass_1990], [Canard-Caruana et al
-1990][research_canard_caruana_1990], [Rasmussen 1990][research_rasmussen_1990], [Sutherland and Wesler
-1990][research_sutherland_wesler_1990], [Willshire 1990][research_willshire_1990], [Mungiole and Wilson 2003][research_mungiole_wilson_2003], [Ostashev and Goedecke
-2005][research_ostashev_goedecke_2005], [Plotkin and Shepherd
-2006][research_plotkin_shepherd_2006].
+in the propagation literature cited above.
 Absorption accumulates linearly with distance at a coefficient that rises steeply with frequency,
 
 $$L_{abs} = \alpha \, r$$
@@ -798,13 +670,9 @@ noise][research_pope_1987_2], [Amiet 1988][research_amiet_1988], [Chapman 1988][
 1990][research_eversman_1990], [Salikuddin et al
 1990, Application of active noise][research_salikuddin_1990], [Dittmar and Hall
 1991][research_dittmar_hall_1991], [McCurdy 1991][research_mccurdy_1991], [Envia 1992][research_envia_1992],
-[Donald B Hanson and David J Parzych 1993][research_donald_b_hanson_david_j_parzych_1993] and [Rice
-1946][research_rice_1946], [Hanks
-1956][research_hanks_1956], [Kitts and Lucas 1963][research_kitts_lucas_1963], [Bogdanovic et al 1965][research_bogdanovic_1965], [Finnestead and Antoniou
-1965][research_finnestead_antoniou_1965], [Bert 1981][research_bert_1981], [Laine
-1982][research_laine_1982], [Torenbeek and Wittenberg 1983][research_torenbeek_wittenberg_1983], [Ross
-1984][research_ross_1984], [Hall and Rogan 1988][research_hall_rogan_1988], [Hall and Rogan
-1989][research_hall_rogan_1989]. The advance ratio compares forward speed to blade speed,
+[Donald B Hanson and David J Parzych 1993][research_donald_b_hanson_david_j_parzych_1993] and the
+performance literature cited under best glide and minimum power. The advance ratio compares forward speed
+to blade speed,
 
 $$J = \frac{V}{n D}$$
 
@@ -824,43 +692,7 @@ falling from 0.76 to 0.40 between the two installations.
 **That the limit moves to the exhaust and the airframe is easy to assert and worth showing.**
 **Separating an aircraft's total noise into its components, and then deciding which one to attack, is a discipline of its own**,
 and one the period developed precisely because engine quieting kept running into airframe and propeller
-floors, in [Howard and Lewis 1955][research_howard_lewis_1955], [Tolhurst 1957][research_tolhurst_1957],
-[PORTSMOUTH NAVAL SHIPYARD FACILITIES FOR NOISE MEASUREMENT AND REDUCTION 1964][research_portsmouth_naval_shipyard_nh_1964], [Bolt Beranek And Newman
-Inc Los Angeles Ca 1965][research_bolt_beranek_and_newman_inc_los_angeles_ca_1965], [Moreland Jr. et al
-1965][research_moreland_jr_1965], [Kryter 1966][research_kryter_1966], [Kryter 1967][research_kryter_1967],
-[Lauber 1967][research_lauber_1967], [Sawyer 1967][research_sawyer_1967], [Spencer et al
-1969][research_spencer_1969], [Oncley 1970][research_oncley_1970], [Thorpe 1970][research_thorpe_1970],
-[Lyon and Pande 1971][research_lyon_pande_1971], [Muller 1971][research_muller_1971], [Schairer et al
-1971][research_schairer_1971], [Webster 1971][research_webster_1971], [McPIKE 1972][research_mcpike_1972],
-[Ollerhead 1973][research_ollerhead_1973], [Alexandre and Barde 1974][research_alexandre_barde_1974], [Pegg
-et al 1974][research_pegg_1974], [Reddingius 1974][research_reddingius_1974], [Williams
-1974][research_williams_1974], [Abrahamson 1975][research_abrahamson_1975], [Ko 1975, Aircraft noise in a
-high-rise][research_ko_1975], [Large 1975][research_large_1975], [Morgan and Hardin
-1975][research_morgan_hardin_1975], [Moses and Zeitlin 1975][research_moses_zeitlin_1975], [Putnam
-1975][research_putnam_1975], [Raney 1975][research_raney_1975], [Shahady 1975][research_shahady_1975],
-[Wilkerson 1975][research_wilkerson_1975], [Dickinson 1976][research_dickinson_1976], [Hosier
-1976][research_hosier_1976], [McPike 1976][research_mcpike_1976], [Schwartz 1976][research_schwartz_1976], [Curtis 1977][research_curtis_1977], [Hosier
-1977][research_hosier_1977], [Jeffery et al 1977][research_jeffery_1977], [Morfey and Tester
-1977][research_morfey_tester_1977], [Odell 1977][research_odell_1977], [Zorumski
-1977][research_zorumski_1977], [Chessell 1978][research_chessell_1978], [Nishinomiya et al
-1978][research_nishinomiya_1978], [Rehm and Jansen 1978][research_rehm_jansen_1978], [Speakman et al
-1978][research_speakman_1978], [Tarnopolsky 1978][research_tarnopolsky_1978], [Aircraft Noise Monitoring
-1979][research_aircraft_noise_1979], [Crighton 1979][research_crighton_1979], [Dickinson
-1979][research_dickinson_1979], [Ko 1979][research_ko_1979], [Schultz 1979][research_schultz_1979],
-[Willshire and Hilton 1979][research_willshire_hilton_1979], [Aircraft Noise Assessment
-1980][research_aircraft_noise_1980], [Bauermeister and Donner 1980][research_bauermeister_donner_1980],
-[Holger 1980][research_holger_1980], [Clark 1981][research_clark_1981], [Galloway and Bennett
-1981][research_galloway_bennett_1981], [Marsh 1981][research_marsh_1981], [Morfey and Howell
-1981][research_morfey_howell_1981], [Vulkan and Hyde 1981][research_vulkan_hyde_1981], [Knowd
-1982][research_knowd_1982], [Ruijgrok 1983][research_ruijgrok_1983], [Willshire
-1983][research_willshire_1983], [McCurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
-[Yeow 1984][research_yeow_1984], [Melton 1985][research_melton_1985], [Raw and Griffiths
-1985][research_raw_griffiths_1985], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987],
-[Ali 1989][research_ali_1989], [Fidell et al 1989, Initial
-Development of an][research_fidell_1989_2], [Fidell et al 1989, Noise and Sonic Boom
-Impact][research_fidell_1989], [McCurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
-[Kelly 1993][research_kelly_1993], [Fidell et al
-1998][research_fidell_1998]. Independent sources add in power rather than
+floors, in the flyover-measurement literature cited above. Independent sources add in power rather than
 in pressure,
 
 $$L_{total} = 10 \log_{10} \sum_i 10^{L_i / 10}$$
@@ -880,69 +712,7 @@ decibels above everything else combined.
 more, because the floor is set by the other sources.
 **Beyond about fifteen decibels of propeller work the total stops moving**, which is the quantitative form
 of a statement that is otherwise only an intuition. Exhaust, airframe and transmission noise all become the
-limit as soon as the propeller stops dominating. The propeller acoustics literature is [Austin D. Thai et
-al][research_austin_d_thai], [Deming 1937][research_deming_1937], [Regier and Hubbard
-1953][research_regier_hubbard_1953], [Loewy and Sutton 1966][research_loewy_sutton_1966], [Trillo
-1966][research_trillo_1966], [Healy 1969][research_healy_1969], [Chanaud 1972][research_chanaud_1972],
-[Catherines and Mayes 1975][research_catherines_mayes_1975], [Maglieri and Hubbard
-1975][research_maglieri_hubbard_1975], [Metzger et al 1976][research_metzger_1976], [Dittmar
-1977][research_dittmar_1977], [Hanson and Fink 1978][research_hanson_fink_1978], [Hanson and Fink
-1979][research_hanson_fink_1979], [Farassat and Succi 1980][research_farassat_succi_1980], [Ruijgrok
-1980][research_ruijgrok_1980], [Runyan 1980][research_runyan_1980], [Succi 1981][research_succi_1981],
-[Johnston and Donham 1982][research_johnston_donham_1982], [Šulc et al 1982][research_sulc_1982], [Hanson
-1983][research_hanson_1983], [Hanson 1985][research_hanson_1985], [Hanson and Magliozzi
-1985][research_hanson_magliozzi_1985], [McCurdy 1985][research_mccurdy_1985], [Block
-1986][research_block_1986], [Lester and Fuller 1986][research_lester_fuller_1986], [Fuller and Jones
-1987][research_fuller_jones_1987], [Kallergis 1987][research_kallergis_1987], [Pope et al 1987, Propeller
-aircraft interior noise][research_pope_1987], [Pope et al 1987, Propeller aircraft interior
-noise][research_pope_1987_2], [Amiet 1988][research_amiet_1988], [Chapman 1988][research_chapman_1988],
-[Unruh 1988][research_unruh_1988], [Dittmar 1989, Comparison of propeller cruise][research_dittmar_1989],
-[Dittmar 1989, Cruise noise of the SR-2][research_dittmar_1989_2], [Elliott et al
-1989][research_elliott_1989], [Nallasamy et al 1989][research_nallasamy_1989], [Parry and Crighton
-1989][research_parry_crighton_1989], [Pla et al 1989][research_pla_1989], [Salikuddin and Ahuja
-1989][research_salikuddin_ahuja_1989], [Unruh 1989][research_unruh_1989], [Bullmore et al
-1990][research_bullmore_1990], [Elliot et al 1990][research_elliot_1990], [Eversman
-1990][research_eversman_1990], [Salikuddin et al
-1990, Application of active noise][research_salikuddin_1990], [Dittmar and Hall
-1991][research_dittmar_hall_1991], [McCurdy 1991][research_mccurdy_1991], [Envia 1992][research_envia_1992],
-[Donald B Hanson and David J Parzych 1993][research_donald_b_hanson_david_j_parzych_1993] and the wider
-aircraft-noise field is [Howard and Lewis 1955][research_howard_lewis_1955], [Tolhurst
-1957][research_tolhurst_1957], [PORTSMOUTH NAVAL SHIPYARD FACILITIES FOR NOISE MEASUREMENT AND REDUCTION 1964][research_portsmouth_naval_shipyard_nh_1964], [Bolt Beranek And Newman Inc Los Angeles Ca
-1965][research_bolt_beranek_and_newman_inc_los_angeles_ca_1965], [Moreland Jr. et al
-1965][research_moreland_jr_1965], [Kryter 1966][research_kryter_1966], [Kryter 1967][research_kryter_1967],
-[Lauber 1967][research_lauber_1967], [Sawyer 1967][research_sawyer_1967], [Spencer et al
-1969][research_spencer_1969], [Oncley 1970][research_oncley_1970], [Thorpe 1970][research_thorpe_1970],
-[Lyon and Pande 1971][research_lyon_pande_1971], [Muller 1971][research_muller_1971], [Schairer et al
-1971][research_schairer_1971], [Webster 1971][research_webster_1971], [McPIKE 1972][research_mcpike_1972],
-[Ollerhead 1973][research_ollerhead_1973], [Alexandre and Barde 1974][research_alexandre_barde_1974], [Pegg
-et al 1974][research_pegg_1974], [Reddingius 1974][research_reddingius_1974], [Williams
-1974][research_williams_1974], [Abrahamson 1975][research_abrahamson_1975], [Ko 1975, Aircraft noise in a
-high-rise][research_ko_1975], [Large 1975][research_large_1975], [Morgan and Hardin
-1975][research_morgan_hardin_1975], [Moses and Zeitlin 1975][research_moses_zeitlin_1975], [Putnam
-1975][research_putnam_1975], [Raney 1975][research_raney_1975], [Shahady 1975][research_shahady_1975],
-[Wilkerson 1975][research_wilkerson_1975], [Dickinson 1976][research_dickinson_1976], [Hosier
-1976][research_hosier_1976], [McPike 1976][research_mcpike_1976], [Schwartz 1976][research_schwartz_1976], [Curtis 1977][research_curtis_1977], [Hosier
-1977][research_hosier_1977], [Jeffery et al 1977][research_jeffery_1977], [Morfey and Tester
-1977][research_morfey_tester_1977], [Odell 1977][research_odell_1977], [Zorumski
-1977][research_zorumski_1977], [Chessell 1978][research_chessell_1978], [Nishinomiya et al
-1978][research_nishinomiya_1978], [Rehm and Jansen 1978][research_rehm_jansen_1978], [Speakman et al
-1978][research_speakman_1978], [Tarnopolsky 1978][research_tarnopolsky_1978], [Aircraft Noise Monitoring
-1979][research_aircraft_noise_1979], [Crighton 1979][research_crighton_1979], [Dickinson
-1979][research_dickinson_1979], [Ko 1979][research_ko_1979], [Schultz 1979][research_schultz_1979],
-[Willshire and Hilton 1979][research_willshire_hilton_1979], [Aircraft Noise Assessment
-1980][research_aircraft_noise_1980], [Bauermeister and Donner 1980][research_bauermeister_donner_1980],
-[Holger 1980][research_holger_1980], [Clark 1981][research_clark_1981], [Galloway and Bennett
-1981][research_galloway_bennett_1981], [Marsh 1981][research_marsh_1981], [Morfey and Howell
-1981][research_morfey_howell_1981], [Vulkan and Hyde 1981][research_vulkan_hyde_1981], [Knowd
-1982][research_knowd_1982], [Ruijgrok 1983][research_ruijgrok_1983], [Willshire
-1983][research_willshire_1983], [McCurdy 1984][research_mccurdy_1984], [Taylor 1984][research_taylor_1984],
-[Yeow 1984][research_yeow_1984], [Melton 1985][research_melton_1985], [Raw and Griffiths
-1985][research_raw_griffiths_1985], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987],
-[Ali 1989][research_ali_1989], [Fidell et al 1989, Initial
-Development of an][research_fidell_1989_2], [Fidell et al 1989, Noise and Sonic Boom
-Impact][research_fidell_1989], [McCurdy 1989][research_mccurdy_1989], [Peart 1991][research_peart_1991],
-[Kelly 1993][research_kelly_1993], [Fidell et al
-1998][research_fidell_1998].
+limit as soon as the propeller stops dominating.
 
 ### What It Gave Up to Carry an Engine
 
@@ -955,9 +725,13 @@ $$V_{sink} = \frac{P}{W} = \frac{V}{L/D}$$
 **Written that way it supplies a second and independent check on the polar.** Minimum sink is the
 minimum-power condition derived above, not the best-glide one.
 
-Evaluating at the minimum-power point and the light weight gives
-**129 feet per minute at 42 miles per hour, against a quoted 124 at 46**. That is 4 percent in sink rate and
-10 percent in speed,
+Evaluating at the minimum-power point and the light weight, with the best-glide speed of 54.7 miles per hour
+and the lift-to-drag ratio of 32.7 found above,
+
+$$V_{mp} = 0.760 \times 54.7 = 41.6 \, \text{mph} = 61.0 \, \text{ft/s}, \qquad V_{sink} = \frac{61.0}{(0.866)(32.7)} = 2.16 \, \text{ft/s} = 129 \, \text{ft/min}$$
+
+which is **129 feet per minute at 42 miles per hour, against a quoted 124 at 46**. That is 4 percent in sink
+rate and 10 percent in speed,
 **from the same two assumed parameters that produced the glide ratio and without any further fitting**. The
 glide ratio and the minimum sink are independent quoted numbers, so reproducing both from one polar is worth
 more than reproducing either alone.
@@ -988,7 +762,8 @@ airframe answers and the sensors were carried rather than enabled by it.
 
 **The two halves of this designation have very unequal records.**
 
-The X-26A flew at the Naval Test Pilot School from the late 1960s and remained in the syllabus for decades.
+The X-26A flew at the Naval Test Pilot School from the late 1960s and remained in the syllabus for decades,
+and the Navy's product page still lists it as operational, with [two in the inventory][ref_navair_x26a].
 **Its record is a curriculum rather than a test report**, and the flying-qualities teaching tradition it
 sits in is [Loran Haworth et al][research_loran_haworth], [Michael Feary][research_michael_feary], [Peter
 Zaal et al][research_peter_zaal], [Brewer 1946][research_brewer_1946], [Huff and W. W.
@@ -1071,17 +846,24 @@ Room][research_air_force_flight_test_center_edwards_afb_ca_2002], [Mitchell et a
 2003][research_mitchell_2003], [Robert E Lee 2005][research_robert_e_lee_2005], [Bailey et al
 2009][research_bailey_2009], [Bilimoria et al 2009][research_bilimoria_2009].
 
-The QT-2PC record is short, specific and much better documented as history. Two aircraft reached the Army
-airfield at Soc Trang in the Mekong Delta on 22 January 1968 and began operations almost immediately, flying
-**591 hours of night surveillance between 24 January and 24 March 1968** under the Prize Crew evaluation.
-They were detectable at 750 feet against a specification of 1,500, missions were flown no lower than 800
-feet, and en route altitudes were generally 1,200 to 1,500.
+The QT-2PC record is short, specific and much better documented as history. In Polmar's account in
+[Naval History][ref_polmar_2017], two aircraft reached the Army airfield at Soc Trang in the Mekong Delta on
+22 January 1968 and began operations almost immediately, flying **591 hours of night surveillance between
+24 January and 24 March 1968** under the [Prize Crew evaluation][ref_x26]. In Albertson's account in
+[Army Aviation][ref_albertson_2015], repeated passes over the airfield at decreasing altitude found the
+aircraft first heard at 750 feet, against a [specification of 1,500][ref_yo3a], so missions were flown no
+lower than 800 feet and en route altitudes were generally 1,200 to 1,500.
 
 **The aircraft missed its acoustic specification by 6 decibels, which is one doubling of distance.** That is
-a small miss for a first article, and it is why the programme continued rather than stopping. The two
-aircraft returned to the Test Pilot School in 1969 and were redesignated X-26B. Lockheed carried the work
-forward through the Q-Star to eleven pre-production [YO-3A][ref_yo3a] aircraft, which operated in Southeast
-Asia from mid-1969 to late 1971.
+a small miss for a first article, and the Army awarded Lockheed a [YO-3A production contract in July
+1968][ref_polmar_2017] on the strength of it. The two aircraft returned to the Test Pilot School in 1969 and
+were [redesignated X-26B][ref_x26]. Lockheed carried the work forward through the Q-Star to the
+[YO-3A][ref_yo3a].
+**The YO-3A's numbers and dates differ between accounts.** The X-26 summary gives
+[eleven pre-production aircraft operating in Southeast Asia from mid-1969 to late 1971][ref_x26], the YO-3A
+summary gives [eleven built, nine of which operated in South Vietnam from late June 1970 to September
+1971][ref_yo3a], and Polmar gives [fourteen ordered, thirteen of them shipped to Vietnam in early
+1970][ref_polmar_2017]. The range all three support is operation in Vietnam during 1970 and 1971.
 
 **Two research records cited here name a Schweizer aircraft or the YO-3A in their titles, and one of them is the only primary flight-test document in the lineage**,
 being the Army's preliminary evaluation of the YO-3A, in [Condon et al 1970][research_condon_1970], [Kehoe
@@ -1097,8 +879,9 @@ percent from an assumed drag coefficient and an assumed span efficiency, and
 **a model with two free parameters that lands within seven percent has demonstrated very little.** It is
 reported because it is a consistency check on the geometry, not because it is evidence.
 
-**The reconciliation of the quoted glide speed is worth more.** The relation and the quoted 55.9 miles per
-hour disagree by 13 percent at gross weight and agree to two percent at the one-pilot weight.
+**The reconciliation of the quoted glide speed is worth more.** The best-glide speed relation under The One
+Relation and the quoted 55.9 miles per hour disagree by 13 percent at gross weight and agree to two percent
+at the one-pilot weight.
 **That is a case where the model and the sources are both right and the conflict lies only in pairing a speed with the wrong weight**, and it is
 the more useful of the two checks because it resolved an apparent conflict rather than confirming an
 expected agreement.
@@ -1107,7 +890,7 @@ expected agreement.
 calibrated backwards out of the one reported detection distance, so the detection-range table reproduces
 that distance **by construction and not by prediction**. It has no independent confirmation. What it does
 provide is the sensitivity, and the sensitivity is the finding.
-**The detection range moves 78 percent for a 5 decibel change in ambient, so the aircraft's usable altitude was never a property of the aircraft alone.**
+**The detection range moves 78 percent for a 5 decibel change in ambient, by the range ratio under What Quiet Means, so the aircraft's usable altitude was never a property of the aircraft alone.**
 
 ## What the Data Changed
 
@@ -1196,7 +979,9 @@ methods][research_kumar_ghosh_2023_2], [Shi et al 2023, Parameter Identification
 ### Quiet Flight, Attempted Again
 
 **Electric propulsion has revived the quiet aircraft as a serious objective**, this time for community
-acceptability rather than concealment, in [Chen et al 2015, A microphone position
+acceptability rather than concealment, and that has turned the subject from a physical one into a partly
+perceptual one. Psychoacoustic annoyance metrics, community response and the acoustic design of electric
+and distributed-propulsion aircraft are where the effort now goes, in [Chen et al 2015, A microphone position
 calibration][research_chen_2015_2], [Guo and Thomas 2015][research_guo_thomas_2015], [Phun et al
 2015][research_phun_2015], [Wang et al 2015, Effects of acoustic][research_wang_2015_2], [Iemma
 2016][research_iemma_2016], [Di 2017][research_di_2017], [Gille et al 2017][research_gille_2017], [Gwak and Lee
@@ -1240,6 +1025,11 @@ psychoacoustic][research_lotinga_2025_2], [Noda et al 2025][research_noda_2025],
 [Paramsamy Kannan 2026][research_paramsamy_kannan_2026], [Park et al 2026, Integrating urban analytics
 in][research_park_2026], [Welch et al 2026][research_welch_2026].
 
+**The QT-2 wanted to be inaudible to an enemy, and contemporary quiet-aircraft work wants to be
+acceptable to a neighbour.** The physics is identical and the criterion is not. Spherical spreading still
+costs 6 decibels per doubling. What has changed is that the threshold is no longer an ambient noise level and a listening sentry,
+but a population and its tolerance.
+
 ### The Mission Went Unmanned, Which Solved the Acoustic Problem by Accident
 
 **The QT-2PC's entire difficulty was that a manned aircraft has to be big enough to carry a person.** That
@@ -1261,10 +1051,8 @@ et al 2019][research_olsen_2019], [Wu et al 2019, Energy Management Strategy for
 2024][research_monzambe_2024], [Lee and Lee 2026][research_lee_lee_2026], [Setiawan et al
 2026][research_setiawan_2026].
 
-**This is the same shape of answer the previous article found.** The [X-25][related_post_a322_bensen_x25]
-asked how to give a descending crewman a choice and was answered by a device made of fabric.
-**The X-26B asked how to make a manned aircraft inaudible and was answered by removing the man.** In both
-cases the programme's constraint turned out to be the thing that could be deleted.
+**The programme's constraint turned out to be the thing that could be deleted**, which is also how the
+[X-25][related_post_a322_bensen_x25] question, how to give a descending crewman a choice, was answered.
 
 ### And Now Everyone Wants to Hear the Aircraft
 
@@ -1304,59 +1092,6 @@ to][research_lotinga_2025], [Najafi et al 2025][research_najafi_2025], [Sanchez-
 2026][research_ghenescu_2026], [Ju et al 2026][research_ju_2026], [Kyi and Feng
 2026][research_kyi_feng_2026], [Muneer et al 2026][research_muneer_2026], [Sesham et al
 2026][research_sesham_2026], [Shao et al 2026][research_shao_2026].
-
-### Noise Became an Acceptability Problem Rather Than a Concealment One
-
-**The QT-2 wanted to be inaudible to an enemy. Contemporary quiet-aircraft work wants to be acceptable to a neighbour**,
-and that has turned the subject from a physical one into a partly perceptual one. Psychoacoustic annoyance
-metrics, community response and the acoustic design of electric and distributed-propulsion aircraft are
-where the effort now goes, in [Chen et al 2015, A microphone position calibration][research_chen_2015_2],
-[Guo and Thomas 2015][research_guo_thomas_2015], [Phun et al 2015][research_phun_2015], [Wang et al 2015,
-Effects of acoustic][research_wang_2015_2], [Iemma 2016][research_iemma_2016], [Di 2017][research_di_2017],
-[Gille et al 2017][research_gille_2017],
-[Gwak and Lee 2017][research_gwak_lee_2017], [Mahak et al 2017][research_mahak_2017], [Nark et al
-2017][research_nark_2017], [Sahai et al 2017][research_sahai_2017], [Friedlander et al
-2018][research_friedlander_2018], [Kato et al
-2018][research_kato_2018], [Nguyen et al 2018, Structural equation models of][research_nguyen_2018_2],
-[Berton and Nark 2019][research_berton_nark_2019], [Brusniak et al 2019][research_brusniak_2019], [Low-Noise Microphones
-2019][research_low_noise_microphones_2019], [Yoon et al 2019][research_yoon_2019], [Bauer
-2021][research_bauer_2021], [Chen et al 2021, Fast prediction method of][research_chen_2021_2], [Christian
-2021][research_christian_2021], [Lechner et al 2021][research_lechner_2021], [Li et al
-2021][research_li_2021], [Page et al 2021][research_page_2021], [Rizzi and Rafaelof
-2021][research_rizzi_rafaelof_2021], [Thomas and Hansman 2021][research_thomas_hansman_2021], [Yu et al
-2021][research_yu_2021], [Felcyn and Ptak 2022][research_felcyn_ptak_2022], [Jia and Lee 2022][research_jia_lee_2022], [Jovanovic and Novak 2022,
-Distribution methodology for][research_jovanovic_novak_2022], [Jovanovic and Novak 2022, Non-acoustic
-factors and their][research_jovanovic_novak_2022_2], [Jovanovic et al 2022][research_jovanovic_2022], [Kim
-et al 2022, Exploring the User Acceptance of][research_kim_2022_2], [Krishnamurthy and Rizzi
-2022][research_krishnamurthy_rizzi_2022], [Lee et al 2022, Factors Influencing the
-Intention][research_lee_2022_3], [Noda et al 2022][research_noda_2022], [Rizzi and Scata, Jr.
-2022][research_rizzi_scata_jr_2022], [Akiyama et al 2023][research_akiyama_2023], [Boucher et al 2023][research_boucher_2023], [Casagrande Hirono et al
-2023][research_casagrande_hirono_2023], [Chen et al 2023, Prediction noise of propeller
-on][research_chen_2023], [Fang et al 2023][research_fang_2023], [Huang et al 2023, Discomfort estimation for][research_huang_2023_4],
-[Jovanovic et al 2023][research_jovanovic_2023], [Koch 2023][research_koch_2023], [Kodji et al
-2023][research_kodji_2023], [Lv et al 2023][research_lv_2023], [Marquis-Favre et al
-2023][research_marquis_favre_2023], [Schreckenberg et al
-2023][research_schreckenberg_2023], [Wu et al 2023, Assessment and mitigation of the][research_wu_2023_2],
-[Xue et al 2023][research_xue_2023], [Yamada 2023][research_yamada_2023], [Yunus et al
-2023][research_yunus_2023], [Zhang et al 2023, Annoyance Prediction of Civil][research_zhang_2023_5], [Zheng
-et al 2023, Development of a Low-Noise and][research_zheng_2023], [Zhong et al 2023][research_zhong_2023],
-[Cuppoletti et al 2024][research_cuppoletti_2024], [Kodji et al 2024][research_kodji_2024], [König et al
-2024][research_konig_2024], [Matouk 2024][research_matouk_2024], [Rizzi et al 2024][research_rizzi_2024], [Tracy et al
-2024][research_tracy_2024], [Clemente Carrari et
-al 2025][research_clemente_carrari_2025], [H. T. Santos et al 2025][research_h_t_santos_2025], [Kim et al
-2025, Low-noise trajectory optimization][research_kim_2025_4], [Lim et al 2025, Performance Enhancement of
-Drone][research_lim_2025_2], [Lincke et al 2025][research_lincke_2025], [Lotinga et al 2025, Development of
-psychoacoustic][research_lotinga_2025_2], [Noda et al 2025][research_noda_2025], [W. Bauer
-2025][research_w_bauer_2025], [Zhang et al 2025, Cross time frequency transformer][research_zhang_2025_2],
-[Caillet et al 2026][research_caillet_2026], [Georgiou et al 2026][research_georgiou_2026], [Guerrero et al
-2026][research_guerrero_2026], [He et al 2026, A Psychoacoustic Feature][research_he_2026_2], [Ko et al
-2026][research_ko_2026], [Lee et al 2026][research_lee_2026], [Page et al 2026][research_page_2026],
-[Paramsamy Kannan 2026][research_paramsamy_kannan_2026], [Park et al 2026, Integrating urban analytics
-in][research_park_2026], [Welch et al 2026][research_welch_2026].
-
-**The physics is identical and the criterion is not.** Spherical spreading still costs 6 decibels per
-doubling. What has changed is that the threshold is no longer an ambient noise level and a listening sentry,
-but a population and its tolerance.
 
 ### Propeller Noise, Computed
 
@@ -2010,22 +1745,10 @@ for][research_zhang_2026_4], [Zheng et al 2026][research_zheng_2026], [Zhou and 
 ### What the Survey Shows
 
 **Both halves of the X-26 were about a human in the aircraft, and both have been answered by removing the human.**
-
-The X-26A existed because a pilot has to learn to notice adverse yaw.
-**That mission has been promoted into a regulation and simultaneously undercut by envelope protection**,
-which prevents the excursion instead of teaching the recovery. Teaching adverse yaw in a slow aircraft
-remains exactly as valid as it ever was, and is still done, but it is now one answer among several rather
-than the only one.
-
-The X-26B existed because a manned aircraft is big and therefore loud.
-**That mission is now flown by aircraft with nobody aboard, which are quiet because they are small and not because anyone silenced them.**
-The elaborate machinery of mufflers and extension shafts was answered by deleting the constraint it was
-built to fight.
-
-**And the detection problem has been turned around completely.** The QT-2 spent its whole budget on not
-being heard. The contemporary detection literature overwhelmingly wants to hear small aircraft, and it is a security
-industry with microphone arrays and classifiers.
-**The same equations serve both sides and they are now used more often by the listener than by the flyer.**
+Adverse yaw is still taught in slow aircraft, but envelope protection now prevents the excursion instead of
+teaching the recovery, so the X-26A's method is one answer among several. The X-26B's mission is flown by
+unmanned aircraft that are quiet because they are small, and the same acoustic equations are now used more
+often by the listener than by the flyer.
 
 **One thing the survey does not show, and the absence is worth stating.** Nothing found here measures
 whether flying a sailplane actually teaches adverse yaw better than a simulator or a briefing does.
@@ -2061,7 +1784,7 @@ should not be presented as fact.
 
 ## The Source Base
 
-**The aircraft has almost no technical literature and this is the second consecutive article for which that is true.**
+**The aircraft has almost no technical literature.**
 Of the 3,133 research records in this article's references, **two** carry the X-26, Schweizer, the SGS, the QT-2, the Q-Star
 or the YO-3 in their titles, and **neither is about either X-26**. One is a National Aeronautics and Space Administration
 flutter clearance of a different Schweizer sailplane and the other is the Army's preliminary evaluation of
@@ -2070,32 +1793,15 @@ the YO-3A, which is the QT-2's operational descendant and
 specifications come from sailplane references and museum material, and the operational detail from
 historical accounts rather than from test reports.
 
-**That is not a coincidence between the two articles. It is a property of the procurement.** An
-off-the-shelf aircraft bought for properties it already has generates no development literature, because
-nothing was developed. **The [X-25][related_post_a322_bensen_x25] and the X-26 are the same case twice.**
+**That is a property of the procurement.** An off-the-shelf aircraft bought for properties it already has
+generates no development literature, because nothing was developed, and the
+[X-25][related_post_a322_bensen_x25] is the same case.
 
 **The supporting physics is abundant on one side and thinner on the other.** Lateral control and adverse yaw
-are extremely well documented once the period's own vocabulary is used, which is [Munk
-1925][research_munk_1925], [National advisory committee for aeronautics: Report No. 424, Wind-tunnel research comparing lateral control devices, particularly at high angles of attack. IV. Floating tip ailerons on rectangular wings 1932][research_national_advisory_1932], [Report
-No. 423, Wind-tunnel 1932, Report No. 423, Wind-tunnel][research_report_no_1932_3], [Report No. 439,
-Wind-Tunnel 1932, Report No. 439, Wind-Tunnel][research_report_no_1932_2], [Report No. 444, Wind-Tunnel
-1932, Report No. 444, Wind-Tunnel][research_report_no_1932], [Weick and Harris
-1933][research_weick_harris_1933], [Weick and Noyes 1933, Wind tunnel research
-comparing][research_weick_noyes_1933], [Weick and Noyes 1933, Wind-tunnel research
-comparing][research_weick_noyes_1933_2], [Weick and Shortal 1933][research_weick_shortal_1933], [Weick and
-Harris 1934][research_weick_harris_1934], [R. 1935][research_r_1935], [Report no. 510, wind-tunnel 1935,
-Report no. 510, wind-tunnel][research_report_no_1935], [Weick and Wenzinger
-1935][research_weick_wenzinger_1935], [Weick and Jones 1937][research_weick_jones_1937], [Stewart
-1939][research_stewart_1939], [Fehlner 1942][research_fehlner_1942], [Underwood 1942, Aerodynamic
-Characteristics for][research_underwood_1942], [Crandall 1943][research_crandall_1943], [Crane and Holtzclaw
-1944][research_crane_holtzclaw_1944], [Graham 1945, Tunnel-wall corrections to][research_graham_1945],
-[Johnson and Sternfield 1948][research_johnson_sternfield_1948], [Johnson and Hagerman
-1950][research_johnson_hagerman_1950], [Martina 1953][research_martina_1953], [Martina
-1954][research_martina_1954], [Wiley 1954][research_wiley_1954], [Eggleston and Diederich
-1957][research_eggleston_diederich_1957], [Hammond and Henderson 1961][research_hammond_henderson_1961],
-[Bischoff et al 1974][research_bischoff_1974], [Weick and Jones 1976][research_weick_jones_1976], and the
-propeller-noise and propagation literature is substantial.
-**The keystone enumeration above holds twenty-nine records, and twenty-seven of them date from 1925 to 1961.**
+are extremely well documented once the period's own vocabulary is used, in the lateral-control enumeration
+under Why This Aircraft Teaches Adverse Yaw, and the propeller-noise and propagation literature is
+substantial.
+**That enumeration holds twenty-nine records, and twenty-seven of them date from 1925 to 1961.**
 Every title in it but one is phrased in terms of yawing moment, lateral control or ailerons, and only
 Bischoff and colleagues in 1974 use the bare modern term adverse yaw.
 
@@ -2684,9 +2390,10 @@ lost and replaced. Two airframes, serials 67-15345 and 67-15346, were converted 
 Space Company to QT-2 and QT-2PC configuration with a Continental O-200 of 100 horsepower driving a
 four-blade propeller through an extension shaft. Two aircraft arrived at Soc Trang on 22 January 1968 and
 flew 591 hours of night surveillance between 24 January and 24 March 1968. The specification called for
-acoustic undetectability at 1,500 feet, the aircraft was detectable at 750, and missions were flown no lower
-than 800. The aircraft returned in 1969 and were redesignated X-26B. The work continued through the Q-Star
-to eleven pre-production YO-3A aircraft.
+acoustic undetectability at 1,500 feet, the aircraft was first heard at 750 in passes over the airfield, and
+missions were flown no lower than 800. The aircraft returned in 1969 and were redesignated X-26B. The work
+continued through the Q-Star to the YO-3A, which operated in Vietnam during 1970 and 1971, although the
+accounts disagree on how many were built and when operations began.
 
 **Engineering analysis, derived here and checkable.** That adverse yaw is proportional to lift coefficient
 follows from the classical elliptic-loading result. That the observability index scales as wing loading
@@ -2768,10 +2475,12 @@ The next article in this series takes up the Lockheed X-27.
 ### Reference
 
 - [adverse yaw][ref_adverse_yaw]
+- [Albertson, Flying on the QT][ref_albertson_2015]
 - [Continental O-200][ref_continental_o200]
 - [Dutch roll][ref_dutch_roll]
 - [Naval Test Pilot School][ref_usntps]
 - [Patuxent River][ref_patuxent]
+- [Polmar, Historic Aircraft, Silent (By) Night][ref_polmar_2017]
 - [Schweizer Aircraft][ref_schweizer_aircraft]
 - [Schweizer SGS 2-32][ref_sgs_2_32]
 - [X-26][ref_x26]
@@ -2779,10 +2488,12 @@ The next article in this series takes up the Lockheed X-27.
 - [YO-3A][ref_yo3a]
 
 [ref_adverse_yaw]: https://en.wikipedia.org/wiki/Adverse_yaw
+[ref_albertson_2015]: https://armyaviationmagazine.com/flying-on-the-qt/
 [ref_continental_o200]: https://en.wikipedia.org/wiki/Continental_O-200
 [ref_dutch_roll]: https://en.wikipedia.org/wiki/Dutch_roll
 [ref_navair_x26a]: https://www.navair.navy.mil/product/x-26a-frigate-glider
 [ref_patuxent]: https://en.wikipedia.org/wiki/Naval_Air_Station_Patuxent_River
+[ref_polmar_2017]: https://www.usni.org/magazines/naval-history-magazine/2017/october/historic-aircraft-silent-night
 [ref_schweizer_aircraft]: https://en.wikipedia.org/wiki/Schweizer_Aircraft
 [ref_sgs_2_32]: https://en.wikipedia.org/wiki/Schweizer_SGS_2-32
 [ref_usntps]: https://en.wikipedia.org/wiki/United_States_Naval_Test_Pilot_School

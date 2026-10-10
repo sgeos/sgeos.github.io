@@ -17,7 +17,7 @@ The [Hiller X-18][ref_x18] tilted its entire wing to take off vertically, and th
 
 The series has met the vertical take-off problem twice already, at the [X-13][related_post_a310_ryan_x13] and the [X-14][related_post_a311_bell_x14]. Both solved it by pointing a jet downward. **The X-18 is the first attempt in this series to solve it with a wing**, which is a different problem with a different failure mode, and the failure mode arrived.
 
-The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003] and the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]. The configuration's own design literature is [McCormick and Mallen 1956][research_mccormick_mallen_1956] and its later textbook form [McCormick 1967 Aerodynamics of V/STOL Flight][book_mccormick_1967].
+The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], which the National Aeronautics and Space Administration publishes as [Monographs in Aerospace History No. 31][ref_american_x_vehicles], and the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]. The configuration's own design literature is [McCormick and Mallen 1956][research_mccormick_mallen_1956] and its later textbook form [McCormick 1967 Aerodynamics of V/STOL Flight][book_mccormick_1967].
 
 ## The Research Question
 
@@ -47,17 +47,27 @@ What nobody had was flight evidence that the conversion was flyable at full scal
 
 ## Programme Origin
 
-The X-18 is the most conspicuously improvised aircraft in this series. Hiller built it from parts that already existed. The fuselage came from a [Chase YC-122C Avitruc][ref_yc122] assault transport. The turboprops came from two cancelled tail-sitting fighter programmes, the [Convair XFY-1 Pogo][ref_xfy1] and the [Lockheed XFV-1][ref_xfv1], which had used the same [Allison T40][ref_t40] driving contra-rotating propellers. A [Westinghouse J34][ref_j34] turbojet went in the tail.
+The X-18 is the most conspicuously improvised aircraft in this series. Hiller built it from parts that already existed. The fuselage came from a [Chase YC-122C Avitruc][ref_yc122] assault transport. The turboprops came from two cancelled tail-sitting fighter programmes, the [Convair XFY-1 Pogo][ref_xfy1] and the [Lockheed XFV-1][ref_xfv1], which had used the same [Allison T40][ref_t40] driving contra-rotating propellers. A [Westinghouse J34][ref_j34] turbojet went in the tail. The National Aeronautics and Space Administration's [inventory][ref_american_x_vehicles] records the same YC-122C fuselage and two turboprop engines surplused from the Navy's cancelled vertical take-off fighter programme.
 
-**That is a research aircraft assembled from the wreckage of the previous generation of answers to the same question**, which is worth noting because the components carried their assumptions with them. The propellers were sized for a tail-sitter, not for a tilt-wing.
+**That is a research aircraft assembled from the wreckage of the previous generation of answers to the same question**, which is worth noting because the components carried their assumptions with them. The engines were chosen for a tail-sitter, not for a tilt-wing.
+
+**The programme began as a company proposal and became an Air Force contract.** The [official history of the Air Force's 16th Special Operations Wing][ref_af_tilt_wing_history] records that Hiller proposed a tilt-wing aircraft to both the Army and the Air Force early in 1954 as an alternative to the helicopter, that design work began in 1955, and that the Air Force funded and contracted for the aircraft, which was designated the X-18 in October 1957 and unveiled on 8 December 1958. The [inventory][ref_american_x_vehicles] lists the Air Force and the Navy as its sponsors.
+
+**Hiller's own engineering record exists, on paper only.** The company's reports on the aircraft, its Model 1051, are catalogued in the [Bernard Lindenbaum Vertical Flight Research Collection][ref_lindenbaum_x18] at Wright State University, all under one Air Force contract. They include a preliminary design study summary of October 1956, an estimate of flight-test performance of May 1957, an analysis of the variation of pitching moment in transition flight of May 1958, force tests and remote-controlled free-flight tests of a one-eighth scale model in October 1958, an analysis of the thrust available from the J34-WE-36 pitch control engine of October 1958, and a simulation of the X-18 in hover for Edwards Air Force Base of February 1959. **None of the catalogued items reports flight results, and none is digitised**, so the programme's design intentions are on record and its flight measurements are not.
 
 ### The Vehicle
 
-Sources give a span of 47 feet 11 inches, a wing area of 528 square feet, a length of 63 feet, an empty weight of 27,052 pounds, and a maximum take-off weight of 33,000 pounds. The two contra-rotating propellers are 16 feet in diameter. The first hop was on 11 November 1959 and the first flight on 24 November, and 20 flights followed to July 1961.
+The compiled specification in the [encyclopaedia entry][ref_x18], which cites Jane's All the World's Aircraft and Miller, gives a span of 48 feet, a wing area of 528 square feet, a length of 63 feet, an empty weight of 27,052 pounds, a maximum take-off weight of 33,000 pounds, and two Allison T40-A-14 turboprops of 5,850 equivalent horsepower each. The two contra-rotating propellers are 16 feet in diameter in its text and 16 feet 1 inch in its table, and this article uses 16 feet. The [Air Force history][ref_af_tilt_wing_history] calls the aircraft sixteen and a half tons, which in short tons of 2,000 pounds is
+
+$$W = 16.5 \times 2{,}000 = 33{,}000\ \text{lb}$$
+
+the same maximum weight from an independent official source.
+
+**The sources disagree about the first flight by four days.** The [inventory][ref_american_x_vehicles] gives a first flight on 20 November 1959, and the [Air Force history][ref_af_tilt_wing_history] gives 24 November 1959 at Edwards Air Force Base. The [encyclopaedia entry][ref_x18] reconciles them as a first hop on 20 November and a first full flight on 24 November, after preliminary testing at Moffett Field. The [inventory][ref_american_x_vehicles] records 20 flights in all, the last in July 1961, with a fastest flight of 253 miles an hour and a highest of 35,300 feet.
 
 The published figures are internally consistent, which is worth checking before relying on them. Aspect ratio from span and area is
 
-$$A = \frac{b^{2}}{S} = \frac{47.92^{2}}{528} = 4.348$$
+$$A = \frac{b^{2}}{S} = \frac{48^{2}}{528} = 4.364$$
 
 against a quoted 4.36, and the wing loading at maximum weight is
 
@@ -69,19 +79,19 @@ $$\frac{W}{S} = \frac{33{,}000}{528} = 62.50\ \text{lb/ft}^{2}$$
 
 The raw geometric ratio is two propeller diameters against the span,
 
-$$f_{\text{raw}} = \frac{n D_p}{b} = \frac{2 \times 16}{47.92} = 0.668$$
+$$f_{\text{raw}} = \frac{n D_p}{b} = \frac{2 \times 16}{48} = 0.667$$
 
 so two thirds of the span sits behind a propeller. **That figure is optimistic, because a slipstream contracts.** Momentum theory gives the fully developed slipstream area as half the disc area, so the diameter contracts by the square root of two,
 
 $$D_{\text{slip}} = \frac{D_p}{\sqrt{2}} = \frac{4.877}{1.414} = 3.448\ \text{m} = 11.31\ \text{ft}$$
 
-which would immerse only 47.2 percent of the span. The wing sits close behind the disc, where contraction is partial, so the true figure lies between.
+which would immerse only 47.1 percent of the span. The wing sits close behind the disc, where contraction is partial, so the true figure lies between.
 
 | Station | Diameter factor | Immersed span |
 |---|---|---|
-| At the disc | 1.000 | 66.8 percent |
-| Just behind the disc | 0.850 | 56.8 percent |
-| Fully developed | 0.707 | 47.2 percent |
+| At the disc | 1.000 | 66.7 percent |
+| Just behind the disc | 0.850 | 56.7 percent |
+| Fully developed | 0.707 | 47.1 percent |
 
 **Taking a representative value, about 57 percent of the span is immersed and about 43 percent is not.** That number is the whole article.
 
@@ -119,7 +129,7 @@ and gives
 
 $$v_i = \sqrt{\frac{73{,}400}{2 \times 1.225 \times 18.68}} = 40.05\ \text{m/s}$$
 
-with a fully developed slipstream at 80.09 metres per second. Taking a part-developed value of $1.5 v_i$ at the wing, the dynamic pressure over the immersed panel at **zero forward speed** is
+with a fully developed slipstream at 80.09 metres per second. Taking an assumed part-developed value of $1.5 v_i$ at the wing, the dynamic pressure over the immersed panel at **zero forward speed** is
 
 $$q_{\text{slip}} = \tfrac{1}{2} \rho (1.5 v_i)^{2} = \tfrac{1}{2} \times 1.225 \times 60.07^{2} = 2{,}210\ \text{Pa}$$
 
@@ -175,13 +185,13 @@ Setting $\alpha_{\text{local}}$ equal to the stall angle and solving for tilt gi
 
 ### What the Immersed Wing Can Carry
 
-With 57 percent of the span immersed, the immersed area is 27.84 square metres against 21.21 outside.
+With 57 percent of the span immersed, the immersed area is 27.80 square metres against 21.26 outside.
 
 | Lift coefficient | Immersed lift | Fraction of maximum weight |
 |---|---|---|
-| 0.8 | 11,068 lbf | 33.5 percent |
-| 1.0 | 13,835 lbf | 41.9 percent |
-| 1.4 | 19,370 lbf | 58.7 percent |
+| 0.8 | 11,049 lbf | 33.5 percent |
+| 1.0 | 13,811 lbf | 41.9 percent |
+| 1.4 | 19,336 lbf | 58.6 percent |
 
 The wing alone cannot hover the aircraft, which is expected, because in hover the propellers carry the weight directly as thrust. **The number that matters is not whether the wing lifts the aircraft in hover but whether the handover is continuous**, and the table shows there is a substantial contribution available from the immersed panel throughout.
 
@@ -199,12 +209,12 @@ Solving for the tilt that balances weight at each speed, and setting it beside t
 
 | Speed | Tilt required | Tilt allowed | Margin |
 |---|---|---|---|
-| 10 m/s | 51.9° | 90.0° | 38.1° |
-| 20 m/s | 37.4° | 66.0° | 28.7° |
-| 30 m/s | 26.6° | 46.2° | 19.6° |
-| 40 m/s | 23.4° | 37.9° | 14.4° |
+| 10 m/s | 52.0° | 90.0° | 38.0° |
+| 20 m/s | 37.4° | 66.0° | 28.6° |
+| 30 m/s | 26.7° | 46.2° | 19.6° |
+| 40 m/s | 23.5° | 37.9° | 14.4° |
 | 50 m/s | 20.5° | 33.1° | 12.6° |
-| 60 m/s | 17.0° | 30.0° | 13.1° |
+| 60 m/s | 17.0° | 30.0° | 13.0° |
 
 The transition problem and the corridor concept were the central preoccupation of the powered-lift community for decades, across [Boeing Co Morton Pa Vertol Div 1956, Comparative Study of Various Type][research_div_1956_2], [Smith 1958][research_smith_1958], [Loewy and Yntema 1958][research_loewy_yntema_1958], [Baxter and Finvold 1958][research_baxter_finvold_1958], [Mallen and Dancik 1959][research_mallen_dancik_1959], [NACA 1960][research_naca_1960], [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], [Tapscott 1960][research_tapscott_1960], [Tapscott 1960, Criteria for Control and Response][research_tapscott_1960_2], [Anderson 1960][research_anderson_1960], [Stapleford 1980][research_stapleford_1980], [Roberts et al 1981][research_roberts_1981], [Fluk 1981][research_fluk_1981], [Hill 1981][research_hill_1981], [Verma and Junkins 2000][research_verma_junkins_2000], [Kahne 2000][research_kahne_2000], [Kahne 2000, Research Issues in the Transition][research_kahne_2000_2], [Chana 2002][research_chana_2002], [Ng and Datta 2019][research_ng_datta_2019], [Biyela and Rawatlal 2019][research_biyela_rawatlal_2019], [Wang et al 2019, Research on Dynamic Modeling and T][research_wang_2019_2], [Wang et al 2019, Stability Analysis of Tailsitters][research_wang_2019_4].
 
@@ -223,14 +233,22 @@ so **a tilt-wing can be stalled by its own rate of descent at constant tilt and 
 | Speed | Descent that closes the corridor |
 |---|---|
 | 10 m/s | 1.44 m/s, or 284 ft/min |
-| 20 m/s | 2.08 m/s, or 409 ft/min |
-| 30 m/s | 3.26 m/s, or 643 ft/min |
-| 50 m/s | 4.99 m/s, or 983 ft/min |
-| 60 m/s | 6.87 m/s, or 1,351 ft/min |
+| 20 m/s | 2.07 m/s, or 408 ft/min |
+| 30 m/s | 3.26 m/s, or 641 ft/min |
+| 50 m/s | 4.98 m/s, or 980 ft/min |
+| 60 m/s | 6.85 m/s, or 1,349 ft/min |
 
 **This is not a novel observation and the literature confirms it directly.** The descent capability of two-propeller tilt-wing configurations, which is the X-18's exact arrangement, was measured and reported in [James L. Hassell 1966][research_james_l_hassell_1966]. The wider subject, including the vortex ring state that a lifting rotor meets in descent and its modern computational treatment, runs through [James L. Hassell 1966][research_james_l_hassell_1966], [Johnson 1977][research_johnson_1977], [Lee 1985][research_lee_1985], [Inoue et al 1997][research_inoue_1997], [Johnson 2004][research_johnson_2004], [Johnson 2005][research_johnson_2005], [Prasad and Chen 2006][research_prasad_chen_2006], [Young 2010][research_young_2010], [Yan et al 2012][research_yan_2012], [Stalewski and Surmacz 2019][research_stalewski_surmacz_2019], [Stalewski and Surmacz 2020][research_stalewski_surmacz_2020], [Makeev et al 2021][research_makeev_2021], [Makeev et al 2021, Numerical investigation of full sc][research_makeev_2021_2], [Sridharan and Govindarajan 2022][research_sridharan_govindarajan_2022].
 
 **Two hundred and eighty-four feet per minute at the slow end is a gentle descent by any normal standard**, and it exhausts the margin. That is the tilt-wing descent problem, it is why these aircraft carried restricted descent envelopes, and it explains why the approach and not the take-off was the difficult half of the flight.
+
+**The period record says the same, and says the table is optimistic.** Kirby's paper in the 1960 conference on vertical and short take-off aircraft, [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], resolves the freestream and the slipstream increment into the wing's angle of attack as above, notes that the portions of the wing outside the slipstream meet a very high angle of attack, and adds that in descent the reduced power also lowers the slipstream increment, so the angle of attack rises from both causes. The relation above holds the slipstream fixed, so **the descent rates in the table are upper bounds.** In the same compilation Drinkwater reports that pilots of the tilt-wing and deflected-slipstream test beds set their steep-approach limits by the rate of descent appropriate to the conversion angle, and that a pilot who did not know those limits could turn a steep descent into a series of stall recoveries.
+
+[Pegg's summary of the VZ-2 flight tests][ref_pegg_1962] measured this on the first tilt-wing to fly the conversion. Its most critical region was decelerating conversion and descent, where wing stall and separation produced buffeting, erratic motion and general difficulty in handling. In level flight with the wing raised to 20 degrees, abrupt flow breakdown set in near 60 knots as speed fell from 75. A leading-edge droop on the outboard wing added about 600 feet per minute of descent capability near 60 knots and an inboard droop about another 500,
+
+$$\Delta \dot{h} = 600 + 500 = 1{,}100\ \text{ft/min}$$
+
+which is the additional descent capability Pegg's conclusions give for the full-span droop. **The fix was a stall delay on the wing, which is the device this article finds the X-18 lacked.**
 
 ### The Cost of the Configuration, Which Is Disc Loading
 
@@ -240,7 +258,11 @@ against roughly 11.7 pounds per square foot for a single 60 foot helicopter roto
 
 $$P = n\, T \sqrt{\frac{T}{2 \rho A}}$$
 
-which evaluates to 5,879 kilowatts, or **7,883 ideal shaft horsepower**. Against an installed 11,700 horsepower from two T40 engines, that implies a figure of merit of
+which evaluates to 5,879 kilowatts, or **7,883 ideal shaft horsepower**. Against an installed power of
+
+$$P_{\text{shaft}} = 2 \times 5{,}850 = 11{,}700\ \text{hp}$$
+
+from the two T40 engines of the compiled specification, that implies a figure of merit of
 
 $$\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}700} = 0.674$$
 
@@ -250,11 +272,15 @@ $$\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}70
 
 ### The Pitch Jet, Which Is the Same Answer the X-13 and X-14 Gave
 
-The X-18 carried a turbojet in the tail whose exhaust was deflected up or down purely for pitch control at low speed. The reason is the relation the previous two vertical take-off articles both used. Aerodynamic control scales with dynamic pressure and vanishes at zero speed, while thrust does not,
+The X-18 carried a turbojet in the tail whose exhaust was deflected up or down purely for pitch control at low speed, and Hiller's October 1958 analysis of the thrust available from that J34-WE-36 installation is among the reports in the [Lindenbaum collection][ref_lindenbaum_x18]. The reason is the relation the previous two vertical take-off articles both used. Aerodynamic control scales with dynamic pressure and vanishes at zero speed, while thrust does not,
 
 $$M_{\text{aero}} = q S \bar{c}\, C_{m\delta_e} \delta_e \propto V^{2}, \qquad M_{\text{jet}} = T_{\text{jet}}\, l$$
 
-At a tail arm of 8.64 metres, a thousand pounds force of deflected jet gives 38.4 kilonewton metres. Setting the two equal and solving for speed gives the crossover at which the elevator takes over,
+No source gives the jet's arm or its deflected thrust, so both are assumed here. Taking the arm as 0.45 of the 63 foot length and a deflected thrust of a thousand pounds force, under a third of the 3,400 pounds the [encyclopaedia entry][ref_x18] gives for the J34,
+
+$$l = 0.45 \times 63 \times 0.3048 = 8.64\ \text{m}, \qquad M_{\text{jet}} = 4{,}448 \times 8.64 = 38.4\ \text{kN m}$$
+
+with an assumed elevator effectiveness of 1.2 per radian at an assumed 20 degrees of deflection. Setting the two equal and solving for speed gives the crossover at which the elevator takes over,
 
 $$V_{\text{cross}} = \sqrt{\frac{2 M_{\text{jet}}}{\rho S \bar{c}\, C_{m\delta_e} \delta_e}} = 30.2\ \text{m/s} = 58.6\ \text{kt}$$
 
@@ -266,13 +292,15 @@ The control-power and handling-qualities literature that establishes how much au
 
 ### The Engines, and the Thing That Was Missing
 
-Sources state that the two turboprops were **not cross-linked**, so the failure of one removed that propeller's thrust entirely. In hover that is half the lift, applied at the propeller's lateral station. Taking the propeller at a quarter span,
+The [encyclopaedia entry][ref_x18] states that the two turboprops were **not cross-linked**, and the [Air Force history][ref_af_tilt_wing_history] confirms it in contrasting the XC-142A, whose engines were linked so that a single engine could turn all four propellers and the tail rotor. The failure of one X-18 engine therefore removed that propeller's thrust entirely. In hover that is half the lift, applied at the propeller's lateral station. Taking the propeller at an assumed quarter span of the 48 foot wing, $y = 12 \times 0.3048 = 3.658$ metres, and
 
-$$M_{\text{roll}} = T y = 73.4 \times 3.65 = 268\ \text{kN m}$$
+$$M_{\text{roll}} = T y = 73.40 \times 3.658 = 268\ \text{kN m}$$
 
 Against that, roll control comes from the ailerons, whose effectiveness scales with dynamic pressure,
 
 $$L_{\delta_a} = q S b\, C_{l\delta_a} \delta_a$$
+
+evaluated with an assumed $C_{l\delta_a}$ of 0.08 per radian and an assumed 20 degrees of deflection.
 
 | Freestream | Aileron moment | Fraction of the upset |
 |---|---|---|
@@ -281,7 +309,7 @@ $$L_{\delta_a} = q S b\, C_{l\delta_a} \delta_a$$
 | 20 m/s | 4.9 kN m | 1.83 percent |
 | 30 m/s | 11.0 kN m | 4.12 percent |
 
-**The ailerons supply under one percent of what is needed in hover and still only four percent at thirty metres per second.** The statement in the sources that losing an engine meant losing the aircraft is therefore not a caution. **It is arithmetic**, and cross-shafting is not a refinement but the only available fix. The problem was recognised in the period literature for turboprops generally, in [Kirchner 1955][research_kirchner_1955], and engine failure, drive systems and the interconnecting shafting that mitigates them are treated across [Holzhauser et al 1964][research_holzhauser_1964], [Overfield and Crawford 1967][research_overfield_crawford_1967], [Bucsek 1974][research_bucsek_1974], [Johnson 1975][research_johnson_1975], [Grosveld 1983][research_grosveld_1983], [Stewart 1987][research_stewart_1987], [Arnold et al 1987][research_arnold_1987], [Carlson et al 1999][research_carlson_1999], [Schroijen and Slingerland 2007][research_schroijen_slingerland_2007], [Wandini et al 2016][research_wandini_2016], [Harish et al 2018][research_harish_2018], [Casadei et al 2019][research_casadei_2019], [Leelaburanathanakul et al 2021][research_leelaburanathanakul_2021], [Hoogreef and Soikkeli 2022][research_hoogreef_soikkeli_2022]. The powerplant itself, including the propeller governing that failed on the final flight, appears in [Zucrow 1949][research_zucrow_1949], [Mock 1951][research_mock_1951], [Rice 1955][research_rice_1955], [Hooker 1956][research_hooker_1956], [Rasmussen 1960][research_rasmussen_1960], [NACA 1978][research_naca_1978], [Hirschkron et al 1979][research_hirschkron_1979], [Hirschkron et al 1979, MARITIME Patrol Aircraft Engine St][research_hirschkron_1979_2], [Banach and Reynolds 1981][research_banach_reynolds_1981], [Wynn 1982][research_wynn_1982], [Stoten 1983][research_stoten_1983], [Scott 2009][research_scott_2009].
+**The ailerons supply under one percent of what is needed in hover and still only four percent at thirty metres per second.** The statement in the [encyclopaedia entry][ref_x18] that the failure of one engine meant the airplane would crash is therefore not a caution. **It is arithmetic**, and cross-shafting is not a refinement but the only available fix. The same entry records that thrust was controlled through throttle changes, which were too slow for acceptable height and roll control, and that the programme's two lessons were cross-shafting between the engines and direct propeller pitch control for height and lateral control in hover. The problem was recognised in the period literature for turboprops generally, in [Kirchner 1955][research_kirchner_1955], and engine failure, drive systems and the interconnecting shafting that mitigates them are treated across [Holzhauser et al 1964][research_holzhauser_1964], [Overfield and Crawford 1967][research_overfield_crawford_1967], [Bucsek 1974][research_bucsek_1974], [Johnson 1975][research_johnson_1975], [Grosveld 1983][research_grosveld_1983], [Stewart 1987][research_stewart_1987], [Arnold et al 1987][research_arnold_1987], [Carlson et al 1999][research_carlson_1999], [Schroijen and Slingerland 2007][research_schroijen_slingerland_2007], [Wandini et al 2016][research_wandini_2016], [Harish et al 2018][research_harish_2018], [Casadei et al 2019][research_casadei_2019], [Leelaburanathanakul et al 2021][research_leelaburanathanakul_2021], [Hoogreef and Soikkeli 2022][research_hoogreef_soikkeli_2022]. The powerplant itself, including the propeller pitch control that one account says failed on the final flight, appears in [Zucrow 1949][research_zucrow_1949], [Mock 1951][research_mock_1951], [Rice 1955][research_rice_1955], [Hooker 1956][research_hooker_1956], [Rasmussen 1960][research_rasmussen_1960], [NACA 1978][research_naca_1978], [Hirschkron et al 1979][research_hirschkron_1979], [Hirschkron et al 1979, MARITIME Patrol Aircraft Engine St][research_hirschkron_1979_2], [Banach and Reynolds 1981][research_banach_reynolds_1981], [Wynn 1982][research_wynn_1982], [Stoten 1983][research_stoten_1983], [Scott 2009][research_scott_2009].
 
 ### The Wing and Its Devices
 
@@ -293,7 +321,7 @@ High-lift and boundary-layer-control devices are the standard remedy and were in
 
 $$C_\mu = \frac{\dot{m} V_j}{q_\infty S}$$
 
-and at the low freestream dynamic pressures of a conversion even a modest jet is a large coefficient, reaching 0.125 at twenty metres per second for fifteen hundred newtons of jet momentum.
+and at the low freestream dynamic pressures of a conversion even a modest jet is a large coefficient, reaching 0.125 at twenty metres per second for an illustrative fifteen hundred newtons of jet momentum.
 
 **The X-18 had none of that.** It had a wing, two propellers, and a tilt mechanism, which is the minimum experiment, not the best aircraft.
 
@@ -303,9 +331,9 @@ Propeller behaviour at zero and low forward speed is its own subject, and static
 
 $$J = \frac{V}{n D}$$
 
-which is zero in hover and of order one in cruise. At 1,100 revolutions per minute on a 4.877 metre diameter, $J$ runs from 0 to 1.12 between hover and 100 metres per second, so **the same blades meet the flow at completely different angles at the two ends of the conversion.** Propeller behaviour across that range, including static thrust, blade design and contra-rotating arrangements, is treated in [Gray and Biermann 1941][research_gray_biermann_1941], [Lerbs 1955][research_lerbs_1955], [Reynolds et al 1957][research_reynolds_1957], [Tosti 1962][research_tosti_1962], [Deckert et al 1964][research_deckert_1964], [Blaurock 1975][research_blaurock_1975], [Jeracki and Mitchell 1981][research_jeracki_mitchell_1981], [Hanson 1986][research_hanson_1986], [Applin et al 1994][research_applin_1994], [Campos and Lau 2006][research_campos_lau_2006], [Envia 2014][research_envia_2014], [Sree and Stephens 2014][research_sree_stephens_2014], [Ferraro et al 2014][research_ferraro_2014], [Huo et al 2019][research_huo_2019]. That is why contra-rotating variable-pitch units were used and why the pitch control system was as complex as it was, which matters because the pitch control system is what failed. **The pitch-change mechanism is a subject in its own right**, because twisting a loaded blade against its own aerodynamic and centrifugal moments is a structural problem and not an aerodynamic one. The coupled behaviour of a turbine and its propeller under pitch control is treated in [Oppenheimer and Jacques 1951][research_oppenheimer_jacques_1951], and the actuator and control design problem in [Steinetz et al 1986][research_steinetz_1986] and [Schwartz et al 1986][research_schwartz_1986], the latter two from the propfan era rather than this one. Helical tip Mach number at cruise is
+which is zero in hover and of order one in cruise. At an assumed propeller speed of 1,100 revolutions per minute on a 4.877 metre diameter, $J$ runs from 0 to 1.12 between hover and 100 metres per second, so **the same blades meet the flow at completely different angles at the two ends of the conversion.** Propeller behaviour across that range, including static thrust, blade design and contra-rotating arrangements, is treated in [Gray and Biermann 1941][research_gray_biermann_1941], [Lerbs 1955][research_lerbs_1955], [Reynolds et al 1957][research_reynolds_1957], [Tosti 1962][research_tosti_1962], [Deckert et al 1964][research_deckert_1964], [Blaurock 1975][research_blaurock_1975], [Jeracki and Mitchell 1981][research_jeracki_mitchell_1981], [Hanson 1986][research_hanson_1986], [Applin et al 1994][research_applin_1994], [Campos and Lau 2006][research_campos_lau_2006], [Envia 2014][research_envia_2014], [Sree and Stephens 2014][research_sree_stephens_2014], [Ferraro et al 2014][research_ferraro_2014], [Huo et al 2019][research_huo_2019]. That is why contra-rotating variable-pitch units were used and why the pitch control system was as complex as it was, which matters because one account of the last flight names the pitch control system as what failed. **The pitch-change mechanism is a subject in its own right**, because twisting a loaded blade against its own aerodynamic and centrifugal moments is a structural problem and not an aerodynamic one. The coupled behaviour of a turbine and its propeller under pitch control is treated in [Oppenheimer and Jacques 1951][research_oppenheimer_jacques_1951], and the actuator and control design problem in [Steinetz et al 1986][research_steinetz_1986] and [Schwartz et al 1986][research_schwartz_1986], the latter two from the propfan era rather than this one. Helical tip Mach number at 60 metres per second, the fastest conversion speed tabulated above, is
 
-$$M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = 0.844$$
+$$M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = \frac{\sqrt{280.9^{2} + 60^{2}}}{340.3} = 0.844$$
 
 so the blade tips are transonic while the aircraft is not. The interference between a propeller and the wing behind it is the configuration's defining aerodynamic problem and was measured directly, in [Winston and Huston 1962][research_winston_huston_1962], [Goland et al 1964][research_goland_1964], and [Butler et al 1966][research_butler_1966].
 
@@ -313,13 +341,13 @@ so the blade tips are transonic while the aircraft is not. The interference betw
 
 A disc loading of 82.1 pounds per square foot is seven times a helicopter's, and the slipstream leaving the propellers at eighty metres per second has to go somewhere. Near the ground it strikes the surface, spreads, and recirculates, which changes the lift, erodes unprepared surfaces, and can ingest debris.
 
-**This article computes none of that and should say so.** Ground effect for a configuration of this disc loading is its own subject, in [Schuldenfrei 1942][research_schuldenfrei_1942], [Huston and Winston 1960][research_huston_winston_1960], [Obryan 1960][research_obryan_1960], [Morse and Newhouse 1960][research_morse_newhouse_1960], [Curtiss et al 1985][research_curtiss_1985], [Eshlemen 1985][research_eshlemen_1985], [Eshleman et al 1986][research_eshleman_1986], [Allen 2004][research_allen_2004], [Radhakrishnan and Schmitz 2005][research_radhakrishnan_schmitz_2005], [Radhakrishnan and Schmitz 2006][research_radhakrishnan_schmitz_2006], [Hwang and Kwon 2019][research_hwang_kwon_2019], [Greene 2020][research_greene_2020], and the [X-13][related_post_a310_ryan_x13] article met the same problem from the jet-lift side. **A tilt-wing at this disc loading needs a prepared surface for the same reason a tail-sitting jet does**, which is a constraint the transport mission the X-18 was built to prove would have inherited.
+**This article computes none of that and should say so.** The lift side of it was measured for this aircraft. Schade's paper in the 1960 conference compilation, [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], reports that tilt-wing configurations usually experience a small favourable ground effect, that the effect was greater for a model of the X-18 because of its wide flat-bottomed fuselage, that full-scale X-18 tests verified a favourable ground effect of about the same magnitude, and that the ground made the model's attitude stable as it approached. The smaller VZ-2 met the opposite kind of trouble, with ground interference causing erratic motions that limited operation within 19 feet of the ground without automatic stabilisation, in [Pegg's flight tests][ref_pegg_1962]. Ground effect for a configuration of this disc loading is its own subject, in [Schuldenfrei 1942][research_schuldenfrei_1942], [Huston and Winston 1960][research_huston_winston_1960], [Obryan 1960][research_obryan_1960], [Morse and Newhouse 1960][research_morse_newhouse_1960], [Curtiss et al 1985][research_curtiss_1985], [Eshlemen 1985][research_eshlemen_1985], [Eshleman et al 1986][research_eshleman_1986], [Allen 2004][research_allen_2004], [Radhakrishnan and Schmitz 2005][research_radhakrishnan_schmitz_2005], [Radhakrishnan and Schmitz 2006][research_radhakrishnan_schmitz_2006], [Hwang and Kwon 2019][research_hwang_kwon_2019], [Greene 2020][research_greene_2020], and the [X-13][related_post_a310_ryan_x13] article met the same problem from the jet-lift side. **A tilt-wing at this disc loading still needs a prepared surface against erosion and debris**, though not for the loss of lift that Schade finds cannot be eliminated by fixes on a single-jet aircraft, which is a constraint the transport mission the X-18 was built to prove would have inherited.
 
 ## The Flight Test Record
 
-Twenty flights between November 1959 and July 1961. **The X-18 never completed a full conversion and never hovered.** The wing was tilted in flight, but the programme did not reach the vertical.
+The X-18 made twenty flights between November 1959 and July 1961, and the [inventory][ref_american_x_vehicles] calls the flight test programme short and inconclusive. **No source records a hover or a completed conversion.** The wing was tilted in flight, and the [compiled specification][ref_x18] gives a maximum wing-tilt speed of 178 miles an hour, but the hover control was still to be tested on the ground when the programme ended.
 
-On the twentieth flight, in July 1961, a propeller pitch control problem occurred while the aircraft was attempting to convert toward a hover at ten thousand feet. The aircraft entered a spin. The crew recovered and landed, and **the X-18 never flew again.** It was grounded and later scrapped.
+**The sources disagree about how the flying ended.** The [inventory][ref_american_x_vehicles] says that an engine failure on the twentieth flight prematurely terminated the flight test programme. The [encyclopaedia entry][ref_x18] says that on that flight, in July 1961, the X-18 had a propeller pitch control problem while attempting to convert to a hover at ten thousand feet and went into a spin, from which the crew regained control and landed. Neither account is a flight-test report. The two are compatible on the inference that a pitch control fault on one propeller of an aircraft without cross-shafting acts as a partial engine failure, but no source says so. **The X-18 never flew again.** In the [encyclopaedia entry][ref_x18], ground testing continued, a vertical take-off test stand was built on which a single engine run reached the full 15 foot wheel height, and the programme was cancelled on 18 January 1964 before further stand testing, which agrees with the [Air Force history][ref_af_tilt_wing_history] in dating the end of the programme to 1964. The entry says the aircraft was cut up for scrap, while the [inventory][ref_american_x_vehicles] finds no definitive information on its fate and says only that it is generally assumed to have been scrapped at Edwards Air Force Base.
 
 ### How Much Asymmetry That Took
 
@@ -331,9 +359,9 @@ and the aileron authority available must exceed it. At ten thousand feet, where 
 
 | Speed | Aileron moment | Tolerable thrust asymmetry |
 |---|---|---|
-| 30 m/s | 8.1 kN m | 3.04 percent |
+| 30 m/s | 8.2 kN m | 3.04 percent |
 | 40 m/s | 14.5 kN m | 5.40 percent |
-| 50 m/s | 22.6 kN m | 8.44 percent |
+| 50 m/s | 22.7 kN m | 8.44 percent |
 
 **A few percent of thrust asymmetry exhausts the roll control.** A pitch control failure on a propeller is not a small disturbance, so a departure is the expected outcome rather than bad luck.
 
@@ -341,21 +369,23 @@ There is a further and slightly bitter point. The same asymmetry at sea level wo
 
 $$\frac{\varepsilon_{\text{SL}}}{\varepsilon_{10{,}000}} = \frac{\rho_{\text{SL}}}{\rho_{10{,}000}} = 1.354$$
 
-**Converting at ten thousand feet rather than near the ground cost about 26 percent of the available roll authority.** The altitude was chosen for safety, to give room to recover, and it made the departure more likely while making it more survivable. Both of those are true and the programme got the survivable half.
+**Converting at ten thousand feet rather than near the ground cost about 26 percent of the available roll authority.** The altitude gave room to recover, and it made the departure more likely while making it more survivable. Both of those are true and the programme got the survivable half.
 
 ## Comparison With Ground Prediction
 
-The tilt-wing was tested extensively in wind tunnels before and during the X-18's life, including full-scale longitudinal stability work in [Hickey 1956][research_hickey_1956] and the large-scale unswept tilt-wing tests of [Giulianetti and Weiberg 1964][research_giulianetti_weiberg_1964]. The smaller [Vertol VZ-2][ref_vz2] flew the configuration first and its flight results are summarised in the period literature.
+The tilt-wing was tested extensively in wind tunnels before and during the X-18's life, including full-scale longitudinal stability work in [Hickey 1956][research_hickey_1956] and the large-scale unswept tilt-wing tests of [Giulianetti and Weiberg 1964][research_giulianetti_weiberg_1964]. The smaller [Vertol VZ-2][ref_vz2] flew the configuration first, and [Pegg's summary of its flight tests][ref_pegg_1962] found its hovering control power inadequate in yaw, marginal in pitch and excessive in roll. Hiller force-tested and flew a remote-controlled one-eighth scale model of the X-18 in 1958, in reports catalogued in the [Lindenbaum collection][ref_lindenbaum_x18], and small-scale X-18 model data on ground effect appear in Schade's 1960 paper.
+
+**For the XC-142A that followed, descent is what the small tunnel models got wrong.** [Goodson's comparison of wind-tunnel and flight results][ref_goodson_1966] records that models predicted the slow-speed level-flight characteristics very well but that small models underpredicted the airplane's descent capability, while models of about half scale agreed better.
 
 **What the ground testing did not predict, and arguably could not, is the consequence of a control failure during conversion.** A wind tunnel measures the vehicle's aerodynamics. It does not measure what happens when a propeller governor misbehaves at a moment when the aircraft has almost no roll authority. **The X-18's loss was a systems failure expressed through an aerodynamic vulnerability**, and only the second half of that is testable on the ground.
 
 ## What the Data Changed
 
-**The configuration went forward and the aircraft did not.** The [LTV XC-142][ref_xc142] followed directly, with four propellers rather than two, full cross-shafting between all engines, and a much larger immersed fraction of the wing. **Every one of those changes addresses something this article has computed.**
+**The configuration went forward and the aircraft did not.** The [LTV XC-142][ref_xc142] followed, and the [inventory][ref_american_x_vehicles] records that X-18 data was used in its design and development. It had four propellers rather than two along the wing and, in the [Air Force history][ref_af_tilt_wing_history], engines linked so that a single engine could turn all four propellers and the tail rotor. **Every one of those changes addresses something this article has computed.**
 
 Four propellers on a wing immerse more of it than two. Cross-shafting removes the engine-out roll upset entirely, because a failed engine no longer removes a propeller. **The X-18's contribution is a demonstration of what a minimum tilt-wing cannot do**, and the next aircraft was designed against exactly that list.
 
-What it did not change is the underlying limit. **The outer wing is still stalled during conversion on any tilt-wing**, and the XC-142 had its own difficulties in descent for related reasons. The configuration was eventually abandoned in favour of the tilt-rotor, which keeps the wing pointed into the wind and tilts only the rotors, and which is the arrangement that survives today in the [V-22][ref_v22].
+What it did not change is the underlying limit. **The outer wing is still stalled during conversion on any tilt-wing**, and descent remained the critical region for the XC-142A, whose descent capability small tunnel models underpredicted in [Goodson's comparison][ref_goodson_1966] and whose lateral and directional motion becomes less stable as the descent angle increases in tests of a tenth-scale model reported by [DiCarlo][ref_dicarlo_1971]. The configuration was eventually set aside in favour of the tilt-rotor. In the survey of [Deckert and Franklin][ref_deckert_franklin_1989] in 1989, the tilt-wing line of the VZ-2, X-18, CL-84 and XC-142 has no ongoing research and technology, while the tilt-rotor line of the XV-3 and XV-15 has the V-22 scheduled for full-scale development. The tilt-rotor keeps the wing pointed into the wind and tilts only the rotors, which keeps the wing pointed into the wind and tilts only the rotors, and which is the arrangement that survives today in the [V-22][ref_v22].
 
 ## The Contemporary Literature
 
@@ -443,19 +473,19 @@ Electric vertical take-off aircraft have revived tilting configurations at small
 
 **It assumes a stall angle.** The 15 degree figure used throughout is an assumption, and every corridor and descent figure scales with it directly. A thick wing with leading edge devices stalls later, and the fraction of the conversion spent stalled moves with it.
 
-**It treats the slipstream as uniform.** Momentum theory gives an average. A real slipstream is swirling, non-uniform, and differently deflected across the span, and the immersed wing does not see one dynamic pressure.
+**It treats the slipstream as uniform.** Momentum theory gives an average. A real slipstream is non-uniform and differently deflected across the span, and the immersed wing does not see one dynamic pressure. Kirby notes that the simple resolution of velocities is the one obtained with counterrotating propellers, whose slipstream carries no rotation, so the X-18's contra-rotating propellers are the case it describes best and the swirl of a single-rotation propeller is a lesser error here.
 
 **It uses a single representative contraction factor.** The 0.85 is a judgement, and the immersed fraction ranges from 47 to 67 percent across defensible choices, which is a wide band on the article's central quantity.
 
-**It treats the final flight as an aerodynamic event.** It was a control system failure. The aerodynamics explain why the consequence was severe and do not explain why the failure occurred, and no public account of the governor fault was located.
+**It treats the final flight as an aerodynamic event.** In one account it was a propeller pitch control failure and in the other an engine failure. The aerodynamics explain why the consequence was severe and do not explain why the failure occurred, and no public account of the fault exists among the sources cited here.
 
 ## The Source Base
 
 Unlike the two preceding articles, **this subject has a real technical literature**. The tilt-wing was studied intensively by the National Advisory Committee for Aeronautics and its successor, and the configuration's design considerations, wind tunnel behaviour, slipstream interference, and handling qualities are all documented in primary sources.
 
-What is scarce is documentation of **this aircraft**. The technical archive of the National Aeronautics and Space Administration returns nothing for the vehicle designation, and the flight test reports, if they exist publicly, were not located. So the pattern is the inverse of the [X-16][related_post_a313_bell_x16] and [X-17][related_post_a314_lockheed_x17] articles, where the question had a literature and the vehicle did not. **Here the configuration has a literature and the individual airframe does not**, which is a milder version of the same difficulty.
+What is scarce is documentation of **this aircraft**. No report in the Technical Reports Server of the National Aeronautics and Space Administration carries the designation in its title, and no X-18 report appears among the Defense Technical Information Center records registered with Crossref. The aircraft's own engineering record is the Hiller report series in the [Lindenbaum collection][ref_lindenbaum_x18], which is on paper only and contains no catalogued report of flight results. The closest published primary documents are Schade's ground-effect measurements on an X-18 model, which cite full-scale X-18 tests, in [NACA 1960, Conference on V/Stol Aircraft a Co][research_naca_1960_2], and the [Air Force history][ref_af_tilt_wing_history]. So the pattern is the inverse of the [X-16][related_post_a313_bell_x16] and [X-17][related_post_a314_lockheed_x17] articles, where the question had a literature and the vehicle did not. **Here the configuration has a literature and the individual airframe does not**, which is a milder version of the same difficulty.
 
-Every dimension and weight is from secondary compilation. No source disagreement of consequence was found, which is itself unusual for this series and is worth stating.
+Every dimension and weight is from secondary compilation, and the one weight an official source states independently, the Air Force history's sixteen and a half tons, agrees with it. **The sources disagree on three points**, the first flight date of 20 or 24 November 1959, whether the last flight ended with an engine failure or a propeller pitch control problem, and whether the aircraft's scrapping is documented.
 
 ### The Shape of the Reference Base
 
@@ -471,13 +501,15 @@ Of 379 research references, **184 predate 2019 and 195 do not**, so the base div
 
 ## Epistemic State
 
-**Historical fact.** The X-18 was built from a Chase YC-122C fuselage with Allison T40 turboprops taken from the XFY-1 and XFV-1 programmes and a Westinghouse J34 in the tail for pitch control. First hop 11 November 1959, first flight 24 November 1959, twenty flights, last flight July 1961. A propeller pitch control problem during an attempted conversion at ten thousand feet led to a spin from which the crew recovered. The aircraft never hovered, never completed a conversion, and was later scrapped. The engines were not cross-linked. The XC-142 followed with four propellers and full cross-shafting.
+**Historical fact.** The X-18 was built from a Chase YC-122C fuselage with Allison T40 turboprops taken from the XFY-1 and XFV-1 programmes and a Westinghouse J34 in the tail for pitch control. Proposed in 1954, designated in October 1957 and unveiled on 8 December 1958 under Air Force funding. First flight 20 November 1959 in the inventory and 24 November 1959 in the Air Force history, twenty flights, last flight July 1961, fastest 253 miles an hour and highest 35,300 feet. The last flight ended in one account with a propeller pitch control problem during an attempted conversion at ten thousand feet and a spin from which the crew recovered, and in the other with an engine failure. No source records a hover or a completed conversion. The programme was cancelled in January 1964 and the aircraft was cut up for scrap in one account and is generally assumed to have been scrapped in the other. The engines were not cross-linked. The XC-142 followed with four propellers and engines linked so that one could turn all four.
 
-**Engineering analysis, reproducible from the stated inputs.** The local angle of attack relation and its consequence that the immersed panel sits at exactly zero incidence at zero forward speed. The maximum tolerable tilt from 90 degrees at ten metres per second to 30 at sixty. **The conversion corridor, which exists at every speed with a margin between 12.6 and 38.1 degrees of tilt.** The descent rates that close it, from 284 feet per minute at the slow end to 1,351 at the fast end. The induced velocity falling from 40.05 to 24.71 metres per second across the conversion while slipstream dynamic pressure rises from 2,210 to 5,772 pascals. The advance ratio range of 0 to 1.12 and the helical tip Mach number of 0.844. The aspect ratio of 4.348 against a quoted 4.36. The immersed span fraction of 66.8 percent uncontracted, 47.2 fully contracted, and about 57 at a representative factor. The stalled fraction of the conversion at 83.3 percent. The induced velocity of 40.05 metres per second, disc loading of 82.1 pounds per square foot, and slipstream dynamic pressure equivalent to 117 knots. The immersed lift fractions. The hover power of 7,883 ideal horsepower and the implied figure of merit of 0.674. The engine-out rolling moment of 268 kilonewton metres and the aileron fractions. The tolerable thrust asymmetry figures and the 26 percent authority loss at ten thousand feet. The pitch jet crossover at 59 knots.
+**Engineering analysis, reproducible from the stated inputs.** The local angle of attack relation and its consequence that the immersed panel sits at exactly zero incidence at zero forward speed. The maximum tolerable tilt from 90 degrees at ten metres per second to 30 at sixty. **The conversion corridor, which exists at every speed with a margin between 12.6 and 38.0 degrees of tilt.** The descent rates that close it, from 284 feet per minute at the slow end to 1,349 at the fast end, which are upper bounds because the relation holds the slipstream fixed while a real descent reduces power. The induced velocity falling from 40.05 to 24.71 metres per second across the conversion while slipstream dynamic pressure rises from 2,210 to 5,772 pascals. The advance ratio range of 0 to 1.12 and the helical tip Mach number of 0.844. The aspect ratio of 4.364 against a quoted 4.36. The immersed span fraction of 66.7 percent uncontracted, 47.1 fully contracted, and about 57 at a representative factor. The stalled fraction of the conversion at 83.3 percent. The induced velocity of 40.05 metres per second, disc loading of 82.1 pounds per square foot, and slipstream dynamic pressure equivalent to 117 knots. The immersed lift fractions. The hover power of 7,883 ideal horsepower and the implied figure of merit of 0.674. The engine-out rolling moment of 268 kilonewton metres and the aileron fractions. The tolerable thrust asymmetry figures and the 26 percent authority loss at ten thousand feet. The pitch jet crossover at 59 knots.
 
 **Inference, and clearly labelled.** That the outer wing being stalled is the configuration's defining problem is an inference from the geometry and a stall angle, supported by the period literature on tilt-wing stall but not derived from X-18 flight data. **That a corridor exists at every speed rests on a crude lift model** in which the immersed panel is given a linear lift curve to its stall and the outer panel a constant stalled lift coefficient of 0.6. The shape of the result is robust and the individual margins are not. That the XC-142's four propellers and cross-shafting were responses to the X-18's specific failures is an inference from the design changes and their evident purpose.
 
-**What the record does not settle.** What caused the propeller pitch control failure. Whether the X-18 would have converted successfully had it not been grounded. What immersed fraction the designers believed they had. Whether the aircraft was ever close to a hover.
+**Assumed values.** No source states the following, and each is an assumption of this article. The stall angle of 15 degrees, the contraction factor of 0.85, the part-developed slipstream of 1.5 times the induced velocity at the wing, the immersed panel's lift curve and the stalled outer-panel lift coefficient of 0.6, the propeller's lateral station at a quarter span, the aileron effectiveness of 0.08 per radian at 20 degrees of deflection, the pitch jet's arm of 8.64 metres and deflected thrust of a thousand pounds force, the elevator effectiveness of 1.2 per radian at 20 degrees of deflection, and the propeller speed of 1,100 revolutions per minute.
+
+**What the record does not settle.** Whether the last flight ended with a propeller pitch control failure or an engine failure, and what caused it. Whether the scrapping of the aircraft is documented. Whether the X-18 would have converted successfully had it not been grounded. What immersed fraction the designers believed they had. Whether the aircraft was ever close to a hover.
 
 **The pitch jet crossover rests on an assumed elevator effectiveness.** The crossover of 59 knots uses an elevator effectiveness coefficient of about 1.2 per radian, which is the correct order for an aircraft of this class. The crossover speed varies as the inverse square root of that coefficient, so a value of 0.02 per radian would put it at 454 knots, which is implausible for such an aircraft.
 
@@ -495,9 +527,9 @@ The X-18 asked whether a wing could be tilted through ninety degrees and flown a
 
 **Two sixteen-foot propellers on a forty-eight-foot wing immerse a little over half of it.** The immersed part flies at an equivalent 117 knots while the aircraft stands still. **The rest of the wing is stalled for five sixths of the conversion**, and no wing design fixes that, because the wing is pointed away from the air by construction.
 
-That would have been survivable with margin elsewhere. There was none. **The ailerons supply under one percent of the rolling moment an engine failure produces in hover**, the engines were not cross-linked so an engine failure was available to produce it, and a few percent of thrust asymmetry exhausts the roll control during conversion. When a propeller pitch control fault duly appeared, the aircraft departed.
+That would have been survivable with margin elsewhere. There was none. **The ailerons supply under one percent of the rolling moment an engine failure produces in hover**, the engines were not cross-linked so an engine failure was available to produce it, and a few percent of thrust asymmetry exhausts the roll control during conversion. When a propeller pitch control fault, or in the other account an engine failure, duly appeared, the aircraft departed.
 
-**The configuration was not wrong and this aeroplane was under-equipped for it, and the corridor calculation is what establishes that rather than merely asserting it.** A usable tilt margin exists at every speed, between twelve and thirty-eight degrees, so the tilt-wing is a sound idea that this particular aeroplane could not exploit. The XC-142 answered with twice the propellers, full cross-shafting, and a far larger immersed fraction, which is a list of the X-18's deficiencies written as a specification. **The X-18's contribution was to establish, expensively and at the edge of a fatal accident, what the minimum version of the idea could not do.**
+**The configuration was not wrong and this aeroplane was under-equipped for it, and the corridor calculation is what establishes that rather than merely asserting it.** A usable tilt margin exists at every speed, between twelve and thirty-eight degrees, so the tilt-wing is a sound idea that this particular aeroplane could not exploit. The XC-142 answered with twice the propellers along the wing and engines linked so that one could turn them all, which is a list of the X-18's deficiencies written as a specification. **The X-18's contribution was to establish, expensively and at the edge of a fatal accident, what the minimum version of the idea could not do.**
 
 ## References
 
@@ -514,16 +546,30 @@ That would have been survivable with margin elsewhere. There was none. **The ail
 ### Reference
 
 - [Allison T40][ref_t40]
+- [Bernard Lindenbaum Vertical Flight Research Collection, Box 97, Tilt-Wing X-18 Hiller Model 1051, Wright State University Special Collections][ref_lindenbaum_x18]
 - [Chase YC-122C Avitruc][ref_yc122]
 - [Convair XFY-1 Pogo][ref_xfy1]
+- [Deckert and Franklin, Powered-Lift Aircraft Technology, NASA SP-501, 1989][ref_deckert_franklin_1989]
+- [DiCarlo, The Lateral/Directional Stability Characteristics of a Four-Propeller Tilt-Wing V/STOL Model in Low-Speed Steep Descent, 1971][ref_dicarlo_1971]
+- [Goodson, Comparison of Wind-Tunnel and Flight Results on a Four-Propeller Tilt-Wing Configuration, 1966][ref_goodson_1966]
 - [Hiller X-18][ref_x18]
+- [Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]
 - [Lockheed XFV-1][ref_xfv1]
 - [LTV XC-142][ref_xc142]
+- [Michalke, Tilt-Wing Aircraft Traces Beginnings to 1954, 16th Special Operations Wing History Office, 2006][ref_af_tilt_wing_history]
+- [Pegg, Summary of Flight-Test Results of the VZ-2 Tilt-Wing Aircraft, NASA TN D-989, 1962][ref_pegg_1962]
 - [V-22][ref_v22]
 - [Vertol VZ-2][ref_vz2]
 - [Westinghouse J34][ref_j34]
 
+[ref_af_tilt_wing_history]: https://www.hurlburt.af.mil/News/Features/Display/Article/206677/tilt-wing-aircraft-traces-beginnings-to-1954/
+[ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
+[ref_deckert_franklin_1989]: https://ntrs.nasa.gov/citations/19900003273
+[ref_dicarlo_1971]: https://ntrs.nasa.gov/citations/19740024326
+[ref_goodson_1966]: https://ntrs.nasa.gov/citations/19660015322
 [ref_j34]: https://en.wikipedia.org/wiki/Westinghouse_J34
+[ref_lindenbaum_x18]: https://wright.libraryhost.com/repositories/2/top_containers/16090
+[ref_pegg_1962]: https://ntrs.nasa.gov/citations/19980227196
 [ref_t40]: https://en.wikipedia.org/wiki/Allison_T40
 [ref_v22]: https://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey
 [ref_vz2]: https://en.wikipedia.org/wiki/Vertol_VZ-2

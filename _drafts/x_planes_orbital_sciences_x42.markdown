@@ -74,7 +74,10 @@ suit the payload in hand\[[USFE X-42][ref_x42_parsch]\].
 **The propellant decision came from studies rather than from preference.** Work sponsored by the
 laboratory in 1997 and carried out by TRW and Rocketdyne examined which propellants met the storability
 and non toxicity requirements, and concluded that high concentration hydrogen peroxide with a
-hydrocarbon fuel was the best fit. **The published rationale for that combination appears in a 1998
+hydrocarbon fuel was the best fit\[[USFE X-42][ref_x42_parsch]\]. A Modular Insertion Stage conceptual design study by Boeing
+Rocketdyne, issued as an Air Force Research Laboratory technical report in 1998, then validated the
+choice of a pressure-fed engine for that mission\[[McNeal and Anderson 1999][research_mcneal_1999]\].
+**The published rationale for that combination appears in a 1998
 paper by Anderson and colleagues at the Joint Propulsion Conference**, which set out the case for a
 high density, storable and clean propellant combination as the basis for low cost
 propulsion\[[Anderson and others 1998][research_anderson_1998]\]. The same argument was put to a wider
@@ -89,12 +92,22 @@ the catalyst development that any peroxide engine depends
 on\[[Morlan and others 1999][research_morlan_1999]\].
 
 The laboratory then partnered with the Marshall Space Flight Center of the National Aeronautics and
-Space Administration, abbreviated NASA, which took on funding and
-management of further development jointly with the Air Force. **Orbital Sciences Corporation received
-the contract to design, develop and demonstrate the stage**, working from its Launch Services Group at
-Chandler, Arizona\[[Ross and others 2000][research_ross_2000]\]. The flight article was called the Upper
-Stage Flight Experiment, abbreviated USFE throughout the primary literature and occasionally so here,
-and it was the flight demonstrator for the Modular Insertion Stage concept.
+Space Administration, abbreviated NASA, which took on funding and management of further development
+jointly with the Air Force, and Marshall's Bantam low cost lift programme supplied the contractual
+framework\[[USFE X-42][ref_x42_parsch]\]. **Orbital Sciences Corporation received the contract to design, develop and demonstrate
+the stage**, working from its Launch Services Group at Chandler, Arizona\[[Ross and others 2000][research_ross_2000]\], and NASA dates the start of
+that work to December 1997\[[McNeal and Anderson 1999][research_mcneal_1999]\]. The flight article was called the Upper Stage Flight Experiment,
+abbreviated USFE throughout the primary literature and occasionally so here, and it was the flight
+demonstrator for the Modular Insertion Stage concept.
+
+**The operational stage it stood for was meant to be cheap enough to stockpile.** The structures paper
+describes the Modular Insertion Stage as a very low cost expendable liquid upper stage for a reusable or
+responsive expendable launcher, to be stored fully fuelled for up to a year with its payload integrated,
+at an estimated initial production cost of 800,000 dollars, which the paper puts at less than one fifth
+of the cost of a comparable storable liquid upper stage then available\[[Guerrero and others 2004][research_guerrero_2004]\]. The USFE itself was designed
+for a suborbital flight from the launch site at Kodiak, Alaska, on the first and second stages of
+Orbital's Orbital/Suborbital Program vehicle, and the same stage was to be ground tested at Stennis
+first and then refurbished for flight.
 
 **The institutional arrangement matters to what followed.** Three organisations funded or managed the
 work, being the Air Force Research Laboratory Space Vehicles Directorate, NASA Marshall, and Orbital
@@ -126,12 +139,11 @@ allocated. **The preceding article in this series established that X-41A was all
 early 1998, years before the programme it is now attached to, and that the authoritative survey doubts
 it ever applied to that vehicle**\[[X-41 CAV][ref_x41_parsch]\]. The two allocations are neighbours in the number space
 and neighbours in time, and both were made for a family of concepts that the Air Force Research
-Laboratory Space Vehicles Directorate was defining in exactly that period. **The directorate is
-reported to have issued a request for proposals in January 1998** asking industry to study aspects of
-advanced military space technology, which would place the request inside the allocation window rather
-than after it. **That date reaches this article through programme summaries rather than through a
-document, and no primary document stating it is available**, so it is reported with the
-qualification and the argument does not lean on it.
+Laboratory Space Vehicles Directorate was defining in exactly that period. **The directorate issued a
+request for proposals in January 1998** asking industry to study aspects of advanced military space
+technology, pop-up upper stages among them, according to the same survey\[[USFE X-42][ref_x42_parsch]\], which would place the
+request inside the allocation window rather than after it. **No Air Force document stating that date
+is available**, so the argument does not lean on it.
 
 **The second usage is unofficial and it is a different vehicle entirely.** In 2002 the laboratory and
 industry used X-42 informally for a candidate reusable launch vehicle demonstrator. Orbital Sciences
@@ -222,7 +234,8 @@ $$\rho_{b} = \frac{1 + \mathit{MR}}{\dfrac{\mathit{MR}}{\rho_{o}} + \dfrac{1}{\r
 
 The engine ran at a mixture ratio of 4.7 on ninety percent hydrogen peroxide, known as high test
 peroxide or HTP, and the jet fuel JP-8\[[Ross and others 2000][research_ross_2000]\].
-Taking the oxidiser density as 1.387 grams per cubic centimetre and the fuel as 0.804, the bulk density
+Taking the oxidiser density as 1.387 grams per cubic centimetre and the fuel as 0.804, values assumed
+here and listed under Assumed Values, the bulk density
 is
 
 $$\rho_{b} = \frac{5.7}{\dfrac{4.7}{1.387} + \dfrac{1}{0.804}} = 1.230 \ \text{g/cm}^{3}$$
@@ -236,7 +249,8 @@ At a delivered vacuum specific impulse of 275 seconds,
 
 $$I_{\rho} = 1.230 \times 275 = 338 \ \text{g}\,\text{cm}^{-3}\,\text{s}$$
 
-**The comparison is the argument.**
+**The comparison is the argument**, and the figures for the three other combinations are
+representative values assumed here rather than figures from any source on this vehicle.
 
 | Combination | $\rho_{b}$, g/cm³ | $I_{sp}$, s | $I_{\rho}$ |
 |---|---|---|---|
@@ -252,9 +266,10 @@ tracks volume rather than propellant mass, that is the column that decides the d
 
 ### The Materials Lever
 
-The specific strength $\sigma / \rho_{m}$ of a filament wound carbon and epoxy laminate is between
-roughly $1.0 \times 10^{6}$ and $1.6 \times 10^{6}$ joules per kilogram depending on whether one takes
-a design allowable or the fibre limit. For aluminium alloy 2219 in the T87 condition, which is the alloy the American launch vehicle industry
+The specific strength $\sigma / \rho_{m}$ of a filament wound carbon and epoxy laminate is taken here to
+lie between roughly $1.0 \times 10^{6}$ and $1.6 \times 10^{6}$ joules per kilogram, an assumed range
+whose ends correspond to a design allowable and to the fibre limit. For aluminium alloy 2219 in the T87
+condition, which is the alloy the American launch vehicle industry
 used for propellant tanks and whose properties are tabulated in the standard
 reviews\[[Simon and others 1991][research_simon_1991]\]\[[NASA 1974][research_nasa_sp8088]\], with a yield
 strength near 400 megapascals at a density of 2,840 kilograms per cubic metre, it is
@@ -266,16 +281,15 @@ The ratio of the two is the whole materials argument,
 $$\frac{\left( \sigma / \rho_{m} \right)_{\text{composite}}}{\left( \sigma / \rho_{m} \right)_{\text{aluminium}}} = \frac{1.0 \ \text{to} \ 1.6 \times 10^{6}}{1.41 \times 10^{5}} = 7.1 \ \text{to} \ 11.4$$
 
 **The composite advantage is a factor of between seven and eleven.** Applied to the same tank at the
-same pressure, that is the difference between a tank that costs a few percent of the propellant mass
-and one that costs a fraction of a percent, and it is what makes the pressure-fed choice defensible at
-all.
+same pressure, that is the difference between a tank that costs nearly a tenth of the propellant mass
+and one that costs about one percent, as the table below shows, and it is what makes the pressure-fed
+choice defensible at all.
 
-**The programme built exactly the tank this relation calls for.** The structure was an integral
-carbon and epoxy part combining both propellant tanks and the forward and aft skirts in a single piece,
-with a common bulkhead separating oxidiser from fuel, filament wound over a plastic liner that served
-as the mandrel\[[Guerrero and others 2004][research_guerrero_2004]\]. **The common bulkhead is the same relation applied again**, because
-removing one bulkhead and the intertank between two separate tanks removes both its mass and the volume
-it occupied.
+**The programme built exactly the tank this relation calls for.** The structure was a carbon and epoxy
+assembly combining both propellant tanks and the skirt, with a common bulkhead separating oxidiser from
+fuel, filament wound over fluoropolymer liners that served as the mandrel\[[Guerrero and others 2004][research_guerrero_2004]\]. **The common bulkhead is
+the same relation applied again**, because removing one bulkhead and the intertank between two separate
+tanks removes both its mass and the volume it occupied.
 
 **Filament winding is not an arbitrary manufacturing choice either, and the angle follows from the same
 membrane statics.** A cylinder of radius $R$ under internal pressure $p$ carries a hoop load and an
@@ -297,87 +311,106 @@ failure criterion moves the angle away from 54.7 degrees by an amount that depen
 the end closures\[[Geng and others 2016][research_geng_2016]\]. **The article uses the netting result
 because it explains the choice, not because it would size the vessel.**
 
-### The Propellant Load, and What the Published Table Fixes
+### The Propellant Load, and What the Published Tables Fix
 
-**Two numbers in the published engine table determine the size of the whole vehicle.** The engine
-consumed 36.0 pounds per second and burned for 200 seconds, so
+**The engine table and the structures paper fix the size of the stage between them, and they do not
+describe the same burn.** The engine was rated for 36.0 pounds per second over a 200 second burn\[[Ross and others 2000][research_ross_2000]\],
+which is a load of
 
 $$m_{p} = \dot{m} \, t_{b} = 36.0 \times 200 = 7{,}200 \ \text{lbm}$$
 
-The mixture ratio then splits that load, since the two flows are in the ratio $\mathit{MR}$ by mass,
+The stage that was built carried far less. The structures paper gives tank volumes of 44.8 cubic feet
+for the oxidiser and 15.5 for the fuel, a structure 190 inches long and 50 inches in diameter, and a
+flight burn of 110 seconds\[[Guerrero and others 2004][research_guerrero_2004]\]. At the same flowrate that burn consumes
 
-$$m_{o} = m_{p} \frac{\mathit{MR}}{1 + \mathit{MR}} = 7{,}200 \times \frac{4.7}{5.7} = 5{,}937 \ \text{lbm}$$
+$$m_{p} = 36.0 \times 110 = 3{,}960 \ \text{lbm}$$
 
-$$m_{f} = \frac{m_{p}}{1 + \mathit{MR}} = \frac{7{,}200}{5.7} = 1{,}263 \ \text{lbm}$$
+and the mixture ratio splits it, since the two flows are in the ratio $\mathit{MR}$ by mass,
 
-and dividing each by its density gives the volume the tank must enclose,
+$$m_{o} = m_{p} \frac{\mathit{MR}}{1 + \mathit{MR}} = 3{,}960 \times \frac{4.7}{5.7} = 3{,}265 \ \text{lbm} \qquad m_{f} = \frac{m_{p}}{1 + \mathit{MR}} = \frac{3{,}960}{5.7} = 695 \ \text{lbm}$$
 
-$$V_{o} = \frac{m_{o}}{\rho_{o}} = \frac{5{,}937}{86.6} = 68.6 \ \text{ft}^{3} \qquad V_{f} = \frac{m_{f}}{\rho_{f}} = \frac{1{,}263}{50.2} = 25.2 \ \text{ft}^{3}$$
+Dividing each by its density gives the volume it occupies, and setting the sum against the two tanks
+gives the fill,
 
-$$V = V_{o} + V_{f} = 93.8 \ \text{ft}^{3} = 2.655 \ \text{m}^{3}$$
+$$V_{o} = \frac{m_{o}}{\rho_{o}} = \frac{3{,}265}{86.6} = 37.7 \ \text{ft}^{3} \qquad V_{f} = \frac{m_{f}}{\rho_{f}} = \frac{695}{50.2} = 13.8 \ \text{ft}^{3} \qquad \frac{37.7 + 13.8}{44.8 + 15.5} = \frac{51.5}{60.3} = 0.855$$
 
-**The oxidiser tank is larger than the fuel tank by a factor of 2.73 in volume**, which is the
-proportion the common bulkhead had to be placed at, and which depends only on the mixture ratio and
-the two densities,
+**So the 110 second burn fills about 85 percent of the tanks**, and the remainder is ullage and margin.
+Full, the tanks would hold
 
-$$\frac{V_{o}}{V_{f}} = \mathit{MR} \, \frac{\rho_{f}}{\rho_{o}} = 4.7 \times \frac{50.2}{86.6} = 2.73$$
+$$44.8 \times 86.6 = 3{,}879 \ \text{lbm} \qquad 15.5 \times 50.2 = 778 \ \text{lbm} \qquad \frac{3{,}879 + 778}{36.0} = 129 \ \text{s}$$
 
-Applying the keystone at a tank pressure of 733 pounds per square inch absolute, derived in the next
-subsection, gives the tank mass for each candidate material. Taking the cylindrical constant and the
-composite design allowable as the worked instance,
+which is 129 seconds of running and nowhere near the engine's 200 second rating. The volume ratio of the
+tanks is also not the one the engine table implies,
 
-$$m_{t} = k \frac{p V}{\sigma / \rho_{m}} = 2 \times \frac{5.06 \times 10^{6} \times 2.655}{1.0 \times 10^{6}} = 26.8 \ \text{kg}$$
+$$\frac{V_{o}}{V_{f}} = \frac{44.8}{15.5} = 2.89 \qquad \text{against} \qquad \mathit{MR} \, \frac{\rho_{f}}{\rho_{o}} = 4.7 \times \frac{50.2}{86.6} = 2.72$$
 
-which against 3,266 kilograms of propellant is 0.82 percent.
+and read backwards at these densities the tanks correspond to a mixture ratio of
+$2.89 \times 86.6 / 50.2 = 4.99$. **The record does not say why the tanks were sized this way.**
+
+Applying the keystone at the published tank operating pressure of 1,100 pounds per square inch absolute,
+which is 7.584 megapascals and is taken up in the next subsection, to the 60.3 cubic feet or 1.708 cubic
+metres the tanks enclose gives the tank mass for each candidate material. Taking the cylindrical
+constant and the composite design allowable as the worked instance,
+
+$$m_{t} = k \frac{p V}{\sigma / \rho_{m}} = 2 \times \frac{7.584 \times 10^{6} \times 1.708}{1.0 \times 10^{6}} = 25.9 \ \text{kg}$$
+
+and the fraction of the propellant those tanks hold follows from the keystone without reference to the
+volume,
+
+$$\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{b} \left( \sigma / \rho_{m} \right)} = \frac{2 \times 7.584 \times 10^{6}}{1230 \times 1.0 \times 10^{6}} = 0.0123$$
 
 | Material | $\sigma / \rho_{m}$, J/kg | $m_{t}$, kg | Fraction of propellant mass |
 |---|---|---|---|
-| Carbon and epoxy, design allowable | $1.0 \times 10^{6}$ | 26.8 | 0.82 % |
-| Carbon and epoxy, fibre limit | $1.6 \times 10^{6}$ | 16.8 | 0.51 % |
-| Aluminium 2219-T87 | $1.41 \times 10^{5}$ | 190.6 | 5.84 % |
+| Carbon and epoxy, design allowable | $1.0 \times 10^{6}$ | 25.9 | 1.23 % |
+| Carbon and epoxy, fibre limit | $1.6 \times 10^{6}$ | 16.2 | 0.77 % |
+| Aluminium 2219-T87 | $1.41 \times 10^{5}$ | 183.9 | 8.75 % |
 
 **These are ideal membrane figures and the real structure is a multiple of them**, because the proof
 factor, the liner, the bosses, the skirts and the common bulkhead all add mass that this relation does
 not see. **The ratio between the rows is what the design turns on, and the ratio is not sensitive to
 any of those omissions**, because they apply to both materials.
 
-### The Tank Pressure, Which Two Papers Settle Between Them
+### The Tank Pressure, and the Margin It Leaves
 
-**The tank pressure is the one number the design hinges on that neither paper states plainly.**
+**The structures paper states the tank pressure directly.** The maximum expected operating pressure of
+the propellant tanks is 1,100 pounds per square inch absolute, the hydrostatic proof test took both
+tanks to 150 percent of it, and the design carries a burst safety factor of 2.0\[[Guerrero and others 2004][research_guerrero_2004]\], so
 
-The structures paper records that the hydrostatic proof test pressurised both propellant tanks to
-150 percent of the maximum expected operating pressure, which it gives as 1,100 pounds per square inch
-absolute\[[Guerrero and others 2004][research_guerrero_2004]\]. **The sentence admits two readings.** Either 1,100 is the proof pressure, in
-which case the maximum expected operating pressure is
+$$p_{\text{proof}} = 1.5 \, p_{\text{MEOP}} = 1.5 \times 1{,}100 = 1{,}650 \ \text{psia} \qquad p_{\text{burst}} \geq 2.0 \times 1{,}100 = 2{,}200 \ \text{psia}$$
 
-$$p_{\text{MEOP}} = \frac{1100}{1.5} = 733 \ \text{psia}$$
+where MEOP is the maximum expected operating pressure.
 
-or 1,100 is the operating pressure and the proof test ran to 1,650 pounds per square inch absolute.
-
-**The engine paper settles it without ever mentioning the tank.** A pressure-fed system must deliver
-propellant to the chamber against every loss between the tank and the chamber, so
+**The engine paper bounds the same number from below without ever mentioning the tank.** A pressure-fed
+system must deliver propellant to the chamber against every loss between the tank and the chamber, so
 
 $$p_{\text{tank}} \geq p_{c} + \Delta p_{\text{bed}} + \Delta p_{\text{inj}} + \Delta p_{\text{line}}$$
 
 The chamber ran at 500 pounds per square inch absolute, and the measured catalyst bed pressure drop was
-136 pounds per square inch for the flight-like bed and 164 for the cartridge bed\[[Ross and others 2000][research_ross_2000]\].
-**That establishes a floor of 636 pounds per square inch absolute before any injector, feed line or
-flow control loss is counted at all.**
+136 pounds per square inch for the flight-like bed and 164 for the cartridge bed\[[Ross and others 2000][research_ross_2000]\]. **That establishes a
+floor of 636 pounds per square inch absolute on the oxidiser side before any injector, feed line,
+regulator or flow control loss is counted at all**, and the operating pressure leaves
 
-A maximum expected operating pressure of 733 leaves 97 pounds per square inch for the injector, the
-lines and the cavitating venturis, which is tight but ordinary. A maximum expected operating pressure of
-1,100 would leave 464 pounds per square inch for those same losses, which is most of the chamber
-pressure again and is not a design anyone would build. **The physical reading is therefore that the
-maximum expected operating pressure was 733 pounds per square inch absolute and the proof test ran to
-1,100.** This is an inference and it is marked as one in the Epistemic State, but it is an inference
-that two independent papers, written by different teams four years apart, agree on without either
-having been written to support it.
+$$1{,}100 - 636 = 464 \ \text{psi} \qquad \frac{464}{1{,}100} = 0.42$$
+
+for those losses, 42 percent of the tank pressure, to be shared by the injector, the lines, the
+regulators and the cavitating venturis described below.
+
+**The common bulkhead records the bed drop a second time.** The structures paper's test section gives
+the maximum expected pressure difference across the bulkhead as 195 pounds per square inch with the
+oxidiser tank higher and 140 with the fuel tank higher, although its requirements table lists only the
+140\[[Guerrero and others 2004][research_guerrero_2004]\]. Only the oxidiser passes through the catalyst bed, so the oxidiser tank must run above the fuel
+tank by at least the bed drop, and the larger design difference covers it,
+
+$$195 - 136 = 59 \ \text{psi}$$
+
+with room to spare. That reading is an inference, and the paper does not give the reason for the
+asymmetry.
 
 ### What the Stage Could Do, as a Family Rather Than a Number
 
 **The stage's inert mass was never published, so this article cannot state a velocity increment and
-will not pretend to.** What it can do is bound the answer, because everything except the inert mass is
-known.
+will not pretend to.** What it can do is bound the answer, because the propellant load and the specific
+impulse are known.
 
 The velocity increment available from a stage follows from the rocket equation,
 
@@ -388,26 +421,26 @@ velocity,
 
 $$c = g I_{sp} = 32.174 \times 275 = 8{,}848 \ \text{ft/s} = 2{,}697 \ \text{m/s}$$
 
-The propellant load is fixed at 7,200 pounds by the flowrate and burn time, so the two masses are
+The propellant load of the stage as built is the 3,960 pounds of the 110 second burn, so the two masses
+are
 
 $$m_{0} = m_{p} + m_{i} + m_{\ell} \qquad m_{f} = m_{i} + m_{\ell}$$
 
-with $m_{i}$ the inert mass and $m_{\ell}$ the payload. Sweeping plausible values of both gives the
-family below.
+with $m_{i}$ the inert mass and $m_{\ell}$ the payload. **The engine alone accounts for 258 pounds of
+the inert mass** in the component weight estimate NASA published\[[McNeal and Anderson 1999][research_mcneal_1999]\], so the inert masses swept below,
+which are assumed values and not figures from the record, start well above it.
 
 | Inert, lbm | Payload, lbm | $m_{0}/m_{f}$ | $\Delta V$, m/s |
 |---|---|---|---|
-| 600 | 2,000 | 3.769 | 3,578 |
-| 600 | 4,000 | 2.565 | 2,541 |
-| 800 | 3,000 | 2.895 | 2,866 |
-| 1,000 | 2,000 | 3.400 | 3,300 |
-| 1,000 | 4,000 | 2.440 | 2,406 |
-| 1,200 | 4,000 | 2.385 | 2,344 |
+| 600 | 0 | 7.600 | 5,470 |
+| 600 | 2,000 | 2.523 | 2,496 |
+| 800 | 1,000 | 3.200 | 3,137 |
+| 1,000 | 0 | 4.960 | 4,319 |
+| 1,000 | 1,000 | 2.980 | 2,945 |
+| 1,000 | 2,000 | 2.320 | 2,270 |
 
-**The family spans roughly 2,340 to 3,580 metres per second**, and a pop-up stage completing insertion
-from a suborbital release is asked for something in the region of two to three kilometres per second.
-**The vehicle is the right size for the job it was described as doing**, which is a weak statement and
-the strongest one the published record supports.
+**By the rocket equation above the family spans roughly 2,270 to 5,470 metres per second**, and its top
+belongs to a stage carrying no payload at all. **Which row describes the vehicle is exactly what the record does not say.**
 
 ## Dependent Systems
 
@@ -418,7 +451,8 @@ description is the design rather than a simplification.**
 
 Concentrated hydrogen peroxide decomposes exothermically over a catalyst into oxygen and steam at
 around 740 degrees Celsius for the ninety percent grade. **That temperature is not a property of
-peroxide alone but of the dilution**, and it follows from an energy balance the article can carry out.
+peroxide alone but of the dilution**, and it follows from an energy balance, carried out here with the assumed constants listed under
+Assumed Values.
 The reaction is
 
 $$\mathrm{H_{2}O_{2}} \ (l) \longrightarrow \mathrm{H_{2}O} \ (l) + \tfrac{1}{2} \mathrm{O_{2}} \ (g) \qquad \Delta H = -98.0 \ \text{kJ/mol}$$
@@ -453,22 +487,23 @@ and emerged as hot oxygen-rich steam. Fuel was then injected into that stream.
 **The fuel ignites on contact with the decomposition products and no ignition system is required.**
 This is the property that makes the combination attractive for a stage expected to restart, and the
 engine demonstrated multiple restarts during the first development test series. **The design condition
-for it is thermal**, and the paper records that a contraction ratio of at least seven was chosen
-specifically to ensure autoignition of the fuel, the eventual value being 7.1. A ten inch chamber diameter follows.
+for it is thermal**, and the paper records that a contraction ratio of about seven was chosen to ensure
+autoignition of the fuel, the eventual value being 7.1, and that the chamber inner diameter of ten
+inches followed\[[Ross and others 2000][research_ross_2000]\].
 
 **A contraction ratio of seven is a statement about gas speed.** The isentropic area relation fixes the
 chamber Mach number from the ratio of chamber area to throat area,
 
 $$\frac{A_{c}}{A_{t}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) \right]^{\frac{\gamma + 1}{2(\gamma - 1)}}$$
 
-and at a ratio of 7.1 with a ratio of specific heats of 1.25 the subsonic root is $M = 0.083$. The
+and at a ratio of 7.1 with an assumed ratio of specific heats of 1.25 the subsonic root is $M = 0.083$. The
 static temperature is then within a tenth of a percent of the stagnation value,
 
 $$\frac{T}{T_{0}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{-1} = 0.999$$
 
 **So the chamber is very nearly a stagnant reservoir of hot decomposition products**, which is exactly
-the condition under which injected fuel has time to heat and ignite. The paper's requirement of a
-contraction ratio of at least seven is a residence-time and temperature requirement stated as a
+the condition under which injected fuel has time to heat and ignite. The paper's choice of a
+contraction ratio of about seven is a residence-time and temperature requirement stated as a
 geometry.
 
 **The catalyst bed can be sized from the same table.** It passes only the oxidiser, so
@@ -476,7 +511,7 @@ geometry.
 $$\dot{m}_{o} = \dot{m} \frac{\mathit{MR}}{1 + \mathit{MR}} = 36.0 \times \frac{4.7}{5.7} = 29.7 \ \text{lb/s}$$
 
 and at the published bed mass flux of 0.4 pounds per second per square inch, which the authors place
-inside the historical operating range for silver screen beds, the bed frontal area and diameter are
+inside the historical operating range for silver screen beds\[[Ross and others 2000][research_ross_2000]\], the bed frontal area and diameter are
 
 $$A_{\text{bed}} = \frac{\dot{m}_{o}}{G} = \frac{29.7}{0.4} = 74.2 \ \text{in}^{2} \qquad D_{\text{bed}} = 2 \sqrt{\frac{A_{\text{bed}}}{\pi}} = 9.72 \ \text{in}$$
 
@@ -485,28 +520,35 @@ the first of three independent consistency checks this article makes on the publ
 flux and the chamber diameter were reported in different sections for different reasons, and they agree
 to three percent.
 
-**The deep throttling the engine demonstrated was not free, and the headline paper does not say what it
-cost.** A companion paper presented at the same conference reports a low frequency instability in the
-catalyst bed that appeared as the peroxide flow fell to about one third of the design
-rate\[[Johnson and others 2000][research_johnson_2000]\]. The authors built a dynamic model of the bed
-and chamber, correlated it against the test data, and eliminated the instability through modifications
-to the combustion chamber, after which the engine ran stably.
+**The engine also had a low frequency instability, and the direction in which it appeared matters.** A
+companion paper presented at the same conference reports that in monopropellant tests at Stennis the
+catalyst bed developed an 18 hertz pressure oscillation as the peroxide flow was ramped up through about
+12 pounds per second, which the authors call about one third of the design rate, and that the onset
+recurred at that flow every time\[[Johnson and others 2000][research_johnson_2000]\]. Against the oxidiser flow derived above,
 
-**The interesting part is the arithmetic.** The instability appeared near one third of design flow, and
-the throttling the engine ultimately demonstrated reached 20 percent of design flow in bipropellant
-mode and 10 percent in monopropellant mode. **The demonstrated throttle range therefore lies below the
-flow at which the untreated engine went unstable**, which means the chamber modification did not merely
-improve the engine, it was the precondition for the throttling result the other paper reports.
-**Reading the 10 percent throttling claim without the instability paper gives a false impression of how
-easily it was obtained**, and this article treats the pair as one result.
+$$\frac{12}{29.7} = 0.40$$
+
+The authors built a dynamic model of the bed and chamber, correlated it against the test data, traced
+the instability to channelling that let the decomposition plane sink deep into the bed, and report a
+combustion chamber configuration that removed it, after which the engine ran stably.
+
+**The instability therefore sat between the throttled points and the design point, not below them.** The
+throttling the engine demonstrated reached 20 percent in bipropellant mode and 10 percent in
+monopropellant mode\[[Ross and others 2000][research_ross_2000]\], which taken as fractions of design oxidiser flow are
+
+$$0.20 \times 29.7 = 5.9 \ \text{lb/s} \qquad 0.10 \times 29.7 = 3.0 \ \text{lb/s}$$
+
+both below the 12 pound per second onset, and the instability test itself began stably at about 6 pounds
+per second\[[Johnson and others 2000][research_johnson_2000]\]. **What the fix bought was passage through 12 pounds per second on the way to full flow**,
+which every start to design thrust requires. The record does not say whether the throttling
+demonstrations came before or after the fix.
 
 A catalyst bed is not a static component. The published data show bed pressure drop rising steadily
-with accumulated run time, which for a silver screen bed is the expected ageing signature as the screens
-sinter, deform and lose active surface. **The bed is therefore a life-limited item**, and the article
-notes below that the published record never states what that life is. **The obvious answer to a
-screen bed that ages is to stop using screens**, and work on monolithic peroxide catalyst beds
-continued after this programme
-ended\[[Ponzo 2003][research_ponzo_2003]\].
+with accumulated run time\[[Ross and others 2000][research_ross_2000]\], which for a silver screen bed is the expected ageing signature as the
+screens sinter, deform and lose active surface, although the 1999 paper reports more than 700 seconds of
+running on one bed without performance degradation\[[Anderson and others 1999][research_anderson_usfe]\]. **The bed is therefore a life-limited item whose
+life the published record never states.** Work on monolithic peroxide catalyst beds, which avoid
+screens altogether, continued after this programme ended\[[Ponzo 2003][research_ponzo_2003]\].
 
 The published operating point is compact enough to reproduce in full.
 
@@ -532,8 +574,26 @@ and $36.0 \times 275 = 9{,}900$ pounds of thrust rather than 10,000. **The discr
 
 $$\dot{m} = \frac{F}{I_{sp}} = \frac{10{,}000}{275} = 36.36 \ \text{lb/s} \qquad \text{or} \qquad I_{sp} = \frac{F}{\dot{m}} = \frac{10{,}000}{36.0} = 277.8 \ \text{s}$$
 
-The internal evidence favours the latter, because the geometry closes on it. From the
-contraction ratio and chamber diameter the throat area is
+**The earlier papers explain the discrepancy.** The 1999 papers give the same thrust, flowrate, chamber
+pressure, area ratios, burn time and envelope, but on 85 percent peroxide at a mixture ratio of 6.0 with
+a delivered specific impulse of 278 seconds\[[McNeal and Anderson 1999][research_mcneal_1999]\]\[[Anderson and others 1999][research_anderson_usfe]\], and that set closes to rounding, since
+$10{,}000 / 36.0 = 277.8$. The 2000 table changed the concentration, the mixture ratio and the specific
+impulse and carried thrust and flowrate over unchanged. Its 275 seconds is itself a prediction, built
+from a demonstrated characteristic velocity efficiency of 0.97 and an assumed nozzle efficiency of
+0.98\[[Ross and others 2000][research_ross_2000]\], which together imply an ideal value of
+
+$$I_{sp,\text{ideal}} = \frac{275}{0.97 \times 0.98} = 289.3 \ \text{s}$$
+
+The instability paper prints yet another operating point, 9,480 pounds of vacuum thrust at 485 pounds
+per square inch with 30.2 pounds per second of peroxide and 5.8 of fuel and a specific impulse of 264
+seconds\[[Johnson and others 2000][research_johnson_2000]\], which is
+
+$$\mathit{MR} = \frac{30.2}{5.8} = 5.21 \qquad \frac{9{,}480}{30.2 + 5.8} = 263.3 \ \text{s}$$
+
+**The table is a design point that moved between papers**, and a one percent non-closure is what
+carrying two of its numbers across a revision leaves behind.
+
+From the contraction ratio and chamber diameter the throat area is
 
 $$A_{t} = \frac{A_{c}}{\varepsilon_{c}} = \frac{\pi (10/2)^{2}}{7.1} = 11.06 \ \text{in}^{2}$$
 
@@ -541,8 +601,9 @@ from which the throat diameter, exit area and exit diameter follow,
 
 $$D_{t} = 2 \sqrt{\frac{A_{t}}{\pi}} = 3.75 \ \text{in} \qquad A_{e} = \varepsilon A_{t} = 40 \times 11.06 = 442 \ \text{in}^{2} \qquad D_{e} = 2 \sqrt{\frac{A_{e}}{\pi}} = 23.7 \ \text{in}$$
 
-**An exit diameter of 23.7 inches fits comfortably inside the stated 40 inch engine envelope**, which
-is the second of the three checks. The characteristic velocity
+**An exit diameter of 23.7 inches fits comfortably inside the stated 40 inch engine envelope**, and the
+1999 paper's thrust chamber drawing prints a throat diameter of 3.74 inches and an exit diameter of 23.7
+inches\[[Anderson and others 1999][research_anderson_usfe]\], which is the second of the three checks. The characteristic velocity
 implied by the published flowrate is
 
 $$c^{*} = \frac{p_{c} A_{t} g}{\dot{m}} = \frac{500 \times 11.06 \times 32.174}{36.0} = 4{,}943 \ \text{ft/s}$$
@@ -562,18 +623,22 @@ where the exit pressure ratio is fixed by the area ratio through
 
 $$\varepsilon = \frac{1}{\left( \dfrac{\gamma + 1}{2} \right)^{\frac{1}{\gamma - 1}} \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{1}{\gamma}} \sqrt{\dfrac{\gamma + 1}{\gamma - 1} \left[ 1 - \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}}$$
 
-Solving the second for $p_{e}/p_{c}$ at $\varepsilon = 40$ and substituting gives 1.884 at a ratio of
-specific heats of 1.20 and 1.835 at 1.25. **The measured 1.808 sits just below both**, which is where a
+Solving the second for $p_{e}/p_{c}$ at $\varepsilon = 40$ and substituting gives 1.884 at an assumed ratio of
+specific heats of 1.20 and 1.835 at 1.25. **The implied 1.808 sits just below both**, which is where a
 real nozzle belongs, since divergence, friction and boundary layer losses all subtract. **That is the
-third check, and the only one of the three that could have embarrassed the paper**, because a measured
-thrust coefficient above the ideal value would mean the stated thrust and chamber pressure could not
-both be true. Combining them,
+third check, and the only one of the three that could have embarrassed the paper**, because a thrust
+coefficient above the ideal value would mean the stated thrust and chamber pressure could not both be
+true. The ratio of the implied to the ideal value is a nozzle efficiency,
 
-$$I_{sp} = \frac{c^{*} C_{F}}{g} = \frac{4943 \times 1.808}{32.174} = 277.8 \ \text{s}$$
+$$\frac{1.808}{1.884} = 0.960 \qquad \frac{1.808}{1.835} = 0.985$$
 
-**So the published 275 seconds is a rounded and conservative statement of a quantity the rest of the
-table puts at 277.8.** The analysis in this article uses 275 wherever the published value serves and
-notes the difference wherever it matters, which is nowhere that changes a conclusion.
+and the paper's assumed 0.98 lies between the two. **Combining the two implied quantities cannot decide
+between 275 and 277.8 seconds**, because
+
+$$I_{sp} = \frac{c^{*} C_{F}}{g} = \frac{p_{c} A_{t} g}{\dot{m}} \cdot \frac{F}{p_{c} A_{t}} \cdot \frac{1}{g} = \frac{F}{\dot{m}}$$
+
+identically, and the geometry cancels. The analysis in this article uses 275 wherever the published value
+serves, which is nowhere that the one percent changes a conclusion.
 
 ### The Ablative Nozzle, and the Constraint That Sized It
 
@@ -619,19 +684,28 @@ the throat opens with the exit area fixed the expansion ratio falls,
 
 $$\varepsilon_{2} = \frac{A_{e}}{A_{t,2}} = \frac{442}{13.55} = 32.7$$
 
-**Over that range
-the vacuum thrust coefficient falls by under one percent.**
+Solving the area-ratio relation at 32.7 as before gives
+
+$$C_{F,\text{vac}} : \ 1.8843 \rightarrow 1.8669 \ (\gamma = 1.20) \qquad 1.8346 \rightarrow 1.8203 \ (\gamma = 1.25)$$
+
+$$\frac{1.8669}{1.8843} - 1 = -0.92 \ \text{percent} \qquad \frac{1.8203}{1.8346} - 1 = -0.78 \ \text{percent}$$
+
+**Over that range the vacuum thrust coefficient falls by under one percent.** The stage's own 110 second
+burn at the same rate grows the throat radius by 0.110 inches, the area by 12.1 percent and leaves an
+expansion ratio of 35.7, and the same relation gives
+
+$$\frac{1.8746}{1.8843} - 1 = -0.51 \ \text{percent} \qquad \frac{1.8267}{1.8346} - 1 = -0.43 \ \text{percent}$$
 
 **A 22.5 percent change in throat geometry therefore produces about a one percent change in thrust.**
 That is why the paper can state that the thrust requirement of 10,000 pounds within ten percent is
-achievable using cavitating venturis. **The same device is what makes deep throttling tractable in
-modern engines for the same reason**, since fixing the flow upstream removes the coupling between
-chamber conditions and delivered flow\[[Sekrecki 2023][research_sekrecki_2023]\]. **The cheap nozzle is affordable because of the flow control, and
-the two choices are not independent decisions but one decision made twice.**
+achievable using cavitating venturis\[[Ross and others 2000][research_ross_2000]\]. The same device serves deep throttling in modern engines for
+the same reason\[[Sekrecki 2023][research_sekrecki_2023]\]. **The cheap nozzle is affordable because of
+the flow control, and the two choices are one decision made twice.**
 
-**The same physics turns the test data into an independent measurement of erosion.** In the 140 second
-test of 19 May 1999 the chamber pressure began at 495 pounds per square inch and ended 35 pounds lower.
-Since the area-pressure product is constant,
+**The same physics turns the test data into a measurement of erosion, with a caveat the paper itself
+supplies.** In the 140 second test of 19 May 1999 the chamber pressure began at 495 pounds per square
+inch and ended 35 pounds lower, and the paper attributes the drop to throat erosion\[[Ross and others 2000][research_ross_2000]\]. Since the
+area-pressure product is constant,
 
 $$\frac{A_{t,2}}{A_{t,1}} = \frac{p_{c,1}}{p_{c,2}} \qquad \text{and} \qquad \frac{r_{2}}{r_{1}} = \sqrt{\frac{p_{c,1}}{p_{c,2}}}$$
 
@@ -639,12 +713,16 @@ so the erosion rate implied by the pressure history alone is
 
 $$\dot{r} = \frac{r_{1}}{t} \left( \sqrt{\frac{p_{c,1}}{p_{c,2}}} - 1 \right) = \frac{1.876}{140} \left( \sqrt{\frac{495}{460}} - 1 \right) = 0.00050 \ \text{in/s}$$
 
-The directly measured rate in the 31 second test was 0.0009 inches per second at a mixture ratio of
-5.85, and the 140 second test ran at 4.9, where less erosion is expected because the throat runs cooler.
-**Two measurements taken by different means, one from a pressure transducer and one from post-test
-metrology, agree in magnitude and order correctly with mixture ratio.** Neither was derived from the
-other, and the article treats that agreement as the strongest single piece of evidence that the
-published operating point is real.
+**That figure is an average over the whole throat, and the throat did not erode evenly.** The 140 second
+test ran the steam port injector, without fuel film cooling, at a mixture ratio of 4.9 on 85 percent
+peroxide. The nozzle afterwards showed substantial silica flow over the entire throat and one area of
+particularly significant ablation, and the paper concludes from that test and the heating data that the
+nominal mixture ratio would have to be 4.5 or less to meet the throat erosion constraint\[[Ross and others 2000][research_ross_2000]\]. The directly
+measured rate of 0.0009 inches per second came from a different configuration, the film-cooled ring and
+steam port injector, in the 31 second test at a mixture ratio of 5.85. **The two figures cannot be
+ordered by mixture ratio**, because the injector changed between them, and an average rate below the
+allowance is compatible with local erosion above it. That is why the hot zone discussed below matters
+more than either average.
 
 ### Injectors, and the Trade That Was Never Closed
 
@@ -660,7 +738,7 @@ combustion efficiency but drove throat temperature rise to 844 degrees Fahrenhei
 7.3. The ring and steam port design added fuel film cooling along the wall and cut the temperature rise
 at comparable mixture ratios to between 240 and 308 degrees. It was damaged during the first
 development series and redesigned into an all-ring configuration, which met every performance
-requirement and was used for the final 150 second test.
+requirement and was used for the final 150 second test\[[Ross and others 2000][research_ross_2000]\].
 
 **The Gamma derivative injector is the interesting entry, and its name is a piece of history.** The
 Gamma engine was the British peroxide and kerosene engine that powered Black Knight and Black Arrow,
@@ -671,10 +749,15 @@ one. **It was the best
 performer on combustion efficiency**, reaching characteristic velocity efficiency near unity at a
 mixture ratio of five and a vacuum specific impulse of 298 seconds against the ring injector's 275.
 **It was also the worst on heating**, producing throat temperature rises of 725, 475 and 880 degrees
-Fahrenheit where the ring injector produced 71 to 103 at similar mixture ratios.
+Fahrenheit where the ring injector produced 71 to 103 at similar mixture ratios, against a target rise
+of 250 degrees that the authors tie to the target erosion rate\[[Ross and others 2000][research_ross_2000]\].
 
 **The programme chose the ring injector and the choice was correct for an ablative nozzle**, because
-23 seconds of additional specific impulse is worth less than an engine that survives its burn. The
+the additional specific impulse,
+
+$$298 - 275 = 23 \ \text{s}$$
+
+is worth less than an engine that survives its burn. The
 authors record that the Gamma derivative retains potential for a regeneratively cooled nozzle, where
 the heating penalty would be carried by the cooling circuit rather than by the throat material.
 **That is the trade left open, and it was never closed because the programme ended first.**
@@ -693,83 +776,105 @@ inch of a pump-fed stage's tanks and below the several thousand of a gas bottle.
 refers to the materials compatibility classification used for concentrated peroxide, which decomposes
 on contact with many materials and whose handling, storage and transport requirements were codified
 long before this programme\[[Chemical Propulsion Information Agency 1970][research_crpl_1970]\], and
-satisfying it in a filament wound composite with an elastomeric liner is the part that had not been
+satisfying it in a filament wound composite with a fluoropolymer liner is the part that had not been
 done before.
 
 **The vessel itself sits in a category with its own standard.** A composite overwrapped pressure vessel
 is treated separately from a metal tank in the qualification literature, because its failure modes and
-its proof and burst factors differ\[[AIAA 2009][research_aiaa_s081a]\], and the 150 percent proof this
-vessel was taken to is the practice that literature describes.
+its proof and burst factors differ\[[AIAA 2009][research_aiaa_s081a]\], and the proof factor of 1.5 and
+burst factor of 2.0 this vessel was designed to\[[Guerrero and others 2004][research_guerrero_2004]\] are the practice that literature describes.
 
-**Establishing that a material is Class 1 compatible is itself a research programme**, and the
-published record of it runs alongside this vehicle rather than inside it. Compatibility studies for
-high test peroxide continued through the
-period\[[Gostowski and Owens 2001][research_gostowski_2001]\], and the measurement technique was still
-being refined in 2003 using isothermal microcalorimetry to detect decomposition too slow to see any
-other way\[[Gostowski and others 2003][research_gostowski_2003]\]. **The metallic alternative was being
-worked on at the same time**, and a high strength aluminium alloy compatible with peroxide was
-reported in 2004\[[Lee 2004][research_lee_2004]\], which is the material the composite structure had to
-beat on the specific strength comparison above. **A metal propellant tank is the better understood
-article by a wide margin**, with its own design criteria monograph and decades of flight
-experience\[[NASA 1974][research_nasa_sp8088]\], and choosing against it was the programme's largest
-single technical risk.
+**Establishing that a material is Class 1 compatible is itself a research programme**, and its published
+record runs alongside this vehicle\[[Gostowski and Owens 2001][research_gostowski_2001]\]\[[Gostowski and others 2003][research_gostowski_2003]\].
+Orbital's own screening ran in three phases, from rapid decomposition tests through decomposition
+measurement to long soaks and accelerated ageing, and had identified several Class 1 materials for a
+composite storage tank, from which the liner and the overwrap epoxy were to be drawn, with the stainless steel polar bosses passivated to Class 1. A first subscale tank had
+stored peroxide for seven months with minimal degradation by 1999, and a second, at 40 percent scale,
+was to demonstrate the integral structure with its partition and skirts\[[Anderson and others 1999][research_anderson_usfe]\]. **The metallic alternative
+was being worked on at the same time**, and a high strength aluminium alloy compatible with peroxide was
+reported in 2004\[[Lee 2004][research_lee_2004]\], against a metal tank's own design criteria monograph
+and decades of flight experience\[[NASA 1974][research_nasa_sp8088]\].
 
-The structure went further than the tanks. It was designed as a single piece incorporating both
-propellant tanks and the forward and aft skirts, so that the pressure vessel and the primary load path
-were the same article. **That eliminates the joints between tank and skirt**, which on a conventional
-stage are heavy because they transfer launch loads into a thin-walled tank.
+**The structure is integral by bonding rather than by winding.** The skirt was filament wound separately
+from T1000 carbon fibre, the tank was wound over its fluoropolymer liners with the common bulkhead
+inside, and the finished tank was bonded into the skirt with a room temperature cure adhesive\[[Guerrero and others 2004][research_guerrero_2004]\]. Engine
+thrust is applied to the tank's aft boss and nothing but that adhesive holds tank to skirt, so the bond
+carries the whole thrust load, and lap shear tests showed the adhesive had 25 times the shear strength
+needed. **That replaces the bolted joint between tank and skirt with a bonded one rather than eliminating
+the joint**, and the paper's lessons learned name an incorrect bond gap as a possible cause of
+catastrophic failure. The same paper records that the oxidiser liner came out of its mould out of
+tolerance at several locations and was brought back within tolerance by welding on additional material
+and reforming it with heat and weights, because the budget did not allow a machined mould.
+
+**The published requirements are compact enough to reproduce**\[[Guerrero and others 2004][research_guerrero_2004]\].
+
+| Requirement | Value |
+|---|---|
+| Oxidiser tank volume | 44.8 ft³ |
+| Fuel tank volume | 15.5 ft³ |
+| Structure length and diameter | 190 in, 50 in |
+| Propellant tank operating pressure | 1,100 psia |
+| Proof and burst safety factors of the tanks | 1.5 and 2.0 |
+| Ultimate safety factor of the skirts | 2.0 |
+| Liner, bosses and fibre | Tefzel fluoropolymer, 316L stainless steel, Toray T1000 |
 
 The development effort sat inside a broader Air Force Research Laboratory composite tankage programme
 that also pursued linerless cryogenic tankage, self-healing cryogenic tankage and volumetrically
-efficient toroidal geometries. **The peroxide-compatible tank was one branch of a portfolio**, which
+efficient toroidal geometries\[[Guerrero and others 2004][research_guerrero_2004]\]. **The peroxide-compatible tank was one branch of a portfolio**, which
 partly explains why the structural work outlived the stage it was built for.
 
 ### Pressurisation, Attitude Control and Separation
 
-The remaining subsystems follow the pressure-fed architecture and are described in a programme
-manuscript that is discussed in the Source Base and treated with corresponding caution\[[Anderson and others, undated][research_anderson_usfe]\].
+The remaining subsystems follow the pressure-fed architecture and are described in a 1999 paper that is
+discussed in the Source Base\[[Anderson and others 1999][research_anderson_usfe]\].
 
 **Pressurisation was helium from a 6,000 pound per square inch carbon and epoxy tank with a plastic
 liner**, mounted in the forward skirt, feeding regulators that held the propellant tanks at their
-operating pressure. **The sizing of such a system is the subject of its own design criteria
-monograph**, which treats pressurant selection, the thermodynamics of the expansion and the regulator
-behaviour as one problem\[[NASA 1975][research_nasa_sp8112]\], and the regulators and relief devices
-themselves have another\[[NASA 1973][research_nasa_sp8080]\]. **The mass of gas required can be
-bounded.** At burnout the pressurant has expanded to fill the drained propellant volume at tank
-pressure, so
+operating pressure\[[Anderson and others 1999][research_anderson_usfe]\]. The sizing of such a system has its own design criteria
+monograph\[[NASA 1975][research_nasa_sp8112]\], and the regulators and relief devices have
+another\[[NASA 1973][research_nasa_sp8080]\]. **The mass of gas required can be bounded.** At burnout the
+pressurant has expanded to fill both tanks, 1.708 cubic metres, at the operating pressure of 7.584
+megapascals, so with a helium gas constant of 2,077 joules per kilogram kelvin and an assumed gas
+temperature of 300 kelvin
 
-$$m_{g} = \frac{p_{t} V}{R_{\text{He}} T} = \frac{5.06 \times 10^{6} \times 2.655}{2077 \times 300} = 21.5 \ \text{kg}$$
+$$m_{g} = \frac{p_{t} V}{R_{\text{He}} T} = \frac{7.584 \times 10^{6} \times 1.708}{2077 \times 300} = 20.78 \ \text{kg}$$
 
 and since the storage bottle cannot be emptied below the tank pressure it feeds, a further fraction
 stays behind,
 
-$$m_{\text{stored}} = \frac{m_{g}}{1 - p_{t}/p_{b}} = \frac{21.5}{1 - 0.122} = 24.5 \ \text{kg}$$
+$$m_{\text{stored}} = \frac{m_{g}}{1 - p_{t}/p_{b}} = \frac{20.78}{1 - 1{,}100/6{,}000} = \frac{20.78}{0.8167} = 25.4 \ \text{kg}$$
 
-occupying, at 6,000 pounds per square inch,
+occupying, at 6,000 pounds per square inch or 41.37 megapascals,
 
-$$V_{b} = \frac{m_{\text{stored}} R_{\text{He}} T}{p_{b}} = 0.37 \ \text{m}^{3} = 13 \ \text{ft}^{3}$$
+$$V_{b} = \frac{m_{\text{stored}} R_{\text{He}} T}{p_{b}} = \frac{25.4 \times 2077 \times 300}{41.37 \times 10^{6}} = 0.383 \ \text{m}^{3} = 13.5 \ \text{ft}^{3} = 23{,}390 \ \text{in}^{3}$$
 
 **These are isothermal figures and therefore lower bounds**, because real blowdown cools the gas and a
-colder gas is denser, so more mass is needed to hold the same pressure. **A thirteen cubic foot bottle
-at six thousand pounds per square inch is not a small component**, and it is part of the price of
-pressure feeding that the keystone relation does not show, since the keystone counts tank walls and not
-the gas inside them. **This subsystem is the one the manuscript does not have to carry alone**, because
-a NASA Marshall paper of 2001 describes the development of a helium pressurant tank specifically for
-the Upper Stage Flight Experiment\[[DeLay and Munafo 2001][research_delay_2001]\], which corroborates both
-the existence and the purpose of the component independently. The same gas supply purged the system, actuated the bipropellant valves, and fed
-the propellant management thrusters that settled the propellants against the tank outlets before engine
-start. **A pressure-fed stage in free fall cannot start without settling**, because the feed system
-would otherwise ingest gas, so the settling thrusters are not an accessory but part of the start
-sequence. **Propellant that is settled is also propellant that can slosh**, and the loads a moving
-liquid mass imposes on a stage and on its control loop are the subject of a further design criteria
-monograph\[[NASA 1968][research_nasa_sp8009]\]. **No slosh analysis for this vehicle was ever
-published**, and a single-piece structure with a common bulkhead is precisely the configuration in
-which those loads are hardest to reason about.
+colder gas is denser, so more mass is needed to hold the same pressure. **A bottle of at least 13.5
+cubic feet at six thousand pounds per square inch is not a small component**, and it is part of the
+price of pressure feeding that the keystone relation does not show, since the keystone counts tank walls
+and not the gas inside them.
+
+**A NASA Marshall paper of 2001 describes developing the helium pressurant tank for this stage**\[[DeLay and Munafo 2001][research_delay_2001]\],
+which confirms the component, its purpose and its 6,000 pound per square inch rating independently. It
+does not confirm the liner. It describes a layered composite vessel with an electroformed metallic
+permeation barrier, a full-scale design 50 inches in diameter to be refined from one-third scale tanks,
+and an anticipated ratio of pressure times volume to weight of 1.92 million inches. Applied to the
+isothermal minimum volume, that ratio gives the least bottle weight,
+
+$$W_{b} = \frac{p_{b} V_{b}}{(pV/W)} = \frac{6{,}000 \times 23{,}390}{1.92 \times 10^{6}} = 73.1 \ \text{lb}$$
+
+The same gas supply purged the system, actuated the bipropellant valves, and fed the propellant
+management thrusters that settled the propellants against the tank outlets before engine start\[[Anderson and others 1999][research_anderson_usfe]\].
+**A pressure-fed stage in free fall cannot start without settling**, because the feed system would
+otherwise ingest gas, so the settling thrusters are part of the start sequence. The slosh loads that
+settled propellant then imposes have their own design criteria
+monograph\[[NASA 1968][research_nasa_sp8009]\], and no slosh analysis for this vehicle was published.
 
 **Attitude control was a cold gas system using nitrogen** from a 5,000 pound per square inch
 kevlar and epoxy tank with a metal liner, in the aft skirt, with eight nozzles giving pitch, yaw and
-roll authority. Cold gas is the least efficient practical propulsion choice and the size of the penalty is worth
-stating. For a perfect gas expanded to vacuum the limiting exhaust speed is
+roll authority\[[Anderson and others 1999][research_anderson_usfe]\]. Cold gas is the least efficient practical propulsion choice and the size of the penalty is worth
+stating. For a perfect gas expanded to vacuum, taking nitrogen at an assumed 300 kelvin with a ratio of
+specific heats of 1.4, the limiting exhaust speed is
 
 $$v_{\max} = \sqrt{\frac{2 \gamma R T}{\gamma - 1}} = \sqrt{\frac{2 \times 1.4 \times 296.8 \times 300}{0.4}} = 789 \ \text{m/s}$$
 
@@ -781,12 +886,10 @@ control over a short mission is small, and the alternative is another propellant
 tanks, valves and failure modes on a stage whose entire argument is simplicity.
 
 **Thrust vector control was by gimballing the engine**, with flexible lines from the tanks to the
-chamber allowing the movement. **A flexible line in a propellant feed system is a component with its
-own failure modes and its own design literature**, since it must accommodate motion while containing
-the tank pressure and contributing no more restriction than the pressure budget
-allows\[[NASA 1977][research_nasa_sp8123]\]. Attachment to the stage below used an aluminium interstage and a
-separation ring cut by a linear shaped charge, with four sets of springs pushing the spent stage away
-once the ring was severed.
+chamber allowing the movement, a component class with its own design criteria
+monograph\[[NASA 1977][research_nasa_sp8123]\]. Attachment to the second stage below used an aluminium
+interstage and a separation ring cut by a linear shaped charge, with four sets of springs pushing the
+spent stage away once the ring was severed\[[Anderson and others 1999][research_anderson_usfe]\].
 
 ## The Flight Test Record
 
@@ -795,21 +898,22 @@ once the ring was severed.
 Engine development ran in two series at the E-3 test cell at the Stennis Space Center, a vertical-fire
 skid-based facility whose run tanks held 500 gallons of oxidiser and 250 of fuel, limiting any single
 run to about 150 seconds at nominal flow\[[Ross and others 2000][research_ross_2000]\]. **The facility limit is why no test ever reached
-the 200 second design burn**, and the paper says so plainly.
+the 200 second design burn**, and the paper says so plainly. The 1999 paper gives the same tanks a limit
+of 140 seconds\[[Anderson and others 1999][research_anderson_usfe]\].
 
-The first development series ran through late 1998 and concluded in early 2000, entirely on 85 percent
-peroxide. It accumulated more than 300 seconds of bipropellant operation on ablative chambers and more
-than 700 seconds of run time on a single catalyst bed, demonstrated multiple restarts, and demonstrated
-throttling to 10 percent in monopropellant mode and 20 percent in bipropellant mode. A 140 second run
-on 19 May 1999 produced the pressure history analysed above. A 31 second run at a mixture ratio of 5.85
-measured throat erosion at 0.0009 inches per second
-directly\[[Ross and others 2000][research_ross_2000]\].
+The two development series ran in campaigns beginning in late 1998 and concluding in early 2000\[[Ross and others 2000][research_ross_2000]\].
+**The first ran entirely on 85 percent peroxide.** It accumulated 300 seconds of bipropellant operation on
+ablative chambers and more than 700 seconds of run time on a single catalyst bed, demonstrated multiple
+restarts, and demonstrated throttling to 10 percent in monopropellant mode and 20 percent in
+bipropellant mode\[[Ross and others 2000][research_ross_2000]\]. The 1999 paper counts 102 tests and more than 28 minutes of test time over nine
+test article configurations\[[Anderson and others 1999][research_anderson_usfe]\]. A 140 second run on 19 May 1999 with the steam port injector produced
+the pressure history analysed above, and a 31 second run with the ring and steam port injector at a
+mixture ratio of 5.85 measured throat erosion at 0.0009 inches per second directly\[[Ross and others 2000][research_ross_2000]\].
 
 The second development series ran on 90 percent peroxide, the flight concentration, to verify the
 injector and chamber at the higher decomposition temperature. It tested the flight-like integrated dome
 and catalyst bed, compared it against the cartridge bed, and concluded with a 150 second run using the
-ring injector and a silica and quartz phenolic
-nozzle\[[Ross and others 2000][research_ross_2000]\].
+ring injector and a silica and quartz phenolic nozzle\[[Ross and others 2000][research_ross_2000]\].
 
 **The paper reports that the engine met its mission-derived requirements with a perfect safety record**,
 which for a concentrated peroxide system run at a national test facility is a substantive claim rather
@@ -829,26 +933,44 @@ peroxide\[[Bruce and others 2002][research_bruce_2002]\] and an account of expan
 the E-Complex\[[Jacks and Beisler 2003][research_jacks_2003]\], and NASA issued a dedicated hazards
 technical manual for the propellant\[[Baker and others 2005][research_baker_2005]\]. **A propellant that
 requires its own hazards manual and its own test complex is not cheap in the short run**, whatever its
-unit cost, and that is a qualification the low cost framing of the programme does not carry.
+unit cost, and the low cost framing of the programme does not carry that qualification.
 
 **Two engine defects were found and neither was resolved in the published record.** The injector
-exhibited a hot zone spanning about 120 degrees of circumference, traced from throat erosion to soot
-deposition on the chamber wall and injector face, and attributed to an outer zone of the injector
-running lean\[[Ross and others 2000][research_ross_2000]\]. Catalyst bed pressure drop rose steadily with
-accumulated run time, which is the silver screen ageing signature and sets a life limit the published
-data does not quantify. **A stage whose
-catalyst bed has an unstated life is not ready to fly**, and that is one of several respects in which
-the engine was less finished than the summary sentences suggest.
+exhibited a hot zone spanning about 120 degrees of circumference, traced from the throat to the injector
+plate, with soot on the chamber wall and injector face indicating an outer zone of the injector running
+lean\[[Ross and others 2000][research_ross_2000]\]. Catalyst bed pressure drop rose steadily with accumulated run time, which is the silver screen
+ageing signature and sets a life limit the published data does not quantify. **A stage whose catalyst
+bed has an unstated life is not ready to fly.** The status section of the instability paper does state
+that the life of the ablative chamber had been verified to exceed its 200 second requirement with
+sufficient margin\[[Johnson and others 2000][research_johnson_2000]\], but no single run exceeded 150 seconds and the record does not say how that
+verification was made.
 
 **Structural testing succeeded and then the programme did not.** The integral structure was
-hydrostatically proof tested at Chandler between 15 and 17 April 2003, both propellant tanks taken to
-150 percent of maximum expected operating pressure\[[Guerrero and others 2004][research_guerrero_2004]\]. Construction and component testing
-continued through the middle of 2003 at a low level of activity.
+hydrostatically proof tested at Orbital's Chandler facility between 15 and 17 April 2003, both
+propellant tanks taken to 150 percent of the 1,100 pound per square inch operating pressure with 150
+percent of the maximum expected pressure difference across the common bulkhead applied at the same time,
+and held for five minutes. Fifty pressure cycles to the operating pressure followed with no visible
+leakage, and the strains measured at the operating pressure were under half the material
+allowables\[[Guerrero and others 2004][research_guerrero_2004]\],
+
+$$\frac{\varepsilon_{\text{tank}}}{\varepsilon_{\text{allow}}} = \frac{0.0054}{0.015} = 0.36 \qquad \frac{\varepsilon_{\text{skirt}}}{\varepsilon_{\text{allow}}} = \frac{0.0032}{0.0082} = 0.39$$
+
+for the largest measured strain $\varepsilon$ against the tensile strain allowable. Construction and
+component testing continued through the middle of 2003 at a low level of activity\[[USFE X-42][ref_x42_parsch]\].
 
 **Then a tank failed during a helium pressurisation test and destroyed the engine**\[[USFE X-42][ref_x42_parsch]\]. A
-second prototype was built and was delayed again by propellant tank leakage. The contemporary survey
-records that tests with a new tank were scheduled for early 2006 and that a successful outcome could
-have supported a flight demonstration by May 2007.
+second prototype was built and was delayed again by propellant tank leakage. The designation survey,
+last updated in February 2007, records that tests with a new tank were scheduled for early 2006 and that
+a successful outcome could have supported a flight demonstration by May 2007, with the stage flying as
+the third stage on an Orbital two-stage booster, most likely the first two stages of a retired
+Minuteman\[[USFE X-42][ref_x42_parsch]\].
+
+**The flight date receded with every report.** The 1999 paper scheduled the suborbital flight test for
+2001, after an integrated stage ground test at Stennis in 2000\[[Anderson and others 1999][research_anderson_usfe]\]. NASA's account of the same year placed
+the launch on top of a two-stage Minuteman rocket motor stack\[[McNeal and Anderson 1999][research_mcneal_1999]\]. The status section of the 2000
+instability paper moved the integrated stage ground tests to the first and fourth quarters of the
+following year and the first flight to 2002 from Kodiak, Alaska\[[Johnson and others 2000][research_johnson_2000]\]. The last
+reported schedule, given above, was a flight demonstration by May 2007.
 
 **No flight demonstration took place, and no source records one.** This article states that as an
 argument from silence and marks it as such. The stage does not appear in any launch record, no
@@ -866,26 +988,29 @@ predicted before testing and what the ground tests at the Stennis Space Center a
 returned. Those comparisons are argued in the sections headed Dependent Systems and The Flight Test
 Record, and this section gathers them.
 
-**The erosion allowance was met on the ground.** The programme set an allowable throat erosion rate of
-0.001 inches per second for the 200 second design burn\[[Ross and others 2000][research_ross_2000]\].
-The 31 second test measured 0.0009 inches per second directly at a mixture ratio of 5.85, and the
-chamber pressure history of the 140 second test implies 0.00050 at a mixture ratio of 4.9. **Both sit
-below the allowance.** The analysis in the section headed Dependent Systems shows that the cavitating
+**The erosion allowance was met on average, and not everywhere.** The programme set an allowable throat
+erosion rate of 0.001 inches per second for the 200 second design burn\[[Ross and others 2000][research_ross_2000]\]. The 31 second test measured
+0.0009 inches per second directly with the film-cooled ring and steam port injector, and the chamber
+pressure history of the 140 second test implies an average of 0.00050 with the steam port injector, for
+which the paper nevertheless concluded that the mixture ratio would have to fall to 4.5 to meet the
+erosion constraint. The analysis in the section headed Dependent Systems shows that the cavitating
 venturis hold thrust within about one percent across a full burn at the allowable rate, which is the
 ground for the paper's statement that the thrust requirement of 10,000 pounds within ten percent was
 achievable.
 
-**The autoignition requirement was met as designed.** The contraction ratio of at least seven was
-chosen so that the fuel would ignite on contact with the decomposition products, and the engine needed
-no ignition system and demonstrated multiple restarts in the first development series.
+**The autoignition requirement was met as designed.** The contraction ratio of about seven was chosen
+so that the fuel would ignite on contact with the decomposition products, and the engine needed no
+ignition system and demonstrated multiple restarts in the first development series.
 
-**The design burn itself was never demonstrated.** The run tanks of the test cell limited any single
-run to about 150 seconds at nominal flow, so no test reached the 200 second design burn, and
-performance over the final fifty seconds of that burn remains a prediction rather than a measurement.
+**The design burn itself was never demonstrated in one run.** The run tanks of the test cell limited
+any single run to about 150 seconds at nominal flow, so no test reached the 200 second design burn, and
+the chamber life the 2000 status statement reports as verified rests on a method the record does not
+describe.
 
 **One ground result was not foreseen in the published record.** A low frequency catalyst bed
-instability appeared as the peroxide flow fell to about one third of the design rate, and the published
-account describes a dynamic model of the bed and chamber correlated against the test data and a chamber
+instability appeared as the peroxide flow rose through about one third of the design rate in
+monopropellant testing, and the published account describes a dynamic model of the bed and chamber
+correlated against the test data and a chamber
 modification that removed the instability\[[Johnson and others 2000][research_johnson_2000]\]. **The
 record does not say that any analysis predicted the instability before it appeared.**
 
@@ -894,25 +1019,25 @@ reached a vacuum specific impulse of 298 seconds against the ring injector's 275
 throat heating of the designs tested, so the measured outcome forced a choice between the two objectives
 rather than confirming either design.
 
-**The published operating point closes against the ideal relations, with one small discrepancy.** The
-published thrust, flowrate and specific impulse disagree by one percent, and the geometry favours a
-specific impulse of 277.8 seconds over the published 275. The measured thrust coefficient of 1.808 sits
-just below the ideal values of 1.884 and 1.835, which is where a real nozzle belongs. **These are checks
-of the source against standard relations rather than comparisons of a pre-test prediction with a
+**The published operating point is a design point that moved between papers.** The section headed
+Dependent Systems sets the 2000 engine table beside the 1999 and instability-paper versions, and shows
+the implied thrust coefficient sitting just below the ideal values, which is where a real nozzle
+belongs. **These are checks of the sources against standard relations rather than comparisons of a
+pre-test prediction with a
 measurement**, and they are reported in the section headed Dependent Systems on that basis.
 
 **The structure passed its ground prediction and then failed a different test.** The integral structure
-was hydrostatically proof tested at 150 percent of maximum expected operating pressure in April
-2003\[[Guerrero and others 2004][research_guerrero_2004]\], and a tank later failed during a helium
-pressurisation test and destroyed the engine\[[USFE X-42][ref_x42_parsch]\]. The membrane relation in
+was hydrostatically proof tested at 1,650 pounds per square inch, 150 percent of its operating
+pressure, in April 2003 and cycled 50 times to the operating pressure at under half its strain
+allowables\[[Guerrero and others 2004][research_guerrero_2004]\], and a tank later failed during a helium pressurisation test and destroyed the
+engine\[[USFE X-42][ref_x42_parsch]\]. The membrane relation in
 the section headed Sizing From First Principles predicts the mass of a tank and not its failure mode,
 and the section headed Where the Framing Breaks Down argues why it cannot explain this outcome. **The
 cause of the failure was never disclosed**, so no prediction can be set against it.
 
 **The quantity a flight would have settled was never measured.** The velocity increment the stage could
-deliver appears in the section headed Sizing From First Principles only as a family spanning roughly
-2,340 to 3,580 metres per second, because the inert mass was never published, and no flight returned a
-number against which to test it.
+deliver appears in the section headed Sizing From First Principles only as a family, because the inert
+mass was never published, and no flight returned a number against which to test it.
 
 ## What the Data Changed
 
@@ -924,20 +1049,17 @@ Insertion Stage was not built. The Military Spaceplane that would have carried i
 the responsive launch requirement it served was met, when it was met at all, by small expendable
 launchers.
 
-**The propellant work outlived it.** The USFE was the largest and best-instrumented high-test peroxide
-bipropellant development in the United States in the modern era, and it demonstrated that a 10,000
-pound thrust class peroxide and hydrocarbon engine could be built, restarted, throttled deeply and run
-for hundreds of seconds on ablative hardware. **The subsequent revival of peroxide as a green
-propellant draws on that data**, and the contemporary literature surveyed below shows the field
-returning to this combination repeatedly for small launchers, upper stages and satellite propulsion.
+**The propellant work outlived it.** The USFE demonstrated that a 10,000 pound thrust class peroxide and
+hydrocarbon engine could be built, restarted, throttled deeply and run for hundreds of seconds on
+ablative hardware\[[Ross and others 2000][research_ross_2000]\], and the contemporary literature surveyed below shows the field returning to this
+combination repeatedly for small launchers, upper stages and satellite propulsion.
 
 **The structural work outlived it more clearly still.** The integral tank was one branch of an Air
 Force Research Laboratory composite tankage portfolio that also pursued linerless and self-healing
-cryogenic tankage and toroidal geometries\[[Guerrero and others 2004][research_guerrero_2004]\], and composite propellant tankage went on to
-become ordinary. **The specific achievement, being a filament wound common-bulkhead vessel qualified
-for contact with concentrated peroxide, addressed the materials compatibility problem that had blocked
-composite tanks for that propellant**, and the paper describing it was published in a structures journal
-rather than a propulsion one, which is where its readership turned out to be.
+cryogenic tankage and toroidal geometries\[[Guerrero and others 2004][research_guerrero_2004]\]. **The specific achievement, being a filament wound
+common-bulkhead vessel qualified for contact with concentrated peroxide, addressed the materials
+compatibility problem that had blocked composite tanks for that propellant**, and the paper describing
+it was published in a structures journal rather than a propulsion one.
 
 **The clearest negative finding concerns the failure itself.** A tank failure during helium
 pressurisation, followed by leakage in the replacement, is a materials and manufacturing problem in
@@ -991,13 +1113,13 @@ been, because it locates the difficulty precisely.
 
 ### Composite pressure vessels and tank structure
 
-**This cluster is where the vehicle's actual failure lives, and it is the largest cluster whose subject the article treats in depth.** The literature divides between design and analysis of filament wound vessels, which is mature, and damage tolerance, permeation and liner behaviour, which is not. The recurring theme across the modern entries is that a composite vessel's burst strength is predictable and its behaviour after impact, cycling or contact with an aggressive fluid is much less so. **A vessel that passed a hydrostatic proof and then failed under helium is a textbook instance of that gap**, and the presence of a large and continuing literature on exactly this distinction suggests the programme met a genuine limit rather than a workmanship problem.
+**This cluster is where the vehicle's actual failure lives, and it is the largest cluster whose subject the article treats in depth.** The literature divides between design and analysis of filament wound vessels, which is mature, and damage tolerance, permeation and liner behaviour, which is not. The recurring theme across the modern entries is that a composite vessel's burst strength is predictable and its behaviour after impact, cycling or contact with an aggressive fluid is much less so. **A vessel that passed a hydrostatic proof and then failed under helium sits squarely in that gap**, and the public record does not say whether it met a limit of the technology or a fault of manufacture.
 
 **792 records.** \[[A Theoretical Study of 1960][research_a_theoretical_1960]\] \[[Abideen et al 2026][research_abideen_huang_2026]\] \[[Aerojet-General Corp Azusa Ca 1962][research_aerojetgeneralcorpazusaca_1962]\] \[[Aerojet-General Corp Azusa Ca 1963][research_aerojetgeneralcorpazusaca_1963]\] \[[Aggarwal and Hull 2015][research_aggarwal_hull_2015]\] \[[Aggarwal and Hull 2016][research_aggarwal_hull_2016]\] \[[Agne et al 2024][research_agne_almeidajr_2024]\] \[[Agne et al 2025][research_agne_santoslaureanodacunha_2025]\] \[[Agne et al 2025][research_agne_almeidajr_2025]\] \[[Agrawal and Prasad 2005][research_agrawal_prasad_2005]\] \[[Ahankari et al 2018][research_ahankari_suryawanshi_2018]\] \[[Ahmed and Shivakumar 2017][research_ahmed_shivakumar_2017]\] \[[Air and Prusty 2025][research_air_prusty_2025]\] \[[Aizawa et al 2019][research_aizawa_arai_2019]\] \[[Akangah et al 2010][research_akangah_lingaiah_2010]\] \[[Akbar and Kobayashi 2022][research_akbar_kobayashi_2022]\] \[[Akbar and Kobayashi 2023][research_akbar_kobayashi_2023]\] \[[Aktas and Dirikolu 2003][research_aktas_dirikolu_2003]\] \[[Alam and Divekar 2017][research_alam_divekar_2017]\] \[[Alam et al 2020][research_alam_yandek_2020]\] \[[Alam et al 2021][research_alam_yandek_2021]\] \[[Alderson and Evans 1992][research_alderson_evans_1992]\] \[[Allen et al 2018][research_allen_ahmed_2018]\] \[[Almeida et al 2016][research_almeida_ribeiro_2016]\] \[[Almeida et al 2017][research_almeida_ornaghi_2017]\] \[[Alves et al 2012][research_alves_santana_2012]\] \[[Alves et al 2013][research_alves_santana_2013]\] \[[Alves et al 2025][research_alves_novais_2025]\] \[[Amaldi and Marchetti 1992][research_amaldi_marchetti_1992]\] \[[Ameri Sianaki et al 2014][research_amerisianaki_evans_2014]\] \[[Amouzou et al 2018][research_amouzou_sicot_2018]\] \[[An and Yoo 2026][research_an_yoo_2026]\] \[[Arif et al 2014][research_arif_malik_2014]\] \[[Arikan 2010][research_arikan_2010]\] \[[Askari et al 2022][research_askari_javadi_2022]\] \[[Assam et al 1995][research_assam_muhammad_1995]\] \[[Atul et al 2016][research_atul_bhat_2016]\] \[[Avery and Rau 2025][research_avery_rau_2025]\] \[[Awerbuch and Hahn 1977][research_awerbuch_hahn_1977]\] \[[Azimov and Sakiev 1991][research_azimov_sakiev_1991]\] \[[Azzam et al 1995][research_azzam_muhammad_1995]\] \[[B klachut 1993][research_bklachut_1993]\] \[[Bader et al 1984][research_bader_harrison_1984]\] \[[Baierle de Azevedo et al 2019][research_baierledeazevedo_feitosaflores_2019]\] \[[Baker et al 2012][research_baker_bitton_2012]\] \[[Baluch and Kim 2015][research_baluch_kim_2015]\] \[[Baluch et al 2013][research_baluch_park_2013]\] \[[Baluch et al 2016][research_baluch_kim_2016]\] \[[Bambach 2021][research_bambach_2021]\] \[[Batul et al 2020][research_batul_jamil_2020]\] \[[Bau and Beckwith 1982][research_bau_beckwith_1982]\] \[[Beckwith 1982][research_beckwith_1982]\] \[[Beeson et al 1996][research_beeson_payne_1996]\] \[[Behera et al 2019][research_behera_sahoo_2019]\] \[[Bell and Muha 1980][research_bell_muha_1980]\] \[[Bender et al 2026][research_bender_nguyen_2026]\] \[[Betts et al 2019][research_betts_sadeghian_2019]\] \[[Betts et al 2021][research_betts_sadeghian_2021]\] \[[Betts et al 2022][research_betts_sadeghian_2022]\] \[[Bhagoria et al 2025][research_bhagoria_bharadwaj_2025]\] \[[Bianchi 2023][research_bianchi_2023]\] \[[Bianchi 2025][research_bianchi_2025]\] \[[Bickford 1987][research_bickford_1987]\] \[[Biggs et al 2011][research_biggs_mccandless_2011]\] \[[Bilalis and Tsouvalis 2023][research_bilalis_tsouvalis_2023]\] \[[Bilisik et al 2019][research_bilisik_karaduman_2019]\] \[[Bin et al 2020][research_bin_chaojie_2020]\] \[[Blanc-Vannet 2017][research_blancvannet_2017]\] \[[Bobba et al 2020][research_bobba_leman_2020]\] \[[Bongers et al 1990][research_bongers_haider_1990]\] \[[Borri et al 1992][research_borri_speranzini_1992]\] \[[Bouhala and Perbal 2026][research_bouhala_perbal_2026]\] \[[Boussetta et al 2020][research_boussetta_laksimi_2020]\] \[[Braun and Haddock 1992][research_braun_haddock_1992]\] \[[Braun et al 1993][research_braun_tack_1993]\] \[[Brown et al 2020][research_brown_bakis_2020]\] \[[Brown et al 2026][research_brown_bakis_2026]\] \[[Buck and Shirtum 1989][research_buck_shirtum_1989]\] \[[Bulut 2019][research_bulut_2019]\] \[[Bunsell et al 2010][research_bunsell_barbier_2010]\] \[[Buragohain 2026][research_buragohain_2026]\] \[[Buragohain 2026][research_buragohain_2026_f]\] \[[Buragohain 2026][research_buragohain_2026_g]\] \[[Buragohain 2026][research_buragohain_2026_h]\] \[[Buragohain 2026][research_buragohain_2026_i]\] \[[Buragohain 2026][research_buragohain_2026_j]\] \[[Burggraf 1963][research_burggraf_1963]\] \[[Burleigh 1989][research_burleigh_1989]\] \[[Burov 2016][research_burov_2016]\] \[[Burov 2019][research_burov_2019]\] \[[Burov et al 2017][research_burov_lepikhin_2017]\] \[[Burov et al 2017][research_burov_lepihin_2017]\] \[[Burst prediction by acoustic 1993][research_burst_prediction_1993]\] \[[Bélanger et al 2019][research_belanger_forcier_2019]\] \[[Błachut et al 2024][research_blachut_kaleta_2024]\] \[[Cagdas 2017][research_cagdas_2017]\] \[[Cai et al 2011][research_cai_liu_2011]\] \[[Cai et al 2012][research_cai_liu_2012]\] \[[Cao et al 2024][research_cao_fu_2024]\] \[[Cao et al 2026][research_cao_ge_2026]\] \[[Cao et al 2026][research_cao_ge_2026_b]\] \[[Carpenter 1983][research_carpenter_1983]\] \[[Castagnos and Massard 1990][research_castagnos_massard_1990]\] \[[Castel and Trameçon 2025][research_castel_tramecon_2025]\] \[[Chambe et al 2022][research_chambe_charlotte_2022]\] \[[Chang 2003][research_chang_2003]\] \[[Chang et al 2014][research_chang_yang_2014]\] \[[Changliang et al 2006][research_changliang_mingfa_2006]\] \[[Chapelle et al 2009][research_chapelle_thiebaud_2009]\] \[[Chapter 6 Tutorial probabilistic 2025][research_chapter_6_2025]\] \[[Charpentier et al 1990][research_charpentier_zorzetto_1990]\] \[[Chatzinas et al 2021][research_chatzinas_tsiourva_2021]\] \[[Chatzinas et al 2021][research_chatzinas_bilalis_2021]\] \[[Che et al 2021][research_che_han_2021]\] \[[Chen 1991][research_chen_1991]\] \[[Chen and Anderson 1972][research_chen_anderson_1972]\] \[[Chen and Cheng 2023][research_chen_cheng_2023]\] \[[Chen et al 1999][research_chen_chiu_1999]\] \[[Chen et al 2025][research_chen_wu_2025]\] \[[Cheng 2011][research_cheng_2011]\] \[[Cherniaev and Telichev 2014][research_cherniaev_telichev_2014]\] \[[Chernyakin et al 2019][research_chernyakin_perov_2019]\] \[[Chethan Kumar et al 2022][research_chethankumar_baligidad_2022]\] \[[Choi 2017][research_choi_2017]\] \[[Choi and Sankar 2008][research_choi_sankar_2008]\] \[[Choi et al 2024][research_choi_lee_2024]\] \[[Chou et al 2013][research_chou_bunsell_2013]\] \[[Chou et al 2013][research_chou_bunsell_2013_b]\] \[[Christensen and Browning 1977][research_christensen_browning_1977]\] \[[Ciminello et al 2018][research_ciminello_concilio_2018]\] \[[Clauss et al 2007][research_clauss_anselmo_2007]\] \[[Cohen 1990][research_cohen_1990]\] \[[Cohen 1991][research_cohen_1991]\] \[[Cohen et al 2001][research_cohen_mantell_2001]\] \[[Coles et al 2023][research_coles_roy_2023]\] \[[Computer analysis of filament-reinforced 1979][research_computer_analysis_1979]\] \[[Connell et al 2023][research_connell_park_2023]\] \[[Continuous filament wound composite 1985][research_continuous_filament_1985]\] \[[Corwin et al 1986][research_corwin_woodis_1986]\] \[[Courson et al 2001][research_courson_kimmel_2001]\] \[[Crabtree 1979][research_crabtree_1979]\] \[[Cueva et al 2022][research_cueva_kim_2022]\] \[[Cvetkoska et al 2018][research_cvetkoska_dimovski_2018]\] \[[Czichos et al 2022][research_czichos_middendorf_2022]\] \[[Czichos et al 2022][research_czichos_bergmann_2022]\] \[[Czél et al 2016][research_czel_jalalvand_2016]\] \[[D'Mello et al 2022][research_dmello_panwar_2022]\] \[[Dabinett 1991][research_dabinett_1991]\] \[[Daghighi and Weaver 2021][research_daghighi_weaver_2021]\] \[[Dai et al 2023][research_dai_zhou_2023]\] \[[de Morais et al 2005][research_demorais_monteiro_2005]\] \[[de Souza et al 2023][research_desouza_gallo_2023]\] \[[DeCola and Eisenman 2014][research_decola_eisenman_2014]\] \[[Deepak et al 2026][research_deepak_karmarkar_2026]\] \[[Demenko et al 2021][research_demenko_birukov_2021]\] \[[Demir et al 2015][research_demir_sayman_2015]\] \[[Denost 1982][research_denost_1982]\] \[[Design and Analysis of 2021][research_design_and_2021]\] \[[Dhanawade and Kumar 2018][research_dhanawade_kumar_2018]\] \[[Di et al 2023][research_di_zhu_2023]\] \[[Djabali et al 2018][research_djabali_toubal_2018]\] \[[Doh and Hong 1995][research_doh_hong_1995]\] \[[Donaldson and Kim 2005][research_donaldson_kim_2005]\] \[[Dozier and Hackett 1987][research_dozier_hackett_1987]\] \[[Dragatogiannis and Christopoulos 2026][research_dragatogiannis_christopoulos_2026]\] \[[Drumond et al 2020][research_drumond_ribeiro_2020]\] \[[Eggers et al 2019][research_eggers_almeidajunior_2019]\] \[[Eko et al 2025][research_eko_epaarachchi_2025]\] \[[El Moutaouakil et al 2025][research_elmoutaouakil_heimann_2025]\] \[[El-Hajjar and Petersen 2011][research_elhajjar_petersen_2011]\] \[[Ellul and Camilleri 2015][research_ellul_camilleri_2015]\] \[[Ellul et al 2016][research_ellul_camilleri_2016]\] \[[Elphej Churchill and Prakash 2015][research_elphejchurchill_prakash_2015]\] \[[English et al 2011][research_english_arakere_2011]\] \[[Eremin 2018][research_eremin_2018]\] \[[Eremin 2021][research_eremin_2021]\] \[[Eremin and Moskvichev 2020][research_eremin_moskvichev_2020]\] \[[Eremin and Moskvichev 2020][research_eremin_moskvichev_2020_b]\] \[[Eremin et al 2021][research_eremin_moskvichev_2021]\] \[[Eshbaugh 1963][research_eshbaugh_1963]\] \[[Esmaeely Neisiany et al 2020][research_esmaeelyneisiany_nourikhorasani_2020]\] \[[Estimation of thermal properties 1992][research_estimation_of_1992]\] \[[Evaluation of spacecraft composite 2020][research_evaluation_of_spacecraft_2020]\] \[[Fahmy et al 1978][research_fahmy_chiang_1978]\] \[[Fang and Wang 2022][research_fang_wang_2022]\] \[[Farhood and Singal 2022][research_farhood_singal_2022]\] \[[Farhood et al 2017][research_farhood_karuppanan_2017]\] \[[Faria et al 2010][research_faria_frias_2010]\] \[[Farrugia et al 2022][research_farrugia_camilleri_2022]\] \[[Feng et al 1984][research_feng_reifsnider_1984]\] \[[Filament wound bent shapes 1995][research_filament_wound_1995]\] \[[Filament wound interlaminate tubular 1986][research_filament_wound_1986]\] \[[Filament wound interlaminate tubular 1988][research_filament_wound_1988_c]\] \[[Filament wound pipe coupling 1982][research_filament_wound_1982]\] \[[Filament wound PVC pipe 1971][research_filament_wound_1971]\] \[[Filament wound spherical pressure 1972][research_filament_wound_1972]\] \[[Filament wound spherical tanks 1970][research_filament_wound_1970_b]\] \[[Filament wound structure and 1978][research_filament_wound_1978]\] \[[Filament wound structure for 1988][research_filament_wound_1988_d]\] \[[Filament wound structure having 1988][research_filament_wound_1988_b]\] \[[Filament wound tank 1970][research_filament_wound_1970]\] \[[Filament wound tapers 1988][research_filament_wound_1988]\] \[[Filament wound vessel and 1976][research_filament_wound_1976]\] \[[Fiorina et al 2017][research_fiorina_seman_2017]\] \[[Florist et al 2024][research_florist_r_2024]\] \[[Folias 1990][research_folias_1990]\] \[[Fontaine et al 2021][research_fontaine_marshall_2021]\] \[[Foral 1979][research_foral_1979]\] \[[Fracture mechanics concepts and 2000][research_fracture_mechanics_2000]\] \[[Frias et al 2010][research_frias_faria_2010]\] \[[Fuchs et al 1989][research_fuchs_karandikar_1989]\] \[[Fukui et al 2016][research_fukui_yoshimura_2016]\] \[[Furman and Anghaie 1999][research_furman_anghaie_1999]\] \[[Fuwa et al 1976][research_fuwa_bunsell_1976]\] \[[Gandhi and Lal 2025][research_gandhi_lal_2025]\] \[[Ganti et al 2019][research_ganti_wang_2019]\] \[[Garcia et al 2017][research_garcia_davis_2017]\] \[[Ge et al 2021][research_ge_xia_2021]\] \[[Ge et al 2024][research_ge_zhao_2024]\] \[[Gemi et al 2018][research_gemi_kayrici_2018]\] \[[Gemi et al 2020][research_gemi_morkavuk_2020]\] \[[Gerstle 1974][research_gerstle_1974]\] \[[Ghahremani et al 2023][research_ghahremani_najafabadi_2023]\] \[[Givler et al 1982][research_givler_gillespie_1982]\] \[[Gleich 1982][research_gleich_1982]\] \[[Gleich 1988][research_gleich_1988]\] \[[Gnanaprakash and Chakravarthy 2018][research_gnanaprakash_chakravarthy_2018]\] \[[Golaski et al 1984][research_golaski_hull_1984]\] \[[Goldfeld et al 2004][research_goldfeld_arbocz_2004]\] \[[Golinveaux et al 2022][research_golinveaux_patel_2022]\] \[[Gooch 2011][research_gooch_2011_b]\] \[[Goyal and Rome 2012][research_goyal_rome_2012]\] \[[Goyal et al 2005][research_goyal_rome_2005]\] \[[Goyal et al 2023][research_goyal_sagrillo_2023]\] \[[Gradl et al 2020][research_gradl_protz_2020]\] \[[Gramoll 1993][research_gramoll_1993]\] \[[Graue et al 2000][research_graue_krisson_2000]\] \[[Gray and Moser 2004][research_gray_moser_2004]\] \[[Greene 2007][research_greene_2007]\] \[[Greene et al 2007][research_greene_saulsberry_2007]\] \[[Grimberg et al 2008][research_grimberg_savin_2008]\] \[[Grothaus et al 2024][research_grothaus_scholtyschik_2024]\] \[[Grün et al 2025][research_grun_dyagilev_2025]\] \[[Gu et al 2026][research_gu_chen_2026]\] \[[Gu et al 2026][research_gu_han_2026]\] \[[Guillon et al 2023][research_guillon_espinassou_2023]\] \[[Gunasegaran et al 2013][research_gunasegaran_prashanth_2013]\] \[[Guo et al 2015][research_guo_han_2015]\] \[[Guo et al 2020][research_guo_wen_2020]\] \[[Gérard et al 1990][research_gerard_perret_1990]\] \[[Ha et al 2010][research_ha_tsai_2010]\] \[[Hackett 1984][research_hackett_1984]\] \[[Haddock et al 1991][research_haddock_morris_1991]\] \[[Hahn and Kim 1975][research_hahn_kim_1975]\] \[[Hall 1999][research_hall_1999]\] \[[Haluza et al 2019][research_haluza_bakis_2019]\] \[[Hamed et al 2009][research_hamed_sapuan_2009]\] \[[Hanson 1972][research_hanson_1972]\] \[[Harada et al 2016][research_harada_arai_2016]\] \[[Hariya and Yoshikawa 2012][research_hariya_yoshikawa_2012]\] \[[Hariya et al 2015][research_hariya_yoshikawa_2015]\] \[[Harris et al 1985][research_harris_morris_1985]\] \[[Harrouche 2000][research_harrouche_2000]\] \[[Hart 1963][research_hart_1963]\] \[[Hartung 1963][research_hartung_1963]\] \[[Hastie et al 2021][research_hastie_kashtalyan_2021]\] \[[He et al 2022][research_he_li_2022]\] \[[Heeg et al 2020][research_heeg_kilzer_2020]\] \[[Hermeling 2024][research_hermeling_2024]\] \[[Heymans et al 1966][research_heymans_thompson_1966]\] \[[Hill et al 2011][research_hill_iizuka_2011]\] \[[Hirai 1991][research_hirai_1991]\] \[[Hirai and Kline 1973][research_hirai_kline_1973]\] \[[Hirota et al 2019][research_hirota_sato_2019]\] \[[Hoa et al 1985][research_hoa_yu_1985]\] \[[Holographic examination of a 1978][research_holographic_examination_1978]\] \[[Hosoya et al 2017][research_hosoya_abiko_2017]\] \[[Hosur et al 2003][research_hosur_jeelani_2003]\] \[[Hosur et al 2003][research_hosur_jeelani_2003_b]\] \[[Hosur et al 2003][research_hosur_jeelani_2003_c]\] \[[Hosur et al 2015][research_hosur_chowdhury_2015]\] \[[Howard and Widera 1999][research_howard_widera_1999]\] \[[Hu et al 2015][research_hu_li_2015]\] \[[Hua and Cheng 2015][research_hua_cheng_2015]\] \[[Huang et al 2026][research_huang_gao_2026]\] \[[Hugaas et al 2021][research_hugaas_vedvik_2021]\] \[[Hussain and Abdul Ameer Saad 2021][research_hussain_abdulameersaad_2021]\] \[[Hwang and Mao 2001][research_hwang_mao_2001]\] \[[Hwang et al 2003][research_hwang_hong_2003]\] \[[Iida 1978][research_iida_1978]\] \[[Iida and Uemura 1985][research_iida_uemura_1985]\] \[[Ikonomopoulos and Perreux 2001][research_ikonomopoulos_perreux_2001]\] \[[Ishikawa et al 1977][research_ishikawa_koyama_1977]\] \[[Islam et al 2024][research_islam_hossain_2024]\] \[[Israr et al 2017][research_israr_wong_2017]\] \[[J.Mohammed Iliyas and Prof.VVRLS.Gangadhar 2016][research_jmohammediliyas_profvvrlsgangadhar_2016]\] \[[Jacquemin et al 2003][research_jacquemin_vautrin_2003]\] \[[James and Black 1994][research_james_black_1994]\] \[[Javier et al 2017][research_javier_leblanc_2017]\] \[[Javier et al 2018][research_javier_matos_2018]\] \[[Jawad et al 2019][research_jawad_wang_2019]\] \[[Jayaraman et al 2022][research_jayaraman_pandey_2022]\] \[[Jegley and Lopez 1991][research_jegley_lopez_1991]\] \[[Jeon et al 2024][research_jeon_kim_2024]\] \[[Jeong 2013][research_jeong_2013]\] \[[Jessup 1974][research_jessup_1974]\] \[[Jiang et al 2019][research_jiang_xu_2019]\] \[[Jiang et al 2020][research_jiang_wei_2020]\] \[[Johar et al 2017][research_johar_wong_2017]\] \[[Johns 1966][research_johns_1966]\] \[[Johnson and Nokes 1998][research_johnson_nokes_1998]\] \[[Johnson and Nokes 1999][research_johnson_nokes_1999]\] \[[Jois et al 2021][research_jois_welsh_2021]\] \[[Joselin and Chelladurai 2011][research_joselin_chelladurai_2011]\] \[[Kabir 2000][research_kabir_2000]\] \[[Kageyama et al 1986][research_kageyama_kikuchi_1986]\] \[[Kageyama et al 1990][research_kageyama_kikuchi_1990]\] \[[Kageyama et al 1995][research_kageyama_kimpara_1995]\] \[[Kamble et al 2024][research_kamble_raykar_2024]\] \[[Kamineni and Burela 2024][research_kamineni_burela_2024]\] \[[Kang et al 2020][research_kang_he_2020]\] \[[Kangal et al 2019][research_kangal_kartav_2019]\] \[[Karama 2011][research_karama_2011]\] \[[Kartav et al 2021][research_kartav_kangal_2021]\] \[[Kawahara and McCleskey 1996][research_kawahara_mccleskey_1996]\] \[[Kennedy et al 2025][research_kennedy_ghafafian_2025]\] \[[Kezirian et al 2011][research_kezirian_johnson_2011]\] \[[Khamlak 2026][research_khamlak_2026]\] \[[Khan and Kumar 2024][research_khan_kumar_2024]\] \[[Kim and Choi 2013][research_kim_choi_2013]\] \[[Kim and Joe 2004][research_kim_joe_2004]\] \[[Kim and Kim 2020][research_kim_kim_2020]\] \[[Kim and Lee 2009][research_kim_lee_2009]\] \[[Kim et al 2005][research_kim_kang_2005]\] \[[Kim et al 2005][research_kim_hong_2005]\] \[[Kim et al 2007][research_kim_hong_2007]\] \[[Kim et al 2008][research_kim_hong_2008]\] \[[Kim et al 2010][research_kim_park_2010]\] \[[Kim et al 2011][research_kim_lee_2011]\] \[[Kim et al 2012][research_kim_lee_2012]\] \[[Kim et al 2012][research_kim_moon_2012]\] \[[Kim et al 2014][research_kim_shin_2014]\] \[[Kim et al 2018][research_kim_cho_2018]\] \[[Kim et al 2020][research_kim_wang_2020]\] \[[Kim et al 2024][research_kim_sim_2024]\] \[[Kim et al 2024][research_kim_kim_2024_c]\] \[[Kinefuchi and Umemura 2022][research_kinefuchi_umemura_2022]\] \[[Kisioglu 2011][research_kisioglu_2011]\] \[[Knight 1982][research_knight_1982]\] \[[Koeble and Schmid 1993][research_koeble_schmid_1993]\] \[[Kondratiev 2019][research_kondratiev_2019]\] \[[Kong et al 2007][research_kong_park_2007]\] \[[Konietzke and Catherall 2019][research_konietzke_catherall_2019]\] \[[Konopka et al 2024][research_konopka_winkert_2024]\] \[[Konstantaki et al 2018][research_konstantaki_violakis_2018]\] \[[Koussios 2011][research_koussios_2011]\] \[[Krejci et al 2012][research_krejci_woschnak_2012]\] \[[Krysiak et al 2021][research_krysiak_blachut_2021]\] \[[Kumar 2024][research_kumar_2024]\] \[[Kunzler et al 2005][research_kunzler_edd_2005]\] \[[Kuppusamy et al 2022][research_kuppusamy_mohanta_2022]\] \[[Kwak et al 2019][research_kwak_park_2019]\] \[[Ladkany 1982][research_ladkany_1982]\] \[[Lahiri et al 2007][research_lahiri_srinivas_2007]\] \[[Lai and Bathias 1988][research_lai_bathias_1988]\] \[[Lampkin et al 2019][research_lampkin_lin_2019]\] \[[Lavoie et al 2005][research_lavoie_shen_2005]\] \[[Laygo et al 2025][research_laygo_nguyen_2025]\] \[[Leavesley and Knight 1987][research_leavesley_knight_1987]\] \[[Lee et al 2009][research_lee_kim_2009]\] \[[Lee et al 2020][research_lee_kim_2020]\] \[[Lee et al 2020][research_lee_ahmed_2020]\] \[[Lee et al 2022][research_lee_son_2022]\] \[[Lee et al 2023][research_lee_sim_2023]\] \[[Lee et al 2024][research_lee_sim_2024]\] \[[Lee et al 2024][research_lee_han_2024]\] \[[Lee et al 2026][research_lee_ogasawara_2026]\] \[[Lemoine 1978][research_lemoine_1978]\] \[[Li and Cook 2002][research_li_cook_2002]\] \[[Li et al 2007][research_li_zhang_2007]\] \[[Li et al 2015][research_li_nan_2015]\] \[[Li et al 2020][research_li_wisnom_2020]\] \[[Li et al 2020][research_li_chen_2020]\] \[[Li et al 2020][research_li_chen_2020_b]\] \[[Li et al 2020][research_li_wu_2020]\] \[[Li et al 2023][research_li_chen_2023]\] \[[Li et al 2026][research_li_hu_2026]\] \[[Liang et al 2002][research_liang_chen_2002]\] \[[Liang et al 2003][research_liang_chen_2003]\] \[[Liang et al 2023][research_liang_liu_2023]\] \[[Libeskind et al 1973][research_libeskind_minecci_1973]\] \[[Lifshitz and Dayan 1995][research_lifshitz_dayan_1995]\] \[[Lifshitz and Gildin 1997][research_lifshitz_gildin_1997]\] \[[Lin et al 2012][research_lin_hsieh_2012]\] \[[Lin et al 2013][research_lin_jia_2013]\] \[[Lin et al 2023][research_lin_zheng_2023]\] \[[Lingenfelter 1988][research_lingenfelter_1988]\] \[[Littlefield et al 2019][research_littlefield_smith_2019]\] \[[Littlefield et al 2020][research_littlefield_smith_2020]\] \[[Liu 2021][research_liu_2021]\] \[[Liu 2021][research_liu_2021_b]\] \[[Liu 2021][research_liu_2021_c]\] \[[Liu and Shi 2020][research_liu_shi_2020]\] \[[Liu and Zheng 2008][research_liu_zheng_2008]\] \[[Liu et al 2012][research_liu_chu_2012]\] \[[Liu et al 2013][research_liu_yu_2013]\] \[[Liu et al 2025][research_liu_ouyang_2025]\] \[[Llorente and Mar 1989][research_llorente_mar_1989]\] \[[Long et al 2022][research_long_yang_2022]\] \[[Love 1963][research_love_1963]\] \[[Lu et al 2024][research_lu_huan_2024]\] \[[Lunde 1964][research_lunde_1964]\] \[[Luo 2014][research_luo_2014]\] \[[Luo 2015][research_luo_2015]\] \[[Luo and Liu 2011][research_luo_liu_2011]\] \[[Lüders et al 2025][research_luders_ropte_2025]\] \[[M et al 2015][research_m_h_2015]\] \[[Machado de Souza and Marconi Licks 2026][research_machadodesouza_marconilicks_2026]\] \[[Macri et al 2018][research_macri_littlefield_2018]\] \[[Madhavi 2009][research_madhavi_2009]\] \[[Madhavi and Venkat 2014][research_madhavi_venkat_2014]\] \[[Madhavi et al 2010][research_madhavi_ramaswamy_2010]\] \[[Madsen et al 1986][research_madsen_nuismer_1986]\] \[[Mahdy et al 2013][research_mahdy_taher_2013]\] \[[Makinson and Newhouse 2014][research_makinson_newhouse_2014]\] \[[Mandegarian and Taheri-Behrooz 2020][research_mandegarian_taheribehrooz_2020]\] \[[Mao et al 2026][research_mao_yang_2026]\] \[[Margetson 1978][research_margetson_1978]\] \[[Marketos 1963][research_marketos_1963]\] \[[Martel 1975][research_martel_1975]\] \[[Martins et al 2012][research_martins_bastian_2012]\] \[[Martins et al 2013][research_martins_bastian_2013]\] \[[Martins et al 2014][research_martins_bastian_2014]\] \[[Matemilola and Stronge 1997][research_matemilola_stronge_1997]\] \[[McCarthy et al 2018][research_mccarthy_toni_2018]\] \[[Mehra and Singh 2023][research_mehra_singh_2023]\] \[[Messick et al 1986][research_messick_nuismer_1986]\] \[[Messinger and Pulley 2003][research_messinger_pulley_2003]\] \[[Method and apparatus for 1985][research_method_and_1985]\] \[[Method of making a 1972][research_method_of_1972]\] \[[Method of making filament 1976][research_method_of_1976]\] \[[Method of manufacturing a 1986][research_method_of_1986]\] \[[Mihaljec et al 2025][research_mihaljec_vukelic_2025]\] \[[Miller 1966][research_miller_1966]\] \[[Mimra et al 2026][research_mimra_shelley_2026]\] \[[Mishra et al 2024][research_mishra_jatti_2024]\] \[[Miura et al 2012][research_miura_shindo_2012]\] \[[Miura et al 2013][research_miura_shindo_2013]\] \[[Modesto et al 2021][research_modesto_birgul_2021]\] \[[Mohammed et al 2024][research_mohammed_raghupathy_2024]\] \[[Moore et al 1974][research_moore_bruno_1974]\] \[[Moore et al 2022][research_moore_nelson_2022]\] \[[Morovat et al 2019][research_morovat_mozaffari_2019]\] \[[Morozov 2001][research_morozov_2001]\] \[[Morris 1981][research_morris_1981]\] \[[Morris 1982][research_morris_1982]\] \[[Morris 1989][research_morris_1989_b]\] \[[Morris and Alfring 1969][research_morris_alfring_1969]\] \[[Moskvichev 2016][research_moskvichev_2016]\] \[[Moskvichev 2016][research_moskvichev_2016_b]\] \[[Moskvichev 2016][research_moskvichev_2016_c]\] \[[Mou et al 2026][research_mou_zhang_2026]\] \[[Mouhamath et al 1991][research_mouhamath_massard_1991]\] \[[Mueller 1966][research_mueller_1966]\] \[[Mueller 1967][research_mueller_1967]\] \[[Mujaheed et al 2019][research_mujaheed_lei_2019]\] \[[Multhoff 2016][research_multhoff_2016]\] \[[Multhoff 2016][research_multhoff_2016_b]\] \[[Murthy and Phoenix 2009][research_murthy_phoenix_2009]\] \[[Murthy et al 2007][research_murthy_thesken_2007]\] \[[Muscat et al 2017][research_muscat_camilleri_2017]\] \[[Muscat et al 2018][research_muscat_camilleri_2018]\] \[[Mustapha et al 2023][research_mustapha_yilmaz_2023]\] \[[Muśko and Perkowski 2025][research_musko_perkowski_2025]\] \[[Myovych 2025][research_myovych_2025]\] \[[Nahra et al 2012][research_nahra_ghosn_2012]\] \[[Narayana Yenugula et al 2025][research_narayanayenugula_b_2025]\] \[[Naresh et al 2023][research_naresh_shankar_2023]\] \[[Natale et al 2024][research_natale_gaspari_2024]\] \[[Natarajan et al 1986][research_natarajan_hoa_1986]\] \[[Nazem Salimi et al 2016][research_nazemsalimi_torabimerajin_2016]\] \[[Nebe 2022][research_nebe_2022]\] \[[Netting analysis 2007][research_netting_analysis_2007]\] \[[Neu and Huang 1973][research_neu_huang_1973]\] \[[Nguyen and Kardos 1979][research_nguyen_kardos_1979]\] \[[Nikravesh et al 2021][research_nikravesh_muralidharan_2021]\] \[[Nimdum et al 2015][research_nimdum_patamaprohm_2015]\] \[[Nosseir et al 2024][research_nosseir_slejko_2024]\] \[[Noyes 1971][research_noyes_1971]\] \[[Numbi et al 2024][research_numbi_lm_2024]\] \[[Ochelski and Gotowicki 2009][research_ochelski_gotowicki_2009]\] \[[Ogasawara et al 2009][research_ogasawara_onta_2009]\] \[[Ogasawara et al 2025][research_ogasawara_serizawa_2025]\] \[[Okada et al 1992][research_okada_yamamoto_1992]\] \[[Oliveira et al 2018][research_oliveira_leite_2018]\] \[[Olofsson 1997][research_olofsson_1997]\] \[[Onder et al 2009][research_onder_sayman_2009]\] \[[Oosima et al 2013][research_oosima_mizutani_2013]\] \[[Oosima et al 2013][research_oosima_mizutani_2013_b]\] \[[Oromiehie et al 2024][research_oromiehie_nagulapally_2024]\] \[[Ortenzi et al 2012][research_ortenzi_decarvalho_2012]\] \[[Ourak et al 1991][research_ourak_rouvaen_1991]\] \[[Ourak et al 1993][research_ourak_ouaftouh_1993]\] \[[Outwater 1963][research_outwater_1963]\] \[[Outwater and Seibert 1963][research_outwater_seibert_1963]\] \[[Padawer 1960][research_padawer_1960]\] \[[Padovec 2025][research_padovec_2025]\] \[[Padovec 2025][research_padovec_2025_b]\] \[[Paknahad et al 2014][research_paknahad_fathi_2014]\] \[[Palmieri 2024][research_palmieri_2024]\] \[[Pandey et al 2014][research_pandey_dey_2014]\] \[[Papanicolaou and Zaoutsos 2026][research_papanicolaou_zaoutsos_2026]\] \[[Park and Kim 2025][research_park_kim_2025]\] \[[Park and Sakai 2019][research_park_sakai_2019]\] \[[Park et al 1996][research_park_hwang_1996]\] \[[Park et al 2005][research_park_hwang_2005]\] \[[Parnas and Akkaş 1998][research_parnas_akkas_1998]\] \[[Patiño Perez and Corz Rodriguez 2019][research_patinoperez_corzrodriguez_2019]\] \[[Patrizii 2025][research_patrizii_2025]\] \[[Pawar and Vavilov 2015][research_pawar_vavilov_2015]\] \[[Pena et al 2014][research_pena_strutner_2014]\] \[[Pereira et al 2013][research_pereira_figueiredo_2013]\] \[[Perillo et al 2015][research_perillo_grytten_2015]\] \[[Pernas-Sánchez et al 2023][research_pernassanchez_garciarodriguez_2023]\] \[[Perry 1963][research_perry_1963_b]\] \[[Phoenix and Murthy 2007][research_phoenix_murthy_2007]\] \[[Pineda et al 2017][research_pineda_fassin_2017]\] \[[Pinto et al 2015][research_pinto_gupta_2015]\] \[[Portanova and Deaton 1995][research_portanova_deaton_1995]\] \[[Portemont et al 2018][research_portemont_berthe_2018]\] \[[Poursartip et al 2024][research_poursartip_keulen_2024]\] \[[Pramod et al 2019][research_pramod_krishnadasan_2019]\] \[[Pranesh et al 2014][research_pranesh_majid_2014]\] \[[Prasad and Krishna 2020][research_prasad_krishna_2020]\] \[[Prater and Hackett 1988][research_prater_hackett_1988]\] \[[Praveenbabu and Naveen 2022][research_praveenbabu_naveen_2022]\] \[[Prediction of Proof Test 2026][research_prediction_of_2026]\] \[[Pressure vessel having a 1993][research_pressure_vessel_1993]\] \[[Pritt 1980][research_pritt_1980]\] \[[Proof test and fatigue 1981][research_proof_test_1981]\] \[[Prucz et al 1991][research_prucz_dacquisto_1991]\] \[[Qi and Bannister 2007][research_qi_bannister_2007]\] \[[Qin et al 2023][research_qin_meng_2023]\] \[[qixuan et al 2023][research_qixuan_zongtao_2023]\] \[[Rafiee and Salehi 2022][research_rafiee_salehi_2022]\] \[[Rafiee and Salehi 2022][research_rafiee_salehi_2022_b]\] \[[Rafiee and Torabi 2018][research_rafiee_torabi_2018]\] \[[Rafiee et al 2022][research_rafiee_shahzadi_2022]\] \[[Raju et al 2008][research_raju_dandayudhapani_2008]\] \[[Ramesh et al 2020][research_ramesh_senthamaraikannan_2020]\] \[[Ramezani 2024][research_ramezani_2024]\] \[[Ramos et al 2018][research_ramos_hopark_2018]\] \[[Ranganathan et al 2019][research_ranganathan_mantena_2019]\] \[[Rased and Yoon 2022][research_rased_yoon_2022]\] \[[Rau and Avery 2024][research_rau_avery_2024]\] \[[Ray 2008][research_ray_2008]\] \[[Reda et al 2024][research_reda_khamis_2024]\] \[[Regassa et al 2021][research_regassa_lemu_2021]\] \[[Regassa et al 2022][research_regassa_gari_2022]\] \[[Reimer et al 2022][research_reimer_rauh_2022]\] \[[Reinforced filament-wound cut-port pressure 1978][research_reinforced_filament_wound_1978]\] \[[Ren et al 2017][research_ren_chang_2017]\] \[[Rentzsch Holm et al 2025][research_rentzschholm_schalm_2025]\] \[[Residual strength of a 1989][research_residual_strength_1989]\] \[[Reuter and Guess 1974][research_reuter_guess_1974]\] \[[Riddle and Beckwith 1986][research_riddle_beckwith_1986]\] \[[Riemer 1986][research_riemer_1986]\] \[[Rivers 1999][research_rivers_1999]\] \[[Rocha et al 2023][research_rocha_antunes_2023]\] \[[Rogani et al 2021][research_rogani_navarro_2021]\] \[[Rohrauer 2021][research_rohrauer_2021]\] \[[Rondina et al 2023][research_rondina_falaschetti_2023]\] \[[Rosenow 1989][research_rosenow_1989]\] \[[Ruiz and Razzitte 2016][research_ruiz_razzitte_2016]\] \[[Rumble 1987][research_rumble_1987]\] \[[Rushing 2005][research_rushing_2005]\] \[[Saboori et al 2011][research_saboori_gholipour_2011]\] \[[Saboori et al 2015][research_saboori_gholipour_2015]\] \[[Sabour and Foghani 2009][research_sabour_foghani_2009]\] \[[Sachdev et al 2009][research_sachdev_hosangadi_2009]\] \[[Sakai and Park 2019][research_sakai_park_2019]\] \[[Salerno and Araujo 2017][research_salerno_araujo_2017]\] \[[Samborski 2016][research_samborski_2016]\] \[[Samborski 2017][research_samborski_2017]\] \[[Sancaktar and Gowrishankar 2009][research_sancaktar_gowrishankar_2009]\] \[[Sancaktar and Shah 2003][research_sancaktar_shah_2003]\] \[[Santos et al 2025][research_santos_vandepitte_2025]\] \[[Santos Laureano da Cunha et al 2025][research_santoslaureanodacunha_rmenca_2025]\] \[[Sardou 2019][research_sardou_2019]\] \[[Sattar et al 2026][research_sattar_sahto_2026]\] \[[Saulsberry et al 2007][research_saulsberry_greene_2007]\] \[[Savli et al 2025][research_savli_moutaouakil_2025]\] \[[Sayem Uddin et al 2014][research_sayemuddin_morozov_2014]\] \[[Schiffer and Tagarielli 2015][research_schiffer_tagarielli_2015]\] \[[Schmidt 1984][research_schmidt_1984]\] \[[Schonberg 2018][research_schonberg_2018]\] \[[Schonberg 2020][research_schonberg_2020]\] \[[Schulz 2010][research_schulz_2010]\] \[[Seber et al 2006][research_seber_baker_2006]\] \[[Segreto et al 2019][research_segreto_teti_2019]\] \[[Shah and Lee 2022][research_shah_lee_2022]\] \[[Shao and Wang 2003][research_shao_wang_2003]\] \[[Sharma and Neogi 2023][research_sharma_neogi_2023]\] \[[Sharma et al 2022][research_sharma_sharma_2022]\] \[[Shen and Han 2018][research_shen_han_2018]\] \[[Shen et al 2007][research_shen_zhang_2007]\] \[[Shi et al 2026][research_shi_zhu_2026]\] \[[Shideler et al 1984][research_shideler_swegle_1984]\] \[[Shimizu and Qu 2026][research_shimizu_qu_2026]\] \[[Shimoda et al 2002][research_shimoda_he_2002]\] \[[Shindo 2006][research_shindo_2006]\] \[[Shindo et al 2006][research_shindo_takano_2006]\] \[[Shrigandhi et al 2021][research_shrigandhi_shah_2021]\] \[[Shu et al 1995][research_shu_chiu_1995]\] \[[Silva et al 2010][research_silva_nunes_2010]\] \[[Singh and Behera 2024][research_singh_behera_2024]\] \[[Singh et al 2021][research_singh_larsson_2021]\] \[[Singh et al 2022][research_singh_tolambiya_2022]\] \[[Singh et al 2022][research_singh_singh_2022]\] \[[Singh et al 2025][research_singh_lakshman_2025]\] \[[Sinkler et al 2025][research_sinkler_ravangard_2025]\] \[[Sleight et al 2019][research_sleight_satyanarayana_2019]\] \[[Sleight et al 2019][research_sleight_segal_2019]\] \[[Smela and Ziemiański 2025][research_smela_ziemianski_2025]\] \[[Smetankina et al 2022][research_smetankina_semenets_2022]\] \[[Solazzi and Vaccari 2022][research_solazzi_vaccari_2022]\] \[[Song et al 1998][research_song_oh_1998]\] \[[Sonkar et al 2025][research_sonkar_patel_2025]\] \[[Sorenser and Plumtree 2003][research_sorenser_plumtree_2003]\] \[[Soufri et al 2025][research_soufri_bouvet_2025]\] \[[Souza and Tarpani 2020][research_souza_tarpani_2020]\] \[[Souza et al 2024][research_souza_goncalves_2024]\] \[[Srivastava and Grammatikos 2024][research_srivastava_grammatikos_2024]\] \[[Srividya et al 2023][research_srividya_khadarvali_2023]\] \[[Srividya et al 2024][research_srividya_shaik_2024]\] \[[Srividya et al 2025][research_srividya_vali_2025]\] \[[Stickler and Keller 1998][research_stickler_keller_1998]\] \[[Stress concentrations with singularities 1993][research_stress_concentrations_1993]\] \[[Structural design and stress 1973][research_structural_design_1973]\] \[[Strutner et al 2014][research_strutner_pena_2014]\] \[[Su 2009][research_su_2009]\] \[[Sulaiman et al 2013][research_sulaiman_borazjani_2013]\] \[[Suwarta et al 2019][research_suwarta_fotouhi_2019]\] \[[Swanson and Offolter 1998][research_swanson_offolter_1998]\] \[[Szelinski et al 2012][research_szelinski_lange_2012]\] \[[Tada 1992][research_tada_1992]\] \[[Takeda et al 2012][research_takeda_shindo_2012]\] \[[Takehana et al 2004][research_takehana_sano_2004]\] \[[Tam and Griffin 2002][research_tam_griffin_2002]\] \[[Tam et al 1996][research_tam_ballinger_1996]\] \[[Tam et al 2004][research_tam_ballinger_2004]\] \[[Tang 1989][research_tang_1989]\] \[[Tanjung et al 2018][research_tanjung_hidayat_2018]\] \[[Tank liner 1996][research_tank_liner_1996]\] \[[Tao et al 2024][research_tao_liu_2024]\] \[[Taşyürek and Tarakçioğlu 2017][research_tasyurek_tarakcioglu_2017]\] \[[Teng et al 2005][research_teng_yu_2005]\] \[[Tensile Analysis of Filament 2018][research_tensile_analysis_2018]\] \[[The effect of aviation 1978][research_the_effect_1978]\] \[[Theories of failure of 1987][research_theories_of_1987]\] \[[Thermal protection system for 1980][research_thermal_protection_1980]\] \[[Thionnet et al 2016][research_thionnet_bunsell_2016]\] \[[Thomas and Tallman 2019][research_thomas_tallman_2019]\] \[[Thomas et al 2021][research_thomas_kumar_2021]\] \[[Thomas et al 2024][research_thomas_rodriguez_2024]\] \[[Threaded filament wound pipe 1972][research_threaded_filament_1972]\] \[[Toland 1974][research_toland_1974]\] \[[Tomita and Andrianov 2021][research_tomita_andrianov_2021]\] \[[Tong 1998][research_tong_1998]\] \[[Toth and Barber 1965][research_toth_barber_1965]\] \[[Trabocco 1980][research_trabocco_1980]\] \[[Tripurari and Jamil 2025][research_tripurari_jamil_2025]\] \[[Trodus 1996][research_trodus_1996]\] \[[Ts 2025][research_ts_2025]\] \[[Twisting of filament wound 1990][research_twisting_of_1990]\] \[[Tzeng 1999][research_tzeng_1999]\] \[[Udd et al 2003][research_udd_kunzler_2003]\] \[[Ueno et al 2013][research_ueno_xu_2013]\] \[[Ultrasonic NDE Nondestructive Evaluation 1990][research_ultrasonic_nde_1990]\] \[[Ulven et al 2003][research_ulven_vaidya_2003]\] \[[Underwood and Parker 2004][research_underwood_parker_2004]\] \[[Unnikrishnan et al 2024][research_unnikrishnan_srinivas_2024]\] \[[Vambol et al 2025][research_vambol_klymenko_2025]\] \[[Van Bavel et al 2024][research_vanbavel_vandepitte_2024]\] \[[Van Bavel et al 2024][research_vanbavel_vandepitte_2024_c]\] \[[Vargas Rojas et al 2013][research_vargasrojas_chapelle_2013]\] \[[Vasiliev and Morozov 2018][research_vasiliev_morozov_2018]\] \[[Veloso et al 2025][research_veloso_mota_2025]\] \[[Veys et al 1989][research_veys_cederberg_1989]\] \[[Vietze et al 2017][research_vietze_mundt_2017]\] \[[Vignoli and Savi 2018][research_vignoli_savi_2018]\] \[[Vijayakumar and Lakshminarayana 2023][research_vijayakumar_lakshminarayana_2023]\] \[[Villalonga et al 2011][research_villalonga_kempeneers_2011]\] \[[Viscoelastic/damage modelling of filament-wound 1987][research_viscoelastic_damage_modelling_1987]\] \[[Vital et al 2013][research_vital_doleman_2013]\] \[[Vondráček et al 2024][research_vondracek_padovec_2024]\] \[[Vondráček et al 2025][research_vondracek_padovec_2025]\] \[[Vukelic et al 2021][research_vukelic_vizentin_2021]\] \[[Walker 1982][research_walker_1982]\] \[[Walker and Heintz 1979][research_walker_heintz_1979]\] \[[Walker et al 2002][research_walker_russell_2002]\] \[[Wang 2005][research_wang_2005]\] \[[Wang and Qin 1989][research_wang_qin_1989]\] \[[Wang et al 1981][research_wang_chou_1981]\] \[[Wang et al 2015][research_wang_zheng_2015]\] \[[Wang et al 2020][research_wang_ma_2020]\] \[[Wang et al 2022][research_wang_liu_2022]\] \[[Wang et al 2022][research_wang_mao_2022]\] \[[Wang et al 2024][research_wang_xu_2024]\] \[[Wang et al 2024][research_wang_xu_2024_b]\] \[[Wang et al 2024][research_wang_qin_2024]\] \[[Wang et al 2025][research_wang_xu_2025_b]\] \[[Wang et al 2025][research_wang_liu_2025]\] \[[Wang et al 2025][research_wang_shi_2025]\] \[[Warkina and Regassa 2024][research_warkina_regassa_2024]\] \[[Warkina et al 2026][research_warkina_regassa_2026]\] \[[Watanabe et al 2011][research_watanabe_shindo_2011]\] \[[Weerts et al 2021][research_weerts_cousigne_2021]\] \[[Weerts et al 2021][research_weerts_cousigne_2021_b]\] \[[Weerts et al 2022][research_weerts_cousigne_2022]\] \[[Weerts et al 2022][research_weerts_cousigne_2022_b]\] \[[Welsh et al 2026][research_welsh_jois_2026]\] \[[Wempner and Yin 1988][research_wempner_yin_1988]\] \[[Werner and Schaefer 2018][research_werner_schaefer_2018]\] \[[Wesselski 1976][research_wesselski_1976]\] \[[Widargo and Anghaie 1999][research_widargo_anghaie_1999]\] \[[Wlodarski et al 1996][research_wlodarski_pergantis_1996]\] \[[Wlodarski et al 1996][research_wlodarski_evans_1996]\] \[[Wollschlager and Jopson 2023][research_wollschlager_jopson_2023]\] \[[Wu et al 2010][research_wu_zhou_2010]\] \[[Wu et al 2015][research_wu_chen_2015]\] \[[Wu et al 2022][research_wu_zu_2022]\] \[[Wu et al 2024][research_wu_chen_2024]\] \[[Xia et al 2000][research_xia_kemmochi_2000]\] \[[Xia et al 2001][research_xia_kemmochi_2001]\] \[[Xiao and Sun 2011][research_xiao_sun_2011]\] \[[Xiao Qi and Sun 2010][research_xiaoqi_sun_2010]\] \[[Xu et al 2009][research_xu_zheng_2009]\] \[[Xuzhen 2024][research_xuzhen_2024]\] \[[Yadav et al 2024][research_yadav_apte_2024]\] \[[Yang and Sun 1980][research_yang_sun_1980]\] \[[Yang and Wu 2025][research_yang_wu_2025]\] \[[Yang et al 2019][research_yang_li_2019_b]\] \[[Yano et al 2019][research_yano_yonemoto_2019]\] \[[Yener and Wolcott 1989][research_yener_wolcott_1989]\] \[[Yenugula and Bhukya 2022][research_yenugula_bhukya_2022]\] \[[Yetgin et al 2020][research_yetgin_ozaslan_2020]\] \[[Yokozeki et al 2004][research_yokozeki_aoki_2004]\] \[[Yokozeki et al 2005][research_yokozeki_aoki_2005]\] \[[Yokozeki et al 2005][research_yokozeki_ishikawa_2005]\] \[[Yokozeki et al 2009][research_yokozeki_ogasawara_2009]\] \[[Yokozeki et al 2009][research_yokozeki_kuroda_2009]\] \[[Yoon Park and Jong Choi 2020][research_yoonpark_jongchoi_2020]\] \[[Yoshikawa 2004][research_yoshikawa_2004]\] \[[Yoshikawa et al 2019][research_yoshikawa_hariya_2019]\] \[[Young 1963][research_young_1963]\] \[[Young and Prandoni 1970][research_young_prandoni_1970]\] \[[Yu and Yadong 2017][research_yu_yadong_2017]\] \[[Yu et al 2020][research_yu_zhang_2020]\] \[[Yuan 2002][research_yuan_2002]\] \[[Yuan et al 2000][research_yuan_yang_2000]\] \[[Yudiana 2021][research_yudiana_2021]\] \[[Yun et al 2002][research_yun_jo_2002]\] \[[Yun et al 2009][research_yun_deng_2009]\] \[[Zee 2000][research_zee_2000]\] \[[Zee 2001][research_zee_2001]\] \[[Zhang 2017][research_zhang_2017]\] \[[Zhang and Lu 2015][research_zhang_lu_2015]\] \[[Zhang and Taheri 2004][research_zhang_taheri_2004]\] \[[Zhang et al 2004][research_zhang_liu_2004]\] \[[Zhang et al 2017][research_zhang_zhao_2017]\] \[[Zhang et al 2023][research_zhang_yang_2023]\] \[[Zhang et al 2024][research_zhang_gu_2024]\] \[[Zhang et al 2024][research_zhang_zhang_2024_b]\] \[[Zhang et al 2025][research_zhang_xu_2025_b]\] \[[Zhang et al 2025][research_zhang_zhang_2025_b]\] \[[Zhao et al 2007][research_zhao_wang_2007]\] \[[Zhao et al 2022][research_zhao_yang_2022]\] \[[Zheng et al 2011][research_zheng_fan_2011]\] \[[Zhou et al 2006][research_zhou_xia_2006]\] \[[Zhou et al 2008][research_zhou_wu_2008]\] \[[Zhou et al 2024][research_zhou_sun_2024]\] \[[Zhou et al 2025][research_zhou_zou_2025]\] \[[Zhu and Shah 2004][research_zhu_shah_2004]\] \[[Zu et al 2010][research_zu_koussios_2010]\] \[[Zu et al 2011][research_zu_koussios_2011]\] \[[Zu et al 2013][research_zu_he_2013]\] \[[Zu et al 2017][research_zu_zhu_2017]\] \[[Zu et al 2019][research_zu_xu_2019]\] \[[Zu et al 2019][research_zu_xu_2019_b]\] \[[Özaslan et al 2018][research_ozaslan_acar_2018]\] \[[Üstün et al 2016][research_ustun_eskizeybek_2016]\]
 
 ### Hydrogen peroxide and green propellant propulsion
 
-**The striking feature of this cluster is its date distribution rather than its size.** Concentrated peroxide was abandoned as a propellant in the 1960s and the literature reflects that, thinning almost to nothing and then reviving. The revival is driven by the regulatory and handling cost of hydrazine rather than by any new physics, and the modern entries are dominated by small satellite and cubesat propulsion, hybrid rocket oxidisers and catalyst formulation. **The Upper Stage Flight Experiment sits at the start of that revival and at a thrust level nothing since has matched**, which makes its test data unusually valuable and its cancellation unusually costly.
+**The striking feature of this cluster is its date distribution rather than its size.** Concentrated peroxide was abandoned as a propellant in the 1960s and the literature reflects that, thinning almost to nothing and then reviving. The revival is driven by the regulatory and handling cost of hydrazine rather than by any new physics, and the modern entries are dominated by small satellite and cubesat propulsion, hybrid rocket oxidisers and catalyst formulation. **The Upper Stage Flight Experiment sits at the start of that revival.**
 
 **720 records.** \[[Abbe et al 1967][research_abbe_mclaughlin_1967]\] \[[Abbe et al 1968][research_abbe_mclaughlin_1968]\] \[[Abernathy et al 1983][research_abernathy_cohen_1983]\] \[[Acosta Mendoza et al 2024][research_acostamendoza_goncalves_2024]\] \[[Adami et al 2015][research_adami_mortazavi_2015]\] \[[Adel and Guozhu 2017][research_adel_guozhu_2017]\] \[[Adomeit and Hocks 1981][research_adomeit_hocks_1981]\] \[[Agnihotri and Oommen 2018][research_agnihotri_oommen_2018]\] \[[Agnihotri and Oommen 2021][research_agnihotri_oommen_2021]\] \[[Agosta et al 1966][research_agosta_seamans_1966]\] \[[Agosta et al 1967][research_agosta_seamans_1967]\] \[[Ahn et al 2003][research_ahn_choi_2003]\] \[[Ahn et al 2018][research_ahn_kang_2018]\] \[[Ak et al 2011][research_ak_ulas_2011]\] \[[Alfano et al 2006][research_alfano_mills_2006]\] \[[Alnuaimi et al 2025][research_alnuaimi_alghaithi_2025]\] \[[Amri et al 2013][research_amri_gibbon_2013]\] \[[Amrousse et al 2010][research_amrousse_brahmi_2010]\] \[[Amrousse et al 2015][research_amrousse_hori_2015]\] \[[Amrousse et al 2024][research_amrousse_elidrissi_2024]\] \[[An and Kwon 2008][research_an_kwon_2008]\] \[[An and Kwon 2009][research_an_kwon_2009]\] \[[An et al 2007][research_an_lim_2007]\] \[[An et al 2009][research_an_brahmi_2009]\] \[[An et al 2010][research_an_jo_2010]\] \[[Anderson 2006][research_anderson_2006]\] \[[Anderson et al 1963][research_anderson_brown_1963]\] \[[Anderson et al 2019][research_anderson_heister_2019]\] \[[Anderson et al 2020][research_anderson_heister_2020]\] \[[Andriievskyi et al 2018][research_andriievskyi_mitikov_2018]\] \[[Anflo and Grönland 2002][research_anflo_gronland_2002]\] \[[Anflo et al 2009][research_anflo_mollerberg_2009]\] \[[Anthoine et al 2017][research_anthoine_lestrade_2017]\] \[[Arun Kumar et al 2018][research_arunkumar_rajeevsenan_2018]\] \[[Baek et al 2018][research_baek_monette_2018]\] \[[Baek et al 2018][research_baek_jung_2018]\] \[[Baerwald and Passamaneck 1977][research_baerwald_passamaneck_1977]\] \[[Bagg 1962][research_bagg_1962]\] \[[Baier et al 2019][research_baier_ramachandran_2019]\] \[[Balcon et al 2000][research_balcon_mary_2000]\] \[[Baldwin et al 1977][research_baldwin_golden_1977]\] \[[Ballintyn and Heister 2024][research_ballintyn_heister_2024]\] \[[Barker 1979][research_barker_1979]\] \[[Barley et al 2005][research_barley_palmer_2005]\] \[[Barley et al 2006][research_barley_palmer_2006]\] \[[Belcher et al 2018][research_belcher_valenzuela_2018]\] \[[Benhidjeb-Carayon et al 2018][research_benhidjebcarayon_gabl_2018]\] \[[Benhidjeb-Carayon et al 2019][research_benhidjebcarayon_mccormick_2019]\] \[[Benhidjeb-Carayon et al 2020][research_benhidjebcarayon_mccormick_2020]\] \[[Benhidjeb-Carayon et al 2022][research_benhidjebcarayon_gabl_2022]\] \[[Benzenine et al 2019][research_benzenine_seladji_2019]\] \[[Berg and Rovey 2013][research_berg_rovey_2013]\] \[[Berg and Rovey 2016][research_berg_rovey_2016]\] \[[Berg and Rovey 2017][research_berg_rovey_2017]\] \[[Bernard et al 1974][research_bernard_cointot_1974]\] \[[Bhosale and Yoon 2024][research_bhosale_yoon_2024]\] \[[Bhosale et al 2019][research_bhosale_jeong_2019]\] \[[Bhosale et al 2019][research_bhosale_karnik_2019]\] \[[Bhosale et al 2020][research_bhosale_kim_2020]\] \[[Bhosale et al 2020][research_bhosale_jeong_2020]\] \[[Bhosale et al 2021][research_bhosale_gwak_2021]\] \[[Bhosale et al 2024][research_bhosale_lee_2024]\] \[[Bhosale et al 2025][research_bhosale_lee_2025]\] \[[Birchenough 2024][research_birchenough_2024]\] \[[Biswas et al 2025][research_biswas_mcanally_2025]\] \[[Biswas et al 2025][research_biswas_fujioka_2025]\] \[[Bjorklund et al 1979][research_bjorklund_rogero_1979]\] \[[Blank et al 2007][research_blank_pourpoint_2007]\] \[[Blevins et al 2004][research_blevins_gostowski_2004]\] \[[Blyzniuk et al 2018][research_blyzniuk_diyuk_2018]\] \[[Boardman 1963][research_boardman_1963]\] \[[Bobtelsky et al 1945][research_bobtelsky_glasner_1945]\] \[[Boltz 1999][research_boltz_1999]\] \[[Bombelli et al 2005][research_bombelli_maree_2005]\] \[[Bonifacio et al 2011][research_bonifacio_festa_2011]\] \[[Bonifacio et al 2013][research_bonifacio_festa_2013]\] \[[Bonniot and Thomas 1998][research_bonniot_thomas_1998]\] \[[Booth et al 2015][research_booth_kenton_2015]\] \[[Boruc et al 2024][research_boruc_kapusta_2024]\] \[[Bostwick et al 2021][research_bostwick_barie_2021]\] \[[Bradley and Williams 1970][research_bradley_williams_1970]\] \[[Bramanti et al 2006][research_bramanti_cervone_2006]\] \[[Branan 1999][research_branan_1999]\] \[[Brikner and Protz 2011][research_brikner_protz_2011]\] \[[Brown and Jones 1968][research_brown_jones_1968]\] \[[Bruce et al 2002][research_bruce_taylor_2002]\] \[[Bucknell 2026][research_bucknell_2026]\] \[[Caffiero et al 2024][research_caffiero_carlotti_2024]\] \[[Caffiero et al 2024][research_caffiero_carlotti_2024_b]\] \[[Caffiero et al 2026][research_caffiero_rapisarda_2026]\] \[[Cai et al 2012][research_cai_sun_2012]\] \[[Cai et al 2016][research_cai_li_2016]\] \[[Cao et al 2026][research_cao_han_2026]\] \[[Cardoso et al 2026][research_cardoso_deaguiarlysakovskibampi_2026]\] \[[Carlotti et al 2026][research_carlotti_botta_2026]\] \[[Cassese et al 2023][research_cassese_gallo_2023]\] \[[Cassese et al 2024][research_cassese_guida_2024]\] \[[Cassese et al 2024][research_cassese_mungiguerra_2024]\] \[[Castaneda and Natan 2019][research_castaneda_natan_2019]\] \[[Castaneda and Natan 2022][research_castaneda_natan_2022]\] \[[Castaneda et al 2019][research_castaneda_hassid_2019]\] \[[Castaneda et al 2025][research_castaneda_lefkowitz_2025]\] \[[Catoire et al 2004][research_catoire_chaumeix_2004]\] \[[Cervone et al 2006][research_cervone_torre_2006]\] \[[Chai et al 2022][research_chai_koh_2022]\] \[[Chai et al 2024][research_chai_liu_2024]\] \[[Chalmpes et al 2020][research_chalmpes_bourlinos_2020]\] \[[Chambreau et al 2008][research_chambreau_schneider_2008]\] \[[Chan et al 2011][research_chan_hsu_2011]\] \[[Chanin and Faeth 1976][research_chanin_faeth_1976]\] \[[Chapter 4 Mass and 1985][research_chapter_4_1985]\] \[[Chathoth et al 2025][research_chathoth_oommen_2025]\] \[[Chen and Yuan 2023][research_chen_yuan_2023]\] \[[Chen and Zhou 2018][research_chen_zhou_2018]\] \[[Chen et al 2009][research_chen_nusca_2009]\] \[[Chidvilas et al 2024][research_chidvilas_suraj_2024]\] \[[Chingin et al 2011][research_chingin_perry_2011]\] \[[Choi and Bach 2025][research_choi_bach_2025]\] \[[Choi and Bach 2025][research_choi_bach_2025_b]\] \[[Choi et al 2018][research_choi_yu_2018]\] \[[Chowdhury et al 2009][research_chowdhury_wang_2009]\] \[[Christofferson et al 2001][research_christofferson_wucherer_2001]\] \[[Chuan and Wilber 1967][research_chuan_wilber_1967]\] \[[Chuen and Wilber 1966][research_chuen_wilber_1966]\] \[[Ciepluch et al 1961][research_ciepluch_allen_1961]\] \[[Clements et al 2019][research_clements_baier_2019]\] \[[Cohen and Roberts 1968][research_cohen_roberts_1968]\] \[[Coil 2010][research_coil_2010]\] \[[Comparative Applicability Of Storable 1960][research_comparative_applicability_1960]\] \[[Cong et al 2004][research_cong_zhang_2004]\] \[[Connaughton and Wharton 1966][research_connaughton_wharton_1966]\] \[[Connell et al 2014][research_connell_risha_2014]\] \[[Connell et al 2018][research_connell_risha_2018]\] \[[Connell et al 2018][research_connell_risha_2018_b]\] \[[Conomos et al 2017][research_conomos_alongi_2017]\] \[[Corbett et al 1964][research_corbett_seamans_1964]\] \[[Cortopassi and Boyer 2017][research_cortopassi_boyer_2017]\] \[[Costanza et al 1992][research_costanza_freeman_1992]\] \[[Cottenot et al 2024][research_cottenot_boust_2024]\] \[[Courthéoux et al 2003][research_courtheoux_rossignol_2003]\] \[[Crocco 1951][research_crocco_1951]\] \[[Dabora 1972][research_dabora_1972]\] \[[Daimon et al 2013][research_daimon_terashima_2013]\] \[[Daimon et al 2014][research_daimon_terashima_2014]\] \[[Daimon et al 2016][research_daimon_tani_2016]\] \[[Dambach et al 2010][research_dambach_cho_2010]\] \[[Dambach et al 2012][research_dambach_rankin_2012]\] \[[Dambach et al 2013][research_dambach_solomon_2013]\] \[[Darfilal et al 2024][research_darfilal_alhammadi_2024]\] \[[Darfilal et al 2026][research_darfilal_alhammadi_2026]\] \[[Davari and Karimaei 2022][research_davari_karimaei_2022]\] \[[Davis and Davis 1997][research_davis_davis_1997]\] \[[Davis and Wax 1977][research_davis_wax_1977]\] \[[Davis and Yilmaz 2014][research_davis_yilmaz_2014]\] \[[Dawson and Schreib Jr 1963][research_dawson_schreibjr_1963]\] \[[De et al 2019][research_de_das_2019]\] \[[Deif et al 2021][research_deif_elsmakled_2021]\] \[[Deininger 2013][research_deininger_2013]\] \[[DeSain et al 2010][research_desain_curtiss_2010]\] \[[Desipio et al 2018][research_desipio_thorpe_2018]\] \[[Di Martino et al 2021][research_dimartino_gallo_2021]\] \[[Diachenko and Temnov 2015][research_diachenko_temnov_2015]\] \[[Djamal and Mohamed 2017][research_djamal_mohamed_2017]\] \[[Dobado and Molina 1995][research_dobado_molina_1995]\] \[[Dobbins 2002][research_dobbins_2002]\] \[[Dolci et al 2015][research_dolci_dellamico_2015]\] \[[Dubey et al 2021][research_dubey_mahottamananda_2021]\] \[[Dumas et al 2023][research_dumas_jobin_2023]\] \[[Dumas et al 2024][research_dumas_jobin_2024]\] \[[Durgapal and Venugopal 1974][research_durgapal_venugopal_1974]\] \[[Effect of Spherical Silver 2024][research_effect_of_2024]\] \[[Eggers 1968][research_eggers_1968]\] \[[Elzein et al 2021][research_elzein_jobin_2021]\] \[[Fadela Benzenine et al 2022][research_fadelabenzenine_chakibseladji_2022]\] \[[Faeth 1970][research_faeth_1970]\] \[[Faeth 1972][research_faeth_1972]\] \[[Faeth et al 1967][research_faeth_karhan_1967]\] \[[Fagherazzi et al 2021][research_fagherazzi_santi_2021]\] \[[Fang et al 2025][research_fang_fan_2025]\] \[[Farhat et al 2007][research_farhat_amariei_2007]\] \[[Farmer 1978][research_farmer_1978]\] \[[Feasibility of Droblet Size 1996][research_feasibility_of_1996]\] \[[Fei et al 2023][research_fei_qin_2023]\] \[[Fendell 1969][research_fendell_1969]\] \[[Fendell 1970][research_fendell_1970]\] \[[Ferroni Pereira et al 2020][research_ferronipereira_maschio_2020]\] \[[Fishburne et al 1965][research_fishburne_bergbauer_1965]\] \[[Fisher and Coluzzi 1962][research_fisher_coluzzi_1962]\] \[[Florczak 2019][research_florczak_2019]\] \[[Fonblanc 1994][research_fonblanc_1994]\] \[[Fonda-Marsland et al 2019][research_fondamarsland_roberts_2019]\] \[[Frank et al 2005][research_frank_hammerl_2005]\] \[[Friedman 1969][research_friedman_1969]\] \[[Frolik and Austin 2001][research_frolik_austin_2001]\] \[[Frolik et al 2000][research_frolik_austin_2000]\] \[[Gatto and Nakazono 2014][research_gatto_nakazono_2014]\] \[[Gervasi et al 2008][research_gervasi_marvin_2008]\] \[[Giusti et al 2019][research_giusti_romero_2019]\] \[[Glasner 1951][research_glasner_1951]\] \[[Goldfarb 2001][research_goldfarb_2001]\] \[[Goldin et al 2024][research_goldin_nath_2024]\] \[[Gollob et al 2025][research_gollob_comoretto_2025]\] \[[Gopalakrishnan et al 2025][research_gopalakrishnan_m_2025]\] \[[Gostowski 2004][research_gostowski_2004]\] \[[Gotzig 2015][research_gotzig_2015]\] \[[Gotzig 2025][research_gotzig_2025]\] \[[Goza and Nesterenko 2017][research_goza_nesterenko_2017]\] \[[Grant and A. F 1954][research_grant_af_1954]\] \[[Green Propellants 2008][research_green_propellants_2008]\] \[[Gu et al 2024][research_gu_tian_2024]\] \[[Guan et al 2021][research_guan_li_2021]\] \[[Guirguis 2006][research_guirguis_2006]\] \[[Gune et al 1985][research_gune_kulkarni_1985]\] \[[Guo 2025][research_guo_2025]\] \[[Guo et al 2021][research_guo_tian_2021]\] \[[Guo et al 2022][research_guo_tian_2022]\] \[[Guo et al 2026][research_guo_xin_2026]\] \[[Guobiao et al 2021][research_guobiao_tianfang_2021]\] \[[Guseinov et al 2020][research_guseinov_fedorov_2020]\] \[[Ha et al 2012][research_ha_lee_2012]\] \[[Haas and Prince 1984][research_haas_prince_1984]\] \[[Halouzka et al 2010][research_halouzka_jakubec_2010]\] \[[Hampton et al 2003][research_hampton_ramesh_2003]\] \[[Han et al 2009][research_han_han_2009]\] \[[Han et al 2025][research_han_cai_2025]\] \[[Han et al 2025][research_han_cai_2025_b]\] \[[Hardin et al 1961][research_hardin_masters_1961]\] \[[Harimech et al 2024][research_harimech_amrousse_2024]\] \[[Harper 1969][research_harper_1969]\] \[[Hasan et al 2019][research_hasan_grinstein_2019]\] \[[Hassid and Natan 2013][research_hassid_natan_2013]\] \[[Hatai and Nagata 2022][research_hatai_nagata_2022]\] \[[hawass et al 2023][research_hawass_churchill_2023]\] \[[Hazlett 1958][research_hazlett_1958]\] \[[He et al 2013][research_he_nie_2013]\] \[[Hearn 1976][research_hearn_1976]\] \[[Hennemann et al 2014][research_hennemann_andrade_2014]\] \[[Heo et al 2016][research_heo_kwon_2016]\] \[[Heo et al 2018][research_heo_kim_2018]\] \[[Heo et al 2018][research_heo_jo_2018]\] \[[Hill 1991][research_hill_1991]\] \[[Hillbrath and Concepcion 1986][research_hillbrath_concepcion_1986]\] \[[Hinds et al 1992][research_hinds_demaire_1992]\] \[[Hitt 2006][research_hitt_2006]\] \[[Hitt and Varhue 2010][research_hitt_varhue_2010]\] \[[Holcomb et al 1976][research_holcomb_mattson_1976]\] \[[Holcomb et al 1977][research_holcomb_mattson_1977]\] \[[Hollingshead et al 2019][research_hollingshead_litzinger_2019]\] \[[Hollingshead et al 2025][research_hollingshead_ianuzzi_2025]\] \[[Holzwarth and Rogall 2000][research_holzwarth_rogall_2000]\] \[[Huang et al 2024][research_huang_ji_2024]\] \[[Huh and Kwon 2014][research_huh_kwon_2014]\] \[[Huh and Kwon 2015][research_huh_kwon_2015]\] \[[Huh and Kwon 2017][research_huh_kwon_2017]\] \[[Huh and Park 2023][research_huh_park_2023]\] \[[Huh et al 2013][research_huh_lee_2013]\] \[[Huh et al 2018][research_huh_jyoti_2018]\] \[[Huh et al 2025][research_huh_mahroof_2025]\] \[[Humble 2000][research_humble_2000]\] \[[Hwang et al 2012][research_hwang_lee_2012]\] \[[Hydrogen peroxide hybrid rocket 1994][research_hydrogen_peroxide_1994]\] \[[Hydrogen Peroxide Monopropellants 2023][research_hydrogen_peroxide_2023]\] \[[Hypergolic Fueled Reciprocating Space 1966][research_hypergolic_fueled_1966]\] \[[Hörger et al 2021][research_horger_dresia_2021]\] \[[Igarashi and Matsuura 2017][research_igarashi_matsuura_2017]\] \[[Igarashi and Matsuura 2021][research_igarashi_matsuura_2021]\] \[[Igarashi et al 2019][research_igarashi_matsuura_2019]\] \[[Iizuka et al 2014][research_iizuka_shindo_2014]\] \[[Im et al 2024][research_im_jeong_2024]\] \[[Ito et al 2015][research_ito_saito_2015]\] \[[Iwama and Yamazaki 1963][research_iwama_yamazaki_1963]\] \[[Jabri et al 2024][research_jabri_sahibeddine_2024]\] \[[Jacks and Beisler 2003][research_jacks_beisler_2003]\] \[[Jain 1988][research_jain_1988]\] \[[Jain and Murthy 1990][research_jain_murthy_1990]\] \[[Jain et al 1979][research_jain_krishna_1979]\] \[[Jain et al 1988][research_jain_murthy_1988]\] \[[Jain et al 1989][research_jain_mimani_1989]\] \[[Jang et al 2015][research_jang_kang_2015]\] \[[Jang et al 2015][research_jang_kwak_2015]\] \[[Jankovsky 1996][research_jankovsky_1996]\] \[[Jeong et al 2021][research_jeong_bhosale_2021]\] \[[Jeong et al 2022][research_jeong_kim_2022]\] \[[Jeong et al 2023][research_jeong_lee_2023]\] \[[Jeong et al 2024][research_jeong_im_2024]\] \[[Jindal and Botchu 2026][research_jindal_botchu_2026]\] \[[Jindal and Botchu 2026][research_jindal_botchu_2026_b]\] \[[Jindal and Botchu Vara Siva 2025][research_jindal_botchuvarasiva_2025]\] \[[Jindal et al 2025][research_jindal_lee_2025]\] \[[Jindal et al 2026][research_jindal_pfohl_2026]\] \[[Jo 2017][research_jo_2017]\] \[[Jo and Choi 2025][research_jo_choi_2025]\] \[[Jo et al 2011][research_jo_jang_2011]\] \[[Jo et al 2011][research_jo_an_2011]\] \[[Jobanpreet Singh 2025][research_jobanpreetsingh_2025]\] \[[Jobin et al 2023][research_jobin_dumas_2023]\] \[[Jobin et al 2025][research_jobin_chartraypronovost_2025]\] \[[John et al 2020][research_john_nandagopalan_2020]\] \[[John et al 2025][research_john_nandagopalan_2025]\] \[[Johnson et al 2000][research_johnson_anderson_2000]\] \[[Jones et al 1959][research_jones_kitching_1959]\] \[[Jung et al 2017][research_jung_choi_2017]\] \[[Jung et al 2021][research_jung_choi_2021]\] \[[Juran and Stechman 1967][research_juran_stechman_1967]\] \[[Juran and Stechman 1968][research_juran_stechman_1968]\] \[[K and D 2012][research_k_d_2012]\] \[[Kagawa et al 2006][research_kagawa_goto_2006]\] \[[Kagawa et al 2013][research_kagawa_nagata_2013]\] \[[Kajiwara et al 2004][research_kajiwara_kagawa_2004]\] \[[Kakami et al 2012][research_kakami_ideta_2012]\] \[[Kan and Heister 2014][research_kan_heister_2014]\] \[[Kan and Heister 2015][research_kan_heister_2015]\] \[[Kan et al 2017][research_kan_heister_2017]\] \[[Kang 2023][research_kang_2023]\] \[[Kang 2025][research_kang_2025]\] \[[Kang and Kwon 2015][research_kang_kwon_2015]\] \[[Kang and Kwon 2017][research_kang_kwon_2017]\] \[[Kang and Kwon 2018][research_kang_kwon_2018]\] \[[Kang and Oh 2023][research_kang_oh_2023]\] \[[Kang et al 2015][research_kang_lee_2015]\] \[[Kang et al 2016][research_kang_jang_2016]\] \[[Kang et al 2017][research_kang_kim_2017]\] \[[Kang et al 2019][research_kang_kim_2019]\] \[[Kang et al 2020][research_kang_lee_2020]\] \[[Kang et al 2020][research_kang_park_2020]\] \[[Kapusta et al 2021][research_kapusta_boruc_2021]\] \[[Karhan 1967][research_karhan_1967]\] \[[Karimaei et al 2019][research_karimaei_salimi_2019]\] \[[Keller et al 2023][research_keller_nair_2023]\] \[[Kerr et al 2021][research_kerr_karagozian_2021]\] \[[Khaji et al 2020][research_khaji_klintberg_2020]\] \[[Kim and Kang 2025][research_kim_kang_2025_c]\] \[[Kim and Kim 2025][research_kim_kim_2025]\] \[[Kim et al 2009][research_kim_kim_2009]\] \[[Kim et al 2020][research_kim_jo_2020]\] \[[Kim et al 2021][research_kim_bhosale_2021]\] \[[Kim et al 2022][research_kim_kim_2022]\] \[[Kim et al 2023][research_kim_kwon_2023]\] \[[Kim et al 2025][research_kim_kang_2025]\] \[[Kim et al 2026][research_kim_kang_2026]\] \[[Kinnersley et al 1993][research_kinnersley_schummer_1993]\] \[[Kline et al 2022][research_kline_rennix_2022]\] \[[Knab et al 1999][research_knab_froehlich_1999]\] \[[Koellen and Viertel 1996][research_koellen_viertel_1996]\] \[[Kokal et al 2025][research_kokal_baysal_2025]\] \[[Kolsgaard 2017][research_kolsgaard_2017]\] \[[Koopmans et al 2011][research_koopmans_shrimpton_2011]\] \[[Kopacz et al 2022][research_kopacz_okninski_2022]\] \[[Kozhevnikov et al 2017][research_kozhevnikov_semushina_2017]\] \[[Krejci et al 2011][research_krejci_woschnak_2011]\] \[[Krejci et al 2013][research_krejci_woschnak_2013]\] \[[Krishnan et al 1992][research_krishnan_przekwas_1992]\] \[[Kuan et al 2006][research_kuan_chen_2006]\] \[[Kuan et al 2007][research_kuan_chen_2007]\] \[[Kubicki et al 2020][research_kubicki_anderson_2020]\] \[[Kulkarni and Bagalkote 2010][research_kulkarni_bagalkote_2010]\] \[[Kulkarni and Panda 1980][research_kulkarni_panda_1980]\] \[[Kumar and Agarwal 2024][research_kumar_agarwal_2024]\] \[[Kumar et al 2025][research_kumar_jain_2025]\] \[[Kumari et al 2024][research_kumari_agnihotri_2024]\] \[[Kundu et al 2013][research_kundu_sinha_2013]\] \[[Kwon et al 2005][research_kwon_rang_2005]\] \[[Laithier et al 1999][research_laithier_beaurain_1999]\] \[[Lange et al 2013][research_lange_lein_2013]\] \[[Langel et al 1998][research_langel_obermaier_1998]\] \[[Large eddy simulation of 2023][research_large_eddy_2023]\] \[[Larosiliere et al 1990][research_larosiliere_litchford_1990]\] \[[Larsson and Wingborg 2011][research_larsson_wingborg_2011]\] \[[Lauck et al 2021][research_lauck_balkenhohl_2021]\] \[[Lawyer 1972][research_lawyer_1972]\] \[[Lee and Kwon 2013][research_lee_kwon_2013]\] \[[Lee and Lee 2009][research_lee_lee_2009]\] \[[Lee et al 1989][research_lee_tseng_1989]\] \[[Lee et al 2002][research_lee_kwon_2002]\] \[[Lee et al 2008][research_lee_an_2008]\] \[[Lee et al 2010][research_lee_an_2010]\] \[[Lee et al 2012][research_lee_jang_2012]\] \[[Lee et al 2012][research_lee_sukyum_2012]\] \[[Lee et al 2016][research_lee_kang_2016]\] \[[Lee et al 2022][research_lee_park_2022]\] \[[Lee et al 2024][research_lee_shim_2024]\] \[[Lee et al 2024][research_lee_jeong_2024]\] \[[Lee et al 2025][research_lee_ugolini_2025]\] \[[Leitz et al 2020][research_leitz_cannella_2020]\] \[[Levi et al 2026][research_levi_peles_2026]\] \[[Levikhin and Boryaev 2024][research_levikhin_boryaev_2024]\] \[[Li et al 2014][research_li_gao_2014]\] \[[Li et al 2016][research_li_ge_2016]\] \[[Li et al 2017][research_li_ye_2017]\] \[[Li et al 2022][research_li_fang_2022]\] \[[Li et al 2025][research_li_liu_2025]\] \[[Li et al 2025][research_li_han_2025]\] \[[Li et al 2025][research_li_zhong_2025]\] \[[Li et al 2026][research_li_wang_2026_b]\] \[[Liang et al 2022][research_liang_cai_2022]\] \[[Liang et al 2022][research_liang_zhong_2022]\] \[[Liberto 1961][research_liberto_1961]\] \[[Lin and Young 2023][research_lin_young_2023]\] \[[Lin and Young 2025][research_lin_young_2025]\] \[[Lin and Young 2026][research_lin_young_2026]\] \[[Lin et al 2024][research_lin_massa_2024]\] \[[Lin¯Án and Crespo 1972][research_linan_crespo_1972]\] \[[Liu et al 2021][research_liu_guo_2021]\] \[[Liu et al 2023][research_liu_liu_2023]\] \[[Liñán 1975][research_linan_1975]\] \[[Long and Rusek 2000][research_long_rusek_2000]\] \[[Long et al 2002][research_long_anderson_2002]\] \[[Lydon and Polidor 2004][research_lydon_polidor_2004]\] \[[Lyne et al 2021][research_lyne_rovey_2021]\] \[[Lyon 1971][research_lyon_1971]\] \[[Mageean 1969][research_mageean_1969]\] \[[Maggs and Sutton 1958][research_maggs_sutton_1958]\] \[[Maggs and Sutton 1959][research_maggs_sutton_1959]\] \[[Mahroof et al 2024][research_mahroof_alazeezi_2024]\] \[[Maia et al 2014][research_maia_pereira_2014]\] \[[Maia et al 2014][research_maia_gouvea_2014]\] \[[Mallory 1977][research_mallory_1977]\] \[[Marconny da Silva Costa et al 2025][research_marconnydasilvacosta_mendonca_2025]\] \[[Markelov 2014][research_markelov_2014]\] \[[Marotta 2020][research_marotta_2020]\] \[[Martin et al 2025][research_martin_ghisi_2025]\] \[[Matsushima et al 2016][research_matsushima_kaku_2016]\] \[[Matsuura 2024][research_matsuura_2024]\] \[[Matsuura and Tashiro 2013][research_matsuura_tashiro_2013]\] \[[Matsuura et al 2014][research_matsuura_iihara_2014]\] \[[McCabe and Hitt 2009][research_mccabe_hitt_2009]\] \[[McCrary et al 2014][research_mccrary_barber_2014]\] \[[McDevitt and Hitt 2015][research_mcdevitt_hitt_2015]\] \[[McKechnie et al 2021][research_mckechnie_hasanof_2021]\] \[[McLean 2013][research_mclean_2013]\] \[[McLean 2014][research_mclean_2014]\] \[[McLean 2015][research_mclean_2015]\] \[[McLean 2016][research_mclean_2016]\] \[[McLean 2020][research_mclean_2020]\] \[[McQuaid 2003][research_mcquaid_2003]\] \[[McRight et al 2005][research_mcright_popp_2005]\] \[[Melof and Grubelich 2001][research_melof_grubelich_2001]\] \[[Meng et al 2022][research_meng_tian_2022]\] \[[Merz et al 2025][research_merz_horger_2025]\] \[[Mezyk et al 2024][research_mezyk_kindracki_2024]\] \[[Migliorino et al 2023][research_migliorino_fabiani_2023]\] \[[Miller et al 2002][research_miller_martiniii_2002]\] \[[Millett and Nelson 1965][research_millett_nelson_1965]\] \[[Minakov 2025][research_minakov_2025]\] \[[Miquelin et al 2025][research_miquelin_marquetto_2025]\] \[[Miyajima and Sakamoto 1971][research_miyajima_sakamoto_1971]\] \[[Monopropellant Systems 1996][research_monopropellant_systems_1996]\] \[[monopropellant, n. and adj 2023][research_monopropellant_n_2023]\] \[[Morehart et al 2026][research_morehart_huntley_2026]\] \[[Morgan et al 2001][research_morgan_fischer_2001]\] \[[Morlan et al 1999][research_morlan_wu_1999]\] \[[Morris and Cavender 2018][research_morris_cavender_2018]\] \[[Moser et al 2026][research_moser_ji_2026]\] \[[Mota et al 2022][research_mota_fei_2022]\] \[[Mota et al 2023][research_mota_fei_2023]\] \[[Mota et al 2024][research_mota_dias_2024]\] \[[Mota et al 2024][research_mota_dias_2024_b]\] \[[Mota et al 2025][research_mota_dias_2025]\] \[[Muhammad Shahrul Nizam Shahrin et al 2021][research_muhammadshahrulnizamshahrin_norazilaothman_2021]\] \[[Mulkey et al 2016][research_mulkey_miller_2016]\] \[[Mundahl et al 2018][research_mundahl_rovey_2018]\] \[[Munjal 1968][research_munjal_1968]\] \[[Munjal and Prasad 1972][research_munjal_prasad_1972]\] \[[Munjal et al 1972][research_munjal_prasad_1972_b]\] \[[Musker 2003][research_musker_2003]\] \[[Musker and Roberts 2005][research_musker_roberts_2005]\] \[[Muthiah et al 1997][research_muthiah_varghese_1997]\] \[[Muthiah et al 1998][research_muthiah_varghese_1998]\] \[[Nada and Hashem 2012][research_nada_hashem_2012]\] \[[Nair et al 2021][research_nair_morrow_2021]\] \[[Natan et al 2010][research_natan_perteghella_2010]\] \[[Natan et al 2011][research_natan_solomon_2011]\] \[[Nath et al 2022][research_nath_laso_2022]\] \[[Nath et al 2023][research_nath_mallick_2023]\] \[[Nath et al 2023][research_nath_laso_2023]\] \[[Nath et al 2023][research_nath_mallick_2023_b]\] \[[Nath et al 2024][research_nath_mallick_2024]\] \[[Naumann et al 2020][research_naumann_kick_2020]\] \[[Negretti 2024][research_negretti_2024]\] \[[Negri and Lauck 2022][research_negri_lauck_2022]\] \[[Ngo and Romero 2016][research_ngo_romero_2016]\] \[[Ngum and Rush 2024][research_ngum_rush_2024]\] \[[Nichith et al 2016][research_nichith_p_2016]\] \[[Nimmerfroh et al 2000][research_nimmerfroh_pauls_2000]\] \[[Nosseir et al 2023][research_nosseir_cervone_2023]\] \[[Nusca and McQuaid 2004][research_nusca_mcquaid_2004]\] \[[Nusca and McQuaid 2006][research_nusca_mcquaid_2006]\] \[[Nusca et al 2007][research_nusca_mathis_2007]\] \[[Nusca et al 2007][research_nusca_chen_2007]\] \[[Nusca et al 2008][research_nusca_chen_2008]\] \[[Oh et al 2019][research_oh_kang_2019]\] \[[Okninski et al 2014][research_okninski_bartkowiak_2014]\] \[[Okninski et al 2021][research_okninski_surmacz_2021]\] \[[Optimal Design of Hybrid 2004][research_optimal_design_2004]\] \[[Organski et al 2025][research_organski_babusis_2025]\] \[[Orth et al 2021][research_orth_pandey_2021]\] \[[Osmont et al 2008][research_osmont_catoire_2008]\] \[[Pace et al 2015][research_pace_pasini_2015_b]\] \[[Palmer et al 2011][research_palmer_roberts_2011]\] \[[Pan et al 2014][research_pan_feng_2014]\] \[[Panda and Kulkarni 1977][research_panda_kulkarni_1977]\] \[[Panda et al 1986][research_panda_kulkarni_1986]\] \[[Panda et al 1989][research_panda_kulkarni_1989]\] \[[Panda et al 1994][research_panda_kulkarni_1994]\] \[[Park et al 2020][research_park_kang_2020]\] \[[Park et al 2022][research_park_lee_2022]\] \[[Parkes and Conomos 2024][research_parkes_conomos_2024]\] \[[Parzybut and Surmacz 2024][research_parzybut_surmacz_2024]\] \[[Parzybut et al 2023][research_parzybut_surmacz_2023]\] \[[Parzybut et al 2025][research_parzybut_surmacz_2025]\] \[[Pasini et al 2007][research_pasini_torre_2007]\] \[[Pasini et al 2008][research_pasini_torre_2008]\] \[[Pasini et al 2011][research_pasini_torre_2011]\] \[[Pasini et al 2015][research_pasini_pace_2015]\] \[[Pasini et al 2015][research_pasini_pace_2015_b]\] \[[Pasini et al 2015][research_pasini_pace_2015_c]\] \[[Pasini et al 2025][research_pasini_puccinelli_2025]\] \[[Passamaneck and Chirivella 1977][research_passamaneck_chirivella_1977]\] \[[Pelin et al 2020][research_pelin_stoica_2020]\] \[[Pfeil et al 2016][research_pfeil_kulkarni_2016]\] \[[Phondekar and Biswas 2024][research_phondekar_biswas_2024]\] \[[Pijus Kundu et al 2010][research_pijuskundu_bhattacharyya_2010]\] \[[Ponzo 2003][research_ponzo_2003_b]\] \[[Popp and Henderson 1991][research_popp_henderson_1991]\] \[[Popp et al 1992][research_popp_cook_1992]\] \[[Pourpoint and Anderson 2005][research_pourpoint_anderson_2005]\] \[[Pourpoint and Anderson 2007][research_pourpoint_anderson_2007]\] \[[Price 1971][research_price_1971]\] \[[Prince et al 2000][research_prince_carpenter_2000]\] \[[Quintens et al 2020][research_quintens_lebon_2020]\] \[[Quintens et al 2022][research_quintens_boust_2022]\] \[[Raghunath et al 2014][research_raghunath_nghia_2014]\] \[[Rajabi et al 2022][research_rajabi_qadirimassoom_2022]\] \[[Rang et al 2022][research_rang_jeong_2022]\] \[[Rapp and Strier 1957][research_rapp_strier_1957]\] \[[Rathi and Kumar 2025][research_rathi_kumar_2025]\] \[[Reid et al 2025][research_reid_lecarpentier_2025]\] \[[Rhodes and Ronney 2018][research_rhodes_ronney_2018]\] \[[Rhodes and Ronney 2019][research_rhodes_ronney_2019_b]\] \[[Rhodes et al 2019][research_rhodes_ronney_2019]\] \[[Rhodes et al 2019][research_rhodes_ulrich_2019]\] \[[Rhodes et al 2020][research_rhodes_ulrich_2020]\] \[[Richards and Grabbi 1976][research_richards_grabbi_1976]\] \[[Ricker et al 2022][research_ricker_bruggemann_2022]\] \[[Romantsova and Ulybin 2015][research_romantsova_ulybin_2015]\] \[[Romeo et al 2009][research_romeo_genovese_2009]\] \[[Rose 1985][research_rose_1985]\] \[[Roy 1968][research_roy_1968]\] \[[Ruffin et al 2019][research_ruffin_paccagnella_2019]\] \[[Ruffin et al 2022][research_ruffin_paccagnella_2022]\] \[[Rusek 1996][research_rusek_1996]\] \[[Rusek et al 1996][research_rusek_minthorn_1996]\] \[[Russi 1973][research_russi_1973]\] \[[Saad and Goldwasser 1974][research_saad_goldwasser_1974]\] \[[Saad et al 1973][research_saad_antonides_1973]\] \[[Sackheim et al 1974][research_sackheim_carlson_1974]\] \[[Sahara et al 2006][research_sahara_nakasuka_2006]\] \[[Sahul Kumar and Ramakrishna 2026][research_sahulkumar_ramakrishna_2026]\] \[[Sakurai et al 2020][research_sakurai_noguchi_2020]\] \[[Sakurai et al 2025][research_sakurai_miyoshi_2025]\] \[[Salimi 2022][research_salimi_2022]\] \[[Salimi et al 2023][research_salimi_karimaei_2023]\] \[[Santi et al 2019][research_santi_dorgnach_2019]\] \[[Santi et al 2020][research_santi_fagherazzi_2020]\] \[[Saripalli and Sedwick 2013][research_saripalli_sedwick_2013]\] \[[Sarritzu et al 2024][research_sarritzu_pasini_2024]\] \[[Scharlemann 2007][research_scharlemann_2007]\] \[[Scharlemann et al 2006][research_scharlemann_schiebl_2006]\] \[[Schauer and Schmucker 1977][research_schauer_schmucker_1977]\] \[[Scherson et al 2009][research_scherson_lohner_2009]\] \[[Scherson et al 2010][research_scherson_lohner_2010]\] \[[Schmitz et al 1966][research_schmitz_williams_1966]\] \[[Schneider 2020][research_schneider_2020]\] \[[Schneider et al 2011][research_schneider_hawkins_2011]\] \[[Scholl et al 2024][research_scholl_freudenmann_2024]\] \[[Scholl et al 2026][research_scholl_moll_2026]\] \[[Schweickert 1972][research_schweickert_1972]\] \[[Seamans and Dawson 1967][research_seamans_dawson_1967]\] \[[Selbmann et al 2024][research_selbmann_gruber_2024]\] \[[Selvakumar et al 2013][research_selvakumar_somanathan_2013]\] \[[Sengupta and Cole 2010][research_sengupta_cole_2010]\] \[[Sengupta et al 2004][research_sengupta_mazumder_2004]\] \[[Serbest et al 2002][research_serbest_holzwarth_2002]\] \[[Seward and Petersen 2026][research_seward_petersen_2026]\] \[[Shahrin et al 2021][research_shahrin_othman_2021]\] \[[Shahrin et al 2022][research_shahrin_othman_2022]\] \[[Sharma et al 2022][research_sharma_adducci_2022]\] \[[Sheng et al 2020][research_sheng_huang_2020]\] \[[Shields et al 2003][research_shields_barth_2003]\] \[[Shin et al 2023][research_shin_jang_2023]\] \[[Siddharth et al 2024][research_siddharth_bajaj_2024]\] \[[Siebenhaar and Campbell 1987][research_siebenhaar_campbell_1987]\] \[[Silver et al 2025][research_silver_velthuysen_2025]\] \[[Silverman et al 1958][research_silverman_sallach_1958]\] \[[Sims and Popp 2001][research_sims_popp_2001]\] \[[Simulation and Analysis of 2004][research_simulation_and_2004]\] \[[SlMKIN and Koppang 1963][research_slmkin_koppang_1963]\] \[[Smith and James E 2006][research_smith_jamese_2006]\] \[[Smith and Sforzini 1972][research_smith_sforzini_1972]\] \[[Sobczak et al 2017][research_sobczak_surmacz_2017]\] \[[Solasa et al 2025][research_solasa_haridas_2025]\] \[[Soudarin et al 2024][research_soudarin_chen_2024]\] \[[Soudarin et al 2026][research_soudarin_chabaud_2026]\] \[[Soudarin et al 2026][research_soudarin_beauchet_2026]\] \[[Spores 2013][research_spores_2013]\] \[[Starting Transients Of Hypergolic 1960][research_starting_transients_1960]\] \[[Steavenson et al 2025][research_steavenson_johnson_2025]\] \[[Stechmann et al 2014][research_stechmann_lim_2014]\] \[[Stephen A 2019][research_stephena_2019]\] \[[Strobel and Macneil 2024][research_strobel_macneil_2024]\] \[[Stölzle et al 2024][research_stolzle_kruse_2024]\] \[[Su et al 2022][research_su_wang_2022]\] \[[Sun and Tang 2020][research_sun_tang_2020]\] \[[Sun et al 2021][research_sun_jia_2021]\] \[[Surmacz and Gut 2023][research_surmacz_gut_2023]\] \[[Surmacz et al 2017][research_surmacz_rarata_2017]\] \[[Surmacz et al 2019][research_surmacz_kostecki_2019]\] \[[Suzuki and Sahara 2011][research_suzuki_sahara_2011]\] \[[Swami et al 2022][research_swami_kumbhakarna_2022]\] \[[Tacussis et al 2016][research_tacussis_seider_2016]\] \[[Takada et al 2021][research_takada_iwanaga_2021]\] \[[Tang et al 2026][research_tang_huang_2026]\] \[[Tani et al 2015][research_tani_terashima_2015]\] \[[Tegart and Fester 1974][research_tegart_fester_1974]\] \[[Tegart and Fester 1975][research_tegart_fester_1975]\] \[[The Design and Performance 2025][research_the_design_2025]\] \[[The Hunting of the 2019][research_the_hunting_2019]\] \[[The Past and Future 2009][research_the_past_2009]\] \[[The Research and Design 2025][research_the_research_2025]\] \[[Thibaudeau 2024][research_thibaudeau_2024]\] \[[Thomas et al 2016][research_thomas_stober_2016]\] \[[Thomas et al 2017][research_thomas_stober_2017]\] \[[Thombare et al 2021][research_thombare_shekhar_2021]\] \[[Thrasher et al 2016][research_thrasher_williams_2016]\] \[[Thynell et al 2014][research_thynell_adair_2014]\] \[[Tian et al 2001][research_tian_zhang_2001]\] \[[Todd 2005][research_todd_2005]\] \[[Torre et al 2008][research_torre_pasini_2008]\] \[[Torre et al 2009][research_torre_pasini_2009]\] \[[Toxicity of rocket fuels 2002][research_toxicity_of_2002]\] \[[Trent and Zucrow 1951][research_trent_zucrow_1951]\] \[[Tsohas and Heister 2010][research_tsohas_heister_2010]\] \[[Tsujikado and Ishihara 2007][research_tsujikado_ishihara_2007]\] \[[Tsujikado and Ishihara 2008][research_tsujikado_ishihara_2008]\] \[[Tsujikado et al 2002][research_tsujikado_koshimae_2002]\] \[[Tsujikado et al 2003][research_tsujikado_koshimae_2003]\] \[[Tsujikado et al 2004][research_tsujikado_koshimae_2004]\] \[[Tsujikado et al 2005][research_tsujikado_koshimae_2005]\] \[[Tsujikado et al 2006][research_tsujikado_koshimae_2006]\] \[[Türker 2023][research_turker_2023]\] \[[Ul Haq et al 2017][research_ulhaq_khan_2017]\] \[[V et al 2022][research_v_kumar_2022]\] \[[Valentian and Souchier 2007][research_valentian_souchier_2007]\] \[[Venkatachalapathy 1999][research_venkatachalapathy_1999]\] \[[Ventura and Heister 1993][research_ventura_heister_1993]\] \[[Ventura and Heister 1995][research_ventura_heister_1995]\] \[[Ventura and Wernimont 2001][research_ventura_wernimont_2001]\] \[[Ventura et al 2007][research_ventura_wernimont_2007]\] \[[Verberne et al 2014][research_verberne_boiron_2014]\] \[[Vertakov 1998][research_vertakov_1998]\] \[[Vorobiev et al 2014][research_vorobiev_borovik_2014]\] \[[Wada et al 2017][research_wada_watanabe_2017]\] \[[Wakita et al 2022][research_wakita_takada_2022]\] \[[Wang et al 2013][research_wang_xia_2013]\] \[[Wang et al 2017][research_wang_huang_2017]\] \[[Wang et al 2022][research_wang_wang_2022]\] \[[Wang et al 2023][research_wang_lin_2023]\] \[[Wei et al 2019][research_wei_lee_2019]\] \[[Weng et al 2018][research_weng_tang_2018]\] \[[Werling and Bätz 2022][research_werling_batz_2022]\] \[[Werling et al 2015][research_werling_hochheimer_2015]\] \[[Werling et al 2016][research_werling_muller_2016]\] \[[Wernimont 2005][research_wernimont_2005]\] \[[Wernimont 2006][research_wernimont_2006]\] \[[Wernimont and Durant 2004][research_wernimont_durant_2004]\] \[[Wernimont and Durant 2004][research_wernimont_durant_2004_b]\] \[[Wernimont and Garboden 1999][research_wernimont_garboden_1999]\] \[[Wernimont and Heister 1995][research_wernimont_heister_1995]\] \[[Wernimont and Heister 1996][research_wernimont_heister_1996]\] \[[Wernimont and Heister 2000][research_wernimont_heister_2000]\] \[[Wernimont and Mullens 1999][research_wernimont_mullens_1999]\] \[[Wernimont and Mullens 2000][research_wernimont_mullens_2000]\] \[[Whitmore and Martinez 2018][research_whitmore_martinez_2018]\] \[[Whitmore and Merkley 2017][research_whitmore_merkley_2017]\] \[[Whitmore et al 2018][research_whitmore_armstrong_2018]\] \[[Whitmore et al 2018][research_whitmore_martinez_2018_b]\] \[[Wickman 1994][research_wickman_1994_b]\] \[[Williams 2009][research_williams_2009]\] \[[Wilson et al 2012][research_wilson_eilers_2012]\] \[[Wolska et al 2026][research_wolska_czasnowicz_2026]\] \[[Woschnak et al 2013][research_woschnak_krejci_2013]\] \[[Yang et al 2026][research_yang_ho_2026]\] \[[Yanyecic 1968][research_yanyecic_1968]\] \[[Yim et al 2013][research_yim_reed_2013]\] \[[Yoon et al 2023][research_yoon_bhosale_2023]\] \[[Yoon et al 2024][research_yoon_bhosale_2024]\] \[[Yuan et al 2015][research_yuan_chen_2015]\] \[[Yun et al 2019][research_yun_seo_2019]\] \[[Yun et al 2021][research_yun_kim_2021]\] \[[Yun et al 2022][research_yun_kim_2022]\] \[[Zakaria et al 2023][research_zakaria_chartraypronovost_2023]\] \[[Zaldivar et al 2002][research_zaldivar_kobayashi_2002]\] \[[Zarbo et al 2015][research_zarbo_belal_2015]\] \[[Zell and Oetken 2024][research_zell_oetken_2024]\] \[[zhang and Yu 2022][research_zhang_yu_2022]\] \[[Zhang et al 2016][research_zhang_li_2016]\] \[[Zhang et al 2018][research_zhang_he_2018]\] \[[Zhang et al 2020][research_zhang_nie_2020]\] \[[Zhang et al 2023][research_zhang_yu_2023]\] \[[Zhang et al 2024][research_zhang_song_2024]\] \[[Zhang et al 2025][research_zhang_xu_2025]\] \[[Zhang et al 2025][research_zhang_yang_2025]\] \[[Zhang et al 2026][research_zhang_zhang_2026]\] \[[Zhao et al 2018][research_zhao_yu_2018]\] \[[Zhou and Hitt 2005][research_zhou_hitt_2005]\] \[[Zhou et al 2022][research_zhou_yu_2022_c]\] \[[Zhou et al 2023][research_zhou_yu_2023]\] \[[Zhu et al 2025][research_zhu_tong_2025]\] \[[Zuttarelli et al 2020][research_zuttarelli_wight_2020]\] \[[Åkerfeldt and Thornell 2025][research_akerfeldt_thornell_2025]\]
 
@@ -1057,7 +1179,7 @@ been, because it locates the difficulty precisely.
 
 ### Test facilities, instrumentation and diagnostics
 
-**Second smallest in the table and, for its size, the one with the most direct bearing on how the programme ended.** Concentrated peroxide requires dedicated facilities, cleaning protocols and materials controls, and the published record includes both an account of building that capability at the Stennis Space Center and an account of an incident there. **A propellant whose infrastructure is itself a research topic is not a low cost propellant in the short run**, whatever its unit price, and this cluster is where that cost is visible.
+**Second smallest in the table and, for its size, the one with the most direct bearing on how the programme ended.** Concentrated peroxide requires dedicated facilities, cleaning protocols and materials controls, and the published record includes both an account of building that capability at the Stennis Space Center and an account of an incident there. **This cluster is where the infrastructure cost discussed in the section headed The Flight Test Record is visible.**
 
 **75 records.** \[[Abramson et al 1954][research_abramson_brandwein_1954]\] \[[Al-Nasser and Wellman 2024][research_alnasser_wellman_2024]\] \[[Alcock and Hagar 1989][research_alcock_hagar_1989]\] \[[Ali and Gupta 1990][research_ali_gupta_1990]\] \[[Application of the functional 2024][research_application_of_2024]\] \[[Arrington and Schneider 1990][research_arrington_schneider_1990]\] \[[Baker 1967][research_baker_1967]\] \[[Baker 1968][research_baker_1968]\] \[[Banerjee et al 2011][research_banerjee_messidoro_2011]\] \[[Bellows et al 1984][research_bellows_brewster_1984]\] \[[Berg 1968][research_berg_1968]\] \[[Betady et al 2018][research_betady_ortiz_2018]\] \[[Bickford and Gage 1991][research_bickford_gage_1991]\] \[[Biliske and Patel 2024][research_biliske_patel_2024]\] \[[Brown 1990][research_brown_1990]\] \[[Chapter 2. Spacecraft Sensors 1994][research_chapter_2_1994]\] \[[Cho et al 2019][research_cho_kim_2019]\] \[[Choukroun et al 2011][research_choukroun_cooper_2011]\] \[[Christison 2024][research_christison_2024]\] \[[Cichon et al 2026][research_cichon_banko_2026]\] \[[Colicci et al 2025][research_colicci_noonan_2025]\] \[[Crassidis and Whorton 2020][research_crassidis_whorton_2020]\] \[[Crosswy and Kalb 1967][research_crosswy_kalb_1967]\] \[[Dandan et al 2026][research_dandan_xuehao_2026]\] \[[Das and Christopher 2018][research_das_christopher_2018]\] \[[Denker 1969][research_denker_1969_b]\] \[[Dequay et al 1991][research_dequay_lusk_1991]\] \[[Development of Combustion Test 2006][research_development_of_2006]\] \[[Driscoll, Jr 1967][research_driscolljr_1967]\] \[[Ellerbrock and Ziegenhagen 2006][research_ellerbrock_ziegenhagen_2006]\] \[[Farr et al 2005][research_farr_wiley_2005]\] \[[Fisher 1985][research_fisher_1985]\] \[[Fujiwara et al 2025][research_fujiwara_demenezes_2025]\] \[[Gong et al 2017][research_gong_bing_2017]\] \[[Kato et al 1995][research_kato_kanmuri_1995]\] \[[Kim et al 2015][research_kim_kim_2015]\] \[[Kim et al 2015][research_kim_lee_2015]\] \[[Kitsche 2010][research_kitsche_2010]\] \[[Koschel 1998][research_koschel_1998]\] \[[Lancaster 1994][research_lancaster_1994]\] \[[Lankford et al 1992][research_lankford_simmons_1992]\] \[[Lee et al 2017][research_lee_oh_2017]\] \[[Llewellyn et al 2025][research_llewellyn_clark_2025]\] \[[Ma et al 2024][research_ma_zhong_2024]\] \[[Mallappa et al 2021][research_mallappa_ramesh_2021]\] \[[Matringe 2001][research_matringe_2001]\] \[[McAmis 1995][research_mcamis_1995]\] \[[Messer 2007][research_messer_2007]\] \[[Monitoring Curing of Quasi-Isotropic 2016][research_monitoring_curing_2016]\] \[[Moruzzi et al 2018][research_moruzzi_fessl_2018]\] \[[Multi-sensor Fusion Filter for 2009][research_multi_sensor_fusion_2009]\] \[[Nagpal and Vidya 2024][research_nagpal_vidya_2024]\] \[[Nassar et al 2017][research_nassar_hussein_2017]\] \[[Nath et al 1986][research_nath_ganeshan_1986]\] \[[Nguyen et al 1988][research_nguyen_cole_1988]\] \[[Pages and Achipa 2026][research_pages_achipa_2026]\] \[[Perry et al 2020][research_perry_hunt_2020]\] \[[Powell et al 1975][research_powell_butler_1975]\] \[[Puening 1990][research_puening_1990]\] \[[Raines et al 1991][research_raines_bircher_1991]\] \[[Sanli et al 2018][research_sanli_ramalingame_2018]\] \[[Sensor Failure Management in 2020][research_sensor_failure_2020]\] \[[Slawecki et al 2026][research_slawecki_kowalczyk_2026]\] \[[Strunz and Herrmann 2011][research_strunz_herrmann_2011]\] \[[Szalkowski et al 2024][research_szalkowski_chrostowski_2024]\] \[[The launch vehicle cowling 2015][research_the_launch_2015]\] \[[Tirres and Cantrell 1985][research_tirres_cantrell_1985]\] \[[Tishkoff et al 1989][research_tishkoff_birkan_1989]\] \[[Trajectories and Thrust-Measurement Techniques 1961][research_trajectories_and_1961]\] \[[Transport aircraft fuel tank 2000][research_transport_aircraft_2000]\] \[[Trofimov et al 2024][research_trofimov_pecherskaya_2024]\] \[[Van Den Berghe et al 2020][research_vandenberghe_antony_2020]\] \[[Whorton and Crassidis 2024][research_whorton_crassidis_2024]\] \[[Zakrajsek 1991][research_zakrajsek_1991]\] \[[Zhang et al 2023][research_zhang_hua_2023]\]
 
@@ -1094,7 +1216,7 @@ been, because it locates the difficulty precisely.
 
 **The upper stage cluster is the mirror image and it is the bleakest number in the table.** It carries one of the largest pre-2000 shares of any central cluster at 38 percent and is the smallest central cluster in absolute terms. **The pop-up insertion mission was posed, worked on, and then abandoned without being solved**, and the modern entries under this heading serve commercial rideshare rather than the military responsive-insertion mission that justified this vehicle.
 
-**The cluster covering the technology that actually killed the programme is among the youngest of the central clusters.** Composite pressure vessels stand at 52 percent post-2015, behind only the ablative cluster at 54 percent and the peroxide cluster at 53 among the nine, although three smaller clusters outside that set are younger still, launch vehicle dynamics and turbomachinery at 59 percent and cryogenics at 56. **The tank failed because that problem was open, and the date profile says it is open still.** A reader looking for the part of this vehicle that has a future should look there rather than at the stage.
+**The cluster covering the technology that actually ended the programme is among the youngest of the central clusters.** Composite pressure vessels stand at 52 percent post-2015, behind only the ablative cluster at 54 percent and the peroxide cluster at 53 among the nine, although three smaller clusters outside that set are younger still, launch vehicle dynamics and turbomachinery at 59 percent and cryogenics at 56. **The date profile says that the field the tank belongs to is still active.** A reader looking for the part of this vehicle that has a future should look there rather than at the stage.
 
 ## Where the Framing Breaks Down
 
@@ -1108,10 +1230,11 @@ it, and by the mass relation alone a pump-fed stage wins comfortably. **The arti
 pressure-fed choice was survivable and not why it was made**, and those are different questions.
 
 **Second, the relation treats the tank as a membrane and the failure was not a membrane failure.** A
-vessel that passes a hydrostatic proof at 150 percent and then fails during a helium pressurisation is
-telling you about liners, joints, bosses, permeation, or the difference between a liquid and a gas as
-the pressurising medium. **None of those appear anywhere in the keystone**, which is precisely why the
-keystone cannot explain the outcome of the programme.
+vessel that passes a hydrostatic proof at 150 percent and fifty cycles to its operating pressure and
+then fails during a helium pressurisation points to liners, joints, bosses, permeation, the adhesive
+bond, or the difference between a liquid and a gas as the pressurising medium. **None of those appear
+anywhere in the keystone**, which is precisely why the keystone cannot explain the outcome of the
+programme.
 
 **Third, treating the vehicle as a technology demonstrator understates how much of it was ordinary.**
 The cold gas attitude control, the linear shaped charge separation, the gimballed engine and the helium
@@ -1120,11 +1243,9 @@ pressurisation are all conventional, and the novelty was concentrated in the tan
 should carry away that this was a mostly conventional stage with two unusual choices rather than a
 wholly experimental vehicle.
 
-**A fourth caution concerns the designation itself.** This article is filed under X-42 because the
-designation was allocated to this vehicle, but the analysis would be unchanged if the allocation were
-shown tomorrow to have been intended for something else. **The engineering does not depend on the
-number**, and a reader interested in the vehicle should treat the designation as a filing convenience
-rather than as a fact about the hardware.
+**A fourth caution concerns the designation itself.** The analysis would be unchanged if the allocation
+were shown to have been intended for something else, so the designation is a filing convenience rather
+than a fact about the hardware.
 
 ## The Source Base
 
@@ -1133,15 +1254,17 @@ field, and the article keeps them apart.**
 
 **38 of the 41 are primary or canonical technical sources**, being conference papers, journal
 papers, technical reports and design criteria monographs. Two are the designation reference that
-supplies the allocation dates and the disputed pairing, and one is a textbook. **22 of the 41 are
-contemporary with the programme**, falling between 1997 and 2009. The count is reported alongside the
-fraction because adding a canonical source from 1967 lowers the fraction while leaving the contemporary
-count untouched.
+supplies the allocation dates and the disputed pairing, and one is a textbook. **24 of the 38 technical
+sources are contemporary with the programme**, falling between 1997 and 2009. The count is reported
+alongside the fraction because adding a canonical source from 1967 lowers the fraction while leaving the
+contemporary count untouched.
 
-**24 of the 41 come from the NASA Technical Reports Server**, which is the single fact that made this
+**25 of the 41 come from the NASA Technical Reports Server**, which is the single fact that made this
 article possible. The programme was run by a contractor under NASA management, so its engine papers,
-its incident report, its pressurant tank development and the design criteria its engineers worked from
-are all in one open register.
+its programme overview, its incident report, its pressurant tank development and the design criteria
+its engineers worked from are all in one open register. The structures paper is held in full by the
+Defense Technical Information Center as component ADP020323 of the proceedings of the 12th International
+Conference on Composite Structures of November 2003.
 
 **The NASA design criteria monographs supply most of the canonical relations.** Eight are
 cited, covering self-cooled combustion chambers, pressurisation systems, injectors, nozzles, metal
@@ -1150,24 +1273,24 @@ the practice this vehicle inherited rather than with the vehicle**, and they are
 rather than textbook summaries, which is why they are preferred here to a modern reference that would
 say the same thing with less authority.
 
-**The two papers that carry most of the technical argument were presented at the same conference.**
-The engine design and test results and the catalyst bed instability analysis were both given at the
-36th Joint Propulsion Conference in July 2000, and **reading either without the other gives a
-misleading account of the engine**. One reports throttling to a tenth of design flow and the other
-reports the instability that had to be removed before that was possible.
+**The two engine papers of 2000 were presented at the same conference and print different operating
+points.** The engine design and test results and the catalyst bed instability analysis were both given
+at the 36th Joint Propulsion Conference in July 2000. The first prints 10,000 pounds of thrust at 500
+pounds per square inch, the second 9,480 at 485, and the 1999 papers a third version at a mixture ratio
+of 6.0. **Reading any one of them alone gives a falsely settled account of the engine.**
 
-**The structural argument rests on a single paper in a structures journal**, which is a
-concentration worth naming. No second published account of the integral tank is known, so the proof
-test date, the proof factor and the pressure figure all trace to one source. **The tank pressure
-inference in this article would collapse if that paper were wrong**, although the engine paper's
-independent pressure floor would still bound it.
+**The structural argument rests on a single paper in a structures journal**, which is a concentration
+worth naming. The operating pressure, the proof and burst factors, the tank volumes, the strain data and
+the proof test date all trace to it. The 1999 overview paper describes the same structure and its
+subscale programme in outline and agrees on the single-piece design and on the liner serving as the
+winding mandrel.
 
-**One source is a working manuscript rather than a publication and it is used for three subsystem
-details that appear nowhere else.** It carries the correct author set, a contract number and content
-consistent with the published papers, and it also carries an unwritten section heading and an
-uncorrected edit. It is cited as what it is. **The helium pressurant tank it describes is
-independently corroborated by a NASA Marshall paper**, which raises confidence in the manuscript
-without extending that confidence to the figures nothing else confirms.
+**One source is an unfinished paper and it is used for several subsystem details that appear nowhere
+else.** NASA's Technical Reports Server holds it as a 1999 paper for the Hydrogen Peroxide Propulsion
+conference of November 1999, under contract NAS8-98040, and it carries an unwritten section heading, an
+uncorrected edit and a note asking a co-author to finish a section. **Its helium pressurant tank is
+independently corroborated by a NASA Marshall paper**, which describes a different liner, so the
+corroboration extends to the component and not to every figure.
 
 **Records are admitted when their titles match this article's subject vocabulary.** A person has read the titles that the exclusion patterns flag and a random sample of the rest, and records read as off topic, and others of their kinds, are removed. Its 9,389 records are drawn from the literature indexed by Crossref, and each is assigned to
 exactly one cluster. Much of the vocabulary this subject depends on also names something else, and a
@@ -1204,27 +1327,30 @@ unknown amount, and no later unread sample has been drawn.
 
 The Air Force Research Laboratory began a formal pop-up upper stage effort in 1997 under the name
 Modular Insertion Stage. Studies sponsored that year concluded that high concentration hydrogen
-peroxide with a hydrocarbon fuel best met the storability and non toxicity requirements. Orbital
+peroxide with a hydrocarbon fuel best met the storability and non toxicity requirements\[[USFE X-42][ref_x42_parsch]\]. Orbital
 Sciences Corporation held the contract to design, develop and demonstrate the resulting Upper Stage
 Flight Experiment, under NASA Marshall Space Flight Center management in cooperation with the
-laboratory.
+laboratory, and NASA dates its start to December 1997\[[McNeal and Anderson 1999][research_mcneal_1999]\].
 
 The engine burned ninety percent hydrogen peroxide with JP-8 at a mixture ratio of 4.7, produced
 10,000 pounds of vacuum thrust at a chamber pressure of 500 pounds per square inch absolute with a
 nozzle expansion ratio of 40, and had a design burn time of 200 seconds at a flowrate of 36.0 pounds per
-second\[[Ross and others 2000][research_ross_2000]\]. Two development test series were run at the E-3
-test cell at the Stennis Space Center, the first on 85 percent peroxide concluding in early 2000 and the
-second on 90 percent peroxide. The first series accumulated over 300 seconds of bipropellant operation
-and over 700 seconds on a single catalyst bed, and demonstrated multiple restarts and throttling to
-10 percent in monopropellant mode and 20 percent in bipropellant mode. A 140 second test was run on
-19 May 1999. A 150 second test concluded the second series.
+second\[[Ross and others 2000][research_ross_2000]\]. Two development test series were run at the E-3 test cell at the Stennis Space Center in
+campaigns from late 1998 to early 2000, the first on 85 percent peroxide and the second on 90 percent.
+The first series accumulated 300 seconds of bipropellant operation and over 700 seconds on a single
+catalyst bed, and demonstrated multiple restarts and throttling to 10 percent in monopropellant mode and
+20 percent in bipropellant mode. A 140 second test was run on 19 May 1999. A 150 second test concluded
+the second series.
 
-A low frequency catalyst bed instability appeared near one third of design peroxide flow and was
-eliminated by modifying the combustion chamber\[[Johnson and others 2000][research_johnson_2000]\].
+A low frequency catalyst bed instability appeared as the peroxide flow rose through about 12 pounds per
+second, about one third of the design rate, in monopropellant testing, and was removed by a change of
+combustion chamber configuration\[[Johnson and others 2000][research_johnson_2000]\].
 
-The integral structure was an all-composite single piece incorporating both propellant tanks and both
-skirts, with a common bulkhead, and was hydrostatically proof tested at Chandler, Arizona between 15 and
-17 April 2003 to 150 percent of maximum expected operating pressure\[[Guerrero and others 2004][research_guerrero_2004]\].
+The integral structure was an all-composite assembly of both propellant tanks, with a common bulkhead,
+bonded into a filament wound skirt. Its tanks enclosed 44.8 and 15.5 cubic feet at a maximum expected
+operating pressure of 1,100 pounds per square inch absolute, the stage was designed for a 110 second
+burn, and the structure was hydrostatically proof tested at Chandler, Arizona between 15 and 17 April
+2003 to 150 percent of that pressure and then cycled 50 times to it\[[Guerrero and others 2004][research_guerrero_2004]\].
 
 The X-42A designation was allocated in late 1997 or early 1998 to an expendable demonstrator for pop-up
 upper stage technology and was not used in any subsequent official announcement. In 2002 the laboratory
@@ -1236,6 +1362,9 @@ An overpressurisation incident occurred at the Stennis Space Center in December 
 advanced catalyst beds and high concentration peroxide, damaging facility infrastructure and test
 hardware\[[Ross and others 2001][research_ross_2001]\].
 
+The suborbital flight test was scheduled for 2001 in 1999\[[Anderson and others 1999][research_anderson_usfe]\] and for 2002 in 2000\[[Johnson and others 2000][research_johnson_2000]\], and no flight
+took place.
+
 ### Verified by Independent Derivation
 
 **Every input below is a value one of the primary papers reports, and every output was computed in
@@ -1243,38 +1372,43 @@ this article rather than quoted from anywhere.** The qualification is made once 
 against each item.
 
 The throat area of 11.06 square inches, throat diameter of 3.75 inches and exit diameter of 23.7 inches
-come from the contraction ratio of 7.1 with a chamber diameter of ten inches, and the exit diameter
-sits inside the stated 40 inch engine envelope.
+come from the contraction ratio of 7.1 with a chamber diameter of ten inches, agree with the 3.74 and
+23.7 inch figures on the 1999 drawing, and the exit diameter sits inside the stated 40 inch engine
+envelope.
 
-The propellant load of 7,200 pounds is the flowrate multiplied by the burn time, and dividing it at the
-stated mixture ratio gives 5,937 pounds of oxidiser and 1,263 pounds of fuel, occupying 93.8 cubic feet
-in total at a bulk density of 1.230 grams per cubic centimetre.
+The 110 second flight burn at 36.0 pounds per second is 3,960 pounds of propellant, which at the stated
+mixture ratio and the assumed densities fills 85.5 percent of the 60.3 cubic feet the published tank
+volumes enclose.
 
 The characteristic velocity of 4,943 feet per second and thrust coefficient of 1.808 come from the
-reported thrust, chamber pressure and flowrate, and the thrust coefficient sits just below the ideal
+published thrust, chamber pressure and flowrate, and the thrust coefficient sits just below the ideal
 vacuum value for the stated expansion ratio, as a real nozzle must.
 
-The erosion rate of 0.00050 inches per second implied by the chamber pressure history of the 140 second
-test agrees in magnitude with the 0.0009 inches per second measured directly in the 31 second test and
-orders correctly with mixture ratio. **Neither measurement was derived from the other.**
+The chamber pressure history of the 140 second test implies a throat-average erosion rate of 0.00050
+inches per second, below the allowance, although the paper's own reading of the same test is that local
+erosion with that injector was too severe at that mixture ratio.
 
 The catalyst bed frontal diameter of 9.72 inches comes from the oxidiser flow and the bed mass flux,
-and fits inside the ten inch chamber with three percent to spare. **Those three numbers were reported
-in different sections for different purposes and they agree.**
+and fits inside the ten inch chamber with three percent to spare. **Those numbers were reported in
+different sections for different purposes and they agree.**
 
 The chamber Mach number of 0.083 comes from the contraction ratio through the isentropic area relation,
 and places the chamber within a tenth of a percent of stagnation temperature, which is the condition
 the paper's autoignition requirement is really asking for.
 
 The ideal vacuum thrust coefficient of 1.884 at a ratio of specific heats of 1.20 and 1.835 at 1.25 is
-the area ratio relation solved at an expansion ratio of 40. **The measured 1.808 sits below both, which
+the area ratio relation solved at an expansion ratio of 40. **The implied 1.808 sits below both, which
 is where a real nozzle belongs.**
+
+The 195 pound per square inch design pressure difference across the common bulkhead with the oxidiser
+tank higher covers the 136 pound per square inch catalyst bed drop that only the oxidiser passes
+through.
 
 The isotensoid winding angle of 54.7 degrees rests on the two-to-one ratio of hoop to axial membrane
 load in a pressurised cylinder and on nothing else.
 
 The vacuum thrust coefficient falls by under one percent as the expansion ratio drops from 40 to 32.7,
-which is the change corresponding to a full burn at the allowable erosion rate.
+which is the change corresponding to a full 200 second burn at the allowable erosion rate.
 
 ### Analysis
 
@@ -1291,46 +1425,37 @@ peroxide and JP-8 combination beats liquid oxygen and liquid hydrogen by more th
 falls about eleven percent short of nitrogen tetroxide with monomethylhydrazine.
 
 The specific strength advantage of filament wound carbon and epoxy over aluminium alloy 2219-T87 is a
-factor of between seven and eleven, which on the ideal membrane relation is the difference between a
-tank costing under one percent of propellant mass and one costing about six percent.
+factor of between seven and eleven, which on the ideal membrane relation at the published operating
+pressure is the difference between a tank costing about 1.2 percent of the propellant it holds and one
+costing about 8.8 percent.
 
 Because cavitating venturis fix the mass flow, the product of chamber pressure and throat area is
 constant, so thrust follows the thrust coefficient alone and a 22.5 percent growth in throat area
 produces about a one percent change in thrust. **The ablative nozzle and the cavitating venturi are one
 design decision rather than two.**
 
-The demonstrated throttle range lies below the flow at which the untreated engine went unstable, so the
-chamber modification reported in the instability paper was a precondition for the throttling result
-reported in the engine paper.
+The instability onset at about 12 pounds per second lies above the 10 and 20 percent throttle points and
+below design flow, so the chamber change was needed to pass through one third of design flow on the way
+to full thrust, and the record does not tie it to the throttling result.
 
 ### Inference
 
 **These are reasoned conclusions that the record permits but does not state.**
 
-**The maximum expected operating pressure was 733 pounds per square inch absolute and the proof test ran
-to 1,100.** The published sentence admits the opposite reading, in which 1,100 is the operating pressure.
-The engine paper establishes a floor of 636 pounds per square inch absolute from chamber pressure and
-catalyst bed drop alone, which leaves 97 pounds per square inch of margin under the first reading and
-464 under the second. **Only the first is a design anyone would build.** Two papers by different teams
-four years apart agree on it and neither was written to support it.
+**The one percent non-closure of the 2000 engine table is a remnant of the 1999 design point.** The
+1999 table pairs the same thrust and flowrate with 278 seconds, which closes, and the 2000 table changed
+the specific impulse and the mixture ratio and left thrust and flowrate as they were. Neither paper says
+so.
 
-**The published specific impulse of 275 seconds is a rounded and conservative statement of a value the
-rest of the table puts at 277.8 seconds.** Thrust, flowrate and specific impulse do not close to better
-than one percent as published, and the geometry favours the higher figure.
+**The X-42A allocation and the Upper Stage Flight Experiment are contemporaneous rather than merely
+adjacent.** The allocation falls in late 1997 or early 1998, and NASA dates the start of the experiment
+with Orbital Sciences to December 1997\[[McNeal and Anderson 1999][research_mcneal_1999]\]. **This distinguishes the X-42 case from the X-41 case**, where
+the designation preceded its programme by years. The doubt about X-42 is of a different kind, being not
+that the pairing is anachronistic but that no official use ever confirmed it.
 
-**The X-42A allocation and the Upper Stage Flight Experiment contract are contemporaneous rather than
-merely adjacent.** The allocation falls in late 1997 or early 1998 and the contract with Orbital
-Sciences is reported as initiated in December 1997. **This distinguishes the X-42 case from the X-41
-case**, where the designation preceded its programme by years. The doubt about X-42 is of a different
-kind, being not that the pairing is anachronistic but that no official use ever confirmed it.
-
-**Two dates in that paragraph are weaker than the rest of this article and the difference is worth
-naming.** The December 1997 contract initiation and the January 1998 request for proposals both reach
-this article through summaries of the programme rather than through a document that states them.
-**Neither has been traced to a primary source**, and neither carries a
-citation here for that reason. **The argument they support does not collapse without them**, since the
-allocation window and the contractor are independently attested, but a reader should treat those two
-months as the least secure figures in the article.
+**One date in this argument is weaker than the rest.** The January 1998 request for proposals rests on
+the designation survey alone, and no Air Force document stating it is available. The argument does not
+depend on it, since the allocation window and the contract start are independently attested.
 
 **The two X-42 usages are related through the sponsoring organisation rather than through the
 hardware.** Both trace to the Air Force Research Laboratory Space Vehicles Directorate in the same
@@ -1339,58 +1464,67 @@ period. This is a plausible common cause and it is not documented as one.
 ### What the Record Does Not Settle
 
 **The stage's inert mass was never released**, so this article gives achievable velocity increment as a
-family across plausible inert and payload masses rather than as a number. Across inert masses from 600
-to 1,200 pounds and payloads from 2,000 to 4,000 pounds, the family spans roughly 2,340 to 3,580 metres
-per second. **The inert mass is the one quantity that would turn that family into an answer**, and it
-is precisely the quantity a cancelled programme never publishes.
+family across assumed inert and payload masses rather than as a number. Across inert masses from 600
+to 1,000 pounds and payloads from none to 2,000 pounds, with the 110 second load, the family spans
+roughly 2,270 to 5,470 metres per second. **The inert mass is the one quantity that would turn that
+family into an answer**, and it is precisely the quantity a cancelled programme never publishes.
+
+**Why the tanks were sized for a 110 second burn when the engine was rated for 200 is not explained**,
+nor why their volume ratio corresponds to a mixture ratio near 5.0 rather than the 4.7 of the engine
+table.
 
 **The decomposition temperature is derived here with constant specific heats and overshoots by about
 six percent**, giving 780 degrees Celsius against a published figure near 740. The direction of the
 error is what the assumption predicts, since the heat capacity of steam rises with temperature, but the
 calculation is an upper bound rather than a confirmation.
 
-**The pressurant figures are isothermal lower bounds.** Real blowdown cools the gas, so the 24.5
-kilograms and the thirteen cubic foot bottle are the least that would have worked, not estimates of
-what was flown. No figure for the pressurant load appears anywhere in the record.
+**The pressurant figures are isothermal lower bounds.** Real blowdown cools the gas, so the 25.4
+kilograms and the 13.5 cubic foot bottle are the least that would have worked, not estimates of what was
+built. No figure for the pressurant load appears anywhere in the record.
 
 **The catalyst bed has no stated life.** Bed pressure drop is reported as rising with accumulated run
 time and no limit is given, so the one number that would say whether the engine was ready to fly is
 missing.
 
-**The cause of the tank failure was never disclosed.** A vessel that passes a hydrostatic proof at
-150 percent and later fails during helium pressurisation is reporting something about liners, joints,
-bosses, permeation or the difference between a liquid and a gas as the pressurising medium, and the
-public record does not say which.
+**The cause of the tank failure was never disclosed**, and the possibilities are set out under Where the
+Framing Breaks Down.
 
 **Whether the December 2000 Stennis incident involved this engine is not established.** The abstract
 places it at the same centre during peroxide work in the same period and says no more, and this article
 says no more either.
 
-**No flight is recorded and this article treats that as an argument from silence.** The stage appears in
-no launch record, no publication reports flight results, and the designation was never used officially
-again. **Absence of a record is not a record of absence**, and the positive statement the sources
-support is only that the published account ends with a destroyed first article, a leaking second
-article, and a schedule never reported as met.
+**No flight is recorded**, and the section headed The Flight Test Record treats that as an argument
+from silence.
 
 **Whether the X-42 designation properly belongs to this vehicle is not settled**, and the authoritative
 survey declines to settle it, recording that the designation is not tied to a specific programme or
 vehicle.
 
-**The exact contract and solicitation dates are not established from primary sources.** December 1997
-for the contract and January 1998 for the request for proposals both come from programme summaries, and
-neither has been traced to a document. They are reported as such rather than
-dropped, because the allocation window they sit inside is independently attested.
-
 ### On Sources Used With Reservation
 
-**One source used in the Dependent Systems section is a working manuscript rather than a publication.**
-It carries the correct author set, the contract number and technical content consistent with the
-published papers, and it also carries visible drafting artefacts including an unwritten section and an
-uncorrected edit. **It is the only source for several subsystem details**, being the nitrogen attitude
-control tank pressure, the linear shaped charge separation arrangement and the propellant management
-thrusters. Those details are reported here as coming from it, and the helium pressurant tank it
-describes is independently corroborated\[[DeLay and Munafo 2001][research_delay_2001]\]. **A reader should
-treat the uncorroborated subsystem figures as the weakest quantitative claims in this article.**
+**One source used in the Dependent Systems section is an unfinished paper.** NASA's Technical Reports
+Server holds it as a 1999 paper under contract NAS8-98040, and it carries an unwritten section, an
+uncorrected edit and an editorial note to a co-author. **It is the only source for several subsystem
+details**, being the nitrogen attitude control tank pressure, the separation arrangement and the
+propellant management thrusters. Its helium pressurant tank is corroborated\[[DeLay and Munafo 2001][research_delay_2001]\], although the
+corroborating paper describes a metallic permeation barrier where this one describes a plastic liner.
+**A reader should treat the uncorroborated subsystem figures as the weakest quantitative claims in this
+article.**
+
+**The end of the programme rests on one secondary source.** The tank failure, the second prototype's
+leakage and the 2006 and 2007 schedule appear only in the designation survey\[[USFE X-42][ref_x42_parsch]\], which cites an Air Force
+Research Laboratory release of August 2005 that is not available here.
+
+### Assumed Values
+
+**These values are not stated by any source cited here and are assumed for the derivations.** They are
+the propellant densities of 1.387 grams per cubic centimetre for 90 percent peroxide and 0.804 for JP-8,
+the bulk densities and specific impulses of the three comparison combinations in the density impulse
+table, the specific strength range of $1.0 \times 10^{6}$ to $1.6 \times 10^{6}$ joules per kilogram for
+filament wound carbon and epoxy, the reaction enthalpy, latent heat and heat capacities of the
+decomposition balance, the ratios of specific heats of 1.20 and 1.25 for the combustion products and 1.4
+for nitrogen, the gas temperature of 300 kelvin for helium and nitrogen, and the inert masses and
+payloads of the velocity family.
 
 ### On Information Postdating the Editorial Date
 
@@ -1434,26 +1568,27 @@ tanks that a pressure-fed architecture must hold at several hundred pounds per s
 filament wound carbon and epoxy structure held them at a specific strength between seven and eleven
 times that of the aluminium alternative. **Together those choices turn the pressure-fed penalty from
 disqualifying into marginal**, and the engine that resulted ran for more than seven hundred seconds on a
-single catalyst bed, restarted repeatedly, throttled to a tenth of its design flow once an instability
-was found and fixed, and held its thrust to within about one percent while its throat eroded by
-22 percent, because the flow control made thrust nearly independent of the geometry that was changing.
+single catalyst bed, restarted repeatedly, throttled to a tenth of its design flow, came through a
+catalyst bed instability that a chamber change removed, and would hold its thrust within about one
+percent while its throat eroded by 22 percent over a full design burn, because the flow control made
+thrust nearly independent of the geometry that was changing.
 
 **The programme was then destroyed by the component it existed to prove.** A tank that had passed a
-hydrostatic proof at 150 percent of operating pressure failed during a helium pressurisation test and
-took the engine with it, a second article leaked, and no flight ever followed. **The failure is more
+hydrostatic proof at 1,650 pounds per square inch and fifty cycles to its 1,100 pound operating pressure
+failed during a helium pressurisation test and took the engine with it, a second article leaked, and no
+flight ever followed. **The failure is more
 informative than a launch failure would have been**, because it locates the difficulty precisely in the
 composite pressure vessel and not in the propulsion, the propellant choice or the mass relation that
 justified them.
 
-**The designation is a separate story and a worse one.** X-42A was allocated in the same weeks the
+**The designation is a separate story and a worse one.** X-42A was allocated in the same months the
 contract began, which makes the pairing better founded than the X-41 case examined in the preceding
 article, and it was then never used officially again, which makes it worse founded than any confirmed
 designation. Four years later the same number was applied informally to a winged reusable booster that
 shared a contractor with the stage and nothing else, and the authoritative survey now declines to tie
-the number to either. **Three of the four articles from the X-39 onward have found a designation that may not
-belong to its vehicle**, and at that point the pattern stops being about individual programmes and
-starts being about the administration of the number space in the late 1990s. The closing article of this
-series will have to say so.
+the number to either. **Three of the four articles from the X-39 onward have found a designation that
+may not belong to its vehicle**, which makes the pattern a matter of how the number space was
+administered in the late 1990s.
 
 **What survives is the data.** The stage is gone, the designation is unattached, and the two things the
 programme was built to demonstrate, being a peroxide and hydrocarbon engine at useful thrust and a
@@ -1850,7 +1985,7 @@ work stands on. **That is a reasonable return for a vehicle that never left the 
 - [Anderson et al 2015][research_anderson_heister_2015]
 - [Anderson et al 2019][research_anderson_heister_2019]
 - [Anderson et al 2020][research_anderson_heister_2020]
-- [Anderson, Boxwell, Crockett, Ross, Lewis, McNeal and Verdarame, undated, Upper-Stage Flight Experiment, working manuscript][research_anderson_usfe]
+- [Anderson, Boxwell, Crockett, Ross, Lewis, McNeal and Verdarame, 1999, Upper-stage flight experiment][research_anderson_usfe]
 - [Anderson, Crockett, Hill and Lewis, 1998, Low cost propulsion using a high density, storable, and clean propellant combination][research_anderson_1998]
 - [Andreev et al 1995][research_andreev_chepkin_1995]
 - [Andreev et al 2023][research_andreev_kovalev_2023]
@@ -11278,7 +11413,7 @@ work stands on. **That is a reasonable return for a vehicle that never left the 
 [research_anderson_oavelka_1973]: https://doi.org/10.21236/ad0768315
 [research_anderson_poulter_1978]: https://doi.org/10.1016/0094-5765(78)90039-5
 [research_anderson_son_2012]: https://doi.org/10.21236/ada566310
-[research_anderson_usfe]: https://hydrogen-peroxide.us/uses-biprop-combustion/USFE-Upper_Stage_Flight_Experiment_Hydrogen_Peroxide_Kerosene_Rocket_Engine.pdf
+[research_anderson_usfe]: https://ntrs.nasa.gov/citations/20000004378
 [research_anderson_work_1966]: https://doi.org/10.2514/6.1966-204
 [research_andreev_chepkin_1995]: https://doi.org/10.2514/6.1995-2837
 [research_andreev_kovalev_2023]: https://doi.org/10.18698/2308-6033-2023-2-2251

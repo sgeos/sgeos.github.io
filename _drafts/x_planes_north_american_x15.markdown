@@ -15,7 +15,7 @@ series_index: 16
 
 The [North American X-15][ref_x15] is the most heavily documented aircraft in this series and that is the problem with writing about it. Nearly two hundred flights, nine years, three airframes, twelve pilots, and a literature large enough that any account can be assembled from primary sources without ever deciding what the aircraft was for. **Every previous article in this series found its keystone by looking for the one binding unknown. Here the unknown is not scarce but abundant**, and the keystone has to be chosen and defended rather than discovered. This article is the sixteenth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], and the [X-14][related_post_a311_bell_x14].
 
-The choice made here is **energy**, and specifically one fact about it. At the speed the X-15 reached, **the kinetic energy of every kilogramme of the aircraft was more than twice the energy needed to melt that kilogramme**. Flight at that speed is therefore not fast flight with heating added. It is the problem of carrying an amount of energy that would destroy the vehicle if it went to the wrong place, and then disposing of all of it before landing. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the programme's own conference record is [NACA 1958][research_naca_1958] and [Beeler 1961][research_beeler_1961].
+The choice made here is **energy**, and specifically one fact about it. At the speed the X-15 reached, **the kinetic energy of every kilogramme of the aircraft was more than twice the energy needed to melt that kilogramme**. Flight at that speed is therefore not fast flight with heating added. It is the problem of carrying an amount of energy that would destroy the vehicle if it went to the wrong place, and then disposing of all of it before landing. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the programme's own conference record is [NACA 1958][research_naca_1958] and [Beeler 1961][research_beeler_1961]. The programme histories used throughout are [Jenkins 2000][ref_jenkins_2000] and [Jenkins 2007][ref_jenkins_2007], the second with a flight-by-flight log, and the 1965 programme conference is [NASA SP-90][ref_nasa_sp90_1965].
 
 ## The Research Question
 
@@ -81,21 +81,31 @@ holds here unchanged, and the X-15 drives $q$ to zero by making $\rho$ vanish ra
 
 ## Programme Origin
 
-The X-15 originates in a request rather than in a proposal. In 1954 the Committee on Aerodynamics of the National Advisory Committee for Aeronautics, the NACA, recommended a research aircraft for flight at very high speed and altitude, the Air Force and Navy agreed to fund it jointly with the NACA directing the research, and North American Aviation won the airframe contract in 1955 against competing designs.
+The X-15 originates in a request rather than in a proposal. On 24 June 1952 the Committee on Aerodynamics of the National Advisory Committee for Aeronautics, the NACA, resolved to increase its work on manned and unmanned flight between 12 and 50 miles altitude at Mach 4 to 10, and a Langley study group formed that September identified structural heating as the single most important problem remaining, according to [Jenkins 2000][ref_jenkins_2000]. In 1954 a Langley team under John Becker defined a research airplane, the committee adopted a resolution for a Mach 7 research airplane on 5 October 1954, and the NACA, the Air Force and the Navy signed a memorandum of understanding on 23 December 1954 that called the project a matter of national urgency. Twelve contractors were invited to bid on 30 December 1954, four proposals arrived on 9 May 1955 from Bell, Douglas, North American and Republic, and the Air Force notified North American on 30 September 1955 that its design had won.
+
+**Becker's specification was small, and the price grew faster than the aircraft.** The Langley study sized the airplane to be carried by a Convair B-36, at a gross weight near 30,000 pounds including 18,000 pounds of propellant, with 4,600 miles an hour and 400,000 feet envisioned, and the competition then asked for Mach 6 and 250,000 feet within 30 months, in [Jenkins 2000][ref_jenkins_2000]. North American's was the most expensive of the four proposals, at 56.1 million dollars for three aircraft against 36.3 million from Bell,
+
+$$\frac{56.1}{36.3} = 1.55$$
+
+and it was chosen because the evaluators judged its Inconel X structure more representative of future aircraft, where Douglas had proposed magnesium that would have avoided the very heating problems the research was meant to explore. The Wright Air Development Center had estimated 12.2 million dollars for two aircraft in August 1954, and North American's reduced figure of 45 million in October 1955 was already
+
+$$\frac{45.0}{12.2} = 3.7$$
+
+times that, before the engine's own overruns began.
 
 ### The Institutional Arrangement Was the Unusual Part
 
-The X-15 was a genuinely tripartite programme. The NACA, and from 1958 its successor the National Aeronautics and Space Administration, NASA, specified the research and analysed the results. The Air Force and Navy paid. North American built the aircraft and Reaction Motors built the engine. The flight programme was run from Edwards with government and contractor pilots.
+The X-15 was a genuinely tripartite programme. The NACA, and from 1958 its successor the National Aeronautics and Space Administration, NASA, specified the research and analysed the results. The Air Force and Navy paid, the Navy about a quarter of the bills according to [Jenkins 2000][ref_jenkins_2000]. North American built the aircraft and Reaction Motors built the engine. The flight programme was run from Edwards with government and contractor pilots.
 
 **This is the arrangement the [X-1][related_post_a298_bell_x1] established, scaled up by an order of magnitude in cost and duration**, and the X-15 is the last research aircraft for which it worked at this scale. The conference reports, of which [NACA 1958][research_naca_1958] and [Beeler 1961][research_beeler_1961] are two, are the visible product of it, and they are unusual documents because they record a programme reporting on itself to its sponsors while it was still running.
 
 ### What Was Known and What Was Not
 
-The aircraft's own predictions were built before it flew and are traceable. [Walker and Wolowicz 1960][research_walker_wolowicz_1960] computes theoretical stability derivatives for the X-15 across the supersonic and hypersonic range, [Hewes et al 1958][research_hewes_1958] reports low-speed stability, control, and spinning characteristics from dynamic models, and [Hewes and Hassell 1960][research_hewes_hassell_1960] flight-tests a one-seventh-scale radio-controlled model. **The subsonic and landing end of the envelope was therefore explored on models and the hypersonic end on paper**, which is the reverse of the usual arrangement and follows from there being no tunnel that could do the whole job.
+The aircraft's own predictions were built before it flew and are traceable. [Walker and Wolowicz 1960][research_walker_wolowicz_1960] computes theoretical stability derivatives for the X-15 across the supersonic and hypersonic range, [Hewes et al 1958][research_hewes_1958] reports low-speed stability, control, and spinning characteristics from dynamic models, and [Hewes and Hassell 1960][research_hewes_hassell_1960] flight-tests a one-seventh-scale radio-controlled model. The remotely piloted large-scale model technique that later took over such spin and controllability testing is [Holleman 1976][research_holleman_1976], on a three-eighths-scale fighter model. **The subsonic and landing end of the envelope was therefore explored on models and the hypersonic end on paper**, which is the reverse of the usual arrangement and follows from there being no tunnel that could do the whole job.
 
 By 1954 the theory of hypersonic heating existed. The blunt-body insight, that a blunt shape pushes most of its energy into the air rather than into itself, was already established, and the stagnation-point heat transfer problem was being solved analytically, as in [Eggers et al 1958][research_eggers_1958]. What did not exist was any flight data at all above Mach 3, and the [X-2][related_post_a299_bell_x2] had reached Mach 3.2 and been lost immediately afterward.
 
-The materials position was worse. [Steinbacher and Young 1955][research_steinbacher_young_1955] surveys the problems of designing aircraft subjected to high temperature, and the alloy the X-15 would use was still being developed as sheet, in work reported later in [Greenewald and Riley 1963][research_greenewald_riley_1963] and [Duff and Watson 1964][research_duff_watson_1964]. **The aircraft was ordered before the material it is made of was a settled product.**
+The materials position was better than the heating position. [Steinbacher and Young 1955][research_steinbacher_young_1955] surveys the problems of designing aircraft subjected to high temperature, and Becker's group chose Inconel X in mid-1954 because it was the best high-temperature alloy then available, with the strength and creep resistance to work at 1,200 degrees Fahrenheit, as [Jenkins 2000][ref_jenkins_2000] records. **What was new was not the alloy but its use as primary structure**, and the 1956 industry conference listed fabrication techniques for Inconel X among the open problems. The later search for nickel-base alloy sheet that would go hotter still is visible in [Greenewald and Riley 1963][research_greenewald_riley_1963] and [Duff and Watson 1964][research_duff_watson_1964], the second on Inco 713C, an alloy the X-15 did not use.
 
 ## Sizing From First Principles
 
@@ -111,9 +121,9 @@ The engine adds energy, gravity and drag remove it, and the flight ends when $e$
 
 $$\frac{de}{dt} = \frac{T V}{m} - \frac{D V}{m}$$
 
-**Everything the X-15 did is contained in the difference between those two terms.** The first acts for eighty to a hundred and fifty seconds. The second acts for the remaining eight to twelve minutes.
+**Everything the X-15 did is contained in the difference between those two terms.** The first acts for about a minute and a half and the second for the rest of the flight. Across the 113 flights on which the flight data in [Jenkins 2007][ref_jenkins_2007] record the XLR99 at full thrust, the median powered time is 81.4 seconds and the longest is the 140.7 seconds of the speed record. Across all 199 flights the median time from launch to landing is 9.3 minutes, the range runs from 3.8 to 12.5 minutes, and 156 flights lasted between eight and twelve.
 
-It is worth establishing how much of the budget the carrier aircraft supplies, because the launch from a B-52 is often described as though it were a substantial head start. Dropping near 13.7 kilometres at about Mach 0.8 gives
+It is worth establishing how much of the budget the carrier aircraft supplies, because the launch from a B-52 is often described as though it were a substantial head start. Dropping near 13.7 kilometres, the 45,000 feet from which Flight 3-65-97 was launched, at about Mach 0.8, close to the Mach 0.82 and 45,500 feet of the first government flight in [Jenkins 2000][ref_jenkins_2000], gives
 
 $$e_{\text{launch}} = 9.807 \times 13{,}716 + \tfrac{1}{2} \times 236^{2} = 0.135 + 0.028 = 0.162 \text{ MJ/kg}$$
 
@@ -127,11 +137,15 @@ $$\frac{0.162}{2.347} = 0.069$$
 
 The X-15 holds two records and they are usually reported as separate achievements. They are the same quantity, differently partitioned.
 
-The speed record, Flight 188 flown by Knight on 3 October 1967, reached 4,520 miles per hour at 102,100 feet. In specific energy that is
+The speed record, Flight 188 flown by Knight on 3 October 1967, reached 4,520 miles per hour at 102,100 feet in the flight log printed by [Jenkins 2000][ref_jenkins_2000]. In specific energy that is
 
 $$e = 9.807 \times 31{,}120 + \tfrac{1}{2} \times 2{,}020.6^{2} = 0.305 + 2.041 = 2.347 \text{ MJ/kg}$$
 
-The altitude record, Flight 91 flown by Walker on 22 August 1963, reached 354,200 feet, but the informative instant is burnout, at about 176,000 feet and 3,794 miles per hour.
+The altitude record, Flight 91 flown by Walker on 22 August 1963, reached 354,200 feet, but the informative instant is burnout. [Jenkins 2007][ref_jenkins_2007] puts burnout at 176,000 feet and 5,600 feet per second, and the log's maximum speed for the flight, 3,794 miles per hour, is the same speed to within rounding,
+
+$$3{,}794 \times \frac{5{,}280}{3{,}600} = 5{,}565 \text{ ft/s}$$
+
+so this article takes burnout at 176,000 feet and 3,794 miles per hour.
 
 $$e = 9.807 \times 53{,}645 + \tfrac{1}{2} \times 1{,}696.1^{2} = 0.526 + 1.438 = 1.964 \text{ MJ/kg}$$
 
@@ -157,7 +171,11 @@ which agrees with the burnout value to ten metres in two hundred kilometres. **T
 
 $$\frac{2.347}{1.964} = 1.195$$
 
-The speed flight carried 19.5 percent more, and the reason is not piloting. **Flight 188 was flown by the X-15A-2 with external tanks that raised the propellant load by about 75 percent.** The extra energy was bought rather than flown for.
+The speed flight carried 19.5 percent more, and the reason is not piloting. **Flight 188 was flown by the X-15A-2, whose external tanks were added to raise the propellant load by 70 percent**, according to Adkins and Armstrong in [NASA SP-90][ref_nasa_sp90_1965]. The design load given by [Jenkins 2007][ref_jenkins_2007] is 18,750 pounds inside the aircraft and 13,500 in the tanks,
+
+$$\frac{13{,}500}{18{,}750} = 0.72$$
+
+and the extra energy was bought rather than flown for.
 
 ### What the Altitude Record Cost
 
@@ -171,21 +189,29 @@ This is the first appearance of the article's recurring point. **The atmosphere 
 
 ### Checking the Budget Against the Rocket Equation
 
-The engine's contribution can be checked independently. At a vacuum specific impulse of 276 seconds the effective exhaust velocity is
+The engine's contribution can be checked independently. At a vacuum specific impulse of 276 seconds, the top of the 256 to 276 second range the engine was specified for in [Jenkins 2000][ref_jenkins_2000], the effective exhaust velocity is
 
 $$v_{e} = I_{sp} \, g_{0} = 276 \times 9.807 = 2{,}706.6 \text{ m/s}$$
 
-and with a gross mass of 15,195 kilogrammes over an empty mass of 6,622 the mass ratio and ideal velocity increment are
+[Jenkins 2007][ref_jenkins_2007] describes a typical launch as a 33,000 pound airplane under a 57,000 pound engine, and [Matranga][ref_matranga_1961] gives an average touchdown weight of 14,600 pounds over the first 30 flights, which this article uses throughout as the mass after burnout. In kilogrammes that is 14,969 at launch and 6,622 after burnout, so the mass ratio and ideal velocity increment are
 
-$$\frac{m_{0}}{m_{f}} = 2.294, \qquad \Delta V = v_{e} \ln 2.294 = 2{,}248 \text{ m/s}$$
+$$\frac{m_{0}}{m_{f}} = 2.260, \qquad \Delta V = v_{e} \ln 2.260 = 2{,}207 \text{ m/s}$$
 
-The speed record was 2,020.6 metres per second, which is
+The fastest flight of the basic aircraft, Walker's 4,104 miles per hour on Flight 59 of the log, is 1,834.6 metres per second, which is
 
-$$\frac{2{,}020.6}{2{,}248} = 0.899$$
+$$\frac{1{,}834.6}{2{,}207} = 0.831$$
 
-**Ninety percent of the ideal.** For a vehicle that climbs through the atmosphere under a gravity field, losing energy to drag and to lifting itself, that is a remarkably small loss, and it is a consequence of a thrust-to-weight ratio of
+of the ideal. The speed record belongs to a different vehicle. The X-15A-2 weighed 52,117 pounds at separation on Flight 188 and was designed to carry 32,250 pounds of propellant, according to [Jenkins 2007][ref_jenkins_2007], so with the empty tanks counted in the burnout mass
 
-$$\frac{T}{W} = \frac{253{,}500}{15{,}195 \times 9.807} = 1.70$$
+$$\frac{m_{0}}{m_{f}} = \frac{52{,}117}{19{,}867} = 2.623, \qquad \Delta V = v_{e} \ln 2.623 = 2{,}610 \text{ m/s}, \qquad \frac{2{,}020.6}{2{,}610} = 0.774$$
+
+**Each aircraft reached between three quarters and five sixths of its ideal velocity increment**, and counting the carrier's 236 metres per second as part of the ideal would lower both fractions. The loss is what gravity and drag take during the climb, and it is of the size North American allowed for at the proposal stage, when it reckoned that about 10 percent of the thrust would overcome drag and 20 percent weight, leaving
+
+$$1 - 0.10 - 0.20 = 0.70$$
+
+for acceleration, in [Jenkins 2000][ref_jenkins_2000]. The thrust-to-weight ratio at ignition is
+
+$$\frac{T}{W} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73$$
 
 which gets the aircraft out of the dense air quickly.
 
@@ -223,7 +249,11 @@ The disposal problem is not the total energy but the rate at which it arrives at
 
 $$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}$$
 
-with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. Correlations of this shape rest on a large body of stagnation-point work, compiled and reconciled much later in [Perini 1972][research_perini_1972], and built up through [Boison 1959][research_boison_1959] and [Trimmer 1968][research_trimmer_1968] on the velocity gradient the relation depends on, [Marvin 1961][research_marvin_1961] on blunt plates, [Ru-ren Chow 1963][research_chow_1963] at low density, [Dohnanyi 1964][research_dohnanyi_1964] on the laminar case, and [Biberman et al 1970][research_biberman_1970]. The radiative contribution, which matters at re-entry speeds and not at the X-15's, is [Koh 1962][research_koh_1962] and [Winovich 1968][research_winovich_1968], and the wider gas-physics problem is [Scala 1962][research_scala_1962] and [Lin 1962][research_lin_1962]. The viscous and non-equilibrium behaviour that the simple correlations paper over is [Spalding 1963][research_spalding_1963], [Hermann 1965][research_hermann_1965], [Harney 1963][research_harney_1963], and [Vinokur 1970][research_vinokur_1970], with real-gas scale effects in [Adams et al 1976][research_adams_1976]. Further correlation work of the same family as the one used here is [Stephan and Obermeier 1974][research_stephan_obermeier_1974] and [Chou and Smith 1974][research_chou_smith_1974], and the general heating problem is set out in [Rand 1963][research_rand_1963], [Harri 1964][research_harri_1964], [Gros 1963][research_gros_1963], and [Chow 1963, Stagnation Point Heat Transfer Of][research_chow_1963_2], with cavity and wall-shape effects in [Nestler 1970][research_nestler_1970], [Arrington 1967][research_arrington_1967], and [Lunev and Khramov 1970][research_lunev_khramov_1970]. Measuring it in flight rather than in a tunnel is [Boylan et al 1978][research_boylan_1978] and [Hunt and Jones 1969][research_hunt_jones_1969]. Measuring any of it required instruments of its own, in [Huber 1966][research_huber_1966] and [Reis 1956][research_reis_1956].
+with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. The relation is a reduced form of [Sutton and Graves][ref_sutton_graves_1971], whose equation gives the stagnation-point heating as $\dot{q} = K\sqrt{p_{s}/R_{n}}\left(h_{s} - h_{w}\right)$ with the stagnation pressure $p_{s}$ in atmospheres. Taking that pressure as $\rho V^{2}$ and the enthalpy difference as $V^{2}/2$ gives
+
+$$k = \frac{K}{2\sqrt{101{,}325}} = \frac{0.1131}{636.6} = 1.777 \times 10^{-4}$$
+
+from the coefficient for air that Sutton and Graves tabulate, 2.0 percent above the constant used here. Correlations of this shape rest on a large body of stagnation-point work, compiled and reconciled much later in [Perini 1972][research_perini_1972], and built up through [Boison 1959][research_boison_1959] and [Trimmer 1968][research_trimmer_1968] on the velocity gradient the relation depends on, [Marvin 1961][research_marvin_1961] on blunt plates, [Ru-ren Chow 1963][research_chow_1963] at low density, [Dohnanyi 1964][research_dohnanyi_1964] on the laminar case, and [Biberman et al 1970][research_biberman_1970]. The radiative contribution, which matters at re-entry speeds and not at the X-15's, is [Koh 1962][research_koh_1962] and [Winovich 1968][research_winovich_1968], and the wider gas-physics problem is [Scala 1962][research_scala_1962] and [Lin 1962][research_lin_1962]. The viscous and non-equilibrium behaviour that the simple correlations paper over is [Spalding 1963][research_spalding_1963], [Hermann 1965][research_hermann_1965], [Harney 1963][research_harney_1963], and [Vinokur 1970][research_vinokur_1970], with real-gas scale effects in [Adams et al 1976][research_adams_1976]. Further correlation work of the same family as the one used here is [Stephan and Obermeier 1974][research_stephan_obermeier_1974] and [Chou and Smith 1974][research_chou_smith_1974], and the general heating problem is set out in [Rand 1963][research_rand_1963], [Harri 1964][research_harri_1964], [Gros 1963][research_gros_1963], and [Chow 1963, Stagnation Point Heat Transfer Of][research_chow_1963_2], with cavity and wall-shape effects in [Nestler 1970][research_nestler_1970], [Arrington 1967][research_arrington_1967], and [Lunev and Khramov 1970][research_lunev_khramov_1970]. Measuring it in flight rather than in a tunnel is [Boylan et al 1978][research_boylan_1978] and [Hunt and Jones 1969][research_hunt_jones_1969]. Measuring any of it required instruments of its own, in [Huber 1966][research_huber_1966] and [Reis 1956][research_reis_1956].
 
 **Two features of that relation govern the entire design.**
 
@@ -243,11 +273,15 @@ A third feature is absent from the relation and dominates the real problem. **A 
 
 **Every number computed in this section assumes a boundary-layer state it does not derive**, and that assumption is the largest uncertainty in the analysis.
 
-Evaluating at the speed record, with a 1976 standard atmosphere giving a density of 0.0155 kilogrammes per cubic metre at 31,120 metres and an assumed effective nose radius of 0.0762 metres,
+Evaluating at the speed record, with a 1976 standard atmosphere giving a density of 0.0155 kilogrammes per cubic metre at 31,120 metres and an effective nose radius of 0.0762 metres, the radius of the six-inch Inconel X sphere of the ball nose as described at the 1956 industry conference in [Jenkins 2000][ref_jenkins_2000],
 
 $$\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.0155}{0.0762}} \times 2{,}020.6^{3} = 6.48 \times 10^{5} \text{ W/m}^{2}$$
 
-which is 64.8 watts per square centimetre.
+which is 64.8 watts per square centimetre. [Jenkins 2007][ref_jenkins_2007] gives the sphere as built as 6.5 inches across, which would lower the rate by the square root of the radius ratio,
+
+$$\sqrt{\frac{0.0762}{0.0826}} = 0.961$$
+
+to 62.3 watts per square centimetre, a difference on which no conclusion here depends.
 
 ### The Number That Explains the Whole Airframe
 
@@ -267,11 +301,11 @@ $$\frac{64.8}{3.28} = 19.8$$
 
 **The record flight asked the structure to reject nearly twenty times the heat its design temperature could radiate.** That single ratio is why the X-15A-2 was covered in an ablative coating, why the flight was the fastest ever made, and why nothing like it was attempted again.
 
-The model can be checked. The radiative equilibrium temperature at that heating rate is
+The radiative equilibrium temperature at that heating rate is
 
 $$T = \left(\frac{6.48 \times 10^{5}}{0.8 \times 5.670 \times 10^{-8}}\right)^{1/4} = 1{,}944 \text{ K} = 3{,}040\ ^{\circ}\text{F}$$
 
-against leading-edge temperatures reported near 2,700 degrees Fahrenheit on that flight. **The correlation overshoots the measurement by 12.6 percent**, which is close agreement for a relation carrying one assumed length scale, and the conclusion is insensitive to that scale because doubling the assumed nose radius changes the equilibrium temperature by only 8.3 percent.
+**No structure on the aircraft came near it.** The highest structural temperature the programme recorded was 1,350 degrees Fahrenheit, according to [Jenkins 2000][ref_jenkins_2000], and on Flight 188 the nose and leading edges were under ablator, so the documents read here contain no stagnation-point measurement to set against the correlation at the record condition. The gap between 3,040 and 1,350 degrees is the subject of the structure section below, because the X-15 was designed never to reach equilibrium. The equilibrium figure is insensitive to the length scale, since doubling the nose radius changes it by only 8.3 percent.
 
 ### How Much of It Actually Reaches the Structure
 
@@ -295,7 +329,13 @@ $$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}$$
 
 **The analogy is not an assumption here. It was measured, at this condition.** [Keener and Polek 1972][research_keener_polek_1972] reports measurements of the Reynolds analogy for a hypersonic turbulent boundary layer on a nonadiabatic flat plate, which is the relation above at the wall condition the argument requires, and [Thomas and Chung 1973][research_thomas_chung_1973] treats the recovery factor for high-speed turbulent flow analytically. The compressible flat-plate case with variable fluid properties, which is what the correlation is really standing in for, is [Deissler and Loeffler 1959][research_deissler_loeffler_1959].
 
-The skin friction that the analogy converts is itself a measured quantity with a long literature, from [Coles 1952][research_coles_1952] on direct measurement in supersonic flow through [Moulic 1963][research_moulic_1963] at low density, [Wazzan and Ball 1965][research_wazzan_ball_1965] on body-shape effects, [Liu 1967][research_liu_1967] on the transitional case, and [Thompson 1970][research_thompson_1970] and [Young 1965][research_young_1965] on the roughness that a real vehicle has and a flat plate does not. The engineering calculation this article's estimate resembles is [White and Christoph 1972][research_white_christoph_1972].
+**The programme measured the analogy itself.** Banner and Kuhl, in [NASA SP-90][ref_nasa_sp90_1965], correlated the X-15's turbulent heat transfer with Colburn's modified Reynolds analogy factor, which for a Prandtl number of 0.71 is
+
+$$\frac{2\,St}{C_{f}} = Pr^{-2/3} = 0.71^{-2/3} = 1.26$$
+
+They report that direct measurements of the factor fall between 1.15 and 1.35, that the X-15's measured heat transfer fell as much as 35 percent below Eckert's reference-temperature method, and that both heat transfer and skin friction correlate when the effect of wall temperature on the reference temperature is neglected. **The relation used below, with a factor of one, sits under that measured range**, and the section on the heat load carries the difference.
+
+The skin friction that the analogy converts is itself a measured quantity with a long literature, from [Coles 1952][research_coles_1952] on direct measurement in supersonic flow and [Owen and Bellhouse 1970][research_owen_bellhouse_1970] on skin-friction measurement at supersonic speeds through [Moulic 1963][research_moulic_1963] at low density, [Wazzan and Ball 1965][research_wazzan_ball_1965] on body-shape effects, [Liu 1967][research_liu_1967] on the transitional case, and [Thompson 1970][research_thompson_1970] and [Young 1965][research_young_1965] on the roughness that a real vehicle has and a flat plate does not. The engineering calculation this article's estimate resembles is [White and Christoph 1972][research_white_christoph_1972].
 
 ### The Result, Which Explains Why a Hot Structure Runs Hot
 
@@ -309,9 +349,13 @@ gives
 |------------------|---------------------------------------------|
 | 300 K, cold | 43.0 percent |
 | 922 K, the design limit | 27.7 percent |
-| 1,755 K, Knight's leading edges | 7.2 percent |
+| 1,005 K, the hottest the programme recorded | 25.6 percent |
 
-**A hot wall absorbs a smaller fraction than a cold one, and it is not a small difference.** Going from cold metal to the design limit cuts the fraction by more than a third, and at the temperature Knight's leading edges actually reached the wall was taking barely a sixth of what a cold wall would have taken.
+**A hot wall absorbs a smaller fraction than a cold one, and it is not a small difference.** Going from cold metal to the design limit cuts the fraction by more than a third, and a wall at 1,350 degrees Fahrenheit, or 1,005 kelvin, the hottest the programme measured, takes
+
+$$\frac{1004.5 \times \left(2046 - 1005\right)}{2020.6^{2}} = 0.256$$
+
+of it. The fraction keeps falling as the wall heats and reaches zero only at the adiabatic wall temperature.
 
 This is the part the keystone framing does not predict. **A hot structure is not merely a structure that tolerates being hot. Running hot is part of the mechanism by which it protects itself**, because the driving temperature difference is what pushes heat into it, and a hot wall has less of one. The design is self-limiting in a way that an insulated cold structure is not.
 
@@ -337,11 +381,11 @@ $$f_{\text{structure}} = 0.15 \times 0.277 = 0.042$$
 
 ### Four Percent Turns Out to Be Survivable, and the Reason Matters
 
-The empty aircraft masses 6,622 kilogrammes, so its kinetic energy at the record is
+At the 6,622 kilogramme mass after burnout, its kinetic energy at the record is
 
 $$E = m\, \tfrac{1}{2} V^{2} = 6{,}622 \times 2.041 \times 10^{6} = 13.52 \text{ GJ}$$
 
-of which four percent is 0.56 gigajoules. Against that, a structure comprising perhaps 60 percent of the empty mass can absorb, in reaching its design temperature from ambient,
+of which four percent is 0.56 gigajoules. Against that, a structure assumed to be 60 percent of that mass can absorb, in reaching its design temperature from ambient,
 
 $$Q_{\text{capacity}} = m_{s} c_{p} \left(T_{\text{design}} - T_{0}\right) = 3{,}973 \times 440 \times 629 = 1.10 \text{ GJ}$$
 
@@ -349,21 +393,27 @@ so the ratio is
 
 $$\frac{0.56}{1.10} = 0.51$$
 
-and across the whole range of friction fractions it runs from 0.27 to 0.88. **The total heat load is comfortably within what the structure can hold, with roughly a factor of two in hand.**
+and across the whole range of friction fractions it runs from 0.27 to 0.88. The assumed structure of 3,973 kilogrammes is 82 percent of the 10,635 pound empty weight in the 1958 weight statement reported by [Jenkins 2007][ref_jenkins_2007], so the assumption if anything overstates the capacity. With the Colburn factor of 1.26 that the programme's own correlations used, the central ratio becomes
 
-That is worth sitting with, because it says the X-15's thermal problem is not a global energy problem at all. **The aircraft could absorb its entire heat load in its own thermal mass and still be below its design temperature.** Radiation, which over a five-minute descent from a hundred square metres at the design temperature rejects
+$$0.51 \times 1.26 = 0.64$$
+
+and the range runs from 0.34 to 1.11. **Averaged over the whole airframe, the heat load fits inside the structure's capacity at the central estimate and only just fails to at the extreme.**
+
+That average is not how the structure was designed. Becker's group found that equilibrium temperatures on the lower wing surface would reach about 2,000 degrees Fahrenheit against 1,200 permissible, so the skin could not be allowed to reach equilibrium and had to absorb the heat instead. A stress study then gave wing skins of 0.05 to 0.10 inches, about the thicknesses the thermal analysis required for heat absorption, so the structure carried its heat with no serious weight penalty, as [Jenkins 2000][ref_jenkins_2000] records. **The X-15's hot structure is a heat-sink structure.** Each square metre of skin carries its own share of the load in its own thermal mass, and the margin that matters is the local one. Watts, Gary and Dow, in [NASA SP-90][ref_nasa_sp90_1965], state that margin plainly. The heat-sink capacity of the structure was essentially used up by the Mach 6 heat loads, which is why the X-15A-2 needed a coating to go faster.
+
+Radiation, which over a five-minute descent from a hundred square metres at the design temperature rejects
 
 $$\varepsilon \sigma T^{4} A\, \Delta t = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} \times 100 \times 300 = 0.98 \text{ GJ}$$
 
-is not required to close the budget. It is required to keep the surface at a temperature the metal survives while the budget is being spent.
+is not required to close the global budget, and locally it cannot hold the skin below its limit, since the equilibrium it would set is far above the 1,200 degrees the metal tolerates.
 
-### Which Confirms That the Constraint Is Rate, Not Load
+### Rate and Load, and Why the Margin Was Local
 
-The two halves of the analysis now agree, and they did not have to.
+The two halves of the analysis are consistent once the heat sink is recognised.
 
-The heating-rate calculation found that the record condition demanded 19.8 times what the design temperature could radiate. The heat-load calculation finds that the total is only half of what the structure could absorb. **Those are consistent statements about a rate-limited structure**, and they are the quantitative form of the claim made earlier that a hot structure fails by exceeding a temperature rather than by filling up.
+The heating-rate calculation found that the record condition demanded 19.8 times what the design temperature could radiate, so radiation alone cannot hold any surface at that temperature. The heat-load calculation finds that the airframe as a whole could nearly hold its heat. **A heat-sink structure sits between those statements.** It survives a rate it could never balance by radiation because the exposure is short, and it fails when the heat absorbed at one place takes that place past its temperature limit.
 
-**The X-15 was never in danger of running out of thermal capacity. It was in continuous danger of exceeding a temperature at a point**, which is exactly the failure that took the pylon off the ventral on the fastest flight ever made. A vehicle whose margin is global has room for local surprises. A vehicle whose margin is local has none.
+**The X-15 was therefore in continuous danger of exceeding a temperature at a point**, which is exactly the failure that took the pylon off the ventral on the fastest flight ever made. A vehicle whose margin is global has room for local surprises. A vehicle whose margin is local has none.
 
 ### Trajectory Is a Thermal Design Variable
 
@@ -397,7 +447,7 @@ $$Q = \dot{q}\,\Delta t = 6.48 \times 10^{5} \times \left\{60,\ 120,\ 300\right\
 
 **Tens to hundreds of megajoules per square metre** is the scale of the problem, and it is the number that decides how thick a coating has to be.
 
-**The heating rate and the heat load are therefore optimised by different trajectories**, and which one binds depends on whether the structure fails by exceeding a temperature or by absorbing too much total energy. The X-15's hot structure, which has no insulation and reaches equilibrium quickly, is rate-limited. An ablative or insulated structure is load-limited. **The X-15A-2 changed from one regime to the other when it was coated**, which is a more interesting statement than the usual observation that the coating let it fly faster.
+**The heating rate and the heat load are therefore optimised by different trajectories**, and which one binds depends on whether the structure fails by exceeding a temperature or by absorbing too much total energy. A structure in radiative equilibrium is rate-limited. The X-15's heat-sink skin, like an ablative or insulated structure, is load-limited, because its temperature at any moment is the heat it has absorbed divided by its thermal capacity. **The X-15A-2's coating did not change the regime. It changed the capacity**, by putting a material with far more capacity per kilogramme between the heat and the metal, which is a more useful statement than the usual observation that the coating let it fly faster.
 
 An ablator works by a different mechanism from a hot structure. It absorbs energy as latent heat of decomposition and carries it away in the mass that leaves, so its capacity is a total rather than a rate,
 
@@ -413,19 +463,23 @@ The reason so thin a coating can do what a thick structure cannot is a ratio of 
 
 $$\frac{h_{\text{eff}}}{c_{p}\left(T_{\text{design}} - T_{0}\right)} = \frac{2.5 \times 10^{6}}{440 \times 629} = 9.0$$
 
-**A kilogramme of ablator absorbs nine times what a kilogramme of structure absorbs reaching its limit**, and it does so at whatever surface temperature the chemistry sets rather than at one the metallurgy permits. **A hot structure is reusable and rate-limited. An ablator is expendable and load-limited.** The material options of the period are surveyed in [Diaconis et al 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966][research_chang_1966] and [Ibrahim 1967][research_ibrahim_1967], and the testing problem in [Colosimo 1968][research_colosimo_1968], and the application to a returning spacecraft in [Chin et al 1964][research_chin_1964]. Later syntheses of the whole subject are [Scotti 1992][research_scotti_1992] and [Goldstein 1993][research_goldstein_1993].
+**A kilogramme of ablator absorbs nine times what a kilogramme of structure absorbs reaching its limit**, and it does so at whatever surface temperature the chemistry sets rather than at one the metallurgy permits. **A heat-sink structure is reusable and its capacity is fixed by its metal. An ablator is expendable and its capacity is bought by the kilogramme.** The material options of the period are surveyed in [Diaconis et al 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966][research_chang_1966] and [Ibrahim 1967][research_ibrahim_1967], and the testing problem in [Colosimo 1968][research_colosimo_1968], and the application to a returning spacecraft in [Chin et al 1964][research_chin_1964]. Later syntheses of the whole subject are [Scotti 1992][research_scotti_1992] and [Goldstein 1993][research_goldstein_1993].
 
 ### The Disposal Problem, Which Is the Other Half
 
 The sizing so far has been about acquiring the energy. The keystone says the aircraft must also get rid of it, and that half is where the X-15 is least like a rocket and most like an aeroplane.
 
-The quantity to be disposed of is nearly all of what the vehicle has. Landing occurs at about 200 miles per hour, which is a specific kinetic energy of
+The quantity to be disposed of is nearly all of what the vehicle has. [Matranga][ref_matranga_1961] gives an average touchdown speed over the first 30 flights of about 159 knots indicated airspeed. At the Edwards lakebed, where the standard-atmosphere density ratio at about 2,300 feet is 0.934, that is a true airspeed of
 
-$$e_{\text{land}} = \tfrac{1}{2} \times 89.4^{2} = 4.00 \times 10^{3} \text{ J/kg}$$
+$$V = \frac{159 \times 0.5144}{\sqrt{0.934}} = 84.6 \text{ m/s}$$
+
+and a specific kinetic energy of
+
+$$e_{\text{land}} = \tfrac{1}{2} \times 84.6^{2} = 3.58 \times 10^{3} \text{ J/kg}$$
 
 against 2.041 million at the record. As a fraction,
 
-$$\frac{e_{\text{land}}}{e_{k}} = \frac{4.00 \times 10^{3}}{2.041 \times 10^{6}} = 0.00196$$
+$$\frac{e_{\text{land}}}{e_{k}} = \frac{3.58 \times 10^{3}}{2.041 \times 10^{6}} = 0.00175$$
 
 **The flight is the disposal of 99.8 percent of the energy the vehicle possesses at its fastest.** Every design feature discussed below exists to make that disposal survivable.
 
@@ -489,15 +543,15 @@ $$R_{\text{equiv}} = \frac{L}{D} \, \frac{e}{g}$$
 
 gives 801 kilometres at a ratio of 4 and 501 at 2.5, from the 1.964 megajoules per kilogramme available at burnout.
 
-The other end of the glide is worth a number too. At the empty mass the wing loading is
+The other end of the glide is worth a number too. At the 14,600 pound average touchdown weight the wing loading is
 
 $$\frac{W}{S} = \frac{6{,}622 \times 9.807}{18.58} = 3{,}495 \text{ N/m}^{2} = 73 \text{ lb/ft}^{2}$$
 
-and touching down at 200 miles per hour at sea level requires
+which is the 73 pounds per square foot that [Matranga][ref_matranga_1961] gives. Indicated airspeed fixes the dynamic pressure directly, so touching down at 159 knots, or 81.8 metres per second, requires
 
-$$C_{L} = \frac{W}{\tfrac{1}{2}\rho_{0} V^{2} S} = \frac{64{,}950}{\tfrac{1}{2} \times 1.225 \times 89.4^{2} \times 18.58} = 0.71$$
+$$C_{L} = \frac{W}{\tfrac{1}{2}\rho_{0} V_{i}^{2} S} = \frac{64{,}950}{\tfrac{1}{2} \times 1.225 \times 81.8^{2} \times 18.58} = 0.85$$
 
-**That is an unremarkable landing lift coefficient on a wing of aspect ratio 2.5**, which is the point. The aircraft that had just been at Mach 6.7 lands like a heavy delta-winged fighter, and the same wing does both jobs because at neither end is it being asked for very much.
+**That is an unremarkable landing lift coefficient on a wing of aspect ratio 2.5**, which is the point. Matranga places the landing configuration's best lift-to-drag ratio at a lift coefficient of about 0.55, so touchdown came on the slow side of the curve, as his account of the flare also describes, and the documents read here do not give the lift curve at touchdown that would check the 0.85 against his touchdown angle of attack of about 7 degrees. The aircraft that had just been at Mach 6.7 lands like a heavy delta-winged fighter, and the same wing does both jobs because at neither end is it being asked for very much.
 
 **Those distances are the reason the X-15 was launched from a B-52 over Nevada and landed in California.** The flight plan is not a route. It is an energy budget with a lake bed at the end of it, and the launch point was chosen so that the budget closes.
 
@@ -527,7 +581,7 @@ Each subsystem was dimensioned against the energy problem, and the ordering belo
 
 The X-15 has a hot structure. There is no thermal protection system in the later sense, no tiles and no insulation blanket. **The load-bearing skin is also the heat shield, and it is expected to get hot and keep working.**
 
-The material is Inconel X, a nickel-chromium alloy retaining useful strength to about 1,200 degrees Fahrenheit, which is the number that appears in the sizing above. The alloy's development as usable sheet is documented in [Greenewald and Riley 1963][research_greenewald_riley_1963] and [Duff and Watson 1964][research_duff_watson_1964], and the general design problem in [Wolfe 1964][research_wolfe_1964] and [Steinbacher and Young 1955][research_steinbacher_young_1955].
+The material is Inconel X, a nickel-chromium alloy retaining useful strength to about 1,200 degrees Fahrenheit, which is the number that appears in the sizing above. The wing has Inconel X skins over a titanium internal structure with corrugated titanium webs, and its leading edge is a milled bar of Inconel X that acts as a heat sink, according to [Jenkins 2000][ref_jenkins_2000]. The later development of nickel-base alloy sheet for higher temperatures is [Greenewald and Riley 1963][research_greenewald_riley_1963] and [Duff and Watson 1964][research_duff_watson_1964], and the general design problem in [Wolfe 1964][research_wolfe_1964] and [Steinbacher and Young 1955][research_steinbacher_young_1955].
 
 A hot structure buys simplicity and pays for it in thermal stress. A skin that is hot where it meets the airflow and cool where it meets internal structure expands differentially, and the resulting stress is
 
@@ -547,7 +601,9 @@ or 830 megapascals, which is of the same order as the alloy's yield strength at 
 
 The design response is to remove the constraint rather than to strengthen against it. **The X-15's skin is corrugated along the wing leading edges and slotted elsewhere precisely to let it expand**, which is a structural feature that exists for no load reason at all. A corrugation is a spring in the direction it needs to be a spring in, and the thermal stress it carries is the product of the gradient and its own much lower effective stiffness rather than the full modulus of the material.
 
-There is a second consequence that the sizing makes visible. The equilibrium temperature computed above is reached quickly, because a thin skin has little thermal mass. Writing the time constant for a skin of thickness $t$ and density $\rho_{s}$ heating toward equilibrium,
+The design numbers were set at the 1956 industry conference, where the wing was tested for temperature differences of 400 degrees Fahrenheit between upper and lower skins and 960 degrees between skin and spar centre, which laboratory tests showed it could tolerate, in [Jenkins 2000][ref_jenkins_2000]. **Flight found the details the tests missed.** On the first flight above Mach 5, four expansion slots in the wing leading edge generated vortices that raised the local heating until the skin behind them buckled, and the fix was small Inconel X strips over the slots and additional fasteners. The outer glass panels of the windshield cracked twice because the expanding frame overstressed them, and the frame was changed from Inconel X to titanium with the outer panes in alumina silica glass. The side-fuselage tunnel panels buckled after the first government XLR99 flight, at a temperature difference of nearly 500 degrees Fahrenheit against the fuselage, and they received additional expansion joints. Becker's lesson in 1968 was that features which are minor on a supersonic aircraft must be dealt with as prime design problems on a hypersonic one.
+
+There is a second consequence that the sizing makes visible, which is how long a skin takes to reach its limit. Writing the time constant for a skin of thickness $t$ and density $\rho_{s}$ heating toward equilibrium,
 
 $$\tau_{\text{th}} \sim \frac{\rho_{s} t c_{p} T}{\dot{q}}$$
 
@@ -555,7 +611,15 @@ a 1.5 millimetre Inconel skin at 8,200 kilogrammes per cubic metre, reaching 900
 
 $$\tau_{\text{th}} \sim \frac{8{,}200 \times 0.0015 \times 440 \times 900}{6.48 \times 10^{5}} = 7.5 \text{ s}$$
 
-**The structure comes to equilibrium in under ten seconds**, which is short compared with the minutes the aircraft spends at speed. That is what makes the hot structure rate-limited rather than load-limited, and it is the quantitative form of the claim made earlier.
+**At the stagnation rate a thin skin reaches its limit in under ten seconds**, which is why the nose and leading edges were solid pieces of metal rather than skins. On the wing surfaces the heating is far lower. At the 2,000 degree Fahrenheit equilibrium Becker's group expected on the lower surface the rate is
+
+$$\dot{q} = 0.8 \times 5.670 \times 10^{-8} \times 1{,}366^{4} = 1.58 \times 10^{5} \text{ W/m}^{2}$$
+
+and the same relation gives the 0.05 and 0.10 inch skins, reaching 922 kelvin,
+
+$$\tau_{\text{th}} \sim \frac{8{,}200 \times 0.00127 \times 440 \times 922}{1.58 \times 10^{5}} = 27 \text{ s}, \qquad \frac{8{,}200 \times 0.00254 \times 440 \times 922}{1.58 \times 10^{5}} = 53 \text{ s}$$
+
+**Those times are of the same order as the time the aircraft spends at high heating**, which is the defining condition of a heat sink. The skin thickness is the design variable that keeps the limit just out of reach for the length of a flight.
 
 The same conclusion follows from the diffusion side. The thermal diffusivity of the alloy is
 
@@ -565,27 +629,31 @@ and heat penetrates a distance of order $\sqrt{\alpha t}$, so a 1.5 millimetre s
 
 $$t = \frac{\left(1.5 \times 10^{-3}\right)^{2}}{4.16 \times 10^{-6}} = 0.5 \text{ s}$$
 
-**The skin has no interior.** It is a single lumped temperature within half a second of anything happening to it, which is why the design can be reasoned about as a surface in radiative balance and why there is no thermal-lag margin to hide behind.
+**The skin has no interior.** It is a single lumped temperature within half a second of anything happening to it, which is why each panel can be reasoned about as a lumped heat sink whose temperature is the heat it has absorbed divided by its capacity. A 0.10 inch skin soaks through in 1.6 seconds by the same relation.
 
 ### Propulsion, Which Sets the Budget
 
-The XLR99 delivered 57,000 pounds of thrust and burned anhydrous ammonia with liquid oxygen, with hydrogen peroxide driving the turbopump. It was throttleable between about 30 and 100 percent and it could be restarted, both of which were unusual and both of which exist because the energy delivered had to be controllable.
+The XLR99 delivered 57,000 pounds of thrust and burned anhydrous ammonia with liquid oxygen, with hydrogen peroxide driving the turbopump. It was specified in 1956 to vary its thrust from 19,200 to 57,200 pounds at 40,000 feet,
+
+$$\frac{19{,}200}{57{,}200} = 0.34$$
+
+of full thrust at the bottom of its range, and it could be restarted, according to [Jenkins 2000][ref_jenkins_2000]. Both were unusual, it was the first throttleable and restartable rocket engine rated for a pilot, and both exist because the energy delivered had to be controllable.
 
 At a vacuum specific impulse of 276 seconds the mass flow at full thrust is
 
 $$\dot{m} = \frac{T}{v_{e}} = \frac{253{,}500}{2{,}706.6} = 93.7 \text{ kg/s}$$
 
-so the full internal load of 8,573 kilogrammes lasts
+so the 8,346 kilogrammes between the launch and burnout masses above last
 
-$$t_{b} = \frac{8{,}573}{93.7} = 91.5 \text{ s}$$
+$$t_{b} = \frac{8{,}346}{93.7} = 89.1 \text{ s}$$
 
-which reproduces the reported burn time of about ninety seconds. **The entire energy input to an X-15 flight happens in a minute and a half**, and everything else is disposal.
+against the 85.8 seconds of Flight 91 and the 81.4 second median of the full-thrust flights. **The entire energy input to an X-15 flight happens in a minute and a half**, and everything else is disposal.
 
 Because the mass falls by more than half while the thrust does not, the acceleration climbs throughout the burn. The thrust-to-weight ratio runs from
 
-$$\frac{T}{W_{0}} = \frac{253{,}500}{15{,}195 \times 9.807} = 1.70 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90$$
+$$\frac{T}{W_{0}} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90$$
 
-so the net longitudinal acceleration, after subtracting the component the aircraft spends holding itself up, rises from about 0.7 g to about 2.9 g. **The pilot's workload is not constant during the boost and neither is his ability to reach the controls**, which is why the aircraft carried a side stick usable under acceleration in addition to the centre stick. Component development is reported in [Wiswell et al 1961][research_wiswell_1961]. Establishing what a rocket engine is actually doing, on a stand or in flight, is its own measurement problem, treated in [Strauss 1964][research_strauss_1964] and, for installed thrust on a supersonic aircraft, in [Williams 1965][research_williams_1965].
+so the net longitudinal acceleration, after subtracting the component the aircraft spends holding itself up, rises from about 0.7 g to about 2.9 g. **The pilot's workload is not constant during the boost and neither is his ability to reach the controls**, which is why the aircraft carried a side stick usable under acceleration in addition to the centre stick. [Jenkins 2007][ref_jenkins_2007] puts the pilot's experience at almost 2 g chest to back at ignition and almost 4 g at shutdown on a standard altitude mission, with the weight near 15,000 pounds and the thrust near 60,000 pounds by then. Component development is reported in [Wiswell et al 1961][research_wiswell_1961]. Establishing what a rocket engine is actually doing, on a stand or in flight, is its own measurement problem, treated in [Strauss 1964][research_strauss_1964] and, for installed thrust on a supersonic aircraft, in [Williams 1965][research_williams_1965].
 
 ### Control, Across Four Orders of Magnitude of Dynamic Pressure
 
@@ -604,9 +672,9 @@ $$q = \tfrac{1}{2}\rho V^{2} = \frac{\gamma}{2}\, p\, M^{2}$$
 | 70 km | 8.28 × 10⁻⁵ kg/m³ | 1.95 lb/ft² |
 | 84.9 km | 8.42 × 10⁻⁶ kg/m³ | 0.198 lb/ft² |
 
-against a maximum recorded dynamic pressure of about 2,000 pounds per square foot. **The ratio between the highest and lowest dynamic pressures a single X-15 flight passes through is above four thousand.**
+against a highest recorded dynamic pressure of 2,202 pounds per square foot, on Flight 1-66-111 according to [Jenkins 2007][ref_jenkins_2007]. **The ratio between the highest and lowest dynamic pressures the X-15 flew through is above five thousand.**
 
-$$\frac{q_{\max}}{q_{80\,\text{km}}} = \frac{95{,}800}{20.8} = 4.6 \times 10^{3}$$
+$$\frac{q_{\max}}{q_{80\,\text{km}}} = \frac{105{,}400}{20.8} = 5.1 \times 10^{3}$$
 
 The crossover between the two systems is where their moments are equal,
 
@@ -626,17 +694,23 @@ The reaction system can be sized by the same relation the previous two articles 
 
 $$\text{CP} = \frac{F \ell}{I}$$
 
-and for a vehicle of 6,622 kilogrammes empty with a length of 15 metres, a plausible pitch radius of gyration of a quarter of the length gives
+and for a vehicle of 6,622 kilogrammes empty with a length of 15 metres, a pitch radius of gyration assumed to be a quarter of the length gives
 
 $$I_{y} \approx 6{,}622 \times \left(0.25 \times 15\right)^{2} = 9.3 \times 10^{4} \text{ kg m}^{2}$$
 
-so a nose thruster pair of 500 newtons acting through 7 metres supplies
+so a nose rocket of 500 newtons acting through an assumed 7 metres supplies
 
 $$\text{CP} = \frac{500 \times 7}{9.3 \times 10^{4}} = 0.038 \text{ rad/s}^{2}$$
 
 **That is a twentieth of the control power the X-14A's pilots called adequate for hovering**, and it was sufficient, because the tasks are not comparable. A hovering aircraft is closing a position loop through attitude against gravity. A ballistic aircraft outside the atmosphere is pointing itself, with no position consequence at all until it returns.
 
 **The handover problem is nonetheless the X-14's problem with the sign of the cause reversed.** The X-14A's engineers asked how much control authority a pilot needs when there is no dynamic pressure because the aircraft is stationary, and the answer became a number in a specification. The X-15's pilots faced the same absence for the opposite reason and had the same answer available to them, which is one of the reasons the reaction controls worked as well as they did.
+
+The thrust in that estimate is the record's. [Jarvis and Adkins][research_adkins_jarvis_1964] give each pitch and yaw rocket a maximum thrust of 113 pounds, or 503 newtons, and each roll rocket 40 pounds, and they give each of the two independent systems a design angular acceleration of 2.5 degrees per second squared in pitch and yaw and 5 in roll. The design figure is
+
+$$2.5\ \text{deg/s}^{2} = 0.0436\ \text{rad/s}^{2}$$
+
+so the estimate above falls 13 percent short of one system, and the two systems firing together supplied twice the single figure.
 
 ### Stability, and the Wedge
 
@@ -664,23 +738,27 @@ $$C_{p} = 2\sin^{2} 3^{\circ} = 0.0055, \qquad C_{p} = 2\sin^{2} 10^{\circ} = 0.
 
 a ratio of 11. **A thick wedge is not a slightly better fin at hypersonic speed. It is an order of magnitude better**, and the cost is paid in base drag at every other speed the aircraft flies at. [Nonweiler 1959][research_nonweiler_1959] treats the general control and stability problem of hypersonic aircraft in the same period, and the surface-pressure behaviour the wedge exploits is measured in [Creager 1959][research_creager_1959] on leading-edge sweep and surface inclination and [Creager 1959, Surface Pressure Distribution at H][research_creager_1959_2] on blunt delta wings. The wedge's own behaviour in viscous hypersonic flow, which is the real case rather than the Newtonian idealisation, is [Hui and East 1971][research_hui_east_1971]. The dynamic derivatives, which are what a damper has to work against, were pursued at length by one group in [Walchner and Clay 1965][research_walchner_clay_1965], [Walchner et al 1967][research_walchner_1967], [Walchner et al 1969][research_walchner_1969], and [Walchner 1974][research_walchner_1974], and by another in [Orlik-rueckemann 1966][research_orlik_rueckemann_1966] and [Kind and Orlik-rueckemann 1966][research_kind_orlik_rueckemann_1966]. Configuration interference at the low end of the hypersonic range is [Fink 1965][research_fink_1965], and the lenticular shapes that were being considered as alternatives are [Anderson 1960][research_anderson_1960]. [Boylan 1965][research_boylan_1965] and [Brady and Levensteins 1964][research_brady_levensteins_1964] supply lift, drag, and stability data for blunt shapes at these speeds, [Klett 1964][research_klett_1964] the free-molecular limit, and [Fetterman 1958][research_fetterman_1958] the effect of a rocket jet on stability at high Mach number, which is a real consideration for a vehicle whose engine is at the base. The tunnel technique behind all of it is [Tate 1964][research_tate_1964].
 
-The wedge works and it costs drag. **The base drag of a blunt-based fin is a permanent penalty paid to retain stability at a condition occupying perhaps thirty seconds of an eleven-minute flight**, and [Saltzman 1961][research_saltzman_1961] measured the base pressures that quantify it.
+The wedge works and it costs drag. **The base drag of a blunt-based fin is a permanent penalty paid to retain stability at a condition occupying perhaps thirty seconds of a flight lasting nine minutes at the median**, and [Saltzman 1961][research_saltzman_1961] measured the base pressures that quantify it.
 
 The lower ventral had to be jettisoned before landing because it was too long for the landing gear, which means the aircraft's directional stability changed configuration between the hypersonic phase and the approach. That is a real cost of the arrangement and it is not usually counted.
 
+**The lower ventral was eventually left off altogether.** The wedge surfaces that gave stability at high Mach number also made the aircraft unsafe above about 20 degrees angle of attack because of rolling problems, and removing the lower ventral cut stability at high angles of attack by about 50 percent while greatly improving the pilot's control, so that reentries were flown at up to 26 degrees, according to [Jenkins 2000][ref_jenkins_2000]. Love and Fischel, in [NASA SP-90][ref_nasa_sp90_1965], report that every flight after 1962 was made with the ventral removed. Roll control came throughout from the rolling tail, the two horizontal surfaces moving differentially, which kept ailerons and their actuator fairings off a thin wing that would have had to carry them through the heating.
+
 ### The Adaptive System, Which Solved a Problem the Envelope Created
 
-A damper gain that suits one flight condition suits no other when dynamic pressure varies by a factor of four thousand. The conventional answer is gain scheduling, which requires knowing the condition, and the X-15's condition was precisely what its instruments were struggling to measure.
+A damper gain that suits one flight condition suits no other when dynamic pressure varies by a factor of five thousand. The conventional answer is gain scheduling, which requires knowing the condition, and the X-15's condition was precisely what its instruments were struggling to measure.
 
 The answer fitted to X-15-3 was the MH-96, a self-adaptive system that inferred the right gain from the aircraft's own response rather than from a schedule. The principle is to drive the loop gain up until a limit cycle appears at the servo, and then hold it just below that, so that **the aircraft's closed-loop response is held constant while the plant underneath it changes by orders of magnitude**. [NACA 1971][research_naca_1971] reports the flight experience, and the contemporary argument about whether the approach was wise at all is [Adkins and Taylor 1964][research_adkins_taylor_1964], whose title concedes the dispute. [Montgomery 1973][research_montgomery_1973] places it in the wider adaptive-systems programme and [Richarde and Rang 1971][research_richarde_rang_1971] describes a self-organising system of the same family. The automatic-control context the whole idea grew out of is [Hart 1956][research_hart_1956], and the specific problem of holding an aircraft with little or no static margin is [Moul and Brown 1959][research_moul_brown_1959], which is what artificial damping was originally for.
 
+**The flight record of the system is in [NACA 1971][research_naca_1971].** It flew on 65 flights, through dynamic pressures from essentially zero to about 1,889 pounds per square foot and entries at angles of attack up to 25 degrees. It gave nearly invariant response at almost all conditions, needed no accurate prior knowledge of the aerodynamics, and suffered only two persistent failures in flight. The same report records that pilot commands and spurious inputs reduced the gain at undesirable times, and that supercritical gain occurred in flight and, through mechanical nonlinearities and electrical saturation, produced divergent motions.
+
 The system also blended the aerodynamic and reaction controls automatically, so that a pilot flying X-15-3 used one stick where a pilot flying the other two used three. **That is the [X-14][related_post_a311_bell_x14]'s handover performed by machine rather than by hand**, six years after the X-14A measured how much authority the hand needed.
 
-It is worth stating plainly that this system was fitted to the aircraft that was lost. The relationship between the two facts is examined in [Dennehy et al 2014][research_dennehy_2014] and this article does not assert one.
+This system was fitted to the aircraft that was lost, and the record connects the two. The accident board found that the MH-96 caused the airplane to break up during reentry, as [Jenkins 2000][ref_jenkins_2000] reports, and [Dennehy et al 2014][research_dennehy_2014] finds a large divergent limit cycle in it to be a principal cause of the destruction, traced to a structural notch filter whose design did not allow for the servoactuator's behaviour under rate saturation. Dennehy and colleagues place the fault in the hardware rather than in the theory of adaptive control.
 
 ### The Ball Nose, Which Exists Because Nothing Else Would Work
 
-A conventional pitot-static boom cannot survive the stagnation heating computed above, and cannot measure flow direction at Mach 6 in any case. The X-15 carried a spherical, servo-driven, liquid-nitrogen-cooled nose that nulled itself into the flow and reported angle of attack and sideslip directly.
+A conventional pitot-static boom cannot survive the stagnation heating computed above, and cannot measure flow direction at Mach 6 in any case. The X-15 carried a spherical, servo-driven nose that nulled itself into the flow and reported angle of attack and sideslip directly. Its core was an Inconel X sphere 6.5 inches across with pairs of pressure orifices 42 degrees either side of the stagnation point, and nitrogen gas from the aircraft's supply cooled it, according to [Jenkins 2007][ref_jenkins_2007].
 
 **It is worth pausing on this, because the aircraft's most basic instrument was a research project.** [Lipscomb and Dodgen 1958][research_lipscomb_dodgen_1958] describes the all-attitude flight-data system and [Christensen and Dodgen 1961][research_christensen_dodgen_1961] the inertial system that supplemented it. An aircraft that cannot measure its own angle of attack cannot be flown at the edge of its envelope, and the ball nose is the reason the X-15's data are worth anything.
 
@@ -690,7 +768,9 @@ Extracting coefficients from what the instruments recorded is a discipline in it
 
 The pilot wore a full pressure suit, which is a spacecraft in the sense that it must maintain pressure and remove heat independently of the cabin. The suit development literature is substantial, including [Games et al 1954][research_games_1954], [Rosenbaum 1957][research_rosenbaum_1957], [Furry et al 1962][research_furryy_1962], and [Hendler et al 1964][research_hendler_1964], the last on the metabolic cost of working in one.
 
-**The cabin is a pressure vessel inside a structure at several hundred degrees**, which makes cooling a design problem rather than a comfort one, and the physiological effects of the flight regime are treated in [Raeke 1958][research_raeke_1958]. **The programme had a medical support effort of its own**, described in [Rowen 1958][research_rowen_1958], which is a reminder that an aircraft flown to the edge of the atmosphere by a person is a life-support problem as much as an aerodynamic one. The suit's less discussed subsystems are [Redden 1961][research_redden_1961] and [Shanahan and Barker 1962][research_shanahan_barker_1962], the problem of measuring whether a person can still work in one is [Siegel and Lanterman 1968][research_siegel_lanterman_1968] and [Owen and Bellhouse 1970][research_owen_bellhouse_1970], and the pilot's own account of flying the aircraft is [Holleman 1976][research_holleman_1976].
+**The cabin is a pressure vessel inside a structure at several hundred degrees**, which makes cooling a design problem rather than a comfort one, and the physiological effects of the flight regime are treated in [Raeke 1958][research_raeke_1958]. **The programme had a medical support effort of its own**, described in [Rowen 1958][research_rowen_1958], which is a reminder that an aircraft flown to the edge of the atmosphere by a person is a life-support problem as much as an aerodynamic one. The suit's less discussed subsystems are [Redden 1961][research_redden_1961] and [Shanahan and Barker 1962][research_shanahan_barker_1962], the problem of measuring whether a person can still work in one is [Siegel and Lanterman 1968][research_siegel_lanterman_1968].
+
+Cooling, pressurisation, suit ventilation, windshield defogging and fire protection all came from a liquid nitrogen supply. An estimate presented in 1956 put only 1.5 percent of that capacity on the pilot and 98.5 percent on the equipment, with the cockpit held at the 35,000 foot pressure level, according to [Jenkins 2000][ref_jenkins_2000]. In flight the pilots' heart rates averaged 145 to 160 beats per minute and peaked at 185, against 70 to 80 on test missions in other aircraft, with no loss of the ability to fly precisely, and that finding gave some of the confidence to proceed with Mercury.
 
 ## The Flight Test Record
 
@@ -702,9 +782,15 @@ The first glide flight was on 8 June 1959 with Crossfield, the first powered fli
 
 The programme ran to **199 flights and ended on 24 October 1968**, having been flown by twelve pilots, eight of whom qualified for astronaut wings. Early results are collected in [Finch and Matranga 1959][research_finch_matranga_1959], [McKay 1959][research_mckay_1959], and [NACA 1960][research_naca_1960], and the programme reviewed itself in [Weil 1962][research_weil_1962].
 
+**The flight log gives the shape in numbers.** In the log printed by [Jenkins 2000][ref_jenkins_2000], X-15-1 made 81 of the 199 flights, X-15-2 and the X-15A-2 together 53, and X-15-3 65. Rushworth flew 34, McKay 29, Walker 25, White, Engle, Knight and Dana 16 each, Crossfield and Thompson 14 each, Armstrong and Adams 7 each, and Petersen 5. The busiest year was 1965, with 32 flights. Thirteen flights by eight pilots went above 50 miles, the altitude the Air Force recognised for astronaut wings, two of them, both Walker's, went above 100 kilometres, and four reached Mach 6 or more. The more detailed flight data in [Jenkins 2007][ref_jenkins_2007] list an XLR99 serial number on 169 flights, and the two logs agree in every flight number, identity, Mach number and altitude, and in all but three maximum speeds.
+
+The research phase proper had four objectives, which were the verification of predicted hypersonic aerodynamics and heating, structures under heating and load, stability and control during exit and reentry, and the pilot's performance, and by late 1961 all four had been examined. After that the aircraft increasingly carried other people's experiments, and by the end of 1964 more than 65 percent of the data returned came from follow-on projects, in [Jenkins 2000][ref_jenkins_2000].
+
+**The early flights found problems the design reviews had predicted and some they had not.** On the first glide, on 8 June 1959, increasingly violent pitching motions developed just before landing, the aircraft touched down at 150 knots, and the control-system boost was changed to raise its rate response. On X-15-2's third flight, on 5 November 1959, a hard landing broke the fuselage. Vibrations at 110 cycles per second in the first flights were traced to flutter of the side-tunnel panels, as Greene had warned in 1956, and cured with longitudinal stiffeners, and a vibration on reentry at 13 cycles per second was the stability augmentation system driving the first bending mode of the horizontal stabilator, cured with a notch filter and a feedback valve, all in [Jenkins 2000][ref_jenkins_2000]. On 9 November 1962 the XLR99 stuck at 35 percent thrust, McKay made an emergency landing on Mud Lake with the flaps only partly extended, and the aircraft rolled over, injuring him seriously. That accident is why X-15-2 became the X-15A-2.
+
 ### Flight 91, Which Spent the Budget on Height
 
-Walker took X-15-3 to 354,200 feet on 22 August 1963, with the engine at full thrust for 85.8 seconds and burnout near 176,000 feet. The aircraft then coasted 178,200 feet higher, which is a purely ballistic arc in which the controls that matter are the reaction jets.
+Walker took X-15-3 to 354,200 feet on 22 August 1963, with the engine at full thrust for 85.8 seconds and burnout near 176,000 feet, according to the flight data in [Jenkins 2007][ref_jenkins_2007], which give the planned altitude as 360,000 feet and the planned powered time as 84.5 seconds. The flight lasted 11 minutes 8.6 seconds from launch over Smith Ranch Dry Lake to landing on Rogers, and it was Walker's last X-15 flight. The aircraft then coasted 178,200 feet higher, which is a purely ballistic arc in which the controls that matter are the reaction jets.
 
 Conserving the burnout energy through a drag-free coast leaves a horizontal speed at apogee of
 
@@ -716,7 +802,15 @@ $$V_{\text{apogee}} = \sqrt{2\left(e_{\text{burnout}} - g h_{\text{apogee}}\righ
 
 Knight took the X-15A-2 to Mach 6.70 on 3 October 1967 with external tanks and a full ablative coating, and with a dummy ramjet on the ventral pylon.
 
-The flight is usually reported as a triumph and it was also very nearly a catastrophe. **The shock from the dummy ramjet impinged on the pylon and produced local heating far above anything the design contemplated**, burning through structure and causing the ramjet to separate. The aircraft landed and never flew again.
+**The flight log and the narrative disagree about where the record was set.** The log gives a maximum altitude of 102,100 feet, the figure this article uses, while the narrative in [Jenkins 2007][ref_jenkins_2007] places Mach 6.70 at 102,700 feet. The difference is small in the quantity that matters,
+
+$$g\,\Delta h = 9.807 \times 182.9 = 1.79 \text{ kJ/kg}$$
+
+which is 0.08 percent of the 2.347 megajoules per kilogramme computed above.
+
+The aircraft weighed 52,117 pounds at separation over Mud Lake at 43,750 feet, more than half as heavy again as conceived in 1954. Knight jettisoned the external tanks 67.4 seconds after launch at Mach 2.4 and 72,300 feet, the XLR99 burned for 140.7 seconds, and he landed 8 minutes 12 seconds after launch, according to [Jenkins 2000][ref_jenkins_2000]. The ablator was Martin's MA-25S, from 0.59 inches thick on the canopy, wings and tail down to 0.015 inches at the trailing edges, meant to keep the skin below 600 degrees Fahrenheit against 2,000 degrees of heating at Mach 8. It took six weeks to apply and came out 125 pounds heavier than planned, which with its drag lowered the aircraft's theoretical maximum to Mach 7.4.
+
+The flight is usually reported as a triumph and it was also very nearly a catastrophe. **The shock from the dummy ramjet impinged on the pylon and produced local heating far above anything the design contemplated**, burning through structure and causing the ramjet to separate. The heating in the pylon area was later estimated at ten times normal, high enough to fire three of the four explosive bolts holding the ramjet, and the last bolt failed in the landing pattern. Heat reaching the aft fuselage also failed a helium check valve, so the remaining propellants could not be jettisoned, and the aircraft landed about 1,500 pounds heavier than normal. The ablator had also kept heat in at some hot spots by holding it away from the metal that would have soaked it up. Jack Kolf, an X-15 project engineer, said afterwards that had anyone expected the aircraft to come back in that shape it would never have been flown, in [Jenkins 2000][ref_jenkins_2000]. The aircraft landed and never flew again.
 
 The sizing analysis above says why this was predictable in kind if not in detail. Shock impingement concentrates heating by focusing the flow, and the article's own heating relation shows that the rate is already twenty times what the structure could radiate at its design temperature **before any concentration is applied**. A vehicle operating at that margin has no tolerance for a local multiplier.
 
@@ -728,9 +822,9 @@ The phenomenon has a literature and it postdates the flight that met it. **[Edne
 
 ### Flight 3-65, Which Was Lost
 
-On 15 November 1967, six weeks after the speed record, Michael Adams entered a hypersonic spin in X-15-3, recovered from it into an inverted dive, and broke up at about 60,000 feet under loads reported near 15 g normal and 8 g lateral. He was killed.
+On 15 November 1967, six weeks after the speed record, Michael Adams launched in X-15-3 at 45,000 feet over Delamar Dry Lake on his seventh flight. An electrical disturbance at about 85,000 feet in the climb degraded the control system, a planned wing-rocking manoeuvre became excessive, and the aircraft drifted in heading until, past the 266,000 foot peak, it was descending at right angles to its flight path. It entered a Mach 5 spin at 230,000 feet and recovered at 118,000 feet into an inverted dive at Mach 4.7, and then the MH-96 began a limit-cycle oscillation. Near 65,000 feet, diving at Mach 3.93 under more than 15 g vertically, both positive and negative, and 8 g laterally, it broke up 10 minutes and 35 seconds after launch, according to [Jenkins 2000][ref_jenkins_2000]. He was killed.
 
-The accident is analysed at length in [Dennehy et al 2014][research_dennehy_2014], a modern reconstruction that had access to more analytical technique than the original investigation. **The proximate causes involve a control-system electrical disturbance, a display that showed sideslip on an instrument the pilot may have read as heading, and a drift in attitude that went uncorrected.** The article notes the finding and does not attempt to relitigate it.
+The accident board, chaired by Donald Bellman, concluded that Adams let the aircraft deviate through a combination of distraction, misinterpretation of his instruments and possible vertigo, that the electrical disturbance degraded the control system and added to his workload, and that the MH-96 then caused the breakup, and it recommended a heading display in the control room and vertigo screening for pilots. [Dennehy et al 2014][research_dennehy_2014], a modern reconstruction with more analytical technique, finds that the accident was precipitated by an electrical failure in an experiment package built from components never qualified for the X-15's environment, which caused numerous subsystem failures and interrupted the pilot's access to the reaction controls. **It adds a poor human interface, in which an attitude display used in a precision mode lacked clear mode indication, and a programme that kept flying with unexplained anomalies.** Three of the five subsystem failures it identifies had shown evidence of failure on earlier flights. This article reports those findings and does not adjudicate between them.
 
 What the accident says about the keystone is this. **The aircraft's energy had to be disposed of whatever attitude it was in**, and an attitude excursion at hypersonic speed converts a controlled deceleration into an uncontrolled one, with the loads and the heating arriving in the wrong places. The margin that a nominal trajectory maintains is not available off the nominal.
 
@@ -746,11 +840,13 @@ The X-15's most valuable output is arguably not any single measurement but the c
 
 [Banner et al 1962][research_banner_1962] reports the first flight heating measurements, and the general finding across the programme was that **theory and tunnel over-predicted heating in some places and under-predicted it badly in others**, with the discrepancies concentrated where the flow was not what the simple correlations assume, which means at interference regions, at protuberances, and wherever boundary-layer transition occurred.
 
-The article's own arithmetic reproduces this pattern in miniature. The Sutton and Graves correlation, applied to the clean stagnation point, lands within thirteen percent. **The same correlation says nothing whatever about a shock striking a pylon**, which is what nearly destroyed the aircraft.
+**The largest discrepancy ran the other way from what the designers feared.** The Sommer and Short and the Eckert reference-temperature methods in use in the late 1950s predicted turbulent heating 30 to 40 percent above what the X-15 measured, specialists at first refused to believe the data, repeated flights confirmed them, and Langley then adopted the Spalding and Chi method, according to [Jenkins 2000][ref_jenkins_2000]. Banner and Kuhl's 1965 summary in [NASA SP-90][ref_nasa_sp90_1965] gives some data as much as 35 percent below Eckert's method. Nor was the boundary layer the laminar one that theory and tunnel extrapolation had promised. Only the leading edges showed laminar flow, and small surface irregularities tripped turbulence at Mach 6 as they did at lower speeds. At Mach 6 the aircraft absorbed eight times the heat load it took at Mach 3. **The clean-body correlations say nothing whatever about a shock striking a pylon**, which is what nearly destroyed the aircraft.
 
 ### Aerodynamics
 
 [Garringer and Saltzman 1966][research_garringer_saltzman_1966] summarises the full-scale lift and drag characteristics from Mach 0.63 to 6.0 and compares them with the wind-tunnel data that most nearly simulate flight. Its most directly useful result for the keystone is operational rather than aerodynamic. **Ninety-five percent of the maximum supersonic lift-to-drag ratio is available anywhere between about seven and twelve degrees of angle of attack**, so a pilot flying a near-optimum glide does not need to hold a precise attitude, only to stay inside a five-degree band.
+
+Two findings bound the agreement. The drag of the blunt base was 15 percent higher in flight than in the tunnel, a discrepancy traced to the sting that held the tunnel models, according to [Jenkins 2000][ref_jenkins_2000]. At landing speeds [Matranga][ref_matranga_1961] found the tunnel-based drag predictions somewhat high, with flight peak lift-to-drag ratios of 3.5 to 4.5 against a predicted 3.0 to 4.2, 4.25 for the clean aircraft at a lift coefficient near 0.45 and about 8 degrees angle of attack, and 4.5 once the lower ventral was jettisoned.
 
 That is the energy-management problem made tractable by a fact about the aerodynamics, and it is why the X-15 could be landed by a person rather than by a computer.
 
@@ -770,15 +866,17 @@ The X-15's calibration exercise was repeated on its successors, and the results 
 
 The unpowered approach was rehearsed before the X-15 flew. [Bray et al 1960][research_bray_1960] reports a flight study of a power-off landing technique applicable to re-entry vehicles, flown on a different aeroplane, and the technique it establishes is the one the X-15 used.
 
+[Matranga][ref_matranga_1961] reports the first 30 landings. Pilots flew approach patterns at about 300 knots indicated airspeed, from high key points as much as 40,000 feet up, and touched down consistently within about 1,000 feet of a designated point, at an average of about 159 knots, an angle of attack of about 7 degrees and a sink rate of about 4 feet per second. F-104s configured to match the X-15's landing characteristics were particularly valuable for training. Later practice, in [Jenkins 2000][ref_jenkins_2000], was a high key at about 35,000 feet above the landing point and a low key at about 18,000 feet, two 180 degree turns that the Space Shuttle's approach later varied. **The touchdown itself was a structural problem.** McKay and Noll, in [NASA SP-90][ref_nasa_sp90_1965], describe main skids far aft beneath the horizontal tail, so that after the skids arrested the sink the nose slammed down within about a second in a pitch the pilot could not control, and [Jenkins 2007][ref_jenkins_2007] records landing weights that grew from a design value of 11,000 pounds to 15,500 pounds by 1965.
+
 ## What the Data Changed
 
 ### It Calibrated Hypersonic Prediction
 
-The single most consequential output is a set of flight measurements against which every ground facility and every theory could be checked. **Before the X-15 there was no hypersonic flight data at all**, and after it there was a decade of it across a wide range of Mach number, altitude, and configuration.
+The single most consequential output is a set of flight measurements against which every ground facility and every theory could be checked. **Before the X-15 there was no hypersonic flight data at all**, and after it there was a decade of it across a wide range of Mach number, altitude, and configuration. In the account of [Jenkins 2000][ref_jenkins_2000], the X-15 made the conventional low-temperature hypersonic wind tunnel an accepted source of data for configuration development, showed hypersonic flow phenomena to be linear above Mach 5, and disproved the stability barrier that the X-1 and X-2 had seemed to reveal.
 
 ### It Made the Hot Structure a Known Quantity, and Then Retired It
 
-The X-15 demonstrated that a hot structure works. It also demonstrated the cost, which is that the structure is at its temperature limit at the design condition and has no margin for the local heating that real vehicles encounter. **The lesson taken forward was not the hot structure but the reason it was abandoned**, and the vehicle that followed used insulation and ablation instead.
+The X-15 demonstrated that a hot structure works. It also demonstrated the cost, which is that the structure is at its temperature limit at the design condition and has no margin for the local heating that real vehicles encounter. **The lesson taken forward was not the hot structure but the reason it was abandoned**, and the vehicle that followed used insulation and ablation instead. The X-15A-2's brief experience with a spray-on ablator, six weeks to apply and a near loss on its only hypersonic use, hastened the ablator's departure from Space Shuttle designs, which by 1970 preferred ceramic tiles and metal shingles, according to [Jenkins 2000][ref_jenkins_2000].
 
 ### It Fed the Lifting Bodies and the Shuttle
 
@@ -940,7 +1038,7 @@ Four of this article's findings have no modern remedy.
 
 **The energy budget treats the aircraft as a point mass** and every real difficulty is a distribution problem. The heating that nearly destroyed Flight 188 was local, and no argument about total energy predicts where a shock will fall.
 
-**The heating arithmetic uses one correlation and one assumed length scale.** It reproduces a reported temperature within thirteen percent, which is encouraging and is not a validation. Real hypersonic heating depends on boundary-layer state, and transition location is the largest single uncertainty in the whole subject.
+**The heating arithmetic uses one correlation and one assumed length scale.** It cannot be checked against a measured stagnation temperature at the record condition, since the documents read here report none, and the programme's own experience was that the accepted turbulent heating methods of the 1950s ran 30 to 40 percent high. Real hypersonic heating depends on boundary-layer state, and transition location is the largest single uncertainty in the whole subject.
 
 **The comparison of the two records is not quite like with like.** Flight 188 was flown by a modified aircraft with external tanks, so the nineteen percent energy difference is a difference in vehicle as much as in trajectory.
 
@@ -956,31 +1054,35 @@ The X-15 answered its question. A piloted aircraft could carry twice the energy 
 
 The X-15 designation is unremarkable. It was assigned in sequence, to three aircraft of one type, and they kept it.
 
-**What is remarkable is the discontinuity in the sequence.** The X-14 preceding it was a converted light aircraft hovering above a ramp at under 180 miles per hour. The X-15 following it flew at 4,520. Two consecutive designations span a factor of twenty-five in speed, and the designation system records no distinction between them at all.
+**What is remarkable is the discontinuity in the sequence.** The X-14 preceding it was a converted light aircraft hovering above a ramp at under 180 miles per hour. The X-15 following it flew at 4,520. Two consecutive designations span a factor of
+
+$$\frac{4{,}520}{180} = 25.1$$
+
+in speed, and the designation system records no distinction between them at all.
 
 ## The Source Base
 
 The X-15's primary record is unusually complete and unusually accessible. The programme's own conference reports, [NACA 1958][research_naca_1958] and [Beeler 1961][research_beeler_1961], are the closest thing to a contemporaneous synthesis, and [Weil 1962][research_weil_1962] is a mid-programme review.
 
-The measurements this article relies on are [Garringer and Saltzman 1966][research_garringer_saltzman_1966] for lift and drag, [Banner et al 1962][research_banner_1962] for heating, [Saltzman 1961][research_saltzman_1961] for base pressures, and [Adkins and Jarvis 1964][research_adkins_jarvis_1964] for reaction-control operating experience.
+The measurements this article relies on are [Garringer and Saltzman 1966][research_garringer_saltzman_1966] for lift and drag, [Banner et al 1962][research_banner_1962] for heating, [Saltzman 1961][research_saltzman_1961] for base pressures, and [Adkins and Jarvis 1964][research_adkins_jarvis_1964] for reaction-control operating experience, with the 1965 summaries in [NASA SP-90][ref_nasa_sp90_1965] for heat transfer, landing loads and the X-15A-2, [Matranga][ref_matranga_1961] for the landings, [NACA 1971][research_naca_1971] for the adaptive system, and [Dennehy et al 2014][research_dennehy_2014] for the accident.
 
 One archive quirk is worth recording because a reader checking the citation will meet it. The lift and drag report's own cover reads "By Edwin J. Saltzman and Darwin J. Garringer", while the Technical Reports Server records the authors in the opposite order, and this article uses the archive's order, which is the order a reader searching the archive will find.
 
-**Two limitations should be stated.** The article's heating numbers are computed rather than taken from the flight record, because the flight heating data are distributed across many reports and figures and are not compiled in any one of them. And the vehicle specifications come from secondary compilations, which agree with each other more than the sources for earlier articles in this series did, but are still secondary.
+**Two limitations should be stated.** The article's heating numbers are computed rather than taken from the flight record, because the flight heating data are distributed across many reports and figures and are not compiled in any one of them. The vehicle's masses, thrust, thruster forces and landing figures come from [Jenkins 2000][ref_jenkins_2000], [Jenkins 2007][ref_jenkins_2007], [Matranga][ref_matranga_1961] and [Jarvis and Adkins][research_adkins_jarvis_1964], and the record flights from the two printed flight logs, which agree in all but three maximum speeds.
 
 **The research survey admits a record only when a person reading its title finds it on this article's subject.** Its 330 records come from NASA's Technical Reports Server, the Defense Technical Information Center, the Department of Energy's Office of Scientific and Technical Information, and the journal literature indexed by Crossref. Of these, 43.6 percent are report-server records, and their median year is 1970. Correction, erratum, retraction and withdrawal notices, figure, table and supplementary-material records, peer-review reports and journal front matter are excluded, because a survey counts research works and those are parts of works or editorial events rather than works. Aviation physiology and pressure-suit development are kept, among them explosive decompression studies on animals wearing a full bladder suit, because the pilot and his life support are part of this article's subject. **Every research title has been read for relevance, and none was judged to concern anything outside hypersonic flight, its structures, its test facilities, or the pilot who flew it.** The off-topic share that remains is therefore a matter of reading judgement, bounded only as far as a title can show a record's subject.
 
 ## Epistemic State
 
-**Historical fact, from primary and secondary sources.** The 1954 origin, the tripartite arrangement, the three airframes, the XLR11 and XLR99 installations, the first glide flight on 8 June 1959, 199 flights ending 24 October 1968, twelve pilots, Flight 91 reaching 354,200 feet on 22 August 1963, Flight 188 reaching Mach 6.70 on 3 October 1967, and the loss of Adams on 15 November 1967.
+**Historical fact, from primary and secondary sources.** The 1954 origin, the tripartite arrangement, the three airframes, the XLR11 and XLR99 installations, the first glide flight on 8 June 1959, 199 flights ending 24 October 1968, twelve pilots, Flight 91 reaching 354,200 feet on 22 August 1963, Flight 188 reaching Mach 6.70 on 3 October 1967, and the loss of Adams on 15 November 1967. The 1952 resolution and the 1954 and 1955 milestones, the flight statistics from the printed logs, the X-15A-2's launch weight of 52,117 pounds and burn of 140.7 seconds, the breakup near 65,000 feet, and the thruster forces and landing figures, all from the primary documents named in the text.
 
-**Engineering analysis, derived here and reproducible from the stated inputs.** The specific kinetic energy of 2.041 MJ/kg and its ratio of 2.26 to the melting enthalpy of the structure and 7.4 to the design-temperature enthalpy. The specific energies of the two records, 2.347 and 1.964 MJ/kg, and their ratio of 1.195. The 239.3 kilometre ideal zoom. The 89.9 percent of ideal delta-v. The heating rate of 64.8 W/cm², the radiative capacity of 3.28 W/cm² at the design temperature, and their ratio of 19.8. The radiative equilibrium of 3,040 degrees Fahrenheit against a reported 2,700. The dynamic pressure ratio above 4,000. The apogee horizontal speed of 1,346 m/s.
+**Engineering analysis, derived here and reproducible from the stated inputs.** The specific kinetic energy of 2.041 MJ/kg and its ratio of 2.26 to the melting enthalpy of the structure and 7.4 to the design-temperature enthalpy. The specific energies of the two records, 2.347 and 1.964 MJ/kg, and their ratio of 1.195. The 239.3 kilometre ideal zoom. The 83.1 and 77.4 percent of ideal velocity increment for the basic aircraft and the X-15A-2. The heating rate of 64.8 W/cm², the radiative capacity of 3.28 W/cm² at the design temperature, and their ratio of 19.8. The radiative equilibrium of 3,040 degrees Fahrenheit against a highest recorded structural temperature of 1,350. The dynamic pressure ratio above 5,000. The heat-sink time constants of 27 and 53 seconds. The apogee horizontal speed of 1,346 m/s.
 
-**A result that depends on the drag split rather than on an assumed one.** A friction fraction of 35 percent of total drag would give about ten percent of the vehicle's energy to the structure and a heat load exceeding the structure's absorptive capacity. Estimating the friction drag directly, from a turbulent flat-plate coefficient at the record Reynolds number over a plausible wetted area, gives 8 to 26 percent and about 15 centrally. **The estimated figure is four percent to the structure and a heat load of about half the absorptive capacity**, so the conclusion turns on estimating the split rather than assuming it. The estimated figure is also the one consistent with the rest of the article, since a hot structure that is rate-limited should have load margin in hand, and the assumed fraction of 35 percent would contradict that.
+**A result that depends on the drag split rather than on an assumed one.** A friction fraction of 35 percent of total drag would give about ten percent of the vehicle's energy to the structure and a heat load exceeding the structure's absorptive capacity. Estimating the friction drag directly, from a turbulent flat-plate coefficient at the record Reynolds number over a plausible wetted area, gives 8 to 26 percent and about 15 centrally. **The estimated figure is four percent to the structure and a heat load of about half the absorptive capacity**, so the conclusion turns on estimating the split rather than assuming it. With the programme's Colburn analogy factor of 1.26 the central figure becomes 5.2 percent and 0.64 of the capacity, and the upper end of the range reaches 1.11. The global ratio does not describe the design margin, which was local, since Watts, Gary and Dow report the heat-sink capacity essentially used up at Mach 6.
 
-**Assumptions carried by the analysis.** The melting enthalpy uses representative values for a nickel superalloy rather than measured Inconel X data. The heating uses one correlation and an assumed effective nose radius of 0.0762 metres. The sensitivity is stated in the text and the conclusion survives doubling that radius. The atmosphere model is the 1976 standard table implemented to 84.852 km and clamped above, so dynamic pressures quoted above that height are upper bounds and the control argument is strengthened rather than weakened by the clamp. The emissivity of 0.8 is representative. The energy-partition analysis assumes the Reynolds analogy with a Prandtl number near unity, a turbulent recovery factor of 0.89, a wetted area near 113 square metres, a drag coefficient near 0.08, and a structural mass fraction of 60 percent of empty mass. The friction fraction is quoted as a range because those inputs are uncertain, and the conclusion that load margin exists holds across the whole range. The Newtonian trim angle of 13.8 degrees uses impact theory alone and takes no account of the fuselage or of real-gas effects. The launch condition of 13.7 kilometres at Mach 0.8 is representative rather than taken from any particular flight.
+**Assumptions carried by the analysis.** The melting enthalpy uses representative values for a nickel superalloy rather than measured Inconel X data. The heating uses one correlation and an effective nose radius of 0.0762 metres taken from the 1956 description of the ball nose, against 6.5 inches as built. The sensitivity is stated in the text and the conclusion survives doubling that radius. The atmosphere model is the 1976 standard table implemented to 84.852 km and clamped above, so dynamic pressures quoted above that height are upper bounds and the control argument is strengthened rather than weakened by the clamp. The emissivity of 0.8 is representative. The energy-partition analysis assumes the Reynolds analogy with a Prandtl number near unity, a turbulent recovery factor of 0.89, a wetted area near 113 square metres, a drag coefficient near 0.08, and a structural mass fraction of 60 percent of empty mass. The friction fraction is quoted as a range because those inputs are uncertain, and the conclusion that load margin exists holds across the whole range. The Newtonian trim angle of 13.8 degrees uses impact theory alone and takes no account of the fuselage or of real-gas effects. The launch condition of 13.7 kilometres at Mach 0.8 is the 45,000 feet of Flight 3-65-97 with a representative Mach number. The burnout mass of 6,622 kilogrammes is the average touchdown weight of the first 30 flights, applied to every flight. The pitch radius of gyration of a quarter of the length and the 7 metre moment arm of the nose rockets are assumed. The Prandtl number of 0.71 is assumed, and the Edwards density ratio of 0.934 is the standard atmosphere at about 2,300 feet.
 
-**Inference, stated as such.** That the two records are one budget differently partitioned is the article's framing rather than a claim any source makes. That the X-15A-2's ablative coating moved the vehicle from a rate-limited to a load-limited thermal regime is an inference from the nature of the two structures. That the reaction-control experience of the [X-14][related_post_a311_bell_x14] was available to the X-15's designers is plausible from the dates and is not documented here as a transfer.
+**Inference, stated as such.** That the two records are one budget differently partitioned is the article's framing rather than a claim any source makes. That the X-15A-2's coating changed the structure's capacity rather than its thermal regime is an inference from Becker's heat-sink design and the nature of an ablator. That the reaction-control experience of the [X-14][related_post_a311_bell_x14] was available to the X-15's designers is plausible from the dates and is not documented here as a transfer.
 
 **A limit on the article's own method.** Every relation here treats air as a perfect gas with a ratio of specific heats of 1.4. Setting the stagnation-temperature relation equal to the onset of oxygen dissociation near 2,500 kelvin gives Mach 7.06 at the record altitude, and **the X-15 reached Mach 6.70, or 94.8 percent of it**. The arithmetic in this article is therefore very nearly at the edge of its own validity at the aircraft's fastest condition, and it would be wrong at any substantially higher speed. The dissociation onset temperature is a soft threshold rather than a sharp one and the figure should be read as an order rather than a boundary.
 
@@ -988,17 +1090,17 @@ One archive quirk is worth recording because a reader checking the citation will
 
 **Representative rather than actual values in the modern comparison.** The orbital, glide, and lunar-return speeds are round figures for their classes. The Shuttle tile and ultra-high-temperature ceramic surface temperatures of 1,533 and 2,273 kelvin are representative capability figures rather than measurements of any particular material, and the emissivities of 0.85 are assumed. The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation. The specific watts per square centimetre are not.
 
-**Claims the record does not settle.** The precise causal chain of the Adams accident, which [Dennehy et al 2014][research_dennehy_2014] reconstructs and which this article reports rather than adjudicates.
+**Claims the record does not settle.** The precise causal chain of the Adams accident, which [Dennehy et al 2014][research_dennehy_2014] reconstructs and which this article reports rather than adjudicates. Whether the record speed was reached at 102,100 or 102,700 feet. The maximum speeds of flights 18, 160 and 191, where the two printed logs differ, the last by 3,617 against 3,570 miles per hour. Whether the ball-nose sphere was six or 6.5 inches across.
 
 ## Out of Scope
 
-The X-15's experiment programme, which carried dozens of unrelated payloads, is not treated. The hypersonic research engine and the scramjet work it was meant to support are noted and not analysed. The delta-wing X-15 proposals and other unbuilt variants are omitted. The individual flight histories of the three airframes, the biographies of the pilots, and the programme's budget history are all out of scope. Boundary-layer transition, which is the largest uncertainty in hypersonic heating, is named and not developed.
+The X-15's experiment programme, which carried 46 follow-on experiments according to [Jenkins 2000][ref_jenkins_2000], is noted and not treated. The hypersonic research engine and the scramjet work it was meant to support are noted and not analysed. The delta-wing X-15 proposals and other unbuilt variants are omitted. The individual flight histories of the three airframes, the biographies of the pilots, and the programme's budget history are all out of scope. Boundary-layer transition, which is the largest uncertainty in hypersonic heating, is named and not developed.
 
 ## Conclusion
 
 The X-15 was built to find out whether an aircraft could survive its own kinetic energy.
 
-**At its record speed it carried 2.26 times the energy per kilogramme needed to melt its own structure, and asked that structure to reject nearly twenty times the heat it could radiate at its design temperature.** It survived by being blunt where it mattered, by being made of a material that stayed strong when hot, by flying trajectories chosen for their thermal properties as much as their performance, and by shedding energy over eleven minutes rather than one.
+**At its record speed it carried 2.26 times the energy per kilogramme needed to melt its own structure, and asked that structure to reject nearly twenty times the heat it could radiate at its design temperature.** It survived by being blunt where it mattered, by being made of a material that stayed strong when hot, by flying trajectories chosen for their thermal properties as much as their performance, by carrying its heat in its own metal for the few minutes that mattered, and by shedding energy over about nine minutes rather than one.
 
 Its two records are one energy budget spent two ways, differing by nineteen percent in magnitude and completely in arrangement. Its worst day and its best were six weeks apart.
 
@@ -1017,8 +1119,18 @@ The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft th
 ### Reference
 
 - [Bell X-16][ref_x16]
+- [Jenkins, Hypersonics Before the Shuttle, A Concise History of the X-15 Research Airplane, NASA SP-2000-4518, 2000][ref_jenkins_2000]
+- [Jenkins, X-15, Extending the Frontiers of Flight, NASA SP-2007-562, 2007][ref_jenkins_2007]
+- [Matranga, Analysis of X-15 Landing Approach and Flare Characteristics Determined from the First 30 Flights, NASA TN D-1057, 1961][ref_matranga_1961]
 - [North American X-15][ref_x15]
+- [Progress of the X-15 Research Airplane Program, NASA SP-90, 1965][ref_nasa_sp90_1965]
+- [Sutton and Graves, A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures, NASA TR R-376, 1971][ref_sutton_graves_1971]
 
+[ref_jenkins_2000]: https://ntrs.nasa.gov/citations/20000068530
+[ref_jenkins_2007]: https://ntrs.nasa.gov/citations/20080008340
+[ref_matranga_1961]: https://ntrs.nasa.gov/citations/19980227282
+[ref_nasa_sp90_1965]: https://ntrs.nasa.gov/citations/19730062061
+[ref_sutton_graves_1971]: https://ntrs.nasa.gov/citations/19720003329
 [ref_x15]: https://en.wikipedia.org/wiki/North_American_X-15
 [ref_x16]: https://en.wikipedia.org/wiki/Bell_X-16
 

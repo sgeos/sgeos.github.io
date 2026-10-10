@@ -14,8 +14,12 @@ series_index: 37
 
 The [McDonnell Douglas X-36][ref_x36] had no vertical tail and no horizontal tail, and every account of it
 begins there. **The more interesting number is 28 percent.** The aircraft was a
-[subscale model][ref_museum], flown with nobody aboard, from a ground station whose pilot watched through a
-camera in its nose. It weighed 1,270 pounds and stood about a metre high. This is the thirty-seventh article
+[subscale model][ref_museum], which the
+[National Aeronautics and Space Administration's programme account][ref_nasa_x36] and its
+[inventory of American X-vehicles][ref_american_x_vehicles] both describe as a 28 percent scale
+representation of a fighter. It flew with nobody aboard, from a ground station whose pilot watched through a
+camera in its nose. Its [published specification][ref_x36] gives a maximum weight of 1,270 pounds and a
+height of 0.946 metres. This is the thirty-seventh article
 in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1],
 the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the
 [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the
@@ -221,8 +225,12 @@ demonstrator of the middle 1990s would have been standing in for.
 **The consistency is not a proof, because the designers chose the model's weight and could have chosen it to be consistent. It is a check that would have failed loudly had the aircraft not been dynamically scaled at all**,
 and it did not fail.
 
-The speeds convert the same way. The 243 knot maximum corresponds to 459.2 knots at full scale and the 110
-knot approach to 207.9.
+The speeds convert the same way. The [published specification][ref_x36] gives a 243 knot maximum speed
+limit and a 110 knot approach speed, and dividing each by the velocity ratio gives the full-scale equivalent,
+
+$$V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{110}{0.5292} = 207.9 \ \text{kt}$$
+
+for model speed $V_m$ and full-scale speed $V_f$.
 **A 208 knot approach is fast for a fighter and entirely plausible for a tailless one**, which has no flaps
 worth the name because it has no tail to trim their pitching moment against.
 
@@ -384,7 +392,11 @@ conditions reproduces both times without evaluating an exponent.
 
 **Those use the assumed derivative. The derived one makes them shorter.** At a radius of gyration of 0.35
 the growth rate rises from 0.802 to 1.140 per second at approach and from 1.773 to 2.518 at maximum speed,
-so the modal doubling times fall to **0.608 seconds and 0.275 seconds**.
+so the modal doubling times fall to **0.608 seconds and 0.275 seconds**,
+
+$$t_{2} = \frac{\ln 2}{1.140} = 0.608 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.518} = 0.275 \ \text{s}$$
+
+by the modal relation above.
 
 **Every entry is under two seconds and most are under one.** That is the number the control system had to
 beat, and it is the number the ground pilot's link delay had to be small against.
@@ -575,7 +587,12 @@ so the ratio of what the nozzle can do to what the aerodynamics demand goes as o
 | 243 kt | 1,192 N·m | 1.983 |
 
 **Inverting for the speed at which the nozzle alone can no longer hold ten degrees of sideslip gives 342.2 knots**,
-which is above anything this aircraft ever flew.
+because the nozzle authority ratio $R$ falls as the square of speed from its value $R_{243}$ at 243 knots,
+
+$$R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{1.983} = 342.2 \ \text{kt}$$
+
+which is above anything this aircraft ever flew, and well above the 206 knots that the
+[programme account][ref_nasa_x36] records it reaching.
 **So across its entire envelope the nozzle alone was sufficient.**
 
 ### What the Split Ailerons Actually Contribute, Which Is Less Settled Than It Looks
@@ -598,7 +615,13 @@ split surface can produce, from lightly cracked to fully opened.
 
 **This limits what can honestly be said.**
 At the bottom of the bracket the nozzle dominates everywhere and the split ailerons really are margin.
-**At the top they overtake the nozzle inside the flight envelope, at 211.2 knots, and become the primary yaw effector at high speed.**
+**At the top they overtake the nozzle inside the cleared envelope, at 211.2 knots, and become the primary yaw effector at high speed.**
+The drag rudder's moment rises as the square of speed while the nozzle's is constant, so a split-aileron
+moment that is a share $s$ of the nozzle's at 243 knots equals it at
+
+$$V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.324}} = 211.2 \ \text{kt}$$
+
+which lies inside the 243 knot limit and a little above the 206 knots the aircraft is recorded as reaching.
 
 **The bracket spans a factor of six and the conclusion flips inside it, so the correct statement is that it is not determined by public information.**
 What survives is the structural claim, which does not depend on the increment at all.
@@ -632,6 +655,13 @@ flow and a fin would have stalled even if it were there.
 Two aircraft were built, of which one flew the research programme. The configuration is a cranked delta wing
 with a canard ahead of it, no vertical surface of any kind, split ailerons on the wing trailing edge that
 open into upper and lower halves to make drag on one side, and a [thrust-vectoring][ref_tv] nozzle.
+**The figures below are those of the [published specification][ref_x36]**, except the fuel fraction and the
+thrust to weight ratio, which are the fuel load and the thrust each divided by the maximum weight,
+
+$$\frac{180}{1{,}270} = 0.1417 \qquad \frac{700}{1{,}270} = 0.5512$$
+
+The [programme account][ref_nasa_x36] gives rounder figures, about 1,250 pounds fully fuelled, 19 feet long
+and three feet high, with about 700 pounds of thrust.
 
 | Quantity | Value |
 |---|---|
@@ -979,10 +1009,19 @@ manoeuvre envelope.
 
 ### The Envelope That Was Opened Rather Than Reached
 
-The maximum speed limit moved from 160 knots to 243 during the programme, which is the ordinary signature of
-envelope expansion. **What the published record does not give is the angle of attack actually achieved**,
-and since that is the quantity the whole tailless argument turns on, the article notes the absence rather
-than filling it.
+The [published specification][ref_x36] records the maximum speed limit moving from 160 knots to 243 during
+the programme, which is the ordinary signature of envelope expansion. **The conditions actually reached were
+lower in speed and high in angle of attack.** The [programme account][ref_nasa_x36] gives a speed envelope
+reaching 206 knots, an altitude of 20,200 feet and a maximum angle of attack of 40 degrees, and the
+[inventory of American X-vehicles][ref_american_x_vehicles] records 360 degree rolls at angles of attack up
+to 15 degrees and rapid turning and rolling manoeuvres at up to 35 degrees.
+**The two accounts disagree on the size of the programme.** The inventory lists 25 flights ending on 24
+September 1997, a fastest flight of 204 miles per hour and a highest flight of 20,500 feet, while the
+programme account gives 31 flights ending on 12 November 1997 with a flight-time total, and this article
+follows the programme account as the more detailed of the two.
+**What the published record does not give is any measurement at those angles of attack**, no time history
+and no handling-qualities rating, and since that is what the whole tailless argument turns on, the article
+notes the absence rather than filling it.
 
 ## What the Data Changed
 
@@ -4578,8 +4617,9 @@ literature that is older still.
 ### What the Record Does Not Contain
 
 **No latency figure for the command and video link is public**, which is the quantity the article's sharpest
-argument would most like to have. **No angle of attack achieved in flight is public**, which is the quantity
-the tailless argument turns on.
+argument would most like to have. **Only envelope maxima of angle of attack are public**, 40 degrees in the
+programme account and 35 degrees for turning and rolling manoeuvres in the inventory of American X-vehicles,
+and no measurement at those conditions is public, though that is what the tailless argument turns on.
 **No moment of inertia, no stability derivative and no wing area is public**, so three of the numbers in the
 sizing section are inversions or brackets rather than readings, and each says so where it stands.
 **The fuselage volume the slender-body derivation needs is not public either**, and neither is the drag
@@ -6836,10 +6876,11 @@ The X-36 was a 28 percent scale, remotely piloted, tailless research aircraft bu
 partnership with the National Aeronautics and Space Administration. Two were built. It was 18 feet 2.5
 inches long with a span of 10 feet 5 inches, weighed 1,090 pounds empty and 1,270 pounds at maximum, carried
 180 pounds of fuel, and was powered by a Williams F112 turbofan of 700 pounds force. Its approach speed was
-110 knots, its maximum speed was raised from 160 to 243 knots during the programme, its ceiling was 20,500
-feet and its load factor limit was 5 g. It first flew on 17 May 1997 and completed 31 research flights and
-15 hours 38 minutes of flight time by 12 November 1997, a period of 25 weeks. In December 1998 it flew twice
-more carrying the Air Force Research Laboratory's Reconfigurable Control for Tailless Fighter Aircraft
+110 knots, its maximum speed limit was raised from 160 to 243 knots during the programme, its ceiling was
+20,500 feet and its load factor limit was 5 g. It reached 206 knots, 20,200 feet and an angle of attack of
+40 degrees. It first flew on 17 May 1997 and completed 31 research flights and 15 hours 38 minutes of
+flight time by 12 November 1997, a period of 25 weeks. One inventory of American X-vehicles gives 25
+flights ending on 24 September 1997 instead. In December 1998 it flew twice more carrying the Air Force Research Laboratory's Reconfigurable Control for Tailless Fighter Aircraft
 software. It had no vertical or horizontal tail and used a canard, split ailerons and a thrust-vectoring
 nozzle, commanded by a digital flight control system, with the pilot in a ground station viewing through a
 nose camera.
@@ -6880,7 +6921,8 @@ doubling times are wrong by that factor.
 **How large the link delay was is not settled**, so the amplification factor is exact and what it amplified
 is unknown.
 
-**What angle of attack was reached is not settled**, which limits what can be said about the question the
+**How the aircraft behaved at its highest angles of attack is not settled**, since the public record gives
+the maximum of 40 degrees but no measurement there, which limits what can be said about the question the
 programme existed to answer.
 
 **Whether a tailless manned fighter is practical is not settled by this aeroplane and was never going to be**,
@@ -7059,6 +7101,7 @@ measured length.
 
 ### Reference
 
+- [American X-Vehicles, An Inventory X-1 to X-50, SP-2003-4531][ref_american_x_vehicles]
 - [Armstrong Flight Research Center][ref_dryden]
 - [Control allocation for over-actuated aircraft][ref_allocation]
 - [Directional stability][ref_directional]
@@ -7075,6 +7118,7 @@ measured length.
 - [Williams F112 turbofan][ref_f112]
 
 [ref_allocation]: https://en.wikipedia.org/wiki/Control_reconfiguration
+[ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
 [ref_directional]: https://en.wikipedia.org/wiki/Directional_stability
 [ref_dryden]: https://en.wikipedia.org/wiki/Armstrong_Flight_Research_Center
 [ref_f112]: https://en.wikipedia.org/wiki/Williams_F107

@@ -13,9 +13,9 @@ series_index: 12
 <!-- A308 -->
 <script>console.log("A308");</script>
 
-The [Convair X-11][ref_x11] could not stand up. Left on its own with the tanks empty and unpressurised it would fold under its own weight, so it was kept inflated with nitrogen at five pounds per square inch from the moment it left the factory until the moment it was destroyed. This article is the twelfth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10].
+The [Convair X-11][ref_x11] could not stand up. Left on its own with the tanks empty and unpressurised it would fold under its own weight, so, by the account of the [SM-65 Atlas][ref_sm65] compilation, it was kept inflated with nitrogen at five pounds per square inch from the moment it left the factory until the moment it was destroyed. This article is the twelfth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10].
 
-It is also the vehicle the previous article was about without naming. The [X-10][related_post_a307_north_american_x10] was the testbed for the Navaho, an intercontinental cruise missile that was cancelled in July 1957 because a ballistic weapon of the same range arrives in about thirty-two minutes where an airbreathing one is exposed for a hundred and seventy-two. **The X-11 is that ballistic weapon.** It is the Atlas A, the first flying article of the programme that killed the Navaho, and it first flew on 11 June 1957, four weeks before the cancellation message. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation comes from [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the structural principle has its own literature under the name [balloon tank][ref_balloon_tank].
+It is also the vehicle the previous article was about without naming. The [X-10][related_post_a307_north_american_x10] was the testbed for the Navaho, an intercontinental cruise missile that was cancelled in July 1957 because a ballistic weapon of the same range arrives in about thirty-two minutes where an airbreathing one is exposed for a hundred and seventy-two. **The X-11 is that ballistic weapon.** It is the Atlas A, the first flying article of the programme that killed the Navaho, and it first flew on 11 June 1957, thirty-one days before the Air Force Headquarters message of 12 July 1957 that terminated the Navaho, as the Cape Canaveral launch history of [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991] records. The official history of the programme is [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990]. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation comes from [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the structural principle has its own literature under the name [balloon tank][ref_balloon_tank].
 
 ## The Research Question
 
@@ -29,7 +29,7 @@ $$\Delta v = v_{e} \ln \frac{m_{0}}{m_{f}}$$
 
 where $v_e$ is the effective exhaust velocity and the mass ratio is gross mass over burnout mass. The burnout mass is structure plus payload, so **every kilogramme of structure is a kilogramme that must be accelerated to the full burnout velocity and then thrown at the target for no effect**. The logarithm is the difficulty. Improving the exhaust velocity gives a linear return, and improving the mass ratio gives a return that is only logarithmic, which means an intercontinental weapon must sit far out on a curve that is flattening under it.
 
-The Atlas achieved a burnout mass of 5,395 kilogrammes on a gross mass of 117,900, so its structural mass fraction is
+The Atlas achieved a burnout mass of 5,395 kilogrammes on a gross mass of 117,900, which are the Atlas D's 11,894 and 260,000 pounds in the [SM-65 Atlas][ref_sm65] compilation, so its structural mass fraction is
 
 $$\frac{m_{s}}{m_{0}} = \frac{5395}{117{,}900} = 0.0458$$
 
@@ -76,7 +76,7 @@ The caution the table requires is that the loss figure was calibrated so the bas
 
 The [X-10][related_post_a307_north_american_x10] flew for twenty-eight minutes against a mission of a hundred and seventy-two, and the article's central result was that its keystone quantity, a gyroscope drift rate, accumulates with time and therefore could not be measured over so short a window. The X-11 has the opposite property and it is worth stating plainly because it is the sharpest contrast the series has yet produced.
 
-**The Atlas structure is fully loaded within the first two minutes of flight.** Maximum dynamic pressure occurs about a minute after lift-off, the highest axial acceleration occurs at booster cutoff, and both fall inside a 133 second burn. The two loads can be written as fractions of the mission and the comparison is stark. For the Atlas the structurally sizing events occur at
+**The Atlas structure is fully loaded within the first two minutes of flight.** Maximum dynamic pressure occurs about a minute after lift-off, and the flight report of the National Aeronautics and Space Administration, NASA, on a later Atlas places its highest oxidizer-tank bending loads between 60 and 90 seconds [Lewis Research Center 1968][research_lewis_1968]. The highest axial acceleration occurs at booster cutoff, and both fall inside a 133 second burn. The two loads can be written as fractions of the mission and the comparison is stark. For the Atlas the structurally sizing events occur at
 
 $$\frac{t_{\text{sizing}}}{t_{\text{mission}}} = \frac{133}{1932} = 0.069$$
 
@@ -84,15 +84,15 @@ taking the mission as the 1932 second ballistic flight time derived in the previ
 
 $$\frac{t_{\text{flown}}}{t_{\text{mission}}} = \frac{1653}{10{,}333} = 0.16$$
 
-and the keystone was still not exercised, because a drift rate is not a load. **The X-11 tested more of its keystone in seven percent of its mission than the X-10 did in sixteen percent of its**, which is the compact form of the whole comparison. That the structurally sizing events cluster early is not an accident of this vehicle but a property of any rocket ascent, and the period literature establishing where they fall runs through [Wood 1961][research_wood_1961] on missile structural dynamics, [Gerald and Runyan 1962][research_gerald_runyan_1962] on the launch-vehicle case, and the ground-wind and ascent-load material cited below. **The general point that a test article need only span the sizing envelope, not the mission, is implicit in structural test practice** and is stated directly in [Abraham 1963][research_abraham_1963], which is about how to load a large article representatively and not exhaustively. A flight that goes no further than a hundred and twenty kilometres of apogee and a fifth of the intercontinental burnout speed still applies every structural load the mission will ever apply. **A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.** The X-11 flew a fraction of the weapon's mission and tested its keystone completely, and the X-10 flew a fraction of its weapon's mission and tested its keystone hardly at all, and the difference is not programme competence but the mathematical character of the quantity each was built to establish.
+and the keystone was still not exercised, because a drift rate is not a load. **The X-11 tested more of its keystone in seven percent of its mission than the X-10 did in sixteen percent of its**, which is the compact form of the whole comparison. That the structurally sizing events cluster early is not an accident of this vehicle but a property of any rocket ascent, and the period literature establishing where they fall runs through [Wood 1961][research_wood_1961] on missile structural dynamics, [Gerald and Runyan 1962][research_gerald_runyan_1962] on the launch-vehicle case, and the ground-wind and ascent-load material cited below. **The general point that a test article need only span the sizing envelope, not the mission, is implicit in structural test practice** and is stated directly in [Abraham 1963][research_abraham_1963], which is about how to load a large article representatively and not exhaustively. A flight that goes no further than a hundred and twenty kilometres of apogee and about two fifths of the intercontinental burnout speed, as The Flight Test Record computes, still applies every structural load the mission will ever apply. **A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.** The X-11 flew a fraction of the weapon's mission and tested its keystone completely, and the X-10 flew a fraction of its weapon's mission and tested its keystone hardly at all, and the difference is not programme competence but the mathematical character of the quantity each was built to establish.
 
 ## Programme Origin
 
-Convair had been working on long-range missiles since 1946 under project MX-774, a study that the Air Force cancelled in 1947 and that Convair partly continued on its own money. The work resumed as MX-1593 in 1951 and became the Atlas. The design authority throughout was Karel Bossart, whose contribution is the pressure-stabilised tank and whose reported inspiration was a cylindrical party balloon.
+Convair had been working on long-range missiles since 1946 under project MX-774, a study contract the Army Air Forces awarded in April 1946 and cancelled in July 1947, after which Convair continued part of the work on its own funds [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990]. The Air Force returned to Convair with a contract signed on 23 January 1951, designated Project MX-1593, which became the Atlas. Neufeld's chapter on MX-1593 dates the MX-774 cancellation to July 1948, against July 1947 in his own detailed account of that project and in [Dawson and Bowles 2004][research_dawson_bowles_2004], and the earlier date is used here. The design authority throughout was Karel Bossart, whose contribution is the pressure-stabilised tank. **The idea is older than the Atlas.** Neufeld records that Bossart's MX-774 design had already removed the stiffeners of the V-2 and obtained its rigidity from nitrogen gas pressure, and that the resulting weight programme improved the V-2's airframe-to-propellant weight ratio by a factor of three. The reported inspiration was a cylindrical party balloon, an anecdote the [balloon tank][ref_balloon_tank] compilation repeats and the programme histories read for this article do not.
 
-The German inheritance that shaped the American ballistic effort generally occupies [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995], and [Walker 2005 Atlas, The Ultimate Weapon][book_walker_powell_2005] carries the Army's institutional history of its space and missile defence effort, the parallel to the Air Force programme this article follows, with a period account of the ballistic missile division's own evolution in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960]. Contemporary surveys of the whole weapon class are [Botterill 1961][research_botterill_1961] and [Lenihan 1962][research_lenihan_1962], which are useful precisely because they record what was thought at the time, not what turned out to be true. **The point worth holding is that Convair reached the pressure-stabilised structure from an aircraft background and not from a rocket one.** A company that builds thin-skinned pressurised fuselages has the instinct that a pressure vessel can be a primary structure, and the monocoque analysis the field already had runs from [Hoff 1942][research_hoff_1942], [Wang and Ramamritham 1947][research_wang_ramamritham_1947], and [Kaufman 1958][research_kaufman_1958].
+The German inheritance that shaped the American ballistic effort generally occupies [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995], and [Walker 2005 Atlas, The Ultimate Weapon][book_walker_powell_2005] is a history of the Atlas whose full title describes it as written by those who built it, with a period account of the ballistic missile division's own evolution in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960]. Contemporary surveys of the whole weapon class are [Botterill 1961][research_botterill_1961] and [Lenihan 1962][research_lenihan_1962], which are useful precisely because they record what was thought at the time, not what turned out to be true. **The point worth holding is that Convair reached the pressure-stabilised structure from an aircraft background and not from a rocket one.** Bossart said as much. He had worked on aircraft structures at Sikorsky and Vultee before the missile work, and [Dawson and Bowles 2004][research_dawson_bowles_2004] record that he always attributed his confidence in the thin-skinned design to that background. A company that builds thin-skinned pressurised fuselages has the instinct that a pressure vessel can be a primary structure, and the monocoque analysis the field already had runs from [Hoff 1942][research_hoff_1942], [Wang and Ramamritham 1947][research_wang_ramamritham_1947], and [Kaufman 1958][research_kaufman_1958].
 
-The programme designation the record actually uses is **WS 107A-1**, and the missile family became SM-65 with variants lettered A through F. The X-11 designation was assigned to the Atlas A and the X-12 to the Atlas B, which the next article treats. **Whether either designation was ever used operationally is not clear from the accessible record**, and the Epistemic State says so. What is clear is that these are the fourth and fifth consecutive X numbers attached to vehicles that were never research aircraft, following the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10], and that the pattern the previous article identified, of a separate series being absorbed, not of the X-series broadening on the merits, now has more cases than it had exceptions.
+The programme designation the record actually uses is **WS 107A-1**, the weapon system number under which [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991] records the Air Force activating the Atlas and which the Flight Test Working Group reports carry in their titles, and the missile family became SM-65 with variants lettered A through F. The X-11 designation was assigned to the Atlas A and the X-12 to the Atlas B, which the next article treats. **Whether either designation was ever used operationally is not clear from the accessible record**, and the Epistemic State says so. What is clear is that these are the fourth and fifth consecutive X numbers attached to vehicles that were never research aircraft, following the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10], and that the pattern the previous article identified, of a separate series being absorbed, not of the X-series broadening on the merits, now has more cases than it had exceptions.
 
 ### Why the Idea Was Available to Convair and Not to Others
 
@@ -100,13 +100,17 @@ The pressure-stabilised tank is usually told as a flash of insight, and the part
 
 **An aircraft company that builds pressurised fuselages already believes that a pressure vessel can be primary structure.** A transport fuselage is a thin shell that carries bending, torsion, and cabin pressure at once, and the analysis for it existed, in [Hoff 1942][research_hoff_1942], [Wang and Ramamritham 1947][research_wang_ramamritham_1947], and [Kaufman 1958][research_kaufman_1958]. What Convair did was to remove the frames and stringers that a fuselage keeps because it must survive depressurisation, and to accept in exchange a structure that must never be depressurised.
 
+Bossart's own account of the reasoning, as Dawson and Bowles quote it from a 1974 interview, runs in the order a structures engineer would take. The tank needed a certain pressure to give the pump its required net positive suction head, so the first question was how thin the skin could be while holding that pressure, and the second was how much stiffening such a skin would need under the flight compression and bending. **The answer to the second question was none.** That is the inversion the section What Five Pounds per Square Inch Buys performs with numbers, starting from the pressure and asking what compression it offsets.
+
 That is a trade an aircraft company can see and a rocket company might not, because it is a trade about what the structure is allowed to fail at and not about how strong it is. **The Atlas is not a stronger tank. It is a tank that has been permitted to have a failure mode nobody would tolerate in an aeroplane**, in exchange for a mass fraction nobody could reach any other way, and permitting that failure mode is a programme decision, not an engineering one.
 
-The decision also depended on the mission. A weapon is expended, so a structure that cannot survive loss of pressure is acceptable in a way it would not be for something expected to be reused, ferried, stored unattended, or damaged and repaired. **The X-10 in the previous article was recoverable and therefore could not make this trade.** The two are four weeks and one designation apart and their structural philosophies are opposite, and the reason is the same one that separated their keystones.
+The decision also depended on the mission. A weapon is expended, so a structure that cannot survive loss of pressure is acceptable in a way it would not be for something expected to be reused, ferried, stored unattended, or damaged and repaired. **The X-10 in the previous article was recoverable and therefore could not make this trade.** The two are one designation apart, the first Atlas A flew thirty-one days before the Navaho was terminated, and their structural philosophies are opposite, and the reason is the same one that separated their keystones.
 
 ### The One-and-a-Half Stage Arrangement
 
 The Atlas carries three engines and jettisons two of them. All three ignite on the ground, and at booster cutoff the two outboard engines and their skirt are dropped while the sustainer continues on the same tanks. The arrangement exists because igniting a large liquid engine at altitude was not trusted in 1955, so the vehicle stages its **engines** without staging its **tanks**.
+
+**The Atlas A did not stage at all.** It flew with the two booster engines and no sustainer, which is why [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990] describes the first flight as rising only a few thousand feet before one of its two engines failed, and the [Convair X-11][ref_x11] compilation states that the sustainer engine was omitted. Everything this article says about staging therefore concerns the Atlas that the A was prototyping, and the A itself tested the tank, the booster engines and the launch.
 
 That decision interacts directly with the keystone. A conventional two-stage vehicle discards a whole tank set, which is where most of the structural benefit of staging comes from. The Atlas discards only engines and skirt, so it gets a smaller staging benefit and has to make it up in structural efficiency. **The balloon tank and the one-and-a-half stage arrangement are the same decision seen twice**, since the vehicle that cannot drop its tanks must make its tanks weigh almost nothing. [Schurmann 1957][research_schurmann_1957], [Parkyn 1958][research_parkyn_1958], and [Wertheimer 1957][research_wertheimer_1957] optimise staging for the period, with the gravitational term in [Sellers 1948][research_sellers_1948].
 
@@ -114,11 +118,11 @@ That decision interacts directly with the keystone. A conventional two-stage veh
 
 ### The Shell, and How Thin It Actually Is
 
-The Atlas is a cylinder ten feet in diameter and just over twenty-three metres long, so the tank radius is
+The Atlas is a cylinder ten feet in diameter and seventy-five feet long, the dimensions [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991] gives for the missiles of all four test series, and the 75 feet 10 inches of the [SM-65 Atlas][ref_sm65] compilation, 23.11 metres, is the length used below. The tank radius is
 
 $$r = \frac{10 \times 0.3048}{2} = 1.524 \, \text{m}$$
 
-and the skin is 301 extra-full-hard stainless steel between 0.014 and 0.037 inches thick, which is 0.356 to 0.940 millimetres. The ratio that governs everything about a thin shell is radius over thickness,
+and the skin is 301 extra-full-hard stainless steel between 0.014 and 0.037 inches thick, which is 0.356 to 0.940 millimetres. Those gauges are the ones NASA's propellant-tank drawing of a later Atlas gives, station by station from the top of the oxidizer tank to the aft bulkhead [Lewis Research Center 1968][research_lewis_1968], and no drawing of the Atlas A's own gauges has been found. The ratio that governs everything about a thin shell is radius over thickness,
 
 $$\frac{r}{t} = \frac{1.524}{0.000356} = 4286 \qquad \frac{r}{t} = \frac{1.524}{0.000940} = 1622$$
 
@@ -144,7 +148,7 @@ $$\frac{\sigma_{\theta}}{\sigma_{z}} = 2$$
 
 which has a consequence every pressure vessel shares. **The hoop direction is always the first to yield, so a tank that bursts splits along its length and not around its circumference**, and the weld that runs longitudinally is therefore the one that decides the vehicle.
 
-At a flight tank pressure of about 60 pounds per square inch and the heavy gauge this gives
+The flight pressures are on record for that later Atlas. Its airborne regulators held the fuel tank between 57 and 60 pounds per square inch gauge and the oxidizer tank between 28.5 and 31 [Lewis Research Center 1968][research_lewis_1968], and the heaviest gauges lie in the fuel tank. At 60 pounds per square inch and the heavy gauge this gives
 
 $$\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000940} = 671 \, \text{MPa}$$
 
@@ -152,11 +156,15 @@ against a yield near 965 megapascals for the material in its extra-full-hard con
 
 $$\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1773 \, \text{MPa}$$
 
-which exceeds the ultimate strength of the material. **The light gauge therefore cannot exist anywhere the pressure is high**, and that is not a criticism of the calculation but a demonstration of the design rule. The gauge is tapered to the local stress, and the local stress is dominated not by ullage pressure but by the head of propellant above the station under acceleration,
+which exceeds the ultimate strength of the material. **The light gauge therefore cannot exist anywhere the pressure is high**, and that is not a criticism of the calculation but a demonstration of the design rule. The drawing bears it out, because the 0.014 inch gauge sits at the top of the oxidizer tank, where the regulated pressure is about half the fuel tank's, and at 30 pounds per square inch it carries
+
+$$\sigma_{\theta} = \frac{206{,}843 \times 1.524}{0.000356} = 885 \, \text{MPa}$$
+
+a margin of 1.09 on the yield. The gauge is tapered to the local stress, and the local stress is dominated not by ullage pressure but by the head of propellant above the station under acceleration,
 
 $$\Delta p = \rho \, n \, g \, h$$
 
-For liquid oxygen at 1141 kilogrammes per cubic metre, ten metres of head, and six times gravity near burnout,
+For liquid oxygen at 1141 kilogrammes per cubic metre, ten metres of head, and six times gravity near burnout, close to the 5.62 times gravity the later Atlas reached at booster cutoff [Lewis Research Center 1968][research_lewis_1968],
 
 $$\Delta p = 1141 \times 6 \times 9.80665 \times 10 = 671{,}000 \, \text{Pa} = 97 \, \text{psi}$$
 
@@ -192,7 +200,15 @@ with the balance of 34,617 kilogrammes as kerosene. At densities of 1141 and 800
 
 $$\frac{111.5}{131} = 0.85$$
 
-of the tank, leaving fifteen percent for ullage, insulation, and the domes, which is a sane figure and a weak confirmation that the assumed tank length is about right.
+of the tank, leaving fifteen percent for ullage, insulation, and the domes. **The record does not confirm the assumed length.** The tank stations of the later Atlas in [Lewis Research Center 1968][research_lewis_1968] run from 570 to 1,198 inches, so the whole tank, domes included, spans
+
+$$\ell = (1198 - 570) \times 0.0254 = 15.95 \, \text{m}$$
+
+and the 18 metres assumed here is long by a factor of 1.13. Treating even that span as a full cylinder gives
+
+$$V' = \pi \times 1.524^{2} \times 15.95 = 116.4 \, \text{m}^{3}, \qquad \frac{111.5}{116.4} = 0.958$$
+
+so the volume, the skin mass and the nitrogen mass below are overstated by up to thirteen percent, and the fill fraction of 0.85 is not evidence for the assumed length.
 
 Against all of that, the mass of nitrogen needed to hold five pounds per square inch of gauge pressure through the whole volume is
 
@@ -310,15 +326,19 @@ $$\frac{\sigma_{\text{tension}}}{\sigma_{\text{compression}}} = \frac{965}{14.4}
 
 ### The Engines, and Why Three of Them Start on the Ground
 
-The Atlas A carried two booster engines developing 341,128 pounds of thrust between them, which is 1.517 meganewtons. At the Atlas gross mass this is a lift-off thrust-to-weight of
+The Atlas A carried two booster engines whose initial thrust, by the official history, was raised during the series from 270,000 to 300,000 pounds [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990]. The summary figure of the [Convair X-11][ref_x11] compilation, 341,128 pounds, which is 1.517 meganewtons, exceeds both, and the same compilation's narrative gives the early engines 135,000 pounds each and the improved engines from the fifth flight 150,000, which agree with the official figures. At the Atlas D gross mass this summary thrust gives a lift-off thrust-to-weight of
 
 $$\frac{T}{W} = \frac{1.517 \times 10^{6}}{117{,}900 \times 9.80665} = 1.31$$
 
-and the propellant flow follows from the exhaust velocity,
+which is a figure for the family and not for the Atlas A. Against the 181,000 pounds at which [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991] gives the Series A test missiles, the early engines give
+
+$$\left. \frac{T}{W} \right|_{A} = \frac{2 \times 135{,}000}{181{,}000} = 1.49$$
+
+so the Atlas A left the pad harder than the family figure suggests. For the family figure the propellant flow follows from the exhaust velocity,
 
 $$\dot{m} = \frac{T}{v_{e}} = \frac{1.517 \times 10^{6}}{2765} = 549 \, \text{kg/s}$$
 
-so a 133 second burn consumes 73.0 tonnes, which is 65 percent of the full Atlas propellant load. Liquid engine practice of the period runs from [Summerfield 1960][research_summerfield_1960], with a released Rocketdyne specification of the same line in [Scott 1963][research_scott_1963] and the specific-impulse bookkeeping in [Dafler 1962][research_dafler_1962]. Combustion instability, which was the era's most persistent liquid-engine problem, is [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959]. [Hegg 1964][research_hegg_1964] designs the gimbal actuation for thrust vector control, and the turbopump that feeds the whole arrangement has its own design-criteria treatment in [NACA 1975][research_naca_1975], with propellant flow calibration in [Berg 1968][research_berg_1968].
+so a 133 second burn, the compilation's figure against the two full minutes of powered flight Neufeld gives for missile 12A, consumes 73.0 tonnes, which is 65 percent of the full Atlas propellant load. Liquid engine practice of the period runs from [Summerfield 1960][research_summerfield_1960], with a released Rocketdyne specification for the sustainer engine, which the Atlas A did not carry, in [Scott 1963][research_scott_1963] and the specific-impulse bookkeeping in [Dafler 1962][research_dafler_1962]. Combustion instability, which was the era's most persistent liquid-engine problem, is [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959]. [Hegg 1964][research_hegg_1964] designs the gimbal actuation for thrust vector control, and the turbopump that feeds the whole arrangement has its own design-criteria treatment in [NACA 1975][research_naca_1975], with propellant flow calibration in [Berg 1968][research_berg_1968].
 
 ### Ascent Loads, and the Worst Two Minutes
 
@@ -346,7 +366,7 @@ which for the same numbers gives
 
 $$q_{\max} = \tfrac{1}{2} \times 1.225 \times 0.3679 \times 2 \times 3 \times 7200 = 9736 \, \text{Pa}$$
 
-or about 1.4 pounds per square inch of dynamic pressure. **The aerodynamic pressure the vehicle must survive is two percent of the pressure it carries internally**, which is the clearest possible statement of where this structure's loads actually come from. It is a pressure vessel that happens to fly, not an aeroplane that happens to hold propellant. The real trajectory is not vertical and the acceleration is not constant, so the actual figure is nearer eleven kilometres and a little over a minute, but the structure of the answer is the structure of the real one. Axial acceleration does the opposite. It grows monotonically as propellant burns away,
+or about 1.4 pounds per square inch of dynamic pressure. **The aerodynamic pressure the vehicle must survive is two percent of the pressure it carries internally**, which is the clearest possible statement of where this structure's loads actually come from. It is a pressure vessel that happens to fly, not an aeroplane that happens to hold propellant. The real trajectory is not vertical and the acceleration is not constant, so the actual time is a little over a minute, consistent with the 60 to 90 second window of highest bending loads in the later Atlas's flight report, but the structure of the answer is the structure of the real one. Axial acceleration does the opposite. It grows monotonically as propellant burns away,
 
 $$n(t) = \frac{T}{\left( m_{0} - \dot{m} t \right) g}$$
 
@@ -546,24 +566,24 @@ or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen l
 
 ## The Flight Test Record
 
-Eight Atlas A vehicles flew from Cape Canaveral between 11 June 1957 and 3 June 1958, three of them successfully by the flight-by-flight record set out below, although summary accounts commonly report four. All flights were from Launch Complex 12 or 14, and all were short-range, reaching apogees near 120 kilometres.
+Eight Atlas A vehicles flew from Cape Canaveral between 11 June 1957 and 3 June 1958, against a plan for seven test missiles of 181,000 pounds between June and December 1957, expected to fly 460 nautical miles downrange [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991]. Convair had started fabrication in February 1955 and delivered the first missile on 29 August 1956, and missile 4A reached the Air Force Missile Test Center in December 1956 [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990]. Cleary records five launches from Launch Complex 14 and three from Launch Complex 12, grades the first two flights failures and the third and fourth successes, and does not grade the last four. Neufeld's summary records that the series ended in June 1958 with three successes, and that the eight missiles flew with only the booster and vernier engines and a nose fairing in place of a reentry vehicle. The apogees and the remaining outcomes in the table below are those of the [Convair X-11][ref_x11] compilation, whose table grades three flights successful, matching the official count, while its summary says four.
 
-| Date | Serial | Apogee | Outcome |
-|------|--------|--------|---------|
-| 1957-06-11 | 4A | 2 km | failure |
-| 1957-09-25 | 6A | 3 km | failure |
-| 1957-12-17 | 12A | 120 km | success |
-| 1958-01-10 | 10A | 120 km | success |
-| 1958-02-07 | 13A | 120 km | failure |
-| 1958-02-20 | 11A | 90 km | failure |
-| 1958-04-05 | 15A | 100 km | failure |
-| 1958-06-03 | 16A | 120 km | success |
+| Date | Pad | Serial | Apogee | Outcome |
+|------|-----|--------|--------|---------|
+| 1957-06-11 | 14 | 4A | 2 km | failure |
+| 1957-09-25 | 14 | 6A | 3 km | failure |
+| 1957-12-17 | 14 | 12A | 120 km | success |
+| 1958-01-10 | 12 | 10A | 120 km | success |
+| 1958-02-07 | 14 | 13A | 120 km | failure |
+| 1958-02-20 | 12 | 11A | 90 km | failure |
+| 1958-04-05 | 14 | 15A | 100 km | failure |
+| 1958-06-03 | 12 | 16A | 120 km | success |
 
-The first flight reached two kilometres and was destroyed, and the reported detail that matters for this article is that **the vehicle tumbled and the structure held**. A pressure-stabilised shell that survives a tumble at low altitude has demonstrated the one thing about it that everyone doubted, and it did so under a load case nobody designed for. A tumbling body sees its bending moment applied at an arbitrary angle and reversed once per revolution, which is the worst possible use of a structure whose compressive capacity is two hundred times smaller than its tensile one. That it held is evidence that the pressure stabilisation was working exactly as the relation above says it should, since the relation does not care about the direction of the moment. A tumbling vehicle at rotation rate $\Omega$ also loads itself centrifugally, and the transverse acceleration at the tip of a body of length $L$ rotating about its centre is
+The first flight lost thrust about 24 seconds after lift-off, performed what Cleary calls a couple of loops, and was destroyed by the range safety officer less than a minute after lift-off. Neufeld puts its height at a few thousand feet, the compilation's table at two kilometres and its narrative at 9,800 feet, about three. The detail that matters for this article is that **the vehicle tumbled and the structure held**. Neufeld records that despite the failure the Atlas demonstrated its structural integrity and the ability to gimbal its engines, and [Dawson and Bowles 2004][research_dawson_bowles_2004] that the tank did not break up under the lateral stresses of the tumble until the range safety officer destroyed it. A pressure-stabilised shell that survives a tumble at low altitude has demonstrated the one thing about it that everyone doubted, and it did so under a load case nobody designed for. A tumbling body sees its bending moment applied at an arbitrary angle and reversed once per revolution, which is the worst possible use of a structure whose compressive capacity is two hundred times smaller than its tensile one. That it held is evidence that the pressure stabilisation was working exactly as the relation above says it should, since the relation does not care about the direction of the moment. A tumbling vehicle at rotation rate $\Omega$ also loads itself centrifugally, and the transverse acceleration at the tip of a body of length $L$ rotating about its centre is
 
 $$a_{\text{tip}} = \Omega^{2} \frac{L}{2}$$
 
-so even a slow tumble at one revolution per second gives
+so a tumble at the one revolution per second assumed here, since no source gives the rate, gives
 
 $$a_{\text{tip}} = (2 \pi)^{2} \times 11.6 = 458 \, \text{m/s}^{2} = 47 g$$
 
@@ -575,13 +595,23 @@ The flight-by-flight record for the operational variants is in the Flight Test W
 
 It is worth separating what the programme intended each flight to establish from what the flight record shows, because the two are not the same and the difference explains the apparent poor showing.
 
-The first two flights, in June and September 1957, reached two and three kilometres. Neither was a performance flight in any sense. They were attempts to get a vehicle off the pad and through the first seconds of powered flight, and the first of them delivered the single most important structural result of the programme by tumbling and holding together. **A flight that reaches two kilometres and is destroyed has still exercised the structure through lift-off, through the acoustic transient, and through an off-design load case**, and the vehicle passed all three.
+The first two flights, in June and September 1957, reached two and three kilometres by the compilation's table, and on the second the propulsion system ran normally for about 32 seconds before a liquid oxygen regulator problem reduced thrust and then cut all power [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991]. Neither was a performance flight in any sense. They were attempts to get a vehicle off the pad and through the first seconds of powered flight, and the first of them delivered the single most important structural result of the programme by tumbling and holding together. **A flight that reaches two kilometres and is destroyed has still exercised the structure through lift-off, through the acoustic transient, and through an off-design load case**, and the vehicle passed all three.
 
-The third and fourth flights, in December 1957 and January 1958, reached 120 kilometres and are recorded as successes. Those are the flights that establish the vehicle as a vehicle. The fifth, sixth, and seventh failed at 120, 90, and 100 kilometres, which is a pattern of getting most of the way and then losing something, and the reported causes are consistent with that reading. The eighth, in June 1958, succeeded.
+The third and fourth flights, in December 1957 and January 1958, reached 120 kilometres and are recorded as successes. Those are the flights that establish the vehicle as a vehicle. Neufeld records that the third, missile 12A, burned its engines for two full minutes as programmed and flew "some 600 miles" down the Atlantic Missile Range, and that it was declared a complete success. **The unit is not settled by the record.** Neufeld's narrative of that flight writes miles without qualification, while his summary of the whole series gives its maximum range and altitude as 600 and 57.5 nautical miles. Both readings are carried here. As a fraction of the intercontinental range they are
+
+$$\frac{600 \times 1.609}{10{,}000} = 0.097, \qquad \frac{600 \times 1.852}{10{,}000} = 0.111$$
+
+so the series flew about a tenth of the range either way, and by the range relation of the previous article a minimum-energy flight of 965.6 or 1,111.2 kilometres needs a burnout speed of
+
+$$\sin \frac{\Phi}{2} = \sin \frac{965.6}{2 \times 6371} = 0.0757, \qquad \lambda = \frac{2 \times 0.0757}{1 + 0.0757} = 0.1408, \qquad v_{bo} = \sqrt{0.1408 \times 9.80665 \times 6.371 \times 10^{6}} = 2966 \, \text{m/s}$$
+
+$$\sin \frac{\Phi}{2} = \sin \frac{1111.2}{2 \times 6371} = 0.0871, \qquad \lambda = \frac{2 \times 0.0871}{1 + 0.0871} = 0.1602, \qquad v_{bo} = \sqrt{0.1602 \times 9.80665 \times 6.371 \times 10^{6}} = 3164 \, \text{m/s}$$
+
+which are 0.41 and 0.44 of the 7193 metres per second the full range needs. Any other path to the same range needs more speed than the minimum-energy one, so about two fifths is a floor under either reading. The summary altitude of 57.5 nautical miles is 106.5 kilometres, below the 120 kilometres the compilation's table gives for four of the flights. By the compilation, the fifth, sixth, and seventh failed at 120, 90, and 100 kilometres, which is a pattern of getting most of the way and then losing something, and the reported causes are consistent with that reading. The eighth, in June 1958, succeeded.
 
 **The programme therefore obtained its structural answer on flight one and spent the remaining seven flights on propulsion, plumbing, and pneumatics.** That ordering is the opposite of what the article's organisation implies, and it is worth stating plainly. An article built around the balloon tank naturally presents the structure as the programme's central difficulty, and the flight record says the structure was the thing that worked first and never stopped working.
 
-The failures were concentrated in propulsion and plumbing rather than in structure. The reported causes include exhaust-gas recirculation overheating the boat-tail, propellant duct failures, and pneumatic and guidance faults, and the remedies were heat shielding, steel plumbing in place of lighter material, and revised venting. **The programme's difficulty was never the thing that looked impossible.**
+The failures were concentrated in propulsion and plumbing rather than in structure. The launch history names a loss of engine thrust on the first flight and a liquid oxygen regulator problem on the second. The compilation adds exhaust-gas recirculation overheating the boat-tail, propellant duct failures, and pneumatic and guidance faults, with heat shielding, steel plumbing in place of aluminium, and revised venting as the remedies. **The programme's difficulty was never the thing that looked impossible.**
 
 ### What a Three-in-Eight Success Rate Means
 
@@ -828,7 +858,7 @@ Two things follow. **The qualitative claim is robust and the quantitative one is
 
 Treating the X-11 through the mass-fraction keystone illuminates the design but misleads in six ways.
 
-**It was not a complete missile.** No operational guidance, no reentry vehicle, no warhead, and a range a fifth of the requirement. The X-11 is the airframe and the booster propulsion and nothing else.
+**It was not a complete missile.** No operational guidance, no reentry vehicle, no warhead, and a range about a tenth of the requirement. The X-11 is the airframe and the booster propulsion and nothing else.
 
 **The structure was not the programme's actual difficulty.** Five of eight flights failed by the flight-by-flight record, and the failures were plumbing, heating, and pneumatics. A treatment organised around the balloon tank gives the impression that the daring part was the hard part, and the flight record says the opposite, and the record that shows it is the Difficulties Review of [General Dynamics San Diego Ca Convair Div 1966][research_div_1966] rather than any structural document.
 
@@ -838,7 +868,7 @@ Treating the X-11 through the mass-fraction keystone illuminates the design but 
 
 **And the comparison the article makes is with itself.** The range table varies the Atlas structure and the two-stage section varies a hypothetical alternative, but neither is a comparison with a vehicle that was actually built. Titan I flew, used a conventional structure, reached intercontinental range, and is not analysed here. The honest position is that this article establishes what the balloon tank was worth in the abstract and leaves the empirical comparison to a reader with both sets of mass properties, which the accessible record did not supply.
 
-**The mass figures are not the vehicle's own.** The structural fraction, the mass ratio, and everything computed from them use Atlas D numbers, because Atlas A mass data was not found in the accessible record. The Atlas A was heavier and less capable than the D and the range table therefore describes the family rather than the article that flew. The Epistemic State repeats this, and it is the largest single weakness in the quantitative argument.
+**The mass figures are not the vehicle's own.** The structural fraction, the mass ratio, and everything computed from them use the Atlas D figures of the [SM-65 Atlas][ref_sm65] compilation, because no empty mass for the Atlas A has been found. The one Atlas A mass on record is the 181,000 pounds at which Cleary gives the planned Series A test missiles, against 243,000 for the Series C and D, while all four series share the same seventy-five by ten foot shell. The range table therefore describes the family rather than the article that flew. The Epistemic State repeats this, and it is the largest single weakness in the quantitative argument.
 
 ## What the X-11 Was Worth
 
@@ -848,9 +878,9 @@ A testbed is worth what it removed from the programme's uncertainty, and that ca
 
 **It removed most of the propulsion question over seven further flights**, which is a poor return per flight and the only return available, because propulsion faults are individually rare and collectively common and there is no substitute for accumulating them.
 
-**It removed almost nothing about guidance, reentry, or range**, because it carried no operational guidance, no reentry vehicle, and flew a fifth of the required speed. Those were the Atlas B and the later variants.
+**It removed almost nothing about guidance, reentry, or range**, because it carried no operational guidance, no reentry vehicle, and flew at about two fifths of the required speed. Those were the Atlas B and the later variants.
 
-The programme's own sequencing confirms the reading. Atlas B began flying in July 1958, five weeks after the last Atlas A, which is not the interval of a programme waiting for a verdict. **The A was allowed to overlap its successor because the question it existed to answer had been settled a year earlier and everything since had been debugging**, and debugging is work that transfers to the next article rather than gating it.
+The programme's own sequencing confirms the reading. The first Atlas B flew from Pad 11 on 19 July 1958 [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991], forty-six days, or six and a half weeks, after the last Atlas A, which is not the interval of a programme waiting for a verdict. **The A was allowed to overlap its successor because the question it existed to answer had been settled a year earlier and everything since had been debugging**, and debugging is work that transfers to the next article rather than gating it.
 
 The distribution is lopsided and it is the distribution a good testbed should have. **The riskiest item was retired first and cheapest**, and the items that could only be settled by building the real weapon were left to the real weapon. Set against the [X-10][related_post_a307_north_american_x10], which retired almost nothing because its risk was a quantity that accumulates, the X-11 is what a testbed looks like when the physics cooperates.
 
@@ -858,7 +888,7 @@ The distribution is lopsided and it is the distribution a good testbed should ha
 
 The [previous article][related_post_a307_north_american_x10] found that the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], and the [X-10][related_post_a307_north_american_x10] were all RTV-A vehicles before they were X vehicles, and concluded that three apparent anomalies were one administrative act seen three times. The X-11 does not fit that explanation, and the misfit is informative.
 
-**The Atlas A was never an RTV-A vehicle.** It came from a weapon programme with its own designation lineage, running SSM-A, then B-65, then SM-65, and the X-11 label sits beside that lineage rather than inside it. So whatever attached an X number to this vehicle was not the RTV absorption that explains the previous three. The accessible record does not say what it was, and no document found for this article uses the X designation at all.
+**The Atlas A was never an RTV-A vehicle.** It came from a weapon programme with its own designation lineage, running SSM-A, then B-65, then SM-65, and the X-11 label sits beside that lineage rather than inside it. So whatever attached an X number to this vehicle was not the RTV absorption that explains the previous three. The line did pass through that series once. Neufeld records that the MX-774 test vehicles of 1946 and 1947 were also called RTV-2-As or Hirocs, so the Atlas's ancestor carried a research test vehicle designation a decade before the X-11 label appears, and no document read for this article connects the earlier designation to the later X number. The accessible record does not say what it was, and no document found for this article uses the X designation at all.
 
 Three readings are available and the article does not choose between them.
 
@@ -874,25 +904,29 @@ Three readings are available and the article does not choose between them.
 
 The contrast with the previous article is sharp and it is worth stating as a controlled result.
 
-**The Navaho record is absent from the defence archive and the Atlas record is present.** The [X-10][related_post_a307_north_american_x10] article established that querying the Defense Technical Information Center through the Crossref publisher prefix on the project number MX-770 returns nothing about the Navaho at all, while the adjacent MX-776 returns a report on the RASCAL weapon system, named for its radar scanning link. The same route on the Atlas returns the Flight Test Working Group reports for individual missiles, the multi-volume Difficulties Review of the Atlas booster and its ground support systems, propellant-loading system design, and engine system-test data. **Same archive, same route, same query form, and the difference is that one programme was cancelled in 1957 and the other flew for sixty years.** The specific documents are [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961] and its companion flight test reports, the five volumes of [General Dynamics San Diego Ca Convair Div 1966][research_div_1966], and [Peters and Hall 1963][research_peters_hall_1963] on engine system-test data, with the programme-level history in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960].
+**The Navaho record is absent from the defence archive and the Atlas record is present.** The [X-10][related_post_a307_north_american_x10] article established that querying the Defense Technical Information Center through the Crossref publisher prefix on the project number MX-770 returns nothing about the Navaho at all, while the adjacent MX-776 returns a report on the RASCAL weapon system, named for its radar scanning link. The same route on the Atlas returns the Flight Test Working Group reports for individual missiles, the multi-volume Difficulties Review of the Atlas booster and its ground support systems, propellant-loading system design, and engine system-test data. **Same archive, same route, same query form, and the difference is that one programme was cancelled in 1957 and the other flew for sixty years.** The specific documents are [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961] and its companion flight test reports, the five volumes of [General Dynamics San Diego Ca Convair Div 1966][research_div_1966], and [Peters and Hall 1963][research_peters_hall_1963] on engine system-test data, with the programme-level history in [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960]. The narrative of the programme comes from its official histories, Neufeld for the Air Force and Cleary for the launch record at Cape Canaveral, and from NASA's history of the Centaur in Dawson and Bowles, and the vehicle's measured structure and pressures come from NASA's flight report on a later Atlas. Cleary calls the vehicles Series A missiles throughout, and neither Cleary nor Dawson and Bowles uses the X-11 designation.
 
-**The aerospace archive holds the discipline rather than the vehicle**, and for this article that is the right trade. The keystone is a structural principle, and the shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable. Twenty records from the Technical Reports Server of the National Aeronautics and Space Administration, the NTRS, are cited here, and the ones that matter most, namely the pressurised-cylinder buckling correlation and the imperfection-sensitivity measurements, are exactly the documents a designer of this vehicle would have had on his desk.
+**The aerospace archive holds the discipline rather than the vehicle**, and for this article that is the right trade. The keystone is a structural principle, and the shell-buckling and pressure-stabilisation literature is large, contemporary with the design, and directly applicable. Twenty-two records from the Technical Reports Server of the National Aeronautics and Space Administration, the NTRS, are cited here, and the ones that matter most, namely the pressurised-cylinder buckling correlation and the imperfection-sensitivity measurements, are exactly the documents a designer of this vehicle would have had on his desk.
 
 **What is thin is the X-11 as such.** The designation appears in compilations and the flight record is well attested, but the accessible record concerns the Atlas A rather than a vehicle called X-11, and no document found for this article uses the X designation. That is the fourth consecutive article in which the X number is an administrative label rather than a name anyone used, and the pattern identified in the [previous article][related_post_a307_north_american_x10] now has more instances than the series has counterexamples in this stretch.
 
-**The mass data is the specific gap.** Gross, empty, and propellant masses for the Atlas A itself were not found, so the article uses Atlas D figures throughout and says so wherever they appear. Since the Atlas A was an earlier and heavier article, the structural fraction used here is better than the fraction the X-11 actually achieved, and every range figure derived from it is correspondingly optimistic. The direction of the error is known even though its size is not, which is the most that can be said.
+**The mass data is the specific gap.** No empty or propellant mass for the Atlas A itself has been found, so the article uses Atlas D figures throughout and says so wherever they appear. The only Atlas A mass on record is the planned 181,000 pounds of the Series A test missiles, which is
 
-**Every research work in the references is cited by name in a sentence of this article, and a work is admitted only when a person reading its title finds it on this article's subject.** The 339 research works are drawn from the report archives named above and from the journal literature. Two classes are excluded. The first is homonyms, and three of this subject's words name other things. Reentry also names a circuit in ventricular tachycardia, pressure buildup names a test of a petroleum well, and silo names a general storage structure with nothing to do with missile basing, so studies of each are excluded. The second is records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, registry test deposits, and journal front matter such as covers, contents lists, reviewer lists and indexes.
+$$\frac{181{,}000}{243{,}000} = 0.745$$
+
+of the Series C and D figure in the same source. A vehicle with the same shell and three quarters of the gross mass cannot have had a better structural fraction unless its dry mass fell in proportion, and nothing in the record suggests it did, so the structural fraction used here is probably better than the X-11 achieved and the range figures correspondingly optimistic. That direction is an inference and not a measurement, and its size is unknown.
+
+**Every research work in the references is cited by name in a sentence of this article, and a work is admitted only when a person reading its title finds it on this article's subject.** The 341 research works are drawn from the report archives named above and from the journal literature. Two classes are excluded. The first is homonyms, and three of this subject's words name other things. Reentry also names a circuit in ventricular tachycardia, pressure buildup names a test of a petroleum well, and silo names a general storage structure with nothing to do with missile basing, so studies of each are excluded. The second is records that are parts of works or editorial events rather than works, meaning figure, table and supplementary-material records, peer-review reports and decision letters, erratum, correction and retraction notices, registry test deposits, and journal front matter such as covers, contents lists, reviewer lists and indexes.
 
 **The nearest calls are kept and the reason is stated.** The bridge, wind turbine and solar panel studies are cited for their identification and wind-load methods. The two studies of deterrence posture are kept because their sentence claims only that they analyse deterrence posture. Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement rather than a sample estimate.
 
 ## Epistemic State
 
-**Historical fact, well supported.** Eight Atlas A vehicles flew from Cape Canaveral between 11 June 1957 and 3 June 1958, three of them successfully by the flight-by-flight record and four by the usual summary count, from Launch Complexes 12 and 14, with apogees near 120 kilometres. The programme designation was WS 107A-1 and the design authority was Karel Bossart at Convair. The structure is pressure-stabilised 301 stainless steel between 0.014 and 0.037 inches thick. The vehicle requires about five pounds per square inch of nitrogen when unfuelled and collapses without it. The Atlas uses a one-and-a-half stage arrangement in which two booster engines and a skirt are jettisoned and the sustainer continues on the same tanks. The Navaho was cancelled on 12 July 1957, four weeks after the first Atlas A flight.
+**Historical fact, well supported.** Eight Atlas A vehicles flew from Cape Canaveral between 11 June 1957 and 3 June 1958, five from Launch Complex 14 and three from Launch Complex 12, the first two failing and the third and fourth succeeding by the Cape's launch history, and three succeeding in all by the official history. Missile 12A burned for two full minutes and flew some 600 miles downrange, and the official history gives the series' maximum range and altitude as 600 and 57.5 nautical miles, so the unit of the 12A figure is not settled. The Atlas A booster thrust was raised during the series from 270,000 to 300,000 pounds. The first flight tumbled and the structure held until the range safety officer destroyed it. The MX-774 study contract was awarded in April 1946 and cancelled in July 1947, and the MX-1593 contract was signed on 23 January 1951. The programme designation was WS 107A-1 and the design authority was Karel Bossart at Convair, who had already used nitrogen pressure in place of stiffeners on MX-774. The Atlas A flew without a sustainer engine. A later Atlas has pressure-stabilised tanks of 301 extra-full-hard stainless steel between 0.014 and 0.037 inches thick, regulated in flight at 57 to 60 pounds per square inch gauge in the fuel tank and 28.5 to 31 in the oxidizer tank. The operational Atlas uses a one-and-a-half stage arrangement in which two booster engines and a skirt are jettisoned and the sustainer continues on the same tanks. The Navaho was terminated by an Air Force Headquarters message of 12 July 1957, thirty-one days after the first Atlas A flight. The first Atlas B flew on 19 July 1958.
 
-**Reported but from compilations rather than programme documents.** The X-11 and X-12 designations for Atlas A and Atlas B, which no document found for this article actually uses. The masses used here, which are Atlas D figures rather than Atlas A figures, since Atlas A mass data was not found. The 282 second specific impulse and 133 second burn time. The flight-by-flight apogees and outcomes. The reported failure causes. The five pounds per square inch standing pressure, which is the article's single most quoted number and which rests on secondary compilation rather than on a specification.
+**Reported but from compilations rather than programme documents.** The X-11 and X-12 designations for Atlas A and Atlas B, which no document found for this article actually uses. The masses used here, which are Atlas D figures rather than Atlas A figures, since no Atlas A empty mass has been found. The 282 second specific impulse and the 133 second burn time, against the two full minutes the official history gives. The 341,128 pound booster thrust, which the official history's 270,000 to 300,000 pounds and the same compilation's narrative contradict. The flight apogees, which exceed the official series maximum of 57.5 nautical miles on four flights, and the individual outcomes of the last four flights. The failure causes beyond the two the launch history names. The party-balloon inspiration. The five pounds per square inch standing pressure, which is the article's single most quoted number and which rests on secondary compilation rather than on a specification.
 
-**The mass substitution is the largest weakness in the quantitative argument and its direction is known.** The Atlas A was an earlier and heavier article than the D, so the structural fraction used here is better than the fraction the X-11 achieved, and every range figure derived from it is correspondingly optimistic. What the substitution does not affect is the sensitivity, since the range table varies the structure about whatever baseline is chosen, and the two-stage comparison, which is a calculation about configurations rather than about this vehicle.
+**The mass substitution is the largest weakness in the quantitative argument and its direction is inferred.** The Atlas A was planned at 181,000 pounds against 243,000 for the later test series on the same shell, so the structural fraction used here is probably better than the fraction the X-11 achieved, and every range figure derived from it is correspondingly optimistic. What the substitution does not affect is the sensitivity, since the range table varies the structure about whatever baseline is chosen, and the two-stage comparison, which is a calculation about configurations rather than about this vehicle.
 
 **Engineering analysis, derived here and independently checkable.** The radius-to-thickness ratios and the drink-can comparison. The membrane stresses, the fixed hoop-to-axial ratio of two, and the demonstration that the light gauge cannot exist at full pressure. The acceleration head and its ratio to ullage pressure. The classical buckling stresses, the knocked-down allowables, and the sensitivity of every conclusion drawn from them to the choice of knockdown factor. The axial tension from standing pressure, the pressure required to offset buckling, and the finding that the reported five-pound specification is consistent only with a knockdown between about 0.15 and 0.4. The critical bending moment and its independence of thickness. Euler column buckling at 121 times the empty weight. The tank volume, propellant split, and nitrogen mass, giving a structure-to-gas ratio of 103. The common-bulkhead saving. The mass fractions, mass ratio, and ideal velocity. The loss calibration, the range sensitivity table, and the two-stage comparison showing a crossover near a nine percent structural fraction. The staging gain of 1044 metres per second. The thrust-to-weight, propellant flow, burn consumption, and axial load factor at cutoff. The maximum dynamic pressure, its occurrence at one scale height, and the aerodynamic bending moment. The acoustic power, sound pressure level, and pressure fluctuation. The slosh frequency. The skin thermal time constant. The Allen and Eggers peak deceleration and its independence of ballistic coefficient. The boil-off rate. The proof and burst factor chain. The tank figure of merit. The orbital comparison. The binomial standard error on the success rate and the demonstration that no trend is detectable across eight flights.
 
@@ -900,7 +934,7 @@ The contrast with the previous article is sharp and it is worth stating as a con
 
 **A qualification the article makes against itself.** The range table compares the Atlas against a heavier version of itself, which is not the comparison a designer in 1951 faced. Setting it against a conventional two-stage vehicle instead puts the crossover near a nine percent structural fraction, which is inside the range conventional stages of the period achieved. **The balloon tank therefore made a single-and-a-half-stage vehicle competitive with a two-stage one rather than making an intercontinental missile possible at all**, and the article says so in its own section rather than leaving the stronger claim standing.
 
-**Assumptions made explicit.** A flight tank pressure of 60 pounds per square inch, which is representative rather than sourced and which every membrane stress in the article scales with directly. Material properties for 301 extra-full-hard stainless steel of 965 megapascals yield, 1276 ultimate, and 193 gigapascals modulus. A knockdown factor of 0.2, whose effect on every conclusion drawn from it is tabulated in its own section rather than buried. A tank length of 18 metres and a steel density of 8000 kilogrammes per cubic metre. Ten metres of liquid oxygen head at six times gravity. A mixture ratio of 2.25 with propellant densities of 1141 and 800. A jettisoned booster package of three tonnes. A drag coefficient of 1.2 and a uniform wind profile for the standing case. A convective coefficient of 200 watts per square metre kelvin for the skin and 10 for the tank, a specific heat of 500, and a latent heat of 213 kilojoules per kilogramme. An acoustic conversion efficiency of half of one percent. A normal-force slope of two per radian and three degrees of incidence at maximum dynamic pressure. A scale height of 7200 metres and a net acceleration of three metres per second squared for the dynamic-pressure derivation. An entry speed of seven kilometres per second at thirty degrees for the reentry result. Equal propellant split and equal structural fraction per stage for the two-stage comparison. And the gravity and drag loss of 1337 metres per second, which is calibrated rather than derived and which fixes the first row of the range table by construction.
+**Assumptions made explicit.** A flight tank pressure of 60 pounds per square inch, the top of the fuel-tank regulation band recorded for a later Atlas, applied to the heavy gauge, while the oxidizer tank of that Atlas ran at about half, and every membrane stress in the article scales with it directly. Material properties for 301 extra-full-hard stainless steel of 965 megapascals yield, 1276 ultimate, and 193 gigapascals modulus. A knockdown factor of 0.2, whose effect on every conclusion drawn from it is tabulated in its own section rather than buried. A tank length of 18 metres, which the tank stations of a later Atlas show to be about thirteen percent long, and a steel density of 8000 kilogrammes per cubic metre. Ten metres of liquid oxygen head at six times gravity. A mixture ratio of 2.25 with propellant densities of 1141 and 800. A jettisoned booster package of three tonnes. A drag coefficient of 1.2 and a uniform wind profile for the standing case. A convective coefficient of 200 watts per square metre kelvin for the skin and 10 for the tank, a specific heat of 500, and a latent heat of 213 kilojoules per kilogramme. An acoustic conversion efficiency of half of one percent. A normal-force slope of two per radian and three degrees of incidence at maximum dynamic pressure. A scale height of 7200 metres and a net acceleration of three metres per second squared for the dynamic-pressure derivation. An entry speed of seven kilometres per second at thirty degrees for the reentry result. A tumble rate of one revolution per second for the first flight. Equal propellant split and equal structural fraction per stage for the two-stage comparison. And the gravity and drag loss of 1337 metres per second, which is calibrated rather than derived and which fixes the first row of the range table by construction.
 
 **Where the assumptions matter most.** The flight pressure and the knockdown factor carry more of the article than any other input. Every hoop stress, every margin, and the burst chain move linearly with the first, and the compressive allowable, the pressure-to-offset-buckling figure, and the sixty-seven-fold asymmetry all move with the second. The article tabulates the second and does not tabulate the first, which is an asymmetry in the treatment rather than in the physics, and a reader who doubts the sixty-pound figure should scale the membrane results accordingly.
 
@@ -920,7 +954,7 @@ The article's own scrutiny qualifies that. Set against a conventional two-stage 
 
 What remains true after all the qualification is the shape of the problem rather than the size of the answer. **A weapon specified by range is specified by a logarithm**, and a logarithm rewards nothing except mass ratio. Every distinctive feature of this vehicle follows from that and from nothing else. The tank is thin because the logarithm punishes thickness. The tank is pressurised because a thin tank in compression buckles at less than a twenty-fifth of the stress it can carry in tension. The engines are dropped and the tanks are not because the logarithm cares about burnout mass and an altitude ignition was not trusted. The vehicle cannot stand up because none of those decisions left anything over for standing up.
 
-There is a second result and it belongs to the series rather than to the vehicle. **The X-10 could not test its keystone in twenty-eight minutes and the X-11 tested its keystone completely in two**, and the difference is that a structural load is applied in full early and a drift rate accumulates. The two vehicles are separated by one designation and four weeks, they were built by rival contractors for the same mission, and the reason one testbed worked and the other did not has nothing to do with either company. It is a property of the quantity being measured, and it is the sort of thing that only becomes visible when the vehicles are read in order.
+There is a second result and it belongs to the series rather than to the vehicle. **The X-10 could not test its keystone in twenty-eight minutes and the X-11 tested its keystone completely in two**, and the difference is that a structural load is applied in full early and a drift rate accumulates. The two vehicles are separated by one designation, the first Atlas A flew thirty-one days before the Navaho was terminated, they were built by rival contractors for the same mission, and the reason one testbed worked and the other did not has nothing to do with either company. It is a property of the quantity being measured, and it is the sort of thing that only becomes visible when the vehicles are read in order.
 
 The last thing worth saying is about the tank itself, which has outlived every argument made about it here. Bossart's shell is still flying, on Centaur, on the stage that has the strongest possible reason to care about mass and the weakest possible reason to care about being set down empty in a hangar. **An idea that was adopted because a weapon needed range, abandoned because a launcher needed convenience, and retained where neither consideration applies has been tested about as thoroughly as an engineering idea can be.** It turns out to be right in exactly the conditions the arithmetic above says it should be right in, which is not something one can say of many designs that are seventy years old.
 
@@ -932,6 +966,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Brush and Almroth 1975 Buckling of Bars, Plates and Shells][book_brush_almroth_1975]
 - [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
+- [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990]
 - [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
 - [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
 - [Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961]
@@ -941,6 +976,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [book_brush_almroth_1975]: https://openlibrary.org/works/OL7005707W
 [book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
 [book_miller_2001]: https://openlibrary.org/works/OL7006680W
+[book_neufeld_1990]: https://openlibrary.org/works/OL4810126W
 [book_neufeld_1995]: https://openlibrary.org/works/OL3501503W
 [book_sutton_biblarz_2016]: https://openlibrary.org/works/OL21470530W
 [book_timoshenko_gere_1961]: https://openlibrary.org/works/OL19820477W
@@ -949,11 +985,15 @@ The last thing worth saying is about the tank itself, which has outlived every a
 ### Reference
 
 - [balloon tank][ref_balloon_tank]
+- [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991]
 - [Convair X-11][ref_x11]
+- [SM-65 Atlas][ref_sm65]
 - [X-12][ref_series_close]
 
 [ref_balloon_tank]: https://en.wikipedia.org/wiki/Balloon_tank
+[ref_cleary_1991]: https://spp.fas.org/military/program/6555th/6555toc.htm
 [ref_series_close]: https://en.wikipedia.org/wiki/SM-65B_Atlas
+[ref_sm65]: https://en.wikipedia.org/wiki/SM-65_Atlas
 [ref_x11]: https://en.wikipedia.org/wiki/SM-65A_Atlas
 
 ### Related Post
@@ -1037,6 +1077,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Dafler 1962][research_dafler_1962]
 - [Dalle et al 2024][research_dalle_2024]
 - [Das and Padmanabhan 2022][research_das_padmanabhan_2022]
+- [Dawson and Bowles 2004][research_dawson_bowles_2004]
 - [General Dynamics/Astronautics San Diegoca 1961][research_diegoca_1961]
 - [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965]
 - [Ding et al 2025][research_ding_2025]
@@ -1121,6 +1162,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 - [Lei et al 2025][research_lei_2025]
 - [Leng et al 2026][research_leng_2026]
 - [Lenihan 1962][research_lenihan_1962]
+- [Lewis Research Center 1968][research_lewis_1968]
 - [Li et al 2024, Adaptive Sequential Convex Program][research_li_2024_3]
 - [Li et al 2025, Reliability design and management][research_li_2025_2]
 - [Li et al 2026][research_li_2026]
@@ -1377,6 +1419,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [research_dafler_1962]: https://doi.org/10.1119/1.1941784
 [research_dalle_2024]: https://doi.org/10.2514/1.a35809
 [research_das_padmanabhan_2022]: https://doi.org/10.1016/j.jppr.2022.07.003
+[research_dawson_bowles_2004]: https://ntrs.nasa.gov/citations/20040084080
 [research_diegoca_1961]: https://doi.org/10.21236/ad0843112
 [research_digiovanii_dugundji_1965]: https://doi.org/10.21236/ad0617269
 [research_ding_2025]: https://doi.org/10.1016/j.ijpvp.2025.105563
@@ -1461,6 +1504,7 @@ The last thing worth saying is about the tank itself, which has outlived every a
 [research_lei_2025]: https://doi.org/10.1134/s0869864324060222
 [research_leng_2026]: https://doi.org/10.1016/j.ijhydene.2025.152583
 [research_lenihan_1962]: https://doi.org/10.1088/0031-9112/13/10/007
+[research_lewis_1968]: https://ntrs.nasa.gov/citations/19690000964
 [research_li_2024_3]: https://doi.org/10.1109/taes.2024.3440281
 [research_li_2025_2]: https://doi.org/10.1088/3050-2454/ae0b71
 [research_li_2026]: https://doi.org/10.1109/access.2026.3667479

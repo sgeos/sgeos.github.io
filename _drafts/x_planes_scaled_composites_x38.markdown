@@ -237,7 +237,11 @@ motion carries **9.0 times** the energy of the descent.
 **The flare is therefore never limited by energy.** It is limited by how quickly the canopy can convert that
 energy into lift before it stalls, which is a question about the canopy and not about the arithmetic.
 Converting only five percent of what is available takes the sink rate from 5.56 to
-**4.12 metres per second**.
+**4.12 metres per second**. If the canopy turns a fraction $\eta$ of the forward energy into arrested
+descent, then since the forward energy is $(L/D)^{2}$ times the vertical, the vertical energy falls to
+$1 - \eta (L/D)^{2}$ of its value, and with the unrounded sink rate of 5.559 metres per second
+
+$$V_{\text{vertical}}' = V_{\text{vertical}} \sqrt{1 - \eta \, (L/D)^{2}} = 5.559 \sqrt{1 - 0.05 \times 9} = 4.12 \text{ metres per second}.$$
 
 - [A two camera video imaging system with application to...][research_meynlarrya_bennettmarks_1991]
 - [Further development and flight test of an autonomous...][research_murrayjamese_simalexg_1994]
@@ -257,11 +261,18 @@ $$\bar{a} = \frac{V_{\text{vertical}}^{2}}{2 s}.$$
 | 60 centimetres | 2.63 g |
 | 100 centimetres | 1.58 g |
 
-After a flare to 4.12 metres per second the same thirty centimetres gives **2.89 g**.
+After a flare to 4.12 metres per second the same thirty centimetres gives **2.89 g**,
+
+$$\frac{\bar{a}}{g_{0}} = \frac{(4.122 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 2.89,$$
+
+where $g_{0}$ is standard gravity and 4.122 metres per second is the unrounded flared sink rate.
 
 **The runway case is not this calculation and the difference matters.** A runway landing is a rollout over
 hundreds of metres rather than an impact, which is exactly why it needs a runway. Arresting ninety metres
-per second in thirty centimetres would be **1,376.6 g**, which is not a landing but a crash.
+per second in thirty centimetres would be **1,376.6 g**, which is not a landing but a crash,
+
+$$\frac{\bar{a}}{g_{0}} = \frac{(90 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 1{,}376.6.$$
+
 **The parafoil converts a distance problem into a stroke problem**, and a stroke of half a metre is
 something a seat and a crushable structure can provide while a runway is something a nation must build.
 
@@ -277,8 +288,16 @@ something a seat and a crushable structure can provide while a runway is somethi
 ### Why the Canopy Had to Be the Largest Ever Flown
 
 The canopy carries a [wing loading][ref_wing_loading] of **159.6 newtons per square metre**, which is
-**16.27 kilograms per square metre**. A sport parachute carries about **4.0**, so this canopy is loaded
-**4.07 times** as heavily as one built for a single person.
+**16.27 kilograms per square metre** or **3.33 pounds per square foot**,
+
+$$\frac{W}{S} = \frac{11{,}340 \times 9.80665}{696.8} = 159.6 \ \text{N/m}^{2}, \qquad \frac{m}{S} = \frac{11{,}340}{696.8} = 16.27 \ \text{kg/m}^{2}, \qquad \frac{25{,}000 \ \text{lb}}{7{,}500 \ \text{ft}^{2}} = 3.33 \ \text{lb/ft}^{2}.$$
+
+Most student skydivers start between 0.7 and 0.9 pounds per square foot, and experienced jumpers fly between
+1.1 and 1.8 \[[Wingload Calculator, Skydive Perris][ref_perris_wingload]\]. So this canopy is loaded
+**3.7 to 4.8 times** as heavily as a student's and **1.9 to 3.0 times** as heavily as an experienced
+jumper's,
+
+$$\frac{3.333}{0.9} = 3.70, \quad \frac{3.333}{0.7} = 4.76, \qquad \frac{3.333}{1.8} = 1.85, \quad \frac{3.333}{1.1} = 3.03.$$
 
 **The area follows from the sink rate the designer will accept, and it follows steeply.** Inverting the
 glide relation for area,
@@ -326,7 +345,11 @@ canopy actually gives, so that the seven-crew row reproduces the flown area by c
 | 7 | 11,340 kilograms | 696.8 square metres | 100.0 percent |
 
 **A single-seat version would still have needed 58.6 percent of the canopy**, because the airframe, the heat
-shield, the avionics and the deorbit stage do not shrink with the crew.
+shield, the avionics and the deorbit stage do not shrink with the crew. At a fixed sink rate the area
+relation makes area proportional to mass, so
+
+$$\frac{S(1)}{S(7)} = \frac{m(1)}{m(7)} = \frac{6{,}645}{11{,}340} = 0.586.$$
+
 **Six of the seven seats cost about forty percent of the canopy area**, and the fixed overhead costs the
 rest.
 
@@ -377,7 +400,11 @@ $$S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.$$
 | 32 metres per second | 322.4 square metres |
 
 **The drogue is itself a very large parachute**, at 452.8 square metres or **65.0 percent** of the main
-canopy. **The descent system is therefore two large decelerators in sequence rather than one**, and the
+canopy,
+
+$$\frac{S_{d}}{S} = \frac{452.8}{696.8} = 0.650.$$
+
+**The descent system is therefore two large decelerators in sequence rather than one**, and the
 second cannot be opened until the first has done its work.
 
 - [Fluid-Structure Interaction Simulations Of Supersonic...][research_francoiscadieux_michaelfbarad]
@@ -709,10 +736,33 @@ $$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} 
 | Quantity | X-24A | X-38 Crew Return Vehicle | Ratio |
 |---|---|---|---|
 | Length | 7.315 metres | 9.14 metres | 1.249 |
-| Launch mass | 5,192 kilograms | 11,340 kilograms | 2.184 |
+| Launch mass | 5,443 kilograms | 11,340 kilograms | 2.083 |
 
-**Mass scales as length to the 3.507 against 3 for geometric similarity.** A geometrically similar X-24A
-grown to 9.14 metres would mass **10,128 kilograms**, and the X-38 masses 11,340, **a factor of 1.120**.
+**The inputs are sourced as follows.** The X-24A is approximately 24 feet long, 7.315 metres
+\[[Pilot safety for the X-24A lifting body vehicle][ref_cochrane_graham_1971]\]. The programme's history
+gives approximately 12,000 pounds at launch, 5,443 kilograms \[[Wingless flight][book_rdalereed_1997]\],
+and that is the launch mass in the table. No source consulted states the launch weight more precisely. The
+Crew Return Vehicle is 30 feet long with a gross weight of 25,000 pounds, which are 9.14 metres and
+11,340 kilograms \[[NASA X-38][ref_x38]\].
+
+**Mass scales as length to the 3.295 against 3 for geometric similarity.** A geometrically similar X-24A
+grown to 9.14 metres would mass **10,618 kilograms**, and the X-38 masses 11,340, **a factor of 1.068**,
+
+$$n = \frac{\ln (11{,}340 / 5{,}443)}{\ln (9.14 / 7.315)} = \frac{\ln 2.0834}{\ln 1.2495} = 3.295, \qquad
+m_{\text{similar}} = 5{,}443 \times 1.2495^{3} = 10{,}618 \ \text{kg}, \qquad \frac{11{,}340}{10{,}618} = 1.068.$$
+
+**The exponent stays above 3 across the uncertainty in both inputs.** The vehicle's builder gives
+approximately 5,500 pounds empty with tankage for approximately 5,500 pounds of propellants and gases
+\[[Pilot safety for the X-24A lifting body vehicle][ref_cochrane_graham_1971]\], about 11,000 pounds or
+4,990 kilograms. A NASA study of lifting-body lift and drag tabulates the X-24A as 24.50 feet long, 7.468
+metres \[[In-Flight Subsonic Lift and Drag Characteristics Unique to Blunt-Based Lifting Reentry Vehicles][research_saltzmanedwinj_wangkcharles_2007]\].
+Taking each in turn,
+
+$$n_{11{,}000\ \text{lb}} = \frac{\ln (11{,}340 / 4{,}990)}{\ln 1.2495} = 3.69, \qquad
+n_{24.5\ \text{ft}} = \frac{\ln 2.0834}{\ln (9.14 / 7.468)} = 3.63,$$
+
+and both exceed 3. **The margin over geometric similarity is therefore real but modest**, and its size
+rests on approximate figures for a vehicle whose launch weight no source gives exactly.
 
 **The shape was inherited and the mission was not.** The X-24A carried one pilot and a rocket engine. The
 X-38 carries seven people, life support, a thermal protection system and a deorbit stage, and the mass grew
@@ -721,7 +771,7 @@ faster than the geometry because the payload grew faster than the airframe.
 **This is the opposite sign from the previous article and the pair is worth keeping.** The
 [X-37][related_post_a334_boeing_x37] shrank from the Shuttle orbiter with mass falling as length to the
 **1.924**, more slowly than volume, because a small reusable vehicle keeps its fixed overhead. The X-38 grew
-from the X-24A with mass rising as length to the **3.507**, faster than volume, because the mission grew
+from the X-24A with mass rising as length to the **3.295**, faster than volume, because the mission grew
 faster than the machine.
 **Neither pair is geometrically similar and the reasons are different, which is a warning against reading a scaling exponent as a property of the technology.**
 
@@ -754,15 +804,28 @@ members of it were built for the same job.
 | V-201 | The orbital vehicle | **90 percent complete, never flown** |
 
 The drop tests released the vehicle from the wing pylon of a [B-52][ref_b52] at altitudes between 7,600 and
-13,700 metres over the lakebed at what is now the [Armstrong Flight Research Center][ref_dryden]. In March
-2000 V-132 was released at 11,900 metres, flew freely for 45 seconds and exceeded 800 kilometres per hour
-before deploying its parachutes.
+13,700 metres, being 25,000 and 45,000 feet, over the lakebed at what is now the
+[Armstrong Flight Research Center][ref_dryden] \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
+In March 2000 V-132 was released at 11,900 metres, being 39,000 feet, and exceeded 800 kilometres per hour,
+being 500 miles per hour, before deploying its parachutes. The Dryden news release gives its free flight as
+44 seconds and the centre's photograph caption as 45
+\[[NASA's X-38 crew rescue craft tests road to Earth][ref_dryden_release_2000]\]
+\[[X-38 Arrival at NASA Dryden on June 4, 1997][ref_dvids_x38_arrival]\]. V-201 was 90 percent complete
+when the project's cancellation was announced on 29 April 2002 \[[NASA X-38][ref_x38]\].
 **The vehicles were dropped, they flew a short unpowered profile, and then the decelerator system took over.**
 
 ### What the Drop Tests Could and Could Not Show
 
-The atmospheric vehicles are **81.7 percent** of the orbital vehicle by length and ran between 6,804 and
-10,886 kilograms against its 11,340.
+The atmospheric vehicles are **81.7 percent** of the orbital vehicle by length, being 24.5 feet long
+\[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\] against 30,
+
+$$\frac{\ell_{\text{atmospheric}}}{\ell_{\text{orbital}}} = \frac{24.5 \ \text{ft}}{30 \ \text{ft}} = 0.817,$$
+
+and they flew at between 15,000 and 24,000 pounds, which are 6,804 and 10,886 kilograms, against its 11,340
+\[[NASA X-38][ref_x38]\]. The 24,000 pound maximum is the encyclopaedia's figure. The NASA account gives
+only that vehicle weights range from 15,000 pounds to about 25,000 pounds, in a passage that introduces the
+orbital V-201 immediately after, so it does not separate the drop-test vehicles from the orbital one
+\[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
 **Under the same canopy that is a very small difference in the quantity that matters.**
 
 | Mass under the full canopy | Sink rate |
@@ -2632,8 +2695,8 @@ The programme began at the Johnson Space Center in 1995 to demonstrate technolog
 for the International Space Station. The aerodynamic shape was taken from the Martin Marietta X-24A. Scaled
 Composites built the atmospheric test airframes, and the European Space Agency and the German Aerospace Center contributed to the
 orbital vehicle. Three atmospheric vehicles flew, being V-131, V-132 and V-131R, dropped from a B-52 at
-altitudes up to about 13,700 metres. In March 2000 V-132 flew freely for 45 seconds after release at 11,900
-metres and exceeded 800 kilometres per hour. The descent system used a 7,500 square foot ram-air parafoil,
+altitudes up to about 13,700 metres. In March 2000 V-132 flew freely for 44 or 45 seconds, by the two NASA
+accounts, after release at 11,900 metres and exceeded 800 kilometres per hour. The descent system used a 7,500 square foot ram-air parafoil,
 which was the largest ever flown, deployed in five reefed stages. The orbital vehicle V-201 reached about 90
 percent completion and never flew. The vehicle was designed for seven crew. The programme was cancelled on
 29 April 2002.
@@ -2936,24 +2999,32 @@ distinct reason for a thin record and a different one again from the five the pr
 - [NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]
 - [NASA B-52 mothership][ref_b52]
 - [NASA X-38][ref_x38]
+- [NASA's X-38 crew rescue craft tests road to Earth][ref_dryden_release_2000]
 - [Parachute][ref_reefing]
+- [Pilot safety for the X-24A lifting body vehicle][ref_cochrane_graham_1971]
 - [Ram-air parachute][ref_parafoil]
 - [Scaled Composites][ref_scaled]
 - [Soyuz spacecraft][ref_soyuz]
 - [Wing loading][ref_wing_loading]
+- [Wingload Calculator, Skydive Perris][ref_perris_wingload]
+- [X-38 Arrival at NASA Dryden on June 4, 1997][ref_dvids_x38_arrival]
 
 [ref_airdrop]: https://en.wikipedia.org/wiki/Airdrop
 [ref_allen_eggers]: https://en.wikipedia.org/wiki/Atmospheric_entry
 [ref_b52]: https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress
+[ref_cochrane_graham_1971]: https://ntrs.nasa.gov/citations/19720018319
 [ref_deconditioning]: https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body
 [ref_dlr]: https://en.wikipedia.org/wiki/German_Aerospace_Center
 [ref_dryden]: https://en.wikipedia.org/wiki/Armstrong_Flight_Research_Center
+[ref_dryden_release_2000]: https://spaceflightnow.com/news/0003/31x38flighttest/
+[ref_dvids_x38_arrival]: https://www.dvidshub.net/image/679691/x-38-arrival-nasa-dryden-june-4-1997
 [ref_esa]: https://en.wikipedia.org/wiki/European_Space_Agency
 [ref_iss]: https://en.wikipedia.org/wiki/International_Space_Station
 [ref_jsc]: https://en.wikipedia.org/wiki/Johnson_Space_Center
 [ref_lifting_body]: https://en.wikipedia.org/wiki/Lifting_body
 [ref_nasa_x38]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-38-prototype/
 [ref_parafoil]: https://en.wikipedia.org/wiki/Ram-air_parachute
+[ref_perris_wingload]: https://skydiveperris.com/wingload-calculator/
 [ref_reefing]: https://en.wikipedia.org/wiki/Parachute
 [ref_scaled]: https://en.wikipedia.org/wiki/Scaled_Composites
 [ref_soyuz]: https://en.wikipedia.org/wiki/Soyuz_(spacecraft)

@@ -108,9 +108,24 @@ $$
 = 4.232\ \text{square metres}
 $$
 
-**A body of revolution with that cross-section is 2.32 metres across.** The aeroplane is ninety-nine feet long and under thirty feet in span, and a photograph of it shows a fuselage plainly slimmer than that. **The aeroplane's own volume is a minority contributor to its own signature. Its weight is the majority**, and this article states that as its own inference from the relation above rather than as anything a source says.
+**A body of revolution with that cross-section is 2.32 metres across**, since a circle of area $A$ has diameter $2\sqrt{A/\pi}$.
 
-**And the trade with altitude runs the wrong way.** The lift term is inversely proportional to the dynamic pressure, so climbing to reduce the boom by lengthening the propagation path simultaneously increases the equivalent area the lift contributes. At 55,000 feet the dynamic pressure is 12,512 pascals and at forty thousand feet it is 25,730, so **the lift-induced equivalent area is 2.06 times larger at the higher altitude**, being 4.232 square metres against 2.058. **Altitude is not a free variable in this problem and the two effects it has are opposed.**
+$$
+d_e = 2 \sqrt{ \frac{\beta\,W}{2q\,\pi} } = 2 \sqrt{ \frac{ 4.232 }{\pi} }
+= 2.32\ \text{metres}
+$$
+
+The aeroplane is ninety-nine feet long and under thirty feet in span, and a photograph of it shows a fuselage plainly slimmer than that. **The aeroplane's own volume is a minority contributor to its own signature. Its weight is the majority**, and this article states that as its own inference from the relation above rather than as anything a source says.
+
+**And the trade with altitude runs the wrong way.** The lift term is inversely proportional to the dynamic pressure, so climbing to reduce the boom by lengthening the propagation path simultaneously increases the equivalent area the lift contributes. At 55,000 feet the dynamic pressure is 12,512 pascals and at forty thousand feet it is 25,730, so **the lift-induced equivalent area is 2.06 times larger at the higher altitude**, being 4.232 square metres against 2.058. The weight and the Mach number factor cancel from the ratio, which is therefore the ratio of the two dynamic pressures.
+
+$$
+\frac{ 4.232 }{ 2.058 }
+= \frac{ 25,730 }{ 12,512 }
+= 2.06
+$$
+
+**Altitude is not a free variable in this problem and the two effects it has are opposed.**
 
 The same equivalent area governs the wave drag through von Karman's double integral \[[Kuchemann, The aerodynamic design of aircraft][book_kuchemann]\] \[[Area rule][ref_area_rule]\].
 
@@ -254,7 +269,15 @@ y_c = 29.6\ \text{km}
 2 y_c = 59.2\ \text{km}
 $$
 
-**A ray tracer is credible only where it reproduces a known result, and this one can be tested.** The rule of thumb in this literature is roughly one statute mile of boom carpet for every thousand feet of altitude, quoted for the Mach 2 transports the subject grew up around. **The same tracer run at Mach 2 from the same altitude gives 85 kilometres against the rule's 88.5**, which is short of it by 3.9 percent. **That agreement is the evidence for believing the Mach 1.4 answer**, and it also explains it, because the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one from the same height. **Flying slower narrows the carpet as well as quietening it.**
+**A ray tracer is credible only where it reproduces a known result, and this one can be tested.** The rule of thumb in this literature is roughly one statute mile of boom carpet for every thousand feet of altitude, quoted for the Mach 2 transports the subject grew up around. **The same tracer run at Mach 2 from the same altitude gives 85 kilometres against the rule's 88.5**, which is short of it by 3.9 percent. **That agreement is the evidence for believing the Mach 1.4 answer**, and it also explains it, because the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one from the same height. Carried to two decimals, the Mach 2 carpet is 85.03 kilometres, the Mach 1.4 carpet is 59.17 and the rule gives 55 statute miles from 55,000 feet.
+
+$$
+1 - \frac{85.03}{55 \times 1.609344} = 1 - \frac{85.03}{88.51} = 3.9\%
+\qquad\qquad
+\frac{59.17}{85.03} = 69.6\%
+$$
+
+**Flying slower narrows the carpet as well as quietening it.**
 
 **And the boom does not arrive underneath the aeroplane.** The straight-down ray lands 19.29 kilometres behind, so a person hearing the thump is hearing an aeroplane that passed overhead some seconds earlier and is already well down the track.
 
@@ -440,11 +463,27 @@ $$
 1 - 10^{-30/20} = 96.8\%
 $$
 
+The range follows from the same scale, since the ratio of two loudnesses depends only on the difference of their perceived levels.
+
+$$
+1 - \frac{S(75)}{S(PL)} = 1 - 2^{(75 - PL)/32}
+\qquad\Longrightarrow\qquad
+1 - 2^{-27/32} = 1 - 0.55719 = 44.3\%,
+\qquad
+1 - 2^{-35/32} = 1 - 0.46854 = 53.1\%
+$$
+
 #### Where the Ninety Percent Comes From
 
 The overpressures are 2 pounds per square foot against 0.3 pounds per square foot, and one minus that ratio is 85 percent. **That is the origin of the widely quoted figure, and it is a pressure ratio being reported as a reduction in loudness.**
 
-**The two are not interchangeable and the difference is not small.** In pressure the reduction is 96.8 percent. In acoustic energy it is 99.9 percent. In perceived loudness, which is the quantity the target is stated in and the quantity a person underneath actually experiences, it is 47.8 percent. **Three defensible answers spanning fifty percentage points, and the one most often published is not any of them.**
+**The two are not interchangeable and the difference is not small.** In pressure the reduction is 96.8 percent. In acoustic energy it is 99.9 percent. In perceived loudness, which is the quantity the target is stated in and the quantity a person underneath actually experiences, it is 47.8 percent. **Three defensible answers spanning fifty percentage points, and the one most often published is not any of them.** The overpressure ratio and the energy ratio evaluate as follows, the second being the square of the thirty decibel pressure ratio.
+
+$$
+1 - \frac{ 0.3 }{ 2 } = 85\%
+\qquad\qquad
+1 - 10^{-30/10} = 99.9\%
+$$
 
 This article does not claim the programme has overstated its case. **It claims that a figure quoted without its unit is not a claim at all**, and that the difference between halving a loudness and removing ninety-seven percent of a pressure is exactly the difference the Mark VII scale exists to express.
 
@@ -488,13 +527,30 @@ $$
 
 NASA's public description gives the length as 99.7 feet \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\] and the project's own technical overview gives 99 \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. **Lockheed Martin's own product card gives an overall length of 93.83 feet** \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\].
 
-**The three span 5.87 feet, which is 5.9 percent**, and they give slendernesses of 3.18, 3.36 and 3.38. **The aeroplane is the most slender of the comparison set on any of the three**, so the finding above does not turn on which is used, and the table was computed from the project overview's figure.
+**The three span 5.87 feet, which is 5.9 percent**, and against the card's wingspan of 29 feet 6 inches \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\] they give slendernesses of 3.18, 3.36 and 3.38.
+
+$$
+\Delta\ell = 99.7 - 93.83 = 5.87\ \text{feet}
+= 5.9\%\ \text{of}\ 99.7
+\qquad\qquad
+\Lambda = \frac{\ell}{b} = \frac{ 93.83 }{29.5},\ \frac{ 99 }{29.5},\ \frac{ 99.7 }{29.5}
+= 3.18,\ 3.36,\ 3.38
+$$
+
+**The aeroplane is the most slender of the comparison set on any of the three**, so the finding above does not turn on which is used, and the table was computed from the project overview's figure.
 
 **The builder's card carries a copyright date of 2019 and the project overview was presented in 2023**, so the simplest reading is that the aeroplane grew during detail design. **That is this article's inference and no source states it**, and the alternative reading, that the three figures measure to different points on the airframe, is equally consistent with what is published.
 
 #### The Card's Own Weights Do Not Sum to Its Own Total
 
 The same card gives an empty weight of 15,000 pounds, fuel of 8,000 and payload of 600, against a maximum design gross weight of 24,300 \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\]. **Those three sum to 23,600, which is 700 pounds short, or 2.9 percent.**
+
+$$
+\underbrace{ 15,000 }_{\text{empty}} + \underbrace{ 8,000 }_{\text{fuel}} + \underbrace{ 600 }_{\text{payload}}
+= 23,600\ \text{pounds}
+\qquad\qquad
+\frac{ 24,300 - 23,600 }{ 24,300 } = \frac{ 700 }{ 24,300 } = 2.9\%
+$$
 
 **The difference is small and its cause is not stated.** A gross weight commonly carries a margin, and a card of this kind is not an engineering document. **It is recorded because this article's equivalent-area result is computed from the gross weight**, and a reader who prefers to add the parts would get an answer 2.9 percent smaller.
 
@@ -561,7 +617,14 @@ The form is the ordinary one and only the grouping is this article's \[[Range (a
 
 **For scale and for nothing else**, a lift-to-drag ratio of 6 and a specific fuel consumption of 1.8 pounds an hour a pound of thrust, neither of which is published and both of which are this article's assumptions, would give a still-air range of about 1,979 kilometres and an endurance of about 79.9 minutes. **Those figures are an illustration of magnitude and are not a result.** A mission radius is a different and much smaller quantity, since it must include a climb, an acceleration, a reserve and a return.
 
-The thrust side can be bounded rather than illustrated. The density at the cruise altitude is 12 percent of the sea-level value.
+The thrust side can be bounded rather than illustrated. The density at the cruise altitude is 12 percent of the sea-level value, and with $n = 1$ the lapse relation above gives the bound directly.
+
+$$
+\frac{\rho}{\rho_0} = \frac{ 0.14664 }{1.225} = 0.1197
+\qquad\Longrightarrow\qquad
+F_N = F_{N0}\, \frac{\rho}{\rho_0} = 22,000 \times \frac{ 0.14664 }{1.225}
+= 2,634\ \text{pounds}
+$$
 
 **With an exponent of one the engine retains 12 percent of its sea-level thrust at the cruise density**, which against the published 22,000 pounds of sea-level thrust is 2,634 pounds \[[General Electric F414][ref_f414]\]. **That is an indicative bound and not an installed figure.** A real installation at Mach 1.4 recovers a great deal through ram compression, so the true installed thrust is higher, and the exponent for this installation is not published either.
 
@@ -613,6 +676,7 @@ The thrust side can be bounded rather than illustrated. The density at the cruis
 | $\Delta p$ | the peak overpressure of the pressure signature |
 | $\Delta p_g$ | the overpressure at the ground after reflection |
 | $\Delta p_i$ | the overpressure incident on the ground before reflection |
+| $\Delta\ell$ | the spread between the longest and shortest published overall lengths |
 | $\Lambda$ | the slenderness ratio, overall length divided by span |
 | $\Omega$ | the volume of the equivalent body of revolution |
 | $\Pi$ | the acoustic energy per unit length of a cylinder of radius $r$ |
@@ -645,6 +709,7 @@ The thrust side can be bounded rather than illustrated. The density at the cruis
 | $c_p$ | the specific heat of air at constant pressure |
 | $c_t$ | the thrust specific fuel consumption |
 | $c_v$ | the specific heat of air at constant volume |
+| $d_e$ | the diameter of a circle whose area is the lift-induced equivalent area |
 | $f$ | frequency |
 | $f_c$ | the corner frequency above which a shock's spectrum steepens |
 | $g$ | standard gravitational acceleration |
@@ -694,7 +759,13 @@ A nose long enough to shape a shock is a nose the pilot cannot see past. **The X
 
 ## The Flight Test Record, At the Editorial Date It Had Flown Once
 
-The X-59 first flew on 28 October 2025, taking off from Lockheed Martin's Palmdale facility and landing at NASA Armstrong at Edwards \[[X-59 First Flight][ref_nasa_first_flight]\]. **The flight lasted 67 minutes, reached about 12,000 feet and about 230 miles an hour, and the landing gear stayed down throughout.**
+The X-59 first flew on 28 October 2025, taking off from Lockheed Martin's Palmdale facility and landing at NASA Armstrong at Edwards \[[X-59 First Flight][ref_nasa_first_flight]\]. **The flight lasted 67 minutes, reached about 12,000 feet and about 230 miles an hour, and the landing gear stayed down throughout** \[[X-59 First Flight][ref_nasa_first_flight]\]. Against the published design cruise of 925 miles an hour at 55,000 feet \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\], the two fractions are the following.
+
+$$
+\frac{ 230\ \text{mph} }{ 925\ \text{mph} } = 24.9\%
+\qquad\qquad
+\frac{ 12,000\ \text{ft} }{ 55,000\ \text{ft} } = 21.8\%
+$$
 
 **That is 24.9 percent of the design cruise speed, at 21.8 percent of the design cruise altitude, with the gear extended.** As of this article's date, 37 days later, **the aeroplane had made 1 flight and had never been supersonic.**
 
@@ -714,7 +785,7 @@ NASA's contract announcement stated that work ran through 31 December 2021, that
 
 **The predictions are on record.** The programme states a design cruise of Mach 1.4 at 55,000 feet, published speeds of 925 and 940 miles an hour, and a target of 75 perceived level decibels \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. The widely quoted ground overpressure is 0.3 pounds per square foot, a figure whose basis the sources consulted do not state. **This article adds predictions of its own from the standard atmosphere**, a cutoff Mach number of 1.153, a boom carpet 59.2 kilometres wide and a boom arriving 19.29 kilometres behind the aeroplane, all argued in the part of this article headed Sizing From First Principles.
 
-**What flight returned lies outside every one of those predictions.** The single flight of 28 October 2025 lasted 67 minutes and reached about 12,000 feet and about 230 miles an hour with the landing gear down \[[X-59 First Flight][ref_nasa_first_flight]\]. That is 24.9 percent of the design cruise speed at 21.8 percent of the design cruise altitude, a regime in which no boom forms, so it neither confirms nor contradicts any prediction about the signature.
+**What flight returned lies outside every one of those predictions.** The single flight of 28 October 2025 lasted 67 minutes and reached about 12,000 feet and about 230 miles an hour with the landing gear down \[[X-59 First Flight][ref_nasa_first_flight]\]. That is 24.9 percent of the design cruise speed at 21.8 percent of the design cruise altitude, as the part headed The Flight Test Record computes, a regime in which no boom forms, so it neither confirms nor contradicts any prediction about the signature.
 
 **One prediction was flown, on a different aeroplane.** The eXternal Vision System was flown on a UC-12 before the X-59 existed, with guest pilots comparing normal vision against the system on see-to-avoid and see-to-follow tasks \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. The source reports that work as a validation and this article does not report its measures, so the comparison is recorded as made and not as quantified.
 
@@ -972,7 +1043,7 @@ In 2020 the agency proposed to bring supersonic aeroplanes into the noise certif
 
 ### Where the Displayed Relations Come From
 
-**The article displays 51 relations and evaluates all but 3 of them**, and those 3 are named in the epistemic state as boundaries rather than presented as results.
+**The article displays 60 relations and evaluates all but 3 of them**, and those 3 are named in the epistemic state as boundaries rather than presented as results.
 
 **Lockheed Martin publishes a product card carrying the gross weight, the empty weight, the fuel, the payload, an overall length and a design Mach number.** Every weight this article uses comes from it, including those in the lift-induced equivalent area and in the range relation, whose unknowns reduce to one.
 
@@ -1009,6 +1080,8 @@ The design feature annotations attributed to NASA were read from the project's o
 The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the cutoff ratio nowhere exceeds 1.153 in the standard atmosphere. The reproduction of the published 925 miles per hour to within 0.1 percent, and the identification of the released 940 miles per hour as Mach 1.42 at the same altitude. The conversion of 75 and 105 perceived level decibels to 2.134 and 4.088 sones and the resulting 47.8 percent. The classical Taylor rise time of 5.2 microseconds. The 19.9 decibel benefit of a tenfold rise time at 1,000 hertz. The slenderness ratios in the table.
 
 The dynamic pressure of 12,512 pascals and the density of 0.14664 kilograms a cubic metre at the cruise condition. **The lift-induced equivalent area of 4.232 square metres and its growth by a factor of 2.06 between forty thousand feet and fifty-five.** The Reynolds number, the skin friction coefficient of 0.00206 and the friction drag of 25.7 newtons a square metre. The wave-drag ratio of 5.18 against a twenty metre body. **The boom carpet at 59.2 kilometres wide and the along-track offset of 19.29 kilometres, from a ray trace through the standard atmosphere that reproduces the literature's Mach 2 rule of thumb to within 3.9 percent.** The minimum signature duration of 73 milliseconds and the sound exposure level of 101 decibels. The classical absorption of 0.159 decibels a kilometre. The ground impedance of 19 that reproduces the conventional reflection factor.
+
+The spread of 5.87 feet among the three published lengths and the shortfall of 700 pounds between the builder's weights and its stated total. The range of 44.3 to 53.1 percent across the published Concorde baselines, and the overpressure ratio of 85 percent. The equivalent diameter of 2.32 metres. The thrust bound of 2,634 pounds for an exponent of one. The first flight's 24.9 percent of the design cruise speed and 21.8 percent of the design cruise altitude.
 
 All are computed from the published inputs named beside them by the relations displayed above, and every relation this article displays is evaluated except the three named below.
 

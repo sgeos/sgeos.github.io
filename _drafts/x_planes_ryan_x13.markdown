@@ -43,19 +43,19 @@ That is the X-13's research question, and it is not a question the previous five
 
 ### What Adequate Means
 
-Control authority is judged against an angular acceleration the pilot can use, and the period settled on figures near half a radian per second squared in pitch and one in roll for a hovering aircraft. Taking the X-13's mass at its gross weight of 6,730 pounds, or
+Control authority is judged against an angular acceleration the pilot can use, and the period settled on figures near half a radian per second squared in pitch and one in roll for a hovering aircraft. The X-13's mass at its gross weight of 6,730 pounds is
 
 $$m = 3053 \, \text{kg}$$
 
-and a pitch radius of gyration of 0.30 of the 7.14 metre length gives
+and its pitching moment of inertia need not be estimated. **The Langley spin-tunnel programme tabulated the airplane's full-scale mass characteristics**, and [Bowman 1957][research_bowman_1957] gives 4,042 slug square feet in pitch for the normal loading with full fuel and the landing hook, at 6,696 pounds. Converting at 1.3558 kilogramme square metres to the slug square foot,
 
-$$I_{yy} = m \, (0.30 L)^{2} = 3053 \times 2.14^{2} = 1.40 \times 10^{4} \, \text{kg m}^{2}$$
+$$I_{yy} = 4042 \times 1.3558 = 5480 \, \text{kg m}^{2}$$
 
-so the required pitching moment is
+which is a radius of gyration of $\sqrt{I_{yy}/m} = 1.34$ metres, or 0.19 of the 7.14 metre length, so the required pitching moment is
 
-$$M_{\text{req}} = I_{yy} \, \dot{q}_{\text{req}} = 1.40 \times 10^{4} \times 0.50 = 6998 \, \text{N m}$$
+$$M_{\text{req}} = I_{yy} \, \dot{q}_{\text{req}} = 5480 \times 0.50 = 2740 \, \text{N m}$$
 
-The radius of gyration and the criterion are both estimates and are identified as such in the Epistemic State. The criteria themselves were being established experimentally at exactly this moment, and the aircraft that established them was the next one in this series, in [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962] using the variable-stability X-14A, with the visual-flight investigation in [Garren et al 1965][research_garren_1965].
+The criterion is an estimate and is identified as such in the Epistemic State. The criteria themselves were being established experimentally at exactly this moment, and the aircraft that established them was the next one in this series, in [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962] using the variable-stability X-14A, with the visual-flight investigation in [Garren et al 1965][research_garren_1965].
 
 ### Three Axes, Three Different Answers
 
@@ -75,7 +75,7 @@ That asymmetry is the reason a tail-sitting jet looks the way it does. **The rol
 
 ### Where They Cross
 
-With a wing area of 191 square feet, a mean chord taken as area over span,
+With the wing area of 191 square feet and span of 21 feet that [Bowman 1957][research_bowman_1957] tabulates for the airplane, a mean chord taken as area over span,
 
 $$\bar{c} = \frac{S}{b} = \frac{17.74}{6.40} = 2.77 \, \text{m}$$
 
@@ -85,7 +85,7 @@ $$M_{\text{aero}} = \tfrac{1}{2} \times 1.225 \times 17.74 \times 2.77 \times 0.
 
 Setting that equal to the requirement gives the speed below which the control surfaces cannot do the job,
 
-$$V_{\text{cross}} = \sqrt{\frac{6998}{3.013}} = 48.2 \, \text{m/s} = 94 \, \text{knots}$$
+$$V_{\text{cross}} = \sqrt{\frac{2740}{3.013}} = 30.2 \, \text{m/s} = 59 \, \text{knots}$$
 
 The vectored thrust, meanwhile, is ample everywhere. A ten degree deflection of 10,000 pounds of thrust at an assumed 3.5 metre arm gives
 
@@ -93,7 +93,7 @@ $$M_{\text{thrust}} = 44{,}482 \times 3.50 \times \sin 10^{\circ} = 27{,}035 \, 
 
 which is
 
-$$\frac{M_{\text{thrust}}}{M_{\text{req}}} = 3.86$$
+$$\frac{M_{\text{thrust}}}{M_{\text{req}}} = \frac{27{,}035}{2740} = 9.87$$
 
 Evaluating the equal-authority crossing introduced above gives
 
@@ -109,13 +109,13 @@ is therefore small throughout.
 |---|---|
 | 0 m/s | 0.000 |
 | 20 m/s | 0.043 |
-| 30 m/s | 0.091 |
-| 48.2 m/s | 0.206 |
+| 30.2 m/s | 0.092 |
+| 40 m/s | 0.151 |
 | 60 m/s | 0.286 |
 
-**At the speed where the elevons first become adequate they still supply only a fifth of what is available**, and the nozzle is doing the rest. That is the honest picture of the handover and it is more gradual than a single crossover speed suggests.
+**At the speed where the elevons first become adequate they still supply only about a tenth of what is available**, and the nozzle is doing the rest. That is the honest picture of the handover and it is more gradual than a single crossover speed suggests.
 
-**The vectored thrust supplies nearly four times what is needed.** The criteria this is measured against were assembled over the following decade, in [Tapscott 1960][research_tapscott_1960] on primary handling qualities for hovering and transition, [Anderson 1960][research_anderson_1960] examining the criteria themselves, [Clark 1964][research_clark_1964], and later by moving-base simulation in [McCormick 1969][research_mccormick_1969] and by task performance measurement in [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969]. So the handover is not a struggle between two marginal systems. The thrust vectoring is comfortable from zero airspeed upward, and the aerodynamic surfaces become comfortable at 48 metres per second. The interesting question is what that speed is compared with.
+**The vectored thrust supplies nearly ten times what is needed.** The criteria this is measured against were assembled over the following decade, in [Tapscott 1960][research_tapscott_1960] on primary handling qualities for hovering and transition, [Anderson 1960][research_anderson_1960] examining the criteria themselves, [Clark 1964][research_clark_1964], and later by moving-base simulation in [McCormick 1969][research_mccormick_1969] and by task performance measurement in [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969]. So the handover is not a struggle between two marginal systems. The thrust vectoring is comfortable from zero airspeed upward, and the aerodynamic surfaces become comfortable at 30 metres per second. The interesting question is what that speed is compared with.
 
 ### The Answer, and Why It Is Not Obvious
 
@@ -125,11 +125,11 @@ $$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L\max}}} = \sqrt{\frac{2 \times 2
 
 so
 
-$$\frac{V_{\text{cross}}}{V_{\text{stall}}} = \frac{48.2}{52.5} = 0.918$$
+$$\frac{V_{\text{cross}}}{V_{\text{stall}}} = \frac{30.2}{52.5} = 0.575$$
 
-**The control surfaces become adequate at ninety-two percent of the speed at which the wing starts flying.** The two events coincide, and the coincidence is the whole reason a tail-sitting jet is possible at all. Had the crossover come at twice the stall speed the aircraft would have had a band of speeds in which it was flying on its wing and could not be pointed, which is not a survivable condition.
+**The control surfaces become adequate at well under three fifths of the speed at which the wing starts flying.** The controls come alive before the wing does, and that ordering is the whole reason a tail-sitting jet is possible at all. Had the crossover come at twice the stall speed the aircraft would have had a band of speeds in which it was flying on its wing and could not be pointed, which is not a survivable condition.
 
-The coincidence is not luck, and it is worth seeing why. Both quantities scale with $W/S$ and with the same dynamic pressure, so their ratio depends on the ratio of the control-moment coefficient to the lift coefficient and on the geometry, and not on the size or weight of the aircraft. **A tail-sitting jet works because the same air that lifts a wing also works its controls, and both start at once.** The low-speed characteristics that set the wing side of it are [Aoyagi and Tolhurst 1964][research_aoyagi_tolhurst_1964] and [Spencer 1962][research_spencer_1962]. What would break it is not weight but a control surface too small, and this is the design margin the article's later sections keep returning to.
+The ordering is not luck, and it is worth seeing why. Both quantities scale with $W/S$ and with the same dynamic pressure, so their ratio depends on the ratio of the control-moment coefficient to the lift coefficient and on the geometry, and not on the size or weight of the aircraft. **A tail-sitting jet works because the same air that lifts a wing also works its controls, and both start at once.** The low-speed characteristics that set the wing side of it are [Aoyagi and Tolhurst 1964][research_aoyagi_tolhurst_1964] and [Spencer 1962][research_spencer_1962]. What would break it is not weight but a control surface too small, and this is the design margin the article's later sections keep returning to.
 
 Writing the ratio out makes the independence explicit. Both speeds come from setting a moment equal to a requirement,
 
@@ -145,9 +145,11 @@ The wing area has cancelled and the air density has cancelled. What remains is t
 
 ### A Navy Question From 1947
 
-The line begins with the Bureau of Aeronautics, which in 1947 asked Ryan whether a jet fighter could be launched vertically, under a designation of F3R. The motivation was that a vertically launched fighter needs no runway, and therefore could operate from a small ship, from a clearing, or from a submarine. Ryan's own starting point was the FR-1 Fireball, a mixed-power fighter the company had already built.
+**The line begins with the Navy.** In 1947 the Bureau of Aeronautics awarded Ryan a contract to investigate a vertically launched jet fighter, as part of an evaluation of submarine-based aircraft, according to the [National Air and Space Museum's record of the aircraft][ref_nasm_x13], and a [compilation][ref_x13] gives the original designation as F3R. The motivation was that a vertically launched fighter needs no runway, and therefore could operate from a small ship, from a clearing, or from a submarine. Ryan's own starting point was the FR-1 Fireball, a mixed-power fighter the company had already built, whose thrust-to-weight ratio reached one at low fuel quantities.
 
-**The Navy pursued the same idea with propellers and got there first.** The Convair XFY-1 and the Lockheed XFV-1 were turboprop tail-sitters flown from 1954, and their development generated the research literature this article rests on, in [Lovell et al 1953][research_lovell_1953], [Lovell 1954][research_lovell_1954], [Queijo et al 1953][research_queijo_1953], [Johnson 1954][research_johnson_1954], [Smith and Lovell 1954][research_smith_lovell_1954], [Schade et al 1954][research_schade_1954], [Kelly and Smaus 1952][research_kelly_smaus_1952], [Sutton and Buell 1952][research_sutton_buell_1952], and [Kirby 1954][research_kirby_1954]. **The X-13 exists because the Air Force wanted the same demonstration on pure jet thrust**, and contracted Ryan for it in 1953. A stand-on configuration had already been flown as a model in [McKinney 1954][research_mckinney_p_1954], and rocket-boosted and windmilling-propeller variants of the XFY-1 case are [Hastings and Mitcham 1954][research_hastings_mitcham_1954] and [Hollinger and Mitcham 1955][research_hollinger_mitcham_1955].
+**A jet test rig preceded the aeroplane.** The same record describes an unmanned demonstrator powered by an Allison J33 that first flew on 20 October 1950 and was controlled in the hover by a ball-mounted nozzle, and a manned conversion of it in which Peter Girard made the first manned hovering flight in a jet aircraft on 24 November 1953.
+
+**The Navy pursued the same idea with propellers and got there first.** The Convair XFY-1 and the Lockheed XFV-1 were turboprop tail-sitters flown from 1954, and their development generated the research literature this article rests on, in [Lovell et al 1953][research_lovell_1953], [Lovell 1954][research_lovell_1954], [Queijo et al 1953][research_queijo_1953], [Johnson 1954][research_johnson_1954], [Smith and Lovell 1954][research_smith_lovell_1954], [Schade et al 1954][research_schade_1954], [Kelly and Smaus 1952][research_kelly_smaus_1952], [Sutton and Buell 1952][research_sutton_buell_1952], and [Kirby 1954][research_kirby_1954]. **The X-13 exists because the Air Force wanted the same demonstration on pure jet thrust**, and after the Navy's funding ran out it contracted Ryan in July 1954 for two demonstrators, according to the [Smithsonian record][ref_nasm_x13]. Compilations, among them the [standard reference entry][ref_x13], give 1953 instead. A stand-on configuration had already been flown as a model in [McKinney 1954][research_mckinney_p_1954], and rocket-boosted and windmilling-propeller variants of the XFY-1 case are [Hastings and Mitcham 1954][research_hastings_mitcham_1954] and [Hollinger and Mitcham 1955][research_hollinger_mitcham_1955].
 
 **The mid-1950s were also the moment the whole configuration space was surveyed at once.** Comparative studies weighed tail-sitters against tilt-wings, deflected slipstream, and lift engines, in [Irvin and Swan 1956][research_irvin_swan_1956] on performance and weight estimates for six vertical take-off aircraft, [Boeing Co Morton Pa Vertol Div 1956][research_div_1956], and [McCormick 1956][research_mccormick_w_1956], the last of which is a transition analysis and is therefore the nearest thing in the accessible literature to a general treatment of this article's keystone. The propeller side of the same survey is [Kirby 1961][research_kirby_1961] and [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960].
 
@@ -169,7 +171,7 @@ That is a dynamic pressure of 1,500 pascals over the inboard wing, against 1,687
 
 ### The First Condition, Which Is Necessary and Not Sufficient
 
-A hovering aircraft must produce more thrust than it weighs. The Rolls-Royce Avon RA.28 gave 10,000 pounds against a gross weight of 6,730. **The condition is the one that defines the whole configuration class**, and the surrounding design space, from lift fans through lift-plus-thrust arrangements to low-disc-loading rotorcraft, is [Denning 1962][research_denning_1962], [Przedpelski 1965][research_przedpelski_1965], and [Brown 1965][research_brown_1965], with the conference records in [Division 1966][research_division_1966] and the period's standard book reviewed in [Titchener 1963][research_titchener_1963]. Taking the ratio,
+A hovering aircraft must produce more thrust than it weighs. The Rolls-Royce Avon gave 10,000 pounds of thrust, in the figures of the [National Museum of the United States Air Force][ref_nmusaf_x13] and of the [Smithsonian record][ref_nasm_x13], which identifies it as an RA.28-49, against a gross weight of 6,730 pounds in compilations. **The primary weights differ among themselves.** The spin-tunnel table of [Bowman 1957][research_bowman_1957] gives 6,696 pounds with full fuel and the landing hook and 6,958 pounds with full fuel and wheels, the Smithsonian record a gross of 7,313 pounds, and the Air Force museum a maximum of 7,200. The 6,730 pounds used throughout lies within about half a percent of the hook loading. **The condition is the one that defines the whole configuration class**, and the surrounding design space, from lift fans through lift-plus-thrust arrangements to low-disc-loading rotorcraft, is [Denning 1962][research_denning_1962], [Przedpelski 1965][research_przedpelski_1965], and [Brown 1965][research_brown_1965], with the conference records in [Division 1966][research_division_1966] and the period's standard book reviewed in [Titchener 1963][research_titchener_1963]. Taking the ratio,
 
 $$\frac{T}{W} = \frac{44{,}482}{29{,}935} = 1.486$$
 
@@ -193,11 +195,21 @@ and to hover it must produce thrust equal to weight, so the fuel flow in a hover
 
 $$\dot{m}_{f} = 0.93 \times 6730 = 6259 \, \text{lb/hr} = 104.3 \, \text{lb/min}$$
 
-The useful load at gross weight is the difference between 6,730 and the 5,334 pound empty weight, which is 1,396 pounds. Allowing 250 pounds for the pilot and his equipment leaves about 1,146 pounds of fuel, giving
+The fuel load follows from the spin-tunnel table of loadings in [Bowman 1957][research_bowman_1957], which gives the airplane with its hook at 6,696 pounds with full fuel, 5,646 pounds with a quarter of it, and 5,366 pounds with a twentieth. The differences are three quarters and nineteen twentieths of the full load, so
 
-$$t_{\text{hover}} = \frac{1146}{104.3} = 11.0 \, \text{min}$$
+$$m_{f} = \frac{6696 - 5646}{0.75} = \frac{6696 - 5366}{0.95} = 1400 \, \text{lb}$$
 
-**The entire fuel load is about eleven minutes of hovering.** That is the number the whole article turns on, and it is worth restating in the harshest form available. One minute of hovering at each end of a flight spends nearly a fifth of the fuel before the machine has gone anywhere.
+and the wheeled loadings in the same table return the same 1,400 pounds. That gives
+
+$$t_{\text{hover}} = \frac{1400}{104.3} = 13.4 \, \text{min}$$
+
+**The entire fuel load is about thirteen minutes of hovering.** That is the number the whole article turns on, and it is worth restating in the harshest form available. One minute of hovering at each end of a flight spends about fifteen percent of the fuel before the machine has gone anywhere.
+
+The same table checks the compilations' weights. Removing the fuel from the wheeled loading leaves
+
+$$6958 - 1400 - 5334 = 224 \, \text{lb}$$
+
+above the 5,334 pound empty weight that compilations quote, which is about what a pilot and his equipment weigh, so the published empty weight appears to describe the aircraft on wheels.
 
 The relation generalises and the generalisation is unkind. Hover endurance is
 
@@ -215,53 +227,53 @@ and therefore improves as the disc grows. **A jet has the smallest possible disc
 
 Pitch and yaw were handled by deflecting the engine exhaust. Roll could not be, because rolling the aircraft about the thrust line produces no moment however the nozzle is aimed. **A tail-sitting jet therefore needs a separate roll control that works at zero airspeed**, and the X-13 carried compressed-air jets at the wingtips, outboard of the endplates.
 
-Sizing them is a short calculation. A roll radius of gyration of 0.20 of the 6.40 metre span gives
+Sizing them is a short calculation. The spin-tunnel table gives the rolling moment of inertia as 1,543 slug square feet, so
 
-$$I_{xx} = m (0.20 b)^{2} = 3053 \times 1.28^{2} = 5003 \, \text{kg m}^{2}$$
+$$I_{xx} = 1543 \times 1.3558 = 2092 \, \text{kg m}^{2}$$
 
-and at a criterion of one radian per second squared the couple required is 5,003 newton metres. Delivered by a pair of opposed jets at the tips, the force each must produce is
+and at a criterion of one radian per second squared the couple required is 2,092 newton metres. The one-fifth-scale model of [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2], whose roll nozzles use engine bleed air, places them 24.375 inches from the centreline, which is 10.16 feet or 3.10 metres at full scale, so the opposed jets act on an arm of $d = 6.19$ metres and the force each must produce is
 
-$$F = \frac{M}{b} = \frac{5003}{6.40} = 782 \, \text{N} = 176 \, \text{lbf}$$
+$$F = \frac{M}{d} = \frac{2092}{6.19} = 338 \, \text{N} = 76 \, \text{lbf}$$
 
-which is 3.5 percent of the engine's thrust taken as a couple. At an assumed bleed velocity of 500 metres per second that is a mass flow of
+which is 1.5 percent of the engine's thrust taken as a couple. At an assumed bleed velocity of 500 metres per second that is a mass flow of
 
-$$\dot{m} = \frac{2F}{v} = \frac{1564}{500} = 3.13 \, \text{kg/s}$$
+$$\dot{m} = \frac{2F}{v} = \frac{676}{500} = 1.35 \, \text{kg/s}$$
 
-or about 4.5 percent of an Avon's air. **A roll control that costs four percent of the engine is affordable and not negligible**, and it is a cost the propeller tail-sitters did not pay at all. The design problem of arranging engine control and attitude control together in a vertical-attitude aircraft is [Baxter and Finvold 1958][research_baxter_finvold_1958], which is the closest thing in the accessible literature to a statement of this vehicle's control philosophy, with the reaction control criteria worked systematically in [Friend 1964][research_friend_1964].
+or about 1.9 percent of an Avon's air. **A roll control that costs two percent of the engine is affordable and not negligible**, and it is a cost the propeller tail-sitters did not pay at all. The design problem of arranging engine control and attitude control together in a vertical-attitude aircraft is [Baxter and Finvold 1958][research_baxter_finvold_1958], which is the closest thing in the accessible literature to a statement of this vehicle's control philosophy, with the reaction control criteria worked systematically in [Friend 1964][research_friend_1964].
 
 **What lateral control actually needs to feel like in a hovering jet-lift aircraft was measured directly**, in [Drinkwater et al 1965, Effects of lateral control charact][research_drinkwater_1965_2], which is the nearest experiment in the literature to the X-13's roll problem and postdates it by eight years. The variable-stability apparatus that made such measurements possible is [Hegarty et al 1965][research_hegarty_1965] for a deflected-jet aircraft, and the eventual in-flight simulation of competing hover control concepts is [Corliss et al 1977][research_corliss_1977]. Cross-coupling between axes, which a reaction control system introduces and an aerodynamic one largely does not, is [Garren 1961][research_garren_1961], and the augmentation that later removed the problem from the pilot is [Clark et al 1963][research_clark_1963] and [Hartmann et al 1979][research_hartmann_1979].
 
 The ailerons take over earlier than the elevons do. At a rolling-moment coefficient of 0.05 the aerodynamic couple reaches the same criterion at
 
-$$V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{l}}} = 37.9 \, \text{m/s}$$
+$$V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{l}}} = 24.5 \, \text{m/s}$$
 
-which is 0.72 of the stall speed, so **roll hands over from the puffers to the ailerons well before pitch hands over from the nozzle to the elevons.** The two axes do not cross at the same moment, and a pilot flying the transition is therefore managing a control system whose character changes progressively rather than all at once.
+which is 0.47 of the stall speed, so **roll hands over from the puffers to the ailerons well before pitch hands over from the nozzle to the elevons.** The two axes do not cross at the same moment, and a pilot flying the transition is therefore managing a control system whose character changes progressively rather than all at once.
 
 ### Yaw, Which Is the Easy Axis, and the Sequence That Results
 
-Yaw has been mentioned and not sized, and sizing it completes the picture. Taking the yaw inertia five percent above the pitch inertia, which is what a configuration with most of its mass along the body axis and its wing short gives,
+Yaw has been mentioned and not sized, and sizing it completes the picture. The spin-tunnel table gives the yawing moment of inertia as 4,833 slug square feet, or
 
-$$I_{zz} \approx 1.05 \, I_{yy} = 1.47 \times 10^{4} \, \text{kg m}^{2}$$
+$$I_{zz} = 4833 \times 1.3558 = 6553 \, \text{kg m}^{2}$$
 
-and a criterion of 0.3 radians per second squared, the required moment is 4,412 newton metres. The nozzle supplies that at a deflection of
+which is 1.20 times the pitch inertia, and at a criterion of 0.3 radians per second squared the required moment is 1,966 newton metres. The nozzle supplies that at a deflection of
 
-$$\theta = \arcsin \frac{M}{T \ell} = \arcsin \frac{4412}{44{,}482 \times 3.50} = 1.62^{\circ}$$
+$$\theta = \arcsin \frac{M}{T \ell} = \arcsin \frac{1966}{44{,}482 \times 3.50} = 0.72^{\circ}$$
 
-**Under two degrees.** Yaw is the axis nobody had to think about, because the same nozzle that handles pitch handles yaw with a fraction of the deflection and the criterion is lower.
+**Under one degree.** Yaw is the axis nobody had to think about, because the same nozzle that handles pitch handles yaw with a fraction of the deflection and the criterion is lower.
 
 The rudder takes over early as well. At a yawing-moment increment of 0.06 the aerodynamic moment reaches the criterion at
 
-$$V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{n}}} = 32.5 \, \text{m/s}$$
+$$V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{n}}} = 21.7 \, \text{m/s}$$
 
-which is 0.62 of the stall speed. Collecting the three axes gives the article's structural result about the transition.
+which is 0.41 of the stall speed. The same deflection relation puts the pitch criterion at $\arcsin (2740 / 155{,}687) = 1.01$ degrees of nozzle. Collecting the three axes gives the article's structural result about the transition.
 
 | Axis | Reaction or vectored device | Aerodynamic device takes over at | As a fraction of stall speed |
 |---|---|---|---|
-| Yaw | nozzle, 1.6 degrees | 32.5 m/s | 0.62 |
-| Roll | wingtip jets, 782 N each | 37.9 m/s | 0.72 |
-| Pitch | nozzle, 10 degrees | 48.2 m/s | 0.92 |
+| Yaw | nozzle, 0.7 degrees | 21.7 m/s | 0.41 |
+| Roll | wingtip jets, 338 N each | 24.5 m/s | 0.47 |
+| Pitch | nozzle, 1.0 degree | 30.2 m/s | 0.57 |
 
-**The three axes do not hand over together. They hand over in sequence, and the sequence runs from the cheapest axis to the dearest.** The derivatives that would settle the aerodynamic side of each were measured for this configuration class in [Queijo et al 1953, Wind-Tunnel Investigation at Low S][research_queijo_1953_2], [Queijo et al 1953, Wind-Tunnel Investigation at Low S][research_queijo_1953_3], and [Queijo et al 1953, Wind-Tunnel Investigation at Low S][research_queijo_1953_4], and for the jet-powered vertical-attitude model in [Shanks and Smith 1959][research_shanks_smith_1959] and [Shanks and Smith 1960][research_shanks_smith_1960]. A pilot accelerating through the transition therefore feels the aircraft become a conventional aeroplane one axis at a time, first in yaw, then in roll, and last in pitch, and for a band of about ten metres per second, between 37.9 and 48.2, he is flying a machine that is aerodynamic in two axes and reactive in the third. That is a more interesting statement than a single crossover speed, and it is the kind of thing an article gets only by computing all three.
+**The three axes do not hand over together. They hand over in sequence, and the sequence runs from the cheapest axis to the dearest.** The derivatives that would settle the aerodynamic side of each were measured for this configuration class in [Queijo et al 1953, Wind-Tunnel Investigation at Low S][research_queijo_1953_2], [Queijo et al 1953, Wind-Tunnel Investigation at Low S][research_queijo_1953_3], and [Queijo et al 1953, Wind-Tunnel Investigation at Low S][research_queijo_1953_4], and for the jet-powered vertical-attitude model in [Shanks and Smith 1959][research_shanks_smith_1959] and [Shanks and Smith 1960][research_shanks_smith_1960]. A pilot accelerating through the transition therefore feels the aircraft become a conventional aeroplane one axis at a time, first in yaw, then in roll, and last in pitch, and for a band of about six metres per second, between 24.5 and 30.2, he is flying a machine that is aerodynamic in two axes and reactive in the third. That is a more interesting statement than a single crossover speed, and it is the kind of thing an article gets only by computing all three.
 
 ### The Transition, Which Is Quick and Cheap
 
@@ -304,11 +316,11 @@ The transition analysis for the configuration class is [McCormick 1956][research
 
 ### What Control Power Costs
 
-Reaction control is not free and its price is paid in the same currency as everything else. A puffer system sized to the criterion above bleeds about 4.5 percent of the engine's air, and bleeding air from a turbojet costs thrust roughly in proportion, so holding the roll criterion in a hover costs
+Reaction control is not free and its price is paid in the same currency as everything else. A puffer system sized to the criterion above bleeds about 1.9 percent of the engine's air, and bleeding air from a turbojet costs thrust roughly in proportion, so holding the roll criterion in a hover costs
 
-$$\Delta T \approx 0.045 \, T = 2002 \, \text{N} = 450 \, \text{lbf}$$
+$$\Delta T \approx 0.0193 \, T = 859 \, \text{N} = 193 \, \text{lbf}$$
 
-against a hover margin of 3,270 pounds. **Roll control alone consumes about fourteen percent of the thrust margin**, before pitch and yaw are considered and before any allowance for gusts. That figure is an estimate resting on the assumed bleed velocity, and the general accounting of what control power costs a vertical take-off aircraft is [Hoffman 1971][research_hoffman_1971].
+against a hover margin of 3,270 pounds. **Roll control alone consumes about six percent of the thrust margin**, before pitch and yaw are considered and before any allowance for gusts. That figure is an estimate resting on the assumed bleed velocity, and the general accounting of what control power costs a vertical take-off aircraft is [Hoffman 1971][research_hoffman_1971].
 
 Whether the cost is worth paying against the alternatives is a question the field answered much later and in the opposite direction, since a lateral-directional control system built deliberately around thrust vectoring is [Lallman 1985][research_lallman_1985]. **What the X-13 treated as a penalty is now sometimes the point**, because an aircraft that can point its thrust can be flown at attitudes a conventional one cannot.
 
@@ -326,9 +338,9 @@ $$\frac{M_{\text{req}}}{M_{\text{av}}} \propto L$$
 
 | Linear scale | Mass | Control power as a fraction of the engine |
 |---|---|---|
-| 1 | 1 | 4.5 percent |
-| 2 | 8 | 9.0 percent |
-| 3 | 27 | 13.5 percent |
+| 1 | 1 | 1.9 percent |
+| 2 | 8 | 3.9 percent |
+| 3 | 27 | 5.8 percent |
 
 **Doubling the length doubles the fraction of the engine that attitude control consumes.** The spiral therefore converges only for a small aircraft, and the X-13 is small. This is a different and stronger statement than the earlier one that the crossover ratio is independent of scale, and both are true. **The speed at which the controls become adequate does not care about size. The cost of making them adequate does.** Whether the requirement itself should depend on size is [Johnston et al 1965][research_johnston_1965] and [Johnston and Friend 1965][research_johnston_friend_1965].
 
@@ -336,7 +348,7 @@ $$\frac{M_{\text{req}}}{M_{\text{av}}} \propto L$$
 
 The programme was a demonstration and never carried a weapon, but the arithmetic of what it would have meant operationally is short and is the reason the idea stopped. The fuel fraction is
 
-$$\zeta = \frac{1146}{6730} = 0.170$$
+$$\zeta = \frac{1400}{6730} = 0.208$$
 
 and the Breguet range for a jet is
 
@@ -344,31 +356,31 @@ $$R = \frac{V}{c} \frac{L}{D} \ln \frac{1}{1 - \zeta}$$
 
 with $c$ the thrust specific fuel consumption expressed as a reciprocal time, which for 0.93 pounds per pound-hour is $2.583 \times 10^{-4}$ per second. At a cruise speed of 200 metres per second and a lift-to-drag ratio of six,
 
-$$R = \frac{200}{2.583 \times 10^{-4}} \times 6 \times \ln \frac{1}{0.830} = 867 \, \text{km}$$
+$$R = \frac{200}{2.583 \times 10^{-4}} \times 6 \times \ln \frac{1}{0.792} = 1083 \, \text{km}$$
 
-giving a radius of 434 kilometres if every pound of fuel went to cruising. It does not.
+giving a radius of 542 kilometres if every pound of fuel went to cruising. It does not.
 
 | Total hover time | Fuel spent hovering | Radius | Radius forgone |
 |---|---|---|---|
-| 60 s | 104.3 lb | 391 km | 43 km, 9.9 percent |
-| 120 s | 208.6 lb | 348 km | 85 km, 19.7 percent |
-| 180 s | 312.9 lb | 307 km | 127 km, 29.2 percent |
+| 60 s | 104.3 lb | 497 km | 45 km, 8.3 percent |
+| 120 s | 208.6 lb | 453 km | 89 km, 16.5 percent |
+| 180 s | 312.9 lb | 409 km | 133 km, 24.5 percent |
 
-**One minute of hovering at each end of the flight costs a fifth of the radius.** The period's own weight and performance bookkeeping for this class is [Irvin and Swan 1956][research_irvin_swan_1956], with the configuration comparison in [Boeing Co Morton Pa Vertol Div 1956][research_div_1956] and [Campbell 1962][research_campbell_1962]. **The same arithmetic was run for civil operations and returned the same verdict**, in [Spillman 1965][research_spillman_1965] on short-range vertical take-off jet airliners, where a route short enough to suit the aircraft is also short enough that the hover fuel dominates the sortie. And one minute is optimistic for a vertical landing onto a hook, for the reasons the Dependent Systems section quantifies.
+**One minute of hovering at each end of the flight costs a sixth of the radius.** The period's own weight and performance bookkeeping for this class is [Irvin and Swan 1956][research_irvin_swan_1956], with the configuration comparison in [Boeing Co Morton Pa Vertol Div 1956][research_div_1956] and [Campbell 1962][research_campbell_1962]. **The same arithmetic was run for civil operations and returned the same verdict**, in [Spillman 1965][research_spillman_1965] on short-range vertical take-off jet airliners, where a route short enough to suit the aircraft is also short enough that the hover fuel dominates the sortie. And one minute is optimistic for a vertical landing onto a hook, for the reasons the Dependent Systems section quantifies.
 
 | Hover discipline | Take-off and landing | Fuel spent | Fraction of fuel |
 |---|---|---|---|
-| Brisk | 0.5 and 1.0 minutes | 156 lb | 13.7 percent |
-| Realistic | 1.0 and 2.0 minutes | 313 lb | 27.3 percent |
-| Cautious | 2.0 and 4.0 minutes | 626 lb | 54.6 percent |
+| Brisk | 0.5 and 1.0 minutes | 156 lb | 11.2 percent |
+| Realistic | 1.0 and 2.0 minutes | 313 lb | 22.4 percent |
+| Cautious | 2.0 and 4.0 minutes | 626 lb | 44.7 percent |
 
-**A cautious pilot spends more than half the fuel without leaving the airfield.** And the Dependent Systems section shows that the pilot has every reason to be cautious, since he is flying a third-order loop by proxy through a man on the ground toward a hook he cannot see. The vertical take-off and landing capability is therefore not free and not cheap. It is paid for in the currency the aircraft has least of, and the payment is made twice on every sortie.
+**A cautious pilot spends nearly half the fuel without leaving the airfield.** And the Dependent Systems section shows that the pilot has every reason to be cautious, since he is flying a third-order loop by proxy through a man on the ground toward a hook he cannot see. The vertical take-off and landing capability is therefore not free and not cheap. It is paid for in the currency the aircraft has least of, and the payment is made twice on every sortie.
 
 ## Dependent Systems
 
 ### The Engine, Which Is Most of the Aeroplane
 
-The Avon RA.28 is a single-shaft axial turbojet with a fifteen-stage compressor, rated at 10,000 pounds of thrust. In an airframe with an empty weight of 5,334 pounds the engine is a large fraction of the whole, and it is better understood as an engine with a wing attached than as an aeroplane with an engine in it. **Every dimension of the X-13 follows from wrapping the smallest possible airframe around an Avon**, which is why the span is 21 feet, the length 23 feet 5 inches, and the aspect ratio
+The [Smithsonian record][ref_nasm_x13] describes the engine as an Avon RA.28-49 axial-flow turbojet of 10,000 pounds of thrust, while the spin-tunnel tests of [Bowman 1957][research_bowman_1957] simulated the rotating parts of an Avon R.A. 14 at 8,000 revolutions per minute, and the documents available do not say whether the designation changed between the model tests and the flights. In an airframe with an empty weight of 5,334 pounds the engine is a large fraction of the whole, and it is better understood as an engine with a wing attached than as an aeroplane with an engine in it. **Every dimension of the X-13 follows from wrapping the smallest possible airframe around an Avon**, which is why the span is 21 feet, the length 23.445 feet, or 23 feet 5 inches, in the dimensional table of [Bowman 1957][research_bowman_1957], and the aspect ratio
 
 $$AR = \frac{b^{2}}{S} = \frac{6.40^{2}}{17.74} = 2.31$$
 
@@ -404,11 +416,11 @@ The mechanisms available for turning a jet were an active subject and remained o
 
 ### The Puffer Jets
 
-The wingtip jets sized above are the aircraft's only roll control below 38 metres per second. Their placement outboard of the wingtip endplates is a moment-arm decision and the arithmetic is direct, since the required force varies inversely with the arm,
+The wingtip jets sized above are the aircraft's only roll control below 25 metres per second. Their placement outboard of the wingtip endplates is a moment-arm decision and the arithmetic is direct, since the required force varies inversely with the arm,
 
-$$F = \frac{I_{xx} \dot{p}}{b}$$
+$$F = \frac{I_{xx} \dot{p}}{d}$$
 
-so halving the span would double the force and therefore double the bleed. **A tail-sitting jet wants a wide span for roll control and a small span for everything else**, and that tension is visible in the aircraft's proportions.
+so halving the arm would double the force and therefore double the bleed. **A tail-sitting jet wants a wide span for roll control and a small span for everything else**, and that tension is visible in the aircraft's proportions.
 
 ### The Wing, Which Spends the Critical Moments Doing Nothing
 
@@ -416,9 +428,9 @@ A wing of aspect ratio 2.31 with a sharp leading edge is a poor subsonic lifting
 
 | Maximum lift coefficient | Stall speed | Ratio of crossover to stall |
 |---|---|---|
-| 0.8 | 58.7 m/s | 0.821 |
-| 1.0 | 52.5 m/s | 0.918 |
-| 1.2 | 47.9 m/s | 1.006 |
+| 0.8 | 58.7 m/s | 0.514 |
+| 1.0 | 52.5 m/s | 0.575 |
+| 1.2 | 47.9 m/s | 0.629 |
 
 The relation behind the table is the ratio derived earlier,
 
@@ -426,7 +438,7 @@ $$\frac{V_{\text{cross}}}{V_{\text{stall}}} = \sqrt{\frac{I_{yy} \dot{q}_{\text{
 
 which grows as the square root of the maximum lift coefficient, because a wing that stalls later gives the elevons less time to catch up.
 
-**At a lift coefficient of 1.2 the crossover moves above the stall speed and the coincidence the article rests on becomes an inequality in the wrong direction.** The qualitative conclusion survives, since the two speeds remain within a few percent of each other, but the comfortable reading that the controls come alive before the wing does depends on a coefficient that has been assumed rather than measured. The low-speed aerodynamics of slender deltas at high incidence are [Clark and Spurlin 1962][research_clark_spurlin_1962], [Spencer 1962][research_spencer_1962], and [Wentz 1972][research_wentz_1972], and what a tailless delta fighter is actually like to fly slowly is [White and Innis 1959][research_white_innis_1959] and [Huff 1949][research_huff_w_1949].
+**Even at a lift coefficient of 1.2 the crossover stays well below the stall speed**, at 0.63 of it, so the reading that the controls come alive before the wing does survives a large error in a coefficient that has been assumed rather than measured. The ratio reaches one only when the maximum lift coefficient exceeds $1.0 / 0.575^{2} = 3.0$, far beyond any figure considered here. The low-speed aerodynamics of slender deltas at high incidence are [Clark and Spurlin 1962][research_clark_spurlin_1962], [Spencer 1962][research_spencer_1962], and [Wentz 1972][research_wentz_1972], and what a tailless delta fighter is actually like to fly slowly is [White and Innis 1959][research_white_innis_1959] and [Huff 1949][research_huff_w_1949].
 
 **The reason such a wing does not behave like a conventional one was explained only after the X-13 flew.** The lift of a sharp-edged delta at incidence comes largely from the vortex that forms along the leading edge rather than from attached flow, and the analogy that made it calculable is [Polhamus 1966][research_polhamus_1966], extended in [Polhamus 1968][research_polhamus_1968] and [Polhamus 1969][research_polhamus_1969]. The structure of the vortex itself is [Roy 1966][research_roy_1966] and [Li and Polak 1966][research_li_polak_1966], and the practical consequence, that a rounded planform behaves better at low speed, is [Rolls 1965][research_rolls_1965] and [Drinkwater and Rolls 1965][research_drinkwater_rolls_1965]. **A maximum lift coefficient of 1.0 assumed for this wing is therefore a vortex-lift number and not an attached-flow one**, which is worth knowing given how much of the article rests on it.
 
@@ -459,7 +471,7 @@ $$F = \tfrac{1}{2} \rho V^{2} A C_{d}$$
 | 10 m/s | 490 N | 0.160 m/s² | 72 m |
 | 15 m/s | 1102 N | 0.361 m/s² | 163 m |
 
-The moment such a wind produces is small, at 7.0 percent of the pitch requirement in a ten metre per second wind with the side-area centroid a metre from the centre of mass. **So the wind does not threaten control and it does threaten station-keeping.**
+The moment such a wind produces is small, at 17.9 percent of the pitch requirement in a ten metre per second wind with the side-area centroid a metre from the centre of mass. **So the wind does not threaten control and it does threaten station-keeping.**
 
 The conflict can be made exact. To hold station the aircraft must tilt into the wind until the horizontal component of thrust balances the side force,
 
@@ -511,7 +523,7 @@ The vertical axis turns out to be a distinct control problem with its own requir
 
 ### The Ground Observer Was Part of the Control Loop
 
-The reported arrangement, in which a man on the ground talked the pilot down because the pilot could not see the trailer, is usually recorded as an operational inconvenience. **It is better understood as a sensor with a transport delay inserted into a third-order loop that has no damping.**
+The arrangement the [Smithsonian record][ref_nasm_x13] describes, constant radio communication with a ground observer who talked the pilot into position because the pilot could not see the trailer, is usually recorded as an operational inconvenience. **It is better understood as a sensor with a transport delay inserted into a third-order loop that has no damping.**
 
 The hook tolerance is of order a third of a metre. At a closure rate of one metre per second, a loop delay $\tau$ introduces a position uncertainty of
 
@@ -521,7 +533,7 @@ so a delay of 0.3 seconds consumes the entire tolerance, and 0.3 seconds is opti
 
 ### The Trailer, the Wire, and the Hook
 
-The X-13 had no undercarriage in the ordinary sense. It hung from a wire strung on an A-frame at the top of a trailer bed, which raised to the vertical for launch and recovery and lowered to the horizontal to move the aircraft. A hook on the underside of the nose engaged the wire, and a short pole projecting from the airframe gave the pilot a distance reference.
+In its vertical configuration the X-13 had no undercarriage in the ordinary sense, and flat bumpers replaced the main wheels of its fixed gear to protect the fuselage if it swung against the trailer bed. It hung from a cable suspended between two arms at the top of a trailer bed, which raised to the vertical for launch and recovery and lowered to the horizontal to move the aircraft. A partially retractable hook on the nose engaged the cable, and a folding pole about twenty feet long with marked gradations, attached to the top of the trailer, gave the pilot a distance reference. All of this is from the [Smithsonian record][ref_nasm_x13].
 
 The arrangement removes weight from the aircraft and puts it on the ground. Written as a bookkeeping identity, the launch system's mass is simply moved out of the term that has to be lifted,
 
@@ -537,9 +549,9 @@ The trailer looks like an eccentricity and it is a weight decision. A retractabl
 
 | Gear weight as a fraction of gross | Weight | As a fraction of the fuel load |
 |---|---|---|
-| 3 percent | 202 lb | 17.6 percent |
-| 4 percent | 269 lb | 23.5 percent |
-| 5 percent | 336 lb | 29.4 percent |
+| 3 percent | 202 lb | 14.4 percent |
+| 4 percent | 269 lb | 19.2 percent |
+| 5 percent | 336 lb | 24.0 percent |
 
 Converting the saving into the currency the aircraft actually lacks gives
 
@@ -547,11 +559,15 @@ $$\Delta t_{\text{hover}} = \frac{w_{g}}{c \, W}$$
 
 | Gear weight | Extra hover time | Endurance gained |
 |---|---|---|
-| 202 lb | 1.94 min | 17.6 percent |
-| 269 lb | 2.58 min | 23.4 percent |
-| 336 lb | 3.22 min | 29.3 percent |
+| 202 lb | 1.94 min | 14.4 percent |
+| 269 lb | 2.58 min | 19.2 percent |
+| 336 lb | 3.22 min | 24.0 percent |
 
-**Deleting the undercarriage bought between two and three minutes of hovering**, which against an eleven minute endurance is a quarter more, and by the radius table above some tens of kilometres. Weight bookkeeping of this kind across the configuration options is [Irvin and Swan 1956][research_irvin_swan_1956]. On an aircraft this tightly bounded that is not a small saving, and it explains why a design that looks like a stunt is actually the obvious answer once the fuel arithmetic is admitted.
+**The spin-tunnel table measures the saving directly.** Its full-fuel loading is 6,958 pounds with wheels and 6,696 pounds with the hook in [Bowman 1957][research_bowman_1957], so the wheels cost
+
+$$6958 - 6696 = 262 \, \text{lb}$$
+
+net of the hook, which is 3.8 percent of the wheeled weight, inside the range assumed above, and worth $262 / 104.3 = 2.51$ minutes of hovering. **Deleting the undercarriage bought about two and a half minutes of hovering**, which against a thirteen and a half minute endurance is about a fifth more, and by the radius table above some tens of kilometres. Weight bookkeeping of this kind across the configuration options is [Irvin and Swan 1956][research_irvin_swan_1956]. On an aircraft this tightly bounded that is not a small saving, and it explains why a design that looks like a stunt is actually the obvious answer once the fuel arithmetic is admitted.
 
 The structural side reinforces it. Hanging from a hook at the nose puts the entire weight into the airframe as a **tension**, while standing on a tail puts the same load in as a **compression** on a slender body. A tension member is lighter than a column of equal strength, so the hook arrangement is structurally as well as operationally cheaper than legs would have been. Estimating what airframe structure weighs, which is how such a trade is settled in practice, is [Chaloff et al 1974][research_chaloff_1974] and [Marchinski 1974][research_marchinski_1974], and a conventional gear's own control problems are [Yang 1970][research_yang_1970].
 
@@ -567,7 +583,7 @@ $$a = \frac{1.0}{0.6} = 1.67 \, \text{m/s}^{2} = 0.17 g$$
 
 ### The Cockpit, and a Pilot Who Cannot See
 
-The pilot's seat pivoted forty-five degrees so that he was not lying flat on his back during vertical flight. Forty-five degrees is a compromise and it leaves the problem half-solved, because his line of sight remains
+The pilot's seat pivoted forty-five degrees toward the vertical for the landing, according to the [Smithsonian record][ref_nasm_x13], so that he was not lying flat on his back during vertical flight. Forty-five degrees is a compromise and it leaves the problem half-solved, because his line of sight remains
 
 $$90^{\circ} - 45^{\circ} = 45^{\circ}$$
 
@@ -583,19 +599,19 @@ $$\beta = 90^{\circ} - \sigma$$
 
 **Driving $\beta$ to zero means laying the pilot flat on his back facing the tail**, which is not a position from which to fly an aeroplane that is about to become horizontal. Forty-five degrees is the compromise, and it leaves the fuselage between the pilot and the target.
 
-**The reported and decisive difficulty is that the underside of the fuselage sits between the pilot and the trailer he is trying to land on.** He approached the recovery point without being able to see it and depended on a ground observer to talk him down.
+**The reported and decisive difficulty is that the underside of the fuselage sits between the pilot and the trailer he is trying to land on.** The [Smithsonian record][ref_nasm_x13] calls the obscured view the concept's greatest flaw. He approached the recovery point without being able to see it and depended on a ground observer to talk him down.
 
-That is not a detail. The vertical landing is a closed-loop position-control task with a tolerance of about a third of a metre on a hook, executed by a pilot who cannot see the target, in an aircraft with eleven minutes of fuel, in ground effect. The visual requirements for exactly this class of task were being measured at the time in [Garren et al 1965][research_garren_1965] and [Behan and Siciliani 1965][research_behan_siciliani_1965], and the general problem of a pilot's acceptance of a landing display is [Behan and Siciliani 1967][research_behan_siciliani_1967] and [Rhoads 1967][research_rhoads_1967].
+That is not a detail. The vertical landing is a closed-loop position-control task with a tolerance of about a third of a metre on a hook, executed by a pilot who cannot see the target, in an aircraft with thirteen minutes of fuel, in ground effect. The visual requirements for exactly this class of task were being measured at the time in [Garren et al 1965][research_garren_1965] and [Behan and Siciliani 1965][research_behan_siciliani_1965], and the general problem of a pilot's acceptance of a landing display is [Behan and Siciliani 1967][research_behan_siciliani_1967] and [Rhoads 1967][research_rhoads_1967].
 
 **What happens to a pilot's performance when the visual cues are removed was eventually measured directly**, in [Howard 1976][research_howard_1976], with the related question of how much an imperfect instrument substitute costs in [Howard 1975][research_howard_1975]. The answers the field arrived at were all forms of giving the information back rather than improving the view. Peripheral vision displays are [Vallerie 1967][research_vallerie_1967], a head-up display for a tilt-wing vertical take-off aircraft is [Gold and Walchli 1974][research_gold_walchli_1974], and the mature control and display combinations for instrument approach and shipboard landing are [Merrick 1981][research_merrick_1981], [Merrick 1984][research_merrick_1984], and [Farris et al 1983][research_farris_1983]. **Every one of those is a way of telling the pilot what he cannot see, and the X-13 had none of them.** Windshield optics as a contributor to the same problem is [Grether 1973][research_grether_1973].
 
 ### Spin and Tumble
 
-A tail-sitter with a low aspect ratio and a large fuselage volume is a candidate for departure modes that a conventional aeroplane does not have, and the X-13 was tested for them in the Langley spin tunnel before it flew. **This is the one part of the programme with a complete surviving primary record**, in [Bowman 1955][research_bowman_1955] on free-spinning and recovery, [Bowman 1955, Emergency Spin-Recovery Device for][research_bowman_1955_2] on the emergency recovery device, and [Bowman 1957][research_bowman_1957] as the concluding report covering spinning, tumbling, and recovery together. The equivalent studies for the propeller tail-sitters are [Lee 1952][research_lee_1952] and [Lee 1953][research_lee_1953], with the spin tunnel applied to conventional fighters for comparison in [Lee and Libbey 1961][research_lee_libbey_1961] and the deep-stall descent, which is the nearest conventional analogue to a tumble, in [Blanchard 1981][research_blanchard_1981]. Earlier free-spinning investigations in the same facility are [Bennett 1947][research_bennett_1947] and [Healy 1958][research_healy_1958], and the rotational-flow aerodynamics that eventually explained what the tunnel had been measuring is [Bihrle and Bowman 1980][research_bihrle_bowman_1980].
+A tail-sitter with a low aspect ratio and a large fuselage volume is a candidate for departure modes that a conventional aeroplane does not have, and the X-13 was tested for them in the Langley spin tunnel before it flew. **This is the one part of the programme with a complete surviving primary record**, in [Bowman 1955][research_bowman_1955] on free-spinning and recovery, [Bowman 1955, Emergency Spin-Recovery Device for][research_bowman_1955_2] on the parachute needed for emergency recovery during demonstration spins, which it sets at a stable parachute 12.73 feet in diameter, and [Bowman 1957][research_bowman_1957] as the concluding report covering spinning, tumbling, and recovery together. The equivalent studies for the propeller tail-sitters are [Lee 1952][research_lee_1952] and [Lee 1953][research_lee_1953], with the spin tunnel applied to conventional fighters for comparison in [Lee and Libbey 1961][research_lee_libbey_1961] and the deep-stall descent, which is the nearest conventional analogue to a tumble, in [Blanchard 1981][research_blanchard_1981]. Earlier free-spinning investigations in the same facility are [Bennett 1947][research_bennett_1947] and [Healy 1958][research_healy_1958], and the rotational-flow aerodynamics that eventually explained what the tunnel had been measuring is [Bihrle and Bowman 1980][research_bihrle_bowman_1980].
 
-Tumbling is the mode peculiar to this configuration. An aircraft pointed vertically with no forward speed has no aerodynamic restoring moment in pitch, so a disturbance can start it rotating end over end, and once tumbling it has no airspeed with which to stop.
+Tumbling was the mode the Air Force asked about, because an aircraft pointed vertically with no forward speed has no aerodynamic restoring moment in pitch. **The model did not tumble.** [Bowman 1957][research_bowman_1957] reports that the airplane will not tumble end over end but may instead enter a wild gyrating motion, a roll with simultaneous yaw and pitch from which recovery is doubtful, and it attributes the motion primarily to the gyroscopic moment of a large engine in a small airframe.
 
-The recovery is an angular momentum problem. A tumble at rate $\omega$ carries
+Arresting a pitch rotation with the engine running is an angular momentum problem. A rotation at rate $\omega$ carries
 
 $$H = I_{yy} \omega$$
 
@@ -603,13 +619,31 @@ and the nozzle removes it at a rate equal to the moment it produces, so the time
 
 $$t = \frac{I_{yy} \omega}{T \ell \sin \theta}$$
 
-| Tumble rate | Angular momentum | Time to stop | Arc swept |
+| Pitch rate | Angular momentum | Time to stop | Arc swept |
 |---|---|---|---|
-| 0.5 rad/s | 6,998 kg m²/s | 0.26 s | 3.7 degrees |
-| 1.0 rad/s | 13,996 kg m²/s | 0.52 s | 14.8 degrees |
-| 2.0 rad/s | 27,992 kg m²/s | 1.04 s | 59.3 degrees |
+| 0.5 rad/s | 2,740 kg m²/s | 0.10 s | 1.5 degrees |
+| 1.0 rad/s | 5,480 kg m²/s | 0.20 s | 5.8 degrees |
+| 2.0 rad/s | 10,960 kg m²/s | 0.41 s | 23.2 degrees |
 
-**With the engine running a tumble is stopped in under a second.** With the engine out there is no nozzle and no reaction control whatever, because both are powered by it, and the aircraft has no means of recovery at all. **That is why a spin recovery parachute was tested**, and it is the sharpest illustration in the article of what it means to control an aircraft with its propulsion.
+**With the engine running a pitch rotation is stopped in under half a second.** The engine that makes this possible is also the source of the trouble, because its rotor carries angular momentum of its own. [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2] represented it on the one-fifth model with a flywheel of 39,500 pound square inches per second, which it describes as approximately the correctly scaled value. Under Froude scaling angular momentum grows as the four and a half power of length, so the full-scale engine carries about
+
+$$H_{e} = 39{,}500 \times 5^{4.5} \, \text{lb in}^{2}/\text{s} = 1.62 \times 10^{4} \, \text{kg m}^{2}/\text{s}$$
+
+which is about three times the airframe's own angular momentum at one radian per second in pitch. Any pitch rate $\Omega$ then produces a yawing moment
+
+$$M_{g} = H_{e} \, \Omega$$
+
+and a pitch rate of only 0.1 radians per second produces 1,615 newton metres, which is 82 percent of the yaw criterion computed above. **This is why the model could not be hovered without dampers.** Smith reports that with the engine's gyroscopic effect represented the pilots found the model completely uncontrollable in the hover, that pitch and yaw dampers made it easy to fly, and that every transition was flown with them. The full-scale aircraft carried them too. The [Smithsonian record][ref_nasm_x13] states that dampers were installed after the conventional flights revealed oscillation problems and that a stability augmentation system blended the conventional and hovering controls.
+
+**With the engine out there is no nozzle and no reaction control**, because both are powered by it. Bowman simulated a power failure in the hover by dropping the model from rest in a nose-up attitude. It fell tail first, nosed over at up to 130 degrees per second, and was yawed by the engine's gyroscopic moment into what appeared to be a right spin, from which the report expects recovery with rudder and aileron once the engine has run down. It puts the minimum altitude for a belly landing after a power failure in the hover at
+
+$$h_{\min} = 900 + 800 + 2500 = 4200 \, \text{ft}$$
+
+the sum of the fall before the spin, the spin recovery, and a pull-out distance assumed from a similar configuration. The report describes the first term as a free fall over the time to spin entry and gives that time as about 6.5 seconds, which in free fall is
+
+$$h = \tfrac{1}{2} g t^{2} = \tfrac{1}{2} \times 32.17 \times 6.5^{2} = 680 \, \text{ft}$$
+
+so its two figures are not mutually consistent, and 900 feet corresponds to about 7.5 seconds. **Either way every vertical take-off and landing was necessarily flown far below the height from which a flame-out could be survived**, and the parachute of [Bowman 1955, Emergency Spin-Recovery Device for][research_bowman_1955_2] was sized for demonstration spins at altitude rather than for that case. It is the sharpest illustration in the article of what it means to control an aircraft with its propulsion.
 
 ### Ground Effect and the Pad
 
@@ -643,44 +677,54 @@ $$\frac{141{,}000}{1382} = 102$$
 
 ## The Flight Test Record
 
-Two aircraft were built, serial numbers 54-1619 and 54-1620, under the Ryan company designation Model 69. The programme ran without loss of an aircraft or injury to a pilot, which for a first-of-type vertical take-off aircraft is a notable result on its own.
+Two aircraft were built, serial numbers 54-1619 and 54-1620, under the Ryan company designation Model 69 that a [compilation][ref_x13] gives. Both survived the programme, as [NASA's inventory of X-vehicles][ref_american_x_vehicles] records, which for a first-of-type vertical take-off aircraft is a notable result on its own.
 
 | Date | Event | Aircraft |
 |------|-------|----------|
-| 1955-12-10 | First conventional flight, temporary landing gear | 54-1619 |
-| 1956-05-28 | First vertical hovering flight | 54-1619 |
-| 1957-04-11 | First complete cycle, vertical to horizontal to vertical | 54-1620 |
-| 1957-07-28 | Demonstration across the Potomac, landing at the Pentagon | 54-1620 |
+| 1955-12-10 | First conventional flight, temporary tricycle landing gear | 54-1619 |
+| 1956-05-28 | First vertical take-off and landing, on a temporary tail rig, and first flight of the second aircraft | both |
+| 1956-11-28 | First transition from horizontal to vertical flight and back | not stated |
+| 1957-04-11 | First complete cycle, from the trailer to the trailer | 54-1620 |
+| 1957-07-30 | Demonstration at the Pentagon | 54-1620 |
+| 1957-09-30 | Last flight | not stated |
+
+The dates are those of the [Smithsonian record][ref_nasm_x13]. The [Air Force museum][ref_nmusaf_x13] confirms the conventional first flight in December 1955, the first hovering in May 1956, and the full cycle by the second X-13, the aircraft it now displays, at Edwards Air Force Base in April 1957. **The sources disagree about the end.** [NASA's inventory][ref_american_x_vehicles] gives the last flight as 30 July 1957 and the number of flights as unknown, and a [compilation][ref_x13] dates the Washington demonstration 28 and 29 July.
 
 The sequence is worth reading as a decomposition. **The programme separated the problem into the two halves that could be tested independently and only then joined them.** The value of doing so is that a joint first attempt confounds the failures. If the wing, the hover, and the join each work with probability $p$, a single all-up attempt returns an unambiguous result only with probability
 
 $$p^{3}$$
 
-which for $p = 0.8$ is 0.51, while testing in sequence identifies which of the three failed with certainty. The first aircraft flew conventionally on temporary undercarriage to establish that it was an aeroplane, then hovered on a tether and free to establish that it was a hovering machine, and the two halves were joined sixteen months later. That ordering is the same one the [X-5][related_post_a302_bell_x5] used for variable sweep and the X-13's own predecessors used for the propeller case, and it is what a research aircraft programme looks like when it is being run carefully.
+which for $p = 0.8$ is 0.51, while testing in sequence identifies which of the three failed with certainty. The first aircraft flew conventionally on temporary undercarriage to establish that it was an aeroplane, then took off and landed vertically on a temporary steel-tube tail rig with castering wheels to establish that it was a hovering machine, while its pilots practised hooking onto a rope strung between two towers with a replaceable wooden nose fitted, according to the [Smithsonian record][ref_nasm_x13]. The two halves were joined in the air six months after the first hover, and brought down to the trailer four and a half months after that. That ordering is the same one the [X-5][related_post_a302_bell_x5] used for variable sweep and the X-13's own predecessors used for the propeller case, and it is what a research aircraft programme looks like when it is being run carefully.
 
-The interval from first flight to full cycle is 488 days, or 1.34 years. The pilots were Ryan's chief test pilot Peter Girard and Ryan test pilot Lou Everett.
+The intervals are 170 days from first flight to first hover, 184 days from first hover to first transition, and 134 days from there to the full cycle,
+
+$$170 + 184 + 134 = 488 \, \text{days}$$
+
+or 1.34 years from first flight to full cycle. The pilots were Ryan's chief test pilot Peter Girard and Ryan test pilot Lou Everett, whom the [Smithsonian record][ref_nasm_x13] names as the two who practised the hook-on technique and spells Everrett.
 
 **A programme of two aircraft and a handful of flights cannot support a statistical statement and should not be asked to.** What it can support is a statement about sequence, and the sequence is the finding.
 
-Each phase settled a different one of the article's relations. **The conventional flight on temporary undercarriage settled the wing**, which is to say it demonstrated the stall speed and the low-speed handling that the crossover ratio is measured against. **The hovering flights settled the reaction and vectoring authority**, which the relations above put at 3.86 times the criterion in pitch, and they also settled the position-loop problem well enough for the pilot to hold station. **The full cycle settled only the joining of the two**, and it is the shortest of the three questions because the transition itself lasts about five seconds.
+Each phase settled a different one of the article's relations. **The conventional flight on temporary undercarriage settled the wing**, which is to say it demonstrated the stall speed and the low-speed handling that the crossover ratio is measured against. **The hovering flights settled the reaction and vectoring authority**, which the relations above put at 9.87 times the criterion in pitch, and they also settled the position-loop problem well enough for the pilot to hold station. **The full cycle settled only the joining of the two**, and it is the shortest of the three questions because the transition itself lasts about five seconds.
 
-That ordering also explains the sixteen month interval. The two ends of the problem were tested for eleven months before anybody attempted the middle, which is a programme deliberately arranging that the only untested thing on the day of the full cycle was the handover itself. The variable-stability technique that would later let one aircraft stand in for many is [Harper 1955][research_harper_p_1955] and, for this problem specifically, [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962]. Simulation as the alternative to flying every case arrives with [McIntyre 1963][research_mcintyre_1963] and [McCormick 1969][research_mccormick_1969].
+That ordering also explains the sixteen month interval. The transition was first flown 184 days after the first hover, at altitude in a [compilation's][ref_x13] account, and only 134 days later from the trailer, so the only untested thing on the day of the full cycle was flying the whole sequence near the ground. The variable-stability technique that would later let one aircraft stand in for many is [Harper 1955][research_harper_p_1955] and, for this problem specifically, [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962]. Simulation as the alternative to flying every case arrives with [McIntyre 1963][research_mcintyre_1963] and [McCormick 1969][research_mccormick_1969].
 
 ### What the Full Cycle Actually Demonstrated
 
-**It demonstrated the crossover.** Everything in the article's first section is a prediction that the two control systems hand over cleanly, and the 11 April 1957 flight is the measurement. The aircraft went from a state in which its wing did nothing and its nozzle did everything to the reverse, and back, without an uncontrollable band in between.
+**It demonstrated the crossover.** Everything in the article's first section is a prediction that the two control systems hand over cleanly, and the transitions flown from 28 November 1956, completed from trailer to trailer on 11 April 1957, are the measurement. The aircraft went from a state in which its wing did nothing and its nozzle did everything to the reverse, and back, without an uncontrollable band in between.
 
 **It did not demonstrate anything about the mission**, because there was no mission. The aircraft carried no armament, no radar, no operational fuel load, and no capability to land anywhere except on its own trailer.
 
 ### The Pentagon Flight
 
-On 28 and 29 July 1957 the X-13 was flown in Washington, crossing the Potomac and landing at the Pentagon. It is the most photographed event of the programme and the least technical. **A demonstration flown for an audience of officials is a statement that the technical question has been answered and the remaining question is whether anyone wants the answer.** The answer turned out to be no, and the Air Force declined to continue on the stated grounds that there was no operational requirement.
+On 30 July 1957 the second X-13 was demonstrated at the Pentagon before more than 3,000 military officers and journalists, according to the [Smithsonian record][ref_nasm_x13], which presents it as an illustration of the dispersed operating site concept. A [compilation][ref_x13] dates the Washington flights 28 and 29 July and describes a crossing of the Potomac. It is the most photographed event of the programme and the least technical. **A demonstration flown for an audience of officials is a statement that the technical question has been answered and the remaining question is whether anyone wants the answer.** The answer turned out to be no, and the primary accounts give money and size rather than doctrine as the reason. The [Smithsonian record][ref_nasm_x13] says competing programmes reduced the funds available, the [Air Force museum][ref_nmusaf_x13] says the design had limited operational potential and that a lack of funding shut the programme down in 1958, and [NASA's inventory][ref_american_x_vehicles] attributes the absence of a production follow-on mainly to the aircraft's small size and limited payload and to the inability of existing turbojets to power a larger version. The statement that the Air Force found no operational requirement is a [compilation's][ref_x13].
 
 ## Comparison With Ground Prediction
 
 ### What the Models Got Right
 
 The X-13 was preceded by an unusually complete model programme, and the single most directly relevant document is [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2] on hovering and transition flight tests of a one-fifth-scale model of the aircraft. **A free-flight model at one-fifth scale can perform the entire manoeuvre the full-scale aircraft exists to perform**, which is unusual, and the reason it works is that the problem is dominated by gravity rather than by viscosity.
+
+**The model confirmed the handover and exposed a lateral weakness.** Smith flew slow constant-altitude transitions in the Langley full-scale tunnel over full-scale speeds of 0 to 110 knots and angles of attack from about 20 to 90 degrees, and found the transition very easy, with the swivelling nozzle giving adequate pitch control throughout, so that the elevons were trimmed and not used. That is what the relations above predict, since the nozzle supplies nearly ten times the pitch criterion. Between about 25 and 45 degrees angle of attack, however, the model was directionally unstable and settled into a rolled and sideslipped attitude, and restoring zero bank took approximately the maximum roll control available on the airplane. **That is the one finding of the model programme that the authority arithmetic does not anticipate**, because it is a stability problem rather than a control-power one.
 
 Dynamic similarity in a gravity-dominated problem requires the Froude number to match,
 
@@ -695,12 +739,16 @@ For the one-fifth model that gives
 | Quantity | Full scale | One-fifth model |
 |---|---|---|
 | Stall speed | 52.5 m/s | 23.5 m/s |
-| Crossover speed | 48.2 m/s | 21.6 m/s |
+| Crossover speed | 30.2 m/s | 13.5 m/s |
 | Transition time | 4.9 s | 2.19 s |
 | Transition distance | 128 m | 25.6 m |
 | Mass | 3053 kg | 24.4 kg |
 
-**A twenty-four kilogramme model flying at twenty-three metres per second reproduces the manoeuvre, and does it twice as fast.** That last point is the practical difficulty, since everything the observer has to watch happens at 2.24 times the rate.
+**A twenty-four kilogramme model flying at twenty-three metres per second reproduces the manoeuvre, and does it twice as fast.** That last point is the practical difficulty, since everything the observer has to watch happens at 2.24 times the rate. The model actually flown was lighter than the scaled mass, at 39.3 pounds in its rocket-powered tests in Smith's table of mass characteristics, against
+
+$$\frac{39.3}{6730 / 125} = \frac{39.3}{53.8} = 0.73$$
+
+of the Froude-scaled weight.
 
 **The technique was a Langley speciality and it has a literature of its own.** Its development for low-speed and vertical take-off configurations is [Williams and Butler 1964][research_williams_butler_1964], its application to a free-flying model of a vertical take-off configuration is [Paulson and Shanks 1961][research_paulson_shanks_1961], and the radio-controlled variant used for departure work is [Burk and Wilson 1975][research_burk_wilson_1975]. An earlier example of the same method applied to another aircraft in this series is [Hewes and Hassell 1960][research_hewes_hassell_1960] on a one-seventh model of a North American design. The wind-tunnel free-flight technique in its general form is [Platou 1968][research_platou_1968], with the powered-model balance problem in [Dougherty 1966][research_dougherty_1966] and the oscillatory derivative measurement that supports it in [Owen and Cox 1966][research_owen_cox_1966] and [Barzda 1966][research_barzda_1966].
 
@@ -720,7 +768,7 @@ The spin tunnel work in [Bowman 1955][research_bowman_1955] and [Bowman 1957][re
 
 $$t = \frac{\zeta}{c}$$
 
-contains no length at all, so it neither improves nor worsens with scale, and a tethered or externally powered model carries no fuel fraction whatever. **The constraint is not merely mis-scaled in a model. It is absent from it**, and a model that hovers for as long as its tether is connected gives no warning that the full-scale aircraft has eleven minutes.
+contains no length at all, so it neither improves nor worsens with scale, and a tethered or externally powered model carries no fuel fraction whatever. **The constraint is not merely mis-scaled in a model. It is absent from it**, and a model that hovers for as long as its tether is connected gives no warning that the full-scale aircraft has thirteen minutes.
 
 **A model does not load the ground.** For geometric scaling at a fixed thrust-to-weight ratio the thrust goes as the cube of length and the nozzle area as the square, so the disc loading goes as the first power,
 
@@ -777,13 +825,13 @@ The most useful way into the modern literature is to apply the article's own rel
 | Small quadrotor tail-sitter | 25 kg | 488 Pa | 490 Pa | 0.99 | 22.8 min |
 | Medium tail-sitter | 120 kg | 462 Pa | 588 Pa | 0.79 | 23.4 min |
 | Large lift-plus-cruise | 2000 kg | 542 Pa | 981 Pa | 0.55 | 21.6 min |
-| **Ryan X-13** | **3053 kg** | **141,000 Pa** | **1,687 Pa** | **84** | **11.0 min** |
+| **Ryan X-13** | **3053 kg** | **141,000 Pa** | **1,687 Pa** | **84** | **13.4 min** |
 
 Two things fall out, and the second corrects the first.
 
 **The disc loading and the wing loading of a modern electric tail-sitter are the same quantity to within a factor of two.** This article derived, from the XFY-1 comparison, that a designer who wants stall-level dynamic pressure on the control surfaces in a hover should choose a disc loading equal to the wing loading. **A small electric tail-sitter satisfies that condition without anyone arranging it**, because both quantities are set by the same structural and aerodynamic scaling once the propulsor is a set of rotors rather than a jet. The X-13's ratio was 84 and the modern ratio is near one. **The design difference that separated the X-13 from the XFY-1 has been dissolved rather than solved.**
 
-**The endurance advantage is not what it looks like.** Twenty-three minutes against eleven suggests the energy problem has halved, and it has not.
+**The endurance advantage is not what it looks like.** Twenty-three minutes against thirteen suggests the energy problem has nearly halved, and it has not.
 
 The two vehicles obey different relations. A jet in the hover burns fuel in proportion to the thrust it must produce, so
 
@@ -797,11 +845,11 @@ and its endurance is the stored energy divided by that power,
 
 $$t = \frac{\zeta_{b} \, e \, \eta}{g \, v_{i}}$$
 
-The modern figures in the table assume a battery at thirty percent of the mass while the X-13's fuel was seventeen. Holding the energy mass fraction equal, with an induced velocity of 14.1 metres per second,
+The modern figures in the table assume a battery at thirty percent of the mass while the X-13's fuel was twenty-one. Holding the energy mass fraction equal, with an induced velocity of 14.1 metres per second,
 
-$$t = \frac{0.170 \times 9.0 \times 10^{5} \times 0.70}{9.807 \times 14.1} = 774 \, \text{s} = 12.9 \, \text{min}$$
+$$t = \frac{0.208 \times 9.0 \times 10^{5} \times 0.70}{9.807 \times 14.1} = 948 \, \text{s} = 15.8 \, \text{min}$$
 
-against the X-13's 11.0. **Seventy years of propulsion and energy storage has improved hovering endurance at fixed energy mass fraction by about seventeen percent.**
+against the X-13's 13.4. **Seventy years of propulsion and energy storage has improved hovering endurance at fixed energy mass fraction by about eighteen percent.**
 
 The comparison is cleanest expressed as an effective specific consumption. A jet in the hover obeys $t = \zeta / c$ and a rotor obeys the relation above, so the rotor's equivalent $c$ is
 
@@ -901,11 +949,11 @@ Three of the article's findings have no modern remedy and appear unchanged in th
 
 ## Where the Framing Breaks Down
 
-**The control-power criteria are borrowed from later work.** The half a radian per second squared in pitch and one in roll used throughout are figures the field settled on after the X-13 flew, and applying them to the X-13 is anachronistic. It is done here because they are the best available statement of what adequate means, and because the article's conclusion, that the crossover falls close to the stall speed, is a ratio and is insensitive to the criterion.
+**The control-power criteria are borrowed from later work.** The half a radian per second squared in pitch and one in roll used throughout are figures the field settled on after the X-13 flew, and applying them to the X-13 is anachronistic. It is done here because they are the best available statement of what adequate means, and because the article's conclusion, that the crossover falls well below the stall speed, survives a large error in the criterion, since the ratio grows only as its square root and would reach one only if the criterion were three times larger.
 
-**The control criteria are anachronistic in a second way as well**, since they were written for aircraft with automatic stabilisation and the X-13 had none of consequence. [Friend 1964][research_friend_1964] and [Hoffman 1971][research_hoffman_1971] both size reaction control against a stabilised airframe, and an unaugmented aircraft asks more of the pilot for the same control power.
+**The control criteria fit the X-13 better in one respect than their date suggests**, since they were written for aircraft with automatic stabilisation and the X-13 had it. [Friend 1964][research_friend_1964] and [Hoffman 1971][research_hoffman_1971] both size reaction control against a stabilised airframe, and the X-13 flew with pitch and yaw dampers and a stability augmentation system, which the [Smithsonian record][ref_nasm_x13] records and the model tests of [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2] show to have been necessary.
 
-**The elevon and aileron effectiveness figures are assumed.** A pitching-moment increment of 0.10 and a rolling-moment increment of 0.05 are plausible for a tailless delta and are not measured values for this aircraft. The crossover speed varies as the inverse square root of the assumed effectiveness,
+**The elevon and aileron effectiveness figures are assumed.** A pitching-moment increment of 0.10 and a rolling-moment increment of 0.05 are plausible for a tailless delta and are not measured values for this aircraft. They are referred to the geometric mean chord of 2.77 metres, while the mean aerodynamic chord that [Bowman 1957][research_bowman_1957] tabulates is 145.49 inches, or 3.70 metres, so what is assumed is the product of chord and coefficient. The crossover speed varies as the inverse square root of the assumed effectiveness,
 
 $$V_{\text{cross}} \propto (\Delta C_{m})^{-1/2}$$
 
@@ -913,15 +961,15 @@ so the exposure is direct.
 
 | Elevon effectiveness relative to the assumption | Crossover speed | Ratio to stall |
 |---|---|---|
-| half | 68.2 m/s | 1.298 |
-| three quarters | 55.7 m/s | 1.060 |
-| as assumed | 48.2 m/s | 0.918 |
-| one and a half times | 39.4 m/s | 0.750 |
-| twice | 34.1 m/s | 0.649 |
+| half | 42.6 m/s | 0.813 |
+| three quarters | 34.8 m/s | 0.663 |
+| as assumed | 30.2 m/s | 0.575 |
+| one and a half times | 24.6 m/s | 0.469 |
+| twice | 21.3 m/s | 0.406 |
 
-**If the elevons were half as effective as assumed the crossover would sit thirty percent above the stall speed**, and the article's central claim would invert. That is the single largest exposure in the analysis and it rests on a coefficient nobody measured for this aircraft.
+**If the elevons were half as effective as assumed the crossover would still sit nearly a fifth below the stall speed**, and the central claim would invert only if they were less than a third as effective as assumed, since the ratio grows as the inverse square root of the effectiveness and $0.575^{2} = 0.33$. That remains the single largest exposure in the analysis and it rests on a coefficient nobody measured for this aircraft.
 
-**The fuel figure is derived, not reported.** The 1,146 pound fuel load is the useful load minus an assumed pilot weight, and no fuel capacity was found for this aircraft. The eleven minute hover endurance moves in direct proportion.
+**The fuel figure is derived from tabulated loadings, not reported as a capacity.** The 1,400 pound fuel load follows from the differences between the full, quarter and twentieth fuel loadings of the spin-tunnel table, which agree exactly, but those are loadings possible on the airplane rather than measured ones, and no document found states a tank capacity. The thirteen minute hover endurance moves in direct proportion.
 
 **The control-power criteria have themselves been contested throughout.** Treating them as settled is a convenience. [Carpenter and Jenny 1964][research_carpenter_jenny_1964] approaches low-speed control criteria statistically, [Goldberger 1966][research_goldberger_1966] argues about the relative importance of the requirement at all, and the longitudinal criteria were still being evaluated and re-evaluated in [Gertsen and Shomber 1965][research_gertsen_shomber_1965], [Martin 1963, Investigation Of Longitudinal Hand][research_martin_1963_2], and [Eney 1967][research_eney_1967]. **A number this article uses as though it were a physical constant was an active dispute for two decades**, and the later synthesis in [Anderson 1979][research_anderson_1979] is measuring a real aircraft against requirements that had by then changed several times.
 
@@ -929,11 +977,11 @@ so the exposure is direct.
 
 **The side area and drag coefficient in the crosswind table are guesses.** Ten square metres and 0.8 are plausible for a vertical aircraft of this size and are not derived from its geometry, and the forces scale directly with both.
 
-**Treating the programme as a failure of concept understates the demonstration.** The aircraft did what it was built to do on the first attempt at the full cycle and never lost an aircraft. An article organised around why the idea did not proceed can read as though the vehicle did not work, and it worked.
+**Treating the programme as a failure of concept understates the demonstration.** The aircraft did what it was built to do, and both examples survived it. An article organised around why the idea did not proceed can read as though the vehicle did not work, and it worked.
 
 ## What the X-13 Was Worth
 
-**It established that a pure jet can complete the cycle.** This was genuinely open in 1953 and closed in 1957, and no aircraft since has needed to ask it again.
+**It established that a pure jet can complete the cycle.** This was genuinely open when the Air Force contract was let and closed in 1957, and no aircraft since has needed to ask it again.
 
 **It established that the control handover is clean for this configuration.** The crossover computed above is a prediction and the flight is the confirmation.
 
@@ -953,7 +1001,9 @@ That matters for the argument the closing article of this series will have to ma
 
 **The X-13's own record is thin and its family's record is thick.** Querying the technical archive of the National Aeronautics and Space Administration, NASA, for the popular name returns nothing at all, and querying for the manufacturer and designation together returns a small set, of which the spin tunnel series and the one-fifth-scale hovering and transition tests are the substance. **The lesson is the same one the [X-10][related_post_a307_north_american_x10] taught in a different form**, which is that a vehicle is indexed under the name its engineers used and not the name the public learned.
 
-Around that thin core sits an unusually complete literature on the configuration class, because the Navy's two propeller tail-sitters were studied exhaustively at Langley before either flew. **An article about the X-13 is therefore better supported than an article about the X-13 alone would be**, and most of the aerodynamic statements here rest on documents about the XFY-1 and the XFV-1.
+Around that thin core sits an unusually complete literature on the configuration class, because the Navy's two propeller tail-sitters were studied exhaustively at Langley before either flew. **An article about the X-13 is therefore better supported than an article about the X-13 alone would be**, and most of the aerodynamic statements here rest on documents about the XFY-1 and the XFV-1. The exceptions are the airplane's own dimensions, loadings and moments of inertia, which come from the tables of [Bowman 1957][research_bowman_1957], and the roll-nozzle geometry, which comes from the one-fifth model of [Smith 1958, Hovering and Transition Flight Tes][research_smith_1958_2].
+
+**The aircraft's own history rests on institutional records.** The [Smithsonian record][ref_nasm_x13], the [Air Force museum's fact sheet][ref_nmusaf_x13] and [NASA's inventory of X-vehicles][ref_american_x_vehicles] are the sources for the programme's dates, and they disagree about the Washington demonstration and the last flight, as the flight test record notes. The Smithsonian record lists a curatorial file and a 2002 magazine history among its sources, and neither is available here.
 
 The contrast with the [X-11][related_post_a308_convair_x11] and [X-12][related_post_a309_convair_x12] is instructive. Those vehicles left a thick archive because they became launch vehicles and flew for sixty years. The X-13 left almost nothing because it stopped, and what survives is the research literature of the question rather than the engineering record of the article.
 
@@ -971,17 +1021,19 @@ The defence archive contributes little here and that absence is itself informati
 
 ## Epistemic State
 
-**Historical fact, well supported.** Two X-13 aircraft were built by Ryan Aeronautical, serials 54-1619 and 54-1620, under the company designation Model 69. The Navy Bureau of Aeronautics contracted Ryan in 1947 under the designation F3R to study vertically launched jet fighters, and the Air Force contracted the X-13 in 1953. The powerplant is a Rolls-Royce Avon RA.28 of 10,000 pounds thrust. The first conventional flight was 10 December 1955, the first vertical hovering flight 28 May 1956, and the first complete cycle 11 April 1957. The aircraft was demonstrated in Washington on 28 and 29 July 1957, landing at the Pentagon. Pitch and yaw control in hover came from vectored engine thrust and roll control from compressed-air jets outboard of the wingtip endplates. The pilot's seat pivoted forty-five degrees. The aircraft launched from and recovered onto a wire on a tilting trailer using a hook. The Air Force declined to continue for lack of an operational requirement. Both aircraft survive, 54-1619 with the San Diego Air and Space Museum on loan from the Smithsonian and 54-1620 at the National Museum of the United States Air Force.
+**Historical fact, well supported.** Two X-13 aircraft were built by Ryan, serials 54-1619 and 54-1620. The Navy Bureau of Aeronautics contracted Ryan in 1947 to study vertically launched jet fighters, and a jet test rig made the first manned jet hovering flight on 24 November 1953. The powerplant is a Rolls-Royce Avon of 10,000 pounds thrust. The first conventional flight was 10 December 1955, the first vertical take-off and landing 28 May 1956, the first transition 28 November 1956, and the first complete cycle from the trailer 11 April 1957. The second aircraft was demonstrated at the Pentagon in July 1957. Pitch and yaw control in hover came from vectored engine thrust and roll control from bleed-air jets at the wingtips, and the aircraft flew with pitch and yaw dampers and a stability augmentation system. The pilot's seat pivoted forty-five degrees. The aircraft launched from and recovered onto a cable on a tilting trailer using a nose hook, with a ground observer talking the pilot down and a graduated pole on the trailer as a distance reference. Both aircraft survive, 54-1619 with the San Diego Air and Space Museum on loan from the Smithsonian and 54-1620 at the National Museum of the United States Air Force. The airplane's span, length, wing area and mean aerodynamic chord, its tabulated loadings and its moments of inertia are those of the Langley spin-tunnel reports, which also find that it would not tumble end over end, that a power failure in the hover leads to a spin, and that about 4,200 feet are needed to recover. The one-fifth model needed pitch and yaw dampers to hover once the engine's gyroscopic effect was represented, and showed a rolled and sideslipped trim between about 25 and 45 degrees angle of attack.
 
-**Reported but from compilations rather than programme documents.** The dimensions of 23 feet 5 inches length, 21 feet span, 15 feet 2 inches height, and 191 square feet of wing area. The weights of 5,334 pounds empty, 6,730 pounds gross, and 7,200 pounds maximum. The identification of the test pilots. The description of the pilot's sight line being obstructed by the fuselage during the landing approach and of his dependence on outside assistance.
+**Reported, with sources in disagreement.** The Air Force contract year, July 1954 in the Smithsonian record and 1953 in compilations. The date of the Washington demonstration, 30 July 1957 in the Smithsonian record and 28 and 29 July in a compilation. The last flight, 30 September 1957 in the Smithsonian record and 30 July 1957 in NASA's inventory. The engine designation, RA.28-49 in the Smithsonian record and R.A. 14 in the spin-tunnel report. The reason the programme ended, which is funding and limited operational potential in the two museum records, size, payload and the lack of a larger engine in NASA's inventory, and the absence of an operational requirement in a compilation. The gross weight, 6,730 pounds in compilations against 6,696 and 6,958 pounds in the spin-tunnel loadings, 7,313 pounds in the Smithsonian record and a 7,200 pound maximum in the Air Force museum's.
 
-**Assumed for the purpose of calculation and stated as such.** The specific fuel consumption of 0.93 pounds per pound of thrust per hour, which is a figure quoted for an Avon variant rather than for the RA.28. The 250 pound allowance for pilot and equipment, from which the fuel load is derived. The maximum lift coefficient of 1.0. The elevon pitching-moment increment of 0.10, the aileron rolling-moment increment of 0.05, and the rudder yawing-moment increment of 0.06. The pitch and roll radii of gyration at 0.30 of length and 0.20 of span, and the yaw inertia taken five percent above the pitch inertia. The control power criteria of 0.5, 1.0, and 0.3 radians per second squared in pitch, roll, and yaw. The battery specific energy of 250 watt-hours per kilogramme, the battery mass fraction of thirty percent assumed for the modern reference vehicles and of 0.17 chosen to match the X-13's fuel fraction in the equal-fraction comparison, and the rotor figure of merit of 0.70 used in the electric comparison. The independent success probability of 0.8 used to illustrate the value of testing in sequence. The 3.5 metre nozzle moment arm. The engine mass flow of 70 kilogrammes per second and exhaust density of 0.35 kilogrammes per cubic metre. The bleed velocity of 500 metres per second. The cruise speed of 200 metres per second and lift-to-drag ratio of six. The 1,500 pascal disc loading taken as representative of the XFY-1 class. The ten square metre side area and drag coefficient of 0.8 for the crosswind case. The one second engine spool time. The 0.3 metre hook tolerance and the closure rates used against it. The undercarriage weight fraction of three to five percent of gross. The 0.3 metre arresting stroke.
+**Reported in compilations and museum records but in no programme document found.** The company designation Model 69 and the F3R designation. The 15 feet 2 inches height. The 5,334 pound empty weight. The identification of the test pilots. The statement that the first transitions were flown at altitude.
 
-**Engineering analysis, derived here and independently checkable.** The distinction between the equal-authority crossing at 94.7 metres per second and the adequacy crossing at 48.2, and the table of the aerodynamic share of available authority showing that at the adequacy crossing the elevons still supply only a fifth of what is there. The vanishing of the nozzle's rolling moment as a cross-product identity rather than an approximation. The linear growth of required over available control moment with size, and the resulting bleed fractions of 4.5, 9.0, and 13.5 percent at one, two, and three times scale. The crossover sensitivity table showing that halving the assumed elevon effectiveness moves the ratio to 1.298 and inverts the article's central claim. The tumble recovery table, giving 0.52 seconds and 14.8 degrees of arc at one radian per second with the engine running, and none at all with it out. The Froude scaling relations and the one-fifth model table, giving 23.5 metres per second, 2.19 seconds, 25.6 metres, and 24.4 kilogrammes, with a Reynolds number 11.2 times lower. The undercarriage saving expressed as hover time, at 1.94 to 3.22 minutes. The sight-line relation and the finding that the landing point bears 135 degrees from the tail-sitter pilot against about 45 for a horizontal jet-lift aircraft. The height-loss relation and its table. The steady tilt required to hold station in a crosswind, at 0.94 degrees in ten metres per second against a drift budget of 0.47. The observation that a disc loading equal to the wing loading of 1,687 pascals puts stall-level dynamic pressure on the controls in a hover. The yaw inertia, the 4,412 newton metre yaw requirement, the 1.62 degree nozzle deflection that meets it, the 32.5 metre per second rudder crossover, and the resulting table showing that the three axes hand over in sequence at 0.62, 0.72, and 0.92 of the stall speed. The hover drift table and the finding that holding position to a metre over five seconds requires holding the mean tilt below half a degree. The crosswind force table and the finding that a ten metre per second wind is 7.0 percent of the pitch requirement as a moment and 72 metres of drift in thirty seconds as a position error. The vertical acceleration and thrust-change table and the asymmetry between bounded upward and unbounded downward authority. The loop-delay relation and the finding that 0.3 seconds consumes the whole hook tolerance at one metre per second. The sortie fuel table showing a cautious profile spending 54.6 percent of the fuel. The undercarriage weight table and the 23.5 percent of fuel load a four percent gear would have cost. The arresting deceleration of 0.17 gravities at one metre per second over 0.3 metres. The scaling of disc loading as the first power of length. The control power cost of about 450 pounds of thrust and its 14 percent of the hover margin. The lift coefficient sensitivity table for the crossover ratio. The nozzle deflection table. The thrust-to-weight ratios at gross and maximum weight, the vertical acceleration, and the time and speed at thirty metres. The aspect ratio, mean chord, and wing loading. The hover fuel flow of 104.3 pounds per minute and the resulting eleven minute endurance. The stall speed of 52.5 metres per second and its sensitivity to the lift coefficient. The pitch and roll inertias. The aerodynamic pitching moment relation and its coefficient of 3.013. The crossover speed of 48.2 metres per second, its ratio of 0.918 to the stall speed, and the argument that the ratio is independent of aircraft size. The vectored thrust moments and the margin of 3.86 over the criterion. The axial thrust loss with nozzle deflection. The puffer force of 782 newtons, its 3.5 percent of thrust, and the 4.5 percent bleed. The aileron crossover at 37.9 metres per second and its ratio of 0.72 to the stall speed. The maximum transition tilt of 47.7 degrees, the horizontal acceleration of 10.78 metres per second squared, the 4.9 second and 128 metre transition, the 12.6 pounds of fuel, and the tilt table. The propeller slipstream velocity of 49.5 metres per second and its comparison with the stall dynamic pressure. The Breguet range and radius, and the table charging hover time against radius. The exhaust velocity, dynamic pressure, nozzle area, and the disc loading ratio of 102 against a rotor of the same span. The interval of 488 days from first flight to full cycle.
+**Assumed for the purpose of calculation and stated as such.** The specific fuel consumption of 0.93 pounds per pound of thrust per hour, which is a figure quoted for an Avon variant rather than for the RA.28. The maximum lift coefficient of 1.0. The elevon pitching-moment increment of 0.10, the aileron rolling-moment increment of 0.05, and the rudder yawing-moment increment of 0.06, all referred to the geometric mean chord or the span. The control power criteria of 0.5, 1.0, and 0.3 radians per second squared in pitch, roll, and yaw. The full-scale roll-nozzle arm of 10.16 feet, scaled from the one-fifth model. The battery specific energy of 250 watt-hours per kilogramme, the battery mass fraction of thirty percent assumed for the modern reference vehicles and of 0.208 chosen to match the X-13's fuel fraction in the equal-fraction comparison, and the rotor figure of merit of 0.70 used in the electric comparison. The independent success probability of 0.8 used to illustrate the value of testing in sequence. The 3.5 metre nozzle moment arm. The engine mass flow of 70 kilogrammes per second and exhaust density of 0.35 kilogrammes per cubic metre. The bleed velocity of 500 metres per second. The cruise speed of 200 metres per second and lift-to-drag ratio of six. The 1,500 pascal disc loading taken as representative of the XFY-1 class. The ten square metre side area and drag coefficient of 0.8 for the crosswind case. The one second engine spool time. The 0.3 metre hook tolerance and the closure rates used against it. The undercarriage weight fraction of three to five percent of gross used for the table, which the spin-tunnel loadings place at 3.8 percent. The 0.3 metre arresting stroke.
 
-**Inference, argued but not established.** That the near equality between the X-13's eleven minutes of hovering and the 12.9 minutes an electric rotorcraft manages at the same energy mass fraction reflects two large factors largely cancelling, a battery forty-eight times worse per kilogramme and a rotor seventeen times better at converting power into thrust, rather than anything deeper, which the arithmetic shows and which no source states. That the three-axis handover sequence would have been perceptible to the pilot as the aircraft becoming conventional one axis at a time, which the relations imply and which no pilot report found here describes. That deleting the undercarriage was a deliberate performance decision rather than only a consequence of the launch method. That the ground observer is best understood as a delayed sensor inside the control loop, which is this article's framing and not the period's. That the coincidence between the control crossover and the stall speed is what makes the configuration workable rather than a fortunate accident. That the fuel arithmetic, the pilot's sight line, and the ground loading are the operative reasons the concept did not proceed, which the numbers support but which no document found here states in those terms. That the programme's ground testing addressed the wrong difficulty because the difficulty was not aerodynamic. That the return of the vertical-attitude concept as a remotely piloted vehicle is a recognition that the pilot was the binding constraint.
+**Engineering analysis, derived here and independently checkable.** The fuel load of 1,400 pounds from the differences between the tabulated loadings, and the 224 pounds by which the wheeled zero-fuel weight exceeds the published empty weight. The pitch, roll and yaw inertias of 5,480, 2,092 and 6,553 kilogramme square metres converted from the tabulated values. The distinction between the equal-authority crossing at 94.7 metres per second and the adequacy crossing at 30.2, and the table of the aerodynamic share of available authority showing that at the adequacy crossing the elevons still supply only about a tenth of what is there. The vanishing of the nozzle's rolling moment as a cross-product identity rather than an approximation. The linear growth of required over available control moment with size, and the resulting bleed fractions of 1.9, 3.9, and 5.8 percent at one, two, and three times scale. The crossover sensitivity table showing that halving the assumed elevon effectiveness moves the ratio only to 0.813, and that the ratio reaches one only below a third of the assumed effectiveness. The pitch-rotation table, giving 0.20 seconds and 5.8 degrees of arc at one radian per second with the engine running. The full-scale engine angular momentum of about 16,200 kilogramme square metres per second scaled from the model flywheel, and the gyroscopic yawing moment of 1,615 newton metres at a pitch rate of 0.1 radians per second. The sum of 4,200 feet for recovery after a flame-out in the hover, and the 680 feet that free fall over the stated 6.5 seconds gives against the report's 900. The Froude scaling relations and the one-fifth model table, giving 23.5 metres per second, 2.19 seconds, 25.6 metres, and 24.4 kilogrammes, with a Reynolds number 11.2 times lower, and the model's weight at 0.73 of the scaled value. The undercarriage saving expressed as hover time, at 1.94 to 3.22 minutes across the assumed range and 2.51 minutes for the tabulated 262 pounds. The sight-line relation and the finding that the landing point bears 135 degrees from the tail-sitter pilot against about 45 for a horizontal jet-lift aircraft. The height-loss relation and its table. The steady tilt required to hold station in a crosswind, at 0.94 degrees in ten metres per second against a drift budget of 0.47. The observation that a disc loading equal to the wing loading of 1,687 pascals puts stall-level dynamic pressure on the controls in a hover. The 1,966 newton metre yaw requirement, the 0.72 degree nozzle deflection that meets it, the 21.7 metre per second rudder crossover, and the resulting table showing that the three axes hand over in sequence at 0.41, 0.47, and 0.57 of the stall speed. The hover drift table and the finding that holding position to a metre over five seconds requires holding the mean tilt below half a degree. The crosswind force table and the finding that a ten metre per second wind is 17.9 percent of the pitch requirement as a moment and 72 metres of drift in thirty seconds as a position error. The vertical acceleration and thrust-change table and the asymmetry between bounded upward and unbounded downward authority. The loop-delay relation and the finding that 0.3 seconds consumes the whole hook tolerance at one metre per second. The sortie fuel table showing a cautious profile spending 44.7 percent of the fuel. The undercarriage weight table and the 19.2 percent of fuel load a four percent gear would have cost. The arresting deceleration of 0.17 gravities at one metre per second over 0.3 metres. The scaling of disc loading as the first power of length. The control power cost of about 193 pounds of thrust and its six percent of the hover margin. The lift coefficient sensitivity table for the crossover ratio. The nozzle deflection table. The thrust-to-weight ratios at gross and maximum weight, the vertical acceleration, and the time and speed at thirty metres. The aspect ratio, mean chord, and wing loading. The hover fuel flow of 104.3 pounds per minute and the resulting endurance of 13.4 minutes. The stall speed of 52.5 metres per second and its sensitivity to the lift coefficient. The pitch requirement of 2,740 newton metres. The aerodynamic pitching moment relation and its coefficient of 3.013. The crossover speed of 30.2 metres per second, its ratio of 0.575 to the stall speed, and the argument that the ratio is independent of aircraft size. The vectored thrust moments and the margin of 9.87 over the criterion. The axial thrust loss with nozzle deflection. The puffer force of 338 newtons, its 1.5 percent of thrust, and the 1.9 percent bleed. The aileron crossover at 24.5 metres per second and its ratio of 0.47 to the stall speed. The maximum transition tilt of 47.7 degrees, the horizontal acceleration of 10.78 metres per second squared, the 4.9 second and 128 metre transition, the 12.6 pounds of fuel, and the tilt table. The propeller slipstream velocity of 49.5 metres per second and its comparison with the stall dynamic pressure. The Breguet range and radius, and the table charging hover time against radius. The exhaust velocity, dynamic pressure, nozzle area, and the disc loading ratio of 102 against a rotor of the same span. The intervals of 170, 184 and 134 days, which sum to the 488 days from first flight to full cycle.
 
-**Engineering analysis of the modern comparison, derived here and independently checkable.** The three modern reference vehicles and their disc loadings, wing loadings, ratios, and hover endurances. The finding that a small electric tail-sitter's disc loading and wing loading are the same quantity to within a factor of two, against the X-13's ratio of 84. The effective specific consumption relation for a rotor, its evaluation at 250 and 400 watt-hours per kilogramme, and the comparison with the Avon showing the modern vehicle fifteen percent ahead. The endurance of 12.9 minutes at the X-13's own energy mass fraction against its 11.0, an improvement of about seventeen percent. The decomposition into a battery forty-eight times worse per kilogramme and a rotor seventeen times better at converting power into thrust.
+**Inference, argued but not established.** That the near equality between the X-13's thirteen and a half minutes of hovering and the 15.8 minutes an electric rotorcraft manages at the same energy mass fraction reflects two large factors largely cancelling, a battery forty-eight times worse per kilogramme and a rotor seventeen times better at converting power into thrust, rather than anything deeper, which the arithmetic shows and which no source states. That the three-axis handover sequence would have been perceptible to the pilot as the aircraft becoming conventional one axis at a time, which the relations imply and which no pilot report found here describes. That deleting the undercarriage was a deliberate performance decision rather than only a consequence of the launch method. That the ground observer is best understood as a delayed sensor inside the control loop, which is this article's framing and not the period's. That the control crossover falling well below the stall speed is what makes the configuration workable rather than a fortunate accident. That the published empty weight of 5,334 pounds describes the aircraft on wheels. That the fuel arithmetic, the pilot's sight line, and the ground loading are the operative reasons the concept did not proceed, which the numbers support but which no document found here states in those terms. That the programme's ground testing addressed the wrong difficulty because the difficulty was not aerodynamic. That the return of the vertical-attitude concept as a remotely piloted vehicle is a recognition that the pilot was the binding constraint.
+
+**Engineering analysis of the modern comparison, derived here and independently checkable.** The three modern reference vehicles and their disc loadings, wing loadings, ratios, and hover endurances. The finding that a small electric tail-sitter's disc loading and wing loading are the same quantity to within a factor of two, against the X-13's ratio of 84. The effective specific consumption relation for a rotor, its evaluation at 250 and 400 watt-hours per kilogramme, and the comparison with the Avon showing the modern vehicle fifteen percent ahead. The endurance of 15.8 minutes at the X-13's own energy mass fraction against its 13.4, an improvement of about eighteen percent. The decomposition into a battery forty-eight times worse per kilogramme and a rotor seventeen times better at converting power into thrust.
 
 **A caution about the modern reference vehicles.** The three vehicles in the comparison table are representative rather than actual. Their masses, spans, wing areas, rotor counts, and rotor diameters were chosen as plausible for their classes and are not taken from any specific aircraft, and the battery specific energy of 250 watt-hours per kilogramme and figure of merit of 0.70 are likewise estimates. **The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation, and the specific endurances are not.**
 
@@ -993,11 +1045,11 @@ The Convair XFY-1 and Lockheed XFV-1 as programmes in their own right, which are
 
 ## Conclusion
 
-The X-13 was built to find out whether a jet could take off vertically, become an aeroplane, become a hovering machine again, and land on the spot it left. **It could, and it did so on the first attempt at the complete cycle, and it never hurt anybody.**
+The X-13 was built to find out whether a jet could take off vertically, become an aeroplane, become a hovering machine again, and land on the spot it left. **It could, and both aircraft survived the programme.**
 
-The reason it worked is a coincidence that is not a coincidence. Aerodynamic control authority grows as the square of speed and vectored thrust does not depend on speed at all, so the two hand over exactly once, and for this aircraft the handover falls at 48 metres per second against a stall speed of 52. **The control surfaces start working at ninety-two percent of the speed at which the wing starts working**, so there is no band in which the aircraft is flying and cannot be pointed. That ratio is a property of the configuration rather than of the size, which is why the layout has outlived the aeroplane.
+The reason it worked is an ordering that is not an accident. Aerodynamic control authority grows as the square of speed and vectored thrust does not depend on speed at all, so the two hand over exactly once, and for this aircraft the handover falls at 30 metres per second against a stall speed of 52. **The control surfaces start working at well under three fifths of the speed at which the wing starts working**, so there is no band in which the aircraft is flying and cannot be pointed. That ratio is a property of the configuration rather than of the size, which is why the layout has outlived the aeroplane.
 
-The reason it led nowhere is arithmetic of a different kind. **The entire fuel load is eleven minutes of hovering**, the transition that the programme existed to demonstrate costs twelve pounds of it, and the hovering at either end costs everything else. A minute at each end takes a fifth of the radius. The exhaust loads the ground a hundred times harder than a helicopter of the same span, so the aircraft needs a prepared surface and a particular trailer. And the pilot cannot see the hook he is aiming at.
+The reason it led nowhere is arithmetic of a different kind. **The entire fuel load is thirteen minutes of hovering**, the transition that the programme existed to demonstrate costs twelve pounds of it, and the hovering at either end costs everything else. A minute at each end takes a sixth of the radius. The exhaust loads the ground a hundred times harder than a helicopter of the same span, so the aircraft needs a prepared surface and a particular trailer. And the pilot cannot see the hook he is aiming at.
 
 **Each of those is a reason the concept did not become a fighter, and none of them is a reason the aircraft failed.** The X-13 answered its question completely and the answer was that the question had been the wrong one to ask about a manned aeroplane. Two decades later the same configuration came back with nobody in it, and it is now the ordinary way to build a small aircraft that has to take off from somewhere without a runway.
 
@@ -1015,8 +1067,14 @@ The reason it led nowhere is arithmetic of a different kind. **The entire fuel l
 
 ### Reference
 
+- [American X-Vehicles, An Inventory X-1 to X-50, SP-2003-4531][ref_american_x_vehicles]
+- [National Air and Space Museum, Ryan X-13 Vertijet, A19600018000][ref_nasm_x13]
+- [National Museum of the United States Air Force, Ryan X-13 Vertijet][ref_nmusaf_x13]
 - [Ryan X-13 Vertijet][ref_x13]
 
+[ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
+[ref_nasm_x13]: https://airandspace.si.edu/collection-objects/ryan-x-13-vertijet/nasm_A19600018000
+[ref_nmusaf_x13]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195753/ryan-x-13-vertijet/
 [ref_x13]: https://en.wikipedia.org/wiki/Ryan_X-13_Vertijet
 
 ### Related Post

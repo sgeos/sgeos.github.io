@@ -57,7 +57,7 @@ five hundred entries describe what a vehicle will do.
 
 **The X-55 is the flight article of an argument that took eleven years to assemble.** The Composites Affordability Initiative ran from the mid 1990s as a joint effort of the Air Force Research Laboratory, the Office of Naval Research, Bell, Boeing, Lockheed Martin and Northrop Grumman, at a reported 152 million dollars over eleven years \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\] \[[Air Force Research Laboratory][ref_afrl]\].
 
-**Its central finding was not about materials.** It was that the cost of a composite airframe is dominated by assembly rather than by fabrication, and that the way to attack assembly is to have fewer parts to assemble. Cost savings across its demonstrations ranged from 17 to 47 percent, and the largest single driver was part count reduction through large unitised and bonded structures \[[Market Trends, Composites Affordability Initiative, Part II, CompositesWorld][ref_cw_cai2]\] \[[Composites Affordability Initiative][research_cai_butler]\] \[[Composites affordability initiative - Phase I: concept design maturation][research_cai_phase1]\].
+**Its central finding was not about materials.** It was that much of the cost of a composite airframe lies in assembly rather than in fabrication, and that the way to attack assembly is to have fewer parts to assemble, by replacing assemblies of many parts with larger integrated structures joined by adhesive bonding rather than by fasteners \[[Market Trends, Composites Affordability Initiative, Part II, CompositesWorld][ref_cw_cai2]\] \[[Composites Affordability Initiative][research_cai_butler]\] \[[Composites affordability initiative - Phase I: concept design maturation][research_cai_phase1]\]. **The initiative's studies put a range on it.** Bonding cut assembly time by 50 to 80 percent against typical fastened structure, depending on the article, which translated to cost savings of 20 to 50 percent \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\].
 
 **The number the whole argument rests on was published in 1998.** A companion paper to the initiative's first phase estimated what more unitised aircraft structure is worth in cost and in weight, which is the quantity the X-55 was later built to test \[[The structural cost and weight reduction potential of more unitized aircraft structure][research_unitized_cost_weight]\] \[[Affordable Composite Structures][research_affordable_composite_structures]\].
 
@@ -257,17 +257,31 @@ $$
 E_{a} \;=\; R\,\frac{\ln\!\left(t_{1}/t_{2}\right)}{1/T_{1} - 1/T_{2}}
 $$
 
-**That gives 54.5 kilojoules per mole**, which sits squarely in the range the literature reports for epoxy amine systems, so the two-point fit is not an artefact \[[Thermal models for MTM45-1 and Cycom 5320 out-of-autoclave prepreg resins][research_kratz_thermal_models]\] \[[Strong, Fundamentals of composites manufacturing][book_strong]\]. With it, the price of any temperature reduction follows directly.
+With the dwells in hours, the temperatures in kelvin and the molar gas constant at 8.314 joules per mole per kelvin, the two datasheet points give
+
+$$
+E_{a} = 8.314 \times \frac{\ln\left(20/2\right)}{1/353.15 - 1/403.15} = \frac{19.14}{3.512 \times 10^{-4}} \approx 54{,}510
+$$
+
+joules per mole. **That gives 54.5 kilojoules per mole**, which sits squarely in the range the literature reports for epoxy amine systems, so the two-point fit is not an artefact \[[Thermal models for MTM45-1 and Cycom 5320 out-of-autoclave prepreg resins][research_kratz_thermal_models]\] \[[Strong, Fundamentals of composites manufacturing][book_strong]\]. With it, the price of any temperature reduction follows directly.
 
 $$
 \frac{t_{\text{lo}}}{t_{\text{hi}}} = \exp\!\left[\frac{E_{a}}{R}\left(\frac{1}{T_{\text{lo}}} - \frac{1}{T_{\text{hi}}}\right)\right]
 $$
 
-**Ten degrees costs 1.51 times the dwell and sixty degrees costs 9.1.**
+**Ten degrees, from 120 to 130, costs 1.51 times the dwell and sixty degrees, from 120 to 180, costs 9.1.**
 
 **One caveat belongs here rather than in a footnote, because it bounds what the fit means.** The datasheet's cure options are not iso-conversional. Each reaches the state that temperature can reach, and the subsection headed Why the Post-Cure Is Not a Convenience shows those states are different. **The fitted figure is therefore an apparent activation energy for reaching the manufacturer's own specification** rather than for a fixed chemical conversion, and the reason to trust it anyway is that it predicts the third entry in the same table.
 
-**The fit can be tested against a third point the datasheet also gives.** Extrapolating to 120 degrees predicts a dwell of 3.02 hours. **The datasheet recommends four.** The recommendation is 32.2 percent longer than the kinetics require, and that difference is not an error in either. **A cure schedule is not a kinetics prediction.** It carries margin, and the question is where that margin goes.
+**The fit can be tested against a third point the datasheet also gives.** Extrapolating from two hours at 130 degrees to 120 degrees with the dwell ratio above predicts a dwell of 3.02 hours, where 6,556 kelvin is $E_{a}/R$.
+
+$$
+t_{\text{lo}} = 2 \exp\left[6{,}556 \left(\frac{1}{393.15} - \frac{1}{403.15}\right)\right] \approx 3.025,
+\qquad
+\frac{4}{3.025} - 1 \approx 0.322
+$$
+
+**The datasheet recommends four** \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. The recommendation is 32.2 percent longer than the kinetics require, and that difference is not an error in either. **A cure schedule is not a kinetics prediction.** It carries margin, and the question is where that margin goes.
 
 **For a facesheet the margin does not cover laminate thickness.** Conduction across a laminate takes a Fourier time set by its thickness and its through-thickness diffusivity,
 
@@ -275,7 +289,15 @@ $$
 \tau = \frac{L^{2}}{\alpha_{\text{th}}}
 $$
 
-and at a diffusivity of $3 \times 10^{-7}$ square metres a second a six millimetre facesheet equilibrates in two minutes \[[Thermal Diffusivity][ref_thermal_diffusivity]\] \[[Influence of Void Shape, Void Volume and Matrix Anisotropy on Effective Thermal Conductivity of a Three-Phase Composite][research_void_thermal_conductivity]\]. **The same is not true of a thick laminate, where the cure cycle has to be designed around the conduction and sometimes around a cooling step in the middle of it** \[[Development of an Autoclave Cure Cycle with Cooling and Reheating Steps for Thick Thermoset Composite Laminates][research_thick_laminate_cure_cycle]\]. **That is 0.83 percent of a four hour dwell**, which is not a margin, it is a rounding.
+and at a diffusivity of $3 \times 10^{-7}$ square metres a second a six millimetre facesheet equilibrates in two minutes, set against the four hour dwell of 14,400 seconds,
+
+$$
+\tau = \frac{\left(6 \times 10^{-3}\right)^{2}}{3 \times 10^{-7}} = 120,
+\qquad
+\frac{\tau}{t} = \frac{120}{14{,}400} \approx 0.0083
+$$
+
+with $\tau$ in seconds \[[Thermal Diffusivity][ref_thermal_diffusivity]\] \[[Influence of Void Shape, Void Volume and Matrix Anisotropy on Effective Thermal Conductivity of a Three-Phase Composite][research_void_thermal_conductivity]\]. **The same is not true of a thick laminate, where the cure cycle has to be designed around the conduction and sometimes around a cooling step in the middle of it** \[[Development of an Autoclave Cure Cycle with Cooling and Reheating Steps for Thick Thermoset Composite Laminates][research_thick_laminate_cure_cycle]\]. **That is 0.83 percent of a four hour dwell**, which is not a margin, it is a rounding.
 
 **Where the margin does go is the oven.** Convective heat transfer in forced turbulent flow follows a Dittus-Boelter form, and the Reynolds number is proportional to gas density at a fixed velocity and geometry, so the coefficient scales with pressure \[[Nusselt Number][ref_nusselt]\].
 
@@ -285,7 +307,15 @@ $$
 \frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim \left(\frac{p_{\text{autoclave}}}{p_{\text{oven}}}\right)^{0.8}
 $$
 
-**At the same pressure ratio that governs consolidation, that is a factor of 4.93**, falling to 3.31 if the exponent is taken at the lower end of the range correlations give. **The experimental literature supports the direction if not the coefficient**, autoclave pressure, temperature and the timing of vacuum application all showing up in measured laminate quality rather than only in the schedule \[[Effects of Variation in Autoclave Pressure, Temperature, and Vacuum-Application Time on Porosity and Mechanical Properties of a Carbon Fiber/Epoxy Composite][research_autoclave_pressure_vacuum_time]\]. **The autoclave's pressure buys two things at once.** It closes voids and it moves heat, and a shop that gives up the first gives up the second in the same transaction.
+**At the same pressure ratio that governs consolidation, that is a factor of 4.93**, falling to 3.31 if the exponent is taken as 0.6, an assumed lower end of the range correlations give.
+
+$$
+\frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim 7.35^{0.8} \approx 4.93,
+\qquad
+7.35^{0.6} \approx 3.31
+$$
+
+**The experimental literature supports the direction if not the coefficient**, autoclave pressure, temperature and the timing of vacuum application all showing up in measured laminate quality rather than only in the schedule \[[Effects of Variation in Autoclave Pressure, Temperature, and Vacuum-Application Time on Porosity and Mechanical Properties of a Carbon Fiber/Epoxy Composite][research_autoclave_pressure_vacuum_time]\]. **The autoclave's pressure buys two things at once.** It closes voids and it moves heat, and a shop that gives up the first gives up the second in the same transaction.
 
 ### Why the Post-Cure Is Not a Convenience
 
@@ -297,7 +327,7 @@ $$
 \frac{T_{g} - T_{g0}}{T_{g\infty} - T_{g0}} = \frac{\lambda_{D}\,\alpha}{1 - \left(1 - \lambda_{D}\right)\alpha}
 $$
 
-**When that glass transition overtakes the cure temperature the resin vitrifies**, the molecules stop moving far enough to find each other, and the reaction slows by orders of magnitude. **The cure stops at whatever conversion the temperature can hold.** Setting $T_{g}$ equal to the cure temperature and inverting for the conversion gives the ceiling.
+**When that glass transition overtakes the cure temperature the resin vitrifies**, the molecules stop moving far enough to find each other, and the reaction slows by orders of magnitude. **The cure stops at whatever conversion the temperature can hold.** Setting $T_{g}$ equal to the cure temperature and inverting for the conversion gives the ceiling. The table below takes the fully cured glass transition at the datasheet's 180 degrees, and takes an uncured glass transition of minus 20 degrees and a curvature parameter $\lambda_{D}$ of 0.5 as assumptions, because neither is published for this resin \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\].
 
 $$
 \alpha_{\text{vit}} = \frac{f}{\lambda_{D} + \left(1 - \lambda_{D}\right) f}
@@ -312,13 +342,41 @@ $$
 | 130 C | 0.857 | 130 C |
 | 180 C | 1.000 | 180 C |
 
-**A cure at 120 degrees can therefore reach 0.824 and no further, and a cure at 130 can reach 0.857.** Only a cure at 180 reaches the end. **The post-cure is not developing the last few percent of a property. It is the only step in which the reaction is thermodynamically permitted to complete**, and a wet glass transition of 160 degrees demands a conversion of 0.947, which no lower temperature can supply.
+**A cure at 120 degrees can therefore reach 0.824 and no further, and a cure at 130 can reach 0.857.** Only a cure at 180 reaches the end. **The post-cure is not developing the last few percent of a property. It is the only step in which the reaction is thermodynamically permitted to complete**, and the datasheet's wet glass transition of 160 degrees after the post-cure demands a conversion of 0.947, which no lower temperature can supply \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. The 120 degree row and the wet glass transition work out as follows.
 
-**Two of the three parameters in that relation are assumptions and the sensitivity was computed rather than asserted.** The fully cured glass transition is the datasheet's own 180 degrees. The uncured value and the curvature parameter are not published for this resin, and sweeping both across the range such systems occupy moves the 120 degree ceiling between 0.741 and 0.899. **The number is assumption-dependent and the conclusion is not.** At the post-cure temperature the conversion is exactly one for every combination in that sweep, and every lower temperature is strictly below it, **because vitrification is defined by the glass transition meeting the cure temperature and nothing else enters that definition.**
+$$
+f = \frac{120 - \left(-20\right)}{180 - \left(-20\right)} = 0.70,
+\qquad
+\alpha_{\text{vit}} = \frac{0.70}{0.5 + 0.5 \times 0.70} \approx 0.824,
+\qquad
+\frac{0.90}{0.5 + 0.5 \times 0.90} \approx 0.947
+$$
+
+where 0.90 is the reduced value $f$ for 160 degrees.
+
+**Two of the three parameters in that relation are assumptions and the sensitivity was computed rather than asserted.** The fully cured glass transition is the datasheet's own 180 degrees. The uncured value and the curvature parameter are not published for this resin. Varying the uncured value over minus 40, minus 20 and zero degrees and $\lambda_{D}$ over 0.3, 0.5 and 0.7, a grid assumed here to be representative of such systems, moves the 120 degree ceiling between 0.741 and 0.899. The ceiling falls as either parameter rises, so the extremes sit at opposite corners of the grid.
+
+$$
+\alpha_{\text{vit}} = \frac{120/180}{0.7 + 0.3 \times 120/180} \approx 0.741,
+\qquad
+\alpha_{\text{vit}} = \frac{160/220}{0.3 + 0.7 \times 160/220} \approx 0.899
+$$
+
+The first is an uncured value of zero with $\lambda_{D}$ of 0.7, and the second an uncured value of minus 40 degrees with $\lambda_{D}$ of 0.3. **The number is assumption-dependent and the conclusion is not.** At the post-cure temperature the conversion is exactly one for every combination in that grid, and every lower temperature is strictly below it, **because vitrification is defined by the glass transition meeting the cure temperature and nothing else enters that definition.**
 
 **This sharpens the article's central tension into a mechanism.** The phrase `low-temperature curing` in the registry entry does not describe a complete process. It describes the first half of a two-stage one, and the second stage runs at exactly the temperature the first stage was chosen to avoid.
 
-**Now count the whole cycle rather than the initial cure.** The autoclave-only cure at 180 degrees needs no second stage, because it never vitrifies short of completion.
+**Now count the whole cycle rather than the initial cure.** The autoclave-only cure at 180 degrees needs no second stage, because it never vitrifies short of completion. Every dwell in the table below is the datasheet's \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. For an initial cure $t_{\text{init}}$, a post-cure $t_{\text{post}}$ and the autoclave-only dwell $t_{\text{ac}}$, the last column is
+
+$$
+\frac{t_{\text{init}} + t_{\text{post}}}{t_{\text{ac}}},
+\qquad
+\frac{4 + 2}{2} = 3,
+\qquad
+\frac{20 + 2}{2} = 11
+$$
+
+for the 120 degree and 80 degree routes, with every dwell in hours.
 
 | Route | Initial cure | Post-cure | Total dwell | Against the autoclave |
 |---|---|---|---|---|
@@ -341,7 +399,7 @@ $$
 | 5 | 150 dollars an hour | 3,000 | 450,000 dollars | 0.92 percent |
 | 10 | 200 dollars an hour | 6,000 | 1,200,000 dollars | 2.44 percent |
 
-**Against a contract of 49,097,981 dollars, the fasteners that were never installed are worth between a quarter of one percent and two and a half percent.** The assumptions are stated rather than hidden, and the conclusion is robust across the whole range of them, because the range spans a factor of ten and the answer stays small.
+**Against a contract of 49,097,981 dollars, the fasteners that were never installed are worth between a quarter of one percent and two and a half percent.** The contract is the cooperative agreement the Air Force Research Laboratory awarded Lockheed Martin on 20 April 2007, whose first phase covered the design and whose second covered fabrication and flight demonstration \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\]. The assumptions are stated rather than hidden, and the conclusion is robust across the whole range of them, because the range spans a factor of ten and the answer stays small.
 
 **This is not an argument that the saving is illusory. It is an argument about where the saving lives.** A fastener eliminated is worth its installation cost **every time an aeroplane is built**, so the saving is recurring and the demonstration is not.
 
@@ -481,15 +539,15 @@ Phase III was awarded in September 2009 and covered envelope expansion and struc
 
 **The usual argument for leaving the autoclave does not hold at this scale.** It says that an aeroplane leaves the autoclave because no autoclave is large enough. **The pressure vessel scaling gives a shell of 18.4 tonnes for a vessel that would take the part**, which is an ordinary industrial machine. The size argument is real at launch vehicle scale and false at this one, and the real reasons are cycle time, capital avoidance, tooling and the removal of a shared bottleneck.
 
-**A void fraction does not fall in simple proportion to the pressure.** Dividing a void fraction by a pressure ratio ignores that the laminate shrinks along with the void, and the full relation leaves 1.22 percent after a full autoclave and needs a pressure ratio of 8.96 to reach 1 percent. **Both numbers put the target beyond what an autoclave can reach by squeezing.**
+**A void fraction does not fall in simple proportion to the pressure.** Dividing a void fraction by a pressure ratio ignores that the laminate shrinks along with the void, and the full relation leaves 1.22 percent after a full autoclave and needs a pressure ratio of 8.96 to reach 1 percent, as the subsection headed What Has to Replace the Pressure derives. **Both numbers put the target beyond what an autoclave can reach by squeezing.**
 
 **The activation energy was not looked up. It was fitted to two lines of a datasheet table**, and the value it returns agrees with the published range for this chemistry, and predicts a third entry in the same table to within the margin a process specification would be expected to carry.
 
 **And the schedule was not read from a narrative.** Both the plan and the outcome are dates in the public record, and the difference between them had been reported at the time without being subtracted.
 
-**The datasheet's cure margin is not about laminate thickness, and the Fourier time shows it.** A six millimetre facesheet equilibrates in two minutes, which is 0.83 percent of a four hour dwell. **The margin is about the oven and the tool**, and putting a number on the oven shows the autoclave's pressure buying a factor of 4.93 in convective heat transfer as well as its factor of 7.35 in consolidation. **A comparison that counts only the consolidation undercounts what the autoclave supplies.**
+**The datasheet's cure margin is not about laminate thickness, and the Fourier time shows it.** A six millimetre facesheet equilibrates in two minutes, which is 0.83 percent of a four hour dwell. **The margin is about the oven and the tool**, and putting a number on the oven shows the autoclave's pressure buying a factor of 4.93 in convective heat transfer as well as its factor of 7.35 in consolidation, both worked in the subsection headed Low Temperature and Time Compression Pull Against Each Other. **A comparison that counts only the consolidation undercounts what the autoclave supplies.**
 
-**Gas transport through the dry tows is a contest between two fluids.** Air and resin move through the same channels with viscosities a factor of 540,541 apart, so evacuation is fast and sealing is slow, and four hours of vacuum would clear 12.1 metres of dry tow. **The length of the path is not the constraint.** What the process races is whether the channels are still open, which is a question about out-time, so the void mechanism and the out-life argument are one argument and not two.
+**Gas transport through the dry tows is a contest between two fluids.** Air and resin move through the same channels with viscosities a factor of 540,541 apart, so evacuation is fast and sealing is slow, and four hours of vacuum would clear 12.1 metres of dry tow, by the Darcy sweep time derived in the subsection headed What Has to Replace the Pressure. **The length of the path is not the constraint.** What the process races is whether the channels are still open, which is a question about out-time, so the void mechanism and the out-life argument are one argument and not two.
 
 **The certification literature supplies the counter-argument to this article's own cost claim, and it is documented rather than speculative.** The fastener arithmetic assumes the eliminated fasteners stay eliminated. **Certifying a bonded primary structure has in practice meant putting mechanical fasteners back through the bondline** as a second load path and a disbond arrest, which is a giveback the public record does not size. **It bears on the article's central number**, which is why the subsection headed Some of the Fasteners Come Back treats it at length rather than in a qualifying clause.
 
@@ -717,7 +775,7 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 
 **And the part-count saving is not even wholly the programme's to keep.** Certifying a bonded primary structure has meant putting mechanical fasteners back through the bondline as a second load path and a disbond arrest, and those take back some of what unitisation removed while giving up the stiffness and the fatigue performance that made bonding worth doing. **How much is given back is not published and this article does not guess.**
 
-**None of that makes the aeroplane a failure.** It flew, it carried its loads, and it did so on a Phase II contract of 49,097,981 dollars. **It retired a manufacturing risk, which is a real thing to retire.** A 19.8 metre bonded composite fuselage could be built outside an autoclave, tooled, closed and flown, and before June 2009 that was an assertion.
+**None of that makes the aeroplane a failure.** It flew, it carried its loads, and it did so on a cooperative agreement of 49,097,981 dollars for its design and build. **It retired a manufacturing risk, which is a real thing to retire.** A 19.8 metre bonded composite fuselage could be built outside an autoclave, tooled, closed and flown, and before June 2009 that was an assertion.
 
 **What it did not retire, and could not have, is the certification risk.** An Air Force Research Laboratory programme was still publishing on fail-safe features for bonded unitised structure in 2023, fourteen years later, **so the question of whether such a structure can be certified without putting the fasteners back was open before the X-55 flew and remained open long after.**
 
@@ -789,6 +847,7 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 - [U.S. Standard Atmosphere][ref_us_standard_atmosphere]
 - [United States Air Force Plant 42][ref_plant42]
 - [Vacuum Bagging][ref_vacuum_bagging]
+- [X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]
 
 [ref_afrl]: https://en.wikipedia.org/wiki/Air_Force_Research_Laboratory
 [ref_arrhenius]: https://en.wikipedia.org/wiki/Arrhenius_equation
@@ -807,6 +866,7 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 [ref_dod_412015l]: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
 [ref_dornier_328jet]: https://en.wikipedia.org/wiki/Fairchild_Dornier_328JET
 [ref_glass_transition]: https://en.wikipedia.org/wiki/Glass_transition
+[ref_globalsecurity_acca]: https://www.globalsecurity.org/military/systems/aircraft/acca-program.htm
 [ref_henry]: https://en.wikipedia.org/wiki/Henry%27s_law
 [ref_honeycomb]: https://en.wikipedia.org/wiki/Honeycomb_structure
 [ref_joe_davies]: https://en.wikipedia.org/wiki/Joe_Davies_Heritage_Airpark

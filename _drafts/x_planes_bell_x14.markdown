@@ -15,9 +15,9 @@ series_index: 15
 
 The previous article in this series used two numbers it could not justify. Discussing the [Ryan X-13 Vertijet][related_post_a310_ryan_x13], it asked whether the aircraft's control surfaces were adequate, and to answer that it needed a standard of adequacy. It used half a radian per second squared in pitch and one radian per second squared in roll, flagged both in its own epistemic state as figures the field settled on after the X-13 had finished flying, and named the aircraft that produced them. **This article is about that aircraft.** The [Bell X-14][ref_x14] is the machine that turned the question of how much control a hovering aeroplane needs from a matter of opinion into a number in a specification, and it is the fifteenth article in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], and the [X-13][related_post_a310_ryan_x13].
 
-It is also the strangest aircraft the series has met so far, and the strangeness is not in how it looks. **The X-14 was built to be a bad aeroplane on demand.** Its wings, ailerons, and landing gear came from a [Beechcraft Bonanza][ref_bonanza] and its tail from a [T-34 Mentor][ref_t34]. It had an open cockpit and fixed gear. Its maximum speed was under 180 miles per hour. None of that was carelessness, because none of it was the point. The point was a control system whose authority and whose damping could be dialled to arbitrary values in flight, so that a pilot could be handed a deliberately deficient aircraft and asked how bad it was. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the vertical take-off context is [Rogers 1989 VTOL, Military Research Aircraft][book_rogers_1989].
+It is also the strangest aircraft the series has met so far, and the strangeness is not in how it looks. **The X-14 was built to be a bad aeroplane on demand.** In the standard account its wings, ailerons, and landing gear came from a [Beechcraft Bonanza][ref_bonanza] and its tail from a [T-34 Mentor][ref_t34]. It had an open cockpit and fixed gear. Its fastest recorded flight was 172 miles per hour, in NASA's inventory of the X-vehicles by [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003]. None of that was carelessness, because none of it was the point. The point was a control system whose authority and whose damping could be dialled to arbitrary values in flight, so that a pilot could be handed a deliberately deficient aircraft and asked how bad it was. The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the vehicle compilation is [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001], and the vertical take-off context is [Rogers 1989 VTOL, Military Research Aircraft][book_rogers_1989].
 
-One more thing separates it from everything before it in this series. **It flew for twenty-four years on one airframe**, from February 1957 to May 1981, and the research it did in its last decade would have been unintelligible to the people who built it.
+One more thing separates it from everything before it in this series. **It flew for twenty-four years on one airframe**, from a first flight on 17 February 1957 to a last flight on 29 May 1981 in the same inventory, and the research it did in its last decade would have been unintelligible to the people who built it.
 
 ## The Research Question
 
@@ -59,11 +59,11 @@ This has a consequence that runs through the whole article. **A research aircraf
 
 ## Programme Origin
 
-In July 1955 Bell Aircraft received an Air Force contract for research into vertical take-off and landing, and construction of the Bell Model 68 began about three months later. The aircraft was assigned the designation X-14 and the serial 56-4022, and only one was built.
+In the standard secondary account summarised in the [Bell X-14][ref_x14] entry, Bell Aircraft received an Air Force contract for research into vertical take-off and landing in July 1955, and construction of the Bell Model 68 began about three months later. The aircraft was assigned the designation X-14 and the serial 56-4022, and only one was built, which NASA's inventory confirms in describing the single X-14.
 
 ### The Cheapest Possible Airframe
 
-The design decisions read as parsimony and are better read as focus. Bell took the wings, ailerons, and landing gear from a Beechcraft Bonanza and the tail surfaces from a T-34 Mentor, and built a new fuselage of duralumin around two turbojets mounted side by side at the centre of mass. The cockpit was open. The undercarriage was fixed.
+The design decisions read as parsimony and are better read as focus. Bell took the wings, ailerons, and landing gear from a Beechcraft Bonanza and the tail surfaces from a T-34 Mentor, in the secondary account, and built a new fuselage of duralumin around two turbojets mounted side by side at the centre of mass. NASA's own history of Ames flight research, by [Borchers, Franklin and Fletcher][ref_borchers_1998], describes the configuration instead as built from a Beech T-34 wing and tail. The T-34 was itself developed from the Bonanza, so the two accounts may name one wing by two parents, and the record available here does not settle which part numbers were used. The cockpit was open. The undercarriage was fixed.
 
 Every one of those choices removes a variable that the experiment does not care about and would have had to pay for. **A retractable undercarriage would have added weight to an aircraft whose whole research programme was bounded by its thrust margin**, and would have bought speed the programme had no use for. Borrowed wings from a light aircraft in production removed a design and stress-analysis task whose outcome the experiment was indifferent to.
 
@@ -73,7 +73,7 @@ The contrast with the [X-13][related_post_a310_ryan_x13] is instructive. Ryan bu
 
 The programme has a clean division. The Air Force paid for an aircraft that could hover and transition, and Bell delivered one. What the aircraft then did for twenty-two years was decided elsewhere.
 
-The aircraft was assigned to the Ames Research Center of NASA, the National Aeronautics and Space Administration, at Moffett Field on 2 October 1959 and stayed there until it was destroyed. **Ames was not interested in the X-14 as a vertical take-off aeroplane.** It was interested in it as a flying laboratory for handling qualities, which is a subject Ames had already been pursuing with fixed-wing aircraft. [Creer et al 1959][research_creer_1959] is a pilot-opinion study of lateral control requirements for fighters published the same year the X-14 arrived, and it is the methodological ancestor of everything the X-14 subsequently did. The method was established. What was missing was a vehicle that could apply it to hovering.
+The aircraft was transferred to the Ames Research Center of NASA, the National Aeronautics and Space Administration, at Moffett Field in late 1959, after it had completed hovering and transitional flight, according to [Rolls 1965][research_rolls_1965]. Secondary accounts give the date as 2 October 1959. It stayed at Ames for the rest of its flying life. **Ames was not interested in the X-14 as a vertical take-off aeroplane.** It was interested in it as a flying laboratory for handling qualities, which is a subject Ames had already been pursuing with fixed-wing aircraft. [Creer et al 1959][research_creer_1959] is a pilot-opinion study of lateral control requirements for fighters published the same year the X-14 arrived, and it is the methodological ancestor of everything the X-14 subsequently did. The method was established. What was missing was a vehicle that could apply it to hovering.
 
 ### The Aircraft Was Not Alone
 
@@ -153,9 +153,9 @@ which has a pole at the origin and a second at the damping value, so the system 
 
 $$\tau = \frac{I}{D} = \left(\frac{D}{I}\right)^{-1}$$
 
-The two dampings the X-14A actually flew, 0.45 and 0.59 per second, correspond to
+The three dampings the X-14A flew in its lateral experiments, listed in table II of [Rolls et al 1965][research_rolls_1965_2] as 0.55, 1.75, and 2.9 per second, correspond to
 
-$$\tau = \frac{1}{0.45} = 2.22 \text{ s}, \qquad \tau = \frac{1}{0.59} = 1.69 \text{ s}$$
+$$\tau = \frac{1}{0.55} = 1.82 \text{ s}, \qquad \tau = \frac{1}{1.75} = 0.571 \text{ s}, \qquad \tau = \frac{1}{2.9} = 0.345 \text{ s}$$
 
 The angular rate following a step of full control approaches its limit exponentially,
 
@@ -165,11 +165,11 @@ and the steady rate reached at full control is the ratio of the two,
 
 $$\dot{\theta}_{\text{max}} = \frac{\text{CP}}{D/I}$$
 
-which is worth noting because it means the two parameters cannot be varied entirely independently in their effect on what the pilot sees. Raising the damping at fixed control power lowers the achievable rate. At the maximum control power the two flown dampings give
+which is worth noting because it means the two parameters cannot be varied entirely independently in their effect on what the pilot sees. Raising the damping at fixed control power lowers the achievable rate. At the maximum control power the three flown dampings give
 
-$$\frac{2.0}{0.45} = 4.44 \text{ rad/s}, \qquad \frac{2.0}{0.59} = 3.39 \text{ rad/s}$$
+$$\frac{2.0}{0.55} = 3.64 \text{ rad/s}, \qquad \frac{2.0}{1.75} = 1.14 \text{ rad/s}, \qquad \frac{2.0}{2.9} = 0.690 \text{ rad/s}$$
 
-or 255 and 194 degrees per second, both far beyond anything a hovering pilot would use, which is the first hint that the damping mattered through the transient rather than through the steady state.
+or 208, 65.5, and 39.5 degrees per second. At the lowest damping the steady rate is far beyond anything a hovering pilot would use, so there the damping acts only through the transient. At the highest damping it does not, because the steady rate itself is modest, and the damping then limits the rate the pilot can reach as well as shaping how it is reached.
 
 **With no damping at all the attitude is a pure double integrator**,
 
@@ -183,7 +183,7 @@ $$\tfrac{1}{2} \times 2.0 \times 1^{2} = 1.0 \text{ rad} = 57.3 \text{ degrees}$
 
 ### What the Control Power Was Bought With
 
-On the X-14 the attitude control moments came from compressed air bled from the compressors of the turbojets and ejected through nozzles at the wingtips and the tail. [Drinkwater et al 1965][research_drinkwater_1965] describes the arrangement, and [Keller 1969][research_keller_1969] and [Friend 1964][research_friend_1964] treat reaction controls for jet-lift aircraft as a design problem in their own right. **[Patierno and Asdurian 1965][research_patierno_asdurian_1965] states the trade in its title**, addressing the impact of control provisions on the mission performance of jet vertical take-off aircraft using reaction control systems, which is the subject of the next several pages here. The effectiveness of such jets was still being measured in the wind tunnel a quarter of a century later in [Riley et al 1989][research_riley_1989], for the hover and transition of a short take-off vertical landing fighter concept.
+On the X-14 the attitude control moments came from compressed air bled from the compressors of the turbojets and ejected through nozzles at the wingtips and the tail. [Rolls et al 1965][research_rolls_1965_2] describes the arrangement and [Pauli et al 1965][research_pauli_1965] gives its design, and [Keller 1969][research_keller_1969] and [Friend 1964][research_friend_1964] treat reaction controls for jet-lift aircraft as a design problem in their own right. **[Patierno and Asdurian 1965][research_patierno_asdurian_1965] states the trade in its title**, addressing the impact of control provisions on the mission performance of jet vertical take-off aircraft using reaction control systems, which is the subject of the next several pages here. The effectiveness of such jets was still being measured in the wind tunnel a quarter of a century later in [Riley et al 1989][research_riley_1989], for the hover and transition of a short take-off vertical landing fighter concept.
 
 One property of a reaction control system that this article does not otherwise treat deserves naming, because it bears on the fan result below. A nozzle valve that is effectively on or off rather than proportional makes the closed loop a relay system, and relay systems limit-cycle. [Dahl et al 1962][research_dahl_1962] analyses limit cycles in reaction-jet attitude control subject to external torques, which is the failure mode a bang-bang attitude control invites.
 
@@ -203,51 +203,55 @@ and the thrust per unit mass flow, which is the figure of merit for the whole ar
 
 $$\frac{F}{\dot{m}} = v_{e}$$
 
-That is the whole design freedom, and it is not much of one, because the bleed temperature is whatever the compressor stage delivers. At a representative compressor delivery temperature of 500 kelvin the exit velocity is
+That is the whole design freedom, and it is not much of one, because the bleed temperature is whatever the compressor stage delivers. The X-14A's own figures are given in the design report of its variable-stability system by [Pauli et al 1965][research_pauli_1965]. A constant ten percent of the 85.0 pounds per second flowing through both engines, or 8.5 pounds per second, was bled for all reaction control, which the report notes was more than the engine manufacturer recommended and was judged permissible for short flights. After the losses in ports, valves and ducts the air reached the nozzles at 76.0 pounds per square inch absolute and 939 degrees Rankine. A sonic nozzle discharging to the atmosphere also produces a pressure thrust beyond $\dot{m}\,v_{e}$, and the report's relation, which includes it, is
 
-$$v_{e} = \sqrt{\frac{2 \times 1.4}{2.4} \times 287 \times 500} = 409 \text{ m/s}$$
+$$F = C_{v}\,C_{d}\,A\,p_{0}\left(1.268 - \frac{p_{a}}{p_{0}}\right)$$
 
-so producing the 150 pounds of thrust the wingtip station needed requires
+with a discharge coefficient $C_{d}$ of 0.90 and a velocity coefficient $C_{v}$ of 0.95, both from test data, a total exit area $A$ of 7.17 square inches, and an atmospheric pressure $p_{a}$ of 14.7 pounds per square inch. It gives
 
-$$\dot{m} = \frac{667}{409} = 1.63 \text{ kg/s}$$
+$$F = 0.95 \times 0.90 \times 7.17 \times 76 \times \left(1.268 - \frac{14.7}{76}\right) = 500.7 \text{ pounds}$$
 
-**A J85 passes roughly twenty kilogrammes per second, so one wingtip station at full deflection is asking for something like eight percent of one engine's entire airflow.** That is an order-of-magnitude figure rather than a measurement, and it is offered only because it lands in the same region as the bleed penalty measured below, which is the point of computing it.
+**So the whole of the X-14A's attitude control in a hover, in all three axes and for the pilot's nozzles and the variable-stability nozzles together, came to about five hundred pounds of reaction force bought with a tenth of the engines' airflow.**
 
 **The important point is not how the nozzle works but where the mass flow comes from.** It comes out of the engine, and the engine was going to use it to make lift.
 
 ### The Price of Control, Fixed by an Experiment
 
-The cost of bleed is usually estimated rather than measured, because separating it from every other installation effect requires running the same engine in the same aircraft with two different bleed schedules. The X-14A programme did exactly that, for a different reason, and the result fixes the price.
+The cost of bleed in thrust is usually estimated rather than measured, because separating it from every other installation effect requires running the same engine in the same aircraft with two different bleed schedules. The X-14A programme did something close to that, for a different reason, and the result bounds the price.
 
-[Gerdes and Rolls 1969][research_gerdes_rolls_1969] reports flight tests of tip-turbine-driven fans fitted at the wingtips as an alternative lateral control effector. The fans were rejected, for reasons taken up later in this article, but the report states that they required about half the bleed air of the reaction controls for the same thrust, and that this permitted the engines to produce four percent more thrust.
+[Rolls and Gerdes 1969][research_rolls_gerdes_1969] reports flight tests of tip-turbine-driven fans fitted at the wingtips as an alternative lateral control effector. The fans were rejected, for reasons taken up later in this article, but the report states that for equal thrust they required less than half the bleed air of the reaction nozzles, that the total bleed requirement would therefore fall by about 20 percent, and that the engines would then produce 4 percent more thrust.
 
-That single sentence can be inverted. The thrust delivered when a fraction $\beta$ of the flow is diverted is
+Those statements can be combined with the ten percent bleed of the design report. The bleed removed is
 
-$$T = T_{0}\,(1 - \beta)$$
+$$\Delta\beta = 0.20 \times 0.10 = 0.020$$
 
-If the thrust with full bleed is $T_{0}(1 - \beta)$ and the thrust with half the bleed is $T_{0}(1 - \beta/2)$, then the fractional gain observed is
+of the engines' airflow. Writing the thrust as falling linearly with the bled fraction $\beta$ at a rate $s$,
 
-$$\frac{\beta / 2}{1 - \beta} = 0.04$$
+$$T = T_{0}\,(1 - s\,\beta)$$
 
-For a general observed gain $\delta$ on halving the bleed this rearranges to
+the reported gain $\delta$ on reducing the bleed by $\Delta\beta$ satisfies
 
-$$\beta = \frac{2\delta}{1 + 2\delta}$$
+$$\frac{1 - s\,(\beta - \Delta\beta)}{1 - s\,\beta} = 1 + \delta \quad \Longrightarrow \quad s = \frac{\delta}{\Delta\beta + \delta\,\beta}$$
 
 and substituting the reported four percent,
 
-$$\beta = \frac{2 \times 0.04}{1 + 2 \times 0.04} = 0.0741$$
+$$s = \frac{0.04}{0.020 + 0.04 \times 0.10} = \frac{0.04}{0.024} = \frac{5}{3} = 1.67$$
 
-**So the reaction control system on the X-14A consumed about 7.4 percent of the thrust the engines would otherwise have produced.** Call it seven to eight percent. This is a measured figure rather than an estimate, and it is the number that makes the rest of the analysis in this article concrete.
+**Each percent of airflow bled cost about one and two thirds percent of thrust.** That is the expected direction, because bled air has been compressed at the engine's expense and then leaves without passing through the turbine and the propelling nozzle. Assuming the same rate holds over the whole bleed, which neither report states, the full ten percent cost
 
-### What Seven Percent Costs a Hovering Aircraft
+$$s\,\beta = \frac{5}{3} \times 0.10 = \frac{1}{6} = 0.167$$
 
-Seven percent of thrust sounds small. For a hovering aircraft it is not, and the reason is that a hovering aircraft's useful output is not its thrust but the difference between its thrust and its weight,
+of the thrust the engines would otherwise have produced. Had the thrust fallen only in proportion to the air removed, the cost would have been 0.10, and that is a floor. **So the reaction control system on the X-14A consumed between a tenth and a sixth of the engines' thrust, with a sixth the better estimate.** The rest of the analysis in this article uses both figures, and the linear rate behind the larger is listed among the article's assumptions.
+
+### What a Sixth of the Thrust Costs a Hovering Aircraft
+
+A sixth of the thrust sounds tolerable. For a hovering aircraft it is not, and the reason is that a hovering aircraft's useful output is not its thrust but the difference between its thrust and its weight,
 
 $$\Delta T = T - W$$
 
 which for a machine with a thrust-to-weight ratio near unity is a small difference of two large numbers and is therefore extremely sensitive to any deduction from either.
 
-During the lateral control experiments the X-14A weighed 3,700 pounds and had a thrust-to-weight ratio available of 1.1 to 1.2, which [Drinkwater et al 1965][research_drinkwater_1965] states directly. Its two General Electric J85-GE-5 engines were rated at 2,680 pounds of thrust each, or 5,360 pounds together, so the uninstalled thrust-to-weight ratio was
+During the lateral control experiments the X-14A weighed 3,700 pounds and had a thrust-to-weight ratio available of 1.1 to 1.2, which [Rolls et al 1965][research_rolls_1965_2] states directly. Its two General Electric J85-GE-5 engines were rated at 2,680 pounds of thrust each in the secondary sources, or 5,360 pounds together, so the uninstalled thrust-to-weight ratio was
 
 $$\frac{T_{\text{uninstalled}}}{W} = \frac{5{,}360}{3{,}700} = 1.449$$
 
@@ -259,15 +263,23 @@ the two reported bounds give
 
 $$\eta_{\text{inst}} = \frac{1.1 \times 3{,}700}{5{,}360} = 0.759, \qquad \frac{1.2 \times 3{,}700}{5{,}360} = 0.828$$
 
-**The installation therefore lost between 17.2 and 24.1 percent of the engines' rated thrust**, and the bleed for the attitude controls is one part of that loss.
+**The installation therefore lost between 17.2 and 24.1 percent of the engines' rated thrust**, and the bleed for the attitude controls is most of that loss. The thrust diverters cost the rest. [Loscutoff et al 1973][research_loscutoff_1973] reports a diverter efficiency $\eta_{d}$ of 0.91 for the X-14B, and applying it to the earlier aircraft, which is an assumption, the bleed estimate and the diverters together leave
 
-Now take the margin. At a thrust-to-weight ratio of 1.2 the aircraft can lift 740 pounds beyond its own weight. The bleed costs
+$$\eta_{d}\,(1 - s\,\beta) = 0.91 \times \left(1 - \tfrac{1}{6}\right) = 0.758$$
 
-$$0.0741 \times 5{,}360 = 397 \text{ pounds of thrust}$$
+which is the lower of the two reported bounds.
 
-so without it the margin would have been 1,137 pounds. **The attitude control system consumed 34.9 percent of the aircraft's hover margin.** At a thrust-to-weight ratio of 1.1 the margin after bleed is 370 pounds, the margin before bleed would have been 767, and the control system consumed 51.8 percent of it.
+Now take the margin. At a thrust-to-weight ratio of 1.2 the aircraft can lift 740 pounds beyond its own weight. On the estimate the bleed costs
 
-$$\frac{397}{767} = 0.518, \qquad \frac{397}{1{,}137} = 0.349$$
+$$\tfrac{1}{6} \times 5{,}360 = 893 \text{ pounds of thrust}$$
+
+so without it the margin would have been 1,633 pounds. **The attitude control system consumed 54.7 percent of the aircraft's hover margin.** At a thrust-to-weight ratio of 1.1 the margin after bleed is 370 pounds, the margin before bleed would have been 1,263, and the control system consumed 70.7 percent of it.
+
+$$\frac{893}{1{,}263} = 0.707, \qquad \frac{893}{1{,}633} = 0.547$$
+
+On the proportional floor the bleed costs $0.10 \times 5{,}360 = 536$ pounds and the shares become
+
+$$\frac{536}{906} = 0.592, \qquad \frac{536}{1{,}276} = 0.420$$
 
 The general form is worth having, because it is the relation a designer would use rather than the two numbers. If the control system takes a fraction $\beta$ of the uninstalled thrust and the aircraft is left with a thrust-to-weight ratio $r$, the share of the pre-bleed margin that the control system consumed is
 
@@ -275,7 +287,7 @@ $$\Phi = \frac{\beta \, T_{0}}{(r - 1) W + \beta \, T_{0}}$$
 
 **The denominator contains $r - 1$, and that is the whole problem.** As the thrust-to-weight ratio approaches unity the margin vanishes while the bleed does not, so $\Phi$ approaches one and the control system consumes everything.
 
-This is the central result of the article's sizing analysis and it deserves stating plainly. **Between a third and a half of everything the X-14A could lift beyond its own weight was spent on being controllable.** Not on payload, not on fuel, not on range. On the ability to point.
+This is the central result of the article's sizing analysis and it deserves stating plainly. **More than half of everything the X-14A could lift beyond its own weight was spent on being controllable, and not less than two fifths even on the most favourable reading.** Not on payload, not on fuel, not on range. On the ability to point.
 
 [Hoffman 1971][research_hoffman_1971] treats this cost as a subject in itself under the title of control power costs, which indicates that by 1971 the field understood the trade as central rather than incidental.
 
@@ -293,11 +305,11 @@ and at ten metres per second on a representative eight square metres at a drag c
 
 $$F_{w} = \tfrac{1}{2} \times 1.225 \times 100 \times 8 \times 0.8 = 392 \text{ N}$$
 
-As an attitude disturbance this is trivial. Acting through an offset of a metre it produces
+As an attitude disturbance this is modest. Acting through an offset of a metre on the roll inertia of 1,586 kilogramme metres squared that the design report gives, taken up below, it produces
 
-$$\frac{392 \times 1.0}{3{,}333} = 0.118 \text{ rad/s}^{2}$$
+$$\frac{392 \times 1.0}{1{,}586} = 0.247 \text{ rad/s}^{2}$$
 
-which is 5.9 percent of the maximum control power. As a translational disturbance it is not trivial at all. The same force accelerates the aircraft at
+which is 12.4 percent of the maximum control power. The flight reports say the same thing qualitatively. [Rolls et al 1965][research_rolls_1965_2] notes that the X-14A, which is not self-disturbing in a hover, could be held over a spot using a small fraction of the control power required for manoeuvres. As a translational disturbance it is not trivial at all. The same force accelerates the aircraft at
 
 $$a_{w} = \frac{392}{1{,}678} = 0.234 \text{ m/s}^{2}$$
 
@@ -323,47 +335,47 @@ $$\text{CP}_{\text{pilot}} = (1 - \sigma) \, \text{CP}$$
 
 $$0.6 \times 2.0 = 1.2, \qquad 0.6 \times 0.8 = 0.48$$
 
-This compounds with the bleed cost in an unpleasant way. The aircraft surrenders a third to a half of its hover margin to buy control power, and then surrenders two fifths of the control power it bought to the disturbance. The two fractions multiply,
+This compounds with the bleed cost in an unpleasant way. The aircraft surrenders between two fifths and seven tenths of its hover margin to buy control power, and then surrenders two fifths of the control power it bought to the disturbance. The two fractions multiply,
 
 $$\Phi \times (1 - \sigma)$$
 
 giving, at the two reported thrust-to-weight ratios,
 
-$$0.518 \times 0.6 = 0.311, \qquad 0.349 \times 0.6 = 0.210$$
+$$0.707 \times 0.6 = 0.424, \qquad 0.547 \times 0.6 = 0.328$$
 
-**So between 21 and 31 percent of the aircraft's entire hover margin ends up as manoeuvring authority in the pilot's hands, and the rest is overhead.** It is small through two independent multiplications rather than one.
+on the estimate of the bleed cost. **So between 33 and 42 percent of the aircraft's pre-bleed hover margin was spent on manoeuvring authority in the pilot's hands**, a further $0.4\,\Phi$, or 22 to 28 percent, on standing still against disturbances, and only the remaining $1 - \Phi$, or 29 to 45 percent, was left as margin. The pilot's share is small through two independent multiplications rather than one.
 
-### The Roll Inertia, Recovered From Two Reports
+### The Inertias, From the Design Report
 
-The article needs the aircraft's roll inertia to say anything quantitative about what the tested control powers meant in terms of force. No source consulted states it. It can be recovered, because two independent reports state quantities that together determine it.
+The article needs the aircraft's inertias to say anything quantitative about what the tested control powers meant in terms of force, and the design report of the variable-stability system states them. [Pauli et al 1965][research_pauli_1965] sizes every nozzle from
 
-[Drinkwater et al 1965][research_drinkwater_1965] states that the maximum lateral control power tested was 2.0 radians per second squared. [Gerdes and Rolls 1969][research_gerdes_rolls_1969] states that the replacement wingtip fans were designed for 150 pounds of thrust each. Taking the fans as sized to reproduce the existing maximum authority, and placing them at the wingtips with a moment arm slightly inboard of the semi-span,
+$$F = \frac{I\,\alpha}{L}$$
 
-$$\ell = 0.97 \times \frac{b}{2} = 0.97 \times \frac{10.300}{2} = 4.995 \text{ m}$$
+where $F$ is the net reaction force a nozzle produces about an axis, $I$ the moment of inertia about that axis, $\alpha$ the angular acceleration wanted, and $L$ the moment arm. It uses a roll inertia of 1,170 slug square feet, a pitch inertia of 1,990, and a yaw inertia of 2,920, with a wingtip arm of 16.9 feet and a tail arm of 18.75 feet. In SI units the roll inertia is
 
-two fans operating differentially give a rolling moment of
+$$I_{x} = 1{,}170 \times 1.356 = 1{,}586 \text{ kg m}^{2}$$
 
-$$M = 2 F \ell = 2 \times 667.2 \times 4.995 = 6{,}666 \text{ N m}$$
+The report divides its 500.7 pounds of reaction force so that the pilot's nozzles give 1.84 radians per second squared in roll, 0.92 in pitch, and 0.52 in yaw, and the variable-stability nozzles nine tenths of each, 1.66, 0.83, and 0.47. Its roll figure checks against the relation,
 
-and at 2.0 radians per second squared the inertia must be
+$$F_{r} = \frac{1{,}170 \times 1.84}{16.9} = 127.4 \text{ pounds}$$
 
-$$I_{x} = \frac{M}{\text{CP}} = \frac{6{,}666}{2.0} = 3{,}333 \text{ kg m}^{2}$$
+against the 127.2 pounds the report lists.
 
-The corresponding radius of gyration, at a test mass of 1,678 kilogrammes, is
+At the 3,700 pound test weight, a mass of 115.0 slugs, the roll radius of gyration is
 
-$$k_{x} = \sqrt{\frac{I_{x}}{m}} = \sqrt{\frac{3{,}333}{1{,}678}} = 1.409 \text{ m}$$
+$$k_{x} = \sqrt{\frac{I_{x}}{m}} = \sqrt{\frac{1{,}170}{115.0}} = 3.19 \text{ ft}$$
 
-or, as the ratio that makes it checkable,
+or, against the span of 33.83 feet that [Hoffman et al 1972][research_hoffman_1972] gives,
 
-$$\frac{k_{x}}{b} = \frac{1.409}{10.300} = 0.137$$
+$$\frac{k_{x}}{b} = \frac{3.19}{33.83} = 0.094$$
 
-which is 13.7 percent of the span. The recovery in general form is
+**The second primary source disagrees by a factor of two.** [Hoffman et al 1972][research_hoffman_1972], which writes the X-14's equations of motion at a weight of 4,182 pounds in the X-14B period, gives a roll inertia of 2,340 slug square feet, with 3,400 in pitch and 5,400 in yaw. At its mass of 129.9 slugs that is a radius of gyration of
 
-$$I_{x} = \frac{2 F \ell}{\text{CP}_{\max}}, \qquad \frac{k_{x}}{b} = \frac{1}{b}\sqrt{\frac{2 F \ell}{m \, \text{CP}_{\max}}}$$
+$$k_{x} = \sqrt{\frac{2{,}340}{129.9}} = 4.24 \text{ ft}, \qquad \frac{k_{x}}{b} = \frac{4.24}{33.83} = 0.125$$
 
-**That number is the check.** A roll radius of gyration between roughly ten and sixteen percent of span is what an aircraft with its heavy items on the centreline and light wings should have, and the X-14 had two engines side by side at the centre of mass and borrowed light-aircraft wings. The recovered value lands in the middle of the expected band. The recovery is therefore consistent, and the more interesting inference is the one that follows from the fan sizing rather than from the inertia.
+The two weights differ by 482 pounds, which cannot obviously account for a doubling of the roll inertia, and neither report explains its value, so this article carries both. The 1965 figures belong to the aircraft that flew the lateral experiments and are used below. Every force derived from them would be larger by the ratio of the inertias if the later value applied to the earlier aircraft.
 
-**The fans were specified at exactly the aircraft's maximum tested control power and not above it.** Whoever wrote the specification was not trying to give the X-14A more authority. They were trying to give it the same authority for less bleed, which confirms that bleed, and not control power, was understood as the binding constraint.
+**The tip-fan report does not support reading the fans as sized to the maximum tested control power.** [Rolls and Gerdes 1969][research_rolls_gerdes_1969] specified each fan at 150 pounds of thrust on minimum bleed, and the X-14A with the fans installed reached a maximum roll control power of 0.65 radians per second squared, against 0.70 for the basic reaction nozzles without the variable-stability nozzles. The report attributes the lost roll performance to the lag of the fan control system and to the increase in roll inertia that the fans added at the wingtips. The 0.70 it gives for the basic nozzles is also well below the 1.84 of the 1965 design, a difference the record available here does not explain. What the report does state is the motive, which was to supply sufficient control power without the severe performance penalty that large amounts of bleed impose. **Bleed, and not control power, was understood as the binding constraint**, and the fan programme is the evidence of it.
 
 ### Why Control Power Gets Harder as Aircraft Get Bigger
 
@@ -395,15 +407,25 @@ $$\text{CP} \propto \frac{1}{b}$$
 
 **Control power at a fixed bleed fraction is inversely proportional to span.** Doubling the linear size of a jet-lift aircraft halves its control power, and holding the control power fixed requires doubling the bleed fraction.
 
-The consequences are severe and they are arithmetic. The X-14A bought 2.0 radians per second squared for 7.4 percent bleed at a span of 10.3 metres. The same control power at twice the span costs 14.8 percent, at three times 22.2 percent, and at four times 29.6 percent.
+The consequences are severe and they are arithmetic. The pilot's nozzles on the X-14A carried 97.8 pounds of pitch force and 127.2 pounds of roll and yaw force out of the 500.7 pounds in the design report. At a common pressure and temperature both the force and the airflow of a sonic nozzle are proportional to its exit area, so the pilot's set used a share
 
-$$\beta(b) = 0.0741 \times \frac{b}{10.3}$$
+$$\frac{97.8 + 127.2}{500.7} = 0.449$$
 
-Set that against the thrust margin available. A generous jet-lift aircraft has twenty percent of thrust to spare over its weight. The bleed consumes the whole of it at
+of the bleed, or 4.49 percent of the airflow, and at the estimated rate $s$ it cost
 
-$$b = 10.3 \times \frac{0.20}{0.0741} = 27.8 \text{ m}$$
+$$1.67 \times 0.0449 = 0.0749$$
 
-**A jet-lift aircraft with reaction controls at the wingtips runs out of aircraft at somewhere around twenty-eight metres of span.** The Dornier Do 31, the largest jet-lift vertical take-off aircraft ever flown, spanned about eighteen metres, at which the relation demands 12.9 percent bleed. It is not a coincidence that the type stopped there.
+of the thrust, to give 1.84 radians per second squared in roll at a span of 10.31 metres. Holding that control power, the same accounting at twice the span costs 15.0 percent, at three times 22.5 percent, and at four times 30.0 percent.
+
+$$\beta(b) = 0.0749 \times \frac{b}{10.31}$$
+
+Set that against the thrust margin available. Take a jet-lift aircraft with twenty percent of thrust to spare over its weight, a generous figure assumed here rather than taken from any aircraft. The bleed consumes the whole of the margin at
+
+$$b = 10.31 \times \frac{0.20}{0.0749} = 27.5 \text{ m}$$
+
+or at 45.9 metres on the proportional floor. **A jet-lift aircraft with bleed-fed reaction controls at the wingtips runs out of aircraft somewhere between about twenty-eight and forty-six metres of span.**
+
+**The largest jet-lift aircraft that NASA flight-tested did not pay this price, and the way it avoided it is the confirmation.** The Dornier Do 31 spanned 17.0 metres and weighed about 45,000 pounds, according to [Holzhauser et al 1972][research_holzhauser_1972], and at that span the relation demands 12.3 percent of thrust for 1.84 radians per second squared. The Do 31 produced its rolling moments instead by differential thrust between two wingtip pods, each holding four lift engines of 4,200 pounds, and used bleed reaction controls only for pitch. It installed 0.8 radians per second squared in roll, the bottom of the X-14A's range, which its pilots rated satisfactory with its attitude-command stabilisation engaged, and the report recommends no significant reduction for its class. **The type answered the scaling problem by putting engines at the wingtips and by stabilising attitude, not by bleeding more air.**
 
 This conclusion was reached independently and contemporaneously, and by more than one group. [Johnston and Friend 1965][research_johnston_friend_1965] is titled for the effect of size on hover and low-speed handling qualities, and [Johnston et al 1965][research_johnston_1965] reports a study of size effects on vertical take-off handling-qualities criteria in the same year. **Two papers on the size dependence within three years of the X-14A's first results is not a coincidence**, and it indicates the field had recognised the scaling problem as soon as it had a criterion to scale.
 
@@ -413,25 +435,25 @@ The reappraisals that followed carry the same concern. [Smith 1966, Vtol control
 
 The scaling relation can be turned into the calculation a designer would actually have performed, which is the calculation the X-14A's number existed to enable.
 
-Take an aircraft of mass $m$ and span $b$ whose roll radius of gyration is a fraction $\kappa_{r}$ of its span, with reaction nozzles at the wingtips. Meeting a control power CP requires a tip force of
+Take an aircraft of mass $m$ and span $b$ whose roll radius of gyration is a fraction $\kappa_{r}$ of its span, with reaction nozzles at the wingtips acting through a moment arm of half the span, as the X-14A's 16.9 foot arm on a 33.83 foot span nearly is. Meeting a control power CP requires a net differential tip force of
 
-$$F_{\text{tip}} = \frac{\text{CP} \, m \, \kappa_{r}^{2} b^{2}}{2 \times 0.97 \times b/2} = \frac{\text{CP} \, m \, \kappa_{r}^{2} b}{0.97}$$
+$$F_{\text{tip}} = \frac{\text{CP} \, m \, \kappa_{r}^{2} b^{2}}{b/2} = 2\,\text{CP}\, m \, \kappa_{r}^{2}\, b$$
 
-**The force grows with the product of mass and span**, which is the scaling result in the form a designer meets it. Using the value of $\kappa_{r}$ recovered above, 0.1368, this reproduces the X-14A's 150 pounds per tip exactly, which is a consistency check rather than a new result because the constant was calibrated on that aircraft.
+**The force grows with the product of mass and span**, which is the scaling result in the form a designer meets it. With the value of $\kappa_{r}$ from the 1965 inertias, 0.0943, this reproduces the X-14A's 127.2 pounds of roll force at 1.84 radians per second squared, which is a consistency check rather than a new result because the constant comes from that aircraft.
 
-Applied to larger aircraft the numbers become difficult very quickly. A vehicle of fifteen metres span weighing 12,000 pounds needs 708 pounds of thrust at each wingtip to reach 2.0 radians per second squared. A vehicle of eighteen metres span weighing 50,000 pounds, which is roughly the scale of the largest jet-lift aircraft flown, needs
+Applied to larger aircraft the numbers become difficult very quickly. At the Do 31's span of 17.0 metres and its landing mass of about 18,500 kilogrammes, with the X-14A's proportions,
 
-$$F_{\text{tip}} = 3{,}542 \text{ pounds of thrust at each wingtip}$$
+$$F_{\text{tip}} = 2 \times 2.0 \times 18{,}500 \times 0.0943^{2} \times 17.0 = 11{,}187 \text{ N} = 2{,}515 \text{ pounds}$$
 
-**That is a small jet engine at the end of each wing, provided as bleed from engines in the fuselage, purely to point the aircraft.** The conclusion drawn earlier from the bleed fraction is the same conclusion reached from the force, and reaching it twice by different routes is the reason this article treats the scaling result as the most durable thing the X-14's numbers imply.
+for 2.0 radians per second squared, and 1,006 pounds for the 0.8 the Do 31 actually installed. Hoffman's later inertias would raise both by a factor of 1.77. **That is a small jet engine at the end of each wing, purely to point the aircraft**, and it is what the Do 31 carried, four to a pod. The conclusion drawn earlier from the bleed fraction is the same conclusion reached from the force, and reaching it twice by different routes is the reason this article treats the scaling result as the most durable thing the X-14's numbers imply.
 
 ### What the Bleed Actually Bought
 
-One ratio is worth recording because it states the efficiency of the whole arrangement. The X-14A surrendered 397 pounds of engine thrust to obtain, at the wingtips, a peak differential roll force of about 300 pounds.
+One ratio is worth recording because it states the efficiency of the whole arrangement. The X-14A surrendered an estimated 893 pounds of engine thrust, and at least 536, to obtain 500.7 pounds of reaction force across all three axes and both nozzle sets.
 
-$$\frac{300}{397} = 0.756$$
+$$\frac{500.7}{893} = 0.561, \qquad \frac{500.7}{536} = 0.934$$
 
-**Roughly three quarters of a pound of control force for every pound of thrust given up**, and the same bleed also fed the pitch and yaw nozzles, so the figure understates the total return and overstates the cost attributable to any single axis. It is nonetheless a poor exchange rate, and it is the quantity the tip-turbine fans were built to improve.
+**Between a half and nine tenths of a pound of control force for every pound of thrust given up.** It is a poor exchange rate, and it is the quantity the tip-turbine fans were built to improve.
 
 ## Dependent Systems
 
@@ -441,7 +463,7 @@ Each subsystem was dimensioned against the keystone, and the ordering below is b
 
 The aircraft was re-engined twice, and neither change was about performance in the ordinary sense.
 
-The original X-14 flew on two Armstrong Siddeley Viper 8 turbojets. **Sources disagree on their rating.** Several give 1,750 pounds of thrust each and at least one gives 1,560. The disagreement matters, and this article does not resolve it, because both figures produce the same conclusion.
+The original X-14 flew on two Armstrong Siddeley Viper ASV.8 turbojets, as [Rolls 1960][research_rolls_1960] names them, and NASA's later history by [Borchers, Franklin and Fletcher][ref_borchers_1998] calls them Bristol-Siddeley Vipers. **Sources disagree on their rating.** Several give 1,750 pounds of thrust each and at least one gives 1,560. The disagreement matters, and this article does not resolve it, because both figures produce the same conclusion.
 
 At 1,750 pounds each the pair gives 3,500 pounds. At 1,560 each the pair gives 3,120. Against the 3,700 pound weight at which the aircraft later did its research, those are thrust-to-weight ratios of
 
@@ -449,7 +471,7 @@ $$\frac{3{,}500}{3{,}700} = 0.946, \qquad \frac{3{,}120}{3{,}700} = 0.843$$
 
 **Both are below one.** The original X-14 could not have hovered at the weight the X-14A hovered at, on either reading of its engine rating, and that is before any allowance for bleed or for the losses in turning the exhaust. Whatever the aircraft did in 1957 and 1958, it did light, and the margin was not a margin in any useful sense.
 
-Replacing the Vipers with two General Electric J85-GE-5 engines at 2,680 pounds each raised the uninstalled ratio to 1.449, and the later J85-GE-19 installation at 3,015 pounds each raised it to 1.630. **The re-engining was not an upgrade to an aircraft that already worked. It was the precondition for the research programme existing at all**, because a variable-stability aircraft must be able to give away control power to the experiment and still fly, and an aircraft with no thrust margin has nothing to give away.
+Replacing the Vipers with two General Electric J85-GE-5 engines at 2,680 pounds each raised the uninstalled ratio to 1.449, and the later J85-GE-19 installation at 3,015 pounds each raised it to 1.630, on the secondary ratings. **The re-engining was not an upgrade to an aircraft that already worked. It was the precondition for the research programme existing at all**, and the primary record says so. [Rolls 1960][research_rolls_1960] reports that the original X-14 lacked sufficient control power because of the limited bleed air available, and that the conversion to a variable-stability aircraft was possible because of the greater bleed capacity of the J85-5, which also gave more thrust for less weight. [Pauli et al 1965][research_pauli_1965] puts the gain at 25 percent more thrust for about 400 pounds less weight, and [Borchers, Franklin and Fletcher][ref_borchers_1998] gives the purpose as increasing the thrust margin for hover. A variable-stability aircraft must be able to give away control power to the experiment and still fly, and an aircraft with no bleed and no thrust margin has nothing to give away.
 
 The exhaust was turned by cascade-type diverters at the centre of mass, which the pilot could set for vertical or horizontal thrust. The device had a research literature of its own, including [Erwin et al 1964][research_erwin_1964] on a tandem cascade thrust-vectoring programme and [Davis and Spicer 1965][research_davis_spicer_1965] on determining the thrust vector of a fixed-nozzle engine on a six-component stand, which is the measurement problem that turning the exhaust creates. The wider principle of an engine that supplies both lift and thrust is set out in [Denning 1962][research_denning_1962], and the control of engines used this way in [Sellers and Szuch 1973][research_sellers_szuch_1973]. The propulsion requirements of the configuration as a class are surveyed in [Kohn 1972][research_kohn_1972] and [Ciepluch et al 1979][research_ciepluch_1979].
 
@@ -459,7 +481,7 @@ $$T_{v} = \eta \, T$$
 
 and combining that with the bleed gives the thrust actually available for lifting,
 
-$$T_{\text{lift}} = \eta \, (1 - \beta) \, T$$
+$$T_{\text{lift}} = \eta \, (1 - s\,\beta) \, T$$
 
 During the transition the diverter sits at intermediate angles, and the thrust splits into components. At a deflection $\delta$ measured from the vertical,
 
@@ -471,87 +493,89 @@ $$\left(\frac{T_{v}}{\eta T}\right)^{2} + \left(\frac{T_{h}}{\eta T}\right)^{2} 
 
 **The aircraft cannot accelerate forward without giving up lift**, which is why the transition has to be flown as a trajectory rather than as a switch, and why a thrust-to-weight ratio comfortably above one is needed to fly it at all.
 
-At a turning efficiency of 0.95 and the measured bleed fraction, the J85-GE-5 installation yields
+At the diverter efficiency of 0.91 that [Loscutoff et al 1973][research_loscutoff_1973] reports for the X-14B, and the estimated bleed cost of a sixth, the J85-GE-5 installation yields
 
-$$\frac{T_{\text{lift}}}{W} = 0.95 \times 0.9259 \times \frac{5{,}360}{3{,}700} = 1.274$$
+$$\frac{T_{\text{lift}}}{W} = 0.91 \times \left(1 - \tfrac{1}{6}\right) \times \frac{5{,}360}{3{,}700} = 1.099$$
 
-against a reported available ratio of 1.1 to 1.2. **The two agree to within about six to sixteen percent**, and the residual is what one would expect from inlet losses, ambient conditions, and the accessory loads not accounted for here. That the simple product of two efficiencies lands this close to the reported figure is a check that the bleed fraction inverted from the fan report is of the right size.
+against a reported available ratio of 1.1 to 1.2. **The product lands at the bottom of the reported band**, and inlet losses, ambient conditions, and the accessory loads not accounted for here would move it further down rather than up. On the proportional floor the same product is
+
+$$0.91 \times (1 - 0.10) \times \frac{5{,}360}{3{,}700} = 1.186$$
+
+which also lies in the band. The check therefore confirms that the bleed cost is of the right size without choosing between the estimate and the floor.
 
 The same arithmetic applied to the later engines shows what the second re-engining bought. The J85-GE-19 installation gives an uninstalled ratio of
 
 $$\frac{6{,}030}{3{,}700} = 1.630$$
 
-and after the same two deductions
+and after the same two deductions, assuming the later engines bled the same fraction,
 
-$$0.95 \times 0.9259 \times \frac{6{,}030}{3{,}700} = 1.434$$
+$$0.91 \times \left(1 - \tfrac{1}{6}\right) \times \frac{6{,}030}{3{,}700} = 1.236$$
 
-**The X-14B could therefore afford roughly 0.16 more in thrust-to-weight ratio than the X-14A**, which at a constant weight is about 590 pounds of additional lift, and it is that margin rather than the digital computer that set how much authority the later experiments could give away.
+**The X-14B could therefore afford roughly 0.14 more in thrust-to-weight ratio than the X-14A**, which at a constant weight is about 508 pounds of additional lift, and it is that margin rather than the digital computer that set how much authority the later experiments could give away.
 
-[Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_4] reports the powerplant experience from the X-14A flight test programme directly, and is the primary source on how the installation actually behaved.
+[Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_4] reports the powerplant experience from the X-14A flight test programme directly, and is the primary source on how the installation actually behaved, although its full text is not retrievable from the NASA Technical Reports Server and only its title and abstract are relied on here.
 
 There is a further loss that this article accounts for only qualitatively. A jet directed downward beneath a wing entrains air, lowers the pressure on the surfaces above it, and produces a download that subtracts from the thrust. [Gentry and Margason 1966][research_gentry_margason_1966] measured jet-induced lift losses on vertical take-off configurations hovering both in and out of ground effect, and the effect is a few percent of thrust for a configuration like the X-14's.
 
-**This matters for the argument only in that it makes the accounting worse rather than better.** The bleed for the attitude controls is the largest identifiable single deduction from the hover thrust budget, and the induced loss, the cascade turning loss, and the inlet loss are additional. Every one of them competes with payload, and the article's conclusion that control consumed a third to a half of the margin is a lower bound on the total burden rather than an upper one.
+**This matters for the argument only in that it makes the accounting worse rather than better.** The bleed for the attitude controls is the largest identifiable single deduction from the hover thrust budget, and the induced loss, the cascade turning loss, and the inlet loss are additional. Every one of them competes with payload, and the article's conclusion that control consumed more than half of the margin is a lower bound on the total burden rather than an upper one.
 
 Operating close to the ground adds effects that were treated as disqualifying for the configuration generally. [Dent 1966][research_dent_1966] addresses ground erosion in the operation of jet lift aircraft, which is the practical objection that a jet-lift aircraft requires a prepared surface.
 
 ### The Reaction Control System
 
-The reaction controls were the aircraft's only means of attitude control in a hover and they were the experimental variable. Nozzles at the wingtips supplied roll, and nozzles at the tail supplied pitch and yaw.
+The reaction controls were the aircraft's only means of attitude control in a hover and they were the experimental variable. [Pauli et al 1965][research_pauli_1965] describes two sets. The pilot's nozzles were linked mechanically to the stick and pedals. A pitch nozzle at the tail discharged through variable areas top and bottom, and the wingtip nozzles gave roll through the difference between the left and right exit areas and yaw by rotating the two tip thrust vectors in opposite directions, so that roll and yaw drew on one force. The variable-stability nozzles that Ames added were driven by servomotors and put roll at the wingtips and pitch and yaw at the tail. The total exit area of each set was constant, so the bleed flowed whatever the command, and the pilot's set was required to give at least ten percent more moment in each axis than the variable-stability set, so that the pilot could always override it.
 
-The moment arms differ substantially between axes, which means the axes are not equally cheap. Roll acts through the semi-span, about 5.0 metres. Pitch and yaw act through the distance from the centre of mass to the tail, which on an aircraft 7.92 metres long is roughly 3.6 metres,
+The moment arms and the inertias differ between axes, which means the axes are not equally cheap. The report gives a wingtip arm of 16.9 feet and a tail arm of 18.75 feet,
 
-$$\frac{\ell_{\text{roll}}}{\ell_{\text{pitch}}} = \frac{4.995}{3.564} = 1.40$$
+$$\frac{L_{w}}{L_{t}} = \frac{16.9}{18.75} = 0.901$$
 
-For a given nozzle thrust the roll moment is therefore the larger, but the roll inertia is also the larger, and which axis is cheapest in control power depends on the product of the two ratios,
+and which axis is cheaper in control power depends on the product of the arm ratio and the inertia ratio,
 
-$$\frac{F_{\text{pitch}}}{F_{\text{roll}}} = \frac{I_{y}}{I_{x}} \times \frac{\ell_{\text{roll}}}{\ell_{\text{pitch}}}$$
+$$\frac{F_{\text{pitch}}}{F_{\text{roll}}} = \frac{I_{y}}{I_{x}} \times \frac{L_{w}}{L_{t}} = \frac{1{,}990}{1{,}170} \times 0.901 = 1.53$$
 
-At equal inertias this is 1.40, so **the pitch nozzle must be about forty percent stronger than the roll nozzle for the same control power**, which is a consequence of the aircraft being wider than it is long.
+so **the pitch nozzle must be about half again as strong as the roll nozzle for the same control power**, because the pitch inertia is 1.70 times the roll inertia while its arm is only about eleven percent longer. The design did not ask for equal control powers. It changed the proportions of maximum angular acceleration in roll, pitch, and yaw from the original aircraft's 10 to 3.2 to 2.8 to 10 to 5 to 2.8, which is why the pilot's pitch nozzle gave 0.92 radians per second squared against 1.84 in roll.
 
-Taking the recovered roll inertia and assuming pitch inertia of similar magnitude, since the aircraft's length and span are comparable, the tip force required to produce each of the tested control powers follows from
+With the design report's roll inertia and wingtip arm, the net roll force needed for each tested control power follows from
 
-$$F_{\text{tip}} = \frac{\text{CP} \times I_{x}}{2 \ell}$$
+$$F_{r} = \frac{\text{CP} \times I_{x}}{L_{w}}$$
 
-giving 60.0 pounds per tip at 0.8 radians per second squared, 105.0 pounds at 1.4, and 150.0 pounds at 2.0. **These are small forces**, and that is the point worth taking away. The X-14A's entire lateral control authority at its most generous setting was three hundred pounds of thrust split between two wingtips, and buying it cost four hundred pounds of engine thrust. The efficiency of the conversion from engine thrust to control force is poor, and improving it is what the fan experiment was about.
+giving 55.4 pounds at 0.8 radians per second squared, 96.9 pounds at 1.4, and 138.5 pounds at 2.0. **These are small forces**, and that is the point worth taking away. The X-14A's entire lateral control authority at its most generous setting was about 140 pounds of net differential force at the wingtips, out of 500.7 pounds of reaction force for all axes and both sets, bought with a tenth of the engines' airflow. The efficiency of the conversion from engine thrust to control force is poor, and improving it is what the fan experiment was about.
 
 ### The Variable Stability System and Its Budget
 
 The system that made the aircraft an instrument was installed by Ames after the aircraft arrived, in analogue form on the X-14A and in digital form on the X-14B, the latter described by [Gallagher et al 1972][research_gallagher_1972] as a model-following system.
 
-**The analogue system has its own paper and it is easy to miss, because its title names the configuration rather than the aircraft.** [Hegarty et al 1965][research_hegarty_1965] describes a system for varying the stability and control of a deflected-jet fixed-wing vertical take-off aircraft, which is the X-14A and no other machine. It is the primary description of the apparatus that produced every number in this article.
+**The analogue system has its own paper and it is easy to miss, because its title names the configuration rather than the aircraft.** [Pauli et al 1965][research_pauli_1965] describes a system for varying the stability and control of a deflected-jet fixed-wing vertical take-off aircraft, which is the X-14A and no other machine. It is the primary description of the apparatus that produced every number in this article.
 
-The principle is feedback to the same effectors the pilot commands. To synthesise a damping derivative that the airframe does not possess, the system measures the angular rate and commands a control moment opposing it. To synthesise a different control power, it scales the pilot's command before passing it on.
+The principle is feedback through effectors in parallel with the pilot's. To synthesise a damping derivative that the airframe does not possess, the system measures the angular rate and commands a control moment opposing it. To synthesise a different control power, it adds a moment proportional to the pilot's stick position. The report lists its modes as rate damping, cross-coupling cancellation, augmented pilot control, and stiffness with a manoeuvrability cutout, and a button on the stick returned the aircraft to its basic configuration.
 
-**The two are not independent, and the reason is that they share an authority budget.** The nozzles can produce a bounded moment. Every newton metre the feedback loop spends opposing rate is a newton metre the pilot cannot have. Writing the synthesised damping as $D/I$ and the roll rate as $p$, the control power remaining to the pilot is
+**The two functions are not independent, because they share an authority budget.** The variable-stability nozzles can produce a bounded moment, which the design puts at 1.66 radians per second squared in roll. Every newton metre the feedback loop spends opposing rate is a newton metre the augmentation cannot add. Writing the synthesised damping as $D/I$, the roll rate as $p$, and the authority of the variable-stability set as $\text{CP}_{v}$, the authority left after the damping loop has taken its share is
 
-$$\text{CP}_{\text{pilot}} = \text{CP}_{\text{total}} - \frac{D}{I} \, p$$
+$$\text{CP}_{\text{left}} = \text{CP}_{v} - \frac{D}{I} \, p$$
 
-At the total control power of 2.0 radians per second squared and a synthesised damping of 0.59 per second, a roll rate of 30 degrees per second consumes
+and the rate at which the damping loop exhausts the set on its own is
 
-$$0.59 \times 0.5236 = 0.309 \text{ rad/s}^{2}$$
+$$p_{\text{sat}} = \frac{\text{CP}_{v}}{D/I}$$
 
-leaving 1.691, or 84.6 percent. At a damping of 1.5 per second the same rate leaves 60.7 percent. And the rate at which the damping loop exhausts the entire budget on its own is
+At the three dampings flown this is
 
-$$p_{\text{exhaust}} = \frac{\text{CP}_{\text{total}}}{D/I}$$
+$$\frac{1.66}{0.55} = 3.02, \qquad \frac{1.66}{1.75} = 0.949, \qquad \frac{1.66}{2.9} = 0.572 \text{ rad/s}$$
 
-which is 194 degrees per second at the lower damping and 76 degrees per second at the higher.
+or 173, 54.3, and 32.8 degrees per second. Reserving a fraction $\lambda$ of the set for augmentation caps the damping that can be synthesised at a working roll rate,
 
-The fraction left is more useful than the difference,
+$$\left(\frac{D}{I}\right)_{\max} = \frac{(1 - \lambda)\,\text{CP}_{v}}{p}$$
 
-$$\frac{\text{CP}_{\text{pilot}}}{\text{CP}_{\text{total}}} = 1 - \frac{(D/I)\,p}{\text{CP}_{\text{total}}}$$
+and reserving half at thirty degrees per second caps it at
 
-and inverting it gives the constraint the experimenter actually faced. Reserving a fraction $\lambda$ of the authority for the pilot caps the damping that can be synthesised at a working roll rate,
+$$\frac{0.5 \times 1.66}{0.5236} = 1.59 \text{ per second}$$
 
-$$\left(\frac{D}{I}\right)_{\max} = \frac{(1 - \lambda)\,\text{CP}_{\text{total}}}{p}$$
+which the highest damping flown, 2.9 per second, exceeds. At that damping half the set is already spent at
 
-Reserving half the authority at thirty degrees per second caps it at
+$$\frac{0.5 \times 1.66}{2.9} = 0.286 \text{ rad/s} = 16.4 \text{ degrees per second}$$
 
-$$\frac{0.5 \times 2.0}{0.5236} = 1.91 \text{ per second}$$
+**The instrument could not simultaneously offer high damping and high augmented control power at large rates, and the ceiling is set by the nozzles rather than by the electronics.**
 
-**The instrument could not simultaneously offer high damping and high control power, and the ceiling on the product is set by the nozzles rather than by the electronics.**
-
-**This explains a sentence in the source that would otherwise read as modesty.** [Drinkwater et al 1965][research_drinkwater_1965] says the tested conditions covered, to the ability of the X-14A, a high, medium, and low control power for each of a high, medium, and low damping. The qualifier is not politeness. The high-damping and high-control-power corner of the experimental grid is the corner where the two demands on the nozzles add, and the aircraft could not reach all of it. **The instrument's own authority limit truncated its experimental space**, and it truncated it precisely in the region where a designer most wanted an answer.
+**This bears on a qualifier in the source.** [Rolls et al 1965][research_rolls_1965_2] says the tested conditions covered, to the ability of the X-14A, a high, medium, and low control power for each of a high, medium, and low damping. Its table II shows that every one of the nine combinations was flown and rated by both pilots at each of the three stick travels, so the grid itself was complete. What the qualifier records is that the levels were set by what the aircraft could do, with 2.0 radians per second squared at the top. The relations above add that in the high-damping and high-control-power corner the damping loop saturates at modest roll rates, which is an inference from the design figures and assumes that the design values held in the 1965 tests, and not a statement in the report.
 
 ### The Position Loop the Pilot Actually Closed
 
@@ -615,9 +639,13 @@ The difficulty is structural rather than incidental. Position error is not direc
 
 ### The Airframe, Which Was Deliberately Uninteresting
 
-The borrowed Bonanza wing gave a span of 10.300 metres over an area of 16.678 square metres, an aspect ratio of 6.36, and at the 3,700 pound test weight a wing loading of 987 newtons per square metre. These are light-aircraft numbers and they were chosen to be.
+The borrowed wing gave a span $b$ of 33.83 feet, or 10.31 metres, over an area $S$ of 182.69 square feet, or 16.97 square metres, in [Hoffman et al 1972][research_hoffman_1972]. The aspect ratio and, at the 3,700 pound test weight, the wing loading follow as
 
-In a hover the wing does nothing except add inertia and catch the exhaust. In the transition it does what a light-aircraft wing does. The X-14 was not asked to fly fast, and its recorded maximum of around 172 to 180 miles per hour is a consequence of not caring rather than a limit that was pushed against.
+$$\frac{b^{2}}{S} = \frac{33.83^{2}}{182.69} = 6.26, \qquad \frac{W}{S} = \frac{3{,}700}{182.69} = 20.25 \text{ lb/ft}^{2} = 970 \text{ N/m}^{2}$$
+
+These are light-aircraft numbers and they were chosen to be. [Rolls 1965][research_rolls_1965] notes the consequence that mattered in flight, that with its light wing loading the aircraft could recover from attitude excursions of more than 180 degrees, which pilots unable to see their drift at altitude did make, with only a nominal loss of height.
+
+In a hover the wing does nothing except add inertia and catch the exhaust. In the transition it does what a light-aircraft wing does. The X-14 was not asked to fly fast, and its fastest recorded flight of 172 miles per hour, in NASA's inventory, is a consequence of not caring rather than a limit that was pushed against.
 
 There is one respect in which the airframe was not neutral, and it belongs here rather than in the epistemic state because it is quantitative. **The inertia the wing contributes is the denominator of every control-power figure the aircraft produced.** An aircraft with the same nozzles and heavier wings would have measured lower control powers for the same hardware. The criterion the X-14A produced is expressed in radians per second squared precisely to remove this dependence, and the removal is exact only to the extent that pilot opinion depends on angular acceleration alone.
 
@@ -629,13 +657,13 @@ A jet-lift aircraft hovering close to a surface directs its entire exhaust at th
 
 The aircraft also loses lift to its own jet before it ever reaches the ground. [McLemore 1966][research_mc_lemore_1966] measures jet-induced lift loss in the hovering condition and [Margason 1966][research_margason_1966] the induced effects in transition, with the theoretical treatment in [Levinsky et al 1968][research_levinsky_1968]. The operational consequences run from prepared surfaces in [Butler and Thomas 1964][research_butler_thomas_1964] through spray in [Kuhn 1979][research_kuhn_1979] and deck temperatures in [Fluk 1981][research_fluk_1981] to shipboard operation in [Kamman and Hall 1978][research_kamman_hall_1978], with the flow field itself modelled in [Kotansky 1982][research_kotansky_1982] and still being visualised in [Mourtos et al 1995][research_mourtos_1995]. Hot gas returning to the inlet is the related hazard, treated in [Johns et al 1989][research_johns_1989] and [Johns et al 1990][research_johns_1990].
 
-**The consequence for the X-14 programme is that out-of-ground-effect experiments and in-ground-effect experiments are different experiments**, and [Drinkwater et al 1965][research_drinkwater_1965] is explicit that its hovering evaluations were conducted out of ground effect. That is the correct choice for isolating the control variable, and it means the criterion was established in the condition least like a landing.
+**The consequence for the X-14 programme is that out-of-ground-effect experiments and in-ground-effect experiments are different experiments**, and [Rolls et al 1965][research_rolls_1965_2] is explicit that its hovering evaluations were conducted out of ground effect. That is the correct choice for isolating the control variable, and it means the criterion was established in the condition least like a landing.
 
 ### Instrumentation, Which Was a Rating Scale
 
 The measuring instrument in this aircraft was not a transducer. It was a numbered scale of pilot opinion, and the aircraft's output was an integer.
 
-[Drinkwater et al 1965][research_drinkwater_1965] reproduces the rating schedule it used, running from excellent through satisfactory with mildly unpleasant characteristics, then to acceptable but with unpleasant characteristics, then to unacceptable for normal operation and acceptable only for emergency conditions. This is the Cooper scale in the form current before the revision that produced the [Cooper-Harper scale][ref_cooper_harper].
+[Rolls et al 1965][research_rolls_1965_2] reproduces the rating schedule it used, running from excellent through satisfactory with mildly unpleasant characteristics, then to acceptable but with unpleasant characteristics, then to unacceptable for normal operation and acceptable only for emergency conditions. This is the Cooper scale in the form current before the revision that produced the [Cooper-Harper scale][ref_cooper_harper].
 
 Two properties of this instrument shape everything the programme could conclude.
 
@@ -669,35 +697,37 @@ The X-14's flight record divides into a short period in which it was an aeroplan
 
 ### The Aeroplane, 1957 and 1958
 
-The aircraft first hovered in February 1957. **Sources give either the seventeenth or the nineteenth**, and this article does not choose between them. Whichever it was, the first hover was made on the Viper engines, at a thrust-to-weight ratio that the arithmetic above shows to have been marginal at any realistic weight.
+The aircraft first hovered in February 1957. **Sources give either the seventeenth or the nineteenth.** NASA's inventory by [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003] gives a first flight on 17 February 1957, and the abstract of the project pilot's retrospective, [Gerdes 1981][research_gerdes_1981], gives the first free-hover flight as 19 February 1957. The two dates may describe different events, a first hover and a first untethered hover, but neither source says so, and this article does not choose between them. Whichever it was, the first hover was made on the Viper engines, at a thrust-to-weight ratio that the arithmetic above shows to have been marginal at any realistic weight.
 
-A partial transition followed, and the first full transition from vertical to horizontal flight was made on 24 May 1958. That completed the demonstration the Air Force contract had asked for. **The X-14 had shown that a jet-lift aircraft with vectored thrust and reaction controls could take off vertically, fly, and land vertically**, which the [X-13][related_post_a310_ryan_x13] had also shown by a different means the previous year.
+A partial transition followed, and the first full transition from vertical to horizontal flight was made on 24 May 1958, in the secondary accounts. That completed the demonstration the Air Force contract had asked for. **The X-14 had shown that a jet-lift aircraft with vectored thrust and reaction controls could take off vertically, fly, and land vertically**, which the [X-13][related_post_a310_ryan_x13] had also shown by a different means the previous year.
 
 At that point the aircraft had discharged its stated purpose and there was no obvious reason to keep flying it.
 
 ### The Instrument, 1959 to 1981
 
-The aircraft was assigned to NASA Ames on 2 October 1959 and re-engined with the J85-GE-5, becoming the X-14A. The variable-stability system followed. From that point the flight record is a record of experiments.
+The aircraft came to NASA Ames in late 1959 and first flew a brief programme there on its Vipers, which [Rolls 1960][research_rolls_1960] summarises. Three problems dominated. Ground suction meant that breaking contact with the ground took excess thrust of the order of 12 percent of the gross weight. Because the reaction nozzles drew directly on the compressors, control power fell steeply with engine speed, to about 90 percent of the maximum at the normal hovering speeds of 93 to 97 percent and to 70 percent during momentary drops to 90 percent. And the engines' gyroscopic coupling between pitch and yaw left the pilot unable to hold the aircraft level at yaw rates above 15 degrees per second. Transition, by contrast, presented no great problems. The aircraft was then re-engined with the J85-GE-5, becoming the X-14A, and the variable-stability system followed. From that point the flight record is a record of experiments.
 
-The two that matter most to this article are the ones already drawn on. [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962] used the variable-stability and control X-14A to determine attitude control power and damping requirements for a visual hovering task, and is the origin of the criteria. [Drinkwater et al 1965][research_drinkwater_1965] extended the work by separating control power from control sensitivity, testing three total control powers at three stick travels, and reported a result that is easy to state and was not obvious in advance.
+The two that matter most to this article are the ones already drawn on. [Rolls and Drinkwater 1962][research_rolls_drinkwater_1962] used the variable-stability and control X-14A to determine attitude control power and damping requirements for a visual hovering task, and is the origin of the criteria. [Rolls et al 1965][research_rolls_1965_2] extended the work by separating control power from control sensitivity, testing three total control powers at three stick travels, and reported a result that is easy to state and was not obvious in advance.
 
 **Total control power dominated. Control sensitivity barely mattered.** Changing the control power per inch of stick travel had only a minor effect across the range investigated, while changing the maximum moment available had a predominant effect on the pilots' ratings during visual hovering out of ground effect. This matters because sensitivity is nearly free and control power is expensive. The experiment found that the expensive parameter was the one that counted.
 
+The report's table II gives the ratings themselves. At 2.0 radians per second squared and the highest damping, 2.9 per second, the two pilots' ratings ran from 2 to 3-1/2 across the three stick travels, inside the satisfactory region of the scale. At 0.8 radians per second squared and the lowest damping, 0.55 per second, they ran from 5 to 7, from unsatisfactory to unacceptable for normal operation. The report compares them with boundaries at ratings of 3-1/2 and 6-1/2 derived in the 1962 tests, and notes that the two pilots disagreed most at the lowest damping, where the pilot more familiar with the aircraft rated it more favourably because he valued its greater responsiveness.
+
 [Rolls 1965][research_rolls_1965] reports the operational experience of five and a half years of flight research with the aircraft, grouping the problems into effects of the jet engine and its operation, and restrictions imposed on the pilot by reduced visual reference. **Those two categories are the ones the wider field also found**, and the operational literature that grew around them covers terminal-area operation in [Schade 1968][research_schade_1968], shipboard compatibility in [Daffer and Rogers 1973][research_daffer_rogers_1973] and guidance to a small ship in [Goka et al 1980][research_goka_1980], noise in [Cole and England 1967][research_cole_england_1967], the sensing problem a vehicle with no reliable airspeed has in [McElreath 1972][research_mcelreath_1972] and [Wachtell 1970][research_wachtell_1970], and the consequences of losing the pilot in [Harvey and Waugh 1976][research_harvey_waugh_1976]. Whether the configuration was worth its costs at all was assessed commercially in [Fry 1967][research_fry_1967], and against competing layouts in [Englar and Kirkpatrick 1969][research_englar_kirkpatrick_1969] and [Detore and Gaffey 1969][research_detore_gaffey_1969]. Low-speed control improvement generally is [Kesselyak 1974][research_kesselyak_1974], and visual acquisition under a hovering aircraft's own disturbance is [Hilgendorf et al 1975][research_hilgendorf_1975]. **Neither category is about control power**, which is a useful corrective. The thing the aircraft was measuring was not the thing that made it difficult to operate.
 
-[Gerdes and Rolls 1969][research_gerdes_rolls_1969] reports the tip-turbine fan experiment. The fans worked thermodynamically and failed dynamically, and the failure is instructive enough to be taken up separately below.
+[Rolls and Gerdes 1969][research_rolls_gerdes_1969] reports the tip-turbine fan experiment. The fans worked thermodynamically and failed dynamically, and the failure is instructive enough to be taken up separately below.
 
-The experiments were not confined to control power. [Gerdes 1964][research_gerdes_1964] investigated height-control requirements, which is the vertical axis of the same problem and has a different character because thrust responds through engine dynamics rather than through a nozzle valve. The aircraft's inability to change its own thrust quickly is a limitation the criterion for attitude does not address at all.
+The experiments were not confined to control power. [Gerdes 1964][research_gerdes_1964] investigated height-control requirements, which is the vertical axis of the same problem and has a different character because thrust responds through engine dynamics rather than through a nozzle valve. The aircraft's inability to change its own thrust quickly is a limitation the criterion for attitude does not address at all. [Feistel et al 1969][research_feistel_1969] tested a direct side-force manoeuvring system on the aircraft, which translates it sideways without banking, and NASA's inventory names that system as one of the aircraft's uses as a testbed.
 
-In 1970 or 1971 the aircraft was re-engined again with J85-GE-19 engines and fitted with a programmable digital computer and a fly-by-wire control system, becoming the X-14B. [Gallagher et al 1972][research_gallagher_1972] describes the model-following variable-stability system. The digital system did what the analogue system had done, but it could be reprogrammed between flights rather than rewired, which changed the economics of running an experiment. [Corliss et al 1977][research_corliss_1977] reports an in-flight simulation of hover control concepts, and [Merrick 1982][research_merrick_1982] a translational velocity command system, both of which are experiments the analogue aircraft could not have hosted.
+In 1970 or 1971 the aircraft was re-engined again with J85-GE-19 engines and fitted with a programmable digital computer and a fly-by-wire control system, becoming the X-14B. [Borchers, Franklin and Fletcher][ref_borchers_1998] records that Richard Greif and Terry Gossett directed this modification, that Ronald Gerdes then became the sole project pilot, and that the later experiments set criteria for pitch and roll attitude command, which had become the preferred augmentation for precision hover. [Loscutoff et al 1973][research_loscutoff_1973] modelled the re-engined aircraft and reports that it hovered with its engines at 98 to 99 percent of maximum speed. [Gallagher et al 1972][research_gallagher_1972] describes the model-following variable-stability system. The digital system did what the analogue system had done, but it could be reprogrammed between flights rather than rewired, which changed the economics of running an experiment. [Corliss et al 1977][research_corliss_1977] reports an in-flight simulation of hover control concepts, and [Merrick 1982][research_merrick_1982] a translational velocity command system, both of which are experiments the analogue aircraft could not have hosted.
 
-Over the whole period around twenty-five test pilots flew the aircraft. In 1965 Neil Armstrong flew it to evaluate control characteristics in vertical flight representative of the Apollo lunar module during final descent.
+Over the whole period more than 25 pilots flew the aircraft, many of them to preview vertical take-off handling qualities before flying other designs, according to NASA's inventory, and Fred Drinkwater and Ronald Gerdes were the principal pilots of the research programme, according to [Borchers, Franklin and Fletcher][ref_borchers_1998]. The same history records that in 1965 Neil Armstrong flew it to evaluate control characteristics in vertical flight representative of the Apollo lunar module during final descent.
 
 ### The Ending
 
-The X-14B was damaged beyond repair on 29 May 1981 in a hard landing. The pilot was not seriously injured. Secondary accounts attribute the accident to a design flaw in the lateral control software that led to a pilot-induced oscillation, and this article reports that attribution as unconfirmed, since no primary investigation report is available.
+The X-14B made its last flight on 29 May 1981, in NASA's inventory. [Borchers, Franklin and Fletcher][ref_borchers_1998] records that during an experiment phase in 1981 the aircraft made a hard landing as a consequence of a lateral control software design flaw that led to a pilot-induced oscillation, and that it was never flown again. That attribution is NASA's own, in its history of Ames flight research, but no investigation report is available to show the evidence behind it. Secondary accounts add that the pilot was not seriously injured. The airframe was not destroyed. The inventory records that it was retired to the Army Aviation Museum at Fort Rucker and is in storage in a private collection in Indiana.
 
-**If the attribution is correct, the ending is exact.** An aircraft whose entire purpose was to make itself deliberately deficient in the lateral axis so that pilots could report on the consequences was destroyed by an unintended deficiency in the lateral axis that a pilot could not fly out of. The instrument was consumed by the phenomenon it existed to measure. It had been flying for twenty-four years and it was not repaired.
+**If the attribution is correct, the ending is exact.** An aircraft whose entire purpose was to make itself deliberately deficient in the lateral axis so that pilots could report on the consequences was ended by an unintended deficiency in the lateral axis that a pilot could not fly out of. The instrument was consumed by the phenomenon it existed to measure. It had been flying for twenty-four years and it was not flown again.
 
 ## Comparison With Ground Prediction
 
@@ -709,7 +739,7 @@ Ames ran motion-base simulators on the same questions throughout the period. [Ge
 
 **The most useful evidence of agreement is that the 1972 simulator study swept the same range the 1965 aircraft had.** It reports results across control powers from 0.8 to 2.0 radians per second squared and states its disturbance correlation as valid at least within that range. A decade after the flight experiment, the simulator work was still anchored to the interval the aircraft had established. That is either strong corroboration or strong path dependence, and the two are not easy to separate from outside.
 
-The 1972 study also reports a finding the aircraft could not have produced. **An attitude-stabilised system gives the best handling qualities for the least control power**, which is a statement about a trade between two things the X-14A could vary but could not vary cheaply enough to map densely. A simulator can run hundreds of configurations in a week. The aircraft ran twenty-seven at most, and could not reach all of those.
+The 1972 study also reports a finding the aircraft could not have produced. **An attitude-stabilised system gives the best handling qualities for the least control power**, which is a statement about a trade between two things the X-14A could vary but could not vary cheaply enough to map densely. A simulator can run hundreds of configurations in a week. The aircraft's 1965 lateral experiment rated twenty-seven conditions per pilot, nine combinations of control power and damping at each of three stick travels.
 
 Whether the two agree in general is a question the field kept returning to and never closed. [Innis and Anderson 1972][research_innis_anderson_1972] compares simulator and flight results directly for an augmentor-wing research aircraft, [Condit et al 1966][research_condit_1966] does the same for large transports in landing approach, [Mitchell and Hart 1993][research_mitchell_hart_1993] examines how simulator motion and visual characteristics change rotorcraft handling-qualities evaluations, and [Brandon et al 1995][research_brandon_1995] compares ground and flight assessments for a high-performance aeroplane. **That the comparison was still being made in 1995 is the answer to whether the X-14A's premise had been superseded.**
 
@@ -719,7 +749,7 @@ The scaling relation derived above, that control power at fixed bleed fraction f
 
 [Johnston and Friend 1965][research_johnston_friend_1965] addresses the effect of size on hover and low-speed handling qualities directly. **The existence of that paper, in that year, is the corroboration.** The field asked the size question within three years of the X-14A's first control-power results, which is what one would expect if the practitioners had noticed the same inverse dependence the algebra gives.
 
-The check that can be made numerically is the Dornier Do 31, which spanned about eighteen metres and is the largest jet-lift vertical take-off aircraft flown. The relation demands 12.9 percent bleed at that span for the X-14A's maximum control power. That is a substantial fraction of installed thrust and it is consistent with the type having been at the edge of practicality. **The prediction is not falsified by the one large data point available**, which is weaker than confirmation and is what the evidence supports.
+The check that can be made numerically is the Dornier Do 31, which spanned 17.0 metres and is the largest vertical take-off aircraft NASA flight-tested. The relation demands 12.3 percent of thrust at that span for the 1.84 radians per second squared of the X-14A's pilot nozzles. [Holzhauser et al 1972][research_holzhauser_1972] shows that the Do 31 did not pay it, because it rolled by differential thrust of wingtip lift engines rather than by bleed, and that it flew satisfactorily with 0.8 radians per second squared and attitude stabilisation. **The prediction is not falsified by the one large data point available, and the designers' choice of a different effector is consistent with it**, which is weaker than confirmation and is what the evidence supports.
 
 ### Against the Model That Replaced the Aircraft
 
@@ -733,7 +763,7 @@ This section usually asks whether an aircraft's data mattered. In the X-14's cas
 
 ### It Became a Requirement Document
 
-Military Specification MIL-F-83300, Flying Qualities of Piloted V/STOL Aircraft, was adopted in December 1970. It is the document that turned handling-qualities research on vertical take-off aircraft into a contractual obligation on manufacturers, and its hovering requirements descend from the flight and simulator work of the preceding decade, of which the X-14A's is the principal flight component.
+Military Specification MIL-F-83300, Flying Qualities of Piloted V/STOL Aircraft, was adopted in December 1970. It is the document that turned handling-qualities research on vertical take-off aircraft into a contractual obligation on manufacturers, and its hovering requirements descend from the flight and simulator work of the preceding decade, of which the X-14A's is the principal flight component. NASA's history of Ames flight research by [Borchers, Franklin and Fletcher][ref_borchers_1998] states the link in so many words, that research with this aircraft, together with experiments on the new six-degrees-of-freedom hover simulator, contributed to the military flying qualities specification for vertical and short take-off aircraft, and adds that it played an important role in the control system development of the Hawker P.1127.
 
 **The generation of the specification has its own account.** [Key 1971][research_key_1971] describes how MIL-F-83300 was produced, published the year after adoption, and it is the primary source for the lineage this section claims. The conventional-aircraft counterpart is documented the same way in [Chalk et al 1969][research_chalk_1969], the background and user guide for MIL-F-8785B. The specification then attracted the work any specification attracts. [Vinje and Miller 1973][research_vinje_miller_1973] reports flight simulator experiments in support of its further development, [Hutchings 1977][research_hutchings_1977] reviews the Navy requirements against it, [Anderson 1979][research_anderson_1979] compares an actual aircraft's handling qualities against both it and the corresponding report of the Advisory Group for Aerospace Research and Development, and [Goldstein 1982][research_goldstein_1982] gives an overview of where the specifications stood a decade on. The short take-off case followed in [Hoh and Mitchell 1983][research_hoh_mitchell_1983]. **A research aircraft whose output can be traced into a numbered document that contractors must satisfy has had an unusual kind of effect**, and among the fourteen aircraft this series has covered only this one has it.
 
@@ -741,7 +771,7 @@ Military Specification MIL-F-83300, Flying Qualities of Piloted V/STOL Aircraft,
 
 ### It Set the Range Everyone Else Worked In
 
-The interval from 0.8 to 2.0 radians per second squared appears in the X-14A flight reports of 1962 and 1965, in the Ames simulator work of 1972, and in the discussion of control power requirements throughout the period. **A research aircraft that fixes the axis limits of everyone else's plots has had an effect that is easy to miss because it does not look like a result.**
+The interval from 0.8 to 2.0 radians per second squared appears in the X-14A lateral control report of 1965, which compares its ratings with boundaries from the 1962 flights, in the Ames simulator work of 1972, and in the discussion of control power requirements throughout the period. **A research aircraft that fixes the axis limits of everyone else's plots has had an effect that is easy to miss because it does not look like a result.**
 
 ### It Fed the Lunar Programme, Partially
 
@@ -809,7 +839,7 @@ Evaluating for three representative vehicles, taking $c_{g} = 0.707$ for a cross
 
 The more consequential difference is not the size of the control power but what it costs.
 
-The X-14A's reaction controls consumed 7.41 percent of engine thrust, and that flow was supplied whether or not the pilot was commanding anything, so the tax was standing rather than incurred. A multirotor's differential is zero-sum. One rotor rises exactly as much as another falls, so
+The X-14A's reaction controls consumed an estimated sixth of engine thrust, and at least a tenth, and the design report of [Pauli et al 1965][research_pauli_1965] makes the total nozzle exit area constant so that the bleed flowed whether or not the pilot was commanding anything. The tax was standing rather than incurred. A multirotor's differential is zero-sum. One rotor rises exactly as much as another falls, so
 
 $$\sum_{i} \Delta T_{i} = 0$$
 
@@ -817,7 +847,7 @@ and **the mean cost of attitude control is zero**. What the vehicle pays instead
 
 **The design constraint that dominated the X-14 has been dissolved rather than solved.** That is the same verdict the previous article reached about the [X-13][related_post_a310_ryan_x13]'s hovering control problem, by a different route, and the agreement is worth noting because the two aircraft solved the vertical take-off problem in opposite ways.
 
-One caveat belongs with the 7.41 percent. It is inverted from a reported thrust increase rather than from a duty-cycle-weighted measurement, which is consistent with a standing bleed. If the X-14A's supply were instead demand-only, the average penalty would be lower and the peak figure unchanged, and the comparison above would overstate the contrast. The article's other conclusions do not depend on which it was.
+The standing character of the X-14A's bleed is a design fact rather than an assumption. The report states that the characteristics of the engines made it essential that the total bleed be constant, that the flow through the pilot's nozzles was constant, and that the added variable-stability nozzles were therefore given a constant flow too. What remains uncertain is the size of the tax, between a tenth and a sixth of thrust, not its character.
 
 ### The Constraint Moved Rather Than Vanishing
 
@@ -825,7 +855,7 @@ The inverse-span law has a consequence that the enthusiasm around small vehicles
 
 $$b^{*} = \frac{c_{g} \min(r-1,\,1)\, g}{2 \kappa^{2} \times 2.0}$$
 
-gives 17.3 metres of span at a thrust-to-weight ratio of 1.4, 26.0 metres at 1.6, and 43.3 metres at 2.0. **A modern vehicle with an air-taxi thrust margin falls to the X-14A's control power at about seventeen metres**, which is against the twenty-eight metre span at which this article found jet lift exhausting its bleed budget. The two constraints bite at comparable size for comparable margin. **Large hovering aircraft are still hard, and they are hard for a reason the X-14A measured.**
+gives 17.3 metres of span at a thrust-to-weight ratio of 1.4, 26.0 metres at 1.6, and 43.3 metres at 2.0. **A modern vehicle with an air-taxi thrust margin falls to the X-14A's control power at about seventeen metres**, which is against the twenty-eight to forty-six metre span at which this article found bleed-fed jet lift exhausting a twenty percent margin. The two constraints bite at comparable size for comparable margin. **Large hovering aircraft are still hard, and they are hard for a reason the X-14A measured.**
 
 ### The Authority Budget Became a Geometry Problem
 
@@ -841,9 +871,9 @@ The general over-actuated formulation is treated in [Scordamaglia et al 2025][re
 
 ### The Loop Order Was Designed Out
 
-This article derived that a hovering aircraft with no damping presents a fourth-order plant from stick to position, third order only below the damping break frequency, and that the X-14A's synthesised dampings of 0.45 and 0.59 per second put that break at periods of fourteen and eleven seconds.
+This article derived that a hovering aircraft with no damping presents a fourth-order plant from stick to position, third order only below the damping break frequency, and that the X-14A's synthesised dampings of 0.55 to 2.9 per second put that break between 0.55 and 2.9 radians per second, at periods of 11.4 to 2.17 seconds.
 
-**A modern attitude loop closes between roughly ten and thirty radians per second**, which is more than an order of magnitude above any break frequency the X-14A could synthesise. The aircraft was therefore in its fourth-order regime across the whole of the band its pilots worked in, which is the sharpest available explanation of why it was hard to fly.
+**A modern attitude loop closes between roughly ten and thirty radians per second**, which is 3.4 times the highest break frequency the X-14A was flown with and 18 times the lowest. At its lowest damping the aircraft was in its fourth-order regime above about half a radian per second, and at that damping the ratings of the pilot less familiar with the aircraft were his worst at every control power and stick travel in table II of [Rolls et al 1965][research_rolls_1965_2], while the more familiar pilot's were not. That is consistent with the loop-order explanation of why it was hard to fly, although the ratings alone cannot separate the loop order from the lost damping itself.
 
 The modern answer is not more control power but attitude command, which makes the outer loop second order. Attitude and position architectures for hovering vehicles are [Zhang et al 2024][research_zhang_2024] and the cascaded treatments in [Wang et al 2026, Modeling and hover control of a bi][research_wang_2026_6], with disturbance rejection in [Wang et al 2026][research_wang_2026] and [Kato and Suzuki 2019][research_kato_suzuki_2019]. **The 1972 Ames finding that attitude stabilisation gives the best handling qualities for the least control power is now not a finding but an assumption**, built into every vehicle of this class before anyone flies it.
 
@@ -853,7 +883,7 @@ MIL-F-83300 obliged a military contractor to demonstrate compliance. The vehicle
 
 [Favaro et al 2025][research_favaro_2025] is written from inside that problem and asks what makes a flight model credible enough to certify against by simulation rather than by flight. **This closes a loop the X-14 opened.** The X-14A existed because nobody trusted a simulator to answer a hovering handling-qualities question. The modern question is what evidence would justify trusting one, because flying every configuration is no longer affordable and the number of configurations has grown enormously. [Li et al 2024, An Objective Handling Qualities As][research_li_2024_2] proposes an objective assessment framework for electric vertical take-off vehicles, [Wang et al 2025][research_wang_2025] models wake interference within quadrotor handling qualities, and [Zanoni et al 2022][research_zanoni_2022] pulls handling qualities forward into conceptual design. Uncertainty in the assessment itself is [Saetti and Rogers 2024][research_saetti_rogers_2024], and automating the assessment is [Antonakis 2025, Reinforcement-learning-based aircr][research_antonakis_2025_2]. The certification architecture around all of it is [Pleffken 2026][research_pleffken_2026] and [Kieß et al 2026][research_kie_2026], and the accident record that will discipline it is already being surveyed in [Shubert et al 2026][research_shubert_2026].
 
-**Pilot-induced oscillation, which is what destroyed the X-14B if the secondary accounts are right, remains a criterion problem rather than a solved one.** [Bidinotto et al 2022][research_bidinotto_2022] surveys the pilot models used to predict it, [Wang et al 2023, Suggestions for Criteria to Evalua][research_wang_2023_3] proposes criteria for the nonlinear lateral-directional case that fly-by-wire systems produce, [Efremov et al 2022][research_efremov_2022] and [Newton and Kroo 2025][research_newton_kroo_2025] treat suppression, and [Rezaei and Khosravi 2023][research_rezaei_khosravi_2023] attacks it through the actuator saturation that causes it. **The failure mode the X-14B is said to have died of is still being written about seriously forty years later.**
+**Pilot-induced oscillation, which is what ended the X-14B's flying according to NASA's history of Ames flight research, remains a criterion problem rather than a solved one.** [Bidinotto et al 2022][research_bidinotto_2022] surveys the pilot models used to predict it, [Wang et al 2023, Suggestions for Criteria to Evalua][research_wang_2023_3] proposes criteria for the nonlinear lateral-directional case that fly-by-wire systems produce, [Efremov et al 2022][research_efremov_2022] and [Newton and Kroo 2025][research_newton_kroo_2025] treat suppression, and [Rezaei and Khosravi 2023][research_rezaei_khosravi_2023] attacks it through the actuator saturation that causes it. **The failure mode that ended the X-14B's flying is still being written about seriously forty years later.**
 
 ### Handling Qualities for Vehicles With No Pilot Aboard
 
@@ -897,7 +927,7 @@ The aerodynamics are [Lee et al 2026][research_lee_2026] on rotor-rotor interact
 
 ### The Tip-Fan Failure Mode Survives, and Was Beaten by the Drive
 
-The most transferable single result in this article is that the X-14A's tip-turbine fans met the control-power criterion exactly and were unflyable because of their time constants.
+The most transferable single result in this article is that the X-14A's tip-turbine fans delivered nearly the control power of the reaction nozzles they replaced, 0.65 against 0.70 radians per second squared, and were unflyable because of their time constants.
 
 **A multirotor changes its attitude moment by changing rotor speed, which is precisely the mechanism that failed in 1969.** The rotors are of comparable size, since the X-14A's fans were 12.8 inches in diameter and a small quadrotor's rotors are of that order. What changed is the drive. An electric motor delivers far more torque per unit of rotor inertia than a bleed-fed tip turbine, so the same geometry has a much shorter time constant, and the failure mode is avoided rather than removed. The electric propulsion and power literature that sets those limits is [Litt 2025][research_litt_2025], [Xiao et al 2024][research_xiao_2024], [Jing et al 2025][research_jing_2025], [Park 2026][research_park_2026], [Nakayama et al 2026][research_nakayama_2026], [Li and Jiang 2026][research_li_jiang_2026], [Critchfield and Ning 2026][research_critchfield_ning_2026], and [Liu et al 2024, Flight analysis and optimization d][research_liu_2024_3], with the configuration space surveyed in [Chen et al 2026, Electric Vtol design exploration a][research_chen_2026_3]. Morphing and reconfiguration, which changes the plant in flight the way the X-14A's system changed it artificially, is [Zhu et al 2025, Aerodynamics-Driven Morphing Contr][research_zhu_2025_2]. Fleet reliability and cyber integrity now sit alongside, in [Emeto et al 2026][research_emeto_2026] and [Ide and Landman 2025][research_ide_landman_2025], with rotor-scale effects in [Pieris et al 2023][research_pieris_2023].
 
@@ -921,9 +951,17 @@ Treating the X-14 through the keystone of control-power measurement is the right
 
 This is the most important limitation and the aircraft's own programme demonstrated it.
 
-The tip-turbine fans of [Gerdes and Rolls 1969][research_gerdes_rolls_1969] produced the required thrust for half the bleed, which by the criterion the aircraft itself had established should have been a straightforward improvement. **They were rejected because of their time constants.** A fan has rotational inertia and takes time to spin up, so the moment arrives late. The report is explicit that this resulted in pilot-induced oscillations and long lags between control initiation and the aircraft following.
+The tip-turbine fans of [Rolls and Gerdes 1969][research_rolls_gerdes_1969] produced their thrust for less than half the bleed, and gave the aircraft 0.65 radians per second squared of roll control power against 0.70 for the reaction nozzles, which by the criterion the aircraft itself had established should have been close to a straightforward improvement. **They were rejected because of their time constants.** A fan has rotational inertia and takes time to spin up, so the moment arrives late. The report gives a first-order time constant of 0.58 seconds open loop and 0.34 seconds with the closed-loop speed control fitted for flight, against 0.08 seconds for the reaction nozzles, and it rated the fans 6-1/2 to 7-1/2 against 4-1/2 to 5-1/2 for the nozzles. For a first-order lag of time constant $\tau_{c}$ the fraction of a commanded moment present a time $t$ after a step is
 
-So a control system meeting the control-power criterion exactly was unflyable. **The criterion was incomplete, and the experiment that revealed the incompleteness was run on the same aircraft that had produced the criterion.** What was missing was any statement about how quickly the moment must appear, which is a bandwidth requirement rather than an authority requirement.
+$$1 - e^{-t/\tau_{c}}$$
+
+so at the 0.2 seconds within which the military and Advisory Group for Aerospace Research and Development recommendations of the day required the aircraft to begin moving the right way,
+
+$$1 - e^{-0.2/0.58} = 0.292, \qquad 1 - e^{-0.2/0.34} = 0.445, \qquad 1 - e^{-0.2/0.08} = 0.918$$
+
+The report adds that a full command saturates the closed loop, so the fan reverts to its open-loop constant exactly when the pilot asks for the most, and that the aircraft took about 1.0 second to stop and begin moving in the direction of the control. It is explicit that this resulted in pilot-induced oscillations and long lags between control initiation and the aircraft following.
+
+So a control system nearly matching the control power of the one it replaced was unflyable. **The criterion was incomplete, and the experiment that revealed the incompleteness was run on the same aircraft that had produced the criterion.** What was missing was any statement about how quickly the moment must appear, which is a bandwidth requirement rather than an authority requirement.
 
 The field's eventual answer was to change the variable. Modern handling-qualities criteria are stated in terms of attitude-response bandwidth and phase delay rather than in terms of maximum angular acceleration alone, and the experiments that established those criteria are a direct methodological descendant of the X-14A's. [Pausder and Blanken 1992][research_pausder_blanken_1992], [Pausder and Blanken 1993][research_pausder_blanken_1993], and [Blanken and Pausder 1994][research_blanken_pausder_1994] investigate the effects of bandwidth and time delay on roll-axis handling qualities, sweeping two parameters across a boundary and collecting pilot ratings, which is the X-14A's procedure with the independent variables replaced. The state of the subject at that point is collected in [Blanken and Whalley 1993][research_blanken_whalley_1993]. **The X-14's number survived as a floor and stopped being the criterion.**
 
@@ -1061,41 +1099,41 @@ The point that does deserve comment is the pairing. The X-13 and the X-14 are co
 
 ## The Source Base
 
-The primary record for this article is unusually concentrated and has one significant hole.
+The primary record for this article is concentrated at Ames and has one significant hole.
 
-The keystone document is [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962], which is the NASA Ames determination of attitude control power and damping requirements using the variable-stability and control X-14A. **The full text of the underlying technical note was not retrievable.** The NASA Technical Reports Server holds the record with an abstract but no downloadable document, and the archive's search does not return the record for its own title.
+The keystone document is [Rolls and Drinkwater 1962][research_rolls_drinkwater_1962], NASA Technical Note D-1328, which is the Ames determination of attitude control power and damping requirements using the variable-stability and control X-14A. **The full text of the underlying technical note is not retrievable.** The NASA Technical Reports Server holds the record with a one-line abstract, and its download link returns no document.
 
-This article therefore relies on the successor rather than the origin for its numbers. [Drinkwater et al 1965][research_drinkwater_1965] is available in full, states the control powers tested and the test weight and thrust-to-weight ratio directly, and is the source for every quantitative claim about the experimental programme made above. **The specific pilot ratings against control power are not reproduced here.** That report presents them in a figure rather than in its text, and no rating values are asserted anywhere in this article.
+This article therefore relies on its successors for its numbers. [Rolls et al 1965][research_rolls_1965_2], NASA Technical Note D-2701, is read in full. It states the control powers, dampings, and stick travels tested, the test weight, and the thrust-to-weight ratio, and it gives every pilot rating in its table II. [Pauli et al 1965][research_pauli_1965], NASA Technical Note D-2700, is read in its design sections and its appendix, and gives the bleed, the nozzle arrangement, the inertias, and the moment arms on which the sizing analysis rests. [Rolls and Gerdes 1969][research_rolls_gerdes_1969], NASA Technical Note D-5491, is read in full and gives the fan results and the thrust gain from reduced bleed. [Greif et al 1972][research_greif_1972] gives the simulator comparison. [Rolls 1960][research_rolls_1960] and [Rolls 1965][research_rolls_1965], the latter read in the compilation of the 1965 NASA conference on aircraft operating problems, give the early and the operational experience. [Hoffman et al 1972][research_hoffman_1972] and [Loscutoff et al 1973][research_loscutoff_1973], contractor reports from the University of California at Davis, give the later mass properties, the span, and the diverter efficiency, and [Holzhauser et al 1972][research_holzhauser_1972] gives the Do 31 comparison. [Gallagher et al 1972][research_gallagher_1972], [Corliss et al 1977][research_corliss_1977], [Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_4], and [Gerdes 1981][research_gerdes_1981] are not retrievable in full from the NASA Technical Reports Server and are relied on only for what their titles and abstracts state. [Merrick 1982][research_merrick_1982] covers the digital era in full.
 
-The other primary documents are complete and were read. [Gerdes and Rolls 1969][research_gerdes_rolls_1969] supplies the bleed figure that the whole sizing analysis rests on. [Rolls 1965][research_rolls_1965] supplies the operational experience. [Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_4] supplies the powerplant experience. [Gallagher et al 1972][research_gallagher_1972], [Corliss et al 1977][research_corliss_1977], and [Merrick 1982][research_merrick_1982] cover the digital era.
+**Where the primary documents disagree, both values are given.** The 1965 design report and the 1972 equations of motion differ by a factor of two in roll inertia, and the 1969 fan report gives a basic roll control power well below the 1965 design value. Neither difference is explained in the record available here.
 
-The vehicle specifications come from secondary compilations and **they disagree with each other** on the Viper engine rating and on the date of the first hover. Both disagreements are reported in the text rather than resolved. The 1981 accident cause is given by secondary sources, and no primary investigation report is available to confirm it.
+The programme history comes from two NASA publications, the history of Ames flight research by [Borchers, Franklin and Fletcher][ref_borchers_1998] and the inventory of X-vehicles by [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003], and from secondary compilations for the contract date, the Bell model number, the serial, the date of the first transition, and the engine ratings. **The sources disagree** on the Viper engine rating, on the date of the first hover, and on whether the wing came from the Bonanza or the T-34, and all three disagreements are reported in the text rather than resolved. The 1981 accident cause is given by NASA's history of Ames flight research, and no investigation report is available to show the evidence behind it.
 
-**The research list holds 361 works, and every one of them is cited in a sentence of the body.** A work is admitted when its title, read by a person, is on this article's subject. The road vehicle, robotics and satellite control studies among them are not homonym admissions, because the contemporary section cites them on purpose as the same allocation and shared control mathematics outside aviation. Records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter, are excluded, and none is present. Every research title has been read for relevance and none falls outside the subject, so the off-topic share that remains is a matter of reading judgement, although a reading of titles alone cannot rule out a work whose title is on topic and whose content is not.
+**The research list holds 367 works, and every one of them is cited in a sentence of the body.** A work is admitted when its title, read by a person, is on this article's subject. The road vehicle, robotics and satellite control studies among them are not homonym admissions, because the contemporary section cites them on purpose as the same allocation and shared control mathematics outside aviation. Records that are not works, meaning figures, tables, supplementary files, peer-review reports, notices of erratum, correction, retraction or withdrawal, and journal front matter, are excluded, and none is present. Every research title has been read for relevance and none falls outside the subject, so the off-topic share that remains is a matter of reading judgement, although a reading of titles alone cannot rule out a work whose title is on topic and whose content is not.
 
 ## Epistemic State
 
-**Historical fact, from primary sources.** The X-14A weighed 3,700 pounds during the lateral control experiments with a thrust-to-weight ratio available of 1.1 to 1.2. Lateral control power was tested at 0.8, 1.4, and 2.0 radians per second squared, at three stick travels, with damping also varied, and total control power dominated pilot ratings while control sensitivity had only a minor effect. Attitude control in hover was by reaction jets at the wingtips and tail supplied with compressor bleed. The exhaust was turned by cascade diverters. Tip-turbine fans of 150 pounds thrust were flown, used about half the bleed of the reaction controls for the same thrust, returned four percent more engine thrust, and were rejected for their time constants.
+**Historical fact, from primary sources.** The X-14A weighed 3,700 pounds during the lateral control experiments with a thrust-to-weight ratio available of 1.1 to 1.2. Lateral control power was tested at 0.8, 1.4, and 2.0 radians per second squared, damping at 0.55, 1.75, and 2.9 per second, and stick travel at 4.5, 3.5, and 3.0 inches either way, by two pilots who rated all twenty-seven conditions, and total control power dominated their ratings while control sensitivity had only a minor effect. Attitude control in a hover was by two parallel sets of reaction nozzles at the wingtips and tail, fed by a constant bleed of ten percent of the engines' 85.0 pounds per second of airflow and producing 500.7 pounds of reaction force in all. The 1965 design inertias were 1,170, 1,990, and 2,920 slug square feet in roll, pitch, and yaw, with arms of 16.9 and 18.75 feet, and the X-14B-period model gives 2,340, 3,400, and 5,400 slug square feet at 4,182 pounds, a span of 33.83 feet, and a diverter efficiency of 0.91. The exhaust was turned by cascade diverters. The original aircraft lacked control power for want of bleed, and the J85 engines were fitted to supply more bleed and thrust. Tip-turbine fans of 150 pounds thrust were flown, needed less than half the bleed of the reaction nozzles for the same thrust, would have cut the total bleed by about 20 percent and returned four percent more engine thrust, gave 0.65 against 0.70 radians per second squared, had time constants of 0.58 and 0.34 seconds against 0.08, and were rejected. NASA's history of Ames flight research records the late-1959 transfer, the principal pilots, Armstrong's 1965 flights, the X-14B modification, the aircraft's contribution to the military specification, and the 1981 hard landing and its attributed cause. NASA's inventory records the first flight on 17 February 1957, the last on 29 May 1981, the 172 miles per hour, the more than 25 pilots, and the airframe's survival.
 
-**Historical fact, from secondary sources.** The July 1955 Air Force contract, the Bell Model 68 designation and 56-4022 serial, the Bonanza and T-34 component origins, the assignment to Ames on 2 October 1959, the J85-GE-5 and J85-GE-19 ratings, the first transition on 24 May 1958, the roughly twenty-five pilots, Armstrong's 1965 flights, and the 29 May 1981 loss.
+**Historical fact, from secondary sources.** The July 1955 Air Force contract, the Bell Model 68 designation and 56-4022 serial, the Bonanza wing, the date of 2 October 1959, the J85-GE-5 and J85-GE-19 ratings, the first transition on 24 May 1958, and that the pilot in 1981 was not seriously injured.
 
-**Contested in the sources and left contested.** The Viper 8 rating, given as either 1,750 or 1,560 pounds of thrust each. The first hover date, given as either 17 or 19 February 1957. The 1981 accident cause, attributed by secondary sources to a lateral control software flaw producing a pilot-induced oscillation, unconfirmed here.
+**Contested in the sources and left contested.** The Viper rating, given as either 1,750 or 1,560 pounds of thrust each. The first hover date, given as 17 February 1957 for the first flight in NASA's inventory and as 19 February 1957 for the first free hover in the abstract of Gerdes's retrospective, which may be different events. The wing, given as a Bonanza wing in the secondary account and as a T-34 wing in NASA's history. The roll inertia, given as 1,170 and as 2,340 slug square feet by two primary reports seven years apart.
 
-**Engineering analysis, derived in this article and reproducible from the stated inputs.** The bleed fraction of 7.41 percent, inverted from the four percent thrust recovery on halving the bleed. The consequent 397 pounds of thrust and the finding that this consumed 34.9 to 51.8 percent of the hover margin. The installation loss of 17.2 to 24.1 percent. The Viper thrust-to-weight ratios of 0.843 and 0.946, both below unity at the 3,700 pound test weight. The roll inertia of 3,333 kilogramme metres squared and radius of gyration of 13.7 percent of span. The scaling relation that control power falls inversely with span at fixed bleed fraction, and the resulting span limit near 28 metres. The repositioning time analysis and its exponent of minus 0.26. The lunar timescale mismatch of 2.46.
+**Engineering analysis, derived in this article and reproducible from the stated inputs.** The thrust lost per unit of airflow bled, 1.67, and the bleed cost of 0.167 of thrust, with 0.10 as a floor. The consequent 893 pounds of thrust, or 536 on the floor, and the finding that this consumed 54.7 to 70.7 percent of the hover margin, or 42.0 to 59.2 percent on the floor. The installation loss of 17.2 to 24.1 percent and its reproduction by the bleed estimate and the diverter efficiency. The Viper thrust-to-weight ratios of 0.843 and 0.946, both below unity at the 3,700 pound test weight. The roll radius of gyration of 0.094 or 0.125 of the span. The saturation rates of the damping loop. The scaling relation that control power falls inversely with span at fixed bleed fraction, and the resulting span limit between 27.5 and 45.9 metres for a twenty percent margin. The repositioning time analysis and its exponent of minus 0.26. The lunar timescale mismatch of 2.46.
 
 **A correction to the previous article, derived here.** The [X-13][related_post_a310_ryan_x13] article described hovering as a third-order position loop. Composing the transfer functions shows the loop from control input to position is fourth order when the damping is zero, and third only below the damping break frequency. Both articles are describing the same physics and the earlier phrasing is the low-frequency case. The distinction matters because a fourth-order plant demands two derivatives of lead from the pilot rather than one, and this article treats that as the explanation for why attitude stabilisation buys so much.
 
-**Inference, stated as such.** That the re-engining was a precondition for the research programme rather than a performance upgrade follows from the Viper thrust-to-weight ratios but is not stated in any source consulted. That the tip fans were specified at the aircraft's existing maximum control power rather than above it, and that this indicates bleed rather than authority was the binding constraint, is an inference from two numbers in two reports. That the X-14A's tested range set the range used by later simulator studies is an inference from the coincidence of intervals and could equally be independent convergence. That the field recognised the size-scaling problem within three years is inferred from the existence and title of a 1965 paper rather than from its content, which was not read in full.
+**Inference, stated as such.** That the damping loop saturated at modest roll rates in the high-damping and high-control-power corner rests on the 1965 design authorities and assumes they held in the 1965 tests. That the X-14A's tested range set the range used by later simulator studies is an inference from the coincidence of intervals and could equally be independent convergence. That the field recognised the size-scaling problem within three years is inferred from the existence and title of a 1965 paper rather than from its content, which was not read in full.
 
-**Claims the record does not settle.** Whether MIL-F-83300's hovering requirements derive specifically from the X-14A's numbers rather than from the broader flight and simulator corpus of the 1960s. The article claims descent from that corpus, of which the X-14A is the principal flight component, and does not claim a direct numerical inheritance. Whether the 1981 accident was as described. Whether the X-14 is the longest-serving X-plane, which its 1957 to 1981 span suggests but which this article has not verified against all seventy-two designations in the series and therefore does not assert.
+**Claims the record does not settle.** Whether MIL-F-83300's hovering requirements derive specifically from the X-14A's numbers rather than from the broader flight and simulator corpus of the 1960s. NASA's history states that the aircraft's research contributed to the specification, and the article claims descent from that corpus, of which the X-14A is the principal flight component, but does not claim a direct numerical inheritance. Whether the 1981 accident was as described, since the attribution is NASA's but the evidence behind it is not available here. Whether the X-14 is the longest-serving X-plane, which its 1957 to 1981 span suggests but which this article has not verified against all seventy-two designations in the series and therefore does not assert.
 
 **Anachronism, flagged.** The bandwidth and phase-delay framing used in the discussion of what the criterion missed postdates the X-14A's principal results by decades. It is applied here because the tip-fan failure of 1969 is unintelligible without it, and the aircraft's own programme produced the evidence that the magnitude criterion was incomplete before the vocabulary existed to say so.
 
-**The three modern reference vehicles are representative rather than actual.** Their masses, rotor radii, thrust-to-weight ratios, and radii of gyration were chosen as plausible for their classes rather than taken from any particular aircraft, and the radius of gyration fraction used for all three is 0.2 rather than the 0.137 recovered for the X-14. The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation. **The specific control powers are not**, and a reader who substitutes a real vehicle's inertia should expect the third significant figure to move.
+**The three modern reference vehicles are representative rather than actual.** Their masses, rotor radii, thrust-to-weight ratios, and radii of gyration were chosen as plausible for their classes rather than taken from any particular aircraft, and the radius of gyration fraction used for all three is 0.2 rather than the 0.094 to 0.125 that the X-14's two primary inertia sets give. The conclusions drawn from them are ratios and orders and are insensitive to reasonable variation. **The specific control powers are not**, and a reader who substitutes a real vehicle's inertia should expect the third significant figure to move.
 
-**The comparison of what attitude control costs then and now carries one assumption that the sources do not settle.** The 7.41 percent bleed penalty is inverted from a reported thrust increase rather than from a duty-cycle-weighted measurement, which is consistent with a standing bleed rather than a demand-only one. If the X-14A's supply were demand-only, the average penalty would be lower while the peak figure stayed the same, and the contrast drawn against a multirotor's zero-mean differential would be overstated. This is flagged in the text where the comparison is made, and no other conclusion in the article depends on which arrangement it was.
+**Assumptions, stated as such.** The thrust lost per unit of airflow bled is assumed to stay at 1.67 over the whole ten percent bleed, which neither source states, and the proportional floor of 0.10 is reported beside every figure that depends on it. The diverter efficiency of 0.91 reported for the X-14B is assumed to apply to the X-14A. The twenty percent thrust margin in the scaling argument is an assumed figure for a generous design. The wind speed, side area, drag coefficient, and offset in the disturbance example are representative values, not measurements. The Do 31 force example applies the X-14A's proportions to the Do 31's span and mass.
 
-**The claim that the modern attitude loop closes an order of magnitude above the X-14A's damping break is a comparison of a stated range against a computed value.** The ten to thirty radians per second figure is the commonly quoted band for a small vehicle's inner loop rather than a measurement made here, and the conclusion that the X-14A sat in its fourth-order regime throughout its pilots' working band follows from its own synthesised dampings of 0.45 and 0.59 per second, which are reported values.
+**The claim that the modern attitude loop closes well above the X-14A's damping break is a comparison of a stated range against reported values.** The ten to thirty radians per second figure is the commonly quoted band for a small vehicle's inner loop rather than a measurement made here, and the X-14A's synthesised dampings of 0.55 to 2.9 per second are the reported values in table II of the 1965 lateral control report.
 
 ## Out of Scope
 
@@ -1105,9 +1143,9 @@ The transition aerodynamics of jet-lift aircraft, including induced lift loss an
 
 The X-14 answered the question of how much attitude control a hovering aircraft needs, and the answer was a number between 0.8 and 2.0 radians per second squared with the boundary somewhere inside that interval.
 
-The more durable results are the ones around the number. **Attitude control on a jet-lift aircraft is bought with lift, at a price this article fixes at about seven and a half percent of thrust, which consumed between a third and a half of everything the X-14A could lift beyond its own weight.** That price scales badly, growing linearly with span at fixed control power, and the scaling is sufficient on its own to explain why jet-lift vertical take-off aircraft never grew beyond about eighteen metres of span in practice.
+The more durable results are the ones around the number. **Attitude control on a jet-lift aircraft is bought with lift, at a price this article puts at about a sixth of the X-14A's thrust and not less than a tenth, which consumed more than half of everything the aircraft could lift beyond its own weight.** That price scales badly, growing linearly with span at fixed control power, and the largest jet-lift aircraft NASA tested, at 17.0 metres of span, avoided it by putting engines at its wingtips and stabilising its attitude.
 
-The aircraft also demonstrated the limits of its own criterion. **The tip-turbine fan experiment produced a control system that met the control-power requirement exactly and was unflyable**, which showed that magnitude without bandwidth is not a specification, and the field eventually changed the variable rather than the number.
+The aircraft also demonstrated the limits of its own criterion. **The tip-turbine fan experiment produced a control system that nearly matched the control power of the nozzles it replaced and was unflyable**, which showed that magnitude without bandwidth is not a specification, and the field eventually changed the variable rather than the number.
 
 And it could not simulate gravity. That single unadjustable parameter bounds what any Earth-based hovering simulator can teach about landing anywhere else, by a factor of 2.46 in the translational timescale, and it is why a far more dangerous vehicle had to be built to finish the job.
 
@@ -1131,12 +1169,14 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 
 - [Beechcraft Bonanza][ref_bonanza]
 - [Bell X-14][ref_x14]
+- [Borchers Franklin and Fletcher 1998 Flight Research at Ames][ref_borchers_1998]
 - [Cooper-Harper scale][ref_cooper_harper]
 - [Lunar Landing Research Vehicle][ref_llrv]
 - [North American X-15][ref_x15]
 - [T-34 Mentor][ref_t34]
 
 [ref_bonanza]: https://en.wikipedia.org/wiki/Beechcraft_Bonanza
+[ref_borchers_1998]: https://ntrs.nasa.gov/citations/19990062580
 [ref_cooper_harper]: https://en.wikipedia.org/wiki/Cooper%E2%80%93Harper_rating_scale
 [ref_llrv]: https://en.wikipedia.org/wiki/Lunar_Landing_Research_Vehicle
 [ref_t34]: https://en.wikipedia.org/wiki/Beechcraft_T-34_Mentor
@@ -1246,8 +1286,6 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Donaldson et al 1966][research_donaldson_1966]
 - [Dorr et al 1992][research_dorr_1992]
 - [Dorr et al 1994][research_dorr_1994]
-- [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962]
-- [Drinkwater et al 1965][research_drinkwater_1965]
 - [Dukes 1970][research_dukes_1970]
 - [Efremov et al 2022][research_efremov_2022]
 - [Elkind and Forgie 1959][research_elkind_forgie_1959]
@@ -1261,6 +1299,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Eshow 1990][research_eshow_1990]
 - [Farris et al 1983][research_farris_1983]
 - [Favaro et al 2025][research_favaro_2025]
+- [Feistel et al 1969][research_feistel_1969]
 - [Fluk 1981][research_fluk_1981]
 - [Foltz 1962][research_foltz_1962]
 - [Foster et al 1987][research_foster_1987]
@@ -1276,7 +1315,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [George et al 1964][research_george_1964]
 - [Georgiev 2025][research_georgiev_2025]
 - [Gerdes 1964][research_gerdes_1964]
-- [Gerdes and Rolls 1969][research_gerdes_rolls_1969]
+- [Gerdes 1981][research_gerdes_1981]
 - [Ghosh and Rajagopalan 2022][research_ghosh_rajagopalan_2022]
 - [Goka et al 1980][research_goka_1980]
 - [Gold and Walchli 1974][research_gold_walchli_1974]
@@ -1297,7 +1336,6 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Harper and Cooper 1984][research_harper_cooper_1984]
 - [Harper and Sardanowsky 1969][research_harper_sardanowsky_1969]
 - [Harvey and Waugh 1976][research_harvey_waugh_1976]
-- [Hegarty et al 1965][research_hegarty_1965]
 - [Henderson 1963][research_henderson_1963]
 - [Herrington et al 2024][research_herrington_2024]
 - [Hess 1977][research_hess_1977]
@@ -1310,8 +1348,10 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Hill and Waters 1974][research_hill_waters_1974]
 - [Hindson 1982][research_hindson_1982]
 - [Hoffman 1971][research_hoffman_1971]
+- [Hoffman et al 1972][research_hoffman_1972]
 - [Hoh 1985][research_hoh_1985]
 - [Hoh and Mitchell 1983][research_hoh_mitchell_1983]
+- [Holzhauser et al 1972][research_holzhauser_1972]
 - [Howard 1976][research_howard_1976]
 - [Hu et al 2026, Urban Air Mobility Risk Assessment][research_hu_2026_2]
 - [Henriquez Huecas et al 2022][research_huecas_2022]
@@ -1372,6 +1412,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Liu et al 2026, Delay-Aware Shared Control for Tel][research_liu_2026_3]
 - [Lollar and Matous 1963][research_lollar_matous_1963]
 - [Longhurst 1966][research_longhurst_1966]
+- [Loscutoff et al 1973][research_loscutoff_1973]
 - [Lovell et al 1953][research_lovell_1953]
 - [Lyu and Feng 2026][research_lyu_feng_2026]
 - [Marchese 1963][research_marchese_1963]
@@ -1429,6 +1470,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Parrish and Bowles 1983][research_parrish_bowles_1983]
 - [Pascioni et al 2026][research_pascioni_2026]
 - [Patierno and Asdurian 1965][research_patierno_asdurian_1965]
+- [Pauli et al 1965][research_pauli_1965]
 - [Pausder and Blanken 1992][research_pausder_blanken_1992]
 - [Pausder and Blanken 1993][research_pausder_blanken_1993]
 - [Payne 1955][research_payne_1955]
@@ -1457,8 +1499,12 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 - [Rizzi et al 2026][research_rizzi_2026]
 - [Robbiani et al 2025][research_robbiani_2025]
 - [Roberts 1964][research_roberts_1964]
+- [Rolls 1960][research_rolls_1960]
 - [Rolls 1965][research_rolls_1965]
+- [Rolls et al 1965][research_rolls_1965_2]
 - [Rolls 1965, Jet Vtol power plant experience du][research_rolls_1965_4]
+- [Rolls and Drinkwater 1962][research_rolls_drinkwater_1962]
+- [Rolls and Gerdes 1969][research_rolls_gerdes_1969]
 - [Roscoe et al 1975][research_roscoe_1975]
 - [Ruggia 2025][research_ruggia_2025]
 - [Rüddenklau and Schitter 2026][research_ruddenklau_schitter_2026]
@@ -1609,8 +1655,6 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_donaldson_1966]: https://doi.org/10.21236/ad0656592
 [research_dorr_1992]: https://ntrs.nasa.gov/citations/19930029334
 [research_dorr_1994]: https://ntrs.nasa.gov/citations/19950037642
-[research_drinkwater_1965]: https://ntrs.nasa.gov/citations/19650009016
-[research_drinkwater_rolls_1962]: https://ntrs.nasa.gov/citations/19620002530
 [research_dukes_1970]: https://doi.org/10.21236/ad0871424
 [research_efremov_2022]: https://doi.org/10.34759/vst-2022-1-201-210
 [research_elkind_forgie_1959]: https://doi.org/10.1109/tac.1959.6429402
@@ -1624,6 +1668,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_eshow_1990]: https://ntrs.nasa.gov/citations/19900060676
 [research_farris_1983]: https://ntrs.nasa.gov/citations/19830060450
 [research_favaro_2025]: https://doi.org/10.3390/aerospace12060559
+[research_feistel_1969]: https://ntrs.nasa.gov/citations/19690013210
 [research_fluk_1981]: https://doi.org/10.2514/6.1981-1623
 [research_foltz_1962]: https://doi.org/10.21236/ad0414393
 [research_foster_1987]: https://ntrs.nasa.gov/citations/19880003977
@@ -1639,7 +1684,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_george_1964]: https://doi.org/10.21236/ad0608185
 [research_georgiev_2025]: https://doi.org/10.3846/aviation.2025.23587
 [research_gerdes_1964]: https://ntrs.nasa.gov/citations/19640018145
-[research_gerdes_rolls_1969]: https://ntrs.nasa.gov/citations/19690029422
+[research_gerdes_1981]: https://ntrs.nasa.gov/citations/19820031392
 [research_ghosh_rajagopalan_2022]: https://doi.org/10.4050/jahs.67.012001
 [research_goka_1980]: https://ntrs.nasa.gov/citations/19800061737
 [research_gold_walchli_1974]: https://doi.org/10.2514/6.1974-952
@@ -1660,7 +1705,6 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_harper_p_1955]: https://doi.org/10.21236/ad0092496
 [research_harper_sardanowsky_1969]: https://doi.org/10.21236/ad0858184
 [research_harvey_waugh_1976]: https://doi.org/10.21236/ada023728
-[research_hegarty_1965]: https://ntrs.nasa.gov/citations/19650007734
 [research_henderson_1963]: https://doi.org/10.2514/6.1963-1010
 [research_herrington_2024]: https://doi.org/10.1142/s2301385024500080
 [research_hess_1977]: https://ntrs.nasa.gov/citations/19780028540
@@ -1673,8 +1717,10 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_hill_waters_1974]: https://doi.org/10.2514/6.1974-969
 [research_hindson_1982]: https://ntrs.nasa.gov/citations/19820015354
 [research_hoffman_1971]: https://doi.org/10.2514/6.1971-768
+[research_hoffman_1972]: https://ntrs.nasa.gov/citations/19730008261
 [research_hoh_1985]: https://ntrs.nasa.gov/citations/19850061706
 [research_hoh_mitchell_1983]: https://doi.org/10.21236/ada132857
+[research_holzhauser_1972]: https://ntrs.nasa.gov/citations/19720012362
 [research_howard_1976]: https://ntrs.nasa.gov/citations/19990117220
 [research_hu_2026_2]: https://doi.org/10.3390/drones10010046
 [research_huecas_2022]: https://doi.org/10.4050/jahs.67.032007
@@ -1735,6 +1781,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_liu_kaber_2025]: https://doi.org/10.1080/00140139.2025.2608273
 [research_lollar_matous_1963]: https://doi.org/10.1109/thfe.1963.231288
 [research_longhurst_1966]: https://doi.org/10.4271/660315
+[research_loscutoff_1973]: https://ntrs.nasa.gov/citations/19740013548
 [research_lovell_1953]: https://ntrs.nasa.gov/citations/20050029472
 [research_lyu_feng_2026]: https://doi.org/10.1016/j.tranpol.2026.104345
 [research_marchese_1963]: https://doi.org/10.21236/ad0442887
@@ -1792,6 +1839,7 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_parrish_bowles_1983]: https://ntrs.nasa.gov/citations/19830013921
 [research_pascioni_2026]: https://doi.org/10.2514/1.c038487
 [research_patierno_asdurian_1965]: https://doi.org/10.4050/sm_vstol_1965-3112
+[research_pauli_1965]: https://ntrs.nasa.gov/citations/19650007734
 [research_pausder_blanken_1992]: https://ntrs.nasa.gov/citations/19940035438
 [research_pausder_blanken_1993]: https://ntrs.nasa.gov/citations/19940008827
 [research_payne_1955]: https://doi.org/10.1017/s0368393100116955
@@ -1820,8 +1868,12 @@ The next article takes up the [North American X-15][ref_x15], which is the oppos
 [research_rizzi_2026]: https://doi.org/10.2514/1.c038188
 [research_robbiani_2025]: https://doi.org/10.2514/1.g009058
 [research_roberts_1964]: https://doi.org/10.1007/978-3-7091-4688-0_3
+[research_rolls_1960]: https://ntrs.nasa.gov/citations/19740076592
 [research_rolls_1965]: https://ntrs.nasa.gov/citations/19650021531
+[research_rolls_1965_2]: https://ntrs.nasa.gov/citations/19650009016
 [research_rolls_1965_4]: https://ntrs.nasa.gov/citations/19660013004
+[research_rolls_drinkwater_1962]: https://ntrs.nasa.gov/citations/19620002530
+[research_rolls_gerdes_1969]: https://ntrs.nasa.gov/citations/19690029422
 [research_roscoe_1975]: https://doi.org/10.21236/ada022459
 [research_ruddenklau_schitter_2026]: https://doi.org/10.1016/j.actaastro.2025.12.026
 [research_ruggia_2025]: https://doi.org/10.1016/j.robot.2025.105176

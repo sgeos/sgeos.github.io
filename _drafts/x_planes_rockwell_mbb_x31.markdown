@@ -40,9 +40,11 @@ Administration, NASA, and [available in full][ref_joyce_pdf], and the [Dryden fa
 [X-30][related_post_a327_rockwell_x30].
 
 **The easy misreading of this aircraft is that it existed to find out whether thrust vectoring would work.**
-It did not. Deflecting the exhaust of a jet engine to produce a control moment was demonstrated in the
-1960s, flown on the Hawker Siddeley Harrier in a different form, and tested on an [F-14][ref_f14] with
-paddles by the same manufacturer before the X-31 was designed. Nothing about the mechanism was in doubt.
+It did not. Exhaust vanes deflecting a jet to produce a control force were first used in the mid-1940s on
+the German V-2 ballistic missile, a rotatable nozzle flew on the Hawker Siddeley Harrier in a different form,
+and paddles developed by the same manufacturer's Columbus division were flown from 1986 to 1987 on an
+[F-14][ref_f14] before the X-31 team adopted them, as the [NASA history of the programme][ref_joyce_pdf]
+records. Nothing about the mechanism was in doubt.
 
 **What was in doubt was whether the resulting capability is worth having.** An aircraft that can hold
 seventy degrees of angle of attack under control can point its nose a long way off its flight path. Whether
@@ -77,7 +79,8 @@ aeroplane is worth building.
 
 The vectoring system is a means. It produces a yawing or pitching moment when the aerodynamic surfaces
 cannot, and the size of that moment is computable from the thrust, the deflection angle and the moment arm.
-That calculation appears later in this article and it holds no surprises.
+The arm is not published, and the calculation later in this article turns instead on the speed above which
+no arm the fuselage could hold would have been long enough.
 
 **The reason the vectoring exists is that a wing at seventy degrees of angle of attack is not producing useful control forces**,
 and the reason anybody wanted seventy degrees of angle of attack is that the nose points where the aircraft
@@ -108,7 +111,8 @@ engagements rather than with an envelope chart.
 Herbst, at the German manufacturer, argued through the late 1970s and early 1980s that the decisive quantity
 in close combat was not sustained turn rate but the time taken to bring weapons to bear, and that an
 aircraft able to fly [controllably past the stall][ref_supermaneuverability] could shorten that time by
-rotating rather than turning.
+rotating rather than turning. The [NASA history][ref_joyce_pdf] traces his conviction to the early 1970s
+and dates the post-stall research he led with Karl Knauer at the German manufacturer from 1977.
 
 The [manoeuvre that carries his name][ref_herbst] is a rapid reversal of flight path performed by pitching
 up past the stall, rolling about the velocity vector while the speed decays, and pitching back down on the
@@ -619,7 +623,8 @@ powerful F/A-18 with a wing better suited to conventional turning.
 
 **A number the programme never published can be recovered from something a test pilot said out loud.**
 Reviewing the accident that destroyed the first aircraft, one of the project pilots observed that anybody on
-the programme would know that twenty degrees of angle of attack corresponds to about 135 to 140 knots.
+the programme would know that twenty degrees of angle of attack corresponds to about 135 to 140 knots, a
+remark the [NASA history][ref_joyce_pdf] quotes.
 
 That statement is a trim point, and a trim point determines a lift-curve slope. The relations used through
 this section are the standard ones set out in [Etkin on the dynamics of flight][book_etkin],
@@ -628,7 +633,7 @@ flight the lift equals the weight, so
 
 $$C_L = \frac{W}{q S} \qquad \text{with} \qquad q = \tfrac{1}{2} \rho_0 V_c^{2}$$
 
-At 137.5 knots calibrated and a weight near 14,000 pounds late in a sortie the dynamic pressure is 63.6
+At 137.5 knots calibrated and a weight near 14,000 pounds late in a sortie the dynamic pressure is 64.0
 pounds per square foot and the lift coefficient is 0.9665. Dividing by twenty degrees gives
 
 $$C_{L\alpha} = 0.04833 \ \text{per degree} = 2.769 \ \text{per radian}$$
@@ -791,8 +796,11 @@ aircraft required a large amount of ballast and lost performance for it.
 
 Paddle deflection was originally limited to 26 degrees and later increased to 35, which produced a jet
 deflection of **16 degrees**. Vane travel was separately increased from 27 degrees to 34 after an early
-departure, the 27-degree limit having existed to stop the vanes striking one another.
-**The maximum jet deflection rate was 40 degrees per second.**
+departure, the 27-degree limit having existed to stop the vanes striking one another. The paddle and vane
+figures are those of the [NASA history][ref_joyce_pdf].
+**The maximum jet deflection rate was 40 degrees per second**, as the
+[review of high angle of attack control system performance][research_huberpeter_seamountpatricia_1994]
+states.
 
 The yawing moment available from vectoring is the side component of thrust acting on a moment arm,
 
@@ -920,32 +928,45 @@ pressure.
 
 ### The Moment Arm, Which Is Not Published
 
-**The distance from the centre of gravity to the vane station is not in any source consulted for this article.**
-Rather than assert a value, the relation is inverted.
+**The distance from the centre of gravity to the vane station is not in any source consulted for this article, and the departure record does not supply it.**
 
-The programme reported that the departures from controlled flight at 58 degrees of angle of attack during
-split-S entries were caused by yawing-moment asymmetries so large that they overcame the available
-thrust-vectoring authority. Separately, and in a different report, the measured asymmetry was bounded at a
-yawing-moment coefficient of about 0.080 in the unmodified configuration.
-**Those two statements were never put beside one another, and putting them beside one another determines the arm.**
+The [envelope expansion report][ref_canter_ntrs] records that the departure from controlled flight at 58
+degrees of angle of attack during a split-S was caused by a yawing-moment asymmetry so large that it overcame
+the available thrust-vectoring authority. The [asymmetry report][research_cobleigh_1994] places the same
+event on the second aircraft, during a 2-g split-S to 60 degrees with grit strips on the forebody and
+noseboom, and computes the maximum asymmetry during that manoeuvre as a yawing-moment coefficient of 0.125.
+The [NASA history][ref_joyce_pdf] quotes the flight-test engineer's account, which puts the manoeuvre at
+35,000 feet and Mach 0.4 with maximum afterburner set. The asymmetry report also bounds the second
+aircraft's asymmetry in steady decelerations, with the forebody unmodified, at about 0.080.
 
-Setting the available coefficient equal to the measured asymmetry and solving,
+**A departure says only that the asymmetry exceeded the authority**, so the vectoring relation, solved for
+the arm, gives an upper bound and not a value,
 
-$$\ell_v = \frac{C_{n0} \, q S b}{T \sin \delta_j}$$
+$$\ell_v < \frac{C_{n0} \, q S b}{T \sin \delta_j}$$
 
-At twenty thousand feet and 150 knots calibrated, with thrust lapsed to 7,353 pounds, the arm comes out at
-**16.22 feet**. With the vanes at the nozzle exit that places the centre of gravity at 60.1 percent of the
-fuselage length aft of the nose.
+At 35,000 feet the standard atmosphere set out in the next section gives $\theta = 0.7594$ and
+$\delta = 0.2353$, and a speed of sound of 972.9 feet per second, so Mach 0.4 is 389.1 feet per second true.
+The dynamic pressure follows from the pressure and the Mach number,
 
-**For a canard delta with the wing set well aft, that is where the centre of gravity belongs.** The
-inversion is therefore a check rather than a fit. It could have returned an arm longer than the aeroplane,
-or one that placed the centre of gravity in the cockpit, and it returned neither.
+$$q = \tfrac{\gamma}{2} \, p_0 \, \delta \, M^{2} = 0.7 \times 2{,}116.22 \times 0.2353 \times 0.4^{2} = 55.77 \ \text{psf}$$
+
+and the thrust lapsed with the pressure ratio is $16{,}000 \times 0.2353 = 3{,}765$ pounds. The bound is then
+
+$$\ell_v < \frac{0.125 \times 55.77 \times 226.3 \times 23.83}{3{,}765 \times \sin 16^{\circ}} = \frac{37{,}594}{1{,}037.8} = 36.2 \ \text{feet}$$
+
+**That bound excludes only a centre of gravity within about four and a half feet of the nose of a fuselage
+40.67 feet long, which the geometry excludes already.** It is also soft. The thrust-lapse exponent of the
+model is not measured, and moving it from 0.8 to 1.2 moves the bound from 27.1 to 48.4 feet. The departure
+record therefore does not determine the arm, and this article does not assert one. What the record does
+support is the question the next section asks, which is how long an arm would have had to be.
 
 ### The Departure Boundary
 
-With the arm established, the available authority can be tabulated against the measured asymmetry. Thrust is
-lapsed with the pressure ratio of the standard atmosphere, which is the working approximation for a turbofan
-at fixed Mach number.
+Without the arm, the available authority cannot be tabulated as a coefficient. **What can be tabulated is the
+arm the vectoring would have needed to hold a given asymmetry**, which uses only the thrust, the deflection
+and the dynamic pressure, and which can be set against the length of the fuselage. Thrust is lapsed with the
+pressure ratio of the standard atmosphere, which is the working approximation for a turbofan at fixed Mach
+number.
 
 **The atmosphere model is the 1976 standard troposphere and the density and pressure ratios it supplies are what the thrust lapse and the true-airspeed conversions rest on**,
 so the relations are given rather than left implicit. The tabulated form goes back to the
@@ -964,6 +985,7 @@ $$a = \sqrt{\gamma R T} = \sqrt{\gamma R T_0 \theta}$$
 | 10,000 ft | 0.7385 | 0.6877 |
 | 20,000 ft | 0.5328 | 0.4595 |
 | 30,000 ft | 0.3741 | 0.2970 |
+| 35,000 ft | 0.3099 | 0.2353 |
 
 **Thrust is lapsed with the pressure ratio.** A turbofan at fixed Mach number carries thrust roughly in
 proportion to the ambient pressure, so the working model is the simplest member of a family that runs from
@@ -975,26 +997,55 @@ $$T(h) = T_{\text{SL}} \, \delta(h)^{n}$$
 with the exponent near unity. The exponent is carried explicitly rather than buried, so that its effect on
 the answer can be reported rather than assumed away.
 
-| Altitude | Calibrated airspeed | Dynamic pressure | Thrust | Available $C_n$ | Against 0.080 | Against 0.100 |
-|---|---|---|---|---|---|---|
-| 10,000 ft | 150 kt | 76.2 psf | 11,003 lb | 0.1197 | 1.50 | 1.20 |
-| 10,000 ft | 200 kt | 135.4 psf | 11,003 lb | 0.0673 | 0.84 | 0.67 |
-| 10,000 ft | 250 kt | 211.6 psf | 11,003 lb | 0.0431 | 0.54 | 0.43 |
-| 20,000 ft | 150 kt | 76.2 psf | 7,353 lb | 0.0800 | 1.00 | 0.80 |
-| 20,000 ft | 200 kt | 135.4 psf | 7,353 lb | 0.0450 | 0.56 | 0.45 |
-| 20,000 ft | 250 kt | 211.6 psf | 7,353 lb | 0.0288 | 0.36 | 0.29 |
-| 30,000 ft | 150 kt | 76.2 psf | 4,751 lb | 0.0517 | 0.65 | 0.52 |
-| 30,000 ft | 200 kt | 135.4 psf | 4,751 lb | 0.0291 | 0.36 | 0.29 |
-| 30,000 ft | 250 kt | 211.6 psf | 4,751 lb | 0.0186 | 0.23 | 0.19 |
+The arm needed to hold an asymmetry $C_{n0}$ is the vectoring relation solved at equality,
 
-**One entry in that table is circular and it is the one at twenty thousand feet and 150 knots**, because the
-arm was inverted from precisely that condition and the ratio of 1.00 is therefore guaranteed.
-**The content of the table is its shape, not that entry.**
+$$\ell_{\text{req}} = \frac{C_{n0} \, q S b}{T \sin \delta_j}$$
 
-The shape says that the vectoring system had authority to spare only in a narrow corner of the envelope, low
-and slow, and that everywhere else the measured forebody asymmetry was of the same order as or larger than
-the moment available to fight it.
-**At thirty thousand feet and 250 knots the asymmetry could be five times the authority.**
+and it is tabulated against the steady bound of 0.080 and against the departure's 0.125.
+
+| Altitude | Calibrated airspeed | Dynamic pressure | Thrust | Arm needed against 0.080 | Arm needed against 0.125 |
+|---|---|---|---|---|---|
+| 10,000 ft | 150 kt | 76.2 psf | 11,003 lb | 10.8 ft | 16.9 ft |
+| 10,000 ft | 200 kt | 135.4 psf | 11,003 lb | 19.3 ft | 30.1 ft |
+| 10,000 ft | 250 kt | 211.6 psf | 11,003 lb | 30.1 ft | 47.0 ft |
+| 20,000 ft | 150 kt | 76.2 psf | 7,353 lb | 16.2 ft | 25.3 ft |
+| 20,000 ft | 200 kt | 135.4 psf | 7,353 lb | 28.8 ft | 45.0 ft |
+| 20,000 ft | 250 kt | 211.6 psf | 7,353 lb | 45.0 ft | 70.4 ft |
+| 30,000 ft | 150 kt | 76.2 psf | 4,751 lb | 25.1 ft | 39.2 ft |
+| 30,000 ft | 200 kt | 135.4 psf | 4,751 lb | 44.6 ft | 69.7 ft |
+| 30,000 ft | 250 kt | 211.6 psf | 4,751 lb | 69.7 ft | 108.9 ft |
+
+Two entries worked through show the arithmetic,
+
+$$\ell_{\text{req}}^{20{,}000,\,150} = \frac{0.080 \times 76.2 \times 226.3 \times 23.83}{7{,}353 \times \sin 16^{\circ}} = \frac{32{,}874}{2{,}026.8} = 16.2 \ \text{ft} \qquad \ell_{\text{req}}^{30{,}000,\,250} = \frac{0.080 \times 211.6 \times 226.3 \times 23.83}{4{,}751 \times \sin 16^{\circ}} = \frac{91{,}288}{1{,}309.6} = 69.7 \ \text{ft}$$
+
+**Where the needed arm exceeds the 40.67 feet of the fuselage, no placement of the vanes could have held the
+asymmetry, whatever the real arm is.** At thirty thousand feet and 250 knots even the steady bound of 0.080
+needs an arm $69.7 / 40.67 = 1.71$ times the length of the aeroplane. Setting the needed arm equal to the
+fuselage length $L$ gives the calibrated airspeed above which that is so,
+
+$$q_{L} = \frac{L \, T \sin \delta_j}{C_{n0} \, S b} \qquad V_{c,L} = \sqrt{\frac{2 q_{L}}{\rho_0}}$$
+
+and at twenty thousand feet against the departure's asymmetry
+
+$$q_{L} = \frac{40.67 \times 7{,}353 \times \sin 16^{\circ}}{0.125 \times 226.3 \times 23.83} = \frac{82{,}428}{674.09} = 122.3 \ \text{psf} \qquad V_{c,L} = 320.8 \ \text{ft/s} = 190.0 \ \text{knots}$$
+
+| Altitude | Thrust | Speed above which no arm suffices, against 0.080 | Against 0.125 |
+|---|---|---|---|
+| 10,000 ft | 11,003 lb | 290.6 kt | 232.5 kt |
+| 20,000 ft | 7,353 lb | 237.6 kt | 190.0 kt |
+| 30,000 ft | 4,751 lb | 191.0 kt | 152.8 kt |
+| 35,000 ft | 3,765 lb | 170.0 kt | 136.0 kt |
+
+**The shape of that table is the content.** The ceiling on speed falls with altitude because thrust does,
+and the departure's asymmetry lowers it by a factor of $\sqrt{0.125 / 0.080} = 1.25$ at every height. Below
+those speeds whether the vectoring sufficed depends on the unpublished arm. The departure itself, at an
+equivalent airspeed of 128.3 knots against a ceiling of 136.0 knots at 35,000 feet, sits below its own
+threshold, which is why it bounds the arm rather than showing that no arm would have done.
+
+Its equivalent airspeed follows from the dynamic pressure computed above,
+
+$$V_e = \sqrt{\frac{2 q}{\rho_0}} = \sqrt{\frac{2 \times 55.77}{0.0023769}} = 216.6 \ \text{ft/s} = 128.3 \ \text{knots}$$
 
 The measured asymmetries themselves were worse than the round number suggests. In the unmodified forebody
 configuration on the second aircraft the maximum was bounded at 0.080 with no distinguishable trend against
@@ -1107,10 +1158,11 @@ gives the same control power at any height.
 **The report observes that this reasoning fails when a large share of control power comes from the engine**,
 and that manoeuvres impossible at thirty thousand feet became possible at twenty thousand.
 
-**That observation is exactly the consequence of the opposite speed dependences noted above, and it is computable.**
+**That observation is exactly the consequence of the opposite speed dependences noted above, and it is computable without the arm.**
 At constant calibrated airspeed the aerodynamic authority is constant by construction, since dynamic
 pressure referred to sea-level density is what calibrated airspeed measures. The vectored authority moves
-with thrust, and thrust at fixed Mach number moves with the ambient pressure ratio,
+with thrust, and thrust at fixed Mach number moves with the ambient pressure ratio, while the unknown arm
+cancels,
 
 $$\frac{C_{n,\text{tv}}(h_2)}{C_{n,\text{tv}}(h_1)} = \frac{T(h_2)}{T(h_1)} \approx \frac{\delta(h_2)}{\delta(h_1)}$$
 
@@ -1181,7 +1233,11 @@ follows.
 | 225 kt | 171.4 psf | 2.66 | 1,821 ft | 11.9 deg/s |
 
 Level flight at seventy degrees of angle of attack requires **138.0 knots calibrated**, and below that the
-manoeuvre is a descending transient rather than a turn.
+manoeuvre is a descending transient rather than a turn. The level-flight relation at the normal flying weight
+and the assumed lift coefficient gives
+
+$$V_{\text{level}} = \sqrt{\frac{2 \times 14{,}600}{0.0023769 \times 226.3 \times 1.00}} = 233.0 \ \text{ft/s} = 138.0 \ \text{knots}$$
+
 **Every radius in the table exceeds the 1,171 feet available at corner speed**, which is derived below. The
 post-stall regime is not where this aeroplane turns most tightly.
 
@@ -1237,9 +1293,16 @@ reversal takes 6.34 seconds.
 
 $$E_s = h + \frac{V^{2}}{2 g}$$
 
-and falling from corner speed to a post-stall exit at 120 knots gives up
+and falling from corner speed to a post-stall exit at 120 knots, both calibrated, at 20,000 feet gives up
+the energy between the corresponding true airspeeds. The corner speed is fixed by a dynamic pressure, and the
+article reads every calibrated figure as the equivalent airspeed that gives the same dynamic pressure at
+sea-level density, so the true airspeed at height follows from the density ratio,
 
-$$\Delta E_s = 4{,}600 \ \text{feet}$$
+$$V = \frac{V_e}{\sqrt{\sigma}} \qquad V^{*} = \frac{580.5}{\sqrt{0.5328}} = 795.3 \ \text{ft/s} = 471.2 \ \text{knots} \qquad V_1 = \frac{202.5}{\sqrt{0.5328}} = 277.5 \ \text{ft/s} = 164.4 \ \text{knots}$$
+
+The corner speed is Mach 0.767 at that height. The energy given up is then
+
+$$\Delta E_s = \frac{V^{*2} - V_1^{2}}{2 g} = \frac{795.3^{2} - 277.5^{2}}{2 \times 32.174} = \frac{555{,}496}{64.348} = 8{,}630 \ \text{feet}$$
 
 Recovering it takes time, and the time must be integrated rather than estimated, because specific excess
 power at the slow end bears no relation to its value once the aircraft has accelerated. The specific excess
@@ -1253,15 +1316,27 @@ This is the specific-excess-power accounting that underlies every
 polar is the standard approximation to it.
 
 At twenty thousand feet with a zero-lift drag coefficient of 0.022 and an efficiency factor of 0.70, the
-specific excess power at the slow end is **9.1 feet per second**, with a lift coefficient of 2.484 and a
-drag of 6,699 pounds, and at the fast end it is **218.3 feet per second** with a lift coefficient of 0.302
-and a drag of 1,862 pounds.
+specific excess power at the slow end is **68.6 feet per second**, with a lift coefficient of 1.323 and a
+drag of 3,743 pounds, and at the fast end it is **268.7 feet per second** with a lift coefficient of 0.161
+and a drag of 2,420 pounds. With thrust lapsed to 7,353 pounds and a density ratio of 0.5328, the slow end
+works out as
 
-**Integrating gives 44.7 seconds.** A single-point estimate at the slow end would have said 507.2 seconds,
-wrong by a factor of 11.35, which is why the integration is not optional. The answer is insensitive to the
-drag model, giving 43.8 seconds at a zero-lift drag coefficient of 0.018 and 45.6 seconds at 0.026.
+$$q = \tfrac{1}{2} \rho_0 \sigma V_1^{2} = 48.75 \ \text{psf} \qquad C_L = \frac{14{,}600}{48.75 \times 226.3} = 1.323 \qquad P_s = \frac{277.5 \, (7{,}353 - 3{,}743)}{14{,}600} = 68.6 \ \text{ft/s}$$
 
-**Forty-five seconds is the whole engagement.** The pointing advantage is bought with a debt that cannot be
+and the fast end as
+
+$$q = 400.5 \ \text{psf} \qquad C_L = \frac{14{,}600}{400.5 \times 226.3} = 0.161 \qquad P_s = \frac{795.3 \, (7{,}353 - 2{,}420)}{14{,}600} = 268.7 \ \text{ft/s}$$
+
+At constant altitude $dE_s = V \, dV / g$, so the recovery time is
+
+$$t = \int_{V_1}^{V^{*}} \frac{V \, dV}{g \, P_s(V)} = 46.0 \ \text{s} \qquad \text{against} \qquad \frac{\Delta E_s}{P_s(V_1)} = \frac{8{,}632.7}{68.60} = 125.8 \ \text{s}$$
+
+**Integrating gives 46.0 seconds**, evaluated by midpoint quadrature over 4,000 speed steps. A single-point
+estimate at the slow end would have said 125.8 seconds, wrong by a factor of $125.8 / 46.0 = 2.74$, which is
+why the integration is not optional. The answer is insensitive to the
+drag model, giving 44.5 seconds at a zero-lift drag coefficient of 0.018 and 47.6 seconds at 0.026.
+
+**Forty-six seconds is the whole engagement.** The pointing advantage is bought with a debt that cannot be
 repaid inside the fight it was spent in, and that is the quantitative form of the programme's own conclusion
 that post-stall manoeuvring works only when used selectively and in a timely manner.
 
@@ -1310,7 +1385,11 @@ $$p_w = p \cos \alpha + r \sin \alpha$$
 | 30 degrees | 0.8660 | 0.5000 |
 | 70 degrees | 0.3420 | 0.9397 |
 
-**At seventy degrees a roll about the velocity vector is 94.0 percent yaw rate.** That single line explains
+At seventy degrees the two weights are
+
+$$\cos 70^{\circ} = 0.3420 \qquad \sin 70^{\circ} = 0.9397$$
+
+**so at seventy degrees a roll about the velocity vector is 94.0 percent yaw rate.** That single line explains
 a sentence in the programme's own conclusions which otherwise reads as a correction of itself, where the
 main advantage is described as an apparent directional nose-pointing rate which is, in actuality, yaw rate
 or velocity-vector roll capability. **At seventy degrees those are the same manoeuvre**, and it is the yaw
@@ -1325,7 +1404,8 @@ presence of aerodynamic asymmetries, and the wind-axis roll rate command was lim
 regime, which the report describes as an acceptable compromise of roll performance against controllability.
 
 A pilot-selectable angle of attack limiter, settable in five-degree increments between thirty and seventy
-degrees, was added after an inadvertent overshoot to 62 degrees when the limit was still fifty.
+degrees, was added after an inadvertent overshoot to 62 degrees when the limit was still fifty, as the
+[envelope expansion report][ref_canter_ntrs] records.
 **It improved the repeatability of the data as much as it improved safety**, which simplified the analysis.
 
 - [Optimum Redundancy Under Multiple Constraints][research_proschan_bray_1963]
@@ -1682,7 +1762,8 @@ sideslip was not a cosmetic problem.
 
 The solution was a **[Kiel probe][ref_kiel]** in place of the standard [pitot-static][ref_pitot] tube, bent
 ten degrees downward from the standard configuration, with the sideslip vane rotated twenty degrees down
-from the noseboom to remove an oscillation that appeared at 62 degrees. A Kiel probe carries a shroud around
+from the noseboom to remove an oscillation that appeared at 62 degrees, both changes the
+[envelope expansion report][ref_canter_ntrs] describes. A Kiel probe carries a shroud around
 the pressure port and is insensitive to flow angle over a wide range, which is exactly what an aircraft
 flying at seventy degrees of angle of attack needs.
 **With those changes the air data was accurate throughout the angle of attack envelope.**
@@ -1890,14 +1971,19 @@ $$\alpha = \frac{W}{q S C_{L\alpha}}$$
 | 137.5 kt | 20.00 degrees |
 
 The pilot called out a reading of 277 knots, corrected himself to 207 knots at 20 degrees of angle of
-attack, and then continued with the test point.
+attack, and then continued with the test point, as the [NASA history][ref_joyce_pdf] transcribes it.
 **Those two readings disagree by 11.2 degrees of angle of attack.** No atmospheric condition, no manoeuvre
 and no instrument tolerance produces an eleven-degree mismatch between a vane and an airspeed indicator on
-an aircraft in level flight.
+an aircraft in level flight. Against the table above, the displayed speed and the true one give
+
+$$\Delta \alpha_{207} = 20.00 - 8.82 = 11.2 \ \text{degrees} \qquad \Delta \alpha_{170} = 20.00 - 13.08 = 6.9 \ \text{degrees}$$
 
 Expressed the other way, twenty degrees implies 137.5 knots against the 207 displayed, so the display was
 high by a factor of 1.505 in speed and **2.266 in dynamic pressure**. Comparing that against the six-decibel
-margin factor of 1.995 gives the coldest number in this article.
+margin factor of 1.995 gives the coldest number in this article,
+
+$$\frac{207}{137.5} = 1.505 \qquad \left( \frac{207}{137.5} \right)^{2} = 2.266 \qquad 10^{6/20} = 1.995$$
+
 **At the moment the pilot spoke the words aloud, the loop gain error had already exceeded the design gain margin.**
 The aircraft was flown for some time after that, and at the true airspeed of 170 knots the disagreement was
 still 6.9 degrees.
@@ -2525,16 +2611,17 @@ The flight programme could not reproduce the simulation exactly, and the most co
 envelope restriction.
 **The aircraft was limited to a post-stall entry speed of 225 knots calibrated maximum, against 325 knots in the simulation**,
 and the programme's own analysis put the effect of that restriction alone at a thirty percent reduction in
-post-stall use. Only the slow-speed line-abreast condition was substantially unaffected.
+post-stall use, according to the [NASA history][ref_joyce_pdf]. Only the slow-speed line-abreast condition was substantially unaffected.
 
 A later series raised the entry speed.
 **The flight-test conclusion was that 265 knots calibrated was slightly better than 225 and that 300 knots would be desirable for a future fighter**,
 which is a statement that the demonstrator was constrained below the useful value of its own capability.
+The [NASA history][ref_joyce_pdf] lists that finding among the flight-test conclusions.
 
 ### What the Flight Testing Concluded
 
-The conclusions of the tactical utility flight test are worth quoting in structure because they are more
-careful than the summaries built on them.
+The conclusions of the tactical utility flight test, as the [NASA history][ref_joyce_pdf] sets them out,
+are worth quoting in structure because they are more careful than the summaries built on them.
 
 - Post-stall close-in combat at seventy degrees of angle of attack had overwhelming success.
 - Flying the aircraft conventionally, limited to thirty degrees, showed that the benefits of
@@ -2836,8 +2923,12 @@ $$\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}$$
 | High-speed line abreast | 1.5 | 2.8 | 0.536 |
 
 **The offensive condition reproduced to within 4.3 percent and the slow-speed line-abreast condition differed by a factor of 2.999.**
+Writing $\bar{E}$ for the mean of a campaign's four conditions, the comparisons are
+
+$$1 - \frac{22}{23} = 0.043 \qquad \frac{20}{6.67} = 2.999 \qquad \frac{2.8}{1.5} = 1.867 \qquad \frac{\bar{E}^{\text{I}}}{\bar{E}^{\text{II}}} = \frac{(1.2 + 22 + 20 + 1.5)/4}{(0.47 + 23 + 6.67 + 2.8)/4} = \frac{11.175}{8.235} = 1.357$$
+
 The defensive condition differed by a factor of 2.553 in one direction and the high-speed line-abreast by
-1.866 in the other. The means of the two campaigns are 11.175 and 8.235, a ratio of 1.357, so
+1.867 in the other. The means of the two campaigns are 11.175 and 8.235, a ratio of 1.357, so
 **the campaigns agree far better in aggregate than they do anywhere in particular**, which is the signature
 of sampling variation rather than of a systematic difference.
 
@@ -2875,8 +2966,8 @@ The flight-test report's first technical lesson is exactly that sentence, and it
 tunnel fell short. Above fifty degrees of angle of attack the aircraft encountered lateral kicks the pilots
 called lurches, which had not appeared on the small-scale model. The asymmetry data showed no
 distinguishable trend against flight condition across a Reynolds number range of 1.5 to 4.0 million based on
-a forebody diameter of about 3.2 feet, which is a narrow range and one reason the tunnel could not have
-settled the question.
+a forebody diameter of about 3.2 feet, as the [asymmetry report][research_cobleigh_1994] gives it, which is
+a narrow range and one reason the tunnel could not have settled the question.
 
 **The comparison of flight against wind tunnel and water tunnel yawing-moment asymmetries became a research subject in its own right**,
 with reports published in 1994 and revisited in 2001 and again in 2003.
@@ -3295,7 +3386,8 @@ the parachute be replaced with one of slower descent rate.
 
 **The last of those is not a control-system finding and it belongs in the record.** The pilot descended
 under a seventeen-foot canopy at approximately 28.3 feet per second, a rate typical for naval aircraft that
-operate mostly over water, and was injured on the hard playa surface.
+operate mostly over water, and was injured on the hard playa surface, as the
+[NASA history][ref_joyce_pdf] records.
 
 - [The Effects of Flow Through an Aircraft Pitot-static Probe at...][research_baer_1966]
 - [Climatological Probability of Aircraft Icing][research_katz_1967]
@@ -10255,16 +10347,17 @@ around that by asking what various sample sizes would support rather than by gue
   the same calibrated airspeed, a loss of 35.4 percent.
 - The post-stall regime offers no turn-radius advantage. Every radius computed at seventy degrees
   of angle of attack exceeds the 1,171 feet available at corner speed.
-- The energy given up in a post-stall reversal is 4,600 feet of specific energy and takes 44.7
-  seconds to recover, integrated.
+- The energy given up in a post-stall reversal from corner speed at 20,000 feet is 8,630 feet of
+  specific energy and takes 46.0 seconds to recover, integrated.
+- Against the steady asymmetry bound of 0.080, no arm shorter than the fuselage could hold the
+  asymmetry above 237.6 knots calibrated at 20,000 feet or above 191.0 knots at 30,000 feet.
 
 **Inference, where the record supports a conclusion without stating it.**
 
-- The moment arm from the centre of gravity to the vane station is inferred at 16.22 feet by
-  requiring the available vectoring authority to equal the measured forebody asymmetry at the
-  condition where departures occurred. The implied centre of gravity at 60.1 percent of fuselage
-  length is geometrically reasonable for a canard delta, which is why the inference is offered as
-  a check rather than as a measurement.
+- The moment arm from the centre of gravity to the vane station is not determined. The departure
+  on the second aircraft, at an asymmetry of 0.125 at 35,000 feet and Mach 0.4, bounds it below
+  36.2 feet under the thrust-lapse model, which the fuselage length already guarantees, and the
+  bound moves from 27.1 to 48.4 feet across lapse exponents of 0.8 to 1.2.
 - The lift-curve slope of 2.769 per radian is inferred from a test pilot's recollection of a trim
   point rather than from published data, and is supported by falling between the unswept and
   swept low-aspect-ratio estimates.
@@ -10374,6 +10467,7 @@ computable in one line from the lift equation.
 ### Reference
 
 - [Angle of attack][ref_angle_of_attack]
+- [Canter 1994, X-31 post-stall envelope expansion and tactical utility testing][ref_canter_ntrs]
 - [Clopper-Pearson binomial proportion interval][ref_clopper]
 - [Corner speed and the manoeuvring envelope][ref_corner_speed]
 - [Defense Advanced Research Projects Agency][ref_darpa]
@@ -10402,6 +10496,7 @@ computable in one line from the lift equation.
 - [United States Air Force Stability and Control Data Compendium][ref_datcom]
 
 [ref_angle_of_attack]: https://en.wikipedia.org/wiki/Angle_of_attack
+[ref_canter_ntrs]: https://ntrs.nasa.gov/citations/19950007828
 [ref_clopper]: https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval
 [ref_corner_speed]: https://en.wikipedia.org/wiki/Flight_envelope
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA

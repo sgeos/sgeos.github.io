@@ -8313,6 +8313,10 @@ Part two back-references part one, which is legal because 2026-01-27 precedes 20
 makes no forward reference. Both dates have passed, so batch publication resolves the internal
 cross-reference immediately.
 
+## X-Planes Series Consistency Pass 2026-10-09
+
+**Depth now follows the public record.** The X-15, X-19, X-20, X-21, X-22, X-24, X-43 and X-57 were expanded from primary documents, and the thin-record articles were condensed without losing findings. 46 articles changed. The series totals are 758,580 words, 4,859 display equations, 3,697 curated references and 267,386 research references. Primary sources corrected many claims, and each correction is logged in `_docs/process/x_planes_drafting_notes/`. A368's ledger and statistics were recomputed, and its conclusions hold. Every gate passes. Publication is still held.
+
 ## X-Planes Remaining Repairs Closed 2026-10-09
 
 789 more citation labels were corrected against the registry, and the A313 to A317 checkers were brought up to date. Front-matter records left A356 and A331, so the series holds 267,359 research references. A364's survey figures are recomputed over its cited records. Publication is still held.

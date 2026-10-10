@@ -23,7 +23,11 @@ The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-
 
 The X-16 has no research question, because it was not a research aircraft. That is the first thing to say plainly, and saying it is more useful than inventing a central question the record does not support.
 
-What the aeroplane had instead was a requirement. In the second half of 1953 the United States Air Force ran design studies under project MX-2147 for an aeroplane that could photograph the Soviet Union from an altitude at which it could not be intercepted. The number attached to the requirement was roughly seventy thousand feet and roughly three thousand miles without refuelling. Bell, Fairchild, and Martin all submitted. The Bell design became Model 67 and then the X-16.
+What the aeroplane had instead was a requirement. By March 1953 Major John Seaberg of the Wright Air Development Center had turned the idea of an aeroplane that could photograph the Soviet Union from an altitude at which it could not be intercepted into a request for proposals, which [the declassified history of the Central Intelligence Agency, the CIA,][ref_pedlow_welzenbach_1992_ch1] quotes as calling for an operational radius of 1,500 nautical miles and an optimum subsonic cruise at 70,000 feet or higher. A radius is half a round trip, so the unrefuelled distance the requirement implied is
+
+$$2 \times 1{,}500 = 3{,}000\ \text{nmi}$$
+
+which agrees in number with the 3,000 mile unrefuelled range that [the inventory of X-vehicles published by the National Aeronautics and Space Administration, NASA,][ref_american_x_vehicles] records as predicted for the production aircraft, although the inventory does not say which mile it means. Bell, Fairchild, and Martin received study contracts beginning on 1 July 1953, according to [Sloop's NASA history][ref_sloop_1978], under a project that secondary accounts number MX-2147, and all three had submitted by January 1954. The Bell design was Model 67, later the X-16, with a maximum altitude of 69,500 feet.
 
 ### The Keystone Is the Requirement's Binding Constraint
 
@@ -31,7 +35,7 @@ A requirement is not a research question, but a requirement can still have exact
 
 That is a deliberately unfashionable choice. The famous constraint on a very high aeroplane is the [coffin corner][ref_coffin_corner], the altitude at which the stalling speed rises to meet the Mach limit until no flyable speed remains between them. It is a real mechanism, it is genuinely what limits some aircraft, and the U-2's reputation is built on it.
 
-**It is not what limited the X-16, and this article computes both and does not assume the famous one.** That distinction is the whole of the analysis below, and it matters because the two mechanisms point at different parts of the aeroplane. If the corner binds, the answer is a better wing. If thrust binds, the answer is a better engine. **The record says the X-16 programme's lasting contribution was an engine**, which is the sort of thing that ought to follow from the arithmetic, not merely be asserted by historians, and here it does.
+**It is not what limited the X-16, and this article computes both and does not assume the famous one.** That distinction is the whole of the analysis below, and it matters because the two mechanisms point at different parts of the aeroplane. If the corner binds, the answer is a better wing. If thrust binds, the answer is a better engine. **NASA's inventory says the X-16 programme's lasting contribution was an engine**, which is the sort of thing that ought to follow from the arithmetic, not merely be asserted by historians, and here it does.
 
 ### Why This Was the Binding Unknown in 1953
 
@@ -41,9 +45,9 @@ Three unknowns, all bearing on one question. The requirement asked for an altitu
 
 ## Programme Origin
 
-The requirement came from the Air Force and the money came with it. The design studies under MX-2147 ran through the second half of 1953, and both the Bell and the Martin submissions were carried forward, the Martin entry as a heavily modified Canberra that became the RB-57D. Bell received a contract for twenty-eight aircraft. None was finished.
+The requirement came from the Air Force and the money came with it. Wright Field evaluated the three studies early in 1954 and recommended both the Martin and the Bell proposals, treating Martin's heavily modified Canberra, which became the RB-57D, as an interim aircraft that could be deployed quickly while the more advanced Bell design was developed, according to [the CIA history][ref_pedlow_welzenbach_1992_ch1]. All three designs specified the Pratt and Whitney J57 modified for high-altitude operation, in [Sloop's account][ref_sloop_1978]. The formal contract with Bell for twenty-eight aircraft was signed in September 1954. None was finished.
 
-Alongside the Air Force competition, and outside it, Clarence Johnson at Lockheed produced the CL-282, which amounted to a powered glider. The Air Force rejected it. The Central Intelligence Agency did not, and with President Eisenhower's authorisation it became the U-2 and flew on 1 August 1955.
+Alongside the Air Force competition, and outside it, Clarence Johnson at Lockheed produced the CL-282, which amounted to a powered glider. The Air Force rejected it by a letter of 7 June 1954, because it had one engine, because it was too unusual, and because the service was already committed to the Martin aircraft, and Wright Field also objected to its unproven General Electric J73 engine, according to [the CIA history][ref_pedlow_welzenbach_1992_ch1]. The Central Intelligence Agency did not reject it. President Eisenhower authorised the programme in November 1954, in [Sloop's account][ref_sloop_1978], and as the U-2 the aeroplane first left the ground inadvertently during a taxi trial on 1 August 1955 and made its first planned flight on 4 August, according to [the second chapter of the CIA history][ref_pedlow_welzenbach_1992_ch2].
 
 ### The Designation Was a Cover, and That Is a Fact About the Series
 
@@ -59,7 +63,7 @@ That context matters for judging the cancellation. The X-16 was not cancelled be
 
 ## Sizing From First Principles
 
-Everything below rests on published dimensions from secondary compilations, because no primary document exists. Those figures are internally consistent, which is worth checking before relying on them, and the three checks are relations and not opinions. Aspect ratio is span squared over area,
+Everything below rests on published dimensions from secondary compilations, because no technical document about the aircraft survives in a public archive. The one exception is the 69,500 foot altitude, which [the CIA history][ref_pedlow_welzenbach_1992_ch1] gives as the Bell design's maximum and which this article calls the design altitude. Those figures are internally consistent, which is worth checking before relying on them, and the three checks are relations and not opinions. Aspect ratio is span squared over area,
 
 $$A = \frac{b^{2}}{S} = \frac{114.83^{2}}{1{,}099} = 12.00$$
 
@@ -292,6 +296,12 @@ and asking what each aeroplane requires to reach its quoted ceiling, at a common
 
 **The two aircraft whose wing areas are actually published agree to within one percent**, at 0.9686 and 0.9780. The RB-57D sits lower, which is expected because its wing area had to be assumed. The mean is 0.9378 and the total spread across three independent designs by three different companies is 0.1111.
 
+The U-2A row uses the compilation thrust of 10,500 pounds. [The CIA history][ref_pedlow_welzenbach_1992_ch2] gives the J57-P-37 that the first U-2s flew with as 10,200 pounds at sea level, and on that figure the required exponent is
+
+$$n = \frac{\ln\left(12{,}900 / \left[10{,}200 \times 19.93\right]\right)}{\ln 0.05789} = 0.9678$$
+
+where 0.05789 is the density ratio at 70,000 feet and 19.93 is the U-2A's maximum lift to drag ratio from the same polar. **On the primary figure the X-16 and the U-2A agree to within 0.1 percent**, so the history strengthens the agreement rather than weakening it. The mean and everything below keep the compilation value.
+
 That agreement is the article's strongest single result. Three aeroplanes, designed separately against one requirement, are consistent with one statement about how a turbojet behaves in thin air. **What that statement means physically is worked out in the propulsion section below, and it is not the obvious answer.** The mechanism is ram recovery, not anything about the compressor, and compressor behaviour turns out to work against it and not for it.
 
 At the solved exponent the picture changes materially,
@@ -322,6 +332,12 @@ of fuel, which as a fraction of the disposable load is
 $$\frac{6{,}285}{36{,}124 - 23{,}280} = 0.489$$
 
 or 48.9 percent. It arrives at the altitude it was built for with a little over half its disposable load remaining.
+
+At a fixed lift to drag ratio fuel flow is proportional to weight, as the range section below shows, so weight decays exponentially in time and the fraction of the cruise elapsed at the crossing is
+
+$$\frac{t_{x}}{t_{\text{total}}} = \frac{\ln(W_0/W_x)}{\ln(W_0/W_1)} = \frac{\ln(36{,}124/29{,}839)}{\ln(36{,}124/24{,}480)} = 0.491$$
+
+where $W_0$, $W_x$ and $W_1$ are the gross, crossing and end weights. **On an out-and-back sortie the target lies near the midpoint, so the aeroplane reaches 69,500 feet just before the target.** That agrees with the 1954 Air Force evaluation quoted in [the CIA history][ref_pedlow_welzenbach_1992_ch1], which gives 69,500 feet as the Bell design's maximum altitude over the target rather than as a cruise altitude held throughout.
 
 **The design altitude is therefore not a cruise condition. It is a condition reached slightly before the midpoint of the flight and held for the remainder while the aeroplane drifts steadily higher.** Everything about the mission follows from this. The aeroplane cannot be intercepted for the second half of its flight and is progressively more vulnerable the earlier it is caught, which is a statement about the shape of the sortie, not about the aeroplane.
 
@@ -395,19 +411,23 @@ $$\frac{\Delta n_{\text{X-16}}}{\Delta n_{\text{fighter}}} = \frac{5.386 / 1{,}5
 
 **The X-16 at gross weight sees 3.41 times the gust load increment of a contemporary fighter, and 4.74 times it when light.** The gust environment these aircraft had to survive is documented in [Coleman and Steiner 1953][research_coleman_steiner_1953], the effect of wing twist on the resulting loads in [Hoblit 1954][research_hoblit_1954], the turbulence itself in [Breuhaus 1961][research_breuhaus_1961], and the earliest attempt to design the sensitivity out in [Shufflebarger 1941][research_shufflebarger_1941]. The subject grew from the sharp-edged gust used above into a statistical description of continuous turbulence and then into a design discipline, across [Diederich 1956][research_diederich_1956], [Cooney and Schott 1956][research_cooney_schott_1956], [Croom and Huffman 1957][research_croom_huffman_1957], [Diederich 1957][research_diederich_1957], [Lappe 1965][research_lappe_1965], [Austin 1967][research_austin_h_1967], [Houbolt 1967][research_houbolt_1967], [Gangsaas et al 1981][research_gangsaas_1981], [Rao 1985][research_rao_1985], [Liebst et al 1986][research_liebst_1986], [Hoppe 2000][research_hoppe_2000], [Haddadpour et al 2005][research_haddadpour_2005], [Fritts 2008][research_fritts_2008], [Stanford 2020][research_stanford_2020], [Khalil and Fezans 2021][research_khalil_fezans_2021], [Li and Qin 2021][research_li_qin_2021]. **The relation this article uses is the crudest member of that family and is used deliberately, because the alleviation factor a better model would supply scales the answer without changing the inverse dependence on wing loading that the argument rests on.**
 
-This is not an abstract concern. Martin designed the RB-57D wing for 500 flight hours. A full-radius sortie out and back at the quoted radius is
+This is not an abstract concern. Martin designed the RB-57D wing for 500 flight hours, according to the type's [compiled service history][ref_rb57d]. The [fact sheet of the National Museum of the United States Air Force][ref_nmusaf_rb57d] gives the RB-57D a combat radius of approximately 2,000 miles and a cruising speed of approximately 420 knots at 65,000 feet. Reading the miles as statute miles, which is an assumption because the fact sheet does not say, the radius is
 
-$$t_{\text{sortie}} = \frac{2R}{V} = \frac{2 \times 1{,}700}{430} = 7.91\ \text{h}$$
+$$R = \frac{2{,}000 \times 1{,}609.344}{1{,}852} = 1{,}738\ \text{nmi}$$
+
+and a full-radius sortie out and back is
+
+$$t_{\text{sortie}} = \frac{2R}{V} = \frac{2 \times 1{,}738}{420} = 8.28\ \text{h}$$
 
 so the design life in sorties is
 
-$$N = \frac{500}{7.91} = 63.2$$
+$$N = \frac{500}{8.28} = 60.4$$
 
-and **the wing was therefore good for 63 full-radius missions.** An RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [Douglas Aircraft Co Long Beach Ca 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent, not an anomaly.**
+and **the wing was therefore good for about 60 full-radius missions.** The museum's fact sheet records a number of accidents in which the wing broke off at the outboard engine nacelle mounting points. According to the compiled history, an RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has its own long literature in [Douglas Aircraft Co Long Beach Ca 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], [Moore and Cutright 2019][research_moore_cutright_2019], and **the RB-57D's failure is the case those methods exist to prevent, not an anomaly.**
 
 ### The Propulsion, Which Is Where the Programme's Value Actually Was
 
-The engines are two Pratt and Whitney J57 turbojets of 10,000 pounds force each, modified for high-altitude operation. Sources give the variant as J57-P-19 initially and J57-P-37 subsequently, and one compilation gives J57-PW-37A. The variant that eventually powered the U-2 was the -31 at 11,500 pounds force.
+The engines are two Pratt and Whitney J57 turbojets of 10,000 pounds force each, modified for high-altitude operation. [Sloop][ref_sloop_1978] gives the modified engine of all three competing designs as the J57-P-19 initially and the J57-P-37 later, and one compilation gives J57-PW-37A for the X-16. The first U-2s flew with the -37, which [the CIA history][ref_pedlow_welzenbach_1992_ch2] gives as 10,200 pounds of thrust at sea level and 276 pounds heavier than the -31 that Johnson had designed for, which it gives as 13,000 pounds of thrust for an engine weight of 3,820 pounds. The -31 was at first unavailable because its production went to the RB-57D, and it reached the U-2 programme in sufficient numbers in the spring of 1956.
 
 The ceiling analysis says the whole aeroplane lives or dies on the lapse exponent, so the exponent deserves a mechanism and not a label.
 
@@ -429,13 +449,33 @@ The relation above assumes perfect recovery, which no real inlet achieves. Subso
 
 $$\frac{1 - 0.9378}{1 - 0.8889} = 0.560$$
 
-or 56.0 percent of the ideal, which means **44 percent of the ram benefit is consumed by losses elsewhere in the engine.** That is where compressor Reynolds number degradation belongs, and [Wallner and Fleming 1949][research_wallner_fleming_1949] is the treatment of it. Taking a representative first-stage blade chord of 0.06 metres and 150 metres per second of axial velocity, the blade Reynolds number after ram is
+or 56.0 percent of the ideal, which means **44 percent of the ram benefit is consumed by losses elsewhere in the engine.** Compressor Reynolds number degradation is the obvious candidate for those losses, and [Wallner and Fleming 1949][research_wallner_fleming_1949] is the treatment of it. Taking a representative first-stage blade chord of 0.06 metres and 150 metres per second of axial velocity, the blade Reynolds number after ram is
 
 $$Re_{\text{blade}} = \frac{\rho_{t} V_{a} c_{\text{blade}}}{\mu} = 6.16 \times 10^{5}\ \text{at sea level}$$
 
-falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably below roughly $2 \times 10^{5}$, and the design-altitude value is well under that**, so a substantial loss is exactly what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Skoch and Moore 1987][research_skoch_moore_1987], [Skoch and Moore 1987, Performance of two 10-lb/sec centr][research_skoch_moore_1987_2]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the altitude wind tunnel series of the National Advisory Committee for Aeronautics, the NACA, which measured what engines actually did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. That programme and its successors are the reason the lapse exponent is an empirical quantity rather than a derived one, and the run of it is [Hawkins and Meyer 1948, Altitude-Wind-Tunnel Investigation][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and McAulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and McAulay 1951][research_conrad_mcaulay_1951], [Milligan and Perrone 1966][research_milligan_perrone_1966], [Braithwaite et al 1973][research_braithwaite_1973], [Davenport et al 1974][research_davenport_1974], [Roberts et al 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al 1976][research_roberts_1976], [Tian-yu et al 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [Baer-Riedhart 1982][research_baer_riedhart_1982], [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983], [Kowalski 1988][research_kowalski_1988], [Cyrus et al 1999][research_cyrus_1999], [Tagashira et al 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011], [Misté and Benini 2013][research_miste_benini_2013], [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]. **The X-16 was designed in the middle of that measurement campaign rather than after it.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al 1948][research_manganiello_1948].
+falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably below roughly $2 \times 10^{5}$, and the design-altitude value is well under that**, so a substantial loss of efficiency is what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Skoch and Moore 1987][research_skoch_moore_1987], [Skoch and Moore 1987, Performance of two 10-lb/sec centr][research_skoch_moore_1987_2]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the altitude wind tunnel series of the National Advisory Committee for Aeronautics, the NACA, which measured what engines actually did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. That programme and its successors are the reason the lapse exponent is an empirical quantity rather than a derived one, and the run of it is [Hawkins and Meyer 1948, Altitude-Wind-Tunnel Investigation][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and McAulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and McAulay 1951][research_conrad_mcaulay_1951], [Milligan and Perrone 1966][research_milligan_perrone_1966], [Braithwaite et al 1973][research_braithwaite_1973], [Davenport et al 1974][research_davenport_1974], [Roberts et al 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al 1976][research_roberts_1976], [Tian-yu et al 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [Baer-Riedhart 1982][research_baer_riedhart_1982], [Raddlebaugh and Norgren 1983][research_raddlebaugh_norgren_1983], [Kowalski 1988][research_kowalski_1988], [Cyrus et al 1999][research_cyrus_1999], [Tagashira et al 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011], [Misté and Benini 2013][research_miste_benini_2013], [Jafari and Nikolaidis 2018][research_jafari_nikolaidis_2018]. **The X-16 was designed in the middle of that measurement campaign rather than after it.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al 1948][research_manganiello_1948].
 
-**The X-16 programme is recorded as the driving force behind the high-altitude J57 development that then powered the U-2.** Pratt and Whitney compressed what would normally be a three-year engine programme into twelve months. Given that the exponent dominates the ceiling calculation by a factor of four over every aerodynamic assumption, this is not a consolation prize. **The X-16 paid for the one thing that decided whether the requirement was achievable at all, and then the aeroplane that beat it used that thing.**
+**The J57 itself was measured in the same tunnel, and the measurement qualifies the account above.** [Bloomer and Miller][ref_bloomer_miller_1954] ran a J57-P-1 in the Lewis altitude wind tunnel at Mach 0.81 from 15,000 to 50,000 feet and report that, at rated engine speed, the climb across that range raised specific fuel consumption by 13 percent but did not affect corrected net thrust. Corrected thrust is thrust divided by the inlet total pressure ratio, so an unchanged corrected thrust at a fixed Mach number means that thrust followed inlet total pressure, which is the ram relation used above. The Reynolds number losses were present and were measured. Peak outboard compressor efficiency fell from 88.3 to 85.2 percent and inboard from 87.5 to 83.5 percent, combustion efficiency at rated speed fell from 99.4 to 97.1 percent, and corrected airflow at rated speed fell from 163 to 154 pounds per second, a loss of
+
+$$1 - \frac{154}{163} = 0.055$$
+
+or 5.5 percent. **On this engine the losses appeared as fuel flow and exhaust temperature, which rose to hold corrected thrust, and not as a loss of thrust.** The report characterises each test condition by a Reynolds number index,
+
+$$\text{RNI} = \frac{\delta}{\varphi\sqrt{\theta}}$$
+
+where $\delta$ and $\theta$ are the inlet total pressure and total temperature as ratios to sea level standard values and $\varphi$ is the corresponding ratio of viscosities. The tests spanned indices from 0.858 down to 0.213. Evaluated with the atmosphere and the Sutherland relation used in this article, the index is 0.853 at 15,000 feet and 0.217 at 50,000 feet, against the report's 0.858 and 0.213, and at the design condition of 69,500 feet and Mach 0.685 it is 0.0786, so
+
+$$\frac{0.213}{0.0786} = 2.71$$
+
+**The design condition lies 2.71 times below the lowest Reynolds number index at which the engine was measured.** Over the range the tunnel reached, the measurements do not support attributing the 44 percent shortfall to Reynolds number losses in thrust, and beyond that range they cannot test the attribution.
+
+The same engine had an operating ceiling of its own. [Wallner and Saari][ref_wallner_saari_1954] report that the J57-P-1 ran without its control at reduced speed up to about 66,000 feet at Mach 0.8, and that with the standard automatic control in operation the altitude operating limit was approximately 59,000 feet. The X-16's design altitude exceeds the controlled limit by
+
+$$69{,}500 - 59{,}000 = 10{,}500\ \text{ft}$$
+
+**so the production engine could not run at the design altitude as delivered, and high-altitude modification was a requirement and not a refinement.** The U-2 met the same boundary in flight. [The CIA history][ref_pedlow_welzenbach_1992_ch2] records that the U-2's -37 engine flamed out at 64,000 feet on 22 September 1955, and that flameouts in the climb from 57,000 to 65,000 feet, a region pilots called the badlands, persisted until the -31 became available.
+
+**The X-16 programme is credited by [NASA's inventory][ref_american_x_vehicles] as the driving force behind the high-altitude J57 development that then powered the U-2.** The primary histories spread that credit more widely. [Sloop][ref_sloop_1978] records that all three competing designs specified the modified engine and that the U-2 flew with the J57-P-37 that Seaberg had argued was necessary, and [the CIA history][ref_pedlow_welzenbach_1992_ch2] records the -31 going first to the RB-57D. Given that the exponent dominates the ceiling calculation by a factor of four over every aerodynamic assumption, the engine is not a consolation prize. **The competition the X-16 belonged to produced the one thing that decided whether the requirement was achievable at all, and the aeroplane that beat it used that thing.**
 
 ### The Wing at Reynolds Numbers It Was Not Tested At
 
@@ -479,7 +519,7 @@ $$z_{\text{Armstrong}} = 19{,}150\ \text{m} = 62{,}829\ \text{ft}$$
 
 **That is 90.4 percent of the design altitude, so the aeroplane spends its entire working cruise above the limit**, and the cockpit or the suit becomes the only thing between the pilot and immediate incapacitation. Cabin pressurisation experience of the period is recorded in [Dietz 1952][research_dietz_1952], the physiological envelope in [Raeke 1958][research_raeke_1958], decompression sickness and the denitrogenation procedures used against it in [Middleton 1959][research_middleton_1959], and suit evaluation in [Games et al 1954][research_games_1954]. The suit, mask, and cabin systems that make flight above the Armstrong limit survivable have a continuous development record of their own, in [Echols 1953][research_echols_1953], [Schroeder 1956][research_schroeder_1956], [Clark David Co Inc Worcester Ma 1960][research_ma_1960], [Redden 1961][research_redden_1961], [Furry et al 1962][research_furryy_1962], [Shanahan and Barker 1962][research_shanahan_barker_1962], [Hendler et al 1964][research_hendler_1964], [Siegel and Lanterman 1968][research_siegel_lanterman_1968], [Taylor 1980][research_taylor_1980], [Reynolds et al 2001][research_reynolds_2001], [Reynolds et al 2001, Onboard Inert Gas Generation Syste][research_reynolds_2001_2], [Kelly and Pettit 2003][research_kelly_pettit_2003]. **The aeroplane's most demanding subsystem by this measure is the one keeping the pilot conscious, and it is the only one whose failure is immediately fatal rather than merely mission-ending.**
 
-The flight is also long. At 430 knots the X-16's quoted range of 2,867 nautical miles is 6.67 hours in one direction. A single pilot in a partial pressure suit, breathing oxygen, unable to reach most of the aeroplane, for the better part of a working day. Navigation over territory without cooperative aids fell back on celestial methods of the kind described in [Korger 1957][research_korger_1957].
+The flight is also long. At the cruise speed of 430 knots assumed here, the X-16's quoted range of 2,867 nautical miles is 6.67 hours in one direction. A single pilot in a partial pressure suit, breathing oxygen, unable to reach most of the aeroplane, for the better part of a working day. Navigation over territory without cooperative aids fell back on celestial methods of the kind described in [Korger 1957][research_korger_1957].
 
 ### The Sensor, Which Is What the Altitude Was Purchased For
 
@@ -519,7 +559,7 @@ and dividing by the distance flown per unit time gives a differential in range w
 
 $$R = \frac{V}{c} \left(\frac{L}{D}\right) \ln\frac{W_0}{W_1}$$
 
-At 430 knots, a cruise lift to drag ratio of 19.83 taken as 94 percent of the optimum, a credible period specific fuel consumption of 0.85 pounds per pound force per hour, and burning from 36,124 pounds down to 24,480, the ideal range is 3,903 nautical miles.
+At an assumed cruise speed of 430 knots, a cruise lift to drag ratio of 19.83 taken as 94 percent of the optimum, a credible period specific fuel consumption of 0.85 pounds per pound force per hour, and burning from 36,124 pounds down to 24,480, the ideal range is 3,903 nautical miles.
 
 $$R_{\text{ideal}} = \frac{221.2}{2.361 \times 10^{-4}} \times 19.83 \times \ln\frac{36{,}124}{24{,}480} = 3{,}903\ \text{nmi}$$
 
@@ -531,15 +571,19 @@ Solved in the other direction, the same relation gives an implied specific fuel 
 
 There is none. No X-16 was completed and none flew.
 
-That sentence is the section, and expanding it would be padding. What can be said is what was reached. Sources disagree about how far construction got, and the disagreement is substantive rather than a matter of dates. One account has the first aircraft about 80 percent complete at cancellation. Another has only a mock-up completed. **Those are different claims about whether a physical airframe existed**, and this article does not resolve them.
+That sentence is the section, and expanding it would be padding. What can be said is what was reached. Sources disagree about how far construction got, and the disagreement is substantive rather than a matter of dates. [NASA's inventory][ref_american_x_vehicles] states in its text that the first aircraft was reportedly over 80 percent complete at cancellation, while the caption to its own photograph states that a full-scale mock-up was completed but that no aircraft were actually built. **Those are different claims about whether a physical airframe existed**, they sit on the same page of the same document, and this article does not resolve them.
 
-The cancellation date is disputed on the same evidence. One account gives mid-1955, shortly after the U-2's first flight on 1 August 1955, which is internally awkward. Another gives 1956 and attributes the decision to a preference for the Martin RB-57D rather than for the U-2. **Both the date and the reason are unsettled**, and the two accounts do not merely differ in precision, they name different winners.
+The cancellation date is better settled than the compilations suggest. [Sloop's NASA history][ref_sloop_1978], which draws on interviews and correspondence with Seaberg, states that the X-16 was initiated but cancelled in mid-1956. A mid-1955 date also circulates, in a [compilation entry][ref_globalsecurity_x16] that reproduces Sloop's text nearly verbatim, including that sentence with the year changed, so it is a transcription of the same source and not an independent account. The reason remains unsettled. NASA's inventory says the X-16 was cancelled in favour of the U-2, once the U-2 had demonstrated the mission, and the [compiled entry for the aircraft][ref_x16] gives 1956 and a preference for the Martin RB-57D. **The two accounts name different winners**, and the primary histories read here name neither.
 
 ### What Not Flying Costs the Analysis
 
 Every performance figure quoted for the X-16 is a prediction. The 71,832 foot service ceiling, the 2,867 nautical mile range, the 480 knot maximum speed, and the 36,124 pound gross weight are all design estimates that no flight ever checked. **For every other aircraft in this series the comparison between prediction and measurement is available and is usually the most interesting thing in the article. Here it is structurally unavailable.**
 
-One quoted figure is worth flagging as internally doubtful on its own terms. A maximum speed of 480 knots at the design altitude would be Mach 0.835, which is implausible for a straight wing of aspect ratio 12 designed for subsonic cruise. The figure is more likely quoted at a lower altitude or in equivalent airspeed, and this article does not use it.
+One quoted figure is worth flagging as internally doubtful on its own terms. A maximum speed of 480 knots at the design altitude, where the speed of sound is 295.87 metres per second, would be
+
+$$M = \frac{V}{a} = \frac{480 \times 0.5144}{295.87} = 0.835$$
+
+which is implausible for a straight wing of aspect ratio 12 designed for subsonic cruise. The figure is more likely quoted at a lower altitude or in equivalent airspeed, and this article does not use it.
 
 ## Comparison With Ground Prediction
 
@@ -547,13 +591,13 @@ This section exists in every article in the series to set what was predicted aga
 
 What can be done instead is to check the predictions against each other and against physics, which is what the sizing section did. The results are mixed and worth stating plainly. The specification set is self-consistent to rounding. The range figure survives a Breguet check with a normal margin. **The service ceiling does not survive a naive thrust lapse and requires the engine to beat proportionality by nineteen percent**, which is a claim about the engine programme rather than about the airframe, and which is corroborated by the same requirement appearing independently in two other aircraft.
 
-The nearest thing to a validation available is that the U-2 and the RB-57D did fly, did reach roughly the quoted altitudes, and required nearly the same lapse exponent to explain it. **The X-16's numbers are credible because its competitors' numbers were tested and are of the same shape.** That is inference from siblings rather than measurement, and it is the weakest form of evidence in this article.
+The nearest thing to a validation available is that the U-2 and the RB-57D did fly, did reach roughly the quoted altitudes, and required nearly the same lapse exponent to explain it. [The CIA history][ref_pedlow_welzenbach_1992_ch2] records the prototype U-2 reaching its initial design altitude of 65,600 feet on 8 September 1955, and the [Air Force museum][ref_nmusaf_rb57d] gives the RB-57D a service ceiling of approximately 70,000 feet. **The X-16's numbers are credible because its competitors' numbers were tested and are of the same shape.** That is inference from siblings rather than measurement, and it is the weakest form of evidence in this article.
 
 ## What the Data Changed
 
 There is no data, so the question becomes what the programme changed, which is a different question with a real answer.
 
-**The engine.** The high-altitude J57 development that the X-16 drove went into the U-2 and outlived every airframe in the competition. Given that the lapse exponent dominates the ceiling calculation by a factor of four over every aerodynamic parameter, the programme funded the single most decisive component of the capability.
+**The engine.** The high-altitude J57 that the competition specified, and that NASA's inventory credits the X-16 with driving, went into the U-2 and outlived every airframe in the competition. Given that the lapse exponent dominates the ceiling calculation by a factor of four over every aerodynamic parameter, the competition produced the single most decisive component of the capability.
 
 **The wing.** Lightweight, flexible, high aspect ratio wing structure was advanced by the design work even though no wing flew. The techniques did not vanish with the contract.
 
@@ -705,9 +749,11 @@ so at the most pessimistic plausible pair, a buffet onset of Mach 0.65 with a ma
 
 This section usually describes which documents hold an article up. Here it has to describe an absence first.
 
-**No primary document about the Bell X-16 was located in any archive.** The technical reports server of the National Aeronautics and Space Administration, NASA, returns zero records for MX-2147, zero for a search on the airframe designation as an aeroplane, zero for the Bell model number, and ten unrelated documents for the aircraft name, consisting of Bell Laboratories radio surveys and a galaxy catalogued with a similar identifier. The Defense Technical Information Center holds documents on the reconnaissance requirement and on sibling weapon system studies but none on this aircraft. This is not the indexing gap that [earlier aircraft in this series][related_post_a311_bell_x14] present, where a report exists but a title search does not surface it. **There is nothing to surface.**
+**No technical document about the Bell X-16 was located in any archive.** The technical reports server of the National Aeronautics and Space Administration, NASA, returns zero records for MX-2147, zero for a search on the airframe designation as an aeroplane, zero for the Bell model number, and ten unrelated documents for the aircraft name, consisting of Bell Laboratories radio surveys and a galaxy catalogued with a similar identifier. The Defense Technical Information Center holds documents on the reconnaissance requirement and on sibling weapon system studies but none on this aircraft. This is not the indexing gap that [earlier aircraft in this series][related_post_a311_bell_x14] present, where a report exists but a title search does not surface it. **There is nothing to surface.**
 
-Consequently **every dimension, weight, and performance figure in this article comes from a secondary compilation**, and the compilations disagree with one another. The disagreements are recorded in the text where they arise rather than silently resolved, and the most serious are whether an airframe was 80 percent complete or only a mock-up, whether cancellation was in 1955 or 1956, and whether the beneficiary was the U-2 or the RB-57D.
+What the record does hold is programme history. [The CIA history of the U-2][ref_pedlow_welzenbach_1992_ch1], [Sloop's NASA history of liquid hydrogen propulsion][ref_sloop_1978], which treats the competition as background to the Air Force's later high-altitude projects, and [NASA's inventory][ref_american_x_vehicles] each give the X-16 between a paragraph and a page. Those are the primary sources for the requirement, the dates, the contract and the cancellation. The engine is documented separately, in the NACA altitude wind tunnel reports on the J57-P-1 by [Wallner and Saari][ref_wallner_saari_1954] and by [Bloomer and Miller][ref_bloomer_miller_1954].
+
+Consequently **every dimension, weight, and performance figure in this article comes from a secondary compilation**, apart from the 69,500 foot maximum altitude that the CIA history gives, and the compilations disagree with one another. The disagreements are recorded in the text where they arise rather than silently resolved, and the most serious are whether an airframe was 80 percent complete or only a mock-up, and whether the beneficiary was the U-2 or the RB-57D. The cancellation year, which the compilations give as 1955 or 1956, is mid-1956 in Sloop's history.
 
 The comparison figures are worse. Two published U-2A specification sets differ by 2,550 pounds in empty weight, and the one giving the lower figure also gives a 55,000 foot ceiling and a J75 engine for a 1955 aircraft, both of which are plainly wrong. **A source that is wrong about two checkable things cannot be trusted about a third**, so the U-2 comparison in this article mixes wing area from one compilation with empty weight from another and says so here because that is a methodological weakness a reader should be able to see.
 
@@ -725,15 +771,19 @@ The research references are technical reports from the technical reports server 
 
 ## Epistemic State
 
-**Historical fact.** Design studies under MX-2147 ran in the second half of 1953 with Bell, Fairchild, and Martin participating. Bell's design was Model 67 and received the X-16 designation. A contract for twenty-eight aircraft was placed and none was completed. The Lockheed CL-282 was rejected by the Air Force, adopted by the Central Intelligence Agency, and flew on 1 August 1955 as the U-2. The Martin entry became the RB-57D, which first flew on 3 November 1955, of which twenty were built, whose wings were designed for 500 flight hours, one of which lost a wing at fifty thousand feet in 1964, and the last of which retired in 1979 with spar fractures. The X designation was applied as security cover.
+**Historical fact, from the primary histories.** A request for proposals existed by March 1953, calling for an operational radius of 1,500 nautical miles and cruise at 70,000 feet or higher. Study contracts went to Bell, Fairchild, and Martin beginning on 1 July 1953, and all three had submitted by January 1954. Bell's design was Model 67, with a maximum altitude of 69,500 feet, and received the X-16 designation. A contract for twenty-eight aircraft was signed in September 1954 and none was completed. The Air Force rejected the Lockheed CL-282 on 7 June 1954, and under the Central Intelligence Agency it first left the ground inadvertently on 1 August 1955 and made its first planned flight on 4 August 1955 as the U-2. The X-16 was cancelled in mid-1956. The Martin entry became the RB-57D, of which twenty were built. The X designation was applied as security cover. These facts rest on the CIA history, Sloop's NASA history, NASA's inventory and the Air Force museum's fact sheet.
 
-**Disputed in the record.** The cancellation date, given variously as mid-1955 and 1956. The beneficiary of the cancellation, given variously as the U-2 and the RB-57D. Whether a substantially complete airframe existed or only a mock-up. The engine variant, given as J57-P-19, J57-P-37, and J57-PW-37A across sources. This article does not resolve any of these.
+**Reported only in secondary compilations.** The project number MX-2147. The RB-57D's first flight on 3 November 1955, its wings designed for 500 flight hours, the loss of a wing at fifty thousand feet in 1964, and the retirement of the last airframe in 1979 with spar fractures. The X-16's dimensions, weights, range and quoted service ceiling.
+
+**Disputed in the record.** The beneficiary of the cancellation, given as the U-2 by NASA's inventory and as the RB-57D by the compiled entry. Whether a substantially complete airframe existed or only a mock-up, on which NASA's inventory states both. The engine variant, given as J57-P-19, J57-P-37, and J57-PW-37A across sources. The U-2's sea level thrust with the -37 engine, 10,200 pounds in the CIA history against the 10,500 used here from a compilation. This article does not resolve any of these.
 
 **Engineering analysis, reproducible from the stated inputs.** The Armstrong limit at 62,829 feet. The ram pressure ratio of 1.3685 at Mach 0.685 and the effective exponent of 0.8889 it implies. The speed band widths in both true and equivalent airspeed, and in particular that the band at the design altitude is 118.1 knots true and 28.8 knots equivalent. The atmosphere values at 69,500 feet. The maximum lift to drag ratio of 21.095 and the altitude independence of minimum drag. The thrust ceiling as a function of weight. The corner altitude as a function of weight. The finding that thrust binds at every weight tested by a margin of about 14,000 feet. The lapse exponents of 0.9686, 0.9780, and 0.8669 required by the three aircraft. The cruise-climb result that the design altitude is first reached at 29,839 pounds after burning 48.9 percent of the disposable load. The gust increment comparison. The Reynolds number range. The Breguet check.
 
-**Inference, and clearly labelled as such.** That one shared lapse exponent explains all three aircraft is an inference from three data points, two of which rest on published wing areas and one of which rests on an assumed one. That the exponent's physical origin is ram recovery net of component losses is an inference from a one-dimensional ram relation and a single assumed cruise Mach number, and the 56 percent realisation figure inherits every assumption in the lift to drag estimate. **Compressor Reynolds number degradation cannot be the origin, because it acts in the wrong direction**, and the propulsion section places it among the losses that consume part of the ram benefit. That the X-16 lost on schedule and sponsorship rather than on performance follows from the arithmetic showing no performance deficit, which is an argument from absence.
+**Inference, and clearly labelled as such.** That one shared lapse exponent explains all three aircraft is an inference from three data points, two of which rest on published wing areas and one of which rests on an assumed one. That the exponent's physical origin is ram recovery net of component losses is an inference from a one-dimensional ram relation and a single assumed cruise Mach number, and the 56 percent realisation figure inherits every assumption in the lift to drag estimate. **Compressor Reynolds number degradation cannot be the origin, because it acts in the wrong direction**, and the propulsion section places it among the losses that consume part of the ram benefit, a placement the J57's measured altitude performance does not confirm, since corrected thrust was unaffected by Reynolds number down to the lowest index tested. That the X-16 lost on schedule and sponsorship rather than on performance follows from the arithmetic showing no performance deficit, which is an argument from absence.
 
-**What the record does not settle and this article does not claim.** Whether the X-16 would have met its quoted ceiling in flight. Whether its structure would have survived its gust environment for a useful life, which is the question the RB-57D answered badly. Whether the assumed aerodynamic coefficients resemble the real ones. Whether the programme's contribution to the J57 was as decisive as secondary accounts state, since the engine development record was not examined directly here.
+**What the record does not settle and this article does not claim.** Whether the X-16 would have met its quoted ceiling in flight. Whether its structure would have survived its gust environment for a useful life, which is the question the RB-57D answered badly. Whether the assumed aerodynamic coefficients resemble the real ones. Whether the X-16's own contribution to the high-altitude J57 was as decisive as NASA's inventory states, since the primary histories attribute the modified engine to all three competing designs and no Pratt and Whitney development record was examined. How the J57 behaved below a Reynolds number index of 0.213, which neither NACA report read here reaches.
+
+**Assumptions, none published for this aircraft.** A zero-lift drag coefficient of 0.018, a span efficiency of 0.85, a maximum lift coefficient of 1.2, and a buffet onset Mach number of 0.75. A cruise speed of 430 knots, a cruise lift to drag ratio at 94 percent of the optimum, and a specific fuel consumption of 0.85 pounds per pound force per hour. An end-of-mission allowance of 1,200 pounds for pilot, payload, and reserve. An RB-57D wing area of 1,500 square feet, and the reading of the RB-57D's quoted radius in statute miles. A first-stage blade chord of 0.06 metres at 150 metres per second of axial velocity. An angular resolution of 5 microradians and a twelve inch aperture. A nominal 4,200 pounds for one engine and its nacelle. The gust comparison is evaluated at an equivalent airspeed of 100 metres per second and a derived gust of 15 metres per second.
 
 **What the contemporary literature changes.** Two findings of the contemporary survey bear on the article's own conclusions rather than merely extending them. **The keystone is dissolved rather than solved by solar-electric propulsion**, because a photovoltaic platform has no compressor and therefore no lapse exponent, so the quantity that dominated the X-16's design by a factor of four simply leaves the equation and is replaced by energy storage mass. And **the binding constraint on a modern equivalent is certification rather than performance**, which is a statement about where the difficulty now lies and not about aerodynamics.
 
@@ -751,7 +801,7 @@ What it does provide is an unusually clean case for a piece of arithmetic. The c
 
 The calculation then fails against the quoted ceiling, and fails the same way for the U-2 and the RB-57D, which is what makes it useful. **Three aeroplanes designed separately against one requirement all demand that a turbojet beat proportionality in thin air by about the same amount.** The two with published wing areas agree to within one percent. That is the engineering content of the requirement, and it is a statement about engines rather than about wings.
 
-Which makes the historical footnote exact. The X-16 was cancelled, and the high-altitude engine development it paid for went into the aeroplane that replaced it. **The programme delivered the one component that decided whether the requirement could be met at all, and delivered it to its competitor.**
+Which makes the historical footnote apt. The X-16 was cancelled in 1956, and the high-altitude engine that its competition specified, and that NASA's inventory credits it with driving, went into the aeroplane that replaced it. **The programme around it delivered the one component that decided whether the requirement could be met at all, and delivered it to its competitor.**
 
 ## References
 
@@ -770,15 +820,31 @@ Which makes the historical footnote exact. The X-16 was cancelled, and the high-
 ### Reference
 
 - [Bell X-16][ref_x16]
+- [Bloomer and Miller, Preliminary Altitude Performance Characteristics of the J57-P-1 Turbojet Engine with Fixed-Area Exhaust Nozzle, NACA RM SE54D30, 1954][ref_bloomer_miller_1954]
 - [coffin corner][ref_coffin_corner]
 - [ER-2][ref_er2]
+- [Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]
+- [National Museum of the United States Air Force, Martin RB-57D fact sheet, 2009][ref_nmusaf_rb57d]
+- [Pedlow and Welzenbach, The Central Intelligence Agency and Overhead Reconnaissance, The U-2 and OXCART Programs, 1954-1974, 1992, released 2013, chapter 1][ref_pedlow_welzenbach_1992_ch1]
+- [Pedlow and Welzenbach, The Central Intelligence Agency and Overhead Reconnaissance, The U-2 and OXCART Programs, 1954-1974, 1992, released 2013, chapter 2][ref_pedlow_welzenbach_1992_ch2]
 - [RB-57D][ref_rb57d]
+- [Sloop, Liquid Hydrogen as a Propulsion Fuel, 1945-1959, NASA SP-4404, 1978][ref_sloop_1978]
 - [U-2][ref_u2]
+- [Wallner and Saari, Preliminary Altitude Operational Characteristics of a J57-P1 Turbojet Engine, NACA RM SE54C31, 1954][ref_wallner_saari_1954]
+- [X-16 at GlobalSecurity.org][ref_globalsecurity_x16]
 
+[ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
+[ref_bloomer_miller_1954]: https://ntrs.nasa.gov/citations/20090025895
 [ref_coffin_corner]: https://en.wikipedia.org/wiki/Coffin_corner_(aerodynamics)
 [ref_er2]: https://en.wikipedia.org/wiki/Lockheed_ER-2
+[ref_globalsecurity_x16]: https://www.globalsecurity.org/military/systems/aircraft/x-16.htm
+[ref_nmusaf_rb57d]: https://web.archive.org/web/20120616093424/http://www.nationalmuseum.af.mil/factsheets/factsheet.asp?id=2724
+[ref_pedlow_welzenbach_1992_ch1]: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB434/docs/U2%20-%20Chapter%201.pdf
+[ref_pedlow_welzenbach_1992_ch2]: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB434/docs/U2%20-%20Chapter%202.pdf
 [ref_rb57d]: https://en.wikipedia.org/wiki/Martin_RB-57D_Canberra
+[ref_sloop_1978]: https://ntrs.nasa.gov/citations/19790008823
 [ref_u2]: https://en.wikipedia.org/wiki/Lockheed_U-2
+[ref_wallner_saari_1954]: https://ntrs.nasa.gov/citations/20090026275
 [ref_x16]: https://en.wikipedia.org/wiki/Bell_X-16
 
 ### Related Post

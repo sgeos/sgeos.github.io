@@ -101,9 +101,11 @@ designation arrived after the first of those defeats rather than before it.
 ### What Lockheed Had, and What Was Wrong With It
 
 The [F-104 Starfighter][ref_f104] first flew in 1954 and was designed to one requirement above all others,
-namely to climb fast and go fast in a straight line. It has a wing of 196.1 square feet, a span of 21 feet
-11 inches, and a thickness-to-chord ratio of 3.36 percent, with a leading edge sharp enough that ground
-crews fitted protective covers over it. The aircraft was a superb interceptor and a poor fighter, and the
+namely to climb fast and go fast in a straight line. It has a wing of 196.1 square feet and a span of 21.94
+feet, the reference geometry the National Aeronautics and Space Administration's handling-qualities
+compilation gives for the F-104A \[[Aircraft Handling Qualities Data, NASA CR-2144][ref_heffley_jewell]\],
+and a thickness-to-chord ratio of 3.36 percent, with a leading edge sharp enough that ground
+crews fitted protective covers over it \[[Lockheed F-104 Starfighter][ref_f104]\]. The aircraft was a superb interceptor and a poor fighter, and the
 reason is in the geometry rather than in any failing of manufacture.
 
 The [aspect ratio][ref_aspect_ratio] follows from the span and the area.
@@ -112,7 +114,10 @@ $$ A = \frac{b^2}{S} = \frac{(21.94\ \mathrm{ft})^2}{196.1\ \mathrm{ft}^2} = 2.4
 
 **That is a very low number for a wing meant to turn.** The wing loading is the other half of the problem.
 
-$$ \frac{W}{S} = \frac{20{,}640\ \mathrm{lb}}{196.1\ \mathrm{ft}^2} = 105.3\ \mathrm{lb/ft}^2 $$
+$$ \frac{W}{S} = \frac{27{,}300\ \mathrm{lb}}{196.1\ \mathrm{ft}^2} = 139.2\ \mathrm{lb/ft}^2 $$
+
+Here $W$ is the F-104G's design gross weight of 27,300 pounds as the National Aeronautics and Space
+Administration's survey of aircraft performance tabulates it, and the survey gives the same 139.2 \[[Quest for Performance, NASA SP-468][ref_sp468]\].
 
 An aircraft that must generate lift equal to several times its weight in a turn, from a small wing of low
 aspect ratio, pays for that lift in drag, and the drag is what ends the turn.
@@ -184,18 +189,26 @@ cross-section, its aerofoil section, and a good deal of its systems philosophy.
 | Span | 21.94 ft | 29.17 ft | +33.0 percent |
 | Aspect ratio | 2.455 | 2.836 | +15.5 percent |
 | Length | 54.75 ft | 57.25 ft | +30.0 in |
-| Empty weight | 14,082 lb | 16,640 lb | +18.2 percent |
-| Normal loaded | 20,640 lb | 24,385 lb | +18.1 percent |
-| Maximum takeoff | 29,027 lb | 35,000 lb | +20.6 percent |
+| Empty weight | 13,996 lb | 17,885 lb | +27.8 percent |
+| Loaded weight as published | 27,300 lb, design gross | 24,385 lb, normal loaded | not like for like |
+| Maximum takeoff | 29,083 lb | 35,000 lb | +20.3 percent |
 | Engine | J79-GE-11A turbojet | TF30-P-100 turbofan | a change of class |
 | Thrust with afterburner | 15,600 lbf | 25,000 lbf | +60.3 percent |
-| Wing loading | 105.3 lb/ft² | 81.3 lb/ft² | −22.8 percent |
-| Thrust to weight | 0.756 | 1.025 | +35.6 percent |
+| Wing loading at the published loaded weight | 139.2 lb/ft² | 81.3 lb/ft² | −41.6 percent |
+| Thrust to weight at the published loaded weight | 0.571 | 1.025 | +79.4 percent |
+
+The F-104G weights are the National Aeronautics and Space Administration's \[[Quest for Performance, NASA SP-468][ref_sp468]\]. The CL-1200-2 weights
+are Lockheed's estimates, which \[[Lockheed CL-1200 Lancer][ref_cl1200]\] attributes to \[[Air Enthusiast, Volume One][book_air_enthusiast_1971]\] and which also lists 17,250 pounds empty
+and 32,500 pounds gross, the figures \[[X-27 specifications][ref_x27_specs]\] gives for the X-27. The analysis below uses the CL-1200-2 figures throughout. **The two loaded weights are defined
+differently.** The F-104G figure is a design gross weight and the CL-1200-2 figure a normal loaded weight, so
+the wing-loading and thrust-to-weight changes in the last two rows overstate the change at equal loading and
+are best read as upper bounds.
 
 **Four changes matter and the rest follow from them.**
 
 **The wing grew by half and moved.** It went from a mid-set position to a shoulder position and moved aft,
-while retaining the F-104's 10 degrees of [anhedral][ref_anhedral] and, importantly, its aerofoil section.
+while retaining the F-104's 10 degrees of [anhedral][ref_anhedral] and, importantly, its aerofoil section
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 **The tail came down.** The F-104's [T-tail][ref_t_tail], with the horizontal surface on top of the fin, was
 replaced by a conventional horizontal tail on the rear fuselage.
@@ -209,16 +222,28 @@ difference in physical envelope is not incidental.
 | TF30-P-100 | 241.70 in | 48.90 in | 3,985 lb | 260 lb/s |
 | Difference | +33.01 in | +9.84 in | +150 lb | +52.9 percent |
 
+The lengths, diameters, dry weights and airflows are the published ratings of the two engines
+\[[General Electric J79][ref_j79]\] \[[Pratt and Whitney TF30][ref_tf30]\]. The last row gives the differences,
+and its airflow entry is a ratio less one.
+
+$$ \Delta L = 241.70 - 208.69 = 33.01\ \mathrm{in}, \qquad \Delta D = 48.90 - 39.06 = 9.84\ \mathrm{in}, \qquad \frac{\dot m_{\mathrm{TF30}}}{\dot m_{\mathrm{J79}}} - 1 = \frac{260}{170} - 1 = 0.529 $$
+
 **The fuselage was stretched 30 inches**, which the record attributes to a 46 percent increase in internal
-fuel. **The engine that had to go inside it is 33.01 inches longer than the J79-GE-17.** The comparison table uses the J79-GE-17 because those are the J79 dimensions the article holds, while the F-104G column above names the J79-GE-11A, so the differences are measured against a sister variant of the engine the F-104G carried and not against that engine itself. The article
-notes that the stretch is within three inches of the engine length difference and declines to claim which
-consideration drove it, because the record states only the fuel figure.
+fuel \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. **The engine that had to go inside it is 33.01 inches longer than the J79-GE-17.** The comparison table uses the J79-GE-17 because those are the J79 dimensions the article holds, while the F-104G column above names the J79-GE-11A, so the differences are measured against a sister variant of the engine the F-104G carried and not against that engine itself. The stretch
+falls short of the engine length difference by
+
+$$ \Delta L - \Delta L_{\mathrm{fus}} = 33.01 - 30 = 3.01\ \mathrm{in} $$
+
+where $\Delta L_{\mathrm{fus}}$ is the fuselage stretch, which is close enough that either consideration
+could have set it. The article declines to claim which one did, because the record states only the fuel
+figure.
 
 ### The Intakes, Which Are the Article's Subject
 
 **The F-104 uses fixed half-cone side inlets.** The CL-1200 replaced them with translating shock cones
 having four inches of axial movement.
-**The X-27, according to the record, was to have had intakes of rectangular form instead.**
+**The X-27, according to the record, was to have had intakes of rectangular form instead**
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 The record does not say why the shape changed.
 **Section [Sizing From First Principles](#sizing-from-first-principles) computes an answer, and the answer is that a single cone cannot do the job at Mach 2.6.**
@@ -348,24 +373,42 @@ $$ T_r = T\left(1 + r\,\frac{\gamma - 1}{2} M^2\right), \qquad r = \Pr^{1/3} \ap
 
 Evaluating at 35,000 feet gives the table the whole structural argument rests on.
 
-| Mach | Speed | Total temperature | Recovery temperature | Yield retained by 2024-T81 |
+| Mach | Speed | Total temperature | Recovery temperature | Yield retained by 2024-T81, half-hour exposure |
 |---|---|---|---|---|
 | 1.00 | 663 mph | −10.6 °C | −15.1 °C | 100 percent |
-| 2.00 | 1,327 mph | 120.7 °C | 102.5 °C | 94.7 percent |
-| 2.20 | 1,459 mph | 157.5 °C | 135.5 °C | 91.5 percent |
-| 2.50 | 1,658 mph | 219.2 °C | 190.8 °C | 77.2 percent |
-| 2.56 | 1,698 mph | 232.5 °C | 202.7 °C | 72.8 percent |
-| 2.60 | 1,725 mph | 241.5 °C | 210.8 °C | 68.8 percent |
+| 2.00 | 1,327 mph | 120.7 °C | 102.5 °C | 89 percent |
+| 2.20 | 1,459 mph | 157.5 °C | 135.5 °C | 85 percent |
+| 2.50 | 1,658 mph | 219.2 °C | 190.8 °C | 74 percent |
+| 2.56 | 1,698 mph | 232.5 °C | 202.7 °C | 71 percent |
+| 2.60 | 1,725 mph | 241.5 °C | 210.8 °C | 68 percent |
 
 The standard treatments of compressible flow used throughout this section are [Shapiro][book_shapiro] and
 [Anderson][book_anderson], and the aerodynamic design context is [Kuchemann][book_kuchemann].
 
-**The last column is a reading of published handbook curves for aluminium alloy after long exposure**,
-interpolated linearly between tabulated points, and it is presented as a reading rather than as a law.
+**The last column is read from the Department of Defense handbook curve of tensile yield strength at
+temperature for 2024-T81 aluminium alloy**, as a percentage of the room-temperature value, on the curve for
+one-half hour at temperature \[[Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J][ref_mil_hdbk_5j]\].
+That figure, Figure 3.2.3.4.1(b), is plotted in degrees Fahrenheit, so each recovery temperature is
+converted before it is read.
 
-**The shape of that column is the finding.** At Mach 2.0, where the F-104 lived, the structure keeps 95
-percent of its strength and the designer can ignore the problem. At Mach 2.6 it keeps 69 percent, and a wing
-sized for a given load factor at full strength is a wing that no longer reaches it.
+$$ T_{\mathrm{F}} = 1.8\,T_{\mathrm{C}} + 32, \qquad 1.8 \times 210.8 + 32 = 411.4\ ^{\circ}\mathrm{F} $$
+
+The readings are given to the nearest percentage point, which is about the precision the printed curve
+allows. At Mach 1.0 the recovery temperature lies below the curve's range, and the room-temperature value
+applies. **Half an hour is the shortest exposure the handbook plots, and longer exposure lowers the curve.**
+At the Mach 2.6 recovery temperature the handbook's five exposure curves read as follows
+\[[Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J][ref_mil_hdbk_5j]\].
+
+| Exposure at 411 °F | 1/2 hour | 10 hours | 100 hours | 1,000 hours | 10,000 hours |
+|---|---|---|---|---|---|
+| Yield retained | 68 percent | 67 percent | 57 percent | 44 percent | 28 percent |
+
+The half-hour column is therefore the most favourable reading the handbook supports, and an airframe that
+accumulated many hours at that temperature over a service life would sit on one of the lower curves.
+
+**The shape of that column is the finding.** At Mach 2.0, where the F-104 lived, the structure keeps 89
+percent of its strength. At Mach 2.6 it keeps 68 percent, and a wing sized for a given load factor at full
+strength is a wing that no longer reaches it.
 
 The literature on aerodynamic heating, elevated-temperature alloy behaviour, creep, and hot structures is
 large and spans the whole period.
@@ -520,10 +563,10 @@ $$ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/
 
 | Time at Mach 2.6 | Skin temperature | Fraction of the way | Yield retained |
 |---|---|---|---|
-| 30 s | 148.4 °C | 68.1 percent | 90.2 percent |
-| 60 s | 190.9 °C | 89.9 percent | 77.2 percent |
-| 120 s | 208.8 °C | 99.0 percent | 69.9 percent |
-| 180 s | 210.6 °C | 99.9 percent | 68.9 percent |
+| 30 s | 148.4 °C | 68.1 percent | 83 percent |
+| 60 s | 190.9 °C | 89.9 percent | 74 percent |
+| 120 s | 208.8 °C | 99.0 percent | 69 percent |
+| 180 s | 210.6 °C | 99.9 percent | 68 percent |
 
 #### The Heating Also Loads the Structure, Which Is a Separate Objection
 
@@ -571,16 +614,22 @@ parts per million per kelvin, and the full excursion from a cold start to the re
 
 $$ \sigma_{\mathrm{th}} = 72 \times 10^{9} \times 23 \times 10^{-6} \times 190.8 = 316\ \mathrm{MPa} $$
 
-**The retained yield at that temperature is about 275 megapascals**, taking 400 at room temperature and the
-68.8 percent from the table above. **The fully restrained thermal stress exceeds it, at 115 percent.**
+**The retained yield at that temperature is about 272 megapascals.** The handbook's room-temperature
+A-basis yield strength for 2024-T81 sheet from 0.010 to 0.249 inch thick is 58 ksi in the long-transverse
+direction \[[Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J][ref_mil_hdbk_5j]\],
+and with the 68 percent from the table above
+
+$$ \sigma_{\mathrm{yield}}(T_r) = 0.68 \times 58\ \mathrm{ksi} \times 6.895\ \frac{\mathrm{MPa}}{\mathrm{ksi}} = 0.68 \times 400\ \mathrm{MPa} = 272\ \mathrm{MPa}, \qquad \frac{316}{272} = 1.16 $$
+
+**The fully restrained thermal stress exceeds it, at 116 percent.**
 
 **That number is an upper bound and not a prediction**, because no real airframe is fully restrained. The
 whole structure heats, so what matters is the **difference** in temperature between skin and substructure,
 and the honest way to use the relation is to invert it and ask how much difference the material can afford.
 
-$$ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 275 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 83\ \mathrm{K} $$
+$$ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 272 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 82\ \mathrm{K} $$
 
-**Eighty-three kelvin of differential consumes half the remaining strength.** That is not a large number for
+**Eighty-two kelvin of differential consumes half the remaining strength.** That is not a large number for
 a structure with a thin hot skin over cooler spars and frames, and it says the Mach 2.6 objective posed a
 thermal-stress problem on top of the strength problem, which the record does not discuss at all.
 
@@ -1096,7 +1145,8 @@ The capture area needed to admit a given physical mass flow at full capture is
 
 $$ A_c = \frac{\dot m}{\rho_\infty V_\infty} $$
 
-**The TF30-P-100 is documented at 260 pounds per second, which is 117.93 kilograms per second.** At Mach 2.0
+**The TF30-P-100 is documented at 260 pounds per second, which is 117.93 kilograms per second**
+\[[Pratt and Whitney TF30][ref_tf30]\]. At Mach 2.0
 and 35,000 feet the free-stream mass flux is $\rho_\infty V_\infty = 225.0$ kilograms per square metre per
 second, so
 
@@ -1108,6 +1158,11 @@ $$ A_c = \frac{117.93}{225.0} = 0.524\ \mathrm{m}^2 = 5.639\ \mathrm{ft}^2 $$
 | **25°** | **5.401 ft²** | **5.639 ft²** | **−4.2 percent** |
 | 27.5° | 6.500 ft² | 5.639 ft² | +15.3 percent |
 | 30° | 7.535 ft² | 5.639 ft² | +33.6 percent |
+
+The error column is the implied capture area $A_{\mathrm{travel}}$ measured against the required one,
+which at twenty-five degrees is
+
+$$ \varepsilon = \frac{A_{\mathrm{travel}} - A_c}{A_c} = \frac{5.401 - 5.639}{5.639} = -0.042 $$
 
 **A twenty-five degree cone reconciles the two published figures to within 4.2 percent, and twenty-five degrees is an entirely ordinary half-angle for a supersonic inlet of the period.**
 
@@ -1462,18 +1517,31 @@ sales case rested on.
 
 | Suction | Aircraft | Sustained $n$ | Turn rate | $P_s$ at 1 g |
 |---|---|---|---|---|
-| 0.0 | F-104G | 3.89 | 7.28 °/s | 582 ft/s |
+| 0.0 | F-104G | 2.94 | 5.36 °/s | 416 ft/s |
 | 0.0 | **CL-1200-2** | **5.50** | **10.48 °/s** | **823 ft/s** |
 | 0.0 | F-5E | 4.58 | 8.67 °/s | 461 ft/s |
-| 0.0 | F-15A | 6.04 | 11.54 °/s | 854 ft/s |
-| 0.5 | F-104G | 4.46 | 8.43 °/s | 592 ft/s |
+| 0.0 | F-15A | 6.06 | 11.58 °/s | 860 ft/s |
+| 0.5 | F-104G | 3.38 | 6.25 °/s | 430 ft/s |
 | 0.5 | **CL-1200-2** | **6.34** | **12.13 °/s** | **830 ft/s** |
 | 0.5 | F-5E | 5.33 | 10.15 °/s | 467 ft/s |
-| 0.5 | F-15A | 6.97 | 13.37 °/s | 860 ft/s |
-| 1.0 | F-104G | 5.41 | 10.29 °/s | 601 ft/s |
+| 0.5 | F-15A | 6.99 | 13.41 °/s | 866 ft/s |
+| 1.0 | F-104G | 4.09 | 7.68 °/s | 443 ft/s |
 | 1.0 | **CL-1200-2** | **7.73** | limit binds | 836 ft/s |
 | 1.0 | F-5E | 6.64 | 12.71 °/s | 473 ft/s |
-| 1.0 | F-15A | 8.53 | limit binds | 866 ft/s |
+| 1.0 | F-15A | 8.56 | limit binds | 872 ft/s |
+
+**The weights behind the table are sourced, but they are not equally loaded.** The F-104G, F-5E and F-15A
+are evaluated at the design gross weights and afterburning thrusts that the National Aeronautics and Space
+Administration's survey tabulates \[[Quest for Performance, NASA SP-468][ref_sp468]\]. The survey gives the
+F-15C and not the F-15A, so the F-15A rows use the F-15C's 44,500 pounds and two F100-PW-100 engines of
+23,904 pounds of thrust, the nearest variant it tabulates. The CL-1200-2 is evaluated at its normal loaded
+weight of 24,385 pounds. As fractions of each aircraft's maximum weight these are
+
+$$ \frac{27{,}300}{29{,}083} = 0.939, \qquad \frac{15{,}745}{20{,}486} = 0.769, \qquad \frac{44{,}500}{68{,}000} = 0.654, \qquad \frac{24{,}385}{35{,}000} = 0.697 $$
+
+for the F-104G, F-5E, F-15A and CL-1200-2 respectively. **The F-104G is carried much nearer its maximum
+than the others**, so its rows understate it by an amount the sources do not allow to be fixed. They bound
+the F-104G from below and are not a like-for-like measure of what the redesign gained.
 
 The period and contemporary work on turning performance, load factor and combat aircraft comparison stands
 behind this table.
@@ -1493,16 +1561,19 @@ behind this table.
 **The result is favourable to Lockheed and it is robust.** At every leading-edge suction fraction the Lancer
 out-turns the F-5E that beat it, comfortably, and it sits close behind the F-15A.
 
-**The specific excess power comparison is the striking one. At 830 feet per second against the F-15A's 860, the Lancer is within 3.5 percent of an aeroplane that cost several times as much.**
+**The specific excess power comparison is the striking one. At 830 feet per second against the F-15A's 866, the Lancer is within 4.2 percent of an aeroplane that cost several times as much.**
+The shortfall is taken relative to the F-15A at a leading-edge suction fraction of 0.5,
+
+$$ 1 - \frac{P_{s,\mathrm{CL\text{-}1200\text{-}2}}}{P_{s,\mathrm{F\text{-}15A}}} = 1 - \frac{830}{866} = 0.042 $$
 
 The ranking does not depend on the parasite drag assumption.
 
 | $C_{D_0}$ | F-104G | CL-1200-2 | F-5E | F-15A |
 |---|---|---|---|---|
-| 0.0150 | 4.48 | 6.36 | 5.36 | 7.00 |
-| 0.0175 | 4.43 | 6.29 | 5.26 | 6.91 |
-| 0.0200 | 4.37 | 6.21 | 5.15 | 6.82 |
-| 0.0250 | 4.26 | 6.06 | 4.93 | 6.64 |
+| 0.0150 | 3.39 | 6.36 | 5.36 | 7.02 |
+| 0.0175 | 3.35 | 6.29 | 5.26 | 6.93 |
+| 0.0200 | 3.30 | 6.21 | 5.15 | 6.84 |
+| 0.0250 | 3.22 | 6.06 | 4.93 | 6.66 |
 
 **A model with a free parameter that reproduces an expectation has demonstrated very little.** What this one
 has demonstrated is narrower and firmer, because
@@ -1512,7 +1583,7 @@ predictions of what the aircraft would have achieved.
 
 **And it makes the political story quantitative.** The claim that some in the Air Force saw the Lancer as a
 threat to the F-15 is usually reported as an attitude.
-**The arithmetic says the attitude was not unreasonable.** An aeroplane within four percent of the F-15's
+**The arithmetic says the attitude was not unreasonable.** An aeroplane within 4.2 percent of the F-15's
 specific excess power, offered at a fraction of the price, is an awkward thing to have flying while the case
 for the expensive one is before Congress.
 **The article states this as a consistency between the physics and the reported attitude, not as evidence of anyone's motive.**
@@ -1655,7 +1726,7 @@ follows from the manoeuvre requirement that the engine change made reachable.
 
 Treated at length above.
 **The summary is that the engine change is the largest single change in the aircraft and the one that drives most of the others.**
-Against the J79-GE-17 it is 33.01 inches longer, 9.84 inches wider, and it swallows 52.9 percent more air. The fuselage stretch,
+Against the J79-GE-17 it is 33.01 inches longer, 9.84 inches wider, and it swallows 52.9 percent more air, differences computed in the section headed [What Changed From the F-104](#what-changed-from-the-f-104). The fuselage stretch,
 the redesigned centre and rear fuselage, the enlarged intakes and the translating cones all follow from it.
 
 - [Theoretical evaluation of the ducted-fan turbojet engine][research_parisenrichardb_armstrongjohnc_1948]
@@ -2041,7 +2112,7 @@ absolute values should not be read as tail conditions.
 ### Structure and Materials
 
 The airframe is aluminium alloy, and the analysis above establishes that this is the constraint the Mach 2.6
-objective runs into. **At Mach 2.0 the structure is comfortable and at Mach 2.6 it is not**, and the
+objective runs into. **At Mach 2.0 the structure gives up about a tenth of its yield strength and at Mach 2.6 about a third**, and the
 transition happens across a narrow band because the recovery temperature goes as the square of the Mach
 number while the strength curve falls steeply through the same range.
 
@@ -2051,7 +2122,7 @@ Nine stations, one on the fuselage centreline, three under each wing and one at 
 20 millimetre [M61][ref_m61] with 725 rounds, with a 30 millimetre [DEFA][ref_defa] cannon of the French Direction des Études et Fabrications
 d'Armement offered as an alternative for customers already equipped for it. Up to 12,000 pounds of ordnance on short-range missions,
 a maximum of four [AIM-7][ref_aim7] or typically six and up to ten [AIM-9][ref_aim9] air intercept
-missiles.
+missiles \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 **The wingtip stations are inherited thinking.** The F-104 carried tip tanks and tip-mounted missiles
 because it had almost no wing to hang anything under. On a wing half again as large the tip station is a
@@ -2096,9 +2167,11 @@ share a truth. The section is written to make the weakness explicit rather than 
 | 1,700 mph at 35,000 ft | Mach 2.563 by definition | Internally consistent |
 | Initial climb 60,000 ft/min | Best sea-level $P_s$ 49,332 ft/min | **Claim exceeds the estimate by 21.6 percent** |
 | Takeoff run 1,450 ft | 1,078 ft at $C_{L_{\max}}$ 1.2 | Claim is conservative |
-| Combat radius 367 nmi | 0.171 of still-air range | Consistent with practice |
-| Fuel increase 46 percent | Weights imply 29 to 33 percent | **Mild internal inconsistency** |
+| Combat radius 367 nmi | 0.192 of still-air range | Consistent with practice |
+| Fuel increase 46 percent | Needs the F-104G's internal fuel, which no cited source states | **Not checked** |
 | Spike travel 4 in | Implies 5.401 ft² against 5.639 ft² needed | **Agrees to 4.2 percent** |
+
+The claims in the first column are the manufacturer's published estimates \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 ### The Climb Claim, Which Does Not Check Out
 
@@ -2119,11 +2192,17 @@ weight produce at sea level is 250.6 metres per second at Mach 1.095.
 | 1.095 | 49,332 ft/min |
 | 1.2 | 48,585 ft/min |
 
-**The claim exceeds the computed ceiling by 21.6 percent.**
+**The claim exceeds the computed ceiling by 21.6 percent.** For claimed climb rate $\dot h_{\mathrm{claim}}$
+and the largest $P_s$ in the scan,
+
+$$ \frac{\dot h_{\mathrm{claim}}}{P_{s,\max}} - 1 = \frac{60{,}000}{49{,}332} - 1 = 0.216 $$
 
 **The maximum lies between the round Mach numbers, so it has to be found by a fine scan.** A coarse grid
-that stops at Mach 1.2 takes the peak as 48,585 feet per minute and overstates the shortfall as 23.5
-percent. The fine scan puts the maximum at Mach 1.095.
+that stops at Mach 1.2 takes the peak as 48,585 feet per minute and overstates the shortfall,
+
+$$ \frac{60{,}000}{48{,}585} - 1 = 0.235 $$
+
+or 23.5 percent. The fine scan puts the maximum at Mach 1.095.
 
 **Two explanations fit and the article cannot choose between them.** The figure may be a zoom rather than a
 steady climb, in which case it is a transient trade of speed for height and is not a rate of climb in the
@@ -2132,27 +2211,17 @@ Alternatively the thrust or weight assumptions here are conservative.
 **What can be said is that the figure is not supported by the aircraft's own published thrust and weight under a steady interpretation**,
 and that this is the only headline claim in the brochure of which that is true.
 
-### The Fuel Claim, Inverted
+### The Fuel Claim, Which Cannot Be Checked Here
 
-The record states a 46 percent increase in internal fuel from a 30-inch stretch. The weight breakdown can be
-asked whether it agrees.
+The record states a 46 percent increase in internal fuel from a 30-inch stretch. The weight breakdown gives
+the Lancer's clean disposable load as the difference between its normal loaded and empty weights.
 
-$$ W_{\mathrm{fuel,\ clean}} = W_{\mathrm{loaded}} - W_{\mathrm{empty}} = 24{,}385 - 16{,}640 = 7{,}745\ \mathrm{lb} $$
+$$ W_{\mathrm{fuel,\ clean}} = W_{\mathrm{loaded}} - W_{\mathrm{empty}} = 24{,}385 - 17{,}885 = 6{,}500\ \mathrm{lb} $$
 
-The F-104G holds 896 United States gallons internally, which is 3,392 litres.
-
-| Fuel density | F-104G fuel | Implied Lancer increase | Claimed |
-|---|---|---|---|
-| 6.5 lb/gal | 5,824 lb | +33.0 percent | 46 percent |
-| 6.7 lb/gal | 6,003 lb | +29.0 percent | 46 percent |
-
-Read the other way, applying the claimed 46 percent to the F-104G's tankage and adding the empty weight
-gives 25,143 pounds against a quoted normal loaded weight of 24,385, an overshoot of 3.1 percent.
-
-**This is a mild inconsistency and it is reported as one.** Brochure figures of this vintage carry rounding,
-the two numbers may refer to volume and weight respectively, and a three percent disagreement is close to
-the resolution of the source material.
-**It is recorded because reporting the small disagreements is what makes the large agreement in the inlet section credible.**
+**Testing the 46 percent against that figure needs the F-104G's internal fuel capacity, and none of the
+sources cited here states it.** The claim is therefore left as the manufacturer's, neither confirmed nor
+contradicted. The difference above is also an upper bound on the clean fuel load rather than the fuel load
+itself, because a normal loaded weight ordinarily includes the pilot, ammunition and oil as well as fuel.
 
 ### The Takeoff Claim, Which Is Conservative
 
@@ -2196,27 +2265,32 @@ $$ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} $$
 
 The Breguet relation and the mission bookkeeping around it are as given in [Raymer][book_raymer] and
 [Nicolai][book_nicolai]. The end weight is the start weight less the usable fraction of the fuel, and the
-ratio is what the logarithm acts on.
+ratio is what the logarithm acts on. The start weight is the maximum takeoff weight, and the fuel is what
+that weight leaves after the empty weight and the 4,000 pound bombload the radius is quoted with
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
-$$ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 14{,}360 = 22{,}794\ \mathrm{lb} $$
+$$ W_{\mathrm{fuel}} = W_0 - W_{\mathrm{empty}} - W_{\mathrm{stores}} = 35{,}000 - 17{,}885 - 4{,}000 = 13{,}115\ \mathrm{lb} $$
 
-$$ \frac{W_0}{W_1} = \frac{35{,}000}{22{,}794} = 1.5355 $$
+$$ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 13{,}115 = 23{,}852\ \mathrm{lb} $$
+
+$$ \frac{W_0}{W_1} = \frac{35{,}000}{23{,}852} = 1.4674 $$
 
 The mission factor is then a defined ratio rather than a rule of thumb, and quoting it is what keeps a
 Breguet integral from being mistaken for a mission.
 
-$$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{2{,}141} = 0.171 $$
+$$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{1{,}914} = 0.192 $$
 
 | $L/D$ | $c_t$ | Still-air range | The 367 nmi claim as a fraction |
 |---|---|---|---|
-| 6.0 | 0.85 /h | 1,606 nmi | 0.229 |
-| 7.0 | 0.85 /h | 1,873 nmi | 0.196 |
-| 8.0 | 0.85 /h | 2,141 nmi | 0.171 |
-| 9.0 | 0.85 /h | 2,408 nmi | 0.152 |
+| 6.0 | 0.85 /h | 1,436 nmi | 0.256 |
+| 7.0 | 0.85 /h | 1,675 nmi | 0.219 |
+| 8.0 | 0.85 /h | 1,914 nmi | 0.192 |
+| 9.0 | 0.85 /h | 2,154 nmi | 0.170 |
 
 **A combat radius is not half a range.** It pays for climb, descent, a combat allowance at maximum power,
 reserves, and an outbound leg flown with stores hung on it. The ratio runs about 0.15 to 0.25 in practice.
-**The claim lands inside that band and is therefore credible.**
+**The claim lands inside that band for a lift-to-drag ratio of 7 or more and just above it at 6, and is
+therefore credible**, though with less room than a lighter empty weight would give.
 
 **This is a negative result for the suspicion that the radius claim is inflated, and it is reported as such.**
 
@@ -3620,7 +3694,7 @@ That calculation is a century old and it is the right first move.
 Contemporary work treats the aerodynamic heating, the temperature field, the resulting stress and the change
 in stiffness as one problem rather than four, under the name aerothermoelasticity, and the reason is that at
 high Mach the structure's deformation changes the flow that is heating it.
-**For the X-27 this would have mattered less than for a hypersonic vehicle, but the eighty-three kelvin figure computed above is exactly the kind of number that a coupled analysis exists to refine.**
+**For the X-27 this would have mattered less than for a hypersonic vehicle, but the eighty-two kelvin figure computed above is exactly the kind of number that a coupled analysis exists to refine.**
 
 - [Efficient C0 Finite Element Formulation for Thermal Stress...][research_zhen_kun_2015]
 - [Effect of heat transfer on shock train oscillations in a...][research_chen_sethuraman_2025]
@@ -3951,7 +4025,8 @@ Technical Reports Server returns nothing for the CL-1200 or the Lancer. No wind-
 open literature. No test report exists because no test occurred.
 
 **The vehicle facts come from secondary aviation history**, principally
-[Swanborough and Bowers][book_swanborough] on United States military aircraft, [Buttler][book_buttler] on
+Lockheed's own estimates as published in [Air Enthusiast][book_air_enthusiast_1971] in 1971 and quoted by the
+[Lancer reference article][ref_cl1200], [Buttler][book_buttler] on
 American secret projects, [Johnson][book_johnson] for the Skunk Works memoir, and [Jenkins][book_jenkins]
 for the surrounding experimental-aircraft context, and
 **those sources disagree with one another on the matter of who wanted the X-designation**, which the article
@@ -3963,7 +4038,7 @@ all richly documented in period reports and journals, and the article is built o
 **That is the method this subject requires. The evidence is gathered on the physics rather than on the vehicle.**
 
 **The engine and airframe numbers are the load-bearing figures and they come from reference sources rather than from documents.**
-The 260 pounds per second, the four inches of spike travel, the 896 gallons and the weight breakdown are
+The 260 pounds per second, the four inches of spike travel and the weight breakdown are
 each stated in secondary literature without a cited primary source.
 **The inlet agreement computed above is a check on their mutual consistency and is offered as partial corroboration of figures that are otherwise uncorroborated.**
 
@@ -4082,12 +4157,12 @@ nothing for viscosity. Two ramps recover 8.18 of those points, which is why the 
 rectangular.
 
 **The structure cannot hold its strength at that speed.** The recovery temperature at Mach 2.6 is 210.8
-degrees Celsius, where aluminium alloy retains about 69 percent of its yield strength, and the skin reaches
+degrees Celsius, where the handbook gives 2024-T81 aluminium alloy about 68 percent of its yield strength after half an hour, and the skin reaches
 nine-tenths of that in one minute, so a dash does not evade it.
 
 **Against that, the aeroplane was a better fighter than the one that beat it.** On sustained turn rate and
 on specific excess power the Lancer clears the F-5E comfortably at every assumption tested, and sits within
-3.5 percent of the F-15A's specific excess power.
+4.2 percent of the F-15A's specific excess power.
 **The sales case was not fraudulent. It was simply not what the customers were buying**, which was cost,
 logistics and an aircraft already in production.
 
@@ -4110,7 +4185,6 @@ broke, namely an aircraft that existed and flew.
 - [Dietrich Küchemann 2012, The aerodynamic design of aircraft][book_kuchemann]
 - [E. L. Goldsmith 1993, Practical intake aerodynamic design][book_seddon_goldsmith]
 - [Gordon C. Oates 1984, Aerothermodynamics of gas turbine and rocket...][book_oates]
-- [Gordon Swanborough 1963, United States military aircraft since 1909][book_swanborough]
 - [Jack D. Mattingly 1987, Aircraft engine design][book_mattingly_engine]
 - [John Anderson 1982, Modern compressible flow][book_anderson]
 - [Johnson, Clarence L. 1989, Kelly][book_johnson]
@@ -4119,7 +4193,9 @@ broke, namely an aircraft that existed and flew.
 - [Robert Coram 2002, Boyd][book_coram]
 - [S F. Hoerner 1965, Fluid dynamic drag][book_hoerner]
 - [Tony Buttler 2004, American Secret Projects][book_buttler]
+- [William Green and Gordon Swanborough 1971, Air Enthusiast, Volume One][book_air_enthusiast_1971]
 
+[book_air_enthusiast_1971]: https://openlibrary.org/works/OL26196651W
 [book_anderson]: https://openlibrary.org/works/OL1993329W
 [book_buttler]: https://openlibrary.org/works/OL9047733W
 [book_coram]: https://openlibrary.org/works/OL4311885W
@@ -4134,7 +4210,6 @@ broke, namely an aircraft that existed and flew.
 [book_seddon_goldsmith]: https://openlibrary.org/works/OL19054186W
 [book_shapiro]: https://openlibrary.org/works/OL5908243W
 [book_stevens_lewis]: https://openlibrary.org/works/OL21570717W
-[book_swanborough]: https://openlibrary.org/works/OL4484859W
 [book_whitford]: https://openlibrary.org/works/OL5054670W
 
 ### Reference
@@ -4142,6 +4217,7 @@ broke, namely an aircraft that existed and flew.
 - [Aerodynamic heating and recovery temperature][ref_recovery_factor]
 - [AIM-7 Sparrow][ref_aim7]
 - [AIM-9 Sidewinder][ref_aim9]
+- [Aircraft Handling Qualities Data, NASA CR-2144, Heffley and Jewell 1972][ref_heffley_jewell]
 - [Aspect ratio of a wing][ref_aspect_ratio]
 - [Breguet range equation][ref_breguet]
 - [Clarence Kelly Johnson][ref_kelly_johnson]
@@ -4168,10 +4244,12 @@ broke, namely an aircraft that existed and flew.
 - [Lockheed Skunk Works][ref_skunk_works]
 - [Lockheed SR-71 Blackbird][ref_sr71]
 - [Lockheed X-27][ref_x27]
+- [Lockheed X-27 specifications][ref_x27_specs]
 - [M61 Vulcan][ref_m61]
 - [Mach number][ref_mach]
 - [McDonnell Douglas F-15 Eagle][ref_f15]
 - [McDonnell Douglas F-4 Phantom II][ref_f4]
+- [Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J, Department of Defense 2003][ref_mil_hdbk_5j]
 - [Mock-up][ref_mockup]
 - [NASA Technical Reports Server][ref_ntrs]
 - [Normal shock wave][ref_normal_shock]
@@ -4185,6 +4263,7 @@ broke, namely an aircraft that existed and flew.
 - [Prandtl number][ref_prandtl]
 - [Pratt and Whitney TF30][ref_tf30]
 - [Pressure recovery in an intake][ref_pressure_recovery]
+- [Quest for Performance, NASA SP-468, Loftin 1985][ref_sp468]
 - [Specific excess power][ref_specific_excess_power]
 - [Stagnation pressure][ref_total_pressure]
 - [Stagnation temperature][ref_total_temperature]
@@ -4221,6 +4300,7 @@ broke, namely an aircraft that existed and flew.
 [ref_f8]: https://en.wikipedia.org/wiki/Vought_F-8_Crusader
 [ref_fms]: https://en.wikipedia.org/wiki/Foreign_Military_Sales
 [ref_gd]: https://en.wikipedia.org/wiki/General_Dynamics
+[ref_heffley_jewell]: https://ntrs.nasa.gov/citations/19730003312
 [ref_helmbold]: https://en.wikipedia.org/wiki/Lift_coefficient
 [ref_ifa]: https://en.wikipedia.org/wiki/Military_Assistance_Program
 [ref_inconel]: https://en.wikipedia.org/wiki/Inconel
@@ -4230,6 +4310,7 @@ broke, namely an aircraft that existed and flew.
 [ref_lwf]: https://en.wikipedia.org/wiki/Lightweight_Fighter_program
 [ref_m61]: https://en.wikipedia.org/wiki/M61_Vulcan
 [ref_mach]: https://en.wikipedia.org/wiki/Mach_number
+[ref_mil_hdbk_5j]: https://everyspec.com/MIL-HDBK/MIL-HDBK-0001-0099/MIL_HDBK_5J_139/
 [ref_mockup]: https://en.wikipedia.org/wiki/Mockup
 [ref_normal_shock]: https://en.wikipedia.org/wiki/Shock_wave
 [ref_northrop]: https://en.wikipedia.org/wiki/Northrop_Corporation
@@ -4241,6 +4322,7 @@ broke, namely an aircraft that existed and flew.
 [ref_pressure_recovery]: https://en.wikipedia.org/wiki/Components_of_jet_engines
 [ref_recovery_factor]: https://en.wikipedia.org/wiki/Aerodynamic_heating
 [ref_skunk_works]: https://en.wikipedia.org/wiki/Skunk_Works
+[ref_sp468]: https://ntrs.nasa.gov/citations/19850023776
 [ref_specific_excess_power]: https://en.wikipedia.org/wiki/Rate_of_climb
 [ref_sr71]: https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird
 [ref_stanton]: https://en.wikipedia.org/wiki/Stanton_number
@@ -4255,6 +4337,7 @@ broke, namely an aircraft that existed and flew.
 [ref_usaf]: https://en.wikipedia.org/wiki/United_States_Air_Force
 [ref_usn]: https://en.wikipedia.org/wiki/United_States_Navy
 [ref_x27]: https://www.globalsecurity.org/military/systems/aircraft/x-27.htm
+[ref_x27_specs]: https://www.globalsecurity.org/military/systems/aircraft/x-27-specs.htm
 [ref_x28]: https://en.wikipedia.org/wiki/Osprey_Osprey_I
 [ref_yf16]: https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon
 [ref_yf17]: https://en.wikipedia.org/wiki/Northrop_YF-17

@@ -348,8 +348,8 @@ arithmetic and not on the physics.
 
 ### What the Whole System Multiplies
 
-The lift system's three contributors are the fan at twenty thousand pounds force, the three-bearing swivel
-module at eighteen thousand, and two roll posts at 1,950 pounds force each, giving
+The [lift system's three published contributors][ref_liftfan] are the fan at twenty thousand pounds force,
+the three-bearing swivel module at eighteen thousand, and two roll posts at 1,950 pounds force each, giving
 
 $$T_{\text{total}} = 20{,}000 + 18{,}000 + 2 \times 1{,}950 = 41{,}900 \ \text{lbf}$$
 
@@ -443,8 +443,13 @@ military exit velocity between 550 and 650 metres per second,
 | 650 | 0.5697 | 140.5 | 2.00 |
 
 **Across the bracket the core jet presses between 1.69 and 2.00 times as hard as the fan does, and it does so at roughly three times the absolute temperature.**
-The fan's efflux leaves at ambient temperature plus the 46.8 kelvin the compression adds. The core's leaves
-at something near nine hundred kelvin.
+The fan's efflux leaves at ambient temperature plus the 46.8 kelvin the compression adds. For the fan
+pressure ratio $\Pi$ derived under The Torque Nobody Mentions, the isentropic relation gives the exit
+temperature directly,
+
+$$T_{\text{fan}} = T_0 \, \Pi^{\frac{\gamma - 1}{\gamma}} = 288.15 \times 1.693^{0.2857} = 334.9 \ \text{K}$$
+
+The core's leaves at something near nine hundred kelvin.
 
 **So the fan's contribution to the design is not only thrust. It is a large volume of cold air placed under the front of the aeroplane**,
 which does two things a hotter, faster jet cannot. It reduces the pressure and temperature the landing
@@ -613,7 +618,11 @@ twenty kilograms of carbon would raise its temperature by about 6,853 kelvin, wh
 vaporisation point of anything. The engagement therefore cannot be anywhere near power-limited.
 
 **Comparing the bound with the bracket says by how much.** Spreading the real dissipation over the quoted
-nine seconds gives a mean power between 1.9 and 3.7 percent of what the shaft could deliver.
+nine seconds and dividing by the bound's rate, which is half the shaft power, gives
+
+$$\frac{E_{\text{clutch}} / t}{\tfrac{1}{2} P} = \frac{E_{\text{clutch}}}{\tfrac{1}{2} P t} = \frac{1.82}{97.3} = 0.0187 \quad \text{to} \quad \frac{3.64}{97.3} = 0.0374$$
+
+across the inertia bracket, so the mean dissipation is between 1.9 and 3.7 percent of the most the shaft could feed into the clutch.
 **The nine seconds is not the time the energy requires. It is the time the heat requires**, and the
 difference between those two statements is the whole reason a mode change on this aircraft is a deliberate,
 scheduled event, not the flick of a switch.
@@ -813,7 +822,7 @@ The losses are 3.354, 6.490, 9.430 and 14.786 percent respectively.
 
 $$\Delta T_{\text{crit}} = T_{\text{amb}} \left(\frac{F_{\text{total}}}{W} - 1\right) = 288.15 \times 0.2324 = 66.95 \ \text{K}$$
 
-**The X-35B could tolerate a 66.95 kelvin inlet temperature rise before it could no longer hold itself up.**
+**At 34,000 pounds the X-35B could tolerate a 66.95 kelvin inlet temperature rise before it could no longer hold itself up.**
 That single number is what the cold fan buys. It is why the architecture places a large volume of ambient
 air between the hot core efflux and the inlets rather than treating ingestion as something to be managed
 afterwards,
@@ -847,7 +856,7 @@ aircraft carrying the carrier variant's larger wing and heavier structure.
 The demonstrators were [deliberately simpler than the production aircraft][ref_codeone]. They carried no
 weapons bays, no radar, no mission systems and no low-observable treatment of the kind the product would
 need, and they used off-the-shelf components wherever schedule allowed.
-**The published empty weight of 26,500 pounds and maximum takeoff weight of fifty thousand pounds belong to a machine built to answer a question, not to fight.**
+**The [published empty weight of 26,500 pounds and maximum takeoff weight of fifty thousand pounds][ref_x35] belong to a machine built to answer a question, not to fight.**
 
 - [Launching and Landing of Carrier Aircraft. Part 3. a...][research_kansasunivlawrence_1952_b]
 - [Weight, Balance and Moment of Inertia Calculations for...][research_wickman_1953]
@@ -868,8 +877,10 @@ need, and they used off-the-shelf components wherever schedule allowed.
 ### The Three-Bearing Swivel Module
 
 The rear nozzle redirects the core exhaust downward through a jointed pipe whose three canted bearings,
-rotated relative to one another, sweep the nozzle through ninety-five degrees in 2.5 seconds, a rate of 38.0
-degrees per second.
+rotated relative to one another, [sweep the nozzle through ninety-five degrees in 2.5 seconds][ref_liftfan], a
+mean slew rate of
+
+$$\dot{\delta} = \frac{\Delta \delta}{\Delta t} = \frac{95^{\circ}}{2.5 \ \text{s}} = 38.0 \ \text{deg/s}$$
 **The elegance is that a purely rotational mechanism produces a large angular deflection**, so the sealing
 problem is a set of rotating joints rather than a set of sliding ones, at a station carrying the full core
 efflux.
@@ -974,7 +985,8 @@ for one region of the envelope rather than adjustable across it. For a demonstra
 
 ### Roll Posts and Control Power
 
-Bleed from the engine's fan is ducted to nozzles in each wing, giving 1,950 pounds force each.
+Bleed from the engine's fan is ducted to nozzles in each wing, giving 1,950 pounds force each, which is half
+of the [3,900 pounds force published for the pair combined][ref_liftfan].
 **In a hover an aeroplane has no aerodynamic control at all**, so every axis must be held by thrust
 modulation. Pitch comes from splitting thrust between the lift fan and the rear nozzle, yaw from vectoring
 the rear nozzle laterally, and roll from the posts.
@@ -1265,8 +1277,7 @@ never supersonic. The Yak-141 was supersonic and hovered, using two dedicated li
 exhausting through a **three-bearing swivel nozzle**.
 
 **That last phrase should stop a reader, because it is the X-35's rear nozzle.** Lockheed and Yakovlev
-entered a commercial agreement in the early 1990s under which Lockheed provided funding in exchange for
-design data, and the resemblance between the two swivel modules is close and widely noted.
+entered a [partnership in 1991 for further development of the Yak-141][ref_yak141], and the resemblance between the two swivel modules is close and widely noted.
 **How much of the X-35's nozzle descends from that arrangement is disputed and this article does not attempt to settle it**,
 but the concept was not invented at Palmdale and the article would be misleading if it implied otherwise.
 **The shaft-driven lift fan is the genuinely new idea. The nozzle behind it has a longer history.**
@@ -1316,7 +1327,7 @@ occurrence of each capability marked, does something no summary of Mission X doe
 | 9 July | [In-flight conversion to hovering mode, aerial refuelling, and Mach 1.08, in one sortie][ref_lm_conversion] | **Yes, and this is the hard one** |
 | 16 July | [Short takeoff, wingborne to jet-borne transition, vertical landing][ref_lm_shorttakeoff] | Short takeoff, yes |
 | 20 July | **Mission X**, short takeoff, Mach 1.05, vertical landing | **No. Nothing on this sortie was new** |
-| 26 July | Mission X repeated at over 34,000 pounds | No |
+| 26 July | [Mission X repeated, then a sixty-knot short takeoff ending in a vertical landing at over 34,000 pounds][ref_lm_completion] | No |
 | 30 July | [Campaign complete][ref_lm_completion] | |
 
 **By 16 July the aircraft had already flown every element of Mission X.** It had converted between modes in
@@ -1360,56 +1371,86 @@ from what the reputation implies.
 
 ### The Short Takeoff, Reconstructed
 
-The 26 July repetition is documented well enough to be rebuilt. The aircraft weighed over 34,000 pounds,
-used approximately five hundred feet of runway, and left the ground at about sixty knots. The 20 July flight
-left the ground at about eighty knots.
+Two short takeoffs are documented well enough to be examined. On 20 July the Mission X takeoff
+[left the ground at about eighty knots][ref_lm_completion], and the
+[pilot's own account][ref_tomassetti] adds that this came after only 200 feet, at which point he vectored
+the thrust to 60 degrees and the aircraft left the ground. A short takeoff flown on 26 July, on the flight
+after that day's Mission X repetition,
+[used approximately five hundred feet of runway and left the ground at about sixty knots, and the same
+flight ended in a vertical landing at an aircraft weight of more than 34,000 pounds][ref_lm_completion].
+That aircraft therefore weighed more than 34,000 pounds at takeoff. No Mission X weight is published, and
+the section headed The Takeoff Did Not Have to Be Short bounds it between 30,000 and 41,500 pounds.
 
 **At unstick the weight is carried by two things, and only two.** Writing $L$ for wing lift, $T_v$ for
-whatever the lift system points downward and $W$ for weight,
+whatever the lift system points downward and $W$ for weight, an aircraft leaves the ground once
 
-$$W = L + T_v = \tfrac{1}{2} \rho V^{2} S C_L + T_v$$
+$$L + T_v \ge W, \qquad L = \tfrac{1}{2} \rho V^{2} S C_L$$
 
-With the rear nozzle pointing aft, the fixed vertical contribution is the fan and the roll posts alone,
+The fan and the roll posts point downward whatever the rear nozzle does,
 
-$$T_v = 20{,}000 + 2 \times 1{,}950 = 23{,}900 \ \text{lbf}$$
+$$T_f = 20{,}000 + 2 \times 1{,}950 = 23{,}900 \ \text{lbf}$$
 
-**That fixed vertical contribution is 23,900 pounds force, which is 70.3 percent of the aircraft's weight.**
-The wing therefore has to find only the remaining 10,100 pounds force, and at eighty knots over 41.81 square
-metres of wing that requires
+and a rear nozzle of thrust $T_r$ deflected by $\theta$ below the horizontal adds $T_r \sin\theta$.
+**Taking the rear nozzle as delivering its published 18,000 pounds force at eighty knots, which is an
+assumption and is labelled as one**, the Mission X vectoring to 60 degrees gives
 
-$$C_L = \frac{10{,}100 \times 4.448}{\tfrac{1}{2} \times 1.225 \times 41.16^{2} \times 41.81} = 1.036$$
+$$T_v = T_f + T_r \sin\theta = 23{,}900 + 18{,}000 \sin 60^{\circ} = 23{,}900 + 15{,}588 = 39{,}488 \ \text{lbf}$$
 
-**A lift coefficient of 1.036 at unstick is unremarkable for a fighter wing at a moderate angle of attack, and that is the point.**
-The eighty-knot unstick is fully explained by the fan carrying seven tenths of the aeroplane and the wing
-carrying three tenths at an ordinary lift coefficient.
+At eighty knots over 41.81 square metres of wing the dynamic pressure times area is
 
-**The sixty-knot takeoff then follows without any new assumption.** At sixty knots the same wing at the same
-coefficient supplies
+$$\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 41.156^{2} \times 41.81 = 43{,}376 \ \text{N} = 9{,}751 \ \text{lbf}$$
 
-$$L_{60} = \tfrac{1}{2} \rho V^{2} S C_L = \tfrac{1}{2} \times 1.225 \times 30.87^{2} \times 41.81 \times 1.036 = 25{,}271 \ \text{N}$$
+so the lift coefficient the record requires is at most what the heaviest weight in the bracket demands,
 
-which is 5,681 pounds force, or 16.71 percent of the weight, so the rear nozzle must be deflected to make up
-the difference, and the angle required is
+$$C_L \ge \frac{W - T_v}{\tfrac{1}{2} \rho V^{2} S} = \frac{41{,}500 - 39{,}488}{9{,}751} = 0.206$$
 
-$$\theta = \arcsin\!\left(\frac{34{,}000 - 23{,}900 - 5{,}681}{18{,}000}\right) = 14.21^{\circ}$$
+**The record cannot pin a lift coefficient, and this is the finding.** At any weight up to 39,488 pounds the
+vectored lift system alone exceeds the weight and the required coefficient is zero or negative, and even at
+the ceiling of the bracket the wing need supply no more than a coefficient of 0.206. A Mission X unstick at
+eighty knots with the nozzle at 60 degrees is consistent with almost any wing lift at all, because the lift
+system was carrying nearly the whole aircraft.
 
-**The two takeoffs differ by about fourteen degrees of nozzle.** That is the entire difference between the
-eighty-knot and the sixty-knot cases, and it is a small deliberate movement of one control.
+**The 26 July takeoff can be read the same way, and it too leaves the coefficient open.** At sixty knots
 
-### The Same Balance Read Upwards Gives the Conversion Corridor
+$$\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 30.867^{2} \times 41.81 = 24{,}399 \ \text{N} = 5{,}485 \ \text{lbf}$$
 
-**The relation that explains the takeoff also explains the choice of conversion speed, and this is the cheapest result in the article because it is the same equation read the other way.**
-Setting the wing lift equal to the whole weight rather than to part of it,
+and the deflection that balances the weight at unstick is
 
-$$V_{\text{wb}} = \sqrt{\frac{2W}{\rho S C_L}} = \sqrt{\frac{2 \times 151{,}240}{1.225 \times 41.81 \times 1.036}} = 75.5 \ \text{m/s}$$
+$$\sin\theta = \frac{W - T_f - C_L \, \tfrac{1}{2} \rho V^{2} S}{T_r}$$
 
-**which is 146.8 knots.** Above that speed the wing carries the aeroplane unaided and the lift system is not
-needed for lift at all.
+which depends on both the unpublished weight and the unknown coefficient,
 
-**The X-35B made its first in-flight conversion at 180 knots**, comfortably above it. That is the safest
-place to engage a lift fan, because a failure of the engagement leaves an aircraft that is already flying.
+| Weight, lb | Deflection at $C_L = 0$ | Deflection at $C_L = 0.5$ | Deflection at $C_L = 1.0$ |
+|---|---|---|---|
+| 34,000, the documented floor for that flight | 34.13 degrees | 24.13 degrees | 14.86 degrees |
+| 41,500, the ceiling of the bracket | 77.90 degrees | 55.63 degrees | 42.31 degrees |
+
+**Every entry is inside the swivel module's ninety-five degrees**, so at every weight in the bracket the
+lift system could have balanced the aircraft at sixty knots with no help from the wing. What the record
+does not say is how far the nozzle actually moved on 26 July, and the one deflection it does record, the
+60 degrees of Mission X, is larger than most of the table requires.
+
+### The Conversion Corridor, Read From the Record
+
+**The conversion speed does not need the unstick coefficient, because the record answers it directly.**
+On 9 July the aircraft
+[climbed to 9,000 feet and engaged the lift fan at 180 knots][ref_lm_conversion], flying conventionally
+until that moment, so the wing was carrying the whole weight when the fan engaged. Evaluating at sea-level
+density, as the momentum drag figure also does, which is an assumption, the coefficient the wing was flying
+at follows from
+
+$$C_L = \frac{W}{\tfrac{1}{2} \rho V^{2} S}, \qquad \tfrac{1}{2} \times 1.225 \times 92.6^{2} \times 41.81 = 219{,}588 \ \text{N} = 49{,}365 \ \text{lbf}$$
+
+which for any weight between the empty 26,500 pounds and the 41,500 pounds of a full internal fuel load is
+
+$$C_L = \frac{26{,}500}{49{,}365} = 0.537 \quad \text{to} \quad \frac{41{,}500}{49{,}365} = 0.841$$
+
+**The X-35B made its first in-flight conversion where lift was already free.** That is the safest place to
+engage a lift fan, because a failure of the engagement leaves an aircraft that is already flying.
 **And it is still the point at which the momentum drag computed earlier is at its largest.** The conversion
 was flown where lift was free and drag was most expensive, which is the right trade and not an obvious one.
+The speed below which the wing could not have carried the aircraft unaided depends on the wing's usable
+lift coefficient, which no source gives, so this article does not state one.
 
 - [Influence of Tire Tread Pattern and Runway Surface Condition...][research_hornewalterb_lelandtraffordjw_1962]
 - [Influence of tire tread pattern and runway surface condition...][research_influence_of_1963]
@@ -1424,52 +1465,111 @@ was flown where lift was free and drag was most expensive, which is the right tr
 - [Tire Rolling Resistance Measurements From Coast-Down Tests][research_dayman_1976]
 - [A Note on Tire Rolling Resistance Due to Test Wheel Curvature][research_bekker_semonin_1977]
 
-### The Ground Roll, Which Does Not Close Without an Admission
+### The Ground Roll, and a Figure That Cannot Be Right
 
-Running the same configuration forward through the ground roll is where a discrepancy appears. With the
-nozzle at 14.21 degrees the horizontal component is 17,449 pounds force, and the equation of motion is
+**The 200 foot figure does not survive the arithmetic.** Reaching eighty knots from rest in 200 feet takes
+a mean acceleration of
 
-$$m \frac{dV}{dt} = T_r \cos\theta - \mu \left(W - T_v\right) - \tfrac{1}{2} \rho V^{2} S C_{D_0}$$
+$$\bar{a} = \frac{V^{2}}{2 s} = \frac{41.156^{2}}{2 \times 60.96} = 13.89 \ \text{m/s}^{2} = 1.417 \, g$$
+
+and even if every pound of the lift system's published thrust pointed aft, with no drag and no rolling
+friction, the lightest weight in the bracket allows at most
+
+$$\frac{a_{\max}}{g} = \frac{T_{\text{total}}}{W} = \frac{41{,}900}{30{,}000} = 1.397$$
+
+In fact only the rear nozzle points aft during a roll, and its 18,000 pounds force at that weight gives a
+frictionless, dragless minimum of
+
+$$s_{\min} = \frac{V^{2}}{2 g \, T_r / W} = \frac{41.156^{2}}{2 \times 9.80665 \times 0.6} = 143.9 \ \text{m} = 472 \ \text{ft}$$
+
+**So the 200 feet and the eighty knots cannot both describe a roll from brake release.** The account was
+written for a general readership after the event, and one of the two figures, or what the distance was
+measured from, must differ from what the printed sentence says. The press release figure for that flight is
+the speed alone, and this article relies on the speed.
+
+**The 26 July roll does close, and it leaves a margin.** Taking the nozzle as pointing aft during the roll
+and moving only at unstick, which is what the Mission X account describes and is an assumption for 26 July,
+the equation of motion is
+
+$$m \frac{dV}{dt} = T_r \cos\theta - \mu \left(W - T_v\right) - \tfrac{1}{2} \rho V^{2} S C_{D_0}, \qquad \theta = 0$$
 
 Writing $A$ for the constant part of the acceleration and $B$ for the quadratic drag coefficient divided by
 mass, this integrates in closed form to
 
 $$s = \frac{1}{2B} \ln\!\left(\frac{A}{A - B V^{2}}\right)$$
 
-and substituting $A = 4.984$ and $B = 4.151 \times 10^{-5}$ gives
+and at the 34,000 pound floor for that flight, substituting $A = 5.104$ and $B = 4.151 \times 10^{-5}$,
 
-$$s_{\min} = 95.97 \ \text{m} = 314.9 \ \text{ft}$$
+$$s_{\min} = 93.69 \ \text{m} = 307.4 \ \text{ft}$$
 
-**That minimum stands against a quoted five hundred.** The quoted roll is 1.588 times the minimum, which corresponds to an
-achieved acceleration of 0.3187 times gravity against an available 0.506.
+The quoted roll $s_q$ needs a mean acceleration of
 
-**The gap is real and it is not an error in the reconstruction.** Only about 63 percent of the available
-horizontal thrust appears in the quoted distance. Thrust build-up from brake release accounts for part of
-it, and a progressive rather than instantaneous nozzle movement accounts for more.
+$$\bar{a} = \frac{V^{2}}{2 s_q} = \frac{30.867^{2}}{2 \times 152.4} = 3.126 \ \text{m/s}^{2} = 0.3187 \, g$$
 
-**But the honest reading of the gap is the interesting one, and it is the second finding of this section.**
-Acceleration was not scarce. An aircraft that can reach its unstick speed in 315 feet and takes 500 is not
-straining, and there is no reason it should have been strained, because of the number in the next paragraph.
+against the acceleration available, which is $A$ less the drag term evaluated at half the squared unstick
+speed,
+
+$$a_{\text{avail}} = A - \tfrac{1}{2} B V^{2}$$
+
+Across the weight bracket for that flight,
+
+| Weight, lb | $A$, m/s² | $B$, 1/m | Minimum roll, ft | Quoted over minimum | Available, $g$ | Share used |
+|---|---|---|---|---|---|---|
+| 34,000 | 5.104 | 4.151 × 10⁻⁵ | 307.4 | 1.627 | 0.518 | 0.615 |
+| 41,500 | 4.129 | 3.401 × 10⁻⁵ | 380.0 | 1.316 | 0.419 | 0.760 |
+
+where the share used is $\bar{a} / a_{\text{avail}}$. **The quoted five hundred feet is longer than the
+minimum at every weight in the bracket**, by a factor between 1.316 and 1.627, so between 61.5 and 76.0
+percent of the available horizontal thrust appears in the quoted distance. Thrust build-up from brake
+release accounts for part of the gap.
+
+**Acceleration was not scarce.** An aircraft that can reach its unstick speed in between 307 and 380 feet
+and takes 500 is not straining, and there is no reason it should have been strained, because of the number
+in the next paragraph.
 
 ### The Takeoff Did Not Have to Be Short
 
-**Total vertical thrust is 41,900 pounds force and the aircraft weighed 34,000 pounds.**
-
-$$\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232$$
-
-**At the weight it flew Mission X, the X-35B could have taken off vertically.** It had done so eighteen
-times. The weight at which vertical thrust exactly equals weight follows immediately,
+**Total vertical thrust is 41,900 pounds force, and the weight it can exactly hold up follows immediately,**
 
 $$W_{\max} = \frac{T_{\text{total}}}{g} = \frac{186{,}381}{9.80665} = 19{,}006 \ \text{kg} = 41{,}900 \ \text{lb}$$
 
-**and the aircraft was nearly eight thousand pounds below it at the start of the sortie.** The numerical
-coincidence between the weight limit in pounds and the thrust in pounds force is an artefact of the unit
-system rather than a result.
+The numerical coincidence between the weight limit in pounds and the thrust in pounds force is an artefact
+of the unit system rather than a result. At the 34,000 pounds the aircraft is documented to have weighed
+on the 26 July flight, the margin is
 
-**So the short takeoff in Mission X was a demonstration of a technique rather than the relief of a constraint.**
-A short takeoff exists in the operational requirement because the aeroplane that matters will be heavier
-than its vertical thrust, and will need wing lift to get airborne with a useful load. The demonstrator was
-not in that condition on 20 July, and neither the flight nor the arithmetic claims it was.
+$$\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232$$
+
+**so at that weight the X-35B could have taken off vertically.** It had done so eighteen times.
+
+**No takeoff weight or fuel state for Mission X itself has been published.** The
+[pilot's own account][ref_tomassetti] records that the sortie followed a familiarisation flight and a hot
+refuelling, and that by the end fuel and time were short enough that the last set of test points was
+dropped. The weight is therefore bounded rather than known. Its floor is the
+[empty weight of 26,500 pounds][ref_x35] plus the fuel the sortie burned, since the aircraft must have
+carried at least that much, and its ceiling is the empty weight plus the
+[15,000 pounds of internal fuel][ref_x35] the aircraft could hold. Taking that burn as 3,500 pounds,
+which is an assumption and is labelled as one, and neglecting the pilot and the test instrumentation, both
+of which add to every weight in the bracket,
+
+$$W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 26{,}500 + 3{,}500 = 30{,}000 \ \le \ W_{\text{TO}} \ \le \ 26{,}500 + 15{,}000 = 41{,}500 \ \text{lb}$$
+
+At the ceiling the margin is
+
+$$\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{41{,}500} = 1.0096$$
+
+**which is less than one percent, and smaller than the 3.354 percent of thrust that the corrected-flow
+relation above removes for a ten kelvin inlet temperature rise.** Every X-35B vertical takeoff, hover and
+landing was also
+[flown at 2,500 feet elevation in temperatures up to 94 degrees Fahrenheit][ref_lm_conversion], conditions
+that the sea-level standard thrust does not describe.
+
+**So the claim holds only in a narrowed form.** At 34,000 pounds, and at any Mission X takeoff weight well
+short of full internal fuel, the X-35B could have taken off vertically, and the short takeoff demonstrated a
+technique rather than relieving a constraint. Near full internal fuel the sea-level margin is smaller than
+what temperature and elevation plausibly consume, and the record does not say how much fuel Mission X
+carried. A short takeoff exists in the operational requirement because the aeroplane that matters will be
+heavier than its vertical thrust, and will need wing lift to get airborne with a useful load. The record does
+not show the demonstrator in that condition on 20 July, and it does not exclude it.
 
 - [Military The U.S. Navy bets on V/STOL Integrating...][research_steele_aurora_1978]
 - [Airworthiness and Flight Characteristics Test, OV-1C Takeoff...][research_smith_yamakawa_1979]
@@ -1550,9 +1650,10 @@ $$T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 
 thrust available runs from 24,711 down to 17,925 pounds force and the ratio of thrust to drag from 2.589 to
 1.878, so the margin survives the whole range. Taking the build-up rather than the lumped coefficient,
 
-$$\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216$$
+$$\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216 \qquad \text{or} \qquad \frac{D}{T} = \frac{10{,}289}{22{,}805} = 0.451$$
 
-**against 2.389 from a lumped coefficient of 0.035, which would have given a drag of 9,546 pounds force.**
+so holding the dash uses 45.1 percent of the thrust available.
+**The ratio of 2.216 stands against 2.389 from a lumped coefficient of 0.035, which would have given a drag of 9,546 pounds force.**
 The two estimates differ by eight percent and neither is close to the value that would make Mach 1.05
 difficult.
 
@@ -1629,18 +1730,31 @@ previous sortie had already reached Mach 1.08.
 
 ### The Vertical Landing Was the Easiest of the Three
 
-**The vertical landing came last, which means it came at the lowest weight of the day.** Every pound of fuel
-burned during the climb, the dash and the recovery is a pound the lift system does not have to hold up.
+**The vertical landing came last, which means it came at the lowest weight of the sortie.** Every pound of
+fuel burned during the climb, the dash and the recovery is a pound the lift system does not have to hold up.
 
-Taking a sortie fuel burn of 3,500 pounds, which is an assumption and is labelled as one,
+With the same assumed burn of 3,500 pounds the landing weight is $W_{\text{land}} = W_{\text{TO}} - W_{\text{fuel}}$,
+and the ordering improves the margin by the factor
 
-$$W_{\text{land}} = W_{\text{TO}} - W_{\text{fuel}} = 34{,}000 - 3{,}500 = 30{,}500 \ \text{lb}$$
+$$\frac{T_{\text{total}} / W_{\text{land}}}{T_{\text{total}} / W_{\text{TO}}} = \frac{W_{\text{TO}}}{W_{\text{TO}} - W_{\text{fuel}}}$$
 
-and the margin becomes
+which needs no thrust figure at all. Across the takeoff-weight bracket of the previous section,
 
-$$\frac{41{,}900}{30{,}500} = 1.374$$
+| Takeoff weight, lb | Takeoff margin | Landing weight, lb | Landing margin | Gain from the ordering |
+|---|---|---|---|---|
+| 30,000, the floor | 1.397 | 26,500 | 1.581 | 1.132 |
+| 34,000, the documented 26 July weight | 1.232 | 30,500 | 1.374 | 1.115 |
+| 41,500, the ceiling | 1.010 | 38,000 | 1.103 | 1.092 |
 
-**against 1.232 at takeoff, a gain of 1.115 from the ordering alone.**
+**The ordering argument survives across the whole bracket.** The landing is always the lightest point of the
+sortie, the gain from the ordering runs from 1.092 to 1.132, and the landing margin never falls below 1.103.
+Even after the 3.354 percent loss of a ten kelvin inlet rise it remains above unity,
+
+$$\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T} = \frac{41{,}900}{38{,}000} \times \frac{288.15}{298.15} = 1.066$$
+
+What the bracket removes
+is the single figure. A gain of 1.115 belongs to a 34,000 pound takeoff, a weight documented for a different
+flight, and not to Mission X.
 
 **The three events were flown in the order that makes each of them easiest.** The short takeoff came first,
 when the aircraft was heaviest and a rolling start was most useful. The supersonic dash came in the middle,
@@ -1685,9 +1799,11 @@ a vertical-landing aircraft capable of supersonic flight without reconfiguration
 earlier. **What was new on 20 July 2001 was the sequence in one sortie, not the capability.**
 
 **It is not evidence that any of the three regimes was individually difficult for this aircraft, because the arithmetic says none of them was.**
-The short takeoff was flown by an aeroplane that could have gone straight up. The supersonic dash raised the
+The short takeoff was flown by an aeroplane that could have gone straight up unless it carried nearly full internal
+fuel, which the record does not say. The supersonic dash, as computed
+under The Supersonic Leg Was Thermally Free, raised the
 stagnation temperature by three kelvin over a sea-level standard day and used 45.1 percent of the thrust
-available. The vertical landing happened at the lightest the aircraft had been all day.
+available. The vertical landing happened at the lightest the aircraft had been on that sortie.
 
 **And the sortie was not where the engineering risk was retired.** Every element had been flown already, the
 first in-flight conversion had happened on 9 July, and that sortie went faster.
@@ -1851,8 +1967,8 @@ the vehicles doing that now are electric.
 
 The modern vocabulary is **boundary layer ingestion**, **distributed propulsion installation** and
 **the tiltrotor or tiltwing conversion corridor**. The last of those is the closest analogue, because a
-conversion corridor is exactly what this article computed when it found the fully wing-borne speed at 146.8
-knots and observed that the X-35B converted well above it.
+conversion corridor is exactly what this article examined when it found that the X-35B engaged its fan at
+180 knots while flying conventionally, with the wing already carrying the whole weight.
 **An electric vehicle with many rotors faces the same trade between converting early, where the lift system must carry weight, and converting late, where it must absorb drag.**
 
 - [Lift Computation Through Crossflow Measurement Behind a...][research_lin_lee_2022]
@@ -6027,9 +6143,10 @@ assumptions moved should be set out explicitly.
 | Fan polar moment of inertia, 25 to 50 kg·m² | Clutch energy magnitude | No. The halving identity is exact and the time constant is under a fifth of a second across the bracket |
 | Stage loading coefficient of 0.40 | Estimating fan speed | Weakly. Every threshold in the counter-rotation table is an ordinary fan speed regardless |
 | Roll-post arm, 2.5 to 4.0 m | Counter-rotation threshold | No. The conclusion is stated across the whole bracket |
-| Zero-lift drag 0.025, rolling friction 0.03 | Ground roll | Slightly. The gap between 315 and 500 feet is far larger than these move it |
+| Zero-lift drag 0.025, rolling friction 0.03, nozzle aft until unstick | Ground roll | Slightly. The minimum of 307 to 380 feet stays well short of 500 across the weight bracket |
+| Rear nozzle at its published 18,000 lbf at eighty knots | The Mission X unstick coefficient | No. The finding is that the record cannot pin a coefficient, and a smaller nozzle thrust only raises the bound of 0.206 |
 | Transonic drag coefficient 0.035 | Dash thrust margin | No. The margin is 2.389 and would survive a doubling |
-| Sortie fuel burn of 3,500 lb | Landing weight margin | Yes, and the assumption-free statement is given beside it, being a weight limit of 41,900 pounds |
+| Sortie fuel burn of 3,500 lb | The floor of the takeoff-weight bracket and the landing weight margin | The gain figure, yes. The finding that the ordering helps does not, since the gain exceeds unity for any positive burn |
 | Fan to nozzle separation of 7.5 m | Moment arms and the centre-of-gravity band | Only for the arms in metres. **The station as a fraction, 0.4737, needs no separation at all** |
 | Thrust split authority of 10 percent | The pitching-moment threshold | Weakly. It sets the threshold height, and the finding is that the threshold is near a metre rather than far from it |
 | Radius of gyration at 0.20 to 0.25 of span | Roll control power | No. The bracket is reported and the residual after a single-rotation reaction is derisory across all of it |
@@ -9615,7 +9732,8 @@ rebuilt as the X-35B, which made its first vertical takeoff and landing on 23 Ju
 testing on 30 July 2001. On 9 July 2001 it performed its first in-flight conversion to hovering mode,
 refuelled in the air, and reached Mach 1.08 on the same sortie. On 16 July 2001 it flew a short takeoff, a
 transition and a vertical landing. On 20 July 2001 Major Art Tomassetti flew Mission X, and on 26 July 2001
-Simon Hargreaves repeated it at a weight over 34,000 pounds. The contract was awarded to Lockheed Martin on
+Simon Hargreaves repeated it, and on a later flight that day landed vertically at a weight over 34,000
+pounds. The contract was awarded to Lockheed Martin on
 26 October 2001. The lift system's published figures are a fifty-inch two-stage counter-rotating fan
 producing twenty thousand pounds force from twenty-nine thousand shaft horsepower, a three-bearing swivel
 module passing eighteen thousand pounds force and rotating ninety-five degrees in 2.5 seconds, and roll
@@ -9630,8 +9748,13 @@ follow from the square-root law. The identity that a hovering jet's dynamic pres
 is exact. The identity that exactly half the energy drawn through a clutch engaging a stationary inertia is
 destroyed is exact and independent of the torque profile. The stagnation temperature of 291.2 kelvin at Mach
 1.05 and twenty-five thousand feet follows from the standard atmosphere and the energy equation. The unstick
-lift coefficient of 1.036, the nozzle deflection of 14.21 degrees and the minimum ground roll of 314.9 feet
-follow from the lift and momentum balances.
+force balance shows that the record cannot pin a wing lift coefficient, since the lift system
+vectored to 60 degrees carries all but at most a coefficient of 0.206 at the heaviest weight in the bracket.
+The 26 July nozzle deflection is therefore given as a table over weight and coefficient rather than as a
+single angle. The minimum ground roll of 307.4 to 380.0 feet follows from the momentum balance with the
+nozzle aft, and the 200 foot Mission X roll in the pilot's account is shown to be incompatible with an
+eighty-knot unstick at any weight in the bracket. The coefficient of 0.537 to 0.841 at the 180 knot
+conversion assumes sea-level density, as the momentum drag does.
 
 The momentum drag of 5,469 pounds force at 180 knots is the fan's mass flow times the true airspeed and is
 exact given that flow. The inlet temperature rise of 66.95 kelvin that consumes the hover margin is an
@@ -9653,7 +9776,9 @@ contemporary statements list every element as already flown four days earlier. T
 event was the in-flight conversion of 9 July is an inference of the same kind. That counter-rotation was
 necessary rather than merely desirable is an inference from an inverted threshold calculation across a
 bracket of assumed roll-post positions. That the short takeoff was a technique demonstration rather than a
-necessity follows from the thrust margin of 1.232 and is close to a deduction.
+necessity follows from the thrust margin of 1.232 at 34,000 pounds and is close to a deduction at that
+weight, but no Mission X takeoff weight is published, and at the ceiling of the bracket, empty weight plus
+full internal fuel, the margin is 1.0096 and the deduction fails.
 **That the conversion was the expensive event is an inference from the momentum drag**, which is a real
 force with a real magnitude, but the step from a large force to a hard piloting task is an inference and not
 a measurement, since no workload data for these sorties is public.
@@ -9698,15 +9823,16 @@ counter-rotating because a single-rotation fan of that power would have consumed
 aircraft's roll authority merely to stand still. Its exhaust is cold because the landing surface and the
 inlet both care more about temperature and pressure than about thrust, and the fan presses between half and
 three fifths as hard as the core does at a third of the absolute temperature.
-**That barrier is worth 66.95 kelvin of tolerable inlet temperature rise before the aircraft can no longer hold itself up.**
+**At 34,000 pounds that barrier is worth 66.95 kelvin of tolerable inlet temperature rise before the aircraft can no longer hold itself up.**
 
 **Mission X, the flight the aircraft is remembered for, was not where any of that was established.** Every
 element of it had been flown before 20 July 2001, the first in-flight conversion had happened eleven days
 earlier on a sortie that went faster, and the arithmetic shows that none of the three events was
-individually demanding for an aircraft with 41,900 pounds force of vertical thrust and a weight of 34,000.
-The short takeoff was flown by an aeroplane that could have gone straight up. The supersonic dash raised the
+individually demanding for an aircraft with 41,900 pounds force of vertical thrust at the 34,000 pounds it is
+documented to have weighed on 26 July. No Mission X weight is published, and the short takeoff was flown by
+an aeroplane that could have gone straight up unless it carried nearly full internal fuel. The supersonic dash raised the
 stagnation temperature 3.1 kelvin above a standard sea-level day. The vertical landing happened at the
-lightest weight of the sortie, in the ordering that makes it easiest.
+lightest weight of the sortie, in the ordering that makes it easiest at any takeoff weight in the bracket.
 
 **And the expensive event is not among the three.** Engaging the fan at the 180 knots the aircraft converted
 at costs 5,469 pounds force of momentum drag, which is 30.4 percent of everything the rear nozzle can
@@ -9907,6 +10033,7 @@ nobody remembers the date.
 - [Rolls-Royce LiftSystem][ref_liftfan]
 - [Short takeoff and vertical landing][ref_stovl]
 - [The X-35B in the National Air and Space Museum collection][ref_x35b]
+- [Tomassetti, Above and Beyond, Mission X, Air and Space Smithsonian, May 2002][ref_tomassetti]
 - [Yakovlev Yak-141][ref_yak141]
 
 [ref_bevilaqua]: https://en.wikipedia.org/wiki/Paul_Bevilaqua
@@ -9925,6 +10052,7 @@ nobody remembers the date.
 [ref_momentum]: https://en.wikipedia.org/wiki/Momentum_theory
 [ref_patent]: https://patents.google.com/patent/US5209428A/en
 [ref_stovl]: https://en.wikipedia.org/wiki/STOVL
+[ref_tomassetti]: https://www.smithsonianmag.com/air-space-magazine/above-amp-beyond-mission-x-27960302/
 [ref_x35]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-35
 [ref_x35b]: https://www.si.edu/object/lockheed-martin-x-35b-stovl:nasm_A20030172000
 [ref_xvehicles]: https://ntrs.nasa.gov/citations/20030067480

@@ -16,7 +16,7 @@ This is the seventy-second and last article in the [X-Planes series][related_pos
 
 **An X number began as a count of instruments and still mostly is one, and what changed around it can now be measured.** The first article of this series proposed that a research aircraft is an instrument built to measure one quantity that ground facilities cannot settle, and that the designation sequence is itself an object with measurable properties \[[X-Planes framing][related_post_a297_framing]\]. Seventy articles later the series holds a record for every design number from 1 to 76, and this article treats those records as data. **Each earlier article is read for a fixed set of facts, and each stated fact is taken from the article that states it, with its quotation.** What follows counts across those records instead of recalling them.
 
-**Five results carry the argument.** The first is that who flew aboard changed. Of the vehicles whose design crew the articles record, **19 of 27 that entered the series before 1990 carried a pilot, and 7 of 29 after it**, a difference Fisher's exact test puts at a two-sided probability of 0.00109 under the hypothesis of no change. The second is that the numbers almost always kept their order where the record can test it. Across the 23 research design numbers whose first allocation the register of allocations dates as the A model, which covers allocations from 1997 onward, Kendall's rank correlation between number and date is 0.984, **with exactly one pair out of order, the X-49 allocated after the X-50**. The third is that **every skip in the register's research series has a recorded cause, and the first of them was numerology in 2002**, when the number 50 was requested for a helicopter-aeroplane hybrid described as a fifty-fifty marriage, by the Defense Advanced Research Projects Agency, which is DARPA, in the register compiler's account and by Boeing in its own \[[X-49][related_post_a346_piasecki_x49]\] \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. The fourth is that allocations arrive in clusters. **The index of dispersion of entry years by decade is 2.90 to 3.18**, depending on how a number's entry year is dated, against 1 for a process without memory. The fifth is that **the numbers have recorded outcomes as well as authorised attempts since the first decade**. Of the 20 flown vehicles whose articles date both events, 5 were designated after their first flight, and the earliest of them is the X-9 of 1951, not the X-53 of 2006.
+**Five results carry the argument.** The first is that who flew aboard changed. Of the vehicles whose design crew the articles record, **20 of 28 that entered the series before 1990 carried a pilot, and 8 of 30 after it**, a difference Fisher's exact test puts at a two-sided probability of 0.00138 under the hypothesis of no change. The second is that the numbers almost always kept their order where the record can test it. Across the 23 research design numbers whose first allocation the register of allocations dates as the A model, which covers allocations from 1997 onward, Kendall's rank correlation between number and date is 0.984, **with exactly one pair out of order, the X-49 allocated after the X-50**. The third is that **every skip in the register's research series has a recorded cause, and the first of them was numerology in 2002**, when the number 50 was requested for a helicopter-aeroplane hybrid described as a fifty-fifty marriage, by the Defense Advanced Research Projects Agency, which is DARPA, in the register compiler's account and by Boeing in its own \[[X-49][related_post_a346_piasecki_x49]\] \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. The fourth is that allocations arrive in clusters. **The index of dispersion of entry years by decade is 2.90 to 3.18**, depending on how a number's entry year is dated, against 1 for a process without memory. The fifth is that **the numbers have recorded outcomes as well as authorised attempts since the first decade**. Of the 21 flown vehicles whose articles date both events, 5 were designated after their first flight, and the earliest of them is the X-9 of 1951, not the X-53 of 2006.
 
 **The purpose of the aeroplanes moved less clearly than their crews did.** The share of vehicles classified as built to measure a quantity falls from 48.3 percent before 1990 to 31.4 percent after it, which is the direction the first article predicted, **and the difference is not established at this sample size**, Fisher's test giving 0.204. That is the most important negative result here. The instrument model, the series' organising claim, did not stop describing the designation in any way the record can detect. **What changed demonstrably was who was aboard, who paid, and, twice, how the number was chosen.**
 
@@ -62,9 +62,9 @@ The first, called P2 here, takes the register's date of first allocation where t
 | Vehicle numbers built and not flown | 5 |
 | Vehicle numbers not built | 12 |
 | Vehicle numbers whose build state is unknown | 1 |
-| Design crew recorded as crewed | 27 |
+| Design crew recorded as crewed | 29 |
 | Design crew recorded as uncrewed | 30 |
-| Design crew not stated | 8 |
+| Design crew not stated | 6 |
 
 **The five articles without a vehicle are the X-39, the X-52, the X-58, the X-67 and the block from X-69 to X-75**, which together cover eleven numbers. The one vehicle whose build state is unknown is the X-63, whose article found it unknown whether any hardware was built \[[X-63][related_post_a360_abl_space_systems_x63]\].
 
@@ -272,8 +272,8 @@ where $q\_i$ is the share of the decade's sponsor mentions falling in class $i$.
 | Decade | Vehicle numbers | Sponsor classes named | Entropy in bits |
 |---|---|---|---|
 | 1940s | 4 | 4 | 1.75 |
-| 1950s | 15 | 3 | 1.12 |
-| 1960s | 6 | 5 | 2.12 |
+| 1950s | 15 | 3 | 1.30 |
+| 1960s | 6 | 5 | 2.05 |
 | 1970s | 2 | 2 | 1.00 |
 | 1980s | 2 | 2 | 0.92 |
 | 1990s | 9 | 7 | 2.35 |
@@ -281,29 +281,29 @@ where $q\_i$ is the share of the decade's sponsor mentions falling in class $i$.
 | 2010s | 5 | 4 | 1.84 |
 | 2020s | 7 | 5 | 2.17 |
 
-**The 1950s are the least diverse decade with more than a handful of entries**, 15 numbers whose sponsor mentions are almost all the Air Force with NACA alongside. Their 21 mentions are 14 Air Force, 6 NACA and 1 Navy, so
+**The 1950s are the least diverse decade with more than a handful of entries**, 15 numbers whose sponsor mentions are mostly the Air Force, with NACA and the Navy alongside. Their 24 mentions are 15 Air Force, 6 NACA and 3 Navy, so
 
-$$H\_{1950s} = - \left( \tfrac{14}{21} \log\_2 \tfrac{14}{21} + \tfrac{6}{21} \log\_2 \tfrac{6}{21} + \tfrac{1}{21} \log\_2 \tfrac{1}{21} \right) = 1.12 \ \text{bits}$$
+$$H\_{1950s} = - \left( \tfrac{15}{24} \log\_2 \tfrac{15}{24} + \tfrac{6}{24} \log\_2 \tfrac{6}{24} + \tfrac{3}{24} \log\_2 \tfrac{3}{24} \right) = 1.30 \ \text{bits}$$
 
 **Entropy grows with the number of classes as well as with their balance**, so the balance alone is measured by the evenness, the entropy divided by its maximum for the classes present, as Pielou defined it for biological collections \[[Pielou, The Measurement of Diversity in Different Types of Biological Collections, 1966][ref_pielou_1966]\],
 
 $$J' = \frac{H}{\log\_2 r}$$
 
-with $r$ the number of classes named. **The 1950s are also the least even decade, $J' = 0.704$, against 0.937 for the 2000s**, so the Air Force's dominance of the first dense period is a fact about balance and not only about the number of sponsors. **The 1990s and 2000s are the most diverse**, with seven classes each, because the period added DARPA, the Air Force Research Laboratory, foreign and joint offices and NASA as a leading sponsor of its own vehicles. The 2020s add the Space Force, which appears in the register's research rows exactly twice, both for the X-63 and X-64 \[[X-63][related_post_a360_abl_space_systems_x63]\]. **The entropy is a description of a small sample and no test is attached to it**, since a decade with eight sponsor mentions cannot carry one. What it shows is that the tripartite arrangement of the first decades had become a market of sponsors by the 1990s.
+with $r$ the number of classes named. **The 1950s are also the least even decade, $J' = 0.819$, against 0.937 for the 2000s**, so the Air Force's dominance of the first dense period is a fact about balance and not only about the number of sponsors. **The 1990s and 2000s are the most diverse**, with seven classes each, because the period added DARPA, the Air Force Research Laboratory, foreign and joint offices and NASA as a leading sponsor of its own vehicles. The 2020s add the Space Force, which appears in the register's research rows exactly twice, both for the X-63 and X-64 \[[X-63][related_post_a360_abl_space_systems_x63]\]. **The entropy is a description of a small sample and no test is attached to it**, since a decade with eight sponsor mentions cannot carry one. What it shows is that the tripartite arrangement of the first decades had become a market of sponsors by the 1990s.
 
 ## From a Pilot to Nobody Aboard
 
-**This is the change the record establishes most firmly.** The first article said the meaning of the prefix drifted from a crewed research aircraft to unmanned demonstrators and asked for the drift to be counted rather than asserted. The ledger records the design crew of 57 of the 65 vehicle numbers.
+**This is the change the record establishes most firmly.** The first article said the meaning of the prefix drifted from a crewed research aircraft to unmanned demonstrators and asked for the drift to be counted rather than asserted. The ledger records the design crew of 59 of the 65 vehicle numbers.
 
 | Entry before 1990 | Entry from 1990 |
 |---|---|
-| 19 crewed, 8 uncrewed | 7 crewed, 22 uncrewed |
+| 20 crewed, 8 uncrewed | 8 crewed, 22 uncrewed |
 
-The crewed share before 1990 is $\hat{\pi} = 19/27 = 70.4$ percent and from 1990 it is $7/29 = 24.1$ percent. Each proportion carries a 95 percent interval by the method of Wilson, which behaves well at small samples and near zero or one \[[Wilson, Probable Inference, the Law of Succession, and Statistical Inference, 1927][ref_wilson_1927]\],
+The crewed share before 1990 is $\hat{\pi} = 20/28 = 71.4$ percent and from 1990 it is $8/30 = 26.7$ percent. Each proportion carries a 95 percent interval by the method of Wilson, which behaves well at small samples and near zero or one \[[Wilson, Probable Inference, the Law of Succession, and Statistical Inference, 1927][ref_wilson_1927]\],
 
 $$\frac{\hat{\pi} + \dfrac{z^2}{2N} \pm z \sqrt{\dfrac{\hat{\pi}(1 - \hat{\pi})}{N} + \dfrac{z^2}{4N^2}}}{1 + \dfrac{z^2}{N}}$$
 
-with $z = 1.96$ and $N$ the sample size. **The intervals are 51.5 to 84.1 percent and 12.2 to 42.1 percent, and they do not overlap.** The exact test, which Fisher set out for the two-by-two table \[[Fisher, The Logic of Inductive Inference, 1935][ref_fisher_1935]\], asks how probable a table this lopsided would be if the crewed share had not changed. Holding the row and column totals of the two-by-two table fixed, which is the conditioning Fisher's earlier treatment of contingency tables made standard \[[Fisher, On the Interpretation of Chi-Square from Contingency Tables, 1922][ref_fisher_1922]\], the probability of exactly $a$ crewed vehicles in the early group is hypergeometric,
+with $z = 1.96$ and $N$ the sample size. **The intervals are 52.9 to 84.7 percent and 14.2 to 44.4 percent, and they do not overlap.** The exact test, which Fisher set out for the two-by-two table \[[Fisher, The Logic of Inductive Inference, 1935][ref_fisher_1935]\], asks how probable a table this lopsided would be if the crewed share had not changed. Holding the row and column totals of the two-by-two table fixed, which is the conditioning Fisher's earlier treatment of contingency tables made standard \[[Fisher, On the Interpretation of Chi-Square from Contingency Tables, 1922][ref_fisher_1922]\], the probability of exactly $a$ crewed vehicles in the early group is hypergeometric,
 
 $$\Pr(a) = \frac{\dbinom{a + b}{a} \dbinom{c + d}{c}}{\dbinom{N}{a + c}}$$
 
@@ -311,27 +311,27 @@ where $a$ and $b$ are the early crewed and uncrewed counts, $c$ and $d$ the late
 
 $$p = \sum\_{x \,:\, \Pr(x) \le \Pr(a)} \Pr(x)$$
 
-gives Fisher's two-sided probability of 0.00109. The size of the change is better stated as a difference in shares and as an odds ratio than as a probability. The difference is
+gives Fisher's two-sided probability of 0.00138. The size of the change is better stated as a difference in shares and as an odds ratio than as a probability. The difference is
 
-$$\hat{\pi}\_{\text{early}} - \hat{\pi}\_{\text{late}} = 0.704 - 0.241 = 0.462$$
+$$\hat{\pi}\_{\text{early}} - \hat{\pi}\_{\text{late}} = 0.714 - 0.267 = 0.448$$
 
 and the odds ratio, the odds of a crewed vehicle before 1990 divided by the odds after, is
 
-$$\psi = \frac{a d}{b c} = \frac{19 \times 22}{8 \times 7} = 7.46$$
+$$\psi = \frac{a d}{b c} = \frac{20 \times 22}{8 \times 8} = 6.88$$
 
 with a 95 percent interval by Woolf's method on the logarithmic scale \[[Woolf, On Estimating the Relation Between Blood Group and Disease, 1955][ref_woolf_1955]\],
 
-$$\exp\left( \ln \psi \pm 1.96 \sqrt{\tfrac{1}{a} + \tfrac{1}{b} + \tfrac{1}{c} + \tfrac{1}{d}} \right) = 2.28 \ \text{to} \ 24.4$$
+$$\exp\left( \ln \psi \pm 1.96 \sqrt{\tfrac{1}{a} + \tfrac{1}{b} + \tfrac{1}{c} + \tfrac{1}{d}} \right) = 2.17 \ \text{to} \ 21.8$$
 
 **A vehicle entering the series before 1990 had about seven times the odds of carrying a pilot**, and the interval excludes one by a wide margin.
 
-**The uncrewed vehicles of the two periods were different kinds of thing**, and separating them sharpens the result. The uncrewed X vehicles before 1990 were missiles, rockets and one subscale entry vehicle, the X-7, X-8, X-9, X-10, X-11, X-12, X-17 and X-23, and only the X-10 was an aeroplane. **Among aircraft alone, 17 of 18 before 1990 carried a pilot and 7 of 21 from 1990 did**, Fisher's test giving 0.000160, and the odds ratio is
+**The uncrewed vehicles of the two periods were different kinds of thing**, and separating them sharpens the result. The uncrewed X vehicles before 1990 were missiles, rockets and one subscale entry vehicle, the X-7, X-8, X-9, X-10, X-11, X-12, X-17 and X-23, and only the X-10 was an aeroplane. **Among aircraft alone, 18 of 19 before 1990 carried a pilot and 8 of 22 from 1990 did**, Fisher's test giving 0.000103, and the odds ratio is
 
-$$\psi\_{\text{aircraft}} = \frac{17 \times 14}{1 \times 7} = 34.0$$
+$$\psi\_{\text{aircraft}} = \frac{18 \times 14}{1 \times 8} = 31.5$$
 
-with a Woolf interval of 3.72 to 310, **wide because a single uncrewed aircraft before 1990, the X-10, is the whole of the early uncrewed cell.**
+with a Woolf interval of 3.51 to 282, **wide because a single uncrewed aircraft before 1990, the X-10, is the whole of the early uncrewed cell.**
 
-**Eight vehicles have no design crew in their articles**, and the most adverse reading assigns each of them against the finding, an early one counted uncrewed and a late one crewed. **Fisher's probability then rises to 0.044 for all vehicles and 0.00618 for aircraft**, so the conclusion does not depend on the readings the articles left open. **An independent compilation agrees wherever both say anything.** The register compiler's directory groups every unmanned military vehicle given an X designation after 1963 in one appendix, which lists 19 research numbers and notes the NASA-only X-33, X-34, X-38 and X-43 as outside its scope \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_dusrm_app4]\]. **The ledger codes 17 of the 19 uncrewed, none crewed, and leaves the X-41 and X-51 unstated**, and it codes all four NASA-only vehicles uncrewed. Reading the two unstated vehicles as the appendix does would add two uncrewed vehicles after 1990 and strengthen the result. The register's own descriptions agree from a third direction. The X-60 article counted 12 of the 30 research rows then in the register describing an uncrewed vehicle, and none carrying the Q symbol that marks a drone \[[X-60][related_post_a357_generation_orbit_x60]\]. **A research vehicle takes X and a number whether or not anyone is aboard**, which is the X-60 article's phrasing and is the answer to the question of what the prefix became in its first sense.
+**Six vehicles have no design crew in their articles**, and the most adverse reading assigns each of them against the finding, an early one counted uncrewed and a late one crewed. **Fisher's probability then rises to 0.014 for all vehicles and 0.00171 for aircraft**, so the conclusion does not depend on the readings the articles left open. **An independent compilation agrees wherever both say anything.** The register compiler's directory groups every unmanned military vehicle given an X designation after 1963 in one appendix, which lists 19 research numbers and notes the NASA-only X-33, X-34, X-38 and X-43 as outside its scope \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_dusrm_app4]\]. **The ledger codes 17 of the 19 uncrewed, none crewed, and leaves the X-41 and X-51 unstated**, and it codes all four NASA-only vehicles uncrewed. Reading the two unstated vehicles as the appendix does would add two uncrewed vehicles after 1990 and strengthen the result. The register's own descriptions agree from a third direction. The X-60 article counted 12 of the 30 research rows then in the register describing an uncrewed vehicle, and none carrying the Q symbol that marks a drone \[[X-60][related_post_a357_generation_orbit_x60]\]. **A research vehicle takes X and a number whether or not anyone is aboard**, which is the X-60 article's phrasing and is the answer to the question of what the prefix became in its first sense.
 
 ## What the Aeroplanes Were For
 
@@ -390,9 +390,9 @@ Writing $\Delta t$ for the interval from first flight to designation,
 
 $$\Delta t = t\_{\text{designation}} - t\_{\text{first flight}}$$
 
-a positive value means the aeroplane flew first. **Of the 20 vehicles that flew and whose articles date both events, 5 have $\Delta t > 0$**,
+a positive value means the aeroplane flew first. **Of the 21 vehicles that flew and whose articles date both events, 5 have $\Delta t > 0$**,
 
-$$\hat{\pi}\_{\Delta t > 0} = \frac{5}{20} = 0.250, \qquad \text{95 percent interval } 0.112 \text{ to } 0.469$$
+$$\hat{\pi}\_{\Delta t > 0} = \frac{5}{21} = 0.238, \qquad \text{95 percent interval } 0.106 \text{ to } 0.451$$
 
 and the three intervals the record dates to the day are
 
@@ -417,16 +417,16 @@ NASA's fact sheet for the X-53's programme dates its first research flights to l
 | What the comparison concluded | Vehicles that flew |
 |---|---|
 | flight confirmed the ground prediction | 7 |
-| flight confirmed part and contradicted part | 20 |
+| flight confirmed part and contradicted part | 22 |
 | flight contradicted the prediction outright | 0 |
-| the article compared nothing with flight | 15 |
-| no flight data reached the article | 5 |
+| the article compared nothing with flight | 14 |
+| no flight data reached the article | 4 |
 
-**No article recorded flight contradicting its ground prediction outright, and the commonest result is a mixed one**, 20 of 47. Among the 27 articles whose comparison reached flight data the mixed share is
+**No article recorded flight contradicting its ground prediction outright, and the commonest result is a mixed one**, 22 of 47. Among the 29 articles whose comparison reached flight data the mixed share is
 
-$$\hat{\pi}\_{\text{mixed}} = \frac{20}{27} = 0.741, \qquad \text{95 percent interval } 0.553 \text{ to } 0.868$$
+$$\hat{\pi}\_{\text{mixed}} = \frac{22}{29} = 0.759, \qquad \text{95 percent interval } 0.579 \text{ to } 0.878$$
 
-so a comparison that reached flight data more likely than not found part of the ground prediction wrong. A mixed verdict is the outcome the first article's information model predicts. A flight programme exists because some quantity is outside what ground facilities settle, and it is natural that it returns agreement on the quantities the facilities could settle and disagreement on the residue. **The number of comparisons that compared nothing, 15, is a fact about the record**. They are concentrated among the missile testbeds, the competitors and the uncrewed demonstrators, for which the public record holds flight dates and few flight measurements.
+so a comparison that reached flight data more likely than not found part of the ground prediction wrong. A mixed verdict is the outcome the first article's information model predicts. A flight programme exists because some quantity is outside what ground facilities settle, and it is natural that it returns agreement on the quantities the facilities could settle and disagreement on the residue. **The number of comparisons that compared nothing, 14, is a fact about the record**. They are concentrated among the missile testbeds, the competitors and the uncrewed demonstrators, for which the public record holds flight dates and few flight measurements.
 
 The contemporary literature supplies a clean instance of a mixed verdict on one of the series' own aeroplanes. **Six independent predictions of the X-56A's body freedom flutter all agreed with one another and all placed the flutter speed 10 to 20 knots above the speed the aeroplane measured** \[[Ouellette et al 2026][research_ouellette_massey_2026]\]. The methods agreed on the physics and disagreed with flight on the number, which is the residue a research aircraft exists to measure.
 
@@ -440,7 +440,7 @@ in bits, and the X-1 example in the first article, whose variance ratio was 400,
 
 $$I\_{\text{X-1}} = \frac{1}{2} \log\_2 400 = 4.32 \ \text{bits}$$
 
-on one number \[[X-Planes framing][related_post_a297_framing]\]. **The relation's lesson for a synthesis is that the series can show information returned only for the vehicles whose comparison reached flight data**, which is 27 of the 65 vehicle numbers, the confirmed and mixed rows together. The remainder are not failures of the model. Many of them flew and returned data that the public record does not report, and the model has nothing to measure them with.
+on one number \[[X-Planes framing][related_post_a297_framing]\]. **The relation's lesson for a synthesis is that the series can show information returned only for the vehicles whose comparison reached flight data**, which is 29 of the 65 vehicle numbers, the confirmed and mixed rows together. The remainder are not failures of the model. Many of them flew and returned data that the public record does not report, and the model has nothing to measure them with.
 
 ## The Pool Shared With the Drones
 
@@ -502,7 +502,7 @@ $$148 < \Lambda\_{\text{X-68A}} \le 165, \qquad 87 < \Lambda\_{\text{X-76A}} \le
 | clusters in the late 1940s and 1950s and the late 1990s and 2000s, with a gap in the 1970s and early 1980s | both clusters and the gap | confirmed |
 | the clusters track procurement and budget cycles | they coincide with new sponsors entering, which is institutional rather than budgetary | partly confirmed |
 | roughly two fifths of the designations support a full treatment | 47 of 76 numbers went to something that flew, about three fifths | the share of real flight vehicles is larger than predicted |
-| the prefix drifted from crewed research aircraft to unmanned demonstrators | crewed share from 70.4 to 24.1 percent, $p$ of 0.00109 | confirmed and measured |
+| the prefix drifted from crewed research aircraft to unmanned demonstrators | crewed share from 71.4 to 26.7 percent, $p$ of 0.00138 | confirmed and measured |
 | non-informational purposes rise over the period | measurement share from 48.3 to 31.4 percent, $p$ of 0.204 | not established |
 
 The two-fifths row needs a note. **The first article's two fifths was a prediction about how many articles could be written at full length**, and most articles did not record their class, so the row tests the nearest quantity the ledger holds, which is how many numbers went to something that flew,
@@ -523,7 +523,7 @@ The first article also asked whether the instrument model still describes what a
 
 **The tests are several, and each is reported at its own probability.** Seven probabilities are reported, four for the crewed share, one for the purpose share and two for the clustering. **The Bonferroni correction for seven tests multiplies the crewed result's probability by seven and errs on the side of caution** \[[Dunn, Multiple Comparisons Among Means, 1961][ref_dunn_1961]\],
 
-$$7 \times 0.00109 = 0.0077 < 0.01$$
+$$7 \times 0.00138 = 0.0097 < 0.01$$
 
 **and the result survives it**, while the purpose result was not significant before any correction. No other result in this article rests on a test.
 
@@ -657,7 +657,7 @@ The index of dispersion and its chi-square test, the Wilson intervals, Fisher's 
 
 ### Classification, Stated as Such
 
-**The keystone class of each vehicle and the reason a vehicle did not fly are classifications made by one reader per article**, and the purpose result rests on them. The crewed result rests on the articles' statements and on a rule that a missile or rocket carries nobody, and it survives the most adverse assignment of the eight vehicles whose crew is not stated.
+**The keystone class of each vehicle and the reason a vehicle did not fly are classifications made by one reader per article**, and the purpose result rests on them. The crewed result rests on the articles' statements and on a rule that a missile or rocket carries nobody, and it survives the most adverse assignment of the six vehicles whose crew is not stated.
 
 ### Inference
 
@@ -675,7 +675,7 @@ This article does not revisit any aircraft's engineering, which the seventy arti
 
 **The X designation began as a count of instruments, and it still mostly is one.** Sixty-five of its seventy-six numbers went to a vehicle, the numbers the register can test kept their order in every case but one, and the share of vehicles built to measure something did not fall in any way the record can detect. The first article's model of the research aircraft as an instrument describes about two fifths of the X vehicles across the whole series, and the record cannot show that it describes fewer of them now than it did in the 1950s.
 
-**What changed is who is aboard, who pays, who can read the description, and how the number is chosen.** Of the X vehicles whose crew is recorded, seven in ten carried a pilot before 1990, and nearly every aircraft among them did, and since 1990 about one in four has. The sponsors went from the Air Force and NACA to a spread of agencies and laboratories. The register stopped carrying the government's own description of each research aircraft after the X-60. **And the number went from being assigned to being chosen**, first quietly in 2002 for a pun on fifty-fifty, then openly in 2025 for 1776, by an agency announcing its choice as the news.
+**What changed is who is aboard, who pays, who can read the description, and how the number is chosen.** Of the X vehicles whose crew is recorded, seven in ten carried a pilot before 1990, and nearly every aircraft among them did, and since 1990 just over one in four has. The sponsors went from the Air Force and NACA to a spread of agencies and laboratories. The register stopped carrying the government's own description of each research aircraft after the X-60. **And the number went from being assigned to being chosen**, first quietly in 2002 for a pun on fifty-fifty, then openly in 2025 for 1776, by an agency announcing its choice as the news.
 
 **The series ends at a test the X-69 through X-75 article set** \[[X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]\]. The next research designation is the X-69A if the X-49 precedent governs, since a passed number was assigned to the next request in 2003, and the X-77A if the 2020 rule governs, since it defines the next number from the last approved one. **Whichever it is will say whether the X-76 was a skip or a new ceiling**, and so whether the designation is still a count with a celebration in it, or has become a sequence of chosen symbols. Seventy-one articles ago this series opened by saying that a research aircraft is a machine built to measure one thing. **The designation that marks it turned out to measure something too**, which is the institutions that kept it.
 

@@ -155,7 +155,13 @@ $$
 | 2025 | 5,200,000.00 dollars | 17.9 percent |
 | **All years** | **29,085,924.37 dollars** | **100.0 percent** |
 
-**Two contractors hold all of it.** Calspan takes 23,611,921.77 dollars, which is 81.2 percent, and Lockheed Martin takes 5,474,002.60 dollars, which is 18.8 percent. **The split follows the division of labour the press releases describe**, with the simulation system belonging to the laboratory and the airframe and the autonomy interface to the prime contractor \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\].
+**Two contractors hold all of it.** Calspan takes 23,611,921.77 dollars, which is 81.2 percent, and Lockheed Martin takes 5,474,002.60 dollars, which is 18.8 percent. Each share in this section, including the third column of the table above, is one subtotal divided by the whole.
+
+$$
+\rho_p = \frac{V_p}{V_{\text{all}}} , \qquad \rho_{\text{Calspan}} = \frac{23{,}611{,}921.77}{29{,}085{,}924.37} = 0.812 , \qquad \rho_{\text{Lockheed Martin}} = \frac{5{,}474{,}002.60}{29{,}085{,}924.37} = 0.188
+$$
+
+**The split follows the division of labour the press releases describe**, with the simulation system belonging to the laboratory and the airframe and the autonomy interface to the prime contractor \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\].
 
 ### The Redesignation Is Visible in the Money
 
@@ -167,7 +173,7 @@ $$
 
 **The first obligation after the redesignation came 31 days later**, being 1,350,000.00 dollars for the third phase of the simulation system upgrade \[[Contract FA930421F5020, VISTA Simulation System upgrade Phase III, Department of the Air Force to Calspan][ref_usa_vss3]\]. **The redesignation and the upgrade are the same event seen from two records.**
 
-**And the largest single obligation in the whole record is the most recent one.** 5,200,000.00 dollars were obligated on 30 September 2025, which is 17.9 percent of everything and falls 68 days before this article's date. **It is dated the last day of a fiscal year**, which is where a great deal of federal money moves and which this article notes without inferring anything from it.
+**And the largest single obligation in the whole record is the most recent one.** 5,200,000.00 dollars were obligated on 30 September 2025, which equals the 2025 row of the table and is therefore 17.9 percent of everything by the share relation above, and falls 68 days before this article's date. **It is dated the last day of a fiscal year**, which is where a great deal of federal money moves and which this article notes without inferring anything from it.
 
 **The record also carries 22 modifications obligating nothing and 5 deobligating a total of 68,585.40 dollars.** A zero-dollar modification is an administrative action against an open award and is a different object from spending, which is a distinction the previous article established and this record confirms.
 
@@ -346,7 +352,11 @@ $$
 \omega_n = \sqrt{\det A} , \qquad 2 \zeta \omega_n = - \operatorname{tr} A
 $$
 
-**The numbers below are representative rather than measured.** The host and the model are plausible short-period pairs chosen to make the arithmetic legible, the control effectivenesses are in the ratio a horizontal tail and a trailing-edge flap actually stand in, and **nothing in the conclusion depends on the particular values**, only on the fact that a tail makes much more moment than lift and a flap makes much more lift than moment. The published F-16 aerodynamic data is tabular and graphical rather than closed form \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\], so this article does not claim to have computed the aeroplane's own matrices.
+**The numbers below are representative rather than measured.** The host and the model are plausible short-period pairs chosen to make the arithmetic legible, the control effectivenesses are in the ratio a horizontal tail and a trailing-edge flap actually stand in, and **nothing in the conclusion depends on the particular values**, only on the fact that a tail makes much more moment than lift and a flap makes much more lift than moment. The published F-16 aerodynamic data is tabular and graphical rather than closed form \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\], so this article does not claim to have computed the aeroplane's own matrices. The host, the model and the two pitch controls are these, with the tail as the first column of the control matrix and the trailing-edge flap as the second.
+
+$$
+A = \begin{bmatrix} -1.20 & 1.00 \\ -8.00 & -1.50 \end{bmatrix} , \qquad A_m = \begin{bmatrix} -0.60 & 1.00 \\ 2.00 & -0.40 \end{bmatrix} , \qquad B = \begin{bmatrix} -0.09 & -0.20 \\ -9.00 & -1.00 \end{bmatrix}
+$$
 
 **Read through the relation above, the two matrices describe two quite different aeroplanes.** The host has a determinant of 9.8 per second squared, which is positive, so it is an ordinary oscillatory short period at **3.13 radians per second with a damping ratio of 0.431**, which is a damped period of 2.22 seconds. **The model's determinant is -1.76, which is negative**, and a negative determinant means the pair is not oscillatory at all.
 
@@ -435,14 +445,24 @@ $$
 
 **Solving the worked example for its gains rather than for its residual gives a result the rank argument does not predict.**
 
-The simulation of the previous section demands **0.82 degrees of symmetric tail and 2.63 degrees of symmetric flap for every degree of angle of attack.** Both are gradients rather than deflections, and the quotient is what matters. **The flap is asked for more than three times as much**, because it is the weaker lift producer of the two and it is being asked to supply all of the change in lift.
+With two columns the control matrix is square and invertible, so the matching condition $ B \left( K_x + K_m \right) = A_m - A $ is solved by the inverse, and the angle-of-attack column of the gains comes from the angle-of-attack column of the demanded change.
+
+$$
+\Delta A = A_m - A = \begin{bmatrix} 0.60 & 0 \\ 10.00 & 1.10 \end{bmatrix} , \qquad \begin{bmatrix} \gamma_s \\ \gamma_f \end{bmatrix} = B^{-1} \begin{bmatrix} 0.60 \\ 10.00 \end{bmatrix} = \frac{1}{-1.71} \begin{bmatrix} -1.00 & 0.20 \\ 9.00 & -0.09 \end{bmatrix} \begin{bmatrix} 0.60 \\ 10.00 \end{bmatrix} = \begin{bmatrix} -0.8187 \\ -2.6316 \end{bmatrix}
+$$
+
+The simulation of the previous section therefore demands **0.82 degrees of symmetric tail and 2.63 degrees of symmetric flap for every degree of angle of attack.** Both are gradients rather than deflections, and the quotient is what matters. **The flap is asked for more than three times as much**, because it is the weaker lift producer of the two and it is being asked to supply all of the change in lift.
 
 | Surface | Demanded by a five-degree excursion | Published limit | Share of the limit |
 |---|---|---|---|
 | Symmetric horizontal tail | 4.09 degrees | 25 degrees | 16.4 percent |
 | Symmetric flap | 13.16 degrees | 21.5 degrees | 61.2 percent |
 
-**The flap is 3.74 times closer to its stops than the tail is to its own.** Carrying the excursion up until something saturates, **the flap reaches its limit at 8.17 degrees of angle of attack and the tail would not reach its own until 30.5 degrees**.
+**The flap is 3.74 times closer to its stops than the tail is to its own.** Carrying the excursion up until something saturates, **the flap reaches its limit at 8.17 degrees of angle of attack and the tail would not reach its own until 30.5 degrees**. A deflection is the gradient times the excursion, a surface saturates where that product reaches its published limit, and the table and both angles follow.
+
+$$
+\delta = \left| \gamma \right| \alpha , \qquad \alpha_{\text{sat}} = \frac{\delta_{\max}}{\left| \gamma \right|} , \qquad \frac{21.5}{2.6316} = 8.17 , \qquad \frac{25}{0.8187} = 30.5 , \qquad \frac{2.6316 \times 5 / 21.5}{0.8187 \times 5 / 25} = \frac{0.6120}{0.1637} = 3.74
+$$
 
 **That reverses the intuition the rank argument leaves.** The tail is the powerful surface and the flap is the afterthought, and the counting bound says only that the flap must be there. **The deflection arithmetic says the flap is what runs out**, so the envelope of aeroplanes this machine can imitate is set by its weakest control rather than by its strongest.
 
@@ -496,9 +516,19 @@ $$
 
 **Read the fourth column and the design becomes visible.**
 
-**The symmetric horizontal tail, which has the most deflection of any pitch surface commanded by the second system, has the lowest corner frequency of all of them at 2.4 radians per second**, which is 0.382 hertz. **That is below the short-period frequency of the aeroplanes this machine exists to imitate.** A fighter short period sits in the region of 4 radians per second, and at that frequency the stabilator can reach only 60 percent of its travel, which is 15 degrees out of twenty-five.
+**The symmetric horizontal tail, which has the most deflection of any pitch surface commanded by the second system, has the lowest corner frequency of all of them at 2.4 radians per second**, which is 0.382 hertz. **That is below the short-period frequency of the aeroplanes this machine exists to imitate.** A fighter short period sits in the region of 4 radians per second, which is a representative value assumed here rather than a measurement, and at that frequency the stabilator can reach only 60 percent of its travel, which is 15 degrees out of twenty-five.
 
-**The differential tail is the opposite case and the contrast is exact.** It has the least deflection of any of them and the same rate limit as the stabilator, so its corner frequency is higher by precisely the ratio of the two deflection limits, 4.65 against 4.65. **The surface with a fifth of the authority has more than four times the bandwidth at full authority**, and at the short period it is not rate limited at all.
+$$
+\omega_c = \frac{60}{25} = 2.40 , \qquad \frac{\omega_c}{2 \pi} = 0.382 , \qquad \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{2.40}{4} = 0.60 , \qquad \hat{\delta} = 0.60 \times 25 = 15
+$$
+
+**The differential tail is the opposite case and the contrast is exact.** It has the least deflection of any of them and the same rate limit as the stabilator, so its corner frequency is higher by precisely the ratio of the two deflection limits, 4.65 against 4.65. The common rate limit cancels.
+
+$$
+\frac{\omega_{c,d}}{\omega_{c,s}} = \frac{R / 5.375}{R / 25.0} = \frac{25.0}{5.375} = 4.65 , \qquad \frac{11.16}{2.40} = 4.65
+$$
+
+**The surface with a fifth of the authority has more than four times the bandwidth at full authority**, and at the short period it is not rate limited at all.
 
 **A designer who had sized the rate limits in proportion to the deflections would have produced the same corner frequency everywhere.** That did not happen. The rate limits run 60, 60, 80 and 120 degrees per second against deflections of 25, 5.375, 21.5 and 30, and **the four corner frequencies come out at 2.4, 11.16, 3.72 and 4 radians per second**, a spread of nearly five to one.
 
@@ -507,6 +537,10 @@ $$
 #### The Leading-Edge Flap Is the Cheapest Column Nobody Bought
 
 **The leading-edge flap has a corner frequency of exactly 1 radian per second**, being twenty-five degrees of travel at twenty-five degrees per second, and its actuator lag is 2.75 times longer than every other surface's \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\]. **It is also a direct lift device, which makes it, on paper, a fourth column for the longitudinal control matrix.**
+
+$$
+\omega_c = \frac{25.0}{25.0} = 1.00 , \qquad \frac{\tau_l}{\tau} = \frac{0.136}{0.0495} = 2.75 , \qquad \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{1.00}{4} = 0.25
+$$
 
 **And the second flight control system does not command it.** The published account of what the system drives lists the trailing-edge flaps and omits the leading-edge ones \[[F-16 VISTA, MATV and NF-16D, Variable-stability In-flight Simulator Test Aircraft, F-16.net][ref_f16net_vista]\].
 
@@ -535,6 +569,16 @@ $$
 | Shortfall | 2.25 |
 
 **The schedule asks the flap to become nearly twice as active across that band and the flap becomes slightly less active**, and by fifteen radians per second the combined response lags by 51.7 degrees. **The lead is not merely reduced. Its sign is reversed.**
+
+The table and the phase both come from the series transfer function above, evaluated on the imaginary axis. The gain rises are ratios of its magnitude at fifteen and at one radian per second, with and without the actuator factor.
+
+$$
+\left| \frac{\delta_l}{\alpha} \left( j \omega \right) \right| = 1.38 \, \frac{\sqrt{4 \omega^2 + \omega_p^2}}{\sqrt{\omega^2 + \omega_p^2}} \cdot \frac{1}{\sqrt{\tau_l^2 \omega^2 + 1}} , \qquad \varphi \left( \omega \right) = \arctan \frac{2 \omega}{\omega_p} - \arctan \frac{\omega}{\omega_p} - \arctan \tau_l \omega
+$$
+
+$$
+\frac{1.853}{1.028} = 1.80 , \qquad \frac{1.853 \times 0.440}{1.028 \times 0.991} = 0.80 , \qquad \frac{1.80}{0.80} = 2.25 , \qquad \varphi \left( 15 \right) = 76.4 - 64.2 - 63.9 = - 51.7 \ \text{degrees}
+$$
 
 **This article does not claim that the coincidence was deliberate or that anyone has noticed it.** The schedule was designed for an aeroplane and the actuator was sized for a surface, and a near-cancellation between two poles chosen twenty years apart is as likely to be an accident as a design. **What can be said is that the surface the simulation might have wanted is already carrying a command it cannot execute**, which is a third reason on top of the two the previous paragraphs give, and the public record does not say which of the three governed.
 
@@ -615,7 +659,7 @@ $$
 
 **A variable-stability aeroplane exists in part to study this**, because putting a student in a machine that can be made to oscillate under a safety pilot's supervision is safer than discovering the property on a prototype. The school that operates this aircraft says so directly, describing its purpose as giving students the opportunity to practise testing aircraft with dangerously poor flying qualities \[[X-62A and NF-16D VISTA, GlobalSecurity.org][ref_gs_x62]\].
 
-**And the instrument contains the nonlinearity it is used to investigate.** The second flight control system drives the same surfaces through the same actuators with the same published rate limits. **When the simulated aeroplane demands a stabilator motion beyond 2.4 radians per second at full travel, the host rate limits**, and the phase that costs is added to the simulated response. **The student meets a lag that belongs to the host rather than to the model, and nothing in the cockpit distinguishes the two.**
+**And the instrument contains the nonlinearity it is used to investigate.** The second flight control system drives the same surfaces through the same actuators with the same published rate limits. **When the simulated aeroplane demands a stabilator motion beyond 2.4 radians per second at full travel, which is the full-deflection corner the limits table gives, the host rate limits**, and the phase that costs is added to the simulated response. **The student meets a lag that belongs to the host rather than to the model, and nothing in the cockpit distinguishes the two.**
 
 **This is not a criticism of the aeroplane. It is a statement of what an in-flight simulator is.** Every simulator has an unmodelled remainder, and a reason a flying one is preferred to a ground-based one is that its remainder is an aeroplane rather than a motion platform. **The remainder is still there.** The honest formulation is that the machine simulates the model plus itself, that the sum is what the pilot rates, and that separating the two is a question about the instrument rather than about the aeroplane under study.
 
@@ -642,7 +686,13 @@ $$
 | Three radians per second | 8.51 degrees | 12.81 degrees | 77.19 degrees |
 | Six radians per second | 17.02 degrees | 25.61 degrees | 64.39 degrees |
 
-**At the lower end of the range the crossover model reports for compensatory tracking, the host consumes 14.23 percent of the available margin. At the upper end it consumes 28.46 percent.** The crossover frequencies are assumed and are named as assumptions. **The delay is published.**
+**At the lower end of the range the crossover model reports for compensatory tracking, the host consumes 14.23 percent of the available margin. At the upper end it consumes 28.46 percent.** The share is the phase the floor costs divided by the ninety degrees an integrator leaves, with the floor of 74.5 milliseconds.
+
+$$
+\frac{\omega_{co} \tau_e}{\pi / 2} , \qquad \frac{3 \times 0.0745}{1.5708} = 0.1423 , \qquad \frac{6 \times 0.0745}{1.5708} = 0.2846
+$$
+
+The crossover frequencies are assumed and are named as assumptions. **The delay is published.**
 
 **Setting the margin to zero gives the frequency at which the host's own hardware forbids a loop closure outright.**
 
@@ -793,6 +843,8 @@ $$
 | $ \hat{\delta} $ | amplitude of a sinusoidal surface deflection, written thus because the dynamics matrix has taken the usual symbol | radians |
 | $ \omega $ | angular frequency | radians per second |
 | $ \omega_c $ | full-deflection corner frequency of a surface, being its rate limit divided by its deflection limit | radians per second |
+| $ \omega_{c,s} $ | full-deflection corner frequency of the symmetric horizontal tail | radians per second |
+| $ \omega_{c,d} $ | full-deflection corner frequency of the differential horizontal tail | radians per second |
 | $ \omega_{sp} $ | short-period natural frequency | radians per second |
 | $ \omega_a $ | corner frequency of the surface actuator lag | radians per second |
 | $ \tau $ | first-order lag time constant of a surface actuator | seconds |
@@ -819,6 +871,10 @@ $$
 | $ t_2 $ | time for a divergence to double in amplitude | seconds |
 | $ \Delta A $ | the change of dynamics the simulation demands, being the difference between the model's dynamics matrix and the host's | inverse seconds |
 | $ b $ | a single column of the control effectiveness matrix, being one control | mixed |
+| $ \gamma $ | deflection a surface is commanded per unit angle of attack in the worked simulation | dimensionless |
+| $ \gamma_s $ | that gradient for the symmetric horizontal tail, being the first entry of the angle-of-attack column of the matching gains | dimensionless |
+| $ \gamma_f $ | that gradient for the symmetric trailing-edge flap, being the second entry | dimensionless |
+| $ \alpha_{\text{sat}} $ | angle of attack at which a surface reaches its deflection limit | radians |
 | $ \eta $ | fraction of one row's demanded change that no control law can produce | dimensionless |
 | $ e_\infty $ | steady model-following error left by a residual no gain removes | mixed |
 | $ n_z $ | normal load factor | dimensionless |
@@ -833,6 +889,7 @@ $$
 | $ \delta_l $ | leading-edge flap deflection | radians |
 | $ P_s $ | static pressure | pascals |
 | $ \omega_p $ | pole of the published leading-edge flap schedule | radians per second |
+| $ j $ | imaginary unit | dimensionless |
 | $ \tau_l $ | first-order lag time constant of the leading-edge flap actuator | seconds |
 | $ \hat{\delta}_o $ | amplitude of the triangular output of a saturated rate limiter | radians |
 | $ N $ | describing function of a nonlinear element | dimensionless |
@@ -846,6 +903,10 @@ $$
 | $ v $ | the obligation carried by one transaction | dollars |
 | $ V $ | the total obligation an award registry states separately from its transactions | dollars |
 | $ k $ | index over the transactions of one award | dimensionless |
+| $ p $ | index over the contractors, or over the calendar years, of the whole record | dimensionless |
+| $ V_p $ | the obligation summed over one contractor or one calendar year | dollars |
+| $ V_{\text{all}} $ | the obligation summed over the whole record | dollars |
+| $ \rho_p $ | share of the whole record's obligation that one contractor or one calendar year carries | dimensionless |
 
 ## The Contemporary Literature
 

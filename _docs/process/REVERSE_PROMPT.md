@@ -4,6 +4,84 @@
 
 ## Last Updated
 
+**Date**: 2026-10-09 (fourth entry)
+**Task**: **X-PLANES SERIES CONSISTENCY PASS: DEPTH IN PROPORTION TO THE RECORD, PRIMARY SOURCING, EQUATION AND REFERENCE DENSITY.** NOT pushed, NOT published.
+
+**The pilot's instruction.** "Perform a full series consistency pass. Make sure that article scope and depth is appropriate given the per article subject matter in the context of the series. There is more to say about some X-planes than others, so uniformity is not expected, but when there is more to say about a particular X-plane, the expectation is that more will be said. Also check for per article equation and reference density in the context of the entire series."
+
+**Method.** Per-article metrics (`tmp/fix7/series_metrics.py`) were set against the richness of each vehicle's public record (`tmp/fix7/record_richness2.json`) and against an equation-coverage scan (`tmp/fix7/eq_coverage.py`). Each article was then assigned one or more work items under `tmp/fix7/BRIEF11.md`.
+- **E, depth.** Rich record, short article. Applied to A312, A317, A318, A319, A321 and A354.
+- **P, primary sourcing.** Few curated primaries. Applied to A308 to A316, A320, A323, A338, A339, A340 and A346.
+- **Q, equation coverage.** Prose quoting a derived value with no displayed relation. Applied to every article the scan flagged.
+- **T, padding.** Thin record, long article. Applied to A323, A339, A341 and A360 to A364.
+
+**Series totals, measured with the same metric on HEAD and now.** 46 articles changed.
+- Author prose went from 711,904 to 758,580 words.
+- Display equations went from 4,417 to 4,859.
+- Curated references went from 3,603 to 3,697.
+- Research references went from 267,359 to 267,386.
+- **Largest expansions, on the richest records:**
+  - X-15 from 10,395 to 13,440 words;
+  - X-19 from 7,761 to 11,753;
+  - X-20 from 4,768 to 8,343;
+  - X-21 from 5,688 to 8,965;
+  - X-22 from 4,449 to 7,787;
+  - X-24 from 4,607 to 8,827;
+  - X-43 from 9,480 to 12,276;
+  - X-57 from 5,872 to 9,436.
+- **Condensed, on thin records:** the X-26, X-44 and X-63 to X-67, by 374 to 1,130 words each, with no finding removed.
+
+**THE PRIMARY RECORD CONTRADICTED MANY CLAIMS, AND EACH IS CORRECTED.** Every correction is quoted in `_docs/process/x_planes_drafting_notes/<ART>.md`. Among them:
+- **X-19.** The aircraft was lost to a failed cast magnesium propeller housing, not a gearbox, per AFFDL-TR-66-195. The aft span is 21.5 ft, and the flight time is 3 h 45 min.
+- **X-20.** The crossrange is 2,000 nmi and the cost spent is 410 million dollars.
+- **X-23.** The boost range is 1,360 nmi. The re-entry angle is 2.03 degrees, which turns 16.2 g into 6.20 g. The X-24A reference area is 162 ft².
+- **X-42.** The maximum expected operating pressure is 1,100 psia, not the inferred 733. The instability appeared as flow rose.
+- **X-43.** Flight 3 reached Mach 9.68. The National Aero-Space Plane was cancelled in October 1994, after some 2.4 billion dollars.
+- **X-57.** The blowing analysis is reversed, and the range claim is withdrawn.
+
+**CROSS-ARTICLE RECONCILIATIONS.**
+- **X-30.** It said 1993 and three billion dollars, both unsourced. It now gives the three dates Peebles 2007 records: fiscal year 1994, October 1994 and June 1995.
+- **X-21.** The engine designation now follows Butz 1963, YJ79-GE-13. An unsourced thrust figure was removed.
+- **X-33 and X-34.** The kerosene bulk densities differ only by mixture ratio. The X-33's 2.56 is now labelled assumed, and the X-34 points back to it.
+- **Settled earlier in the pass.** The Atlas A range units in A308 and A309, and the liquid oxygen density of 1,142 in A330 and A331.
+- **X-52.** Its live B-52 corpus count moved to fourteen of fifty-two articles.
+
+**A368 RECOMPUTED.** The ledger was re-checked for all 45 changed articles under `tmp/fix7/BRIEF12.md`, and every re-quote carries a `repair_notes` entry.
+- **What moved.**
+  - The X-21 and X-32 are now crewed.
+  - The X-17 and X-19 ground comparisons are now mixed, and the X-18's is now confirmed.
+  - Several sponsor sets changed.
+- **How the statistics changed.** The crewed share before and after 1990 is now 71.4 against 26.7 percent, with Fisher p 0.00138, which still survives Bonferroni at 0.01. The odds ratio is 6.88, from 2.17 to 21.8. The mixed ground share is 22 of 29.
+- **No conclusion changed direction.**
+
+**GATES, ALL ON THE CURRENT TREE.**
+- `check5` passes on all 72 articles.
+- `_verify.py` reports 0 errors and 0 warnings.
+- **Build.** All 72 drafts build in full, and the rendered audit finds nothing across 544 pages.
+- **Ledger.** 0 failed quotes, and `verify368` passes 1,864 checks with 0 failures.
+- **Offline verifiers.** All pass. The network URL scripts for A305 and A306 failed on connection resets, which is not a content failure.
+- **Sweep.** `final_sweep` hits are only wing sweep, parameter sweeps, retrieval dates and historical directives, which are subject matter.
+
+**NEEDS THE PILOT'S DECISION.**
+1. **Retrofit contemporary research surveys to A297 to A317.**
+   - These carry 130 to 427 research records each, against thousands from A318 onward. That is a series-wide density discontinuity created by when the survey standard arrived.
+   - The options are to retrofit the early articles to the later standard or to accept the discontinuity as it stands.
+   - Recommendation: retrofit, as a separate cycle.
+2. **Deepen the X-15 further.**
+   - It now has 13,440 words, but it has the richest record of any X-plane and is still shorter than several anomaly articles.
+   - The options are another E pass or accepting it.
+   - Recommendation: another E pass.
+3. **Push.** Seven commits were unpushed before this one.
+4. **Publication.** Still held, per the pilot.
+
+**UNRESOLVABLE FROM PUBLIC ARCHIVES.**
+- The Curtiss-Wright X-19 flight test and accident reports are not public.
+- The Martin X-23 flight reports ER 14461 to 14463 were not sought.
+- DTIC was down for maintenance, so the X-21 final report could not be retrieved. Internet Archive copies served for the X-19 and X-23 histories.
+- The X-42 tank failure and the 2006 to 2007 schedule rest on Parsch alone, and the article says so.
+
+---
+
 **Date**: 2026-10-09 (third entry)
 **Task**: **REMAINING X-PLANES REPAIR ITEMS CLOSED: CITATION LABELS, STALE CHECKERS, FRONT MATTER, AND A364 AND A332 FIGURES.** NOT pushed, NOT published.
 

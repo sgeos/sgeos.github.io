@@ -109,8 +109,13 @@ and [General Dynamics][ref_gd] also holding airframe contracts, and the propulsi
 [Pratt and Whitney][ref_pw] and [Rocketdyne][ref_rocketdyne]. The arrangement was a consortium rather than a
 prime contractor with subcontractors, and the government retained the integration role.
 
-**The programme was cancelled in 1993 without a vehicle**, after roughly a decade and an expenditure usually
-given as about three billion dollars.
+**The programme ended without a vehicle.**
+With defence funding declining after the Cold War, Congress directed that the effort be closed out by the end
+of fiscal year 1994, and NASA's history of the X-43A records that it was cancelled in October 1994, after
+some 2.4 billion dollars had been spent and eight years of work had produced no workable
+design\[[Peebles 2007][research_peeblescurtis_2007_b]\].
+The same history dates the end of the programme to June 1995 in another passage, so the record fixes the
+close-out to the period between late 1994 and mid 1995 rather than to a single day.
 
 ## The Vehicle
 
@@ -1763,7 +1768,7 @@ so the computational case and the experimental case failed together rather than 
 
 **No X-30 was built.** No airframe was completed, no integrated engine flew, and the vehicle never
 progressed beyond design studies, component tests and ground demonstrations. The programme was cancelled in
-1993.
+October 1994.
 
 **What did exist was substantial and was not an aeroplane.** Engine modules were run in ground facilities at
 conditions well below the ones that mattered. Structural panels were tested. Materials were developed and
@@ -1998,7 +2003,7 @@ The X-27 was never built because nobody bought it. The design existed, the manuf
 customer appeared. **Its non-existence is a procurement fact.**
 
 **The X-30 was never built because the thing it was meant to demonstrate could not be shown to be achievable before building it.**
-Roughly three billion dollars and a decade of work produced materials, methods and modules, and no
+Some 2.4 billion dollars and eight years of work produced materials, methods and modules, and no
 aeroplane, because the central quantity stayed out of reach of every instrument that could be brought to
 bear on it short of the vehicle itself.
 
@@ -2022,7 +2027,7 @@ The X-43A and X-51A were expendable, air-launched and single-purpose, and betwee
 an airframe-integrated scramjet produces positive net thrust in flight.
 
 **That is a smaller claim than the X-30's and it is a claim that was actually settled**, which is the
-methodological lesson the programme paid three billion dollars to teach.
+methodological lesson the programme paid some 2.4 billion dollars to teach.
 
 - [Classification of Combustor Inlet Interactions for...][research_cui_wang_2015]
 - [Direct numerical simulation of supersonic combustion with...][research_koo_raman_2015]
@@ -3277,7 +3282,7 @@ and additive manufacture has changed what cooled structures can be made.
 - [Particle deposition characteristics and active...][research_tu_lan_2026]
 - [Research on Combined Transpiration and Supersonic Film...][research_sun_ding_2026]
 
-### Six Subjects That Were Not Fields in 1993
+### Six Subjects That Were Not Fields in 1994
 
 **The sections above track what happened to bodies of work the X-30 was part of.** The six that follow
 barely existed when the programme was cancelled, and between them they have changed both the technical and
@@ -3843,16 +3848,16 @@ standard, and the article is built on those rather than on programme documents.
 ### How the Research Base Is Drawn
 
 **The research survey admits a record only when a person reading its title finds it on this article's subject.**
-Its 2,734 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
-journal literature. Of these, 688, or 25.2 percent, are report-server records, and their median publication
-year is 2017.
+Its 2,735 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
+journal literature. Of these, 689, or 25.2 percent, are report-server records, and the median publication
+year of the whole set is 2017.
 
 **Period coverage, with counts alongside fractions because either alone misleads.**
 
 | | Count | Fraction of cited research |
 |---|---|---|
 | Period, through 1999 | 981 | 35.9 percent |
-| Contemporary, 2015 onward | 1,604 | 58.7 percent |
+| Contemporary, 2015 onward | 1,604 | 58.6 percent |
 
 **Many words this subject depends on also name something else, and a record that shares only such a word is excluded.**
 Inlet also names the inlets of mass spectrometers and chromatographs and coastal tidal inlets. Hydrogen also
@@ -3886,11 +3891,11 @@ in their titles, rather than under a heading of its own.
 - The vehicle was to take off horizontally, use air-breathing propulsion to high Mach number, and
   reach orbit in a single stage.
 - Hydrogen was the fuel, with slush hydrogen intended to raise its density.
-- The programme was cancelled in 1993 without a vehicle being built.
+- Congress directed close-out by the end of fiscal year 1994, and NASA's X-43A history records cancellation
+  in October 1994, after some 2.4 billion dollars, without a vehicle being built.
 
 **Reported and not independently corroborated here.**
 
-- That programme expenditure was roughly three billion dollars.
 - That no X-30 configuration was ever frozen, which is asserted consistently by secondary sources and
   is consistent with the variation in published figures.
 
@@ -5808,6 +5813,7 @@ available.
 - [Pearlstein 2000][research_pearlstein_2000]
 - [Pearson, W. E. 1967][research_pearsonwe_1967]
 - [Peebles, Curtis 2007][research_peeblescurtis_2007]
+- [Peebles, Curtis 2007][research_peeblescurtis_2007_b]
 - [Pegg, Robert J. et al 1993][research_peggrobertj_huntjamesl_1993]
 - [Peherstorfer et al 2018][research_peherstorfer_kramer_2018]
 - [Pei et al 2021][research_pei_fan_2021]
@@ -8545,6 +8551,7 @@ available.
 [research_pearlstein_2000]: https://doi.org/10.21236/ada376026
 [research_pearsonwe_1967]: https://ntrs.nasa.gov/citations/19680034465
 [research_peeblescurtis_2007]: https://ntrs.nasa.gov/citations/20070038172
+[research_peeblescurtis_2007_b]: https://ntrs.nasa.gov/citations/20070021686
 [research_peggrobertj_huntjamesl_1993]: https://ntrs.nasa.gov/citations/19930037111
 [research_peherstorfer_kramer_2018]: https://doi.org/10.1137/17m1122992
 [research_pei_fan_2021]: https://doi.org/10.1109/access.2021.3056517

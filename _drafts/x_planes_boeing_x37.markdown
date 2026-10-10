@@ -131,11 +131,20 @@ a description of a programme whose purpose became classified.
 
 ### The X-40, Which Is Where the Shape Came From
 
-The [Boeing X-40][ref_x40] was an 85 percent scale, unpowered, subscale vehicle built for the Air Force as a
-[Space Maneuver Vehicle][ref_smv] demonstrator. It was dropped from a helicopter at Holloman Air Force Base
-in 1998 and again, in a longer series, at Dryden in 2001.
-**The X-37 is a 120 percent scaled derivative of it**, which is an unusual lineage in that the smaller
-aircraft came first and the larger one inherited its outer mould line.
+The [Boeing X-40][ref_x40] was an unpowered, subscale vehicle built for the Air Force as a
+[Space Maneuver Vehicle][ref_smv] demonstrator. The space agency's account of it calls it an 80 percent
+subscale version of the X-37. It was dropped from a helicopter at Holloman Air Force Base in 1998 and again,
+in a longer series, at Dryden in 2001.
+**The X-37 is described in turn as a [120 percent scaled derivative][ref_x37] of it**, which is an unusual
+lineage in that the smaller aircraft came first and the larger one inherited its outer mould line.
+**The two published ratios are not reciprocals of one another.** For a linear scale factor $s$ the inverse
+is $1/s$, and
+
+$$\frac{1}{0.80} = 1.25, \qquad \frac{1}{1.20} = 0.833,$$
+
+so the 80 percent figure implies a derivative of 125 percent and the 120 percent figure implies a subscale
+vehicle of 83 percent. Both are rounded descriptions of one geometry, and neither should be read as more
+precise than about five percent.
 
 ### The Approach and Landing Test Vehicle
 
@@ -217,15 +226,21 @@ which at 400 kilometres is **70.22 degrees**. A vehicle that can reach that beta
 continuous sunlight, during which its batteries are not cycled at all.
 
 **Whether it can reach it is fixed by the inclination and by nothing else.** The largest beta angle
-available at inclination $i$ is $i$ plus the Earth's obliquity of 23.44 degrees. For the first four
-missions, numbered OTV-1 to OTV-4 in the programme's Orbital Test Vehicle designation and flown near 40
-degrees, that ceiling is **63.44 degrees**, which is below the threshold.
+available at inclination $i$ is $i$ plus the Earth's obliquity of 23.44 degrees. The first four
+missions, numbered OTV-1 to OTV-4 in the programme's Orbital Test Vehicle designation, are catalogued at
+inclinations between 38.02 and 43.49 degrees, and the sixth at 45.08 \[[General Catalog of Artificial Space Objects][ref_gcat]\]. Their ceilings are
+
+$$\beta_{\max} = i + 23.44^{\circ}, \qquad 43.49^{\circ} + 23.44^{\circ} = 66.93^{\circ}, \qquad 45.08^{\circ} + 23.44^{\circ} = 68.52^{\circ} \;<\; \beta^{*} = 70.22^{\circ},$$
+
+which are below the threshold. The threshold rises as the orbit descends, so the lower of those orbits
+fall short of it by more. The same sum gives every row of the table below.
 
 | Mission group | Inclination | Largest reachable beta | Full-sun threshold | Verdict |
 |---|---|---|---|---|
-| OTV-1 to OTV-4 | about 40 degrees | 63.44 degrees | 70.22 degrees | **never reaches full sun** |
+| OTV-1 to OTV-4 | 38.02 to 43.49 degrees | 61.46 to 66.93 degrees | 70.22 degrees | **never reaches full sun** |
+| OTV-6 | 45.08 degrees | 68.52 degrees | 70.22 degrees | **never reaches full sun** |
 | OTV-5 | 54.5 degrees | 77.94 degrees | 70.22 degrees | reaches full sun |
-| OTV-7 | 59 degrees | 82.44 degrees | 70.22 degrees | reaches full sun |
+| OTV-7 | 59.27 degrees | 82.71 degrees | 70.22 degrees | reaches full sun |
 
 - [Umbra and penumbra eclipse factors for satellite orbits][research_fixler_1964]
 - [Shadow of the FOBS Bombs in Orbit][research_shadow_of_1967]
@@ -233,10 +248,17 @@ degrees, that ceiling is **63.44 degrees**, which is below the threshold.
 - [The equilibrium potential of a magnetospheric satellite in an...][research_knott_1972]
 - [Annular Solar Eclipse on a Satellite Picture][research_jongh_konnen_1976]
 
-**A vehicle in a 40 degree orbit at this altitude is eclipsed on every orbit of every day of its mission, and no phasing of the node or the season provides relief.**
+**A vehicle in the sixth mission's 45.08 degree orbit at this altitude is eclipsed on every orbit of every day of its mission, and no phasing of the node or the season provides relief.**
 Averaged over a full precession of the node and a full year of the Sun's motion, the mean eclipse fraction
-at 40 degrees is **36.52 percent**, and the fraction of sampled geometries that eclipse at all is exactly
+at 45.08 degrees is **35.76 percent**, and the fraction of sampled geometries that eclipse at all is exactly
 **100 percent**. At 54.5 degrees the mean falls to 33.61 percent and 95.87 percent of geometries eclipse.
+The average is taken over a uniform grid of $J$ node positions $\Omega_{j}$ and $K$ solar ecliptic
+longitudes $\lambda_{k}$,
+
+$$\bar{f}_{E} = \frac{1}{J K} \sum_{j=1}^{J} \sum_{k=1}^{K} f_{E}\!\left( \beta(\Omega_{j}, \lambda_{k}) \right), \qquad J = 720, \quad K = 60,$$
+
+with $\beta$ from the Sun vector and orbit normal as given in the next section, and the share of
+geometries that eclipse at all is the fraction of those $43{,}200$ grid points at which $f_{E} > 0$.
 **The higher inclination buys relief and the lower one does not**, which is a consequence of the mission's
 own orbit choice rather than of the vehicle.
 
@@ -249,8 +271,9 @@ on a near-circular orbit is a regression of the ascending node at
 $$\dot{\Omega} = -\frac{3}{2} J_{2} \left( \frac{R_{\oplus}}{p} \right)^{2} \sqrt{\frac{\mu}{a^{3}}} \, \cos i$$
 
 where $p$ is the semi-latus rectum, equal to the radius for a circular orbit, and the square root is the
-mean motion. At 400 kilometres and 40 degrees this is **-6.169 degrees per day**, so the node completes a
-full turn in **58.35 days**.
+mean motion. The sixth mission is catalogued at 379 by 399 kilometres and 45.08 degrees \[[General Catalog of Artificial Space Objects][ref_gcat]\],
+and is represented here by a circular orbit at 400 kilometres. At that altitude and inclination the rate is
+**-5.687 degrees per day**, so the node completes a full turn in **63.31 days**.
 
 - [Plane change split in circular orbits][research_wallner_camiel_1966]
 - [Three-impulse plane change for eccentric orbits][research_niemeier_1966]
@@ -268,9 +291,9 @@ rather than at either rate alone,
 
 $$T_{\beta} = \frac{360^{\circ}}{\lvert \dot{\Omega} - \dot{\lambda}_{\odot} \rvert}$$
 
-which gives **50.32 days**.
+which gives **53.95 days**.
 
-**The sixth mission therefore swept the node 15.58 times and the beta angle 18.06 times.** The average above
+**The sixth mission therefore swept the node 14.36 times and the beta angle 16.85 times.** The average above
 is not a modelling convenience. **It is what the mission actually experienced**, and an article quoting a
 single beta angle for a flight of this length would be quoting a transient.
 
@@ -301,8 +324,13 @@ public.
 
 ### What the Payload Bay Allows, Which Is an Upper Bound and Not an Estimate
 
-The payload bay is published as 2.1 metres by 1.2 metres, which is a planform area of
-**2.52 square metres**. The solar array deploys from inside it, so the array area is bounded by what can be
+The payload bay is published as 2.1 metres by 1.2 metres. The Space Force fact sheet that states it is not
+reachable at the time of writing, so the figure is cited to the [encyclopaedic specification][ref_x37] that
+reproduces it. That is a planform area of
+
+$$A_{\text{bay}} = 2.1 \times 1.2 = 2.52 \ \text{square metres}.$$
+
+The solar array deploys from inside it, so the array area is bounded by what can be
 folded into a volume of that size.
 **This section computes an upper bound on the electrical load, and the section after it computes a second and independent upper bound. Neither is an estimate of the actual load, which is not public.**
 
@@ -332,6 +360,12 @@ alone would suggest.
 | 12 square metres | 4,165 watts | 2,327 watts |
 
 **A six square metre array, which is a generous reading of what folds out of a bay of 2.52 square metres, carries 1,164 watts continuously.**
+The row follows from the two relations above,
+
+$$P_{\text{load}} = \frac{S \, A \, \eta \, \kappa}{P_{\text{array}} / P_{\text{load}}} = \frac{1{,}361 \times 6 \times 0.30 \times 0.85}{1.7896} = \frac{2{,}082.3}{1.7896} = 1{,}164 \ \text{watts},$$
+
+where 1.7896 is the ratio quoted above as 1.790 before rounding.
+
 That is the order of a domestic kettle, and the figure is a ceiling rather than an operating point.
 
 - [ROSA and Solar Cell Module Combined Environments Test Plan][research_kennethhwrightjr_baohoang]
@@ -367,7 +401,8 @@ $$T_{s} = \left( \frac{F \left( \varepsilon q_{\text{IR}} + \alpha_{\oplus} \alp
 
 with $F$ the view factor to the Earth, $q_{\text{IR}}$ the outgoing longwave flux of about 237 watts per
 square metre, $\alpha_{\oplus}$ the albedo of about 0.30 and $\alpha_{s}$ the solar absorptivity of a white
-thermal control coating, about 0.20. For a surface with half its view filled by the Earth this gives a sink
+thermal control coating, about 0.20. The radiator emissivity $\varepsilon$ is taken as 0.85 here and in the
+table below. For a surface with half its view filled by the Earth, so that $F = 0.5$, this gives a sink
 temperature of **232.8 kelvin**.
 
 | Radiator temperature | Net flux rejected |
@@ -393,7 +428,13 @@ smaller.
 - [Thermal design and recharging of satellite batteries][research_thermal_design_1962]
 
 Flat doors of 2.1 metres by 0.6 metres give 2.52 square metres and reject **540 watts** at 20 degrees
-Celsius. Curved doors radiating from both faces at 40 degrees Celsius reach **1,623 watts**.
+Celsius. Curved doors radiating from both faces at 40 degrees Celsius reach **1,623 watts**. Each figure is
+the door area times the net flux from the table, carried unrounded,
+
+$$Q_{\text{flat}} = 2 \times (2.1 \times 0.6) \times 214.40 = 540 \ \text{watts}, \qquad Q_{\text{curved}} = 2 \times 2.52 \times 321.935 = 1{,}623 \ \text{watts},$$
+
+where the leading factor of two counts the two doors in the first case and the two radiating faces in the
+second.
 
 **The two bounds are 1,164 watts from the array and between 540 and 1,623 watts from the radiator, and at the low end the radiator is the tighter of the two.**
 That is the usual result for a compact spacecraft and explains why the payload bay doors open on orbit and
@@ -475,7 +516,13 @@ $$\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \rig
 
 **The answer is insensitive to the exponent, which is what makes it worth reporting.** Across the whole
 plausible range the required depth of discharge sits between 38 and 50 percent, which is comfortably inside
-routine flight practice for low Earth orbit.
+routine flight practice for low Earth orbit. The two ends of the table are
+
+$$\delta_{k=3} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/3} = 0.385, \qquad \delta_{k=1.5} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/1.5} = 0.495,$$
+
+and the mass column is the battery relation above at $P_{\text{load}} = 1$ kilowatt and
+$w = 100$ watt hours per kilogram, for instance $m_{b} = 668.7 / (0.437 \times 100) = 15.3$ kilograms at
+$k = 2$.
 **The record endurance therefore does not require exotic energy storage.** It requires a battery cycled
 conservatively, sized at something like fifteen kilograms for each kilowatt of continuous load, which is a
 small fraction of a five-tonne vehicle.
@@ -512,17 +559,27 @@ drag, the makeup requirement over a mission of duration $t$ is
 
 $$\Delta v = \frac{\rho v^{2}}{2 B} \, t.$$
 
-Density comes from a piecewise exponential model at nominal solar activity. Taking a drag area $C_{D} A$ of
-8 square metres and an on-orbit mass of 4,000 kilograms, which is a ballistic coefficient of
-**500 kilograms per square metre**, the requirement over 908.88 days is as follows.
+Density comes from a piecewise exponential model at nominal solar activity. The drag area $C_{D} A$ is taken
+as 8 square metres, which is not published. The mass is the published launch mass of 4,990 kilograms, which
+is the only mass the programme has released, and the same figure is used for every mass in this article so
+that the drag requirement and the propellant budget that pays for it describe one vehicle. Propellant use
+lowers the mass by at most a tenth over a mission. The ballistic coefficient is then
+
+$$B = \frac{m}{C_{D} A_{\text{ref}}} = \frac{4{,}990}{8} = 623.75 \ \text{kilograms per square metre},$$
+
+and at 400 kilometres, with $v = 7{,}668.6$ metres per second and $t = 908.88 \times 86{,}400$ seconds,
+
+$$\Delta v = \frac{3.725 \times 10^{-12} \times 7{,}668.6^{2}}{2 \times 623.75} \times 7.853 \times 10^{7} = 13.79 \ \text{metres per second}.$$
+
+The requirement over 908.88 days at each altitude is as follows.
 
 | Altitude | Density | Velocity increment | Propellant at 300 seconds specific impulse |
 |---|---|---|---|
-| 250 kilometres | 7.248 times ten to the minus eleven | 342.3 metres per second | 439.3 kilograms |
-| 300 kilometres | 2.418 times ten to the minus eleven | 113.3 metres per second | 151.2 kilograms |
-| 350 kilometres | 9.518 times ten to the minus twelve | 44.3 metres per second | 59.8 kilograms |
-| 400 kilometres | 3.725 times ten to the minus twelve | 17.2 metres per second | 23.3 kilograms |
-| 450 kilometres | 1.585 times ten to the minus twelve | 7.3 metres per second | 9.9 kilograms |
+| 250 kilometres | 7.248 times ten to the minus eleven | 274.4 metres per second | 444.3 kilograms |
+| 300 kilometres | 2.418 times ten to the minus eleven | 90.8 metres per second | 151.7 kilograms |
+| 350 kilometres | 9.518 times ten to the minus twelve | 35.5 metres per second | 59.8 kilograms |
+| 400 kilometres | 3.725 times ten to the minus twelve | 13.8 metres per second | 23.3 kilograms |
+| 450 kilometres | 1.585 times ten to the minus twelve | 5.8 metres per second | 9.9 kilograms |
 
 **The requirement changes by a factor of forty-seven across two hundred kilometres of altitude**, because
 density is exponential and everything else in the relation is nearly constant.
@@ -535,21 +592,41 @@ $$\Delta v = I_{sp} \, g_{0} \ln \frac{m_{0}}{m_{0} - m_{p}}, \qquad \frac{m_{p}
 
 and read the second form for the table above.
 **A 500 kilogram hypergolic propellant load at 300 seconds specific impulse on a 4,990 kilogram vehicle buys 310.6 metres per second.**
+The first form gives it directly,
+
+$$\Delta v_{\text{budget}} = 300 \times 9.80665 \times \ln \frac{4{,}990}{4{,}990 - 500} = 2{,}942.0 \times 0.10558 = 310.6 \ \text{metres per second}.$$
+
 Spending the entire budget on drag makeup and nothing else would sustain 908.88 days at
-**254.4 kilometres**, and spending half of it would sustain the same mission at **285.7 kilometres**.
+**245.4 kilometres**, and spending half of it would sustain the same mission at **275.7 kilometres**.
+
+The table's propellant column applies the second form to the same 4,990 kilogram mass, so that at the two
+ends of the tracked band
+
+$$m_{p}^{300} = 4{,}990 \left[ 1 - e^{-90.85 / (300 \times 9.80665)} \right] = 151.7, \qquad m_{p}^{400} = 4{,}990 \left[ 1 - e^{-13.79 / (300 \times 9.80665)} \right] = 23.3$$
+
+kilograms, and the floor of 245.4 kilometres is the altitude $h^{*}$ at which the makeup requirement
+exhausts the budget, $\rho(h^{*}) \, v^{2} t / (2B) = 310.6$ metres per second.
 
 **The duration and the altitude are therefore not independent facts, and the observed pair is consistent.**
-The missions were tracked in orbits between roughly 300 and 400 kilometres, where a 908-day flight costs
-between 23 and 151 kilograms of propellant, which a vehicle of this size can carry alongside everything else
-it must do. **Below about 250 kilometres a mission of that length is not affordable at all**, and the public
+The six low-orbit missions are catalogued between 309 and 409 kilometres, from the fourth at 309 by 322 to
+the first at 407 by 409 \[[General Catalog of Artificial Space Objects][ref_gcat]\]. The catalogue gives one epoch per mission and an orbit changes
+during a flight, so the band describes where the missions were recorded rather than every altitude they
+held. Across the table's 300 to 400 kilometre rows a 908-day flight costs between 23 and 152 kilograms of
+propellant, which a vehicle of this size can carry alongside everything else it must do. **Below about 250 kilometres a mission of that length is not affordable at all**, and the public
 orbit and the public duration each constrain the other without either being assumed.
 
 ### The Cadence Matters, Because Drag Is Exponential in Altitude
 
 The figures above hold the altitude constant, which is the right question for a vehicle that reboosts often.
 It is not the right question for one that lets the orbit sink and recovers it later.
-**Holding 400 kilometres continuously costs 17.20 metres per second over 908.88 days. Letting the orbit decay for the whole mission and recovering at the end costs 25.53 metres per second**,
-a ratio of **1.484**, and the uncontrolled orbit would have fallen to **355.1 kilometres** by then.
+**Holding 400 kilometres continuously costs 13.79 metres per second over 908.88 days. Letting the orbit decay for the whole mission and recovering at the end costs 18.47 metres per second**,
+a ratio of
+
+$$\frac{\Delta v_{\text{decay}}}{\Delta v_{\text{hold}}} = \frac{18.47}{13.79} = 1.339,$$
+
+and the uncontrolled orbit would have fallen to **367.5 kilometres** by then. The first figure is the
+makeup relation evaluated at 400 kilometres above. The second is the same deceleration integrated along the
+decaying orbit, with the altitude updated by the relation below.
 
 The relation that produces the second figure is the secular decay of the semi-major axis under a drag
 acceleration $a_{D}$. Differentiating the specific energy displayed earlier and substituting the work drag
@@ -586,9 +663,9 @@ makeup at 400 kilometres over 908.88 days runs as follows.
 
 | Solar condition | Velocity increment | Propellant |
 |---|---|---|
-| Deep solar minimum | 5.2 metres per second | 7.0 kilograms |
-| Nominal | 17.2 metres per second | 23.3 kilograms |
-| Solar maximum | 86.0 metres per second | 115.2 kilograms |
+| Deep solar minimum | 4.1 metres per second | 7.0 kilograms |
+| Nominal | 13.8 metres per second | 23.3 kilograms |
+| Solar maximum | 68.9 metres per second | 115.6 kilograms |
 
 **The record 908-day mission launched in May 2020, five months after the deepest solar minimum in a century.**
 It flew the most favourable atmosphere the programme has ever had.
@@ -630,7 +707,10 @@ carry, which tilted the other way.
 The X-37B's leading edges use
 [Toughened Uni-piece Fibrous Reinforced Oxidation-resistant Composite][ref_tufroc], a dual-layer tiled
 system with a carbonaceous cap over a low-conductivity silica-based substrate derived from Shuttle tile
-material. It is reusable above 2,900 degrees Fahrenheit and survives single exposures beyond 3,200.
+material. Its developers at the space agency's Ames centre describe it as suitable for reusable entry
+heating at 2,900 degrees Fahrenheit and above, with single-use potential to at least 3,600, and report that
+the gapped-tile configuration of the X-37 wing leading edge was qualified in arc-jet exposures at 3,000 and
+3,200 degrees \[[TUFROC Thermal Protection System][research_feldmanjay_stewartdavid_2019]\].
 **It replaced reinforced [carbon-carbon][ref_carbon_carbon] on a vehicle whose leading edges are far smaller than the Shuttle orbiter's**,
 and its engineering is the only part of this vehicle published in detail, because it came out of the space
 agency phase and has civil applications.
@@ -755,8 +835,13 @@ Searching over bank angle for the maximum gives the following.
 | 1.1 | 43.11 degrees | 1,397.8 kilometres |
 | 1.4 | 42.04 degrees | 2,181.8 kilometres |
 
-The Space Shuttle orbiter was required to reach 1,100 nautical miles of crossrange at a hypersonic
-lift-to-drag ratio near 1.1.
+The Space Shuttle orbiter was required to reach 1,100 nautical miles of crossrange, a figure set by the Air
+Force's wish to return to Vandenberg after a single orbit \[[The Space Shuttle Decision][ref_shuttle_decision]\].
+Taking a hypersonic lift-to-drag ratio near 1.1 as representative of the orbiter, the table's row at that ratio
+converts as
+
+$$y = \frac{1{,}397.8 \ \text{km}}{1.852 \ \text{km per nautical mile}} = 754.7 \ \text{nautical miles}, \qquad \frac{754.7}{1{,}100} = 0.686 .$$
+
 **This model returns 755 nautical miles at the same ratio, which is 0.686 of the requirement, and the shortfall is expected rather than troubling.**
 A single constant bank angle is not the optimal control and a real entry modulates it, so a constant-bank
 integration is a lower bound by construction. **It is reported as a lower bound and not as agreement**,
@@ -765,7 +850,10 @@ demonstrated very little.
 
 The answer is also insensitive to the terminal speed at which the glide is deemed to end, moving only from
 1,411 to 1,371 kilometres as that speed runs from 700 to 1,200 metres per second, which is worth saying
-because that speed is a modelling choice rather than a measured quantity.
+because that speed is a modelling choice rather than a measured quantity. Both figures are the crossrange
+integral above re-evaluated with $v_{f}$ changed, and their spread relative to the 900 metre per second case is
+
+$$\frac{y(700) - y(1{,}200)}{y(900)} = \frac{1{,}411 - 1{,}371}{1{,}397.8} = 0.029 .$$
 
 - [Application of Inequality Constraints to Variational Problems...][research_levinsky_1962]
 - [Device May eliminate communications blackout during re-entry...][research_device_may_1962]
@@ -932,7 +1020,10 @@ and geometric similarity would give $n = 3$ for both a volume and a mass at cons
 
 **The bay shrank faster than geometry demands and the mass shrank far more slowly**, which is the
 square-cube penalty in its clearest form. A geometrically similar orbiter scaled down to 8.92 metres would
-mass **1,072 kilograms**. The X-37B masses 4,990, a factor of **4.655**.
+mass **1,072 kilograms**. The X-37B masses 4,990, a factor of **4.655**. Both follow from the cube of the
+length ratio,
+
+$$m_{\text{similar}} = 78{,}000 \left( \frac{8.92}{37.24} \right)^{3} = 1{,}072 \ \text{kilograms}, \qquad \frac{4{,}990}{1{,}072} = 4.655 .$$
 
 - [A ferry package for transporting reusable spacecraft and...][research_blackstock_1970]
 - [Design criteria and candidate electrical power systems for a...][research_merrifielddv_1972]
@@ -943,8 +1034,10 @@ mass **1,072 kilograms**. The X-37B masses 4,990, a factor of **4.655**.
 
 **The small vehicle keeps the airframe and loses the room.** Thermal protection scales with area, avionics
 and actuators barely scale at all, and structure cannot thin below minimum gauge, so a reusable vehicle
-carries a fixed overhead that the payload bay pays for. The payload capacity of 227 kilograms is
-**4.55 percent** of launch mass.
+carries a fixed overhead that the payload bay pays for. The [published payload capacity][ref_x37] of 227
+kilograms, against the launch mass of 4,990 kilograms, is a payload fraction of
+
+$$\frac{m_{\text{payload}}}{m_{\text{launch}}} = \frac{227}{4{,}990} = 4.55 \ \text{percent}.$$
 
 **This is a vehicle whose reusable airframe, thermal protection, power system and autonomy consume almost the entire mass budget, leaving a payload fraction that would embarrass an expendable upper stage.**
 That is not a criticism. It is the definition of what the vehicle is for.
@@ -1004,13 +1097,14 @@ and it is the part of the record that a single-mission figure conceals.
 
 ### The Seventh Mission, Which Is the Only One Described in Technical Terms
 
-OTV-7 launched into a highly elliptical orbit with a perigee near 300 kilometres, an apogee near 38,600
-kilometres and an inclination of 59 degrees. The two apsides fix the orbit completely,
+OTV-7 launched into a highly elliptical orbit, catalogued with a perigee of 336 kilometres, an apogee of
+37,895 kilometres and an inclination of 59.27 degrees \[[General Catalog of Artificial Space Objects][ref_gcat]\]. The two apsides fix the orbit
+completely,
 
 $$a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \qquad p = a \left( 1 - e^{2} \right)$$
 
-giving a semi-major axis of **25,828 kilometres**, an eccentricity of **0.7414** and, through Kepler's third
-law, a period of **11.47 hours**. **No previous X-37B mission had left low Earth orbit.**
+giving a semi-major axis of **25,494 kilometres**, an eccentricity of **0.7366** and, through Kepler's third
+law, a period of **11.25 hours**. **No previous X-37B mission had left low Earth orbit.**
 
 - [A Guidance and Navigation System for Automatic Stationkeeping...][research_gustafson_kriegsman_1973]
 - [Realisation of rendezvous by the transfer orbit which is...][research_mison_1973]
@@ -1030,19 +1124,26 @@ The speed at any point on an orbit follows from the [vis-viva][ref_vis_viva] rel
 
 $$v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}$$
 
-which gives a perigee speed of **10.1952 kilometres per second** on the elliptical orbit against
-**7.7258 kilometres per second** for a circular orbit at the same altitude. Circularising propulsively at
+which gives a perigee speed of **10.1538 kilometres per second** on the elliptical orbit against
+**7.7050 kilometres per second** for a circular orbit at the same altitude. Circularising propulsively at
 perigee therefore costs
 
-$$\Delta v = v_{p} - v_{c} = 2{,}469.4 \text{ metres per second}.$$
+$$\Delta v = v_{p} - v_{c} = 2{,}448.8 \text{ metres per second}.$$
 
 **The vehicle's entire propulsive budget, on the 500 kilogram assumption used throughout, is 310.6 metres per second.**
-The manoeuvre the atmosphere performed is **7.95 times** everything the engine could have done.
+The manoeuvre the atmosphere performed is **7.88 times** everything the engine could have done.
 
-**And setting it up is nearly free.** Lowering perigee from 300 to 100 kilometres, burning at apogee where
+**And setting it up is nearly free.** Lowering perigee from 336 to 100 kilometres, burning at apogee where
 the vehicle moves slowest and a given impulse moves the opposite apsis furthest, costs
-**19.9 metres per second**. That purchase then harvests 2,469 metres per second from the atmosphere, a
-**leverage of 124 to one**.
+**23.8 metres per second**. The cost is the difference of two apogee speeds from the vis-viva relation, with
+$r_{a}$ fixed at 44,273.1 kilometres and the semi-major axis falling by half the perigee change, from
+25,493.6 to 25,375.6 kilometres,
+
+$$\Delta v_{\text{lower}} = \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}493.6} \right)} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}375.6} \right)} = 1{,}539.85 - 1{,}516.06 = 23.79 \ \text{metres per second}.$$
+
+That purchase then takes 2,449 metres per second from the atmosphere, a **leverage of 103 to one**,
+
+$$\frac{v_{p} - v_{c}}{\Delta v_{\text{lower}}} = \frac{2{,}448.8}{23.79} = 102.9 .$$
 **That ratio is the entire argument for aerobraking and it is arithmetic rather than opinion.**
 
 ### A Feasibility Estimate That Was Wrong, and the Calculation That Overturned It
@@ -1067,18 +1168,22 @@ $$a' = \left( \frac{2}{r_{p}} - \frac{(v_{p} - \Delta v_{\text{pass}})^{2}}{\mu}
 
 Evaluating the first for the seventh mission's orbit gives the following.
 
-| Perigee altitude | Velocity removed per pass | Passes to remove 2,469 metres per second |
+| Perigee altitude | Velocity removed per pass | Passes to remove 2,449 metres per second |
 |---|---|---|
-| 100 kilometres | 4.19014 metres per second | 589 |
-| 110 kilometres | 0.86776 metres per second | 2,846 |
-| 120 kilometres | 0.25709 metres per second | 9,605 |
-| 130 kilometres | 0.10527 metres per second | 23,459 |
-| 150 kilometres | 0.03273 metres per second | 75,444 |
-| 200 kilometres | 0.00557 metres per second | 443,741 |
+| 100 kilometres | 3.35997 metres per second | 729 |
+| 110 kilometres | 0.69584 metres per second | 3,519 |
+| 120 kilometres | 0.20615 metres per second | 11,878 |
+| 130 kilometres | 0.08441 metres per second | 29,010 |
+| 150 kilometres | 0.02625 metres per second | 93,297 |
+| 200 kilometres | 0.00446 metres per second | 548,743 |
 
 Aerobraking was announced in October 2024 and the vehicle landed on 7 March 2025, so roughly 150 days were
-available. At the initial 11.47 hour period that is about **314 passes**, which would demand
-**7.87 metres per second** per pass, and no perigee in that table delivers it above the entry interface.
+available. At the initial 11.25 hour period that is about **320 passes**, which would demand
+**7.65 metres per second** per pass,
+
+$$N = \frac{150 \times 24}{11.253} = 319.9, \qquad \frac{2{,}448.8}{319.9} = 7.65 \ \text{metres per second},$$
+
+and no perigee in that table delivers it above the entry interface.
 
 **That estimate is the wrong instrument and the next calculation overturns it.** The period is not constant.
 Every pass lowers the apogee, which shortens the period, which fits more passes into the same calendar.
@@ -1086,11 +1191,16 @@ Running the walk-down properly, with the orbit updated after every pass, gives a
 
 | Perigee altitude | Passes to reach a 1,000 kilometre apogee | Elapsed time |
 |---|---|---|
-| 100 kilometres | 467 | 81.2 days |
-| 110 kilometres | 2,250 | 391.0 days |
-| 120 kilometres | 7,588 | 1,319.6 days |
+| 100 kilometres | 579 | 99.7 days |
+| 110 kilometres | 2,792 | 480.7 days |
+| 120 kilometres | 9,415 | 1,622.4 days |
 
-**A perigee near 100 kilometres fits the calendar and the ones above it do not.** The fixed-period estimate
+**A perigee near 100 kilometres fits the calendar and the ones above it do not.** Against the roughly 150
+days available, the walk-down times at 100 and 110 kilometres fall on either side,
+
+$$99.7 \ \text{days} \;<\; 150 \ \text{days} \;<\; 480.7 \ \text{days}.$$
+
+The fixed-period estimate
 said the manoeuvre was infeasible at every perigee, and it was wrong, because it held constant the one
 quantity the manoeuvre is designed to change.
 **The crude version is left standing in this article deliberately**, because the difference between the two
@@ -1104,10 +1214,16 @@ is the whole lesson.
 - [Minimum-fuel aeroassisted coplanar orbit transfer using...][research_measekd_vinhnx_1983]
 
 **And the passes are thermally mild, which is why the manoeuvre is attractive.** At a perigee speed of
-10.371 kilometres per second and the density at 100 kilometres, the stagnation flux on a 0.30 metre nose
-radius is **25.82 watts per square centimetre** and the radiative equilibrium temperature is
-**1,521 kelvin**. That is roughly a fifth of the flux computed earlier for a full entry.
-**The vehicle is not reentering four hundred and sixty-seven times. It is grazing.**
+10.361 kilometres per second and the density at 100 kilometres, the stagnation flux on a 0.30 metre nose
+radius is **25.74 watts per square centimetre** and the radiative equilibrium temperature is
+**1,520 kelvin**. That is roughly a fifth of the flux computed earlier for a full entry. The Sutton and Graves
+correlation with the model density of $5.297 \times 10^{-7}$ kilograms per cubic metre at 100 kilometres, and
+the radiative balance at an emissivity of 0.85, give
+
+$$\dot{q}_{s} = 1.7415 \times 10^{-4} \sqrt{\frac{5.297 \times 10^{-7}}{0.30}} \, (10{,}361.1)^{3} = 2.574 \times 10^{5} \ \text{W/m}^{2}, \qquad T_{w} = \left( \frac{\dot{q}_{s}}{0.85 \, \sigma} \right)^{1/4} = 1{,}520 \ \text{K},$$
+
+and the ratio to the full-entry flux at the same nose radius is $25.74 / 125.62 = 0.205$.
+**The vehicle is not reentering five hundred and seventy-nine times. It is grazing.**
 
 ### Why This Vehicle Is Bad at Aerobraking, and Which Spacecraft Are Good at It
 
@@ -1119,16 +1235,21 @@ $$\Delta v_{\text{pass}} \propto \frac{1}{B} \qquad \Longrightarrow \qquad N_{\t
 
 at a fixed perigee.
 **Halving the ballistic coefficient halves the number of passes, and at a fixed orbital period it halves the calendar.**
-The Mars Reconnaissance Orbiter turned its twenty square metres of solar array broadside into the flow and
-used them as brakes, reaching a ballistic coefficient near **25.7 kilograms per square metre**.
-**The X-37B, a dense body with a small array, sits near 500**, a ratio of **19.5**.
+The Mars Reconnaissance Orbiter aerobraked with its solar arrays broadside to the flow, presenting a drag area
+of 37.5 square metres at a pre-aerobraking mass of about 1,400 kilograms
+\[[Mars Reconnaissance Orbiter Operational Aerobraking Phase Assessment][ref_mro_aerobraking]\]. With a drag
+coefficient of 2.0, which is assumed here as typical of free molecular flow and is not taken from that source,
+
+$$B_{\text{MRO}} = \frac{1{,}400}{2.0 \times 37.5} = 18.7 \ \text{kilograms per square metre}, \qquad \frac{B_{\text{X-37B}}}{B_{\text{MRO}}} = \frac{623.75}{18.67} = 33.4 .$$
+
+**The X-37B, a dense body with a small array, sits near 624**, a ratio of **33.4**.
 
 **That is why a manoeuvre routine at Mars required a perigee at the edge of the atmosphere here.** The X-37B
 cannot reconfigure itself into a brake, so it has to find its drag in denser air instead.
 
 **What the arithmetic does not settle is how much of the apogee reduction was aerodynamic.** The
 announcement says aerobraking was used to change the orbit with minimal fuel and to dispose of the service
-module. It does not say that the entire reduction from 38,600 kilometres was aerodynamic, and this article
+module. It does not say that the entire reduction from 37,895 kilometres was aerodynamic, and this article
 does not assume it was.
 **What the arithmetic does establish is that the manoeuvre is feasible for this vehicle only at a perigee near 100 kilometres, and that at such a perigee it is both fast enough and thermally mild enough to have been done.**
 
@@ -1205,6 +1326,10 @@ That is a selection rule, not a random draw, and reading the programme's purpose
 Every mission has been located and tracked by a distributed network of amateur optical observers, who
 recover orbital elements from timed positional measurements against the star background.
 **That is how the 54.5 degree inclination of the fifth mission became known, how the manoeuvres of the sixth were detected, and how the seventh mission's highly elliptical orbit was characterised.**
+The fifth mission's orbit was recovered in April 2018 from a chance sighting by an observer in the
+Netherlands, who estimated a circular orbit of about 54.5 degrees inclination at 355 kilometres, refined
+with an earlier observation from Scotland
+\[[US Military's Mysterious X-37B Space Plane Spotted by Satellite Trackers][ref_otv5_tracked]\].
 
 **The technique is old, cheap and impossible to prevent.** A vehicle in low Earth orbit is a sunlit object
 against a dark sky for a predictable window at dawn and dusk, and the same geometry that lets it see the
@@ -1270,18 +1395,18 @@ dimensions and the public orbit. Three of them meet an observed quantity, and ea
 it first appears.
 
 The first is the drag budget. The section headed Sizing From First Principles computed that a 908.88 day
-mission costs between 23 and 151 kilograms of propellant between 300 and 400 kilometres, and that below about
-250 kilometres a mission of that length is not affordable at all. The missions were tracked in orbits between
-roughly 300 and 400 kilometres.
+mission costs between 23 and 152 kilograms of propellant between 300 and 400 kilometres, and that below about
+250 kilometres a mission of that length is not affordable at all. The six low-orbit missions are catalogued
+between 309 and 409 kilometres.
 **The observed altitude and the observed duration are consistent with the computed budget**, which is
 agreement between an analysis and a public orbit rather than between a programme prediction and programme
 data. It rests on an assumed drag area and an assumed propellant load, as the section headed Where the
 Framing Breaks Down states.
 
 The second is the aerobraking campaign. A fixed-period estimate found that no perigee above the entry
-interface could remove 2,469 metres per second in the roughly 150 days between the October 2024 announcement
+interface could remove 2,449 metres per second in the roughly 150 days between the October 2024 announcement
 and the landing on 7 March 2025. The walk-down that updates the orbit after every pass found that a perigee
-near 100 kilometres reaches a 1,000 kilometre apogee in 81.2 days.
+near 100 kilometres reaches a 1,000 kilometre apogee in 99.7 days.
 **The announced manoeuvre and the landing that followed are what the corrected calculation permits and the crude one forbids.**
 The comparison stops there, because the perigee flown, the number of passes and the fraction of the apogee
 reduction that was aerodynamic are not public.
@@ -2092,18 +2217,19 @@ measured a kilowatt.
 
 ### The Drag Area Is Assumed
 
-The ballistic coefficient of 500 kilograms per square metre rests on an assumed drag area of 8 square metres
-and an assumed on-orbit mass of 4,000 kilograms. **Neither is published.** The makeup requirement in the drag
+The ballistic coefficient of 623.75 kilograms per square metre rests on an assumed drag area of 8 square
+metres and on the launch mass of 4,990 kilograms standing for the mass on orbit. **The drag area is not
+published, and the mass on orbit is not either.** The makeup requirement in the drag
 section is linear in the drag area, so nearly doubling the area roughly doubles every velocity increment, and
 the qualitative conclusion survives that. **The altitude floor does not survive it unchanged**, and a reader
-should treat 254.4 kilometres as an order rather than a number.
+should treat 245.4 kilometres as an order rather than a number.
 
 ### The Propellant Load Is a Guess and It Propagates Widely
 
 **The 500 kilogram propellant assumption appears in the altitude floor, in the aerobraking leverage ratio and in the plane change comparison**,
 and no input in the article is less defensible. It was chosen as a round tenth of launch mass.
 **Every ratio that divides by 310.6 metres per second should be read as scaling inversely with whatever the true load is.**
-The aerobraking conclusion is robust to it, because a factor of 7.95 would survive a doubling of the
+The aerobraking conclusion is robust to it, because a factor of 7.88 would survive a doubling of the
 propellant load and still be decisive. The altitude floor is not robust to it.
 
 ### The Aerobraking Reconstruction Is Not a Reconstruction
@@ -6635,11 +6761,11 @@ The article computes bounds precisely because none of these exists.
 
 The programme began at the space agency in 1999 with Boeing as contractor, transferred to the Defense
 Advanced Research Projects Agency on 13 September 2004, and the Air Force announced its own derivative on 17
-November 2006. The X-40A was an 85 percent scale drop-test vehicle and the X-37 is a 120 percent scaled
+November 2006. The X-40A was an 80 percent scale drop-test vehicle and the X-37 is a 120 percent scaled
 derivative of it. The Approach and Landing Test Vehicle first flew on 7 April 2006 and its first free flight
 ended in a runway excursion. Eight orbital missions have launched since 22 April 2010, of which seven have
 landed, totalling 4,208.57 days. The sixth mission lasted 908.88 days. The seventh flew a highly elliptical
-orbit with an apogee near 38,600 kilometres and an inclination of 59 degrees, and the Space Force announced
+orbit catalogued at 336 by 37,895 kilometres and an inclination of 59.27 degrees, and the Space Force announced
 in October 2024 that it would use aerobraking to change that orbit and dispose of its service module. The
 published dimensions are 8.92 metres long, 4.55 metres in span, 2.90 metres high, with a payload bay of 2.1
 by 1.2 metres and a launch mass of 4,990 kilograms.
@@ -6659,7 +6785,7 @@ and agrees with an integration that retains the term it claims cancels.
 ### Inference
 
 That the eclipse average describes what the mission experienced rather than a modelling convenience is an
-inference from the node and beta cycles being short against the mission, at 58.35 and 50.32 days against
+inference from the node and beta cycles being short against the mission, at 63.31 and 53.95 days against
 908.88. That the square-cube penalty rather than a design choice explains the payload fraction is an
 inference from the measured mass exponent of 1.924, and other explanations are available.
 
@@ -6694,15 +6820,15 @@ The detailed chemistry of TUFROC and its successors.
 **The X-37B answered a question about endurance, and the answer is that endurance in orbit is cheap once the power loop is sized for it.**
 A 908-day mission is 14,140 charge and discharge cycles, which a battery cycled to something between 38 and
 50 percent depth of discharge will survive, at a mass penalty of roughly fifteen kilograms for each kilowatt
-of continuous load. The drag makeup over the same mission is between 23 and 151 kilograms of propellant at
+of continuous load. The drag makeup over the same mission is between 23 and 152 kilograms of propellant at
 the altitudes flown. **Neither number is large for a five-tonne vehicle, and that is the finding.** The
 obstacle to a very long orbital mission was never physics. It was the willingness to build a vehicle that
 had nothing else to do.
 
 **The vehicle's second answer concerns manoeuvre, and it came from the atmosphere rather than the engine.**
-Lowering perigee for twenty metres per second bought two and a half kilometres per second of apogee
-reduction, a leverage of 124 to one, and did it at a fifth of the heat flux of a full entry.
-**A vehicle whose entire propulsive budget is 311 metres per second performed a 2,469 metre per second manoeuvre**,
+Lowering perigee for twenty-four metres per second bought nearly two and a half kilometres per second of
+apogee reduction, a leverage of 103 to one, and did it at a fifth of the heat flux of a full entry.
+**A vehicle whose entire propulsive budget is 311 metres per second performed a 2,449 metre per second manoeuvre**,
 and the only reason it could is that it has a thermal protection system and therefore may touch the
 atmosphere without consequence. **Reusability bought manoeuvrability**, which is not the argument usually
 made for it.
@@ -7029,8 +7155,10 @@ summary of what classification achieves and what it costs.
 - [Dinitrogen tetroxide][ref_nto]
 - [FalconSat-8][ref_falconsat8]
 - [Gallium arsenide solar cells][ref_gaas]
+- [General Catalog of Artificial Space Objects, Jonathan C. McDowell, release 1.8.8, 2026][ref_gcat]
 - [High-test peroxide][ref_h2o2]
 - [Hydrazine][ref_hydrazine]
+- [Mars Reconnaissance Orbiter Operational Aerobraking Phase Assessment, Jill L. Prince and Scott A. Striepe, AAS 07-244, 2007][ref_mro_aerobraking]
 - [NASA account of the X-37 flight demonstrator][ref_nasa_x37]
 - [NASA account of the X-40A Space Maneuvering Vehicle][ref_smv]
 - [National Aeronautics and Space Administration][ref_nasa]
@@ -7044,10 +7172,12 @@ summary of what classification achieves and what it costs.
 - [Space-based solar power][ref_sbsp]
 - [Stagnation point heating correlations][ref_sutton_graves]
 - [Stefan-Boltzmann law][ref_stefan_boltzmann]
+- [The Space Shuttle Decision, NASA SP-4221, by T. A. Heppenheimer, 1999][ref_shuttle_decision]
 - [The X-37B payload bay as described by the United States Space Force][ref_payload_bay]
 - [Toughened Uni-piece Fibrous Reinforced Oxidation-resistant Composite][ref_tufroc]
 - [Tsiolkovsky rocket equation][ref_rocket_equation]
 - [United States Air Force][ref_usaf]
+- [US Military's Mysterious X-37B Space Plane Spotted by Satellite Trackers, Leonard David, Space.com, 2018][ref_otv5_tracked]
 - [Vis-viva equation][ref_vis_viva]
 
 [ref_aerobraking]: https://en.wikipedia.org/wiki/Aerobraking
@@ -7061,16 +7191,20 @@ summary of what classification achieves and what it costs.
 [ref_equilibrium_glide]: https://en.wikipedia.org/wiki/Atmospheric_entry
 [ref_falconsat8]: https://en.wikipedia.org/wiki/FalconSat
 [ref_gaas]: https://en.wikipedia.org/wiki/Gallium_arsenide
+[ref_gcat]: https://planet4589.org/space/gcat/
 [ref_h2o2]: https://en.wikipedia.org/wiki/High-test_peroxide
 [ref_hydrazine]: https://en.wikipedia.org/wiki/Hydrazine
+[ref_mro_aerobraking]: https://ntrs.nasa.gov/citations/20070010460
 [ref_nasa]: https://en.wikipedia.org/wiki/NASA
 [ref_nasa_x37]: https://www.nasa.gov/aeronautics/aircraft/x-37/
 [ref_nto]: https://en.wikipedia.org/wiki/Dinitrogen_tetroxide
 [ref_orbital_period]: https://en.wikipedia.org/wiki/Orbital_period
+[ref_otv5_tracked]: https://www.space.com/40359-x-37b-space-plane-spotted-by-satellite-watchers.html
 [ref_payload_bay]: https://www.spaceforce.mil/About-Us/Fact-Sheets/Article/2197987/x-37b-orbital-test-vehicle/
 [ref_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_sbsp]: https://en.wikipedia.org/wiki/Space-based_solar_power
 [ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
+[ref_shuttle_decision]: https://ntrs.nasa.gov/citations/19990056590
 [ref_sli]: https://en.wikipedia.org/wiki/Space_Launch_Initiative
 [ref_smv]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-40/
 [ref_stefan_boltzmann]: https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law

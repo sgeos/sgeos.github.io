@@ -275,7 +275,7 @@ $$
 
 **The record counts fifty-four flights over both vehicles and every wing configuration, thirty-one of them in the flexible wing campaign at Armstrong from 2017 to 2019** \[[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]\] \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\]. **The record is arranged in this article by what each part of it shows rather than by date.**
 
-The subsections headed Finding a Boundary You Intend to Cross, The Two Stability Problems Disagree About Which Fuel State Is Dangerous, Flying Past It, and Switching the Controller Off to Watch, and The Limit Cycle the Suppressor Could Not See report the flutter campaign. In it the envelope was expanded from 60 to 120 knots against a flutter onset between 111 and 114 knots, and the controller was frozen in flight so that the instability could be observed \[[X-56A Multi-Utility Technology Testbed, NASA][ref_nasa_x56]\].
+The subsections headed Finding a Boundary You Intend to Cross, The Two Stability Problems Disagree About Which Fuel State Is Dangerous, Flying Past It, and Switching the Controller Off to Watch, and The Limit Cycle the Suppressor Could Not See report the flutter campaign. In it the envelope was expanded from 60 to 120 knots against a flutter onset between 111 and 114 knots, and the controller was frozen in flight so that the instability could be observed \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\] \[[X-56A Multi-Utility Technology Testbed, NASA][ref_nasa_x56]\].
 
 The subsection headed The Aeroplane Built to Flutter Was Destroyed by Rotation reports the loss of the first vehicle on 19 November 2015, which came before that campaign. The subsection headed Landing Was the Other Dangerous Part reports the ground drop tests and the changes made before the first flexible wing flight at Armstrong on 31 August 2017. The subsection headed The Register Said Mechanisms, and the Aeroplane Exhibited One reports the second mechanism, which was predicted and never reached.
 
@@ -295,13 +295,19 @@ $$
 
 **The parameter is defined only below the boundary**, which is the property that makes it useful and also the property that makes it awkward. It gives an estimate of a speed the aeroplane has not reached from data taken where the aeroplane is safe, and it stops being defined at exactly the moment the answer would be observable.
 
-**Its accuracy improved as the boundary was approached, which is both reassuring and the reason the buildup had to be incremental.** With data only from low speed, far from flutter, the prediction was significantly wrong because the extrapolation was long. **From ten knots away it was within one knot**, which on a boundary of 111 knots is under one percent \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\].
+**Its accuracy improved as the boundary was approached, which is both reassuring and the reason the buildup had to be incremental.** With data only from low speed, far from flutter, the prediction was significantly wrong because the extrapolation was long. **From ten knots away it was within one knot** \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\]. For a predicted flutter speed $\hat{V}_F$ set against the observed $V_F$ of 111 knots, the relative error is therefore bounded by
+
+$$
+\frac{|\hat{V}_F - V_F|}{V_F} \;\le\; \frac{1}{111} = 0.0090
+$$
+
+which is under one percent.
 
 **The lower order equivalent system method the programme fitted to its flight data is itself an old technique with a known literature** \[[Low-Order Approaches to High-Order Systems Problems and Promises][research_mitchell_hoh_low_order]\] \[[Mitchell and Hoh 1981][research_mitchell_hoh_conference]\], and the multisine excitation and frequency domain estimation used to feed it were developed and reported across a series of papers by the same two authors \[[Grauer and Boucher 2018][research_grauer_boucher_2018]\] \[[Grauer and Boucher 2018][research_grauer_boucher_2018_b]\] \[[Grauer and Boucher 2019][research_grauer_boucher_2019]\] \[[Grauer and Boucher 2020][research_grauer_boucher_2020]\] \[[Grauer and Boucher 2020][research_grauer_boucher_2020_b]\] \[[Real-Time Estimation of Bare-Airframe Frequency Responses from Closed-Loop Data and Multisine Inputs][research_grauer_bare_airframe]\].
 
 **Alongside the damping estimates the programme recovered a dynamic model from measured inputs and outputs at every cleared condition, which is system identification** \[[System Identification][ref_system_identification]\], performed in the air on a vehicle whose model was the thing in question. The structure underneath it is an ordinary aircraft structure in every respect except how much it bends \[[Megson, Aircraft structures for engineering students][book_megson]\].
 
-The envelope was expanded in ten knot increments until the predicted boundary was within ten knots, and in five knot increments after that. At each new condition the aeroplane was excited with a short doublet, called a rap, applied to the outboard surfaces, of 0.25 seconds and one to one and a half degrees of amplitude.
+The envelope was expanded in ten knot increments until the predicted boundary was within ten knots, and in five knot increments after that. At each new condition the aeroplane was excited with a short doublet, called a rap, applied to the outboard surfaces, of 0.25 seconds and one to one and a half degrees of amplitude \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\].
 
 **The requirement to proceed was the closed loop damping gate already stated**, and separately a gain margin above 3 decibels and a phase margin above 30 degrees \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\] \[[Gain Margin][ref_gain_margin]\] \[[Phase Margin][ref_phase_margin]\].
 
@@ -311,7 +317,13 @@ The envelope was expanded in ten knot increments until the predicted boundary wa
 
 As fuel burns, the centre of gravity moves forward, and a forward centre of gravity is more statically stable in pitch. **The report therefore records the greatest instability condition as occurring at takeoff**, with static pitch stability increasing as fuel is consumed \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\].
 
-**The flutter boundary runs the other way.** At the low fuel and forward centre of gravity condition, flutter onset was found at about 111 knots. At the high fuel and aft centre of gravity condition it was about 114 knots.
+**The flutter boundary runs the other way.** At the low fuel and forward centre of gravity condition, flutter onset was found at about 111 knots. At the high fuel and aft centre of gravity condition it was about 114 knots \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\]. Writing $V_F^{\mathrm{fwd}}$ and $V_F^{\mathrm{aft}}$ for the flutter speeds in those two conditions, the shift with fuel state is
+
+$$
+V_F^{\mathrm{aft}} - V_F^{\mathrm{fwd}} = 114 - 111 = 3
+$$
+
+knots, and it is positive, so the aft condition flutters later.
 
 **So the fuel state that is statically the safer one is the aeroelastically more dangerous one.** The aeroplane is most statically unstable when it is full and least statically unstable when it is nearly empty, and it flutters earliest when it is nearly empty. **Three knots is not a large number, but the sign is the finding**, and the sign is the opposite of what a single intuition about stability would produce.
 
@@ -396,12 +408,18 @@ $$
 $$
 
 $$
-\dot{h} = 1,\; V = 33.4 \;\Longrightarrow\; \Delta\alpha = -1.71^{\circ}
+\dot{h} = 1,\; V = 65 \times 0.5144 = 33.4 \;\Longrightarrow\; \Delta\alpha = -1.71^{\circ}
 $$
 
-**At a takeoff speed of 65 knots, a wingtip rising at one metre per second loses 1.71 degrees of local angle of attack.** For comparison, the deliberate excitation used to provoke the flutter mode at the boundary was a control surface deflection of one to one and a half degrees. **A single metre per second of tip motion during rotation is the same order of disturbance as the input the programme used, years later, to make the aeroplane flutter on command.**
+**At a takeoff speed of 65 knots, a wingtip rising at one metre per second loses 1.71 degrees of local angle of attack**, where the takeoff speed is the flight test report's and 0.5144 converts knots to metres per second \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\]. For comparison, the deliberate excitation used to provoke the flutter mode at the boundary was a control surface deflection of one to one and a half degrees. **A single metre per second of tip motion during rotation is the same order of disturbance as the input the programme used, years later, to make the aeroplane flutter on command.**
 
-**So the aeroplane commissioned to exhibit an aeroelastic instability was destroyed by an aeroelastic effect, at about sixty knots, with the flutter boundary fifty knots away and entirely irrelevant.** The effect that killed it is not flutter. It is a quasi-static coupling between wing bending and pitching moment, operating during the few seconds of rotation, in a regime the modelling effort had not been aimed at.
+With $V_{TO}$ for that takeoff speed and $V_1$ for the lower flutter onset speed of 111 knots, the flutter boundary lay
+
+$$
+V_1 - V_{TO} = 111 - 65 = 46
+$$
+
+knots above it. **So the aeroplane commissioned to exhibit an aeroelastic instability was destroyed by an aeroelastic effect near its takeoff speed of 65 knots, with the flutter boundary 46 knots away and entirely irrelevant.** The effect that killed it is not flutter. It is a quasi-static coupling between wing bending and pitching moment, operating during the few seconds of rotation, in a regime the modelling effort had not been aimed at.
 
 **The programme's own account of why is unusually direct.** At the time of the mishaps, a piloted simulation with fully coupled structural dynamics was an active area of research for the team but was not a requirement for airworthiness. The fully coupled models that existed were built for the up and away condition and were not useful for a vehicle transitioning to or from the ground, and did not include landing gear dynamics \[[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]\].
 
@@ -425,15 +443,19 @@ The fixes were partly geometric and partly control. **The gear geometry was adju
 
 The first mechanism, body freedom flutter, was found between 111 and 114 knots depending on fuel state. **A second mechanism was predicted from the flight data, involving the first symmetric wing bending mode and the first symmetric wing torsion mode**, at 138 knots at low fuel and 144 knots at high fuel \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\].
 
-**The maximum level flight speed of the aeroplane is 135 knots.** It can reach 150 knots in a dive. **So the second mechanism sits between three and nine knots above anything the aeroplane can do in level flight**, and is reachable only in a descent.
-
-**And the envelope was expanded to 120 knots, which is eighteen knots short of the second mechanism at its most optimistic.** The aeroplane never exhibited it.
+**The maximum level flight speed of the aeroplane is 135 knots.** It can reach 150 knots in a dive \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\]. **And the envelope was expanded to 120 knots** \[[Schaefer and others, Flying Beyond Flutter with the X-56A Aircraft, NASA TM 20220012337][ref_beyond_flutter]\]. With $V_2$ for the second mechanism's speed, $V_{\max}$ for the maximum level flight speed and $V_c$ for the highest airspeed cleared in flight, the gaps are
 
 $$
-\frac{q_2}{q_1} = \left(\frac{V_2}{V_1}\right)^{2}= \left(\frac{138}{111}\right)^{2} = 1.55
+V_2 - V_{\max} = 138 - 135 = 3 \;\text{to}\; 144 - 135 = 9, \qquad V_2 - V_c = 138 - 120 = 18
 $$
 
-**The gap is larger than it looks, because flutter is a dynamic pressure before it is a speed.** Reaching 138 knots from 111 requires 55 percent more dynamic pressure, not the 24 percent more airspeed that the two numbers suggest \[[Dynamic Pressure][ref_dynamic_pressure]\].
+knots. **So the second mechanism sits between three and nine knots above anything the aeroplane can do in level flight**, and is reachable only in a descent. **And the envelope stopped eighteen knots short of the second mechanism at its most optimistic.** The aeroplane never exhibited it.
+
+$$
+\frac{V_2}{V_1} = \frac{138}{111} = 1.243, \qquad \frac{q_2}{q_1} = \left(\frac{V_2}{V_1}\right)^{2}= \left(\frac{138}{111}\right)^{2} = 1.55
+$$
+
+**The gap is larger than it looks, because flutter is a dynamic pressure before it is a speed.** With $V_1$ and $q_1$ for the first mechanism's speed and dynamic pressure and $q_2$ for the second's, reaching 138 knots from 111 requires 55 percent more dynamic pressure, not the 24 percent more airspeed that the two numbers suggest \[[Dynamic Pressure][ref_dynamic_pressure]\].
 
 **The reason the second mechanism was not reached is recorded, and it is not aerodynamic.** The programme's retrospective states that the vehicle was capable of likely flying deeper into flutter and possibly getting close to the second flutter mode, and that with only one vehicle left the team became too risk averse, and that the Air Force Research Laboratory kept the project going just enough to get past flutter \[[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]\].
 
@@ -563,7 +585,7 @@ The register also marks certain rows as not drawn from Department of Defense rec
 
 **The first is the plural.** One mechanism was exhibited, and the second was predicted and never reached for want of a spare airframe rather than for want of a mechanism \[[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]\]. The subsection headed The Register Said Mechanisms, and the Aeroplane Exhibited One gives the figures.
 
-**The second is the location of the risk.** A framing built around the research question places the danger at the flutter boundary, and the programme found it at takeoff and landing. The first vehicle was lost on rotation at about sixty knots with the boundary about fifty knots away, and the programme's own summary is that takeoff and landing were more risky than flutter testing \[[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]\]. **A question that a vehicle exists to settle does not say where that vehicle will be lost.**
+**The second is the location of the risk.** A framing built around the research question places the danger at the flutter boundary, and the programme found it at takeoff and landing. The first vehicle was lost on rotation near its takeoff speed of 65 knots with the boundary 46 knots above it, and the programme's own summary is that takeoff and landing were more risky than flutter testing \[[Miller, X-56 Flight Test and Lessons Learned, Aerospace Control and Guidance Systems Committee Meeting 127][ref_x56_lessons]\]. **A question that a vehicle exists to settle does not say where that vehicle will be lost.** The subsection headed The Aeroplane Built to Flutter Was Destroyed by Rotation computes that margin from the flight test report's speeds.
 
 **The third is the second register entry.** The X-56B row records a derivative with a new wing and a date the register itself questions \[[DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The article's account of it, that the airframe was reconfigured rather than newly allocated, is a hypothesis that no document found for this article states. A row that describes a reworked airframe rather than a new question fits a framing of one designation and one question poorly, and the section headed The Second Entry, and the Question Mark That Belongs to the Register records it without resolving it.
 
@@ -664,7 +686,7 @@ The register also marks certain rows as not drawn from Department of Defense rec
 
 **The one clause not delivered is the plural.** A second mechanism was predicted from the flight data at 138 knots at low fuel and 144 at high, between three and nine knots above the maximum level flight speed and reachable only in a dive, and the programme stopped eighteen knots short of its lowest estimate. **It stopped there because the first aeroplane had been destroyed, and one remaining aeroplane cannot be risked the way two can.**
 
-**And the first aeroplane was not destroyed by flutter.** It was destroyed during rotation at about sixty knots, when its flexible wings bent up as lift arrived, the tips lost angle of attack, the aft swept planform turned that into a pitch up moment, and the aeroplane stalled off a takeoff it had made eight times before with stiffer wings. **The instability the programme was funded to study killed it in a form the programme had not modelled, in the one part of the flight nobody had thought was the research.**
+**And the first aeroplane was not destroyed by flutter.** It was destroyed during rotation near its takeoff speed of 65 knots, when its flexible wings bent up as lift arrived, the tips lost angle of attack, the aft swept planform turned that into a pitch up moment, and the aeroplane stalled off a takeoff it had made eight times before with stiffer wings. **The instability the programme was funded to study killed it in a form the programme had not modelled, in the one part of the flight nobody had thought was the research.**
 
 **That is the lesson the programme itself draws, and it generalises past this aeroplane.** The models were built where the interesting physics was and were absent where the ordinary flying was. **A testbed built entirely around its experiment will find that its risk is concentrated in everything else.**
 

@@ -81,14 +81,35 @@ not.** An F-15E at the midpoint between the weight and the maximum take-off weig
 fact sheet states, which is 26,875 kilograms, releasing one missile of 161.5
 kilograms, gives a $\mu$ of 0.601 percent \[[F-15E fact sheet][ref_f15e]\]
 \[[AIM-120 AMRAAM][ref_amraam]\]. A vehicle of 1,800 kilograms releasing two of them gives
-17.94 percent. **The ratio between those two figures is 30.**
+17.94 percent. **The ratio between those two figures is 30.** Subscripts $f$ and $v$ mark the
+fighter and this vehicle.
+
+$$
+\mu_f \;=\; \frac{161.5\ \text{kg}}{26{,}875\ \text{kg}} \;=\; 0.00601,
+\qquad
+\mu_v \;=\; \frac{2 \times 161.5\ \text{kg}}{1{,}800\ \text{kg}} \;=\; 0.1794,
+\qquad
+\frac{\mu_v}{\mu_f} \;=\; 29.9 \;\approx\; 30
+$$
 
 **The fact sheet's figures are 37,500 and 81,000 pounds, converted here at the exact definition of
 the pound, because the sheet's own metric conversion of its take-off weight is wrong.** It prints
 36,450 kilograms where 81,000 pounds is 36,741.0, a difference of
 291 kilograms, and a document that converts its own headline figure incorrectly is
 quoted here by its pounds. The sheet is read from a public archive snapshot because the service's
-site refuses every client, and it is current as of April 2019.
+site refuses every client, and it is current as of April 2019. At the exact definition of
+0.45359237 kilograms to the pound, the conversion and the midpoint are
+
+$$
+\begin{aligned}
+37{,}500\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} &\;=\; 17{,}009.7\ \text{kg},
+\qquad
+81{,}000\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} \;=\; 36{,}741.0\ \text{kg}, \\
+\tfrac12\,(17{,}009.7 + 36{,}741.0)\ \text{kg} &\;=\; 26{,}875\ \text{kg},
+\qquad
+36{,}741.0\ \text{kg} - 36{,}450\ \text{kg} \;=\; 291\ \text{kg}.
+\end{aligned}
+$$
 
 **The missile's mass is variant-dependent and the choice is stated.** The service's fact sheet for
 the missile gives a launch weight of 335 pounds \[[AIM-120 fact sheet][ref_amraam_fs]\], and its
@@ -96,7 +117,14 @@ metric conversion is also wrong, printing 150.75 kilograms where 335 pounds is 1
 heavy variant is given as 161.5 kilograms \[[AIM-120 AMRAAM][ref_amraam]\], and **this
 article models with the heavier figure** because a programme flying in 2026 carries current
 missiles. Every mass fraction here scales linearly in that choice, so a reader preferring the
-baseline figure may reduce each by a tenth, and no conclusion moves.
+baseline figure may scale each by the ratio of the two masses, which removes about 5.9 percent, and
+no conclusion moves.
+
+$$
+335\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} \;=\; 151.95\ \text{kg},
+\qquad
+\frac{151.95\ \text{kg}}{161.5\ \text{kg}} \;=\; 0.941
+$$
 
 **And that factor is a statement about the two launchers alone, because the missile's own mass
 cancels out of it.** Dividing the two definitions gives an identity worth displaying, since it says
@@ -138,9 +166,19 @@ fighter's operating point and at 1.485 times at this vehicle's.** The fighter li
 where the relation is effectively linear. This vehicle lives where every further kilogram of store
 costs half again its proportional share.
 
-**At the operating points themselves the divergence reads as follows.** A fighter's $\mu$ of 0.601 percent amplifies to a figure that rounds to the
-same value. This vehicle's 17.94 percent amplifies to something materially larger, and a
-vehicle at half its own release mass would see its centre of gravity move by the whole store arm.
+**At the operating points themselves the divergence reads as follows.** A fighter's $\mu$ of
+0.601 percent amplifies to 0.605 percent, a change in the third significant figure. This vehicle's
+17.94 percent amplifies to 21.87 percent, and a vehicle at half its own release mass would see its
+centre of gravity move by the whole store arm, since $\alpha$ reaches one there. Because
+$\alpha = m_s / m_1$, each value follows from the masses directly.
+
+$$
+\alpha_f \;=\; \frac{161.5\ \text{kg}}{26{,}875\ \text{kg} - 161.5\ \text{kg}} \;=\; 0.00605,
+\qquad
+\alpha_v \;=\; \frac{323\ \text{kg}}{1{,}800\ \text{kg} - 323\ \text{kg}} \;=\; 0.2187,
+\qquad
+\alpha\big|_{\mu = 0.5} \;=\; \frac{0.5}{1 - 0.5} \;=\; 1
+$$
 
 **Nothing about this aircraft's mass, span, wing area or internal geometry is published**, so $\mu$
 itself cannot be stated. It is swept, and so is every quantity that depends on the vehicle's
@@ -148,6 +186,12 @@ dimensions. The sweep runs from
 1,000 to 3,000 kilograms, which gives $\mu$ from
 32.3 percent down to 10.8 percent for a pair of missiles, and the
 brackets are justified under Dependent Systems from the one published anchor this aircraft has.
+
+$$
+\mu\big|_{m_0 = 1{,}000\ \text{kg}} \;=\; \frac{323\ \text{kg}}{1{,}000\ \text{kg}} \;=\; 0.323,
+\qquad
+\mu\big|_{m_0 = 3{,}000\ \text{kg}} \;=\; \frac{323\ \text{kg}}{3{,}000\ \text{kg}} \;=\; 0.108
+$$
 
 ## The Register Row, and the One Official Word in Its Description
 
@@ -313,6 +357,15 @@ That campaign and that statement both postdate this article's date and are treat
 
 **The award record's 148,305,710.65 dollars is about 72 percent of the
 205.740 million dollars the budget books report for fiscal years 2021 through 2025.**
+That total is the largest figure the funding table below gives for each of those five years, and
+the share follows from it.
+
+$$
+24.000 + 36.000 + 36.000 + 45.527 + 64.213 \;=\; 205.740,
+\qquad
+\frac{148.306\ \text{million dollars}}{205.740\ \text{million dollars}} \;=\; 0.721
+$$
+
 The remainder is government labour, test facilities and the stakeholder organisations the sponsoring
 agency names, none of which passes through a contract to this programme. **A programme's cost is not
 its contracts** and the two records are not substitutes for one another.
@@ -428,7 +481,14 @@ is worth stating because it establishes that the restatements elsewhere are not 
 the books are compiled.
 
 **The largest restatement is fiscal year 2025, which grew 74.8 percent above its own
-request**, from 36.742 million dollars to 64.213 million. A programme whose request was
+request**, from 36.742 million dollars to 64.213 million, and every share in the table's last
+column is the spread over the lowest figure in the same way.
+
+$$
+\frac{64.213 - 36.742}{36.742} \;=\; \frac{27.471}{36.742} \;=\; 0.748
+$$
+
+A programme whose request was
 nearly doubled in execution is a programme that was being accelerated, and the books do not say by
 whom.
 
@@ -528,7 +588,9 @@ programme's.
 | $M_a$ | Aerodynamic moment on the deploying panel | N m |
 | $\theta_h$ | Panel fold angle | rad |
 | $t_d$ | Deployment time | s |
-| $h$ | Altitude | m |
+| $h$ | Altitude, taken as geopotential height | m |
+| $Z$ | Geometric height | m |
+| $r_0$ | Effective Earth radius of the 1976 standard atmosphere | m |
 | $T_a$ | Air temperature | K |
 | $p_a$ | Static pressure | Pa |
 | $\Gamma$ | Tropospheric lapse rate | K m⁻¹ |
@@ -694,8 +756,28 @@ $$
 radius of gyration swept and the estimate labelled as one.** At a load factor $n_z$ of one, which is level flight, at $k_x$ of 0.4 metres and a
 lateral arm of 0.3 metres the kept missile's moment is 475 newton metres, the open
 loop acceleration is 1.8 radians per second squared, **and the bank angle half a second
-after release is about 13 degrees**, the sweep across the stated brackets running from
-6 to 31 degrees. **Half a second is a generous allowance for a control
+after release is about 13 degrees**, for a vehicle of 1,800 kilograms whose remaining mass is
+1,638.5 kilograms.
+
+$$
+\begin{aligned}
+M_x &\;=\; 161.5\ \text{kg} \times 9.80665\ \text{m s}^{-2} \times 1 \times 0.3\ \text{m} \;=\; 475\ \text{N m}, \\
+\dot p &\;=\; \frac{475\ \text{N m}}{1{,}638.5\ \text{kg} \times (0.4\ \text{m})^2} \;=\; 1.812\ \text{rad s}^{-2},
+\qquad
+\phi(0.5\ \text{s}) \;=\; \tfrac12 \times 1.812 \times 0.5^2 \;=\; 0.2265\ \text{rad} \;=\; 12.98^\circ
+\end{aligned}
+$$
+
+**The estimate brackets $k_x$ between 0.3 and 0.5 metres and $y_s$ between 0.2 and 0.4 metres**, and its two
+corners bound the bank angle from 6 to 31 degrees, since $\phi$ grows with $y_s / k_x^2$.
+
+$$
+\phi\big|_{k_x = 0.5,\ y_s = 0.2} \;=\; \frac{161.5 \times 9.80665 \times 0.2}{2 \times 1{,}638.5 \times 0.5^2}\, (0.5)^2 \;=\; 0.0967\ \text{rad} \;=\; 5.5^\circ,
+\qquad
+\phi\big|_{k_x = 0.3,\ y_s = 0.4} \;=\; \frac{161.5 \times 9.80665 \times 0.4}{2 \times 1{,}638.5 \times 0.3^2}\, (0.5)^2 \;=\; 0.537\ \text{rad} \;=\; 30.8^\circ
+$$
+
+**Half a second is a generous allowance for a control
 system to notice, and a vehicle that banks tens of degrees in it has a requirement on control
 bandwidth that came from carrying its stores side by side.**
 
@@ -835,9 +917,23 @@ in its table of adopted constants, and its table of defined gradients gives the 
 layer a gradient of minus 6.5 kelvin per kilometre
 \[[US Standard Atmosphere 1976][ref_atm76]\]. The scan is image-only and the two defining pages
 were read as page images. **One nuance follows from those pages.** The defining
-relations take geopotential height as their argument, the figure of 10,668 metres is treated
-here as geopotential, and the geometric difference at this altitude is under two parts in ten
-thousand, which is smaller than anything it could affect.
+relations take geopotential height as their argument, and the figure of 10,668 metres is treated
+here as geopotential. The same document relates geometric height $Z$ to geopotential height through
+an effective Earth radius $r_0$ of 6,356,766 metres
+\[[US Standard Atmosphere 1976][ref_atm76]\],
+
+$$
+Z \;=\; \frac{r_0\, h}{r_0 - h}
+\;=\; \frac{6{,}356{,}766 \times 10{,}668}{6{,}346{,}098}\ \text{m}
+\;=\; 10{,}685.9\ \text{m},
+\qquad
+\frac{Z - h}{h} \;=\; \frac{h}{r_0 - h} \;=\; 0.00168
+$$
+
+**so the geometric difference is 17.9 metres, or 1.7 parts in a thousand.** Read the other way,
+as a geometric 10,668 metres, the altitude would raise the density by about 0.2 percent to 0.3805
+kilograms per cubic metre and the sound speed to 296.6 metres per second. Each change is in the
+fourth significant figure.
 
 ### A Missile's Reach Is Logarithmic and That Is the Whole Argument
 
@@ -1105,9 +1201,17 @@ design and the design reason is the premise above.**
 ### Structure, Which Is Dominated by the Bay Rather Than by Flight Loads
 
 **A vehicle carrying a store at a large mass fraction is a structure wrapped around a cavity.** The
-missile the programme names is 3.65 metres long and 178 millimetres in
+missile the programme names is 3.655 metres long and 177.8 millimetres in
 diameter, which are the service fact sheet's 143.9 inches and 7 inches
-\[[AIM-120 fact sheet][ref_amraam_fs]\]. **A vehicle that carries it internally cannot be shorter than that
+\[[AIM-120 fact sheet][ref_amraam_fs]\] converted at the exact definition of the inch.
+
+$$
+143.9\ \text{in} \times 0.0254\ \tfrac{\text{m}}{\text{in}} \;=\; 3.655\ \text{m},
+\qquad
+7\ \text{in} \times 25.4\ \tfrac{\text{mm}}{\text{in}} \;=\; 177.8\ \text{mm}
+$$
+
+**A vehicle that carries it internally cannot be shorter than that
 plus its own nose, tail and ejector stroke**, which sets a minimum length independently of any
 aerodynamic consideration.
 
@@ -1318,7 +1422,18 @@ measure and what a pit cannot measure even in principle.
 Momentum conservation says that a pit, which holds the launcher still, separates the store more
 slowly than flight will for the same cartridge. A cartridge that gives the simulant 7 metres a
 second in the pit separates the same store at 7.69 in flight, and for this vehicle the
-correction is 9.9 percent for one missile of the pair and 21.9 percent for both. **That is a
+correction is 9.9 percent for one missile of the pair and 21.9 percent for both, from the ratio
+$1/(1-\mu)$ displayed in the section headed The Flight Test Record.
+
+$$
+\frac{1}{1 - 161.5/1{,}800} \;=\; 1.099,
+\qquad
+\frac{1}{1 - 323/1{,}800} \;=\; 1.219,
+\qquad
+7\ \text{m s}^{-1} \times 1.099 \;=\; 7.69\ \text{m s}^{-1}
+$$
+
+**That is a
 prediction of how a ground measurement will compare with a flight measurement, made before either
 exists**, and the flight half of it is the half the record cannot yet supply.
 
@@ -1360,8 +1475,8 @@ move.**
 
 ### What the Flight Data Would Settle
 
-**One number.** Whether a vehicle at a store mass fraction near 17.94 percent can
-release that store in flight and remain controllable through the transient. Everything derived above
+**One number.** Whether a vehicle at a store mass fraction near 17.94 percent, the value
+of $\mu_v$ displayed under The Research Question, can release that store in flight and remain controllable through the transient. Everything derived above
 is a closed-form consequence of geometry and mass, and every one of those consequences is computable
 before the vehicle flies. **What is not computable is whether the transient is benign**, because the
 transient involves the store's wake, the bay's flow, the plume if the motor lights near the vehicle,
@@ -1474,8 +1589,8 @@ least six ways, each of which is named here and not left for a reader to find.**
 **$\mu$ is unpublished because the vehicle's mass is unpublished**, so every figure in this article
 that depends on it is a sweep rather than a measurement. The sweep's brackets are argued from the
 engine's provenance and that argument is an inference. **A reader who takes
-17.94 percent as this aircraft's store mass fraction is taking the middle of a sweep as
-a fact**, and this article's only defence against that is to keep saying so.
+the 17.94 percent of the $\mu_v$ display under The Research Question as this aircraft's store mass
+fraction is taking the middle of a sweep as a fact**, and this article's only defence against that is to keep saying so.
 
 ### A Static Margin Band Is a Judgement and the Bound Inherits It
 

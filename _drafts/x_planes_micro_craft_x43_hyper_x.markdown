@@ -56,14 +56,25 @@ and the captured air flow is
 
 $$\dot{m}_{0} = \rho V_{0} A_{c}$$
 
-**For a hydrogen scramjet at stoichiometric the fuel flow is about 2.9 percent of the air flow**, so
-the two mass flows are nearly equal and the thrust is dominated by the velocity difference,
+**For a hydrogen scramjet at stoichiometric the fuel flow is about 2.9 percent of the air flow.** Two
+moles of hydrogen burn each mole of oxygen, and air carries oxygen at a mole fraction $x_{\mathrm{O_2}}$
+of 0.209476 and a mean molar mass $\mathcal{M}_{\text{air}}$ of 28.9644 grams per mole in the 1976
+standard atmosphere\[[NOAA, NASA and USAF 1976][research_us_atmos_1976]\], so the stoichiometric
+fuel to air mass ratio is
+
+$$f_{\text{st}} = \frac{2 \mathcal{M}_{\mathrm{H_2}} \, x_{\mathrm{O_2}}}{\mathcal{M}_{\text{air}}} = \frac{2 \times 2.016 \times 0.209476}{28.9644} = 0.0292$$
+
+with $\mathcal{M}_{\mathrm{H_2}}$ the molar mass of hydrogen. The two mass flows are therefore nearly
+equal and the thrust is dominated by the velocity difference,
 
 $$F_{\text{thrust}} \approx \dot{m}_{0} \left( V_{e} - V_{0} \right)$$
 
-**The exit velocity exceeds the flight velocity by a few percent, not by a factor.** At the Mach 7
-condition a five percent excess gives 103 newtons of thrust per kilogram per second of captured air,
-and at Mach 10 it gives 147. **Everything in the engine is spent on that few percent**, and the drag
+**The exit velocity exceeds the flight velocity by a few percent, not by a factor.** Taking a five
+percent excess as an illustration, the thrust per unit of captured air flow is
+
+$$\frac{F_{\text{thrust}}}{\dot{m}_{0}} = 0.05 \, V_{0} = 0.05 \times 2{,}056 = 103 \ \tfrac{\text{N}}{\text{kg/s}} \qquad 0.05 \times 2{,}959 = 148 \ \tfrac{\text{N}}{\text{kg/s}}$$
+
+at the Mach 6.83 and Mach 9.68 flight speeds derived below. **Everything in the engine is spent on that few percent**, and the drag
 is subtracted from it afterwards. At the flight condition, both terms are large
 and their difference is small. A ground facility can produce one of them with an uncertainty band, and
 computational fluid dynamics can produce the other with an uncertainty band, and if those bands are
@@ -83,15 +94,26 @@ programme**\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\], and i
 is the failure of something much larger.
 
 The National Aero-Space Plane had proposed a single-stage air-breathing vehicle flying from a runway to
-orbit, and it consumed roughly a decade and several billion dollars before cancellation in 1993 without
-producing a flight
-article\[[Piland 1987][research_piland_1987]\]\[[Tank 1991][research_tank_1991]\]. **The propulsion state of
+orbit\[[Piland 1987][research_piland_1987]\]\[[Tank 1991][research_tank_1991]\]. NASA's history of the
+X-43A records that it received government approval in 1986 and was cancelled in October 1994, after some
+2.4 billion dollars and eight years of work, without a workable design and without a flight
+article\[[Peebles 2007][research_peebles_2007]\]. **The propulsion state of
 the art it left behind was surveyed at the time**, and the survey makes plain that the hard part was
 never the combustion but the
 integration\[[Guy 1990][research_guy_1990]\]. **Hyper-X inverted its logic.** Rather than designing an operational
 vehicle around propulsion that had never flown, it proposed to fly the propulsion first, on a vehicle
 small enough to be expendable, and to use the resulting data to calibrate the tools that any later
 vehicle would be designed with.
+
+**The concept came out of the panels that reviewed the end of that programme.** The programme's
+technology summary records that NASA developed Hyper-X in 1995 and 1996 after several blue-ribbon
+panels recommended flight experiments with airframe-integrated scramjets as the next major step in
+hypersonic research\[[Voland and Huebner 2005][research_voland_2005]\]. **The first public description
+planned four flights on four expendable twelve foot vehicles**, a Mach 7 flight first, scheduled for
+the middle of 1999, then Mach 5, then two at Mach 10\[[Freeman and others 1997][research_freeman_1997]\].
+The first flight was in fact made in June 2001. **Cost growth during design
+restructured the project**, and the Mach 5 flight was dropped in favour of two flights at Mach 7 and
+one at Mach 10\[[Peebles 2007][research_peebles_2007]\].
 
 **The programme was a collaboration between Langley Research Center and Dryden Flight Research
 Center**\[[Rausch and McClinton 2000][research_rausch_2000]\]\[[McClinton and others 2001][research_mcclinton_2001]\],
@@ -109,8 +131,10 @@ time, and any measurement not taken during the ten seconds of powered flight is 
 **The programme is unusual in this series for having published its own failure in detail**, and one of
 its chief engineers later published a personal account of the flight test
 as well\[[Marshall and Corpening 2005][research_marshall_chief_2005]\]. The mishap
-investigation board convened five days after the first flight and its report of findings runs to
-several volumes, of which the first is public. **It is the best single source on this vehicle** and it
+investigation board convened on 5 June 2001, three days after the first flight, and its report of
+findings runs to five volumes, of which the first is public, with its sections on findings and
+recommendations withheld as export controlled\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
+**It is the best single source on this vehicle** and it
 is used throughout this article, including for the vehicle description, because the board had to
 establish the configuration before it could analyse the loss.
 
@@ -136,11 +160,14 @@ temperature $T$,
 
 $$T_{0} = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)$$
 
-At the two flight conditions this vehicle actually flew, that evaluates to
+**The two powered flights reached Mach 6.83 in nearly level flight at about 95,000 feet and Mach 9.68
+at about 110,000 feet**, the maximum powered Mach numbers the flight reports give\[[Marshall and Corpening 2005][research_marshall_chief_2005]\]\[[Marshall and Bahm 2005][research_marshall_2005]\]\[[Voland and Huebner 2005][research_voland_2005]\].
+Taking the static temperature at each altitude from the 1976 standard atmosphere, 225.5 and 232.4
+kelvin\[[NOAA, NASA and USAF 1976][research_us_atmos_1976]\], the relation evaluates to
 
 $$T_{0} = 225.5 \left( 1 + 0.2 \times 6.83^{2} \right) = 2{,}329 \ \text{K}$$
 
-$$T_{0} = 232.4 \left( 1 + 0.2 \times 9.6^{2} \right) = 4{,}517 \ \text{K}$$
+$$T_{0} = 232.4 \left( 1 + 0.2 \times 9.68^{2} \right) = 4{,}588 \ \text{K}$$
 
 **A ramjet works by decelerating the flow to subsonic speed before burning it.** If this vehicle's
 inlet had done that, taking the flow only as far as sonic conditions, the static temperature entering
@@ -148,7 +175,7 @@ the combustor would be
 
 $$T_{\text{throat}} = \frac{T_{0}}{1 + \frac{\gamma - 1}{2}} = \frac{T_{0}}{1.2}$$
 
-which is 1,941 kelvin at Mach 7 and 3,764 kelvin at Mach 10.
+which is 1,941 kelvin at Mach 6.83 and 3,824 kelvin at Mach 9.68.
 
 **Oxygen begins to dissociate appreciably above roughly 2,500 kelvin and nitrogen above roughly 4,000
 kelvin**\[[Anderson][book_anderson_hypersonic]\]. At the Mach 10 condition, a subsonic-combustion inlet delivers air to the combustor that is
@@ -161,7 +188,7 @@ ratio available at those conditions is
 
 $$\frac{p_{0}}{p} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}$$
 
-which is 3,543 at Mach 6.83 and 32,345 at Mach 9.6. **A perfect inlet would
+which is 3,543 at Mach 6.83 and 34,178 at Mach 9.68. **A perfect inlet would
 deliver all of it and a real one loses total pressure across every shock**, with the losses
 compounding, which is why hypersonic compression is taken through several weak oblique shocks rather
 than one strong one.
@@ -189,19 +216,34 @@ altitudes and the two flight Mach numbers gives
 | | Mach | Altitude, ft | $\rho$, kg/m³ | $V$, m/s | $q$, lbf/ft² |
 |---|---|---|---|---|---|
 | Flight 2 | 6.83 | 95,000 | 0.0216 | 2,056 | 955 |
-| Flight 3 | 9.6 | 110,000 | 0.0107 | 2,934 | 957 |
+| Flight 3 | 9.68 | 110,000 | 0.01065 | 2,959 | 973 |
 
 Worked out at the two conditions,
 
 $$q_{2} = \tfrac{1}{2} \times 0.0216 \times 2{,}056^{2} = 45.7 \ \text{kPa} = 955 \ \text{lbf/ft}^{2}$$
 
-$$q_{3} = \tfrac{1}{2} \times 0.0107 \times 2{,}934^{2} = 45.8 \ \text{kPa} = 957 \ \text{lbf/ft}^{2}$$
+$$q_{3} = \tfrac{1}{2} \times 0.01065 \times 2{,}959^{2} = 46.6 \ \text{kPa} = 973 \ \text{lbf/ft}^{2}$$
 
-**The two flights were flown at the same dynamic pressure to within two pounds per square foot, at Mach
-numbers differing by forty percent.** That is not a coincidence and it is the strongest available check
-that the altitude and Mach pairings quoted for the two flights are mutually consistent, because the
-altitudes and the Mach numbers were reported separately and the agreement was not arranged by this
-article.
+**The design point was a dynamic pressure of about 1,000 pounds per square foot at about 100,000
+feet**\[[Voland and Huebner 2005][research_voland_2005]\], and the standard-atmosphere values above
+fall within five percent of it at Mach numbers differing by more than forty percent. **The flights
+themselves did not hold the same dynamic pressure as closely as the standard atmosphere suggests.**
+The programme's technology summary gives the powered portions as about 980 pounds per square foot on
+the second flight and about 930 on the third\[[Voland and Huebner 2005][research_voland_2005]\].
+For the second flight the programme modelled the atmosphere from sixteen weather balloons launched from
+four sites around the range, precisely in order to compute Mach number and dynamic
+pressure\[[Karlgaard and Tartabini 2004][research_karlgaard_2004]\]. The relative departure
+of each standard-atmosphere figure from the reported one is
+
+$$\frac{q_{\text{std}} - q_{\text{rep}}}{q_{\text{rep}}} = \frac{955 - 980}{980} = -2.6 \ \% \qquad \frac{973 - 930}{930} = +4.6 \ \%$$
+
+**So the reported dynamic pressures differ from each other by 50 pounds per square foot, about five
+percent, where the standard atmosphere places them within 18 of each other.** Since
+$q = \tfrac{1}{2} \gamma p M^{2}$, a departure at a given Mach number is a departure in static
+pressure, and it measures how far the day's atmosphere and the altitudes actually flown differ from
+the standard. The altitude and Mach pairings are therefore consistent with the design corridor,
+and the standard atmosphere is adequate for every order-of-magnitude argument in this article, but it
+is not a substitute for the reconstructed flight conditions.
 
 ### The Inlet Has a Geometric Limit Nobody Can Design Around
 
@@ -227,7 +269,7 @@ The vehicle's net axial force produces an acceleration,
 
 $$a = \frac{F_{\text{net}}}{m} = \frac{F_{\text{thrust}} - D}{m}$$
 
-At a mass of about 3,000 pounds, the net force corresponding to a measurable acceleration is small.
+At the research vehicle's mass of about 3,000 pounds\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\], the net force corresponding to a measurable acceleration is small.
 
 | Acceleration | Net axial force, N | Net axial force, lbf |
 |---|---|---|
@@ -317,8 +359,9 @@ velocity as a fraction of flight velocity and a representative length for a vehi
 
 $$t_{\text{res}} = \frac{L_{c}}{V_{c}}$$
 
-gives residence times of roughly 970 microseconds at Mach 7 and 680 at Mach 10, for a one metre
-combustor at half the flight speed. **At those times the problem is mixing
+gives residence times of roughly 970 microseconds at Mach 6.83 and 680 at Mach 9.68, for a one metre
+combustor at half the flight speed, both of which are illustrative values assumed here rather than
+published dimensions of this engine. **At those times the problem is mixing
 rather than chemistry**, because turbulent mixing is slower than hydrogen kinetics, and every injector
 design is a compromise between fuel penetration and total pressure
 loss\[[Drummond 1991][research_drummond_1991]\].
@@ -347,43 +390,85 @@ with $R_{n}$ the leading edge radius. **The correlation is that of Sutton and
 Graves**\[[Sutton and Graves 1971][research_sutton_graves_1971]\], which generalises the dissociated-air
 stagnation point analysis of Fay and Riddell\[[Fay and Riddell 1958][research_fay_riddell_1958]\] into a
 form usable across gas mixtures. **The constant carries the chemistry and the article uses the standard
-air value**, so the figures below are correlation estimates rather than solutions. Evaluated at the two flight conditions for a three millimetre
-radius,
+air value**, so the figures below are correlation estimates rather than solutions. **The design
+radius is documented.** The desired nose tip radius on the Hyper-X vehicles was 0.030
+inch\[[Ohlhorst and others 2005][research_ohlhorst_2005]\], which is 0.762 millimetres, and evaluated
+at that radius at the two flight conditions the correlation gives
 
 | | $\rho$, kg/m³ | $V$, m/s | $\dot{q}_{s}$, MW/m² | W/cm² |
 |---|---|---|---|---|
-| Flight 2 | 0.0216 | 2,056 | 4.06 | 406 |
-| Flight 3 | 0.0107 | 2,934 | 8.29 | 829 |
+| Flight 2 | 0.0216 | 2,056 | 8.06 | 806 |
+| Flight 3 | 0.01065 | 2,959 | 16.86 | 1,686 |
 
-The ratio between the two conditions decomposes cleanly,
+The ratio between the two conditions at equal radius decomposes cleanly,
 
-$$\frac{\dot{q}_{3}}{\dot{q}_{2}} = \left( \frac{V_{3}}{V_{2}} \right)^{3} \sqrt{\frac{\rho_{3}}{\rho_{2}}} = \left( 1.427 \right)^{3} \times \sqrt{0.492} = 2.91 \times 0.702 = 2.04$$
+$$\frac{\dot{q}_{3}}{\dot{q}_{2}} = \left( \frac{V_{3}}{V_{2}} \right)^{3} \sqrt{\frac{\rho_{3}}{\rho_{2}}} = \left( 1.439 \right)^{3} \times \sqrt{0.492} = 2.98 \times 0.702 = 2.09$$
 
-**Mach 10 doubles the leading edge heating of Mach 7**, at essentially the same dynamic pressure, because the cube of a 1.43 velocity ratio beats the square root of a 0.49
-density ratio.
-**That factor of two is why the third flight needed different leading edges from the second**, and the
-vehicles were not identical.
+**Mach 9.68 doubles the leading edge heating of Mach 6.83**, at dynamic pressures within five percent of
+each other, because the cube of a 1.44 velocity ratio beats the square root of a 0.49 density ratio.
 
-**The relation also explains the shape.** Heating falls as the square root of the nose radius, so a
-blunt leading edge is thermally cheap and aerodynamically expensive, while a sharp one is the reverse.
-A vehicle whose forebody is an inlet cannot afford a blunt leading edge, so it pays the heating, and
-the leading edges were carbon-carbon.
+**The programme's own thermal analysis reached the same conclusion and the third vehicle was changed
+because of it.** For the Mach 7 vehicles the analysis put the carbon-carbon nose at no more than
+3,000 degrees Fahrenheit, so a silicon carbide oxidation coating was adequate, and the four vertical
+tail leading edge pieces could be made of a Haynes alloy. For the Mach 10 vehicle at the same 0.030
+inch radius it predicted nearly 4,000 degrees Fahrenheit at the nose tip, which no silicon carbide
+coating survives even for one short flight. The Mach 10 leading edges were therefore remade in a
+high-conductivity carbon-carbon with a hafnium carbide outer coating, the vertical tail leading edges
+joined the nose and horizontal tails in that material, and after unexpected erosion in an arc-jet test
+the nose was redesigned to a 0.050 inch radius\[[Ohlhorst and others 2005][research_ohlhorst_2005]\].
+The Mach 10 overview confirms the solid Haynes alloy vertical tails and the carbon-carbon tail leading
+edges of the third vehicle\[[Marshall and Bahm 2005][research_marshall_2005]\]. In kelvin the two
+predicted nose temperatures are
+
+$$T_{\text{K}} = \tfrac{5}{9} \left( T_{\text{F}} - 32 \right) + 273.15 \qquad 3{,}000 \ {}^{\circ}\text{F} = 1{,}922 \ \text{K} \qquad 4{,}000 \ {}^{\circ}\text{F} = 2{,}478 \ \text{K}$$
+
+well below the stagnation temperatures of 2,329 and 4,588 kelvin derived above, as they must be for a
+nose that conducts heat away and radiates it, and the gap is far wider at Mach 10.
+
+**The blunter nose recovers part of the factor of two.** Heating falls as the square root of the
+radius, so the third vehicle's nose at 1.270 millimetres stood against the second vehicle's design
+radius in the ratio
+
+$$\frac{\dot{q}_{3}}{\dot{q}_{2}} = 2.09 \times \sqrt{\frac{0.030}{0.050}} = 2.09 \times 0.775 = 1.62$$
+
+which in the correlation is 13.06 megawatts per square metre at the third flight's nose against 8.06
+at the second's.
+
+**The relation also explains the shape.** A blunt leading edge is thermally cheap and aerodynamically
+expensive, while a sharp one is the reverse. A vehicle whose forebody is an inlet cannot afford a blunt
+leading edge, so it pays the heating, and the edges around the nose and wings were
+carbon-carbon\[[Marshall and Corpening 2005][research_marshall_chief_2005]\].
 
 ### Control, and the Ten Seconds Available
 
 The research vehicle had a flight control system designed for a regime with no flight-validated
 aerodynamic model\[[Davidson and Lallman 1999][research_davidson_1999]\], and its entire powered mission
-lasted about eleven seconds. At the flight speeds that is a short distance.
+lasted about eleven seconds on each flight\[[Voland and Huebner 2005][research_voland_2005]\]. At the
+flight speeds that is a short distance,
 
 $$d = V t_{\text{burn}}$$
 
-| | $V$, m/s | 11 s covers |
-|---|---|---|
-| Flight 2 | 2,056 | 23 km |
-| Flight 3 | 2,934 | 32 km |
+| | $V$, m/s | $t_{\text{burn}}$, s | $d$, km | $d$, statute miles | Reported, miles |
+|---|---|---|---|---|---|
+| Flight 2 | 2,056 | 11 | 22.6 | 14.1 | 15 |
+| Flight 3 | 2,959 | 10.5 | 31.1 | 19.3 | 20 |
 
-**The experiment is a few tens of kilometres of flight.** Everything the programme was built to learn
-had to be measured inside that window, on a vehicle that would not be recovered.
+The burn times and the reported distances are those of the programme's technology summary, which
+records the second vehicle accelerating under its own power for 15 miles in 11 seconds and the third
+covering 20 miles in 10.5 seconds of powered flight\[[Voland and Huebner 2005][research_voland_2005]\].
+Worked out,
+
+$$d_{2} = 2{,}056 \times 11 = 22.6 \ \text{km} \qquad d_{3} = 2{,}959 \times 10.5 = 31.1 \ \text{km}$$
+
+**The computed distances fall short of the reported ones**, by
+
+$$1 - \frac{22.6}{15 \times 1.609} = 6.3 \ \% \qquad 1 - \frac{31.1}{20 \times 1.609} = 3.5 \ \%$$
+
+and both are larger than rounding to the nearest mile explains, which is 3.3 and 2.5 percent. The reports do not say
+whether their miles are measured along the ground track or the flight path, or from which speed, so
+the residual is left unresolved here. **The experiment is a few tens of kilometres of flight.** Everything the
+programme was built to learn had to be measured inside that window, on a vehicle that would not be
+recovered.
 
 ### The Stack
 
@@ -408,11 +493,36 @@ $$\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \q
 part of the vehicle by every measure, it is the part that flies first, and it is the part that had
 never flown this trajectory.
 
-**That last point is the origin of the failure.** The trajectory chosen for the mission was lower and
-faster than a typical Pegasus trajectory, and so at a higher dynamic pressure, and it was chosen that
-way because of weight limits on the B-52\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
-**A carrier aircraft constraint pushed the booster into a flight regime its inherited control models
-had not been built for.**
+**That last point is the origin of the failure.** The trajectory chosen for the mission was at a
+lower altitude than a typical Pegasus trajectory, and so at a higher dynamic pressure, and it was
+chosen that way because of weight limits on the B-52\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
+**The weight limit worked through the booster's surplus energy.** An unmodified Pegasus first stage
+would have carried the stack well past Mach 7, and the booster selection had assumed that ballast would
+absorb the surplus. The Mach 7 flight needed 10,600 pounds of it, which would have taken the stack past
+the B-52B's 41,400 pound limit on its X-15 pylon, a limit later raised, and the stack above weighed
+41,750 pounds at drop, over the original limit by
+
+$$41{,}750 - 41{,}400 = 350 \ \text{lb}$$
+
+The alternatives were to remove propellant from the
+motor or to launch lower and slower, at about 20,000 feet and Mach 0.5 instead of the standard 40,000
+feet and Mach 0.8, and the first flight took the second\[[Peebles 2007][research_peebles_2007]\]. The
+return-to-flight review states the consequence, which is that the booster saw dynamic pressures at
+transonic conditions about twice those of a standard Pegasus
+flight\[[Reubush and others 2003][research_reubush_2003]\].
+
+**The factor follows from the atmosphere.** At a given Mach number dynamic pressure is proportional to
+static pressure,
+
+$$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \gamma p M^{2} \qquad \frac{q_{20{,}000}}{q_{40{,}000}} = \frac{p_{20{,}000}}{p_{40{,}000}} = \frac{46{,}601}{18{,}823} = 2.48$$
+
+with the static pressures those of the 1976 standard
+atmosphere\[[NOAA, NASA and USAF 1976][research_us_atmos_1976]\] in pascals. The comparison assumes
+that each stack passes a given Mach number about 20,000 feet apart in altitude, which the launch
+altitudes suggest and the published trajectories do not state, so it shows the order of the effect
+rather than its value. **A carrier aircraft constraint pushed the booster into a flight regime its
+inherited control models had not been built for**, and the board places the loss of control in
+transonic flight\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
 **Separation itself was a research problem.** Two non-axisymmetric bodies separating at high dynamic
 pressure at hypersonic speed had not been done, and the programme studied it at
@@ -447,8 +557,17 @@ release\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 | Stall to structural overload | 0.50 s |
 | **Anomaly to structural overload** | **2.00 s** |
 
+Each interval is the difference of successive event times, and the number of oscillation cycles in
+an interval is its duration times the frequency $f$,
+
+$$\Delta t = t_{\text{overload}} - t_{\text{anomaly}} = 13.5 - 11.5 = 2.00 \ \text{s} \qquad n = f \, \Delta t = 2.5 \times 2.00 = 5$$
+
 **At 2.5 hertz, two seconds is five cycles.** The vehicle went from nominal to structural failure in
 five cycles of a diverging oscillation, which is a useful thing to know about the class of failure.
+The return-to-flight review adds the breakup that followed. The right fin broke off at about 13
+seconds, followed within one second by the left fin and the rudder, the wing broke off at 15 seconds,
+the booster's data stream was lost at 21, and the research vehicle's telemetry ended at 77.5
+seconds\[[Reubush and others 2003][research_reubush_2003]\].
 
 **How unstable was it? Less than one might expect.** A diverging oscillation grows as
 
@@ -495,8 +614,12 @@ so those three figures correspond to gain factors of
 | After model correction | under 2 | 1.26 |
 
 **The available overshoot above unity fell from 1.51 to 0.26, which is a loss of 83 percent of the
-entire margin**, and it took the vehicle from two decibels above its requirement to four decibels
-below it.
+entire margin**,
+
+$$\frac{k_{8} - k_{2}}{k_{8} - 1} = \frac{2.512 - 1.259}{2.512 - 1} = 0.83$$
+
+with $k_{8}$ and $k_{2}$ the permissible gain factors at 8 and 2 decibels, and it took the vehicle from
+two decibels above its requirement to four decibels below it.
 
 **And the corrected model was still stable.** The board states that the reduction, although very
 significant and close to the instability boundary, still predicted a stable vehicle, so nominal model
@@ -549,43 +672,142 @@ and the change was not modelled. **The thermal solution altered the aerodynamics
 model did not know**, which is a coupling failure between two disciplines rather than an error inside
 either.
 
+### Return to Flight
+
+**The board's draft report went in on 8 March 2002 and the return-to-flight work began that month**,
+taking the report and the corrective actions drawn from it as its starting
+point\[[Reubush and others 2003][research_reubush_2003]\]. The record of what was changed answers the
+board's finding item by item.
+
+- **The models.** Higher fidelity models of the booster aerodynamics, fin actuators, structure and
+  autopilot were built, and extensive Monte Carlo simulations were run with newly developed uncertainty
+  models of all appropriate parameters, written to be conservative. The boost was simulated
+  independently by NASA as a check on the contractor's analysis, and the two agreed.
+- **The actuators.** New fin actuators were built with higher torque, by adding a second motor in a
+  torque-summing arrangement, new gears, a stainless steel housing in place of aluminium, two more
+  batteries and redesigned electronics.
+- **The trajectory.** About 3,350 pounds of propellant was removed from the booster, which let the
+  second flight launch at the standard 40,000 feet and see significantly lower dynamic pressure and
+  loading than the first.
+- **The separation.** The final separation analysis, with conservative uncertainty models, found 97
+  percent of cases successful and fewer than one percent recontacting the adapter.
+
+All four are from the return-to-flight review\[[Reubush and others 2003][research_reubush_2003]\].
+**The first of them is the board's lesson put into practice**, since parameter uncertainty is exactly
+what had to be added before the mishap reproduced. The investigation took nine months and the
+return-to-flight effort two years\[[Grindle and Bahm 2006][research_grindle_bahm_2006]\].
+
 ### Flight 2, 27 March 2004
 
 **The vehicle separated at approximately Mach 7 and accelerated under scramjet
 power**\[[Bahm and Baumann 2005][research_bahm_2005]\]\[[Karlgaard and Tartabini 2004][research_karlgaard_2004]\].
+The B-52 dropped the stack at Mach 0.8 and 40,000 feet, the booster ignited after five seconds of free
+fall, pulled up at 1.9 g and pushed over at 0.7 g into nearly level flight at 95,000
+feet\[[Voland and Huebner 2005][research_voland_2005]\]. **The booster delivered the stack slightly
+short of its Mach number and dynamic pressure targets**, which the chief engineer's account tabulates against the best estimate
+atmosphere\[[Marshall and Corpening 2005][research_marshall_chief_2005]\],
+
+| Separation | Target | Flight 2 | Deviation |
+|---|---|---|---|
+| Altitude, ft | 93,932 | 94,069 | +137 |
+| Mach number | 7.075 | 6.946 | −0.129 |
+| Dynamic pressure, lbf/ft² | 1,066 | 1,024 | −42 |
+| Flight path angle, deg | 2.0 | 2.4 | +0.4 |
+
+each deviation being the achieved value less the target, so that the relative shortfalls in Mach
+number and dynamic pressure are
+
+$$\frac{6.946 - 7.075}{7.075} = -1.8 \ \% \qquad \frac{1{,}024 - 1{,}066}{1{,}066} = -3.9 \ \%$$
+
+**The engine test ran on schedule.** The cowl door opened 2.5 seconds after separation, five seconds of
+fuel-off tare data followed, and the scramjet was fuelled for approximately 11 seconds, reaching a
+maximum powered Mach number of 6.83, before a further fuel-off tare and a cowl-open parameter
+identification manoeuvre, 4 seconds and 17 seconds long. The cowl closed 39 seconds after
+separation, which the reported phases account for to within half a second,
+
+$$2.5 + 5 + 11 + 4 + 17 = 39.5 \ \text{s}$$
+
+after which the vehicle flew a controlled descent with further manoeuvres and splashed down in the open ocean without
+recovery\[[Marshall and Corpening 2005][research_marshall_chief_2005]\]. The NASA history adds that the
+vehicle kept accelerating for most of the burn and began to slow only in its final
+moments\[[Peebles 2007][research_peebles_2007]\].
+
 **The engine's own account, tracing the Mach 7 flowpath from design through ground test to flight, is
 the paper that closes the loop the programme was built to
-close**\[[Ferlemann and others 2005][research_ferlemann_2005]\].
+close**\[[Ferlemann and others 2005][research_ferlemann_2005]\]. The flowpath pressures show the Mach 7
+engine operating in dual mode, with sonic flow in the isolator dissipating the inlet
+shocks\[[Voland and Huebner 2005][research_voland_2005]\].
 
-**That sentence is the answer to the question the programme was built to ask.** Thrust exceeded drag on
-an airframe-integrated scramjet in free flight, for the first time. The engine ran for about eleven
-seconds at a dynamic pressure near 1,000 pounds per square foot, and the vehicle gained speed while it
-ran.
+**That is the answer to the question the programme was built to ask.** Thrust exceeded drag on an
+airframe-integrated scramjet in free flight, for the first time, at a dynamic pressure of about 980
+pounds per square foot, and the vehicle gained speed while the engine
+ran\[[Voland and Huebner 2005][research_voland_2005]\].
 
-**The stage separation also worked**, which was a second first, being the separation of two
-non-axisymmetric vehicles at high dynamic pressure.
+**The stage separation also worked**, and the programme describes it as the first known successful
+non-symmetric, high dynamic pressure, high Mach number stage
+separation\[[Voland and Huebner 2005][research_voland_2005]\].
 
 ### Flight 3, 16 November 2004
 
-**The vehicle reached Mach 9.6 and held approximately constant velocity under
-power**\[[Marshall and Bahm 2005][research_marshall_2005]\].
+**The third flight was a cruise test by design.** The first plan had included two Mach 10 flights, one
+to cruise and one to accelerate\[[Freeman and others 1997][research_freeman_1997]\], and only the cruise
+flight survived the restructuring. Its test goal was a scramjet producing as much thrust as the
+vehicle's drag, and so holding a cruise condition\[[Peebles 2007][research_peebles_2007]\]. **The
+booster could not quite reach Mach 10.** Weight growth in the stack and higher booster drag led the
+managers to accept a nominal separation at Mach 9.6\[[Peebles 2007][research_peebles_2007]\], with a
+dynamic pressure requirement of 1,000 pounds per square foot. The launch followed the same B-52
+conditions with a steeper 2.5 g pull-up to a flight path angle of over 30 degrees and a 0.5 g pushover
+into nearly level flight at 110,000 feet\[[Voland and Huebner 2005][research_voland_2005]\].
 
-**The distinction between the two flights is the finding, and it is usually reported away.** At Mach 7
-the engine accelerated the vehicle. At Mach 10 the engine sustained it. **The margin that was positive
-at Mach 7 was approximately zero at Mach 10**, and the reason is visible in the thrust relation.
-Rewriting it as a fractional velocity increment,
+| Separation | Target | Flight 3 | Deviation |
+|---|---|---|---|
+| Altitude, ft | 109,580 | 109,440 | −140 |
+| Mach number | 9.6 | 9.736 | +0.136 |
+| Dynamic pressure, lbf/ft² | 1,000 | 959 | −41 |
+| Flight path angle, deg | 1.5 | 1.69 | +0.19 |
+
+The values are those of the Mach 10 overview, computed with its best estimate
+atmosphere\[[Marshall and Bahm 2005][research_marshall_2005]\].
+
+**The vehicle cruised as predicted.** The cowl opened 2.5 seconds after separation, fuelling began about
+5 seconds after separation, and the scramjet was fuelled for approximately 10 seconds and produced the
+predicted thrust. **During that time the X-43A sustained thrust equal to drag**, reaching a maximum
+powered Mach number of 9.68, and the cowl closed 22 seconds after
+separation\[[Marshall and Bahm 2005][research_marshall_2005]\]. With the 3 second pre-test tare and 6
+second post-test tare of the technology summary\[[Voland and Huebner 2005][research_voland_2005]\],
+the phases again account for the reported time,
+
+$$2.5 + 3 + 10 + 6 = 21.5 \ \text{s}$$
+
+against 22 seconds, with no cowl-open manoeuvres on this flight because of concern for the cowl. The ignition sequence ran on silane for
+the first two fuelled conditions, 5 seconds in all, before repeating them on hydrogen alone, and the
+flowpath pressures show classical pure supersonic combustion, with a shock-dominated
+combustor\[[Voland and Huebner 2005][research_voland_2005]\]. The highest recorded temperatures were on
+the nose, as predicted\[[Marshall and Bahm 2005][research_marshall_2005]\].
+
+**The two flights answer different questions, and the difference between them is physics as well as
+test design.** At Mach 7 the engine accelerated the vehicle. At Mach 10 it was asked to sustain the
+vehicle and did. The thrust relation shows why the second is the harder demand. Rewriting it as a
+fractional velocity increment,
 
 $$F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \right)$$
 
 **the heat release per unit mass of air is fixed by the fuel and the air, so the energy the engine can
 add does not grow with flight speed while the kinetic energy of the captured flow grows as its
 square.** The fractional increment therefore falls as Mach number rises. Drag meanwhile scales with
-dynamic pressure, which this trajectory holds constant. **One term shrinks and the other does not**,
-and somewhere between Mach 7 and Mach 9.6 they crossed.
+dynamic pressure, which this trajectory holds near constant. **One term shrinks and the other does
+not.** Because the Mach 10 acceleration flight was never flown, the record does not show how much
+margin remained above cruise at Mach 9.68, only that the engine met the cruise requirement it was
+designed for.
 
-**Reported as a speed record this is the fastest air-breathing flight ever made.** Reported as physics
-it is the observation that the thrust-drag margin closes, and the second reading is the one the
-programme existed to produce.
+**Reported as a speed record, the two flights were the fastest air-breathing flights made to that
+time, in the words of NASA's history.** That history sets the second flight's Mach 6.83 against the Mach 3.32 an SR-71 reached in 1976, and the
+third flight's Mach 9.68 against the second's\[[Peebles 2007][research_peebles_2007]\], increments of
+
+$$6.83 - 3.32 = 3.51 \qquad 9.68 - 6.83 = 2.85$$
+
+in Mach number. Reported as physics, the pair shows that the thrust-drag margin is positive at Mach 7
+and can be held at zero at Mach 9.68, which is the result the programme existed to produce.
 
 ## Comparison With Ground Prediction
 
@@ -610,15 +832,32 @@ describes that campaign.
 thrust was close to its design value on both powered flights\[[Voland and Huebner 2005][research_voland_2005]\],
 and the Mach 7 scramjet design paper traces the flowpath from design through ground test to
 flight\[[Ferlemann and others 2005][research_ferlemann_2005]\]. At Mach 7 the vehicle accelerated under
-power, and at Mach 9.6 it held approximately constant velocity\[[Marshall and Bahm 2005][research_marshall_2005]\].
+power, and at Mach 9.68 it held approximately constant velocity\[[Marshall and Bahm 2005][research_marshall_2005]\].
 **That agreement is the calibration the programme was built to obtain**, and the section headed What
 the Data Changed treats its consequences.
 
-**The agreement is qualitative in this article and should be read that way.** The flights established
-the sign of the net axial force at each condition, and the programme's own force accounting
-established its magnitude. This article does not reconstruct the measured net thrust, so it cannot set
-a predicted value beside a measured one to any stated precision. The section headed Where the Framing
-Breaks Down argues that limitation, and the section headed Epistemic State records it.
+**The programme's comparisons are quantitative, and they divide the force into its two large terms.**
+On thrust, the increment in acceleration under power at Mach 7 was about as predicted, which confirms
+the predicted engine thrust to within less than two percent, and at Mach 10 the vehicle cruised at the
+reference fuel setting with thrust in agreement with
+prediction\[[Voland and Huebner 2005][research_voland_2005]\]. A Dryden summary puts the Mach 7 engine
+performance within three percent of the preflight
+predictions\[[Grindle and Bahm 2006][research_grindle_bahm_2006]\]. On drag, the vehicle decelerated
+more than predicted with the cowl both closed and open. About two thirds of that error came from the
+actual flight conditions differing from those predicted and about one third from drag higher than
+predicted, which still lay within the uncertainty of the wind tunnel
+database\[[Voland and Huebner 2005][research_voland_2005]\]. **The descent data say the same thing
+more strongly.** Parameter identification over the cowl-closed descent of the second flight, from Mach
+6.80 down to 0.95, found the axial force 10 to 15 percent higher than predicted from wind tunnel data
+and the normal force underpredicted by a similar amount, and above Mach 4 the static margin came out
+larger than predicted\[[Davis and White 2006][research_davis_white_2006]\].
+
+**So the engine was predicted better than the airframe it was integrated into.** That is the keystone's
+small difference seen from the flight side. The thrust term was within two or three percent, and the
+drag term carried the larger error, which the uncertainty band absorbed. This article does not
+reconstruct the measured net thrust itself, so it reports these comparisons as the programme states
+them rather than setting its own predicted value beside a measured one. The section headed Where the
+Framing Breaks Down argues that limitation, and the section headed Epistemic State records it.
 
 **On the launch vehicle, flight disagreed with the ground, and the disagreement destroyed the first
 mission.** The roll axis gain margin was predicted before flight at 8 decibels against a requirement
@@ -636,12 +875,19 @@ separation of two non-axisymmetric bodies at high dynamic pressure at
 length\[[Tartabini and Bose 2003][research_tartabini_2003]\], and on the second flight the separation
 worked.
 
-**Two of this article's own ground figures have no flight counterpart in the article.** The leading
-edge heating rates in the section headed Dependent Systems are correlation estimates from the Sutton and
-Graves relation, and the article reports no measured leading edge temperatures to compare them with.
-The dynamic pressures in the section headed Sizing From First Principles are computed from the standard
-atmosphere rather than measured on the days of the flights. **Both are consistency checks and neither
-is a comparison with flight.**
+**The thermal predictions held.** At Mach 7 the thermal analysis of the nose, horizontal tails and
+vertical tails gave reasonable predictions of the recorded flight temperatures, most of them
+conservative, with an unexplained excess near the forward edge of the vertical tail
+skins\[[Amundsen and others 2004][research_amundsen_2004]\]. At Mach 10 the finite element model of
+the carbon-carbon nose bracketed the measured temperature through the boost and the powered
+flight\[[Voland and Huebner 2005][research_voland_2005]\].
+
+**Two of this article's own ground figures are consistency checks rather than comparisons with
+flight.** The leading edge heating rates in the section headed Dependent Systems are correlation
+estimates from the Sutton and Graves relation, and the flight reports give temperatures inside the
+carbon-carbon rather than surface heat fluxes to set beside them. The dynamic pressures in the section
+headed Sizing From First Principles are computed from the standard atmosphere, and the section sets
+them beside the reported values, from which they differ by 2.6 and 4.6 percent.
 
 ## What the Data Changed
 
@@ -649,21 +895,31 @@ is a comparison with flight.**
 is a dull one.** The programme's own retrospectives report that engine thrust was close to its design
 value on both powered flights\[[Voland and Huebner 2005][research_voland_2005]\], which is the statement
 that matters. **A prediction that is confirmed in flight converts a design method from a hypothesis
-into an instrument**, and every hypersonic air-breathing vehicle designed since has been designed with
-methods this flight data anchors.
+into an instrument.** The programme released the data to more than twenty government and industrial
+organisations in complete classified data packages, alongside more than fifty classified and
+unclassified papers and presentations\[[Voland and Huebner 2005][research_voland_2005]\], so the
+calibration is held by the community that designs such vehicles rather than by NASA alone.
 
 **The vehicle itself led nowhere directly.** The X-43C, which would have flown a hydrocarbon-fuelled
-engine at larger scale, was planned in detail and
-cancelled\[[Moses 2003][research_moses_2003]\]\[[Cockrell and Auslender 2002][research_cockrell_2002]\].
-No operational air-breathing hypersonic vehicle followed. **The line of descent runs through the X-51A
-instead**\[[Hank and others 2008][research_hank_2008]\], which flew a hydrocarbon scramjet for several
-minutes rather than several seconds, and which is treated later in this series.
+engine at larger scale, was planned in
+detail\[[Moses 2003][research_moses_2003]\]\[[Cockrell and Auslender 2002][research_cockrell_2002]\].
+The project's own 2011 retrospective still lists it as a planned demonstrator, beside a planned
+reusable X-43B and a conceptual X-43D, and records that the X-43A project ended in December 2004 when
+its money ran out\[[Grindle 2011][research_grindle_2011]\]. No operational air-breathing hypersonic
+vehicle followed. **The line of descent runs through the X-51A
+instead**\[[Hank and others 2008][research_hank_2008]\], which on its fourth flight in May 2013 flew for
+three and a half minutes on scramjet power, reaching Mach 5.1 on hydrocarbon
+fuel\[[Boeing 2013][ref_boeing_x51a_2013]\], minutes rather than seconds, and which is treated later in
+this series.
 
 **The failure changed practice more visibly than the success did.** A mishap whose cause is
 distributed across several models, none individually wrong enough to matter, is an argument for
-uncertainty analysis rather than for better point predictions. **The board recommended exactly that**,
-and the practice of carrying parameter uncertainty through system-level stability analysis rather than
-validating nominal models is the durable lesson.
+uncertainty analysis rather than for better point predictions. The board's recommendations are in the
+export-controlled part of its report, but the return-to-flight programme shows what was done, which
+was to run extensive Monte Carlo simulations with newly developed uncertainty models of all
+appropriate parameters\[[Reubush and others 2003][research_reubush_2003]\]. **The practice of carrying
+parameter uncertainty through system-level stability analysis rather than validating nominal models is
+the durable lesson.**
 
 **The programme also demonstrated something about heritage.** The launch vehicle was derived from a
 system with a long flight record, and the heritage models were part of what failed, because they were
@@ -748,7 +1004,7 @@ writes it down.**
 
 **This cluster exists because the article's conclusion is about margins.** The article's most transferable finding is not about scramjets at all. It is that a stability margin with an uncertainty larger than itself is indistinguishable from a negative one, and that no single-factor analysis can see it. **A survey that under-covers the subject of its own article's conclusion is not comprehensive**, so this cluster gathers the margin and uncertainty literature directly rather than only where it sits beside scramjet work.
 
-**The literature divides on a distinction the mishap board made without naming it.** Aleatory uncertainty is irreducible scatter and epistemic uncertainty is ignorance that more work would remove, and the X-43A's first flight was lost to the second kind. The modern work is dominated by methods for propagating both through a system model rather than validating a nominal one. **The board recommended in 2002 what this literature spent the following two decades formalising.**
+**The literature divides on a distinction the mishap board made without naming it.** Aleatory uncertainty is irreducible scatter and epistemic uncertainty is ignorance that more work would remove, and the X-43A's first flight was lost to the second kind. The modern work is dominated by methods for propagating both through a system model rather than validating a nominal one. **The board found in 2002, from a single loss, what this literature spent the following two decades formalising.**
 
 **432 records.** \[[A COMPARATIVE STUDY OF 2023][research_a_comparative_2023]\] \[[A simple link between 1994][research_a_simple_1994]\] \[[Abbas-Turki et al 2005][research_abbasturki_duc_2005]\] \[[Abrishamchian 1997][research_abrishamchian_1997]\] \[[Abtahi and Azadi Yazdi 2018][research_abtahi_azadiyazdi_2018]\] \[[Abuelma'Atti 1982][research_abuelmaatti_1982]\] \[[Adams and Banda 1993][research_adams_banda_1993]\] \[[Akatsuka and Ishii 2022][research_akatsuka_ishii_2022]\] \[[Akman et al 2024][research_akman_benasher_2024]\] \[[Almutairi and Aouf 2015][research_almutairi_aouf_2015]\] \[[Almutairi and Aouf 2016][research_almutairi_aouf_2016]\] \[[An Efficient Robust Aerodynamic 2014][research_an_efficient_2014]\] \[[An et al 2021][research_an_guo_2021]\] \[[Appleby and Adams 1991][research_appleby_adams_1991]\] \[[Arulmozhi and Chitra 2022][research_arulmozhi_chitra_2022]\] \[[Arya and Chakrabarty 2018][research_arya_chakrabarty_2018]\] \[[Arya and Chakrabarty 2019][research_arya_chakrabarty_2019]\] \[[Azar and Serrano 2014][research_azar_serrano_2014]\] \[[Bailey and Davies 1981][research_bailey_davies_1981]\] \[[Balcan et al 2026][research_balcan_kucuker_2026]\] \[[Baldomir et al 2018][research_baldomir_hernandez_2018]\] \[[Bar-On and Grasse 1994][research_baron_grasse_1994]\] \[[Bar-On and Jonckheere 1991][research_baron_jonckheere_1991]\] \[[Basu et al 2023][research_basu_filippi_2023]\] \[[Bates and Mannchen 2004][research_bates_mannchen_2004]\] \[[Bavafa-Toosi 2015][research_bavafatoosi_2015]\] \[[Bayhan and Söylemez 2010][research_bayhan_soylemez_2010]\] \[[Belter 1998][research_belter_1998]\] \[[Bercovici et al 1990][research_bercovici_foias_1990]\] \[[Besta 2017][research_besta_2017]\] \[[Bhusal et al 2020][research_bhusal_taner_2020]\] \[[Biannic et al 2006][research_biannic_roos_2006]\] \[[Blashill 1970][research_blashill_1970]\] \[[Boone and Bettinger 2021][research_boone_bettinger_2021]\] \[[Brahma et al 2026][research_brahma_eckert_2026]\] \[[Branch et al 2016][research_branch_brussat_2016]\] \[[Brenner 2002][research_brenner_2002]\] \[[Brenner and Lind 1998][research_brenner_lind_1998]\] \[[Brevault et al 2016][research_brevault_lacaze_2016]\] \[[Brillouin scattering and dispersion 1971][research_brillouin_scattering_1971]\] \[[Brown and Bradley 1981][research_brown_bradley_1981]\] \[[Bu et al 2019][research_bu_lei_2019]\] \[[Burchett 2023][research_burchett_2023]\] \[[Burnashev and Zbrutsky 2019][research_burnashev_zbrutsky_2019]\] \[[Buschek and Calise 1995][research_buschek_calise_1995]\] \[[Buschek and Calise 1997][research_buschek_calise_1997]\] \[[Butt et al 2010][research_butt_yan_2010]\] \[[Cao et al 2017][research_cao_tang_2017]\] \[[Carico et al 2001][research_carico_he_2001]\] \[[Cavalcanti et al 2008][research_cavalcanti_maitelli_2008]\] \[[Cavicchi 2003][research_cavicchi_2003]\] \[[Chai and Wilhite 2010][research_chai_wilhite_2010]\] \[[Chakraborty and Mavris 2016][research_chakraborty_mavris_2016]\] \[[Chakraborty et al 2017][research_chakraborty_ghosh_2017]\] \[[Chang Yang and Kabamba 1994][research_changyang_kabamba_1994]\] \[[Chatterjee and Das 2018][research_chatterjee_das_2018]\] \[[Chen 1992][research_chen_1992]\] \[[Chen et al 2016][research_chen_deng_2016]\] \[[Chen et al 2017][research_chen_shen_2017]\] \[[Chen et al 2020][research_chen_wei_2020]\] \[[Chen et al 2020][research_chen_chen_2020]\] \[[Cheng et al 2017][research_cheng_wang_2017]\] \[[Cheng et al 2019][research_cheng_wang_2019]\] \[[Cheng et al 2019][research_cheng_wang_2019_b]\] \[[Chitra M V et al 2015][research_chitramv_sharma_2015]\] \[[Choi and Ahn 2020][research_choi_ahn_2020]\] \[[Chokri et al 2011][research_chokri_trepanier_2011]\] \[[Chu and Teng 1999][research_chu_teng_1999]\] \[[Cokmez et al 2018][research_cokmez_atic_2018]\] \[[Cook and Jarrett 2018][research_cook_jarrett_2018]\] \[[Cook and Jarrett 2018][research_cook_jarrett_2018_b]\] \[[Corbetta et al 2022][research_corbetta_jarvis_2022]\] \[[Czarkowski 2004][research_czarkowski_2004]\] \[[Dailey and Gangsaas 1989][research_dailey_gangsaas_1989]\] \[[Daskilewicz et al 2012][research_daskilewicz_caldwell_2012]\] \[[Davison and Copeland 1983][research_davison_copeland_1983]\] \[[Denham et al 2018][research_denham_patil_2018]\] \[[Denham et al 2022][research_denham_patil_2022]\] \[[Diaz-Rodriguez and Bhattacharyya 2016][research_diazrodriguez_bhattacharyya_2016]\] \[[Dikshit and Leifsson 2026][research_dikshit_leifsson_2026]\] \[[Ding et al 2019][research_ding_wang_2019]\] \[[Ding et al 2020][research_ding_wang_2020]\] \[[Dlapa 2020][research_dlapa_2020]\] \[[Doerr et al 2018][research_doerr_linares_2018]\] \[[Donders et al 2007][research_donders_dippolito_2007]\] \[[Dong et al 2013][research_dong_griendling_2013]\] \[[Dropped Transonic Flight Test 2004][research_dropped_transonic_2004]\] \[[Du and Leifsson 2019][research_du_leifsson_2019]\] \[[Du and Wang 2016][research_du_wang_2016]\] \[[Du et al 2018][research_du_hu_2018]\] \[[Ebrahimi Bavili et al 2020][research_ebrahimibavili_farajzadehbavil_2020]\] \[[Er et al 1994][research_er_anderson_1994]\] \[[Ewan 1994][research_ewan_1994]\] \[[Faisal Abdul Hamid 2018][research_faisalabdulhamid_2018]\] \[[Famularo et al 1999][research_famularo_dorato_1999]\] \[[Faynburg G.D et al 2026][research_faynburggd_faynburgia_2026]\] \[[Feng 2011][research_feng_2011]\] \[[Fiorentini et al 2008][research_fiorentini_serrani_2008]\] \[[Frank et al 2015][research_frank_pinonfischer_2015]\] \[[Fusato and Celi 2003][research_fusato_celi_2003]\] \[[Gale et al 2018][research_gale_harris_2018]\] \[[Galeani et al 2000][research_galeani_grasselli_2000]\] \[[Galeani et al 2000][research_galeani_grasselli_2000_b]\] \[[Gao et al 2013][research_gao_wang_2013_c]\] \[[Gao et al 2026][research_gao_liu_2026]\] \[[Gaohua et al 2014][research_gaohua_jianmei_2014]\] \[[García-López and Álvarez-Tey 2023][research_garcialopez_alvareztey_2023]\] \[[Ge and Huang 2010][research_ge_huang_2010]\] \[[Geraci et al 2017][research_geraci_eldred_2017]\] \[[Gerov and Jovanovic 2018][research_gerov_jovanovic_2018]\] \[[Glad 1982][research_glad_1982]\] \[[Glad 1984][research_glad_1984]\] \[[Glad 1984][research_glad_1984_b]\] \[[Govindaraju and Crossley 2015][research_govindaraju_crossley_2015]\] \[[Goz and Theodoulis 2025][research_goz_theodoulis_2025]\] \[[Grauer 2016][research_grauer_2016]\] \[[Graves 2013][research_graves_2013]\] \[[Graves 2013][research_graves_2013_b]\] \[[Graves 2013][research_graves_2013_c]\] \[[Gu et al 2015][research_gu_zhang_2015_b]\] \[[Guo and Liu 2024][research_guo_liu_2024]\] \[[Guo et al 2017][research_guo_wang_2017]\] \[[Guo et al 2019][research_guo_li_2019]\] \[[Guo et al 2020][research_guo_xu_2020]\] \[[Guratzsch and Mahadevan 2004][research_guratzsch_mahadevan_2004]\] \[[Halder and Bhattacharya 2011][research_halder_bhattacharya_2011]\] \[[Hanazaki and Yamazaki 2024][research_hanazaki_yamazaki_2024]\] \[[Hang et al 2005][research_hang_wang_2005]\] \[[Hansu Dai and Jihong Zhu 2010][research_hansudai_jihongzhu_2010]\] \[[Hao et al 2010][research_hao_barooah_2010]\] \[[Harris et al 2022][research_harris_cox_2022]\] \[[Heim and Brandon 2004][research_heim_brandon_2004]\] \[[Herrera-Vaillard et al 1985][research_herreravaillard_paduano_1985]\] \[[Hewer et al 1988][research_hewer_klabunde_1988]\] \[[Higdon et al 2015][research_higdon_goldstein_2015]\] \[[Hiruma et al 2020][research_hiruma_takase_2020]\] \[[Ho and Xu 1998][research_ho_xu_1998]\] \[[Ho et al 1993][research_ho_hang_1993]\] \[[Ho et al 1995][research_ho_hang_1995]\] \[[Ho et al 1997][research_ho_lee_1997]\] \[[Ho et al 1998][research_ho_lim_1998]\] \[[Hohenbichler and Abel 2006][research_hohenbichler_abel_2006]\] \[[Hosseini et al 2017][research_hosseini_nosratollahi_2017]\] \[[Hu et al 2010][research_hu_sun_2010]\] \[[Hu et al 2016][research_hu_chen_2016]\] \[[Hu et al 2019][research_hu_gao_2019]\] \[[Hu et al 2023][research_hu_xu_2023]\] \[[Huang and Wang 2001][research_huang_wang_2001]\] \[[Höfinger et al 2009][research_hofinger_decker_2009]\] \[[Hübener and Luckner 2026][research_hubener_luckner_2026]\] \[[Idan and Sahar 1996][research_idan_sahar_1996]\] \[[Iriarte et al 2012][research_iriarte_lu_2012]\] \[[Ishimoto and Terui 2000][research_ishimoto_terui_2000]\] \[[Jamoom et al 2016][research_jamoom_joerger_2016]\] \[[Janardanan and Jayakumar 2006][research_janardanan_jayakumar_2006]\] \[[Jau-Woei Perng et al 2006][research_jauwoeiperng_bingfeiwu_2006]\] \[[Jayaraman et al 2022][research_jayaraman_saini_2022]\] \[[Jeaong et al 2023][research_jeaong_suk_2023]\] \[[Jia et al 2026][research_jia_fu_2026]\] \[[Jian-li and Yun-feng 2008][research_jianli_yunfeng_2008]\] \[[Jian-Xin Xu et al 1996][research_jianxinxu_chenli_1996]\] \[[Jianguo Tang and Fang Tang 2009][research_jianguotang_fangtang_2009]\] \[[Jodei et al 2008][research_jodei_ebrahimi_2008]\] \[[Johnson 2007][research_johnson_2007]\] \[[Jourdan et al 2016][research_jourdan_ferraz_2016]\] \[[Karpel 1989][research_karpel_1989]\] \[[Karpel 1990][research_karpel_1990]\] \[[Karpel 2001][research_karpel_2001]\] \[[Karpel and Moulin 2006][research_karpel_moulin_2006]\] \[[Kassem 1989][research_kassem_1989]\] \[[Katayama and Hirata 1990][research_katayama_hirata_1990]\] \[[Katayanagi 2001][research_katayanagi_2001]\] \[[Kaya 2004][research_kaya_2004]\] \[[Keribayeva et al 2022][research_keribayeva_rysbekova_2022]\] \[[Kim et al 2016][research_kim_park_2016]\] \[[King et al 2012][research_king_grandhi_2012]\] \[[Kookos 1998][research_kookos_1998]\] \[[Krishnamurthi 1972][research_krishnamurthi_1972]\] \[[Krummen et al 2025][research_krummen_bhatti_2025]\] \[[Kubo 1999][research_kubo_1999]\] \[[Kulkarni et al 2024][research_kulkarni_shrekhar_2024]\] \[[Kun et al 2016][research_kun_qingzhen_2016]\] \[[Kureemun et al 2001][research_kureemun_bates_2001]\] \[[Laipert and Imken 2018][research_laipert_imken_2018]\] \[[Lamorte et al 2011][research_lamorte_friedmann_2011]\] \[[Lamorte et al 2015][research_lamorte_friedmann_2015]\] \[[Lay et al 2025][research_lay_dubovitsky_2025]\] \[[Layfield and Carpenter 1995][research_layfield_carpenter_1995]\] \[[Lee 2018][research_lee_2018]\] \[[Lee and Abd Shukor 2023][research_lee_abdshukor_2023]\] \[[Lee and Teng 2002][research_lee_teng_2002]\] \[[Leeghim and Kim 2021][research_leeghim_kim_2021]\] \[[Lei et al 2020][research_lei_chen_2020]\] \[[Lei et al 2025][research_lei_dong_2025]\] \[[Li and Gou 2014][research_li_gou_2014]\] \[[Li et al 2011][research_li_cheng_2011]\] \[[Li et al 2011][research_li_xu_2011]\] \[[Li et al 2016][research_li_ma_2016]\] \[[Li et al 2019][research_li_cao_2019]\] \[[Li et al 2022][research_li_zhang_2022]\] \[[Li et al 2023][research_li_qiao_2023]\] \[[Liang et al 2021][research_liang_xu_2021]\] \[[Liang et al 2023][research_liang_xu_2023]\] \[[Liang et al 2025][research_liang_wang_2025]\] \[[Lichter et al 2009][research_lichter_bateman_2009]\] \[[Lim 2019][research_lim_2019]\] \[[Lim et al 2022][research_lim_kim_2022]\] \[[Lin and Han 1986][research_lin_han_1986]\] \[[Lindsley 2007][research_lindsley_2007]\] \[[Liu 2025][research_liu_2025]\] \[[Liu et al 2014][research_liu_tan_2014]\] \[[Liu et al 2015][research_liu_xie_2015]\] \[[Liu et al 2023][research_liu_mu_2023]\] \[[Lopez and Sarigul-Klijn 2010][research_lopez_sarigulklijn_2010]\] \[[Lorenz and Bierig 2013][research_lorenz_bierig_2013]\] \[[Lucarini et al 2025][research_lucarini_dirito_2025]\] \[[Lugo et al 2014][research_lugo_tolson_2014]\] \[[Luhanga and Mwandosya 1986][research_luhanga_mwandosya_1986]\] \[[Ly 2002][research_ly_2002]\] \[[M N et al 2024][research_mn_g_2024]\] \[[Ma et al 2019][research_ma_zhang_2019]\] \[[Mackle et al 2021][research_mackle_jahn_2021]\] \[[Maeda and Vidyasagar 1985][research_maeda_vidyasagar_1985]\] \[[Maeda and Vidyasagar 1986][research_maeda_vidyasagar_1986]\] \[[Maejima and Ohkami 2012][research_maejima_ohkami_2012]\] \[[Maghade and Patre 2012][research_maghade_patre_2012]\] \[[Magossi et al 2019][research_magossi_oliveira_2019]\] \[[Malere and Olivares Loesch Vianna 2015][research_malere_olivaresloeschvianna_2015]\] \[[Mao 2025][research_mao_2025]\] \[[Martínez and Garay 1986][research_martinez_garay_1986]\] \[[Masood et al 2014][research_masood_erkoyuncu_2014]\] \[[Mastroddi et al 2006][research_mastroddi_stella_2006]\] \[[Mastroddi et al 2008][research_mastroddi_stella_2008]\] \[[Mathavaraj et al 2010][research_mathavaraj_halbe_2010]\] \[[Matusu et al 2020][research_matusu_senol_2020]\] \[[Matusu et al 2022][research_matusu_senol_2022]\] \[[McDonald 1988][research_mcdonald_1988]\] \[[McFarland and D'Souza 1994][research_mcfarland_dsouza_1994]\] \[[McFarland and D'Souza 1994][research_mcfarland_dsouza_1994_b]\] \[[Menon et al 2006][research_menon_bates_2006]\] \[[Menon et al 2007][research_menon_bates_2007]\] \[[Menon et al 2009][research_menon_postlethwaite_2009]\] \[[Mercadante and Laurie 1989][research_mercadante_laurie_1989]\] \[[Methods for Reducing Data 2003][research_methods_for_2003]\] \[[Mines and Patterson 2025][research_mines_patterson_2025]\] \[[Mo et al 2022][research_mo_liu_2022]\] \[[Molander and Willems 1980][research_molander_willems_1980]\] \[[Mooij 2020][research_mooij_2020]\] \[[Mou and Zhao 2013][research_mou_zhao_2013]\] \[[Moulin et al 2011][research_moulin_zeng_2011]\] \[[Muzic et al 1992][research_muzic_nelson_1992]\] \[[Nagai and Iijima 2011][research_nagai_iijima_2011]\] \[[Naigle et al 2025][research_naigle_walker_2025]\] \[[NASA/DoD Aerospace Knowledge Diffusion 1994][research_nasa_dod_aerospace_1994]\] \[[Nataraj and Sardar 1999][research_nataraj_sardar_1999]\] \[[Nie et al 2010][research_nie_wang_2010]\] \[[Nie et al 2010][research_nie_wang_2010_b]\] \[[Nie et al 2011][research_nie_wang_2011]\] \[[Nikodem and Olbrot 1993][research_nikodem_olbrot_1993]\] \[[Niu et al 2018][research_niu_chen_2018]\] \[[Nowak et al 2015][research_nowak_czeczot_2015]\] \[[Ohno et al 1998][research_ohno_yamaguchi_1998]\] \[[Ohno et al 1999][research_ohno_yamaguchi_1999]\] \[[Olbrot and Nikodem 1994][research_olbrot_nikodem_1994]\] \[[Paduano and Downing 1986][research_paduano_downing_1986]\] \[[Panda 2009][research_panda_2009]\] \[[Paraskevopoulos et al 2006][research_paraskevopoulos_pasgianos_2006]\] \[[Paridari and Tavazoei 2011][research_paridari_tavazoei_2011]\] \[[Park et al 2015][research_park_lee_2015]\] \[[Patel et al 2023][research_patel_deodhare_2023]\] \[[Peng et al 2022][research_peng_zhu_2022]\] \[[Peng et al 2026][research_peng_liu_2026]\] \[[Perng et al 2004][research_perng_wu_2004]\] \[[Perng et al 2009][research_perng_ma_2009]\] \[[Pilotless flight vehicle motion 2015][research_pilotless_flight_vehicle_2015]\] \[[Pinier 2011][research_pinier_2011]\] \[[Pinier 2012][research_pinier_2012]\] \[[Pinier 2012][research_pinier_2012_b]\] \[[Pollack and Van Kampen 2022][research_pollack_vankampen_2022]\] \[[Pollack and van Kampen 2023][research_pollack_vankampen_2023]\] \[[Prabhakar and Bhattacharya 2008][research_prabhakar_bhattacharya_2008]\] \[[Prabhakar et al 2010][research_prabhakar_fisher_2010]\] \[[Pu et al 2014][research_pu_tan_2014]\] \[[Puri and Ghosh 2013][research_puri_ghosh_2013]\] \[[Qi et al 2023][research_qi_wang_2023]\] \[[Qu 2012][research_qu_2012]\] \[[Rapp et al 2012][research_rapp_weickgenannt_2012]\] \[[Ratliff and Pagilla 2008][research_ratliff_pagilla_2008]\] \[[Rehman et al 2010][research_rehman_petersen_2010]\] \[[Rehman et al 2011][research_rehman_fidan_2011]\] \[[Robust control of aircraft 1987][research_robust_control_1987]\] \[[Rodrigues et al 2022][research_rodrigues_preda_2022]\] \[[Roizner and Karpel 2018][research_roizner_karpel_2018]\] \[[Roizner and Karpel 2019][research_roizner_karpel_2019]\] \[[Rossi and Miller 1999][research_rossi_miller_1999]\] \[[Rostami et al 2023][research_rostami_bardin_2023]\] \[[Sachan and Padhi 2018][research_sachan_padhi_2018]\] \[[Sachan and Padhi 2020][research_sachan_padhi_2020]\] \[[Safonov and Athans 1976][research_safonov_athans_1976]\] \[[Safonov and Athans 1977][research_safonov_athans_1977]\] \[[Sato et al 2009][research_sato_asakura_2009]\] \[[Sayyaf and Tavazoei 2017][research_sayyaf_tavazoei_2017]\] \[[Schwabe et al 2016][research_schwabe_shehab_2016]\] \[[Sezer and Siljak 1980][research_sezer_siljak_1980]\] \[[Sezer and Siljak 1981][research_sezer_siljak_1981]\] \[[Shah et al 2015][research_shah_hosder_2015]\] \[[Shang et al 2019][research_shang_wu_2019]\] \[[Shankar et al 2019][research_shankar_labonte_2019]\] \[[Sharma et al 2024][research_sharma_up_2024]\] \[[Shen et al 2014][research_shen_yu_2014]\] \[[Shou and Han 2024][research_shou_han_2024]\] \[[Silani and Askari 2018][research_silani_askari_2018]\] \[[Simmons et al 2006][research_simmons_brun_2006]\] \[[Singh and Padhy 2017][research_singh_padhy_2017]\] \[[Siqueira et al 2012][research_siqueira_moreira_2012]\] \[[Siqueira et al 2013][research_siqueira_paglione_2013]\] \[[Sloggett 1977][research_sloggett_1977]\] \[[Smarslok 2015][research_smarslok_2015]\] \[[Smith and Mahadevan 2004][research_smith_mahadevan_2004]\] \[[Sobczyk 1948][research_sobczyk_1948]\] \[[Sparks and Banda 1992][research_sparks_banda_1992]\] \[[Sparks and Banda 1993][research_sparks_banda_1993]\] \[[Srazhidinov et al 2023][research_srazhidinov_liang_2023]\] \[[Stabilization of autonomous program 2024][research_stabilization_of_2024]\] \[[Su et al 2023][research_su_wu_2023]\] \[[Sun et al 2013][research_sun_yang_2013_b]\] \[[Sun et al 2023][research_sun_wu_2023]\] \[[Sun et al 2025][research_sun_zhou_2025]\] \[[Suraj Nandiganahalli et al 2018][research_surajnandiganahalli_kwon_2018]\] \[[Sutikno et al 2012][research_sutikno_chin_2012]\] \[[Takahashi 2013][research_takahashi_2013]\] \[[Tan 2004][research_tan_2004]\] \[[Tan and Yan 2012][research_tan_yan_2012]\] \[[Tan et al 2019][research_tan_li_2019]\] \[[Tang et al 2006][research_tang_wang_2006]\] \[[Tang et al 2018][research_tang_long_2018]\] \[[Tannenbaum 1986][research_tannenbaum_1986]\] \[[Tarpley and Lewis 1995][research_tarpley_lewis_1995]\] \[[Thomas and Agte 2013][research_thomas_agte_2013]\] \[[Thompson et al 2007][research_thompson_weeks_2007]\] \[[Tiwari et al 2025][research_tiwari_kassem_2025]\] \[[Trubin and Yurkevich 2026][research_trubin_yurkevich_2026]\] \[[Tsu-Tian Lee and Shiow-Harn Lee 1988][research_tsutianlee_shiowharnlee_1988]\] \[[Tuning of PID controllers 1994][research_tuning_of_1994]\] \[[Ur Rehman et al 2012][research_urrehman_petersen_2012]\] \[[Vadali 1986][research_vadali_1986]\] \[[Van Haver and Vos 2015][research_vanhaver_vos_2015]\] \[[Vaquer et al 2025][research_vaquer_rising_2025]\] \[[Varga and Ossmann 2014][research_varga_ossmann_2014]\] \[[Veresnikov and Goncharenko 2025][research_veresnikov_goncharenko_2025]\] \[[Vishwanathan et al 2021][research_vishwanathan_vio_2021]\] \[[Wan et al 2012][research_wan_wang_2012]\] \[[Wang 2011][research_wang_2011]\] \[[Wang 2014][research_wang_2014]\] \[[Wang and Cai 2002][research_wang_cai_2002]\] \[[Wang and Gao 2011][research_wang_gao_2011]\] \[[Wang and Shao 1999][research_wang_shao_1999]\] \[[Wang and Xu 2023][research_wang_xu_2023]\] \[[Wang et al 2016][research_wang_zhao_2016]\] \[[Wang et al 2016][research_wang_hu_2016]\] \[[Wang et al 2016][research_wang_lu_2016]\] \[[Wang et al 2017][research_wang_huang_2017]\] \[[Wang et al 2019][research_wang_qi_2019]\] \[[Wang et al 2019][research_wang_zou_2019]\] \[[Wang et al 2023][research_wang_gao_2023]\] \[[Wang et al 2025][research_wang_you_2025]\] \[[Weinmann 2008][research_weinmann_2008]\] \[[Weiwei et al 2022][research_weiwei_runde_2022]\] \[[Wheeler 2000][research_wheeler_2000]\] \[[White 1990][research_white_1990]\] \[[Wise 1990][research_wise_1990]\] \[[Wise 1993][research_wise_1993]\] \[[Won et al 2011][research_won_tahk_2011]\] \[[Wu and Livne 2016][research_wu_livne_2016]\] \[[Wu and Meng 2016][research_wu_meng_2016]\] \[[Wu and Perng 2004][research_wu_perng_2004]\] \[[Wu and Yu 2018][research_wu_yu_2018]\] \[[Wu et al 2013][research_wu_wu_2013]\] \[[Wu et al 2017][research_wu_lu_2017]\] \[[Wu et al 2018][research_wu_meng_2018_b]\] \[[Wu et al 2024][research_wu_ye_2024_b]\] \[[Wächter et al 1963][research_wachter_weber_1963]\] \[[Xian Lin Huang and Dong Ming Ge 2010][research_xianlinhuang_dongmingge_2010]\] \[[Xiao and Aggarwal 1994][research_xiao_aggarwal_1994]\] \[[Xiaojing Yang and Zhu 2012][research_xiaojingyang_zhu_2012]\] \[[Xu 2015][research_xu_2015]\] \[[Xu et al 2015][research_xu_jiang_2015]\] \[[Xu et al 2021][research_xu_li_2021]\] \[[Yamaguchi et al 2000][research_yamaguchi_ohno_2000]\] \[[Yamaguchi et al 2001][research_yamaguchi_ohara_2001]\] \[[Yan and Anderson 1990][research_yan_anderson_1990]\] \[[Yang and Kabamba 1991][research_yang_kabamba_1991]\] \[[Yang and Zhu 2014][research_yang_zhu_2014]\] \[[Yang and Zhu 2015][research_yang_zhu_2015]\] \[[Yang et al 2014][research_yang_zhu_2014_b]\] \[[Yang et al 2019][research_yang_lv_2019]\] \[[Yang et al 2023][research_yang_chao_2023]\] \[[Yaniv 1992][research_yaniv_1992]\] \[[Yaniv and Nagurka 2004][research_yaniv_nagurka_2004]\] \[[Yao 2022][research_yao_2022]\] \[[Yao et al 2011][research_yao_chen_2011]\] \[[Yao et al 2025][research_yao_wu_2025]\] \[[Yedavalli 2024][research_yedavalli_2024]\] \[[Yerrinaidu et al 2024][research_yerrinaidu_jalaja_2024]\] \[[Yin et al 2017][research_yin_wang_2017]\] \[[Yin et al 2018][research_yin_liu_2018]\] \[[Ying et al 2006][research_ying_ai_2006]\] \[[Yonezawa et al 2019][research_yonezawa_yonezawa_2019]\] \[[Yoon et al 2007][research_yoon_yu_2007]\] \[[Yu et al 2014][research_yu_zhang_2014_b]\] \[[Yuan and Zhou 2024][research_yuan_zhou_2024]\] \[[Yuan et al 2021][research_yuan_wanwei_2021]\] \[[Yue Zhao et al 2016][research_yuezhao_letianlin_2016]\] \[[Yumuk et al 2022][research_yumuk_guzelkaya_2022]\] \[[Yuting Dai et al 2010][research_yutingdai_wu_2010]\] \[[Zaichik et al 2008][research_zaichik_perebatov_2008]\] \[[Zeh et al 2019][research_zeh_rosenow_2019]\] \[[Zhang and Liu 2016][research_zhang_liu_2016]\] \[[Zhang et al 2012][research_zhang_fan_2012]\] \[[Zhang et al 2014][research_zhang_xian_2014]\] \[[Zhao et al 2022][research_zhao_gao_2022]\] \[[Zheng 2018][research_zheng_2018]\] \[[Zheng 2021][research_zheng_2021]\] \[[Zhengdong et al 2013][research_zhengdong_man_2013]\] \[[Zhu 2013][research_zhu_2013]\] \[[Zhu and Liu 2015][research_zhu_liu_2015]\] \[[Zhu et al 2010][research_zhu_xiaojingyang_2010]\] \[[Zhu et al 2015][research_zhu_tian_2015]\] \[[Zhu Jiao et al 2015][research_zhujiao_chenwanchun_2015]\] \[[Zollitsch et al 2015][research_zollitsch_holzapfel_2015]\] \[[Zong et al 2014][research_zong_wang_2014]\] \[[Zong et al 2015][research_zong_wang_2015]\]
 
@@ -820,11 +1076,12 @@ writes it down.**
 
 **Treating this vehicle through thrust-drag closure is right and it hides three things.**
 
-**First, the closure was demonstrated and not measured to useful precision.** Knowing that net thrust
-was positive at Mach 7 is a different and much weaker statement than knowing its value to within some
-percentage. The article's keystone frames a binary question because that is the question the flight
-answered, but the calibration value of the data comes from the detailed pressure and force
-reconstruction, which is a quantitative exercise the keystone does not describe.
+**First, the keystone frames a binary question and the data answer a quantitative one.** Knowing that
+net thrust was positive at Mach 7 is a different and much weaker statement than knowing its value to
+within some percentage. The calibration value of the data comes from the detailed pressure and force
+reconstruction, which put the thrust within two percent of prediction and the drag above it, as the
+section headed Comparison With Ground Prediction reports. The keystone describes neither the
+reconstruction nor its uncertainty.
 
 **Second, the keystone says nothing about the ten seconds.** A scramjet that produces net thrust for
 eleven seconds on hydrogen has not demonstrated a propulsion system, because the thermal problem in a
@@ -851,7 +1108,7 @@ $$\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, 
 
 At the two flight conditions the dynamic viscosity is $1.47 \times 10^{-5}$ and
 $1.51 \times 10^{-5}$ pascal seconds, giving a length Reynolds number of
-$1.11 \times 10^{7}$ at 95,000 feet and $7.58 \times 10^{6}$ at 110,000.
+$1.11 \times 10^{7}$ at 95,000 feet and $7.65 \times 10^{6}$ at 110,000.
 
 **Reynolds number is proportional to length at a fixed flight condition**, so a vehicle five times
 longer sits at $5.5 \times 10^{7}$ and one ten times longer at $1.11 \times 10^{8}$, an order of
@@ -872,24 +1129,29 @@ producing thrust in excess of vehicle drag, and each qualifier in that sentence 
 
 ## The Source Base
 
-**37 curated sources carry the argument and 11,610 surveyed research records map the
+**46 curated sources carry the argument and 11,610 surveyed research records map the
 field, and the article keeps them apart.**
 
-**All 37 are primary or canonical technical sources**, being NASA technical papers, conference
-papers, one mishap investigation board report and two textbooks. **32 of them come from
-the NASA Technical Reports Server**, which is the defining fact about this article's evidence.
+**All 46 are primary or canonical technical sources**, being NASA technical papers, conference
+papers and presentations, one mishap investigation board report, one NASA history, one manufacturer's
+announcement and two textbooks. **39 of them come from the NASA Technical Reports Server**, which is
+the defining fact about this article's evidence.
 
 **The difficulty here is abundance rather than scarcity.** The two preceding articles argued from thin
 records and had to derive what was not published. Hyper-X published nearly everything, so the risk is
 the opposite one, which is assembling a plausible curated set without reading the documents that carry
 the argument.
 
-**Four sources do most of the work and they should be named.** The mishap investigation board report is
-the single best source on this vehicle, and it supplies not only the failure but the configuration, the
-stack mass and length, the trajectory rationale and the programme objectives, because the board had to
-establish all of those before it could analyse the loss. The Mach 7 guidance and control paper and the
-Mach 10 overview carry the flight results, and the Mach 7 scramjet design paper traces the flowpath
-from design through ground test to flight, which is the loop the programme existed to close.
+**Seven sources do most of the work and they should be named.** The mishap investigation board report
+is the single best source on this vehicle, and it supplies not only the failure but the configuration,
+the stack mass and length, the trajectory rationale and the programme objectives, because the board had
+to establish all of those before it could analyse the loss. The chief engineer's account of the second
+flight and the Mach 10 overview carry the flight sequences and the separation conditions, the
+programme's technology summary carries the engine-test conditions and the thrust and drag
+comparisons, and the Mach 7 scramjet design paper traces the flowpath from design through ground test
+to flight, which is the loop the programme existed to close. The return-to-flight review records what
+was changed after the loss, and NASA's history of the programme supplies the
+trajectory choice behind the first flight and the decisions that set the third flight's Mach number.
 
 **One document supplies most of the standard relations.** NACA Report 1135 tabulates the isentropic
 relations, the oblique shock relations and the Rayleigh flow relation in the forms this article uses,
@@ -933,14 +1195,20 @@ by a single hydrogen-fuelled, dual-mode, airframe-integrated scramjet. The launc
 modified Pegasus first stage in the Orion 50S configuration with a Taurus propellant grain. The stack
 was 589 inches long and weighed 41,750 pounds at drop, carried by the NASA Dryden B-52B, 52-008. The
 trajectory was lower and at higher dynamic pressure than a typical Pegasus trajectory, chosen because
-of stack weight limits on the B-52\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
+of stack weight limits on the B-52\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. The
+first flight launched at about 20,000 feet and Mach 0.5 rather than the standard 40,000 feet and Mach
+0.8, because the ballast an unmodified motor would have needed exceeded the B-52B's 41,400 pound pylon
+limit\[[Peebles 2007][research_peebles_2007]\].
 
 The first flight attempt was on 2 June 2001. Motor ignition occurred 5.19 seconds after release, the
 pitch-up manoeuvre began at 8 seconds, a diverging roll oscillation at 2.5 hertz began at approximately
 11.5 seconds, the rudder electromechanical actuator stalled at approximately 13 seconds, sideslip
 diverged to over 8 degrees, the starboard elevon was structurally overloaded at 13.5 seconds, and the
 vehicle was terminated by range control 48.57 seconds after release. The mishap investigation board
-convened at Dryden on 5 June 2001\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
+convened at Dryden on 5 June 2001\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. The
+return-to-flight effort removed about 3,350 pounds of propellant so that later flights could launch at
+40,000 feet, fitted higher-torque fin actuators, and ran Monte Carlo analyses with new uncertainty
+models\[[Reubush and others 2003][research_reubush_2003]\].
 
 The board's root cause was that the launch vehicle control system design was deficient for the
 trajectory flown due to inaccurate analytical models, of both Pegasus heritage and launch-vehicle
@@ -950,23 +1218,33 @@ while still predicting a stable vehicle. **No single contributing factor caused 
 could only be reproduced when all of the modelling inaccuracies with uncertainty variations were
 incorporated**\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
-The second flight, on 27 March 2004, separated at approximately Mach 7 and the vehicle accelerated
-under scramjet power. The third flight, on 16 November 2004, reached approximately Mach 9.6 and held
-approximately constant velocity under power. Engine thrust was close to its design value on
-both\[[Voland and Huebner 2005][research_voland_2005]\].
+The second flight, on 27 March 2004, separated at Mach 6.946 and 94,069 feet, was fuelled for about
+11 seconds and accelerated under scramjet power to a maximum of Mach
+6.83\[[Marshall and Corpening 2005][research_marshall_chief_2005]\]. The third flight, on 16 November
+2004, separated at Mach 9.736 and 109,440 feet against a target of Mach 9.6, was fuelled for about 10
+seconds, and held thrust equal to drag at a maximum powered Mach number of
+9.68\[[Marshall and Bahm 2005][research_marshall_2005]\]. The programme's technology summary gives the
+powered portions as 11 seconds each at about 980 and 930 pounds per square foot, and engine thrust
+within less than two percent of prediction at Mach 7 and in agreement with it at Mach
+10\[[Voland and Huebner 2005][research_voland_2005]\]. Over the second flight's cowl-closed descent
+the axial force was 10 to 15 percent higher than predicted\[[Davis and White 2006][research_davis_white_2006]\].
+The Mach 10 vehicle had carbon-carbon vertical tail leading edges and a hafnium carbide coated nose
+redesigned to a 0.050 inch radius, against 0.030 inch on the Mach 7
+vehicles\[[Ohlhorst and others 2005][research_ohlhorst_2005]\].
 
 ### Verified by Independent Derivation
 
 **Every input below is a published value and every output was computed in this article.** The
 qualification is made once here and not repeated against each item.
 
-The stagnation temperatures of 2,329 and 4,517 kelvin at the two flight conditions follow from the
+The stagnation temperatures of 2,329 and 4,588 kelvin at the two flight conditions follow from the
 isentropic relation with the standard atmosphere at the stated altitudes, and the corresponding static
-temperatures after deceleration to sonic conditions are 1,941 and 3,764 kelvin.
+temperatures after deceleration to sonic conditions are 1,941 and 3,824 kelvin.
 
-**The dynamic pressures at the two flight conditions agree to within two pounds per square foot**, at
-955 and 957, from independently reported Mach numbers and altitudes. **That agreement was not arranged
-and it is the strongest available consistency check on the two flight conditions.**
+**The standard-atmosphere dynamic pressures at the two flight conditions are 955 and 973 pounds per
+square foot**, within five percent of the 1,000 pound design point, against reported values of about
+980 and 930. The standard atmosphere is 2.6 percent low on the second flight and 4.6 percent high on
+the third.
 
 The Kantrowitz self-starting contraction limit rises only from 1.60 to 1 at Mach 7 to 1.63 to 1 at Mach
 10, which is why a fixed-geometry inlet is tractable across this range.
@@ -979,10 +1257,15 @@ cycles.
 
 The research vehicle is 7.2 percent of stack mass and 24 percent of stack length.
 
-Leading edge stagnation heating at a three millimetre radius is 4.06 and 8.29 megawatts per square
-metre at the two conditions, a ratio of 2.04, computed from the Sutton and Graves correlation.
+Leading edge stagnation heating at the 0.030 inch design nose radius is 8.06 and 16.86 megawatts per
+square metre at the two conditions, a ratio of 2.09, computed from the Sutton and Graves correlation,
+and the third vehicle's 0.050 inch nose brings the ratio to 1.62.
 
-Eleven seconds of powered flight covers 23 kilometres on the second flight and 32 on the third.
+Powered flight of 11 and 10.5 seconds covers 22.6 kilometres on the second flight and 31.1 on the
+third, 6.3 and 3.5 percent short of the 15 and 20 miles reported.
+
+The stoichiometric hydrogen to air mass ratio is 0.0292, and the 83 percent loss of gain margin
+overshoot is the ratio of 1.253 to 1.512.
 
 A net axial force of 30 to 150 pounds corresponds to accelerations of 0.01 to 0.05 g on a 3,000 pound
 vehicle.
@@ -1005,8 +1288,16 @@ cannot settle its sign when their uncertainty bands are comparable to the differ
 differences between large quantities, both were predicted rather than measured, and the programme's
 value lies in having measured one of them.
 
-Leading edge heating roughly doubles between the two flight conditions at essentially equal dynamic
-pressure, because velocity enters cubed and density under a square root.
+Leading edge heating roughly doubles between the two flight conditions at dynamic pressures within
+five percent of each other, because velocity enters cubed and density under a square root.
+
+**Assumptions stated in the text and not taken from any source.** The five percent exit velocity
+excess used to illustrate specific thrust. The one metre combustor length and the combustor velocity of
+half the flight speed in the residence time estimate. The representative shock angles of 12, 15 and 20
+degrees in the forebody table. The amplitude growth factors of 5, 10 and 20 in the damping table, and
+the error fractions in the margin table. The separation of about 20,000 feet between the altitudes at
+which the first and later stacks pass a given Mach number, in the dynamic pressure ratio of 2.48. The
+standard atmosphere in place of the day's atmosphere for every flight-condition figure computed here.
 
 ### Inference
 
@@ -1014,16 +1305,14 @@ pressure, because velocity enters cubed and density under a square root.
 
 **The carrier aircraft weight limit is a proximate cause of the first flight's loss.** The board states
 that the trajectory was chosen for B-52 weight limits and that the control system was deficient for the
-trajectory flown. Joining those two statements is an inference this article makes and the board does
-not make in those words.
+trajectory flown, and NASA's history traces the weight limit to the low launch. Joining those
+statements into a cause is an inference this article makes and neither source makes in those words.
 
-**The two vehicles flown in 2004 were not identical.** The heating analysis gives a factor of two
-between the conditions, and the programme is known to have changed the leading edges for the Mach 10
-flight. The precise differences are not reconstructed here.
-
-**The engine burn is taken as approximately eleven seconds on both powered flights.** Reported figures
-vary between about ten and about eleven seconds and the distinction does not affect any conclusion
-here.
+**The reported burn durations differ by source and by up to a second.** The technology summary gives
+11 seconds of powered flight on each flight and also 10.5 seconds for the third, the flight overviews
+give about 11 and about 10 seconds of fuelling, and NASA's history gives about 10 and about
+11\[[Voland and Huebner 2005][research_voland_2005]\]\[[Marshall and Corpening 2005][research_marshall_chief_2005]\]\[[Marshall and Bahm 2005][research_marshall_2005]\]\[[Peebles 2007][research_peebles_2007]\].
+The difference reflects what each counts as the burn and does not affect any conclusion here.
 
 ### What the Record Does Not Settle
 
@@ -1038,10 +1327,12 @@ not established.** The board addressed the trajectory flown.
 that the pairing is undisputed rests on the uniform usage of every source consulted rather than on a
 register. **That is weaker evidence than it looks**, and it is recorded here rather than glossed.
 
-**The dynamic pressure figure of approximately 1,000 pounds per square foot is computed here from
-altitude and Mach number**, using the standard atmosphere rather than measured atmospheric conditions
-on the days of the flights. Real conditions differ from the standard atmosphere and the agreement
-between the two flights should be read as a consistency check rather than as a measurement.
+**The distances the technology summary reports are not fully reconciled.** Its 15 miles in 11 seconds
+and 20 miles in 10.5 seconds imply mean speeds above the standard-atmosphere speeds at the peak powered
+Mach numbers, and the summary does not say how the distances were measured.
+
+**How much thrust margin remained above cruise at Mach 9.68 is not established**, because the planned
+Mach 10 acceleration flight was never flown.
 
 ### On Information Postdating the Editorial Date
 
@@ -1075,8 +1366,9 @@ The number is the difference between the thrust an airframe-integrated scramjet 
 the airframe suffers, and before 27 March 2004 nobody knew its sign in free flight, because both terms
 are large, the difference is small, and the uncertainty on each term was comparable to the difference.
 **The second flight accelerated and the third held speed**, which places the margin at positive at Mach
-7 and approximately zero at Mach 9.6. **That is a more useful pair of results than a speed record**,
-because it locates where the closure fails rather than merely showing that it can succeed.
+7 and at zero by design at Mach 9.68. **That is a more useful pair of results than a speed record**,
+because it shows the closure holding at both ends of the range, with thrust within two percent of
+prediction and drag the larger source of error.
 
 **The first flight was destroyed by the same kind of number and the programme's own investigation said
 so plainly.** A roll axis gain margin predicted at 8 decibels against a requirement of 6 became under 2
@@ -1087,10 +1379,10 @@ recording. **A margin is not a quantity. It is a quantity with an uncertainty, a
 uncertainty larger than itself.**
 
 **The programme's stated product was calibrated tools rather than a vehicle**, and by that measure it
-succeeded, since engine thrust came in close to prediction on both powered flights and hypersonic
-air-breathing design has been anchored to that data since. **The vehicle led nowhere directly.** The
-X-43C was cancelled, no operational air-breathing hypersonic aircraft followed, and the eleven seconds
-of powered flight remain the extent of what this configuration ever did.
+succeeded, since engine thrust came in close to prediction on both powered flights and the data went
+to the community that designs such vehicles. **The vehicle led nowhere directly.** The X-43C remained
+a plan, no operational air-breathing hypersonic aircraft followed, and the eleven seconds of powered
+flight remain the extent of what this configuration ever did.
 
 **What survives is a calibration and a caution, and the caution may outlast the calibration.** The
 engine data belongs to hydrogen scramjets at Mach 7 and 10. **The finding that a positive margin with
@@ -1105,6 +1397,12 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 
 [book_anderson_hypersonic]: https://openlibrary.org/works/OL1993330W
 [book_heiser_pratt]: https://openlibrary.org/works/OL3932490W
+
+### Reference
+
+- [Boeing, 2013, Boeing X-51A WaveRider sets record with successful 4th flight][ref_boeing_x51a_2013]
+
+[ref_boeing_x51a_2013]: https://boeing.mediaroom.com/2013-05-03-Boeing-X-51A-WaveRider-Sets-Record-with-Successful-4th-Flight
 
 ### Related Post
 
@@ -1434,6 +1732,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Ammour and Page 2017][research_ammour_page_2017]
 - [Amplification of turbulent kinetic 2023][research_amplification_of_2023]
 - [Amrutha and Hari Kumar 2018][research_amrutha_harikumar_2018]
+- [Amundsen, Leonard and Bruce, 2004, Hyper-X hot structures comparison of thermal analysis and flight data][research_amundsen_2004]
 - [An and Wang 2022][research_an_wang_2022]
 - [An and Wu 2018][research_an_wu_2018]
 - [An and Wu 2019][research_an_wu_2019]
@@ -3230,6 +3529,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Davis and Smith 1996][research_davis_smith_1996]
 - [Davis and Spicer 1965][research_davis_spicer_1965]
 - [Davis and Thompson 1992][research_davis_thompson_1992]
+- [Davis and White, 2006, Flight-test-determined aerodynamic force and moment characteristics of the X-43A at Mach 7.0][research_davis_white_2006]
 - [Davis et al 1992][research_davis_campbell_1992]
 - [Davis et al 1995][research_davis_cerven_1995]
 - [Davis et al 2002][research_davis_baker_2002]
@@ -4082,6 +4382,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Frayssinet 2019][research_frayssinet_2019]
 - [Frazier et al 1998][research_frazier_foglesong_1998]
 - [Free flight research tool 1956][research_free_flight_1956]
+- [Freeman, Reubush and others, 1997, The NASA Hyper-X program][research_freeman_1997]
 - [French 1990][research_french_1990]
 - [Frendreis et al 2009][research_frendreis_skujins_2009]
 - [Fresconi 2011][research_fresconi_2011]
@@ -4553,6 +4854,8 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Grilli et al 2013][research_grilli_hickel_2013]
 - [Grimm 1992][research_grimm_1992]
 - [Grimm 1993][research_grimm_1993]
+- [Grindle and Bahm, 2006, The X-43A (Hyper-X) flies into the record books][research_grindle_bahm_2006]
+- [Grindle, 2011, X-43A final flight observations][research_grindle_2011]
 - [Groenner et al 1995][research_groenner_vonlavante_1995]
 - [Gronland and Berens 1995][research_gronland_berens_1995]
 - [Gronland and Cambier 1996][research_gronland_cambier_1996]
@@ -8382,6 +8685,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Oh 1975][research_oh_1975]
 - [Oh et al 2016][research_oh_cho_2016]
 - [Ohkuma et al 2008][research_ohkuma_takahashi_2008]
+- [Ohlhorst, Glass and others, 2005, Development of X-43A Mach 10 leading edges][research_ohlhorst_2005]
 - [Ohno et al 1998][research_ohno_yamaguchi_1998]
 - [Ohno et al 1999][research_ohno_yamaguchi_1999]
 - [Ohtake 1998][research_ohtake_1998]
@@ -8652,6 +8956,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Pecnik et al 2011][research_pecnik_witteveen_2011]
 - [Pecquet and Menon 2025][research_pecquet_menon_2025]
 - [Pederson and Rodrigues 2025][research_pederson_rodrigues_2025]
+- [Peebles, 2007, The X-43A flight research program, lessons learned on the road to Mach 10][research_peebles_2007]
 - [Peery and Imlay 1986][research_peery_imlay_1986]
 - [Peetala 2019][research_peetala_2019]
 - [Pehrson et al 2023][research_pehrson_leonov_2023]
@@ -9185,6 +9490,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 - [Reubush 1999][research_reubush_1999]
 - [Reubush et al 1987][research_reubush_puster_1987]
 - [Reubush et al 2001][research_reubush_martin_2001]
+- [Reubush, Nguyen and Rausch, 2003, Review of X-43A return to flight activities and current status][research_reubush_2003]
 - [Review of Experimental Research 1960][research_review_of_1960]
 - [Review of Inlet/Airframe Integration 1986][research_review_of_1986]
 - [Reynolds 1973][research_reynolds_1973]
@@ -13078,6 +13384,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_ammour_page_2017]: https://doi.org/10.1115/gt2017-64913
 [research_amplification_of_2023]: https://doi.org/10.1063/5.0145320
 [research_amrutha_harikumar_2018]: https://doi.org/10.1109/icetietr.2018.8529093
+[research_amundsen_2004]: https://ntrs.nasa.gov/citations/20040111308
 [research_an_efficient_2014]: https://doi.org/10.15242/iie.e1214056
 [research_an_evaluation_1962]: https://doi.org/10.2514/5.9781600864810.0547.0579
 [research_an_experimental_1976]: https://doi.org/10.2514/5.9781600865176.0203.0236
@@ -14877,6 +15184,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_davis_smith_1996]: https://doi.org/10.1007/bf00042785
 [research_davis_spicer_1965]: https://doi.org/10.2514/6.1965-1425
 [research_davis_thompson_1992]: https://doi.org/10.2514/6.1992-390
+[research_davis_white_2006]: https://ntrs.nasa.gov/citations/20070001000
 [research_davison_copeland_1983]: https://doi.org/10.1109/cdc.1983.269646
 [research_dawson_johng_1962]: https://doi.org/10.21236/ad0270501
 [research_dawson_mckeon_2020]: https://doi.org/10.1016/j.ijheatfluidflow.2020.108677
@@ -15728,6 +16036,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_frayssinet_2019]: https://doi.org/10.2514/6.2019-3224
 [research_frazier_foglesong_1998]: https://doi.org/10.21236/ada353371
 [research_free_flight_1956]: https://doi.org/10.1109/ee.1956.6442346
+[research_freeman_1997]: https://ntrs.nasa.gov/citations/19980018480
 [research_french_1990]: https://doi.org/10.2514/6.1990-956
 [research_frendreis_skujins_2009]: https://doi.org/10.2514/6.2009-5601
 [research_fresconi_2011]: https://doi.org/10.2514/6.2011-6248
@@ -16198,6 +16507,8 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_grilli_hickel_2013]: https://doi.org/10.1016/j.ijheatfluidflow.2012.12.006
 [research_grimm_1992]: https://doi.org/10.1016/s1474-6670(17)49694-7
 [research_grimm_1993]: https://doi.org/10.1016/b978-0-08-041715-8.50072-9
+[research_grindle_2011]: https://ntrs.nasa.gov/citations/20110014424
+[research_grindle_bahm_2006]: https://ntrs.nasa.gov/citations/20060056098
 [research_groenner_vonlavante_1995]: https://doi.org/10.1007/3-540-59280-6_133
 [research_gronig_1992]: https://doi.org/10.1007/978-3-642-77648-9_1
 [research_gronland_berens_1995]: https://doi.org/10.2514/6.1995-6050
@@ -20025,6 +20336,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_oh_1975]: https://doi.org/10.1007/978-1-4615-8738-5_18
 [research_oh_cho_2016]: https://doi.org/10.20910/ijase.2016.3.2.1
 [research_ohkuma_takahashi_2008]: https://doi.org/10.2514/6.2008-4333
+[research_ohlhorst_2005]: https://ntrs.nasa.gov/citations/20050240163
 [research_ohno_yamaguchi_1998]: https://doi.org/10.1016/s1474-6670(17)41088-3
 [research_ohno_yamaguchi_1999]: https://doi.org/10.1016/s0967-0661(99)00085-4
 [research_ohtake_1998]: https://doi.org/10.1016/s0045-7825(97)00153-9
@@ -20301,6 +20613,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_pecnik_witteveen_2011]: https://doi.org/10.2514/6.2011-660
 [research_pecquet_menon_2025]: https://doi.org/10.2514/6.2025-0157
 [research_pederson_rodrigues_2025]: https://doi.org/10.2514/6.2025-3888
+[research_peebles_2007]: https://ntrs.nasa.gov/citations/20070021686
 [research_peery_imlay_1986]: https://doi.org/10.2514/6.1986-1380
 [research_peetala_2019]: https://doi.org/10.1007/978-3-319-91017-8_75
 [research_pehrson_leonov_2023]: https://doi.org/10.2514/6.2023-0220
@@ -20833,6 +21146,7 @@ an uncertainty larger than itself is indistinguishable from a negative one belon
 [research_resta_marsilio_2021]: https://doi.org/10.3390/fluids6120441
 [research_restrepo_hurtado_2011]: https://doi.org/10.2514/6.2011-6590
 [research_reubush_1999]: https://doi.org/10.2514/6.1999-4818
+[research_reubush_2003]: https://ntrs.nasa.gov/citations/20040040296
 [research_reubush_martin_2001]: https://doi.org/10.2514/6.2001-1802
 [research_reubush_puster_1987]: https://doi.org/10.2514/6.1987-1887
 [research_review_of_1960]: https://doi.org/10.2514/5.9781600864766.0561.0602

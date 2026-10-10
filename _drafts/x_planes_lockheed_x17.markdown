@@ -51,25 +51,31 @@ The requirement came from the Air Force ballistic missile programme, which by 19
 
 For a re-entering body it is the wrong answer, and the reason was established by Allen and Eggers at the National Advisory Committee for Aeronautics. **A blunt body pushes a detached bow shock ahead of itself and dumps most of the kinetic energy into the air and not into the vehicle.** A sharp body carries a shock attached to its own nose and heats itself. The theory is compactly presented in [Eggers et al 1958][research_eggers_1958], published after the X-17 had already flown.
 
-That is the origin of the tension the programme resolved. **The theory said blunt. Nobody had flown it. The X-17 was built to settle the question with hardware.**
+That is the origin of the tension the programme resolved. **The theory said blunt. Nobody had flown it. The X-17 was built to measure in flight how much heat reached a blunt nose, and where on it the boundary layer stopped being laminar.**
 
 ### The Vehicle
 
-Sources give the X-17 as a three-stage solid-propellant rocket of 40 feet 4 inches in length and 10,650 pounds at launch, though some accounts give 41 feet. The first stage is a Thiokol XM20 Sergeant of 48,000 pounds force, the second is a cluster of three Thiokol XM19 Recruit motors at 33,900 pounds force each, and the third is a single XM19E1 Recruit at 35,950 pounds force. Diameters step down from 2 feet 7 inches to 1 foot 5 inches to 9.7 inches.
+The [reference entry for the vehicle][ref_x17] gives the X-17 as a three-stage solid-propellant rocket of 40 feet 4 inches in length, and the missile directory of [Parsch 2003][ref_parsch_x17] gives 40 feet 5.5 inches and 12,000 pounds at launch. The first stage is a Thiokol XM20 Sergeant of 48,000 pounds force, the second is a cluster of three Thiokol XM19 Recruit motors at 33,900 pounds force each, and the third is a single XM19E1 Recruit at 35,950 pounds force. The history of hypersonics that the National Aeronautics and Space Administration published, [Heppenheimer 2007][book_heppenheimer_2007], gives the two upper-stage thrusts as 102,000 and 36,000 pounds, which agrees with three motors of 33,900 pounds, or 101,700 together, and states that the two upper stages burned to depletion in only 3.7 seconds. Diameters step down from 2 feet 7 inches to 1 foot 5 inches to 9.7 inches.
 
-**The flight profile is the design.** The first stage lifts the vehicle to roughly 17 miles and burns out. The vehicle then coasts unpowered to apogee, tips over, and falls. On the way down the second stage fires, burns out, separates, and the third stage fires, driving the nose cone into progressively denser air. The peak speed reported is Mach 14.5, and on 24 April 1957 a flight reached 9,000 miles per hour.
+**The flight profile is the design.** The first stage lifts the vehicle to roughly 17 miles and burns out, according to the reference entry. The vehicle then coasts unpowered to apogee, tips over, and falls. On the way down the second stage fires, burns out, separates, and the third stage fires, driving the nose cone into progressively denser air. The contractor report of [Murphy and Rubesin 1965][research_murphy_rubesin_1965], which analyses two of the flights for the National Aeronautics and Space Administration, gives the nominal sequence. The first stage lifted the vehicle to a nominal 400,000 feet, the vehicle coasted down to between 90,000 and 70,000 feet, the second stage accelerated it from about 5,000 to about 9,500 feet per second, and the third stage brought it to about 13,000 feet per second at 40,000 feet. Heppenheimer calls the technique over the top, and adds that large fins pointed the vehicle downward as it re-entered and that the upper stages fired below 100,000 feet. The fastest flight in the inventory of [Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003] is Mach 14.4, or 9,504 miles per hour. The reference entry gives Mach 14.5, and a flight on 24 April 1957 at 9,000 miles per hour.
 
 The downward velocity the upper stages must supply follows from the rocket equation,
 
 $$\Delta v = I_{sp}\, g_0 \ln\frac{m_0}{m_1}$$
 
-and at a period-typical solid specific impulse of 235 seconds the 2,339 metres per second computed below requires
+and at a specific impulse of 235 seconds, assumed here as typical of solid motors of the period, the 2,339 metres per second computed below requires
 
 $$\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759$$
 
 or **63.8 percent propellant by mass** in the descending stack. That is an ordinary figure for a solid motor and is why the architecture was practical at all, not merely conceivable.
 
-**Published apogees disagree, and not slightly.** One account gives about 100 miles, another about 500,000 feet, and a third 250 miles. The first two agree to within nine kilometres. The third is two and a half times the first. This article computes across the range where the answer depends on it and says so.
+The stage speeds Murphy and Rubesin give imply a somewhat larger increment than that lower bound. Converting their 5,000 and 13,000 feet per second,
+
+$$\Delta v_{\text{doc}} = (13{,}000 - 5{,}000) \times 0.3048 = 2{,}438\ \text{m/s}$$
+
+which is 4.2 percent above 2,339 and, at the same assumed specific impulse, a mass ratio of 2.881 or 65.3 percent propellant.
+
+**Published apogees disagree, and most of the disagreement is two different configurations.** For the research flights Murphy and Rubesin give a nominal 400,000 feet, Heppenheimer gives 65 to 100 miles, the inventory gives about 500,000 feet as the highest flight, and the reference entry gives about 100 miles. Those span 104.6 to 160.9 kilometres. The 250 miles the reference entry also gives describes no research flight. The modified X-17a flown for Operation Argus fired all three stages upward, and the report of the Defense Nuclear Agency, [Jones et al 1982][ref_dna_argus_1982], records apogees of 302 and 363 nautical miles, or 560 and 672 kilometres, on its two successful shipboard test flights. This article computes across the research range where the answer depends on it and says so.
 
 ## Sizing From First Principles
 
@@ -91,11 +97,11 @@ The first thing to establish is that the downward stages were necessary and not 
 
 $$v_{\text{ff}} = \sqrt{2 g \Delta h}$$
 
-Taking the lower published apogee of 160.9 kilometres and a target altitude of 15 kilometres,
+Taking the top of the research range, 100 miles or 160.9 kilometres, which is the case most favourable to falling, a target altitude of 15 kilometres, and a mean gravitational acceleration over the fall of 9.72 metres per second squared assumed here,
 
 $$v_{\text{ff}} = \sqrt{2 \times 9.72 \times 145{,}900} = 1{,}684\ \text{m/s}$$
 
-which is Mach 5.71. The achieved speed was 4,023 metres per second, so the ratio in speed is
+which is Mach 5.71. The 9,000 miles an hour reported for one flight is 4,023 metres per second, and this article uses it throughout as the representative X-17 speed, so the ratio in speed is
 
 $$\frac{v_{\text{achieved}}}{v_{\text{ff}}} = \frac{4{,}023}{1{,}684} = 2.389$$
 
@@ -111,7 +117,27 @@ $$\Delta v = 4{,}023 - 1{,}684 = 2{,}339\ \text{m/s}$$
 
 neglecting drag during the burn, which makes this a lower bound.
 
-Even the largest published apogee does not rescue the falling case. From 402 kilometres, free fall reaches 2,744 metres per second, which is Mach 9.30 and still only
+The 4,023 metres per second is representative and not a measured peak, and the tabulated flights bracket it. The speed of sound in the isothermal stratosphere at 216.65 kelvin is
+
+$$a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 216.65} = 295.1\ \text{m/s}$$
+
+which is within one percent of the value at 34,000 feet, the lowest altitude in the flight table discussed under the flight record below. The Mach 11.3 to Mach 14.4 of the successful flights is therefore
+
+$$V = M a = 3{,}334\ \text{to}\ 4{,}249\ \text{m/s}$$
+
+and the upper figure agrees with the 9,504 miles an hour of the inventory, which is 4,249 metres per second.
+
+Murphy and Rubesin's nominal stage speeds make the same comparison without any assumed apogee. The vehicle reached second-stage ignition at about 5,000 feet per second and left the third stage at about 13,000, so at equal density
+
+$$\left(\frac{13{,}000}{5{,}000}\right)^{3} = 17.58$$
+
+and on the documented nominal profile the upper stages multiplied the heating rate by about eighteen.
+
+A lower apogee strengthens the conclusion. From the nominal 400,000 feet, which is 121.9 kilometres,
+
+$$v_{\text{ff}} = \sqrt{2 \times 9.72 \times 106{,}920} = 1{,}442\ \text{m/s}$$
+
+and the heating shortfall grows to $(4{,}023/1{,}442)^{3} = 21.7$. Even the 250 miles of the reference entry, which exceeds every research apogee in the record, does not rescue the falling case. From 402 kilometres, free fall reaches 2,744 metres per second, which is Mach 9.30 and still only
 
 $$\left(\frac{4{,}023}{2{,}744}\right)^{3} = 3.15$$
 
@@ -213,7 +239,7 @@ What that energy does to the air is the point. The perfect-gas stagnation temper
 
 $$T_0 = T_\infty + \frac{h_0}{c_p}$$
 
-which gives 8,274 kelvin for the X-17 and 24,627 for the intercontinental case. **Both figures are physically meaningless**, because the air dissociates and ionises long before either, absorbing the energy in chemistry and not in temperature. The [X-15 article][related_post_a312_north_american_x15] in this series computes the limit at which the perfect-gas assumption fails, at Mach 7.06, and the X-17 flew at Mach 14.5, which is **2.05 times that limit.**
+which gives 8,274 kelvin for the X-17 and 24,627 for the intercontinental case. **Both figures are physically meaningless**, because the air dissociates and ionises long before either, absorbing the energy in chemistry and not in temperature. The [X-15 article][related_post_a312_north_american_x15] in this series computes the limit at which the perfect-gas assumption fails, at Mach 7.06, and the fastest X-17 flight reached Mach 14.4, which is **2.04 times that limit.**
 
 The relevant thresholds are approximate and standard. Oxygen dissociation begins near 2,500 kelvin and is substantially complete near 4,000. Nitrogen dissociation begins near 4,000. Ionisation becomes significant near 9,000. At 8 megajoules per kilogramme the shock layer is fully dissociated in oxygen and partly in nitrogen. At 24.5 it is far advanced in nitrogen dissociation with ionisation beginning, which is why radio blackout is a re-entry phenomenon and not an X-17 phenomenon.
 
@@ -275,7 +301,7 @@ Peak rate is what fails a structure suddenly. Total load is what consumes an abl
 
 $$Q = \int \dot{q}\, dt$$
 
-A steep powered dive and a shallow intercontinental re-entry can share a peak rate and differ entirely in the integral. Taking representative exposure times of 6 seconds and 25 seconds with a triangular rate history,
+A steep powered dive and a shallow intercontinental re-entry can share a peak rate and differ entirely in the integral. Taking exposure times of 6 seconds and 25 seconds, assumed here as representative, with a triangular rate history,
 
 $$Q_{\text{X-17}} \approx \tfrac{1}{2} \times 1{,}398 \times 6 = 41.9\ \text{MJ/m}^{2}$$
 
@@ -283,7 +309,7 @@ against a re-entry lasting four times as long,
 
 $$Q_{\text{ICBM}} \approx \tfrac{1}{2} \times 1{,}398 \times 25 = 174.7\ \text{MJ/m}^{2}$$
 
-The exposure times are representative and not measured, and the ratio of 4.17 is the point, not the values. **A material that survives the X-17's pulse has not been shown to survive an intercontinental re-entry's soak.**
+The exposure times are assumed and not measured, and the ratio of 4.17 is the point, not the values. Heppenheimer's 3.7 seconds for the two upper-stage burns together suggests that the assumed 6 seconds is of the right order for the X-17. **A material that survives the X-17's pulse has not been shown to survive an intercontinental re-entry's soak.**
 
 ### What the Programme Actually Bought
 
@@ -292,7 +318,7 @@ Collecting the four comparisons gives the article's central table.
 | Quantity | Reproduced | Why |
 |---|---|---|
 | Stagnation heating rate | **Yes, exactly** | density traded against velocity |
-| Nose radius and full scale | **Yes** | the article was full size |
+| A flight body in real air | **Yes** | an instrumented body in free flight |
 | Boundary layer state and transition | **Yes, arguably better** | Reynolds number is high at low altitude |
 | Stagnation enthalpy and chemistry | **No, 33 percent** | enthalpy carries no density |
 | Nonequilibrium state | **No, 9.25 times off** | binary scaling overshot |
@@ -300,7 +326,7 @@ Collecting the four comparisons gives the article's central table.
 | Radiative heating | **No, about one percent** | radiation scales as $V^{8.5}$ |
 | The trajectory as a whole | **No, one point only** | a re-entry is a curve |
 
-**The X-17 surrendered velocity and therefore chemistry, and bought heating rate, scale, and material response.** For a nose cone designer in 1956 who needed to know whether a given ablator on a given shape would survive a given heat flux, that was the right trade, because the chemistry he could not have used anyway. **The programme gave up the thing nobody could yet compute and kept the thing everybody needed to measure.**
+**The X-17 surrendered velocity and therefore chemistry, and bought heating rate, real air, and a measured distribution of heat transfer over a flight body.** For a nose cone designer in 1956 who needed to know how much heat reached a given shape, and where on it the boundary layer stopped being laminar, that was the right trade, because the chemistry he could not have used anyway. **The programme gave up the thing nobody could yet compute and kept the thing everybody needed to measure.**
 
 ## Dependent Systems
 
@@ -327,7 +353,11 @@ $$\beta = \frac{m}{C_D A}$$
 
 For a 200 kilogramme body at the third-stage diameter, a blunt hemisphere at a drag coefficient of 1.0 gives 4,195 kilogrammes per square metre and a slender cone at 0.3 gives 13,983, a ratio of **3.33**. **The slender body carries over three times the ballistic coefficient and therefore arrives fast in dense air, which is the worst possible combination.** It is heated harder by its own sharpness and for longer by its own penetration.
 
-The X-17 flew hemispherical, cubic paraboloid, and blunt nose shapes and the programme concluded that blunt was correct for both Atlas and Titan. Period measurements on the same question appear in [Nardo and Sadler 1962][research_nardo_sadler_1962], [Conti 1961][research_conti_1961], and [Oguchi 1962][research_oguchi_1962], with the asymmetric case in [Swigart 1962][research_swigart_1962].
+The flight table that Heppenheimer reproduces from the history of the Air Force Missile Test Center lists hemispheres, cubic paraboloids, blunt shapes, some built by Avco, and blunt cones built by General Electric, and no sharp nose. **The X-17 compared blunt shapes with one another rather than blunt against sharp.** The two flights analysed by Murphy and Rubesin, R-2 and R-9, carried hemispheres of 9 inch diameter, a nose radius of 0.1143 metres, which by the relation above takes
+
+$$\sqrt{\frac{0.15}{0.1143}} = 1.146$$
+
+times the heat flux of the 0.15 metre nose used in this article's reference condition. Period measurements on the same question appear in [Nardo and Sadler 1962][research_nardo_sadler_1962], [Conti 1961][research_conti_1961], and [Oguchi 1962][research_oguchi_1962], with the asymmetric case in [Swigart 1962][research_swigart_1962].
 
 ### The Ablator, Which Is the Answer to the Heat That Arrives Anyway
 
@@ -339,7 +369,7 @@ so the temperature a passive surface must reach to reject the incident flux is
 
 $$T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4} = \left(\frac{1.398 \times 10^{7}}{0.85 \times 5.67 \times 10^{-8}}\right)^{1/4} = 4{,}127\ \text{K}$$
 
-at an emissivity of 0.85. Against the most refractory materials there are,
+at an emissivity of 0.85 assumed here. Against the most refractory materials there are,
 
 | Material | Melting or sublimation, K | Verdict |
 |---|---|---|
@@ -365,11 +395,11 @@ where the effective heat of ablation lumps together heating the material to its 
 | Phenolic nylon | 12.0 | 1.16 |
 | Graphite | 25.0 | 0.56 |
 
-At a phenolic-like 12 megajoules per kilogramme and a material density of 1,400 kilogrammes per cubic metre, the surface lost over the exposure is
+At an effective heat of 12 megajoules per kilogramme and a material density of 1,400 kilogrammes per cubic metre, both assumed here as phenolic-like values, the surface lost over the exposure is
 
 $$s = \frac{\dot{m} \tau}{2 \rho_m}$$
 
-giving 2.50 millimetres over the X-17's six seconds and 10.39 over a twenty-five second re-entry.
+giving 2.50 millimetres over the six seconds assumed for an X-17 pulse and 10.39 over a twenty-five second re-entry.
 
 The theory of that blockage is set out in [Swann and South 1961][research_swann_south_1961], requirements analysis in [Roberts 1960][research_roberts_1960], the measurement of rates in [Winters and Bracalente 1961][research_winters_bracalente_1961], and material screening in arc-heated air in [Chapman 1963][research_chapman_1963] and [Dickey and Haacker 1963][research_dickey_haacker_1963]. The subject grew from a screening exercise into a modelled one and the line of it is [Hidalgo 1960][research_hidalgo_1960], [Linder 1961][research_linder_1961], [Gunderson 1962][research_gunderson_1962], [Herman and Melnik 1962][research_herman_melnik_1962], [Compton et al 1963][research_compton_1963], [Kumar et al 1980][research_kumar_1980], [Green and Davy 1981][research_green_davy_1981], [Lincoln 1981][research_lincoln_1981], [Park et al 1983][research_park_1983], [Park et al 1983, Ablation of carbonaceous materials][research_park_1983_2], [Liu et al 2002][research_liu_2002], [Korabelnikov and Kuranov 2002][research_korabelnikov_kuranov_2002], [Curry 2004][research_curry_2004], [Kerr 2006][research_kerr_2006], [Pekker and Cambier 2006][research_pekker_cambier_2006], [Feldman et al 2019][research_feldman_2019], [Paglia et al 2019][research_paglia_2019], [Sun and Zhu 2019][research_sun_zhu_2019], [Shi et al 2020][research_shi_2020]. Glass and quartz shields, which melt and run rather than char, are treated in [Warmbrod 1963][research_warmbrod_1963].
 
@@ -383,15 +413,15 @@ $$\delta_{6\,\text{s}} = 0.93\ \text{mm}, \qquad \delta_{25\,\text{s}} = 1.89\ \
 
 a ratio of 2.04, which is the square root of the time ratio. Transient conduction into a heated structure, and the thermal stresses it produces, is the other half of the material problem and is treated across [Altman and Chang 1965][research_altman_chang_1965], [Tate 1969][research_tate_1969], [Moyer and Wool 1970][research_moyer_wool_1970], [Moyer and Wool 1970, Aerotherm Charring Material Therma][research_moyer_wool_1970_2], [Rathjen 1977][research_rathjen_1977], [Adelman 1979][research_adelman_1979], [Ko and Fields 1987][research_ko_fields_1987], [Milos and Chen 2010][research_milos_chen_2010], [Weng and Martin 2014][research_weng_martin_2014], [Weng and Martin 2015][research_weng_martin_2015], [Tatar 2020][research_tatar_2020], [Wang et al 2024][research_wang_2024].
 
-**The X-17's pulse heats half the depth an intercontinental re-entry does.** A material can therefore pass an X-17 test on its surface behaviour and still fail on what happens to the structure behind it, which is a failure mode the vehicle was structurally incapable of finding.
+**The X-17's pulse heats half the depth an intercontinental re-entry does.** A material tested on a pulse of that length can therefore pass on its surface behaviour and still fail on what happens to the structure behind it, which is a failure mode the vehicle was structurally incapable of finding.
 
-**The X-17's contribution here is that it exposed real materials at full scale to a correct heat flux.** That is a screening capability, and it is exactly what the trade described above preserved.
+**The documented X-17 bodies were not ablators.** Murphy and Rubesin describe the R-2 and R-9 bodies as copper hemispheres of 9 inch diameter with a 3.5 inch cylindrical afterbody and a 0.625 inch wall, built as heat sinks and used as calorimeters. Heppenheimer states that the nose cones burned up, that no attempt was made to recover them, and that the Air Force had not yet invented ablative protection when the X-17 flew. He also says they lacked heat-sink protection, which the contractor report's description of the two analysed bodies contradicts. **The X-17's part in the ablation decision was indirect.** In Heppenheimer's account its heat-transfer measurements, together with the arc-tunnel data of Avco, contributed materially to the Air Force decisions that selected ablation for Atlas and Titan while retaining heat sink for Thor.
 
 ### The Structure and Staging
 
-The first stage lifts a 4,831 kilogramme vehicle on 48,000 pounds force, giving a launch thrust-to-weight ratio of
+The first stage lifts a 5,443 kilogramme vehicle, taking Parsch's 12,000 pounds, on 48,000 pounds force, giving a launch thrust-to-weight ratio of
 
-$$\frac{T}{W} = \frac{48{,}000}{10{,}650} = 4.51$$
+$$\frac{T}{W} = \frac{48{,}000}{12{,}000} = 4.00$$
 
 which is high and appropriate for a vehicle that must clear the dense atmosphere quickly. The upper stages together develop 137,650 pounds force, or 612 kilonewtons, against a much smaller remaining mass, which is what supplies the 2,339 metres per second of downward velocity computed above.
 
@@ -401,11 +431,13 @@ Solid propellant was the only sensible choice. It requires no pumps, tolerates b
 
 A vehicle that coasts to apogee, tips over, and then fires has an attitude problem the flight-mechanics literature of the period addresses directly. The vehicle must be pointed correctly before the second stage lights, and any angle of attack at ignition is amplified by the burn.
 
-Spin stabilisation is the usual answer and appears in [Levine et al 1960][research_levine_1960]. Re-entry body dynamics generally are treated in [Holway and Prislin 1966][research_holway_prislin_1966], with later work on roll behaviour and angle-of-attack control in [Kryvoruka and Ashurst 1973][research_kryvoruka_ashurst_1973] and [Platus 1980][research_platus_1980]. The ballistic missile free-flight problem in general is [Wheelon 1959][research_wheelon_1959]. The dynamics of a blunt body descending through an atmosphere, including the angle-of-attack oscillation that any imperfect release produces and the roll behaviour that couples into it, are treated in [Nix 1959][research_nix_1959], [Schermerhorn and Demeritte 1960][research_schermerhorn_demeritte_1960], [Prislin 1966][research_prislin_1966], [Price 1967][research_price_1967], [Platus 1967][research_platus_1967], [Barbera 1981][research_barbera_1981], [McDowell and Williamson 1982][research_mcdowell_williamson_1982], [Ivanov et al 2007][research_ivanov_2007], [Schoenenberger 2013][research_schoenenberger_2013], [Kazemba et al 2013][research_kazemba_2013], [Sevier et al 2016][research_sevier_2016], [Sai Naga Bharghava et al 2024][research_bharghava_2024]. **A vehicle that tips over and fires has an attitude error at ignition by construction**, and the literature above is what says how large it is allowed to be.
+The X-17 was spun. Parsch describes two small strap-on spin motors on the first stage, jettisoned shortly after launch, and the Argus report records that after two of the four shipboard test flights of July 1958 failed, the spin rockets were removed and the first-stage spin cant was reduced on two fins. Spin stabilisation is the usual answer and appears in [Levine et al 1960][research_levine_1960]. Re-entry body dynamics generally are treated in [Holway and Prislin 1966][research_holway_prislin_1966], with later work on roll behaviour and angle-of-attack control in [Kryvoruka and Ashurst 1973][research_kryvoruka_ashurst_1973] and [Platus 1980][research_platus_1980]. The ballistic missile free-flight problem in general is [Wheelon 1959][research_wheelon_1959]. The dynamics of a blunt body descending through an atmosphere, including the angle-of-attack oscillation that any imperfect release produces and the roll behaviour that couples into it, are treated in [Nix 1959][research_nix_1959], [Schermerhorn and Demeritte 1960][research_schermerhorn_demeritte_1960], [Prislin 1966][research_prislin_1966], [Price 1967][research_price_1967], [Platus 1967][research_platus_1967], [Barbera 1981][research_barbera_1981], [McDowell and Williamson 1982][research_mcdowell_williamson_1982], [Ivanov et al 2007][research_ivanov_2007], [Schoenenberger 2013][research_schoenenberger_2013], [Kazemba et al 2013][research_kazemba_2013], [Sevier et al 2016][research_sevier_2016], [Sai Naga Bharghava et al 2024][research_bharghava_2024]. **A vehicle that tips over and fires has an attitude error at ignition by construction**, and the literature above is what says how large it is allowed to be.
 
 ### Instrumentation, Which Is the Actual Product
 
-The vehicle exists to return numbers, and at these conditions returning numbers is difficult. Thermocouples must survive a surface that is being consumed, telemetry must work through a partially ionised layer, and the whole record must be transmitted before the article is destroyed.
+The vehicle exists to return numbers, and at these conditions returning numbers is difficult. Thermocouples must survive the heating, telemetry must work through a partially ionised layer, and the whole record must be transmitted before the article is destroyed.
+
+The two flights in the public record show what that meant in practice. According to [Murphy and Rubesin 1965][research_murphy_rubesin_1965], each of the R-2 and R-9 bodies carried 23 chromel-alumel thermocouples and 3 pressure gauges, the thermocouple data were commutated onto a single telemetry channel, and each thermocouple was sampled about 10 times a second. The R-2 surface was polished copper with a roughness of the order of 2 microinches, and R-9 carried a patch of 30 microinch roughness over one row of thermocouples. On R-9 the usable record runs only from 315 to 318.5 seconds of flight, with noise beginning before telemetry failed at 319.5 seconds as re-entry blackout set in. The pressure data from both flights were insufficient for analysis. Heating rates are not measured directly. They are inferred by solving the conduction problem inside the 0.625 inch copper wall from the temperature histories, and Murphy and Rubesin find that ignoring body curvature in that inversion introduces errors of 8 to 10 percent on this body.
 
 The free-flight heating measurement technique and its interpretation are the direct subject of [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and a closely comparable free-flight heat transfer and ablation measurement on a blunted body appears in [Winters 1964][research_winters_1964]. Comparison of tunnel and flight data for an instrumented hypersonic rocket is in [Maydew 1964][research_maydew_1964]. The technique of measuring aerodynamic heating on a body in free flight, and of extracting a heat transfer coefficient from a temperature history, is its own discipline and runs through [Hamaker et al 1953][research_hamaker_1953], [Rogers 1953][research_rogers_k_1953], [Charters et al 1955][research_charters_1955], [Compton et al 1960][research_compton_1960], [Reeves and Threlkeld 1963][research_reeves_threlkeld_1963], [Welton 1965][research_welton_1965], [Dayman 1965][research_dayman_1965], [Development 1984][research_development_1984], [Strawa et al 1990][research_strawa_1990], [Kidner 1993][research_kidner_1993], [Whitmore and Moes 1994][research_whitmore_moes_1994], [Guelhan et al 2012][research_guelhan_2012], [Hergert et al 2017][research_hergert_2017].
 
@@ -424,7 +456,7 @@ and at the X-17's condition it is very large.
 | 15.0 | 1.0 | $5.48 \times 10^{7}$ |
 | 10.0 | 1.0 | $1.14 \times 10^{8}$ |
 
-Sources state the vehicle reached Reynolds numbers above 24 million, which the table reproduces at 15 kilometres on a half-metre body. **That matters because a turbulent boundary layer transfers several times the heat a laminar one does.** Flat-plate correlations give the Stanton number as
+The inventory states that the original programme objectives included Reynolds numbers as high as 24 million, which the table reaches at 15 kilometres on a half-metre body. That is an objective and not a reported measurement. **That matters because a turbulent boundary layer transfers several times the heat a laminar one does.** Flat-plate correlations give the Stanton number as
 
 $$St_{\text{lam}} \sim Re^{-1/2}, \qquad St_{\text{turb}} \sim Re^{-1/5}$$
 
@@ -432,17 +464,27 @@ so the turbulent-to-laminar heating ratio grows as $Re^{0.3}$, and at the quoted
 
 $$\left(\frac{2.74 \times 10^{7}}{1 \times 10^{6}}\right)^{0.3} = 2.70$$
 
-**A factor of 2.7 rests on where transition happens**, which is a first-order design question rather than a refinement. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [Masaki and Yakura 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965]. **Transition is the least settled quantity in the whole calculation and has stayed that way**, across [Tifford 1945][research_tifford_1945], [Scherrer et al 1949][research_scherrer_1949], [Lee 1953][research_lee_1953], [Lange and Gieseler 1953][research_lange_gieseler_1953], [Stetson 1960][research_stetson_1960], [Adcock et al 1965][research_adcock_1965], [Adcock et al 1967][research_adcock_1967], [Finson et al 1980][research_finson_1980], [Reed and Abu-Mostafa 1982][research_reed_abu_mostafa_1982], [Ting et al 1986][research_ting_1986], [Reda 2001][research_reda_2001], [Maslov 2001][research_maslov_2001], [Kimmel 2003][research_kimmel_2003], [Ren et al 2019][research_ren_2019], [Patrick 2019][research_patrick_2019], [Miró Miró and Pinna 2020][research_miro_pinna_2020].
+**A factor of 2.7 rests on where transition happens**, which is a first-order design question rather than a refinement. The X-17 flights show that the factor is a ceiling. Murphy and Rubesin correlate transitional heating as a blend weighted by the intermittency $\bar{\gamma}$, the fraction of time the flow is turbulent,
+
+$$St = (1 - \bar{\gamma})\, St_{\text{lam}} + \bar{\gamma}\, St_{\text{turb}}$$
+
+so that with the ratio of 2.70 above the heating relative to laminar is
+
+$$\frac{St}{St_{\text{lam}}} = 1 + 1.70\, \bar{\gamma}$$
+
+which is 1.85 at an intermittency of one half and reaches 2.70 only when the flow is fully turbulent. On flight R-2 they find a boundary layer transitional over most of the forebody that never reaches fully developed turbulence, with transition beginning at energy-thickness Reynolds numbers of 400 to 600 on the subsonic part of the nose and about 800 on the supersonic part. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [Masaki and Yakura 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965]. **Transition is the least settled quantity in the whole calculation and has stayed that way**, across [Tifford 1945][research_tifford_1945], [Scherrer et al 1949][research_scherrer_1949], [Lee 1953][research_lee_1953], [Lange and Gieseler 1953][research_lange_gieseler_1953], [Stetson 1960][research_stetson_1960], [Adcock et al 1965][research_adcock_1965], [Adcock et al 1967][research_adcock_1967], [Finson et al 1980][research_finson_1980], [Reed and Abu-Mostafa 1982][research_reed_abu_mostafa_1982], [Ting et al 1986][research_ting_1986], [Reda 2001][research_reda_2001], [Maslov 2001][research_maslov_2001], [Kimmel 2003][research_kimmel_2003], [Ren et al 2019][research_ren_2019], [Patrick 2019][research_patrick_2019], [Miró Miró and Pinna 2020][research_miro_pinna_2020].
 
 **This is the one respect in which the X-17's condition was arguably more severe than the flight it simulated**, because a real re-entry at high altitude has a lower Reynolds number and may stay laminar longer.
 
 ## The Flight Test Record
 
-A quarter-scale proof-of-concept vehicle flew in May 1955. The first full X-17 flew in April 1956, and 25 further flights followed to March 1957, giving 26 in total.
+[Parsch 2003][ref_parsch_x17] records three quarter-scale vehicles from May 1955, three half-scale missiles in June and July 1955, and six full-scale development vehicles from August 1955 to March 1956, followed by a first research missile in April 1956 and 25 more to March 1957. The [inventory][book_jenkins_landis_miller_2003] gives a first flight on 17 April 1956, a last flight on 22 August 1957 and 34 flights in total, and states that 26 X-17s were completed and tested and that as many as 7 more were built from spare parts for Argus. **The counts do not agree, and the record does not say which flights each one includes.**
 
-The programme flew hemispherical, cubic paraboloid, and blunt nose shapes and returned what secondary accounts describe as the first substantial body of re-entry heat transfer data, covering boundary layer transition, external shape, and high-temperature material response. **The conclusion drawn was that the blunt shape was correct, and it was adopted for both the [Atlas][ref_atlas] and the [Titan][ref_titan].**
+The fullest flight record in print is the table [Heppenheimer 2007][book_heppenheimer_2007] reproduces from the history of the Air Force Missile Test Center. It lists 24 research firings from 17 July 1956 to 21 March 1957, all from Pad 3 at Cape Canaveral, with five in October 1956 and turnarounds as short as four days. Counting its rows, 6 carried hemispheres, 3 cubic paraboloids, 3 blunt noses, 6 blunt noses built by Avco and 6 blunt cones built by General Electric. Eighteen record a peak Mach number and six record a failure, namely a third stage that did not ignite, a missile that exploded 18 seconds after launch, telemetry lost before apogee, upper stages that ignited while still ascending, upper stages that failed to ignite, and a missile destroyed by the range safety officer. Only two of the first six succeeded. **The successful flights peaked between Mach 11.3 and Mach 14.4, at altitudes between 34,000 and 59,000 feet.** The matching altitude of 13.97 kilometres derived above is 45,830 feet, inside that band, which is consistent with the reference condition though it does not show that any flight was aimed at it.
 
-The vehicle then had two further lives. It served as a Polaris flight test vehicle during 1957 and 1958 in three-stage and two-stage variants, and in 1958 it was launched from ships in the South Atlantic as the booster for [Operation Argus][ref_argus], a series of three high-altitude nuclear detonations.
+The inventory describes the data as the first realistic heat-transfer measurements at extremely high Mach and Reynolds numbers, valuable above all for the flow around blunt bodies as it passed from laminar to turbulent. Heppenheimer lists measurements of boundary-layer transition, heat transfer and pressure distribution across a range of Mach numbers, altitudes and nose shapes, and credits them with contributing to the decisions that selected ablation for the [Atlas][ref_atlas] and the [Titan][ref_titan] while retaining heat sink for Thor.
+
+The vehicle then had two further lives. The reference entry records it as a Polaris flight test vehicle during 1957 and 1958 in three-stage and two-stage variants, and the inventory lists the Navy as a sponsor alongside the Air Force. In 1958 a modified X-17a was the booster for [Operation Argus][ref_argus], a series of three high-altitude nuclear detonations. The [Defense Nuclear Agency report][ref_dna_argus_1982] records that the missile trials ship USS Norton Sound fired four instrumented X-17a test vehicles, called Winder, on the Point Mugu sea test range, of which only two had succeeded by 24 July 1958. It then fired three X-17a missiles carrying warheads of 1 to 2 kilotons in the South Atlantic, on 27 August, 30 August and 6 September 1958, which detonated 125 to 300 miles up. The report states that the X-17a was chosen because it was readily available but had a limited altitude capability, and that limit is one of the reasons it gives for firing at high southern latitude rather than from the Pacific Proving Ground.
 
 **That last role is worth naming plainly rather than passing over.** A vehicle built to measure heat transfer was used to place nuclear devices at high altitude to study the behaviour of trapped charged particles. It is the same airframe doing something entirely unrelated to its research purpose, and it is the only instance in this series so far of an X-designated vehicle being used to deliver a nuclear detonation.
 
@@ -452,15 +494,17 @@ This section usually sets what was predicted against what was measured. Here the
 
 **What was predicted was the shape.** Blunt-body theory said that a blunt nose would dump its energy into the shock layer rather than the surface, and that prediction is quantitative and was made before the flights. **The X-17 confirmed it**, and the adoption of blunt shapes on Atlas and Titan is the confirmation being acted upon.
 
-**What cannot be compared is the heating magnitude**, because the flight data themselves are not in the public archive. This article can state what the vehicle should have measured, from the correlation and the trajectory, and cannot state what it did measure. The correlation used here postdates the programme in its published form, and the theoretical treatment closest to what the designers would have had is [Eggers et al 1958][research_eggers_1958], which appeared after the flights had finished.
+**The heating magnitude can be compared for two flights.** [Murphy and Rubesin 1965][research_murphy_rubesin_1965] reduced the temperature histories of R-2 and R-9 to heating rates and set them against theory. They conclude that stagnation-point heating is adequately predicted by the theory of Fay and Riddell, very well in level and timing while the heating is large, and that the distribution of laminar heating is adequately predicted by the theory of Kemp, Rose and Detra. The scatter is about 15 to 20 percent on R-2 and up to 30 percent on R-9, which they attribute to the instrumentation rather than to the theory. Both theories were published in 1958 and 1959, after the flights, so the flights tested theory that arrived later, and the treatment closest to what the designers had is [Eggers et al 1958][research_eggers_1958].
 
-**One prediction of this article can be checked against a published statement.** The Reynolds number computed at 15 kilometres on a half-metre body is $2.74 \times 10^{7}$, and sources state the vehicle exceeded 24 million. Those agree, which is weak evidence that the trajectory reconstruction used here is approximately right.
+**The turbulent prediction is the one that failed, and it failed in interpretation.** The contemporaneous Lockheed flight report on R-2, as Murphy and Rubesin describe it, compared heating-rate histories with laminar and turbulent theory and concluded that the boundary layer was fully turbulent over the latter part of the pulse. Recast as Stanton number against energy-thickness Reynolds number, the same data show a boundary layer that is transitional and never fully turbulent. They give the reason, that the available turbulent theories differ by a factor of two in predicted heating, so a transitional measurement can be matched to a low turbulent theory and mistaken for turbulence. On R-9 the roughness patch brought transition forward to an energy-thickness Reynolds number of about 450, and they conclude that even 30 microinches of roughness can significantly change the time and Reynolds number at which transition begins. **The X-17's most durable finding in the public record is therefore that a nonlaminar boundary layer on a re-entry body need not be a turbulent one.**
+
+**Two predictions of this article can be checked against the record.** The matching altitude of 13.97 kilometres lies inside the band of tabulated peak-Mach altitudes, and the Reynolds number computed at 15 kilometres on a half-metre body, $2.74 \times 10^{7}$, is of the order of the 24 million the programme set as an objective. Both are weak evidence, since the first is a band and the second an objective rather than a measurement.
 
 ## What the Data Changed
 
-**The shape of every American intercontinental re-entry vehicle.** The blunt nose went onto Atlas and Titan and stayed on everything after them. That is an unusually direct and traceable consequence for a research programme.
+**The thermal protection of the first intercontinental re-entry vehicles.** In Heppenheimer's account the X-17 data, with Avco's arc-tunnel results, contributed materially to the choice of ablation for Atlas and Titan and of heat sink for Thor. Every nose the X-17 flew was blunt, and the blunt nose stayed on everything after them.
 
-**The screening method.** Testing full-scale ablators at a correct heat flux, however imperfect the chemistry, became the standard way of selecting materials, and the arc-jet facilities that later carried that role were validated against exactly this kind of flight data.
+**The heat-transfer prediction methods.** The R-2 and R-9 data, analysed again in 1965, support the stagnation-point theory of Fay and Riddell and the laminar distribution of Kemp, Rose and Detra, and they warn that a transitional boundary layer can cover much of a re-entry body for a significant part of the heating pulse.
 
 **The confidence to proceed.** The intercontinental missile programmes were being committed to at enormous cost on the assumption that the warhead would survive. The X-17 is the vehicle that turned that assumption into a measurement.
 
@@ -504,7 +548,7 @@ The article computes that the X-17 saw about one part in 111 of an intercontinen
 
 ### Thermal Protection Stopped Being Ablation Alone
 
-The X-17 screened ablators because at 1,398 watts per square centimetre nothing else works, and this article proves that with a Stefan-Boltzmann calculation. The modern field has more options, because it has materials that did not exist, in [Belrhiti et al 2025][research_belrhiti_2025], [Chen et al 2025, Effect of Thermal Protection Syste][research_chen_2025_2], [Daryabeigi and Kurz 2025][research_daryabeigi_kurz_2025], [Lv et al 2025][research_lv_2025], [Wang et al 2025, Ultra-high temperature mechanical][research_wang_2025_4], [Wang and Han 2025][research_wang_han_2025], [Yue et al 2025][research_yue_2025], [Alberts et al 2026][research_alberts_2026], [He et al 2026, Thermal erosion characteristics of][research_he_2026_2], [Jing et al 2026][research_jing_2026], [Kim and Choi 2026][research_kim_choi_2026], [M et al 2026][research_m_2026], [Vigil and Pérez 2026][research_vigil_perez_2026], [Zhou et al 2026][research_zhou_2026].
+At 1,398 watts per square centimetre no passive surface survives, as the Stefan-Boltzmann calculation above shows, which is why the warheads the X-17 informed were ablative. The modern field has more options, because it has materials that did not exist, in [Belrhiti et al 2025][research_belrhiti_2025], [Chen et al 2025, Effect of Thermal Protection Syste][research_chen_2025_2], [Daryabeigi and Kurz 2025][research_daryabeigi_kurz_2025], [Lv et al 2025][research_lv_2025], [Wang et al 2025, Ultra-high temperature mechanical][research_wang_2025_4], [Wang and Han 2025][research_wang_han_2025], [Yue et al 2025][research_yue_2025], [Alberts et al 2026][research_alberts_2026], [He et al 2026, Thermal erosion characteristics of][research_he_2026_2], [Jing et al 2026][research_jing_2026], [Kim and Choi 2026][research_kim_choi_2026], [M et al 2026][research_m_2026], [Vigil and Pérez 2026][research_vigil_perez_2026], [Zhou et al 2026][research_zhou_2026].
 
 **The re-radiation argument this article makes is exactly the calculation that ultra-high temperature ceramics are designed against.** A material that survives 4,127 kelvin passively would have changed the X-17's conclusion entirely, and the hafnium carbide that appears in the article's own table as the single survivor is precisely the family the current literature pursues. **The answer has moved from consuming the surface to not consuming it**, at least at the fluxes where that is possible.
 
@@ -552,17 +596,17 @@ Treating the X-17 through partial simulation misleads in four places.
 
 **It assumes a reference re-entry that is generic, and the assumption turns out to carry more weight than it looks.** The 7,000 metres per second at 35 kilometres used throughout is representative rather than the actual Atlas condition, which was classified and is not used here. Deriving the reference from the trajectory solution instead shows that it corresponds to a ballistic coefficient of 1,453 kilogrammes per square metre, and that **the heating-rate match fails entirely above about 2,500**. Every ratio in this article inherits that choice, and a reader who prefers a denser reference body gets a materially different answer, up to and including the conclusion that the X-17 could not have matched it at all.
 
-**It treats the trajectory as known.** No published trajectory for an X-17 flight was located. The 13.97 kilometre matching altitude is where the vehicle would have had to be to match the reference heating, not a measured altitude, and the article should not be read as asserting the vehicle flew there.
+**It treats the trajectory as known.** Murphy and Rubesin plot trajectory parameters for R-2 and R-9, and the flight table gives each successful flight's peak Mach number and altitude, but no full trajectory is tabulated in the public record. The 13.97 kilometre matching altitude is where the vehicle would have had to be to match the reference heating, not a measured altitude, and the article should not be read as asserting the vehicle flew there.
 
-**It gives the vehicle more credit for the shape result than it may deserve.** Blunt-body theory was already published and already believed. The X-17 confirmed rather than discovered, and a confirmation that agrees with the theory it tests is weaker evidence than a surprise would have been.
+**It gives the vehicle more credit for the shape result than it may deserve.** Blunt-body theory was already published and already believed, and every nose the X-17 flew was blunt. The X-17 confirmed rather than discovered, and a confirmation that agrees with the theory it tests is weaker evidence than a surprise would have been.
 
 ## The Source Base
 
-**No primary document about the X-17 was located in the public technical report archives.** The technical reports server of the National Aeronautics and Space Administration, NASA, returns astronomy false positives for the vehicle name, specifically the X-ray source GX 17+2, and nothing technical. The Defense Technical Information Center holds the surrounding re-entry literature and nothing on this vehicle. It was an Air Force ballistic-missile support programme and its reports are not in the civil archive.
+**One technical report on the X-17's own flight data is public.** It is [Murphy and Rubesin 1965][research_murphy_rubesin_1965], a contractor report for the National Aeronautics and Space Administration, NASA, that analyses the heat-transfer data of flights R-2 and R-9. For the vehicle name, NASA's technical reports server otherwise returns only astronomy false positives, such as the X-ray source GX 17+2. The Lockheed reports that Murphy and Rubesin cite are the R-2 final flight report on transition and heating, LMSD 3003, the R-9 preliminary flight report, MSD 2016 of October 1956, and the summary analysis of the programme, LMSD 2161 of 2 July 1957. Two Lockheed flight reports are catalogued by the Defense Technical Information Center as AD0802033 and AD0802034 but were not retrievable, and no archived copy exists. The flight table comes from the history of the Air Force Missile Test Center for July to December 1957, which is held at Maxwell Air Force Base and is available here only as Heppenheimer reproduces it. The Argus flights are documented in the Defense Nuclear Agency's report.
 
-**This is the second consecutive article whose subject has no archival record of its own.** The [X-16][related_post_a313_bell_x16] was cancelled and classified, and the X-17 flew and was classified. In both cases the article is carried by the literature of the question rather than of the vehicle.
+**The X-17's archival record is thin but not empty.** The [X-16][related_post_a313_bell_x16] was cancelled and left no flight record. The X-17 flew, and two of its flights survive as analysed data, while the rest of its record survives only in summaries.
 
-Consequently **every dimension, thrust, date, and performance figure here comes from secondary compilations, and those compilations disagree.** The disagreements recorded in the text are the length at 40 feet 4 inches against 41 feet, and the apogee at about 100 miles against about 500,000 feet against 250 miles. The last of those is a factor of two and a half and no basis for choosing between them was found.
+**The dimensions and launch weight come from secondary compilations, and the flight counts disagree.** The length is 40 feet 4 inches in the reference entry and 40 feet 5.5 inches in Parsch. The research flights number 24 in the Missile Test Center table, 26 in Parsch, and 34 flights in all in the inventory. The research apogees, at 65 to 100 miles, a nominal 400,000 feet and about 500,000 feet, agree to within the spread of the flights, and the 250 miles of the reference entry matches the three-stage ascent used for Argus rather than any research flight.
 
 What does hold the article up is the re-entry literature itself, which is large, public, and contemporaneous. The stagnation heating correlations, the blunt-body theory, the ablation screening programme, the high-temperature air properties, the shock-tube and ballistic-range work, and the free-flight measurement technique are all primary and none is about the X-17.
 
@@ -580,15 +624,17 @@ Of 394 research references, dated by the year in each anchor or label, **205 pre
 
 ## Epistemic State
 
-**Historical fact.** A quarter-scale vehicle flew in May 1955 and the first full X-17 in April 1956, with 25 further flights to March 1957. The vehicle was a three-stage solid-propellant rocket using a Thiokol XM20 Sergeant first stage and Recruit upper stages. Hemispherical, cubic paraboloid, and blunt nose shapes were flown. The blunt shape was adopted for Atlas and Titan. The vehicle served as a Polaris flight test vehicle in 1957 and 1958 and boosted the three Operation Argus high-altitude nuclear tests in 1958. A flight on 24 April 1957 reached 9,000 miles per hour.
+**Historical fact.** Lockheed received a letter contract in January 1955, and quarter-scale vehicles flew from May 1955. The vehicle was a three-stage solid-propellant rocket using a Thiokol XM20 Sergeant first stage and Recruit upper stages, flown over the top with the upper stages firing downward below 100,000 feet. The Missile Test Center table lists 24 research firings from 17 July 1956 to 21 March 1957 with hemispherical, cubic paraboloid, blunt and blunt cone noses, 18 of them successful, peaking between Mach 11.3 and 14.4 at 34,000 to 59,000 feet. The R-2 and R-9 bodies were instrumented copper heat-sink hemispheres of 9 inch diameter, and their data show stagnation and laminar heating in agreement with Fay and Riddell and with Kemp, Rose and Detra, and a boundary layer that became transitional without becoming fully turbulent. The X-17 data contributed to the selection of ablation for Atlas and Titan. A modified X-17a boosted the three Argus nuclear tests of 27 August, 30 August and 6 September 1958 from USS Norton Sound.
 
-**Disputed in the record.** The overall length, given as 40 feet 4 inches and as 41 feet. The apogee, given as about 100 miles, about 500,000 feet, and 250 miles. This article resolves neither.
+**Disputed in the record.** The overall length, given as 40 feet 4 inches and as 40 feet 5.5 inches. The number of flights, given as 24 research firings, as 26 research missiles, and as 34 flights in all. The peak speed, given as Mach 14.4 and as Mach 14.5. Whether the nose cones carried heat-sink protection, which Heppenheimer denies and the contractor report describes for R-2 and R-9. The research apogee spans 65 to 100 miles across the sources, and the 250 miles also published fits the Argus ascent rather than any research flight.
 
-**Engineering analysis, reproducible from the stated inputs.** The requirement that a passive surface reach 4,127 kelvin to reject the matched flux, which exceeds the melting point of tungsten and the sublimation point of graphite and therefore makes ablation mandatory rather than merely convenient. The Allen-Eggers results, namely a peak deceleration of 43.7 g independent of ballistic coefficient, a velocity at peak heating of 5,925 metres per second also independent of it, and peak-heating altitudes from 31.3 kilometres at a ballistic coefficient of 1,000 down to 12.3 at 13,983. **The ballistic coefficient ceiling above which the X-17 cannot match the heating rate at any altitude, at about 6,300 kilogrammes per square metre even at sea level and about 2,500 at a practical floor.** That the assumed reference corresponds to 1,453. The radiative heating ratios of 110.7 against an intercontinental re-entry and 5,162 against lunar return. The Damköhler ratio of 16.09. The ablation mass loss and recession figures. The thermal penetration depths of 0.93 and 1.89 millimetres. The turbulent heating penalty of 2.70. The free-fall speed of 1,684 metres per second from the lower apogee and the resulting factor of 13.63 in heating rate. The required density ratio of 27.74 and the matching altitude of 13.97 kilometres. The equal heating rates of 1,398 watts per square centimetre. The stagnation enthalpies of 8.094 and 24.50 megajoules per kilogramme and their ratio of 3.027. The binary scaling ratio of 9.25. The nose radius heating ratios. The ballistic coefficient ratio of 3.33. The Reynolds numbers.
+**Engineering analysis, reproducible from the stated inputs.** The requirement that a passive surface reach 4,127 kelvin to reject the matched flux, which exceeds the melting point of tungsten and the sublimation point of graphite and therefore makes ablation mandatory rather than merely convenient. The Allen-Eggers results, namely a peak deceleration of 43.7 g independent of ballistic coefficient, a velocity at peak heating of 5,925 metres per second also independent of it, and peak-heating altitudes from 31.3 kilometres at a ballistic coefficient of 1,000 down to 12.3 at 13,983. **The ballistic coefficient ceiling above which the X-17 cannot match the heating rate at any altitude, at about 6,300 kilogrammes per square metre even at sea level and about 2,500 at a practical floor.** That the assumed reference corresponds to 1,453. The radiative heating ratios of 110.7 against an intercontinental re-entry and 5,162 against lunar return. The Damköhler ratio of 16.09. The ablation mass loss and recession figures. The thermal penetration depths of 0.93 and 1.89 millimetres. The turbulent heating penalty of 2.70. The free-fall speed of 1,684 metres per second from a 100 mile apogee and the resulting factor of 13.63 in heating rate, with 1,442 metres per second and 21.7 from the nominal 400,000 feet. The factor of 17.58 from the documented stage speeds and the documented upper-stage increment of 2,438 metres per second. The speed range of 3,334 to 4,249 metres per second from the tabulated Mach numbers. The intermittency relation that caps the transitional heating penalty at 2.70. The required density ratio of 27.74 and the matching altitude of 13.97 kilometres. The equal heating rates of 1,398 watts per square centimetre. The stagnation enthalpies of 8.094 and 24.50 megajoules per kilogramme and their ratio of 3.027. The binary scaling ratio of 9.25. The nose radius heating ratios. The ballistic coefficient ratio of 3.33. The Reynolds numbers.
 
 **Inference, and clearly labelled.** That the heating-rate match was fitted to the class of body the vehicle was built to test, rather than being a general capability, follows from the ballistic-coefficient ceiling and the coincidence that the assumed reference sits below it. It is an argument from internal consistency and not from any document. That the X-17 surrendered velocity deliberately rather than as a consequence of what its motors happened to deliver is an inference from the design's internal consistency and not from any document. That the chemistry it missed did not matter for the 1956 question is an argument about what could be used rather than about what was true. That the shape result was a confirmation rather than a discovery follows from the publication order of the theory.
 
-**What the record does not settle and this article does not claim.** What the X-17 actually measured, since no flight data were located. What trajectory any flight followed. Whether the ablators screened on it behaved the same way at intercontinental enthalpy, which is precisely the extrapolation the partial simulation does not license.
+**Assumed rather than sourced.** The reference re-entry of 7,000 metres per second at 35 kilometres and a 20 degree entry angle. The representative X-17 speed of 4,023 metres per second, taken from the 9,000 miles an hour reported for one flight. The 0.15 metre reference nose radius. The 235 second specific impulse. The mean gravitational acceleration of 9.72 metres per second squared over the fall and the 15 kilometre target altitude. The emissivity of 0.85. The effective heats of ablation, the 1,400 kilogramme per cubic metre density and the thermal diffusivity of the ablator. The 200 kilogramme body and the drag coefficients of 1.0 and 0.3. The body lengths of 1.5 and 0.5 metres. The exposure times of 6 and 25 seconds.
+
+**What the record does not settle and this article does not claim.** What the other X-17 flights measured, since only R-2 and R-9 are analysed in a public report and the Lockheed flight reports were not retrievable. What full trajectory any flight followed. How an ablator would have behaved on an X-17 pulse, since the documented bodies were heat sinks.
 
 **What the contemporary survey changes in the argument.** Two of its observations bear on the article's own argument rather than merely extending it. **The chemistry the X-17 surrendered as the cheapest of three requirements is now the most expensive**, because everything else in a modern prediction is comparatively well posed and the chemistry is where the model form uncertainty lives. And **the relations are now run in reverse for spacecraft demise**, where ballistic coefficient, ablation rate and heat load are computed to guarantee that a structure comes apart rather than that it survives, which is the sharpest available demonstration of how general the physics turned out to be.
 
@@ -602,7 +648,7 @@ The Atlas and Titan programmes themselves are treated only as consumers of this 
 
 The X-17 fired rockets downward because falling was not enough, and the margin is not close. **Free fall from its own apogee would have produced under a tenth of the heating rate it was built to study**, and the whole peculiar architecture follows from that single factor of fourteen.
 
-What it bought with that architecture was a partial simulation, and the partition is sharp. **It reproduced the heating rate exactly, at full scale, with a real material, and it reproduced 33 percent of the stagnation enthalpy and therefore none of the chemistry.** The nonequilibrium state it missed by a factor of nine in the wrong direction, and the total heat load by a factor of four.
+What it bought with that architecture was a partial simulation, and the partition is sharp. **It could reproduce the heating rate exactly, in real air, on an instrumented flight body, and it reproduced 33 percent of the stagnation enthalpy and therefore none of the chemistry.** The nonequilibrium state it missed by a factor of nine in the wrong direction, and the total heat load by a factor of four.
 
 **That trade was correct for 1956 and would be wrong today**, which is the most interesting thing about the vehicle. The programme surrendered the gas physics because nobody could compute it, and kept the heat flux because everybody needed to design against it. Seventy years later the chemistry is the hard part, the material response is modelled rather than screened, and no facility has yet been built that reproduces the whole condition. **The X-17's compromise has been inherited rather than resolved.**
 
@@ -611,24 +657,30 @@ What it bought with that architecture was a partial simulation, and the partitio
 ### Books
 
 - [Anderson 2019 Hypersonic and High-Temperature Gas Dynamics][book_anderson_2019]
+- [Heppenheimer 2007 Facing the Heat Barrier, A History of Hypersonics][book_heppenheimer_2007]
 - [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]
 - [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001]
 - [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
 
 [book_anderson_2019]: https://openlibrary.org/works/OL1993330W
-[book_jenkins_landis_miller_2003]: https://openlibrary.org/works/OL20394726W
+[book_heppenheimer_2007]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4232.pdf
+[book_jenkins_landis_miller_2003]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
 [book_miller_2001]: https://openlibrary.org/works/OL7006680W
 [book_neufeld_1990]: https://openlibrary.org/works/OL4810126W
 
 ### Reference
 
 - [Atlas][ref_atlas]
+- [Jones et al 1982 Operation ARGUS 1958, DNA 6039F][ref_dna_argus_1982]
 - [Lockheed X-17][ref_x17]
 - [Operation Argus][ref_argus]
+- [Parsch 2003 Lockheed X-17, Directory of U.S. Military Rockets and Missiles][ref_parsch_x17]
 - [Titan][ref_titan]
 
 [ref_argus]: https://en.wikipedia.org/wiki/Operation_Argus
 [ref_atlas]: https://en.wikipedia.org/wiki/SM-65_Atlas
+[ref_dna_argus_1982]: https://apps.dtic.mil/sti/pdfs/ADA122341.pdf
+[ref_parsch_x17]: https://designation-systems.net/dusrm/app1/x-17.html
 [ref_titan]: https://en.wikipedia.org/wiki/HGM-25A_Titan_I
 [ref_x17]: https://en.wikipedia.org/wiki/Lockheed_X-17
 

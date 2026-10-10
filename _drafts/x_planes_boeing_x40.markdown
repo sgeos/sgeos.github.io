@@ -59,8 +59,15 @@ and Landing Test programme of 1977 carried an orbiter aloft on a carrier aircraf
 to a runway \[[Fullerton 1975][research_fullerton_1975]\] \[[Oglesby 1975][research_oglesby_1975]\], and its
 final evaluation report \[[Approach and Landing Test final evaluation 1978][research_alt_final_1978]\] and
 subsequent analyses \[[Ashkenas and others 1982][research_ashkenas_1982]\] are the model for what a
-drop-and-glide campaign is expected to produce. **The X-40A ran the same play at 2,600 pounds, under a fiftieth of the roughly 150,000 pounds the
-orbiter weighed in free flight, and without a crew.**
+drop-and-glide campaign is expected to produce. **The X-40A ran the same play at 2,600 pounds and without
+a crew** \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\]. For all
+five free flights the orbiter was ballasted to approximately 150,000 pounds
+\[[Approach and Landing Test final evaluation 1978][research_alt_final_1978]\], so for vehicle weight $W$
+the weight ratio is
+
+$$\frac{W_{\text{X-40A}}}{W_{\text{orbiter}}} = \frac{2{,}600}{150{,}000} = 0.0173 < \frac{1}{50}$$
+
+**and the X-40A weighed under a fiftieth of the vehicle whose method it borrowed.**
 
 **The keystone question is therefore one of transfer, and it is the same question this series asked of a
 proven bound and of a wind tunnel.** If a smaller vehicle is dropped from a helicopter and lands itself,
@@ -277,7 +284,8 @@ published masses.
 **The reason is not an oversight and it could not have been fixed.** The X-40A carried no propulsion, no
 thermal protection system, no payload and no orbital subsystems
 \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\]. **Those absent systems are exactly the mass the
-full-scale vehicle would carry**, and ballasting a one million dollar test article up to 5,186 lb to
+full-scale vehicle would carry**, and ballasting a one million dollar test article up to 5,186 lb, the
+weight that the relation $W_{m} = W_{f} \lambda^{3}$ above requires, in order to
 preserve a similarity nobody intended to exploit would have been a strange use of the money.
 
 ### What Reynolds Number Does, Which Is Less Than Expected
@@ -291,8 +299,11 @@ $$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.778^{3/2} = 0.686$$
 the one or two orders of magnitude that a conventional dynamically scaled drop model accepts.
 **The comparison is available in a single well-documented case.** A contemporaneous programme flew a
 22 percent dynamically scaled drop model of the F/A-18E/F \[[Croom and others 2000][research_croom_2000]\],
-and at that ratio the Reynolds number falls to $0.22^{3/2}$, or about a tenth of full scale.
-**The X-40A sat at 69 percent where a conventional drop model sits near 10**, which is the quantitative
+and at that ratio the same relation gives
+
+$$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.22^{3/2} = 0.103$$
+
+or about a tenth of full scale. **The X-40A sat at 69 percent where a conventional drop model sits near 10**, which is the quantitative
 statement that it was barely a subscale article at all.
 
 **The absolute value matters as much as the ratio and it is comfortably high.** Taking the density at
@@ -327,8 +338,15 @@ one parameter the sources argue about.**
 ### What the Flight Data Says the Vehicle Actually Did
 
 **The 2001 flights are documented well enough to recover the flight path angle, which no source states.**
-The vehicle was released at 15,050 feet and reached 428 feet per second on a descent lasting about 75
-seconds \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
+On 12 April 2001 the vehicle was released at 15,050 feet and reached 428 feet per second
+\[[X-40A second free flight successful][ref_sciencedaily_x40]\]. The space agency describes the 2001
+releases as made from 15,000 feet and followed by an autonomously controlled descent of 75 seconds
+\[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\], and it gives no duration for the 12 April flight in
+particular. **The calculation below therefore pairs that flight's altitude and speed with the series
+duration.** The release at 8:45 and the stop at 8:47 recorded for 12 April
+\[[X-40A second free flight successful][ref_sciencedaily_x40]\] are stated to the minute, so they place
+descent and rollout together somewhere between one and three minutes, which is consistent with a 75 second
+descent and does not test it.
 
 Mean sink rate is the released altitude divided by the duration.
 
@@ -406,13 +424,18 @@ $$t_{f} = \frac{t_{m}}{\sqrt{\lambda}} = \frac{75}{\sqrt{0.778}} = 85.0 \ \text{
 **A 75 second rehearsal stands in for an 85 second event**, and that comparison is legitimate in a way
 that the speeds and the trajectory are not, because it uses only the length ratio and not the mass.
 
-**The 1998 flight was steeper still.** It was released at about 9,000 feet some 2.5 miles from the end of
-the runway \[[Boeing X-37 and X-40][ref_x37_x40]\], which is a straight-line ratio of
+**The 1998 flight was steeper still.** It was released at about 9,000 feet
+\[[Boeing X-37 and X-40][ref_x37_x40]\] some 2.5 miles from the end of the runway
+\[[Boeing X-40][ref_x40]\], which at 5,280 feet to the mile is a straight-line ratio of
 
-$$\frac{13{,}200}{9{,}000} = 1.47$$
+$$\frac{2.5 \times 5{,}280}{9{,}000} = \frac{13{,}200}{9{,}000} = 1.47$$
 
-and the figure falls to 1.32 if the release altitude of 10,000 feet quoted elsewhere is used
-\[[Boeing X-40][ref_x40]\]. **Both are below the 1.88 of the 2001 flights**, and the article does not
+and the figure falls if the release altitude of about 10,000 feet given by the Air Force museum is used
+\[[Boeing X-40A][ref_nmusaf_x40]\].
+
+$$\frac{13{,}200}{10{,}000} = 1.32$$
+
+**Both are below the 1.88 of the 2001 flights**, and the article does not
 resolve which release altitude is correct.
 
 ### The Reference Area Is Not Published and Can Be Bounded
@@ -516,13 +539,18 @@ appreciably harder to fly than the aircraft it was written for, **and passing th
 even though the trajectory itself does not scale.**
 
 **The demonstrated landing accuracy means more as an angle**, because a lateral error means
-little without the range it was achieved over. Seven feet of centreline error at the end of a ground
-track of 28,353 feet is
+little without the range it was achieved over. The published figure belongs to the 1998 flight, which
+touched down left of the centreline and then tracked to within 7 feet of it
+\[[Boeing X-40][ref_x40]\]. That flight was released 2.5 miles, or 13,200 feet, from the end of the
+runway, and the ground track to the point of measurement is at least that long, so the angle subtended is
+at most
 
-$$\theta = \frac{7}{28{,}353} = 2.47 \times 10^{-4} \ \text{rad} = 0.85 \ \text{arcmin}$$
+$$\theta \le \frac{7}{13{,}200} = 5.30 \times 10^{-4} \ \text{rad} = 1.82 \ \text{arcmin}$$
 
-**which is 0.025 percent of the distance flown.** That is the number the programme should be judged on,
-and it is the one number in the record that speaks directly to whether the autonomy worked.
+**which is no more than 0.053 percent of the distance flown.** That is the number the programme should be
+judged on, and it is the one number in the record that speaks directly to whether the autonomy worked. **The
+touchdown offset itself is not published**, so the figure measures rollout tracking rather than the
+accuracy of the touchdown point.
 
 ### Structure and Landing Gear
 
@@ -608,8 +636,9 @@ a software stack rather than aerodynamic data, **and it does so in the words of 
 an autonomous landing.**
 
 **The first flight was on 11 August 1998 at Holloman Air Force Base in New Mexico.** It was released from
-a cradle beneath a UH-60 at about 9,000 feet, some 2.5 miles from the end of Runway 04, and flew to an
-automatic landing on the designated runway \[[Boeing X-37 and X-40][ref_x37_x40]\].
+a cradle beneath a UH-60 at about 9,000 feet and flew to an automatic landing on the designated runway
+\[[Boeing X-37 and X-40][ref_x37_x40]\], having been released some 2.5 miles from the end of Runway 04
+\[[Boeing X-40][ref_x40]\].
 **Boeing described the objective as validating low-speed handling qualities and demonstrating autonomous
 approach and landing** \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 That single flight was the whole of the 1998 campaign.
@@ -618,24 +647,29 @@ That single flight was the whole of the 1998 campaign.
 Research Center at Edwards Air Force Base in California
 \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\]. The series ran between 4 April and 19 May 2001
 \[[Boeing X-37 and X-40][ref_x37_x40]\], with the vehicle lifted to 15,000 feet beneath a CH-47D and
-released for an autonomously controlled descent of about 75 seconds onto the main runway.
+released for an autonomously controlled descent of about 75 seconds onto the main runway
+\[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\].
 
 **The second free flight is the best documented and supplies every number used in the sizing section
 above.** On 12 April 2001 the vehicle was released at 15,050 feet at 8:45 in the morning Pacific time and
-was on the ground two minutes later, having reached 428 feet per second, and the flight exercised complex
+its wheels rolled to a stop at 8:47, having reached 428 feet per second, and the flight exercised complex
 vehicle manoeuvres rather than the straight-in approach flown first
 \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
 
-**Landing accuracy on the first Dryden flight was within 7 feet of the runway centreline**, with the
-vehicle stopping in a little over 7,000 feet \[[Boeing X-40][ref_x40]\].
+**Landing accuracy is published for the 1998 flight alone.** The vehicle touched down left of the
+centreline, deployed its drag chutes, tracked to within 7 feet of the runway centreline and stopped in a
+little over 7,000 feet \[[Boeing X-40][ref_x40]\]. That account rests on an encyclopaedia entry, and none of
+the sources the entry cites for the flight carries the figures.
 **Seven feet is the result that justifies the programme**, because centreline tracking is precisely the
 quantity an autonomous landing system is trusted or not trusted on.
 
-**The record contains two date conflicts and this article does not resolve either.** One account places
+**The record contains two conflicts and this article does not resolve either.** One account places
 the first Dryden free flight on 14 March 2001 with a straight-in approach
-\[[X-40A second free flight successful][ref_sciencedaily_x40]\], while others give 4 April as the start of
+\[[X-40A second free flight successful][ref_sciencedaily_x40]\], the Air Force museum places the first
+NASA flight on 28 March 2001 \[[Boeing X-40A][ref_nmusaf_x40]\], and another gives 4 April as the start of
 the series \[[Boeing X-37 and X-40][ref_x37_x40]\]. The release altitude of the 1998 flight is given as
-9,000 feet in one place and about 10,000 feet in another.
+9,000 feet \[[Boeing X-37 and X-40][ref_x37_x40]\] and as about 10,000 feet
+\[[Boeing X-40A][ref_nmusaf_x40]\].
 
 **The vehicle was retired in May 2001 and is preserved at the National Museum of the United States Air
 Force** \[[Boeing X-40][ref_x40]\].
@@ -653,7 +687,7 @@ came from.
 validating low-speed handling qualities and demonstrating autonomous approach and landing
 \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\]. Flight returned
 eight free flights, each ending in an autonomous landing, and a landing within 7 feet of the runway
-centreline on the first Dryden flight \[[Boeing X-40][ref_x40]\]. **That is the confirmation of an
+centreline on the 1998 flight \[[Boeing X-40][ref_x40]\]. **That is the confirmation of an
 objective and not a comparison of numbers**, because no predicted dispersion is published to set the
 7 feet against.
 
@@ -691,9 +725,10 @@ measurement.
 **The programme's output was a validated software stack and a shape, and the shape mattered more than
 anybody expected at the time.**
 
-**The airframe became the X-37.** Scaling the X-40A outer mould line up by about 120 percent produced the
-vehicle that flew the Approach and Landing Test Vehicle flights in 2006 and then flew to orbit
-\[[Boeing X-37][ref_x37]\]. **A one million dollar test article set the external geometry of a spacecraft
+**The airframe became the X-37.** The X-37A airframe is essentially the X-40A scaled up to about
+120 percent \[[Boeing X-37 and X-40][ref_x37_x40]\], and the X-37 line flew the Approach and Landing Test
+Vehicle flights in 2006 and then flew to orbit \[[Boeing X-37][ref_x37]\]. The section headed The Scale
+Ratio Is Disputed and the Dispute Is Resolvable computes 128.5 percent from the published dimensions. **A one million dollar test article set the external geometry of a spacecraft
 that has since flown for years at a time**, which is a return on investment the series has no other
 example of.
 
@@ -1144,10 +1179,19 @@ estimate.
 **The release altitude of the 1998 flight is given as both 9,000 and about 10,000 feet**, and the two
 imply straight-line glide ratios of 1.47 and 1.32.
 
-**The start date of the 2001 series is given as both 14 March and 4 April 2001.** One account describes a
-first free flight on the earlier date flying a straight-in approach, which would make the 12 April flight
+**The start date of the 2001 series is given as 14 March, 28 March and 4 April 2001.** One account describes a
+first free flight on the earliest date flying a straight-in approach, which would make the 12 April flight
 the second, and that is consistent with the sources describing 12 April as the second free flight. The
 conflict is recorded rather than resolved.
+
+**The 75 second descent is the space agency's description of the 2001 releases from 15,000 feet and is not
+stated for the 12 April flight.** The flight path angle, glide ratio and ground range are computed by
+pairing it with that flight's 15,050 foot release and 428 feet per second, and they inherit that
+pairing.
+
+**The only published landing accuracy, 7 feet of centreline tracking on the 1998 flight, comes from an
+encyclopaedia entry** whose cited sources do not carry the figure, and the touchdown offset that preceded it
+is not published.
 
 **The X-37B weight used in the mass comparison is a maximum takeoff weight including payload and
 propellant.** A landing weight would be lower and would reduce the computed shortfall, so
@@ -1205,6 +1249,7 @@ The next article returns to a vehicle designed to be shot down.
 - [Boeing X-37][ref_x37]
 - [Boeing X-37 and X-40][ref_x37_x40]
 - [Boeing X-40][ref_x40]
+- [Boeing X-40A][ref_nmusaf_x40]
 - [Buran][ref_buran]
 - [Lifting body][ref_lifting_body]
 - [Sikorsky UH-60 Black Hawk][ref_uh60]
@@ -5495,6 +5540,7 @@ The next article returns to a vehicle designed to be shot down.
 [ref_ch47]: https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook
 [ref_lifting_body]: https://en.wikipedia.org/wiki/Lifting_body
 [ref_nasa_x40]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-40/
+[ref_nmusaf_x40]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195752/boeing-x-40a/
 [ref_sciencedaily_x40]: https://www.sciencedaily.com/releases/2001/04/010417074551.htm
 [ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
 [ref_smv_global]: https://www.globalsecurity.org/space/systems/x-40.htm

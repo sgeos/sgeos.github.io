@@ -219,7 +219,11 @@ sections do not all reverse at once.
 
 **A production F/A-18 leading-edge flap is one surface per wing driven by one rotary actuator.** The X-53 splits it, retaining the existing hydraulic drive unit for the inboard section and adding a second power drive unit in each wing leading edge for the outboard section \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
-**The outboard flap also had to move three times faster.** The inboard surface retains a rate limit of 15 degrees per second and the outboard surface gets 45, against the aileron's 100. **Every figure in the table below is the report's** \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
+**The outboard flap also had to move three times faster.** The inboard surface retains a rate limit of 15 degrees per second and the outboard surface gets 45, against the aileron's 100. For rate limit $\dot{\delta}_{\max}$ the ratio is
+
+$$\frac{\dot{\delta}_{\max}^{\mathrm{OLEF}}}{\dot{\delta}_{\max}^{\mathrm{ILEF}}} \;=\; \frac{45\ \text{deg/s}}{15\ \text{deg/s}} \;=\; 3 ,$$
+
+where OLEF and ILEF denote the outboard and inboard leading-edge flaps. **Every figure in the table below is the report's** \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 | Surface | Position limits, degrees | Rate limit, degrees per second |
 |---|---|---|
@@ -232,7 +236,7 @@ sections do not all reverse at once.
 
 ### The Aileron Became the Limiting Component and Stayed That Way
 
-**Its structural limit is about 50,000 inch-pounds of hinge moment in one direction and 52,000 in the other**, and the flight test report records that **the aileron hinge moment was a design driver for the flight control system** and that it dominated concerns throughout the second phase of flight test, even after everything the design effort had given it.
+**Its structural limit is about 50,000 inch-pounds of hinge moment in one direction and 52,000 in the other**, and the flight test report records that **the aileron hinge moment was a design driver for the flight control system** and that it dominated concerns throughout the second phase of flight test, even after everything the design effort had given it \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 **That is worth pausing on.** The aeroplane exists to demonstrate that the trailing edge need not carry the roll, and the trailing edge's hinge moment is nonetheless what constrained the whole test programme.
 
@@ -257,15 +261,39 @@ $$M_{\mathrm{act}} \;=\; 13{,}100\ \text{lb} \times 4.0\ \text{in}
 \;=\; 52{,}400\ \text{in-lb}
 \qquad\text{against a structural limit of}\qquad 50{,}000\ \text{in-lb},$$
 
-which exceeds it by 4.8 percent. **The trailing-edge flap exceeds its own limit by
-4.4 percent on the same arithmetic, and the inboard leading-edge flap's rotary actuator
-exceeds its negative limit by 38.7 percent.**
+which exceeds it by 4.8 percent. **The margin is the ratio of capability to limit, less one,**
+
+$$\varepsilon \;=\; \frac{M_{\mathrm{act}}}{M_{\mathrm{lim}}} \;-\; 1 ,
+\qquad
+\varepsilon_{\mathrm{aileron}} \;=\; \frac{52{,}400}{50{,}000} \;-\; 1 \;=\; 0.048 ,$$
+
+for structural limit $M_{\mathrm{lim}}$, with a positive $\varepsilon$ meaning the actuator can exceed
+the limit. The subscript TEF denotes the trailing-edge flap. **The trailing-edge flap exceeds its own limit on the same arithmetic.** Its actuator
+delivers 18,060 pounds on a 9.08 inch arm against a positive limit of 157,000 inch-pounds,
+
+$$\varepsilon_{\mathrm{TEF}} \;=\; \frac{18{,}060\ \text{lb} \times 9.08\ \text{in}}{157{,}000\ \text{in-lb}} \;-\; 1
+\;=\; \frac{163{,}985}{157{,}000} \;-\; 1 \;\approx\; 0.044 ,$$
+
+or 4.4 percent. **The leading-edge flaps are driven by rotary actuators rated directly as a moment**, so
+no arm enters. The inboard actuator's 333,000 inch-pounds is set against the inboard flap's negative
+limit of 240,000, and the outboard actuator's 81,560 inch-pounds against the outboard flap's limits of
+119,000 and 90,000,
+
+$$\varepsilon_{\mathrm{ILEF}}^{-} \;=\; \frac{333{,}000}{240{,}000} \;-\; 1 \;=\; 0.3875 ,
+\qquad
+\varepsilon_{\mathrm{OLEF}}^{+} \;=\; \frac{81{,}560}{119{,}000} \;-\; 1 \;\approx\; -0.315 ,
+\qquad
+\varepsilon_{\mathrm{OLEF}}^{-} \;=\; \frac{81{,}560}{90{,}000} \;-\; 1 \;\approx\; -0.094 .$$
+
+**So the inboard leading-edge flap's rotary actuator exceeds its negative limit by 38.75 percent**, and
+the outboard actuator falls short of both of its limits. Every force, arm, moment and limit here is the
+report's own \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 **Three of the four wing surfaces carry actuators strong enough to break their own structural limits**,
 and only the outboard leading-edge flap cannot. **That is why the flight test was run the way it was**,
 with a build-up in lateral stick through 25, 50, 75 and 100 percent, a real-time envelope display, an
 aural disengage tone and a test conductor authorised to call a manoeuvre off before the pilot reached a
-boundary. **The structure was not protected by the actuator. It was protected by procedure.**
+boundary \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]. **The structure was not protected by the actuator. It was protected by procedure.**
 
 ### Two Design Teams Solved Two Different Optimisation Problems
 
@@ -287,13 +315,13 @@ boundary. **The structure was not protected by the actuator. It was protected by
 
 **Phase I ran from November 2002 to June 2003 and comprised 51 flights.** Its three objectives were to prove the modified aeroplane was flutter free, to demonstrate the low-speed characteristics of the worst-case outboard leading-edge flap failure, and to gather data for flight-derived aerodynamic and loads models using an onboard excitation system \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\] \[[Active aeroelastic wing aerodynamic model development and validation for a modified F/A-18A][research_aaw_aero_model]\].
 
-**Phase II ran from December 2004 to March 2005 and comprised 35 flights.** It flew the new control laws at the 18 test points, with a build-up through 25, 50, 75 and 100 percent lateral stick in bank-to-bank and 360 degree rolls and in rolling pull-outs.
+**Phase II ran from December 2004 to March 2005 and comprised 35 flights.** It flew the new control laws at the 18 test points, with a build-up through 25, 50, 75 and 100 percent lateral stick in bank-to-bank and 360 degree rolls and in rolling pull-outs \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 **Between them lay about a year of analysis and control law redesign.** From programme kickoff to last flight was nearly ten years.
 
 ### Two Test Points Were Never Flown, and Their Dynamic Pressures Say Why
 
-**The aeroplane could not reach the two highest-dynamic-pressure test points.** Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet both proved to be outside its performance envelope. The report suggests why, and the reason is the research equipment itself, naming the external deflection-measurement targets, the external wiring, the wing surface pressure instrumentation and the camera pods as likely contributors to additional drag.
+**The aeroplane could not reach the two highest-dynamic-pressure test points.** Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet both proved to be outside its performance envelope. The report suggests why, and the reason is the research equipment itself, naming the external deflection-measurement targets, the external wiring, the wing surface pressure instrumentation and the camera pods as likely contributors to additional drag \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 **Computing the dynamic pressure at each of them shows what was lost.** Taking the standard atmosphere and $q = \tfrac{1}{2}\rho V^2$,
 
@@ -359,13 +387,13 @@ order a tenth of a second and criteria written at 50, 90 and 180 degrees, the ex
 negligible and time to bank is very nearly $\phi / p_{\mathrm{ss}}$**, which means the criteria were
 testing roll rate and not roll damping.
 
-**Time-to-bank criteria were drawn from the military handbook on flying qualities, with level 1 goals and level 2 requirements at bank angles of 50, 90 and 180 degrees.**
+**Time-to-bank criteria were drawn from the military handbook on flying qualities, with level 1 goals and level 2 requirements at bank angles of 50, 90 and 180 degrees.** \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]
 
 **At the subsonic region I test point and the supersonic region II test point, the control designs met the level 1 goal.** **At the subsonic region III test point, roll performance was inadequate to meet the level 2 requirement.**
 
 **Region III is the region the whole programme was built for.** It is where the trailing edge has gone to zero and the leading edge is generating all of the rolling moment, which is precisely the regime in which a deliberately flexible wing is supposed to pay for itself. **It is also the one region where the aeroplane failed to meet even the lower of its two standards.**
 
-**Roll-mode time constants were short everywhere**, at 0.18 seconds subsonic region I, 0.10 seconds subsonic region III and 0.60 seconds supersonic region II, against a level 1 limit of 1.0 seconds and a level 2 limit of 1.4.
+**Roll-mode time constants were short everywhere**, at 0.18 seconds subsonic region I, 0.10 seconds subsonic region III and 0.60 seconds supersonic region II, against a level 1 limit of 1.0 seconds and a level 2 limit of 1.4 \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 **None of the three was near its upper limit.** The slowest, supersonic at 0.60 seconds, sits at
 
@@ -374,7 +402,7 @@ $$\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
 
 **so even the slowest measured roll mode beat its level 1 goal by two thirds again.**
 
-**The concern ran the other way.** Two of the three fell below the 0.3 second guideline that the programme wrote for itself out of concern about roll-ratchet pilot-induced oscillation, and its own requirements document allowed constants that quick provided they were no worse than the production control laws, which these were not. **A criterion written to catch an aeroplane that rolls too slowly had to be given a second end**, because this one rolled too readily.
+**The concern ran the other way.** Two of the three fell below the 0.3 second guideline that the programme wrote for itself out of concern about roll-ratchet pilot-induced oscillation, and its own requirements document allowed constants that quick provided they were no worse than the production control laws, which these were not \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]. **A criterion written to catch an aeroplane that rolls too slowly had to be given a second end**, because this one rolled too readily.
 
 ### Overall Roll Rates Came Within Fifteen to Twenty Percent, Without the Tail
 
@@ -397,13 +425,13 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 **There was no predicted reversal dynamic pressure for the flight to confirm or refute.** The report's illustration of the four regions is captioned as a typical fighter and not as the X-53, so it fixes no reversal value for this aeroplane, and the article claims none. The flight returned an absence of reversal against no stated number.
 
-**The planned envelope was larger than the flown one.** The programme planned 18 test points, and the two at the highest dynamic pressure, Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet, proved to be outside the aeroplane's performance envelope. The report suggests that the research instrumentation added the drag that put them out of reach, and the section headed The Flight Test Record computes how far short the aeroplane fell.
+**The planned envelope was larger than the flown one.** The programme planned 18 test points, and the two at the highest dynamic pressure, Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet, proved to be outside the aeroplane's performance envelope \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]. The report suggests that the research instrumentation added the drag that put them out of reach, and the section headed The Flight Test Record computes how far short the aeroplane fell.
 
 **Predicted response matched flight well supersonically and less well subsonically.** Comparison of the Phase II flight data with predicted response showed excellent agreement supersonically and only fair agreement subsonically, with larger differences \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\]. **The prediction rested on an extrapolation**, since some Phase I excitation manoeuvres were too small and the Phase II control laws commanded as much as five times larger outboard leading-edge flap motion than the manoeuvres that had measured its control power.
 
 **One designed benefit was absent in flight.** The new control laws failed to show load reduction at a subsonic region II test point at elevated normal acceleration when compared against the production system, and the report traces the failure to the trailing-edge surfaces being driven inconsistently with manoeuvre load control strategies without saying why the design produced that.
 
-**The roll requirements were written before flight, and flight met them at two of three test points.** The control designs met the level 1 time-to-bank goal at the subsonic region I and supersonic region II test points and fell short of the level 2 requirement at the subsonic region III test point. The measured roll-mode time constants of 0.18, 0.10 and 0.60 seconds all sat inside the level 1 limit of 1.0 seconds, and two of them fell below the 0.3 second guideline the programme had written against roll ratchet.
+**The roll requirements were written before flight, and flight met them at two of three test points.** The control designs met the level 1 time-to-bank goal at the subsonic region I and supersonic region II test points and fell short of the level 2 requirement at the subsonic region III test point. The measured roll-mode time constants of 0.18, 0.10 and 0.60 seconds all sat inside the level 1 limit of 1.0 seconds, and two of them fell below the 0.3 second guideline the programme had written against roll ratchet \[[Flight test of the F/A-18 active aeroelastic wing airplane][research_aaw_flight_test]\].
 
 **The weight saving remains a ground estimate with no flight counterpart.** The figure of 10 to 20 percent is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. The X-53 did not have such a wing, and nothing in its flight test weighed one.
 
@@ -513,7 +541,7 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 **Calling this an aeroelasticity experiment understates how much of it was a control law experiment.** The programme dropped flutter suppression, dropped external stores, and could not reach reversal, and what remained was the design and flight clearance of eighteen point designs on an aeroplane whose aerodynamic model came from its own earlier flights.
 
-**Calling the result a success without qualification overstates it.** Roll performance within 15 to 20 percent of production, achieved without the stabilator, is a real demonstration. Missing the level 2 requirement in region III is a real shortfall, and region III is the interesting region.
+**Calling the result a success without qualification overstates it.** Roll performance within 15 to 20 percent of production, achieved without the stabilator, is a real demonstration \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. Missing the level 2 requirement in region III is a real shortfall, and region III is the interesting region.
 
 **And the weight saving was never weighed.** The 10 to 20 percent figure is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\]. **The X-53 did not have such a wing.** It had a production wing with its stiffening removed and a research instrumentation fit added on top, which is the opposite transaction. **The record does not give the mass of that fit** and this article does not estimate one.
 
@@ -591,6 +619,8 @@ The aircraft was designated X-53 on 16 August 2006 \[[Boeing X-53 Active Aeroela
 
 **That the two unflown test points are the only two above 1,400 pounds per square foot is a consequence of that computation** and is not stated in the source.
 
+**The actuator margins of 4.8, 4.4 and 38.75 percent, and the outboard leading-edge flap's shortfall against both of its limits, were computed here from the forces, arms, moments and limits in the flight test report's actuator table.** The report states the inputs and does not state the margins.
+
 ### Analysis
 
 The reversal and divergence relations in the sizing section are the standard typical-section results and are derived here rather than quoted.
@@ -631,7 +661,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 
 **The X-53 removed the stiffening from a fighter's wing on purpose and then rolled it with the wing.**
 
-**It did that within 15 to 20 percent of a production aeroplane's roll rate, without using the tail that the production aeroplane uses for the job**, which is the demonstration the programme existed to make and which it made.
+**It did that within 15 to 20 percent of a production aeroplane's roll rate, without using the tail that the production aeroplane uses for the job**, which is the demonstration the programme existed to make and which it made \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
 
 **It also failed to meet the lower of its two roll requirements in region III**, the regime where the trailing edge has stopped working and the leading edge carries the roll, and that is the regime the entire concept is aimed at.
 

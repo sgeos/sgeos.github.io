@@ -40,7 +40,11 @@ The addendum to the joint designation handbook gives the row above and nothing e
 
 The encyclopedia entry on the aircraft describes it as having a joined tandem wing in a diamond configuration, twin vertical tails, **and a single turbojet engine** \[[Aurora X-65 CRANE][ref_ds_x65]\]. **The engine in the register's own cell is a turbofan.** The test report on that engine by the National Aeronautics and Space Administration, NASA, describes the FJ44-3A as a dual-spool low-bypass-ratio turbofan, certified in 2004 under Federal Aviation Regulations Parts 23 and 25 \[[FJ44 turbofan engine test][ref_fj44_test]\], which was read in full for this article. **A low-bypass turbofan is the nearest thing to a turbojet that a turbofan can be**, so the description is wrong in a forgiving direction rather than a careless one, and it is recorded because the distinction matters to the air budget below.
 
-**And the aircraft's weight is given three ways by two organisations.** DARPA's release says the aircraft is `7,000+` pound in one clause and describes it as a 7,000 pound aircraft in the next \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The contractor's own page says 7,200 pound \[[X-65 experimental aircraft][ref_aurora_x65]\]. **The spread is 200 pound, or 2.86 percent**, and this article uses the contractor's figure where a single number is needed and says so each time.
+**And the aircraft's weight is given three ways by two organisations.** DARPA's release says the aircraft is `7,000+` pound in one clause and describes it as a 7,000 pound aircraft in the next \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The contractor's own page says 7,200 pound \[[X-65 experimental aircraft][ref_aurora_x65]\]. **The spread is 200 pound**, which as a share of the lower figure is
+
+$$ \frac{7{,}200 - 7{,}000}{7{,}000} = 0.0286 , $$
+
+or 2.86 percent, and this article uses the contractor's figure where a single number is needed and says so each time.
 
 **What is published about the shape of this aircraft is five numbers.** A thirty foot span, a gross weight, a limit of Mach 0.7, fourteen effectors and fourteen conventional surfaces, with four interchangeable wing sets of differing sweep \[[X-65 experimental aircraft][ref_aurora_x65]\] \[[DARPA moves forward on the X-65][ref_darpa_news]\]. **Wing area, plenum pressure, bleed fraction, effector geometry and mass breakdown are all absent**, so each of them is swept in what follows rather than assumed.
 
@@ -59,17 +63,25 @@ The narrative account is short. DARPA began CRANE in 2020, invited three contrac
 
 **All three Phase 0 and Phase 1 contracts report twenty-five offers received.** So the solicitation drew 25 proposals and three were funded, which is a competition ratio the published accounts do not mention. **The Phase 2 and Phase 3 contract reports two offers**, which is the Phase 1 downselect appearing as a procurement fact rather than as a press statement.
 
-**And the downselect itself is visible as an exercised option.** Aurora's contract shows an option exercised on 29 June 2021 worth 8,312,272 dollars and Lockheed Martin's shows one exercised on 12 August 2021 worth 10,135,107 dollars. **Georgia Tech Research Corporation has no option exercise at any date.** Its last funding action is 13 April 2022 for 192,823 dollars, and 5,581,362 dollars of its ceiling, being 45.1 percent, was never exercised. **The record therefore dates the cut from three to two to the middle of 2021**, which no source consulted states in words.
+**And the downselect itself is visible as an exercised option.** Aurora's contract shows an option exercised on 29 June 2021 worth 8,312,272 dollars and Lockheed Martin's shows one exercised on 12 August 2021 worth 10,135,107 dollars. **Georgia Tech Research Corporation has no option exercise at any date.** Its last funding action is 13 April 2022 for 192,823 dollars, and 5,581,362 dollars of its ceiling, being 45.1 percent, was never exercised \[[USAspending][ref_usaspending]\]. **The record therefore dates the cut from three to two to the middle of 2021**, which no source consulted states in words. The unexercised share of a ceiling is one less the ratio of obligation to ceiling, which for Georgia Tech Research Corporation is
+
+$$ 1 - \frac{6{,}795{,}148}{12{,}376{,}510} = \frac{5{,}581{,}362}{12{,}376{,}510} = 0.451 . $$
 
 **Georgia Tech was also on different terms.** Its contract is priced cost no fee where both companies are cost plus fixed fee, and it is classified as an other United States entity where both companies are a United States owned business. **A university research corporation took no fee for the same work**, and it is the one of the three that was not carried forward.
 
-Aurora took 48.4 percent of the 49,184,174 dollars obligated across the three early contracts, and left 4,557,089 dollars, or 16.1 percent, of its own ceiling unexercised. **Total obligations across all four CRANE contracts are 143,556,412 dollars.**
+From the obligations and ceilings in the table above,
+
+$$ \frac{23{,}811{,}305}{49{,}184{,}174} = 0.484 , \qquad 1 - \frac{23{,}811{,}305}{28{,}368{,}394} = \frac{4{,}557{,}089}{28{,}368{,}394} = 0.161 , \qquad 49{,}184{,}174 + 94{,}372{,}238 = 143{,}556{,}412 , $$
+
+so Aurora took 48.4 percent of the 49,184,174 dollars obligated across the three early contracts, and left 4,557,089 dollars, or 16.1 percent, of its own ceiling unexercised. **Total obligations across all four CRANE contracts are 143,556,412 dollars.**
 
 ### The Forty-Two Million Dollar Contract Is Not in the Record
 
 Press accounts report that DARPA awarded Aurora a 42 million dollar contract in January 2023 to begin detailed design \[[two-year flight delay][ref_defensenews_delay]\]. **The contract in the award record is 94,372,238 dollars, which is 2.25 times that, it is described as covering Phase 2 and Phase 3 together, and it begins on 7 December 2022 rather than in January 2023** \[[USAspending][ref_usaspending]\].
 
-**The two figures are not in conflict and the reason is worth stating rather than glossing.** Phase 2 and Phase 3 were placed on one instrument, so the announced Phase 2 value and the eventual obligated total on the same contract number are different quantities. **The initial obligation on the day the contract began was 6,500,000 dollars, which is 6.9 percent of what the contract eventually carried.**
+**The two figures are not in conflict and the reason is worth stating rather than glossing.** Phase 2 and Phase 3 were placed on one instrument, so the announced Phase 2 value and the eventual obligated total on the same contract number are different quantities. **The initial obligation on the day the contract began was 6,500,000 dollars, which is 6.9 percent of what the contract eventually carried.** The two ratios are
+
+$$ \frac{94{,}372{,}238}{42{,}000{,}000} = 2.25 , \qquad \frac{6{,}500{,}000}{94{,}372{,}238} = 0.0689 . $$
 
 | Date | Obligation, dollar | Cumulative, dollar |
 |---|---|---|
@@ -106,17 +118,15 @@ Two adjacent awards are worth naming. **Scientific, engineering and technical as
 
 ## What the Programme's Own Name Costs It
 
-**`CRANE` is the least useful of the search terms measured here, and the measurement is not close.** Ten results were read from the bibliographic index for the bare acronym. They are a logging-crane operator fatality, a mobile-gantry-crane fatality, a civil-engineering journal that shares the name, a software toolsite, an 1886 romance and an 1878 collection of nursery rhymes. **Nothing aeronautical appeared.**
+**`CRANE` finds nothing aeronautical in the bibliographic index, and `novel effectors`, the literal phrase in the programme's title, finds molecular biology**, where an effector is a protein that a pathogen injects into a host.
 
-**`novel effectors`, the literal phrase in the programme's title, is worse than useless because it is confidently wrong.** It returns fungal effectors, oomycete effectors, the effectors of plant-defence suppression and the downstream effectors of a ubiquitin ligase in gastric cancer. **In molecular biology an effector is a protein that a pathogen injects into a host, and that field publishes far more than aeronautics does.**
-
-**And the phrase that does find this aircraft's prior art is a phrase the programme does not use.** `hingeless control` returned ten results of which ten were on subject, among them the experimental development of hingeless aerodynamic control effectors, plasma actuators for hingeless aerodynamic control of an unmanned air vehicle, delta-wing hingeless control by synthetic jet actuation, and system identification of an unmanned aerial vehicle with hingeless control effectors. **That is the X-65's lineage, and it is indexed under a word the programme's own name replaced.** The full measurement is in the source base below.
+**The phrase that does find this aircraft's prior art is one the programme does not use.** `hingeless control` returns, among others, the experimental development of hingeless aerodynamic control effectors, plasma actuators for hingeless aerodynamic control of an unmanned air vehicle, delta-wing hingeless control by synthetic jet actuation, and system identification of an unmanned aerial vehicle with hingeless control effectors. **That is the X-65's lineage, and it is indexed under a word the programme's own name replaced.** The full measurement is in the source base below.
 
 ## Sizing From First Principles
 
 ### The Symbols This Article Uses
 
-Every symbol below is declared here and nowhere carries a second meaning. **A declared table is the only instrument this corpus has found that catches a collision**, because a pattern cannot know what a symbol means, and the discipline is inherited from an earlier article in this series in which one letter served as three different quantities.
+Every symbol below is declared here and nowhere carries a second meaning.
 
 | Symbol | Meaning | Unit |
 |---|---|---|
@@ -429,7 +439,11 @@ for any reference Mach number $M_0$. **The root is unique below Mach $\sqrt{2}$ 
 | 50 | 2.363 | none | 0.945 | 0.672 | 0.473 | 0.436 |
 | 100 | 4.725 | none | 1.890 | none | 0.945 | 0.672 |
 
-**Take an amplification of 30, which is the strong end of the measured separation-control range, against a conventional surface worth 0.05 in lift coefficient.** The authority ratio at the top of the envelope is 0.567, so **active flow control delivers 56.7 percent of the hinge's authority at Mach 0.7 and falls short by 43.3 percent.** At Mach 0.2 the same hardware delivers 5.15 times the hinge's authority. **The crossover is at Mach 0.485.**
+**Take an amplification of 30, which is the strong end of the measured separation-control range, against a conventional surface worth 0.05 in lift coefficient.** The authority ratio at the top of the envelope is 0.567, so **active flow control delivers 56.7 percent of the hinge's authority at Mach 0.7 and falls short by 43.3 percent.** At Mach 0.2 the same hardware delivers 5.15 times the hinge's authority. **The crossover is at Mach 0.485.** With the momentum coefficient and the Mach factor from the tables above,
+
+$$ \Lambda\left( 0.7 \right) = \frac{30 \times 0.000945066}{0.05} = 0.567 , \qquad \Lambda\left( 0.2 \right) = 0.567 \times \frac{G\left( 0.2 \right)}{G\left( 0.7 \right)} = 0.567 \times \frac{25.7070}{2.8308} = 5.15 , \qquad G\left( M_{\times} \right) = \frac{0.05}{30} \cdot \frac{2.8308}{0.000945066} = 4.992 , $$
+
+and the Mach number at which $G$ falls to 4.992 is 0.485.
 
 **That inverts the usual control-authority problem and the inversion is the practical result of this article.** For a conventional aeroplane the binding case for control power is low speed, because the surfaces are weakest when the dynamic pressure is least, which is why approach and engine-out cases size the tail. **For a bleed-fed flow-control aeroplane the binding case is high speed**, because the effectors deliver a roughly fixed force while the aerodynamic forces they must overcome grow as the square of the Mach number.
 
@@ -481,7 +495,9 @@ $$ C_\mu = \beta \, C_\mu^{\,1} \quad \Longrightarrow \quad \beta_{\mathrm{req}}
 | 0.0300 | 253.95 percent | **no** |
 | 0.0500 | 423.25 percent | **no** |
 
-**Reaching the lowest coefficient at which a lift response has been measured takes 6.77 percent of core flow, and a measured reattachment takes 28.78 percent.** Reaching the super-circulation threshold of three percent would take 253.95 percent of core flow, **which is two and a half times the core flow the engine has**, and five percent would take 423.25 percent.
+**Reaching the lowest coefficient at which a lift response has been measured takes 6.77 percent of core flow, and a measured reattachment takes 28.78 percent.** Reaching the super-circulation threshold of three percent would take 253.95 percent of core flow, **which is two and a half times the core flow the engine has**, and five percent would take 423.25 percent. The coefficient a bleed fraction of unity would deliver follows from the reference case, and each row is the target over it,
+
+$$ C_\mu^{\,1} = \frac{0.000945066}{0.08} = 0.0118133 , \qquad \frac{0.0008}{0.0118133} = 0.0677 , \qquad \frac{0.0034}{0.0118133} = 0.2878 , \qquad \frac{0.03}{0.0118133} = 2.5395 , \qquad \frac{0.05}{0.0118133} = 4.2325 . $$
 
 **So the assumed bleed fraction of 8 percent is slightly more than the lowest measured threshold needs and far short of super-circulation**, which places this aircraft's air budget in the separation-control regime by arithmetic rather than by assumption. **A control system changes a moment rather than a lift, which needs a local effect at a long moment arm, and the concentration factor is what makes that affordable.** The same arithmetic that forbids the first permits the second.
 
@@ -489,7 +505,7 @@ $$ C_\mu = \beta \, C_\mu^{\,1} \quad \Longrightarrow \quad \beta_{\mathrm{req}}
 
 **The review reports a measured lift response at a momentum coefficient of 0.08 percent and the regime boundary at three to five percent** \[[Taleghani and Hosseini 2024][research_review_afc_2024]\], and the table below sets this aircraft's wing-referenced figure against each reported threshold.
 
-**The threshold that separates separation control from super-circulation is reported at three to five percent**, defined phenomenologically as the coefficient that just suffices to suppress separation completely, and the transition is gradual and accompanied by a fall in what the review calls the actuation efficiency, being the derivative of the lift increment with respect to the momentum coefficient. **That derivative is this article's amplification**, already named in the literature, so the framing of a curve with a threshold, a favourable band and a saturation is not new and is recorded as such.
+The regime boundary is defined phenomenologically as the coefficient that just suffices to suppress separation completely, and the transition across it is gradual, with the fall in actuation efficiency noted in the section on the momentum coefficient. **The framing of a curve with a threshold, a favourable band and a saturation is therefore the literature's and not this article's.**
 
 | Reported threshold | Momentum coefficient | This article's figure over it | Concentration factor needed | Influenced area, square metre | Per effector, square metre |
 |---|---|---|---|---|---|
@@ -516,9 +532,11 @@ $$ \mathcal{M} = \Delta L \, y = \mathcal{A} \, J \, y, \qquad C_{\mathcal{M}} =
 | 3.000 | 14,045 | 0.00930 |
 | 4.000 | 18,727 | 0.01240 |
 
-**The whole air budget at an amplification of thirty is 4,682 newton, and placed at a quarter of the span, being 2.286 metre, that is 10,703 newton metre or a rolling-moment coefficient of 0.00709.** The jet's own reaction, without any amplification, is 156.1 newton.
+**The whole air budget at an amplification of thirty is 4,682 newton, and placed at a quarter of the span, being 2.286 metre, that is 10,703 newton metre or a rolling-moment coefficient of 0.00709.** The jet's own reaction, without any amplification, is 156.1 newton. With the dynamic pressure of 10,320.7 pascal at the reference condition and the span of 9.144 metre,
 
-**This is why the moment arm does more work than the amplification in a control application, and why the effectors are on the outboard wings.** Doubling the arm doubles the moment for no extra air, where doubling the amplification requires a different flow regime. **A high-lift system has no such lever, because lift acts where it acts.** The concentration factor and the moment arm together are what make a control authority affordable from an air budget that could never augment a wing's lift.
+$$ \mathcal{A} J = 30 \times 156.06 = 4{,}682 , \qquad \mathcal{M} = 4{,}682 \times 2.286 = 10{,}703 , \qquad C_{\mathcal{M}} = \frac{10{,}703}{10{,}320.7 \times 16 \times 9.144} = 0.00709 . $$
+
+**This is why the moment arm does more work than the amplification in a control application, and why the effectors are on the outboard wings.** Doubling the arm doubles the moment for no extra air, where doubling the amplification requires a different flow regime. **A high-lift system has no such lever, because lift acts where it acts.**
 
 ### The Velocity Ratio, Which the Momentum Coefficient Conceals
 
@@ -555,7 +573,11 @@ $$ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left
 | 8.000 | 240.7 | 8.766 | 62.61 | 6.26 | **no** |
 | 19.419 | 584.3 | 3.611 | 25.79 | 2.58 | **no** |
 
-**The momentum coefficient is identical in every row of that table, to twelve significant figures, and the throat area varies by a factor of 4.85.** A choked jet's velocity depends on its plenum temperature alone, so regulating the plenum pressure down changes the orifice and changes nothing else. **The altitude result therefore survives any plenum schedule that keeps the nozzle choked**, which is a useful robustness because no plenum pressure for this aircraft is published.
+**The momentum coefficient is identical in every row of that table, to twelve significant figures, and the throat area varies by a factor of 12.95 across it.** Since the area is inversely proportional to the plenum pressure,
+
+$$ \frac{A^{*}\left( 1.5 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{1.5} = 12.95 , \qquad \frac{A^{*}\left( 4 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{4} = 4.85 , $$
+
+where the argument is the nozzle pressure ratio. A choked jet's velocity depends on its plenum temperature alone, so regulating the plenum pressure down changes the orifice and changes nothing else. **The altitude result therefore survives any plenum schedule that keeps the nozzle choked**, which is a useful robustness because no plenum pressure for this aircraft is published.
 
 ### The One Paper That Asked This Question, and Which Could Not Be Read
 
@@ -563,9 +585,9 @@ $$ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left
 
 **Both registries render those two scaling parameters as `[Formula: see text]`, the paper is closed access, and no repository holds a full text.** So only the abstract has been read, and **no quantity from inside that paper is quoted here and no claim is made about which scaling parameter it found.**
 
-**The honest statement of this article's position is therefore as follows.** The derivation above is presented as this article's own, the cancellations are exhibited rather than asserted, and every step is checkable from the equations given. **It is very likely a rediscovery.** A published study that simulates two actuator types across two altitudes and reports that the momentum coefficient collapses under a scaling parameter is, on the face of the abstract, reporting a result of the same family. **This article does not claim novelty and says so here rather than in a footnote.**
+**The derivation above is therefore very likely a rediscovery.** Its cancellations are exhibited rather than asserted and every step is checkable from the equations given, but a published study that simulates two actuator types across two altitudes and reports that the momentum coefficient collapses under a scaling parameter is, on the face of the abstract, reporting a result of the same family. **No novelty is claimed.**
 
-**What the comparison of parameter ranges does establish is a gap, and that comparison needs only the abstract.** The published study's supply pressure ratios stop at 4. A plenum fed from the discharge of a compressor of pressure ratio 14 stands at a nozzle pressure ratio of 19.419 at every altitude, which is 4.85 times that. **Either a real aircraft regulates its plenum far below compressor discharge, in which case the slot areas in the table above are the large ones, or the published scaling study does not cover the regime a bleed-fed aircraft would run in.** The plenum total temperature computed here, 584 kelvin, does fall inside the published 293 to 800 kelvin range.
+**What the comparison of parameter ranges does establish is a gap, and that comparison needs only the abstract.** The published study's supply pressure ratios stop at 4. A plenum fed from the discharge of a compressor of pressure ratio 14 stands at a nozzle pressure ratio of 19.419 at every altitude, which is the factor of 4.85 displayed above. **Either a real aircraft regulates its plenum far below compressor discharge, in which case the slot areas in the table above are the large ones, or the published scaling study does not cover the regime a bleed-fed aircraft would run in.** The plenum total temperature tabulated in the section on the choked jet, 584 kelvin, does fall inside the published 293 to 800 kelvin range.
 
 ## Dependent Systems
 
@@ -776,7 +798,7 @@ The record of what was planned is as follows. Fabrication was under way at facil
 
 ## What Seven Budget Books Said, Year by Year
 
-**The Research, Development, Test and Evaluation justification books are a primary source with an unusual property. Each one states three fiscal years, and the same fiscal year appears in three consecutive books wearing three different hats.** The three columns of an exhibit are the prior year's actual, the current year's estimate and the budget year's request. **So a fiscal year can be watched from the moment it is asked for to the moment it is recorded**, and every CRANE line in every book from the request for fiscal year 2020 to the request for fiscal year 2026 was read for this article \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\].
+**The Research, Development, Test and Evaluation justification books are a primary source with an unusual property. Each one states three fiscal years, and the same fiscal year appears in three consecutive books wearing three different hats.** The three columns of an exhibit are the prior year's actual, the current year's estimate and the budget year's request. **So a fiscal year can be watched from the moment it is asked for to the moment it is recorded**, and every CRANE line in every book from the request for fiscal year 2020 to the request for fiscal year 2026 was read for this article \[[PB2020][ref_darpa_rdte_2020]\] \[[PB2021][ref_darpa_rdte_2021]\] \[[PB2022][ref_darpa_rdte_2022]\] \[[PB2023][ref_darpa_rdte_2023]\] \[[PB2024][ref_darpa_rdte_2024]\] \[[PB2025][ref_darpa_rdte_2025]\] \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\].
 
 The quantity tabulated against each year is the outcome against the request, and it is a fraction rather than a difference so that years of different size are comparable. Let $r$ be the request and $o$ the outcome, both in dollars.
 
@@ -792,9 +814,13 @@ $$ \frac{o - r}{r} $$
 | FY2025 | 29.715 | 23.893 | - | -19.59 percent |
 | FY2026 | 4.000 | - | - | - |
 
-**The first year came in 81.33 percent above its request and every year since has come in below.** Fiscal year 2020 was requested at 13.000 million dollars, estimated at 20.000 and recorded at 23.573. **From fiscal year 2021 to fiscal year 2025 the programme was funded below its request five times out of five, at a mean shortfall of 16.29 percent.** The worst single year is fiscal year 2023, requested at 52.685 million and recorded at 40.565 million, which is -23.00 percent.
+**The first year came in 81.33 percent above its request and every year since has come in below.** Fiscal year 2020 was requested at 13.000 million dollars, estimated at 20.000 and recorded at 23.573. **From fiscal year 2021 to fiscal year 2025 the programme was funded below its request five times out of five, at a mean shortfall of 16.29 percent.** The worst single year is fiscal year 2023, requested at 52.685 million and recorded at 40.565 million, which is -23.00 percent. The first figure and the mean of the five shortfalls are
 
-**Across fiscal years 2020 to 2025 the programme asked for 196.507 million dollars and is expected to receive 175.416 million, a shortfall of 10.73 percent, and counting the fiscal year 2026 request of 4.000 million in both the totals are 200.507 and 179.416 million.** Appropriations through fiscal year 2024 total 151.523 million dollars against 143,556,412 dollars obligated across the four contracts, a ratio of 1.0555, **which is the right sort of agreement because obligations lag appropriations**.
+$$ \frac{23.573 - 13.000}{13.000} = 0.8133 , \qquad \frac{0.0554 + 0.1930 + 0.2300 + 0.1401 + 0.1959}{5} = 0.1629 . $$
+
+**Across fiscal years 2020 to 2025 the programme asked for 196.507 million dollars and is expected to receive 175.416 million, a shortfall of 10.73 percent, and counting the fiscal year 2026 request of 4.000 million in both the totals are 200.507 and 179.416 million.** Appropriations through fiscal year 2024 total 151.523 million dollars against 143,556,412 dollars obligated across the four contracts, a ratio of 1.0555, **which is the right sort of agreement because obligations lag appropriations**. Summing the table's columns,
+
+$$ \sum_{2020}^{2025} r = 196.507 , \qquad \sum_{2020}^{2025} o = 175.416 , \qquad 1 - \frac{175.416}{196.507} = 0.1073 , \qquad \sum_{2020}^{2024} o = 151.523 , \qquad \frac{151.523 \times 10^{6}}{143{,}556{,}412} = 1.0555 , \qquad \frac{4.000}{38.264} = 0.1045 . $$
 
 **And the fiscal year 2026 request is 4.000 million, which is 10.5 percent of what fiscal year 2024 actually received.** It is also the only round number in the whole series, every other figure carrying three decimal places. **A round number among precise ones is the signature of a placeholder.**
 
@@ -833,15 +859,13 @@ Through fiscal year 2025 CRANE was funded in programme element 0603286E, Advance
 
 **Nothing has flown, so flight has returned nothing to set beside any ground prediction, and this section records what was predicted so that the comparison can be made when it does.** On this article's dateline the aircraft has not been rolled out and its fuselage is not finished, and DARPA expects ground testing in late 2026 or early 2027 and first flight in late 2027 \[[two-year flight delay][ref_defensenews_delay]\]. **Even the ground testing that would precede flight lies in the future.**
 
-**The first prediction the record makes is a schedule, and it is the only one that events have already answered.** Rollout was scheduled for early 2025 and first flight for the summer of the same year \[[DARPA moves forward on the X-65][ref_darpa_news]\]. Both dates passed, and the section headed The Flight Test Record, Which Is Empty puts the slip at 30 months. The section headed What Seven Budget Books Said, Year by Year follows the same promises through the justification books, where flight testing was a fiscal year 2025 plan in two consecutive books.
+**The first prediction the record makes is a schedule, and it is the only one that events have already answered.** The section headed The Flight Test Record, Which Is Empty puts the slip at 30 months, and the section headed What Seven Budget Books Said, Year by Year follows the same promises through the justification books.
 
-**The aerodynamic predictions are this article's own, and every one of them is conditional.** The section headed Sizing From First Principles predicts that a bleed-fed momentum coefficient is exactly independent of altitude and falls with Mach number across this aircraft's envelope. The section headed The Authority Ratio, and Where a Jet Loses to a Hinge predicts that at an amplification of 30 against a surface worth 0.05 in lift coefficient, flow control delivers 5.15 times the hinge's authority at Mach 0.2 and 56.7 percent of it at Mach 0.7, with the crossover at Mach 0.485. **None of those figures is a contractor estimate or a published wind tunnel result for this aircraft.** The amplification is swept rather than predicted, and the section headed Where the Framing Breaks Down names it as the weakest link.
+**The aerodynamic predictions are this article's own, and every one of them is conditional.** They are the altitude independence of a bleed-fed momentum coefficient and its fall with Mach number, derived in the section headed Sizing From First Principles, and the authority ratios and crossover Mach number displayed in the section headed The Authority Ratio, and Where a Jet Loses to a Hinge. **None of them is a contractor estimate or a published wind tunnel result for this aircraft.** The amplification is swept rather than predicted, and the section headed Where the Framing Breaks Down names it as the weakest link.
 
-**One of those predictions is framed so that two data points can test it.** Flying the same effector command at two altitudes at the same Mach number and comparing the control moments distinguishes the two possible sources of air, because engine bleed predicts a ratio near unity and a compressor held at constant shaft power predicts a moment that grows with altitude. **The record does not say which source the aircraft uses, so the prediction cannot yet be matched to the design, let alone to a flight.**
+**One of those predictions is framed so that two data points can test it**, being the comparison of control moments at two altitudes and one Mach number set out at the end of the section on the cancellation of altitude. **The record does not say which source of air the aircraft uses, so the prediction cannot yet be matched to the design, let alone to a flight.**
 
-**The ground evidence the programme rests on is tunnel evidence, and the strongest of it was taken at a higher Reynolds number than this aircraft flies at.** Seifert and Pack demonstrated separation control at chord Reynolds numbers as high as forty million, and named the lack of sufficient control authority at high speeds as a problem still to be overcome \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. This article computes that the X-65A would fly at 11.44 million at Mach 0.7 and thirty thousand feet. **Whether the tunnel result survives the transition to a flying aeroplane is the question the section headed The Research Question states, and no flight has yet been made to answer it.**
-
-**The comparison the aircraft is built to make is internal rather than against a ground prediction.** DARPA's description has the conventional surfaces serve as a baseline, with successive tests locking them down and using the effectors instead \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The section headed The Measurement Design argues that this difference, taken within one airframe, is what lets the programme return a number at all, and estimates that a second-order effector model of 315 terms needs about eleven flights. **At this article's date none of those flights has been flown, and this section can hold only the predictions.**
+**The ground evidence the programme rests on is tunnel evidence, and the strongest of it was taken at a higher Reynolds number than this aircraft flies at**, as the section headed Reynolds Number Is Not the Problem sets out. **The comparison the aircraft is built to make is internal rather than against a ground prediction**, being the difference within one airframe that the section headed The Measurement Design describes. **None of the flights it needs has been flown, so this section can hold only the predictions.**
 
 ## What the Data Changed, What It Would Change and What It Has Already Changed
 
@@ -957,7 +981,7 @@ DARPA's release opens by observing that in December 1903 the Wright brothers fle
 
 **This article's central arithmetic rests on a quantity it does not derive.** The amplification is treated as a parameter swept from ten to a hundred, drawn from the ranges the separation-control literature reports, and no attempt is made to predict it for this aircraft's geometry.
 
-**That is honest and it is also the weakest link.** The amplification depends on the pressure gradient, the boundary-layer state, the Reynolds number, the effector geometry, its position relative to the separation line and the excitation frequency. **None of those is public for the X-65A and several are precisely what the aircraft exists to measure.** So the authority ratios in this article are conditional statements of the form that if the amplification is thirty then the deficit at Mach 0.7 is 43.3 percent, and they are not predictions.
+**That is honest and it is also the weakest link.** The amplification depends on the pressure gradient, the boundary-layer state, the Reynolds number, the effector geometry, its position relative to the separation line and the excitation frequency. **None of those is public for the X-65A and several are precisely what the aircraft exists to measure.** So the authority ratios in this article are conditional statements of the form that if the amplification is thirty then the deficit at Mach 0.7 is the 43.3 percent displayed in the section on the authority ratio, and they are not predictions.
 
 ### Reynolds Number Is Not the Problem
 
@@ -983,7 +1007,7 @@ with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns
 
 ### What the Flight-Reynolds Primary Actually Reports, Which Is Better News
 
-**The same report quotes the oscillatory momentum coefficients it used, and its nomenclature defines the coefficient as the jet momentum over chord times dynamic pressure, which is this article's definition exactly.**
+**The same report quotes the oscillatory momentum coefficients it used, and its nomenclature defines the coefficient as the jet momentum over chord times dynamic pressure, which is this article's definition exactly.** \[[Seifert and Pack 2000][research_seifert_pack_2000]\]
 
 | Case the report quotes | Oscillatory momentum coefficient | This article's figure over it | Concentration still needed |
 |---|---|---|---|
@@ -993,9 +1017,13 @@ with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns
 | wall pressures, Reynolds 16 million, Mach 0.25 | 0.13 percent | 0.727 | 1.38 |
 | reduced frequency 0.5 | 0.32 percent | 0.295 | 3.39 |
 
-**The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches two of the five quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values**, which is a primary-sourced error bar and not an assumption of this article.
+**The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches two of the five quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values** \[[Seifert and Pack 2000][research_seifert_pack_2000]\], which is a primary-sourced error bar and not an assumption of this article. The third column is the computed coefficient over the quoted one and the fourth is its reciprocal where that exceeds one, so at the two ends of the range
+
+$$ \frac{0.0945}{0.03} = 3.150 , \qquad \frac{0.32}{0.0945} = 3.39 . $$
 
 **And at that report's own Mach number of 0.25 the bleed budget delivers 0.5579 percent, which is 1.74 times its highest quoted value.** So the air budget is not marginal at the condition where the method was demonstrated. **It is marginal only where this aircraft wants to fly**, and the factor between the two is 5.903, which is the Mach dependence derived above and nothing else.
+
+$$ C_\mu\left( 0.25 \right) = 0.000945066 \times \frac{G\left( 0.25 \right)}{G\left( 0.7 \right)} = 0.000945066 \times \frac{16.711}{2.8308} = 0.005579 , \qquad \frac{0.5579}{0.32} = 1.74 $$
 
 ### And the Primary Names This Article's Keystone as the Open Problem
 
@@ -1003,13 +1031,11 @@ with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns
 
 **That is the finding this article derived, named as unsolved twenty-five years before the X-65A was due to fly.** The authority ratio falls as the square of the Mach number because the engine delivers a roughly fixed momentum while the aerodynamic forces to be overcome grow with the square of the speed. **A primary that tested the method at this aircraft's Reynolds number, at a third of its Mach number, and concluded that high-speed control authority was the thing still to be found, is the strongest available independent support for the conclusion.**
 
-**It is also a caution about novelty.** This article derived the Mach dependence and its exact minimum, and did not derive the observation that high-speed authority is the binding constraint. **That observation is in the literature, in the report above.**
+**It is also a caution about novelty.** The Mach dependence and its exact minimum are derived here, and the observation that high-speed authority is the binding constraint was in the literature first, in the report above.
 
 ### The Bleed Penalty Is Asserted Rather Than Derived
 
-**Taking air from a compressor costs thrust and this article does not compute how much.** The mass-flow accounting is exact, being 8 percent of a core flow of 10.0 kilogram per second, which is a small fraction of total engine flow at a bypass ratio of 3.3. **The thrust consequence is not exact**, because it depends on the turbine work no longer available to drive the fan, on the cycle's rematching, and on the control schedule the engine's digital controller applies.
-
-**A defensible lower bound is that the thrust loss is at least the lost mass flow's share, and the true figure is larger.** This article declines to put a number on it. **The single-stage centrifugal architecture makes the answer worse than a multi-stage axial's would be**, because the bled air has had the whole compression done to it, and that much follows from the architecture the NASA report describes \[[FJ44 turbofan engine test][ref_fj44_test]\].
+**Taking air from a compressor costs thrust and this article bounds the cost from below without computing it.** The mass-flow accounting and the lower bound it gives are exact and are derived in the section on the engine. **The thrust consequence is not exact**, because it depends on the turbine work no longer available to drive the fan, on the cycle's rematching, and on the control schedule the engine's digital controller applies. **The single-stage centrifugal architecture makes the answer worse than a multi-stage axial's would be**, because the bled air has had the whole compression done to it, and that much follows from the architecture the NASA report describes \[[FJ44 turbofan engine test][ref_fj44_test]\].
 
 ### Suction Is in the Official Definition and Not in This Analysis
 
@@ -1045,7 +1071,7 @@ A suction device removes low-momentum air rather than adding high-momentum air, 
 
 | Probe | Results read | On subject | What the rest were |
 |---|---|---|---|
-| `CRANE` | 6 | 0 | a logging-crane fatality, a mobile-gantry-crane fatality, a civil-engineering journal, `CRANE-tools.org` and two collections of nursery rhymes |
+| `CRANE` | 6 | 0 | a logging-crane fatality, a mobile-gantry-crane fatality, a civil-engineering journal, `CRANE-tools.org`, an 1878 book of rhymes and tunes, and Walter Crane's 1886 `A romance of the three Rs` |
 | `novel effectors` | 10 | 1 | fungal, oomycete and oncological effectors, the one exception being a 2026 paper on hypersonics and directed energy |
 | `effectors` | 9 | 1 | TAL effectors, rust effectors, smut fungi and the effectors of plant-defence suppression |
 | `end effector` | 10 | 0 | industrial robot wrists and upper-limb kinematics |
@@ -1061,7 +1087,7 @@ A suction device removes low-momentum air rather than adding high-momentum air, 
 | `X-65` | 10 | 0 | front matter and acknowledgements |
 | `active flow control` | 10 | 10 | nothing off subject |
 | `sweeping jet actuator` | 10 | 10 | nothing off subject |
-| `hingeless control` | 10 | 10 | nothing off subject in the bibliographic index, **and 72 rotorcraft records on the reports server** |
+| `hingeless control` | 10 | 7 | a dictionary entry for the word and two papers on hingeless rotors, **and 72 records on the reports server, 61 of them with rotorcraft vocabulary in the title** |
 
 **Three of those rows matter to anyone searching this subject.** The programme's acronym finds nothing aeronautical. The word `effector` without qualification finds mostly biology. **And the article's own keystone parameter is almost absent from titles**, which is the next subsection.
 
@@ -1073,13 +1099,13 @@ A suction device removes low-momentum air rather than adding high-momentum air, 
 
 ### A Homonym That Depends on Which Registry You Ask
 
-**`hingeless control` returned ten results from the bibliographic index of which ten were about flow-control effectors, and 72 from the reports server of which 61 carry rotorcraft vocabulary in the title.**
+**`hingeless control` returned ten results from the bibliographic index, of which seven concern control without a hinge, and 72 from the reports server of which 61 carry rotorcraft vocabulary in the title.** Six of the seven are flow-control effectors on wings and the seventh is the hingeless flight control of a smart projectile by miniature actuators. The other three are a dictionary entry for the word itself and two papers on hingeless rotors, one on a circulation-control rotor blade and one on higher harmonic control, so the rotor meaning reaches even the journal index.
 
 Eleven do not carry rotorcraft vocabulary, and most of those are rotorcraft work under other words, being higher harmonic control, flap-lag stability in forward flight, ground resonance and a V and short take-off conference. **Two are not rotorcraft at all.** They are the DARPA, Air Force Research Laboratory, NASA and Northrop Grumman Smart Wing programme, **which shares the hingeless vocabulary because it is about a wing with no discrete moving surface** and is genuinely adjacent prior art.
 
 A hingeless rotor is a blade retention without flap and lag hinges, which is a structural subject with a large literature from the 1960s and 1970s. A hingeless control effector is an aerodynamic surface replaced by a jet. **The same two words name two unrelated subjects and which one you get depends on which registry you ask.**
 
-**Two registries can hold different meanings for one phrase, and not only different literatures.** The survey therefore excludes rotorcraft, as the section on what is out of scope records. **The phrase that finds this subject differs by registry**, being `hingeless control` in the journal literature and `control effectors` in the reports, and the second returns the aerodynamic control effectors, the passive porosity effectors and the active flow effectors.
+The survey therefore excludes rotorcraft, as the section on what is out of scope records. **The phrase that finds this subject differs by registry**, being `hingeless control` in the journal literature and `control effectors` in the reports, and the second returns the aerodynamic control effectors, the passive porosity effectors and the active flow effectors.
 
 ### Which Thresholds Are Second-Hand, and Which Originals Can Be Read
 
@@ -1087,9 +1113,7 @@ A hingeless rotor is a blade retention without flap and lag hinges, which is a s
 
 **Nine originals are identified and four of them, all agency reports, are read in full.** **Every journal item the review names is behind a paywall**, so a first-hand reading is available only where the work was also published as a report. **That asymmetry favours the report literature wherever a first-hand reading matters.**
 
-**The most consequential of the four bears on the Reynolds-number argument.** A report on separation control at flight Reynolds numbers, read in full, demonstrated the method at chord Reynolds numbers as high as forty million and quotes the oscillatory momentum coefficients it used \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. The report shows the phenomenon demonstrated above this aircraft's Reynolds number, not below it, **so the low Reynolds numbers of the threshold experiments support only the narrow claim made in the section on Reynolds number above.**
-
-**And it names this article's own keystone as an open problem**, proposing among its future directions that the lack of sufficient control authority at high speeds be overcome. **The constraint this article derives was therefore named in the literature first.**
+**The most consequential of the four is the report on separation control at flight Reynolds numbers** \[[Seifert and Pack 2000][research_seifert_pack_2000]\], whose bearing on the Reynolds-number argument, and whose naming of high-speed control authority as an open problem, are set out in the section headed Where the Framing Breaks Down.
 
 ### What a Bleed Costs Is Not in the Public Registries
 
@@ -1141,7 +1165,7 @@ A hingeless rotor is a blade retention without flap and lag hinges, which is a s
 
 ## Out of Scope
 
-**The rotorcraft literature, deliberately.** Circulation control on a stopped rotor was flown, and the X-Wing programme is the obvious ancestor of a vehicle controlled by blowing rather than by surfaces. **The survey excludes rotorcraft because `hingeless` on the reports server is two hundred records of rotor hubs**, and the exclusion takes the X-Wing with it. That is a cost of a necessary guard and it is stated rather than hidden.
+**The rotorcraft literature, deliberately.** Circulation control on a stopped rotor was flown, and the X-Wing programme is the obvious ancestor of a vehicle controlled by blowing rather than by surfaces. **The survey excludes rotorcraft because `hingeless` on the reports server returns 201 records, 189 of them with rotor or rotary-wing vocabulary in the title**, and the exclusion takes the X-Wing with it. That is a cost of a necessary guard and it is stated rather than hidden.
 
 **Shock and boundary-layer interaction control.** The survey excludes it deliberately. The subject is supersonic inlets and hypersonic ramps, and the X-65A is limited to Mach 0.7. **Excluding it is a judgement and the judgement is recorded.**
 
@@ -1173,7 +1197,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 
 **None of it has flown.** The programme has asked for 200.507 million dollars across seven budget years and expects 179.416 million, has been funded below its request in every year since fiscal year 2021 at a mean shortfall of 16.29 percent, promised its critical design review in four consecutive books for three different fiscal years, and was paused and restructured into an arrangement the federal award record cannot represent. **Its period of performance expired 69 days before this article's dateline with the fuselage unfinished.**
 
-**The last thing to say is about the programme's name.** It is called CRANE, for Control of Revolutionary Aircraft with Novel Effectors, and its own acronym returns a logging-crane fatality and two books of nursery rhymes. The phrase `novel effectors` returns fungal pathogens. **The words that find this aircraft's actual prior art are `hingeless control effectors`, which no document this article read from the programme uses**, and even those mean helicopter rotor hubs if you ask the wrong registry. **An aircraft meant to break a century-old paradigm was given a name under which the work it descends from cannot be found.**
+**The last thing to say is about the programme's name.** It is called CRANE, for Control of Revolutionary Aircraft with Novel Effectors, and its own acronym returns a logging-crane fatality, a book of rhymes and an illustrated book by Walter Crane. The phrase `novel effectors` returns fungal pathogens. **The words that find this aircraft's actual prior art are `hingeless control effectors`, which no document this article read from the programme uses**, and even those mean helicopter rotor hubs if you ask the wrong registry. **An aircraft meant to break a century-old paradigm was given a name under which the work it descends from cannot be found.**
 
 ## References
 

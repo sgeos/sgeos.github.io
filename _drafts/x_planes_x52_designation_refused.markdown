@@ -338,7 +338,7 @@ the end of it.**
 
 **So the request in 2006 was not unlucky in some general way.** It asked for the one number in the low range of the sequence that is attached to the longest-serving combat aircraft in the history of the thing. **Had the X series reached 52 in 1948 the answer would have been yes, and had it reached 52 in 2048 the answer would probably still be no.**
 
-**The aeroplane whose number blocked the X-52 appears in twelve of the fifty-two articles that precede it in this series, which is 23.1 percent of them, across 27 mentions.** It carried the [X-15][related_post_a312_north_american_x15], the [X-24][related_post_a321_martin_marietta_x24], the [X-38][related_post_a335_scaled_composites_x38], the [X-43][related_post_a340_micro_craft_x43] and the [X-51][related_post_a348_boeing_x51] aloft. **The article immediately before this one is about an aeroplane a B-52 dropped**, and the number immediately after that aeroplane's was refused because of the aeroplane that dropped it.
+**The aeroplane whose number blocked the X-52 appears in fourteen of the fifty-two articles that precede it in this series, which is 26.9 percent of them, across 31 mentions.** It carried the [X-15][related_post_a312_north_american_x15], the [X-24][related_post_a321_martin_marietta_x24], the [X-38][related_post_a335_scaled_composites_x38], the [X-43][related_post_a340_micro_craft_x43] and the [X-51][related_post_a348_boeing_x51] aloft. **The article immediately before this one is about an aeroplane a B-52 dropped**, and the number immediately after that aeroplane's was refused because of the aeroplane that dropped it.
 
 ### What Was Lost Was Nothing, and That Is the Point
 

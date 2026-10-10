@@ -23,7 +23,7 @@ The X-66A was allocated on 3 May 2023 to Boeing, with the engines cell reading `
 That much is widely reported. What is not reported is that the wing the demonstrator exists to prove folds at **118 feet of span**, and that **118 feet is exactly where Airplane Design Group III of the Federal Aviation Administration, hereafter FAA, ends**. The International Civil Aviation Organization, hereafter ICAO, states the equivalent line in metres
 at **36**, which is **118.1102 feet**, and the FAA's own circular prints
 both while declaring that the customary value governs. **The two renderings differ by
-1.3228 inch and the fold station sits inside that rounding.** Unfolded the span is **170 feet**, which clears the next boundary up by **12 inch** by the FAA's reckoning and **7.24 inch** by ICAO's. Both figures come from the final reports of Subsonic Ultra Green Aircraft Research, the research programme whose acronym is SUGAR and which this article cites repeatedly by that short form \[[SUGAR Phase IV final report][ref_cr_phase4]\] \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\].
+1.3228 inch and the fold station sits inside that rounding.** Unfolded the span is **170 feet**, which clears the next boundary up by **12 inch** by the FAA's reckoning and **7.24 inch** by ICAO's, margins the section headed The Gate Box derives. Both figures come from the final reports of Subsonic Ultra Green Aircraft Research, the research programme whose acronym is SUGAR and which this article cites repeatedly by that short form \[[SUGAR Phase IV final report][ref_cr_phase4]\] \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\].
 
 **An aeroplane wedged into a two-letter gap of an aerodrome reference code is not an aerodynamic object. It is an infrastructural one**, and the question this article asks is what that costs.
 
@@ -49,7 +49,7 @@ The absence is not carelessness. **The row was allocated on 3 May 2023 and the e
 engineering lives** and where a statement about the X-66A is silently a statement about
 something else.
 
-**And this designation has no entry in the Directory of U.S. Military Rockets and Missiles.** Its Appendix 4 carries the X-63 and the X-64 and the X-65 and stops \[[Aurora X-65 CRANE directory entry][ref_ds_x65]\]. That is correct behaviour rather than a gap, because the X-66A is a civil transport demonstrator sponsored by a civil agency and belongs to no missile directory. **The X-49 also has no entry, for a different reason, which is worth separating.** The X-49 had no entry because the compiler had not written one. The X-66A has none because it is the wrong kind of aircraft for that volume.
+**And this designation has no entry in the Directory of U.S. Military Rockets and Missiles.** Its Appendix 4 carries the X-63 and the X-64 and the X-65 and stops \[[Aurora X-65 CRANE directory entry][ref_ds_x65]\]. That is correct behaviour rather than a gap, because the X-66A is a civil transport demonstrator sponsored by a civil agency and belongs to no missile directory.
 
 ## Programme Origin, and an Agreement With No Pause In It
 
@@ -110,11 +110,13 @@ Boeing announced on 24 April 2025 that development of the flight demonstrator wo
 
 **The pause landed in the narrowest possible gap in that schedule.** Milestone nine fell due in February 2025 and the next milestone was **number 10, the Wing / Strut Critical Design Review, due May 2025 and worth 25 million dollar**. Through the February milestone the agreement had reached **153 million dollar**, which is **36.00 percent** of its total.
 
+$$ \frac{\displaystyle\sum_{i \le 9} \mu_i}{\displaystyle\sum_{i} \mu_i} = \frac{153.00}{425.00} = 0.3600 $$
+
 **So the programme stopped immediately before the review that would have frozen the wing and strut for fabrication, and the thing it announced it would keep doing is wing research.** That is not a coincidence and it is not hidden. It is what a partner does when it has learned what it wanted from a design phase and does not want the build.
 
 ## What the Federal Award Record Knows About a 425 Million Dollar Aeroplane
 
-The previous article in this series found that the award record told the X-65A's story better than the press did, naming three competitors, pricing them and dating a downselect that no narrative account gave \[[X-65 CRANE][related_post_a362_aurora_x65_crane]\]. **This article asked the same record the same questions and got the opposite answer, and the opposite answer is the finding.**
+For the X-65A the federal award record tells the story better than the press does, naming three competitors, pricing them and dating a downselect that no narrative account gives \[[X-65 CRANE][related_post_a362_aurora_x65_crane]\]. **For the X-66A the same record is almost empty, and the emptiness is the finding.**
 
 Searching the award record for the project's own name returns exactly **one** contract \[[USAspending][ref_usaspending]\].
 
@@ -149,8 +151,7 @@ Three of those are worth naming. **NNL17AA46T, at 11,993,610.00 dollar from Dece
 ## What Three Budget Books Said
 
 The programme's money appears in NASA's Congressional Justifications only at the programme level. The Integrated Aviation Systems Program table breaks out the Low Boom Flight Demonstrator and the Electrified Powertrain Flight Demonstration by name and folds everything else, the Sustainable Flight Demonstrator included, into a line called Other Projects \[[FY2024 justification][ref_nasa_cj_2024]\] \[[FY2025 justification][ref_nasa_cj_2025]\]. **So none of the three budget documents read for this article states what this project costs per
-year.** Reading three successive books against one another is the route this article took to see what
-happened to the money, and what they show is this.
+year.** Read against one another, the three successive books show what happened to the money.
 
 | Fiscal year | FY2024 justification | FY2025 justification | FY2026 supplement |
 |---|---|---|---|
@@ -162,8 +163,7 @@ happened to the money, and what they show is this.
 | 2029 | -- | 342.0 | 110.0 |
 | 2030 | -- | -- | 70.0 |
 
-**A revision between two budget books is a fractional change in a projection of the same year**, and
-writing it down is what makes the comparison a measurement rather than an impression.
+**A revision between two budget books is a fractional change in a projection of the same year.**
 
 $$ \text{revision} = \frac{\mathcal{P}_{\mathrm{new}} - \mathcal{P}_{\mathrm{old}}}{\mathcal{P}_{\mathrm{old}}} $$
 
@@ -211,6 +211,7 @@ headline over it.**
 | $\mathcal{B}$ | bending-material integral, braced or unbraced | dimensionless |
 | $b$ | wing span, tip to tip | foot |
 | $b_f$ | folded wing span | foot |
+| $b_{\mathrm{bound}}$ | a span bound of an aerodrome reference code, in feet | foot |
 | $C_D$ | total drag coefficient at cruise | dimensionless |
 | $C_{D,0}$ | parasite drag coefficient, the incompressible zero-lift part | dimensionless |
 | $C_{D,c}$ | compressibility drag coefficient, which this report's convention also carries the laminar-flow credit | dimensionless |
@@ -221,6 +222,7 @@ headline over it.**
 | $c_r$ | root chord | inch |
 | $c_T$ | thrust specific fuel consumption | per hour |
 | $\delta$ | induced-drag fraction of total cruise drag | dimensionless |
+| $\Delta$ | span margin against a reference-code bound | inch |
 | $E$ | Young's modulus of the cap material in the fibre direction | pound per square inch |
 | $e$ | airplane efficiency factor for drag due to lift | dimensionless |
 | $\varepsilon$ | fractional error in aspect ratio, measured logarithmically | dimensionless |
@@ -229,6 +231,7 @@ headline over it.**
 | $\mathcal{F}$ | equivalent flat plate area | square foot |
 | $g_0$ | standard gravity, 9.80665 | metre per second squared |
 | $h$ | geopotential altitude | metre |
+| $h^{\ast}$ | geopotential altitude at which the drag buildup's lift coefficient holds | metre |
 | $h_c$ | separation between the centroids of the upper and lower caps | inch |
 | $h_{\mathrm{t}}$ | tropopause altitude, 11,000 | metre |
 | $\mathcal{I}$ | second moment of area of the strut section | inch to the fourth |
@@ -257,6 +260,7 @@ headline over it.**
 | $P_{\mathrm{cr}}$ | Euler critical buckling load of the strut | pound |
 | $\mathcal{P}$ | a budget projection for one fiscal year | million dollar |
 | $p$ | ambient static pressure | pascal |
+| $p^{\ast}$ | ambient pressure at which the drag buildup's lift coefficient holds | pascal |
 | $p_{\mathrm{sl}}$ | sea-level standard pressure, 101325 | pascal |
 | $\Phi$ | Breguet correction factor, $Xe^{-X}/(1-e^{-X})$ | dimensionless |
 | $q$ | free-stream dynamic pressure | pound per square foot |
@@ -299,9 +303,7 @@ Substituting gives **19.5652**, which agrees with the stated 19.565 to the last 
 ### The Cruise Condition, Which Is Not Self-Consistent
 
 **The drag buildup names an altitude, a Mach number and a lift coefficient, and writing down the
-lift equation shows that the three do not hold together at the aeroplane's own weight.** It is
-the clearest case in the article of a relation that has to be displayed before a defect can be
-seen.
+lift equation shows that the three do not hold together at the aeroplane's own weight.**
 
 The standard atmosphere is needed first. Let $h$ be geopotential altitude in metre, $T_{\mathrm{sl}}$
 and $p_{\mathrm{sl}}$ the sea-level standard temperature and pressure, $\lambda_a$ the troposphere
@@ -324,8 +326,7 @@ for a unit error. The lift equation then fixes the lift coefficient.
 
 $$ W = C_L \, q \, S \qquad \Longrightarrow \qquad C_L = \frac{W}{q S} $$
 
-**Working that at the buildup's own stated altitude of 40,000 feet and Mach 0.80 gives
-the worked example this section owes a reader.** The pressure is **18,753.9 pascal**, the speed
+**At the buildup's own stated altitude of 40,000 feet and Mach 0.80 the three disagree.** The pressure is **18,753.9 pascal**, the speed
 of sound **295.07 metre per second**, the true airspeed **458.9 knot**, and the dynamic
 pressure **175.474 pound per square foot**. At the maximum take-off weight of 145,000 pound
 over 1477.109 square feet that gives
@@ -336,8 +337,13 @@ $$ C_L = \frac{W}{qS} = 0.5594 $$
 condition. **Either the lift coefficient belongs to a different altitude, or it belongs to a weight
 24.2 percent above the maximum take-off weight.**
 
-**Inverting for the altitude at which they do hold settles which.** Solving $C_L = W/(qS)$ for $h$
-at maximum take-off weight and Mach 0.80 gives **44,515 feet**, and the
+**Inverting for the altitude at which they do hold settles which.** At maximum take-off weight and
+Mach 0.80 the lift equation fixes the pressure, and since that pressure lies below the tropopause
+value of 22,632 pascal, the stratospheric branch of the atmosphere returns the altitude $h^{\ast}$.
+
+$$ p^{\ast} = \frac{2W}{\gamma M^2 S C_L} = 315.28 \ \text{lbf/ft}^2 = 15095.6 \ \text{Pa}, \qquad h^{\ast} = h_{\mathrm{t}} + \frac{R_a T(h_{\mathrm{t}})}{g_0}\ln\frac{p(h_{\mathrm{t}})}{p^{\ast}} = 13568.1 \ \text{m} $$
+
+That is **44,515 feet**, and the
 report's own optimum cruise altitude at maximum take-off weight, from a different table in the same
 document, is **44,437 feet**. **The two differ by 78 feet, which is
 0.175 percent.**
@@ -518,7 +524,7 @@ $$ \nu = \frac{d \ln W}{d \ln A}, \qquad \frac{d \ln m_f}{d \ln A} = \delta\left
 
 $$ \nu^{*} = \tfrac{1}{2} $$
 
-**At fixed wing area and fixed cruise condition, the fuel-burn-optimal aspect ratio is the one at which a one percent increase in aspect ratio costs exactly half a percent in aircraft weight.** It does not depend on the span efficiency, on the parasite drag, on the altitude, on the Mach number, on the range, on the specific fuel consumption, or on the absolute weight of anything. **The induced-drag fraction $\delta$ appears in the slope and cancels out of the condition.** A pure number falls out of a problem with a dozen parameters in it, and that is the kind of result worth looking for.
+**At fixed wing area and fixed cruise condition, the fuel-burn-optimal aspect ratio is the one at which a one percent increase in aspect ratio costs exactly half a percent in aircraft weight.** It does not depend on the span efficiency, on the parasite drag, on the altitude, on the Mach number, on the range, on the specific fuel consumption, or on the absolute weight of anything. **The induced-drag fraction $\delta$ appears in the slope and cancels out of the condition.**
 
 The mechanism is easy to state once seen. At fixed area and fixed cruise condition the induced drag
 is proportional to $W^2/A$, and a stationary point of that is a stationary point of its logarithm.
@@ -618,6 +624,11 @@ $$ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\righ
 | 10 percent | 0.3066 |
 | 20 percent | 1.226 |
 
+At the design value the stationary aspect ratio is 28.3 percent above the configuration's, and the
+expansion gives the penalty.
+
+$$ \varepsilon = \ln\frac{25.100}{19.565} = 0.2491, \qquad \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,(0.6131)\,(0.2491)^2 = 0.0190 $$
+
 **Being 28.3 percent below optimum costs 1.90 percent in cruise fuel.** That is the number that changes the meaning of everything above, and the subsection headed Dropping the Linearisation revises it downward again by dropping the linearisation it rests on.
 
 ### Dropping the Linearisation, Because This Aeroplane's Fuel Fraction Is Twenty Percent
@@ -692,7 +703,11 @@ deliberately over-generous weight accounting reaches 0.2749, which is short by
 **8.07 percent** rather than by the margin the linearised figures implied. The
 defensible readings are short by **74.10 percent** counting bending material
 alone and **31.05 percent** counting the whole wing and truss at the three-halves
-power. **An article that only reported the linearised numbers would be overstating its own case.**
+power. Each shortfall is the fractional distance of an elasticity below the exact target.
+
+$$ 1 - \frac{\nu}{\nu^{\ast}}\,: \qquad 1 - \frac{0.2749}{0.299033} = 0.0807, \qquad 1 - \frac{0.07746}{0.299033} = 0.7410, \qquad 1 - \frac{0.20618}{0.299033} = 0.3105 $$
+
+**An article that only reported the linearised numbers would be overstating its own case.**
 
 ### The Report's Own Predecessor Computed the Same Thing by a Different Method and Got the Same Answer
 
@@ -709,12 +724,9 @@ buildup and a group weight statement. The other is a design optimisation sweepin
 **They agree on the sign, they agree on the magnitude, and the computed figure falls inside the
 bound the report states.**
 
-**That agreement is closer than the linearised treatment gives, and the difference is worth being
-explicit about.** The linearised
-expansion puts the penalty at 1.90 percent, which is **above** the report's bound. Carrying the
-Breguet exponential through takes it to 0.9481
-percent, which is **below** the bound. **The apparent discrepancy between the expansion and the
-optimisation is an artefact of the linearisation.**
+**The linearised expansion puts the penalty at 1.90 percent, which is above the report's bound, so
+the apparent discrepancy between the expansion and the optimisation is an artefact of the
+linearisation.**
 
 What remains is that the Phase II optimisation re-sized the whole aeroplane with the take-off field
 length, the maximum range and in some cases the available fuel volume active as constraints, which a
@@ -764,7 +776,11 @@ the metric column is not an independent standard. The circular says so in its ow
 **So 118 feet and 36 metre are the same boundary, written twice, and the circular declares which
 writing governs.** They are not equal. **118 feet is 35.9664 metre and 36 metre is
 118.1102 feet, a difference of 1.3228 inch**, which is exactly the rounding
-the circular warns about. ICAO's Annex 14 states its limit in metres natively, so **the same fold
+the circular warns about.
+
+$$ 118 \times 0.3048 = 35.9664 \ \text{m}, \qquad \frac{36}{0.3048} = 118.1102 \ \text{ft}, \qquad 12\,(118.1102 - 118) = 1.3228 \ \text{in} $$
+
+ICAO's Annex 14 states its limit in metres natively, so **the same fold
 station clears Code C and does not reach Group III**, and the apparent latitude between them is an
 artefact of a soft conversion rather than a disagreement between two authorities.
 
@@ -780,7 +796,10 @@ The Phase IV report gives the fold station for the Mach 0.80 wing in one sentenc
 
 \[[SUGAR Phase IV final report][ref_cr_phase4]\]
 
-**Putting both spans against both regulators gives the tightest numbers in this article.**
+**Putting both spans against both regulators gives the tightest numbers in this article.** Each
+margin is the bound less the span in inches, with ICAO's Code D bound of 52 metre converted to feet.
+
+$$ \Delta = 12\,(b_{\mathrm{bound}} - b), \qquad 12\left(\frac{52}{0.3048} - 170\right) = 7.24, \qquad 12\,(171 - 170) = 12, \qquad 12\,(118 - 118) = 0 $$
 
 | Configuration | Span, foot | ICAO bound, foot | ICAO margin, inch | FAA bound, foot | FAA margin, inch |
 |---|---|---|---|---|---|
@@ -795,12 +814,9 @@ The Phase IV report gives the fold station for the Mach 0.80 wing in one sentenc
 
 \[[airport operations memorandum][ref_tm_airport_ops]\]
 
-**Less than 118 feet, and the wing folds at 118 feet.** Whether that is a rounding in the Phase IV report, a detail of an inch that nobody wrote down, or a genuine gap between two NASA documents is **not settled by the record**, and this article records the discrepancy rather than resolving it. **What is settled is that ICAO's bound is 1.3228 inch looser**, since
-36 metre is 118.1102 feet, so the same fold station clears Code C by
-**1.32 inch** while clearing Group III by nothing at all. **The fold sits inside the
-rounding, and the circular's own front matter says the rounding does not govern.**
+**Less than 118 feet, and the wing folds at 118 feet.** Whether that is a rounding in the Phase IV report, a detail of an inch that nobody wrote down, or a genuine gap between two NASA documents is **not settled by the record**, and this article records the discrepancy rather than resolving it. Under ICAO's metric bound the same station clears Code C by the 1.32 inch the table gives.
 
-The unfolded span is less dramatic and still tight. It clears ICAO's Code D bound of 170.6037 feet by **7.24 inch** and the FAA's Group IV bound of 171 feet by **12 inch**, which is one foot exactly. In metric terms the two spans are **51.816 metre** and **35.9664 metre**, leaving **0.1840 metre** and **0.0336 metre** against ICAO's two bounds, and those are the figures a European reader will recognise.
+The unfolded span is less dramatic and still tight, at the 7.24 and 12 inch the table gives. In metric terms the two spans are **51.816 metre** and **35.9664 metre**, leaving **0.1840 metre** and **0.0336 metre** against ICAO's two bounds, and those are the figures a European reader will recognise.
 
 **So the aeroplane is wedged into the gap between two code letters.** It operates on a Code D runway with its wings out and parks at a Code C gate with its wings folded. The Phase II report spells out the operational consequence and does not minimise it.
 
@@ -858,7 +874,7 @@ semispan**, and the March 2025 technical memorandum on airport operations notes 
 
 Reading the airport-operations memorandum closely shows that span is one of five quantities and that the others are not trivially satisfied \[[airport operations memorandum][ref_tm_airport_ops]\]. The reference codes turn on approach speed for the Aircraft Approach Category, on wingspan and tail height for the Airplane Design Group, and on the undercarriage dimensions for the Taxiway Design Group, and the memorandum's conceptual model is classified **C-IV-3 unfolded and C-III-3 folded**. **So folding the wing does not merely reduce a number. It changes the aeroplane's design group**, and that is what buys the gate.
 
-Two details in that memorandum are worth separating from the Phase IV configuration this article has otherwise used, because **they are a different aeroplane**. Its conceptual model has a span of 155.2 feet, a wing area of 1,231.2 square feet and a maximum take-off weight of 132,843 pound, against the Phase IV configuration's 170 feet, 1477.109 square feet and 145,000 pound. **Its folded span is nonetheless the same 118 feet.** That is the strongest available evidence that the folded span is a fixed infrastructural input while everything else about the aeroplane moves, and this article treats it as such.
+Two details in that memorandum are worth separating from the Phase IV configuration this article has otherwise used, because **they are a different aeroplane**. Its conceptual model has a span of 155.2 feet, a wing area of 1,231.2 square feet and a maximum take-off weight of 132,843 pound, against the Phase IV configuration's 170 feet, 1477.109 square feet and 145,000 pound \[[airport operations memorandum][ref_tm_airport_ops]\]. **Its folded span is nonetheless the same 118 feet.** That is the strongest available evidence that the folded span is a fixed infrastructural input while everything else about the aeroplane moves, and this article treats it as such.
 
 ## What the Truss Buys, and What It Costs
 
@@ -898,9 +914,9 @@ $$ \mathcal{B}(\eta) = \int_0^1 \frac{\left|\mathcal{M}_{\mathrm{braced}}(u)\rig
 | 0.60 | 0.5147 | 0.1396 |
 | 0.70 | 0.4076 | 0.1531 |
 
-**The integral has a minimum, and it is shallow.** The best station among those computed is **0.60** of semispan, at which the bending-material integral falls to a factor of **0.1396**, which is **14.0 percent** of the cantilever value. Attaching further inboard leaves too much outboard wing unbraced and attaching further outboard leaves too much inboard moment, and between forty and seventy percent of semispan the penalty for being in the wrong place is small.
+**The integral has a minimum, and it is shallow.** The best station among those computed is **0.60** of semispan, at which the bending-material integral falls to a factor of **0.1396**, which is **14.0 percent** of the cantilever value by the relief ratio displayed above. Attaching further inboard leaves too much outboard wing unbraced and attaching further outboard leaves too much inboard moment, and between forty and seventy percent of semispan the penalty for being in the wrong place is small.
 
-**This is an upper bound on what a brace can do and the real brace does less, for four reasons that are all in the primary record.** The prop above is rigid and a real strut is elastic. The prop above is vertical and the real strut rises at **14.43 degrees**, which the next section shows is expensive. The beam above has uniform stiffness and a real tapered wing is far less stiff outboard, so its attachment deflects more and the prop takes a different share. And the prop above introduces a reaction and nothing else, whereas a real strut attached to a wing that twists under load introduces bending into itself, which the Phase IV report addressed with a swivel joint.
+**This is an upper bound on what a brace can do and the real brace does less, for four reasons that are all in the primary record.** The prop above is rigid and a real strut is elastic. The prop above is vertical and the real strut rises at **14.43 degrees** \[[SUGAR Phase IV final report][ref_cr_phase4]\], which the next section shows is expensive. The beam above has uniform stiffness and a real tapered wing is far less stiff outboard, so its attachment deflects more and the prop takes a different share. And the prop above introduces a reaction and nothing else, whereas a real strut attached to a wing that twists under load introduces bending into itself, which the Phase IV report addressed with a swivel joint.
 
 > the inboard strut attachment swivel joint concept enables the strut to carry axial loads while avoiding strut bending induced from wing twist as the wing lifts during flight, significantly simplifying the construction of the main strut
 
@@ -1117,9 +1133,6 @@ A thin high-aspect-ratio wing with a small leading-edge radius has more leading 
 
 ### Aeroelasticity, and a Correction That Turned a Forty Percent Margin Negative
 
-**The aeroelastic passages of the primary record are the ones this article found hardest to
-summarise, because they are a story about a model rather than about an aeroplane.**
-
 Phase II identified novel aeroelastic effects as one of two primary risks and addressed them with an analytical model and an aeroelastic wind-tunnel test in the Transonic Dynamics Tunnel at NASA Langley. Its conclusion was favourable and carefully bounded.
 
 > Both flutter speed and mechanism were found to be analytically predictable, and the weight increment associated with flutter margin was found to be small enough to maintain the aerodynamic advantage of increased span.
@@ -1161,12 +1174,10 @@ The second of Phase II's two primary risks was the transonic interference betwee
 
 \[[SUGAR Phase IV final report][ref_cr_phase4]\]
 
-The published drag buildup makes the scale of the strut's total contribution visible, which is
-useful because the interference figure is only the penalty and not the whole charge. In the
-equivalent flat-plate area accounting the strut and jury together come to **3.4500 square feet**
-of the Mach 0.80 configuration's **27.7722 square feet** total, which is **12.422
-percent of the parasite drag area** and a drag coefficient of **0.0023356** on its own, against
-the wing's 9.6340 and the fuselage's 8.3505 \[[SUGAR Phase IV final report][ref_cr_phase4]\]. **So
+The interference figure is only the penalty and not the whole charge. The strut and jury's
+equivalent flat-plate area, which the subsection on the induced drag shows to be 12.422 percent of
+the parasite drag area, stands against the wing's 9.6340 square feet and the fuselage's 8.3505
+\[[SUGAR Phase IV final report][ref_cr_phase4]\]. **So
 the truss costs an eighth of the parasite drag and the interference at the junction is a tenth of
 that again.**
 
@@ -1239,7 +1250,7 @@ denominator.
 
 ## What the Thirty Percent Means, Measured Against What
 
-**The figure every account of this programme leads with is thirty percent, and the primary record contains three different numbers, each correct against a different baseline.** Setting them out together is what a reader who has only seen the headline needs.
+**The figure every account of this programme leads with is thirty percent, and the primary record contains three different numbers, each correct against a different baseline.**
 
 ### The Wing Alone, Against an Advanced Conventional Aeroplane
 
@@ -1261,7 +1272,7 @@ The report's own comparison table runs the Mach 0.80 configuration against a rep
 | Mach 0.745 truss-braced wing | 19.565 | 39.31 | 57.04 |
 | Mach 0.80 truss-braced wing | 19.565 | 40.39 | 55.86 |
 
-**The whole package against the old aeroplane is 55.86 percent, not thirty**, and the report says so in terms, attributing a 55.9 percent reduction relative to a best-in-class single-aisle transport typical of the 2008 fleet.
+**The whole package against the old aeroplane is 55.86 percent, not thirty**, by the reduction $r_i$ displayed in the next subsection, and the report says so in terms, attributing a 55.9 percent reduction relative to a best-in-class single-aisle transport typical of the 2008 fleet.
 
 **So the thirty percent sits between two published numbers and is neither of them.** It is larger than the 7.2 percent the wing earns against an advanced conventional baseline and smaller than the 55.86 percent the whole package earns against a two-decade-old one. **The ratio of the headline to the wing's own contribution is 4.17**, which is the honest statement of how much of the thirty percent is about the shape of the aeroplane and how much is about everything else being new as well.
 
@@ -1299,7 +1310,7 @@ of them is what an airline pays, **and they differ by exactly the factor above**
 
 **No X-66A has flown and none exists.** The record at the article's dateline consists of a donor airframe, a modification programme stopped before its wing was committed to fabrication, and an agreement with two thirds of its milestones unexercised.
 
-What was actually accomplished is nonetheless substantial and is not flight test. **The donor MD-90 was reactivated and ferried from Victorville to Palmdale in August 2023**, which is the agreement's Milestone 5, named *Aircraft Reactivation* and due February 2024, so that step ran roughly six months ahead of its milestone date \[[Boeing arrival release][ref_boeing_arrival_2023]\] \[[Funded Space Act Agreement][ref_fsaa]\]. The wings and nineteen fuselage sections were to be removed and the fuselage shortened. Through the February 2025 milestone the agreement had reached **nine of 27 milestones** and **36.00 percent** of its value.
+What was actually accomplished is nonetheless substantial and is not flight test. **The donor MD-90 was reactivated and ferried from Victorville to Palmdale in August 2023**, which is the agreement's Milestone 5, named *Aircraft Reactivation* and due February 2024, so that step ran roughly six months ahead of its milestone date \[[Boeing arrival release][ref_boeing_arrival_2023]\] \[[Funded Space Act Agreement][ref_fsaa]\]. The wings and nineteen fuselage sections were to be removed and the fuselage shortened. Through the February 2025 milestone the agreement had reached **nine of 27 milestones**, the share of its value computed in the subsection headed The Word the Agreement Does Not Contain.
 
 **The wind-tunnel record, by contrast, is long and is the programme's real output.** Phase II tested an aeroelastic model in the Transonic Dynamics Tunnel. Phase III tested a transonic performance model in the Ames eleven-foot transonic wind tunnel. Phase IV tested both high-speed and low-speed models from 2019, with the results in volumes this article did not read in full. **The X-66A was to be the end of a fifteen-year test campaign and the campaign is almost all of what exists.**
 
@@ -1309,15 +1320,15 @@ What was actually accomplished is nonetheless substantial and is not flight test
 
 **No X-66A flew, so flight returned nothing against which any ground prediction can be set.** The record holds a long series of predictions made by wind tunnel, by analysis and by contractor estimate, and every one of them still stands where the ground left it. This section gathers them and points to where each is argued.
 
-**The flutter prediction is the one the ground record itself contradicts.** Phase II tested an aeroelastic model in the Transonic Dynamics Tunnel and concluded that flutter speed and mechanism were analytically predictable and that the weight increment for flutter margin was small \[[SUGAR Phase IV final report][ref_cr_phase4]\]. Phase IV found no weight increase for flutter with the doublet-lattice method, and then found that correction factors from steady computational-fluid-dynamics solutions turned margins near forty percent at Mach 0.92 and 26,000 feet into several negative margins, the worst at minus 7.5 percent. **Two ground predictions of the same structure disagree about the sign, and no flight exists to say which is right.** The section headed Dependent Systems argues this in full.
+**The flutter prediction is the one the ground record itself contradicts.** Two ground analyses of the same structure at Mach 0.92 disagree about the sign of the flutter margin \[[SUGAR Phase IV final report][ref_cr_phase4]\], as the section headed Dependent Systems sets out, and no flight exists to say which is right.
 
 **The interference prediction is a wind-tunnel result with no flight counterpart.** Phase III reduced the interference between the wing and the strut to approximately one percent of total airplane drag at the design Mach number, using Navier-Stokes methods and a series of transonic wind-tunnel tests \[[SUGAR Phase IV final report][ref_cr_phase4]\]. That figure was never measured on an aeroplane in flight.
 
 **The buffet and low-speed predictions are ones the report itself declines to trust.** It states that buffet boundaries are derived from cantilever aircraft and are unvalidated for this configuration, that its low-speed data was gathered at very low Reynolds number, and that the ice-effects and in-ground-effect objectives were deferred to a later test entry. These are the questions a flight test was most needed to answer, and the section headed What the Data Changed sets them out as the things flight would have settled.
 
-**The performance predictions are contractor estimates compared only against other estimates.** The Phase IV report computed the truss-braced wing's own benefit as 7.2 percent in fuel burn per seat on a 900 nautical mile mission and 9.0 percent on a 3,500 nautical mile mission. The fair comparison by the NASA Ames team found 1.65 percent at the economic mission for a wing carrying its own fuel and 5.71 percent with body tanks allowed \[[Recine and others 2025][ref_recine_2025]\]. **That is a disagreement between two ground predictions, and it is the closest thing to a test of the headline number that the record contains.** No flight measured fuel burn on either mission.
+**The performance predictions are contractor estimates compared only against other estimates.** Boeing's benefit for the truss-braced wing and the smaller one the NASA Ames team found at the economic mission are two ground predictions in disagreement \[[Recine and others 2025][ref_recine_2025]\], set out in the subsection headed The Comparison Was Done. **That disagreement is the closest thing to a test of the headline number that the record contains**, and no flight measured fuel burn on either mission.
 
-**This article's own predictions are also unchecked by flight.** The prediction that the Phase IV thinning and sweeping cost 28.7 percent in bending material lacks even a ground counterpart, because the Phase III structural weight is not published in the volume read here. The optimality conditions, the value of the fold and the drag-divergence margins are derived from published ground data and test nothing that flew.
+**This article's own predictions are also unchecked by flight.** The structural price of the Phase IV thinning and sweeping, derived in the subsection headed What the Thinning Cost in Structure, lacks even a ground counterpart, and the optimality conditions, the value of the fold and the drag-divergence margins test nothing that flew.
 
 **The schedule was a prediction too.** The agreement's Milestone 24 placed first flight in September 2028 \[[Funded Space Act Agreement][ref_fsaa]\], and the section headed The Flight Test Record records that no aircraft exists to meet it. **The comparison this section exists to make is therefore empty, and its honest content is the list of predictions that a flight would have tested.**
 
@@ -1339,7 +1350,7 @@ What was actually accomplished is nonetheless substantial and is not flight test
 
 ### The Comparison the Report Asked For and Nobody Has Published
 
-**The recommendation list in the Phase IV report contains one item that undercuts the figures everybody quotes, and it is worth reading twice.**
+**The recommendation list in the Phase IV report contains one item that undercuts the figures everybody quotes.**
 
 > Perform equivalent conceptual-level design, sizing and optimization studies of cantilever and truss-braced wing aircraft of the same technology level to allow a more fair and transparent comparison of the two configurations.
 
@@ -1361,7 +1372,7 @@ tube-and-wing aeroplane under a single consistent set of assumptions
 Mach number, the same 2035 aerodynamic and structural technology, the same advanced direct-drive
 turbofan with a fan pressure ratio of 1.50, **the same wing-fold rule above 118 feet**, and
 critically **a tube-and-wing-based weight calibration applied to both** rather than the
-contractor's own calibration applied to one of them.
+contractor's own calibration applied to one of them \[[Recine and others 2025][ref_recine_2025]\].
 
 | Quantity | Advanced tube and wing | Truss-braced, fuel in wings | Truss-braced, body tanks allowed |
 |---|---|---|---|
@@ -1408,7 +1419,10 @@ outcome for the seven point two percent.
 ### Why the Short Mission Loses It, Which Is Not a Weight Effect
 
 **The aerodynamic advantage in the fair comparison is real and large.** Start-of-climb lift-to-drag
-ratio is **12.92 percent** better. What the short mission does is spend it.
+ratio is **12.92 percent** better. What the short mission does is spend it. Each figure below is the
+truss-braced value with fuel in the wings set against the tube-and-wing value in the table above.
+
+$$ \frac{23.6}{20.9} - 1 = 0.1292, \qquad \frac{23{,}277}{18{,}525} - 1 = 0.2565, \qquad 44{,}750 - 40{,}500 = 4{,}250 \ \text{ft} $$
 
 **The braced aeroplane needs 25.65 percent more sea-level static thrust and cruises
 4,250 feet higher**, and the paper says what that costs.
@@ -1441,7 +1455,10 @@ $$ \nu_{\mathrm{apparent}} = \frac{\ln\left(W_2/W_1\right)}{\ln\left(A_2/A_1\rig
 three of the four are negative.** The largest is **0.09926**, which is
 **66.8 percent short of the target**. **A negative elasticity means the braced
 aeroplane at aspect ratio 19.57 weighs less than the cantilever at aspect ratio
-13**, which on this criterion says the aspect ratio should be pushed further still.
+13**, which on this criterion says the aspect ratio should be pushed further still. The shortfall is
+measured as for the Phase IV readings above.
+
+$$ 1 - \frac{0.09926}{0.299033} = 0.668 $$
 
 **An apparent elasticity from a pair is not a derivative** and this article does not treat it as
 one, because the two aeroplanes differ in span, area, thrust and altitude as well as in aspect
@@ -1450,12 +1467,18 @@ article computed from the Phase IV group weight statement**, which ran from 0.07
 0.2749. **Four routes, one conclusion.**
 
 **And the same table prices the truss directly against a cantilever of the same technology**, which
-is the like-for-like comparison the Phase IV report had asked somebody to make.
+is the like-for-like comparison the Phase IV report had asked somebody to make \[[Recine and others 2025][ref_recine_2025]\].
 
 | Quantity | Cantilever wing | Braced wing plus strut |
 |---|---|---|
 | Contractor calibration | 12,867 pound | 16,030 pound, +24.58 percent |
 | Tube-and-wing calibration | 12,867 pound | 16,483 pound, +28.10 percent |
+
+Each entry is the braced weight over the cantilever's, less one, the wing alone being 13,045 pound on
+the contractor's calibration and 13,418 pound on the tube-and-wing one, and the strut 2,985 and
+3,065 pound.
+
+$$ \frac{13{,}045}{12{,}867} - 1 = 0.0138, \qquad \frac{13{,}418}{12{,}867} - 1 = 0.0428, \qquad \frac{13{,}045 + 2{,}985}{12{,}867} - 1 = 0.2458, \qquad \frac{13{,}418 + 3{,}065}{12{,}867} - 1 = 0.2810 $$
 
 **The wing alone is only +1.38 percent heavier on the contractor's calibration and
 +4.28 percent on the harsher one, so the strut is almost the whole penalty.** That
@@ -1476,7 +1499,7 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 ## The Contemporary Literature
 
-**This subject has a large and continuously active literature, which distinguishes it from the three articles that precede it in this series.** The X-63A, the X-64A and the X-65A each had a thin public record and a subject whose literature had to be assembled from adjacent fields. The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
+**This subject has a large and continuously active literature.** The truss-braced wing has its own body of work with a fifty-year history, a named research programme, a sustained Virginia Tech and Georgia Institute of Technology school, and a steady output of conference and journal papers through the whole period of this programme.
 
 **The admitted research records are assigned by title vocabulary to seventeen clusters, all of them non-empty, and a record may fall in more than one.** The clusters are the shape of the field as the reference survey records it.
 
@@ -1500,7 +1523,7 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 | Emissions | 222 | aviation emissions, net-zero targets, noise, contrails |
 | Programme designations | 41 | the programme and configuration designations themselves |
 
-**The largest cluster is aeroelasticity at 1,183 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span constraints at 36 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.** Thirty-six records against 1,183 for the thing that is not binding is a ratio worth sitting with.
+**The largest cluster is aeroelasticity at 1,183 records and that is the correct shape for this subject.** A very high aspect-ratio wing is an aeroelastic problem before it is an aerodynamic one, and the field's output reflects that. **The smallest substantive cluster is span constraints at 36 records**, and that asymmetry is itself a finding. **The constraint this article argues is binding is the one the literature has written least about.**
 
 **The weight cluster is also thin at 104 records**, which matters because weight is the quantity the Phase IV report names as the largest uncertainty and the quantity the keystone needs. **A field that has produced 1,183 papers on flutter and 104 on wing weight has its effort allocated to the risk it can compute rather than to the risk that decides the answer.** That is an observation about the literature and not a criticism of any paper in it.
 
@@ -1510,8 +1533,8 @@ The X-66A is that preliminary design phase, carried through four design reviews 
 
 ### The Demonstrator Is Not the Aeroplane the Analysis Describes
 
-**Every number in the sizing sections above belongs to configuration 1104-001-RG, a 737-class vision aircraft that was never built, and not to the X-66A.** The demonstrator is a modified MD-90 with a shortened fuselage, a different wing, different engines and an empennage inherited from a DC-9 lineage. Its span is given as 145 feet by secondary aerospace coverage and **by no primary document this
-article has read**, against the vision aircraft's 170, and **its wing area is not published
+**Every number in the sizing sections above belongs to configuration 1104-001-RG, a 737-class vision aircraft that was never built, and not to the X-66A.** The demonstrator is a modified MD-90 with a shortened fuselage, a different wing, different engines and an empennage inherited from a DC-9 lineage. Its span appears in secondary aerospace coverage and **in no primary document this article has
+read**, and **its wing area is not published
 at all**, so **its aspect ratio cannot be computed and is not stated anywhere in this article**. Anyone quoting an aspect ratio for the X-66A itself is quoting the vision aircraft.
 
 **The consequence for the keystone is that the keystone is not about the demonstrator at all.** A demonstrator exists to validate models, not to be optimal, and nothing in the optimality analysis above applies to an aeroplane whose fuselage, tail and payload were chosen by what was available at Victorville. **Treating the X-66A as a small transport aircraft would be the central error available here.**
@@ -1530,18 +1553,18 @@ at all**, so **its aspect ratio cannot be computed and is not stated anywhere in
 
 \[[SUGAR Phase IV final report][ref_cr_phase4]\]
 
-**If the full-airframe exponent were above two and a half, the keystone's conclusion would reverse.** This article has bounded what it would take and has not shown that it does not happen. **That is the honest boundary of the result** and it is why the falsifiable form was stated explicitly above.
+**If the full-airframe exponent were above the 2.1755 the exact fixed-lift criterion requires, or the 3.0832 the fixed-area criterion requires, the keystone's conclusion would reverse.** This article has bounded what it would take and has not shown that it does not happen. **That is the honest boundary of the result** and it is why the falsifiable form was stated explicitly above.
 
 ### A Rigid Prop Is Not a Truss
 
-**The relief analysis is a propped cantilever with a rigid vertical prop at one station, and the aeroplane has a pinned elastic strut at fourteen degrees of dihedral, a jury strut bracing it against buckling, a swivel joint at its inboard end and a landing-gear pylon carrying the whole arrangement.** The relief factors computed are bounds and are labelled as bounds throughout, and the gap between the bound and reality was measured at a factor of **7.88** against the published bending material, most of which is non-optimum material rather than modelling error. **A reader wanting the real relief must take it from a finite-element sizing and the one in the record covers three components out of an airframe.**
+**The relief analysis is a rigid vertical prop at one station, and the aeroplane has a pinned elastic strut at fourteen degrees of dihedral, a jury strut, a swivel joint and a landing-gear pylon.** The relief factors are bounds, as the subsection headed A Rigid Prop Is a Bound and Not a Prediction sets out, and the factor of **7.88** between the bound and the published bending material is mostly non-optimum material rather than modelling error. **A reader wanting the real relief must take it from a finite-element sizing and the one in the record covers three components out of an airframe.**
 
 ### An Aerodrome Reference Code Is Not a Law of Nature
 
 **The sharpest claim in this article is that the aspect ratio of the single-aisle fleet is an airport number, and the claim has a limit.** Code letters are revised, airports are rebuilt, and a sufficiently valuable aeroplane changes its infrastructure rather than fitting it. **The Airbus A380 and the Boeing 747-8 are both Code F aeroplanes and both obtained
-accommodation**, at spans of about 79.8 and 68.4 metre against that band's 65 to 80. **And the
+accommodation**, at spans of about 79.8 and 68.4 metre against that band's 65 to 80 \[[Airbus A380][ref_airbus_a380]\] \[[747-8 airport planning][ref_boeing_747_8_acaps]\]. **And the
 Boeing 777X folds its wingtips across a code boundary exactly as this aeroplane would**, from
-about 71.8 metre unfolded, which is Code F, to about 64.8 folded, which is Code E. **So the
+about 71.8 metre unfolded, which is Code F, to about 64.8 folded, which is Code E \[[Boeing 777X][ref_boeing_777x]\]. **So the
 manoeuvre this article describes is already certificated on a wide-body**, which is the strongest
 reason to think the gate box is negotiable for an aeroplane worth negotiating for.
 
@@ -1711,12 +1734,8 @@ and it is read in full \[[Recine and others 2025][ref_recine_2025]\]. **It gives
 of 4.36, with fuel volume the dominant cause and the weight calibration second.
 
 **What remains unsettled is the keystone's reach rather than its correctness.** The optimality
-conditions are cruise-fuel conditions, and the fair comparison shows that on a nine-hundred-nautical-mile
-sector the configuration's aerodynamic advantage is largely spent on climbing to an altitude
-4,250 feet higher with 25.65 percent more installed thrust. **An
-aspect ratio chosen to minimise cruise fuel is being chosen against the wrong objective for the
-mission this class of aeroplane flies most often**, and this article does not derive a
-climb-inclusive condition.
+conditions are cruise-fuel conditions, the fair comparison shows the short-sector advantage spent in
+climb, and this article does not derive a climb-inclusive condition.
 
 **The structural weight of the Phase III configuration is not published in the volume read here**, so this article's prediction that the Phase IV thinning and sweeping cost 28.7 percent in bending material stands unchecked.
 
@@ -1748,10 +1767,7 @@ drawn from them here are limited to what Volume I quotes.
 
 **The X-66A was to answer whether a truss-braced wing is worth its truss, and the primary record contains enough to answer a sharper question than that, which is where the span of a transport aeroplane actually comes from.**
 
-The answer is that it comes from an airport. **The wing folds at 118 feet and 118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**, with a margin of zero inches against a bound that is exclusive. ICAO states the same line in metres, which is 118.1102 feet, and the FAA circular prints
-both renderings while declaring that the customary one governs, **so the two differ by
-1.3228 inch and the fold station sits inside a rounding the circular itself says does
-not govern**. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported in April 2015. **The mechanism is worth more than the optimum.**
+The answer is that it comes from an airport. **The wing folds at 118 feet and 118 feet is exactly where the Federal Aviation Administration's Airplane Design Group III ends**, with a margin of zero inches against a bound that is exclusive, and **the fold station sits inside the 1.3228 inch rounding between that bound and ICAO's metric one**, which the FAA circular says does not govern. The unfolded span of 170 feet clears the next boundary by 12 inch by one reckoning and 7.24 inch by the other. The fold is worth **36.0 percent** in lift-to-drag ratio, and everything the unconstrained aerodynamic optimum has left to give beyond the chosen span is worth **0.9481 percent** in fuel, which falls inside the under 1.4 percent the programme's own independent optimisation reported in April 2015. **The mechanism is worth more than the optimum.**
 
 **The optimality condition itself turned out to be two conditions, and that is the analytical result this article would keep if it could keep only one.** At fixed wing area and cruise condition the fuel-burn-optimal aspect ratio is where a one percent gain in aspect ratio costs exactly half a percent in weight, and **no other quantity in the problem appears**. At fixed cruise lift coefficient it is where the weight elasticity equals the induced-drag fraction of drag. **The curvature at the second stationary point is exactly $\delta(n+1-2\delta)$**, which is why a design can sit 21.41 percent below its optimum and pay 0.9481 percent for it, and why an infrastructural constraint can bind without visible cost. **Carrying the Breguet exponential rather than linearising it generalises both conditions by a single factor and makes the optimum flatter still**, because the linearisation is not free at a twenty percent fuel fraction.
 
@@ -1768,6 +1784,7 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 
 ### Reference
 
+- [Airbus, Airbus A380, product page, wingspan 79.8 metres][ref_airbus_a380]
 - [Allen, Bradley and Droney, Subsonic Ultra Green Aircraft Research Phase II Volume III, Truss Braced Wing Aeroelastic Test Report, NASA/CR-2015-218704 Volume III, read in part][ref_cr_phase2_vol3]
 - [Aretskin-Hariton and others, Multidisciplinary Optimization of a Transonic Truss-Braced Wing Aircraft using Aviary, NASA Glenn, Langley and Ames Research Centers, read in part][ref_ttbw_aviary_2024]
 - [Aurora X-65 CRANE, Directory of U.S. Military Rockets and Missiles, Appendix 4, cited for the absence of a sibling X-66 entry][ref_ds_x65]
@@ -1787,9 +1804,14 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [National Aeronautics and Space Administration, NASA, Boeing Consider New Thin-Wing Aircraft Research Focus, 24 April 2025][ref_nasa_thin_wing_2025]
 - [National Aeronautics and Space Administration, Next Generation Experimental Aircraft Becomes NASA's Newest X-Plane, 12 June 2023][ref_nasa_x66_designation]
 - [Recine, Schuh, Listgarten and James, Quantification of Design Trade-Offs When Comparing Transonic Truss-Braced Wing to Advanced Tube and Wing Aircraft, AIAA SciTech Forum, 6 January 2025, NASA Ames Research Center, read in full][ref_recine_2025]
+- [The Boeing Company, 747-8 Airplane Characteristics for Airport Planning, D6-58326-3 Revision E, January 2026, General Dimensions read][ref_boeing_747_8_acaps]
+- [The Boeing Company, 777X, product page, wingspan 71.8 metres extended and 64.8 metres on the ground][ref_boeing_777x]
 - [The Boeing Company, Airplane Arrives at Boeing Site for X-66A Modification, 17 August 2023][ref_boeing_arrival_2023]
 - [USAspending.gov, the federal award reporting system][ref_usaspending]
 
+[ref_airbus_a380]: https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380
+[ref_boeing_747_8_acaps]: https://www.boeing.com/content/dam/boeing/v2/airports/acaps/747-8_Rev_E.pdf
+[ref_boeing_777x]: https://www.boeing.com/commercial/777x
 [ref_boeing_arrival_2023]: https://boeing.mediaroom.com/2023-08-17-Airplane-Arrives-at-Boeing-Site-for-X-66A-Modification
 [ref_cr_phase1]: https://ntrs.nasa.gov/citations/20110011321
 [ref_cr_phase2_vol1]: https://ntrs.nasa.gov/citations/20150017036

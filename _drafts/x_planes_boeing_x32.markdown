@@ -170,7 +170,7 @@ had been narrowed from three to two before either surviving aircraft existed.
 
 ### What Each Company Brought
 
-Boeing's design used a single large delta wing with 55 degrees of leading-edge sweep, a chin inlet under the
+Boeing's design used a single large delta wing with [55 degrees of leading-edge sweep][ref_x32], a chin inlet under the
 nose, and a direct-lift STOVL system in which a valve diverted the core exhaust to a pair of vectoring
 nozzles near the centre of gravity.
 
@@ -354,7 +354,9 @@ it costs nothing extra to derive because it is the same quantity the propulsion 
 
 ### What the Two Architectures Actually Produced
 
-The published totals make the consequence plain.
+The published totals make the consequence plain. The engine's military rating is from
+[the X-32's published specification][ref_x32], and the lift system's components and total are from
+[the LiftSystem's published component thrusts][ref_liftsystem].
 
 | System | Lift | Source of lift |
 |---|---|---|
@@ -405,14 +407,18 @@ stores is whatever is left after the empty weight is paid,
 
 $$W_{\text{land}} = \frac{L}{k} \qquad \text{and} \qquad W_{\text{allowance}} = \frac{L}{k} - W_{\text{empty}}$$
 
-At an empty weight of 24,030 pounds and a five percent control margin,
+At an [empty weight of 24,030 pounds][ref_x32] and an assumed five percent control margin, so that
+$k = 1.05$,
 
 | Architecture | Lift | Maximum landing weight | Allowance over empty |
 |---|---|---|---|
 | Direct lift, core only | 28,000 lbf | 26,667 lb | **2,637 lb** |
 | Lift fan plus core plus posts | 41,900 lbf | 39,905 lb | **15,875 lb** |
 
-**The difference is 13,238 pounds and the ratio is 6.02.**
+**The difference is 13,238 pounds and the ratio is 6.02.** The empty weight cancels from the difference,
+which depends only on the two lifts $L_{\text{fan}}$ and $L_{\text{direct}}$ and the margin,
+
+$$\Delta W_{\text{allowance}} = \frac{L_{\text{fan}} - L_{\text{direct}}}{k} = \frac{41{,}900 - 28{,}000}{1.05} = 13{,}238 \ \text{lb} \qquad \text{and} \qquad \frac{15{,}875}{2{,}637} = 6.02$$
 
 **That is the competition in one line.** Both aircraft can hover. One of them can come home with two and a
 half thousand pounds of fuel and weapons and the other with nearly sixteen thousand.
@@ -431,9 +437,7 @@ which is the landing weight divided by the allowance.
 | Direct lift | 10.11 | One percent of thrust is ten percent of the allowance |
 | Lift fan | 2.51 | One percent of thrust is two and a half percent |
 
-**The same physical loss costs the direct-lift aircraft four times as much of what it can bring home.** And
-below about 25,232 pounds of lift the allowance is negative, meaning the aircraft could not land vertically
-at its own empty weight, let alone with anything in it.
+**The same physical loss costs the direct-lift aircraft four times as much of what it can bring home.**
 
 Because the X-32B's STOVL lift is not published, the conclusion is tested against the assumption rather than
 resting on it. The engine's military rating is an **upper** bound, since a direct-lift arrangement loses
@@ -455,6 +459,9 @@ crossing zero at
 
 $$L_{\text{break even}} = k \, W_{\text{empty}} = 1.05 (24{,}030) = 25{,}232 \ \text{lbf}$$
 
+**Below that lift the allowance is negative**, meaning the aircraft could not land vertically at its own
+empty weight, let alone with anything in it.
+
 **The amplification blows up as the allowance approaches zero, and that is not a numerical artefact but the shape of the problem.**
 A direct-lift fighter of this size operates near a singularity in its own bring-back capability.
 **The honest statement is not that the amplification is 10.11 but that the quantity is badly conditioned across the whole plausible range**,
@@ -463,6 +470,8 @@ and that no plausible assumption rescues it.
 ## The Vehicle
 
 **The published table is thinner than for any flown aircraft in this series, and the sources disagree with one another on a basic dimension.**
+Every figure in the table except the second span is from [the X-32's published specification][ref_x32], and
+the second span is the 9.15 metres that the same source gives in its description of the wing.
 
 | Quantity | Value | Metric |
 |---|---|---|
@@ -592,6 +601,9 @@ fraction of thrust
 
 $$\frac{\Delta T_{\text{thrust}}}{T} = 1 - \sqrt{\frac{T_{\text{ref}}}{T_{\text{ref}} + \Delta T}}$$
 
+where $T_{\text{ref}}$ is the standard sea-level temperature of 59 degrees Fahrenheit, or 518.67 degrees
+Rankine, and $\Delta T$ is in Fahrenheit degrees.
+
 | Inlet temperature rise | Thrust lost |
 |---|---|
 | 10 degrees Fahrenheit | 0.95 percent |
@@ -606,9 +618,16 @@ The corrected-parameter treatment behind that relation is standard and is set ou
 [Kuethe and Chow][book_kuethe_chow].
 
 **Those look like small numbers and they are not.** Apply the amplification derived above. A fifty degree
-rise costs 4.50 percent of lift, and 4.50 percent of lift is
-**45.5 percent of the entire bring-back allowance**, taking it from 2,637 pounds to 1,437. A twenty-five
-degree rise costs 23.5 percent of it.
+rise costs 4.50 percent of lift, and the allowance that remains, written $W_{\text{allowance}}'$, is
+
+$$W_{\text{allowance}}' = \frac{L \left(1 - \Delta T_{\text{thrust}}/T\right)}{k} - W_{\text{empty}} = \frac{28{,}000 (1 - 0.0450)}{1.05} - 24{,}030 = 1{,}437 \ \text{lb}$$
+
+so the fraction of the allowance the rise consumes is the amplification times the thrust lost,
+
+$$\frac{W_{\text{allowance}} - W_{\text{allowance}}'}{W_{\text{allowance}}} = \frac{L/k}{W_{\text{allowance}}} \, \frac{\Delta T_{\text{thrust}}}{T} = 10.11 \times 0.0450 = 0.455$$
+
+which is **45.5 percent of the entire bring-back allowance**, taking it from 2,637 pounds to 1,437. The same
+relation applied to the 2.33 percent lost to a twenty-five degree rise gives 23.5 percent.
 
 **The ingestion penalty comes off the small number, not the large one**, and that is the whole difficulty
 stated in one sentence.
@@ -765,7 +784,7 @@ function costs it nothing it was not already spending.
 
 ### The Wing, and the Change That Matters Most
 
-**Boeing's demonstrators flew a large single-piece composite delta with 55 degrees of leading-edge sweep and no horizontal tail.**
+**Boeing's demonstrators flew a large single-piece composite delta with [55 degrees of leading-edge sweep][ref_x32] and no horizontal tail.**
 The production proposal did not use that wing. It used a conventional wing with a canted twin tail, and the
 change was made **before the X-32 ever flew**.
 
@@ -839,8 +858,10 @@ article treats that as reported rather than established, because the sources ava
 and marks it accordingly in the Epistemic State.
 
 **But the arithmetic above says what such a report would mean if true**, and it is not a qualitative
-shortcoming. At an assumed 28,000 pounds of lift the allowance over empty weight is 2,637 pounds before any
-ingestion penalty, and the break-even lift at which the allowance vanishes entirely is **25,232 pounds**. A
+shortcoming. At an assumed 28,000 pounds of lift, the bring-back relation displayed in the section headed
+The Number the Competition Was Actually About gives an allowance over empty weight of 2,637 pounds before any
+ingestion penalty, and the break-even relation displayed in the section that follows it puts the lift at
+which the allowance vanishes entirely at **25,232 pounds**. A
 demonstrator flying with instrumentation, ballast and test equipment aboard is not at its empty weight.
 
 **The jet screen fitted to hold hot gas away from the intake made the arithmetic worse rather than better**,
@@ -5990,14 +6011,15 @@ tradespace study and a hydrostatic thrust bearing. Those records have been remov
 their kinds, so that figure overstates what remains by an unknown amount, and no later sample has been
 drawn.
 
-### The Five Equations That Carry No Citation
+### The Equations That Carry No Citation
 
-**Five displayed relations carry no nearby citation and that is deliberate.** They are the three that
-construct the bring-back allowance, the roll moment as differential thrust times a lateral arm, and the
-ratio between the winner's and the loser's record counts.
+**Some displayed relations carry no citation of their own and that is deliberate.** They are the relations
+that construct the bring-back allowance and follow its consequences, the roll moment as differential thrust
+times a lateral arm, and the ratio between the winner's and the loser's record counts.
 
-**The first three and the last are constructions original to this article**, so attaching a citation would
-be false attribution. **The roll moment is elementary statics** and citing it would be worse than leaving it
+**The bring-back relations and the record-count ratio are constructions original to this article**, so
+attaching a citation would be false attribution. The weights and thrusts they take as inputs are cited where
+they are first given. **The roll moment is elementary statics** and citing it would be worse than leaving it
 bare.
 
 **Everything else carries its literature.** Momentum theory, the figure of merit, the disc loading as a
@@ -6153,8 +6175,8 @@ from the same core. **Everything that separated the two aircraft follows from th
 the slower wall jet, the cold stream standing between the hot one and the intake, and above all the weight
 that can be brought home.
 
-**That last quantity is the competition in one number.** At an empty weight of 24,030 pounds and a five
-percent control margin, direct lift permits an allowance over empty weight of 2,637 pounds and the lift
+**That last quantity is the competition in one number.** At an empty weight of 24,030 pounds and an assumed
+five percent control margin, direct lift permits an allowance over empty weight of 2,637 pounds and the lift
 system permits 15,875. **And the small number is badly conditioned**, amplifying a one percent thrust loss
 into a ten percent loss of everything the aircraft can carry home, so a fifty degree ingestion of its own
 exhaust takes nearly half of it.

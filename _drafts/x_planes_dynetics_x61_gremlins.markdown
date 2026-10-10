@@ -50,9 +50,17 @@ The programme was announced in 2015 by the Defense Advanced Research Projects Ag
 
 **The phrase most often quoted about this programme is nine months older than the programme, and it comes from a Request for Information.** On 9 November 2014 the agency asked for ideas on transforming planes into **aircraft carriers in the sky**, and the words are a quotation from the same programme manager who would announce the programme \[[DARPA Request for Information][ref_darpa_rfi_2014]\]. **The agency repeated them in its Phase 2 release of March 2017, which is where they are usually found.**
 
-**That document is worth reading closely because it fixes three things before any contractor existed.** It names the carrier by type, asking about launch and recovery from one or more types of existing large manned aircraft **such as C-130 transport planes**. It caps the payload at **100 pounds or less**, which the vehicle eventually built exceeded by **1.45 times**, carrying 145 pounds. And it asks respondents for **plans for achieving full-system flight demonstrations within four years**.
+**That document is worth reading closely because it fixes three things before any contractor existed.** It names the carrier by type, asking about launch and recovery from one or more types of existing large manned aircraft **such as C-130 transport planes**. It caps the payload at **100 pounds or less**, which the vehicle eventually built exceeded by **1.45 times**, carrying 145 pounds \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]\]. And it asks respondents for **plans for achieving full-system flight demonstrations within four years**. The payload ratio is the published capacity over the requested cap.
 
-**A stated duration is rare in a programme record and this one can be measured against the outcome.** Four years from the Request for Information falls on 9 November 2018. The first free flight came 5.04 years after the request, which is **1.26 times the plan**, and the airborne recovery that was the full-system demonstration came 6.97 years after it, which is **1.74 times**.
+$$
+\frac{145\ \text{lb}}{100\ \text{lb}} = 1.45
+$$
+
+**A stated duration is rare in a programme record and this one can be measured against the outcome.** Four years from the Request for Information falls on 9 November 2018. The first free flight came 5.04 years after the request, which is **1.26 times the plan**, and the airborne recovery that was the full-system demonstration came 6.97 years after it, which is **1.74 times**. Counted in days from 9 November 2014 to the first free flight on 23 November 2019 and to the recovery on 29 October 2021, against a plan of four years of 365.25 days each, the two ratios are these.
+
+$$
+\frac{1{,}840\ \text{days}}{4 \times 365.25\ \text{days}} = \frac{5.04\ \text{years}}{4\ \text{years}} = 1.26 , \qquad \frac{2{,}546\ \text{days}}{4 \times 365.25\ \text{days}} = \frac{6.97\ \text{years}}{4\ \text{years}} = 1.74
+$$
 
 **The agency also named its own antecedents, and it named them correctly.** The 2015 programme announcement says the effort aims to leverage prior success in developing automated aerial refuelling and the agency's current efforts to create advanced capture systems for ships \[[DARPA][ref_darpa_2015]\], the second of which is the Tern programme and the shipboard capture work that came out of it \[[DARPA][ref_darpa_tern_2015]\] \[[Tern][ref_darpa_tern]\]. **Both are the right ancestors**, and the article's own comparison sections reach the same two by a different route.
 
@@ -88,7 +96,11 @@ The likeliest reading is that the register records the date the allocation was m
 
 **The money and the publicity agree more closely than they usually do.** The Phase 1 obligation moved 7 days before the public announcement of Phase 1, and **the Phase 2 obligation moved on the same day as the Phase 2 release**, which is 15 March 2017 in both records.
 
-**And the pandemic is priced.** Two modifications on 9 March 2021 obligate 5,852,178.74 dollars and state in their own description that the cost growth is due to COVID-19, the coronavirus pandemic, which is **11.18 percent of the Phase 3 contract**. The contractor's August 2020 release had said the second flight test was delayed by the pandemic \[[Dynetics][ref_prn_second_flight]\]. **The contract says what that delay cost.**
+**And the pandemic is priced.** Two modifications to the Phase 3 contract name COVID-19, the coronavirus pandemic, in their own descriptions. The one of 9 March 2021 obligates 5,852,178.74 dollars and states that the cost growth is due to the pandemic, and the one of 3 May 2021 extends the period of performance for selected line items and obligates nothing \[[DARPA Phase III contract][ref_usa_hr001118c0071]\]. Against the contract's total that is **11.18 percent of the Phase 3 contract**. The contractor's August 2020 release had said the second flight test was delayed by the pandemic \[[Dynetics][ref_prn_second_flight]\]. **The contract says what that delay cost.**
+
+$$
+\frac{5{,}852{,}178.74\ \text{dollars}}{52{,}365{,}639.91\ \text{dollars}} = 0.1118
+$$
 
 ## Sizing From First Principles, What the Vehicle Has To Be and Why It Is Not a Cruise Missile
 
@@ -178,7 +190,13 @@ $$
 | 25,000 feet | 146.0 metres per second | 0.47 |
 | 35,000 feet | 175.5 metres per second | 0.59 |
 
-**The published maximum of Mach 0.6 is very nearly the best-range Mach number at 35,000 feet.** That is an independent reason to read it as a chosen cruise condition rather than as a limit, and it was reached without any reference to the engine at all.
+**The published maximum of Mach 0.6 is very nearly the best-range Mach number at 35,000 feet.** At that altitude the atmosphere relations below give a temperature of 218.8 kelvin and a speed of sound of 296.5 metres per second, so the Mach number is the tabulated speed over that.
+
+$$
+M = \frac{V_{\mathrm{md}}}{a} = \frac{175.5\ \text{m/s}}{\sqrt{1.4 \times 287.05 \times 218.8}\ \text{m/s}} = \frac{175.5}{296.5} = 0.59
+$$
+
+That is an independent reason to read it as a chosen cruise condition rather than as a limit, and it was reached without any reference to the engine at all.
 
 ### The Two Thrust Ratings Disagree by a Factor of Two
 
@@ -257,7 +275,13 @@ $$
 | 9 | 80.2 kilograms | 51.4 kilograms per hour | 131.6 kilograms, 19.4 percent | 483 kilograms |
 | 12 | 61.1 kilograms | 38.5 kilograms per hour | 99.6 kilograms, 14.7 percent | 515 kilograms |
 
-**The published performance closes, and it closes comfortably at the middle of the band.** At a lift to drag ratio of 9 the whole mission costs 19.4 percent of the gross weight in fuel and leaves 483 kilograms for the airframe, the engine, the systems and everything that is not fuel or payload. **The specific fuel consumption assumed here is not published for this engine and the lift to drag ratio is not published for this airframe**, which is why all three columns are given rather than one.
+**The published performance closes, and it closes comfortably at the middle of the band.** At a lift to drag ratio of 9 the whole mission costs 19.4 percent of the gross weight in fuel and leaves 483 kilograms for the airframe, the engine, the systems and everything that is not fuel or payload. Both follow from the table's middle row, the published gross mass of 680 kilograms and the published payload capacity of 65.7 kilograms \[[Dynetics X-61 Gremlins][ref_x61_wikipedia]\].
+
+$$
+\frac{m_b}{m} = \frac{80.2 + 51.4 \times 1}{680} = \frac{131.6}{680} = 0.194 , \qquad m - m_b - m_p = 680 - 131.6 - 65.7 = 482.7\ \text{kg}
+$$
+
+**The specific fuel consumption assumed here is not published for this engine and the lift to drag ratio is not published for this airframe**, which is why all three columns are given rather than one.
 
 ## The Wake Between the Two Aeroplanes
 
@@ -379,7 +403,13 @@ $$
 \frac{\text{trail}}{\text{depth}} \longrightarrow \cot \theta_c , \qquad \ell \longrightarrow \frac{z}{\sin \theta_c}
 $$
 
-At 200 knots at 10,000 feet the numbers are these.
+At 200 knots at 10,000 feet the airspeed is 102.89 metres per second and the atmosphere relations give a density of 0.9046 kilograms per cubic metre. Taking 0.40 kilograms per metre for a ten millimetre steel wire rope and a normal drag coefficient of 1.2, which is the value for a circular cylinder in crossflow, the equilibrium relation gives the first row of the table, and the other two rows repeat it at 0.10 kilograms per metre for a synthetic rope of the same diameter and at 0.14 kilograms per metre for a six millimetre steel rope.
+
+$$
+\frac{\sin^2 \theta_c}{\cos \theta_c} = \frac{2 \times 0.40 \times 9.807}{0.9046 \times 102.89^2 \times 0.010 \times 1.2} = 0.0683 \quad \Longrightarrow \quad \theta_c = 14.9^\circ , \qquad \cot \theta_c = 3.76 , \qquad \frac{100\ \text{ft}}{\sin \theta_c} = 389\ \text{ft}
+$$
+
+The numbers are these.
 
 | Cable | Inclination | Trail per unit depth | Cable to hang 100 feet below |
 |---|---|---|---|
@@ -387,9 +417,17 @@ At 200 knots at 10,000 feet the numbers are these.
 | Synthetic rope, 10 millimetres | 7.5 degrees | 7.62 | 769 feet |
 | Steel wire rope, 6 millimetres | 11.4 degrees | | |
 
-**A passively towed cable at this speed hangs at about fifteen degrees and buys roughly four feet of trail for every foot of depth.** Integrating the full equations for 150 metres of the steel rope with a plausible body on the end puts that body 162 feet below the tow point and 458 feet behind it, at a tension of 1,118 newtons.
+**A passively towed cable at this speed hangs at about fifteen degrees and buys roughly four feet of trail for every foot of depth.** Integrating the full equations for 150 metres of the steel rope with a plausible body on the end puts that body 162 feet below the tow point and 458 feet behind it, at a tension of 1,118 newtons. The body is taken to weigh 50 kilograms and to have 200 newtons of drag, and the tangential friction coefficient is taken as 0.02, so the boundary condition starts the integration at a tension of 529.6 newtons and an inclination of 67.8 degrees.
 
-**A body 125 feet below and 125 feet behind would need a forty-five degree cable, and the arithmetic says what that costs.** A ten millimetre cable hanging at forty-five degrees at this speed would have to weigh 4.14 kilograms per metre, which is 10.4 times what steel wire rope of that diameter actually weighs.
+$$
+T_c(0) = \sqrt{200^2 + \left( 50 \times 9.807 \right)^2} = 529.6\ \text{N} , \qquad \theta(0) = \arctan \frac{490.4}{200} = 67.8^\circ
+$$
+
+**A body 125 feet below and 125 feet behind would need a forty-five degree cable, and the arithmetic says what that costs.** A ten millimetre cable hanging at forty-five degrees at this speed would have to weigh 4.14 kilograms per metre, which is 10.4 times the 0.40 kilograms per metre taken above for steel wire rope of that diameter. At forty-five degrees the left side of the equilibrium relation is the reciprocal of the square root of two, so the relation can be solved for the linear density directly.
+
+$$
+\theta_c = 45^\circ \quad \Longrightarrow \quad \mu = \frac{\rho V^2 d \, C_{D_n}}{2 \sqrt{2} \, g} = \frac{0.9046 \times 102.89^2 \times 0.010 \times 1.2}{2 \sqrt{2} \times 9.807} = 4.14\ \text{kg/m} , \qquad \frac{4.14}{0.40} = 10.4
+$$
 
 **The forward calculation fails to produce the geometry, and the failure locates the design decision.** A passive cable cannot put a docking device where the docking device has to be without either an impractical length of it or an impossible cable, so the body on the end has to fly. **That is why the Bullet is attitude-controlled**, and it is a conclusion reached by finding out what would happen if it were not.
 
@@ -616,6 +654,10 @@ Dynetics states that it built 5 X-61As and flew **9 sorties totalling 18 hours**
 
 **The sorties in the four series sum to 9 against a stated 9, which agrees exactly.** Five built less 2 lost is 3 remaining, which also agrees exactly. The hours sum to 17.58 against a stated 18, a gap of 0.42 hours, which is inside the rounding of the figures the releases print. **Three reassembly checks, three agreements**, which is worth more than any one of the four releases taken alone.
 
+$$
+1 + 1 + 3 + 4 = 9\ \text{sorties} , \qquad 5 - 2 = 3\ \text{vehicles} , \qquad 1.68 + 2.20 + 7.00 + 6.70 = 17.58\ \text{h}
+$$
+
 ### The First Flight Was Not When Everyone Says It Was
 
 **The date almost universally given for the X-61A's first free flight is 17 January 2020, and that is the date of the announcement.** The Kratos release of 23 January 2020 states that on 17 January the agency and the prime contractor **announced the successful first flight of the X-61A Gremlins Air Vehicle was completed on November 23, 2019** \[[Kratos][ref_kratos_first_flight]\]. The specialist directory and the general encyclopaedia both give 17 January 2020 as the flight date \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]\] \[[Dynetics X-61 Gremlins][ref_x61_wikipedia]\].
@@ -636,17 +678,29 @@ The third series flew in November 2020, three vehicles over three flights and se
 
 The fourth series flew in October 2021. Three vehicles flew four sorties for 6.7 hours, a mean of 1.68 hours each, including a 1.4 hour airborne recovery mission, and on 29 October, at Dugway Proving Ground in Utah \[[Dugway Proving Ground][ref_dugway]\], one vehicle was recovered in the air \[[Leidos][ref_leidos_captured]\] \[[DARPA][ref_darpa_recovery]\]. **One vehicle was destroyed during the flight tests**, which the agency states in one sentence and the contractor attributes to a power fault whose root cause was identified and corrected \[[DARPA][ref_darpa_recovery]\] \[[Leidos][ref_leidos_captured]\].
 
-**The public record gives at least 10 docking attempts and exactly one capture.** The fourth series does not say how many attempts it made, so the true denominator is larger than ten and the true success rate is therefore **at most 10 percent**. That is a bound and not a measurement, and it is stated as a bound.
+**The public record gives at least 10 docking attempts and exactly one capture.** The fourth series does not say how many attempts it made, so the true denominator is at least ten and the true success rate is therefore **at most 10 percent**. That is a bound and not a measurement, and it is stated as a bound. Nine attempts in the third series and at least the one that succeeded in the fourth give the denominator.
+
+$$
+N_d \;\geq\; 9 + 1 = 10 \quad \Longrightarrow \quad \frac{1}{N_d} \;\leq\; 0.10
+$$
 
 ### The Contract Outlived the Flying by Four Years and Stopped Paying After Forty-Seven Days
 
 **The previous article in this series found a programme whose publicity stopped three years before its contract did, and which went on obligating money after it had stopped being visible.** This one is checked the same way and the answer is different.
 
-**The last positive obligation on the Gremlins contracts is 15 December 2021**, which is 47 days after the airborne recovery. Everything after it is a zero-dollar administrative modification. **Only 2,662,549.21 dollars, 3.22 percent of the whole, was obligated after the last flight test.**
+**The last positive obligation on the Gremlins contracts is 15 December 2021**, which is 47 days after the airborne recovery. Everything after it is a zero-dollar administrative modification. **Only 2,662,549.21 dollars, 3.22 percent of the whole, was obligated after the last flight test.** It is two positive modifications to the Phase 3 contract, of 2,497,155.40 dollars on 12 November 2021 and 165,393.81 dollars on 15 December 2021 \[[DARPA Phase III contract][ref_usa_hr001118c0071]\]. Counting the 2 days left in October, the 30 of November and 15 in December gives the interval, and the share is taken against the three contracts' total.
 
-**The period of performance is another matter.** The Phase 3 contract runs to 31 October 2025, which is 1,463 days, or 4.01 years, after the recovery. **So the contract stayed open for four years after it stopped spending**, carried by modifications that move no money at all.
+$$
+2 + 30 + 15 = 47\ \text{days} , \qquad \frac{2{,}497{,}155.40 + 165{,}393.81}{82{,}680{,}983.37} = \frac{2{,}662{,}549.21}{82{,}680{,}983.37} = 0.0322
+$$
 
-**That is the opposite shape from the X-60A and the contrast is worth stating.** That programme obligated 30.1 percent of its money after it stopped being publicly visible, and its last positive line paid to ship equipment. **This one stopped paying almost immediately and stayed open anyway.** A contract that is open and unfunded is a different object from one that is quietly spending, and the two programmes are one of each.
+**The period of performance is another matter.** The Phase 3 contract runs to 31 October 2025 \[[DARPA Phase III contract][ref_usa_hr001118c0071]\], which is 1,463 days, or 4.01 years, after the recovery. Four years from 29 October 2021 include the leap day of February 2024, and two more days reach the end of the period. **So the contract stayed open for four years after it stopped spending**, carried by modifications that move no money at all.
+
+$$
+4 \times 365 + 1 + 2 = 1{,}463\ \text{days} , \qquad \frac{1{,}463\ \text{days}}{365.25\ \text{days per year}} = 4.01\ \text{years}
+$$
+
+**That is the opposite shape from the [X-60A][related_post_a357_generation_orbit_x60] and the contrast is worth stating.** That programme obligated 30.1 percent of its money after it stopped being publicly visible, and its last positive line paid to ship equipment. **This one stopped paying almost immediately and stayed open anyway.** A contract that is open and unfunded is a different object from one that is quietly spending, and the two programmes are one of each.
 
 ### The Turnaround, Where Two Sources Say Different Things
 
@@ -656,7 +710,11 @@ The agency's standing description of the concept is that after air retrieval the
 
 ## What the Programme Was Asked For and What It Delivered
 
-The Phase 3 demonstration objectives included **a final flight test to demonstrate the ability to recover 4 GAVs in under 30 minutes** \[[Kratos][ref_kratos_first_flight]\]. GAV is the contractor's abbreviation for Gremlins Air Vehicle, and that is one vehicle every 7.5 minutes.
+The Phase 3 demonstration objectives included **a final flight test to demonstrate the ability to recover 4 GAVs in under 30 minutes** \[[Kratos][ref_kratos_first_flight]\]. GAV is the contractor's abbreviation for Gremlins Air Vehicle, and that is one vehicle every 7.5 minutes. The achieved recovery came inside the 1.4 hour airborne recovery mission of the fourth series, which is 84 minutes, so the comparison is a quotient of two intervals.
+
+$$
+\frac{30\ \text{min}}{4} = 7.5\ \text{min} , \qquad 1.4\ \text{h} \times 60\ \text{min per hour} = 84\ \text{min} , \qquad \frac{84\ \text{min}}{7.5\ \text{min}} = 11.2
+$$
 
 The recovery that was achieved occurred inside a mission of 84 minutes that recovered one vehicle. **The ratio is 11.2, and the article says immediately that the flight was not an attempt at the rate.** The mission was an attempt to capture one vehicle once, which is the prerequisite, and it succeeded. **What the number measures is the distance between the prerequisite and the objective, and that distance is where the programme stopped.**
 
@@ -821,7 +879,11 @@ Three quantitative things follow from the record.
 
 **The refurbishment claim has one data point.** One vehicle was turned round and flown again within either twenty-four hours or twenty-four working hours, depending on which participant is describing it. **One instance of a twenty-fold reuse claim is not a demonstration of it and the article says so.**
 
-**And the fleet attrition is measured even though it is not a measure of the design.** Two of five airframes were lost in nine sorties, one to a parachute that is not part of the operational system and one to a power fault whose cause was found and fixed. **That is 22.2 percent per sortie on a first-of-type development article, and quoting it as a property of the vehicle would be a mistake.** It is quoted here because the twenty-use requirement is a reliability claim and this is the only reliability data the programme produced.
+**And the fleet attrition is measured even though it is not a measure of the design.** Two of five airframes were lost in nine sorties, one to a parachute that is not part of the operational system and one to a power fault whose cause was found and fixed. **That is 22.2 percent per sortie on a first-of-type development article, and quoting it as a property of the vehicle would be a mistake.** It is quoted here because the twenty-use requirement is a reliability claim and this is the only reliability data the programme produced. Setting that rate into the expected-sorties relation of the section on attrition gives the figures the next paragraph uses.
+
+$$
+\epsilon = \frac{2}{9} = 0.222 , \qquad \bar{n} = \frac{1 - \left( 7/9 \right)^{20}}{2/9} = 4.47 , \qquad \frac{\bar{n}}{N} = \frac{4.47}{20} = 0.224
+$$
 
 **And the two halves of that sentence meet.** A design life saturates against attrition, so a twenty-use requirement is only specifiable if the loss rate is well below five percent per sortie. **At the rate the development programme actually showed, a twenty-use airframe delivers 4.47 sorties**, which is 22.4 percent of what the requirement asks for. **Nobody claims that rate is what a mature system would show**, and this article does not either. What the record establishes is that the requirement and the only measured rate are on opposite sides of the point where the requirement stops meaning anything.
 
@@ -915,7 +977,7 @@ Each panel is 1.45 metres, which is 0.345 of the body it must lie along, and the
 
 **One further thing is absent rather than wrong.** The article has said nothing about what the vehicles were for. The payloads named in the public descriptions are electro-optical sensors, infrared imagers, electronic warfare systems and weapons, and the operational concept is a volley launched from outside the defended area. **That is the reason the programme was funded and it is almost entirely absent from the arithmetic above**, because none of it bears on whether the catch can be made.
 
-**And two of this article's own instruments have limits worth naming.** The loop analysis reaches a result that depends on an architectural choice the record does not report, so the article computes both branches and claims neither, which is weaker than it would like to be. **And the survey behind the keystone is a conference literature rather than an agency-report one**, at 25.4 percent from one aeronautical society and 18.4 percent from one engineering institute against 11.4 percent from the two agency report servers combined. **A reader who expected the report literature to carry this subject would be disappointed, and the reason is where the work was published.**
+**And two of this article's own instruments have limits worth naming.** The loop analysis reaches a result that depends on an architectural choice the record does not report, so the article computes both branches and claims neither, which is weaker than it would like to be. **And the survey behind the keystone is a conference literature rather than an agency-report one**, at 25.4 percent from one aeronautical society and 18.4 percent from one engineering institute against 11.4 percent from the two agency report servers combined, shares of the keystone cluster's records that the section headed Where the Primaries Are, and Where the Keystone's Literature Lives counts. **A reader who expected the report literature to carry this subject would be disappointed, and the reason is where the work was published.**
 
 ## The Source Base
 
@@ -1059,6 +1121,8 @@ Every symbol used in a display equation is declared in the table below with one 
 | $ R $ | range | metres |
 | $ m_i $ | mass at the start of a cruise segment | kilograms |
 | $ m_f $ | mass at the end of a cruise segment | kilograms |
+| $ m_b $ | mass of fuel burned over the whole mission | kilograms |
+| $ m_p $ | published payload capacity of the air vehicle | kilograms |
 | $ P_s $ | specific excess power | metres per second |
 | $ u $ | vertical gust velocity | metres per second |
 | $ \Delta n $ | incremental load factor produced by a gust | multiples of gravity |
@@ -1075,6 +1139,7 @@ Every symbol used in a display equation is declared in the table below with one 
 | $ C_r $ | refurbishment cost per use | dollars |
 | $ C_s $ | cost of one recovery sortie | dollars |
 | $ n_s $ | vehicles recovered in one recovery sortie | dimensionless |
+| $ N_d $ | docking attempts the public record implies | dimensionless |
 | $ C_{D_{\min}} $ | the drag coefficient at the best lift to drag ratio | dimensionless |
 | $ C_{L_{\mathrm{opt}}} $ | the lift coefficient at the best lift to drag ratio | dimensionless |
 | $ V_{\mathrm{md}} $ | speed at which the lift to drag ratio is largest | metres per second |
@@ -1159,7 +1224,7 @@ Every symbol used in a display equation is declared in the table below with one 
 
 **The recovery airspeed, altitude and aircraft weight are not published** and are taken as 200 knots, 10,000 feet and the mean of the C-130A's empty and maximum weights. The wake results scale with all three and the identity for the worst depth does not.
 
-**The cable's diameter and linear density are not published** and three combinations are carried rather than one.
+**The cable's diameter and linear density are not published** and three combinations are carried rather than one. The normal drag coefficient is taken as 1.2 and the tangential friction coefficient as 0.02, and the towed body is taken to weigh 50 kilograms and to have 200 newtons of drag.
 
 **The wing area, the lift to drag ratio, the zero-lift drag coefficient and the specific fuel consumption are not published.** The wing area is bounded rather than estimated, and the other three are varied across a band.
 
