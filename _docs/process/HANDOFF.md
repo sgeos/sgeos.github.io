@@ -11,12 +11,12 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `ef43822`
-- **Written**: 2026-10-09, by the X-Planes line, after the series consistency pass that followed the
-  drafting-process removal cycle and the repair cycles of 7 and 8 October.
+- **Parent commit** (the repository state this handoff describes): `327c67e`
+- **Written**: 2026-10-15, by the X-Planes line, after the early-survey retrofit of A297 to A317 and the
+  X-15 expansion, which followed the 9 October consistency pass.
 - **Tree at write**: clean apart from an untracked `.codex/` directory that is **not this line's** and must
   not be committed by it.
-- **PUSH STATE. EIGHT COMMITS ARE UNPUSHED, AND THIS FILE'S COMMIT MAKES NINE.** `origin/master` is at `573c583`.
+- **PUSH STATE. ONE COMMIT IS UNPUSHED, AND THIS FILE'S COMMIT MAKES TWO.** `origin/master` is at `0632fa0`.
   None publishes anything. **Push only on the pilot's instruction.**
 - **THE X-PLANES SERIES IS COMPLETE IN DRAFT AND HAS BEEN THROUGH TWO FULL REPAIR CYCLES.** All seventy-two
   articles, A297 through A368, have all four passes, and then the pilot's six decisions (7 October) and the
@@ -27,6 +27,7 @@ resuming agent. Read it first, validate it, then read the live channels.
   rendered audit has no findings. The A368 ledger holds 70 records with 0 failed quotations, and
   `verify368.py` passes 1,864 checks with 0 failures. Every article prints `check5.py` RESULT PASS, and
   every offline article verifier passes.
+- **THE FULL 72-DRAFT BUILD TAKES 109 SECONDS.** It took more than three hours before A308 and A317 were repaired.
 - **THE HANDOFF WAS RESTAMPED ON THE PILOT'S INSTRUCTION, "Update and restamp the handoff."**
 
 **Commit identifiers recorded in `_docs/` before 2026-08-09 are void.** History was rewritten that
@@ -212,6 +213,48 @@ FINDS.** A376's reference pass inserted blocks before named headings and produce
 subsections and four blocks filed under an unrelated heading. One duplicate said a quotation
 appeared "earlier" when it appeared forty-six lines later. **After any pass that inserts sections,
 dump the heading list and read it**, and check for repeated headings programmatically.
+
+## The 14 and 15 October Early-Survey Retrofit, Which Supersedes Every Survey Count Below
+
+**The pilot's decisions, quoted.** "1. Bring them up to the later standard. 2. Expand the X-15 article. 3. Push.
+4. Hold publication until all full series passes are complete." Committed as `327c67e`.
+
+- **Method.**
+  - The brief is `tmp/fix7/BRIEF13.md`. Its exemplar is A345, and it carries the cautions earned during the cycle.
+  - The coordinator log is `tmp/fix7/PROGRESS13.md`.
+  - Each article's pipeline, readings and progress file are in `tmp/a<NNN>/retrofit/`, and its verifier is
+    `tmp/a<NNN>/verify_survey.py`.
+- **Every title in all 21 surveys was read.** Samples under the 10-in-300 threshold understated contamination
+  three times: A298 at 3.0 against 3.7 percent, A300 at 2.7 against 4.8, and A297 at 4.0 against about 6.5.
+- **Totals.**
+  - The early articles' research records rose from 130 to 427 each to 3,895 to 10,138.
+  - The series went from 267,386 to 400,787.
+  - Author prose went from 758,580 to 798,438 words.
+- **The X-15 (A312) was expanded** from 13,440 to 17,219 words. Its notes are in `tmp/a312/e12/`.
+- **Label repair.** The working files are in `tmp/fix7/labelrep/`. Registry failures fell from 56 to 21, and the
+  21 left have non-Latin first authors, which are labelled by title by rule.
+- **Rejections were NOT merged into `_research/rejected.json`.** That store is applied to every later harvest,
+  and most retrofit rejections are relative to one article.
+- **RE-RUN HAZARDS.**
+  - `tmp/a307/retrofit/splice.py` rebuilds the review section from HEAD and would revert later edits.
+  - `tmp/a308/retrofit/build_refs.py` would restore truncated corporate labels.
+  - The fix for that builder's family-name bug lives only in A317's own copy.
+- **BUILD STALL, FIXED AND GATED.** A308 and A317 had their research definitions glued to the last list item, so
+  kramdown folded every definition into that item and its emphasis parser backtracked for hours.
+  - Each draft now has one blank line there.
+  - `_verify.py` now fails on `definition-glued-to-list`.
+- **The verifier runner `tmp/fix7/run_verifiers.py` had crashed silently** on a network script's timeout. It now
+  skips URL scripts and counts a timeout as a failure.
+- **Gates at `327c67e`.**
+  - check5 passes on all 72 articles.
+  - `_verify.py` reports 0 errors and 0 warnings.
+  - 104 offline verifiers pass.
+  - The ledger has 0 failed quotes, and `verify368` passes 1,864 checks.
+  - The full build takes 109 seconds and the rendered audit has no findings.
+- **Pending pilot decisions.**
+  - Optional label uniformity: NTRS full-name labels, and titled against untitled labels. Both predate this cycle.
+  - The push.
+  - Publication.
 
 ## The 9 October Consistency Pass, Which Supersedes Every Count Below
 
