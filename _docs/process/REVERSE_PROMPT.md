@@ -4,6 +4,81 @@
 
 ## Last Updated
 
+**Date**: 2026-10-15
+**Task**: **X-PLANES EARLY-SURVEY RETROFIT (A297 TO A317) AND X-15 EXPANSION.** Committed, NOT pushed, NOT published.
+
+**The pilot's decisions, quoted.** "1. Bring them up to the later standard. 2. Expand the X-15 article. 3. Push. 4. Hold publication until all full series passes are complete." The push was made on 9 October, taking `origin/master` to `0632fa0`.
+
+**X-15 (A312), expanded from the primary record.** It now runs to 17,219 words, against 13,440 before, with 136 display equations against 117, and 13 curated primaries against 9. The additions are these:
+- the flight programme by phase;
+- the X-15A-2 and its heat damage;
+- the probe behind the loss of flight 3-65;
+- the costs and the end of the programme;
+- the pilots and the astronaut-wing flights;
+- research results by discipline, from NASA SP-90, TN D-2532, TN D-3732, TM X-1705 and Jenkins SP-2000-4518.
+
+**SURVEY RETROFIT.** All 21 early articles now carry the A339-era survey form, with the X-48 article (A345) as exemplar. The brief is `tmp/fix7/BRIEF13.md`. Each article has:
+- a subject-specific harvest from Crossref, NTRS and DTIC, and OSTI for the X-6;
+- named clusters with `**N records.**` rows;
+- the Source Base subsections Definition of Primary, Thin Subjects and What the Survey Admits;
+- a recomputing `verify_survey.py` with mutation tests.
+
+**Totals.** Research records in these articles went from 130 to 427 each before to 3,895 to 10,138 after, and the series went from 267,386 to 400,787. Author prose across the series went from 758,580 to 798,438 words.
+
+**EVERY TITLE IN ALL 21 SURVEYS WAS READ.** The rule was tightened on 14 October, because samples below the 10-in-300 threshold understated contamination three times:
+
+| Article | Sample | Full reading |
+|---|---|---|
+| A298 | 3.0 percent | 3.7 percent |
+| A300 | 2.7 percent | 4.8 percent |
+| A297 | 4.0 percent | about 6.5 percent off topic in the records read after the sample |
+
+**Corrections the reading forced, beyond the surveys:**
+- A300's "seven reports, close to the whole record" became 19 X-3 reports.
+- A304's "Bomarc engine" became the XRJ47-W-5, per the report's own title.
+- A297's Taxonomy listed the X-33 and the X-57 as aircraft that flew. They are now named as the two non-flying full treatments.
+- A311's Anderson 1960 was described inconsistently and is now described from its NTRS abstract.
+- A307's "these studies all identify flights per article" was unsupported and is now stated as the amortisation relation.
+- A309 dropped the applied satellite gravimetry, that is hydrology, ice and earthquake uses, and removed a contradiction with its own thin-subject table.
+- In most of the 21 articles, citations were described as surveys or findings their titles do not support. Each was reworded, and each change is quoted in that article's drafting notes.
+- Off-topic records cited in prose were removed together with their sentences.
+- Papers on the vehicles themselves were found for the X-13, the X-18 and the X-19. Each is cited by title, and none was read.
+
+**LABEL REPAIR.** Registry lead-author failures in A297 to A317 went from 56 to 21. The 21 that remain have non-Latin first authors and are labelled by title under `_lib/refs.py`. The repairs covered these:
+- corporate names cut short by a reference builder, such as "Arbor 1963";
+- wrong years;
+- malformed full-name labels.
+
+The ISRO special-issue news notice was removed from A297, A304 and A307.
+
+**A368 AND A349.**
+- **A368.** The ledger relocated with 0 failed quotes, and A316's headline was pinned to its Conclusion line. `calc368` is unchanged, and `verify368` passes 1,864 checks.
+- **A349.** Its live B-52 count went to 20 of 52 articles, 38.5 percent and 49 mentions, because the new survey titles name the B-52 as a carrier aircraft.
+
+**GATES.**
+- `check5` passes on all 72 articles, and `_verify.py` reports 0 errors and 0 warnings.
+- All 104 offline verifiers pass. The runner had crashed on a network script's timeout and silently skipped A305 onward; it is fixed and was rerun.
+- The A313 to A317 `check.py` files pass, and `final_sweep` hits are subject matter only.
+- **BUILD.** All 72 drafts build in full in 109 seconds, and the rendered audit finds nothing across 544 pages.
+  - **Two drafts had stalled the build for over three hours.** In A308 and A317 the research link definitions began on
+    the line directly after the last list item, with no blank line. Kramdown folded every definition into that item,
+    so all their citations would have rendered unresolved, and its emphasis parser backtracked over the giant span.
+  - **The fix** is one blank line in each draft. A new `_verify.py` check, `definition-glued-to-list`, now fails on
+    this shape, and a negative test confirms it does. `check5` and `_verify.py` had both passed these two drafts.
+  - **The verifier runner had crashed silently.** It hit a network script's timeout and skipped A305 onward. It now
+    skips URL scripts and counts a timeout as a failure.
+
+**DECISIONS AND RECORDS.**
+- **Rejections stay per article.** The retrofit rejections were NOT merged into `_research/rejected.json`. That store is applied globally to every future harvest, and most of these rejections are relative to one article. Rotorcraft, for example, is off topic for the X-3 but central for the X-19.
+- **Re-run hazards.** `tmp/a307/retrofit/splice.py` rebuilds from HEAD and would revert later edits. `tmp/a308/retrofit/build_refs.py` would restore the truncated labels.
+
+**NEEDS THE PILOT'S DECISION.**
+1. **Label uniformity.** NTRS records carry full-name labels in about 35 articles, and some articles append titles to labels. Both predate this cycle. Making them uniform would be a separate series-wide cycle.
+2. **Push.** The new commits are unpushed.
+3. **Publication.** It remains held.
+
+---
+
 **Date**: 2026-10-09 (fourth entry)
 **Task**: **X-PLANES SERIES CONSISTENCY PASS: DEPTH IN PROPORTION TO THE RECORD, PRIMARY SOURCING, EQUATION AND REFERENCE DENSITY.** NOT pushed, NOT published.
 

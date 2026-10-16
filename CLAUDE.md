@@ -40,7 +40,7 @@ python3 _verify.py --strict  # treat warnings as errors too
 ```
 
 Checks date collisions, filename versus front matter dates, UTC offsets, reference integrity,
-link-definition ordering, duplicate article numbers, shadowed first categories, math validity,
+link-definition ordering, link definitions glued to a list item, duplicate article numbers, shadowed first categories, math validity,
 prose style, word-frequency outliers, display equations demoted to inline math, survey cluster
 rows against their own citation counts, and the drafted count a resume channel states against the
 drafts actually on disk. Every check exists because that defect actually

@@ -316,6 +316,24 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
                 rep.error("anchor-order", f"{name}: link definitions not sorted (block at line {r[0]+1})")
                 break
 
+    # A definition glued to the list item above it is not a definition. With no
+    # blank line between the last `- [text][anchor]` item and the first
+    # `[anchor]: url` line, kramdown reads every following definition as lazy
+    # continuation of that item. All of them then render as text, every citation
+    # to them is unresolved, and the one giant span full of anchor underscores
+    # sends kramdown's emphasis parser into backtracking that did not finish in
+    # three hours. This happened to A308 and A317 on 15 October 2026 in the survey
+    # retrofit, and check5 and this script both passed them. Corpus-wide count
+    # when added, after the repair: zero.
+    for i in range(1, len(lines)):
+        prev = lines[i - 1].lstrip()
+        if DEF_RE.match(lines[i]) and prev and not DEF_RE.match(lines[i - 1]) \
+                and prev.startswith(("- ", "* ", "+ ")):
+            rep.error("definition-glued-to-list",
+                      f"{name}: line {i+1}: link definition directly follows a list item with no blank line; "
+                      f"kramdown folds every later definition into that item")
+            break
+
     # A link definition renders as NOTHING. A reference block holding only
     # `[anchor]: url` lines produces a heading with empty subheadings and no
     # visible references at all. This shipped live in A369, which served 1,765
